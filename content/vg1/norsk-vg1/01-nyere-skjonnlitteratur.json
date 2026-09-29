@@ -4,82 +4,436 @@
   "trinnId": "vg1",
   "name": "Nyere skjønnlitteratur",
   "intro": "Hvordan du leser, analyserer og tolker nyere romaner, noveller og dikt på bokmål og nynorsk og i oversettelse – med forteller, komposisjon, personskildring, virkemidler, tema og budskap.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Hva er nyere skjønnlitteratur?\n\nMed **nyere skjønnlitteratur** menes gjerne litteratur fra de siste tiårene. Den er mangfoldig: **romaner**, **noveller**, **kortprosa**, **dikt** og **drama**, skrevet på **bokmål** og **nynorsk** og **oversatt** fra samisk og andre språk. Noen kjennetegn ved samtidslitteraturen er\n\n- **autofiksjon** – tekster som blander forfatterens eget liv med fiksjon, kjent fra Karl Ove Knausgårds *Min kamp*\n- **åpne slutter** og **fragmentert komposisjon**\n- **fritt vers** i lyrikken, ofte med hverdagsspråk\n- temaer som **identitet**, **klima**, **teknologi**, **familie** og **tilhørighet**\n\n**Jon Fosse**, som skriver på **nynorsk**, fikk **Nobelprisen i litteratur** i 2023. Fra samisk litteratur er **Nils-Aslak Valkeapää** kjent for diktsamlingen *Beaivi, áhčážan* («Solen, min far»), som fikk Nordisk råds litteraturpris.\n\n## Å analysere prosa\n\nEn **analyse** undersøker hvordan teksten er bygd opp og hva den handler om. Nyttige begreper:\n\n- **Forteller og synsvinkel**: En **førstepersonsforteller** («jeg») forteller fra innsiden. En **tredjepersonsforteller** kan være **allvitende** eller følge én person tett (**personal** forteller). Kan vi stole på fortelleren? En **upålitelig forteller** gir et skjevt bilde.\n- **Komposisjon**: Starter teksten **in medias res** – midt i handlingen? Brukes **tilbakeblikk** eller **frampek**? Er fortellingen **kronologisk**?\n- **Personskildring**: **Direkte** karakteristikk forteller hvordan en person er. **Indirekte** karakteristikk viser det gjennom handlinger, replikker og tanker.\n- **Miljø og tid**: Hvor og når foregår handlingen, og hva betyr det?\n- **Språklige virkemidler**: **symbol**, **metafor**, **kontrast**, **gjentakelse**, **ironi**.\n\n## Å analysere lyrikk\n\nI dikt ser man på **lyrisk jeg**, **bilder** (metaforer og sammenligninger), **rytme**, **klang**, **linjedeling** og **strofer**. I moderne lyrikk er det ofte **få ord** og **mye mellomrom** – det usagte er en del av meningen.\n\n## Fra analyse til tolkning\n\n- **Motiv** er den konkrete situasjonen: for eksempel en ung person som flytter hjemmefra.\n- **Tema** er det teksten handler om på et mer allment nivå: for eksempel løsrivelse eller ensomhet.\n- **Budskap** er det teksten kan si oss om temaet.\n\nEn **tolkning** må **begrunnes** med eksempler og sitater fra teksten. Ulike lesere kan tolke samme tekst ulikt, og det er ofte flere gode tolkninger.\n\n## Å lese oversatt litteratur\n\nEn **oversettelse** er alltid en form for tolkning. Oversetteren må velge ord som gjengir både innhold, stemning og rytme. Når du leser oversatt litteratur, kan du spørre: Hva sier teksten om **kulturen** den kommer fra? Hva kan ha gått tapt i oversettelsen?",
   "flashcards": [
-    { "term": "Autofiksjon", "def": "Litteratur som blander forfatterens eget liv med fiksjon." },
-    { "term": "Kortprosa", "def": "Svært korte prosatekster, ofte med ett bilde eller én situasjon." },
-    { "term": "Fritt vers", "def": "Lyrikk uten fast rim og rytme." },
-    { "term": "Førstepersonsforteller", "def": "Forteller som er en person i teksten og sier «jeg»." },
-    { "term": "Allvitende forteller", "def": "Tredjepersonsforteller som vet alt om alle personene." },
-    { "term": "Personal forteller", "def": "Tredjepersonsforteller som følger én persons tanker og opplevelser." },
-    { "term": "Upålitelig forteller", "def": "Forteller som gir et skjevt eller uriktig bilde av hendelsene." },
-    { "term": "In medias res", "def": "Når en fortelling starter midt i handlingen." },
-    { "term": "Frampek", "def": "Hint om noe som skal skje senere i teksten." },
-    { "term": "Indirekte karakteristikk", "def": "Personskildring gjennom handlinger, replikker og tanker." },
-    { "term": "Symbol", "def": "Noe konkret som står for noe mer, for eksempel en due for fred." },
-    { "term": "Lyrisk jeg", "def": "Stemmen som taler i et dikt." },
-    { "term": "Motiv", "def": "Den konkrete situasjonen i en tekst." },
-    { "term": "Tema", "def": "Det teksten handler om på et allment nivå, for eksempel ensomhet." },
-    { "term": "Tolkning", "def": "En begrunnet forståelse av hva teksten betyr." }
+    {
+      "term": "Autofiksjon",
+      "def": "Litteratur som blander forfatterens eget liv med fiksjon."
+    },
+    {
+      "term": "Kortprosa",
+      "def": "Svært korte prosatekster, ofte med ett bilde eller én situasjon."
+    },
+    {
+      "term": "Fritt vers",
+      "def": "Lyrikk uten fast rim og rytme."
+    },
+    {
+      "term": "Førstepersonsforteller",
+      "def": "Forteller som er en person i teksten og sier «jeg»."
+    },
+    {
+      "term": "Allvitende forteller",
+      "def": "Tredjepersonsforteller som vet alt om alle personene."
+    },
+    {
+      "term": "Personal forteller",
+      "def": "Tredjepersonsforteller som følger én persons tanker og opplevelser."
+    },
+    {
+      "term": "Upålitelig forteller",
+      "def": "Forteller som gir et skjevt eller uriktig bilde av hendelsene."
+    },
+    {
+      "term": "In medias res",
+      "def": "Når en fortelling starter midt i handlingen."
+    },
+    {
+      "term": "Frampek",
+      "def": "Hint om noe som skal skje senere i teksten."
+    },
+    {
+      "term": "Indirekte karakteristikk",
+      "def": "Personskildring gjennom handlinger, replikker og tanker."
+    },
+    {
+      "term": "Symbol",
+      "def": "Noe konkret som står for noe mer, for eksempel en due for fred."
+    },
+    {
+      "term": "Lyrisk jeg",
+      "def": "Stemmen som taler i et dikt."
+    },
+    {
+      "term": "Motiv",
+      "def": "Den konkrete situasjonen i en tekst."
+    },
+    {
+      "term": "Tema",
+      "def": "Det teksten handler om på et allment nivå, for eksempel ensomhet."
+    },
+    {
+      "term": "Tolkning",
+      "def": "En begrunnet forståelse av hva teksten betyr."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er autofiksjon?", "options": ["Litteratur om biler", "Litteratur som blander forfatterens eget liv med fiksjon", "Litteratur skrevet av en datamaskin", "Fantasy"], "correct": 1, "explain": "Knausgårds Min kamp er et kjent eksempel." },
-    { "id": "q02", "text": "Hvilken norsk forfatter fikk Nobelprisen i litteratur i 2023?", "options": ["Jon Fosse", "Karl Ove Knausgård", "Maja Lunde", "Lars Saabye Christensen"], "correct": 0, "explain": "Fosse skriver på nynorsk." },
-    { "id": "q03", "text": "Hva betyr in medias res?", "options": ["At teksten har åpen slutt", "At teksten er kronologisk", "At fortellingen starter midt i handlingen", "At teksten er oversatt"], "correct": 2, "explain": "Leseren kastes rett inn i en situasjon." },
-    { "id": "q04", "text": "Hva er forskjellen på motiv og tema?", "options": ["Det er det samme", "Tema er den konkrete situasjonen", "Motiv er budskapet", "Motiv er den konkrete situasjonen, tema er det allmenne teksten handler om"], "correct": 3, "explain": "Motiv: en ungdom flytter hjemmefra. Tema: løsrivelse." },
-    { "id": "q05", "text": "Hva kjennetegner en personal tredjepersonsforteller?", "options": ["Fortelleren følger én persons tanker og opplevelser tett", "Fortelleren sier «jeg»", "Fortelleren vet alt om alle", "Fortelleren snakker direkte til leseren"], "correct": 0, "explain": "Leseren ser verden gjennom én person, men i tredjeperson." },
-    { "id": "q06", "text": "Hva er indirekte karakteristikk?", "options": ["At fortelleren sier rett ut hvordan en person er", "At personen ikke har navn", "At personen skildres gjennom handlinger, replikker og tanker", "At personen er ond"], "correct": 2, "explain": "Leseren må selv slutte seg til hvordan personen er." },
-    { "id": "q07", "text": "Hva må en god tolkning inneholde?", "options": ["Bare egne meninger", "Begrunnelser med eksempler og sitater fra teksten", "Et sammendrag av handlingen", "Forfatterens biografi"], "correct": 1, "explain": "En tolkning må forankres i teksten." },
-    { "id": "q08", "text": "Hva er en upålitelig forteller?", "options": ["En forteller som gir et skjevt eller uriktig bilde av hendelsene", "En forteller som lyver om forfatteren", "En allvitende forteller", "En forteller som ikke finnes"], "correct": 0, "explain": "Leseren må lese mellom linjene." },
-    { "id": "q09", "text": "Hva er fritt vers?", "options": ["Dikt som er gratis", "Dikt med fast rim", "Dikt skrevet på dialekt", "Lyrikk uten fast rim og rytme"], "correct": 3, "explain": "Fritt vers er vanlig i moderne lyrikk." },
-    { "id": "q10", "text": "Hvorfor kan en oversettelse kalles en tolkning?", "options": ["Fordi oversetteren må velge ord som gjengir innhold, stemning og rytme", "Fordi oversetteren endrer handlingen", "Fordi oversettelser alltid er feil", "Fordi den er skrevet på nynorsk"], "correct": 0, "explain": "Ord har sjelden helt like betydninger på to språk." }
+    {
+      "id": "q01",
+      "text": "Hva er autofiksjon?",
+      "options": [
+        "Litteratur om biler",
+        "Litteratur som blander forfatterens eget liv med fiksjon",
+        "Litteratur skrevet av en datamaskin",
+        "Fantasy"
+      ],
+      "correct": 1,
+      "explain": "Knausgårds Min kamp er et kjent eksempel."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken norsk forfatter fikk Nobelprisen i litteratur i 2023?",
+      "options": [
+        "Jon Fosse",
+        "Karl Ove Knausgård",
+        "Maja Lunde",
+        "Lars Saabye Christensen"
+      ],
+      "correct": 0,
+      "explain": "Fosse skriver på nynorsk."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr in medias res?",
+      "options": [
+        "At teksten har åpen slutt",
+        "At teksten er kronologisk",
+        "At fortellingen starter midt i handlingen",
+        "At teksten er oversatt"
+      ],
+      "correct": 2,
+      "explain": "Leseren kastes rett inn i en situasjon."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er forskjellen på motiv og tema?",
+      "options": [
+        "Det er det samme",
+        "Tema er den konkrete situasjonen",
+        "Motiv er budskapet",
+        "Motiv er den konkrete situasjonen, tema er det allmenne teksten handler om"
+      ],
+      "correct": 3,
+      "explain": "Motiv: en ungdom flytter hjemmefra. Tema: løsrivelse."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner en personal tredjepersonsforteller?",
+      "options": [
+        "Fortelleren følger én persons tanker og opplevelser tett",
+        "Fortelleren sier «jeg»",
+        "Fortelleren vet alt om alle",
+        "Fortelleren snakker direkte til leseren"
+      ],
+      "correct": 0,
+      "explain": "Leseren ser verden gjennom én person, men i tredjeperson."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er indirekte karakteristikk?",
+      "options": [
+        "At fortelleren sier rett ut hvordan en person er",
+        "At personen ikke har navn",
+        "At personen skildres gjennom handlinger, replikker og tanker",
+        "At personen er ond"
+      ],
+      "correct": 2,
+      "explain": "Leseren må selv slutte seg til hvordan personen er."
+    },
+    {
+      "id": "q07",
+      "text": "Hva må en god tolkning inneholde?",
+      "options": [
+        "Bare egne meninger",
+        "Begrunnelser med eksempler og sitater fra teksten",
+        "Et sammendrag av handlingen",
+        "Forfatterens biografi"
+      ],
+      "correct": 1,
+      "explain": "En tolkning må forankres i teksten."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en upålitelig forteller?",
+      "options": [
+        "En forteller som gir et skjevt eller uriktig bilde av hendelsene",
+        "En forteller som lyver om forfatteren",
+        "En allvitende forteller",
+        "En forteller som ikke finnes"
+      ],
+      "correct": 0,
+      "explain": "Leseren må lese mellom linjene."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er fritt vers?",
+      "options": [
+        "Dikt som er gratis",
+        "Dikt med fast rim",
+        "Dikt skrevet på dialekt",
+        "Lyrikk uten fast rim og rytme"
+      ],
+      "correct": 3,
+      "explain": "Fritt vers er vanlig i moderne lyrikk."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan en oversettelse kalles en tolkning?",
+      "options": [
+        "Fordi oversetteren må velge ord som gjengir innhold, stemning og rytme",
+        "Fordi oversetteren endrer handlingen",
+        "Fordi oversettelser alltid er feil",
+        "Fordi den er skrevet på nynorsk"
+      ],
+      "correct": 0,
+      "explain": "Ord har sjelden helt like betydninger på to språk."
+    }
   ],
   "mindmap": {
     "label": "Nyere skjønnlitteratur",
     "children": [
-      { "label": "Kjennetegn", "children": [
-        { "label": "Autofiksjon" },
-        { "label": "Åpne slutter" },
-        { "label": "Fritt vers" },
-        { "label": "Identitet og klima" }
-      ] },
-      { "label": "Prosaanalyse", "children": [
-        { "label": "Forteller og synsvinkel" },
-        { "label": "Komposisjon" },
-        { "label": "Personskildring" },
-        { "label": "Miljø og tid" }
-      ] },
-      { "label": "Lyrikk", "children": [
-        { "label": "Lyrisk jeg" },
-        { "label": "Bilder" },
-        { "label": "Linjedeling" }
-      ] },
-      { "label": "Tolkning", "children": [
-        { "label": "Motiv" },
-        { "label": "Tema" },
-        { "label": "Budskap" },
-        { "label": "Sitater" }
-      ] },
-      { "label": "Språk", "children": [
-        { "label": "Bokmål og nynorsk" },
-        { "label": "Samisk" },
-        { "label": "Oversettelse" }
-      ] }
+      {
+        "label": "Kjennetegn",
+        "children": [
+          {
+            "label": "Autofiksjon"
+          },
+          {
+            "label": "Åpne slutter"
+          },
+          {
+            "label": "Fritt vers"
+          },
+          {
+            "label": "Identitet og klima"
+          }
+        ]
+      },
+      {
+        "label": "Prosaanalyse",
+        "children": [
+          {
+            "label": "Forteller og synsvinkel"
+          },
+          {
+            "label": "Komposisjon"
+          },
+          {
+            "label": "Personskildring"
+          },
+          {
+            "label": "Miljø og tid"
+          }
+        ]
+      },
+      {
+        "label": "Lyrikk",
+        "children": [
+          {
+            "label": "Lyrisk jeg"
+          },
+          {
+            "label": "Bilder"
+          },
+          {
+            "label": "Linjedeling"
+          }
+        ]
+      },
+      {
+        "label": "Tolkning",
+        "children": [
+          {
+            "label": "Motiv"
+          },
+          {
+            "label": "Tema"
+          },
+          {
+            "label": "Budskap"
+          },
+          {
+            "label": "Sitater"
+          }
+        ]
+      },
+      {
+        "label": "Språk",
+        "children": [
+          {
+            "label": "Bokmål og nynorsk"
+          },
+          {
+            "label": "Samisk"
+          },
+          {
+            "label": "Oversettelse"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En tekst kan ha flere gode tolkninger.", "correct": true, "explain": "Så lenge tolkningene er godt begrunnet i teksten." },
-      { "id": "m02", "type": "sant-usant", "text": "En førstepersonsforteller er alltid allvitende.", "correct": false, "explain": "En førstepersonsforteller vet vanligvis bare det jeg-personen opplever." },
-      { "id": "m03", "type": "sant-usant", "text": "Nils-Aslak Valkeapää er en samisk forfatter.", "correct": true, "explain": "Han er kjent for diktsamlingen Beaivi, áhčážan." },
-      { "id": "m04", "type": "sant-usant", "text": "Et frampek forteller om noe som har skjedd tidligere.", "correct": false, "explain": "Det er et tilbakeblikk. Et frampek hinter om noe som kommer." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er et symbol i litteraturen?", "options": ["Et bilde på forsiden", "Noe konkret som står for noe mer", "En type rim", "Et kapittel"], "correct": 1, "explain": "For eksempel kan et tomt hus symbolisere ensomhet." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er kortprosa?", "options": ["Svært korte prosatekster", "Lange romaner", "Dikt med rim", "Skuespill"], "correct": 0, "explain": "Kortprosa fanger ofte én situasjon eller ett bilde." },
-      { "id": "m07", "type": "flervalg", "text": "Hvem er stemmen som taler i et dikt?", "options": ["Forfatteren alltid", "Leseren", "Det lyriske jeget", "Oversetteren"], "correct": 2, "explain": "Det lyriske jeget er ikke nødvendigvis det samme som forfatteren." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En tekst kan ha flere gode tolkninger.",
+        "correct": true,
+        "explain": "Så lenge tolkningene er godt begrunnet i teksten."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En førstepersonsforteller er alltid allvitende.",
+        "correct": false,
+        "explain": "En førstepersonsforteller vet vanligvis bare det jeg-personen opplever."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Nils-Aslak Valkeapää er en samisk forfatter.",
+        "correct": true,
+        "explain": "Han er kjent for diktsamlingen Beaivi, áhčážan."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et frampek forteller om noe som har skjedd tidligere.",
+        "correct": false,
+        "explain": "Det er et tilbakeblikk. Et frampek hinter om noe som kommer."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et symbol i litteraturen?",
+        "options": [
+          "Et bilde på forsiden",
+          "Noe konkret som står for noe mer",
+          "En type rim",
+          "Et kapittel"
+        ],
+        "correct": 1,
+        "explain": "For eksempel kan et tomt hus symbolisere ensomhet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er kortprosa?",
+        "options": [
+          "Svært korte prosatekster",
+          "Lange romaner",
+          "Dikt med rim",
+          "Skuespill"
+        ],
+        "correct": 0,
+        "explain": "Kortprosa fanger ofte én situasjon eller ett bilde."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvem er stemmen som taler i et dikt?",
+        "options": [
+          "Forfatteren alltid",
+          "Leseren",
+          "Det lyriske jeget",
+          "Oversetteren"
+        ],
+        "correct": 2,
+        "explain": "Det lyriske jeget er ikke nødvendigvis det samme som forfatteren."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En prosatekst er svært kort og skildrer bare én situasjon. Hvilket litterært begrep passer best på teksten, og hva kjennetegner slike tekster?",
+        "fasit": "Teksten kan kalles kortprosa. Kortprosa er svært korte prosatekster, ofte med ett bilde eller én situasjon.",
+        "kriterier": [
+          "Identifiserer teksten som kortprosa.",
+          "Forklarer at kortprosa er svært kort og ofte samler seg om ett bilde eller én situasjon."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I en fortelling får leseren vite hva flere personer tenker, selv om personene ikke sier tankene høyt. Hvilken type forteller kan dette være, og hva kan fortelleren vite?",
+        "fasit": "Det kan være en allvitende forteller. En allvitende forteller kan vite alt om alle personene.",
+        "kriterier": [
+          "Identifiserer fortelleren som allvitende.",
+          "Forklarer at fortelleren kan kjenne tankene eller andre forhold hos flere personer."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I en fortelling tenker en person: «Snart skal jeg få vite hvem som sendte brevet.» Hvilket komposisjonsgrep kan dette være, og hvorfor?",
+        "fasit": "Det kan være et frampek, fordi tanken gir et hint om noe som skal skje senere i fortellingen.",
+        "kriterier": [
+          "Identifiserer frampek.",
+          "Forklarer at det gir et hint om noe som skjer senere."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En due dukker opp flere ganger i et dikt. Bruk eksempelet til å forklare hva et symbol er, og hva duen kan stå for.",
+        "fasit": "Et symbol er noe konkret som står for noe mer. En due kan for eksempel være et symbol på fred.",
+        "kriterier": [
+          "Forklarer at et symbol er noe konkret som viser til en større betydning.",
+          "Knytter duen til fred."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et dikt inneholder en stemme som forteller om opplevelser. Hva kalles stemmen i diktet, og hva viser begrepet til?",
+        "fasit": "Stemmen kalles et lyrisk jeg. Begrepet viser til stemmen som taler i diktet.",
+        "kriterier": [
+          "Bruker begrepet lyrisk jeg.",
+          "Forklarer at det er stemmen som taler i diktet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En tekst har ensomhet som tema. Forklar hva et budskap er, og hvordan det kan henge sammen med temaet ensomhet.",
+        "fasit": "Et budskap er det teksten kan si oss om temaet. Om ensomhet kan budskapet for eksempel si noe om hvordan ensomhet påvirker mennesker.",
+        "kriterier": [
+          "Forklarer at budskapet er det teksten kan si om temaet.",
+          "Viser en relevant sammenheng mellom budskapet og ensomhet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Nevn ulike former og språk nyere skjønnlitteratur kan ha, og forklar kort hvorfor den kan beskrives som mangfoldig.",
+        "fasit": "Nyere skjønnlitteratur kan være romaner, noveller, kortprosa, dikt og drama. Den kan være skrevet på bokmål eller nynorsk, eller være oversatt fra samisk og andre språk.",
+        "kriterier": [
+          "Nevner flere ulike litterære former.",
+          "Får fram at litteraturen kan være skrevet på bokmål eller nynorsk og/eller oversatt fra samisk eller andre språk."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I et moderne dikt er det få ord og store mellomrom mellom linjene. Forklar hvordan mellomrommene kan være en del av meningen.",
+        "fasit": "I moderne lyrikk kan det usagte være en del av meningen. Mellomrommene kan derfor gi rom for det diktet ikke sier direkte.",
+        "kriterier": [
+          "Får fram at det usagte kan være en del av meningen.",
+          "Knytter mellomrommene til det som ikke blir sagt direkte."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

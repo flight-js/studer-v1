@@ -4,77 +4,421 @@
   "trinnId": "vg2",
   "name": "Miljø og bærekraftig vekst",
   "intro": "Sammenhengen mellom økonomisk aktivitet og miljøutfordringer: eksterne virkninger, markedssvikt og fellesgoder, virkemidler som avgifter, kvoter, subsidier og reguleringer – og hva som skal til for å oppnå bærekraftig vekst og utvikling.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Økonomi og miljø\n\nAll produksjon og alt forbruk bruker **ressurser** og gir **utslipp**. Økonomisk vekst har gitt høyere levestandard, men også **klimaendringer**, **forurensning** og **tap av natur**. **Bærekraftig utvikling** betyr å dekke dagens behov uten å ødelegge mulighetene for **framtidige generasjoner**.\n\n## Eksterne virkninger\n\nEn **ekstern virkning** oppstår når en aktivitet påvirker **andre** enn dem som kjøper og selger, uten at det gjenspeiles i **prisen**.\n\n- **Negative** eksterne virkninger: utslipp av CO₂ fra en fabrikk eller støy fra en flyplass. Den som forurenser, betaler ikke for skaden.\n- **Positive** eksterne virkninger: forskning som andre kan bruke, eller en vaksine som også beskytter andre.\n\nNår prisen ikke tar med **samfunnets** kostnader, blir det produsert **for mye** av det som forurenser. Dette er en form for **markedssvikt**.\n\n## Fellesgoder og allmenningens tragedie\n\n**Fellesgoder**, som **ren luft** og et **stabilt klima**, kan brukes av alle, og ingen kan utestenges. Da har hver enkelt lite grunn til å ta vare på dem. **Allmenningens tragedie** beskriver hvordan felles ressurser, som fiskebestander, blir **overbeskattet** når alle tar litt for mye.\n\n## Virkemidler\n\n- **Avgifter**: Myndighetene kan legge en **avgift** på utslippene, som **CO₂-avgiften**. Da må forurenseren betale for skaden – prinsippet om at **forurenser betaler**. Avgiften gir insentiv til å kutte utslipp der det er **billigst**.\n- **Kvoter**: Myndighetene setter et **tak** på samlede utslipp og deler ut eller selger **utslippskvoter** som kan **omsettes**. Norge er med i **EUs kvotesystem** for industri, kraft og luftfart.\n- **Subsidier**: Støtte til **miljøvennlige** løsninger, som fritak for avgifter på **elbiler** eller støtte til ny teknologi.\n- **Reguleringer og forbud**: krav til utslipp, forbud mot bestemte stoffer eller krav om energieffektive bygg.\n- **Forskning og innovasjon**: Ny teknologi kan gjøre det billigere å kutte utslipp.\n- **Informasjon** og **merking** kan hjelpe forbrukerne å velge miljøvennlig.\n\nHvert virkemiddel har fordeler og ulemper. Avgifter og kvoter er **kostnadseffektive**, men kan ramme dem med **lav inntekt** hardest. Subsidier er populære, men koster **statskassen** penger.\n\n## Bærekraftig vekst\n\nFor å få **bærekraftig vekst** må verdiskapingen **avkobles** fra utslipp og ressursbruk – altså øke **uten** at utslippene øker. Viktige veier dit er\n\n- **fornybar energi** i stedet for fossil\n- **sirkulær økonomi** med gjenbruk, reparasjon og resirkulering\n- **energieffektivisering**\n- **ny teknologi**, som karbonfangst og lagring\n\nEn utfordring er **tilbakeslagseffekten**: Når noe blir mer effektivt og billigere, kan vi bruke **mer** av det, slik at gevinsten for miljøet blir mindre.\n\n## Internasjonalt samarbeid\n\nKlimaendringene er et **globalt** problem. Ett land kan ikke løse det alene, og det er fristende å la andre ta kostnadene – å være **gratispassasjer**. **Parisavtalen** fra 2015 har som mål å begrense den globale oppvarmingen til godt under **2 grader**. Norge har forpliktet seg til store **utslippskutt**, blant annet i samarbeid med EU.\n\n## Dilemmaer for Norge\n\nNorge tjener mye på å eksportere **olje og gass**, som gir utslipp når de brennes i andre land. Samtidig har Norge **vannkraft** og gode forutsetninger for **grønn industri**. Hvordan Norge skal balansere **verdiskaping**, **arbeidsplasser** og **klimaansvar**, er et sentralt politisk spørsmål.",
   "flashcards": [
-    { "term": "Bærekraftig utvikling", "def": "Dekke dagens behov uten å ødelegge for framtidige generasjoner." },
-    { "term": "Ekstern virkning", "def": "En aktivitet påvirker andre uten at det gjenspeiles i prisen." },
-    { "term": "Negativ ekstern virkning", "def": "For eksempel forurensning som rammer andre." },
-    { "term": "Markedssvikt", "def": "Når markedet ikke gir et samfunnsøkonomisk godt resultat." },
-    { "term": "Fellesgode", "def": "Gode alle kan bruke og ingen kan utestenges fra, som ren luft." },
-    { "term": "Allmenningens tragedie", "def": "Felles ressurser overbeskattes når alle tar litt for mye." },
-    { "term": "Forurenser betaler", "def": "Prinsipp om at den som forurenser, skal betale for skaden." },
-    { "term": "CO₂-avgift", "def": "Avgift på utslipp av karbondioksid." },
-    { "term": "Utslippskvote", "def": "Rett til å slippe ut en viss mengde, som kan kjøpes og selges." },
-    { "term": "EUs kvotesystem", "def": "Kvotemarked for industri, kraft og luftfart som Norge er med i." },
-    { "term": "Kostnadseffektiv", "def": "Utslippene kuttes der det er billigst." },
-    { "term": "Avkobling", "def": "Verdiskapingen øker uten at utslippene øker." },
-    { "term": "Tilbakeslagseffekt", "def": "Effektivisering gjør noe billigere, så vi bruker mer av det." },
-    { "term": "Gratispassasjer", "def": "Å nyte godt av andres innsats uten å bidra selv." },
-    { "term": "Parisavtalen", "def": "Klimaavtale fra 2015 om å begrense oppvarmingen til godt under 2 grader." }
+    {
+      "term": "Bærekraftig utvikling",
+      "def": "Dekke dagens behov uten å ødelegge for framtidige generasjoner."
+    },
+    {
+      "term": "Ekstern virkning",
+      "def": "En aktivitet påvirker andre uten at det gjenspeiles i prisen."
+    },
+    {
+      "term": "Negativ ekstern virkning",
+      "def": "For eksempel forurensning som rammer andre."
+    },
+    {
+      "term": "Markedssvikt",
+      "def": "Når markedet ikke gir et samfunnsøkonomisk godt resultat."
+    },
+    {
+      "term": "Fellesgode",
+      "def": "Gode alle kan bruke og ingen kan utestenges fra, som ren luft."
+    },
+    {
+      "term": "Allmenningens tragedie",
+      "def": "Felles ressurser overbeskattes når alle tar litt for mye."
+    },
+    {
+      "term": "Forurenser betaler",
+      "def": "Prinsipp om at den som forurenser, skal betale for skaden."
+    },
+    {
+      "term": "CO₂-avgift",
+      "def": "Avgift på utslipp av karbondioksid."
+    },
+    {
+      "term": "Utslippskvote",
+      "def": "Rett til å slippe ut en viss mengde, som kan kjøpes og selges."
+    },
+    {
+      "term": "EUs kvotesystem",
+      "def": "Kvotemarked for industri, kraft og luftfart som Norge er med i."
+    },
+    {
+      "term": "Kostnadseffektiv",
+      "def": "Utslippene kuttes der det er billigst."
+    },
+    {
+      "term": "Avkobling",
+      "def": "Verdiskapingen øker uten at utslippene øker."
+    },
+    {
+      "term": "Tilbakeslagseffekt",
+      "def": "Effektivisering gjør noe billigere, så vi bruker mer av det."
+    },
+    {
+      "term": "Gratispassasjer",
+      "def": "Å nyte godt av andres innsats uten å bidra selv."
+    },
+    {
+      "term": "Parisavtalen",
+      "def": "Klimaavtale fra 2015 om å begrense oppvarmingen til godt under 2 grader."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en negativ ekstern virkning?", "options": ["En fordel for kjøperen", "En kostnad for andre som ikke gjenspeiles i prisen", "En skatt", "En subsidie"], "correct": 1, "explain": "For eksempel forurensning." },
-    { "id": "q02", "text": "Hvorfor blir det produsert for mye av varer som forurenser?", "options": ["Fordi prisen ikke tar med samfunnets kostnader", "Fordi de er dyre", "Fordi staten krever det", "Fordi ingen vil kjøpe dem"], "correct": 0, "explain": "En form for markedssvikt." },
-    { "id": "q03", "text": "Hva er et fellesgode?", "options": ["En bil", "En aksje", "Ren luft og et stabilt klima", "En bolig"], "correct": 2, "explain": "Ingen kan utestenges." },
-    { "id": "q04", "text": "Hva betyr prinsippet «forurenser betaler»?", "options": ["At staten betaler for utslippene", "At forbrukerne betaler alt", "At ingen betaler", "At den som forurenser, skal betale for skaden"], "correct": 3, "explain": "For eksempel gjennom avgifter." },
-    { "id": "q05", "text": "Hvordan fungerer et kvotesystem?", "options": ["Et tak på samlede utslipp med kvoter som kan omsettes", "Et forbud mot all produksjon", "En subsidie til forurensere", "En skatt på inntekt"], "correct": 0, "explain": "Norge er med i EUs kvotesystem." },
-    { "id": "q06", "text": "Hva er en ulempe med miljøavgifter?", "options": ["De er ikke kostnadseffektive", "De kan ramme dem med lav inntekt hardest", "De gir ingen insentiver", "De øker utslippene"], "correct": 1, "explain": "En fordelingsvirkning." },
-    { "id": "q07", "text": "Hva er avkobling?", "options": ["At økonomien stopper", "At utslippene øker raskere enn BNP", "At verdiskapingen øker uten at utslippene øker", "At handel stanser"], "correct": 2, "explain": "Nøkkelen til grønn vekst." },
-    { "id": "q08", "text": "Hva er tilbakeslagseffekten?", "options": ["At utslippene alltid faller", "At avgifter fjernes", "At klimaet blir kaldere", "At effektivisering gjør noe billigere, så vi bruker mer av det"], "correct": 3, "explain": "Miljøgevinsten blir mindre." },
-    { "id": "q09", "text": "Hva er målet i Parisavtalen?", "options": ["Begrense oppvarmingen til godt under 2 grader", "Stoppe all oljeproduksjon i 2020", "Øke utslippene", "Forby elbiler"], "correct": 0, "explain": "Avtalen er fra 2015." },
-    { "id": "q10", "text": "Hvorfor er klimaendringene vanskelige å løse for ett land alene?", "options": ["Fordi de bare rammer ett land", "Fordi de er globale og det er fristende å være gratispassasjer", "Fordi de ikke finnes", "Fordi de er billige å løse"], "correct": 1, "explain": "Krever internasjonalt samarbeid." }
+    {
+      "id": "q01",
+      "text": "Hva er en negativ ekstern virkning?",
+      "options": [
+        "En fordel for kjøperen",
+        "En kostnad for andre som ikke gjenspeiles i prisen",
+        "En skatt",
+        "En subsidie"
+      ],
+      "correct": 1,
+      "explain": "For eksempel forurensning."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor blir det produsert for mye av varer som forurenser?",
+      "options": [
+        "Fordi prisen ikke tar med samfunnets kostnader",
+        "Fordi de er dyre",
+        "Fordi staten krever det",
+        "Fordi ingen vil kjøpe dem"
+      ],
+      "correct": 0,
+      "explain": "En form for markedssvikt."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er et fellesgode?",
+      "options": [
+        "En bil",
+        "En aksje",
+        "Ren luft og et stabilt klima",
+        "En bolig"
+      ],
+      "correct": 2,
+      "explain": "Ingen kan utestenges."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr prinsippet «forurenser betaler»?",
+      "options": [
+        "At staten betaler for utslippene",
+        "At forbrukerne betaler alt",
+        "At ingen betaler",
+        "At den som forurenser, skal betale for skaden"
+      ],
+      "correct": 3,
+      "explain": "For eksempel gjennom avgifter."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan fungerer et kvotesystem?",
+      "options": [
+        "Et tak på samlede utslipp med kvoter som kan omsettes",
+        "Et forbud mot all produksjon",
+        "En subsidie til forurensere",
+        "En skatt på inntekt"
+      ],
+      "correct": 0,
+      "explain": "Norge er med i EUs kvotesystem."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en ulempe med miljøavgifter?",
+      "options": [
+        "De er ikke kostnadseffektive",
+        "De kan ramme dem med lav inntekt hardest",
+        "De gir ingen insentiver",
+        "De øker utslippene"
+      ],
+      "correct": 1,
+      "explain": "En fordelingsvirkning."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er avkobling?",
+      "options": [
+        "At økonomien stopper",
+        "At utslippene øker raskere enn BNP",
+        "At verdiskapingen øker uten at utslippene øker",
+        "At handel stanser"
+      ],
+      "correct": 2,
+      "explain": "Nøkkelen til grønn vekst."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er tilbakeslagseffekten?",
+      "options": [
+        "At utslippene alltid faller",
+        "At avgifter fjernes",
+        "At klimaet blir kaldere",
+        "At effektivisering gjør noe billigere, så vi bruker mer av det"
+      ],
+      "correct": 3,
+      "explain": "Miljøgevinsten blir mindre."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er målet i Parisavtalen?",
+      "options": [
+        "Begrense oppvarmingen til godt under 2 grader",
+        "Stoppe all oljeproduksjon i 2020",
+        "Øke utslippene",
+        "Forby elbiler"
+      ],
+      "correct": 0,
+      "explain": "Avtalen er fra 2015."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor er klimaendringene vanskelige å løse for ett land alene?",
+      "options": [
+        "Fordi de bare rammer ett land",
+        "Fordi de er globale og det er fristende å være gratispassasjer",
+        "Fordi de ikke finnes",
+        "Fordi de er billige å løse"
+      ],
+      "correct": 1,
+      "explain": "Krever internasjonalt samarbeid."
+    }
   ],
   "mindmap": {
     "label": "Miljø og bærekraftig vekst",
     "children": [
-      { "label": "Problemet", "children": [
-        { "label": "Eksterne virkninger" },
-        { "label": "Fellesgoder" },
-        { "label": "Allmenningens tragedie" }
-      ] },
-      { "label": "Virkemidler", "children": [
-        { "label": "Avgifter" },
-        { "label": "Kvoter" },
-        { "label": "Subsidier og reguleringer" }
-      ] },
-      { "label": "Bærekraftig vekst", "children": [
-        { "label": "Avkobling" },
-        { "label": "Fornybar og sirkulær" },
-        { "label": "Tilbakeslagseffekt" }
-      ] },
-      { "label": "Internasjonalt", "children": [
-        { "label": "Parisavtalen" },
-        { "label": "Gratispassasjerer" }
-      ] },
-      { "label": "Norge", "children": [
-        { "label": "Olje og gass" },
-        { "label": "Vannkraft og grønn industri" }
-      ] }
+      {
+        "label": "Problemet",
+        "children": [
+          {
+            "label": "Eksterne virkninger"
+          },
+          {
+            "label": "Fellesgoder"
+          },
+          {
+            "label": "Allmenningens tragedie"
+          }
+        ]
+      },
+      {
+        "label": "Virkemidler",
+        "children": [
+          {
+            "label": "Avgifter"
+          },
+          {
+            "label": "Kvoter"
+          },
+          {
+            "label": "Subsidier og reguleringer"
+          }
+        ]
+      },
+      {
+        "label": "Bærekraftig vekst",
+        "children": [
+          {
+            "label": "Avkobling"
+          },
+          {
+            "label": "Fornybar og sirkulær"
+          },
+          {
+            "label": "Tilbakeslagseffekt"
+          }
+        ]
+      },
+      {
+        "label": "Internasjonalt",
+        "children": [
+          {
+            "label": "Parisavtalen"
+          },
+          {
+            "label": "Gratispassasjerer"
+          }
+        ]
+      },
+      {
+        "label": "Norge",
+        "children": [
+          {
+            "label": "Olje og gass"
+          },
+          {
+            "label": "Vannkraft og grønn industri"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Forskning kan gi positive eksterne virkninger.", "correct": true, "explain": "Andre kan bruke kunnskapen." },
-      { "id": "m02", "type": "sant-usant", "text": "Subsidier til miljøvennlige løsninger er gratis for staten.", "correct": false, "explain": "De koster statskassen penger." },
-      { "id": "m03", "type": "sant-usant", "text": "Avgifter kan gi insentiv til å kutte utslipp der det er billigst.", "correct": true, "explain": "De er kostnadseffektive." },
-      { "id": "m04", "type": "sant-usant", "text": "Norges eksport av olje og gass gir ingen utslipp.", "correct": false, "explain": "Utslippene skjer når de brennes i andre land." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er et eksempel på allmenningens tragedie?", "options": ["Overfiske av en fiskebestand", "En privat hage", "En aksje", "En bolig"], "correct": 0, "explain": "Alle tar litt for mye." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket virkemiddel setter et tak på samlede utslipp?", "options": ["Subsidier", "Kvotesystem", "Informasjon", "Merking"], "correct": 1, "explain": "Kvotene kan kjøpes og selges." },
-      { "id": "m07", "type": "flervalg", "text": "Hva hører til en sirkulær økonomi?", "options": ["Bruk og kast", "Mer fossil energi", "Gjenbruk, reparasjon og resirkulering", "Flere engangsprodukter"], "correct": 2, "explain": "Ressursene holdes i bruk." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Forskning kan gi positive eksterne virkninger.",
+        "correct": true,
+        "explain": "Andre kan bruke kunnskapen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Subsidier til miljøvennlige løsninger er gratis for staten.",
+        "correct": false,
+        "explain": "De koster statskassen penger."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Avgifter kan gi insentiv til å kutte utslipp der det er billigst.",
+        "correct": true,
+        "explain": "De er kostnadseffektive."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Norges eksport av olje og gass gir ingen utslipp.",
+        "correct": false,
+        "explain": "Utslippene skjer når de brennes i andre land."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på allmenningens tragedie?",
+        "options": [
+          "Overfiske av en fiskebestand",
+          "En privat hage",
+          "En aksje",
+          "En bolig"
+        ],
+        "correct": 0,
+        "explain": "Alle tar litt for mye."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket virkemiddel setter et tak på samlede utslipp?",
+        "options": [
+          "Subsidier",
+          "Kvotesystem",
+          "Informasjon",
+          "Merking"
+        ],
+        "correct": 1,
+        "explain": "Kvotene kan kjøpes og selges."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva hører til en sirkulær økonomi?",
+        "options": [
+          "Bruk og kast",
+          "Mer fossil energi",
+          "Gjenbruk, reparasjon og resirkulering",
+          "Flere engangsprodukter"
+        ],
+        "correct": 2,
+        "explain": "Ressursene holdes i bruk."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr bærekraftig utvikling? Forklar hvordan begrepet tar hensyn både til dagens behov og til mennesker som lever i framtiden.",
+        "fasit": "Bærekraftig utvikling dekker dagens behov uten å ødelegge framtidige generasjoners muligheter til å dekke sine behov. Det betyr at vi må ta hensyn til hvordan dagens produksjon og forbruk påvirker dem som kommer etter oss.",
+        "kriterier": [
+          "Forklarer at dagens behov skal dekkes.",
+          "Forklarer at framtidige generasjoners muligheter ikke skal ødelegges."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et forskningsmiljø utvikler kunnskap som andre virksomheter også kan bruke. Forklar hvorfor dette er en positiv ekstern virkning, og hvem som får nytte av den.",
+        "fasit": "Det er en positiv ekstern virkning fordi forskningen påvirker andre enn dem som står for eller betaler for den. Andre virksomheter kan bruke kunnskapen og få nytte av forskningen.",
+        "kriterier": [
+          "Viser at virkningen går utover dem som står for eller betaler for aktiviteten.",
+          "Forklarer at andre virksomheter får nytte av kunnskapen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Flere fiskere henter fisk fra den samme bestanden, og hver fisker tar litt mer enn før. Forklar hvordan dette kan føre til allmenningens tragedie.",
+        "fasit": "Når hver fisker tar litt mer, blir den felles fiskebestanden overbeskattet. Det skjer fordi mange enkeltaktører bruker ressursen uten at de samlet tar nok hensyn til å bevare den.",
+        "kriterier": [
+          "Forklarer at fiskebestanden er en felles ressurs.",
+          "Knytter den enkeltes uttak til at bestanden overbeskattes."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Myndighetene legger en CO₂-avgift på utslipp. Forklar hvorfor avgiften kan føre til at utslipp kuttes der det er billigst å kutte dem.",
+        "fasit": "Avgiften gjør det dyrere å slippe ut CO₂. Virksomheter som kan kutte utslipp til lav kostnad, får derfor et insentiv til å gjøre det, slik at utslippskuttene kan skje der de er billigst.",
+        "kriterier": [
+          "Forklarer at avgiften gjør utslipp dyrere.",
+          "Forklarer at virksomheter med billige utslippskutt får insentiv til å kutte."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign subsidier og reguleringer som virkemidler for miljøpolitikk. Forklar hvordan hvert av dem kan påvirke valg som har betydning for miljøet.",
+        "fasit": "Subsidier gir støtte til miljøvennlige løsninger, for eksempel ny teknologi. Reguleringer kan stille krav til utslipp eller energieffektivitet, eller forby bestemte stoffer.",
+        "kriterier": [
+          "Forklarer at subsidier gir støtte til miljøvennlige løsninger.",
+          "Forklarer at reguleringer setter krav eller forbyr bestemte aktiviteter eller stoffer."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En butikk merker varer for å hjelpe kundene med å velge miljøvennlig. Forklar hvilken funksjon slik merking kan ha som miljøvirkemiddel.",
+        "fasit": "Merking gir forbrukerne informasjon som kan hjelpe dem med å velge miljøvennlige varer. Det er et virkemiddel som påvirker valg gjennom informasjon.",
+        "kriterier": [
+          "Forklarer at merkingen gir forbrukerne informasjon.",
+          "Knytter informasjonen til at forbrukerne lettere kan velge miljøvennlig."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Norge tjener mye på å eksportere olje og gass, som gir utslipp når de brennes i andre land. Samtidig har Norge vannkraft og gode forutsetninger for grønn industri. Forklar to hensyn som gjør dette til et dilemma for Norge.",
+        "fasit": "Olje- og gasseksport gir Norge verdiskaping og arbeidsplasser, men bruken av energien gir utslipp i andre land. Samtidig kan vannkraft og grønn industri gi muligheter for verdiskaping med større hensyn til klimaet.",
+        "kriterier": [
+          "Nevner verdiskaping eller arbeidsplasser fra olje- og gasseksport.",
+          "Forklarer at utslipp fra bruken av olje og gass må veies mot klimahensyn eller mulighetene for grønn industri."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En møbelbedrift begynner å reparere brukte møbler og bruke materialer om igjen i nye produkter. Forklar hvorfor dette er sirkulær økonomi, og hvordan det kan bidra til mer bærekraftig vekst.",
+        "fasit": "Reparasjon og gjenbruk av materialer er sirkulær økonomi. Det kan bidra til bærekraftig vekst ved at verdiskapingen i større grad skjer gjennom gjenbruk av ressurser.",
+        "kriterier": [
+          "Knytter reparasjon eller gjenbruk av materialer til sirkulær økonomi.",
+          "Forklarer at gjenbruk kan redusere behovet for nye ressurser eller støtte vekst med mindre ressursbruk."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

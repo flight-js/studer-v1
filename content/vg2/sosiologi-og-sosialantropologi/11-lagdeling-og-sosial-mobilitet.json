@@ -4,77 +4,422 @@
   "trinnId": "vg2",
   "name": "Lagdeling, klasser og sosial mobilitet",
   "intro": "Teorier om sosial lagdeling og klasser – Marx, Weber og Bourdieu – hvordan ulikhet måles, hva som er forutsetningene for sosial mobilitet, og hva høy og lav mobilitet betyr for individ og samfunn.",
-  "kompetansemaal": [12, 13],
+  "kompetansemaal": [
+    12,
+    13
+  ],
   "sammendrag": "## Sosial lagdeling\n\n**Sosial lagdeling** betyr at samfunnet er delt i **lag** med ulik tilgang til **goder** som inntekt, formue, utdanning, makt og status. Lagdelingen er **systematisk** – den følger mønstre og går ofte i arv.\n\nNoen samfunn har **lukkede** systemer, der posisjonen er bestemt ved fødselen, som **kastesystemet** i India eller **standssamfunnet** i Europa før. Moderne samfunn har mer **åpne** klassesystemer, der det er mulig å bevege seg mellom lagene.\n\n## Marx: klasse og produksjonsmidler\n\n**Karl Marx** delte samfunnet i klasser etter forholdet til **produksjonsmidlene** – fabrikker, jord og maskiner. **Borgerskapet** eier dem, mens **arbeiderklassen** må selge arbeidskraften sin. Marx mente at forholdet er preget av **utbytting** og **konflikt**.\n\n## Weber: klasse, stand og parti\n\n**Max Weber** mente at lagdeling har tre dimensjoner:\n\n- **Klasse**: økonomisk posisjon på markedet – inntekt og ferdigheter.\n- **Stand**: **status** og anseelse – for eksempel yrkesprestisje eller livsstil.\n- **Parti**: **politisk makt** og innflytelse.\n\nDisse kan henge sammen, men trenger ikke: En prest kan ha høy status, men moderat inntekt.\n\n## Bourdieu: kapital og habitus\n\n**Pierre Bourdieu** mente at klasser skilles av ulike mengder **økonomisk**, **kulturell** og **sosial** kapital. **Habitus** er de vanene, smakene og måtene å tenke på som vi får gjennom oppveksten. Skolen belønner ofte den kulturelle kapitalen som barn fra høyere klasser har med seg, og kan dermed **reprodusere** ulikhet.\n\n## Måle ulikhet\n\n- **Inntekt**, **formue**, **utdanning** og **yrke**.\n- **Gini-koeffisienten** går fra 0 (alle har like mye) til 1 (én har alt). Norge har **lav** inntektsulikhet sammenlignet med de fleste land, men **formuesulikheten** er langt større enn inntektsulikheten.\n\n## Sosial mobilitet\n\n**Sosial mobilitet** er bevegelse mellom sosiale lag.\n\n- **Intergenerasjonell** mobilitet: forskjell mellom foreldres og barns posisjon.\n- **Intragenerasjonell** mobilitet: endring i løpet av én persons liv.\n- **Vertikal** mobilitet er bevegelse opp eller ned, **horisontal** mobilitet er bytte av posisjon på samme nivå.\n\n## Forutsetninger for høy mobilitet\n\n- **Gratis** og god **utdanning** for alle, og støtte gjennom **Lånekassen**.\n- **Små lønnsforskjeller** og en sterk **velferdsstat**.\n- **Lite diskriminering**.\n- Et **arbeidsmarked** med mange nye jobber.\n\nDe nordiske landene har relativt **høy** mobilitet. **Great Gatsby-kurven** viser at land med **stor ulikhet** ofte har **lav** mobilitet: Jo lenger det er mellom trinnene på stigen, desto vanskeligere er det å klatre.\n\nLikevel finnes **sosial arv** også i Norge: Barn av foreldre med høy utdanning tar oftere høyere utdanning selv.\n\n## Konsekvenser\n\n**Høy mobilitet**:\n\n- Talenter **utnyttes** bedre.\n- Samfunnet oppleves som mer **rettferdig**, og tilliten er ofte høy.\n- Men den kan gi **press** om å lykkes – og få dem som faller nedover, til å føle at det er deres egen skyld (et **meritokratisk** syn).\n\n**Lav mobilitet**:\n\n- **Privilegier** går i arv, og talent går tapt.\n- Kan gi **frustrasjon**, konflikt og lav tillit.",
   "flashcards": [
-    { "term": "Sosial lagdeling", "def": "Samfunnet er delt i lag med ulik tilgang til goder." },
-    { "term": "Lukket lagdelingssystem", "def": "Posisjonen bestemmes ved fødselen, som i kastesystemet." },
-    { "term": "Produksjonsmidler", "def": "Fabrikker, jord og maskiner – grunnlaget for Marx' klassebegrep." },
-    { "term": "Weber: klasse", "def": "Økonomisk posisjon på markedet." },
-    { "term": "Weber: stand", "def": "Status og anseelse." },
-    { "term": "Weber: parti", "def": "Politisk makt og innflytelse." },
-    { "term": "Habitus", "def": "Vaner, smak og tenkemåter fra oppveksten (Bourdieu)." },
-    { "term": "Reproduksjon av ulikhet", "def": "At ulikhet videreføres fra generasjon til generasjon." },
-    { "term": "Gini-koeffisient", "def": "Mål på ulikhet fra 0 (lik) til 1 (maksimal ulikhet)." },
-    { "term": "Intergenerasjonell mobilitet", "def": "Forskjell mellom foreldres og barns posisjon." },
-    { "term": "Intragenerasjonell mobilitet", "def": "Endring i løpet av én persons liv." },
-    { "term": "Vertikal mobilitet", "def": "Bevegelse opp eller ned i samfunnet." },
-    { "term": "Great Gatsby-kurven", "def": "Land med stor ulikhet har ofte lav mobilitet." },
-    { "term": "Sosial arv", "def": "At barn får lignende posisjon som foreldrene." },
-    { "term": "Meritokrati", "def": "Samfunn der posisjon skal bygge på innsats og evner." }
+    {
+      "term": "Sosial lagdeling",
+      "def": "Samfunnet er delt i lag med ulik tilgang til goder."
+    },
+    {
+      "term": "Lukket lagdelingssystem",
+      "def": "Posisjonen bestemmes ved fødselen, som i kastesystemet."
+    },
+    {
+      "term": "Produksjonsmidler",
+      "def": "Fabrikker, jord og maskiner – grunnlaget for Marx' klassebegrep."
+    },
+    {
+      "term": "Weber: klasse",
+      "def": "Økonomisk posisjon på markedet."
+    },
+    {
+      "term": "Weber: stand",
+      "def": "Status og anseelse."
+    },
+    {
+      "term": "Weber: parti",
+      "def": "Politisk makt og innflytelse."
+    },
+    {
+      "term": "Habitus",
+      "def": "Vaner, smak og tenkemåter fra oppveksten (Bourdieu)."
+    },
+    {
+      "term": "Reproduksjon av ulikhet",
+      "def": "At ulikhet videreføres fra generasjon til generasjon."
+    },
+    {
+      "term": "Gini-koeffisient",
+      "def": "Mål på ulikhet fra 0 (lik) til 1 (maksimal ulikhet)."
+    },
+    {
+      "term": "Intergenerasjonell mobilitet",
+      "def": "Forskjell mellom foreldres og barns posisjon."
+    },
+    {
+      "term": "Intragenerasjonell mobilitet",
+      "def": "Endring i løpet av én persons liv."
+    },
+    {
+      "term": "Vertikal mobilitet",
+      "def": "Bevegelse opp eller ned i samfunnet."
+    },
+    {
+      "term": "Great Gatsby-kurven",
+      "def": "Land med stor ulikhet har ofte lav mobilitet."
+    },
+    {
+      "term": "Sosial arv",
+      "def": "At barn får lignende posisjon som foreldrene."
+    },
+    {
+      "term": "Meritokrati",
+      "def": "Samfunn der posisjon skal bygge på innsats og evner."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva bestemmer klasse ifølge Marx?", "options": ["Status og livsstil", "Forholdet til produksjonsmidlene", "Politisk makt", "Utdanning"], "correct": 1, "explain": "Borgerskap og arbeiderklasse." },
-    { "id": "q02", "text": "Hvilke tre dimensjoner av lagdeling beskrev Weber?", "options": ["Klasse, stand og parti", "Kapital, habitus og felt", "Makro, mikro og meso", "Arbeid, bolig og helse"], "correct": 0, "explain": "Økonomi, status og politisk makt." },
-    { "id": "q03", "text": "Hva er habitus?", "options": ["En bolig", "En type skatt", "Vaner, smak og tenkemåter fra oppveksten", "Et politisk parti"], "correct": 2, "explain": "Bourdieus begrep." },
-    { "id": "q04", "text": "Hva viser Great Gatsby-kurven?", "options": ["At rike land har høy mobilitet", "At mobilitet er lik overalt", "At ulikhet ikke har betydning", "At land med stor ulikhet ofte har lav sosial mobilitet"], "correct": 3, "explain": "Lange trinn på stigen er vanskelige å klatre." },
-    { "id": "q05", "text": "Hva er intergenerasjonell mobilitet?", "options": ["Forskjell mellom foreldres og barns sosiale posisjon", "Endring i løpet av ett liv", "Flytting mellom land", "Bytte av jobb på samme nivå"], "correct": 0, "explain": "Mellom generasjoner." },
-    { "id": "q06", "text": "Hva måler Gini-koeffisienten?", "options": ["Befolkningsvekst", "Ulikhet i fordelingen av inntekt eller formue", "Utdanningsnivå", "Arbeidsledighet"], "correct": 1, "explain": "Fra 0 til 1." },
-    { "id": "q07", "text": "Hvilken er en forutsetning for høy sosial mobilitet?", "options": ["Dyr privatskole", "Store lønnsforskjeller", "Gratis og god utdanning for alle", "Arv av yrke"], "correct": 2, "explain": "Gir like muligheter." },
-    { "id": "q08", "text": "Hva er en mulig ulempe ved høy mobilitet i et meritokratisk samfunn?", "options": ["Talent går tapt", "Privilegier går i arv", "Lav tillit", "At de som faller nedover, kan føle at det er deres egen skyld"], "correct": 3, "explain": "Press om å lykkes." },
-    { "id": "q09", "text": "Hvilket er et eksempel på et lukket lagdelingssystem?", "options": ["Kastesystemet i India", "Det norske utdanningssystemet", "Et åpent arbeidsmarked", "Et demokrati"], "correct": 0, "explain": "Posisjonen bestemmes ved fødselen." },
-    { "id": "q10", "text": "Hva er større i Norge: inntektsulikheten eller formuesulikheten?", "options": ["Inntektsulikheten", "Formuesulikheten", "De er like", "Det finnes ingen ulikhet"], "correct": 1, "explain": "Formue er mye skjevere fordelt." }
+    {
+      "id": "q01",
+      "text": "Hva bestemmer klasse ifølge Marx?",
+      "options": [
+        "Status og livsstil",
+        "Forholdet til produksjonsmidlene",
+        "Politisk makt",
+        "Utdanning"
+      ],
+      "correct": 1,
+      "explain": "Borgerskap og arbeiderklasse."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilke tre dimensjoner av lagdeling beskrev Weber?",
+      "options": [
+        "Klasse, stand og parti",
+        "Kapital, habitus og felt",
+        "Makro, mikro og meso",
+        "Arbeid, bolig og helse"
+      ],
+      "correct": 0,
+      "explain": "Økonomi, status og politisk makt."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er habitus?",
+      "options": [
+        "En bolig",
+        "En type skatt",
+        "Vaner, smak og tenkemåter fra oppveksten",
+        "Et politisk parti"
+      ],
+      "correct": 2,
+      "explain": "Bourdieus begrep."
+    },
+    {
+      "id": "q04",
+      "text": "Hva viser Great Gatsby-kurven?",
+      "options": [
+        "At rike land har høy mobilitet",
+        "At mobilitet er lik overalt",
+        "At ulikhet ikke har betydning",
+        "At land med stor ulikhet ofte har lav sosial mobilitet"
+      ],
+      "correct": 3,
+      "explain": "Lange trinn på stigen er vanskelige å klatre."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er intergenerasjonell mobilitet?",
+      "options": [
+        "Forskjell mellom foreldres og barns sosiale posisjon",
+        "Endring i løpet av ett liv",
+        "Flytting mellom land",
+        "Bytte av jobb på samme nivå"
+      ],
+      "correct": 0,
+      "explain": "Mellom generasjoner."
+    },
+    {
+      "id": "q06",
+      "text": "Hva måler Gini-koeffisienten?",
+      "options": [
+        "Befolkningsvekst",
+        "Ulikhet i fordelingen av inntekt eller formue",
+        "Utdanningsnivå",
+        "Arbeidsledighet"
+      ],
+      "correct": 1,
+      "explain": "Fra 0 til 1."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken er en forutsetning for høy sosial mobilitet?",
+      "options": [
+        "Dyr privatskole",
+        "Store lønnsforskjeller",
+        "Gratis og god utdanning for alle",
+        "Arv av yrke"
+      ],
+      "correct": 2,
+      "explain": "Gir like muligheter."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en mulig ulempe ved høy mobilitet i et meritokratisk samfunn?",
+      "options": [
+        "Talent går tapt",
+        "Privilegier går i arv",
+        "Lav tillit",
+        "At de som faller nedover, kan føle at det er deres egen skyld"
+      ],
+      "correct": 3,
+      "explain": "Press om å lykkes."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket er et eksempel på et lukket lagdelingssystem?",
+      "options": [
+        "Kastesystemet i India",
+        "Det norske utdanningssystemet",
+        "Et åpent arbeidsmarked",
+        "Et demokrati"
+      ],
+      "correct": 0,
+      "explain": "Posisjonen bestemmes ved fødselen."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er større i Norge: inntektsulikheten eller formuesulikheten?",
+      "options": [
+        "Inntektsulikheten",
+        "Formuesulikheten",
+        "De er like",
+        "Det finnes ingen ulikhet"
+      ],
+      "correct": 1,
+      "explain": "Formue er mye skjevere fordelt."
+    }
   ],
   "mindmap": {
     "label": "Lagdeling og mobilitet",
     "children": [
-      { "label": "Lagdeling", "children": [
-        { "label": "Lukkede systemer" },
-        { "label": "Åpne klassesystemer" }
-      ] },
-      { "label": "Teorier", "children": [
-        { "label": "Marx" },
-        { "label": "Weber" },
-        { "label": "Bourdieu" }
-      ] },
-      { "label": "Måling", "children": [
-        { "label": "Inntekt og formue" },
-        { "label": "Gini-koeffisient" }
-      ] },
-      { "label": "Mobilitet", "children": [
-        { "label": "Inter- og intragenerasjonell" },
-        { "label": "Vertikal og horisontal" },
-        { "label": "Great Gatsby-kurven" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Høy mobilitet" },
-        { "label": "Lav mobilitet" },
-        { "label": "Sosial arv" }
-      ] }
+      {
+        "label": "Lagdeling",
+        "children": [
+          {
+            "label": "Lukkede systemer"
+          },
+          {
+            "label": "Åpne klassesystemer"
+          }
+        ]
+      },
+      {
+        "label": "Teorier",
+        "children": [
+          {
+            "label": "Marx"
+          },
+          {
+            "label": "Weber"
+          },
+          {
+            "label": "Bourdieu"
+          }
+        ]
+      },
+      {
+        "label": "Måling",
+        "children": [
+          {
+            "label": "Inntekt og formue"
+          },
+          {
+            "label": "Gini-koeffisient"
+          }
+        ]
+      },
+      {
+        "label": "Mobilitet",
+        "children": [
+          {
+            "label": "Inter- og intragenerasjonell"
+          },
+          {
+            "label": "Vertikal og horisontal"
+          },
+          {
+            "label": "Great Gatsby-kurven"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Høy mobilitet"
+          },
+          {
+            "label": "Lav mobilitet"
+          },
+          {
+            "label": "Sosial arv"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Status og inntekt trenger ikke å henge sammen.", "correct": true, "explain": "Weber skilte klasse og stand." },
-      { "id": "m02", "type": "sant-usant", "text": "Det finnes ingen sosial arv i Norge.", "correct": false, "explain": "Foreldres utdanning påvirker fortsatt barnas valg." },
-      { "id": "m03", "type": "sant-usant", "text": "De nordiske landene har relativt høy sosial mobilitet.", "correct": true, "explain": "Blant annet på grunn av gratis utdanning og små lønnsforskjeller." },
-      { "id": "m04", "type": "sant-usant", "text": "En Gini-koeffisient på 1 betyr at alle har like mye.", "correct": false, "explain": "0 betyr full likhet; 1 betyr at én har alt." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken type mobilitet er det når en person går fra butikkmedarbeider til leder i samme bedrift?", "options": ["Intergenerasjonell", "Intragenerasjonell", "Horisontal", "Ingen mobilitet"], "correct": 1, "explain": "Endring i løpet av ett liv." },
-      { "id": "m06", "type": "flervalg", "text": "Hvordan kan skolen reprodusere ulikhet ifølge Bourdieu?", "options": ["Ved å belønne den kulturelle kapitalen barn fra høyere klasser har med seg", "Ved å være gratis", "Ved å gi alle like karakterer", "Ved å ha mange lærere"], "correct": 0, "explain": "Habitus og kulturell kapital." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er en konsekvens av lav sosial mobilitet?", "options": ["Bedre utnyttelse av talent", "Høyere tillit", "At privilegier går i arv og talent går tapt", "Mindre ulikhet"], "correct": 2, "explain": "Kan gi frustrasjon og konflikt." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Status og inntekt trenger ikke å henge sammen.",
+        "correct": true,
+        "explain": "Weber skilte klasse og stand."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Det finnes ingen sosial arv i Norge.",
+        "correct": false,
+        "explain": "Foreldres utdanning påvirker fortsatt barnas valg."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "De nordiske landene har relativt høy sosial mobilitet.",
+        "correct": true,
+        "explain": "Blant annet på grunn av gratis utdanning og små lønnsforskjeller."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En Gini-koeffisient på 1 betyr at alle har like mye.",
+        "correct": false,
+        "explain": "0 betyr full likhet; 1 betyr at én har alt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken type mobilitet er det når en person går fra butikkmedarbeider til leder i samme bedrift?",
+        "options": [
+          "Intergenerasjonell",
+          "Intragenerasjonell",
+          "Horisontal",
+          "Ingen mobilitet"
+        ],
+        "correct": 1,
+        "explain": "Endring i løpet av ett liv."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvordan kan skolen reprodusere ulikhet ifølge Bourdieu?",
+        "options": [
+          "Ved å belønne den kulturelle kapitalen barn fra høyere klasser har med seg",
+          "Ved å være gratis",
+          "Ved å gi alle like karakterer",
+          "Ved å ha mange lærere"
+        ],
+        "correct": 0,
+        "explain": "Habitus og kulturell kapital."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er en konsekvens av lav sosial mobilitet?",
+        "options": [
+          "Bedre utnyttelse av talent",
+          "Høyere tillit",
+          "At privilegier går i arv og talent går tapt",
+          "Mindre ulikhet"
+        ],
+        "correct": 2,
+        "explain": "Kan gi frustrasjon og konflikt."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva sosial lagdeling betyr, og hva som gjør at lagdelingen er systematisk.",
+        "fasit": "Sosial lagdeling betyr at samfunnet er delt i lag med ulik tilgang til goder som inntekt, utdanning, makt og status. Lagdelingen er systematisk fordi forskjellene følger mønstre og ofte går i arv.",
+        "kriterier": [
+          "Forklarer at samfunnet er delt i lag med ulik tilgang til goder.",
+          "Får fram at forskjellene følger mønstre eller ofte går i arv."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign et lukket lagdelingssystem med et åpent klassesystem. Hva avgjør posisjonen i hvert system, og hvor lett er det å bevege seg mellom lagene?",
+        "fasit": "I et lukket system bestemmes posisjonen ved fødselen, og det er liten mulighet til å bevege seg mellom lagene. I et åpent klassesystem er det mulig å skifte lag.",
+        "kriterier": [
+          "Får fram at posisjonen i et lukket system er bestemt ved fødselen.",
+          "Forklarer at det er mulig å bevege seg mellom lag i et åpent klassesystem."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Ifølge Marx eier borgerskapet produksjonsmidlene, mens arbeiderklassen må selge arbeidskraften sin. Forklar hvordan dette forholdet kan føre til utbytting og konflikt.",
+        "fasit": "Borgerskapet eier blant annet fabrikker, jord og maskiner, mens arbeiderne er avhengige av å selge arbeidskraften sin. Marx mente at dette skaper et motsetningsforhold mellom klassene, preget av utbytting og konflikt.",
+        "kriterier": [
+          "Forklarer forskjellen mellom eierskap til produksjonsmidlene og det å måtte selge arbeidskraft.",
+          "Knytter dette motsetningsforholdet til utbytting eller konflikt."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person har moderat inntekt, høy yrkesprestisje og liten politisk innflytelse. Bruk Webers begreper til å beskrive personens klasse, stand og parti.",
+        "fasit": "Personen har en moderat økonomisk posisjon når det gjelder klasse, høy status når det gjelder stand, og liten politisk makt når det gjelder parti.",
+        "kriterier": [
+          "Knytter inntekten til klasse og yrkesprestisjen til stand.",
+          "Knytter den lave politiske innflytelsen til parti."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Skolen kan bidra til at ulikhet videreføres fra foreldre til barn. Forklar hvordan dette kan skje når skolen belønner kulturell kapital som barn fra høyere klasser har med seg.",
+        "fasit": "Barn fra høyere klasser kan ha med seg kulturell kapital som skolen verdsetter. Når skolen belønner denne kapitalen, kan barnas muligheter påvirkes av bakgrunnen deres, slik at ulikhet reproduseres.",
+        "kriterier": [
+          "Får fram at barn fra høyere klasser kan ha kulturell kapital med seg fra oppveksten.",
+          "Forklarer at skolens belønning av denne kapitalen kan videreføre ulikhet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En undersøkelse skal beskrive sosial ulikhet i et samfunn. Forklar hvorfor det ikke alltid er nok å måle inntekt, og nevn to andre forhold undersøkelsen kan måle.",
+        "fasit": "Inntekt viser bare én side av ulikheten, fordi folk også kan ha ulik tilgang til andre goder. Undersøkelsen kan i tillegg måle for eksempel formue, utdanning eller yrke.",
+        "kriterier": [
+          "Forklarer at inntekt ikke alene viser alle sider ved sosial ulikhet.",
+          "Nevner minst to av formue, utdanning og yrke."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En person bytter til en annen jobb på omtrent samme nivå i samfunnet i løpet av livet. Hvilke to typer sosial mobilitet beskriver dette, og hvorfor?",
+        "fasit": "Dette er intragenerasjonell mobilitet fordi endringen skjer i løpet av personens eget liv. Det er horisontal mobilitet fordi personen bytter posisjon på omtrent samme nivå.",
+        "kriterier": [
+          "Identifiserer mobiliteten som intragenerasjonell og knytter det til at endringen skjer i personens liv.",
+          "Identifiserer mobiliteten som horisontal og knytter det til at personen blir på omtrent samme nivå."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar to mulige følger av at sosial mobilitet er lav, for enkeltpersoner eller samfunnet.",
+        "fasit": "Når mobiliteten er lav, kan privilegier gå i arv og talent gå tapt. Det kan også føre til frustrasjon, konflikt og lav tillit i samfunnet.",
+        "kriterier": [
+          "Forklarer minst én følge knyttet til at privilegier går i arv eller at talent går tapt.",
+          "Forklarer minst én følge som frustrasjon, konflikt eller lav tillit."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

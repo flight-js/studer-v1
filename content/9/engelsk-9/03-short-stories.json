@@ -354,6 +354,80 @@
         "correct": 2,
         "explain": "Atmosphere is the overall mood, created by setting, language and events."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Explain what makes a work of fiction a short story. Include at least two typical features.",
+        "fasit": "A short story is a brief work of fiction, often with few characters, one main setting and a limited time span. It can usually be read in one sitting.",
+        "kriterier": [
+          "Identifies it as a short work of fiction.",
+          "Includes at least two typical features, such as few characters, one main setting or a limited time span."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Compare the protagonist and the antagonist in a story. What role does each have?",
+        "fasit": "The protagonist is the main character. The antagonist is a character or force that works against the protagonist.",
+        "kriterier": [
+          "Identifies the protagonist as the main character.",
+          "Explains that the antagonist works against the protagonist."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "A character tries to cross a river during a storm, but the rising water blocks the way. Explain why this is an example of external conflict.",
+        "fasit": "It is external conflict because the character struggles against nature. The problem comes from outside the character’s mind.",
+        "kriterier": [
+          "Identifies the struggle as being against nature or another outside force.",
+          "Explains that the conflict is external, not an inner struggle."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "A story takes place in a silent, empty school after dark. Explain how this setting could shape the atmosphere.",
+        "fasit": "The setting could create an uneasy or lonely atmosphere. The darkness and emptiness make the school seem unsettling.",
+        "kriterier": [
+          "Names a suitable mood or feeling.",
+          "Connects that mood to details of the setting."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Compare direct and indirect characterisation. How does the reader learn about a character in each type?",
+        "fasit": "In direct characterisation, the narrator tells us what the character is like. In indirect characterisation, we learn from the character’s actions, words or thoughts, or from how others react to them.",
+        "kriterier": [
+          "Explains that direct characterisation tells the reader about the character.",
+          "Explains that indirect characterisation lets the reader infer traits from evidence such as actions, words or thoughts."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "In a story, a character keeps an old school badge because it reminds them of belonging to a group. Explain how the badge can work as a symbol.",
+        "fasit": "The badge is a symbol because it stands for more than an object. It represents the character’s sense of belonging to the group.",
+        "kriterier": [
+          "Explains that the badge represents an idea or feeling beyond itself.",
+          "Connects its meaning to belonging to the group."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Mia is afraid to speak at the start of a story, but becomes more confident after facing challenges. Ben is impatient throughout the story and does not change. Explain which character is round and which is flat, and why.",
+        "fasit": "Mia is a round character because she is complex and changes. Ben is a flat character because he has few traits and does not develop.",
+        "kriterier": [
+          "Identifies Mia as round and connects this to her change or development.",
+          "Identifies Ben as flat and connects this to his lack of development."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "When analysing a story, a writer uses a quotation and then explains it. Explain why the explanation is important.",
+        "fasit": "The quotation gives evidence for the writer’s interpretation. The explanation shows how that evidence supports the writer’s point.",
+        "kriterier": [
+          "Explains that a quotation provides evidence from the story.",
+          "Explains how the writer’s own explanation connects that evidence to an interpretation or point."
+        ]
+      }
     ]
   },
   "kvalitet": {

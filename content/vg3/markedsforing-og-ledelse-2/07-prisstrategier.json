@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Prissetting og prisstrategier",
   "intro": "Faktorer som påvirker prissetting – kostnader, etterspørsel og priselastisitet, konkurrenter, mål, posisjonering og regelverk – og prisstrategier som kostnadsbasert, konkurransebasert og verdibasert prising, skumming og penetrasjon, prestisjepris, psykologiske priser, prisdifferensiering, dynamisk prising, pakkepriser og abonnement.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Pris er spesiell\n\n**Prisen** er det eneste konkurransemiddelet som gir **inntekter** – de andre koster penger. Prisen påvirker både **salg**, **lønnsomhet** og hvordan produktet **oppfattes**.\n\n## Faktorer som påvirker prisen\n\n- **Kostnader**: Prisen bør over tid dekke **faste** og **variable** kostnader. **Dekningsbidraget** – pris minus variable kostnader per enhet – skal dekke de faste kostnadene.\n- **Etterspørsel**: Hvor **mye** kundene vil kjøpe til ulike priser.\n- **Priselastisitet**: hvor **følsom** etterspørselen er for prisendringer. Ved **elastisk** etterspørsel gir en prisøkning **stort** salgsfall. Ved **uelastisk** etterspørsel – som for nødvendighetsvarer og varer uten alternativer – påvirkes salget lite.\n- **Konkurrenter**: Kundene sammenligner priser, særlig på nett.\n- **Mål**: Vil virksomheten ha **høy fortjeneste**, **markedsandel** eller **overleve**?\n- **Posisjonering**: En premiumposisjon krever **høy** pris.\n- **Regelverk**: **Markedsføringsloven** forbyr blant annet **falske førpriser**, og **konkurranseloven** forbyr **prissamarbeid**.\n\n## Tre grunnleggende metoder\n\n- **Kostnadsbasert** prising: kostnad pluss et **påslag**. Enkel, men tar ikke hensyn til hva kundene er villige til å betale.\n- **Konkurransebasert** prising: pris i forhold til **konkurrentene**. Vanlig i markeder med like produkter.\n- **Verdibasert** prising: pris etter hvilken **verdi** kunden opplever. Krever god kunnskap om **kundene**.\n\n## Prisstrategier ved lansering\n\n- **Skumming**: **høy** pris ved lansering for å «skumme» kunder som vil betale mye – som ny teknologi – og så **senke** prisen gradvis.\n- **Penetrasjon**: **lav** pris for raskt å vinne **markedsandel** – krever at virksomheten tåler lav margin i starten.\n\n## Andre prisstrategier\n\n- **Prestisjepris**: høy pris som signaliserer **kvalitet** og **status**.\n- **Psykologiske priser**: 199 i stedet for 200 kr – oppleves som **billigere**.\n- **Lokkepris**: svært lav pris på enkelte varer for å trekke kunder til butikken.\n- **Prisdifferensiering**: ulike priser til ulike **grupper** eller **tider** – studentrabatt, rushtidspriser.\n- **Dynamisk prising**: prisen endres **automatisk** etter etterspørsel – som flybilletter og konsertbilletter.\n- **Pakkepris** – bundling: flere produkter sammen til lavere samlet pris.\n- **Abonnement**: fast pris per måned – gir **forutsigbare** inntekter og **lojale** kunder.\n- **Freemium**: gratis grunnversjon og betaling for ekstra funksjoner.\n\n## Utvikle en prisstrategi\n\n1. Sett **prismål** ut fra virksomhetens mål.\n2. Analyser **kostnader**, **etterspørsel** og **konkurrenter**.\n3. Velg **metode** og **strategi** som passer posisjoneringen.\n4. Bestem **pris** og **rabatter**.\n5. **Følg med** og juster.\n\n## Etikk og pris\n\n**Dynamisk prising** og **personaliserte** priser basert på kundedata kan oppleves som **urettferdig**. Skjulte **gebyrer**, «tilbud» med falske førpriser og **prispress** i kriser kan skade **tilliten**. Priser må også være **tydelige** og **oppgitt med alle kostnader**.\n\n## Vurdering\n\nEn god prisstrategi henger sammen med **målgruppen**, **posisjoneringen** og resten av **markedsmiksen**. Lav pris på et produkt som skal oppfattes som eksklusivt, gir et **motstridende** signal.",
   "flashcards": [
-    { "term": "Dekningsbidrag", "def": "Pris minus variable kostnader per enhet." },
-    { "term": "Priselastisitet", "def": "Hvor følsom etterspørselen er for prisendringer." },
-    { "term": "Elastisk etterspørsel", "def": "Prisøkning gir stort salgsfall." },
-    { "term": "Uelastisk etterspørsel", "def": "Salget påvirkes lite av prisen." },
-    { "term": "Kostnadsbasert prising", "def": "Kostnad pluss påslag." },
-    { "term": "Konkurransebasert prising", "def": "Pris i forhold til konkurrentene." },
-    { "term": "Verdibasert prising", "def": "Pris etter verdien kunden opplever." },
-    { "term": "Skumming", "def": "Høy lanseringspris som senkes gradvis." },
-    { "term": "Penetrasjon", "def": "Lav lanseringspris for å vinne markedsandel." },
-    { "term": "Prestisjepris", "def": "Høy pris som signaliserer kvalitet og status." },
-    { "term": "Psykologisk pris", "def": "For eksempel 199 i stedet for 200 kr." },
-    { "term": "Prisdifferensiering", "def": "Ulike priser til ulike grupper eller tider." },
-    { "term": "Dynamisk prising", "def": "Prisen endres automatisk etter etterspørsel." },
-    { "term": "Bundling", "def": "Flere produkter sammen til lavere samlet pris." },
-    { "term": "Freemium", "def": "Gratis grunnversjon, betaling for ekstra." }
+    {
+      "term": "Dekningsbidrag",
+      "def": "Pris minus variable kostnader per enhet."
+    },
+    {
+      "term": "Priselastisitet",
+      "def": "Hvor følsom etterspørselen er for prisendringer."
+    },
+    {
+      "term": "Elastisk etterspørsel",
+      "def": "Prisøkning gir stort salgsfall."
+    },
+    {
+      "term": "Uelastisk etterspørsel",
+      "def": "Salget påvirkes lite av prisen."
+    },
+    {
+      "term": "Kostnadsbasert prising",
+      "def": "Kostnad pluss påslag."
+    },
+    {
+      "term": "Konkurransebasert prising",
+      "def": "Pris i forhold til konkurrentene."
+    },
+    {
+      "term": "Verdibasert prising",
+      "def": "Pris etter verdien kunden opplever."
+    },
+    {
+      "term": "Skumming",
+      "def": "Høy lanseringspris som senkes gradvis."
+    },
+    {
+      "term": "Penetrasjon",
+      "def": "Lav lanseringspris for å vinne markedsandel."
+    },
+    {
+      "term": "Prestisjepris",
+      "def": "Høy pris som signaliserer kvalitet og status."
+    },
+    {
+      "term": "Psykologisk pris",
+      "def": "For eksempel 199 i stedet for 200 kr."
+    },
+    {
+      "term": "Prisdifferensiering",
+      "def": "Ulike priser til ulike grupper eller tider."
+    },
+    {
+      "term": "Dynamisk prising",
+      "def": "Prisen endres automatisk etter etterspørsel."
+    },
+    {
+      "term": "Bundling",
+      "def": "Flere produkter sammen til lavere samlet pris."
+    },
+    {
+      "term": "Freemium",
+      "def": "Gratis grunnversjon, betaling for ekstra."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr at etterspørselen er uelastisk?", "options": ["At salget faller mye ved prisøkning", "At salget påvirkes lite av prisen", "At det ikke finnes etterspørsel", "At prisen er fast"], "correct": 1, "explain": "Typisk for nødvendighetsvarer." },
-    { "id": "q02", "text": "Hva er skumming?", "options": ["Høy lanseringspris som senkes gradvis", "Lav lanseringspris", "Gratis produkt", "Fast pris for alltid"], "correct": 0, "explain": "Typisk for ny teknologi." },
-    { "id": "q03", "text": "Hva er dekningsbidraget?", "options": ["Faste kostnader", "Overskudd etter skatt", "Pris minus variable kostnader per enhet", "Salgsinntekten"], "correct": 2, "explain": "Skal dekke de faste kostnadene." },
-    { "id": "q04", "text": "Hva er verdibasert prising?", "options": ["Kostnad pluss påslag", "Samme pris som konkurrentene", "Laveste mulige pris", "Pris etter verdien kunden opplever"], "correct": 3, "explain": "Krever kundekunnskap." },
-    { "id": "q05", "text": "Hvilken strategi passer for raskt å vinne markedsandel?", "options": ["Penetrasjon", "Skumming", "Prestisjepris", "Eksklusiv distribusjon"], "correct": 0, "explain": "Lav lanseringspris." },
-    { "id": "q06", "text": "Hva er dynamisk prising?", "options": ["Fast pris", "At prisen endres automatisk etter etterspørsel", "En type rabatt for studenter", "En pakkepris"], "correct": 1, "explain": "Som flybilletter." },
-    { "id": "q07", "text": "Hva forbyr konkurranseloven?", "options": ["Rabatter", "Høye priser", "Prissamarbeid mellom konkurrenter", "Tilbud"], "correct": 2, "explain": "Sikrer konkurranse." },
-    { "id": "q08", "text": "Hvorfor er prisen spesiell blant konkurransemidlene?", "options": ["Den er alltid lav", "Den er hemmelig", "Den bestemmes av staten", "Den er det eneste som gir inntekter"], "correct": 3, "explain": "De andre koster penger." },
-    { "id": "q09", "text": "Hva er et etisk problem ved personaliserte priser?", "options": ["De kan oppleves som urettferdige", "De er alltid lavere", "De er ulovlige overalt", "De gir færre kunder"], "correct": 0, "explain": "Basert på kundedata." },
-    { "id": "q10", "text": "Hva gir et motstridende signal?", "options": ["Høy pris på et eksklusivt produkt", "Lav pris på et produkt som skal oppfattes som eksklusivt", "Studentrabatt", "Abonnement"], "correct": 1, "explain": "Pris må passe posisjoneringen." }
+    {
+      "id": "q01",
+      "text": "Hva betyr at etterspørselen er uelastisk?",
+      "options": [
+        "At salget faller mye ved prisøkning",
+        "At salget påvirkes lite av prisen",
+        "At det ikke finnes etterspørsel",
+        "At prisen er fast"
+      ],
+      "correct": 1,
+      "explain": "Typisk for nødvendighetsvarer."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er skumming?",
+      "options": [
+        "Høy lanseringspris som senkes gradvis",
+        "Lav lanseringspris",
+        "Gratis produkt",
+        "Fast pris for alltid"
+      ],
+      "correct": 0,
+      "explain": "Typisk for ny teknologi."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er dekningsbidraget?",
+      "options": [
+        "Faste kostnader",
+        "Overskudd etter skatt",
+        "Pris minus variable kostnader per enhet",
+        "Salgsinntekten"
+      ],
+      "correct": 2,
+      "explain": "Skal dekke de faste kostnadene."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er verdibasert prising?",
+      "options": [
+        "Kostnad pluss påslag",
+        "Samme pris som konkurrentene",
+        "Laveste mulige pris",
+        "Pris etter verdien kunden opplever"
+      ],
+      "correct": 3,
+      "explain": "Krever kundekunnskap."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken strategi passer for raskt å vinne markedsandel?",
+      "options": [
+        "Penetrasjon",
+        "Skumming",
+        "Prestisjepris",
+        "Eksklusiv distribusjon"
+      ],
+      "correct": 0,
+      "explain": "Lav lanseringspris."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er dynamisk prising?",
+      "options": [
+        "Fast pris",
+        "At prisen endres automatisk etter etterspørsel",
+        "En type rabatt for studenter",
+        "En pakkepris"
+      ],
+      "correct": 1,
+      "explain": "Som flybilletter."
+    },
+    {
+      "id": "q07",
+      "text": "Hva forbyr konkurranseloven?",
+      "options": [
+        "Rabatter",
+        "Høye priser",
+        "Prissamarbeid mellom konkurrenter",
+        "Tilbud"
+      ],
+      "correct": 2,
+      "explain": "Sikrer konkurranse."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er prisen spesiell blant konkurransemidlene?",
+      "options": [
+        "Den er alltid lav",
+        "Den er hemmelig",
+        "Den bestemmes av staten",
+        "Den er det eneste som gir inntekter"
+      ],
+      "correct": 3,
+      "explain": "De andre koster penger."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et etisk problem ved personaliserte priser?",
+      "options": [
+        "De kan oppleves som urettferdige",
+        "De er alltid lavere",
+        "De er ulovlige overalt",
+        "De gir færre kunder"
+      ],
+      "correct": 0,
+      "explain": "Basert på kundedata."
+    },
+    {
+      "id": "q10",
+      "text": "Hva gir et motstridende signal?",
+      "options": [
+        "Høy pris på et eksklusivt produkt",
+        "Lav pris på et produkt som skal oppfattes som eksklusivt",
+        "Studentrabatt",
+        "Abonnement"
+      ],
+      "correct": 1,
+      "explain": "Pris må passe posisjoneringen."
+    }
   ],
   "mindmap": {
     "label": "Prisstrategier",
     "children": [
-      { "label": "Faktorer", "children": [
-        { "label": "Kostnader og dekningsbidrag" },
-        { "label": "Etterspørsel og elastisitet" },
-        { "label": "Konkurrenter og regelverk" }
-      ] },
-      { "label": "Metoder", "children": [
-        { "label": "Kostnadsbasert" },
-        { "label": "Konkurransebasert" },
-        { "label": "Verdibasert" }
-      ] },
-      { "label": "Lansering", "children": [
-        { "label": "Skumming" },
-        { "label": "Penetrasjon" }
-      ] },
-      { "label": "Andre strategier", "children": [
-        { "label": "Prestisje og psykologiske priser" },
-        { "label": "Differensiering og dynamisk" },
-        { "label": "Bundling, abonnement og freemium" }
-      ] },
-      { "label": "Etikk", "children": [
-        { "label": "Falske førpriser" },
-        { "label": "Personaliserte priser" }
-      ] }
+      {
+        "label": "Faktorer",
+        "children": [
+          {
+            "label": "Kostnader og dekningsbidrag"
+          },
+          {
+            "label": "Etterspørsel og elastisitet"
+          },
+          {
+            "label": "Konkurrenter og regelverk"
+          }
+        ]
+      },
+      {
+        "label": "Metoder",
+        "children": [
+          {
+            "label": "Kostnadsbasert"
+          },
+          {
+            "label": "Konkurransebasert"
+          },
+          {
+            "label": "Verdibasert"
+          }
+        ]
+      },
+      {
+        "label": "Lansering",
+        "children": [
+          {
+            "label": "Skumming"
+          },
+          {
+            "label": "Penetrasjon"
+          }
+        ]
+      },
+      {
+        "label": "Andre strategier",
+        "children": [
+          {
+            "label": "Prestisje og psykologiske priser"
+          },
+          {
+            "label": "Differensiering og dynamisk"
+          },
+          {
+            "label": "Bundling, abonnement og freemium"
+          }
+        ]
+      },
+      {
+        "label": "Etikk",
+        "children": [
+          {
+            "label": "Falske førpriser"
+          },
+          {
+            "label": "Personaliserte priser"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Abonnement gir forutsigbare inntekter.", "correct": true, "explain": "Og ofte lojale kunder." },
-      { "id": "m02", "type": "sant-usant", "text": "Kostnadsbasert prising tar full hensyn til hva kundene vil betale.", "correct": false, "explain": "Den bygger på kostnader, ikke betalingsvilje." },
-      { "id": "m03", "type": "sant-usant", "text": "Falske førpriser er forbudt etter markedsføringsloven.", "correct": true, "explain": "Villedende prisinformasjon." },
-      { "id": "m04", "type": "sant-usant", "text": "Penetrasjonsprising krever ingen evne til å tåle lav margin.", "correct": false, "explain": "Marginen er lav i starten." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er et eksempel på prisdifferensiering?", "options": ["Samme pris for alle", "Studentrabatt", "Prissamarbeid", "Falsk førpris"], "correct": 1, "explain": "Ulike priser til ulike grupper." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er en lokkepris?", "options": ["Svært lav pris på enkelte varer for å trekke kunder", "Høy pris for status", "Pris etter kostnad", "Abonnementspris"], "correct": 0, "explain": "Kundene kjøper ofte mer." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er første steg i å utvikle en prisstrategi?", "options": ["Sette rabatter", "Endre logoen", "Sette prismål ut fra virksomhetens mål", "Velge leverandør"], "correct": 2, "explain": "Deretter analyse." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Abonnement gir forutsigbare inntekter.",
+        "correct": true,
+        "explain": "Og ofte lojale kunder."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kostnadsbasert prising tar full hensyn til hva kundene vil betale.",
+        "correct": false,
+        "explain": "Den bygger på kostnader, ikke betalingsvilje."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Falske førpriser er forbudt etter markedsføringsloven.",
+        "correct": true,
+        "explain": "Villedende prisinformasjon."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Penetrasjonsprising krever ingen evne til å tåle lav margin.",
+        "correct": false,
+        "explain": "Marginen er lav i starten."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på prisdifferensiering?",
+        "options": [
+          "Samme pris for alle",
+          "Studentrabatt",
+          "Prissamarbeid",
+          "Falsk førpris"
+        ],
+        "correct": 1,
+        "explain": "Ulike priser til ulike grupper."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en lokkepris?",
+        "options": [
+          "Svært lav pris på enkelte varer for å trekke kunder",
+          "Høy pris for status",
+          "Pris etter kostnad",
+          "Abonnementspris"
+        ],
+        "correct": 0,
+        "explain": "Kundene kjøper ofte mer."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er første steg i å utvikle en prisstrategi?",
+        "options": [
+          "Sette rabatter",
+          "Endre logoen",
+          "Sette prismål ut fra virksomhetens mål",
+          "Velge leverandør"
+        ],
+        "correct": 2,
+        "explain": "Deretter analyse."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på kostnadsbasert og konkurransebasert prising. Hva bygger virksomheten prisen på i hver metode?",
+        "fasit": "Kostnadsbasert prising tar utgangspunkt i kostnadene og legger til et påslag. Konkurransebasert prising fastsettes i forhold til prisene hos konkurrentene.",
+        "kriterier": [
+          "Forklarer at kostnadsbasert prising bygger på kostnader med et påslag.",
+          "Forklarer at konkurransebasert prising bygger på konkurrentenes priser."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En virksomhet får et dekningsbidrag fra hver enhet den selger. Forklar hvordan dekningsbidraget bidrar til å dekke virksomhetens faste kostnader.",
+        "fasit": "Dekningsbidraget fra salget brukes til å dekke de faste kostnadene. Når de faste kostnadene er dekket, kan ytterligere dekningsbidrag bidra til fortjeneste.",
+        "kriterier": [
+          "Knytter dekningsbidraget fra solgte enheter til dekning av faste kostnader.",
+          "Viser at dekningsbidrag utover de faste kostnadene kan bidra til fortjeneste."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En butikk setter opp prisen på en vare, og salget faller mye. Hva tyder dette på om priselastisiteten, og hva bør butikken ta hensyn til før den øker prisen videre?",
+        "fasit": "Et stort salgsfall etter en prisøkning tyder på elastisk etterspørsel. Butikken bør ta hensyn til at nye prisøkninger kan føre til ytterligere fall i salget.",
+        "kriterier": [
+          "Identifiserer etterspørselen som elastisk fordi salget faller mye når prisen øker.",
+          "Knytter priselastisiteten til mulig salgsfall ved videre prisøkning."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En kino tilbyr lavere billettpris til studenter enn til andre kunder. Hvilken prisstrategi er dette, og hva er grunnlaget for prisforskjellen?",
+        "fasit": "Dette er prisdifferensiering. Kinoen tar ulike priser for ulike kundegrupper, her studenter og andre kunder.",
+        "kriterier": [
+          "Identifiserer strategien som prisdifferensiering.",
+          "Forklarer at prisene varierer mellom kundegrupper, og bruker studentene som eksempel."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En app kan brukes gratis med grunnleggende funksjoner, mens brukerne må betale for ekstra funksjoner. Forklar hvilken prisstrategi appen bruker, og hvordan den fungerer.",
+        "fasit": "Appen bruker freemium. En gratis grunnversjon tilbys, mens kundene betaler dersom de vil ha ekstra funksjoner.",
+        "kriterier": [
+          "Identifiserer strategien som freemium.",
+          "Forklarer skillet mellom gratis grunnversjon og betaling for ekstra funksjoner."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En butikk selger flere produkter samlet til en lavere pris enn om kunden kjøpte dem hver for seg. Forklar hvilken prisstrategi dette er, og hvorfor kunden kan velge pakken.",
+        "fasit": "Dette er bundling, eller pakkepris: flere produkter selges samlet til en lavere pris enn hver for seg. Kunden kan velge pakken fordi den gir en lavere samlet pris.",
+        "kriterier": [
+          "Identifiserer strategien som bundling eller pakkepris og forklarer at flere produkter selges samlet.",
+          "Forklarer at samlet pris er lavere enn ved kjøp av produktene hver for seg."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En nettbutikk viser en lav pris på en vare, men legger til obligatoriske gebyrer først helt på slutten av kjøpet. Forklar hvorfor dette er problematisk, og hva butikken bør gjøre med prisinformasjonen.",
+        "fasit": "Skjulte gebyrer kan svekke kundenes tillit. Butikken bør være tydelig og oppgi prisen med alle kostnader.",
+        "kriterier": [
+          "Forklarer at skjulte gebyrer kan skade tilliten eller gjøre prisen utydelig.",
+          "Sier at alle kostnader bør oppgis tydelig."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign prestisjepris og psykologisk pris. Hva skal hver av prisstrategiene få kunden til å oppfatte?",
+        "fasit": "En prestisjepris er høy og skal signalisere kvalitet og status. En psykologisk pris, som 199 i stedet for 200 kroner, skal oppleves som billigere.",
+        "kriterier": [
+          "Forklarer at prestisjepris bruker høy pris for å signalisere kvalitet og status.",
+          "Forklarer at en psykologisk pris utformes for å oppleves som billigere."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

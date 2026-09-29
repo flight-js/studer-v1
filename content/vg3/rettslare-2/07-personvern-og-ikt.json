@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Personvern og juridiske spørsmål på nett",
   "intro": "Sentrale regler om personvern etter personopplysningsloven og GDPR – personopplysninger, prinsipper, behandlingsgrunnlag, samtykke og de registrertes rettigheter – og juridiske spørsmål ved bruk av IKT, som deling av bilder, identitetstyveri, datainnbrudd og netthets.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Personvern som rettighet\n\n**Personvern** handler om retten til et **privatliv** og til å bestemme over opplysninger om seg selv. Det er vernet i **Grunnloven § 102** og **EMK artikkel 8**.\n\n## Personopplysningsloven og GDPR\n\nFra **2018** gjelder EUs personvernforordning, **GDPR**, som norsk lov gjennom **personopplysningsloven**.\n\nEn **personopplysning** er enhver opplysning som kan knyttes til en **identifiserbar** person – navn, bilde, telefonnummer, IP-adresse og posisjonsdata. **Særlige kategorier**, som opplysninger om **helse**, **religion**, **etnisitet**, **politisk syn**, **seksuell orientering** og **biometri**, har et **sterkere** vern.\n\n## Grunnleggende prinsipper\n\nOpplysninger skal\n\n- behandles **lovlig**, **rettferdig** og **åpent**\n- samles inn for **bestemte formål** – **formålsbegrensning**\n- være **begrenset** til det som er nødvendig – **dataminimering**\n- være **korrekte**\n- ikke **lagres** lenger enn nødvendig\n- beskyttes med god **informasjonssikkerhet**\n\nDen **behandlingsansvarlige** – for eksempel en skole eller en bedrift – må kunne **vise** at reglene følges.\n\n## Behandlingsgrunnlag\n\nAll behandling av personopplysninger krever et **rettslig grunnlag**, for eksempel\n\n- **samtykke**\n- at det er nødvendig for å oppfylle en **avtale**\n- en **rettslig forpliktelse**\n- en **oppgave i allmennhetens interesse**, som skolens undervisning\n- en **berettiget interesse** som veier tyngre enn personvernet\n\n**Samtykke** må være **frivillig**, **spesifikt**, **informert** og **utvetydig**, og det kan **trekkes tilbake**. I Norge kan barn fra **13 år** selv samtykke til bruk av sosiale medier og andre nettjenester.\n\n## Dine rettigheter\n\n- **Innsyn**: å få vite hvilke opplysninger som er lagret\n- **Retting** av feil\n- **Sletting** – «retten til å bli glemt»\n- **Dataportabilitet**: å få med seg opplysningene til en annen tjeneste\n- **Protest** mot behandling, for eksempel mot direkte markedsføring\n\n**Datatilsynet** fører tilsyn og kan gi store **overtredelsesgebyrer**. **Personvernnemnda** er klageinstans.\n\n## Bilder og deling\n\n- Etter **åndsverkloven § 104** kan et bilde av en person som hovedregel ikke **offentliggjøres** uten **samtykke**. Unntak gjelder blant annet for bilder av **aktuell** eller **allmenn interesse** og bilder fra **forsamlinger** og **arrangementer** der personen ikke er hovedmotivet.\n- Å dele **intime** eller **krenkende** bilder og filmer uten samtykke er **straffbart** og kan gi fengsel.\n- Å lage og dele **seksualiserte** bilder av personer under 18 år er alltid straffbart – også når de som deler, er unge selv.\n\n## Andre juridiske spørsmål på nett\n\n- **Identitetskrenkelse**: å bruke en annens identitet, for eksempel en falsk profil, for å skade eller oppnå noe – straffeloven § 202\n- **Datainnbrudd**: å skaffe seg adgang til andres kontoer eller datasystemer – straffeloven § 204\n- **Hensynsløs atferd** og **alvorlig personforfølgelse** – netthets og forfølgelse – straffeloven § 266 og § 266 a\n- **Krenkelse av privatlivets fred** – straffeloven § 267\n- **Trusler** – straffeloven § 263\n\n## Drøfting\n\nPersonvern må ofte **veies** mot andre hensyn: **ytringsfrihet**, **sikkerhet**, **effektiv** offentlig forvaltning og **kommersielle** interesser. Eksempler er **overvåking** med kamera, bruk av **KI** til å analysere data, og skolens bruk av digitale læringsplattformer. Spør alltid: Er behandlingen **nødvendig**, har den et **grunnlag**, og er den **forholdsmessig**?",
   "flashcards": [
-    { "term": "Personvern", "def": "Retten til privatliv og kontroll over opplysninger om seg selv." },
-    { "term": "Grunnloven § 102", "def": "Verner privatlivet." },
-    { "term": "GDPR", "def": "EUs personvernforordning – norsk lov fra 2018." },
-    { "term": "Personopplysning", "def": "Opplysning som kan knyttes til en identifiserbar person." },
-    { "term": "Særlige kategorier", "def": "Helse, religion, etnisitet, politisk syn, seksuell orientering, biometri." },
-    { "term": "Dataminimering", "def": "Bare samle inn det som er nødvendig." },
-    { "term": "Formålsbegrensning", "def": "Opplysninger samles inn for bestemte formål." },
-    { "term": "Behandlingsgrunnlag", "def": "Rettslig grunnlag for å behandle personopplysninger." },
-    { "term": "Gyldig samtykke", "def": "Frivillig, spesifikt, informert og utvetydig – kan trekkes tilbake." },
-    { "term": "Aldersgrense for samtykke", "def": "13 år for nettjenester i Norge." },
-    { "term": "Retten til å bli glemt", "def": "Retten til sletting." },
-    { "term": "Datatilsynet", "def": "Fører tilsyn med personvernreglene." },
-    { "term": "Åndsverkloven § 104", "def": "Bilder av personer krever som hovedregel samtykke før offentliggjøring." },
-    { "term": "Identitetskrenkelse", "def": "Å bruke andres identitet for å skade eller oppnå noe – straffeloven § 202." },
-    { "term": "Datainnbrudd", "def": "Uberettiget adgang til datasystem – straffeloven § 204." }
+    {
+      "term": "Personvern",
+      "def": "Retten til privatliv og kontroll over opplysninger om seg selv."
+    },
+    {
+      "term": "Grunnloven § 102",
+      "def": "Verner privatlivet."
+    },
+    {
+      "term": "GDPR",
+      "def": "EUs personvernforordning – norsk lov fra 2018."
+    },
+    {
+      "term": "Personopplysning",
+      "def": "Opplysning som kan knyttes til en identifiserbar person."
+    },
+    {
+      "term": "Særlige kategorier",
+      "def": "Helse, religion, etnisitet, politisk syn, seksuell orientering, biometri."
+    },
+    {
+      "term": "Dataminimering",
+      "def": "Bare samle inn det som er nødvendig."
+    },
+    {
+      "term": "Formålsbegrensning",
+      "def": "Opplysninger samles inn for bestemte formål."
+    },
+    {
+      "term": "Behandlingsgrunnlag",
+      "def": "Rettslig grunnlag for å behandle personopplysninger."
+    },
+    {
+      "term": "Gyldig samtykke",
+      "def": "Frivillig, spesifikt, informert og utvetydig – kan trekkes tilbake."
+    },
+    {
+      "term": "Aldersgrense for samtykke",
+      "def": "13 år for nettjenester i Norge."
+    },
+    {
+      "term": "Retten til å bli glemt",
+      "def": "Retten til sletting."
+    },
+    {
+      "term": "Datatilsynet",
+      "def": "Fører tilsyn med personvernreglene."
+    },
+    {
+      "term": "Åndsverkloven § 104",
+      "def": "Bilder av personer krever som hovedregel samtykke før offentliggjøring."
+    },
+    {
+      "term": "Identitetskrenkelse",
+      "def": "Å bruke andres identitet for å skade eller oppnå noe – straffeloven § 202."
+    },
+    {
+      "term": "Datainnbrudd",
+      "def": "Uberettiget adgang til datasystem – straffeloven § 204."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en personopplysning?", "options": ["Bare fødselsnummer", "Enhver opplysning som kan knyttes til en identifiserbar person", "Bare hemmelige opplysninger", "Bare opplysninger på papir"], "correct": 1, "explain": "Også bilde og IP-adresse." },
-    { "id": "q02", "text": "Hvilken aldersgrense gjelder for å samtykke selv til nettjenester i Norge?", "options": ["13 år", "16 år", "18 år", "10 år"], "correct": 0, "explain": "Etter personopplysningsloven." },
-    { "id": "q03", "text": "Hva betyr dataminimering?", "options": ["At data slettes etter en dag", "At data krypteres", "At man bare samler inn det som er nødvendig", "At data lagres i skyen"], "correct": 2, "explain": "Et grunnleggende prinsipp." },
-    { "id": "q04", "text": "Hvilket krav stilles til et gyldig samtykke?", "options": ["At det er muntlig", "At det gjelder for alltid", "At det gis av foreldre", "At det er frivillig, spesifikt, informert og utvetydig"], "correct": 3, "explain": "Og det kan trekkes tilbake." },
-    { "id": "q05", "text": "Hvem fører tilsyn med personvernreglene i Norge?", "options": ["Datatilsynet", "Politiet", "Forbrukertilsynet", "Sivilombudet"], "correct": 0, "explain": "Personvernnemnda er klageinstans." },
-    { "id": "q06", "text": "Hva sier åndsverkloven § 104?", "options": ["At alle bilder er fritt tilgjengelige", "At bilder av personer som hovedregel krever samtykke før offentliggjøring", "At bare journalister kan ta bilder", "At bilder må slettes etter ett år"], "correct": 1, "explain": "Med unntak for blant annet aktualitet." },
-    { "id": "q07", "text": "Hva er identitetskrenkelse?", "options": ["Å glemme passordet", "Å endre navn", "Å bruke andres identitet for å skade eller oppnå noe", "Å lage egen profil"], "correct": 2, "explain": "Straffeloven § 202." },
-    { "id": "q08", "text": "Hvilken rettighet gir deg mulighet til å få slettet opplysninger?", "options": ["Innsyn", "Dataportabilitet", "Protest", "Retten til å bli glemt"], "correct": 3, "explain": "Retten til sletting." },
-    { "id": "q09", "text": "Hvilke opplysninger har et sterkere vern?", "options": ["Særlige kategorier som helse og religion", "Navn og adresse", "Favorittfarge", "Skostørrelse"], "correct": 0, "explain": "Kan være svært sensitive." },
-    { "id": "q10", "text": "Hva er datainnbrudd?", "options": ["Å kjøpe en ny datamaskin", "Å skaffe seg uberettiget adgang til andres kontoer eller datasystemer", "Å laste ned apper", "Å dele lenker"], "correct": 1, "explain": "Straffeloven § 204." }
+    {
+      "id": "q01",
+      "text": "Hva er en personopplysning?",
+      "options": [
+        "Bare fødselsnummer",
+        "Enhver opplysning som kan knyttes til en identifiserbar person",
+        "Bare hemmelige opplysninger",
+        "Bare opplysninger på papir"
+      ],
+      "correct": 1,
+      "explain": "Også bilde og IP-adresse."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken aldersgrense gjelder for å samtykke selv til nettjenester i Norge?",
+      "options": [
+        "13 år",
+        "16 år",
+        "18 år",
+        "10 år"
+      ],
+      "correct": 0,
+      "explain": "Etter personopplysningsloven."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr dataminimering?",
+      "options": [
+        "At data slettes etter en dag",
+        "At data krypteres",
+        "At man bare samler inn det som er nødvendig",
+        "At data lagres i skyen"
+      ],
+      "correct": 2,
+      "explain": "Et grunnleggende prinsipp."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket krav stilles til et gyldig samtykke?",
+      "options": [
+        "At det er muntlig",
+        "At det gjelder for alltid",
+        "At det gis av foreldre",
+        "At det er frivillig, spesifikt, informert og utvetydig"
+      ],
+      "correct": 3,
+      "explain": "Og det kan trekkes tilbake."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem fører tilsyn med personvernreglene i Norge?",
+      "options": [
+        "Datatilsynet",
+        "Politiet",
+        "Forbrukertilsynet",
+        "Sivilombudet"
+      ],
+      "correct": 0,
+      "explain": "Personvernnemnda er klageinstans."
+    },
+    {
+      "id": "q06",
+      "text": "Hva sier åndsverkloven § 104?",
+      "options": [
+        "At alle bilder er fritt tilgjengelige",
+        "At bilder av personer som hovedregel krever samtykke før offentliggjøring",
+        "At bare journalister kan ta bilder",
+        "At bilder må slettes etter ett år"
+      ],
+      "correct": 1,
+      "explain": "Med unntak for blant annet aktualitet."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er identitetskrenkelse?",
+      "options": [
+        "Å glemme passordet",
+        "Å endre navn",
+        "Å bruke andres identitet for å skade eller oppnå noe",
+        "Å lage egen profil"
+      ],
+      "correct": 2,
+      "explain": "Straffeloven § 202."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken rettighet gir deg mulighet til å få slettet opplysninger?",
+      "options": [
+        "Innsyn",
+        "Dataportabilitet",
+        "Protest",
+        "Retten til å bli glemt"
+      ],
+      "correct": 3,
+      "explain": "Retten til sletting."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilke opplysninger har et sterkere vern?",
+      "options": [
+        "Særlige kategorier som helse og religion",
+        "Navn og adresse",
+        "Favorittfarge",
+        "Skostørrelse"
+      ],
+      "correct": 0,
+      "explain": "Kan være svært sensitive."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er datainnbrudd?",
+      "options": [
+        "Å kjøpe en ny datamaskin",
+        "Å skaffe seg uberettiget adgang til andres kontoer eller datasystemer",
+        "Å laste ned apper",
+        "Å dele lenker"
+      ],
+      "correct": 1,
+      "explain": "Straffeloven § 204."
+    }
   ],
   "mindmap": {
     "label": "Personvern og IKT",
     "children": [
-      { "label": "Grunnlag", "children": [
-        { "label": "Grunnloven § 102 og EMK 8" },
-        { "label": "GDPR" }
-      ] },
-      { "label": "Regler", "children": [
-        { "label": "Prinsipper" },
-        { "label": "Behandlingsgrunnlag" },
-        { "label": "Samtykke fra 13 år" }
-      ] },
-      { "label": "Rettigheter", "children": [
-        { "label": "Innsyn og retting" },
-        { "label": "Sletting" },
-        { "label": "Datatilsynet" }
-      ] },
-      { "label": "Bilder", "children": [
-        { "label": "Åndsverkloven § 104" },
-        { "label": "Deling av intime bilder" }
-      ] },
-      { "label": "Nettkriminalitet", "children": [
-        { "label": "Identitetskrenkelse" },
-        { "label": "Datainnbrudd" },
-        { "label": "Hets og forfølgelse" }
-      ] }
+      {
+        "label": "Grunnlag",
+        "children": [
+          {
+            "label": "Grunnloven § 102 og EMK 8"
+          },
+          {
+            "label": "GDPR"
+          }
+        ]
+      },
+      {
+        "label": "Regler",
+        "children": [
+          {
+            "label": "Prinsipper"
+          },
+          {
+            "label": "Behandlingsgrunnlag"
+          },
+          {
+            "label": "Samtykke fra 13 år"
+          }
+        ]
+      },
+      {
+        "label": "Rettigheter",
+        "children": [
+          {
+            "label": "Innsyn og retting"
+          },
+          {
+            "label": "Sletting"
+          },
+          {
+            "label": "Datatilsynet"
+          }
+        ]
+      },
+      {
+        "label": "Bilder",
+        "children": [
+          {
+            "label": "Åndsverkloven § 104"
+          },
+          {
+            "label": "Deling av intime bilder"
+          }
+        ]
+      },
+      {
+        "label": "Nettkriminalitet",
+        "children": [
+          {
+            "label": "Identitetskrenkelse"
+          },
+          {
+            "label": "Datainnbrudd"
+          },
+          {
+            "label": "Hets og forfølgelse"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En IP-adresse kan være en personopplysning.", "correct": true, "explain": "Den kan knyttes til en person." },
-      { "id": "m02", "type": "sant-usant", "text": "Et samtykke kan aldri trekkes tilbake.", "correct": false, "explain": "Det kan trekkes tilbake når som helst." },
-      { "id": "m03", "type": "sant-usant", "text": "Datatilsynet kan gi store overtredelsesgebyrer.", "correct": true, "explain": "For brudd på personvernreglene." },
-      { "id": "m04", "type": "sant-usant", "text": "Det er lovlig å dele seksualiserte bilder av personer under 18 år hvis den som deler, også er under 18.", "correct": false, "explain": "Det er alltid straffbart." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket av disse er et behandlingsgrunnlag?", "options": ["Nysgjerrighet", "Samtykke", "At opplysningene er gratis", "At alle andre gjør det"], "correct": 1, "explain": "Også avtale, rettslig forpliktelse og berettiget interesse." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilke hensyn veies ofte mot personvern?", "options": ["Ytringsfrihet, sikkerhet og kommersielle interesser", "Vær og vind", "Idrett og kultur", "Mat og drikke"], "correct": 0, "explain": "Krever forholdsmessighetsvurdering." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er dataportabilitet?", "options": ["At data lagres på minnepinne", "At data slettes", "Retten til å få med seg opplysningene til en annen tjeneste", "At data selges"], "correct": 2, "explain": "En av de registrertes rettigheter." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En IP-adresse kan være en personopplysning.",
+        "correct": true,
+        "explain": "Den kan knyttes til en person."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et samtykke kan aldri trekkes tilbake.",
+        "correct": false,
+        "explain": "Det kan trekkes tilbake når som helst."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Datatilsynet kan gi store overtredelsesgebyrer.",
+        "correct": true,
+        "explain": "For brudd på personvernreglene."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det er lovlig å dele seksualiserte bilder av personer under 18 år hvis den som deler, også er under 18.",
+        "correct": false,
+        "explain": "Det er alltid straffbart."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket av disse er et behandlingsgrunnlag?",
+        "options": [
+          "Nysgjerrighet",
+          "Samtykke",
+          "At opplysningene er gratis",
+          "At alle andre gjør det"
+        ],
+        "correct": 1,
+        "explain": "Også avtale, rettslig forpliktelse og berettiget interesse."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilke hensyn veies ofte mot personvern?",
+        "options": [
+          "Ytringsfrihet, sikkerhet og kommersielle interesser",
+          "Vær og vind",
+          "Idrett og kultur",
+          "Mat og drikke"
+        ],
+        "correct": 0,
+        "explain": "Krever forholdsmessighetsvurdering."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er dataportabilitet?",
+        "options": [
+          "At data lagres på minnepinne",
+          "At data slettes",
+          "Retten til å få med seg opplysningene til en annen tjeneste",
+          "At data selges"
+        ],
+        "correct": 2,
+        "explain": "En av de registrertes rettigheter."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva personvern beskytter, og nevn hvilke to bestemmelser som verner retten til privatliv.",
+        "fasit": "Personvern er retten til privatliv og til å bestemme over opplysninger om seg selv. Retten til privatliv er vernet i Grunnloven § 102 og EMK artikkel 8.",
+        "kriterier": [
+          "Forklarer at personvern gjelder både privatliv og kontroll over egne opplysninger.",
+          "Nevner Grunnloven § 102 og EMK artikkel 8 som vern av privatlivet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hvordan gjelder GDPR i Norge, og hvilken rolle har personopplysningsloven?",
+        "fasit": "Fra 2018 gjelder GDPR som norsk lov gjennom personopplysningsloven.",
+        "kriterier": [
+          "Får fram at GDPR gjelder som norsk lov fra 2018.",
+          "Forklarer at personopplysningsloven gjør GDPR til norsk lov."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En app samler inn posisjonsdata for å vise brukeren veien, men bruker senere opplysningene til å velge reklame. Hvilket personvernprinsipp er særlig relevant, og hvorfor?",
+        "fasit": "Prinsippet om formålsbegrensning er særlig relevant. Opplysningene ble samlet inn for å vise veien, mens reklamebruk er et annet formål.",
+        "kriterier": [
+          "Identifiserer formålsbegrensning som relevant.",
+          "Forklarer at opplysninger skal samles inn for bestemte formål, og skiller mellom navigasjon og reklame."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign retten til innsyn med dataportabilitet. Hva gir hver av disse rettighetene en person mulighet til?",
+        "fasit": "Innsyn gir personen mulighet til å få vite hvilke opplysninger som er lagret om seg. Dataportabilitet gir mulighet til å få opplysningene med seg til en annen tjeneste.",
+        "kriterier": [
+          "Forklarer at innsyn handler om å få vite hvilke opplysninger som er lagret.",
+          "Forklarer at dataportabilitet handler om å få opplysningene med seg til en annen tjeneste."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En person er hovedmotivet på et bilde fra et arrangement. En arrangør vil offentliggjøre bildet. Hva er hovedregelen etter åndsverkloven § 104, og hvordan påvirker det at personen er hovedmotivet?",
+        "fasit": "Hovedregelen er at et bilde av en person ikke kan offentliggjøres uten samtykke. Unntaket for bilder fra arrangementer gjelder når personen ikke er hovedmotivet, så det passer ikke på denne situasjonen.",
+        "kriterier": [
+          "Får fram at offentliggjøring som hovedregel krever samtykke.",
+          "Forklarer at arrangementsunntaket forutsetter at personen ikke er hovedmotivet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En skole behandler personopplysninger som er nødvendige for undervisningen. Hvilket behandlingsgrunnlag kan være aktuelt, og hvorfor?",
+        "fasit": "En oppgave i allmennhetens interesse kan være aktuelt behandlingsgrunnlag. Skolens undervisning er et eksempel på en slik oppgave.",
+        "kriterier": [
+          "Identifiserer oppgave i allmennhetens interesse som aktuelt behandlingsgrunnlag.",
+          "Knytter grunnlaget til at undervisning er en oppgave for skolen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign identitetskrenkelse og datainnbrudd. Hva er forskjellen på handlingene?",
+        "fasit": "Identitetskrenkelse er å bruke en annens identitet, for eksempel i en falsk profil, for å skade eller oppnå noe. Datainnbrudd er å skaffe seg uberettiget adgang til andres kontoer eller datasystemer.",
+        "kriterier": [
+          "Forklarer at identitetskrenkelse gjelder misbruk av en annens identitet for å skade eller oppnå noe.",
+          "Forklarer at datainnbrudd gjelder uberettiget adgang til andres kontoer eller datasystemer."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En virksomhet vurderer kameraovervåking for å ivareta sikkerheten. Hvilke spørsmål bør den undersøke for å vurdere om overvåkingen ivaretar personvernet?",
+        "fasit": "Virksomheten bør undersøke om overvåkingen er nødvendig, om den har et rettslig grunnlag, og om den er forholdsmessig. Personvern må veies mot sikkerhetshensynet.",
+        "kriterier": [
+          "Tar opp nødvendighet, rettslig grunnlag og forholdsmessighet i vurderingen.",
+          "Forklarer at personvernet må veies mot sikkerhetshensynet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

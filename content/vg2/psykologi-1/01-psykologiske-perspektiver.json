@@ -4,81 +4,434 @@
   "trinnId": "vg2",
   "name": "Psykologiske perspektiver",
   "intro": "Hva psykologi er, og de viktigste perspektivene – biologisk, psykodynamisk, atferdsorientert, kognitivt, humanistisk og sosiokulturelt – og hvordan de gir ulike forklaringer på det samme fenomenet.",
-  "kompetansemaal": [1, 2],
+  "kompetansemaal": [
+    1,
+    2
+  ],
   "sammendrag": "## Hva er psykologi?\n\n**Psykologi** er den vitenskapelige studien av **tanker**, **følelser** og **atferd**. Faget spenner fra nerveceller i hjernen til hvordan mennesker påvirker hverandre i grupper.\n\nPsykologien ble et eget **vitenskapelig fag** da **Wilhelm Wundt** åpnet et psykologisk laboratorium i **Leipzig** i **1879**. Før det var spørsmål om sjelen og tenkningen en del av **filosofien**.\n\n## Perspektivene\n\nEt **perspektiv** er en måte å se på mennesket på. Hvert perspektiv stiller ulike spørsmål og bruker ulike **metoder**.\n\n- **Det biologiske perspektivet** forklarer atferd ut fra **hjernen**, **nervesystemet**, **hormoner** og **gener**. Hva skjer i kroppen når vi blir redde eller glade?\n- **Det psykodynamiske perspektivet** stammer fra **Sigmund Freud**. Mye av det vi gjør, styres av **ubevisste** krefter og erfaringer fra **barndommen**. Freud delte personligheten i **id**, **ego** og **superego**, og han mente vi bruker **forsvarsmekanismer**, som fortrengning, for å beskytte oss mot angst.\n- **Atferdsperspektivet** (behaviorismen) ble utviklet av blant andre **John B. Watson** og **B.F. Skinner**. Psykologien skal bare studere det som kan **observeres**: atferd. Atferd er **lært** gjennom samspill med **miljøet**, for eksempel gjennom belønning og straff.\n- **Det kognitive perspektivet** studerer **tankeprosesser** som oppmerksomhet, hukommelse, persepsjon og problemløsning. Hjernen sammenlignes ofte med en **informasjonsbehandler**, og måten vi **tolker** en situasjon på, påvirker følelser og atferd.\n- **Det humanistiske perspektivet** med **Abraham Maslow** og **Carl Rogers** vektlegger **fri vilje**, **egenverd** og ønsket om **selvrealisering** – å utvikle seg til sitt beste.\n- **Det sosiokulturelle perspektivet** viser hvordan **kultur**, **gruppe** og **sosiale relasjoner** former oss. **Lev Vygotskij** mente at vi lærer gjennom samhandling med andre.\n\n## Samme fenomen – ulike forklaringer\n\nTa **angst** for å holde foredrag som eksempel:\n\n- **Biologisk**: økt aktivitet i amygdala og utskillelse av stresshormoner.\n- **Atferd**: personen har tidligere blitt ledd av og har lært å forbinde foredrag med ubehag.\n- **Kognitivt**: personen tenker katastrofetanker som «alle vil synes jeg er dum».\n- **Sosiokulturelt**: normer i klassen og forventninger fra andre forsterker presset.\n\nPerspektivene **utelukker ikke** hverandre. Den **biopsykososiale modellen** samler biologiske, psykologiske og sosiale faktorer for å gi en mer **helhetlig** forklaring.\n\n## Å vurdere forklaringer\n\nNår du vurderer en forklaring, kan du spørre\n\n- om den bygger på **forskning** og kan **testes**\n- om den forklarer **hele** fenomenet eller bare en del\n- om den er **reduksjonistisk** – forenkler mennesket til én årsak\n- om den tar hensyn til **kultur** og **individuelle forskjeller**\n\nFreuds teorier er for eksempel kritisert for å være vanskelige å **teste**, mens behaviorismen er kritisert for å overse **tanker** og **følelser**.",
   "flashcards": [
-    { "term": "Psykologi", "def": "Den vitenskapelige studien av tanker, følelser og atferd." },
-    { "term": "Wilhelm Wundt", "def": "Åpnet det første psykologiske laboratoriet i Leipzig i 1879." },
-    { "term": "Perspektiv", "def": "En måte å se på mennesket på, med egne spørsmål og metoder." },
-    { "term": "Biologisk perspektiv", "def": "Forklarer atferd ut fra hjernen, nervesystemet, hormoner og gener." },
-    { "term": "Psykodynamisk perspektiv", "def": "Freuds tradisjon: ubevisste krefter og barndomserfaringer styrer oss." },
-    { "term": "Id, ego og superego", "def": "Freuds tredeling av personligheten: drifter, virkelighetssans og samvittighet." },
-    { "term": "Forsvarsmekanisme", "def": "Ubevisst strategi for å beskytte seg mot angst, for eksempel fortrengning." },
-    { "term": "Behaviorisme", "def": "Atferdsperspektivet: studerer observerbar atferd som læres fra miljøet." },
-    { "term": "Kognitivt perspektiv", "def": "Studerer tankeprosesser som hukommelse, persepsjon og problemløsning." },
-    { "term": "Humanistisk perspektiv", "def": "Vektlegger fri vilje, egenverd og selvrealisering." },
-    { "term": "Selvrealisering", "def": "Å utvikle seg til sitt fulle potensial." },
-    { "term": "Sosiokulturelt perspektiv", "def": "Viser hvordan kultur og sosiale relasjoner former oss." },
-    { "term": "Biopsykososial modell", "def": "Samler biologiske, psykologiske og sosiale faktorer i én forklaring." },
-    { "term": "Reduksjonisme", "def": "Å forklare et sammensatt fenomen med én enkel årsak." },
-    { "term": "Carl Rogers", "def": "Humanistisk psykolog som vektla egenverd og ubetinget aksept." },
-    { "term": "Lev Vygotskij", "def": "Mente at vi lærer og utvikler oss gjennom samhandling med andre." }
+    {
+      "term": "Psykologi",
+      "def": "Den vitenskapelige studien av tanker, følelser og atferd."
+    },
+    {
+      "term": "Wilhelm Wundt",
+      "def": "Åpnet det første psykologiske laboratoriet i Leipzig i 1879."
+    },
+    {
+      "term": "Perspektiv",
+      "def": "En måte å se på mennesket på, med egne spørsmål og metoder."
+    },
+    {
+      "term": "Biologisk perspektiv",
+      "def": "Forklarer atferd ut fra hjernen, nervesystemet, hormoner og gener."
+    },
+    {
+      "term": "Psykodynamisk perspektiv",
+      "def": "Freuds tradisjon: ubevisste krefter og barndomserfaringer styrer oss."
+    },
+    {
+      "term": "Id, ego og superego",
+      "def": "Freuds tredeling av personligheten: drifter, virkelighetssans og samvittighet."
+    },
+    {
+      "term": "Forsvarsmekanisme",
+      "def": "Ubevisst strategi for å beskytte seg mot angst, for eksempel fortrengning."
+    },
+    {
+      "term": "Behaviorisme",
+      "def": "Atferdsperspektivet: studerer observerbar atferd som læres fra miljøet."
+    },
+    {
+      "term": "Kognitivt perspektiv",
+      "def": "Studerer tankeprosesser som hukommelse, persepsjon og problemløsning."
+    },
+    {
+      "term": "Humanistisk perspektiv",
+      "def": "Vektlegger fri vilje, egenverd og selvrealisering."
+    },
+    {
+      "term": "Selvrealisering",
+      "def": "Å utvikle seg til sitt fulle potensial."
+    },
+    {
+      "term": "Sosiokulturelt perspektiv",
+      "def": "Viser hvordan kultur og sosiale relasjoner former oss."
+    },
+    {
+      "term": "Biopsykososial modell",
+      "def": "Samler biologiske, psykologiske og sosiale faktorer i én forklaring."
+    },
+    {
+      "term": "Reduksjonisme",
+      "def": "Å forklare et sammensatt fenomen med én enkel årsak."
+    },
+    {
+      "term": "Carl Rogers",
+      "def": "Humanistisk psykolog som vektla egenverd og ubetinget aksept."
+    },
+    {
+      "term": "Lev Vygotskij",
+      "def": "Mente at vi lærer og utvikler oss gjennom samhandling med andre."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva studerer psykologien?", "options": ["Bare hjernen", "Tanker, følelser og atferd", "Bare psykiske lidelser", "Bare dyr"], "correct": 1, "explain": "Fra nerveceller til grupper." },
-    { "id": "q02", "text": "Hvilket perspektiv legger vekt på ubevisste krefter og barndommen?", "options": ["Det psykodynamiske", "Det kognitive", "Det humanistiske", "Atferdsperspektivet"], "correct": 0, "explain": "Stammer fra Sigmund Freud." },
-    { "id": "q03", "text": "Hva mente behavioristene at psykologien skulle studere?", "options": ["Drømmer", "Følelser", "Observerbar atferd", "Sjelen"], "correct": 2, "explain": "Det som kan observeres og måles." },
-    { "id": "q04", "text": "Hvilket perspektiv sammenligner hjernen med en informasjonsbehandler?", "options": ["Det humanistiske", "Det psykodynamiske", "Det sosiokulturelle", "Det kognitive"], "correct": 3, "explain": "Studerer tankeprosesser." },
-    { "id": "q05", "text": "Hvem er knyttet til det humanistiske perspektivet?", "options": ["Maslow og Rogers", "Freud og Jung", "Watson og Skinner", "Pavlov og Thorndike"], "correct": 0, "explain": "De vektla egenverd og selvrealisering." },
-    { "id": "q06", "text": "Hva er den biopsykososiale modellen?", "options": ["En modell av hjernen", "En samlet forklaring med biologiske, psykologiske og sosiale faktorer", "En test av intelligens", "En teori om drømmer"], "correct": 1, "explain": "Gir en mer helhetlig forklaring." },
-    { "id": "q07", "text": "En elev tenker «alle vil synes jeg er dum» før et foredrag. Hvilket perspektiv legger mest vekt på dette?", "options": ["Det biologiske", "Atferdsperspektivet", "Det kognitive", "Det psykodynamiske"], "correct": 2, "explain": "Tolkninger og tanker påvirker følelser." },
-    { "id": "q08", "text": "Hva betyr det at en forklaring er reduksjonistisk?", "options": ["At den er for lang", "At den bygger på mange studier", "At den tar hensyn til kultur", "At den forenkler et sammensatt fenomen til én årsak"], "correct": 3, "explain": "Et vanlig kritikkpunkt." },
-    { "id": "q09", "text": "Hvilken kritikk rettes ofte mot Freuds teorier?", "options": ["At de er vanskelige å teste", "At de bare handler om dyr", "At de overser barndommen", "At de bygger på hjernescanning"], "correct": 0, "explain": "Ubevisste prosesser er vanskelige å måle." },
-    { "id": "q10", "text": "Hva la Vygotskij vekt på?", "options": ["Belønning og straff", "Læring gjennom samhandling med andre", "Ubevisste drifter", "Gener"], "correct": 1, "explain": "Et sosiokulturelt syn på læring." }
+    {
+      "id": "q01",
+      "text": "Hva studerer psykologien?",
+      "options": [
+        "Bare hjernen",
+        "Tanker, følelser og atferd",
+        "Bare psykiske lidelser",
+        "Bare dyr"
+      ],
+      "correct": 1,
+      "explain": "Fra nerveceller til grupper."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket perspektiv legger vekt på ubevisste krefter og barndommen?",
+      "options": [
+        "Det psykodynamiske",
+        "Det kognitive",
+        "Det humanistiske",
+        "Atferdsperspektivet"
+      ],
+      "correct": 0,
+      "explain": "Stammer fra Sigmund Freud."
+    },
+    {
+      "id": "q03",
+      "text": "Hva mente behavioristene at psykologien skulle studere?",
+      "options": [
+        "Drømmer",
+        "Følelser",
+        "Observerbar atferd",
+        "Sjelen"
+      ],
+      "correct": 2,
+      "explain": "Det som kan observeres og måles."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket perspektiv sammenligner hjernen med en informasjonsbehandler?",
+      "options": [
+        "Det humanistiske",
+        "Det psykodynamiske",
+        "Det sosiokulturelle",
+        "Det kognitive"
+      ],
+      "correct": 3,
+      "explain": "Studerer tankeprosesser."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem er knyttet til det humanistiske perspektivet?",
+      "options": [
+        "Maslow og Rogers",
+        "Freud og Jung",
+        "Watson og Skinner",
+        "Pavlov og Thorndike"
+      ],
+      "correct": 0,
+      "explain": "De vektla egenverd og selvrealisering."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den biopsykososiale modellen?",
+      "options": [
+        "En modell av hjernen",
+        "En samlet forklaring med biologiske, psykologiske og sosiale faktorer",
+        "En test av intelligens",
+        "En teori om drømmer"
+      ],
+      "correct": 1,
+      "explain": "Gir en mer helhetlig forklaring."
+    },
+    {
+      "id": "q07",
+      "text": "En elev tenker «alle vil synes jeg er dum» før et foredrag. Hvilket perspektiv legger mest vekt på dette?",
+      "options": [
+        "Det biologiske",
+        "Atferdsperspektivet",
+        "Det kognitive",
+        "Det psykodynamiske"
+      ],
+      "correct": 2,
+      "explain": "Tolkninger og tanker påvirker følelser."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr det at en forklaring er reduksjonistisk?",
+      "options": [
+        "At den er for lang",
+        "At den bygger på mange studier",
+        "At den tar hensyn til kultur",
+        "At den forenkler et sammensatt fenomen til én årsak"
+      ],
+      "correct": 3,
+      "explain": "Et vanlig kritikkpunkt."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken kritikk rettes ofte mot Freuds teorier?",
+      "options": [
+        "At de er vanskelige å teste",
+        "At de bare handler om dyr",
+        "At de overser barndommen",
+        "At de bygger på hjernescanning"
+      ],
+      "correct": 0,
+      "explain": "Ubevisste prosesser er vanskelige å måle."
+    },
+    {
+      "id": "q10",
+      "text": "Hva la Vygotskij vekt på?",
+      "options": [
+        "Belønning og straff",
+        "Læring gjennom samhandling med andre",
+        "Ubevisste drifter",
+        "Gener"
+      ],
+      "correct": 1,
+      "explain": "Et sosiokulturelt syn på læring."
+    }
   ],
   "mindmap": {
     "label": "Psykologiske perspektiver",
     "children": [
-      { "label": "Biologisk", "children": [
-        { "label": "Hjerne og nerver" },
-        { "label": "Hormoner og gener" }
-      ] },
-      { "label": "Psykodynamisk", "children": [
-        { "label": "Freud" },
-        { "label": "Det ubevisste" },
-        { "label": "Forsvarsmekanismer" }
-      ] },
-      { "label": "Atferd", "children": [
-        { "label": "Watson og Skinner" },
-        { "label": "Læring fra miljøet" }
-      ] },
-      { "label": "Kognitivt", "children": [
-        { "label": "Tankeprosesser" },
-        { "label": "Tolkning" }
-      ] },
-      { "label": "Humanistisk og sosiokulturelt", "children": [
-        { "label": "Maslow og Rogers" },
-        { "label": "Vygotskij og kultur" }
-      ] },
-      { "label": "Vurdering", "children": [
-        { "label": "Biopsykososial modell" },
-        { "label": "Reduksjonisme" },
-        { "label": "Testbarhet" }
-      ] }
+      {
+        "label": "Biologisk",
+        "children": [
+          {
+            "label": "Hjerne og nerver"
+          },
+          {
+            "label": "Hormoner og gener"
+          }
+        ]
+      },
+      {
+        "label": "Psykodynamisk",
+        "children": [
+          {
+            "label": "Freud"
+          },
+          {
+            "label": "Det ubevisste"
+          },
+          {
+            "label": "Forsvarsmekanismer"
+          }
+        ]
+      },
+      {
+        "label": "Atferd",
+        "children": [
+          {
+            "label": "Watson og Skinner"
+          },
+          {
+            "label": "Læring fra miljøet"
+          }
+        ]
+      },
+      {
+        "label": "Kognitivt",
+        "children": [
+          {
+            "label": "Tankeprosesser"
+          },
+          {
+            "label": "Tolkning"
+          }
+        ]
+      },
+      {
+        "label": "Humanistisk og sosiokulturelt",
+        "children": [
+          {
+            "label": "Maslow og Rogers"
+          },
+          {
+            "label": "Vygotskij og kultur"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering",
+        "children": [
+          {
+            "label": "Biopsykososial modell"
+          },
+          {
+            "label": "Reduksjonisme"
+          },
+          {
+            "label": "Testbarhet"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Psykologien ble et eget vitenskapelig fag på slutten av 1800-tallet.", "correct": true, "explain": "Wundt åpnet laboratoriet i Leipzig i 1879." },
-      { "id": "m02", "type": "sant-usant", "text": "Perspektivene i psykologien utelukker hverandre, så bare ett kan være riktig.", "correct": false, "explain": "De utfyller hverandre og kan kombineres." },
-      { "id": "m03", "type": "sant-usant", "text": "Behaviorismen er kritisert for å overse tanker og følelser.", "correct": true, "explain": "Den studerte bare observerbar atferd." },
-      { "id": "m04", "type": "sant-usant", "text": "Superego er Freuds betegnelse på de primitive driftene.", "correct": false, "explain": "Driftene er id, superego er samvittigheten." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket perspektiv vil forklare angst med aktivitet i amygdala?", "options": ["Det humanistiske", "Det biologiske", "Det sosiokulturelle", "Det psykodynamiske"], "correct": 1, "explain": "Hjernen og stresshormonene." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er fortrengning?", "options": ["En forsvarsmekanisme", "En læringsstrategi", "En hjernedel", "En forskningsmetode"], "correct": 0, "explain": "Ubehagelige minner skyves ut av bevisstheten." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket perspektiv legger størst vekt på kultur og gruppe?", "options": ["Det kognitive", "Det biologiske", "Det sosiokulturelle", "Atferdsperspektivet"], "correct": 2, "explain": "Mennesket formes av sine sosiale omgivelser." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Psykologien ble et eget vitenskapelig fag på slutten av 1800-tallet.",
+        "correct": true,
+        "explain": "Wundt åpnet laboratoriet i Leipzig i 1879."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Perspektivene i psykologien utelukker hverandre, så bare ett kan være riktig.",
+        "correct": false,
+        "explain": "De utfyller hverandre og kan kombineres."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Behaviorismen er kritisert for å overse tanker og følelser.",
+        "correct": true,
+        "explain": "Den studerte bare observerbar atferd."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Superego er Freuds betegnelse på de primitive driftene.",
+        "correct": false,
+        "explain": "Driftene er id, superego er samvittigheten."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket perspektiv vil forklare angst med aktivitet i amygdala?",
+        "options": [
+          "Det humanistiske",
+          "Det biologiske",
+          "Det sosiokulturelle",
+          "Det psykodynamiske"
+        ],
+        "correct": 1,
+        "explain": "Hjernen og stresshormonene."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er fortrengning?",
+        "options": [
+          "En forsvarsmekanisme",
+          "En læringsstrategi",
+          "En hjernedel",
+          "En forskningsmetode"
+        ],
+        "correct": 0,
+        "explain": "Ubehagelige minner skyves ut av bevisstheten."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket perspektiv legger størst vekt på kultur og gruppe?",
+        "options": [
+          "Det kognitive",
+          "Det biologiske",
+          "Det sosiokulturelle",
+          "Atferdsperspektivet"
+        ],
+        "correct": 2,
+        "explain": "Mennesket formes av sine sosiale omgivelser."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva id, ego og superego står for i Freuds tredeling av personligheten, og hvordan de skiller seg fra hverandre.",
+        "fasit": "Id står for driftene, ego for virkelighetssansen og superego for samvittigheten. De viser ulike sider ved personligheten i Freuds teori.",
+        "kriterier": [
+          "Knytter id til drifter og ego til virkelighetssans.",
+          "Knytter superego til samvittighet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hvorfor regnes Wilhelm Wundts åpning av et psykologisk laboratorium i Leipzig i 1879 som et vendepunkt for psykologien?",
+        "fasit": "Da Wundt åpnet laboratoriet i Leipzig i 1879, ble psykologien et eget vitenskapelig fag. Før dette hørte spørsmål om sjelen og tenkningen til filosofien.",
+        "kriterier": [
+          "Får fram at psykologien ble et eget vitenskapelig fag.",
+          "Nevner at slike spørsmål tidligere hørte til filosofien."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev får ros etter å ha deltatt i timen, og begynner etter hvert å delta oftere. Forklar hvordan en behaviorist kan forstå denne endringen.",
+        "fasit": "En behaviorist vil forklare deltakelsen som atferd som er lært gjennom samspill med miljøet. Ros fungerer som en belønning som kan gjøre at eleven deltar oftere.",
+        "kriterier": [
+          "Forklarer endringen som lært atferd påvirket av miljøet.",
+          "Knytter rosen til belønning og økt deltakelse."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev tolker en nøytral kommentar fra læreren som kritikk og slutter å stille spørsmål. Bruk det kognitive perspektivet til å forklare hvordan tolkningen kan påvirke elevens følelser og atferd.",
+        "fasit": "Det kognitive perspektivet legger vekt på at måten eleven tolker kommentaren på, kan påvirke følelsene og atferden. Når eleven tolker kommentaren som kritikk, kan det bidra til at eleven blir utrygg og slutter å stille spørsmål.",
+        "kriterier": [
+          "Får fram at tolkning eller tankeprosesser påvirker følelser og atferd.",
+          "Knytter elevens tolkning av kommentaren til at eleven slutter å stille spørsmål."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En elev lærer en ny ferdighet mens hen arbeider sammen med andre. Forklar hvordan behaviorismen og det sosiokulturelle perspektivet kan gi ulike forklaringer på læringen.",
+        "fasit": "Behaviorismen kan forklare læringen med at atferd læres gjennom samspill med miljøet, blant annet gjennom belønning og straff. Det sosiokulturelle perspektivet legger vekt på at eleven lærer gjennom samhandling med andre.",
+        "kriterier": [
+          "Knytter behaviorismen til lært atferd og påvirkning fra miljøet.",
+          "Knytter det sosiokulturelle perspektivet til læring gjennom samhandling med andre."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Jon velger selv et mål han ønsker å utvikle seg mot. Forklar hvordan en humanistisk psykolog kan forstå betydningen av dette målet.",
+        "fasit": "Det humanistiske perspektivet vektlegger fri vilje og egenverd. Å arbeide mot målet kan forstås som selvrealisering, altså å utvikle seg til sitt fulle potensial.",
+        "kriterier": [
+          "Knytter perspektivet til fri vilje eller egenverd.",
+          "Forklarer målet som en del av selvrealisering eller utvikling av eget potensial."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvordan fortrengning kan fungere som en forsvarsmekanisme.",
+        "fasit": "Fortrengning er en ubevisst strategi der en person holder ubehagelige tanker eller erfaringer utenfor bevisstheten. Den kan beskytte personen mot angst.",
+        "kriterier": [
+          "Får fram at fortrengning er ubevisst.",
+          "Forklarer at den kan beskytte mot angst."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En forklaring hevder at en elevs lave deltakelse bare skyldes genene. Vurder forklaringen ved å bruke begrepet reduksjonisme og den biopsykososiale modellen.",
+        "fasit": "Forklaringen er reduksjonistisk fordi den forklarer et sammensatt fenomen med én årsak. Den biopsykososiale modellen ville også tatt med psykologiske og sosiale faktorer, i tillegg til biologiske faktorer som gener.",
+        "kriterier": [
+          "Forklarer at én årsak alene gjør forklaringen reduksjonistisk.",
+          "Får fram at den biopsykososiale modellen samler biologiske, psykologiske og sosiale faktorer."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

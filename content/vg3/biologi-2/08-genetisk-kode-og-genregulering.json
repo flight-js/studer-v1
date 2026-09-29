@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Genetisk kode, genuttrykk og genteknologi",
   "intro": "Hvordan informasjonen i DNA blir til proteiner – transkripsjon, spleising og translasjon – den genetiske koden, regulering av genuttrykk hos bakterier og flercellede organismer, epigenetikk, og hvordan genteknologi som PCR, rekombinant DNA og CRISPR kan brukes til å styre og endre genuttrykk.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Fra gen til protein\n\nEt **gen** er en del av DNA-et som inneholder oppskriften på et **protein** eller et funksjonelt RNA-molekyl. Veien fra gen til protein kalles **genuttrykk** og skjer i to trinn.\n\n**Transkripsjon** i cellekjernen:\n\n- Enzymet **RNA-polymerase** binder seg til genets **promotor** og lager en **mRNA**-kopi av genet.\n- Hos eukaryoter blir mRNA-et **spleiset**: **Introner** klippes ut, og **eksoner** skjøtes sammen. Ved **alternativ spleising** kan ett gen gi flere ulike proteiner.\n\n**Translasjon** på **ribosomene**:\n\n- Ribosomet leser mRNA-et tre og tre baser om gangen – ett **kodon**.\n- **tRNA**-molekyler med passende **antikodon** bringer riktig **aminosyre**.\n- Aminosyrene kobles sammen med **peptidbindinger** til et protein.\n\n## Den genetiske koden\n\n- Hvert kodon består av **tre** baser. Med fire baser gir det **64** mulige kodoner.\n- De koder for **20** aminosyrer, så flere kodoner kan kode for samme aminosyre – koden er **redundant**.\n- **AUG** er **startkodon**, og tre kodoner er **stoppkodoner**.\n- Koden er nesten **universell** – den er lik hos bakterier, planter og mennesker. Det er det som gjør **genteknologi** mulig.\n\n## Regulering av genuttrykk\n\nAlle cellene i kroppen har det **samme** DNA-et, men en nervecelle og en muskelcelle uttrykker **ulike** gener. Genuttrykket **reguleres**.\n\n**Hos bakterier**: I **lac-operonet** hos kolibakterier er genene for å bryte ned **laktose** vanligvis **slått av** av et **repressorprotein**. Når laktose er til stede, binder den seg til repressoren, og genene **slås på**. Slik lager bakterien bare enzymene når de **trengs**.\n\n**Hos eukaryoter**:\n\n- **Transkripsjonsfaktorer** binder seg til DNA og slår gener **av** eller **på**.\n- **Epigenetikk**: **Metylering** av DNA og kjemiske endringer på **histoner** – proteinene DNA-et er viklet rundt – kan gjøre gener **utilgjengelige**. Epigenetiske endringer kan påvirkes av **miljø**, som kosthold og stress, og noen kan **arves** videre.\n- Små **RNA-molekyler** kan bryte ned mRNA og **hindre** translasjon.\n\nRegulering er grunnlaget for **celledifferensiering** – at celler utvikler seg til ulike celletyper.\n\n## Genteknologi\n\n- **PCR** kopierer et bestemt DNA-stykke millioner av ganger. Brukes i **diagnostikk**, **rettsmedisin** og forskning.\n- **Rekombinant DNA**: Et gen settes inn i en annen organisme. Bakterier med **menneskelig insulingen** har laget insulin til diabetikere siden **1980-tallet**.\n- **CRISPR-Cas9** er en «**gensaks**» som kan klippe DNA på et **bestemt** sted og dermed **endre**, **fjerne** eller **sette inn** gener. Metoden ga **Nobelprisen i kjemi** i **2020**.\n- **Genterapi** tilfører eller reparerer gener for å behandle **arvelige sykdommer**.\n- **mRNA-vaksiner** gir cellene en oppskrift slik at de selv lager et protein som trener immunforsvaret.\n\nGenteknologien kan altså brukes både til å **endre** genene og til å **styre** hvilke gener som uttrykkes.",
   "flashcards": [
-    { "term": "Gen", "def": "Del av DNA med oppskriften på et protein eller funksjonelt RNA." },
-    { "term": "Genuttrykk", "def": "Veien fra gen til protein." },
-    { "term": "Transkripsjon", "def": "RNA-polymerase lager en mRNA-kopi av genet." },
-    { "term": "Promotor", "def": "Område der RNA-polymerase binder seg." },
-    { "term": "Spleising", "def": "Introner klippes ut og eksoner skjøtes sammen." },
-    { "term": "Translasjon", "def": "Ribosomet lager protein etter oppskriften i mRNA." },
-    { "term": "Kodon", "def": "Tre baser i mRNA som koder for én aminosyre." },
-    { "term": "tRNA", "def": "Bringer riktig aminosyre til ribosomet." },
-    { "term": "Startkodon", "def": "AUG." },
-    { "term": "Universell kode", "def": "Den genetiske koden er nesten lik i alle organismer." },
-    { "term": "Lac-operonet", "def": "Gener hos bakterier som slås på når laktose er til stede." },
-    { "term": "Transkripsjonsfaktorer", "def": "Proteiner som slår gener av eller på." },
-    { "term": "Epigenetikk", "def": "Endringer i genuttrykk uten endring i DNA-sekvensen, som metylering." },
-    { "term": "PCR", "def": "Metode som kopierer et DNA-stykke millioner av ganger." },
-    { "term": "CRISPR-Cas9", "def": "Gensaks som klipper DNA på et bestemt sted." }
+    {
+      "term": "Gen",
+      "def": "Del av DNA med oppskriften på et protein eller funksjonelt RNA."
+    },
+    {
+      "term": "Genuttrykk",
+      "def": "Veien fra gen til protein."
+    },
+    {
+      "term": "Transkripsjon",
+      "def": "RNA-polymerase lager en mRNA-kopi av genet."
+    },
+    {
+      "term": "Promotor",
+      "def": "Område der RNA-polymerase binder seg."
+    },
+    {
+      "term": "Spleising",
+      "def": "Introner klippes ut og eksoner skjøtes sammen."
+    },
+    {
+      "term": "Translasjon",
+      "def": "Ribosomet lager protein etter oppskriften i mRNA."
+    },
+    {
+      "term": "Kodon",
+      "def": "Tre baser i mRNA som koder for én aminosyre."
+    },
+    {
+      "term": "tRNA",
+      "def": "Bringer riktig aminosyre til ribosomet."
+    },
+    {
+      "term": "Startkodon",
+      "def": "AUG."
+    },
+    {
+      "term": "Universell kode",
+      "def": "Den genetiske koden er nesten lik i alle organismer."
+    },
+    {
+      "term": "Lac-operonet",
+      "def": "Gener hos bakterier som slås på når laktose er til stede."
+    },
+    {
+      "term": "Transkripsjonsfaktorer",
+      "def": "Proteiner som slår gener av eller på."
+    },
+    {
+      "term": "Epigenetikk",
+      "def": "Endringer i genuttrykk uten endring i DNA-sekvensen, som metylering."
+    },
+    {
+      "term": "PCR",
+      "def": "Metode som kopierer et DNA-stykke millioner av ganger."
+    },
+    {
+      "term": "CRISPR-Cas9",
+      "def": "Gensaks som klipper DNA på et bestemt sted."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva skjer ved transkripsjon?", "options": ["Protein lages på ribosomet", "RNA-polymerase lager en mRNA-kopi av genet", "DNA kopieres før celledeling", "Aminosyrer brytes ned"], "correct": 1, "explain": "Første trinn i genuttrykket." },
-    { "id": "q02", "text": "Hva er et kodon?", "options": ["Tre baser i mRNA som koder for én aminosyre", "Et protein", "En type RNA-polymerase", "Et gen"], "correct": 0, "explain": "Leses av ribosomet." },
-    { "id": "q03", "text": "Hvorfor er den genetiske koden redundant?", "options": ["Fordi det finnes 20 kodoner", "Fordi ett kodon gir flere aminosyrer", "Fordi 64 kodoner koder for 20 aminosyrer", "Fordi den ikke er universell"], "correct": 2, "explain": "Flere kodoner kan gi samme aminosyre." },
-    { "id": "q04", "text": "Hva skjer ved spleising?", "options": ["Eksoner klippes ut", "DNA dobles", "Proteinet brettes", "Introner klippes ut og eksoner skjøtes sammen"], "correct": 3, "explain": "Hos eukaryoter." },
-    { "id": "q05", "text": "Hvorfor gjør den universelle koden genteknologi mulig?", "options": ["Fordi et gen fra én art kan leses av en annen art", "Fordi alle arter har samme gener", "Fordi DNA ikke kan endres", "Fordi proteiner er like"], "correct": 0, "explain": "For eksempel menneskelig insulin i bakterier." },
-    { "id": "q06", "text": "Hva skjer i lac-operonet når laktose er til stede?", "options": ["Genene slås av", "Laktose binder repressoren, og genene slås på", "Bakterien dør", "DNA-et endres"], "correct": 1, "explain": "Enzymene lages bare når de trengs." },
-    { "id": "q07", "text": "Hva er epigenetikk?", "options": ["Mutasjoner i DNA", "Kopiering av DNA", "Endringer i genuttrykk uten endring i DNA-sekvensen", "Proteinsyntese"], "correct": 2, "explain": "For eksempel DNA-metylering." },
-    { "id": "q08", "text": "Hva gjør PCR?", "options": ["Klipper DNA", "Lager proteiner", "Endrer gener", "Kopierer et DNA-stykke millioner av ganger"], "correct": 3, "explain": "Brukes i diagnostikk og rettsmedisin." },
-    { "id": "q09", "text": "Hva er CRISPR-Cas9?", "options": ["En gensaks som klipper DNA på et bestemt sted", "En vaksine", "Et hormon", "En type ribosom"], "correct": 0, "explain": "Nobelprisen i kjemi 2020." },
-    { "id": "q10", "text": "Hvorfor uttrykker en nervecelle andre gener enn en muskelcelle?", "options": ["Fordi de har ulikt DNA", "Fordi genuttrykket reguleres ulikt", "Fordi nerveceller ikke har DNA", "Tilfeldigheter"], "correct": 1, "explain": "Grunnlaget for celledifferensiering." }
+    {
+      "id": "q01",
+      "text": "Hva skjer ved transkripsjon?",
+      "options": [
+        "Protein lages på ribosomet",
+        "RNA-polymerase lager en mRNA-kopi av genet",
+        "DNA kopieres før celledeling",
+        "Aminosyrer brytes ned"
+      ],
+      "correct": 1,
+      "explain": "Første trinn i genuttrykket."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er et kodon?",
+      "options": [
+        "Tre baser i mRNA som koder for én aminosyre",
+        "Et protein",
+        "En type RNA-polymerase",
+        "Et gen"
+      ],
+      "correct": 0,
+      "explain": "Leses av ribosomet."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor er den genetiske koden redundant?",
+      "options": [
+        "Fordi det finnes 20 kodoner",
+        "Fordi ett kodon gir flere aminosyrer",
+        "Fordi 64 kodoner koder for 20 aminosyrer",
+        "Fordi den ikke er universell"
+      ],
+      "correct": 2,
+      "explain": "Flere kodoner kan gi samme aminosyre."
+    },
+    {
+      "id": "q04",
+      "text": "Hva skjer ved spleising?",
+      "options": [
+        "Eksoner klippes ut",
+        "DNA dobles",
+        "Proteinet brettes",
+        "Introner klippes ut og eksoner skjøtes sammen"
+      ],
+      "correct": 3,
+      "explain": "Hos eukaryoter."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor gjør den universelle koden genteknologi mulig?",
+      "options": [
+        "Fordi et gen fra én art kan leses av en annen art",
+        "Fordi alle arter har samme gener",
+        "Fordi DNA ikke kan endres",
+        "Fordi proteiner er like"
+      ],
+      "correct": 0,
+      "explain": "For eksempel menneskelig insulin i bakterier."
+    },
+    {
+      "id": "q06",
+      "text": "Hva skjer i lac-operonet når laktose er til stede?",
+      "options": [
+        "Genene slås av",
+        "Laktose binder repressoren, og genene slås på",
+        "Bakterien dør",
+        "DNA-et endres"
+      ],
+      "correct": 1,
+      "explain": "Enzymene lages bare når de trengs."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er epigenetikk?",
+      "options": [
+        "Mutasjoner i DNA",
+        "Kopiering av DNA",
+        "Endringer i genuttrykk uten endring i DNA-sekvensen",
+        "Proteinsyntese"
+      ],
+      "correct": 2,
+      "explain": "For eksempel DNA-metylering."
+    },
+    {
+      "id": "q08",
+      "text": "Hva gjør PCR?",
+      "options": [
+        "Klipper DNA",
+        "Lager proteiner",
+        "Endrer gener",
+        "Kopierer et DNA-stykke millioner av ganger"
+      ],
+      "correct": 3,
+      "explain": "Brukes i diagnostikk og rettsmedisin."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er CRISPR-Cas9?",
+      "options": [
+        "En gensaks som klipper DNA på et bestemt sted",
+        "En vaksine",
+        "Et hormon",
+        "En type ribosom"
+      ],
+      "correct": 0,
+      "explain": "Nobelprisen i kjemi 2020."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor uttrykker en nervecelle andre gener enn en muskelcelle?",
+      "options": [
+        "Fordi de har ulikt DNA",
+        "Fordi genuttrykket reguleres ulikt",
+        "Fordi nerveceller ikke har DNA",
+        "Tilfeldigheter"
+      ],
+      "correct": 1,
+      "explain": "Grunnlaget for celledifferensiering."
+    }
   ],
   "mindmap": {
     "label": "Genetisk kode og genuttrykk",
     "children": [
-      { "label": "Transkripsjon", "children": [
-        { "label": "RNA-polymerase og promotor" },
-        { "label": "Spleising" }
-      ] },
-      { "label": "Translasjon", "children": [
-        { "label": "Ribosom og tRNA" },
-        { "label": "Kodon og antikodon" }
-      ] },
-      { "label": "Genetisk kode", "children": [
-        { "label": "Tripletter" },
-        { "label": "Redundant og universell" },
-        { "label": "Start- og stoppkodoner" }
-      ] },
-      { "label": "Regulering", "children": [
-        { "label": "Lac-operonet" },
-        { "label": "Transkripsjonsfaktorer" },
-        { "label": "Epigenetikk" }
-      ] },
-      { "label": "Genteknologi", "children": [
-        { "label": "PCR" },
-        { "label": "Rekombinant DNA" },
-        { "label": "CRISPR og genterapi" }
-      ] }
+      {
+        "label": "Transkripsjon",
+        "children": [
+          {
+            "label": "RNA-polymerase og promotor"
+          },
+          {
+            "label": "Spleising"
+          }
+        ]
+      },
+      {
+        "label": "Translasjon",
+        "children": [
+          {
+            "label": "Ribosom og tRNA"
+          },
+          {
+            "label": "Kodon og antikodon"
+          }
+        ]
+      },
+      {
+        "label": "Genetisk kode",
+        "children": [
+          {
+            "label": "Tripletter"
+          },
+          {
+            "label": "Redundant og universell"
+          },
+          {
+            "label": "Start- og stoppkodoner"
+          }
+        ]
+      },
+      {
+        "label": "Regulering",
+        "children": [
+          {
+            "label": "Lac-operonet"
+          },
+          {
+            "label": "Transkripsjonsfaktorer"
+          },
+          {
+            "label": "Epigenetikk"
+          }
+        ]
+      },
+      {
+        "label": "Genteknologi",
+        "children": [
+          {
+            "label": "PCR"
+          },
+          {
+            "label": "Rekombinant DNA"
+          },
+          {
+            "label": "CRISPR og genterapi"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Ved alternativ spleising kan ett gen gi flere ulike proteiner.", "correct": true, "explain": "Eksoner settes sammen på ulike måter." },
-      { "id": "m02", "type": "sant-usant", "text": "Alle cellene i kroppen har ulikt DNA.", "correct": false, "explain": "De har samme DNA, men ulikt genuttrykk." },
-      { "id": "m03", "type": "sant-usant", "text": "Noen epigenetiske endringer kan påvirkes av miljøet.", "correct": true, "explain": "For eksempel kosthold og stress." },
-      { "id": "m04", "type": "sant-usant", "text": "mRNA-vaksiner endrer arvestoffet i cellekjernen.", "correct": false, "explain": "De gir en oppskrift som cellene bruker til å lage et protein." },
-      { "id": "m05", "type": "flervalg", "text": "Hvor skjer translasjonen?", "options": ["I cellekjernen", "På ribosomene", "I mitokondriene", "I cellemembranen"], "correct": 1, "explain": "mRNA leses der." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket kodon er startkodon?", "options": ["AUG", "UAA", "GGG", "CCC"], "correct": 0, "explain": "Koder for metionin." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan har diabetikere fått insulin siden 1980-tallet?", "options": ["Fra griser alene", "Fra planter", "Fra bakterier med menneskelig insulingen", "Fra fisk"], "correct": 2, "explain": "Rekombinant DNA." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ved alternativ spleising kan ett gen gi flere ulike proteiner.",
+        "correct": true,
+        "explain": "Eksoner settes sammen på ulike måter."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle cellene i kroppen har ulikt DNA.",
+        "correct": false,
+        "explain": "De har samme DNA, men ulikt genuttrykk."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Noen epigenetiske endringer kan påvirkes av miljøet.",
+        "correct": true,
+        "explain": "For eksempel kosthold og stress."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "mRNA-vaksiner endrer arvestoffet i cellekjernen.",
+        "correct": false,
+        "explain": "De gir en oppskrift som cellene bruker til å lage et protein."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvor skjer translasjonen?",
+        "options": [
+          "I cellekjernen",
+          "På ribosomene",
+          "I mitokondriene",
+          "I cellemembranen"
+        ],
+        "correct": 1,
+        "explain": "mRNA leses der."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket kodon er startkodon?",
+        "options": [
+          "AUG",
+          "UAA",
+          "GGG",
+          "CCC"
+        ],
+        "correct": 0,
+        "explain": "Koder for metionin."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan har diabetikere fått insulin siden 1980-tallet?",
+        "options": [
+          "Fra griser alene",
+          "Fra planter",
+          "Fra bakterier med menneskelig insulingen",
+          "Fra fisk"
+        ],
+        "correct": 2,
+        "explain": "Rekombinant DNA."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Under translasjonen leser et ribosom mRNA. Forklar hvilken rolle tRNA har i denne prosessen, og hvordan aminosyrene blir til et protein.",
+        "fasit": "tRNA med et passende antikodon bringer riktig aminosyre til ribosomet. Aminosyrene kobles sammen med peptidbindinger til et protein.",
+        "kriterier": [
+          "Forklarer at tRNA bringer riktig aminosyre til ribosomet ved hjelp av et passende antikodon.",
+          "Forklarer at aminosyrene kobles sammen til et protein."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Ved alternativ spleising kan ett gen gi opphav til flere ulike proteiner. Forklar hvordan dette er mulig.",
+        "fasit": "Ved spleising klippes introner ut, og eksoner skjøtes sammen. Ved alternativ spleising kan eksonene settes sammen på ulike måter, slik at mRNA-et gir oppskrift på ulike proteiner.",
+        "kriterier": [
+          "Forklarer at ulike kombinasjoner av eksoner kan skjøtes sammen.",
+          "Knytter de ulike mRNA-oppskriftene til at ett gen kan gi flere proteiner."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En bioteknologisk bedrift vil bruke bakterier til å lage menneskelig insulin. Beskriv hvilken genetisk endring som må gjøres, og hva resultatet blir.",
+        "fasit": "Menneskets insulin-gen settes inn i bakteriene, slik at de får rekombinant DNA. Bakteriene kan da lage insulin.",
+        "kriterier": [
+          "Beskriver at menneskets insulin-gen settes inn i bakteriene.",
+          "Forklarer at bakteriene dermed kan produsere insulin."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign genterapi og mRNA-vaksiner: Hva tilfører de cellene, og hva er hensikten med hver metode?",
+        "fasit": "Genterapi tilfører eller reparerer gener for å behandle arvelige sykdommer. En mRNA-vaksine gir cellene en oppskrift på et protein som trener immunforsvaret.",
+        "kriterier": [
+          "Forklarer at genterapi tilfører eller reparerer gener for å behandle arvelige sykdommer.",
+          "Forklarer at mRNA-vaksiner gir en oppskrift på et protein som trener immunforsvaret."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I en eukaryot celle vil en mekanisme hindre at et bestemt protein blir laget. Sammenlign hvordan transkripsjonsfaktorer og små RNA-molekyler kan regulere genuttrykket.",
+        "fasit": "Transkripsjonsfaktorer binder seg til DNA og kan slå gener av eller på. Små RNA-molekyler kan bryte ned mRNA eller hindre at det blir brukt i translasjonen.",
+        "kriterier": [
+          "Knytter transkripsjonsfaktorer til regulering av gener ved binding til DNA.",
+          "Knytter små RNA-molekyler til nedbryting av mRNA eller hindring av translasjon."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar forskjellen mellom et gen og genuttrykk.",
+        "fasit": "Et gen er en del av DNA-et med oppskrift på et protein eller et funksjonelt RNA-molekyl. Genuttrykk er prosessen der informasjonen i et gen brukes til å lage et produkt, for eksempel et protein.",
+        "kriterier": [
+          "Beskriver et gen som en del av DNA med oppskrift på et protein eller funksjonelt RNA.",
+          "Beskriver genuttrykk som prosessen der genets informasjon brukes til å lage et produkt."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et kodon består av tre baser, og hver posisjon kan ha én av fire baser. Hvor mange ulike kodoner kan dannes? Vis det viktigste regnestykket.",
+        "fasit": "Det kan dannes 4 × 4 × 4 = 64 ulike kodoner.",
+        "kriterier": [
+          "Viser at antallet beregnes som 4 × 4 × 4.",
+          "Oppgir 64 ulike kodoner."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et mRNA-stykke består av 5 kodoner. Hvor mange baser er det i stykket? Vis det viktigste regnestykket.",
+        "fasit": "Hvert kodon består av 3 baser, så 5 × 3 = 15 baser.",
+        "kriterier": [
+          "Bruker at hvert kodon består av 3 baser.",
+          "Oppgir 15 baser."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

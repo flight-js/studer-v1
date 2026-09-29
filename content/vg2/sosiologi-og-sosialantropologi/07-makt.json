@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Makt i samfunnet",
   "intro": "Ulike former for makt – fra Webers definisjon og legitim autoritet til Lukes' tre dimensjoner, Foucaults disiplinmakt og Bourdieus kapitalformer – og hvordan maktutøvelse påvirker aktører, strukturer og handlinger.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Hva er makt?\n\n**Max Weber** definerte makt som **sjansen til å få gjennomført sin vilje**, også mot andres motstand. Makt finnes overalt – i familien, på skolen, i vennegjengen, i arbeidslivet, i politikken og mellom land.\n\n## Legitim makt – autoritet\n\nNår makt blir akseptert som **rettmessig**, kaller vi den **autoritet** eller **legitim makt**. Weber beskrev tre former:\n\n- **Tradisjonell** autoritet bygger på **skikk og vane**, for eksempel en konge eller en eldste i en landsby.\n- **Karismatisk** autoritet bygger på en leders **personlige egenskaper** og evne til å inspirere.\n- **Legal-rasjonell** autoritet bygger på **lover og regler**, som i et moderne byråkrati og et demokrati.\n\n## Maktens tre dimensjoner\n\nStatsviteren **Steven Lukes** skilte mellom tre dimensjoner:\n\n1. **Åpen makt**: Hvem vinner når det oppstår en **synlig konflikt** – for eksempel en avstemning?\n2. **Skjult makt**: Hvem bestemmer **hva som kommer på dagsordenen**, og hva som aldri blir diskutert?\n3. **Ideologisk makt**: Makten til å forme **hva folk ønsker og tenker** – slik at de ikke engang ser at de har interesser som kan være i konflikt med andres.\n\n## Foucault: makt er overalt\n\n**Michel Foucault** mente at makt ikke bare utøves ovenfra, men finnes i **relasjoner** og **kunnskap**. **Disiplinmakt** virker gjennom **overvåking** og **normalisering**: Vi retter oss etter normer fordi vi kan bli observert og vurdert – i skolen, på jobb og i sosiale medier. Han brukte bildet av **panoptikon**, et fengsel der fangene aldri vet om de blir sett.\n\n## Bourdieu: kapital og makt\n\n**Pierre Bourdieu** mente at makt henger sammen med ulike typer **kapital**:\n\n- **Økonomisk kapital**: penger og eiendom.\n- **Kulturell kapital**: utdanning, kunnskap, språk og smak.\n- **Sosial kapital**: nettverk og kontakter.\n- **Symbolsk kapital**: anseelse og status.\n\nDe som har mye kapital, kan lettere definere hva som er «god smak» og «riktig oppførsel». Dette kan **reprodusere** ulikhet.\n\n## Makt i samfunnet\n\n- **Politisk makt**: Storting, regjering og domstoler – maktfordeling mellom de tre statsmaktene.\n- **Økonomisk makt**: store selskaper, investorer og eiere.\n- **Mediemakt**: medienes makt til å sette **dagsorden** og **vinkle** saker – og i dag også plattformenes algoritmer.\n- **Organisasjonsmakt**: fagforeninger, arbeidsgiverforeninger og interesseorganisasjoner.\n- **Kunnskapsmakt**: eksperter og forskere.\n\n## Aktører, strukturer og handlinger\n\nMakt kan virke gjennom **aktører** – personer og organisasjoner som bruker makt bevisst – og gjennom **strukturer**, som lover, økonomi og normer som gir noen fordeler uten at noen aktivt bestemmer det. Maktutøvelse påvirker hvilke **handlingsmuligheter** folk har.\n\n## Makt nedenfra\n\nOgså de som har lite formell makt, kan påvirke: gjennom **demonstrasjoner**, **streik**, **sivil ulydighet**, **boikott** og **sosiale medier**. Eksempler er klimabevegelsen og Fosen-aksjonene i 2023, der unge samer og miljøaktivister protesterte mot vindkraftverk på Fosen.",
   "flashcards": [
-    { "term": "Makt (Weber)", "def": "Sjansen til å få gjennomført sin vilje, også mot motstand." },
-    { "term": "Autoritet", "def": "Makt som oppfattes som legitim." },
-    { "term": "Tradisjonell autoritet", "def": "Bygger på skikk og vane." },
-    { "term": "Karismatisk autoritet", "def": "Bygger på lederens personlige egenskaper." },
-    { "term": "Legal-rasjonell autoritet", "def": "Bygger på lover og regler." },
-    { "term": "Steven Lukes", "def": "Beskrev maktens tre dimensjoner." },
-    { "term": "Åpen makt", "def": "Hvem vinner i en synlig konflikt." },
-    { "term": "Skjult makt", "def": "Makten til å bestemme dagsordenen." },
-    { "term": "Ideologisk makt", "def": "Makten til å forme hva folk ønsker og tenker." },
-    { "term": "Disiplinmakt (Foucault)", "def": "Makt gjennom overvåking og normalisering." },
-    { "term": "Panoptikon", "def": "Fengsel der fangene aldri vet om de blir sett." },
-    { "term": "Kulturell kapital", "def": "Utdanning, kunnskap, språk og smak (Bourdieu)." },
-    { "term": "Sosial kapital", "def": "Nettverk og kontakter." },
-    { "term": "Mediemakt", "def": "Makten til å sette dagsorden og vinkle saker." },
-    { "term": "Sivil ulydighet", "def": "Åpent og ikkevoldelig lovbrudd for å påvirke." }
+    {
+      "term": "Makt (Weber)",
+      "def": "Sjansen til å få gjennomført sin vilje, også mot motstand."
+    },
+    {
+      "term": "Autoritet",
+      "def": "Makt som oppfattes som legitim."
+    },
+    {
+      "term": "Tradisjonell autoritet",
+      "def": "Bygger på skikk og vane."
+    },
+    {
+      "term": "Karismatisk autoritet",
+      "def": "Bygger på lederens personlige egenskaper."
+    },
+    {
+      "term": "Legal-rasjonell autoritet",
+      "def": "Bygger på lover og regler."
+    },
+    {
+      "term": "Steven Lukes",
+      "def": "Beskrev maktens tre dimensjoner."
+    },
+    {
+      "term": "Åpen makt",
+      "def": "Hvem vinner i en synlig konflikt."
+    },
+    {
+      "term": "Skjult makt",
+      "def": "Makten til å bestemme dagsordenen."
+    },
+    {
+      "term": "Ideologisk makt",
+      "def": "Makten til å forme hva folk ønsker og tenker."
+    },
+    {
+      "term": "Disiplinmakt (Foucault)",
+      "def": "Makt gjennom overvåking og normalisering."
+    },
+    {
+      "term": "Panoptikon",
+      "def": "Fengsel der fangene aldri vet om de blir sett."
+    },
+    {
+      "term": "Kulturell kapital",
+      "def": "Utdanning, kunnskap, språk og smak (Bourdieu)."
+    },
+    {
+      "term": "Sosial kapital",
+      "def": "Nettverk og kontakter."
+    },
+    {
+      "term": "Mediemakt",
+      "def": "Makten til å sette dagsorden og vinkle saker."
+    },
+    {
+      "term": "Sivil ulydighet",
+      "def": "Åpent og ikkevoldelig lovbrudd for å påvirke."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan definerte Max Weber makt?", "options": ["Evnen til å tjene penger", "Sjansen til å få gjennomført sin vilje, også mot motstand", "Retten til å stemme", "Å være populær"], "correct": 1, "explain": "En klassisk definisjon." },
-    { "id": "q02", "text": "Hvilken autoritet bygger på lover og regler?", "options": ["Legal-rasjonell", "Tradisjonell", "Karismatisk", "Ideologisk"], "correct": 0, "explain": "Typisk for moderne demokratier." },
-    { "id": "q03", "text": "Hva er skjult makt ifølge Lukes?", "options": ["Makt i en avstemning", "Makt gjennom vold", "Makten til å bestemme hva som kommer på dagsordenen", "Makt over naturen"], "correct": 2, "explain": "Noen saker blir aldri diskutert." },
-    { "id": "q04", "text": "Hva mente Foucault med disiplinmakt?", "options": ["Straff med pisk", "Makt bare hos kongen", "Makt gjennom penger", "Makt som virker gjennom overvåking og normalisering"], "correct": 3, "explain": "Vi retter oss etter normer fordi vi kan bli observert." },
-    { "id": "q05", "text": "Hva er kulturell kapital hos Bourdieu?", "options": ["Utdanning, kunnskap, språk og smak", "Penger", "Venner", "Eiendom"], "correct": 0, "explain": "Kan gi fordeler i skole og arbeidsliv." },
-    { "id": "q06", "text": "Hva er karismatisk autoritet?", "options": ["Autoritet basert på lover", "Autoritet basert på lederens personlige egenskaper", "Autoritet basert på tradisjon", "Autoritet basert på rikdom"], "correct": 1, "explain": "Evnen til å inspirere." },
-    { "id": "q07", "text": "Hva er ideologisk makt?", "options": ["Makt i en synlig konflikt", "Makt over dagsordenen", "Makten til å forme hva folk ønsker og tenker", "Makt gjennom militæret"], "correct": 2, "explain": "Lukes' tredje dimensjon." },
-    { "id": "q08", "text": "Hvordan kan grupper med lite formell makt påvirke samfunnet?", "options": ["De kan ikke påvirke", "Bare ved å bli rike", "Bare gjennom kongen", "Gjennom demonstrasjoner, streik, boikott og sosiale medier"], "correct": 3, "explain": "Makt nedenfra." },
-    { "id": "q09", "text": "Hva er mediemakt?", "options": ["Makten til å sette dagsorden og vinkle saker", "Makten til å vedta lover", "Makten til å dømme", "Makten til å kreve skatt"], "correct": 0, "explain": "Også plattformenes algoritmer." },
-    { "id": "q10", "text": "Hvordan kan makt virke gjennom strukturer?", "options": ["Bare gjennom bevisste beslutninger", "Gjennom lover, økonomi og normer som gir noen fordeler uten at noen aktivt bestemmer det", "Bare gjennom vold", "Den kan ikke det"], "correct": 1, "explain": "Makt er ikke bare aktørers bevisste valg." }
+    {
+      "id": "q01",
+      "text": "Hvordan definerte Max Weber makt?",
+      "options": [
+        "Evnen til å tjene penger",
+        "Sjansen til å få gjennomført sin vilje, også mot motstand",
+        "Retten til å stemme",
+        "Å være populær"
+      ],
+      "correct": 1,
+      "explain": "En klassisk definisjon."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken autoritet bygger på lover og regler?",
+      "options": [
+        "Legal-rasjonell",
+        "Tradisjonell",
+        "Karismatisk",
+        "Ideologisk"
+      ],
+      "correct": 0,
+      "explain": "Typisk for moderne demokratier."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er skjult makt ifølge Lukes?",
+      "options": [
+        "Makt i en avstemning",
+        "Makt gjennom vold",
+        "Makten til å bestemme hva som kommer på dagsordenen",
+        "Makt over naturen"
+      ],
+      "correct": 2,
+      "explain": "Noen saker blir aldri diskutert."
+    },
+    {
+      "id": "q04",
+      "text": "Hva mente Foucault med disiplinmakt?",
+      "options": [
+        "Straff med pisk",
+        "Makt bare hos kongen",
+        "Makt gjennom penger",
+        "Makt som virker gjennom overvåking og normalisering"
+      ],
+      "correct": 3,
+      "explain": "Vi retter oss etter normer fordi vi kan bli observert."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er kulturell kapital hos Bourdieu?",
+      "options": [
+        "Utdanning, kunnskap, språk og smak",
+        "Penger",
+        "Venner",
+        "Eiendom"
+      ],
+      "correct": 0,
+      "explain": "Kan gi fordeler i skole og arbeidsliv."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er karismatisk autoritet?",
+      "options": [
+        "Autoritet basert på lover",
+        "Autoritet basert på lederens personlige egenskaper",
+        "Autoritet basert på tradisjon",
+        "Autoritet basert på rikdom"
+      ],
+      "correct": 1,
+      "explain": "Evnen til å inspirere."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er ideologisk makt?",
+      "options": [
+        "Makt i en synlig konflikt",
+        "Makt over dagsordenen",
+        "Makten til å forme hva folk ønsker og tenker",
+        "Makt gjennom militæret"
+      ],
+      "correct": 2,
+      "explain": "Lukes' tredje dimensjon."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan kan grupper med lite formell makt påvirke samfunnet?",
+      "options": [
+        "De kan ikke påvirke",
+        "Bare ved å bli rike",
+        "Bare gjennom kongen",
+        "Gjennom demonstrasjoner, streik, boikott og sosiale medier"
+      ],
+      "correct": 3,
+      "explain": "Makt nedenfra."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er mediemakt?",
+      "options": [
+        "Makten til å sette dagsorden og vinkle saker",
+        "Makten til å vedta lover",
+        "Makten til å dømme",
+        "Makten til å kreve skatt"
+      ],
+      "correct": 0,
+      "explain": "Også plattformenes algoritmer."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan makt virke gjennom strukturer?",
+      "options": [
+        "Bare gjennom bevisste beslutninger",
+        "Gjennom lover, økonomi og normer som gir noen fordeler uten at noen aktivt bestemmer det",
+        "Bare gjennom vold",
+        "Den kan ikke det"
+      ],
+      "correct": 1,
+      "explain": "Makt er ikke bare aktørers bevisste valg."
+    }
   ],
   "mindmap": {
     "label": "Makt",
     "children": [
-      { "label": "Weber", "children": [
-        { "label": "Definisjon" },
-        { "label": "Tradisjonell, karismatisk, legal-rasjonell" }
-      ] },
-      { "label": "Lukes", "children": [
-        { "label": "Åpen" },
-        { "label": "Skjult" },
-        { "label": "Ideologisk" }
-      ] },
-      { "label": "Foucault og Bourdieu", "children": [
-        { "label": "Disiplinmakt" },
-        { "label": "Kapitalformer" }
-      ] },
-      { "label": "Maktarenaer", "children": [
-        { "label": "Politikk" },
-        { "label": "Økonomi" },
-        { "label": "Medier" },
-        { "label": "Organisasjoner" }
-      ] },
-      { "label": "Makt nedenfra", "children": [
-        { "label": "Demonstrasjoner og streik" },
-        { "label": "Sivil ulydighet" },
-        { "label": "Sosiale medier" }
-      ] }
+      {
+        "label": "Weber",
+        "children": [
+          {
+            "label": "Definisjon"
+          },
+          {
+            "label": "Tradisjonell, karismatisk, legal-rasjonell"
+          }
+        ]
+      },
+      {
+        "label": "Lukes",
+        "children": [
+          {
+            "label": "Åpen"
+          },
+          {
+            "label": "Skjult"
+          },
+          {
+            "label": "Ideologisk"
+          }
+        ]
+      },
+      {
+        "label": "Foucault og Bourdieu",
+        "children": [
+          {
+            "label": "Disiplinmakt"
+          },
+          {
+            "label": "Kapitalformer"
+          }
+        ]
+      },
+      {
+        "label": "Maktarenaer",
+        "children": [
+          {
+            "label": "Politikk"
+          },
+          {
+            "label": "Økonomi"
+          },
+          {
+            "label": "Medier"
+          },
+          {
+            "label": "Organisasjoner"
+          }
+        ]
+      },
+      {
+        "label": "Makt nedenfra",
+        "children": [
+          {
+            "label": "Demonstrasjoner og streik"
+          },
+          {
+            "label": "Sivil ulydighet"
+          },
+          {
+            "label": "Sosiale medier"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Makt finnes også i familier og vennegjenger.", "correct": true, "explain": "Makt finnes i alle sosiale relasjoner." },
-      { "id": "m02", "type": "sant-usant", "text": "All makt er synlig og lett å oppdage.", "correct": false, "explain": "Skjult og ideologisk makt er vanskelig å se." },
-      { "id": "m03", "type": "sant-usant", "text": "Bourdieu mente at kapital kan bidra til å reprodusere ulikhet.", "correct": true, "explain": "De med mye kapital definerer hva som gir status." },
-      { "id": "m04", "type": "sant-usant", "text": "Foucault mente at makt bare utøves av staten.", "correct": false, "explain": "Han mente makt finnes i relasjoner overalt." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken kapitalform er et stort nettverk av kontakter?", "options": ["Økonomisk kapital", "Sosial kapital", "Kulturell kapital", "Symbolsk kapital"], "correct": 1, "explain": "Nettverk kan gi jobb og muligheter." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på tradisjonell autoritet?", "options": ["En konge som arver tronen", "En valgt ordfører", "En populær influenser", "En dommer"], "correct": 0, "explain": "Bygger på skikk og vane." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket bilde brukte Foucault om disiplinmakt?", "options": ["Pyramiden", "Tårnet i Babel", "Panoptikon", "Labyrinten"], "correct": 2, "explain": "Fangene vet aldri om de blir sett." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Makt finnes også i familier og vennegjenger.",
+        "correct": true,
+        "explain": "Makt finnes i alle sosiale relasjoner."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "All makt er synlig og lett å oppdage.",
+        "correct": false,
+        "explain": "Skjult og ideologisk makt er vanskelig å se."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Bourdieu mente at kapital kan bidra til å reprodusere ulikhet.",
+        "correct": true,
+        "explain": "De med mye kapital definerer hva som gir status."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Foucault mente at makt bare utøves av staten.",
+        "correct": false,
+        "explain": "Han mente makt finnes i relasjoner overalt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken kapitalform er et stort nettverk av kontakter?",
+        "options": [
+          "Økonomisk kapital",
+          "Sosial kapital",
+          "Kulturell kapital",
+          "Symbolsk kapital"
+        ],
+        "correct": 1,
+        "explain": "Nettverk kan gi jobb og muligheter."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på tradisjonell autoritet?",
+        "options": [
+          "En konge som arver tronen",
+          "En valgt ordfører",
+          "En populær influenser",
+          "En dommer"
+        ],
+        "correct": 0,
+        "explain": "Bygger på skikk og vane."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket bilde brukte Foucault om disiplinmakt?",
+        "options": [
+          "Pyramiden",
+          "Tårnet i Babel",
+          "Panoptikon",
+          "Labyrinten"
+        ],
+        "correct": 2,
+        "explain": "Fangene vet aldri om de blir sett."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En konge arver rollen sin etter en skikk som har vært fulgt lenge. En annen leder får støtte fordi folk blir inspirert av personlighet og evner. Sammenlign hvilken type autoritet de to lederne har, og hva autoriteten bygger på.",
+        "fasit": "Kongen har tradisjonell autoritet, som bygger på skikk og vane. Den andre lederen har karismatisk autoritet, som bygger på lederens personlige egenskaper og evne til å inspirere.",
+        "kriterier": [
+          "Knytter tradisjonell autoritet til skikk og vane.",
+          "Knytter karismatisk autoritet til lederens personlige egenskaper eller evne til å inspirere."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I et elevråd stemmer elevene over et forslag, og flertallet vinner. Før møtet har ledelsen bestemt at et annet forslag ikke skal tas opp til diskusjon. Forklar hvilken type makt som vises i avstemningen, og hvilken type makt som vises når et forslag holdes utenfor dagsordenen.",
+        "fasit": "Avstemningen viser åpen makt, fordi det er en synlig konflikt der vi kan se hvem som vinner. Å holde et forslag utenfor dagsordenen viser skjult makt, fordi noen bestemmer hva som får bli diskutert.",
+        "kriterier": [
+          "Knytter den synlige avstemningen til åpen makt.",
+          "Knytter det å stenge et forslag ute fra diskusjonen til skjult makt og kontroll over dagsordenen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Nora får hjelp til å finne en jobb fordi familien hennes kjenner mange i bransjen. Amir får jobb fordi han har penger til å kjøpe seg utstyr som kreves. Hvilke typer kapital viser de to eksemplene, og hva er forskjellen?",
+        "fasit": "Noras nettverk viser sosial kapital, mens Amirs penger viser økonomisk kapital. Sosial kapital handler om nettverk og kontakter, mens økonomisk kapital handler om penger og eiendom.",
+        "kriterier": [
+          "Identifiserer Noras nettverk som sosial kapital.",
+          "Identifiserer Amirs penger som økonomisk kapital og forklarer forskjellen mellom typene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En gruppe med mye status får gjennomslag for at deres smak og måte å oppføre seg på blir sett på som den riktige. Forklar hvordan dette kan bidra til å reprodusere ulikhet.",
+        "fasit": "Gruppen kan bruke sin symbolske kapital, som anseelse og status, til å påvirke hva som regnes som god smak og riktig oppførsel. Når gruppens normer får høy verdi, kan fordelene deres bli videreført og ulikheten opprettholdes.",
+        "kriterier": [
+          "Forklarer at status eller anseelse kan gi innflytelse over hva som regnes som god smak eller riktig oppførsel.",
+          "Knytter dette til at fordeler videreføres og ulikhet opprettholdes."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et stort selskap prøver å påvirke hvilke regler som blir vedtatt, mens en fagforening organiserer arbeidstakere for å fremme interessene deres. Hvilke former for makt er dette eksempler på, og hva skiller dem?",
+        "fasit": "Selskapets forsøk på å påvirke regler handler om økonomisk makt, som blant annet kan ligge hos store selskaper og eiere. Fagforeningen bruker organisasjonsmakt ved å samle medlemmer i en interesseorganisasjon.",
+        "kriterier": [
+          "Knytter selskapet til økonomisk makt.",
+          "Knytter fagforeningen til organisasjonsmakt og forklarer at den handler om organisering av interesser."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En gruppe protesterer åpent og uten vold ved å bryte en lov for å påvirke en politisk beslutning. Forklar hvorfor dette kan kalles sivil ulydighet.",
+        "fasit": "Det kan kalles sivil ulydighet fordi gruppen åpent og ikkevoldelig bryter en lov for å påvirke samfunnet eller en beslutning. Lovbruddet brukes som en protestform.",
+        "kriterier": [
+          "Får fram at lovbruddet skjer åpent og ikkevoldelig.",
+          "Forklarer at lovbruddet brukes for å påvirke."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I et fengsel vet fangene aldri om de blir observert. Forklar hvordan denne usikkerheten kan føre til at fangene selv tilpasser oppførselen sin, og knytt det til begrepet panoptikon.",
+        "fasit": "Når fangene ikke vet om de blir sett, kan de rette seg etter reglene fordi de tror at de kan bli observert og vurdert. Panoptikon er bildet på et fengsel der fangene aldri vet om de blir sett.",
+        "kriterier": [
+          "Forklarer at usikkerheten om overvåking kan få fangene til å kontrollere eller tilpasse egen oppførsel.",
+          "Knytter situasjonen til panoptikon."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En plattformalgoritme gjør at noen temaer blir mye mer synlige enn andre i brukernes strømmer. Forklar hvordan dette kan påvirke hva folk snakker om, og hvilken form for makt dette er.",
+        "fasit": "Når algoritmen gir noen temaer mer synlighet, kan den påvirke hvilke saker folk legger merke til og diskuterer. Dette er mediemakt fordi plattformer kan være med på å sette dagsorden.",
+        "kriterier": [
+          "Forklarer at ulik synlighet kan påvirke hvilke saker folk legger merke til eller diskuterer.",
+          "Knytter dette til mediemakt og dagsorden."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

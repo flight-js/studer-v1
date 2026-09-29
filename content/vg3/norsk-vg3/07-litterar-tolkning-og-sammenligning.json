@@ -4,79 +4,428 @@
   "trinnId": "vg3",
   "name": "Litterære tolkninger og sammenligninger",
   "intro": "Forskjellen på analyse og tolkning, analyseverktøy for prosa, drama og lyrikk, ulike litteraturvitenskapelige innfallsvinkler – og hvordan du skriver en litterær tolkning og en sammenligning av to tekster.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Analyse og tolkning\n\n- **Analyse** betyr å **undersøke** hvordan teksten er **bygd opp**: komposisjon, forteller, personer, språk og virkemidler.\n- **Tolkning** betyr å finne ut hva teksten **betyr** – hvilket **tema** og hvilket **budskap** den kan ha.\n\nAnalysen er **grunnlaget** for tolkningen. En god tolkning er **begrunnet** med eksempler og **sitater** fra teksten.\n\n## Analyseverktøy\n\n**Prosa og drama**:\n\n- **Komposisjon**: kronologisk eller med tilbakeblikk, åpen eller lukket slutt, vendepunkt\n- **Forteller og synsvinkel**: jeg-forteller eller tredjepersonsforteller, allvitende eller begrenset\n- **Personer**: hvordan de karakteriseres – direkte eller indirekte\n- **Tid og miljø**\n- **Konflikter** – indre og ytre\n- **Motiv**: den konkrete situasjonen, for eksempel en kvinne som forlater hjemmet\n- **Tema**: det overordnede emnet, for eksempel frihet\n\n**Lyrikk**:\n\n- **Lyrisk jeg** og **stemning**\n- **Bilder**: metaforer, sammenligninger, besjeling og symboler\n- **Lyd og rytme**: rim, allitterasjon og gjentakelser\n- **Form**: strofer, linjeskift og frie vers\n\n## Innfallsvinkler\n\n- **Tekstnær lesning**: Tolkningen bygger bare på selve **teksten**.\n- **Biografisk**: Tolkningen trekker inn forfatterens **liv**.\n- **Kontekstuell**: Teksten leses i lys av **tiden** og **epoken** den ble skrevet i.\n- **Leserorientert**: Leserens egen **erfaring** og **samtid** spiller inn – og tolkningen kan endre seg over tid.\n\nI norskfaget er det vanlig å kombinere en **tekstnær** lesning med **kontekst**.\n\n## Å skrive en litterær tolkning\n\n1. **Innledning**: presenter tekst, forfatter og årstall, gi et kort innblikk i handlingen og formuler en **problemstilling** eller en **påstand** om hva teksten handler om.\n2. **Hoveddel**: vis gjennom **analyse** hvordan teksten skaper mening. Hvert avsnitt kan ta for seg ett **poeng**, underbygd med **sitater** som du **kommenterer**.\n3. **Kontekst**: vis hvordan teksten henger sammen med **epoken**.\n4. **Avslutning**: samle trådene og formuler **tolkningen** – tema og budskap.\n\nUnngå å bare **referere** handlingen. Det er **hvordan** og **hvorfor** som er viktig.\n\n## Å skrive en sammenligning\n\nEn sammenligning undersøker **likheter** og **forskjeller** mellom to tekster. Du trenger et **sammenligningsgrunnlag** – noe tekstene har **felles**, for eksempel **tema**, **motiv** eller **sjanger**.\n\nTo måter å bygge opp teksten på:\n\n- **Tekst for tekst**: Først den ene teksten, så den andre, og til slutt en samlet sammenligning. Enklere, men lett å bli to separate analyser.\n- **Punkt for punkt**: Sammenlign tekstene **aspekt for aspekt** – for eksempel synet på kjærlighet, formen og konteksten. Gir en **tettere** sammenligning.\n\nBruk **sammenligningsord** som «på samme måte», «derimot», «i motsetning til» og «begge».\n\n## Eksempel\n\nSammenligner du **Et dukkehjem** (1879) og en samtidsroman om et **samlivsbrudd**, kan grunnlaget være **frihet og roller i parforholdet**. Du kan vise hvordan begge handler om å **finne seg selv**, men at **normene** og **konsekvensene** er svært ulike, fordi tekstene er skrevet i ulike **tider**.\n\n## Språk\n\nBruk **presens** når du skriver om teksten («Nora forlater Helmer»), bruk **fagbegreper**, og la **sitatene** være korte og presise.",
   "flashcards": [
-    { "term": "Analyse", "def": "Å undersøke hvordan teksten er bygd opp." },
-    { "term": "Tolkning", "def": "Å finne ut hva teksten betyr – tema og budskap." },
-    { "term": "Komposisjon", "def": "Hvordan handlingen er bygd opp." },
-    { "term": "Synsvinkel", "def": "Hvem sitt perspektiv handlingen fortelles fra." },
-    { "term": "Indirekte karakteristikk", "def": "Personen beskrives gjennom handlinger og replikker." },
-    { "term": "Motiv", "def": "Den konkrete situasjonen i teksten." },
-    { "term": "Tema", "def": "Det overordnede emnet teksten handler om." },
-    { "term": "Lyrisk jeg", "def": "Stemmen som taler i et dikt." },
-    { "term": "Besjeling", "def": "Ting eller natur får menneskelige egenskaper." },
-    { "term": "Tekstnær lesning", "def": "Tolkning som bygger bare på selve teksten." },
-    { "term": "Biografisk lesning", "def": "Tolkning som trekker inn forfatterens liv." },
-    { "term": "Kontekstuell lesning", "def": "Teksten leses i lys av tiden den ble skrevet i." },
-    { "term": "Sammenligningsgrunnlag", "def": "Det to tekster har felles og kan sammenlignes ut fra." },
-    { "term": "Punkt for punkt", "def": "Sammenligning aspekt for aspekt." },
-    { "term": "Litterær presens", "def": "Man bruker presens når man skriver om handlingen i en tekst." }
+    {
+      "term": "Analyse",
+      "def": "Å undersøke hvordan teksten er bygd opp."
+    },
+    {
+      "term": "Tolkning",
+      "def": "Å finne ut hva teksten betyr – tema og budskap."
+    },
+    {
+      "term": "Komposisjon",
+      "def": "Hvordan handlingen er bygd opp."
+    },
+    {
+      "term": "Synsvinkel",
+      "def": "Hvem sitt perspektiv handlingen fortelles fra."
+    },
+    {
+      "term": "Indirekte karakteristikk",
+      "def": "Personen beskrives gjennom handlinger og replikker."
+    },
+    {
+      "term": "Motiv",
+      "def": "Den konkrete situasjonen i teksten."
+    },
+    {
+      "term": "Tema",
+      "def": "Det overordnede emnet teksten handler om."
+    },
+    {
+      "term": "Lyrisk jeg",
+      "def": "Stemmen som taler i et dikt."
+    },
+    {
+      "term": "Besjeling",
+      "def": "Ting eller natur får menneskelige egenskaper."
+    },
+    {
+      "term": "Tekstnær lesning",
+      "def": "Tolkning som bygger bare på selve teksten."
+    },
+    {
+      "term": "Biografisk lesning",
+      "def": "Tolkning som trekker inn forfatterens liv."
+    },
+    {
+      "term": "Kontekstuell lesning",
+      "def": "Teksten leses i lys av tiden den ble skrevet i."
+    },
+    {
+      "term": "Sammenligningsgrunnlag",
+      "def": "Det to tekster har felles og kan sammenlignes ut fra."
+    },
+    {
+      "term": "Punkt for punkt",
+      "def": "Sammenligning aspekt for aspekt."
+    },
+    {
+      "term": "Litterær presens",
+      "def": "Man bruker presens når man skriver om handlingen i en tekst."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er forskjellen på analyse og tolkning?", "options": ["Det er det samme", "Analyse undersøker oppbygningen, tolkning finner betydningen", "Tolkning handler om rim", "Analyse er alltid muntlig"], "correct": 1, "explain": "Analysen er grunnlaget for tolkningen." },
-    { "id": "q02", "text": "Hva er forskjellen på motiv og tema?", "options": ["Motiv er den konkrete situasjonen, tema det overordnede emnet", "Tema er konkret, motiv er abstrakt", "De betyr det samme", "Motiv gjelder bare lyrikk"], "correct": 0, "explain": "For eksempel: forlater hjemmet – frihet." },
-    { "id": "q03", "text": "Hva er en kontekstuell lesning?", "options": ["En lesning som bare ser på rim", "En lesning som bare ser på forfatterens liv", "En lesning i lys av tiden og epoken teksten ble skrevet i", "En lesning uten tekst"], "correct": 2, "explain": "Knytter teksten til epoken." },
-    { "id": "q04", "text": "Hva trenger du for å sammenligne to tekster?", "options": ["Samme forfatter", "Samme lengde", "Samme årstall", "Et sammenligningsgrunnlag"], "correct": 3, "explain": "For eksempel felles tema eller motiv." },
-    { "id": "q05", "text": "Hva er en fordel med å sammenligne punkt for punkt?", "options": ["Den gir en tettere sammenligning", "Den er alltid kortest", "Den krever ingen sitater", "Den gir to separate analyser"], "correct": 0, "explain": "Tekstene ses opp mot hverandre hele veien." },
-    { "id": "q06", "text": "Hvilken tid bør du bruke når du skriver om handlingen i en tekst?", "options": ["Preteritum", "Presens", "Futurum", "Perfektum"], "correct": 1, "explain": "«Nora forlater Helmer.»" },
-    { "id": "q07", "text": "Hva hører hjemme i innledningen til en litterær tolkning?", "options": ["Kildelisten", "Konklusjonen", "Tekst, forfatter, årstall og en problemstilling", "Alle sitatene"], "correct": 2, "explain": "Gi leseren oversikt." },
-    { "id": "q08", "text": "Hva er besjeling?", "options": ["Rim på slutten av linjen", "Gjentakelse av lyd", "En type forteller", "At ting eller natur får menneskelige egenskaper"], "correct": 3, "explain": "Et språklig bilde." },
-    { "id": "q09", "text": "Hvorfor bør du kommentere sitatene du bruker?", "options": ["For å vise hvordan de støtter tolkningen", "For å gjøre teksten lengre", "Fordi sitater er ulovlige uten kommentar", "For å referere handlingen"], "correct": 0, "explain": "Sitater alene forklarer ingenting." },
-    { "id": "q10", "text": "Hvilket ord passer godt i en sammenligning?", "options": ["«Derfor»", "«I motsetning til»", "«Først»", "«Til slutt»"], "correct": 1, "explain": "Viser forskjeller." }
+    {
+      "id": "q01",
+      "text": "Hva er forskjellen på analyse og tolkning?",
+      "options": [
+        "Det er det samme",
+        "Analyse undersøker oppbygningen, tolkning finner betydningen",
+        "Tolkning handler om rim",
+        "Analyse er alltid muntlig"
+      ],
+      "correct": 1,
+      "explain": "Analysen er grunnlaget for tolkningen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er forskjellen på motiv og tema?",
+      "options": [
+        "Motiv er den konkrete situasjonen, tema det overordnede emnet",
+        "Tema er konkret, motiv er abstrakt",
+        "De betyr det samme",
+        "Motiv gjelder bare lyrikk"
+      ],
+      "correct": 0,
+      "explain": "For eksempel: forlater hjemmet – frihet."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en kontekstuell lesning?",
+      "options": [
+        "En lesning som bare ser på rim",
+        "En lesning som bare ser på forfatterens liv",
+        "En lesning i lys av tiden og epoken teksten ble skrevet i",
+        "En lesning uten tekst"
+      ],
+      "correct": 2,
+      "explain": "Knytter teksten til epoken."
+    },
+    {
+      "id": "q04",
+      "text": "Hva trenger du for å sammenligne to tekster?",
+      "options": [
+        "Samme forfatter",
+        "Samme lengde",
+        "Samme årstall",
+        "Et sammenligningsgrunnlag"
+      ],
+      "correct": 3,
+      "explain": "For eksempel felles tema eller motiv."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en fordel med å sammenligne punkt for punkt?",
+      "options": [
+        "Den gir en tettere sammenligning",
+        "Den er alltid kortest",
+        "Den krever ingen sitater",
+        "Den gir to separate analyser"
+      ],
+      "correct": 0,
+      "explain": "Tekstene ses opp mot hverandre hele veien."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken tid bør du bruke når du skriver om handlingen i en tekst?",
+      "options": [
+        "Preteritum",
+        "Presens",
+        "Futurum",
+        "Perfektum"
+      ],
+      "correct": 1,
+      "explain": "«Nora forlater Helmer.»"
+    },
+    {
+      "id": "q07",
+      "text": "Hva hører hjemme i innledningen til en litterær tolkning?",
+      "options": [
+        "Kildelisten",
+        "Konklusjonen",
+        "Tekst, forfatter, årstall og en problemstilling",
+        "Alle sitatene"
+      ],
+      "correct": 2,
+      "explain": "Gi leseren oversikt."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er besjeling?",
+      "options": [
+        "Rim på slutten av linjen",
+        "Gjentakelse av lyd",
+        "En type forteller",
+        "At ting eller natur får menneskelige egenskaper"
+      ],
+      "correct": 3,
+      "explain": "Et språklig bilde."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor bør du kommentere sitatene du bruker?",
+      "options": [
+        "For å vise hvordan de støtter tolkningen",
+        "For å gjøre teksten lengre",
+        "Fordi sitater er ulovlige uten kommentar",
+        "For å referere handlingen"
+      ],
+      "correct": 0,
+      "explain": "Sitater alene forklarer ingenting."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket ord passer godt i en sammenligning?",
+      "options": [
+        "«Derfor»",
+        "«I motsetning til»",
+        "«Først»",
+        "«Til slutt»"
+      ],
+      "correct": 1,
+      "explain": "Viser forskjeller."
+    }
   ],
   "mindmap": {
     "label": "Tolkning og sammenligning",
     "children": [
-      { "label": "Begreper", "children": [
-        { "label": "Analyse" },
-        { "label": "Tolkning" },
-        { "label": "Motiv og tema" }
-      ] },
-      { "label": "Verktøy", "children": [
-        { "label": "Komposisjon og forteller" },
-        { "label": "Personer og konflikter" },
-        { "label": "Bilder, lyd og form" }
-      ] },
-      { "label": "Innfallsvinkler", "children": [
-        { "label": "Tekstnær" },
-        { "label": "Biografisk" },
-        { "label": "Kontekstuell og leserorientert" }
-      ] },
-      { "label": "Tolkningstekst", "children": [
-        { "label": "Innledning med påstand" },
-        { "label": "Sitater som kommenteres" },
-        { "label": "Tema og budskap" }
-      ] },
-      { "label": "Sammenligning", "children": [
-        { "label": "Grunnlag" },
-        { "label": "Tekst for tekst" },
-        { "label": "Punkt for punkt" }
-      ] }
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Analyse"
+          },
+          {
+            "label": "Tolkning"
+          },
+          {
+            "label": "Motiv og tema"
+          }
+        ]
+      },
+      {
+        "label": "Verktøy",
+        "children": [
+          {
+            "label": "Komposisjon og forteller"
+          },
+          {
+            "label": "Personer og konflikter"
+          },
+          {
+            "label": "Bilder, lyd og form"
+          }
+        ]
+      },
+      {
+        "label": "Innfallsvinkler",
+        "children": [
+          {
+            "label": "Tekstnær"
+          },
+          {
+            "label": "Biografisk"
+          },
+          {
+            "label": "Kontekstuell og leserorientert"
+          }
+        ]
+      },
+      {
+        "label": "Tolkningstekst",
+        "children": [
+          {
+            "label": "Innledning med påstand"
+          },
+          {
+            "label": "Sitater som kommenteres"
+          },
+          {
+            "label": "Tema og budskap"
+          }
+        ]
+      },
+      {
+        "label": "Sammenligning",
+        "children": [
+          {
+            "label": "Grunnlag"
+          },
+          {
+            "label": "Tekst for tekst"
+          },
+          {
+            "label": "Punkt for punkt"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En god tolkning er begrunnet med eksempler og sitater fra teksten.", "correct": true, "explain": "Påstander må underbygges." },
-      { "id": "m02", "type": "sant-usant", "text": "En litterær tolkning bør i hovedsak være et referat av handlingen.", "correct": false, "explain": "Hvordan og hvorfor er det viktigste." },
-      { "id": "m03", "type": "sant-usant", "text": "En leserorientert lesning tar med leserens egen erfaring og samtid.", "correct": true, "explain": "Tolkningen kan endre seg over tid." },
-      { "id": "m04", "type": "sant-usant", "text": "Tekst for tekst-metoden gir alltid den tetteste sammenligningen.", "correct": false, "explain": "Den kan lett bli to separate analyser." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er indirekte karakteristikk?", "options": ["Fortelleren sier rett ut hvordan personen er", "Personen beskrives gjennom handlinger og replikker", "Personen har ingen replikker", "Personen er fortelleren"], "correct": 1, "explain": "Leseren må slutte seg til egenskapene." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er et lyrisk jeg?", "options": ["Stemmen som taler i et dikt", "Forfatteren selv alltid", "Leseren", "Hovedpersonen i en roman"], "correct": 0, "explain": "Ikke nødvendigvis det samme som forfatteren." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan være sammenligningsgrunnlaget for Et dukkehjem og en samtidsroman om samlivsbrudd?", "options": ["Antall sider", "Forlaget", "Frihet og roller i parforholdet", "Forfatterens fødested"], "correct": 2, "explain": "Et felles tema." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En god tolkning er begrunnet med eksempler og sitater fra teksten.",
+        "correct": true,
+        "explain": "Påstander må underbygges."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En litterær tolkning bør i hovedsak være et referat av handlingen.",
+        "correct": false,
+        "explain": "Hvordan og hvorfor er det viktigste."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En leserorientert lesning tar med leserens egen erfaring og samtid.",
+        "correct": true,
+        "explain": "Tolkningen kan endre seg over tid."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Tekst for tekst-metoden gir alltid den tetteste sammenligningen.",
+        "correct": false,
+        "explain": "Den kan lett bli to separate analyser."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er indirekte karakteristikk?",
+        "options": [
+          "Fortelleren sier rett ut hvordan personen er",
+          "Personen beskrives gjennom handlinger og replikker",
+          "Personen har ingen replikker",
+          "Personen er fortelleren"
+        ],
+        "correct": 1,
+        "explain": "Leseren må slutte seg til egenskapene."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et lyrisk jeg?",
+        "options": [
+          "Stemmen som taler i et dikt",
+          "Forfatteren selv alltid",
+          "Leseren",
+          "Hovedpersonen i en roman"
+        ],
+        "correct": 0,
+        "explain": "Ikke nødvendigvis det samme som forfatteren."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan være sammenligningsgrunnlaget for Et dukkehjem og en samtidsroman om samlivsbrudd?",
+        "options": [
+          "Antall sider",
+          "Forlaget",
+          "Frihet og roller i parforholdet",
+          "Forfatterens fødested"
+        ],
+        "correct": 2,
+        "explain": "Et felles tema."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I en fortelling får vi ikke direkte vite hvordan en person er. Personen skjuler brev og svarer unnvikende på spørsmål. Forklar hvordan dette er indirekte karakteristikk, og hva leseren må gjøre for å forstå personen.",
+        "fasit": "Dette er indirekte karakteristikk fordi personen beskrives gjennom handlinger og replikker. Leseren må tolke hva handlingene og svarene kan si om personen.",
+        "kriterier": [
+          "Forklarer at personens egenskaper ikke blir fortalt direkte, men kommer fram gjennom handlinger eller replikker.",
+          "Får fram at leseren må trekke slutninger om personen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En fortelling bruker jeg-form, og leseren får bare vite hva fortelleren selv tenker. Hva slags forteller og synsvinkel har fortellingen? Forklar hva leseren får tilgang til.",
+        "fasit": "Fortellingen har en jeg-forteller og begrenset synsvinkel. Leseren får tilgang til fortellerens perspektiv, men ikke direkte til tankene til de andre personene.",
+        "kriterier": [
+          "Identifiserer jeg-forteller og begrenset synsvinkel.",
+          "Forklarer at leserens innsikt er avgrenset til fortellerens perspektiv."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I et dikt finnes det en stemme som taler. Hva kalles denne stemmen, og hva hjelper begrepet deg med å undersøke i diktet?",
+        "fasit": "Stemmen kalles det lyriske jeget. Begrepet hjelper oss med å undersøke hvem som taler i diktet.",
+        "kriterier": [
+          "Kaller stemmen det lyriske jeget.",
+          "Knytter begrepet til stemmen eller den som taler i diktet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En leser tolker et dikt ved å trekke inn forfatterens liv. En annen tar utgangspunkt i egne erfaringer og tiden leseren lever i. Hva kalles de to innfallsvinklene, og hva skiller dem?",
+        "fasit": "Den første innfallsvinkelen er biografisk, mens den andre er leserorientert. Den biografiske trekker inn forfatterens liv, mens den leserorienterte legger vekt på leserens erfaringer og samtid.",
+        "kriterier": [
+          "Identifiserer den biografiske og den leserorienterte innfallsvinkelen.",
+          "Skiller mellom forfatterens liv og leserens erfaringer eller samtid."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En fortelling begynner med at en person pakker for å dra hjemmefra. Deretter går handlingen tilbake til hendelser som skjedde tidligere, før fortellingen vender tilbake til avreisen. Hvilket komposisjonsgrep bruker fortellingen, og hvordan kommer det fram?",
+        "fasit": "Fortellingen bruker tilbakeblikk. Handlingen går fra avreisen tilbake til tidligere hendelser og vender deretter tilbake til avreisen.",
+        "kriterier": [
+          "Identifiserer tilbakeblikk som komposisjonsgrep.",
+          "Forklarer at handlingen går tilbake til tidligere hendelser."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elevs hoveddel gjenforteller bare hva personene gjør, uten å undersøke språk, personer eller virkemidler. Forklar hvordan eleven kan gjøre hoveddelen mer tolkende.",
+        "fasit": "Eleven bør analysere hvordan trekk ved teksten skaper mening, i stedet for bare å gjenfortelle hendelsene. Analysen bør knyttes til en tolkning av hva teksten kan bety.",
+        "kriterier": [
+          "Foreslår å undersøke hvordan teksten er bygd opp eller bruker språk, personer eller virkemidler.",
+          "Knytter analysen til tekstens mulige mening eller tolkning."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et dukkehjem og en samtidsroman om et samlivsbrudd kan begge handle om frihet og roller i parforholdet. Formuler en sammenligning som får fram både noe tekstene har felles, og en forskjell som kan knyttes til at de er skrevet i ulike tider.",
+        "fasit": "Begge tekstene kan handle om å finne seg selv og om frihet og roller i parforholdet. Normene og konsekvensene kan likevel være ulike fordi tekstene er skrevet i ulike tider.",
+        "kriterier": [
+          "Får fram et felles trekk, som frihet, roller i parforholdet eller det å finne seg selv.",
+          "Får fram en forskjell knyttet til normer eller konsekvenser.",
+          "Knytter forskjellen til at tekstene er skrevet i ulike tider."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I et dikt gjentas den samme konsonantlyden først i flere ord nær hverandre, og et ord eller uttrykk gjentas flere ganger. Hvilke to virkemidler beskriver dette, og hvilket område av diktanalysen hører de til?",
+        "fasit": "Gjentatt konsonantlyd først i ord er allitterasjon, og gjentakelse av ord eller uttrykk er gjentakelse. Begge hører til lyd og rytme.",
+        "kriterier": [
+          "Identifiserer allitterasjon og gjentakelse.",
+          "Plasserer virkemidlene under lyd og rytme."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

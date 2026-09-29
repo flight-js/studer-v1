@@ -4,77 +4,421 @@
   "trinnId": "vg2",
   "name": "Rettsreglenes funksjon i samfunnet",
   "intro": "Hva som skiller rettsregler fra andre normer, hvilke funksjoner rettsreglene har – orden, konfliktløsning, vern og styring – og viktige inndelinger som offentlig rett og privatrett, strafferett og sivilrett, og preseptoriske og deklaratoriske regler.",
-  "kompetansemaal": [2],
+  "kompetansemaal": [
+    2
+  ],
   "sammendrag": "## Rettsregler og andre normer\n\nSamfunnet har mange **normer** – regler for hvordan vi bør oppføre oss. Noen er **moralske**, noen er **skikk og bruk**, og noen er **rettsregler**. Det som skiller **rettsreglene**, er at de er **vedtatt** eller anerkjent av staten og kan **håndheves** med **tvang** – for eksempel bot, fengsel, erstatning eller tvangsfullbyrdelse.\n\nMange rettsregler bygger på **moral** (ikke drep, ikke stjel), men ikke all umoral er ulovlig – det er lov å være uhøflig.\n\n## Rettsreglenes funksjoner\n\n**1. Skape orden og forutsigbarhet**\n\nRegler gjør det mulig å **planlegge** livet: Du vet hva som gjelder når du inngår en avtale, kjøper en bolig eller begynner i jobb. Trafikkreglene gjør det mulig for millioner å ferdes trygt.\n\n**2. Løse konflikter fredelig**\n\nNår folk blir uenige, gir rettsreglene og **domstolene** en måte å løse konflikten **uten vold** eller selvtekt. Mange tvister løses ved **forlik** eller **mekling**, for eksempel i **forliksrådet** eller **konfliktrådet**.\n\n**3. Verne den svake part**\n\nMange regler beskytter den som er i en **svakere** stilling: **forbrukere** mot næringsdrivende, **arbeidstakere** mot arbeidsgivere, **leietakere** mot utleiere og **barn** mot voksne. Slike regler er ofte **preseptoriske**.\n\n**4. Styre atferd og forebygge**\n\nStraff og andre sanksjoner skal **avskrekke** fra lovbrudd (**allmennprevensjon**) og hindre at den som er straffet, gjør det igjen (**individualprevensjon**).\n\n**5. Fordele goder og byrder**\n\nLover om **skatt**, **trygd** og **arv** avgjør hvem som får og hvem som betaler.\n\n**6. Uttrykke verdier og endre samfunnet**\n\nLover kan **signalisere** hva samfunnet mener er rett – og bidra til **endring**. Forbudet mot **fysisk avstraffelse** av barn og **diskrimineringsloven** er eksempler.\n\n## Viktige inndelinger\n\n**Offentlig rett og privatrett**\n\n- **Offentlig rett** regulerer forholdet mellom **staten** og **borgerne** og organiseringen av staten – for eksempel **statsrett**, **forvaltningsrett**, **skatterett** og **strafferett**.\n- **Privatrett** regulerer forholdet mellom **private parter** – for eksempel **avtalerett**, **familierett**, **arverett** og **arbeidsrett**.\n\n**Strafferett og sivilrett**\n\n- I **straffesaker** er det **påtalemyndigheten** (staten) som tar ut tiltale, og den tiltalte kan få **straff**.\n- I **sivile saker** står private parter mot hverandre, for eksempel om **erstatning** eller **penger**.\n\n**Preseptoriske og deklaratoriske regler**\n\n- **Preseptoriske** (ufravikelige) regler kan ikke **avtales bort** – for eksempel forbrukernes rettigheter ved kjøp.\n- **Deklaratoriske** (fravikelige) regler gjelder bare hvis partene **ikke har avtalt noe annet** – for eksempel mange regler i kjøpsloven mellom næringsdrivende.\n\n## Drøfting\n\nRettsregler er **nødvendige**, men kan også være **for mange**, **for detaljerte** eller **utdaterte**. Noen mener at lovgivningen bør holde seg unna **privatlivet**, andre at den er viktig for å **beskytte** svake grupper. Når du drøfter en rettsregel, spør: Hvilken **funksjon** skal den ha, og **virker** den?",
   "flashcards": [
-    { "term": "Rettsregel", "def": "Regel vedtatt eller anerkjent av staten som kan håndheves med tvang." },
-    { "term": "Norm", "def": "Regel for hvordan vi bør oppføre oss." },
-    { "term": "Forliksrådet", "def": "Lokalt organ som mekler og avgjør mindre sivile tvister." },
-    { "term": "Konfliktrådet", "def": "Tilbud om mekling mellom partene i en konflikt." },
-    { "term": "Selvtekt", "def": "Å ta seg til rette selv uten å gå gjennom rettssystemet." },
-    { "term": "Allmennprevensjon", "def": "Straff skal avskrekke andre fra å begå lovbrudd." },
-    { "term": "Individualprevensjon", "def": "Straff skal hindre at den straffede gjør det igjen." },
-    { "term": "Vern av svak part", "def": "Regler som beskytter forbrukere, arbeidstakere og leietakere." },
-    { "term": "Offentlig rett", "def": "Forholdet mellom staten og borgerne." },
-    { "term": "Privatrett", "def": "Forholdet mellom private parter." },
-    { "term": "Straffesak", "def": "Påtalemyndigheten mot en tiltalt – kan gi straff." },
-    { "term": "Sivil sak", "def": "Private parter mot hverandre, for eksempel om erstatning." },
-    { "term": "Påtalemyndigheten", "def": "Statens organ som tar ut tiltale." },
-    { "term": "Preseptorisk regel", "def": "Ufravikelig – kan ikke avtales bort." },
-    { "term": "Deklaratorisk regel", "def": "Fravikelig – gjelder hvis partene ikke har avtalt noe annet." }
+    {
+      "term": "Rettsregel",
+      "def": "Regel vedtatt eller anerkjent av staten som kan håndheves med tvang."
+    },
+    {
+      "term": "Norm",
+      "def": "Regel for hvordan vi bør oppføre oss."
+    },
+    {
+      "term": "Forliksrådet",
+      "def": "Lokalt organ som mekler og avgjør mindre sivile tvister."
+    },
+    {
+      "term": "Konfliktrådet",
+      "def": "Tilbud om mekling mellom partene i en konflikt."
+    },
+    {
+      "term": "Selvtekt",
+      "def": "Å ta seg til rette selv uten å gå gjennom rettssystemet."
+    },
+    {
+      "term": "Allmennprevensjon",
+      "def": "Straff skal avskrekke andre fra å begå lovbrudd."
+    },
+    {
+      "term": "Individualprevensjon",
+      "def": "Straff skal hindre at den straffede gjør det igjen."
+    },
+    {
+      "term": "Vern av svak part",
+      "def": "Regler som beskytter forbrukere, arbeidstakere og leietakere."
+    },
+    {
+      "term": "Offentlig rett",
+      "def": "Forholdet mellom staten og borgerne."
+    },
+    {
+      "term": "Privatrett",
+      "def": "Forholdet mellom private parter."
+    },
+    {
+      "term": "Straffesak",
+      "def": "Påtalemyndigheten mot en tiltalt – kan gi straff."
+    },
+    {
+      "term": "Sivil sak",
+      "def": "Private parter mot hverandre, for eksempel om erstatning."
+    },
+    {
+      "term": "Påtalemyndigheten",
+      "def": "Statens organ som tar ut tiltale."
+    },
+    {
+      "term": "Preseptorisk regel",
+      "def": "Ufravikelig – kan ikke avtales bort."
+    },
+    {
+      "term": "Deklaratorisk regel",
+      "def": "Fravikelig – gjelder hvis partene ikke har avtalt noe annet."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva skiller rettsregler fra andre normer?", "options": ["At de er moralske", "At de er vedtatt eller anerkjent av staten og kan håndheves med tvang", "At de er skrevet ned", "At alle er enige i dem"], "correct": 1, "explain": "Sanksjoner som bot eller fengsel." },
-    { "id": "q02", "text": "Hva er allmennprevensjon?", "options": ["At straff skal avskrekke andre fra lovbrudd", "At den straffede skal behandles", "At alle skal få lik straff", "At straff skal være mild"], "correct": 0, "explain": "Individualprevensjon gjelder den straffede." },
-    { "id": "q03", "text": "Hvilket rettsområde hører til privatretten?", "options": ["Strafferett", "Skatterett", "Avtalerett", "Forvaltningsrett"], "correct": 2, "explain": "Forholdet mellom private parter." },
-    { "id": "q04", "text": "Hva er en preseptorisk regel?", "options": ["En regel som gjelder hvis partene ikke har avtalt noe annet", "En regel uten sanksjon", "En moralsk regel", "En regel som ikke kan avtales bort"], "correct": 3, "explain": "For eksempel forbrukervern." },
-    { "id": "q05", "text": "Hvem tar ut tiltale i en straffesak?", "options": ["Påtalemyndigheten", "Fornærmede selv", "Forliksrådet", "Stortinget"], "correct": 0, "explain": "Staten er part." },
-    { "id": "q06", "text": "Hvorfor er mange forbrukerregler preseptoriske?", "options": ["For å beskytte næringsdrivende", "For å verne forbrukeren som svakere part", "For å gjøre handel dyrere", "For å forenkle lovene"], "correct": 1, "explain": "Rettighetene kan ikke avtales bort." },
-    { "id": "q07", "text": "Hva er en funksjon ved rettsregler?", "options": ["Å skape kaos", "Å gjøre livet uforutsigbart", "Å løse konflikter fredelig", "Å fjerne domstolene"], "correct": 2, "explain": "I stedet for vold og selvtekt." },
-    { "id": "q08", "text": "Hva er en sivil sak?", "options": ["En sak der staten tiltaler noen", "En sak om trafikk", "En sak i Stortinget", "En sak der private parter står mot hverandre"], "correct": 3, "explain": "For eksempel om erstatning." },
-    { "id": "q09", "text": "Hvilket er et eksempel på at lover kan endre samfunnet?", "options": ["Forbudet mot fysisk avstraffelse av barn", "Trafikkreglene", "Reglene om bursdager", "Reglene om mat"], "correct": 0, "explain": "Lover kan uttrykke og endre verdier." },
-    { "id": "q10", "text": "Hva er en deklaratorisk regel?", "options": ["En ufravikelig regel", "En regel som gjelder hvis partene ikke har avtalt noe annet", "En grunnlovsregel", "En straffebestemmelse"], "correct": 1, "explain": "Fravikelig." }
+    {
+      "id": "q01",
+      "text": "Hva skiller rettsregler fra andre normer?",
+      "options": [
+        "At de er moralske",
+        "At de er vedtatt eller anerkjent av staten og kan håndheves med tvang",
+        "At de er skrevet ned",
+        "At alle er enige i dem"
+      ],
+      "correct": 1,
+      "explain": "Sanksjoner som bot eller fengsel."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er allmennprevensjon?",
+      "options": [
+        "At straff skal avskrekke andre fra lovbrudd",
+        "At den straffede skal behandles",
+        "At alle skal få lik straff",
+        "At straff skal være mild"
+      ],
+      "correct": 0,
+      "explain": "Individualprevensjon gjelder den straffede."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket rettsområde hører til privatretten?",
+      "options": [
+        "Strafferett",
+        "Skatterett",
+        "Avtalerett",
+        "Forvaltningsrett"
+      ],
+      "correct": 2,
+      "explain": "Forholdet mellom private parter."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er en preseptorisk regel?",
+      "options": [
+        "En regel som gjelder hvis partene ikke har avtalt noe annet",
+        "En regel uten sanksjon",
+        "En moralsk regel",
+        "En regel som ikke kan avtales bort"
+      ],
+      "correct": 3,
+      "explain": "For eksempel forbrukervern."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem tar ut tiltale i en straffesak?",
+      "options": [
+        "Påtalemyndigheten",
+        "Fornærmede selv",
+        "Forliksrådet",
+        "Stortinget"
+      ],
+      "correct": 0,
+      "explain": "Staten er part."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor er mange forbrukerregler preseptoriske?",
+      "options": [
+        "For å beskytte næringsdrivende",
+        "For å verne forbrukeren som svakere part",
+        "For å gjøre handel dyrere",
+        "For å forenkle lovene"
+      ],
+      "correct": 1,
+      "explain": "Rettighetene kan ikke avtales bort."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en funksjon ved rettsregler?",
+      "options": [
+        "Å skape kaos",
+        "Å gjøre livet uforutsigbart",
+        "Å løse konflikter fredelig",
+        "Å fjerne domstolene"
+      ],
+      "correct": 2,
+      "explain": "I stedet for vold og selvtekt."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en sivil sak?",
+      "options": [
+        "En sak der staten tiltaler noen",
+        "En sak om trafikk",
+        "En sak i Stortinget",
+        "En sak der private parter står mot hverandre"
+      ],
+      "correct": 3,
+      "explain": "For eksempel om erstatning."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket er et eksempel på at lover kan endre samfunnet?",
+      "options": [
+        "Forbudet mot fysisk avstraffelse av barn",
+        "Trafikkreglene",
+        "Reglene om bursdager",
+        "Reglene om mat"
+      ],
+      "correct": 0,
+      "explain": "Lover kan uttrykke og endre verdier."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en deklaratorisk regel?",
+      "options": [
+        "En ufravikelig regel",
+        "En regel som gjelder hvis partene ikke har avtalt noe annet",
+        "En grunnlovsregel",
+        "En straffebestemmelse"
+      ],
+      "correct": 1,
+      "explain": "Fravikelig."
+    }
   ],
   "mindmap": {
     "label": "Rettsreglenes funksjon",
     "children": [
-      { "label": "Normer", "children": [
-        { "label": "Moral" },
-        { "label": "Skikk og bruk" },
-        { "label": "Rettsregler med tvang" }
-      ] },
-      { "label": "Funksjoner", "children": [
-        { "label": "Orden og forutsigbarhet" },
-        { "label": "Konfliktløsning" },
-        { "label": "Vern av svak part" },
-        { "label": "Styring og forebygging" }
-      ] },
-      { "label": "Flere funksjoner", "children": [
-        { "label": "Fordeling" },
-        { "label": "Uttrykke verdier" }
-      ] },
-      { "label": "Inndelinger", "children": [
-        { "label": "Offentlig rett og privatrett" },
-        { "label": "Strafferett og sivilrett" }
-      ] },
-      { "label": "Regeltyper", "children": [
-        { "label": "Preseptoriske" },
-        { "label": "Deklaratoriske" }
-      ] }
+      {
+        "label": "Normer",
+        "children": [
+          {
+            "label": "Moral"
+          },
+          {
+            "label": "Skikk og bruk"
+          },
+          {
+            "label": "Rettsregler med tvang"
+          }
+        ]
+      },
+      {
+        "label": "Funksjoner",
+        "children": [
+          {
+            "label": "Orden og forutsigbarhet"
+          },
+          {
+            "label": "Konfliktløsning"
+          },
+          {
+            "label": "Vern av svak part"
+          },
+          {
+            "label": "Styring og forebygging"
+          }
+        ]
+      },
+      {
+        "label": "Flere funksjoner",
+        "children": [
+          {
+            "label": "Fordeling"
+          },
+          {
+            "label": "Uttrykke verdier"
+          }
+        ]
+      },
+      {
+        "label": "Inndelinger",
+        "children": [
+          {
+            "label": "Offentlig rett og privatrett"
+          },
+          {
+            "label": "Strafferett og sivilrett"
+          }
+        ]
+      },
+      {
+        "label": "Regeltyper",
+        "children": [
+          {
+            "label": "Preseptoriske"
+          },
+          {
+            "label": "Deklaratoriske"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Ikke all umoral er ulovlig.", "correct": true, "explain": "Det er for eksempel lov å være uhøflig." },
-      { "id": "m02", "type": "sant-usant", "text": "Strafferett hører til privatretten.", "correct": false, "explain": "Strafferett er offentlig rett." },
-      { "id": "m03", "type": "sant-usant", "text": "Mange tvister løses ved forlik eller mekling uten dom.", "correct": true, "explain": "For eksempel i forliksrådet." },
-      { "id": "m04", "type": "sant-usant", "text": "En forbruker kan avtale seg bort fra rettighetene i forbrukerkjøpsloven.", "correct": false, "explain": "Reglene er preseptoriske til fordel for forbrukeren." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket rettsområde regulerer forholdet mellom staten og borgerne?", "options": ["Privatretten", "Offentlig rett", "Arveretten", "Avtaleretten"], "correct": 1, "explain": "For eksempel skatterett og forvaltningsrett." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er individualprevensjon?", "options": ["At straffen skal hindre at den straffede gjør nye lovbrudd", "At alle skal avskrekkes", "At straffen skal være lik for alle", "At fornærmede får erstatning"], "correct": 0, "explain": "Rettet mot den enkelte." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken lov verner svake grupper mot usaklig forskjellsbehandling?", "options": ["Vegtrafikkloven", "Skatteloven", "Likestillings- og diskrimineringsloven", "Arveloven"], "correct": 2, "explain": "Et eksempel på vern og verdier." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ikke all umoral er ulovlig.",
+        "correct": true,
+        "explain": "Det er for eksempel lov å være uhøflig."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Strafferett hører til privatretten.",
+        "correct": false,
+        "explain": "Strafferett er offentlig rett."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange tvister løses ved forlik eller mekling uten dom.",
+        "correct": true,
+        "explain": "For eksempel i forliksrådet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En forbruker kan avtale seg bort fra rettighetene i forbrukerkjøpsloven.",
+        "correct": false,
+        "explain": "Reglene er preseptoriske til fordel for forbrukeren."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket rettsområde regulerer forholdet mellom staten og borgerne?",
+        "options": [
+          "Privatretten",
+          "Offentlig rett",
+          "Arveretten",
+          "Avtaleretten"
+        ],
+        "correct": 1,
+        "explain": "For eksempel skatterett og forvaltningsrett."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er individualprevensjon?",
+        "options": [
+          "At straffen skal hindre at den straffede gjør nye lovbrudd",
+          "At alle skal avskrekkes",
+          "At straffen skal være lik for alle",
+          "At fornærmede får erstatning"
+        ],
+        "correct": 0,
+        "explain": "Rettet mot den enkelte."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken lov verner svake grupper mot usaklig forskjellsbehandling?",
+        "options": [
+          "Vegtrafikkloven",
+          "Skatteloven",
+          "Likestillings- og diskrimineringsloven",
+          "Arveloven"
+        ],
+        "correct": 2,
+        "explain": "Et eksempel på vern og verdier."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En person skal inngå en arbeidsavtale og vil vite hvilke regler som gjelder. Forklar hvordan rettsregler kan gjøre det lettere å planlegge og skape forutsigbarhet.",
+        "fasit": "Når reglene er kjent, kan personen planlegge ut fra hva som gjelder i arbeidsforholdet. Rettsregler bidrar dermed til forutsigbarhet.",
+        "kriterier": [
+          "Forklarer at kjente regler gjør det mulig å planlegge.",
+          "Knytter dette til forutsigbarhet i arbeidsforholdet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En person som er straffet, lar være å begå nye lovbrudd fordi straffen skal hindre nettopp denne personen i å gjøre det igjen. Hva kalles denne virkningen av straff, og hva er formålet?",
+        "fasit": "Dette kalles individualprevensjon. Formålet er å hindre at den som er straffet, gjør nye lovbrudd.",
+        "kriterier": [
+          "Identifiserer virkningen som individualprevensjon.",
+          "Forklarer at den skal hindre den straffede i å begå nye lovbrudd."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign offentlig rett og privatrett. Ta med hvem partene er i hver av dem, og gi ett eksempel på et forhold som reguleres av hver type.",
+        "fasit": "Offentlig rett regulerer forholdet mellom staten og borgerne, for eksempel skatt. Privatrett regulerer forholdet mellom private parter, for eksempel en avtale mellom to personer.",
+        "kriterier": [
+          "Forklarer at offentlig rett gjelder forholdet mellom staten og borgerne.",
+          "Forklarer at privatrett gjelder forhold mellom private parter, med et relevant eksempel på hver."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En arbeidstaker har mindre makt enn arbeidsgiveren i arbeidsforholdet. Forklar hvilken funksjon rettsregler kan ha i denne situasjonen, og hvem reglene beskytter.",
+        "fasit": "Rettsreglene kan verne den svake parten. I denne situasjonen betyr det å beskytte arbeidstakeren overfor arbeidsgiveren.",
+        "kriterier": [
+          "Knytter situasjonen til funksjonen vern av svak part.",
+          "Identifiserer arbeidstakeren som parten reglene kan beskytte."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Skatteregler avgjør hvem som skal betale skatt, mens regler om trygd avgjør hvem som kan få trygd. Forklar hvilken funksjon rettsreglene har i disse eksemplene.",
+        "fasit": "Rettsreglene fordeler goder og byrder. Skatt er en byrde, mens trygd er et gode som kan tilfalle dem reglene gir rett til det.",
+        "kriterier": [
+          "Identifiserer funksjonen som å fordele goder og byrder.",
+          "Knytter skatt til en byrde og trygd til et gode."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En person mener at noen skylder dem penger, og tar derfor eiendeler fra den andre uten å gå gjennom rettssystemet. Hva kalles handlingen, og hvordan tilbyr rettssystemet en fredeligere vei til å løse uenigheten?",
+        "fasit": "Å ta seg til rette uten å gå gjennom rettssystemet kalles selvtekt. Rettsreglene og domstolene gir en måte å løse konflikten uten vold, for eksempel gjennom forlik eller mekling.",
+        "kriterier": [
+          "Kaller handlingen selvtekt og forklarer at den skjer utenom rettssystemet.",
+          "Forklarer at forlik, mekling eller domstolene kan løse konflikten uten vold."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En person tar med vilje en annens eiendel uten lov. I en straffesak om handlingen er det staten som tar ut tiltale. Forklar hvem som står mot hvem i saken, og hva slags reaksjon saken kan føre til.",
+        "fasit": "I en straffesak står påtalemyndigheten, som representerer staten, mot den tiltalte. Saken kan føre til straff.",
+        "kriterier": [
+          "Identifiserer påtalemyndigheten og den tiltalte som partene i straffesaken.",
+          "Forklarer at saken kan føre til straff."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Når du skal vurdere om en rettsregel fungerer godt, hvilke to spørsmål bør du stille om regelen?",
+        "fasit": "Du bør spørre hvilken funksjon regelen skal ha, og om den virker. Det handler både om formålet med regelen og om den oppnår dette i praksis.",
+        "kriterier": [
+          "Får fram at man bør undersøke hvilken funksjon regelen skal ha.",
+          "Får fram at man bør vurdere om regelen virker eller oppnår formålet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

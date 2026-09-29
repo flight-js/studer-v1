@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Biologisk forskning og metode",
   "intro": "Hvordan du utforsker en biologisk problemstilling: hypoteser og variabler, kontrollgrupper og replikater, valg av metode i felt og laboratorium, analyse av data med gjennomsnitt, spredning og grafer, og drøfting av resultater, feilkilder og funn.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Fra spørsmål til problemstilling\n\nBiologisk forskning starter med **nysgjerrighet**: Hvorfor vokser plantene bedre på ett sted enn et annet? Hvordan påvirker temperaturen et enzym? Et godt spørsmål gjøres om til en **problemstilling** som kan **undersøkes**, og til en **hypotese** – en testbar påstand, for eksempel «Enzymet virker raskest ved 37 °C».\n\n## Variabler\n\n- **Uavhengig variabel**: det du **endrer**, for eksempel temperaturen\n- **Avhengig variabel**: det du **måler**, for eksempel hvor mye produkt som dannes\n- **Kontrollerte variabler**: alt du holder **konstant**, som pH, konsentrasjon og tid\n\n## Kontroll og replikater\n\n- En **kontrollgruppe** får **ikke** behandlingen og viser hva som skjer uten den. I et forsøk med gjødsel får kontrollplantene samme lys og vann, men **ikke** gjødsel.\n- **Replikater** – flere gjentak av hver behandling – gjør resultatene mer **pålitelige** fordi biologiske systemer **varierer**.\n- **Tilfeldig** fordeling av forsøksobjektene reduserer skjevheter.\n\n## Valg av metode\n\n- **Laboratorieforsøk** gir god **kontroll** over variablene, men kan være langt fra **naturlige** forhold.\n- **Feltarbeid** gir **realistiske** data, men mange faktorer varierer samtidig.\n- **Observasjonsstudier** brukes når vi ikke kan eller bør gjøre forsøk, for eksempel på ville dyr.\n- **Modeller** og **simuleringer** kan brukes for systemer som er for store eller langsomme til å undersøke direkte.\n\nNår du **argumenterer** for metoden, forklarer du hvorfor den gir svar på problemstillingen, og hvilke **begrensninger** den har.\n\n## Analyse av data\n\n- **Gjennomsnitt** gir et samlet mål på resultatene.\n- **Spredning** – for eksempel **standardavvik** eller variasjonsbredde – viser hvor like målingene er.\n- **Tabeller** gir oversikt, og **grafer** viser mønstre: **søylediagram** for kategorier og **linjediagram** eller **punktdiagram** for sammenhenger.\n- **Feilstolper** viser usikkerheten. Overlapper feilstolpene mye, er forskjellen kanskje ikke **reell**.\n\n## Drøfting\n\nI drøftingen\n\n- sammenligner du resultatene med **hypotesen** og med **teori** og tidligere forskning\n- vurderer du **feilkilder** – tilfeldige og systematiske\n- vurderer du om utvalget var **stort** nok\n- skiller du mellom **korrelasjon** og **årsakssammenheng**\n- foreslår du **forbedringer** og **nye spørsmål**\n\n## Forskningsetikk\n\nForsøk med **dyr** og **mennesker** er strengt regulert. I feltarbeid skal du ta **minst mulig** skade på naturen, følge regler for **fredede** arter og områder og la det være **ryddig** etter deg.\n\n## Presentasjon\n\nEn **rapport** har ofte delene innledning med **problemstilling** og **hypotese**, **metode**, **resultater**, **drøfting** og **konklusjon**. Metoden skal være så tydelig beskrevet at andre kan **gjenta** undersøkelsen.",
   "flashcards": [
-    { "term": "Problemstilling", "def": "Spørsmål som kan undersøkes." },
-    { "term": "Hypotese", "def": "Testbar påstand." },
-    { "term": "Uavhengig variabel", "def": "Det du endrer." },
-    { "term": "Avhengig variabel", "def": "Det du måler." },
-    { "term": "Kontrollerte variabler", "def": "Alt som holdes konstant." },
-    { "term": "Kontrollgruppe", "def": "Gruppe som ikke får behandlingen." },
-    { "term": "Replikater", "def": "Flere gjentak av hver behandling." },
-    { "term": "Tilfeldig fordeling", "def": "Reduserer skjevheter i forsøket." },
-    { "term": "Feltarbeid", "def": "Undersøkelser i naturen med realistiske forhold." },
-    { "term": "Observasjonsstudie", "def": "Studie uten å endre forholdene, for eksempel på ville dyr." },
-    { "term": "Standardavvik", "def": "Mål på spredningen i dataene." },
-    { "term": "Feilstolper", "def": "Viser usikkerheten i en graf." },
-    { "term": "Korrelasjon", "def": "Samvariasjon – ikke nødvendigvis årsak." },
-    { "term": "Feilkilde", "def": "Forhold som kan gi feil i resultatene." },
-    { "term": "Etterprøvbarhet", "def": "Andre skal kunne gjenta undersøkelsen." }
+    {
+      "term": "Problemstilling",
+      "def": "Spørsmål som kan undersøkes."
+    },
+    {
+      "term": "Hypotese",
+      "def": "Testbar påstand."
+    },
+    {
+      "term": "Uavhengig variabel",
+      "def": "Det du endrer."
+    },
+    {
+      "term": "Avhengig variabel",
+      "def": "Det du måler."
+    },
+    {
+      "term": "Kontrollerte variabler",
+      "def": "Alt som holdes konstant."
+    },
+    {
+      "term": "Kontrollgruppe",
+      "def": "Gruppe som ikke får behandlingen."
+    },
+    {
+      "term": "Replikater",
+      "def": "Flere gjentak av hver behandling."
+    },
+    {
+      "term": "Tilfeldig fordeling",
+      "def": "Reduserer skjevheter i forsøket."
+    },
+    {
+      "term": "Feltarbeid",
+      "def": "Undersøkelser i naturen med realistiske forhold."
+    },
+    {
+      "term": "Observasjonsstudie",
+      "def": "Studie uten å endre forholdene, for eksempel på ville dyr."
+    },
+    {
+      "term": "Standardavvik",
+      "def": "Mål på spredningen i dataene."
+    },
+    {
+      "term": "Feilstolper",
+      "def": "Viser usikkerheten i en graf."
+    },
+    {
+      "term": "Korrelasjon",
+      "def": "Samvariasjon – ikke nødvendigvis årsak."
+    },
+    {
+      "term": "Feilkilde",
+      "def": "Forhold som kan gi feil i resultatene."
+    },
+    {
+      "term": "Etterprøvbarhet",
+      "def": "Andre skal kunne gjenta undersøkelsen."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er den avhengige variabelen i et enzymforsøk der temperaturen endres?", "options": ["Temperaturen", "Mengden produkt som dannes", "pH", "Tiden"], "correct": 1, "explain": "Det du måler." },
-    { "id": "q02", "text": "Hvorfor har vi en kontrollgruppe?", "options": ["For å vise hva som skjer uten behandlingen", "For å få flere data", "For å gjøre forsøket lengre", "For å øke usikkerheten"], "correct": 0, "explain": "Gir et sammenligningsgrunnlag." },
-    { "id": "q03", "text": "Hvorfor trengs replikater i biologiske forsøk?", "options": ["For å spare tid", "For å fjerne kontrollgruppen", "Fordi biologiske systemer varierer", "Fordi loven krever det"], "correct": 2, "explain": "Gjør resultatene mer pålitelige." },
-    { "id": "q04", "text": "Hva er en fordel med feltarbeid?", "options": ["Full kontroll over alle variabler", "Ingen variasjon", "Lave kostnader alltid", "Realistiske data fra naturlige forhold"], "correct": 3, "explain": "Men mange faktorer varierer samtidig." },
-    { "id": "q05", "text": "Hva viser feilstolper som overlapper mye?", "options": ["At forskjellen kanskje ikke er reell", "At forskjellen er stor", "At forsøket er perfekt", "At det ikke finnes data"], "correct": 0, "explain": "Usikkerheten er stor i forhold til forskjellen." },
-    { "id": "q06", "text": "Hvilken graf passer best for å vise en sammenheng mellom to målte størrelser?", "options": ["Kakediagram", "Punktdiagram", "Tabell uten tall", "Bilde"], "correct": 1, "explain": "Viser mønsteret." },
-    { "id": "q07", "text": "Hva må du skille mellom i drøftingen?", "options": ["Tabeller og grafer", "Planter og dyr", "Korrelasjon og årsakssammenheng", "Innledning og konklusjon"], "correct": 2, "explain": "Samvariasjon er ikke nødvendigvis årsak." },
-    { "id": "q08", "text": "Hvorfor skal metoden beskrives tydelig?", "options": ["For at rapporten skal bli lang", "For å skjule feil", "For å imponere", "For at andre skal kunne gjenta undersøkelsen"], "correct": 3, "explain": "Etterprøvbarhet." },
-    { "id": "q09", "text": "Hva er en hypotese?", "options": ["En testbar påstand", "En konklusjon", "Et resultat", "En tabell"], "correct": 0, "explain": "Testes gjennom forsøk." },
-    { "id": "q10", "text": "Når brukes observasjonsstudier?", "options": ["Når vi har full kontroll", "Når vi ikke kan eller bør gjøre forsøk", "Bare i laboratoriet", "Aldri"], "correct": 1, "explain": "For eksempel på ville dyr." }
+    {
+      "id": "q01",
+      "text": "Hva er den avhengige variabelen i et enzymforsøk der temperaturen endres?",
+      "options": [
+        "Temperaturen",
+        "Mengden produkt som dannes",
+        "pH",
+        "Tiden"
+      ],
+      "correct": 1,
+      "explain": "Det du måler."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor har vi en kontrollgruppe?",
+      "options": [
+        "For å vise hva som skjer uten behandlingen",
+        "For å få flere data",
+        "For å gjøre forsøket lengre",
+        "For å øke usikkerheten"
+      ],
+      "correct": 0,
+      "explain": "Gir et sammenligningsgrunnlag."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor trengs replikater i biologiske forsøk?",
+      "options": [
+        "For å spare tid",
+        "For å fjerne kontrollgruppen",
+        "Fordi biologiske systemer varierer",
+        "Fordi loven krever det"
+      ],
+      "correct": 2,
+      "explain": "Gjør resultatene mer pålitelige."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er en fordel med feltarbeid?",
+      "options": [
+        "Full kontroll over alle variabler",
+        "Ingen variasjon",
+        "Lave kostnader alltid",
+        "Realistiske data fra naturlige forhold"
+      ],
+      "correct": 3,
+      "explain": "Men mange faktorer varierer samtidig."
+    },
+    {
+      "id": "q05",
+      "text": "Hva viser feilstolper som overlapper mye?",
+      "options": [
+        "At forskjellen kanskje ikke er reell",
+        "At forskjellen er stor",
+        "At forsøket er perfekt",
+        "At det ikke finnes data"
+      ],
+      "correct": 0,
+      "explain": "Usikkerheten er stor i forhold til forskjellen."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken graf passer best for å vise en sammenheng mellom to målte størrelser?",
+      "options": [
+        "Kakediagram",
+        "Punktdiagram",
+        "Tabell uten tall",
+        "Bilde"
+      ],
+      "correct": 1,
+      "explain": "Viser mønsteret."
+    },
+    {
+      "id": "q07",
+      "text": "Hva må du skille mellom i drøftingen?",
+      "options": [
+        "Tabeller og grafer",
+        "Planter og dyr",
+        "Korrelasjon og årsakssammenheng",
+        "Innledning og konklusjon"
+      ],
+      "correct": 2,
+      "explain": "Samvariasjon er ikke nødvendigvis årsak."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor skal metoden beskrives tydelig?",
+      "options": [
+        "For at rapporten skal bli lang",
+        "For å skjule feil",
+        "For å imponere",
+        "For at andre skal kunne gjenta undersøkelsen"
+      ],
+      "correct": 3,
+      "explain": "Etterprøvbarhet."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en hypotese?",
+      "options": [
+        "En testbar påstand",
+        "En konklusjon",
+        "Et resultat",
+        "En tabell"
+      ],
+      "correct": 0,
+      "explain": "Testes gjennom forsøk."
+    },
+    {
+      "id": "q10",
+      "text": "Når brukes observasjonsstudier?",
+      "options": [
+        "Når vi har full kontroll",
+        "Når vi ikke kan eller bør gjøre forsøk",
+        "Bare i laboratoriet",
+        "Aldri"
+      ],
+      "correct": 1,
+      "explain": "For eksempel på ville dyr."
+    }
   ],
   "mindmap": {
     "label": "Biologisk metode",
     "children": [
-      { "label": "Start", "children": [
-        { "label": "Problemstilling" },
-        { "label": "Hypotese" }
-      ] },
-      { "label": "Forsøksdesign", "children": [
-        { "label": "Variabler" },
-        { "label": "Kontrollgruppe" },
-        { "label": "Replikater" }
-      ] },
-      { "label": "Metoder", "children": [
-        { "label": "Laboratorium" },
-        { "label": "Felt og observasjon" },
-        { "label": "Modeller" }
-      ] },
-      { "label": "Analyse", "children": [
-        { "label": "Gjennomsnitt og spredning" },
-        { "label": "Grafer og feilstolper" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Feilkilder" },
-        { "label": "Korrelasjon og årsak" },
-        { "label": "Etikk" }
-      ] }
+      {
+        "label": "Start",
+        "children": [
+          {
+            "label": "Problemstilling"
+          },
+          {
+            "label": "Hypotese"
+          }
+        ]
+      },
+      {
+        "label": "Forsøksdesign",
+        "children": [
+          {
+            "label": "Variabler"
+          },
+          {
+            "label": "Kontrollgruppe"
+          },
+          {
+            "label": "Replikater"
+          }
+        ]
+      },
+      {
+        "label": "Metoder",
+        "children": [
+          {
+            "label": "Laboratorium"
+          },
+          {
+            "label": "Felt og observasjon"
+          },
+          {
+            "label": "Modeller"
+          }
+        ]
+      },
+      {
+        "label": "Analyse",
+        "children": [
+          {
+            "label": "Gjennomsnitt og spredning"
+          },
+          {
+            "label": "Grafer og feilstolper"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Feilkilder"
+          },
+          {
+            "label": "Korrelasjon og årsak"
+          },
+          {
+            "label": "Etikk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Laboratorieforsøk gir god kontroll, men kan være langt fra naturlige forhold.", "correct": true, "explain": "Derfor kombineres ofte metoder." },
-      { "id": "m02", "type": "sant-usant", "text": "Ett enkelt forsøk er nok til å trekke sikre konklusjoner i biologi.", "correct": false, "explain": "Biologiske systemer varierer – replikater trengs." },
-      { "id": "m03", "type": "sant-usant", "text": "I feltarbeid skal man ta minst mulig skade på naturen.", "correct": true, "explain": "Og følge regler for fredede arter." },
-      { "id": "m04", "type": "sant-usant", "text": "Kontrollerte variabler er det du endrer i forsøket.", "correct": false, "explain": "Det er det du holder konstant." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken graf passer for å sammenligne kategorier?", "options": ["Punktdiagram", "Søylediagram", "Linjediagram alltid", "Ingen graf"], "correct": 1, "explain": "For eksempel ulike behandlinger." },
-      { "id": "m06", "type": "flervalg", "text": "Hva hører til drøftingen i en rapport?", "options": ["Sammenligning med hypotese og teori", "Utstyrslisten", "Problemstillingen alene", "Tittelen"], "correct": 0, "explain": "Og vurdering av feilkilder." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor fordeler vi forsøksobjekter tilfeldig?", "options": ["For å spare plass", "For å få færre data", "For å redusere skjevheter", "For å øke variasjonen bevisst"], "correct": 2, "explain": "Gruppene blir mer like." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Laboratorieforsøk gir god kontroll, men kan være langt fra naturlige forhold.",
+        "correct": true,
+        "explain": "Derfor kombineres ofte metoder."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Ett enkelt forsøk er nok til å trekke sikre konklusjoner i biologi.",
+        "correct": false,
+        "explain": "Biologiske systemer varierer – replikater trengs."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "I feltarbeid skal man ta minst mulig skade på naturen.",
+        "correct": true,
+        "explain": "Og følge regler for fredede arter."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kontrollerte variabler er det du endrer i forsøket.",
+        "correct": false,
+        "explain": "Det er det du holder konstant."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken graf passer for å sammenligne kategorier?",
+        "options": [
+          "Punktdiagram",
+          "Søylediagram",
+          "Linjediagram alltid",
+          "Ingen graf"
+        ],
+        "correct": 1,
+        "explain": "For eksempel ulike behandlinger."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva hører til drøftingen i en rapport?",
+        "options": [
+          "Sammenligning med hypotese og teori",
+          "Utstyrslisten",
+          "Problemstillingen alene",
+          "Tittelen"
+        ],
+        "correct": 0,
+        "explain": "Og vurdering av feilkilder."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor fordeler vi forsøksobjekter tilfeldig?",
+        "options": [
+          "For å spare plass",
+          "For å få færre data",
+          "For å redusere skjevheter",
+          "For å øke variasjonen bevisst"
+        ],
+        "correct": 2,
+        "explain": "Gruppene blir mer like."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Du vil undersøke om lysmengden påvirker hvor mye planter vokser. Skriv en problemstilling som kan undersøkes, og en testbar hypotese som passer til den.",
+        "fasit": "Problemstilling: Hvordan påvirker lysmengden plantenes vekst? Hypotese: Planter som får mer lys, vil vokse mer enn planter som får mindre lys.",
+        "kriterier": [
+          "Problemstillingen spør hvordan lysmengden påvirker planteveksten.",
+          "Hypotesen gir en testbar forventning om sammenhengen mellom lysmengde og vekst."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Du undersøker hvordan temperatur påvirker et enzym. Du endrer temperaturen, måler hvor mye produkt som dannes, og holder pH og konsentrasjonen av enzym og substrat lik. Forklar hva som er den uavhengige variabelen, og hvorfor pH og konsentrasjonene bør holdes konstante.",
+        "fasit": "Temperaturen er den uavhengige variabelen fordi det er den du endrer. pH og konsentrasjonene bør holdes konstante, slik at endringer i produktmengden lettere kan knyttes til temperaturen.",
+        "kriterier": [
+          "Identifiserer temperaturen som variabelen forskeren endrer.",
+          "Forklarer at konstante forhold gjør det mulig å knytte resultatendringer til temperaturen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Du skal undersøke hvordan gjødsel påvirker plantevekst. Sammenlign et laboratorieforsøk med feltarbeid ved å beskrive én styrke og én begrensning ved hver metode.",
+        "fasit": "I et laboratorieforsøk kan du kontrollere variablene godt, men forholdene kan være lite naturlige. Feltarbeid gir mer realistiske data, men flere faktorer kan variere samtidig.",
+        "kriterier": [
+          "Får fram at laboratorieforsøk gir god kontroll, men kan være lite naturlige.",
+          "Får fram at feltarbeid gir realistiske data, men at flere faktorer kan variere samtidig."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En forsker fordeler planter i to grupper for å undersøke en behandling, men plasserer alle de største plantene i gruppen som får behandlingen. Forklar hvordan dette kan påvirke resultatet, og hvordan tilfeldig fordeling kan hjelpe.",
+        "fasit": "Gruppene kan være ulike allerede før behandlingen, slik at forskjellen i vekst ikke nødvendigvis skyldes behandlingen. Tilfeldig fordeling reduserer slike skjevheter.",
+        "kriterier": [
+          "Forklarer at forskjellen mellom gruppene kan skyldes at de var ulike fra starten, ikke bare behandlingen.",
+          "Forklarer at tilfeldig fordeling reduserer skjevheter mellom gruppene."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I tre replikater av et forsøk måles plantevekst på 4 cm, 6 cm og 8 cm. Regn ut gjennomsnittlig vekst, og vis det viktigste regnetrinnet.",
+        "fasit": "Gjennomsnittet er 6 cm: (4 + 6 + 8) / 3 = 6 cm.",
+        "kriterier": [
+          "Viser at målingene summeres og deles på tre.",
+          "Oppgir gjennomsnittet 6 cm."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Planteveksten i gruppe A måles til 5 cm, 6 cm og 7 cm. I gruppe B er målingene 2 cm, 6 cm og 10 cm. Regn ut variasjonsbredden for hver gruppe, og si hvilken gruppe som har størst spredning.",
+        "fasit": "Variasjonsbredden er 2 cm i gruppe A (7 − 5) og 8 cm i gruppe B (10 − 2). Gruppe B har størst spredning.",
+        "kriterier": [
+          "Oppgir riktig variasjonsbredde for gruppe A og gruppe B.",
+          "Konkluderer med at gruppe B har størst spredning."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I en observasjonsstudie finner forskere at områder med mer gjødsel også har planter med større vekst. Forklar hva funnet viser, og hvorfor det ikke alene beviser at gjødselen førte til større vekst.",
+        "fasit": "Funnet viser en korrelasjon mellom mengden gjødsel og planteveksten. Det beviser ikke årsakssammenheng, fordi andre faktorer kan variere samtidig.",
+        "kriterier": [
+          "Beskriver funnet som en samvariasjon eller korrelasjon.",
+          "Forklarer at andre faktorer kan påvirke veksten, slik at årsak ikke er fastslått."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du planlegger feltarbeid i et område der det finnes fredede arter. Beskriv to hensyn du bør ta for å gjennomføre arbeidet forsvarlig.",
+        "fasit": "Jeg må følge reglene som gjelder for fredede arter og området, og gjøre minst mulig skade på naturen. Jeg bør også rydde etter meg.",
+        "kriterier": [
+          "Nevner at regler for fredede arter eller områder må følges.",
+          "Nevner at arbeidet skal skade naturen minst mulig eller at man skal rydde etter seg."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Religion og livssyn i majoritets-, minoritets- og urfolksperspektiv",
   "intro": "Religion og livssyn i Norge sett fra majoritetens, minoritetenes og urfolkets perspektiv – med vekt på førkristen samisk religion, noaiden og joiken, kristningen og læstadianismen, fornorskingen gjennom kirken og samisk religiøs revitalisering i dag.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Tre perspektiver\n\n- **Majoritetsperspektivet**: hvordan religion ser ut fra **flertallets** ståsted. I Norge har **Den norske kirke** lenge vært majoritetens kirke.\n- **Minoritetsperspektivet**: hvordan det er å tilhøre en **mindre** religiøs gruppe, for eksempel **muslimer**, **katolikker**, **jøder** eller **buddhister**. Minoriteter kan oppleve **fordommer**, men også sterkt **fellesskap**.\n- **Urfolksperspektivet**: hvordan **samene**, Norges urfolk, har opplevd religion – både sin egen tradisjonelle religion og møtet med kristendommen.\n\n## Førkristen samisk religion\n\nDen tradisjonelle samiske religionen varierte mellom **områder**, men hadde noen felles trekk:\n\n- **Naturen** var **besjelet** – fjell, innsjøer og dyr hadde **ånder** og kraft.\n- **Sieidier** var **hellige steder**, ofte store steiner eller fjell, der man ga **offer**.\n- **Gudeverdenen** omfattet blant andre **Beaivi** – sola – og kvinnelige guddommer som **Máttaráhkká** og hennes døtre, som beskyttet fødsler og barn.\n- **Noaiden** var en religiøs spesialist som kunne reise til **åndeverdenen** i **transe**, blant annet med hjelp av **runebomma** – en tromme med tegninger av verden.\n- **Joiken** er en særegen sangform som gjør en person, et dyr eller et sted **nærværende**. Den hadde også religiøs betydning.\n\n## Kristningen av samene\n\nMisjonen blant samene ble intensivert på **1700-tallet**, blant annet ledet av **Thomas von Westen**. Runebommer ble **beslaglagt** og brent, og mange noaider ble forfulgt. Samer ble tvunget til å oppgi sin religion. Kristendommen ble etter hvert en del av **samisk** kultur, men på samisk vis.\n\n## Læstadianismen\n\nPå **1840-tallet** startet presten **Lars Levi Læstadius** en vekkelse i Nord-Skandinavia. **Læstadianismen** fikk stor oppslutning blant **samer** og **kvener**, blant annet fordi den brukte **samisk** og **finsk** og kritiserte **alkohol** og **handelsmenn** som utnyttet folk. Bevegelsen er fortsatt viktig i mange samiske områder.\n\n## Kirken og fornorskingen\n\nFra midten av **1800-tallet** var **kirken** og **skolen** redskaper i **fornorskingspolitikken**. Samisk språk og kultur, inkludert **joik**, ble sett som noe som burde **forsvinne**. Mange samer skammet seg over bakgrunnen sin. **Den norske kirke** har senere **beklaget** sin rolle i fornorskingen.\n\n## Revitalisering\n\nI dag opplever mange samer en **revitalisering** – en **gjenoppliving** – av samisk kultur og religion:\n\n- **Joik** brukes i musikk, gudstjenester og samfunnsliv.\n- Kirken har egne **samiske** gudstjenester, salmer og liturgi.\n- Noen samer søker tilbake til **tradisjonell** spiritualitet og naturforståelse.\n- Samiske hellige steder og **naturen** er sentrale i **urfolksrettigheter** og konflikter om arealbruk, for eksempel vindkraft og gruvedrift.\n\n## Refleksjon\n\nDet som regnes som «**norsk religion**», har vært definert av **majoriteten**. Å se religion fra **minoritets-** og **urfolksperspektiv** viser hvordan makt, språk og religion henger sammen – og hvordan grupper kan **gjenvinne** sin egen historie.",
   "flashcards": [
-    { "term": "Majoritetsperspektiv", "def": "Religion sett fra flertallets ståsted." },
-    { "term": "Minoritetsperspektiv", "def": "Religion sett fra en mindre gruppes ståsted." },
-    { "term": "Urfolksperspektiv", "def": "Religion sett fra urfolkets ståsted, i Norge samene." },
-    { "term": "Besjelet natur", "def": "Fjell, innsjøer og dyr har ånder og kraft." },
-    { "term": "Sieidi", "def": "Hellig sted i samisk religion, ofte en stein eller et fjell." },
-    { "term": "Beaivi", "def": "Sola – en viktig guddom i samisk religion." },
-    { "term": "Máttaráhkká", "def": "Kvinnelig guddom som beskyttet fødsler og barn." },
-    { "term": "Noaide", "def": "Samisk religiøs spesialist som kunne reise til åndeverdenen." },
-    { "term": "Runebomme", "def": "Samisk tromme med tegninger av verden." },
-    { "term": "Joik", "def": "Samisk sangform som gjør noe eller noen nærværende." },
-    { "term": "Thomas von Westen", "def": "Ledet misjonen blant samene på 1700-tallet." },
-    { "term": "Læstadianismen", "def": "Vekkelse fra 1840-tallet med stor oppslutning blant samer og kvener." },
-    { "term": "Lars Levi Læstadius", "def": "Presten som startet læstadianismen." },
-    { "term": "Fornorsking", "def": "Politikk for å gjøre samer og kvener norske i språk og kultur." },
-    { "term": "Revitalisering", "def": "Gjenoppliving av kultur og religion." }
+    {
+      "term": "Majoritetsperspektiv",
+      "def": "Religion sett fra flertallets ståsted."
+    },
+    {
+      "term": "Minoritetsperspektiv",
+      "def": "Religion sett fra en mindre gruppes ståsted."
+    },
+    {
+      "term": "Urfolksperspektiv",
+      "def": "Religion sett fra urfolkets ståsted, i Norge samene."
+    },
+    {
+      "term": "Besjelet natur",
+      "def": "Fjell, innsjøer og dyr har ånder og kraft."
+    },
+    {
+      "term": "Sieidi",
+      "def": "Hellig sted i samisk religion, ofte en stein eller et fjell."
+    },
+    {
+      "term": "Beaivi",
+      "def": "Sola – en viktig guddom i samisk religion."
+    },
+    {
+      "term": "Máttaráhkká",
+      "def": "Kvinnelig guddom som beskyttet fødsler og barn."
+    },
+    {
+      "term": "Noaide",
+      "def": "Samisk religiøs spesialist som kunne reise til åndeverdenen."
+    },
+    {
+      "term": "Runebomme",
+      "def": "Samisk tromme med tegninger av verden."
+    },
+    {
+      "term": "Joik",
+      "def": "Samisk sangform som gjør noe eller noen nærværende."
+    },
+    {
+      "term": "Thomas von Westen",
+      "def": "Ledet misjonen blant samene på 1700-tallet."
+    },
+    {
+      "term": "Læstadianismen",
+      "def": "Vekkelse fra 1840-tallet med stor oppslutning blant samer og kvener."
+    },
+    {
+      "term": "Lars Levi Læstadius",
+      "def": "Presten som startet læstadianismen."
+    },
+    {
+      "term": "Fornorsking",
+      "def": "Politikk for å gjøre samer og kvener norske i språk og kultur."
+    },
+    {
+      "term": "Revitalisering",
+      "def": "Gjenoppliving av kultur og religion."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er urfolksperspektivet på religion i Norge?", "options": ["Flertallets syn", "Hvordan samene har opplevd religion", "Hvordan innvandrere ser religion", "Hvordan staten ser religion"], "correct": 1, "explain": "Både egen religion og møtet med kristendommen." },
-    { "id": "q02", "text": "Hva er en sieidi?", "options": ["Et hellig sted, ofte en stein eller et fjell", "En tromme", "En sang", "En prest"], "correct": 0, "explain": "Der man ga offer." },
-    { "id": "q03", "text": "Hva gjorde noaiden?", "options": ["Ledet gudstjenester", "Underviste i skolen", "Reiste til åndeverdenen i transe", "Solgte varer"], "correct": 2, "explain": "Med hjelp av runebomma." },
-    { "id": "q04", "text": "Hva er joik?", "options": ["En tromme", "En gud", "Et hellig sted", "En sangform som gjør noe eller noen nærværende"], "correct": 3, "explain": "Hadde også religiøs betydning." },
-    { "id": "q05", "text": "Hva skjedde med runebommene under misjonen?", "options": ["De ble beslaglagt og brent", "De ble satt i kirkene", "De ble solgt", "De ble fredet"], "correct": 0, "explain": "Noaider ble forfulgt." },
-    { "id": "q06", "text": "Hvorfor fikk læstadianismen stor oppslutning blant samer og kvener?", "options": ["Fordi den forbød samisk", "Fordi den brukte samisk og finsk og kritiserte utnytting", "Fordi den var statens kirke", "Fordi den var ny teknologi"], "correct": 1, "explain": "Den møtte folk på deres språk." },
-    { "id": "q07", "text": "Hvilken rolle hadde kirken i fornorskingspolitikken?", "options": ["Den motarbeidet den", "Den hadde ingen rolle", "Den var et redskap for fornorskingen", "Den styrket samisk språk"], "correct": 2, "explain": "Kirken har senere beklaget." },
-    { "id": "q08", "text": "Hva er revitalisering?", "options": ["Fornorsking", "Misjon", "Sekularisering", "Gjenoppliving av kultur og religion"], "correct": 3, "explain": "For eksempel joik i gudstjenester." },
-    { "id": "q09", "text": "Hvem var Beaivi i samisk religion?", "options": ["Sola", "Havet", "Månen", "Tordenen"], "correct": 0, "explain": "En viktig guddom." },
-    { "id": "q10", "text": "Hva kan minoriteter oppleve?", "options": ["Bare fordommer", "Både fordommer og sterkt fellesskap", "Bare fellesskap", "Ingen forskjell fra majoriteten"], "correct": 1, "explain": "Minoritetsperspektivet." }
+    {
+      "id": "q01",
+      "text": "Hva er urfolksperspektivet på religion i Norge?",
+      "options": [
+        "Flertallets syn",
+        "Hvordan samene har opplevd religion",
+        "Hvordan innvandrere ser religion",
+        "Hvordan staten ser religion"
+      ],
+      "correct": 1,
+      "explain": "Både egen religion og møtet med kristendommen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er en sieidi?",
+      "options": [
+        "Et hellig sted, ofte en stein eller et fjell",
+        "En tromme",
+        "En sang",
+        "En prest"
+      ],
+      "correct": 0,
+      "explain": "Der man ga offer."
+    },
+    {
+      "id": "q03",
+      "text": "Hva gjorde noaiden?",
+      "options": [
+        "Ledet gudstjenester",
+        "Underviste i skolen",
+        "Reiste til åndeverdenen i transe",
+        "Solgte varer"
+      ],
+      "correct": 2,
+      "explain": "Med hjelp av runebomma."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er joik?",
+      "options": [
+        "En tromme",
+        "En gud",
+        "Et hellig sted",
+        "En sangform som gjør noe eller noen nærværende"
+      ],
+      "correct": 3,
+      "explain": "Hadde også religiøs betydning."
+    },
+    {
+      "id": "q05",
+      "text": "Hva skjedde med runebommene under misjonen?",
+      "options": [
+        "De ble beslaglagt og brent",
+        "De ble satt i kirkene",
+        "De ble solgt",
+        "De ble fredet"
+      ],
+      "correct": 0,
+      "explain": "Noaider ble forfulgt."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor fikk læstadianismen stor oppslutning blant samer og kvener?",
+      "options": [
+        "Fordi den forbød samisk",
+        "Fordi den brukte samisk og finsk og kritiserte utnytting",
+        "Fordi den var statens kirke",
+        "Fordi den var ny teknologi"
+      ],
+      "correct": 1,
+      "explain": "Den møtte folk på deres språk."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken rolle hadde kirken i fornorskingspolitikken?",
+      "options": [
+        "Den motarbeidet den",
+        "Den hadde ingen rolle",
+        "Den var et redskap for fornorskingen",
+        "Den styrket samisk språk"
+      ],
+      "correct": 2,
+      "explain": "Kirken har senere beklaget."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er revitalisering?",
+      "options": [
+        "Fornorsking",
+        "Misjon",
+        "Sekularisering",
+        "Gjenoppliving av kultur og religion"
+      ],
+      "correct": 3,
+      "explain": "For eksempel joik i gudstjenester."
+    },
+    {
+      "id": "q09",
+      "text": "Hvem var Beaivi i samisk religion?",
+      "options": [
+        "Sola",
+        "Havet",
+        "Månen",
+        "Tordenen"
+      ],
+      "correct": 0,
+      "explain": "En viktig guddom."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kan minoriteter oppleve?",
+      "options": [
+        "Bare fordommer",
+        "Både fordommer og sterkt fellesskap",
+        "Bare fellesskap",
+        "Ingen forskjell fra majoriteten"
+      ],
+      "correct": 1,
+      "explain": "Minoritetsperspektivet."
+    }
   ],
   "mindmap": {
     "label": "Majoritet, minoritet og urfolk",
     "children": [
-      { "label": "Perspektiver", "children": [
-        { "label": "Majoritet" },
-        { "label": "Minoritet" },
-        { "label": "Urfolk" }
-      ] },
-      { "label": "Samisk religion", "children": [
-        { "label": "Besjelet natur og sieidier" },
-        { "label": "Guder som Beaivi" },
-        { "label": "Noaide, runebomme, joik" }
-      ] },
-      { "label": "Kristning", "children": [
-        { "label": "Misjonen på 1700-tallet" },
-        { "label": "Læstadianismen" }
-      ] },
-      { "label": "Fornorsking", "children": [
-        { "label": "Kirke og skole" },
-        { "label": "Kirkens beklagelse" }
-      ] },
-      { "label": "I dag", "children": [
-        { "label": "Revitalisering" },
-        { "label": "Hellige steder og rettigheter" }
-      ] }
+      {
+        "label": "Perspektiver",
+        "children": [
+          {
+            "label": "Majoritet"
+          },
+          {
+            "label": "Minoritet"
+          },
+          {
+            "label": "Urfolk"
+          }
+        ]
+      },
+      {
+        "label": "Samisk religion",
+        "children": [
+          {
+            "label": "Besjelet natur og sieidier"
+          },
+          {
+            "label": "Guder som Beaivi"
+          },
+          {
+            "label": "Noaide, runebomme, joik"
+          }
+        ]
+      },
+      {
+        "label": "Kristning",
+        "children": [
+          {
+            "label": "Misjonen på 1700-tallet"
+          },
+          {
+            "label": "Læstadianismen"
+          }
+        ]
+      },
+      {
+        "label": "Fornorsking",
+        "children": [
+          {
+            "label": "Kirke og skole"
+          },
+          {
+            "label": "Kirkens beklagelse"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Revitalisering"
+          },
+          {
+            "label": "Hellige steder og rettigheter"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Den tradisjonelle samiske religionen varierte mellom områder.", "correct": true, "explain": "Men hadde felles trekk." },
-      { "id": "m02", "type": "sant-usant", "text": "Den norske kirke har aldri beklaget sin rolle i fornorskingen.", "correct": false, "explain": "Kirken har senere beklaget." },
-      { "id": "m03", "type": "sant-usant", "text": "Kirken har i dag egne samiske gudstjenester og salmer.", "correct": true, "explain": "En del av revitaliseringen." },
-      { "id": "m04", "type": "sant-usant", "text": "Joik ble oppmuntret av myndighetene under fornorskingen.", "correct": false, "explain": "Den ble sett som noe som burde forsvinne." },
-      { "id": "m05", "type": "flervalg", "text": "Hvem startet læstadianismen?", "options": ["Thomas von Westen", "Lars Levi Læstadius", "Martin Luther", "Elsa Laula Renberg"], "correct": 1, "explain": "På 1840-tallet." },
-      { "id": "m06", "type": "flervalg", "text": "Hva beskyttet Máttaráhkká og hennes døtre?", "options": ["Fødsler og barn", "Reinflokken", "Fisket", "Krigere"], "correct": 0, "explain": "Kvinnelige guddommer." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor er samiske hellige steder viktige i dag?", "options": ["De er turistmål alene", "De har ingen betydning", "De er sentrale i urfolksrettigheter og konflikter om arealbruk", "De skal flyttes"], "correct": 2, "explain": "For eksempel vindkraft og gruvedrift." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Den tradisjonelle samiske religionen varierte mellom områder.",
+        "correct": true,
+        "explain": "Men hadde felles trekk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Den norske kirke har aldri beklaget sin rolle i fornorskingen.",
+        "correct": false,
+        "explain": "Kirken har senere beklaget."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Kirken har i dag egne samiske gudstjenester og salmer.",
+        "correct": true,
+        "explain": "En del av revitaliseringen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Joik ble oppmuntret av myndighetene under fornorskingen.",
+        "correct": false,
+        "explain": "Den ble sett som noe som burde forsvinne."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem startet læstadianismen?",
+        "options": [
+          "Thomas von Westen",
+          "Lars Levi Læstadius",
+          "Martin Luther",
+          "Elsa Laula Renberg"
+        ],
+        "correct": 1,
+        "explain": "På 1840-tallet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva beskyttet Máttaráhkká og hennes døtre?",
+        "options": [
+          "Fødsler og barn",
+          "Reinflokken",
+          "Fisket",
+          "Krigere"
+        ],
+        "correct": 0,
+        "explain": "Kvinnelige guddommer."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor er samiske hellige steder viktige i dag?",
+        "options": [
+          "De er turistmål alene",
+          "De har ingen betydning",
+          "De er sentrale i urfolksrettigheter og konflikter om arealbruk",
+          "De skal flyttes"
+        ],
+        "correct": 2,
+        "explain": "For eksempel vindkraft og gruvedrift."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I Norge har Den norske kirke lenge vært flertallets kirke, mens katolikker er en mindre religiøs gruppe. Forklar hvordan majoritets- og minoritetsperspektiv kan gi ulike utgangspunkt for å beskrive religion i Norge.",
+        "fasit": "Et majoritetsperspektiv ser religion fra flertallets ståsted, der Den norske kirke lenge har hatt en sentral plass. Et minoritetsperspektiv tar utgangspunkt i erfaringene til en mindre gruppe, som katolikker.",
+        "kriterier": [
+          "Skiller mellom flertallets ståsted og en mindre gruppes ståsted.",
+          "Knytter perspektivene relevant til Den norske kirke og katolikker."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I tradisjonell samisk religion kunne fjell, innsjøer og dyr ha ånder og kraft. Forklar hvordan denne forståelsen henger sammen med at enkelte steder ble brukt til religiøse offer.",
+        "fasit": "Når naturen ble forstått som besjelet og full av kraft, kunne bestemte steder få særlig religiøs betydning. Ved slike hellige steder, som sieidier, kunne folk gi offer.",
+        "kriterier": [
+          "Forklarer sammenhengen mellom naturens ånder eller kraft og steders religiøse betydning.",
+          "Knytter hellige steder til handlingen å gi offer."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign tradisjonell samisk religion med læstadianismen. Ta med ett særtrekk ved hver av dem.",
+        "fasit": "Tradisjonell samisk religion la blant annet vekt på en besjelet natur og noaider som religiøse spesialister. Læstadianismen var en kristen vekkelse som fikk stor oppslutning blant samer og kvener.",
+        "kriterier": [
+          "Beskriver et særtrekk ved tradisjonell samisk religion, for eksempel naturens ånder og kraft eller noaiden.",
+          "Beskriver læstadianismen som en kristen vekkelse med oppslutning blant samer og kvener."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Beaivi var sola i den samiske gudeverdenen, mens Máttaráhkká var en kvinnelig guddom. Sammenlign hva slags rolle disse to hadde.",
+        "fasit": "Beaivi var knyttet til sola. Máttaráhkká hadde en annen rolle: Hun beskyttet fødsler og barn.",
+        "kriterier": [
+          "Knytter Beaivi til sola.",
+          "Forklarer Máttaráhkkás rolle som beskytter av fødsler og barn."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En same forteller at hen skammet seg over samisk bakgrunn. Forklar hvordan dette kan henge sammen med fornorskingspolitikken.",
+        "fasit": "Fornorskingspolitikken skulle gjøre samer og kvener norske i språk og kultur, og samisk språk og kultur ble sett på som noe som burde forsvinne. Dette kunne bidra til at samer skammet seg over bakgrunnen sin.",
+        "kriterier": [
+          "Forklarer at fornorskingen presset samer til å ta opp norsk språk og kultur.",
+          "Knytter nedvurderingen av samisk kultur til skam over egen bakgrunn."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I dag brukes joik i gudstjenester og samfunnsliv, og noen kirker har samiske salmer og liturgi. Forklar hvordan slike praksiser kan uttrykke en gjenoppliving av samisk kultur og religion.",
+        "fasit": "Når joik og samiske uttrykk får plass i gudstjenester og samfunnsliv, blir samisk kultur og religion tatt i bruk og synliggjort igjen. Det er eksempler på revitalisering.",
+        "kriterier": [
+          "Forklarer at samiske kultur- eller religionsuttrykk tas i bruk eller synliggjøres igjen.",
+          "Knytter eksemplene til revitalisering, altså gjenoppliving."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Det oppstår en konflikt om vindkraft eller gruvedrift i et område med samiske hellige steder. Forklar hvorfor saken også kan ses fra et urfolksperspektiv, ikke bare som et spørsmål om arealbruk.",
+        "fasit": "Fra et urfolksperspektiv er naturen og samiske hellige steder viktige deler av samisk religion og kultur. Derfor kan inngrep i området også berøre urfolksrettigheter.",
+        "kriterier": [
+          "Knytter naturen eller hellige steder til samisk religion eller kultur.",
+          "Forklarer at konflikten derfor kan handle om urfolksrettigheter, ikke bare arealbruk."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En samisk menighet bruker samiske salmer og liturgi i gudstjenestene. Sammenlign dette med at kirke og skole tidligere ble brukt i fornorskingspolitikken, og forklar hva forskjellen viser.",
+        "fasit": "Tidligere ble kirke og skole brukt til å fremme fornorsking, der samisk språk og kultur skulle forsvinne. Samiske salmer og liturgi viser at samisk språk og kultur i dag får plass i kirken.",
+        "kriterier": [
+          "Beskriver forskjellen mellom tidligere press om fornorsking og dagens bruk av samiske uttrykk i kirken.",
+          "Knytter sammenligningen til hvordan språk og religion henger sammen med makt eller samisk kultur."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

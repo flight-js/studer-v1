@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Samfunnsvitenskapelige metoder og teorier",
   "intro": "Kvantitative og kvalitative metoder i samfunnsvitenskapen – spørreskjema, intervju, observasjon og dokumentanalyse – og sentrale teorier og perspektiver som funksjonalisme, konfliktperspektivet, symbolsk interaksjonisme, aktør og struktur og Bourdieus kapitalformer, og hvordan du bruker dem i egne undersøkelser.",
-  "kompetansemaal": [2],
+  "kompetansemaal": [
+    2
+  ],
   "sammendrag": "## Metode\n\n**Metode** er framgangsmåten vi bruker for å skaffe **kunnskap** om samfunnet.\n\n**Kvantitative** metoder gir **tall** og kan si noe om **mange**:\n\n- **Spørreskjema** med faste svaralternativer\n- **Statistikk** fra SSB og andre\n\nStyrken er at vi kan finne **mønstre** og **sammenhenger** og **generalisere** hvis utvalget er representativt. Svakheten er at vi får lite **dybde**.\n\n**Kvalitative** metoder gir **dybdeinnsikt** i hvordan mennesker **opplever** og **forstår** verden:\n\n- **Intervju** – ofte **semistrukturert** med en intervjuguide\n- **Observasjon** – å se hva folk faktisk **gjør**, gjerne som **deltakende** observatør\n- **Dokumentanalyse** – av tekster, lover, nettsider eller medieinnhold\n\nStyrken er **nyanser** og **forståelse**. Svakheten er at resultatene er vanskeligere å **generalisere**.\n\nMange undersøkelser **kombinerer** metodene.\n\n## Kvalitet og etikk\n\n- **Reliabilitet**: Er dataene **pålitelige**?\n- **Validitet**: Måler vi det vi **vil** måle?\n- **Etikk**: **informert samtykke**, **anonymitet** og at deltakerne ikke skal **skades**. Når en undersøkelse samler inn personopplysninger, gjelder **personvernreglene**.\n\n## Teorier og perspektiver\n\n**Teorier** hjelper oss å **forklare** det vi finner.\n\n**Funksjonalisme** – blant andre **Émile Durkheim**: Samfunnet er som en **organisme** der institusjonene – familie, skole, rettsvesen – har **funksjoner** som holder samfunnet **stabilt**. Felles **normer** og **verdier** skaper **samhold**.\n\n**Konfliktperspektivet** – med røtter hos **Karl Marx**: Samfunnet preges av **motsetninger** mellom grupper med ulik **makt** og ulike **interesser**. Institusjoner kan **opprettholde** ulikhet.\n\n**Symbolsk interaksjonisme** – blant andre **George Herbert Mead** og **Erving Goffman**: Samfunnet skapes i **samhandling** mellom mennesker. Vi tolker **symboler** og spiller **roller**. Goffman sammenlignet sosialt liv med et **teater** med **frontstage** og **backstage**.\n\n## Aktør og struktur\n\n- **Aktørperspektivet**: Mennesker gjør **valg** og kan påvirke eget liv.\n- **Strukturperspektivet**: **Rammer** som økonomi, klasse, kjønn og lover begrenser og former valgene.\n\nDe fleste samfunnsforskere mener at **begge** deler betyr noe.\n\n## Bourdieus kapitalformer\n\nDen franske sosiologen **Pierre Bourdieu** beskrev ulike former for **kapital**:\n\n- **Økonomisk kapital**: penger og eiendom\n- **Kulturell kapital**: utdanning, kunnskap, språk og **smak**\n- **Sosial kapital**: **nettverk** og kontakter\n\nKapitalen **arves** delvis og kan forklare hvorfor barn av foreldre med høy utdanning oftere tar høyere utdanning selv.\n\n## Bruke metode og teori i egne undersøkelser\n\n1. Formuler en **problemstilling** – for eksempel: *Hvordan påvirker foreldrenes økonomi ungdoms deltakelse i fritidsaktiviteter?*\n2. Velg **metode** som passer – spørreskjema for å finne omfang, intervju for å forstå opplevelser.\n3. Samle inn og **analyser** dataene.\n4. **Forklar** funnene med **teori** – for eksempel Bourdieus kapitalformer.\n5. **Vurder** svakheter i metoden og hvor langt du kan **generalisere**.\n\n## Vurdering av teorier\n\nIngen teori forklarer alt. Funksjonalismen forklarer **stabilitet**, men mindre om **konflikt** og **endring**. Konfliktperspektivet forklarer **ulikhet**, men kan overse **samarbeid**. Interaksjonismen forklarer **hverdagslivet**, men sier mindre om store **strukturer**.",
   "flashcards": [
-    { "term": "Kvantitativ metode", "def": "Gir tall og kan si noe om mange." },
-    { "term": "Kvalitativ metode", "def": "Gir dybdeinnsikt i opplevelser og forståelse." },
-    { "term": "Semistrukturert intervju", "def": "Intervju med en guide, men rom for oppfølgingsspørsmål." },
-    { "term": "Deltakende observasjon", "def": "Forskeren deltar i miljøet hen studerer." },
-    { "term": "Dokumentanalyse", "def": "Analyse av tekster, lover eller medieinnhold." },
-    { "term": "Reliabilitet", "def": "Pålitelighet." },
-    { "term": "Validitet", "def": "Gyldighet – måler det man vil måle." },
-    { "term": "Funksjonalisme", "def": "Institusjonene har funksjoner som holder samfunnet stabilt – Durkheim." },
-    { "term": "Konfliktperspektivet", "def": "Samfunnet preges av motsetninger og ulik makt – Marx." },
-    { "term": "Symbolsk interaksjonisme", "def": "Samfunnet skapes i samhandling – Mead og Goffman." },
-    { "term": "Frontstage og backstage", "def": "Goffmans bilde på roller vi spiller og når vi slapper av." },
-    { "term": "Aktørperspektiv", "def": "Vekt på menneskers valg." },
-    { "term": "Strukturperspektiv", "def": "Vekt på rammer som begrenser valgene." },
-    { "term": "Kulturell kapital", "def": "Utdanning, kunnskap, språk og smak – Bourdieu." },
-    { "term": "Sosial kapital", "def": "Nettverk og kontakter." }
+    {
+      "term": "Kvantitativ metode",
+      "def": "Gir tall og kan si noe om mange."
+    },
+    {
+      "term": "Kvalitativ metode",
+      "def": "Gir dybdeinnsikt i opplevelser og forståelse."
+    },
+    {
+      "term": "Semistrukturert intervju",
+      "def": "Intervju med en guide, men rom for oppfølgingsspørsmål."
+    },
+    {
+      "term": "Deltakende observasjon",
+      "def": "Forskeren deltar i miljøet hen studerer."
+    },
+    {
+      "term": "Dokumentanalyse",
+      "def": "Analyse av tekster, lover eller medieinnhold."
+    },
+    {
+      "term": "Reliabilitet",
+      "def": "Pålitelighet."
+    },
+    {
+      "term": "Validitet",
+      "def": "Gyldighet – måler det man vil måle."
+    },
+    {
+      "term": "Funksjonalisme",
+      "def": "Institusjonene har funksjoner som holder samfunnet stabilt – Durkheim."
+    },
+    {
+      "term": "Konfliktperspektivet",
+      "def": "Samfunnet preges av motsetninger og ulik makt – Marx."
+    },
+    {
+      "term": "Symbolsk interaksjonisme",
+      "def": "Samfunnet skapes i samhandling – Mead og Goffman."
+    },
+    {
+      "term": "Frontstage og backstage",
+      "def": "Goffmans bilde på roller vi spiller og når vi slapper av."
+    },
+    {
+      "term": "Aktørperspektiv",
+      "def": "Vekt på menneskers valg."
+    },
+    {
+      "term": "Strukturperspektiv",
+      "def": "Vekt på rammer som begrenser valgene."
+    },
+    {
+      "term": "Kulturell kapital",
+      "def": "Utdanning, kunnskap, språk og smak – Bourdieu."
+    },
+    {
+      "term": "Sosial kapital",
+      "def": "Nettverk og kontakter."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken metode passer best for å forstå hvordan ungdom opplever fattigdom?", "options": ["Statistikk fra SSB", "Intervju", "Spørreskjema med avkrysning", "Registerdata"], "correct": 1, "explain": "Kvalitativ dybdeinnsikt." },
-    { "id": "q02", "text": "Hva hevder funksjonalismen?", "options": ["At institusjonene har funksjoner som holder samfunnet stabilt", "At samfunnet preges av klassekamp", "At samfunnet bare skapes i samtaler", "At individer ikke betyr noe"], "correct": 0, "explain": "Durkheim." },
-    { "id": "q03", "text": "Hva er kulturell kapital?", "options": ["Penger", "Nettverk", "Utdanning, kunnskap, språk og smak", "Eiendom"], "correct": 2, "explain": "Bourdieu." },
-    { "id": "q04", "text": "Hva legger konfliktperspektivet vekt på?", "options": ["Harmoni", "Symboler", "Individuelle valg", "Motsetninger og ulik makt"], "correct": 3, "explain": "Røtter hos Marx." },
-    { "id": "q05", "text": "Hvem sammenlignet sosialt liv med et teater?", "options": ["Erving Goffman", "Karl Marx", "Émile Durkheim", "Pierre Bourdieu"], "correct": 0, "explain": "Frontstage og backstage." },
-    { "id": "q06", "text": "Hva er en styrke ved kvantitative metoder?", "options": ["Stor dybde", "Mulighet til å finne mønstre og generalisere", "Nyanserte beskrivelser", "Personlige historier"], "correct": 1, "explain": "Hvis utvalget er representativt." },
-    { "id": "q07", "text": "Hva er strukturperspektivet?", "options": ["At alt skyldes egne valg", "At samfunnet er et teater", "At rammer som økonomi og klasse former valgene", "At metode er unødvendig"], "correct": 2, "explain": "Aktørperspektivet vektlegger valg." },
-    { "id": "q08", "text": "Hva er sosial kapital?", "options": ["Utdanning", "Smak", "Penger", "Nettverk og kontakter"], "correct": 3, "explain": "Bourdieu." },
-    { "id": "q09", "text": "Hva er en svakhet ved funksjonalismen?", "options": ["Den sier lite om konflikt og endring", "Den forklarer bare konflikt", "Den ignorerer institusjoner", "Den handler bare om individer"], "correct": 0, "explain": "Forklarer best stabilitet." },
-    { "id": "q10", "text": "Hvorfor kombinerer mange forskere metoder?", "options": ["For å spare tid", "For å få både omfang og dybde", "Fordi det er lovpålagt", "For å unngå etikk"], "correct": 1, "explain": "Metodene utfyller hverandre." }
+    {
+      "id": "q01",
+      "text": "Hvilken metode passer best for å forstå hvordan ungdom opplever fattigdom?",
+      "options": [
+        "Statistikk fra SSB",
+        "Intervju",
+        "Spørreskjema med avkrysning",
+        "Registerdata"
+      ],
+      "correct": 1,
+      "explain": "Kvalitativ dybdeinnsikt."
+    },
+    {
+      "id": "q02",
+      "text": "Hva hevder funksjonalismen?",
+      "options": [
+        "At institusjonene har funksjoner som holder samfunnet stabilt",
+        "At samfunnet preges av klassekamp",
+        "At samfunnet bare skapes i samtaler",
+        "At individer ikke betyr noe"
+      ],
+      "correct": 0,
+      "explain": "Durkheim."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er kulturell kapital?",
+      "options": [
+        "Penger",
+        "Nettverk",
+        "Utdanning, kunnskap, språk og smak",
+        "Eiendom"
+      ],
+      "correct": 2,
+      "explain": "Bourdieu."
+    },
+    {
+      "id": "q04",
+      "text": "Hva legger konfliktperspektivet vekt på?",
+      "options": [
+        "Harmoni",
+        "Symboler",
+        "Individuelle valg",
+        "Motsetninger og ulik makt"
+      ],
+      "correct": 3,
+      "explain": "Røtter hos Marx."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem sammenlignet sosialt liv med et teater?",
+      "options": [
+        "Erving Goffman",
+        "Karl Marx",
+        "Émile Durkheim",
+        "Pierre Bourdieu"
+      ],
+      "correct": 0,
+      "explain": "Frontstage og backstage."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en styrke ved kvantitative metoder?",
+      "options": [
+        "Stor dybde",
+        "Mulighet til å finne mønstre og generalisere",
+        "Nyanserte beskrivelser",
+        "Personlige historier"
+      ],
+      "correct": 1,
+      "explain": "Hvis utvalget er representativt."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er strukturperspektivet?",
+      "options": [
+        "At alt skyldes egne valg",
+        "At samfunnet er et teater",
+        "At rammer som økonomi og klasse former valgene",
+        "At metode er unødvendig"
+      ],
+      "correct": 2,
+      "explain": "Aktørperspektivet vektlegger valg."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er sosial kapital?",
+      "options": [
+        "Utdanning",
+        "Smak",
+        "Penger",
+        "Nettverk og kontakter"
+      ],
+      "correct": 3,
+      "explain": "Bourdieu."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en svakhet ved funksjonalismen?",
+      "options": [
+        "Den sier lite om konflikt og endring",
+        "Den forklarer bare konflikt",
+        "Den ignorerer institusjoner",
+        "Den handler bare om individer"
+      ],
+      "correct": 0,
+      "explain": "Forklarer best stabilitet."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kombinerer mange forskere metoder?",
+      "options": [
+        "For å spare tid",
+        "For å få både omfang og dybde",
+        "Fordi det er lovpålagt",
+        "For å unngå etikk"
+      ],
+      "correct": 1,
+      "explain": "Metodene utfyller hverandre."
+    }
   ],
   "mindmap": {
     "label": "Metode og teori",
     "children": [
-      { "label": "Kvantitativ", "children": [
-        { "label": "Spørreskjema" },
-        { "label": "Statistikk" }
-      ] },
-      { "label": "Kvalitativ", "children": [
-        { "label": "Intervju" },
-        { "label": "Observasjon" },
-        { "label": "Dokumentanalyse" }
-      ] },
-      { "label": "Kvalitet og etikk", "children": [
-        { "label": "Reliabilitet og validitet" },
-        { "label": "Samtykke og anonymitet" }
-      ] },
-      { "label": "Teorier", "children": [
-        { "label": "Funksjonalisme" },
-        { "label": "Konfliktperspektiv" },
-        { "label": "Symbolsk interaksjonisme" }
-      ] },
-      { "label": "Begreper", "children": [
-        { "label": "Aktør og struktur" },
-        { "label": "Bourdieus kapitalformer" }
-      ] }
+      {
+        "label": "Kvantitativ",
+        "children": [
+          {
+            "label": "Spørreskjema"
+          },
+          {
+            "label": "Statistikk"
+          }
+        ]
+      },
+      {
+        "label": "Kvalitativ",
+        "children": [
+          {
+            "label": "Intervju"
+          },
+          {
+            "label": "Observasjon"
+          },
+          {
+            "label": "Dokumentanalyse"
+          }
+        ]
+      },
+      {
+        "label": "Kvalitet og etikk",
+        "children": [
+          {
+            "label": "Reliabilitet og validitet"
+          },
+          {
+            "label": "Samtykke og anonymitet"
+          }
+        ]
+      },
+      {
+        "label": "Teorier",
+        "children": [
+          {
+            "label": "Funksjonalisme"
+          },
+          {
+            "label": "Konfliktperspektiv"
+          },
+          {
+            "label": "Symbolsk interaksjonisme"
+          }
+        ]
+      },
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Aktør og struktur"
+          },
+          {
+            "label": "Bourdieus kapitalformer"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "De fleste samfunnsforskere mener at både aktør og struktur betyr noe.", "correct": true, "explain": "Valg skjer innenfor rammer." },
-      { "id": "m02", "type": "sant-usant", "text": "Kvalitative metoder er lettest å generalisere fra.", "correct": false, "explain": "Kvantitative med representativt utvalg er lettere å generalisere fra." },
-      { "id": "m03", "type": "sant-usant", "text": "Kapital kan delvis arves etter Bourdieu.", "correct": true, "explain": "Forklarer sosial reproduksjon." },
-      { "id": "m04", "type": "sant-usant", "text": "Én teori kan forklare alle samfunnsfenomener.", "correct": false, "explain": "Teoriene utfyller hverandre." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken metode er å analysere lover og medieinnhold?", "options": ["Intervju", "Dokumentanalyse", "Observasjon", "Spørreskjema"], "correct": 1, "explain": "Kvalitativ eller kvantitativ." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken teori kan forklare at barn av høyt utdannede oftere tar høyere utdanning?", "options": ["Bourdieus kapitalformer", "Goffmans teater", "Maslows pyramide", "Durkheims organisme"], "correct": 0, "explain": "Kulturell kapital." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er første steg i en egen undersøkelse?", "options": ["Skrive konklusjonen", "Velge teori", "Formulere en problemstilling", "Analysere data"], "correct": 2, "explain": "Styrer valg av metode." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "De fleste samfunnsforskere mener at både aktør og struktur betyr noe.",
+        "correct": true,
+        "explain": "Valg skjer innenfor rammer."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kvalitative metoder er lettest å generalisere fra.",
+        "correct": false,
+        "explain": "Kvantitative med representativt utvalg er lettere å generalisere fra."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Kapital kan delvis arves etter Bourdieu.",
+        "correct": true,
+        "explain": "Forklarer sosial reproduksjon."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Én teori kan forklare alle samfunnsfenomener.",
+        "correct": false,
+        "explain": "Teoriene utfyller hverandre."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken metode er å analysere lover og medieinnhold?",
+        "options": [
+          "Intervju",
+          "Dokumentanalyse",
+          "Observasjon",
+          "Spørreskjema"
+        ],
+        "correct": 1,
+        "explain": "Kvalitativ eller kvantitativ."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken teori kan forklare at barn av høyt utdannede oftere tar høyere utdanning?",
+        "options": [
+          "Bourdieus kapitalformer",
+          "Goffmans teater",
+          "Maslows pyramide",
+          "Durkheims organisme"
+        ],
+        "correct": 0,
+        "explain": "Kulturell kapital."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er første steg i en egen undersøkelse?",
+        "options": [
+          "Skrive konklusjonen",
+          "Velge teori",
+          "Formulere en problemstilling",
+          "Analysere data"
+        ],
+        "correct": 2,
+        "explain": "Styrer valg av metode."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En forsker spør elever hvor ofte de studerer, for å undersøke studievanene deres. Forklar forskjellen på reliabilitet og validitet i denne undersøkelsen.",
+        "fasit": "Reliabiliteten handler om hvorvidt målingene er pålitelige. Validiteten handler om hvorvidt spørsmålene faktisk måler elevenes studievaner.",
+        "kriterier": [
+          "Forklarer reliabilitet som pålitelighet i målingene.",
+          "Forklarer validitet som at undersøkelsen måler det den skal."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En forsker vil forstå hvordan ungdom opplever valgene de må ta når de søker videregående opplæring. Forklar hvordan et semistrukturert intervju kan brukes til dette.",
+        "fasit": "Forskeren kan bruke en intervjuguide med spørsmål om ungdommenes opplevelser. Samtidig kan forskeren stille oppfølgingsspørsmål for å få fram utdypende svar.",
+        "kriterier": [
+          "Beskriver at intervjuet tar utgangspunkt i en guide.",
+          "Får fram at guiden gir rom for oppfølgingsspørsmål og utdyping."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En forsker undersøker hva ungdom gjør i en fritidsklubb. Sammenlign hva forskeren kan få vite gjennom intervju, og gjennom deltakende observasjon.",
+        "fasit": "I intervju kan forskeren få innsikt i hvordan ungdommene opplever og forstår fritidsklubben. Gjennom deltakende observasjon kan forskeren selv være til stede i miljøet og se hva ungdommene faktisk gjør.",
+        "kriterier": [
+          "Knytter intervju til ungdommenes opplevelser eller forståelse.",
+          "Knytter deltakende observasjon til at forskeren deltar i miljøet og observerer handlinger."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En forsker vil undersøke hvordan ungdom blir framstilt på nyhetssider. Hvilken metode passer, og hva kan forskeren analysere?",
+        "fasit": "Dokumentanalyse passer fordi forskeren kan undersøke tekster og medieinnhold. Forskeren kan analysere hvordan nyhetssidene omtaler eller framstiller ungdom.",
+        "kriterier": [
+          "Velger dokumentanalyse.",
+          "Forklarer at metoden innebærer å analysere tekster eller medieinnhold for å undersøke framstillingen av ungdom."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En undersøkelse spør ungdom om familiens økonomi og registrerer navnene deres. Forklar to etiske hensyn forskeren må ta.",
+        "fasit": "Forskeren må sørge for informert samtykke og beskytte deltakernes anonymitet. Siden undersøkelsen samler inn personopplysninger, må personvernreglene følges, og deltakerne skal ikke skades.",
+        "kriterier": [
+          "Nevner informert samtykke eller anonymitet og forklarer hensynet.",
+          "Knytter innsamling av personopplysninger til personvernreglene eller at deltakerne ikke skal skades."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Foreldre med høy utdanning har kunnskap om utdanningsvalg og kontakter i utdanningsmiljøer. Forklar hvordan to av Bourdieus kapitalformer kan være relevante for barnas muligheter til å ta høyere utdanning.",
+        "fasit": "Foreldrenes utdanning og kunnskap kan være kulturell kapital, mens kontaktene deres er sosial kapital. Slike kapitalformer kan bidra til å forklare hvorfor barn av foreldre med høy utdanning oftere tar høyere utdanning selv.",
+        "kriterier": [
+          "Knytter utdanning eller kunnskap til kulturell kapital.",
+          "Knytter kontakter til sosial kapital og forklarer hvordan kapital kan henge sammen med barnas utdanningsmuligheter."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev vurderer å delta på en fritidsaktivitet, men familien har begrenset økonomi. Forklar situasjonen både fra et aktørperspektiv og et strukturperspektiv.",
+        "fasit": "Et aktørperspektiv legger vekt på elevens egne valg om å delta eller la være. Et strukturperspektiv viser hvordan familiens økonomi kan begrense hvilke valg eleven har.",
+        "kriterier": [
+          "Forklarer situasjonen gjennom elevens egne valg.",
+          "Forklarer hvordan økonomi eller andre rammer kan begrense valgene."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En elev oppfører seg formelt i klasserommet, men slapper mer av og oppfører seg annerledes sammen med nære venner. Bruk Goffmans begreper frontstage og backstage til å forklare forskjellen.",
+        "fasit": "Klasserommet kan forstås som frontstage, der eleven spiller en rolle overfor andre. Sammen med nære venner kan eleven være backstage og slappe mer av.",
+        "kriterier": [
+          "Knytter frontstage til rollen eleven viser i klasserommet.",
+          "Knytter backstage til at eleven slapper mer av eller viser en annen side sammen med nære venner."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

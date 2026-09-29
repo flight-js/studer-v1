@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Lederens rolle i markedsstrategi og internmarkedsføring",
   "intro": "Hvilken rolle og funksjon lederen har i utviklingen og gjennomføringen av markedsstrategien – ledernivåer, lederstiler, situasjonsbestemt og transformasjonsledelse, forankring og endringsledelse – og hvordan internmarkedsføring gjør de ansatte til ambassadører gjennom kommunikasjon, opplæring, motivasjon og kultur.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Lederens funksjoner\n\nEn **leder** skal sørge for at virksomheten når **målene** sine gjennom andre mennesker. Klassiske lederfunksjoner er å **planlegge**, **organisere**, **lede** – motivere og kommunisere – og **kontrollere**.\n\n## Ledernivåer\n\n- **Toppledelsen** – strategisk nivå: utformer **visjon**, **mål** og **overordnet strategi**.\n- **Mellomledere** – taktisk nivå: omsetter strategien til **planer** for avdelingene.\n- **Førstelinjeledere** – operativt nivå: følger opp det **daglige** arbeidet.\n\nI markedsstrategien må alle nivåer **henge sammen**: En strategi som ikke når fram til de som møter kundene, blir ikke gjennomført.\n\n## Lederstiler\n\n- **Autoritær**: lederen bestemmer alene – effektivt i **kriser**, men kan gi lite motivasjon.\n- **Demokratisk**: medarbeiderne tas med i beslutninger – gir **eierskap**, men tar tid.\n- **Laissez-faire**: lederen gir stor frihet – kan fungere med svært **kompetente** medarbeidere.\n\n**Situasjonsbestemt ledelse** betyr at lederen tilpasser stilen til medarbeiderens **kompetanse** og **motivasjon** – mer **instruksjon** til nyansatte og mer **delegering** til erfarne.\n\n**Transformasjonsledelse** handler om å **inspirere** medarbeiderne gjennom en tydelig **visjon**, være et **forbilde** og se hver enkelt. Det kan gi høy **motivasjon** og **endringsvilje**.\n\n## Lederen i markedsstrategien\n\n- **Analyse**: sørge for god kunnskap om marked og kunder\n- **Retning**: formulere mål og velge strategi\n- **Forankring**: involvere de ansatte slik at de **forstår** og **støtter** strategien\n- **Gjennomføring**: fordele **ressurser** og ansvar\n- **Oppfølging**: måle resultater og **justere**\n\nNye strategier krever ofte **endring**. **Endringsledelse** handler om å forklare **hvorfor** endringen er nødvendig, **involvere** de ansatte og håndtere **motstand**.\n\n## Internmarkedsføring\n\n**Internmarkedsføring** betyr å se de **ansatte** som virksomhetens **første marked**. Før man kan love kundene noe, må de ansatte **forstå**, **tro på** og **kunne levere** løftet.\n\nDette er særlig viktig i **tjenesteytende** virksomheter, der de ansatte møter kundene direkte – de er **deltidsmarkedsførere**.\n\n**Tjenestetrekanten** viser tre typer markedsføring:\n\n- **Ekstern**: virksomheten gir **løfter** til kundene\n- **Intern**: virksomheten gjør de ansatte i stand til å **holde** løftene\n- **Interaktiv**: de ansatte **holder** løftene i møte med kundene\n\n## Virkemidler i internmarkedsføring\n\n- **Intern kommunikasjon**: informere om strategi, kampanjer og resultater – **før** kundene ser dem\n- **Opplæring** i produkter, service og verdier\n- **Motivasjon**: anerkjennelse, gode arbeidsforhold, utviklingsmuligheter og belønning\n- **Medvirkning** i beslutninger\n- **Bedriftskultur**: felles verdier og normer\n- **Rekruttering** av folk som passer kulturen – og **employer branding** for å tiltrekke gode søkere\n\n## Vurdering\n\nLedere som bare fokuserer på **eksterne** kampanjer og glemmer de ansatte, risikerer at kundene møter noe annet enn det **reklamen** lover. Det svekker **troverdigheten** og **omdømmet**. God ledelse og internmarkedsføring gir **engasjerte** ansatte, bedre **kundeopplevelser** og en strategi som faktisk blir **gjennomført**.",
   "flashcards": [
-    { "term": "Lederfunksjoner", "def": "Planlegge, organisere, lede og kontrollere." },
-    { "term": "Strategisk nivå", "def": "Toppledelsen – visjon, mål og overordnet strategi." },
-    { "term": "Taktisk nivå", "def": "Mellomledere – planer for avdelingene." },
-    { "term": "Operativt nivå", "def": "Førstelinjeledere – det daglige arbeidet." },
-    { "term": "Autoritær lederstil", "def": "Lederen bestemmer alene." },
-    { "term": "Demokratisk lederstil", "def": "Medarbeiderne tas med i beslutninger." },
-    { "term": "Laissez-faire", "def": "Lederen gir stor frihet." },
-    { "term": "Situasjonsbestemt ledelse", "def": "Stilen tilpasses medarbeiderens kompetanse og motivasjon." },
-    { "term": "Transformasjonsledelse", "def": "Inspirere gjennom visjon og være et forbilde." },
-    { "term": "Forankring", "def": "Å få ansatte til å forstå og støtte strategien." },
-    { "term": "Endringsledelse", "def": "Lede endringer og håndtere motstand." },
-    { "term": "Internmarkedsføring", "def": "Å se de ansatte som første marked." },
-    { "term": "Deltidsmarkedsførere", "def": "Ansatte som møter kundene og påvirker opplevelsen." },
-    { "term": "Tjenestetrekanten", "def": "Ekstern, intern og interaktiv markedsføring." },
-    { "term": "Employer branding", "def": "Å bygge et attraktivt arbeidsgivermerke." }
+    {
+      "term": "Lederfunksjoner",
+      "def": "Planlegge, organisere, lede og kontrollere."
+    },
+    {
+      "term": "Strategisk nivå",
+      "def": "Toppledelsen – visjon, mål og overordnet strategi."
+    },
+    {
+      "term": "Taktisk nivå",
+      "def": "Mellomledere – planer for avdelingene."
+    },
+    {
+      "term": "Operativt nivå",
+      "def": "Førstelinjeledere – det daglige arbeidet."
+    },
+    {
+      "term": "Autoritær lederstil",
+      "def": "Lederen bestemmer alene."
+    },
+    {
+      "term": "Demokratisk lederstil",
+      "def": "Medarbeiderne tas med i beslutninger."
+    },
+    {
+      "term": "Laissez-faire",
+      "def": "Lederen gir stor frihet."
+    },
+    {
+      "term": "Situasjonsbestemt ledelse",
+      "def": "Stilen tilpasses medarbeiderens kompetanse og motivasjon."
+    },
+    {
+      "term": "Transformasjonsledelse",
+      "def": "Inspirere gjennom visjon og være et forbilde."
+    },
+    {
+      "term": "Forankring",
+      "def": "Å få ansatte til å forstå og støtte strategien."
+    },
+    {
+      "term": "Endringsledelse",
+      "def": "Lede endringer og håndtere motstand."
+    },
+    {
+      "term": "Internmarkedsføring",
+      "def": "Å se de ansatte som første marked."
+    },
+    {
+      "term": "Deltidsmarkedsførere",
+      "def": "Ansatte som møter kundene og påvirker opplevelsen."
+    },
+    {
+      "term": "Tjenestetrekanten",
+      "def": "Ekstern, intern og interaktiv markedsføring."
+    },
+    {
+      "term": "Employer branding",
+      "def": "Å bygge et attraktivt arbeidsgivermerke."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilket ledernivå utformer visjon og overordnet strategi?", "options": ["Operativt", "Strategisk – toppledelsen", "Taktisk", "Ingen"], "correct": 1, "explain": "Toppledelsen." },
-    { "id": "q02", "text": "Hva er internmarkedsføring?", "options": ["Å se de ansatte som virksomhetens første marked", "Reklame i egen butikk", "Salg til ansatte", "Markedsføring i utlandet"], "correct": 0, "explain": "Ansatte må forstå og tro på løftet." },
-    { "id": "q03", "text": "Hva er situasjonsbestemt ledelse?", "options": ["Samme stil for alle", "Bare autoritær ledelse", "Å tilpasse stilen til medarbeiderens kompetanse og motivasjon", "Å la alle bestemme selv"], "correct": 2, "explain": "Instruksjon til nye, delegering til erfarne." },
-    { "id": "q04", "text": "Hva er interaktiv markedsføring i tjenestetrekanten?", "options": ["Løfter til kundene", "Opplæring av ansatte", "Reklame på nett", "At de ansatte holder løftene i møte med kundene"], "correct": 3, "explain": "Sannhetens øyeblikk." },
-    { "id": "q05", "text": "Hva kjennetegner transformasjonsledelse?", "options": ["Inspirasjon gjennom visjon og å være et forbilde", "Streng kontroll", "Ingen ledelse", "Bare belønning i penger"], "correct": 0, "explain": "Gir motivasjon og endringsvilje." },
-    { "id": "q06", "text": "Hvorfor er forankring viktig?", "options": ["For å spare penger", "For at de ansatte skal forstå og støtte strategien", "For å unngå kunder", "For å bytte leder"], "correct": 1, "explain": "Ellers blir strategien ikke gjennomført." },
-    { "id": "q07", "text": "Når kan autoritær lederstil være effektiv?", "options": ["Alltid", "Aldri", "I kriser der raske beslutninger trengs", "Når alle er eksperter"], "correct": 2, "explain": "Men kan gi lite motivasjon over tid." },
-    { "id": "q08", "text": "Hva er et virkemiddel i internmarkedsføring?", "options": ["TV-reklame", "Prisrabatt til kunder", "Utendørsplakater", "Opplæring i produkter, service og verdier"], "correct": 3, "explain": "Også intern kommunikasjon og motivasjon." },
-    { "id": "q09", "text": "Hva kan skje hvis lederen glemmer de ansatte i en kampanje?", "options": ["Kundene møter noe annet enn reklamen lover", "Salget dobles", "Omdømmet styrkes", "Ingenting"], "correct": 0, "explain": "Troverdigheten svekkes." },
-    { "id": "q10", "text": "Hva er employer branding?", "options": ["En type logo", "Å bygge et attraktivt arbeidsgivermerke", "En prisstrategi", "En distribusjonskanal"], "correct": 1, "explain": "Tiltrekker gode søkere." }
+    {
+      "id": "q01",
+      "text": "Hvilket ledernivå utformer visjon og overordnet strategi?",
+      "options": [
+        "Operativt",
+        "Strategisk – toppledelsen",
+        "Taktisk",
+        "Ingen"
+      ],
+      "correct": 1,
+      "explain": "Toppledelsen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er internmarkedsføring?",
+      "options": [
+        "Å se de ansatte som virksomhetens første marked",
+        "Reklame i egen butikk",
+        "Salg til ansatte",
+        "Markedsføring i utlandet"
+      ],
+      "correct": 0,
+      "explain": "Ansatte må forstå og tro på løftet."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er situasjonsbestemt ledelse?",
+      "options": [
+        "Samme stil for alle",
+        "Bare autoritær ledelse",
+        "Å tilpasse stilen til medarbeiderens kompetanse og motivasjon",
+        "Å la alle bestemme selv"
+      ],
+      "correct": 2,
+      "explain": "Instruksjon til nye, delegering til erfarne."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er interaktiv markedsføring i tjenestetrekanten?",
+      "options": [
+        "Løfter til kundene",
+        "Opplæring av ansatte",
+        "Reklame på nett",
+        "At de ansatte holder løftene i møte med kundene"
+      ],
+      "correct": 3,
+      "explain": "Sannhetens øyeblikk."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner transformasjonsledelse?",
+      "options": [
+        "Inspirasjon gjennom visjon og å være et forbilde",
+        "Streng kontroll",
+        "Ingen ledelse",
+        "Bare belønning i penger"
+      ],
+      "correct": 0,
+      "explain": "Gir motivasjon og endringsvilje."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor er forankring viktig?",
+      "options": [
+        "For å spare penger",
+        "For at de ansatte skal forstå og støtte strategien",
+        "For å unngå kunder",
+        "For å bytte leder"
+      ],
+      "correct": 1,
+      "explain": "Ellers blir strategien ikke gjennomført."
+    },
+    {
+      "id": "q07",
+      "text": "Når kan autoritær lederstil være effektiv?",
+      "options": [
+        "Alltid",
+        "Aldri",
+        "I kriser der raske beslutninger trengs",
+        "Når alle er eksperter"
+      ],
+      "correct": 2,
+      "explain": "Men kan gi lite motivasjon over tid."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et virkemiddel i internmarkedsføring?",
+      "options": [
+        "TV-reklame",
+        "Prisrabatt til kunder",
+        "Utendørsplakater",
+        "Opplæring i produkter, service og verdier"
+      ],
+      "correct": 3,
+      "explain": "Også intern kommunikasjon og motivasjon."
+    },
+    {
+      "id": "q09",
+      "text": "Hva kan skje hvis lederen glemmer de ansatte i en kampanje?",
+      "options": [
+        "Kundene møter noe annet enn reklamen lover",
+        "Salget dobles",
+        "Omdømmet styrkes",
+        "Ingenting"
+      ],
+      "correct": 0,
+      "explain": "Troverdigheten svekkes."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er employer branding?",
+      "options": [
+        "En type logo",
+        "Å bygge et attraktivt arbeidsgivermerke",
+        "En prisstrategi",
+        "En distribusjonskanal"
+      ],
+      "correct": 1,
+      "explain": "Tiltrekker gode søkere."
+    }
   ],
   "mindmap": {
     "label": "Ledelse og internmarkedsføring",
     "children": [
-      { "label": "Lederen", "children": [
-        { "label": "Funksjoner" },
-        { "label": "Strategisk, taktisk, operativt" }
-      ] },
-      { "label": "Lederstiler", "children": [
-        { "label": "Autoritær, demokratisk, laissez-faire" },
-        { "label": "Situasjonsbestemt" },
-        { "label": "Transformasjonsledelse" }
-      ] },
-      { "label": "Strategiarbeid", "children": [
-        { "label": "Forankring" },
-        { "label": "Gjennomføring og oppfølging" },
-        { "label": "Endringsledelse" }
-      ] },
-      { "label": "Internmarkedsføring", "children": [
-        { "label": "Ansatte som første marked" },
-        { "label": "Tjenestetrekanten" }
-      ] },
-      { "label": "Virkemidler", "children": [
-        { "label": "Kommunikasjon og opplæring" },
-        { "label": "Motivasjon og kultur" },
-        { "label": "Employer branding" }
-      ] }
+      {
+        "label": "Lederen",
+        "children": [
+          {
+            "label": "Funksjoner"
+          },
+          {
+            "label": "Strategisk, taktisk, operativt"
+          }
+        ]
+      },
+      {
+        "label": "Lederstiler",
+        "children": [
+          {
+            "label": "Autoritær, demokratisk, laissez-faire"
+          },
+          {
+            "label": "Situasjonsbestemt"
+          },
+          {
+            "label": "Transformasjonsledelse"
+          }
+        ]
+      },
+      {
+        "label": "Strategiarbeid",
+        "children": [
+          {
+            "label": "Forankring"
+          },
+          {
+            "label": "Gjennomføring og oppfølging"
+          },
+          {
+            "label": "Endringsledelse"
+          }
+        ]
+      },
+      {
+        "label": "Internmarkedsføring",
+        "children": [
+          {
+            "label": "Ansatte som første marked"
+          },
+          {
+            "label": "Tjenestetrekanten"
+          }
+        ]
+      },
+      {
+        "label": "Virkemidler",
+        "children": [
+          {
+            "label": "Kommunikasjon og opplæring"
+          },
+          {
+            "label": "Motivasjon og kultur"
+          },
+          {
+            "label": "Employer branding"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Ansatte bør få vite om nye kampanjer før kundene ser dem.", "correct": true, "explain": "Slik kan de svare og levere." },
-      { "id": "m02", "type": "sant-usant", "text": "Internmarkedsføring er bare viktig i produksjonsbedrifter uten kundekontakt.", "correct": false, "explain": "Den er særlig viktig i tjenesteytende virksomheter." },
-      { "id": "m03", "type": "sant-usant", "text": "Endringsledelse innebærer å håndtere motstand.", "correct": true, "explain": "Og forklare hvorfor endringen trengs." },
-      { "id": "m04", "type": "sant-usant", "text": "Laissez-faire passer best for nyansatte uten erfaring.", "correct": false, "explain": "Den passer best for svært kompetente medarbeidere." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket ledernivå følger opp det daglige arbeidet?", "options": ["Strategisk", "Operativt", "Taktisk", "Styret"], "correct": 1, "explain": "Førstelinjeledere." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er ekstern markedsføring i tjenestetrekanten?", "options": ["Løfter til kundene", "Opplæring", "Kundemøter", "Rekruttering"], "correct": 0, "explain": "For eksempel reklame." },
-      { "id": "m07", "type": "flervalg", "text": "Hva gir demokratisk lederstil ofte?", "options": ["Raske beslutninger", "Ingen involvering", "Eierskap hos medarbeiderne", "Mindre motivasjon"], "correct": 2, "explain": "Men tar tid." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ansatte bør få vite om nye kampanjer før kundene ser dem.",
+        "correct": true,
+        "explain": "Slik kan de svare og levere."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Internmarkedsføring er bare viktig i produksjonsbedrifter uten kundekontakt.",
+        "correct": false,
+        "explain": "Den er særlig viktig i tjenesteytende virksomheter."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Endringsledelse innebærer å håndtere motstand.",
+        "correct": true,
+        "explain": "Og forklare hvorfor endringen trengs."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Laissez-faire passer best for nyansatte uten erfaring.",
+        "correct": false,
+        "explain": "Den passer best for svært kompetente medarbeidere."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket ledernivå følger opp det daglige arbeidet?",
+        "options": [
+          "Strategisk",
+          "Operativt",
+          "Taktisk",
+          "Styret"
+        ],
+        "correct": 1,
+        "explain": "Førstelinjeledere."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er ekstern markedsføring i tjenestetrekanten?",
+        "options": [
+          "Løfter til kundene",
+          "Opplæring",
+          "Kundemøter",
+          "Rekruttering"
+        ],
+        "correct": 0,
+        "explain": "For eksempel reklame."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva gir demokratisk lederstil ofte?",
+        "options": [
+          "Raske beslutninger",
+          "Ingen involvering",
+          "Eierskap hos medarbeiderne",
+          "Mindre motivasjon"
+        ],
+        "correct": 2,
+        "explain": "Men tar tid."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hvordan bidrar planlegging, organisering, ledelse og kontroll til at en leder kan nå virksomhetens mål gjennom andre mennesker?",
+        "fasit": "Planlegging viser hva som skal gjøres, og organisering fordeler oppgaver og ressurser. Lederen motiverer og kommuniserer med medarbeiderne, og kontroll gjør det mulig å følge med på resultatene og justere arbeidet.",
+        "kriterier": [
+          "Forklarer hvordan minst tre av lederfunksjonene bidrar til arbeidet.",
+          "Knytter funksjonene til å nå mål gjennom medarbeiderne."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign mellomledere og førstelinjeledere: Hva har de ansvar for på hvert sitt nivå?",
+        "fasit": "Mellomledere omsetter strategien til planer for avdelingene. Førstelinjeledere følger opp det daglige arbeidet.",
+        "kriterier": [
+          "Plasserer mellomledernes ansvar på taktisk nivå og knytter det til avdelingsplaner.",
+          "Plasserer førstelinjeledernes ansvar på operativt nivå og knytter det til daglig arbeid."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign autoritær og demokratisk lederstil. Ta med én mulig fordel eller ulempe ved hver stil.",
+        "fasit": "En autoritær leder bestemmer alene, noe som kan være effektivt i en krise, men kan gi medarbeiderne lite motivasjon. En demokratisk leder involverer medarbeiderne i beslutninger, noe som kan gi eierskap, men også tar tid.",
+        "kriterier": [
+          "Forklarer forskjellen i hvem som tar beslutningene.",
+          "Nevner en relevant fordel eller ulempe ved hver stil."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En nyansatt trenger støtte for å utføre oppgavene sine, mens en erfaren medarbeider kan arbeide selvstendig. Hvordan kan lederen tilpasse oppfølgingen av de to?",
+        "fasit": "Lederen kan gi den nyansatte tydelige instrukser og følge arbeidet tettere. Den erfarne medarbeideren kan få større frihet og ansvar gjennom delegering.",
+        "kriterier": [
+          "Foreslår mer instruksjon eller tettere oppfølging for den nyansatte.",
+          "Foreslår delegering eller større frihet for den erfarne medarbeideren."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En virksomhet lover kundene personlig rådgivning. Beskriv hvordan de tre delene av tjenestetrekanten kan bidra til at kunden faktisk får dette.",
+        "fasit": "Ekstern markedsføring gir kundene løftet om personlig rådgivning. Intern markedsføring gjør de ansatte i stand til å levere den, og i møtet med kunden holder de ansatte løftet gjennom interaktiv markedsføring.",
+        "kriterier": [
+          "Knytter ekstern markedsføring til løftet som gis til kundene.",
+          "Forklarer hvordan intern markedsføring forbereder de ansatte, og interaktiv markedsføring skjer i kundemøtet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hvorfor bør ansatte få informasjon om en kampanje før kundene ser den?",
+        "fasit": "Da forstår de ansatte hva virksomheten lover kundene og kan svare på spørsmål. De kan også bidra til å levere det kampanjen lover.",
+        "kriterier": [
+          "Forklarer at ansatte trenger å kjenne til kampanjen eller løftet før kundene møter det.",
+          "Knytter informasjonen til at ansatte kan svare kundene eller levere løftet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En virksomhet innfører en ny strategi, men noen ansatte motsetter seg endringen. Hva bør lederen gjøre for å håndtere situasjonen?",
+        "fasit": "Lederen bør forklare hvorfor endringen er nødvendig og involvere de ansatte. Det kan bidra til forståelse og støtte, samtidig som lederen får håndtert motstanden.",
+        "kriterier": [
+          "Forklarer at lederen bør gjøre grunnen til endringen tydelig.",
+          "Nevner involvering av ansatte som en måte å håndtere motstand på."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En ansatt i en tjenesteytende virksomhet møter kunder direkte. Gi et eksempel på hvordan den ansatte kan påvirke kundeopplevelsen, og forklar hvorfor ansatte i slike virksomheter kalles deltidsmarkedsførere.",
+        "fasit": "En ansatt som lytter til kundens behov og gir god service, kan bidra til en god kundeopplevelse. Ansatte kalles deltidsmarkedsførere fordi de møter kundene direkte og påvirker hvordan virksomhetens tilbud oppleves.",
+        "kriterier": [
+          "Gir et relevant eksempel på hvordan en ansatt påvirker kundens opplevelse.",
+          "Forklarer sammenhengen mellom direkte kundekontakt og rollen som deltidsmarkedsfører."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,76 +4,418 @@
   "trinnId": "vg2",
   "name": "Omvendte funksjoner",
   "intro": "Når en funksjon har en omvendt funksjon, hvordan du finner den, speiling om linjen y = x, sammenhengen mellom eˣ og ln x, og hvordan du deriverer omvendte funksjoner.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Hva er en omvendt funksjon?\n\nEn funksjon f tar en x-verdi og gir en y-verdi. Den **omvendte funksjonen** f⁻¹ går **motsatt vei**: Den tar y-verdien og gir tilbake x-verdien.\n\n**f(a) = b ⇔ f⁻¹(b) = a**\n\nDerfor gjelder f⁻¹(f(x)) = x og f(f⁻¹(x)) = x.\n\n**Merk**: f⁻¹ betyr ikke 1/f.\n\n## Når finnes en omvendt funksjon?\n\nf har en omvendt funksjon bare hvis hver y-verdi kommer fra **nøyaktig én** x-verdi – funksjonen er **én-entydig**. Det gjelder for eksempel når f er **strengt voksende** eller **strengt avtakende**.\n\nf(x) = x² har ingen omvendt funksjon på hele tallinjen, fordi både x = 2 og x = −2 gir 4. **Begrenser** vi definisjonsmengden til x ≥ 0, blir den omvendte funksjonen **√x**.\n\n## Definisjons- og verdimengde\n\nDefinisjonsmengden og verdimengden **bytter plass**:\n\n**D(f⁻¹) = V(f)** og **V(f⁻¹) = D(f)**\n\n## Slik finner du f⁻¹\n\n1. Skriv y = f(x).\n2. Løs likningen med hensyn på x.\n3. Bytt navn på variablene, slik at f⁻¹ blir en funksjon av x.\n\n**Eksempel**: f(x) = 2x + 3. y = 2x + 3 gir x = (y − 3)/2, så **f⁻¹(x) = (x − 3)/2**.\n\n**Praktisk eksempel**: Omregning fra celsius til fahrenheit er F = 1,8C + 32. Den omvendte funksjonen er C = (F − 32)/1,8.\n\n## Grafen\n\nGrafen til f⁻¹ er grafen til f **speilet om linjen y = x**. Punktet (a, b) på f blir til (b, a) på f⁻¹.\n\n## eˣ og ln x\n\nf(x) = eˣ og g(x) = ln x er **omvendte funksjoner** av hverandre:\n\n- e^(ln x) = x for x > 0\n- ln(eˣ) = x for alle x\n- eˣ har definisjonsmengde ℝ og verdimengde ⟨0, →⟩ – for ln x er det motsatt.\n- Grafene er speilbilder om y = x: eˣ går gjennom (0, 1), ln x gjennom (1, 0).\n\nPå samme måte er 10ˣ og lg x omvendte funksjoner.\n\n## Derivasjon av omvendte funksjoner\n\nHvis y₀ = f(x₀) og f′(x₀) ≠ 0, er\n\n**(f⁻¹)′(y₀) = 1 / f′(x₀)**\n\nStigningstallene er **omvendte**, fordi tangentene også speiles om y = x.\n\n**Eksempel**: f(x) = x³ + x er strengt voksende. f(1) = 2 og f′(x) = 3x² + 1, så f′(1) = 4. Da er **(f⁻¹)′(2) = 1/4** – uten at vi kjenner et uttrykk for f⁻¹!\n\n**Utledning av (ln x)′**: Deriver begge sider av e^(ln x) = x med kjerneregelen:\n\ne^(ln x) · (ln x)′ = 1 → x · (ln x)′ = 1 → **(ln x)′ = 1/x**\n\n## Anvendelser\n\nOmvendte funksjoner brukes når vi kjenner **resultatet** og vil finne **årsaken**: Hvor lang tid tar det før en investering når et bestemt beløp? Hvilken konsentrasjon gir en bestemt pH? Hvilken temperatur i celsius svarer til 100 °F?",
   "flashcards": [
-    { "term": "Omvendt funksjon", "def": "f⁻¹ går motsatt vei: f(a) = b ⇔ f⁻¹(b) = a." },
-    { "term": "f⁻¹(f(x))", "def": "x" },
-    { "term": "f⁻¹ og 1/f", "def": "Ikke det samme." },
-    { "term": "Én-entydig funksjon", "def": "Hver y-verdi kommer fra nøyaktig én x-verdi." },
-    { "term": "Strengt monoton", "def": "Strengt voksende eller avtakende – har omvendt funksjon." },
-    { "term": "x² for x ≥ 0", "def": "Har den omvendte funksjonen √x." },
-    { "term": "D(f⁻¹)", "def": "V(f)" },
-    { "term": "V(f⁻¹)", "def": "D(f)" },
-    { "term": "Finne f⁻¹", "def": "Løs y = f(x) med hensyn på x og bytt navn på variablene." },
-    { "term": "f(x) = 2x + 3", "def": "f⁻¹(x) = (x − 3)/2" },
-    { "term": "Grafen til f⁻¹", "def": "Grafen til f speilet om y = x." },
-    { "term": "eˣ og ln x", "def": "Omvendte funksjoner av hverandre." },
-    { "term": "(f⁻¹)′(y₀)", "def": "1 / f′(x₀), der y₀ = f(x₀)" },
-    { "term": "f(x) = x³ + x", "def": "(f⁻¹)′(2) = 1/4" },
-    { "term": "Celsius fra fahrenheit", "def": "C = (F − 32)/1,8" }
+    {
+      "term": "Omvendt funksjon",
+      "def": "f⁻¹ går motsatt vei: f(a) = b ⇔ f⁻¹(b) = a."
+    },
+    {
+      "term": "f⁻¹(f(x))",
+      "def": "x"
+    },
+    {
+      "term": "f⁻¹ og 1/f",
+      "def": "Ikke det samme."
+    },
+    {
+      "term": "Én-entydig funksjon",
+      "def": "Hver y-verdi kommer fra nøyaktig én x-verdi."
+    },
+    {
+      "term": "Strengt monoton",
+      "def": "Strengt voksende eller avtakende – har omvendt funksjon."
+    },
+    {
+      "term": "x² for x ≥ 0",
+      "def": "Har den omvendte funksjonen √x."
+    },
+    {
+      "term": "D(f⁻¹)",
+      "def": "V(f)"
+    },
+    {
+      "term": "V(f⁻¹)",
+      "def": "D(f)"
+    },
+    {
+      "term": "Finne f⁻¹",
+      "def": "Løs y = f(x) med hensyn på x og bytt navn på variablene."
+    },
+    {
+      "term": "f(x) = 2x + 3",
+      "def": "f⁻¹(x) = (x − 3)/2"
+    },
+    {
+      "term": "Grafen til f⁻¹",
+      "def": "Grafen til f speilet om y = x."
+    },
+    {
+      "term": "eˣ og ln x",
+      "def": "Omvendte funksjoner av hverandre."
+    },
+    {
+      "term": "(f⁻¹)′(y₀)",
+      "def": "1 / f′(x₀), der y₀ = f(x₀)"
+    },
+    {
+      "term": "f(x) = x³ + x",
+      "def": "(f⁻¹)′(2) = 1/4"
+    },
+    {
+      "term": "Celsius fra fahrenheit",
+      "def": "C = (F − 32)/1,8"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er f⁻¹(x) når f(x) = 2x + 3?", "options": ["(x + 3)/2", "(x − 3)/2", "1/(2x + 3)", "2x − 3"], "correct": 1, "explain": "Løs y = 2x + 3 for x." },
-    { "id": "q02", "text": "Hvordan henger grafene til f og f⁻¹ sammen?", "options": ["De er speilbilder om linjen y = x", "De er speilbilder om x-aksen", "De er like", "De er parallelle"], "correct": 0, "explain": "(a, b) blir til (b, a)." },
-    { "id": "q03", "text": "Hvorfor har ikke f(x) = x² en omvendt funksjon på hele tallinjen?", "options": ["Fordi den er et polynom", "Fordi den ikke er kontinuerlig", "Fordi to x-verdier gir samme y-verdi", "Fordi den er voksende"], "correct": 2, "explain": "For eksempel gir både 2 og −2 verdien 4." },
-    { "id": "q04", "text": "Hvilken funksjon er den omvendte til eˣ?", "options": ["1/eˣ", "e⁻ˣ", "lg x", "ln x"], "correct": 3, "explain": "e^(ln x) = x." },
-    { "id": "q05", "text": "f(x) = x³ + x. Hva er (f⁻¹)′(2)?", "options": ["1/4", "4", "2", "1/2"], "correct": 0, "explain": "f(1) = 2 og f′(1) = 4." },
-    { "id": "q06", "text": "Hva er definisjonsmengden til f⁻¹?", "options": ["D(f)", "V(f)", "Alltid ℝ", "Alltid x > 0"], "correct": 1, "explain": "Definisjons- og verdimengde bytter plass." },
-    { "id": "q07", "text": "Hvilket punkt ligger på grafen til ln x?", "options": ["(0, 1)", "(0, 0)", "(1, 0)", "(e, 0)"], "correct": 2, "explain": "Speilbildet av (0, 1) på eˣ." },
-    { "id": "q08", "text": "Når har en funksjon garantert en omvendt funksjon?", "options": ["Når den er kontinuerlig", "Når den har et toppunkt", "Når den er et polynom", "Når den er strengt voksende eller strengt avtakende"], "correct": 3, "explain": "Da er den én-entydig." },
-    { "id": "q09", "text": "Hva betyr f⁻¹(x)?", "options": ["Den omvendte funksjonen til f", "1/f(x)", "f(x) − 1", "f(−x)"], "correct": 0, "explain": "Ikke forveksle med 1/f." },
-    { "id": "q10", "text": "Hvilken omvendt funksjon får x² når definisjonsmengden begrenses til x ≥ 0?", "options": ["1/x²", "√x", "x/2", "ln x"], "correct": 1, "explain": "√(x²) = x for x ≥ 0." }
+    {
+      "id": "q01",
+      "text": "Hva er f⁻¹(x) når f(x) = 2x + 3?",
+      "options": [
+        "(x + 3)/2",
+        "(x − 3)/2",
+        "1/(2x + 3)",
+        "2x − 3"
+      ],
+      "correct": 1,
+      "explain": "Løs y = 2x + 3 for x."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan henger grafene til f og f⁻¹ sammen?",
+      "options": [
+        "De er speilbilder om linjen y = x",
+        "De er speilbilder om x-aksen",
+        "De er like",
+        "De er parallelle"
+      ],
+      "correct": 0,
+      "explain": "(a, b) blir til (b, a)."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor har ikke f(x) = x² en omvendt funksjon på hele tallinjen?",
+      "options": [
+        "Fordi den er et polynom",
+        "Fordi den ikke er kontinuerlig",
+        "Fordi to x-verdier gir samme y-verdi",
+        "Fordi den er voksende"
+      ],
+      "correct": 2,
+      "explain": "For eksempel gir både 2 og −2 verdien 4."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken funksjon er den omvendte til eˣ?",
+      "options": [
+        "1/eˣ",
+        "e⁻ˣ",
+        "lg x",
+        "ln x"
+      ],
+      "correct": 3,
+      "explain": "e^(ln x) = x."
+    },
+    {
+      "id": "q05",
+      "text": "f(x) = x³ + x. Hva er (f⁻¹)′(2)?",
+      "options": [
+        "1/4",
+        "4",
+        "2",
+        "1/2"
+      ],
+      "correct": 0,
+      "explain": "f(1) = 2 og f′(1) = 4."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er definisjonsmengden til f⁻¹?",
+      "options": [
+        "D(f)",
+        "V(f)",
+        "Alltid ℝ",
+        "Alltid x > 0"
+      ],
+      "correct": 1,
+      "explain": "Definisjons- og verdimengde bytter plass."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket punkt ligger på grafen til ln x?",
+      "options": [
+        "(0, 1)",
+        "(0, 0)",
+        "(1, 0)",
+        "(e, 0)"
+      ],
+      "correct": 2,
+      "explain": "Speilbildet av (0, 1) på eˣ."
+    },
+    {
+      "id": "q08",
+      "text": "Når har en funksjon garantert en omvendt funksjon?",
+      "options": [
+        "Når den er kontinuerlig",
+        "Når den har et toppunkt",
+        "Når den er et polynom",
+        "Når den er strengt voksende eller strengt avtakende"
+      ],
+      "correct": 3,
+      "explain": "Da er den én-entydig."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr f⁻¹(x)?",
+      "options": [
+        "Den omvendte funksjonen til f",
+        "1/f(x)",
+        "f(x) − 1",
+        "f(−x)"
+      ],
+      "correct": 0,
+      "explain": "Ikke forveksle med 1/f."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken omvendt funksjon får x² når definisjonsmengden begrenses til x ≥ 0?",
+      "options": [
+        "1/x²",
+        "√x",
+        "x/2",
+        "ln x"
+      ],
+      "correct": 1,
+      "explain": "√(x²) = x for x ≥ 0."
+    }
   ],
   "mindmap": {
     "label": "Omvendte funksjoner",
     "children": [
-      { "label": "Begrep", "children": [
-        { "label": "f(a) = b ⇔ f⁻¹(b) = a" },
-        { "label": "Ikke 1/f" }
-      ] },
-      { "label": "Vilkår", "children": [
-        { "label": "Én-entydig" },
-        { "label": "Strengt monoton" },
-        { "label": "Begrense Df" }
-      ] },
-      { "label": "Finne f⁻¹", "children": [
-        { "label": "Løs for x" },
-        { "label": "D og V bytter plass" },
-        { "label": "Speiling om y = x" }
-      ] },
-      { "label": "eˣ og ln x", "children": [
-        { "label": "Opphever hverandre" },
-        { "label": "(0, 1) og (1, 0)" }
-      ] },
-      { "label": "Derivasjon", "children": [
-        { "label": "(f⁻¹)′ = 1/f′" },
-        { "label": "Utlede (ln x)′" }
-      ] }
+      {
+        "label": "Begrep",
+        "children": [
+          {
+            "label": "f(a) = b ⇔ f⁻¹(b) = a"
+          },
+          {
+            "label": "Ikke 1/f"
+          }
+        ]
+      },
+      {
+        "label": "Vilkår",
+        "children": [
+          {
+            "label": "Én-entydig"
+          },
+          {
+            "label": "Strengt monoton"
+          },
+          {
+            "label": "Begrense Df"
+          }
+        ]
+      },
+      {
+        "label": "Finne f⁻¹",
+        "children": [
+          {
+            "label": "Løs for x"
+          },
+          {
+            "label": "D og V bytter plass"
+          },
+          {
+            "label": "Speiling om y = x"
+          }
+        ]
+      },
+      {
+        "label": "eˣ og ln x",
+        "children": [
+          {
+            "label": "Opphever hverandre"
+          },
+          {
+            "label": "(0, 1) og (1, 0)"
+          }
+        ]
+      },
+      {
+        "label": "Derivasjon",
+        "children": [
+          {
+            "label": "(f⁻¹)′ = 1/f′"
+          },
+          {
+            "label": "Utlede (ln x)′"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "10ˣ og lg x er omvendte funksjoner.", "correct": true, "explain": "10^(lg x) = x." },
-      { "id": "m02", "type": "sant-usant", "text": "Verdimengden til ln x er x > 0.", "correct": false, "explain": "Verdimengden er alle reelle tall; definisjonsmengden er x > 0." },
-      { "id": "m03", "type": "sant-usant", "text": "Vi kan finne den deriverte av f⁻¹ i et punkt uten å kjenne uttrykket for f⁻¹.", "correct": true, "explain": "(f⁻¹)′(y₀) = 1/f′(x₀)." },
-      { "id": "m04", "type": "sant-usant", "text": "Alle funksjoner har en omvendt funksjon.", "correct": false, "explain": "Funksjonen må være én-entydig." },
-      { "id": "m05", "type": "flervalg", "text": "Omtrent hvilken celsiustemperatur svarer til 100 °F?", "options": ["−12 °C", "38 °C", "56 °C", "212 °C"], "correct": 1, "explain": "(100 − 32)/1,8 ≈ 37,8." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er f⁻¹(x) når f(x) = eˣ⁺¹?", "options": ["ln x − 1", "ln(x − 1)", "e^(x − 1)", "1/(ln x)"], "correct": 0, "explain": "y = eˣ⁺¹ gir x + 1 = ln y." },
-      { "id": "m07", "type": "flervalg", "text": "Punktet (3, 7) ligger på grafen til f. Hvilket punkt ligger på grafen til f⁻¹?", "options": ["(3, 7)", "(−3, −7)", "(7, 3)", "(1/3, 1/7)"], "correct": 2, "explain": "Koordinatene bytter plass." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "10ˣ og lg x er omvendte funksjoner.",
+        "correct": true,
+        "explain": "10^(lg x) = x."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Verdimengden til ln x er x > 0.",
+        "correct": false,
+        "explain": "Verdimengden er alle reelle tall; definisjonsmengden er x > 0."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Vi kan finne den deriverte av f⁻¹ i et punkt uten å kjenne uttrykket for f⁻¹.",
+        "correct": true,
+        "explain": "(f⁻¹)′(y₀) = 1/f′(x₀)."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle funksjoner har en omvendt funksjon.",
+        "correct": false,
+        "explain": "Funksjonen må være én-entydig."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Omtrent hvilken celsiustemperatur svarer til 100 °F?",
+        "options": [
+          "−12 °C",
+          "38 °C",
+          "56 °C",
+          "212 °C"
+        ],
+        "correct": 1,
+        "explain": "(100 − 32)/1,8 ≈ 37,8."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er f⁻¹(x) når f(x) = eˣ⁺¹?",
+        "options": [
+          "ln x − 1",
+          "ln(x − 1)",
+          "e^(x − 1)",
+          "1/(ln x)"
+        ],
+        "correct": 0,
+        "explain": "y = eˣ⁺¹ gir x + 1 = ln y."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Punktet (3, 7) ligger på grafen til f. Hvilket punkt ligger på grafen til f⁻¹?",
+        "options": [
+          "(3, 7)",
+          "(−3, −7)",
+          "(7, 3)",
+          "(1/3, 1/7)"
+        ],
+        "correct": 2,
+        "explain": "Koordinatene bytter plass."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva notasjonen f⁻¹ betyr, og hvordan den er forskjellig fra 1/f.",
+        "fasit": "f⁻¹ går motsatt vei av f: Hvis f(a) = b, er f⁻¹(b) = a. Notasjonen f⁻¹ betyr ikke 1/f.",
+        "kriterier": [
+          "Forklarer at f⁻¹ snur retningen fra resultat tilbake til opprinnelig input.",
+          "Skiller f⁻¹ fra 1/f."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hvordan henger definisjonsmengden og verdimengden til f sammen med definisjonsmengden og verdimengden til f⁻¹?",
+        "fasit": "Definisjonsmengden til f⁻¹ er verdimengden til f. Verdimengden til f⁻¹ er definisjonsmengden til f.",
+        "kriterier": [
+          "Får fram at definisjonsmengdene bytter plass.",
+          "Får fram at verdimengdene bytter plass."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Omregningen fra fahrenheit til celsius er C = (F − 32)/1,8. Regn ut temperaturen i celsius som svarer til 100 °F, og vis det viktigste steget.",
+        "fasit": "C = (100 − 32)/1,8 = 68/1,8 = 340/9 °C, altså 37 7/9 °C.",
+        "kriterier": [
+          "Setter F = 100 inn i formelen og får 68/1,8.",
+          "Regner ut riktig svar, 340/9 °C eller 37 7/9 °C."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "La f(x) = 2x + 3 og h(x) = (x − 3)/2. Regn ut h(f(x)), og forklar kort hva resultatet viser.",
+        "fasit": "h(f(x)) = ((2x + 3) − 3)/2 = x. Det viser at h går tilbake til x når vi først bruker f.",
+        "kriterier": [
+          "Setter f(x) inn i h og forenkler uttrykket riktig til x.",
+          "Knytter resultatet til at funksjonene går tilbake til den opprinnelige x-verdien."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign uttrykkene e^(ln x) = x og ln(eˣ) = x. Hvilke verdier av x gjelder de for?",
+        "fasit": "e^(ln x) = x gjelder for x > 0, siden ln x bare er definert for positive x. ln(eˣ) = x gjelder for alle reelle x.",
+        "kriterier": [
+          "Oppgir riktig at den første likheten gjelder for x > 0.",
+          "Oppgir riktig at den andre likheten gjelder for alle reelle x."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Grafen til en funksjon og grafen til den omvendte funksjonen er speilbilder om y = x. Forklar hvorfor stigningstallene til tilsvarende tangenter er omvendte.",
+        "fasit": "Speilingen om y = x bytter x- og y-retning. Derfor blir stigningstallet til tangenten på den omvendte grafen den omvendte verdien av det opprinnelige stigningstallet.",
+        "kriterier": [
+          "Knytter speilingen til at x- og y-retning byttes.",
+          "Forklarer at stigningstallene derfor er omvendte av hverandre."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Bruk e^(ln x) = x og kjerneregelen til å finne den deriverte av ln x. Vis det viktigste steget.",
+        "fasit": "Derivasjon gir e^(ln x) · (ln x)′ = 1. Siden e^(ln x) = x, blir x · (ln x)′ = 1, så (ln x)′ = 1/x.",
+        "kriterier": [
+          "Bruker kjerneregelen slik at e^(ln x) multipliseres med (ln x)′.",
+          "Bruker e^(ln x) = x til å få (ln x)′ = 1/x."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En funksjon beskriver hvordan et investeringsbeløp avhenger av tiden. Hva forteller den omvendte funksjonen hvis du kjenner et bestemt beløp du vil nå?",
+        "fasit": "Den omvendte funksjonen tar beløpet som input og gir tiden som output. Den forteller hvor lang tid det tar før investeringen når beløpet.",
+        "kriterier": [
+          "Forklarer at beløpet blir input til den omvendte funksjonen.",
+          "Forklarer at svaret fra den omvendte funksjonen er tiden det tar å nå beløpet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

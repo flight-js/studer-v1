@@ -4,77 +4,422 @@
   "trinnId": "vg3",
   "name": "Historiebruk og fortolkninger av fortiden",
   "intro": "Hvordan nåtidens forståelse og forventninger til framtiden preger måten vi tolker fortiden på, hva historiebevissthet er, og hvordan ulike aktører bruker historien – vitenskapelig, politisk, moralsk, eksistensielt og kommersielt.",
-  "kompetansemaal": [1, 2],
+  "kompetansemaal": [
+    1,
+    2
+  ],
   "sammendrag": "## Fortiden tolkes alltid fra nåtiden\n\nHistorie er ikke bare det som **skjedde**, men også **fortellingene** vi lager om det. Historikere og andre som skriver om fortiden, lever i sin egen **samtid**. Spørsmålene de stiller, og det de synes er **viktig**, preges av **nåtidens** verdier, problemer og forventninger til **framtiden**.\n\nEksempler:\n\n- Før skrev historikere mest om **konger**, **kriger** og **statsmenn**. Etter at **kvinnebevegelsen** vokste fram, ble **kvinners** historie et viktig forskningsfelt.\n- Da **klimaendringene** ble et stort tema, begynte flere å skrive **miljøhistorie**.\n- Synet på **kolonitiden** har endret seg kraftig etter hvert som tidligere kolonier og minoriteter har fått større **stemme**.\n\nDerfor sier man at hver generasjon **skriver historien på nytt**.\n\n## Historiebevissthet\n\n**Historiebevissthet** betyr at vi forstår sammenhengen mellom **fortid**, **nåtid** og **framtid**. Vi tolker fortiden for å forstå **nåtiden**, og forventningene til framtiden påvirker hvilke deler av fortiden vi legger vekt på. Et samfunn som frykter **krig**, kan for eksempel bli mer opptatt av hvordan tidligere kriger startet.\n\n## Historiebruk\n\n**Historiebruk** handler om **hvordan** og **hvorfor** fortiden brukes. Den svenske historikeren **Klas-Göran Karlsson** har beskrevet flere typer:\n\n- **Vitenskapelig** bruk: forskere undersøker fortiden **kritisk** og **metodisk**.\n- **Eksistensiell** bruk: fortiden gir oss **identitet** og **tilhørighet** – for eksempel slektsforskning.\n- **Moralsk** bruk: fortiden brukes til å vise hva som er **rett og galt**, for eksempel når vi minnes ofrene for holocaust.\n- **Ideologisk** bruk: fortiden brukes til å **legitimere** makt eller en ideologi.\n- **Politisk-pedagogisk** bruk: politikere viser til historien for å **overbevise**, for eksempel «vi må ikke gjenta feilene fra 1930-tallet».\n- **Kommersiell** bruk: fortiden brukes til å **selge** – i filmer, spill, reiseliv og reklame.\n- **Ikke-bruk**: at noe blir **forsøkt glemt** eller fortiet.\n\n## Aktører\n\nFortiden brukes av mange: **stater**, **politiske partier**, **organisasjoner**, **museer**, **medier**, **filmskapere**, **spillprodusenter** og **enkeltmennesker**. Minnesmerker, merkedager, navn på gater og innhold i **skolebøker** er eksempler på historiebruk.\n\n## Drøfte hensikten\n\nNår du møter historiebruk, kan du spørre:\n\n- **Hvem** bruker historien?\n- **Hvilken del** av fortiden trekkes fram – og hva **utelates**?\n- **Hvorfor** brukes den – for å forstå, samle, overtale, skape skam eller tjene penger?\n- **Hvilke konsekvenser** kan bruken få for ulike grupper?\n\nHistoriebruk er ikke nødvendigvis **negativ**. Den kan skape **fellesskap** og **forsoning**. Men den kan også **forenkle**, **forfalske** eller brukes til å skape **fiendebilder**, for eksempel når regimer rettferdiggjør krig med historiske argumenter.\n\n## Å tenke historisk\n\nÅ tenke historisk betyr å forstå at mennesker i fortiden levde med **andre** forutsetninger og **verdier**, og samtidig være bevisst at vår egen tolkning er **farget** av vår tid.",
   "flashcards": [
-    { "term": "Historiebevissthet", "def": "Forståelse av sammenhengen mellom fortid, nåtid og framtid." },
-    { "term": "Historiebruk", "def": "Hvordan og hvorfor fortiden brukes av ulike aktører." },
-    { "term": "Klas-Göran Karlsson", "def": "Svensk historiker som beskrev typer av historiebruk." },
-    { "term": "Vitenskapelig historiebruk", "def": "Kritisk og metodisk undersøkelse av fortiden." },
-    { "term": "Eksistensiell historiebruk", "def": "Fortiden gir identitet og tilhørighet." },
-    { "term": "Moralsk historiebruk", "def": "Fortiden brukes til å vise hva som er rett og galt." },
-    { "term": "Ideologisk historiebruk", "def": "Fortiden brukes til å legitimere makt eller ideologi." },
-    { "term": "Politisk-pedagogisk historiebruk", "def": "Politikere viser til historien for å overbevise." },
-    { "term": "Kommersiell historiebruk", "def": "Fortiden brukes til å selge produkter og opplevelser." },
-    { "term": "Ikke-bruk", "def": "At deler av fortiden forsøkes glemt eller fortiet." },
-    { "term": "Legitimere", "def": "Å gi noe et rettferdig grunnlag i andres øyne." },
-    { "term": "Miljøhistorie", "def": "Historien om forholdet mellom mennesker og natur." },
-    { "term": "Minnesmerke", "def": "Monument som skal minne om en person eller hendelse." },
-    { "term": "Fiendebilde", "def": "Negativ forestilling om en annen gruppe." },
-    { "term": "Å tenke historisk", "def": "Å forstå fortidens forutsetninger og egen tids påvirkning." }
+    {
+      "term": "Historiebevissthet",
+      "def": "Forståelse av sammenhengen mellom fortid, nåtid og framtid."
+    },
+    {
+      "term": "Historiebruk",
+      "def": "Hvordan og hvorfor fortiden brukes av ulike aktører."
+    },
+    {
+      "term": "Klas-Göran Karlsson",
+      "def": "Svensk historiker som beskrev typer av historiebruk."
+    },
+    {
+      "term": "Vitenskapelig historiebruk",
+      "def": "Kritisk og metodisk undersøkelse av fortiden."
+    },
+    {
+      "term": "Eksistensiell historiebruk",
+      "def": "Fortiden gir identitet og tilhørighet."
+    },
+    {
+      "term": "Moralsk historiebruk",
+      "def": "Fortiden brukes til å vise hva som er rett og galt."
+    },
+    {
+      "term": "Ideologisk historiebruk",
+      "def": "Fortiden brukes til å legitimere makt eller ideologi."
+    },
+    {
+      "term": "Politisk-pedagogisk historiebruk",
+      "def": "Politikere viser til historien for å overbevise."
+    },
+    {
+      "term": "Kommersiell historiebruk",
+      "def": "Fortiden brukes til å selge produkter og opplevelser."
+    },
+    {
+      "term": "Ikke-bruk",
+      "def": "At deler av fortiden forsøkes glemt eller fortiet."
+    },
+    {
+      "term": "Legitimere",
+      "def": "Å gi noe et rettferdig grunnlag i andres øyne."
+    },
+    {
+      "term": "Miljøhistorie",
+      "def": "Historien om forholdet mellom mennesker og natur."
+    },
+    {
+      "term": "Minnesmerke",
+      "def": "Monument som skal minne om en person eller hendelse."
+    },
+    {
+      "term": "Fiendebilde",
+      "def": "Negativ forestilling om en annen gruppe."
+    },
+    {
+      "term": "Å tenke historisk",
+      "def": "Å forstå fortidens forutsetninger og egen tids påvirkning."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvorfor sier man at hver generasjon skriver historien på nytt?", "options": ["Fordi kildene forsvinner", "Fordi nåtidens spørsmål og verdier preger tolkningen", "Fordi fortiden endrer seg", "Fordi historikere ikke leser gamle bøker"], "correct": 1, "explain": "Nye spørsmål gir nye fortellinger." },
-    { "id": "q02", "text": "Hva er historiebevissthet?", "options": ["Forståelse av sammenhengen mellom fortid, nåtid og framtid", "Å kunne mange årstall", "Å like historie", "Å lese historiske romaner"], "correct": 0, "explain": "Fortiden tolkes for å forstå nåtiden." },
-    { "id": "q03", "text": "Hva er kommersiell historiebruk?", "options": ["Kritisk forskning", "Å minnes ofre", "Å bruke fortiden til å selge", "Å legitimere makt"], "correct": 2, "explain": "For eksempel spill og reiseliv." },
-    { "id": "q04", "text": "En politiker sier «vi må ikke gjenta feilene fra 1930-tallet». Hvilken historiebruk er dette?", "options": ["Kommersiell", "Eksistensiell", "Vitenskapelig", "Politisk-pedagogisk"], "correct": 3, "explain": "Historien brukes for å overbevise." },
-    { "id": "q05", "text": "Hva er ikke-bruk av historien?", "options": ["At noe forsøkes glemt eller fortiet", "At ingen bryr seg om historie", "At historie er forbudt i skolen", "At museer stenger"], "correct": 0, "explain": "Også en form for historiebruk." },
-    { "id": "q06", "text": "Hvorfor ble kvinners historie et viktig forskningsfelt?", "options": ["Fordi det kom nye kilder fra middelalderen", "Fordi kvinnebevegelsen endret hva som ble sett som viktig", "Fordi kvinner ikke hadde historie før", "Fordi staten påla det"], "correct": 1, "explain": "Nåtiden preger spørsmålene." },
-    { "id": "q07", "text": "Hvilken type historiebruk er slektsforskning?", "options": ["Ideologisk", "Kommersiell", "Eksistensiell", "Politisk"], "correct": 2, "explain": "Gir identitet og tilhørighet." },
-    { "id": "q08", "text": "Hva kan være en negativ følge av historiebruk?", "options": ["Fellesskap", "Forsoning", "Mer kunnskap", "Forenkling og fiendebilder"], "correct": 3, "explain": "Historie kan brukes til å rettferdiggjøre konflikt." },
-    { "id": "q09", "text": "Hvilket spørsmål bør du stille når du møter historiebruk?", "options": ["Hvem bruker historien, og hvorfor?", "Hvor gammel er boka?", "Hvor mange sider er det?", "Hvilken farge har minnesmerket?"], "correct": 0, "explain": "Også hva som utelates." },
-    { "id": "q10", "text": "Hva er et eksempel på historiebruk i hverdagen?", "options": ["Et regnestykke", "Gatenavn og merkedager", "En værmelding", "En handleliste"], "correct": 1, "explain": "Fortiden er til stede i offentligheten." }
+    {
+      "id": "q01",
+      "text": "Hvorfor sier man at hver generasjon skriver historien på nytt?",
+      "options": [
+        "Fordi kildene forsvinner",
+        "Fordi nåtidens spørsmål og verdier preger tolkningen",
+        "Fordi fortiden endrer seg",
+        "Fordi historikere ikke leser gamle bøker"
+      ],
+      "correct": 1,
+      "explain": "Nye spørsmål gir nye fortellinger."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er historiebevissthet?",
+      "options": [
+        "Forståelse av sammenhengen mellom fortid, nåtid og framtid",
+        "Å kunne mange årstall",
+        "Å like historie",
+        "Å lese historiske romaner"
+      ],
+      "correct": 0,
+      "explain": "Fortiden tolkes for å forstå nåtiden."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er kommersiell historiebruk?",
+      "options": [
+        "Kritisk forskning",
+        "Å minnes ofre",
+        "Å bruke fortiden til å selge",
+        "Å legitimere makt"
+      ],
+      "correct": 2,
+      "explain": "For eksempel spill og reiseliv."
+    },
+    {
+      "id": "q04",
+      "text": "En politiker sier «vi må ikke gjenta feilene fra 1930-tallet». Hvilken historiebruk er dette?",
+      "options": [
+        "Kommersiell",
+        "Eksistensiell",
+        "Vitenskapelig",
+        "Politisk-pedagogisk"
+      ],
+      "correct": 3,
+      "explain": "Historien brukes for å overbevise."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er ikke-bruk av historien?",
+      "options": [
+        "At noe forsøkes glemt eller fortiet",
+        "At ingen bryr seg om historie",
+        "At historie er forbudt i skolen",
+        "At museer stenger"
+      ],
+      "correct": 0,
+      "explain": "Også en form for historiebruk."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor ble kvinners historie et viktig forskningsfelt?",
+      "options": [
+        "Fordi det kom nye kilder fra middelalderen",
+        "Fordi kvinnebevegelsen endret hva som ble sett som viktig",
+        "Fordi kvinner ikke hadde historie før",
+        "Fordi staten påla det"
+      ],
+      "correct": 1,
+      "explain": "Nåtiden preger spørsmålene."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken type historiebruk er slektsforskning?",
+      "options": [
+        "Ideologisk",
+        "Kommersiell",
+        "Eksistensiell",
+        "Politisk"
+      ],
+      "correct": 2,
+      "explain": "Gir identitet og tilhørighet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva kan være en negativ følge av historiebruk?",
+      "options": [
+        "Fellesskap",
+        "Forsoning",
+        "Mer kunnskap",
+        "Forenkling og fiendebilder"
+      ],
+      "correct": 3,
+      "explain": "Historie kan brukes til å rettferdiggjøre konflikt."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket spørsmål bør du stille når du møter historiebruk?",
+      "options": [
+        "Hvem bruker historien, og hvorfor?",
+        "Hvor gammel er boka?",
+        "Hvor mange sider er det?",
+        "Hvilken farge har minnesmerket?"
+      ],
+      "correct": 0,
+      "explain": "Også hva som utelates."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et eksempel på historiebruk i hverdagen?",
+      "options": [
+        "Et regnestykke",
+        "Gatenavn og merkedager",
+        "En værmelding",
+        "En handleliste"
+      ],
+      "correct": 1,
+      "explain": "Fortiden er til stede i offentligheten."
+    }
   ],
   "mindmap": {
     "label": "Historiebruk og fortolkning",
     "children": [
-      { "label": "Fortolkning", "children": [
-        { "label": "Preget av nåtiden" },
-        { "label": "Nye forskningsfelt" }
-      ] },
-      { "label": "Historiebevissthet", "children": [
-        { "label": "Fortid, nåtid, framtid" }
-      ] },
-      { "label": "Typer bruk", "children": [
-        { "label": "Vitenskapelig og eksistensiell" },
-        { "label": "Moralsk og ideologisk" },
-        { "label": "Politisk og kommersiell" },
-        { "label": "Ikke-bruk" }
-      ] },
-      { "label": "Aktører", "children": [
-        { "label": "Stater og partier" },
-        { "label": "Museer og medier" },
-        { "label": "Spill og film" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Hvem og hvorfor" },
-        { "label": "Hva utelates" },
-        { "label": "Konsekvenser" }
-      ] }
+      {
+        "label": "Fortolkning",
+        "children": [
+          {
+            "label": "Preget av nåtiden"
+          },
+          {
+            "label": "Nye forskningsfelt"
+          }
+        ]
+      },
+      {
+        "label": "Historiebevissthet",
+        "children": [
+          {
+            "label": "Fortid, nåtid, framtid"
+          }
+        ]
+      },
+      {
+        "label": "Typer bruk",
+        "children": [
+          {
+            "label": "Vitenskapelig og eksistensiell"
+          },
+          {
+            "label": "Moralsk og ideologisk"
+          },
+          {
+            "label": "Politisk og kommersiell"
+          },
+          {
+            "label": "Ikke-bruk"
+          }
+        ]
+      },
+      {
+        "label": "Aktører",
+        "children": [
+          {
+            "label": "Stater og partier"
+          },
+          {
+            "label": "Museer og medier"
+          },
+          {
+            "label": "Spill og film"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Hvem og hvorfor"
+          },
+          {
+            "label": "Hva utelates"
+          },
+          {
+            "label": "Konsekvenser"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Historiebruk kan bidra til forsoning.", "correct": true, "explain": "Den er ikke nødvendigvis negativ." },
-      { "id": "m02", "type": "sant-usant", "text": "Historikere er helt upåvirket av sin egen samtid.", "correct": false, "explain": "Nåtiden preger spørsmålene de stiller." },
-      { "id": "m03", "type": "sant-usant", "text": "Innholdet i skolebøker er et eksempel på historiebruk.", "correct": true, "explain": "Valg av stoff er ikke nøytralt." },
-      { "id": "m04", "type": "sant-usant", "text": "Moralsk historiebruk handler om å selge produkter.", "correct": false, "explain": "Den handler om rett og galt." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken historiebruk er det når et regime rettferdiggjør krig med historiske argumenter?", "options": ["Vitenskapelig", "Ideologisk", "Eksistensiell", "Kommersiell"], "correct": 1, "explain": "Legitimerer makt." },
-      { "id": "m06", "type": "flervalg", "text": "Hvorfor ble miljøhistorie viktigere?", "options": ["Fordi klimaendringene ble et stort tema i samtiden", "Fordi det ble funnet nye skip", "Fordi kongene ble mindre viktige", "Fordi det ble forbudt å skrive om krig"], "correct": 0, "explain": "Nåtiden påvirker forskningen." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr det å tenke historisk?", "options": ["Å dømme fortiden etter dagens verdier", "Å pugge årstall", "Å forstå fortidens forutsetninger og egen tids påvirkning", "Å bare lese om krig"], "correct": 2, "explain": "Begge perspektiver trengs." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Historiebruk kan bidra til forsoning.",
+        "correct": true,
+        "explain": "Den er ikke nødvendigvis negativ."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Historikere er helt upåvirket av sin egen samtid.",
+        "correct": false,
+        "explain": "Nåtiden preger spørsmålene de stiller."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Innholdet i skolebøker er et eksempel på historiebruk.",
+        "correct": true,
+        "explain": "Valg av stoff er ikke nøytralt."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Moralsk historiebruk handler om å selge produkter.",
+        "correct": false,
+        "explain": "Den handler om rett og galt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken historiebruk er det når et regime rettferdiggjør krig med historiske argumenter?",
+        "options": [
+          "Vitenskapelig",
+          "Ideologisk",
+          "Eksistensiell",
+          "Kommersiell"
+        ],
+        "correct": 1,
+        "explain": "Legitimerer makt."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvorfor ble miljøhistorie viktigere?",
+        "options": [
+          "Fordi klimaendringene ble et stort tema i samtiden",
+          "Fordi det ble funnet nye skip",
+          "Fordi kongene ble mindre viktige",
+          "Fordi det ble forbudt å skrive om krig"
+        ],
+        "correct": 0,
+        "explain": "Nåtiden påvirker forskningen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr det å tenke historisk?",
+        "options": [
+          "Å dømme fortiden etter dagens verdier",
+          "Å pugge årstall",
+          "Å forstå fortidens forutsetninger og egen tids påvirkning",
+          "Å bare lese om krig"
+        ],
+        "correct": 2,
+        "explain": "Begge perspektiver trengs."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En historiker undersøker fortiden kritisk og metodisk. En politisk bevegelse bruker fortiden til å støtte ideologien sin. Sammenlign hensikten med disse to typene historiebruk.",
+        "fasit": "Den vitenskapelige historiebruken undersøker fortiden kritisk og metodisk for å forstå den. Den ideologiske historiebruken bruker fortiden til å legitimere en ideologi eller makt.",
+        "kriterier": [
+          "Forklarer at vitenskapelig historiebruk undersøker fortiden kritisk og metodisk.",
+          "Forklarer at ideologisk historiebruk støtter eller legitimerer en ideologi eller makt."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et samfunn er redd for en ny krig. Forklar hvordan denne frykten kan påvirke hvilke deler av fortiden samfunnet blir særlig opptatt av, og knytt det til historiebevissthet.",
+        "fasit": "Samfunnet kan bli mer opptatt av hvordan tidligere kriger startet, for å forstå nåtiden og mulige framtidige farer. Det viser historiebevissthet fordi fortid, nåtid og framtid ses i sammenheng.",
+        "kriterier": [
+          "Knytter frykten til økt interesse for hvordan tidligere kriger startet.",
+          "Forklarer sammenhengen mellom fortid, nåtid og framtid."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Klimaendringer blir et viktig tema i samtiden, og flere begynner å skrive miljøhistorie. Forklar sammenhengen mellom samtidas bekymringer og hva historikere undersøker.",
+        "fasit": "Når klimaendringer blir viktige i samtiden, blir flere opptatt av forholdet mellom mennesker og natur. Derfor undersøker flere dette forholdet gjennom miljøhistorie.",
+        "kriterier": [
+          "Knytter samtidas bekymring for klimaendringer til valget av historiske temaer.",
+          "Forklarer at miljøhistorie handler om forholdet mellom mennesker og natur."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et minnesmerke over ofrene for holocaust skal minne folk om hva som er rett og galt. Hvilken type historiebruk er dette, og hva er hensikten?",
+        "fasit": "Dette er moralsk historiebruk. Fortiden brukes for å vise hva som er rett og galt, ved å minnes ofrene for holocaust.",
+        "kriterier": [
+          "Identifiserer moralsk historiebruk.",
+          "Forklarer at fortiden brukes til å vise hva som er rett og galt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En gruppe samler fortellinger om sin felles fortid for å styrke medlemmenes identitet og tilhørighet. Hvilken type historiebruk er dette, og hvorfor?",
+        "fasit": "Dette er eksistensiell historiebruk. Fortellingene om fortiden bidrar til identitet og tilhørighet i gruppa.",
+        "kriterier": [
+          "Identifiserer eksistensiell historiebruk.",
+          "Knytter typen til identitet og tilhørighet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En offentlig institusjon bestemmer seg for å utelate en ubehagelig hendelse fra en utstilling fordi den helst vil at hendelsen skal glemmes. Hvilket begrep beskriver dette, og hva kjennetegner det?",
+        "fasit": "Dette er ikke-bruk av historien. En del av fortiden blir forsøkt glemt eller fortiet.",
+        "kriterier": [
+          "Identifiserer ikke-bruk av historien.",
+          "Forklarer at noe fra fortiden forsøkes glemt eller fortiet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En person vurderer mennesker fra fortiden bare ut fra verdiene som gjelder i dag. Forklar hva personen bør ta hensyn til for å tenke historisk.",
+        "fasit": "Personen bør forsøke å forstå at mennesker i fortiden levde med andre forutsetninger og verdier. Personen bør også være bevisst på at vår egen tolkning av fortiden er farget av vår tid.",
+        "kriterier": [
+          "Viser at mennesker i fortiden hadde andre forutsetninger og verdier.",
+          "Viser at vår egen samtid påvirker tolkningen av fortiden."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "To grupper med en konflikt lager et felles minnesmerke med mål om forsoning. Forklar hvordan historiebruk kan bidra positivt i denne situasjonen, og nevn én viktig ting gruppene bør være oppmerksomme på når de velger hva minnesmerket skal fortelle.",
+        "fasit": "Historiebruk kan bidra til fellesskap og forsoning mellom gruppene. De bør undersøke hvilke erfaringer som blir løftet fram, og om viktige deler av fortiden blir utelatt.",
+        "kriterier": [
+          "Forklarer at historiebruk kan bidra til fellesskap eller forsoning.",
+          "Viser at gruppene bør være oppmerksomme på hvilke erfaringer som løftes fram eller utelates."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

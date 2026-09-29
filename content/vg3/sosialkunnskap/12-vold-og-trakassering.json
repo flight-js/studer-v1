@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Vold og trakassering",
   "intro": "Ulike former for vold og trakassering – fysisk, psykisk, seksuell, materiell og digital vold, vold i nære relasjoner, negativ sosial kontroll og æresrelatert vold, seksuell trakassering, mobbing og netthets – og konsekvensene for individ og samfunn, med hjelpeinstanser og forebygging.",
-  "kompetansemaal": [12],
+  "kompetansemaal": [
+    12
+  ],
   "sammendrag": "## Hva er vold?\n\n**Vold** er enhver handling som gjennom å **skade**, **smerte**, **skremme** eller **krenke** får en person til å gjøre noe mot sin vilje eller slutte å gjøre noe hen vil. Vold kan ta mange former:\n\n- **Fysisk vold**: slag, spark, lugging, kvelertak\n- **Psykisk vold**: trusler, **kontroll**, ydmykelser, isolering og sjalusi\n- **Seksuell vold**: seksuelle handlinger uten **samtykke**\n- **Materiell vold**: å ødelegge ting\n- **Økonomisk vold**: å kontrollere den andres **penger**\n- **Digital vold**: overvåking av mobil, deling av bilder, trusler på nett\n- **Latent vold**: frykten for ny vold som styrer hverdagen\n\n## Vold i nære relasjoner\n\nMye vold skjer i **hjemmet** – mellom **partnere** eller mot **barn**. Barn som **opplever** vold mellom foreldrene, er også utsatt for vold, selv om de ikke selv blir slått. Vold i nære relasjoner er ofte **gjentatt** og **skjult**, og den som utsettes, kan være **avhengig** av den som utøver volden.\n\n## Negativ sosial kontroll og æresrelatert vold\n\n**Negativ sosial kontroll** er når familie eller miljø **begrenser** en persons frihet – hvem hen kan være venner med, hvordan hen kan kle seg, eller hvem hen kan gifte seg med. Det kan være knyttet til forestillinger om familiens **ære**. **Tvangsekteskap** og **kjønnslemlestelse** er alvorlige overgrep og **forbudt** i Norge.\n\n## Trakassering\n\n**Trakassering** er handlinger, unnlatelser eller ytringer som virker eller har til formål å være **krenkende**, **skremmende**, **fiendtlige**, **nedverdigende** eller **ydmykende**.\n\n- **Seksuell trakassering** er **uønsket** seksuell oppmerksomhet – kommentarer, berøring eller bilder. Det er forbudt etter **likestillings- og diskrimineringsloven**.\n- **Mobbing** er gjentatte negative handlinger fra én eller flere mot en person som har vanskelig for å **forsvare** seg.\n- **Netthets** er trakassering i sosiale medier og kommentarfelt – ofte rettet mot **kvinner**, **minoriteter**, **politikere** og **journalister**.\n\n## Konsekvenser for individet\n\n- **Fysiske** skader\n- **Psykiske** plager: angst, depresjon, søvnvansker og **traumer**\n- **Skam**, **skyldfølelse** og lav **selvfølelse**\n- **Frafall** fra skole og arbeid\n- Vansker med **tillit** og **relasjoner**\n- For barn: påvirket **utvikling** og læring\n\n## Konsekvenser for samfunnet\n\n- Store **kostnader** til helse, rettsvesen, barnevern og tapt arbeidskraft\n- **Ytringsklima**: Hets kan føre til at folk **trekker seg** fra offentlig debatt – en trussel mot **demokratiet**\n- **Utrygghet** og redusert **tillit**\n- Vold kan **gå i arv** mellom generasjoner\n\n## Hjelp og beskyttelse\n\n- **Alarmtelefonen for barn og unge**: **116 111**\n- **Politiet**: **112** ved akutt fare, ellers **02800**\n- **Krisesentre** for voksne og barn som utsettes for vold i nære relasjoner\n- **Statens barnehus**: avhør og oppfølging av barn som kan ha vært utsatt for vold eller overgrep\n- **Helsesykepleier**, **lærere** og andre trygge voksne\n- **Kontaktforbud** kan beskytte mot den som utøver vold\n\nMange yrkesgrupper har **avvergeplikt** og **opplysningsplikt** til barnevernet når de er bekymret for et barn.\n\n## Forebygging\n\n- **Undervisning** om grenser, samtykke og vold i skolen\n- **Holdningsarbeid** mot hets og trakassering\n- **Tidlig** hjelp til familier med konflikter\n- **Sinnemestring** og behandling for dem som utøver vold, for eksempel gjennom **Alternativ til Vold**\n- **Tydelige** reaksjoner fra arbeidsplasser og skoler\n\n## Drøfting\n\nHvorfor er det vanskelig å si fra om vold? **Skam**, **frykt**, **lojalitet** og **avhengighet** gjør at mange tier. Et viktig spørsmål er hvordan samfunnet kan **senke terskelen** for å be om hjelp – og hvordan vi som **medmennesker** kan reagere når vi ser noe.",
   "flashcards": [
-    { "term": "Vold", "def": "Handling som skader, skremmer eller krenker for å styre en annen." },
-    { "term": "Psykisk vold", "def": "Trusler, kontroll, ydmykelser og isolering." },
-    { "term": "Seksuell vold", "def": "Seksuelle handlinger uten samtykke." },
-    { "term": "Økonomisk vold", "def": "Å kontrollere den andres penger." },
-    { "term": "Digital vold", "def": "Overvåking, deling av bilder og trusler på nett." },
-    { "term": "Latent vold", "def": "Frykten for ny vold som styrer hverdagen." },
-    { "term": "Vold i nære relasjoner", "def": "Vold mellom partnere eller mot barn i familien." },
-    { "term": "Negativ sosial kontroll", "def": "Familie eller miljø begrenser en persons frihet." },
-    { "term": "Seksuell trakassering", "def": "Uønsket seksuell oppmerksomhet." },
-    { "term": "Mobbing", "def": "Gjentatte negative handlinger mot en som har vanskelig for å forsvare seg." },
-    { "term": "Netthets", "def": "Trakassering i sosiale medier og kommentarfelt." },
-    { "term": "116 111", "def": "Alarmtelefonen for barn og unge." },
-    { "term": "Statens barnehus", "def": "Avhør og oppfølging av barn utsatt for vold eller overgrep." },
-    { "term": "Krisesenter", "def": "Tilbud for personer utsatt for vold i nære relasjoner." },
-    { "term": "Alternativ til Vold", "def": "Behandlingstilbud for personer som utøver vold." }
+    {
+      "term": "Vold",
+      "def": "Handling som skader, skremmer eller krenker for å styre en annen."
+    },
+    {
+      "term": "Psykisk vold",
+      "def": "Trusler, kontroll, ydmykelser og isolering."
+    },
+    {
+      "term": "Seksuell vold",
+      "def": "Seksuelle handlinger uten samtykke."
+    },
+    {
+      "term": "Økonomisk vold",
+      "def": "Å kontrollere den andres penger."
+    },
+    {
+      "term": "Digital vold",
+      "def": "Overvåking, deling av bilder og trusler på nett."
+    },
+    {
+      "term": "Latent vold",
+      "def": "Frykten for ny vold som styrer hverdagen."
+    },
+    {
+      "term": "Vold i nære relasjoner",
+      "def": "Vold mellom partnere eller mot barn i familien."
+    },
+    {
+      "term": "Negativ sosial kontroll",
+      "def": "Familie eller miljø begrenser en persons frihet."
+    },
+    {
+      "term": "Seksuell trakassering",
+      "def": "Uønsket seksuell oppmerksomhet."
+    },
+    {
+      "term": "Mobbing",
+      "def": "Gjentatte negative handlinger mot en som har vanskelig for å forsvare seg."
+    },
+    {
+      "term": "Netthets",
+      "def": "Trakassering i sosiale medier og kommentarfelt."
+    },
+    {
+      "term": "116 111",
+      "def": "Alarmtelefonen for barn og unge."
+    },
+    {
+      "term": "Statens barnehus",
+      "def": "Avhør og oppfølging av barn utsatt for vold eller overgrep."
+    },
+    {
+      "term": "Krisesenter",
+      "def": "Tilbud for personer utsatt for vold i nære relasjoner."
+    },
+    {
+      "term": "Alternativ til Vold",
+      "def": "Behandlingstilbud for personer som utøver vold."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er psykisk vold?", "options": ["Bare slag og spark", "Trusler, kontroll, ydmykelser og isolering", "Å ødelegge ting", "Å stjele penger"], "correct": 1, "explain": "Kan være like skadelig som fysisk vold." },
-    { "id": "q02", "text": "Hvilket nummer har Alarmtelefonen for barn og unge?", "options": ["116 111", "113", "110", "1881"], "correct": 0, "explain": "Gratis og åpen." },
-    { "id": "q03", "text": "Hva er negativ sosial kontroll?", "options": ["Positiv oppdragelse", "Politiets kontroll", "At familie eller miljø begrenser en persons frihet", "Skolens regler"], "correct": 2, "explain": "Kan være knyttet til ære." },
-    { "id": "q04", "text": "Hva er seksuell trakassering?", "options": ["Et kjæresteforhold", "En kompliment man ønsker", "Et samtykke", "Uønsket seksuell oppmerksomhet"], "correct": 3, "explain": "Forbudt etter likestillings- og diskrimineringsloven." },
-    { "id": "q05", "text": "Hvorfor er barn som opplever vold mellom foreldrene, også utsatt for vold?", "options": ["Fordi det skader dem selv om de ikke blir slått", "Fordi de alltid blir slått", "Fordi de ikke merker noe", "Det er de ikke"], "correct": 0, "explain": "Å være vitne til vold er skadelig." },
-    { "id": "q06", "text": "Hvilken samfunnskonsekvens har netthets?", "options": ["Bedre debatt", "At folk trekker seg fra offentlig debatt", "Flere journalister", "Høyere tillit"], "correct": 1, "explain": "En trussel mot demokratiet." },
-    { "id": "q07", "text": "Hva gjør Statens barnehus?", "options": ["Driver barnehager", "Utbetaler barnetrygd", "Avhører og følger opp barn som kan ha vært utsatt for vold eller overgrep", "Dømmer i saker"], "correct": 2, "explain": "Tilpasset barn." },
-    { "id": "q08", "text": "Hva er latent vold?", "options": ["Vold i filmer", "Vold på nett", "Vold mot ting", "Frykten for ny vold som styrer hverdagen"], "correct": 3, "explain": "Volden trenger ikke skje igjen for å virke." },
-    { "id": "q09", "text": "Hvorfor kan det være vanskelig å si fra om vold?", "options": ["Skam, frykt, lojalitet og avhengighet", "Fordi det er forbudt", "Fordi ingen vil hjelpe", "Fordi vold ikke er alvorlig"], "correct": 0, "explain": "Terskelen for å be om hjelp må senkes." },
-    { "id": "q10", "text": "Hvilket tilbud er for personer som utøver vold?", "options": ["Krisesenter", "Alternativ til Vold", "Barnehus", "Alarmtelefonen"], "correct": 1, "explain": "Behandling kan forebygge ny vold." }
+    {
+      "id": "q01",
+      "text": "Hva er psykisk vold?",
+      "options": [
+        "Bare slag og spark",
+        "Trusler, kontroll, ydmykelser og isolering",
+        "Å ødelegge ting",
+        "Å stjele penger"
+      ],
+      "correct": 1,
+      "explain": "Kan være like skadelig som fysisk vold."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket nummer har Alarmtelefonen for barn og unge?",
+      "options": [
+        "116 111",
+        "113",
+        "110",
+        "1881"
+      ],
+      "correct": 0,
+      "explain": "Gratis og åpen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er negativ sosial kontroll?",
+      "options": [
+        "Positiv oppdragelse",
+        "Politiets kontroll",
+        "At familie eller miljø begrenser en persons frihet",
+        "Skolens regler"
+      ],
+      "correct": 2,
+      "explain": "Kan være knyttet til ære."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er seksuell trakassering?",
+      "options": [
+        "Et kjæresteforhold",
+        "En kompliment man ønsker",
+        "Et samtykke",
+        "Uønsket seksuell oppmerksomhet"
+      ],
+      "correct": 3,
+      "explain": "Forbudt etter likestillings- og diskrimineringsloven."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor er barn som opplever vold mellom foreldrene, også utsatt for vold?",
+      "options": [
+        "Fordi det skader dem selv om de ikke blir slått",
+        "Fordi de alltid blir slått",
+        "Fordi de ikke merker noe",
+        "Det er de ikke"
+      ],
+      "correct": 0,
+      "explain": "Å være vitne til vold er skadelig."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken samfunnskonsekvens har netthets?",
+      "options": [
+        "Bedre debatt",
+        "At folk trekker seg fra offentlig debatt",
+        "Flere journalister",
+        "Høyere tillit"
+      ],
+      "correct": 1,
+      "explain": "En trussel mot demokratiet."
+    },
+    {
+      "id": "q07",
+      "text": "Hva gjør Statens barnehus?",
+      "options": [
+        "Driver barnehager",
+        "Utbetaler barnetrygd",
+        "Avhører og følger opp barn som kan ha vært utsatt for vold eller overgrep",
+        "Dømmer i saker"
+      ],
+      "correct": 2,
+      "explain": "Tilpasset barn."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er latent vold?",
+      "options": [
+        "Vold i filmer",
+        "Vold på nett",
+        "Vold mot ting",
+        "Frykten for ny vold som styrer hverdagen"
+      ],
+      "correct": 3,
+      "explain": "Volden trenger ikke skje igjen for å virke."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor kan det være vanskelig å si fra om vold?",
+      "options": [
+        "Skam, frykt, lojalitet og avhengighet",
+        "Fordi det er forbudt",
+        "Fordi ingen vil hjelpe",
+        "Fordi vold ikke er alvorlig"
+      ],
+      "correct": 0,
+      "explain": "Terskelen for å be om hjelp må senkes."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket tilbud er for personer som utøver vold?",
+      "options": [
+        "Krisesenter",
+        "Alternativ til Vold",
+        "Barnehus",
+        "Alarmtelefonen"
+      ],
+      "correct": 1,
+      "explain": "Behandling kan forebygge ny vold."
+    }
   ],
   "mindmap": {
     "label": "Vold og trakassering",
     "children": [
-      { "label": "Voldsformer", "children": [
-        { "label": "Fysisk og psykisk" },
-        { "label": "Seksuell og økonomisk" },
-        { "label": "Digital og latent" }
-      ] },
-      { "label": "Nære relasjoner", "children": [
-        { "label": "Partnervold" },
-        { "label": "Barn som vitner" },
-        { "label": "Negativ sosial kontroll" }
-      ] },
-      { "label": "Trakassering", "children": [
-        { "label": "Seksuell trakassering" },
-        { "label": "Mobbing" },
-        { "label": "Netthets" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Helse og traumer" },
-        { "label": "Kostnader og ytringsklima" }
-      ] },
-      { "label": "Hjelp", "children": [
-        { "label": "116 111 og 112" },
-        { "label": "Krisesenter og barnehus" },
-        { "label": "Forebygging" }
-      ] }
+      {
+        "label": "Voldsformer",
+        "children": [
+          {
+            "label": "Fysisk og psykisk"
+          },
+          {
+            "label": "Seksuell og økonomisk"
+          },
+          {
+            "label": "Digital og latent"
+          }
+        ]
+      },
+      {
+        "label": "Nære relasjoner",
+        "children": [
+          {
+            "label": "Partnervold"
+          },
+          {
+            "label": "Barn som vitner"
+          },
+          {
+            "label": "Negativ sosial kontroll"
+          }
+        ]
+      },
+      {
+        "label": "Trakassering",
+        "children": [
+          {
+            "label": "Seksuell trakassering"
+          },
+          {
+            "label": "Mobbing"
+          },
+          {
+            "label": "Netthets"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Helse og traumer"
+          },
+          {
+            "label": "Kostnader og ytringsklima"
+          }
+        ]
+      },
+      {
+        "label": "Hjelp",
+        "children": [
+          {
+            "label": "116 111 og 112"
+          },
+          {
+            "label": "Krisesenter og barnehus"
+          },
+          {
+            "label": "Forebygging"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Tvangsekteskap og kjønnslemlestelse er forbudt i Norge.", "correct": true, "explain": "Alvorlige overgrep." },
-      { "id": "m02", "type": "sant-usant", "text": "Vold i nære relasjoner er som regel en enkelt hendelse.", "correct": false, "explain": "Den er ofte gjentatt og skjult." },
-      { "id": "m03", "type": "sant-usant", "text": "Mange yrkesgrupper har opplysningsplikt til barnevernet.", "correct": true, "explain": "Ved bekymring for et barn." },
-      { "id": "m04", "type": "sant-usant", "text": "Å overvåke partnerens mobil kan aldri være vold.", "correct": false, "explain": "Det kan være digital og psykisk vold." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket nummer ringer du til politiet ved akutt fare?", "options": ["113", "112", "110", "116 123"], "correct": 1, "explain": "02800 når det ikke haster." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket forebyggende tiltak kan skolen bidra med?", "options": ["Undervisning om grenser, samtykke og vold", "Mer lekser", "Færre voksne", "Ingen tiltak"], "correct": 0, "explain": "Holdningsarbeid." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan beskytte mot den som utøver vold?", "options": ["Sosialhjelp", "Studielån", "Kontaktforbud", "Barnetrygd"], "correct": 2, "explain": "Også kalt besøksforbud." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Tvangsekteskap og kjønnslemlestelse er forbudt i Norge.",
+        "correct": true,
+        "explain": "Alvorlige overgrep."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Vold i nære relasjoner er som regel en enkelt hendelse.",
+        "correct": false,
+        "explain": "Den er ofte gjentatt og skjult."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange yrkesgrupper har opplysningsplikt til barnevernet.",
+        "correct": true,
+        "explain": "Ved bekymring for et barn."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Å overvåke partnerens mobil kan aldri være vold.",
+        "correct": false,
+        "explain": "Det kan være digital og psykisk vold."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket nummer ringer du til politiet ved akutt fare?",
+        "options": [
+          "113",
+          "112",
+          "110",
+          "116 123"
+        ],
+        "correct": 1,
+        "explain": "02800 når det ikke haster."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket forebyggende tiltak kan skolen bidra med?",
+        "options": [
+          "Undervisning om grenser, samtykke og vold",
+          "Mer lekser",
+          "Færre voksne",
+          "Ingen tiltak"
+        ],
+        "correct": 0,
+        "explain": "Holdningsarbeid."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan beskytte mot den som utøver vold?",
+        "options": [
+          "Sosialhjelp",
+          "Studielån",
+          "Kontaktforbud",
+          "Barnetrygd"
+        ],
+        "correct": 2,
+        "explain": "Også kalt besøksforbud."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva gjør en handling til vold, selv om den ikke gir synlige kroppsskader? Forklar hva handlingen gjør med den som utsettes.",
+        "fasit": "En handling er vold når den skader, skremmer eller krenker en person for å styre hen. Den kan få personen til å gjøre noe mot sin vilje eller slutte med noe hen vil gjøre.",
+        "kriterier": [
+          "Forklarer at vold kan handle om å skade, skremme eller krenke, ikke bare om kroppsskader.",
+          "Får fram at handlingen brukes til å påvirke eller styre hva personen gjør."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En partner bestemmer hvor mye penger den andre får bruke, og krever å kontrollere alle kjøp. Hvilken form for vold beskriver situasjonen, og hvorfor?",
+        "fasit": "Dette er økonomisk vold fordi den ene partneren kontrollerer den andres penger. Kontrollen begrenser den andres frihet til å bruke egne penger.",
+        "kriterier": [
+          "Identifiserer økonomisk vold.",
+          "Forklarer at det handler om å kontrollere den andres penger."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen mellom seksuell vold og seksuell trakassering.",
+        "fasit": "Seksuell vold er seksuelle handlinger uten samtykke. Seksuell trakassering er uønsket seksuell oppmerksomhet, for eksempel kommentarer, berøring eller bilder.",
+        "kriterier": [
+          "Forklarer at seksuell vold handler om seksuelle handlinger uten samtykke.",
+          "Forklarer at seksuell trakassering handler om uønsket seksuell oppmerksomhet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person som utsettes for vold, får søvnvansker og begynner å få problemer med å stole på andre. Forklar én mulig sammenheng mellom volden og en av disse følgene.",
+        "fasit": "Vold kan føre til psykiske plager som søvnvansker. Den kan også gjøre det vanskeligere å ha tillit til andre og bygge relasjoner.",
+        "kriterier": [
+          "Knytter vold til minst én relevant følge, som psykiske plager eller vansker med tillit og relasjoner.",
+          "Forklarer sammenhengen mellom volden og følgen, ikke bare nevner den."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hva som kjennetegner mobbing, og hva som kjennetegner netthets. Hva er en viktig forskjell mellom begrepene?",
+        "fasit": "Mobbing er gjentatte negative handlinger mot en person som har vanskelig for å forsvare seg. Netthets er trakassering i sosiale medier eller kommentarfelt, så en viktig forskjell er at netthets foregår på nett.",
+        "kriterier": [
+          "Får fram at mobbing innebærer gjentatte negative handlinger mot en som har vanskelig for å forsvare seg.",
+          "Får fram at netthets er trakassering i sosiale medier eller kommentarfelt."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En voksen og et barn trenger et trygt sted fordi de opplever vold i familien. Hvilket tilbud kan de kontakte, og hva er formålet med tilbudet?",
+        "fasit": "De kan kontakte et krisesenter. Krisesentre er tilbud for voksne og barn som utsettes for vold i nære relasjoner.",
+        "kriterier": [
+          "Nevner krisesenter.",
+          "Forklarer at tilbudet er for personer som utsettes for vold i nære relasjoner."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Nevn to mulige konsekvenser av vold for samfunnet, og forklar kort hva de innebærer.",
+        "fasit": "Vold gir store kostnader til blant annet helsevesen, rettsvesen og barnevern, og kan føre til tapt arbeidskraft. Den kan også skape utrygghet og redusere tilliten i samfunnet.",
+        "kriterier": [
+          "Nevner og forklarer to ulike samfunnskonsekvenser, for eksempel kostnader og tapt arbeidskraft.",
+          "Eller beskriver utrygghet, redusert tillit eller at vold kan gå i arv mellom generasjoner."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En skole vil forebygge vold og trakassering. Beskriv to tiltak skolen kan bruke, og forklar kort hva tiltakene retter seg mot.",
+        "fasit": "Skolen kan undervise om grenser, samtykke og vold, og drive holdningsarbeid mot hets og trakassering. Tydelige reaksjoner på skolen kan også bidra til å forebygge trakassering.",
+        "kriterier": [
+          "Nevner to forebyggende tiltak som undervisning, holdningsarbeid eller tydelige reaksjoner.",
+          "Forklarer at tiltakene retter seg mot kunnskap om grenser og vold eller mot hets og trakassering."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

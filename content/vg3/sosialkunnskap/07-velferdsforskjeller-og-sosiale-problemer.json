@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Velferdsforskjeller og sosiale problemer",
   "intro": "Hvordan forskjeller i inntekt, utdanning, bolig og helse henger sammen med sosiale problemer som dårlig helse, rus, kriminalitet og frafall – den sosiale gradienten, barn i lavinntektsfamilier, opphopning av levekårsutfordringer – og hvilke konsekvenser det får for individ og samfunn.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Hva er velferdsforskjeller?\n\n**Velferdsforskjeller** er forskjeller i **levekår** – inntekt, formue, utdanning, bolig, helse, arbeid og sosiale nettverk. Selv i et rikt land som Norge er det store forskjeller mellom grupper og mellom **bydeler** og **kommuner**.\n\n## Den sosiale gradienten\n\nForskning viser en **sosial gradient** i helse: For hvert trinn **opp** på inntekts- og utdanningsstigen blir helsen i gjennomsnitt **bedre**. Personer med **høy** inntekt og utdanning lever i gjennomsnitt **flere år** lenger enn personer med lav inntekt og utdanning. Gradienten gjelder ikke bare de fattigste – den går gjennom **hele** befolkningen.\n\n## Sammenhenger med sosiale problemer\n\n**Helse**: Lav inntekt henger sammen med mer **røyking**, mindre fysisk aktivitet, dårligere **kosthold** og mer **stress**. Samtidig kan **sykdom** føre til lav inntekt. Sammenhengen går **begge veier**.\n\n**Psykisk helse**: Økonomiske bekymringer, **trangboddhet** og utrygghet gir **stress** i familien, som kan gå ut over både voksne og barn.\n\n**Rus**: Rusproblemer finnes i alle lag, men **konsekvensene** – tap av bolig, arbeid og helse – er ofte størst for dem med få ressurser.\n\n**Kriminalitet**: Kriminalitet er mer utbredt i områder med **opphopning** av levekårsutfordringer. Årsakene er sammensatte: **fattigdom**, **frafall**, **utenforskap**, svake **nettverk** og **negative** miljøer.\n\n**Utdanning og frafall**: Barn fra familier med **lav** inntekt og utdanning har i gjennomsnitt **svakere** skoleresultater og høyere **frafall**.\n\n## Barn i lavinntektsfamilier\n\nAndelen barn som vokser opp i familier med **vedvarende lavinntekt**, har **økt** i Norge de siste tiårene. Mange av dem har foreldre med **innvandrerbakgrunn** eller foreldre som står **utenfor** arbeidslivet. For barna kan det bety\n\n- at de ikke kan delta i **fritidsaktiviteter**, turer og bursdager\n- **trangboddhet** og hyppige **flyttinger**\n- **skam** og **utenforskap**\n- at **ulikheten går i arv**\n\n## Årsak eller sammenheng?\n\nNår vi ser at to forhold henger sammen, må vi spørre om det ene **forårsaker** det andre, om det går **begge veier**, eller om en **tredje** faktor påvirker begge. Fattigdom kan gi dårlig helse, dårlig helse kan gi fattigdom, og lav utdanning kan påvirke begge.\n\n## Konsekvenser for individet\n\n- dårligere **helse** og kortere **levealder**\n- færre **muligheter** til utdanning og arbeid\n- **stress**, **skam** og **ensomhet**\n- større risiko for å bli **utsatt** for eller **begå** kriminalitet\n\n## Konsekvenser for samfunnet\n\n- høyere utgifter til **helse**, **trygd** og **rettsvesen**\n- tapt **arbeidskraft**\n- svekket **tillit** og **samhold**\n- risiko for **segregering** – at grupper bor og lever **atskilt**\n\n## Tiltak\n\n- **Områdesatsinger** i utsatte bydeler med bedre skoler, møteplasser og tjenester\n- **Fritidskort** og gratis aktiviteter for barn\n- **Familiestøtte** og arbeidsrettede tiltak for foreldre\n- **Folkehelsetiltak** som når alle, for eksempel røykeslutt og fysisk aktivitet i skolen\n\n## Drøfting\n\nSkal politikken rette seg mot de **fattigste**, eller mot hele **gradienten**? Mange folkehelseforskere argumenterer for **proporsjonal universalisme**: tiltak for **alle**, men med **mer** innsats der behovet er størst.",
   "flashcards": [
-    { "term": "Velferdsforskjeller", "def": "Forskjeller i levekår som inntekt, bolig, helse og utdanning." },
-    { "term": "Sosial gradient", "def": "For hvert trinn opp på stigen blir helsen bedre." },
-    { "term": "Levealdersforskjeller", "def": "Høy inntekt og utdanning gir i gjennomsnitt flere leveår." },
-    { "term": "Toveis sammenheng", "def": "Fattigdom kan gi sykdom, og sykdom kan gi fattigdom." },
-    { "term": "Trangboddhet", "def": "For lite plass i boligen i forhold til antall personer." },
-    { "term": "Vedvarende lavinntekt", "def": "Lav inntekt over flere år." },
-    { "term": "Opphopning av levekårsutfordringer", "def": "Mange problemer samlet i samme område eller familie." },
-    { "term": "Segregering", "def": "At grupper bor og lever atskilt." },
-    { "term": "Områdesatsing", "def": "Samlet innsats i utsatte bydeler." },
-    { "term": "Fritidskort", "def": "Ordning som gir barn mulighet til fritidsaktiviteter." },
-    { "term": "Folkehelsetiltak", "def": "Tiltak som når hele befolkningen." },
-    { "term": "Proporsjonal universalisme", "def": "Tiltak for alle, men mer innsats der behovet er størst." },
-    { "term": "Tredjevariabel", "def": "En faktor som påvirker begge forholdene i en sammenheng." },
-    { "term": "Frafall", "def": "Å ikke fullføre videregående opplæring." },
-    { "term": "Sosiale problemer", "def": "Forhold som skader mange og krever samfunnets innsats." }
+    {
+      "term": "Velferdsforskjeller",
+      "def": "Forskjeller i levekår som inntekt, bolig, helse og utdanning."
+    },
+    {
+      "term": "Sosial gradient",
+      "def": "For hvert trinn opp på stigen blir helsen bedre."
+    },
+    {
+      "term": "Levealdersforskjeller",
+      "def": "Høy inntekt og utdanning gir i gjennomsnitt flere leveår."
+    },
+    {
+      "term": "Toveis sammenheng",
+      "def": "Fattigdom kan gi sykdom, og sykdom kan gi fattigdom."
+    },
+    {
+      "term": "Trangboddhet",
+      "def": "For lite plass i boligen i forhold til antall personer."
+    },
+    {
+      "term": "Vedvarende lavinntekt",
+      "def": "Lav inntekt over flere år."
+    },
+    {
+      "term": "Opphopning av levekårsutfordringer",
+      "def": "Mange problemer samlet i samme område eller familie."
+    },
+    {
+      "term": "Segregering",
+      "def": "At grupper bor og lever atskilt."
+    },
+    {
+      "term": "Områdesatsing",
+      "def": "Samlet innsats i utsatte bydeler."
+    },
+    {
+      "term": "Fritidskort",
+      "def": "Ordning som gir barn mulighet til fritidsaktiviteter."
+    },
+    {
+      "term": "Folkehelsetiltak",
+      "def": "Tiltak som når hele befolkningen."
+    },
+    {
+      "term": "Proporsjonal universalisme",
+      "def": "Tiltak for alle, men mer innsats der behovet er størst."
+    },
+    {
+      "term": "Tredjevariabel",
+      "def": "En faktor som påvirker begge forholdene i en sammenheng."
+    },
+    {
+      "term": "Frafall",
+      "def": "Å ikke fullføre videregående opplæring."
+    },
+    {
+      "term": "Sosiale problemer",
+      "def": "Forhold som skader mange og krever samfunnets innsats."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er den sosiale gradienten i helse?", "options": ["At bare de fattigste har dårlig helse", "At helsen i gjennomsnitt blir bedre for hvert trinn opp på inntekts- og utdanningsstigen", "At alle har like god helse", "At rike har dårligst helse"], "correct": 1, "explain": "Gjelder hele befolkningen." },
-    { "id": "q02", "text": "Hva betyr at sammenhengen mellom fattigdom og helse går begge veier?", "options": ["At fattigdom kan gi dårlig helse, og dårlig helse kan gi fattigdom", "At det ikke er noen sammenheng", "At helse bare påvirker inntekt", "At inntekt bare påvirker helse"], "correct": 0, "explain": "Toveis sammenheng." },
-    { "id": "q03", "text": "Hva har skjedd med andelen barn i vedvarende lavinntekt i Norge de siste tiårene?", "options": ["Den har falt kraftig", "Den er uendret", "Den har økt", "Den er null"], "correct": 2, "explain": "Et viktig politisk tema." },
-    { "id": "q04", "text": "Hva er segregering?", "options": ["Integrering", "En skatt", "En velferdsordning", "At grupper bor og lever atskilt"], "correct": 3, "explain": "En mulig konsekvens av store forskjeller." },
-    { "id": "q05", "text": "Hva er proporsjonal universalisme?", "options": ["Tiltak for alle, men mer innsats der behovet er størst", "Tiltak bare for de rikeste", "Ingen tiltak", "Like tiltak for alle uten forskjell"], "correct": 0, "explain": "Rettet mot hele gradienten." },
-    { "id": "q06", "text": "Hvilken konsekvens kan lavinntekt ha for barn?", "options": ["Flere fritidsaktiviteter", "At de ikke kan delta i aktiviteter som andre barn", "Bedre skoleresultater", "Mer plass hjemme"], "correct": 1, "explain": "Kan gi skam og utenforskap." },
-    { "id": "q07", "text": "Hva er en områdesatsing?", "options": ["En skatteordning", "En idrettskonkurranse", "Samlet innsats i utsatte bydeler", "En type lån"], "correct": 2, "explain": "Bedre skoler, møteplasser og tjenester." },
-    { "id": "q08", "text": "Hvorfor må vi skille mellom sammenheng og årsak?", "options": ["Fordi statistikk alltid er feil", "Fordi det er lovpålagt", "Fordi sammenhenger aldri finnes", "Fordi en tredje faktor kan påvirke begge forholdene"], "correct": 3, "explain": "For eksempel utdanning." },
-    { "id": "q09", "text": "Hvilken samfunnskonsekvens har store velferdsforskjeller?", "options": ["Høyere utgifter til helse, trygd og rettsvesen", "Mer tillit", "Lavere utgifter", "Flere i arbeid"], "correct": 0, "explain": "Og tapt arbeidskraft." },
-    { "id": "q10", "text": "Hvilke faktorer bidrar til kriminalitet i utsatte områder?", "options": ["Bare gener", "Fattigdom, frafall, utenforskap og svake nettverk", "Bare været", "Høy inntekt"], "correct": 1, "explain": "Sammensatte årsaker." }
+    {
+      "id": "q01",
+      "text": "Hva er den sosiale gradienten i helse?",
+      "options": [
+        "At bare de fattigste har dårlig helse",
+        "At helsen i gjennomsnitt blir bedre for hvert trinn opp på inntekts- og utdanningsstigen",
+        "At alle har like god helse",
+        "At rike har dårligst helse"
+      ],
+      "correct": 1,
+      "explain": "Gjelder hele befolkningen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr at sammenhengen mellom fattigdom og helse går begge veier?",
+      "options": [
+        "At fattigdom kan gi dårlig helse, og dårlig helse kan gi fattigdom",
+        "At det ikke er noen sammenheng",
+        "At helse bare påvirker inntekt",
+        "At inntekt bare påvirker helse"
+      ],
+      "correct": 0,
+      "explain": "Toveis sammenheng."
+    },
+    {
+      "id": "q03",
+      "text": "Hva har skjedd med andelen barn i vedvarende lavinntekt i Norge de siste tiårene?",
+      "options": [
+        "Den har falt kraftig",
+        "Den er uendret",
+        "Den har økt",
+        "Den er null"
+      ],
+      "correct": 2,
+      "explain": "Et viktig politisk tema."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er segregering?",
+      "options": [
+        "Integrering",
+        "En skatt",
+        "En velferdsordning",
+        "At grupper bor og lever atskilt"
+      ],
+      "correct": 3,
+      "explain": "En mulig konsekvens av store forskjeller."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er proporsjonal universalisme?",
+      "options": [
+        "Tiltak for alle, men mer innsats der behovet er størst",
+        "Tiltak bare for de rikeste",
+        "Ingen tiltak",
+        "Like tiltak for alle uten forskjell"
+      ],
+      "correct": 0,
+      "explain": "Rettet mot hele gradienten."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken konsekvens kan lavinntekt ha for barn?",
+      "options": [
+        "Flere fritidsaktiviteter",
+        "At de ikke kan delta i aktiviteter som andre barn",
+        "Bedre skoleresultater",
+        "Mer plass hjemme"
+      ],
+      "correct": 1,
+      "explain": "Kan gi skam og utenforskap."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en områdesatsing?",
+      "options": [
+        "En skatteordning",
+        "En idrettskonkurranse",
+        "Samlet innsats i utsatte bydeler",
+        "En type lån"
+      ],
+      "correct": 2,
+      "explain": "Bedre skoler, møteplasser og tjenester."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor må vi skille mellom sammenheng og årsak?",
+      "options": [
+        "Fordi statistikk alltid er feil",
+        "Fordi det er lovpålagt",
+        "Fordi sammenhenger aldri finnes",
+        "Fordi en tredje faktor kan påvirke begge forholdene"
+      ],
+      "correct": 3,
+      "explain": "For eksempel utdanning."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken samfunnskonsekvens har store velferdsforskjeller?",
+      "options": [
+        "Høyere utgifter til helse, trygd og rettsvesen",
+        "Mer tillit",
+        "Lavere utgifter",
+        "Flere i arbeid"
+      ],
+      "correct": 0,
+      "explain": "Og tapt arbeidskraft."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilke faktorer bidrar til kriminalitet i utsatte områder?",
+      "options": [
+        "Bare gener",
+        "Fattigdom, frafall, utenforskap og svake nettverk",
+        "Bare været",
+        "Høy inntekt"
+      ],
+      "correct": 1,
+      "explain": "Sammensatte årsaker."
+    }
   ],
   "mindmap": {
     "label": "Velferdsforskjeller",
     "children": [
-      { "label": "Forskjeller", "children": [
-        { "label": "Inntekt og formue" },
-        { "label": "Bolig og bosted" },
-        { "label": "Helse og utdanning" }
-      ] },
-      { "label": "Sammenhenger", "children": [
-        { "label": "Sosial gradient" },
-        { "label": "Rus og kriminalitet" },
-        { "label": "Frafall" }
-      ] },
-      { "label": "Barn", "children": [
-        { "label": "Vedvarende lavinntekt" },
-        { "label": "Utenforskap" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Individ" },
-        { "label": "Samfunn og segregering" }
-      ] },
-      { "label": "Tiltak", "children": [
-        { "label": "Områdesatsing" },
-        { "label": "Fritidskort" },
-        { "label": "Proporsjonal universalisme" }
-      ] }
+      {
+        "label": "Forskjeller",
+        "children": [
+          {
+            "label": "Inntekt og formue"
+          },
+          {
+            "label": "Bolig og bosted"
+          },
+          {
+            "label": "Helse og utdanning"
+          }
+        ]
+      },
+      {
+        "label": "Sammenhenger",
+        "children": [
+          {
+            "label": "Sosial gradient"
+          },
+          {
+            "label": "Rus og kriminalitet"
+          },
+          {
+            "label": "Frafall"
+          }
+        ]
+      },
+      {
+        "label": "Barn",
+        "children": [
+          {
+            "label": "Vedvarende lavinntekt"
+          },
+          {
+            "label": "Utenforskap"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Individ"
+          },
+          {
+            "label": "Samfunn og segregering"
+          }
+        ]
+      },
+      {
+        "label": "Tiltak",
+        "children": [
+          {
+            "label": "Områdesatsing"
+          },
+          {
+            "label": "Fritidskort"
+          },
+          {
+            "label": "Proporsjonal universalisme"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Rusproblemer finnes i alle samfunnslag.", "correct": true, "explain": "Men konsekvensene er ofte størst for dem med få ressurser." },
-      { "id": "m02", "type": "sant-usant", "text": "Den sosiale gradienten gjelder bare de aller fattigste.", "correct": false, "explain": "Den går gjennom hele befolkningen." },
-      { "id": "m03", "type": "sant-usant", "text": "Trangboddhet kan gi stress i familien.", "correct": true, "explain": "Påvirker både voksne og barn." },
-      { "id": "m04", "type": "sant-usant", "text": "Det er ingen levekårsforskjeller mellom bydeler i norske byer.", "correct": false, "explain": "Forskjellene kan være store." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket tiltak når hele befolkningen?", "options": ["Områdesatsing", "Folkehelsetiltak som fysisk aktivitet i skolen", "Sosialhjelp", "Fengselsstraff"], "correct": 1, "explain": "Universelle tiltak." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken gruppe er overrepresentert blant barn i lavinntektsfamilier?", "options": ["Barn med foreldre med innvandrerbakgrunn eller utenfor arbeidslivet", "Barn av ledere", "Barn i spredtbygde strøk alene", "Ingen gruppe"], "correct": 0, "explain": "Arbeidstilknytning er avgjørende." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan være en tredje faktor bak sammenhengen mellom inntekt og helse?", "options": ["Hårfarge", "Stjernetegn", "Utdanning", "Høyde"], "correct": 2, "explain": "Påvirker både inntekt og helse." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Rusproblemer finnes i alle samfunnslag.",
+        "correct": true,
+        "explain": "Men konsekvensene er ofte størst for dem med få ressurser."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Den sosiale gradienten gjelder bare de aller fattigste.",
+        "correct": false,
+        "explain": "Den går gjennom hele befolkningen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Trangboddhet kan gi stress i familien.",
+        "correct": true,
+        "explain": "Påvirker både voksne og barn."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det er ingen levekårsforskjeller mellom bydeler i norske byer.",
+        "correct": false,
+        "explain": "Forskjellene kan være store."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket tiltak når hele befolkningen?",
+        "options": [
+          "Områdesatsing",
+          "Folkehelsetiltak som fysisk aktivitet i skolen",
+          "Sosialhjelp",
+          "Fengselsstraff"
+        ],
+        "correct": 1,
+        "explain": "Universelle tiltak."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken gruppe er overrepresentert blant barn i lavinntektsfamilier?",
+        "options": [
+          "Barn med foreldre med innvandrerbakgrunn eller utenfor arbeidslivet",
+          "Barn av ledere",
+          "Barn i spredtbygde strøk alene",
+          "Ingen gruppe"
+        ],
+        "correct": 0,
+        "explain": "Arbeidstilknytning er avgjørende."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan være en tredje faktor bak sammenhengen mellom inntekt og helse?",
+        "options": [
+          "Hårfarge",
+          "Stjernetegn",
+          "Utdanning",
+          "Høyde"
+        ],
+        "correct": 2,
+        "explain": "Påvirker både inntekt og helse."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva velferdsforskjeller betyr, og ta med to ulike sider ved levekår som kan variere mellom mennesker.",
+        "fasit": "Velferdsforskjeller er forskjeller i levekår. Det kan for eksempel være forskjeller i inntekt, bolig, helse eller utdanning.",
+        "kriterier": [
+          "Forklarer at det handler om forskjeller i levekår.",
+          "Nevner minst to relevante sider ved levekår, som inntekt, bolig, helse eller utdanning."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En familie har økonomiske bekymringer og bor trangt. Forklar hvordan dette kan påvirke den psykiske helsen i familien.",
+        "fasit": "Økonomiske bekymringer og trangboddhet kan skape stress i familien. Stresset kan gå ut over både voksne og barn.",
+        "kriterier": [
+          "Knytter økonomiske bekymringer og/eller trangboddhet til stress.",
+          "Forklarer at stresset kan påvirke den psykiske helsen til voksne og barn."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I en gruppe henger lav inntekt sammen med dårlig helse. Flere i gruppen har også lav utdanning. Forklar hvordan lav utdanning kan være en tredjevariabel i denne sammenhengen.",
+        "fasit": "Lav utdanning kan påvirke både inntekt og helse. Derfor kan sammenhengen mellom lav inntekt og dårlig helse delvis skyldes utdanning, og ikke bare at lav inntekt påvirker helsen.",
+        "kriterier": [
+          "Forklarer at utdanning kan påvirke både inntekt og helse.",
+          "Viser at en tredjevariabel gjør at man ikke uten videre kan slå fast at lav inntekt alene forårsaker dårlig helse."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Rusproblemer finnes i ulike samfunnslag. Sammenlign hvilke konsekvenser rusproblemer ofte får for personer med få ressurser, med konsekvensene for personer med flere ressurser.",
+        "fasit": "Rusproblemer finnes i alle samfunnslag, men konsekvensene er ofte størst for personer med få ressurser. De kan lettere rammes av tap av bolig, arbeid og helse.",
+        "kriterier": [
+          "Får fram at rusproblemer finnes i alle samfunnslag.",
+          "Forklarer at konsekvensene ofte er større for personer med få ressurser, for eksempel ved å nevne tap av bolig, arbeid eller helse."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Barn fra familier med lav inntekt og utdanning har i gjennomsnitt svakere skoleresultater. Forklar hvilken sammenheng dette også har med frafall fra videregående opplæring.",
+        "fasit": "Barn fra familier med lav inntekt og utdanning har i gjennomsnitt svakere skoleresultater og høyere risiko for frafall. Frafall betyr å ikke fullføre videregående opplæring.",
+        "kriterier": [
+          "Knytter lav inntekt og utdanning til svakere skoleresultater.",
+          "Får fram at gruppen i gjennomsnitt har høyere frafall, og forklarer frafall som å ikke fullføre videregående opplæring."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et barn kan ikke delta på fritidsaktiviteter fordi familien har dårlig råd. Hvilket tiltak fra sosialpolitikken kan hjelpe barnet, og hvordan kan tiltaket hjelpe?",
+        "fasit": "Et fritidskort kan gi barnet mulighet til å delta i fritidsaktiviteter. Det kan gjøre det lettere for barn fra familier med lav inntekt å være med.",
+        "kriterier": [
+          "Foreslår fritidskort.",
+          "Forklarer at ordningen gir barnet mulighet til å delta i fritidsaktiviteter."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign et folkehelsetiltak som fysisk aktivitet i skolen med en områdesatsing. Hvem eller hva retter de seg mot?",
+        "fasit": "Et folkehelsetiltak, som fysisk aktivitet i skolen, kan nå hele befolkningen. En områdesatsing samler innsats i en utsatt bydel, for eksempel gjennom bedre skoler, møteplasser og tjenester.",
+        "kriterier": [
+          "Forklarer at folkehelsetiltak kan nå hele befolkningen.",
+          "Forklarer at områdesatsing retter samlet innsats mot utsatte bydeler, gjerne med eksempler på innsatsen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I en bydel møter mange familier flere utfordringer samtidig, som lav inntekt, frafall og svake nettverk. Hva kalles dette, og hva innebærer begrepet?",
+        "fasit": "Dette kalles opphopning av levekårsutfordringer. Det innebærer at mange problemer er samlet i det samme området eller i den samme familien.",
+        "kriterier": [
+          "Identifiserer opphopning av levekårsutfordringer.",
+          "Forklarer at flere utfordringer er samlet i ett område eller én familie."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,75 +4,415 @@
   "trinnId": "vg3",
   "name": "Elektromagnetisk induksjon",
   "intro": "Ulike måter å indusere elektromotorisk spenning og strøm på – magnetisk fluks, Faradays induksjonslov og Lenz' regel, indusert spenning i en leder som beveger seg i et magnetfelt – og hvordan du utforsker induksjon med forsøk og analyserer resultatene.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Hva er induksjon?\n\n**Elektromagnetisk induksjon** betyr at en **endring** i et magnetfelt gjennom en ledersløyfe gir en **indusert spenning** – en **elektromotorisk spenning** (ems). Er kretsen lukket, går det en **indusert strøm**. Fenomenet ble oppdaget av **Michael Faraday** i **1831**.\n\n## Magnetisk fluks\n\n**Magnetisk fluks** Φ er et mål på hvor mye magnetfelt som går gjennom en flate:\n\n**Φ = B · A · cos θ**\n\nder A er arealet og θ vinkelen mellom feltet og normalen til flaten. Enheten er **weber** (Wb). Står feltet **vinkelrett** på flaten, er Φ = B · A.\n\n## Faradays induksjonslov\n\nDen induserte spenningen er lik **endringen i fluks per tid**:\n\n**ε = −N · ΔΦ / Δt**\n\nder N er antall **vindinger** i spolen.\n\nFluksen kan endres ved å\n\n- endre **B** – for eksempel bevege en magnet inn i eller ut av en spole, eller slå strømmen i en elektromagnet av og på\n- endre **arealet** A – for eksempel ved å strekke en sløyfe\n- endre **vinkelen** θ – for eksempel ved å **rotere** en spole i et magnetfelt, slik en **generator** gjør\n\n**Eksempel**: En spole med 200 vindinger får en fluksendring på 0,010 Wb i løpet av 0,50 s. ε = 200 · 0,010 / 0,50 = **4,0 V**.\n\n## Lenz' regel\n\nMinustegnet i Faradays lov uttrykker **Lenz' regel**: Den induserte strømmen går i en slik retning at den **motvirker** endringen som skapte den. Skyver du en nordpol mot en spole, blir spolens ende også en **nordpol** som **frastøter** magneten. Regelen er en følge av **energibevaring** – du må gjøre **arbeid** for å skyve magneten inn.\n\n## Leder som beveger seg i et magnetfelt\n\nNår en rett leder med lengden l beveger seg med farten v **vinkelrett** på et magnetfelt B, induseres spenningen\n\n**ε = B · l · v**\n\nForklaringen er at de frie elektronene i lederen får kraften **F = qvB** og flyttes mot den ene enden.\n\n**Eksempel**: B = 0,50 T, l = 0,20 m og v = 3,0 m/s gir ε = 0,50 · 0,20 · 3,0 = **0,30 V**.\n\n## Utforske induksjon\n\nEnkle forsøk:\n\n- Stikk en **magnet** inn i en **spole** koblet til et **voltmeter** eller en datalogger. Spenningen er **større** når magneten beveges **raskere**, når spolen har **flere vindinger** og når magneten er **sterkere**.\n- Når magneten står **stille**, er spenningen **null** – det er **endringen** som gir spenning.\n- Når magneten trekkes **ut**, skifter spenningen **fortegn**.\n- Slipp en magnet gjennom et **kobberrør**: Den faller **langsomt** fordi induserte **virvelstrømmer** motvirker bevegelsen.\n\nVed **analyse** kan du plotte spenning mot tid og sammenligne **arealet** under grafen – den totale fluksendringen – for rask og langsom bevegelse. Arealet blir omtrent **likt**, fordi fluksendringen er den samme.",
   "flashcards": [
-    { "term": "Elektromagnetisk induksjon", "def": "Endring i magnetfelt gjennom en sløyfe gir indusert spenning." },
-    { "term": "Elektromotorisk spenning", "def": "Indusert spenning, ofte skrevet ε." },
-    { "term": "Michael Faraday", "def": "Oppdaget induksjon i 1831." },
-    { "term": "Magnetisk fluks", "def": "Φ = B · A · cos θ, målt i weber." },
-    { "term": "Weber", "def": "Enheten for magnetisk fluks." },
-    { "term": "Faradays induksjonslov", "def": "ε = −N · ΔΦ / Δt." },
-    { "term": "Vindinger", "def": "Antall runder i en spole – flere gir større spenning." },
-    { "term": "Lenz' regel", "def": "Indusert strøm motvirker endringen som skapte den." },
-    { "term": "Energibevaring og Lenz", "def": "Man må gjøre arbeid for å skape den induserte strømmen." },
-    { "term": "ε = Blv", "def": "Indusert spenning i leder som beveger seg vinkelrett på feltet." },
-    { "term": "Virvelstrømmer", "def": "Induserte strømmer i metaller som motvirker bevegelse." },
-    { "term": "Magnet i kobberrør", "def": "Faller langsomt på grunn av virvelstrømmer." },
-    { "term": "Stillestående magnet", "def": "Gir ingen indusert spenning." },
-    { "term": "Fortegnsskifte", "def": "Spenningen skifter fortegn når magneten trekkes ut i stedet for inn." },
-    { "term": "Areal under ε–t-graf", "def": "Tilsvarer den totale fluksendringen." }
+    {
+      "term": "Elektromagnetisk induksjon",
+      "def": "Endring i magnetfelt gjennom en sløyfe gir indusert spenning."
+    },
+    {
+      "term": "Elektromotorisk spenning",
+      "def": "Indusert spenning, ofte skrevet ε."
+    },
+    {
+      "term": "Michael Faraday",
+      "def": "Oppdaget induksjon i 1831."
+    },
+    {
+      "term": "Magnetisk fluks",
+      "def": "Φ = B · A · cos θ, målt i weber."
+    },
+    {
+      "term": "Weber",
+      "def": "Enheten for magnetisk fluks."
+    },
+    {
+      "term": "Faradays induksjonslov",
+      "def": "ε = −N · ΔΦ / Δt."
+    },
+    {
+      "term": "Vindinger",
+      "def": "Antall runder i en spole – flere gir større spenning."
+    },
+    {
+      "term": "Lenz' regel",
+      "def": "Indusert strøm motvirker endringen som skapte den."
+    },
+    {
+      "term": "Energibevaring og Lenz",
+      "def": "Man må gjøre arbeid for å skape den induserte strømmen."
+    },
+    {
+      "term": "ε = Blv",
+      "def": "Indusert spenning i leder som beveger seg vinkelrett på feltet."
+    },
+    {
+      "term": "Virvelstrømmer",
+      "def": "Induserte strømmer i metaller som motvirker bevegelse."
+    },
+    {
+      "term": "Magnet i kobberrør",
+      "def": "Faller langsomt på grunn av virvelstrømmer."
+    },
+    {
+      "term": "Stillestående magnet",
+      "def": "Gir ingen indusert spenning."
+    },
+    {
+      "term": "Fortegnsskifte",
+      "def": "Spenningen skifter fortegn når magneten trekkes ut i stedet for inn."
+    },
+    {
+      "term": "Areal under ε–t-graf",
+      "def": "Tilsvarer den totale fluksendringen."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva gir indusert spenning?", "options": ["Et konstant magnetfelt", "En endring i magnetisk fluks", "En sterk magnet som står stille", "Et elektrisk felt alene"], "correct": 1, "explain": "Det er endringen som teller." },
-    { "id": "q02", "text": "Hva er magnetisk fluks når feltet står vinkelrett på flaten?", "options": ["Φ = B · A", "Φ = B / A", "Φ = B + A", "Φ = 0"], "correct": 0, "explain": "cos 0° = 1." },
-    { "id": "q03", "text": "En spole med 200 vindinger får en fluksendring på 0,010 Wb på 0,50 s. Hva er ε?", "options": ["0,020 V", "1,0 V", "4,0 V", "100 V"], "correct": 2, "explain": "200 · 0,010 / 0,50." },
-    { "id": "q04", "text": "Hva sier Lenz' regel?", "options": ["Strømmen forsterker endringen", "Strømmen er alltid null", "Spenningen er konstant", "Den induserte strømmen motvirker endringen som skapte den"], "correct": 3, "explain": "Følger av energibevaring." },
-    { "id": "q05", "text": "En leder på 0,20 m beveger seg i 3,0 m/s vinkelrett på B = 0,50 T. Hva er ε?", "options": ["0,30 V", "3,0 V", "0,03 V", "1,5 V"], "correct": 0, "explain": "ε = Blv." },
-    { "id": "q06", "text": "Hva skjer med spenningen når magneten står stille inne i spolen?", "options": ["Den er maksimal", "Den er null", "Den øker", "Den skifter fortegn"], "correct": 1, "explain": "Ingen fluksendring." },
-    { "id": "q07", "text": "Hvorfor faller en magnet langsomt gjennom et kobberrør?", "options": ["Fordi kobber er magnetisk", "Fordi luftmotstanden er stor", "Fordi induserte virvelstrømmer motvirker bevegelsen", "Fordi røret er smalt"], "correct": 2, "explain": "Lenz' regel." },
-    { "id": "q08", "text": "Hva gjør spenningen større når en magnet stikkes inn i en spole?", "options": ["Færre vindinger", "Svakere magnet", "Langsommere bevegelse", "Raskere bevegelse og flere vindinger"], "correct": 3, "explain": "Større ΔΦ/Δt og N." },
-    { "id": "q09", "text": "Hvem oppdaget elektromagnetisk induksjon?", "options": ["Michael Faraday", "Isaac Newton", "Albert Einstein", "James Watt"], "correct": 0, "explain": "I 1831." },
-    { "id": "q10", "text": "Hvordan kan fluksen endres uten å endre B eller A?", "options": ["Det er umulig", "Ved å endre vinkelen, for eksempel ved rotasjon", "Ved å varme opp spolen", "Ved å male spolen"], "correct": 1, "explain": "Slik fungerer en generator." }
+    {
+      "id": "q01",
+      "text": "Hva gir indusert spenning?",
+      "options": [
+        "Et konstant magnetfelt",
+        "En endring i magnetisk fluks",
+        "En sterk magnet som står stille",
+        "Et elektrisk felt alene"
+      ],
+      "correct": 1,
+      "explain": "Det er endringen som teller."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er magnetisk fluks når feltet står vinkelrett på flaten?",
+      "options": [
+        "Φ = B · A",
+        "Φ = B / A",
+        "Φ = B + A",
+        "Φ = 0"
+      ],
+      "correct": 0,
+      "explain": "cos 0° = 1."
+    },
+    {
+      "id": "q03",
+      "text": "En spole med 200 vindinger får en fluksendring på 0,010 Wb på 0,50 s. Hva er ε?",
+      "options": [
+        "0,020 V",
+        "1,0 V",
+        "4,0 V",
+        "100 V"
+      ],
+      "correct": 2,
+      "explain": "200 · 0,010 / 0,50."
+    },
+    {
+      "id": "q04",
+      "text": "Hva sier Lenz' regel?",
+      "options": [
+        "Strømmen forsterker endringen",
+        "Strømmen er alltid null",
+        "Spenningen er konstant",
+        "Den induserte strømmen motvirker endringen som skapte den"
+      ],
+      "correct": 3,
+      "explain": "Følger av energibevaring."
+    },
+    {
+      "id": "q05",
+      "text": "En leder på 0,20 m beveger seg i 3,0 m/s vinkelrett på B = 0,50 T. Hva er ε?",
+      "options": [
+        "0,30 V",
+        "3,0 V",
+        "0,03 V",
+        "1,5 V"
+      ],
+      "correct": 0,
+      "explain": "ε = Blv."
+    },
+    {
+      "id": "q06",
+      "text": "Hva skjer med spenningen når magneten står stille inne i spolen?",
+      "options": [
+        "Den er maksimal",
+        "Den er null",
+        "Den øker",
+        "Den skifter fortegn"
+      ],
+      "correct": 1,
+      "explain": "Ingen fluksendring."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor faller en magnet langsomt gjennom et kobberrør?",
+      "options": [
+        "Fordi kobber er magnetisk",
+        "Fordi luftmotstanden er stor",
+        "Fordi induserte virvelstrømmer motvirker bevegelsen",
+        "Fordi røret er smalt"
+      ],
+      "correct": 2,
+      "explain": "Lenz' regel."
+    },
+    {
+      "id": "q08",
+      "text": "Hva gjør spenningen større når en magnet stikkes inn i en spole?",
+      "options": [
+        "Færre vindinger",
+        "Svakere magnet",
+        "Langsommere bevegelse",
+        "Raskere bevegelse og flere vindinger"
+      ],
+      "correct": 3,
+      "explain": "Større ΔΦ/Δt og N."
+    },
+    {
+      "id": "q09",
+      "text": "Hvem oppdaget elektromagnetisk induksjon?",
+      "options": [
+        "Michael Faraday",
+        "Isaac Newton",
+        "Albert Einstein",
+        "James Watt"
+      ],
+      "correct": 0,
+      "explain": "I 1831."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan fluksen endres uten å endre B eller A?",
+      "options": [
+        "Det er umulig",
+        "Ved å endre vinkelen, for eksempel ved rotasjon",
+        "Ved å varme opp spolen",
+        "Ved å male spolen"
+      ],
+      "correct": 1,
+      "explain": "Slik fungerer en generator."
+    }
   ],
   "mindmap": {
     "label": "Elektromagnetisk induksjon",
     "children": [
-      { "label": "Fluks", "children": [
-        { "label": "Φ = BA cos θ" },
-        { "label": "Weber" }
-      ] },
-      { "label": "Faradays lov", "children": [
-        { "label": "ε = −NΔΦ/Δt" },
-        { "label": "Endre B, A eller θ" }
-      ] },
-      { "label": "Lenz' regel", "children": [
-        { "label": "Motvirker endringen" },
-        { "label": "Energibevaring" }
-      ] },
-      { "label": "Bevegelig leder", "children": [
-        { "label": "ε = Blv" },
-        { "label": "Kraft på elektroner" }
-      ] },
-      { "label": "Forsøk", "children": [
-        { "label": "Magnet og spole" },
-        { "label": "Magnet i kobberrør" },
-        { "label": "Analyse av graf" }
-      ] }
+      {
+        "label": "Fluks",
+        "children": [
+          {
+            "label": "Φ = BA cos θ"
+          },
+          {
+            "label": "Weber"
+          }
+        ]
+      },
+      {
+        "label": "Faradays lov",
+        "children": [
+          {
+            "label": "ε = −NΔΦ/Δt"
+          },
+          {
+            "label": "Endre B, A eller θ"
+          }
+        ]
+      },
+      {
+        "label": "Lenz' regel",
+        "children": [
+          {
+            "label": "Motvirker endringen"
+          },
+          {
+            "label": "Energibevaring"
+          }
+        ]
+      },
+      {
+        "label": "Bevegelig leder",
+        "children": [
+          {
+            "label": "ε = Blv"
+          },
+          {
+            "label": "Kraft på elektroner"
+          }
+        ]
+      },
+      {
+        "label": "Forsøk",
+        "children": [
+          {
+            "label": "Magnet og spole"
+          },
+          {
+            "label": "Magnet i kobberrør"
+          },
+          {
+            "label": "Analyse av graf"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Spenningen skifter fortegn når magneten trekkes ut i stedet for inn.", "correct": true, "explain": "Fluksendringen har motsatt fortegn." },
-      { "id": "m02", "type": "sant-usant", "text": "Lenz' regel betyr at induksjon gir gratis energi.", "correct": false, "explain": "Man må gjøre arbeid – energien er bevart." },
-      { "id": "m03", "type": "sant-usant", "text": "Arealet under en ε–t-graf er omtrent likt for rask og langsom bevegelse av samme magnet.", "correct": true, "explain": "Den totale fluksendringen er den samme." },
-      { "id": "m04", "type": "sant-usant", "text": "Induksjon krever en magnet som står helt stille.", "correct": false, "explain": "Det krever en endring." },
-      { "id": "m05", "type": "flervalg", "text": "Hvorfor oppstår spenning i en leder som beveger seg i et magnetfelt?", "options": ["Lederen blir varm", "Elektronene får kraften qvB og flyttes mot én ende", "Lederen blir magnetisk", "Luften blir ladet"], "correct": 1, "explain": "Ladningene separeres." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er enheten for magnetisk fluks?", "options": ["Weber", "Tesla", "Volt", "Ampere"], "correct": 0, "explain": "1 Wb = 1 T · m²." },
-      { "id": "m07", "type": "flervalg", "text": "Du skyver en nordpol mot en spole. Hva slags pol blir spolens nærmeste ende?", "options": ["Sørpol", "Ingen pol", "Nordpol", "Det varierer tilfeldig"], "correct": 2, "explain": "Den frastøter magneten etter Lenz' regel." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Spenningen skifter fortegn når magneten trekkes ut i stedet for inn.",
+        "correct": true,
+        "explain": "Fluksendringen har motsatt fortegn."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Lenz' regel betyr at induksjon gir gratis energi.",
+        "correct": false,
+        "explain": "Man må gjøre arbeid – energien er bevart."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Arealet under en ε–t-graf er omtrent likt for rask og langsom bevegelse av samme magnet.",
+        "correct": true,
+        "explain": "Den totale fluksendringen er den samme."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Induksjon krever en magnet som står helt stille.",
+        "correct": false,
+        "explain": "Det krever en endring."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvorfor oppstår spenning i en leder som beveger seg i et magnetfelt?",
+        "options": [
+          "Lederen blir varm",
+          "Elektronene får kraften qvB og flyttes mot én ende",
+          "Lederen blir magnetisk",
+          "Luften blir ladet"
+        ],
+        "correct": 1,
+        "explain": "Ladningene separeres."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er enheten for magnetisk fluks?",
+        "options": [
+          "Weber",
+          "Tesla",
+          "Volt",
+          "Ampere"
+        ],
+        "correct": 0,
+        "explain": "1 Wb = 1 T · m²."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Du skyver en nordpol mot en spole. Hva slags pol blir spolens nærmeste ende?",
+        "options": [
+          "Sørpol",
+          "Ingen pol",
+          "Nordpol",
+          "Det varierer tilfeldig"
+        ],
+        "correct": 2,
+        "explain": "Den frastøter magneten etter Lenz' regel."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En sløyfe ligger i et magnetfelt. Forklar hva magnetisk fluks beskriver, og hvordan fluksen påvirkes når vinkelen mellom magnetfeltet og normalen til flaten endres mens B og A er konstante.",
+        "fasit": "Magnetisk fluks beskriver hvor mye magnetfelt som går gjennom en flate, og beregnes med Φ = B · A · cos θ. Når vinkelen endres, endres fluksen; den er størst når feltet står vinkelrett på flaten.",
+        "kriterier": [
+          "Forklarer at fluks beskriver magnetfelt gjennom en flate.",
+          "Knytter fluksen til vinkelen, for eksempel ved å vise til cos θ eller at fluksen endres når vinkelen endres."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En spole med 200 vindinger får en fluksendring på 0,010 Wb og en indusert spenning på 4,0 V. Bruk |ε| = N · ΔΦ / Δt til å finne hvor lang tid fluksendringen tar.",
+        "fasit": "Omorganisert blir Δt = N · ΔΦ / |ε|. Dermed er Δt = 200 · 0,010 / 4,0 = 0,50 s.",
+        "kriterier": [
+          "Setter opp eller bruker Δt = N · ΔΦ / |ε|.",
+          "Får Δt = 0,50 s."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En nordpol skyves mot en spole. Hvilken magnetisk pol dannes i enden av spolen som vender mot magneten, og hvordan motvirker dette endringen?",
+        "fasit": "Enden av spolen som vender mot magneten, blir en nordpol. Den frastøter den innkommende nordpolen og motvirker dermed at magneten skyves inn.",
+        "kriterier": [
+          "Angir at enden nær magneten blir en nordpol.",
+          "Forklarer at frastøtingen motvirker magnetens bevegelse inn mot spolen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En rett leder beveger seg vinkelrett på et magnetfelt. Spenningen er ε = B · l · v. Når B = 0,50 T, l = 0,20 m og ε = 0,30 V, hvor stor er farten v?",
+        "fasit": "Fra ε = B · l · v får vi v = ε / (B · l). Da blir v = 0,30 / (0,50 · 0,20) = 3,0 m/s.",
+        "kriterier": [
+          "Bruker v = ε / (B · l) eller en tilsvarende korrekt omforming av formelen.",
+          "Får v = 3,0 m/s."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En magnet beveges fra samme startposisjon til samme sluttposisjon gjennom en spole, først raskt og så langsomt. Sammenlign spenning–tid-grafene, både høyden på utslaget og arealet under grafen.",
+        "fasit": "Når magneten beveges raskt, blir spenningen større, men utslaget varer kortere. Arealet under grafene blir omtrent likt fordi den totale fluksendringen er den samme.",
+        "kriterier": [
+          "Sier at raskere bevegelse gir større spenning, men kortere varighet.",
+          "Sier at arealet under grafene er omtrent likt fordi total fluksendring er den samme."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En spole kobles til et voltmeter, men kretsen er ikke lukket. Forklar forskjellen på hva som kan oppstå som indusert spenning, og om det går indusert strøm.",
+        "fasit": "En endring i magnetfeltet gjennom spolen kan gi indusert spenning selv om kretsen er åpen. Det går ikke indusert strøm før kretsen er lukket.",
+        "kriterier": [
+          "Forklarer at endring i magnetfeltet kan gi indusert spenning i spolen.",
+          "Skiller mellom spenning og strøm ved å si at strøm krever lukket krets."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En generator roterer en spole i et magnetfelt. Forklar hvordan rotasjonen kan føre til indusert spenning.",
+        "fasit": "Når spolen roterer, endres vinkelen mellom magnetfeltet og normalen til spolens flate. Da endres den magnetiske fluksen gjennom spolen, og det induseres spenning.",
+        "kriterier": [
+          "Knytter rotasjonen til at vinkelen mellom feltet og flaten endres.",
+          "Forklarer at vinkelendringen endrer fluksen og gir indusert spenning."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En spole står nær en elektromagnet. Strømmen i elektromagneten slås av, selv om spolen og elektromagneten står stille. Forklar hvorfor det likevel kan bli indusert spenning i spolen.",
+        "fasit": "Når strømmen i elektromagneten slås av, endres magnetfeltet gjennom spolen. Dermed endres fluksen, og det kan induseres spenning selv om ingenting beveger seg.",
+        "kriterier": [
+          "Sier at magnetfeltet gjennom spolen endres når strømmen i elektromagneten slås av.",
+          "Knytter endringen i felt eller fluks til at det induseres spenning."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

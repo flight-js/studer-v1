@@ -359,6 +359,84 @@
         "correct": 0,
         "explain": "This helps you improve over time."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "An assignment asks you to argue that a school rule should change. Explain what an argumentative essay should include and how it should deal with an opposing view.",
+        "fasit": "It should state a clear position and support it with arguments and evidence. It should also address a counterargument.",
+        "kriterier": [
+          "States that the essay needs a clear position.",
+          "Explains that arguments and evidence support the position.",
+          "Mentions that the essay should address an opposing argument."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "You are writing about the same topic in a formal email to a company and in a blog post for teenagers. Explain how the audience and text type could affect your language and style.",
+        "fasit": "The email should use a formal and polite style because it is written to a company. The blog post can be more informal and personal, and it can address teenage readers directly.",
+        "kriterier": [
+          "Connects the formal email with a polite, formal style.",
+          "Connects the blog post with an informal or personal style.",
+          "Explains how the intended readers influence the choices."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Compare a reflective text with a blog post. What is each type mainly like, and what is one important difference between them?",
+        "fasit": "A reflective text explores the writer’s thoughts and experiences and connects them to broader ideas. A blog post is often informal and personal, and may address the reader directly.",
+        "kriterier": [
+          "Explains that a reflective text connects personal thoughts or experiences to broader ideas.",
+          "Identifies an informal, personal style or direct address as a typical feature of a blog post.",
+          "Makes a clear comparison between the two text types."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "You are making a poster for a school event. Describe how you could combine words and an image so they support the same message. What should you do if you use an image you did not make yourself?",
+        "fasit": "I could use an image that helps show what the event is about and words that give the reader the key information. If I use someone else’s image, I should credit it.",
+        "kriterier": [
+          "Explains how the image and words can support the same message.",
+          "Says that an image made by someone else should be credited."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "You receive feedback that the argument in your draft is unclear. Describe how you could use the feedback to improve the draft.",
+        "fasit": "I could make a plan for what to change and how to make the argument clearer. Then I could revise the content and structure, using the assessment criteria to guide me.",
+        "kriterier": [
+          "Describes making a plan for what to change and how.",
+          "Explains that revising can improve the content, structure or argument.",
+          "Mentions using assessment criteria to guide the changes."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "You use a thesaurus to find a synonym for a word in a formal email. What should you check before using the new word, and why?",
+        "fasit": "I should check that the synonym fits the meaning and context of the sentence. A word in a thesaurus may not be suitable in every context.",
+        "kriterier": [
+          "Says to check whether the synonym fits the context or intended meaning.",
+          "Explains that a synonym may not be suitable in every context."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A speech is written to be heard. Name two techniques that could help it work well when spoken, and explain how they could help.",
+        "fasit": "A speaker could use repetition to make an idea stand out and rhetorical questions to engage the audience. A strong ending can leave the audience with a clear final impression.",
+        "kriterier": [
+          "Names two suitable speech techniques, such as rhetorical questions, repetition or a strong ending.",
+          "Explains how the techniques can support the speech when it is heard."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "A draft has a clear main idea and logical structure, but it has no examples and uses repetitive, imprecise language. Describe two changes that would make it stronger.",
+        "fasit": "The writer could add relevant examples to support the main idea. They could also use more varied and precise language.",
+        "kriterier": [
+          "Suggests adding relevant examples.",
+          "Suggests using more varied or precise language."
+        ]
+      }
     ]
   },
   "kvalitet": {

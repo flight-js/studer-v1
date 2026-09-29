@@ -4,83 +4,442 @@
   "trinnId": "10",
   "name": "Helse og kropp",
   "intro": "Kroppsdeler, sykdom og følelser på spansk, verbet doler, hvordan du forklarer hva som er galt hos legen, tener que, deber og hay que, og middelhavskosten.",
-  "kompetansemaal": [2, 1],
+  "kompetansemaal": [
+    2,
+    1
+  ],
   "sammendrag": "## Kroppen – el cuerpo\n\n**la cabeza** (hodet), **la cara** (ansiktet), **los ojos** (øynene), **las orejas** (ørene), **la nariz** (nesen), **la boca** (munnen), **los dientes** (tennene), **la garganta** (halsen), **la espalda** (ryggen), **el estómago** (magen), **el brazo** (armen), **la mano** (hånden), **el dedo** (fingeren), **la pierna** (beinet), **la rodilla** (kneet) og **el pie** (foten).\n\n## Å ha vondt – doler\n\nVerbet **doler** (å gjøre vondt) brukes på samme måte som *gustar*:\n\n- **Me duele la cabeza.** – Jeg har hodepine. (entall → *duele*)\n- **Me duelen los pies.** – Føttene mine gjør vondt. (flertall → *duelen*)\n- **¿Qué te duele?** – Hvor har du vondt?\n- Du kan også si **Tengo dolor de cabeza / de estómago / de garganta.**\n\n## Når du er syk\n\n- **¿Qué te pasa?** – Hva er i veien?\n- **Estoy enfermo / cansado / resfriado.** – Jeg er syk / trøtt / forkjølet. Jenter sier *enferma*, *cansada* og *resfriada*.\n- **Tengo fiebre / tos / gripe.** – Jeg har feber / hoste / influensa.\n- **Estoy mareado.** – Jeg er svimmel eller kvalm.\n- **¡Que te mejores!** – God bedring!\n\n## Hos legen – en el médico\n\n**el médico / la médica** (legen), **la consulta** (legekontoret), **la receta** (resepten), **las pastillas** (tablettene) og **la farmacia** (apoteket).\n\n- **¿Desde cuándo tiene fiebre?** – Hvor lenge har De hatt feber? – **Desde hace dos días.** – I to dager.\n- **Tiene que quedarse en la cama y beber mucha agua.** – De må holde senga og drikke mye vann.\n\nI Spania og resten av EU ringer du **112** i nødsituasjoner.\n\n## Å måtte og å kunne\n\n- **tener que** + infinitiv (måtte): *Tengo que ir al médico.*\n- **deber** + infinitiv (burde): *Debes descansar.*\n- **hay que** + infinitiv (man må): *Hay que beber agua.*\n- **poder** (kunne): *No puedo dormir.* – Jeg får ikke sove.\n\n## Et sunt liv\n\n- **comer sano** – spise sunt\n- **hacer deporte** – trene\n- **dormir bien** – sove godt\n- **no fumar** – ikke røyke\n- **reducir el tiempo de pantalla** – redusere skjermtiden\n\n**La dieta mediterránea** – middelhavskosten med olivenolje, grønnsaker, fisk og frukt – regnes som et sunt kosthold og står på UNESCOs liste over immateriell kulturarv.\n\n## Følelser\n\n**Estoy contento** (glad), **triste** (lei meg), **estresado** (stresset), **nervioso** (nervøs) eller **enfadado** (sint). Hunkjønnsformene ender på *-a*. Å snakke med noen hjelper ofte når man ikke har det bra.",
   "flashcards": [
-    { "term": "la cabeza", "def": "hodet" },
-    { "term": "el estómago", "def": "magen" },
-    { "term": "la espalda", "def": "ryggen" },
-    { "term": "la pierna", "def": "beinet" },
-    { "term": "el pie", "def": "foten" },
-    { "term": "la mano", "def": "hånden" },
-    { "term": "Me duele la cabeza.", "def": "Jeg har hodepine." },
-    { "term": "Me duelen los pies.", "def": "Føttene mine gjør vondt." },
-    { "term": "Tengo fiebre.", "def": "Jeg har feber." },
-    { "term": "Estoy resfriado / resfriada.", "def": "Jeg er forkjølet." },
-    { "term": "¡Que te mejores!", "def": "God bedring!" },
-    { "term": "el médico / la médica", "def": "legen" },
-    { "term": "la receta", "def": "resepten" },
-    { "term": "tener que + infinitiv", "def": "å måtte: Tengo que descansar." },
-    { "term": "hay que …", "def": "man må …" },
-    { "term": "la dieta mediterránea", "def": "middelhavskosten" },
-    { "term": "112", "def": "Nødnummer i Spania og resten av EU" }
+    {
+      "term": "la cabeza",
+      "def": "hodet"
+    },
+    {
+      "term": "el estómago",
+      "def": "magen"
+    },
+    {
+      "term": "la espalda",
+      "def": "ryggen"
+    },
+    {
+      "term": "la pierna",
+      "def": "beinet"
+    },
+    {
+      "term": "el pie",
+      "def": "foten"
+    },
+    {
+      "term": "la mano",
+      "def": "hånden"
+    },
+    {
+      "term": "Me duele la cabeza.",
+      "def": "Jeg har hodepine."
+    },
+    {
+      "term": "Me duelen los pies.",
+      "def": "Føttene mine gjør vondt."
+    },
+    {
+      "term": "Tengo fiebre.",
+      "def": "Jeg har feber."
+    },
+    {
+      "term": "Estoy resfriado / resfriada.",
+      "def": "Jeg er forkjølet."
+    },
+    {
+      "term": "¡Que te mejores!",
+      "def": "God bedring!"
+    },
+    {
+      "term": "el médico / la médica",
+      "def": "legen"
+    },
+    {
+      "term": "la receta",
+      "def": "resepten"
+    },
+    {
+      "term": "tener que + infinitiv",
+      "def": "å måtte: Tengo que descansar."
+    },
+    {
+      "term": "hay que …",
+      "def": "man må …"
+    },
+    {
+      "term": "la dieta mediterránea",
+      "def": "middelhavskosten"
+    },
+    {
+      "term": "112",
+      "def": "Nødnummer i Spania og resten av EU"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr «la espalda»?", "options": ["Hodet", "Magen", "Ryggen", "Beinet"], "correct": 2, "explain": "Magen heter «el estómago»." },
-    { "id": "q02", "text": "Hvordan sier du «Jeg har hodepine»?", "options": ["Me duele la cabeza.", "Soy cabeza.", "Mi cabeza está enferma.", "Tengo la cabeza mal."], "correct": 0, "explain": "«doler» brukes som «gustar»." },
-    { "id": "q03", "text": "Hva sier du til noen som er syke?", "options": ["¡Buen provecho!", "¡Salud!", "¡Buenas noches!", "¡Que te mejores!"], "correct": 3, "explain": "Det betyr «God bedring!»." },
-    { "id": "q04", "text": "Hvordan sier du «Føttene mine gjør vondt»?", "options": ["Me duele los pies.", "Me duelen los pies.", "Me dolen los pies.", "Duelo los pies."], "correct": 1, "explain": "«los pies» er flertall, derfor «duelen»." },
-    { "id": "q05", "text": "Hva betyr «Estoy resfriado»?", "options": ["Jeg fryser", "Jeg er sulten", "Jeg er trøtt", "Jeg er forkjølet"], "correct": 3, "explain": "Jeg fryser heter «Tengo frío»." },
-    { "id": "q06", "text": "Hvordan sier du «Jeg må gå til legen»?", "options": ["Quiero ir al médico.", "Voy al médico ayer.", "Tengo que ir al médico.", "Soy médico."], "correct": 2, "explain": "«tener que» + infinitiv betyr å måtte." },
-    { "id": "q07", "text": "Hva er «la receta» hos legen?", "options": ["Resepten på medisin", "En kake", "Regningen", "Timen"], "correct": 0, "explain": "Ordet kan også bety matoppskrift." },
-    { "id": "q08", "text": "Hvilket nødnummer kan du ringe i Spania og resten av EU?", "options": ["113", "112", "911", "110"], "correct": 1, "explain": "I Mexico ringer man 911." },
-    { "id": "q09", "text": "Hva betyr «Hay que beber mucha agua»?", "options": ["Man må ikke drikke vann", "Vannet er kaldt", "Jeg drikker mye vann", "Man må drikke mye vann"], "correct": 3, "explain": "«hay que» + infinitiv betyr man må." },
-    { "id": "q10", "text": "Hva kjennetegner middelhavskosten, «la dieta mediterránea»?", "options": ["Olivenolje, grønnsaker, fisk og frukt", "Mye hurtigmat", "Bare kjøtt", "Mye sukker"], "correct": 0, "explain": "Kostholdet regnes som svært sunt." }
+    {
+      "id": "q01",
+      "text": "Hva betyr «la espalda»?",
+      "options": [
+        "Hodet",
+        "Magen",
+        "Ryggen",
+        "Beinet"
+      ],
+      "correct": 2,
+      "explain": "Magen heter «el estómago»."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan sier du «Jeg har hodepine»?",
+      "options": [
+        "Me duele la cabeza.",
+        "Soy cabeza.",
+        "Mi cabeza está enferma.",
+        "Tengo la cabeza mal."
+      ],
+      "correct": 0,
+      "explain": "«doler» brukes som «gustar»."
+    },
+    {
+      "id": "q03",
+      "text": "Hva sier du til noen som er syke?",
+      "options": [
+        "¡Buen provecho!",
+        "¡Salud!",
+        "¡Buenas noches!",
+        "¡Que te mejores!"
+      ],
+      "correct": 3,
+      "explain": "Det betyr «God bedring!»."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan sier du «Føttene mine gjør vondt»?",
+      "options": [
+        "Me duele los pies.",
+        "Me duelen los pies.",
+        "Me dolen los pies.",
+        "Duelo los pies."
+      ],
+      "correct": 1,
+      "explain": "«los pies» er flertall, derfor «duelen»."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr «Estoy resfriado»?",
+      "options": [
+        "Jeg fryser",
+        "Jeg er sulten",
+        "Jeg er trøtt",
+        "Jeg er forkjølet"
+      ],
+      "correct": 3,
+      "explain": "Jeg fryser heter «Tengo frío»."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan sier du «Jeg må gå til legen»?",
+      "options": [
+        "Quiero ir al médico.",
+        "Voy al médico ayer.",
+        "Tengo que ir al médico.",
+        "Soy médico."
+      ],
+      "correct": 2,
+      "explain": "«tener que» + infinitiv betyr å måtte."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er «la receta» hos legen?",
+      "options": [
+        "Resepten på medisin",
+        "En kake",
+        "Regningen",
+        "Timen"
+      ],
+      "correct": 0,
+      "explain": "Ordet kan også bety matoppskrift."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket nødnummer kan du ringe i Spania og resten av EU?",
+      "options": [
+        "113",
+        "112",
+        "911",
+        "110"
+      ],
+      "correct": 1,
+      "explain": "I Mexico ringer man 911."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «Hay que beber mucha agua»?",
+      "options": [
+        "Man må ikke drikke vann",
+        "Vannet er kaldt",
+        "Jeg drikker mye vann",
+        "Man må drikke mye vann"
+      ],
+      "correct": 3,
+      "explain": "«hay que» + infinitiv betyr man må."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kjennetegner middelhavskosten, «la dieta mediterránea»?",
+      "options": [
+        "Olivenolje, grønnsaker, fisk og frukt",
+        "Mye hurtigmat",
+        "Bare kjøtt",
+        "Mye sukker"
+      ],
+      "correct": 0,
+      "explain": "Kostholdet regnes som svært sunt."
+    }
   ],
   "mindmap": {
     "label": "Helse og kropp",
     "children": [
-      { "label": "Kroppen", "children": [
-        { "label": "cabeza, cara" },
-        { "label": "estómago, espalda" },
-        { "label": "brazo, mano, pierna, pie" }
-      ] },
-      { "label": "doler", "children": [
-        { "label": "Me duele la cabeza" },
-        { "label": "Me duelen los pies" },
-        { "label": "Tengo dolor de …" }
-      ] },
-      { "label": "Syk og hos legen", "children": [
-        { "label": "fiebre, tos, gripe" },
-        { "label": "¿Desde cuándo …?" },
-        { "label": "receta, farmacia" },
-        { "label": "112" }
-      ] },
-      { "label": "Verb", "children": [
-        { "label": "tener que" },
-        { "label": "deber" },
-        { "label": "hay que" },
-        { "label": "poder" }
-      ] },
-      { "label": "Sunt liv og følelser", "children": [
-        { "label": "dieta mediterránea" },
-        { "label": "dormir bien" },
-        { "label": "contento, triste, estresado" }
-      ] }
+      {
+        "label": "Kroppen",
+        "children": [
+          {
+            "label": "cabeza, cara"
+          },
+          {
+            "label": "estómago, espalda"
+          },
+          {
+            "label": "brazo, mano, pierna, pie"
+          }
+        ]
+      },
+      {
+        "label": "doler",
+        "children": [
+          {
+            "label": "Me duele la cabeza"
+          },
+          {
+            "label": "Me duelen los pies"
+          },
+          {
+            "label": "Tengo dolor de …"
+          }
+        ]
+      },
+      {
+        "label": "Syk og hos legen",
+        "children": [
+          {
+            "label": "fiebre, tos, gripe"
+          },
+          {
+            "label": "¿Desde cuándo …?"
+          },
+          {
+            "label": "receta, farmacia"
+          },
+          {
+            "label": "112"
+          }
+        ]
+      },
+      {
+        "label": "Verb",
+        "children": [
+          {
+            "label": "tener que"
+          },
+          {
+            "label": "deber"
+          },
+          {
+            "label": "hay que"
+          },
+          {
+            "label": "poder"
+          }
+        ]
+      },
+      {
+        "label": "Sunt liv og følelser",
+        "children": [
+          {
+            "label": "dieta mediterránea"
+          },
+          {
+            "label": "dormir bien"
+          },
+          {
+            "label": "contento, triste, estresado"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "«doler» brukes på samme måte som «gustar».", "correct": true, "explain": "Verbet bøyes etter det som gjør vondt." },
-      { "id": "m02", "type": "sant-usant", "text": "«la fiebre» betyr hoste.", "correct": false, "explain": "«la fiebre» betyr feber. Hoste heter «la tos»." },
-      { "id": "m03", "type": "sant-usant", "text": "Middelhavskosten står på UNESCOs liste over immateriell kulturarv.", "correct": true, "explain": "Den ble tatt inn på listen i 2010." },
-      { "id": "m04", "type": "sant-usant", "text": "«Estoy enfadado» betyr jeg er glad.", "correct": false, "explain": "«Estoy enfadado» betyr jeg er sint." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «¿Desde cuándo tiene fiebre?»?", "options": ["Hvor lenge har De hatt feber?", "Har De feber?", "Hvorfor har De feber?", "Hvor høy feber har De?"], "correct": 0, "explain": "«desde» betyr siden." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er «el médico»?", "options": ["Sykepleieren", "Legen", "Apoteket", "Medisinen"], "correct": 1, "explain": "Medisinen heter «el medicamento»." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Estoy estresada»?", "options": ["Jeg er glad", "Jeg er sint", "Jeg er stresset", "Jeg er syk"], "correct": 2, "explain": "Hunkjønnsformen slutter på -a." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "«doler» brukes på samme måte som «gustar».",
+        "correct": true,
+        "explain": "Verbet bøyes etter det som gjør vondt."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "«la fiebre» betyr hoste.",
+        "correct": false,
+        "explain": "«la fiebre» betyr feber. Hoste heter «la tos»."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Middelhavskosten står på UNESCOs liste over immateriell kulturarv.",
+        "correct": true,
+        "explain": "Den ble tatt inn på listen i 2010."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«Estoy enfadado» betyr jeg er glad.",
+        "correct": false,
+        "explain": "«Estoy enfadado» betyr jeg er sint."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «¿Desde cuándo tiene fiebre?»?",
+        "options": [
+          "Hvor lenge har De hatt feber?",
+          "Har De feber?",
+          "Hvorfor har De feber?",
+          "Hvor høy feber har De?"
+        ],
+        "correct": 0,
+        "explain": "«desde» betyr siden."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er «el médico»?",
+        "options": [
+          "Sykepleieren",
+          "Legen",
+          "Apoteket",
+          "Medisinen"
+        ],
+        "correct": 1,
+        "explain": "Medisinen heter «el medicamento»."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «Estoy estresada»?",
+        "options": [
+          "Jeg er glad",
+          "Jeg er sint",
+          "Jeg er stresset",
+          "Jeg er syk"
+        ],
+        "correct": 2,
+        "explain": "Hunkjønnsformen slutter på -a."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Explica por qué se dice «Me duele la mano» pero «Me duelen las piernas». ¿Qué cambia en el verbo «doler»?",
+        "fasit": "El verbo cambia según si la parte del cuerpo está en singular o en plural. Se usa «duele» con «la mano» y «duelen» con «las piernas».",
+        "kriterier": [
+          "Explica que la forma de «doler» depende de si la parte del cuerpo está en singular o en plural.",
+          "Relaciona correctamente «duele» con singular y «duelen» con plural."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Explica cómo cambia la forma de «enfermo» y «resfriado» cuando habla un chico o una chica. Da un ejemplo para cada uno.",
+        "fasit": "Un chico puede decir «Estoy enfermo y resfriado». Una chica dice «Estoy enferma y resfriada»; las formas femeninas terminan en «-a».",
+        "kriterier": [
+          "Indica que las formas femeninas terminan en «-a».",
+          "Da correctamente las formas masculina y femenina de «enfermo» y «resfriado»."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Compara «tener que» y «deber». Indica cuál expresa una obligación y cuál expresa una recomendación, y escribe un ejemplo de cada uno.",
+        "fasit": "«Tener que» expresa una obligación: «Tengo que descansar». «Deber» expresa una recomendación: «Debes descansar».",
+        "kriterier": [
+          "Distingue correctamente entre obligación y recomendación.",
+          "Usa «tener que» y «deber» correctamente con un infinitivo."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Una persona tiene fiebre. Dale dos instrucciones: una para que se quede en cama y otra para que beba mucha agua. Usa «tener que» en la primera y «hay que» en la segunda.",
+        "fasit": "Tiene que quedarse en la cama. Hay que beber mucha agua.",
+        "kriterier": [
+          "Usa «tener que» correctamente para indicar que debe quedarse en cama.",
+          "Usa «hay que» correctamente para indicar que se debe beber mucha agua."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Tu amigo está estresado y no se siente bien. Escríbele una respuesta que le recomiende hablar con alguien y explique por qué puede ayudar.",
+        "fasit": "Debes hablar con alguien. Hablar con otra persona suele ayudar cuando no te sientes bien.",
+        "kriterier": [
+          "Recomienda hablar con alguien.",
+          "Explica que hablar puede ayudar cuando uno no se encuentra bien."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Propón una rutina saludable que incluya una acción relacionada con la comida, una con el ejercicio y una con el descanso o el tiempo de pantalla.",
+        "fasit": "Puedo comer sano, hacer deporte y dormir bien. También puedo reducir el tiempo de pantalla.",
+        "kriterier": [
+          "Incluye una acción adecuada relacionada con la comida y otra con el ejercicio.",
+          "Incluye una acción adecuada relacionada con el descanso o con reducir el tiempo de pantalla."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Una amiga cree que reducir el tiempo de pantalla es parte de la dieta mediterránea. Corrige esa idea comparando la dieta con un hábito saludable que no tenga que ver con la comida.",
+        "fasit": "La dieta mediterránea es una forma de alimentación que incluye, por ejemplo, verduras y pescado. Reducir el tiempo de pantalla es otro hábito saludable, pero no forma parte de esa dieta.",
+        "kriterier": [
+          "Explica que la dieta mediterránea se refiere a la alimentación e incluye alimentos como verduras o pescado.",
+          "Distingue reducir el tiempo de pantalla como un hábito saludable diferente de la dieta."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Explica con dos frases diferentes cómo puedes decir en español que te duele una parte del cuerpo. Usa «Me duele...» en una frase y «Tengo dolor de...» en la otra, con partes del cuerpo distintas.",
+        "fasit": "Me duele la espalda. Tengo dolor de estómago.",
+        "kriterier": [
+          "Usa correctamente la estructura «Me duele...» con una parte del cuerpo.",
+          "Usa correctamente la estructura «Tengo dolor de...» con otra parte del cuerpo."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

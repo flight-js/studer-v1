@@ -4,77 +4,422 @@
   "trinnId": "vg2",
   "name": "Grenseverdier",
   "intro": "Hva en grenseverdi er, ensidige grenseverdier, strategier for å bestemme grenseverdier – innsetting, faktorisering, tabell og høyeste potens – og hvordan grenseverdier brukes til asymptoter, momentan vekstfart og tallet e.",
-  "kompetansemaal": [3, 2],
+  "kompetansemaal": [
+    3,
+    2
+  ],
   "sammendrag": "## Hva er en grenseverdi?\n\nNår x nærmer seg et tall a, kan funksjonsverdiene f(x) nærme seg et bestemt tall L. Da skriver vi\n\n**lim ₓ→ₐ f(x) = L**\n\nGrenseverdien handler om hva som skjer **nær** a – ikke nødvendigvis **i** a. Funksjonen trenger ikke engang være definert for x = a.\n\n## Ensidige grenseverdier\n\nVi kan la x nærme seg a **fra venstre** (x < a) eller **fra høyre** (x > a). Grenseverdien **eksisterer** bare hvis de to ensidige grenseverdiene er **like**.\n\n**Eksempel**: For f(x) = 1/x går f(x) mot −∞ når x nærmer seg 0 fra venstre, og mot +∞ fra høyre. Grenseverdien i 0 eksisterer ikke.\n\n## Strategier\n\n**1. Innsetting.** Er funksjonen «snill» i punktet, setter du bare inn: lim ₓ→₃ (x² + 1) = 10.\n\n**2. Faktorisering og forkorting.** Gir innsetting «0/0», må du omforme:\n\nlim ₓ→₂ (x² − 4)/(x − 2) = lim ₓ→₂ (x − 2)(x + 2)/(x − 2) = lim ₓ→₂ (x + 2) = **4**\n\n**3. Tabell og graf.** Regn ut f(x) for x-verdier stadig nærmere a, for eksempel med regneark eller CAS, og se hva verdiene nærmer seg. Dette gir en god **antakelse**, men er ikke et bevis.\n\n**4. Grenser mot uendelig.** Del teller og nevner med den **høyeste potensen** av x i nevneren:\n\nlim ₓ→∞ (3x² + 1)/(x² − 5) = lim ₓ→∞ (3 + 1/x²)/(1 − 5/x²) = **3**\n\nfordi 1/x² → 0 når x → ∞.\n\n## Asymptoter\n\n- En **vannrett asymptote** y = L finnes når f(x) → L når x → ±∞. Funksjonen over har den vannrette asymptoten y = 3.\n- En **loddrett asymptote** x = a finnes når f(x) → ±∞ når x → a, typisk der nevneren er null, men ikke telleren.\n\n## Anvendelser\n\n**Momentan vekstfart**: Den deriverte er definert som en grenseverdi – den gjennomsnittlige vekstfarten over et stadig kortere intervall:\n\nf′(a) = lim ₕ→₀ (f(a + h) − f(a))/h\n\n**Tallet e**: Når n vokser, nærmer (1 + 1/n)ⁿ seg tallet **e ≈ 2,718**. Tallet dukker opp ved kontinuerlig renteberegning og i mange vekstmodeller.\n\n**Langsiktig oppførsel**: Grenseverdier forteller hvordan en modell oppfører seg på lang sikt, for eksempel at en populasjon i en logistisk modell nærmer seg **bæreevnen**, eller at en fallskjermhopper nærmer seg **terminalfarten**.\n\n## Vanlige feil\n\n- Å tro at «0/0» betyr at grenseverdien er 0 eller ikke finnes. Det betyr bare at du må **omforme** uttrykket.\n- Å glemme å sjekke **begge sider** når funksjonen er delt eller har en nevner som blir null.",
   "flashcards": [
-    { "term": "Grenseverdi", "def": "Tallet f(x) nærmer seg når x nærmer seg a." },
-    { "term": "lim ₓ→ₐ f(x) = L", "def": "Skrivemåte for grenseverdi." },
-    { "term": "Venstre grenseverdi", "def": "x nærmer seg a fra verdier mindre enn a." },
-    { "term": "Høyre grenseverdi", "def": "x nærmer seg a fra verdier større enn a." },
-    { "term": "Når eksisterer grenseverdien?", "def": "Når venstre og høyre grenseverdi er like." },
-    { "term": "«0/0»", "def": "Ubestemt form – uttrykket må omformes." },
-    { "term": "Faktorisering og forkorting", "def": "Strategi når innsetting gir 0/0." },
-    { "term": "Høyeste potens", "def": "Del teller og nevner med den ved grenser mot uendelig." },
-    { "term": "lim ₓ→∞ 1/x", "def": "0" },
-    { "term": "Vannrett asymptote", "def": "y = L når f(x) → L når x → ±∞." },
-    { "term": "Loddrett asymptote", "def": "x = a når f(x) → ±∞ når x → a." },
-    { "term": "Tallet e", "def": "Grenseverdien av (1 + 1/n)ⁿ, omtrent 2,718." },
-    { "term": "Den deriverte som grenseverdi", "def": "f′(a) = lim ₕ→₀ (f(a + h) − f(a))/h" },
-    { "term": "Tabellmetoden", "def": "Gir en antakelse om grenseverdien, men ikke et bevis." },
-    { "term": "lim ₓ→₂ (x² − 4)/(x − 2)", "def": "4" }
+    {
+      "term": "Grenseverdi",
+      "def": "Tallet f(x) nærmer seg når x nærmer seg a."
+    },
+    {
+      "term": "lim ₓ→ₐ f(x) = L",
+      "def": "Skrivemåte for grenseverdi."
+    },
+    {
+      "term": "Venstre grenseverdi",
+      "def": "x nærmer seg a fra verdier mindre enn a."
+    },
+    {
+      "term": "Høyre grenseverdi",
+      "def": "x nærmer seg a fra verdier større enn a."
+    },
+    {
+      "term": "Når eksisterer grenseverdien?",
+      "def": "Når venstre og høyre grenseverdi er like."
+    },
+    {
+      "term": "«0/0»",
+      "def": "Ubestemt form – uttrykket må omformes."
+    },
+    {
+      "term": "Faktorisering og forkorting",
+      "def": "Strategi når innsetting gir 0/0."
+    },
+    {
+      "term": "Høyeste potens",
+      "def": "Del teller og nevner med den ved grenser mot uendelig."
+    },
+    {
+      "term": "lim ₓ→∞ 1/x",
+      "def": "0"
+    },
+    {
+      "term": "Vannrett asymptote",
+      "def": "y = L når f(x) → L når x → ±∞."
+    },
+    {
+      "term": "Loddrett asymptote",
+      "def": "x = a når f(x) → ±∞ når x → a."
+    },
+    {
+      "term": "Tallet e",
+      "def": "Grenseverdien av (1 + 1/n)ⁿ, omtrent 2,718."
+    },
+    {
+      "term": "Den deriverte som grenseverdi",
+      "def": "f′(a) = lim ₕ→₀ (f(a + h) − f(a))/h"
+    },
+    {
+      "term": "Tabellmetoden",
+      "def": "Gir en antakelse om grenseverdien, men ikke et bevis."
+    },
+    {
+      "term": "lim ₓ→₂ (x² − 4)/(x − 2)",
+      "def": "4"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er lim ₓ→₂ (x² − 4)/(x − 2)?", "options": ["0", "4", "2", "Den finnes ikke"], "correct": 1, "explain": "Faktoriser og forkort: lim (x + 2) = 4." },
-    { "id": "q02", "text": "Hva er lim ₓ→∞ (3x² + 1)/(x² − 5)?", "options": ["3", "0", "−1/5", "∞"], "correct": 0, "explain": "Del med x²." },
-    { "id": "q03", "text": "Når eksisterer lim ₓ→ₐ f(x)?", "options": ["Alltid", "Når f(a) er definert", "Når venstre og høyre grenseverdi er like", "Når f(a) = 0"], "correct": 2, "explain": "De ensidige grenseverdiene må stemme overens." },
-    { "id": "q04", "text": "Hva betyr det når innsetting gir «0/0»?", "options": ["Grenseverdien er 0", "Grenseverdien finnes ikke", "Grenseverdien er 1", "Uttrykket må omformes før vi kan konkludere"], "correct": 3, "explain": "Det er en ubestemt form." },
-    { "id": "q05", "text": "Hvilken vannrett asymptote har f(x) = (2x + 1)/(x − 3)?", "options": ["y = 2", "y = 3", "y = −1/3", "Ingen"], "correct": 0, "explain": "Forholdet mellom koeffisientene foran x." },
-    { "id": "q06", "text": "Hvilken loddrett asymptote har f(x) = (2x + 1)/(x − 3)?", "options": ["x = 2", "x = 3", "x = −1/2", "Ingen"], "correct": 1, "explain": "Nevneren er null for x = 3, men ikke telleren." },
-    { "id": "q07", "text": "Hva nærmer (1 + 1/n)ⁿ seg når n → ∞?", "options": ["1", "∞", "e ≈ 2,718", "0"], "correct": 2, "explain": "Slik kan tallet e defineres." },
-    { "id": "q08", "text": "Hvorfor finnes ikke lim ₓ→₀ 1/x?", "options": ["Fordi 1/0 = 0", "Fordi funksjonen er konstant", "Fordi grenseverdien er 1", "Fordi venstre grense er −∞ og høyre grense er +∞"], "correct": 3, "explain": "De ensidige grensene er ulike." },
-    { "id": "q09", "text": "Hva er lim ₓ→₃ (x² + 1)?", "options": ["10", "9", "4", "Den finnes ikke"], "correct": 0, "explain": "Innsetting: 9 + 1." },
-    { "id": "q10", "text": "Hvilken grenseverdi definerer den deriverte f′(a)?", "options": ["lim ₓ→∞ f(x)", "lim ₕ→₀ (f(a + h) − f(a))/h", "lim ₕ→₀ f(h)", "lim ₓ→ₐ f(x) · x"], "correct": 1, "explain": "Momentan vekstfart som grense av gjennomsnittlig vekstfart." }
+    {
+      "id": "q01",
+      "text": "Hva er lim ₓ→₂ (x² − 4)/(x − 2)?",
+      "options": [
+        "0",
+        "4",
+        "2",
+        "Den finnes ikke"
+      ],
+      "correct": 1,
+      "explain": "Faktoriser og forkort: lim (x + 2) = 4."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er lim ₓ→∞ (3x² + 1)/(x² − 5)?",
+      "options": [
+        "3",
+        "0",
+        "−1/5",
+        "∞"
+      ],
+      "correct": 0,
+      "explain": "Del med x²."
+    },
+    {
+      "id": "q03",
+      "text": "Når eksisterer lim ₓ→ₐ f(x)?",
+      "options": [
+        "Alltid",
+        "Når f(a) er definert",
+        "Når venstre og høyre grenseverdi er like",
+        "Når f(a) = 0"
+      ],
+      "correct": 2,
+      "explain": "De ensidige grenseverdiene må stemme overens."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr det når innsetting gir «0/0»?",
+      "options": [
+        "Grenseverdien er 0",
+        "Grenseverdien finnes ikke",
+        "Grenseverdien er 1",
+        "Uttrykket må omformes før vi kan konkludere"
+      ],
+      "correct": 3,
+      "explain": "Det er en ubestemt form."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken vannrett asymptote har f(x) = (2x + 1)/(x − 3)?",
+      "options": [
+        "y = 2",
+        "y = 3",
+        "y = −1/3",
+        "Ingen"
+      ],
+      "correct": 0,
+      "explain": "Forholdet mellom koeffisientene foran x."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken loddrett asymptote har f(x) = (2x + 1)/(x − 3)?",
+      "options": [
+        "x = 2",
+        "x = 3",
+        "x = −1/2",
+        "Ingen"
+      ],
+      "correct": 1,
+      "explain": "Nevneren er null for x = 3, men ikke telleren."
+    },
+    {
+      "id": "q07",
+      "text": "Hva nærmer (1 + 1/n)ⁿ seg når n → ∞?",
+      "options": [
+        "1",
+        "∞",
+        "e ≈ 2,718",
+        "0"
+      ],
+      "correct": 2,
+      "explain": "Slik kan tallet e defineres."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor finnes ikke lim ₓ→₀ 1/x?",
+      "options": [
+        "Fordi 1/0 = 0",
+        "Fordi funksjonen er konstant",
+        "Fordi grenseverdien er 1",
+        "Fordi venstre grense er −∞ og høyre grense er +∞"
+      ],
+      "correct": 3,
+      "explain": "De ensidige grensene er ulike."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er lim ₓ→₃ (x² + 1)?",
+      "options": [
+        "10",
+        "9",
+        "4",
+        "Den finnes ikke"
+      ],
+      "correct": 0,
+      "explain": "Innsetting: 9 + 1."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken grenseverdi definerer den deriverte f′(a)?",
+      "options": [
+        "lim ₓ→∞ f(x)",
+        "lim ₕ→₀ (f(a + h) − f(a))/h",
+        "lim ₕ→₀ f(h)",
+        "lim ₓ→ₐ f(x) · x"
+      ],
+      "correct": 1,
+      "explain": "Momentan vekstfart som grense av gjennomsnittlig vekstfart."
+    }
   ],
   "mindmap": {
     "label": "Grenseverdier",
     "children": [
-      { "label": "Begrep", "children": [
-        { "label": "lim ₓ→ₐ f(x)" },
-        { "label": "Ensidige grenser" }
-      ] },
-      { "label": "Strategier", "children": [
-        { "label": "Innsetting" },
-        { "label": "Faktorisering" },
-        { "label": "Tabell og graf" },
-        { "label": "Høyeste potens" }
-      ] },
-      { "label": "Asymptoter", "children": [
-        { "label": "Vannrett" },
-        { "label": "Loddrett" }
-      ] },
-      { "label": "Anvendelser", "children": [
-        { "label": "Den deriverte" },
-        { "label": "Tallet e" },
-        { "label": "Langsiktig oppførsel" }
-      ] },
-      { "label": "Feller", "children": [
-        { "label": "0/0 er ikke svaret" },
-        { "label": "Sjekk begge sider" }
-      ] }
+      {
+        "label": "Begrep",
+        "children": [
+          {
+            "label": "lim ₓ→ₐ f(x)"
+          },
+          {
+            "label": "Ensidige grenser"
+          }
+        ]
+      },
+      {
+        "label": "Strategier",
+        "children": [
+          {
+            "label": "Innsetting"
+          },
+          {
+            "label": "Faktorisering"
+          },
+          {
+            "label": "Tabell og graf"
+          },
+          {
+            "label": "Høyeste potens"
+          }
+        ]
+      },
+      {
+        "label": "Asymptoter",
+        "children": [
+          {
+            "label": "Vannrett"
+          },
+          {
+            "label": "Loddrett"
+          }
+        ]
+      },
+      {
+        "label": "Anvendelser",
+        "children": [
+          {
+            "label": "Den deriverte"
+          },
+          {
+            "label": "Tallet e"
+          },
+          {
+            "label": "Langsiktig oppførsel"
+          }
+        ]
+      },
+      {
+        "label": "Feller",
+        "children": [
+          {
+            "label": "0/0 er ikke svaret"
+          },
+          {
+            "label": "Sjekk begge sider"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En funksjon kan ha en grenseverdi i et punkt der den ikke er definert.", "correct": true, "explain": "For eksempel (x² − 4)/(x − 2) i x = 2." },
-      { "id": "m02", "type": "sant-usant", "text": "En tabell med funksjonsverdier beviser hva grenseverdien er.", "correct": false, "explain": "Den gir en antakelse, ikke et bevis." },
-      { "id": "m03", "type": "sant-usant", "text": "lim ₓ→∞ 1/x² = 0.", "correct": true, "explain": "Nevneren vokser uten grense." },
-      { "id": "m04", "type": "sant-usant", "text": "En rasjonal funksjon har alltid loddrett asymptote der nevneren er null.", "correct": false, "explain": "Ikke hvis også telleren er null der og faktoren kan forkortes." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er lim ₓ→₁ (x² − 1)/(x − 1)?", "options": ["0", "2", "1", "Den finnes ikke"], "correct": 1, "explain": "(x − 1)(x + 1)/(x − 1) = x + 1 → 2." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er lim ₓ→∞ (5x + 2)/(x + 7)?", "options": ["5", "2/7", "0", "∞"], "correct": 0, "explain": "Del med x." },
-      { "id": "m07", "type": "flervalg", "text": "En logistisk modell har bæreevne K. Hva er grenseverdien til populasjonen når t → ∞?", "options": ["0", "∞", "K", "K/2"], "correct": 2, "explain": "Populasjonen nærmer seg bæreevnen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En funksjon kan ha en grenseverdi i et punkt der den ikke er definert.",
+        "correct": true,
+        "explain": "For eksempel (x² − 4)/(x − 2) i x = 2."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En tabell med funksjonsverdier beviser hva grenseverdien er.",
+        "correct": false,
+        "explain": "Den gir en antakelse, ikke et bevis."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "lim ₓ→∞ 1/x² = 0.",
+        "correct": true,
+        "explain": "Nevneren vokser uten grense."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En rasjonal funksjon har alltid loddrett asymptote der nevneren er null.",
+        "correct": false,
+        "explain": "Ikke hvis også telleren er null der og faktoren kan forkortes."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er lim ₓ→₁ (x² − 1)/(x − 1)?",
+        "options": [
+          "0",
+          "2",
+          "1",
+          "Den finnes ikke"
+        ],
+        "correct": 1,
+        "explain": "(x − 1)(x + 1)/(x − 1) = x + 1 → 2."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er lim ₓ→∞ (5x + 2)/(x + 7)?",
+        "options": [
+          "5",
+          "2/7",
+          "0",
+          "∞"
+        ],
+        "correct": 0,
+        "explain": "Del med x."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "En logistisk modell har bæreevne K. Hva er grenseverdien til populasjonen når t → ∞?",
+        "options": [
+          "0",
+          "∞",
+          "K",
+          "K/2"
+        ],
+        "correct": 2,
+        "explain": "Populasjonen nærmer seg bæreevnen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva skrivemåten limₓ→ₐ f(x) = L forteller. Må f(a) være definert eller lik L for at dette skal være sant?",
+        "fasit": "Skrivemåten betyr at f(x) nærmer seg L når x nærmer seg a. f(a) trenger ikke være definert, og hvis den er definert, trenger den ikke være lik L.",
+        "kriterier": [
+          "Forklarer at det er funksjonsverdiene nær a som nærmer seg L.",
+          "Nevner at f(a) ikke trenger å være definert eller lik L."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar forskjellen på at x nærmer seg a fra venstre og fra høyre.",
+        "fasit": "Fra venstre nærmer x seg a med verdier mindre enn a. Fra høyre nærmer x seg a med verdier større enn a.",
+        "kriterier": [
+          "Knytter venstre side til x-verdier mindre enn a.",
+          "Knytter høyre side til x-verdier større enn a."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev regner ut funksjonsverdier for x-verdier stadig nærmere a i en tabell. Forklar hva eleven kan finne ut, og hvorfor tabellen ikke er et bevis for grenseverdien.",
+        "fasit": "Tabellen kan vise hvilket tall funksjonsverdiene ser ut til å nærme seg, og dermed gi en antakelse om grenseverdien. Den viser ikke alene at grenseverdien faktisk er dette tallet.",
+        "kriterier": [
+          "Sier at tabellen kan gi en antakelse om grenseverdien.",
+          "Forklarer at tabellen ikke beviser at antakelsen er riktig."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Regn ut limₓ→₁ (x² − 1)/(x − 1). Vis faktoriseringen og forkortingen som gjør det mulig å finne grenseverdien.",
+        "fasit": "Vi faktoriserer x² − 1 = (x − 1)(x + 1) og forkorter med x − 1. Da blir grenseverdien limₓ→₁ (x + 1) = 2.",
+        "kriterier": [
+          "Faktoriserer telleren til (x − 1)(x + 1) og forkorter faktoren x − 1.",
+          "Finner grenseverdien 2."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Bruk definisjonen f′(a) = limₕ→₀ (f(a + h) − f(a))/h til å finne f′(2) når f(x) = x². Vis det viktigste omskrivingssteget.",
+        "fasit": "f′(2) = limₕ→₀ (((2 + h)² − 2²)/h) = limₕ→₀ (4 + h) = 4.",
+        "kriterier": [
+          "Setter f(x) = x² og a = 2 inn i definisjonen og forenkler uttrykket til 4 + h.",
+          "Finner f′(2) = 4."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign en vannrett og en loddrett asymptote ved å forklare hva som skjer med x og f(x) i hvert tilfelle.",
+        "fasit": "En vannrett asymptote y = L finnes når f(x) nærmer seg L når x går mot pluss eller minus uendelig. En loddrett asymptote x = a finnes når f(x) går mot pluss eller minus uendelig når x nærmer seg a.",
+        "kriterier": [
+          "Knytter vannrett asymptote til at x går mot ±∞ og f(x) nærmer seg en endelig verdi.",
+          "Knytter loddrett asymptote til at x nærmer seg a og f(x) går mot ±∞."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En modell beskriver farten til en fallskjermhopper og viser at farten nærmer seg terminalfarten på lang sikt. Forklar hva grenseverdien forteller om modellen.",
+        "fasit": "Grenseverdien beskriver hvilken fart modellen nærmer seg når tiden går. Den sier at farten nærmer seg terminalfarten, uten at den nødvendigvis må være lik terminalfarten på et bestemt tidspunkt.",
+        "kriterier": [
+          "Forklarer at modellen nærmer seg en bestemt fart på lang sikt.",
+          "Knytter denne farten til terminalfarten."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Når en brøk med polynomer skal undersøkes for x → ∞, hvorfor deler man teller og nevner med den høyeste potensen av x i nevneren?",
+        "fasit": "Da kommer uttrykket fram i en form der ledd som inneholder 1/x eller høyere potenser av 1/x, kan gå mot 0 når x → ∞. Det gjør det lettere å se hvilken verdi brøken nærmer seg.",
+        "kriterier": [
+          "Sier at delingen framhever ledd med potenser av 1/x.",
+          "Forklarer at slike ledd går mot 0 når x → ∞, slik at grenseverdien blir tydeligere."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

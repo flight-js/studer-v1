@@ -4,82 +4,437 @@
   "trinnId": "10",
   "name": "Menneskerettigheter, bærekraft og fattigdom",
   "intro": "Etiske problemstillinger knyttet til fattigdom, plikten til å hjelpe, handel og menneskerettigheter, og rettferdig fordeling av klimaansvaret.",
-  "kompetansemaal": [15],
+  "kompetansemaal": [
+    15
+  ],
   "sammendrag": "## Etiske spørsmål i en urettferdig verden\n\nVerden har aldri vært rikere, men godene er svært ujevnt fordelt. Det reiser vanskelige **etiske spørsmål**: Hvem har ansvar for å hjelpe? Hva kan vi kreve av bedrifter og stater? Og hvordan kan vi bekjempe fattigdom uten å ødelegge klimaet og naturen?\n\n## Fattigdom\n\n**Absolutt fattigdom** betyr at man ikke har nok til å dekke grunnleggende behov som mat, rent vann, bolig og helsehjelp. Verdensbanken regner som **ekstremt fattige** dem som lever for under 3 dollar om dagen, og det gjelder rundt 800 millioner mennesker – omtrent én av ti i verden, de fleste i Afrika sør for Sahara. **Relativ fattigdom** betyr at man har mye mindre enn de fleste andre i samfunnet man bor i. Det finnes også i Norge.\n\nÅrsakene er sammensatte: krig og konflikt, korrupsjon, klimaendringer, urettferdig handel, gjeld og mangel på utdanning og helsetjenester.\n\n## Har vi plikt til å hjelpe?\n\nFilosofen **Peter Singer** har brukt dette eksempelet: Ser du et barn drukne i en dam, hopper du uti selv om du ødelegger de nye skoene dine. Da har vi også plikt til å gi penger som kan redde liv langt borte, mener han. Andre mener at vi har størst ansvar for dem som står oss nær, eller at det viktigste er å endre urettferdige systemer.\n\nReligioner og livssyn begrunner ansvaret på ulike måter. I **kristendommen** sier Jesus at det man gjør mot «en av disse mine minste», gjør man mot ham. **Zakat** i islam er en plikt til å gi til fattige. **Buddhismen** vektlegger medfølelse, og **humanister** viser til menneskeverd og **solidaritet**. Organisasjoner som **Kirkens Nødhjelp**, **Islamic Relief** og **Norsk Folkehjelp** arbeider mot fattigdom, og hvert år samler **TV-aksjonen** inn penger til et godt formål.\n\n## Handel og menneskerettigheter\n\nMange varer vi kjøper, lages under dårlige forhold:\n\n- I **2013** raste fabrikkbygningen **Rana Plaza** i Bangladesh sammen, og over 1100 tekstilarbeidere døde.\n- **Barnearbeid** forekommer blant annet i produksjon av kakao og i gruver.\n- Metaller til mobiltelefoner og batterier, som **kobolt**, utvinnes noen steder under farlige forhold.\n\nEtiske spørsmål er: Hvilket ansvar har vi som forbrukere? Bør Norge handle med land som bryter menneskerettighetene? **Oljefondet** har etiske retningslinjer, og selskaper kan bli **utelukket** hvis de bidrar til grove brudd på menneskerettighetene eller alvorlig miljøskade. Merkeordninger som **Fairtrade** skal sikre bedre lønn og arbeidsforhold.\n\n## Bærekraft og rettferdighet\n\nFattige land har rett til utvikling, men utvikling basert på kull og olje gir store utslipp. Samtidig er det de rike landene som har sluppet ut mest klimagasser gjennom historien, mens de fattige rammes hardest av tørke og flom. **Klimarettferdighet** handler om hvordan byrdene skal fordeles. Mange mener at rike land må kutte mest og hjelpe fattige land med å velge fornybar energi.\n\n## Hva kan du gjøre?\n\nDu kan sette deg inn i hvordan varene du kjøper blir laget, kjøpe mindre og bruke ting lenger, støtte organisasjoner, delta i aksjoner og si din mening i samfunnsdebatten.",
   "flashcards": [
-    { "term": "Absolutt fattigdom", "def": "Å mangle nok til grunnleggende behov som mat, vann, bolig og helsehjelp." },
-    { "term": "Ekstrem fattigdom", "def": "Ifølge Verdensbanken å leve for under 3 dollar om dagen (grensen siden 2025)." },
-    { "term": "Relativ fattigdom", "def": "Å ha mye mindre enn de fleste andre i samfunnet man bor i." },
-    { "term": "Årsaker til fattigdom", "def": "Blant annet krig, korrupsjon, klimaendringer, urettferdig handel og mangel på utdanning." },
-    { "term": "Singers druknende barn", "def": "Eksempel som skal vise at vi har plikt til å hjelpe mennesker i nød, også langt borte." },
-    { "term": "Solidaritet", "def": "Å stå sammen med og hjelpe andre, særlig de som har det vanskelig." },
-    { "term": "«En av disse mine minste»", "def": "Jesu ord om at det man gjør mot de svakeste, gjør man mot ham." },
-    { "term": "Zakat", "def": "Islamsk plikt til å gi en del av formuen til fattige." },
-    { "term": "Rana Plaza", "def": "Fabrikkbygning i Bangladesh som raste sammen i 2013. Over 1100 døde." },
-    { "term": "Barnearbeid", "def": "Arbeid som hindrer barn i skolegang eller skader helsen deres." },
-    { "term": "Kobolt", "def": "Metall til batterier som noen steder utvinnes under farlige forhold." },
-    { "term": "Oljefondets etiske retningslinjer", "def": "Regler som gjør at selskaper kan utelukkes ved grove brudd på menneskerettigheter." },
-    { "term": "Fairtrade", "def": "Merkeordning som skal sikre bedre lønn og arbeidsforhold for produsenter." },
-    { "term": "Klimarettferdighet", "def": "Hvordan byrdene ved klimaendringer og kutt skal fordeles rettferdig." },
-    { "term": "TV-aksjonen", "def": "Årlig innsamling i Norge til et godt formål." }
+    {
+      "term": "Absolutt fattigdom",
+      "def": "Å mangle nok til grunnleggende behov som mat, vann, bolig og helsehjelp."
+    },
+    {
+      "term": "Ekstrem fattigdom",
+      "def": "Ifølge Verdensbanken å leve for under 3 dollar om dagen (grensen siden 2025)."
+    },
+    {
+      "term": "Relativ fattigdom",
+      "def": "Å ha mye mindre enn de fleste andre i samfunnet man bor i."
+    },
+    {
+      "term": "Årsaker til fattigdom",
+      "def": "Blant annet krig, korrupsjon, klimaendringer, urettferdig handel og mangel på utdanning."
+    },
+    {
+      "term": "Singers druknende barn",
+      "def": "Eksempel som skal vise at vi har plikt til å hjelpe mennesker i nød, også langt borte."
+    },
+    {
+      "term": "Solidaritet",
+      "def": "Å stå sammen med og hjelpe andre, særlig de som har det vanskelig."
+    },
+    {
+      "term": "«En av disse mine minste»",
+      "def": "Jesu ord om at det man gjør mot de svakeste, gjør man mot ham."
+    },
+    {
+      "term": "Zakat",
+      "def": "Islamsk plikt til å gi en del av formuen til fattige."
+    },
+    {
+      "term": "Rana Plaza",
+      "def": "Fabrikkbygning i Bangladesh som raste sammen i 2013. Over 1100 døde."
+    },
+    {
+      "term": "Barnearbeid",
+      "def": "Arbeid som hindrer barn i skolegang eller skader helsen deres."
+    },
+    {
+      "term": "Kobolt",
+      "def": "Metall til batterier som noen steder utvinnes under farlige forhold."
+    },
+    {
+      "term": "Oljefondets etiske retningslinjer",
+      "def": "Regler som gjør at selskaper kan utelukkes ved grove brudd på menneskerettigheter."
+    },
+    {
+      "term": "Fairtrade",
+      "def": "Merkeordning som skal sikre bedre lønn og arbeidsforhold for produsenter."
+    },
+    {
+      "term": "Klimarettferdighet",
+      "def": "Hvordan byrdene ved klimaendringer og kutt skal fordeles rettferdig."
+    },
+    {
+      "term": "TV-aksjonen",
+      "def": "Årlig innsamling i Norge til et godt formål."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er absolutt fattigdom?", "options": ["Å ha mindre enn naboen", "Å mangle nok til grunnleggende behov som mat, vann og bolig", "Å ikke ha bil", "Å ha lav lønn i Norge"], "correct": 1, "explain": "Relativ fattigdom handler derimot om å ha mye mindre enn andre." },
-    { "id": "q02", "text": "Hva er relativ fattigdom?", "options": ["Å ikke ha mat i det hele tatt", "Fattigdom som bare finnes i Afrika", "Å ha mye mindre enn de fleste andre i samfunnet man bor i", "Å ha gjeld"], "correct": 2, "explain": "Relativ fattigdom finnes også i rike land som Norge." },
-    { "id": "q03", "text": "Hva vil Peter Singer vise med eksempelet om barnet som drukner?", "options": ["At vi har plikt til å hjelpe mennesker i nød, også langt borte", "At man ikke bør bade", "At sko er viktige", "At man bare skal hjelpe familien"], "correct": 0, "explain": "Singer mener avstand ikke fjerner plikten til å hjelpe." },
-    { "id": "q04", "text": "Hva skjedde ved Rana Plaza i 2013?", "options": ["En stor fotballturnering", "En fredsavtale ble inngått", "En klimakonferanse", "En fabrikkbygning i Bangladesh raste sammen, og over 1100 arbeidere døde"], "correct": 3, "explain": "Ulykken satte søkelys på forholdene i tekstilindustrien." },
-    { "id": "q05", "text": "Hvordan kan oljefondet reagere hvis et selskap bryter menneskerettighetene grovt?", "options": ["Det kan kjøpe flere aksjer", "Det kan utelukke selskapet", "Det kan straffe selskapet i retten", "Det har ingen regler"], "correct": 1, "explain": "Fondet har etiske retningslinjer for hvilke selskaper det investerer i." },
-    { "id": "q06", "text": "Hva er klimarettferdighet?", "options": ["Hvordan byrdene ved klimaendringer og kutt skal fordeles rettferdig", "At alle land skal ha samme temperatur", "En domstol for klima", "En type fornybar energi"], "correct": 0, "explain": "De som har sluppet ut minst, rammes ofte hardest." },
-    { "id": "q07", "text": "Hva skal merkeordningen Fairtrade sikre?", "options": ["Billigere varer", "Raskere levering", "Mer reklame", "Bedre lønn og arbeidsforhold for produsentene"], "correct": 3, "explain": "Fairtrade finnes blant annet på kaffe, kakao og bananer." },
-    { "id": "q08", "text": "Hvilken religiøs plikt i islam handler om å gi til fattige?", "options": ["Hajj", "Salat", "Zakat", "Sawm"], "correct": 2, "explain": "Zakat er en av islams fem søyler." },
-    { "id": "q09", "text": "Hvorfor kan utvikling i fattige land være et etisk dilemma knyttet til bærekraft?", "options": ["Fordi fattige land ikke vil utvikle seg", "Fordi utvikling basert på kull og olje gir store utslipp", "Fordi utvikling alltid er dårlig", "Det er ikke noe dilemma"], "correct": 1, "explain": "Retten til utvikling og hensynet til klimaet trekker i hver sin retning." },
-    { "id": "q10", "text": "Hva kan du gjøre for en mer rettferdig verden?", "options": ["Kaste mer", "Kjøpe så mye som mulig", "Unngå å lære om saken", "Sette deg inn i hvordan varene lages og kjøpe mindre"], "correct": 3, "explain": "Små valg og engasjement kan til sammen gjøre en forskjell." }
+    {
+      "id": "q01",
+      "text": "Hva er absolutt fattigdom?",
+      "options": [
+        "Å ha mindre enn naboen",
+        "Å mangle nok til grunnleggende behov som mat, vann og bolig",
+        "Å ikke ha bil",
+        "Å ha lav lønn i Norge"
+      ],
+      "correct": 1,
+      "explain": "Relativ fattigdom handler derimot om å ha mye mindre enn andre."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er relativ fattigdom?",
+      "options": [
+        "Å ikke ha mat i det hele tatt",
+        "Fattigdom som bare finnes i Afrika",
+        "Å ha mye mindre enn de fleste andre i samfunnet man bor i",
+        "Å ha gjeld"
+      ],
+      "correct": 2,
+      "explain": "Relativ fattigdom finnes også i rike land som Norge."
+    },
+    {
+      "id": "q03",
+      "text": "Hva vil Peter Singer vise med eksempelet om barnet som drukner?",
+      "options": [
+        "At vi har plikt til å hjelpe mennesker i nød, også langt borte",
+        "At man ikke bør bade",
+        "At sko er viktige",
+        "At man bare skal hjelpe familien"
+      ],
+      "correct": 0,
+      "explain": "Singer mener avstand ikke fjerner plikten til å hjelpe."
+    },
+    {
+      "id": "q04",
+      "text": "Hva skjedde ved Rana Plaza i 2013?",
+      "options": [
+        "En stor fotballturnering",
+        "En fredsavtale ble inngått",
+        "En klimakonferanse",
+        "En fabrikkbygning i Bangladesh raste sammen, og over 1100 arbeidere døde"
+      ],
+      "correct": 3,
+      "explain": "Ulykken satte søkelys på forholdene i tekstilindustrien."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan kan oljefondet reagere hvis et selskap bryter menneskerettighetene grovt?",
+      "options": [
+        "Det kan kjøpe flere aksjer",
+        "Det kan utelukke selskapet",
+        "Det kan straffe selskapet i retten",
+        "Det har ingen regler"
+      ],
+      "correct": 1,
+      "explain": "Fondet har etiske retningslinjer for hvilke selskaper det investerer i."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er klimarettferdighet?",
+      "options": [
+        "Hvordan byrdene ved klimaendringer og kutt skal fordeles rettferdig",
+        "At alle land skal ha samme temperatur",
+        "En domstol for klima",
+        "En type fornybar energi"
+      ],
+      "correct": 0,
+      "explain": "De som har sluppet ut minst, rammes ofte hardest."
+    },
+    {
+      "id": "q07",
+      "text": "Hva skal merkeordningen Fairtrade sikre?",
+      "options": [
+        "Billigere varer",
+        "Raskere levering",
+        "Mer reklame",
+        "Bedre lønn og arbeidsforhold for produsentene"
+      ],
+      "correct": 3,
+      "explain": "Fairtrade finnes blant annet på kaffe, kakao og bananer."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken religiøs plikt i islam handler om å gi til fattige?",
+      "options": [
+        "Hajj",
+        "Salat",
+        "Zakat",
+        "Sawm"
+      ],
+      "correct": 2,
+      "explain": "Zakat er en av islams fem søyler."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor kan utvikling i fattige land være et etisk dilemma knyttet til bærekraft?",
+      "options": [
+        "Fordi fattige land ikke vil utvikle seg",
+        "Fordi utvikling basert på kull og olje gir store utslipp",
+        "Fordi utvikling alltid er dårlig",
+        "Det er ikke noe dilemma"
+      ],
+      "correct": 1,
+      "explain": "Retten til utvikling og hensynet til klimaet trekker i hver sin retning."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kan du gjøre for en mer rettferdig verden?",
+      "options": [
+        "Kaste mer",
+        "Kjøpe så mye som mulig",
+        "Unngå å lære om saken",
+        "Sette deg inn i hvordan varene lages og kjøpe mindre"
+      ],
+      "correct": 3,
+      "explain": "Små valg og engasjement kan til sammen gjøre en forskjell."
+    }
   ],
   "mindmap": {
     "label": "Menneskerettigheter og fattigdom",
     "children": [
-      { "label": "Fattigdom", "children": [
-        { "label": "Absolutt" },
-        { "label": "Ekstrem", "note": "Under ca. 3 dollar" },
-        { "label": "Relativ" },
-        { "label": "Årsaker" }
-      ] },
-      { "label": "Plikt til å hjelpe?", "children": [
-        { "label": "Singers barn" },
-        { "label": "Nærhet og ansvar" },
-        { "label": "Endre systemer" }
-      ] },
-      { "label": "Religion og livssyn", "children": [
-        { "label": "Kristendom" },
-        { "label": "Zakat" },
-        { "label": "Medfølelse" },
-        { "label": "Solidaritet" }
-      ] },
-      { "label": "Handel", "children": [
-        { "label": "Rana Plaza" },
-        { "label": "Barnearbeid" },
-        { "label": "Kobolt" },
-        { "label": "Oljefondet og Fairtrade" }
-      ] },
-      { "label": "Bærekraft", "children": [
-        { "label": "Rett til utvikling" },
-        { "label": "Klimarettferdighet" },
-        { "label": "Hva kan du gjøre?" }
-      ] }
+      {
+        "label": "Fattigdom",
+        "children": [
+          {
+            "label": "Absolutt"
+          },
+          {
+            "label": "Ekstrem",
+            "note": "Under ca. 3 dollar"
+          },
+          {
+            "label": "Relativ"
+          },
+          {
+            "label": "Årsaker"
+          }
+        ]
+      },
+      {
+        "label": "Plikt til å hjelpe?",
+        "children": [
+          {
+            "label": "Singers barn"
+          },
+          {
+            "label": "Nærhet og ansvar"
+          },
+          {
+            "label": "Endre systemer"
+          }
+        ]
+      },
+      {
+        "label": "Religion og livssyn",
+        "children": [
+          {
+            "label": "Kristendom"
+          },
+          {
+            "label": "Zakat"
+          },
+          {
+            "label": "Medfølelse"
+          },
+          {
+            "label": "Solidaritet"
+          }
+        ]
+      },
+      {
+        "label": "Handel",
+        "children": [
+          {
+            "label": "Rana Plaza"
+          },
+          {
+            "label": "Barnearbeid"
+          },
+          {
+            "label": "Kobolt"
+          },
+          {
+            "label": "Oljefondet og Fairtrade"
+          }
+        ]
+      },
+      {
+        "label": "Bærekraft",
+        "children": [
+          {
+            "label": "Rett til utvikling"
+          },
+          {
+            "label": "Klimarettferdighet"
+          },
+          {
+            "label": "Hva kan du gjøre?"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Relativ fattigdom finnes også i Norge.", "correct": true, "explain": "Mange barn i Norge vokser opp i familier med lav inntekt." },
-      { "id": "m02", "type": "sant-usant", "text": "De fattigste landene har sluppet ut mest klimagasser gjennom historien.", "correct": false, "explain": "Det er de rike industrilandene som har sluppet ut mest." },
-      { "id": "m03", "type": "sant-usant", "text": "Barnearbeid forekommer fortsatt, blant annet i kakaoproduksjon.", "correct": true, "explain": "Derfor finnes det merkeordninger som skal sikre at varer er produsert uten barnearbeid." },
-      { "id": "m04", "type": "sant-usant", "text": "Alle er enige om hvor stort ansvar rike land har for å hjelpe.", "correct": false, "explain": "Spørsmålet er omdiskutert både blant filosofer og politikere." },
-      { "id": "m05", "type": "flervalg", "text": "Hvor lever de fleste ekstremt fattige?", "options": ["Europa", "Nord-Amerika", "Afrika sør for Sahara", "Australia"], "correct": 2, "explain": "Krig, klimaendringer og svake institusjoner gjør fattigdommen vanskelig å bekjempe der." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket metall til batterier utvinnes noen steder under farlige forhold?", "options": ["Kobolt", "Gull", "Sølv", "Jern"], "correct": 0, "explain": "Kobolt brukes i batterier til mobiltelefoner og elbiler." },
-      { "id": "m07", "type": "flervalg", "text": "Hva sier Jesus om det man gjør mot «en av disse mine minste»?", "options": ["At det ikke betyr noe", "At man gjør det mot ham", "At man bør unngå dem", "At det bare gjelder prester"], "correct": 1, "explain": "Ordene brukes ofte som begrunnelse for kristent hjelpearbeid." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Relativ fattigdom finnes også i Norge.",
+        "correct": true,
+        "explain": "Mange barn i Norge vokser opp i familier med lav inntekt."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "De fattigste landene har sluppet ut mest klimagasser gjennom historien.",
+        "correct": false,
+        "explain": "Det er de rike industrilandene som har sluppet ut mest."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Barnearbeid forekommer fortsatt, blant annet i kakaoproduksjon.",
+        "correct": true,
+        "explain": "Derfor finnes det merkeordninger som skal sikre at varer er produsert uten barnearbeid."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle er enige om hvor stort ansvar rike land har for å hjelpe.",
+        "correct": false,
+        "explain": "Spørsmålet er omdiskutert både blant filosofer og politikere."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvor lever de fleste ekstremt fattige?",
+        "options": [
+          "Europa",
+          "Nord-Amerika",
+          "Afrika sør for Sahara",
+          "Australia"
+        ],
+        "correct": 2,
+        "explain": "Krig, klimaendringer og svake institusjoner gjør fattigdommen vanskelig å bekjempe der."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket metall til batterier utvinnes noen steder under farlige forhold?",
+        "options": [
+          "Kobolt",
+          "Gull",
+          "Sølv",
+          "Jern"
+        ],
+        "correct": 0,
+        "explain": "Kobolt brukes i batterier til mobiltelefoner og elbiler."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva sier Jesus om det man gjør mot «en av disse mine minste»?",
+        "options": [
+          "At det ikke betyr noe",
+          "At man gjør det mot ham",
+          "At man bør unngå dem",
+          "At det bare gjelder prester"
+        ],
+        "correct": 1,
+        "explain": "Ordene brukes ofte som begrunnelse for kristent hjelpearbeid."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Fattigdom kan skyldes blant annet krig, korrupsjon, klimaendringer, urettferdig handel og mangel på utdanning. Forklar med to ulike årsaker hvordan fattigdom kan oppstå på flere måter.",
+        "fasit": "Krig og konflikt kan gjøre det vanskelig å skaffe det man trenger. Mangel på utdanning kan også bidra til fattigdom, så fattigdom kan ha flere ulike årsaker.",
+        "kriterier": [
+          "Nevner to ulike årsaker fra oppgaven.",
+          "Forklarer hvordan minst én av årsakene kan bidra til fattigdom."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Kristendommen og islam begrunner begge ansvar for mennesker som har det vanskelig. Sammenlign hvordan «en av disse mine minste» i kristendommen og zakat i islam uttrykker dette ansvaret.",
+        "fasit": "I kristendommen sier Jesus at det man gjør mot de svakeste, gjør man mot ham. I islam er zakat en plikt til å gi til fattige.",
+        "kriterier": [
+          "Forklarer betydningen av Jesu ord om «en av disse mine minste».",
+          "Forklarer at zakat er en plikt til å gi til fattige."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En gruppe elever samler inn penger til mennesker som har det vanskelig. Forklar hvordan handlingen kan være et uttrykk for solidaritet.",
+        "fasit": "Solidaritet betyr å stå sammen med og hjelpe andre, særlig dem som har det vanskelig. Elevene viser solidaritet ved å støtte mennesker som trenger hjelp.",
+        "kriterier": [
+          "Forklarer solidaritet som å stå sammen med eller hjelpe andre.",
+          "Knytter begrepet til at elevene støtter mennesker som har det vanskelig."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Barnearbeid forekommer blant annet i produksjon av kakao og i gruver. Forklar hva som gjør arbeid til barnearbeid, og hvorfor det kan være skadelig for barn.",
+        "fasit": "Det er barnearbeid når arbeidet hindrer barn i å gå på skolen eller skader helsen deres. Da kan barna miste skolegang eller få helsen skadet.",
+        "kriterier": [
+          "Nevner at arbeid som hindrer skolegang eller skader helsen, regnes som barnearbeid.",
+          "Forklarer en mulig skade for barnet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Noen steder utvinnes kobolt til mobilbatterier under farlige forhold. Du skal kjøpe en ny mobil. Beskriv én konkret handling du kan gjøre som forbruker, og forklar hvordan den handler om ansvar for varene du kjøper.",
+        "fasit": "Jeg kan undersøke hvordan materialene i mobilen er utvunnet før jeg kjøper den. Da setter jeg meg inn i hvordan varen er laget og tar ansvar som forbruker.",
+        "kriterier": [
+          "Nevner en konkret handling, for eksempel å undersøke hvordan varen er laget eller kjøpe mindre.",
+          "Knytter handlingen til ansvar for produksjonen eller forholdene varene lages under."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Rike land har stått for mesteparten av klimagassutslippene gjennom historien, mens fattige land rammes hardest av tørke og flom. Forklar hvorfor dette gir grunnlag for å mene at rike land bør kutte mest og hjelpe fattige land med fornybar energi.",
+        "fasit": "Rike land har bidratt mest til utslippene, mens fattige land rammes hardest av konsekvensene. Derfor mener mange at byrdene bør fordeles slik at rike land kutter mest og hjelper fattige land med fornybar energi.",
+        "kriterier": [
+          "Får fram at rike land har stått for mest historiske utslipp.",
+          "Får fram at fattige land rammes hardest, og knytter dette til forslaget om større innsats fra rike land."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Fairtrade og Oljefondets etiske retningslinjer er to måter å påvirke forhold knyttet til handel og menneskerettigheter på. Forklar hvordan de virker forskjellig.",
+        "fasit": "Fairtrade skal sikre bedre lønn og arbeidsforhold for produsenter. Oljefondets retningslinjer kan føre til at selskaper som bidrar til grove brudd på menneskerettighetene eller alvorlig miljøskade, blir utelukket.",
+        "kriterier": [
+          "Forklarer at Fairtrade skal bidra til bedre lønn eller arbeidsforhold for produsenter.",
+          "Forklarer at selskaper kan utelukkes gjennom Oljefondets retningslinjer."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "TV-aksjonen samler mennesker i Norge om å støtte et godt formål. Forklar hva TV-aksjonen gjør, og hvorfor den kan gjøre det mulig for mange å bidra sammen.",
+        "fasit": "TV-aksjonen er en årlig innsamling i Norge til et godt formål. Når mange gir penger gjennom samme innsamling, kan de bidra sammen til formålet.",
+        "kriterier": [
+          "Nevner at TV-aksjonen er en årlig pengeinnsamling i Norge.",
+          "Nevner at pengene går til et godt formål."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

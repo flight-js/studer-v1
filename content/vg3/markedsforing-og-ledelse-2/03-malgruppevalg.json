@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Segmentering og målgruppevalg",
   "intro": "Faktorer som påvirker valg av målgruppe – segmenteringskriterier, krav til gode segmenter, markedsdekningsstrategier som udifferensiert, differensiert, konsentrert og individuell markedsføring – og hvordan ressurser, konkurranse, produktets livsfase, data og etikk påvirker valget.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Fra marked til målgruppe\n\nIngen virksomhet kan være alt for alle. **STP-prosessen** hjelper virksomheten å velge hvem den skal satse på:\n\n1. **Segmentering**: dele markedet i grupper med **like** behov\n2. **Målgruppevalg** – targeting: velge hvilke segmenter man skal satse på\n3. **Posisjonering**: bestemme hvordan man vil **oppfattes** av målgruppen\n\n## Segmenteringskriterier\n\n- **Geografiske**: land, region, by eller bygd\n- **Demografiske**: alder, kjønn, inntekt, utdanning, livsfase\n- **Psykografiske**: livsstil, verdier, personlighet og interesser\n- **Atferdsbaserte**: bruksfrekvens, lojalitet, kjøpsanledning og hvilken **nytte** kunden søker\n\nI **bedriftsmarkedet** brukes blant annet bransje, bedriftsstørrelse og innkjøpsatferd.\n\nMed **digitale data** kan virksomheter segmentere svært **presist** – ut fra hva folk søker etter, klikker på og kjøper.\n\n## Krav til gode segmenter\n\nEt segment bør være\n\n- **målbart**: Vi kan anslå størrelse og kjøpekraft.\n- **stort nok** til å være **lønnsomt**\n- **tilgjengelig**: Vi kan nå det med kommunikasjon og distribusjon.\n- **forskjellig** fra andre segmenter, slik at det reagerer ulikt på markedsføringen\n- **stabilt** nok over tid\n\n## Markedsdekningsstrategier\n\n- **Udifferensiert** markedsføring: samme tilbud til **hele** markedet. Passer for **standardvarer** som salt og strøm. Gir lave kostnader, men lite tilpasning.\n- **Differensiert** markedsføring: ulike tilbud til **flere** segmenter – for eksempel en bilprodusent med ulike modeller. Gir bedre tilpasning, men høyere kostnader.\n- **Konsentrert** markedsføring – nisje: satse på **ett** segment. Passer for **små** virksomheter med begrensede ressurser, men gir høy **risiko** hvis segmentet svikter.\n- **Individuell** markedsføring – one-to-one: tilpasse tilbudet til hver **enkelt** kunde, for eksempel personlige anbefalinger i nettbutikker.\n\n## Faktorer som påvirker målgruppevalget\n\n- **Ressurser**: Små virksomheter velger ofte **konsentrert** markedsføring.\n- **Produktet**: Standardvarer passer for udifferensiert, mens produkter som kan **tilpasses**, passer for differensiert.\n- **Produktets livsfase**: I **introduksjonsfasen** satser man ofte på én målgruppe, mens man i **modningsfasen** kan utvide til flere.\n- **Konkurransen**: Mange sterke konkurrenter kan gjøre det lurt å finne en **nisje**.\n- **Markedets størrelse og vekst**\n- **Virksomhetens mål** og **forretningsidé**\n- **Etikk og regelverk**: Markedsføring rettet mot **barn** er strengt regulert, og noen varer – som **alkohol** – kan ikke markedsføres i det hele tatt.\n\n## Primær- og sekundærmålgruppe\n\nMange virksomheter har en **primærmålgruppe** – de viktigste kundene – og en **sekundærmålgruppe**, for eksempel dem som **påvirker** kjøpet. Leker kjøpes ofte av **foreldre**, men **barna** påvirker valget.\n\n## Etiske spørsmål\n\nPresis **datadrevet** segmentering kan gi relevante tilbud, men reiser spørsmål om **personvern** og om å utnytte **sårbare** grupper – for eksempel å målrette **forbrukslån** eller **pengespill** mot personer med dårlig økonomi.\n\n## Drøfting\n\nNår du drøfter målgruppevalg, må du **begrunne** valget ut fra virksomhetens **situasjon**: ressurser, konkurranse, produkt og mål. Det finnes sjelden ett **riktig** svar, men valget må henge **logisk** sammen med resten av strategien.",
   "flashcards": [
-    { "term": "Segmentering", "def": "Å dele markedet i grupper med like behov." },
-    { "term": "Targeting", "def": "Å velge hvilke segmenter man satser på." },
-    { "term": "Demografisk segmentering", "def": "Alder, kjønn, inntekt, utdanning, livsfase." },
-    { "term": "Psykografisk segmentering", "def": "Livsstil, verdier og interesser." },
-    { "term": "Atferdsbasert segmentering", "def": "Bruksfrekvens, lojalitet og søkt nytte." },
-    { "term": "Krav til segmenter", "def": "Målbart, stort nok, tilgjengelig, forskjellig og stabilt." },
-    { "term": "Udifferensiert markedsføring", "def": "Samme tilbud til hele markedet." },
-    { "term": "Differensiert markedsføring", "def": "Ulike tilbud til flere segmenter." },
-    { "term": "Konsentrert markedsføring", "def": "Satsing på ett segment – nisje." },
-    { "term": "Individuell markedsføring", "def": "Tilbud tilpasset hver enkelt kunde." },
-    { "term": "Primærmålgruppe", "def": "De viktigste kundene." },
-    { "term": "Sekundærmålgruppe", "def": "For eksempel de som påvirker kjøpet." },
-    { "term": "Nisje", "def": "Lite, avgrenset segment." },
-    { "term": "Datadrevet segmentering", "def": "Segmentering ut fra søk, klikk og kjøp." },
-    { "term": "Sårbare grupper", "def": "Grupper som kan utnyttes av målrettet markedsføring." }
+    {
+      "term": "Segmentering",
+      "def": "Å dele markedet i grupper med like behov."
+    },
+    {
+      "term": "Targeting",
+      "def": "Å velge hvilke segmenter man satser på."
+    },
+    {
+      "term": "Demografisk segmentering",
+      "def": "Alder, kjønn, inntekt, utdanning, livsfase."
+    },
+    {
+      "term": "Psykografisk segmentering",
+      "def": "Livsstil, verdier og interesser."
+    },
+    {
+      "term": "Atferdsbasert segmentering",
+      "def": "Bruksfrekvens, lojalitet og søkt nytte."
+    },
+    {
+      "term": "Krav til segmenter",
+      "def": "Målbart, stort nok, tilgjengelig, forskjellig og stabilt."
+    },
+    {
+      "term": "Udifferensiert markedsføring",
+      "def": "Samme tilbud til hele markedet."
+    },
+    {
+      "term": "Differensiert markedsføring",
+      "def": "Ulike tilbud til flere segmenter."
+    },
+    {
+      "term": "Konsentrert markedsføring",
+      "def": "Satsing på ett segment – nisje."
+    },
+    {
+      "term": "Individuell markedsføring",
+      "def": "Tilbud tilpasset hver enkelt kunde."
+    },
+    {
+      "term": "Primærmålgruppe",
+      "def": "De viktigste kundene."
+    },
+    {
+      "term": "Sekundærmålgruppe",
+      "def": "For eksempel de som påvirker kjøpet."
+    },
+    {
+      "term": "Nisje",
+      "def": "Lite, avgrenset segment."
+    },
+    {
+      "term": "Datadrevet segmentering",
+      "def": "Segmentering ut fra søk, klikk og kjøp."
+    },
+    {
+      "term": "Sårbare grupper",
+      "def": "Grupper som kan utnyttes av målrettet markedsføring."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er psykografisk segmentering?", "options": ["Etter alder", "Etter livsstil, verdier og interesser", "Etter bosted", "Etter bruksfrekvens"], "correct": 1, "explain": "Handler om hvordan folk lever og tenker." },
-    { "id": "q02", "text": "Hvilken strategi passer ofte for små virksomheter?", "options": ["Konsentrert markedsføring", "Udifferensiert markedsføring", "Differensiert markedsføring med mange segmenter", "Ingen strategi"], "correct": 0, "explain": "Begrensede ressurser." },
-    { "id": "q03", "text": "Hvilket krav stilles til et godt segment?", "options": ["At det er ukjent", "At det er umulig å nå", "At det er stort nok til å være lønnsomt", "At det er likt alle andre segmenter"], "correct": 2, "explain": "Også målbart og tilgjengelig." },
-    { "id": "q04", "text": "Hva er udifferensiert markedsføring?", "options": ["Tilbud til hver kunde", "Tilbud til én nisje", "Ulike tilbud til flere segmenter", "Samme tilbud til hele markedet"], "correct": 3, "explain": "Passer for standardvarer." },
-    { "id": "q05", "text": "Hva er en risiko ved konsentrert markedsføring?", "options": ["At virksomheten rammes hardt hvis segmentet svikter", "At kostnadene blir svært høye", "At man når for mange", "At produktet blir for billig"], "correct": 0, "explain": "Alle egg i én kurv." },
-    { "id": "q06", "text": "Hva er en sekundærmålgruppe for leker?", "options": ["Leketøysbutikker", "Barna som påvirker kjøpet", "Konkurrenter", "Staten"], "correct": 1, "explain": "Foreldrene kjøper." },
-    { "id": "q07", "text": "Hvilket etisk problem kan presis datadrevet segmentering gi?", "options": ["For lite reklame", "Lavere priser", "At sårbare grupper utnyttes", "At kunder får irrelevante tilbud"], "correct": 2, "explain": "For eksempel forbrukslån." },
-    { "id": "q08", "text": "Hva er atferdsbasert segmentering?", "options": ["Etter kjønn", "Etter region", "Etter personlighet", "Etter bruksfrekvens, lojalitet og søkt nytte"], "correct": 3, "explain": "Hvordan kunden oppfører seg." },
-    { "id": "q09", "text": "Hva er individuell markedsføring?", "options": ["Tilbud tilpasset hver enkelt kunde", "Samme tilbud til alle", "Ett segment", "Markedsføring bare på TV"], "correct": 0, "explain": "For eksempel personlige anbefalinger." },
-    { "id": "q10", "text": "Hvordan påvirker produktets livsfase målgruppevalget?", "options": ["Ikke i det hele tatt", "I introduksjonsfasen satser man ofte på én målgruppe, senere flere", "Man satser alltid på alle", "Man slutter å segmentere"], "correct": 1, "explain": "Utvidelse i modningsfasen." }
+    {
+      "id": "q01",
+      "text": "Hva er psykografisk segmentering?",
+      "options": [
+        "Etter alder",
+        "Etter livsstil, verdier og interesser",
+        "Etter bosted",
+        "Etter bruksfrekvens"
+      ],
+      "correct": 1,
+      "explain": "Handler om hvordan folk lever og tenker."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken strategi passer ofte for små virksomheter?",
+      "options": [
+        "Konsentrert markedsføring",
+        "Udifferensiert markedsføring",
+        "Differensiert markedsføring med mange segmenter",
+        "Ingen strategi"
+      ],
+      "correct": 0,
+      "explain": "Begrensede ressurser."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket krav stilles til et godt segment?",
+      "options": [
+        "At det er ukjent",
+        "At det er umulig å nå",
+        "At det er stort nok til å være lønnsomt",
+        "At det er likt alle andre segmenter"
+      ],
+      "correct": 2,
+      "explain": "Også målbart og tilgjengelig."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er udifferensiert markedsføring?",
+      "options": [
+        "Tilbud til hver kunde",
+        "Tilbud til én nisje",
+        "Ulike tilbud til flere segmenter",
+        "Samme tilbud til hele markedet"
+      ],
+      "correct": 3,
+      "explain": "Passer for standardvarer."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en risiko ved konsentrert markedsføring?",
+      "options": [
+        "At virksomheten rammes hardt hvis segmentet svikter",
+        "At kostnadene blir svært høye",
+        "At man når for mange",
+        "At produktet blir for billig"
+      ],
+      "correct": 0,
+      "explain": "Alle egg i én kurv."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en sekundærmålgruppe for leker?",
+      "options": [
+        "Leketøysbutikker",
+        "Barna som påvirker kjøpet",
+        "Konkurrenter",
+        "Staten"
+      ],
+      "correct": 1,
+      "explain": "Foreldrene kjøper."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket etisk problem kan presis datadrevet segmentering gi?",
+      "options": [
+        "For lite reklame",
+        "Lavere priser",
+        "At sårbare grupper utnyttes",
+        "At kunder får irrelevante tilbud"
+      ],
+      "correct": 2,
+      "explain": "For eksempel forbrukslån."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er atferdsbasert segmentering?",
+      "options": [
+        "Etter kjønn",
+        "Etter region",
+        "Etter personlighet",
+        "Etter bruksfrekvens, lojalitet og søkt nytte"
+      ],
+      "correct": 3,
+      "explain": "Hvordan kunden oppfører seg."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er individuell markedsføring?",
+      "options": [
+        "Tilbud tilpasset hver enkelt kunde",
+        "Samme tilbud til alle",
+        "Ett segment",
+        "Markedsføring bare på TV"
+      ],
+      "correct": 0,
+      "explain": "For eksempel personlige anbefalinger."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan påvirker produktets livsfase målgruppevalget?",
+      "options": [
+        "Ikke i det hele tatt",
+        "I introduksjonsfasen satser man ofte på én målgruppe, senere flere",
+        "Man satser alltid på alle",
+        "Man slutter å segmentere"
+      ],
+      "correct": 1,
+      "explain": "Utvidelse i modningsfasen."
+    }
   ],
   "mindmap": {
     "label": "Målgruppevalg",
     "children": [
-      { "label": "STP", "children": [
-        { "label": "Segmentering" },
-        { "label": "Targeting" },
-        { "label": "Posisjonering" }
-      ] },
-      { "label": "Kriterier", "children": [
-        { "label": "Geografisk og demografisk" },
-        { "label": "Psykografisk og atferd" }
-      ] },
-      { "label": "Strategier", "children": [
-        { "label": "Udifferensiert" },
-        { "label": "Differensiert" },
-        { "label": "Konsentrert og individuell" }
-      ] },
-      { "label": "Faktorer", "children": [
-        { "label": "Ressurser og produkt" },
-        { "label": "Livsfase og konkurranse" },
-        { "label": "Regelverk" }
-      ] },
-      { "label": "Etikk", "children": [
-        { "label": "Personvern" },
-        { "label": "Sårbare grupper" }
-      ] }
+      {
+        "label": "STP",
+        "children": [
+          {
+            "label": "Segmentering"
+          },
+          {
+            "label": "Targeting"
+          },
+          {
+            "label": "Posisjonering"
+          }
+        ]
+      },
+      {
+        "label": "Kriterier",
+        "children": [
+          {
+            "label": "Geografisk og demografisk"
+          },
+          {
+            "label": "Psykografisk og atferd"
+          }
+        ]
+      },
+      {
+        "label": "Strategier",
+        "children": [
+          {
+            "label": "Udifferensiert"
+          },
+          {
+            "label": "Differensiert"
+          },
+          {
+            "label": "Konsentrert og individuell"
+          }
+        ]
+      },
+      {
+        "label": "Faktorer",
+        "children": [
+          {
+            "label": "Ressurser og produkt"
+          },
+          {
+            "label": "Livsfase og konkurranse"
+          },
+          {
+            "label": "Regelverk"
+          }
+        ]
+      },
+      {
+        "label": "Etikk",
+        "children": [
+          {
+            "label": "Personvern"
+          },
+          {
+            "label": "Sårbare grupper"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Markedsføring rettet mot barn er strengt regulert.", "correct": true, "explain": "Hensyn til sårbare grupper." },
-      { "id": "m02", "type": "sant-usant", "text": "Differensiert markedsføring gir alltid lavere kostnader enn udifferensiert.", "correct": false, "explain": "Den gir ofte høyere kostnader." },
-      { "id": "m03", "type": "sant-usant", "text": "Mange sterke konkurrenter kan gjøre det lurt å finne en nisje.", "correct": true, "explain": "Unngå direkte konkurranse." },
-      { "id": "m04", "type": "sant-usant", "text": "Et segment som ikke kan nås med kommunikasjon, er et godt segment.", "correct": false, "explain": "Det må være tilgjengelig." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket kriterium er demografisk?", "options": ["Livsstil", "Inntekt", "Lojalitet", "Verdier"], "correct": 1, "explain": "Også alder og utdanning." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken strategi passer for en bilprodusent med mange modeller?", "options": ["Differensiert markedsføring", "Udifferensiert markedsføring", "Ingen segmentering", "Bare nisje"], "correct": 0, "explain": "Ulike tilbud til ulike segmenter." },
-      { "id": "m07", "type": "flervalg", "text": "Hva må et målgruppevalg henge sammen med?", "options": ["Konkurrentenes logo", "Tilfeldigheter", "Virksomhetens situasjon og strategi", "Været"], "correct": 2, "explain": "Ressurser, mål og konkurranse." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Markedsføring rettet mot barn er strengt regulert.",
+        "correct": true,
+        "explain": "Hensyn til sårbare grupper."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Differensiert markedsføring gir alltid lavere kostnader enn udifferensiert.",
+        "correct": false,
+        "explain": "Den gir ofte høyere kostnader."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange sterke konkurrenter kan gjøre det lurt å finne en nisje.",
+        "correct": true,
+        "explain": "Unngå direkte konkurranse."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et segment som ikke kan nås med kommunikasjon, er et godt segment.",
+        "correct": false,
+        "explain": "Det må være tilgjengelig."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket kriterium er demografisk?",
+        "options": [
+          "Livsstil",
+          "Inntekt",
+          "Lojalitet",
+          "Verdier"
+        ],
+        "correct": 1,
+        "explain": "Også alder og utdanning."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken strategi passer for en bilprodusent med mange modeller?",
+        "options": [
+          "Differensiert markedsføring",
+          "Udifferensiert markedsføring",
+          "Ingen segmentering",
+          "Bare nisje"
+        ],
+        "correct": 0,
+        "explain": "Ulike tilbud til ulike segmenter."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva må et målgruppevalg henge sammen med?",
+        "options": [
+          "Konkurrentenes logo",
+          "Tilfeldigheter",
+          "Virksomhetens situasjon og strategi",
+          "Været"
+        ],
+        "correct": 2,
+        "explain": "Ressurser, mål og konkurranse."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En virksomhet deler først markedet inn i grupper med like behov, velger deretter hvilke grupper den vil satse på, og bestemmer til slutt hvordan tilbudet skal oppfattes. Forklar hva de tre stegene i STP-prosessen heter, og hva virksomheten gjør i hvert steg.",
+        "fasit": "Stegene er segmentering, målgruppevalg (targeting) og posisjonering. Virksomheten grupperer kunder med like behov, velger hvilke segmenter den vil satse på, og bestemmer hvordan den vil oppfattes av målgruppen.",
+        "kriterier": [
+          "Knytter segmentering til å dele markedet i grupper med like behov.",
+          "Skiller mellom å velge segmenter i målgruppevalget og å bestemme ønsket oppfatning i posisjoneringen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et reiseselskap deler kundene inn etter hvilken landsdel de bor i, og etter alder og livsfase. Forklar hvilken type segmentering hvert av disse kjennetegnene viser, og hva som skiller typene.",
+        "fasit": "Landsdel er et geografisk kjennetegn, mens alder og livsfase er demografiske kjennetegn. Geografisk segmentering deler etter hvor kundene bor, og demografisk segmentering deler etter personkjennetegn.",
+        "kriterier": [
+          "Klassifiserer bosted eller landsdel som geografisk segmentering.",
+          "Klassifiserer alder og livsfase som demografisk segmentering og forklarer forskjellen mellom kategoriene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign udifferensiert og differensiert markedsføring når det gjelder hvor mange segmenter virksomheten retter seg mot, og hvor tilpasset tilbudet er. Ta også med én forskjell i kostnader.",
+        "fasit": "Udifferensiert markedsføring gir samme tilbud til hele markedet, mens differensiert markedsføring gir ulike tilbud til flere segmenter. Differensiering gir bedre tilpasning, men koster mer.",
+        "kriterier": [
+          "Forklarer at udifferensiert markedsføring retter samme tilbud mot hele markedet, mens differensiert markedsføring retter ulike tilbud mot flere segmenter.",
+          "Får fram at differensiert markedsføring gir bedre tilpasning, men høyere kostnader."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En virksomhet selger salt som standardvare og ønsker å nå hele markedet med samme tilbud. Hvilken markedsdekningsstrategi passer best? Begrunn valget med en fordel og en begrensning ved strategien.",
+        "fasit": "Udifferensiert markedsføring passer best fordi virksomheten vil tilby en standardvare til hele markedet. Strategien kan gi lave kostnader, men tilbudet blir lite tilpasset ulike kundegrupper.",
+        "kriterier": [
+          "Velger udifferensiert markedsføring og knytter valget til standardvaren og hele markedet.",
+          "Nevner både en fordel, som lave kostnader, og en begrensning, som lite tilpasning."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et segment kan måles og anslås å være stort nok til å lønne seg. Det skiller seg fra andre segmenter og er stabilt, men virksomheten har ingen måte å nå det med kommunikasjon eller distribusjon på. Hvilket krav til et godt segment er ikke oppfylt, og hvorfor er det et problem?",
+        "fasit": "Kravet om tilgjengelighet er ikke oppfylt. Selv om segmentet kan være lønnsomt, får virksomheten ikke nådd kundene med kommunikasjon eller distribusjon.",
+        "kriterier": [
+          "Identifiserer at segmentet ikke er tilgjengelig.",
+          "Forklarer at virksomheten må kunne nå segmentet med kommunikasjon og distribusjon for å kunne satse på det."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En leverandør selger produkter til andre bedrifter og deler markedet etter kundenes bransje, størrelse og innkjøpsatferd. Forklar hvorfor dette er relevante kriterier for segmentering i bedriftsmarkedet.",
+        "fasit": "Bransje, bedriftsstørrelse og innkjøpsatferd er kriterier som kan brukes til å dele bedriftsmarkedet i grupper. De kan skille mellom bedrifter med ulike kjennetegn og kjøpsmåter.",
+        "kriterier": [
+          "Knytter bransje, bedriftsstørrelse og innkjøpsatferd til segmentering i bedriftsmarkedet.",
+          "Forklarer at kriteriene brukes til å skille mellom ulike grupper av bedriftskunder."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En møbelleverandør selger skoleinnredning. Skoleledere står for kjøpene, mens lærere påvirker hvilke løsninger skolen velger. Hvem er primærmålgruppen og hvem er sekundærmålgruppen i denne situasjonen? Begrunn svaret.",
+        "fasit": "Skolelederne er primærmålgruppen fordi de står for kjøpene og er de viktigste kundene. Lærerne er sekundærmålgruppen fordi de påvirker valget.",
+        "kriterier": [
+          "Identifiserer skolelederne som primærmålgruppe fordi de står for kjøpene.",
+          "Identifiserer lærerne som sekundærmålgruppe fordi de påvirker kjøpet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En nettbutikk deler kundene inn etter hva de søker etter, klikker på og kjøper. Forklar hvorfor dette er datadrevet segmentering, og hvordan det kan gjøre tilbudene mer relevante for kundene.",
+        "fasit": "Dette er datadrevet segmentering fordi virksomheten bruker digitale data om søk, klikk og kjøp til å gruppere kundene. Slik kan den tilpasse tilbudene mer presist til kundenes interesser og behov.",
+        "kriterier": [
+          "Forklarer at segmenteringen bygger på digitale data om søk, klikk eller kjøp.",
+          "Knytter bruken av data til mer presis tilpasning eller mer relevante tilbud."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

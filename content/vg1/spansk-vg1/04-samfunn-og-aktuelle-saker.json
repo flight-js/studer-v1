@@ -4,80 +4,432 @@
   "trinnId": "vg1",
   "name": "Samfunn i Spania og Latin-Amerika",
   "intro": "Den spansktalende verden, Spanias regioner og språk, mangfold, ulikhet og migrasjon i Latin-Amerika – og hvordan du uttrykker meninger og ønsker på spansk, blant annet med en første innføring i subjuntivo.",
-  "kompetansemaal": [4, 5, 8],
+  "kompetansemaal": [
+    4,
+    5,
+    8
+  ],
   "sammendrag": "## Den spansktalende verden\n\nSpansk er morsmål for over **500 millioner** mennesker og offisielt språk i **21 land** (medregnet Puerto Rico): **Spania**, **Ekvatorial-Guinea** i Afrika og en rekke land i **Latin-Amerika**. **Mexico** er landet med flest spansktalende. Spansk er også mye brukt i **USA**.\n\n## Spania\n\nSpania er et **konstitusjonelt monarki** med **17 autonome regioner** (*comunidades autónomas*), som har stor grad av selvstyre. I tillegg til spansk (*castellano*) har flere regioner egne offisielle språk:\n\n- **katalansk** (*catalán*) i Catalonia\n- **baskisk** (*euskera*) i Baskerland – et språk som ikke er i slekt med noe annet kjent språk\n- **galisisk** (*gallego*) i Galicia\n\nI **Catalonia** har spørsmålet om **uavhengighet** skapt store politiske konflikter.\n\n## Latin-Amerika\n\nLatin-Amerika er preget av stort **mangfold**:\n\n- **Urfolk**, som mayaer, quechuaer og aymaraer, med egne språk og kulturer\n- Etterkommere av **europeere** og **afrikanere**, og mange med blandet bakgrunn\n- **Store byer**, som Mexico by, Buenos Aires og Bogotá, og **landsbygd**\n\nMange land har **store forskjeller** mellom rike og fattige. Andre aktuelle temaer er **migrasjon** – blant annet til USA og Spania – **korrupsjon**, **kriminalitet**, **avskoging** i Amazonas og **urfolks rettigheter**.\n\n## Å uttrykke meninger\n\n- *En mi opinión, … / Para mí, …* – Etter min mening …\n- *Creo que / Pienso que + indikativ* – *Creo que **es** importante.*\n- *Estoy a favor / en contra de …* – Jeg er for / mot …\n- *Por un lado …, por otro lado …* – På den ene siden …, på den andre …\n- *Sin embargo* – likevel, *además* – dessuten\n\n## Subjuntivo – en første innføring\n\n**Subjuntivo** er en egen verbform som brukes etter uttrykk for **ønsker**, **følelser**, **tvil** og **nektede meninger**.\n\nForm: ta **yo**-formen i presens, fjern -o, og bytt vokal: **-ar → -e**, **-er/-ir → -a**.\n\n- hablar → habl**e**, comer → com**a**, tener → teng**a**, hacer → hag**a**\n- Uregelmessige: *ser → sea*, *ir → vaya*, *estar → esté*\n\nEksempler:\n\n- *Quiero que **vengas**.* – Jeg vil at du skal komme.\n- *Espero que **tengas** suerte.* – Jeg håper du har flaks.\n- *No creo que **sea** verdad.* – Jeg tror ikke det er sant.\n- *Es importante que todos **puedan** estudiar.*\n\nLegg merke til forskjellen: *Creo que **es** verdad* (indikativ) – *No creo que **sea** verdad* (subjuntivo).",
   "flashcards": [
-    { "term": "21 land", "def": "antall land med spansk som offisielt språk" },
-    { "term": "México", "def": "landet med flest spansktalende" },
-    { "term": "las comunidades autónomas", "def": "Spanias 17 autonome regioner" },
-    { "term": "el catalán", "def": "katalansk – språk i Catalonia" },
-    { "term": "el euskera", "def": "baskisk – ikke i slekt med noe annet kjent språk" },
-    { "term": "el gallego", "def": "galisisk – språk i Galicia" },
-    { "term": "los pueblos indígenas", "def": "urfolkene" },
-    { "term": "la desigualdad", "def": "ulikheten" },
-    { "term": "la migración", "def": "migrasjonen" },
-    { "term": "En mi opinión …", "def": "Etter min mening …" },
-    { "term": "Estoy en contra de …", "def": "Jeg er mot …" },
-    { "term": "por un lado … por otro lado", "def": "på den ene siden … på den andre" },
-    { "term": "Quiero que vengas.", "def": "Jeg vil at du skal komme. (subjuntivo)" },
-    { "term": "Espero que tengas suerte.", "def": "Jeg håper du har flaks." },
-    { "term": "No creo que sea verdad.", "def": "Jeg tror ikke det er sant." }
+    {
+      "term": "21 land",
+      "def": "antall land med spansk som offisielt språk"
+    },
+    {
+      "term": "México",
+      "def": "landet med flest spansktalende"
+    },
+    {
+      "term": "las comunidades autónomas",
+      "def": "Spanias 17 autonome regioner"
+    },
+    {
+      "term": "el catalán",
+      "def": "katalansk – språk i Catalonia"
+    },
+    {
+      "term": "el euskera",
+      "def": "baskisk – ikke i slekt med noe annet kjent språk"
+    },
+    {
+      "term": "el gallego",
+      "def": "galisisk – språk i Galicia"
+    },
+    {
+      "term": "los pueblos indígenas",
+      "def": "urfolkene"
+    },
+    {
+      "term": "la desigualdad",
+      "def": "ulikheten"
+    },
+    {
+      "term": "la migración",
+      "def": "migrasjonen"
+    },
+    {
+      "term": "En mi opinión …",
+      "def": "Etter min mening …"
+    },
+    {
+      "term": "Estoy en contra de …",
+      "def": "Jeg er mot …"
+    },
+    {
+      "term": "por un lado … por otro lado",
+      "def": "på den ene siden … på den andre"
+    },
+    {
+      "term": "Quiero que vengas.",
+      "def": "Jeg vil at du skal komme. (subjuntivo)"
+    },
+    {
+      "term": "Espero que tengas suerte.",
+      "def": "Jeg håper du har flaks."
+    },
+    {
+      "term": "No creo que sea verdad.",
+      "def": "Jeg tror ikke det er sant."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilket land har flest spansktalende?", "options": ["Spania", "Mexico", "Argentina", "USA"], "correct": 1, "explain": "Mexico har over 100 millioner innbyggere." },
-    { "id": "q02", "text": "Hvilket språk snakkes i Baskerland?", "options": ["Euskera", "Catalán", "Gallego", "Portugisisk"], "correct": 0, "explain": "Baskisk er ikke i slekt med noe annet kjent språk." },
-    { "id": "q03", "text": "Hvor mange autonome regioner har Spania?", "options": ["5", "10", "17", "50"], "correct": 2, "explain": "Regionene har stor grad av selvstyre." },
-    { "id": "q04", "text": "Velg riktig: «Quiero que tú ___ conmigo.»", "options": ["vienes", "venir", "vendrás", "vengas"], "correct": 3, "explain": "Etter ønsker med que brukes subjuntivo." },
-    { "id": "q05", "text": "Velg riktig: «Creo que ___ importante.»", "options": ["es", "sea", "está", "ser"], "correct": 0, "explain": "creo que + indikativ." },
-    { "id": "q06", "text": "Hvilken region har hatt store konflikter om uavhengighet?", "options": ["Andalucía", "Catalonia", "Madrid", "Kanariøyene"], "correct": 1, "explain": "Mange katalanere ønsker uavhengighet, andre ikke." },
-    { "id": "q07", "text": "Velg riktig: «No creo que ___ verdad.»", "options": ["es", "está", "sea", "será"], "correct": 2, "explain": "Nektet mening + que → subjuntivo." },
-    { "id": "q08", "text": "Hva betyr «la desigualdad»?", "options": ["likheten", "uavhengigheten", "ulykken", "ulikheten"], "correct": 3, "explain": "Mange latinamerikanske land har store forskjeller mellom rike og fattige." },
-    { "id": "q09", "text": "Hva er subjuntivo av «tener» i tú-form?", "options": ["tengas", "tienes", "tenes", "tendrás"], "correct": 0, "explain": "yo tengo → teng- + -as." },
-    { "id": "q10", "text": "Hva betyr «Estoy a favor»?", "options": ["Jeg er mot.", "Jeg er for.", "Jeg er takknemlig.", "Jeg er favoritt."], "correct": 1, "explain": "a favor = for, en contra = mot." }
+    {
+      "id": "q01",
+      "text": "Hvilket land har flest spansktalende?",
+      "options": [
+        "Spania",
+        "Mexico",
+        "Argentina",
+        "USA"
+      ],
+      "correct": 1,
+      "explain": "Mexico har over 100 millioner innbyggere."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket språk snakkes i Baskerland?",
+      "options": [
+        "Euskera",
+        "Catalán",
+        "Gallego",
+        "Portugisisk"
+      ],
+      "correct": 0,
+      "explain": "Baskisk er ikke i slekt med noe annet kjent språk."
+    },
+    {
+      "id": "q03",
+      "text": "Hvor mange autonome regioner har Spania?",
+      "options": [
+        "5",
+        "10",
+        "17",
+        "50"
+      ],
+      "correct": 2,
+      "explain": "Regionene har stor grad av selvstyre."
+    },
+    {
+      "id": "q04",
+      "text": "Velg riktig: «Quiero que tú ___ conmigo.»",
+      "options": [
+        "vienes",
+        "venir",
+        "vendrás",
+        "vengas"
+      ],
+      "correct": 3,
+      "explain": "Etter ønsker med que brukes subjuntivo."
+    },
+    {
+      "id": "q05",
+      "text": "Velg riktig: «Creo que ___ importante.»",
+      "options": [
+        "es",
+        "sea",
+        "está",
+        "ser"
+      ],
+      "correct": 0,
+      "explain": "creo que + indikativ."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken region har hatt store konflikter om uavhengighet?",
+      "options": [
+        "Andalucía",
+        "Catalonia",
+        "Madrid",
+        "Kanariøyene"
+      ],
+      "correct": 1,
+      "explain": "Mange katalanere ønsker uavhengighet, andre ikke."
+    },
+    {
+      "id": "q07",
+      "text": "Velg riktig: «No creo que ___ verdad.»",
+      "options": [
+        "es",
+        "está",
+        "sea",
+        "será"
+      ],
+      "correct": 2,
+      "explain": "Nektet mening + que → subjuntivo."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr «la desigualdad»?",
+      "options": [
+        "likheten",
+        "uavhengigheten",
+        "ulykken",
+        "ulikheten"
+      ],
+      "correct": 3,
+      "explain": "Mange latinamerikanske land har store forskjeller mellom rike og fattige."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er subjuntivo av «tener» i tú-form?",
+      "options": [
+        "tengas",
+        "tienes",
+        "tenes",
+        "tendrás"
+      ],
+      "correct": 0,
+      "explain": "yo tengo → teng- + -as."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «Estoy a favor»?",
+      "options": [
+        "Jeg er mot.",
+        "Jeg er for.",
+        "Jeg er takknemlig.",
+        "Jeg er favoritt."
+      ],
+      "correct": 1,
+      "explain": "a favor = for, en contra = mot."
+    }
   ],
   "mindmap": {
     "label": "Samfunn i den spansktalende verden",
     "children": [
-      { "label": "Spansk i verden", "children": [
-        { "label": "21 land" },
-        { "label": "Mexico" },
-        { "label": "USA" }
-      ] },
-      { "label": "Spania", "children": [
-        { "label": "17 regioner" },
-        { "label": "catalán, euskera, gallego" },
-        { "label": "Catalonia" }
-      ] },
-      { "label": "Latin-Amerika", "children": [
-        { "label": "Urfolk" },
-        { "label": "Ulikhet" },
-        { "label": "Migrasjon" },
-        { "label": "Amazonas" }
-      ] },
-      { "label": "Meninger", "children": [
-        { "label": "En mi opinión" },
-        { "label": "a favor / en contra" },
-        { "label": "por un lado …" }
-      ] },
-      { "label": "Subjuntivo", "children": [
-        { "label": "Quiero que …" },
-        { "label": "Espero que …" },
-        { "label": "No creo que …" }
-      ] }
+      {
+        "label": "Spansk i verden",
+        "children": [
+          {
+            "label": "21 land"
+          },
+          {
+            "label": "Mexico"
+          },
+          {
+            "label": "USA"
+          }
+        ]
+      },
+      {
+        "label": "Spania",
+        "children": [
+          {
+            "label": "17 regioner"
+          },
+          {
+            "label": "catalán, euskera, gallego"
+          },
+          {
+            "label": "Catalonia"
+          }
+        ]
+      },
+      {
+        "label": "Latin-Amerika",
+        "children": [
+          {
+            "label": "Urfolk"
+          },
+          {
+            "label": "Ulikhet"
+          },
+          {
+            "label": "Migrasjon"
+          },
+          {
+            "label": "Amazonas"
+          }
+        ]
+      },
+      {
+        "label": "Meninger",
+        "children": [
+          {
+            "label": "En mi opinión"
+          },
+          {
+            "label": "a favor / en contra"
+          },
+          {
+            "label": "por un lado …"
+          }
+        ]
+      },
+      {
+        "label": "Subjuntivo",
+        "children": [
+          {
+            "label": "Quiero que …"
+          },
+          {
+            "label": "Espero que …"
+          },
+          {
+            "label": "No creo que …"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Spansk er offisielt språk i Ekvatorial-Guinea i Afrika.", "correct": true, "explain": "Landet var tidligere en spansk koloni." },
-      { "id": "m02", "type": "sant-usant", "text": "Spania er en republikk uten konge.", "correct": false, "explain": "Spania er et konstitusjonelt monarki." },
-      { "id": "m03", "type": "sant-usant", "text": "«Espero que» etterfølges av subjuntivo.", "correct": true, "explain": "Espero que tengas un buen día." },
-      { "id": "m04", "type": "sant-usant", "text": "Alle i Latin-Amerika har samme kulturelle bakgrunn.", "correct": false, "explain": "Latin-Amerika er preget av stort mangfold." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er subjuntivo av «ser» i yo-form?", "options": ["soy", "sea", "sería", "fuera"], "correct": 1, "explain": "ser er uregelmessig: sea." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket urfolk er knyttet til Andesfjellene?", "options": ["Quechua", "Samer", "Maori", "Inuitter"], "correct": 0, "explain": "Quechua er også et levende språk." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «sin embargo»?", "options": ["dessuten", "derfor", "likevel", "først"], "correct": 2, "explain": "Brukes for å vise motsetning." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Spansk er offisielt språk i Ekvatorial-Guinea i Afrika.",
+        "correct": true,
+        "explain": "Landet var tidligere en spansk koloni."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Spania er en republikk uten konge.",
+        "correct": false,
+        "explain": "Spania er et konstitusjonelt monarki."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«Espero que» etterfølges av subjuntivo.",
+        "correct": true,
+        "explain": "Espero que tengas un buen día."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle i Latin-Amerika har samme kulturelle bakgrunn.",
+        "correct": false,
+        "explain": "Latin-Amerika er preget av stort mangfold."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er subjuntivo av «ser» i yo-form?",
+        "options": [
+          "soy",
+          "sea",
+          "sería",
+          "fuera"
+        ],
+        "correct": 1,
+        "explain": "ser er uregelmessig: sea."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket urfolk er knyttet til Andesfjellene?",
+        "options": [
+          "Quechua",
+          "Samer",
+          "Maori",
+          "Inuitter"
+        ],
+        "correct": 0,
+        "explain": "Quechua er også et levende språk."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «sin embargo»?",
+        "options": [
+          "dessuten",
+          "derfor",
+          "likevel",
+          "først"
+        ],
+        "correct": 2,
+        "explain": "Brukes for å vise motsetning."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva innebærer det at Spanias 17 *comunidades autónomas* har stor grad av selvstyre? Forklar hvilken rolle regionene har innenfor Spania.",
+        "fasit": "De autonome regionene er en del av Spania, men har stor grad av selvstyre. Det betyr at de i stor grad kan styre seg selv.",
+        "kriterier": [
+          "Forklarer at regionene har betydelig selvstyre.",
+          "Viser at de fortsatt er regioner innenfor Spania."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign de regionale språkene i Catalonia og Galicia. Hva heter språkene, og hvor brukes de?",
+        "fasit": "Katalansk (*el catalán*) brukes i Catalonia, mens galisisk (*el gallego*) brukes i Galicia.",
+        "kriterier": [
+          "Knytter katalansk til Catalonia.",
+          "Knytter galisisk til Galicia."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar hvorfor Latin-Amerika er preget av mangfold. Bruk minst to ulike sider ved mangfoldet i svaret.",
+        "fasit": "Latin-Amerika har urfolk med egne språk og kulturer, og mange har europeisk eller afrikansk bakgrunn eller blandet bakgrunn. Området har også både store byer og landsbygd.",
+        "kriterier": [
+          "Nevner urfolk og egne språk eller kulturer.",
+          "Nevner ulike bakgrunner, blandet bakgrunn eller både byer og landsbygd."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person flytter fra et land i Latin-Amerika til Spania. Forklar hvorfor dette er et eksempel på *la migración*, og nevn ett annet sted folk migrerer til ifølge opplysningene om den spansktalende verden.",
+        "fasit": "Det er migrasjon fordi personen flytter fra ett land til et annet. Folk migrerer også til USA.",
+        "kriterier": [
+          "Forklarer migrasjon som flytting mellom land eller steder.",
+          "Nevner USA som et annet reisemål."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Skriv én setning på spansk med *por un lado …, por otro lado …* som viser at Latin-Amerika har både store byer og landsbygd.",
+        "fasit": "Por un lado, hay grandes ciudades; por otro lado, también hay zonas rurales.",
+        "kriterier": [
+          "Bruker begge delene av uttrykket på en forståelig måte.",
+          "Får med både store byer og landsbygd."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Skriv en spansk setning som uttrykker at du er imot avskoging i Amazonas. Bruk uttrykket *Estoy en contra de …*.",
+        "fasit": "Estoy en contra de la deforestación en el Amazonas.",
+        "kriterier": [
+          "Bruker *Estoy en contra de* på en forståelig måte.",
+          "Uttrykker motstand mot avskoging i Amazonas."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar forskjellen mellom *Creo que es verdad* og *No creo que sea verdad*. Hva forteller verbformene om bruken av indikativ og subjuntivo?",
+        "fasit": "Etter *Creo que* står *es* i indikativ fordi meningen ikke er nektet. Etter *No creo que* står *sea* i subjuntivo fordi meningen er nektet.",
+        "kriterier": [
+          "Knytter *es* i indikativ til *Creo que*.",
+          "Knytter *sea* i subjuntivo til den nektede meningen *No creo que*."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvordan du danner subjuntivo for regelrette verb på *-ar* og *-er/-ir*, med utgangspunkt i verbets yo-form i presens.",
+        "fasit": "Ta yo-formen i presens og fjern -o. Bytt så vokal: -ar får -e, mens -er og -ir får -a, som i *hablo → hable* og *como → coma*.",
+        "kriterier": [
+          "Forklarer at man tar yo-formen i presens og fjerner -o.",
+          "Oppgir riktig vokalbytte: -ar → -e og -er/-ir → -a."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

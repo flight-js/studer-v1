@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Eksistensielle spørsmål og svar",
   "intro": "Spørsmål om mening, død, lidelse, frihet og ensomhet – og hvordan religioner, humanisme og eksistensialistiske filosofer som Kierkegaard, Sartre og Camus har svart på dem.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Hva er eksistensielle spørsmål?\n\n**Eksistensielle spørsmål** handler om selve **tilværelsen**: Hvorfor er jeg her? Hva er **meningen** med livet? Hva skjer når vi **dør**? Hvorfor finnes det **lidelse**? Hvordan skal jeg leve? Slike spørsmål har ingen **enkle** svar, men alle mennesker møter dem – ofte i **overganger** og **kriser**, som ved dødsfall, sykdom eller forelskelse.\n\n## Fire grunnleggende temaer\n\nPsykiateren **Irvin Yalom** har pekt på fire temaer som alle mennesker må forholde seg til:\n\n- **Døden** – at livet tar slutt\n- **Friheten** – at vi selv må velge og ta ansvar\n- **Ensomheten** – at vi til syvende og sist er alene i vår opplevelse\n- **Meningsløsheten** – at meningen ikke er gitt på forhånd\n\n## Religiøse svar\n\n- **Kristendom** og **islam**: Livet er skapt av **Gud** og har en **hensikt**. Etter døden venter **dom** og et **evig liv**. Lidelse kan ha en mening som mennesket ikke alltid forstår, og Gud er **nær** i lidelsen.\n- **Jødedommen** legger vekt på livet **her og nå**, på å leve etter **budene** og på **fellesskapet** og slekten.\n- **Hinduisme** og **buddhisme**: Livet er en del av et **kretsløp** av gjenfødelser. Målet er **frigjøring**. I buddhismen skyldes **lidelsen** begjær, og veien ut er **innsikt** og en etisk livsførsel.\n\n## Humanistiske svar\n\n**Humanismen** mener at vi har **ett liv**, og at meningen er noe vi selv **skaper** – gjennom **relasjoner**, **arbeid**, **kunnskap** og å gjøre verden **bedre**. At livet er **endelig**, kan gjøre det mer **verdifullt**.\n\n## Eksistensialismen\n\n**Eksistensialismen** er en filosofisk retning som setter det **enkelte mennesket** og dets **valg** i sentrum.\n\n- **Søren Kierkegaard** (1800-tallet) var **kristen**. Han mente at mennesket må ta et personlig **sprang** inn i troen, og at **angst** er en følge av friheten.\n- **Jean-Paul Sartre** mente at «**eksistensen går forut for essensen**»: Vi er ikke skapt med en fast natur, men **blir** det vi velger. Vi er «**dømt til å være frie**» og har fullt **ansvar**.\n- **Albert Camus** skrev om det **absurde** – at mennesket søker mening i en verden som er **taus**. I essayet om **Sisyfos**, som evig ruller en stein opp et fjell, konkluderer han med at vi må forestille oss Sisyfos som **lykkelig**: Vi kan finne mening i selve **kampen**.\n\n## Død og sorg\n\nAlle kulturer har **ritualer** rundt døden – gravferd, minnesteder og merkedager. Ritualene hjelper oss å **sørge**, å **huske** og å fortsette å **leve**. I Norge kan gravferden være kirkelig, humanistisk eller knyttet til andre tros- og livssynssamfunn.\n\n## Å reflektere selv\n\nNår du utforsker eksistensielle spørsmål, handler det ikke om å finne **fasit**, men om å\n\n- lytte til **ulike** svar fra religioner og livssyn\n- se hvordan svarene gir **trøst**, **håp** eller **utfordringer**\n- formulere dine **egne** tanker – og respektere at andre kommer fram til noe annet",
   "flashcards": [
-    { "term": "Eksistensielle spørsmål", "def": "Spørsmål om mening, død, lidelse, frihet og hvordan vi skal leve." },
-    { "term": "Irvin Yalom", "def": "Psykiater som pekte på død, frihet, ensomhet og meningsløshet." },
-    { "term": "Livets mening", "def": "Spørsmålet om hvorfor vi lever og hva som gir livet verdi." },
-    { "term": "Evig liv", "def": "Kristen og muslimsk tro på liv etter døden." },
-    { "term": "Frigjøring", "def": "Målet i hinduisme og buddhisme – å bli fri fra kretsløpet." },
-    { "term": "Humanistisk livssyn om mening", "def": "Meningen skaper vi selv gjennom relasjoner, arbeid og kunnskap." },
-    { "term": "Eksistensialismen", "def": "Filosofi som setter det enkelte menneskets valg i sentrum." },
-    { "term": "Søren Kierkegaard", "def": "Kristen eksistensialist som skrev om troens sprang og angst." },
-    { "term": "Troens sprang", "def": "Kierkegaards idé om at troen krever et personlig valg." },
-    { "term": "Jean-Paul Sartre", "def": "Mente at eksistensen går forut for essensen." },
-    { "term": "Dømt til å være fri", "def": "Sartres idé om at vi må velge og ta fullt ansvar." },
-    { "term": "Albert Camus", "def": "Skrev om det absurde og myten om Sisyfos." },
-    { "term": "Det absurde", "def": "At mennesket søker mening i en taus verden." },
-    { "term": "Sisyfos", "def": "Mytisk figur som evig ruller en stein opp et fjell." },
-    { "term": "Sorgritualer", "def": "Gravferd og minnemarkeringer som hjelper oss å sørge." }
+    {
+      "term": "Eksistensielle spørsmål",
+      "def": "Spørsmål om mening, død, lidelse, frihet og hvordan vi skal leve."
+    },
+    {
+      "term": "Irvin Yalom",
+      "def": "Psykiater som pekte på død, frihet, ensomhet og meningsløshet."
+    },
+    {
+      "term": "Livets mening",
+      "def": "Spørsmålet om hvorfor vi lever og hva som gir livet verdi."
+    },
+    {
+      "term": "Evig liv",
+      "def": "Kristen og muslimsk tro på liv etter døden."
+    },
+    {
+      "term": "Frigjøring",
+      "def": "Målet i hinduisme og buddhisme – å bli fri fra kretsløpet."
+    },
+    {
+      "term": "Humanistisk livssyn om mening",
+      "def": "Meningen skaper vi selv gjennom relasjoner, arbeid og kunnskap."
+    },
+    {
+      "term": "Eksistensialismen",
+      "def": "Filosofi som setter det enkelte menneskets valg i sentrum."
+    },
+    {
+      "term": "Søren Kierkegaard",
+      "def": "Kristen eksistensialist som skrev om troens sprang og angst."
+    },
+    {
+      "term": "Troens sprang",
+      "def": "Kierkegaards idé om at troen krever et personlig valg."
+    },
+    {
+      "term": "Jean-Paul Sartre",
+      "def": "Mente at eksistensen går forut for essensen."
+    },
+    {
+      "term": "Dømt til å være fri",
+      "def": "Sartres idé om at vi må velge og ta fullt ansvar."
+    },
+    {
+      "term": "Albert Camus",
+      "def": "Skrev om det absurde og myten om Sisyfos."
+    },
+    {
+      "term": "Det absurde",
+      "def": "At mennesket søker mening i en taus verden."
+    },
+    {
+      "term": "Sisyfos",
+      "def": "Mytisk figur som evig ruller en stein opp et fjell."
+    },
+    {
+      "term": "Sorgritualer",
+      "def": "Gravferd og minnemarkeringer som hjelper oss å sørge."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er et eksistensielt spørsmål?", "options": ["Hva koster en buss?", "Hva er meningen med livet?", "Hvor mange innbyggere har Norge?", "Hva er 2 + 2?"], "correct": 1, "explain": "Om selve tilværelsen." },
-    { "id": "q02", "text": "Hvilke fire temaer pekte Irvin Yalom på?", "options": ["Død, frihet, ensomhet og meningsløshet", "Penger, makt, status og sex", "Gud, kirke, bibel og bønn", "Arbeid, skole, familie og venner"], "correct": 0, "explain": "Alle mennesker må forholde seg til dem." },
-    { "id": "q03", "text": "Hva mente Sartre med at eksistensen går forut for essensen?", "options": ["At Gud skapte vår natur", "At vi er født med en fast natur", "At vi ikke har en fast natur, men blir det vi velger", "At livet er meningsløst"], "correct": 2, "explain": "Vi er dømt til å være frie." },
-    { "id": "q04", "text": "Hva mente Camus om Sisyfos?", "options": ["At han var ulykkelig", "At han burde gi opp", "At han var en gud", "At vi må forestille oss ham som lykkelig"], "correct": 3, "explain": "Mening i selve kampen." },
-    { "id": "q05", "text": "Hvordan skiller Kierkegaard seg fra Sartre?", "options": ["Kierkegaard var kristen", "Kierkegaard var ateist", "Sartre var prest", "De mente det samme om Gud"], "correct": 0, "explain": "Han skrev om troens sprang." },
-    { "id": "q06", "text": "Hva er det humanistiske svaret på livets mening?", "options": ["Meningen er gitt av Gud", "Meningen skaper vi selv", "Livet har ingen verdi", "Meningen finnes etter døden"], "correct": 1, "explain": "Gjennom relasjoner, arbeid og kunnskap." },
-    { "id": "q07", "text": "Hva er det absurde hos Camus?", "options": ["At livet er morsomt", "At alt har mening", "At mennesket søker mening i en taus verden", "At Gud svarer på alt"], "correct": 2, "explain": "En sentral idé i hans filosofi." },
-    { "id": "q08", "text": "Hvordan forklarer buddhismen lidelse?", "options": ["Som straff fra Gud", "Som tilfeldigheter", "Som noe som ikke finnes", "Som en følge av begjær"], "correct": 3, "explain": "Veien ut er innsikt og etisk livsførsel." },
-    { "id": "q09", "text": "Hvorfor har kulturer ritualer rundt døden?", "options": ["For å hjelpe oss å sørge, huske og leve videre", "For å glemme de døde", "Fordi loven krever det", "For å tjene penger"], "correct": 0, "explain": "Gravferd og minnesteder." },
-    { "id": "q10", "text": "Hva handler refleksjon over eksistensielle spørsmål om?", "options": ["Å finne én fasit", "Å lytte til ulike svar og formulere egne tanker", "Å følge én autoritet", "Å unngå spørsmålene"], "correct": 1, "explain": "Og respektere at andre kommer fram til noe annet." }
+    {
+      "id": "q01",
+      "text": "Hva er et eksistensielt spørsmål?",
+      "options": [
+        "Hva koster en buss?",
+        "Hva er meningen med livet?",
+        "Hvor mange innbyggere har Norge?",
+        "Hva er 2 + 2?"
+      ],
+      "correct": 1,
+      "explain": "Om selve tilværelsen."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilke fire temaer pekte Irvin Yalom på?",
+      "options": [
+        "Død, frihet, ensomhet og meningsløshet",
+        "Penger, makt, status og sex",
+        "Gud, kirke, bibel og bønn",
+        "Arbeid, skole, familie og venner"
+      ],
+      "correct": 0,
+      "explain": "Alle mennesker må forholde seg til dem."
+    },
+    {
+      "id": "q03",
+      "text": "Hva mente Sartre med at eksistensen går forut for essensen?",
+      "options": [
+        "At Gud skapte vår natur",
+        "At vi er født med en fast natur",
+        "At vi ikke har en fast natur, men blir det vi velger",
+        "At livet er meningsløst"
+      ],
+      "correct": 2,
+      "explain": "Vi er dømt til å være frie."
+    },
+    {
+      "id": "q04",
+      "text": "Hva mente Camus om Sisyfos?",
+      "options": [
+        "At han var ulykkelig",
+        "At han burde gi opp",
+        "At han var en gud",
+        "At vi må forestille oss ham som lykkelig"
+      ],
+      "correct": 3,
+      "explain": "Mening i selve kampen."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan skiller Kierkegaard seg fra Sartre?",
+      "options": [
+        "Kierkegaard var kristen",
+        "Kierkegaard var ateist",
+        "Sartre var prest",
+        "De mente det samme om Gud"
+      ],
+      "correct": 0,
+      "explain": "Han skrev om troens sprang."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er det humanistiske svaret på livets mening?",
+      "options": [
+        "Meningen er gitt av Gud",
+        "Meningen skaper vi selv",
+        "Livet har ingen verdi",
+        "Meningen finnes etter døden"
+      ],
+      "correct": 1,
+      "explain": "Gjennom relasjoner, arbeid og kunnskap."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er det absurde hos Camus?",
+      "options": [
+        "At livet er morsomt",
+        "At alt har mening",
+        "At mennesket søker mening i en taus verden",
+        "At Gud svarer på alt"
+      ],
+      "correct": 2,
+      "explain": "En sentral idé i hans filosofi."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan forklarer buddhismen lidelse?",
+      "options": [
+        "Som straff fra Gud",
+        "Som tilfeldigheter",
+        "Som noe som ikke finnes",
+        "Som en følge av begjær"
+      ],
+      "correct": 3,
+      "explain": "Veien ut er innsikt og etisk livsførsel."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor har kulturer ritualer rundt døden?",
+      "options": [
+        "For å hjelpe oss å sørge, huske og leve videre",
+        "For å glemme de døde",
+        "Fordi loven krever det",
+        "For å tjene penger"
+      ],
+      "correct": 0,
+      "explain": "Gravferd og minnesteder."
+    },
+    {
+      "id": "q10",
+      "text": "Hva handler refleksjon over eksistensielle spørsmål om?",
+      "options": [
+        "Å finne én fasit",
+        "Å lytte til ulike svar og formulere egne tanker",
+        "Å følge én autoritet",
+        "Å unngå spørsmålene"
+      ],
+      "correct": 1,
+      "explain": "Og respektere at andre kommer fram til noe annet."
+    }
   ],
   "mindmap": {
     "label": "Eksistensielle spørsmål",
     "children": [
-      { "label": "Spørsmål", "children": [
-        { "label": "Mening" },
-        { "label": "Død og lidelse" },
-        { "label": "Frihet og ensomhet" }
-      ] },
-      { "label": "Religiøse svar", "children": [
-        { "label": "Kristendom og islam" },
-        { "label": "Jødedom" },
-        { "label": "Hinduisme og buddhisme" }
-      ] },
-      { "label": "Humanisme", "children": [
-        { "label": "Ett liv" },
-        { "label": "Vi skaper mening" }
-      ] },
-      { "label": "Eksistensialisme", "children": [
-        { "label": "Kierkegaard" },
-        { "label": "Sartre" },
-        { "label": "Camus og Sisyfos" }
-      ] },
-      { "label": "Død og sorg", "children": [
-        { "label": "Ritualer" },
-        { "label": "Egen refleksjon" }
-      ] }
+      {
+        "label": "Spørsmål",
+        "children": [
+          {
+            "label": "Mening"
+          },
+          {
+            "label": "Død og lidelse"
+          },
+          {
+            "label": "Frihet og ensomhet"
+          }
+        ]
+      },
+      {
+        "label": "Religiøse svar",
+        "children": [
+          {
+            "label": "Kristendom og islam"
+          },
+          {
+            "label": "Jødedom"
+          },
+          {
+            "label": "Hinduisme og buddhisme"
+          }
+        ]
+      },
+      {
+        "label": "Humanisme",
+        "children": [
+          {
+            "label": "Ett liv"
+          },
+          {
+            "label": "Vi skaper mening"
+          }
+        ]
+      },
+      {
+        "label": "Eksistensialisme",
+        "children": [
+          {
+            "label": "Kierkegaard"
+          },
+          {
+            "label": "Sartre"
+          },
+          {
+            "label": "Camus og Sisyfos"
+          }
+        ]
+      },
+      {
+        "label": "Død og sorg",
+        "children": [
+          {
+            "label": "Ritualer"
+          },
+          {
+            "label": "Egen refleksjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange møter eksistensielle spørsmål i overganger og kriser.", "correct": true, "explain": "For eksempel ved dødsfall eller sykdom." },
-      { "id": "m02", "type": "sant-usant", "text": "Eksistensielle spørsmål har enkle svar som alle er enige om.", "correct": false, "explain": "De har ingen enkle svar." },
-      { "id": "m03", "type": "sant-usant", "text": "Kierkegaard mente at angst er en følge av friheten.", "correct": true, "explain": "Han var en kristen eksistensialist." },
-      { "id": "m04", "type": "sant-usant", "text": "Humanister tror på et evig liv etter døden.", "correct": false, "explain": "De mener vi har ett liv." },
-      { "id": "m05", "type": "flervalg", "text": "Hva la jødedommen særlig vekt på i møte med eksistensielle spørsmål?", "options": ["Gjenfødelse", "Livet her og nå, budene og fellesskapet", "Nirvana", "Tilfeldigheter"], "correct": 1, "explain": "Og slekten." },
-      { "id": "m06", "type": "flervalg", "text": "Hvem sa at vi er «dømt til å være frie»?", "options": ["Sartre", "Kierkegaard", "Camus", "Buddha"], "correct": 0, "explain": "Vi har fullt ansvar for våre valg." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilke former for gravferd finnes i Norge?", "options": ["Bare kirkelig", "Bare humanistisk", "Kirkelig, humanistisk og knyttet til andre trossamfunn", "Ingen"], "correct": 2, "explain": "Mangfold i ritualer." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange møter eksistensielle spørsmål i overganger og kriser.",
+        "correct": true,
+        "explain": "For eksempel ved dødsfall eller sykdom."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Eksistensielle spørsmål har enkle svar som alle er enige om.",
+        "correct": false,
+        "explain": "De har ingen enkle svar."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Kierkegaard mente at angst er en følge av friheten.",
+        "correct": true,
+        "explain": "Han var en kristen eksistensialist."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Humanister tror på et evig liv etter døden.",
+        "correct": false,
+        "explain": "De mener vi har ett liv."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva la jødedommen særlig vekt på i møte med eksistensielle spørsmål?",
+        "options": [
+          "Gjenfødelse",
+          "Livet her og nå, budene og fellesskapet",
+          "Nirvana",
+          "Tilfeldigheter"
+        ],
+        "correct": 1,
+        "explain": "Og slekten."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem sa at vi er «dømt til å være frie»?",
+        "options": [
+          "Sartre",
+          "Kierkegaard",
+          "Camus",
+          "Buddha"
+        ],
+        "correct": 0,
+        "explain": "Vi har fullt ansvar for våre valg."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilke former for gravferd finnes i Norge?",
+        "options": [
+          "Bare kirkelig",
+          "Bare humanistisk",
+          "Kirkelig, humanistisk og knyttet til andre trossamfunn",
+          "Ingen"
+        ],
+        "correct": 2,
+        "explain": "Mangfold i ritualer."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En person får vite at hen har en alvorlig sykdom og begynner å tenke på døden og hva som gir livet mening. Forklar hvorfor eksistensielle spørsmål ofte blir tydeligere i slike situasjoner.",
+        "fasit": "Sykdom og kriser kan få oss til å tenke mer på selve tilværelsen, for eksempel døden og meningen med livet. Slike spørsmål har ikke enkle svar.",
+        "kriterier": [
+          "Forklarer at en krise eller overgang kan gjøre spørsmål om tilværelsen mer aktuelle.",
+          "Knytter situasjonen til eksistensielle spørsmål, for eksempel om døden eller mening."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Beskriv hva jødedommen legger vekt på i måten mennesker bør leve på, og nevn hva dette knyttes til.",
+        "fasit": "Jødedommen legger vekt på livet her og nå og på å leve etter budene. Fellesskapet og slekten er også viktige.",
+        "kriterier": [
+          "Får fram betydningen av livet her og nå og av å følge budene.",
+          "Nevner fellesskapet eller slekten som viktig."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I hinduisme og buddhisme er frigjøring et mål. Forklar hva man skal bli frigjort fra.",
+        "fasit": "Frigjøring betyr å bli fri fra kretsløpet av gjenfødelser. Dette er et mål i både hinduisme og buddhisme.",
+        "kriterier": [
+          "Forklarer at frigjøring handler om å bli fri fra gjenfødelser.",
+          "Knytter frigjøring til hinduismen og/eller buddhismen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign hvordan kristendom og islam på den ene siden, og buddhismen på den andre, forklarer lidelse.",
+        "fasit": "I kristendom og islam kan lidelse ha en mening som mennesket ikke alltid forstår, og Gud er nær i lidelsen. I buddhismen skyldes lidelse begjær, og veien ut er innsikt og etisk livsførsel.",
+        "kriterier": [
+          "Får fram at kristendom og islam knytter lidelse til en mening mennesket ikke alltid forstår, og/eller at Gud er nær.",
+          "Får fram buddhismens forklaring med begjær og/eller veien ut gjennom innsikt og etisk livsførsel."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En humanist sier at livet er endelig. Forklar hvordan dette kan gjøre livet mer verdifullt ifølge humanistisk tenkning.",
+        "fasit": "Når vi bare har ett liv, kan det vi gjør og opplever få større verdi. Humanismen legger vekt på at meningen skapes i livet vi lever.",
+        "kriterier": [
+          "Knytter livets endelighet til at livet eller erfaringene kan oppleves som mer verdifulle.",
+          "Får fram at humanismen ser meningen som noe vi skaper i livet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hva mente Søren Kierkegaard med at troen krever et personlig sprang?",
+        "fasit": "Kierkegaard mente at tro ikke bare er noe man får ferdig utenfra, men krever at det enkelte mennesket selv velger å ta et sprang inn i troen.",
+        "kriterier": [
+          "Forklarer at troen krever et personlig valg.",
+          "Får fram at spranget handler om å tre inn i eller ta til seg troen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hva eksistensialismen setter i sentrum, og hvilken rolle menneskets valg har i denne filosofien.",
+        "fasit": "Eksistensialismen setter det enkelte mennesket i sentrum. Menneskets egne valg står sentralt.",
+        "kriterier": [
+          "Nevner det enkelte mennesket som sentralt.",
+          "Forklarer at menneskets valg har en sentral rolle."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I Norge kan en gravferd være kirkelig, humanistisk eller knyttet til et annet tros- eller livssynssamfunn. Forklar hva dette sier om hvilke muligheter som finnes når en gravferd skal planlegges.",
+        "fasit": "En gravferd i Norge kan planlegges på ulike måter, ut fra tilknytning til kirke, humanistisk livssyn eller et annet tros- eller livssynssamfunn.",
+        "kriterier": [
+          "Får fram at gravferder kan ha ulike former eller tilknytninger.",
+          "Nevner minst to av mulighetene: kirkelig, humanistisk eller knyttet til et annet tros- eller livssynssamfunn."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

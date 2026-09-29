@@ -4,79 +4,427 @@
   "trinnId": "vg2",
   "name": "Økonomisk vekst og BNP",
   "intro": "Hva bruttonasjonalproduktet måler, forskjellen på nominelt og reelt BNP, årsaker til økonomisk vekst – arbeidskraft, kapital, teknologi og institusjoner – og hvilke svakheter BNP har som mål på verdiskaping og velferd.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Hva er BNP?\n\n**Bruttonasjonalproduktet** (BNP) er **verdien** av alle varer og tjenester som blir produsert i et land i løpet av en periode – etter at vi har trukket fra det som er brukt opp i produksjonen, som råvarer. Vi måler altså **verdiskapingen**.\n\n- **Nominelt BNP** er målt i **løpende priser**. Det kan øke bare fordi **prisene** stiger.\n- **Reelt BNP** er justert for **prisstigning** og viser om vi faktisk produserer **mer**.\n- **BNP per innbygger** gjør det lettere å sammenligne land med ulik befolkning.\n- **BNP for Fastlands-Norge** holder utvinning av olje og gass og utenriks sjøfart **utenfor** og gir et bedre bilde av resten av økonomien.\n\n## Hva er økonomisk vekst?\n\n**Økonomisk vekst** er en økning i **reelt BNP**. På kort sikt svinger veksten med **konjunkturene**. På lang sikt bestemmes den av hvor mye økonomien er **i stand til** å produsere.\n\n## Årsaker til vekst\n\n1. **Mer arbeidskraft**: flere innbyggere, flere i jobb eller lengre arbeidstid.\n2. **Mer realkapital**: **investeringer** i maskiner, bygninger og infrastruktur gjør arbeiderne mer produktive.\n3. **Bedre teknologi og kunnskap**: den viktigste kilden til vekst på **lang sikt**. Nye metoder gjør at vi kan produsere **mer** med de **samme** ressursene – økt **produktivitet**.\n4. **Humankapital**: **utdanning** og god **helse** gir mer kompetente arbeidstakere.\n5. **Naturressurser**: for Norge særlig **olje**, **gass**, **fisk** og **vannkraft**.\n6. **Gode institusjoner**: **rettsstat**, sikre **eiendomsrettigheter**, lite **korrupsjon** og høy **tillit** gjør det tryggere å investere.\n7. **Handel** og **spesialisering**: Land kan konsentrere seg om det de er best på.\n\n## BNP som mål på verdiskaping\n\nBNP er det mest brukte målet på økonomisk aktivitet, men det har **svakheter**:\n\n- **Ubetalt arbeid** – husarbeid, omsorg for familie og **frivillig** arbeid – er ikke med.\n- **Svart arbeid** blir ikke registrert.\n- **Miljøskader** trekkes ikke fra. Når vi henter opp olje, teller det som produksjon, selv om vi samtidig **tærer** på en ressurs som ikke kommer tilbake.\n- **Fordelingen** vises ikke. Et land kan ha høyt BNP per innbygger og store **forskjeller**.\n- **Fritid** og **livskvalitet** er ikke med. Kortere arbeidstid kan gi lavere BNP, men bedre liv.\n- Noen utgifter som øker BNP, gjør oss ikke bedre stilt – som å **reparere** skader etter en ulykke eller et uvær.\n\n## Andre mål\n\n- **FNs indeks for menneskelig utvikling** (HDI) kombinerer **levealder**, **utdanning** og **inntekt**.\n- **Livskvalitetsundersøkelser** spør folk om **tilfredshet**, **helse** og **tillit**.\n- **Nasjonalformuen** viser hva et land **eier** – der **humankapitalen**, altså arbeidskraften vår, er den største delen i Norge.\n\n## Refleksjon\n\nØkonomisk vekst har gitt **bedre levekår**, lengre liv og mindre fattigdom i store deler av verden. Samtidig har veksten ført til **klimaendringer** og **tap av natur**. Et viktig spørsmål er derfor om vekst kan bli **grønn** – altså om vi kan øke verdiskapingen samtidig som **utslippene** og **ressursbruken** går ned.",
   "flashcards": [
-    { "term": "BNP", "def": "Verdien av varer og tjenester produsert i et land i en periode." },
-    { "term": "Nominelt BNP", "def": "BNP målt i løpende priser." },
-    { "term": "Reelt BNP", "def": "BNP justert for prisstigning." },
-    { "term": "BNP per innbygger", "def": "BNP delt på antall innbyggere." },
-    { "term": "BNP for Fastlands-Norge", "def": "BNP uten olje- og gassutvinning og utenriks sjøfart." },
-    { "term": "Økonomisk vekst", "def": "En økning i reelt BNP." },
-    { "term": "Produktivitet", "def": "Hvor mye som produseres per arbeidstime." },
-    { "term": "Humankapital", "def": "Kunnskap, ferdigheter og helse hos arbeidskraften." },
-    { "term": "Institusjoner", "def": "Rettsstat, eiendomsrett og lav korrupsjon som gir trygghet for investeringer." },
-    { "term": "Ubetalt arbeid", "def": "Husarbeid, omsorg og frivillighet – ikke med i BNP." },
-    { "term": "Svart arbeid", "def": "Arbeid som ikke blir registrert eller skattlagt." },
-    { "term": "HDI", "def": "FNs indeks for menneskelig utvikling: levealder, utdanning og inntekt." },
-    { "term": "Nasjonalformue", "def": "Hva et land eier – i Norge er humankapitalen størst." },
-    { "term": "Grønn vekst", "def": "Økt verdiskaping samtidig som utslipp og ressursbruk går ned." },
-    { "term": "Konjunkturer", "def": "Kortsiktige svingninger i den økonomiske aktiviteten." }
+    {
+      "term": "BNP",
+      "def": "Verdien av varer og tjenester produsert i et land i en periode."
+    },
+    {
+      "term": "Nominelt BNP",
+      "def": "BNP målt i løpende priser."
+    },
+    {
+      "term": "Reelt BNP",
+      "def": "BNP justert for prisstigning."
+    },
+    {
+      "term": "BNP per innbygger",
+      "def": "BNP delt på antall innbyggere."
+    },
+    {
+      "term": "BNP for Fastlands-Norge",
+      "def": "BNP uten olje- og gassutvinning og utenriks sjøfart."
+    },
+    {
+      "term": "Økonomisk vekst",
+      "def": "En økning i reelt BNP."
+    },
+    {
+      "term": "Produktivitet",
+      "def": "Hvor mye som produseres per arbeidstime."
+    },
+    {
+      "term": "Humankapital",
+      "def": "Kunnskap, ferdigheter og helse hos arbeidskraften."
+    },
+    {
+      "term": "Institusjoner",
+      "def": "Rettsstat, eiendomsrett og lav korrupsjon som gir trygghet for investeringer."
+    },
+    {
+      "term": "Ubetalt arbeid",
+      "def": "Husarbeid, omsorg og frivillighet – ikke med i BNP."
+    },
+    {
+      "term": "Svart arbeid",
+      "def": "Arbeid som ikke blir registrert eller skattlagt."
+    },
+    {
+      "term": "HDI",
+      "def": "FNs indeks for menneskelig utvikling: levealder, utdanning og inntekt."
+    },
+    {
+      "term": "Nasjonalformue",
+      "def": "Hva et land eier – i Norge er humankapitalen størst."
+    },
+    {
+      "term": "Grønn vekst",
+      "def": "Økt verdiskaping samtidig som utslipp og ressursbruk går ned."
+    },
+    {
+      "term": "Konjunkturer",
+      "def": "Kortsiktige svingninger i den økonomiske aktiviteten."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva måler BNP?", "options": ["Hvor mye staten eier", "Verdien av varer og tjenester produsert i landet", "Antall arbeidsledige", "Prisstigningen"], "correct": 1, "explain": "Verdiskapingen i en periode." },
-    { "id": "q02", "text": "Hvorfor bruker vi reelt BNP for å måle vekst?", "options": ["Fordi det er justert for prisstigning", "Fordi det er høyere", "Fordi det inkluderer ubetalt arbeid", "Fordi det er i dollar"], "correct": 0, "explain": "Nominelt BNP kan øke bare fordi prisene stiger." },
-    { "id": "q03", "text": "Hva er den viktigste kilden til vekst på lang sikt?", "options": ["Flere feriedager", "Høyere priser", "Bedre teknologi og kunnskap", "Mer import"], "correct": 2, "explain": "Økt produktivitet." },
-    { "id": "q04", "text": "Hva er holdt utenfor i BNP for Fastlands-Norge?", "options": ["Jordbruk", "Offentlig sektor", "Industri", "Olje- og gassutvinning og utenriks sjøfart"], "correct": 3, "explain": "Gir et bedre bilde av resten av økonomien." },
-    { "id": "q05", "text": "Hva er en svakhet ved BNP?", "options": ["Ubetalt arbeid er ikke med", "Det måler produksjon", "Det kan sammenlignes over tid", "Det lages av SSB"], "correct": 0, "explain": "Også miljøskader og fordeling mangler." },
-    { "id": "q06", "text": "Hvordan kan gode institusjoner gi økonomisk vekst?", "options": ["Ved å øke skattene", "Ved å gjøre det tryggere å investere", "Ved å forby handel", "Ved å redusere utdanning"], "correct": 1, "explain": "Rettsstat og lite korrupsjon." },
-    { "id": "q07", "text": "Hva kombinerer HDI?", "options": ["BNP og import", "Renter og priser", "Levealder, utdanning og inntekt", "Eksport og skatt"], "correct": 2, "explain": "FNs indeks for menneskelig utvikling." },
-    { "id": "q08", "text": "Hvorfor kan oljeutvinning gi et for positivt bilde i BNP?", "options": ["Fordi olje er billig", "Fordi den ikke gir inntekter", "Fordi den er ulovlig", "Fordi vi tærer på en ressurs som ikke kommer tilbake"], "correct": 3, "explain": "Formuen reduseres." },
-    { "id": "q09", "text": "Hva er den største delen av nasjonalformuen i Norge?", "options": ["Humankapitalen", "Oljefondet", "Boligene", "Skogen"], "correct": 0, "explain": "Arbeidskraften vår." },
-    { "id": "q10", "text": "Hva betyr grønn vekst?", "options": ["At BNP synker", "Økt verdiskaping samtidig som utslipp og ressursbruk går ned", "At alle har grønne biler", "At staten eier alt"], "correct": 1, "explain": "Et sentralt spørsmål i klimadebatten." }
+    {
+      "id": "q01",
+      "text": "Hva måler BNP?",
+      "options": [
+        "Hvor mye staten eier",
+        "Verdien av varer og tjenester produsert i landet",
+        "Antall arbeidsledige",
+        "Prisstigningen"
+      ],
+      "correct": 1,
+      "explain": "Verdiskapingen i en periode."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor bruker vi reelt BNP for å måle vekst?",
+      "options": [
+        "Fordi det er justert for prisstigning",
+        "Fordi det er høyere",
+        "Fordi det inkluderer ubetalt arbeid",
+        "Fordi det er i dollar"
+      ],
+      "correct": 0,
+      "explain": "Nominelt BNP kan øke bare fordi prisene stiger."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er den viktigste kilden til vekst på lang sikt?",
+      "options": [
+        "Flere feriedager",
+        "Høyere priser",
+        "Bedre teknologi og kunnskap",
+        "Mer import"
+      ],
+      "correct": 2,
+      "explain": "Økt produktivitet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er holdt utenfor i BNP for Fastlands-Norge?",
+      "options": [
+        "Jordbruk",
+        "Offentlig sektor",
+        "Industri",
+        "Olje- og gassutvinning og utenriks sjøfart"
+      ],
+      "correct": 3,
+      "explain": "Gir et bedre bilde av resten av økonomien."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en svakhet ved BNP?",
+      "options": [
+        "Ubetalt arbeid er ikke med",
+        "Det måler produksjon",
+        "Det kan sammenlignes over tid",
+        "Det lages av SSB"
+      ],
+      "correct": 0,
+      "explain": "Også miljøskader og fordeling mangler."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan kan gode institusjoner gi økonomisk vekst?",
+      "options": [
+        "Ved å øke skattene",
+        "Ved å gjøre det tryggere å investere",
+        "Ved å forby handel",
+        "Ved å redusere utdanning"
+      ],
+      "correct": 1,
+      "explain": "Rettsstat og lite korrupsjon."
+    },
+    {
+      "id": "q07",
+      "text": "Hva kombinerer HDI?",
+      "options": [
+        "BNP og import",
+        "Renter og priser",
+        "Levealder, utdanning og inntekt",
+        "Eksport og skatt"
+      ],
+      "correct": 2,
+      "explain": "FNs indeks for menneskelig utvikling."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor kan oljeutvinning gi et for positivt bilde i BNP?",
+      "options": [
+        "Fordi olje er billig",
+        "Fordi den ikke gir inntekter",
+        "Fordi den er ulovlig",
+        "Fordi vi tærer på en ressurs som ikke kommer tilbake"
+      ],
+      "correct": 3,
+      "explain": "Formuen reduseres."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er den største delen av nasjonalformuen i Norge?",
+      "options": [
+        "Humankapitalen",
+        "Oljefondet",
+        "Boligene",
+        "Skogen"
+      ],
+      "correct": 0,
+      "explain": "Arbeidskraften vår."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr grønn vekst?",
+      "options": [
+        "At BNP synker",
+        "Økt verdiskaping samtidig som utslipp og ressursbruk går ned",
+        "At alle har grønne biler",
+        "At staten eier alt"
+      ],
+      "correct": 1,
+      "explain": "Et sentralt spørsmål i klimadebatten."
+    }
   ],
   "mindmap": {
     "label": "Økonomisk vekst og BNP",
     "children": [
-      { "label": "BNP", "children": [
-        { "label": "Nominelt og reelt" },
-        { "label": "Per innbygger" },
-        { "label": "Fastlands-Norge" }
-      ] },
-      { "label": "Vekstkilder", "children": [
-        { "label": "Arbeidskraft og kapital" },
-        { "label": "Teknologi" },
-        { "label": "Humankapital" },
-        { "label": "Institusjoner" }
-      ] },
-      { "label": "Svakheter", "children": [
-        { "label": "Ubetalt og svart arbeid" },
-        { "label": "Miljø" },
-        { "label": "Fordeling og fritid" }
-      ] },
-      { "label": "Andre mål", "children": [
-        { "label": "HDI" },
-        { "label": "Livskvalitet" },
-        { "label": "Nasjonalformue" }
-      ] },
-      { "label": "Refleksjon", "children": [
-        { "label": "Levekår" },
-        { "label": "Grønn vekst" }
-      ] }
+      {
+        "label": "BNP",
+        "children": [
+          {
+            "label": "Nominelt og reelt"
+          },
+          {
+            "label": "Per innbygger"
+          },
+          {
+            "label": "Fastlands-Norge"
+          }
+        ]
+      },
+      {
+        "label": "Vekstkilder",
+        "children": [
+          {
+            "label": "Arbeidskraft og kapital"
+          },
+          {
+            "label": "Teknologi"
+          },
+          {
+            "label": "Humankapital"
+          },
+          {
+            "label": "Institusjoner"
+          }
+        ]
+      },
+      {
+        "label": "Svakheter",
+        "children": [
+          {
+            "label": "Ubetalt og svart arbeid"
+          },
+          {
+            "label": "Miljø"
+          },
+          {
+            "label": "Fordeling og fritid"
+          }
+        ]
+      },
+      {
+        "label": "Andre mål",
+        "children": [
+          {
+            "label": "HDI"
+          },
+          {
+            "label": "Livskvalitet"
+          },
+          {
+            "label": "Nasjonalformue"
+          }
+        ]
+      },
+      {
+        "label": "Refleksjon",
+        "children": [
+          {
+            "label": "Levekår"
+          },
+          {
+            "label": "Grønn vekst"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Nominelt BNP kan øke uten at vi produserer mer.", "correct": true, "explain": "Det kan skyldes prisstigning." },
-      { "id": "m02", "type": "sant-usant", "text": "BNP viser hvordan inntektene er fordelt i befolkningen.", "correct": false, "explain": "Fordelingen vises ikke." },
-      { "id": "m03", "type": "sant-usant", "text": "Utdanning kan bidra til økonomisk vekst.", "correct": true, "explain": "Gjennom økt humankapital." },
-      { "id": "m04", "type": "sant-usant", "text": "Reparasjoner etter et uvær trekkes fra BNP.", "correct": false, "explain": "De øker BNP, selv om vi ikke blir bedre stilt." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er økonomisk vekst?", "options": ["Økt nominelt BNP", "Økt reelt BNP", "Økt befolkning", "Økte priser"], "correct": 1, "explain": "Justert for prisstigning." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gjør investeringer i maskiner med produktiviteten?", "options": ["Øker den", "Senker den", "Påvirker den ikke", "Fjerner den"], "correct": 0, "explain": "Mer realkapital per arbeider." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor bruker vi BNP per innbygger?", "options": ["For å måle eksport", "For å måle rente", "For å sammenligne land med ulik befolkning", "For å måle arbeidsledighet"], "correct": 2, "explain": "Tar hensyn til befolkningsstørrelsen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Nominelt BNP kan øke uten at vi produserer mer.",
+        "correct": true,
+        "explain": "Det kan skyldes prisstigning."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "BNP viser hvordan inntektene er fordelt i befolkningen.",
+        "correct": false,
+        "explain": "Fordelingen vises ikke."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Utdanning kan bidra til økonomisk vekst.",
+        "correct": true,
+        "explain": "Gjennom økt humankapital."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Reparasjoner etter et uvær trekkes fra BNP.",
+        "correct": false,
+        "explain": "De øker BNP, selv om vi ikke blir bedre stilt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er økonomisk vekst?",
+        "options": [
+          "Økt nominelt BNP",
+          "Økt reelt BNP",
+          "Økt befolkning",
+          "Økte priser"
+        ],
+        "correct": 1,
+        "explain": "Justert for prisstigning."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gjør investeringer i maskiner med produktiviteten?",
+        "options": [
+          "Øker den",
+          "Senker den",
+          "Påvirker den ikke",
+          "Fjerner den"
+        ],
+        "correct": 0,
+        "explain": "Mer realkapital per arbeider."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor bruker vi BNP per innbygger?",
+        "options": [
+          "For å måle eksport",
+          "For å måle rente",
+          "For å sammenligne land med ulik befolkning",
+          "For å måle arbeidsledighet"
+        ],
+        "correct": 2,
+        "explain": "Tar hensyn til befolkningsstørrelsen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign nominelt og reelt BNP. Hva betyr det for de to målene hvis BNP øker bare fordi prisene stiger?",
+        "fasit": "Nominelt BNP måles i løpende priser, mens reelt BNP er justert for prisstigning. Hvis økningen bare skyldes høyere priser, øker nominelt BNP uten at det betyr at reelt BNP har økt.",
+        "kriterier": [
+          "Skiller mellom løpende priser og BNP justert for prisstigning.",
+          "Forklarer at en ren prisøkning ikke betyr økt reelt BNP."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et land skal sammenlignes med et land som har en annen befolkningsstørrelse. Forklar hva BNP per innbygger viser, og hvorfor dette målet kan være nyttig i sammenligningen.",
+        "fasit": "BNP per innbygger er BNP delt på antall innbyggere. Det gjør det lettere å sammenligne land med ulik befolkningsstørrelse.",
+        "kriterier": [
+          "Forklarer at BNP deles på antall innbyggere.",
+          "Knytter nytten til sammenligning av land med ulik befolkningsstørrelse."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En bedrift investerer i nye maskiner. Forklar hvordan dette kan bidra til økonomisk vekst.",
+        "fasit": "Maskiner er realkapital. Nye maskiner kan gjøre arbeiderne mer produktive, slik at økonomien kan produsere mer.",
+        "kriterier": [
+          "Kjenner igjen maskiner som realkapital eller investering.",
+          "Forklarer at dette kan øke produktiviteten eller produksjonen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et land får flere arbeidstakere som følge av at flere innbyggere kommer i jobb. Forklar hvordan dette kan påvirke økonomisk vekst.",
+        "fasit": "Flere i jobb betyr mer arbeidskraft. Det kan gjøre at økonomien kan produsere mer og dermed bidra til økonomisk vekst.",
+        "kriterier": [
+          "Forklarer at flere i jobb gir mer arbeidskraft.",
+          "Knytter økt arbeidskraft til mulighet for økt produksjon eller vekst."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En person utfører ulønnet omsorgsarbeid for et familiemedlem. Forklar hvordan dette arbeidet blir behandlet i BNP, og hva det viser om BNP som mål.",
+        "fasit": "Ulønnet omsorgsarbeid er ikke med i BNP. Derfor viser BNP ikke all nyttig aktivitet som foregår i et land.",
+        "kriterier": [
+          "Forklarer at ulønnet omsorgsarbeid ikke regnes med i BNP.",
+          "Forklarer at dette gjør at BNP ikke fanger opp all nyttig aktivitet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign BNP og nasjonalformue: Hva viser hvert av målene?",
+        "fasit": "BNP viser verdien av varer og tjenester som blir produsert i et land i en periode. Nasjonalformuen viser hva landet eier.",
+        "kriterier": [
+          "Forklarer at BNP handler om produksjon i en periode.",
+          "Forklarer at nasjonalformue handler om hva landet eier."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et land konsentrerer seg om å produsere varer det er særlig godt til å lage, og handler med andre land. Forklar hvordan dette kan bidra til økonomisk vekst.",
+        "fasit": "Landet spesialiserer seg på det det er best på. Handel gjør at land kan dra nytte av denne spesialiseringen, som kan bidra til vekst.",
+        "kriterier": [
+          "Forklarer at landet konsentrerer seg om det det er best til å produsere.",
+          "Knytter handel og spesialisering til at de kan bidra til økonomisk vekst."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar forskjellen på hva som påvirker økonomisk vekst på kort sikt og på lang sikt.",
+        "fasit": "På kort sikt svinger økonomisk vekst med konjunkturene. På lang sikt bestemmes veksten av hvor mye økonomien er i stand til å produsere.",
+        "kriterier": [
+          "Forklarer at konjunkturer gir kortsiktige svingninger.",
+          "Forklarer at langsiktig vekst bestemmes av økonomiens produksjonsevne."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

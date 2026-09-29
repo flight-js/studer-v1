@@ -4,75 +4,415 @@
   "trinnId": "vg2",
   "name": "Teorier og perspektiver i samfunnsfagene",
   "intro": "Klassiske og moderne tenkemåter i sosiologi og sosialantropologi – struktur og aktør, funksjonalisme, konfliktperspektiv og samhandlingsperspektiv – og hvordan du bruker teori til å forklare sosiale fenomener.",
-  "kompetansemaal": [2],
+  "kompetansemaal": [
+    2
+  ],
   "sammendrag": "## Hvorfor teori?\n\nEn **teori** er et sett begreper og antakelser som hjelper oss å **forklare** og **forstå** sosiale fenomener. Ulike teorier setter søkelyset på ulike sider av virkeligheten – som ulike **briller**. Ingen teori ser alt, og en god analyse bruker ofte flere.\n\n## Struktur og aktør\n\n- **Strukturperspektivet** legger vekt på hvordan samfunnets **rammer** – økonomi, klasser, normer, institusjoner – former menneskers valg.\n- **Aktørperspektivet** legger vekt på at mennesker **handler**, tar **valg** og kan **endre** samfunnet.\n\nSosiologen **Anthony Giddens** har pekt på at struktur og aktør **påvirker hverandre**: Strukturene begrenser og muliggjør handlinger, men handlingene gjenskaper og endrer strukturene.\n\n## Makro og mikro\n\n- **Makronivå**: samfunnet som helhet – økonomi, stat, klasser.\n- **Mikronivå**: samhandling mellom enkeltmennesker og i små grupper.\n\n## Funksjonalisme\n\nFunksjonalismen ser samfunnet som en **helhet** der hver del har en **funksjon** som bidrar til **stabilitet**, omtrent som organene i en kropp. **Émile Durkheim** var opptatt av hva som holder samfunnet sammen – **sosial integrasjon** og **felles normer**. Hans studie av **selvmord** (1897) viste at selv noe så personlig henger sammen med **sosiale forhold**.\n\n**Kritikk**: Perspektivet sier lite om **konflikt** og **endring**, og kan få ulikhet til å se «nødvendig» ut.\n\n## Konfliktperspektivet\n\nKonfliktperspektivet ser samfunnet preget av **motstridende interesser** og **maktkamp** mellom grupper. **Karl Marx** mente at kampen mellom klasser – **borgerskapet**, som eier produksjonsmidlene, og **arbeiderklassen** – driver historien framover. Senere konfliktteorier ser også på konflikter knyttet til **kjønn**, **etnisitet** og **generasjoner**.\n\n**Kritikk**: Kan overse **samarbeid**, fellesskap og at mange konflikter løses fredelig.\n\n## Samhandlingsperspektivet\n\nDette perspektivet ser på hvordan mennesker **skaper mening** i **samhandling** med hverandre (symbolsk interaksjonisme).\n\n- **George Herbert Mead**: Identiteten utvikles gjennom samspill med andre.\n- **Erving Goffman**: Hverdagslivet som **teater** – vi spiller roller på **scenen** og slapper av **bak scenen**.\n\n**Kritikk**: Kan overse de store **strukturene** og maktforholdene.\n\n## Max Weber – forståelse av handling\n\n**Max Weber** mente sosiologien må **forstå** meningen bak menneskers handlinger. Han skilte mellom ulike typer handling – for eksempel **formålsrasjonell** handling, **tradisjonell** handling og handling styrt av **følelser**. Han studerte også **byråkrati**, **makt** og hvordan **religion** kan påvirke økonomisk utvikling.\n\n## Bruke teori i en analyse\n\nEksempel: **Hvorfor gjør barn av foreldre med høy utdanning det bedre på skolen?**\n\n- **Konfliktperspektiv**: Skolen belønner den kulturen og språkbruken som høyere klasser har med seg hjemmefra.\n- **Funksjonalisme**: Skolen sorterer elever til ulike posisjoner i arbeidslivet.\n- **Samhandling**: Lærerens forventninger kan påvirke elevens selvbilde og innsats.\n- **Aktør**: Elevene tar egne valg og kan bryte mønstre.\n\nVurder hvilket perspektiv som **forklarer mest**, og hva hvert av dem **overser**.",
   "flashcards": [
-    { "term": "Teori", "def": "Begreper og antakelser som forklarer sosiale fenomener." },
-    { "term": "Strukturperspektiv", "def": "Samfunnets rammer former menneskers valg." },
-    { "term": "Aktørperspektiv", "def": "Mennesker handler, velger og kan endre samfunnet." },
-    { "term": "Anthony Giddens", "def": "Struktur og aktør påvirker hverandre." },
-    { "term": "Makronivå", "def": "Samfunnet som helhet." },
-    { "term": "Mikronivå", "def": "Samhandling mellom enkeltmennesker og små grupper." },
-    { "term": "Funksjonalisme", "def": "Hver del av samfunnet har en funksjon som gir stabilitet." },
-    { "term": "Émile Durkheim", "def": "Opptatt av sosial integrasjon; studerte selvmord (1897)." },
-    { "term": "Konfliktperspektiv", "def": "Samfunnet preges av motstridende interesser og maktkamp." },
-    { "term": "Karl Marx", "def": "Klassekamp mellom borgerskap og arbeiderklasse." },
-    { "term": "Samhandlingsperspektiv", "def": "Mennesker skaper mening i samhandling." },
-    { "term": "George Herbert Mead", "def": "Identitet utvikles i samspill med andre." },
-    { "term": "Erving Goffman", "def": "Hverdagslivet som teater med scene og bakscene." },
-    { "term": "Max Weber", "def": "Forstå meningen bak handlinger; byråkrati og makt." },
-    { "term": "Formålsrasjonell handling", "def": "Handling rettet mot et mål med velvalgte midler." }
+    {
+      "term": "Teori",
+      "def": "Begreper og antakelser som forklarer sosiale fenomener."
+    },
+    {
+      "term": "Strukturperspektiv",
+      "def": "Samfunnets rammer former menneskers valg."
+    },
+    {
+      "term": "Aktørperspektiv",
+      "def": "Mennesker handler, velger og kan endre samfunnet."
+    },
+    {
+      "term": "Anthony Giddens",
+      "def": "Struktur og aktør påvirker hverandre."
+    },
+    {
+      "term": "Makronivå",
+      "def": "Samfunnet som helhet."
+    },
+    {
+      "term": "Mikronivå",
+      "def": "Samhandling mellom enkeltmennesker og små grupper."
+    },
+    {
+      "term": "Funksjonalisme",
+      "def": "Hver del av samfunnet har en funksjon som gir stabilitet."
+    },
+    {
+      "term": "Émile Durkheim",
+      "def": "Opptatt av sosial integrasjon; studerte selvmord (1897)."
+    },
+    {
+      "term": "Konfliktperspektiv",
+      "def": "Samfunnet preges av motstridende interesser og maktkamp."
+    },
+    {
+      "term": "Karl Marx",
+      "def": "Klassekamp mellom borgerskap og arbeiderklasse."
+    },
+    {
+      "term": "Samhandlingsperspektiv",
+      "def": "Mennesker skaper mening i samhandling."
+    },
+    {
+      "term": "George Herbert Mead",
+      "def": "Identitet utvikles i samspill med andre."
+    },
+    {
+      "term": "Erving Goffman",
+      "def": "Hverdagslivet som teater med scene og bakscene."
+    },
+    {
+      "term": "Max Weber",
+      "def": "Forstå meningen bak handlinger; byråkrati og makt."
+    },
+    {
+      "term": "Formålsrasjonell handling",
+      "def": "Handling rettet mot et mål med velvalgte midler."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva legger strukturperspektivet vekt på?", "options": ["At mennesker velger helt fritt", "At samfunnets rammer former menneskers valg", "At alt er tilfeldig", "At bare følelser styrer oss"], "correct": 1, "explain": "Aktørperspektivet vektlegger valg." },
-    { "id": "q02", "text": "Hvem var opptatt av hva som holder samfunnet sammen, og studerte selvmord?", "options": ["Émile Durkheim", "Karl Marx", "Erving Goffman", "George Herbert Mead"], "correct": 0, "explain": "Studien kom i 1897." },
-    { "id": "q03", "text": "Hva kjennetegner konfliktperspektivet?", "options": ["Samfunnet er alltid i balanse", "Alle har felles interesser", "Samfunnet preges av motstridende interesser og maktkamp", "Samfunnet består bare av individer"], "correct": 2, "explain": "Marx er en sentral teoretiker." },
-    { "id": "q04", "text": "Hvem sammenlignet hverdagslivet med teater?", "options": ["Max Weber", "Karl Marx", "Émile Durkheim", "Erving Goffman"], "correct": 3, "explain": "Scene og bakscene." },
-    { "id": "q05", "text": "Hva er en vanlig kritikk av funksjonalismen?", "options": ["Den sier lite om konflikt og endring", "Den handler bare om konflikt", "Den ser bare på individer", "Den bruker ikke begreper"], "correct": 0, "explain": "Den vektlegger stabilitet." },
-    { "id": "q06", "text": "Hva er mikronivå?", "options": ["Hele samfunnet", "Samhandling mellom enkeltmennesker og små grupper", "Verdensøkonomien", "Staten"], "correct": 1, "explain": "Makronivå er samfunnet som helhet." },
-    { "id": "q07", "text": "Hva mente Giddens om struktur og aktør?", "options": ["Bare struktur betyr noe", "Bare aktører betyr noe", "De påvirker hverandre", "De har ingenting med hverandre å gjøre"], "correct": 2, "explain": "Strukturer begrenser og muliggjør handling." },
-    { "id": "q08", "text": "Hvordan kan konfliktperspektivet forklare at barn av høyt utdannede gjør det bedre på skolen?", "options": ["Lærerne er strengere mot dem", "Alle barn er like", "Skolen er tilfeldig", "Skolen belønner kulturen og språket høyere klasser har med hjemmefra"], "correct": 3, "explain": "Ulikhet reproduseres." },
-    { "id": "q09", "text": "Hva var Max Weber særlig opptatt av?", "options": ["Å forstå meningen bak menneskers handlinger", "Bare økonomisk statistikk", "Biologiske forklaringer", "Sport"], "correct": 0, "explain": "Også byråkrati og makt." },
-    { "id": "q10", "text": "Hvorfor bør en analyse ofte bruke flere teorier?", "options": ["Fordi det er påbudt", "Fordi hver teori ser noen sider og overser andre", "Fordi teorier er like", "For å gjøre teksten lengre"], "correct": 1, "explain": "Teorier er som ulike briller." }
+    {
+      "id": "q01",
+      "text": "Hva legger strukturperspektivet vekt på?",
+      "options": [
+        "At mennesker velger helt fritt",
+        "At samfunnets rammer former menneskers valg",
+        "At alt er tilfeldig",
+        "At bare følelser styrer oss"
+      ],
+      "correct": 1,
+      "explain": "Aktørperspektivet vektlegger valg."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem var opptatt av hva som holder samfunnet sammen, og studerte selvmord?",
+      "options": [
+        "Émile Durkheim",
+        "Karl Marx",
+        "Erving Goffman",
+        "George Herbert Mead"
+      ],
+      "correct": 0,
+      "explain": "Studien kom i 1897."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kjennetegner konfliktperspektivet?",
+      "options": [
+        "Samfunnet er alltid i balanse",
+        "Alle har felles interesser",
+        "Samfunnet preges av motstridende interesser og maktkamp",
+        "Samfunnet består bare av individer"
+      ],
+      "correct": 2,
+      "explain": "Marx er en sentral teoretiker."
+    },
+    {
+      "id": "q04",
+      "text": "Hvem sammenlignet hverdagslivet med teater?",
+      "options": [
+        "Max Weber",
+        "Karl Marx",
+        "Émile Durkheim",
+        "Erving Goffman"
+      ],
+      "correct": 3,
+      "explain": "Scene og bakscene."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en vanlig kritikk av funksjonalismen?",
+      "options": [
+        "Den sier lite om konflikt og endring",
+        "Den handler bare om konflikt",
+        "Den ser bare på individer",
+        "Den bruker ikke begreper"
+      ],
+      "correct": 0,
+      "explain": "Den vektlegger stabilitet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er mikronivå?",
+      "options": [
+        "Hele samfunnet",
+        "Samhandling mellom enkeltmennesker og små grupper",
+        "Verdensøkonomien",
+        "Staten"
+      ],
+      "correct": 1,
+      "explain": "Makronivå er samfunnet som helhet."
+    },
+    {
+      "id": "q07",
+      "text": "Hva mente Giddens om struktur og aktør?",
+      "options": [
+        "Bare struktur betyr noe",
+        "Bare aktører betyr noe",
+        "De påvirker hverandre",
+        "De har ingenting med hverandre å gjøre"
+      ],
+      "correct": 2,
+      "explain": "Strukturer begrenser og muliggjør handling."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan kan konfliktperspektivet forklare at barn av høyt utdannede gjør det bedre på skolen?",
+      "options": [
+        "Lærerne er strengere mot dem",
+        "Alle barn er like",
+        "Skolen er tilfeldig",
+        "Skolen belønner kulturen og språket høyere klasser har med hjemmefra"
+      ],
+      "correct": 3,
+      "explain": "Ulikhet reproduseres."
+    },
+    {
+      "id": "q09",
+      "text": "Hva var Max Weber særlig opptatt av?",
+      "options": [
+        "Å forstå meningen bak menneskers handlinger",
+        "Bare økonomisk statistikk",
+        "Biologiske forklaringer",
+        "Sport"
+      ],
+      "correct": 0,
+      "explain": "Også byråkrati og makt."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor bør en analyse ofte bruke flere teorier?",
+      "options": [
+        "Fordi det er påbudt",
+        "Fordi hver teori ser noen sider og overser andre",
+        "Fordi teorier er like",
+        "For å gjøre teksten lengre"
+      ],
+      "correct": 1,
+      "explain": "Teorier er som ulike briller."
+    }
   ],
   "mindmap": {
     "label": "Teorier og perspektiver",
     "children": [
-      { "label": "Grunnspenninger", "children": [
-        { "label": "Struktur og aktør" },
-        { "label": "Makro og mikro" }
-      ] },
-      { "label": "Funksjonalisme", "children": [
-        { "label": "Durkheim" },
-        { "label": "Integrasjon og stabilitet" }
-      ] },
-      { "label": "Konflikt", "children": [
-        { "label": "Marx" },
-        { "label": "Klasse, kjønn, etnisitet" }
-      ] },
-      { "label": "Samhandling", "children": [
-        { "label": "Mead" },
-        { "label": "Goffman" }
-      ] },
-      { "label": "Bruk", "children": [
-        { "label": "Weber og forståelse" },
-        { "label": "Flere perspektiver" },
-        { "label": "Hva overses?" }
-      ] }
+      {
+        "label": "Grunnspenninger",
+        "children": [
+          {
+            "label": "Struktur og aktør"
+          },
+          {
+            "label": "Makro og mikro"
+          }
+        ]
+      },
+      {
+        "label": "Funksjonalisme",
+        "children": [
+          {
+            "label": "Durkheim"
+          },
+          {
+            "label": "Integrasjon og stabilitet"
+          }
+        ]
+      },
+      {
+        "label": "Konflikt",
+        "children": [
+          {
+            "label": "Marx"
+          },
+          {
+            "label": "Klasse, kjønn, etnisitet"
+          }
+        ]
+      },
+      {
+        "label": "Samhandling",
+        "children": [
+          {
+            "label": "Mead"
+          },
+          {
+            "label": "Goffman"
+          }
+        ]
+      },
+      {
+        "label": "Bruk",
+        "children": [
+          {
+            "label": "Weber og forståelse"
+          },
+          {
+            "label": "Flere perspektiver"
+          },
+          {
+            "label": "Hva overses?"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Durkheim viste at selvmord også henger sammen med sosiale forhold.", "correct": true, "explain": "Sosial integrasjon betyr noe." },
-      { "id": "m02", "type": "sant-usant", "text": "Samhandlingsperspektivet legger hovedvekten på store økonomiske strukturer.", "correct": false, "explain": "Det ser på mening skapt i samhandling." },
-      { "id": "m03", "type": "sant-usant", "text": "Marx skilte mellom borgerskapet og arbeiderklassen.", "correct": true, "explain": "Etter hvem som eier produksjonsmidlene." },
-      { "id": "m04", "type": "sant-usant", "text": "Én teori kan forklare alle sider ved et sosialt fenomen.", "correct": false, "explain": "Hver teori har sine blindsoner." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket perspektiv passer best til å analysere hvordan elever presenterer seg selv på sosiale medier?", "options": ["Funksjonalisme", "Samhandlingsperspektiv", "Marxistisk klasseanalyse", "Demografi"], "correct": 1, "explain": "Goffmans rollebegrep passer godt." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er en kritikk av konfliktperspektivet?", "options": ["Det kan overse samarbeid og fellesskap", "Det ser bare stabilitet", "Det handler bare om individer", "Det er for positivt"], "correct": 0, "explain": "Mange konflikter løses fredelig." },
-      { "id": "m07", "type": "flervalg", "text": "Hva slags handling er det å studere hardt for å komme inn på medisin?", "options": ["Tradisjonell", "Følelsesstyrt", "Formålsrasjonell", "Tilfeldig"], "correct": 2, "explain": "Rettet mot et mål med velvalgte midler." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Durkheim viste at selvmord også henger sammen med sosiale forhold.",
+        "correct": true,
+        "explain": "Sosial integrasjon betyr noe."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Samhandlingsperspektivet legger hovedvekten på store økonomiske strukturer.",
+        "correct": false,
+        "explain": "Det ser på mening skapt i samhandling."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Marx skilte mellom borgerskapet og arbeiderklassen.",
+        "correct": true,
+        "explain": "Etter hvem som eier produksjonsmidlene."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Én teori kan forklare alle sider ved et sosialt fenomen.",
+        "correct": false,
+        "explain": "Hver teori har sine blindsoner."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket perspektiv passer best til å analysere hvordan elever presenterer seg selv på sosiale medier?",
+        "options": [
+          "Funksjonalisme",
+          "Samhandlingsperspektiv",
+          "Marxistisk klasseanalyse",
+          "Demografi"
+        ],
+        "correct": 1,
+        "explain": "Goffmans rollebegrep passer godt."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en kritikk av konfliktperspektivet?",
+        "options": [
+          "Det kan overse samarbeid og fellesskap",
+          "Det ser bare stabilitet",
+          "Det handler bare om individer",
+          "Det er for positivt"
+        ],
+        "correct": 0,
+        "explain": "Mange konflikter løses fredelig."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva slags handling er det å studere hardt for å komme inn på medisin?",
+        "options": [
+          "Tradisjonell",
+          "Følelsesstyrt",
+          "Formålsrasjonell",
+          "Tilfeldig"
+        ],
+        "correct": 2,
+        "explain": "Rettet mot et mål med velvalgte midler."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva er en teori i samfunnsfag, og hva hjelper den oss med?",
+        "fasit": "En teori er et sett med begreper og antakelser som hjelper oss å forklare og forstå sosiale fenomener.",
+        "kriterier": [
+          "Forklarer at en teori består av begreper og antakelser.",
+          "Får fram at teorier brukes til å forklare eller forstå sosiale fenomener."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En skole har regler som påvirker hvilke valg elevene kan ta. En elev prøver samtidig å få skolen til å endre en regel. Forklar hvordan strukturperspektivet og aktørperspektivet kan belyse situasjonen på ulike måter.",
+        "fasit": "Strukturperspektivet viser hvordan skolens regler rammer inn elevens valg. Aktørperspektivet viser at eleven handler og kan forsøke å endre reglene.",
+        "kriterier": [
+          "Knytter strukturperspektivet til rammer som påvirker eller begrenser valg.",
+          "Knytter aktørperspektivet til at mennesker handler og kan påvirke eller endre samfunnet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En forsker undersøker hvorfor elevers skoleprestasjoner er ulike. Hva kan forskeren undersøke på makronivå, og hva kan hen undersøke på mikronivå?",
+        "fasit": "På makronivå kan forskeren se på forhold i samfunnet som helhet, for eksempel økonomi eller klasser. På mikronivå kan forskeren undersøke samhandling mellom elever eller mellom elever og lærere.",
+        "kriterier": [
+          "Knytter makronivå til forhold ved samfunnet som helhet.",
+          "Knytter mikronivå til samhandling mellom enkeltmennesker eller i små grupper."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan en funksjonalist kan forstå skolens rolle i samfunnet.",
+        "fasit": "En funksjonalist kan se skolen som en del av samfunnet som har en funksjon. Skolen kan blant annet sortere elever til ulike posisjoner i arbeidslivet, noe som bidrar til at samfunnet fungerer og er stabilt.",
+        "kriterier": [
+          "Forklarer skolen som en samfunnsdel med en funksjon.",
+          "Får fram at funksjonen kan bidra til stabilitet, for eksempel ved å sortere elever til ulike posisjoner i arbeidslivet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "To grupper er uenige om hvem som skal få bestemme over en felles ressurs, men de finner en fredelig løsning. Hva kan konfliktperspektivet overse i en slik situasjon?",
+        "fasit": "Konfliktperspektivet kan legge så stor vekt på motstridende interesser og maktkamp at det overser samarbeid og fellesskap. Det kan også overse at konflikter kan løses fredelig.",
+        "kriterier": [
+          "Nevner at perspektivet kan overse samarbeid eller fellesskap.",
+          "Får fram at det kan overse fredelige løsninger på konflikter."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En ungdom begynner å se på seg selv som modig etter at venner ofte oppmuntrer hen til å prøve nye ting. Forklar situasjonen med Meads syn på identitet.",
+        "fasit": "Mead mente at identiteten utvikles i samspill med andre. Vennenes reaksjoner kan derfor påvirke hvordan ungdommen ser på seg selv.",
+        "kriterier": [
+          "Forklarer at identiteten utvikles gjennom samspill med andre.",
+          "Knytter vennenes reaksjoner til ungdommens syn på seg selv."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev planlegger en bestemt leseplan fordi målet er å gjøre det godt på en prøve, og velger metoder eleven tror vil hjelpe. Hvilken handlingstype hos Weber passer best, og hvorfor?",
+        "fasit": "Dette er en formålsrasjonell handling. Eleven har et mål og velger midler som hen tror kan hjelpe med å nå det.",
+        "kriterier": [
+          "Identifiserer handlingen som formålsrasjonell.",
+          "Forklarer at eleven velger midler for å nå et mål."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En person deltar på en årlig familiefest fordi det er en tradisjon, mens en annen roper høyt fordi hen er sint. Hvilken type handling beskriver hver situasjon?",
+        "fasit": "Å delta på familiefesten er en tradisjonell handling. Å rope høyt fordi man er sint, er en handling styrt av følelser.",
+        "kriterier": [
+          "Knytter deltakelsen på familiefesten til tradisjonell handling.",
+          "Knytter ropingen til handling styrt av følelser."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

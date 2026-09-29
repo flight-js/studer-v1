@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Metaller, plast og grønn kjemi",
   "intro": "Produksjon, gjenvinning, deponering og nedbrytning av metaller som aluminium og jern og av vanlige plasttyper – addisjons- og kondensasjonspolymerer, mikroplast og bioplast – og hvordan prinsippene for grønn kjemi kan brukes til å vurdere tiltak.",
-  "kompetansemaal": [14],
+  "kompetansemaal": [
+    14
+  ],
   "sammendrag": "## Metaller\n\n**Metaller** finnes i naturen som **malm**, der metallet er bundet i **forbindelser**, ofte oksider. For å få rent metall må det **reduseres**.\n\n- **Jern** lages i en **masovn** der jernoksid reduseres med **karbon** fra koks. Dette gir store **CO₂-utslipp**. Nye metoder bruker **hydrogen** som reduksjonsmiddel, slik at det dannes **vann** i stedet for CO₂.\n- **Aluminium** lages ved **elektrolyse** av aluminiumoksid løst i smeltet **kryolitt**. Prosessen krever mye **elektrisk energi**. Norge er en stor aluminiumsprodusent fordi landet har mye **vannkraft**.\n\n## Gjenvinning og deponering av metaller\n\n**Gjenvinning** av aluminium krever bare omtrent **5 %** av energien som trengs for å lage nytt. Også **jern**, **kobber** og metaller i **elektronikk** kan gjenvinnes. Metaller som ikke gjenvinnes, havner på **deponi**. Der kan **tungmetaller** som bly, kadmium og kvikksølv lekke ut i jord og vann og skade miljøet.\n\nMetaller brytes ned ved **korrosjon**, men bare **overflaten** endres – metallet forsvinner ikke.\n\n## Plast\n\n**Plast** er **polymerer** – lange kjeder av **monomerer**. De fleste plasttyper lages av **olje** eller **gass**.\n\n- **Addisjonspolymerer** dannes når monomerer med **dobbeltbinding** kobles sammen, for eksempel **polyeten** (PE) i poser og **polypropen** (PP) i bokser.\n- **Kondensasjonspolymerer** dannes når monomerer slås sammen og **vann** spaltes av, for eksempel **PET** i flasker og **nylon**.\n\n**Termoplast** kan smeltes og formes på nytt. **Herdeplast** tåler varme, men kan ikke smeltes om.\n\n## Plast og miljø\n\n- Plast brytes svært **langsomt** ned i naturen – ofte over hundrevis av år.\n- Plast i havet brytes ned til **mikroplast**, som tas opp av dyr og havner i næringskjeden.\n- **Forbrenning** gir energi, men også **CO₂**.\n- **Mekanisk gjenvinning** smelter plasten om, men kvaliteten blir **dårligere** for hver runde. **Kjemisk gjenvinning** bryter polymerene ned til monomerer.\n- **Pantesystemer** for flasker gir høy **innsamling**.\n\n## Bioplast\n\n**Bioplast** kan lages av **fornybare** råstoffer, som mais og sukkerrør. Noen typer er **bionedbrytbare**, men ofte bare under **industrielle** forhold – ikke i havet. Bioplast er derfor ikke alltid en enkel løsning.\n\n## Grønn kjemi\n\n**Grønn kjemi** handler om å designe kjemiske produkter og prosesser som **reduserer** eller **fjerner** bruk og produksjon av farlige stoffer. Noen prinsipper:\n\n- **Forebygge avfall** i stedet for å rydde opp etterpå\n- Høy **atomøkonomi**\n- **Mindre farlige** kjemikalier og løsemidler\n- **Energieffektivitet** – lav temperatur og trykk\n- **Fornybare** råstoffer\n- **Katalysatorer** i stedet for store mengder reagenser\n- Produkter som **brytes ned** til ufarlige stoffer etter bruk\n\n## Å drøfte tiltak\n\nNår du vurderer et tiltak, som å bytte fra plastpose til papirpose eller bioplast, må du se på hele **livsløpet**: råvarer, energi, transport, bruk og hva som skjer når produktet kastes. **Sirkulær økonomi** – å **redusere**, **gjenbruke** og **gjenvinne** – er ofte bedre enn å bare bytte materiale.",
   "flashcards": [
-    { "term": "Malm", "def": "Mineral som metall utvinnes fra." },
-    { "term": "Masovn", "def": "Ovn der jernoksid reduseres med karbon." },
-    { "term": "Hydrogenreduksjon", "def": "Jernproduksjon med hydrogen som gir vann i stedet for CO₂." },
-    { "term": "Aluminiumselektrolyse", "def": "Aluminiumoksid løst i kryolitt reduseres med strøm." },
-    { "term": "Gjenvinning av aluminium", "def": "Krever bare omtrent 5 % av energien til ny produksjon." },
-    { "term": "Deponi", "def": "Sted der avfall legges – tungmetaller kan lekke ut." },
-    { "term": "Addisjonspolymer", "def": "Dannes av monomerer med dobbeltbinding, som polyeten." },
-    { "term": "Kondensasjonspolymer", "def": "Dannes når vann spaltes av, som PET og nylon." },
-    { "term": "Termoplast", "def": "Plast som kan smeltes og formes på nytt." },
-    { "term": "Herdeplast", "def": "Plast som tåler varme, men ikke kan smeltes om." },
-    { "term": "Mikroplast", "def": "Små plastbiter som havner i næringskjeden." },
-    { "term": "Kjemisk gjenvinning", "def": "Polymerer brytes ned til monomerer." },
-    { "term": "Bioplast", "def": "Plast av fornybare råstoffer – ikke alltid nedbrytbar i naturen." },
-    { "term": "Grønn kjemi", "def": "Kjemi som reduserer eller fjerner farlige stoffer i produkter og prosesser." },
-    { "term": "Livsløpsvurdering", "def": "Vurdering av miljøbelastning fra råvare til avfall." }
+    {
+      "term": "Malm",
+      "def": "Mineral som metall utvinnes fra."
+    },
+    {
+      "term": "Masovn",
+      "def": "Ovn der jernoksid reduseres med karbon."
+    },
+    {
+      "term": "Hydrogenreduksjon",
+      "def": "Jernproduksjon med hydrogen som gir vann i stedet for CO₂."
+    },
+    {
+      "term": "Aluminiumselektrolyse",
+      "def": "Aluminiumoksid løst i kryolitt reduseres med strøm."
+    },
+    {
+      "term": "Gjenvinning av aluminium",
+      "def": "Krever bare omtrent 5 % av energien til ny produksjon."
+    },
+    {
+      "term": "Deponi",
+      "def": "Sted der avfall legges – tungmetaller kan lekke ut."
+    },
+    {
+      "term": "Addisjonspolymer",
+      "def": "Dannes av monomerer med dobbeltbinding, som polyeten."
+    },
+    {
+      "term": "Kondensasjonspolymer",
+      "def": "Dannes når vann spaltes av, som PET og nylon."
+    },
+    {
+      "term": "Termoplast",
+      "def": "Plast som kan smeltes og formes på nytt."
+    },
+    {
+      "term": "Herdeplast",
+      "def": "Plast som tåler varme, men ikke kan smeltes om."
+    },
+    {
+      "term": "Mikroplast",
+      "def": "Små plastbiter som havner i næringskjeden."
+    },
+    {
+      "term": "Kjemisk gjenvinning",
+      "def": "Polymerer brytes ned til monomerer."
+    },
+    {
+      "term": "Bioplast",
+      "def": "Plast av fornybare råstoffer – ikke alltid nedbrytbar i naturen."
+    },
+    {
+      "term": "Grønn kjemi",
+      "def": "Kjemi som reduserer eller fjerner farlige stoffer i produkter og prosesser."
+    },
+    {
+      "term": "Livsløpsvurdering",
+      "def": "Vurdering av miljøbelastning fra råvare til avfall."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan lages aluminium?", "options": ["I en masovn med karbon", "Ved elektrolyse av aluminiumoksid løst i kryolitt", "Ved destillasjon", "Ved fotosyntese"], "correct": 1, "explain": "Krever mye elektrisk energi." },
-    { "id": "q02", "text": "Hvor mye energi krever gjenvinning av aluminium sammenlignet med ny produksjon?", "options": ["Omtrent 5 %", "Omtrent 50 %", "Omtrent 100 %", "Omtrent 200 %"], "correct": 0, "explain": "Stor energigevinst." },
-    { "id": "q03", "text": "Hvorfor gir jernproduksjon i masovn store CO₂-utslipp?", "options": ["Fordi jern inneholder CO₂", "Fordi det brukes elektrolyse", "Fordi jernoksid reduseres med karbon", "Fordi det brukes hydrogen"], "correct": 2, "explain": "Karbonet blir til CO₂." },
-    { "id": "q04", "text": "Hva er polyeten et eksempel på?", "options": ["Kondensasjonspolymer", "Metall", "Bioplast alltid", "Addisjonspolymer"], "correct": 3, "explain": "Laget av eten med dobbeltbinding." },
-    { "id": "q05", "text": "Hva er mikroplast?", "options": ["Små plastbiter som havner i næringskjeden", "Plast laget av mais", "Svært sterk plast", "Plast til elektronikk"], "correct": 0, "explain": "Oppstår når plast brytes ned." },
-    { "id": "q06", "text": "Hva skjer med kvaliteten ved mekanisk gjenvinning av plast?", "options": ["Den blir bedre", "Den blir dårligere for hver runde", "Den er uendret", "Plasten blir til metall"], "correct": 1, "explain": "Kjemisk gjenvinning kan gi monomerer igjen." },
-    { "id": "q07", "text": "Er bioplast alltid nedbrytbar i havet?", "options": ["Ja, alltid", "Ja, på få dager", "Nei, ofte bare under industrielle forhold", "Nei, den er metall"], "correct": 2, "explain": "Ikke en enkel løsning." },
-    { "id": "q08", "text": "Hva er et prinsipp i grønn kjemi?", "options": ["Rydde opp avfall etterpå", "Bruke mest mulig løsemiddel", "Høy temperatur og trykk", "Forebygge avfall"], "correct": 3, "explain": "Også atomøkonomi og fornybare råstoffer." },
-    { "id": "q09", "text": "Hva er PET et eksempel på?", "options": ["Kondensasjonspolymer", "Addisjonspolymer", "Metall", "Enzym"], "correct": 0, "explain": "Vann spaltes av når den dannes." },
-    { "id": "q10", "text": "Hva må du vurdere når du sammenligner plastpose og papirpose?", "options": ["Bare fargen", "Hele livsløpet fra råvare til avfall", "Bare prisen", "Bare vekten"], "correct": 1, "explain": "Livsløpsvurdering." }
+    {
+      "id": "q01",
+      "text": "Hvordan lages aluminium?",
+      "options": [
+        "I en masovn med karbon",
+        "Ved elektrolyse av aluminiumoksid løst i kryolitt",
+        "Ved destillasjon",
+        "Ved fotosyntese"
+      ],
+      "correct": 1,
+      "explain": "Krever mye elektrisk energi."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor mye energi krever gjenvinning av aluminium sammenlignet med ny produksjon?",
+      "options": [
+        "Omtrent 5 %",
+        "Omtrent 50 %",
+        "Omtrent 100 %",
+        "Omtrent 200 %"
+      ],
+      "correct": 0,
+      "explain": "Stor energigevinst."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor gir jernproduksjon i masovn store CO₂-utslipp?",
+      "options": [
+        "Fordi jern inneholder CO₂",
+        "Fordi det brukes elektrolyse",
+        "Fordi jernoksid reduseres med karbon",
+        "Fordi det brukes hydrogen"
+      ],
+      "correct": 2,
+      "explain": "Karbonet blir til CO₂."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er polyeten et eksempel på?",
+      "options": [
+        "Kondensasjonspolymer",
+        "Metall",
+        "Bioplast alltid",
+        "Addisjonspolymer"
+      ],
+      "correct": 3,
+      "explain": "Laget av eten med dobbeltbinding."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er mikroplast?",
+      "options": [
+        "Små plastbiter som havner i næringskjeden",
+        "Plast laget av mais",
+        "Svært sterk plast",
+        "Plast til elektronikk"
+      ],
+      "correct": 0,
+      "explain": "Oppstår når plast brytes ned."
+    },
+    {
+      "id": "q06",
+      "text": "Hva skjer med kvaliteten ved mekanisk gjenvinning av plast?",
+      "options": [
+        "Den blir bedre",
+        "Den blir dårligere for hver runde",
+        "Den er uendret",
+        "Plasten blir til metall"
+      ],
+      "correct": 1,
+      "explain": "Kjemisk gjenvinning kan gi monomerer igjen."
+    },
+    {
+      "id": "q07",
+      "text": "Er bioplast alltid nedbrytbar i havet?",
+      "options": [
+        "Ja, alltid",
+        "Ja, på få dager",
+        "Nei, ofte bare under industrielle forhold",
+        "Nei, den er metall"
+      ],
+      "correct": 2,
+      "explain": "Ikke en enkel løsning."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et prinsipp i grønn kjemi?",
+      "options": [
+        "Rydde opp avfall etterpå",
+        "Bruke mest mulig løsemiddel",
+        "Høy temperatur og trykk",
+        "Forebygge avfall"
+      ],
+      "correct": 3,
+      "explain": "Også atomøkonomi og fornybare råstoffer."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er PET et eksempel på?",
+      "options": [
+        "Kondensasjonspolymer",
+        "Addisjonspolymer",
+        "Metall",
+        "Enzym"
+      ],
+      "correct": 0,
+      "explain": "Vann spaltes av når den dannes."
+    },
+    {
+      "id": "q10",
+      "text": "Hva må du vurdere når du sammenligner plastpose og papirpose?",
+      "options": [
+        "Bare fargen",
+        "Hele livsløpet fra råvare til avfall",
+        "Bare prisen",
+        "Bare vekten"
+      ],
+      "correct": 1,
+      "explain": "Livsløpsvurdering."
+    }
   ],
   "mindmap": {
     "label": "Metaller, plast og grønn kjemi",
     "children": [
-      { "label": "Metaller", "children": [
-        { "label": "Jern i masovn" },
-        { "label": "Aluminium ved elektrolyse" },
-        { "label": "Hydrogenreduksjon" }
-      ] },
-      { "label": "Metallenes livsløp", "children": [
-        { "label": "Gjenvinning" },
-        { "label": "Deponi og tungmetaller" }
-      ] },
-      { "label": "Plast", "children": [
-        { "label": "Addisjonspolymerer" },
-        { "label": "Kondensasjonspolymerer" },
-        { "label": "Termo- og herdeplast" }
-      ] },
-      { "label": "Plast og miljø", "children": [
-        { "label": "Mikroplast" },
-        { "label": "Gjenvinning" },
-        { "label": "Bioplast" }
-      ] },
-      { "label": "Grønn kjemi", "children": [
-        { "label": "Forebygge avfall" },
-        { "label": "Atomøkonomi og katalyse" },
-        { "label": "Livsløp og sirkulær økonomi" }
-      ] }
+      {
+        "label": "Metaller",
+        "children": [
+          {
+            "label": "Jern i masovn"
+          },
+          {
+            "label": "Aluminium ved elektrolyse"
+          },
+          {
+            "label": "Hydrogenreduksjon"
+          }
+        ]
+      },
+      {
+        "label": "Metallenes livsløp",
+        "children": [
+          {
+            "label": "Gjenvinning"
+          },
+          {
+            "label": "Deponi og tungmetaller"
+          }
+        ]
+      },
+      {
+        "label": "Plast",
+        "children": [
+          {
+            "label": "Addisjonspolymerer"
+          },
+          {
+            "label": "Kondensasjonspolymerer"
+          },
+          {
+            "label": "Termo- og herdeplast"
+          }
+        ]
+      },
+      {
+        "label": "Plast og miljø",
+        "children": [
+          {
+            "label": "Mikroplast"
+          },
+          {
+            "label": "Gjenvinning"
+          },
+          {
+            "label": "Bioplast"
+          }
+        ]
+      },
+      {
+        "label": "Grønn kjemi",
+        "children": [
+          {
+            "label": "Forebygge avfall"
+          },
+          {
+            "label": "Atomøkonomi og katalyse"
+          },
+          {
+            "label": "Livsløp og sirkulær økonomi"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Norge er en stor aluminiumsprodusent fordi landet har mye vannkraft.", "correct": true, "explain": "Elektrolysen krever mye strøm." },
-      { "id": "m02", "type": "sant-usant", "text": "Herdeplast kan smeltes og formes på nytt.", "correct": false, "explain": "Det kan termoplast." },
-      { "id": "m03", "type": "sant-usant", "text": "Tungmetaller på deponi kan lekke ut i jord og vann.", "correct": true, "explain": "Derfor bør de gjenvinnes." },
-      { "id": "m04", "type": "sant-usant", "text": "Å bytte materiale er alltid bedre enn å redusere forbruket.", "correct": false, "explain": "Å redusere og gjenbruke er ofte bedre." },
-      { "id": "m05", "type": "flervalg", "text": "Hva dannes i stedet for CO₂ når jern reduseres med hydrogen?", "options": ["Metan", "Vann", "Oksygen", "Nitrogen"], "correct": 1, "explain": "En grønnere prosess." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gir pantesystemer for flasker?", "options": ["Høy innsamling", "Mer mikroplast", "Mer deponi", "Lavere kvalitet"], "correct": 0, "explain": "Flaskene kan gjenvinnes." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr sirkulær økonomi?", "options": ["Bruk og kast", "Mer forbrenning", "Redusere, gjenbruke og gjenvinne", "Mer deponi"], "correct": 2, "explain": "Ressursene holdes i bruk." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Norge er en stor aluminiumsprodusent fordi landet har mye vannkraft.",
+        "correct": true,
+        "explain": "Elektrolysen krever mye strøm."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Herdeplast kan smeltes og formes på nytt.",
+        "correct": false,
+        "explain": "Det kan termoplast."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Tungmetaller på deponi kan lekke ut i jord og vann.",
+        "correct": true,
+        "explain": "Derfor bør de gjenvinnes."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Å bytte materiale er alltid bedre enn å redusere forbruket.",
+        "correct": false,
+        "explain": "Å redusere og gjenbruke er ofte bedre."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva dannes i stedet for CO₂ når jern reduseres med hydrogen?",
+        "options": [
+          "Metan",
+          "Vann",
+          "Oksygen",
+          "Nitrogen"
+        ],
+        "correct": 1,
+        "explain": "En grønnere prosess."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gir pantesystemer for flasker?",
+        "options": [
+          "Høy innsamling",
+          "Mer mikroplast",
+          "Mer deponi",
+          "Lavere kvalitet"
+        ],
+        "correct": 0,
+        "explain": "Flaskene kan gjenvinnes."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr sirkulær økonomi?",
+        "options": [
+          "Bruk og kast",
+          "Mer forbrenning",
+          "Redusere, gjenbruke og gjenvinne",
+          "Mer deponi"
+        ],
+        "correct": 2,
+        "explain": "Ressursene holdes i bruk."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En kjemisk prosess skal endres slik at den bruker et mindre farlig løsemiddel og lavere temperatur. Forklar hvordan disse endringene følger prinsipper for grønn kjemi.",
+        "fasit": "Grønn kjemi handler om å redusere eller fjerne farlige stoffer. Et mindre farlig løsemiddel og lavere temperatur følger prinsippene om mindre farlige kjemikalier og energieffektivitet.",
+        "kriterier": [
+          "Forklarer at grønn kjemi skal redusere eller fjerne farlige stoffer.",
+          "Knytter lavere temperatur til energieffektivitet og/eller det nye løsemiddelet til bruk av mindre farlige kjemikalier."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign hvordan addisjonspolymerer og kondensasjonspolymerer dannes. Ta med hva som skjer med dobbeltbindinger eller vann.",
+        "fasit": "Addisjonspolymerer dannes når monomerer med dobbeltbinding kobles sammen. Når kondensasjonspolymerer dannes, slås monomerer sammen og vann spaltes av.",
+        "kriterier": [
+          "Forklarer at monomerer med dobbeltbinding kobles sammen i addisjonspolymerer.",
+          "Forklarer at vann spaltes av når kondensasjonspolymerer dannes."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En plastdel skal kunne smeltes og formes på nytt etter bruk. Hvilken av plasttypene termoplast og herdeplast passer best? Begrunn svaret ved å sammenligne egenskapene deres.",
+        "fasit": "Termoplast passer best fordi den kan smeltes og formes på nytt. Herdeplast tåler varme, men kan ikke smeltes om.",
+        "kriterier": [
+          "Velger termoplast fordi den kan smeltes og formes på nytt.",
+          "Skiller den fra herdeplast ved at herdeplast ikke kan smeltes om."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Plastavfall brytes langsomt ned i havet. Forklar hvordan plasten kan føre til at plastbiter havner i næringskjeden.",
+        "fasit": "Plasten brytes ned til mikroplast. Dyr tar opp mikroplasten, og den kan dermed føres inn i næringskjeden.",
+        "kriterier": [
+          "Forklarer at plast brytes ned til mikroplast.",
+          "Forklarer at dyr tar opp mikroplasten, slik at den kommer inn i næringskjeden."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Å lage en bestemt mengde nytt aluminium krever hypotetisk 120 energienheter. Gjenvinning krever omtrent 5 % av energien til ny produksjon. Hvor mange energienheter krever gjenvinningen? Vis det viktigste regnestykket.",
+        "fasit": "5 % av 120 er 0,05 · 120 = 6. Gjenvinningen krever 6 energienheter.",
+        "kriterier": [
+          "Bruker 5 % av energien til ny produksjon.",
+          "Regner seg fram til 6 energienheter."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et innsamlingsprosjekt har 17 metallgjenstander, og 8 av dem blir gjenvunnet. Hvor mange blir ikke gjenvunnet? Hvis de havner på deponi, nevn én mulig miljøfare.",
+        "fasit": "17 − 8 = 9 gjenstander blir ikke gjenvunnet. Tungmetaller fra avfall på deponi kan lekke ut i jord og vann og skade miljøet.",
+        "kriterier": [
+          "Regner ut at 9 gjenstander ikke blir gjenvunnet.",
+          "Nevner at tungmetaller kan lekke ut i jord eller vann og skade miljøet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar forskjellen på mekanisk og kjemisk gjenvinning av plast. Ta med hva som skjer med plasten i hver metode.",
+        "fasit": "Ved mekanisk gjenvinning smeltes plasten om, og kvaliteten blir dårligere for hver runde. Ved kjemisk gjenvinning brytes polymerene ned til monomerer.",
+        "kriterier": [
+          "Forklarer at mekanisk gjenvinning smelter plasten om.",
+          "Forklarer at kjemisk gjenvinning bryter polymerene ned til monomerer."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En emballasje er laget av bioplast fra fornybare råstoffer. Forklar hvorfor dette alene ikke er nok til å avgjøre om emballasjen er et miljøvennlig valg.",
+        "fasit": "Fornybare råstoffer er bare én del av miljøvurderingen. Man må også se på hele livsløpet, som energibruk, transport og hva som skjer når emballasjen kastes; noen bioplaster brytes bare ned under industrielle forhold.",
+        "kriterier": [
+          "Forklarer at fornybare råstoffer alene ikke avgjør miljøbelastningen.",
+          "Viser til vurdering av flere deler av livsløpet, inkludert hva som skjer etter bruk."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

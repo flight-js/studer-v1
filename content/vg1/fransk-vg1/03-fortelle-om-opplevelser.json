@@ -4,78 +4,426 @@
   "trinnId": "vg1",
   "name": "Å fortelle om opplevelser",
   "intro": "Hvordan du forteller om opplevelser på fransk ved å kombinere passé composé og imparfait, verb som bøyes med être, samsvar i partisipp og tidsuttrykk som gir fortellingen struktur.",
-  "kompetansemaal": [3, 5, 6],
+  "kompetansemaal": [
+    3,
+    5,
+    6
+  ],
   "sammendrag": "## To fortidsformer\n\nNår vi forteller om fortiden på fransk, kombinerer vi to tider:\n\n- **Imparfait** beskriver **bakgrunn**, **situasjoner**, **vaner** og **tilstander**: hvordan det **var**.\n- **Passé composé** forteller om **avsluttede handlinger** og **hendelser**: hva som **skjedde**.\n\n*Il **pleuvait** et il **faisait** froid. Soudain, quelqu'un **a frappé** à la porte.* – Det regnet og var kaldt. Plutselig banket noen på døra.\n\n## Imparfait\n\nTa stammen fra **nous**-formen i presens og legg til endelsene **-ais, -ais, -ait, -ions, -iez, -aient**:\n\n- nous **fais**ons → je **faisais**\n- nous **fin**issons → je **finissais**\n- nous **av**ons → j'**avais**\n\nEneste unntak: **être** → j'**étais**.\n\n*Quand j'étais petit, j'allais chez ma grand-mère tous les étés.* – Da jeg var liten, dro jeg til bestemor hver sommer.\n\n## Passé composé med avoir og être\n\nDe fleste verb bruker **avoir** + partisipp: *J'**ai mangé**. Nous **avons vu** un film.*\n\nNoen verb, mest om **bevegelse** og **forandring**, bruker **être**: *aller, venir, arriver, partir, entrer, sortir, monter, descendre, naître, mourir, rester, tomber, retourner* – og alle **pronominale verb** (*je me suis levé*).\n\nMed **être** skal partisippet **samsvare** med subjektet:\n\n- *Il est parti.* – *Elle est parti**e**.* – *Ils sont parti**s**.* – *Elles sont parti**es**.*\n\n## Viktige partisipper\n\n*faire → fait*, *prendre → pris*, *voir → vu*, *avoir → eu*, *être → été*, *boire → bu*, *lire → lu*, *mettre → mis*, *venir → venu*, *naître → né*.\n\n## Tidsuttrykk\n\n*d'abord* (først), *ensuite / puis* (så), *après* (etterpå), *soudain / tout à coup* (plutselig), *enfin / finalement* (til slutt), *il y a deux ans* (for to år siden), *l'été dernier* (i fjor sommer), *pendant* (i løpet av).\n\n## Bygg opp en fortelling\n\n1. **Situasjonen** i imparfait: *C'était un samedi matin. Il faisait beau.*\n2. **Hendelsene** i passé composé: *Nous sommes partis à la plage. Tout à coup, mon frère est tombé.*\n3. **Følelser**: *J'avais peur. Nous étions très contents.*\n4. **Avslutning**: *Finalement, tout s'est bien passé.*\n\nEn nyttig tommelfingerregel: Kan du spørre «**og hva skjedde så?**» – bruk passé composé. Beskriver du **hvordan noe var** – bruk imparfait.",
   "flashcards": [
-    { "term": "imparfait", "def": "fortid for bakgrunn, vaner og tilstander" },
-    { "term": "passé composé", "def": "fortid for avsluttede handlinger og hendelser" },
-    { "term": "j'étais", "def": "jeg var (imparfait av être)" },
-    { "term": "il faisait froid", "def": "det var kaldt" },
-    { "term": "il pleuvait", "def": "det regnet" },
-    { "term": "Elle est partie.", "def": "Hun dro. (samsvar med être)" },
-    { "term": "Je me suis levé(e).", "def": "Jeg sto opp. (pronominale verb bruker être)" },
-    { "term": "fait / pris / vu", "def": "partisipp av faire, prendre, voir" },
-    { "term": "eu / été", "def": "partisipp av avoir og être" },
-    { "term": "soudain / tout à coup", "def": "plutselig" },
-    { "term": "d'abord", "def": "først" },
-    { "term": "finalement", "def": "til slutt" },
-    { "term": "il y a deux ans", "def": "for to år siden" },
-    { "term": "l'été dernier", "def": "i fjor sommer" },
-    { "term": "J'avais peur.", "def": "Jeg var redd." }
+    {
+      "term": "imparfait",
+      "def": "fortid for bakgrunn, vaner og tilstander"
+    },
+    {
+      "term": "passé composé",
+      "def": "fortid for avsluttede handlinger og hendelser"
+    },
+    {
+      "term": "j'étais",
+      "def": "jeg var (imparfait av être)"
+    },
+    {
+      "term": "il faisait froid",
+      "def": "det var kaldt"
+    },
+    {
+      "term": "il pleuvait",
+      "def": "det regnet"
+    },
+    {
+      "term": "Elle est partie.",
+      "def": "Hun dro. (samsvar med être)"
+    },
+    {
+      "term": "Je me suis levé(e).",
+      "def": "Jeg sto opp. (pronominale verb bruker être)"
+    },
+    {
+      "term": "fait / pris / vu",
+      "def": "partisipp av faire, prendre, voir"
+    },
+    {
+      "term": "eu / été",
+      "def": "partisipp av avoir og être"
+    },
+    {
+      "term": "soudain / tout à coup",
+      "def": "plutselig"
+    },
+    {
+      "term": "d'abord",
+      "def": "først"
+    },
+    {
+      "term": "finalement",
+      "def": "til slutt"
+    },
+    {
+      "term": "il y a deux ans",
+      "def": "for to år siden"
+    },
+    {
+      "term": "l'été dernier",
+      "def": "i fjor sommer"
+    },
+    {
+      "term": "J'avais peur.",
+      "def": "Jeg var redd."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken tid brukes om bakgrunn og vaner i fortiden?", "options": ["Passé composé", "Imparfait", "Futur simple", "Presens"], "correct": 1, "explain": "Imparfait beskriver hvordan det var." },
-    { "id": "q02", "text": "Hva er imparfait av «nous faisons» i jeg-form?", "options": ["je faisais", "je fais", "j'ai fait", "je ferai"], "correct": 0, "explain": "Stamme fais- + -ais." },
-    { "id": "q03", "text": "Velg riktig: «Elle est ___ à 8 heures.»", "options": ["parti", "partis", "partie", "parties"], "correct": 2, "explain": "Med être samsvarer partisippet: partie." },
-    { "id": "q04", "text": "Hvilket verb bruker être i passé composé?", "options": ["manger", "voir", "faire", "tomber"], "correct": 3, "explain": "Je suis tombé(e)." },
-    { "id": "q05", "text": "Velg riktig kombinasjon: «Il ___ quand je ___.» (Det regnet da jeg gikk ut.)", "options": ["pleuvait – suis sorti", "a plu – sortais", "pleut – sors", "pleuvra – sortirai"], "correct": 0, "explain": "Bakgrunn i imparfait, hendelse i passé composé." },
-    { "id": "q06", "text": "Hva er partisipp av «prendre»?", "options": ["prendu", "pris", "prené", "prit"], "correct": 1, "explain": "J'ai pris le train." },
-    { "id": "q07", "text": "Hva er imparfait av «être» i jeg-form?", "options": ["je suivais", "j'étaient", "j'étais", "je serai"], "correct": 2, "explain": "être er det eneste unntaket fra nous-regelen." },
-    { "id": "q08", "text": "Hva betyr «tout à coup»?", "options": ["til slutt", "først", "etterpå", "plutselig"], "correct": 3, "explain": "Også soudain betyr plutselig." },
-    { "id": "q09", "text": "Hvilket hjelpeverb bruker pronominale verb i passé composé?", "options": ["être", "avoir", "aller", "faire"], "correct": 0, "explain": "Je me suis levé(e)." },
-    { "id": "q10", "text": "Hva betyr «il y a deux ans»?", "options": ["om to år", "for to år siden", "i to år", "annethvert år"], "correct": 1, "explain": "il y a + tid = for … siden." }
+    {
+      "id": "q01",
+      "text": "Hvilken tid brukes om bakgrunn og vaner i fortiden?",
+      "options": [
+        "Passé composé",
+        "Imparfait",
+        "Futur simple",
+        "Presens"
+      ],
+      "correct": 1,
+      "explain": "Imparfait beskriver hvordan det var."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er imparfait av «nous faisons» i jeg-form?",
+      "options": [
+        "je faisais",
+        "je fais",
+        "j'ai fait",
+        "je ferai"
+      ],
+      "correct": 0,
+      "explain": "Stamme fais- + -ais."
+    },
+    {
+      "id": "q03",
+      "text": "Velg riktig: «Elle est ___ à 8 heures.»",
+      "options": [
+        "parti",
+        "partis",
+        "partie",
+        "parties"
+      ],
+      "correct": 2,
+      "explain": "Med être samsvarer partisippet: partie."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket verb bruker être i passé composé?",
+      "options": [
+        "manger",
+        "voir",
+        "faire",
+        "tomber"
+      ],
+      "correct": 3,
+      "explain": "Je suis tombé(e)."
+    },
+    {
+      "id": "q05",
+      "text": "Velg riktig kombinasjon: «Il ___ quand je ___.» (Det regnet da jeg gikk ut.)",
+      "options": [
+        "pleuvait – suis sorti",
+        "a plu – sortais",
+        "pleut – sors",
+        "pleuvra – sortirai"
+      ],
+      "correct": 0,
+      "explain": "Bakgrunn i imparfait, hendelse i passé composé."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er partisipp av «prendre»?",
+      "options": [
+        "prendu",
+        "pris",
+        "prené",
+        "prit"
+      ],
+      "correct": 1,
+      "explain": "J'ai pris le train."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er imparfait av «être» i jeg-form?",
+      "options": [
+        "je suivais",
+        "j'étaient",
+        "j'étais",
+        "je serai"
+      ],
+      "correct": 2,
+      "explain": "être er det eneste unntaket fra nous-regelen."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr «tout à coup»?",
+      "options": [
+        "til slutt",
+        "først",
+        "etterpå",
+        "plutselig"
+      ],
+      "correct": 3,
+      "explain": "Også soudain betyr plutselig."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket hjelpeverb bruker pronominale verb i passé composé?",
+      "options": [
+        "être",
+        "avoir",
+        "aller",
+        "faire"
+      ],
+      "correct": 0,
+      "explain": "Je me suis levé(e)."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «il y a deux ans»?",
+      "options": [
+        "om to år",
+        "for to år siden",
+        "i to år",
+        "annethvert år"
+      ],
+      "correct": 1,
+      "explain": "il y a + tid = for … siden."
+    }
   ],
   "mindmap": {
     "label": "Fortelle om opplevelser",
     "children": [
-      { "label": "Imparfait", "children": [
-        { "label": "Bakgrunn og vaner" },
-        { "label": "nous-stamme + -ais" },
-        { "label": "j'étais" }
-      ] },
-      { "label": "Passé composé", "children": [
-        { "label": "avoir + partisipp" },
-        { "label": "être + partisipp" },
-        { "label": "Samsvar" }
-      ] },
-      { "label": "Partisipper", "children": [
-        { "label": "fait, pris, vu" },
-        { "label": "eu, été" }
-      ] },
-      { "label": "Tidsuttrykk", "children": [
-        { "label": "d'abord, ensuite" },
-        { "label": "soudain" },
-        { "label": "finalement" }
-      ] },
-      { "label": "Fortellingen", "children": [
-        { "label": "Situasjon" },
-        { "label": "Hendelser" },
-        { "label": "Følelser og slutt" }
-      ] }
+      {
+        "label": "Imparfait",
+        "children": [
+          {
+            "label": "Bakgrunn og vaner"
+          },
+          {
+            "label": "nous-stamme + -ais"
+          },
+          {
+            "label": "j'étais"
+          }
+        ]
+      },
+      {
+        "label": "Passé composé",
+        "children": [
+          {
+            "label": "avoir + partisipp"
+          },
+          {
+            "label": "être + partisipp"
+          },
+          {
+            "label": "Samsvar"
+          }
+        ]
+      },
+      {
+        "label": "Partisipper",
+        "children": [
+          {
+            "label": "fait, pris, vu"
+          },
+          {
+            "label": "eu, été"
+          }
+        ]
+      },
+      {
+        "label": "Tidsuttrykk",
+        "children": [
+          {
+            "label": "d'abord, ensuite"
+          },
+          {
+            "label": "soudain"
+          },
+          {
+            "label": "finalement"
+          }
+        ]
+      },
+      {
+        "label": "Fortellingen",
+        "children": [
+          {
+            "label": "Situasjon"
+          },
+          {
+            "label": "Hendelser"
+          },
+          {
+            "label": "Følelser og slutt"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "«aller» bruker être i passé composé.", "correct": true, "explain": "Je suis allé(e)." },
-      { "id": "m02", "type": "sant-usant", "text": "Imparfait brukes om en plutselig hendelse som avbryter noe.", "correct": false, "explain": "Den plutselige hendelsen står i passé composé." },
-      { "id": "m03", "type": "sant-usant", "text": "«Ils sont partis» viser samsvar i flertall.", "correct": true, "explain": "Partisippet får -s i flertall." },
-      { "id": "m04", "type": "sant-usant", "text": "Partisippet av «voir» er «voiré».", "correct": false, "explain": "Partisippet er vu." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Quand j'étais petit, j'allais chez ma grand-mère»?", "options": ["Da jeg var liten, pleide jeg å dra til bestemor.", "Jeg skal dra til bestemor.", "Jeg dro til bestemor i går.", "Bestemor var liten."], "correct": 0, "explain": "Imparfait uttrykker vaner." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er partisipp av «avoir»?", "options": ["avé", "avu", "eu", "été"], "correct": 2, "explain": "J'ai eu de la chance." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan sier du «i fjor sommer»?", "options": ["l'été prochain", "l'été dernier", "cet été", "en été"], "correct": 1, "explain": "dernier = forrige." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "«aller» bruker être i passé composé.",
+        "correct": true,
+        "explain": "Je suis allé(e)."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Imparfait brukes om en plutselig hendelse som avbryter noe.",
+        "correct": false,
+        "explain": "Den plutselige hendelsen står i passé composé."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«Ils sont partis» viser samsvar i flertall.",
+        "correct": true,
+        "explain": "Partisippet får -s i flertall."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Partisippet av «voir» er «voiré».",
+        "correct": false,
+        "explain": "Partisippet er vu."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Quand j'étais petit, j'allais chez ma grand-mère»?",
+        "options": [
+          "Da jeg var liten, pleide jeg å dra til bestemor.",
+          "Jeg skal dra til bestemor.",
+          "Jeg dro til bestemor i går.",
+          "Bestemor var liten."
+        ],
+        "correct": 0,
+        "explain": "Imparfait uttrykker vaner."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er partisipp av «avoir»?",
+        "options": [
+          "avé",
+          "avu",
+          "eu",
+          "été"
+        ],
+        "correct": 2,
+        "explain": "J'ai eu de la chance."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan sier du «i fjor sommer»?",
+        "options": [
+          "l'été prochain",
+          "l'été dernier",
+          "cet été",
+          "en été"
+        ],
+        "correct": 1,
+        "explain": "dernier = forrige."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen mellom imparfait og passé composé ved å beskrive hva hver tid bidrar med når man forteller en historie.",
+        "fasit": "Imparfait beskriver bakgrunnen eller hvordan noe var. Passé composé forteller om avsluttede handlinger og hendelser som skjedde.",
+        "kriterier": [
+          "Forklarer at imparfait beskriver bakgrunn, situasjon, vane eller tilstand.",
+          "Forklarer at passé composé brukes om avsluttede handlinger eller hendelser."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Du skal lage imparfait av «finir». Utgangspunktet er «nous finissons». Forklar hvordan du finner stammen og hvilken form «je» får.",
+        "fasit": "Jeg tar stammen «finiss-» fra «nous finissons» og legger til endelsen «-ais». Formen blir «je finissais».",
+        "kriterier": [
+          "Finner stammen «finiss-» fra nous-formen.",
+          "Bruker endelsen «-ais» og får «je finissais»."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign passé composé av «manger» og «partir» med subjektet «elle». Skriv én setning med hvert verb, og forklar kort hvorfor hjelpeverbene er ulike.",
+        "fasit": "Elle a mangé. Elle est partie. «Manger» bruker avoir, mens «partir» bruker être.",
+        "kriterier": [
+          "Bruker avoir i passé composé av «manger».",
+          "Bruker être i passé composé av «partir» og forklarer at verbet hører til gruppen som bruker être."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvorfor partisippet har ulik ending i «Elle est partie» og «Elles sont parties».",
+        "fasit": "Med être samsvarer partisippet med subjektet. «Elle» er entall femininum, mens «elles» er flertall femininum, derfor får partisippet ulik ending.",
+        "kriterier": [
+          "Forklarer at partisippet samsvarer med subjektet når hjelpeverbet er être.",
+          "Knytter endingene til både kjønn og tall i eksemplene."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Skriv på fransk: «Det regnet. Plutselig falt hun.» Bruk riktig fortidsform i begge setningene.",
+        "fasit": "Il pleuvait. Soudain, elle est tombée.",
+        "kriterier": [
+          "Bruker imparfait for bakgrunnen: «Il pleuvait».",
+          "Bruker passé composé for hendelsen og får samsvar i «elle est tombée»."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Skriv på fransk i riktig rekkefølge: «Først dro de. Så så de en film. Til slutt gikk alt bra.» Bruk «elles» om personene.",
+        "fasit": "D'abord, elles sont parties. Ensuite, elles ont vu un film. Finalement, tout s'est bien passé.",
+        "kriterier": [
+          "Bruker tidsuttrykk som viser rekkefølgen: først, så og til slutt.",
+          "Bruker riktig passé composé med être for «partir» og avoir for «voir»."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Skriv passé composé av «faire» med «je» og av «voir» med «nous».",
+        "fasit": "J'ai fait. Nous avons vu.",
+        "kriterier": [
+          "Bruker hjelpeverbet avoir i begge formene.",
+          "Skriver partisippene «fait» og «vu» riktig."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skriv på fransk: «Jeg var redd. Til slutt gikk alt bra.» Bruk passende fortidsformer.",
+        "fasit": "J'avais peur. Finalement, tout s'est bien passé.",
+        "kriterier": [
+          "Bruker imparfait i «J'avais peur» for en tilstand eller følelse.",
+          "Bruker passé composé i «tout s'est bien passé» og et uttrykk som betyr «til slutt»."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

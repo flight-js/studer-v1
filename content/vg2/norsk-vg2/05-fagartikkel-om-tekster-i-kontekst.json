@@ -4,78 +4,425 @@
   "trinnId": "vg2",
   "name": "Fagartikkel om tekster i kontekst",
   "intro": "Hvordan du skriver en fagartikkel som gjør rede for og drøfter tekster i kontekst – litteraturhistorisk, biografisk og samfunnsmessig – med gode problemstillinger, sitater, sammenligning og revisjon etter tilbakemeldinger.",
-  "kompetansemaal": [5, 6],
+  "kompetansemaal": [
+    5,
+    6
+  ],
   "sammendrag": "## Tekster i kontekst\n\nÅ lese en tekst **i kontekst** betyr å se den i lys av **tiden**, **samfunnet** og **ideene** den ble skrevet i. Tre vanlige tilnærminger:\n\n- **Litteraturhistorisk kontekst**: Hvilken **periode** hører teksten til, og hvilke **trekk** fra perioden finner du? (For eksempel romantikkens besjelede natur.)\n- **Biografisk kontekst**: Hva i **forfatterens liv** kan kaste lys over teksten? Vær forsiktig – teksten og forfatteren er ikke det samme.\n- **Samfunnsmessig kontekst**: Hvilke **samfunnsforhold**, **konflikter** og **verdier** preget tiden?\n\n## Problemstillingen\n\nEn god fagartikkel har en **tydelig problemstilling** som gir retning:\n\n- *Hvordan framstilles naturen i Wergelands «Til min Gyldenlak», og hva sier det om romantikkens menneskesyn?*\n- *Hvordan skildres æresbegrepet i Njåls saga sammenlignet med en nyere krimroman?*\n\nUnngå problemstillinger som bare kan besvares med ja eller nei, eller som er så brede at du ikke rekker å gå i dybden.\n\n## Oppbygning\n\n1. **Tittel** som vekker interesse.\n2. **Innledning**: Presenter tekstene (forfatter, tittel, år, sjanger), gi kort bakgrunn og legg fram **problemstillingen**.\n3. **Hoveddel**: **Gjør rede for** konteksten og tekstens innhold og virkemidler, og **drøft** – tolk, sammenlign og vurder. Bruk **mellomtitler** og **avsnitt** med én hovedtanke.\n4. **Avslutning**: Oppsummer og svar på problemstillingen i en **konklusjon**.\n\n## Sitater og kildebruk\n\n- Bruk **korte sitater** som **belegg** for tolkningen – og **kommenter** dem. Et sitat forklarer ikke seg selv.\n- Oppgi **kilder** for opplysninger om kontekst og forfatter, med **kildehenvisninger** og **litteraturliste**.\n- Skill tydelig mellom **egne tolkninger** og andres.\n\n## Sammenligning\n\nNår du sammenligner tekster fra ulike tider, kan du bruke en **punkt-for-punkt**-struktur (samme aspekt i begge tekstene i hvert avsnitt) eller en **tekst-for-tekst**-struktur. Punkt-for-punkt gir ofte best **drøfting**. Bruk **tekstbindere** som *derimot*, *på samme måte*, *i motsetning til* og *likevel*.\n\n## Revisjon etter tilbakemeldinger\n\nNår du får **tilbakemelding**, lag en plan:\n\n- Er **problemstillingen** tydelig og besvart?\n- Er det god balanse mellom **redegjørelse** og **drøfting**?\n- Er **sitatene** kommentert?\n- Er **fagbegrepene** brukt riktig?\n- Er språket **presist**, med god **tekstbinding** og riktig **tegnsetting**?\n\nHold oversikt over dine **typiske feil** og sjekk dem hver gang. Å utvikle teksten ut fra kunnskap om **språk**, **tekst** og **sjanger** er målet – ikke bare å rette småfeil.",
   "flashcards": [
-    { "term": "Kontekst", "def": "Tiden, samfunnet og ideene en tekst ble skrevet i." },
-    { "term": "Litteraturhistorisk kontekst", "def": "Perioden teksten hører til og trekk fra den." },
-    { "term": "Biografisk kontekst", "def": "Forhold i forfatterens liv som kan kaste lys over teksten." },
-    { "term": "Samfunnsmessig kontekst", "def": "Samfunnsforhold, konflikter og verdier i tiden." },
-    { "term": "Problemstilling", "def": "Spørsmålet fagartikkelen skal besvare." },
-    { "term": "Gjøre rede for", "def": "Forklare fakta og bakgrunn ryddig." },
-    { "term": "Drøfte", "def": "Tolke, sammenligne og vurdere fra flere sider." },
-    { "term": "Belegg", "def": "Sitat eller eksempel som støtter en tolkning." },
-    { "term": "Kommentere sitater", "def": "Å forklare hva sitatet viser – det forklarer ikke seg selv." },
-    { "term": "Punkt-for-punkt", "def": "Sammenligningsstruktur der samme aspekt drøftes i begge tekstene i hvert avsnitt." },
-    { "term": "Tekst-for-tekst", "def": "Sammenligningsstruktur der én tekst behandles om gangen." },
-    { "term": "Tekstbindere for sammenligning", "def": "derimot, på samme måte, i motsetning til, likevel" },
-    { "term": "Konklusjon", "def": "Svar på problemstillingen i avslutningen." },
-    { "term": "Revisjon", "def": "Å bearbeide teksten ut fra tilbakemeldinger og kriterier." },
-    { "term": "Typiske feil", "def": "Egne gjentatte feil som det lønner seg å holde oversikt over." }
+    {
+      "term": "Kontekst",
+      "def": "Tiden, samfunnet og ideene en tekst ble skrevet i."
+    },
+    {
+      "term": "Litteraturhistorisk kontekst",
+      "def": "Perioden teksten hører til og trekk fra den."
+    },
+    {
+      "term": "Biografisk kontekst",
+      "def": "Forhold i forfatterens liv som kan kaste lys over teksten."
+    },
+    {
+      "term": "Samfunnsmessig kontekst",
+      "def": "Samfunnsforhold, konflikter og verdier i tiden."
+    },
+    {
+      "term": "Problemstilling",
+      "def": "Spørsmålet fagartikkelen skal besvare."
+    },
+    {
+      "term": "Gjøre rede for",
+      "def": "Forklare fakta og bakgrunn ryddig."
+    },
+    {
+      "term": "Drøfte",
+      "def": "Tolke, sammenligne og vurdere fra flere sider."
+    },
+    {
+      "term": "Belegg",
+      "def": "Sitat eller eksempel som støtter en tolkning."
+    },
+    {
+      "term": "Kommentere sitater",
+      "def": "Å forklare hva sitatet viser – det forklarer ikke seg selv."
+    },
+    {
+      "term": "Punkt-for-punkt",
+      "def": "Sammenligningsstruktur der samme aspekt drøftes i begge tekstene i hvert avsnitt."
+    },
+    {
+      "term": "Tekst-for-tekst",
+      "def": "Sammenligningsstruktur der én tekst behandles om gangen."
+    },
+    {
+      "term": "Tekstbindere for sammenligning",
+      "def": "derimot, på samme måte, i motsetning til, likevel"
+    },
+    {
+      "term": "Konklusjon",
+      "def": "Svar på problemstillingen i avslutningen."
+    },
+    {
+      "term": "Revisjon",
+      "def": "Å bearbeide teksten ut fra tilbakemeldinger og kriterier."
+    },
+    {
+      "term": "Typiske feil",
+      "def": "Egne gjentatte feil som det lønner seg å holde oversikt over."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr det å lese en tekst i kontekst?", "options": ["Å lese den høyt", "Å se den i lys av tiden, samfunnet og ideene den ble skrevet i", "Å bare lese sammendraget", "Å lese den flere ganger"], "correct": 1, "explain": "Konteksten kan forklare mye av teksten." },
-    { "id": "q02", "text": "Hvorfor må du være forsiktig med biografisk kontekst?", "options": ["Fordi teksten og forfatteren ikke er det samme", "Fordi forfatteres liv er hemmelige", "Fordi det er ulovlig", "Fordi det alltid er feil"], "correct": 0, "explain": "Et lyrisk jeg eller en forteller er ikke nødvendigvis forfatteren." },
-    { "id": "q03", "text": "Hva kjennetegner en god problemstilling?", "options": ["Den kan besvares med ja eller nei", "Den er så bred som mulig", "Den gir retning og kan besvares i dybden", "Den har ingen spørsmål"], "correct": 2, "explain": "Den styrer hele artikkelen." },
-    { "id": "q04", "text": "Hva bør du gjøre etter et sitat?", "options": ["Gå videre til neste sitat", "Avslutte avsnittet", "Oversette det", "Kommentere hva sitatet viser"], "correct": 3, "explain": "Et sitat forklarer ikke seg selv." },
-    { "id": "q05", "text": "Hvilken sammenligningsstruktur gir ofte best drøfting?", "options": ["Punkt-for-punkt", "Tekst-for-tekst", "Tilfeldig rekkefølge", "Bare én tekst"], "correct": 0, "explain": "Da sammenlignes tekstene direkte i hvert avsnitt." },
-    { "id": "q06", "text": "Hvor hører problemstillingen hjemme?", "options": ["I avslutningen", "I innledningen", "I litteraturlisten", "I tittelen alene"], "correct": 1, "explain": "Avslutningen svarer på den." },
-    { "id": "q07", "text": "Hva er forskjellen på å gjøre rede for og å drøfte?", "options": ["Det er det samme", "Å drøfte er å gjenfortelle", "Å gjøre rede for er å forklare, å drøfte er å tolke og vurdere fra flere sider", "Å gjøre rede for er å gi sin mening"], "correct": 2, "explain": "En god fagartikkel gjør begge deler." },
-    { "id": "q08", "text": "Hvilket tekstbindeord viser motsetning i en sammenligning?", "options": ["dessuten", "først", "på samme måte", "derimot"], "correct": 3, "explain": "Derimot og i motsetning til viser forskjell." },
-    { "id": "q09", "text": "Hva er et godt spørsmål når du reviderer fagartikkelen?", "options": ["Er det god balanse mellom redegjørelse og drøfting?", "Er teksten lang nok?", "Er skrifttypen fin?", "Har jeg mange nok sitater?"], "correct": 0, "explain": "Drøftingen er ofte det som løfter teksten." },
-    { "id": "q10", "text": "Hva hører med i litteraturhistorisk kontekst?", "options": ["Forfatterens hobbyer", "Perioden teksten hører til og trekk fra den", "Hvor mange som har lest teksten", "Prisen på boka"], "correct": 1, "explain": "For eksempel trekk fra romantikken." }
+    {
+      "id": "q01",
+      "text": "Hva betyr det å lese en tekst i kontekst?",
+      "options": [
+        "Å lese den høyt",
+        "Å se den i lys av tiden, samfunnet og ideene den ble skrevet i",
+        "Å bare lese sammendraget",
+        "Å lese den flere ganger"
+      ],
+      "correct": 1,
+      "explain": "Konteksten kan forklare mye av teksten."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor må du være forsiktig med biografisk kontekst?",
+      "options": [
+        "Fordi teksten og forfatteren ikke er det samme",
+        "Fordi forfatteres liv er hemmelige",
+        "Fordi det er ulovlig",
+        "Fordi det alltid er feil"
+      ],
+      "correct": 0,
+      "explain": "Et lyrisk jeg eller en forteller er ikke nødvendigvis forfatteren."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kjennetegner en god problemstilling?",
+      "options": [
+        "Den kan besvares med ja eller nei",
+        "Den er så bred som mulig",
+        "Den gir retning og kan besvares i dybden",
+        "Den har ingen spørsmål"
+      ],
+      "correct": 2,
+      "explain": "Den styrer hele artikkelen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva bør du gjøre etter et sitat?",
+      "options": [
+        "Gå videre til neste sitat",
+        "Avslutte avsnittet",
+        "Oversette det",
+        "Kommentere hva sitatet viser"
+      ],
+      "correct": 3,
+      "explain": "Et sitat forklarer ikke seg selv."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken sammenligningsstruktur gir ofte best drøfting?",
+      "options": [
+        "Punkt-for-punkt",
+        "Tekst-for-tekst",
+        "Tilfeldig rekkefølge",
+        "Bare én tekst"
+      ],
+      "correct": 0,
+      "explain": "Da sammenlignes tekstene direkte i hvert avsnitt."
+    },
+    {
+      "id": "q06",
+      "text": "Hvor hører problemstillingen hjemme?",
+      "options": [
+        "I avslutningen",
+        "I innledningen",
+        "I litteraturlisten",
+        "I tittelen alene"
+      ],
+      "correct": 1,
+      "explain": "Avslutningen svarer på den."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er forskjellen på å gjøre rede for og å drøfte?",
+      "options": [
+        "Det er det samme",
+        "Å drøfte er å gjenfortelle",
+        "Å gjøre rede for er å forklare, å drøfte er å tolke og vurdere fra flere sider",
+        "Å gjøre rede for er å gi sin mening"
+      ],
+      "correct": 2,
+      "explain": "En god fagartikkel gjør begge deler."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket tekstbindeord viser motsetning i en sammenligning?",
+      "options": [
+        "dessuten",
+        "først",
+        "på samme måte",
+        "derimot"
+      ],
+      "correct": 3,
+      "explain": "Derimot og i motsetning til viser forskjell."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et godt spørsmål når du reviderer fagartikkelen?",
+      "options": [
+        "Er det god balanse mellom redegjørelse og drøfting?",
+        "Er teksten lang nok?",
+        "Er skrifttypen fin?",
+        "Har jeg mange nok sitater?"
+      ],
+      "correct": 0,
+      "explain": "Drøftingen er ofte det som løfter teksten."
+    },
+    {
+      "id": "q10",
+      "text": "Hva hører med i litteraturhistorisk kontekst?",
+      "options": [
+        "Forfatterens hobbyer",
+        "Perioden teksten hører til og trekk fra den",
+        "Hvor mange som har lest teksten",
+        "Prisen på boka"
+      ],
+      "correct": 1,
+      "explain": "For eksempel trekk fra romantikken."
+    }
   ],
   "mindmap": {
     "label": "Fagartikkel om tekster",
     "children": [
-      { "label": "Kontekst", "children": [
-        { "label": "Litteraturhistorisk" },
-        { "label": "Biografisk" },
-        { "label": "Samfunnsmessig" }
-      ] },
-      { "label": "Problemstilling", "children": [
-        { "label": "Tydelig" },
-        { "label": "Gir retning" }
-      ] },
-      { "label": "Oppbygning", "children": [
-        { "label": "Innledning" },
-        { "label": "Redegjøre og drøfte" },
-        { "label": "Konklusjon" }
-      ] },
-      { "label": "Belegg", "children": [
-        { "label": "Korte sitater" },
-        { "label": "Kommentere" },
-        { "label": "Kilder" }
-      ] },
-      { "label": "Sammenligning og revisjon", "children": [
-        { "label": "Punkt-for-punkt" },
-        { "label": "Tekstbindere" },
-        { "label": "Tilbakemeldinger" }
-      ] }
+      {
+        "label": "Kontekst",
+        "children": [
+          {
+            "label": "Litteraturhistorisk"
+          },
+          {
+            "label": "Biografisk"
+          },
+          {
+            "label": "Samfunnsmessig"
+          }
+        ]
+      },
+      {
+        "label": "Problemstilling",
+        "children": [
+          {
+            "label": "Tydelig"
+          },
+          {
+            "label": "Gir retning"
+          }
+        ]
+      },
+      {
+        "label": "Oppbygning",
+        "children": [
+          {
+            "label": "Innledning"
+          },
+          {
+            "label": "Redegjøre og drøfte"
+          },
+          {
+            "label": "Konklusjon"
+          }
+        ]
+      },
+      {
+        "label": "Belegg",
+        "children": [
+          {
+            "label": "Korte sitater"
+          },
+          {
+            "label": "Kommentere"
+          },
+          {
+            "label": "Kilder"
+          }
+        ]
+      },
+      {
+        "label": "Sammenligning og revisjon",
+        "children": [
+          {
+            "label": "Punkt-for-punkt"
+          },
+          {
+            "label": "Tekstbindere"
+          },
+          {
+            "label": "Tilbakemeldinger"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Opplysninger om kontekst og forfatter bør ha kildehenvisning.", "correct": true, "explain": "Etterrettelig kildebruk gjelder også fagartikler om litteratur." },
-      { "id": "m02", "type": "sant-usant", "text": "En fagartikkel om tekster bør bare gjenfortelle handlingen.", "correct": false, "explain": "Den skal gjøre rede for og drøfte, ikke bare gjenfortelle." },
-      { "id": "m03", "type": "sant-usant", "text": "Mellomtitler kan gjøre en fagartikkel mer oversiktlig.", "correct": true, "explain": "De viser strukturen i drøftingen." },
-      { "id": "m04", "type": "sant-usant", "text": "Revisjon handler bare om å rette skrivefeil.", "correct": false, "explain": "Revisjon handler også om innhold, struktur og drøfting." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er et belegg i en litterær tolkning?", "options": ["Et sitat eller eksempel som støtter tolkningen", "En kilde på nett", "En overskrift", "En konklusjon"], "correct": 0, "explain": "Belegg gjør tolkningen troverdig." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken problemstilling er best?", "options": ["Er Njåls saga bra?", "Hvordan skildres æresbegrepet i Njåls saga sammenlignet med en nyere krimroman?", "Hva er litteratur?", "Hvem var Njål?"], "correct": 1, "explain": "Den er avgrenset og legger opp til drøfting." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor lønner det seg å ha oversikt over egne typiske feil?", "options": ["For å kunne skjule dem", "For å skrive lengre", "For å sjekke dem systematisk hver gang", "For å få flere tilbakemeldinger"], "correct": 2, "explain": "Da blir du bedre over tid." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Opplysninger om kontekst og forfatter bør ha kildehenvisning.",
+        "correct": true,
+        "explain": "Etterrettelig kildebruk gjelder også fagartikler om litteratur."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En fagartikkel om tekster bør bare gjenfortelle handlingen.",
+        "correct": false,
+        "explain": "Den skal gjøre rede for og drøfte, ikke bare gjenfortelle."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mellomtitler kan gjøre en fagartikkel mer oversiktlig.",
+        "correct": true,
+        "explain": "De viser strukturen i drøftingen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Revisjon handler bare om å rette skrivefeil.",
+        "correct": false,
+        "explain": "Revisjon handler også om innhold, struktur og drøfting."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et belegg i en litterær tolkning?",
+        "options": [
+          "Et sitat eller eksempel som støtter tolkningen",
+          "En kilde på nett",
+          "En overskrift",
+          "En konklusjon"
+        ],
+        "correct": 0,
+        "explain": "Belegg gjør tolkningen troverdig."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken problemstilling er best?",
+        "options": [
+          "Er Njåls saga bra?",
+          "Hvordan skildres æresbegrepet i Njåls saga sammenlignet med en nyere krimroman?",
+          "Hva er litteratur?",
+          "Hvem var Njål?"
+        ],
+        "correct": 1,
+        "explain": "Den er avgrenset og legger opp til drøfting."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor lønner det seg å ha oversikt over egne typiske feil?",
+        "options": [
+          "For å kunne skjule dem",
+          "For å skrive lengre",
+          "For å sjekke dem systematisk hver gang",
+          "For å få flere tilbakemeldinger"
+        ],
+        "correct": 2,
+        "explain": "Da blir du bedre over tid."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En analyse undersøker hvilke trekk fra perioden en tekst tilhører. En annen undersøker konflikter og verdier i samfunnet da teksten ble skrevet. Forklar hvilken type kontekst hver analyse bruker, og hva de undersøker.",
+        "fasit": "Den første bruker litteraturhistorisk kontekst og ser på perioden og trekk ved den. Den andre bruker samfunnsmessig kontekst og ser på samfunnsforhold, konflikter og verdier.",
+        "kriterier": [
+          "Skiller mellom litteraturhistorisk og samfunnsmessig kontekst.",
+          "Knytter den første til periode og periodetrekk, og den andre til samfunnsforhold, konflikter eller verdier."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En fagartikkel sammenligner to tekster. Forklar forskjellen på punkt-for-punkt-struktur og tekst-for-tekst-struktur.",
+        "fasit": "I punkt-for-punkt-struktur behandles det samme aspektet ved begge tekstene i hvert avsnitt. I tekst-for-tekst-struktur behandles én tekst om gangen.",
+        "kriterier": [
+          "Forklarer at punkt-for-punkt sammenligner samme aspekt i begge tekstene underveis.",
+          "Forklarer at tekst-for-tekst behandler tekstene hver for seg."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I en fagartikkel bruker en elev fakta om forfatterens liv og tiden teksten ble skrevet i, og trekker også egne tolkninger. Forklar hvordan eleven bør skille mellom fakta og egne tolkninger, og hvordan faktaopplysningene bør dokumenteres.",
+        "fasit": "Eleven bør gjøre det tydelig hva som er egne tolkninger, og hva som er opplysninger fra andre kilder. Fakta om forfatteren og tiden bør ha kildehenvisninger, og kildene bør stå i en litteraturliste.",
+        "kriterier": [
+          "Forklarer at egne tolkninger må skilles tydelig fra andres opplysninger.",
+          "Nevner kildehenvisninger og litteraturliste for faktaopplysninger."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hoveddelen i en fagartikkel har avsnitt med flere ulike hovedtanker, og ingen mellomtitler. Foreslå hvordan hoveddelen kan organiseres bedre.",
+        "fasit": "Hvert avsnitt bør samles om én hovedtanke. Mellomtitler kan brukes til å vise hva de ulike delene av hoveddelen handler om.",
+        "kriterier": [
+          "Foreslår at hvert avsnitt har én hovedtanke.",
+          "Foreslår mellomtitler som gjør inndelingen i hoveddelen tydeligere."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En fagartikkel avsluttes med flere bakgrunnsfakta, men svarer ikke på problemstillingen. Forklar hva avslutningen bør gjøre i stedet.",
+        "fasit": "Avslutningen bør oppsummere hovedpoengene og gi et svar på problemstillingen. Dette svaret er fagartikkelens konklusjon.",
+        "kriterier": [
+          "Forklarer at avslutningen skal svare på problemstillingen.",
+          "Nevner at den bør oppsummere hovedpoengene eller gi en konklusjon."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Én tekst framstiller ære som viktig, mens en annen utfordrer betydningen av ære. Skriv en setning som viser kontrasten mellom framstillingene, og bruk en passende tekstbinder.",
+        "fasit": "Den første teksten framstiller ære som viktig, derimot utfordrer den andre teksten betydningen av ære.",
+        "kriterier": [
+          "Får fram at tekstene framstiller ære på ulike måter.",
+          "Bruker en passende tekstbinder for kontrast, for eksempel «derimot» eller «i motsetning til»."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev får tilbakemelding om at fagartikkelen inneholder mye bakgrunnsstoff, men lite drøfting av teksten. Forklar hvordan eleven kan bearbeide hoveddelen for å få bedre balanse.",
+        "fasit": "Eleven kan beholde bakgrunn som er relevant, men bør også tolke teksten og sammenligne eller vurdere ulike sider ved den. Drøftingen bør knyttes til problemstillingen.",
+        "kriterier": [
+          "Foreslår å supplere bakgrunnsstoffet med tolkning, sammenligning eller vurdering.",
+          "Knytter drøftingen til problemstillingen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En elev oppdager at den samme typen tegnsettingsfeil går igjen i flere fagartikler. Forklar hva slike gjentatte feil kan kalles, og hvordan eleven kan bruke oversikt over dem ved senere revisjon.",
+        "fasit": "Dette er typiske feil. Hvis eleven holder oversikt over dem, kan hen sjekke spesielt for disse feilene når en ny tekst skal revideres.",
+        "kriterier": [
+          "Forklarer at gjentatte feil er typiske feil.",
+          "Forklarer at oversikten kan brukes til å rette oppmerksomheten mot disse feilene ved senere revisjon."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

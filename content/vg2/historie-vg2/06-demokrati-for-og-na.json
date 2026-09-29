@@ -4,79 +4,426 @@
   "trinnId": "vg2",
   "name": "Demokrati i antikken og i vår tid",
   "intro": "Hvordan demokratiet i Athen fungerte – folkeforsamling, loddtrekning og ostrakisme – hvem som fikk delta og hvem som ble utestengt, og hvordan det kan sammenlignes med det representative demokratiet i vår tid.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Demokratiets opprinnelse\n\nOrdet **demokrati** kommer fra gresk *dēmos* (folk) og *kratos* (makt, styre). **Athen** innførte demokrati etter reformene til **Kleisthenes** i **508/507 f.Kr.** Demokratiet var på sitt mest utviklede i tiden til **Perikles** på **400-tallet f.Kr.**\n\n## Hvordan styret fungerte i Athen\n\n- **Folkeforsamlingen** (*ekklesia*): Alle **borgere** kunne møte, tale og stemme over lover, krig og fred. Dette var **direkte demokrati**.\n- **Rådet** (*boulé*): **500** borgere forberedte sakene til folkeforsamlingen. De ble valgt ved **loddtrekning**.\n- **Domstolene**: Store juryer av **loddtrukne** borgere avgjorde saker.\n- **Loddtrekning** ble sett på som **demokratisk**, fordi alle borgere hadde **lik sjanse** til å få verv. Noen få embeter, som hærførere, ble **valgt**.\n- **Ostrakisme**: En gang i året kunne borgerne stemme over om noen skulle **forvises** i ti år – ved å skrive navnet på **potteskår**. Det skulle hindre at noen fikk for mye makt.\n\n## Hvem fikk delta?\n\nBare **frie menn** over en viss alder med **athenske foreldre** var **borgere** med politiske rettigheter – et **mindretall** av befolkningen. **Kvinner**, **slaver** og **metøker** (fremmede som bodde i byen) var **utestengt**. Demokratiet i Athen bygde dessuten på at **slaver** utførte mye av arbeidet.\n\n## Demokratiet i vår tid\n\nI Norge og andre moderne demokratier har vi **representativt demokrati**: Innbyggerne **velger representanter** som styrer på deres vegne. Viktige kjennetegn:\n\n- **Allmenn stemmerett** – i Norge fikk alle menn stemmerett i **1898** og kvinner i **1913**. Stemmerettsalderen er **18 år**.\n- **Frie og hemmelige valg** og flere **partier**\n- **Maktfordeling** mellom lovgivende, utøvende og dømmende makt\n- **Rettsstat** og **menneskerettigheter**, også for **minoriteter**\n- **Ytringsfrihet** og **frie medier**\n\nVi har også innslag av **direkte demokrati**, som **folkeavstemninger** – for eksempel om EU i **1972** og **1994** – og deltakelse gjennom **organisasjoner**, **aksjoner** og **sosiale medier**.\n\n## Sammenligning\n\n| | Athen | Norge i dag |\n| --- | --- | --- |\n| Form | Direkte | Representativt |\n| Hvem deltar | Frie menn med athenske foreldre | Alle voksne statsborgere |\n| Verv | Mest loddtrekning | Valg |\n| Omfang | Én bystat | En stor nasjonalstat |\n\n- I Athen kunne **hver borger** delta **direkte** og ofte – det var **mer deltakelse** for de få.\n- I dag har **langt flere** rettigheter, men den enkelte deltar mer **indirekte**.\n\nMange diskuterer i dag om vi kan lære noe av Athen, for eksempel ved å bruke **loddtrukne borgerpaneler** som gir råd i vanskelige saker.",
   "flashcards": [
-    { "term": "Demokrati", "def": "Folkestyre – av gresk dēmos (folk) og kratos (makt)." },
-    { "term": "Kleisthenes", "def": "Innførte demokratiske reformer i Athen i 508/507 f.Kr." },
-    { "term": "Perikles", "def": "Ledende politiker i Athens demokrati på 400-tallet f.Kr." },
-    { "term": "Ekklesia", "def": "Folkeforsamlingen i Athen." },
-    { "term": "Direkte demokrati", "def": "Borgerne stemmer selv over sakene." },
-    { "term": "Boulé", "def": "Rådet av 500 loddtrukne borgere som forberedte sakene." },
-    { "term": "Loddtrekning", "def": "Metode for å fordele verv slik at alle borgere hadde lik sjanse." },
-    { "term": "Ostrakisme", "def": "Avstemning med potteskår om å forvise noen i ti år." },
-    { "term": "Metøker", "def": "Fremmede som bodde i Athen uten politiske rettigheter." },
-    { "term": "Borgere i Athen", "def": "Frie menn med athenske foreldre – et mindretall av befolkningen." },
-    { "term": "Representativt demokrati", "def": "Innbyggerne velger representanter som styrer." },
-    { "term": "Allmenn stemmerett", "def": "I Norge for menn i 1898 og kvinner i 1913." },
-    { "term": "Folkeavstemning", "def": "Innslag av direkte demokrati, som EU-avstemningene i 1972 og 1994." },
-    { "term": "Rettsstat", "def": "Stat der myndighetene er bundet av lover." },
-    { "term": "Borgerpanel", "def": "Loddtrukne innbyggere som gir råd i politiske saker." }
+    {
+      "term": "Demokrati",
+      "def": "Folkestyre – av gresk dēmos (folk) og kratos (makt)."
+    },
+    {
+      "term": "Kleisthenes",
+      "def": "Innførte demokratiske reformer i Athen i 508/507 f.Kr."
+    },
+    {
+      "term": "Perikles",
+      "def": "Ledende politiker i Athens demokrati på 400-tallet f.Kr."
+    },
+    {
+      "term": "Ekklesia",
+      "def": "Folkeforsamlingen i Athen."
+    },
+    {
+      "term": "Direkte demokrati",
+      "def": "Borgerne stemmer selv over sakene."
+    },
+    {
+      "term": "Boulé",
+      "def": "Rådet av 500 loddtrukne borgere som forberedte sakene."
+    },
+    {
+      "term": "Loddtrekning",
+      "def": "Metode for å fordele verv slik at alle borgere hadde lik sjanse."
+    },
+    {
+      "term": "Ostrakisme",
+      "def": "Avstemning med potteskår om å forvise noen i ti år."
+    },
+    {
+      "term": "Metøker",
+      "def": "Fremmede som bodde i Athen uten politiske rettigheter."
+    },
+    {
+      "term": "Borgere i Athen",
+      "def": "Frie menn med athenske foreldre – et mindretall av befolkningen."
+    },
+    {
+      "term": "Representativt demokrati",
+      "def": "Innbyggerne velger representanter som styrer."
+    },
+    {
+      "term": "Allmenn stemmerett",
+      "def": "I Norge for menn i 1898 og kvinner i 1913."
+    },
+    {
+      "term": "Folkeavstemning",
+      "def": "Innslag av direkte demokrati, som EU-avstemningene i 1972 og 1994."
+    },
+    {
+      "term": "Rettsstat",
+      "def": "Stat der myndighetene er bundet av lover."
+    },
+    {
+      "term": "Borgerpanel",
+      "def": "Loddtrukne innbyggere som gir råd i politiske saker."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr ordet demokrati?", "options": ["Kongestyre", "Folkestyre", "Prestestyre", "Rikmannsstyre"], "correct": 1, "explain": "dēmos = folk, kratos = makt." },
-    { "id": "q02", "text": "Hvem kunne delta i folkeforsamlingen i Athen?", "options": ["Frie menn med athenske foreldre", "Alle innbyggere", "Kvinner og menn", "Slaver og metøker"], "correct": 0, "explain": "Kvinner, slaver og metøker var utestengt." },
-    { "id": "q03", "text": "Hvordan ble de fleste verv fordelt i Athen?", "options": ["Ved arv", "Ved kjøp", "Ved loddtrekning", "Ved kongens utnevnelse"], "correct": 2, "explain": "Loddtrekning ga alle borgere lik sjanse." },
-    { "id": "q04", "text": "Hva var ostrakisme?", "options": ["En type skatt", "En gudstjeneste", "Et valg av hærfører", "Avstemning om å forvise noen i ti år"], "correct": 3, "explain": "Navnet ble skrevet på potteskår." },
-    { "id": "q05", "text": "Hva kjennetegner representativt demokrati?", "options": ["Innbyggerne velger representanter som styrer på deres vegne", "Alle stemmer over alle saker", "Verv fordeles ved loddtrekning", "Kongen bestemmer"], "correct": 0, "explain": "Norge har representativt demokrati." },
-    { "id": "q06", "text": "Når fikk kvinner i Norge allmenn stemmerett?", "options": ["1898", "1913", "1814", "1945"], "correct": 1, "explain": "Menn fikk allmenn stemmerett i 1898." },
-    { "id": "q07", "text": "Hvilken reformator innførte demokrati i Athen i 508/507 f.Kr.?", "options": ["Perikles", "Sokrates", "Kleisthenes", "Aristoteles"], "correct": 2, "explain": "Perikles var ledende på 400-tallet f.Kr." },
-    { "id": "q08", "text": "Hvilket innslag av direkte demokrati finnes i Norge?", "options": ["Loddtrekning av stortingsrepresentanter", "Ostrakisme", "Folkeforsamling hver uke", "Folkeavstemninger, som om EU i 1972 og 1994"], "correct": 3, "explain": "Folkeavstemninger er sjeldne i Norge." },
-    { "id": "q09", "text": "Hvem utførte mye av arbeidet i Athen, slik at borgerne kunne delta i politikken?", "options": ["Slaver", "Kvinner alene", "Maskiner", "Soldater fra Sparta"], "correct": 0, "explain": "Demokratiet bygde på slavearbeid." },
-    { "id": "q10", "text": "Hva er en viktig forskjell mellom Athens demokrati og vårt?", "options": ["Athen hadde flere med rettigheter", "Langt flere har rettigheter i dag, men deltar mer indirekte", "Vi har ingen valg", "Athen hadde allmenn stemmerett"], "correct": 1, "explain": "I Athen deltok de få direkte og ofte." }
+    {
+      "id": "q01",
+      "text": "Hva betyr ordet demokrati?",
+      "options": [
+        "Kongestyre",
+        "Folkestyre",
+        "Prestestyre",
+        "Rikmannsstyre"
+      ],
+      "correct": 1,
+      "explain": "dēmos = folk, kratos = makt."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem kunne delta i folkeforsamlingen i Athen?",
+      "options": [
+        "Frie menn med athenske foreldre",
+        "Alle innbyggere",
+        "Kvinner og menn",
+        "Slaver og metøker"
+      ],
+      "correct": 0,
+      "explain": "Kvinner, slaver og metøker var utestengt."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan ble de fleste verv fordelt i Athen?",
+      "options": [
+        "Ved arv",
+        "Ved kjøp",
+        "Ved loddtrekning",
+        "Ved kongens utnevnelse"
+      ],
+      "correct": 2,
+      "explain": "Loddtrekning ga alle borgere lik sjanse."
+    },
+    {
+      "id": "q04",
+      "text": "Hva var ostrakisme?",
+      "options": [
+        "En type skatt",
+        "En gudstjeneste",
+        "Et valg av hærfører",
+        "Avstemning om å forvise noen i ti år"
+      ],
+      "correct": 3,
+      "explain": "Navnet ble skrevet på potteskår."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner representativt demokrati?",
+      "options": [
+        "Innbyggerne velger representanter som styrer på deres vegne",
+        "Alle stemmer over alle saker",
+        "Verv fordeles ved loddtrekning",
+        "Kongen bestemmer"
+      ],
+      "correct": 0,
+      "explain": "Norge har representativt demokrati."
+    },
+    {
+      "id": "q06",
+      "text": "Når fikk kvinner i Norge allmenn stemmerett?",
+      "options": [
+        "1898",
+        "1913",
+        "1814",
+        "1945"
+      ],
+      "correct": 1,
+      "explain": "Menn fikk allmenn stemmerett i 1898."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken reformator innførte demokrati i Athen i 508/507 f.Kr.?",
+      "options": [
+        "Perikles",
+        "Sokrates",
+        "Kleisthenes",
+        "Aristoteles"
+      ],
+      "correct": 2,
+      "explain": "Perikles var ledende på 400-tallet f.Kr."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket innslag av direkte demokrati finnes i Norge?",
+      "options": [
+        "Loddtrekning av stortingsrepresentanter",
+        "Ostrakisme",
+        "Folkeforsamling hver uke",
+        "Folkeavstemninger, som om EU i 1972 og 1994"
+      ],
+      "correct": 3,
+      "explain": "Folkeavstemninger er sjeldne i Norge."
+    },
+    {
+      "id": "q09",
+      "text": "Hvem utførte mye av arbeidet i Athen, slik at borgerne kunne delta i politikken?",
+      "options": [
+        "Slaver",
+        "Kvinner alene",
+        "Maskiner",
+        "Soldater fra Sparta"
+      ],
+      "correct": 0,
+      "explain": "Demokratiet bygde på slavearbeid."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en viktig forskjell mellom Athens demokrati og vårt?",
+      "options": [
+        "Athen hadde flere med rettigheter",
+        "Langt flere har rettigheter i dag, men deltar mer indirekte",
+        "Vi har ingen valg",
+        "Athen hadde allmenn stemmerett"
+      ],
+      "correct": 1,
+      "explain": "I Athen deltok de få direkte og ofte."
+    }
   ],
   "mindmap": {
     "label": "Demokrati før og nå",
     "children": [
-      { "label": "Athen", "children": [
-        { "label": "Kleisthenes 508/507 f.Kr." },
-        { "label": "Perikles" }
-      ] },
-      { "label": "Institusjoner", "children": [
-        { "label": "Ekklesia" },
-        { "label": "Boulé" },
-        { "label": "Loddtrekning" },
-        { "label": "Ostrakisme" }
-      ] },
-      { "label": "Hvem deltok?", "children": [
-        { "label": "Frie menn" },
-        { "label": "Ikke kvinner, slaver, metøker" }
-      ] },
-      { "label": "I dag", "children": [
-        { "label": "Representativt" },
-        { "label": "Allmenn stemmerett" },
-        { "label": "Rettsstat og menneskerettigheter" },
-        { "label": "Folkeavstemninger" }
-      ] },
-      { "label": "Sammenligning", "children": [
-        { "label": "Direkte vs. representativt" },
-        { "label": "Få vs. mange" },
-        { "label": "Borgerpaneler" }
-      ] }
+      {
+        "label": "Athen",
+        "children": [
+          {
+            "label": "Kleisthenes 508/507 f.Kr."
+          },
+          {
+            "label": "Perikles"
+          }
+        ]
+      },
+      {
+        "label": "Institusjoner",
+        "children": [
+          {
+            "label": "Ekklesia"
+          },
+          {
+            "label": "Boulé"
+          },
+          {
+            "label": "Loddtrekning"
+          },
+          {
+            "label": "Ostrakisme"
+          }
+        ]
+      },
+      {
+        "label": "Hvem deltok?",
+        "children": [
+          {
+            "label": "Frie menn"
+          },
+          {
+            "label": "Ikke kvinner, slaver, metøker"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Representativt"
+          },
+          {
+            "label": "Allmenn stemmerett"
+          },
+          {
+            "label": "Rettsstat og menneskerettigheter"
+          },
+          {
+            "label": "Folkeavstemninger"
+          }
+        ]
+      },
+      {
+        "label": "Sammenligning",
+        "children": [
+          {
+            "label": "Direkte vs. representativt"
+          },
+          {
+            "label": "Få vs. mange"
+          },
+          {
+            "label": "Borgerpaneler"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "I Athen ble loddtrekning sett på som demokratisk.", "correct": true, "explain": "Alle borgere hadde lik sjanse til å få verv." },
-      { "id": "m02", "type": "sant-usant", "text": "Kvinner hadde stemmerett i folkeforsamlingen i Athen.", "correct": false, "explain": "Kvinner var utestengt." },
-      { "id": "m03", "type": "sant-usant", "text": "Stemmerettsalderen i Norge er 18 år.", "correct": true, "explain": "Det har den vært siden 1978." },
-      { "id": "m04", "type": "sant-usant", "text": "Athens demokrati var et representativt demokrati.", "correct": false, "explain": "Det var et direkte demokrati." },
-      { "id": "m05", "type": "flervalg", "text": "Hvor mange medlemmer hadde rådet (boulé) i Athen?", "options": ["50", "500", "5000", "169"], "correct": 1, "explain": "De ble valgt ved loddtrekning." },
-      { "id": "m06", "type": "flervalg", "text": "Hva skrev borgerne på ved ostrakisme?", "options": ["Potteskår", "Papyrus", "Steintavler", "Pergament"], "correct": 0, "explain": "Ordet kommer fra gresk ostrakon – potteskår." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er et borgerpanel?", "options": ["Et politisk parti", "En domstol", "Loddtrukne innbyggere som gir råd i politiske saker", "En del av Stortinget"], "correct": 2, "explain": "Idéen minner om loddtrekningen i Athen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "I Athen ble loddtrekning sett på som demokratisk.",
+        "correct": true,
+        "explain": "Alle borgere hadde lik sjanse til å få verv."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kvinner hadde stemmerett i folkeforsamlingen i Athen.",
+        "correct": false,
+        "explain": "Kvinner var utestengt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Stemmerettsalderen i Norge er 18 år.",
+        "correct": true,
+        "explain": "Det har den vært siden 1978."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Athens demokrati var et representativt demokrati.",
+        "correct": false,
+        "explain": "Det var et direkte demokrati."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvor mange medlemmer hadde rådet (boulé) i Athen?",
+        "options": [
+          "50",
+          "500",
+          "5000",
+          "169"
+        ],
+        "correct": 1,
+        "explain": "De ble valgt ved loddtrekning."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva skrev borgerne på ved ostrakisme?",
+        "options": [
+          "Potteskår",
+          "Papyrus",
+          "Steintavler",
+          "Pergament"
+        ],
+        "correct": 0,
+        "explain": "Ordet kommer fra gresk ostrakon – potteskår."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er et borgerpanel?",
+        "options": [
+          "Et politisk parti",
+          "En domstol",
+          "Loddtrukne innbyggere som gir råd i politiske saker",
+          "En del av Stortinget"
+        ],
+        "correct": 2,
+        "explain": "Idéen minner om loddtrekningen i Athen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I Athen møttes borgerne i folkeforsamlingen, ekklesia. Forklar hva de kunne gjøre der, og nevn to typer saker de avgjorde.",
+        "fasit": "Borgerne kunne møte, tale og stemme over saker selv. De avgjorde blant annet lover og spørsmål om krig og fred.",
+        "kriterier": [
+          "Får fram at borgerne selv kunne delta og stemme, ikke bare velge representanter.",
+          "Nevner minst én sakstype folkeforsamlingen avgjorde, for eksempel lover eller krig og fred."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Rådet boulé besto av 500 loddtrukne borgere. Forklar hvilken oppgave rådet hadde, og hvordan arbeidet hang sammen med folkeforsamlingen.",
+        "fasit": "Boulé forberedte sakene som skulle behandles i folkeforsamlingen. Folkeforsamlingen kunne deretter stemme over sakene.",
+        "kriterier": [
+          "Forklarer at boulé forberedte saker for folkeforsamlingen.",
+          "Får fram at folkeforsamlingen behandlet eller stemte over sakene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I Athen ble mange offentlige verv fordelt ved loddtrekning. Forklar hvorfor athenerne kunne mene at denne metoden var demokratisk.",
+        "fasit": "Loddtrekning ble sett på som demokratisk fordi alle borgere hadde lik sjanse til å få et verv. Dermed ble vervene ikke bare fordelt gjennom valg.",
+        "kriterier": [
+          "Forklarer at loddtrekning ga borgerne lik sjanse til å få verv."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Borgerne i Athen kunne stemme over om noen skulle forvises i ti år. Forklar hvilket problem dette tiltaket skulle forebygge, og hvordan det kunne bidra til det.",
+        "fasit": "Tiltaket skulle hindre at noen fikk for mye makt. Ved å forvise en person kunne borgerne begrense personens mulighet til å samle makt i byen.",
+        "kriterier": [
+          "Får fram at målet var å hindre at noen fikk for mye makt.",
+          "Knytter forvisningen til at personen ble fjernet fra byen i en periode."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Athen omtales som et demokrati, selv om bare et mindretall hadde politiske rettigheter. Forklar hvordan begrenset borgerskap og slavearbeid henger sammen med hvem som kunne delta i politikken.",
+        "fasit": "Politiske rettigheter var forbeholdt frie menn med athenske foreldre, så store grupper var utestengt. Slaver utførte mye av arbeidet, mens borgerne kunne delta i politikken.",
+        "kriterier": [
+          "Får fram at bare en begrenset gruppe hadde politiske rettigheter, og at blant andre kvinner, slaver og metøker var utestengt.",
+          "Forklarer at slaver utførte mye av arbeidet i Athen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev hevder at Perikles innførte demokratiet i Athen i 508/507 f.Kr. Rett opp påstanden ved å forklare rollene til Kleisthenes og Perikles.",
+        "fasit": "Det var Kleisthenes som innførte demokratiske reformer i Athen i 508/507 f.Kr. Perikles var en ledende politiker i perioden da demokratiet var på sitt mest utviklede på 400-tallet f.Kr.",
+        "kriterier": [
+          "Knytter Kleisthenes til de demokratiske reformene i 508/507 f.Kr.",
+          "Forklarer Perikles’ rolle på 400-tallet f.Kr., da demokratiet var på sitt mest utviklede."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En regjering vil straffe en person uten å følge gjeldende lover. Bruk begrepet rettsstat til å forklare hvorfor dette er problematisk.",
+        "fasit": "I en rettsstat er myndighetene bundet av lover. Regjeringen må derfor følge lovene når den handler overfor personer.",
+        "kriterier": [
+          "Forklarer at myndighetene er bundet av lover.",
+          "Knytter dette til at regjeringen ikke kan handle uten å følge lovene."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En kommune velger innbyggere ved loddtrekning til et borgerpanel som skal gi råd i en vanskelig sak. I Athen stemte borgerne selv over saker i folkeforsamlingen. Forklar én likhet og én forskjell mellom de to måtene å delta på.",
+        "fasit": "Begge ordningene bruker loddtrekning for å få innbyggere med i politiske saker. I Athen stemte borgerne selv i folkeforsamlingen, mens borgerpanelet gir råd.",
+        "kriterier": [
+          "Nevner loddtrekning som en likhet mellom borgerpanelet og en athensk demokratisk praksis.",
+          "Skiller mellom at folkeforsamlingen stemte over saker, mens borgerpanelet gir råd."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

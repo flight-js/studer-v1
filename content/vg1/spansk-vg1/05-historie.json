@@ -4,79 +4,428 @@
   "trinnId": "vg1",
   "name": "Spansktalende historie: fra 1492 til demokrati",
   "intro": "Hovedlinjer i spansk og latinamerikansk historie – Columbus og erobringen av Amerika, uavhengighetskampene, den spanske borgerkrigen, Franco-diktaturet og overgangen til demokrati – og hvordan du bruker indefinido, datoer og passiv på spansk.",
-  "kompetansemaal": [8, 4],
+  "kompetansemaal": [
+    8,
+    4
+  ],
   "sammendrag": "## 1492 – et vendepunkt\n\nI **1492** skjedde tre viktige ting i Spania:\n\n- Den siste muslimske staten på Den iberiske halvøy, **Granada**, ble erobret av de katolske kongene **Isabel og Fernando**.\n- **Jøder** som ikke ville konvertere, ble **utvist** fra Spania.\n- **Kristoffer Columbus** (*Cristóbal Colón*) seilte vestover med spansk støtte og kom til **Amerika**.\n\n## Erobringen av Amerika\n\nSpanske **conquistadorer** erobret store deler av Amerika. **Hernán Cortés** erobret **aztekerriket** i dagens Mexico (1521), og **Francisco Pizarro** erobret **inkariket** i Andes på 1530-tallet. Millioner av urfolk døde av **krig**, **tvangsarbeid** og **sykdommer** europeerne brakte med seg, som kopper. Spansk språk og **katolsk** tro ble spredt, og sølv og gull gjorde Spania til en stormakt.\n\n## Uavhengighet i Latin-Amerika\n\nTidlig på **1800-tallet** kjempet koloniene for **uavhengighet**. **Simón Bolívar** ledet frigjøringen av flere land i Sør-Amerika og kalles ofte *El Libertador* (frigjøreren). De fleste latinamerikanske land ble selvstendige i perioden **1810–1825**. Senere hadde mange land perioder med **diktatur** og **militærkupp**, blant annet i **Chile** (Pinochet, 1973–1990) og **Argentina**.\n\n## Den spanske borgerkrigen\n\nFra **1936** til **1939** var Spania i en blodig **borgerkrig** mellom den folkevalgte **republikanske** siden og **nasjonalistene** under general **Francisco Franco**. Nazi-Tyskland og det fascistiske Italia støttet Franco. Bombingen av den baskiske byen **Guernica** i **1937** ble et symbol på krigens brutalitet – og motivet i Picassos kjente maleri.\n\n## Franco-diktaturet og demokratiet\n\nFranco styrte Spania som **diktator** fra **1939** til han døde i **1975**. Regionale språk som katalansk og baskisk ble **undertrykt**. Etter Francos død fulgte **la Transición** – overgangen til **demokrati** – med en ny **grunnlov** i **1978**. Spania ble medlem av det som i dag er **EU** i **1986**.\n\n## Språk: indefinido, datoer og passiv\n\n- Historiske hendelser fortelles ofte i **indefinido**: *Colón **llegó** a América en 1492. Franco **murió** en 1975.*\n- Årstall: ***en** 1492*. Dato: ***el** 12 de octubre de 1492*.\n- **Passiv**: *ser* + partisipp: *Granada **fue conquistada** en 1492.* – Granada ble erobret i 1492. Partisippet **samsvarer** med subjektet.\n- En vanlig alternativ form er **se-passiv**: *Se firmó la Constitución en 1978.* – Grunnloven ble undertegnet i 1978.",
   "flashcards": [
-    { "term": "1492", "def": "Granada erobret, jødene utvist, Columbus kom til Amerika" },
-    { "term": "Cristóbal Colón", "def": "Kristoffer Columbus" },
-    { "term": "los Reyes Católicos", "def": "de katolske kongene Isabel og Fernando" },
-    { "term": "los conquistadores", "def": "de spanske erobrerne" },
-    { "term": "Hernán Cortés", "def": "erobret aztekerriket i 1521" },
-    { "term": "Francisco Pizarro", "def": "erobret inkariket på 1530-tallet" },
-    { "term": "Simón Bolívar", "def": "El Libertador – ledet frigjøringen i Sør-Amerika" },
-    { "term": "la Guerra Civil", "def": "den spanske borgerkrigen 1936–1939" },
-    { "term": "Francisco Franco", "def": "diktator i Spania 1939–1975" },
-    { "term": "Guernica", "def": "baskisk by som ble bombet i 1937" },
-    { "term": "la Transición", "def": "overgangen til demokrati etter 1975" },
-    { "term": "la Constitución de 1978", "def": "Spanias demokratiske grunnlov" },
-    { "term": "llegó / murió", "def": "kom / døde (indefinido)" },
-    { "term": "fue conquistada", "def": "ble erobret (passiv)" },
-    { "term": "en 1492", "def": "i 1492" }
+    {
+      "term": "1492",
+      "def": "Granada erobret, jødene utvist, Columbus kom til Amerika"
+    },
+    {
+      "term": "Cristóbal Colón",
+      "def": "Kristoffer Columbus"
+    },
+    {
+      "term": "los Reyes Católicos",
+      "def": "de katolske kongene Isabel og Fernando"
+    },
+    {
+      "term": "los conquistadores",
+      "def": "de spanske erobrerne"
+    },
+    {
+      "term": "Hernán Cortés",
+      "def": "erobret aztekerriket i 1521"
+    },
+    {
+      "term": "Francisco Pizarro",
+      "def": "erobret inkariket på 1530-tallet"
+    },
+    {
+      "term": "Simón Bolívar",
+      "def": "El Libertador – ledet frigjøringen i Sør-Amerika"
+    },
+    {
+      "term": "la Guerra Civil",
+      "def": "den spanske borgerkrigen 1936–1939"
+    },
+    {
+      "term": "Francisco Franco",
+      "def": "diktator i Spania 1939–1975"
+    },
+    {
+      "term": "Guernica",
+      "def": "baskisk by som ble bombet i 1937"
+    },
+    {
+      "term": "la Transición",
+      "def": "overgangen til demokrati etter 1975"
+    },
+    {
+      "term": "la Constitución de 1978",
+      "def": "Spanias demokratiske grunnlov"
+    },
+    {
+      "term": "llegó / murió",
+      "def": "kom / døde (indefinido)"
+    },
+    {
+      "term": "fue conquistada",
+      "def": "ble erobret (passiv)"
+    },
+    {
+      "term": "en 1492",
+      "def": "i 1492"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilket år kom Columbus til Amerika?", "options": ["1066", "1492", "1521", "1789"], "correct": 1, "explain": "Samme år ble Granada erobret." },
-    { "id": "q02", "text": "Hvem erobret aztekerriket?", "options": ["Hernán Cortés", "Francisco Pizarro", "Simón Bolívar", "Columbus"], "correct": 0, "explain": "Aztekerriket lå i dagens Mexico." },
-    { "id": "q03", "text": "Hvorfor døde millioner av urfolk etter erobringen?", "options": ["Av tørke alene", "Av jordskjelv", "Av krig, tvangsarbeid og europeiske sykdommer", "Av vulkanutbrudd"], "correct": 2, "explain": "Sykdommer som kopper var særlig dødelige." },
-    { "id": "q04", "text": "Hvem kalles «El Libertador»?", "options": ["Franco", "Cortés", "Columbus", "Simón Bolívar"], "correct": 3, "explain": "Han ledet frigjøringen av flere land i Sør-Amerika." },
-    { "id": "q05", "text": "Når var den spanske borgerkrigen?", "options": ["1936–1939", "1914–1918", "1939–1945", "1975–1978"], "correct": 0, "explain": "Franco vant og styrte som diktator til 1975." },
-    { "id": "q06", "text": "Hva skjedde med regionale språk under Franco?", "options": ["De ble offisielle", "De ble undertrykt", "De ble obligatoriske i skolen", "De ble eksportert"], "correct": 1, "explain": "Katalansk og baskisk ble undertrykt." },
-    { "id": "q07", "text": "Hva var «la Transición»?", "options": ["Erobringen av Amerika", "Borgerkrigen", "Overgangen til demokrati etter Francos død", "Uavhengigheten i Latin-Amerika"], "correct": 2, "explain": "Den nye grunnloven kom i 1978." },
-    { "id": "q08", "text": "Hvordan sier du «Columbus kom til Amerika i 1492»?", "options": ["Colón llegaba a América en 1492.", "Colón llega a América en 1492.", "Colón ha llegado a América 1492.", "Colón llegó a América en 1492."], "correct": 3, "explain": "Avsluttet hendelse: indefinido. Årstall med en." },
-    { "id": "q09", "text": "Hva betyr «Granada fue conquistada en 1492»?", "options": ["Granada ble erobret i 1492.", "Granada erobret i 1492.", "Granada var erobrer i 1492.", "Granada skal erobres i 1492."], "correct": 0, "explain": "Passiv: ser + partisipp." },
-    { "id": "q10", "text": "Hvilken by ble bombet i 1937 og ble motivet i et kjent maleri av Picasso?", "options": ["Madrid", "Guernica", "Barcelona", "Sevilla"], "correct": 1, "explain": "Bombingen ble et symbol på krigens brutalitet." }
+    {
+      "id": "q01",
+      "text": "Hvilket år kom Columbus til Amerika?",
+      "options": [
+        "1066",
+        "1492",
+        "1521",
+        "1789"
+      ],
+      "correct": 1,
+      "explain": "Samme år ble Granada erobret."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem erobret aztekerriket?",
+      "options": [
+        "Hernán Cortés",
+        "Francisco Pizarro",
+        "Simón Bolívar",
+        "Columbus"
+      ],
+      "correct": 0,
+      "explain": "Aztekerriket lå i dagens Mexico."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor døde millioner av urfolk etter erobringen?",
+      "options": [
+        "Av tørke alene",
+        "Av jordskjelv",
+        "Av krig, tvangsarbeid og europeiske sykdommer",
+        "Av vulkanutbrudd"
+      ],
+      "correct": 2,
+      "explain": "Sykdommer som kopper var særlig dødelige."
+    },
+    {
+      "id": "q04",
+      "text": "Hvem kalles «El Libertador»?",
+      "options": [
+        "Franco",
+        "Cortés",
+        "Columbus",
+        "Simón Bolívar"
+      ],
+      "correct": 3,
+      "explain": "Han ledet frigjøringen av flere land i Sør-Amerika."
+    },
+    {
+      "id": "q05",
+      "text": "Når var den spanske borgerkrigen?",
+      "options": [
+        "1936–1939",
+        "1914–1918",
+        "1939–1945",
+        "1975–1978"
+      ],
+      "correct": 0,
+      "explain": "Franco vant og styrte som diktator til 1975."
+    },
+    {
+      "id": "q06",
+      "text": "Hva skjedde med regionale språk under Franco?",
+      "options": [
+        "De ble offisielle",
+        "De ble undertrykt",
+        "De ble obligatoriske i skolen",
+        "De ble eksportert"
+      ],
+      "correct": 1,
+      "explain": "Katalansk og baskisk ble undertrykt."
+    },
+    {
+      "id": "q07",
+      "text": "Hva var «la Transición»?",
+      "options": [
+        "Erobringen av Amerika",
+        "Borgerkrigen",
+        "Overgangen til demokrati etter Francos død",
+        "Uavhengigheten i Latin-Amerika"
+      ],
+      "correct": 2,
+      "explain": "Den nye grunnloven kom i 1978."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan sier du «Columbus kom til Amerika i 1492»?",
+      "options": [
+        "Colón llegaba a América en 1492.",
+        "Colón llega a América en 1492.",
+        "Colón ha llegado a América 1492.",
+        "Colón llegó a América en 1492."
+      ],
+      "correct": 3,
+      "explain": "Avsluttet hendelse: indefinido. Årstall med en."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «Granada fue conquistada en 1492»?",
+      "options": [
+        "Granada ble erobret i 1492.",
+        "Granada erobret i 1492.",
+        "Granada var erobrer i 1492.",
+        "Granada skal erobres i 1492."
+      ],
+      "correct": 0,
+      "explain": "Passiv: ser + partisipp."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken by ble bombet i 1937 og ble motivet i et kjent maleri av Picasso?",
+      "options": [
+        "Madrid",
+        "Guernica",
+        "Barcelona",
+        "Sevilla"
+      ],
+      "correct": 1,
+      "explain": "Bombingen ble et symbol på krigens brutalitet."
+    }
   ],
   "mindmap": {
     "label": "Spansktalende historie",
     "children": [
-      { "label": "1492", "children": [
-        { "label": "Granada" },
-        { "label": "Utvisning av jøder" },
-        { "label": "Columbus" }
-      ] },
-      { "label": "Erobringen", "children": [
-        { "label": "Cortés og aztekerne" },
-        { "label": "Pizarro og inkaene" },
-        { "label": "Urfolk døde" }
-      ] },
-      { "label": "Uavhengighet", "children": [
-        { "label": "Simón Bolívar" },
-        { "label": "1810–1825" },
-        { "label": "Diktaturer" }
-      ] },
-      { "label": "Spania 1900-tallet", "children": [
-        { "label": "Borgerkrigen 1936–1939" },
-        { "label": "Franco til 1975" },
-        { "label": "Transición og 1978" }
-      ] },
-      { "label": "Språk", "children": [
-        { "label": "Indefinido" },
-        { "label": "en 1492" },
-        { "label": "Passiv" }
-      ] }
+      {
+        "label": "1492",
+        "children": [
+          {
+            "label": "Granada"
+          },
+          {
+            "label": "Utvisning av jøder"
+          },
+          {
+            "label": "Columbus"
+          }
+        ]
+      },
+      {
+        "label": "Erobringen",
+        "children": [
+          {
+            "label": "Cortés og aztekerne"
+          },
+          {
+            "label": "Pizarro og inkaene"
+          },
+          {
+            "label": "Urfolk døde"
+          }
+        ]
+      },
+      {
+        "label": "Uavhengighet",
+        "children": [
+          {
+            "label": "Simón Bolívar"
+          },
+          {
+            "label": "1810–1825"
+          },
+          {
+            "label": "Diktaturer"
+          }
+        ]
+      },
+      {
+        "label": "Spania 1900-tallet",
+        "children": [
+          {
+            "label": "Borgerkrigen 1936–1939"
+          },
+          {
+            "label": "Franco til 1975"
+          },
+          {
+            "label": "Transición og 1978"
+          }
+        ]
+      },
+      {
+        "label": "Språk",
+        "children": [
+          {
+            "label": "Indefinido"
+          },
+          {
+            "label": "en 1492"
+          },
+          {
+            "label": "Passiv"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Spania ble medlem av det som i dag er EU i 1986.", "correct": true, "explain": "Det skjedde etter overgangen til demokrati." },
-      { "id": "m02", "type": "sant-usant", "text": "Franco ledet den republikanske siden i borgerkrigen.", "correct": false, "explain": "Franco ledet nasjonalistene mot republikken." },
-      { "id": "m03", "type": "sant-usant", "text": "Inkariket lå i Andesfjellene.", "correct": true, "explain": "Det ble erobret av Pizarro på 1530-tallet." },
-      { "id": "m04", "type": "sant-usant", "text": "De fleste latinamerikanske land ble selvstendige på 1900-tallet.", "correct": false, "explain": "De fleste ble selvstendige mellom 1810 og 1825." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Franco murió en 1975»?", "options": ["Franco døde i 1975.", "Franco ble født i 1975.", "Franco styrte i 1975.", "Franco flyktet i 1975."], "correct": 0, "explain": "morir → murió i indefinido." },
-      { "id": "m06", "type": "flervalg", "text": "Hvem var de katolske kongene?", "options": ["Carlos og Felipe", "Isabel og Fernando", "Franco og Juan Carlos", "Cortés og Pizarro"], "correct": 1, "explain": "De støttet Columbus' reise." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket land hadde et militærdiktatur under Pinochet fra 1973 til 1990?", "options": ["Mexico", "Spania", "Chile", "Cuba"], "correct": 2, "explain": "Mange latinamerikanske land hadde diktaturer på 1900-tallet." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Spania ble medlem av det som i dag er EU i 1986.",
+        "correct": true,
+        "explain": "Det skjedde etter overgangen til demokrati."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Franco ledet den republikanske siden i borgerkrigen.",
+        "correct": false,
+        "explain": "Franco ledet nasjonalistene mot republikken."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Inkariket lå i Andesfjellene.",
+        "correct": true,
+        "explain": "Det ble erobret av Pizarro på 1530-tallet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "De fleste latinamerikanske land ble selvstendige på 1900-tallet.",
+        "correct": false,
+        "explain": "De fleste ble selvstendige mellom 1810 og 1825."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Franco murió en 1975»?",
+        "options": [
+          "Franco døde i 1975.",
+          "Franco ble født i 1975.",
+          "Franco styrte i 1975.",
+          "Franco flyktet i 1975."
+        ],
+        "correct": 0,
+        "explain": "morir → murió i indefinido."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem var de katolske kongene?",
+        "options": [
+          "Carlos og Felipe",
+          "Isabel og Fernando",
+          "Franco og Juan Carlos",
+          "Cortés og Pizarro"
+        ],
+        "correct": 1,
+        "explain": "De støttet Columbus' reise."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket land hadde et militærdiktatur under Pinochet fra 1973 til 1990?",
+        "options": [
+          "Mexico",
+          "Spania",
+          "Chile",
+          "Cuba"
+        ],
+        "correct": 2,
+        "explain": "Mange latinamerikanske land hadde diktaturer på 1900-tallet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hvorfor regnes 1492 som et vendepunkt i Spanias historie? Ta med de tre viktige hendelsene som skjedde dette året.",
+        "fasit": "Granada ble erobret av de katolske kongene Isabel og Fernando, og jøder som ikke ville konvertere, ble utvist. Kristoffer Columbus seilte vestover med spansk støtte og kom til Amerika.",
+        "kriterier": [
+          "Nevner erobringen av Granada og utvisningen av jøder som ikke ville konvertere.",
+          "Nevner at Columbus kom til Amerika med spansk støtte."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign erobringene til Hernán Cortés og Francisco Pizarro. Hvilket rike erobret hver av dem, og hvor lå rikene?",
+        "fasit": "Hernán Cortés erobret aztekerriket i dagens Mexico. Francisco Pizarro erobret inkariket i Andes.",
+        "kriterier": [
+          "Knytter Cortés til aztekerriket i dagens Mexico.",
+          "Knytter Pizarro til inkariket i Andes."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar én følge av erobringen av Amerika for Spania og én følge for menneskene som bodde der.",
+        "fasit": "Sølv og gull fra Amerika gjorde Spania til en stormakt. Spansk språk og katolsk tro ble spredt i Amerika.",
+        "kriterier": [
+          "Nevner at sølv og gull bidro til at Spania ble en stormakt.",
+          "Nevner at spansk språk eller katolsk tro ble spredt i Amerika."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev sier at alle landene i Latin-Amerika ble selvstendige samtidig og at Simón Bolívar frigjorde hele regionen alene. Rett opp begge delene av påstanden.",
+        "fasit": "De fleste latinamerikanske land ble selvstendige i perioden 1810–1825. Bolívar ledet frigjøringen av flere land i Sør-Amerika, men ikke hele Latin-Amerika alene.",
+        "kriterier": [
+          "Plasserer selvstendigheten til de fleste landene i perioden 1810–1825.",
+          "Forklarer at Bolívar ledet frigjøringen av flere land i Sør-Amerika, ikke hele regionen alene."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Beskriv hvem som kjempet på hver side i den spanske borgerkrigen, og nevn hvem som støttet nasjonalistene.",
+        "fasit": "Den folkevalgte republikanske siden kjempet mot nasjonalistene under general Francisco Franco. Nazi-Tyskland og det fascistiske Italia støttet Franco.",
+        "kriterier": [
+          "Skiller mellom den republikanske siden og nasjonalistene under Franco.",
+          "Nevner støtte fra Nazi-Tyskland og det fascistiske Italia."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvordan Spania gikk fra Francos diktatur til demokrati, og ta med året for den nye grunnloven.",
+        "fasit": "Franco styrte som diktator til han døde i 1975. Etterpå fulgte la Transición, overgangen til demokrati, og en ny grunnlov kom i 1978.",
+        "kriterier": [
+          "Nevner at Franco døde i 1975 og at overgangen til demokrati fulgte etter.",
+          "Nevner den nye grunnloven fra 1978."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Skriv på spansk: «Grunnloven ble undertegnet i 1978.» Bruk se-passiv.",
+        "fasit": "Se firmó la Constitución en 1978.",
+        "kriterier": [
+          "Bruker se-passiv med se firmó.",
+          "Har med la Constitución og en 1978."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skriv på spansk at Franco døde i 1975. Bruk indefinido.",
+        "fasit": "Franco murió en 1975.",
+        "kriterier": [
+          "Bruker murió i indefinido.",
+          "Har med Franco og en 1975."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

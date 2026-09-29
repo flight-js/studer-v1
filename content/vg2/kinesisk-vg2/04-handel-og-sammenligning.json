@@ -349,6 +349,80 @@
         "correct": 2,
         "explain": "Zhīfùbǎo."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En kunde vil spørre i en kinesisk butikk om hen kan prøve et plagg. Skriv spørsmålet på kinesisk med 试试, og forklar kort hva 试试 betyr.",
+        "fasit": "我可以试试吗？ betyr «Kan jeg prøve den?» 试试 betyr å prøve, for eksempel et plagg.",
+        "kriterier": [
+          "Skriver spørsmålet 我可以试试吗？ på kinesisk.",
+          "Forklarer at 试试 betyr å prøve (på)."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hva brukes måleordet 件 til når man snakker om klær? Gi et korrekt eksempel med en skjorte på kinesisk.",
+        "fasit": "件 brukes som måleord for klær på overkroppen. En skjorte heter 一件衬衫.",
+        "kriterier": [
+          "Forklarer at 件 brukes for klær på overkroppen.",
+          "Gir det korrekte eksempelet 一件衬衫."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En selger spør 你喜欢什么颜色？ Hva betyr spørsmålet? Nevn også to farger på kinesisk med norsk betydning.",
+        "fasit": "Spørsmålet betyr «Hvilken farge liker du?» For eksempel betyr 红色 rød og 绿色 grønn.",
+        "kriterier": [
+          "Oversetter spørsmålet som et spørsmål om hvilken farge noen liker.",
+          "Oppgir to farger på kinesisk med riktige norske betydninger."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar forskjellen på mønstrene A 比 B + adjektiv og A 没有 B + adjektiv når man sammenligner klær eller priser.",
+        "fasit": "A 比 B + adjektiv sier at A er mer … enn B, for eksempel dyrere. A 没有 B + adjektiv sier at A ikke er så … som B.",
+        "kriterier": [
+          "Forklarer at 比-mønsteret uttrykker at A har mer av en egenskap enn B.",
+          "Forklarer at 没有-mønsteret uttrykker at A ikke har egenskapen i like stor grad som B."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En kunde vil prute på prisen. Forklar hvor det er vanlig å prute, og hvor det ikke er vanlig.",
+        "fasit": "Det er vanlig å prute på markeder. Det er ikke vanlig å prute i vanlige butikker.",
+        "kriterier": [
+          "Nevner at pruting er vanlig på markeder.",
+          "Skiller dette fra vanlige butikker, der pruting ikke er vanlig."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Beskriv hvordan mobilbetaling foregår i Kina, og nevn én app som brukes til å betale.",
+        "fasit": "Man betaler med mobilen ved å skanne en QR-kode. En app som brukes, er 微信支付 (WeChat Pay).",
+        "kriterier": [
+          "Forklarer at mobilbetaling foregår ved at man skanner en QR-kode.",
+          "Nevner WeChat Pay eller Alipay som en betalingsapp."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Netthandel er enormt i Kina. Hva er Singles’ Day, og hvilken dato finner den sted?",
+        "fasit": "Singles’ Day er verdens største handledag på nett. Den finner sted 11. november.",
+        "kriterier": [
+          "Knytter Singles’ Day til netthandel eller en handledag på nett.",
+          "Oppgir datoen 11. november."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du vil spørre hva dette plagget koster. Skriv spørsmålet på kinesisk med 衣服, og forklar hva 多少钱 spør om.",
+        "fasit": "这件衣服多少钱？ betyr «Hvor mye koster dette plagget?» 多少钱 spør om prisen.",
+        "kriterier": [
+          "Skriver spørsmålet 这件衣服多少钱？ korrekt.",
+          "Forklarer at 多少钱 spør om hvor mye noe koster."
+        ]
+      }
     ]
   },
   "kvalitet": {

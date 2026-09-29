@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Det norske politiske systemet – nasjonalt og lokalt",
   "intro": "Grunnloven og maktfordelingen, Stortinget, regjeringen og domstolene, parlamentarismen og regjeringsdannelse, og hvordan kommuner og fylkeskommuner styres gjennom lokaldemokratiet.",
-  "kompetansemaal": [12],
+  "kompetansemaal": [
+    12
+  ],
   "sammendrag": "## Grunnloven og maktfordelingen\n\n**Grunnloven** fra **1814** er Norges høyeste lov. Den bygger på **folkesuverenitet**, **maktfordeling** og **menneskerettigheter**. Makten er delt mellom tre statsmakter:\n\n- **Stortinget** – den **lovgivende** makten\n- **Regjeringen** – den **utøvende** makten\n- **Domstolene** – den **dømmende** makten\n\n**Kongen** er statsoverhode, men har i praksis en **symbolsk** rolle. Formelt fattes regjeringens vedtak i **statsråd** med kongen.\n\n## Stortinget\n\nStortinget har **169 representanter**, valgt for **fire år** av gangen. Stortinget kan ikke oppløses før valgperioden er over. Stortingets viktigste oppgaver er å\n\n- **vedta lover**\n- vedta **statsbudsjettet** – bevilge penger og bestemme skatter\n- **kontrollere regjeringen**, for eksempel gjennom spørretimer, **kontroll- og konstitusjonskomiteen** og **Riksrevisjonen**\n\nArbeidet skjer i **komiteer** som behandler sakene før de avgjøres i **plenum**.\n\n## Regjeringen og parlamentarismen\n\nRegjeringen ledes av **statsministeren** og består av **statsråder** som leder hvert sitt **departement**. Regjeringen **fremmer** lovforslag og budsjett og **gjennomfører** vedtakene gjennom **forvaltningen** – direktorater og etater som NAV og Skatteetaten.\n\n**Parlamentarismen** (fra **1884**) betyr at regjeringen må ha Stortingets **tillit**. Et flertall kan felle regjeringen med **mistillitsforslag**. Regjeringen kan også stille **kabinettsspørsmål** – true med å gå av hvis den ikke får flertall.\n\n- En **flertallsregjering** har støtte fra over halvparten av representantene.\n- En **mindretallsregjering** må søke støtte fra andre partier sak for sak. Mindretallsregjeringer har vært vanlige i Norge.\n- **Koalisjonsregjeringer** består av flere partier.\n\n## Domstolene\n\nDomstolene – **tingrett**, **lagmannsrett** og **Høyesterett** – dømmer i straffesaker og sivile saker. De er **uavhengige** av Storting og regjering. Høyesterett kan prøve om lover er i strid med **Grunnloven** eller **menneskerettighetene** (**prøvingsrett**).\n\n## Lokaldemokratiet\n\nNorge har **kommuner** og **fylkeskommuner** med egne folkevalgte organer, valgt hvert fjerde år ved **kommune- og fylkestingsvalg** – to år forskjøvet fra stortingsvalget.\n\n- **Kommunestyret** er kommunens øverste organ, og **ordføreren** leder det.\n- **Formannskapet** forbereder viktige saker.\n- **Fylkestinget** styrer fylkeskommunen.\n\n**Kommunene** har ansvar for blant annet **grunnskole**, **barnehager**, **helse- og omsorgstjenester**, **sosialtjenester** og **lokal planlegging**. **Fylkeskommunene** har ansvar for blant annet **videregående skole**, **kollektivtransport** og **fylkesveier**.\n\nKommunene har **lokalt selvstyre**, men staten bestemmer mye gjennom **lover**, **rammetilskudd** og **øremerkede** midler.\n\n## Utfordringer\n\n- Stor **forskjell** mellom kommuner i størrelse og økonomi.\n- **Statlig styring** kan svekke det lokale selvstyret.\n- **Lavere valgdeltakelse** lokalt enn ved stortingsvalg.\n- Vansker med å **rekruttere** lokalpolitikere, blant annet på grunn av **netthets**.",
   "flashcards": [
-    { "term": "Grunnloven", "def": "Norges høyeste lov fra 1814." },
-    { "term": "Lovgivende makt", "def": "Stortinget." },
-    { "term": "Utøvende makt", "def": "Regjeringen." },
-    { "term": "Dømmende makt", "def": "Domstolene." },
-    { "term": "Stortinget", "def": "169 representanter valgt for fire år." },
-    { "term": "Statsbudsjettet", "def": "Stortingets vedtak om statens inntekter og utgifter." },
-    { "term": "Riksrevisjonen", "def": "Kontrollerer at statens penger brukes riktig." },
-    { "term": "Statsråd", "def": "Medlem av regjeringen som leder et departement." },
-    { "term": "Parlamentarisme i Norge", "def": "Fra 1884: regjeringen må ha Stortingets tillit." },
-    { "term": "Mistillitsforslag", "def": "Forslag om at regjeringen eller en statsråd skal gå av." },
-    { "term": "Kabinettsspørsmål", "def": "Regjeringen truer med å gå av hvis den ikke får flertall." },
-    { "term": "Mindretallsregjering", "def": "Regjering uten flertall på Stortinget." },
-    { "term": "Prøvingsrett", "def": "Domstolenes rett til å prøve lover mot Grunnloven." },
-    { "term": "Kommunestyret", "def": "Kommunens øverste folkevalgte organ." },
-    { "term": "Rammetilskudd", "def": "Penger fra staten som kommunen selv fordeler." }
+    {
+      "term": "Grunnloven",
+      "def": "Norges høyeste lov fra 1814."
+    },
+    {
+      "term": "Lovgivende makt",
+      "def": "Stortinget."
+    },
+    {
+      "term": "Utøvende makt",
+      "def": "Regjeringen."
+    },
+    {
+      "term": "Dømmende makt",
+      "def": "Domstolene."
+    },
+    {
+      "term": "Stortinget",
+      "def": "169 representanter valgt for fire år."
+    },
+    {
+      "term": "Statsbudsjettet",
+      "def": "Stortingets vedtak om statens inntekter og utgifter."
+    },
+    {
+      "term": "Riksrevisjonen",
+      "def": "Kontrollerer at statens penger brukes riktig."
+    },
+    {
+      "term": "Statsråd",
+      "def": "Medlem av regjeringen som leder et departement."
+    },
+    {
+      "term": "Parlamentarisme i Norge",
+      "def": "Fra 1884: regjeringen må ha Stortingets tillit."
+    },
+    {
+      "term": "Mistillitsforslag",
+      "def": "Forslag om at regjeringen eller en statsråd skal gå av."
+    },
+    {
+      "term": "Kabinettsspørsmål",
+      "def": "Regjeringen truer med å gå av hvis den ikke får flertall."
+    },
+    {
+      "term": "Mindretallsregjering",
+      "def": "Regjering uten flertall på Stortinget."
+    },
+    {
+      "term": "Prøvingsrett",
+      "def": "Domstolenes rett til å prøve lover mot Grunnloven."
+    },
+    {
+      "term": "Kommunestyret",
+      "def": "Kommunens øverste folkevalgte organ."
+    },
+    {
+      "term": "Rammetilskudd",
+      "def": "Penger fra staten som kommunen selv fordeler."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvor mange representanter har Stortinget?", "options": ["150", "169", "200", "100"], "correct": 1, "explain": "Valgt for fire år." },
-    { "id": "q02", "text": "Hva betyr parlamentarisme i Norge?", "options": ["At regjeringen må ha Stortingets tillit", "At kongen styrer", "At domstolene lager lover", "At folket stemmer over alle lover"], "correct": 0, "explain": "Innført i 1884." },
-    { "id": "q03", "text": "Hvilken statsmakt er regjeringen?", "options": ["Den lovgivende", "Den dømmende", "Den utøvende", "Ingen"], "correct": 2, "explain": "Den gjennomfører vedtakene." },
-    { "id": "q04", "text": "Hva er et kabinettsspørsmål?", "options": ["Et spørsmål i spørretimen", "Et lovforslag", "Et budsjett", "At regjeringen truer med å gå av hvis den ikke får flertall"], "correct": 3, "explain": "Et press på Stortinget." },
-    { "id": "q05", "text": "Hvem har ansvar for videregående skole?", "options": ["Fylkeskommunene", "Kommunene", "Staten alene", "Private"], "correct": 0, "explain": "Kommunene har grunnskolen." },
-    { "id": "q06", "text": "Hva er prøvingsretten?", "options": ["Retten til å stemme", "Domstolenes rett til å prøve om lover strider mot Grunnloven", "Stortingets rett til å felle regjeringen", "Kongens rett til å oppløse Stortinget"], "correct": 1, "explain": "Også mot menneskerettighetene." },
-    { "id": "q07", "text": "Hva er en mindretallsregjering?", "options": ["En regjering med flertall", "En regjering av ett parti med alle mandatene", "En regjering uten flertall på Stortinget", "En regjering uten statsminister"], "correct": 2, "explain": "Må søke støtte sak for sak." },
-    { "id": "q08", "text": "Hva er Stortingets viktigste oppgaver?", "options": ["Å dømme i straffesaker", "Å lede departementene", "Å velge kongen", "Å vedta lover og budsjett og kontrollere regjeringen"], "correct": 3, "explain": "Den lovgivende makten." },
-    { "id": "q09", "text": "Hvem leder kommunestyret?", "options": ["Ordføreren", "Statsministeren", "Statsforvalteren", "Kongen"], "correct": 0, "explain": "Kommunestyret er kommunens øverste organ." },
-    { "id": "q10", "text": "Hvordan styrer staten kommunene?", "options": ["Den gjør ikke det", "Gjennom lover, rammetilskudd og øremerkede midler", "Bare gjennom kongen", "Bare gjennom domstolene"], "correct": 1, "explain": "Lokalt selvstyre har grenser." }
+    {
+      "id": "q01",
+      "text": "Hvor mange representanter har Stortinget?",
+      "options": [
+        "150",
+        "169",
+        "200",
+        "100"
+      ],
+      "correct": 1,
+      "explain": "Valgt for fire år."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr parlamentarisme i Norge?",
+      "options": [
+        "At regjeringen må ha Stortingets tillit",
+        "At kongen styrer",
+        "At domstolene lager lover",
+        "At folket stemmer over alle lover"
+      ],
+      "correct": 0,
+      "explain": "Innført i 1884."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken statsmakt er regjeringen?",
+      "options": [
+        "Den lovgivende",
+        "Den dømmende",
+        "Den utøvende",
+        "Ingen"
+      ],
+      "correct": 2,
+      "explain": "Den gjennomfører vedtakene."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er et kabinettsspørsmål?",
+      "options": [
+        "Et spørsmål i spørretimen",
+        "Et lovforslag",
+        "Et budsjett",
+        "At regjeringen truer med å gå av hvis den ikke får flertall"
+      ],
+      "correct": 3,
+      "explain": "Et press på Stortinget."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem har ansvar for videregående skole?",
+      "options": [
+        "Fylkeskommunene",
+        "Kommunene",
+        "Staten alene",
+        "Private"
+      ],
+      "correct": 0,
+      "explain": "Kommunene har grunnskolen."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er prøvingsretten?",
+      "options": [
+        "Retten til å stemme",
+        "Domstolenes rett til å prøve om lover strider mot Grunnloven",
+        "Stortingets rett til å felle regjeringen",
+        "Kongens rett til å oppløse Stortinget"
+      ],
+      "correct": 1,
+      "explain": "Også mot menneskerettighetene."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en mindretallsregjering?",
+      "options": [
+        "En regjering med flertall",
+        "En regjering av ett parti med alle mandatene",
+        "En regjering uten flertall på Stortinget",
+        "En regjering uten statsminister"
+      ],
+      "correct": 2,
+      "explain": "Må søke støtte sak for sak."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er Stortingets viktigste oppgaver?",
+      "options": [
+        "Å dømme i straffesaker",
+        "Å lede departementene",
+        "Å velge kongen",
+        "Å vedta lover og budsjett og kontrollere regjeringen"
+      ],
+      "correct": 3,
+      "explain": "Den lovgivende makten."
+    },
+    {
+      "id": "q09",
+      "text": "Hvem leder kommunestyret?",
+      "options": [
+        "Ordføreren",
+        "Statsministeren",
+        "Statsforvalteren",
+        "Kongen"
+      ],
+      "correct": 0,
+      "explain": "Kommunestyret er kommunens øverste organ."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan styrer staten kommunene?",
+      "options": [
+        "Den gjør ikke det",
+        "Gjennom lover, rammetilskudd og øremerkede midler",
+        "Bare gjennom kongen",
+        "Bare gjennom domstolene"
+      ],
+      "correct": 1,
+      "explain": "Lokalt selvstyre har grenser."
+    }
   ],
   "mindmap": {
     "label": "Det norske politiske systemet",
     "children": [
-      { "label": "Grunnloven", "children": [
-        { "label": "1814" },
-        { "label": "Maktfordeling" },
-        { "label": "Kongen" }
-      ] },
-      { "label": "Stortinget", "children": [
-        { "label": "169 representanter" },
-        { "label": "Lover og budsjett" },
-        { "label": "Kontroll" }
-      ] },
-      { "label": "Regjeringen", "children": [
-        { "label": "Parlamentarisme" },
-        { "label": "Flertall og mindretall" },
-        { "label": "Forvaltning" }
-      ] },
-      { "label": "Domstolene", "children": [
-        { "label": "Tre nivåer" },
-        { "label": "Prøvingsrett" }
-      ] },
-      { "label": "Lokaldemokrati", "children": [
-        { "label": "Kommuner" },
-        { "label": "Fylkeskommuner" },
-        { "label": "Utfordringer" }
-      ] }
+      {
+        "label": "Grunnloven",
+        "children": [
+          {
+            "label": "1814"
+          },
+          {
+            "label": "Maktfordeling"
+          },
+          {
+            "label": "Kongen"
+          }
+        ]
+      },
+      {
+        "label": "Stortinget",
+        "children": [
+          {
+            "label": "169 representanter"
+          },
+          {
+            "label": "Lover og budsjett"
+          },
+          {
+            "label": "Kontroll"
+          }
+        ]
+      },
+      {
+        "label": "Regjeringen",
+        "children": [
+          {
+            "label": "Parlamentarisme"
+          },
+          {
+            "label": "Flertall og mindretall"
+          },
+          {
+            "label": "Forvaltning"
+          }
+        ]
+      },
+      {
+        "label": "Domstolene",
+        "children": [
+          {
+            "label": "Tre nivåer"
+          },
+          {
+            "label": "Prøvingsrett"
+          }
+        ]
+      },
+      {
+        "label": "Lokaldemokrati",
+        "children": [
+          {
+            "label": "Kommuner"
+          },
+          {
+            "label": "Fylkeskommuner"
+          },
+          {
+            "label": "Utfordringer"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Stortinget kan ikke oppløses før valgperioden er over.", "correct": true, "explain": "Det skiller Norge fra mange andre land." },
-      { "id": "m02", "type": "sant-usant", "text": "Kongen tar de viktigste politiske beslutningene i Norge.", "correct": false, "explain": "Kongen har en symbolsk rolle." },
-      { "id": "m03", "type": "sant-usant", "text": "Mindretallsregjeringer har vært vanlige i Norge.", "correct": true, "explain": "De må søke støtte sak for sak." },
-      { "id": "m04", "type": "sant-usant", "text": "Kommunene har ansvar for videregående skole.", "correct": false, "explain": "Det har fylkeskommunene." },
-      { "id": "m05", "type": "flervalg", "text": "Hva gjør Riksrevisjonen?", "options": ["Dømmer i straffesaker", "Kontrollerer at statens penger brukes riktig", "Leder regjeringen", "Arrangerer valg"], "correct": 1, "explain": "Stortingets kontrollorgan." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er Norges høyeste domstol?", "options": ["Høyesterett", "Lagmannsretten", "Tingretten", "Stortinget"], "correct": 0, "explain": "Øverste ankeinstans." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken oppgave har kommunene?", "options": ["Forsvaret", "Utenrikspolitikken", "Grunnskole og barnehager", "Høyesterett"], "correct": 2, "explain": "Også helse- og omsorgstjenester." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Stortinget kan ikke oppløses før valgperioden er over.",
+        "correct": true,
+        "explain": "Det skiller Norge fra mange andre land."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kongen tar de viktigste politiske beslutningene i Norge.",
+        "correct": false,
+        "explain": "Kongen har en symbolsk rolle."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mindretallsregjeringer har vært vanlige i Norge.",
+        "correct": true,
+        "explain": "De må søke støtte sak for sak."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kommunene har ansvar for videregående skole.",
+        "correct": false,
+        "explain": "Det har fylkeskommunene."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva gjør Riksrevisjonen?",
+        "options": [
+          "Dømmer i straffesaker",
+          "Kontrollerer at statens penger brukes riktig",
+          "Leder regjeringen",
+          "Arrangerer valg"
+        ],
+        "correct": 1,
+        "explain": "Stortingets kontrollorgan."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er Norges høyeste domstol?",
+        "options": [
+          "Høyesterett",
+          "Lagmannsretten",
+          "Tingretten",
+          "Stortinget"
+        ],
+        "correct": 0,
+        "explain": "Øverste ankeinstans."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken oppgave har kommunene?",
+        "options": [
+          "Forsvaret",
+          "Utenrikspolitikken",
+          "Grunnskole og barnehager",
+          "Høyesterett"
+        ],
+        "correct": 2,
+        "explain": "Også helse- og omsorgstjenester."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan den lovgivende, utøvende og dømmende makten er fordelt mellom Stortinget, regjeringen og domstolene.",
+        "fasit": "Stortinget har den lovgivende makten, regjeringen den utøvende makten og domstolene den dømmende makten.",
+        "kriterier": [
+          "Plasserer lovgivende makt hos Stortinget og utøvende makt hos regjeringen.",
+          "Plasserer dømmende makt hos domstolene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et lovforslag fra regjeringen skal behandles på Stortinget. Forklar hva komiteene gjør med saken, og hvor den blir avgjort.",
+        "fasit": "Komiteene behandler saken før den går videre til plenum. Stortinget avgjør saken i plenum.",
+        "kriterier": [
+          "Får fram at komiteene behandler saken før den avgjøres.",
+          "Får fram at saken avgjøres i plenum."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign regjeringens og Stortingets roller i arbeidet med statsbudsjettet.",
+        "fasit": "Regjeringen fremmer forslag til statsbudsjett. Stortinget vedtar budsjettet og bestemmer dermed statens inntekter og utgifter.",
+        "kriterier": [
+          "Får fram at regjeringen fremmer budsjettforslaget.",
+          "Får fram at Stortinget vedtar budsjettet, som gjelder statens inntekter og utgifter."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person vil undersøke om statens penger er brukt riktig. Hvilket organ har ansvar for å kontrollere dette, og hva går kontrollen ut på?",
+        "fasit": "Riksrevisjonen kontrollerer om statens penger brukes riktig.",
+        "kriterier": [
+          "Identifiserer Riksrevisjonen.",
+          "Forklarer at organet kontrollerer bruken av statens penger."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar forskjellen mellom kongens rolle som statsoverhode i praksis og kongens formelle rolle når regjeringen fatter vedtak.",
+        "fasit": "Kongen har i praksis en symbolsk rolle. Formelt fattes regjeringens vedtak i statsråd med kongen.",
+        "kriterier": [
+          "Får fram at kongens rolle i praksis er symbolsk.",
+          "Får fram at regjeringens vedtak formelt fattes i statsråd med kongen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En kommune planlegger en barnehage, mens fylkeskommunen arbeider med kollektivtransport. Hvilket nivå har ansvar for hver av oppgavene?",
+        "fasit": "Kommunen har ansvar for barnehager. Fylkeskommunen har ansvar for kollektivtransport.",
+        "kriterier": [
+          "Plasserer barnehagen hos kommunen.",
+          "Plasserer kollektivtransport hos fylkeskommunen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign hvor ofte kommune- og fylkestingsvalg holdes med hvor ofte stortingsvalg holdes. Hvordan er valgene forskjøvet i tid?",
+        "fasit": "Begge valgene holdes hvert fjerde år. Kommune- og fylkestingsvalgene ligger to år forskjøvet fra stortingsvalget.",
+        "kriterier": [
+          "Får fram at begge valgtypene holdes hvert fjerde år.",
+          "Får fram at kommune- og fylkestingsvalgene er forskjøvet med to år fra stortingsvalget."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En kommune får både rammetilskudd og øremerkede midler fra staten. Forklar hvordan kommunen kan bruke disse pengene på ulike måter.",
+        "fasit": "Kommunen fordeler selv rammetilskuddet. Øremerkede midler er knyttet til bestemte formål.",
+        "kriterier": [
+          "Får fram at kommunen selv fordeler rammetilskuddet.",
+          "Får fram at øremerkede midler er satt av til bestemte formål."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

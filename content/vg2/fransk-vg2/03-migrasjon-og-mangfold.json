@@ -348,6 +348,80 @@
         "correct": 2,
         "explain": "Opptøyene spredte seg til mange byer."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Compare l’immigration venue d’Europe du Sud et celle venue du Maghreb en France. Donne une différence précise concernant le contexte ou la période.",
+        "fasit": "Des personnes sont venues de pays d’Europe du Sud comme l’Italie, l’Espagne et le Portugal. L’immigration du Maghreb a été particulièrement importante après la Seconde Guerre mondiale, lorsque la France avait besoin de main-d’œuvre.",
+        "kriterier": [
+          "Identifie l’Europe du Sud et le Maghreb comme des régions d’origine.",
+          "Indique que l’immigration du Maghreb a été particulièrement importante après la Seconde Guerre mondiale, quand la France avait besoin de travailleurs."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Explique pourquoi les banlieues françaises peuvent être décrites à la fois comme des lieux de difficultés et de créativité.",
+        "fasit": "Beaucoup de personnes y connaissent le chômage et la discrimination. Mais les banlieues sont aussi des lieux de créativité, notamment dans le rap, la danse et le football.",
+        "kriterier": [
+          "Mentionne des difficultés comme le chômage ou la discrimination.",
+          "Présente aussi une forme de créativité, par exemple le rap, la danse ou le football."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Présente les deux points de vue sur la laïcité en France : pourquoi certaines personnes la défendent-elles, et pourquoi d’autres la critiquent-elles ?",
+        "fasit": "La laïcité signifie que l’État est neutre sur le plan religieux, ce qui peut garantir l’égalité. D’autres pensent qu’elle rend plus difficile la discussion sur la discrimination ou l’expression de l’identité religieuse.",
+        "kriterier": [
+          "Explique que la laïcité correspond à la neutralité religieuse de l’État et peut être considérée comme une garantie d’égalité.",
+          "Présente la critique liée à la difficulté de parler de discrimination ou d’exprimer son identité religieuse."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Compare les origines familiales de Zinedine Zidane et de Kylian Mbappé.",
+        "fasit": "Les parents de Zinedine Zidane viennent d’Algérie. Kylian Mbappé a des racines au Cameroun et en Algérie.",
+        "kriterier": [
+          "Associe les parents de Zidane à l’Algérie.",
+          "Indique que Mbappé a des racines au Cameroun et en Algérie."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Une personne veut que l’État français enregistre l’origine ethnique de chaque citoyen. Explique comment la tradition républicaine française se rapporte à cette idée.",
+        "fasit": "Dans la tradition républicaine française, tous les citoyens doivent être égaux. L’État ne relève donc pas l’origine ethnique des citoyens.",
+        "kriterier": [
+          "Explique que le modèle républicain met l’accent sur l’égalité entre les citoyens.",
+          "Indique que l’État ne relève pas l’origine ethnique."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Une personne parle français et une autre langue, et elle dit qu’elle se sent chez elle en France. Explique ce que cette situation montre sur le bilinguisme et l’appartenance.",
+        "fasit": "Cette personne est bilingue, car elle parle deux langues. Elle se sent chez elle en France, ce qui exprime un sentiment d’appartenance.",
+        "kriterier": [
+          "Explique que parler deux langues correspond au bilinguisme.",
+          "Relie le fait de se sentir chez soi à un sentiment d’appartenance."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Paul a dit : « Je t’aime. » Rapporte ses paroles au discours indirect en commençant par « Paul a dit que… ».",
+        "fasit": "Paul a dit qu’il l’aimait.",
+        "kriterier": [
+          "Utilise « aimait » à l’imparfait après « a dit que ».",
+          "Remplace les pronoms de la phrase directe par « il » et « l’ »."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Dans les banlieues françaises, certaines personnes connaissent le chômage et la discrimination, mais on y trouve aussi de la créativité dans le rap, la danse et le football. Explique comment ces faits illustrent l’idée que l’immigration peut enrichir la société alors que l’intégration peut être difficile.",
+        "fasit": "La créativité dans le rap, la danse et le football montre que l’immigration peut enrichir la société. Le chômage et la discrimination vécus dans les banlieues montrent que l’intégration peut aussi être difficile.",
+        "kriterier": [
+          "Relie une forme de créativité des banlieues à l’idée que l’immigration enrichit la société.",
+          "Relie le chômage ou la discrimination à des difficultés d’intégration."
+        ]
+      }
     ]
   },
   "kvalitet": {

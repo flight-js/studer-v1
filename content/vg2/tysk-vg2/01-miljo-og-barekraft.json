@@ -4,78 +4,426 @@
   "trinnId": "vg2",
   "name": "Klima, miljø og bærekraft",
   "intro": "Hvordan du snakker og skriver om klima, miljø og bærekraft på tysk, miljødebatter i Tyskland – fra Fridays for Future til fartsgrenser på Autobahn – og passiv med modalverb.",
-  "kompetansemaal": [4, 5, 8],
+  "kompetansemaal": [
+    4,
+    5,
+    8
+  ],
   "sammendrag": "## Ord om klima og miljø\n\n- *der Klimawandel* – klimaendringene\n- *die Umwelt* – miljøet, *umweltfreundlich* – miljøvennlig\n- *der Treibhauseffekt* – drivhuseffekten, *das Treibhausgas* – drivhusgassen\n- *die Nachhaltigkeit* – bærekraften, *nachhaltig* – bærekraftig\n- *erneuerbare Energien* – fornybare energikilder: *die Windkraft*, *die Solarenergie*\n- *der Müll* – avfallet, *recyceln* – gjenvinne, *die Plastiktüte* – plastposen\n- *der CO₂-Ausstoß* – CO₂-utslippet\n\n## Miljødebatter i Tyskland\n\n- **Die Energiewende** er Tysklands overgang fra kjernekraft og kull til fornybar energi. De siste kjernekraftverkene ble stengt i **2023**, men kull brukes fortsatt.\n- **Fridays for Future** – skolestreikene for klima – fikk stor oppslutning i Tyskland fra **2019**.\n- **Das Tempolimit**: Tyskland har ingen generell **fartsgrense** på store deler av **Autobahn**. Om det bør innføres en fartsgrense for å redusere utslippene, er en klassisk debatt.\n- **Mülltrennung** og **pant** (*Pfand*) er en del av hverdagen.\n\n## Passiv\n\n**Passiv** brukes når **handlingen** er viktigere enn **hvem** som gjør den: *werden* + **partisipp** til slutt.\n\n- *Der Müll **wird** getrennt.* – Avfallet blir sortert.\n- *Viele Flaschen **werden** recycelt.* – Mange flasker blir gjenvunnet.\n\n## Passiv med modalverb\n\nMed **modalverb** står *werden* som **infinitiv** til slutt: modalverb + partisipp + *werden*.\n\n- *Der Müll **muss** getrennt **werden**.* – Avfallet må sorteres.\n- *CO₂ **soll** reduziert **werden**.* – CO₂ skal reduseres.\n- *Es **kann** mehr Energie gespart **werden**.* – Det kan spares mer energi.\n\nEt alternativ er **man** + aktiv: *Man muss den Müll trennen.*\n\n## Å argumentere\n\n- *Ich bin der Meinung, dass …* – Jeg mener at …\n- *Ein wichtiges Argument dafür / dagegen ist …*\n- *Man sollte …* – Man burde …\n- *Es wäre besser, wenn …* – Det ville vært bedre om …\n- *Zusammenfassend kann man sagen, dass …* – Oppsummert kan man si at …\n\n## Sammenligning med Norge\n\nNorge og Tyskland har ulik utgangspunkt: Norge får nesten all strøm fra **vannkraft**, men er en stor **olje- og gasseksportør**. Tyskland har brukt mye **kull**, men har bygd ut mye **vind- og solkraft**. Å se slike **sammenhenger med egen bakgrunn** er en viktig del av faget.",
   "flashcards": [
-    { "term": "der Klimawandel", "def": "klimaendringene" },
-    { "term": "die Umwelt", "def": "miljøet" },
-    { "term": "umweltfreundlich", "def": "miljøvennlig" },
-    { "term": "die Nachhaltigkeit", "def": "bærekraften" },
-    { "term": "erneuerbare Energien", "def": "fornybare energikilder" },
-    { "term": "der Müll", "def": "avfallet" },
-    { "term": "recyceln", "def": "gjenvinne" },
-    { "term": "der CO₂-Ausstoß", "def": "CO₂-utslippet" },
-    { "term": "das Tempolimit", "def": "fartsgrensen" },
-    { "term": "Der Müll wird getrennt.", "def": "Avfallet blir sortert. (passiv)" },
-    { "term": "Der Müll muss getrennt werden.", "def": "Avfallet må sorteres. (passiv med modalverb)" },
-    { "term": "Man sollte …", "def": "Man burde …" },
-    { "term": "Es wäre besser, wenn …", "def": "Det ville vært bedre om …" },
-    { "term": "Ich bin der Meinung, dass …", "def": "Jeg mener at …" },
-    { "term": "Zusammenfassend …", "def": "Oppsummert …" }
+    {
+      "term": "der Klimawandel",
+      "def": "klimaendringene"
+    },
+    {
+      "term": "die Umwelt",
+      "def": "miljøet"
+    },
+    {
+      "term": "umweltfreundlich",
+      "def": "miljøvennlig"
+    },
+    {
+      "term": "die Nachhaltigkeit",
+      "def": "bærekraften"
+    },
+    {
+      "term": "erneuerbare Energien",
+      "def": "fornybare energikilder"
+    },
+    {
+      "term": "der Müll",
+      "def": "avfallet"
+    },
+    {
+      "term": "recyceln",
+      "def": "gjenvinne"
+    },
+    {
+      "term": "der CO₂-Ausstoß",
+      "def": "CO₂-utslippet"
+    },
+    {
+      "term": "das Tempolimit",
+      "def": "fartsgrensen"
+    },
+    {
+      "term": "Der Müll wird getrennt.",
+      "def": "Avfallet blir sortert. (passiv)"
+    },
+    {
+      "term": "Der Müll muss getrennt werden.",
+      "def": "Avfallet må sorteres. (passiv med modalverb)"
+    },
+    {
+      "term": "Man sollte …",
+      "def": "Man burde …"
+    },
+    {
+      "term": "Es wäre besser, wenn …",
+      "def": "Det ville vært bedre om …"
+    },
+    {
+      "term": "Ich bin der Meinung, dass …",
+      "def": "Jeg mener at …"
+    },
+    {
+      "term": "Zusammenfassend …",
+      "def": "Oppsummert …"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr «die Nachhaltigkeit»?", "options": ["forurensningen", "bærekraften", "naturen", "energien"], "correct": 1, "explain": "nachhaltig = bærekraftig." },
-    { "id": "q02", "text": "Hvordan sier du «Avfallet må sorteres»?", "options": ["Der Müll muss getrennt werden.", "Der Müll wird trennen müssen.", "Der Müll muss trennen.", "Der Müll ist getrennt müssen."], "correct": 0, "explain": "Modalverb + partisipp + werden." },
-    { "id": "q03", "text": "Hva er «das Tempolimit»-debatten i Tyskland?", "options": ["En debatt om fotball", "En debatt om skoletid", "En debatt om fartsgrense på Autobahn", "En debatt om arbeidstid"], "correct": 2, "explain": "Store deler av Autobahn har ingen generell fartsgrense." },
-    { "id": "q04", "text": "Hvordan dannes passiv på tysk?", "options": ["haben + partisipp", "sein + infinitiv", "würde + infinitiv", "werden + partisipp"], "correct": 3, "explain": "Der Müll wird getrennt." },
-    { "id": "q05", "text": "Hva betyr «erneuerbare Energien»?", "options": ["fornybare energikilder", "fossile brensler", "kjernekraft", "strømpriser"], "correct": 0, "explain": "For eksempel vind og sol." },
-    { "id": "q06", "text": "Hva betyr «Viele Flaschen werden recycelt»?", "options": ["Mange flasker kastes.", "Mange flasker blir gjenvunnet.", "Mange flasker er tomme.", "Mange flasker skal kjøpes."], "correct": 1, "explain": "Passiv i presens." },
-    { "id": "q07", "text": "Hvilken bevegelse startet skolestreiker for klima?", "options": ["Die Grünen", "Energiewende", "Fridays for Future", "Mülltrennung"], "correct": 2, "explain": "Den fikk stor oppslutning i Tyskland fra 2019." },
-    { "id": "q08", "text": "Hva er et alternativ til passiv på tysk?", "options": ["es gibt", "werden + infinitiv", "haben + zu", "man + aktiv"], "correct": 3, "explain": "Man muss den Müll trennen." },
-    { "id": "q09", "text": "Hva betyr «Es wäre besser, wenn …»?", "options": ["Det ville vært bedre om …", "Det var bedre da …", "Det er bedre når …", "Det blir bedre hvis …"], "correct": 0, "explain": "Konjunktiv II for forslag." },
-    { "id": "q10", "text": "Hva betyr «der Klimawandel»?", "options": ["været", "klimaendringene", "klimatoppmøtet", "drivhuset"], "correct": 1, "explain": "Wandel = endring." }
+    {
+      "id": "q01",
+      "text": "Hva betyr «die Nachhaltigkeit»?",
+      "options": [
+        "forurensningen",
+        "bærekraften",
+        "naturen",
+        "energien"
+      ],
+      "correct": 1,
+      "explain": "nachhaltig = bærekraftig."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan sier du «Avfallet må sorteres»?",
+      "options": [
+        "Der Müll muss getrennt werden.",
+        "Der Müll wird trennen müssen.",
+        "Der Müll muss trennen.",
+        "Der Müll ist getrennt müssen."
+      ],
+      "correct": 0,
+      "explain": "Modalverb + partisipp + werden."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er «das Tempolimit»-debatten i Tyskland?",
+      "options": [
+        "En debatt om fotball",
+        "En debatt om skoletid",
+        "En debatt om fartsgrense på Autobahn",
+        "En debatt om arbeidstid"
+      ],
+      "correct": 2,
+      "explain": "Store deler av Autobahn har ingen generell fartsgrense."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan dannes passiv på tysk?",
+      "options": [
+        "haben + partisipp",
+        "sein + infinitiv",
+        "würde + infinitiv",
+        "werden + partisipp"
+      ],
+      "correct": 3,
+      "explain": "Der Müll wird getrennt."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr «erneuerbare Energien»?",
+      "options": [
+        "fornybare energikilder",
+        "fossile brensler",
+        "kjernekraft",
+        "strømpriser"
+      ],
+      "correct": 0,
+      "explain": "For eksempel vind og sol."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr «Viele Flaschen werden recycelt»?",
+      "options": [
+        "Mange flasker kastes.",
+        "Mange flasker blir gjenvunnet.",
+        "Mange flasker er tomme.",
+        "Mange flasker skal kjøpes."
+      ],
+      "correct": 1,
+      "explain": "Passiv i presens."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken bevegelse startet skolestreiker for klima?",
+      "options": [
+        "Die Grünen",
+        "Energiewende",
+        "Fridays for Future",
+        "Mülltrennung"
+      ],
+      "correct": 2,
+      "explain": "Den fikk stor oppslutning i Tyskland fra 2019."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et alternativ til passiv på tysk?",
+      "options": [
+        "es gibt",
+        "werden + infinitiv",
+        "haben + zu",
+        "man + aktiv"
+      ],
+      "correct": 3,
+      "explain": "Man muss den Müll trennen."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «Es wäre besser, wenn …»?",
+      "options": [
+        "Det ville vært bedre om …",
+        "Det var bedre da …",
+        "Det er bedre når …",
+        "Det blir bedre hvis …"
+      ],
+      "correct": 0,
+      "explain": "Konjunktiv II for forslag."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «der Klimawandel»?",
+      "options": [
+        "været",
+        "klimaendringene",
+        "klimatoppmøtet",
+        "drivhuset"
+      ],
+      "correct": 1,
+      "explain": "Wandel = endring."
+    }
   ],
   "mindmap": {
     "label": "Klima og miljø",
     "children": [
-      { "label": "Ord", "children": [
-        { "label": "Klimawandel" },
-        { "label": "Nachhaltigkeit" },
-        { "label": "erneuerbare Energien" }
-      ] },
-      { "label": "Debatter", "children": [
-        { "label": "Energiewende" },
-        { "label": "Fridays for Future" },
-        { "label": "Tempolimit" }
-      ] },
-      { "label": "Passiv", "children": [
-        { "label": "werden + partisipp" },
-        { "label": "muss … werden" },
-        { "label": "man + aktiv" }
-      ] },
-      { "label": "Argumentere", "children": [
-        { "label": "Ich bin der Meinung" },
-        { "label": "Man sollte" },
-        { "label": "Zusammenfassend" }
-      ] },
-      { "label": "Norge og Tyskland", "children": [
-        { "label": "Vannkraft" },
-        { "label": "Kull og fornybart" }
-      ] }
+      {
+        "label": "Ord",
+        "children": [
+          {
+            "label": "Klimawandel"
+          },
+          {
+            "label": "Nachhaltigkeit"
+          },
+          {
+            "label": "erneuerbare Energien"
+          }
+        ]
+      },
+      {
+        "label": "Debatter",
+        "children": [
+          {
+            "label": "Energiewende"
+          },
+          {
+            "label": "Fridays for Future"
+          },
+          {
+            "label": "Tempolimit"
+          }
+        ]
+      },
+      {
+        "label": "Passiv",
+        "children": [
+          {
+            "label": "werden + partisipp"
+          },
+          {
+            "label": "muss … werden"
+          },
+          {
+            "label": "man + aktiv"
+          }
+        ]
+      },
+      {
+        "label": "Argumentere",
+        "children": [
+          {
+            "label": "Ich bin der Meinung"
+          },
+          {
+            "label": "Man sollte"
+          },
+          {
+            "label": "Zusammenfassend"
+          }
+        ]
+      },
+      {
+        "label": "Norge og Tyskland",
+        "children": [
+          {
+            "label": "Vannkraft"
+          },
+          {
+            "label": "Kull og fornybart"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Tyskland stengte de siste kjernekraftverkene i 2023.", "correct": true, "explain": "Det var en del av Energiewende." },
-      { "id": "m02", "type": "sant-usant", "text": "I passiv med modalverb står «werden» først i setningen.", "correct": false, "explain": "werden står som infinitiv til slutt." },
-      { "id": "m03", "type": "sant-usant", "text": "«umweltfreundlich» betyr miljøvennlig.", "correct": true, "explain": "Umwelt = miljø, freundlich = vennlig." },
-      { "id": "m04", "type": "sant-usant", "text": "Norge får mesteparten av strømmen fra kull.", "correct": false, "explain": "Norge får nesten all strøm fra vannkraft." },
-      { "id": "m05", "type": "flervalg", "text": "Hvordan sier du «CO₂ skal reduseres»?", "options": ["CO₂ wird reduzieren.", "CO₂ soll reduziert werden.", "CO₂ soll reduzieren.", "CO₂ ist reduziert."], "correct": 1, "explain": "Modalverb + partisipp + werden." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr «der Müll»?", "options": ["avfallet", "musikken", "melken", "møllen"], "correct": 0, "explain": "Mülltrennung = kildesortering." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Man sollte weniger fliegen»?", "options": ["Man flyr mindre.", "Man må fly mer.", "Man burde fly mindre.", "Man kan ikke fly."], "correct": 2, "explain": "sollte uttrykker et råd." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Tyskland stengte de siste kjernekraftverkene i 2023.",
+        "correct": true,
+        "explain": "Det var en del av Energiewende."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I passiv med modalverb står «werden» først i setningen.",
+        "correct": false,
+        "explain": "werden står som infinitiv til slutt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«umweltfreundlich» betyr miljøvennlig.",
+        "correct": true,
+        "explain": "Umwelt = miljø, freundlich = vennlig."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Norge får mesteparten av strømmen fra kull.",
+        "correct": false,
+        "explain": "Norge får nesten all strøm fra vannkraft."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvordan sier du «CO₂ skal reduseres»?",
+        "options": [
+          "CO₂ wird reduzieren.",
+          "CO₂ soll reduziert werden.",
+          "CO₂ soll reduzieren.",
+          "CO₂ ist reduziert."
+        ],
+        "correct": 1,
+        "explain": "Modalverb + partisipp + werden."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr «der Müll»?",
+        "options": [
+          "avfallet",
+          "musikken",
+          "melken",
+          "møllen"
+        ],
+        "correct": 0,
+        "explain": "Mülltrennung = kildesortering."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «Man sollte weniger fliegen»?",
+        "options": [
+          "Man flyr mindre.",
+          "Man må fly mer.",
+          "Man burde fly mindre.",
+          "Man kan ikke fly."
+        ],
+        "correct": 2,
+        "explain": "sollte uttrykker et råd."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Erkläre auf Deutsch, was „umweltfreundlich“ bedeutet. Nenne auch ein Beispiel mit „recyceln“.",
+        "fasit": "Umweltfreundlich bedeutet, dass etwas die Umwelt schont. Ein Beispiel ist, dass viele Flaschen recycelt werden.",
+        "kriterier": [
+          "Erklärt, dass umweltfreundlich etwas bezeichnet, das die Umwelt schont.",
+          "Nutzt Recycling als passendes Beispiel."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Erkläre auf Deutsch, was die Energiewende in Deutschland bedeutet. Nenne auch, was nach der Schließung der letzten Kernkraftwerke 2023 weiterhin genutzt wird.",
+        "fasit": "Die Energiewende ist der Übergang von Kernkraft und Kohle zu erneuerbarer Energie. Die letzten Kernkraftwerke wurden 2023 geschlossen, aber Kohle wird weiterhin genutzt.",
+        "kriterier": [
+          "Beschreibt den Übergang von Kernkraft und Kohle zu erneuerbarer Energie.",
+          "Nennt sowohl die Schließung der letzten Kernkraftwerke 2023 als auch die weitere Nutzung von Kohle."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Jemand sagt: „Seit die letzten Kernkraftwerke in Deutschland geschlossen wurden, wird dort keine Kohle mehr genutzt.“ Korrigiere diese Aussage auf Deutsch mit den passenden Fakten.",
+        "fasit": "Die letzten Kernkraftwerke wurden 2023 geschlossen. Kohle wird in Deutschland aber weiterhin genutzt.",
+        "kriterier": [
+          "Unterscheidet die Schließung der Kernkraftwerke von der Nutzung der Kohle.",
+          "Stellt klar, dass Kohle weiterhin genutzt wird."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Vergleiche auf Deutsch die Energieversorgung Norwegens und Deutschlands. Nenne für jedes Land die passenden Energiequellen und eine weitere wichtige Besonderheit.",
+        "fasit": "Norwegen erhält fast seinen ganzen Strom aus Wasserkraft, ist aber ein großer Öl- und Gasexporteur. Deutschland hat viel Kohle genutzt und viel Wind- und Solarenergie ausgebaut.",
+        "kriterier": [
+          "Nennt Norwegens Wasserkraft und seine Rolle als Öl- und Gasexporteur.",
+          "Nennt Deutschlands Kohlenutzung und den Ausbau von Wind- und Solarenergie."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Erkläre auf Deutsch, warum man Passiv in den Sätzen „Der Müll wird getrennt“ und „Viele Flaschen werden recycelt“ verwenden kann. Was steht dabei im Mittelpunkt?",
+        "fasit": "Im Passiv ist die Handlung wichtiger als die Person, die sie ausführt. In den Beispielen stehen das Sortieren des Mülls und das Recyceln der Flaschen im Mittelpunkt.",
+        "kriterier": [
+          "Erklärt, dass die Handlung wichtiger ist als die handelnde Person.",
+          "Bezieht die Erklärung passend auf die Handlungen in den Beispielen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "In einem Umweltprojekt soll das Ziel „CO₂ soll reduziert werden“ genannt werden. Formuliere diesen Gedanken auf Deutsch als Passivsatz mit einem Modalverb.",
+        "fasit": "CO₂ soll reduziert werden.",
+        "kriterier": [
+          "Verwendet einen passenden Passivsatz mit „soll“.",
+          "Setzt das Partizip vor das abschließende „werden“."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Eine Austauschschülerin möchte wissen, welche zwei Umweltpraktiken zum Alltag in Deutschland gehören. Nenne sie auf Deutsch.",
+        "fasit": "Mülltrennung und Pfand gehören in Deutschland zum Alltag.",
+        "kriterier": [
+          "Nennt Mülltrennung als Teil des Alltags in Deutschland.",
+          "Nennt Pfand ebenfalls als Teil des Alltags in Deutschland."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Formuliere auf Deutsch eine kurze Stellungnahme mit „Ich bin der Meinung, dass …“. Begründe die Position, dass Deutschland den Übergang zu erneuerbarer Energie fortsetzen sollte, mit einem passenden Fakt über die Energieversorgung des Landes.",
+        "fasit": "Ich bin der Meinung, dass Deutschland den Übergang zu erneuerbarer Energie fortsetzen sollte, weil dort weiterhin Kohle genutzt wird.",
+        "kriterier": [
+          "Verwendet „Ich bin der Meinung, dass …“ passend.",
+          "Begründet die Position mit dem Fakt, dass Kohle in Deutschland weiterhin genutzt wird."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -355,6 +355,80 @@
         "correct": 2,
         "explain": "Interactivity lets the player influence what happens."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "What is a cultural expression? Explain in your own words and give two examples of things that can be cultural expressions.",
+        "fasit": "A cultural expression is a creative work that expresses culture. Films and music are two examples.",
+        "kriterier": [
+          "Explains that it is a creative work that expresses culture.",
+          "Gives two suitable examples, such as films, music, art or games."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "In a film scene, the camera shows exactly what a character sees. What kind of camera shot is this, and what does the audience see through it?",
+        "fasit": "It is a point-of-view shot. The audience sees the scene from the character’s point of view.",
+        "kriterier": [
+          "Identifies the shot as a point-of-view shot.",
+          "Explains that the audience sees what the character sees."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "A filmmaker wants a happy mood in one scene and suspense in another. Explain how bright colours and dark lighting could help create these different moods.",
+        "fasit": "Bright colours can create a happy mood. Dark lighting can create suspense.",
+        "kriterier": [
+          "Connects bright colours with a happy mood.",
+          "Connects dark lighting with suspense."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "A song has lyrics about sadness, along with a slow tempo and soft instruments. Explain how the music can support the lyrics.",
+        "fasit": "The slow tempo and soft instruments can help create a sad mood. This supports the feelings expressed in the lyrics.",
+        "kriterier": [
+          "Explains that features of the music, such as tempo or instruments, can create a mood.",
+          "Connects that mood to the feelings or meaning in the lyrics."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "In a video game, the player can make choices that change the story. Explain how this makes the player part of the storytelling.",
+        "fasit": "The player’s choices can affect what happens in the story. This means the player helps shape how the story develops.",
+        "kriterier": [
+          "States that the player’s choices can change the story.",
+          "Explains that the player therefore helps shape how it develops."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "A reviewer says that the acting in a film works well and refers to a particular scene as an example. Explain what makes this an evaluation and why the example is useful.",
+        "fasit": "Saying that the acting works well is an evaluation because it judges the film. The example helps explain why the reviewer has that opinion.",
+        "kriterier": [
+          "Identifies the statement about the acting as a judgement or evaluation.",
+          "Explains that the example supports or explains the judgement."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "What could a student learn by exploring English-language films or music from Nigeria or Jamaica as well as from the USA and the UK?",
+        "fasit": "They could discover that English-language culture comes from many countries. Exploring works from different places shows the variety of the English-speaking world.",
+        "kriterier": [
+          "States that English-language culture comes from many countries, not just the USA and the UK.",
+          "Explains that exploring different places shows the variety of the English-speaking world."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "When analysing a YouTube channel, what should you consider about who made it, its audience and its purpose? Explain why these questions matter.",
+        "fasit": "You should consider who made the channel, who it is for and why it was made. These questions can help you understand how it presents people and cultures.",
+        "kriterier": [
+          "Mentions the creator, intended audience and purpose.",
+          "Connects these questions to understanding how people or cultures are presented."
+        ]
+      }
     ]
   },
   "kvalitet": {

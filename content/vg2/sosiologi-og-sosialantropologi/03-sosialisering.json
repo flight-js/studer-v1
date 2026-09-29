@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Sosialisering gjennom hele livet",
   "intro": "Hvordan vi blir en del av samfunnet gjennom primær- og sekundærsosialisering, normer, roller og sanksjoner, Meads teori om selvet og Goffmans rollespill – og hvorfor sosialisering er en livslang prosess.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Hva er sosialisering?\n\n**Sosialisering** er prosessen der vi lærer **normer**, **verdier**, **språk** og **ferdigheter** som gjør oss i stand til å fungere i samfunnet. Gjennom sosialiseringen utvikler vi også **identiteten** vår – hvem vi er, og hvem vi vil være.\n\nMennesket er ikke født ferdig. Arv gir **muligheter**, men miljøet former hvordan de utvikles.\n\n## Primær og sekundær sosialisering\n\n- **Primærsosialisering** skjer i de **første leveårene**, først og fremst i **familien**. Barnet lærer språk, grunnleggende normer, følelsesmessig tilknytning og tillit.\n- **Sekundærsosialisering** skjer **senere** gjennom barnehage, skole, venner, fritidsaktiviteter, arbeidsliv og **medier**. Her lærer vi å fylle ulike **roller** i samfunnet.\n\nNoen snakker også om **tertiær sosialisering** – når voksne lærer nye normer, for eksempel etter flytting til et nytt land.\n\n## Sosialiseringsagenter\n\n**Sosialiseringsagenter** er de som påvirker oss: **familie**, **skole**, **jevnaldrende**, **arbeidsplass**, **religiøse fellesskap** og **medier**. I dag er **sosiale medier** blitt en viktig agent, særlig for unge.\n\n## Normer, roller og sanksjoner\n\n- **Normer** er uskrevne eller skrevne regler for hvordan vi bør oppføre oss.\n- En **rolle** er forventningene som knyttes til en **posisjon** – elev, datter, trener, ansatt. Vi har mange roller samtidig, og de kan komme i **konflikt** med hverandre (**rollekonflikt**).\n- **Sanksjoner** er reaksjoner på atferd. **Positive** sanksjoner er ros og belønning, **negative** er kritikk og straff. **Formelle** sanksjoner kommer fra institusjoner, som bøter eller karakterer, mens **uformelle** kommer fra folk rundt oss, som et blikk eller utestenging.\n\n## Mead: selvet oppstår i samspill\n\n**George Herbert Mead** mente at **selvet** utvikles gjennom samspill med andre:\n\n- **Signifikante andre** – nære personer som foreldre – er de første vi speiler oss i.\n- Gjennom **lek** og **spill** lærer barnet å ta andres perspektiv.\n- Etter hvert tar vi opp i oss samfunnets forventninger – **den generaliserte andre**.\n\nSelvet har to sider: **«meg»** (me), som rommer de innlærte forventningene, og **«jeg»** (I), som er spontan og kreativ.\n\n## Goffman: roller og inntrykksstyring\n\n**Erving Goffman** sammenlignet livet med **teater**. På **scenen** – foran andre – spiller vi roller og prøver å gi et bestemt **inntrykk** (inntrykksstyring). **Bak scenen** kan vi slappe av. På sosiale medier velger mange nøye hva de viser fram.\n\n## En livslang prosess\n\nSosialisering stopper ikke etter barndommen:\n\n- **Ungdom** forhandler om identitet mellom familie, venner og medier.\n- **Nye jobber**, **foreldreskap**, **flytting**, **samlivsbrudd** og **pensjonisttilværelse** krever nye roller og normer.\n- **Resosialisering** skjer når noen må lære helt nye normer, for eksempel etter soning eller i militæret.\n\n## Refleksjon\n\nSosialisering kan både **fremme** og **begrense**: Den gir trygghet og tilhørighet, men kan også føre til press om å passe inn. Samtidig er vi ikke passive – vi **velger**, **forhandler** og kan **bryte** med normer.",
   "flashcards": [
-    { "term": "Sosialisering", "def": "Prosessen der vi lærer normer, verdier og ferdigheter for å fungere i samfunnet." },
-    { "term": "Primærsosialisering", "def": "Tidlig sosialisering, mest i familien." },
-    { "term": "Sekundærsosialisering", "def": "Senere sosialisering gjennom skole, venner, jobb og medier." },
-    { "term": "Tertiær sosialisering", "def": "Når voksne lærer nye normer, for eksempel etter flytting." },
-    { "term": "Sosialiseringsagent", "def": "Den som påvirker sosialiseringen, som familie og medier." },
-    { "term": "Norm", "def": "Regel for hvordan vi bør oppføre oss." },
-    { "term": "Rolle", "def": "Forventninger knyttet til en posisjon." },
-    { "term": "Rollekonflikt", "def": "Når forventningene i ulike roller kolliderer." },
-    { "term": "Positiv sanksjon", "def": "Ros eller belønning." },
-    { "term": "Uformell sanksjon", "def": "Reaksjon fra folk rundt oss, som et blikk eller utestenging." },
-    { "term": "Signifikante andre", "def": "Nære personer barnet speiler seg i." },
-    { "term": "Den generaliserte andre", "def": "Samfunnets forventninger slik vi har tatt dem opp i oss." },
-    { "term": "«Jeg» og «meg» hos Mead", "def": "Den spontane siden og den innlærte siden av selvet." },
-    { "term": "Inntrykksstyring", "def": "Å prøve å gi andre et bestemt inntrykk (Goffman)." },
-    { "term": "Resosialisering", "def": "Å lære helt nye normer, for eksempel etter soning." }
+    {
+      "term": "Sosialisering",
+      "def": "Prosessen der vi lærer normer, verdier og ferdigheter for å fungere i samfunnet."
+    },
+    {
+      "term": "Primærsosialisering",
+      "def": "Tidlig sosialisering, mest i familien."
+    },
+    {
+      "term": "Sekundærsosialisering",
+      "def": "Senere sosialisering gjennom skole, venner, jobb og medier."
+    },
+    {
+      "term": "Tertiær sosialisering",
+      "def": "Når voksne lærer nye normer, for eksempel etter flytting."
+    },
+    {
+      "term": "Sosialiseringsagent",
+      "def": "Den som påvirker sosialiseringen, som familie og medier."
+    },
+    {
+      "term": "Norm",
+      "def": "Regel for hvordan vi bør oppføre oss."
+    },
+    {
+      "term": "Rolle",
+      "def": "Forventninger knyttet til en posisjon."
+    },
+    {
+      "term": "Rollekonflikt",
+      "def": "Når forventningene i ulike roller kolliderer."
+    },
+    {
+      "term": "Positiv sanksjon",
+      "def": "Ros eller belønning."
+    },
+    {
+      "term": "Uformell sanksjon",
+      "def": "Reaksjon fra folk rundt oss, som et blikk eller utestenging."
+    },
+    {
+      "term": "Signifikante andre",
+      "def": "Nære personer barnet speiler seg i."
+    },
+    {
+      "term": "Den generaliserte andre",
+      "def": "Samfunnets forventninger slik vi har tatt dem opp i oss."
+    },
+    {
+      "term": "«Jeg» og «meg» hos Mead",
+      "def": "Den spontane siden og den innlærte siden av selvet."
+    },
+    {
+      "term": "Inntrykksstyring",
+      "def": "Å prøve å gi andre et bestemt inntrykk (Goffman)."
+    },
+    {
+      "term": "Resosialisering",
+      "def": "Å lære helt nye normer, for eksempel etter soning."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvor skjer primærsosialiseringen først og fremst?", "options": ["På skolen", "I familien", "På jobben", "I sosiale medier"], "correct": 1, "explain": "I de første leveårene." },
-    { "id": "q02", "text": "Hva er en rolle?", "options": ["Forventninger knyttet til en posisjon", "En type straff", "En skriftlig lov", "En personlighet"], "correct": 0, "explain": "For eksempel elev eller trener." },
-    { "id": "q03", "text": "Hva er en uformell sanksjon?", "options": ["En bot", "En karakter", "Et blikk eller utestenging fra folk rundt oss", "En dom i retten"], "correct": 2, "explain": "Formelle sanksjoner kommer fra institusjoner." },
-    { "id": "q04", "text": "Hva mente Mead med den generaliserte andre?", "options": ["En bestemt person", "En lærer", "En venn", "Samfunnets forventninger slik vi har tatt dem opp i oss"], "correct": 3, "explain": "Utvikles gjennom lek og spill." },
-    { "id": "q05", "text": "Hva er inntrykksstyring ifølge Goffman?", "options": ["Å prøve å gi andre et bestemt inntrykk", "Å styre et land", "Å lage reklame", "Å skrive dagbok"], "correct": 0, "explain": "Vi spiller roller på scenen." },
-    { "id": "q06", "text": "Hvorfor sies sosialisering å være livslang?", "options": ["Fordi den bare skjer i barndommen", "Fordi nye livsfaser krever nye roller og normer", "Fordi den skjer i søvne", "Fordi den er arvelig"], "correct": 1, "explain": "For eksempel ny jobb eller foreldreskap." },
-    { "id": "q07", "text": "Hva er en rollekonflikt?", "options": ["En krangel på scenen", "At man ikke har noen roller", "At forventningene i ulike roller kolliderer", "At man bytter navn"], "correct": 2, "explain": "For eksempel mellom jobb og familie." },
-    { "id": "q08", "text": "Hva er resosialisering?", "options": ["Sosialisering av barn", "Å gjenta et skoleår", "Å bytte venner", "Å lære helt nye normer, for eksempel etter soning"], "correct": 3, "explain": "Også i militæret." },
-    { "id": "q09", "text": "Hvilken sosialiseringsagent har fått økt betydning for unge de siste årene?", "options": ["Sosiale medier", "Kirken", "Brevvenner", "Radio"], "correct": 0, "explain": "De påvirker normer og selvbilde." },
-    { "id": "q10", "text": "Hva er signifikante andre?", "options": ["Alle mennesker i samfunnet", "Nære personer barnet speiler seg i", "Kjendiser", "Lærere på videregående"], "correct": 1, "explain": "For eksempel foreldre." }
+    {
+      "id": "q01",
+      "text": "Hvor skjer primærsosialiseringen først og fremst?",
+      "options": [
+        "På skolen",
+        "I familien",
+        "På jobben",
+        "I sosiale medier"
+      ],
+      "correct": 1,
+      "explain": "I de første leveårene."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er en rolle?",
+      "options": [
+        "Forventninger knyttet til en posisjon",
+        "En type straff",
+        "En skriftlig lov",
+        "En personlighet"
+      ],
+      "correct": 0,
+      "explain": "For eksempel elev eller trener."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en uformell sanksjon?",
+      "options": [
+        "En bot",
+        "En karakter",
+        "Et blikk eller utestenging fra folk rundt oss",
+        "En dom i retten"
+      ],
+      "correct": 2,
+      "explain": "Formelle sanksjoner kommer fra institusjoner."
+    },
+    {
+      "id": "q04",
+      "text": "Hva mente Mead med den generaliserte andre?",
+      "options": [
+        "En bestemt person",
+        "En lærer",
+        "En venn",
+        "Samfunnets forventninger slik vi har tatt dem opp i oss"
+      ],
+      "correct": 3,
+      "explain": "Utvikles gjennom lek og spill."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er inntrykksstyring ifølge Goffman?",
+      "options": [
+        "Å prøve å gi andre et bestemt inntrykk",
+        "Å styre et land",
+        "Å lage reklame",
+        "Å skrive dagbok"
+      ],
+      "correct": 0,
+      "explain": "Vi spiller roller på scenen."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor sies sosialisering å være livslang?",
+      "options": [
+        "Fordi den bare skjer i barndommen",
+        "Fordi nye livsfaser krever nye roller og normer",
+        "Fordi den skjer i søvne",
+        "Fordi den er arvelig"
+      ],
+      "correct": 1,
+      "explain": "For eksempel ny jobb eller foreldreskap."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en rollekonflikt?",
+      "options": [
+        "En krangel på scenen",
+        "At man ikke har noen roller",
+        "At forventningene i ulike roller kolliderer",
+        "At man bytter navn"
+      ],
+      "correct": 2,
+      "explain": "For eksempel mellom jobb og familie."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er resosialisering?",
+      "options": [
+        "Sosialisering av barn",
+        "Å gjenta et skoleår",
+        "Å bytte venner",
+        "Å lære helt nye normer, for eksempel etter soning"
+      ],
+      "correct": 3,
+      "explain": "Også i militæret."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken sosialiseringsagent har fått økt betydning for unge de siste årene?",
+      "options": [
+        "Sosiale medier",
+        "Kirken",
+        "Brevvenner",
+        "Radio"
+      ],
+      "correct": 0,
+      "explain": "De påvirker normer og selvbilde."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er signifikante andre?",
+      "options": [
+        "Alle mennesker i samfunnet",
+        "Nære personer barnet speiler seg i",
+        "Kjendiser",
+        "Lærere på videregående"
+      ],
+      "correct": 1,
+      "explain": "For eksempel foreldre."
+    }
   ],
   "mindmap": {
     "label": "Sosialisering",
     "children": [
-      { "label": "Faser", "children": [
-        { "label": "Primær" },
-        { "label": "Sekundær" },
-        { "label": "Tertiær og resosialisering" }
-      ] },
-      { "label": "Agenter", "children": [
-        { "label": "Familie og skole" },
-        { "label": "Venner" },
-        { "label": "Medier" }
-      ] },
-      { "label": "Begreper", "children": [
-        { "label": "Normer" },
-        { "label": "Roller" },
-        { "label": "Sanksjoner" }
-      ] },
-      { "label": "Teorier", "children": [
-        { "label": "Mead: selvet" },
-        { "label": "Goffman: teater" }
-      ] },
-      { "label": "Livsløp", "children": [
-        { "label": "Ungdom" },
-        { "label": "Voksenliv" },
-        { "label": "Aktør og press" }
-      ] }
+      {
+        "label": "Faser",
+        "children": [
+          {
+            "label": "Primær"
+          },
+          {
+            "label": "Sekundær"
+          },
+          {
+            "label": "Tertiær og resosialisering"
+          }
+        ]
+      },
+      {
+        "label": "Agenter",
+        "children": [
+          {
+            "label": "Familie og skole"
+          },
+          {
+            "label": "Venner"
+          },
+          {
+            "label": "Medier"
+          }
+        ]
+      },
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Normer"
+          },
+          {
+            "label": "Roller"
+          },
+          {
+            "label": "Sanksjoner"
+          }
+        ]
+      },
+      {
+        "label": "Teorier",
+        "children": [
+          {
+            "label": "Mead: selvet"
+          },
+          {
+            "label": "Goffman: teater"
+          }
+        ]
+      },
+      {
+        "label": "Livsløp",
+        "children": [
+          {
+            "label": "Ungdom"
+          },
+          {
+            "label": "Voksenliv"
+          },
+          {
+            "label": "Aktør og press"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Vi kan ha mange roller samtidig.", "correct": true, "explain": "For eksempel elev, søster og lagkaptein." },
-      { "id": "m02", "type": "sant-usant", "text": "Sosialisering er ferdig når vi er ti år gamle.", "correct": false, "explain": "Den fortsetter gjennom hele livet." },
-      { "id": "m03", "type": "sant-usant", "text": "Ros er et eksempel på en positiv sanksjon.", "correct": true, "explain": "Den belønner ønsket atferd." },
-      { "id": "m04", "type": "sant-usant", "text": "Mennesker er passive mottakere av sosialisering.", "correct": false, "explain": "Vi velger, forhandler og kan bryte med normer." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken side av selvet er spontan og kreativ ifølge Mead?", "options": ["«Meg»", "«Jeg»", "Den generaliserte andre", "Rollen"], "correct": 1, "explain": "«Meg» rommer de innlærte forventningene." },
-      { "id": "m06", "type": "flervalg", "text": "Hva kalles det når en voksen lærer nye normer etter å ha flyttet til et annet land?", "options": ["Tertiær sosialisering", "Primærsosialisering", "Avvik", "Stempling"], "correct": 0, "explain": "Sosialisering i voksen alder." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket eksempel passer med Goffmans «bak scenen»?", "options": ["En presentasjon i klassen", "Et jobbintervju", "Å slappe av hjemme med nære venner", "Å legge ut et nøye valgt bilde"], "correct": 2, "explain": "Der trenger vi ikke spille rollen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Vi kan ha mange roller samtidig.",
+        "correct": true,
+        "explain": "For eksempel elev, søster og lagkaptein."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Sosialisering er ferdig når vi er ti år gamle.",
+        "correct": false,
+        "explain": "Den fortsetter gjennom hele livet."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Ros er et eksempel på en positiv sanksjon.",
+        "correct": true,
+        "explain": "Den belønner ønsket atferd."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Mennesker er passive mottakere av sosialisering.",
+        "correct": false,
+        "explain": "Vi velger, forhandler og kan bryte med normer."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken side av selvet er spontan og kreativ ifølge Mead?",
+        "options": [
+          "«Meg»",
+          "«Jeg»",
+          "Den generaliserte andre",
+          "Rollen"
+        ],
+        "correct": 1,
+        "explain": "«Meg» rommer de innlærte forventningene."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva kalles det når en voksen lærer nye normer etter å ha flyttet til et annet land?",
+        "options": [
+          "Tertiær sosialisering",
+          "Primærsosialisering",
+          "Avvik",
+          "Stempling"
+        ],
+        "correct": 0,
+        "explain": "Sosialisering i voksen alder."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket eksempel passer med Goffmans «bak scenen»?",
+        "options": [
+          "En presentasjon i klassen",
+          "Et jobbintervju",
+          "Å slappe av hjemme med nære venner",
+          "Å legge ut et nøye valgt bilde"
+        ],
+        "correct": 2,
+        "explain": "Der trenger vi ikke spille rollen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva sosialisering er, og nevn to ting vi lærer gjennom denne prosessen.",
+        "fasit": "Sosialisering er prosessen der vi lærer normer, verdier og ferdigheter som gjør oss i stand til å fungere i samfunnet. Gjennom sosialiseringen utvikler vi også identiteten vår.",
+        "kriterier": [
+          "Forklarer at sosialisering er en prosess der vi lærer hvordan vi kan fungere i samfunnet.",
+          "Nevner relevante ting vi lærer, som normer, verdier, språk eller ferdigheter."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign primær- og sekundærsosialisering med hensyn til når de skjer, og hvem eller hva som påvirker oss.",
+        "fasit": "Primærsosialisering skjer i de første leveårene, først og fremst i familien, der barnet blant annet lærer språk og grunnleggende normer. Sekundærsosialisering skjer senere gjennom for eksempel skole, venner, fritidsaktiviteter og medier.",
+        "kriterier": [
+          "Plasserer primærsosialisering i de første leveårene og knytter den særlig til familien.",
+          "Plasserer sekundærsosialisering senere og nevner relevante påvirkere som skole, venner eller medier."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Arv gir mennesker muligheter, mens miljøet former hvordan de utvikles. Forklar sammenhengen mellom arv og miljø med egne ord.",
+        "fasit": "Arv gir oss muligheter, men bestemmer ikke alene hvordan egenskapene våre utvikles. Miljøet vi vokser opp i, påvirker hvordan disse mulighetene blir formet.",
+        "kriterier": [
+          "Får fram at arv gir muligheter, ikke en ferdig utvikling.",
+          "Forklarer at miljøet påvirker eller former hvordan mulighetene utvikles."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En ungdom følger en gruppe på sosiale medier og begynner å bruke uttrykk og følge normer som er vanlige der. Forklar hvilken rolle sosiale medier har i situasjonen, og hva ungdommen lærer.",
+        "fasit": "Sosiale medier fungerer som en sosialiseringsagent fordi de påvirker ungdommen. Ungdommen lærer uttrykk og normer gjennom denne påvirkningen.",
+        "kriterier": [
+          "Identifiserer sosiale medier som en sosialiseringsagent.",
+          "Forklarer at ungdommen lærer normer, språk eller måter å oppføre seg på gjennom påvirkningen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En elev hjelper en medelev, og de andre elevene roser eleven for det. Hva slags sanksjon er dette, og hvorfor?",
+        "fasit": "Dette er en positiv sanksjon fordi eleven får ros for handlingen sin. Reaksjonen kan også kalles uformell fordi den kommer fra folk rundt eleven, ikke fra en institusjon.",
+        "kriterier": [
+          "Forklarer at ros er en positiv sanksjon.",
+          "Knytter reaksjonen til folk rundt eleven dersom svaret også omtaler om den er formell eller uformell."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Mead beskrev selvet med sidene «jeg» og «meg». Sammenlign disse to sidene.",
+        "fasit": "«Meg» er den delen av selvet som rommer forventninger vi har lært fra andre og samfunnet. «Jeg» er den spontane og kreative siden.",
+        "kriterier": [
+          "Forklarer «meg» som innlærte forventninger.",
+          "Forklarer «jeg» som spontan eller kreativ."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En person velger nøye hvilke bilder og opplysninger som skal vises på profilen sin på sosiale medier, men oppfører seg mer avslappet når hen er alene. Bruk Goffmans begreper scene og bak scenen til å forklare forskjellen.",
+        "fasit": "Profilen på sosiale medier kan forstås som en scene der personen viser fram en bestemt side av seg selv for andre. Når personen er alene og slapper mer av, kan det sammenlignes med å være bak scenen.",
+        "kriterier": [
+          "Knytter det som vises på profilen, til scenen og en framvisning for andre.",
+          "Knytter den mer avslappede situasjonen til å være bak scenen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En voksen flytter til et nytt land og lærer normer som er vanlige der. En annen person må etter soning lære helt nye normer. Forklar hva slags sosialisering hver situasjon viser, og hvordan de skiller seg.",
+        "fasit": "Den voksne som flytter, opplever tertiær sosialisering ved å lære nye normer. Personen som må lære helt nye normer etter soning, opplever resosialisering.",
+        "kriterier": [
+          "Identifiserer læring av normer etter flytting som tertiær sosialisering.",
+          "Identifiserer læring av helt nye normer etter soning som resosialisering."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

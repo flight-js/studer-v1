@@ -4,80 +4,430 @@
   "trinnId": "vg2",
   "name": "Klima, arealbruk og truet mangfold",
   "intro": "Hvordan arealendringer, klimaendringer og andre påvirkninger truer det biologiske mangfoldet i Norge og verden – og hvilke tiltak som kan gi en mer bærekraftig forvaltning.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Et mangfold under press\n\nArter har alltid dødd ut, men i dag skjer det **mye raskere** enn det naturlige tempoet. Naturpanelet **IPBES** anslo i 2019 at rundt **én million arter** er truet av utryddelse. De viktigste årsakene er:\n\n1. **Arealendringer** – den største trusselen på land\n2. **Direkte utnytting**, som overfiske og jakt\n3. **Klimaendringer**\n4. **Forurensning**\n5. **Fremmede arter**\n\n## Arealbruk\n\nNår natur blir til **veier**, **boligfelt**, **hyttefelt**, **jordbruksland**, **industri** eller **energianlegg**, forsvinner leveområder. Det kalles **nedbygging**. Selv når noe natur blir igjen, kan den bli **fragmentert** – delt opp i små biter. Små, isolerte bestander er mer sårbare for tilfeldigheter og **innavl**, og mange dyr trenger store sammenhengende områder.\n\nI Norge er for eksempel **myr** et viktig tema. Myrene har mange spesialiserte arter og lagrer store mengder **karbon**. Når myr dreneres eller bygges ned, forsvinner både leveområder og karbonlager. Også **villreinen** er avhengig av store, uforstyrrede fjellområder.\n\n## Klimaendringer\n\nNår klimaet blir varmere, påvirkes artene på flere måter:\n\n- **Utbredelsen flytter seg** nordover og **oppover** i fjellet. Arter som allerede lever høyt og nordlig, som **fjellplanter** og **fjellrev**, kan få mindre plass.\n- **Tidspunkter forskyves**: Våren kommer tidligere, og når planter blomstrer eller insekter klekkes før fuglene har fått unger, kan næringen **mangle** når den trengs mest.\n- **Havet** blir varmere og **surere** fordi det tar opp CO₂. Det kan skade koraller, skjell og plankton, og fiskeslag som **makrell** og **torsk** endrer utbredelse.\n- **Ekstremvær**, tørke og skogbranner kan ramme økosystemer hardt.\n\nKlima og arealbruk **forsterker** hverandre: En art som må flytte på seg på grunn av klimaet, kommer ikke langt i et oppstykket landskap.\n\n## Rødlista og Fremmedartslista\n\n**Artsdatabanken** vurderer hvor truet artene i Norge er. **Norsk rødliste for arter 2021** vurderte rundt **2750 arter** som **truet**. Neste utgave kommer etter planen i 2027. **Fremmedartslista** vurderer arter som er spredt til Norge ved menneskers hjelp, som **stillehavsøsters** og **hagelupin**, og hvor stor økologisk risiko de utgjør.\n\n## Tiltak for en bærekraftig forvaltning\n\n- **Vern**: nasjonalparker, naturreservater og marine verneområder.\n- **Restaurering**: gjenopprette ødelagt natur, for eksempel ved å **tette grøfter** i myr og åpne opp **elver**.\n- **Bedre arealplanlegging**: Kommunene kan bygge på allerede berørte områder og unngå nedbygging av verdifull natur.\n- **Grønne korridorer** som binder leveområder sammen.\n- **Bekjempe fremmede arter**.\n- **Redusere klimagassutslipp**, som også reduserer presset på naturen.\n- **Bærekraftig høsting** av fisk, skog og vilt.\n\nI **Naturavtalen** fra **2022** ble verdens land enige om blant annet å bevare **30 %** av land- og havområdene innen **2030** og å restaurere ødelagt natur. Det er en utfordring å følge opp målene, fordi natur ofte må veies mot andre interesser, som **fornybar energi**, **boliger** og **arbeidsplasser**.",
   "flashcards": [
-    { "term": "IPBES", "def": "Naturpanelet – FNs kunnskapsorgan for natur og mangfold." },
-    { "term": "Største trussel på land", "def": "Arealendringer." },
-    { "term": "Nedbygging", "def": "Når natur blir til veier, bygninger og anlegg." },
-    { "term": "Fragmentering", "def": "At natur deles opp i små, isolerte biter." },
-    { "term": "Innavl", "def": "Paring mellom nære slektninger – et problem i små bestander." },
-    { "term": "Myr", "def": "Våtmark med spesialiserte arter som lagrer mye karbon." },
-    { "term": "Utbredelse flytter seg", "def": "Arter flytter nordover og oppover når klimaet blir varmere." },
-    { "term": "Havforsuring", "def": "Havet blir surere fordi det tar opp CO₂." },
-    { "term": "Artsdatabanken", "def": "Vurderer hvor truet artene i Norge er." },
-    { "term": "Rødlista", "def": "Oversikt over arter med risiko for å dø ut i Norge." },
-    { "term": "Fremmedartslista", "def": "Vurdering av arter spredt til Norge med menneskers hjelp." },
-    { "term": "Fremmed art", "def": "Art spredt utenfor sitt naturlige område med menneskers hjelp, som stillehavsøsters." },
-    { "term": "Restaurering", "def": "Å gjenopprette ødelagt natur." },
-    { "term": "Grønne korridorer", "def": "Naturstriper som binder leveområder sammen." },
-    { "term": "Naturavtalen (2022)", "def": "Mål om å bevare 30 % av land og hav innen 2030." }
+    {
+      "term": "IPBES",
+      "def": "Naturpanelet – FNs kunnskapsorgan for natur og mangfold."
+    },
+    {
+      "term": "Største trussel på land",
+      "def": "Arealendringer."
+    },
+    {
+      "term": "Nedbygging",
+      "def": "Når natur blir til veier, bygninger og anlegg."
+    },
+    {
+      "term": "Fragmentering",
+      "def": "At natur deles opp i små, isolerte biter."
+    },
+    {
+      "term": "Innavl",
+      "def": "Paring mellom nære slektninger – et problem i små bestander."
+    },
+    {
+      "term": "Myr",
+      "def": "Våtmark med spesialiserte arter som lagrer mye karbon."
+    },
+    {
+      "term": "Utbredelse flytter seg",
+      "def": "Arter flytter nordover og oppover når klimaet blir varmere."
+    },
+    {
+      "term": "Havforsuring",
+      "def": "Havet blir surere fordi det tar opp CO₂."
+    },
+    {
+      "term": "Artsdatabanken",
+      "def": "Vurderer hvor truet artene i Norge er."
+    },
+    {
+      "term": "Rødlista",
+      "def": "Oversikt over arter med risiko for å dø ut i Norge."
+    },
+    {
+      "term": "Fremmedartslista",
+      "def": "Vurdering av arter spredt til Norge med menneskers hjelp."
+    },
+    {
+      "term": "Fremmed art",
+      "def": "Art spredt utenfor sitt naturlige område med menneskers hjelp, som stillehavsøsters."
+    },
+    {
+      "term": "Restaurering",
+      "def": "Å gjenopprette ødelagt natur."
+    },
+    {
+      "term": "Grønne korridorer",
+      "def": "Naturstriper som binder leveområder sammen."
+    },
+    {
+      "term": "Naturavtalen (2022)",
+      "def": "Mål om å bevare 30 % av land og hav innen 2030."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er den største trusselen mot mangfoldet på land ifølge IPBES?", "options": ["Klimaendringer", "Arealendringer", "Fremmede arter", "Jakt"], "correct": 1, "explain": "Nedbygging og ødeleggelse av leveområder." },
-    { "id": "q02", "text": "Hva er fragmentering?", "options": ["At natur deles opp i små, isolerte biter", "At arter blir større", "At isen smelter", "At havet blir surere"], "correct": 0, "explain": "Små bestander blir mer sårbare." },
-    { "id": "q03", "text": "Hvorfor er myr viktig?", "options": ["Den har ingen arter", "Den gir mye tømmer", "Den har spesialiserte arter og lagrer mye karbon", "Den er lett å bygge på"], "correct": 2, "explain": "Nedbygging slipper ut karbon." },
-    { "id": "q04", "text": "Hvordan påvirker et varmere klima utbredelsen til arter?", "options": ["Artene flytter sørover", "Ingenting skjer", "Alle arter får mer plass", "Artene flytter nordover og oppover i fjellet"], "correct": 3, "explain": "Fjellarter kan få mindre plass." },
-    { "id": "q05", "text": "Hva er havforsuring?", "options": ["At havet blir surere fordi det tar opp CO₂", "At havet blir saltere", "At havet fryser", "At havet får mer oksygen"], "correct": 0, "explain": "Det kan skade koraller og skjell." },
-    { "id": "q06", "text": "Hva vurderer Fremmedartslista?", "options": ["Truede norske arter", "Arter spredt til Norge med menneskers hjelp og risikoen de utgjør", "Utdødde arter", "Fiskekvoter"], "correct": 1, "explain": "For eksempel stillehavsøsters og hagelupin." },
-    { "id": "q07", "text": "Hvordan kan man restaurere en drenert myr?", "options": ["Plante gran", "Bygge veier", "Tette grøftene", "Brenne den"], "correct": 2, "explain": "Da kommer vannet tilbake." },
-    { "id": "q08", "text": "Hvorfor forsterker klimaendringer og arealbruk hverandre?", "options": ["De gjør det ikke", "Arealbruk gir alltid kaldere klima", "Klimaendringer stopper nedbygging", "Arter som må flytte, kommer ikke langt i et oppstykket landskap"], "correct": 3, "explain": "Grønne korridorer kan hjelpe." },
-    { "id": "q09", "text": "Hva er et av hovedmålene i Naturavtalen fra 2022?", "options": ["Å bevare 30 % av land- og havområdene innen 2030", "Å stanse all fiske", "Å bygge flere veier", "Å plante 30 % mer skog i Norge"], "correct": 0, "explain": "Ofte kalt 30 × 30." },
-    { "id": "q10", "text": "Hvilken art er avhengig av store, uforstyrrede fjellområder i Norge?", "options": ["Brunrotte", "Villrein", "Stillehavsøsters", "Hagelupin"], "correct": 1, "explain": "Veier og hytter fragmenterer leveområdene." }
+    {
+      "id": "q01",
+      "text": "Hva er den største trusselen mot mangfoldet på land ifølge IPBES?",
+      "options": [
+        "Klimaendringer",
+        "Arealendringer",
+        "Fremmede arter",
+        "Jakt"
+      ],
+      "correct": 1,
+      "explain": "Nedbygging og ødeleggelse av leveområder."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er fragmentering?",
+      "options": [
+        "At natur deles opp i små, isolerte biter",
+        "At arter blir større",
+        "At isen smelter",
+        "At havet blir surere"
+      ],
+      "correct": 0,
+      "explain": "Små bestander blir mer sårbare."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor er myr viktig?",
+      "options": [
+        "Den har ingen arter",
+        "Den gir mye tømmer",
+        "Den har spesialiserte arter og lagrer mye karbon",
+        "Den er lett å bygge på"
+      ],
+      "correct": 2,
+      "explain": "Nedbygging slipper ut karbon."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan påvirker et varmere klima utbredelsen til arter?",
+      "options": [
+        "Artene flytter sørover",
+        "Ingenting skjer",
+        "Alle arter får mer plass",
+        "Artene flytter nordover og oppover i fjellet"
+      ],
+      "correct": 3,
+      "explain": "Fjellarter kan få mindre plass."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er havforsuring?",
+      "options": [
+        "At havet blir surere fordi det tar opp CO₂",
+        "At havet blir saltere",
+        "At havet fryser",
+        "At havet får mer oksygen"
+      ],
+      "correct": 0,
+      "explain": "Det kan skade koraller og skjell."
+    },
+    {
+      "id": "q06",
+      "text": "Hva vurderer Fremmedartslista?",
+      "options": [
+        "Truede norske arter",
+        "Arter spredt til Norge med menneskers hjelp og risikoen de utgjør",
+        "Utdødde arter",
+        "Fiskekvoter"
+      ],
+      "correct": 1,
+      "explain": "For eksempel stillehavsøsters og hagelupin."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan kan man restaurere en drenert myr?",
+      "options": [
+        "Plante gran",
+        "Bygge veier",
+        "Tette grøftene",
+        "Brenne den"
+      ],
+      "correct": 2,
+      "explain": "Da kommer vannet tilbake."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor forsterker klimaendringer og arealbruk hverandre?",
+      "options": [
+        "De gjør det ikke",
+        "Arealbruk gir alltid kaldere klima",
+        "Klimaendringer stopper nedbygging",
+        "Arter som må flytte, kommer ikke langt i et oppstykket landskap"
+      ],
+      "correct": 3,
+      "explain": "Grønne korridorer kan hjelpe."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et av hovedmålene i Naturavtalen fra 2022?",
+      "options": [
+        "Å bevare 30 % av land- og havområdene innen 2030",
+        "Å stanse all fiske",
+        "Å bygge flere veier",
+        "Å plante 30 % mer skog i Norge"
+      ],
+      "correct": 0,
+      "explain": "Ofte kalt 30 × 30."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken art er avhengig av store, uforstyrrede fjellområder i Norge?",
+      "options": [
+        "Brunrotte",
+        "Villrein",
+        "Stillehavsøsters",
+        "Hagelupin"
+      ],
+      "correct": 1,
+      "explain": "Veier og hytter fragmenterer leveområdene."
+    }
   ],
   "mindmap": {
     "label": "Klima, arealbruk og mangfold",
     "children": [
-      { "label": "Trusler", "children": [
-        { "label": "Arealendringer" },
-        { "label": "Klimaendringer" },
-        { "label": "Fremmede arter" },
-        { "label": "Forurensning og overhøsting" }
-      ] },
-      { "label": "Arealbruk", "children": [
-        { "label": "Nedbygging" },
-        { "label": "Fragmentering" },
-        { "label": "Myr og villrein" }
-      ] },
-      { "label": "Klima", "children": [
-        { "label": "Utbredelse flytter seg" },
-        { "label": "Tidsforskyvning" },
-        { "label": "Havforsuring" }
-      ] },
-      { "label": "Kunnskap", "children": [
-        { "label": "Rødlista" },
-        { "label": "Fremmedartslista" },
-        { "label": "IPBES" }
-      ] },
-      { "label": "Tiltak", "children": [
-        { "label": "Vern og restaurering" },
-        { "label": "Arealplanlegging" },
-        { "label": "Naturavtalen" }
-      ] }
+      {
+        "label": "Trusler",
+        "children": [
+          {
+            "label": "Arealendringer"
+          },
+          {
+            "label": "Klimaendringer"
+          },
+          {
+            "label": "Fremmede arter"
+          },
+          {
+            "label": "Forurensning og overhøsting"
+          }
+        ]
+      },
+      {
+        "label": "Arealbruk",
+        "children": [
+          {
+            "label": "Nedbygging"
+          },
+          {
+            "label": "Fragmentering"
+          },
+          {
+            "label": "Myr og villrein"
+          }
+        ]
+      },
+      {
+        "label": "Klima",
+        "children": [
+          {
+            "label": "Utbredelse flytter seg"
+          },
+          {
+            "label": "Tidsforskyvning"
+          },
+          {
+            "label": "Havforsuring"
+          }
+        ]
+      },
+      {
+        "label": "Kunnskap",
+        "children": [
+          {
+            "label": "Rødlista"
+          },
+          {
+            "label": "Fremmedartslista"
+          },
+          {
+            "label": "IPBES"
+          }
+        ]
+      },
+      {
+        "label": "Tiltak",
+        "children": [
+          {
+            "label": "Vern og restaurering"
+          },
+          {
+            "label": "Arealplanlegging"
+          },
+          {
+            "label": "Naturavtalen"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Små, isolerte bestander er mer sårbare for innavl.", "correct": true, "explain": "Det er få individer å pare seg med." },
-      { "id": "m02", "type": "sant-usant", "text": "Arter dør ut i samme tempo i dag som før mennesket påvirket naturen.", "correct": false, "explain": "Tempoet er i dag mye høyere." },
-      { "id": "m03", "type": "sant-usant", "text": "Tidligere vår kan gi mangel på mat når fugleungene trenger den.", "correct": true, "explain": "Insektene kan klekkes før ungene." },
-      { "id": "m04", "type": "sant-usant", "text": "Utbygging av fornybar energi har aldri konsekvenser for naturen.", "correct": false, "explain": "Også fornybar energi krever areal og må veies mot naturhensyn." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken institusjon lager Norsk rødliste for arter?", "options": ["Statistisk sentralbyrå", "Artsdatabanken", "Folkehelseinstituttet", "Meteorologisk institutt"], "correct": 1, "explain": "Den vurderer risiko for utdøing." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er en grønn korridor?", "options": ["En naturstripe som binder leveområder sammen", "En sykkelvei", "Et drivhus", "En type fremmed art"], "correct": 0, "explain": "Den gjør det lettere for arter å flytte seg." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken art står på Fremmedartslista?", "options": ["Villrein", "Fjellrev", "Hagelupin", "Bever"], "correct": 2, "explain": "Den fortrenger stedegne planter." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Små, isolerte bestander er mer sårbare for innavl.",
+        "correct": true,
+        "explain": "Det er få individer å pare seg med."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Arter dør ut i samme tempo i dag som før mennesket påvirket naturen.",
+        "correct": false,
+        "explain": "Tempoet er i dag mye høyere."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Tidligere vår kan gi mangel på mat når fugleungene trenger den.",
+        "correct": true,
+        "explain": "Insektene kan klekkes før ungene."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Utbygging av fornybar energi har aldri konsekvenser for naturen.",
+        "correct": false,
+        "explain": "Også fornybar energi krever areal og må veies mot naturhensyn."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken institusjon lager Norsk rødliste for arter?",
+        "options": [
+          "Statistisk sentralbyrå",
+          "Artsdatabanken",
+          "Folkehelseinstituttet",
+          "Meteorologisk institutt"
+        ],
+        "correct": 1,
+        "explain": "Den vurderer risiko for utdøing."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en grønn korridor?",
+        "options": [
+          "En naturstripe som binder leveområder sammen",
+          "En sykkelvei",
+          "Et drivhus",
+          "En type fremmed art"
+        ],
+        "correct": 0,
+        "explain": "Den gjør det lettere for arter å flytte seg."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken art står på Fremmedartslista?",
+        "options": [
+          "Villrein",
+          "Fjellrev",
+          "Hagelupin",
+          "Bever"
+        ],
+        "correct": 2,
+        "explain": "Den fortrenger stedegne planter."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr innavl, og hvorfor kan det være et problem for en liten, isolert bestand?",
+        "fasit": "Innavl betyr at nære slektninger får avkom med hverandre. Det kan gjøre små, isolerte bestander mer sårbare.",
+        "kriterier": [
+          "Forklarer at innavl skjer mellom nære slektninger.",
+          "Knytter innavl til økt sårbarhet i små eller isolerte bestander."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Våren kommer tidligere, og planter kan blomstre eller insekter klekkes før fuglene har fått unger. Forklar hvordan dette kan påvirke fuglene.",
+        "fasit": "Fugleungene kan trenge næring etter at plantene har blomstret eller insektene har klekket. Da kan maten mangle når ungene trenger den.",
+        "kriterier": [
+          "Forklarer at tidspunktet for mattilgang forskyves i forhold til fuglenes behov.",
+          "Knytter dette til mulig mangel på næring for fugleungene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign Norsk rødliste for arter og Fremmedartslista: Hva vurderer de hver for seg?",
+        "fasit": "Norsk rødliste vurderer risikoen for at arter i Norge dør ut. Fremmedartslista vurderer arter som er spredt til Norge ved menneskers hjelp, og den økologiske risikoen de utgjør.",
+        "kriterier": [
+          "Beskriver at Rødlista vurderer arters risiko for å dø ut i Norge.",
+          "Beskriver at Fremmedartslista vurderer menneskespredte arter og deres økologiske risiko."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En kommune skal bygge boliger og kan velge mellom et allerede berørt område og et område med verdifull natur. Hvilket område bør kommunen prioritere, og hvorfor?",
+        "fasit": "Kommunen bør prioritere det allerede berørte området. Da kan den unngå å bygge ned verdifull natur og dermed redusere tapet av leveområder.",
+        "kriterier": [
+          "Velger det allerede berørte området.",
+          "Begrunner valget med at det unngår nedbygging av verdifull natur eller tap av leveområder."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign vern og restaurering som tiltak for naturmangfold. Ta med ett eksempel på hvert tiltak.",
+        "fasit": "Vern beskytter naturområder, for eksempel gjennom naturreservater. Restaurering gjenoppretter ødelagt natur, for eksempel ved å åpne opp elver.",
+        "kriterier": [
+          "Forklarer at vern beskytter naturområder, med et relevant eksempel.",
+          "Forklarer at restaurering gjenoppretter ødelagt natur, med et relevant eksempel."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Nevn et tiltak som kan binde leveområder sammen, og forklar hvordan det kan hjelpe arter.",
+        "fasit": "Grønne korridorer er naturstriper som binder leveområder sammen. De kan gjøre det lettere for arter å bevege seg mellom områdene.",
+        "kriterier": [
+          "Nevner grønne korridorer eller naturstriper som binder leveområder sammen.",
+          "Forklarer at sammenbindingen gjør det lettere for arter å bevege seg mellom områdene."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Naturavtalen har et mål om å bevare 30 % av land- og havområdene. Hvis hele arealet regnes som 100 %, hvor mange prosentpoeng gjenstår fra 30 % til 100 %? Vis regnestykket.",
+        "fasit": "100 % − 30 % = 70 prosentpoeng.",
+        "kriterier": [
+          "Viser regnestykket 100 % − 30 %.",
+          "Oppgir svaret 70 prosentpoeng."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Norsk rødliste vurderte rundt 2750 arter som truet i 2021. Hvor mange arter ville det tilsvare hvis antallet hypotetisk ble doblet? Vis det viktigste regnestykket.",
+        "fasit": "2750 × 2 = 5500, altså rundt 5500 arter.",
+        "kriterier": [
+          "Viser at antallet skal dobles, for eksempel med 2750 × 2.",
+          "Oppgir rundt 5500 arter."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

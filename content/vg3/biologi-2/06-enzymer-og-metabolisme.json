@@ -4,79 +4,427 @@
   "trinnId": "vg3",
   "name": "Enzymer og metabolisme",
   "intro": "Hvordan enzymer fungerer – aktivt sete, aktiveringsenergi og spesifisitet – hvordan temperatur, pH og konsentrasjon påvirker enzymaktiviteten, hemming og koenzymer, og hvilken rolle enzymer spiller i metabolske prosesser og regulering av stoffskiftet.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Metabolisme\n\n**Metabolisme** – **stoffskifte** – er alle de kjemiske reaksjonene i en organisme.\n\n- **Katabolisme**: store molekyler **brytes ned** til mindre, og energi **frigjøres**, som i celleåndingen.\n- **Anabolisme**: store molekyler **bygges opp** av mindre, og det **krever** energi, som i proteinsyntesen og fotosyntesen.\n\nEnergien overføres mellom prosessene med **ATP**, cellens «energivaluta».\n\n## Enzymer\n\nNesten alle reaksjonene i metabolismen er katalysert av **enzymer**. Enzymer er som regel **proteiner**. De\n\n- **senker aktiveringsenergien** og gjør at reaksjonene går raskt ved **kroppstemperatur**\n- blir **ikke** forbrukt\n- er svært **spesifikke** – hvert enzym virker vanligvis på ett **substrat** eller én type reaksjon\n\n## Aktivt sete\n\nSubstratet binder seg til enzymets **aktive sete** og danner et **enzym–substrat-kompleks**. Etter **indusert tilpasning**-modellen endrer det aktive setet **form** litt når substratet bindes, slik at reaksjonen lettere skjer. Produktene slippes, og enzymet kan brukes **igjen**.\n\n## Faktorer som påvirker enzymaktivitet\n\n- **Temperatur**: Aktiviteten øker med temperaturen opp til et **optimum**. Ved høyere temperatur **denatureres** enzymet – proteinets form ødelegges.\n- **pH**: Hvert enzym har et **pH-optimum**. **Pepsin** i magesekken virker best i **sur** løsning, **amylase** i spytt nær **nøytral** pH.\n- **Substratkonsentrasjon**: Mer substrat gir raskere reaksjon til alle aktive seter er **opptatt** – enzymet er **mettet**.\n- **Enzymkonsentrasjon**: Flere enzymer gir raskere reaksjon når det er nok substrat.\n\n## Hemming\n\n- **Kompetitiv hemming**: En hemmer som ligner substratet, **konkurrerer** om det aktive setet. Mer substrat kan **utkonkurrere** hemmeren.\n- **Ikke-kompetitiv hemming**: Hemmeren binder seg et **annet sted** og endrer enzymets form, så det aktive setet virker dårligere.\n\nMange **medisiner** og **gifter** virker ved å hemme enzymer.\n\n## Koenzymer og kofaktorer\n\nMange enzymer trenger **hjelpemolekyler**:\n\n- **Kofaktorer** er ofte **metallioner**, som jern, sink og magnesium.\n- **Koenzymer** er organiske molekyler, ofte laget av **vitaminer**. **NAD⁺** og **FAD** frakter **elektroner** i celleåndingen.\n\nDette er en grunn til at vi trenger **vitaminer** og **mineraler**.\n\n## Metabolske veier og regulering\n\nMetabolske prosesser foregår i **metabolske veier** – rekker av reaksjoner der **produktet** fra ett enzym er **substrat** for det neste.\n\nVeiene **reguleres** blant annet ved **tilbakekoblingshemming**: Sluttproduktet hemmer et av de **første** enzymene i veien. Når det er nok produkt, stopper produksjonen, og cellen sparer energi og ressurser.\n\nEnzymer reguleres også ved at cellen **endrer** mengden enzym gjennom **genuttrykk**, og ved at **hormoner** aktiverer eller hemmer enzymer.\n\n## Enzymer i hverdagen\n\nEnzymer brukes i **vaskemidler**, **ostelaging**, **baking**, **bryggerier** og **medisinsk diagnostikk**. **Laktoseintoleranse** skyldes for lite av enzymet **laktase**, som bryter ned melkesukker.",
   "flashcards": [
-    { "term": "Metabolisme", "def": "Alle kjemiske reaksjoner i en organisme." },
-    { "term": "Katabolisme", "def": "Nedbrytning som frigjør energi." },
-    { "term": "Anabolisme", "def": "Oppbygging som krever energi." },
-    { "term": "ATP", "def": "Cellens energivaluta." },
-    { "term": "Enzym", "def": "Biologisk katalysator, som regel et protein." },
-    { "term": "Aktivt sete", "def": "Stedet der substratet bindes." },
-    { "term": "Enzym–substrat-kompleks", "def": "Enzymet og substratet bundet sammen." },
-    { "term": "Temperaturoptimum", "def": "Temperaturen der enzymet virker best." },
-    { "term": "Denaturering", "def": "Enzymets form ødelegges av varme eller feil pH." },
-    { "term": "Metning", "def": "Alle aktive seter er opptatt." },
-    { "term": "Kompetitiv hemming", "def": "Hemmer konkurrerer om det aktive setet." },
-    { "term": "Ikke-kompetitiv hemming", "def": "Hemmer binder et annet sted og endrer enzymets form." },
-    { "term": "Koenzym", "def": "Organisk hjelpemolekyl, ofte laget av vitaminer, som NAD⁺." },
-    { "term": "Tilbakekoblingshemming", "def": "Sluttproduktet hemmer et tidlig enzym i veien." },
-    { "term": "Laktase", "def": "Enzym som bryter ned melkesukker." }
+    {
+      "term": "Metabolisme",
+      "def": "Alle kjemiske reaksjoner i en organisme."
+    },
+    {
+      "term": "Katabolisme",
+      "def": "Nedbrytning som frigjør energi."
+    },
+    {
+      "term": "Anabolisme",
+      "def": "Oppbygging som krever energi."
+    },
+    {
+      "term": "ATP",
+      "def": "Cellens energivaluta."
+    },
+    {
+      "term": "Enzym",
+      "def": "Biologisk katalysator, som regel et protein."
+    },
+    {
+      "term": "Aktivt sete",
+      "def": "Stedet der substratet bindes."
+    },
+    {
+      "term": "Enzym–substrat-kompleks",
+      "def": "Enzymet og substratet bundet sammen."
+    },
+    {
+      "term": "Temperaturoptimum",
+      "def": "Temperaturen der enzymet virker best."
+    },
+    {
+      "term": "Denaturering",
+      "def": "Enzymets form ødelegges av varme eller feil pH."
+    },
+    {
+      "term": "Metning",
+      "def": "Alle aktive seter er opptatt."
+    },
+    {
+      "term": "Kompetitiv hemming",
+      "def": "Hemmer konkurrerer om det aktive setet."
+    },
+    {
+      "term": "Ikke-kompetitiv hemming",
+      "def": "Hemmer binder et annet sted og endrer enzymets form."
+    },
+    {
+      "term": "Koenzym",
+      "def": "Organisk hjelpemolekyl, ofte laget av vitaminer, som NAD⁺."
+    },
+    {
+      "term": "Tilbakekoblingshemming",
+      "def": "Sluttproduktet hemmer et tidlig enzym i veien."
+    },
+    {
+      "term": "Laktase",
+      "def": "Enzym som bryter ned melkesukker."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er katabolisme?", "options": ["Oppbygging som krever energi", "Nedbrytning som frigjør energi", "Fotosyntese", "Proteinsyntese"], "correct": 1, "explain": "For eksempel celleånding." },
-    { "id": "q02", "text": "Hvordan øker enzymer reaksjonsfarten?", "options": ["Ved å senke aktiveringsenergien", "Ved å øke temperaturen", "Ved å bli forbrukt", "Ved å endre ΔH"], "correct": 0, "explain": "Reaksjonen går raskt ved kroppstemperatur." },
-    { "id": "q03", "text": "Hva skjer ved for høy temperatur?", "options": ["Enzymet blir raskere hele tiden", "Enzymet endrer substrat", "Enzymet denatureres", "Ingenting"], "correct": 2, "explain": "Proteinets form ødelegges." },
-    { "id": "q04", "text": "Hvorfor øker ikke reaksjonsfarten når substratkonsentrasjonen er svært høy?", "options": ["Fordi enzymet er brukt opp", "Fordi substratet er feil", "Fordi pH er feil", "Fordi alle aktive seter er opptatt"], "correct": 3, "explain": "Enzymet er mettet." },
-    { "id": "q05", "text": "Hva er kompetitiv hemming?", "options": ["En hemmer konkurrerer med substratet om det aktive setet", "En hemmer binder et annet sted", "Enzymet denatureres", "Substratet endres"], "correct": 0, "explain": "Mer substrat kan utkonkurrere hemmeren." },
-    { "id": "q06", "text": "Hva er tilbakekoblingshemming?", "options": ["At enzymet stopper for alltid", "At sluttproduktet hemmer et tidlig enzym i veien", "At substratet hemmer enzymet", "At temperaturen senkes"], "correct": 1, "explain": "Sparer energi og ressurser." },
-    { "id": "q07", "text": "Hvor virker pepsin best?", "options": ["I nøytral løsning", "I basisk løsning", "I sur løsning i magesekken", "Ved 100 °C"], "correct": 2, "explain": "Tilpasset magesyren." },
-    { "id": "q08", "text": "Hva er NAD⁺?", "options": ["Et substrat", "Et hormon", "Et mineral", "Et koenzym som frakter elektroner"], "correct": 3, "explain": "Brukes i celleåndingen." },
-    { "id": "q09", "text": "Hva skyldes laktoseintoleranse?", "options": ["For lite av enzymet laktase", "For mye laktase", "For mye melk", "For lite pepsin"], "correct": 0, "explain": "Melkesukker brytes ikke ned." },
-    { "id": "q10", "text": "Hva er en metabolsk vei?", "options": ["En enkelt reaksjon", "En rekke reaksjoner der produktet fra ett enzym er substrat for det neste", "Et organ", "En type hormon"], "correct": 1, "explain": "Reguleres blant annet av tilbakekobling." }
+    {
+      "id": "q01",
+      "text": "Hva er katabolisme?",
+      "options": [
+        "Oppbygging som krever energi",
+        "Nedbrytning som frigjør energi",
+        "Fotosyntese",
+        "Proteinsyntese"
+      ],
+      "correct": 1,
+      "explain": "For eksempel celleånding."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan øker enzymer reaksjonsfarten?",
+      "options": [
+        "Ved å senke aktiveringsenergien",
+        "Ved å øke temperaturen",
+        "Ved å bli forbrukt",
+        "Ved å endre ΔH"
+      ],
+      "correct": 0,
+      "explain": "Reaksjonen går raskt ved kroppstemperatur."
+    },
+    {
+      "id": "q03",
+      "text": "Hva skjer ved for høy temperatur?",
+      "options": [
+        "Enzymet blir raskere hele tiden",
+        "Enzymet endrer substrat",
+        "Enzymet denatureres",
+        "Ingenting"
+      ],
+      "correct": 2,
+      "explain": "Proteinets form ødelegges."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor øker ikke reaksjonsfarten når substratkonsentrasjonen er svært høy?",
+      "options": [
+        "Fordi enzymet er brukt opp",
+        "Fordi substratet er feil",
+        "Fordi pH er feil",
+        "Fordi alle aktive seter er opptatt"
+      ],
+      "correct": 3,
+      "explain": "Enzymet er mettet."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er kompetitiv hemming?",
+      "options": [
+        "En hemmer konkurrerer med substratet om det aktive setet",
+        "En hemmer binder et annet sted",
+        "Enzymet denatureres",
+        "Substratet endres"
+      ],
+      "correct": 0,
+      "explain": "Mer substrat kan utkonkurrere hemmeren."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er tilbakekoblingshemming?",
+      "options": [
+        "At enzymet stopper for alltid",
+        "At sluttproduktet hemmer et tidlig enzym i veien",
+        "At substratet hemmer enzymet",
+        "At temperaturen senkes"
+      ],
+      "correct": 1,
+      "explain": "Sparer energi og ressurser."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor virker pepsin best?",
+      "options": [
+        "I nøytral løsning",
+        "I basisk løsning",
+        "I sur løsning i magesekken",
+        "Ved 100 °C"
+      ],
+      "correct": 2,
+      "explain": "Tilpasset magesyren."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er NAD⁺?",
+      "options": [
+        "Et substrat",
+        "Et hormon",
+        "Et mineral",
+        "Et koenzym som frakter elektroner"
+      ],
+      "correct": 3,
+      "explain": "Brukes i celleåndingen."
+    },
+    {
+      "id": "q09",
+      "text": "Hva skyldes laktoseintoleranse?",
+      "options": [
+        "For lite av enzymet laktase",
+        "For mye laktase",
+        "For mye melk",
+        "For lite pepsin"
+      ],
+      "correct": 0,
+      "explain": "Melkesukker brytes ikke ned."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en metabolsk vei?",
+      "options": [
+        "En enkelt reaksjon",
+        "En rekke reaksjoner der produktet fra ett enzym er substrat for det neste",
+        "Et organ",
+        "En type hormon"
+      ],
+      "correct": 1,
+      "explain": "Reguleres blant annet av tilbakekobling."
+    }
   ],
   "mindmap": {
     "label": "Enzymer og metabolisme",
     "children": [
-      { "label": "Metabolisme", "children": [
-        { "label": "Katabolisme" },
-        { "label": "Anabolisme" },
-        { "label": "ATP" }
-      ] },
-      { "label": "Enzymer", "children": [
-        { "label": "Aktivt sete" },
-        { "label": "Spesifisitet" },
-        { "label": "Lavere aktiveringsenergi" }
-      ] },
-      { "label": "Faktorer", "children": [
-        { "label": "Temperatur" },
-        { "label": "pH" },
-        { "label": "Konsentrasjoner" }
-      ] },
-      { "label": "Hemming og hjelpere", "children": [
-        { "label": "Kompetitiv" },
-        { "label": "Ikke-kompetitiv" },
-        { "label": "Koenzymer og kofaktorer" }
-      ] },
-      { "label": "Regulering", "children": [
-        { "label": "Metabolske veier" },
-        { "label": "Tilbakekobling" },
-        { "label": "Genuttrykk og hormoner" }
-      ] }
+      {
+        "label": "Metabolisme",
+        "children": [
+          {
+            "label": "Katabolisme"
+          },
+          {
+            "label": "Anabolisme"
+          },
+          {
+            "label": "ATP"
+          }
+        ]
+      },
+      {
+        "label": "Enzymer",
+        "children": [
+          {
+            "label": "Aktivt sete"
+          },
+          {
+            "label": "Spesifisitet"
+          },
+          {
+            "label": "Lavere aktiveringsenergi"
+          }
+        ]
+      },
+      {
+        "label": "Faktorer",
+        "children": [
+          {
+            "label": "Temperatur"
+          },
+          {
+            "label": "pH"
+          },
+          {
+            "label": "Konsentrasjoner"
+          }
+        ]
+      },
+      {
+        "label": "Hemming og hjelpere",
+        "children": [
+          {
+            "label": "Kompetitiv"
+          },
+          {
+            "label": "Ikke-kompetitiv"
+          },
+          {
+            "label": "Koenzymer og kofaktorer"
+          }
+        ]
+      },
+      {
+        "label": "Regulering",
+        "children": [
+          {
+            "label": "Metabolske veier"
+          },
+          {
+            "label": "Tilbakekobling"
+          },
+          {
+            "label": "Genuttrykk og hormoner"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange medisiner virker ved å hemme enzymer.", "correct": true, "explain": "Også mange gifter." },
-      { "id": "m02", "type": "sant-usant", "text": "Et enzym blir brukt opp etter én reaksjon.", "correct": false, "explain": "Enzymet kan brukes igjen." },
-      { "id": "m03", "type": "sant-usant", "text": "Mange koenzymer lages av vitaminer.", "correct": true, "explain": "En grunn til at vi trenger vitaminer." },
-      { "id": "m04", "type": "sant-usant", "text": "Alle enzymer har samme pH-optimum.", "correct": false, "explain": "Pepsin virker best i sur løsning, amylase nær nøytral." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken prosess er anabolsk?", "options": ["Celleånding", "Proteinsyntese", "Fordøyelse", "Glykolyse"], "correct": 1, "explain": "Bygger opp store molekyler." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er en kofaktor ofte?", "options": ["Et metallion", "Et vitamin alltid", "Et hormon", "Et substrat"], "correct": 0, "explain": "For eksempel sink eller magnesium." },
-      { "id": "m07", "type": "flervalg", "text": "Hvor brukes enzymer i hverdagen?", "options": ["Bare på sykehus", "Bare i bilmotorer", "I vaskemidler, ostelaging og baking", "Ingen steder"], "correct": 2, "explain": "Mange industrielle anvendelser." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange medisiner virker ved å hemme enzymer.",
+        "correct": true,
+        "explain": "Også mange gifter."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et enzym blir brukt opp etter én reaksjon.",
+        "correct": false,
+        "explain": "Enzymet kan brukes igjen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange koenzymer lages av vitaminer.",
+        "correct": true,
+        "explain": "En grunn til at vi trenger vitaminer."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle enzymer har samme pH-optimum.",
+        "correct": false,
+        "explain": "Pepsin virker best i sur løsning, amylase nær nøytral."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken prosess er anabolsk?",
+        "options": [
+          "Celleånding",
+          "Proteinsyntese",
+          "Fordøyelse",
+          "Glykolyse"
+        ],
+        "correct": 1,
+        "explain": "Bygger opp store molekyler."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en kofaktor ofte?",
+        "options": [
+          "Et metallion",
+          "Et vitamin alltid",
+          "Et hormon",
+          "Et substrat"
+        ],
+        "correct": 0,
+        "explain": "For eksempel sink eller magnesium."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvor brukes enzymer i hverdagen?",
+        "options": [
+          "Bare på sykehus",
+          "Bare i bilmotorer",
+          "I vaskemidler, ostelaging og baking",
+          "Ingen steder"
+        ],
+        "correct": 2,
+        "explain": "Mange industrielle anvendelser."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign katabolisme og anabolisme. Forklar også hvordan ATP knytter disse prosessene til cellens energibruk.",
+        "fasit": "Katabolisme bryter ned store molekyler til mindre og frigjør energi, mens anabolisme bygger opp store molekyler og krever energi. ATP overfører energi mellom prosessene og fungerer som cellens energivaluta.",
+        "kriterier": [
+          "Forklarer riktig forskjellen mellom nedbrytning og oppbygging, inkludert hvordan energi frigjøres eller kreves.",
+          "Forklarer at ATP overfører energi mellom prosessene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Beskriv hva som skjer når et substrat binder seg til et enzyms aktive sete, og hvordan enzymet kan brukes på nytt etter reaksjonen.",
+        "fasit": "Substratet binder seg til det aktive setet og danner et enzym–substrat-kompleks. Setet endrer form litt ved bindingen, slik at reaksjonen lettere skjer; deretter slippes produktene, og enzymet kan brukes igjen.",
+        "kriterier": [
+          "Forklarer at bindingen danner et enzym–substrat-kompleks og at det aktive setet tilpasser formen sin.",
+          "Får fram at produktene slippes, slik at enzymet ikke forbrukes og kan brukes igjen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En prøve med amylase fra spytt settes i en sur løsning, mens en prøve med pepsin fra magesekken settes i en nær nøytral løsning. Forklar hvordan pH-forholdene påvirker forventet aktivitet i de to prøvene.",
+        "fasit": "Begge enzymene forventes å ha lavere aktivitet enn ved sitt pH-optimum. Amylase virker best nær nøytral pH, mens pepsin virker best i sur løsning.",
+        "kriterier": [
+          "Knytter amylases beste aktivitet til nær nøytral pH og forklarer at sur løsning ikke er gunstig for det.",
+          "Knytter pepsins beste aktivitet til sur pH og forklarer at nær nøytral løsning ikke er gunstig for det."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En hemmer X ligner substratet og binder seg til enzymets aktive sete. En hemmer Y binder seg et annet sted på enzymet og endrer formen på det aktive setet. Sammenlign hemmingstypene, og forklar hvilken hemmer mer substrat kan utkonkurrere.",
+        "fasit": "X gir kompetitiv hemming fordi den konkurrerer med substratet om det aktive setet, og mer substrat kan utkonkurrere den. Y gir ikke-kompetitiv hemming fordi den binder et annet sted og endrer enzymets form.",
+        "kriterier": [
+          "Forklarer at X konkurrerer om det aktive setet, og at mer substrat kan utkonkurrere X.",
+          "Forklarer at Y binder et annet sted og hemmer ved å endre enzymets form."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et enzym trenger enten magnesiumioner eller NAD⁺ som hjelpemolekyl. Klassifiser hvert hjelpemolekyl som kofaktor eller koenzym, og forklar forskjellen på typene.",
+        "fasit": "Magnesiumioner er en kofaktor, mens NAD⁺ er et koenzym. Kofaktorer er ofte metallioner, mens koenzymer er organiske molekyler og ofte lages av vitaminer.",
+        "kriterier": [
+          "Klassifiserer magnesiumioner som kofaktor og NAD⁺ som koenzym.",
+          "Forklarer forskjellen mellom metallioner og organiske hjelpemolekyler."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I en tenkt måling bryter et enzym ned 12 g substrat på 4 minutter. Regn ut den gjennomsnittlige nedbrytingsfarten i gram per minutt. Vis regnestykket.",
+        "fasit": "Den gjennomsnittlige farten er 12 g ÷ 4 min = 3 g/min.",
+        "kriterier": [
+          "Deler mengden substrat på tiden.",
+          "Oppgir svaret 3 g/min."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et prøverør inneholder 20 mg substrat. Et enzym bryter ned 4 mg per minutt i 3 minutter, og det er nok substrat hele tiden. Hvor mye substrat er igjen etter 3 minutter? Vis det viktigste regnestykket.",
+        "fasit": "Enzymet bryter ned 4 mg × 3 = 12 mg. Da er 20 mg − 12 mg = 8 mg substrat igjen.",
+        "kriterier": [
+          "Beregner at 12 mg substrat brytes ned på 3 minutter.",
+          "Oppgir at 8 mg substrat er igjen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En celle har rikelig med substrat til en bestemt reaksjon. Cellen øker mengden av enzymet som katalyserer reaksjonen. Forklar hvordan dette forventes å påvirke reaksjonsfarten, og hvorfor.",
+        "fasit": "Reaksjonsfarten forventes å øke fordi flere enzymmolekyler gir flere aktive seter som kan binde substrat. Dette gjelder når det er nok substrat tilgjengelig.",
+        "kriterier": [
+          "Forutsier at reaksjonsfarten øker når enzymkonsentrasjonen øker og det er nok substrat.",
+          "Begrunner dette med at flere enzymer kan binde substrat ved aktive seter."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

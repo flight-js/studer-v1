@@ -4,79 +4,427 @@
   "trinnId": "vg2",
   "name": "Urfolk – mangfold og rettigheter",
   "intro": "Hva som kjennetegner urfolk, mangfoldet i urfolks kulturer og samfunnsliv i verden, samenes historie og rettigheter i Norge, og aktuelle spørsmål om land, språk, selvbestemmelse og forsoning.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Hvem er urfolk?\n\nDet finnes rundt **476 millioner** urfolk i over **90 land**. Etter **ILO-konvensjon nr. 169** er urfolk folk som nedstammer fra dem som bodde i et område **før** koloniseringen eller dagens statsgrenser ble trukket, og som helt eller delvis har bevart egne **sosiale**, **økonomiske**, **kulturelle** og **politiske** institusjoner. **Selvidentifikasjon** – at folk selv regner seg som urfolk – er et grunnleggende kriterium.\n\n## Stort mangfold\n\nUrfolk er **svært ulike**:\n\n- **Inuitter** i Arktis har tradisjonelt levd av fangst av sel og hval.\n- **Maorier** i New Zealand er polynesiske folk; **Waitangi-traktaten** fra 1840 er grunnlaget for deres forhold til staten.\n- **Aboriginere** og **Torres Strait-øyboere** i Australia har en av verdens eldste sammenhengende kulturer.\n- Mange **urfolk i Amazonas** lever av jakt, fiske og svedjebruk i regnskogen.\n- **Samer** i Norge, Sverige, Finland og Russland.\n\nMange urfolk bor i dag i **byer**, har moderne yrker og bruker ny teknologi – samtidig som de holder på språk, tradisjoner og tilknytning til land. Urfolkskultur er altså **ikke** noe som tilhører fortiden.\n\n## Felles erfaringer\n\nMange urfolk deler erfaringer med\n\n- **kolonisering** og tap av **land** og **naturressurser**\n- **assimileringspolitikk**, som internatskoler der barn ble tatt fra familiene sine og måtte slutte å snakke eget språk\n- **diskriminering** og dårligere helse og levekår enn majoriteten\n- press fra **gruvedrift**, **energiutbygging** og **klimaendringer**\n\n## Samene\n\n**Samene** er urfolk i Norge. Det finnes flere **samiske språk**, blant annet **nordsamisk**, **lulesamisk** og **sørsamisk**. Samisk kultur omfatter blant annet **reindrift**, fiske, jordbruk, **joik**, **duodji** (håndverk) og **kofte**.\n\n**Fornorskningspolitikken** fra midten av 1800-tallet og langt ut på 1900-tallet skulle gjøre samer og kvener «norske». Samisk språk ble forbudt i skolen, og mange barn bodde på **internatskoler**. **Sannhets- og forsoningskommisjonen** la i **2023** fram en rapport om fornorskningen og uretten den førte til.\n\n**Altasaken** rundt 1980 ble et vendepunkt: Protestene mot utbyggingen av Alta-Kautokeino-vassdraget førte til at samenes rettigheter kom på dagsordenen.\n\n## Rettigheter\n\n- **Grunnloven § 108**: Staten skal legge forholdene til rette for at samene kan sikre og utvikle språket, kulturen og samfunnslivet sitt.\n- **Sametinget** (fra **1989**) er samenes folkevalgte organ.\n- Norge var i **1990** det første landet som ratifiserte **ILO-konvensjon 169**.\n- **FNs erklæring om urfolks rettigheter** (2007).\n- **Finnmarksloven** (2005) ga befolkningen i Finnmark, samer og andre, mer råderett over grunnen.\n- **6. februar** er **samefolkets dag**.\n\n## Aktuelle spørsmål\n\n**Fosen-saken**: I **2021** slo **Høyesterett** fast at vindkraftverk på Fosen krenket reindriftssamenes rett til kulturutøvelse etter FNs konvensjon om sivile og politiske rettigheter. Saken førte til store protester i **2023**, før partene inngikk avtaler i 2023 og 2024.\n\nAndre spørsmål er **språkrevitalisering**, **representasjon** i media, retten til **konsultasjon** når staten tar beslutninger som berører samiske interesser, og hvordan **klimaendringer** påvirker reindriften.\n\n## Refleksjon\n\nUrfolks rettigheter reiser spørsmål om **likebehandling** og **særrettigheter**: Er det rettferdig at en gruppe har egne rettigheter? Tilhengere peker på at rettighetene skal **rette opp** tidligere urett og sikre at kulturen kan leve videre – i tråd med menneskerettighetene.",
   "flashcards": [
-    { "term": "Urfolk", "def": "Folk som bodde i et område før kolonisering eller statsgrenser, med egne institusjoner." },
-    { "term": "Antall urfolk i verden", "def": "Rundt 476 millioner i over 90 land." },
-    { "term": "ILO-konvensjon 169", "def": "Internasjonal konvensjon om urfolks rettigheter; Norge ratifiserte først, i 1990." },
-    { "term": "Selvidentifikasjon", "def": "At folk selv regner seg som urfolk." },
-    { "term": "Waitangi-traktaten", "def": "Avtale fra 1840 mellom maorier og britene." },
-    { "term": "Samiske språk", "def": "Blant annet nordsamisk, lulesamisk og sørsamisk." },
-    { "term": "Duodji", "def": "Samisk håndverk." },
-    { "term": "Joik", "def": "Tradisjonell samisk sangform." },
-    { "term": "Fornorskning", "def": "Politikk for å gjøre samer og kvener «norske»." },
-    { "term": "Sannhets- og forsoningskommisjonen", "def": "La fram rapport om fornorskningen i 2023." },
-    { "term": "Altasaken", "def": "Protester rundt 1980 som satte samenes rettigheter på dagsordenen." },
-    { "term": "Sametinget", "def": "Samenes folkevalgte organ fra 1989." },
-    { "term": "Grunnloven § 108", "def": "Staten skal legge til rette for samisk språk, kultur og samfunnsliv." },
-    { "term": "Samefolkets dag", "def": "6. februar." },
-    { "term": "Fosen-dommen", "def": "Høyesterett 2021: vindkraftverk krenket reindriftssamenes rettigheter." }
+    {
+      "term": "Urfolk",
+      "def": "Folk som bodde i et område før kolonisering eller statsgrenser, med egne institusjoner."
+    },
+    {
+      "term": "Antall urfolk i verden",
+      "def": "Rundt 476 millioner i over 90 land."
+    },
+    {
+      "term": "ILO-konvensjon 169",
+      "def": "Internasjonal konvensjon om urfolks rettigheter; Norge ratifiserte først, i 1990."
+    },
+    {
+      "term": "Selvidentifikasjon",
+      "def": "At folk selv regner seg som urfolk."
+    },
+    {
+      "term": "Waitangi-traktaten",
+      "def": "Avtale fra 1840 mellom maorier og britene."
+    },
+    {
+      "term": "Samiske språk",
+      "def": "Blant annet nordsamisk, lulesamisk og sørsamisk."
+    },
+    {
+      "term": "Duodji",
+      "def": "Samisk håndverk."
+    },
+    {
+      "term": "Joik",
+      "def": "Tradisjonell samisk sangform."
+    },
+    {
+      "term": "Fornorskning",
+      "def": "Politikk for å gjøre samer og kvener «norske»."
+    },
+    {
+      "term": "Sannhets- og forsoningskommisjonen",
+      "def": "La fram rapport om fornorskningen i 2023."
+    },
+    {
+      "term": "Altasaken",
+      "def": "Protester rundt 1980 som satte samenes rettigheter på dagsordenen."
+    },
+    {
+      "term": "Sametinget",
+      "def": "Samenes folkevalgte organ fra 1989."
+    },
+    {
+      "term": "Grunnloven § 108",
+      "def": "Staten skal legge til rette for samisk språk, kultur og samfunnsliv."
+    },
+    {
+      "term": "Samefolkets dag",
+      "def": "6. februar."
+    },
+    {
+      "term": "Fosen-dommen",
+      "def": "Høyesterett 2021: vindkraftverk krenket reindriftssamenes rettigheter."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er et grunnleggende kriterium for å være urfolk?", "options": ["Å bo på landsbygda", "Selvidentifikasjon og nedstamming fra folk som bodde der før statsgrensene", "Å snakke engelsk", "Å drive reindrift"], "correct": 1, "explain": "Etter ILO-konvensjon 169." },
-    { "id": "q02", "text": "Når ble Sametinget opprettet?", "options": ["1989", "1814", "1945", "2005"], "correct": 0, "explain": "Samenes folkevalgte organ." },
-    { "id": "q03", "text": "Hva var fornorskningspolitikken?", "options": ["Å lære turister norsk", "En politikk for flere språk", "En politikk for å gjøre samer og kvener «norske»", "En handelsavtale"], "correct": 2, "explain": "Samisk ble blant annet forbudt i skolen." },
-    { "id": "q04", "text": "Hva slo Høyesterett fast i Fosen-saken i 2021?", "options": ["At vindkraft er ulovlig i Norge", "At reindrift må avvikles", "At Sametinget skal legges ned", "At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse"], "correct": 3, "explain": "Etter FNs konvensjon om sivile og politiske rettigheter." },
-    { "id": "q05", "text": "Hvilket land ratifiserte først ILO-konvensjon 169?", "options": ["Norge", "Sverige", "Australia", "USA"], "correct": 0, "explain": "I 1990." },
-    { "id": "q06", "text": "Hvilken erfaring deler mange urfolk?", "options": ["At de alltid har hatt full selvbestemmelse", "Kolonisering, tap av land og assimileringspolitikk", "At de ikke har egne språk", "At de bare bor i Europa"], "correct": 1, "explain": "Også diskriminering." },
-    { "id": "q07", "text": "Hva var Altasaken?", "options": ["En fotballkamp", "En handelsavtale", "Protester mot utbyggingen av Alta-Kautokeino-vassdraget", "En skolereform"], "correct": 2, "explain": "Et vendepunkt rundt 1980." },
-    { "id": "q08", "text": "Hvorfor er det feil å se urfolkskultur som noe som bare tilhører fortiden?", "options": ["Fordi urfolk ikke har tradisjoner", "Fordi alle urfolk bor i storbyer", "Fordi kulturen er forbudt", "Fordi mange lever moderne liv samtidig som de holder på språk og tradisjoner"], "correct": 3, "explain": "Kultur er levende og i endring." },
-    { "id": "q09", "text": "Hva la Sannhets- og forsoningskommisjonen fram i 2023?", "options": ["En rapport om fornorskningen og uretten den førte til", "En ny grunnlov", "Et forslag om å legge ned Sametinget", "En plan for vindkraft"], "correct": 0, "explain": "Om samer, kvener og skogfinner." },
-    { "id": "q10", "text": "Hva sier Grunnloven § 108?", "options": ["At samisk er forbudt", "At staten skal legge til rette for samisk språk, kultur og samfunnsliv", "At alle må snakke samisk", "At samer ikke har stemmerett"], "correct": 1, "explain": "Tidligere § 110 a, fra 1988." }
+    {
+      "id": "q01",
+      "text": "Hva er et grunnleggende kriterium for å være urfolk?",
+      "options": [
+        "Å bo på landsbygda",
+        "Selvidentifikasjon og nedstamming fra folk som bodde der før statsgrensene",
+        "Å snakke engelsk",
+        "Å drive reindrift"
+      ],
+      "correct": 1,
+      "explain": "Etter ILO-konvensjon 169."
+    },
+    {
+      "id": "q02",
+      "text": "Når ble Sametinget opprettet?",
+      "options": [
+        "1989",
+        "1814",
+        "1945",
+        "2005"
+      ],
+      "correct": 0,
+      "explain": "Samenes folkevalgte organ."
+    },
+    {
+      "id": "q03",
+      "text": "Hva var fornorskningspolitikken?",
+      "options": [
+        "Å lære turister norsk",
+        "En politikk for flere språk",
+        "En politikk for å gjøre samer og kvener «norske»",
+        "En handelsavtale"
+      ],
+      "correct": 2,
+      "explain": "Samisk ble blant annet forbudt i skolen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva slo Høyesterett fast i Fosen-saken i 2021?",
+      "options": [
+        "At vindkraft er ulovlig i Norge",
+        "At reindrift må avvikles",
+        "At Sametinget skal legges ned",
+        "At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse"
+      ],
+      "correct": 3,
+      "explain": "Etter FNs konvensjon om sivile og politiske rettigheter."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket land ratifiserte først ILO-konvensjon 169?",
+      "options": [
+        "Norge",
+        "Sverige",
+        "Australia",
+        "USA"
+      ],
+      "correct": 0,
+      "explain": "I 1990."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken erfaring deler mange urfolk?",
+      "options": [
+        "At de alltid har hatt full selvbestemmelse",
+        "Kolonisering, tap av land og assimileringspolitikk",
+        "At de ikke har egne språk",
+        "At de bare bor i Europa"
+      ],
+      "correct": 1,
+      "explain": "Også diskriminering."
+    },
+    {
+      "id": "q07",
+      "text": "Hva var Altasaken?",
+      "options": [
+        "En fotballkamp",
+        "En handelsavtale",
+        "Protester mot utbyggingen av Alta-Kautokeino-vassdraget",
+        "En skolereform"
+      ],
+      "correct": 2,
+      "explain": "Et vendepunkt rundt 1980."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er det feil å se urfolkskultur som noe som bare tilhører fortiden?",
+      "options": [
+        "Fordi urfolk ikke har tradisjoner",
+        "Fordi alle urfolk bor i storbyer",
+        "Fordi kulturen er forbudt",
+        "Fordi mange lever moderne liv samtidig som de holder på språk og tradisjoner"
+      ],
+      "correct": 3,
+      "explain": "Kultur er levende og i endring."
+    },
+    {
+      "id": "q09",
+      "text": "Hva la Sannhets- og forsoningskommisjonen fram i 2023?",
+      "options": [
+        "En rapport om fornorskningen og uretten den førte til",
+        "En ny grunnlov",
+        "Et forslag om å legge ned Sametinget",
+        "En plan for vindkraft"
+      ],
+      "correct": 0,
+      "explain": "Om samer, kvener og skogfinner."
+    },
+    {
+      "id": "q10",
+      "text": "Hva sier Grunnloven § 108?",
+      "options": [
+        "At samisk er forbudt",
+        "At staten skal legge til rette for samisk språk, kultur og samfunnsliv",
+        "At alle må snakke samisk",
+        "At samer ikke har stemmerett"
+      ],
+      "correct": 1,
+      "explain": "Tidligere § 110 a, fra 1988."
+    }
   ],
   "mindmap": {
     "label": "Urfolk",
     "children": [
-      { "label": "Definisjon", "children": [
-        { "label": "ILO 169" },
-        { "label": "Selvidentifikasjon" }
-      ] },
-      { "label": "Mangfold", "children": [
-        { "label": "Inuitter" },
-        { "label": "Maorier" },
-        { "label": "Aboriginere" },
-        { "label": "Samer" }
-      ] },
-      { "label": "Felles erfaringer", "children": [
-        { "label": "Kolonisering" },
-        { "label": "Assimilering" },
-        { "label": "Press på land" }
-      ] },
-      { "label": "Samer i Norge", "children": [
-        { "label": "Språk og kultur" },
-        { "label": "Fornorskning" },
-        { "label": "Altasaken" }
-      ] },
-      { "label": "Rettigheter", "children": [
-        { "label": "Grunnloven § 108" },
-        { "label": "Sametinget" },
-        { "label": "Fosen-saken" }
-      ] }
+      {
+        "label": "Definisjon",
+        "children": [
+          {
+            "label": "ILO 169"
+          },
+          {
+            "label": "Selvidentifikasjon"
+          }
+        ]
+      },
+      {
+        "label": "Mangfold",
+        "children": [
+          {
+            "label": "Inuitter"
+          },
+          {
+            "label": "Maorier"
+          },
+          {
+            "label": "Aboriginere"
+          },
+          {
+            "label": "Samer"
+          }
+        ]
+      },
+      {
+        "label": "Felles erfaringer",
+        "children": [
+          {
+            "label": "Kolonisering"
+          },
+          {
+            "label": "Assimilering"
+          },
+          {
+            "label": "Press på land"
+          }
+        ]
+      },
+      {
+        "label": "Samer i Norge",
+        "children": [
+          {
+            "label": "Språk og kultur"
+          },
+          {
+            "label": "Fornorskning"
+          },
+          {
+            "label": "Altasaken"
+          }
+        ]
+      },
+      {
+        "label": "Rettigheter",
+        "children": [
+          {
+            "label": "Grunnloven § 108"
+          },
+          {
+            "label": "Sametinget"
+          },
+          {
+            "label": "Fosen-saken"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Det finnes flere samiske språk.", "correct": true, "explain": "Blant annet nordsamisk, lulesamisk og sørsamisk." },
-      { "id": "m02", "type": "sant-usant", "text": "Alle urfolk lever av jakt og fangst.", "correct": false, "explain": "Urfolk har svært ulike levemåter, og mange bor i byer." },
-      { "id": "m03", "type": "sant-usant", "text": "6. februar er samefolkets dag.", "correct": true, "explain": "Til minne om landsmøtet i Trondheim i 1917." },
-      { "id": "m04", "type": "sant-usant", "text": "Kvener er urfolk i Norge.", "correct": false, "explain": "Kvener er en nasjonal minoritet; samer er urfolk." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er duodji?", "options": ["En samisk sang", "Samisk håndverk", "Et samisk festmåltid", "En samisk høytid"], "correct": 1, "explain": "Joik er sangformen." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken avtale er grunnlaget for maorienes forhold til staten i New Zealand?", "options": ["Waitangi-traktaten", "Finnmarksloven", "ILO 169", "Versailles-traktaten"], "correct": 0, "explain": "Fra 1840." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket argument brukes for særrettigheter for urfolk?", "options": ["At urfolk er bedre enn andre", "At særrettigheter er gratis", "At de skal rette opp tidligere urett og sikre at kulturen kan leve videre", "At majoriteten ikke har kultur"], "correct": 2, "explain": "I tråd med menneskerettighetene." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Det finnes flere samiske språk.",
+        "correct": true,
+        "explain": "Blant annet nordsamisk, lulesamisk og sørsamisk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle urfolk lever av jakt og fangst.",
+        "correct": false,
+        "explain": "Urfolk har svært ulike levemåter, og mange bor i byer."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "6. februar er samefolkets dag.",
+        "correct": true,
+        "explain": "Til minne om landsmøtet i Trondheim i 1917."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kvener er urfolk i Norge.",
+        "correct": false,
+        "explain": "Kvener er en nasjonal minoritet; samer er urfolk."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er duodji?",
+        "options": [
+          "En samisk sang",
+          "Samisk håndverk",
+          "Et samisk festmåltid",
+          "En samisk høytid"
+        ],
+        "correct": 1,
+        "explain": "Joik er sangformen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken avtale er grunnlaget for maorienes forhold til staten i New Zealand?",
+        "options": [
+          "Waitangi-traktaten",
+          "Finnmarksloven",
+          "ILO 169",
+          "Versailles-traktaten"
+        ],
+        "correct": 0,
+        "explain": "Fra 1840."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket argument brukes for særrettigheter for urfolk?",
+        "options": [
+          "At urfolk er bedre enn andre",
+          "At særrettigheter er gratis",
+          "At de skal rette opp tidligere urett og sikre at kulturen kan leve videre",
+          "At majoriteten ikke har kultur"
+        ],
+        "correct": 2,
+        "explain": "I tråd med menneskerettighetene."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva kjennetegner et urfolk ifølge definisjonen i ILO-konvensjon nr. 169?",
+        "fasit": "Urfolk nedstammer fra folk som bodde i et område før koloniseringen eller dagens statsgrenser ble etablert. De har helt eller delvis bevart egne sosiale, økonomiske, kulturelle og politiske institusjoner.",
+        "kriterier": [
+          "Forklarer at folkets tilknytning til området går tilbake til før kolonisering eller dagens statsgrenser.",
+          "Får fram at egne institusjoner er bevart helt eller delvis."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign inuitter og maorier ved å beskrive hvor de hører hjemme og én opplysning som er særskilt for hver av gruppene.",
+        "fasit": "Inuitter holder til i Arktis og har tradisjonelt levd av fangst av sel og hval. Maorier er et polynesisk folk i New Zealand, og Waitangi-traktaten fra 1840 er grunnlaget for forholdet deres til staten.",
+        "kriterier": [
+          "Knytter inuittene til Arktis og nevner tradisjonell fangst av sel eller hval.",
+          "Knytter maoriene til New Zealand og nevner Waitangi-traktatens betydning eller bakgrunn."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hvordan kunne fornorskningspolitikken påvirke samiske barn og samisk språk?",
+        "fasit": "Samiske barn kunne bli tatt fra familiene sine og sendt på internatskole. Når samisk språk ble forbudt i skolen, fikk barna ikke bruke språket der, noe som bidro til press mot samisk språk og kultur.",
+        "kriterier": [
+          "Forklarer at internatskoler kunne skille barn fra familiene deres.",
+          "Knytter språkforbudet i skolen til press mot bruken av samisk."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En samisk ungdom bor i en by, bruker ny teknologi og har en moderne jobb, men snakker samisk og holder på samiske tradisjoner. Hva viser situasjonen om urfolkskultur?",
+        "fasit": "Situasjonen viser at urfolkskultur ikke bare tilhører fortiden. Det er mulig å leve moderne og samtidig holde på språk og tradisjoner.",
+        "kriterier": [
+          "Får fram at moderne liv og urfolkskultur kan eksistere samtidig.",
+          "Knytter kulturens videreføring til språk, tradisjoner eller tilknytning til land."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En planlagt vindkraftutbygging kan påvirke reindriften til samer. Bruk Fosen-dommen til å forklare hvilken rettighet som kan stå på spill, og hva Høyesterett fastslo i 2021.",
+        "fasit": "Samers rett til å utøve kulturen sin gjennom reindrift kan stå på spill. Høyesterett fastslo i 2021 at vindkraftverkene på Fosen krenket reindriftssamenes rett til kulturutøvelse etter FNs konvensjon om sivile og politiske rettigheter.",
+        "kriterier": [
+          "Forklarer at reindrift kan være en del av samisk kulturutøvelse.",
+          "Får fram at Høyesterett mente vindkraftverkene på Fosen krenket denne retten."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hva er forskjellen på formålet med Grunnloven § 108 og Finnmarksloven?",
+        "fasit": "Grunnloven § 108 sier at staten skal legge til rette for at samene kan sikre og utvikle språk, kultur og samfunnsliv. Finnmarksloven ga befolkningen i Finnmark, både samer og andre, mer råderett over grunnen.",
+        "kriterier": [
+          "Knytter § 108 til å sikre og utvikle samisk språk, kultur og samfunnsliv.",
+          "Knytter Finnmarksloven til økt råderett over grunnen for befolkningen i Finnmark."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hva betyr begrepene «duodji» og «joik», og hvordan er de forskjellige?",
+        "fasit": "Duodji er samisk håndverk, mens joik er en tradisjonell samisk sangform. Det ene viser til håndverk og det andre til musikk eller sang.",
+        "kriterier": [
+          "Forklarer at duodji er samisk håndverk.",
+          "Forklarer at joik er en tradisjonell samisk sangform."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Tilhengere av særrettigheter for urfolk mener at slike rettigheter ivaretar to viktige hensyn. Forklar hvilke.",
+        "fasit": "De mener at særrettigheter kan rette opp tidligere urett mot urfolk og bidra til at kulturen deres kan leve videre. Dette ses som forenlig med menneskerettighetene.",
+        "kriterier": [
+          "Forklarer at rettighetene skal rette opp tidligere urett.",
+          "Forklarer at rettighetene skal bidra til at urfolks kultur kan leve videre."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

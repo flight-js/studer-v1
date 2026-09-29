@@ -4,77 +4,422 @@
   "trinnId": "vg2",
   "name": "Kvantitativ metode og pålitelighet",
   "intro": "Hva kvantitativ metode er, hvordan du planlegger kontrollerte forsøk med hypotese og variabler, og hvordan du vurderer reliabilitet, validitet, repeterbarhet og reproduserbarhet i resultatene.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Kvantitativ og kvalitativ metode\n\n- **Kvantitativ metode** bygger på **tall** og **målinger** som kan behandles med statistikk: temperaturer, tider, avstander, antall.\n- **Kvalitativ metode** bygger på **beskrivelser**, intervjuer og observasjoner som ikke lett kan gjøres om til tall.\n\nI teknologi og naturvitenskap brukes kvantitativ metode ofte for å **teste hypoteser** og **sammenligne løsninger**.\n\n## Planlegge et forsøk\n\n1. **Problemstilling**: Hva vil du finne ut? For eksempel: «Hvilket isolasjonsmateriale holder best på varmen?»\n2. **Hypotese**: en testbar påstand: «Ull isolerer bedre enn bomull.»\n3. **Variabler**:\n   - **Uavhengig variabel**: det du endrer (materialet).\n   - **Avhengig variabel**: det du måler (temperaturfall på 20 minutter).\n   - **Kontrollerte variabler**: alt som holdes likt (starttemperatur, vannmengde, romtemperatur, tykkelse).\n4. **Kontrollgruppe** eller referanse: for eksempel et glass **uten** isolasjon.\n5. **Antall gjentak**: Hvert forsøk gjentas flere ganger.\n6. **Måleutstyr** og **prosedyre**, beskrevet så nøyaktig at andre kan gjøre det samme.\n\n## Et **kontrollert forsøk**\n\nI et kontrollert forsøk endres **bare én variabel** om gangen. Da kan vi med større sikkerhet si at endringen i den avhengige variabelen skyldes den uavhengige variabelen – og ikke noe annet.\n\n## Pålitelighet\n\n**Reliabilitet** handler om hvor **pålitelige** målingene er: Får vi **samme resultat** når vi gjentar målingen under like forhold? Lav spredning og god kalibrering gir høy reliabilitet.\n\n- **Repeterbarhet**: Samme person, samme utstyr og samme sted gir samme resultat.\n- **Reproduserbarhet**: **Andre** kan gjenta forsøket med sitt eget utstyr og få samme resultat. Dette er et viktig krav i vitenskapen.\n\n**Validitet** handler om vi faktisk **måler det vi tror** vi måler. Hvis temperatursensoren henger i sola, måler den kanskje mer solstråling enn lufttemperatur – da er validiteten lav, selv om målingene er stabile.\n\nEn måling kan altså være **reliabel uten å være valid**: en vekt som alltid viser 2 kg for mye, er stabil, men feil.\n\n## Utvalg\n\nNår vi ikke kan måle alt, tar vi et **utvalg**. Utvalget bør være **stort nok** og **representativt**. Et lite eller skjevt utvalg gir usikre konklusjoner.\n\n## Vurdere resultatene\n\n- Er forskjellene **større enn usikkerheten**? Hvis to materialer gir 12,1 og 12,4 °C temperaturfall, men spredningen er 0,5 °C, kan vi ikke si at det ene er bedre.\n- Finnes det **alternative forklaringer**?\n- Er resultatet i tråd med **teori** og **andres forsøk**?\n- Hvilke **feilkilder** kan ha påvirket?\n- Hvor **generelle** er konklusjonene – gjelder de også under andre forhold?\n\n## Vitenskapelige normer\n\nGod forskning er **åpen** om metode og data, **ærlig** om usikkerhet og negative funn, og **etterprøvbar**. Fabrikkering eller forfalsking av data er alvorlig **forskningsjuks**.",
   "flashcards": [
-    { "term": "Kvantitativ metode", "def": "Bygger på tall og målinger som kan behandles med statistikk." },
-    { "term": "Kvalitativ metode", "def": "Bygger på beskrivelser, intervjuer og observasjoner." },
-    { "term": "Hypotese", "def": "Testbar påstand." },
-    { "term": "Uavhengig variabel", "def": "Det du endrer." },
-    { "term": "Avhengig variabel", "def": "Det du måler." },
-    { "term": "Kontrollerte variabler", "def": "Det som holdes likt." },
-    { "term": "Kontrollert forsøk", "def": "Bare én variabel endres om gangen." },
-    { "term": "Referanse / kontrollgruppe", "def": "Sammenligningsgrunnlag uten behandling." },
-    { "term": "Reliabilitet", "def": "Hvor pålitelige og stabile målingene er." },
-    { "term": "Validitet", "def": "Om vi faktisk måler det vi tror vi måler." },
-    { "term": "Repeterbarhet", "def": "Samme person og utstyr gir samme resultat." },
-    { "term": "Reproduserbarhet", "def": "Andre kan gjenta forsøket og få samme resultat." },
-    { "term": "Representativt utvalg", "def": "Utvalg som ligner helheten." },
-    { "term": "Reliabel, men ikke valid", "def": "Stabile målinger som er systematisk feil." },
-    { "term": "Forskningsjuks", "def": "Fabrikkering eller forfalsking av data." }
+    {
+      "term": "Kvantitativ metode",
+      "def": "Bygger på tall og målinger som kan behandles med statistikk."
+    },
+    {
+      "term": "Kvalitativ metode",
+      "def": "Bygger på beskrivelser, intervjuer og observasjoner."
+    },
+    {
+      "term": "Hypotese",
+      "def": "Testbar påstand."
+    },
+    {
+      "term": "Uavhengig variabel",
+      "def": "Det du endrer."
+    },
+    {
+      "term": "Avhengig variabel",
+      "def": "Det du måler."
+    },
+    {
+      "term": "Kontrollerte variabler",
+      "def": "Det som holdes likt."
+    },
+    {
+      "term": "Kontrollert forsøk",
+      "def": "Bare én variabel endres om gangen."
+    },
+    {
+      "term": "Referanse / kontrollgruppe",
+      "def": "Sammenligningsgrunnlag uten behandling."
+    },
+    {
+      "term": "Reliabilitet",
+      "def": "Hvor pålitelige og stabile målingene er."
+    },
+    {
+      "term": "Validitet",
+      "def": "Om vi faktisk måler det vi tror vi måler."
+    },
+    {
+      "term": "Repeterbarhet",
+      "def": "Samme person og utstyr gir samme resultat."
+    },
+    {
+      "term": "Reproduserbarhet",
+      "def": "Andre kan gjenta forsøket og få samme resultat."
+    },
+    {
+      "term": "Representativt utvalg",
+      "def": "Utvalg som ligner helheten."
+    },
+    {
+      "term": "Reliabel, men ikke valid",
+      "def": "Stabile målinger som er systematisk feil."
+    },
+    {
+      "term": "Forskningsjuks",
+      "def": "Fabrikkering eller forfalsking av data."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner kvantitativ metode?", "options": ["Intervjuer og beskrivelser", "Tall og målinger som kan behandles med statistikk", "Bare observasjoner uten tall", "Meninger"], "correct": 1, "explain": "Kvalitativ metode bygger på beskrivelser." },
-    { "id": "q02", "text": "Hva er den avhengige variabelen i et forsøk med isolasjonsmaterialer?", "options": ["Temperaturfallet", "Materialet", "Starttemperaturen", "Romtemperaturen"], "correct": 0, "explain": "Det du måler." },
-    { "id": "q03", "text": "Hva betyr validitet?", "options": ["At målingene er like hver gang", "At forsøket er billig", "At vi måler det vi tror vi måler", "At andre kan gjenta forsøket"], "correct": 2, "explain": "Reliabilitet handler om stabilitet." },
-    { "id": "q04", "text": "Hva er reproduserbarhet?", "options": ["At samme person får samme resultat", "At forsøket er raskt", "At resultatet er stort", "At andre kan gjenta forsøket og få samme resultat"], "correct": 3, "explain": "Et viktig vitenskapelig krav." },
-    { "id": "q05", "text": "Hvorfor endres bare én variabel om gangen i et kontrollert forsøk?", "options": ["For å kunne knytte endringen i resultatet til den variabelen", "For å spare tid", "Fordi det er påbudt", "For å få flere variabler"], "correct": 0, "explain": "Ellers vet vi ikke hva som påvirket resultatet." },
-    { "id": "q06", "text": "En vekt viser alltid 2 kg for mye. Hvordan er målingene?", "options": ["Valide, men ikke reliable", "Reliable, men ikke valide", "Både reliable og valide", "Verken reliable eller valide"], "correct": 1, "explain": "Stabile, men feil." },
-    { "id": "q07", "text": "To materialer gir 12,1 og 12,4 °C temperaturfall, med spredning 0,5 °C. Hva kan du konkludere?", "options": ["Det første er klart best", "Det andre er klart best", "Forskjellen er mindre enn usikkerheten, så vi kan ikke si hvilket som er best", "Forsøket er ugyldig"], "correct": 2, "explain": "Forskjellen må være større enn usikkerheten." },
-    { "id": "q08", "text": "Hvorfor brukes et glass uten isolasjon i forsøket?", "options": ["For å ha flere glass", "For å spare materialer", "For pynt", "Som referanse å sammenligne med"], "correct": 3, "explain": "En kontrollgruppe." },
-    { "id": "q09", "text": "Hva er et representativt utvalg?", "options": ["Et utvalg som ligner helheten", "Det største utvalget", "Et tilfeldig tall", "Et utvalg av de beste resultatene"], "correct": 0, "explain": "Ellers blir konklusjonene skjeve." },
-    { "id": "q10", "text": "Hva er forskningsjuks?", "options": ["Å oppgi usikkerhet", "Å fabrikkere eller forfalske data", "Å publisere negative funn", "Å gjenta forsøk"], "correct": 1, "explain": "Et alvorlig brudd på forskningsetikken." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner kvantitativ metode?",
+      "options": [
+        "Intervjuer og beskrivelser",
+        "Tall og målinger som kan behandles med statistikk",
+        "Bare observasjoner uten tall",
+        "Meninger"
+      ],
+      "correct": 1,
+      "explain": "Kvalitativ metode bygger på beskrivelser."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er den avhengige variabelen i et forsøk med isolasjonsmaterialer?",
+      "options": [
+        "Temperaturfallet",
+        "Materialet",
+        "Starttemperaturen",
+        "Romtemperaturen"
+      ],
+      "correct": 0,
+      "explain": "Det du måler."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr validitet?",
+      "options": [
+        "At målingene er like hver gang",
+        "At forsøket er billig",
+        "At vi måler det vi tror vi måler",
+        "At andre kan gjenta forsøket"
+      ],
+      "correct": 2,
+      "explain": "Reliabilitet handler om stabilitet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er reproduserbarhet?",
+      "options": [
+        "At samme person får samme resultat",
+        "At forsøket er raskt",
+        "At resultatet er stort",
+        "At andre kan gjenta forsøket og få samme resultat"
+      ],
+      "correct": 3,
+      "explain": "Et viktig vitenskapelig krav."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor endres bare én variabel om gangen i et kontrollert forsøk?",
+      "options": [
+        "For å kunne knytte endringen i resultatet til den variabelen",
+        "For å spare tid",
+        "Fordi det er påbudt",
+        "For å få flere variabler"
+      ],
+      "correct": 0,
+      "explain": "Ellers vet vi ikke hva som påvirket resultatet."
+    },
+    {
+      "id": "q06",
+      "text": "En vekt viser alltid 2 kg for mye. Hvordan er målingene?",
+      "options": [
+        "Valide, men ikke reliable",
+        "Reliable, men ikke valide",
+        "Både reliable og valide",
+        "Verken reliable eller valide"
+      ],
+      "correct": 1,
+      "explain": "Stabile, men feil."
+    },
+    {
+      "id": "q07",
+      "text": "To materialer gir 12,1 og 12,4 °C temperaturfall, med spredning 0,5 °C. Hva kan du konkludere?",
+      "options": [
+        "Det første er klart best",
+        "Det andre er klart best",
+        "Forskjellen er mindre enn usikkerheten, så vi kan ikke si hvilket som er best",
+        "Forsøket er ugyldig"
+      ],
+      "correct": 2,
+      "explain": "Forskjellen må være større enn usikkerheten."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor brukes et glass uten isolasjon i forsøket?",
+      "options": [
+        "For å ha flere glass",
+        "For å spare materialer",
+        "For pynt",
+        "Som referanse å sammenligne med"
+      ],
+      "correct": 3,
+      "explain": "En kontrollgruppe."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et representativt utvalg?",
+      "options": [
+        "Et utvalg som ligner helheten",
+        "Det største utvalget",
+        "Et tilfeldig tall",
+        "Et utvalg av de beste resultatene"
+      ],
+      "correct": 0,
+      "explain": "Ellers blir konklusjonene skjeve."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er forskningsjuks?",
+      "options": [
+        "Å oppgi usikkerhet",
+        "Å fabrikkere eller forfalske data",
+        "Å publisere negative funn",
+        "Å gjenta forsøk"
+      ],
+      "correct": 1,
+      "explain": "Et alvorlig brudd på forskningsetikken."
+    }
   ],
   "mindmap": {
     "label": "Kvantitativ metode",
     "children": [
-      { "label": "Metoder", "children": [
-        { "label": "Kvantitativ" },
-        { "label": "Kvalitativ" }
-      ] },
-      { "label": "Forsøk", "children": [
-        { "label": "Hypotese" },
-        { "label": "Variabler" },
-        { "label": "Kontrollgruppe" }
-      ] },
-      { "label": "Pålitelighet", "children": [
-        { "label": "Reliabilitet" },
-        { "label": "Repeterbarhet" },
-        { "label": "Reproduserbarhet" }
-      ] },
-      { "label": "Gyldighet", "children": [
-        { "label": "Validitet" },
-        { "label": "Representativt utvalg" }
-      ] },
-      { "label": "Vurdering", "children": [
-        { "label": "Forskjell mot usikkerhet" },
-        { "label": "Alternative forklaringer" },
-        { "label": "Forskningsetikk" }
-      ] }
+      {
+        "label": "Metoder",
+        "children": [
+          {
+            "label": "Kvantitativ"
+          },
+          {
+            "label": "Kvalitativ"
+          }
+        ]
+      },
+      {
+        "label": "Forsøk",
+        "children": [
+          {
+            "label": "Hypotese"
+          },
+          {
+            "label": "Variabler"
+          },
+          {
+            "label": "Kontrollgruppe"
+          }
+        ]
+      },
+      {
+        "label": "Pålitelighet",
+        "children": [
+          {
+            "label": "Reliabilitet"
+          },
+          {
+            "label": "Repeterbarhet"
+          },
+          {
+            "label": "Reproduserbarhet"
+          }
+        ]
+      },
+      {
+        "label": "Gyldighet",
+        "children": [
+          {
+            "label": "Validitet"
+          },
+          {
+            "label": "Representativt utvalg"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering",
+        "children": [
+          {
+            "label": "Forskjell mot usikkerhet"
+          },
+          {
+            "label": "Alternative forklaringer"
+          },
+          {
+            "label": "Forskningsetikk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En temperatursensor i direkte sollys kan gi lav validitet for lufttemperatur.", "correct": true, "explain": "Den måler også solstråling." },
-      { "id": "m02", "type": "sant-usant", "text": "Negative funn bør skjules i forskningen.", "correct": false, "explain": "God forskning er åpen også om negative funn." },
-      { "id": "m03", "type": "sant-usant", "text": "Et lite, skjevt utvalg gir usikre konklusjoner.", "correct": true, "explain": "Utvalget bør være stort nok og representativt." },
-      { "id": "m04", "type": "sant-usant", "text": "Høy reliabilitet garanterer høy validitet.", "correct": false, "explain": "Stabile målinger kan være systematisk feil." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken er en kontrollert variabel i isolasjonsforsøket?", "options": ["Materialet", "Starttemperaturen", "Temperaturfallet", "Hvilket materiale som vinner"], "correct": 1, "explain": "Den holdes lik i alle forsøkene." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken påstand er en testbar hypotese?", "options": ["Ull isolerer bedre enn bomull", "Ull er fint", "Isolasjon er viktig", "Bomull er kjedelig"], "correct": 0, "explain": "Den kan testes med målinger." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kjennetegner god forskning?", "options": ["Hemmelige metoder", "Bare positive funn", "Åpenhet, ærlighet om usikkerhet og etterprøvbarhet", "Så få gjentak som mulig"], "correct": 2, "explain": "Vitenskapelige normer." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En temperatursensor i direkte sollys kan gi lav validitet for lufttemperatur.",
+        "correct": true,
+        "explain": "Den måler også solstråling."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Negative funn bør skjules i forskningen.",
+        "correct": false,
+        "explain": "God forskning er åpen også om negative funn."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Et lite, skjevt utvalg gir usikre konklusjoner.",
+        "correct": true,
+        "explain": "Utvalget bør være stort nok og representativt."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Høy reliabilitet garanterer høy validitet.",
+        "correct": false,
+        "explain": "Stabile målinger kan være systematisk feil."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken er en kontrollert variabel i isolasjonsforsøket?",
+        "options": [
+          "Materialet",
+          "Starttemperaturen",
+          "Temperaturfallet",
+          "Hvilket materiale som vinner"
+        ],
+        "correct": 1,
+        "explain": "Den holdes lik i alle forsøkene."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken påstand er en testbar hypotese?",
+        "options": [
+          "Ull isolerer bedre enn bomull",
+          "Ull er fint",
+          "Isolasjon er viktig",
+          "Bomull er kjedelig"
+        ],
+        "correct": 0,
+        "explain": "Den kan testes med målinger."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kjennetegner god forskning?",
+        "options": [
+          "Hemmelige metoder",
+          "Bare positive funn",
+          "Åpenhet, ærlighet om usikkerhet og etterprøvbarhet",
+          "Så få gjentak som mulig"
+        ],
+        "correct": 2,
+        "explain": "Vitenskapelige normer."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En forsker måler temperatur med et termometer og spør samtidig personer om hvordan de opplever varmen. Forklar hvilken del som bruker kvantitativ metode, hvilken som bruker kvalitativ metode, og hva som skiller metodene.",
+        "fasit": "Temperaturmålingen er kvantitativ fordi den gir tall som kan behandles statistisk. Beskrivelsene fra personene er kvalitative fordi de bygger på erfaringer og ikke lett kan gjøres om til tall.",
+        "kriterier": [
+          "Knytter kvantitativ metode til tall eller målinger.",
+          "Knytter kvalitativ metode til beskrivelser eller erfaringer som ikke lett gjøres om til tall."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En elev sammenligner hvor mye vann to typer tørkepapir absorberer. Eleven bruker samme mengde vann og lar hvert papir være i vannet like lenge. Hva er den uavhengige variabelen, den avhengige variabelen og én kontrollert variabel?",
+        "fasit": "Den uavhengige variabelen er typen tørkepapir, og den avhengige variabelen er hvor mye vann papiret absorberer. Mengden vann eller tiden papiret er i vannet er en kontrollert variabel.",
+        "kriterier": [
+          "Identifiserer papirtypen som det eleven endrer.",
+          "Identifiserer absorbert vannmengde som det eleven måler.",
+          "Nevner en variabel som holdes lik, som vannmengde eller tid."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev spør bare medlemmene i skolens robotklubb om hva alle elever på Vg2 mener om teknologi. Forklar hvorfor utvalget kan gi en usikker konklusjon, og foreslå én forbedring.",
+        "fasit": "Medlemmene i robotklubben trenger ikke å ligne på alle Vg2-elevene, så utvalget kan være skjevt. Eleven kan spørre et større utvalg med elever fra ulike grupper på Vg2.",
+        "kriterier": [
+          "Forklarer at robotklubbmedlemmer ikke nødvendigvis er representative for alle Vg2-elever.",
+          "Foreslår et større eller mer variert utvalg som bedre ligner gruppen eleven vil si noe om."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign repeterbarhet og reproduserbarhet. Hvem gjentar forsøket i hvert tilfelle, og hva slags utstyr brukes?",
+        "fasit": "Ved repeterbarhet får samme person samme resultat med samme utstyr og på samme sted. Ved reproduserbarhet gjentar andre forsøket med sitt eget utstyr og får samme resultat.",
+        "kriterier": [
+          "Forklarer at repeterbarhet gjelder samme person og samme utstyr.",
+          "Forklarer at reproduserbarhet gjelder andre personer som bruker eget utstyr."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En elev skal beskrive et forsøk slik at andre kan gjøre det på nytt. Forklar hvorfor eleven bør oppgi måleutstyret og beskrive framgangsmåten nøyaktig.",
+        "fasit": "Nøyaktige beskrivelser gjør det mulig for andre å gjennomføre forsøket på samme måte. Da kan de kontrollere resultatene og undersøke om forsøket kan gjentas.",
+        "kriterier": [
+          "Knytter nøyaktig beskrivelse til at andre kan utføre forsøket på samme måte.",
+          "Forklarer at dette gjør resultatene lettere å kontrollere eller etterprøve."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I tre gjentak av et forsøk synker temperaturen fra 20 °C til henholdsvis 17 °C, 16 °C og 18 °C. Finn temperaturfallet i hvert gjentak og gjennomsnittlig temperaturfall.",
+        "fasit": "Temperaturfallene er 3 °C, 4 °C og 2 °C. Gjennomsnittet er (3 + 4 + 2) / 3 = 3 °C.",
+        "kriterier": [
+          "Finner temperaturfallene 3 °C, 4 °C og 2 °C.",
+          "Viser at gjennomsnittet beregnes som summen delt på tre, og får 3 °C."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et forsøk sammenligner fire materialer, og hvert materiale testes tre ganger. Hvor mange målinger blir det til sammen? Vis regnestykket.",
+        "fasit": "Det blir 4 · 3 = 12 målinger.",
+        "kriterier": [
+          "Setter opp eller forklarer at antall materialer multipliseres med antall gjentak per materiale.",
+          "Oppgir 12 målinger."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et forsøk gir resultater som ikke støtter elevens hypotese. Hva bør eleven gjøre med resultatene, og hvorfor?",
+        "fasit": "Eleven bør rapportere resultatene ærlig, også om de ikke støtter hypotesen, og være åpen om usikkerhet. Da kan andre vurdere og etterprøve forsøket.",
+        "kriterier": [
+          "Sier at resultatene skal rapporteres ærlig, også når de er negative eller ikke støtter hypotesen.",
+          "Knytter åpenhet om resultater eller usikkerhet til at andre kan vurdere eller etterprøve forsøket."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

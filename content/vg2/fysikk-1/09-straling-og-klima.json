@@ -4,78 +4,426 @@
   "trinnId": "vg2",
   "name": "Stråling, strålingsbalanse og klima",
   "intro": "Stråling fra legemer, Wiens forskyvningslov og Stefan–Boltzmanns lov, jordas strålingsbalanse og drivhuseffekten – og hvordan du vurderer påstander om energi og klima med fysikk.",
-  "kompetansemaal": [11, 12, 3],
+  "kompetansemaal": [
+    11,
+    12,
+    3
+  ],
   "sammendrag": "## Alle legemer stråler\n\nAlle legemer med temperatur over det absolutte nullpunktet sender ut **elektromagnetisk stråling**. Et idealisert legeme som absorberer all stråling som treffer det, kalles et **svart legeme**. Sola og jorda kan i stor grad beskrives slik.\n\nStrålingen fordeler seg over mange **bølgelengder**, men har en **topp** som avhenger av temperaturen.\n\n## Wiens forskyvningslov\n\n**λ_maks · T = b**, der b = 2,90 · 10⁻³ m·K.\n\nJo **varmere**, desto **kortere** bølgelengde har toppen:\n\n- **Sola**, med overflatetemperatur rundt 5800 K: λ_maks ≈ 2,90 · 10⁻³ / 5800 ≈ **500 nm** – synlig lys.\n- **Jorda**, rundt 288 K: λ_maks ≈ **10 µm** – **infrarød** stråling.\n\nEt glødende jern går fra rødt til gulhvitt når det blir varmere.\n\n## Stefan–Boltzmanns lov\n\nDen utstrålte **effekten per areal** (intensiteten) fra et svart legeme er\n\n**I = σ · T⁴**, der σ = 5,67 · 10⁻⁸ W/(m²·K⁴).\n\nFordi temperaturen står i **fjerde potens**, gir en **dobling** av temperaturen **16 ganger** så mye stråling.\n\n## Jordas strålingsbalanse\n\nSola gir omtrent **1361 W/m²** på en flate vinkelrett på strålene utenfor atmosfæren (**solarkonstanten**). Omtrent **30 %** reflekteres av skyer, is og lyse flater – dette er **albedoen**. Fordi jorda er en roterende kule, blir innstrålingen fordelt over et areal som er **fire ganger** større enn tverrsnittet:\n\nAbsorbert: 1361 · (1 − 0,30) / 4 ≈ **238 W/m²**\n\nI likevekt må jorda stråle ut like mye som den tar imot. Med Stefan–Boltzmanns lov: σT⁴ = 238 → **T ≈ 255 K**, altså rundt **−18 °C**. Den faktiske gjennomsnittstemperaturen ved bakken er omtrent **288 K (15 °C)**.\n\n## Drivhuseffekten\n\nForskjellen på rundt 33 K skyldes **drivhuseffekten**. **Drivhusgasser** som vanndamp, **CO₂** og metan slipper det meste av sollyset gjennom, men **absorberer** infrarød stråling fra bakken og sender den ut igjen i **alle retninger** – også ned mot bakken. Uten den naturlige drivhuseffekten ville jorda vært en isklode.\n\nNår vi slipper ut mer CO₂ ved å brenne kull, olje og gass, **forsterkes** drivhuseffekten. Jorda tar da imot litt mer energi enn den stråler ut, og temperaturen stiger til en ny likevekt. **Tilbakekoblinger** kan forsterke endringen: Når is smelter, synker albedoen og mer sollys absorberes. Varmere luft kan holde mer vanndamp, som også er en drivhusgass.\n\n## Vurdere påstander om energi og klima\n\nFysikken gir verktøy for å sjekke påstander:\n\n- Er **tallene** og **enhetene** rimelige? Blandes effekt (W) og energi (kWh)?\n- Stemmer påstanden med **energiprinsippet** og virkningsgrader?\n- Hvem står bak, og er påstanden i tråd med **forskningen**, for eksempel rapportene fra **FNs klimapanel (IPCC)**?\n- Skilles det mellom **vær** (kort tid) og **klima** (gjennomsnitt over minst 30 år)?",
   "flashcards": [
-    { "term": "Svart legeme", "def": "Idealisert legeme som absorberer all stråling som treffer det." },
-    { "term": "Wiens forskyvningslov", "def": "λ_maks · T = 2,90 · 10⁻³ m·K" },
-    { "term": "Stefan–Boltzmanns lov", "def": "I = σT⁴" },
-    { "term": "σ", "def": "5,67 · 10⁻⁸ W/(m²·K⁴)" },
-    { "term": "Solas strålingstopp", "def": "Rundt 500 nm – synlig lys." },
-    { "term": "Jordas strålingstopp", "def": "Rundt 10 µm – infrarød stråling." },
-    { "term": "Solarkonstanten", "def": "Omtrent 1361 W/m² utenfor atmosfæren." },
-    { "term": "Albedo", "def": "Andelen sollys som reflekteres – for jorda rundt 30 %." },
-    { "term": "Absorbert solstråling i snitt", "def": "Omtrent 238 W/m²." },
-    { "term": "Jorda uten drivhuseffekt", "def": "Rundt 255 K, altså −18 °C." },
-    { "term": "Drivhuseffekten", "def": "Drivhusgasser absorberer infrarød stråling og sender noe tilbake mot bakken." },
-    { "term": "Drivhusgasser", "def": "Vanndamp, CO₂ og metan med flere." },
-    { "term": "Tilbakekobling", "def": "Prosess som forsterker eller demper en endring, som is–albedo." },
-    { "term": "IPCC", "def": "FNs klimapanel, som sammenstiller klimaforskningen." },
-    { "term": "Vær og klima", "def": "Vær er kortsiktig; klima er gjennomsnitt over minst 30 år." }
+    {
+      "term": "Svart legeme",
+      "def": "Idealisert legeme som absorberer all stråling som treffer det."
+    },
+    {
+      "term": "Wiens forskyvningslov",
+      "def": "λ_maks · T = 2,90 · 10⁻³ m·K"
+    },
+    {
+      "term": "Stefan–Boltzmanns lov",
+      "def": "I = σT⁴"
+    },
+    {
+      "term": "σ",
+      "def": "5,67 · 10⁻⁸ W/(m²·K⁴)"
+    },
+    {
+      "term": "Solas strålingstopp",
+      "def": "Rundt 500 nm – synlig lys."
+    },
+    {
+      "term": "Jordas strålingstopp",
+      "def": "Rundt 10 µm – infrarød stråling."
+    },
+    {
+      "term": "Solarkonstanten",
+      "def": "Omtrent 1361 W/m² utenfor atmosfæren."
+    },
+    {
+      "term": "Albedo",
+      "def": "Andelen sollys som reflekteres – for jorda rundt 30 %."
+    },
+    {
+      "term": "Absorbert solstråling i snitt",
+      "def": "Omtrent 238 W/m²."
+    },
+    {
+      "term": "Jorda uten drivhuseffekt",
+      "def": "Rundt 255 K, altså −18 °C."
+    },
+    {
+      "term": "Drivhuseffekten",
+      "def": "Drivhusgasser absorberer infrarød stråling og sender noe tilbake mot bakken."
+    },
+    {
+      "term": "Drivhusgasser",
+      "def": "Vanndamp, CO₂ og metan med flere."
+    },
+    {
+      "term": "Tilbakekobling",
+      "def": "Prosess som forsterker eller demper en endring, som is–albedo."
+    },
+    {
+      "term": "IPCC",
+      "def": "FNs klimapanel, som sammenstiller klimaforskningen."
+    },
+    {
+      "term": "Vær og klima",
+      "def": "Vær er kortsiktig; klima er gjennomsnitt over minst 30 år."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva sier Wiens forskyvningslov?", "options": ["Varmere legemer stråler ved lengre bølgelengder", "Varmere legemer har strålingstopp ved kortere bølgelengder", "Alle legemer stråler likt", "Stråling avhenger ikke av temperatur"], "correct": 1, "explain": "λ_maks · T = konstant." },
-    { "id": "q02", "text": "Hvor mye mer stråler et legeme hvis den absolutte temperaturen dobles?", "options": ["16 ganger", "2 ganger", "4 ganger", "8 ganger"], "correct": 0, "explain": "I = σT⁴, og 2⁴ = 16." },
-    { "id": "q03", "text": "Hvilken type stråling sender jorda hovedsakelig ut?", "options": ["Ultrafiolett", "Synlig lys", "Infrarød", "Røntgen"], "correct": 2, "explain": "λ_maks ≈ 10 µm." },
-    { "id": "q04", "text": "Hva er albedo?", "options": ["Mengden CO₂ i lufta", "Temperaturen ved bakken", "Solas overflatetemperatur", "Andelen innkommende sollys som reflekteres"], "correct": 3, "explain": "For jorda omtrent 30 %." },
-    { "id": "q05", "text": "Hvilken temperatur ville jorda hatt uten drivhuseffekt, ifølge den enkle strålingsbalansen?", "options": ["Rundt −18 °C", "Rundt 15 °C", "Rundt −100 °C", "Rundt 0 °C"], "correct": 0, "explain": "σT⁴ = 238 W/m² gir T ≈ 255 K." },
-    { "id": "q06", "text": "Hvorfor deler vi på 4 i strålingsbalansen?", "options": ["Fordi det er fire årstider", "Fordi jordas overflate er fire ganger så stor som tverrsnittet som fanger sollyset", "Fordi albedoen er 25 %", "Fordi sola har fire lag"], "correct": 1, "explain": "Areal kule 4πr², tverrsnitt πr²." },
-    { "id": "q07", "text": "Hva gjør drivhusgassene?", "options": ["Stopper sollyset", "Reflekterer alt lys", "Absorberer infrarød stråling og sender noe tilbake mot bakken", "Lager ozon"], "correct": 2, "explain": "De er nesten gjennomsiktige for sollys." },
-    { "id": "q08", "text": "Hvorfor kan smeltende is forsterke oppvarmingen?", "options": ["Is lager CO₂", "Is er varm", "Vann reflekterer mer enn is", "Albedoen synker, så mer sollys absorberes"], "correct": 3, "explain": "En positiv tilbakekobling." },
-    { "id": "q09", "text": "Hvor mye stråling fra sola treffer en flate vinkelrett på strålene utenfor atmosfæren?", "options": ["Omtrent 1361 W/m²", "Omtrent 238 W/m²", "Omtrent 5800 W/m²", "Omtrent 100 W/m²"], "correct": 0, "explain": "Solarkonstanten." },
-    { "id": "q10", "text": "Hva er forskjellen på vær og klima?", "options": ["Det er det samme", "Vær er kortsiktig, klima er gjennomsnitt over minst 30 år", "Klima gjelder bare temperatur", "Vær varer i 30 år"], "correct": 1, "explain": "En kald vinter motbeviser ikke global oppvarming." }
+    {
+      "id": "q01",
+      "text": "Hva sier Wiens forskyvningslov?",
+      "options": [
+        "Varmere legemer stråler ved lengre bølgelengder",
+        "Varmere legemer har strålingstopp ved kortere bølgelengder",
+        "Alle legemer stråler likt",
+        "Stråling avhenger ikke av temperatur"
+      ],
+      "correct": 1,
+      "explain": "λ_maks · T = konstant."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor mye mer stråler et legeme hvis den absolutte temperaturen dobles?",
+      "options": [
+        "16 ganger",
+        "2 ganger",
+        "4 ganger",
+        "8 ganger"
+      ],
+      "correct": 0,
+      "explain": "I = σT⁴, og 2⁴ = 16."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken type stråling sender jorda hovedsakelig ut?",
+      "options": [
+        "Ultrafiolett",
+        "Synlig lys",
+        "Infrarød",
+        "Røntgen"
+      ],
+      "correct": 2,
+      "explain": "λ_maks ≈ 10 µm."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er albedo?",
+      "options": [
+        "Mengden CO₂ i lufta",
+        "Temperaturen ved bakken",
+        "Solas overflatetemperatur",
+        "Andelen innkommende sollys som reflekteres"
+      ],
+      "correct": 3,
+      "explain": "For jorda omtrent 30 %."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken temperatur ville jorda hatt uten drivhuseffekt, ifølge den enkle strålingsbalansen?",
+      "options": [
+        "Rundt −18 °C",
+        "Rundt 15 °C",
+        "Rundt −100 °C",
+        "Rundt 0 °C"
+      ],
+      "correct": 0,
+      "explain": "σT⁴ = 238 W/m² gir T ≈ 255 K."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor deler vi på 4 i strålingsbalansen?",
+      "options": [
+        "Fordi det er fire årstider",
+        "Fordi jordas overflate er fire ganger så stor som tverrsnittet som fanger sollyset",
+        "Fordi albedoen er 25 %",
+        "Fordi sola har fire lag"
+      ],
+      "correct": 1,
+      "explain": "Areal kule 4πr², tverrsnitt πr²."
+    },
+    {
+      "id": "q07",
+      "text": "Hva gjør drivhusgassene?",
+      "options": [
+        "Stopper sollyset",
+        "Reflekterer alt lys",
+        "Absorberer infrarød stråling og sender noe tilbake mot bakken",
+        "Lager ozon"
+      ],
+      "correct": 2,
+      "explain": "De er nesten gjennomsiktige for sollys."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor kan smeltende is forsterke oppvarmingen?",
+      "options": [
+        "Is lager CO₂",
+        "Is er varm",
+        "Vann reflekterer mer enn is",
+        "Albedoen synker, så mer sollys absorberes"
+      ],
+      "correct": 3,
+      "explain": "En positiv tilbakekobling."
+    },
+    {
+      "id": "q09",
+      "text": "Hvor mye stråling fra sola treffer en flate vinkelrett på strålene utenfor atmosfæren?",
+      "options": [
+        "Omtrent 1361 W/m²",
+        "Omtrent 238 W/m²",
+        "Omtrent 5800 W/m²",
+        "Omtrent 100 W/m²"
+      ],
+      "correct": 0,
+      "explain": "Solarkonstanten."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er forskjellen på vær og klima?",
+      "options": [
+        "Det er det samme",
+        "Vær er kortsiktig, klima er gjennomsnitt over minst 30 år",
+        "Klima gjelder bare temperatur",
+        "Vær varer i 30 år"
+      ],
+      "correct": 1,
+      "explain": "En kald vinter motbeviser ikke global oppvarming."
+    }
   ],
   "mindmap": {
     "label": "Stråling og klima",
     "children": [
-      { "label": "Strålingslover", "children": [
-        { "label": "Svart legeme" },
-        { "label": "Wien: λT = b" },
-        { "label": "Stefan–Boltzmann: σT⁴" }
-      ] },
-      { "label": "Sol og jord", "children": [
-        { "label": "Sola ≈ 500 nm" },
-        { "label": "Jorda ≈ 10 µm" }
-      ] },
-      { "label": "Strålingsbalanse", "children": [
-        { "label": "1361 W/m²" },
-        { "label": "Albedo 30 %" },
-        { "label": "255 K mot 288 K" }
-      ] },
-      { "label": "Drivhuseffekt", "children": [
-        { "label": "CO₂, vanndamp, metan" },
-        { "label": "Forsterket drivhuseffekt" },
-        { "label": "Tilbakekoblinger" }
-      ] },
-      { "label": "Vurdere påstander", "children": [
-        { "label": "Tall og enheter" },
-        { "label": "IPCC" },
-        { "label": "Vær og klima" }
-      ] }
+      {
+        "label": "Strålingslover",
+        "children": [
+          {
+            "label": "Svart legeme"
+          },
+          {
+            "label": "Wien: λT = b"
+          },
+          {
+            "label": "Stefan–Boltzmann: σT⁴"
+          }
+        ]
+      },
+      {
+        "label": "Sol og jord",
+        "children": [
+          {
+            "label": "Sola ≈ 500 nm"
+          },
+          {
+            "label": "Jorda ≈ 10 µm"
+          }
+        ]
+      },
+      {
+        "label": "Strålingsbalanse",
+        "children": [
+          {
+            "label": "1361 W/m²"
+          },
+          {
+            "label": "Albedo 30 %"
+          },
+          {
+            "label": "255 K mot 288 K"
+          }
+        ]
+      },
+      {
+        "label": "Drivhuseffekt",
+        "children": [
+          {
+            "label": "CO₂, vanndamp, metan"
+          },
+          {
+            "label": "Forsterket drivhuseffekt"
+          },
+          {
+            "label": "Tilbakekoblinger"
+          }
+        ]
+      },
+      {
+        "label": "Vurdere påstander",
+        "children": [
+          {
+            "label": "Tall og enheter"
+          },
+          {
+            "label": "IPCC"
+          },
+          {
+            "label": "Vær og klima"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Uten den naturlige drivhuseffekten ville jorda vært mye kaldere.", "correct": true, "explain": "Rundt −18 °C i stedet for 15 °C." },
-      { "id": "m02", "type": "sant-usant", "text": "CO₂ absorberer mest av det synlige sollyset.", "correct": false, "explain": "CO₂ absorberer infrarød stråling fra jorda." },
-      { "id": "m03", "type": "sant-usant", "text": "Alle legemer over 0 K sender ut elektromagnetisk stråling.", "correct": true, "explain": "Mengde og bølgelengde avhenger av temperaturen." },
-      { "id": "m04", "type": "sant-usant", "text": "En kald vinter i Norge viser at global oppvarming ikke skjer.", "correct": false, "explain": "Én vinter er vær; klima er gjennomsnitt over lang tid og hele kloden." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er λ_maks for et legeme på 290 K?", "options": ["1,0 µm", "10 µm", "100 nm", "1,0 mm"], "correct": 1, "explain": "2,90 · 10⁻³ / 290 = 1,0 · 10⁻⁵ m." },
-      { "id": "m06", "type": "flervalg", "text": "En påstand blander W og kWh. Hva er feilen?", "options": ["Effekt og energi blandes", "Masse og vekt blandes", "Temperatur og varme blandes", "Det er ingen feil"], "correct": 0, "explain": "Watt er effekt, kWh er energi." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken gass er den viktigste naturlige drivhusgassen?", "options": ["Nitrogen", "Oksygen", "Vanndamp", "Argon"], "correct": 2, "explain": "Nitrogen og oksygen absorberer nesten ikke infrarød stråling." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Uten den naturlige drivhuseffekten ville jorda vært mye kaldere.",
+        "correct": true,
+        "explain": "Rundt −18 °C i stedet for 15 °C."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "CO₂ absorberer mest av det synlige sollyset.",
+        "correct": false,
+        "explain": "CO₂ absorberer infrarød stråling fra jorda."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Alle legemer over 0 K sender ut elektromagnetisk stråling.",
+        "correct": true,
+        "explain": "Mengde og bølgelengde avhenger av temperaturen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En kald vinter i Norge viser at global oppvarming ikke skjer.",
+        "correct": false,
+        "explain": "Én vinter er vær; klima er gjennomsnitt over lang tid og hele kloden."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er λ_maks for et legeme på 290 K?",
+        "options": [
+          "1,0 µm",
+          "10 µm",
+          "100 nm",
+          "1,0 mm"
+        ],
+        "correct": 1,
+        "explain": "2,90 · 10⁻³ / 290 = 1,0 · 10⁻⁵ m."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "En påstand blander W og kWh. Hva er feilen?",
+        "options": [
+          "Effekt og energi blandes",
+          "Masse og vekt blandes",
+          "Temperatur og varme blandes",
+          "Det er ingen feil"
+        ],
+        "correct": 0,
+        "explain": "Watt er effekt, kWh er energi."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken gass er den viktigste naturlige drivhusgassen?",
+        "options": [
+          "Nitrogen",
+          "Oksygen",
+          "Vanndamp",
+          "Argon"
+        ],
+        "correct": 2,
+        "explain": "Nitrogen og oksygen absorberer nesten ikke infrarød stråling."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et idealisert legeme absorberer all elektromagnetisk stråling som treffer det. Hva kalles et slikt legeme, og hva betyr denne egenskapen?",
+        "fasit": "Det kalles et svart legeme. Det absorberer all strålingen som treffer det, uten å reflektere eller slippe den gjennom.",
+        "kriterier": [
+          "Identifiserer legemet som et svart legeme.",
+          "Forklarer at det absorberer all stråling som treffer det."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Solas strålingstopp er rundt 500 nm, mens jordas er rundt 10 µm. Sammenlign temperaturene deres ved hjelp av sammenhengen mellom temperatur og bølgelengden til strålingstoppen.",
+        "fasit": "Sola er mye varmere enn jorda. Ifølge Wiens forskyvningslov har varmere legemer en kortere bølgelengde ved strålingstoppen, slik sola har sammenlignet med jorda.",
+        "kriterier": [
+          "Konkluderer med at sola er varmere enn jorda.",
+          "Knytter kortere bølgelengde ved strålingstoppen til høyere temperatur."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Bruk Wiens forskyvningslov, λ_maks · T = 2,90 · 10⁻³ m·K, til å beregne jordas strålingstopp når temperaturen er 288 K. Oppgi svaret i mikrometer.",
+        "fasit": "λ_maks = 2,90 · 10⁻³ / 288 ≈ 1,0 · 10⁻⁵ m. Siden 1 µm = 10⁻⁶ m, blir dette omtrent 10 µm.",
+        "kriterier": [
+          "Setter opp beregningen ved å dele 2,90 · 10⁻³ m·K på 288 K.",
+          "Får omtrent 10 µm."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Jorda får 1361 W/m² på en flate vinkelrett på solstrålene utenfor atmosfæren. Hvis 30 % reflekteres, beregnes gjennomsnittlig absorbert solstråling slik: 1361 · (1 − 0,30) / 4. Regn ut omtrent hvor mange W/m² jorda absorberer i snitt.",
+        "fasit": "1361 · 0,70 / 4 ≈ 238 W/m². Jorda absorberer altså i gjennomsnitt omtrent 238 W/m².",
+        "kriterier": [
+          "Bruker at 70 % absorberes, for eksempel ved å regne 1 − 0,30 = 0,70.",
+          "Kommer fram til omtrent 238 W/m²."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Den beregnede temperaturen uten drivhuseffekt er rundt 255 K, mens jordas gjennomsnittstemperatur ved bakken er rundt 288 K. Forklar hvordan drivhuseffekten bidrar til denne forskjellen.",
+        "fasit": "Drivhusgasser absorberer infrarød stråling fra bakken og sender stråling ut igjen i alle retninger, også ned mot bakken. Dette bidrar til at temperaturen ved bakken blir høyere enn den beregnede temperaturen uten drivhuseffekt.",
+        "kriterier": [
+          "Forklarer at drivhusgasser absorberer infrarød stråling fra bakken.",
+          "Får fram at noe av strålingen sendes tilbake mot bakken og bidrar til høyere temperatur der."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvordan mer vanndamp i lufta kan forsterke en oppvarming som allerede har startet.",
+        "fasit": "Varmere luft kan holde mer vanndamp. Siden vanndamp er en drivhusgass, kan den absorbere mer infrarød stråling og dermed forsterke oppvarmingen.",
+        "kriterier": [
+          "Knytter høyere temperatur til at lufta kan holde mer vanndamp.",
+          "Forklarer at vanndamp er en drivhusgass som kan forsterke oppvarmingen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En person hevder at en kald vinter viser at jorda ikke blir varmere. Bruk forskjellen mellom vær og klima til å forklare hvorfor én vinter ikke er nok til å vurdere en klimaendring.",
+        "fasit": "En kald vinter er en kortvarig værhendelse. Klima vurderes ut fra gjennomsnitt over minst 30 år, så én vinter alene sier ikke om klimaet har blitt varmere eller kaldere.",
+        "kriterier": [
+          "Skiller mellom kortvarig vær og klima som et gjennomsnitt over minst 30 år.",
+          "Forklarer at én vinter ikke er nok til å avgjøre en langsiktig klimaendring."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En påstand omtaler solarkonstanten 1361 W/m² som en energimengde målt i kWh/m². Forklar hva som er galt med dette, og hva 1361 W/m² faktisk beskriver.",
+        "fasit": "W/m² beskriver effekt per areal, ikke en energimengde i kWh/m². Solarkonstanten på 1361 W/m² er effekten fra sola per areal på en flate vinkelrett på strålene utenfor atmosfæren.",
+        "kriterier": [
+          "Skiller mellom effekt per areal i W/m² og energi per areal i kWh/m².",
+          "Beskriver solarkonstanten som effekt per areal utenfor atmosfæren på en flate vinkelrett på solstrålene."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

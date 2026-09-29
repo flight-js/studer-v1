@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Å finne og vurdere psykologisk kunnskap",
   "intro": "Hvordan du finner og vurderer informasjon om psykologiske spørsmål – forskjellen på forskning, fagformidling og populærpsykologi, fagfellevurdering, oversiktsartikler, replikasjonskrisen, statistiske fallgruver og hvordan du bruker kildene til å analysere en faglig problemstilling.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Psykologi i hverdagen\n\nPsykologisk kunnskap er overalt – i **podkaster**, på **sosiale medier**, i **selvhjelpsbøker** og i **nyheter**. Mye er nyttig, men mye er **forenklet**, **feil** eller **kommersielt** motivert. Derfor må du kunne skille mellom ulike typer kilder.\n\n## Typer kilder\n\n- **Primærkilder**: **forskningsartikler** der forskerne selv beskriver en studie – metode, resultater og drøfting.\n- **Oversiktsartikler** og **metaanalyser**: sammenstiller **mange** studier. De gir ofte det mest **pålitelige** bildet av hva forskningen viser.\n- **Fagformidling**: lærebøker, fagnettsteder som **Store norske leksikon**, **Folkehelseinstituttet** og **helsenorge.no**, og artikler skrevet av fagfolk.\n- **Populærpsykologi**: bøker, blogger og innlegg som ofte bygger på **enkelthistorier** og **forenklinger**.\n\n## Fagfellevurdering\n\nFør en forskningsartikkel publiseres i et vitenskapelig tidsskrift, blir den **fagfellevurdert**: Andre forskere vurderer metode og konklusjoner. Det er en **kvalitetskontroll**, men ingen garanti – også fagfellevurderte studier kan inneholde feil.\n\n## Replikasjonskrisen\n\nPå **2010-tallet** forsøkte forskere å **gjenta** kjente psykologiske eksperimenter. Mange av resultatene lot seg **ikke** gjenskape, eller effektene var mye **mindre** enn først antatt. Årsakene var blant annet\n\n- **små utvalg**\n- at bare **positive** funn ble publisert – **publiseringsskjevhet**\n- at forskerne prøvde mange analyser og rapporterte den som ga **signifikant** resultat\n\nSom svar har forskere begynt å **forhåndsregistrere** studier, dele **data** åpent og gjøre flere **replikasjoner**.\n\n## Vurdering av en kilde\n\nStill spørsmålene:\n\n1. **Hvem** er avsender – forsker, journalist, influenser, firma?\n2. **Hva** er formålet – informere, overbevise eller selge?\n3. Bygger påstanden på **forskning**, og hvor **mange** studier?\n4. Hvor **stort** og **representativt** var utvalget?\n5. Er det skilt mellom **sammenheng** og **årsak**?\n6. Er kilden **oppdatert**?\n7. Stemmer den med **andre** gode kilder?\n\n## Statistiske fallgruver\n\n- **Korrelasjon er ikke kausalitet**: At ungdom som bruker mye sosiale medier, rapporterer mer uro, betyr ikke nødvendigvis at sosiale medier **forårsaker** uroen. Det kan være **omvendt**, eller en **tredje** faktor kan påvirke begge.\n- **Relativ og absolutt risiko**: «Dobbelt så stor risiko» kan bety en økning fra 1 til 2 av 10 000.\n- **Statistisk signifikans** sier ikke noe om hvor **viktig** en effekt er.\n- **Enkelthistorier** er sterke, men kan ikke vise hva som gjelder for de **fleste**.\n\n## Søk etter informasjon\n\n- **Oria** og **Google Scholar** finner fagartikler.\n- Bruk **presise** søkeord, gjerne på **engelsk** – for eksempel «social media adolescent depression meta-analysis».\n- Les **sammendraget** – abstract – først.\n- Se etter **publiseringsår** og om artikkelen er mye **sitert**.\n\n## Fra kilder til analyse\n\nNår du analyserer en faglig problemstilling, **sammenstiller** du det kildene sier, peker på **enighet** og **uenighet**, vurderer **kvaliteten** og trekker en **forsiktig** konklusjon. Oppgi kildene slik at leseren kan **sjekke** dem.",
   "flashcards": [
-    { "term": "Primærkilde", "def": "Forskningsartikkel der forskerne beskriver egen studie." },
-    { "term": "Metaanalyse", "def": "Statistisk sammenstilling av mange studier." },
-    { "term": "Oversiktsartikkel", "def": "Sammenfatter forskningen på et felt." },
-    { "term": "Fagformidling", "def": "Lærebøker og fagnettsteder skrevet av fagfolk." },
-    { "term": "Populærpsykologi", "def": "Forenklet psykologi, ofte basert på enkelthistorier." },
-    { "term": "Fagfellevurdering", "def": "Andre forskere vurderer en artikkel før publisering." },
-    { "term": "Replikasjonskrisen", "def": "Mange kjente funn lot seg ikke gjenskape." },
-    { "term": "Publiseringsskjevhet", "def": "At positive funn publiseres oftere enn negative." },
-    { "term": "Forhåndsregistrering", "def": "Plan og hypoteser registreres før studien gjennomføres." },
-    { "term": "Korrelasjon", "def": "Sammenheng mellom to variabler – ikke nødvendigvis årsak." },
-    { "term": "Kausalitet", "def": "At én ting forårsaker en annen." },
-    { "term": "Tredjevariabel", "def": "En faktor som påvirker begge variablene i en sammenheng." },
-    { "term": "Relativ risiko", "def": "Endring i risiko i prosent av utgangspunktet – kan virke større enn den er." },
-    { "term": "Oria", "def": "Søketjeneste for fagbøker og artikler i norske bibliotek." },
-    { "term": "Abstract", "def": "Kort sammendrag av en forskningsartikkel." }
+    {
+      "term": "Primærkilde",
+      "def": "Forskningsartikkel der forskerne beskriver egen studie."
+    },
+    {
+      "term": "Metaanalyse",
+      "def": "Statistisk sammenstilling av mange studier."
+    },
+    {
+      "term": "Oversiktsartikkel",
+      "def": "Sammenfatter forskningen på et felt."
+    },
+    {
+      "term": "Fagformidling",
+      "def": "Lærebøker og fagnettsteder skrevet av fagfolk."
+    },
+    {
+      "term": "Populærpsykologi",
+      "def": "Forenklet psykologi, ofte basert på enkelthistorier."
+    },
+    {
+      "term": "Fagfellevurdering",
+      "def": "Andre forskere vurderer en artikkel før publisering."
+    },
+    {
+      "term": "Replikasjonskrisen",
+      "def": "Mange kjente funn lot seg ikke gjenskape."
+    },
+    {
+      "term": "Publiseringsskjevhet",
+      "def": "At positive funn publiseres oftere enn negative."
+    },
+    {
+      "term": "Forhåndsregistrering",
+      "def": "Plan og hypoteser registreres før studien gjennomføres."
+    },
+    {
+      "term": "Korrelasjon",
+      "def": "Sammenheng mellom to variabler – ikke nødvendigvis årsak."
+    },
+    {
+      "term": "Kausalitet",
+      "def": "At én ting forårsaker en annen."
+    },
+    {
+      "term": "Tredjevariabel",
+      "def": "En faktor som påvirker begge variablene i en sammenheng."
+    },
+    {
+      "term": "Relativ risiko",
+      "def": "Endring i risiko i prosent av utgangspunktet – kan virke større enn den er."
+    },
+    {
+      "term": "Oria",
+      "def": "Søketjeneste for fagbøker og artikler i norske bibliotek."
+    },
+    {
+      "term": "Abstract",
+      "def": "Kort sammendrag av en forskningsartikkel."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken kildetype gir ofte det mest pålitelige bildet av forskningen?", "options": ["Et blogginnlegg", "En metaanalyse", "En enkelthistorie", "En reklame"], "correct": 1, "explain": "Sammenstiller mange studier." },
-    { "id": "q02", "text": "Hva er fagfellevurdering?", "options": ["At andre forskere vurderer en artikkel før publisering", "At leserne gir stjerner", "At journalister skriver om forskningen", "At studien gjentas"], "correct": 0, "explain": "En kvalitetskontroll, men ingen garanti." },
-    { "id": "q03", "text": "Hva var replikasjonskrisen?", "options": ["At psykologer sluttet å forske", "At tidsskrifter ble nedlagt", "At mange kjente funn ikke lot seg gjenskape", "At alle funn ble bekreftet"], "correct": 2, "explain": "Særlig på 2010-tallet." },
-    { "id": "q04", "text": "Hva betyr korrelasjon er ikke kausalitet?", "options": ["At statistikk alltid er feil", "At to ting aldri henger sammen", "At årsaken alltid er kjent", "At en sammenheng ikke viser at den ene tingen forårsaker den andre"], "correct": 3, "explain": "Det kan være omvendt, eller en tredje faktor." },
-    { "id": "q05", "text": "Hva er publiseringsskjevhet?", "options": ["At positive funn publiseres oftere enn negative", "At forskere skriver på engelsk", "At studier er for lange", "At bare kvinner publiserer"], "correct": 0, "explain": "Gir et for positivt bilde." },
-    { "id": "q06", "text": "Hvorfor kan «dobbelt så stor risiko» være misvisende?", "options": ["Fordi risiko aldri dobles", "Fordi den absolutte økningen kan være svært liten", "Fordi det alltid betyr 50 %", "Fordi det er et sitat"], "correct": 1, "explain": "Skill mellom relativ og absolutt risiko." },
-    { "id": "q07", "text": "Hva er et tiltak mot replikasjonskrisen?", "options": ["Mindre utvalg", "Hemmelige data", "Forhåndsregistrering av studier", "Å slutte å publisere"], "correct": 2, "explain": "Også åpne data og flere replikasjoner." },
-    { "id": "q08", "text": "Hvilket spørsmål bør du stille om en kilde?", "options": ["Hvor mange likes den har", "Hvor fin designen er", "Hvor lang den er", "Hvem som er avsender og hva formålet er"], "correct": 3, "explain": "Informere, overbevise eller selge?" },
-    { "id": "q09", "text": "Hvorfor kan enkelthistorier være problematiske som bevis?", "options": ["De kan ikke vise hva som gjelder for de fleste", "De er alltid løgn", "De er for korte", "De er ulovlige"], "correct": 0, "explain": "Men de kan gi innsikt." },
-    { "id": "q10", "text": "Hva bør du lese først i en forskningsartikkel?", "options": ["Referanselisten", "Sammendraget – abstract", "Tabellene", "Takkeordene"], "correct": 1, "explain": "Gir oversikt raskt." }
+    {
+      "id": "q01",
+      "text": "Hvilken kildetype gir ofte det mest pålitelige bildet av forskningen?",
+      "options": [
+        "Et blogginnlegg",
+        "En metaanalyse",
+        "En enkelthistorie",
+        "En reklame"
+      ],
+      "correct": 1,
+      "explain": "Sammenstiller mange studier."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er fagfellevurdering?",
+      "options": [
+        "At andre forskere vurderer en artikkel før publisering",
+        "At leserne gir stjerner",
+        "At journalister skriver om forskningen",
+        "At studien gjentas"
+      ],
+      "correct": 0,
+      "explain": "En kvalitetskontroll, men ingen garanti."
+    },
+    {
+      "id": "q03",
+      "text": "Hva var replikasjonskrisen?",
+      "options": [
+        "At psykologer sluttet å forske",
+        "At tidsskrifter ble nedlagt",
+        "At mange kjente funn ikke lot seg gjenskape",
+        "At alle funn ble bekreftet"
+      ],
+      "correct": 2,
+      "explain": "Særlig på 2010-tallet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr korrelasjon er ikke kausalitet?",
+      "options": [
+        "At statistikk alltid er feil",
+        "At to ting aldri henger sammen",
+        "At årsaken alltid er kjent",
+        "At en sammenheng ikke viser at den ene tingen forårsaker den andre"
+      ],
+      "correct": 3,
+      "explain": "Det kan være omvendt, eller en tredje faktor."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er publiseringsskjevhet?",
+      "options": [
+        "At positive funn publiseres oftere enn negative",
+        "At forskere skriver på engelsk",
+        "At studier er for lange",
+        "At bare kvinner publiserer"
+      ],
+      "correct": 0,
+      "explain": "Gir et for positivt bilde."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor kan «dobbelt så stor risiko» være misvisende?",
+      "options": [
+        "Fordi risiko aldri dobles",
+        "Fordi den absolutte økningen kan være svært liten",
+        "Fordi det alltid betyr 50 %",
+        "Fordi det er et sitat"
+      ],
+      "correct": 1,
+      "explain": "Skill mellom relativ og absolutt risiko."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er et tiltak mot replikasjonskrisen?",
+      "options": [
+        "Mindre utvalg",
+        "Hemmelige data",
+        "Forhåndsregistrering av studier",
+        "Å slutte å publisere"
+      ],
+      "correct": 2,
+      "explain": "Også åpne data og flere replikasjoner."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket spørsmål bør du stille om en kilde?",
+      "options": [
+        "Hvor mange likes den har",
+        "Hvor fin designen er",
+        "Hvor lang den er",
+        "Hvem som er avsender og hva formålet er"
+      ],
+      "correct": 3,
+      "explain": "Informere, overbevise eller selge?"
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor kan enkelthistorier være problematiske som bevis?",
+      "options": [
+        "De kan ikke vise hva som gjelder for de fleste",
+        "De er alltid løgn",
+        "De er for korte",
+        "De er ulovlige"
+      ],
+      "correct": 0,
+      "explain": "Men de kan gi innsikt."
+    },
+    {
+      "id": "q10",
+      "text": "Hva bør du lese først i en forskningsartikkel?",
+      "options": [
+        "Referanselisten",
+        "Sammendraget – abstract",
+        "Tabellene",
+        "Takkeordene"
+      ],
+      "correct": 1,
+      "explain": "Gir oversikt raskt."
+    }
   ],
   "mindmap": {
     "label": "Kilder i psykologi",
     "children": [
-      { "label": "Kildetyper", "children": [
-        { "label": "Primærkilder" },
-        { "label": "Metaanalyser" },
-        { "label": "Fagformidling og populærpsykologi" }
-      ] },
-      { "label": "Kvalitet", "children": [
-        { "label": "Fagfellevurdering" },
-        { "label": "Replikasjonskrisen" }
-      ] },
-      { "label": "Vurdering", "children": [
-        { "label": "Avsender og formål" },
-        { "label": "Utvalg" },
-        { "label": "Aktualitet" }
-      ] },
-      { "label": "Fallgruver", "children": [
-        { "label": "Korrelasjon og kausalitet" },
-        { "label": "Relativ risiko" },
-        { "label": "Enkelthistorier" }
-      ] },
-      { "label": "Søk og analyse", "children": [
-        { "label": "Oria og Google Scholar" },
-        { "label": "Sammenstille og konkludere" }
-      ] }
+      {
+        "label": "Kildetyper",
+        "children": [
+          {
+            "label": "Primærkilder"
+          },
+          {
+            "label": "Metaanalyser"
+          },
+          {
+            "label": "Fagformidling og populærpsykologi"
+          }
+        ]
+      },
+      {
+        "label": "Kvalitet",
+        "children": [
+          {
+            "label": "Fagfellevurdering"
+          },
+          {
+            "label": "Replikasjonskrisen"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering",
+        "children": [
+          {
+            "label": "Avsender og formål"
+          },
+          {
+            "label": "Utvalg"
+          },
+          {
+            "label": "Aktualitet"
+          }
+        ]
+      },
+      {
+        "label": "Fallgruver",
+        "children": [
+          {
+            "label": "Korrelasjon og kausalitet"
+          },
+          {
+            "label": "Relativ risiko"
+          },
+          {
+            "label": "Enkelthistorier"
+          }
+        ]
+      },
+      {
+        "label": "Søk og analyse",
+        "children": [
+          {
+            "label": "Oria og Google Scholar"
+          },
+          {
+            "label": "Sammenstille og konkludere"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Også fagfellevurderte studier kan inneholde feil.", "correct": true, "explain": "Fagfellevurdering er ingen garanti." },
-      { "id": "m02", "type": "sant-usant", "text": "Statistisk signifikans betyr alltid at effekten er stor og viktig.", "correct": false, "explain": "Signifikans sier ikke noe om hvor viktig effekten er." },
-      { "id": "m03", "type": "sant-usant", "text": "En sammenheng mellom skjermtid og uro kan skyldes en tredje faktor.", "correct": true, "explain": "For eksempel søvn eller stress." },
-      { "id": "m04", "type": "sant-usant", "text": "Et innlegg fra en influenser er like pålitelig som en metaanalyse.", "correct": false, "explain": "Kildene har svært ulik kvalitet." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken søketjeneste er laget for norske bibliotek?", "options": ["Google Maps", "Oria", "Spotify", "Finn.no"], "correct": 1, "explain": "Finner fagbøker og artikler." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gjør du når du analyserer en problemstilling ut fra flere kilder?", "options": ["Sammenstiller, vurderer kvalitet og trekker forsiktige konklusjoner", "Velger kilden du er mest enig i", "Bruker bare én kilde", "Kopierer den første kilden"], "correct": 0, "explain": "Peker også på enighet og uenighet." },
-      { "id": "m07", "type": "flervalg", "text": "Hva var en årsak til replikasjonskrisen?", "options": ["For store utvalg", "Åpne data", "Små utvalg og selektiv rapportering", "For mange replikasjoner"], "correct": 2, "explain": "Ga tilfeldige funn." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Også fagfellevurderte studier kan inneholde feil.",
+        "correct": true,
+        "explain": "Fagfellevurdering er ingen garanti."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Statistisk signifikans betyr alltid at effekten er stor og viktig.",
+        "correct": false,
+        "explain": "Signifikans sier ikke noe om hvor viktig effekten er."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En sammenheng mellom skjermtid og uro kan skyldes en tredje faktor.",
+        "correct": true,
+        "explain": "For eksempel søvn eller stress."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et innlegg fra en influenser er like pålitelig som en metaanalyse.",
+        "correct": false,
+        "explain": "Kildene har svært ulik kvalitet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken søketjeneste er laget for norske bibliotek?",
+        "options": [
+          "Google Maps",
+          "Oria",
+          "Spotify",
+          "Finn.no"
+        ],
+        "correct": 1,
+        "explain": "Finner fagbøker og artikler."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gjør du når du analyserer en problemstilling ut fra flere kilder?",
+        "options": [
+          "Sammenstiller, vurderer kvalitet og trekker forsiktige konklusjoner",
+          "Velger kilden du er mest enig i",
+          "Bruker bare én kilde",
+          "Kopierer den første kilden"
+        ],
+        "correct": 0,
+        "explain": "Peker også på enighet og uenighet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva var en årsak til replikasjonskrisen?",
+        "options": [
+          "For store utvalg",
+          "Åpne data",
+          "Små utvalg og selektiv rapportering",
+          "For mange replikasjoner"
+        ],
+        "correct": 2,
+        "explain": "Ga tilfeldige funn."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En primærkilde er en forskningsartikkel der forskerne beskriver sin egen studie. En populærpsykologisk blogg kan bygge på enkelthistorier og forenklinger. Forklar én viktig forskjell på hva slags kunnskap disse kildene gir.",
+        "fasit": "En primærkilde beskriver en studie og gir informasjon om blant annet metode og resultater. En populærpsykologisk blogg kan bygge på enkelthistorier og forenkle forskningen, så den gir ikke nødvendigvis et pålitelig bilde av hva forskningen samlet viser.",
+        "kriterier": [
+          "Får fram at primærkilden beskriver forskernes egen studie, for eksempel metode eller resultater.",
+          "Får fram at populærpsykologi ofte forenkler eller bygger på enkelthistorier, og derfor ikke nødvendigvis viser det forskningen samlet viser."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En oversiktsartikkel og en metaanalyse sammenfatter begge forskning. Forklar forskjellen på hvordan de sammenfatter studier.",
+        "fasit": "En oversiktsartikkel sammenfatter forskningen på et felt. En metaanalyse sammenstiller mange studier statistisk.",
+        "kriterier": [
+          "Forklarer at en oversiktsartikkel sammenfatter forskning på et felt.",
+          "Forklarer at en metaanalyse sammenstiller mange studier statistisk."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En forskningsartikkel er fagfellevurdert. Forklar hva dette sier om artikkelen, og hvorfor det likevel ikke er sikkert at alle konklusjonene er riktige.",
+        "fasit": "Fagfellevurdering betyr at andre forskere har vurdert blant annet metoden og konklusjonene før publisering. Det er en kvalitetskontroll, men fagfellevurderte studier kan fortsatt inneholde feil.",
+        "kriterier": [
+          "Får fram at andre forskere vurderer blant annet metode og konklusjoner før publisering.",
+          "Får fram at vurderingen er en kvalitetskontroll, ikke en garanti mot feil."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En studie finner at ungdom som bruker mye sosiale medier, også rapporterer mer uro. Forklar hvordan en tredjevariabel kan være en alternativ forklaring på denne sammenhengen.",
+        "fasit": "En tredjevariabel kan påvirke både bruken av sosiale medier og uroen. Da kan denne faktoren bidra til sammenhengen, uten at studien viser at sosiale medier forårsaker uroen.",
+        "kriterier": [
+          "Forklarer at en tredjevariabel påvirker begge variablene.",
+          "Får fram at sammenhengen derfor ikke i seg selv viser at sosiale medier forårsaker uro."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En studie finner en statistisk signifikant effekt. Forklar hvorfor dette alene ikke viser at effekten er viktig i praksis.",
+        "fasit": "Statistisk signifikans sier ikke hvor stor eller viktig effekten er. En effekt kan være statistisk signifikant, men likevel ha liten praktisk betydning.",
+        "kriterier": [
+          "Skiller mellom statistisk signifikans og effektens størrelse eller betydning.",
+          "Forklarer at en signifikant effekt likevel kan ha liten praktisk betydning."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Du skal finne forskning om sammenhengen mellom sosiale medier og depresjon hos ungdom. Skriv et presist søk på engelsk, og nevn to ting du kan undersøke for å vurdere treffene.",
+        "fasit": "Jeg kan søke etter «social media adolescent depression meta-analysis» i Oria eller Google Scholar. Jeg kan undersøke publiseringsår og hvor mye artikkelen er sitert.",
+        "kriterier": [
+          "Skriver et relevant, presist søk på engelsk som handler om sosiale medier, ungdom og depresjon.",
+          "Nevner to relevante vurderinger av treffene, som publiseringsår og antall siteringer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "To gode kilder trekker ulike konklusjoner om en psykologisk problemstilling. Forklar hvordan du kan bruke kildene til å lage en forsiktig konklusjon.",
+        "fasit": "Jeg kan sammenstille hva kildene sier, undersøke hvor de er enige og uenige, og vurdere kvaliteten på dem. Konklusjonen bør ta hensyn til denne vurderingen, og kildene bør oppgis slik at andre kan sjekke dem.",
+        "kriterier": [
+          "Får fram at kildenes enighet og uenighet bør sammenstilles.",
+          "Får fram at kvaliteten bør vurderes før en forsiktig konklusjon trekkes."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En journalist bruker én studie til å hevde at et resultat gjelder for ungdom generelt. Forklar hvorfor det er lurt å være forsiktig med en slik påstand, og hva slags forskning som kan gi et bedre grunnlag.",
+        "fasit": "Én studie gir ikke nødvendigvis et pålitelig bilde av hva som gjelder for ungdom generelt, særlig hvis utvalget er lite eller lite representativt. Flere studier, for eksempel en oversiktsartikkel eller metaanalyse, kan gi et bedre grunnlag.",
+        "kriterier": [
+          "Får fram at én studie ikke nødvendigvis kan generaliseres, for eksempel fordi utvalget kan være lite eller lite representativt.",
+          "Nevner at flere studier sammenstilt kan gi et bedre grunnlag."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

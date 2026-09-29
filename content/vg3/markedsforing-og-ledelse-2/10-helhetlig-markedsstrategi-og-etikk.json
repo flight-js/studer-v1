@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Helhetlige markedsstrategier og etisk bruk av konkurransemidler",
   "intro": "Hvordan virksomheter utvikler og begrunner helhetlige markedsstrategier gjennom markedsplanen – fra analyse og mål til STP, markedsmiks, budsjett og kontroll – og hvordan de drøfter etisk bruk av konkurransemidlene, med markedsføringsloven, etiske teorier og dilemmaer som kroppspress, grønnvasking og manipulerende design.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Den helhetlige markedsstrategien\n\nEn **markedsstrategi** beskriver hvordan virksomheten skal nå sine **markedsmål**. Den er **helhetlig** når alle delene **henger sammen** og **støtter** hverandre. Strategien samles ofte i en **markedsplan**:\n\n1. **Situasjonsanalyse**: interne og eksterne forhold, SWOT\n2. **Mål**: markedsmål og kommunikasjonsmål\n3. **Strategi**: **segmentering**, **målgruppe** og **posisjonering**\n4. **Markedsmiks**: produkt, pris, distribusjon, påvirkning – og for tjenester også personale, prosesser og fysiske omgivelser\n5. **Budsjett** og **handlingsplan**\n6. **Kontroll** og **evaluering**\n\n## Konsistens\n\nAlle konkurransemidlene må sende **samme** signal:\n\n- Et **premiumprodukt** trenger **høy** pris, **selektiv** eller **eksklusiv** distribusjon, **eksklusiv** kommunikasjon og **kompetente** ansatte.\n- Et **lavpriskonsept** trenger **effektive** prosesser, **intensiv** distribusjon og **prisfokusert** kommunikasjon.\n\nNår elementene **spriker**, blir kundene **forvirret**, og posisjoneringen **svekkes**.\n\n## Begrunnelse\n\nEn strategi må **begrunnes**: Hvorfor passer denne målgruppen? Hvorfor denne posisjoneringen? Hvilke **alternativer** ble vurdert, og hvorfor ble de valgt bort? Begrunnelsen bør bygge på **analysen** og vise hvordan strategien bidrar til **målene**.\n\n## Etikk i markedsføring\n\n**Etikk** handler om hva som er **rett** og **galt**. I markedsføring er det ikke nok at noe er **lovlig** – det bør også være **anstendig**.\n\nTo etiske perspektiver:\n\n- **Konsekvensetikk**: Handlingen vurderes ut fra **følgene** – gir den mest mulig godt for flest mulig?\n- **Pliktetikk**: Noen handlinger er **riktige** eller **gale** uansett følger – for eksempel å **lyve** for kunder.\n\n## Regelverket\n\n**Markedsføringsloven** krever **god markedsføringsskikk**. Den forbyr blant annet\n\n- **villedende** markedsføring – for eksempel falske påstander om egenskaper eller pris\n- **aggressiv** markedsføring som presser forbrukerne\n- **skjult** reklame – reklame skal være **tydelig merket**\n- markedsføring som **utnytter** barns godtroenhet\n\nRetusjert reklame der kroppens form er endret, skal **merkes**. **Forbrukertilsynet** fører tilsyn og kan ilegge **overtredelsesgebyr**.\n\n## Etiske dilemmaer\n\n- **Produkt**: planlagt foreldelse – produkter som lages for å gå i stykker\n- **Pris**: falske førpriser, skjulte gebyrer og prispress\n- **Distribusjon**: dårlige arbeidsforhold i **leverandørkjeden**\n- **Påvirkning**: **kroppspress**, **grønnvasking** – å framstille seg som mer miljøvennlig enn man er – og **manipulerende design** som skjuler hvordan man avslutter et abonnement\n- **Data**: innsamling og bruk av **persondata** uten god informasjon\n- **Målgrupper**: markedsføring av **usunn mat**, **pengespill** eller **forbrukslån** mot sårbare grupper\n\n## Etikk lønner seg – ofte\n\nUetisk markedsføring kan gi **kortsiktig** gevinst, men kan skade **tillit** og **omdømme** når det blir kjent – særlig i sosiale medier. Mange kunder, særlig unge, forventer at virksomheter tar **ansvar**.\n\n## Drøfting\n\nNår du drøfter en markedsstrategi, bør du vurdere både **lønnsomhet** og **etikk**: Er strategien **effektiv**? Er den **lovlig**? Er den **anstendig**? Og hvordan vil den påvirke **omdømmet** på lang sikt?",
   "flashcards": [
-    { "term": "Markedsstrategi", "def": "Hvordan virksomheten skal nå sine markedsmål." },
-    { "term": "Markedsplan", "def": "Analyse, mål, strategi, markedsmiks, budsjett og kontroll." },
-    { "term": "Helhetlig strategi", "def": "Alle deler henger sammen og støtter hverandre." },
-    { "term": "Konsistens", "def": "Alle konkurransemidler sender samme signal." },
-    { "term": "Begrunnelse", "def": "Forklaring av valg ut fra analyse og mål." },
-    { "term": "Konsekvensetikk", "def": "Handlingen vurderes ut fra følgene." },
-    { "term": "Pliktetikk", "def": "Noen handlinger er rette eller gale uansett følger." },
-    { "term": "God markedsføringsskikk", "def": "Grunnkrav i markedsføringsloven." },
-    { "term": "Villedende markedsføring", "def": "Falske eller misvisende påstander." },
-    { "term": "Aggressiv markedsføring", "def": "Markedsføring som presser forbrukerne." },
-    { "term": "Grønnvasking", "def": "Å framstille seg som mer miljøvennlig enn man er." },
-    { "term": "Planlagt foreldelse", "def": "Produkter som lages for å gå i stykker." },
-    { "term": "Manipulerende design", "def": "Design som lurer brukere, for eksempel ved oppsigelse." },
-    { "term": "Kroppspress", "def": "Press om å se ut på en bestemt måte." },
-    { "term": "Forbrukertilsynet", "def": "Fører tilsyn med markedsføringsloven." }
+    {
+      "term": "Markedsstrategi",
+      "def": "Hvordan virksomheten skal nå sine markedsmål."
+    },
+    {
+      "term": "Markedsplan",
+      "def": "Analyse, mål, strategi, markedsmiks, budsjett og kontroll."
+    },
+    {
+      "term": "Helhetlig strategi",
+      "def": "Alle deler henger sammen og støtter hverandre."
+    },
+    {
+      "term": "Konsistens",
+      "def": "Alle konkurransemidler sender samme signal."
+    },
+    {
+      "term": "Begrunnelse",
+      "def": "Forklaring av valg ut fra analyse og mål."
+    },
+    {
+      "term": "Konsekvensetikk",
+      "def": "Handlingen vurderes ut fra følgene."
+    },
+    {
+      "term": "Pliktetikk",
+      "def": "Noen handlinger er rette eller gale uansett følger."
+    },
+    {
+      "term": "God markedsføringsskikk",
+      "def": "Grunnkrav i markedsføringsloven."
+    },
+    {
+      "term": "Villedende markedsføring",
+      "def": "Falske eller misvisende påstander."
+    },
+    {
+      "term": "Aggressiv markedsføring",
+      "def": "Markedsføring som presser forbrukerne."
+    },
+    {
+      "term": "Grønnvasking",
+      "def": "Å framstille seg som mer miljøvennlig enn man er."
+    },
+    {
+      "term": "Planlagt foreldelse",
+      "def": "Produkter som lages for å gå i stykker."
+    },
+    {
+      "term": "Manipulerende design",
+      "def": "Design som lurer brukere, for eksempel ved oppsigelse."
+    },
+    {
+      "term": "Kroppspress",
+      "def": "Press om å se ut på en bestemt måte."
+    },
+    {
+      "term": "Forbrukertilsynet",
+      "def": "Fører tilsyn med markedsføringsloven."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr at en markedsstrategi er helhetlig?", "options": ["At den er lang", "At alle delene henger sammen og støtter hverandre", "At den bare handler om pris", "At den gjelder hele verden"], "correct": 1, "explain": "Konsistens i markedsmiksen." },
-    { "id": "q02", "text": "Hva er pliktetikk?", "options": ["At noen handlinger er rette eller gale uansett følger", "At bare følgene teller", "At loven er alt", "At alle plikter å kjøpe"], "correct": 0, "explain": "For eksempel å ikke lyve." },
-    { "id": "q03", "text": "Hva er grønnvasking?", "options": ["Miljøvennlig vask", "En type sertifisering", "Å framstille seg som mer miljøvennlig enn man er", "Å bruke grønn logo"], "correct": 2, "explain": "Villedende markedsføring." },
-    { "id": "q04", "text": "Hvilken markedsmiks passer et premiumprodukt?", "options": ["Lav pris og intensiv distribusjon", "Prisfokusert kommunikasjon", "Tilbudsaviser", "Høy pris, selektiv distribusjon og eksklusiv kommunikasjon"], "correct": 3, "explain": "Alt må sende samme signal." },
-    { "id": "q05", "text": "Hva krever markedsføringsloven?", "options": ["God markedsføringsskikk", "At all reklame er på TV", "At prisene er lave", "At alle produkter er norske"], "correct": 0, "explain": "Forbyr villedende og aggressiv markedsføring." },
-    { "id": "q06", "text": "Hva er manipulerende design?", "options": ["Pent design", "Design som lurer brukerne, for eksempel ved oppsigelse", "Et designprogram", "En logo"], "correct": 1, "explain": "Ofte kalt dark patterns." },
-    { "id": "q07", "text": "Hva skjer når elementene i markedsmiksen spriker?", "options": ["Posisjoneringen styrkes", "Salget øker alltid", "Kundene blir forvirret og posisjoneringen svekkes", "Ingenting"], "correct": 2, "explain": "Konsistens er viktig." },
-    { "id": "q08", "text": "Hvorfor kan uetisk markedsføring skade virksomheten?", "options": ["Fordi den er dyr", "Fordi den er treg", "Fordi den er ukjent", "Fordi den kan skade tillit og omdømme når den blir kjent"], "correct": 3, "explain": "Særlig i sosiale medier." },
-    { "id": "q09", "text": "Hva er første del av en markedsplan?", "options": ["Situasjonsanalyse", "Budsjett", "Kontroll", "Kampanje"], "correct": 0, "explain": "Grunnlaget for alt annet." },
-    { "id": "q10", "text": "Hva er et etisk dilemma knyttet til distribusjon?", "options": ["Kroppspress", "Dårlige arbeidsforhold i leverandørkjeden", "Falske førpriser", "Planlagt foreldelse"], "correct": 1, "explain": "Ansvar for hele kjeden." }
+    {
+      "id": "q01",
+      "text": "Hva betyr at en markedsstrategi er helhetlig?",
+      "options": [
+        "At den er lang",
+        "At alle delene henger sammen og støtter hverandre",
+        "At den bare handler om pris",
+        "At den gjelder hele verden"
+      ],
+      "correct": 1,
+      "explain": "Konsistens i markedsmiksen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er pliktetikk?",
+      "options": [
+        "At noen handlinger er rette eller gale uansett følger",
+        "At bare følgene teller",
+        "At loven er alt",
+        "At alle plikter å kjøpe"
+      ],
+      "correct": 0,
+      "explain": "For eksempel å ikke lyve."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er grønnvasking?",
+      "options": [
+        "Miljøvennlig vask",
+        "En type sertifisering",
+        "Å framstille seg som mer miljøvennlig enn man er",
+        "Å bruke grønn logo"
+      ],
+      "correct": 2,
+      "explain": "Villedende markedsføring."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken markedsmiks passer et premiumprodukt?",
+      "options": [
+        "Lav pris og intensiv distribusjon",
+        "Prisfokusert kommunikasjon",
+        "Tilbudsaviser",
+        "Høy pris, selektiv distribusjon og eksklusiv kommunikasjon"
+      ],
+      "correct": 3,
+      "explain": "Alt må sende samme signal."
+    },
+    {
+      "id": "q05",
+      "text": "Hva krever markedsføringsloven?",
+      "options": [
+        "God markedsføringsskikk",
+        "At all reklame er på TV",
+        "At prisene er lave",
+        "At alle produkter er norske"
+      ],
+      "correct": 0,
+      "explain": "Forbyr villedende og aggressiv markedsføring."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er manipulerende design?",
+      "options": [
+        "Pent design",
+        "Design som lurer brukerne, for eksempel ved oppsigelse",
+        "Et designprogram",
+        "En logo"
+      ],
+      "correct": 1,
+      "explain": "Ofte kalt dark patterns."
+    },
+    {
+      "id": "q07",
+      "text": "Hva skjer når elementene i markedsmiksen spriker?",
+      "options": [
+        "Posisjoneringen styrkes",
+        "Salget øker alltid",
+        "Kundene blir forvirret og posisjoneringen svekkes",
+        "Ingenting"
+      ],
+      "correct": 2,
+      "explain": "Konsistens er viktig."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor kan uetisk markedsføring skade virksomheten?",
+      "options": [
+        "Fordi den er dyr",
+        "Fordi den er treg",
+        "Fordi den er ukjent",
+        "Fordi den kan skade tillit og omdømme når den blir kjent"
+      ],
+      "correct": 3,
+      "explain": "Særlig i sosiale medier."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er første del av en markedsplan?",
+      "options": [
+        "Situasjonsanalyse",
+        "Budsjett",
+        "Kontroll",
+        "Kampanje"
+      ],
+      "correct": 0,
+      "explain": "Grunnlaget for alt annet."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et etisk dilemma knyttet til distribusjon?",
+      "options": [
+        "Kroppspress",
+        "Dårlige arbeidsforhold i leverandørkjeden",
+        "Falske førpriser",
+        "Planlagt foreldelse"
+      ],
+      "correct": 1,
+      "explain": "Ansvar for hele kjeden."
+    }
   ],
   "mindmap": {
     "label": "Helhetlig strategi og etikk",
     "children": [
-      { "label": "Markedsplan", "children": [
-        { "label": "Analyse og mål" },
-        { "label": "STP" },
-        { "label": "Markedsmiks, budsjett og kontroll" }
-      ] },
-      { "label": "Helhet", "children": [
-        { "label": "Konsistens" },
-        { "label": "Begrunnelse" }
-      ] },
-      { "label": "Etikk", "children": [
-        { "label": "Konsekvensetikk" },
-        { "label": "Pliktetikk" }
-      ] },
-      { "label": "Regelverk", "children": [
-        { "label": "Markedsføringsloven" },
-        { "label": "Forbrukertilsynet" }
-      ] },
-      { "label": "Dilemmaer", "children": [
-        { "label": "Grønnvasking og kroppspress" },
-        { "label": "Manipulerende design" },
-        { "label": "Sårbare grupper" }
-      ] }
+      {
+        "label": "Markedsplan",
+        "children": [
+          {
+            "label": "Analyse og mål"
+          },
+          {
+            "label": "STP"
+          },
+          {
+            "label": "Markedsmiks, budsjett og kontroll"
+          }
+        ]
+      },
+      {
+        "label": "Helhet",
+        "children": [
+          {
+            "label": "Konsistens"
+          },
+          {
+            "label": "Begrunnelse"
+          }
+        ]
+      },
+      {
+        "label": "Etikk",
+        "children": [
+          {
+            "label": "Konsekvensetikk"
+          },
+          {
+            "label": "Pliktetikk"
+          }
+        ]
+      },
+      {
+        "label": "Regelverk",
+        "children": [
+          {
+            "label": "Markedsføringsloven"
+          },
+          {
+            "label": "Forbrukertilsynet"
+          }
+        ]
+      },
+      {
+        "label": "Dilemmaer",
+        "children": [
+          {
+            "label": "Grønnvasking og kroppspress"
+          },
+          {
+            "label": "Manipulerende design"
+          },
+          {
+            "label": "Sårbare grupper"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Noe kan være lovlig og likevel uetisk.", "correct": true, "explain": "Etikk handler om mer enn lov." },
-      { "id": "m02", "type": "sant-usant", "text": "Skjult reklame er tillatt hvis produktet er godt.", "correct": false, "explain": "Reklame skal alltid være tydelig merket." },
-      { "id": "m03", "type": "sant-usant", "text": "Retusjert reklame der kroppens form er endret, skal merkes.", "correct": true, "explain": "For å motvirke kroppspress." },
-      { "id": "m04", "type": "sant-usant", "text": "En strategi trenger ingen begrunnelse hvis den er kreativ.", "correct": false, "explain": "Den må begrunnes ut fra analyse og mål." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken markedsmiks passer et lavpriskonsept?", "options": ["Eksklusiv distribusjon", "Effektive prosesser og intensiv distribusjon", "Prestisjepris", "Luksuriøse butikker"], "correct": 1, "explain": "Lave kostnader gjennom hele kjeden." },
-      { "id": "m06", "type": "flervalg", "text": "Hvem kan ilegge overtredelsesgebyr for brudd på markedsføringsloven?", "options": ["Forbrukertilsynet", "Datatilsynet alene", "Stortinget", "Kundene"], "correct": 0, "explain": "Tilsynsmyndigheten." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål hører med i en etisk vurdering av strategien?", "options": ["Er logoen pen?", "Er kontoret stort?", "Er strategien anstendig og hvordan påvirker den omdømmet?", "Hvor mange ansatte har vi?"], "correct": 2, "explain": "I tillegg til lønnsomhet og lovlighet." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Noe kan være lovlig og likevel uetisk.",
+        "correct": true,
+        "explain": "Etikk handler om mer enn lov."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Skjult reklame er tillatt hvis produktet er godt.",
+        "correct": false,
+        "explain": "Reklame skal alltid være tydelig merket."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Retusjert reklame der kroppens form er endret, skal merkes.",
+        "correct": true,
+        "explain": "For å motvirke kroppspress."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En strategi trenger ingen begrunnelse hvis den er kreativ.",
+        "correct": false,
+        "explain": "Den må begrunnes ut fra analyse og mål."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken markedsmiks passer et lavpriskonsept?",
+        "options": [
+          "Eksklusiv distribusjon",
+          "Effektive prosesser og intensiv distribusjon",
+          "Prestisjepris",
+          "Luksuriøse butikker"
+        ],
+        "correct": 1,
+        "explain": "Lave kostnader gjennom hele kjeden."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem kan ilegge overtredelsesgebyr for brudd på markedsføringsloven?",
+        "options": [
+          "Forbrukertilsynet",
+          "Datatilsynet alene",
+          "Stortinget",
+          "Kundene"
+        ],
+        "correct": 0,
+        "explain": "Tilsynsmyndigheten."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket spørsmål hører med i en etisk vurdering av strategien?",
+        "options": [
+          "Er logoen pen?",
+          "Er kontoret stort?",
+          "Er strategien anstendig og hvordan påvirker den omdømmet?",
+          "Hvor mange ansatte har vi?"
+        ],
+        "correct": 2,
+        "explain": "I tillegg til lønnsomhet og lovlighet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen mellom en markedsstrategi og en markedsplan.",
+        "fasit": "En markedsstrategi beskriver hvordan virksomheten skal nå markedsmålene sine. Markedsplanen samler blant annet analysen, målene, strategien, markedsmiksen, budsjettet og kontrollen.",
+        "kriterier": [
+          "Forklarer at strategien handler om hvordan markedsmålene skal nås.",
+          "Forklarer at markedsplanen samler strategien med flere andre deler, for eksempel analyse, mål eller markedsmiks."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En virksomhet velger en målgruppe og en posisjonering, men forklarer ikke hvorfor valgene passer. Hva bør virksomheten bygge begrunnelsen på, og hvordan bør den knyttes til målene?",
+        "fasit": "Begrunnelsen bør bygge på situasjonsanalysen og forklare hvorfor målgruppen og posisjoneringen passer. Den bør også vise hvordan valgene bidrar til å nå virksomhetens mål.",
+        "kriterier": [
+          "Knytter begrunnelsen til situasjonsanalysen.",
+          "Forklarer hvordan valgene støtter markedsmålene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En virksomhet vurderer å gi kundene en påstand den vet er falsk, fordi det kan øke salget. Sammenlign hvordan konsekvensetikk og pliktetikk kan vurdere handlingen.",
+        "fasit": "Konsekvensetikken vurderer følgene av handlingen, blant annet om den gir mest mulig godt for flest mulig. Pliktetikken vil vurdere det å lyve som galt uansett om salget øker.",
+        "kriterier": [
+          "Forklarer at konsekvensetikk vurderer følgene av handlingen.",
+          "Forklarer at pliktetikk kan si at det er galt å lyve uavhengig av følgene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En profil på sosiale medier omtaler et produkt mot betaling, men innlegget er ikke merket som reklame. Hva er problemet med dette, og hvordan bør innlegget merkes?",
+        "fasit": "Dette er skjult reklame, fordi det ikke kommer tydelig fram at innlegget er reklame. Innlegget skal merkes tydelig som reklame.",
+        "kriterier": [
+          "Identifiserer manglende reklamemerking som skjult reklame.",
+          "Forklarer at reklamen skal merkes tydelig."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En butikk setter opp en førpris som ikke er reell, slik at en vare ser ut til å være satt ned. Hva slags markedsføring er dette, og hvorfor kan den villede kundene?",
+        "fasit": "Dette er villedende markedsføring. Kundene kan få et feilaktig inntrykk av hvor stor prisreduksjonen er fordi førprisen ikke er reell.",
+        "kriterier": [
+          "Kaller markedsføringen villedende.",
+          "Forklarer at den falske førprisen gir kundene et misvisende inntrykk av tilbudet eller prisreduksjonen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En virksomhet lager produkter med vilje slik at de går i stykker etter kort tids bruk. Hva kalles dette, og hva gjør praksisen til et etisk dilemma?",
+        "fasit": "Dette kalles planlagt foreldelse. Det er et etisk dilemma fordi virksomheten med vilje lager produkter som går i stykker, i stedet for at produktene varer.",
+        "kriterier": [
+          "Identifiserer praksisen som planlagt foreldelse.",
+          "Forklarer at produktene med vilje lages for å gå i stykker."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En virksomhet markedsfører forbrukslån direkte mot en sårbar gruppe. Forklar hvorfor valget av målgruppe kan være et etisk dilemma, og hva virksomheten bør vurdere i tillegg til om strategien er effektiv.",
+        "fasit": "Markedsføring av forbrukslån mot sårbare grupper kan utnytte mennesker som er mer utsatt. Virksomheten bør også vurdere om strategien er anstendig, og hvordan den kan påvirke omdømmet på lang sikt.",
+        "kriterier": [
+          "Forklarer at markedsføring av forbrukslån mot sårbare grupper kan utnytte dem eller være etisk problematisk.",
+          "Viser til en vurdering utover effektivitet, for eksempel om strategien er anstendig eller hvordan den påvirker omdømmet på lang sikt."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En reklame er retusjert slik at kroppens form er endret. Hva må virksomheten gjøre med reklamen, og hvilken instans fører tilsyn med markedsføringsloven?",
+        "fasit": "Reklamen skal merkes fordi kroppens form er endret. Forbrukertilsynet fører tilsyn med markedsføringsloven.",
+        "kriterier": [
+          "Sier at reklamen må merkes.",
+          "Identifiserer Forbrukertilsynet som instansen som fører tilsyn med markedsføringsloven."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

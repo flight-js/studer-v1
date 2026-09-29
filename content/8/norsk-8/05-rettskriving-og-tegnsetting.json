@@ -352,6 +352,80 @@
         "correct": 1,
         "explain": "Det skal være komma etter tiltale: Ola, kom hit!"
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvorfor riktig rettskriving og tegnsetting gjør en tekst bedre for leseren.",
+        "fasit": "Riktig rettskriving og tegnsetting gjør teksten lettere å lese. Det viser også at skriveren tar leseren på alvor.",
+        "kriterier": [
+          "Forklarer at teksten blir lettere å lese.",
+          "Forklarer at riktig språk viser hensyn til leseren."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar forskjellen på «å» og «og» i setningen «Jeg liker å lese og skrive».",
+        "fasit": "«Å» står foran verbet «lese» og er infinitivsmerke. «Og» binder sammen verbene «lese» og «skrive».",
+        "kriterier": [
+          "Forklarer at «å» står foran et verb i infinitiv.",
+          "Forklarer at «og» binder sammen ord eller setninger."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Fyll inn «de» eller «dem» i setningen, og forklar hvordan du kan kontrollere valget: «___ snakket med ___ etter kampen.»",
+        "fasit": "De snakket med dem etter kampen. «De» passer fordi «vi» kan stå der, mens «dem» står etter preposisjonen «med» og kan byttes med «oss».",
+        "kriterier": [
+          "Bruker «de» som subjekt og «dem» etter «med».",
+          "Bruker eller forklarer vi/oss-testen riktig."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign skrivemåten «tak» og «takk». Forklar hvordan vokallengden henger sammen med enkel eller dobbel konsonant.",
+        "fasit": "I «tak» er vokalen lang, og derfor står det én k. I «takk» er vokalen kort, og derfor står det som regel dobbel k.",
+        "kriterier": [
+          "Knytter lang vokal til enkel konsonant i «tak».",
+          "Knytter kort vokal til dobbel konsonant i «takk»."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hva er stum h? Bruk «hva» og «hjelp» til å forklare hvor h-en står i ordene.",
+        "fasit": "Stum h er en h som skrives, men ikke uttales. I «hva» står den først i bokstavkombinasjonen «hv», og i «hjelp» står den først i «hj».",
+        "kriterier": [
+          "Forklarer at stum h ikke uttales.",
+          "Viser at h står i «hv» i «hva» og «hj» i «hjelp»."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Skriv «fotball trening» riktig, og forklar hvorfor ordene skal skrives slik på norsk.",
+        "fasit": "Det skal skrives «fotballtrening». Sammensatte ord skrives i ett ord på norsk.",
+        "kriterier": [
+          "Skriver «fotballtrening» i ett ord.",
+          "Forklarer at sammensatte ord skrives sammen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Skriv setningen riktig med store og små forbokstaver: «på mandag i mai møter jeg en nordmann som snakker norsk.» Forklar hvorfor «mandag», «mai», «nordmann» og «norsk» har liten forbokstav.",
+        "fasit": "På mandag i mai møter jeg en nordmann som snakker norsk. Dager, måneder, språk og nasjonaliteter skrives med liten forbokstav.",
+        "kriterier": [
+          "Begynner setningen med stor forbokstav.",
+          "Forklarer at dag, måned, språk og nasjonalitet skrives med liten forbokstav."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sett inn komma der det trengs i disse setningene, og forklar forskjellen: «Det regnet men vi gikk tur.» «Jeg tror at det blir fint.»",
+        "fasit": "Det regnet, men vi gikk tur. Jeg tror at det blir fint. Den første setningen har to helsetninger bundet sammen med «men», mens det ikke skal stå komma foran «at» i den andre.",
+        "kriterier": [
+          "Setter komma foran «men» fordi det binder sammen to helsetninger.",
+          "Lar være å sette komma foran «at» i den andre setningen."
+        ]
+      }
     ]
   },
   "kvalitet": {

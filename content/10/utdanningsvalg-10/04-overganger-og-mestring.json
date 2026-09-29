@@ -4,82 +4,439 @@
   "trinnId": "10",
   "name": "Overganger og mestring",
   "intro": "Hva som endrer seg fra ungdomsskole til videregående, hvordan du kan mestre stress og nye situasjoner, hvor du får hjelp, hvordan omvalg fungerer og hvordan du gjør ideer til handling.",
-  "kompetansemaal": [9, 8],
+  "kompetansemaal": [
+    9,
+    8
+  ],
   "sammendrag": "## Overganger i livet\n\nEn **overgang** er når man går fra én fase i livet til en annen – for eksempel fra ungdomsskole til videregående, fra skole til jobb eller fra hjemmet til egen hybel. Overganger kan være **spennende**, men også **krevende**.\n\n## Fra ungdomsskole til videregående\n\nMye endrer seg:\n\n- **ny skole**, nye lærere og nye klassekamerater\n- mer **ansvar** for egen læring og mindre tett oppfølging\n- **karakterer** som teller for videre utdanning eller læreplass\n- **fraværsregler**: I videregående er det en **fraværsgrense**, og for mye udokumentert fravær kan gi tap av karakter i faget\n- kanskje **lengre reisevei** eller flytting på **hybel**\n\n## Mestringsstrategier\n\n**Mestringsstrategier** er måter å håndtere utfordringer og **stress** på:\n\n- **Planlegg**: Del store oppgaver opp i mindre biter og bruk kalender.\n- **Ta vare på kroppen**: nok **søvn**, **mat** og **fysisk aktivitet**.\n- **Bruk nettverket**: Snakk med venner, familie eller andre du stoler på.\n- **Vær åpen for nye venner**: Mange er nye og usikre de første ukene.\n- **Snakk snilt til deg selv**: Det er lov å gjøre feil – det er slik man lærer.\n- **Be om hjelp tidlig**, før problemene vokser.\n\nEvnen til å komme seg gjennom motgang kalles ofte **robusthet** eller **motstandskraft**.\n\n## Hvor får du hjelp?\n\n- **Kontaktlærer** og **faglærere**\n- **Rådgiver** – om valg, omvalg og videre utdanning\n- **Helsesykepleier** – om helse, stress og følelser\n- **PP-tjenesten** – om lærevansker og tilrettelegging\n- **Ung.no** – informasjon og mulighet til å stille spørsmål anonymt\n\n## Omvalg\n\nNoen oppdager at utdanningsprogrammet ikke passer. Da er det mulig å gjøre **omvalg** – å bytte til et annet program. Snakk med **rådgiveren** før du bestemmer deg. Et omvalg kan gjøre utdanningen lengre, men er ofte bedre enn å fortsette med noe som ikke passer.\n\n## Fra idé til handling\n\nÅ **omsette ideer til handling** er en viktig ferdighet i overganger. Det kan være å søke **sommerjobb**, starte en aktivitet, engasjere seg i **frivillig arbeid** eller lage en plan for skoleåret. Slik kan du gjøre det:\n\n1. **Idé**: Hva vil du oppnå?\n2. **Mål**: Gjør ideen om til et **SMART** mål.\n3. **Plan**: Hvilke steg må til, og hvem kan hjelpe?\n4. **Handling**: Ta det første steget – gjerne i dag.\n5. **Evaluering**: Hva lærte du, og hva er neste steg?\n\nDet viktigste er ikke å ha alle svarene nå, men å kunne **prøve, lære og justere** underveis.",
   "flashcards": [
-    { "term": "Overgang", "def": "Når man går fra én fase i livet til en annen." },
-    { "term": "Fraværsgrense", "def": "Grense for udokumentert fravær i videregående som kan gi tap av karakter." },
-    { "term": "Hybel", "def": "Eget rom eller liten leilighet, ofte for elever som bor borte fra familien." },
-    { "term": "Mestringsstrategi", "def": "Måte å håndtere utfordringer og stress på." },
-    { "term": "Stress", "def": "Kroppens reaksjon på press og krav." },
-    { "term": "Robusthet", "def": "Evnen til å komme seg gjennom motgang." },
-    { "term": "Nettverk", "def": "Venner, familie og andre man kan støtte seg på." },
-    { "term": "Kontaktlærer", "def": "Læreren som har hovedansvar for oppfølging av en elev." },
-    { "term": "Rådgiver", "def": "Person på skolen som hjelper med valg av utdanning og yrke." },
-    { "term": "Helsesykepleier", "def": "Sykepleier på skolen som hjelper med helse og følelser." },
-    { "term": "PP-tjenesten", "def": "Pedagogisk-psykologisk tjeneste som hjelper ved lærevansker." },
-    { "term": "Ung.no", "def": "Offentlig nettsted der unge kan finne informasjon og stille spørsmål anonymt." },
-    { "term": "Omvalg", "def": "Å bytte utdanningsprogram hvis det første valget ikke passet." },
-    { "term": "Fra idé til handling", "def": "Idé, mål, plan, handling og evaluering." },
-    { "term": "Frivillig arbeid", "def": "Ubetalt innsats for andre, for eksempel i et idrettslag." }
+    {
+      "term": "Overgang",
+      "def": "Når man går fra én fase i livet til en annen."
+    },
+    {
+      "term": "Fraværsgrense",
+      "def": "Grense for udokumentert fravær i videregående som kan gi tap av karakter."
+    },
+    {
+      "term": "Hybel",
+      "def": "Eget rom eller liten leilighet, ofte for elever som bor borte fra familien."
+    },
+    {
+      "term": "Mestringsstrategi",
+      "def": "Måte å håndtere utfordringer og stress på."
+    },
+    {
+      "term": "Stress",
+      "def": "Kroppens reaksjon på press og krav."
+    },
+    {
+      "term": "Robusthet",
+      "def": "Evnen til å komme seg gjennom motgang."
+    },
+    {
+      "term": "Nettverk",
+      "def": "Venner, familie og andre man kan støtte seg på."
+    },
+    {
+      "term": "Kontaktlærer",
+      "def": "Læreren som har hovedansvar for oppfølging av en elev."
+    },
+    {
+      "term": "Rådgiver",
+      "def": "Person på skolen som hjelper med valg av utdanning og yrke."
+    },
+    {
+      "term": "Helsesykepleier",
+      "def": "Sykepleier på skolen som hjelper med helse og følelser."
+    },
+    {
+      "term": "PP-tjenesten",
+      "def": "Pedagogisk-psykologisk tjeneste som hjelper ved lærevansker."
+    },
+    {
+      "term": "Ung.no",
+      "def": "Offentlig nettsted der unge kan finne informasjon og stille spørsmål anonymt."
+    },
+    {
+      "term": "Omvalg",
+      "def": "Å bytte utdanningsprogram hvis det første valget ikke passet."
+    },
+    {
+      "term": "Fra idé til handling",
+      "def": "Idé, mål, plan, handling og evaluering."
+    },
+    {
+      "term": "Frivillig arbeid",
+      "def": "Ubetalt innsats for andre, for eksempel i et idrettslag."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en overgang?", "options": ["Et fotgjengerfelt", "En eksamen", "En ferie", "Når man går fra én fase i livet til en annen"], "correct": 3, "explain": "For eksempel fra ungdomsskole til videregående." },
-    { "id": "q02", "text": "Hva er en mestringsstrategi?", "options": ["En måte å håndtere utfordringer og stress på", "En plan for å vinne en kamp", "En type prøve", "En regel på skolen"], "correct": 0, "explain": "For eksempel å planlegge og be om hjelp." },
-    { "id": "q03", "text": "Hvem på skolen kan hjelpe deg med å gjøre omvalg?", "options": ["Vaktmesteren", "Rådgiveren", "Kantinepersonalet", "Ingen"], "correct": 1, "explain": "Rådgiveren kjenner mulighetene og reglene." },
-    { "id": "q04", "text": "Hva kan skje med mye udokumentert fravær i videregående?", "options": ["Du får bedre karakter", "Ingenting", "Du kan miste karakteren i faget", "Du får ekstra ferie"], "correct": 2, "explain": "I videregående gjelder en fraværsgrense." },
-    { "id": "q05", "text": "Hvilket av disse er en god mestringsstrategi?", "options": ["Å sove lite", "Å holde alt for seg selv", "Å utsette alt til siste liten", "Å dele store oppgaver opp i mindre biter"], "correct": 3, "explain": "Da blir oppgavene lettere å komme i gang med." },
-    { "id": "q06", "text": "Hva er robusthet?", "options": ["Evnen til å komme seg gjennom motgang", "Å være sterk i armene", "Å aldri være lei seg", "Å ha mange venner"], "correct": 0, "explain": "Robusthet kan trenes." },
-    { "id": "q07", "text": "Hva kan helsesykepleieren hjelpe med?", "options": ["Å velge fag", "Helse, stress og følelser", "Å søke jobb", "Matteoppgaver"], "correct": 1, "explain": "Helsesykepleieren har taushetsplikt." },
-    { "id": "q08", "text": "Hva er det første steget fra idé til handling etter at du har en idé?", "options": ["Å evaluere", "Å gi opp", "Å gjøre ideen om til et tydelig mål", "Å vente"], "correct": 2, "explain": "Deretter lager du en plan og tar det første steget." },
-    { "id": "q09", "text": "Hva er ung.no?", "options": ["En sosial medieplattform", "En videregående skole", "Et spill", "Et offentlig nettsted der unge kan finne informasjon og spørre anonymt"], "correct": 3, "explain": "Nettstedet har informasjon om mange temaer." },
-    { "id": "q10", "text": "Hvorfor kan et omvalg være lurt?", "options": ["Fordi det alltid gjør utdanningen kortere", "Fordi det kan være bedre enn å fortsette med noe som ikke passer", "Fordi det er påbudt", "Det er aldri lurt"], "correct": 1, "explain": "Et omvalg kan gjøre utdanningen lengre, men gi bedre trivsel og resultat." }
+    {
+      "id": "q01",
+      "text": "Hva er en overgang?",
+      "options": [
+        "Et fotgjengerfelt",
+        "En eksamen",
+        "En ferie",
+        "Når man går fra én fase i livet til en annen"
+      ],
+      "correct": 3,
+      "explain": "For eksempel fra ungdomsskole til videregående."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er en mestringsstrategi?",
+      "options": [
+        "En måte å håndtere utfordringer og stress på",
+        "En plan for å vinne en kamp",
+        "En type prøve",
+        "En regel på skolen"
+      ],
+      "correct": 0,
+      "explain": "For eksempel å planlegge og be om hjelp."
+    },
+    {
+      "id": "q03",
+      "text": "Hvem på skolen kan hjelpe deg med å gjøre omvalg?",
+      "options": [
+        "Vaktmesteren",
+        "Rådgiveren",
+        "Kantinepersonalet",
+        "Ingen"
+      ],
+      "correct": 1,
+      "explain": "Rådgiveren kjenner mulighetene og reglene."
+    },
+    {
+      "id": "q04",
+      "text": "Hva kan skje med mye udokumentert fravær i videregående?",
+      "options": [
+        "Du får bedre karakter",
+        "Ingenting",
+        "Du kan miste karakteren i faget",
+        "Du får ekstra ferie"
+      ],
+      "correct": 2,
+      "explain": "I videregående gjelder en fraværsgrense."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket av disse er en god mestringsstrategi?",
+      "options": [
+        "Å sove lite",
+        "Å holde alt for seg selv",
+        "Å utsette alt til siste liten",
+        "Å dele store oppgaver opp i mindre biter"
+      ],
+      "correct": 3,
+      "explain": "Da blir oppgavene lettere å komme i gang med."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er robusthet?",
+      "options": [
+        "Evnen til å komme seg gjennom motgang",
+        "Å være sterk i armene",
+        "Å aldri være lei seg",
+        "Å ha mange venner"
+      ],
+      "correct": 0,
+      "explain": "Robusthet kan trenes."
+    },
+    {
+      "id": "q07",
+      "text": "Hva kan helsesykepleieren hjelpe med?",
+      "options": [
+        "Å velge fag",
+        "Helse, stress og følelser",
+        "Å søke jobb",
+        "Matteoppgaver"
+      ],
+      "correct": 1,
+      "explain": "Helsesykepleieren har taushetsplikt."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er det første steget fra idé til handling etter at du har en idé?",
+      "options": [
+        "Å evaluere",
+        "Å gi opp",
+        "Å gjøre ideen om til et tydelig mål",
+        "Å vente"
+      ],
+      "correct": 2,
+      "explain": "Deretter lager du en plan og tar det første steget."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er ung.no?",
+      "options": [
+        "En sosial medieplattform",
+        "En videregående skole",
+        "Et spill",
+        "Et offentlig nettsted der unge kan finne informasjon og spørre anonymt"
+      ],
+      "correct": 3,
+      "explain": "Nettstedet har informasjon om mange temaer."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan et omvalg være lurt?",
+      "options": [
+        "Fordi det alltid gjør utdanningen kortere",
+        "Fordi det kan være bedre enn å fortsette med noe som ikke passer",
+        "Fordi det er påbudt",
+        "Det er aldri lurt"
+      ],
+      "correct": 1,
+      "explain": "Et omvalg kan gjøre utdanningen lengre, men gi bedre trivsel og resultat."
+    }
   ],
   "mindmap": {
     "label": "Overganger og mestring",
     "children": [
-      { "label": "Overganger", "children": [
-        { "label": "Ny skole" },
-        { "label": "Mer ansvar" },
-        { "label": "Fraværsgrense" },
-        { "label": "Hybel" }
-      ] },
-      { "label": "Mestring", "children": [
-        { "label": "Planlegge" },
-        { "label": "Søvn og aktivitet" },
-        { "label": "Nettverk" },
-        { "label": "Robusthet" }
-      ] },
-      { "label": "Hjelp", "children": [
-        { "label": "Kontaktlærer" },
-        { "label": "Rådgiver" },
-        { "label": "Helsesykepleier" },
-        { "label": "Ung.no" }
-      ] },
-      { "label": "Omvalg", "children": [
-        { "label": "Bytte program" },
-        { "label": "Snakk med rådgiver" }
-      ] },
-      { "label": "Til handling", "children": [
-        { "label": "Idé og mål" },
-        { "label": "Plan" },
-        { "label": "Første steg" },
-        { "label": "Evaluering" }
-      ] }
+      {
+        "label": "Overganger",
+        "children": [
+          {
+            "label": "Ny skole"
+          },
+          {
+            "label": "Mer ansvar"
+          },
+          {
+            "label": "Fraværsgrense"
+          },
+          {
+            "label": "Hybel"
+          }
+        ]
+      },
+      {
+        "label": "Mestring",
+        "children": [
+          {
+            "label": "Planlegge"
+          },
+          {
+            "label": "Søvn og aktivitet"
+          },
+          {
+            "label": "Nettverk"
+          },
+          {
+            "label": "Robusthet"
+          }
+        ]
+      },
+      {
+        "label": "Hjelp",
+        "children": [
+          {
+            "label": "Kontaktlærer"
+          },
+          {
+            "label": "Rådgiver"
+          },
+          {
+            "label": "Helsesykepleier"
+          },
+          {
+            "label": "Ung.no"
+          }
+        ]
+      },
+      {
+        "label": "Omvalg",
+        "children": [
+          {
+            "label": "Bytte program"
+          },
+          {
+            "label": "Snakk med rådgiver"
+          }
+        ]
+      },
+      {
+        "label": "Til handling",
+        "children": [
+          {
+            "label": "Idé og mål"
+          },
+          {
+            "label": "Plan"
+          },
+          {
+            "label": "Første steg"
+          },
+          {
+            "label": "Evaluering"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange elever er nye og usikre de første ukene på videregående.", "correct": true, "explain": "Det gjør det lettere å bli kjent med nye folk." },
-      { "id": "m02", "type": "sant-usant", "text": "Det er best å vente med å be om hjelp til problemene er blitt store.", "correct": false, "explain": "Det er lurt å be om hjelp tidlig." },
-      { "id": "m03", "type": "sant-usant", "text": "Søvn og fysisk aktivitet kan hjelpe mot stress.", "correct": true, "explain": "Kroppen og hodet henger sammen." },
-      { "id": "m04", "type": "sant-usant", "text": "Hvis det første utdanningsvalget ikke passer, er det umulig å bytte.", "correct": false, "explain": "Det er mulig å gjøre omvalg." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er PP-tjenesten?", "options": ["Politiets patrulje", "Pedagogisk-psykologisk tjeneste som hjelper ved lærevansker", "En fritidsklubb", "En fagforening"], "correct": 1, "explain": "PP-tjenesten kan gi råd om tilrettelegging." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på å omsette en idé til handling?", "options": ["Å tenke på en sommerjobb uten å søke", "Å drømme om framtiden", "Å klage på skolen", "Å søke sommerjobb etter å ha laget en plan"], "correct": 3, "explain": "Handling er å ta det første konkrete steget." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er frivillig arbeid?", "options": ["Ubetalt innsats for andre", "En deltidsjobb", "Lekser", "Obligatorisk arbeid"], "correct": 0, "explain": "Frivillig arbeid gir erfaring og nettverk." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange elever er nye og usikre de første ukene på videregående.",
+        "correct": true,
+        "explain": "Det gjør det lettere å bli kjent med nye folk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Det er best å vente med å be om hjelp til problemene er blitt store.",
+        "correct": false,
+        "explain": "Det er lurt å be om hjelp tidlig."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Søvn og fysisk aktivitet kan hjelpe mot stress.",
+        "correct": true,
+        "explain": "Kroppen og hodet henger sammen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Hvis det første utdanningsvalget ikke passer, er det umulig å bytte.",
+        "correct": false,
+        "explain": "Det er mulig å gjøre omvalg."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er PP-tjenesten?",
+        "options": [
+          "Politiets patrulje",
+          "Pedagogisk-psykologisk tjeneste som hjelper ved lærevansker",
+          "En fritidsklubb",
+          "En fagforening"
+        ],
+        "correct": 1,
+        "explain": "PP-tjenesten kan gi råd om tilrettelegging."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på å omsette en idé til handling?",
+        "options": [
+          "Å tenke på en sommerjobb uten å søke",
+          "Å drømme om framtiden",
+          "Å klage på skolen",
+          "Å søke sommerjobb etter å ha laget en plan"
+        ],
+        "correct": 3,
+        "explain": "Handling er å ta det første konkrete steget."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er frivillig arbeid?",
+        "options": [
+          "Ubetalt innsats for andre",
+          "En deltidsjobb",
+          "Lekser",
+          "Obligatorisk arbeid"
+        ],
+        "correct": 0,
+        "explain": "Frivillig arbeid gir erfaring og nettverk."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Når en elev går fra ungdomsskolen til videregående, får eleven nye lærere og klassekamerater og mer ansvar for egen læring. Forklar hvorfor dette kan være en krevende overgang.",
+        "fasit": "Det er en overgang fordi eleven går fra én fase i livet til en annen og møter flere endringer samtidig. Mer ansvar for egen læring kan gjøre det krevende å holde oversikt og følge opp skolearbeidet.",
+        "kriterier": [
+          "Forklarer at overgangen innebærer flere endringer, for eksempel ny skole eller nye mennesker.",
+          "Knytter mer ansvar for egen læring til en mulig utfordring."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Du blir stresset av en stor skoleoppgave og vet ikke hvor du skal begynne. Beskriv en måte å planlegge arbeidet på, og forklar hvordan den kan hjelpe.",
+        "fasit": "Jeg kan dele oppgaven opp i mindre deler og skrive inn når jeg skal gjøre dem i kalenderen. Da blir arbeidet mer oversiktlig, og jeg kan begynne med én del om gangen.",
+        "kriterier": [
+          "Foreslår å dele den store oppgaven opp i mindre deler eller bruke kalender.",
+          "Forklarer hvordan planen kan gjøre arbeidet mer oversiktlig eller lettere å komme i gang med."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev trenger hjelp til å velge utdanning, mens en annen har lærevansker og trenger tilrettelegging. Hvem kan hjelpe hver elev, og hva er forskjellen på rollene deres?",
+        "fasit": "Rådgiveren kan hjelpe eleven med utdanningsvalg. PP-tjenesten kan hjelpe eleven med lærevansker og tilrettelegging, så rollene handler om ulike behov.",
+        "kriterier": [
+          "Knytter utdanningsvalg til rådgiveren.",
+          "Knytter lærevansker eller tilrettelegging til PP-tjenesten.",
+          "Viser at de to tjenestene hjelper med ulike behov."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "De første ukene på en ny skole føler du deg usikker. Forklar hvordan nettverket ditt kan støtte deg i denne situasjonen.",
+        "fasit": "Jeg kan snakke med venner eller familie jeg stoler på, og fortelle hvordan jeg har det. De kan lytte og støtte meg mens jeg blir kjent med den nye skolen.",
+        "kriterier": [
+          "Nevner personer i nettverket, som venner eller familie man stoler på.",
+          "Forklarer hvordan kontakt med dem kan gi støtte i situasjonen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hva stress er, og beskriv hvorfor det kan være lurt å be om hjelp tidlig når utfordringene på skolen vokser.",
+        "fasit": "Stress er kroppens reaksjon på press og krav. Ber jeg om hjelp tidlig, kan jeg få støtte før problemene vokser seg større.",
+        "kriterier": [
+          "Forklarer stress som kroppens reaksjon på press eller krav.",
+          "Forklarer at tidlig hjelp kan hindre at problemene vokser."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev strever med å lære skolefagene og trenger tilrettelegging. Hvilken tjeneste kan eleven kontakte, og hva kan den hjelpe med?",
+        "fasit": "Eleven kan kontakte PP-tjenesten. Den kan hjelpe ved lærevansker og med tilrettelegging.",
+        "kriterier": [
+          "Nevner PP-tjenesten.",
+          "Knytter hjelpen til lærevansker eller tilrettelegging."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Mina vil søke sommerjobb. Lag en kort plan som viser et mål, ett steg hun må planlegge, en handling hun kan gjøre først, og noe hun kan evaluere etterpå.",
+        "fasit": "Mina kan ha som mål å søke sommerjobb. Hun kan planlegge hvem hun vil spørre om hjelp, ta det første steget ved å finne ut hvor hun kan søke, og etterpå evaluere hva hun lærte og hva hun bør gjøre videre.",
+        "kriterier": [
+          "Formulerer et mål knyttet til å søke sommerjobb.",
+          "Beskriver et planleggingssteg og en konkret første handling.",
+          "Nevner noe hun kan lære eller vurdere etter handlingen, og et mulig neste steg."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du gjør en feil på skolen og tenker at du ikke kommer til å klare det nye skoleåret. Skriv hva du kan si til deg selv, og forklar hvordan feilen kan brukes videre.",
+        "fasit": "Jeg kan minne meg selv på at det er lov å gjøre feil, og at feil er en del av læringen. Jeg kan bruke feilen til å finne ut hva jeg bør prøve eller gjøre annerledes neste gang.",
+        "kriterier": [
+          "Viser en vennlig og støttende måte å snakke til seg selv på.",
+          "Forklarer at feilen kan brukes til å lære eller justere hva man gjør videre."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

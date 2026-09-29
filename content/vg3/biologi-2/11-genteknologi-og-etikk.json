@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Kommersiell bruk av genteknologi og etikk",
   "intro": "Hvordan genteknologi brukes kommersielt i medisin – legemidler, vaksiner, gentester og genterapi – og i matproduksjon – genmodifiserte og genredigerte planter og dyr – norsk regelverk, og etiske problemstillinger som føre var, rettferdighet, patenter og menneskeverd.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Genteknologi i medisin\n\n- **Legemidler**: **Genmodifiserte bakterier** og celler produserer **insulin**, **veksthormon**, **blodproppløsende** midler og **antistoffer** mot kreft og revmatisme.\n- **Vaksiner**: **mRNA-vaksiner**, som ble tatt i bruk mot **covid-19**, kan utvikles raskt.\n- **Gentester** kan avdekke arvelige sykdommer, **risiko** for sykdom og hvilke **medisiner** som virker best for en pasient – **persontilpasset medisin**.\n- **Genterapi** tilfører eller retter opp gener. Noen former for **blodsykdommer** og **arvelig blindhet** kan i dag behandles.\n- **CAR-T-behandling**: Pasientens egne immunceller genmodifiseres til å angripe kreft.\n- **Fosterdiagnostikk** kan avdekke genetiske tilstander før fødselen.\n\n## Genteknologi i matproduksjon\n\n- **Genmodifiserte organismer** (GMO) har fått gener fra **andre** arter. Eksempler er **mais** som produserer et stoff som dreper skadeinsekter, og **soya** som tåler sprøytemidler.\n- **Gyllen ris** har fått gener som gir **vitamin A**, for å motvirke mangel i fattige land.\n- **Genredigering** med **CRISPR** endrer organismens **egne** gener uten å tilføre fremmede gener – for eksempel planter som tåler **tørke**, eller sopp som ikke blir brun.\n- I **havbruk** forskes det på **steril** oppdrettslaks som ikke kan krysse seg med villaks, og på fisk som er motstandsdyktig mot sykdom.\n\n## Regelverk\n\nI Norge regulerer **genteknologiloven** bruk av GMO, og **bioteknologiloven** regulerer medisinsk bruk på mennesker. Norge har et **strengt** regelverk: Det skal legges vekt på **samfunnsnytte**, **bærekraft** og **etikk**, og GMO-mat skal **merkes**. Det pågår en debatt om genredigerte organismer bør reguleres **mildere** enn tradisjonelle GMO-er. EU vedtok i 2026 nye regler der mange genredigerte planter reguleres mildere enn andre GMO-er. Reglene er EØS-relevante, og Norge må ta stilling til hvordan de skal gjelde her.\n\n## Etiske problemstillinger\n\n**Føre var**: Vi vet ikke alt om **langsiktige** virkninger. Kan genmodifiserte planter spre gener til **ville** slektninger? Kan endringer i **arvestoffet** gi uforutsette følger?\n\n**Naturlighet**: Noen mener det er galt å «**tukle** med naturen». Andre peker på at mennesker har **foredlet** planter og dyr i tusenvis av år.\n\n**Rettferdighet**: Store selskaper kan ta **patent** på gener og frø. Det kan gjøre bønder i fattige land **avhengige** av dem. Samtidig kan genteknologi gi **billigere** medisiner og mer **mat**.\n\n**Menneskeverd**: Genredigering av **embryoer** – endringer som **arves** videre – er forbudt i de fleste land. Da en kinesisk forsker i **2018** redigerte genene til to tvillingjenter, ble det kraftig fordømt. Fosterdiagnostikk reiser spørsmål om **sortering** av mennesker, for eksempel med **Downs syndrom**.\n\n**Personvern**: Genetiske data sier mye om både oss og **familien** vår. Hvem skal ha **tilgang** – forsikringsselskaper, arbeidsgivere eller politiet?\n\n**Dyrevelferd**: Genmodifisering av dyr må ikke gi **lidelse**.\n\n## Å drøfte\n\nNår du drøfter en bruk av genteknologi, kan du spørre:\n\n- Hvilken **nytte** gir den, og for **hvem**?\n- Hvilken **risiko** finnes for helse og miljø?\n- Hvem tar **beslutningene**, og hvem **tjener** på dem?\n- Hvilke **verdier** – liv, helse, frihet, naturvern og rettferdighet – står mot hverandre?\n- Finnes det **alternativer**?",
   "flashcards": [
-    { "term": "GMO", "def": "Genmodifisert organisme med gener fra andre arter." },
-    { "term": "Genredigering", "def": "Endring av organismens egne gener, for eksempel med CRISPR." },
-    { "term": "Insulin fra bakterier", "def": "Legemiddel laget av genmodifiserte bakterier." },
-    { "term": "mRNA-vaksine", "def": "Vaksine som gir cellene oppskrift på et protein." },
-    { "term": "Persontilpasset medisin", "def": "Behandling tilpasset pasientens gener." },
-    { "term": "Genterapi", "def": "Tilføring eller reparasjon av gener for å behandle sykdom." },
-    { "term": "CAR-T-behandling", "def": "Pasientens immunceller genmodifiseres til å angripe kreft." },
-    { "term": "Gyllen ris", "def": "Genmodifisert ris med vitamin A." },
-    { "term": "Genteknologiloven", "def": "Norsk lov som regulerer bruk av GMO." },
-    { "term": "Bioteknologiloven", "def": "Norsk lov om medisinsk bruk av bioteknologi på mennesker." },
-    { "term": "Føre var-prinsippet", "def": "Forsiktighet når langsiktige virkninger er usikre." },
-    { "term": "Patent på gener", "def": "Enerett som kan gjøre bønder avhengige av selskaper." },
-    { "term": "Redigering av embryoer", "def": "Endringer som arves videre – forbudt i de fleste land." },
-    { "term": "Genetisk personvern", "def": "Spørsmålet om hvem som skal ha tilgang til genetiske data." },
-    { "term": "Merking av GMO", "def": "Krav om at GMO-mat skal merkes i Norge." }
+    {
+      "term": "GMO",
+      "def": "Genmodifisert organisme med gener fra andre arter."
+    },
+    {
+      "term": "Genredigering",
+      "def": "Endring av organismens egne gener, for eksempel med CRISPR."
+    },
+    {
+      "term": "Insulin fra bakterier",
+      "def": "Legemiddel laget av genmodifiserte bakterier."
+    },
+    {
+      "term": "mRNA-vaksine",
+      "def": "Vaksine som gir cellene oppskrift på et protein."
+    },
+    {
+      "term": "Persontilpasset medisin",
+      "def": "Behandling tilpasset pasientens gener."
+    },
+    {
+      "term": "Genterapi",
+      "def": "Tilføring eller reparasjon av gener for å behandle sykdom."
+    },
+    {
+      "term": "CAR-T-behandling",
+      "def": "Pasientens immunceller genmodifiseres til å angripe kreft."
+    },
+    {
+      "term": "Gyllen ris",
+      "def": "Genmodifisert ris med vitamin A."
+    },
+    {
+      "term": "Genteknologiloven",
+      "def": "Norsk lov som regulerer bruk av GMO."
+    },
+    {
+      "term": "Bioteknologiloven",
+      "def": "Norsk lov om medisinsk bruk av bioteknologi på mennesker."
+    },
+    {
+      "term": "Føre var-prinsippet",
+      "def": "Forsiktighet når langsiktige virkninger er usikre."
+    },
+    {
+      "term": "Patent på gener",
+      "def": "Enerett som kan gjøre bønder avhengige av selskaper."
+    },
+    {
+      "term": "Redigering av embryoer",
+      "def": "Endringer som arves videre – forbudt i de fleste land."
+    },
+    {
+      "term": "Genetisk personvern",
+      "def": "Spørsmålet om hvem som skal ha tilgang til genetiske data."
+    },
+    {
+      "term": "Merking av GMO",
+      "def": "Krav om at GMO-mat skal merkes i Norge."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er forskjellen på GMO og genredigering?", "options": ["Det er det samme", "GMO har gener fra andre arter, genredigering endrer organismens egne gener", "Genredigering bruker alltid fremmede gener", "GMO finnes ikke i mat"], "correct": 1, "explain": "Genredigering bruker for eksempel CRISPR." },
-    { "id": "q02", "text": "Hva lages med genmodifiserte bakterier i medisin?", "options": ["Insulin", "Vitamin C fra frukt", "Penicillin fra sopp alene", "Blod"], "correct": 0, "explain": "Også veksthormon og antistoffer." },
-    { "id": "q03", "text": "Hva er gyllen ris?", "options": ["Ris som tåler sprøytemidler", "Vanlig ris med gyllen farge", "Genmodifisert ris med vitamin A", "Ris fra Norge"], "correct": 2, "explain": "Skal motvirke vitamin A-mangel." },
-    { "id": "q04", "text": "Hvorfor ble redigeringen av tvillingenes gener i 2018 fordømt?", "options": ["Fordi den mislyktes", "Fordi den var lovlig", "Fordi den var billig", "Fordi endringer i embryoer arves videre og er forbudt i de fleste land"], "correct": 3, "explain": "Et spørsmål om menneskeverd og sikkerhet." },
-    { "id": "q05", "text": "Hva er føre var-prinsippet?", "options": ["Forsiktighet når langsiktige virkninger er usikre", "Å alltid ta risiko", "Å bruke mest mulig teknologi", "Å forby all forskning"], "correct": 0, "explain": "Sentralt i norsk regelverk." },
-    { "id": "q06", "text": "Hvilket etisk problem kan patenter på frø skape?", "options": ["Billigere frø", "At bønder i fattige land blir avhengige av store selskaper", "Mer biologisk mangfold", "Ingen problemer"], "correct": 1, "explain": "Et spørsmål om rettferdighet." },
-    { "id": "q07", "text": "Hvilken lov regulerer bruk av GMO i Norge?", "options": ["Bioteknologiloven", "Markedsføringsloven", "Genteknologiloven", "Arbeidsmiljøloven"], "correct": 2, "explain": "Legger vekt på samfunnsnytte, bærekraft og etikk." },
-    { "id": "q08", "text": "Hva er CAR-T-behandling?", "options": ["En vaksine", "En type GMO-plante", "En gentest", "Genmodifisering av pasientens immunceller mot kreft"], "correct": 3, "explain": "En ny kreftbehandling." },
-    { "id": "q09", "text": "Hvilket spørsmål om personvern reiser gentester?", "options": ["Hvem skal ha tilgang til genetiske data", "Hvor mye testen koster", "Hvor raskt svaret kommer", "Hvilken farge prøveglasset har"], "correct": 0, "explain": "Data sier også noe om familien." },
-    { "id": "q10", "text": "Hva er et argument mot at genteknologi er «unaturlig»?", "options": ["At naturen er farlig", "At mennesker har foredlet planter og dyr i tusenvis av år", "At genteknologi er gammel", "At GMO ikke finnes"], "correct": 1, "explain": "Grensen for det naturlige er uklar." }
+    {
+      "id": "q01",
+      "text": "Hva er forskjellen på GMO og genredigering?",
+      "options": [
+        "Det er det samme",
+        "GMO har gener fra andre arter, genredigering endrer organismens egne gener",
+        "Genredigering bruker alltid fremmede gener",
+        "GMO finnes ikke i mat"
+      ],
+      "correct": 1,
+      "explain": "Genredigering bruker for eksempel CRISPR."
+    },
+    {
+      "id": "q02",
+      "text": "Hva lages med genmodifiserte bakterier i medisin?",
+      "options": [
+        "Insulin",
+        "Vitamin C fra frukt",
+        "Penicillin fra sopp alene",
+        "Blod"
+      ],
+      "correct": 0,
+      "explain": "Også veksthormon og antistoffer."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er gyllen ris?",
+      "options": [
+        "Ris som tåler sprøytemidler",
+        "Vanlig ris med gyllen farge",
+        "Genmodifisert ris med vitamin A",
+        "Ris fra Norge"
+      ],
+      "correct": 2,
+      "explain": "Skal motvirke vitamin A-mangel."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor ble redigeringen av tvillingenes gener i 2018 fordømt?",
+      "options": [
+        "Fordi den mislyktes",
+        "Fordi den var lovlig",
+        "Fordi den var billig",
+        "Fordi endringer i embryoer arves videre og er forbudt i de fleste land"
+      ],
+      "correct": 3,
+      "explain": "Et spørsmål om menneskeverd og sikkerhet."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er føre var-prinsippet?",
+      "options": [
+        "Forsiktighet når langsiktige virkninger er usikre",
+        "Å alltid ta risiko",
+        "Å bruke mest mulig teknologi",
+        "Å forby all forskning"
+      ],
+      "correct": 0,
+      "explain": "Sentralt i norsk regelverk."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilket etisk problem kan patenter på frø skape?",
+      "options": [
+        "Billigere frø",
+        "At bønder i fattige land blir avhengige av store selskaper",
+        "Mer biologisk mangfold",
+        "Ingen problemer"
+      ],
+      "correct": 1,
+      "explain": "Et spørsmål om rettferdighet."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken lov regulerer bruk av GMO i Norge?",
+      "options": [
+        "Bioteknologiloven",
+        "Markedsføringsloven",
+        "Genteknologiloven",
+        "Arbeidsmiljøloven"
+      ],
+      "correct": 2,
+      "explain": "Legger vekt på samfunnsnytte, bærekraft og etikk."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er CAR-T-behandling?",
+      "options": [
+        "En vaksine",
+        "En type GMO-plante",
+        "En gentest",
+        "Genmodifisering av pasientens immunceller mot kreft"
+      ],
+      "correct": 3,
+      "explain": "En ny kreftbehandling."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket spørsmål om personvern reiser gentester?",
+      "options": [
+        "Hvem skal ha tilgang til genetiske data",
+        "Hvor mye testen koster",
+        "Hvor raskt svaret kommer",
+        "Hvilken farge prøveglasset har"
+      ],
+      "correct": 0,
+      "explain": "Data sier også noe om familien."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et argument mot at genteknologi er «unaturlig»?",
+      "options": [
+        "At naturen er farlig",
+        "At mennesker har foredlet planter og dyr i tusenvis av år",
+        "At genteknologi er gammel",
+        "At GMO ikke finnes"
+      ],
+      "correct": 1,
+      "explain": "Grensen for det naturlige er uklar."
+    }
   ],
   "mindmap": {
     "label": "Genteknologi og etikk",
     "children": [
-      { "label": "Medisin", "children": [
-        { "label": "Legemidler og vaksiner" },
-        { "label": "Gentester" },
-        { "label": "Genterapi og CAR-T" }
-      ] },
-      { "label": "Mat", "children": [
-        { "label": "GMO-planter" },
-        { "label": "Genredigering" },
-        { "label": "Havbruk" }
-      ] },
-      { "label": "Regelverk", "children": [
-        { "label": "Genteknologiloven" },
-        { "label": "Bioteknologiloven" },
-        { "label": "Merking" }
-      ] },
-      { "label": "Etikk", "children": [
-        { "label": "Føre var" },
-        { "label": "Rettferdighet og patenter" },
-        { "label": "Menneskeverd og personvern" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Nytte og risiko" },
-        { "label": "Hvem bestemmer" }
-      ] }
+      {
+        "label": "Medisin",
+        "children": [
+          {
+            "label": "Legemidler og vaksiner"
+          },
+          {
+            "label": "Gentester"
+          },
+          {
+            "label": "Genterapi og CAR-T"
+          }
+        ]
+      },
+      {
+        "label": "Mat",
+        "children": [
+          {
+            "label": "GMO-planter"
+          },
+          {
+            "label": "Genredigering"
+          },
+          {
+            "label": "Havbruk"
+          }
+        ]
+      },
+      {
+        "label": "Regelverk",
+        "children": [
+          {
+            "label": "Genteknologiloven"
+          },
+          {
+            "label": "Bioteknologiloven"
+          },
+          {
+            "label": "Merking"
+          }
+        ]
+      },
+      {
+        "label": "Etikk",
+        "children": [
+          {
+            "label": "Føre var"
+          },
+          {
+            "label": "Rettferdighet og patenter"
+          },
+          {
+            "label": "Menneskeverd og personvern"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Nytte og risiko"
+          },
+          {
+            "label": "Hvem bestemmer"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Norge har et strengt regelverk for GMO.", "correct": true, "explain": "Med vekt på samfunnsnytte, bærekraft og etikk." },
-      { "id": "m02", "type": "sant-usant", "text": "Genredigering av embryoer som arves videre, er tillatt i de fleste land.", "correct": false, "explain": "Det er forbudt i de fleste land." },
-      { "id": "m03", "type": "sant-usant", "text": "Steril oppdrettslaks kan hindre krysning med villaks.", "correct": true, "explain": "Et forskningsfelt i havbruk." },
-      { "id": "m04", "type": "sant-usant", "text": "Genetiske data sier bare noe om den som blir testet.", "correct": false, "explain": "De sier også noe om familien." },
-      { "id": "m05", "type": "flervalg", "text": "Hva kan persontilpasset medisin gjøre?", "options": ["Gi alle samme medisin", "Velge medisiner som virker best ut fra pasientens gener", "Erstatte leger", "Fjerne alle sykdommer"], "correct": 1, "explain": "Basert på gentester." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken bekymring gjelder genmodifiserte planter i naturen?", "options": ["At gener kan spres til ville slektninger", "At plantene blir for små", "At de ikke kan dyrkes", "At de mangler farge"], "correct": 0, "explain": "Føre var-prinsippet." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål bør du stille når du drøfter genteknologi?", "options": ["Hvor gammel teknologien er", "Hvem som oppfant den", "Hvilken nytte og risiko den gir, og for hvem", "Hvor mange som liker den"], "correct": 2, "explain": "Og hvilke verdier som står mot hverandre." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Norge har et strengt regelverk for GMO.",
+        "correct": true,
+        "explain": "Med vekt på samfunnsnytte, bærekraft og etikk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Genredigering av embryoer som arves videre, er tillatt i de fleste land.",
+        "correct": false,
+        "explain": "Det er forbudt i de fleste land."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Steril oppdrettslaks kan hindre krysning med villaks.",
+        "correct": true,
+        "explain": "Et forskningsfelt i havbruk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Genetiske data sier bare noe om den som blir testet.",
+        "correct": false,
+        "explain": "De sier også noe om familien."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva kan persontilpasset medisin gjøre?",
+        "options": [
+          "Gi alle samme medisin",
+          "Velge medisiner som virker best ut fra pasientens gener",
+          "Erstatte leger",
+          "Fjerne alle sykdommer"
+        ],
+        "correct": 1,
+        "explain": "Basert på gentester."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken bekymring gjelder genmodifiserte planter i naturen?",
+        "options": [
+          "At gener kan spres til ville slektninger",
+          "At plantene blir for små",
+          "At de ikke kan dyrkes",
+          "At de mangler farge"
+        ],
+        "correct": 0,
+        "explain": "Føre var-prinsippet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket spørsmål bør du stille når du drøfter genteknologi?",
+        "options": [
+          "Hvor gammel teknologien er",
+          "Hvem som oppfant den",
+          "Hvilken nytte og risiko den gir, og for hvem",
+          "Hvor mange som liker den"
+        ],
+        "correct": 2,
+        "explain": "Og hvilke verdier som står mot hverandre."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En mRNA-vaksine gir cellene en oppskrift på et protein. Forklar hvordan vaksinen gir cellene denne oppskriften, og nevn én fordel ved utviklingen av mRNA-vaksiner.",
+        "fasit": "mRNA-vaksinen gir cellene oppskriften på et protein. Slike vaksiner kan utvikles raskt.",
+        "kriterier": [
+          "Forklarer at vaksinen gir cellene en oppskrift på et protein.",
+          "Nevner at mRNA-vaksiner kan utvikles raskt."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign genteknologiloven og bioteknologiloven i Norge ved å forklare hva hver av lovene regulerer.",
+        "fasit": "Genteknologiloven regulerer bruk av GMO. Bioteknologiloven regulerer medisinsk bruk av bioteknologi på mennesker.",
+        "kriterier": [
+          "Knytter genteknologiloven til regulering av GMO.",
+          "Knytter bioteknologiloven til medisinsk bruk av bioteknologi på mennesker."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En pasient har arvelig blindhet. Hvilken type genteknologisk behandling kan være aktuell, og hvordan virker den i hovedtrekk?",
+        "fasit": "Genterapi kan være aktuell, siden noen former for arvelig blindhet kan behandles slik. Genterapi tilfører eller retter opp gener.",
+        "kriterier": [
+          "Identifiserer genterapi som en aktuell behandling.",
+          "Forklarer at genterapi tilfører eller retter opp gener."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Mais er genmodifisert slik at den produserer et stoff som dreper skadeinsekter. Beskriv den genetiske egenskapen maisen har fått, og hva den gjør.",
+        "fasit": "Maisen har fått en egenskap som gjør at den produserer et stoff som dreper skadeinsekter.",
+        "kriterier": [
+          "Beskriver at maisen produserer et stoff.",
+          "Forklarer at stoffet dreper skadeinsekter."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et selskap har patent på frø som er utviklet med genteknologi. Forklar en mulig utfordring dette kan skape for bønder i fattige land, og nevn én mulig nytte genteknologi kan gi.",
+        "fasit": "Patenter på frø kan gjøre bønder i fattige land avhengige av selskapene. Genteknologi kan samtidig bidra til mer mat eller billigere medisiner.",
+        "kriterier": [
+          "Forklarer at patenter kan gjøre bønder i fattige land avhengige av selskaper.",
+          "Nevner mer mat eller billigere medisiner som en mulig nytte."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Genene til to tvillingjenter ble redigert i 2018. EU vedtok nye regler i 2026. Regn ut hvor mange år det er mellom de to årstallene, og vis regnestykket.",
+        "fasit": "2026 − 2018 = 8 år.",
+        "kriterier": [
+          "Viser en riktig utregning av forskjellen mellom årstallene.",
+          "Oppgir svaret 8 år."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I en sak ble genene til to tvillingjenter redigert. Regn ut hvor mange tvillingpar de to jentene utgjør, og vis regnestykket.",
+        "fasit": "2 ÷ 2 = 1 tvillingpar.",
+        "kriterier": [
+          "Viser regnestykket 2 ÷ 2.",
+          "Oppgir at jentene utgjør 1 tvillingpar."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En plante ønskes endret slik at den tåler tørke, uten at den får gener fra en annen art. Hvilken metode passer best, og hva er det ved metoden som gjør at den passer til målet?",
+        "fasit": "Genredigering, for eksempel med CRISPR, passer best. Metoden endrer plantens egne gener uten å tilføre gener fra en annen art.",
+        "kriterier": [
+          "Velger genredigering som metode.",
+          "Forklarer at genredigering endrer organismens egne gener uten å tilføre fremmede gener."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

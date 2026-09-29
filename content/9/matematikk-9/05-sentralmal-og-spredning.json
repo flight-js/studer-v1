@@ -4,74 +4,422 @@
   "trinnId": "9",
   "name": "Sentralmål og spredningsmål",
   "intro": "Gjennomsnitt, median og typetall, variasjonsbredde og kvartiler, og hvordan du bruker dem til å beskrive et datasett.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Datasett\n\nEt **datasett** er en samling observasjoner, for eksempel høyden til elevene i klassen eller antall minutter hver elev bruker på lekser. Før vi regner, ordner vi gjerne dataene i stigende rekkefølge eller i en **frekvenstabell**, der vi teller hvor mange ganger hver verdi forekommer.\n\n## Sentralmål\n\n**Sentralmål** sier noe om hva som er typisk eller midt i datasettet.\n\n- **Gjennomsnitt**: summen av alle verdiene delt på antall verdier. For 4, 6, 7, 7 og 11 er gjennomsnittet 35 / 5 = 7.\n- **Median**: den midterste verdien når dataene er sortert. Er det et partall antall verdier, tar vi gjennomsnittet av de to midterste. For 2, 5, 8, 10 er medianen (5 + 8) / 2 = 6,5.\n- **Typetall**: verdien som forekommer oftest. Et datasett kan ha flere typetall eller ingen.\n\nGjennomsnittet påvirkes mye av **ekstremverdier**. Hvis ni personer tjener 40 000 kr i måneden og én tjener 400 000 kr, blir gjennomsnittet 76 000 kr, selv om nesten alle tjener mye mindre. Medianen, 40 000 kr, gir da et bedre bilde av det typiske.\n\n## Spredningsmål\n\n**Spredningsmål** viser hvor mye dataene varierer.\n\n- **Variasjonsbredde**: største verdi minus minste verdi.\n- **Kvartiler**: Vi deler det sorterte datasettet i fire like store deler. Nedre kvartil er medianen av den nedre halvdelen, og øvre kvartil er medianen av den øvre halvdelen.\n- **Kvartilbredde**: øvre kvartil minus nedre kvartil. Den viser spredningen til de midterste 50 % av dataene og påvirkes ikke av ekstremverdier.\n\nTo klasser kan ha samme gjennomsnitt på en prøve, men helt ulik spredning. I den ene klassen ligger alle nær snittet, i den andre er det både veldig høye og veldig lave resultater.\n\n## Gjennomsnitt fra frekvenstabell\n\nNår dataene står i en frekvenstabell, ganger vi hver verdi med frekvensen, summerer og deler på antall observasjoner. Har 3 elever 2 søsken og 5 elever 1 søsken, er gjennomsnittet (3 · 2 + 5 · 1) / 8 = 11 / 8 ≈ 1,4.\n\n## Beskrive data\n\nEn god beskrivelse av et datasett har både et sentralmål og et spredningsmål, og en vurdering av hvilke mål som passer. Bruk medianen når det finnes ekstremverdier, og bruk typetall når dataene er kategorier, som favorittfarge.",
   "flashcards": [
-    { "term": "Datasett", "def": "En samling observasjoner eller måledata, for eksempel høyden til elevene i en klasse." },
-    { "term": "Frekvens", "def": "Hvor mange ganger en verdi forekommer i et datasett." },
-    { "term": "Relativ frekvens", "def": "Frekvensen delt på antall observasjoner, ofte oppgitt i prosent." },
-    { "term": "Sentralmål", "def": "Mål som beskriver det typiske i et datasett: gjennomsnitt, median og typetall." },
-    { "term": "Gjennomsnitt", "def": "Summen av alle verdiene delt på antall verdier." },
-    { "term": "Median", "def": "Den midterste verdien når dataene er sortert. Ved partall antall: snittet av de to midterste." },
-    { "term": "Typetall", "def": "Verdien som forekommer oftest i datasettet." },
-    { "term": "Ekstremverdi", "def": "En verdi som skiller seg mye ut fra resten. Påvirker gjennomsnittet mer enn medianen." },
-    { "term": "Spredningsmål", "def": "Mål som viser hvor mye dataene varierer: variasjonsbredde og kvartilbredde." },
-    { "term": "Variasjonsbredde", "def": "Største verdi minus minste verdi." },
-    { "term": "Nedre kvartil", "def": "Medianen av den nedre halvdelen av det sorterte datasettet." },
-    { "term": "Øvre kvartil", "def": "Medianen av den øvre halvdelen av det sorterte datasettet." },
-    { "term": "Kvartilbredde", "def": "Øvre kvartil minus nedre kvartil. Viser spredningen til de midterste 50 %." },
-    { "term": "Frekvenstabell", "def": "En tabell som viser hver verdi og hvor mange ganger den forekommer." },
-    { "term": "Velge sentralmål", "def": "Median ved ekstremverdier, typetall for kategorier, gjennomsnitt når dataene er jevne." }
+    {
+      "term": "Datasett",
+      "def": "En samling observasjoner eller måledata, for eksempel høyden til elevene i en klasse."
+    },
+    {
+      "term": "Frekvens",
+      "def": "Hvor mange ganger en verdi forekommer i et datasett."
+    },
+    {
+      "term": "Relativ frekvens",
+      "def": "Frekvensen delt på antall observasjoner, ofte oppgitt i prosent."
+    },
+    {
+      "term": "Sentralmål",
+      "def": "Mål som beskriver det typiske i et datasett: gjennomsnitt, median og typetall."
+    },
+    {
+      "term": "Gjennomsnitt",
+      "def": "Summen av alle verdiene delt på antall verdier."
+    },
+    {
+      "term": "Median",
+      "def": "Den midterste verdien når dataene er sortert. Ved partall antall: snittet av de to midterste."
+    },
+    {
+      "term": "Typetall",
+      "def": "Verdien som forekommer oftest i datasettet."
+    },
+    {
+      "term": "Ekstremverdi",
+      "def": "En verdi som skiller seg mye ut fra resten. Påvirker gjennomsnittet mer enn medianen."
+    },
+    {
+      "term": "Spredningsmål",
+      "def": "Mål som viser hvor mye dataene varierer: variasjonsbredde og kvartilbredde."
+    },
+    {
+      "term": "Variasjonsbredde",
+      "def": "Største verdi minus minste verdi."
+    },
+    {
+      "term": "Nedre kvartil",
+      "def": "Medianen av den nedre halvdelen av det sorterte datasettet."
+    },
+    {
+      "term": "Øvre kvartil",
+      "def": "Medianen av den øvre halvdelen av det sorterte datasettet."
+    },
+    {
+      "term": "Kvartilbredde",
+      "def": "Øvre kvartil minus nedre kvartil. Viser spredningen til de midterste 50 %."
+    },
+    {
+      "term": "Frekvenstabell",
+      "def": "En tabell som viser hver verdi og hvor mange ganger den forekommer."
+    },
+    {
+      "term": "Velge sentralmål",
+      "def": "Median ved ekstremverdier, typetall for kategorier, gjennomsnitt når dataene er jevne."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er gjennomsnittet av 4, 6, 7, 7 og 11?", "options": ["6", "7", "7,5", "35"], "correct": 1, "explain": "Summen er 4 + 6 + 7 + 7 + 11 = 35. Del på 5 verdier: 35 / 5 = 7." },
-    { "id": "q02", "text": "Hva er medianen av 2, 5, 8 og 10?", "options": ["5", "8", "6,25", "6,5"], "correct": 3, "explain": "Det er fire verdier, så medianen er snittet av de to midterste: (5 + 8) / 2 = 6,5." },
-    { "id": "q03", "text": "Hva er typetallet i 3, 5, 5, 6, 8, 8, 8, 9?", "options": ["8", "5", "6,5", "9"], "correct": 0, "explain": "8 forekommer tre ganger, oftere enn noen annen verdi." },
-    { "id": "q04", "text": "Hva er variasjonsbredden i 12, 7, 19, 3, 15?", "options": ["12", "19", "16", "3"], "correct": 2, "explain": "Største verdi er 19 og minste er 3. 19 − 3 = 16." },
-    { "id": "q05", "text": "Ni personer tjener 40 000 kr og én tjener 400 000 kr i måneden. Hvilket sentralmål beskriver det typiske best?", "options": ["Gjennomsnittet", "Medianen", "Variasjonsbredden", "Summen"], "correct": 1, "explain": "Gjennomsnittet (76 000 kr) trekkes opp av én ekstremverdi. Medianen (40 000 kr) viser hva de fleste tjener." },
-    { "id": "q06", "text": "Hva måler kvartilbredden?", "options": ["Spredningen til de midterste 50 % av dataene", "Forskjellen mellom største og minste verdi", "Den vanligste verdien", "Gjennomsnittet av kvartilene"], "correct": 0, "explain": "Kvartilbredden er øvre minus nedre kvartil, og viser spredningen i den midterste halvdelen av dataene." },
-    { "id": "q07", "text": "3 elever har 2 søsken og 5 elever har 1 søsken. Hva er gjennomsnittlig antall søsken?", "options": ["1,5", "1,6", "1,4", "1,3"], "correct": 2, "explain": "(3 · 2 + 5 · 1) / 8 = 11 / 8 ≈ 1,4." },
-    { "id": "q08", "text": "Hvilket sentralmål passer for favorittfarge?", "options": ["Gjennomsnitt", "Median", "Kvartilbredde", "Typetall"], "correct": 3, "explain": "Farger kan ikke legges sammen eller sorteres etter størrelse. Da er typetallet det eneste meningsfulle sentralmålet." },
-    { "id": "q09", "text": "Hva er nedre kvartil i 1, 3, 4, 6, 8, 9, 10, 12?", "options": ["3", "3,5", "4", "7"], "correct": 1, "explain": "Nedre halvdel er 1, 3, 4, 6. Medianen av den er (3 + 4) / 2 = 3,5." },
-    { "id": "q10", "text": "To klasser har samme gjennomsnitt på en prøve. Hva kan likevel være forskjellig?", "options": ["Spredningen i resultatene", "Summen av poengene hvis klassene er like store", "Gjennomsnittet", "Ingenting"], "correct": 0, "explain": "Samme gjennomsnitt kan skjule stor forskjell i spredning, for eksempel jevne resultater i én klasse og store forskjeller i den andre." }
+    {
+      "id": "q01",
+      "text": "Hva er gjennomsnittet av 4, 6, 7, 7 og 11?",
+      "options": [
+        "6",
+        "7",
+        "7,5",
+        "35"
+      ],
+      "correct": 1,
+      "explain": "Summen er 4 + 6 + 7 + 7 + 11 = 35. Del på 5 verdier: 35 / 5 = 7."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er medianen av 2, 5, 8 og 10?",
+      "options": [
+        "5",
+        "8",
+        "6,25",
+        "6,5"
+      ],
+      "correct": 3,
+      "explain": "Det er fire verdier, så medianen er snittet av de to midterste: (5 + 8) / 2 = 6,5."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er typetallet i 3, 5, 5, 6, 8, 8, 8, 9?",
+      "options": [
+        "8",
+        "5",
+        "6,5",
+        "9"
+      ],
+      "correct": 0,
+      "explain": "8 forekommer tre ganger, oftere enn noen annen verdi."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er variasjonsbredden i 12, 7, 19, 3, 15?",
+      "options": [
+        "12",
+        "19",
+        "16",
+        "3"
+      ],
+      "correct": 2,
+      "explain": "Største verdi er 19 og minste er 3. 19 − 3 = 16."
+    },
+    {
+      "id": "q05",
+      "text": "Ni personer tjener 40 000 kr og én tjener 400 000 kr i måneden. Hvilket sentralmål beskriver det typiske best?",
+      "options": [
+        "Gjennomsnittet",
+        "Medianen",
+        "Variasjonsbredden",
+        "Summen"
+      ],
+      "correct": 1,
+      "explain": "Gjennomsnittet (76 000 kr) trekkes opp av én ekstremverdi. Medianen (40 000 kr) viser hva de fleste tjener."
+    },
+    {
+      "id": "q06",
+      "text": "Hva måler kvartilbredden?",
+      "options": [
+        "Spredningen til de midterste 50 % av dataene",
+        "Forskjellen mellom største og minste verdi",
+        "Den vanligste verdien",
+        "Gjennomsnittet av kvartilene"
+      ],
+      "correct": 0,
+      "explain": "Kvartilbredden er øvre minus nedre kvartil, og viser spredningen i den midterste halvdelen av dataene."
+    },
+    {
+      "id": "q07",
+      "text": "3 elever har 2 søsken og 5 elever har 1 søsken. Hva er gjennomsnittlig antall søsken?",
+      "options": [
+        "1,5",
+        "1,6",
+        "1,4",
+        "1,3"
+      ],
+      "correct": 2,
+      "explain": "(3 · 2 + 5 · 1) / 8 = 11 / 8 ≈ 1,4."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket sentralmål passer for favorittfarge?",
+      "options": [
+        "Gjennomsnitt",
+        "Median",
+        "Kvartilbredde",
+        "Typetall"
+      ],
+      "correct": 3,
+      "explain": "Farger kan ikke legges sammen eller sorteres etter størrelse. Da er typetallet det eneste meningsfulle sentralmålet."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er nedre kvartil i 1, 3, 4, 6, 8, 9, 10, 12?",
+      "options": [
+        "3",
+        "3,5",
+        "4",
+        "7"
+      ],
+      "correct": 1,
+      "explain": "Nedre halvdel er 1, 3, 4, 6. Medianen av den er (3 + 4) / 2 = 3,5."
+    },
+    {
+      "id": "q10",
+      "text": "To klasser har samme gjennomsnitt på en prøve. Hva kan likevel være forskjellig?",
+      "options": [
+        "Spredningen i resultatene",
+        "Summen av poengene hvis klassene er like store",
+        "Gjennomsnittet",
+        "Ingenting"
+      ],
+      "correct": 0,
+      "explain": "Samme gjennomsnitt kan skjule stor forskjell i spredning, for eksempel jevne resultater i én klasse og store forskjeller i den andre."
+    }
   ],
   "mindmap": {
     "label": "Sentralmål og spredning",
     "children": [
-      { "label": "Ordne data", "children": [
-        { "label": "Sortere" },
-        { "label": "Frekvenstabell" },
-        { "label": "Relativ frekvens", "note": "I prosent" }
-      ] },
-      { "label": "Sentralmål", "children": [
-        { "label": "Gjennomsnitt", "note": "Sum / antall" },
-        { "label": "Median", "note": "Midterste verdi" },
-        { "label": "Typetall", "note": "Vanligste verdi" }
-      ] },
-      { "label": "Spredningsmål", "children": [
-        { "label": "Variasjonsbredde", "note": "Maks − min" },
-        { "label": "Kvartiler", "note": "Deler i fire" },
-        { "label": "Kvartilbredde", "note": "Q3 − Q1" }
-      ] },
-      { "label": "Vurdere", "children": [
-        { "label": "Ekstremverdier", "note": "Bruk median" },
-        { "label": "Kategorier", "note": "Bruk typetall" },
-        { "label": "Oppgi både sentral- og spredningsmål" }
-      ] }
+      {
+        "label": "Ordne data",
+        "children": [
+          {
+            "label": "Sortere"
+          },
+          {
+            "label": "Frekvenstabell"
+          },
+          {
+            "label": "Relativ frekvens",
+            "note": "I prosent"
+          }
+        ]
+      },
+      {
+        "label": "Sentralmål",
+        "children": [
+          {
+            "label": "Gjennomsnitt",
+            "note": "Sum / antall"
+          },
+          {
+            "label": "Median",
+            "note": "Midterste verdi"
+          },
+          {
+            "label": "Typetall",
+            "note": "Vanligste verdi"
+          }
+        ]
+      },
+      {
+        "label": "Spredningsmål",
+        "children": [
+          {
+            "label": "Variasjonsbredde",
+            "note": "Maks − min"
+          },
+          {
+            "label": "Kvartiler",
+            "note": "Deler i fire"
+          },
+          {
+            "label": "Kvartilbredde",
+            "note": "Q3 − Q1"
+          }
+        ]
+      },
+      {
+        "label": "Vurdere",
+        "children": [
+          {
+            "label": "Ekstremverdier",
+            "note": "Bruk median"
+          },
+          {
+            "label": "Kategorier",
+            "note": "Bruk typetall"
+          },
+          {
+            "label": "Oppgi både sentral- og spredningsmål"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q07", "q08", "q09"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q07",
+      "q08",
+      "q09"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Medianen påvirkes mindre av ekstremverdier enn gjennomsnittet.", "correct": true, "explain": "Medianen avhenger bare av plasseringen i det sorterte datasettet, ikke av hvor ekstrem den største verdien er." },
-      { "id": "m02", "type": "sant-usant", "text": "Et datasett kan ha mer enn ett typetall.", "correct": true, "explain": "Forekommer to verdier like ofte og oftest, har datasettet to typetall." },
-      { "id": "m03", "type": "sant-usant", "text": "Variasjonsbredden er største verdi pluss minste verdi.", "correct": false, "explain": "Variasjonsbredden er største verdi minus minste verdi." },
-      { "id": "m04", "type": "sant-usant", "text": "Gjennomsnittet må alltid være en av verdiene i datasettet.", "correct": false, "explain": "Gjennomsnittet av 1 og 2 er 1,5, som ikke er med i datasettet." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er medianen av 9, 2, 7, 4, 5?", "options": ["7", "4", "5", "5,4"], "correct": 2, "explain": "Sortert: 2, 4, 5, 7, 9. Den midterste verdien er 5." },
-      { "id": "m06", "type": "flervalg", "text": "Fem tall har gjennomsnitt 8. Hva er summen av tallene?", "options": ["13", "40", "8", "1,6"], "correct": 1, "explain": "Gjennomsnitt = sum / antall, så sum = 8 · 5 = 40." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket mål forteller om dataene er samlet eller spredt?", "options": ["Typetall", "Median", "Gjennomsnitt", "Kvartilbredde"], "correct": 3, "explain": "Kvartilbredde er et spredningsmål. De tre andre er sentralmål." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Medianen påvirkes mindre av ekstremverdier enn gjennomsnittet.",
+        "correct": true,
+        "explain": "Medianen avhenger bare av plasseringen i det sorterte datasettet, ikke av hvor ekstrem den største verdien er."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et datasett kan ha mer enn ett typetall.",
+        "correct": true,
+        "explain": "Forekommer to verdier like ofte og oftest, har datasettet to typetall."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Variasjonsbredden er største verdi pluss minste verdi.",
+        "correct": false,
+        "explain": "Variasjonsbredden er største verdi minus minste verdi."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Gjennomsnittet må alltid være en av verdiene i datasettet.",
+        "correct": false,
+        "explain": "Gjennomsnittet av 1 og 2 er 1,5, som ikke er med i datasettet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er medianen av 9, 2, 7, 4, 5?",
+        "options": [
+          "7",
+          "4",
+          "5",
+          "5,4"
+        ],
+        "correct": 2,
+        "explain": "Sortert: 2, 4, 5, 7, 9. Den midterste verdien er 5."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Fem tall har gjennomsnitt 8. Hva er summen av tallene?",
+        "options": [
+          "13",
+          "40",
+          "8",
+          "1,6"
+        ],
+        "correct": 1,
+        "explain": "Gjennomsnitt = sum / antall, så sum = 8 · 5 = 40."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket mål forteller om dataene er samlet eller spredt?",
+        "options": [
+          "Typetall",
+          "Median",
+          "Gjennomsnitt",
+          "Kvartilbredde"
+        ],
+        "correct": 3,
+        "explain": "Kvartilbredde er et spredningsmål. De tre andre er sentralmål."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En elev registrerer antall minutter fire elever bruker på lekser: 10, 20, 20 og 30. Hva er datasettet, og hva er frekvensen til verdien 20?",
+        "fasit": "Datasettet er 10, 20, 20 og 30 minutter. Frekvensen til 20 er 2, fordi verdien forekommer to ganger.",
+        "kriterier": [
+          "Beskriver datasettet som samlingen av de registrerte verdiene.",
+          "Oppgir at frekvensen til 20 er 2 fordi 20 forekommer to ganger."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I et datasett med 24 observasjoner har verdien 5 frekvens 6. Hva er den relative frekvensen til 5 i prosent, og hvordan finner du den?",
+        "fasit": "Den relative frekvensen er 25 %. Jeg deler frekvensen 6 på antall observasjoner 24 og gjør svaret om til prosent.",
+        "kriterier": [
+          "Finner 25 %.",
+          "Viser at frekvensen deles på det totale antallet observasjoner."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I en gruppe har 4 elever 1 søsken, 2 elever har 3 søsken, og 2 elever har 5 søsken. Finn gjennomsnittlig antall søsken. Vis det viktigste regnetrinnet.",
+        "fasit": "Gjennomsnittet er 2,5 søsken. Jeg regner (4 · 1 + 2 · 3 + 2 · 5) / 8 = 20 / 8 = 2,5.",
+        "kriterier": [
+          "Ganger hver verdi med frekvensen og summerer produktene.",
+          "Deler summen på 8 elever og får 2,5."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Finn kvartilbredden i datasettet 2, 4, 5, 7, 8, 10, 11, 13. Vis hvordan du finner nedre og øvre kvartil.",
+        "fasit": "Nedre kvartil er medianen av 2, 4, 5, 7, altså 4,5. Øvre kvartil er medianen av 8, 10, 11, 13, altså 10,5, så kvartilbredden er 10,5 − 4,5 = 6.",
+        "kriterier": [
+          "Finner nedre kvartil 4,5 og øvre kvartil 10,5 ved å bruke medianene i hver halvdel.",
+          "Regner kvartilbredden som øvre kvartil minus nedre kvartil og får 6."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et datasett har verdiene 3, 4, 4, 5 og 30. Forklar hvorfor medianen kan beskrive det typiske bedre enn gjennomsnittet i dette datasettet.",
+        "fasit": "Verdien 30 er en ekstremverdi som trekker gjennomsnittet opp. Medianen er 4 og påvirkes mindre av denne verdien, så den viser bedre hva som er typisk her.",
+        "kriterier": [
+          "Forklarer at ekstremverdien 30 trekker gjennomsnittet opp.",
+          "Forklarer at medianen påvirkes mindre av ekstremverdien og derfor kan gi et bedre bilde av det typiske."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hva er forskjellen på variasjonsbredde og kvartilbredde når de beskriver spredning i et datasett?",
+        "fasit": "Variasjonsbredden er største verdi minus minste verdi. Kvartilbredden er øvre kvartil minus nedre kvartil og viser spredningen til de midterste 50 prosentene.",
+        "kriterier": [
+          "Forklarer at variasjonsbredden bygger på største og minste verdi.",
+          "Forklarer at kvartilbredden bygger på kvartilene og beskriver de midterste 50 prosentene."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I datasettet 2, 2, 4, 4, 7 forekommer to verdier like ofte. Hvilke verdier er typetall, og hvorfor kan et datasett ha mer enn ett typetall?",
+        "fasit": "Typetallene er 2 og 4, fordi begge forekommer to ganger og oftere enn 7. Et datasett kan ha flere typetall når flere verdier forekommer like ofte og oftest.",
+        "kriterier": [
+          "Oppgir både 2 og 4 som typetall.",
+          "Forklarer at flere verdier kan være typetall når de deler høyeste frekvens."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Målingene i et datasett er 4, 5, 5, 6 og 7, og det er ingen ekstremverdier. Finn gjennomsnittet og variasjonsbredden, og forklar kort hva hvert mål forteller.",
+        "fasit": "Gjennomsnittet er (4 + 5 + 5 + 6 + 7) / 5 = 5,4, og variasjonsbredden er 7 − 4 = 3. Gjennomsnittet beskriver et typisk nivå, mens variasjonsbredden viser avstanden mellom den største og minste målingen.",
+        "kriterier": [
+          "Finner gjennomsnittet 5,4 og variasjonsbredden 3.",
+          "Forklarer hva hvert mål sier om datasettet: typisk nivå og spredning fra minste til største verdi."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

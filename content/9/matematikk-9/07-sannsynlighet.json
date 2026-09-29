@@ -4,78 +4,430 @@
   "trinnId": "9",
   "name": "Sannsynlighet",
   "intro": "Hva sannsynlighet er, gunstige og mulige utfall, relativ frekvens, og hvordan du regner på sannsynlighet i spill og statistikk.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Hva er sannsynlighet?\n\n**Sannsynlighet** er et tall mellom 0 og 1 som sier hvor stor sjanse det er for at noe skal skje. Sannsynlighet 0 betyr at hendelsen er umulig, og 1 betyr at den er sikker. Sannsynlighet kan skrives som brøk, desimaltall eller prosent: 1/4 = 0,25 = 25 %.\n\nEt **tilfeldig forsøk** er en handling der vi ikke vet utfallet på forhånd, som å kaste en terning. Hvert mulig resultat kalles et **utfall**, og alle utfallene til sammen er **utfallsrommet**. En **hendelse** er ett eller flere utfall, for eksempel «terningen viser partall».\n\n## Uniforme sannsynlighetsmodeller\n\nNår alle utfallene er like sannsynlige, kan vi regne slik:\n\nP(hendelse) = antall gunstige utfall / antall mulige utfall\n\nDet er 3 partall på en vanlig terning, så P(partall) = 3/6 = 1/2. En kortstokk har 52 kort og 4 ess, så P(ess) = 4/52 = 1/13.\n\n## Komplementære hendelser\n\nSannsynligheten for at noe **ikke** skjer, er 1 minus sannsynligheten for at det skjer: P(ikke A) = 1 − P(A). Sannsynligheten for å ikke få seks på en terning er 1 − 1/6 = 5/6.\n\n## Relativ frekvens\n\nI mange situasjoner kan vi ikke telle gunstige og mulige utfall, for eksempel sannsynligheten for at en tegnestift lander med spissen opp. Da gjør vi mange forsøk og regner **relativ frekvens**: antall ganger hendelsen skjedde delt på antall forsøk. Jo flere forsøk, desto nærmere kommer den relative frekvensen den egentlige sannsynligheten. Dette kalles **de store talls lov**. Statistikk brukes på samme måte: Hvis 18 av 600 lyspærer i en kontroll er defekte, anslår vi at sannsynligheten for en defekt pære er 18/600 = 3 %.\n\n## To forsøk\n\nNår vi gjør to forsøk etter hverandre, kan vi bruke en **tabell** eller et **valgtre** for å finne alle mulige utfall. Kaster vi to terninger, er det 6 · 6 = 36 mulige utfall. Summen 7 kan komme på 6 måter, så P(sum 7) = 6/36 = 1/6. For uavhengige forsøk kan vi gange sannsynlighetene: P(to seksere) = 1/6 · 1/6 = 1/36.\n\n## Vurdere spill\n\nSannsynlighet hjelper oss å vurdere om et spill er **rettferdig**, altså om alle har like stor sjanse. Det avslører også myter: En terning har ingen hukommelse. Etter fem kast uten sekser er sjansen for sekser i neste kast fortsatt 1/6.",
   "flashcards": [
-    { "term": "Sannsynlighet", "def": "Et tall mellom 0 og 1 som sier hvor stor sjanse det er for at en hendelse skjer." },
-    { "term": "Tilfeldig forsøk", "def": "En handling der utfallet ikke er kjent på forhånd, for eksempel et terningkast." },
-    { "term": "Utfall", "def": "Ett mulig resultat av et forsøk, for eksempel at terningen viser 4." },
-    { "term": "Utfallsrom", "def": "Alle mulige utfall. For en terning: {1, 2, 3, 4, 5, 6}." },
-    { "term": "Hendelse", "def": "Ett eller flere utfall, for eksempel «partall» = {2, 4, 6}." },
-    { "term": "Gunstige / mulige", "def": "P = antall gunstige utfall / antall mulige utfall, når alle utfall er like sannsynlige." },
-    { "term": "Uniform modell", "def": "En sannsynlighetsmodell der alle utfallene har like stor sannsynlighet." },
-    { "term": "Umulig og sikker", "def": "P = 0 betyr umulig. P = 1 betyr sikker." },
-    { "term": "Komplementær hendelse", "def": "At hendelsen ikke skjer. P(ikke A) = 1 − P(A)." },
-    { "term": "Relativ frekvens", "def": "Antall ganger en hendelse skjedde delt på antall forsøk." },
-    { "term": "De store talls lov", "def": "Med mange forsøk nærmer den relative frekvensen seg den egentlige sannsynligheten." },
-    { "term": "Valgtre", "def": "En tegning med greiner som viser alle utfall når flere forsøk gjøres etter hverandre." },
-    { "term": "Uavhengige forsøk", "def": "Forsøk der utfallet i det ene ikke påvirker det andre. Da kan sannsynlighetene ganges." },
-    { "term": "Rettferdig spill", "def": "Et spill der alle spillerne har like stor sjanse til å vinne." },
-    { "term": "Terningen har ingen hukommelse", "def": "Tidligere kast påvirker ikke neste. P(sekser) er alltid 1/6." }
+    {
+      "term": "Sannsynlighet",
+      "def": "Et tall mellom 0 og 1 som sier hvor stor sjanse det er for at en hendelse skjer."
+    },
+    {
+      "term": "Tilfeldig forsøk",
+      "def": "En handling der utfallet ikke er kjent på forhånd, for eksempel et terningkast."
+    },
+    {
+      "term": "Utfall",
+      "def": "Ett mulig resultat av et forsøk, for eksempel at terningen viser 4."
+    },
+    {
+      "term": "Utfallsrom",
+      "def": "Alle mulige utfall. For en terning: {1, 2, 3, 4, 5, 6}."
+    },
+    {
+      "term": "Hendelse",
+      "def": "Ett eller flere utfall, for eksempel «partall» = {2, 4, 6}."
+    },
+    {
+      "term": "Gunstige / mulige",
+      "def": "P = antall gunstige utfall / antall mulige utfall, når alle utfall er like sannsynlige."
+    },
+    {
+      "term": "Uniform modell",
+      "def": "En sannsynlighetsmodell der alle utfallene har like stor sannsynlighet."
+    },
+    {
+      "term": "Umulig og sikker",
+      "def": "P = 0 betyr umulig. P = 1 betyr sikker."
+    },
+    {
+      "term": "Komplementær hendelse",
+      "def": "At hendelsen ikke skjer. P(ikke A) = 1 − P(A)."
+    },
+    {
+      "term": "Relativ frekvens",
+      "def": "Antall ganger en hendelse skjedde delt på antall forsøk."
+    },
+    {
+      "term": "De store talls lov",
+      "def": "Med mange forsøk nærmer den relative frekvensen seg den egentlige sannsynligheten."
+    },
+    {
+      "term": "Valgtre",
+      "def": "En tegning med greiner som viser alle utfall når flere forsøk gjøres etter hverandre."
+    },
+    {
+      "term": "Uavhengige forsøk",
+      "def": "Forsøk der utfallet i det ene ikke påvirker det andre. Da kan sannsynlighetene ganges."
+    },
+    {
+      "term": "Rettferdig spill",
+      "def": "Et spill der alle spillerne har like stor sjanse til å vinne."
+    },
+    {
+      "term": "Terningen har ingen hukommelse",
+      "def": "Tidligere kast påvirker ikke neste. P(sekser) er alltid 1/6."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er sannsynligheten for å få et partall med én terning?", "options": ["1/6", "1/3", "1/2", "2/3"], "correct": 2, "explain": "Partallene er 2, 4 og 6: 3 gunstige av 6 mulige. 3/6 = 1/2." },
-    { "id": "q02", "text": "Hva betyr sannsynligheten 0?", "options": ["At hendelsen er umulig", "At hendelsen er sikker", "At det er 50 % sjanse", "At vi ikke vet"], "correct": 0, "explain": "Sannsynlighet 0 betyr at hendelsen aldri kan skje. 1 betyr at den er sikker." },
-    { "id": "q03", "text": "Hva er sannsynligheten for å trekke et ess fra en vanlig kortstokk med 52 kort?", "options": ["1/52", "1/4", "4/13", "1/13"], "correct": 3, "explain": "Det er 4 ess blant 52 kort: 4/52 = 1/13." },
-    { "id": "q04", "text": "Sannsynligheten for regn i morgen er 0,3. Hva er sannsynligheten for at det ikke regner?", "options": ["0,3", "0,7", "1,3", "0,03"], "correct": 1, "explain": "Komplementær hendelse: 1 − 0,3 = 0,7." },
-    { "id": "q05", "text": "En tegnestift kastes 200 ganger og lander med spissen opp 130 ganger. Hva er den relative frekvensen?", "options": ["0,65", "0,35", "1,3", "0,5"], "correct": 0, "explain": "Relativ frekvens = 130 / 200 = 0,65, altså 65 %." },
-    { "id": "q06", "text": "Hvor mange mulige utfall er det når du kaster to terninger?", "options": ["12", "6", "36", "18"], "correct": 2, "explain": "Hver terning har 6 utfall, og alle kombinasjoner er mulige: 6 · 6 = 36." },
-    { "id": "q07", "text": "Hva er sannsynligheten for summen 7 med to terninger?", "options": ["1/36", "7/36", "1/12", "1/6"], "correct": 3, "explain": "Summen 7 får du med (1,6), (2,5), (3,4), (4,3), (5,2) og (6,1): 6 av 36 = 1/6." },
-    { "id": "q08", "text": "Du har kastet fem kast uten sekser. Hva er sannsynligheten for sekser i neste kast?", "options": ["Større enn 1/6", "1/6", "Mindre enn 1/6", "5/6"], "correct": 1, "explain": "Kastene er uavhengige. Terningen husker ikke tidligere kast, så sannsynligheten er fortsatt 1/6." },
-    { "id": "q09", "text": "Hva sier de store talls lov?", "options": ["At store tall er mer sannsynlige", "At man alltid vinner til slutt", "At relativ frekvens nærmer seg sannsynligheten når antall forsøk øker", "At sannsynligheten blir større jo flere ganger man prøver"], "correct": 2, "explain": "Med få forsøk kan resultatet variere mye. Med mange forsøk stabiliserer den relative frekvensen seg rundt den egentlige sannsynligheten." },
-    { "id": "q10", "text": "Hva er sannsynligheten for å få kron to ganger på rad med en mynt?", "options": ["1/2", "1/3", "1/8", "1/4"], "correct": 3, "explain": "Kastene er uavhengige: 1/2 · 1/2 = 1/4. Utfallene er KK, KM, MK og MM, og bare ett er gunstig." }
+    {
+      "id": "q01",
+      "text": "Hva er sannsynligheten for å få et partall med én terning?",
+      "options": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "correct": 2,
+      "explain": "Partallene er 2, 4 og 6: 3 gunstige av 6 mulige. 3/6 = 1/2."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr sannsynligheten 0?",
+      "options": [
+        "At hendelsen er umulig",
+        "At hendelsen er sikker",
+        "At det er 50 % sjanse",
+        "At vi ikke vet"
+      ],
+      "correct": 0,
+      "explain": "Sannsynlighet 0 betyr at hendelsen aldri kan skje. 1 betyr at den er sikker."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er sannsynligheten for å trekke et ess fra en vanlig kortstokk med 52 kort?",
+      "options": [
+        "1/52",
+        "1/4",
+        "4/13",
+        "1/13"
+      ],
+      "correct": 3,
+      "explain": "Det er 4 ess blant 52 kort: 4/52 = 1/13."
+    },
+    {
+      "id": "q04",
+      "text": "Sannsynligheten for regn i morgen er 0,3. Hva er sannsynligheten for at det ikke regner?",
+      "options": [
+        "0,3",
+        "0,7",
+        "1,3",
+        "0,03"
+      ],
+      "correct": 1,
+      "explain": "Komplementær hendelse: 1 − 0,3 = 0,7."
+    },
+    {
+      "id": "q05",
+      "text": "En tegnestift kastes 200 ganger og lander med spissen opp 130 ganger. Hva er den relative frekvensen?",
+      "options": [
+        "0,65",
+        "0,35",
+        "1,3",
+        "0,5"
+      ],
+      "correct": 0,
+      "explain": "Relativ frekvens = 130 / 200 = 0,65, altså 65 %."
+    },
+    {
+      "id": "q06",
+      "text": "Hvor mange mulige utfall er det når du kaster to terninger?",
+      "options": [
+        "12",
+        "6",
+        "36",
+        "18"
+      ],
+      "correct": 2,
+      "explain": "Hver terning har 6 utfall, og alle kombinasjoner er mulige: 6 · 6 = 36."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er sannsynligheten for summen 7 med to terninger?",
+      "options": [
+        "1/36",
+        "7/36",
+        "1/12",
+        "1/6"
+      ],
+      "correct": 3,
+      "explain": "Summen 7 får du med (1,6), (2,5), (3,4), (4,3), (5,2) og (6,1): 6 av 36 = 1/6."
+    },
+    {
+      "id": "q08",
+      "text": "Du har kastet fem kast uten sekser. Hva er sannsynligheten for sekser i neste kast?",
+      "options": [
+        "Større enn 1/6",
+        "1/6",
+        "Mindre enn 1/6",
+        "5/6"
+      ],
+      "correct": 1,
+      "explain": "Kastene er uavhengige. Terningen husker ikke tidligere kast, så sannsynligheten er fortsatt 1/6."
+    },
+    {
+      "id": "q09",
+      "text": "Hva sier de store talls lov?",
+      "options": [
+        "At store tall er mer sannsynlige",
+        "At man alltid vinner til slutt",
+        "At relativ frekvens nærmer seg sannsynligheten når antall forsøk øker",
+        "At sannsynligheten blir større jo flere ganger man prøver"
+      ],
+      "correct": 2,
+      "explain": "Med få forsøk kan resultatet variere mye. Med mange forsøk stabiliserer den relative frekvensen seg rundt den egentlige sannsynligheten."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er sannsynligheten for å få kron to ganger på rad med en mynt?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/8",
+        "1/4"
+      ],
+      "correct": 3,
+      "explain": "Kastene er uavhengige: 1/2 · 1/2 = 1/4. Utfallene er KK, KM, MK og MM, og bare ett er gunstig."
+    }
   ],
   "mindmap": {
     "label": "Sannsynlighet",
     "children": [
-      { "label": "Begreper", "children": [
-        { "label": "Utfall og utfallsrom" },
-        { "label": "Hendelse" },
-        { "label": "Mellom 0 og 1", "note": "Umulig til sikker" }
-      ] },
-      { "label": "Regne", "children": [
-        { "label": "Gunstige / mulige", "note": "Uniform modell" },
-        { "label": "Komplement", "note": "1 − P(A)" },
-        { "label": "Brøk, desimal, prosent" }
-      ] },
-      { "label": "Erfaring", "children": [
-        { "label": "Relativ frekvens", "note": "Antall / forsøk" },
-        { "label": "De store talls lov" },
-        { "label": "Statistikk som grunnlag" }
-      ] },
-      { "label": "Flere forsøk", "children": [
-        { "label": "Tabell", "note": "To terninger: 36 utfall" },
-        { "label": "Valgtre" },
-        { "label": "Uavhengige", "note": "Gang sannsynlighetene" }
-      ] },
-      { "label": "Spill", "children": [
-        { "label": "Rettferdig?" },
-        { "label": "Ingen hukommelse" }
-      ] }
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Utfall og utfallsrom"
+          },
+          {
+            "label": "Hendelse"
+          },
+          {
+            "label": "Mellom 0 og 1",
+            "note": "Umulig til sikker"
+          }
+        ]
+      },
+      {
+        "label": "Regne",
+        "children": [
+          {
+            "label": "Gunstige / mulige",
+            "note": "Uniform modell"
+          },
+          {
+            "label": "Komplement",
+            "note": "1 − P(A)"
+          },
+          {
+            "label": "Brøk, desimal, prosent"
+          }
+        ]
+      },
+      {
+        "label": "Erfaring",
+        "children": [
+          {
+            "label": "Relativ frekvens",
+            "note": "Antall / forsøk"
+          },
+          {
+            "label": "De store talls lov"
+          },
+          {
+            "label": "Statistikk som grunnlag"
+          }
+        ]
+      },
+      {
+        "label": "Flere forsøk",
+        "children": [
+          {
+            "label": "Tabell",
+            "note": "To terninger: 36 utfall"
+          },
+          {
+            "label": "Valgtre"
+          },
+          {
+            "label": "Uavhengige",
+            "note": "Gang sannsynlighetene"
+          }
+        ]
+      },
+      {
+        "label": "Spill",
+        "children": [
+          {
+            "label": "Rettferdig?"
+          },
+          {
+            "label": "Ingen hukommelse"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q03", "q04", "q05", "q06", "q07", "q08", "q10"],
+    "quizRefs": [
+      "q01",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q10"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En sannsynlighet kan være 1,2.", "correct": false, "explain": "Sannsynligheter ligger alltid mellom 0 og 1, eller mellom 0 % og 100 %." },
-      { "id": "m02", "type": "sant-usant", "text": "25 % er det samme som sannsynligheten 1/4.", "correct": true, "explain": "1/4 = 0,25 = 25 %." },
-      { "id": "m03", "type": "sant-usant", "text": "Med to terninger er summen 2 like sannsynlig som summen 7.", "correct": false, "explain": "Summen 2 kan bare komme som (1,1): 1/36. Summen 7 kan komme på 6 måter: 6/36." },
-      { "id": "m04", "type": "sant-usant", "text": "Relativ frekvens fra mange forsøk kan brukes som et anslag for sannsynligheten.", "correct": true, "explain": "Etter de store talls lov kommer relativ frekvens nær sannsynligheten når forsøkene er mange." },
-      { "id": "m05", "type": "flervalg", "text": "En pose har 3 røde og 7 blå kuler. Hva er sannsynligheten for å trekke en rød?", "options": ["3/7", "3/10", "7/10", "1/3"], "correct": 1, "explain": "Det er 3 gunstige (røde) av 10 mulige kuler: 3/10." },
-      { "id": "m06", "type": "flervalg", "text": "18 av 600 lyspærer er defekte. Hva er anslått sannsynlighet for en defekt pære?", "options": ["18 %", "0,3 %", "6 %", "3 %"], "correct": 3, "explain": "18 / 600 = 0,03 = 3 %." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er sannsynligheten for to seksere med to terninger?", "options": ["1/36", "2/6", "1/12", "1/6"], "correct": 0, "explain": "Terningene er uavhengige: 1/6 · 1/6 = 1/36." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En sannsynlighet kan være 1,2.",
+        "correct": false,
+        "explain": "Sannsynligheter ligger alltid mellom 0 og 1, eller mellom 0 % og 100 %."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "25 % er det samme som sannsynligheten 1/4.",
+        "correct": true,
+        "explain": "1/4 = 0,25 = 25 %."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Med to terninger er summen 2 like sannsynlig som summen 7.",
+        "correct": false,
+        "explain": "Summen 2 kan bare komme som (1,1): 1/36. Summen 7 kan komme på 6 måter: 6/36."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Relativ frekvens fra mange forsøk kan brukes som et anslag for sannsynligheten.",
+        "correct": true,
+        "explain": "Etter de store talls lov kommer relativ frekvens nær sannsynligheten når forsøkene er mange."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "En pose har 3 røde og 7 blå kuler. Hva er sannsynligheten for å trekke en rød?",
+        "options": [
+          "3/7",
+          "3/10",
+          "7/10",
+          "1/3"
+        ],
+        "correct": 1,
+        "explain": "Det er 3 gunstige (røde) av 10 mulige kuler: 3/10."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "18 av 600 lyspærer er defekte. Hva er anslått sannsynlighet for en defekt pære?",
+        "options": [
+          "18 %",
+          "0,3 %",
+          "6 %",
+          "3 %"
+        ],
+        "correct": 3,
+        "explain": "18 / 600 = 0,03 = 3 %."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er sannsynligheten for to seksere med to terninger?",
+        "options": [
+          "1/36",
+          "2/6",
+          "1/12",
+          "1/6"
+        ],
+        "correct": 0,
+        "explain": "Terningene er uavhengige: 1/6 · 1/6 = 1/36."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En vanlig terning kastes. Forklar forskjellen på ett utfall og en hendelse ved å bruke «terningen viser 4» og «terningen viser et tall større enn 4» som eksempler.",
+        "fasit": "Et utfall er ett mulig resultat, for eksempel at terningen viser 4. En hendelse kan bestå av flere utfall; «større enn 4» består av utfallene 5 og 6.",
+        "kriterier": [
+          "Forklarer at et utfall er ett mulig resultat.",
+          "Forklarer at en hendelse kan bestå av ett eller flere utfall, og bruker eksemplet med 5 og 6."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En vanlig terning kastes én gang, og alle sidene er like sannsynlige. Hva er sannsynligheten for å få et tall mindre enn 3? Vis hvordan du finner svaret.",
+        "fasit": "De gunstige utfallene er 1 og 2, altså 2 av 6 mulige utfall. Sannsynligheten er 2/6 = 1/3.",
+        "kriterier": [
+          "Finner de to gunstige utfallene blant de seks mulige.",
+          "Regner sannsynligheten som 2/6 = 1/3."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En vanlig terning kastes én gang. Finn sannsynligheten for ikke å få 1, og forklar kort hvilken regel du bruker.",
+        "fasit": "Sannsynligheten for å få 1 er 1/6. Derfor er sannsynligheten for ikke å få 1 lik 1 − 1/6 = 5/6.",
+        "kriterier": [
+          "Bruker at sannsynligheten for den komplementære hendelsen er 1 minus sannsynligheten for å få 1.",
+          "Får svaret 5/6."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En knapp kastes 50 ganger og lander med forsiden opp 27 ganger. Hva er den relative frekvensen, og hva sier de store talls lov om resultatet hvis forsøket gjentas mange flere ganger?",
+        "fasit": "Den relative frekvensen er 27/50 = 0,54, altså 54 %. Med mange flere forsøk vil den relative frekvensen nærme seg den egentlige sannsynligheten.",
+        "kriterier": [
+          "Regner den relative frekvensen som 27/50 = 54 %.",
+          "Forklarer at relativ frekvens med mange forsøk nærmer seg den egentlige sannsynligheten."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En vanlig terning kastes to ganger. Kastene er uavhengige. Hva er sannsynligheten for å få partall begge gangene? Vis det viktigste regnestykket.",
+        "fasit": "Sannsynligheten for partall i ett kast er 3/6 = 1/2. Siden kastene er uavhengige, ganger vi sannsynlighetene: 1/2 · 1/2 = 1/4.",
+        "kriterier": [
+          "Bruker sannsynligheten 1/2 for partall i hvert kast.",
+          "Ganger sannsynlighetene og får 1/4."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En terning kastes to ganger. Forklar hvordan et valgtre kan hjelpe med å finne alle mulige utfall av de to kastene.",
+        "fasit": "Valgtreet har greiner for mulige resultater ved hvert kast. Hver vei gjennom treet viser ett utfall for begge kastene, slik at alle kombinasjonene kan telles.",
+        "kriterier": [
+          "Forklarer at greinene viser mulige resultater ved hvert av de to kastene.",
+          "Forklarer at hver vei gjennom treet viser et mulig samlet utfall, slik at alle utfallene kan telles."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I et spill kaster to spillere hver sin vanlige terning. Spiller A vinner hvis terningen viser 1 eller 2, mens spiller B vinner hvis den viser 3, 4, 5 eller 6. Er spillet rettferdig? Begrunn svaret med sannsynligheten for at hver spiller vinner.",
+        "fasit": "Spillet er ikke rettferdig. A har sannsynlighet 2/6 for å vinne, mens B har sannsynlighet 4/6, så spillerne har ikke like stor sjanse.",
+        "kriterier": [
+          "Finner sannsynligheten 2/6 for A og 4/6 for B.",
+          "Konkluderer med at spillet ikke er rettferdig fordi sannsynlighetene er ulike."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sannsynligheten for en hendelse er 3/4. Skriv den som desimaltall og prosent, og forklar kort hva tallet sier om sjansen for at hendelsen skjer.",
+        "fasit": "3/4 = 0,75 = 75 %. Det betyr at sannsynligheten for at hendelsen skjer, er 75 %.",
+        "kriterier": [
+          "Gjør om 3/4 riktig til 0,75 og 75 %.",
+          "Forklarer at tallet uttrykker hvor stor sjanse hendelsen har for å skje."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

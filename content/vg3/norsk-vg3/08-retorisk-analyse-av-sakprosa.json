@@ -4,80 +4,430 @@
   "trinnId": "vg3",
   "name": "Retorisk analyse og tolkning av sakprosa",
   "intro": "Hvordan du analyserer og tolker sakprosatekster: den retoriske situasjonen, appellformene og kairos, argumentasjonsanalyse med påstand, belegg og hjemmel, argumentasjonsfeil, språklige virkemidler – og hvordan du bygger opp en retorisk analyse.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Hva er en retorisk analyse?\n\nEn **retorisk analyse** undersøker **hvordan** en tekst prøver å **overbevise** eller **påvirke** leseren, og **vurderer** om den lykkes. Den brukes på **sakprosa** som debattinnlegg, taler, kronikker, ledere og reklame.\n\n## Den retoriske situasjonen\n\nStart med å kartlegge **situasjonen** teksten er skrevet i:\n\n- **Avsender**: Hvem står bak, og hvilken rolle og troverdighet har hen?\n- **Mottaker**: Hvem er teksten skrevet til? Hva vet og mener de fra før?\n- **Formål**: Skal teksten **informere**, **overbevise** eller få folk til å **handle**?\n- **Kanal** og **sjanger**\n- **Kontekst**: Hva skjedde i samfunnet da teksten kom? Hvilken **sak** eller **debatt** er den en del av?\n\n## Appellformer\n\n- **Etos**: avsenderens **troverdighet** – kompetanse, erfaring, ærlighet og velvilje.\n- **Patos**: appell til **følelser** – gjennom eksempler, bilder, ordvalg og fortellinger.\n- **Logos**: appell til **fornuften** – fakta, statistikk og logiske argumenter.\n\n**Kairos** handler om **timing** – om teksten kommer til rett tid og passer til situasjonen.\n\n## Argumentasjonsanalyse\n\nFinn **hovedpåstanden** – det teksten vil at leseren skal mene. Undersøk så argumentene:\n\n- **Påstand**: det som hevdes\n- **Belegg**: det som støtter påstanden, for eksempel fakta eller eksempler\n- **Hjemmel**: den ofte **uuttalte** forutsetningen som knytter belegget til påstanden\n\nEksempel: «Skolen bør ha mobilforbud» (påstand), «fordi elevene lærer mer uten mobil» (belegg). Hjemmelen er at **læring** er det viktigste målet for skolen.\n\nVurder om argumentene er **relevante**, **holdbare** og om motargumenter blir **imøtegått**.\n\n## Argumentasjonsfeil\n\n- **Stråmann**: å angripe en **forvrengt** versjon av motpartens syn\n- **Personangrep**: å angripe **personen** i stedet for saken\n- **Falsk dilemma**: å late som det bare finnes **to** alternativer\n- **Glidebaneargument**: å påstå at ett steg uunngåelig fører til en katastrofe\n- **Generalisering** ut fra få eksempler\n- **Autoritetsargument** der autoriteten ikke har relevant kompetanse\n\n## Språklige virkemidler\n\n- **Ordvalg** med positive eller negative **konnotasjoner**\n- **Retoriske spørsmål**\n- **Gjentakelser** og **tretall** («vi trenger mot, vilje og handling»)\n- **Kontraster** og **metaforer**\n- **Vi-form** som skaper fellesskap\n- **Tone** – saklig, ironisk, alvorlig eller personlig\n\n## Oppbygning av en retorisk analyse\n\n1. **Innledning**: presenter teksten, avsender, kanal og dato, og gi et kort sammendrag av **hovedpåstanden**.\n2. **Retorisk situasjon** og **kontekst**\n3. **Analyse** av **appellformer**, **argumentasjon**, **disposisjon** og **språk** – med **sitater**\n4. **Vurdering**: Er teksten **overbevisende** for målgruppen? Hva er **styrkene** og **svakhetene**?\n5. **Avslutning**: oppsummer og konkluder.\n\n## Tolkning av sakprosa\n\nSakprosa kan også **tolkes**. Spør hva teksten sier om **verdier**, **menneskesyn** og **samfunn** – og hva som **ikke** blir sagt. Hvilke **perspektiver** mangler?\n\n## Husk\n\nSkill mellom **hva du mener** om saken og **hvordan teksten argumenterer**. Du kan godt være uenig i påstanden og likevel synes teksten er **retorisk sterk**.",
   "flashcards": [
-    { "term": "Retorisk analyse", "def": "Undersøkelse av hvordan en tekst prøver å overbevise, og om den lykkes." },
-    { "term": "Retorisk situasjon", "def": "Avsender, mottaker, formål, kanal og kontekst." },
-    { "term": "Etos", "def": "Appell gjennom avsenderens troverdighet." },
-    { "term": "Patos", "def": "Appell til følelser." },
-    { "term": "Logos", "def": "Appell til fornuften med fakta og logikk." },
-    { "term": "Kairos", "def": "Rett tidspunkt og tilpasning til situasjonen." },
-    { "term": "Hovedpåstand", "def": "Det teksten vil at leseren skal mene." },
-    { "term": "Belegg", "def": "Det som støtter en påstand." },
-    { "term": "Hjemmel", "def": "Den ofte uuttalte forutsetningen som knytter belegg og påstand." },
-    { "term": "Stråmann", "def": "Å angripe en forvrengt versjon av motpartens syn." },
-    { "term": "Personangrep", "def": "Å angripe personen i stedet for saken." },
-    { "term": "Falsk dilemma", "def": "Å late som det bare finnes to alternativer." },
-    { "term": "Glidebaneargument", "def": "Å påstå at ett steg uunngåelig fører til katastrofe." },
-    { "term": "Konnotasjon", "def": "Assosiasjonene et ord vekker." },
-    { "term": "Retorisk spørsmål", "def": "Spørsmål som ikke krever svar, men skal påvirke." }
+    {
+      "term": "Retorisk analyse",
+      "def": "Undersøkelse av hvordan en tekst prøver å overbevise, og om den lykkes."
+    },
+    {
+      "term": "Retorisk situasjon",
+      "def": "Avsender, mottaker, formål, kanal og kontekst."
+    },
+    {
+      "term": "Etos",
+      "def": "Appell gjennom avsenderens troverdighet."
+    },
+    {
+      "term": "Patos",
+      "def": "Appell til følelser."
+    },
+    {
+      "term": "Logos",
+      "def": "Appell til fornuften med fakta og logikk."
+    },
+    {
+      "term": "Kairos",
+      "def": "Rett tidspunkt og tilpasning til situasjonen."
+    },
+    {
+      "term": "Hovedpåstand",
+      "def": "Det teksten vil at leseren skal mene."
+    },
+    {
+      "term": "Belegg",
+      "def": "Det som støtter en påstand."
+    },
+    {
+      "term": "Hjemmel",
+      "def": "Den ofte uuttalte forutsetningen som knytter belegg og påstand."
+    },
+    {
+      "term": "Stråmann",
+      "def": "Å angripe en forvrengt versjon av motpartens syn."
+    },
+    {
+      "term": "Personangrep",
+      "def": "Å angripe personen i stedet for saken."
+    },
+    {
+      "term": "Falsk dilemma",
+      "def": "Å late som det bare finnes to alternativer."
+    },
+    {
+      "term": "Glidebaneargument",
+      "def": "Å påstå at ett steg uunngåelig fører til katastrofe."
+    },
+    {
+      "term": "Konnotasjon",
+      "def": "Assosiasjonene et ord vekker."
+    },
+    {
+      "term": "Retorisk spørsmål",
+      "def": "Spørsmål som ikke krever svar, men skal påvirke."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva undersøker en retorisk analyse?", "options": ["Rim og rytme", "Hvordan en tekst prøver å overbevise, og om den lykkes", "Bare fakta i teksten", "Forfatterens liv"], "correct": 1, "explain": "Brukes på sakprosa." },
-    { "id": "q02", "text": "Hva er etos?", "options": ["Appell gjennom avsenderens troverdighet", "Appell til følelser", "Appell til fornuften", "Rett timing"], "correct": 0, "explain": "Kompetanse, erfaring og velvilje." },
-    { "id": "q03", "text": "Hva er kairos?", "options": ["En argumentasjonsfeil", "Et språklig bilde", "Rett tidspunkt og tilpasning til situasjonen", "En sjanger"], "correct": 2, "explain": "Timing." },
-    { "id": "q04", "text": "Hva er en hjemmel?", "options": ["Hovedpåstanden", "Et sitat", "Konklusjonen", "Den uuttalte forutsetningen som knytter belegg og påstand"], "correct": 3, "explain": "Ofte underforstått." },
-    { "id": "q05", "text": "En debattant angriper motpartens utseende i stedet for argumentene. Hva kalles dette?", "options": ["Personangrep", "Stråmann", "Falsk dilemma", "Glidebane"], "correct": 0, "explain": "Angriper personen, ikke saken." },
-    { "id": "q06", "text": "«Enten er du for full frihet, eller så vil du ha diktatur.» Hvilken feil er dette?", "options": ["Stråmann", "Falsk dilemma", "Personangrep", "Autoritetsargument"], "correct": 1, "explain": "Det finnes flere alternativer." },
-    { "id": "q07", "text": "Hvilken appellform bruker statistikk og fakta?", "options": ["Etos", "Patos", "Logos", "Kairos"], "correct": 2, "explain": "Appell til fornuften." },
-    { "id": "q08", "text": "Hva bør vurderingen i en retorisk analyse handle om?", "options": ["Om du er enig i saken", "Hvor lang teksten er", "Hvem som betalte avisen", "Om teksten er overbevisende for målgruppen"], "correct": 3, "explain": "Skill mellom egen mening og tekstens retorikk." },
-    { "id": "q09", "text": "Hva er et glidebaneargument?", "options": ["Å påstå at ett steg uunngåelig fører til katastrofe", "Å angripe personen", "Å gjenta et ord", "Å bruke statistikk"], "correct": 0, "explain": "En vanlig argumentasjonsfeil." },
-    { "id": "q10", "text": "Hvorfor kan en tekst bruke vi-form?", "options": ["For å virke upersonlig", "For å skape fellesskap med leseren", "For å skjule avsenderen", "Fordi det er et krav i sakprosa"], "correct": 1, "explain": "Et språklig virkemiddel." }
+    {
+      "id": "q01",
+      "text": "Hva undersøker en retorisk analyse?",
+      "options": [
+        "Rim og rytme",
+        "Hvordan en tekst prøver å overbevise, og om den lykkes",
+        "Bare fakta i teksten",
+        "Forfatterens liv"
+      ],
+      "correct": 1,
+      "explain": "Brukes på sakprosa."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er etos?",
+      "options": [
+        "Appell gjennom avsenderens troverdighet",
+        "Appell til følelser",
+        "Appell til fornuften",
+        "Rett timing"
+      ],
+      "correct": 0,
+      "explain": "Kompetanse, erfaring og velvilje."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er kairos?",
+      "options": [
+        "En argumentasjonsfeil",
+        "Et språklig bilde",
+        "Rett tidspunkt og tilpasning til situasjonen",
+        "En sjanger"
+      ],
+      "correct": 2,
+      "explain": "Timing."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er en hjemmel?",
+      "options": [
+        "Hovedpåstanden",
+        "Et sitat",
+        "Konklusjonen",
+        "Den uuttalte forutsetningen som knytter belegg og påstand"
+      ],
+      "correct": 3,
+      "explain": "Ofte underforstått."
+    },
+    {
+      "id": "q05",
+      "text": "En debattant angriper motpartens utseende i stedet for argumentene. Hva kalles dette?",
+      "options": [
+        "Personangrep",
+        "Stråmann",
+        "Falsk dilemma",
+        "Glidebane"
+      ],
+      "correct": 0,
+      "explain": "Angriper personen, ikke saken."
+    },
+    {
+      "id": "q06",
+      "text": "«Enten er du for full frihet, eller så vil du ha diktatur.» Hvilken feil er dette?",
+      "options": [
+        "Stråmann",
+        "Falsk dilemma",
+        "Personangrep",
+        "Autoritetsargument"
+      ],
+      "correct": 1,
+      "explain": "Det finnes flere alternativer."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken appellform bruker statistikk og fakta?",
+      "options": [
+        "Etos",
+        "Patos",
+        "Logos",
+        "Kairos"
+      ],
+      "correct": 2,
+      "explain": "Appell til fornuften."
+    },
+    {
+      "id": "q08",
+      "text": "Hva bør vurderingen i en retorisk analyse handle om?",
+      "options": [
+        "Om du er enig i saken",
+        "Hvor lang teksten er",
+        "Hvem som betalte avisen",
+        "Om teksten er overbevisende for målgruppen"
+      ],
+      "correct": 3,
+      "explain": "Skill mellom egen mening og tekstens retorikk."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et glidebaneargument?",
+      "options": [
+        "Å påstå at ett steg uunngåelig fører til katastrofe",
+        "Å angripe personen",
+        "Å gjenta et ord",
+        "Å bruke statistikk"
+      ],
+      "correct": 0,
+      "explain": "En vanlig argumentasjonsfeil."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan en tekst bruke vi-form?",
+      "options": [
+        "For å virke upersonlig",
+        "For å skape fellesskap med leseren",
+        "For å skjule avsenderen",
+        "Fordi det er et krav i sakprosa"
+      ],
+      "correct": 1,
+      "explain": "Et språklig virkemiddel."
+    }
   ],
   "mindmap": {
     "label": "Retorisk analyse",
     "children": [
-      { "label": "Situasjon", "children": [
-        { "label": "Avsender og mottaker" },
-        { "label": "Formål og kanal" },
-        { "label": "Kontekst" }
-      ] },
-      { "label": "Appellformer", "children": [
-        { "label": "Etos" },
-        { "label": "Patos" },
-        { "label": "Logos" },
-        { "label": "Kairos" }
-      ] },
-      { "label": "Argumentasjon", "children": [
-        { "label": "Påstand" },
-        { "label": "Belegg" },
-        { "label": "Hjemmel" }
-      ] },
-      { "label": "Feil", "children": [
-        { "label": "Stråmann" },
-        { "label": "Personangrep" },
-        { "label": "Falsk dilemma" }
-      ] },
-      { "label": "Oppbygning", "children": [
-        { "label": "Analyse med sitater" },
-        { "label": "Vurdering" },
-        { "label": "Tolkning" }
-      ] }
+      {
+        "label": "Situasjon",
+        "children": [
+          {
+            "label": "Avsender og mottaker"
+          },
+          {
+            "label": "Formål og kanal"
+          },
+          {
+            "label": "Kontekst"
+          }
+        ]
+      },
+      {
+        "label": "Appellformer",
+        "children": [
+          {
+            "label": "Etos"
+          },
+          {
+            "label": "Patos"
+          },
+          {
+            "label": "Logos"
+          },
+          {
+            "label": "Kairos"
+          }
+        ]
+      },
+      {
+        "label": "Argumentasjon",
+        "children": [
+          {
+            "label": "Påstand"
+          },
+          {
+            "label": "Belegg"
+          },
+          {
+            "label": "Hjemmel"
+          }
+        ]
+      },
+      {
+        "label": "Feil",
+        "children": [
+          {
+            "label": "Stråmann"
+          },
+          {
+            "label": "Personangrep"
+          },
+          {
+            "label": "Falsk dilemma"
+          }
+        ]
+      },
+      {
+        "label": "Oppbygning",
+        "children": [
+          {
+            "label": "Analyse med sitater"
+          },
+          {
+            "label": "Vurdering"
+          },
+          {
+            "label": "Tolkning"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Du kan være uenig i en påstand og likevel mene at teksten er retorisk sterk.", "correct": true, "explain": "Skill mellom mening og analyse." },
-      { "id": "m02", "type": "sant-usant", "text": "Patos betyr appell gjennom avsenderens troverdighet.", "correct": false, "explain": "Patos er appell til følelser." },
-      { "id": "m03", "type": "sant-usant", "text": "Sakprosa kan også tolkes, for eksempel ut fra verdier og menneskesyn.", "correct": true, "explain": "Hva sies – og hva sies ikke?" },
-      { "id": "m04", "type": "sant-usant", "text": "Hjemmelen står alltid tydelig i teksten.", "correct": false, "explain": "Den er ofte uuttalt." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er en stråmann?", "options": ["Å angripe personen", "Å angripe en forvrengt versjon av motpartens syn", "Å bruke statistikk", "Å gjenta et poeng"], "correct": 1, "explain": "En vanlig argumentasjonsfeil." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket virkemiddel er et tretall?", "options": ["«Vi trenger mot, vilje og handling»", "«Er det rettferdig?»", "«Han er en løve»", "«Vi»"], "correct": 0, "explain": "Tre ledd gir rytme og tyngde." },
-      { "id": "m07", "type": "flervalg", "text": "Hva hører til den retoriske situasjonen?", "options": ["Rim og rytme", "Antall avsnitt", "Avsender, mottaker, formål og kontekst", "Skrifttypen"], "correct": 2, "explain": "Første steg i analysen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Du kan være uenig i en påstand og likevel mene at teksten er retorisk sterk.",
+        "correct": true,
+        "explain": "Skill mellom mening og analyse."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Patos betyr appell gjennom avsenderens troverdighet.",
+        "correct": false,
+        "explain": "Patos er appell til følelser."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Sakprosa kan også tolkes, for eksempel ut fra verdier og menneskesyn.",
+        "correct": true,
+        "explain": "Hva sies – og hva sies ikke?"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Hjemmelen står alltid tydelig i teksten.",
+        "correct": false,
+        "explain": "Den er ofte uuttalt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er en stråmann?",
+        "options": [
+          "Å angripe personen",
+          "Å angripe en forvrengt versjon av motpartens syn",
+          "Å bruke statistikk",
+          "Å gjenta et poeng"
+        ],
+        "correct": 1,
+        "explain": "En vanlig argumentasjonsfeil."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket virkemiddel er et tretall?",
+        "options": [
+          "«Vi trenger mot, vilje og handling»",
+          "«Er det rettferdig?»",
+          "«Han er en løve»",
+          "«Vi»"
+        ],
+        "correct": 0,
+        "explain": "Tre ledd gir rytme og tyngde."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva hører til den retoriske situasjonen?",
+        "options": [
+          "Rim og rytme",
+          "Antall avsnitt",
+          "Avsender, mottaker, formål og kontekst",
+          "Skrifttypen"
+        ],
+        "correct": 2,
+        "explain": "Første steg i analysen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Når du analyserer en kronikk, undersøker du blant annet hvem avsenderen og mottakeren er. Forklar hvordan kunnskap om avsenderen eller mottakeren kan hjelpe deg med å forstå hvordan kronikken prøver å påvirke.",
+        "fasit": "Kunnskap om avsenderens rolle og troverdighet kan forklare hvorfor mottakeren vil stole på teksten. Kunnskap om mottakeren kan vise hvordan teksten tilpasser argumentene sine til det målgruppen vet eller mener fra før.",
+        "kriterier": [
+          "Forklarer hvordan en opplysning om avsenderen kan påvirke tekstens troverdighet eller virkning.",
+          "Forklarer hvordan teksten kan tilpasses mottakerens kunnskap eller meninger."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Én tekst bruker en personlig fortelling som skal vekke medfølelse. En annen bruker fakta og logiske argumenter. Sammenlign hvilken appellform tekstene bruker, og hvordan de prøver å påvirke leseren.",
+        "fasit": "Fortellingen bruker patos ved å appellere til leserens følelser. Faktaene og de logiske argumentene bruker logos ved å appellere til leserens fornuft.",
+        "kriterier": [
+          "Knytter den personlige fortellingen til patos og følelsesappell.",
+          "Knytter fakta og logiske argumenter til logos og fornuftsappell."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En skribent skriver: «Kommunen bør lage flere møteplasser for ungdom, fordi ungdom trenger steder å møtes.» Hva er hovedpåstanden, og hva er belegget?",
+        "fasit": "Hovedpåstanden er at kommunen bør lage flere møteplasser for ungdom. Belegget er at ungdom trenger steder å møtes.",
+        "kriterier": [
+          "Identifiserer hva skribenten vil at leseren skal mene, som hovedpåstanden.",
+          "Identifiserer begrunnelsen som støtter påstanden, som belegget."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En debattant snakker med to personer som misliker et forslag, og konkluderer med at alle innbyggerne er imot det. Hvilken argumentasjonsfeil gjør debattanten, og hvorfor?",
+        "fasit": "Dette er en generalisering ut fra få eksempler. To personers mening gir ikke grunnlag for å konkludere med hva alle innbyggerne mener.",
+        "kriterier": [
+          "Identifiserer generalisering ut fra få eksempler.",
+          "Forklarer at grunnlaget er for lite til å trekke en konklusjon om alle."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Kommunestyret skal snart avgjøre en sak. En organisasjon publiserer et innlegg om saken rett før avgjørelsen. Forklar hvorfor tidspunktet kan gi teksten god kairos, og hva teksten også må passe til for å treffe situasjonen.",
+        "fasit": "Tidspunktet kan gi god kairos fordi innlegget kommer mens saken er aktuell og før avgjørelsen. Innholdet må også passe til saken og situasjonen det skal påvirke.",
+        "kriterier": [
+          "Knytter kairos til at tidspunktet passer fordi saken er aktuell eller avgjørelsen nærmer seg.",
+          "Forklarer at teksten også må passe til den konkrete saken eller situasjonen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign assosiasjonene i uttrykkene «et modig tiltak» og «et risikabelt eksperiment». Hvordan kan ordvalget påvirke leserens syn på det samme forslaget?",
+        "fasit": "«Et modig tiltak» har positive konnotasjoner og kan få forslaget til å virke handlekraftig. «Et risikabelt eksperiment» har mer negative konnotasjoner og kan få det til å virke uforsvarlig eller usikkert.",
+        "kriterier": [
+          "Forklarer at «modig tiltak» vekker positive assosiasjoner.",
+          "Forklarer at «risikabelt eksperiment» vekker negative assosiasjoner, og knytter ordvalget til hvordan forslaget framstår."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En taler sier: «Hvor lenge skal vi godta at stemmen vår ikke blir hørt?» Forklar hvorfor dette kan være et retorisk spørsmål, og hvilken virkning det kan ha på tilhørerne.",
+        "fasit": "Spørsmålet er retorisk fordi det ikke først og fremst ber om et konkret svar. Det kan understreke frustrasjon og få tilhørerne til å reflektere eller føle seg engasjert.",
+        "kriterier": [
+          "Forklarer at spørsmålet ikke er ment å få et konkret svar.",
+          "Beskriver en relevant virkning, for eksempel at det understreker et poeng eller engasjerer tilhørerne."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du er uenig i hovedpåstanden i en tekst, men mener at teksten likevel er retorisk sterk. Forklar hvordan disse vurderingene kan henge sammen.",
+        "fasit": "Du kan være uenig i hva teksten vil at du skal mene, men likevel vurdere at den argumenterer godt og bruker virkemidler som kan overbevise målgruppen. Din egen mening om saken er ikke det samme som en vurdering av hvordan teksten argumenterer.",
+        "kriterier": [
+          "Skiller mellom egen enighet i saken og vurdering av tekstens argumentasjon.",
+          "Forklarer at teksten kan være overbevisende eller retorisk sterk selv om leseren er uenig i påstanden."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

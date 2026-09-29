@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Organiske reaksjonstyper og reaksjonsmekanismer",
   "intro": "De viktigste organiske reaksjonstypene – addisjon, eliminasjon, substitusjon, hydrolyse og kondensasjon – og hvordan polariserte bindinger, nukleofiler og elektrofiler kan brukes til å forklare enkle reaksjonsmekanismer med elektrostatiske krefter.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Polaritet og elektrostatiske krefter\n\nMange organiske reaksjoner kan forklares med **elektrostatiske krefter**: **Positive** og **negative** ladninger **tiltrekker** hverandre.\n\n- I en **polar binding**, som C–Br eller C–O, trekker det mest **elektronegative** atomet elektronene mot seg. Karbonatomet får da en **delvis positiv** ladning (δ+).\n- En **nukleofil** («kjerneelskende») er **elektronrik** – den har et **ledig elektronpar** eller negativ ladning, for eksempel OH⁻ eller vann.\n- En **elektrofil** («elektronelskende») er **elektronfattig** – den har positiv eller delvis positiv ladning, for eksempel H⁺ eller et δ+-karbon.\n\nI en **reaksjonsmekanisme** angriper **nukleofilen** den **elektrofile** delen av et molekyl. Bevegelsen av elektronpar tegnes med **buede piler**.\n\n## Addisjon\n\nI en **addisjonsreaksjon** blir en **dobbeltbinding** brutt, og to atomer eller grupper **legges til**. Alkener gir addisjon fordi dobbeltbindingen er **elektronrik**.\n\n- Eten + brom → 1,2-dibrometan. Når **bromvann** avfarges, viser det at stoffet har dobbeltbindinger.\n- Eten + vann (med syre som katalysator) → **etanol**.\n\n**Mekanisme**: Dobbeltbindingen angriper H⁺ i HBr, og det dannes et **karbokation** – et positivt karbonatom. Deretter angriper **bromidionet** karbokationet.\n\n## Eliminasjon\n\n**Eliminasjon** er det motsatte av addisjon: Et lite molekyl, ofte **vann** eller **HX**, **fjernes**, og det dannes en **dobbeltbinding**. Når **etanol** varmes med konsentrert syre, elimineres vann, og det dannes **eten**.\n\n## Substitusjon\n\nI **substitusjon** blir ett atom eller én gruppe **byttet ut** med en annen.\n\n- Et **halogenalkan** reagerer med OH⁻: CH₃Br + OH⁻ → CH₃OH + Br⁻.\n\n**Mekanisme**: Hydroksidionet (nukleofil) tiltrekkes av det **δ+-ladde** karbonatomet og angriper det. Samtidig forlater **bromidionet** molekylet. Dette er en **nukleofil substitusjon**.\n\n## Kondensasjon\n\nI en **kondensasjonsreaksjon** slås to molekyler **sammen**, og et lite molekyl – ofte **vann** – **spaltes av**.\n\n- **Esterdannelse**: karboksylsyre + alkohol → **ester** + vann. Estere gir mange **frukt- og blomsterdufter**.\n- **Peptidbinding**: to aminosyrer → dipeptid + vann.\n- Mange **polymerer**, som **polyester** og **nylon**, dannes ved kondensasjon.\n\n## Hydrolyse\n\n**Hydrolyse** er det motsatte av kondensasjon: Et molekyl **spaltes** ved hjelp av **vann**.\n\n- **Ester** + vann → karboksylsyre + alkohol\n- **Proteiner** brytes ned til aminosyrer, og **stivelse** til glukose, ved hydrolyse i fordøyelsen – katalysert av **enzymer**.\n- **Såpekoking** er basisk hydrolyse av **fett**.\n\n## Oversikt\n\n| Reaksjonstype | Kjennetegn |\n|---|---|\n| Addisjon | dobbeltbinding brytes, noe legges til |\n| Eliminasjon | lite molekyl fjernes, dobbeltbinding dannes |\n| Substitusjon | atom eller gruppe byttes ut |\n| Kondensasjon | to molekyler slås sammen, vann spaltes av |\n| Hydrolyse | molekyl spaltes med vann |",
   "flashcards": [
-    { "term": "Polar binding", "def": "Binding der elektronene trekkes mot det mest elektronegative atomet." },
-    { "term": "δ+", "def": "Delvis positiv ladning." },
-    { "term": "Nukleofil", "def": "Elektronrik partikkel som angriper elektronfattige atomer." },
-    { "term": "Elektrofil", "def": "Elektronfattig partikkel eller atom." },
-    { "term": "Reaksjonsmekanisme", "def": "Trinnene i en reaksjon, vist med buede piler for elektronpar." },
-    { "term": "Addisjon", "def": "Dobbeltbinding brytes, og atomer legges til." },
-    { "term": "Bromvannstest", "def": "Bromvann avfarges av stoffer med dobbeltbinding." },
-    { "term": "Karbokation", "def": "Positivt ladd karbonatom i en reaksjonsmekanisme." },
-    { "term": "Eliminasjon", "def": "Et lite molekyl fjernes, og det dannes en dobbeltbinding." },
-    { "term": "Substitusjon", "def": "Et atom eller en gruppe byttes ut." },
-    { "term": "Nukleofil substitusjon", "def": "En nukleofil erstatter en gruppe på et δ+-karbon." },
-    { "term": "Kondensasjon", "def": "To molekyler slås sammen, og vann spaltes av." },
-    { "term": "Esterdannelse", "def": "Karboksylsyre + alkohol → ester + vann." },
-    { "term": "Hydrolyse", "def": "Et molekyl spaltes ved hjelp av vann." },
-    { "term": "Såpekoking", "def": "Basisk hydrolyse av fett." }
+    {
+      "term": "Polar binding",
+      "def": "Binding der elektronene trekkes mot det mest elektronegative atomet."
+    },
+    {
+      "term": "δ+",
+      "def": "Delvis positiv ladning."
+    },
+    {
+      "term": "Nukleofil",
+      "def": "Elektronrik partikkel som angriper elektronfattige atomer."
+    },
+    {
+      "term": "Elektrofil",
+      "def": "Elektronfattig partikkel eller atom."
+    },
+    {
+      "term": "Reaksjonsmekanisme",
+      "def": "Trinnene i en reaksjon, vist med buede piler for elektronpar."
+    },
+    {
+      "term": "Addisjon",
+      "def": "Dobbeltbinding brytes, og atomer legges til."
+    },
+    {
+      "term": "Bromvannstest",
+      "def": "Bromvann avfarges av stoffer med dobbeltbinding."
+    },
+    {
+      "term": "Karbokation",
+      "def": "Positivt ladd karbonatom i en reaksjonsmekanisme."
+    },
+    {
+      "term": "Eliminasjon",
+      "def": "Et lite molekyl fjernes, og det dannes en dobbeltbinding."
+    },
+    {
+      "term": "Substitusjon",
+      "def": "Et atom eller en gruppe byttes ut."
+    },
+    {
+      "term": "Nukleofil substitusjon",
+      "def": "En nukleofil erstatter en gruppe på et δ+-karbon."
+    },
+    {
+      "term": "Kondensasjon",
+      "def": "To molekyler slås sammen, og vann spaltes av."
+    },
+    {
+      "term": "Esterdannelse",
+      "def": "Karboksylsyre + alkohol → ester + vann."
+    },
+    {
+      "term": "Hydrolyse",
+      "def": "Et molekyl spaltes ved hjelp av vann."
+    },
+    {
+      "term": "Såpekoking",
+      "def": "Basisk hydrolyse av fett."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en nukleofil?", "options": ["En elektronfattig partikkel", "En elektronrik partikkel som angriper elektronfattige atomer", "En katalysator", "Et produkt"], "correct": 1, "explain": "For eksempel OH⁻." },
-    { "id": "q02", "text": "Hva skjer i en addisjonsreaksjon?", "options": ["En dobbeltbinding brytes og atomer legges til", "Vann spaltes av", "En gruppe byttes ut", "En dobbeltbinding dannes"], "correct": 0, "explain": "Typisk for alkener." },
-    { "id": "q03", "text": "Hvilken test viser at et stoff har dobbeltbinding?", "options": ["Lakmustest", "Flammetest", "Bromvann avfarges", "Kalkvann blir grumsete"], "correct": 2, "explain": "Brom adderes til dobbeltbindingen." },
-    { "id": "q04", "text": "CH₃Br + OH⁻ → CH₃OH + Br⁻. Hvilken reaksjonstype er dette?", "options": ["Addisjon", "Eliminasjon", "Kondensasjon", "Substitusjon"], "correct": 3, "explain": "Nukleofil substitusjon." },
-    { "id": "q05", "text": "Hva er kondensasjon?", "options": ["To molekyler slås sammen og vann spaltes av", "Et molekyl spaltes med vann", "En dobbeltbinding brytes", "En gruppe byttes ut"], "correct": 0, "explain": "For eksempel esterdannelse." },
-    { "id": "q06", "text": "Hva dannes når etanol varmes med konsentrert syre?", "options": ["Etansyre", "Eten, ved eliminasjon av vann", "Etylacetat", "Metan"], "correct": 1, "explain": "Eliminasjon." },
-    { "id": "q07", "text": "Hvorfor angriper OH⁻ karbonatomet i CH₃Br?", "options": ["Fordi karbon er negativt ladd", "Fordi brom er positivt", "Fordi karbonatomet har delvis positiv ladning", "Fordi OH⁻ er elektronfattig"], "correct": 2, "explain": "Brom er mer elektronegativt." },
-    { "id": "q08", "text": "Hva er hydrolyse?", "options": ["Dannelse av vann", "Oppvarming", "Addisjon av hydrogen", "Spalting av et molekyl ved hjelp av vann"], "correct": 3, "explain": "Det motsatte av kondensasjon." },
-    { "id": "q09", "text": "Hva dannes ved reaksjon mellom en karboksylsyre og en alkohol?", "options": ["En ester og vann", "En aldehyd", "En alken", "Et salt"], "correct": 0, "explain": "En kondensasjonsreaksjon." },
-    { "id": "q10", "text": "Hva er et karbokation?", "options": ["Et negativt karbonatom", "Et positivt ladd karbonatom", "Et nøytralt molekyl", "En katalysator"], "correct": 1, "explain": "Mellomprodukt i addisjon av HBr." }
+    {
+      "id": "q01",
+      "text": "Hva er en nukleofil?",
+      "options": [
+        "En elektronfattig partikkel",
+        "En elektronrik partikkel som angriper elektronfattige atomer",
+        "En katalysator",
+        "Et produkt"
+      ],
+      "correct": 1,
+      "explain": "For eksempel OH⁻."
+    },
+    {
+      "id": "q02",
+      "text": "Hva skjer i en addisjonsreaksjon?",
+      "options": [
+        "En dobbeltbinding brytes og atomer legges til",
+        "Vann spaltes av",
+        "En gruppe byttes ut",
+        "En dobbeltbinding dannes"
+      ],
+      "correct": 0,
+      "explain": "Typisk for alkener."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken test viser at et stoff har dobbeltbinding?",
+      "options": [
+        "Lakmustest",
+        "Flammetest",
+        "Bromvann avfarges",
+        "Kalkvann blir grumsete"
+      ],
+      "correct": 2,
+      "explain": "Brom adderes til dobbeltbindingen."
+    },
+    {
+      "id": "q04",
+      "text": "CH₃Br + OH⁻ → CH₃OH + Br⁻. Hvilken reaksjonstype er dette?",
+      "options": [
+        "Addisjon",
+        "Eliminasjon",
+        "Kondensasjon",
+        "Substitusjon"
+      ],
+      "correct": 3,
+      "explain": "Nukleofil substitusjon."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er kondensasjon?",
+      "options": [
+        "To molekyler slås sammen og vann spaltes av",
+        "Et molekyl spaltes med vann",
+        "En dobbeltbinding brytes",
+        "En gruppe byttes ut"
+      ],
+      "correct": 0,
+      "explain": "For eksempel esterdannelse."
+    },
+    {
+      "id": "q06",
+      "text": "Hva dannes når etanol varmes med konsentrert syre?",
+      "options": [
+        "Etansyre",
+        "Eten, ved eliminasjon av vann",
+        "Etylacetat",
+        "Metan"
+      ],
+      "correct": 1,
+      "explain": "Eliminasjon."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor angriper OH⁻ karbonatomet i CH₃Br?",
+      "options": [
+        "Fordi karbon er negativt ladd",
+        "Fordi brom er positivt",
+        "Fordi karbonatomet har delvis positiv ladning",
+        "Fordi OH⁻ er elektronfattig"
+      ],
+      "correct": 2,
+      "explain": "Brom er mer elektronegativt."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er hydrolyse?",
+      "options": [
+        "Dannelse av vann",
+        "Oppvarming",
+        "Addisjon av hydrogen",
+        "Spalting av et molekyl ved hjelp av vann"
+      ],
+      "correct": 3,
+      "explain": "Det motsatte av kondensasjon."
+    },
+    {
+      "id": "q09",
+      "text": "Hva dannes ved reaksjon mellom en karboksylsyre og en alkohol?",
+      "options": [
+        "En ester og vann",
+        "En aldehyd",
+        "En alken",
+        "Et salt"
+      ],
+      "correct": 0,
+      "explain": "En kondensasjonsreaksjon."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et karbokation?",
+      "options": [
+        "Et negativt karbonatom",
+        "Et positivt ladd karbonatom",
+        "Et nøytralt molekyl",
+        "En katalysator"
+      ],
+      "correct": 1,
+      "explain": "Mellomprodukt i addisjon av HBr."
+    }
   ],
   "mindmap": {
     "label": "Organiske reaksjonstyper",
     "children": [
-      { "label": "Mekanismer", "children": [
-        { "label": "Polare bindinger" },
-        { "label": "Nukleofil og elektrofil" },
-        { "label": "Buede piler" }
-      ] },
-      { "label": "Addisjon og eliminasjon", "children": [
-        { "label": "Alken + Br₂" },
-        { "label": "Karbokation" },
-        { "label": "Alkohol → alken" }
-      ] },
-      { "label": "Substitusjon", "children": [
-        { "label": "Halogenalkan + OH⁻" },
-        { "label": "Nukleofil substitusjon" }
-      ] },
-      { "label": "Kondensasjon", "children": [
-        { "label": "Ester" },
-        { "label": "Peptidbinding" },
-        { "label": "Polymerer" }
-      ] },
-      { "label": "Hydrolyse", "children": [
-        { "label": "Ester spaltes" },
-        { "label": "Fordøyelse" },
-        { "label": "Såpekoking" }
-      ] }
+      {
+        "label": "Mekanismer",
+        "children": [
+          {
+            "label": "Polare bindinger"
+          },
+          {
+            "label": "Nukleofil og elektrofil"
+          },
+          {
+            "label": "Buede piler"
+          }
+        ]
+      },
+      {
+        "label": "Addisjon og eliminasjon",
+        "children": [
+          {
+            "label": "Alken + Br₂"
+          },
+          {
+            "label": "Karbokation"
+          },
+          {
+            "label": "Alkohol → alken"
+          }
+        ]
+      },
+      {
+        "label": "Substitusjon",
+        "children": [
+          {
+            "label": "Halogenalkan + OH⁻"
+          },
+          {
+            "label": "Nukleofil substitusjon"
+          }
+        ]
+      },
+      {
+        "label": "Kondensasjon",
+        "children": [
+          {
+            "label": "Ester"
+          },
+          {
+            "label": "Peptidbinding"
+          },
+          {
+            "label": "Polymerer"
+          }
+        ]
+      },
+      {
+        "label": "Hydrolyse",
+        "children": [
+          {
+            "label": "Ester spaltes"
+          },
+          {
+            "label": "Fordøyelse"
+          },
+          {
+            "label": "Såpekoking"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Eliminasjon er det motsatte av addisjon.", "correct": true, "explain": "Det dannes en dobbeltbinding." },
-      { "id": "m02", "type": "sant-usant", "text": "En elektrofil er elektronrik.", "correct": false, "explain": "Den er elektronfattig." },
-      { "id": "m03", "type": "sant-usant", "text": "Nedbrytning av proteiner i fordøyelsen er hydrolyse.", "correct": true, "explain": "Katalysert av enzymer." },
-      { "id": "m04", "type": "sant-usant", "text": "Estere har ofte en ubehagelig lukt.", "correct": false, "explain": "Mange estere lukter frukt og blomster." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken reaksjonstype danner nylon og polyester?", "options": ["Addisjon", "Kondensasjon", "Eliminasjon", "Substitusjon"], "correct": 1, "explain": "Vann spaltes av ved hver binding." },
-      { "id": "m06", "type": "flervalg", "text": "Hva dannes når eten reagerer med vann med syre som katalysator?", "options": ["Etanol", "Etan", "Etansyre", "Dietyleter"], "correct": 0, "explain": "Addisjon av vann." },
-      { "id": "m07", "type": "flervalg", "text": "Hva viser buede piler i en reaksjonsmekanisme?", "options": ["Atomenes størrelse", "Temperatur", "Hvordan elektronpar flytter seg", "Reaksjonsfarten"], "correct": 2, "explain": "Fra nukleofil til elektrofil." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Eliminasjon er det motsatte av addisjon.",
+        "correct": true,
+        "explain": "Det dannes en dobbeltbinding."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En elektrofil er elektronrik.",
+        "correct": false,
+        "explain": "Den er elektronfattig."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Nedbrytning av proteiner i fordøyelsen er hydrolyse.",
+        "correct": true,
+        "explain": "Katalysert av enzymer."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Estere har ofte en ubehagelig lukt.",
+        "correct": false,
+        "explain": "Mange estere lukter frukt og blomster."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken reaksjonstype danner nylon og polyester?",
+        "options": [
+          "Addisjon",
+          "Kondensasjon",
+          "Eliminasjon",
+          "Substitusjon"
+        ],
+        "correct": 1,
+        "explain": "Vann spaltes av ved hver binding."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva dannes når eten reagerer med vann med syre som katalysator?",
+        "options": [
+          "Etanol",
+          "Etan",
+          "Etansyre",
+          "Dietyleter"
+        ],
+        "correct": 0,
+        "explain": "Addisjon av vann."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva viser buede piler i en reaksjonsmekanisme?",
+        "options": [
+          "Atomenes størrelse",
+          "Temperatur",
+          "Hvordan elektronpar flytter seg",
+          "Reaksjonsfarten"
+        ],
+        "correct": 2,
+        "explain": "Fra nukleofil til elektrofil."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I en polar C–Br-binding trekkes elektronene mot brom. Forklar hvilken ladning karbonatomet får, og hvorfor det gjør karbonet til et sted en nukleofil kan angripe.",
+        "fasit": "Karbonet får en delvis positiv ladning, δ+, fordi brom trekker elektronene mot seg. Den elektronrike nukleofilen tiltrekkes av det elektronfattige karbonet.",
+        "kriterier": [
+          "Forklarer at karbonet blir delvis positivt (δ+).",
+          "Knytter angrepet til at nukleofilen er elektronrik og karbonet elektronfattig."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign addisjon og eliminasjon ved å forklare hva som skjer med dobbeltbindingen, og hva som skjer med atomer eller små molekyler.",
+        "fasit": "Ved addisjon brytes en dobbeltbinding, og atomer eller grupper legges til. Ved eliminasjon fjernes et lite molekyl, og en dobbeltbinding dannes.",
+        "kriterier": [
+          "Beskriver at dobbeltbindingen brytes ved addisjon og dannes ved eliminasjon.",
+          "Får fram at atomer/grupper legges til ved addisjon, mens et lite molekyl fjernes ved eliminasjon."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Når et alken reagerer med HBr, angriper dobbeltbindingen først H⁺, og det dannes et karbokation. Forklar hva som skjer i neste trinn, og hvordan dette henger sammen med at karbokationet er positivt.",
+        "fasit": "Bromidionet angriper karbokationet og binder seg til karbonet. Bromidionet er elektronrikt, og tiltrekkes derfor av den positive ladningen.",
+        "kriterier": [
+          "Beskriver at bromidionet angriper og binder seg til karbokationet.",
+          "Forklarer angrepet med tiltrekning mellom bromidionet og den positive ladningen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Etanol varmes med konsentrert syre. Det dannes eten samtidig som vann fjernes. Forklar hvorfor denne reaksjonen er en eliminasjon.",
+        "fasit": "Et lite molekyl, vann, fjernes fra etanol. Samtidig dannes en dobbeltbinding, som kjennetegner eliminasjon.",
+        "kriterier": [
+          "Identifiserer fjerning av vann som et viktig trekk.",
+          "Knytter dannelsen av en dobbeltbinding til eliminasjon."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign kondensasjon og hydrolyse ved å forklare hvilken rolle vann har i hver reaksjon, og om molekyler slås sammen eller spaltes.",
+        "fasit": "I kondensasjon slås to molekyler sammen, og vann spaltes av. I hydrolyse brukes vann til å spalte et molekyl.",
+        "kriterier": [
+          "Forklarer at kondensasjon slår sammen molekyler og frigjør vann.",
+          "Forklarer at hydrolyse bruker vann til å spalte et molekyl."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Polyester og nylon kan dannes ved kondensasjon. Forklar hvordan kondensasjonsreaksjoner kan bidra til å bygge opp slike polymerer.",
+        "fasit": "I kondensasjonsreaksjoner slås molekyler sammen, og et lite molekyl, ofte vann, spaltes av. Gjentatte sammenkoblinger kan bygge opp en polymer.",
+        "kriterier": [
+          "Forklarer at molekyler kobles sammen i kondensasjon.",
+          "Får fram at små molekyler, ofte vann, spaltes av, og knytter sammenkoblingene til oppbygging av polymer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hver ester­dannelse gir ett vannmolekyl. Hvor mange vannmolekyler dannes når seks ester­dannelser skjer? Vis det viktigste regnestykket.",
+        "fasit": "Det dannes 6 vannmolekyler. Regnestykket er 6 × 1 = 6.",
+        "kriterier": [
+          "Viser at hver ester­dannelse gir ett vannmolekyl.",
+          "Oppgir riktig svar: 6 vannmolekyler."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Ifølge reaksjonsskjemaet gir hydrolyse av én ester ett molekyl karboksylsyre og ett molekyl alkohol. Hvor mange slike organiske produktmolekyler dannes totalt når fire estermolekyler hydrolyseres? Vis det viktigste regnestykket.",
+        "fasit": "Det dannes fire karboksylsyremolekyler og fire alkoholmolekyler, altså 8 organiske produktmolekyler totalt. Regnestykket er 4 × 2 = 8.",
+        "kriterier": [
+          "Bruker at hver ester gir to organiske produktmolekyler: én karboksylsyre og én alkohol.",
+          "Oppgir riktig total: 8 organiske produktmolekyler."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

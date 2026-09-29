@@ -347,6 +347,80 @@
         "correct": 0,
         "explain": "Canadian Confederation took place in 1867."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "A student says that the British monarch governs Australia, New Zealand and Canada because the monarch is their formal head of state. Explain what the student has misunderstood.",
+        "fasit": "The monarch is the formal head of state, but does not govern these countries in practice. They are governed by their own elected parliaments and prime ministers.",
+        "kriterier": [
+          "Distinguishes the monarch’s formal role from who governs in practice.",
+          "Identifies elected parliaments and prime ministers as the ones who govern."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Most people in Australia live along the coast, while much of the interior is dry and sparsely populated. Explain how these two facts are connected.",
+        "fasit": "Much of Australia’s interior, called the outback, is dry and has few people living there. This helps explain why most Australians live along the coast.",
+        "kriterier": [
+          "Connects the dry, sparsely populated interior with where most people live.",
+          "Identifies the outback as Australia’s interior."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Australia was made up of separate British colonies. Explain what happened to these colonies in 1901 and what the new country was called.",
+        "fasit": "In 1901, the Australian colonies joined together. The new country was called the Commonwealth of Australia.",
+        "kriterier": [
+          "Explains that the colonies joined together.",
+          "Names the new country as the Commonwealth of Australia."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "The Treaty of Waitangi is seen as New Zealand’s founding document, but its interpretation has been disputed. Explain how both of these things can be true.",
+        "fasit": "The treaty was an agreement between the British Crown and Māori chiefs in 1840, which is why it is seen as a founding document. Its interpretation has been disputed, so people have not always agreed about what it means.",
+        "kriterier": [
+          "Explains the treaty’s importance as an agreement between the British Crown and Māori chiefs.",
+          "Notes that people have disagreed about how to interpret it."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "A visitor sees the haka at a national event and learns that te reo Māori is an official language. Explain what these examples show about Māori culture in New Zealand.",
+        "fasit": "They show that Māori culture is visible in New Zealand’s national life. The haka is a cultural example, and te reo Māori is an official language.",
+        "kriterier": [
+          "Explains that Māori culture is visible in national life.",
+          "Uses the haka or te reo Māori accurately as an example."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Canada describes itself as a cultural mosaic. Explain what this means about the different cultures in the country.",
+        "fasit": "It means that different cultures live side by side in Canada. The image presents Canada as a country made up of many cultures.",
+        "kriterier": [
+          "Explains that different cultures live side by side.",
+          "Connects the idea to Canada’s cultural diversity."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A student says that Canada has thirteen provinces and became self-governing in 1867. Correct the student’s statement.",
+        "fasit": "Canada has ten provinces and three territories, not thirteen provinces. It became a self-governing country in 1867.",
+        "kriterier": [
+          "Correctly states that Canada has ten provinces and three territories.",
+          "Keeps the statement that Canada became self-governing in 1867."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Colonisation in Australia led to loss of land and the tragedy of the Stolen Generations for Aboriginal and Torres Strait Islander peoples. Explain how this history connects to reconciliation today.",
+        "fasit": "The loss of land and the Stolen Generations were injustices experienced by Aboriginal and Torres Strait Islander peoples. Reconciliation includes recognising Indigenous rights and languages.",
+        "kriterier": [
+          "Connects colonisation with loss of land or the Stolen Generations.",
+          "Links reconciliation with recognition of Indigenous rights or languages."
+        ]
+      }
     ]
   },
   "kvalitet": {

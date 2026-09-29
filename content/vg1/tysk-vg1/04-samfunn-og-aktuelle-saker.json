@@ -4,78 +4,426 @@
   "trinnId": "vg1",
   "name": "Samfunn i Tyskland, Østerrike og Sveits",
   "intro": "Hvordan de tysktalende landene er styrt, mangfold og innvandring, energi og miljø som aktuelle saker – og hvordan du uttrykker og begrunner meninger på tysk med relativsetninger og argumentasjonsuttrykk.",
-  "kompetansemaal": [4, 5, 8],
+  "kompetansemaal": [
+    4,
+    5,
+    8
+  ],
   "sammendrag": "## De tysktalende landene\n\nTysk er offisielt språk i blant annet **Tyskland**, **Østerrike**, **Sveits**, **Liechtenstein** og **Luxembourg**, og det er morsmål for rundt 100 millioner mennesker. Landene omtales ofte som **D-A-CH** (Deutschland, Austria, Confoederatio Helvetica).\n\n- **Tyskland** (*die Bundesrepublik Deutschland*) er en **forbundsrepublikk** med **16 delstater**. Nasjonalforsamlingen heter **der Bundestag**, og regjeringssjefen er **der Bundeskanzler** eller **die Bundeskanzlerin**. Hovedstaden er **Berlin**.\n- **Østerrike** har **9 delstater**, og hovedstaden er **Wien**.\n- **Sveits** har **26 kantoner** og **fire nasjonalspråk**: tysk, fransk, italiensk og retoromansk. Sveits er kjent for **direkte demokrati** – innbyggerne stemmer ofte over saker i **folkeavstemninger**. Sveits er ikke medlem av EU.\n\n## Mangfold og innvandring\n\nEtter andre verdenskrig kom mange **gjestearbeidere** (*Gastarbeiter*) fra blant annet Tyrkia, Italia og Hellas til Vest-Tyskland. I dag har en stor del av befolkningen **innvandrerbakgrunn** (*Migrationshintergrund*). Særlig i 2015 kom svært mange **flyktninger**, blant annet fra Syria. Integrering, språk og arbeid er viktige debatter.\n\n## Energi og miljø\n\n**Die Energiewende** er Tysklands omlegging fra kjernekraft og kull til **fornybar energi**. De siste kjernekraftverkene ble stengt i **2023**. **Mülltrennung** – kildesortering – og **pant** (*Pfand*) på flasker er en viktig del av hverdagen.\n\n## Å uttrykke meninger\n\n- *Meiner Meinung nach **ist** das wichtig.* (Legg merke til inversjonen!)\n- *Ich finde / glaube / denke, dass das eine gute Idee **ist**.*\n- *Einerseits …, andererseits …* – På den ene siden …, på den andre siden …\n- *Zwar …, aber …* – Riktignok …, men …\n- *Ich bin dafür / dagegen, weil …* – Jeg er for / mot fordi …\n- *Im Gegensatz dazu …* – I motsetning til dette …\n\n## Relativsetninger\n\n**Relativsetninger** gir mer informasjon om et substantiv. Relativpronomenet har samme **kjønn og tall** som ordet det viser til, og **verbet står sist**:\n\n- *der Mann, **der** in Berlin **wohnt*** (hankjønn)\n- *die Stadt, **die** ich besucht **habe*** (hunkjønn)\n- *das Land, **das** vier Sprachen **hat*** (intetkjønn)\n- *die Leute, **die** hier **arbeiten*** (flertall)\n\n## Lese autentiske tekster\n\nNår du leser tyske nyhetsartikler, kan du\n\n- se på **overskrift**, **bilder** og **ingress** først\n- lete etter **ord du kjenner** fra norsk og engelsk\n- **gjette** betydningen ut fra sammenhengen\n- bruke **ordbok** eller oversettelsesverktøy bare der det trengs",
   "flashcards": [
-    { "term": "die Bundesrepublik Deutschland", "def": "Forbundsrepublikken Tyskland" },
-    { "term": "das Bundesland", "def": "delstaten – Tyskland har 16" },
-    { "term": "der Bundestag", "def": "den tyske nasjonalforsamlingen" },
-    { "term": "der Bundeskanzler / die Bundeskanzlerin", "def": "den tyske regjeringssjefen" },
-    { "term": "die Schweiz", "def": "Sveits – 26 kantoner, fire nasjonalspråk" },
-    { "term": "die Volksabstimmung", "def": "folkeavstemningen" },
-    { "term": "der Gastarbeiter", "def": "gjestearbeideren" },
-    { "term": "der Migrationshintergrund", "def": "innvandrerbakgrunn" },
-    { "term": "die Energiewende", "def": "energiomleggingen til fornybar energi" },
-    { "term": "die Mülltrennung", "def": "kildesorteringen" },
-    { "term": "Meiner Meinung nach …", "def": "Etter min mening … (+ inversjon)" },
-    { "term": "einerseits … andererseits", "def": "på den ene siden … på den andre siden" },
-    { "term": "Ich bin dafür.", "def": "Jeg er for." },
-    { "term": "der Mann, der …", "def": "mannen som … (relativsetning)" },
-    { "term": "die Stadt, die …", "def": "byen som … (relativsetning)" }
+    {
+      "term": "die Bundesrepublik Deutschland",
+      "def": "Forbundsrepublikken Tyskland"
+    },
+    {
+      "term": "das Bundesland",
+      "def": "delstaten – Tyskland har 16"
+    },
+    {
+      "term": "der Bundestag",
+      "def": "den tyske nasjonalforsamlingen"
+    },
+    {
+      "term": "der Bundeskanzler / die Bundeskanzlerin",
+      "def": "den tyske regjeringssjefen"
+    },
+    {
+      "term": "die Schweiz",
+      "def": "Sveits – 26 kantoner, fire nasjonalspråk"
+    },
+    {
+      "term": "die Volksabstimmung",
+      "def": "folkeavstemningen"
+    },
+    {
+      "term": "der Gastarbeiter",
+      "def": "gjestearbeideren"
+    },
+    {
+      "term": "der Migrationshintergrund",
+      "def": "innvandrerbakgrunn"
+    },
+    {
+      "term": "die Energiewende",
+      "def": "energiomleggingen til fornybar energi"
+    },
+    {
+      "term": "die Mülltrennung",
+      "def": "kildesorteringen"
+    },
+    {
+      "term": "Meiner Meinung nach …",
+      "def": "Etter min mening … (+ inversjon)"
+    },
+    {
+      "term": "einerseits … andererseits",
+      "def": "på den ene siden … på den andre siden"
+    },
+    {
+      "term": "Ich bin dafür.",
+      "def": "Jeg er for."
+    },
+    {
+      "term": "der Mann, der …",
+      "def": "mannen som … (relativsetning)"
+    },
+    {
+      "term": "die Stadt, die …",
+      "def": "byen som … (relativsetning)"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvor mange delstater har Tyskland?", "options": ["9", "16", "26", "50"], "correct": 1, "explain": "Østerrike har 9 og Sveits 26 kantoner." },
-    { "id": "q02", "text": "Hvilket land er kjent for direkte demokrati med mange folkeavstemninger?", "options": ["Sveits", "Tyskland", "Østerrike", "Liechtenstein"], "correct": 0, "explain": "Innbyggerne stemmer ofte over enkeltsaker." },
-    { "id": "q03", "text": "Hva er «die Energiewende»?", "options": ["En fotballklubb", "En type strømregning", "Tysklands omlegging til fornybar energi", "En tysk bilprodusent"], "correct": 2, "explain": "De siste kjernekraftverkene ble stengt i 2023." },
-    { "id": "q04", "text": "Velg riktig ordstilling:", "options": ["Meiner Meinung nach das ist wichtig.", "Meiner Meinung nach wichtig ist das.", "Meiner Meinung nach das wichtig ist.", "Meiner Meinung nach ist das wichtig."], "correct": 3, "explain": "Verbet står på andre plass." },
-    { "id": "q05", "text": "Velg riktig relativpronomen: «Das ist das Land, ___ vier Sprachen hat.»", "options": ["das", "der", "die", "den"], "correct": 0, "explain": "das Land er intetkjønn." },
-    { "id": "q06", "text": "Hva heter den tyske nasjonalforsamlingen?", "options": ["der Reichstag", "der Bundestag", "das Parlament", "der Landtag"], "correct": 1, "explain": "Bundestag holder til i Reichstag-bygningen i Berlin." },
-    { "id": "q07", "text": "Hva var gjestearbeidere (Gastarbeiter)?", "options": ["Turister", "Studenter", "Arbeidsinnvandrere som kom til Vest-Tyskland etter krigen", "Diplomater"], "correct": 2, "explain": "Mange kom fra Tyrkia, Italia og Hellas." },
-    { "id": "q08", "text": "Hvor står verbet i en tysk relativsetning?", "options": ["Først", "På andre plass", "Etter subjektet", "Sist"], "correct": 3, "explain": "die Stadt, die ich besucht habe." },
-    { "id": "q09", "text": "Hva betyr «einerseits … andererseits»?", "options": ["på den ene siden … på den andre siden", "først … så", "ikke bare … men også", "enten … eller"], "correct": 0, "explain": "Nyttig for å drøfte fordeler og ulemper." },
-    { "id": "q10", "text": "Hvilke fire nasjonalspråk har Sveits?", "options": ["Tysk, engelsk, fransk og spansk", "Tysk, fransk, italiensk og retoromansk", "Tysk, nederlandsk, fransk og italiensk", "Bare tysk"], "correct": 1, "explain": "Tysk er det mest brukte." }
+    {
+      "id": "q01",
+      "text": "Hvor mange delstater har Tyskland?",
+      "options": [
+        "9",
+        "16",
+        "26",
+        "50"
+      ],
+      "correct": 1,
+      "explain": "Østerrike har 9 og Sveits 26 kantoner."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket land er kjent for direkte demokrati med mange folkeavstemninger?",
+      "options": [
+        "Sveits",
+        "Tyskland",
+        "Østerrike",
+        "Liechtenstein"
+      ],
+      "correct": 0,
+      "explain": "Innbyggerne stemmer ofte over enkeltsaker."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er «die Energiewende»?",
+      "options": [
+        "En fotballklubb",
+        "En type strømregning",
+        "Tysklands omlegging til fornybar energi",
+        "En tysk bilprodusent"
+      ],
+      "correct": 2,
+      "explain": "De siste kjernekraftverkene ble stengt i 2023."
+    },
+    {
+      "id": "q04",
+      "text": "Velg riktig ordstilling:",
+      "options": [
+        "Meiner Meinung nach das ist wichtig.",
+        "Meiner Meinung nach wichtig ist das.",
+        "Meiner Meinung nach das wichtig ist.",
+        "Meiner Meinung nach ist das wichtig."
+      ],
+      "correct": 3,
+      "explain": "Verbet står på andre plass."
+    },
+    {
+      "id": "q05",
+      "text": "Velg riktig relativpronomen: «Das ist das Land, ___ vier Sprachen hat.»",
+      "options": [
+        "das",
+        "der",
+        "die",
+        "den"
+      ],
+      "correct": 0,
+      "explain": "das Land er intetkjønn."
+    },
+    {
+      "id": "q06",
+      "text": "Hva heter den tyske nasjonalforsamlingen?",
+      "options": [
+        "der Reichstag",
+        "der Bundestag",
+        "das Parlament",
+        "der Landtag"
+      ],
+      "correct": 1,
+      "explain": "Bundestag holder til i Reichstag-bygningen i Berlin."
+    },
+    {
+      "id": "q07",
+      "text": "Hva var gjestearbeidere (Gastarbeiter)?",
+      "options": [
+        "Turister",
+        "Studenter",
+        "Arbeidsinnvandrere som kom til Vest-Tyskland etter krigen",
+        "Diplomater"
+      ],
+      "correct": 2,
+      "explain": "Mange kom fra Tyrkia, Italia og Hellas."
+    },
+    {
+      "id": "q08",
+      "text": "Hvor står verbet i en tysk relativsetning?",
+      "options": [
+        "Først",
+        "På andre plass",
+        "Etter subjektet",
+        "Sist"
+      ],
+      "correct": 3,
+      "explain": "die Stadt, die ich besucht habe."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «einerseits … andererseits»?",
+      "options": [
+        "på den ene siden … på den andre siden",
+        "først … så",
+        "ikke bare … men også",
+        "enten … eller"
+      ],
+      "correct": 0,
+      "explain": "Nyttig for å drøfte fordeler og ulemper."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilke fire nasjonalspråk har Sveits?",
+      "options": [
+        "Tysk, engelsk, fransk og spansk",
+        "Tysk, fransk, italiensk og retoromansk",
+        "Tysk, nederlandsk, fransk og italiensk",
+        "Bare tysk"
+      ],
+      "correct": 1,
+      "explain": "Tysk er det mest brukte."
+    }
   ],
   "mindmap": {
     "label": "Samfunn i D-A-CH",
     "children": [
-      { "label": "Land", "children": [
-        { "label": "Tyskland: 16 delstater" },
-        { "label": "Østerrike: 9 delstater" },
-        { "label": "Sveits: 26 kantoner" }
-      ] },
-      { "label": "Politikk", "children": [
-        { "label": "Bundestag" },
-        { "label": "Bundeskanzler" },
-        { "label": "Direkte demokrati" }
-      ] },
-      { "label": "Aktuelle saker", "children": [
-        { "label": "Innvandring" },
-        { "label": "Energiewende" },
-        { "label": "Mülltrennung" }
-      ] },
-      { "label": "Meninger", "children": [
-        { "label": "Meiner Meinung nach" },
-        { "label": "einerseits … andererseits" },
-        { "label": "dafür / dagegen" }
-      ] },
-      { "label": "Relativsetninger", "children": [
-        { "label": "der, die, das" },
-        { "label": "Verbet sist" }
-      ] }
+      {
+        "label": "Land",
+        "children": [
+          {
+            "label": "Tyskland: 16 delstater"
+          },
+          {
+            "label": "Østerrike: 9 delstater"
+          },
+          {
+            "label": "Sveits: 26 kantoner"
+          }
+        ]
+      },
+      {
+        "label": "Politikk",
+        "children": [
+          {
+            "label": "Bundestag"
+          },
+          {
+            "label": "Bundeskanzler"
+          },
+          {
+            "label": "Direkte demokrati"
+          }
+        ]
+      },
+      {
+        "label": "Aktuelle saker",
+        "children": [
+          {
+            "label": "Innvandring"
+          },
+          {
+            "label": "Energiewende"
+          },
+          {
+            "label": "Mülltrennung"
+          }
+        ]
+      },
+      {
+        "label": "Meninger",
+        "children": [
+          {
+            "label": "Meiner Meinung nach"
+          },
+          {
+            "label": "einerseits … andererseits"
+          },
+          {
+            "label": "dafür / dagegen"
+          }
+        ]
+      },
+      {
+        "label": "Relativsetninger",
+        "children": [
+          {
+            "label": "der, die, das"
+          },
+          {
+            "label": "Verbet sist"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Wien er hovedstaden i Østerrike.", "correct": true, "explain": "Berlin er hovedstaden i Tyskland, og Bern i Sveits." },
-      { "id": "m02", "type": "sant-usant", "text": "Sveits er medlem av EU.", "correct": false, "explain": "Sveits er ikke medlem av EU." },
-      { "id": "m03", "type": "sant-usant", "text": "«Pfand» er pant på flasker.", "correct": true, "explain": "Pantesystemet er vanlig i Tyskland." },
-      { "id": "m04", "type": "sant-usant", "text": "Relativpronomenet for «die Leute» er «der».", "correct": false, "explain": "Flertall: die Leute, die …" },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Ich bin dagegen»?", "options": ["Jeg er for.", "Jeg er mot.", "Jeg er usikker.", "Jeg er enig."], "correct": 1, "explain": "dafür = for, dagegen = mot." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Migrationshintergrund»?", "options": ["innvandrerbakgrunn", "grenseområde", "flyktningleir", "statsborgerskap"], "correct": 0, "explain": "Brukes om personer som selv eller med foreldre har innvandret." },
-      { "id": "m07", "type": "flervalg", "text": "Velg riktig: «Der Mann, ___ neben mir wohnt, ist Lehrer.»", "options": ["die", "das", "der", "den"], "correct": 2, "explain": "der Mann er hankjønn og subjekt i relativsetningen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Wien er hovedstaden i Østerrike.",
+        "correct": true,
+        "explain": "Berlin er hovedstaden i Tyskland, og Bern i Sveits."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Sveits er medlem av EU.",
+        "correct": false,
+        "explain": "Sveits er ikke medlem av EU."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«Pfand» er pant på flasker.",
+        "correct": true,
+        "explain": "Pantesystemet er vanlig i Tyskland."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Relativpronomenet for «die Leute» er «der».",
+        "correct": false,
+        "explain": "Flertall: die Leute, die …"
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Ich bin dagegen»?",
+        "options": [
+          "Jeg er for.",
+          "Jeg er mot.",
+          "Jeg er usikker.",
+          "Jeg er enig."
+        ],
+        "correct": 1,
+        "explain": "dafür = for, dagegen = mot."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr «Migrationshintergrund»?",
+        "options": [
+          "innvandrerbakgrunn",
+          "grenseområde",
+          "flyktningleir",
+          "statsborgerskap"
+        ],
+        "correct": 0,
+        "explain": "Brukes om personer som selv eller med foreldre har innvandret."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Velg riktig: «Der Mann, ___ neben mir wohnt, ist Lehrer.»",
+        "options": [
+          "die",
+          "das",
+          "der",
+          "den"
+        ],
+        "correct": 2,
+        "explain": "der Mann er hankjønn og subjekt i relativsetningen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på der Bundestag og der Bundeskanzler / die Bundeskanzlerin i Tyskland.",
+        "fasit": "Der Bundestag ist die deutsche Nationalversammlung. Der Bundeskanzler oder die Bundeskanzlerin ist regierungschef.",
+        "kriterier": [
+          "Forklarer at Bundestag er nasjonalforsamlingen.",
+          "Forklarer at Bundeskanzler/Bundeskanzlerin er regjeringssjefen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign Østerrike og Sveits når det gjelder politiske delområder. Ta også med én opplysning som viser språklig mangfold i Sveits.",
+        "fasit": "Österreich hat neun Bundesländer. Die Schweiz hat 26 Kantone und vier Nationalsprachen.",
+        "kriterier": [
+          "Oppgir at Østerrike har 9 delstater, og at Sveits har 26 kantoner.",
+          "Oppgir at Sveits har fire nasjonalspråk."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Beskriv utviklingen fra gjestearbeidere til dagens debatter om innvandring i Tyskland. Ta med hvem som kom etter andre verdenskrig, og minst ett tema som diskuteres i dag.",
+        "fasit": "Nach dem Zweiten Weltkrieg kamen viele Gastarbeiter, zum Beispiel aus der Türkei, Italien und Griechenland, nach Westdeutschland. Heute sind Integration, Sprache und Arbeit wichtige Themen in den Debatten.",
+        "kriterier": [
+          "Knytter gjestearbeiderne etter andre verdenskrig til Vest-Tyskland og nevner et eksempel på hvor de kom fra.",
+          "Nevner minst ett av temaene integrering, språk eller arbeid i dagens debatter."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Innbyggerne i Sveits skal stemme over en politisk sak. Forklar hva en die Volksabstimmung er, og hvordan den passer med direkte demokrati.",
+        "fasit": "Eine Volksabstimmung ist eine Abstimmung der Bevölkerung über eine Sache. Sie passt zur direkten Demokratie, weil die Einwohnerinnen und Einwohner selbst über die Sache abstimmen.",
+        "kriterier": [
+          "Forklarer at innbyggerne stemmer over en sak.",
+          "Knytter avstemningen til direkte demokrati ved at innbyggerne selv tar del i avgjørelsen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En person sorterer avfall hjemme og har en flaske med pant. Forklar med begrepene die Mülltrennung og das Pfand hva de to tingene viser til.",
+        "fasit": "Die Mülltrennung bedeutet, dass man Abfälle sortiert. Pfand ist das Pfand auf Flaschen; beides ist ein wichtiger Teil des Alltags.",
+        "kriterier": [
+          "Forklarer at Mülltrennung er sortering av avfall.",
+          "Forklarer at Pfand er pant på flasker."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Du skal lese en tysk nyhetsartikkel, men kjenner ikke alle ordene. Beskriv en hensiktsmessig rekkefølge for hvordan du kan finne ut hva artikkelen handler om, og hvordan du kan håndtere ukjente ord.",
+        "fasit": "Zuerst sehe ich mir die Überschrift, die Bilder und den Vorspann an. Dann suche ich bekannte Wörter und rate die Bedeutung unbekannter Wörter aus dem Zusammenhang; ein Wörterbuch benutze ich nur, wenn es nötig ist.",
+        "kriterier": [
+          "Nevner at overskrift, bilder eller ingress kan brukes først for å få oversikt.",
+          "Nevner at kjente ord eller sammenhengen kan hjelpe med ukjente ord, og at ordbok/oversettelsesverktøy kan brukes ved behov."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Skolen vurderer å innføre kildesortering. Skriv på tysk at du er for, og begrunn det med at Mülltrennung er en viktig del av hverdagen.",
+        "fasit": "Ich bin dafür, weil Mülltrennung in Deutschland ein wichtiger Teil des Alltags ist.",
+        "kriterier": [
+          "Uttrykker støtte med «Ich bin dafür» eller en tydelig tilsvarende formulering.",
+          "Begrunner støtten med at Mülltrennung er en viktig del av hverdagen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skriv på tysk én setning med «Zwar …, aber …» om energiomleggingen i Tyskland. Få fram at de siste kjernekraftverkene ble stengt i 2023, og at omleggingen også går fra kull til fornybar energi.",
+        "fasit": "Zwar wurden die letzten Kernkraftwerke 2023 geschlossen, aber die Energiewende bedeutet auch den Wechsel von Kohle zu erneuerbarer Energie.",
+        "kriterier": [
+          "Får med at de siste kjernekraftverkene ble stengt i 2023.",
+          "Får med at Energiewende innebærer overgang fra kull til fornybar energi."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

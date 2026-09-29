@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Metode, perspektiv og erkjennelse",
   "intro": "Hvordan vi søker kunnskap gjennom valg av metoder, teorier, perspektiver og kilder – positivisme og hermeneutikk, teoriladede observasjoner, Kuhns paradigmer og feministiske og postkoloniale perspektiver – og hvordan valgene påvirker hva vi ser, leter etter og forstår.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Kunnskap er ikke bare å se\n\nVi tror ofte at kunnskap handler om å **observere** verden slik den er. Men det vi ser, avhenger av hvilke **spørsmål** vi stiller, hvilke **metoder** vi bruker, hvilke **teorier** vi har, og hvilket **perspektiv** vi har. Valgene fungerer som **briller** som gjør noe synlig og noe **usynlig**.\n\n## To vitenskapstradisjoner\n\n**Positivismen** mente at vitenskap skal bygge på **observerbare** fakta, **målinger** og **lover**, og at samfunnsvitenskapen bør arbeide som naturvitenskapen. Idealet er **objektivitet** – at forskeren skal være nøytral.\n\n**Hermeneutikken** er læren om **tolkning**. Den er særlig viktig i historie, litteratur og filosofi. Vi forstår en tekst eller en handling ut fra vår **forforståelse** – det vi vet og tror fra før. I **den hermeneutiske sirkelen** veksler vi mellom **delene** og **helheten**: Vi forstår delene ut fra helheten, og helheten ut fra delene. Forforståelsen endres underveis.\n\n## Teoriladede observasjoner\n\nFilosofer har pekt på at observasjoner er **teoriladede**: Det en erfaren lege ser på et røntgenbilde, er noe annet enn det en lekperson ser. **Forventninger** og **begreper** styrer hva vi legger merke til.\n\n## Kuhns paradigmer\n\n**Thomas Kuhn** skrev i **1962** at vitenskapen arbeider innenfor **paradigmer** – felles teorier, metoder og syn på hva som er viktige spørsmål. I **normalvitenskap** løser forskerne oppgaver innenfor paradigmet. Når det samler seg for mange **avvik**, kan det skje en **vitenskapelig revolusjon** og et **paradigmeskifte**, som da det **heliosentriske** verdensbildet erstattet det **geosentriske**.\n\n## Perspektiver\n\nNye perspektiver har gjort det synlig som tidligere ble **oversett**:\n\n- **Feministiske** perspektiver har vist at forskning lenge tok **menn** som norm, for eksempel i medisin, der sykdommer hos kvinner ble mindre undersøkt.\n- **Postkoloniale** perspektiver har vist at historien ofte ble fortalt fra **kolonimaktenes** ståsted, mens de **koloniserte** ble framstilt som passive.\n- **Nedenfra-perspektiver** i historie ser på **vanlige mennesker** i stedet for konger og statsmenn.\n\n## Kilder og metoder\n\n- **Kvantitative** metoder – statistikk og målinger – gir **oversikt** og kan avdekke **mønstre**, men sier mindre om **opplevelser** og **meninger**.\n- **Kvalitative** metoder – intervjuer, tekstanalyse og observasjon – gir **dybde**, men er vanskeligere å **generalisere** fra.\n- **Valg av kilder** påvirker hvilke **stemmer** som blir hørt. Arkivene inneholder ofte mest om dem som hadde **makt** og kunne **skrive**.\n\n## Er all kunnskap relativ?\n\nAt valg av perspektiv påvirker kunnskapen, betyr ikke at **alt** er like sant. Vi kan fortsatt skille mellom **godt** og **dårlig** begrunnede påstander. Det viktige er å være **bevisst** egne valg, være **åpen** om dem og **prøve** kunnskapen mot andres perspektiver og nye kilder.\n\n## Refleksjon\n\nSpør deg selv: Hvilke **briller** har jeg på? Hva kan jeg ha **oversett**? Hvem sin **stemme** mangler?",
   "flashcards": [
-    { "term": "Positivisme", "def": "Vitenskap bygd på observerbare fakta, målinger og lover." },
-    { "term": "Objektivitet", "def": "Idealet om at forskeren skal være nøytral." },
-    { "term": "Hermeneutikk", "def": "Læren om tolkning." },
-    { "term": "Forforståelse", "def": "Det vi vet og tror fra før, som preger tolkningen." },
-    { "term": "Den hermeneutiske sirkelen", "def": "Veksling mellom deler og helhet i tolkningen." },
-    { "term": "Teoriladet observasjon", "def": "At forventninger og begreper styrer hva vi ser." },
-    { "term": "Thomas Kuhn", "def": "Vitenskapsfilosof som skrev om paradigmer i 1962." },
-    { "term": "Paradigme", "def": "Felles teorier, metoder og syn på viktige spørsmål i et fag." },
-    { "term": "Normalvitenskap", "def": "Forskning innenfor et etablert paradigme." },
-    { "term": "Paradigmeskifte", "def": "Når et paradigme erstattes av et nytt." },
-    { "term": "Feministisk perspektiv", "def": "Viser hvordan menn har blitt tatt som norm." },
-    { "term": "Postkolonialt perspektiv", "def": "Viser hvordan historien ble fortalt fra kolonimaktenes ståsted." },
-    { "term": "Nedenfra-perspektiv", "def": "Historie om vanlige mennesker i stedet for makthavere." },
-    { "term": "Kvantitativ metode", "def": "Statistikk og målinger som gir oversikt og mønstre." },
-    { "term": "Kvalitativ metode", "def": "Intervjuer og tekstanalyse som gir dybde." }
+    {
+      "term": "Positivisme",
+      "def": "Vitenskap bygd på observerbare fakta, målinger og lover."
+    },
+    {
+      "term": "Objektivitet",
+      "def": "Idealet om at forskeren skal være nøytral."
+    },
+    {
+      "term": "Hermeneutikk",
+      "def": "Læren om tolkning."
+    },
+    {
+      "term": "Forforståelse",
+      "def": "Det vi vet og tror fra før, som preger tolkningen."
+    },
+    {
+      "term": "Den hermeneutiske sirkelen",
+      "def": "Veksling mellom deler og helhet i tolkningen."
+    },
+    {
+      "term": "Teoriladet observasjon",
+      "def": "At forventninger og begreper styrer hva vi ser."
+    },
+    {
+      "term": "Thomas Kuhn",
+      "def": "Vitenskapsfilosof som skrev om paradigmer i 1962."
+    },
+    {
+      "term": "Paradigme",
+      "def": "Felles teorier, metoder og syn på viktige spørsmål i et fag."
+    },
+    {
+      "term": "Normalvitenskap",
+      "def": "Forskning innenfor et etablert paradigme."
+    },
+    {
+      "term": "Paradigmeskifte",
+      "def": "Når et paradigme erstattes av et nytt."
+    },
+    {
+      "term": "Feministisk perspektiv",
+      "def": "Viser hvordan menn har blitt tatt som norm."
+    },
+    {
+      "term": "Postkolonialt perspektiv",
+      "def": "Viser hvordan historien ble fortalt fra kolonimaktenes ståsted."
+    },
+    {
+      "term": "Nedenfra-perspektiv",
+      "def": "Historie om vanlige mennesker i stedet for makthavere."
+    },
+    {
+      "term": "Kvantitativ metode",
+      "def": "Statistikk og målinger som gir oversikt og mønstre."
+    },
+    {
+      "term": "Kvalitativ metode",
+      "def": "Intervjuer og tekstanalyse som gir dybde."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er hermeneutikk?", "options": ["Læren om målinger", "Læren om tolkning", "Læren om tall", "Læren om naturlover"], "correct": 1, "explain": "Viktig i historie, litteratur og filosofi." },
-    { "id": "q02", "text": "Hva er forforståelse?", "options": ["Det vi vet og tror fra før, som preger tolkningen", "En konklusjon", "En måling", "En kilde"], "correct": 0, "explain": "Endres i den hermeneutiske sirkelen." },
-    { "id": "q03", "text": "Hva er et paradigme ifølge Kuhn?", "options": ["Et enkelt eksperiment", "En type kilde", "Felles teorier, metoder og syn på viktige spørsmål i et fag", "En konspirasjonsteori"], "correct": 2, "explain": "Skifter ved vitenskapelige revolusjoner." },
-    { "id": "q04", "text": "Hva betyr det at observasjoner er teoriladede?", "options": ["At de alltid er feil", "At de er nøytrale", "At de er matematiske", "At forventninger og begreper styrer hva vi ser"], "correct": 3, "explain": "Eksempel: legen og røntgenbildet." },
-    { "id": "q05", "text": "Hva er et eksempel på et paradigmeskifte?", "options": ["Overgangen fra geosentrisk til heliosentrisk verdensbilde", "En ny avis", "En ny lov", "Et valg"], "correct": 0, "explain": "En vitenskapelig revolusjon." },
-    { "id": "q06", "text": "Hva har feministiske perspektiver vist i medisinen?", "options": ["At kvinner er mest undersøkt", "At forskning lenge tok menn som norm", "At kjønn ikke har betydning", "At medisin er ferdig"], "correct": 1, "explain": "Sykdommer hos kvinner ble mindre undersøkt." },
-    { "id": "q07", "text": "Hvorfor inneholder arkivene ofte mest om de mektige?", "options": ["Fordi de var flest", "Fordi arkivene er nye", "Fordi de hadde makt og kunne skrive", "Fordi vanlige folk ikke fantes"], "correct": 2, "explain": "Valg av kilder påvirker hvilke stemmer som høres." },
-    { "id": "q08", "text": "Betyr påvirkningen fra perspektiv at all kunnskap er like sann?", "options": ["Ja", "Ja, alt er meninger", "Nei, fordi vi aldri kan vite noe", "Nei, vi kan fortsatt skille godt og dårlig begrunnede påstander"], "correct": 3, "explain": "Bevissthet om valg styrker kunnskapen." },
-    { "id": "q09", "text": "Hva er en styrke ved kvantitative metoder?", "options": ["De gir oversikt og kan avdekke mønstre", "De gir dyp forståelse av opplevelser", "De krever ingen tall", "De er alltid bedre"], "correct": 0, "explain": "Kvalitative metoder gir dybde." },
-    { "id": "q10", "text": "Hva gjør et postkolonialt perspektiv synlig?", "options": ["At kolonimaktene var passive", "At historien ofte ble fortalt fra kolonimaktenes ståsted", "At kolonier ikke fantes", "At alle kilder er like"], "correct": 1, "explain": "De koloniserte ble framstilt som passive." }
+    {
+      "id": "q01",
+      "text": "Hva er hermeneutikk?",
+      "options": [
+        "Læren om målinger",
+        "Læren om tolkning",
+        "Læren om tall",
+        "Læren om naturlover"
+      ],
+      "correct": 1,
+      "explain": "Viktig i historie, litteratur og filosofi."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er forforståelse?",
+      "options": [
+        "Det vi vet og tror fra før, som preger tolkningen",
+        "En konklusjon",
+        "En måling",
+        "En kilde"
+      ],
+      "correct": 0,
+      "explain": "Endres i den hermeneutiske sirkelen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er et paradigme ifølge Kuhn?",
+      "options": [
+        "Et enkelt eksperiment",
+        "En type kilde",
+        "Felles teorier, metoder og syn på viktige spørsmål i et fag",
+        "En konspirasjonsteori"
+      ],
+      "correct": 2,
+      "explain": "Skifter ved vitenskapelige revolusjoner."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr det at observasjoner er teoriladede?",
+      "options": [
+        "At de alltid er feil",
+        "At de er nøytrale",
+        "At de er matematiske",
+        "At forventninger og begreper styrer hva vi ser"
+      ],
+      "correct": 3,
+      "explain": "Eksempel: legen og røntgenbildet."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er et eksempel på et paradigmeskifte?",
+      "options": [
+        "Overgangen fra geosentrisk til heliosentrisk verdensbilde",
+        "En ny avis",
+        "En ny lov",
+        "Et valg"
+      ],
+      "correct": 0,
+      "explain": "En vitenskapelig revolusjon."
+    },
+    {
+      "id": "q06",
+      "text": "Hva har feministiske perspektiver vist i medisinen?",
+      "options": [
+        "At kvinner er mest undersøkt",
+        "At forskning lenge tok menn som norm",
+        "At kjønn ikke har betydning",
+        "At medisin er ferdig"
+      ],
+      "correct": 1,
+      "explain": "Sykdommer hos kvinner ble mindre undersøkt."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor inneholder arkivene ofte mest om de mektige?",
+      "options": [
+        "Fordi de var flest",
+        "Fordi arkivene er nye",
+        "Fordi de hadde makt og kunne skrive",
+        "Fordi vanlige folk ikke fantes"
+      ],
+      "correct": 2,
+      "explain": "Valg av kilder påvirker hvilke stemmer som høres."
+    },
+    {
+      "id": "q08",
+      "text": "Betyr påvirkningen fra perspektiv at all kunnskap er like sann?",
+      "options": [
+        "Ja",
+        "Ja, alt er meninger",
+        "Nei, fordi vi aldri kan vite noe",
+        "Nei, vi kan fortsatt skille godt og dårlig begrunnede påstander"
+      ],
+      "correct": 3,
+      "explain": "Bevissthet om valg styrker kunnskapen."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en styrke ved kvantitative metoder?",
+      "options": [
+        "De gir oversikt og kan avdekke mønstre",
+        "De gir dyp forståelse av opplevelser",
+        "De krever ingen tall",
+        "De er alltid bedre"
+      ],
+      "correct": 0,
+      "explain": "Kvalitative metoder gir dybde."
+    },
+    {
+      "id": "q10",
+      "text": "Hva gjør et postkolonialt perspektiv synlig?",
+      "options": [
+        "At kolonimaktene var passive",
+        "At historien ofte ble fortalt fra kolonimaktenes ståsted",
+        "At kolonier ikke fantes",
+        "At alle kilder er like"
+      ],
+      "correct": 1,
+      "explain": "De koloniserte ble framstilt som passive."
+    }
   ],
   "mindmap": {
     "label": "Metode, perspektiv og erkjennelse",
     "children": [
-      { "label": "Tradisjoner", "children": [
-        { "label": "Positivisme" },
-        { "label": "Hermeneutikk" },
-        { "label": "Hermeneutisk sirkel" }
-      ] },
-      { "label": "Observasjon", "children": [
-        { "label": "Teoriladet" },
-        { "label": "Forventninger" }
-      ] },
-      { "label": "Kuhn", "children": [
-        { "label": "Paradigme" },
-        { "label": "Normalvitenskap" },
-        { "label": "Paradigmeskifte" }
-      ] },
-      { "label": "Perspektiver", "children": [
-        { "label": "Feministisk" },
-        { "label": "Postkolonialt" },
-        { "label": "Nedenfra" }
-      ] },
-      { "label": "Metoder og kilder", "children": [
-        { "label": "Kvantitativ og kvalitativ" },
-        { "label": "Hvem sin stemme?" }
-      ] }
+      {
+        "label": "Tradisjoner",
+        "children": [
+          {
+            "label": "Positivisme"
+          },
+          {
+            "label": "Hermeneutikk"
+          },
+          {
+            "label": "Hermeneutisk sirkel"
+          }
+        ]
+      },
+      {
+        "label": "Observasjon",
+        "children": [
+          {
+            "label": "Teoriladet"
+          },
+          {
+            "label": "Forventninger"
+          }
+        ]
+      },
+      {
+        "label": "Kuhn",
+        "children": [
+          {
+            "label": "Paradigme"
+          },
+          {
+            "label": "Normalvitenskap"
+          },
+          {
+            "label": "Paradigmeskifte"
+          }
+        ]
+      },
+      {
+        "label": "Perspektiver",
+        "children": [
+          {
+            "label": "Feministisk"
+          },
+          {
+            "label": "Postkolonialt"
+          },
+          {
+            "label": "Nedenfra"
+          }
+        ]
+      },
+      {
+        "label": "Metoder og kilder",
+        "children": [
+          {
+            "label": "Kvantitativ og kvalitativ"
+          },
+          {
+            "label": "Hvem sin stemme?"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Valg av metode kan gjøre noe synlig og noe usynlig.", "correct": true, "explain": "Metoder fungerer som briller." },
-      { "id": "m02", "type": "sant-usant", "text": "Positivismen la vekt på tolkning av mening.", "correct": false, "explain": "Den la vekt på observerbare fakta og målinger." },
-      { "id": "m03", "type": "sant-usant", "text": "Nedenfra-perspektiver i historie ser på vanlige menneskers liv.", "correct": true, "explain": "I stedet for bare konger og statsmenn." },
-      { "id": "m04", "type": "sant-usant", "text": "Kvalitative metoder er lettest å generalisere fra.", "correct": false, "explain": "De gir dybde, men er vanskeligere å generalisere fra." },
-      { "id": "m05", "type": "flervalg", "text": "Når skrev Kuhn om paradigmer?", "options": ["1859", "1962", "1789", "2001"], "correct": 1, "explain": "Om vitenskapelige revolusjoner." },
-      { "id": "m06", "type": "flervalg", "text": "Hva skjer i den hermeneutiske sirkelen?", "options": ["Vi veksler mellom deler og helhet", "Vi måler og veier", "Vi falsifiserer teorier", "Vi teller kilder"], "correct": 0, "explain": "Forforståelsen endres underveis." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål hjelper deg å bli bevisst egne valg?", "options": ["Hvor mange sider har kilden?", "Hvem har skrevet minst?", "Hvem sin stemme mangler?", "Hvilken farge har boka?"], "correct": 2, "explain": "Refleksjon over perspektiv." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Valg av metode kan gjøre noe synlig og noe usynlig.",
+        "correct": true,
+        "explain": "Metoder fungerer som briller."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Positivismen la vekt på tolkning av mening.",
+        "correct": false,
+        "explain": "Den la vekt på observerbare fakta og målinger."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Nedenfra-perspektiver i historie ser på vanlige menneskers liv.",
+        "correct": true,
+        "explain": "I stedet for bare konger og statsmenn."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kvalitative metoder er lettest å generalisere fra.",
+        "correct": false,
+        "explain": "De gir dybde, men er vanskeligere å generalisere fra."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Når skrev Kuhn om paradigmer?",
+        "options": [
+          "1859",
+          "1962",
+          "1789",
+          "2001"
+        ],
+        "correct": 1,
+        "explain": "Om vitenskapelige revolusjoner."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva skjer i den hermeneutiske sirkelen?",
+        "options": [
+          "Vi veksler mellom deler og helhet",
+          "Vi måler og veier",
+          "Vi falsifiserer teorier",
+          "Vi teller kilder"
+        ],
+        "correct": 0,
+        "explain": "Forforståelsen endres underveis."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket spørsmål hjelper deg å bli bevisst egne valg?",
+        "options": [
+          "Hvor mange sider har kilden?",
+          "Hvem har skrevet minst?",
+          "Hvem sin stemme mangler?",
+          "Hvilken farge har boka?"
+        ],
+        "correct": 2,
+        "explain": "Refleksjon over perspektiv."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign positivismen og hermeneutikken: Hva legger hver tradisjon mest vekt på når kunnskap utvikles?",
+        "fasit": "Positivismen legger vekt på observerbare fakta, målinger og lover. Hermeneutikken legger vekt på å tolke tekster og handlinger ut fra sammenhenger og forforståelse.",
+        "kriterier": [
+          "Forklarer at positivismen vektlegger observerbare fakta eller målinger.",
+          "Forklarer at hermeneutikken vektlegger tolkning av mening eller sammenheng."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En historiker tolker først enkelte setninger i en dagbok og danner seg så et inntrykk av dagboken som helhet. Når helheten endrer forståelsen av setningene, leser historikeren dem på nytt. Forklar hvordan dette viser den hermeneutiske sirkelen.",
+        "fasit": "Den hermeneutiske sirkelen innebærer at delene forstås ut fra helheten, mens helheten forstås ut fra delene. Derfor kan historikerens forståelse av setningene og dagboken som helhet endres mens hun tolker.",
+        "kriterier": [
+          "Får fram vekslingen mellom forståelse av deler og helhet.",
+          "Forklarer at forståelsen kan endres gjennom denne vekslingen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Du skal undersøke både hvor utbredt en mening er, og hvordan mennesker opplever den. Sammenlign kvantitative og kvalitative metoder, og forklar hvilken type spørsmål hver metode passer best til.",
+        "fasit": "Kvantitative metoder, som statistikk og målinger, kan gi oversikt over hvor utbredt en mening er og vise mønstre. Kvalitative metoder, som intervjuer, kan gi dybde i hvordan mennesker opplever meningen, men resultatene er vanskeligere å generalisere fra.",
+        "kriterier": [
+          "Knytter kvantitative metoder til oversikt, målinger eller mønstre.",
+          "Knytter kvalitative metoder til dybde eller opplevelser, og får fram at det kan være vanskelig å generalisere."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Ifølge Kuhn arbeider forskere i normalvitenskap innenfor et etablert paradigme. Forklar hvordan avvik kan føre fra normalvitenskap til et paradigmeskifte.",
+        "fasit": "I normalvitenskap løser forskerne oppgaver innenfor paradigmet. Hvis det samler seg for mange avvik som paradigmet ikke håndterer, kan det skje en vitenskapelig revolusjon der paradigmet erstattes av et nytt.",
+        "kriterier": [
+          "Forklarer at normalvitenskap foregår innenfor et etablert paradigme.",
+          "Får fram at mange avvik kan utløse en revolusjon og føre til at paradigmet erstattes."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En utstilling om fortiden handler nesten bare om konger og statsmenn. Forklar hvordan et nedenfra-perspektiv kunne endret hva utstillingen viser.",
+        "fasit": "Et nedenfra-perspektiv ville lagt mer vekt på vanlige mennesker og livene deres, ikke bare på makthavere. Det kunne gjort erfaringer og handlinger som ellers ble oversett, synlige i utstillingen.",
+        "kriterier": [
+          "Får fram at perspektivet retter oppmerksomheten mot vanlige mennesker.",
+          "Forklarer at dette gir plass til erfaringer eller handlinger som ikke kommer fram når fokuset bare er på makthavere."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En historiker undersøker hvordan en politisk beslutning påvirket mennesker, men bruker bare offentlige dokumenter. Forklar en mulig svakhet ved dette kildevalget, og foreslå hvordan historikeren kan få fram flere stemmer.",
+        "fasit": "Offentlige dokumenter alene kan gi et begrenset bilde av hvem som ble påvirket, og hvilke erfaringer som kommer fram. Historikeren kan søke etter andre kilder som gir plass til stemmene til mennesker som ikke er representert i dokumentene.",
+        "kriterier": [
+          "Forklarer at kildevalget kan gjøre at noen erfaringer eller stemmer mangler.",
+          "Foreslår å utvide kildegrunnlaget for å få fram flere perspektiver eller stemmer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En forsker legger fram en konklusjon, men sier ikke hvilke kilder eller metoder den bygger på. Forklar hvorfor dette gjør konklusjonen vanskeligere å vurdere, og nevn én måte forskeren kan styrke begrunnelsen på.",
+        "fasit": "Uten åpenhet om kilder og metoder er det vanskelig å vurdere hvordan forskeren har kommet fram til konklusjonen. Forskeren kan gjøre valgene tydelige og prøve konklusjonen mot nye kilder eller andre perspektiver.",
+        "kriterier": [
+          "Forklarer at åpenhet om valg gjør det mulig å vurdere hvordan konklusjonen er begrunnet.",
+          "Nevner en relevant måte å prøve eller styrke konklusjonen på, for eksempel nye kilder eller andre perspektiver."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En forsker ønsker å være objektiv. Forklar hva objektivitet betyr som ideal, og hvorfor forskeren likevel bør være bevisst på hvordan egne valg påvirker det som blir synlig.",
+        "fasit": "Objektivitet er idealet om at forskeren skal være nøytral. Samtidig påvirker valg av spørsmål, metoder, teorier og perspektiv hva forskeren legger merke til, så forskeren bør være åpen om disse valgene.",
+        "kriterier": [
+          "Forklarer objektivitet som et ideal om nøytralitet.",
+          "Får fram at forskerens valg påvirker hva som blir synlig, og at valgene derfor bør gjøres bevisste eller åpne."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

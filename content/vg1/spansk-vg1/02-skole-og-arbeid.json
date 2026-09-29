@@ -343,6 +343,80 @@
         "correct": 2,
         "explain": "ir a + infinitiv om planer."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign bachillerato og Formación Profesional (FP). Hvilken type utdanning er hver av dem, og hvilken av dem er studieforberedende?",
+        "fasit": "Bachillerato er to år med studieforberedende utdanning, mens FP er yrkesfaglig utdanning. Mange tar en opptaksprøve til universitetet etter bachillerato.",
+        "kriterier": [
+          "Skiller mellom studieforberedende bachillerato og yrkesfaglig FP.",
+          "Får fram at bachillerato varer i to år eller knytter det til opptaksprøve til universitetet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign skoledager i Spania med skoledager i Norge når det gjelder hvor lenge skoledagen kan vare, og når lunsjen spises.",
+        "fasit": "I Spania kan skoledagen vare til midt på ettermiddagen. Lunsjen spises ofte senere enn i Norge.",
+        "kriterier": [
+          "Får fram at skoledagen i Spania kan vare til midt på ettermiddagen.",
+          "Får fram at lunsjen ofte spises senere i Spania enn i Norge."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Spania har i lange perioder hatt høy arbeidsledighet blant unge. Nevn to ulike situasjoner unge kan være i når de søker arbeid eller håndterer arbeidsledighet.",
+        "fasit": "Noen flytter til andre land for å jobbe, mens andre blir boende hjemme hos foreldrene lenge. Noen tar også deltidsjobber innen turisme og service.",
+        "kriterier": [
+          "Nevner en relevant situasjon, som å flytte til et annet land eller bo lenge hjemme hos foreldrene.",
+          "Nevner en annen relevant situasjon, som deltidsjobb innen turisme eller service."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan futuro simple lages på spansk, og skriv formen av trabajar for nosotros.",
+        "fasit": "Futuro simple lages ved å legge endelser til infinitiven. Formen av trabajar for nosotros er trabajaremos.",
+        "kriterier": [
+          "Forklarer at endelsen legges til infinitiven.",
+          "Skriver riktig form: trabajaremos."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Skriv på spansk: «Jeg vil kunne jobbe.» Bruk futuro simple av poder sammen med infinitiven trabajar.",
+        "fasit": "Podré trabajar.",
+        "kriterier": [
+          "Bruker riktig futuro-form av poder: podré.",
+          "Bruker infinitiven trabajar."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Du vil si: «Hvis jeg får en sommerjobb, skal jeg ha en lønn.» Skriv setningen på spansk med si + presens og futuro.",
+        "fasit": "Si consigo un trabajo de verano, tendré un sueldo.",
+        "kriterier": [
+          "Bruker presens etter si, for eksempel consigo.",
+          "Bruker futuro i hovedsetningen, for eksempel tendré un sueldo."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du sender en formell jobbsøknad og blir invitert til å møte arbeidsgiveren. Skriv på spansk hva søknadsbrevet heter, og hva møtet heter.",
+        "fasit": "Søknadsbrevet heter la carta de presentación. Møtet heter la entrevista de trabajo.",
+        "kriterier": [
+          "Oppgir la carta de presentación som søknadsbrevet.",
+          "Oppgir la entrevista de trabajo som jobbintervjuet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du avslutter et formelt jobbsøknadsbrev på spansk. Skriv én passende avslutningshilsen og forklar hvor i brevet den skal stå.",
+        "fasit": "Jeg kan avslutte med «Atentamente». Hilsenen står til slutt i brevet.",
+        "kriterier": [
+          "Bruker «Atentamente» eller «Un cordial saludo».",
+          "Plasserer avslutningshilsenen til slutt i brevet."
+        ]
+      }
     ]
   },
   "kvalitet": {

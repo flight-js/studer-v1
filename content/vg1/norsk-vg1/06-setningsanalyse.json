@@ -4,80 +4,430 @@
   "trinnId": "vg1",
   "name": "Setningsanalyse og tekstbinding",
   "intro": "Fagspråk for setningsoppbygning: setningsledd, helsetninger og leddsetninger, konjunksjoner og subjunksjoner, ordstilling og hvordan setninger bindes sammen til en tekst.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Hvorfor setningsanalyse?\n\nNår du kan beskrive **hvordan setninger er bygd opp**, blir det lettere å forstå tekster, variere egen skriving og sette **komma** riktig. Fagspråket gjør det også mulig å snakke presist om språk.\n\n## Setningsledd\n\n- **Verbal** – verbet eller verbene som forteller hva som skjer: *Sara **har skrevet** et dikt.*\n- **Subjekt** – den eller det som gjør noe eller er noe. Spør «hvem eller hva + verbal?»: ***Sara** har skrevet et dikt.*\n- **Direkte objekt** – den eller det handlingen går ut over: *Sara har skrevet **et dikt**.*\n- **Indirekte objekt** – mottakeren: *Hun ga **læreren** diktet.*\n- **Predikativ** – sier noe om subjektet eller objektet etter verb som *være*, *bli* og *hete*: *Diktet er **vakkert**.*\n- **Adverbial** – forteller om tid, sted, måte eller årsak: *Hun skrev det **i går** **på biblioteket**.*\n- **Setningsadverbial** – ord som *ikke*, *aldri*, *kanskje* og *heldigvis*, som sier noe om hele setningen.\n\n## Helsetninger og leddsetninger\n\n- En **helsetning** (hovedsetning) kan stå alene: *Det regnet.*\n- En **leddsetning** kan ikke stå alene, men fungerer som et ledd i en annen setning: *Vi ble inne **fordi det regnet**.*\n\nLeddsetninger innledes ofte av en **subjunksjon**: *at, om, fordi, når, hvis, da, selv om, mens, som*. De kan ha ulike funksjoner – for eksempel **adverbial** (*fordi det regnet*), **objekt** (*Jeg vet **at du kommer***) eller **relativsetning** som beskriver et substantiv (*boka **som jeg leste***).\n\n**Konjunksjoner** – *og, men, eller, for, så* – binder sammen **likeverdige** ledd og setninger.\n\n## Ordstilling\n\nI norske helsetninger står **verbalet på andre plass** (**V2-regelen**). Hvis noe annet enn subjektet står først, bytter subjekt og verbal plass (**inversjon**): *I går **skrev Sara** et dikt.* I leddsetninger står **setningsadverbialet foran verbalet**: *… fordi hun **ikke kom***, men i helsetninger etter: *Hun **kom ikke**.*\n\n## Tegnsetting og setninger\n\n- Sett **komma mellom helsetninger** som er bundet sammen med konjunksjon: *Jeg ville gå, men bussen var borte.*\n- Sett **komma etter en leddsetning** som står først: *Når det regner, blir vi inne.*\n\n## Tekstbinding\n\n**Tekstbinding** er det som gjør at setningene henger sammen til en **tekst**:\n\n- **Pronomen** som viser tilbake: *Sara skrev et dikt. **Det** handlet om havet.*\n- **Gjentakelse** og **synonymer**: *diktet – teksten*\n- **Konnektiver** som viser logiske sammenhenger: *derfor* (årsak), *likevel* (motsetning), *dessuten* (tillegg), *først … deretter* (tid)\n- **Temasetninger** som gir retning til avsnittene\n\nGod tekstbinding gjør teksten **lett å følge** og viser sammenhengen i resonnementet.",
   "flashcards": [
-    { "term": "Verbal", "def": "Setningsleddet som består av verbet eller verbene." },
-    { "term": "Subjekt", "def": "Den eller det som gjør noe eller er noe i setningen." },
-    { "term": "Direkte objekt", "def": "Den eller det handlingen går ut over." },
-    { "term": "Indirekte objekt", "def": "Mottakeren, for eksempel «læreren» i «Hun ga læreren diktet»." },
-    { "term": "Predikativ", "def": "Ledd som sier noe om subjektet eller objektet etter verb som «være» og «bli»." },
-    { "term": "Adverbial", "def": "Ledd som forteller om tid, sted, måte eller årsak." },
-    { "term": "Setningsadverbial", "def": "Ord som «ikke», «aldri» og «kanskje» som sier noe om hele setningen." },
-    { "term": "Helsetning", "def": "Setning som kan stå alene." },
-    { "term": "Leddsetning", "def": "Setning som fungerer som et ledd i en annen setning." },
-    { "term": "Subjunksjon", "def": "Ord som innleder leddsetninger, som «fordi», «at» og «når»." },
-    { "term": "Konjunksjon", "def": "Ord som binder sammen likeverdige ledd: og, men, eller, for, så." },
-    { "term": "Relativsetning", "def": "Leddsetning som beskriver et substantiv, ofte innledet med «som»." },
-    { "term": "V2-regelen", "def": "Verbalet står på andre plass i norske helsetninger." },
-    { "term": "Inversjon", "def": "At subjekt og verbal bytter plass når noe annet står først." },
-    { "term": "Konnektiv", "def": "Ord som viser logiske sammenhenger, som «derfor» og «likevel»." }
+    {
+      "term": "Verbal",
+      "def": "Setningsleddet som består av verbet eller verbene."
+    },
+    {
+      "term": "Subjekt",
+      "def": "Den eller det som gjør noe eller er noe i setningen."
+    },
+    {
+      "term": "Direkte objekt",
+      "def": "Den eller det handlingen går ut over."
+    },
+    {
+      "term": "Indirekte objekt",
+      "def": "Mottakeren, for eksempel «læreren» i «Hun ga læreren diktet»."
+    },
+    {
+      "term": "Predikativ",
+      "def": "Ledd som sier noe om subjektet eller objektet etter verb som «være» og «bli»."
+    },
+    {
+      "term": "Adverbial",
+      "def": "Ledd som forteller om tid, sted, måte eller årsak."
+    },
+    {
+      "term": "Setningsadverbial",
+      "def": "Ord som «ikke», «aldri» og «kanskje» som sier noe om hele setningen."
+    },
+    {
+      "term": "Helsetning",
+      "def": "Setning som kan stå alene."
+    },
+    {
+      "term": "Leddsetning",
+      "def": "Setning som fungerer som et ledd i en annen setning."
+    },
+    {
+      "term": "Subjunksjon",
+      "def": "Ord som innleder leddsetninger, som «fordi», «at» og «når»."
+    },
+    {
+      "term": "Konjunksjon",
+      "def": "Ord som binder sammen likeverdige ledd: og, men, eller, for, så."
+    },
+    {
+      "term": "Relativsetning",
+      "def": "Leddsetning som beskriver et substantiv, ofte innledet med «som»."
+    },
+    {
+      "term": "V2-regelen",
+      "def": "Verbalet står på andre plass i norske helsetninger."
+    },
+    {
+      "term": "Inversjon",
+      "def": "At subjekt og verbal bytter plass når noe annet står først."
+    },
+    {
+      "term": "Konnektiv",
+      "def": "Ord som viser logiske sammenhenger, som «derfor» og «likevel»."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er subjektet i setningen «I går leste Ali en bok»?", "options": ["I går", "Ali", "leste", "en bok"], "correct": 1, "explain": "Hvem leste? Ali." },
-    { "id": "q02", "text": "Hva er direkte objekt i «Ali leste en bok»?", "options": ["Ali", "leste", "en bok", "Det finnes ikke noe objekt"], "correct": 2, "explain": "Hva leste Ali? En bok." },
-    { "id": "q03", "text": "Hvilket ord er en subjunksjon?", "options": ["fordi", "og", "men", "eller"], "correct": 0, "explain": "Subjunksjoner innleder leddsetninger. De andre er konjunksjoner." },
-    { "id": "q04", "text": "Hva sier V2-regelen?", "options": ["At det skal være to verb i hver setning", "At subjektet alltid står først", "At setninger har to ledd", "At verbalet står på andre plass i helsetninger"], "correct": 3, "explain": "Derfor heter det «I går leste Ali», ikke «I går Ali leste»." },
-    { "id": "q05", "text": "Hva er en leddsetning?", "options": ["En setning som fungerer som et ledd i en annen setning", "En setning uten verb", "En setning med to subjekter", "Den første setningen i en tekst"], "correct": 0, "explain": "Leddsetninger kan ikke stå alene." },
-    { "id": "q06", "text": "Hva er predikativet i «Filmen var spennende»?", "options": ["Filmen", "var", "spennende", "Det finnes ikke noe predikativ"], "correct": 2, "explain": "«Spennende» sier noe om subjektet etter verbet «var»." },
-    { "id": "q07", "text": "Hvor skal kommaet stå i «Når det regner blir vi inne»?", "options": ["Etter «Når»", "Etter «regner»", "Etter «blir»", "Det skal ikke være komma"], "correct": 1, "explain": "Det skal være komma etter en leddsetning som står først." },
-    { "id": "q08", "text": "Hvilket ord er et konnektiv som viser motsetning?", "options": ["derfor", "dessuten", "deretter", "likevel"], "correct": 3, "explain": "«Derfor» viser årsak, «dessuten» tillegg og «deretter» tid." },
-    { "id": "q09", "text": "Hvilken setning har riktig plassering av «ikke»?", "options": ["… fordi hun ikke kom", "… fordi hun kom ikke", "… fordi ikke hun kom", "… ikke fordi hun kom"], "correct": 0, "explain": "I leddsetninger står setningsadverbialet foran verbalet." },
-    { "id": "q10", "text": "Hva er en relativsetning?", "options": ["En setning om familien", "En leddsetning som beskriver et substantiv", "En helsetning", "En setning med konjunksjon"], "correct": 1, "explain": "Eksempel: «boka som jeg leste»." }
+    {
+      "id": "q01",
+      "text": "Hva er subjektet i setningen «I går leste Ali en bok»?",
+      "options": [
+        "I går",
+        "Ali",
+        "leste",
+        "en bok"
+      ],
+      "correct": 1,
+      "explain": "Hvem leste? Ali."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er direkte objekt i «Ali leste en bok»?",
+      "options": [
+        "Ali",
+        "leste",
+        "en bok",
+        "Det finnes ikke noe objekt"
+      ],
+      "correct": 2,
+      "explain": "Hva leste Ali? En bok."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket ord er en subjunksjon?",
+      "options": [
+        "fordi",
+        "og",
+        "men",
+        "eller"
+      ],
+      "correct": 0,
+      "explain": "Subjunksjoner innleder leddsetninger. De andre er konjunksjoner."
+    },
+    {
+      "id": "q04",
+      "text": "Hva sier V2-regelen?",
+      "options": [
+        "At det skal være to verb i hver setning",
+        "At subjektet alltid står først",
+        "At setninger har to ledd",
+        "At verbalet står på andre plass i helsetninger"
+      ],
+      "correct": 3,
+      "explain": "Derfor heter det «I går leste Ali», ikke «I går Ali leste»."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en leddsetning?",
+      "options": [
+        "En setning som fungerer som et ledd i en annen setning",
+        "En setning uten verb",
+        "En setning med to subjekter",
+        "Den første setningen i en tekst"
+      ],
+      "correct": 0,
+      "explain": "Leddsetninger kan ikke stå alene."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er predikativet i «Filmen var spennende»?",
+      "options": [
+        "Filmen",
+        "var",
+        "spennende",
+        "Det finnes ikke noe predikativ"
+      ],
+      "correct": 2,
+      "explain": "«Spennende» sier noe om subjektet etter verbet «var»."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor skal kommaet stå i «Når det regner blir vi inne»?",
+      "options": [
+        "Etter «Når»",
+        "Etter «regner»",
+        "Etter «blir»",
+        "Det skal ikke være komma"
+      ],
+      "correct": 1,
+      "explain": "Det skal være komma etter en leddsetning som står først."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket ord er et konnektiv som viser motsetning?",
+      "options": [
+        "derfor",
+        "dessuten",
+        "deretter",
+        "likevel"
+      ],
+      "correct": 3,
+      "explain": "«Derfor» viser årsak, «dessuten» tillegg og «deretter» tid."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken setning har riktig plassering av «ikke»?",
+      "options": [
+        "… fordi hun ikke kom",
+        "… fordi hun kom ikke",
+        "… fordi ikke hun kom",
+        "… ikke fordi hun kom"
+      ],
+      "correct": 0,
+      "explain": "I leddsetninger står setningsadverbialet foran verbalet."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en relativsetning?",
+      "options": [
+        "En setning om familien",
+        "En leddsetning som beskriver et substantiv",
+        "En helsetning",
+        "En setning med konjunksjon"
+      ],
+      "correct": 1,
+      "explain": "Eksempel: «boka som jeg leste»."
+    }
   ],
   "mindmap": {
     "label": "Setningsanalyse",
     "children": [
-      { "label": "Setningsledd", "children": [
-        { "label": "Verbal og subjekt" },
-        { "label": "Objekter" },
-        { "label": "Predikativ" },
-        { "label": "Adverbial" }
-      ] },
-      { "label": "Setninger", "children": [
-        { "label": "Helsetning" },
-        { "label": "Leddsetning" },
-        { "label": "Relativsetning" }
-      ] },
-      { "label": "Bindeord", "children": [
-        { "label": "Konjunksjoner" },
-        { "label": "Subjunksjoner" }
-      ] },
-      { "label": "Ordstilling", "children": [
-        { "label": "V2-regelen" },
-        { "label": "Inversjon" },
-        { "label": "Setningsadverbial" }
-      ] },
-      { "label": "Tekstbinding", "children": [
-        { "label": "Pronomen" },
-        { "label": "Synonymer" },
-        { "label": "Konnektiver" },
-        { "label": "Komma" }
-      ] }
+      {
+        "label": "Setningsledd",
+        "children": [
+          {
+            "label": "Verbal og subjekt"
+          },
+          {
+            "label": "Objekter"
+          },
+          {
+            "label": "Predikativ"
+          },
+          {
+            "label": "Adverbial"
+          }
+        ]
+      },
+      {
+        "label": "Setninger",
+        "children": [
+          {
+            "label": "Helsetning"
+          },
+          {
+            "label": "Leddsetning"
+          },
+          {
+            "label": "Relativsetning"
+          }
+        ]
+      },
+      {
+        "label": "Bindeord",
+        "children": [
+          {
+            "label": "Konjunksjoner"
+          },
+          {
+            "label": "Subjunksjoner"
+          }
+        ]
+      },
+      {
+        "label": "Ordstilling",
+        "children": [
+          {
+            "label": "V2-regelen"
+          },
+          {
+            "label": "Inversjon"
+          },
+          {
+            "label": "Setningsadverbial"
+          }
+        ]
+      },
+      {
+        "label": "Tekstbinding",
+        "children": [
+          {
+            "label": "Pronomen"
+          },
+          {
+            "label": "Synonymer"
+          },
+          {
+            "label": "Konnektiver"
+          },
+          {
+            "label": "Komma"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "«Og», «men» og «eller» er konjunksjoner.", "correct": true, "explain": "De binder sammen likeverdige ledd og setninger." },
-      { "id": "m02", "type": "sant-usant", "text": "En leddsetning kan alltid stå alene som en fullstendig setning.", "correct": false, "explain": "Leddsetninger er avhengige av en helsetning." },
-      { "id": "m03", "type": "sant-usant", "text": "Pronomen kan brukes til å binde setninger sammen.", "correct": true, "explain": "Pronomenet viser tilbake til noe som er nevnt." },
-      { "id": "m04", "type": "sant-usant", "text": "Et adverbial er alltid ett enkelt ord.", "correct": false, "explain": "Adverbialer kan være flere ord, for eksempel «på biblioteket»." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er indirekte objekt i «Hun ga broren en gave»?", "options": ["Hun", "broren", "en gave", "ga"], "correct": 1, "explain": "Broren er mottakeren." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er inversjon?", "options": ["At setningen står i fortid", "At setningen mangler verb", "At subjekt og verbal bytter plass", "At man skriver baklengs"], "correct": 2, "explain": "Eksempel: «I dag skinner sola»." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket ord er et setningsadverbial?", "options": ["aldri", "bok", "skrev", "vakker"], "correct": 0, "explain": "Setningsadverbialer sier noe om hele setningen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "«Og», «men» og «eller» er konjunksjoner.",
+        "correct": true,
+        "explain": "De binder sammen likeverdige ledd og setninger."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En leddsetning kan alltid stå alene som en fullstendig setning.",
+        "correct": false,
+        "explain": "Leddsetninger er avhengige av en helsetning."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Pronomen kan brukes til å binde setninger sammen.",
+        "correct": true,
+        "explain": "Pronomenet viser tilbake til noe som er nevnt."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et adverbial er alltid ett enkelt ord.",
+        "correct": false,
+        "explain": "Adverbialer kan være flere ord, for eksempel «på biblioteket»."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er indirekte objekt i «Hun ga broren en gave»?",
+        "options": [
+          "Hun",
+          "broren",
+          "en gave",
+          "ga"
+        ],
+        "correct": 1,
+        "explain": "Broren er mottakeren."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er inversjon?",
+        "options": [
+          "At setningen står i fortid",
+          "At setningen mangler verb",
+          "At subjekt og verbal bytter plass",
+          "At man skriver baklengs"
+        ],
+        "correct": 2,
+        "explain": "Eksempel: «I dag skinner sola»."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket ord er et setningsadverbial?",
+        "options": [
+          "aldri",
+          "bok",
+          "skrev",
+          "vakker"
+        ],
+        "correct": 0,
+        "explain": "Setningsadverbialer sier noe om hele setningen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar to måter kunnskap om hvordan setninger er bygd opp, kan være nyttig på når du leser eller skriver.",
+        "fasit": "Setningsanalyse kan gjøre det lettere å forstå hvordan en tekst henger sammen. Den kan også hjelpe oss med å variere egen skriving eller sette komma riktig.",
+        "kriterier": [
+          "Nevner to ulike fordeler, for eksempel bedre tekstforståelse, mer variert skriving eller riktigere komma.",
+          "Forklarer kort hvordan kunnskap om setninger kan bidra til fordelene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I setningen «Hun ga læreren diktet» er både «læreren» og «diktet» objekter. Sammenlign hvilken rolle de har i handlingen.",
+        "fasit": "«Læreren» er indirekte objekt fordi læreren mottar noe. «Diktet» er direkte objekt fordi det er det handlingen går ut over.",
+        "kriterier": [
+          "Forklarer at læreren er mottakeren, altså indirekte objekt.",
+          "Forklarer at diktet er det handlingen går ut over, altså direkte objekt."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Skriv om setningen «Sara skrev et dikt i går» slik at «I går» står først. Forklar hva som skjer med plasseringen av subjektet og verbalet.",
+        "fasit": "I går skrev Sara et dikt. Når «I går» står først, kommer verbalet «skrev» før subjektet «Sara».",
+        "kriterier": [
+          "Skriver setningen med riktig ordstilling: «I går skrev Sara et dikt».",
+          "Forklarer at subjekt og verbal bytter plass når noe annet enn subjektet står først."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign plasseringen av «ikke» i «Hun kommer ikke» og «fordi hun ikke kommer». Forklar hvordan setningstypen påvirker plasseringen.",
+        "fasit": "«Hun kommer ikke» er en helsetning, der «ikke» står etter verbalet. «Fordi hun ikke kommer» er en leddsetning, der «ikke» står foran verbalet.",
+        "kriterier": [
+          "Plasserer «ikke» etter verbalet i helsetningen og foran verbalet i leddsetningen.",
+          "Knytter forskjellen i ordstilling til at den ene er helsetning og den andre leddsetning."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sett inn komma i «Jeg ville gå men bussen var borte». Forklar hvorfor kommaet skal stå der.",
+        "fasit": "Jeg ville gå, men bussen var borte. Kommaet står mellom to helsetninger som er bundet sammen med konjunksjonen «men».",
+        "kriterier": [
+          "Setter komma før «men».",
+          "Forklarer at kommaet står mellom helsetninger bundet sammen med en konjunksjon."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign hva «fordi» og «men» binder sammen i «Vi ble inne fordi det regnet» og «Det regnet, men vi gikk ut».",
+        "fasit": "«Fordi» er en subjunksjon som innleder leddsetningen «det regnet». «Men» er en konjunksjon som binder sammen likeverdige setninger.",
+        "kriterier": [
+          "Forklarer at «fordi» innleder en leddsetning.",
+          "Forklarer at «men» binder sammen likeverdige ledd eller setninger."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Skriv om «Sara skrev et dikt. Diktet handlet om havet» slik at ordet «dikt» ikke gjentas. Forklar hva ordet du bruker, viser tilbake til.",
+        "fasit": "Sara skrev et dikt. Det handlet om havet. «Det» viser tilbake til diktet.",
+        "kriterier": [
+          "Bruker et pronomen for å unngå gjentakelsen.",
+          "Gjør det tydelig at pronomenet viser tilbake til diktet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I setningen «Hun skrev diktet i går på biblioteket, men hun kom ikke» forteller «i går» om tid, «på biblioteket» om sted og «ikke» om hele setningen. Forklar hvilken type setningsledd hvert av disse uttrykkene er.",
+        "fasit": "«I går» og «på biblioteket» er adverbialer: Det første forteller om tid, og det andre om sted. «Ikke» er et setningsadverbial som sier noe om hele setningen.",
+        "kriterier": [
+          "Identifiserer «i går» som tidsadverbial og «på biblioteket» som stedsadverbial.",
+          "Identifiserer «ikke» som setningsadverbial og forklarer at det gjelder hele setningen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

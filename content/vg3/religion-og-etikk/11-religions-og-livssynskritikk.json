@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Religions- og livssynskritikk",
   "intro": "Ulike former for religions- og livssynskritikk – kritikk av gudsbevis og teodiceproblemet, moralsk kritikk, Marx', Freuds og Nietzsches kritikk, feministisk kritikk og intern kritikk – kritikk av sekulære livssyn, og forholdet mellom kritikk, ytringsfrihet og respekt.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Hva er religionskritikk?\n\n**Religionskritikk** er **argumenterte** innvendinger mot religiøse **påstander**, **praksiser** eller **institusjoner**. Kritikk er ikke det samme som **hets**. God kritikk retter seg mot **ideer** og **handlinger**, ikke mot **mennesker** som gruppe.\n\n## Kritikk av religiøse sannhetspåstander\n\nDenne kritikken spør om religiøse påstander er **sanne**.\n\n- **Gudsbevis**: Filosofer har laget argumenter for at Gud finnes, for eksempel at alt må ha en **første årsak**, eller at naturens **orden** tyder på en designer. Kritikere svarer at argumentene ikke **beviser** en bestemt gud, og at **evolusjonen** forklarer mye av naturens orden.\n- **Teodiceproblemet**: Hvis Gud er **allmektig** og **god**, hvorfor finnes det **ondskap** og **lidelse**? Troende har svart blant annet at **frihet** forutsetter muligheten til å gjøre ondt.\n- **Vitenskapelig kritikk**: Religiøse forklaringer av naturen, som at verden er noen tusen år gammel, er i strid med vitenskapelig kunnskap. Mange troende mener likevel at tro og vitenskap kan forenes.\n\n## Moralsk kritikk\n\nDenne kritikken spør om religion fører til **gode** eller **dårlige** handlinger. Kritikere peker på **religionskriger**, **diskriminering** av kvinner og skeive og **overgrep** i trossamfunn. Forsvarere peker på religionens bidrag til **nestekjærlighet**, **velferd** og **frigjøring**.\n\n## Kritikk av religionens funksjon\n\n- **Ludwig Feuerbach** mente at Gud er en **projeksjon** av menneskets egne idealer.\n- **Karl Marx** kalte religion «**opium for folket**» – den demper lidelsen, men hindrer folk i å **forandre** urettferdige forhold.\n- **Sigmund Freud** så religion som en **illusjon** som springer ut av behovet for en **beskyttende farsfigur**.\n- **Friedrich Nietzsche** erklærte at «**Gud er død**» og kritiserte kristen moral for å være en **slavemoral** som undertrykker livskraften.\n\n## Feministisk kritikk\n\n**Feministisk** religionskritikk peker på at mange religioner har **mannlige** gudsbilder, mannlige **ledere** og regler som begrenser **kvinners** frihet. Noen feministiske teologer ønsker å **reformere** religionen innenfra.\n\n## Intern kritikk\n\n**Intern** kritikk kommer fra troende **selv** – for eksempel **Luthers** kritikk av kirken på 1500-tallet eller muslimske og kristne reformatorer i dag som ønsker nye **tolkninger**.\n\n## Livssynskritikk\n\nOgså **sekulære** livssyn kan kritiseres:\n\n- Kan **humanismen** begrunne **menneskeverdet** uten noe høyere?\n- Har den en **naiv** tro på **fornuft** og **fremskritt**, når vitenskap og teknologi også har gitt **atombomber** og **miljøkriser**?\n- Kan et rent **materialistisk** verdensbilde gi **mening**?\n\n## Kritikk, ytringsfrihet og respekt\n\nI et demokrati er det **lov** å kritisere religioner og livssyn – **ytringsfriheten** beskytter også kritikk som oppleves krenkende. **Blasfemiparagrafen** i straffeloven ble opphevet i **2015**. Samtidig forbyr straffeloven **hatefulle ytringer** mot personer på grunn av blant annet religion.\n\nGod kritikk er **saklig**, **informert** og **treffer** det den kritiserer. Den skiller mellom religion som **idé** og **mennesker** som tror.",
   "flashcards": [
-    { "term": "Religionskritikk", "def": "Argumenterte innvendinger mot religiøse påstander, praksiser eller institusjoner." },
-    { "term": "Gudsbevis", "def": "Filosofiske argumenter for at Gud finnes." },
-    { "term": "Teodiceproblemet", "def": "Hvorfor finnes ondskap hvis Gud er allmektig og god?" },
-    { "term": "Vitenskapelig religionskritikk", "def": "Religiøse forklaringer av naturen er i strid med vitenskapen." },
-    { "term": "Moralsk religionskritikk", "def": "Kritikk av at religion kan føre til skadelige handlinger." },
-    { "term": "Ludwig Feuerbach", "def": "Mente at Gud er en projeksjon av menneskets idealer." },
-    { "term": "Opium for folket", "def": "Marx' betegnelse på religion." },
-    { "term": "Freuds religionskritikk", "def": "Religion er en illusjon som springer ut av behovet for en beskyttende far." },
-    { "term": "«Gud er død»", "def": "Nietzsches berømte utsagn." },
-    { "term": "Slavemoral", "def": "Nietzsches kritikk av kristen moral." },
-    { "term": "Feministisk religionskritikk", "def": "Kritikk av mannlige gudsbilder og begrensninger på kvinners frihet." },
-    { "term": "Intern kritikk", "def": "Kritikk fra troende selv." },
-    { "term": "Livssynskritikk", "def": "Kritikk også av sekulære livssyn, som humanismen." },
-    { "term": "Blasfemiparagrafen", "def": "Straffebestemmelse mot gudsbespottelse, opphevet i 2015." },
-    { "term": "Hatefulle ytringer", "def": "Ytringer mot personer som er forbudt i straffeloven." }
+    {
+      "term": "Religionskritikk",
+      "def": "Argumenterte innvendinger mot religiøse påstander, praksiser eller institusjoner."
+    },
+    {
+      "term": "Gudsbevis",
+      "def": "Filosofiske argumenter for at Gud finnes."
+    },
+    {
+      "term": "Teodiceproblemet",
+      "def": "Hvorfor finnes ondskap hvis Gud er allmektig og god?"
+    },
+    {
+      "term": "Vitenskapelig religionskritikk",
+      "def": "Religiøse forklaringer av naturen er i strid med vitenskapen."
+    },
+    {
+      "term": "Moralsk religionskritikk",
+      "def": "Kritikk av at religion kan føre til skadelige handlinger."
+    },
+    {
+      "term": "Ludwig Feuerbach",
+      "def": "Mente at Gud er en projeksjon av menneskets idealer."
+    },
+    {
+      "term": "Opium for folket",
+      "def": "Marx' betegnelse på religion."
+    },
+    {
+      "term": "Freuds religionskritikk",
+      "def": "Religion er en illusjon som springer ut av behovet for en beskyttende far."
+    },
+    {
+      "term": "«Gud er død»",
+      "def": "Nietzsches berømte utsagn."
+    },
+    {
+      "term": "Slavemoral",
+      "def": "Nietzsches kritikk av kristen moral."
+    },
+    {
+      "term": "Feministisk religionskritikk",
+      "def": "Kritikk av mannlige gudsbilder og begrensninger på kvinners frihet."
+    },
+    {
+      "term": "Intern kritikk",
+      "def": "Kritikk fra troende selv."
+    },
+    {
+      "term": "Livssynskritikk",
+      "def": "Kritikk også av sekulære livssyn, som humanismen."
+    },
+    {
+      "term": "Blasfemiparagrafen",
+      "def": "Straffebestemmelse mot gudsbespottelse, opphevet i 2015."
+    },
+    {
+      "term": "Hatefulle ytringer",
+      "def": "Ytringer mot personer som er forbudt i straffeloven."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva skiller religionskritikk fra hets?", "options": ["Kritikk er alltid ulovlig", "Kritikk retter seg mot ideer og handlinger, ikke mot mennesker som gruppe", "Det er ingen forskjell", "Hets er mer saklig"], "correct": 1, "explain": "God kritikk er saklig og informert." },
-    { "id": "q02", "text": "Hva er teodiceproblemet?", "options": ["Hvorfor finnes ondskap hvis Gud er allmektig og god?", "Hvor gammel er jorden?", "Hvem skrev Bibelen?", "Hvor mange guder finnes?"], "correct": 0, "explain": "Et klassisk religionsfilosofisk problem." },
-    { "id": "q03", "text": "Hva mente Marx med at religion er «opium for folket»?", "options": ["At religion gir energi", "At religion er ulovlig", "At religion demper lidelsen, men hindrer folk i å endre urettferdige forhold", "At religion er medisin"], "correct": 2, "explain": "Sosial og politisk kritikk." },
-    { "id": "q04", "text": "Hvordan så Freud på religion?", "options": ["Som sannhet", "Som politikk", "Som vitenskap", "Som en illusjon som springer ut av behovet for en beskyttende farsfigur"], "correct": 3, "explain": "Psykologisk religionskritikk." },
-    { "id": "q05", "text": "Hvem erklærte at «Gud er død»?", "options": ["Nietzsche", "Luther", "Marx", "Feuerbach"], "correct": 0, "explain": "Han kritiserte kristen moral." },
-    { "id": "q06", "text": "Hva er intern religionskritikk?", "options": ["Kritikk fra ateister", "Kritikk fra troende selv", "Kritikk fra staten", "Kritikk fra medier"], "correct": 1, "explain": "For eksempel Luther." },
-    { "id": "q07", "text": "Når ble blasfemiparagrafen opphevet i Norge?", "options": ["1814", "1972", "2015", "2021"], "correct": 2, "explain": "Hatefulle ytringer mot personer er fortsatt forbudt." },
-    { "id": "q08", "text": "Hva er en kritikk mot humanismen?", "options": ["At den har for mange guder", "At den forbyr vitenskap", "At den er statsreligion", "At den kan ha en naiv tro på fornuft og fremskritt"], "correct": 3, "explain": "Også spørsmål om begrunnelsen for menneskeverdet." },
-    { "id": "q09", "text": "Hva mente Feuerbach om Gud?", "options": ["At Gud er en projeksjon av menneskets idealer", "At Gud finnes utenfor tiden", "At Gud er natur", "At Gud er død"], "correct": 0, "explain": "Påvirket Marx." },
-    { "id": "q10", "text": "Hva peker feministisk religionskritikk på?", "options": ["For få høytider", "Mannlige gudsbilder og ledere og begrensninger på kvinners frihet", "For mye vitenskap", "For lite musikk"], "correct": 1, "explain": "Noen vil reformere religionen innenfra." }
+    {
+      "id": "q01",
+      "text": "Hva skiller religionskritikk fra hets?",
+      "options": [
+        "Kritikk er alltid ulovlig",
+        "Kritikk retter seg mot ideer og handlinger, ikke mot mennesker som gruppe",
+        "Det er ingen forskjell",
+        "Hets er mer saklig"
+      ],
+      "correct": 1,
+      "explain": "God kritikk er saklig og informert."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er teodiceproblemet?",
+      "options": [
+        "Hvorfor finnes ondskap hvis Gud er allmektig og god?",
+        "Hvor gammel er jorden?",
+        "Hvem skrev Bibelen?",
+        "Hvor mange guder finnes?"
+      ],
+      "correct": 0,
+      "explain": "Et klassisk religionsfilosofisk problem."
+    },
+    {
+      "id": "q03",
+      "text": "Hva mente Marx med at religion er «opium for folket»?",
+      "options": [
+        "At religion gir energi",
+        "At religion er ulovlig",
+        "At religion demper lidelsen, men hindrer folk i å endre urettferdige forhold",
+        "At religion er medisin"
+      ],
+      "correct": 2,
+      "explain": "Sosial og politisk kritikk."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan så Freud på religion?",
+      "options": [
+        "Som sannhet",
+        "Som politikk",
+        "Som vitenskap",
+        "Som en illusjon som springer ut av behovet for en beskyttende farsfigur"
+      ],
+      "correct": 3,
+      "explain": "Psykologisk religionskritikk."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem erklærte at «Gud er død»?",
+      "options": [
+        "Nietzsche",
+        "Luther",
+        "Marx",
+        "Feuerbach"
+      ],
+      "correct": 0,
+      "explain": "Han kritiserte kristen moral."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er intern religionskritikk?",
+      "options": [
+        "Kritikk fra ateister",
+        "Kritikk fra troende selv",
+        "Kritikk fra staten",
+        "Kritikk fra medier"
+      ],
+      "correct": 1,
+      "explain": "For eksempel Luther."
+    },
+    {
+      "id": "q07",
+      "text": "Når ble blasfemiparagrafen opphevet i Norge?",
+      "options": [
+        "1814",
+        "1972",
+        "2015",
+        "2021"
+      ],
+      "correct": 2,
+      "explain": "Hatefulle ytringer mot personer er fortsatt forbudt."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en kritikk mot humanismen?",
+      "options": [
+        "At den har for mange guder",
+        "At den forbyr vitenskap",
+        "At den er statsreligion",
+        "At den kan ha en naiv tro på fornuft og fremskritt"
+      ],
+      "correct": 3,
+      "explain": "Også spørsmål om begrunnelsen for menneskeverdet."
+    },
+    {
+      "id": "q09",
+      "text": "Hva mente Feuerbach om Gud?",
+      "options": [
+        "At Gud er en projeksjon av menneskets idealer",
+        "At Gud finnes utenfor tiden",
+        "At Gud er natur",
+        "At Gud er død"
+      ],
+      "correct": 0,
+      "explain": "Påvirket Marx."
+    },
+    {
+      "id": "q10",
+      "text": "Hva peker feministisk religionskritikk på?",
+      "options": [
+        "For få høytider",
+        "Mannlige gudsbilder og ledere og begrensninger på kvinners frihet",
+        "For mye vitenskap",
+        "For lite musikk"
+      ],
+      "correct": 1,
+      "explain": "Noen vil reformere religionen innenfra."
+    }
   ],
   "mindmap": {
     "label": "Religions- og livssynskritikk",
     "children": [
-      { "label": "Sannhet", "children": [
-        { "label": "Gudsbevis" },
-        { "label": "Teodiceproblemet" },
-        { "label": "Vitenskap" }
-      ] },
-      { "label": "Moral", "children": [
-        { "label": "Krig og diskriminering" },
-        { "label": "Nestekjærlighet og velferd" }
-      ] },
-      { "label": "Funksjon", "children": [
-        { "label": "Feuerbach og Marx" },
-        { "label": "Freud" },
-        { "label": "Nietzsche" }
-      ] },
-      { "label": "Andre former", "children": [
-        { "label": "Feministisk" },
-        { "label": "Intern" },
-        { "label": "Livssynskritikk" }
-      ] },
-      { "label": "Rammer", "children": [
-        { "label": "Ytringsfrihet" },
-        { "label": "Blasfemi og hatefulle ytringer" }
-      ] }
+      {
+        "label": "Sannhet",
+        "children": [
+          {
+            "label": "Gudsbevis"
+          },
+          {
+            "label": "Teodiceproblemet"
+          },
+          {
+            "label": "Vitenskap"
+          }
+        ]
+      },
+      {
+        "label": "Moral",
+        "children": [
+          {
+            "label": "Krig og diskriminering"
+          },
+          {
+            "label": "Nestekjærlighet og velferd"
+          }
+        ]
+      },
+      {
+        "label": "Funksjon",
+        "children": [
+          {
+            "label": "Feuerbach og Marx"
+          },
+          {
+            "label": "Freud"
+          },
+          {
+            "label": "Nietzsche"
+          }
+        ]
+      },
+      {
+        "label": "Andre former",
+        "children": [
+          {
+            "label": "Feministisk"
+          },
+          {
+            "label": "Intern"
+          },
+          {
+            "label": "Livssynskritikk"
+          }
+        ]
+      },
+      {
+        "label": "Rammer",
+        "children": [
+          {
+            "label": "Ytringsfrihet"
+          },
+          {
+            "label": "Blasfemi og hatefulle ytringer"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange troende mener at tro og vitenskap kan forenes.", "correct": true, "explain": "Ikke alle ser en konflikt." },
-      { "id": "m02", "type": "sant-usant", "text": "Ytringsfriheten beskytter bare ytringer som ingen opplever som krenkende.", "correct": false, "explain": "Den beskytter også krenkende kritikk." },
-      { "id": "m03", "type": "sant-usant", "text": "Også sekulære livssyn kan kritiseres.", "correct": true, "explain": "Livssynskritikk." },
-      { "id": "m04", "type": "sant-usant", "text": "Religionskritikk er det samme som hets mot troende.", "correct": false, "explain": "God kritikk retter seg mot ideer, ikke mennesker." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er et svar troende har gitt på teodiceproblemet?", "options": ["At ondskap ikke finnes", "At frihet forutsetter muligheten til å gjøre ondt", "At Gud er ond", "At lidelse er tilfeldig"], "correct": 1, "explain": "Frihetsargumentet." },
-      { "id": "m06", "type": "flervalg", "text": "Hva hevder et gudsbevis om første årsak?", "options": ["At alt må ha en første årsak, som er Gud", "At verden ikke har årsak", "At evolusjon er feil", "At Gud er død"], "correct": 0, "explain": "Kritikere mener det ikke beviser en bestemt gud." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kjennetegner god kritikk?", "options": ["Den er sint og personlig", "Den generaliserer om alle troende", "Den er saklig, informert og treffer det den kritiserer", "Den bygger på rykter"], "correct": 2, "explain": "Skiller mellom idé og mennesker." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange troende mener at tro og vitenskap kan forenes.",
+        "correct": true,
+        "explain": "Ikke alle ser en konflikt."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Ytringsfriheten beskytter bare ytringer som ingen opplever som krenkende.",
+        "correct": false,
+        "explain": "Den beskytter også krenkende kritikk."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Også sekulære livssyn kan kritiseres.",
+        "correct": true,
+        "explain": "Livssynskritikk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Religionskritikk er det samme som hets mot troende.",
+        "correct": false,
+        "explain": "God kritikk retter seg mot ideer, ikke mennesker."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et svar troende har gitt på teodiceproblemet?",
+        "options": [
+          "At ondskap ikke finnes",
+          "At frihet forutsetter muligheten til å gjøre ondt",
+          "At Gud er ond",
+          "At lidelse er tilfeldig"
+        ],
+        "correct": 1,
+        "explain": "Frihetsargumentet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva hevder et gudsbevis om første årsak?",
+        "options": [
+          "At alt må ha en første årsak, som er Gud",
+          "At verden ikke har årsak",
+          "At evolusjon er feil",
+          "At Gud er død"
+        ],
+        "correct": 0,
+        "explain": "Kritikere mener det ikke beviser en bestemt gud."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kjennetegner god kritikk?",
+        "options": [
+          "Den er sint og personlig",
+          "Den generaliserer om alle troende",
+          "Den er saklig, informert og treffer det den kritiserer",
+          "Den bygger på rykter"
+        ],
+        "correct": 2,
+        "explain": "Skiller mellom idé og mennesker."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et gudsbevis kan ta utgangspunkt i at alt må ha en første årsak. Forklar hvordan dette brukes som argument for at Gud finnes, og hvorfor kritikere mener at argumentet ikke beviser en bestemt gud.",
+        "fasit": "Argumentet hevder at alt må ha en første årsak, og bruker dette som grunn til å tro at Gud finnes. Kritikere mener at argumentet ikke viser at denne årsaken må være en bestemt gud.",
+        "kriterier": [
+          "Forklarer at en første årsak brukes som argument for Guds eksistens.",
+          "Forklarer at argumentet ikke beviser en bestemt gud."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Noen religiøse forklaringer hevder at verden bare er noen tusen år gammel, mens vitenskapelig kunnskap motsier dette. Forklar hvorfor dette er et eksempel på vitenskapelig religionskritikk, og nevn hvordan mange troende forholder seg til konflikten.",
+        "fasit": "Dette er vitenskapelig religionskritikk fordi den religiøse forklaringen av naturen strider mot vitenskapelig kunnskap. Mange troende mener likevel at tro og vitenskap kan forenes.",
+        "kriterier": [
+          "Knytter kritikken til at en religiøs naturforklaring er i strid med vitenskapelig kunnskap.",
+          "Får fram at mange troende mener tro og vitenskap kan forenes."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Kritikere viser til religionskriger og diskriminering, mens forsvarere viser til nestekjærlighet og velferd. Forklar hvorfor begge synene er eksempler på moralsk vurdering av religion.",
+        "fasit": "Begge vurderer religion ut fra hvilke handlinger og følger den kan føre til. Kritikerne peker på skade, mens forsvarerne viser til positive bidrag som nestekjærlighet og velferd.",
+        "kriterier": [
+          "Forklarer at moralsk religionskritikk handler om hvorvidt religion fører til gode eller dårlige handlinger.",
+          "Skiller mellom eksempler på skadelige handlinger og positive bidrag."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign Feuerbachs og Freuds forklaringer på religion. Hva mente hver av dem at religion springer ut av?",
+        "fasit": "Feuerbach mente at Gud er en projeksjon av menneskets egne idealer. Freud mente at religion er en illusjon som springer ut av behovet for en beskyttende farsfigur.",
+        "kriterier": [
+          "Forklarer Feuerbachs tanke om Gud som en projeksjon av menneskelige idealer.",
+          "Forklarer Freuds tanke om religion som knyttet til behovet for en beskyttende farsfigur."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Marx kalte religion «opium for folket», mens Nietzsche kritiserte kristen moral som «slavemoral». Forklar hva de kritiserte ved religion eller kristen moral, og vis hvordan kritikkene er forskjellige.",
+        "fasit": "Marx mente at religion demper lidelse, men kan hindre folk i å forandre urettferdige forhold. Nietzsche mente at kristen moral undertrykker livskraften; han kritiserte dermed moralens virkning på mennesket.",
+        "kriterier": [
+          "Får fram Marx’ tanke om at religion kan dempe lidelse og hindre endring av urett.",
+          "Får fram Nietzsches kritikk av kristen moral som undertrykkende for livskraften."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En troende reformator foreslår nye tolkninger av regler som begrenser kvinners frihet. Forklar hvorfor dette kan regnes både som intern kritikk og feministisk religionskritikk.",
+        "fasit": "Det er intern kritikk fordi reformatoren selv er troende og kritiserer innenfra. Det er feministisk kritikk fordi den retter seg mot regler som begrenser kvinners frihet.",
+        "kriterier": [
+          "Forklarer at kritikken er intern fordi den kommer fra en troende selv.",
+          "Knytter den feministiske kritikken til begrensninger på kvinners frihet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En kommentator viser til overgrep i et trossamfunn og konkluderer med at alle religiøse mennesker er farlige. Forklar hvorfor konklusjonen ikke er godt rettet religionskritikk, og hva kritikken heller bør rette seg mot.",
+        "fasit": "Konklusjonen generaliserer fra handlinger i et trossamfunn til alle som tror, og retter seg dermed mot mennesker som gruppe. Kritikken bør heller være saklig og rette seg mot de konkrete handlingene eller institusjonen.",
+        "kriterier": [
+          "Peker på at kommentatoren generaliserer fra bestemte handlinger til alle religiøse mennesker.",
+          "Forklarer at god kritikk bør rette seg mot ideer, handlinger eller institusjoner, ikke mennesker som gruppe."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En kritiker spør om et rent materialistisk verdensbilde kan gi mennesker mening. Forklar hvorfor dette er livssynskritikk, og hva ved livssynet som blir satt spørsmålstegn ved.",
+        "fasit": "Det er livssynskritikk fordi kritikken retter seg mot et sekulært, materialistisk verdensbilde, ikke mot en religiøs påstand. Den setter spørsmålstegn ved om et slikt verdensbilde kan gi mening.",
+        "kriterier": [
+          "Identifiserer kritikken som rettet mot et sekulært livssyn eller verdensbilde.",
+          "Forklarer at spørsmålet gjelder om et rent materialistisk verdensbilde kan gi mening."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

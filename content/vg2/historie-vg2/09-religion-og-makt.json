@@ -4,79 +4,427 @@
   "trinnId": "vg2",
   "name": "Religion, makt og identitet",
   "intro": "Religionens betydning for samfunns- og maktforhold fra middelalderen til vår tid – kristningen av Norge, kirkens makt, reformasjonen, hekseprosessene, religionsfrihet og sekularisering – og religionens rolle i menneskers selvoppfatning og syn på andre.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Kristningen av Norge\n\n**Kristendommen** kom til Norge gjennom kontakt med Europa i **vikingtiden**. Kongene **Olav Tryggvason** og **Olav Haraldsson** brukte kristningen til å **samle riket** og styrke kongemakten. Olav Haraldsson falt i slaget på **Stiklestad** i **1030**, men ble raskt dyrket som **helgen** – **Olav den hellige**. **Nidaros** (Trondheim) ble et viktig pilegrimssted og fikk eget **erkebispesete** i **1150-årene**.\n\n## Kirkens makt i middelalderen\n\nKirken ble en av de mektigste institusjonene i samfunnet. Den eide mye **jord**, krevde **tiende**, drev **skoler** og **sykehus**, og **paven** i Roma hadde stor makt også over kongene. Kirken **legitimerte** kongemakten, men kunne også komme i **konflikt** med kongen om hvem som skulle ha det siste ordet.\n\n## Reformasjonen\n\nI **1517** kritiserte **Martin Luther** kirkens handel med **avlat**. Protesten førte til **reformasjonen**, som delte den vestlige kristenheten. I **Danmark-Norge** ble **lutherdommen** innført i **1537**. Kongen overtok kirkens **eiendom** og ble kirkens **overhode** – kirken ble en **statskirke** og et redskap for kongens makt.\n\n## Religion og tvang\n\nI **tidlig nytid** var religiøs **enhet** viktig for staten. **Religionskriger**, som **trettiårskrigen** (1618–1648), herjet Europa. I Norge ble mange anklaget for **trolldom** i **hekseprosessene** på 1600-tallet – særlig i **Finnmark**, der mange **kvinner** og **samer** ble henrettet. **Steilneset minnested** i Vardø minner om ofrene.\n\n## Religionsfrihet\n\nGrunnloven fra **1814** slo fast at den **evangelisk-lutherske** religionen var statens religion, og **jøder**, **jesuitter** og **munkeordener** ble utestengt.\n\n- **Dissenterloven** (**1845**) ga andre kristne trossamfunn rett til å drive virksomhet.\n- **Jødeparagrafen** ble opphevet i **1851**.\n- **Religionsfrihet** ble tatt inn i Grunnloven i **1964**.\n- Fra **2012** og **2017** ble **Den norske kirke** gradvis skilt fra staten.\n\n## Sekularisering\n\n**Sekularisering** betyr at religionen får **mindre betydning** i samfunnet og i folks liv. I Norge har kirkens rolle i skole, politikk og hverdag blitt mindre, og **færre** går i kirken. Samtidig har Norge blitt mer **religiøst mangfoldig**, med flere muslimer, katolikker og andre.\n\n## Religion, identitet og «de andre»\n\nReligion har gitt mennesker **fellesskap**, **mening** og **moral** – og har inspirert **fredsarbeid** og kamp for **rettferdighet**, som borgerrettighetsbevegelsen i USA under presten **Martin Luther King Jr.**\n\nMen religion har også blitt brukt til å trekke skarpe skiller mellom **«oss»** og **«de andre»**:\n\n- **Korstogene** (fra **1096**) mot muslimer i Midtøsten\n- **Antisemittisme** – hat mot jøder – gjennom hele historien, som endte i **Holocaust**\n- **Islamofobi** og **religiøs ekstremisme** i vår tid\n- Religion har vært brukt til å **rettferdiggjøre** kolonialisme og undertrykkelse\n\nNår du vurderer religionens rolle, spør: Hvordan har religion påvirket hvordan mennesker ser på **seg selv** – og på **andre**?",
   "flashcards": [
-    { "term": "Stiklestad 1030", "def": "Slaget der Olav Haraldsson falt – han ble senere Olav den hellige." },
-    { "term": "Nidaros", "def": "Trondheim – pilegrimssted og erkebispesete fra 1150-årene." },
-    { "term": "Kristningen", "def": "Overgangen fra norrøn religion til kristendom." },
-    { "term": "Paven", "def": "Overhodet for den katolske kirken." },
-    { "term": "Avlat", "def": "Tilgivelse for synder som kunne kjøpes – kritisert av Luther." },
-    { "term": "Martin Luther", "def": "Startet reformasjonen i 1517." },
-    { "term": "Reformasjonen i Danmark-Norge", "def": "1537 – lutherdommen ble innført og kongen overtok kirken." },
-    { "term": "Statskirke", "def": "Kirke styrt av staten." },
-    { "term": "Trettiårskrigen", "def": "Religionskrig i Europa 1618–1648." },
-    { "term": "Hekseprosessene", "def": "Rettssaker om trolldom på 1600-tallet, særlig i Finnmark." },
-    { "term": "Steilneset minnested", "def": "Minnested i Vardø for ofrene for hekseprosessene." },
-    { "term": "Dissenterloven 1845", "def": "Ga andre kristne trossamfunn rett til å drive virksomhet." },
-    { "term": "Religionsfrihet i Grunnloven", "def": "Tatt inn i 1964." },
-    { "term": "Sekularisering", "def": "At religionen får mindre betydning i samfunnet." },
-    { "term": "Antisemittisme", "def": "Hat og fordommer mot jøder." }
+    {
+      "term": "Stiklestad 1030",
+      "def": "Slaget der Olav Haraldsson falt – han ble senere Olav den hellige."
+    },
+    {
+      "term": "Nidaros",
+      "def": "Trondheim – pilegrimssted og erkebispesete fra 1150-årene."
+    },
+    {
+      "term": "Kristningen",
+      "def": "Overgangen fra norrøn religion til kristendom."
+    },
+    {
+      "term": "Paven",
+      "def": "Overhodet for den katolske kirken."
+    },
+    {
+      "term": "Avlat",
+      "def": "Tilgivelse for synder som kunne kjøpes – kritisert av Luther."
+    },
+    {
+      "term": "Martin Luther",
+      "def": "Startet reformasjonen i 1517."
+    },
+    {
+      "term": "Reformasjonen i Danmark-Norge",
+      "def": "1537 – lutherdommen ble innført og kongen overtok kirken."
+    },
+    {
+      "term": "Statskirke",
+      "def": "Kirke styrt av staten."
+    },
+    {
+      "term": "Trettiårskrigen",
+      "def": "Religionskrig i Europa 1618–1648."
+    },
+    {
+      "term": "Hekseprosessene",
+      "def": "Rettssaker om trolldom på 1600-tallet, særlig i Finnmark."
+    },
+    {
+      "term": "Steilneset minnested",
+      "def": "Minnested i Vardø for ofrene for hekseprosessene."
+    },
+    {
+      "term": "Dissenterloven 1845",
+      "def": "Ga andre kristne trossamfunn rett til å drive virksomhet."
+    },
+    {
+      "term": "Religionsfrihet i Grunnloven",
+      "def": "Tatt inn i 1964."
+    },
+    {
+      "term": "Sekularisering",
+      "def": "At religionen får mindre betydning i samfunnet."
+    },
+    {
+      "term": "Antisemittisme",
+      "def": "Hat og fordommer mot jøder."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva skjedde på Stiklestad i 1030?", "options": ["Reformasjonen startet", "Olav Haraldsson falt i slaget", "Nidarosdomen ble ferdig", "Norge ble kristnet på én dag"], "correct": 1, "explain": "Han ble senere dyrket som Olav den hellige." },
-    { "id": "q02", "text": "Hva kritiserte Martin Luther i 1517?", "options": ["Kirkens handel med avlat", "Kongens skatter", "Vitenskapen", "Islam"], "correct": 0, "explain": "Protesten førte til reformasjonen." },
-    { "id": "q03", "text": "Hva skjedde med kirken i Danmark-Norge etter reformasjonen i 1537?", "options": ["Den ble uavhengig av staten", "Paven fikk mer makt", "Kongen overtok kirkens eiendom og ble dens overhode", "Kirken ble avskaffet"], "correct": 2, "explain": "Kirken ble en statskirke." },
-    { "id": "q04", "text": "Hvor i Norge var hekseprosessene særlig omfattende?", "options": ["Oslo", "Bergen", "Trøndelag", "Finnmark"], "correct": 3, "explain": "Steilneset minnested i Vardø minner om ofrene." },
-    { "id": "q05", "text": "Når ble jødeparagrafen opphevet?", "options": ["1851", "1814", "1964", "2012"], "correct": 0, "explain": "Wergeland kjempet for opphevelsen." },
-    { "id": "q06", "text": "Hva er sekularisering?", "options": ["At religionen får mer makt", "At religionen får mindre betydning i samfunnet", "At kirken blir statskirke", "At man bygger flere kirker"], "correct": 1, "explain": "Færre går i kirken i Norge i dag." },
-    { "id": "q07", "text": "Hva slo Grunnloven fra 1814 fast om religion?", "options": ["Full religionsfrihet", "At staten ikke skulle ha religion", "At den evangelisk-lutherske religionen var statens religion", "At alle religioner var likestilte"], "correct": 2, "explain": "Jøder, jesuitter og munkeordener ble utestengt." },
-    { "id": "q08", "text": "Hvordan har religion blitt brukt til å skape skiller mellom «oss» og «de andre»?", "options": ["Gjennom felles bønn", "Gjennom veldedighet", "Gjennom fredsarbeid", "Gjennom korstog, antisemittisme og rettferdiggjøring av undertrykkelse"], "correct": 3, "explain": "Religion har også inspirert fellesskap og fredsarbeid." },
-    { "id": "q09", "text": "Når ble religionsfrihet tatt inn i Grunnloven?", "options": ["1964", "1814", "1851", "2017"], "correct": 0, "explain": "Dissenterloven kom allerede i 1845." },
-    { "id": "q10", "text": "Hvilken religiøs leder ledet borgerrettighetsbevegelsen i USA?", "options": ["Martin Luther", "Martin Luther King Jr.", "Paven", "Olav den hellige"], "correct": 1, "explain": "Han var baptistprest." }
+    {
+      "id": "q01",
+      "text": "Hva skjedde på Stiklestad i 1030?",
+      "options": [
+        "Reformasjonen startet",
+        "Olav Haraldsson falt i slaget",
+        "Nidarosdomen ble ferdig",
+        "Norge ble kristnet på én dag"
+      ],
+      "correct": 1,
+      "explain": "Han ble senere dyrket som Olav den hellige."
+    },
+    {
+      "id": "q02",
+      "text": "Hva kritiserte Martin Luther i 1517?",
+      "options": [
+        "Kirkens handel med avlat",
+        "Kongens skatter",
+        "Vitenskapen",
+        "Islam"
+      ],
+      "correct": 0,
+      "explain": "Protesten førte til reformasjonen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva skjedde med kirken i Danmark-Norge etter reformasjonen i 1537?",
+      "options": [
+        "Den ble uavhengig av staten",
+        "Paven fikk mer makt",
+        "Kongen overtok kirkens eiendom og ble dens overhode",
+        "Kirken ble avskaffet"
+      ],
+      "correct": 2,
+      "explain": "Kirken ble en statskirke."
+    },
+    {
+      "id": "q04",
+      "text": "Hvor i Norge var hekseprosessene særlig omfattende?",
+      "options": [
+        "Oslo",
+        "Bergen",
+        "Trøndelag",
+        "Finnmark"
+      ],
+      "correct": 3,
+      "explain": "Steilneset minnested i Vardø minner om ofrene."
+    },
+    {
+      "id": "q05",
+      "text": "Når ble jødeparagrafen opphevet?",
+      "options": [
+        "1851",
+        "1814",
+        "1964",
+        "2012"
+      ],
+      "correct": 0,
+      "explain": "Wergeland kjempet for opphevelsen."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er sekularisering?",
+      "options": [
+        "At religionen får mer makt",
+        "At religionen får mindre betydning i samfunnet",
+        "At kirken blir statskirke",
+        "At man bygger flere kirker"
+      ],
+      "correct": 1,
+      "explain": "Færre går i kirken i Norge i dag."
+    },
+    {
+      "id": "q07",
+      "text": "Hva slo Grunnloven fra 1814 fast om religion?",
+      "options": [
+        "Full religionsfrihet",
+        "At staten ikke skulle ha religion",
+        "At den evangelisk-lutherske religionen var statens religion",
+        "At alle religioner var likestilte"
+      ],
+      "correct": 2,
+      "explain": "Jøder, jesuitter og munkeordener ble utestengt."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan har religion blitt brukt til å skape skiller mellom «oss» og «de andre»?",
+      "options": [
+        "Gjennom felles bønn",
+        "Gjennom veldedighet",
+        "Gjennom fredsarbeid",
+        "Gjennom korstog, antisemittisme og rettferdiggjøring av undertrykkelse"
+      ],
+      "correct": 3,
+      "explain": "Religion har også inspirert fellesskap og fredsarbeid."
+    },
+    {
+      "id": "q09",
+      "text": "Når ble religionsfrihet tatt inn i Grunnloven?",
+      "options": [
+        "1964",
+        "1814",
+        "1851",
+        "2017"
+      ],
+      "correct": 0,
+      "explain": "Dissenterloven kom allerede i 1845."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken religiøs leder ledet borgerrettighetsbevegelsen i USA?",
+      "options": [
+        "Martin Luther",
+        "Martin Luther King Jr.",
+        "Paven",
+        "Olav den hellige"
+      ],
+      "correct": 1,
+      "explain": "Han var baptistprest."
+    }
   ],
   "mindmap": {
     "label": "Religion og makt",
     "children": [
-      { "label": "Middelalderen", "children": [
-        { "label": "Kristningen" },
-        { "label": "Stiklestad 1030" },
-        { "label": "Kirkens makt" }
-      ] },
-      { "label": "Reformasjonen", "children": [
-        { "label": "Luther 1517" },
-        { "label": "Danmark-Norge 1537" },
-        { "label": "Statskirke" }
-      ] },
-      { "label": "Tvang", "children": [
-        { "label": "Religionskriger" },
-        { "label": "Hekseprosessene" }
-      ] },
-      { "label": "Frihet", "children": [
-        { "label": "Dissenterloven 1845" },
-        { "label": "Jødeparagrafen 1851" },
-        { "label": "Religionsfrihet 1964" },
-        { "label": "Sekularisering" }
-      ] },
-      { "label": "Identitet", "children": [
-        { "label": "Fellesskap og moral" },
-        { "label": "Oss og de andre" },
-        { "label": "Antisemittisme" }
-      ] }
+      {
+        "label": "Middelalderen",
+        "children": [
+          {
+            "label": "Kristningen"
+          },
+          {
+            "label": "Stiklestad 1030"
+          },
+          {
+            "label": "Kirkens makt"
+          }
+        ]
+      },
+      {
+        "label": "Reformasjonen",
+        "children": [
+          {
+            "label": "Luther 1517"
+          },
+          {
+            "label": "Danmark-Norge 1537"
+          },
+          {
+            "label": "Statskirke"
+          }
+        ]
+      },
+      {
+        "label": "Tvang",
+        "children": [
+          {
+            "label": "Religionskriger"
+          },
+          {
+            "label": "Hekseprosessene"
+          }
+        ]
+      },
+      {
+        "label": "Frihet",
+        "children": [
+          {
+            "label": "Dissenterloven 1845"
+          },
+          {
+            "label": "Jødeparagrafen 1851"
+          },
+          {
+            "label": "Religionsfrihet 1964"
+          },
+          {
+            "label": "Sekularisering"
+          }
+        ]
+      },
+      {
+        "label": "Identitet",
+        "children": [
+          {
+            "label": "Fellesskap og moral"
+          },
+          {
+            "label": "Oss og de andre"
+          },
+          {
+            "label": "Antisemittisme"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kongene brukte kristningen til å styrke kongemakten.", "correct": true, "explain": "Kirken og kongen samarbeidet om makten." },
-      { "id": "m02", "type": "sant-usant", "text": "Den norske kirke har vært fullstendig atskilt fra staten siden 1814.", "correct": false, "explain": "Den ble gradvis skilt fra staten i 2012 og 2017." },
-      { "id": "m03", "type": "sant-usant", "text": "Mange av dem som ble henrettet for trolldom i Finnmark, var kvinner.", "correct": true, "explain": "Også mange samer ble rammet." },
-      { "id": "m04", "type": "sant-usant", "text": "Norge er i dag mindre religiøst mangfoldig enn før.", "correct": false, "explain": "Norge har blitt mer religiøst mangfoldig." },
-      { "id": "m05", "type": "flervalg", "text": "Når begynte korstogene?", "options": ["1030", "1096", "1517", "1618"], "correct": 1, "explain": "Korstogene var rettet mot muslimer i Midtøsten." },
-      { "id": "m06", "type": "flervalg", "text": "Hva ga dissenterloven fra 1845?", "options": ["Andre kristne trossamfunn rett til å drive virksomhet", "Jøder adgang til riket", "Full religionsfrihet", "Paven makt i Norge"], "correct": 0, "explain": "Det var et første steg mot religionsfrihet." },
-      { "id": "m07", "type": "flervalg", "text": "Når fikk Nidaros eget erkebispesete?", "options": ["800-årene", "1030", "1150-årene", "1537"], "correct": 2, "explain": "Nidaros ble sentrum for kirken i Norge." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kongene brukte kristningen til å styrke kongemakten.",
+        "correct": true,
+        "explain": "Kirken og kongen samarbeidet om makten."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Den norske kirke har vært fullstendig atskilt fra staten siden 1814.",
+        "correct": false,
+        "explain": "Den ble gradvis skilt fra staten i 2012 og 2017."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange av dem som ble henrettet for trolldom i Finnmark, var kvinner.",
+        "correct": true,
+        "explain": "Også mange samer ble rammet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Norge er i dag mindre religiøst mangfoldig enn før.",
+        "correct": false,
+        "explain": "Norge har blitt mer religiøst mangfoldig."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Når begynte korstogene?",
+        "options": [
+          "1030",
+          "1096",
+          "1517",
+          "1618"
+        ],
+        "correct": 1,
+        "explain": "Korstogene var rettet mot muslimer i Midtøsten."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva ga dissenterloven fra 1845?",
+        "options": [
+          "Andre kristne trossamfunn rett til å drive virksomhet",
+          "Jøder adgang til riket",
+          "Full religionsfrihet",
+          "Paven makt i Norge"
+        ],
+        "correct": 0,
+        "explain": "Det var et første steg mot religionsfrihet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Når fikk Nidaros eget erkebispesete?",
+        "options": [
+          "800-årene",
+          "1030",
+          "1150-årene",
+          "1537"
+        ],
+        "correct": 2,
+        "explain": "Nidaros ble sentrum for kirken i Norge."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Kristendommen kom til Norge gjennom kontakt med Europa i vikingtiden. Olav Tryggvason og Olav Haraldsson brukte kristningen til å samle riket. Forklar hvordan kristningen også kunne styrke kongemakten.",
+        "fasit": "Når flere i riket fulgte den samme religionen, kunne det bidra til å samle riket. Kongene kunne dermed bruke kristendommen til å styrke sin egen makt.",
+        "kriterier": [
+          "Forklarer at kristendommen kunne bidra til å samle riket.",
+          "Knytter samlingen til at kongenes makt ble styrket."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I middelalderen eide kirken mye jord, krevde tiende og drev skoler og sykehus. Paven hadde også stor makt. Forklar hvordan kirken både kunne støtte kongen og komme i konflikt med ham.",
+        "fasit": "Kirken kunne legitimere kongemakten og dermed støtte kongen. Samtidig hadde kirken og paven stor egen makt, så kirken kunne utfordre kongen om hvem som skulle bestemme.",
+        "kriterier": [
+          "Forklarer hvordan kirken kunne støtte kongen ved å legitimere makten hans.",
+          "Forklarer at kirkens egen makt kunne føre til konflikt om hvem som skulle ha det siste ordet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Nidaros i Trondheim var et pilegrimssted og fikk erkebispesete i 1150-årene. Steilneset minnested i Vardø minnes ofrene for hekseprosessene. Forklar hva de to stedene forteller om ulike sider ved religionens historie i Norge.",
+        "fasit": "Nidaros viser at kristendommen fikk viktige religiøse sentre og tiltrakk seg pilegrimer. Steilneset minner om forfølgelsen av mennesker som ble anklaget for trolldom.",
+        "kriterier": [
+          "Knytter Nidaros til pilegrimsferd eller kirkens institusjoner.",
+          "Knytter Steilneset til ofrene for hekseprosessene eller religiøs forfølgelse."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I 1814 var jøder, jesuitter og munkeordener utestengt fra Norge. Dissenterloven i 1845 ga andre kristne trossamfunn rett til å drive virksomhet, jødeparagrafen ble opphevet i 1851, og religionsfrihet kom inn i Grunnloven i 1964. Den norske kirke ble gradvis skilt fra staten i 2012 og 2017. Forklar hovedtrekkene i denne utviklingen.",
+        "fasit": "Utviklingen gikk fra religiøse utestengelser til større rettigheter for ulike trosretninger og religionsfrihet. Senere ble også båndet mellom staten og Den norske kirke gradvis svekket.",
+        "kriterier": [
+          "Beskriver en utvikling fra utestengelse til større religiøse rettigheter eller religionsfrihet.",
+          "Får fram at Den norske kirke gradvis ble skilt fra staten."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Trettiårskrigen var en religionskrig i Europa fra 1618 til 1648. På 1600-tallet ble mennesker i Norge anklaget for trolldom i hekseprosessene, særlig i Finnmark, der mange kvinner og samer ble henrettet. Forklar én likhet og én forskjell mellom disse to historiske hendelsene.",
+        "fasit": "Begge hendelsene viser at religion kunne være knyttet til vold og forfølgelse. Trettiårskrigen var en krig i Europa, mens hekseprosessene var rettssaker mot mennesker anklaget for trolldom, særlig i Finnmark.",
+        "kriterier": [
+          "Peker på at begge hendelsene var knyttet til religion og vold eller forfølgelse.",
+          "Skiller mellom krig i Europa og rettssaker om trolldom i Norge."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I et samfunn får kirken mindre betydning i skolen, politikken og hverdagen, og færre går i kirken. Samtidig blir det flere muslimer, katolikker og andre religiøse grupper. Forklar hvilke deler av situasjonen som viser sekularisering, og hvilke som viser større religiøst mangfold.",
+        "fasit": "At kirken får mindre betydning og færre går i kirken, viser sekularisering. At flere ulike religiøse grupper er til stede, viser at samfunnet blir mer religiøst mangfoldig.",
+        "kriterier": [
+          "Knytter mindre kirkelig betydning eller færre kirkegjengere til sekularisering.",
+          "Knytter flere ulike religiøse grupper til større religiøst mangfold."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Religion har inspirert arbeid for fred og rettferdighet. Martin Luther King Jr., som var prest, ledet borgerrettighetsbevegelsen i USA. Forklar hvordan dette eksemplet viser at religion kan påvirke samfunnet på en positiv måte.",
+        "fasit": "Eksemplet viser at religion kan inspirere mennesker til å arbeide for rettferdighet og endring i samfunnet. Martin Luther King Jr. brukte sin rolle som prest i ledelsen av borgerrettighetsbevegelsen.",
+        "kriterier": [
+          "Forklarer at religion kan inspirere kamp for rettferdighet eller samfunnsendring.",
+          "Knytter forklaringen til Martin Luther King Jr. og borgerrettighetsbevegelsen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Antisemittisme betyr hat og fordommer mot jøder. Forklar hvordan Holocaust viser at antisemittisme kan få alvorlige følger.",
+        "fasit": "Holocaust viser at hat og fordommer mot jøder kunne føre til omfattende forfølgelse og drap. Det er et alvorlig eksempel på følgene av antisemittisme.",
+        "kriterier": [
+          "Knytter Holocaust til forfølgelse eller drap på jøder.",
+          "Forklarer at dette viser alvorlige følger av hat eller fordommer mot jøder."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

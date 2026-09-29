@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Psykiske kriser",
   "intro": "Hva en psykisk krise er, forskjellen på utviklingskriser og traumatiske kriser, Cullbergs krisefaser, sorg, hva som påvirker hvordan det går – og mulige utfall fra nyorientering og posttraumatisk vekst til PTSD.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Hva er en psykisk krise?\n\nEn **psykisk krise** oppstår når en person møter en situasjon der **tidligere erfaringer** og vanlige **mestringsmåter** ikke strekker til. Situasjonen oppleves **overveldende**, og tilværelsen kan føles **truet**. Kriser er en del av livet, og de fleste opplever flere.\n\n## To typer kriser\n\n- **Utviklingskriser** er knyttet til **overganger** i livet som mange går gjennom: puberteten, å flytte hjemmefra, å bli forelder eller å bli pensjonist. De kommer ofte **gradvis**.\n- **Traumatiske kriser** utløses av **plutselige** og **uventede** hendelser, for eksempel dødsfall, alvorlig sykdom, ulykker, vold, samlivsbrudd eller naturkatastrofer.\n\n## Cullbergs krisefaser\n\nDen svenske psykiateren **Johan Cullberg** beskrev fire faser i en traumatisk krise. Fasene **glir over i hverandre**, og ikke alle går gjennom dem i samme rekkefølge.\n\n1. **Sjokkfasen** varer fra et kort øyeblikk til noen døgn. Personen kan virke **rolig** og **uvirkelig** – «dette skjer ikke» – eller **kaotisk**. Det er vanlig å huske lite fra denne fasen.\n2. **Reaksjonsfasen** varer ofte noen uker. Personen begynner å ta inn over seg hva som har skjedd, og kan kjenne sterk **angst**, **sinne**, **skyld**, **tristhet** og få **søvnproblemer**. **Forsvarsmekanismer**, som fornekting, kan dempe smerten.\n3. **Bearbeidingsfasen** kan vare fra et halvt til et helt år. Personen begynner å se **framover** og tar opp igjen vanlige aktiviteter, selv om det fortsatt gjør vondt.\n4. **Nyorienteringsfasen** har ingen tidsgrense. Hendelsen er blitt en del av **livshistorien**, og personen kan leve videre med **arr**, men også ny **innsikt**.\n\n## Sorg\n\n**Sorg** er en **normal** reaksjon på tap. Den kan komme i **bølger**, og den kan blusse opp igjen ved merkedager. Hos noen blir sorgen så **langvarig** og **altoppslukende** at den hindrer dem i å fungere. Da kan det være behov for **behandling**.\n\n## Hva påvirker utfallet?\n\n- **Hendelsen**: Hendelser som skyldes **andre mennesker**, som vold, oppleves ofte som ekstra belastende.\n- **Sosial støtte**: **Familie** og **venner** som er til stede, er blant de viktigste beskyttende faktorene.\n- **Tidligere erfaringer** og **sårbarhet**\n- **Mestringsstrategier** og **mestringstro**\n- **Alder** og **livssituasjon**\n\n## Mulige utfall\n\n- **Bearbeiding og nyorientering**: De fleste kommer seg gjennom en krise og fungerer godt etter hvert.\n- **Posttraumatisk vekst**: Noen opplever at krisen gir **nye verdier**, **nærere** relasjoner og en følelse av **styrke**.\n- **Psykiske lidelser**: Noen utvikler **depresjon**, **angst**, **rusproblemer** eller **posttraumatisk stresslidelse** (PTSD). PTSD kjennetegnes av\n  - **gjenopplevelse** – mareritt og påtrengende minner\n  - **unngåelse** av alt som minner om hendelsen\n  - **økt vakthet** – lettskremthet og søvnvansker\n\n## Å hjelpe noen i krise\n\n**Psykologisk førstehjelp** handler om å skape **trygghet**, **ro** og **kontakt** med andre, å styrke opplevelsen av **mestring** og å gi **håp**. Å **lytte**, være **til stede** og gi **praktisk** hjelp betyr ofte mer enn de rette ordene. Kommunene har **kriseteam**, og **fastlegen** kan henvise videre. Ved akutt fare for liv og helse ringer man **113**.\n\n## Refleksjon\n\nEn krise er både en **fare** og en **mulighet**. Den kan føre til lidelse, men også til **vekst** og nye måter å møte livet på.",
   "flashcards": [
-    { "term": "Psykisk krise", "def": "Når tidligere erfaringer og mestringsmåter ikke strekker til." },
-    { "term": "Utviklingskrise", "def": "Krise knyttet til livsoverganger, som pubertet eller å bli forelder." },
-    { "term": "Traumatisk krise", "def": "Krise utløst av en plutselig og uventet hendelse." },
-    { "term": "Johan Cullberg", "def": "Svensk psykiater som beskrev fire krisefaser." },
-    { "term": "Sjokkfasen", "def": "Uvirkelighet eller kaos, fra et øyeblikk til noen døgn." },
-    { "term": "Reaksjonsfasen", "def": "Sterke følelser som angst, sinne og skyld." },
-    { "term": "Bearbeidingsfasen", "def": "Personen begynner å se framover." },
-    { "term": "Nyorienteringsfasen", "def": "Hendelsen blir en del av livshistorien." },
-    { "term": "Sorg", "def": "Normal reaksjon på tap, ofte i bølger." },
-    { "term": "Sosial støtte", "def": "En av de viktigste beskyttende faktorene i en krise." },
-    { "term": "Posttraumatisk vekst", "def": "Positiv endring som kan følge etter en krise." },
-    { "term": "PTSD", "def": "Posttraumatisk stresslidelse med gjenopplevelse, unngåelse og økt vakthet." },
-    { "term": "Gjenopplevelse", "def": "Mareritt og påtrengende minner om hendelsen." },
-    { "term": "Psykologisk førstehjelp", "def": "Trygghet, ro, kontakt, mestring og håp." },
-    { "term": "Kriseteam", "def": "Kommunalt team som hjelper ved alvorlige hendelser." }
+    {
+      "term": "Psykisk krise",
+      "def": "Når tidligere erfaringer og mestringsmåter ikke strekker til."
+    },
+    {
+      "term": "Utviklingskrise",
+      "def": "Krise knyttet til livsoverganger, som pubertet eller å bli forelder."
+    },
+    {
+      "term": "Traumatisk krise",
+      "def": "Krise utløst av en plutselig og uventet hendelse."
+    },
+    {
+      "term": "Johan Cullberg",
+      "def": "Svensk psykiater som beskrev fire krisefaser."
+    },
+    {
+      "term": "Sjokkfasen",
+      "def": "Uvirkelighet eller kaos, fra et øyeblikk til noen døgn."
+    },
+    {
+      "term": "Reaksjonsfasen",
+      "def": "Sterke følelser som angst, sinne og skyld."
+    },
+    {
+      "term": "Bearbeidingsfasen",
+      "def": "Personen begynner å se framover."
+    },
+    {
+      "term": "Nyorienteringsfasen",
+      "def": "Hendelsen blir en del av livshistorien."
+    },
+    {
+      "term": "Sorg",
+      "def": "Normal reaksjon på tap, ofte i bølger."
+    },
+    {
+      "term": "Sosial støtte",
+      "def": "En av de viktigste beskyttende faktorene i en krise."
+    },
+    {
+      "term": "Posttraumatisk vekst",
+      "def": "Positiv endring som kan følge etter en krise."
+    },
+    {
+      "term": "PTSD",
+      "def": "Posttraumatisk stresslidelse med gjenopplevelse, unngåelse og økt vakthet."
+    },
+    {
+      "term": "Gjenopplevelse",
+      "def": "Mareritt og påtrengende minner om hendelsen."
+    },
+    {
+      "term": "Psykologisk førstehjelp",
+      "def": "Trygghet, ro, kontakt, mestring og håp."
+    },
+    {
+      "term": "Kriseteam",
+      "def": "Kommunalt team som hjelper ved alvorlige hendelser."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Når oppstår en psykisk krise?", "options": ["Når man er litt lei seg", "Når tidligere erfaringer og mestringsmåter ikke strekker til", "Bare ved dødsfall", "Bare hos voksne"], "correct": 1, "explain": "Situasjonen oppleves overveldende." },
-    { "id": "q02", "text": "Hva er et eksempel på en utviklingskrise?", "options": ["Å flytte hjemmefra", "En bilulykke", "Et dødsfall", "En naturkatastrofe"], "correct": 0, "explain": "Knyttet til livsoverganger." },
-    { "id": "q03", "text": "Hva kjennetegner sjokkfasen?", "options": ["Personen ser framover", "Hendelsen er en del av livshistorien", "Uvirkelighet eller kaos", "Posttraumatisk vekst"], "correct": 2, "explain": "Kan vare fra et øyeblikk til noen døgn." },
-    { "id": "q04", "text": "I hvilken fase kommer ofte sterke følelser som angst, sinne og skyld?", "options": ["Sjokkfasen", "Nyorienteringsfasen", "Bearbeidingsfasen", "Reaksjonsfasen"], "correct": 3, "explain": "Personen tar inn over seg hva som har skjedd." },
-    { "id": "q05", "text": "Hva er en av de viktigste beskyttende faktorene i en krise?", "options": ["Sosial støtte", "Å være alene", "Å unngå å snakke om det", "Mye skjermtid"], "correct": 0, "explain": "Familie og venner som er til stede." },
-    { "id": "q06", "text": "Hva er posttraumatisk vekst?", "options": ["At man blir fysisk sterkere", "At krisen gir nye verdier, nærere relasjoner og styrke", "En psykisk lidelse", "En fase hos Cullberg"], "correct": 1, "explain": "Et mulig positivt utfall." },
-    { "id": "q07", "text": "Hvilket symptom hører til PTSD?", "options": ["Økt appetitt", "Bedre hukommelse", "Gjenopplevelse av hendelsen", "Mer energi"], "correct": 2, "explain": "Sammen med unngåelse og økt vakthet." },
-    { "id": "q08", "text": "Hva er det vanligste utfallet av en krise?", "options": ["PTSD", "Rusproblemer", "Varig depresjon", "At personen etter hvert fungerer godt igjen"], "correct": 3, "explain": "De fleste kommer seg gjennom." },
-    { "id": "q09", "text": "Hva handler psykologisk førstehjelp om?", "options": ["Trygghet, ro, kontakt, mestring og håp", "Å gi medisiner", "Å stille diagnoser", "Å analysere drømmer"], "correct": 0, "explain": "Å lytte og være til stede." },
-    { "id": "q10", "text": "Hvilket nummer ringer du ved akutt fare for liv og helse?", "options": ["112", "113", "110", "1881"], "correct": 1, "explain": "Medisinsk nødtelefon." }
+    {
+      "id": "q01",
+      "text": "Når oppstår en psykisk krise?",
+      "options": [
+        "Når man er litt lei seg",
+        "Når tidligere erfaringer og mestringsmåter ikke strekker til",
+        "Bare ved dødsfall",
+        "Bare hos voksne"
+      ],
+      "correct": 1,
+      "explain": "Situasjonen oppleves overveldende."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er et eksempel på en utviklingskrise?",
+      "options": [
+        "Å flytte hjemmefra",
+        "En bilulykke",
+        "Et dødsfall",
+        "En naturkatastrofe"
+      ],
+      "correct": 0,
+      "explain": "Knyttet til livsoverganger."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kjennetegner sjokkfasen?",
+      "options": [
+        "Personen ser framover",
+        "Hendelsen er en del av livshistorien",
+        "Uvirkelighet eller kaos",
+        "Posttraumatisk vekst"
+      ],
+      "correct": 2,
+      "explain": "Kan vare fra et øyeblikk til noen døgn."
+    },
+    {
+      "id": "q04",
+      "text": "I hvilken fase kommer ofte sterke følelser som angst, sinne og skyld?",
+      "options": [
+        "Sjokkfasen",
+        "Nyorienteringsfasen",
+        "Bearbeidingsfasen",
+        "Reaksjonsfasen"
+      ],
+      "correct": 3,
+      "explain": "Personen tar inn over seg hva som har skjedd."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en av de viktigste beskyttende faktorene i en krise?",
+      "options": [
+        "Sosial støtte",
+        "Å være alene",
+        "Å unngå å snakke om det",
+        "Mye skjermtid"
+      ],
+      "correct": 0,
+      "explain": "Familie og venner som er til stede."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er posttraumatisk vekst?",
+      "options": [
+        "At man blir fysisk sterkere",
+        "At krisen gir nye verdier, nærere relasjoner og styrke",
+        "En psykisk lidelse",
+        "En fase hos Cullberg"
+      ],
+      "correct": 1,
+      "explain": "Et mulig positivt utfall."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket symptom hører til PTSD?",
+      "options": [
+        "Økt appetitt",
+        "Bedre hukommelse",
+        "Gjenopplevelse av hendelsen",
+        "Mer energi"
+      ],
+      "correct": 2,
+      "explain": "Sammen med unngåelse og økt vakthet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er det vanligste utfallet av en krise?",
+      "options": [
+        "PTSD",
+        "Rusproblemer",
+        "Varig depresjon",
+        "At personen etter hvert fungerer godt igjen"
+      ],
+      "correct": 3,
+      "explain": "De fleste kommer seg gjennom."
+    },
+    {
+      "id": "q09",
+      "text": "Hva handler psykologisk førstehjelp om?",
+      "options": [
+        "Trygghet, ro, kontakt, mestring og håp",
+        "Å gi medisiner",
+        "Å stille diagnoser",
+        "Å analysere drømmer"
+      ],
+      "correct": 0,
+      "explain": "Å lytte og være til stede."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket nummer ringer du ved akutt fare for liv og helse?",
+      "options": [
+        "112",
+        "113",
+        "110",
+        "1881"
+      ],
+      "correct": 1,
+      "explain": "Medisinsk nødtelefon."
+    }
   ],
   "mindmap": {
     "label": "Psykiske kriser",
     "children": [
-      { "label": "Typer", "children": [
-        { "label": "Utviklingskriser" },
-        { "label": "Traumatiske kriser" }
-      ] },
-      { "label": "Cullbergs faser", "children": [
-        { "label": "Sjokk" },
-        { "label": "Reaksjon" },
-        { "label": "Bearbeiding" },
-        { "label": "Nyorientering" }
-      ] },
-      { "label": "Påvirker", "children": [
-        { "label": "Hendelsen" },
-        { "label": "Sosial støtte" },
-        { "label": "Sårbarhet" }
-      ] },
-      { "label": "Utfall", "children": [
-        { "label": "Nyorientering" },
-        { "label": "Posttraumatisk vekst" },
-        { "label": "PTSD og depresjon" }
-      ] },
-      { "label": "Hjelp", "children": [
-        { "label": "Psykologisk førstehjelp" },
-        { "label": "Kriseteam" }
-      ] }
+      {
+        "label": "Typer",
+        "children": [
+          {
+            "label": "Utviklingskriser"
+          },
+          {
+            "label": "Traumatiske kriser"
+          }
+        ]
+      },
+      {
+        "label": "Cullbergs faser",
+        "children": [
+          {
+            "label": "Sjokk"
+          },
+          {
+            "label": "Reaksjon"
+          },
+          {
+            "label": "Bearbeiding"
+          },
+          {
+            "label": "Nyorientering"
+          }
+        ]
+      },
+      {
+        "label": "Påvirker",
+        "children": [
+          {
+            "label": "Hendelsen"
+          },
+          {
+            "label": "Sosial støtte"
+          },
+          {
+            "label": "Sårbarhet"
+          }
+        ]
+      },
+      {
+        "label": "Utfall",
+        "children": [
+          {
+            "label": "Nyorientering"
+          },
+          {
+            "label": "Posttraumatisk vekst"
+          },
+          {
+            "label": "PTSD og depresjon"
+          }
+        ]
+      },
+      {
+        "label": "Hjelp",
+        "children": [
+          {
+            "label": "Psykologisk førstehjelp"
+          },
+          {
+            "label": "Kriseteam"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Cullbergs faser glir over i hverandre og følger ikke alltid samme rekkefølge.", "correct": true, "explain": "Fasene er en modell, ikke en fast oppskrift." },
-      { "id": "m02", "type": "sant-usant", "text": "Sorg er en psykisk lidelse som alltid må behandles.", "correct": false, "explain": "Sorg er en normal reaksjon på tap." },
-      { "id": "m03", "type": "sant-usant", "text": "Hendelser som skyldes andre mennesker, oppleves ofte som ekstra belastende.", "correct": true, "explain": "For eksempel vold." },
-      { "id": "m04", "type": "sant-usant", "text": "Nyorienteringsfasen varer alltid nøyaktig ett år.", "correct": false, "explain": "Den har ingen tidsgrense." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr unngåelse ved PTSD?", "options": ["Å snakke mye om hendelsen", "Å unngå alt som minner om hendelsen", "Å sove mye", "Å søke spenning"], "correct": 1, "explain": "Et av hovedsymptomene." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr ofte mest når du skal støtte noen i krise?", "options": ["Å lytte og være til stede", "Å gi mange råd", "Å si at det går over", "Å bytte tema"], "correct": 0, "explain": "Nærvær er viktigere enn de rette ordene." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken forsvarsmekanisme er vanlig i reaksjonsfasen?", "options": ["Mestringsforventning", "Chunking", "Fornekting", "Assimilasjon"], "correct": 2, "explain": "Kan dempe smerten en stund." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Cullbergs faser glir over i hverandre og følger ikke alltid samme rekkefølge.",
+        "correct": true,
+        "explain": "Fasene er en modell, ikke en fast oppskrift."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Sorg er en psykisk lidelse som alltid må behandles.",
+        "correct": false,
+        "explain": "Sorg er en normal reaksjon på tap."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Hendelser som skyldes andre mennesker, oppleves ofte som ekstra belastende.",
+        "correct": true,
+        "explain": "For eksempel vold."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Nyorienteringsfasen varer alltid nøyaktig ett år.",
+        "correct": false,
+        "explain": "Den har ingen tidsgrense."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr unngåelse ved PTSD?",
+        "options": [
+          "Å snakke mye om hendelsen",
+          "Å unngå alt som minner om hendelsen",
+          "Å sove mye",
+          "Å søke spenning"
+        ],
+        "correct": 1,
+        "explain": "Et av hovedsymptomene."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr ofte mest når du skal støtte noen i krise?",
+        "options": [
+          "Å lytte og være til stede",
+          "Å gi mange råd",
+          "Å si at det går over",
+          "Å bytte tema"
+        ],
+        "correct": 0,
+        "explain": "Nærvær er viktigere enn de rette ordene."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken forsvarsmekanisme er vanlig i reaksjonsfasen?",
+        "options": [
+          "Mestringsforventning",
+          "Chunking",
+          "Fornekting",
+          "Assimilasjon"
+        ],
+        "correct": 2,
+        "explain": "Kan dempe smerten en stund."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En elev opplever at vanlige måter å håndtere problemer på ikke hjelper i en vanskelig situasjon. Forklar hvorfor dette kan beskrives som en psykisk krise.",
+        "fasit": "Det kan være en psykisk krise fordi elevens tidligere erfaringer og vanlige mestringsmåter ikke strekker til. Situasjonen kan da oppleves som overveldende og true tilværelsen slik eleven kjenner den.",
+        "kriterier": [
+          "Forklarer at tidligere erfaringer eller vanlige mestringsmåter ikke strekker til.",
+          "Knytter dette til at situasjonen oppleves overveldende eller truende."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Mina flytter hjemmefra, mens Jonas blir utsatt for en plutselig ulykke. Hvem av dem står overfor en utviklingskrise, og hvem en traumatisk krise? Begrunn svaret med hva som skiller krisetypene.",
+        "fasit": "Mina står overfor en utviklingskrise, fordi det å flytte hjemmefra er en livsovergang mange går gjennom. Jonas står overfor en traumatisk krise, fordi den utløses av en plutselig og uventet hendelse.",
+        "kriterier": [
+          "Klassifiserer det å flytte hjemmefra som en utviklingskrise knyttet til en livsovergang.",
+          "Klassifiserer ulykken som en traumatisk krise fordi den er plutselig og uventet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Johan Cullberg beskrev fire faser i en traumatisk krise. Forklar hvorfor fasene ikke alltid kan brukes som en fast tidsplan for hvordan alle reagerer.",
+        "fasit": "Fasene kan gli over i hverandre, og mennesker går ikke nødvendigvis gjennom dem i samme rekkefølge. Derfor følger ikke alle en fast og lik tidsplan gjennom krisen.",
+        "kriterier": [
+          "Får fram at fasene glir over i hverandre.",
+          "Får fram at ikke alle går gjennom fasene i samme rekkefølge."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Etter en traumatisk hendelse begynner en person å se framover og tar opp igjen vanlige aktiviteter, selv om det fortsatt gjør vondt. Hvilken krisefase beskriver dette, og hva kjennetegner fasen?",
+        "fasit": "Dette beskriver bearbeidingsfasen. Personen begynner å se framover og vender tilbake til vanlige aktiviteter, selv om hendelsen fortsatt gjør vondt.",
+        "kriterier": [
+          "Identifiserer bearbeidingsfasen.",
+          "Forklarer at personen begynner å se framover eller tar opp igjen vanlige aktiviteter, samtidig som det fortsatt kan gjøre vondt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En person sørger etter et tap. Sorgen kommer i bølger og blir sterkere rundt merkedager, men personen klarer fortsatt å fungere i hverdagen. Forklar hvorfor dette kan være en normal sorgreaksjon, og hva som kan gjøre sorg så alvorlig at behandling blir aktuelt.",
+        "fasit": "Sorg er en normal reaksjon på tap, og den kan komme i bølger eller blusse opp igjen ved merkedager. Behandling kan bli aktuelt dersom sorgen blir langvarig og altoppslukende og hindrer personen i å fungere.",
+        "kriterier": [
+          "Forklarer at sorg er en normal reaksjon på tap og kan variere over tid eller blusse opp ved merkedager.",
+          "Beskriver at behandling kan være aktuelt når sorgen er langvarig og altoppslukende og hindrer fungering."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "To personer opplever en krise. Den ene er utsatt for vold fra et annet menneske, og den andre får støtte fra familie og venner som er til stede. Forklar hvordan disse to forholdene kan påvirke utfallet av en krise.",
+        "fasit": "En hendelse som skyldes et annet menneske, som vold, kan oppleves som ekstra belastende. Familie og venner som er til stede, gir sosial støtte, som er en viktig beskyttende faktor i en krise.",
+        "kriterier": [
+          "Får fram at vold eller andre hendelser forårsaket av mennesker kan være ekstra belastende.",
+          "Får fram at støtte fra familie og venner er en viktig beskyttende faktor."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar forskjellen mellom posttraumatisk vekst og en psykisk lidelse som kan utvikle seg etter en krise. Bruk ett eksempel på hver.",
+        "fasit": "Posttraumatisk vekst er en positiv endring etter en krise, for eksempel nye verdier eller en følelse av styrke. En psykisk lidelse kan for eksempel være depresjon, angst, rusproblemer eller PTSD.",
+        "kriterier": [
+          "Forklarer posttraumatisk vekst som en positiv endring etter en krise, med et relevant eksempel.",
+          "Nevner en psykisk lidelse som kan utvikle seg etter en krise."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En venn har opplevd en alvorlig hendelse og virker urolig. Beskriv to konkrete måter du kan hjelpe på gjennom psykologisk førstehjelp, og forklar hva hjelpen skal bidra til.",
+        "fasit": "Jeg kan lytte og være til stede, og jeg kan tilby praktisk hjelp. Slik hjelp kan bidra til trygghet, ro og kontakt med andre, og styrke opplevelsen av mestring og håp.",
+        "kriterier": [
+          "Beskriver minst én konkret handling, som å lytte, være til stede eller gi praktisk hjelp.",
+          "Knytter hjelpen til trygghet, ro, kontakt, mestring eller håp."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

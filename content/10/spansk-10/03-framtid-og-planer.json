@@ -4,79 +4,429 @@
   "trinnId": "10",
   "name": "Framtid, planer og yrker",
   "intro": "Hvordan du snakker om framtiden på spansk med ir a og futurum, planer og drømmer, yrker og utdanning i Spania, og hvordan du begrunner med porque og setter vilkår med si.",
-  "kompetansemaal": [3, 6],
+  "kompetansemaal": [
+    3,
+    6
+  ],
   "sammendrag": "## Å snakke om framtiden\n\nSpansk har to vanlige framtidsformer:\n\n- **ir a + infinitiv** – mye brukt i dagligtale: *Voy a estudiar esta tarde.* – Jeg skal studere i ettermiddag.\n- **Futuro simple** – infinitiv + endingene **-é, -ás, -á, -emos, -éis, -án**: *trabajar**é**, trabajar**ás**, trabajar**á** …*\n\nNoen vanlige verb har **uregelrett stamme** i futurum: tener → **tendré**, hacer → **haré**, poder → **podré**, salir → **saldré**, venir → **vendré** og decir → **diré**.\n\n## Planer og drømmer\n\n- **Quiero …** – Jeg vil …\n- **Me gustaría …** – Jeg ville gjerne …\n- **Pienso estudiar en Madrid.** – Jeg har tenkt å studere i Madrid.\n- **Sueño con ser piloto.** – Jeg drømmer om å bli pilot.\n- **Espero …** – Jeg håper …\n\n## Yrker – las profesiones\n\nMange yrker har en hankjønnsform på **-o** og en hunkjønnsform på **-a**: **médico / médica**, **enfermero / enfermera** (sykepleier), **ingeniero / ingeniera**, **cocinero / cocinera** (kokk), **informático / informática**, **veterinario / veterinaria** og **abogado / abogada** (advokat). Andre er like for begge kjønn, som **periodista** (journalist) og **policía**. *Profesor* blir **profesora** i hunkjønn.\n\nMan bruker **ikke** artikkel foran yrket etter *ser*: *Quiero ser enfermera.* *Mi padre es cocinero.*\n\n## Utdanning i Spania\n\n- Etter **la ESO** kan elevene velge **el Bachillerato**, som forbereder til universitetet, eller **la Formación Profesional (FP)**, som er yrkesfaglig utdanning.\n- For å komme inn på universitetet tar man en opptaksprøve etter Bachillerato.\n- **Las prácticas** er en praksisperiode i en bedrift.\n\n## Begrunne og sette vilkår\n\n- **porque** (fordi) – vanlig ordstilling: *Quiero ser médico **porque** me gusta ayudar a la gente.*\n- **si** (hvis) + presens, deretter futurum: *Si saco buenas notas, iré a la universidad.*\n\n## Livet i framtiden\n\n- **Me gustaría vivir en una ciudad grande / en el campo.** – Jeg ville gjerne bodd i en stor by / på landet.\n- **Me gustaría tener hijos.** – Jeg ville gjerne hatt barn.\n- **Viajaré mucho.** – Jeg skal reise mye.\n\n## Tidsuttrykk\n\n**mañana** (i morgen), **pasado mañana** (i overmorgen), **la semana que viene** (neste uke), **el año que viene** (neste år), **dentro de cinco años** (om fem år) og **más tarde** (senere).\n\n## Tips til muntlig presentasjon\n\nNår du forteller om framtidsplanene dine, kan du bruke en fast struktur: Hva vil du gjøre etter ungdomsskolen? Hvilket yrke drømmer du om, og hvorfor? Hvor vil du bo? Bruk **porque** for å begrunne, og veksle mellom *ir a* og futurum.",
   "flashcards": [
-    { "term": "ir a + infinitiv", "def": "nær framtid: Voy a estudiar." },
-    { "term": "voy a estudiar", "def": "jeg skal studere" },
-    { "term": "trabajaré", "def": "jeg skal arbeide (futurum)" },
-    { "term": "tendré / haré / podré", "def": "jeg skal ha / gjøre / kunne" },
-    { "term": "la profesión", "def": "yrket" },
-    { "term": "Quiero ser médica.", "def": "Jeg vil bli lege. (ingen artikkel foran yrket)" },
-    { "term": "enfermero / enfermera", "def": "sykepleier" },
-    { "term": "ingeniero / ingeniera", "def": "ingeniør" },
-    { "term": "el Bachillerato", "def": "videregående utdanning som forbereder til universitetet" },
-    { "term": "la Formación Profesional", "def": "yrkesfaglig utdanning" },
-    { "term": "las prácticas", "def": "praksisperioden" },
-    { "term": "porque", "def": "fordi" },
-    { "term": "Si …, iré …", "def": "Hvis …, skal jeg dra …" },
-    { "term": "el año que viene", "def": "neste år" },
-    { "term": "dentro de cinco años", "def": "om fem år" },
-    { "term": "Me gustaría …", "def": "Jeg ville gjerne …" }
+    {
+      "term": "ir a + infinitiv",
+      "def": "nær framtid: Voy a estudiar."
+    },
+    {
+      "term": "voy a estudiar",
+      "def": "jeg skal studere"
+    },
+    {
+      "term": "trabajaré",
+      "def": "jeg skal arbeide (futurum)"
+    },
+    {
+      "term": "tendré / haré / podré",
+      "def": "jeg skal ha / gjøre / kunne"
+    },
+    {
+      "term": "la profesión",
+      "def": "yrket"
+    },
+    {
+      "term": "Quiero ser médica.",
+      "def": "Jeg vil bli lege. (ingen artikkel foran yrket)"
+    },
+    {
+      "term": "enfermero / enfermera",
+      "def": "sykepleier"
+    },
+    {
+      "term": "ingeniero / ingeniera",
+      "def": "ingeniør"
+    },
+    {
+      "term": "el Bachillerato",
+      "def": "videregående utdanning som forbereder til universitetet"
+    },
+    {
+      "term": "la Formación Profesional",
+      "def": "yrkesfaglig utdanning"
+    },
+    {
+      "term": "las prácticas",
+      "def": "praksisperioden"
+    },
+    {
+      "term": "porque",
+      "def": "fordi"
+    },
+    {
+      "term": "Si …, iré …",
+      "def": "Hvis …, skal jeg dra …"
+    },
+    {
+      "term": "el año que viene",
+      "def": "neste år"
+    },
+    {
+      "term": "dentro de cinco años",
+      "def": "om fem år"
+    },
+    {
+      "term": "Me gustaría …",
+      "def": "Jeg ville gjerne …"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan lager du nær framtid med «ir»?", "options": ["haber + partisipp", "estar + gerundium", "ser + infinitiv", "ir a + infinitiv"], "correct": 3, "explain": "For eksempel «Voy a viajar»." },
-    { "id": "q02", "text": "Hvordan sier en jente «Jeg vil bli sykepleier»?", "options": ["Quiero ser una enfermera.", "Quiero ser enfermera.", "Quiero enfermera.", "Soy quiero enfermera."], "correct": 1, "explain": "Man bruker ikke artikkel foran yrket." },
-    { "id": "q03", "text": "Hva er futurum av «tener» med «yo»?", "options": ["teneré", "tenderé", "tendré", "tengo"], "correct": 2, "explain": "«tener» har stammen tendr- i futurum." },
-    { "id": "q04", "text": "Hvilken setning er riktig?", "options": ["Quiero ser profesor porque me gustan los niños.", "Quiero ser profesor porque los niños me gustan porque.", "Quiero porque ser profesor me gustan los niños.", "Porque quiero ser profesor me gustan."], "correct": 0, "explain": "Etter «porque» brukes vanlig ordstilling." },
-    { "id": "q05", "text": "Hva er «las prácticas»?", "options": ["Øvelser i matte", "En eksamen", "En praksisperiode i en bedrift", "Et skolefag"], "correct": 2, "explain": "Mange studenter har praksis i en bedrift." },
-    { "id": "q06", "text": "Hva betyr «el año que viene»?", "options": ["Neste år", "I fjor", "Hvert år", "Dette året"], "correct": 0, "explain": "I fjor heter «el año pasado»." },
-    { "id": "q07", "text": "Hva er «la Formación Profesional (FP)»?", "options": ["Et universitet", "En skoleuniform", "En eksamen", "Yrkesfaglig utdanning"], "correct": 3, "explain": "FP tilsvarer omtrent yrkesfag i Norge." },
-    { "id": "q08", "text": "Hva er hunkjønnsformen av «ingeniero»?", "options": ["ingeniere", "ingeniera", "ingenieresa", "ingeniería"], "correct": 1, "explain": "-o blir -a i hunkjønn." },
-    { "id": "q09", "text": "Hva betyr «Si saco buenas notas, iré a la universidad»?", "options": ["Jeg har gode karakterer på universitetet", "Jeg gikk på universitetet", "Universitetet er bra", "Hvis jeg får gode karakterer, skal jeg gå på universitetet"], "correct": 3, "explain": "si + presens, deretter futurum." },
-    { "id": "q10", "text": "Hva betyr «Me gustaría vivir en el campo»?", "options": ["Jeg ville gjerne bodd på landet", "Jeg bor på landet", "Jeg liker ikke landet", "Jeg bodde på landet"], "correct": 0, "explain": "«me gustaría» er en høflig måte å uttrykke ønsker på." }
+    {
+      "id": "q01",
+      "text": "Hvordan lager du nær framtid med «ir»?",
+      "options": [
+        "haber + partisipp",
+        "estar + gerundium",
+        "ser + infinitiv",
+        "ir a + infinitiv"
+      ],
+      "correct": 3,
+      "explain": "For eksempel «Voy a viajar»."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan sier en jente «Jeg vil bli sykepleier»?",
+      "options": [
+        "Quiero ser una enfermera.",
+        "Quiero ser enfermera.",
+        "Quiero enfermera.",
+        "Soy quiero enfermera."
+      ],
+      "correct": 1,
+      "explain": "Man bruker ikke artikkel foran yrket."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er futurum av «tener» med «yo»?",
+      "options": [
+        "teneré",
+        "tenderé",
+        "tendré",
+        "tengo"
+      ],
+      "correct": 2,
+      "explain": "«tener» har stammen tendr- i futurum."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken setning er riktig?",
+      "options": [
+        "Quiero ser profesor porque me gustan los niños.",
+        "Quiero ser profesor porque los niños me gustan porque.",
+        "Quiero porque ser profesor me gustan los niños.",
+        "Porque quiero ser profesor me gustan."
+      ],
+      "correct": 0,
+      "explain": "Etter «porque» brukes vanlig ordstilling."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er «las prácticas»?",
+      "options": [
+        "Øvelser i matte",
+        "En eksamen",
+        "En praksisperiode i en bedrift",
+        "Et skolefag"
+      ],
+      "correct": 2,
+      "explain": "Mange studenter har praksis i en bedrift."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr «el año que viene»?",
+      "options": [
+        "Neste år",
+        "I fjor",
+        "Hvert år",
+        "Dette året"
+      ],
+      "correct": 0,
+      "explain": "I fjor heter «el año pasado»."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er «la Formación Profesional (FP)»?",
+      "options": [
+        "Et universitet",
+        "En skoleuniform",
+        "En eksamen",
+        "Yrkesfaglig utdanning"
+      ],
+      "correct": 3,
+      "explain": "FP tilsvarer omtrent yrkesfag i Norge."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er hunkjønnsformen av «ingeniero»?",
+      "options": [
+        "ingeniere",
+        "ingeniera",
+        "ingenieresa",
+        "ingeniería"
+      ],
+      "correct": 1,
+      "explain": "-o blir -a i hunkjønn."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «Si saco buenas notas, iré a la universidad»?",
+      "options": [
+        "Jeg har gode karakterer på universitetet",
+        "Jeg gikk på universitetet",
+        "Universitetet er bra",
+        "Hvis jeg får gode karakterer, skal jeg gå på universitetet"
+      ],
+      "correct": 3,
+      "explain": "si + presens, deretter futurum."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «Me gustaría vivir en el campo»?",
+      "options": [
+        "Jeg ville gjerne bodd på landet",
+        "Jeg bor på landet",
+        "Jeg liker ikke landet",
+        "Jeg bodde på landet"
+      ],
+      "correct": 0,
+      "explain": "«me gustaría» er en høflig måte å uttrykke ønsker på."
+    }
   ],
   "mindmap": {
     "label": "Framtid og planer",
     "children": [
-      { "label": "Framtid", "children": [
-        { "label": "ir a + infinitiv" },
-        { "label": "Futuro simple" },
-        { "label": "tendré, haré, podré" }
-      ] },
-      { "label": "Planer", "children": [
-        { "label": "Quiero / Me gustaría" },
-        { "label": "Pienso …" },
-        { "label": "Sueño con …" }
-      ] },
-      { "label": "Yrker", "children": [
-        { "label": "médico / médica" },
-        { "label": "periodista, policía" },
-        { "label": "Ingen artikkel foran yrket" }
-      ] },
-      { "label": "Utdanning", "children": [
-        { "label": "ESO og Bachillerato" },
-        { "label": "Formación Profesional" },
-        { "label": "prácticas" }
-      ] },
-      { "label": "Begrunne", "children": [
-        { "label": "porque" },
-        { "label": "si + presens, futurum" }
-      ] }
+      {
+        "label": "Framtid",
+        "children": [
+          {
+            "label": "ir a + infinitiv"
+          },
+          {
+            "label": "Futuro simple"
+          },
+          {
+            "label": "tendré, haré, podré"
+          }
+        ]
+      },
+      {
+        "label": "Planer",
+        "children": [
+          {
+            "label": "Quiero / Me gustaría"
+          },
+          {
+            "label": "Pienso …"
+          },
+          {
+            "label": "Sueño con …"
+          }
+        ]
+      },
+      {
+        "label": "Yrker",
+        "children": [
+          {
+            "label": "médico / médica"
+          },
+          {
+            "label": "periodista, policía"
+          },
+          {
+            "label": "Ingen artikkel foran yrket"
+          }
+        ]
+      },
+      {
+        "label": "Utdanning",
+        "children": [
+          {
+            "label": "ESO og Bachillerato"
+          },
+          {
+            "label": "Formación Profesional"
+          },
+          {
+            "label": "prácticas"
+          }
+        ]
+      },
+      {
+        "label": "Begrunne",
+        "children": [
+          {
+            "label": "porque"
+          },
+          {
+            "label": "si + presens, futurum"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "På spansk bruker man ikke artikkel foran yrket etter «ser»: «Soy profesor».", "correct": true, "explain": "Det er som på norsk: Jeg er lærer." },
-      { "id": "m02", "type": "sant-usant", "text": "Futurum av «hacer» med «yo» er «haceré».", "correct": false, "explain": "Det heter «haré»." },
-      { "id": "m03", "type": "sant-usant", "text": "«ir a + infinitiv» brukes mye i dagligtale om framtiden.", "correct": true, "explain": "For eksempel «Mañana voy a jugar al fútbol»." },
-      { "id": "m04", "type": "sant-usant", "text": "«porque» flytter verbet til slutten av setningen.", "correct": false, "explain": "På spansk brukes vanlig ordstilling etter «porque»." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «dentro de cinco años»?", "options": ["For fem år siden", "Om fem år", "I fem år", "Hvert femte år"], "correct": 1, "explain": "For fem år siden heter «hace cinco años»." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er futurum av «poder» med «yo»?", "options": ["podré", "poderé", "puedo", "pudo"], "correct": 0, "explain": "«poder» har stammen podr- i futurum." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Sueño con ser piloto»?", "options": ["Jeg drømte om fly", "Jeg er pilot", "Jeg drømmer om å bli pilot", "Jeg liker piloter"], "correct": 2, "explain": "«soñar con» betyr å drømme om." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "På spansk bruker man ikke artikkel foran yrket etter «ser»: «Soy profesor».",
+        "correct": true,
+        "explain": "Det er som på norsk: Jeg er lærer."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Futurum av «hacer» med «yo» er «haceré».",
+        "correct": false,
+        "explain": "Det heter «haré»."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«ir a + infinitiv» brukes mye i dagligtale om framtiden.",
+        "correct": true,
+        "explain": "For eksempel «Mañana voy a jugar al fútbol»."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«porque» flytter verbet til slutten av setningen.",
+        "correct": false,
+        "explain": "På spansk brukes vanlig ordstilling etter «porque»."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «dentro de cinco años»?",
+        "options": [
+          "For fem år siden",
+          "Om fem år",
+          "I fem år",
+          "Hvert femte år"
+        ],
+        "correct": 1,
+        "explain": "For fem år siden heter «hace cinco años»."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er futurum av «poder» med «yo»?",
+        "options": [
+          "podré",
+          "poderé",
+          "puedo",
+          "pudo"
+        ],
+        "correct": 0,
+        "explain": "«poder» har stammen podr- i futurum."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «Sueño con ser piloto»?",
+        "options": [
+          "Jeg drømte om fly",
+          "Jeg er pilot",
+          "Jeg drømmer om å bli pilot",
+          "Jeg liker piloter"
+        ],
+        "correct": 2,
+        "explain": "«soñar con» betyr å drømme om."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på *ir a + infinitiv* og futurum simple. Vis forskjellen med en spansk setning om å studere med hver form.",
+        "fasit": "*Ir a + infinitiv* brukes mye om nær framtid, for eksempel *Voy a estudiar*. Futurum simple lages vanligvis med infinitiv og en framtidsending, for eksempel *Estudiaré*.",
+        "kriterier": [
+          "Forklarer at *ir a + infinitiv* brukes om nær framtid.",
+          "Forklarer at futurum simple lages med infinitiv og en ending, og gir et passende eksempel."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign *el Bachillerato* og *la Formación Profesional (FP)*. Hva forbereder de for, og når kan man velge mellom dem?",
+        "fasit": "Etter *la ESO* kan elevene velge *el Bachillerato* eller *la Formación Profesional*. Bachillerato forbereder til universitetet, mens FP er yrkesfaglig utdanning.",
+        "kriterier": [
+          "Plasserer valget etter *la ESO*.",
+          "Skiller mellom at Bachillerato forbereder til universitetet og at FP er yrkesfaglig utdanning."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En person vil si: «Hvis jeg kan, skal jeg reise mye.» Skriv setningen på spansk med *si* og en framtidsform.",
+        "fasit": "*Si puedo, viajaré mucho.*",
+        "kriterier": [
+          "Bruker presens etter *si*, for eksempel *puedo*.",
+          "Bruker futurum i hovedsetningen, for eksempel *viajaré*."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du vil bli lege fordi du liker å hjelpe mennesker. Skriv én spansk setning som knytter sammen ønsket og grunnen med *porque*.",
+        "fasit": "*Quiero ser médico porque me gusta ayudar a la gente.*",
+        "kriterier": [
+          "Uttrykker ønsket om å bli lege med *Quiero ser médico*.",
+          "Knytter til en forståelig grunn med *porque*, som at personen liker å hjelpe folk."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign yrkesordene *médico/médica* og *periodista*. Hva viser formene om kjønn, og hva er spesielt med *periodista*?",
+        "fasit": "*Médico* er hankjønnsformen og *médica* hunkjønnsformen. *Periodista* har samme form for begge kjønn.",
+        "kriterier": [
+          "Forklarer at mange yrker har hankjønnsform på *-o* og hunkjønnsform på *-a*, med *médico/médica* som eksempel.",
+          "Får fram at *periodista* har samme form for begge kjønn."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar forskjellen på regelrett og uregelrett futurum på spansk. Bruk *trabajaré* og minst én av formene *haré* eller *podré* i forklaringen.",
+        "fasit": "I regelrett futurum beholder infinitiven stammen, og man legger til en ending: *trabajaré*. Noen vanlige verb har uregelrett stamme, som *haré* fra *hacer* eller *podré* fra *poder*.",
+        "kriterier": [
+          "Forklarer at regelrette verb beholder infinitivstammen og får en futurumending.",
+          "Viser at et uregelrett verb får endret stamme, med riktig eksempel som *haré* eller *podré*."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sett disse tidene i riktig rekkefølge fra nærmest til lengst fram i tid: *la semana que viene*, *mañana*, *pasado mañana*. Forklar kort hvordan du vet rekkefølgen.",
+        "fasit": "Rekkefølgen er *mañana*, *pasado mañana*, *la semana que viene*. I morgen kommer før i overmorgen, som kommer før neste uke.",
+        "kriterier": [
+          "Setter alle tre uttrykkene i riktig rekkefølge.",
+          "Viser at *mañana* er i morgen og *pasado mañana* i overmorgen, før neste uke."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En person har tenkt å studere i Madrid og drømmer om å bli pilot. Skriv dette på spansk ved å bruke både *Pienso estudiar* og *Sueño con ser*.",
+        "fasit": "*Pienso estudiar en Madrid. Sueño con ser piloto.*",
+        "kriterier": [
+          "Bruker *Pienso estudiar* til å uttrykke planen om å studere i Madrid.",
+          "Bruker *Sueño con ser* til å uttrykke drømmen om å bli pilot."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

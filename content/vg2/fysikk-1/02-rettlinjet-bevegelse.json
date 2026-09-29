@@ -4,79 +4,427 @@
   "trinnId": "vg2",
   "name": "Rettlinjet bevegelse",
   "intro": "Posisjon, forflytning, fart og akselerasjon, grafer for bevegelse, de fire bevegelseslikningene for konstant akselerasjon og fritt fall – med regneeksempler.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Grunnbegreper\n\n- **Posisjon** (s): hvor et legeme er, målt fra et **nullpunkt**.\n- **Forflytning** (Δs): endring i posisjon – kan være **negativ**.\n- **Fart** (v): hvor raskt posisjonen endres. **Gjennomsnittsfart** = Δs / Δt. Enhet **m/s**.\n- **Akselerasjon** (a): hvor raskt farten endres, a = Δv / Δt. Enhet **m/s²**.\n\nFart og akselerasjon har **retning**. Vi velger en **positiv retning**, og da kan fart og akselerasjon være negative. Negativ akselerasjon kan bety **oppbremsing** – men ikke alltid: Det avhenger av fartens retning.\n\n## Grafer\n\n- I en **s-t-graf** er **stigningstallet** lik **farten**. En rett linje betyr konstant fart.\n- I en **v-t-graf** er **stigningstallet** lik **akselerasjonen**, og **arealet under grafen** er lik **forflytningen**.\n- I en **a-t-graf** er arealet under grafen lik **endringen i fart**.\n\n## Bevegelseslikningene\n\nNår **akselerasjonen er konstant**, gjelder:\n\n1. **v = v₀ + at**\n2. **s = v₀t + ½at²**\n3. **v² − v₀² = 2as**\n4. **s = ½(v₀ + v)t**\n\nHer er v₀ startfarten, v farten etter tiden t, og s forflytningen. Velg likningen som inneholder de **kjente** størrelsene og den **ukjente** du skal finne.\n\n**Eksempel**: En bil starter fra ro og akselererer med 2,0 m/s² i 5,0 s.\n\n- v = 0 + 2,0 · 5,0 = **10 m/s**\n- s = 0 + ½ · 2,0 · 5,0² = **25 m**\n\n## Fritt fall\n\nNær jordoverflaten faller alle legemer med samme akselerasjon når vi ser bort fra luftmotstand: **g ≈ 9,81 m/s²**, rettet nedover.\n\n**Eksempel**: En stein slippes fra 20 m høyde. Hvor lang tid bruker den?\n\n20 = ½ · 9,81 · t² → t = √(2 · 20 / 9,81) ≈ **2,0 s**\n\nFarten når den treffer bakken: v = √(2 · 9,81 · 20) ≈ **20 m/s** (19,8 m/s).\n\n## Loddrett kast\n\nKaster du en ball rett opp med startfart v₀, er akselerasjonen **−g** hele tiden (med positiv retning oppover). På **toppen** er farten **null**, men akselerasjonen er fortsatt −g. Tiden opp er t = v₀/g.\n\n## Framgangsmåte\n\n1. Tegn en **figur** og velg **positiv retning**.\n2. Skriv opp **kjente** og **ukjente** størrelser.\n3. Velg riktig **likning** og løs.\n4. Sjekk **enhet** og om svaret er **rimelig**.",
   "flashcards": [
-    { "term": "Forflytning", "def": "Endring i posisjon, Δs – kan være negativ." },
-    { "term": "Gjennomsnittsfart", "def": "Δs / Δt" },
-    { "term": "Akselerasjon", "def": "a = Δv / Δt, enhet m/s²." },
-    { "term": "Stigningstall i s-t-graf", "def": "Farten." },
-    { "term": "Stigningstall i v-t-graf", "def": "Akselerasjonen." },
-    { "term": "Areal under v-t-graf", "def": "Forflytningen." },
-    { "term": "v = v₀ + at", "def": "Første bevegelseslikning." },
-    { "term": "s = v₀t + ½at²", "def": "Andre bevegelseslikning." },
-    { "term": "v² − v₀² = 2as", "def": "Tidløs bevegelseslikning." },
-    { "term": "s = ½(v₀ + v)t", "def": "Forflytning fra gjennomsnittsfart." },
-    { "term": "g", "def": "Tyngdeakselerasjonen, ca. 9,81 m/s²." },
-    { "term": "Fritt fall", "def": "Fall der bare tyngdekraften virker." },
-    { "term": "Toppunkt i loddrett kast", "def": "Farten er null, men akselerasjonen er fortsatt −g." },
-    { "term": "Positiv retning", "def": "Retningen vi velger som positiv for fart og akselerasjon." },
-    { "term": "Konstant akselerasjon", "def": "Forutsetningen for bevegelseslikningene." }
+    {
+      "term": "Forflytning",
+      "def": "Endring i posisjon, Δs – kan være negativ."
+    },
+    {
+      "term": "Gjennomsnittsfart",
+      "def": "Δs / Δt"
+    },
+    {
+      "term": "Akselerasjon",
+      "def": "a = Δv / Δt, enhet m/s²."
+    },
+    {
+      "term": "Stigningstall i s-t-graf",
+      "def": "Farten."
+    },
+    {
+      "term": "Stigningstall i v-t-graf",
+      "def": "Akselerasjonen."
+    },
+    {
+      "term": "Areal under v-t-graf",
+      "def": "Forflytningen."
+    },
+    {
+      "term": "v = v₀ + at",
+      "def": "Første bevegelseslikning."
+    },
+    {
+      "term": "s = v₀t + ½at²",
+      "def": "Andre bevegelseslikning."
+    },
+    {
+      "term": "v² − v₀² = 2as",
+      "def": "Tidløs bevegelseslikning."
+    },
+    {
+      "term": "s = ½(v₀ + v)t",
+      "def": "Forflytning fra gjennomsnittsfart."
+    },
+    {
+      "term": "g",
+      "def": "Tyngdeakselerasjonen, ca. 9,81 m/s²."
+    },
+    {
+      "term": "Fritt fall",
+      "def": "Fall der bare tyngdekraften virker."
+    },
+    {
+      "term": "Toppunkt i loddrett kast",
+      "def": "Farten er null, men akselerasjonen er fortsatt −g."
+    },
+    {
+      "term": "Positiv retning",
+      "def": "Retningen vi velger som positiv for fart og akselerasjon."
+    },
+    {
+      "term": "Konstant akselerasjon",
+      "def": "Forutsetningen for bevegelseslikningene."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er stigningstallet i en v-t-graf?", "options": ["Farten", "Akselerasjonen", "Forflytningen", "Tiden"], "correct": 1, "explain": "a = Δv/Δt." },
-    { "id": "q02", "text": "Hva er arealet under en v-t-graf?", "options": ["Forflytningen", "Akselerasjonen", "Farten", "Massen"], "correct": 0, "explain": "Fart ganger tid gir strekning." },
-    { "id": "q03", "text": "En bil starter fra ro med a = 2,0 m/s². Hva er farten etter 5,0 s?", "options": ["2,5 m/s", "7,0 m/s", "10 m/s", "25 m/s"], "correct": 2, "explain": "v = at = 2,0 · 5,0." },
-    { "id": "q04", "text": "Hvor langt har bilen kjørt etter 5,0 s med a = 2,0 m/s² fra ro?", "options": ["10 m", "50 m", "12,5 m", "25 m"], "correct": 3, "explain": "s = ½ · 2,0 · 5,0² = 25 m." },
-    { "id": "q05", "text": "Hvor stor er tyngdeakselerasjonen ved jordoverflaten?", "options": ["Omtrent 9,81 m/s²", "Omtrent 1 m/s²", "Omtrent 98 m/s²", "Omtrent 3,0 · 10⁸ m/s²"], "correct": 0, "explain": "Rettet nedover." },
-    { "id": "q06", "text": "Hva er farten og akselerasjonen på toppen av et loddrett kast?", "options": ["Begge er null", "Farten er null, akselerasjonen er −g", "Farten er størst, akselerasjonen null", "Begge er størst"], "correct": 1, "explain": "Tyngdekraften virker hele tiden." },
-    { "id": "q07", "text": "Hvilken likning bruker du når du ikke kjenner tiden?", "options": ["v = v₀ + at", "s = v₀t + ½at²", "v² − v₀² = 2as", "s = ½(v₀ + v)t"], "correct": 2, "explain": "Den inneholder ikke t." },
-    { "id": "q08", "text": "En stein slippes fra 20 m. Omtrent hvor lang tid bruker den til bakken (uten luftmotstand)?", "options": ["1,0 s", "4,1 s", "0,5 s", "2,0 s"], "correct": 3, "explain": "t = √(2 · 20/9,81) ≈ 2,0 s." },
-    { "id": "q09", "text": "Hva er forutsetningen for å bruke bevegelseslikningene?", "options": ["Konstant akselerasjon", "Konstant posisjon", "Ingen tyngdekraft", "At farten er null"], "correct": 0, "explain": "Ellers må man bruke andre metoder." },
-    { "id": "q10", "text": "Hva er stigningstallet i en s-t-graf?", "options": ["Akselerasjonen", "Farten", "Tiden", "Kraften"], "correct": 1, "explain": "v = Δs/Δt." }
+    {
+      "id": "q01",
+      "text": "Hva er stigningstallet i en v-t-graf?",
+      "options": [
+        "Farten",
+        "Akselerasjonen",
+        "Forflytningen",
+        "Tiden"
+      ],
+      "correct": 1,
+      "explain": "a = Δv/Δt."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er arealet under en v-t-graf?",
+      "options": [
+        "Forflytningen",
+        "Akselerasjonen",
+        "Farten",
+        "Massen"
+      ],
+      "correct": 0,
+      "explain": "Fart ganger tid gir strekning."
+    },
+    {
+      "id": "q03",
+      "text": "En bil starter fra ro med a = 2,0 m/s². Hva er farten etter 5,0 s?",
+      "options": [
+        "2,5 m/s",
+        "7,0 m/s",
+        "10 m/s",
+        "25 m/s"
+      ],
+      "correct": 2,
+      "explain": "v = at = 2,0 · 5,0."
+    },
+    {
+      "id": "q04",
+      "text": "Hvor langt har bilen kjørt etter 5,0 s med a = 2,0 m/s² fra ro?",
+      "options": [
+        "10 m",
+        "50 m",
+        "12,5 m",
+        "25 m"
+      ],
+      "correct": 3,
+      "explain": "s = ½ · 2,0 · 5,0² = 25 m."
+    },
+    {
+      "id": "q05",
+      "text": "Hvor stor er tyngdeakselerasjonen ved jordoverflaten?",
+      "options": [
+        "Omtrent 9,81 m/s²",
+        "Omtrent 1 m/s²",
+        "Omtrent 98 m/s²",
+        "Omtrent 3,0 · 10⁸ m/s²"
+      ],
+      "correct": 0,
+      "explain": "Rettet nedover."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er farten og akselerasjonen på toppen av et loddrett kast?",
+      "options": [
+        "Begge er null",
+        "Farten er null, akselerasjonen er −g",
+        "Farten er størst, akselerasjonen null",
+        "Begge er størst"
+      ],
+      "correct": 1,
+      "explain": "Tyngdekraften virker hele tiden."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken likning bruker du når du ikke kjenner tiden?",
+      "options": [
+        "v = v₀ + at",
+        "s = v₀t + ½at²",
+        "v² − v₀² = 2as",
+        "s = ½(v₀ + v)t"
+      ],
+      "correct": 2,
+      "explain": "Den inneholder ikke t."
+    },
+    {
+      "id": "q08",
+      "text": "En stein slippes fra 20 m. Omtrent hvor lang tid bruker den til bakken (uten luftmotstand)?",
+      "options": [
+        "1,0 s",
+        "4,1 s",
+        "0,5 s",
+        "2,0 s"
+      ],
+      "correct": 3,
+      "explain": "t = √(2 · 20/9,81) ≈ 2,0 s."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er forutsetningen for å bruke bevegelseslikningene?",
+      "options": [
+        "Konstant akselerasjon",
+        "Konstant posisjon",
+        "Ingen tyngdekraft",
+        "At farten er null"
+      ],
+      "correct": 0,
+      "explain": "Ellers må man bruke andre metoder."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er stigningstallet i en s-t-graf?",
+      "options": [
+        "Akselerasjonen",
+        "Farten",
+        "Tiden",
+        "Kraften"
+      ],
+      "correct": 1,
+      "explain": "v = Δs/Δt."
+    }
   ],
   "mindmap": {
     "label": "Rettlinjet bevegelse",
     "children": [
-      { "label": "Begreper", "children": [
-        { "label": "Posisjon og forflytning" },
-        { "label": "Fart" },
-        { "label": "Akselerasjon" }
-      ] },
-      { "label": "Grafer", "children": [
-        { "label": "s-t: stigning = v" },
-        { "label": "v-t: stigning = a" },
-        { "label": "v-t: areal = s" }
-      ] },
-      { "label": "Likninger", "children": [
-        { "label": "v = v₀ + at" },
-        { "label": "s = v₀t + ½at²" },
-        { "label": "v² − v₀² = 2as" },
-        { "label": "s = ½(v₀ + v)t" }
-      ] },
-      { "label": "Fritt fall", "children": [
-        { "label": "g ≈ 9,81 m/s²" },
-        { "label": "Loddrett kast" }
-      ] },
-      { "label": "Framgangsmåte", "children": [
-        { "label": "Figur og positiv retning" },
-        { "label": "Kjente og ukjente" },
-        { "label": "Sjekk svaret" }
-      ] }
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Posisjon og forflytning"
+          },
+          {
+            "label": "Fart"
+          },
+          {
+            "label": "Akselerasjon"
+          }
+        ]
+      },
+      {
+        "label": "Grafer",
+        "children": [
+          {
+            "label": "s-t: stigning = v"
+          },
+          {
+            "label": "v-t: stigning = a"
+          },
+          {
+            "label": "v-t: areal = s"
+          }
+        ]
+      },
+      {
+        "label": "Likninger",
+        "children": [
+          {
+            "label": "v = v₀ + at"
+          },
+          {
+            "label": "s = v₀t + ½at²"
+          },
+          {
+            "label": "v² − v₀² = 2as"
+          },
+          {
+            "label": "s = ½(v₀ + v)t"
+          }
+        ]
+      },
+      {
+        "label": "Fritt fall",
+        "children": [
+          {
+            "label": "g ≈ 9,81 m/s²"
+          },
+          {
+            "label": "Loddrett kast"
+          }
+        ]
+      },
+      {
+        "label": "Framgangsmåte",
+        "children": [
+          {
+            "label": "Figur og positiv retning"
+          },
+          {
+            "label": "Kjente og ukjente"
+          },
+          {
+            "label": "Sjekk svaret"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Uten luftmotstand faller en tung og en lett stein like raskt.", "correct": true, "explain": "Begge har akselerasjonen g." },
-      { "id": "m02", "type": "sant-usant", "text": "Negativ akselerasjon betyr alltid at legemet bremser.", "correct": false, "explain": "Det avhenger av fartens retning." },
-      { "id": "m03", "type": "sant-usant", "text": "Forflytning kan være negativ.", "correct": true, "explain": "Den har retning." },
-      { "id": "m04", "type": "sant-usant", "text": "En rett, skrå linje i en s-t-graf betyr konstant akselerasjon.", "correct": false, "explain": "Det betyr konstant fart." },
-      { "id": "m05", "type": "flervalg", "text": "En stein slippes fra 20 m. Omtrent hvor stor fart har den når den treffer bakken?", "options": ["10 m/s", "20 m/s", "40 m/s", "200 m/s"], "correct": 1, "explain": "v = √(2 · 9,81 · 20) ≈ 20 m/s." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er enheten for akselerasjon?", "options": ["m/s²", "m/s", "N", "kg·m/s"], "correct": 0, "explain": "Endring i fart per sekund." },
-      { "id": "m07", "type": "flervalg", "text": "En ball kastes rett opp med 15 m/s. Omtrent hvor lang tid tar det til toppen?", "options": ["0,65 s", "3,0 s", "1,5 s", "15 s"], "correct": 2, "explain": "t = v₀/g = 15/9,81 ≈ 1,5 s." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Uten luftmotstand faller en tung og en lett stein like raskt.",
+        "correct": true,
+        "explain": "Begge har akselerasjonen g."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Negativ akselerasjon betyr alltid at legemet bremser.",
+        "correct": false,
+        "explain": "Det avhenger av fartens retning."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Forflytning kan være negativ.",
+        "correct": true,
+        "explain": "Den har retning."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En rett, skrå linje i en s-t-graf betyr konstant akselerasjon.",
+        "correct": false,
+        "explain": "Det betyr konstant fart."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "En stein slippes fra 20 m. Omtrent hvor stor fart har den når den treffer bakken?",
+        "options": [
+          "10 m/s",
+          "20 m/s",
+          "40 m/s",
+          "200 m/s"
+        ],
+        "correct": 1,
+        "explain": "v = √(2 · 9,81 · 20) ≈ 20 m/s."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er enheten for akselerasjon?",
+        "options": [
+          "m/s²",
+          "m/s",
+          "N",
+          "kg·m/s"
+        ],
+        "correct": 0,
+        "explain": "Endring i fart per sekund."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "En ball kastes rett opp med 15 m/s. Omtrent hvor lang tid tar det til toppen?",
+        "options": [
+          "0,65 s",
+          "3,0 s",
+          "1,5 s",
+          "15 s"
+        ],
+        "correct": 2,
+        "explain": "t = v₀/g = 15/9,81 ≈ 1,5 s."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et legeme flytter seg fra posisjonen 20 m til posisjonen 0 m, målt fra samme nullpunkt. Hva er forflytningen, og hva forteller fortegnet?",
+        "fasit": "Forflytningen er Δs = 0 m − 20 m = −20 m. Minustegnet viser at posisjonen har endret seg i negativ retning.",
+        "kriterier": [
+          "Regner ut forflytningen som −20 m.",
+          "Forklarer at minustegnet viser retningen på posisjonsendringen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et legeme har forflytningen 20 m i løpet av 5,0 s. Finn gjennomsnittsfarten, og vis hvilket regnestykke du bruker.",
+        "fasit": "Gjennomsnittsfarten er Δs/Δt = 20 m / 5,0 s = 4,0 m/s.",
+        "kriterier": [
+          "Bruker forholdet Δs/Δt.",
+          "Får 4,0 m/s med riktig enhet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar hvorfor negativ akselerasjon ikke alltid betyr at et legeme bremser.",
+        "fasit": "Negativ akselerasjon betyr at akselerasjonen peker i negativ retning. Legemet bremser når akselerasjonen peker motsatt vei av farten, men farten øker når de peker samme vei.",
+        "kriterier": [
+          "Knytter oppbremsing til at akselerasjonen peker motsatt vei av farten.",
+          "Forklarer at negativ akselerasjon alene ikke avgjør om farten øker eller minker."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign stigningstallet i en s-t-graf med stigningstallet i en v-t-graf. Hva forteller hvert av dem?",
+        "fasit": "Stigningstallet i en s-t-graf viser farten. Stigningstallet i en v-t-graf viser akselerasjonen.",
+        "kriterier": [
+          "Knytter stigningstallet i s-t-grafen til fart.",
+          "Knytter stigningstallet i v-t-grafen til akselerasjon."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En v-t-graf viser konstant fart på 10 m/s i 5,0 s. Bruk arealet under grafen til å finne forflytningen.",
+        "fasit": "Arealet under grafen er et rektangel, så forflytningen er 10 m/s · 5,0 s = 50 m.",
+        "kriterier": [
+          "Bruker arealet under v-t-grafen som forflytning, for eksempel fart ganger tid.",
+          "Får 50 m med riktig enhet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "To ulike legemer slippes nær jordoverflaten. Se bort fra luftmotstand. Sammenlign akselerasjonen deres, og oppgi retningen.",
+        "fasit": "Legemene faller med samme akselerasjon, omtrent 9,81 m/s². Akselerasjonen er rettet nedover.",
+        "kriterier": [
+          "Sier at legemene får samme akselerasjon når luftmotstand ses bort fra.",
+          "Oppgir omtrent 9,81 m/s² nedover."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En ball kastes rett opp, og positiv retning er valgt oppover. Mens ballen beveger seg oppover, hvilken retning har akselerasjonen, og hvordan påvirker den farten?",
+        "fasit": "Akselerasjonen er −g, altså rettet nedover. Den virker motsatt vei av farten og gjør at farten minker på vei opp.",
+        "kriterier": [
+          "Oppgir at akselerasjonen er −g eller rettet nedover med positiv retning oppover.",
+          "Forklarer at farten minker fordi akselerasjonen virker motsatt vei av farten."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et legeme har konstant akselerasjon. Du kjenner startfarten, farten etter en viss tid og tiden, og skal finne forflytningen. Hvilken bevegelseslikning passer, og hvorfor?",
+        "fasit": "Likningen s = ½(v₀ + v)t passer. Den bruker startfarten, farten etter tiden og tiden til å finne forflytningen ved konstant akselerasjon.",
+        "kriterier": [
+          "Velger likningen s = ½(v₀ + v)t.",
+          "Forklarer at likningen bruker startfart, sluttfart og tid til å finne forflytningen ved konstant akselerasjon."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

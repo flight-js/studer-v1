@@ -355,6 +355,78 @@
         "correct": 0,
         "explain": "The context often gives you a clue. Look the word up if it is important."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Explain what a learning strategy is and how it helps someone learn a language.",
+        "fasit": "A learning strategy is a method you choose to help you understand, remember or use a language. Trying different strategies can help you find what works best for you.",
+        "kriterier": [
+          "Explains that it is a conscious method for learning a language.",
+          "Explains how it supports understanding, remembering or using the language."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Explain the difference between active and passive vocabulary.",
+        "fasit": "Active vocabulary includes words you can use when you speak or write. Passive vocabulary includes words you understand when you read or hear them but do not use yourself.",
+        "kriterier": [
+          "Explains that active words are words you can use yourself.",
+          "Explains that passive words are understood but not used by you."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "You read: “The food was delicious; everyone enjoyed how tasty it was.” You do not know the word “delicious”. What can you work out from the sentence, and what can you do before looking the word up?",
+        "fasit": "The sentence suggests that “delicious” means very tasty. I can use the surrounding words to guess its meaning before looking it up.",
+        "kriterier": [
+          "Uses the clues in the sentence to infer that “delicious” means tasty or very good to eat.",
+          "Explains that you should look at the surrounding words before looking the word up."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "You want to remember new English words throughout a week. Describe a flashcard plan that uses spaced repetition.",
+        "fasit": "I would review the flashcards after a day, then after a few days, and then after a week. The gaps between reviews get longer each time.",
+        "kriterier": [
+          "Includes reviews after a day, a few days and a week.",
+          "Shows that the gaps between reviews become longer."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "What information can an English dictionary give you about a word besides its meaning? Name two kinds of information.",
+        "fasit": "It can show how to pronounce the word and what word class it belongs to. It can also give example sentences.",
+        "kriterier": [
+          "Names two relevant kinds of information, such as pronunciation, word class or example sentences."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Make this sentence more precise by replacing “good” with a better word: “The food was good.”",
+        "fasit": "The food was delicious.",
+        "kriterier": [
+          "Replaces “good” with a more precise word that describes enjoyable-tasting food, such as “delicious”."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A friend is going to perform on stage. Write an English expression you could say to wish them luck, and explain what it means.",
+        "fasit": "I could say, “Break a leg!” It means “good luck”.",
+        "kriterier": [
+          "Uses “Break a leg” in the situation.",
+          "Explains that the expression means good luck."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "A suggested weekly goal for learning English is to learn ten new words. State this goal and explain one way you could check your progress.",
+        "fasit": "My goal is to learn ten new words this week. I can check my progress by seeing how many of the words I have learned by the end of the week.",
+        "kriterier": [
+          "States the goal of learning ten new words in a week.",
+          "Describes checking progress against the goal."
+        ]
+      }
     ]
   },
   "kvalitet": {

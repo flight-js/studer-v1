@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Modellering med ulike funksjoner og reelle datasett",
   "intro": "Hvilke situasjoner som passer for lineære, polynom-, eksponentielle, logistiske, potens- og trigonometriske modeller, hvordan du bruker regresjon på reelle datasett, vurderer modellen med residualer og teori, og kjenner igjen overtilpasning og farene ved ekstrapolasjon.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Hva er en matematisk modell?\n\nEn **modell** er en **forenklet** matematisk beskrivelse av en virkelig situasjon. Den skal hjelpe oss å **forstå**, **forutsi** eller **ta beslutninger**. Alle modeller har **begrensninger**.\n\n## Funksjonstyper og situasjoner\n\n- **Lineær** f(x) = ax + b: **konstant** endring, for eksempel en fast pris per enhet.\n- **Polynom**: kurver med **topp- og bunnpunkter**, for eksempel høyden til en ball eller et fallskjermhopp i deler.\n- **Eksponentiell** f(x) = a · bˣ: **konstant prosentvis** endring, som renter, radioaktivt henfall og tidlig smittespredning.\n- **Logistisk** f(x) = K/(1 + a · e^(−bx)): vekst som **bremses** mot en **øvre grense** K, som bestander og utbredelse av ny teknologi.\n- **Potens** f(x) = a · xᵇ: sammenhenger som areal og volum, eller hjertefrekvens og kroppsstørrelse.\n- **Trigonometrisk** f(x) = A sin(c(x − φ)) + d: **periodiske** fenomener som tidevann, dagslengde og temperatur gjennom året.\n\n**Kombinerte** modeller er også vanlige. En kopp kaffe som avkjøles, kan beskrives med T(t) = 20 + 70 · e^(−0,05t), der 20 °C er **romtemperaturen** som temperaturen nærmer seg.\n\n## Modelleringsprosessen\n\n1. **Problem**: Hva vil vi finne ut?\n2. **Data**: Samle inn eller finn et **reelt datasett**.\n3. **Plott** dataene og se på **formen**.\n4. **Velg modell** ut fra formen **og** kunnskap om situasjonen.\n5. **Regresjon**: Tilpass parameterne med GeoGebra, regneark eller Python.\n6. **Vurder** modellen.\n7. **Bruk** og **tolk** modellen.\n\n## Regresjon\n\n**Regresjon** finner parameterne som gjør at modellen passer best mulig med dataene – vanligvis ved å minimere summen av de **kvadrerte avvikene**. I Python kan du for eksempel bruke numpy.polyfit for polynomer og scipy for andre funksjoner.\n\n## Vurdering av modellen\n\n- **Residualer**: avviket mellom målt og beregnet verdi. Residualene bør være **små** og **tilfeldig** spredt. Et tydelig **mønster** tyder på feil modelltype.\n- **Forklaringsgrad R²** nær 1 viser god tilpasning, men er **ikke nok** alene.\n- **Teori**: Gir modellen mening? En populasjon kan ikke bli negativ, og en temperatur kan ikke vokse for alltid.\n\n## Overtilpasning\n\nEt polynom av **høy grad** kan gå gjennom nesten alle punktene, men **svinger** vilt mellom og utenfor dem. Det kalles **overtilpasning**. En **enklere** modell som bygger på teori, er ofte bedre.\n\n## Interpolasjon og ekstrapolasjon\n\n- **Interpolasjon**: bruke modellen **innenfor** dataområdet – ofte pålitelig.\n- **Ekstrapolasjon**: bruke modellen **utenfor** dataområdet – mer **usikkert**. En eksponentiell modell for smitte vil for eksempel til slutt gi flere smittede enn det finnes mennesker.\n\n## Tolking av parametere\n\nParameterne har ofte en **praktisk** betydning:\n\n- K i en logistisk modell er **bæreevnen**.\n- b i a · bˣ er **vekstfaktoren**.\n- A og 2π/c i en trigonometrisk modell er **amplituden** og **perioden**.\n\nÅ tolke parameterne med riktige **enheter** er en viktig del av modelleringen.",
   "flashcards": [
-    { "term": "Matematisk modell", "def": "Forenklet matematisk beskrivelse av en virkelig situasjon." },
-    { "term": "Lineær modell", "def": "Konstant endring." },
-    { "term": "Eksponentiell modell", "def": "Konstant prosentvis endring." },
-    { "term": "Logistisk modell", "def": "Vekst som bremses mot en øvre grense K." },
-    { "term": "Potensmodell", "def": "f(x) = a · xᵇ" },
-    { "term": "Trigonometrisk modell", "def": "Periodiske fenomener som tidevann og dagslengde." },
-    { "term": "Regresjon", "def": "Tilpasser parameterne så modellen passer best med dataene." },
-    { "term": "Residual", "def": "Avviket mellom målt og beregnet verdi." },
-    { "term": "Mønster i residualene", "def": "Tyder på feil modelltype." },
-    { "term": "Forklaringsgrad R²", "def": "Nær 1 viser god tilpasning, men er ikke nok alene." },
-    { "term": "Overtilpasning", "def": "Modellen følger dataene for tett og svinger utenfor dem." },
-    { "term": "Interpolasjon", "def": "Bruke modellen innenfor dataområdet." },
-    { "term": "Ekstrapolasjon", "def": "Bruke modellen utenfor dataområdet – mer usikkert." },
-    { "term": "Bæreevne K", "def": "Øvre grense i en logistisk modell." },
-    { "term": "Avkjøling", "def": "Temperaturen nærmer seg romtemperaturen eksponentielt." }
+    {
+      "term": "Matematisk modell",
+      "def": "Forenklet matematisk beskrivelse av en virkelig situasjon."
+    },
+    {
+      "term": "Lineær modell",
+      "def": "Konstant endring."
+    },
+    {
+      "term": "Eksponentiell modell",
+      "def": "Konstant prosentvis endring."
+    },
+    {
+      "term": "Logistisk modell",
+      "def": "Vekst som bremses mot en øvre grense K."
+    },
+    {
+      "term": "Potensmodell",
+      "def": "f(x) = a · xᵇ"
+    },
+    {
+      "term": "Trigonometrisk modell",
+      "def": "Periodiske fenomener som tidevann og dagslengde."
+    },
+    {
+      "term": "Regresjon",
+      "def": "Tilpasser parameterne så modellen passer best med dataene."
+    },
+    {
+      "term": "Residual",
+      "def": "Avviket mellom målt og beregnet verdi."
+    },
+    {
+      "term": "Mønster i residualene",
+      "def": "Tyder på feil modelltype."
+    },
+    {
+      "term": "Forklaringsgrad R²",
+      "def": "Nær 1 viser god tilpasning, men er ikke nok alene."
+    },
+    {
+      "term": "Overtilpasning",
+      "def": "Modellen følger dataene for tett og svinger utenfor dem."
+    },
+    {
+      "term": "Interpolasjon",
+      "def": "Bruke modellen innenfor dataområdet."
+    },
+    {
+      "term": "Ekstrapolasjon",
+      "def": "Bruke modellen utenfor dataområdet – mer usikkert."
+    },
+    {
+      "term": "Bæreevne K",
+      "def": "Øvre grense i en logistisk modell."
+    },
+    {
+      "term": "Avkjøling",
+      "def": "Temperaturen nærmer seg romtemperaturen eksponentielt."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken modell passer for temperaturen gjennom året?", "options": ["Lineær", "Trigonometrisk", "Eksponentiell", "Potens"], "correct": 1, "explain": "Den er periodisk." },
-    { "id": "q02", "text": "Hvilken modell passer for vekst som bremses mot en øvre grense?", "options": ["Logistisk", "Lineær", "Eksponentiell", "Trigonometrisk"], "correct": 0, "explain": "K er bæreevnen." },
-    { "id": "q03", "text": "Hva er en residual?", "options": ["En parameter", "En type funksjon", "Avviket mellom målt og beregnet verdi", "Perioden"], "correct": 2, "explain": "Bør være små og tilfeldige." },
-    { "id": "q04", "text": "Hva er overtilpasning?", "options": ["At modellen er for enkel", "At det er for få data", "At residualene er tilfeldige", "At modellen følger dataene for tett og svinger utenfor dem"], "correct": 3, "explain": "Typisk for polynomer av høy grad." },
-    { "id": "q05", "text": "Hvilken modell passer for konstant prosentvis endring?", "options": ["Eksponentiell", "Lineær", "Trigonometrisk", "Logistisk"], "correct": 0, "explain": "Som renter." },
-    { "id": "q06", "text": "Hva er ekstrapolasjon?", "options": ["Å bruke modellen innenfor dataområdet", "Å bruke modellen utenfor dataområdet", "Å finne residualer", "Å velge modell"], "correct": 1, "explain": "Mer usikkert." },
-    { "id": "q07", "text": "Hvilken verdi nærmer T(t) = 20 + 70 · e^(−0,05t) seg når t blir stor?", "options": ["90", "70", "20", "0"], "correct": 2, "explain": "e^(−0,05t) går mot 0." },
-    { "id": "q08", "text": "Hva tyder et tydelig mønster i residualene på?", "options": ["Perfekt modell", "For mange data", "At R² er 1", "Feil modelltype"], "correct": 3, "explain": "Modellen fanger ikke formen." },
-    { "id": "q09", "text": "Hvorfor er ikke høy R² nok alene?", "options": ["Fordi modellen også må gi mening ut fra teori", "Fordi R² alltid er 1", "Fordi R² bare gjelder lineære modeller", "Fordi høy R² betyr dårlig modell"], "correct": 0, "explain": "Overtilpasning kan gi høy R²." },
-    { "id": "q10", "text": "Hva betyr b i modellen f(x) = a · bˣ?", "options": ["Startverdien", "Vekstfaktoren", "Perioden", "Bæreevnen"], "correct": 1, "explain": "a er startverdien." }
+    {
+      "id": "q01",
+      "text": "Hvilken modell passer for temperaturen gjennom året?",
+      "options": [
+        "Lineær",
+        "Trigonometrisk",
+        "Eksponentiell",
+        "Potens"
+      ],
+      "correct": 1,
+      "explain": "Den er periodisk."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken modell passer for vekst som bremses mot en øvre grense?",
+      "options": [
+        "Logistisk",
+        "Lineær",
+        "Eksponentiell",
+        "Trigonometrisk"
+      ],
+      "correct": 0,
+      "explain": "K er bæreevnen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en residual?",
+      "options": [
+        "En parameter",
+        "En type funksjon",
+        "Avviket mellom målt og beregnet verdi",
+        "Perioden"
+      ],
+      "correct": 2,
+      "explain": "Bør være små og tilfeldige."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er overtilpasning?",
+      "options": [
+        "At modellen er for enkel",
+        "At det er for få data",
+        "At residualene er tilfeldige",
+        "At modellen følger dataene for tett og svinger utenfor dem"
+      ],
+      "correct": 3,
+      "explain": "Typisk for polynomer av høy grad."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken modell passer for konstant prosentvis endring?",
+      "options": [
+        "Eksponentiell",
+        "Lineær",
+        "Trigonometrisk",
+        "Logistisk"
+      ],
+      "correct": 0,
+      "explain": "Som renter."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er ekstrapolasjon?",
+      "options": [
+        "Å bruke modellen innenfor dataområdet",
+        "Å bruke modellen utenfor dataområdet",
+        "Å finne residualer",
+        "Å velge modell"
+      ],
+      "correct": 1,
+      "explain": "Mer usikkert."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken verdi nærmer T(t) = 20 + 70 · e^(−0,05t) seg når t blir stor?",
+      "options": [
+        "90",
+        "70",
+        "20",
+        "0"
+      ],
+      "correct": 2,
+      "explain": "e^(−0,05t) går mot 0."
+    },
+    {
+      "id": "q08",
+      "text": "Hva tyder et tydelig mønster i residualene på?",
+      "options": [
+        "Perfekt modell",
+        "For mange data",
+        "At R² er 1",
+        "Feil modelltype"
+      ],
+      "correct": 3,
+      "explain": "Modellen fanger ikke formen."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er ikke høy R² nok alene?",
+      "options": [
+        "Fordi modellen også må gi mening ut fra teori",
+        "Fordi R² alltid er 1",
+        "Fordi R² bare gjelder lineære modeller",
+        "Fordi høy R² betyr dårlig modell"
+      ],
+      "correct": 0,
+      "explain": "Overtilpasning kan gi høy R²."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr b i modellen f(x) = a · bˣ?",
+      "options": [
+        "Startverdien",
+        "Vekstfaktoren",
+        "Perioden",
+        "Bæreevnen"
+      ],
+      "correct": 1,
+      "explain": "a er startverdien."
+    }
   ],
   "mindmap": {
     "label": "Modellering",
     "children": [
-      { "label": "Funksjonstyper", "children": [
-        { "label": "Lineær og polynom" },
-        { "label": "Eksponentiell og logistisk" },
-        { "label": "Potens og trigonometrisk" }
-      ] },
-      { "label": "Prosess", "children": [
-        { "label": "Problem og data" },
-        { "label": "Velg modell" },
-        { "label": "Regresjon" }
-      ] },
-      { "label": "Vurdering", "children": [
-        { "label": "Residualer" },
-        { "label": "R²" },
-        { "label": "Teori" }
-      ] },
-      { "label": "Fallgruver", "children": [
-        { "label": "Overtilpasning" },
-        { "label": "Ekstrapolasjon" }
-      ] },
-      { "label": "Tolkning", "children": [
-        { "label": "Parametere" },
-        { "label": "Enheter" }
-      ] }
+      {
+        "label": "Funksjonstyper",
+        "children": [
+          {
+            "label": "Lineær og polynom"
+          },
+          {
+            "label": "Eksponentiell og logistisk"
+          },
+          {
+            "label": "Potens og trigonometrisk"
+          }
+        ]
+      },
+      {
+        "label": "Prosess",
+        "children": [
+          {
+            "label": "Problem og data"
+          },
+          {
+            "label": "Velg modell"
+          },
+          {
+            "label": "Regresjon"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering",
+        "children": [
+          {
+            "label": "Residualer"
+          },
+          {
+            "label": "R²"
+          },
+          {
+            "label": "Teori"
+          }
+        ]
+      },
+      {
+        "label": "Fallgruver",
+        "children": [
+          {
+            "label": "Overtilpasning"
+          },
+          {
+            "label": "Ekstrapolasjon"
+          }
+        ]
+      },
+      {
+        "label": "Tolkning",
+        "children": [
+          {
+            "label": "Parametere"
+          },
+          {
+            "label": "Enheter"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Alle modeller har begrensninger.", "correct": true, "explain": "De er forenklinger." },
-      { "id": "m02", "type": "sant-usant", "text": "Et polynom av høy grad er alltid den beste modellen.", "correct": false, "explain": "Det kan gi overtilpasning." },
-      { "id": "m03", "type": "sant-usant", "text": "Interpolasjon er vanligvis mer pålitelig enn ekstrapolasjon.", "correct": true, "explain": "Vi har data i området." },
-      { "id": "m04", "type": "sant-usant", "text": "Valg av modell bør bare bygge på formen til punktene.", "correct": false, "explain": "Kunnskap om situasjonen er også viktig." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er perioden til f(x) = A sin(c(x − φ)) + d?", "options": ["A", "2π/c", "d", "φ"], "correct": 1, "explain": "A er amplituden." },
-      { "id": "m06", "type": "flervalg", "text": "Hva minimerer vanlig regresjon?", "options": ["Summen av de kvadrerte avvikene", "Antall punkter", "Perioden", "Stigningstallet"], "correct": 0, "explain": "Minste kvadraters metode." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor er en ren eksponentiell smittemodell dårlig på lang sikt?", "options": ["Fordi den er lineær", "Fordi den er periodisk", "Fordi den til slutt gir flere smittede enn det finnes mennesker", "Fordi den synker"], "correct": 2, "explain": "En logistisk modell er mer realistisk." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Alle modeller har begrensninger.",
+        "correct": true,
+        "explain": "De er forenklinger."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et polynom av høy grad er alltid den beste modellen.",
+        "correct": false,
+        "explain": "Det kan gi overtilpasning."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Interpolasjon er vanligvis mer pålitelig enn ekstrapolasjon.",
+        "correct": true,
+        "explain": "Vi har data i området."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Valg av modell bør bare bygge på formen til punktene.",
+        "correct": false,
+        "explain": "Kunnskap om situasjonen er også viktig."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er perioden til f(x) = A sin(c(x − φ)) + d?",
+        "options": [
+          "A",
+          "2π/c",
+          "d",
+          "φ"
+        ],
+        "correct": 1,
+        "explain": "A er amplituden."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva minimerer vanlig regresjon?",
+        "options": [
+          "Summen av de kvadrerte avvikene",
+          "Antall punkter",
+          "Perioden",
+          "Stigningstallet"
+        ],
+        "correct": 0,
+        "explain": "Minste kvadraters metode."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor er en ren eksponentiell smittemodell dårlig på lang sikt?",
+        "options": [
+          "Fordi den er lineær",
+          "Fordi den er periodisk",
+          "Fordi den til slutt gir flere smittede enn det finnes mennesker",
+          "Fordi den synker"
+        ],
+        "correct": 2,
+        "explain": "En logistisk modell er mer realistisk."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva en matematisk modell er, og nevn to ting en modell kan hjelpe oss med.",
+        "fasit": "En matematisk modell er en forenklet matematisk beskrivelse av en virkelig situasjon. Den kan hjelpe oss med å forstå situasjonen, forutsi hva som kan skje, eller ta beslutninger.",
+        "kriterier": [
+          "Beskriver en modell som en forenklet matematisk beskrivelse av en virkelig situasjon.",
+          "Nevner minst to formål, som å forstå, forutsi eller ta beslutninger."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign lineær og eksponentiell vekst ved å forklare hvordan endringen er forskjellig. Bruk gjerne fast pris per enhet og renter som eksempler.",
+        "fasit": "Ved lineær vekst endres verdien med et konstant beløp. Ved eksponentiell vekst endres verdien med en konstant prosent, slik som ved renter.",
+        "kriterier": [
+          "Forklarer at lineær vekst har konstant endring i beløp.",
+          "Forklarer at eksponentiell vekst har konstant prosentvis endring."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En lineær modell er f(x) = 3x + 2. Regn ut f(4), og vis det viktigste regnetrinnet.",
+        "fasit": "f(4) = 3 · 4 + 2 = 14.",
+        "kriterier": [
+          "Setter inn 4 for x i uttrykket.",
+          "Får svaret 14."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hva prøver regresjon å finne når en funksjonsmodell skal tilpasses et datasett? Ta med hvordan avvikene vanligvis behandles.",
+        "fasit": "Regresjon finner parameterne som gjør at modellen passer best mulig til dataene. Vanligvis forsøker man å minimere summen av de kvadrerte avvikene mellom målingene og modellverdiene.",
+        "kriterier": [
+          "Forklarer at regresjon tilpasser modellens parametere til dataene.",
+          "Nevner at summen av kvadrerte avvik vanligvis minimeres."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En trigonometrisk modell er f(x) = 5 sin((π/2)(x − 1)) + 3. Regn ut amplituden og perioden. Vis hvordan du finner perioden.",
+        "fasit": "Amplituden er 5. Perioden er 2π/(π/2) = 4.",
+        "kriterier": [
+          "Oppgir amplituden 5.",
+          "Bruker 2π/c for perioden og får 4."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Temperaturen i en kopp kaffe modelleres med T(t) = 20 + 70 · e^(−0,05t), der t er tid. Forklar hva tallene 20 og 70 betyr i denne modellen.",
+        "fasit": "Tallet 20 er romtemperaturen som kaffen nærmer seg. Tallet 70 er temperaturforskjellen mellom kaffen og romtemperaturen ved t = 0.",
+        "kriterier": [
+          "Knytter 20 til romtemperaturen som kaffen nærmer seg.",
+          "Forklarer at 70 er starttemperaturens overskudd over romtemperaturen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et datasett inneholder målinger for x-verdier fra 2 til 8. En modell brukes til å anslå verdien når x = 5 og når x = 10. Hvilket anslag er interpolasjon, og hvilket er ekstrapolasjon? Sammenlign hvor sikre de er.",
+        "fasit": "Anslaget ved x = 5 er interpolasjon fordi 5 ligger innenfor dataområdet. Anslaget ved x = 10 er ekstrapolasjon fordi 10 ligger utenfor området, og det er derfor mer usikkert.",
+        "kriterier": [
+          "Klassifiserer x = 5 som interpolasjon og x = 10 som ekstrapolasjon.",
+          "Forklarer at anslaget utenfor dataområdet er mer usikkert."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En modell med et polynom av høy grad går gjennom nesten alle målepunktene, men svinger kraftig utenfor dataområdet. En enklere modell passer med kjent teori, men treffer ikke hvert punkt nøyaktig. Hvilken modell er best å bruke for å anslå verdier utenfor dataområdet, og hvorfor?",
+        "fasit": "Den enklere modellen som bygger på kjent teori, er ofte et bedre valg. Polynommodellen kan være overtilpasset og svinge kraftig utenfor målingene, men anslag utenfor dataområdet er fortsatt usikre.",
+        "kriterier": [
+          "Velger den enklere modellen som bygger på teori.",
+          "Begrunner valget med at polynomet kan være overtilpasset eller svinge kraftig utenfor dataområdet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

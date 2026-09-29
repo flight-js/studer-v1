@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Ideologi, rettferdighet og bærekraftige samfunn",
   "intro": "Hvordan liberalisme, sosialisme, konservatisme og grønn ideologi ser på makt og fordeling, ulike oppfatninger av rettferdighet – fra Rawls til Nozick – og hvordan sosial ulikhet henger sammen med muligheten for bærekraftige samfunn.",
-  "kompetansemaal": [16, 17],
+  "kompetansemaal": [
+    16,
+    17
+  ],
   "sammendrag": "## Politiske ideologier\n\nEn **ideologi** er et sammenhengende sett av ideer om hvordan samfunnet **er** og hvordan det **bør** være. Ideologiene gir ulike svar på spørsmål om **makt** og **fordeling**.\n\n**Liberalisme**\n\n- Vekt på **individets frihet** og **rettigheter**.\n- Et **fritt marked** fordeler goder effektivt.\n- Staten bør være **begrenset**, men sikre rettsstat og like muligheter.\n- Makt bør **spres** og begrenses gjennom maktfordeling.\n\n**Sosialisme** og **sosialdemokrati**\n\n- Vekt på **likhet** og **fellesskap**.\n- Markedet skaper **ulikhet**, og staten eller fellesskapet må **omfordele** gjennom skatt og velferd.\n- Økonomisk makt må balanseres med **arbeiderbevegelsens** og statens makt.\n\n**Konservatisme**\n\n- Vekt på **tradisjon**, **stabilitet** og **institusjoner** som familie, lokalsamfunn og religion.\n- Endringer bør skje **gradvis**.\n- Noe ulikhet regnes som naturlig, men sterke fellesskap skal ta vare på de svake.\n\n**Grønn ideologi** (økologisme)\n\n- Vekt på **naturens tålegrenser** og **framtidige generasjoner**.\n- Økonomisk vekst kan ikke fortsette uten grenser.\n- Fordeling også **mellom generasjoner** og mellom **rike og fattige land**.\n\n## Hva er rettferdig fordeling?\n\nUlike **prinsipper** gir ulike svar:\n\n- **Likhet**: Alle får like mye.\n- **Behov**: De som trenger mest, får mest – som i helsevesenet.\n- **Fortjeneste**: De som yter mest, får mest – som i lønn etter innsats.\n- **Like muligheter**: Alle skal ha samme **start**, men resultatet kan bli ulikt.\n\n## To klassiske teorier\n\n**John Rawls** (1971) ba oss tenke oss bak et **uvitenhetens slør**: Hvilke regler ville vi valgt hvis vi **ikke visste** om vi ble født rik eller fattig, frisk eller syk? Han mente vi da ville velge **like friheter** for alle og bare godta ulikhet som kommer **de dårligst stilte** til gode (**forskjellsprinsippet**).\n\n**Robert Nozick** (1974) mente at en fordeling er rettferdig hvis den har oppstått gjennom **frivillige**, **rettmessige** handlinger – arbeid, handel og gaver. Omfordeling gjennom skatt kan da være **urettferdig**, fordi det tar det folk har ervervet på lovlig vis.\n\n## Ulikhet på individ- og samfunnsnivå\n\n**Sosiale prosesser** – som sosialisering, diskriminering, arv og nettverk – former ulikhet:\n\n- På **individnivå** påvirker ulikhet **helse**, **levealder**, **utdanning** og **livssjanser**. Det finnes en tydelig **sosial helsegradient**: Jo høyere utdanning og inntekt, desto bedre helse i gjennomsnitt.\n- På **samfunnsnivå** kan stor ulikhet svekke **tillit**, **samhold** og **demokratisk deltakelse**. Forskerne **Richard Wilkinson** og **Kate Pickett** har hevdet at land med mindre ulikhet har færre sosiale problemer.\n\n## Bærekraftige samfunn\n\nEt **bærekraftig samfunn** tar vare på **miljø**, **sosiale forhold** og **økonomi** – nå og for framtidige generasjoner. Sosial bærekraft handler om **rettferdig fordeling**, **inkludering** og **tillit**.\n\nKlimapolitikk reiser **fordelingsspørsmål**: Avgifter på drivstoff kan ramme folk med lav inntekt og lang reisevei hardest. Tanken om en **rettferdig omstilling** er at byrdene ved å kutte utslipp må fordeles slik at ikke de svakeste betaler mest. Samtidig rammer klimaendringene ofte de **fattigste** landene og menneskene hardest, selv om de har bidratt minst til utslippene.\n\n## Drøfting\n\nNår du drøfter fordelingsspørsmål, bruk **ideologier** og **rettferdighetsprinsipper** til å vise **ulike syn**, og vurder **konsekvensene** for ulike grupper – nå og i framtiden.",
   "flashcards": [
-    { "term": "Ideologi", "def": "Sammenhengende ideer om hvordan samfunnet er og bør være." },
-    { "term": "Liberalisme", "def": "Individets frihet, fritt marked og begrenset stat." },
-    { "term": "Sosialisme / sosialdemokrati", "def": "Likhet, fellesskap og omfordeling gjennom skatt og velferd." },
-    { "term": "Konservatisme", "def": "Tradisjon, stabilitet og gradvis endring." },
-    { "term": "Grønn ideologi", "def": "Naturens tålegrenser og framtidige generasjoner." },
-    { "term": "Behovsprinsippet", "def": "De som trenger mest, får mest." },
-    { "term": "Fortjenesteprinsippet", "def": "De som yter mest, får mest." },
-    { "term": "Like muligheter", "def": "Alle skal ha samme start, men resultatet kan bli ulikt." },
-    { "term": "Uvitenhetens slør", "def": "Tankeeksperiment der vi ikke vet vår egen posisjon (Rawls)." },
-    { "term": "Forskjellsprinsippet", "def": "Ulikhet godtas bare hvis den kommer de dårligst stilte til gode." },
-    { "term": "Robert Nozick", "def": "Rettferdig fordeling er resultat av frivillige, rettmessige handlinger." },
-    { "term": "Sosial helsegradient", "def": "Høyere utdanning og inntekt gir bedre helse i gjennomsnitt." },
-    { "term": "Wilkinson og Pickett", "def": "Hevdet at land med mindre ulikhet har færre sosiale problemer." },
-    { "term": "Sosial bærekraft", "def": "Rettferdig fordeling, inkludering og tillit." },
-    { "term": "Rettferdig omstilling", "def": "Byrdene ved klimakutt fordeles slik at de svakeste ikke betaler mest." }
+    {
+      "term": "Ideologi",
+      "def": "Sammenhengende ideer om hvordan samfunnet er og bør være."
+    },
+    {
+      "term": "Liberalisme",
+      "def": "Individets frihet, fritt marked og begrenset stat."
+    },
+    {
+      "term": "Sosialisme / sosialdemokrati",
+      "def": "Likhet, fellesskap og omfordeling gjennom skatt og velferd."
+    },
+    {
+      "term": "Konservatisme",
+      "def": "Tradisjon, stabilitet og gradvis endring."
+    },
+    {
+      "term": "Grønn ideologi",
+      "def": "Naturens tålegrenser og framtidige generasjoner."
+    },
+    {
+      "term": "Behovsprinsippet",
+      "def": "De som trenger mest, får mest."
+    },
+    {
+      "term": "Fortjenesteprinsippet",
+      "def": "De som yter mest, får mest."
+    },
+    {
+      "term": "Like muligheter",
+      "def": "Alle skal ha samme start, men resultatet kan bli ulikt."
+    },
+    {
+      "term": "Uvitenhetens slør",
+      "def": "Tankeeksperiment der vi ikke vet vår egen posisjon (Rawls)."
+    },
+    {
+      "term": "Forskjellsprinsippet",
+      "def": "Ulikhet godtas bare hvis den kommer de dårligst stilte til gode."
+    },
+    {
+      "term": "Robert Nozick",
+      "def": "Rettferdig fordeling er resultat av frivillige, rettmessige handlinger."
+    },
+    {
+      "term": "Sosial helsegradient",
+      "def": "Høyere utdanning og inntekt gir bedre helse i gjennomsnitt."
+    },
+    {
+      "term": "Wilkinson og Pickett",
+      "def": "Hevdet at land med mindre ulikhet har færre sosiale problemer."
+    },
+    {
+      "term": "Sosial bærekraft",
+      "def": "Rettferdig fordeling, inkludering og tillit."
+    },
+    {
+      "term": "Rettferdig omstilling",
+      "def": "Byrdene ved klimakutt fordeles slik at de svakeste ikke betaler mest."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken ideologi legger mest vekt på individets frihet og et fritt marked?", "options": ["Sosialisme", "Liberalisme", "Konservatisme", "Grønn ideologi"], "correct": 1, "explain": "Med begrenset stat." },
-    { "id": "q02", "text": "Hva er uvitenhetens slør hos Rawls?", "options": ["Et tankeeksperiment der vi ikke vet vår egen posisjon i samfunnet", "En type skatt", "En religiøs skikk", "En lov"], "correct": 0, "explain": "Vi velger regler uten å vite om vi blir rik eller fattig." },
-    { "id": "q03", "text": "Hva sier forskjellsprinsippet?", "options": ["Alle skal ha nøyaktig like mye", "Ulikhet er alltid bra", "Ulikhet godtas bare hvis den kommer de dårligst stilte til gode", "Staten skal ikke fordele"], "correct": 2, "explain": "Rawls' prinsipp." },
-    { "id": "q04", "text": "Hvorfor kan Nozick mene at omfordeling gjennom skatt er urettferdig?", "options": ["Fordi skatt er for lav", "Fordi alle er like", "Fordi staten er for liten", "Fordi det tar det folk har ervervet på rettmessig vis"], "correct": 3, "explain": "Fokus på frivillige, rettmessige handlinger." },
-    { "id": "q05", "text": "Hva er behovsprinsippet?", "options": ["De som trenger mest, får mest", "Alle får likt", "De som yter mest, får mest", "De eldste får mest"], "correct": 0, "explain": "Som i helsevesenet." },
-    { "id": "q06", "text": "Hva er den sosiale helsegradienten?", "options": ["At alle har lik helse", "At høyere utdanning og inntekt gir bedre helse i gjennomsnitt", "At rike blir syke oftere", "At helse ikke har med samfunnet å gjøre"], "correct": 1, "explain": "Ulikhet påvirker helse." },
-    { "id": "q07", "text": "Hva legger konservatismen vekt på?", "options": ["Revolusjon", "Et helt fritt marked uten tradisjoner", "Tradisjon, stabilitet og gradvis endring", "Avskaffelse av familien"], "correct": 2, "explain": "Institusjoner som familie og lokalsamfunn." },
-    { "id": "q08", "text": "Hva betyr rettferdig omstilling i klimapolitikken?", "options": ["At klimatiltak droppes", "At rike land slipper å gjøre noe", "At alle betaler likt uansett inntekt", "At byrdene ved klimakutt fordeles slik at de svakeste ikke betaler mest"], "correct": 3, "explain": "Kobling mellom klima og fordeling." },
-    { "id": "q09", "text": "Hvilken ideologi legger vekt på naturens tålegrenser og framtidige generasjoner?", "options": ["Grønn ideologi", "Liberalisme", "Konservatisme", "Sosialisme alene"], "correct": 0, "explain": "Også kalt økologisme." },
-    { "id": "q10", "text": "Hva hevdet Wilkinson og Pickett?", "options": ["At ulikhet ikke har betydning", "At land med mindre ulikhet har færre sosiale problemer", "At rike land alltid er lykkeligst", "At skatt bør avskaffes"], "correct": 1, "explain": "Ulikhet påvirker hele samfunnet." }
+    {
+      "id": "q01",
+      "text": "Hvilken ideologi legger mest vekt på individets frihet og et fritt marked?",
+      "options": [
+        "Sosialisme",
+        "Liberalisme",
+        "Konservatisme",
+        "Grønn ideologi"
+      ],
+      "correct": 1,
+      "explain": "Med begrenset stat."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er uvitenhetens slør hos Rawls?",
+      "options": [
+        "Et tankeeksperiment der vi ikke vet vår egen posisjon i samfunnet",
+        "En type skatt",
+        "En religiøs skikk",
+        "En lov"
+      ],
+      "correct": 0,
+      "explain": "Vi velger regler uten å vite om vi blir rik eller fattig."
+    },
+    {
+      "id": "q03",
+      "text": "Hva sier forskjellsprinsippet?",
+      "options": [
+        "Alle skal ha nøyaktig like mye",
+        "Ulikhet er alltid bra",
+        "Ulikhet godtas bare hvis den kommer de dårligst stilte til gode",
+        "Staten skal ikke fordele"
+      ],
+      "correct": 2,
+      "explain": "Rawls' prinsipp."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor kan Nozick mene at omfordeling gjennom skatt er urettferdig?",
+      "options": [
+        "Fordi skatt er for lav",
+        "Fordi alle er like",
+        "Fordi staten er for liten",
+        "Fordi det tar det folk har ervervet på rettmessig vis"
+      ],
+      "correct": 3,
+      "explain": "Fokus på frivillige, rettmessige handlinger."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er behovsprinsippet?",
+      "options": [
+        "De som trenger mest, får mest",
+        "Alle får likt",
+        "De som yter mest, får mest",
+        "De eldste får mest"
+      ],
+      "correct": 0,
+      "explain": "Som i helsevesenet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den sosiale helsegradienten?",
+      "options": [
+        "At alle har lik helse",
+        "At høyere utdanning og inntekt gir bedre helse i gjennomsnitt",
+        "At rike blir syke oftere",
+        "At helse ikke har med samfunnet å gjøre"
+      ],
+      "correct": 1,
+      "explain": "Ulikhet påvirker helse."
+    },
+    {
+      "id": "q07",
+      "text": "Hva legger konservatismen vekt på?",
+      "options": [
+        "Revolusjon",
+        "Et helt fritt marked uten tradisjoner",
+        "Tradisjon, stabilitet og gradvis endring",
+        "Avskaffelse av familien"
+      ],
+      "correct": 2,
+      "explain": "Institusjoner som familie og lokalsamfunn."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr rettferdig omstilling i klimapolitikken?",
+      "options": [
+        "At klimatiltak droppes",
+        "At rike land slipper å gjøre noe",
+        "At alle betaler likt uansett inntekt",
+        "At byrdene ved klimakutt fordeles slik at de svakeste ikke betaler mest"
+      ],
+      "correct": 3,
+      "explain": "Kobling mellom klima og fordeling."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken ideologi legger vekt på naturens tålegrenser og framtidige generasjoner?",
+      "options": [
+        "Grønn ideologi",
+        "Liberalisme",
+        "Konservatisme",
+        "Sosialisme alene"
+      ],
+      "correct": 0,
+      "explain": "Også kalt økologisme."
+    },
+    {
+      "id": "q10",
+      "text": "Hva hevdet Wilkinson og Pickett?",
+      "options": [
+        "At ulikhet ikke har betydning",
+        "At land med mindre ulikhet har færre sosiale problemer",
+        "At rike land alltid er lykkeligst",
+        "At skatt bør avskaffes"
+      ],
+      "correct": 1,
+      "explain": "Ulikhet påvirker hele samfunnet."
+    }
   ],
   "mindmap": {
     "label": "Ideologi, rettferdighet og bærekraft",
     "children": [
-      { "label": "Ideologier", "children": [
-        { "label": "Liberalisme" },
-        { "label": "Sosialisme" },
-        { "label": "Konservatisme" },
-        { "label": "Grønn ideologi" }
-      ] },
-      { "label": "Fordelingsprinsipper", "children": [
-        { "label": "Likhet" },
-        { "label": "Behov" },
-        { "label": "Fortjeneste" },
-        { "label": "Like muligheter" }
-      ] },
-      { "label": "Teorier", "children": [
-        { "label": "Rawls" },
-        { "label": "Nozick" }
-      ] },
-      { "label": "Ulikhet", "children": [
-        { "label": "Individnivå: helse og livssjanser" },
-        { "label": "Samfunnsnivå: tillit og samhold" }
-      ] },
-      { "label": "Bærekraft", "children": [
-        { "label": "Sosial bærekraft" },
-        { "label": "Rettferdig omstilling" },
-        { "label": "Globale forskjeller" }
-      ] }
+      {
+        "label": "Ideologier",
+        "children": [
+          {
+            "label": "Liberalisme"
+          },
+          {
+            "label": "Sosialisme"
+          },
+          {
+            "label": "Konservatisme"
+          },
+          {
+            "label": "Grønn ideologi"
+          }
+        ]
+      },
+      {
+        "label": "Fordelingsprinsipper",
+        "children": [
+          {
+            "label": "Likhet"
+          },
+          {
+            "label": "Behov"
+          },
+          {
+            "label": "Fortjeneste"
+          },
+          {
+            "label": "Like muligheter"
+          }
+        ]
+      },
+      {
+        "label": "Teorier",
+        "children": [
+          {
+            "label": "Rawls"
+          },
+          {
+            "label": "Nozick"
+          }
+        ]
+      },
+      {
+        "label": "Ulikhet",
+        "children": [
+          {
+            "label": "Individnivå: helse og livssjanser"
+          },
+          {
+            "label": "Samfunnsnivå: tillit og samhold"
+          }
+        ]
+      },
+      {
+        "label": "Bærekraft",
+        "children": [
+          {
+            "label": "Sosial bærekraft"
+          },
+          {
+            "label": "Rettferdig omstilling"
+          },
+          {
+            "label": "Globale forskjeller"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Klimaendringer rammer ofte de fattigste hardest.", "correct": true, "explain": "Selv om de har bidratt minst til utslippene." },
-      { "id": "m02", "type": "sant-usant", "text": "Alle ideologier er enige om hva rettferdig fordeling er.", "correct": false, "explain": "Ideologiene gir ulike svar." },
-      { "id": "m03", "type": "sant-usant", "text": "Avgifter på drivstoff kan ramme folk med lav inntekt og lang reisevei hardt.", "correct": true, "explain": "Et fordelingsspørsmål i klimapolitikken." },
-      { "id": "m04", "type": "sant-usant", "text": "Liberalismen mener staten bør ha kontroll over hele økonomien.", "correct": false, "explain": "Liberalismen vil ha begrenset stat og fritt marked." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket prinsipp brukes når lønn fastsettes etter innsats?", "options": ["Behovsprinsippet", "Fortjenesteprinsippet", "Likhetsprinsippet", "Forskjellsprinsippet"], "correct": 1, "explain": "De som yter mest, får mest." },
-      { "id": "m06", "type": "flervalg", "text": "Når utga John Rawls sin rettferdighetsteori?", "options": ["1971", "1848", "1917", "2001"], "correct": 0, "explain": "«A Theory of Justice»." },
-      { "id": "m07", "type": "flervalg", "text": "Hva hører til sosial bærekraft?", "options": ["Bare lave utslipp", "Bare økonomisk vekst", "Rettferdig fordeling, inkludering og tillit", "Bare teknologisk utvikling"], "correct": 2, "explain": "En av tre bærekraftsdimensjoner." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Klimaendringer rammer ofte de fattigste hardest.",
+        "correct": true,
+        "explain": "Selv om de har bidratt minst til utslippene."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle ideologier er enige om hva rettferdig fordeling er.",
+        "correct": false,
+        "explain": "Ideologiene gir ulike svar."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Avgifter på drivstoff kan ramme folk med lav inntekt og lang reisevei hardt.",
+        "correct": true,
+        "explain": "Et fordelingsspørsmål i klimapolitikken."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Liberalismen mener staten bør ha kontroll over hele økonomien.",
+        "correct": false,
+        "explain": "Liberalismen vil ha begrenset stat og fritt marked."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket prinsipp brukes når lønn fastsettes etter innsats?",
+        "options": [
+          "Behovsprinsippet",
+          "Fortjenesteprinsippet",
+          "Likhetsprinsippet",
+          "Forskjellsprinsippet"
+        ],
+        "correct": 1,
+        "explain": "De som yter mest, får mest."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Når utga John Rawls sin rettferdighetsteori?",
+        "options": [
+          "1971",
+          "1848",
+          "1917",
+          "2001"
+        ],
+        "correct": 0,
+        "explain": "«A Theory of Justice»."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva hører til sosial bærekraft?",
+        "options": [
+          "Bare lave utslipp",
+          "Bare økonomisk vekst",
+          "Rettferdig fordeling, inkludering og tillit",
+          "Bare teknologisk utvikling"
+        ],
+        "correct": 2,
+        "explain": "En av tre bærekraftsdimensjoner."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva er en ideologi, og hvilke typer spørsmål om samfunnet kan ideologier gi ulike svar på?",
+        "fasit": "En ideologi er et sammenhengende sett av ideer om hvordan samfunnet er og bør være. Ideologier gir ulike svar på spørsmål om blant annet makt og fordeling.",
+        "kriterier": [
+          "Forklarer at ideologi er et sammenhengende sett av ideer om samfunnet.",
+          "Nevner at ideologier kan gi ulike svar om makt eller fordeling."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign liberalisme og sosialisme når det gjelder synet på markedet og statens rolle i fordelingen av goder.",
+        "fasit": "Liberalismen legger vekt på individets frihet og et fritt marked, og ønsker en begrenset stat. Sosialismen mener markedet skaper ulikhet, og legger vekt på at staten eller fellesskapet omfordeler gjennom skatt og velferd.",
+        "kriterier": [
+          "Får fram liberalismens vekt på individets frihet, fritt marked og begrenset stat.",
+          "Får fram sosialismens vekt på omfordeling fordi markedet skaper ulikhet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen mellom likhet og like muligheter som prinsipper for rettferdig fordeling.",
+        "fasit": "Likhet betyr at alle får like mye. Like muligheter betyr at alle skal ha samme start, selv om resultatene kan bli forskjellige.",
+        "kriterier": [
+          "Forklarer at likhet handler om å få like mye.",
+          "Forklarer at like muligheter handler om samme start, men ikke nødvendigvis samme resultat."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hvordan kan stor ulikhet påvirke samfunnet som helhet? Forklar sammenhengen ved å nevne mulige følger.",
+        "fasit": "Stor ulikhet kan svekke tilliten og samholdet i samfunnet. Den kan også svekke demokratisk deltakelse.",
+        "kriterier": [
+          "Knytter stor ulikhet til svekket tillit eller samhold.",
+          "Nevner også svekket demokratisk deltakelse eller forklarer en annen av de oppgitte følgene."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign konservatisme og grønn ideologi: Hva legger de særlig vekt på når de ser på samfunnet og framtiden?",
+        "fasit": "Konservatismen legger vekt på tradisjon, stabilitet og sterke institusjoner, og mener endringer bør skje gradvis. Grønn ideologi legger vekt på naturens tålegrenser og hensynet til framtidige generasjoner.",
+        "kriterier": [
+          "Får fram konservatismens vekt på tradisjon, stabilitet eller gradvise endringer.",
+          "Får fram grønn ideologis vekt på naturens tålegrenser eller framtidige generasjoner."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En avgift på drivstoff kan ramme personer med lav inntekt og lang reisevei hardest. Forklar hvordan avgiften kan utformes eller fordeles slik at omstillingen blir rettferdig.",
+        "fasit": "En rettferdig omstilling betyr at byrdene ved å kutte utslipp fordeles slik at de svakeste ikke betaler mest. Derfor må en ta hensyn til at personer med lav inntekt og lang reisevei kan rammes særlig hardt.",
+        "kriterier": [
+          "Forklarer at byrdene ved utslippskutt skal fordeles slik at de svakeste ikke betaler mest.",
+          "Knytter dette til at lav inntekt og lang reisevei kan gjøre avgiften særlig belastende."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hva kjennetegner et bærekraftig samfunn, og hva innebærer sosial bærekraft i et slikt samfunn?",
+        "fasit": "Et bærekraftig samfunn tar vare på miljø, sosiale forhold og økonomi, både nå og for framtidige generasjoner. Sosial bærekraft handler blant annet om rettferdig fordeling, inkludering og tillit.",
+        "kriterier": [
+          "Nevner miljø, sosiale forhold og økonomi, og at hensynet gjelder nå og i framtiden.",
+          "Forklarer sosial bærekraft med rettferdig fordeling, inkludering eller tillit."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hvorfor er klimaendringer også et spørsmål om rettferdig fordeling mellom land?",
+        "fasit": "Klimaendringene rammer ofte fattige land og mennesker hardest, selv om de har bidratt minst til utslippene. Det skaper en skjevhet mellom hvem som har bidratt minst til problemet, og hvem som rammes hardest.",
+        "kriterier": [
+          "Får fram at fattige land eller mennesker ofte rammes hardest.",
+          "Får fram at de samtidig har bidratt minst til utslippene."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

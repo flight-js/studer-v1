@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Lagre, hente og presentere data på nettsider",
   "intro": "Hvordan en nettside kan lagre og hente data med JavaScript, JSON, localStorage og tjenere, vise dem i tabeller og diagrammer – og hvordan valg av presentasjon kan påvirke hvordan dataene tolkes.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Statiske og dynamiske nettsider\n\nEn **statisk** nettside viser det samme innholdet hver gang. En **dynamisk** side henter og viser **data** som kan endre seg – værmeldinger, resultater, lagerstatus eller innlegg fra brukerne.\n\n## JavaScript på nettsiden\n\n**JavaScript** er programmeringsspråket i nettleseren. Det kan endre innholdet på siden, reagere på klikk og hente data:\n\n```\nconst elever = [\n  { navn: \"Ida\", poeng: 87 },\n  { navn: \"Ali\", poeng: 92 }\n];\nfor (const e of elever) {\n  const rad = document.createElement(\"tr\");\n  rad.innerHTML = `<td>${e.navn}</td><td>${e.poeng}</td>`;\n  document.querySelector(\"#tabell\").append(rad);\n}\n```\n\nKoden går gjennom en liste med objekter og lager én **tabellrad** per elev.\n\n## Hvor kan data lagres?\n\n- **I koden eller i en JSON-fil** på tjeneren – enkelt, men dataene endres bare når filen endres.\n- **localStorage** i nettleseren – data blir liggende på brukerens maskin, for eksempel innstillinger. Andre brukere ser dem ikke, og de kan forsvinne hvis nettleserdata slettes.\n- **En database på en tjener** – data deles mellom alle brukere og kan oppdateres. Siden henter dem via et **API** (et grensesnitt), ofte i JSON-format:\n\n```\nconst svar = await fetch(\"data.json\");\nconst data = await svar.json();\n```\n\n**Sensitive data**, som passord og personopplysninger, skal aldri lagres åpent i nettleseren eller i koden.\n\n## Presentere data\n\n- **Tabeller** passer når leseren skal finne **eksakte verdier**.\n- **Søylediagram** passer for å **sammenligne kategorier**.\n- **Linjediagram** passer for **utvikling over tid**.\n- **Sektordiagram** viser **andeler av en helhet** – best med få kategorier.\n- **Punktdiagram** viser **sammenhenger** mellom to variabler.\n\nBiblioteker som **Chart.js** gjør det enkelt å lage diagrammer med JavaScript.\n\n## Representasjon påvirker tolkning\n\nSamme data kan gi **ulike inntrykk**:\n\n- En **y-akse som ikke starter på null** kan få små forskjeller til å se store ut.\n- **3D-effekter** og skjeve sektordiagrammer gjør det vanskelig å sammenligne størrelser.\n- **Valg av tidsperiode** kan skjule eller forsterke en trend.\n- **Absolutte tall** og **prosent** kan gi ulike bilder: 50 nye brukere er mye for en liten tjeneste, men lite for en stor.\n- **Farger** påvirker: Rødt oppfattes ofte som negativt.\n\nSom utvikler har du derfor et **ansvar** for å presentere data **ærlig**: tydelige aksetitler og enheter, kilde, og en diagramtype som passer.\n\n## Framgangsmåte\n\n1. Hva skal brukeren **få vite**?\n2. Hvor skal dataene **lagres**, og hvem skal kunne endre dem?\n3. Hvordan skal de **hentes** og **oppdateres**?\n4. Hvilken **visning** gir en riktig og forståelig framstilling?\n5. **Test** med ekte brukere.",
   "flashcards": [
-    { "term": "Statisk nettside", "def": "Viser det samme innholdet hver gang." },
-    { "term": "Dynamisk nettside", "def": "Henter og viser data som kan endre seg." },
-    { "term": "JavaScript", "def": "Programmeringsspråket i nettleseren." },
-    { "term": "document.querySelector", "def": "Finner et element på siden." },
-    { "term": "localStorage", "def": "Lagrer data i brukerens nettleser." },
-    { "term": "API", "def": "Grensesnitt for å hente data fra en tjeneste." },
-    { "term": "fetch", "def": "JavaScript-funksjon som henter data fra en adresse." },
-    { "term": "JSON på nettet", "def": "Vanlig format for data mellom tjener og nettside." },
-    { "term": "Sensitive data", "def": "Skal aldri lagres åpent i nettleseren eller koden." },
-    { "term": "Søylediagram", "def": "Sammenligner kategorier." },
-    { "term": "Linjediagram", "def": "Viser utvikling over tid." },
-    { "term": "Sektordiagram", "def": "Viser andeler av en helhet." },
-    { "term": "Avkortet y-akse", "def": "Kan få små forskjeller til å se store ut." },
-    { "term": "Chart.js", "def": "JavaScript-bibliotek for diagrammer." },
-    { "term": "Ærlig framstilling", "def": "Aksetitler, enheter, kilde og riktig diagramtype." }
+    {
+      "term": "Statisk nettside",
+      "def": "Viser det samme innholdet hver gang."
+    },
+    {
+      "term": "Dynamisk nettside",
+      "def": "Henter og viser data som kan endre seg."
+    },
+    {
+      "term": "JavaScript",
+      "def": "Programmeringsspråket i nettleseren."
+    },
+    {
+      "term": "document.querySelector",
+      "def": "Finner et element på siden."
+    },
+    {
+      "term": "localStorage",
+      "def": "Lagrer data i brukerens nettleser."
+    },
+    {
+      "term": "API",
+      "def": "Grensesnitt for å hente data fra en tjeneste."
+    },
+    {
+      "term": "fetch",
+      "def": "JavaScript-funksjon som henter data fra en adresse."
+    },
+    {
+      "term": "JSON på nettet",
+      "def": "Vanlig format for data mellom tjener og nettside."
+    },
+    {
+      "term": "Sensitive data",
+      "def": "Skal aldri lagres åpent i nettleseren eller koden."
+    },
+    {
+      "term": "Søylediagram",
+      "def": "Sammenligner kategorier."
+    },
+    {
+      "term": "Linjediagram",
+      "def": "Viser utvikling over tid."
+    },
+    {
+      "term": "Sektordiagram",
+      "def": "Viser andeler av en helhet."
+    },
+    {
+      "term": "Avkortet y-akse",
+      "def": "Kan få små forskjeller til å se store ut."
+    },
+    {
+      "term": "Chart.js",
+      "def": "JavaScript-bibliotek for diagrammer."
+    },
+    {
+      "term": "Ærlig framstilling",
+      "def": "Aksetitler, enheter, kilde og riktig diagramtype."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner en dynamisk nettside?", "options": ["Den har mye animasjon", "Den henter og viser data som kan endre seg", "Den er skrevet bare i CSS", "Den har ingen lenker"], "correct": 1, "explain": "For eksempel værdata eller resultater." },
-    { "id": "q02", "text": "Hvor lagres data i localStorage?", "options": ["I brukerens nettleser", "På tjeneren", "I en felles database", "I CSS-filen"], "correct": 0, "explain": "Andre brukere ser dem ikke." },
-    { "id": "q03", "text": "Hvilken diagramtype passer best for utvikling over tid?", "options": ["Sektordiagram", "Tabell", "Linjediagram", "Punktdiagram uten akser"], "correct": 2, "explain": "Tiden på x-aksen." },
-    { "id": "q04", "text": "Hvordan kan en avkortet y-akse påvirke tolkningen?", "options": ["Den gjør diagrammet mer nøyaktig", "Den har ingen betydning", "Den skjuler alle data", "Den kan få små forskjeller til å se store ut"], "correct": 3, "explain": "Aksen starter ikke på null." },
-    { "id": "q05", "text": "Hva gjør fetch(\"data.json\")?", "options": ["Henter data fra en adresse", "Sletter en fil", "Lager en tabell", "Endrer fargen på siden"], "correct": 0, "explain": "Svaret kan gjøres om til JavaScript-objekter." },
-    { "id": "q06", "text": "Hvor bør data som skal deles mellom alle brukere, lagres?", "options": ["I localStorage", "I en database på en tjener", "I brukerens utklippstavle", "I CSS"], "correct": 1, "explain": "Da kan alle hente og oppdatere dem." },
-    { "id": "q07", "text": "Hvilken diagramtype passer for å sammenligne kategorier?", "options": ["Linjediagram", "Sektordiagram med 3D", "Søylediagram", "Ingen"], "correct": 2, "explain": "Søylene er lette å sammenligne." },
-    { "id": "q08", "text": "Hva bør du aldri lagre åpent i nettleseren eller i koden?", "options": ["Farger", "Overskrifter", "Offentlige tall", "Passord og personopplysninger"], "correct": 3, "explain": "Alle kan lese koden og nettleserdataene." },
-    { "id": "q09", "text": "Hva er et API?", "options": ["Et grensesnitt for å hente data fra en tjeneste", "En type diagram", "En CSS-regel", "Et HTML-element"], "correct": 0, "explain": "Ofte med data i JSON." },
-    { "id": "q10", "text": "Hva gjør koden som går gjennom elevlisten og lager tr-elementer?", "options": ["Sletter tabellen", "Lager én tabellrad per elev", "Lagrer data i en database", "Sorterer elevene"], "correct": 1, "explain": "Data vises dynamisk." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner en dynamisk nettside?",
+      "options": [
+        "Den har mye animasjon",
+        "Den henter og viser data som kan endre seg",
+        "Den er skrevet bare i CSS",
+        "Den har ingen lenker"
+      ],
+      "correct": 1,
+      "explain": "For eksempel værdata eller resultater."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor lagres data i localStorage?",
+      "options": [
+        "I brukerens nettleser",
+        "På tjeneren",
+        "I en felles database",
+        "I CSS-filen"
+      ],
+      "correct": 0,
+      "explain": "Andre brukere ser dem ikke."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken diagramtype passer best for utvikling over tid?",
+      "options": [
+        "Sektordiagram",
+        "Tabell",
+        "Linjediagram",
+        "Punktdiagram uten akser"
+      ],
+      "correct": 2,
+      "explain": "Tiden på x-aksen."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan kan en avkortet y-akse påvirke tolkningen?",
+      "options": [
+        "Den gjør diagrammet mer nøyaktig",
+        "Den har ingen betydning",
+        "Den skjuler alle data",
+        "Den kan få små forskjeller til å se store ut"
+      ],
+      "correct": 3,
+      "explain": "Aksen starter ikke på null."
+    },
+    {
+      "id": "q05",
+      "text": "Hva gjør fetch(\"data.json\")?",
+      "options": [
+        "Henter data fra en adresse",
+        "Sletter en fil",
+        "Lager en tabell",
+        "Endrer fargen på siden"
+      ],
+      "correct": 0,
+      "explain": "Svaret kan gjøres om til JavaScript-objekter."
+    },
+    {
+      "id": "q06",
+      "text": "Hvor bør data som skal deles mellom alle brukere, lagres?",
+      "options": [
+        "I localStorage",
+        "I en database på en tjener",
+        "I brukerens utklippstavle",
+        "I CSS"
+      ],
+      "correct": 1,
+      "explain": "Da kan alle hente og oppdatere dem."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken diagramtype passer for å sammenligne kategorier?",
+      "options": [
+        "Linjediagram",
+        "Sektordiagram med 3D",
+        "Søylediagram",
+        "Ingen"
+      ],
+      "correct": 2,
+      "explain": "Søylene er lette å sammenligne."
+    },
+    {
+      "id": "q08",
+      "text": "Hva bør du aldri lagre åpent i nettleseren eller i koden?",
+      "options": [
+        "Farger",
+        "Overskrifter",
+        "Offentlige tall",
+        "Passord og personopplysninger"
+      ],
+      "correct": 3,
+      "explain": "Alle kan lese koden og nettleserdataene."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et API?",
+      "options": [
+        "Et grensesnitt for å hente data fra en tjeneste",
+        "En type diagram",
+        "En CSS-regel",
+        "Et HTML-element"
+      ],
+      "correct": 0,
+      "explain": "Ofte med data i JSON."
+    },
+    {
+      "id": "q10",
+      "text": "Hva gjør koden som går gjennom elevlisten og lager tr-elementer?",
+      "options": [
+        "Sletter tabellen",
+        "Lager én tabellrad per elev",
+        "Lagrer data i en database",
+        "Sorterer elevene"
+      ],
+      "correct": 1,
+      "explain": "Data vises dynamisk."
+    }
   ],
   "mindmap": {
     "label": "Data på nettsider",
     "children": [
-      { "label": "Sidetyper", "children": [
-        { "label": "Statisk" },
-        { "label": "Dynamisk" }
-      ] },
-      { "label": "Lagring", "children": [
-        { "label": "JSON-fil" },
-        { "label": "localStorage" },
-        { "label": "Database og API" }
-      ] },
-      { "label": "JavaScript", "children": [
-        { "label": "Løkker og objekter" },
-        { "label": "fetch" },
-        { "label": "Endre siden" }
-      ] },
-      { "label": "Presentasjon", "children": [
-        { "label": "Tabell" },
-        { "label": "Søyle, linje, sektor" },
-        { "label": "Chart.js" }
-      ] },
-      { "label": "Tolkning", "children": [
-        { "label": "Avkortet akse" },
-        { "label": "Absolutt og prosent" },
-        { "label": "Ærlig framstilling" }
-      ] }
+      {
+        "label": "Sidetyper",
+        "children": [
+          {
+            "label": "Statisk"
+          },
+          {
+            "label": "Dynamisk"
+          }
+        ]
+      },
+      {
+        "label": "Lagring",
+        "children": [
+          {
+            "label": "JSON-fil"
+          },
+          {
+            "label": "localStorage"
+          },
+          {
+            "label": "Database og API"
+          }
+        ]
+      },
+      {
+        "label": "JavaScript",
+        "children": [
+          {
+            "label": "Løkker og objekter"
+          },
+          {
+            "label": "fetch"
+          },
+          {
+            "label": "Endre siden"
+          }
+        ]
+      },
+      {
+        "label": "Presentasjon",
+        "children": [
+          {
+            "label": "Tabell"
+          },
+          {
+            "label": "Søyle, linje, sektor"
+          },
+          {
+            "label": "Chart.js"
+          }
+        ]
+      },
+      {
+        "label": "Tolkning",
+        "children": [
+          {
+            "label": "Avkortet akse"
+          },
+          {
+            "label": "Absolutt og prosent"
+          },
+          {
+            "label": "Ærlig framstilling"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Samme data kan gi ulike inntrykk avhengig av hvordan de presenteres.", "correct": true, "explain": "Valg av akser, periode og diagramtype påvirker." },
-      { "id": "m02", "type": "sant-usant", "text": "Data i localStorage deles automatisk med alle brukere av nettsiden.", "correct": false, "explain": "De ligger bare i den enkelte nettleseren." },
-      { "id": "m03", "type": "sant-usant", "text": "Tabeller passer godt når leseren skal finne eksakte verdier.", "correct": true, "explain": "Diagrammer passer bedre for mønstre." },
-      { "id": "m04", "type": "sant-usant", "text": "Et sektordiagram egner seg best når det er mange kategorier.", "correct": false, "explain": "Det fungerer best med få kategorier." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket diagram viser best sammenhengen mellom treningstid og kondisjon?", "options": ["Sektordiagram", "Punktdiagram", "Tabell uten tall", "Søylediagram med én søyle"], "correct": 1, "explain": "Punktdiagram viser sammenhenger." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket programmeringsspråk kjører i nettleseren?", "options": ["JavaScript", "SQL", "CSS", "HTML"], "correct": 0, "explain": "HTML og CSS er ikke programmeringsspråk." },
-      { "id": "m07", "type": "flervalg", "text": "Hva bør alltid være med i et diagram på en nettside?", "options": ["3D-effekter", "Så mange farger som mulig", "Aksetitler, enheter og kilde", "Animasjon"], "correct": 2, "explain": "Det gjør framstillingen ærlig og forståelig." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Samme data kan gi ulike inntrykk avhengig av hvordan de presenteres.",
+        "correct": true,
+        "explain": "Valg av akser, periode og diagramtype påvirker."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Data i localStorage deles automatisk med alle brukere av nettsiden.",
+        "correct": false,
+        "explain": "De ligger bare i den enkelte nettleseren."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Tabeller passer godt når leseren skal finne eksakte verdier.",
+        "correct": true,
+        "explain": "Diagrammer passer bedre for mønstre."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et sektordiagram egner seg best når det er mange kategorier.",
+        "correct": false,
+        "explain": "Det fungerer best med få kategorier."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket diagram viser best sammenhengen mellom treningstid og kondisjon?",
+        "options": [
+          "Sektordiagram",
+          "Punktdiagram",
+          "Tabell uten tall",
+          "Søylediagram med én søyle"
+        ],
+        "correct": 1,
+        "explain": "Punktdiagram viser sammenhenger."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket programmeringsspråk kjører i nettleseren?",
+        "options": [
+          "JavaScript",
+          "SQL",
+          "CSS",
+          "HTML"
+        ],
+        "correct": 0,
+        "explain": "HTML og CSS er ikke programmeringsspråk."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva bør alltid være med i et diagram på en nettside?",
+        "options": [
+          "3D-effekter",
+          "Så mange farger som mulig",
+          "Aksetitler, enheter og kilde",
+          "Animasjon"
+        ],
+        "correct": 2,
+        "explain": "Det gjør framstillingen ærlig og forståelig."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En nettside skal huske bakgrunnsfargen hver bruker har valgt, men innstillingen trenger ikke deles med andre. Hvor bør innstillingen lagres, og nevn én begrensning ved denne løsningen.",
+        "fasit": "Innstillingen kan lagres i localStorage i brukerens nettleser. Andre brukere ser den ikke, og den kan forsvinne hvis nettleserdata slettes.",
+        "kriterier": [
+          "Velger localStorage i nettleseren for den personlige innstillingen.",
+          "Nevner at dataene ikke deles med andre brukere, eller at de kan slettes sammen med nettleserdata."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En nettside skal vise nøyaktig poengsum for hver elev, slik at leseren lett kan finne én bestemt elevs resultat. Hvilken visning passer best, og hvorfor?",
+        "fasit": "En tabell passer best fordi leseren skal finne eksakte verdier. Rader og kolonner gjør det mulig å finne resultatet til en bestemt elev.",
+        "kriterier": [
+          "Velger tabell.",
+          "Begrunner valget med at tabeller passer når leseren skal finne eksakte verdier."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Du skal vise hvordan fire kategorier fordeler seg som andeler av én helhet. Hvilken diagramtype passer best, og hvorfor er den egnet her?",
+        "fasit": "Et sektordiagram passer fordi det viser andeler av en helhet. Det egner seg best når det er få kategorier, slik som her.",
+        "kriterier": [
+          "Velger sektordiagram.",
+          "Forklarer at det viser andeler av en helhet, og knytter valget til at det er få kategorier."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "To tjenester får begge 50 nye brukere. Forklar hvorfor dette kan være mye for den ene tjenesten, men lite for den andre.",
+        "fasit": "Tallet 50 er det samme i begge tilfeller, men betydningen avhenger av hvor stor tjenesten er fra før. Derfor kan absolutte tall og prosent vise ulike bilder.",
+        "kriterier": [
+          "Forklarer at samme absolutte antall kan utgjøre en ulik andel av tjenestene.",
+          "Knytter forskjellen til at absolutte tall og prosent kan gi ulike inntrykk."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I JavaScript-koden `document.querySelector(\"#tabell\")` brukes før en ny tabellrad legges til på siden. Hva finner uttrykket, og hvilken rolle har det i denne situasjonen?",
+        "fasit": "Uttrykket finner elementet på siden som har id-en `tabell`. Koden kan bruke dette elementet som stedet der den nye tabellraden legges til.",
+        "kriterier": [
+          "Forklarer at `querySelector` finner et element på siden, her elementet med id-en `tabell`.",
+          "Forklarer at elementet brukes som mål for å legge til tabellraden."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En nettside bruker Chart.js sammen med JavaScript. Forklar hva Chart.js bidrar med på nettsiden.",
+        "fasit": "Chart.js er et JavaScript-bibliotek som gjør det enklere å lage diagrammer på nettsiden. JavaScript brukes til å arbeide med biblioteket.",
+        "kriterier": [
+          "Forklarer at Chart.js er et JavaScript-bibliotek.",
+          "Forklarer at det gjør det enklere å lage diagrammer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du lager et diagram som skal hjelpe leseren med å forstå data. Nevn to ting du bør ta med eller velge for å presentere dataene ærlig, og forklar hvorfor én av dem er viktig.",
+        "fasit": "Diagrammet bør ha tydelige aksetitler og enheter, vise kilden og bruke en diagramtype som passer til dataene. Det gjør det lettere å forstå hva tallene viser og reduserer faren for et misvisende inntrykk.",
+        "kriterier": [
+          "Nevner minst to relevante valg: tydelige aksetitler, enheter, kilde eller diagramtype som passer.",
+          "Forklarer hvordan minst ett av valgene bidrar til en forståelig eller ærlig framstilling."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Etter at en nettside med datavisning er laget, hvilket steg bør utvikleren gjennomføre med ekte brukere, og hva bør dette steget undersøke?",
+        "fasit": "Utvikleren bør teste nettsiden med ekte brukere. Testen bør undersøke om brukerne forstår visningen og finner informasjonen de trenger.",
+        "kriterier": [
+          "Nevner testing med ekte brukere.",
+          "Knytter testingen til om visningen er forståelig eller hjelper brukerne med å få vite det de trenger."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

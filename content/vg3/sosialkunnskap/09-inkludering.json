@@ -4,79 +4,427 @@
   "trinnId": "vg3",
   "name": "Inkludering i arbeidsliv og velferdssamfunn",
   "intro": "Hva inkludering betyr på individ-, gruppe- og samfunnsnivå, forskjellen på inkludering, integrering og assimilering, barrierer mot deltakelse, og tiltak for inkludering i arbeidslivet og velferdssamfunnet – NAV-tiltak, introduksjonsprogrammet, universell utforming, inkluderende arbeidsliv og frivillighet.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Hva er inkludering?\n\n**Inkludering** betyr at alle skal kunne **delta** og oppleve **tilhørighet** – uavhengig av bakgrunn, funksjonsevne, alder, kjønn eller seksuell orientering. Inkludering handler både om **muligheter** og om å bli **møtt** med respekt.\n\n## Inkludering på ulike nivåer\n\n- **Individnivå**: å ha venner, nettverk og oppleve å bli sett\n- **Gruppenivå**: i klassen, på arbeidsplassen og i idrettslaget\n- **Samfunnsnivå**: lik tilgang til **utdanning**, **arbeid**, **bolig**, **helsetjenester** og **politisk** deltakelse\n\n## Inkludering, integrering og assimilering\n\n- **Assimilering**: Minoriteter må gi opp egen kultur og bli **lik** majoriteten.\n- **Integrering**: Man deltar i fellesskapet og følger felles **regler**, men kan **beholde** egen kultur og identitet.\n- **Segregering**: Grupper lever **atskilt**.\n- **Inkludering**: Fellesskapet **tilpasser seg** slik at **alle** kan delta – ansvaret ligger ikke bare hos den som skal inkluderes.\n\n## Barrierer\n\n- **Diskriminering** i ansettelser og boligmarked\n- **Språk** og manglende **godkjenning** av utdanning fra andre land\n- **Fysiske** barrierer for mennesker med funksjonsnedsettelser\n- **Helseplager** og manglende **tilrettelegging**\n- **Økonomi**: Aktiviteter og utstyr koster penger\n- **Fordommer** og **holdninger**\n\n## Hvorfor er arbeid så viktig?\n\nArbeid gir **inntekt**, men også **nettverk**, **mestring**, **struktur** og **identitet**. Å stå utenfor arbeidslivet over tid henger sammen med dårligere **helse** og **levekår**. For samfunnet betyr høy **sysselsetting** mer skatteinntekter og lavere trygdeutgifter.\n\n## Tiltak i arbeidslivet\n\n- **NAV** tilbyr blant annet **arbeidstrening**, **lønnstilskudd** – der NAV dekker deler av lønnen – og **mentorordninger**.\n- **Individuell jobbstøtte (IPS)** hjelper personer med psykiske helseplager eller rusproblemer ut i ordinært arbeid, med **tett oppfølging**.\n- **Kvalifiseringsprogrammet** gir tett oppfølging til personer med svært svak tilknytning til arbeidslivet.\n- **Introduksjonsprogrammet** for **flyktninger** gir opplæring i norsk, samfunnskunnskap og arbeid.\n- **IA-avtalen** – avtalen om et **inkluderende arbeidsliv** – er et samarbeid mellom partene i arbeidslivet og myndighetene for å redusere **sykefravær** og frafall.\n- **Anonymiserte** søknader og mål om **mangfold** kan motvirke diskriminering.\n\n## Tiltak i velferdssamfunnet\n\n- **Universell utforming**: Bygg, transport og digitale tjenester skal kunne brukes av **alle** uten spesialtilpasning.\n- **Gratis kjernetid** i barnehage og **fritidskort** for barn.\n- **Tolketjenester** og informasjon på flere **språk**.\n- **Likestillings- og diskrimineringsloven** forbyr diskriminering og krever at arbeidsgivere arbeider **aktivt** for likestilling.\n\n## Frivillighet og sivilsamfunn\n\n**Idrettslag**, **kor**, **språkkafeer** og **frivillige organisasjoner** er viktige arenaer for inkludering. De gir **nettverk**, **mestring** og **tilhørighet** på tvers av bakgrunn.\n\n## Vurdering av tiltak\n\nNår du vurderer tiltak, kan du spørre om de\n\n- fører til **varig** deltakelse, ikke bare kortsiktige løsninger\n- tar hensyn til den enkeltes **ønsker** og **behov**\n- endrer **systemet** eller bare **individet**\n- kan ha **uønskede** virkninger, som at arbeidsgivere bare ansetter mens tilskuddet varer\n\n## Drøfting\n\nEr inkludering først og fremst **individets** ansvar – å lære språk, ta utdanning og søke jobb – eller **samfunnets** ansvar – å fjerne barrierer og diskriminering? De fleste mener at det må være et **gjensidig** ansvar.",
   "flashcards": [
-    { "term": "Inkludering", "def": "At alle kan delta og oppleve tilhørighet – fellesskapet tilpasser seg." },
-    { "term": "Integrering", "def": "Deltakelse i fellesskapet med rett til å beholde egen kultur." },
-    { "term": "Assimilering", "def": "Minoriteter må bli lik majoriteten." },
-    { "term": "Segregering", "def": "Grupper lever atskilt." },
-    { "term": "Barriere", "def": "Hindring for deltakelse, som diskriminering eller språk." },
-    { "term": "Arbeidstrening", "def": "NAV-tiltak der man prøver seg i arbeid." },
-    { "term": "Lønnstilskudd", "def": "NAV dekker deler av lønnen for en periode." },
-    { "term": "Individuell jobbstøtte (IPS)", "def": "Tett oppfølging ut i ordinært arbeid ved psykiske plager eller rus." },
-    { "term": "Kvalifiseringsprogrammet", "def": "Tett oppfølging for personer med svært svak arbeidstilknytning." },
-    { "term": "Introduksjonsprogrammet", "def": "Opplæring i norsk, samfunnskunnskap og arbeid for flyktninger." },
-    { "term": "IA-avtalen", "def": "Avtale om et inkluderende arbeidsliv." },
-    { "term": "Universell utforming", "def": "Løsninger som kan brukes av alle uten spesialtilpasning." },
-    { "term": "Anonymiserte søknader", "def": "Tiltak mot diskriminering i ansettelser." },
-    { "term": "Frivillighet", "def": "Idrettslag, kor og organisasjoner som arenaer for inkludering." },
-    { "term": "Gjensidig ansvar", "def": "Både individ og samfunn må bidra til inkludering." }
+    {
+      "term": "Inkludering",
+      "def": "At alle kan delta og oppleve tilhørighet – fellesskapet tilpasser seg."
+    },
+    {
+      "term": "Integrering",
+      "def": "Deltakelse i fellesskapet med rett til å beholde egen kultur."
+    },
+    {
+      "term": "Assimilering",
+      "def": "Minoriteter må bli lik majoriteten."
+    },
+    {
+      "term": "Segregering",
+      "def": "Grupper lever atskilt."
+    },
+    {
+      "term": "Barriere",
+      "def": "Hindring for deltakelse, som diskriminering eller språk."
+    },
+    {
+      "term": "Arbeidstrening",
+      "def": "NAV-tiltak der man prøver seg i arbeid."
+    },
+    {
+      "term": "Lønnstilskudd",
+      "def": "NAV dekker deler av lønnen for en periode."
+    },
+    {
+      "term": "Individuell jobbstøtte (IPS)",
+      "def": "Tett oppfølging ut i ordinært arbeid ved psykiske plager eller rus."
+    },
+    {
+      "term": "Kvalifiseringsprogrammet",
+      "def": "Tett oppfølging for personer med svært svak arbeidstilknytning."
+    },
+    {
+      "term": "Introduksjonsprogrammet",
+      "def": "Opplæring i norsk, samfunnskunnskap og arbeid for flyktninger."
+    },
+    {
+      "term": "IA-avtalen",
+      "def": "Avtale om et inkluderende arbeidsliv."
+    },
+    {
+      "term": "Universell utforming",
+      "def": "Løsninger som kan brukes av alle uten spesialtilpasning."
+    },
+    {
+      "term": "Anonymiserte søknader",
+      "def": "Tiltak mot diskriminering i ansettelser."
+    },
+    {
+      "term": "Frivillighet",
+      "def": "Idrettslag, kor og organisasjoner som arenaer for inkludering."
+    },
+    {
+      "term": "Gjensidig ansvar",
+      "def": "Både individ og samfunn må bidra til inkludering."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er forskjellen på integrering og assimilering?", "options": ["Det er det samme", "Ved integrering kan man beholde egen kultur, ved assimilering må man bli lik majoriteten", "Assimilering betyr å bo atskilt", "Integrering betyr å gi opp egen kultur"], "correct": 1, "explain": "Segregering betyr atskillelse." },
-    { "id": "q02", "text": "Hva er universell utforming?", "options": ["Løsninger som kan brukes av alle uten spesialtilpasning", "En uniform", "En type skole", "En skatteordning"], "correct": 0, "explain": "Bygg, transport og digitale tjenester." },
-    { "id": "q03", "text": "Hva er lønnstilskudd?", "options": ["Høyere lønn til ledere", "En bonus", "At NAV dekker deler av lønnen for en periode", "En skatt"], "correct": 2, "explain": "Gjør det lettere å bli ansatt." },
-    { "id": "q04", "text": "Hvem er introduksjonsprogrammet for?", "options": ["Pensjonister", "Studenter", "Ledere", "Flyktninger"], "correct": 3, "explain": "Norsk, samfunnskunnskap og arbeid." },
-    { "id": "q05", "text": "Hvorfor er arbeid viktig for inkludering?", "options": ["Det gir inntekt, nettverk, mestring og identitet", "Det gir bare penger", "Det er lovpålagt for alle", "Det har ingen betydning"], "correct": 0, "explain": "Utenforskap over tid gir dårligere helse." },
-    { "id": "q06", "text": "Hva er IPS?", "options": ["En skatteordning", "Individuell jobbstøtte med tett oppfølging", "Et parti", "En diagnose"], "correct": 1, "explain": "For personer med psykiske helseplager eller rusproblemer." },
-    { "id": "q07", "text": "Hva er en barriere for inkludering?", "options": ["Språkkafé", "Fritidskort", "Diskriminering i ansettelser", "Universell utforming"], "correct": 2, "explain": "Hindrer deltakelse." },
-    { "id": "q08", "text": "Hva er IA-avtalen?", "options": ["En handelsavtale", "En skoleavtale", "En husleieavtale", "En avtale om et inkluderende arbeidsliv"], "correct": 3, "explain": "Mellom partene og myndighetene." },
-    { "id": "q09", "text": "Hva kjennetegner inkludering sammenlignet med integrering?", "options": ["At fellesskapet tilpasser seg så alle kan delta", "At minoriteten må tilpasse seg alene", "At grupper lever atskilt", "At alle blir like"], "correct": 0, "explain": "Ansvaret deles." },
-    { "id": "q10", "text": "Hvilken uønsket virkning kan lønnstilskudd ha?", "options": ["At flere får jobb varig", "At arbeidsgivere bare ansetter mens tilskuddet varer", "At lønningene stiger", "At ingen søker jobb"], "correct": 1, "explain": "Tiltak bør gi varig deltakelse." }
+    {
+      "id": "q01",
+      "text": "Hva er forskjellen på integrering og assimilering?",
+      "options": [
+        "Det er det samme",
+        "Ved integrering kan man beholde egen kultur, ved assimilering må man bli lik majoriteten",
+        "Assimilering betyr å bo atskilt",
+        "Integrering betyr å gi opp egen kultur"
+      ],
+      "correct": 1,
+      "explain": "Segregering betyr atskillelse."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er universell utforming?",
+      "options": [
+        "Løsninger som kan brukes av alle uten spesialtilpasning",
+        "En uniform",
+        "En type skole",
+        "En skatteordning"
+      ],
+      "correct": 0,
+      "explain": "Bygg, transport og digitale tjenester."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er lønnstilskudd?",
+      "options": [
+        "Høyere lønn til ledere",
+        "En bonus",
+        "At NAV dekker deler av lønnen for en periode",
+        "En skatt"
+      ],
+      "correct": 2,
+      "explain": "Gjør det lettere å bli ansatt."
+    },
+    {
+      "id": "q04",
+      "text": "Hvem er introduksjonsprogrammet for?",
+      "options": [
+        "Pensjonister",
+        "Studenter",
+        "Ledere",
+        "Flyktninger"
+      ],
+      "correct": 3,
+      "explain": "Norsk, samfunnskunnskap og arbeid."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor er arbeid viktig for inkludering?",
+      "options": [
+        "Det gir inntekt, nettverk, mestring og identitet",
+        "Det gir bare penger",
+        "Det er lovpålagt for alle",
+        "Det har ingen betydning"
+      ],
+      "correct": 0,
+      "explain": "Utenforskap over tid gir dårligere helse."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er IPS?",
+      "options": [
+        "En skatteordning",
+        "Individuell jobbstøtte med tett oppfølging",
+        "Et parti",
+        "En diagnose"
+      ],
+      "correct": 1,
+      "explain": "For personer med psykiske helseplager eller rusproblemer."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en barriere for inkludering?",
+      "options": [
+        "Språkkafé",
+        "Fritidskort",
+        "Diskriminering i ansettelser",
+        "Universell utforming"
+      ],
+      "correct": 2,
+      "explain": "Hindrer deltakelse."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er IA-avtalen?",
+      "options": [
+        "En handelsavtale",
+        "En skoleavtale",
+        "En husleieavtale",
+        "En avtale om et inkluderende arbeidsliv"
+      ],
+      "correct": 3,
+      "explain": "Mellom partene og myndighetene."
+    },
+    {
+      "id": "q09",
+      "text": "Hva kjennetegner inkludering sammenlignet med integrering?",
+      "options": [
+        "At fellesskapet tilpasser seg så alle kan delta",
+        "At minoriteten må tilpasse seg alene",
+        "At grupper lever atskilt",
+        "At alle blir like"
+      ],
+      "correct": 0,
+      "explain": "Ansvaret deles."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken uønsket virkning kan lønnstilskudd ha?",
+      "options": [
+        "At flere får jobb varig",
+        "At arbeidsgivere bare ansetter mens tilskuddet varer",
+        "At lønningene stiger",
+        "At ingen søker jobb"
+      ],
+      "correct": 1,
+      "explain": "Tiltak bør gi varig deltakelse."
+    }
   ],
   "mindmap": {
     "label": "Inkludering",
     "children": [
-      { "label": "Begreper", "children": [
-        { "label": "Inkludering" },
-        { "label": "Integrering og assimilering" },
-        { "label": "Segregering" }
-      ] },
-      { "label": "Nivåer", "children": [
-        { "label": "Individ" },
-        { "label": "Gruppe" },
-        { "label": "Samfunn" }
-      ] },
-      { "label": "Barrierer", "children": [
-        { "label": "Diskriminering" },
-        { "label": "Språk og helse" },
-        { "label": "Fysiske hindringer" }
-      ] },
-      { "label": "Arbeidsliv", "children": [
-        { "label": "NAV-tiltak og IPS" },
-        { "label": "Introduksjonsprogrammet" },
-        { "label": "IA-avtalen" }
-      ] },
-      { "label": "Samfunn", "children": [
-        { "label": "Universell utforming" },
-        { "label": "Frivillighet" },
-        { "label": "Diskrimineringsvern" }
-      ] }
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Inkludering"
+          },
+          {
+            "label": "Integrering og assimilering"
+          },
+          {
+            "label": "Segregering"
+          }
+        ]
+      },
+      {
+        "label": "Nivåer",
+        "children": [
+          {
+            "label": "Individ"
+          },
+          {
+            "label": "Gruppe"
+          },
+          {
+            "label": "Samfunn"
+          }
+        ]
+      },
+      {
+        "label": "Barrierer",
+        "children": [
+          {
+            "label": "Diskriminering"
+          },
+          {
+            "label": "Språk og helse"
+          },
+          {
+            "label": "Fysiske hindringer"
+          }
+        ]
+      },
+      {
+        "label": "Arbeidsliv",
+        "children": [
+          {
+            "label": "NAV-tiltak og IPS"
+          },
+          {
+            "label": "Introduksjonsprogrammet"
+          },
+          {
+            "label": "IA-avtalen"
+          }
+        ]
+      },
+      {
+        "label": "Samfunn",
+        "children": [
+          {
+            "label": "Universell utforming"
+          },
+          {
+            "label": "Frivillighet"
+          },
+          {
+            "label": "Diskrimineringsvern"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Frivillige organisasjoner er viktige arenaer for inkludering.", "correct": true, "explain": "Gir nettverk og tilhørighet." },
-      { "id": "m02", "type": "sant-usant", "text": "Inkludering betyr at bare den som skal inkluderes, må endre seg.", "correct": false, "explain": "Fellesskapet må også tilpasse seg." },
-      { "id": "m03", "type": "sant-usant", "text": "Manglende godkjenning av utdanning fra andre land kan være en barriere.", "correct": true, "explain": "Kompetanse blir ikke brukt." },
-      { "id": "m04", "type": "sant-usant", "text": "Høy sysselsetting har ingen betydning for velferdsstaten.", "correct": false, "explain": "Det gir skatteinntekter og lavere trygdeutgifter." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket tiltak er rettet mot barn?", "options": ["IA-avtalen", "Fritidskort", "Lønnstilskudd", "Kvalifiseringsprogrammet"], "correct": 1, "explain": "Gir mulighet til fritidsaktiviteter." },
-      { "id": "m06", "type": "flervalg", "text": "Hva krever likestillings- og diskrimineringsloven av arbeidsgivere?", "options": ["At de arbeider aktivt for likestilling", "At de ansetter bare menn", "At de betaler mer skatt", "At de har kantine"], "correct": 0, "explain": "Aktivitetsplikt." },
-      { "id": "m07", "type": "flervalg", "text": "Hva mener de fleste om ansvaret for inkludering?", "options": ["At bare individet har ansvar", "At bare staten har ansvar", "At ansvaret er gjensidig", "At ingen har ansvar"], "correct": 2, "explain": "Både individ og samfunn må bidra." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Frivillige organisasjoner er viktige arenaer for inkludering.",
+        "correct": true,
+        "explain": "Gir nettverk og tilhørighet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Inkludering betyr at bare den som skal inkluderes, må endre seg.",
+        "correct": false,
+        "explain": "Fellesskapet må også tilpasse seg."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Manglende godkjenning av utdanning fra andre land kan være en barriere.",
+        "correct": true,
+        "explain": "Kompetanse blir ikke brukt."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Høy sysselsetting har ingen betydning for velferdsstaten.",
+        "correct": false,
+        "explain": "Det gir skatteinntekter og lavere trygdeutgifter."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket tiltak er rettet mot barn?",
+        "options": [
+          "IA-avtalen",
+          "Fritidskort",
+          "Lønnstilskudd",
+          "Kvalifiseringsprogrammet"
+        ],
+        "correct": 1,
+        "explain": "Gir mulighet til fritidsaktiviteter."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva krever likestillings- og diskrimineringsloven av arbeidsgivere?",
+        "options": [
+          "At de arbeider aktivt for likestilling",
+          "At de ansetter bare menn",
+          "At de betaler mer skatt",
+          "At de har kantine"
+        ],
+        "correct": 0,
+        "explain": "Aktivitetsplikt."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva mener de fleste om ansvaret for inkludering?",
+        "options": [
+          "At bare individet har ansvar",
+          "At bare staten har ansvar",
+          "At ansvaret er gjensidig",
+          "At ingen har ansvar"
+        ],
+        "correct": 2,
+        "explain": "Både individ og samfunn må bidra."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En person opplever å bli sett av vennene sine, deltar i en gruppe på arbeidsplassen og har lik tilgang til helsetjenester. Hvilket nivå av inkludering viser hvert eksempel?",
+        "fasit": "Å bli sett av venner handler om individnivå, deltakelse i en gruppe på arbeidsplassen om gruppenivå, og lik tilgang til helsetjenester om samfunnsnivå.",
+        "kriterier": [
+          "Plasserer det å bli sett av venner på individnivå.",
+          "Plasserer deltakelse i arbeidsplassgruppen på gruppenivå og tilgang til helsetjenester på samfunnsnivå."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar en sammenheng mellom langvarig utenforskap fra arbeidslivet og helse eller levekår.",
+        "fasit": "Å stå utenfor arbeidslivet over tid henger sammen med dårligere helse og levekår. Arbeid kan gi inntekt, nettverk, mestring, struktur og identitet.",
+        "kriterier": [
+          "Knytter langvarig utenforskap fra arbeidslivet til dårligere helse eller levekår.",
+          "Forklarer sammenhengen med minst én betydning arbeid har, for eksempel inntekt, nettverk eller struktur."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign segregering og integrering. Hva er forskjellen på hvordan grupper deltar i fellesskapet?",
+        "fasit": "Ved segregering lever grupper atskilt. Ved integrering deltar man i fellesskapet og følger felles regler, samtidig som man kan beholde egen kultur og identitet.",
+        "kriterier": [
+          "Forklarer at grupper lever atskilt ved segregering.",
+          "Forklarer at integrering innebærer deltakelse i fellesskapet, samtidig som egen kultur kan beholdes."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En flyktning kan lite norsk og skal finne veien inn i arbeidslivet. Forklar hvordan introduksjonsprogrammet kan bidra til å redusere en barriere for deltakelse.",
+        "fasit": "Språk kan være en barriere for deltakelse i arbeidslivet. Introduksjonsprogrammet gir flyktninger opplæring i norsk, samfunnskunnskap og arbeid, og kan dermed bidra til å redusere språkbarrieren.",
+        "kriterier": [
+          "Identifiserer manglende språk som en mulig barriere for deltakelse i arbeidslivet.",
+          "Forklarer at introduksjonsprogrammet gir norskopplæring og dermed kan redusere denne barrieren."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Gi et eksempel på hvordan et idrettslag, kor eller en språkkafé kan fremme inkludering, og begrunn hvorfor det kan virke.",
+        "fasit": "En språkkafé kan gi mennesker med ulik bakgrunn en arena for å møtes. Den kan bidra til nettverk, mestring og tilhørighet.",
+        "kriterier": [
+          "Gir et relevant eksempel på en frivillig arena, som idrettslag, kor eller språkkafé.",
+          "Begrunner hvordan arenaen kan fremme inkludering gjennom nettverk, mestring eller tilhørighet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign arbeidstrening og Kvalifiseringsprogrammet. Hvem er tiltakene rettet mot, og hva kjennetegner oppfølgingen?",
+        "fasit": "Arbeidstrening lar en person prøve seg i arbeid. Kvalifiseringsprogrammet gir tett oppfølging til personer med svært svak tilknytning til arbeidslivet.",
+        "kriterier": [
+          "Forklarer at arbeidstrening innebærer å prøve seg i arbeid.",
+          "Forklarer at Kvalifiseringsprogrammet gir tett oppfølging til personer med svært svak arbeidstilknytning."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En arbeidsgiver vil motvirke diskriminering når søkere vurderes. Forklar hvordan anonymiserte søknader kan bidra, og nevn et annet tiltak fra arbeidslivet som kan støtte mangfold.",
+        "fasit": "Anonymiserte søknader kan motvirke diskriminering i ansettelser. Arbeidsgiveren kan også ha mål om mangfold.",
+        "kriterier": [
+          "Forklarer at anonymiserte søknader kan motvirke diskriminering i ansettelser.",
+          "Nevner mål om mangfold som et annet relevant tiltak."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En arbeidsplass har bare trappeinngang, og en ansatt med funksjonsnedsettelse kommer ikke inn. Forklar hvorfor dette ikke bare er den ansattes ansvar å løse, og foreslå en løsning som kan gjøre arbeidsplassen tilgjengelig for flere.",
+        "fasit": "Trappen er en fysisk barriere, og ansvaret for inkludering ligger ikke bare hos den som skal inkluderes. Arbeidsplassen kan tilpasses gjennom universell utforming, slik at løsningen kan brukes av alle uten spesialtilpasning.",
+        "kriterier": [
+          "Identifiserer trappeinngangen som en fysisk barriere og viser at ansvaret ikke bare ligger hos den ansatte.",
+          "Foreslår en løsning gjennom universell utforming som gjør arbeidsplassen tilgjengelig for flere."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Sammensatte tekster i ulike medier",
   "intro": "Hvordan du analyserer uttrykksformene i sammensatte tekster – skrift, bilde, lyd og bevegelse – og vurderer samspillet mellom dem i reklame, film, nyhetsartikler, sosiale medier, tegneserier og dataspill.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Hva er en sammensatt tekst?\n\nEn **sammensatt tekst** – eller **multimodal** tekst – bruker **flere uttrykksformer** samtidig: **skrift**, **bilde**, **lyd**, **farger**, **layout** og **bevegelse**. De fleste tekster vi møter i dag, er sammensatte: reklame, nettaviser, filmer, sosiale medier, dataspill og tegneserier.\n\n## Uttrykksformene\n\n**Skrift**: overskrifter, slagord og brødtekst. Se på **ordvalg**, **tone** og **skrifttype**.\n\n**Bilde**:\n\n- **Utsnitt**: helbilde, halvnært eller nærbilde – nærbilder skaper **nærhet** og følelser\n- **Perspektiv**: **froskeperspektiv** nedenfra får motivet til å virke **mektig**, **fugleperspektiv** ovenfra gjør det **lite** eller sårbart\n- **Komposisjon**: blikkfang, linjer, balanse og **gyldne snitt**\n- **Farger**: varme og kalde farger, kontraster og symbolikk\n- **Blikk**: ser personen rett mot oss – og skaper **kontakt** – eller bort?\n\n**Lyd**: musikk, stemmer, lydeffekter og **stillhet** kan skape stemning og spenning.\n\n**Bevegelse** i film og video: **klipp**, **tempo**, **kamerabevegelse** og **kameravinkel**.\n\n## Samspillet\n\nDet viktigste i analysen er hvordan uttrykksformene **virker sammen**:\n\n- **Forsterkende**: Bildet og teksten sier det **samme** og gjør budskapet sterkere.\n- **Utdypende**: Den ene uttrykksformen gir **mer informasjon** enn den andre.\n- **Motstridende**: Bildet og teksten sier noe **ulikt**. Det kan skape **ironi**, **humor** eller **undring**.\n\n## Ulike medier\n\n- **Reklame** bruker gjerne **blikkfang**, et kort **slagord** og en **logo**. Spør hvilke **følelser** og **verdier** produktet knyttes til.\n- **Nyhetsartikler** på nett kombinerer **tittel**, **ingress**, **bilder** og **video**. Bildevalget kan påvirke hvordan vi oppfatter saken.\n- **Film og serier** bruker **klipp**, **musikk**, **lys** og **kameravinkler** for å fortelle og skape stemning.\n- **Sosiale medier** blander **bilde**, **video**, **tekst**, **emojier** og **emneknagger**. Algoritmer påvirker hva vi ser.\n- **Tegneserier** kombinerer **ruter**, **snakkebobler** og **tegnestil**.\n- **Dataspill** er **interaktive**: Spilleren påvirker selv fortellingen.\n\n## Analysemodell\n\n1. **Kommunikasjonssituasjon**: avsender, mottaker, formål og kanal\n2. **Førsteinntrykk**: Hva legger du merke til først?\n3. **Uttrykksformene** hver for seg\n4. **Samspillet** mellom dem\n5. **Budskap** og **virkning**\n6. **Vurdering**: Fungerer teksten for målgruppen? Er den **etisk**?\n\n## Kritisk lesning\n\nBilder og video kan **redigeres** og **manipuleres**, og **kunstig intelligens** gjør det lettere å lage falske bilder og lydopptak. Spør alltid **hvem** som står bak, **hvorfor** teksten er laget, og hva som kan være **utelatt**. Reklame i sosiale medier skal være **merket**.\n\n## Eksempel\n\nEn reklame for en elbil viser bilen i et **fugleperspektiv** over en frodig skog, med slagordet «Kjør med god samvittighet». Bildet og teksten **forsterker** hverandre og knytter produktet til **natur** og **ansvar**. Samtidig kan man spørre om reklamen **skjuler** at også elbiler har et miljøavtrykk.",
   "flashcards": [
-    { "term": "Sammensatt tekst", "def": "Tekst som bruker flere uttrykksformer samtidig." },
-    { "term": "Multimodal", "def": "Et annet ord for sammensatt." },
-    { "term": "Uttrykksformer", "def": "Skrift, bilde, lyd, farger, layout og bevegelse." },
-    { "term": "Utsnitt", "def": "Hvor mye av motivet som vises – helbilde, halvnært eller nærbilde." },
-    { "term": "Froskeperspektiv", "def": "Bilde tatt nedenfra – motivet virker mektig." },
-    { "term": "Fugleperspektiv", "def": "Bilde tatt ovenfra – motivet virker lite." },
-    { "term": "Blikkfang", "def": "Det som først fanger oppmerksomheten." },
-    { "term": "Gyldne snitt", "def": "Komposisjonsprinsipp der motivet plasseres utenfor midten." },
-    { "term": "Forsterkende samspill", "def": "Uttrykksformene sier det samme." },
-    { "term": "Utdypende samspill", "def": "Den ene uttrykksformen gir mer informasjon enn den andre." },
-    { "term": "Motstridende samspill", "def": "Uttrykksformene sier noe ulikt – kan gi ironi." },
-    { "term": "Slagord", "def": "Kort og minneverdig setning i reklame." },
-    { "term": "Ingress", "def": "Kort, innledende tekst under tittelen i en nyhetsartikkel." },
-    { "term": "Klipp", "def": "Overgangen mellom to bilder eller scener i film." },
-    { "term": "Interaktiv tekst", "def": "Tekst der brukeren påvirker innholdet, som i dataspill." }
+    {
+      "term": "Sammensatt tekst",
+      "def": "Tekst som bruker flere uttrykksformer samtidig."
+    },
+    {
+      "term": "Multimodal",
+      "def": "Et annet ord for sammensatt."
+    },
+    {
+      "term": "Uttrykksformer",
+      "def": "Skrift, bilde, lyd, farger, layout og bevegelse."
+    },
+    {
+      "term": "Utsnitt",
+      "def": "Hvor mye av motivet som vises – helbilde, halvnært eller nærbilde."
+    },
+    {
+      "term": "Froskeperspektiv",
+      "def": "Bilde tatt nedenfra – motivet virker mektig."
+    },
+    {
+      "term": "Fugleperspektiv",
+      "def": "Bilde tatt ovenfra – motivet virker lite."
+    },
+    {
+      "term": "Blikkfang",
+      "def": "Det som først fanger oppmerksomheten."
+    },
+    {
+      "term": "Gyldne snitt",
+      "def": "Komposisjonsprinsipp der motivet plasseres utenfor midten."
+    },
+    {
+      "term": "Forsterkende samspill",
+      "def": "Uttrykksformene sier det samme."
+    },
+    {
+      "term": "Utdypende samspill",
+      "def": "Den ene uttrykksformen gir mer informasjon enn den andre."
+    },
+    {
+      "term": "Motstridende samspill",
+      "def": "Uttrykksformene sier noe ulikt – kan gi ironi."
+    },
+    {
+      "term": "Slagord",
+      "def": "Kort og minneverdig setning i reklame."
+    },
+    {
+      "term": "Ingress",
+      "def": "Kort, innledende tekst under tittelen i en nyhetsartikkel."
+    },
+    {
+      "term": "Klipp",
+      "def": "Overgangen mellom to bilder eller scener i film."
+    },
+    {
+      "term": "Interaktiv tekst",
+      "def": "Tekst der brukeren påvirker innholdet, som i dataspill."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en sammensatt tekst?", "options": ["En tekst med mange avsnitt", "En tekst som bruker flere uttrykksformer samtidig", "En tekst skrevet av flere", "En lang roman"], "correct": 1, "explain": "Også kalt multimodal tekst." },
-    { "id": "q02", "text": "Hvordan virker et bilde tatt i froskeperspektiv?", "options": ["Motivet virker mektig", "Motivet virker lite", "Motivet virker uskarpt", "Motivet forsvinner"], "correct": 0, "explain": "Tatt nedenfra." },
-    { "id": "q03", "text": "Hva betyr at bilde og tekst er motstridende?", "options": ["De sier det samme", "Teksten mangler", "De sier noe ulikt, noe som kan gi ironi", "Bildet er svart-hvitt"], "correct": 2, "explain": "Kan skape humor eller undring." },
-    { "id": "q04", "text": "Hva skaper et nærbilde ofte?", "options": ["Avstand", "Oversikt", "Kulde", "Nærhet og følelser"], "correct": 3, "explain": "Vi ser ansiktsuttrykk tydelig." },
-    { "id": "q05", "text": "Hva kjennetegner dataspill som tekst?", "options": ["De er interaktive", "De har bare skrift", "De har ingen fortelling", "De er alltid reklame"], "correct": 0, "explain": "Spilleren påvirker fortellingen." },
-    { "id": "q06", "text": "Hva er det viktigste i analysen av en sammensatt tekst?", "options": ["Å telle ord", "Samspillet mellom uttrykksformene", "Å beskrive skrifttypen", "Å finne forfatteren"], "correct": 1, "explain": "Hvordan de virker sammen." },
-    { "id": "q07", "text": "Hvorfor bør du lese bilder og video kritisk?", "options": ["Fordi de alltid er falske", "Fordi de er kjedelige", "Fordi de kan redigeres og manipuleres", "Fordi de er ulovlige"], "correct": 2, "explain": "KI gjør manipulasjon lettere." },
-    { "id": "q08", "text": "Hva er en ingress?", "options": ["Et bilde", "Et slagord", "En logo", "En kort, innledende tekst under tittelen"], "correct": 3, "explain": "Typisk for nyhetsartikler." },
-    { "id": "q09", "text": "Hva kan musikk gjøre i en film?", "options": ["Skape stemning og spenning", "Erstatte bildene", "Fjerne handlingen", "Ingenting"], "correct": 0, "explain": "Lyd er en viktig uttrykksform." },
-    { "id": "q10", "text": "Et bilde av en frodig skog og slagordet «Kjør med god samvittighet» i en bilreklame – hvordan virker samspillet?", "options": ["Motstridende", "Forsterkende", "Utdypende uten sammenheng", "Tilfeldig"], "correct": 1, "explain": "Begge knytter produktet til natur og ansvar." }
+    {
+      "id": "q01",
+      "text": "Hva er en sammensatt tekst?",
+      "options": [
+        "En tekst med mange avsnitt",
+        "En tekst som bruker flere uttrykksformer samtidig",
+        "En tekst skrevet av flere",
+        "En lang roman"
+      ],
+      "correct": 1,
+      "explain": "Også kalt multimodal tekst."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan virker et bilde tatt i froskeperspektiv?",
+      "options": [
+        "Motivet virker mektig",
+        "Motivet virker lite",
+        "Motivet virker uskarpt",
+        "Motivet forsvinner"
+      ],
+      "correct": 0,
+      "explain": "Tatt nedenfra."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr at bilde og tekst er motstridende?",
+      "options": [
+        "De sier det samme",
+        "Teksten mangler",
+        "De sier noe ulikt, noe som kan gi ironi",
+        "Bildet er svart-hvitt"
+      ],
+      "correct": 2,
+      "explain": "Kan skape humor eller undring."
+    },
+    {
+      "id": "q04",
+      "text": "Hva skaper et nærbilde ofte?",
+      "options": [
+        "Avstand",
+        "Oversikt",
+        "Kulde",
+        "Nærhet og følelser"
+      ],
+      "correct": 3,
+      "explain": "Vi ser ansiktsuttrykk tydelig."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner dataspill som tekst?",
+      "options": [
+        "De er interaktive",
+        "De har bare skrift",
+        "De har ingen fortelling",
+        "De er alltid reklame"
+      ],
+      "correct": 0,
+      "explain": "Spilleren påvirker fortellingen."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er det viktigste i analysen av en sammensatt tekst?",
+      "options": [
+        "Å telle ord",
+        "Samspillet mellom uttrykksformene",
+        "Å beskrive skrifttypen",
+        "Å finne forfatteren"
+      ],
+      "correct": 1,
+      "explain": "Hvordan de virker sammen."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor bør du lese bilder og video kritisk?",
+      "options": [
+        "Fordi de alltid er falske",
+        "Fordi de er kjedelige",
+        "Fordi de kan redigeres og manipuleres",
+        "Fordi de er ulovlige"
+      ],
+      "correct": 2,
+      "explain": "KI gjør manipulasjon lettere."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en ingress?",
+      "options": [
+        "Et bilde",
+        "Et slagord",
+        "En logo",
+        "En kort, innledende tekst under tittelen"
+      ],
+      "correct": 3,
+      "explain": "Typisk for nyhetsartikler."
+    },
+    {
+      "id": "q09",
+      "text": "Hva kan musikk gjøre i en film?",
+      "options": [
+        "Skape stemning og spenning",
+        "Erstatte bildene",
+        "Fjerne handlingen",
+        "Ingenting"
+      ],
+      "correct": 0,
+      "explain": "Lyd er en viktig uttrykksform."
+    },
+    {
+      "id": "q10",
+      "text": "Et bilde av en frodig skog og slagordet «Kjør med god samvittighet» i en bilreklame – hvordan virker samspillet?",
+      "options": [
+        "Motstridende",
+        "Forsterkende",
+        "Utdypende uten sammenheng",
+        "Tilfeldig"
+      ],
+      "correct": 1,
+      "explain": "Begge knytter produktet til natur og ansvar."
+    }
   ],
   "mindmap": {
     "label": "Sammensatte tekster",
     "children": [
-      { "label": "Uttrykksformer", "children": [
-        { "label": "Skrift" },
-        { "label": "Bilde" },
-        { "label": "Lyd og bevegelse" }
-      ] },
-      { "label": "Bildeanalyse", "children": [
-        { "label": "Utsnitt og perspektiv" },
-        { "label": "Komposisjon" },
-        { "label": "Farger og blikk" }
-      ] },
-      { "label": "Samspill", "children": [
-        { "label": "Forsterkende" },
-        { "label": "Utdypende" },
-        { "label": "Motstridende" }
-      ] },
-      { "label": "Medier", "children": [
-        { "label": "Reklame og nyheter" },
-        { "label": "Film og sosiale medier" },
-        { "label": "Tegneserier og spill" }
-      ] },
-      { "label": "Kritisk lesning", "children": [
-        { "label": "Manipulasjon og KI" },
-        { "label": "Hvem står bak?" }
-      ] }
+      {
+        "label": "Uttrykksformer",
+        "children": [
+          {
+            "label": "Skrift"
+          },
+          {
+            "label": "Bilde"
+          },
+          {
+            "label": "Lyd og bevegelse"
+          }
+        ]
+      },
+      {
+        "label": "Bildeanalyse",
+        "children": [
+          {
+            "label": "Utsnitt og perspektiv"
+          },
+          {
+            "label": "Komposisjon"
+          },
+          {
+            "label": "Farger og blikk"
+          }
+        ]
+      },
+      {
+        "label": "Samspill",
+        "children": [
+          {
+            "label": "Forsterkende"
+          },
+          {
+            "label": "Utdypende"
+          },
+          {
+            "label": "Motstridende"
+          }
+        ]
+      },
+      {
+        "label": "Medier",
+        "children": [
+          {
+            "label": "Reklame og nyheter"
+          },
+          {
+            "label": "Film og sosiale medier"
+          },
+          {
+            "label": "Tegneserier og spill"
+          }
+        ]
+      },
+      {
+        "label": "Kritisk lesning",
+        "children": [
+          {
+            "label": "Manipulasjon og KI"
+          },
+          {
+            "label": "Hvem står bak?"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "De fleste tekster vi møter i dag, er sammensatte.", "correct": true, "explain": "Reklame, nettaviser og sosiale medier." },
-      { "id": "m02", "type": "sant-usant", "text": "Et bilde tatt i fugleperspektiv får motivet til å virke mektig.", "correct": false, "explain": "Det får motivet til å virke lite." },
-      { "id": "m03", "type": "sant-usant", "text": "Bildevalget i en nyhetsartikkel kan påvirke hvordan vi oppfatter saken.", "correct": true, "explain": "Bilder er ikke nøytrale." },
-      { "id": "m04", "type": "sant-usant", "text": "Stillhet kan ikke brukes som virkemiddel i film.", "correct": false, "explain": "Stillhet kan skape sterk stemning." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er et blikkfang?", "options": ["En logo alltid", "Det som først fanger oppmerksomheten", "En kameravinkel", "En lydeffekt"], "correct": 1, "explain": "Viktig i reklame." },
-      { "id": "m06", "type": "flervalg", "text": "Hva skaper en person som ser rett mot oss i et bilde?", "options": ["Kontakt", "Avstand", "Uskarphet", "Forvirring"], "correct": 0, "explain": "Blikket henvender seg til betrakteren." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er utdypende samspill?", "options": ["Uttrykksformene sier det samme", "Uttrykksformene sier noe motsatt", "Den ene uttrykksformen gir mer informasjon enn den andre", "Det finnes bare én uttrykksform"], "correct": 2, "explain": "For eksempel et bilde med forklarende bildetekst." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "De fleste tekster vi møter i dag, er sammensatte.",
+        "correct": true,
+        "explain": "Reklame, nettaviser og sosiale medier."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et bilde tatt i fugleperspektiv får motivet til å virke mektig.",
+        "correct": false,
+        "explain": "Det får motivet til å virke lite."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Bildevalget i en nyhetsartikkel kan påvirke hvordan vi oppfatter saken.",
+        "correct": true,
+        "explain": "Bilder er ikke nøytrale."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Stillhet kan ikke brukes som virkemiddel i film.",
+        "correct": false,
+        "explain": "Stillhet kan skape sterk stemning."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et blikkfang?",
+        "options": [
+          "En logo alltid",
+          "Det som først fanger oppmerksomheten",
+          "En kameravinkel",
+          "En lydeffekt"
+        ],
+        "correct": 1,
+        "explain": "Viktig i reklame."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva skaper en person som ser rett mot oss i et bilde?",
+        "options": [
+          "Kontakt",
+          "Avstand",
+          "Uskarphet",
+          "Forvirring"
+        ],
+        "correct": 0,
+        "explain": "Blikket henvender seg til betrakteren."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er utdypende samspill?",
+        "options": [
+          "Uttrykksformene sier det samme",
+          "Uttrykksformene sier noe motsatt",
+          "Den ene uttrykksformen gir mer informasjon enn den andre",
+          "Det finnes bare én uttrykksform"
+        ],
+        "correct": 2,
+        "explain": "For eksempel et bilde med forklarende bildetekst."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr gyldne snitt i bildekomposisjon?",
+        "fasit": "Gyldne snitt er et komposisjonsprinsipp der motivet plasseres utenfor midten av bildet.",
+        "kriterier": [
+          "Forklarer at det handler om plasseringen av motivet.",
+          "Får fram at motivet plasseres utenfor midten."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign fugleperspektiv og froskeperspektiv. Hvordan er bildene tatt, og hvordan kan motivet virke i hvert av dem?",
+        "fasit": "Fugleperspektiv er tatt ovenfra og kan få motivet til å virke lite eller sårbart. Froskeperspektiv er tatt nedenfra og kan få motivet til å virke mektig.",
+        "kriterier": [
+          "Knytter fugleperspektiv til fotografering ovenfra og at motivet kan virke lite eller sårbart.",
+          "Knytter froskeperspektiv til fotografering nedenfra og at motivet kan virke mektig."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I én sammensatt tekst uttrykker bilde og skrift det samme budskapet. I en annen gir skriften informasjon som ikke kommer fram i bildet. Forklar hva slags samspill de to tekstene har.",
+        "fasit": "Når bilde og skrift uttrykker det samme, er samspillet forsterkende. Når skriften gir mer informasjon enn bildet, er samspillet utdypende.",
+        "kriterier": [
+          "Identifiserer det første eksempelet som forsterkende samspill.",
+          "Identifiserer det andre eksempelet som utdypende samspill og forklarer at én uttrykksform gir mer informasjon."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hva er et klipp i film, og hvordan kan klipping bidra til å fortelle eller skape stemning?",
+        "fasit": "Et klipp er overgangen mellom to bilder eller scener. Valg av klipp kan bidra til å fortelle historien og skape stemning.",
+        "kriterier": [
+          "Forklarer at klipp er en overgang mellom bilder eller scener.",
+          "Nevner at klipping kan bidra til fortelling eller stemning."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et bilde viser en person som ser rett mot den som ser på bildet. Hvilken virkning kan dette blikket ha?",
+        "fasit": "Når personen ser rett mot oss, kan blikket skape kontakt mellom personen i bildet og den som ser på det.",
+        "kriterier": [
+          "Knytter blikket rett mot betrakteren til at det skaper kontakt."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En organisasjon legger ut et innlegg på sosiale medier for å få ungdom til å delta på et arrangement. Pek ut avsender, mottaker, formål og kanal i kommunikasjonssituasjonen.",
+        "fasit": "Avsenderen er organisasjonen, mottakerne er ungdom, formålet er å få dem til å delta på arrangementet, og kanalen er sosiale medier.",
+        "kriterier": [
+          "Identifiserer organisasjonen som avsender og ungdom som mottakere.",
+          "Identifiserer formålet som å få ungdom til å delta på arrangementet.",
+          "Identifiserer sosiale medier som kanal."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En reklame publiseres i sosiale medier uten at det kommer fram at innlegget er reklame. Hva må gjøres med innlegget?",
+        "fasit": "Innlegget må merkes som reklame, siden reklame i sosiale medier skal være merket.",
+        "kriterier": [
+          "Sier at innlegget må merkes som reklame."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign hvilke uttrykksformer som typisk brukes i tegneserier og i film.",
+        "fasit": "Tegneserier kombinerer ruter, snakkebobler og tegnestil. Film bruker blant annet klipp, musikk, lys og kameravinkler til å fortelle og skape stemning.",
+        "kriterier": [
+          "Nevner ruter, snakkebobler eller tegnestil som typiske uttrykksformer i tegneserier.",
+          "Nevner uttrykksformer som klipp, musikk, lys eller kameravinkler i film.",
+          "Får fram en relevant forskjell mellom mediene."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

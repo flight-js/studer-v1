@@ -4,77 +4,422 @@
   "trinnId": "vg1",
   "name": "Litteratur, musikk og film",
   "intro": "Kjente kunstnere og verk fra de tysktalende landene – Goethe, brødrene Grimm, Kafka, Mozart, Beethoven, Bauhaus og tysk film – og hvordan du uttrykker ønsker, drømmer og høflige forespørsler med konjunktiv II.",
-  "kompetansemaal": [9, 3],
+  "kompetansemaal": [
+    9,
+    3
+  ],
   "sammendrag": "## Litteratur\n\n- **Johann Wolfgang von Goethe** (1749–1832) regnes som Tysklands største forfatter. Hovedverket er dramaet **Faust**, om en mann som selger sjelen sin til djevelen for kunnskap og livsglede.\n- **Brødrene Grimm** samlet folkeeventyr og ga ut **Kinder- und Hausmärchen** i **1812**, med blant annet *Hänsel und Gretel*, *Rotkäppchen* (Rødhette) og *Schneewittchen* (Snøhvit).\n- **Franz Kafka** (1883–1924) bodde i Praha og skrev på tysk. I **Die Verwandlung** (Forvandlingen) våkner Gregor Samsa en morgen forvandlet til et stort insekt. Ordet **kafkaesk** brukes om absurde og uoversiktlige situasjoner.\n\n## Musikk\n\n- **Wolfgang Amadeus Mozart** (1756–1791) fra **Salzburg** i Østerrike skrev over 600 verk, blant annet operaen *Die Zauberflöte* (Tryllefløyten).\n- **Ludwig van Beethoven** (1770–1827) fra Bonn komponerte blant annet den niende symfonien. Melodien *Ode an die Freude* er i dag **EUs hymne** – og han skrev noen av sine største verk mens han var **døv**.\n- I moderne tid er band som **Kraftwerk**, som var pionerer innen elektronisk musikk, og **Rammstein** kjent over hele verden.\n\n## Kunst og design\n\n**Bauhaus** var en kunst- og designskole grunnlagt i **Weimar** i **1919**. Idealet var at form skal følge funksjon, og Bauhaus-stilen – enkle former, rette linjer og funksjonelle møbler – har påvirket arkitektur og design over hele verden.\n\n## Film\n\n- **Good Bye, Lenin!** (2003) er en komedie om en ung mann i Øst-Berlin som prøver å skjule for moren sin at DDR har gått i oppløsning.\n- **Das Leben der Anderen** (De andres liv, 2006) handler om en Stasi-agent som overvåker en forfatter, og vant **Oscar** for beste utenlandske film.\n\n## Konjunktiv II – ønsker og høflighet\n\nMed **konjunktiv II** uttrykker vi **ønsker**, **drømmer**, **hypotetiske** situasjoner og **høflige** spørsmål:\n\n- **würde** + infinitiv: *Ich **würde** gern nach Wien **fahren**.* – Jeg ville gjerne reist til Wien.\n- **hätte**: *Ich **hätte** gern einen Kaffee.* – Jeg vil gjerne ha en kaffe.\n- **wäre**: *Das **wäre** toll!* – Det hadde vært kult!\n- **könnte**: ***Könnten** Sie mir helfen?* – Kunne du (De) hjelpe meg?\n\n*Wenn ich Zeit **hätte**, **würde** ich mehr lesen.* – Hvis jeg hadde tid, ville jeg lest mer.\n\n## Å uttrykke egne opplevelser\n\n- *Der Film hat mir gut gefallen, weil …*\n- *Das Lied erinnert mich an …* – Sangen minner meg om …\n- *Am besten gefällt mir …*\n- *Ich fand das Ende überraschend / traurig / spannend.*",
   "flashcards": [
-    { "term": "Johann Wolfgang von Goethe", "def": "Tysklands største forfatter, skrev Faust" },
-    { "term": "die Brüder Grimm", "def": "samlet eventyr i Kinder- und Hausmärchen (1812)" },
-    { "term": "Rotkäppchen", "def": "Rødhette" },
-    { "term": "Franz Kafka", "def": "skrev Die Verwandlung på tysk i Praha" },
-    { "term": "kafkaesk", "def": "absurd og uoversiktlig" },
-    { "term": "Wolfgang Amadeus Mozart", "def": "komponist fra Salzburg, skrev Die Zauberflöte" },
-    { "term": "Ludwig van Beethoven", "def": "komponist fra Bonn; Ode an die Freude er EUs hymne" },
-    { "term": "das Bauhaus", "def": "kunst- og designskole grunnlagt i Weimar i 1919" },
-    { "term": "Good Bye, Lenin!", "def": "film fra 2003 om DDRs oppløsning" },
-    { "term": "Das Leben der Anderen", "def": "Oscar-vinnende film fra 2006 om Stasi-overvåking" },
-    { "term": "Ich würde gern …", "def": "Jeg ville gjerne …" },
-    { "term": "Ich hätte gern …", "def": "Jeg vil gjerne ha …" },
-    { "term": "Das wäre toll!", "def": "Det hadde vært kult!" },
-    { "term": "Könnten Sie …?", "def": "Kunne De …? (høflig)" },
-    { "term": "Der Film hat mir gefallen.", "def": "Jeg likte filmen." }
+    {
+      "term": "Johann Wolfgang von Goethe",
+      "def": "Tysklands største forfatter, skrev Faust"
+    },
+    {
+      "term": "die Brüder Grimm",
+      "def": "samlet eventyr i Kinder- und Hausmärchen (1812)"
+    },
+    {
+      "term": "Rotkäppchen",
+      "def": "Rødhette"
+    },
+    {
+      "term": "Franz Kafka",
+      "def": "skrev Die Verwandlung på tysk i Praha"
+    },
+    {
+      "term": "kafkaesk",
+      "def": "absurd og uoversiktlig"
+    },
+    {
+      "term": "Wolfgang Amadeus Mozart",
+      "def": "komponist fra Salzburg, skrev Die Zauberflöte"
+    },
+    {
+      "term": "Ludwig van Beethoven",
+      "def": "komponist fra Bonn; Ode an die Freude er EUs hymne"
+    },
+    {
+      "term": "das Bauhaus",
+      "def": "kunst- og designskole grunnlagt i Weimar i 1919"
+    },
+    {
+      "term": "Good Bye, Lenin!",
+      "def": "film fra 2003 om DDRs oppløsning"
+    },
+    {
+      "term": "Das Leben der Anderen",
+      "def": "Oscar-vinnende film fra 2006 om Stasi-overvåking"
+    },
+    {
+      "term": "Ich würde gern …",
+      "def": "Jeg ville gjerne …"
+    },
+    {
+      "term": "Ich hätte gern …",
+      "def": "Jeg vil gjerne ha …"
+    },
+    {
+      "term": "Das wäre toll!",
+      "def": "Det hadde vært kult!"
+    },
+    {
+      "term": "Könnten Sie …?",
+      "def": "Kunne De …? (høflig)"
+    },
+    {
+      "term": "Der Film hat mir gefallen.",
+      "def": "Jeg likte filmen."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvem skrev «Faust»?", "options": ["Kafka", "Goethe", "Schiller", "Grimm"], "correct": 1, "explain": "Goethe regnes som Tysklands største forfatter." },
-    { "id": "q02", "text": "Hva er «Rotkäppchen» på norsk?", "options": ["Rødhette", "Snøhvit", "Tornerose", "Askepott"], "correct": 0, "explain": "Eventyret er med i brødrene Grimms samling." },
-    { "id": "q03", "text": "Hvilken komponist skrev melodien som i dag er EUs hymne?", "options": ["Mozart", "Bach", "Beethoven", "Wagner"], "correct": 2, "explain": "Ode an die Freude fra den niende symfonien." },
-    { "id": "q04", "text": "Hva handler «Die Verwandlung» av Kafka om?", "options": ["En reise til Berlin", "En kjærlighetshistorie", "Et eventyr med hekser", "En mann som våkner forvandlet til et insekt"], "correct": 3, "explain": "Ordet kafkaesk kommer fra forfatterskapet hans." },
-    { "id": "q05", "text": "Hvordan sier du høflig «Jeg vil gjerne ha en kaffe»?", "options": ["Ich hätte gern einen Kaffee.", "Ich habe Kaffee.", "Gib mir Kaffee.", "Ich will Kaffee haben jetzt."], "correct": 0, "explain": "hätte gern er høflig." },
-    { "id": "q06", "text": "Hvor ble Bauhaus grunnlagt i 1919?", "options": ["Berlin", "Weimar", "München", "Wien"], "correct": 1, "explain": "Senere flyttet skolen til Dessau og Berlin." },
-    { "id": "q07", "text": "Hva handler «Good Bye, Lenin!» om?", "options": ["Russisk revolusjon", "En fotballkamp", "En sønn som skjuler DDRs oppløsning for moren", "Livet i Wien"], "correct": 2, "explain": "Filmen kom i 2003." },
-    { "id": "q08", "text": "Velg riktig: «Wenn ich Zeit ___, würde ich mehr lesen.»", "options": ["habe", "hatte", "gehabt", "hätte"], "correct": 3, "explain": "Konjunktiv II i hypotetiske setninger." },
-    { "id": "q09", "text": "Hvor var Mozart fra?", "options": ["Salzburg", "Bonn", "Berlin", "Zürich"], "correct": 0, "explain": "Salzburg ligger i Østerrike." },
-    { "id": "q10", "text": "Hva betyr «Das wäre toll!»?", "options": ["Det var kult!", "Det hadde vært kult!", "Det er kult!", "Det blir kult!"], "correct": 1, "explain": "wäre er konjunktiv II av sein." }
+    {
+      "id": "q01",
+      "text": "Hvem skrev «Faust»?",
+      "options": [
+        "Kafka",
+        "Goethe",
+        "Schiller",
+        "Grimm"
+      ],
+      "correct": 1,
+      "explain": "Goethe regnes som Tysklands største forfatter."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er «Rotkäppchen» på norsk?",
+      "options": [
+        "Rødhette",
+        "Snøhvit",
+        "Tornerose",
+        "Askepott"
+      ],
+      "correct": 0,
+      "explain": "Eventyret er med i brødrene Grimms samling."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken komponist skrev melodien som i dag er EUs hymne?",
+      "options": [
+        "Mozart",
+        "Bach",
+        "Beethoven",
+        "Wagner"
+      ],
+      "correct": 2,
+      "explain": "Ode an die Freude fra den niende symfonien."
+    },
+    {
+      "id": "q04",
+      "text": "Hva handler «Die Verwandlung» av Kafka om?",
+      "options": [
+        "En reise til Berlin",
+        "En kjærlighetshistorie",
+        "Et eventyr med hekser",
+        "En mann som våkner forvandlet til et insekt"
+      ],
+      "correct": 3,
+      "explain": "Ordet kafkaesk kommer fra forfatterskapet hans."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan sier du høflig «Jeg vil gjerne ha en kaffe»?",
+      "options": [
+        "Ich hätte gern einen Kaffee.",
+        "Ich habe Kaffee.",
+        "Gib mir Kaffee.",
+        "Ich will Kaffee haben jetzt."
+      ],
+      "correct": 0,
+      "explain": "hätte gern er høflig."
+    },
+    {
+      "id": "q06",
+      "text": "Hvor ble Bauhaus grunnlagt i 1919?",
+      "options": [
+        "Berlin",
+        "Weimar",
+        "München",
+        "Wien"
+      ],
+      "correct": 1,
+      "explain": "Senere flyttet skolen til Dessau og Berlin."
+    },
+    {
+      "id": "q07",
+      "text": "Hva handler «Good Bye, Lenin!» om?",
+      "options": [
+        "Russisk revolusjon",
+        "En fotballkamp",
+        "En sønn som skjuler DDRs oppløsning for moren",
+        "Livet i Wien"
+      ],
+      "correct": 2,
+      "explain": "Filmen kom i 2003."
+    },
+    {
+      "id": "q08",
+      "text": "Velg riktig: «Wenn ich Zeit ___, würde ich mehr lesen.»",
+      "options": [
+        "habe",
+        "hatte",
+        "gehabt",
+        "hätte"
+      ],
+      "correct": 3,
+      "explain": "Konjunktiv II i hypotetiske setninger."
+    },
+    {
+      "id": "q09",
+      "text": "Hvor var Mozart fra?",
+      "options": [
+        "Salzburg",
+        "Bonn",
+        "Berlin",
+        "Zürich"
+      ],
+      "correct": 0,
+      "explain": "Salzburg ligger i Østerrike."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «Das wäre toll!»?",
+      "options": [
+        "Det var kult!",
+        "Det hadde vært kult!",
+        "Det er kult!",
+        "Det blir kult!"
+      ],
+      "correct": 1,
+      "explain": "wäre er konjunktiv II av sein."
+    }
   ],
   "mindmap": {
     "label": "Litteratur, musikk og film",
     "children": [
-      { "label": "Litteratur", "children": [
-        { "label": "Goethe: Faust" },
-        { "label": "Brødrene Grimm" },
-        { "label": "Kafka" }
-      ] },
-      { "label": "Musikk", "children": [
-        { "label": "Mozart" },
-        { "label": "Beethoven" },
-        { "label": "Kraftwerk og Rammstein" }
-      ] },
-      { "label": "Kunst", "children": [
-        { "label": "Bauhaus 1919" },
-        { "label": "Form følger funksjon" }
-      ] },
-      { "label": "Film", "children": [
-        { "label": "Good Bye, Lenin!" },
-        { "label": "Das Leben der Anderen" }
-      ] },
-      { "label": "Konjunktiv II", "children": [
-        { "label": "würde + infinitiv" },
-        { "label": "hätte, wäre, könnte" },
-        { "label": "Wenn ich …, würde ich …" }
-      ] }
+      {
+        "label": "Litteratur",
+        "children": [
+          {
+            "label": "Goethe: Faust"
+          },
+          {
+            "label": "Brødrene Grimm"
+          },
+          {
+            "label": "Kafka"
+          }
+        ]
+      },
+      {
+        "label": "Musikk",
+        "children": [
+          {
+            "label": "Mozart"
+          },
+          {
+            "label": "Beethoven"
+          },
+          {
+            "label": "Kraftwerk og Rammstein"
+          }
+        ]
+      },
+      {
+        "label": "Kunst",
+        "children": [
+          {
+            "label": "Bauhaus 1919"
+          },
+          {
+            "label": "Form følger funksjon"
+          }
+        ]
+      },
+      {
+        "label": "Film",
+        "children": [
+          {
+            "label": "Good Bye, Lenin!"
+          },
+          {
+            "label": "Das Leben der Anderen"
+          }
+        ]
+      },
+      {
+        "label": "Konjunktiv II",
+        "children": [
+          {
+            "label": "würde + infinitiv"
+          },
+          {
+            "label": "hätte, wäre, könnte"
+          },
+          {
+            "label": "Wenn ich …, würde ich …"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kafka skrev på tysk selv om han bodde i Praha.", "correct": true, "explain": "Praha hadde et stort tyskspråklig miljø." },
-      { "id": "m02", "type": "sant-usant", "text": "Brødrene Grimm skrev alle eventyrene selv.", "correct": false, "explain": "De samlet folkeeventyr som allerede ble fortalt." },
-      { "id": "m03", "type": "sant-usant", "text": "«Könnten Sie mir helfen?» er en høflig forespørsel.", "correct": true, "explain": "Konjunktiv II gjør forespørselen høflig." },
-      { "id": "m04", "type": "sant-usant", "text": "Beethoven kunne høre godt hele livet.", "correct": false, "explain": "Han skrev noen av sine største verk mens han var døv." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Ich würde gern nach Wien fahren»?", "options": ["Jeg reiste til Wien.", "Jeg ville gjerne reist til Wien.", "Jeg skal reise til Wien.", "Jeg har reist til Wien."], "correct": 1, "explain": "würde + infinitiv uttrykker ønske." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken film vant Oscar for beste utenlandske film?", "options": ["Das Leben der Anderen", "Good Bye, Lenin!", "Faust", "Die Zauberflöte"], "correct": 0, "explain": "Filmen handler om Stasi-overvåking." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Das Lied erinnert mich an den Sommer»?", "options": ["Sangen handler om sommeren.", "Jeg liker sangen om sommeren.", "Sangen minner meg om sommeren.", "Jeg hørte sangen i sommer."], "correct": 2, "explain": "erinnern an = minne om." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kafka skrev på tysk selv om han bodde i Praha.",
+        "correct": true,
+        "explain": "Praha hadde et stort tyskspråklig miljø."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Brødrene Grimm skrev alle eventyrene selv.",
+        "correct": false,
+        "explain": "De samlet folkeeventyr som allerede ble fortalt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«Könnten Sie mir helfen?» er en høflig forespørsel.",
+        "correct": true,
+        "explain": "Konjunktiv II gjør forespørselen høflig."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Beethoven kunne høre godt hele livet.",
+        "correct": false,
+        "explain": "Han skrev noen av sine største verk mens han var døv."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Ich würde gern nach Wien fahren»?",
+        "options": [
+          "Jeg reiste til Wien.",
+          "Jeg ville gjerne reist til Wien.",
+          "Jeg skal reise til Wien.",
+          "Jeg har reist til Wien."
+        ],
+        "correct": 1,
+        "explain": "würde + infinitiv uttrykker ønske."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken film vant Oscar for beste utenlandske film?",
+        "options": [
+          "Das Leben der Anderen",
+          "Good Bye, Lenin!",
+          "Faust",
+          "Die Zauberflöte"
+        ],
+        "correct": 0,
+        "explain": "Filmen handler om Stasi-overvåking."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «Das Lied erinnert mich an den Sommer»?",
+        "options": [
+          "Sangen handler om sommeren.",
+          "Jeg liker sangen om sommeren.",
+          "Sangen minner meg om sommeren.",
+          "Jeg hørte sangen i sommer."
+        ],
+        "correct": 2,
+        "explain": "erinnern an = minne om."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr «kafkaesk»? Forklar hva slags situasjon ordet beskriver.",
+        "fasit": "«Kafkaesk» beskriver en absurd og uoversiktlig situasjon.",
+        "kriterier": [
+          "Forklarer at situasjonen er absurd.",
+          "Forklarer at situasjonen er uoversiktlig eller vanskelig å få oversikt over."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I dramaet «Faust» selger en mann sjelen sin til djevelen. Forklar hva han ønsker å få i bytte.",
+        "fasit": "Han ønsker kunnskap og livsglede.",
+        "kriterier": [
+          "Nevner at han ønsker kunnskap.",
+          "Nevner at han ønsker livsglede."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Brødrene Grimm og Franz Kafka arbeidet med ulike typer litteratur. Sammenlign hva de gjorde.",
+        "fasit": "Brødrene Grimm samlet folkeeventyr og ga ut «Kinder- und Hausmärchen» i 1812. Kafka skrev litterære verk på tysk, blant annet «Die Verwandlung».",
+        "kriterier": [
+          "Forklarer at Grimm-brødrene samlet folkeeventyr.",
+          "Forklarer at Kafka skrev på tysk, gjerne med «Die Verwandlung» som eksempel."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En designer lager en stol med enkle former og rette linjer, og stolen skal være praktisk å bruke. Forklar hvorfor designet passer med Bauhaus-idealet.",
+        "fasit": "Bauhaus la vekt på at form skal følge funksjon. Stolens enkle former og praktiske bruk passer derfor med Bauhaus-idealet.",
+        "kriterier": [
+          "Knytter designet til at form skal følge funksjon.",
+          "Viser til enkel utforming eller praktisk bruk som trekk ved Bauhaus."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign handlingen i «Good Bye, Lenin!» og «Das Leben der Anderen». Hva er den sentrale situasjonen i hver film?",
+        "fasit": "I «Good Bye, Lenin!» prøver en ung mann i Øst-Berlin å skjule for moren at DDR har gått i oppløsning. «Das Leben der Anderen» handler om en Stasi-agent som overvåker en forfatter.",
+        "kriterier": [
+          "Beskriver situasjonen med den unge mannen og moren i «Good Bye, Lenin!».",
+          "Beskriver Stasi-agentens overvåking av en forfatter i «Das Leben der Anderen»."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign Mozart og Beethoven ved å nevne et verk eller en musikalsk prestasjon fra hver av dem.",
+        "fasit": "Mozart skrev blant annet operaen «Die Zauberflöte». Beethoven komponerte blant annet den niende symfonien, og melodien «Ode an die Freude» er i dag EUs hymne.",
+        "kriterier": [
+          "Nevner et verk av Mozart, for eksempel «Die Zauberflöte».",
+          "Nevner et verk eller en prestasjon knyttet til Beethoven, for eksempel den niende symfonien eller «Ode an die Freude» som EUs hymne."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Skriv på tysk at du gjerne ville reist til Wien. Bruk «würde» og et infinitiv.",
+        "fasit": "Ich würde gern nach Wien fahren.",
+        "kriterier": [
+          "Bruker «würde» sammen med et infinitiv.",
+          "Uttrykker at personen gjerne ville reist til Wien."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skriv på tysk: «Jeg syntes slutten var overraskende.»",
+        "fasit": "Ich fand das Ende überraschend.",
+        "kriterier": [
+          "Bruker «Ich fand das Ende» på en forståelig måte.",
+          "Bruker «überraschend» for «overraskende»."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

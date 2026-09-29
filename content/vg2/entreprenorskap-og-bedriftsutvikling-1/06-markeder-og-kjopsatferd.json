@@ -4,76 +4,418 @@
   "trinnId": "vg2",
   "name": "Marked, kjøpsatferd og segmenter",
   "intro": "Hvordan en gründer finner, sammenligner og vurderer informasjon om markeder, kjøpsatferd og segmenter – markedsstørrelse, bedriftsmarked og forbrukermarked, kundeintervjuer og validering – og bruker informasjonen til å ta beslutninger.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Hvorfor markedsinformasjon?\n\nMange nye virksomheter feiler fordi de lager noe **ingen vil kjøpe**. God **markedsinformasjon** gjør det mulig å ta **begrunnede beslutninger** om produkt, målgruppe, pris og markedsføring – før man bruker mye penger.\n\n## Typer marked\n\n- **Forbrukermarkedet**: virksomheten selger til **privatpersoner**. Mange kunder, ofte små kjøp og mye påvirkning fra **følelser** og **trender**.\n- **Bedriftsmarkedet**: virksomheten selger til **andre virksomheter** eller det **offentlige**. Færre kunder, større kjøp og mer **rasjonelle** beslutninger, ofte tatt av flere personer.\n\n## Hvor stort er markedet?\n\nEn gründer bør anslå\n\n- det **totale markedet** – alle som kunne tenkt seg produktet\n- den delen av markedet virksomheten realistisk kan **nå**\n- hvor stor **markedsandel** den kan få de første årene\n\nEksempel: Det finnes rundt 1000 elever på skolene i nærområdet. Kanskje 20 % er interessert i sunn lunsj, og kanskje en av fire av dem blir faste kunder. Da er det **realistiske** markedet omtrent 50 kunder – ikke 1000.\n\n## Kjøpsatferd\n\n**Kjøpsatferd** handler om **hvorfor**, **hvordan**, **hvor** og **når** kundene kjøper. Kunden går ofte gjennom en **kjøpsprosess**: behov, informasjonssøk, vurdering, kjøp og erfaring etterpå. Valget påvirkes av\n\n- **psykologiske** faktorer – motiver, holdninger og vaner\n- **sosiale** faktorer – venner, familie og påvirkere\n- **kulturelle** faktorer – verdier og tradisjoner\n- **personlige** faktorer – alder, økonomi og livsstil\n\nFor en ny virksomhet er det viktig å forstå hva som får kundene til å **bytte** fra det de bruker i dag.\n\n## Segmenter\n\n**Segmentering** betyr å dele markedet inn i grupper med **like behov**, for eksempel etter **alder**, **bosted**, **livsstil** eller **kjøpsvaner**. En ny virksomhet med små ressurser bør ofte velge **ett** segment – en **nisje** – der den kan bli best.\n\n## Innhente informasjon\n\n- **Sekundærdata**: statistikk fra **SSB**, bransjerapporter, konkurrentenes nettsider og nyhetsartikler.\n- **Primærdata**: egne **spørreundersøkelser**, **intervjuer**, **observasjon** og **tester**.\n\nFor gründere er **kundeintervjuer** spesielt nyttige. Still åpne spørsmål om kundens **problemer** og hva hen gjør i dag – ikke bare «vil du kjøpe dette?». Folk er ofte **høflige** og sier ja uten å mene det.\n\n## Validering\n\n**Validering** betyr å **teste** om antakelsene holder før man satser stort:\n\n- Vil kundene faktisk **betale**?\n- Kan du få **forhåndsbestillinger** eller påmeldinger?\n- Hvordan reagerer folk på et **minimumsprodukt**?\n\nDet kundene **gjør**, er sterkere bevis enn det de **sier**.\n\n## Sammenligne og vurdere\n\nNår informasjonen kommer fra flere kilder, bør du **sammenligne** den:\n\n- Peker kildene i **samme retning**?\n- Er dataene **oppdaterte**?\n- Er utvalget **stort** og **representativt** nok?\n- Har kilden en **egeninteresse**?\n\nPå grunnlag av dette kan gründeren ta **beslutninger** – for eksempel å velge et annet segment, justere prisen eller endre produktet.",
   "flashcards": [
-    { "term": "Markedsinformasjon", "def": "Informasjon om marked, kunder og konkurrenter som grunnlag for beslutninger." },
-    { "term": "Forbrukermarked", "def": "Salg til privatpersoner." },
-    { "term": "Bedriftsmarked", "def": "Salg til andre virksomheter eller det offentlige." },
-    { "term": "Totalt marked", "def": "Alle som kunne tenkt seg produktet." },
-    { "term": "Realistisk marked", "def": "Den delen av markedet virksomheten faktisk kan nå." },
-    { "term": "Markedsandel", "def": "Virksomhetens andel av det totale salget i markedet." },
-    { "term": "Kjøpsatferd", "def": "Hvorfor, hvordan, hvor og når kundene kjøper." },
-    { "term": "Kjøpsprosess", "def": "Behov, informasjonssøk, vurdering, kjøp og erfaring etterpå." },
-    { "term": "Segmentering", "def": "Å dele markedet i grupper med like behov." },
-    { "term": "Nisje", "def": "Et smalt segment der en liten virksomhet kan bli best." },
-    { "term": "Sekundærdata", "def": "Informasjon som allerede finnes." },
-    { "term": "Primærdata", "def": "Informasjon virksomheten samler inn selv." },
-    { "term": "Kundeintervju", "def": "Samtale med mulige kunder om deres problemer og behov." },
-    { "term": "Validering", "def": "Å teste om antakelsene holder før man satser stort." },
-    { "term": "Forhåndsbestilling", "def": "Kunder bestiller før produktet finnes – sterkt bevis på etterspørsel." }
+    {
+      "term": "Markedsinformasjon",
+      "def": "Informasjon om marked, kunder og konkurrenter som grunnlag for beslutninger."
+    },
+    {
+      "term": "Forbrukermarked",
+      "def": "Salg til privatpersoner."
+    },
+    {
+      "term": "Bedriftsmarked",
+      "def": "Salg til andre virksomheter eller det offentlige."
+    },
+    {
+      "term": "Totalt marked",
+      "def": "Alle som kunne tenkt seg produktet."
+    },
+    {
+      "term": "Realistisk marked",
+      "def": "Den delen av markedet virksomheten faktisk kan nå."
+    },
+    {
+      "term": "Markedsandel",
+      "def": "Virksomhetens andel av det totale salget i markedet."
+    },
+    {
+      "term": "Kjøpsatferd",
+      "def": "Hvorfor, hvordan, hvor og når kundene kjøper."
+    },
+    {
+      "term": "Kjøpsprosess",
+      "def": "Behov, informasjonssøk, vurdering, kjøp og erfaring etterpå."
+    },
+    {
+      "term": "Segmentering",
+      "def": "Å dele markedet i grupper med like behov."
+    },
+    {
+      "term": "Nisje",
+      "def": "Et smalt segment der en liten virksomhet kan bli best."
+    },
+    {
+      "term": "Sekundærdata",
+      "def": "Informasjon som allerede finnes."
+    },
+    {
+      "term": "Primærdata",
+      "def": "Informasjon virksomheten samler inn selv."
+    },
+    {
+      "term": "Kundeintervju",
+      "def": "Samtale med mulige kunder om deres problemer og behov."
+    },
+    {
+      "term": "Validering",
+      "def": "Å teste om antakelsene holder før man satser stort."
+    },
+    {
+      "term": "Forhåndsbestilling",
+      "def": "Kunder bestiller før produktet finnes – sterkt bevis på etterspørsel."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvorfor feiler mange nye virksomheter?", "options": ["De har for mange kunder", "De lager noe ingen vil kjøpe", "De har for lave kostnader", "De har for mye markedsinformasjon"], "correct": 1, "explain": "Markedsinformasjon reduserer risikoen." },
-    { "id": "q02", "text": "Hva kjennetegner bedriftsmarkedet?", "options": ["Færre kunder, større kjøp og mer rasjonelle beslutninger", "Mange små kjøp", "Bare impulskjøp", "Bare privatpersoner"], "correct": 0, "explain": "Ofte tar flere personer beslutningen." },
-    { "id": "q03", "text": "1000 elever, 20 % interessert og en av fire blir faste kunder. Hvor stort er det realistiske markedet?", "options": ["1000", "200", "50", "250"], "correct": 2, "explain": "1000 · 0,2 · 0,25 = 50." },
-    { "id": "q04", "text": "Hva er en nisje?", "options": ["Hele markedet", "En type lån", "En konkurrent", "Et smalt segment der en liten virksomhet kan bli best"], "correct": 3, "explain": "Passer for virksomheter med små ressurser." },
-    { "id": "q05", "text": "Hva er validering?", "options": ["Å teste om antakelsene holder før man satser stort", "Å registrere selskapet", "Å lage logo", "Å betale skatt"], "correct": 0, "explain": "Reduserer risikoen." },
-    { "id": "q06", "text": "Hvorfor er «vil du kjøpe dette?» et svakt spørsmål i et kundeintervju?", "options": ["Det er for langt", "Folk er ofte høflige og sier ja uten å mene det", "Det er ulovlig", "Det gir for mye informasjon"], "correct": 1, "explain": "Spør heller om problemer og dagens løsninger." },
-    { "id": "q07", "text": "Hvilket bevis på etterspørsel er sterkest?", "options": ["At venner sier ideen er bra", "At man selv liker ideen", "Forhåndsbestillinger fra kunder", "At ideen er original"], "correct": 2, "explain": "Det kundene gjør, teller mest." },
-    { "id": "q08", "text": "Hva er et eksempel på sekundærdata?", "options": ["Egne kundeintervjuer", "En egen spørreundersøkelse", "Observasjon i butikk", "Statistikk fra SSB"], "correct": 3, "explain": "Informasjon som allerede finnes." },
-    { "id": "q09", "text": "Hva bør du spørre deg når du sammenligner informasjon fra flere kilder?", "options": ["Om kildene peker i samme retning og er oppdaterte", "Om kildene er lange", "Om kildene har bilder", "Om kildene er gratis"], "correct": 0, "explain": "Og om kilden har egeninteresse." },
-    { "id": "q10", "text": "Hvorfor er det viktig å forstå hva som får kunder til å bytte?", "options": ["Fordi kunder aldri bytter", "Fordi nye virksomheter må vinne kunder fra det de bruker i dag", "Fordi det er lovpålagt", "Fordi det gir patent"], "correct": 1, "explain": "Konkurransen er ofte dagens løsning." }
+    {
+      "id": "q01",
+      "text": "Hvorfor feiler mange nye virksomheter?",
+      "options": [
+        "De har for mange kunder",
+        "De lager noe ingen vil kjøpe",
+        "De har for lave kostnader",
+        "De har for mye markedsinformasjon"
+      ],
+      "correct": 1,
+      "explain": "Markedsinformasjon reduserer risikoen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva kjennetegner bedriftsmarkedet?",
+      "options": [
+        "Færre kunder, større kjøp og mer rasjonelle beslutninger",
+        "Mange små kjøp",
+        "Bare impulskjøp",
+        "Bare privatpersoner"
+      ],
+      "correct": 0,
+      "explain": "Ofte tar flere personer beslutningen."
+    },
+    {
+      "id": "q03",
+      "text": "1000 elever, 20 % interessert og en av fire blir faste kunder. Hvor stort er det realistiske markedet?",
+      "options": [
+        "1000",
+        "200",
+        "50",
+        "250"
+      ],
+      "correct": 2,
+      "explain": "1000 · 0,2 · 0,25 = 50."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er en nisje?",
+      "options": [
+        "Hele markedet",
+        "En type lån",
+        "En konkurrent",
+        "Et smalt segment der en liten virksomhet kan bli best"
+      ],
+      "correct": 3,
+      "explain": "Passer for virksomheter med små ressurser."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er validering?",
+      "options": [
+        "Å teste om antakelsene holder før man satser stort",
+        "Å registrere selskapet",
+        "Å lage logo",
+        "Å betale skatt"
+      ],
+      "correct": 0,
+      "explain": "Reduserer risikoen."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor er «vil du kjøpe dette?» et svakt spørsmål i et kundeintervju?",
+      "options": [
+        "Det er for langt",
+        "Folk er ofte høflige og sier ja uten å mene det",
+        "Det er ulovlig",
+        "Det gir for mye informasjon"
+      ],
+      "correct": 1,
+      "explain": "Spør heller om problemer og dagens løsninger."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket bevis på etterspørsel er sterkest?",
+      "options": [
+        "At venner sier ideen er bra",
+        "At man selv liker ideen",
+        "Forhåndsbestillinger fra kunder",
+        "At ideen er original"
+      ],
+      "correct": 2,
+      "explain": "Det kundene gjør, teller mest."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et eksempel på sekundærdata?",
+      "options": [
+        "Egne kundeintervjuer",
+        "En egen spørreundersøkelse",
+        "Observasjon i butikk",
+        "Statistikk fra SSB"
+      ],
+      "correct": 3,
+      "explain": "Informasjon som allerede finnes."
+    },
+    {
+      "id": "q09",
+      "text": "Hva bør du spørre deg når du sammenligner informasjon fra flere kilder?",
+      "options": [
+        "Om kildene peker i samme retning og er oppdaterte",
+        "Om kildene er lange",
+        "Om kildene har bilder",
+        "Om kildene er gratis"
+      ],
+      "correct": 0,
+      "explain": "Og om kilden har egeninteresse."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor er det viktig å forstå hva som får kunder til å bytte?",
+      "options": [
+        "Fordi kunder aldri bytter",
+        "Fordi nye virksomheter må vinne kunder fra det de bruker i dag",
+        "Fordi det er lovpålagt",
+        "Fordi det gir patent"
+      ],
+      "correct": 1,
+      "explain": "Konkurransen er ofte dagens løsning."
+    }
   ],
   "mindmap": {
     "label": "Marked og kjøpsatferd",
     "children": [
-      { "label": "Marked", "children": [
-        { "label": "Forbruker og bedrift" },
-        { "label": "Totalt og realistisk" },
-        { "label": "Markedsandel" }
-      ] },
-      { "label": "Kjøpsatferd", "children": [
-        { "label": "Kjøpsprosess" },
-        { "label": "Påvirkningsfaktorer" }
-      ] },
-      { "label": "Segmenter", "children": [
-        { "label": "Segmentering" },
-        { "label": "Nisje" }
-      ] },
-      { "label": "Informasjon", "children": [
-        { "label": "Sekundærdata" },
-        { "label": "Kundeintervjuer" },
-        { "label": "Validering" }
-      ] },
-      { "label": "Beslutninger", "children": [
-        { "label": "Sammenligne kilder" },
-        { "label": "Justere idé og segment" }
-      ] }
+      {
+        "label": "Marked",
+        "children": [
+          {
+            "label": "Forbruker og bedrift"
+          },
+          {
+            "label": "Totalt og realistisk"
+          },
+          {
+            "label": "Markedsandel"
+          }
+        ]
+      },
+      {
+        "label": "Kjøpsatferd",
+        "children": [
+          {
+            "label": "Kjøpsprosess"
+          },
+          {
+            "label": "Påvirkningsfaktorer"
+          }
+        ]
+      },
+      {
+        "label": "Segmenter",
+        "children": [
+          {
+            "label": "Segmentering"
+          },
+          {
+            "label": "Nisje"
+          }
+        ]
+      },
+      {
+        "label": "Informasjon",
+        "children": [
+          {
+            "label": "Sekundærdata"
+          },
+          {
+            "label": "Kundeintervjuer"
+          },
+          {
+            "label": "Validering"
+          }
+        ]
+      },
+      {
+        "label": "Beslutninger",
+        "children": [
+          {
+            "label": "Sammenligne kilder"
+          },
+          {
+            "label": "Justere idé og segment"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Det kundene gjør, er sterkere bevis enn det de sier.", "correct": true, "explain": "For eksempel forhåndsbestillinger." },
-      { "id": "m02", "type": "sant-usant", "text": "En ny virksomhet bør alltid satse på hele markedet med en gang.", "correct": false, "explain": "Ofte er det lurt å starte i en nisje." },
-      { "id": "m03", "type": "sant-usant", "text": "I bedriftsmarkedet tas kjøpsbeslutninger ofte av flere personer.", "correct": true, "explain": "For eksempel innkjøper og leder." },
-      { "id": "m04", "type": "sant-usant", "text": "Det realistiske markedet er som regel like stort som det totale markedet.", "correct": false, "explain": "Det er som regel mye mindre." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket spørsmål passer best i et kundeintervju?", "options": ["«Vil du kjøpe dette?»", "«Hvordan løser du dette problemet i dag?»", "«Synes du ideen er bra?»", "«Kan du anbefale oss?»"], "correct": 1, "explain": "Åpne spørsmål om kundens problemer." },
-      { "id": "m06", "type": "flervalg", "text": "Hva kjennetegner forbrukermarkedet?", "options": ["Mange kunder og mye påvirkning fra følelser og trender", "Få, store kunder", "Bare offentlige innkjøp", "Bare rasjonelle beslutninger"], "correct": 0, "explain": "Salg til privatpersoner." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan en gründer gjøre hvis markedsinformasjonen viser lite interesse?", "options": ["Ignorere den", "Låne mer penger", "Velge et annet segment eller endre produktet", "Heve prisen kraftig"], "correct": 2, "explain": "Informasjonen skal brukes til beslutninger." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Det kundene gjør, er sterkere bevis enn det de sier.",
+        "correct": true,
+        "explain": "For eksempel forhåndsbestillinger."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En ny virksomhet bør alltid satse på hele markedet med en gang.",
+        "correct": false,
+        "explain": "Ofte er det lurt å starte i en nisje."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "I bedriftsmarkedet tas kjøpsbeslutninger ofte av flere personer.",
+        "correct": true,
+        "explain": "For eksempel innkjøper og leder."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det realistiske markedet er som regel like stort som det totale markedet.",
+        "correct": false,
+        "explain": "Det er som regel mye mindre."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket spørsmål passer best i et kundeintervju?",
+        "options": [
+          "«Vil du kjøpe dette?»",
+          "«Hvordan løser du dette problemet i dag?»",
+          "«Synes du ideen er bra?»",
+          "«Kan du anbefale oss?»"
+        ],
+        "correct": 1,
+        "explain": "Åpne spørsmål om kundens problemer."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva kjennetegner forbrukermarkedet?",
+        "options": [
+          "Mange kunder og mye påvirkning fra følelser og trender",
+          "Få, store kunder",
+          "Bare offentlige innkjøp",
+          "Bare rasjonelle beslutninger"
+        ],
+        "correct": 0,
+        "explain": "Salg til privatpersoner."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan en gründer gjøre hvis markedsinformasjonen viser lite interesse?",
+        "options": [
+          "Ignorere den",
+          "Låne mer penger",
+          "Velge et annet segment eller endre produktet",
+          "Heve prisen kraftig"
+        ],
+        "correct": 2,
+        "explain": "Informasjonen skal brukes til beslutninger."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En gründer vurderer flere produkter, målgrupper, priser og måter å markedsføre på. Forklar hva markedsinformasjon er, og hvordan den kan hjelpe gründeren med valgene.",
+        "fasit": "Markedsinformasjon er informasjon om markedet, kundene og konkurrentene. Den gir gründeren et bedre grunnlag for å velge produkt, målgruppe, pris og markedsføring før det brukes mye penger.",
+        "kriterier": [
+          "Forklarer at markedsinformasjon gjelder markedet, kunder og/eller konkurrenter.",
+          "Forklarer at informasjonen gir grunnlag for beslutninger om virksomheten."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En virksomhet undersøker først alle som kunne tenkt seg produktet, deretter hvem den realistisk kan nå, og til slutt hvor stor del av salget i markedet den selv kan få. Forklar hva totalt marked, realistisk marked og markedsandel betyr.",
+        "fasit": "Totalt marked er alle som kunne tenkt seg produktet, mens realistisk marked er den delen virksomheten faktisk kan nå. Markedsandel er virksomhetens andel av det totale salget i markedet.",
+        "kriterier": [
+          "Skiller mellom alle mulige kunder og den delen virksomheten faktisk kan nå.",
+          "Forklarer at markedsandel er virksomhetens del av det totale salget i markedet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Mina oppdager at sykkelen hun bruker ikke dekker behovet hennes. Hun leser om ulike modeller, sammenligner dem, kjøper én modell og vurderer etterpå om hun er fornøyd. Forklar hvilken del av kjøpsprosessen hver handling viser.",
+        "fasit": "At Mina oppdager et behov, er behovsfasen, og lesingen er informasjonssøk. Sammenligningen er vurdering, kjøpet er kjøpsfasen, og vurderingen etterpå er erfaring etter kjøp.",
+        "kriterier": [
+          "Knytter behov, informasjonssøk og vurdering til de riktige handlingene.",
+          "Knytter kjøpet og erfaringen etterpå til de riktige delene av kjøpsprosessen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Jonas velger en jakke fordi vennene hans bruker samme type. Han velger en rimeligere modell fordi han har lite penger å bruke. Hvilke to typer faktorer påvirker valgene hans, og hvordan?",
+        "fasit": "Vennene påvirker Jonas sosialt, mens økonomien hans er en personlig faktor. Begge deler kan påvirke hva han velger å kjøpe.",
+        "kriterier": [
+          "Identifiserer påvirkning fra venner som en sosial faktor.",
+          "Identifiserer økonomi som en personlig faktor og knytter den til valg av rimeligere modell."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En liten virksomhet vurderer å selge vegetarisk lunsj til alle i området eller rimelig vegetarisk lunsj til elever ved skolene i nærheten. Forklar hvilket alternativ som passer best med segmentering og nisje, og hvorfor.",
+        "fasit": "Rimelig vegetarisk lunsj til elever ved skolene i nærheten passer best. Virksomheten retter seg da mot et smalere segment med en felles målgruppe og kan konsentrere de begrensede ressursene sine der.",
+        "kriterier": [
+          "Velger det avgrensede elevsegmentet framfor alle i området.",
+          "Forklarer at et smalt segment med felles behov gjør det mulig å rette innsatsen mot en nisje."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En gründer leser statistikk fra SSB og gjennomfører egne intervjuer med mulige kunder. Forklar hvilken informasjon som er sekundærdata, hvilken som er primærdata, og hvorfor.",
+        "fasit": "SSB-statistikken er sekundærdata fordi den allerede finnes. Intervjuene er primærdata fordi gründeren samler inn informasjonen selv.",
+        "kriterier": [
+          "Identifiserer SSB-statistikken som sekundærdata fordi informasjonen allerede finnes.",
+          "Identifiserer intervjuene som primærdata fordi virksomheten samler inn informasjonen selv."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En gründer tror pendlere vil betale for frokost levert på vei til jobb. Beskriv en konkret test gründeren kan gjøre før en stor satsing, og hva kundene må gjøre for at testen skal støtte antakelsen.",
+        "fasit": "Gründeren kan tilby et minimumsprodukt eller ta imot forhåndsbestillinger. At pendlere faktisk bestiller og betaler, vil støtte antakelsen om at de vil betale for tilbudet.",
+        "kriterier": [
+          "Foreslår en konkret test, for eksempel et minimumsprodukt eller forhåndsbestilling.",
+          "Knytter støtte til antakelsen til en faktisk handling fra kundene, som bestilling eller betaling."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En virksomhet får vite at målgruppen synes produktet er nyttig, men at prisen er for høy, og at testerne synes produktet er for stort. Foreslå én beslutning om prisen og én om produktet, og forklar hvordan informasjonen begrunner dem.",
+        "fasit": "Virksomheten kan justere prisen fordi målgruppen synes den er for høy. Den kan også gjøre produktet mindre fordi testerne synes det er for stort.",
+        "kriterier": [
+          "Foreslår en prisendring som svar på tilbakemeldingen om at prisen er for høy.",
+          "Foreslår en endring av produktet som svar på tilbakemeldingen om størrelsen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

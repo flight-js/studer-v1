@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Sannsynlighet, simulering og stokastiske variabler",
   "intro": "Sannsynlighetsregler, komplementsetningen, uavhengige hendelser og betinget sannsynlighet, simulering med digitale verktøy, stokastiske variabler og forventningsverdi.",
-  "kompetansemaal": [11, 12],
+  "kompetansemaal": [
+    11,
+    12
+  ],
   "sammendrag": "## Grunnbegreper\n\n- Et **stokastisk forsøk** har flere mulige **utfall**, og vi vet ikke på forhånd hvilket som kommer.\n- **Utfallsrommet** er mengden av alle mulige utfall.\n- En **hendelse** er en samling utfall, for eksempel «terningen viser et partall».\n\nNår alle utfall er **like sannsynlige**:\n\n**P(A) = antall gunstige utfall / antall mulige utfall**\n\n## Regler\n\n- **Komplementsetningen**: P(ikke A) = 1 − P(A).\n- **Addisjonssetningen**: P(A eller B) = P(A) + P(B) − P(A og B).\n- **Uavhengige hendelser**: P(A og B) = P(A) · P(B).\n- **Betinget sannsynlighet**: P(A | B) = P(A og B) / P(B) – sannsynligheten for A **gitt** at B har skjedd.\n\n**Eksempel – minst én**: Sannsynligheten for minst én sekser på fire terningkast er\n\n1 − P(ingen seksere) = 1 − (5/6)⁴ ≈ 1 − 0,482 = **0,518**\n\n«Minst én»-oppgaver løses nesten alltid lettest med **komplementet**.\n\n## Strategier\n\n- **Tabell** med to variabler, for eksempel for to terninger (36 utfall).\n- **Valgtre**, der du multipliserer langs greinene og adderer mellom greinene.\n- **Krysstabell** for betinget sannsynlighet, for eksempel medisinske tester.\n- **Kombinatorikk**, når utfallene er mange.\n\n## Simulering\n\nMange problemer er vanskelige å regne ut eksakt. Da kan vi **simulere** forsøket mange ganger med datamaskin:\n\n- I regneark gir **TILFELDIGMELLOM(1; 6)** et tilfeldig terningkast.\n- I Python gir **random.randint(1, 6)** det samme.\n\nNår antall forsøk øker, nærmer den **relative frekvensen** seg den **teoretiske sannsynligheten**. Det kalles **store talls lov**. Med få forsøk kan resultatet avvike mye.\n\n## Stokastiske variabler\n\nEn **stokastisk variabel X** gir et **tall** til hvert utfall av et forsøk – for eksempel summen av to terninger, antall rette svar eller gevinsten i et spill. **Sannsynlighetsfordelingen** viser P(X = x) for alle verdier x, og summen av sannsynlighetene er **1**.\n\n## Forventningsverdi\n\n**Forventningsverdien** er gjennomsnittet vi forventer i det lange løp:\n\n**E(X) = Σ x · P(X = x)**\n\n- Ett terningkast: E(X) = (1 + 2 + 3 + 4 + 5 + 6) / 6 = **3,5**.\n- Summen av to terninger: E(X) = **7**.\n\n**Spill**: Du betaler 10 kr og vinner 50 kr hvis du får sekser. Forventet netto gevinst er\n\n50 · 1/6 − 10 ≈ **−1,67 kr**\n\nI det lange løp taper du altså i gjennomsnitt 1,67 kr per spill. Pengespill er laget slik at forventningsverdien er **negativ** for spilleren.\n\n## Vanlige feil\n\n- **Spillerens feilslutning**: Å tro at en sekser er «mer sannsynlig» etter mange kast uten sekser. Terningen husker ikke!\n- Å legge sammen sannsynligheter for hendelser som **ikke utelukker** hverandre.\n- Å gange sannsynligheter for hendelser som **ikke er uavhengige**.",
   "flashcards": [
-    { "term": "Stokastisk forsøk", "def": "Forsøk der utfallet ikke er kjent på forhånd." },
-    { "term": "Utfallsrom", "def": "Alle mulige utfall." },
-    { "term": "P(A) ved like sannsynlige utfall", "def": "Gunstige / mulige." },
-    { "term": "Komplementsetningen", "def": "P(ikke A) = 1 − P(A)" },
-    { "term": "Addisjonssetningen", "def": "P(A eller B) = P(A) + P(B) − P(A og B)" },
-    { "term": "Uavhengige hendelser", "def": "P(A og B) = P(A) · P(B)" },
-    { "term": "Betinget sannsynlighet", "def": "P(A | B) = P(A og B) / P(B)" },
-    { "term": "Minst én sekser på fire kast", "def": "1 − (5/6)⁴ ≈ 0,518" },
-    { "term": "Simulering", "def": "Å gjenta et forsøk mange ganger med datamaskin." },
-    { "term": "Store talls lov", "def": "Relativ frekvens nærmer seg sannsynligheten ved mange forsøk." },
-    { "term": "Stokastisk variabel", "def": "Gir et tall til hvert utfall." },
-    { "term": "Forventningsverdi", "def": "E(X) = Σ x · P(X = x)" },
-    { "term": "E(X) for ett terningkast", "def": "3,5" },
-    { "term": "Spillerens feilslutning", "def": "Å tro at tidligere utfall påvirker uavhengige kast." },
-    { "term": "Valgtre", "def": "Multipliser langs greinene, adder mellom greinene." }
+    {
+      "term": "Stokastisk forsøk",
+      "def": "Forsøk der utfallet ikke er kjent på forhånd."
+    },
+    {
+      "term": "Utfallsrom",
+      "def": "Alle mulige utfall."
+    },
+    {
+      "term": "P(A) ved like sannsynlige utfall",
+      "def": "Gunstige / mulige."
+    },
+    {
+      "term": "Komplementsetningen",
+      "def": "P(ikke A) = 1 − P(A)"
+    },
+    {
+      "term": "Addisjonssetningen",
+      "def": "P(A eller B) = P(A) + P(B) − P(A og B)"
+    },
+    {
+      "term": "Uavhengige hendelser",
+      "def": "P(A og B) = P(A) · P(B)"
+    },
+    {
+      "term": "Betinget sannsynlighet",
+      "def": "P(A | B) = P(A og B) / P(B)"
+    },
+    {
+      "term": "Minst én sekser på fire kast",
+      "def": "1 − (5/6)⁴ ≈ 0,518"
+    },
+    {
+      "term": "Simulering",
+      "def": "Å gjenta et forsøk mange ganger med datamaskin."
+    },
+    {
+      "term": "Store talls lov",
+      "def": "Relativ frekvens nærmer seg sannsynligheten ved mange forsøk."
+    },
+    {
+      "term": "Stokastisk variabel",
+      "def": "Gir et tall til hvert utfall."
+    },
+    {
+      "term": "Forventningsverdi",
+      "def": "E(X) = Σ x · P(X = x)"
+    },
+    {
+      "term": "E(X) for ett terningkast",
+      "def": "3,5"
+    },
+    {
+      "term": "Spillerens feilslutning",
+      "def": "Å tro at tidligere utfall påvirker uavhengige kast."
+    },
+    {
+      "term": "Valgtre",
+      "def": "Multipliser langs greinene, adder mellom greinene."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er sannsynligheten for minst én sekser på fire terningkast?", "options": ["4/6", "Omtrent 0,518", "Omtrent 0,482", "1/6"], "correct": 1, "explain": "1 − (5/6)⁴." },
-    { "id": "q02", "text": "Hva sier komplementsetningen?", "options": ["P(ikke A) = 1 − P(A)", "P(A og B) = P(A) · P(B)", "P(A) = gunstige/mulige", "P(A) + P(B) = 1"], "correct": 0, "explain": "Nyttig for «minst én»-oppgaver." },
-    { "id": "q03", "text": "Hva er forventningsverdien for ett terningkast?", "options": ["3", "6", "3,5", "1/6"], "correct": 2, "explain": "(1 + 2 + … + 6)/6." },
-    { "id": "q04", "text": "Du betaler 10 kr og vinner 50 kr ved sekser. Hva er forventet netto gevinst?", "options": ["40 kr", "8,33 kr", "0 kr", "Omtrent −1,67 kr"], "correct": 3, "explain": "50/6 − 10." },
-    { "id": "q05", "text": "Hva sier store talls lov?", "options": ["Relativ frekvens nærmer seg sannsynligheten ved mange forsøk", "Store tall er mer sannsynlige", "Etter mange tap kommer en gevinst", "Simulering gir alltid eksakt svar"], "correct": 0, "explain": "Med få forsøk kan avviket være stort." },
-    { "id": "q06", "text": "Når gjelder P(A og B) = P(A) · P(B)?", "options": ["Alltid", "Når A og B er uavhengige", "Når A og B utelukker hverandre", "Når P(A) = P(B)"], "correct": 1, "explain": "Den ene påvirker ikke den andre." },
-    { "id": "q07", "text": "Hva er en stokastisk variabel?", "options": ["En konstant", "En tilfeldig hendelse", "En funksjon som gir et tall til hvert utfall", "En type terning"], "correct": 2, "explain": "For eksempel summen av to terninger." },
-    { "id": "q08", "text": "Du har fått fem kast på rad uten sekser. Hva er sannsynligheten for sekser i neste kast?", "options": ["Større enn 1/6", "Mindre enn 1/6", "5/6", "1/6"], "correct": 3, "explain": "Kastene er uavhengige – spillerens feilslutning." },
-    { "id": "q09", "text": "Hva er E(X) når X er summen av to terninger?", "options": ["7", "6", "12", "3,5"], "correct": 0, "explain": "3,5 + 3,5." },
-    { "id": "q10", "text": "Hvilken regnearkfunksjon gir et tilfeldig terningkast?", "options": ["SUMMER(1; 6)", "TILFELDIGMELLOM(1; 6)", "GJENNOMSNITT(1; 6)", "ANTALL(1; 6)"], "correct": 1, "explain": "Brukes til simulering." }
+    {
+      "id": "q01",
+      "text": "Hva er sannsynligheten for minst én sekser på fire terningkast?",
+      "options": [
+        "4/6",
+        "Omtrent 0,518",
+        "Omtrent 0,482",
+        "1/6"
+      ],
+      "correct": 1,
+      "explain": "1 − (5/6)⁴."
+    },
+    {
+      "id": "q02",
+      "text": "Hva sier komplementsetningen?",
+      "options": [
+        "P(ikke A) = 1 − P(A)",
+        "P(A og B) = P(A) · P(B)",
+        "P(A) = gunstige/mulige",
+        "P(A) + P(B) = 1"
+      ],
+      "correct": 0,
+      "explain": "Nyttig for «minst én»-oppgaver."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er forventningsverdien for ett terningkast?",
+      "options": [
+        "3",
+        "6",
+        "3,5",
+        "1/6"
+      ],
+      "correct": 2,
+      "explain": "(1 + 2 + … + 6)/6."
+    },
+    {
+      "id": "q04",
+      "text": "Du betaler 10 kr og vinner 50 kr ved sekser. Hva er forventet netto gevinst?",
+      "options": [
+        "40 kr",
+        "8,33 kr",
+        "0 kr",
+        "Omtrent −1,67 kr"
+      ],
+      "correct": 3,
+      "explain": "50/6 − 10."
+    },
+    {
+      "id": "q05",
+      "text": "Hva sier store talls lov?",
+      "options": [
+        "Relativ frekvens nærmer seg sannsynligheten ved mange forsøk",
+        "Store tall er mer sannsynlige",
+        "Etter mange tap kommer en gevinst",
+        "Simulering gir alltid eksakt svar"
+      ],
+      "correct": 0,
+      "explain": "Med få forsøk kan avviket være stort."
+    },
+    {
+      "id": "q06",
+      "text": "Når gjelder P(A og B) = P(A) · P(B)?",
+      "options": [
+        "Alltid",
+        "Når A og B er uavhengige",
+        "Når A og B utelukker hverandre",
+        "Når P(A) = P(B)"
+      ],
+      "correct": 1,
+      "explain": "Den ene påvirker ikke den andre."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en stokastisk variabel?",
+      "options": [
+        "En konstant",
+        "En tilfeldig hendelse",
+        "En funksjon som gir et tall til hvert utfall",
+        "En type terning"
+      ],
+      "correct": 2,
+      "explain": "For eksempel summen av to terninger."
+    },
+    {
+      "id": "q08",
+      "text": "Du har fått fem kast på rad uten sekser. Hva er sannsynligheten for sekser i neste kast?",
+      "options": [
+        "Større enn 1/6",
+        "Mindre enn 1/6",
+        "5/6",
+        "1/6"
+      ],
+      "correct": 3,
+      "explain": "Kastene er uavhengige – spillerens feilslutning."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er E(X) når X er summen av to terninger?",
+      "options": [
+        "7",
+        "6",
+        "12",
+        "3,5"
+      ],
+      "correct": 0,
+      "explain": "3,5 + 3,5."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken regnearkfunksjon gir et tilfeldig terningkast?",
+      "options": [
+        "SUMMER(1; 6)",
+        "TILFELDIGMELLOM(1; 6)",
+        "GJENNOMSNITT(1; 6)",
+        "ANTALL(1; 6)"
+      ],
+      "correct": 1,
+      "explain": "Brukes til simulering."
+    }
   ],
   "mindmap": {
     "label": "Sannsynlighet og simulering",
     "children": [
-      { "label": "Grunnbegreper", "children": [
-        { "label": "Utfall og utfallsrom" },
-        { "label": "Hendelse" },
-        { "label": "Gunstige/mulige" }
-      ] },
-      { "label": "Regler", "children": [
-        { "label": "Komplement" },
-        { "label": "Addisjon" },
-        { "label": "Uavhengighet" },
-        { "label": "Betinget" }
-      ] },
-      { "label": "Strategier", "children": [
-        { "label": "Tabell" },
-        { "label": "Valgtre" },
-        { "label": "Krysstabell" }
-      ] },
-      { "label": "Simulering", "children": [
-        { "label": "Regneark og Python" },
-        { "label": "Store talls lov" }
-      ] },
-      { "label": "Stokastiske variabler", "children": [
-        { "label": "Fordeling" },
-        { "label": "Forventningsverdi" },
-        { "label": "Pengespill" }
-      ] }
+      {
+        "label": "Grunnbegreper",
+        "children": [
+          {
+            "label": "Utfall og utfallsrom"
+          },
+          {
+            "label": "Hendelse"
+          },
+          {
+            "label": "Gunstige/mulige"
+          }
+        ]
+      },
+      {
+        "label": "Regler",
+        "children": [
+          {
+            "label": "Komplement"
+          },
+          {
+            "label": "Addisjon"
+          },
+          {
+            "label": "Uavhengighet"
+          },
+          {
+            "label": "Betinget"
+          }
+        ]
+      },
+      {
+        "label": "Strategier",
+        "children": [
+          {
+            "label": "Tabell"
+          },
+          {
+            "label": "Valgtre"
+          },
+          {
+            "label": "Krysstabell"
+          }
+        ]
+      },
+      {
+        "label": "Simulering",
+        "children": [
+          {
+            "label": "Regneark og Python"
+          },
+          {
+            "label": "Store talls lov"
+          }
+        ]
+      },
+      {
+        "label": "Stokastiske variabler",
+        "children": [
+          {
+            "label": "Fordeling"
+          },
+          {
+            "label": "Forventningsverdi"
+          },
+          {
+            "label": "Pengespill"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Summen av sannsynlighetene i en sannsynlighetsfordeling er 1.", "correct": true, "explain": "Ett av utfallene må inntreffe." },
-      { "id": "m02", "type": "sant-usant", "text": "En simulering med 10 forsøk gir alltid nesten nøyaktig den teoretiske sannsynligheten.", "correct": false, "explain": "Med få forsøk kan avviket være stort." },
-      { "id": "m03", "type": "sant-usant", "text": "Pengespill er vanligvis laget slik at forventningsverdien er negativ for spilleren.", "correct": true, "explain": "Ellers ville arrangøren tape penger." },
-      { "id": "m04", "type": "sant-usant", "text": "P(A eller B) = P(A) + P(B) gjelder alltid.", "correct": false, "explain": "Bare når A og B ikke kan skje samtidig." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er sannsynligheten for å få sum 7 med to terninger?", "options": ["7/36", "1/6", "1/12", "1/7"], "correct": 1, "explain": "6 av 36 utfall." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er sannsynligheten for to kron på to myntkast?", "options": ["1/4", "1/2", "1/3", "3/4"], "correct": 0, "explain": "½ · ½." },
-      { "id": "m07", "type": "flervalg", "text": "I en klasse har 40 % biologi, og av dem har 50 % også kjemi. Hva er P(biologi og kjemi)?", "options": ["0,9", "0,5", "0,2", "0,1"], "correct": 2, "explain": "0,4 · 0,5." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Summen av sannsynlighetene i en sannsynlighetsfordeling er 1.",
+        "correct": true,
+        "explain": "Ett av utfallene må inntreffe."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En simulering med 10 forsøk gir alltid nesten nøyaktig den teoretiske sannsynligheten.",
+        "correct": false,
+        "explain": "Med få forsøk kan avviket være stort."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Pengespill er vanligvis laget slik at forventningsverdien er negativ for spilleren.",
+        "correct": true,
+        "explain": "Ellers ville arrangøren tape penger."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "P(A eller B) = P(A) + P(B) gjelder alltid.",
+        "correct": false,
+        "explain": "Bare når A og B ikke kan skje samtidig."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er sannsynligheten for å få sum 7 med to terninger?",
+        "options": [
+          "7/36",
+          "1/6",
+          "1/12",
+          "1/7"
+        ],
+        "correct": 1,
+        "explain": "6 av 36 utfall."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er sannsynligheten for to kron på to myntkast?",
+        "options": [
+          "1/4",
+          "1/2",
+          "1/3",
+          "3/4"
+        ],
+        "correct": 0,
+        "explain": "½ · ½."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "I en klasse har 40 % biologi, og av dem har 50 % også kjemi. Hva er P(biologi og kjemi)?",
+        "options": [
+          "0,9",
+          "0,5",
+          "0,2",
+          "0,1"
+        ],
+        "correct": 2,
+        "explain": "0,4 · 0,5."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et terningkast har utfallsrommet {1, 2, 3, 4, 5, 6}. Forklar forskjellen på utfallsrommet og en hendelse, og gi et eksempel på en hendelse.",
+        "fasit": "Utfallsrommet er alle mulige utfall, mens en hendelse er en delmengde av utfallsrommet. For eksempel er «terningen viser et partall» hendelsen {2, 4, 6}.",
+        "kriterier": [
+          "Forklarer at utfallsrommet inneholder alle mulige utfall, mens en hendelse består av noen av dem.",
+          "Gir et gyldig eksempel på en hendelse fra terningkastet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Du kaster to terninger. Det er 36 like sannsynlige utfall. Hva er sannsynligheten for at summen blir 7? Vis det viktigste steget i utregningen.",
+        "fasit": "Seks utfall gir sum 7: (1,6), (2,5), (3,4), (4,3), (5,2) og (6,1). Sannsynligheten er derfor 6/36 = 1/6.",
+        "kriterier": [
+          "Finner at seks av de 36 utfallene gir sum 7.",
+          "Regner sannsynligheten som 6/36 = 1/6."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "På én terning er A hendelsen «terningen viser et partall», og B er hendelsen «terningen viser mer enn 4». Finn P(A eller B), og vis hvordan du tar hensyn til utfall som tilhører begge hendelsene.",
+        "fasit": "P(A) = 3/6, P(B) = 2/6, og begge hendelsene skjer ved 6, så P(A og B) = 1/6. Dermed er P(A eller B) = 3/6 + 2/6 − 1/6 = 4/6 = 2/3.",
+        "kriterier": [
+          "Tar med at utfallet 6 tilhører begge hendelsene og må trekkes fra én gang.",
+          "Får P(A eller B) = 4/6 = 2/3 ved å bruke addisjonssetningen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hva den betingede sannsynligheten P(A | B) betyr, og hvordan den beregnes når P(B) ikke er 0.",
+        "fasit": "P(A | B) er sannsynligheten for at A skjer når vi vet at B har skjedd. Den beregnes som P(A og B) / P(B).",
+        "kriterier": [
+          "Forklarer at sannsynligheten vurderes under forutsetning av at B har skjedd.",
+          "Oppgir forholdet P(A og B) / P(B)."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En datamaskin simulerer det samme stokastiske forsøket mange ganger. Forklar hvorfor den relative frekvensen kan avvike fra den teoretiske sannsynligheten ved få forsøk, og hva som skjer når antall forsøk øker.",
+        "fasit": "Ved få forsøk kan tilfeldige variasjoner gjøre at den relative frekvensen avviker mye fra den teoretiske sannsynligheten. Når antall forsøk øker, nærmer den relative frekvensen seg den teoretiske sannsynligheten; dette kalles store talls lov.",
+        "kriterier": [
+          "Knytter avvik ved få forsøk til tilfeldige variasjoner.",
+          "Forklarer at relativ frekvens nærmer seg teoretisk sannsynlighet når antall forsøk øker."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Du kaster to terninger og lar X være summen av øynene. Hva viser sannsynlighetsfordelingen til X, og hvorfor summerer sannsynlighetene i fordelingen seg til 1?",
+        "fasit": "Sannsynlighetsfordelingen viser sannsynligheten for hver mulig verdi av summen X. Siden den dekker alle mulige utfall, er summen av sannsynlighetene 1.",
+        "kriterier": [
+          "Forklarer at fordelingen viser sannsynligheten for hver mulig verdi av X.",
+          "Begrunner at sannsynlighetene summerer seg til 1 fordi fordelingen dekker alle mulige utfall."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En stokastisk variabel X har verdien 0 med sannsynlighet 1/2 og verdien 2 med sannsynlighet 1/2. Regn ut E(X), og vis det viktigste steget.",
+        "fasit": "E(X) = 0 · 1/2 + 2 · 1/2 = 1. Forventningsverdien er 1.",
+        "kriterier": [
+          "Bruker summen av verdiene ganget med de tilhørende sannsynlighetene.",
+          "Får E(X) = 1."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I et valgtre fører flere ulike veier til samme ønskede hendelse. Forklar hvordan du finner sannsynligheten for hendelsen ved å bruke sannsynlighetene langs greinene og de ulike veiene.",
+        "fasit": "Du multipliserer sannsynlighetene langs hver vei i valgtreet. Deretter adderer du sannsynlighetene for de ulike veiene som fører til hendelsen.",
+        "kriterier": [
+          "Forklarer at sannsynlighetene multipliseres langs hver vei.",
+          "Forklarer at sannsynlighetene for de aktuelle veiene adderes."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,82 +4,436 @@
   "trinnId": "vg1",
   "name": "Samiske språk og språkrettigheter",
   "intro": "Utbredelsen av de samiske språkene i Norge, fornorskingspolitikken og konsekvensene av den, og de språklige rettighetene samer har som urfolk i dag.",
-  "kompetansemaal": [13],
+  "kompetansemaal": [
+    13
+  ],
   "sammendrag": "## Samene og samiske språk\n\n**Samene** er et **urfolk** som har levd i **Sápmi** – de nordlige delene av Norge, Sverige og Finland og Kolahalvøya i Russland – i lang tid før dagens statsgrenser ble trukket. De **samiske språkene** er **finsk-ugriske** språk, i slekt med finsk og estisk, og ikke med norsk.\n\nDet finnes rundt ti samiske språk. I Norge brukes særlig\n\n- **nordsamisk** – det største samiske språket, brukt særlig i Finnmark og Nord-Troms\n- **lulesamisk** – i området rundt Tysfjord i Nordland\n- **sørsamisk** – fra Saltfjellet og sørover til Engerdal i Innlandet\n\nI tillegg finnes blant annet **pitesamisk** og **østsamisk (skoltesamisk)**. Flere av språkene har **få brukere** og regnes som **truede**.\n\n## Fornorskingspolitikken\n\nFra omkring **midten av 1800-tallet** til godt ut på **1900-tallet** førte norske myndigheter en **fornorskingspolitikk** overfor samer og **kvener**. Målet var at de skulle bli **norske** i språk og kultur.\n\n- **Finnefondet** (1851) skulle fremme norsk språk blant samer og kvener.\n- **Skoleinstrukser**, blant annet **Wexelsen-plakaten** fra **1898**, bestemte at undervisningen skulle foregå på norsk, og at samisk og kvensk bare skulle brukes som hjelpespråk når det var helt nødvendig.\n- Mange barn ble sendt på **internatskoler**, der det kunne være forbudt å snakke samisk.\n- **Jordsalgsloven** av 1902 krevde i praksis at den som ville kjøpe jord i Finnmark, kunne norsk.\n\nKonsekvensene var store: Mange samer sluttet å snakke samisk med barna sine, og **språket gikk tapt** i flere familier og områder. Mange opplevde **skam** over egen bakgrunn.\n\n## Vendepunktet\n\nEtter andre verdenskrig ble politikken gradvis endret. **Alta-saken** (1979–1981), der samer og miljøvernere protesterte mot en demning i Altaelva, satte samiske rettigheter på dagsordenen.\n\n- **Sameloven** (1987) og **Sametinget**, som ble åpnet i **1989**\n- **Grunnloven § 108** (vedtatt i 1988 som § 110 a, fikk dagens nummer i 2014) slår fast at staten skal legge forholdene til rette for at samene kan sikre og utvikle **språket, kulturen og samfunnslivet** sitt.\n- Norge ratifiserte **ILO-konvensjon nr. 169** om urfolk i 1990 – som første land.\n\n## Språklige rettigheter i dag\n\n- Samisk og norsk er **likeverdige språk**, og i **forvaltningsområdet for samisk språk** – en rekke kommuner – har samer rett til å bruke samisk i møte med det offentlige.\n- Samiske elever har **rett til opplæring i og på samisk**.\n- Samiske stedsnavn skal brukes på skilt og kart.\n- Det gjøres mye for å **revitalisere** språkene – gjennom barnehager, skoler, språksentre, medier og litteratur.\n\n**Sannhets- og forsoningskommisjonen** la i 2023 fram en rapport om fornorskingen og urett mot samer, kvener/norskfinner og skogfinner. **Samenes nasjonaldag** er **6. februar**, til minne om det første samiske landsmøtet i Trondheim i 1917.",
   "flashcards": [
-    { "term": "Urfolk", "def": "Folk som bodde i et område før dagens statsgrenser ble trukket." },
-    { "term": "Sápmi", "def": "Samenes område i Norge, Sverige, Finland og Russland." },
-    { "term": "Nordsamisk", "def": "Det største samiske språket." },
-    { "term": "Lulesamisk", "def": "Samisk språk i området rundt Tysfjord." },
-    { "term": "Sørsamisk", "def": "Samisk språk fra Saltfjellet og sørover." },
-    { "term": "Fornorskingspolitikk", "def": "Politikk for å gjøre samer og kvener norske i språk og kultur." },
-    { "term": "Finnefondet", "def": "Fond fra 1851 som skulle fremme norsk blant samer og kvener." },
-    { "term": "Wexelsen-plakaten", "def": "Skoleinstruks fra 1898 om at undervisningen skulle være på norsk." },
-    { "term": "Jordsalgsloven 1902", "def": "Lov som i praksis krevde norskkunnskaper for å kjøpe jord i Finnmark." },
-    { "term": "Alta-saken", "def": "Konflikt 1979–1981 om demning i Altaelva som satte samiske rettigheter på dagsordenen." },
-    { "term": "Sametinget", "def": "Samenes folkevalgte organ, åpnet i 1989." },
-    { "term": "Grunnloven § 108", "def": "Staten skal legge til rette for samisk språk, kultur og samfunnsliv." },
-    { "term": "ILO-konvensjon 169", "def": "Internasjonal konvensjon om urfolks rettigheter, ratifisert av Norge i 1990." },
-    { "term": "Forvaltningsområdet for samisk språk", "def": "Kommuner der samer har særlige rettigheter til å bruke samisk." },
-    { "term": "Revitalisering", "def": "Arbeid for å gi et truet språk nytt liv." }
+    {
+      "term": "Urfolk",
+      "def": "Folk som bodde i et område før dagens statsgrenser ble trukket."
+    },
+    {
+      "term": "Sápmi",
+      "def": "Samenes område i Norge, Sverige, Finland og Russland."
+    },
+    {
+      "term": "Nordsamisk",
+      "def": "Det største samiske språket."
+    },
+    {
+      "term": "Lulesamisk",
+      "def": "Samisk språk i området rundt Tysfjord."
+    },
+    {
+      "term": "Sørsamisk",
+      "def": "Samisk språk fra Saltfjellet og sørover."
+    },
+    {
+      "term": "Fornorskingspolitikk",
+      "def": "Politikk for å gjøre samer og kvener norske i språk og kultur."
+    },
+    {
+      "term": "Finnefondet",
+      "def": "Fond fra 1851 som skulle fremme norsk blant samer og kvener."
+    },
+    {
+      "term": "Wexelsen-plakaten",
+      "def": "Skoleinstruks fra 1898 om at undervisningen skulle være på norsk."
+    },
+    {
+      "term": "Jordsalgsloven 1902",
+      "def": "Lov som i praksis krevde norskkunnskaper for å kjøpe jord i Finnmark."
+    },
+    {
+      "term": "Alta-saken",
+      "def": "Konflikt 1979–1981 om demning i Altaelva som satte samiske rettigheter på dagsordenen."
+    },
+    {
+      "term": "Sametinget",
+      "def": "Samenes folkevalgte organ, åpnet i 1989."
+    },
+    {
+      "term": "Grunnloven § 108",
+      "def": "Staten skal legge til rette for samisk språk, kultur og samfunnsliv."
+    },
+    {
+      "term": "ILO-konvensjon 169",
+      "def": "Internasjonal konvensjon om urfolks rettigheter, ratifisert av Norge i 1990."
+    },
+    {
+      "term": "Forvaltningsområdet for samisk språk",
+      "def": "Kommuner der samer har særlige rettigheter til å bruke samisk."
+    },
+    {
+      "term": "Revitalisering",
+      "def": "Arbeid for å gi et truet språk nytt liv."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken språkfamilie tilhører de samiske språkene?", "options": ["Germansk", "Finsk-ugrisk", "Romansk", "Slavisk"], "correct": 1, "explain": "Samisk er i slekt med finsk og estisk." },
-    { "id": "q02", "text": "Hvilket er det største samiske språket?", "options": ["Nordsamisk", "Sørsamisk", "Lulesamisk", "Pitesamisk"], "correct": 0, "explain": "Nordsamisk brukes særlig i Finnmark og Nord-Troms." },
-    { "id": "q03", "text": "Hva var målet med fornorskingspolitikken?", "options": ["Å styrke samisk språk", "Å lære nordmenn samisk", "At samer og kvener skulle bli norske i språk og kultur", "Å opprette Sametinget"], "correct": 2, "explain": "Politikken varte fra midten av 1800-tallet til langt ut på 1900-tallet." },
-    { "id": "q04", "text": "Hva bestemte Wexelsen-plakaten fra 1898?", "options": ["At alle skulle lære samisk", "At Sametinget skulle opprettes", "At samer skulle få egne skoler", "At undervisningen skulle være på norsk"], "correct": 3, "explain": "Samisk og kvensk skulle bare brukes som hjelpespråk når det var helt nødvendig." },
-    { "id": "q05", "text": "Hvilken sak satte samiske rettigheter på dagsordenen rundt 1980?", "options": ["Alta-saken", "Unionsoppløsningen", "EU-avstemningen", "Oljefunnet"], "correct": 0, "explain": "Protestene var mot en demning i Altaelva." },
-    { "id": "q06", "text": "Når ble Sametinget åpnet?", "options": ["1905", "1945", "2005", "1989"], "correct": 3, "explain": "Sameloven kom i 1987." },
-    { "id": "q07", "text": "Hva sier Grunnloven § 108?", "options": ["At norsk er eneste offisielle språk", "At staten skal legge til rette for samisk språk, kultur og samfunnsliv", "At samer ikke har egne rettigheter", "At alle må lære nynorsk"], "correct": 1, "explain": "Paragrafen ble vedtatt i 1988." },
-    { "id": "q08", "text": "Hva er en konsekvens av fornorskingen?", "options": ["At flere lærte samisk", "At samisk ble offisielt språk i hele Norge", "At samisk gikk tapt i mange familier", "At samer fikk mer land"], "correct": 2, "explain": "Mange sluttet å snakke samisk med barna sine." },
-    { "id": "q09", "text": "Hvilken dato er samenes nasjonaldag?", "options": ["17. mai", "6. februar", "1. mai", "24. oktober"], "correct": 1, "explain": "Dagen minner om det første samiske landsmøtet i Trondheim i 1917." },
-    { "id": "q10", "text": "Hva er revitalisering av et språk?", "options": ["Arbeid for å gi et truet språk nytt liv", "Å forby et språk", "Å oversette et språk", "Å lage en ny dialekt"], "correct": 0, "explain": "Barnehager, skoler og medier er viktige verktøy." }
+    {
+      "id": "q01",
+      "text": "Hvilken språkfamilie tilhører de samiske språkene?",
+      "options": [
+        "Germansk",
+        "Finsk-ugrisk",
+        "Romansk",
+        "Slavisk"
+      ],
+      "correct": 1,
+      "explain": "Samisk er i slekt med finsk og estisk."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket er det største samiske språket?",
+      "options": [
+        "Nordsamisk",
+        "Sørsamisk",
+        "Lulesamisk",
+        "Pitesamisk"
+      ],
+      "correct": 0,
+      "explain": "Nordsamisk brukes særlig i Finnmark og Nord-Troms."
+    },
+    {
+      "id": "q03",
+      "text": "Hva var målet med fornorskingspolitikken?",
+      "options": [
+        "Å styrke samisk språk",
+        "Å lære nordmenn samisk",
+        "At samer og kvener skulle bli norske i språk og kultur",
+        "Å opprette Sametinget"
+      ],
+      "correct": 2,
+      "explain": "Politikken varte fra midten av 1800-tallet til langt ut på 1900-tallet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva bestemte Wexelsen-plakaten fra 1898?",
+      "options": [
+        "At alle skulle lære samisk",
+        "At Sametinget skulle opprettes",
+        "At samer skulle få egne skoler",
+        "At undervisningen skulle være på norsk"
+      ],
+      "correct": 3,
+      "explain": "Samisk og kvensk skulle bare brukes som hjelpespråk når det var helt nødvendig."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken sak satte samiske rettigheter på dagsordenen rundt 1980?",
+      "options": [
+        "Alta-saken",
+        "Unionsoppløsningen",
+        "EU-avstemningen",
+        "Oljefunnet"
+      ],
+      "correct": 0,
+      "explain": "Protestene var mot en demning i Altaelva."
+    },
+    {
+      "id": "q06",
+      "text": "Når ble Sametinget åpnet?",
+      "options": [
+        "1905",
+        "1945",
+        "2005",
+        "1989"
+      ],
+      "correct": 3,
+      "explain": "Sameloven kom i 1987."
+    },
+    {
+      "id": "q07",
+      "text": "Hva sier Grunnloven § 108?",
+      "options": [
+        "At norsk er eneste offisielle språk",
+        "At staten skal legge til rette for samisk språk, kultur og samfunnsliv",
+        "At samer ikke har egne rettigheter",
+        "At alle må lære nynorsk"
+      ],
+      "correct": 1,
+      "explain": "Paragrafen ble vedtatt i 1988."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en konsekvens av fornorskingen?",
+      "options": [
+        "At flere lærte samisk",
+        "At samisk ble offisielt språk i hele Norge",
+        "At samisk gikk tapt i mange familier",
+        "At samer fikk mer land"
+      ],
+      "correct": 2,
+      "explain": "Mange sluttet å snakke samisk med barna sine."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken dato er samenes nasjonaldag?",
+      "options": [
+        "17. mai",
+        "6. februar",
+        "1. mai",
+        "24. oktober"
+      ],
+      "correct": 1,
+      "explain": "Dagen minner om det første samiske landsmøtet i Trondheim i 1917."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er revitalisering av et språk?",
+      "options": [
+        "Arbeid for å gi et truet språk nytt liv",
+        "Å forby et språk",
+        "Å oversette et språk",
+        "Å lage en ny dialekt"
+      ],
+      "correct": 0,
+      "explain": "Barnehager, skoler og medier er viktige verktøy."
+    }
   ],
   "mindmap": {
     "label": "Samiske språk",
     "children": [
-      { "label": "Språkene", "children": [
-        { "label": "Finsk-ugriske" },
-        { "label": "Nordsamisk" },
-        { "label": "Lulesamisk" },
-        { "label": "Sørsamisk" }
-      ] },
-      { "label": "Fornorsking", "children": [
-        { "label": "Finnefondet 1851" },
-        { "label": "Wexelsen-plakaten 1898" },
-        { "label": "Internatskoler" },
-        { "label": "Jordsalgsloven 1902" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Språktap" },
-        { "label": "Skam" }
-      ] },
-      { "label": "Vendepunkt", "children": [
-        { "label": "Alta-saken" },
-        { "label": "Sameloven og Sametinget" },
-        { "label": "Grunnloven § 108" },
-        { "label": "ILO 169" }
-      ] },
-      { "label": "I dag", "children": [
-        { "label": "Forvaltningsområdet" },
-        { "label": "Opplæring på samisk" },
-        { "label": "Revitalisering" },
-        { "label": "Sannhetskommisjonen" }
-      ] }
+      {
+        "label": "Språkene",
+        "children": [
+          {
+            "label": "Finsk-ugriske"
+          },
+          {
+            "label": "Nordsamisk"
+          },
+          {
+            "label": "Lulesamisk"
+          },
+          {
+            "label": "Sørsamisk"
+          }
+        ]
+      },
+      {
+        "label": "Fornorsking",
+        "children": [
+          {
+            "label": "Finnefondet 1851"
+          },
+          {
+            "label": "Wexelsen-plakaten 1898"
+          },
+          {
+            "label": "Internatskoler"
+          },
+          {
+            "label": "Jordsalgsloven 1902"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Språktap"
+          },
+          {
+            "label": "Skam"
+          }
+        ]
+      },
+      {
+        "label": "Vendepunkt",
+        "children": [
+          {
+            "label": "Alta-saken"
+          },
+          {
+            "label": "Sameloven og Sametinget"
+          },
+          {
+            "label": "Grunnloven § 108"
+          },
+          {
+            "label": "ILO 169"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Forvaltningsområdet"
+          },
+          {
+            "label": "Opplæring på samisk"
+          },
+          {
+            "label": "Revitalisering"
+          },
+          {
+            "label": "Sannhetskommisjonen"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Norge var det første landet som ratifiserte ILO-konvensjon nr. 169.", "correct": true, "explain": "Norge ratifiserte konvensjonen i 1990." },
-      { "id": "m02", "type": "sant-usant", "text": "Fornorskingspolitikken rammet bare samer.", "correct": false, "explain": "Også kvener ble rammet av fornorskingen." },
-      { "id": "m03", "type": "sant-usant", "text": "Samiske elever har rett til opplæring i og på samisk.", "correct": true, "explain": "Retten er slått fast i opplæringsloven." },
-      { "id": "m04", "type": "sant-usant", "text": "Samisk er i nær slekt med norsk.", "correct": false, "explain": "Samisk er finsk-ugrisk, norsk er germansk." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er Sápmi?", "options": ["Samenes område i Norge, Sverige, Finland og Russland", "En samisk by", "Sametingets bygning", "En samisk høytid"], "correct": 0, "explain": "Sápmi strekker seg over fire land." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket år la Sannhets- og forsoningskommisjonen fram rapporten sin?", "options": ["1989", "2005", "2023", "1917"], "correct": 2, "explain": "Rapporten handlet om fornorskingen og urett mot samer, kvener/norskfinner og skogfinner." },
-      { "id": "m07", "type": "flervalg", "text": "Hvor brukes sørsamisk?", "options": ["Bare i Finnmark", "Fra Saltfjellet og sørover", "Bare i Russland", "Bare i Oslo"], "correct": 1, "explain": "Sørsamisk brukes i et stort område, men har få brukere." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Norge var det første landet som ratifiserte ILO-konvensjon nr. 169.",
+        "correct": true,
+        "explain": "Norge ratifiserte konvensjonen i 1990."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Fornorskingspolitikken rammet bare samer.",
+        "correct": false,
+        "explain": "Også kvener ble rammet av fornorskingen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Samiske elever har rett til opplæring i og på samisk.",
+        "correct": true,
+        "explain": "Retten er slått fast i opplæringsloven."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Samisk er i nær slekt med norsk.",
+        "correct": false,
+        "explain": "Samisk er finsk-ugrisk, norsk er germansk."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er Sápmi?",
+        "options": [
+          "Samenes område i Norge, Sverige, Finland og Russland",
+          "En samisk by",
+          "Sametingets bygning",
+          "En samisk høytid"
+        ],
+        "correct": 0,
+        "explain": "Sápmi strekker seg over fire land."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket år la Sannhets- og forsoningskommisjonen fram rapporten sin?",
+        "options": [
+          "1989",
+          "2005",
+          "2023",
+          "1917"
+        ],
+        "correct": 2,
+        "explain": "Rapporten handlet om fornorskingen og urett mot samer, kvener/norskfinner og skogfinner."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvor brukes sørsamisk?",
+        "options": [
+          "Bare i Finnmark",
+          "Fra Saltfjellet og sørover",
+          "Bare i Russland",
+          "Bare i Oslo"
+        ],
+        "correct": 1,
+        "explain": "Sørsamisk brukes i et stort område, men har få brukere."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Samene har levd i Sápmi før dagens statsgrenser ble trukket. Forklar hvorfor dette gjør at samene regnes som et urfolk.",
+        "fasit": "Et urfolk er et folk som bodde i et område før dagens statsgrenser ble trukket. Samene regnes derfor som urfolk fordi de har levd i Sápmi lenge før grensene mellom Norge, Sverige, Finland og Russland ble trukket.",
+        "kriterier": [
+          "Forklarer at urfolk bodde i området før dagens statsgrenser.",
+          "Knytter dette til samenes lange tilknytning til Sápmi."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign Finnefondet og Jordsalgsloven fra 1902. Hvordan skulle hvert av dem bidra til at norsk språk fikk en sterkere stilling?",
+        "fasit": "Finnefondet skulle fremme norsk språk blant samer og kvener. Jordsalgsloven gjorde det i praksis nødvendig å kunne norsk for å kjøpe jord i Finnmark.",
+        "kriterier": [
+          "Forklarer at Finnefondet skulle fremme norsk blant samer og kvener.",
+          "Forklarer at Jordsalgsloven knyttet norskkunnskaper til muligheten for å kjøpe jord i Finnmark."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Mange barn kunne ikke snakke samisk på internatskoler under fornorskingspolitikken. Forklar hvordan dette kunne føre til at samisk gikk tapt i familier og områder.",
+        "fasit": "Når barn ikke fikk bruke samisk på skolen, kunne de få mindre anledning til å bruke språket. Mange sluttet etter hvert å snakke samisk med barna sine, og slik kunne språket forsvinne i flere familier og områder.",
+        "kriterier": [
+          "Knytter begrenset bruk av samisk på skolen til mindre bruk eller videreføring av språket.",
+          "Forklarer at språket kunne gå tapt når foreldre sluttet å snakke samisk med barna sine."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Norske myndigheter førte tidligere en politikk for å gjøre samer norske i språk og kultur. Forklar hvordan statens rolle overfor samisk språk kommer annerledes fram i Grunnloven § 108.",
+        "fasit": "Fornorskingspolitikken skulle gjøre samer norske i språk og kultur. Grunnloven § 108 sier i stedet at staten skal legge til rette for at samene kan sikre og utvikle språket, kulturen og samfunnslivet sitt.",
+        "kriterier": [
+          "Får fram at fornorskingspolitikken presset fram norsk språk og kultur.",
+          "Forklarer at staten etter § 108 skal legge til rette for å sikre og utvikle samisk språk, kultur og samfunnsliv."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En samisk elev ønsker å få opplæring på samisk. Hvilken rett har eleven, og hva er forskjellen på opplæring i og på samisk?",
+        "fasit": "Samiske elever har rett til opplæring i og på samisk. Opplæring i samisk betyr å lære språket, mens opplæring på samisk betyr at samisk brukes som undervisningsspråk.",
+        "kriterier": [
+          "Slår fast at samiske elever har rett til opplæring både i og på samisk.",
+          "Skiller mellom å lære samisk og å få undervisning på samisk."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign områdene der lulesamisk og sørsamisk brukes. Nevn hvor hvert av språkene hører hjemme.",
+        "fasit": "Lulesamisk brukes i området rundt Tysfjord i Nordland. Sørsamisk brukes fra Saltfjellet og sørover til Engerdal i Innlandet.",
+        "kriterier": [
+          "Plasserer lulesamisk rundt Tysfjord i Nordland.",
+          "Plasserer sørsamisk fra Saltfjellet og sørover til Engerdal i Innlandet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et lokalsamfunn vil styrke et samisk språk som har få brukere. Foreslå ett tiltak for å revitalisere språket, og forklar hvordan tiltaket kan bidra.",
+        "fasit": "Lokalsamfunnet kan opprette eller støtte et språksenter. Der kan folk bruke og lære språket, noe som kan bidra til å gi det nytt liv.",
+        "kriterier": [
+          "Foreslår et tiltak nevnt i oppgaven, for eksempel barnehage, skole, språksenter, medier eller litteratur.",
+          "Forklarer hvordan tiltaket kan gi flere mulighet til å bruke eller lære språket."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En kommune lager et nytt kart og setter opp skilt med stedsnavn. Hva skal kommunen gjøre med samiske stedsnavn, og hvor skal de brukes?",
+        "fasit": "Samiske stedsnavn skal brukes på skilt og kart. Kommunen bør derfor ta dem med både på de nye skiltene og på kartet.",
+        "kriterier": [
+          "Slår fast at samiske stedsnavn skal brukes.",
+          "Nevner både skilt og kart."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

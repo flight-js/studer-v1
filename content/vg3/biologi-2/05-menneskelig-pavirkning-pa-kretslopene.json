@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Menneskelig påvirkning på kretsløpene",
   "intro": "Hvordan menneskelig aktivitet påvirker karbon-, nitrogen- og fosforkretsløpet – fossilt brensel, avskoging, drenering av myr, kunstgjødsel, overgjødsling, havforsuring og oksygensvinn – og hvilke tiltak som kan bidra til å ivareta kretsløpene.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Mennesket som geologisk kraft\n\nMenneskelig aktivitet flytter i dag så store mengder **karbon**, **nitrogen** og **fosfor** at vi har endret de globale **kretsløpene**. Mange forskere mener vi har gått inn i en ny tidsalder – **antropocen**.\n\n## Karbonkretsløpet\n\n**Påvirkning**:\n\n- **Forbrenning** av kull, olje og gass frigjør karbon som har vært lagret i millioner av år.\n- **Avskoging** og **drenering av myr** frigjør karbon fra plantene og jorda.\n- **Sement**produksjon gir også CO₂-utslipp.\n\n**Følger**:\n\n- Mer CO₂ i atmosfæren forsterker **drivhuseffekten** og gir **global oppvarming**.\n- Havet tar opp mye av CO₂-en. Det gir **havforsuring**, som gjør det vanskeligere for **koraller**, **skjell** og **plankton** å bygge **kalkskall**.\n\n## Nitrogenkretsløpet\n\n**Påvirkning**:\n\n- **Kunstgjødsel** laget i **Haber–Bosch-prosessen** har mer enn **fordoblet** mengden nitrogen som tilføres naturen.\n- **Forbrenning** gir **nitrogenoksider** som bidrar til **sur nedbør** og luftforurensning.\n- **Husdyrgjødsel** og **avløp** tilfører mye nitrogen.\n\n**Følger**:\n\n- **Overgjødsling** – **eutrofiering** – av innsjøer og kystvann gir **algeoppblomstring**. Når algene dør og brytes ned, brukes oksygenet opp, og det oppstår **døde soner** uten oksygen.\n- **Lystgass** (N₂O) fra gjødslet jord er en kraftig **drivhusgass**.\n- Nitrat kan **forurense drikkevann**.\n- Arter som tåler mye næring, **fortrenger** andre, og **artsmangfoldet** går ned.\n\n## Fosforkretsløpet\n\n**Påvirkning**:\n\n- Fosfor **utvinnes** fra gruver til kunstgjødsel og havner til slutt i vann og sedimenter.\n- **Avrenning** fra jordbruk og **avløp** fører fosfor ut i innsjøer.\n\n**Følger**:\n\n- Fosfor bidrar sterkt til **eutrofiering** i ferskvann, der det ofte er den **begrensende** faktoren.\n- **Fosforreservene** er **begrenset**, så dagens bruk er ikke bærekraftig på lang sikt.\n\n## Tiltak\n\n**Karbon**:\n\n- overgang til **fornybar energi** og **energieffektivisering**\n- **bevaring** av skog og **myr**, og restaurering av drenerte myrer\n- **karbonfangst og -lagring**\n- mindre **matsvinn** og mer **plantebasert** kost\n\n**Nitrogen og fosfor**:\n\n- **presis** gjødsling – riktig mengde til riktig tid\n- **kantsoner** med vegetasjon langs bekker som fanger opp avrenning\n- bedre **rensing** av avløpsvann\n- **gjenvinning** av fosfor fra avløpsslam og matavfall\n- **fangvekster** som tar opp næring etter innhøsting\n\n**Internasjonalt**: **Parisavtalen** for klima og avtaler om **luftforurensning** har redusert **sur nedbør** i Europa kraftig – et eksempel på at samarbeid virker.\n\n## Å drøfte tiltak\n\nTiltak har **kostnader** og kan skape **interessekonflikter**, for eksempel mellom **matproduksjon** og vern av vassdrag, eller mellom **vindkraft** og vern av natur. God drøfting veier **effekt**, **kostnad** og **rettferdighet** – og ser på hva **enkeltpersoner**, **næringsliv** og **myndigheter** kan gjøre.",
   "flashcards": [
-    { "term": "Antropocen", "def": "Tidsalder der mennesket er den viktigste kraften som endrer jorda." },
-    { "term": "Drivhuseffekt", "def": "Gasser i atmosfæren holder på varme." },
-    { "term": "Havforsuring", "def": "Havets pH synker når det tar opp mye CO₂." },
-    { "term": "Drenering av myr", "def": "Frigjør karbon som har vært lagret i torven." },
-    { "term": "Kunstgjødsel", "def": "Industrielt nitrogen og fosfor som tilføres jorda." },
-    { "term": "Eutrofiering", "def": "Overgjødsling av vann som gir algeoppblomstring." },
-    { "term": "Algeoppblomstring", "def": "Kraftig vekst av alger ved mye næring." },
-    { "term": "Døde soner", "def": "Områder uten oksygen etter nedbrytning av alger." },
-    { "term": "Lystgass", "def": "N₂O – kraftig drivhusgass fra gjødslet jord." },
-    { "term": "Sur nedbør", "def": "Nedbør forsuret av svovel- og nitrogenoksider." },
-    { "term": "Fosforreserver", "def": "Begrensede forekomster av fosfor som utvinnes." },
-    { "term": "Kantsone", "def": "Vegetasjon langs bekker som fanger opp avrenning." },
-    { "term": "Fangvekster", "def": "Planter som tar opp næring etter innhøsting." },
-    { "term": "Karbonfangst og -lagring", "def": "CO₂ fanges og lagres, for eksempel under havbunnen." },
-    { "term": "Presis gjødsling", "def": "Riktig mengde gjødsel til riktig tid." }
+    {
+      "term": "Antropocen",
+      "def": "Tidsalder der mennesket er den viktigste kraften som endrer jorda."
+    },
+    {
+      "term": "Drivhuseffekt",
+      "def": "Gasser i atmosfæren holder på varme."
+    },
+    {
+      "term": "Havforsuring",
+      "def": "Havets pH synker når det tar opp mye CO₂."
+    },
+    {
+      "term": "Drenering av myr",
+      "def": "Frigjør karbon som har vært lagret i torven."
+    },
+    {
+      "term": "Kunstgjødsel",
+      "def": "Industrielt nitrogen og fosfor som tilføres jorda."
+    },
+    {
+      "term": "Eutrofiering",
+      "def": "Overgjødsling av vann som gir algeoppblomstring."
+    },
+    {
+      "term": "Algeoppblomstring",
+      "def": "Kraftig vekst av alger ved mye næring."
+    },
+    {
+      "term": "Døde soner",
+      "def": "Områder uten oksygen etter nedbrytning av alger."
+    },
+    {
+      "term": "Lystgass",
+      "def": "N₂O – kraftig drivhusgass fra gjødslet jord."
+    },
+    {
+      "term": "Sur nedbør",
+      "def": "Nedbør forsuret av svovel- og nitrogenoksider."
+    },
+    {
+      "term": "Fosforreserver",
+      "def": "Begrensede forekomster av fosfor som utvinnes."
+    },
+    {
+      "term": "Kantsone",
+      "def": "Vegetasjon langs bekker som fanger opp avrenning."
+    },
+    {
+      "term": "Fangvekster",
+      "def": "Planter som tar opp næring etter innhøsting."
+    },
+    {
+      "term": "Karbonfangst og -lagring",
+      "def": "CO₂ fanges og lagres, for eksempel under havbunnen."
+    },
+    {
+      "term": "Presis gjødsling",
+      "def": "Riktig mengde gjødsel til riktig tid."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva frigjør karbon som har vært lagret i millioner av år?", "options": ["Fotosyntese", "Forbrenning av fossile brensler", "Nitrogenfiksering", "Transpirasjon"], "correct": 1, "explain": "Kull, olje og gass." },
-    { "id": "q02", "text": "Hva er eutrofiering?", "options": ["Overgjødsling av vann som gir algeoppblomstring", "Forsuring av jord", "Avskoging", "Tørke"], "correct": 0, "explain": "Kan gi døde soner." },
-    { "id": "q03", "text": "Hvorfor oppstår døde soner i havet?", "options": ["Fordi vannet blir for kaldt", "Fordi det blir for mye salt", "Fordi nedbrytning av døde alger bruker opp oksygenet", "Fordi fisken spiser alt"], "correct": 2, "explain": "En følge av overgjødsling." },
-    { "id": "q04", "text": "Hvilken drivhusgass kommer fra gjødslet jord?", "options": ["Oksygen", "Nitrogen", "Vanndamp alene", "Lystgass"], "correct": 3, "explain": "N₂O." },
-    { "id": "q05", "text": "Hva gjør havforsuring med skjell og koraller?", "options": ["Gjør det vanskeligere å bygge kalkskall", "Gjør skallene tykkere", "Ingenting", "Gjør dem større"], "correct": 0, "explain": "Kalk løses lettere i surere vann." },
-    { "id": "q06", "text": "Hva er en kantsone?", "options": ["En vei langs en elv", "Vegetasjon langs bekker som fanger opp avrenning", "En type gjødsel", "En demning"], "correct": 1, "explain": "Reduserer tap av næring til vann." },
-    { "id": "q07", "text": "Hvorfor er dagens fosforbruk ikke bærekraftig?", "options": ["Fosfor er en gass", "Fosfor er uendelig", "Fosforreservene er begrensede", "Fosfor er giftig"], "correct": 2, "explain": "Gjenvinning er viktig." },
-    { "id": "q08", "text": "Hvilket tiltak kan redusere utslipp av karbon fra jord?", "options": ["Drenere mer myr", "Hugge mer skog", "Brenne mer torv", "Bevare og restaurere myr"], "correct": 3, "explain": "Myr er et stort karbonlager." },
-    { "id": "q09", "text": "Hva viser reduksjonen i sur nedbør i Europa?", "options": ["At internasjonalt samarbeid kan virke", "At sur nedbør er ufarlig", "At naturen ikke påvirkes", "At tiltak aldri virker"], "correct": 0, "explain": "Avtaler om luftforurensning." },
-    { "id": "q10", "text": "Hva har Haber–Bosch-prosessen gjort med nitrogenkretsløpet?", "options": ["Redusert nitrogentilførselen", "Mer enn fordoblet mengden nitrogen som tilføres naturen", "Ingen endring", "Fjernet nitrogen fra lufta helt"], "correct": 1, "explain": "Gjennom kunstgjødsel." }
+    {
+      "id": "q01",
+      "text": "Hva frigjør karbon som har vært lagret i millioner av år?",
+      "options": [
+        "Fotosyntese",
+        "Forbrenning av fossile brensler",
+        "Nitrogenfiksering",
+        "Transpirasjon"
+      ],
+      "correct": 1,
+      "explain": "Kull, olje og gass."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er eutrofiering?",
+      "options": [
+        "Overgjødsling av vann som gir algeoppblomstring",
+        "Forsuring av jord",
+        "Avskoging",
+        "Tørke"
+      ],
+      "correct": 0,
+      "explain": "Kan gi døde soner."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor oppstår døde soner i havet?",
+      "options": [
+        "Fordi vannet blir for kaldt",
+        "Fordi det blir for mye salt",
+        "Fordi nedbrytning av døde alger bruker opp oksygenet",
+        "Fordi fisken spiser alt"
+      ],
+      "correct": 2,
+      "explain": "En følge av overgjødsling."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken drivhusgass kommer fra gjødslet jord?",
+      "options": [
+        "Oksygen",
+        "Nitrogen",
+        "Vanndamp alene",
+        "Lystgass"
+      ],
+      "correct": 3,
+      "explain": "N₂O."
+    },
+    {
+      "id": "q05",
+      "text": "Hva gjør havforsuring med skjell og koraller?",
+      "options": [
+        "Gjør det vanskeligere å bygge kalkskall",
+        "Gjør skallene tykkere",
+        "Ingenting",
+        "Gjør dem større"
+      ],
+      "correct": 0,
+      "explain": "Kalk løses lettere i surere vann."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en kantsone?",
+      "options": [
+        "En vei langs en elv",
+        "Vegetasjon langs bekker som fanger opp avrenning",
+        "En type gjødsel",
+        "En demning"
+      ],
+      "correct": 1,
+      "explain": "Reduserer tap av næring til vann."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er dagens fosforbruk ikke bærekraftig?",
+      "options": [
+        "Fosfor er en gass",
+        "Fosfor er uendelig",
+        "Fosforreservene er begrensede",
+        "Fosfor er giftig"
+      ],
+      "correct": 2,
+      "explain": "Gjenvinning er viktig."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket tiltak kan redusere utslipp av karbon fra jord?",
+      "options": [
+        "Drenere mer myr",
+        "Hugge mer skog",
+        "Brenne mer torv",
+        "Bevare og restaurere myr"
+      ],
+      "correct": 3,
+      "explain": "Myr er et stort karbonlager."
+    },
+    {
+      "id": "q09",
+      "text": "Hva viser reduksjonen i sur nedbør i Europa?",
+      "options": [
+        "At internasjonalt samarbeid kan virke",
+        "At sur nedbør er ufarlig",
+        "At naturen ikke påvirkes",
+        "At tiltak aldri virker"
+      ],
+      "correct": 0,
+      "explain": "Avtaler om luftforurensning."
+    },
+    {
+      "id": "q10",
+      "text": "Hva har Haber–Bosch-prosessen gjort med nitrogenkretsløpet?",
+      "options": [
+        "Redusert nitrogentilførselen",
+        "Mer enn fordoblet mengden nitrogen som tilføres naturen",
+        "Ingen endring",
+        "Fjernet nitrogen fra lufta helt"
+      ],
+      "correct": 1,
+      "explain": "Gjennom kunstgjødsel."
+    }
   ],
   "mindmap": {
     "label": "Menneskelig påvirkning",
     "children": [
-      { "label": "Karbon", "children": [
-        { "label": "Fossilt brensel" },
-        { "label": "Avskoging og myr" },
-        { "label": "Oppvarming og havforsuring" }
-      ] },
-      { "label": "Nitrogen", "children": [
-        { "label": "Kunstgjødsel" },
-        { "label": "Eutrofiering og døde soner" },
-        { "label": "Lystgass" }
-      ] },
-      { "label": "Fosfor", "children": [
-        { "label": "Avrenning og avløp" },
-        { "label": "Begrensede reserver" }
-      ] },
-      { "label": "Tiltak", "children": [
-        { "label": "Fornybar energi og myrvern" },
-        { "label": "Presis gjødsling og kantsoner" },
-        { "label": "Fosforgjenvinning" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Kostnader og konflikter" },
-        { "label": "Internasjonalt samarbeid" }
-      ] }
+      {
+        "label": "Karbon",
+        "children": [
+          {
+            "label": "Fossilt brensel"
+          },
+          {
+            "label": "Avskoging og myr"
+          },
+          {
+            "label": "Oppvarming og havforsuring"
+          }
+        ]
+      },
+      {
+        "label": "Nitrogen",
+        "children": [
+          {
+            "label": "Kunstgjødsel"
+          },
+          {
+            "label": "Eutrofiering og døde soner"
+          },
+          {
+            "label": "Lystgass"
+          }
+        ]
+      },
+      {
+        "label": "Fosfor",
+        "children": [
+          {
+            "label": "Avrenning og avløp"
+          },
+          {
+            "label": "Begrensede reserver"
+          }
+        ]
+      },
+      {
+        "label": "Tiltak",
+        "children": [
+          {
+            "label": "Fornybar energi og myrvern"
+          },
+          {
+            "label": "Presis gjødsling og kantsoner"
+          },
+          {
+            "label": "Fosforgjenvinning"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Kostnader og konflikter"
+          },
+          {
+            "label": "Internasjonalt samarbeid"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Nitrat kan forurense drikkevann.", "correct": true, "explain": "En følge av mye gjødsling." },
-      { "id": "m02", "type": "sant-usant", "text": "Fosfor har en gassfase som gjør at det spres raskt i atmosfæren.", "correct": false, "explain": "Fosfor har ingen gassfase." },
-      { "id": "m03", "type": "sant-usant", "text": "Overgjødsling kan redusere artsmangfoldet.", "correct": true, "explain": "Næringskrevende arter fortrenger andre." },
-      { "id": "m04", "type": "sant-usant", "text": "Havet tar ikke opp CO₂.", "correct": false, "explain": "Havet tar opp store mengder CO₂." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er fangvekster?", "options": ["Planter som fanger insekter", "Planter som tar opp næring etter innhøsting", "Ugress", "Trær"], "correct": 1, "explain": "Reduserer avrenning." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gir nitrogenoksider fra forbrenning?", "options": ["Sur nedbør og luftforurensning", "Renere luft", "Mer ozon i stratosfæren", "Mer oksygen"], "correct": 0, "explain": "Påvirker også helse." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket kostholdstiltak kan redusere påvirkningen på kretsløpene?", "options": ["Mer matsvinn", "Mer kjøtt", "Mindre matsvinn og mer plantebasert kost", "Mer importert mat alltid"], "correct": 2, "explain": "Mindre ressursbruk." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Nitrat kan forurense drikkevann.",
+        "correct": true,
+        "explain": "En følge av mye gjødsling."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Fosfor har en gassfase som gjør at det spres raskt i atmosfæren.",
+        "correct": false,
+        "explain": "Fosfor har ingen gassfase."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Overgjødsling kan redusere artsmangfoldet.",
+        "correct": true,
+        "explain": "Næringskrevende arter fortrenger andre."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Havet tar ikke opp CO₂.",
+        "correct": false,
+        "explain": "Havet tar opp store mengder CO₂."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er fangvekster?",
+        "options": [
+          "Planter som fanger insekter",
+          "Planter som tar opp næring etter innhøsting",
+          "Ugress",
+          "Trær"
+        ],
+        "correct": 1,
+        "explain": "Reduserer avrenning."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gir nitrogenoksider fra forbrenning?",
+        "options": [
+          "Sur nedbør og luftforurensning",
+          "Renere luft",
+          "Mer ozon i stratosfæren",
+          "Mer oksygen"
+        ],
+        "correct": 0,
+        "explain": "Påvirker også helse."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket kostholdstiltak kan redusere påvirkningen på kretsløpene?",
+        "options": [
+          "Mer matsvinn",
+          "Mer kjøtt",
+          "Mindre matsvinn og mer plantebasert kost",
+          "Mer importert mat alltid"
+        ],
+        "correct": 2,
+        "explain": "Mindre ressursbruk."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva menes med antropocen, og hvorfor mener mange forskere at mennesket har gjort jorda til en ny tidsalder?",
+        "fasit": "Antropocen er en tidsalder der mennesket er den viktigste kraften som endrer jorda. Menneskelig aktivitet flytter store mengder karbon, nitrogen og fosfor og endrer dermed de globale kretsløpene.",
+        "kriterier": [
+          "Forklarer at mennesket er den viktigste kraften som endrer jorda.",
+          "Knytter dette til at menneskelig aktivitet endrer globale kretsløp."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign lystgass og nitrogenoksider: Hvor kommer de fra, og hvilken miljøvirkning er knyttet til hver av dem?",
+        "fasit": "Lystgass kommer fra gjødslet jord og er en kraftig drivhusgass. Nitrogenoksider dannes ved forbrenning og bidrar til sur nedbør og luftforurensning.",
+        "kriterier": [
+          "Knytter lystgass fra gjødslet jord til sterk drivhuseffekt.",
+          "Knytter nitrogenoksider fra forbrenning til sur nedbør eller luftforurensning."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En myr dreneres. Forklar hvordan dette kan føre til global oppvarming.",
+        "fasit": "Drenering av myr frigjør karbon som har vært lagret i torven. Karbonet kan øke mengden CO₂ i atmosfæren, forsterke drivhuseffekten og bidra til global oppvarming.",
+        "kriterier": [
+          "Forklarer at drenering frigjør karbon lagret i torven.",
+          "Knytter økt CO₂ i atmosfæren til sterkere drivhuseffekt eller global oppvarming."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Etter innhøsting ligger en åker nær en bekk, og næringsstoffer kan føres med avrenning. Forklar hvordan fangvekster kan redusere mengden næringsstoffer som når bekken.",
+        "fasit": "Fangvekster tar opp næring etter innhøsting. Dermed blir mindre næring tilgjengelig for å bli ført bort med avrenning til bekken.",
+        "kriterier": [
+          "Forklarer at fangvekster tar opp næring etter innhøsting.",
+          "Knytter opptaket til at mindre næring kan føres ut i bekken med avrenning."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I mange innsjøer er fosfor den begrensende faktoren. Forklar hva det betyr, og hvordan mer fosfor kan påvirke algeveksten.",
+        "fasit": "At fosfor er begrensende, betyr at tilgangen på fosfor ofte setter grenser for veksten i innsjøen. Tilførsel av mer fosfor kan derfor bidra til økt algevekst og eutrofiering.",
+        "kriterier": [
+          "Forklarer at mengden fosfor kan begrense vekst fordi tilgangen på det er knapp.",
+          "Forklarer at økt fosfortilførsel kan øke algeveksten eller bidra til eutrofiering."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I et tenkt regneeksempel fanger karbonfangst og -lagring en tredel av 36 enheter CO₂. Hvor mange enheter blir ikke fanget? Vis det viktigste regnestykket.",
+        "fasit": "En tredel av 36 er 12 enheter. Da blir 36 − 12 = 24 enheter ikke fanget.",
+        "kriterier": [
+          "Beregner at en tredel av 36 er 12.",
+          "Finner at 24 enheter ikke blir fanget."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En innsjø får i et tenkt regneeksempel 12 enheter fosfor fra avrenning fra jordbruk og 8 fra avløp. Hvor stor prosentandel av den samlede fosfortilførselen kommer fra jordbruket? Nevn også én grunn til at fosfortilførsel til innsjøen kan være et problem.",
+        "fasit": "Til sammen kommer 20 enheter inn, og 12/20 = 3/5 = 60 prosent kommer fra jordbruket. Fosfor kan bidra sterkt til eutrofiering i ferskvann.",
+        "kriterier": [
+          "Regner ut at jordbruket står for 12 av 20 enheter, altså 60 prosent.",
+          "Nevner at fosfor kan bidra til eutrofiering i ferskvann."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En kommune vurderer vindkraft som del av en overgang til fornybar energi, men er også opptatt av å verne natur. Hvilke hensyn bør kommunen veie mot hverandre når den vurderer tiltaket?",
+        "fasit": "Kommunen bør vurdere tiltakets effekt, kostnad og rettferdighet. Den må også ta hensyn til interessekonflikten mellom vindkraft og vern av natur.",
+        "kriterier": [
+          "Nevner effekt, kostnad og rettferdighet som hensyn i vurderingen.",
+          "Forklarer konflikten mellom utbygging av vindkraft og vern av natur."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

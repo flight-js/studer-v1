@@ -4,81 +4,433 @@
   "trinnId": "vg1",
   "name": "Digitale spor, data og personvern",
   "intro": "Hvilke digitale spor vi etterlater, hvem som har tilgang til dem, hvordan data og personopplysninger brukes og misbrukes – fra målrettet reklame og algoritmer til overvåking og datalekkasjer – og hvilke rettigheter personvernloven gir deg.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Digitale spor\n\nNesten alt vi gjør på nett, etterlater **digitale spor**:\n\n- **Aktive spor**: det vi **bevisst** legger ut – bilder, kommentarer, likes og meldinger.\n- **Passive spor**: det som **samles inn** uten at vi tenker over det – posisjon, søk, hvilke videoer vi ser og hvor lenge, hvilke nettsider vi besøker, og data fra **informasjonskapsler** (cookies).\n\nSammen danner sporene et detaljert **digitalt fotavtrykk** som kan si mye om interesser, vaner, helse, politiske meninger og relasjoner.\n\n## Hvem har tilgang?\n\n- **Plattformer og apper** som samler inn data om brukerne\n- **Annonsører** og **databrokere** som kjøper og selger data\n- **Myndigheter**, for eksempel politiet med rettslig kjennelse, eller etterretningstjenester\n- **Andre brukere** som kan se, lagre og dele det du legger ut\n- **Kriminelle** som stjeler data gjennom hacking, svindel og **datalekkasjer**\n\n## Bruk av data\n\nData brukes til mye **nyttig**: kart og navigasjon, anbefalinger, forskning og bedre offentlige tjenester. Men mange tjenester er «gratis» fordi **vi betaler med dataene våre**. De brukes til\n\n- **målrettet reklame**\n- **algoritmer** som bestemmer hva vi ser, og som kan skape **ekkokamre**\n- **profilering** – for eksempel vurdering av kredittverdighet\n\n## Misbruk av data\n\n- **Cambridge Analytica-skandalen** (2018) viste hvordan data fra millioner av Facebook-brukere ble brukt til politisk påvirkning uten samtykke.\n- **Identitetstyveri** og **svindel**.\n- **Overvåking** – i autoritære stater brukes digital overvåking og ansiktsgjenkjenning til å kontrollere befolkningen.\n- **Deling av bilder** og informasjon om andre uten samtykke, **hets** og **doxing** (å publisere private opplysninger om noen).\n\n## Personvern og rettigheter\n\nI Norge og EU gjelder **personvernforordningen (GDPR)**, som ble innført gjennom **personopplysningsloven** i **2018**. Du har blant annet rett til\n\n- **innsyn** – å få vite hvilke opplysninger en virksomhet har om deg\n- **retting** av feil\n- **sletting** («retten til å bli glemt») i mange tilfeller\n- å **trekke tilbake samtykke**\n\nVirksomheter må ha et **lovlig grunnlag** for å behandle personopplysninger. **Datatilsynet** fører tilsyn og kan gi store bøter.\n\n## Hva kan du gjøre?\n\n- Tenk før du **deler** – det du legger ut, kan bli liggende.\n- Sjekk **personverninnstillinger** og hvilke **tillatelser** apper har.\n- Bruk **sterke passord** og **tofaktorautentisering**.\n- Vær kritisk til **lenker** og forespørsler om personopplysninger.\n- Respekter **andres** personvern.\n\n## Drøfting\n\nDigitalisering reiser vanskelige spørsmål: Hvor går grensen mellom **sikkerhet** og **personvern**? Bør sosiale medier ha **høyere aldersgrense**? Hvem bør eie dataene våre? Svarene avhenger av hvilke **verdier** vi vektlegger.",
   "flashcards": [
-    { "term": "Digitale spor", "def": "Informasjon vi etterlater når vi bruker digitale tjenester." },
-    { "term": "Aktive spor", "def": "Det vi bevisst legger ut, som bilder og kommentarer." },
-    { "term": "Passive spor", "def": "Data som samles inn uten at vi tenker over det, som posisjon og søk." },
-    { "term": "Informasjonskapsler (cookies)", "def": "Små filer som lagrer informasjon om nettbruken vår." },
-    { "term": "Databroker", "def": "Selskap som kjøper og selger data om personer." },
-    { "term": "Målrettet reklame", "def": "Reklame tilpasset den enkelte ut fra dataene deres." },
-    { "term": "Algoritme", "def": "Regler som bestemmer hva vi får se i en tjeneste." },
-    { "term": "Ekkokammer", "def": "At man bare møter meninger man allerede er enig i." },
-    { "term": "Cambridge Analytica", "def": "Skandale fra 2018 der Facebook-data ble brukt til politisk påvirkning uten samtykke." },
-    { "term": "Identitetstyveri", "def": "At noen bruker dine personopplysninger for å utgi seg for å være deg." },
-    { "term": "Doxing", "def": "Å publisere private opplysninger om noen på nett." },
-    { "term": "GDPR", "def": "EUs personvernforordning, gjeldende i Norge fra 2018." },
-    { "term": "Innsynsrett", "def": "Rett til å vite hvilke opplysninger en virksomhet har om deg." },
-    { "term": "Retten til å bli glemt", "def": "Rett til sletting av personopplysninger i mange tilfeller." },
-    { "term": "Datatilsynet", "def": "Myndigheten som fører tilsyn med personvernet i Norge." }
+    {
+      "term": "Digitale spor",
+      "def": "Informasjon vi etterlater når vi bruker digitale tjenester."
+    },
+    {
+      "term": "Aktive spor",
+      "def": "Det vi bevisst legger ut, som bilder og kommentarer."
+    },
+    {
+      "term": "Passive spor",
+      "def": "Data som samles inn uten at vi tenker over det, som posisjon og søk."
+    },
+    {
+      "term": "Informasjonskapsler (cookies)",
+      "def": "Små filer som lagrer informasjon om nettbruken vår."
+    },
+    {
+      "term": "Databroker",
+      "def": "Selskap som kjøper og selger data om personer."
+    },
+    {
+      "term": "Målrettet reklame",
+      "def": "Reklame tilpasset den enkelte ut fra dataene deres."
+    },
+    {
+      "term": "Algoritme",
+      "def": "Regler som bestemmer hva vi får se i en tjeneste."
+    },
+    {
+      "term": "Ekkokammer",
+      "def": "At man bare møter meninger man allerede er enig i."
+    },
+    {
+      "term": "Cambridge Analytica",
+      "def": "Skandale fra 2018 der Facebook-data ble brukt til politisk påvirkning uten samtykke."
+    },
+    {
+      "term": "Identitetstyveri",
+      "def": "At noen bruker dine personopplysninger for å utgi seg for å være deg."
+    },
+    {
+      "term": "Doxing",
+      "def": "Å publisere private opplysninger om noen på nett."
+    },
+    {
+      "term": "GDPR",
+      "def": "EUs personvernforordning, gjeldende i Norge fra 2018."
+    },
+    {
+      "term": "Innsynsrett",
+      "def": "Rett til å vite hvilke opplysninger en virksomhet har om deg."
+    },
+    {
+      "term": "Retten til å bli glemt",
+      "def": "Rett til sletting av personopplysninger i mange tilfeller."
+    },
+    {
+      "term": "Datatilsynet",
+      "def": "Myndigheten som fører tilsyn med personvernet i Norge."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er et passivt digitalt spor?", "options": ["Et bilde du legger ut", "Data om posisjonen din som samles inn automatisk", "En kommentar du skriver", "En melding du sender"], "correct": 1, "explain": "Passive spor samles inn uten at vi tenker over det." },
-    { "id": "q02", "text": "Hvorfor er mange digitale tjenester gratis?", "options": ["Fordi vi betaler med dataene våre", "Fordi staten betaler", "Fordi de ikke tjener penger", "Fordi de er laget av frivillige"], "correct": 0, "explain": "Dataene brukes blant annet til målrettet reklame." },
-    { "id": "q03", "text": "Hva handlet Cambridge Analytica-skandalen om?", "options": ["Et datavirus", "En falsk nettbutikk", "Facebook-data brukt til politisk påvirkning uten samtykke", "En passordlekkasje fra en bank"], "correct": 2, "explain": "Skandalen ble kjent i 2018." },
-    { "id": "q04", "text": "Hvilken rettighet gir GDPR deg?", "options": ["Rett til å se andres data", "Rett til gratis internett", "Rett til å slette andres innlegg", "Rett til innsyn i hvilke opplysninger en virksomhet har om deg"], "correct": 3, "explain": "Du har også rett til retting og ofte sletting." },
-    { "id": "q05", "text": "Hvem fører tilsyn med personvernet i Norge?", "options": ["Datatilsynet", "Forbrukerrådet", "NRK", "Politiet"], "correct": 0, "explain": "Datatilsynet kan gi store bøter ved brudd." },
-    { "id": "q06", "text": "Hva er et ekkokammer?", "options": ["Et rom med ekko", "At man bare møter meninger man allerede er enig i", "En type datalekkasje", "En chattetjeneste"], "correct": 1, "explain": "Algoritmer kan forsterke ekkokamre." },
-    { "id": "q07", "text": "Hva er doxing?", "options": ["Å lage en ny konto", "Å slette data", "Å publisere private opplysninger om noen på nett", "Å bruke tofaktorautentisering"], "correct": 2, "explain": "Doxing brukes ofte som hets eller trusler." },
-    { "id": "q08", "text": "Hvilket tiltak beskytter kontoene dine best?", "options": ["Samme passord overalt", "Å dele passordet med venner", "Å skrive passordet i bioen", "Sterke passord og tofaktorautentisering"], "correct": 3, "explain": "Tofaktor gjør det mye vanskeligere å bryte seg inn." },
-    { "id": "q09", "text": "Hva er målrettet reklame?", "options": ["Reklame tilpasset den enkelte ut fra dataene deres", "Reklame på TV", "Reklame på plakater", "Reklame uten bilder"], "correct": 0, "explain": "Dataene om hva du ser og søker på, styrer reklamen." },
-    { "id": "q10", "text": "Hvilket dilemma er sentralt i debatten om digital overvåking?", "options": ["Pris og kvalitet", "Sikkerhet og personvern", "Fart og nøyaktighet", "Musikk og film"], "correct": 1, "explain": "Mer overvåking kan gi mer sikkerhet, men mindre personvern." }
+    {
+      "id": "q01",
+      "text": "Hva er et passivt digitalt spor?",
+      "options": [
+        "Et bilde du legger ut",
+        "Data om posisjonen din som samles inn automatisk",
+        "En kommentar du skriver",
+        "En melding du sender"
+      ],
+      "correct": 1,
+      "explain": "Passive spor samles inn uten at vi tenker over det."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor er mange digitale tjenester gratis?",
+      "options": [
+        "Fordi vi betaler med dataene våre",
+        "Fordi staten betaler",
+        "Fordi de ikke tjener penger",
+        "Fordi de er laget av frivillige"
+      ],
+      "correct": 0,
+      "explain": "Dataene brukes blant annet til målrettet reklame."
+    },
+    {
+      "id": "q03",
+      "text": "Hva handlet Cambridge Analytica-skandalen om?",
+      "options": [
+        "Et datavirus",
+        "En falsk nettbutikk",
+        "Facebook-data brukt til politisk påvirkning uten samtykke",
+        "En passordlekkasje fra en bank"
+      ],
+      "correct": 2,
+      "explain": "Skandalen ble kjent i 2018."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken rettighet gir GDPR deg?",
+      "options": [
+        "Rett til å se andres data",
+        "Rett til gratis internett",
+        "Rett til å slette andres innlegg",
+        "Rett til innsyn i hvilke opplysninger en virksomhet har om deg"
+      ],
+      "correct": 3,
+      "explain": "Du har også rett til retting og ofte sletting."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem fører tilsyn med personvernet i Norge?",
+      "options": [
+        "Datatilsynet",
+        "Forbrukerrådet",
+        "NRK",
+        "Politiet"
+      ],
+      "correct": 0,
+      "explain": "Datatilsynet kan gi store bøter ved brudd."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er et ekkokammer?",
+      "options": [
+        "Et rom med ekko",
+        "At man bare møter meninger man allerede er enig i",
+        "En type datalekkasje",
+        "En chattetjeneste"
+      ],
+      "correct": 1,
+      "explain": "Algoritmer kan forsterke ekkokamre."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er doxing?",
+      "options": [
+        "Å lage en ny konto",
+        "Å slette data",
+        "Å publisere private opplysninger om noen på nett",
+        "Å bruke tofaktorautentisering"
+      ],
+      "correct": 2,
+      "explain": "Doxing brukes ofte som hets eller trusler."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket tiltak beskytter kontoene dine best?",
+      "options": [
+        "Samme passord overalt",
+        "Å dele passordet med venner",
+        "Å skrive passordet i bioen",
+        "Sterke passord og tofaktorautentisering"
+      ],
+      "correct": 3,
+      "explain": "Tofaktor gjør det mye vanskeligere å bryte seg inn."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er målrettet reklame?",
+      "options": [
+        "Reklame tilpasset den enkelte ut fra dataene deres",
+        "Reklame på TV",
+        "Reklame på plakater",
+        "Reklame uten bilder"
+      ],
+      "correct": 0,
+      "explain": "Dataene om hva du ser og søker på, styrer reklamen."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket dilemma er sentralt i debatten om digital overvåking?",
+      "options": [
+        "Pris og kvalitet",
+        "Sikkerhet og personvern",
+        "Fart og nøyaktighet",
+        "Musikk og film"
+      ],
+      "correct": 1,
+      "explain": "Mer overvåking kan gi mer sikkerhet, men mindre personvern."
+    }
   ],
   "mindmap": {
     "label": "Digitale spor og personvern",
     "children": [
-      { "label": "Spor", "children": [
-        { "label": "Aktive" },
-        { "label": "Passive" },
-        { "label": "Cookies" }
-      ] },
-      { "label": "Tilgang", "children": [
-        { "label": "Plattformer" },
-        { "label": "Annonsører" },
-        { "label": "Myndigheter" },
-        { "label": "Kriminelle" }
-      ] },
-      { "label": "Bruk og misbruk", "children": [
-        { "label": "Målrettet reklame" },
-        { "label": "Algoritmer" },
-        { "label": "Cambridge Analytica" },
-        { "label": "Overvåking" }
-      ] },
-      { "label": "Rettigheter", "children": [
-        { "label": "GDPR" },
-        { "label": "Innsyn og sletting" },
-        { "label": "Datatilsynet" }
-      ] },
-      { "label": "Egne valg", "children": [
-        { "label": "Tenk før du deler" },
-        { "label": "Innstillinger" },
-        { "label": "Sterke passord" }
-      ] }
+      {
+        "label": "Spor",
+        "children": [
+          {
+            "label": "Aktive"
+          },
+          {
+            "label": "Passive"
+          },
+          {
+            "label": "Cookies"
+          }
+        ]
+      },
+      {
+        "label": "Tilgang",
+        "children": [
+          {
+            "label": "Plattformer"
+          },
+          {
+            "label": "Annonsører"
+          },
+          {
+            "label": "Myndigheter"
+          },
+          {
+            "label": "Kriminelle"
+          }
+        ]
+      },
+      {
+        "label": "Bruk og misbruk",
+        "children": [
+          {
+            "label": "Målrettet reklame"
+          },
+          {
+            "label": "Algoritmer"
+          },
+          {
+            "label": "Cambridge Analytica"
+          },
+          {
+            "label": "Overvåking"
+          }
+        ]
+      },
+      {
+        "label": "Rettigheter",
+        "children": [
+          {
+            "label": "GDPR"
+          },
+          {
+            "label": "Innsyn og sletting"
+          },
+          {
+            "label": "Datatilsynet"
+          }
+        ]
+      },
+      {
+        "label": "Egne valg",
+        "children": [
+          {
+            "label": "Tenk før du deler"
+          },
+          {
+            "label": "Innstillinger"
+          },
+          {
+            "label": "Sterke passord"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Du kan ha rett til å få slettet personopplysninger om deg.", "correct": true, "explain": "Det kalles ofte retten til å bli glemt." },
-      { "id": "m02", "type": "sant-usant", "text": "Det du sletter på nett, er alltid borte for godt.", "correct": false, "explain": "Andre kan ha lagret eller delt innholdet." },
-      { "id": "m03", "type": "sant-usant", "text": "Data kan brukes til nyttige formål som navigasjon og forskning.", "correct": true, "explain": "Data har både nyttige og problematiske bruksområder." },
-      { "id": "m04", "type": "sant-usant", "text": "Virksomheter kan behandle personopplysninger fritt uten noe grunnlag.", "correct": false, "explain": "De må ha et lovlig grunnlag etter personvernreglene." },
-      { "id": "m05", "type": "flervalg", "text": "Når ble GDPR innført i Norge?", "options": ["2008", "2018", "2022", "1998"], "correct": 1, "explain": "Den ble innført gjennom personopplysningsloven." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gjør en databroker?", "options": ["Kjøper og selger data om personer", "Reparerer datamaskiner", "Lager nettsider", "Passer på personvernet"], "correct": 0, "explain": "Dataene brukes blant annet til reklame." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan brukes digital overvåking i autoritære stater?", "options": ["Til å gi innbyggerne mer frihet", "Bare til trafikkstyring", "Til å kontrollere befolkningen", "Ikke i det hele tatt"], "correct": 2, "explain": "For eksempel ansiktsgjenkjenning og overvåking av meldinger." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Du kan ha rett til å få slettet personopplysninger om deg.",
+        "correct": true,
+        "explain": "Det kalles ofte retten til å bli glemt."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Det du sletter på nett, er alltid borte for godt.",
+        "correct": false,
+        "explain": "Andre kan ha lagret eller delt innholdet."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Data kan brukes til nyttige formål som navigasjon og forskning.",
+        "correct": true,
+        "explain": "Data har både nyttige og problematiske bruksområder."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Virksomheter kan behandle personopplysninger fritt uten noe grunnlag.",
+        "correct": false,
+        "explain": "De må ha et lovlig grunnlag etter personvernreglene."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Når ble GDPR innført i Norge?",
+        "options": [
+          "2008",
+          "2018",
+          "2022",
+          "1998"
+        ],
+        "correct": 1,
+        "explain": "Den ble innført gjennom personopplysningsloven."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gjør en databroker?",
+        "options": [
+          "Kjøper og selger data om personer",
+          "Reparerer datamaskiner",
+          "Lager nettsider",
+          "Passer på personvernet"
+        ],
+        "correct": 0,
+        "explain": "Dataene brukes blant annet til reklame."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan brukes digital overvåking i autoritære stater?",
+        "options": [
+          "Til å gi innbyggerne mer frihet",
+          "Bare til trafikkstyring",
+          "Til å kontrollere befolkningen",
+          "Ikke i det hele tatt"
+        ],
+        "correct": 2,
+        "explain": "For eksempel ansiktsgjenkjenning og overvåking av meldinger."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Mina legger ut et bilde selv, mens en app registrerer posisjonen hennes uten at hun tenker over det. Sammenlign de to digitale sporene.",
+        "fasit": "Bildet er et aktivt spor fordi Mina bevisst legger det ut. Posisjonen er et passivt spor fordi appen samler den inn uten at hun tenker over det.",
+        "kriterier": [
+          "Skiller mellom noe Mina bevisst deler og noe som samles inn uten at hun tenker over det.",
+          "Knytter de to eksemplene riktig til aktive og passive spor."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Flere spor fra nettbruken til en person blir samlet over tid. Forklar hvordan dette kan gi andre et detaljert bilde av personen, og nevn to ting sporene kan si noe om.",
+        "fasit": "Spor fra ulike aktiviteter kan settes sammen til et digitalt fotavtrykk som viser mønstre i personens liv. Det kan for eksempel si noe om interessene og vanene, helsen eller de politiske meningene til personen.",
+        "kriterier": [
+          "Forklarer at flere spor samlet kan danne et detaljert digitalt fotavtrykk.",
+          "Nevner minst to relevante forhold sporene kan si noe om, for eksempel interesser, vaner, helse, politiske meninger eller relasjoner."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En plattform samler inn data om brukerne sine, mens et annet selskap kjøper og selger data om personer. Sammenlign hvilken rolle plattformen og selskapet har.",
+        "fasit": "Plattformen samler inn data om dem som bruker tjenesten. Selskapet som kjøper og selger data, er en databroker.",
+        "kriterier": [
+          "Forklarer at plattformen samler inn brukerdata.",
+          "Forklarer at databrokeren kjøper og selger data om personer."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En tjeneste bruker en algoritme til å velge hvilke innlegg en bruker får se. Forklar hvordan dette kan føre til et ekkokammer.",
+        "fasit": "Algoritmen bestemmer hva brukeren får se. Hvis brukeren dermed hovedsakelig møter meninger hen allerede er enig i, kan det bli et ekkokammer.",
+        "kriterier": [
+          "Forklarer at algoritmen påvirker eller bestemmer hva brukeren ser.",
+          "Knytter dette til at brukeren hovedsakelig møter meninger hen allerede er enig i."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Nevn én nyttig måte data kan brukes på, og forklar hvilken nytte den kan ha for mennesker eller samfunnet.",
+        "fasit": "Data kan brukes til kart og navigasjon, slik at mennesker kan finne fram. De kan også brukes i forskning eller bidra til bedre offentlige tjenester.",
+        "kriterier": [
+          "Nevner en relevant nyttig bruk av data, som kart og navigasjon, anbefalinger, forskning eller offentlige tjenester.",
+          "Forklarer en konkret nytte ved den valgte bruken."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En virksomhet har lagret opplysninger om deg, og du tror at én av opplysningene er feil. Hvilke to personvernrettigheter kan du bruke for å undersøke og få rettet opplysningen?",
+        "fasit": "Du kan bruke innsynsretten for å få vite hvilke opplysninger virksomheten har om deg. Du kan også be om at den feilaktige opplysningen blir rettet.",
+        "kriterier": [
+          "Knytter innsynsrett til å få vite hvilke opplysninger virksomheten har.",
+          "Knytter retten til retting til å få korrigert en feil opplysning."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Noen bruker personopplysningene til en annen person for å utgi seg for å være denne personen. Hva kalles dette, og hva kjennetegner det?",
+        "fasit": "Dette kalles identitetstyveri. Det kjennetegnes ved at noen bruker en annen persons personopplysninger for å utgi seg for å være dem.",
+        "kriterier": [
+          "Identifiserer situasjonen som identitetstyveri.",
+          "Forklarer at personopplysninger brukes til å utgi seg for å være en annen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En app ber om tillatelser som brukeren ikke forstår eller tror er nødvendige. Hva kan brukeren gjøre for å ta bedre vare på personvernet sitt, og hvorfor er det relevant?",
+        "fasit": "Brukeren kan sjekke hvilke tillatelser appen har, og vurdere om de bør endres. Da kan brukeren ta mer kontroll over hvilke opplysninger appen får tilgang til.",
+        "kriterier": [
+          "Foreslår å sjekke eller endre appens tillatelser eller personverninnstillinger.",
+          "Forklarer at dette handler om å begrense eller få kontroll over appens tilgang til opplysninger."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

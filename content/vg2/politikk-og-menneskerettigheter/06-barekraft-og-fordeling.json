@@ -4,77 +4,421 @@
   "trinnId": "vg2",
   "name": "Bærekraft og fordeling i politikken",
   "intro": "Dagsaktuelle problemstillinger om bærekraft og fordeling – klimapolitikk, olje og energi, ulikhet i Norge og globalt, fordeling mellom generasjoner og hvordan partiene ser på avveiningene.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Tre dimensjoner\n\n**Bærekraftig utvikling** handler om å dekke dagens behov uten å ødelegge mulighetene for framtidige generasjoner. Den har tre dimensjoner – **miljø**, **sosial** og **økonomi** – som ofte kommer i **konflikt** med hverandre. Derfor er bærekraft et **politisk** spørsmål.\n\nFN vedtok i **2015** de **17 bærekraftsmålene** med frist i **2030**.\n\n## Klimapolitikk\n\n- **Parisavtalen** (2015): Verdens land ble enige om å begrense oppvarmingen til godt under **2 °C**, og helst **1,5 °C**. Hvert land melder inn egne mål.\n- **Norges mål**: å kutte utslippene med minst **55 %** innen 2030 og **70–75 %** innen 2035 sammenlignet med 1990, og å bli et **lavutslippssamfunn** innen 2050. Målene står i **klimaloven**.\n- **Virkemidler**: **avgifter** på utslipp, **kvotehandel**, **forbud** og **påbud**, **subsidier** til elbiler og ny teknologi, og **forskning**.\n\n## Olje, gass og energi\n\nOlje og gass har gjort Norge **rikt**. Inntektene går til **Statens pensjonsfond utland** (oljefondet), og etter **handlingsregelen** kan staten over tid bruke omtrent **3 %** av fondet hvert år.\n\nDebatten handler om\n\n- **hvor raskt** oljevirksomheten skal trappes ned\n- **arbeidsplasser** og **distrikter** som er avhengige av næringen\n- **Europas energisikkerhet** etter Russlands angrep på Ukraina\n- **naturinngrep** ved utbygging av **vindkraft**, **kraftlinjer** og **vannkraft**\n\n## Fordeling i Norge\n\nNorge har **lav** inntektsulikhet sammenlignet med de fleste land, men ulikheten i **formue** er stor, og den har økt. Politiske virkemidler for fordeling er\n\n- **progressiv skatt**, der de med høy inntekt betaler en større andel\n- **formuesskatt** og **arveavgift** (arveavgiften ble fjernet i 2014)\n- **velferdsordninger** som barnetrygd, gratis skole og helsetjenester\n- **lønnsdannelse** gjennom trepartssamarbeidet\n\nPartiene er uenige om hvor mye som skal **omfordeles**, og hvordan skatt påvirker **arbeid** og **investeringer**.\n\n## Global fordeling\n\n- De **rikeste** landene har stått for størstedelen av de **historiske** utslippene, mens **fattige** land ofte rammes hardest av klimaendringene.\n- **Bistand**, **gjeldslette** og **klimafinansiering** er virkemidler.\n- Rettferdig **handel** og **arbeidsforhold** i globale verdikjeder.\n\n## Fordeling mellom generasjoner\n\n- Å spare oljeinntekter i fondet er en måte å dele rikdommen med **framtidige** generasjoner.\n- Utslipp i dag gir **kostnader** for de som kommer etter oss.\n- En **aldrende befolkning** gir økte utgifter til pensjon og omsorg.\n\n## Dilemmaer\n\n- **Klimaavgifter** kan ramme folk med **lav inntekt** og lang reisevei hardest – hvordan kan klimapolitikken bli **rettferdig**?\n- **Vindkraft** gir fornybar energi, men beslaglegger **natur** og kan krenke **urfolks rettigheter**.\n- **Arbeidsplasser** i dag mot **klima** i morgen.\n\nNår du drøfter, vis **ulike aktørers** interesser og verdier, bruk **fakta**, og vei hensynene mot hverandre.",
   "flashcards": [
-    { "term": "Bærekraftig utvikling", "def": "Dekke dagens behov uten å ødelegge for framtidige generasjoner." },
-    { "term": "FNs bærekraftsmål", "def": "17 mål vedtatt i 2015 med frist i 2030." },
-    { "term": "Parisavtalen", "def": "2015 – begrense oppvarmingen til godt under 2 °C, helst 1,5 °C." },
-    { "term": "Norges klimamål for 2030", "def": "Minst 55 % kutt fra 1990-nivå." },
-    { "term": "Klimaloven", "def": "Lov som fastsetter Norges klimamål." },
-    { "term": "Kvotehandel", "def": "Utslippstillatelser som kan kjøpes og selges." },
-    { "term": "Statens pensjonsfond utland", "def": "Oljefondet, der oljeinntektene spares." },
-    { "term": "Handlingsregelen", "def": "Staten kan over tid bruke omtrent 3 % av fondet per år." },
-    { "term": "Progressiv skatt", "def": "De med høy inntekt betaler en større andel." },
-    { "term": "Formuesskatt", "def": "Skatt på formue over et visst beløp." },
-    { "term": "Omfordeling", "def": "At staten flytter ressurser fra noen grupper til andre." },
-    { "term": "Klimafinansiering", "def": "Støtte fra rike land til klimatiltak i fattige land." },
-    { "term": "Generasjonsrettferdighet", "def": "Rettferdig fordeling mellom dagens og framtidige generasjoner." },
-    { "term": "Energisikkerhet", "def": "Sikker tilgang på energi." },
-    { "term": "Rettferdig omstilling", "def": "Klimapolitikk som ikke rammer de svakeste hardest." }
+    {
+      "term": "Bærekraftig utvikling",
+      "def": "Dekke dagens behov uten å ødelegge for framtidige generasjoner."
+    },
+    {
+      "term": "FNs bærekraftsmål",
+      "def": "17 mål vedtatt i 2015 med frist i 2030."
+    },
+    {
+      "term": "Parisavtalen",
+      "def": "2015 – begrense oppvarmingen til godt under 2 °C, helst 1,5 °C."
+    },
+    {
+      "term": "Norges klimamål for 2030",
+      "def": "Minst 55 % kutt fra 1990-nivå."
+    },
+    {
+      "term": "Klimaloven",
+      "def": "Lov som fastsetter Norges klimamål."
+    },
+    {
+      "term": "Kvotehandel",
+      "def": "Utslippstillatelser som kan kjøpes og selges."
+    },
+    {
+      "term": "Statens pensjonsfond utland",
+      "def": "Oljefondet, der oljeinntektene spares."
+    },
+    {
+      "term": "Handlingsregelen",
+      "def": "Staten kan over tid bruke omtrent 3 % av fondet per år."
+    },
+    {
+      "term": "Progressiv skatt",
+      "def": "De med høy inntekt betaler en større andel."
+    },
+    {
+      "term": "Formuesskatt",
+      "def": "Skatt på formue over et visst beløp."
+    },
+    {
+      "term": "Omfordeling",
+      "def": "At staten flytter ressurser fra noen grupper til andre."
+    },
+    {
+      "term": "Klimafinansiering",
+      "def": "Støtte fra rike land til klimatiltak i fattige land."
+    },
+    {
+      "term": "Generasjonsrettferdighet",
+      "def": "Rettferdig fordeling mellom dagens og framtidige generasjoner."
+    },
+    {
+      "term": "Energisikkerhet",
+      "def": "Sikker tilgang på energi."
+    },
+    {
+      "term": "Rettferdig omstilling",
+      "def": "Klimapolitikk som ikke rammer de svakeste hardest."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er målet i Parisavtalen?", "options": ["Å øke oljeproduksjonen", "Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C", "Å stanse all handel", "Å avskaffe FN"], "correct": 1, "explain": "Vedtatt i 2015." },
-    { "id": "q02", "text": "Hva sier handlingsregelen?", "options": ["At staten over tid kan bruke omtrent 3 % av oljefondet per år", "At alt av oljefondet skal brukes", "At oljefondet skal deles ut til alle", "At oljeutvinningen skal stanse"], "correct": 0, "explain": "For å spare til framtiden." },
-    { "id": "q03", "text": "Hva er progressiv skatt?", "options": ["At alle betaler samme beløp", "At de med lav inntekt betaler mest", "At de med høy inntekt betaler en større andel", "At bedrifter slipper skatt"], "correct": 2, "explain": "Et virkemiddel for omfordeling." },
-    { "id": "q04", "text": "Hvorfor kan klimaavgifter reise fordelingsspørsmål?", "options": ["Fordi de gjelder bare rike", "Fordi de er gratis", "Fordi de ikke påvirker noen", "Fordi de kan ramme folk med lav inntekt og lang reisevei hardest"], "correct": 3, "explain": "Rettferdig omstilling." },
-    { "id": "q05", "text": "Hvilket klimamål har Norge for 2030?", "options": ["Minst 55 % kutt fra 1990-nivå", "10 % kutt", "Ingen mål", "Å doble utslippene"], "correct": 0, "explain": "Fastsatt i klimaloven." },
-    { "id": "q06", "text": "Hvilket dilemma knytter seg til vindkraft?", "options": ["At den gir mer utslipp", "At den gir fornybar energi, men beslaglegger natur", "At den er forbudt", "At den ikke gir strøm"], "correct": 1, "explain": "Og kan krenke urfolks rettigheter." },
-    { "id": "q07", "text": "Hvem rammes ofte hardest av klimaendringene globalt?", "options": ["De rikeste landene", "Oljeselskapene", "Fattige land som har bidratt minst til utslippene", "Ingen"], "correct": 2, "explain": "Et globalt fordelingsproblem." },
-    { "id": "q08", "text": "Hvordan kan oljefondet ses som fordeling mellom generasjoner?", "options": ["Fordi pengene brukes opp i dag", "Fordi fondet gir penger bare til eldre", "Fordi fondet er hemmelig", "Fordi rikdommen spares og deles med framtidige generasjoner"], "correct": 3, "explain": "Generasjonsrettferdighet." },
-    { "id": "q09", "text": "Hva er større i Norge – inntektsulikheten eller formuesulikheten?", "options": ["Formuesulikheten", "Inntektsulikheten", "De er like", "Det finnes ingen ulikhet"], "correct": 0, "explain": "Formue er skjevere fordelt." },
-    { "id": "q10", "text": "Hvilket virkemiddel er kvotehandel?", "options": ["Et forbud", "Et markedsbasert klimavirkemiddel der utslippstillatelser kjøpes og selges", "En type bistand", "En valgordning"], "correct": 1, "explain": "Gir en pris på utslipp." }
+    {
+      "id": "q01",
+      "text": "Hva er målet i Parisavtalen?",
+      "options": [
+        "Å øke oljeproduksjonen",
+        "Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C",
+        "Å stanse all handel",
+        "Å avskaffe FN"
+      ],
+      "correct": 1,
+      "explain": "Vedtatt i 2015."
+    },
+    {
+      "id": "q02",
+      "text": "Hva sier handlingsregelen?",
+      "options": [
+        "At staten over tid kan bruke omtrent 3 % av oljefondet per år",
+        "At alt av oljefondet skal brukes",
+        "At oljefondet skal deles ut til alle",
+        "At oljeutvinningen skal stanse"
+      ],
+      "correct": 0,
+      "explain": "For å spare til framtiden."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er progressiv skatt?",
+      "options": [
+        "At alle betaler samme beløp",
+        "At de med lav inntekt betaler mest",
+        "At de med høy inntekt betaler en større andel",
+        "At bedrifter slipper skatt"
+      ],
+      "correct": 2,
+      "explain": "Et virkemiddel for omfordeling."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor kan klimaavgifter reise fordelingsspørsmål?",
+      "options": [
+        "Fordi de gjelder bare rike",
+        "Fordi de er gratis",
+        "Fordi de ikke påvirker noen",
+        "Fordi de kan ramme folk med lav inntekt og lang reisevei hardest"
+      ],
+      "correct": 3,
+      "explain": "Rettferdig omstilling."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket klimamål har Norge for 2030?",
+      "options": [
+        "Minst 55 % kutt fra 1990-nivå",
+        "10 % kutt",
+        "Ingen mål",
+        "Å doble utslippene"
+      ],
+      "correct": 0,
+      "explain": "Fastsatt i klimaloven."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilket dilemma knytter seg til vindkraft?",
+      "options": [
+        "At den gir mer utslipp",
+        "At den gir fornybar energi, men beslaglegger natur",
+        "At den er forbudt",
+        "At den ikke gir strøm"
+      ],
+      "correct": 1,
+      "explain": "Og kan krenke urfolks rettigheter."
+    },
+    {
+      "id": "q07",
+      "text": "Hvem rammes ofte hardest av klimaendringene globalt?",
+      "options": [
+        "De rikeste landene",
+        "Oljeselskapene",
+        "Fattige land som har bidratt minst til utslippene",
+        "Ingen"
+      ],
+      "correct": 2,
+      "explain": "Et globalt fordelingsproblem."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan kan oljefondet ses som fordeling mellom generasjoner?",
+      "options": [
+        "Fordi pengene brukes opp i dag",
+        "Fordi fondet gir penger bare til eldre",
+        "Fordi fondet er hemmelig",
+        "Fordi rikdommen spares og deles med framtidige generasjoner"
+      ],
+      "correct": 3,
+      "explain": "Generasjonsrettferdighet."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er større i Norge – inntektsulikheten eller formuesulikheten?",
+      "options": [
+        "Formuesulikheten",
+        "Inntektsulikheten",
+        "De er like",
+        "Det finnes ingen ulikhet"
+      ],
+      "correct": 0,
+      "explain": "Formue er skjevere fordelt."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket virkemiddel er kvotehandel?",
+      "options": [
+        "Et forbud",
+        "Et markedsbasert klimavirkemiddel der utslippstillatelser kjøpes og selges",
+        "En type bistand",
+        "En valgordning"
+      ],
+      "correct": 1,
+      "explain": "Gir en pris på utslipp."
+    }
   ],
   "mindmap": {
     "label": "Bærekraft og fordeling",
     "children": [
-      { "label": "Bærekraft", "children": [
-        { "label": "Tre dimensjoner" },
-        { "label": "FNs 17 mål" }
-      ] },
-      { "label": "Klima", "children": [
-        { "label": "Parisavtalen" },
-        { "label": "Norges mål" },
-        { "label": "Virkemidler" }
-      ] },
-      { "label": "Olje og energi", "children": [
-        { "label": "Oljefondet" },
-        { "label": "Handlingsregelen" },
-        { "label": "Vindkraft og natur" }
-      ] },
-      { "label": "Fordeling", "children": [
-        { "label": "Inntekt og formue" },
-        { "label": "Skatt og velferd" },
-        { "label": "Globalt" }
-      ] },
-      { "label": "Generasjoner og dilemmaer", "children": [
-        { "label": "Framtidige generasjoner" },
-        { "label": "Rettferdig omstilling" }
-      ] }
+      {
+        "label": "Bærekraft",
+        "children": [
+          {
+            "label": "Tre dimensjoner"
+          },
+          {
+            "label": "FNs 17 mål"
+          }
+        ]
+      },
+      {
+        "label": "Klima",
+        "children": [
+          {
+            "label": "Parisavtalen"
+          },
+          {
+            "label": "Norges mål"
+          },
+          {
+            "label": "Virkemidler"
+          }
+        ]
+      },
+      {
+        "label": "Olje og energi",
+        "children": [
+          {
+            "label": "Oljefondet"
+          },
+          {
+            "label": "Handlingsregelen"
+          },
+          {
+            "label": "Vindkraft og natur"
+          }
+        ]
+      },
+      {
+        "label": "Fordeling",
+        "children": [
+          {
+            "label": "Inntekt og formue"
+          },
+          {
+            "label": "Skatt og velferd"
+          },
+          {
+            "label": "Globalt"
+          }
+        ]
+      },
+      {
+        "label": "Generasjoner og dilemmaer",
+        "children": [
+          {
+            "label": "Framtidige generasjoner"
+          },
+          {
+            "label": "Rettferdig omstilling"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "De tre dimensjonene av bærekraft kan komme i konflikt med hverandre.", "correct": true, "explain": "Derfor er bærekraft et politisk spørsmål." },
-      { "id": "m02", "type": "sant-usant", "text": "Norge har høyere inntektsulikhet enn de fleste land.", "correct": false, "explain": "Norge har lav inntektsulikhet sammenlignet med de fleste land." },
-      { "id": "m03", "type": "sant-usant", "text": "Partiene er uenige om hvor mye som skal omfordeles.", "correct": true, "explain": "En sentral høyre–venstre-konflikt." },
-      { "id": "m04", "type": "sant-usant", "text": "FNs bærekraftsmål ble vedtatt i 1990.", "correct": false, "explain": "De ble vedtatt i 2015." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket virkemiddel er et forbud eller påbud?", "options": ["Kvotehandel", "Krav om nullutslipp for nye ferger", "Skattefradrag", "Bistand"], "correct": 1, "explain": "Direkte regulering." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er Statens pensjonsfond utland?", "options": ["Oljefondet", "En pensjonskasse for statsansatte", "Et fond for bistand", "Norges Banks valutareserve alene"], "correct": 0, "explain": "Der oljeinntektene spares." },
-      { "id": "m07", "type": "flervalg", "text": "Hva gjorde energisikkerhet i Europa mer aktuelt etter 2022?", "options": ["Brexit", "Finanskrisen", "Russlands angrep på Ukraina", "Covid-19"], "correct": 2, "explain": "Europa ble mindre avhengig av russisk gass." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "De tre dimensjonene av bærekraft kan komme i konflikt med hverandre.",
+        "correct": true,
+        "explain": "Derfor er bærekraft et politisk spørsmål."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Norge har høyere inntektsulikhet enn de fleste land.",
+        "correct": false,
+        "explain": "Norge har lav inntektsulikhet sammenlignet med de fleste land."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Partiene er uenige om hvor mye som skal omfordeles.",
+        "correct": true,
+        "explain": "En sentral høyre–venstre-konflikt."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "FNs bærekraftsmål ble vedtatt i 1990.",
+        "correct": false,
+        "explain": "De ble vedtatt i 2015."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket virkemiddel er et forbud eller påbud?",
+        "options": [
+          "Kvotehandel",
+          "Krav om nullutslipp for nye ferger",
+          "Skattefradrag",
+          "Bistand"
+        ],
+        "correct": 1,
+        "explain": "Direkte regulering."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er Statens pensjonsfond utland?",
+        "options": [
+          "Oljefondet",
+          "En pensjonskasse for statsansatte",
+          "Et fond for bistand",
+          "Norges Banks valutareserve alene"
+        ],
+        "correct": 0,
+        "explain": "Der oljeinntektene spares."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva gjorde energisikkerhet i Europa mer aktuelt etter 2022?",
+        "options": [
+          "Brexit",
+          "Finanskrisen",
+          "Russlands angrep på Ukraina",
+          "Covid-19"
+        ],
+        "correct": 2,
+        "explain": "Europa ble mindre avhengig av russisk gass."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva bærekraftig utvikling betyr, og hvorfor det er viktig å ta hensyn til framtidige generasjoner.",
+        "fasit": "Bærekraftig utvikling betyr å dekke dagens behov uten å ødelegge mulighetene for framtidige generasjoner. Det krever at vi tenker på konsekvensene dagens valg får senere.",
+        "kriterier": [
+          "Forklarer at dagens behov skal dekkes uten å svekke framtidige generasjoners muligheter.",
+          "Får fram at dagens valg kan få konsekvenser for dem som kommer etter oss."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Miljøhensyn, sosiale hensyn og økonomiske hensyn kan komme i konflikt når politikken utformes. Forklar hvorfor dette gjør bærekraft til et politisk spørsmål.",
+        "fasit": "Politikere må veie hensyn som miljø, sosial fordeling og økonomi mot hverandre når de bestemmer hvilke tiltak som skal gjennomføres. Ulike valg kan derfor gagne noen interesser og gå på bekostning av andre.",
+        "kriterier": [
+          "Viser at de tre dimensjonene kan trekke i ulike retninger.",
+          "Forklarer at politiske valg må veie interesser eller hensyn mot hverandre."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign Parisavtalen og Norges klimalov når det gjelder hvordan klimamål blir fastsatt.",
+        "fasit": "I Parisavtalen melder hvert land inn egne klimamål. Norges klimamål er fastsatt i klimaloven.",
+        "kriterier": [
+          "Får fram at landene selv melder inn mål under Parisavtalen.",
+          "Får fram at Norges klimamål står i klimaloven."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Myndighetene vil redusere utslipp ved å gjøre det dyrere å slippe ut klimagasser. Hvilket virkemiddel passer til dette, og hvordan kan det bidra til utslippskutt?",
+        "fasit": "En utslippsavgift passer. Når utslipp blir dyrere, kan det gi virksomheter og personer et insentiv til å redusere utslippene.",
+        "kriterier": [
+          "Velger avgift på utslipp som virkemiddel.",
+          "Forklarer at økte kostnader kan gi insentiv til å kutte utslipp."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign progressiv skatt og formuesskatt: Hva er det som avgjør hvem som betaler hver av disse skattene?",
+        "fasit": "Med progressiv skatt betaler personer med høyere inntekt en større andel i skatt. Formuesskatt betales på formue over et visst beløp.",
+        "kriterier": [
+          "Knytter progressiv skatt til inntekt og en større skatteandel for dem med høy inntekt.",
+          "Knytter formuesskatt til hvor stor formue en har."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Rike land har stått for størstedelen av de historiske utslippene, mens fattige land ofte rammes hardest av klimaendringene. Forklar hvordan klimafinansiering kan bidra til en mer rettferdig global fordeling.",
+        "fasit": "Klimafinansiering er støtte fra rike land til klimatiltak i fattige land. Slik støtte kan bidra til at land som ofte rammes hardt, får hjelp til å møte klimaendringene.",
+        "kriterier": [
+          "Forklarer at klimafinansiering er støtte fra rike til fattige land.",
+          "Knytter støtten til klimatiltak eller til å møte klimaendringene i fattige land."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En regjering vurderer å spare oljeinntektene i fondet i stedet for å bruke alt med én gang. Forklar hvordan sparingen kan fremme rettferdighet mellom generasjoner, og hvordan utslipp i dag kan utfordre den.",
+        "fasit": "Når oljeinntekter spares i fondet, kan også framtidige generasjoner få del i rikdommen. Utslipp i dag kan føre til kostnader for dem som kommer etter oss.",
+        "kriterier": [
+          "Forklarer at sparing i fondet deler oljeinntekter eller rikdom med framtidige generasjoner.",
+          "Forklarer at utslipp nå kan påføre framtidige generasjoner kostnader."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Norge diskuterer hvor raskt oljevirksomheten skal trappes ned. Forklar hvordan hensynet til arbeidsplasser og distrikter, Europas energisikkerhet og klimahensyn kan trekke politiske valg i ulike retninger.",
+        "fasit": "Arbeidsplasser i oljevirksomheten og distrikter som er avhengige av næringen, kan tale for å trappe ned sakte. Hensynet til Europas energisikkerhet kan også tale for fortsatt energiproduksjon, mens klimahensyn kan tale for raskere nedtrapping.",
+        "kriterier": [
+          "Forklarer hvordan arbeidsplasser eller distrikter kan være et hensyn for å videreføre oljevirksomhet.",
+          "Får fram at energisikkerhet og klimahensyn kan trekke i ulike retninger når tempoet for nedtrapping vurderes."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

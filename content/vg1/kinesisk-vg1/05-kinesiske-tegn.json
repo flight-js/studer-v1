@@ -4,76 +4,420 @@
   "trinnId": "vg1",
   "name": "Kinesiske tegn",
   "intro": "Hvordan kinesiske tegn er bygd opp – piktogrammer, sammensatte tegn og radikaler – strekrekkefølge, forenklede og tradisjonelle tegn, og strategier for å lære, lese og skrive tegn.",
-  "kompetansemaal": [6, 4, 7],
+  "kompetansemaal": [
+    6,
+    4,
+    7
+  ],
   "sammendrag": "## Hva er kinesiske tegn?\n\nKinesisk skrives med **tegn** – **汉字** *hànzì*. Hvert tegn står vanligvis for **én stavelse** og har en **betydning**. Mange ord består av to tegn: 中国 *Zhōngguó* (Kina) = 中 (midt) + 国 (land) – «Midtens rike». For å lese en avis trenger man å kunne noen tusen tegn, men med noen hundre kommer man langt.\n\n## Piktogrammer – bildetegn\n\nNoen av de eldste tegnene var opprinnelig **bilder** av det de betyr:\n\n| Tegn | Pinyin | Betydning |\n| --- | --- | --- |\n| 人 | rén | menneske |\n| 山 | shān | fjell |\n| 日 | rì | sol, dag |\n| 月 | yuè | måne, måned |\n| 木 | mù | tre |\n| 口 | kǒu | munn |\n| 水 | shuǐ | vann |\n| 火 | huǒ | ild |\n\n## Sammensatte tegn\n\nMange tegn er satt sammen av **enklere deler**:\n\n- 木 + 木 = **林** *lín* – skog (to trær)\n- 木 + 木 + 木 = **森** *sēn* – tett skog\n- 亻(menneske) + 木 = **休** *xiū* – hvile (en person som lener seg mot et tre)\n- 女 (kvinne) + 子 (barn) = **好** *hǎo* – god\n- 日 + 月 = **明** *míng* – lys, klar\n\n## Radikaler\n\nDe fleste tegn har en **radikal** – en del som ofte sier noe om **betydningen** – og en del som ofte gir et hint om **uttalen**.\n\n- **氵** (vann): 河 *hé* (elv), 海 *hǎi* (hav), 喝 har derimot munn-radikalen 口 fordi det handler om å drikke\n- **亻** (menneske): 你 *nǐ* (du), 他 *tā* (han)\n- **女** (kvinne): 妈 *mā* (mor), 她 *tā* (hun), 姐 *jiě* (eldre søster)\n- **口** (munn): 吃 *chī* (spise), 喝 *hē* (drikke)\n\nI 妈 *mā* gir 女 betydningen (kvinne) og 马 *mǎ* uttalen.\n\n## Strekrekkefølge\n\nTegn skrives med **strek** i en fast rekkefølge:\n\n- **ovenfra og ned**\n- **fra venstre mot høyre**\n- **vannrett** før **loddrett** (for eksempel i 十)\n- **ytre** del før **indre**, men bunnen i en «boks» lukkes til slutt (口)\n\nRiktig strekrekkefølge gjør tegnene penere og lettere å huske – og gjør at håndskrivingsgjenkjenning på mobilen fungerer.\n\n## Forenklede og tradisjonelle tegn\n\nPå 1950-tallet innførte Kina **forenklede tegn** – **简体字** *jiǎntǐzì* – med færre streker. De brukes i **Kina** og **Singapore**. **Taiwan**, **Hongkong** og **Macao** bruker **tradisjonelle tegn** – **繁体字** *fántǐzì*. Eksempel: 马 (forenklet) – 馬 (tradisjonell), begge betyr hest.\n\n## Strategier\n\n- Lær **radikalene** – de gjør nye tegn lettere å forstå.\n- Lag **huskehistorier**: 休 = en person som hviler mot et tre.\n- Skriv tegnene **for hånd** flere ganger.\n- Bruk **ordbok-apper** der du kan tegne eller skrive pinyin for å finne tegn.\n- Les **korte, tilpassede tekster** med pinyin over tegnene.",
   "flashcards": [
-    { "term": "汉字 hànzì", "def": "kinesiske tegn" },
-    { "term": "人 rén", "def": "menneske" },
-    { "term": "山 shān", "def": "fjell" },
-    { "term": "日 rì", "def": "sol, dag" },
-    { "term": "月 yuè", "def": "måne, måned" },
-    { "term": "木 mù", "def": "tre" },
-    { "term": "水 shuǐ", "def": "vann" },
-    { "term": "林 lín", "def": "skog (to trær)" },
-    { "term": "休 xiū", "def": "hvile (person ved et tre)" },
-    { "term": "好 hǎo", "def": "god (kvinne + barn)" },
-    { "term": "明 míng", "def": "lys, klar (sol + måne)" },
-    { "term": "氵", "def": "vann-radikalen, som i 河 og 海" },
-    { "term": "亻", "def": "menneske-radikalen, som i 你 og 他" },
-    { "term": "简体字 jiǎntǐzì", "def": "forenklede tegn (Kina og Singapore)" },
-    { "term": "繁体字 fántǐzì", "def": "tradisjonelle tegn (Taiwan, Hongkong, Macao)" }
+    {
+      "term": "汉字 hànzì",
+      "def": "kinesiske tegn"
+    },
+    {
+      "term": "人 rén",
+      "def": "menneske"
+    },
+    {
+      "term": "山 shān",
+      "def": "fjell"
+    },
+    {
+      "term": "日 rì",
+      "def": "sol, dag"
+    },
+    {
+      "term": "月 yuè",
+      "def": "måne, måned"
+    },
+    {
+      "term": "木 mù",
+      "def": "tre"
+    },
+    {
+      "term": "水 shuǐ",
+      "def": "vann"
+    },
+    {
+      "term": "林 lín",
+      "def": "skog (to trær)"
+    },
+    {
+      "term": "休 xiū",
+      "def": "hvile (person ved et tre)"
+    },
+    {
+      "term": "好 hǎo",
+      "def": "god (kvinne + barn)"
+    },
+    {
+      "term": "明 míng",
+      "def": "lys, klar (sol + måne)"
+    },
+    {
+      "term": "氵",
+      "def": "vann-radikalen, som i 河 og 海"
+    },
+    {
+      "term": "亻",
+      "def": "menneske-radikalen, som i 你 og 他"
+    },
+    {
+      "term": "简体字 jiǎntǐzì",
+      "def": "forenklede tegn (Kina og Singapore)"
+    },
+    {
+      "term": "繁体字 fántǐzì",
+      "def": "tradisjonelle tegn (Taiwan, Hongkong, Macao)"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr 山 shān?", "options": ["vann", "fjell", "tre", "sol"], "correct": 1, "explain": "Tegnet ligner tre fjelltopper." },
-    { "id": "q02", "text": "Hva betyr 林 lín, satt sammen av to 木?", "options": ["skog", "bord", "hus", "hage"], "correct": 0, "explain": "To trær = skog." },
-    { "id": "q03", "text": "Hvilken radikal finner du i 河 (elv) og 海 (hav)?", "options": ["亻 menneske", "女 kvinne", "氵 vann", "口 munn"], "correct": 2, "explain": "Radikalen sier ofte noe om betydningen." },
-    { "id": "q04", "text": "Hvor brukes tradisjonelle tegn?", "options": ["I Kina og Singapore", "Bare i Beijing", "Ingen steder", "I Taiwan, Hongkong og Macao"], "correct": 3, "explain": "Kina og Singapore bruker forenklede tegn." },
-    { "id": "q05", "text": "Hva er en regel for strekrekkefølge?", "options": ["Ovenfra og ned, venstre mot høyre", "Nedenfra og opp", "Høyre mot venstre", "Den er valgfri"], "correct": 0, "explain": "Vannrett strek kommer også før loddrett." },
-    { "id": "q06", "text": "Hva betyr 休 xiū?", "options": ["skog", "hvile", "menneske", "sove"], "correct": 1, "explain": "En person som lener seg mot et tre." },
-    { "id": "q07", "text": "Hvorfor har 妈 (mor) delen 女?", "options": ["Fordi det er et verb", "Fordi det uttales nǚ", "Fordi 女 betyr kvinne og gir betydningen", "Det er tilfeldig"], "correct": 2, "explain": "马 mǎ gir hint om uttalen." },
-    { "id": "q08", "text": "Hva står et kinesisk tegn vanligvis for?", "options": ["En bokstav", "En hel setning", "Et avsnitt", "Én stavelse med en betydning"], "correct": 3, "explain": "Mange ord består av to tegn." },
-    { "id": "q09", "text": "Hva betyr 明 míng, satt sammen av sol og måne?", "options": ["lys, klar", "natt", "tid", "himmel"], "correct": 0, "explain": "Sol + måne = lys." },
-    { "id": "q10", "text": "Hva betyr 中国 Zhōngguó bokstavelig?", "options": ["Det store landet", "Midtens rike", "Det gamle landet", "Fjellenes land"], "correct": 1, "explain": "中 = midt, 国 = land." }
+    {
+      "id": "q01",
+      "text": "Hva betyr 山 shān?",
+      "options": [
+        "vann",
+        "fjell",
+        "tre",
+        "sol"
+      ],
+      "correct": 1,
+      "explain": "Tegnet ligner tre fjelltopper."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr 林 lín, satt sammen av to 木?",
+      "options": [
+        "skog",
+        "bord",
+        "hus",
+        "hage"
+      ],
+      "correct": 0,
+      "explain": "To trær = skog."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken radikal finner du i 河 (elv) og 海 (hav)?",
+      "options": [
+        "亻 menneske",
+        "女 kvinne",
+        "氵 vann",
+        "口 munn"
+      ],
+      "correct": 2,
+      "explain": "Radikalen sier ofte noe om betydningen."
+    },
+    {
+      "id": "q04",
+      "text": "Hvor brukes tradisjonelle tegn?",
+      "options": [
+        "I Kina og Singapore",
+        "Bare i Beijing",
+        "Ingen steder",
+        "I Taiwan, Hongkong og Macao"
+      ],
+      "correct": 3,
+      "explain": "Kina og Singapore bruker forenklede tegn."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en regel for strekrekkefølge?",
+      "options": [
+        "Ovenfra og ned, venstre mot høyre",
+        "Nedenfra og opp",
+        "Høyre mot venstre",
+        "Den er valgfri"
+      ],
+      "correct": 0,
+      "explain": "Vannrett strek kommer også før loddrett."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr 休 xiū?",
+      "options": [
+        "skog",
+        "hvile",
+        "menneske",
+        "sove"
+      ],
+      "correct": 1,
+      "explain": "En person som lener seg mot et tre."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor har 妈 (mor) delen 女?",
+      "options": [
+        "Fordi det er et verb",
+        "Fordi det uttales nǚ",
+        "Fordi 女 betyr kvinne og gir betydningen",
+        "Det er tilfeldig"
+      ],
+      "correct": 2,
+      "explain": "马 mǎ gir hint om uttalen."
+    },
+    {
+      "id": "q08",
+      "text": "Hva står et kinesisk tegn vanligvis for?",
+      "options": [
+        "En bokstav",
+        "En hel setning",
+        "Et avsnitt",
+        "Én stavelse med en betydning"
+      ],
+      "correct": 3,
+      "explain": "Mange ord består av to tegn."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr 明 míng, satt sammen av sol og måne?",
+      "options": [
+        "lys, klar",
+        "natt",
+        "tid",
+        "himmel"
+      ],
+      "correct": 0,
+      "explain": "Sol + måne = lys."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr 中国 Zhōngguó bokstavelig?",
+      "options": [
+        "Det store landet",
+        "Midtens rike",
+        "Det gamle landet",
+        "Fjellenes land"
+      ],
+      "correct": 1,
+      "explain": "中 = midt, 国 = land."
+    }
   ],
   "mindmap": {
     "label": "Kinesiske tegn",
     "children": [
-      { "label": "Hva er tegn?", "children": [
-        { "label": "汉字" },
-        { "label": "Én stavelse, én betydning" }
-      ] },
-      { "label": "Piktogrammer", "children": [
-        { "label": "人, 山, 日, 月" },
-        { "label": "木, 口, 水, 火" }
-      ] },
-      { "label": "Sammensatte tegn", "children": [
-        { "label": "林, 森" },
-        { "label": "休, 好, 明" }
-      ] },
-      { "label": "Radikaler", "children": [
-        { "label": "氵 vann" },
-        { "label": "亻 menneske" },
-        { "label": "女 kvinne" }
-      ] },
-      { "label": "Skrift", "children": [
-        { "label": "Strekrekkefølge" },
-        { "label": "Forenklede tegn" },
-        { "label": "Tradisjonelle tegn" }
-      ] }
+      {
+        "label": "Hva er tegn?",
+        "children": [
+          {
+            "label": "汉字"
+          },
+          {
+            "label": "Én stavelse, én betydning"
+          }
+        ]
+      },
+      {
+        "label": "Piktogrammer",
+        "children": [
+          {
+            "label": "人, 山, 日, 月"
+          },
+          {
+            "label": "木, 口, 水, 火"
+          }
+        ]
+      },
+      {
+        "label": "Sammensatte tegn",
+        "children": [
+          {
+            "label": "林, 森"
+          },
+          {
+            "label": "休, 好, 明"
+          }
+        ]
+      },
+      {
+        "label": "Radikaler",
+        "children": [
+          {
+            "label": "氵 vann"
+          },
+          {
+            "label": "亻 menneske"
+          },
+          {
+            "label": "女 kvinne"
+          }
+        ]
+      },
+      {
+        "label": "Skrift",
+        "children": [
+          {
+            "label": "Strekrekkefølge"
+          },
+          {
+            "label": "Forenklede tegn"
+          },
+          {
+            "label": "Tradisjonelle tegn"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Forenklede tegn har vanligvis færre streker enn tradisjonelle.", "correct": true, "explain": "马 (forenklet) og 馬 (tradisjonell)." },
-      { "id": "m02", "type": "sant-usant", "text": "Kinesisk skrives med et alfabet på 26 bokstaver.", "correct": false, "explain": "Kinesisk skrives med tegn. Pinyin er bare en lydskrift." },
-      { "id": "m03", "type": "sant-usant", "text": "Radikalen i et tegn sier ofte noe om betydningen.", "correct": true, "explain": "For eksempel vann-radikalen i 河 og 海." },
-      { "id": "m04", "type": "sant-usant", "text": "Taiwan bruker forenklede tegn.", "correct": false, "explain": "Taiwan bruker tradisjonelle tegn." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr 水 shuǐ?", "options": ["ild", "vann", "tre", "jord"], "correct": 1, "explain": "火 huǒ betyr ild." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken strategi hjelper deg å huske tegn?", "options": ["Å lage huskehistorier om delene", "Å bare se på tegnene én gang", "Å lære dem uten betydning", "Å hoppe over radikalene"], "correct": 0, "explain": "For eksempel: 休 = person som hviler mot et tre." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken radikal finner du i 你 og 他?", "options": ["氵", "女", "亻", "口"], "correct": 2, "explain": "亻 er menneske-radikalen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Forenklede tegn har vanligvis færre streker enn tradisjonelle.",
+        "correct": true,
+        "explain": "马 (forenklet) og 馬 (tradisjonell)."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kinesisk skrives med et alfabet på 26 bokstaver.",
+        "correct": false,
+        "explain": "Kinesisk skrives med tegn. Pinyin er bare en lydskrift."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Radikalen i et tegn sier ofte noe om betydningen.",
+        "correct": true,
+        "explain": "For eksempel vann-radikalen i 河 og 海."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Taiwan bruker forenklede tegn.",
+        "correct": false,
+        "explain": "Taiwan bruker tradisjonelle tegn."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr 水 shuǐ?",
+        "options": [
+          "ild",
+          "vann",
+          "tre",
+          "jord"
+        ],
+        "correct": 1,
+        "explain": "火 huǒ betyr ild."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken strategi hjelper deg å huske tegn?",
+        "options": [
+          "Å lage huskehistorier om delene",
+          "Å bare se på tegnene én gang",
+          "Å lære dem uten betydning",
+          "Å hoppe over radikalene"
+        ],
+        "correct": 0,
+        "explain": "For eksempel: 休 = person som hviler mot et tre."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken radikal finner du i 你 og 他?",
+        "options": [
+          "氵",
+          "女",
+          "亻",
+          "口"
+        ],
+        "correct": 2,
+        "explain": "亻 er menneske-radikalen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva et piktogram er i kinesisk skrift. Bruk 人 (menneske) som eksempel, og forklar forholdet mellom tegnet og betydningen.",
+        "fasit": "Et piktogram er et tegn som opprinnelig var laget som et bilde av det det betyr. 人 er et eksempel på et slikt tegn for menneske.",
+        "kriterier": [
+          "Forklarer at et piktogram bygger på et bilde av betydningen.",
+          "Bruker 人 som eksempel på tegnet for menneske."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "林 består av to 木 og betyr skog. 森 består av tre 木 og betyr tett skog. Sammenlign hvordan de to tegnene bruker delene 木 til å uttrykke betydning.",
+        "fasit": "Begge tegnene bruker 木, som betyr tre. To trær danner 林, skog, mens tre trær danner 森, tett skog.",
+        "kriterier": [
+          "Knytter 木 til betydningen tre.",
+          "Forklarer forskjellen mellom林 som skog og 森 som tett skog ut fra antallet 木."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "河 betyr elv, 海 betyr hav, og 喝 betyr å drikke. 河 og 海 har vann-radikalen 氵, mens 喝 har munn-radikalen 口. Forklar hvorfor disse tegnene har ulike radikaler.",
+        "fasit": "氵 viser til vann og passer derfor i tegnene for elv og hav. 喝 handler om å drikke med munnen, så tegnet har munn-radikalen 口.",
+        "kriterier": [
+          "Knytter 氵 til vannbetydningen i 河 og 海.",
+          "Forklarer at 口 passer til 喝 fordi tegnet handler om å drikke med munnen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev skriver tegnet 口 ved å tegne hele ytterkanten ferdig før den indre delen. Forklar hvilken del av rekkefølgen eleven må endre, og hvorfor bunnen av tegnet skrives til slutt.",
+        "fasit": "Den ytre delen skrives før den indre, men bunnen av boksen lukkes til slutt. Derfor må eleven vente med den nederste streken til den indre delen er skrevet.",
+        "kriterier": [
+          "Får fram at den indre delen skrives før boksen lukkes.",
+          "Forklarer at den nederste streken i 口 kommer til slutt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "好 betyr god og er satt sammen av 女 (kvinne) og 子 (barn). Forklar hvordan du kan bruke disse delene til å lage en huskehistorie for tegnet.",
+        "fasit": "Jeg kan huske 好 som en kombinasjon av kvinne og barn. Sammen danner delene tegnet 好, som betyr god.",
+        "kriterier": [
+          "Knytter 女 til kvinne og 子 til barn.",
+          "Knytter kombinasjonen til 好 og betydningen god."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "马 og 馬 betyr begge hest. 马 har færre streker og er forenklet, mens 馬 er tradisjonelt. Sammenlign tegnene ved å oppgi hvilken form som er forenklet og hva de har til felles.",
+        "fasit": "马 er den forenklede formen, og 馬 er den tradisjonelle formen. Begge tegnene betyr hest.",
+        "kriterier": [
+          "Identifiserer 马 som forenklet og 馬 som tradisjonelt.",
+          "Nevner at begge betyr hest."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev kan noen hundre kinesiske tegn og vil lese en avis. Forklar hva eleven realistisk kan forvente, og hvor mange tegn det vanligvis trengs for å lese en avis.",
+        "fasit": "Med noen hundre tegn kommer eleven langt. For å lese en avis trenger man likevel å kunne noen tusen tegn.",
+        "kriterier": [
+          "Skiller mellom at noen hundre tegn kan bringe eleven langt og at dette ikke vanligvis er nok til å lese en avis.",
+          "Nevner at det trengs noen tusen tegn for å lese en avis."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du kjenner pinyin-uttalen til et kinesisk ord, men vet ikke hvilket tegn det skrives med. Forklar hvordan en ordbok-app kan hjelpe deg med å finne tegnet.",
+        "fasit": "Jeg kan skrive pinyin i en ordbok-app for å lete etter tegnet. Noen ordbok-apper lar meg også tegne tegnet for å finne det.",
+        "kriterier": [
+          "Forklarer at pinyin kan skrives inn i en ordbok-app for å søke etter tegnet.",
+          "Nevner tegning som en annen mulig søkemåte i en app."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

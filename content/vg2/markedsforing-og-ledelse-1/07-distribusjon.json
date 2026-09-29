@@ -4,78 +4,425 @@
   "trinnId": "vg2",
   "name": "Distribusjon",
   "intro": "Hvordan produktene kommer fra produsent til kunde: direkte og indirekte kanaler, grossister og detaljister, intensiv, selektiv og eksklusiv distribusjon, kjeder, netthandel og omnikanal – og distribusjon som konkurransemiddel.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Hva er distribusjon?\n\n**Distribusjon** handler om å få produktet fram til kunden på **rett sted**, til **rett tid**, i **rett mengde** og til en fornuftig **kostnad**. I de fire P-ene er dette **plass**. Selv det beste produktet selger ikke hvis kundene ikke **får tak i** det.\n\n## Distribusjonskanaler\n\nEn **distribusjonskanal** er veien produktet går fra **produsent** til **forbruker**:\n\n- **Direkte** distribusjon: produsent → forbruker. Eksempler er **gårdsutsalg** og produsentens egen **nettbutikk**.\n- **Kort indirekte** kanal: produsent → **detaljist** → forbruker. Detaljisten er butikken som selger til forbrukeren.\n- **Lang indirekte** kanal: produsent → **grossist** → detaljist → forbruker. Grossisten kjøper store mengder og selger videre til butikkene.\n\n**Mellomledd** gir færre transaksjoner, **lager** nær kundene og **kompetanse** om markedet. Men hvert ledd tar en **fortjeneste**, og produsenten får mindre **kontroll** over hvordan produktet selges.\n\n## Hvor mange utsalgssteder?\n\n- **Intensiv distribusjon**: produktet selges **overalt** – i dagligvarebutikker, kiosker og bensinstasjoner. Passer for **rutinekjøp** som brus og sjokolade.\n- **Selektiv distribusjon**: produktet selges hos **utvalgte** forhandlere. Passer for klær, sportsutstyr og elektronikk.\n- **Eksklusiv distribusjon**: bare **én** forhandler i et område. Passer for **luksusvarer** og biler, og styrker et **eksklusivt** image.\n\n## Kjeder og makt\n\nMye av handelen i Norge skjer gjennom **kjeder**. Dagligvaremarkedet domineres av **tre store grupper**, som også eier **grossistledd** og har mange **egne merkevarer**. Det gir kjedene stor **forhandlingsmakt** overfor leverandørene, blant annet om hvilke varer som får **hylleplass**.\n\n## Netthandel og omnikanal\n\n**Netthandelen** har vokst kraftig. Kunden kan velge mellom **hjemlevering**, **hentepunkter**, **pakkeautomater** og **klikk og hent** i butikk. Store **markedsplasser** på nett gir små virksomheter tilgang til mange kunder, men også hard **priskonkurranse**.\n\n**Omnikanal** betyr at virksomheten gir kunden en **sømløs** opplevelse på tvers av kanaler – for eksempel å sjekke lagerstatus på nett, prøve i butikk og returnere på et hentested.\n\n## Fysisk distribusjon og logistikk\n\n**Logistikk** handler om **lager**, **transport**, **ordrebehandling** og **returer**. Rask og **gratis** frakt er et konkurransefortrinn, men koster penger og gir **utslipp**. Mange **returer** i netthandelen er både dyrt og lite bærekraftig.\n\n## Push og pull\n\n- **Push**: Produsenten **skyver** varen gjennom kanalen, for eksempel med rabatter og salgsstøtte til forhandlerne.\n- **Pull**: Produsenten skaper **etterspørsel** hos forbrukerne med reklame, slik at kundene **trekker** varen gjennom kanalen ved å spørre etter den.\n\n## Distribusjon som konkurransemiddel\n\nVirksomheter kan skille seg ut med\n\n- god **beliggenhet** og lange **åpningstider**\n- **rask** levering, for eksempel samme dag\n- **enkel** retur og god **tilgjengelighet**\n- valg av kanaler som passer til **målgruppen** og **posisjoneringen**\n\nEt luksusmerke som selges på **tilbud** i alle butikker, kan skade merkevaren. Distribusjonen må derfor **henge sammen** med de andre konkurransemidlene.",
   "flashcards": [
-    { "term": "Distribusjon", "def": "Å få produktet til kunden på rett sted, til rett tid og i rett mengde." },
-    { "term": "Distribusjonskanal", "def": "Veien produktet går fra produsent til forbruker." },
-    { "term": "Direkte distribusjon", "def": "Produsenten selger rett til forbrukeren." },
-    { "term": "Detaljist", "def": "Butikken som selger til forbrukeren." },
-    { "term": "Grossist", "def": "Kjøper store mengder og selger videre til butikker." },
-    { "term": "Mellomledd", "def": "Ledd mellom produsent og forbruker, som grossist og detaljist." },
-    { "term": "Intensiv distribusjon", "def": "Produktet selges overalt – for rutinekjøp." },
-    { "term": "Selektiv distribusjon", "def": "Produktet selges hos utvalgte forhandlere." },
-    { "term": "Eksklusiv distribusjon", "def": "Bare én forhandler i et område – for luksusvarer." },
-    { "term": "Kjede", "def": "Butikker som samarbeider eller eies sammen." },
-    { "term": "Hylleplass", "def": "Plass i butikkhyllen – viktig for synlighet og salg." },
-    { "term": "Omnikanal", "def": "Sømløs kundeopplevelse på tvers av kanaler." },
-    { "term": "Klikk og hent", "def": "Kunden handler på nett og henter i butikk." },
-    { "term": "Logistikk", "def": "Lager, transport, ordrebehandling og returer." },
-    { "term": "Push-strategi", "def": "Produsenten skyver varen gjennom kanalen via forhandlerne." },
-    { "term": "Pull-strategi", "def": "Etterspørsel hos forbrukerne trekker varen gjennom kanalen." }
+    {
+      "term": "Distribusjon",
+      "def": "Å få produktet til kunden på rett sted, til rett tid og i rett mengde."
+    },
+    {
+      "term": "Distribusjonskanal",
+      "def": "Veien produktet går fra produsent til forbruker."
+    },
+    {
+      "term": "Direkte distribusjon",
+      "def": "Produsenten selger rett til forbrukeren."
+    },
+    {
+      "term": "Detaljist",
+      "def": "Butikken som selger til forbrukeren."
+    },
+    {
+      "term": "Grossist",
+      "def": "Kjøper store mengder og selger videre til butikker."
+    },
+    {
+      "term": "Mellomledd",
+      "def": "Ledd mellom produsent og forbruker, som grossist og detaljist."
+    },
+    {
+      "term": "Intensiv distribusjon",
+      "def": "Produktet selges overalt – for rutinekjøp."
+    },
+    {
+      "term": "Selektiv distribusjon",
+      "def": "Produktet selges hos utvalgte forhandlere."
+    },
+    {
+      "term": "Eksklusiv distribusjon",
+      "def": "Bare én forhandler i et område – for luksusvarer."
+    },
+    {
+      "term": "Kjede",
+      "def": "Butikker som samarbeider eller eies sammen."
+    },
+    {
+      "term": "Hylleplass",
+      "def": "Plass i butikkhyllen – viktig for synlighet og salg."
+    },
+    {
+      "term": "Omnikanal",
+      "def": "Sømløs kundeopplevelse på tvers av kanaler."
+    },
+    {
+      "term": "Klikk og hent",
+      "def": "Kunden handler på nett og henter i butikk."
+    },
+    {
+      "term": "Logistikk",
+      "def": "Lager, transport, ordrebehandling og returer."
+    },
+    {
+      "term": "Push-strategi",
+      "def": "Produsenten skyver varen gjennom kanalen via forhandlerne."
+    },
+    {
+      "term": "Pull-strategi",
+      "def": "Etterspørsel hos forbrukerne trekker varen gjennom kanalen."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er direkte distribusjon?", "options": ["Salg via grossist", "Produsenten selger rett til forbrukeren", "Salg i dagligvarebutikk", "Salg via agent"], "correct": 1, "explain": "For eksempel gårdsutsalg." },
-    { "id": "q02", "text": "Hva gjør en grossist?", "options": ["Kjøper store mengder og selger videre til butikker", "Selger til forbrukere", "Produserer varer", "Lager reklame"], "correct": 0, "explain": "Et mellomledd i lange kanaler." },
-    { "id": "q03", "text": "Hvilken distribusjon passer for sjokolade og brus?", "options": ["Eksklusiv", "Selektiv", "Intensiv", "Direkte"], "correct": 2, "explain": "Rutinekjøp skal være lett tilgjengelige." },
-    { "id": "q04", "text": "Hvilken distribusjon passer for en luksusklokke?", "options": ["Intensiv", "Salg på bensinstasjoner", "Salg i alle kiosker", "Eksklusiv"], "correct": 3, "explain": "Styrker det eksklusive imaget." },
-    { "id": "q05", "text": "Hva er omnikanal?", "options": ["Sømløs kundeopplevelse på tvers av kanaler", "Bare nettbutikk", "Bare fysisk butikk", "Salg via én kanal"], "correct": 0, "explain": "Nett og butikk henger sammen." },
-    { "id": "q06", "text": "Hvorfor har dagligvarekjedene stor makt overfor leverandørene?", "options": ["De produserer alt selv", "De bestemmer blant annet hvilke varer som får hylleplass", "De eier alle fabrikker", "De har ingen konkurrenter"], "correct": 1, "explain": "Tre store grupper dominerer markedet." },
-    { "id": "q07", "text": "Hva er en pull-strategi?", "options": ["Rabatter til forhandlerne", "Å selge direkte", "Å skape etterspørsel hos forbrukerne slik at de spør etter varen", "Å kutte mellomledd"], "correct": 2, "explain": "Kundene trekker varen gjennom kanalen." },
-    { "id": "q08", "text": "Hva er en ulempe ved mange mellomledd?", "options": ["Flere transaksjoner", "Mer kontroll for produsenten", "Varene kommer raskere", "Hvert ledd tar fortjeneste, og produsenten får mindre kontroll"], "correct": 3, "explain": "Men mellomledd gir også fordeler." },
-    { "id": "q09", "text": "Hva hører til logistikk?", "options": ["Lager, transport og returer", "Reklame", "Prissetting", "Merkevarebygging"], "correct": 0, "explain": "Den fysiske distribusjonen." },
-    { "id": "q10", "text": "Hvorfor er mange returer i netthandelen et problem?", "options": ["Det gir flere kunder", "Det er dyrt og lite bærekraftig", "Det er ulovlig", "Det gir lavere priser"], "correct": 1, "explain": "Transport og håndtering koster." }
+    {
+      "id": "q01",
+      "text": "Hva er direkte distribusjon?",
+      "options": [
+        "Salg via grossist",
+        "Produsenten selger rett til forbrukeren",
+        "Salg i dagligvarebutikk",
+        "Salg via agent"
+      ],
+      "correct": 1,
+      "explain": "For eksempel gårdsutsalg."
+    },
+    {
+      "id": "q02",
+      "text": "Hva gjør en grossist?",
+      "options": [
+        "Kjøper store mengder og selger videre til butikker",
+        "Selger til forbrukere",
+        "Produserer varer",
+        "Lager reklame"
+      ],
+      "correct": 0,
+      "explain": "Et mellomledd i lange kanaler."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken distribusjon passer for sjokolade og brus?",
+      "options": [
+        "Eksklusiv",
+        "Selektiv",
+        "Intensiv",
+        "Direkte"
+      ],
+      "correct": 2,
+      "explain": "Rutinekjøp skal være lett tilgjengelige."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken distribusjon passer for en luksusklokke?",
+      "options": [
+        "Intensiv",
+        "Salg på bensinstasjoner",
+        "Salg i alle kiosker",
+        "Eksklusiv"
+      ],
+      "correct": 3,
+      "explain": "Styrker det eksklusive imaget."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er omnikanal?",
+      "options": [
+        "Sømløs kundeopplevelse på tvers av kanaler",
+        "Bare nettbutikk",
+        "Bare fysisk butikk",
+        "Salg via én kanal"
+      ],
+      "correct": 0,
+      "explain": "Nett og butikk henger sammen."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor har dagligvarekjedene stor makt overfor leverandørene?",
+      "options": [
+        "De produserer alt selv",
+        "De bestemmer blant annet hvilke varer som får hylleplass",
+        "De eier alle fabrikker",
+        "De har ingen konkurrenter"
+      ],
+      "correct": 1,
+      "explain": "Tre store grupper dominerer markedet."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en pull-strategi?",
+      "options": [
+        "Rabatter til forhandlerne",
+        "Å selge direkte",
+        "Å skape etterspørsel hos forbrukerne slik at de spør etter varen",
+        "Å kutte mellomledd"
+      ],
+      "correct": 2,
+      "explain": "Kundene trekker varen gjennom kanalen."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en ulempe ved mange mellomledd?",
+      "options": [
+        "Flere transaksjoner",
+        "Mer kontroll for produsenten",
+        "Varene kommer raskere",
+        "Hvert ledd tar fortjeneste, og produsenten får mindre kontroll"
+      ],
+      "correct": 3,
+      "explain": "Men mellomledd gir også fordeler."
+    },
+    {
+      "id": "q09",
+      "text": "Hva hører til logistikk?",
+      "options": [
+        "Lager, transport og returer",
+        "Reklame",
+        "Prissetting",
+        "Merkevarebygging"
+      ],
+      "correct": 0,
+      "explain": "Den fysiske distribusjonen."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor er mange returer i netthandelen et problem?",
+      "options": [
+        "Det gir flere kunder",
+        "Det er dyrt og lite bærekraftig",
+        "Det er ulovlig",
+        "Det gir lavere priser"
+      ],
+      "correct": 1,
+      "explain": "Transport og håndtering koster."
+    }
   ],
   "mindmap": {
     "label": "Distribusjon",
     "children": [
-      { "label": "Kanaler", "children": [
-        { "label": "Direkte" },
-        { "label": "Kort indirekte" },
-        { "label": "Lang indirekte" }
-      ] },
-      { "label": "Intensitet", "children": [
-        { "label": "Intensiv" },
-        { "label": "Selektiv" },
-        { "label": "Eksklusiv" }
-      ] },
-      { "label": "Handel", "children": [
-        { "label": "Kjeder og makt" },
-        { "label": "Netthandel" },
-        { "label": "Omnikanal" }
-      ] },
-      { "label": "Logistikk", "children": [
-        { "label": "Lager og transport" },
-        { "label": "Returer" }
-      ] },
-      { "label": "Strategi", "children": [
-        { "label": "Push og pull" },
-        { "label": "Beliggenhet og levering" }
-      ] }
+      {
+        "label": "Kanaler",
+        "children": [
+          {
+            "label": "Direkte"
+          },
+          {
+            "label": "Kort indirekte"
+          },
+          {
+            "label": "Lang indirekte"
+          }
+        ]
+      },
+      {
+        "label": "Intensitet",
+        "children": [
+          {
+            "label": "Intensiv"
+          },
+          {
+            "label": "Selektiv"
+          },
+          {
+            "label": "Eksklusiv"
+          }
+        ]
+      },
+      {
+        "label": "Handel",
+        "children": [
+          {
+            "label": "Kjeder og makt"
+          },
+          {
+            "label": "Netthandel"
+          },
+          {
+            "label": "Omnikanal"
+          }
+        ]
+      },
+      {
+        "label": "Logistikk",
+        "children": [
+          {
+            "label": "Lager og transport"
+          },
+          {
+            "label": "Returer"
+          }
+        ]
+      },
+      {
+        "label": "Strategi",
+        "children": [
+          {
+            "label": "Push og pull"
+          },
+          {
+            "label": "Beliggenhet og levering"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Selv et godt produkt selger dårlig hvis kundene ikke får tak i det.", "correct": true, "explain": "Derfor er distribusjon et konkurransemiddel." },
-      { "id": "m02", "type": "sant-usant", "text": "Et luksusmerke tjener alltid på å selges i så mange butikker som mulig.", "correct": false, "explain": "Det kan skade det eksklusive imaget." },
-      { "id": "m03", "type": "sant-usant", "text": "Mellomledd kan redusere antall transaksjoner i markedet.", "correct": true, "explain": "Grossisten samler varer fra mange produsenter." },
-      { "id": "m04", "type": "sant-usant", "text": "Rask og gratis frakt er gratis for virksomheten.", "correct": false, "explain": "Det koster penger og gir utslipp." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken distribusjon passer best for sportsutstyr?", "options": ["Eksklusiv", "Selektiv", "Intensiv", "Ingen distribusjon"], "correct": 1, "explain": "Utvalgte forhandlere med kompetanse." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er en push-strategi?", "options": ["Rabatter og salgsstøtte til forhandlerne", "Reklame rettet mot forbrukerne", "Salg på gården", "Gratis retur"], "correct": 0, "explain": "Varen skyves gjennom kanalen." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er klikk og hent?", "options": ["Hjemlevering", "Salg på telefon", "Å handle på nett og hente i butikk", "Salg på markedsplass"], "correct": 2, "explain": "En del av omnikanalhandel." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Selv et godt produkt selger dårlig hvis kundene ikke får tak i det.",
+        "correct": true,
+        "explain": "Derfor er distribusjon et konkurransemiddel."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et luksusmerke tjener alltid på å selges i så mange butikker som mulig.",
+        "correct": false,
+        "explain": "Det kan skade det eksklusive imaget."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mellomledd kan redusere antall transaksjoner i markedet.",
+        "correct": true,
+        "explain": "Grossisten samler varer fra mange produsenter."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Rask og gratis frakt er gratis for virksomheten.",
+        "correct": false,
+        "explain": "Det koster penger og gir utslipp."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken distribusjon passer best for sportsutstyr?",
+        "options": [
+          "Eksklusiv",
+          "Selektiv",
+          "Intensiv",
+          "Ingen distribusjon"
+        ],
+        "correct": 1,
+        "explain": "Utvalgte forhandlere med kompetanse."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en push-strategi?",
+        "options": [
+          "Rabatter og salgsstøtte til forhandlerne",
+          "Reklame rettet mot forbrukerne",
+          "Salg på gården",
+          "Gratis retur"
+        ],
+        "correct": 0,
+        "explain": "Varen skyves gjennom kanalen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er klikk og hent?",
+        "options": [
+          "Hjemlevering",
+          "Salg på telefon",
+          "Å handle på nett og hente i butikk",
+          "Salg på markedsplass"
+        ],
+        "correct": 2,
+        "explain": "En del av omnikanalhandel."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En virksomhet har laget et godt produkt, men kundene får ikke tak i det når og der de ønsker. Forklar hva distribusjon skal sørge for, og hvorfor den har betydning for salget.",
+        "fasit": "Distribusjon skal få produktet fram til kunden på rett sted, til rett tid og i rett mengde, til en fornuftig kostnad. Hvis kundene ikke får tak i produktet, kan det være vanskelig å selge det selv om produktet er godt.",
+        "kriterier": [
+          "Forklarer at distribusjon handler om å få produktet fram til kunden på passende sted, tid og i riktig mengde.",
+          "Knytter tilgjengelighet til muligheten for å selge produktet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign en kort indirekte distribusjonskanal med en lang indirekte distribusjonskanal. Hvilket ekstra ledd har den lange kanalen?",
+        "fasit": "I en kort indirekte kanal går produktet fra produsenten via en detaljist til forbrukeren. I en lang indirekte kanal kommer en grossist mellom produsenten og detaljisten; grossisten kjøper store mengder og selger videre til butikkene.",
+        "kriterier": [
+          "Skiller mellom kanalene ved å beskrive at den korte har produsent, detaljist og forbruker.",
+          "Forklarer at den lange kanalen også har en grossist mellom produsent og detaljist."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen på intensiv og selektiv distribusjon med tanke på hvor mange forhandlere som selger produktet, og hvor lett kunden kan få tak i det.",
+        "fasit": "Ved intensiv distribusjon selges produktet overalt, mens det ved selektiv distribusjon selges hos utvalgte forhandlere. Intensiv distribusjon gir kunden flere steder å kjøpe produktet enn selektiv distribusjon.",
+        "kriterier": [
+          "Forklarer at intensiv distribusjon betyr salg mange steder eller overalt.",
+          "Forklarer at selektiv distribusjon begrenser salget til utvalgte forhandlere, og knytter det til færre kjøpssteder."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En liten virksomhet begynner å selge varene sine gjennom en stor markedsplass på nett. Nevn én fordel og én ulempe ved dette valget.",
+        "fasit": "Markedsplassen kan gi virksomheten tilgang til mange kunder. Samtidig møter virksomheten hard priskonkurranse fra andre selgere.",
+        "kriterier": [
+          "Nevner tilgang til mange kunder som en fordel.",
+          "Nevner hard priskonkurranse som en ulempe."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En kunde bestiller en vare på nett og henter den i en fysisk butikk. Hva kalles denne løsningen, og hvordan foregår den?",
+        "fasit": "Dette kalles klikk og hent. Kunden handler på nett og henter varen i butikk.",
+        "kriterier": [
+          "Identifiserer løsningen som klikk og hent.",
+          "Forklarer at kunden kjøper på nett og henter i butikk."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En produsent tilbyr butikker rabatt for å få dem til å ta inn og selge produktet. Forklar hvilken strategi produsenten bruker, og hvordan strategien skal få varen gjennom distribusjonskanalen.",
+        "fasit": "Produsenten bruker en push-strategi. Rabatten skal få forhandlerne til å ta inn og selge varen, slik at produsenten skyver produktet gjennom kanalen.",
+        "kriterier": [
+          "Identifiserer strategien som push.",
+          "Forklarer at produsenten påvirker forhandlerne, for eksempel med rabatt eller salgsstøtte, for å få varen videre gjennom kanalen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En nettbutikk vurderer å tilby rask og gratis frakt til alle kundene. Forklar én mulig fordel for virksomheten og én kostnad eller ulempe ved dette valget.",
+        "fasit": "Rask og gratis frakt kan være et konkurransefortrinn. Frakten koster virksomheten penger, og rask transport kan også gi utslipp.",
+        "kriterier": [
+          "Nevner at rask og gratis frakt kan gi virksomheten et konkurransefortrinn.",
+          "Forklarer en ulempe knyttet til kostnader eller utslipp."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et luksusmerke selges på tilbud i mange ulike butikker. Forklar hvorfor dette kan passe dårlig med merkevarens posisjonering, og hva det kan gjøre med merkevaren.",
+        "fasit": "Salg på tilbud i mange butikker kan gi et mindre eksklusivt inntrykk enn merkevaren ønsker. Distribusjonen bør passe sammen med de andre konkurransemidlene, ellers kan merkevaren bli svekket.",
+        "kriterier": [
+          "Forklarer at bredt salg på tilbud kan svekke det eksklusive imaget.",
+          "Knytter valg av distribusjon til merkevarens posisjonering eller de andre konkurransemidlene."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

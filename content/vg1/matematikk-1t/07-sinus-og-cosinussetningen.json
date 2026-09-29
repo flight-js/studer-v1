@@ -4,78 +4,425 @@
   "trinnId": "vg1",
   "name": "Arealsetningen, sinussetningen og cosinussetningen",
   "intro": "Trigonometri i vilkårlige trekanter: arealsetningen, sinussetningen og cosinussetningen, bevisene for dem, hvilken setning du skal velge, og sammensatte praktiske problemer.",
-  "kompetansemaal": [13, 14],
+  "kompetansemaal": [
+    13,
+    14
+  ],
   "sammendrag": "## Navn i trekanten\n\nI en trekant ABC kaller vi vinklene **A**, **B** og **C** og sidene **a**, **b** og **c**, der siden a ligger **overfor** vinkel A, b overfor B og c overfor C. Summen av vinklene er alltid **180°**.\n\n## Arealsetningen\n\n**T = ½ · a · b · sin C**\n\nArealet er halvparten av produktet av to sider ganger sinus til vinkelen **mellom** dem.\n\n**Bevis**: Trekk høyden h fra A ned på siden a. I den rettvinklede trekanten med hypotenus b er h = b · sin C. Arealet er ½ · grunnlinje · høyde = ½ · a · b · sin C. Fordi sin(180° − v) = sin v, gjelder setningen også når C er stump.\n\nEksempel: a = 6, b = 8 og C = 30° gir T = ½ · 6 · 8 · 0,5 = **12**.\n\n## Sinussetningen\n\n**sin A / a = sin B / b = sin C / c**\n\n**Bevis**: Arealet kan skrives på flere måter: ½ · b · c · sin A = ½ · a · c · sin B. Del på ½ · a · b · c, og vi får sin A / a = sin B / b.\n\nBrukes når vi kjenner\n\n- **to vinkler og én side**, eller\n- **to sider og en vinkel som ikke ligger mellom dem**.\n\nEksempel: A = 40°, B = 60° og a = 10 gir b = 10 · sin 60° / sin 40° ≈ **13,5**.\n\n**Obs**: Når vi finner en **vinkel** med sinussetningen, kan det finnes **to løsninger**, fordi sin v = sin(180° − v). Sjekk om begge gir en mulig trekant (vinkelsum under 180°).\n\n## Cosinussetningen\n\n**a² = b² + c² − 2bc · cos A**\n\nBrukes når vi kjenner\n\n- **to sider og vinkelen mellom dem**, eller\n- **alle tre sidene** (for å finne en vinkel): cos A = (b² + c² − a²)/(2bc)\n\nEksempel 1: b = 5, c = 7 og A = 60° gir a² = 25 + 49 − 2 · 5 · 7 · 0,5 = 39, så a ≈ **6,2**.\n\nEksempel 2: a = 7, b = 5 og c = 8 gir cos A = (25 + 64 − 49)/80 = 0,5, så A = **60°**.\n\nNår A = 90°, er cos A = 0, og setningen blir **Pytagoras' setning**. Cosinussetningen er altså en **utvidelse** av Pytagoras. Den kan bevises ved å trekke en høyde og bruke Pytagoras på de to delene.\n\n## Hvilken setning skal jeg velge?\n\n| Kjent | Bruk |\n| --- | --- |\n| To sider og vinkelen mellom | Cosinussetningen (side) eller arealsetningen (areal) |\n| Tre sider | Cosinussetningen (vinkel) |\n| To vinkler og én side | Sinussetningen |\n| To sider og en vinkel som ikke er mellom dem | Sinussetningen – obs to løsninger |\n\n## Sammensatte problemer\n\nI praksis må vi ofte dele en figur i flere trekanter og bruke setningene **etter hverandre** – for eksempel for å finne avstanden over et vann, høyden på et fjell eller arealet av en tomt. Lag alltid en **skisse**, marker hva du vet, og planlegg rekkefølgen.",
   "flashcards": [
-    { "term": "Side a", "def": "Siden som ligger overfor vinkel A." },
-    { "term": "Vinkelsum i trekant", "def": "180°" },
-    { "term": "Arealsetningen", "def": "T = ½ · a · b · sin C" },
-    { "term": "Sinussetningen", "def": "sin A / a = sin B / b = sin C / c" },
-    { "term": "Cosinussetningen", "def": "a² = b² + c² − 2bc · cos A" },
-    { "term": "Finne vinkel med tre sider", "def": "cos A = (b² + c² − a²)/(2bc)" },
-    { "term": "Bevis for arealsetningen", "def": "Høyden er h = b · sin C, og T = ½ · a · h." },
-    { "term": "Bevis for sinussetningen", "def": "Skriv arealet på to måter med arealsetningen." },
-    { "term": "Cosinussetningen når A = 90°", "def": "Blir til Pytagoras' setning." },
-    { "term": "To vinkler og én side", "def": "Bruk sinussetningen." },
-    { "term": "Tre sider", "def": "Bruk cosinussetningen." },
-    { "term": "To sider og vinkelen mellom", "def": "Bruk cosinussetningen eller arealsetningen." },
-    { "term": "Tvetydig tilfelle", "def": "Sinussetningen kan gi to mulige vinkler, v og 180° − v." },
-    { "term": "Skisse", "def": "Første steg i et sammensatt trigonometriproblem." },
-    { "term": "Stump vinkel", "def": "Vinkel mellom 90° og 180°; setningene gjelder også da." }
+    {
+      "term": "Side a",
+      "def": "Siden som ligger overfor vinkel A."
+    },
+    {
+      "term": "Vinkelsum i trekant",
+      "def": "180°"
+    },
+    {
+      "term": "Arealsetningen",
+      "def": "T = ½ · a · b · sin C"
+    },
+    {
+      "term": "Sinussetningen",
+      "def": "sin A / a = sin B / b = sin C / c"
+    },
+    {
+      "term": "Cosinussetningen",
+      "def": "a² = b² + c² − 2bc · cos A"
+    },
+    {
+      "term": "Finne vinkel med tre sider",
+      "def": "cos A = (b² + c² − a²)/(2bc)"
+    },
+    {
+      "term": "Bevis for arealsetningen",
+      "def": "Høyden er h = b · sin C, og T = ½ · a · h."
+    },
+    {
+      "term": "Bevis for sinussetningen",
+      "def": "Skriv arealet på to måter med arealsetningen."
+    },
+    {
+      "term": "Cosinussetningen når A = 90°",
+      "def": "Blir til Pytagoras' setning."
+    },
+    {
+      "term": "To vinkler og én side",
+      "def": "Bruk sinussetningen."
+    },
+    {
+      "term": "Tre sider",
+      "def": "Bruk cosinussetningen."
+    },
+    {
+      "term": "To sider og vinkelen mellom",
+      "def": "Bruk cosinussetningen eller arealsetningen."
+    },
+    {
+      "term": "Tvetydig tilfelle",
+      "def": "Sinussetningen kan gi to mulige vinkler, v og 180° − v."
+    },
+    {
+      "term": "Skisse",
+      "def": "Første steg i et sammensatt trigonometriproblem."
+    },
+    {
+      "term": "Stump vinkel",
+      "def": "Vinkel mellom 90° og 180°; setningene gjelder også da."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva sier arealsetningen?", "options": ["T = ½ · a · b · sin C", "T = a · b · cos C", "T = ½ · a · b", "T = a² + b² − 2ab · cos C"], "correct": 0, "explain": "Vinkelen C ligger mellom sidene a og b." },
-    { "id": "q02", "text": "a = 6, b = 8 og C = 30°. Hva er arealet?", "options": ["24", "48", "12", "20,8"], "correct": 2, "explain": "½ · 6 · 8 · 0,5 = 12." },
-    { "id": "q03", "text": "Hva sier sinussetningen?", "options": ["a² = b² + c² − 2bc · cos A", "sin A / a = sin B / b = sin C / c", "T = ½ · b · c · sin A", "a/b = cos A / cos B"], "correct": 1, "explain": "Forholdet mellom sinus til en vinkel og motstående side er likt for alle tre." },
-    { "id": "q04", "text": "Hva sier cosinussetningen?", "options": ["sin A / a = sin B / b", "a = b · sin A", "a² = b² + c²", "a² = b² + c² − 2bc · cos A"], "correct": 3, "explain": "Leddet −2bc · cos A korrigerer Pytagoras for vinkler som ikke er rette." },
-    { "id": "q05", "text": "b = 5, c = 7 og A = 60°. Hvor lang er a?", "options": ["6,2", "8,6", "39", "4,1"], "correct": 0, "explain": "a² = 25 + 49 − 35 = 39, så a ≈ 6,2." },
-    { "id": "q06", "text": "Du kjenner alle tre sidene i en trekant. Hvilken setning bruker du for å finne en vinkel?", "options": ["Sinussetningen", "Cosinussetningen", "Arealsetningen", "Ingen av dem"], "correct": 1, "explain": "cos A = (b² + c² − a²)/(2bc)." },
-    { "id": "q07", "text": "A = 40°, B = 60° og a = 10. Hvor lang er b?", "options": ["7,4", "11,5", "13,5", "15,0"], "correct": 2, "explain": "b = 10 · sin 60° / sin 40° ≈ 13,5." },
-    { "id": "q08", "text": "Hvordan kan sinussetningen bevises?", "options": ["Med Pytagoras alene", "Ved å måle mange trekanter", "Med polynomdivisjon", "Ved å uttrykke arealet av trekanten på to måter"], "correct": 3, "explain": "½bc · sin A = ½ac · sin B gir sin A / a = sin B / b." },
-    { "id": "q09", "text": "Hva blir cosinussetningen når A = 90°?", "options": ["Pytagoras' setning", "Sinussetningen", "Arealsetningen", "Den blir ugyldig"], "correct": 0, "explain": "cos 90° = 0, så a² = b² + c²." },
-    { "id": "q10", "text": "a = 7, b = 5 og c = 8. Hvor stor er vinkel A?", "options": ["30°", "60°", "45°", "90°"], "correct": 1, "explain": "cos A = (25 + 64 − 49)/80 = 0,5." }
+    {
+      "id": "q01",
+      "text": "Hva sier arealsetningen?",
+      "options": [
+        "T = ½ · a · b · sin C",
+        "T = a · b · cos C",
+        "T = ½ · a · b",
+        "T = a² + b² − 2ab · cos C"
+      ],
+      "correct": 0,
+      "explain": "Vinkelen C ligger mellom sidene a og b."
+    },
+    {
+      "id": "q02",
+      "text": "a = 6, b = 8 og C = 30°. Hva er arealet?",
+      "options": [
+        "24",
+        "48",
+        "12",
+        "20,8"
+      ],
+      "correct": 2,
+      "explain": "½ · 6 · 8 · 0,5 = 12."
+    },
+    {
+      "id": "q03",
+      "text": "Hva sier sinussetningen?",
+      "options": [
+        "a² = b² + c² − 2bc · cos A",
+        "sin A / a = sin B / b = sin C / c",
+        "T = ½ · b · c · sin A",
+        "a/b = cos A / cos B"
+      ],
+      "correct": 1,
+      "explain": "Forholdet mellom sinus til en vinkel og motstående side er likt for alle tre."
+    },
+    {
+      "id": "q04",
+      "text": "Hva sier cosinussetningen?",
+      "options": [
+        "sin A / a = sin B / b",
+        "a = b · sin A",
+        "a² = b² + c²",
+        "a² = b² + c² − 2bc · cos A"
+      ],
+      "correct": 3,
+      "explain": "Leddet −2bc · cos A korrigerer Pytagoras for vinkler som ikke er rette."
+    },
+    {
+      "id": "q05",
+      "text": "b = 5, c = 7 og A = 60°. Hvor lang er a?",
+      "options": [
+        "6,2",
+        "8,6",
+        "39",
+        "4,1"
+      ],
+      "correct": 0,
+      "explain": "a² = 25 + 49 − 35 = 39, så a ≈ 6,2."
+    },
+    {
+      "id": "q06",
+      "text": "Du kjenner alle tre sidene i en trekant. Hvilken setning bruker du for å finne en vinkel?",
+      "options": [
+        "Sinussetningen",
+        "Cosinussetningen",
+        "Arealsetningen",
+        "Ingen av dem"
+      ],
+      "correct": 1,
+      "explain": "cos A = (b² + c² − a²)/(2bc)."
+    },
+    {
+      "id": "q07",
+      "text": "A = 40°, B = 60° og a = 10. Hvor lang er b?",
+      "options": [
+        "7,4",
+        "11,5",
+        "13,5",
+        "15,0"
+      ],
+      "correct": 2,
+      "explain": "b = 10 · sin 60° / sin 40° ≈ 13,5."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan kan sinussetningen bevises?",
+      "options": [
+        "Med Pytagoras alene",
+        "Ved å måle mange trekanter",
+        "Med polynomdivisjon",
+        "Ved å uttrykke arealet av trekanten på to måter"
+      ],
+      "correct": 3,
+      "explain": "½bc · sin A = ½ac · sin B gir sin A / a = sin B / b."
+    },
+    {
+      "id": "q09",
+      "text": "Hva blir cosinussetningen når A = 90°?",
+      "options": [
+        "Pytagoras' setning",
+        "Sinussetningen",
+        "Arealsetningen",
+        "Den blir ugyldig"
+      ],
+      "correct": 0,
+      "explain": "cos 90° = 0, så a² = b² + c²."
+    },
+    {
+      "id": "q10",
+      "text": "a = 7, b = 5 og c = 8. Hvor stor er vinkel A?",
+      "options": [
+        "30°",
+        "60°",
+        "45°",
+        "90°"
+      ],
+      "correct": 1,
+      "explain": "cos A = (25 + 64 − 49)/80 = 0,5."
+    }
   ],
   "mindmap": {
     "label": "Trigonometri i trekanter",
     "children": [
-      { "label": "Arealsetningen", "children": [
-        { "label": "T = ½ab · sin C" },
-        { "label": "Bevis med høyde" }
-      ] },
-      { "label": "Sinussetningen", "children": [
-        { "label": "sin A / a = sin B / b" },
-        { "label": "Bevis med areal" },
-        { "label": "To mulige løsninger" }
-      ] },
-      { "label": "Cosinussetningen", "children": [
-        { "label": "a² = b² + c² − 2bc · cos A" },
-        { "label": "Finne vinkel" },
-        { "label": "Utvidet Pytagoras" }
-      ] },
-      { "label": "Velge setning", "children": [
-        { "label": "Tre sider: cosinus" },
-        { "label": "To vinkler: sinus" },
-        { "label": "Vinkel mellom: cosinus" }
-      ] },
-      { "label": "Praktisk", "children": [
-        { "label": "Skisse" },
-        { "label": "Dele i trekanter" },
-        { "label": "Landmåling" }
-      ] }
+      {
+        "label": "Arealsetningen",
+        "children": [
+          {
+            "label": "T = ½ab · sin C"
+          },
+          {
+            "label": "Bevis med høyde"
+          }
+        ]
+      },
+      {
+        "label": "Sinussetningen",
+        "children": [
+          {
+            "label": "sin A / a = sin B / b"
+          },
+          {
+            "label": "Bevis med areal"
+          },
+          {
+            "label": "To mulige løsninger"
+          }
+        ]
+      },
+      {
+        "label": "Cosinussetningen",
+        "children": [
+          {
+            "label": "a² = b² + c² − 2bc · cos A"
+          },
+          {
+            "label": "Finne vinkel"
+          },
+          {
+            "label": "Utvidet Pytagoras"
+          }
+        ]
+      },
+      {
+        "label": "Velge setning",
+        "children": [
+          {
+            "label": "Tre sider: cosinus"
+          },
+          {
+            "label": "To vinkler: sinus"
+          },
+          {
+            "label": "Vinkel mellom: cosinus"
+          }
+        ]
+      },
+      {
+        "label": "Praktisk",
+        "children": [
+          {
+            "label": "Skisse"
+          },
+          {
+            "label": "Dele i trekanter"
+          },
+          {
+            "label": "Landmåling"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Sinussetningen kan gi to mulige trekanter når man kjenner to sider og en vinkel som ikke ligger mellom dem.", "correct": true, "explain": "sin v = sin(180° − v), så to vinkler kan passe." },
-      { "id": "m02", "type": "sant-usant", "text": "Arealsetningen gjelder bare for rettvinklede trekanter.", "correct": false, "explain": "Den gjelder for alle trekanter." },
-      { "id": "m03", "type": "sant-usant", "text": "Summen av vinklene i en trekant er 180°.", "correct": true, "explain": "Det brukes ofte til å finne den tredje vinkelen." },
-      { "id": "m04", "type": "sant-usant", "text": "Cosinussetningen kan ikke brukes når vinkelen er stump.", "correct": false, "explain": "Da er cos A negativ, og setningen gjelder fortsatt." },
-      { "id": "m05", "type": "flervalg", "text": "To sider er 10 og 10, og vinkelen mellom dem er 90°. Hva er arealet?", "options": ["100", "50", "25", "200"], "correct": 1, "explain": "½ · 10 · 10 · sin 90° = 50." },
-      { "id": "m06", "type": "flervalg", "text": "Du kjenner to vinkler og én side. Hvilken setning passer for å finne de andre sidene?", "options": ["Cosinussetningen", "Arealsetningen", "Sinussetningen", "Pytagoras"], "correct": 2, "explain": "Den tredje vinkelen finner du med vinkelsummen." },
-      { "id": "m07", "type": "flervalg", "text": "I en trekant er A = 50° og B = 70°. Hvor stor er C?", "options": ["60°", "120°", "70°", "50°"], "correct": 0, "explain": "180° − 50° − 70° = 60°." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Sinussetningen kan gi to mulige trekanter når man kjenner to sider og en vinkel som ikke ligger mellom dem.",
+        "correct": true,
+        "explain": "sin v = sin(180° − v), så to vinkler kan passe."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Arealsetningen gjelder bare for rettvinklede trekanter.",
+        "correct": false,
+        "explain": "Den gjelder for alle trekanter."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Summen av vinklene i en trekant er 180°.",
+        "correct": true,
+        "explain": "Det brukes ofte til å finne den tredje vinkelen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Cosinussetningen kan ikke brukes når vinkelen er stump.",
+        "correct": false,
+        "explain": "Da er cos A negativ, og setningen gjelder fortsatt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "To sider er 10 og 10, og vinkelen mellom dem er 90°. Hva er arealet?",
+        "options": [
+          "100",
+          "50",
+          "25",
+          "200"
+        ],
+        "correct": 1,
+        "explain": "½ · 10 · 10 · sin 90° = 50."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Du kjenner to vinkler og én side. Hvilken setning passer for å finne de andre sidene?",
+        "options": [
+          "Cosinussetningen",
+          "Arealsetningen",
+          "Sinussetningen",
+          "Pytagoras"
+        ],
+        "correct": 2,
+        "explain": "Den tredje vinkelen finner du med vinkelsummen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "I en trekant er A = 50° og B = 70°. Hvor stor er C?",
+        "options": [
+          "60°",
+          "120°",
+          "70°",
+          "50°"
+        ],
+        "correct": 0,
+        "explain": "180° − 50° − 70° = 60°."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I en trekant ABC ligger siden a overfor vinkel A. Forklar hva «overfor» betyr, og hvordan du finner siden som ligger overfor vinkel B.",
+        "fasit": "Siden som ligger overfor en vinkel, er siden på motsatt side av vinkelen. Siden overfor vinkel B er derfor b.",
+        "kriterier": [
+          "Forklarer at siden er på motsatt side av vinkelen.",
+          "Knytter siden b til vinkel B."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I en trekant er høyden fra A ned på siden a gitt ved h = b · sin C. Forklar hvordan dette gir arealsetningen T = ½ · a · b · sin C.",
+        "fasit": "Arealet er T = ½ · a · h. Når vi setter inn h = b · sin C, får vi T = ½ · a · b · sin C.",
+        "kriterier": [
+          "Knytter arealet til grunnlinje a og høyde h med T = ½ · a · h.",
+          "Setter inn uttrykket for h og får arealsetningen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I en trekant er b = 8 og C = 30°. Høyden fra A ned på siden a er h = b · sin C. Finn høyden. Bruk at sin 30° = 0,5, og vis det viktigste regnestykket.",
+        "fasit": "h = 8 · sin 30° = 8 · 0,5 = 4. Høyden er 4.",
+        "kriterier": [
+          "Setter inn b = 8 og sin 30° = 0,5 i høydeformelen.",
+          "Får høyden 4."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I trekant ABC er A = 40° og B = 60°. Finn C ved å bruke vinkelsummen i en trekant, og vis regnestykket.",
+        "fasit": "Vinkelsummen er 180°, så C = 180° − 40° − 60° = 80°. Vinkel C er 80°.",
+        "kriterier": [
+          "Bruker at vinkelsummen er 180°.",
+          "Finner C = 80°."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign når sinussetningen og cosinussetningen passer å bruke. Ta med én type kjente opplysninger for hver setning.",
+        "fasit": "Sinussetningen passer når vi kjenner to vinkler og én side, eller to sider og en vinkel som ikke ligger mellom dem. Cosinussetningen passer når vi kjenner to sider og vinkelen mellom dem, eller alle tre sidene og skal finne en vinkel.",
+        "kriterier": [
+          "Beskriver en gyldig situasjon for å bruke sinussetningen.",
+          "Beskriver en gyldig situasjon for å bruke cosinussetningen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Når du finner en vinkel med sinussetningen, kan en beregning gi vinkelen v. Forklar hvorfor en annen vinkel også kan være aktuell, og hva du må undersøke for å vite om den gir en mulig trekant.",
+        "fasit": "Fordi sin v = sin(180° − v), kan 180° − v også være en mulig vinkel. Vi må undersøke om vinkelsummen fortsatt er under 180° når den vinkelen brukes.",
+        "kriterier": [
+          "Forklarer at v og 180° − v kan ha samme sinus.",
+          "Sier at vinkelsummen må være under 180° for at løsningen skal gi en mulig trekant."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du skal finne avstanden over et vann, og situasjonen kan tegnes som flere trekanter. Beskriv hva du bør gjøre først, og hvorfor det kan være nødvendig å bruke trigonometriske setninger etter hverandre.",
+        "fasit": "Jeg bør lage en skisse og markere opplysningene jeg kjenner. Hvis figuren består av flere trekanter, kan jeg bruke en setning til å finne en opplysning i én trekant og deretter bruke den i en annen.",
+        "kriterier": [
+          "Nevner at man bør lage en skisse og markere det man vet.",
+          "Forklarer at en opplysning fra én trekant kan brukes videre i en annen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Arealsetningen gjelder også når vinkelen C er stump. Forklar hvordan sinus til en stump vinkel kan brukes i formelen for arealet.",
+        "fasit": "Når C er stump, er 180° − C en spiss vinkel, og sin C = sin(180° − C). Derfor kan sinusverdien brukes i arealsetningen også for en stump vinkel.",
+        "kriterier": [
+          "Bruker sammenhengen sin v = sin(180° − v).",
+          "Knytter denne sammenhengen til at arealsetningen fortsatt gjelder når C er stump."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

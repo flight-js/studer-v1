@@ -4,82 +4,438 @@
   "trinnId": "10",
   "name": "Ungdom, medier og læringsstrategier",
   "intro": "Ord og uttrykk om mobil, sosiale medier og skjermbruk på tysk, hvordan du argumenterer for og mot, strategier for å lese autentiske tekster, og digitale ressurser for språklæring.",
-  "kompetansemaal": [4, 7],
+  "kompetansemaal": [
+    4,
+    7
+  ],
   "sammendrag": "## Ungdom og medier\n\nTyske ungdommer bruker, som norske, mye tid på **das Handy** (mobilen). Mange ord på dette området er internasjonale og derfor lette å kjenne igjen:\n\n- **das Smartphone**, **der Computer**, **das Internet**, **die App** og **das Video**\n- **soziale Medien** – sosiale medier\n- **posten**, **liken**, **teilen** (dele), **chatten** og **streamen**\n- **herunterladen** – laste ned, **die Nachricht** – meldingen, **der Beitrag** – innlegget\n\n## Snakke om skjermbruk\n\n- **Wie viel Zeit verbringst du am Handy?** – Hvor mye tid bruker du på mobilen?\n- **Ich verbringe ungefähr zwei Stunden pro Tag am Handy.** – Jeg bruker omtrent to timer om dagen på mobilen.\n- **Ich benutze soziale Medien, um mit Freunden in Kontakt zu bleiben.** – Jeg bruker sosiale medier for å holde kontakten med venner.\n\n## Fordeler og ulemper\n\n- **der Vorteil** – fordelen, **der Nachteil** – ulempen\n- **Einerseits** kann man schnell Informationen finden, **andererseits** gibt es viele Falschmeldungen. – På den ene siden kan man raskt finne informasjon, på den andre siden finnes det mange falske nyheter.\n- **Meiner Meinung nach** … / **Ich finde, dass** … / **Ich bin der Meinung, dass** …\n\nViktige temaer er **Cybermobbing** (mobbing på nett), **Datenschutz** (personvern) og hvor mye tid man bruker foran skjermen.\n\n## Ungdomsspråk\n\nHvert år kåres **«Jugendwort des Jahres»** – årets ungdomsord – i Tyskland. Mange av ordene er lånt fra engelsk, som *cringe*. Ungdomsspråk endrer seg raskt, og det er morsomt å sammenligne det med norsk slang.\n\n## Lese autentiske tekster\n\nAutentiske tekster er skrevet for tyskspråklige, ikke for elever. Noen strategier:\n\n- **Skumles** først for å få oversikt: Se på overskrift, bilder og ord du kjenner.\n- Se etter **internasjonale ord** og ord som ligner norsk eller engelsk.\n- Bruk **sammenhengen** til å gjette hva ukjente ord betyr.\n- **Del opp sammensatte ord**: *Handybildschirm* = *Handy* + *Bildschirm* (skjerm).\n- Slå opp de viktigste ordene i en **ordbok**, men ikke alle.\n\n## Digitale ressurser og læringsstrategier\n\n- Hør på tysk musikk, podkaster og nyheter, for eksempel nyhetssendingen **Tagesschau** eller barnenyhetene **logo!**.\n- **Deutsche Welle** har gratis kurs og videoer for dem som lærer tysk.\n- Se serier og filmer med tysk tale og tysk tekst.\n- Bruk **flashcards** og apper, og repeter ofte.\n- Bruk det du kan fra **engelsk** og **norsk** – mange ord ligner.\n- **Maskinoversettelse** kan være nyttig, men den gjør feil. Vurder alltid resultatet kritisk, og ikke la den skrive oppgavene for deg.",
   "flashcards": [
-    { "term": "das Handy", "def": "mobiltelefonen" },
-    { "term": "soziale Medien", "def": "sosiale medier" },
-    { "term": "posten", "def": "å legge ut (innlegg)" },
-    { "term": "teilen", "def": "å dele" },
-    { "term": "herunterladen", "def": "å laste ned" },
-    { "term": "die Nachricht", "def": "meldingen, nyheten" },
-    { "term": "Wie viel Zeit verbringst du am Handy?", "def": "Hvor mye tid bruker du på mobilen?" },
-    { "term": "Einerseits … andererseits …", "def": "På den ene siden … på den andre siden …" },
-    { "term": "Meiner Meinung nach …", "def": "Etter min mening …" },
-    { "term": "der Vorteil / der Nachteil", "def": "fordelen / ulempen" },
-    { "term": "das Cybermobbing", "def": "mobbing på nett" },
-    { "term": "der Datenschutz", "def": "personvern" },
-    { "term": "Jugendwort des Jahres", "def": "årets ungdomsord i Tyskland" },
-    { "term": "Skumlesing", "def": "å lese raskt for å få oversikt" },
-    { "term": "Sammensatte ord", "def": "Del dem opp: Handybildschirm = Handy + Bildschirm" },
-    { "term": "Deutsche Welle", "def": "Tysk kringkaster med gratis ressurser for å lære tysk" }
+    {
+      "term": "das Handy",
+      "def": "mobiltelefonen"
+    },
+    {
+      "term": "soziale Medien",
+      "def": "sosiale medier"
+    },
+    {
+      "term": "posten",
+      "def": "å legge ut (innlegg)"
+    },
+    {
+      "term": "teilen",
+      "def": "å dele"
+    },
+    {
+      "term": "herunterladen",
+      "def": "å laste ned"
+    },
+    {
+      "term": "die Nachricht",
+      "def": "meldingen, nyheten"
+    },
+    {
+      "term": "Wie viel Zeit verbringst du am Handy?",
+      "def": "Hvor mye tid bruker du på mobilen?"
+    },
+    {
+      "term": "Einerseits … andererseits …",
+      "def": "På den ene siden … på den andre siden …"
+    },
+    {
+      "term": "Meiner Meinung nach …",
+      "def": "Etter min mening …"
+    },
+    {
+      "term": "der Vorteil / der Nachteil",
+      "def": "fordelen / ulempen"
+    },
+    {
+      "term": "das Cybermobbing",
+      "def": "mobbing på nett"
+    },
+    {
+      "term": "der Datenschutz",
+      "def": "personvern"
+    },
+    {
+      "term": "Jugendwort des Jahres",
+      "def": "årets ungdomsord i Tyskland"
+    },
+    {
+      "term": "Skumlesing",
+      "def": "å lese raskt for å få oversikt"
+    },
+    {
+      "term": "Sammensatte ord",
+      "def": "Del dem opp: Handybildschirm = Handy + Bildschirm"
+    },
+    {
+      "term": "Deutsche Welle",
+      "def": "Tysk kringkaster med gratis ressurser for å lære tysk"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er «das Handy» på tysk?", "options": ["En hanske", "Et verktøy", "Mobiltelefonen", "Et håndkle"], "correct": 2, "explain": "Ordet ser engelsk ut, men brukes bare slik på tysk." },
-    { "id": "q02", "text": "Hva betyr «teilen» på sosiale medier?", "options": ["Å dele", "Å slette", "Å like", "Å kommentere"], "correct": 0, "explain": "«teilen» betyr egentlig å dele opp." },
-    { "id": "q03", "text": "Hvordan innleder du en mening på tysk?", "options": ["Guten Tag, …", "Viele Grüße, …", "Es war einmal …", "Meiner Meinung nach …"], "correct": 3, "explain": "Etter «Meiner Meinung nach» kommer verbet: «Meiner Meinung nach ist das …»." },
-    { "id": "q04", "text": "Hva betyr «Einerseits … andererseits …»?", "options": ["Først … til slutt …", "På den ene siden … på den andre siden …", "Både … og …", "Enten … eller …"], "correct": 1, "explain": "Uttrykket er nyttig når du drøfter fordeler og ulemper." },
-    { "id": "q05", "text": "Hvordan kan du forstå et langt sammensatt ord som «Handybildschirm»?", "options": ["Dele det opp i kjente deler: Handy + Bildschirm", "Hoppe over det", "Slå opp hver bokstav", "Gjette tilfeldig"], "correct": 0, "explain": "Tysk har mange lange sammensatte ord." },
-    { "id": "q06", "text": "Hva er «der Datenschutz»?", "options": ["Datamaskinen", "Et dataspill", "En app", "Personvern"], "correct": 3, "explain": "Ordet betyr bokstavelig «databeskyttelse»." },
-    { "id": "q07", "text": "Hva kalles det når du leser raskt gjennom en tekst for å få oversikt?", "options": ["Nærlesing", "Oversetting", "Skumlesing", "Diktat"], "correct": 2, "explain": "Skumlesing er et godt første steg med autentiske tekster." },
-    { "id": "q08", "text": "Hva er «Jugendwort des Jahres»?", "options": ["En ungdomsavis", "Årets ungdomsord, som kåres hvert år", "En ungdomsklubb", "En skoleprøve"], "correct": 1, "explain": "Mange av ordene er lånt fra engelsk." },
-    { "id": "q09", "text": "Hvorfor kan engelsk hjelpe deg når du lærer tysk?", "options": ["Fordi mange ord ligner, som Haus og house", "Fordi språkene er helt like", "Fordi tysk ikke har egne ord", "Det hjelper ikke"], "correct": 0, "explain": "Tysk, engelsk og norsk er i slekt." },
-    { "id": "q10", "text": "Hva bør du tenke på når du bruker maskinoversettelse?", "options": ["At den alltid er riktig", "At den kan erstatte læring", "At den kan gjøre feil, så du må vurdere resultatet kritisk", "At den bare virker på engelsk"], "correct": 2, "explain": "Maskinoversettelse kan misforstå sammenhengen." }
+    {
+      "id": "q01",
+      "text": "Hva er «das Handy» på tysk?",
+      "options": [
+        "En hanske",
+        "Et verktøy",
+        "Mobiltelefonen",
+        "Et håndkle"
+      ],
+      "correct": 2,
+      "explain": "Ordet ser engelsk ut, men brukes bare slik på tysk."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr «teilen» på sosiale medier?",
+      "options": [
+        "Å dele",
+        "Å slette",
+        "Å like",
+        "Å kommentere"
+      ],
+      "correct": 0,
+      "explain": "«teilen» betyr egentlig å dele opp."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan innleder du en mening på tysk?",
+      "options": [
+        "Guten Tag, …",
+        "Viele Grüße, …",
+        "Es war einmal …",
+        "Meiner Meinung nach …"
+      ],
+      "correct": 3,
+      "explain": "Etter «Meiner Meinung nach» kommer verbet: «Meiner Meinung nach ist das …»."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr «Einerseits … andererseits …»?",
+      "options": [
+        "Først … til slutt …",
+        "På den ene siden … på den andre siden …",
+        "Både … og …",
+        "Enten … eller …"
+      ],
+      "correct": 1,
+      "explain": "Uttrykket er nyttig når du drøfter fordeler og ulemper."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan kan du forstå et langt sammensatt ord som «Handybildschirm»?",
+      "options": [
+        "Dele det opp i kjente deler: Handy + Bildschirm",
+        "Hoppe over det",
+        "Slå opp hver bokstav",
+        "Gjette tilfeldig"
+      ],
+      "correct": 0,
+      "explain": "Tysk har mange lange sammensatte ord."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er «der Datenschutz»?",
+      "options": [
+        "Datamaskinen",
+        "Et dataspill",
+        "En app",
+        "Personvern"
+      ],
+      "correct": 3,
+      "explain": "Ordet betyr bokstavelig «databeskyttelse»."
+    },
+    {
+      "id": "q07",
+      "text": "Hva kalles det når du leser raskt gjennom en tekst for å få oversikt?",
+      "options": [
+        "Nærlesing",
+        "Oversetting",
+        "Skumlesing",
+        "Diktat"
+      ],
+      "correct": 2,
+      "explain": "Skumlesing er et godt første steg med autentiske tekster."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er «Jugendwort des Jahres»?",
+      "options": [
+        "En ungdomsavis",
+        "Årets ungdomsord, som kåres hvert år",
+        "En ungdomsklubb",
+        "En skoleprøve"
+      ],
+      "correct": 1,
+      "explain": "Mange av ordene er lånt fra engelsk."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor kan engelsk hjelpe deg når du lærer tysk?",
+      "options": [
+        "Fordi mange ord ligner, som Haus og house",
+        "Fordi språkene er helt like",
+        "Fordi tysk ikke har egne ord",
+        "Det hjelper ikke"
+      ],
+      "correct": 0,
+      "explain": "Tysk, engelsk og norsk er i slekt."
+    },
+    {
+      "id": "q10",
+      "text": "Hva bør du tenke på når du bruker maskinoversettelse?",
+      "options": [
+        "At den alltid er riktig",
+        "At den kan erstatte læring",
+        "At den kan gjøre feil, så du må vurdere resultatet kritisk",
+        "At den bare virker på engelsk"
+      ],
+      "correct": 2,
+      "explain": "Maskinoversettelse kan misforstå sammenhengen."
+    }
   ],
   "mindmap": {
     "label": "Ungdom og medier",
     "children": [
-      { "label": "Ord", "children": [
-        { "label": "Handy, App" },
-        { "label": "posten, teilen" },
-        { "label": "herunterladen" }
-      ] },
-      { "label": "Meninger", "children": [
-        { "label": "Vorteil / Nachteil" },
-        { "label": "Einerseits … andererseits" },
-        { "label": "Meiner Meinung nach" }
-      ] },
-      { "label": "Temaer", "children": [
-        { "label": "Skjermtid" },
-        { "label": "Cybermobbing" },
-        { "label": "Datenschutz" },
-        { "label": "Jugendwort" }
-      ] },
-      { "label": "Lesestrategier", "children": [
-        { "label": "Skumlesing" },
-        { "label": "Internasjonale ord" },
-        { "label": "Sammenheng" },
-        { "label": "Del opp sammensatte ord" }
-      ] },
-      { "label": "Digitale ressurser", "children": [
-        { "label": "Tagesschau og logo!" },
-        { "label": "Deutsche Welle" },
-        { "label": "Maskinoversettelse med kritisk blikk" }
-      ] }
+      {
+        "label": "Ord",
+        "children": [
+          {
+            "label": "Handy, App"
+          },
+          {
+            "label": "posten, teilen"
+          },
+          {
+            "label": "herunterladen"
+          }
+        ]
+      },
+      {
+        "label": "Meninger",
+        "children": [
+          {
+            "label": "Vorteil / Nachteil"
+          },
+          {
+            "label": "Einerseits … andererseits"
+          },
+          {
+            "label": "Meiner Meinung nach"
+          }
+        ]
+      },
+      {
+        "label": "Temaer",
+        "children": [
+          {
+            "label": "Skjermtid"
+          },
+          {
+            "label": "Cybermobbing"
+          },
+          {
+            "label": "Datenschutz"
+          },
+          {
+            "label": "Jugendwort"
+          }
+        ]
+      },
+      {
+        "label": "Lesestrategier",
+        "children": [
+          {
+            "label": "Skumlesing"
+          },
+          {
+            "label": "Internasjonale ord"
+          },
+          {
+            "label": "Sammenheng"
+          },
+          {
+            "label": "Del opp sammensatte ord"
+          }
+        ]
+      },
+      {
+        "label": "Digitale ressurser",
+        "children": [
+          {
+            "label": "Tagesschau og logo!"
+          },
+          {
+            "label": "Deutsche Welle"
+          },
+          {
+            "label": "Maskinoversettelse med kritisk blikk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Deutsche Welle tilbyr gratis ressurser for å lære tysk.", "correct": true, "explain": "Der finnes både kurs, videoer og nyheter på lett tysk." },
-      { "id": "m02", "type": "sant-usant", "text": "Internasjonale ord som «Computer» og «Internet» finnes ikke på tysk.", "correct": false, "explain": "Tysk bruker mange internasjonale ord." },
-      { "id": "m03", "type": "sant-usant", "text": "«herunterladen» betyr å laste ned.", "correct": true, "explain": "«herunter» betyr ned, og «laden» betyr å laste." },
-      { "id": "m04", "type": "sant-usant", "text": "Man bør slå opp hvert eneste ord når man leser en tysk tekst.", "correct": false, "explain": "Det er bedre å slå opp de viktigste ordene og gjette resten ut fra sammenhengen." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «der Nachteil»?", "options": ["Fordelen", "Ulempen", "Natten", "Nyheten"], "correct": 1, "explain": "Fordelen heter «der Vorteil»." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr «Ich verbringe zwei Stunden pro Tag am Handy»?", "options": ["Jeg bruker to timer om dagen på mobilen", "Jeg har to mobiler", "Mobilen koster to euro", "Jeg ringer to ganger om dagen"], "correct": 0, "explain": "«verbringen» betyr å tilbringe." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er «Cybermobbing»?", "options": ["Et dataspill", "En nettbutikk", "Mobbing på nett", "Et virus"], "correct": 2, "explain": "Ordet brukes på samme måte som på norsk." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Deutsche Welle tilbyr gratis ressurser for å lære tysk.",
+        "correct": true,
+        "explain": "Der finnes både kurs, videoer og nyheter på lett tysk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Internasjonale ord som «Computer» og «Internet» finnes ikke på tysk.",
+        "correct": false,
+        "explain": "Tysk bruker mange internasjonale ord."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«herunterladen» betyr å laste ned.",
+        "correct": true,
+        "explain": "«herunter» betyr ned, og «laden» betyr å laste."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Man bør slå opp hvert eneste ord når man leser en tysk tekst.",
+        "correct": false,
+        "explain": "Det er bedre å slå opp de viktigste ordene og gjette resten ut fra sammenhengen."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «der Nachteil»?",
+        "options": [
+          "Fordelen",
+          "Ulempen",
+          "Natten",
+          "Nyheten"
+        ],
+        "correct": 1,
+        "explain": "Fordelen heter «der Vorteil»."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr «Ich verbringe zwei Stunden pro Tag am Handy»?",
+        "options": [
+          "Jeg bruker to timer om dagen på mobilen",
+          "Jeg har to mobiler",
+          "Mobilen koster to euro",
+          "Jeg ringer to ganger om dagen"
+        ],
+        "correct": 0,
+        "explain": "«verbringen» betyr å tilbringe."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er «Cybermobbing»?",
+        "options": [
+          "Et dataspill",
+          "En nettbutikk",
+          "Mobbing på nett",
+          "Et virus"
+        ],
+        "correct": 2,
+        "explain": "Ordet brukes på samme måte som på norsk."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sosiale medier kan gjøre det raskt å finne informasjon, men det finnes også falske nyheter. Forklar begge sider og hvorfor det er lurt å være kritisk til informasjon på nettet.",
+        "fasit": "Sosiale medier gjør det mulig å finne informasjon raskt, men man kan også møte falske nyheter. Derfor bør man ikke automatisk stole på alt man leser.",
+        "kriterier": [
+          "Forklarer at informasjon kan finnes raskt.",
+          "Forklarer at falske nyheter også finnes, og knytter det til behovet for å være kritisk."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Skriv en setning på tysk om hvorfor du bruker sosiale medier. Bruk uttrykket «Ich benutze soziale Medien, um …» og få fram at du vil holde kontakten med venner.",
+        "fasit": "Ich benutze soziale Medien, um mit Freunden in Kontakt zu bleiben.",
+        "kriterier": [
+          "Bruker uttrykket «Ich benutze soziale Medien, um …».",
+          "Får fram at formålet er å holde kontakten med venner."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Bruk «cringe» som eksempel, og forklar hva som kjennetegner ungdomsspråk i Tyskland.",
+        "fasit": "Ungdomsspråk endrer seg raskt, og mange ungdomsord er lånt fra engelsk. «Cringe» er et eksempel på et slikt lånord.",
+        "kriterier": [
+          "Får fram at ungdomsspråk endrer seg raskt.",
+          "Forklarer at mange ungdomsord er lånt fra engelsk, og bruker «cringe» som eksempel."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du skal lese en autentisk tysk artikkel og kjenner bare noen få ord. Beskriv hva du kan gjøre først for å få oversikt, og hvordan du kan prøve å forstå ukjente ord uten å slå opp hvert ord.",
+        "fasit": "Først kan jeg skumlese overskriften og se på bildene og ordene jeg kjenner. Deretter kan jeg se etter internasjonale ord og bruke sammenhengen til å gjette betydningen av ukjente ord.",
+        "kriterier": [
+          "Beskriver en skumlesing som bruker overskrift, bilder eller kjente ord for å få oversikt.",
+          "Nevner en strategi for ukjente ord, som å se etter internasjonale ord eller bruke sammenhengen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Du møter mange ukjente ord i en tysk tekst. Forklar hvordan du kan bruke sammenhengen og en ordbok uten å slå opp alle ordene.",
+        "fasit": "Jeg kan først prøve å gjette betydningen ut fra sammenhengen. Så kan jeg slå opp ordene som er viktigst for å forstå teksten, i stedet for å slå opp alle.",
+        "kriterier": [
+          "Forklarer at sammenhengen kan brukes til å gjette betydningen av ukjente ord.",
+          "Får fram at man bør slå opp de viktigste ordene, ikke alle."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Jana laster ned en video, legger ut et innlegg på sosiale medier, og en venn deler innlegget. Forklar på norsk hva Jana gjør, og hva vennen gjør.",
+        "fasit": "Jana laster ned en video og legger ut et innlegg. Vennen deler innlegget.",
+        "kriterier": [
+          "Forklarer at «herunterladen» betyr å laste ned, og at «posten» betyr å legge ut et innlegg.",
+          "Forklarer at «teilen» betyr å dele innlegget."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En ungdom vil se tyske nyheter, mens en annen ønsker gratis kurs og videoer for å lære tysk. Hvilke ressurser fra Tyskland passer til hvert behov, og hvorfor?",
+        "fasit": "Tagesschau eller barnenyhetene logo! passer for den som vil se nyheter. Deutsche Welle passer for den som vil ha gratis kurs og videoer for å lære tysk.",
+        "kriterier": [
+          "Knytter Tagesschau eller logo! til nyheter.",
+          "Knytter Deutsche Welle til gratis kurs og videoer for dem som lærer tysk."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En elev blir mobbet gjennom sosiale medier. Hva kalles dette på tysk, og hva betyr begrepet?",
+        "fasit": "Det kalles Cybermobbing. Begrepet betyr mobbing på nett.",
+        "kriterier": [
+          "Bruker begrepet «Cybermobbing».",
+          "Forklarer at det betyr mobbing på nett."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

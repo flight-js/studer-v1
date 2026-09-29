@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Kommunikasjon, samhandling og livskvalitet",
   "intro": "Hvordan ulike former for kommunikasjon – ansikt til ansikt, skriftlig og digital – påvirker sosial samhandling og livskvalitet: kommunikasjonsmodellen, anerkjennelse og sosial støtte, sosiale medier og sosial sammenligning, og kommunikasjonsformer som styrker relasjoner.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Hva er kommunikasjon?\n\n**Kommunikasjon** er å **utveksle** meninger, tanker og følelser. En enkel **modell** består av\n\n- en **sender** som har et budskap\n- et **budskap** som sendes gjennom en **kanal** – tale, tekst, bilde\n- en **mottaker** som **tolker** budskapet\n- **tilbakemelding** fra mottakeren\n- **støy**: alt som forstyrrer, for eksempel bråk, stress eller ulike **forventninger**\n\nMottakeren tolker budskapet ut fra egne **erfaringer**. Derfor er det ikke alltid det vi **sier**, men det andre **hører**, som teller.\n\n## Livskvalitet og relasjoner\n\n**Livskvalitet** handler om hvordan vi **opplever** livet – glede, mening, trygghet og tilhørighet. Forskning peker på at **gode relasjoner** er blant de viktigste faktorene for livskvalitet og helse gjennom livet. Kommunikasjon er **verktøyet** vi bygger relasjoner med.\n\n## Anerkjennelse\n\n**Anerkjennende** kommunikasjon betyr å møte den andre med **respekt**, **lytte** og ta følelsene til den andre **på alvor** – også når man er uenig. Å bli **sett** og **forstått** styrker selvfølelsen.\n\n**Ikkevoldelig kommunikasjon**, utviklet av **Marshall Rosenberg**, har fire trinn:\n\n1. **Observasjon** uten vurdering: «Du kom en time for sent.»\n2. **Følelse**: «Jeg ble bekymret.»\n3. **Behov**: «Jeg trenger å kunne stole på avtaler.»\n4. **Anmodning**: «Kan du sende melding neste gang?»\n\n## Sosial støtte\n\n**Sosial støtte** kan være\n\n- **emosjonell**: omsorg og trøst\n- **praktisk**: konkret hjelp\n- **informativ**: råd og kunnskap\n\nSosial støtte virker som en **buffer** mot stress. Å vite at noen er der for deg, kan være like viktig som hjelpen i seg selv.\n\n## Ulike former for kommunikasjon\n\n- **Ansikt til ansikt** gir flest signaler – **kroppsspråk**, **tonefall**, **blikk** – og mulighet for rask **tilbakemelding**.\n- **Telefon** og **video** gir tonefall og delvis kroppsspråk.\n- **Tekstmeldinger** og **chat** er raske og praktiske, men mangler mange ikke-verbale signaler. **Emojier** kan erstatte noe, men tolkes ulikt.\n- **Sosiale medier** gjør det mulig å holde kontakt over avstand og finne **fellesskap** – for eksempel for ungdom som føler seg **annerledes** der de bor.\n\n## Sosiale medier og livskvalitet\n\nSammenhengen mellom sosiale medier og livskvalitet er **omdiskutert**:\n\n- **Sosial sammenligning** – beskrevet av **Leon Festinger** – kan gi dårligere selvbilde når vi sammenligner oss med **redigerte** bilder av andres liv.\n- **FOMO** – frykt for å gå glipp av noe – kan gi uro.\n- **Nettmobbing** og **hets** rammer hardt.\n- Mye bruk kan gå ut over **søvn** og fysisk aktivitet.\n\nSamtidig gir sosiale medier **kontakt**, **støtte** og **informasjon**. Mange forskere peker på at **hvordan** vi bruker dem, betyr mer enn **hvor mye**: **Aktiv** bruk – å kommunisere med venner – ser ut til å være mer positivt enn **passiv** scrolling. Forskningen viser ofte **små** gjennomsnittlige sammenhenger, men **store** forskjeller mellom personer.\n\n## Kommunikasjon som styrker relasjoner\n\n- Vis **interesse** og still **spørsmål**.\n- **Lytt** mer enn du snakker.\n- Gi **ros** og **takk**.\n- Snakk **om** vanskelige ting i stedet for å la dem vokse.\n- Vær **tilgjengelig** – men også **til stede**, uten mobilen mellom dere.\n\n## Drøfting\n\nKommunikasjon kan gi **tilhørighet** og **støtte**, men også **misforståelser**, **utestengning** og **press**. Å drøfte hvordan ulike former påvirker livskvaliteten, handler om å se både **muligheter** og **risiko** – og å være bevisst egne **vaner**.",
   "flashcards": [
-    { "term": "Kommunikasjonsmodell", "def": "Sender, budskap, kanal, mottaker og tilbakemelding." },
-    { "term": "Støy", "def": "Alt som forstyrrer kommunikasjonen." },
-    { "term": "Livskvalitet", "def": "Opplevelsen av glede, mening, trygghet og tilhørighet." },
-    { "term": "Anerkjennende kommunikasjon", "def": "Møte den andre med respekt og ta følelsene på alvor." },
-    { "term": "Ikkevoldelig kommunikasjon", "def": "Observasjon, følelse, behov og anmodning – Rosenberg." },
-    { "term": "Emosjonell støtte", "def": "Omsorg og trøst." },
-    { "term": "Praktisk støtte", "def": "Konkret hjelp." },
-    { "term": "Informativ støtte", "def": "Råd og kunnskap." },
-    { "term": "Buffer mot stress", "def": "Sosial støtte demper virkningen av stress." },
-    { "term": "Sosial sammenligning", "def": "Vi vurderer oss selv opp mot andre – Festinger." },
-    { "term": "FOMO", "def": "Frykt for å gå glipp av noe." },
-    { "term": "Aktiv bruk", "def": "Å kommunisere med andre i sosiale medier." },
-    { "term": "Passiv bruk", "def": "Å scrolle og se på andres innhold." },
-    { "term": "Emojier", "def": "Erstatter noe av det ikke-verbale, men tolkes ulikt." },
-    { "term": "Å være til stede", "def": "Gi den andre full oppmerksomhet." }
+    {
+      "term": "Kommunikasjonsmodell",
+      "def": "Sender, budskap, kanal, mottaker og tilbakemelding."
+    },
+    {
+      "term": "Støy",
+      "def": "Alt som forstyrrer kommunikasjonen."
+    },
+    {
+      "term": "Livskvalitet",
+      "def": "Opplevelsen av glede, mening, trygghet og tilhørighet."
+    },
+    {
+      "term": "Anerkjennende kommunikasjon",
+      "def": "Møte den andre med respekt og ta følelsene på alvor."
+    },
+    {
+      "term": "Ikkevoldelig kommunikasjon",
+      "def": "Observasjon, følelse, behov og anmodning – Rosenberg."
+    },
+    {
+      "term": "Emosjonell støtte",
+      "def": "Omsorg og trøst."
+    },
+    {
+      "term": "Praktisk støtte",
+      "def": "Konkret hjelp."
+    },
+    {
+      "term": "Informativ støtte",
+      "def": "Råd og kunnskap."
+    },
+    {
+      "term": "Buffer mot stress",
+      "def": "Sosial støtte demper virkningen av stress."
+    },
+    {
+      "term": "Sosial sammenligning",
+      "def": "Vi vurderer oss selv opp mot andre – Festinger."
+    },
+    {
+      "term": "FOMO",
+      "def": "Frykt for å gå glipp av noe."
+    },
+    {
+      "term": "Aktiv bruk",
+      "def": "Å kommunisere med andre i sosiale medier."
+    },
+    {
+      "term": "Passiv bruk",
+      "def": "Å scrolle og se på andres innhold."
+    },
+    {
+      "term": "Emojier",
+      "def": "Erstatter noe av det ikke-verbale, men tolkes ulikt."
+    },
+    {
+      "term": "Å være til stede",
+      "def": "Gi den andre full oppmerksomhet."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er støy i kommunikasjonsmodellen?", "options": ["Bare høye lyder", "Alt som forstyrrer kommunikasjonen", "Tilbakemeldingen", "Budskapet"], "correct": 1, "explain": "Også stress og ulike forventninger." },
-    { "id": "q02", "text": "Hva er de fire trinnene i ikkevoldelig kommunikasjon?", "options": ["Observasjon, følelse, behov, anmodning", "Kritikk, forsvar, angrep, pause", "Sender, kanal, mottaker, støy", "Lytte, snakke, gå, komme"], "correct": 0, "explain": "Marshall Rosenberg." },
-    { "id": "q03", "text": "Hvilken form for kommunikasjon gir flest signaler?", "options": ["Tekstmelding", "E-post", "Ansikt til ansikt", "Brev"], "correct": 2, "explain": "Kroppsspråk, tonefall og blikk." },
-    { "id": "q04", "text": "Hva er sosial sammenligning?", "options": ["Å samarbeide", "Å dele bilder", "Å hjelpe andre", "Å vurdere seg selv opp mot andre"], "correct": 3, "explain": "Kan gi dårligere selvbilde." },
-    { "id": "q05", "text": "Hvilken type sosiale medier-bruk ser ut til å være mest positiv?", "options": ["Aktiv kommunikasjon med venner", "Passiv scrolling", "Bruk om natten", "Bruk uten pauser"], "correct": 0, "explain": "Hvordan betyr mer enn hvor mye." },
-    { "id": "q06", "text": "Hva er emosjonell støtte?", "options": ["Konkret hjelp", "Omsorg og trøst", "Råd og kunnskap", "Penger"], "correct": 1, "explain": "En av tre typer sosial støtte." },
-    { "id": "q07", "text": "Hvorfor er relasjoner viktige for livskvalitet?", "options": ["Fordi de gir penger", "Fordi de erstatter søvn", "Fordi gode relasjoner er blant de viktigste faktorene for helse og trivsel", "Fordi de hindrer all sorg"], "correct": 2, "explain": "Kommunikasjon er verktøyet." },
-    { "id": "q08", "text": "Hva betyr at sosial støtte virker som en buffer?", "options": ["At den gir mer stress", "At den erstatter behandling", "At den bare gjelder barn", "At den demper virkningen av stress"], "correct": 3, "explain": "Å vite at noen er der, hjelper." },
-    { "id": "q09", "text": "Hva er FOMO?", "options": ["Frykt for å gå glipp av noe", "En app", "En type mobbing", "En kommunikasjonsmodell"], "correct": 0, "explain": "Fear of missing out." },
-    { "id": "q10", "text": "Hvorfor kan emojier skape misforståelser?", "options": ["Fordi de er forbudt", "Fordi de tolkes ulikt", "Fordi de er for store", "Fordi de alltid er negative"], "correct": 1, "explain": "Erstatter bare delvis kroppsspråk." }
+    {
+      "id": "q01",
+      "text": "Hva er støy i kommunikasjonsmodellen?",
+      "options": [
+        "Bare høye lyder",
+        "Alt som forstyrrer kommunikasjonen",
+        "Tilbakemeldingen",
+        "Budskapet"
+      ],
+      "correct": 1,
+      "explain": "Også stress og ulike forventninger."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er de fire trinnene i ikkevoldelig kommunikasjon?",
+      "options": [
+        "Observasjon, følelse, behov, anmodning",
+        "Kritikk, forsvar, angrep, pause",
+        "Sender, kanal, mottaker, støy",
+        "Lytte, snakke, gå, komme"
+      ],
+      "correct": 0,
+      "explain": "Marshall Rosenberg."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken form for kommunikasjon gir flest signaler?",
+      "options": [
+        "Tekstmelding",
+        "E-post",
+        "Ansikt til ansikt",
+        "Brev"
+      ],
+      "correct": 2,
+      "explain": "Kroppsspråk, tonefall og blikk."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er sosial sammenligning?",
+      "options": [
+        "Å samarbeide",
+        "Å dele bilder",
+        "Å hjelpe andre",
+        "Å vurdere seg selv opp mot andre"
+      ],
+      "correct": 3,
+      "explain": "Kan gi dårligere selvbilde."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken type sosiale medier-bruk ser ut til å være mest positiv?",
+      "options": [
+        "Aktiv kommunikasjon med venner",
+        "Passiv scrolling",
+        "Bruk om natten",
+        "Bruk uten pauser"
+      ],
+      "correct": 0,
+      "explain": "Hvordan betyr mer enn hvor mye."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er emosjonell støtte?",
+      "options": [
+        "Konkret hjelp",
+        "Omsorg og trøst",
+        "Råd og kunnskap",
+        "Penger"
+      ],
+      "correct": 1,
+      "explain": "En av tre typer sosial støtte."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er relasjoner viktige for livskvalitet?",
+      "options": [
+        "Fordi de gir penger",
+        "Fordi de erstatter søvn",
+        "Fordi gode relasjoner er blant de viktigste faktorene for helse og trivsel",
+        "Fordi de hindrer all sorg"
+      ],
+      "correct": 2,
+      "explain": "Kommunikasjon er verktøyet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr at sosial støtte virker som en buffer?",
+      "options": [
+        "At den gir mer stress",
+        "At den erstatter behandling",
+        "At den bare gjelder barn",
+        "At den demper virkningen av stress"
+      ],
+      "correct": 3,
+      "explain": "Å vite at noen er der, hjelper."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er FOMO?",
+      "options": [
+        "Frykt for å gå glipp av noe",
+        "En app",
+        "En type mobbing",
+        "En kommunikasjonsmodell"
+      ],
+      "correct": 0,
+      "explain": "Fear of missing out."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan emojier skape misforståelser?",
+      "options": [
+        "Fordi de er forbudt",
+        "Fordi de tolkes ulikt",
+        "Fordi de er for store",
+        "Fordi de alltid er negative"
+      ],
+      "correct": 1,
+      "explain": "Erstatter bare delvis kroppsspråk."
+    }
   ],
   "mindmap": {
     "label": "Kommunikasjon og livskvalitet",
     "children": [
-      { "label": "Modell", "children": [
-        { "label": "Sender og mottaker" },
-        { "label": "Kanal og støy" }
-      ] },
-      { "label": "Relasjoner", "children": [
-        { "label": "Anerkjennelse" },
-        { "label": "Ikkevoldelig kommunikasjon" },
-        { "label": "Sosial støtte" }
-      ] },
-      { "label": "Former", "children": [
-        { "label": "Ansikt til ansikt" },
-        { "label": "Tekst og emojier" },
-        { "label": "Sosiale medier" }
-      ] },
-      { "label": "Risiko", "children": [
-        { "label": "Sosial sammenligning" },
-        { "label": "FOMO og nettmobbing" }
-      ] },
-      { "label": "Gode vaner", "children": [
-        { "label": "Aktiv bruk" },
-        { "label": "Lytte og være til stede" }
-      ] }
+      {
+        "label": "Modell",
+        "children": [
+          {
+            "label": "Sender og mottaker"
+          },
+          {
+            "label": "Kanal og støy"
+          }
+        ]
+      },
+      {
+        "label": "Relasjoner",
+        "children": [
+          {
+            "label": "Anerkjennelse"
+          },
+          {
+            "label": "Ikkevoldelig kommunikasjon"
+          },
+          {
+            "label": "Sosial støtte"
+          }
+        ]
+      },
+      {
+        "label": "Former",
+        "children": [
+          {
+            "label": "Ansikt til ansikt"
+          },
+          {
+            "label": "Tekst og emojier"
+          },
+          {
+            "label": "Sosiale medier"
+          }
+        ]
+      },
+      {
+        "label": "Risiko",
+        "children": [
+          {
+            "label": "Sosial sammenligning"
+          },
+          {
+            "label": "FOMO og nettmobbing"
+          }
+        ]
+      },
+      {
+        "label": "Gode vaner",
+        "children": [
+          {
+            "label": "Aktiv bruk"
+          },
+          {
+            "label": "Lytte og være til stede"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mottakeren tolker budskapet ut fra egne erfaringer.", "correct": true, "explain": "Derfor kan samme ord forstås ulikt." },
-      { "id": "m02", "type": "sant-usant", "text": "Forskningen viser entydig at alle sosiale medier gjør alle ungdommer deprimerte.", "correct": false, "explain": "Sammenhengene er ofte små og varierer mye." },
-      { "id": "m03", "type": "sant-usant", "text": "Sosiale medier kan gi fellesskap for ungdom som føler seg annerledes.", "correct": true, "explain": "En viktig positiv side." },
-      { "id": "m04", "type": "sant-usant", "text": "Anerkjennelse betyr at man alltid må være enig.", "correct": false, "explain": "Man kan anerkjenne følelser og være uenig." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket utsagn er en observasjon uten vurdering?", "options": ["Du er alltid sen", "Du kom en time for sent", "Du bryr deg ikke", "Du er upålitelig"], "correct": 1, "explain": "Beskriver bare hva som skjedde." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er informativ støtte?", "options": ["Råd og kunnskap", "Trøst", "Konkret hjelp", "En gave"], "correct": 0, "explain": "En av tre typer." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan kan mye skjermbruk påvirke helsen indirekte?", "options": ["Bedre søvn", "Mer fysisk aktivitet", "Mindre søvn og fysisk aktivitet", "Ingen virkning"], "correct": 2, "explain": "Fortrenger andre aktiviteter." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mottakeren tolker budskapet ut fra egne erfaringer.",
+        "correct": true,
+        "explain": "Derfor kan samme ord forstås ulikt."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Forskningen viser entydig at alle sosiale medier gjør alle ungdommer deprimerte.",
+        "correct": false,
+        "explain": "Sammenhengene er ofte små og varierer mye."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Sosiale medier kan gi fellesskap for ungdom som føler seg annerledes.",
+        "correct": true,
+        "explain": "En viktig positiv side."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Anerkjennelse betyr at man alltid må være enig.",
+        "correct": false,
+        "explain": "Man kan anerkjenne følelser og være uenig."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket utsagn er en observasjon uten vurdering?",
+        "options": [
+          "Du er alltid sen",
+          "Du kom en time for sent",
+          "Du bryr deg ikke",
+          "Du er upålitelig"
+        ],
+        "correct": 1,
+        "explain": "Beskriver bare hva som skjedde."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er informativ støtte?",
+        "options": [
+          "Råd og kunnskap",
+          "Trøst",
+          "Konkret hjelp",
+          "En gave"
+        ],
+        "correct": 0,
+        "explain": "En av tre typer."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan kan mye skjermbruk påvirke helsen indirekte?",
+        "options": [
+          "Bedre søvn",
+          "Mer fysisk aktivitet",
+          "Mindre søvn og fysisk aktivitet",
+          "Ingen virkning"
+        ],
+        "correct": 2,
+        "explain": "Fortrenger andre aktiviteter."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr livskvalitet, og nevn to sider ved livet som inngår i opplevelsen av livskvalitet.",
+        "fasit": "Livskvalitet handler om hvordan vi opplever livet. Det kan blant annet dreie seg om glede, mening, trygghet og tilhørighet.",
+        "kriterier": [
+          "Forklarer at livskvalitet handler om opplevelsen av livet.",
+          "Nevner minst to relevante sider, som glede, mening, trygghet eller tilhørighet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sara sender en melding til Amir: «Kan du ta med boka mi i morgen?» Amir svarer: «Ja, det kan jeg.» Bruk kommunikasjonsmodellen til å forklare hvem som er sender og mottaker, hva budskapet er, hvilken kanal som brukes, og hva som er tilbakemeldingen.",
+        "fasit": "Sara er sender, og Amir er mottaker. Budskapet er spørsmålet om å ta med boka, kanalen er tekstmelding, og svaret fra Amir er tilbakemeldingen.",
+        "kriterier": [
+          "Identifiserer Sara som sender, Amir som mottaker og spørsmålet som budskap.",
+          "Identifiserer tekstmelding som kanal og Amirs svar som tilbakemelding."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "To venner prøver å løse en uenighet først på tekstmelding og senere ansikt til ansikt. Forklar hvorfor det kan være lettere å oppklare misforståelser når de snakker ansikt til ansikt.",
+        "fasit": "Ansikt til ansikt kan de bruke kroppsspråk, tonefall og blikk, og de kan få rask tilbakemelding. Tekstmeldinger mangler mange slike signaler, som kan gjøre budskapet vanskeligere å tolke.",
+        "kriterier": [
+          "Forklarer at ansikt til ansikt gir flere ikke-verbale signaler, som kroppsspråk, tonefall eller blikk.",
+          "Knytter rask tilbakemelding eller mangel på signaler i tekst til muligheten for å oppklare misforståelser."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev er stresset før en prøve. En venn trøster eleven, hjelper med å lage en leseplan og gir råd om hvordan stoffet kan øves på. Hvilken type sosial støtte viser hver handling?",
+        "fasit": "Trøsten er emosjonell støtte, og hjelpen med leseplanen er praktisk støtte. Rådene om øving er informativ støtte.",
+        "kriterier": [
+          "Knytter trøst til emosjonell støtte og hjelp med leseplan til praktisk støtte.",
+          "Knytter rådene om øving til informativ støtte."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Mina forteller en venn at hun føler seg utenfor. Vennen er uenig i Minas tolkning av situasjonen. Hva kan vennen gjøre for å kommunisere anerkjennende, og hvordan kan det påvirke Mina?",
+        "fasit": "Vennen kan lytte respektfullt og ta Minas følelser på alvor, selv om de er uenige. Når Mina føler seg sett og forstått, kan det styrke selvfølelsen hennes.",
+        "kriterier": [
+          "Beskriver respektfull lytting og at Minas følelser tas på alvor til tross for uenighet.",
+          "Forklarer at det å bli sett eller forstått kan styrke selvfølelsen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Oskar ser ofte redigerte bilder av andres liv på sosiale medier og begynner å føle at hans eget liv ikke er bra nok. Forklar hvordan sosial sammenligning kan bidra til denne reaksjonen.",
+        "fasit": "Oskar vurderer seg selv opp mot andres liv. Når bildene er redigerte, kan han sammenligne seg med et glansbilde og få et dårligere selvbilde.",
+        "kriterier": [
+          "Forklarer at sosial sammenligning innebærer å vurdere seg selv opp mot andre.",
+          "Knytter redigerte bilder til risiko for dårligere selvbilde."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En undersøkelse finner en liten gjennomsnittlig sammenheng mellom bruk av sosiale medier og livskvalitet. Forklar hvorfor dette ikke betyr at sosiale medier påvirker alle mennesker på samme måte.",
+        "fasit": "En liten gjennomsnittlig sammenheng sier ikke at virkningen er lik for hver person. Det er store forskjeller mellom personer, og hvordan sosiale medier brukes, har betydning.",
+        "kriterier": [
+          "Forklarer at et gjennomsnitt ikke viser samme virkning for alle.",
+          "Nevner store forskjeller mellom personer eller at måten sosiale medier brukes på, har betydning."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En ungdom som føler seg annerledes der hun bor, finner et fellesskap på sosiale medier, men opplever også hets der. Forklar én mulig positiv og én mulig negativ virkning dette kan ha på livskvaliteten hennes.",
+        "fasit": "Fellesskapet kan gi henne kontakt og tilhørighet. Hets kan ramme hardt og dermed påvirke livskvaliteten negativt.",
+        "kriterier": [
+          "Forklarer hvordan kontakt eller fellesskap på sosiale medier kan gi tilhørighet eller støtte.",
+          "Forklarer at hets kan være skadelig og påvirke livskvaliteten negativt."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,77 +4,419 @@
   "trinnId": "vg2",
   "name": "Likestilling og diskriminering",
   "intro": "Likestillings- og diskrimineringsloven: hvilke grunnlag som er vernet, direkte og indirekte forskjellsbehandling, trakassering, lovlig forskjellsbehandling og positiv særbehandling, arbeidsgiveres plikter og hvordan saker håndheves av ombudet og Diskrimineringsnemnda.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Grunnlaget\n\n**Grunnloven § 98** slår fast at alle er **like for loven**, og at ingen skal utsettes for **usaklig** eller **uforholdsmessig** forskjellsbehandling. Den viktigste loven er **likestillings- og diskrimineringsloven** fra **2018**. Formålet er å fremme **likestilling** og hindre **diskriminering**.\n\n## Vernede grunnlag\n\nDet er forbudt å diskriminere på grunn av\n\n- **kjønn**, **graviditet** og **permisjon** ved fødsel eller adopsjon\n- **omsorgsoppgaver**\n- **etnisitet** – blant annet nasjonal opprinnelse, avstamning, hudfarge og språk\n- **religion** og **livssyn**\n- **funksjonsnedsettelse**\n- **seksuell orientering**, **kjønnsidentitet** og **kjønnsuttrykk**\n- **alder**\n\nForbudet gjelder også **kombinasjoner** av grunnlag, og det gjelder på **alle samfunnsområder** – arbeidsliv, utdanning, boligmarked, butikker og offentlige tjenester.\n\n## Former for diskriminering\n\n- **Direkte forskjellsbehandling**: Noen blir behandlet **dårligere** enn andre på grunn av et vernet grunnlag. Eksempel: En utleier nekter å leie ut til en person på grunn av hudfarge.\n- **Indirekte forskjellsbehandling**: En **tilsynelatende nøytral** regel eller praksis stiller noen **dårligere**. Eksempel: Et krav om «perfekt norsk» for en jobb der det ikke trengs, kan ramme personer med annen etnisk bakgrunn.\n- **Trakassering**: handlinger, unnlatelser eller ytringer som virker **krenkende**, **nedverdigende** eller **skremmende** og har sammenheng med et vernet grunnlag.\n- **Seksuell trakassering**: uønsket seksuell oppmerksomhet som er plagsom.\n- **Gjengjeldelse**: Det er forbudt å straffe noen for å ha **klaget** på diskriminering.\n\n## Lovlig forskjellsbehandling\n\nIkke all forskjellsbehandling er ulovlig. Den er **lovlig** hvis den\n\n1. har et **saklig formål**\n2. er **nødvendig** for å oppnå formålet\n3. er **forholdsmessig** – ikke for inngripende overfor dem det gjelder\n\nEksempel: Et krav om at en livredder må kunne svømme godt, er lovlig selv om det kan utelukke noen.\n\n**Positiv særbehandling** – å prioritere en underrepresentert gruppe – kan også være lovlig, for eksempel **kjønnspoeng** ved opptak til noen studier, så lenge det er **egnet** og **forholdsmessig** og opphører når formålet er nådd.\n\n## Plikter\n\n- Offentlige myndigheter og arbeidsgivere har en **aktivitetsplikt**: De skal arbeide **aktivt** og **planmessig** for likestilling og mot diskriminering.\n- Arbeidsgivere skal **forebygge** trakassering.\n- Det stilles krav om **universell utforming** og **individuell tilrettelegging** for personer med funksjonsnedsettelse.\n\n## Håndheving\n\n- **Likestillings- og diskrimineringsombudet (LDO)** gir **veiledning** og driver **pådriverarbeid**.\n- **Diskrimineringsnemnda** behandler **klager** og kan fatte **vedtak**, for eksempel om **oppreisning** og **erstatning** i arbeidslivssaker. Det er **gratis** å klage.\n- Saker kan også bringes inn for **domstolene**.\n\n**Delt bevisbyrde**: Hvis det er grunn til å tro at diskriminering har skjedd, må den som er anklaget, **sannsynliggjøre** at det ikke skjedde.\n\n## Drøfting\n\nDiskriminering skjer ofte **skjult** og er vanskelig å bevise. Tiltak som **anonyme** søknader, opplæring og **tilsyn** kan hjelpe. Samtidig kan det oppstå spenninger mellom **diskrimineringsvern** og andre rettigheter, som **religionsfrihet** og **ytringsfrihet**.",
   "flashcards": [
-    { "term": "Grunnloven § 98", "def": "Alle er like for loven." },
-    { "term": "Likestillings- og diskrimineringsloven", "def": "Felles lov fra 2018 mot diskriminering." },
-    { "term": "Vernede grunnlag", "def": "Kjønn, etnisitet, religion, funksjonsnedsettelse, seksuell orientering, alder med flere." },
-    { "term": "Direkte forskjellsbehandling", "def": "Dårligere behandling på grunn av et vernet grunnlag." },
-    { "term": "Indirekte forskjellsbehandling", "def": "Tilsynelatende nøytral regel som stiller noen dårligere." },
-    { "term": "Trakassering (diskriminering)", "def": "Krenkende handlinger knyttet til et vernet grunnlag." },
-    { "term": "Gjengjeldelse", "def": "Å straffe noen for å ha klaget – forbudt." },
-    { "term": "Lovlig forskjellsbehandling", "def": "Saklig formål, nødvendig og forholdsmessig." },
-    { "term": "Positiv særbehandling", "def": "Prioritering av underrepresentert gruppe, for eksempel kjønnspoeng." },
-    { "term": "Aktivitetsplikt", "def": "Plikt for arbeidsgivere og myndigheter til å fremme likestilling." },
-    { "term": "Individuell tilrettelegging", "def": "Tilpasning for personer med funksjonsnedsettelse." },
-    { "term": "LDO", "def": "Likestillings- og diskrimineringsombudet – veiledning og pådriver." },
-    { "term": "Diskrimineringsnemnda", "def": "Behandler klager og fatter vedtak." },
-    { "term": "Oppreisning", "def": "Erstatning for ikke-økonomisk skade." },
-    { "term": "Delt bevisbyrde", "def": "Den anklagede må sannsynliggjøre at diskriminering ikke skjedde." }
+    {
+      "term": "Grunnloven § 98",
+      "def": "Alle er like for loven."
+    },
+    {
+      "term": "Likestillings- og diskrimineringsloven",
+      "def": "Felles lov fra 2018 mot diskriminering."
+    },
+    {
+      "term": "Vernede grunnlag",
+      "def": "Kjønn, etnisitet, religion, funksjonsnedsettelse, seksuell orientering, alder med flere."
+    },
+    {
+      "term": "Direkte forskjellsbehandling",
+      "def": "Dårligere behandling på grunn av et vernet grunnlag."
+    },
+    {
+      "term": "Indirekte forskjellsbehandling",
+      "def": "Tilsynelatende nøytral regel som stiller noen dårligere."
+    },
+    {
+      "term": "Trakassering (diskriminering)",
+      "def": "Krenkende handlinger knyttet til et vernet grunnlag."
+    },
+    {
+      "term": "Gjengjeldelse",
+      "def": "Å straffe noen for å ha klaget – forbudt."
+    },
+    {
+      "term": "Lovlig forskjellsbehandling",
+      "def": "Saklig formål, nødvendig og forholdsmessig."
+    },
+    {
+      "term": "Positiv særbehandling",
+      "def": "Prioritering av underrepresentert gruppe, for eksempel kjønnspoeng."
+    },
+    {
+      "term": "Aktivitetsplikt",
+      "def": "Plikt for arbeidsgivere og myndigheter til å fremme likestilling."
+    },
+    {
+      "term": "Individuell tilrettelegging",
+      "def": "Tilpasning for personer med funksjonsnedsettelse."
+    },
+    {
+      "term": "LDO",
+      "def": "Likestillings- og diskrimineringsombudet – veiledning og pådriver."
+    },
+    {
+      "term": "Diskrimineringsnemnda",
+      "def": "Behandler klager og fatter vedtak."
+    },
+    {
+      "term": "Oppreisning",
+      "def": "Erstatning for ikke-økonomisk skade."
+    },
+    {
+      "term": "Delt bevisbyrde",
+      "def": "Den anklagede må sannsynliggjøre at diskriminering ikke skjedde."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er indirekte forskjellsbehandling?", "options": ["Åpen diskriminering på grunn av kjønn", "En tilsynelatende nøytral regel som stiller noen dårligere", "Positiv særbehandling", "Lovlig forskjellsbehandling"], "correct": 1, "explain": "For eksempel unødvendige språkkrav." },
-    { "id": "q02", "text": "Hvilke vilkår må være oppfylt for at forskjellsbehandling skal være lovlig?", "options": ["Saklig formål, nødvendig og forholdsmessig", "At arbeidsgiver vil det", "At flertallet er enig", "At den er skriftlig"], "correct": 0, "explain": "Alle tre vilkårene må være oppfylt." },
-    { "id": "q03", "text": "Hvem behandler klager på diskriminering og kan fatte vedtak?", "options": ["Stortinget", "Politiet", "Diskrimineringsnemnda", "Datatilsynet"], "correct": 2, "explain": "Gratis å klage." },
-    { "id": "q04", "text": "Hva er positiv særbehandling?", "options": ["Å behandle alle likt", "Ulovlig diskriminering", "Trakassering", "Å prioritere en underrepresentert gruppe for å fremme likestilling"], "correct": 3, "explain": "Må være egnet og forholdsmessig." },
-    { "id": "q05", "text": "Hvilket er et vernet grunnlag etter loven?", "options": ["Alder", "Favorittlag", "Hårfarge som motepreferanse", "Musikksmak"], "correct": 0, "explain": "Sammen med blant annet kjønn og etnisitet." },
-    { "id": "q06", "text": "Hva betyr delt bevisbyrde?", "options": ["At begge parter må betale", "At den anklagede må sannsynliggjøre at diskriminering ikke skjedde, når det er grunn til å tro at den har skjedd", "At ingen må bevise noe", "At dommeren beviser alt"], "correct": 1, "explain": "Gjør det lettere for den som er diskriminert." },
-    { "id": "q07", "text": "Hva er gjengjeldelse?", "options": ["Erstatning", "En klage", "Å straffe noen for å ha klaget på diskriminering", "Et vedtak"], "correct": 2, "explain": "Forbudt etter loven." },
-    { "id": "q08", "text": "Hva er aktivitetsplikten?", "options": ["Plikt til å trene", "Plikt for ansatte til å delta på fester", "Plikt for elever til å møte", "Plikt for arbeidsgivere og myndigheter til å arbeide aktivt for likestilling"], "correct": 3, "explain": "Planmessig og aktivt." },
-    { "id": "q09", "text": "Er et krav om at en livredder må kunne svømme godt, lovlig?", "options": ["Ja, det har saklig formål, er nødvendig og forholdsmessig", "Nei, det er alltid diskriminering", "Bare for menn", "Bare om sommeren"], "correct": 0, "explain": "Lovlig forskjellsbehandling." },
-    { "id": "q10", "text": "Hva gjør Likestillings- og diskrimineringsombudet?", "options": ["Dømmer i straffesaker", "Gir veiledning og driver pådriverarbeid", "Vedtar lover", "Ansetter folk"], "correct": 1, "explain": "Nemnda fatter vedtak i klagesaker." }
+    {
+      "id": "q01",
+      "text": "Hva er indirekte forskjellsbehandling?",
+      "options": [
+        "Åpen diskriminering på grunn av kjønn",
+        "En tilsynelatende nøytral regel som stiller noen dårligere",
+        "Positiv særbehandling",
+        "Lovlig forskjellsbehandling"
+      ],
+      "correct": 1,
+      "explain": "For eksempel unødvendige språkkrav."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilke vilkår må være oppfylt for at forskjellsbehandling skal være lovlig?",
+      "options": [
+        "Saklig formål, nødvendig og forholdsmessig",
+        "At arbeidsgiver vil det",
+        "At flertallet er enig",
+        "At den er skriftlig"
+      ],
+      "correct": 0,
+      "explain": "Alle tre vilkårene må være oppfylt."
+    },
+    {
+      "id": "q03",
+      "text": "Hvem behandler klager på diskriminering og kan fatte vedtak?",
+      "options": [
+        "Stortinget",
+        "Politiet",
+        "Diskrimineringsnemnda",
+        "Datatilsynet"
+      ],
+      "correct": 2,
+      "explain": "Gratis å klage."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er positiv særbehandling?",
+      "options": [
+        "Å behandle alle likt",
+        "Ulovlig diskriminering",
+        "Trakassering",
+        "Å prioritere en underrepresentert gruppe for å fremme likestilling"
+      ],
+      "correct": 3,
+      "explain": "Må være egnet og forholdsmessig."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket er et vernet grunnlag etter loven?",
+      "options": [
+        "Alder",
+        "Favorittlag",
+        "Hårfarge som motepreferanse",
+        "Musikksmak"
+      ],
+      "correct": 0,
+      "explain": "Sammen med blant annet kjønn og etnisitet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr delt bevisbyrde?",
+      "options": [
+        "At begge parter må betale",
+        "At den anklagede må sannsynliggjøre at diskriminering ikke skjedde, når det er grunn til å tro at den har skjedd",
+        "At ingen må bevise noe",
+        "At dommeren beviser alt"
+      ],
+      "correct": 1,
+      "explain": "Gjør det lettere for den som er diskriminert."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er gjengjeldelse?",
+      "options": [
+        "Erstatning",
+        "En klage",
+        "Å straffe noen for å ha klaget på diskriminering",
+        "Et vedtak"
+      ],
+      "correct": 2,
+      "explain": "Forbudt etter loven."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er aktivitetsplikten?",
+      "options": [
+        "Plikt til å trene",
+        "Plikt for ansatte til å delta på fester",
+        "Plikt for elever til å møte",
+        "Plikt for arbeidsgivere og myndigheter til å arbeide aktivt for likestilling"
+      ],
+      "correct": 3,
+      "explain": "Planmessig og aktivt."
+    },
+    {
+      "id": "q09",
+      "text": "Er et krav om at en livredder må kunne svømme godt, lovlig?",
+      "options": [
+        "Ja, det har saklig formål, er nødvendig og forholdsmessig",
+        "Nei, det er alltid diskriminering",
+        "Bare for menn",
+        "Bare om sommeren"
+      ],
+      "correct": 0,
+      "explain": "Lovlig forskjellsbehandling."
+    },
+    {
+      "id": "q10",
+      "text": "Hva gjør Likestillings- og diskrimineringsombudet?",
+      "options": [
+        "Dømmer i straffesaker",
+        "Gir veiledning og driver pådriverarbeid",
+        "Vedtar lover",
+        "Ansetter folk"
+      ],
+      "correct": 1,
+      "explain": "Nemnda fatter vedtak i klagesaker."
+    }
   ],
   "mindmap": {
     "label": "Likestilling og diskriminering",
     "children": [
-      { "label": "Grunnlag", "children": [
-        { "label": "Grl. § 98" },
-        { "label": "Loven fra 2018" }
-      ] },
-      { "label": "Vernede grunnlag", "children": [
-        { "label": "Kjønn og graviditet" },
-        { "label": "Etnisitet og religion" },
-        { "label": "Funksjonsnedsettelse, legning, alder" }
-      ] },
-      { "label": "Former", "children": [
-        { "label": "Direkte" },
-        { "label": "Indirekte" },
-        { "label": "Trakassering og gjengjeldelse" }
-      ] },
-      { "label": "Unntak", "children": [
-        { "label": "Saklig, nødvendig, forholdsmessig" },
-        { "label": "Positiv særbehandling" }
-      ] },
-      { "label": "Håndheving", "children": [
-        { "label": "LDO" },
-        { "label": "Diskrimineringsnemnda" },
-        { "label": "Delt bevisbyrde" }
-      ] }
+      {
+        "label": "Grunnlag",
+        "children": [
+          {
+            "label": "Grl. § 98"
+          },
+          {
+            "label": "Loven fra 2018"
+          }
+        ]
+      },
+      {
+        "label": "Vernede grunnlag",
+        "children": [
+          {
+            "label": "Kjønn og graviditet"
+          },
+          {
+            "label": "Etnisitet og religion"
+          },
+          {
+            "label": "Funksjonsnedsettelse, legning, alder"
+          }
+        ]
+      },
+      {
+        "label": "Former",
+        "children": [
+          {
+            "label": "Direkte"
+          },
+          {
+            "label": "Indirekte"
+          },
+          {
+            "label": "Trakassering og gjengjeldelse"
+          }
+        ]
+      },
+      {
+        "label": "Unntak",
+        "children": [
+          {
+            "label": "Saklig, nødvendig, forholdsmessig"
+          },
+          {
+            "label": "Positiv særbehandling"
+          }
+        ]
+      },
+      {
+        "label": "Håndheving",
+        "children": [
+          {
+            "label": "LDO"
+          },
+          {
+            "label": "Diskrimineringsnemnda"
+          },
+          {
+            "label": "Delt bevisbyrde"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Diskrimineringsforbudet gjelder også i boligmarkedet.", "correct": true, "explain": "Det gjelder på alle samfunnsområder." },
-      { "id": "m02", "type": "sant-usant", "text": "All forskjellsbehandling er ulovlig.", "correct": false, "explain": "Den kan være lovlig hvis vilkårene er oppfylt." },
-      { "id": "m03", "type": "sant-usant", "text": "Det er gratis å klage til Diskrimineringsnemnda.", "correct": true, "explain": "Senker terskelen for å klage." },
-      { "id": "m04", "type": "sant-usant", "text": "Diskriminering på grunn av flere grunnlag samtidig er ikke vernet.", "correct": false, "explain": "Kombinasjoner er også vernet." },
-      { "id": "m05", "type": "flervalg", "text": "En utleier nekter en person på grunn av hudfarge. Hva slags diskriminering er dette?", "options": ["Indirekte forskjellsbehandling", "Direkte forskjellsbehandling", "Positiv særbehandling", "Lovlig forskjellsbehandling"], "correct": 1, "explain": "Dårligere behandling på grunn av etnisitet." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket tiltak kan redusere diskriminering ved ansettelser?", "options": ["Anonyme søknader", "Krav om bilde i søknaden", "Bare muntlige intervjuer", "Kortere søknadsfrist"], "correct": 0, "explain": "Fjerner informasjon om grunnlag." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken rettighet kan komme i spenning med diskrimineringsvernet?", "options": ["Retten til ferie", "Retten til arv", "Religionsfrihet", "Retten til overtidstillegg"], "correct": 2, "explain": "Også ytringsfrihet." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Diskrimineringsforbudet gjelder også i boligmarkedet.",
+        "correct": true,
+        "explain": "Det gjelder på alle samfunnsområder."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "All forskjellsbehandling er ulovlig.",
+        "correct": false,
+        "explain": "Den kan være lovlig hvis vilkårene er oppfylt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Det er gratis å klage til Diskrimineringsnemnda.",
+        "correct": true,
+        "explain": "Senker terskelen for å klage."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Diskriminering på grunn av flere grunnlag samtidig er ikke vernet.",
+        "correct": false,
+        "explain": "Kombinasjoner er også vernet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "En utleier nekter en person på grunn av hudfarge. Hva slags diskriminering er dette?",
+        "options": [
+          "Indirekte forskjellsbehandling",
+          "Direkte forskjellsbehandling",
+          "Positiv særbehandling",
+          "Lovlig forskjellsbehandling"
+        ],
+        "correct": 1,
+        "explain": "Dårligere behandling på grunn av etnisitet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket tiltak kan redusere diskriminering ved ansettelser?",
+        "options": [
+          "Anonyme søknader",
+          "Krav om bilde i søknaden",
+          "Bare muntlige intervjuer",
+          "Kortere søknadsfrist"
+        ],
+        "correct": 0,
+        "explain": "Fjerner informasjon om grunnlag."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken rettighet kan komme i spenning med diskrimineringsvernet?",
+        "options": [
+          "Retten til ferie",
+          "Retten til arv",
+          "Religionsfrihet",
+          "Retten til overtidstillegg"
+        ],
+        "correct": 2,
+        "explain": "Også ytringsfrihet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Grunnloven § 98 og likestillings- og diskrimineringsloven handler begge om likestilling. Forklar hva § 98 slår fast, og hva loven fra 2018 skal bidra til.",
+        "fasit": "Grunnloven § 98 slår fast at alle er like for loven, og at ingen skal utsettes for usaklig eller uforholdsmessig forskjellsbehandling. Likestillings- og diskrimineringsloven skal fremme likestilling og hindre diskriminering.",
+        "kriterier": [
+          "Får fram at alle er like for loven, og at usaklig eller uforholdsmessig forskjellsbehandling ikke skal skje.",
+          "Får fram at loven skal fremme likestilling og hindre diskriminering."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En utleier avslår en søknad om bolig fordi søkeren har en bestemt religion. Hvilken form for forskjellsbehandling kan dette være, og hvorfor?",
+        "fasit": "Dette kan være direkte forskjellsbehandling. Søkeren blir behandlet dårligere på grunn av religion, som er et vernet grunnlag.",
+        "kriterier": [
+          "Identifiserer det som direkte forskjellsbehandling.",
+          "Forklarer at søkeren blir behandlet dårligere på grunn av religion."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En person får gjentatte uønskede seksuelle kommentarer som oppleves plagsomme. Hvilken form for trakassering beskriver situasjonen, og hva kjennetegner den?",
+        "fasit": "Dette er seksuell trakassering. Den kjennetegnes av uønsket seksuell oppmerksomhet som er plagsom.",
+        "kriterier": [
+          "Identifiserer situasjonen som seksuell trakassering.",
+          "Får fram at oppmerksomheten er uønsket og plagsom."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person blir avvist når hen søker om å leie bolig, fordi utleieren reagerer på en kombinasjon av søkerens alder og funksjonsnedsettelse. Forklar om slike kombinasjoner er omfattet av diskrimineringsvernet, og om vernet gjelder ved utleie av bolig.",
+        "fasit": "Diskrimineringsvernet gjelder også når flere vernede grunnlag virker sammen, som alder og funksjonsnedsettelse. Vernet gjelder på boligmarkedet.",
+        "kriterier": [
+          "Får fram at kombinasjoner av vernede grunnlag også er omfattet.",
+          "Får fram at diskrimineringsvernet gjelder på boligmarkedet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En arbeidstaker med funksjonsnedsettelse trenger en tilpasning på arbeidsplassen for å kunne utføre arbeidet. Hvilket tiltak omtales som individuell tilrettelegging, og hvem skal det være rettet mot?",
+        "fasit": "Det er individuell tilrettelegging å tilpasse forholdene for den enkelte arbeidstakeren. Tiltaket skal være rettet mot personer med funksjonsnedsettelse.",
+        "kriterier": [
+          "Forklarer at individuell tilrettelegging er en tilpasning for den enkelte.",
+          "Knytter tilretteleggingen til personer med funksjonsnedsettelse."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Diskriminering kan skje skjult og være vanskelig å bevise. Forklar hvordan minst ett av disse tiltakene kan bidra til å motvirke diskriminering: anonyme søknader, opplæring eller tilsyn.",
+        "fasit": "Anonyme søknader kan gjøre det vanskeligere å vektlegge forhold ved søkeren som ikke er relevante for jobben. Opplæring eller tilsyn kan bidra til at diskriminering forebygges eller blir oppdaget.",
+        "kriterier": [
+          "Knytter et av tiltakene til å forebygge, avdekke eller redusere diskriminering.",
+          "Forklarer kort hvordan tiltaket kan virke."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Diskrimineringsnemnda kan gi oppreisning. Hva betyr oppreisning, og hva slags skade gjelder det?",
+        "fasit": "Oppreisning er erstatning for ikke-økonomisk skade. Det gjelder skade som ikke først og fremst handler om et økonomisk tap.",
+        "kriterier": [
+          "Forklarer at oppreisning er erstatning for ikke-økonomisk skade."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En person vil få en diskrimineringssak behandlet, men ønsker ikke bare å bruke klageordningen. Hvilken annen instans kan saken bringes inn for?",
+        "fasit": "Saken kan bringes inn for domstolene.",
+        "kriterier": [
+          "Nevner domstolene som en annen instans saken kan bringes inn for."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

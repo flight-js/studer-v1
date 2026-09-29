@@ -4,75 +4,415 @@
   "trinnId": "vg3",
   "name": "Normalitet, psykisk helse og psykiske lidelser",
   "intro": "Hva som regnes som normalt – statistiske, sosiale, funksjonelle og subjektive kriterier – hva psykisk helse er, hvordan psykiske vansker skiller seg fra psykiske lidelser, to-kontinua-modellen, og fordeler og ulemper ved diagnoser.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Hva er normalt?\n\nDet finnes ingen **enkel** definisjon av normalitet. Psykologien bruker flere **kriterier**, som alle har svakheter:\n\n- **Statistisk**: Det normale er det **vanlige**. Men også **uvanlige** egenskaper, som svært høy intelligens, kan være positive.\n- **Sosialt** eller **normativt**: Det normale følger samfunnets **normer**. Men normer varierer mellom **kulturer** og endrer seg over **tid**.\n- **Funksjonelt**: Det normale er å **fungere** i hverdagen – skole, jobb og relasjoner. Men noen fungerer godt utad og **lider** likevel.\n- **Subjektivt**: Det avgjørende er om personen selv opplever **plager**. Men noen med alvorlige lidelser har liten **sykdomsinnsikt**.\n- **Ideelt**: Det normale er et **ideal** for god helse. Men da blir nesten ingen normale.\n\n## Kultur og tid\n\nHva som regnes som avvikende, påvirkes av **kultur**. Å høre stemmer fra avdøde kan i noen kulturer være en **akseptert** del av sorg. **Homofili** var tidligere en diagnose, men regnes i dag som en **naturlig** variasjon. Normalitet er altså delvis **sosialt konstruert**.\n\n## Hva er psykisk helse?\n\n**Verdens helseorganisasjon (WHO)** beskriver psykisk helse som en tilstand av **velvære** der man kan bruke sine **evner**, håndtere **vanlige belastninger**, **arbeide** og bidra i **fellesskapet**. Psykisk helse er altså mer enn **fravær** av sykdom. **Alle** har en psykisk helse – den kan være bedre eller dårligere i ulike perioder.\n\n## Psykiske vansker og psykiske lidelser\n\n- **Psykiske vansker** eller **plager** er symptomer som **nedstemthet**, **bekymring**, **søvnvansker** og **uro**. De kan være belastende, men oppfyller ikke kriteriene for en diagnose. Mange er **normale reaksjoner** på vanskelige hendelser, som **sorg** eller **eksamenspress**.\n- **Psykiske lidelser** er tilstander som oppfyller **kriteriene** for en **diagnose** i diagnosesystemene **ICD** eller **DSM**, for eksempel **depresjon**, **angstlidelser**, **spiseforstyrrelser** og **schizofreni**.\n\nForskjellen handler om\n\n- **alvorlighet**: hvor sterke symptomene er\n- **varighet**: hvor lenge de har vart\n- **funksjonsnedsettelse**: hvor mye de hindrer hverdagen\n\nGrensen er ikke skarp. Det er et **kontinuum** fra god psykisk helse til alvorlig lidelse.\n\n## To-kontinua-modellen\n\nPsykologen **Corey Keyes** har foreslått at **psykisk helse** og **psykisk lidelse** er to **separate** dimensjoner:\n\n- Man kan ha en **diagnose** og likevel oppleve **god** livskvalitet og mening.\n- Man kan være **uten** diagnose og likevel ha det **dårlig** – for eksempel være ensom og uten mening.\n\nModellen viser at vi må arbeide både med å **redusere** lidelse og å **fremme** trivsel.\n\n## Diagnoser – fordeler og ulemper\n\n**Fordeler**:\n\n- gir et **felles språk** for fagfolk\n- gir tilgang til **riktig behandling** og **rettigheter** – for eksempel tilrettelegging\n- kan gi **forståelse** og lettelse: «Det er ikke min feil»\n- er nødvendig for **forskning**\n\n**Ulemper**:\n\n- kan gi **stempling** og **stigma**\n- kan bli en del av **identiteten** på en begrensende måte\n- kan føre til **medikalisering** – at normale reaksjoner behandles som sykdom\n- kan skjule **sosiale** årsaker, som mobbing eller fattigdom\n\n## Refleksjon\n\nNår vi snakker om psykisk helse, er det viktig å **normalisere** at alle kan ha det vanskelig i perioder, uten å **bagatellisere** alvorlige lidelser. Spørsmålet «hva er normalt?» har ingen fasit – men det tvinger oss til å tenke over hvem som **definerer** normalitet, og med hvilke **konsekvenser**.",
   "flashcards": [
-    { "term": "Statistisk normalitet", "def": "Det vanlige er normalt." },
-    { "term": "Sosial normalitet", "def": "Det som følger samfunnets normer." },
-    { "term": "Funksjonell normalitet", "def": "Å fungere i hverdagen." },
-    { "term": "Subjektivt kriterium", "def": "Om personen selv opplever plager." },
-    { "term": "Sosialt konstruert", "def": "Påvirket av kultur og tid." },
-    { "term": "Psykisk helse – WHO", "def": "Velvære, bruke evner, håndtere belastninger og bidra i fellesskapet." },
-    { "term": "Psykiske vansker", "def": "Symptomer som belaster, men ikke oppfyller diagnosekriterier." },
-    { "term": "Psykiske lidelser", "def": "Tilstander som oppfyller kriteriene for en diagnose." },
-    { "term": "ICD og DSM", "def": "Diagnosesystemer for psykiske lidelser." },
-    { "term": "Funksjonsnedsettelse", "def": "Hvor mye symptomene hindrer hverdagen." },
-    { "term": "Kontinuum", "def": "Glidende overgang fra god helse til alvorlig lidelse." },
-    { "term": "To-kontinua-modellen", "def": "Psykisk helse og psykisk lidelse er to separate dimensjoner – Keyes." },
-    { "term": "Medikalisering", "def": "Normale reaksjoner behandles som sykdom." },
-    { "term": "Stigma", "def": "Negative holdninger og stempling knyttet til en diagnose." },
-    { "term": "Sykdomsinnsikt", "def": "Evnen til å forstå at man er syk." }
+    {
+      "term": "Statistisk normalitet",
+      "def": "Det vanlige er normalt."
+    },
+    {
+      "term": "Sosial normalitet",
+      "def": "Det som følger samfunnets normer."
+    },
+    {
+      "term": "Funksjonell normalitet",
+      "def": "Å fungere i hverdagen."
+    },
+    {
+      "term": "Subjektivt kriterium",
+      "def": "Om personen selv opplever plager."
+    },
+    {
+      "term": "Sosialt konstruert",
+      "def": "Påvirket av kultur og tid."
+    },
+    {
+      "term": "Psykisk helse – WHO",
+      "def": "Velvære, bruke evner, håndtere belastninger og bidra i fellesskapet."
+    },
+    {
+      "term": "Psykiske vansker",
+      "def": "Symptomer som belaster, men ikke oppfyller diagnosekriterier."
+    },
+    {
+      "term": "Psykiske lidelser",
+      "def": "Tilstander som oppfyller kriteriene for en diagnose."
+    },
+    {
+      "term": "ICD og DSM",
+      "def": "Diagnosesystemer for psykiske lidelser."
+    },
+    {
+      "term": "Funksjonsnedsettelse",
+      "def": "Hvor mye symptomene hindrer hverdagen."
+    },
+    {
+      "term": "Kontinuum",
+      "def": "Glidende overgang fra god helse til alvorlig lidelse."
+    },
+    {
+      "term": "To-kontinua-modellen",
+      "def": "Psykisk helse og psykisk lidelse er to separate dimensjoner – Keyes."
+    },
+    {
+      "term": "Medikalisering",
+      "def": "Normale reaksjoner behandles som sykdom."
+    },
+    {
+      "term": "Stigma",
+      "def": "Negative holdninger og stempling knyttet til en diagnose."
+    },
+    {
+      "term": "Sykdomsinnsikt",
+      "def": "Evnen til å forstå at man er syk."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en svakhet ved det statistiske normalitetskriteriet?", "options": ["Det er for vanskelig å regne ut", "Også uvanlige positive egenskaper blir avvikende", "Det tar hensyn til kultur", "Det gjelder bare barn"], "correct": 1, "explain": "For eksempel svært høy intelligens." },
-    { "id": "q02", "text": "Hva skiller en psykisk lidelse fra psykiske vansker?", "options": ["Alvorlighet, varighet og funksjonsnedsettelse", "Alder", "Kjønn", "Bosted"], "correct": 0, "explain": "Grensen er ikke skarp." },
-    { "id": "q03", "text": "Hva sier to-kontinua-modellen?", "options": ["At alle med diagnose har det dårlig", "At psykisk helse bare er fravær av sykdom", "At psykisk helse og psykisk lidelse er to separate dimensjoner", "At diagnoser er unødvendige"], "correct": 2, "explain": "Corey Keyes." },
-    { "id": "q04", "text": "Hva er medikalisering?", "options": ["At alle får medisiner", "At leger blir flere", "At sykehus bygges", "At normale reaksjoner behandles som sykdom"], "correct": 3, "explain": "En ulempe ved diagnoser." },
-    { "id": "q05", "text": "Hvilken fordel kan en diagnose gi?", "options": ["Tilgang til riktig behandling og tilrettelegging", "Stigma", "Stempling", "At sosiale årsaker skjules"], "correct": 0, "explain": "Og et felles språk." },
-    { "id": "q06", "text": "Hvordan beskriver WHO psykisk helse?", "options": ["Bare fravær av sykdom", "Velvære der man kan bruke evner, håndtere belastninger og bidra", "At man aldri er trist", "At man har mange venner"], "correct": 1, "explain": "Mer enn fravær av sykdom." },
-    { "id": "q07", "text": "Hva viser eksempelet med homofili?", "options": ["At diagnoser er evige", "At normalitet bare er biologi", "At normalitet delvis er sosialt konstruert", "At WHO tar feil"], "correct": 2, "explain": "Endret over tid." },
-    { "id": "q08", "text": "Hvilket av disse er vanligvis en normal reaksjon, ikke en lidelse?", "options": ["Schizofreni", "Spiseforstyrrelse", "Alvorlig depresjon over lang tid", "Sorg etter et dødsfall"], "correct": 3, "explain": "Men sorg kan også bli komplisert." },
-    { "id": "q09", "text": "Hva er en svakhet ved det subjektive kriteriet?", "options": ["Noen med alvorlige lidelser har liten sykdomsinnsikt", "Det tar ikke hensyn til følelser", "Det er for objektivt", "Det gjelder bare voksne"], "correct": 0, "explain": "De opplever kanskje ikke seg selv som syke." },
-    { "id": "q10", "text": "Har alle mennesker en psykisk helse?", "options": ["Nei, bare de med diagnose", "Ja", "Bare voksne", "Bare de som er friske"], "correct": 1, "explain": "Den kan være bedre eller dårligere." }
+    {
+      "id": "q01",
+      "text": "Hva er en svakhet ved det statistiske normalitetskriteriet?",
+      "options": [
+        "Det er for vanskelig å regne ut",
+        "Også uvanlige positive egenskaper blir avvikende",
+        "Det tar hensyn til kultur",
+        "Det gjelder bare barn"
+      ],
+      "correct": 1,
+      "explain": "For eksempel svært høy intelligens."
+    },
+    {
+      "id": "q02",
+      "text": "Hva skiller en psykisk lidelse fra psykiske vansker?",
+      "options": [
+        "Alvorlighet, varighet og funksjonsnedsettelse",
+        "Alder",
+        "Kjønn",
+        "Bosted"
+      ],
+      "correct": 0,
+      "explain": "Grensen er ikke skarp."
+    },
+    {
+      "id": "q03",
+      "text": "Hva sier to-kontinua-modellen?",
+      "options": [
+        "At alle med diagnose har det dårlig",
+        "At psykisk helse bare er fravær av sykdom",
+        "At psykisk helse og psykisk lidelse er to separate dimensjoner",
+        "At diagnoser er unødvendige"
+      ],
+      "correct": 2,
+      "explain": "Corey Keyes."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er medikalisering?",
+      "options": [
+        "At alle får medisiner",
+        "At leger blir flere",
+        "At sykehus bygges",
+        "At normale reaksjoner behandles som sykdom"
+      ],
+      "correct": 3,
+      "explain": "En ulempe ved diagnoser."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken fordel kan en diagnose gi?",
+      "options": [
+        "Tilgang til riktig behandling og tilrettelegging",
+        "Stigma",
+        "Stempling",
+        "At sosiale årsaker skjules"
+      ],
+      "correct": 0,
+      "explain": "Og et felles språk."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan beskriver WHO psykisk helse?",
+      "options": [
+        "Bare fravær av sykdom",
+        "Velvære der man kan bruke evner, håndtere belastninger og bidra",
+        "At man aldri er trist",
+        "At man har mange venner"
+      ],
+      "correct": 1,
+      "explain": "Mer enn fravær av sykdom."
+    },
+    {
+      "id": "q07",
+      "text": "Hva viser eksempelet med homofili?",
+      "options": [
+        "At diagnoser er evige",
+        "At normalitet bare er biologi",
+        "At normalitet delvis er sosialt konstruert",
+        "At WHO tar feil"
+      ],
+      "correct": 2,
+      "explain": "Endret over tid."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket av disse er vanligvis en normal reaksjon, ikke en lidelse?",
+      "options": [
+        "Schizofreni",
+        "Spiseforstyrrelse",
+        "Alvorlig depresjon over lang tid",
+        "Sorg etter et dødsfall"
+      ],
+      "correct": 3,
+      "explain": "Men sorg kan også bli komplisert."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en svakhet ved det subjektive kriteriet?",
+      "options": [
+        "Noen med alvorlige lidelser har liten sykdomsinnsikt",
+        "Det tar ikke hensyn til følelser",
+        "Det er for objektivt",
+        "Det gjelder bare voksne"
+      ],
+      "correct": 0,
+      "explain": "De opplever kanskje ikke seg selv som syke."
+    },
+    {
+      "id": "q10",
+      "text": "Har alle mennesker en psykisk helse?",
+      "options": [
+        "Nei, bare de med diagnose",
+        "Ja",
+        "Bare voksne",
+        "Bare de som er friske"
+      ],
+      "correct": 1,
+      "explain": "Den kan være bedre eller dårligere."
+    }
   ],
   "mindmap": {
     "label": "Normalitet og psykisk helse",
     "children": [
-      { "label": "Normalitetskriterier", "children": [
-        { "label": "Statistisk og sosialt" },
-        { "label": "Funksjonelt og subjektivt" },
-        { "label": "Kultur og tid" }
-      ] },
-      { "label": "Psykisk helse", "children": [
-        { "label": "WHO" },
-        { "label": "Alle har psykisk helse" }
-      ] },
-      { "label": "Vansker og lidelser", "children": [
-        { "label": "Alvorlighet og varighet" },
-        { "label": "Funksjonsnedsettelse" },
-        { "label": "Kontinuum" }
-      ] },
-      { "label": "To-kontinua-modellen", "children": [
-        { "label": "Helse og lidelse separat" }
-      ] },
-      { "label": "Diagnoser", "children": [
-        { "label": "Fordeler" },
-        { "label": "Stigma og medikalisering" }
-      ] }
+      {
+        "label": "Normalitetskriterier",
+        "children": [
+          {
+            "label": "Statistisk og sosialt"
+          },
+          {
+            "label": "Funksjonelt og subjektivt"
+          },
+          {
+            "label": "Kultur og tid"
+          }
+        ]
+      },
+      {
+        "label": "Psykisk helse",
+        "children": [
+          {
+            "label": "WHO"
+          },
+          {
+            "label": "Alle har psykisk helse"
+          }
+        ]
+      },
+      {
+        "label": "Vansker og lidelser",
+        "children": [
+          {
+            "label": "Alvorlighet og varighet"
+          },
+          {
+            "label": "Funksjonsnedsettelse"
+          },
+          {
+            "label": "Kontinuum"
+          }
+        ]
+      },
+      {
+        "label": "To-kontinua-modellen",
+        "children": [
+          {
+            "label": "Helse og lidelse separat"
+          }
+        ]
+      },
+      {
+        "label": "Diagnoser",
+        "children": [
+          {
+            "label": "Fordeler"
+          },
+          {
+            "label": "Stigma og medikalisering"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Man kan ha en psykisk lidelse og likevel oppleve god livskvalitet.", "correct": true, "explain": "Ifølge to-kontinua-modellen." },
-      { "id": "m02", "type": "sant-usant", "text": "Grensen mellom psykiske vansker og lidelser er helt skarp.", "correct": false, "explain": "Det er et kontinuum." },
-      { "id": "m03", "type": "sant-usant", "text": "Normer for hva som er avvikende, varierer mellom kulturer.", "correct": true, "explain": "Normalitet er delvis sosialt konstruert." },
-      { "id": "m04", "type": "sant-usant", "text": "En diagnose kan aldri ha negative konsekvenser.", "correct": false, "explain": "Den kan gi stempling og stigma." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket diagnosesystem brukes blant annet i Norge?", "options": ["IQ", "ICD", "PISA", "BMI"], "correct": 1, "explain": "Utgitt av WHO." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken ulempe har diagnoser?", "options": ["De kan skjule sosiale årsaker som mobbing", "De gir felles språk", "De gir rettigheter", "De hjelper forskning"], "correct": 0, "explain": "Problemet plasseres hos individet." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er et psykisk symptom som kan være en vanlig plage?", "options": ["Hallusinasjoner hele tiden", "Vrangforestillinger", "Søvnvansker i en stressende periode", "Total funksjonssvikt"], "correct": 2, "explain": "Vanlige plager kan gå over." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Man kan ha en psykisk lidelse og likevel oppleve god livskvalitet.",
+        "correct": true,
+        "explain": "Ifølge to-kontinua-modellen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Grensen mellom psykiske vansker og lidelser er helt skarp.",
+        "correct": false,
+        "explain": "Det er et kontinuum."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Normer for hva som er avvikende, varierer mellom kulturer.",
+        "correct": true,
+        "explain": "Normalitet er delvis sosialt konstruert."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En diagnose kan aldri ha negative konsekvenser.",
+        "correct": false,
+        "explain": "Den kan gi stempling og stigma."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket diagnosesystem brukes blant annet i Norge?",
+        "options": [
+          "IQ",
+          "ICD",
+          "PISA",
+          "BMI"
+        ],
+        "correct": 1,
+        "explain": "Utgitt av WHO."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken ulempe har diagnoser?",
+        "options": [
+          "De kan skjule sosiale årsaker som mobbing",
+          "De gir felles språk",
+          "De gir rettigheter",
+          "De hjelper forskning"
+        ],
+        "correct": 0,
+        "explain": "Problemet plasseres hos individet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er et psykisk symptom som kan være en vanlig plage?",
+        "options": [
+          "Hallusinasjoner hele tiden",
+          "Vrangforestillinger",
+          "Søvnvansker i en stressende periode",
+          "Total funksjonssvikt"
+        ],
+        "correct": 2,
+        "explain": "Vanlige plager kan gå over."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Amir går på skole, jobber og møter venner, men opplever samtidig sterke psykiske plager. Forklar hvordan det funksjonelle og det subjektive kriteriet kan gi ulike vurderinger av situasjonen hans.",
+        "fasit": "Det funksjonelle kriteriet kan tyde på at Amir fungerer godt i hverdagen. Det subjektive kriteriet viser samtidig at han har plager, så det at han fungerer utad betyr ikke nødvendigvis at han har det bra.",
+        "kriterier": [
+          "Forklarer at det funksjonelle kriteriet handler om hvordan Amir fungerer i hverdagen.",
+          "Forklarer at det subjektive kriteriet tar utgangspunkt i plagene Amir selv opplever, og at kriteriene derfor kan gi ulike vurderinger."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I noen kulturer kan det å høre stemmen til en avdød være en akseptert del av sorg. Forklar hva dette viser om hvordan kultur påvirker vurderingen av normalitet.",
+        "fasit": "Det viser at en opplevelse ikke nødvendigvis blir vurdert likt i alle kulturer. Hva som regnes som normalt eller avvikende, påvirkes av kulturelle normer.",
+        "kriterier": [
+          "Forklarer at kulturelle normer påvirker hva som regnes som normalt eller avvikende.",
+          "Får fram at vurderingen kan variere mellom kulturer."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva er ICD og DSM, og hvilken rolle har de når fagfolk skal avgjøre om en psykisk lidelse kan diagnostiseres?",
+        "fasit": "ICD og DSM er diagnosesystemer for psykiske lidelser. Fagfolk bruker kriteriene i systemene for å vurdere om en tilstand kan få en diagnose.",
+        "kriterier": [
+          "Identifiserer ICD og DSM som diagnosesystemer for psykiske lidelser.",
+          "Forklarer at kriteriene i systemene brukes til å vurdere om en diagnose kan settes."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hva det betyr at det finnes et kontinuum fra god psykisk helse til alvorlig lidelse. Ta med hva som gjør at skillet mellom vansker og lidelser ikke alltid er skarpt.",
+        "fasit": "Et kontinuum betyr at psykisk helse og lidelse varierer gradvis, ikke bare i to tydelige kategorier. Alvorlighet, varighet og hvor mye symptomene hindrer hverdagen, har betydning for vurderingen.",
+        "kriterier": [
+          "Forklarer at kontinuum innebærer en glidende overgang, ikke et skarpt skille.",
+          "Nevner hvordan alvorlighet, varighet eller funksjonsnedsettelse påvirker vurderingen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Mina har en psykisk diagnose, men opplever god livskvalitet og mening. Jonas har ingen diagnose, men er ensom og opplever lite mening. Forklar hvordan to-kontinua-modellen kan forstå de to situasjonene.",
+        "fasit": "Modellen skiller mellom psykisk helse og psykisk lidelse som to separate dimensjoner. Derfor kan Mina ha en diagnose og samtidig oppleve god psykisk helse, mens Jonas kan være uten diagnose og likevel ha det dårlig.",
+        "kriterier": [
+          "Får fram at psykisk helse og psykisk lidelse er separate dimensjoner.",
+          "Bruker dette til å forklare begge situasjonene: diagnose kan finnes sammen med god livskvalitet, og fravær av diagnose kan finnes sammen med dårlig trivsel."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev har fått en diagnose og merker at andre møter henne med negative holdninger på grunn av den. Forklar hva stigma betyr i denne situasjonen, og hvordan diagnosen kan få en begrensende rolle.",
+        "fasit": "Stigma er negative holdninger og stempling knyttet til en diagnose. Hvis diagnosen blir en begrensende del av elevens identitet, kan den påvirke hvordan hun ser på seg selv og blir møtt av andre.",
+        "kriterier": [
+          "Forklarer stigma som negative holdninger eller stempling knyttet til diagnosen.",
+          "Forklarer hvordan diagnosen kan bli en begrensende del av identiteten eller påvirke hvordan eleven blir møtt."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev sier at alvorlig angst som hindrer en medelev i å gå på skolen, ikke bør tas så alvorlig fordi alle kan ha det vanskelig iblant. Forklar hvordan man kan normalisere at psykiske plager forekommer, uten å bagatellisere situasjonen.",
+        "fasit": "Man kan si at det er vanlig å ha det vanskelig i perioder, samtidig som plagene til medeleven må tas på alvor fordi de hindrer hverdagen. Hvor alvorlige symptomene er, hvor lenge de varer, og hvor mye de påvirker funksjonen, er relevant for å vurdere situasjonen.",
+        "kriterier": [
+          "Får fram at psykiske plager i perioder kan være normale reaksjoner og ikke bør møtes med skam.",
+          "Forklarer at plager som hindrer hverdagen likevel må tas alvorlig, gjerne med henvisning til alvorlighet, varighet eller funksjonsnedsettelse."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En elev får psykiske plager etter å ha blitt mobbet, men hjelpen retter seg bare mot elevens diagnose. Forklar hvilken viktig årsak til plagene som kan bli oversett, og hvorfor det er en ulempe.",
+        "fasit": "Mobbingen er en sosial årsak som kan bli oversett hvis oppmerksomheten bare rettes mot diagnosen. Da kan man overse en viktig del av situasjonen som bidrar til plagene.",
+        "kriterier": [
+          "Peker på mobbing som en sosial årsak til plagene.",
+          "Forklarer at det å bare rette oppmerksomheten mot diagnosen kan gjøre at den sosiale årsaken ikke blir tatt med i forståelsen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Elektriske felt",
   "intro": "Coulombs lov, elektrisk feltstyrke og feltlinjer, homogent felt mellom ladde plater, kraft og arbeid på ladde partikler, spenning og energi, akselerasjon av elektroner – og likheter og forskjeller mellom elektriske felt og gravitasjonsfelt.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Coulombs lov\n\nTo **punktladninger** påvirker hverandre med kraften\n\n**F = k · |q₁ · q₂| / r²**\n\nder **k = 8,99 · 10⁹ N·m²/C²**. **Like** ladninger **frastøter** hverandre, **ulike** ladninger **tiltrekker** hverandre. Som gravitasjonskraften avtar kraften med **kvadratet av avstanden**.\n\n**Eksempel**: To ladninger på 1,0 µC står 0,10 m fra hverandre. F = 8,99 · 10⁹ · (1,0 · 10⁻⁶)² / 0,10² ≈ **0,90 N**.\n\n## Elektrisk felt\n\nEn ladning lager et **elektrisk felt** rundt seg. Den **elektriske feltstyrken** i et punkt er kraften per ladning på en liten **positiv** prøveladning:\n\n**E = F / q**, med enheten N/C eller V/m.\n\nRundt en punktladning Q er E = kQ / r².\n\n**Feltlinjer** viser retningen på kraften på en **positiv** ladning: De går **ut** fra positive ladninger og **inn** mot negative. Tette feltlinjer betyr **sterkt** felt.\n\n## Homogent felt\n\nMellom to **parallelle plater** med ulik ladning er feltet **homogent** – like sterkt og med samme retning overalt, bortsett fra ved kantene. Feltstyrken er\n\n**E = U / d**\n\nder U er spenningen og d avstanden mellom platene. Med U = 100 V og d = 2,0 cm blir E = 100 / 0,020 = **5000 V/m**.\n\n## Kraft og bevegelse i elektrisk felt\n\nEn ladning q i et felt E får kraften **F = qE**.\n\n- En **positiv** ladning får kraft **med** feltet, en **negativ** **mot** feltet.\n- I et homogent felt er kraften **konstant**, så bevegelsen ligner et **skrått kast** i tyngdefeltet – en ladning som sendes **vinkelrett** inn i feltet, følger en **parabelbane**.\n\n## Arbeid, spenning og energi\n\nNår en ladning flyttes gjennom en **spenning** U, gjør feltet **arbeidet**\n\n**W = qU**\n\n**Elektronvolt** (eV) er energien et elektron får når det akselereres gjennom **1 V**: 1 eV = 1,60 · 10⁻¹⁹ J.\n\n**Eksempel**: Et elektron som starter i ro, akselereres gjennom 100 V. Da er ½mv² = eU, og\n\nv = √(2eU / m) = √(2 · 1,60 · 10⁻¹⁹ · 100 / 9,11 · 10⁻³¹) ≈ **5,9 · 10⁶ m/s**.\n\nSlike **elektronkanoner** ble brukt i gamle TV-rør og brukes fortsatt i **elektronmikroskoper**.\n\n## Elektrisk felt og gravitasjonsfelt\n\n| | Gravitasjon | Elektrisitet |\n|---|---|---|\n| Kilde | masse | ladning |\n| Kraft | alltid tiltrekning | tiltrekning eller frastøtning |\n| Styrke | svært svak | svært sterk |\n| Avstand | 1/r² | 1/r² |\n\nDen elektriske kraften mellom et proton og et elektron er omtrent **10³⁹** ganger sterkere enn gravitasjonskraften mellom dem.\n\n## Anvendelser\n\n**Kondensatorer** lagrer energi i det elektriske feltet mellom plater. Elektriske felt brukes også i **blekkskrivere**, **partikkelakseleratorer**, **lakkering** og **røykrensing** i industrien. **Lyn** oppstår når feltet mellom sky og bakke blir så sterkt at luften leder strøm.",
   "flashcards": [
-    { "term": "Coulombs lov", "def": "F = k · |q₁q₂| / r²." },
-    { "term": "Coulombs konstant", "def": "k = 8,99 · 10⁹ N·m²/C²." },
-    { "term": "Elektrisk feltstyrke", "def": "E = F / q – kraft per ladning." },
-    { "term": "Feltstyrke rundt punktladning", "def": "E = kQ / r²." },
-    { "term": "Feltlinjer", "def": "Viser kraftens retning på en positiv ladning." },
-    { "term": "Homogent felt", "def": "Like sterkt og med samme retning overalt." },
-    { "term": "Felt mellom plater", "def": "E = U / d." },
-    { "term": "Kraft i elektrisk felt", "def": "F = qE." },
-    { "term": "Arbeid i elektrisk felt", "def": "W = qU." },
-    { "term": "Elektronvolt", "def": "1 eV = 1,60 · 10⁻¹⁹ J." },
-    { "term": "Elektronkanon", "def": "Akselererer elektroner med en spenning." },
-    { "term": "Fart etter akselerasjon", "def": "v = √(2qU / m) når partikkelen starter i ro." },
-    { "term": "Parabelbane i felt", "def": "Ladning som sendes vinkelrett inn i homogent felt." },
-    { "term": "Kondensator", "def": "Lagrer energi i det elektriske feltet mellom plater." },
-    { "term": "Elektrisk og gravitasjonell kraft", "def": "Begge avtar med 1/r², men elektrisk kraft er mye sterkere." }
+    {
+      "term": "Coulombs lov",
+      "def": "F = k · |q₁q₂| / r²."
+    },
+    {
+      "term": "Coulombs konstant",
+      "def": "k = 8,99 · 10⁹ N·m²/C²."
+    },
+    {
+      "term": "Elektrisk feltstyrke",
+      "def": "E = F / q – kraft per ladning."
+    },
+    {
+      "term": "Feltstyrke rundt punktladning",
+      "def": "E = kQ / r²."
+    },
+    {
+      "term": "Feltlinjer",
+      "def": "Viser kraftens retning på en positiv ladning."
+    },
+    {
+      "term": "Homogent felt",
+      "def": "Like sterkt og med samme retning overalt."
+    },
+    {
+      "term": "Felt mellom plater",
+      "def": "E = U / d."
+    },
+    {
+      "term": "Kraft i elektrisk felt",
+      "def": "F = qE."
+    },
+    {
+      "term": "Arbeid i elektrisk felt",
+      "def": "W = qU."
+    },
+    {
+      "term": "Elektronvolt",
+      "def": "1 eV = 1,60 · 10⁻¹⁹ J."
+    },
+    {
+      "term": "Elektronkanon",
+      "def": "Akselererer elektroner med en spenning."
+    },
+    {
+      "term": "Fart etter akselerasjon",
+      "def": "v = √(2qU / m) når partikkelen starter i ro."
+    },
+    {
+      "term": "Parabelbane i felt",
+      "def": "Ladning som sendes vinkelrett inn i homogent felt."
+    },
+    {
+      "term": "Kondensator",
+      "def": "Lagrer energi i det elektriske feltet mellom plater."
+    },
+    {
+      "term": "Elektrisk og gravitasjonell kraft",
+      "def": "Begge avtar med 1/r², men elektrisk kraft er mye sterkere."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva skjer mellom to like ladninger?", "options": ["De tiltrekker hverandre", "De frastøter hverandre", "Ingenting", "De nøytraliserer hverandre"], "correct": 1, "explain": "Ulike ladninger tiltrekker hverandre." },
-    { "id": "q02", "text": "To ladninger på 1,0 µC står 0,10 m fra hverandre. Hva er kraften?", "options": ["Omtrent 0,90 N", "Omtrent 9,0 N", "Omtrent 0,09 N", "Omtrent 90 N"], "correct": 0, "explain": "8,99 · 10⁹ · 10⁻¹² / 0,01." },
-    { "id": "q03", "text": "Hva er feltstyrken mellom to plater med U = 100 V og d = 2,0 cm?", "options": ["50 V/m", "200 V/m", "5000 V/m", "2 V/m"], "correct": 2, "explain": "E = U / d." },
-    { "id": "q04", "text": "Hvilken retning har kraften på et elektron i et elektrisk felt?", "options": ["Med feltet", "Vinkelrett på feltet", "Ingen kraft", "Mot feltet"], "correct": 3, "explain": "Elektronet er negativt." },
-    { "id": "q05", "text": "Hvor mye er 1 eV?", "options": ["1,60 · 10⁻¹⁹ J", "1 J", "9,11 · 10⁻³¹ J", "6,02 · 10²³ J"], "correct": 0, "explain": "Energien ved akselerasjon gjennom 1 V." },
-    { "id": "q06", "text": "Et elektron akselereres fra ro gjennom 100 V. Hva blir farten omtrent?", "options": ["3,0 · 10⁸ m/s", "5,9 · 10⁶ m/s", "100 m/s", "1,6 · 10⁻¹⁷ m/s"], "correct": 1, "explain": "v = √(2eU / m)." },
-    { "id": "q07", "text": "Hvilken bane følger en ladning som sendes vinkelrett inn i et homogent felt?", "options": ["Sirkel", "Rett linje", "Parabel", "Spiral"], "correct": 2, "explain": "Konstant kraft, som i et skrått kast." },
-    { "id": "q08", "text": "Hva viser tette feltlinjer?", "options": ["Svakt felt", "Ingen ladning", "Nøytralt område", "Sterkt felt"], "correct": 3, "explain": "Feltlinjetettheten viser styrken." },
-    { "id": "q09", "text": "Hvordan skiller elektrisk kraft seg fra gravitasjon?", "options": ["Den kan være både tiltrekning og frastøtning", "Den avtar ikke med avstanden", "Den er alltid svakere", "Den virker bare på masse"], "correct": 0, "explain": "Gravitasjonen er alltid tiltrekning." },
-    { "id": "q10", "text": "Hva lagrer en kondensator?", "options": ["Magnetisk energi", "Energi i det elektriske feltet mellom plater", "Kjemisk energi", "Kjerneenergi"], "correct": 1, "explain": "Brukes i elektronikk." }
+    {
+      "id": "q01",
+      "text": "Hva skjer mellom to like ladninger?",
+      "options": [
+        "De tiltrekker hverandre",
+        "De frastøter hverandre",
+        "Ingenting",
+        "De nøytraliserer hverandre"
+      ],
+      "correct": 1,
+      "explain": "Ulike ladninger tiltrekker hverandre."
+    },
+    {
+      "id": "q02",
+      "text": "To ladninger på 1,0 µC står 0,10 m fra hverandre. Hva er kraften?",
+      "options": [
+        "Omtrent 0,90 N",
+        "Omtrent 9,0 N",
+        "Omtrent 0,09 N",
+        "Omtrent 90 N"
+      ],
+      "correct": 0,
+      "explain": "8,99 · 10⁹ · 10⁻¹² / 0,01."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er feltstyrken mellom to plater med U = 100 V og d = 2,0 cm?",
+      "options": [
+        "50 V/m",
+        "200 V/m",
+        "5000 V/m",
+        "2 V/m"
+      ],
+      "correct": 2,
+      "explain": "E = U / d."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken retning har kraften på et elektron i et elektrisk felt?",
+      "options": [
+        "Med feltet",
+        "Vinkelrett på feltet",
+        "Ingen kraft",
+        "Mot feltet"
+      ],
+      "correct": 3,
+      "explain": "Elektronet er negativt."
+    },
+    {
+      "id": "q05",
+      "text": "Hvor mye er 1 eV?",
+      "options": [
+        "1,60 · 10⁻¹⁹ J",
+        "1 J",
+        "9,11 · 10⁻³¹ J",
+        "6,02 · 10²³ J"
+      ],
+      "correct": 0,
+      "explain": "Energien ved akselerasjon gjennom 1 V."
+    },
+    {
+      "id": "q06",
+      "text": "Et elektron akselereres fra ro gjennom 100 V. Hva blir farten omtrent?",
+      "options": [
+        "3,0 · 10⁸ m/s",
+        "5,9 · 10⁶ m/s",
+        "100 m/s",
+        "1,6 · 10⁻¹⁷ m/s"
+      ],
+      "correct": 1,
+      "explain": "v = √(2eU / m)."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken bane følger en ladning som sendes vinkelrett inn i et homogent felt?",
+      "options": [
+        "Sirkel",
+        "Rett linje",
+        "Parabel",
+        "Spiral"
+      ],
+      "correct": 2,
+      "explain": "Konstant kraft, som i et skrått kast."
+    },
+    {
+      "id": "q08",
+      "text": "Hva viser tette feltlinjer?",
+      "options": [
+        "Svakt felt",
+        "Ingen ladning",
+        "Nøytralt område",
+        "Sterkt felt"
+      ],
+      "correct": 3,
+      "explain": "Feltlinjetettheten viser styrken."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan skiller elektrisk kraft seg fra gravitasjon?",
+      "options": [
+        "Den kan være både tiltrekning og frastøtning",
+        "Den avtar ikke med avstanden",
+        "Den er alltid svakere",
+        "Den virker bare på masse"
+      ],
+      "correct": 0,
+      "explain": "Gravitasjonen er alltid tiltrekning."
+    },
+    {
+      "id": "q10",
+      "text": "Hva lagrer en kondensator?",
+      "options": [
+        "Magnetisk energi",
+        "Energi i det elektriske feltet mellom plater",
+        "Kjemisk energi",
+        "Kjerneenergi"
+      ],
+      "correct": 1,
+      "explain": "Brukes i elektronikk."
+    }
   ],
   "mindmap": {
     "label": "Elektriske felt",
     "children": [
-      { "label": "Coulombs lov", "children": [
-        { "label": "F = k|q₁q₂|/r²" },
-        { "label": "Tiltrekning og frastøtning" }
-      ] },
-      { "label": "Feltet", "children": [
-        { "label": "E = F/q" },
-        { "label": "Feltlinjer" },
-        { "label": "Punktladning kQ/r²" }
-      ] },
-      { "label": "Homogent felt", "children": [
-        { "label": "E = U/d" },
-        { "label": "Parabelbane" }
-      ] },
-      { "label": "Energi", "children": [
-        { "label": "W = qU" },
-        { "label": "Elektronvolt" },
-        { "label": "Elektronkanon" }
-      ] },
-      { "label": "Sammenligning", "children": [
-        { "label": "Gravitasjon" },
-        { "label": "Anvendelser" }
-      ] }
+      {
+        "label": "Coulombs lov",
+        "children": [
+          {
+            "label": "F = k|q₁q₂|/r²"
+          },
+          {
+            "label": "Tiltrekning og frastøtning"
+          }
+        ]
+      },
+      {
+        "label": "Feltet",
+        "children": [
+          {
+            "label": "E = F/q"
+          },
+          {
+            "label": "Feltlinjer"
+          },
+          {
+            "label": "Punktladning kQ/r²"
+          }
+        ]
+      },
+      {
+        "label": "Homogent felt",
+        "children": [
+          {
+            "label": "E = U/d"
+          },
+          {
+            "label": "Parabelbane"
+          }
+        ]
+      },
+      {
+        "label": "Energi",
+        "children": [
+          {
+            "label": "W = qU"
+          },
+          {
+            "label": "Elektronvolt"
+          },
+          {
+            "label": "Elektronkanon"
+          }
+        ]
+      },
+      {
+        "label": "Sammenligning",
+        "children": [
+          {
+            "label": "Gravitasjon"
+          },
+          {
+            "label": "Anvendelser"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Feltlinjer går ut fra positive ladninger og inn mot negative.", "correct": true, "explain": "De viser kraften på en positiv ladning." },
-      { "id": "m02", "type": "sant-usant", "text": "Gravitasjonskraften mellom et proton og et elektron er sterkere enn den elektriske.", "correct": false, "explain": "Den elektriske er enormt mye sterkere." },
-      { "id": "m03", "type": "sant-usant", "text": "Elektronmikroskoper bruker elektroner som er akselerert i elektriske felt.", "correct": true, "explain": "En anvendelse av elektronkanoner." },
-      { "id": "m04", "type": "sant-usant", "text": "Feltet mellom to parallelle plater er sterkest ved kantene og svakest i midten.", "correct": false, "explain": "Det er homogent mellom platene." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken enhet har elektrisk feltstyrke?", "options": ["N/kg", "V/m", "J", "C"], "correct": 1, "explain": "Også N/C." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor mye arbeid gjør feltet når en ladning q flyttes gjennom spenningen U?", "options": ["W = qU", "W = q/U", "W = U/q", "W = q + U"], "correct": 0, "explain": "Omformes til kinetisk energi." },
-      { "id": "m07", "type": "flervalg", "text": "Hva skjer når feltet mellom en sky og bakken blir veldig sterkt?", "options": ["Det blir regn", "Det blir magnetfelt", "Det kan oppstå lyn", "Ingenting"], "correct": 2, "explain": "Luften begynner å lede strøm." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Feltlinjer går ut fra positive ladninger og inn mot negative.",
+        "correct": true,
+        "explain": "De viser kraften på en positiv ladning."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Gravitasjonskraften mellom et proton og et elektron er sterkere enn den elektriske.",
+        "correct": false,
+        "explain": "Den elektriske er enormt mye sterkere."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Elektronmikroskoper bruker elektroner som er akselerert i elektriske felt.",
+        "correct": true,
+        "explain": "En anvendelse av elektronkanoner."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Feltet mellom to parallelle plater er sterkest ved kantene og svakest i midten.",
+        "correct": false,
+        "explain": "Det er homogent mellom platene."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken enhet har elektrisk feltstyrke?",
+        "options": [
+          "N/kg",
+          "V/m",
+          "J",
+          "C"
+        ],
+        "correct": 1,
+        "explain": "Også N/C."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor mye arbeid gjør feltet når en ladning q flyttes gjennom spenningen U?",
+        "options": [
+          "W = qU",
+          "W = q/U",
+          "W = U/q",
+          "W = q + U"
+        ],
+        "correct": 0,
+        "explain": "Omformes til kinetisk energi."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva skjer når feltet mellom en sky og bakken blir veldig sterkt?",
+        "options": [
+          "Det blir regn",
+          "Det blir magnetfelt",
+          "Det kan oppstå lyn",
+          "Ingenting"
+        ],
+        "correct": 2,
+        "explain": "Luften begynner å lede strøm."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva forteller den elektriske feltstyrken E = F/q om kraften på en prøveladning, og hvilken type prøveladning brukes når feltretningen defineres?",
+        "fasit": "Elektrisk feltstyrke er kraften per ladning på en liten positiv prøveladning. Den måles i N/C eller V/m.",
+        "kriterier": [
+          "Forklarer at feltstyrke er kraft per ladning.",
+          "Nevner at feltretningen defineres ved hjelp av en positiv prøveladning."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Feltlinjer rundt en positiv og en negativ punktladning viser retningen på kraften på en positiv prøveladning. Beskriv hvilken vei feltlinjene går ved hver av ladningene.",
+        "fasit": "Feltlinjene går ut fra den positive ladningen og inn mot den negative ladningen.",
+        "kriterier": [
+          "Angir at feltlinjene går ut fra positive ladninger.",
+          "Angir at feltlinjene går inn mot negative ladninger."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Mellom to parallelle plater med ulik ladning er feltet homogent bortsett fra ved kantene. Hva betyr det at feltet er homogent, og hvilken formel brukes til å beregne feltstyrken mellom platene?",
+        "fasit": "Et homogent felt har samme styrke og retning overalt. Mellom platene beregnes feltstyrken med E = U/d.",
+        "kriterier": [
+          "Forklarer at feltet har samme styrke og retning overalt.",
+          "Oppgir E = U/d for feltet mellom platene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "To punktladninger holdes uendret, men avstanden mellom dem dobles. Hvor stor blir den elektriske kraften sammenlignet med før? Vis kort hvordan du kommer fram til svaret.",
+        "fasit": "Kraften blir en fjerdedel av den opprinnelige. Når avstanden dobles, blir r² fire ganger så stor, og Coulombs lov gir derfor en kraft som er fire ganger mindre.",
+        "kriterier": [
+          "Svar at kraften blir en fjerdedel.",
+          "Begrunner svaret med at kraften er omvendt proporsjonal med kvadratet av avstanden."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et elektron akselereres gjennom en spenning på 100 V. Hvor stort arbeid gjør feltet på elektronet, uttrykt både i elektronvolt og joule? Bruk 1 eV = 1,60 · 10⁻¹⁹ J.",
+        "fasit": "Arbeidet er 100 eV. Omregnet til joule blir det 100 · 1,60 · 10⁻¹⁹ J = 1,60 · 10⁻¹⁷ J.",
+        "kriterier": [
+          "Finner arbeidet som 100 eV.",
+          "Regner om til 1,60 · 10⁻¹⁷ J ved å bruke verdien for 1 eV."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En punktladning Q lager et elektrisk felt. Hva skjer med feltstyrken i et bestemt punkt dersom Q økes, mens avstanden til punktet holdes fast? Begrunn svaret med sammenhengen for feltstyrken rundt en punktladning.",
+        "fasit": "Feltstyrken øker i samme forhold som Q, fordi E = kQ/r². Når avstanden er fast, er feltstyrken direkte proporsjonal med ladningen Q.",
+        "kriterier": [
+          "Forklarer at feltstyrken øker når Q øker ved fast avstand.",
+          "Begrunner sammenhengen med E = kQ/r² eller direkte proporsjonalitet mellom E og Q."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvordan lyn kan oppstå mellom en sky og bakken ved hjelp av begrepet elektrisk felt.",
+        "fasit": "Lyn oppstår når det elektriske feltet mellom skyen og bakken blir så sterkt at lufta begynner å lede strøm.",
+        "kriterier": [
+          "Knytter lyn til et svært sterkt elektrisk felt mellom sky og bakke.",
+          "Forklarer at det sterke feltet gjør at lufta leder strøm."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hva gjør en elektronkanon med elektroner, og nevn én type utstyr den brukes i.",
+        "fasit": "En elektronkanon akselererer elektroner ved hjelp av en spenning. Den brukes blant annet i elektronmikroskoper.",
+        "kriterier": [
+          "Forklarer at elektronkanonen akselererer elektroner ved hjelp av en spenning.",
+          "Nevner elektronmikroskop eller gamle TV-rør som bruksområde."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

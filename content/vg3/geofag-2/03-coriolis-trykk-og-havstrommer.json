@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Jordrotasjon, trykk og tetthet i hav og atmosfære",
   "intro": "Konsekvensene av jordens rotasjon, trykkforskjeller og tetthetsforskjeller – corioliseffekten, trykkgradientkraften, geostrofisk vind, lavtrykk og høytrykk, Ekman-transport og oppstrømning, termohalin sirkulasjon og Golfstrømmen – og hvordan de påvirker havet og atmosfæren.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Trykkforskjeller gir vind\n\n**Lufttrykk** er vekten av lufta over oss. Der luft **stiger**, blir det **lavtrykk** ved bakken. Der luft **synker**, blir det **høytrykk**. Lufta vil strømme fra **høyt** til **lavt** trykk – dette er **trykkgradientkraften**. Jo **tettere** isobarene ligger på et værkart, desto **sterkere** er vinden.\n\n## Corioliseffekten\n\nFordi jorda **roterer**, blir alt som beveger seg over store avstander, **avbøyd**:\n\n- mot **høyre** på den **nordlige** halvkule\n- mot **venstre** på den **sørlige** halvkule\n\nEffekten er **null** ved ekvator og **størst** ved polene. Den virker på både **vind** og **havstrømmer**.\n\n## Geostrofisk vind\n\nHøyt oppe, der friksjonen mot bakken er liten, blir trykkgradientkraften og corioliseffekten omtrent i **balanse**. Da blåser vinden **parallelt** med isobarene. Dette kalles **geostrofisk vind**. Nær bakken bremser **friksjonen** vinden, og den blåser litt **inn mot** lavtrykket.\n\n## Lavtrykk og høytrykk\n\nPå den **nordlige** halvkule\n\n- blåser vinden **mot klokka** og **inn** mot sentrum i et **lavtrykk**. Luften stiger, avkjøles og gir **skyer** og **nedbør**.\n- blåser vinden **med klokka** og **ut** fra sentrum i et **høytrykk**. Luften synker og gir ofte **klart** og **stabilt** vær.\n\nPå den **sørlige** halvkule er retningene **motsatt**.\n\n## Havet: vinddrevne strømmer\n\n**Vinden** setter overflatevannet i bevegelse. På grunn av corioliseffekten går den samlede transporten av vann i det øverste laget omtrent **90°** til **høyre** for vindretningen på nordlige halvkule. Dette kalles **Ekman-transport**.\n\nLangs kyster kan Ekman-transporten føre overflatevannet **bort** fra land. Da strømmer **kaldt**, **næringsrikt** vann opp fra dypet – **oppstrømning**. Oppstrømningsområder, som utenfor **Peru**, er blant verdens rikeste **fiskeområder**.\n\nStore vinddrevne strømsystemer i havene kalles **havstrømvirvler**.\n\n## Havet: tetthetsdrevne strømmer\n\nHavvannets **tetthet** avhenger av **temperatur** og **saltholdighet**. **Kaldt** og **salt** vann er **tyngst**. I **Nord-Atlanteren** og rundt **Antarktis** blir overflatevannet så kaldt og salt at det **synker** til dypet. Det driver en global **termohalin sirkulasjon** – ofte kalt det **globale transportbåndet** – som kan bruke rundt tusen år på én runde.\n\n## Golfstrømmen og Norge\n\n**Golfstrømmen** og **Den nordatlantiske strømmen** frakter **varmt** vann fra Mexicogolfen og tropiske strøk nordover. Sammen med **vestavindene** gjør de at Norge har et mye **mildere** klima enn andre områder på samme breddegrad, og at kysten er **isfri** om vinteren.\n\n## Klimaendringer\n\nMer **smeltevann** fra Grønland og økt **nedbør** gjør overflatevannet i Nord-Atlanteren **ferskere** og **lettere**. Forskere undersøker om dette kan **svekke** den atlantiske omveltningssirkulasjonen – noe som kan få store følger for klimaet i Europa.",
   "flashcards": [
-    { "term": "Lufttrykk", "def": "Vekten av lufta over et punkt." },
-    { "term": "Trykkgradientkraft", "def": "Kraften som får lufta til å strømme fra høyt mot lavt trykk." },
-    { "term": "Isobar", "def": "Linje som binder sammen steder med likt lufttrykk." },
-    { "term": "Corioliseffekten", "def": "Avbøyning mot høyre på nordlige og venstre på sørlige halvkule." },
-    { "term": "Geostrofisk vind", "def": "Vind parallelt med isobarene når trykkgradientkraft og coriolis er i balanse." },
-    { "term": "Lavtrykk på nordlige halvkule", "def": "Vinden blåser mot klokka og inn mot sentrum." },
-    { "term": "Høytrykk på nordlige halvkule", "def": "Vinden blåser med klokka og ut fra sentrum." },
-    { "term": "Ekman-transport", "def": "Netto vanntransport omtrent 90° til høyre for vinden på nordlige halvkule." },
-    { "term": "Oppstrømning", "def": "Kaldt, næringsrikt vann strømmer opp fra dypet." },
-    { "term": "Havstrømvirvel", "def": "Stort vinddrevet strømsystem i et hav." },
-    { "term": "Tetthet i havet", "def": "Avhenger av temperatur og saltholdighet." },
-    { "term": "Termohalin sirkulasjon", "def": "Global havsirkulasjon drevet av tetthetsforskjeller." },
-    { "term": "Dypvannsdannelse", "def": "Kaldt, salt vann synker i Nord-Atlanteren og rundt Antarktis." },
-    { "term": "Golfstrømmen", "def": "Varm havstrøm som gir Norge et mildt klima." },
-    { "term": "Omveltningssirkulasjonen", "def": "Den atlantiske sirkulasjonen som kan svekkes av mer ferskvann." }
+    {
+      "term": "Lufttrykk",
+      "def": "Vekten av lufta over et punkt."
+    },
+    {
+      "term": "Trykkgradientkraft",
+      "def": "Kraften som får lufta til å strømme fra høyt mot lavt trykk."
+    },
+    {
+      "term": "Isobar",
+      "def": "Linje som binder sammen steder med likt lufttrykk."
+    },
+    {
+      "term": "Corioliseffekten",
+      "def": "Avbøyning mot høyre på nordlige og venstre på sørlige halvkule."
+    },
+    {
+      "term": "Geostrofisk vind",
+      "def": "Vind parallelt med isobarene når trykkgradientkraft og coriolis er i balanse."
+    },
+    {
+      "term": "Lavtrykk på nordlige halvkule",
+      "def": "Vinden blåser mot klokka og inn mot sentrum."
+    },
+    {
+      "term": "Høytrykk på nordlige halvkule",
+      "def": "Vinden blåser med klokka og ut fra sentrum."
+    },
+    {
+      "term": "Ekman-transport",
+      "def": "Netto vanntransport omtrent 90° til høyre for vinden på nordlige halvkule."
+    },
+    {
+      "term": "Oppstrømning",
+      "def": "Kaldt, næringsrikt vann strømmer opp fra dypet."
+    },
+    {
+      "term": "Havstrømvirvel",
+      "def": "Stort vinddrevet strømsystem i et hav."
+    },
+    {
+      "term": "Tetthet i havet",
+      "def": "Avhenger av temperatur og saltholdighet."
+    },
+    {
+      "term": "Termohalin sirkulasjon",
+      "def": "Global havsirkulasjon drevet av tetthetsforskjeller."
+    },
+    {
+      "term": "Dypvannsdannelse",
+      "def": "Kaldt, salt vann synker i Nord-Atlanteren og rundt Antarktis."
+    },
+    {
+      "term": "Golfstrømmen",
+      "def": "Varm havstrøm som gir Norge et mildt klima."
+    },
+    {
+      "term": "Omveltningssirkulasjonen",
+      "def": "Den atlantiske sirkulasjonen som kan svekkes av mer ferskvann."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken retning avbøyes vinden på den nordlige halvkule?", "options": ["Mot venstre", "Mot høyre", "Rett fram", "Oppover"], "correct": 1, "explain": "Corioliseffekten." },
-    { "id": "q02", "text": "Hvordan blåser vinden rundt et lavtrykk på den nordlige halvkule?", "options": ["Mot klokka og inn mot sentrum", "Med klokka og ut fra sentrum", "Rett inn", "Rett ut"], "correct": 0, "explain": "Luften stiger og gir nedbør." },
-    { "id": "q03", "text": "Hva betyr tette isobarer på et værkart?", "options": ["Svak vind", "Mye sol", "Sterk vind", "Høy temperatur"], "correct": 2, "explain": "Stor trykkgradient." },
-    { "id": "q04", "text": "Hva er Ekman-transport?", "options": ["Transport av skip", "Tidevann", "Vind i høyden", "Netto vanntransport omtrent 90° til høyre for vinden på nordlige halvkule"], "correct": 3, "explain": "En følge av corioliseffekten." },
-    { "id": "q05", "text": "Hvorfor er oppstrømningsområder rike fiskeområder?", "options": ["Fordi kaldt, næringsrikt vann strømmer opp", "Fordi vannet er varmt", "Fordi det er lite strøm", "Fordi det er lite lys"], "correct": 0, "explain": "Gir mye plankton." },
-    { "id": "q06", "text": "Hvilket vann er tyngst?", "options": ["Varmt og ferskt", "Kaldt og salt", "Varmt og salt", "Kaldt og ferskt"], "correct": 1, "explain": "Synker og driver dypvannssirkulasjon." },
-    { "id": "q07", "text": "Hva er geostrofisk vind?", "options": ["Vind nær bakken", "Vind mot lavtrykket alltid", "Vind parallelt med isobarene i høyden", "Sjøbris"], "correct": 2, "explain": "Balanse mellom trykkgradient og coriolis." },
-    { "id": "q08", "text": "Hvorfor har Norge mildere klima enn andre steder på samme breddegrad?", "options": ["Fordi Norge ligger nær ekvator", "På grunn av fjellene", "På grunn av permafrost", "På grunn av Golfstrømmen og vestavindene"], "correct": 3, "explain": "Varmt vann og mild luft." },
-    { "id": "q09", "text": "Hvor er corioliseffekten null?", "options": ["Ved ekvator", "Ved polene", "Ved 45°", "Overalt"], "correct": 0, "explain": "Størst ved polene." },
-    { "id": "q10", "text": "Hva kan mer smeltevann fra Grønland gjøre med havsirkulasjonen?", "options": ["Styrke den", "Svekke den fordi overflatevannet blir lettere", "Ingenting", "Stoppe tidevannet"], "correct": 1, "explain": "Mindre dypvannsdannelse." }
+    {
+      "id": "q01",
+      "text": "Hvilken retning avbøyes vinden på den nordlige halvkule?",
+      "options": [
+        "Mot venstre",
+        "Mot høyre",
+        "Rett fram",
+        "Oppover"
+      ],
+      "correct": 1,
+      "explain": "Corioliseffekten."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan blåser vinden rundt et lavtrykk på den nordlige halvkule?",
+      "options": [
+        "Mot klokka og inn mot sentrum",
+        "Med klokka og ut fra sentrum",
+        "Rett inn",
+        "Rett ut"
+      ],
+      "correct": 0,
+      "explain": "Luften stiger og gir nedbør."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr tette isobarer på et værkart?",
+      "options": [
+        "Svak vind",
+        "Mye sol",
+        "Sterk vind",
+        "Høy temperatur"
+      ],
+      "correct": 2,
+      "explain": "Stor trykkgradient."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er Ekman-transport?",
+      "options": [
+        "Transport av skip",
+        "Tidevann",
+        "Vind i høyden",
+        "Netto vanntransport omtrent 90° til høyre for vinden på nordlige halvkule"
+      ],
+      "correct": 3,
+      "explain": "En følge av corioliseffekten."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor er oppstrømningsområder rike fiskeområder?",
+      "options": [
+        "Fordi kaldt, næringsrikt vann strømmer opp",
+        "Fordi vannet er varmt",
+        "Fordi det er lite strøm",
+        "Fordi det er lite lys"
+      ],
+      "correct": 0,
+      "explain": "Gir mye plankton."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilket vann er tyngst?",
+      "options": [
+        "Varmt og ferskt",
+        "Kaldt og salt",
+        "Varmt og salt",
+        "Kaldt og ferskt"
+      ],
+      "correct": 1,
+      "explain": "Synker og driver dypvannssirkulasjon."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er geostrofisk vind?",
+      "options": [
+        "Vind nær bakken",
+        "Vind mot lavtrykket alltid",
+        "Vind parallelt med isobarene i høyden",
+        "Sjøbris"
+      ],
+      "correct": 2,
+      "explain": "Balanse mellom trykkgradient og coriolis."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor har Norge mildere klima enn andre steder på samme breddegrad?",
+      "options": [
+        "Fordi Norge ligger nær ekvator",
+        "På grunn av fjellene",
+        "På grunn av permafrost",
+        "På grunn av Golfstrømmen og vestavindene"
+      ],
+      "correct": 3,
+      "explain": "Varmt vann og mild luft."
+    },
+    {
+      "id": "q09",
+      "text": "Hvor er corioliseffekten null?",
+      "options": [
+        "Ved ekvator",
+        "Ved polene",
+        "Ved 45°",
+        "Overalt"
+      ],
+      "correct": 0,
+      "explain": "Størst ved polene."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kan mer smeltevann fra Grønland gjøre med havsirkulasjonen?",
+      "options": [
+        "Styrke den",
+        "Svekke den fordi overflatevannet blir lettere",
+        "Ingenting",
+        "Stoppe tidevannet"
+      ],
+      "correct": 1,
+      "explain": "Mindre dypvannsdannelse."
+    }
   ],
   "mindmap": {
     "label": "Rotasjon, trykk og tetthet",
     "children": [
-      { "label": "Trykk", "children": [
-        { "label": "Høytrykk og lavtrykk" },
-        { "label": "Trykkgradientkraft" },
-        { "label": "Isobarer" }
-      ] },
-      { "label": "Coriolis", "children": [
-        { "label": "Høyre i nord" },
-        { "label": "Geostrofisk vind" }
-      ] },
-      { "label": "Vinddrevet hav", "children": [
-        { "label": "Ekman-transport" },
-        { "label": "Oppstrømning" },
-        { "label": "Havstrømvirvler" }
-      ] },
-      { "label": "Tetthetsdrevet hav", "children": [
-        { "label": "Temperatur og salt" },
-        { "label": "Termohalin sirkulasjon" }
-      ] },
-      { "label": "Norge", "children": [
-        { "label": "Golfstrømmen" },
-        { "label": "Risiko for svekkelse" }
-      ] }
+      {
+        "label": "Trykk",
+        "children": [
+          {
+            "label": "Høytrykk og lavtrykk"
+          },
+          {
+            "label": "Trykkgradientkraft"
+          },
+          {
+            "label": "Isobarer"
+          }
+        ]
+      },
+      {
+        "label": "Coriolis",
+        "children": [
+          {
+            "label": "Høyre i nord"
+          },
+          {
+            "label": "Geostrofisk vind"
+          }
+        ]
+      },
+      {
+        "label": "Vinddrevet hav",
+        "children": [
+          {
+            "label": "Ekman-transport"
+          },
+          {
+            "label": "Oppstrømning"
+          },
+          {
+            "label": "Havstrømvirvler"
+          }
+        ]
+      },
+      {
+        "label": "Tetthetsdrevet hav",
+        "children": [
+          {
+            "label": "Temperatur og salt"
+          },
+          {
+            "label": "Termohalin sirkulasjon"
+          }
+        ]
+      },
+      {
+        "label": "Norge",
+        "children": [
+          {
+            "label": "Golfstrømmen"
+          },
+          {
+            "label": "Risiko for svekkelse"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Høytrykk gir ofte klart og stabilt vær.", "correct": true, "explain": "Synkende luft hindrer skydannelse." },
-      { "id": "m02", "type": "sant-usant", "text": "Rundt et lavtrykk på den sørlige halvkule blåser vinden mot klokka.", "correct": false, "explain": "Retningen er motsatt – med klokka." },
-      { "id": "m03", "type": "sant-usant", "text": "Den termohaline sirkulasjonen kan bruke rundt tusen år på én runde.", "correct": true, "explain": "Det globale transportbåndet." },
-      { "id": "m04", "type": "sant-usant", "text": "Friksjon nær bakken får vinden til å blåse helt parallelt med isobarene.", "correct": false, "explain": "Nær bakken blåser den litt inn mot lavtrykket." },
-      { "id": "m05", "type": "flervalg", "text": "Hvor dannes dypvann som driver den termohaline sirkulasjonen?", "options": ["Ved ekvator", "I Nord-Atlanteren og rundt Antarktis", "I Middelhavet", "I Stillehavet ved Peru"], "correct": 1, "explain": "Kaldt, salt vann synker." },
-      { "id": "m06", "type": "flervalg", "text": "Hvorfor er kysten av Norge isfri om vinteren?", "options": ["Golfstrømmen og Den nordatlantiske strømmen", "Høyt saltinnhold alene", "Tidevannet", "Vulkaner"], "correct": 0, "explain": "Varmt vann fra sør." },
-      { "id": "m07", "type": "flervalg", "text": "Hvor finner vi et kjent oppstrømningsområde?", "options": ["I Nordsjøen", "I Østersjøen", "Utenfor Peru", "I Mjøsa"], "correct": 2, "explain": "Rike fiskeområder." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Høytrykk gir ofte klart og stabilt vær.",
+        "correct": true,
+        "explain": "Synkende luft hindrer skydannelse."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Rundt et lavtrykk på den sørlige halvkule blåser vinden mot klokka.",
+        "correct": false,
+        "explain": "Retningen er motsatt – med klokka."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Den termohaline sirkulasjonen kan bruke rundt tusen år på én runde.",
+        "correct": true,
+        "explain": "Det globale transportbåndet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Friksjon nær bakken får vinden til å blåse helt parallelt med isobarene.",
+        "correct": false,
+        "explain": "Nær bakken blåser den litt inn mot lavtrykket."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvor dannes dypvann som driver den termohaline sirkulasjonen?",
+        "options": [
+          "Ved ekvator",
+          "I Nord-Atlanteren og rundt Antarktis",
+          "I Middelhavet",
+          "I Stillehavet ved Peru"
+        ],
+        "correct": 1,
+        "explain": "Kaldt, salt vann synker."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvorfor er kysten av Norge isfri om vinteren?",
+        "options": [
+          "Golfstrømmen og Den nordatlantiske strømmen",
+          "Høyt saltinnhold alene",
+          "Tidevannet",
+          "Vulkaner"
+        ],
+        "correct": 0,
+        "explain": "Varmt vann fra sør."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvor finner vi et kjent oppstrømningsområde?",
+        "options": [
+          "I Nordsjøen",
+          "I Østersjøen",
+          "Utenfor Peru",
+          "I Mjøsa"
+        ],
+        "correct": 2,
+        "explain": "Rike fiskeområder."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan trykkgradientkraften får luft til å bevege seg, og hvilken betydning lufttrykket har for dette.",
+        "fasit": "Trykkgradientkraften får luft til å strømme fra områder med høyt trykk mot områder med lavt trykk. Lufttrykk er vekten av lufta over et punkt.",
+        "kriterier": [
+          "Forklarer at lufttrykk er vekten av lufta over et punkt.",
+          "Forklarer at trykkgradientkraften driver luft fra høyt mot lavt trykk."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En vind beveger seg over store avstander på den sørlige halvkule. Hvilken vei blir vinden avbøyd av corioliseffekten, og hva er årsaken?",
+        "fasit": "Vinden blir avbøyd mot venstre. Det skyldes at jorda roterer.",
+        "kriterier": [
+          "Angir at avbøyningen er mot venstre på den sørlige halvkule.",
+          "Knytter avbøyningen til jordrotasjonen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign geostrofisk vind høyt over bakken med vind nær bakken. Ta med både retningen i forhold til isobarene og hvilken rolle friksjon spiller.",
+        "fasit": "Høyt over bakken, der friksjonen er liten, blåser geostrofisk vind parallelt med isobarene fordi trykkgradientkraften og corioliseffekten er i balanse. Nær bakken bremser friksjonen vinden, som da blåser litt inn mot lavtrykket.",
+        "kriterier": [
+          "Forklarer at geostrofisk vind blåser parallelt med isobarene når kreftene er i balanse.",
+          "Forklarer at friksjon nær bakken bremser vinden, slik at den blåser inn mot lavtrykket."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En vind blåser rett mot nord på den nordlige halvkule. Ekman-transporten går omtrent 90° til høyre for vinden. Regn ut hvilken himmelretning vanntransporten går i.",
+        "fasit": "Vanntransporten går omtrent mot øst. Når du står vendt mot nord, er øst 90° til høyre.",
+        "kriterier": [
+          "Regner ut at retningen 90° til høyre for nord er øst.",
+          "Bruker at Ekman-transporten går til høyre for vinden på den nordlige halvkule."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Den termohaline sirkulasjonen kan bruke rundt 1000 år på én runde. Omtrent hvor lang tid tar to runder dersom hver runde tar like lang tid? Vis det viktigste regnestykket.",
+        "fasit": "To runder tar rundt 2000 år. Regnestykket er 2 × 1000 år = 2000 år.",
+        "kriterier": [
+          "Multipliserer tiden for én runde med to.",
+          "Oppgir et resultat på rundt 2000 år."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Ved en kyst fører Ekman-transport overflatevann bort fra land. Beskriv hva som da skjer med vannet fra dypet.",
+        "fasit": "Når overflatevannet føres bort fra land, strømmer kaldt, næringsrikt vann opp fra dypet. Dette kalles oppstrømning.",
+        "kriterier": [
+          "Forklarer at vann fra dypet strømmer opp når overflatevannet føres bort fra land.",
+          "Beskriver dypvannet som kaldt og næringsrikt, eller bruker begrepet oppstrømning riktig."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign tettheten til kaldt, salt havvann med ferskere overflatevann i Nord-Atlanteren. Hvilket synker lettest, og hvorfor?",
+        "fasit": "Kaldt og salt vann er tyngre og har større tetthet, så det synker lettere. Ferskere overflatevann er lettere og synker derfor ikke like lett.",
+        "kriterier": [
+          "Forklarer at kaldt og salt vann har høy tetthet og synker.",
+          "Forklarer at ferskere overflatevann er lettere, eller knytter ferskere vann til mindre tilbøyelighet til å synke."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Beskriv hvordan lufta beveger seg i et lavtrykk og et høytrykk på den nordlige halvkule, og knytt bevegelsen til været som ofte følger med.",
+        "fasit": "I et lavtrykk stiger lufta, avkjøles og gir skyer og nedbør. I et høytrykk synker lufta og gir ofte klart og stabilt vær.",
+        "kriterier": [
+          "Knytter stigende luft i lavtrykk til avkjøling, skyer eller nedbør.",
+          "Knytter synkende luft i høytrykk til klart eller stabilt vær."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

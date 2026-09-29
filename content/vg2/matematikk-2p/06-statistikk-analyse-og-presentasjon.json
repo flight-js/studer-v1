@@ -4,80 +4,428 @@
   "trinnId": "vg2",
   "name": "Analysere og presentere datasett",
   "intro": "Hvordan du analyserer og presenterer funn i datasett fra lokalsamfunn og media – frekvens og relativ frekvens, valg av diagram, representative utvalg og feilmargin, misvisende framstillinger og forskjellen på sammenheng og årsak.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Datasett\n\nEt **datasett** er en samling observasjoner, for eksempel svar fra en **spørreundersøkelse** i klassen, **trafikktellinger**, **kommunestatistikk** fra **SSB** eller tall i en **nyhetsartikkel**.\n\n## Frekvens\n\n- **Frekvens**: hvor mange ganger en verdi forekommer.\n- **Relativ frekvens**: frekvensen delt på totalen – en **andel**. 12 av 30 elever sykler til skolen: 12/30 = 0,40 = **40 %**.\n- **Kumulativ frekvens**: frekvensene **lagt sammen** fortløpende – viser hvor mange som har en verdi **opp til** et visst nivå.\n\n## Velge riktig diagram\n\n- **Stolpediagram**: sammenligne **kategorier**, som valg av transportmiddel.\n- **Sektordiagram** (kakediagram): vise **andeler** av en helhet – summen må være 100 %.\n- **Linjediagram**: vise **utvikling over tid**, som befolkningen i kommunen.\n- **Histogram**: vise **grupperte** tallverdier, som høyde eller reisetid.\n\nDiagrammet skal ha **tittel**, **aksetitler**, **enheter** og **kilde**.\n\n## Utvalg og feilmargin\n\nOfte undersøker vi et **utvalg** i stedet for hele **populasjonen**. Utvalget bør være **representativt** – det vil si ligne populasjonen – og **stort nok**. En **meningsmåling** med rundt 1000 personer har gjerne en **feilmargin** på noen prosentpoeng. Små endringer innenfor feilmarginen er derfor ikke nødvendigvis reelle.\n\n## Misvisende framstillinger\n\nStatistikk i **media** og **reklame** kan være misvisende:\n\n- En **y-akse** som ikke starter på null, får små forskjeller til å se store ut.\n- **3D-effekter** og **bilder** i ulik størrelse forvrenger inntrykket.\n- **Utvalgte tidsperioder** kan skjule den lange trenden.\n- **Prosent av hva?** – «Dobbelt så mange» kan bety en økning fra 2 til 4.\n- **Små utvalg** gir usikre resultater.\n\n## Sammenheng og årsak\n\nAt to ting **henger sammen** (korrelasjon), betyr ikke at den ene **forårsaker** den andre. Salget av is og antall drukningsulykker øker begge om sommeren – men is forårsaker ikke drukning. Begge skyldes **varmt vær**, en **tredje faktor**.\n\n## Presentere funn\n\nEn god presentasjon av en statistisk undersøkelse har\n\n1. en tydelig **problemstilling**\n2. en beskrivelse av **datagrunnlaget** og **metoden**\n3. **tabeller** og **diagrammer** som passer til dataene\n4. relevante **sentralmål** og **spredningsmål**\n5. en **drøfting** av funn, usikkerhet og feilkilder\n6. en **konklusjon** og **kildehenvisninger**",
   "flashcards": [
-    { "term": "Datasett", "def": "En samling observasjoner." },
-    { "term": "Frekvens", "def": "Hvor mange ganger en verdi forekommer." },
-    { "term": "Relativ frekvens", "def": "Frekvens delt på totalen – en andel." },
-    { "term": "Kumulativ frekvens", "def": "Frekvensene lagt sammen fortløpende." },
-    { "term": "Stolpediagram", "def": "Sammenligner kategorier." },
-    { "term": "Sektordiagram", "def": "Viser andeler av en helhet." },
-    { "term": "Linjediagram", "def": "Viser utvikling over tid." },
-    { "term": "Histogram", "def": "Viser grupperte tallverdier." },
-    { "term": "Populasjon", "def": "Hele gruppen man vil si noe om." },
-    { "term": "Utvalg", "def": "Den delen av populasjonen som undersøkes." },
-    { "term": "Representativt utvalg", "def": "Utvalg som ligner populasjonen." },
-    { "term": "Feilmargin", "def": "Usikkerheten i en undersøkelse basert på et utvalg." },
-    { "term": "Korrelasjon", "def": "At to størrelser henger sammen." },
-    { "term": "Kausalitet", "def": "At den ene faktoren forårsaker den andre." },
-    { "term": "Tredje faktor", "def": "En bakenforliggende årsak til en sammenheng." }
+    {
+      "term": "Datasett",
+      "def": "En samling observasjoner."
+    },
+    {
+      "term": "Frekvens",
+      "def": "Hvor mange ganger en verdi forekommer."
+    },
+    {
+      "term": "Relativ frekvens",
+      "def": "Frekvens delt på totalen – en andel."
+    },
+    {
+      "term": "Kumulativ frekvens",
+      "def": "Frekvensene lagt sammen fortløpende."
+    },
+    {
+      "term": "Stolpediagram",
+      "def": "Sammenligner kategorier."
+    },
+    {
+      "term": "Sektordiagram",
+      "def": "Viser andeler av en helhet."
+    },
+    {
+      "term": "Linjediagram",
+      "def": "Viser utvikling over tid."
+    },
+    {
+      "term": "Histogram",
+      "def": "Viser grupperte tallverdier."
+    },
+    {
+      "term": "Populasjon",
+      "def": "Hele gruppen man vil si noe om."
+    },
+    {
+      "term": "Utvalg",
+      "def": "Den delen av populasjonen som undersøkes."
+    },
+    {
+      "term": "Representativt utvalg",
+      "def": "Utvalg som ligner populasjonen."
+    },
+    {
+      "term": "Feilmargin",
+      "def": "Usikkerheten i en undersøkelse basert på et utvalg."
+    },
+    {
+      "term": "Korrelasjon",
+      "def": "At to størrelser henger sammen."
+    },
+    {
+      "term": "Kausalitet",
+      "def": "At den ene faktoren forårsaker den andre."
+    },
+    {
+      "term": "Tredje faktor",
+      "def": "En bakenforliggende årsak til en sammenheng."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "12 av 30 elever sykler til skolen. Hva er den relative frekvensen?", "options": ["12 %", "40 %", "30 %", "0,12"], "correct": 1, "explain": "12/30 = 0,40." },
-    { "id": "q02", "text": "Hvilket diagram passer best for å vise utvikling over tid?", "options": ["Linjediagram", "Sektordiagram", "Stolpediagram", "Histogram"], "correct": 0, "explain": "Linjen viser endringen." },
-    { "id": "q03", "text": "Hva er et representativt utvalg?", "options": ["Et stort utvalg", "Et utvalg av venner", "Et utvalg som ligner populasjonen", "Et tilfeldig tall"], "correct": 2, "explain": "Da kan resultatene overføres til hele gruppen." },
-    { "id": "q04", "text": "Hvorfor kan en y-akse som ikke starter på null, være misvisende?", "options": ["Den gjør grafen større", "Den gjør tallene feil", "Den fjerner data", "Den får små forskjeller til å se store ut"], "correct": 3, "explain": "Les alltid aksene nøye." },
-    { "id": "q05", "text": "Is-salg og drukningsulykker øker begge om sommeren. Hva er forklaringen?", "options": ["En tredje faktor – varmt vær", "Is forårsaker drukning", "Drukning forårsaker is-salg", "Tilfeldighet"], "correct": 0, "explain": "Sammenheng er ikke det samme som årsak." },
-    { "id": "q06", "text": "Hvilket diagram viser andeler av en helhet?", "options": ["Linjediagram", "Sektordiagram", "Histogram", "Punktdiagram"], "correct": 1, "explain": "Summen av sektorene er 100 %." },
-    { "id": "q07", "text": "Hva er feilmargin?", "options": ["En regnefeil", "En feil i spørsmålet", "Usikkerheten i en undersøkelse basert på et utvalg", "Forskjellen mellom to diagrammer"], "correct": 2, "explain": "Små endringer innenfor feilmarginen er ikke nødvendigvis reelle." },
-    { "id": "q08", "text": "Hva bør et diagram alltid ha?", "options": ["3D-effekter", "Mange farger", "Bilder", "Tittel, aksetitler, enheter og kilde"], "correct": 3, "explain": "Da er det lett å tolke." },
-    { "id": "q09", "text": "Hva er kumulativ frekvens?", "options": ["Frekvensene lagt sammen fortløpende", "Den største frekvensen", "Frekvens delt på totalen", "Gjennomsnittet"], "correct": 0, "explain": "Den viser hvor mange som har en verdi opp til et visst nivå." },
-    { "id": "q10", "text": "«Dobbelt så mange ulykker!» – hvilket spørsmål bør du stille?", "options": ["Hvem skrev saken?", "Hvor mange var det før og etter?", "Hvilken farge har grafen?", "Hvor lang er artikkelen?"], "correct": 1, "explain": "En dobling fra 2 til 4 er noe annet enn fra 200 til 400." }
+    {
+      "id": "q01",
+      "text": "12 av 30 elever sykler til skolen. Hva er den relative frekvensen?",
+      "options": [
+        "12 %",
+        "40 %",
+        "30 %",
+        "0,12"
+      ],
+      "correct": 1,
+      "explain": "12/30 = 0,40."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket diagram passer best for å vise utvikling over tid?",
+      "options": [
+        "Linjediagram",
+        "Sektordiagram",
+        "Stolpediagram",
+        "Histogram"
+      ],
+      "correct": 0,
+      "explain": "Linjen viser endringen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er et representativt utvalg?",
+      "options": [
+        "Et stort utvalg",
+        "Et utvalg av venner",
+        "Et utvalg som ligner populasjonen",
+        "Et tilfeldig tall"
+      ],
+      "correct": 2,
+      "explain": "Da kan resultatene overføres til hele gruppen."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor kan en y-akse som ikke starter på null, være misvisende?",
+      "options": [
+        "Den gjør grafen større",
+        "Den gjør tallene feil",
+        "Den fjerner data",
+        "Den får små forskjeller til å se store ut"
+      ],
+      "correct": 3,
+      "explain": "Les alltid aksene nøye."
+    },
+    {
+      "id": "q05",
+      "text": "Is-salg og drukningsulykker øker begge om sommeren. Hva er forklaringen?",
+      "options": [
+        "En tredje faktor – varmt vær",
+        "Is forårsaker drukning",
+        "Drukning forårsaker is-salg",
+        "Tilfeldighet"
+      ],
+      "correct": 0,
+      "explain": "Sammenheng er ikke det samme som årsak."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilket diagram viser andeler av en helhet?",
+      "options": [
+        "Linjediagram",
+        "Sektordiagram",
+        "Histogram",
+        "Punktdiagram"
+      ],
+      "correct": 1,
+      "explain": "Summen av sektorene er 100 %."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er feilmargin?",
+      "options": [
+        "En regnefeil",
+        "En feil i spørsmålet",
+        "Usikkerheten i en undersøkelse basert på et utvalg",
+        "Forskjellen mellom to diagrammer"
+      ],
+      "correct": 2,
+      "explain": "Små endringer innenfor feilmarginen er ikke nødvendigvis reelle."
+    },
+    {
+      "id": "q08",
+      "text": "Hva bør et diagram alltid ha?",
+      "options": [
+        "3D-effekter",
+        "Mange farger",
+        "Bilder",
+        "Tittel, aksetitler, enheter og kilde"
+      ],
+      "correct": 3,
+      "explain": "Da er det lett å tolke."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er kumulativ frekvens?",
+      "options": [
+        "Frekvensene lagt sammen fortløpende",
+        "Den største frekvensen",
+        "Frekvens delt på totalen",
+        "Gjennomsnittet"
+      ],
+      "correct": 0,
+      "explain": "Den viser hvor mange som har en verdi opp til et visst nivå."
+    },
+    {
+      "id": "q10",
+      "text": "«Dobbelt så mange ulykker!» – hvilket spørsmål bør du stille?",
+      "options": [
+        "Hvem skrev saken?",
+        "Hvor mange var det før og etter?",
+        "Hvilken farge har grafen?",
+        "Hvor lang er artikkelen?"
+      ],
+      "correct": 1,
+      "explain": "En dobling fra 2 til 4 er noe annet enn fra 200 til 400."
+    }
   ],
   "mindmap": {
     "label": "Analysere og presentere data",
     "children": [
-      { "label": "Frekvens", "children": [
-        { "label": "Frekvens" },
-        { "label": "Relativ frekvens" },
-        { "label": "Kumulativ frekvens" }
-      ] },
-      { "label": "Diagrammer", "children": [
-        { "label": "Stolpe" },
-        { "label": "Sektor" },
-        { "label": "Linje" },
-        { "label": "Histogram" }
-      ] },
-      { "label": "Utvalg", "children": [
-        { "label": "Populasjon" },
-        { "label": "Representativt" },
-        { "label": "Feilmargin" }
-      ] },
-      { "label": "Kritisk lesing", "children": [
-        { "label": "Aksen starter ikke på 0" },
-        { "label": "Prosent av hva?" },
-        { "label": "Korrelasjon og årsak" }
-      ] },
-      { "label": "Presentasjon", "children": [
-        { "label": "Problemstilling" },
-        { "label": "Metode" },
-        { "label": "Drøfting og konklusjon" }
-      ] }
+      {
+        "label": "Frekvens",
+        "children": [
+          {
+            "label": "Frekvens"
+          },
+          {
+            "label": "Relativ frekvens"
+          },
+          {
+            "label": "Kumulativ frekvens"
+          }
+        ]
+      },
+      {
+        "label": "Diagrammer",
+        "children": [
+          {
+            "label": "Stolpe"
+          },
+          {
+            "label": "Sektor"
+          },
+          {
+            "label": "Linje"
+          },
+          {
+            "label": "Histogram"
+          }
+        ]
+      },
+      {
+        "label": "Utvalg",
+        "children": [
+          {
+            "label": "Populasjon"
+          },
+          {
+            "label": "Representativt"
+          },
+          {
+            "label": "Feilmargin"
+          }
+        ]
+      },
+      {
+        "label": "Kritisk lesing",
+        "children": [
+          {
+            "label": "Aksen starter ikke på 0"
+          },
+          {
+            "label": "Prosent av hva?"
+          },
+          {
+            "label": "Korrelasjon og årsak"
+          }
+        ]
+      },
+      {
+        "label": "Presentasjon",
+        "children": [
+          {
+            "label": "Problemstilling"
+          },
+          {
+            "label": "Metode"
+          },
+          {
+            "label": "Drøfting og konklusjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Summen av sektorene i et sektordiagram skal være 100 %.", "correct": true, "explain": "Sektorene viser andeler av en helhet." },
-      { "id": "m02", "type": "sant-usant", "text": "Et lite utvalg gir alltid sikre resultater.", "correct": false, "explain": "Små utvalg gir større usikkerhet." },
-      { "id": "m03", "type": "sant-usant", "text": "Korrelasjon betyr ikke nødvendigvis årsakssammenheng.", "correct": true, "explain": "Det kan finnes en tredje faktor." },
-      { "id": "m04", "type": "sant-usant", "text": "Histogram brukes best til kategorier som favorittfarge.", "correct": false, "explain": "Histogram brukes til grupperte tallverdier." },
-      { "id": "m05", "type": "flervalg", "text": "Hvor kan du finne statistikk om din egen kommune?", "options": ["SSB", "Et underholdningsblad", "En reklameplakat", "En tilfeldig blogg"], "correct": 0, "explain": "SSB har kommunestatistikk." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er populasjonen i en undersøkelse av alle elever på skolen?", "options": ["De som svarte", "Alle elevene på skolen", "Lærerne", "Klassen din"], "correct": 1, "explain": "Utvalget er de som faktisk ble spurt." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket diagram passer for å sammenligne hvordan elever reiser til skolen?", "options": ["Linjediagram", "Histogram", "Stolpediagram", "Ingen diagram"], "correct": 2, "explain": "Transportmiddel er kategorier." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Summen av sektorene i et sektordiagram skal være 100 %.",
+        "correct": true,
+        "explain": "Sektorene viser andeler av en helhet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et lite utvalg gir alltid sikre resultater.",
+        "correct": false,
+        "explain": "Små utvalg gir større usikkerhet."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Korrelasjon betyr ikke nødvendigvis årsakssammenheng.",
+        "correct": true,
+        "explain": "Det kan finnes en tredje faktor."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Histogram brukes best til kategorier som favorittfarge.",
+        "correct": false,
+        "explain": "Histogram brukes til grupperte tallverdier."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvor kan du finne statistikk om din egen kommune?",
+        "options": [
+          "SSB",
+          "Et underholdningsblad",
+          "En reklameplakat",
+          "En tilfeldig blogg"
+        ],
+        "correct": 0,
+        "explain": "SSB har kommunestatistikk."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er populasjonen i en undersøkelse av alle elever på skolen?",
+        "options": [
+          "De som svarte",
+          "Alle elevene på skolen",
+          "Lærerne",
+          "Klassen din"
+        ],
+        "correct": 1,
+        "explain": "Utvalget er de som faktisk ble spurt."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket diagram passer for å sammenligne hvordan elever reiser til skolen?",
+        "options": [
+          "Linjediagram",
+          "Histogram",
+          "Stolpediagram",
+          "Ingen diagram"
+        ],
+        "correct": 2,
+        "explain": "Transportmiddel er kategorier."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I en undersøkelse er den relative frekvensen for en kategori 25 %, og det er 24 observasjoner totalt. Hvor mange observasjoner tilhører kategorien? Vis kort hvordan du regner.",
+        "fasit": "25 % er en fjerdedel. En fjerdedel av 24 er 24 ÷ 4 = 6 observasjoner.",
+        "kriterier": [
+          "Svar 6 og viser at 25 % av 24 beregnes som 24 ÷ 4, eller en tilsvarende regning."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Reisetidene i et datasett er gruppert slik: 0–10 minutter: 4 personer, 10–20 minutter: 7 personer, 20–30 minutter: 5 personer. Hvor mange personer har reisetid opp til 20 minutter? Vis det viktigste regnestykket.",
+        "fasit": "Den kumulative frekvensen opp til 20 minutter er 4 + 7 = 11 personer.",
+        "kriterier": [
+          "Svar 11 personer og legger sammen frekvensene for de to første gruppene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen på et stolpediagram og et histogram. Ta med hva slags data hvert diagram passer til.",
+        "fasit": "Et stolpediagram brukes til å sammenligne kategorier, for eksempel transportmidler. Et histogram viser grupperte tallverdier, som reisetider.",
+        "kriterier": [
+          "Knytter stolpediagram til sammenligning av kategorier.",
+          "Knytter histogram til grupperte tallverdier."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et datasett viser at to størrelser øker samtidig. En elev konkluderer med at den ene størrelsen må være årsaken til den andre. Forklar hvorfor konklusjonen ikke følger av observasjonen, og hva som også kan forklare sammenhengen.",
+        "fasit": "At to størrelser øker samtidig, viser korrelasjon, men ikke nødvendigvis at den ene forårsaker den andre. En tredje faktor kan være årsaken til at begge øker.",
+        "kriterier": [
+          "Skiller mellom at størrelsene henger sammen og at den ene forårsaker den andre.",
+          "Forklarer at en tredje faktor kan påvirke begge."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En reklame bruker tredimensjonale søyler med bilder i ulike størrelser for å vise statistikk. Forklar hvordan dette kan påvirke inntrykket av forskjellene i dataene.",
+        "fasit": "3D-effekter og bilder i ulik størrelse kan forvrenge inntrykket. Da kan forskjellene mellom verdiene se større eller mindre ut enn de er.",
+        "kriterier": [
+          "Nevner at 3D-effekter eller ulik bildestørrelse kan forvrenge framstillingen.",
+          "Forklarer at det kan gi et misvisende inntrykk av forskjellene."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En meningsmåling med rundt 1000 personer viser en endring som er innenfor feilmarginen. Forklar hvorfor man ikke uten videre kan konkludere med at det har skjedd en reell endring i hele populasjonen.",
+        "fasit": "Målingen er basert på et utvalg og har derfor usikkerhet. En endring innenfor feilmarginen kan skyldes denne usikkerheten og trenger ikke være en reell endring i populasjonen.",
+        "kriterier": [
+          "Knytter resultatet til usikkerhet fordi undersøkelsen bygger på et utvalg.",
+          "Forklarer at en endring innenfor feilmarginen ikke nødvendigvis er reell."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En rapport viser et diagram over resultatene fra en statistisk undersøkelse, men oppgir ikke hvordan dataene ble samlet inn eller hvor de kommer fra. Forklar hvorfor disse opplysningene er viktige når man vurderer funnene.",
+        "fasit": "Metoden og datagrunnlaget gjør det mulig å vurdere hvordan undersøkelsen ble gjennomført og om resultatene er til å stole på. Kilden viser hvor opplysningene kommer fra.",
+        "kriterier": [
+          "Forklarer at metode eller datagrunnlag trengs for å vurdere hvordan resultatene ble til.",
+          "Forklarer at kildehenvisning viser hvor dataene kommer fra eller gjør dem mulig å kontrollere."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En statistisk presentasjon har tabeller og diagrammer, men mangler en tydelig problemstilling og en konklusjon. Forklar hva disse to delene skal bidra med i presentasjonen.",
+        "fasit": "Problemstillingen gjør det tydelig hva undersøkelsen skal finne ut. Konklusjonen oppsummerer hva funnene viser i lys av problemstillingen.",
+        "kriterier": [
+          "Forklarer at problemstillingen tydeliggjør hva undersøkelsen undersøker.",
+          "Forklarer at konklusjonen oppsummerer eller svarer på hva funnene viser."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

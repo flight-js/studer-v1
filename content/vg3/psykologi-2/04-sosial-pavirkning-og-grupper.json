@@ -4,75 +4,416 @@
   "trinnId": "vg3",
   "name": "Sosial påvirkning og grupper",
   "intro": "Hvordan sosial påvirkning og samspill i grupper påvirker holdninger, atferd og identitet – konformitet og Asch, lydighet og Milgram, normer og roller, gruppetenkning, sosial identitet og fordommer, holdninger og kognitiv dissonans – og hvordan dette spiller seg ut i sosiale medier.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Mennesket er sosialt\n\nVi påvirkes hele tiden av **andre** – ofte uten at vi merker det. **Sosialpsykologien** undersøker hvordan grupper og situasjoner former **holdninger**, **atferd** og **identitet**.\n\n## Konformitet\n\n**Konformitet** er å endre atferd eller meninger for å **passe inn**. I **Solomon Aschs** eksperimenter på 1950-tallet skulle deltakere bedømme lengden på streker. Når de andre i gruppen – som var med på forsøket – svarte **feil**, fulgte mange deltakere flertallet i **noen** av forsøkene, selv om svaret var åpenbart feil.\n\nVi skiller mellom\n\n- **normativ** påvirkning: å følge gruppen for å bli **likt** og unngå avvisning\n- **informativ** påvirkning: å følge gruppen fordi vi tror de **vet bedre**\n\nKonformiteten **synker** når minst én annen i gruppen er **uenig**.\n\n## Lydighet\n\nI **Stanley Milgrams** eksperimenter trodde deltakerne at de ga **elektriske støt** til en annen person når hen svarte feil. Mange fortsatte til det høyeste nivået fordi en **autoritet** – forsøkslederen – ba dem om det. Studien viste hvor sterkt **autoritet** og **situasjon** kan påvirke atferd, men den er også sterkt **kritisert** for å ha påført deltakerne **stress**.\n\n## Normer og roller\n\n- **Normer** er uskrevne **regler** for hvordan man skal oppføre seg i en gruppe.\n- **Roller** er forventninger knyttet til en **posisjon** – elev, leder, kaptein.\n\n**Stanford-fengselseksperimentet** (1971) ble lenge brukt som eksempel på hvordan roller kan endre atferd, men er i ettertid kritisert for **metodiske svakheter** og for at forsøkslederne påvirket deltakerne.\n\n## Gruppetenkning\n\n**Gruppetenkning** – beskrevet av **Irving Janis** – oppstår når en gruppe er så opptatt av **enighet** at kritiske spørsmål ikke blir stilt. Tegn er **press** mot avvikere, **selvsensur** og en følelse av at gruppen ikke kan ta feil. Det kan føre til **dårlige** beslutninger.\n\n## Sosial identitet og fordommer\n\nEtter **Henri Tajfels** teori om **sosial identitet** henter vi en del av selvfølelsen fra gruppene vi tilhører. Vi deler lett inn i **vi** – **inngruppen** – og **de** – **utgruppen**. Selv tilfeldige grupper kan gi **favorisering** av egen gruppe.\n\nDette kan føre til **stereotypier**, **fordommer** og **diskriminering**. **Kontakthypotesen** sier at **positiv kontakt** mellom grupper under like vilkår kan redusere fordommer.\n\n## Holdninger og kognitiv dissonans\n\nEn **holdning** har tre komponenter: **kognitiv** (tanker), **affektiv** (følelser) og **atferdsmessig**. Holdninger og handlinger stemmer ikke alltid overens.\n\n**Kognitiv dissonans** – beskrevet av **Leon Festinger** – er ubehaget vi kjenner når **handlinger** og **holdninger** krasjer. Vi reduserer ubehaget ved å endre atferden, endre holdningen eller **bortforklare** motsetningen.\n\n## Identitet i grupper\n\nGrupper kan gi **tilhørighet**, **trygghet** og **mening**, og hjelpe oss å utvikle en **identitet**. Men sterk gruppetilhørighet kan også gi **ekskludering** av andre og press mot å endre seg for å passe inn.\n\n## Sosiale medier\n\n- **Likes** og kommentarer virker som **sosial belønning**.\n- **Ekkokamre** og algoritmer kan forsterke **polarisering**.\n- **Påvirkere** bruker **autoritet** og **likhet** for å påvirke holdninger og kjøp.\n\n## Drøfting\n\nSosial påvirkning er ikke bare **negativt**. Normer får samfunnet til å fungere, og grupper kan motivere til **positive** handlinger. Spørsmålet er når påvirkningen hjelper oss, og når den får oss til å handle mot egne **verdier**.",
   "flashcards": [
-    { "term": "Konformitet", "def": "Å endre atferd eller meninger for å passe inn." },
-    { "term": "Asch", "def": "Eksperimenter med strekvurdering som viste konformitet." },
-    { "term": "Normativ påvirkning", "def": "Følge gruppen for å bli likt." },
-    { "term": "Informativ påvirkning", "def": "Følge gruppen fordi de antas å vite bedre." },
-    { "term": "Milgram", "def": "Eksperimenter om lydighet mot autoritet." },
-    { "term": "Normer", "def": "Uskrevne regler for oppførsel i en gruppe." },
-    { "term": "Roller", "def": "Forventninger knyttet til en posisjon." },
-    { "term": "Gruppetenkning", "def": "Jakt på enighet hindrer kritisk tenkning – Janis." },
-    { "term": "Sosial identitet", "def": "Selvfølelse hentet fra gruppetilhørighet – Tajfel." },
-    { "term": "Inngruppe og utgruppe", "def": "«Vi» og «de»." },
-    { "term": "Stereotypi", "def": "Forenklet forestilling om en gruppe." },
-    { "term": "Kontakthypotesen", "def": "Positiv kontakt kan redusere fordommer." },
-    { "term": "Holdningens tre komponenter", "def": "Kognitiv, affektiv og atferdsmessig." },
-    { "term": "Kognitiv dissonans", "def": "Ubehag når handlinger og holdninger krasjer – Festinger." },
-    { "term": "Ekkokammer", "def": "Miljø der man bare møter meninger som bekrefter egne." }
+    {
+      "term": "Konformitet",
+      "def": "Å endre atferd eller meninger for å passe inn."
+    },
+    {
+      "term": "Asch",
+      "def": "Eksperimenter med strekvurdering som viste konformitet."
+    },
+    {
+      "term": "Normativ påvirkning",
+      "def": "Følge gruppen for å bli likt."
+    },
+    {
+      "term": "Informativ påvirkning",
+      "def": "Følge gruppen fordi de antas å vite bedre."
+    },
+    {
+      "term": "Milgram",
+      "def": "Eksperimenter om lydighet mot autoritet."
+    },
+    {
+      "term": "Normer",
+      "def": "Uskrevne regler for oppførsel i en gruppe."
+    },
+    {
+      "term": "Roller",
+      "def": "Forventninger knyttet til en posisjon."
+    },
+    {
+      "term": "Gruppetenkning",
+      "def": "Jakt på enighet hindrer kritisk tenkning – Janis."
+    },
+    {
+      "term": "Sosial identitet",
+      "def": "Selvfølelse hentet fra gruppetilhørighet – Tajfel."
+    },
+    {
+      "term": "Inngruppe og utgruppe",
+      "def": "«Vi» og «de»."
+    },
+    {
+      "term": "Stereotypi",
+      "def": "Forenklet forestilling om en gruppe."
+    },
+    {
+      "term": "Kontakthypotesen",
+      "def": "Positiv kontakt kan redusere fordommer."
+    },
+    {
+      "term": "Holdningens tre komponenter",
+      "def": "Kognitiv, affektiv og atferdsmessig."
+    },
+    {
+      "term": "Kognitiv dissonans",
+      "def": "Ubehag når handlinger og holdninger krasjer – Festinger."
+    },
+    {
+      "term": "Ekkokammer",
+      "def": "Miljø der man bare møter meninger som bekrefter egne."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva viste Aschs eksperimenter?", "options": ["At folk alltid svarer riktig", "At mange følger flertallet selv når svaret er åpenbart feil", "At autoriteter alltid adlydes", "At grupper tar bedre beslutninger"], "correct": 1, "explain": "Konformitet." },
-    { "id": "q02", "text": "Hva handlet Milgrams eksperimenter om?", "options": ["Lydighet mot autoritet", "Hukommelse", "Søvn", "Persepsjon"], "correct": 0, "explain": "Deltakerne trodde de ga elektriske støt." },
-    { "id": "q03", "text": "Hva er gruppetenkning?", "options": ["At grupper tenker raskere", "At alle i gruppen er smarte", "At jakten på enighet hindrer kritisk tenkning", "At grupper aldri er enige"], "correct": 2, "explain": "Beskrevet av Janis." },
-    { "id": "q04", "text": "Hva er kognitiv dissonans?", "options": ["God hukommelse", "Glede ved å lære", "Frykt for grupper", "Ubehag når handlinger og holdninger krasjer"], "correct": 3, "explain": "Festinger." },
-    { "id": "q05", "text": "Hva gjør at konformiteten synker i Asch-forsøkene?", "options": ["At minst én annen er uenig", "At gruppen er større", "At oppgaven er vanskeligere", "At forsøkslederen er streng"], "correct": 0, "explain": "Én alliert er nok." },
-    { "id": "q06", "text": "Hva sier teorien om sosial identitet?", "options": ["At vi ikke påvirkes av grupper", "At vi henter en del av selvfølelsen fra gruppene vi tilhører", "At alle grupper er like", "At identitet bare er biologisk"], "correct": 1, "explain": "Tajfel." },
-    { "id": "q07", "text": "Hva sier kontakthypotesen?", "options": ["At kontakt alltid øker fordommer", "At man bør unngå andre grupper", "At positiv kontakt under like vilkår kan redusere fordommer", "At kontakt ikke har betydning"], "correct": 2, "explain": "Viktig for integrering." },
-    { "id": "q08", "text": "Hva er normativ påvirkning?", "options": ["Å følge gruppen fordi de vet bedre", "Å følge loven", "Å følge egne verdier", "Å følge gruppen for å bli likt"], "correct": 3, "explain": "Informativ påvirkning handler om kunnskap." },
-    { "id": "q09", "text": "Hvorfor er Stanford-fengselseksperimentet kritisert?", "options": ["For metodiske svakheter og påvirkning fra forsøkslederne", "Fordi det var for kort", "Fordi det ble gjort i Norge", "Fordi ingen deltok"], "correct": 0, "explain": "Konklusjonene er omstridt." },
-    { "id": "q10", "text": "Hva er de tre komponentene i en holdning?", "options": ["Arv, miljø og tid", "Kognitiv, affektiv og atferdsmessig", "Normer, roller og regler", "Syn, hørsel og lukt"], "correct": 1, "explain": "Tanker, følelser og handling." }
+    {
+      "id": "q01",
+      "text": "Hva viste Aschs eksperimenter?",
+      "options": [
+        "At folk alltid svarer riktig",
+        "At mange følger flertallet selv når svaret er åpenbart feil",
+        "At autoriteter alltid adlydes",
+        "At grupper tar bedre beslutninger"
+      ],
+      "correct": 1,
+      "explain": "Konformitet."
+    },
+    {
+      "id": "q02",
+      "text": "Hva handlet Milgrams eksperimenter om?",
+      "options": [
+        "Lydighet mot autoritet",
+        "Hukommelse",
+        "Søvn",
+        "Persepsjon"
+      ],
+      "correct": 0,
+      "explain": "Deltakerne trodde de ga elektriske støt."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er gruppetenkning?",
+      "options": [
+        "At grupper tenker raskere",
+        "At alle i gruppen er smarte",
+        "At jakten på enighet hindrer kritisk tenkning",
+        "At grupper aldri er enige"
+      ],
+      "correct": 2,
+      "explain": "Beskrevet av Janis."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er kognitiv dissonans?",
+      "options": [
+        "God hukommelse",
+        "Glede ved å lære",
+        "Frykt for grupper",
+        "Ubehag når handlinger og holdninger krasjer"
+      ],
+      "correct": 3,
+      "explain": "Festinger."
+    },
+    {
+      "id": "q05",
+      "text": "Hva gjør at konformiteten synker i Asch-forsøkene?",
+      "options": [
+        "At minst én annen er uenig",
+        "At gruppen er større",
+        "At oppgaven er vanskeligere",
+        "At forsøkslederen er streng"
+      ],
+      "correct": 0,
+      "explain": "Én alliert er nok."
+    },
+    {
+      "id": "q06",
+      "text": "Hva sier teorien om sosial identitet?",
+      "options": [
+        "At vi ikke påvirkes av grupper",
+        "At vi henter en del av selvfølelsen fra gruppene vi tilhører",
+        "At alle grupper er like",
+        "At identitet bare er biologisk"
+      ],
+      "correct": 1,
+      "explain": "Tajfel."
+    },
+    {
+      "id": "q07",
+      "text": "Hva sier kontakthypotesen?",
+      "options": [
+        "At kontakt alltid øker fordommer",
+        "At man bør unngå andre grupper",
+        "At positiv kontakt under like vilkår kan redusere fordommer",
+        "At kontakt ikke har betydning"
+      ],
+      "correct": 2,
+      "explain": "Viktig for integrering."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er normativ påvirkning?",
+      "options": [
+        "Å følge gruppen fordi de vet bedre",
+        "Å følge loven",
+        "Å følge egne verdier",
+        "Å følge gruppen for å bli likt"
+      ],
+      "correct": 3,
+      "explain": "Informativ påvirkning handler om kunnskap."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er Stanford-fengselseksperimentet kritisert?",
+      "options": [
+        "For metodiske svakheter og påvirkning fra forsøkslederne",
+        "Fordi det var for kort",
+        "Fordi det ble gjort i Norge",
+        "Fordi ingen deltok"
+      ],
+      "correct": 0,
+      "explain": "Konklusjonene er omstridt."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er de tre komponentene i en holdning?",
+      "options": [
+        "Arv, miljø og tid",
+        "Kognitiv, affektiv og atferdsmessig",
+        "Normer, roller og regler",
+        "Syn, hørsel og lukt"
+      ],
+      "correct": 1,
+      "explain": "Tanker, følelser og handling."
+    }
   ],
   "mindmap": {
     "label": "Sosial påvirkning",
     "children": [
-      { "label": "Konformitet", "children": [
-        { "label": "Asch" },
-        { "label": "Normativ og informativ" }
-      ] },
-      { "label": "Lydighet", "children": [
-        { "label": "Milgram" },
-        { "label": "Etisk kritikk" }
-      ] },
-      { "label": "Grupper", "children": [
-        { "label": "Normer og roller" },
-        { "label": "Gruppetenkning" }
-      ] },
-      { "label": "Identitet", "children": [
-        { "label": "Sosial identitet" },
-        { "label": "Fordommer og kontakthypotesen" }
-      ] },
-      { "label": "Holdninger", "children": [
-        { "label": "Tre komponenter" },
-        { "label": "Kognitiv dissonans" },
-        { "label": "Sosiale medier" }
-      ] }
+      {
+        "label": "Konformitet",
+        "children": [
+          {
+            "label": "Asch"
+          },
+          {
+            "label": "Normativ og informativ"
+          }
+        ]
+      },
+      {
+        "label": "Lydighet",
+        "children": [
+          {
+            "label": "Milgram"
+          },
+          {
+            "label": "Etisk kritikk"
+          }
+        ]
+      },
+      {
+        "label": "Grupper",
+        "children": [
+          {
+            "label": "Normer og roller"
+          },
+          {
+            "label": "Gruppetenkning"
+          }
+        ]
+      },
+      {
+        "label": "Identitet",
+        "children": [
+          {
+            "label": "Sosial identitet"
+          },
+          {
+            "label": "Fordommer og kontakthypotesen"
+          }
+        ]
+      },
+      {
+        "label": "Holdninger",
+        "children": [
+          {
+            "label": "Tre komponenter"
+          },
+          {
+            "label": "Kognitiv dissonans"
+          },
+          {
+            "label": "Sosiale medier"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Selv tilfeldig sammensatte grupper kan gi favorisering av egen gruppe.", "correct": true, "explain": "Tajfels forsøk." },
-      { "id": "m02", "type": "sant-usant", "text": "Sosial påvirkning er alltid negativt.", "correct": false, "explain": "Normer får samfunnet til å fungere." },
-      { "id": "m03", "type": "sant-usant", "text": "Milgram-studien er kritisert for å ha påført deltakerne stress.", "correct": true, "explain": "Etisk kritikk." },
-      { "id": "m04", "type": "sant-usant", "text": "Holdninger og handlinger stemmer alltid overens.", "correct": false, "explain": "Derfor oppstår kognitiv dissonans." },
-      { "id": "m05", "type": "flervalg", "text": "Hva kan algoritmer i sosiale medier forsterke?", "options": ["Hukommelse", "Polarisering gjennom ekkokamre", "Søvnkvalitet", "Konsentrasjon"], "correct": 1, "explain": "Man ser mest av det man er enig i." },
-      { "id": "m06", "type": "flervalg", "text": "Hvem beskrev gruppetenkning?", "options": ["Irving Janis", "Leon Festinger", "Stanley Milgram", "Henri Tajfel"], "correct": 0, "explain": "Analyserte politiske feilbeslutninger." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan kan man redusere kognitiv dissonans?", "options": ["Ved å glemme alt", "Ved å sove", "Ved å endre atferd, endre holdning eller bortforklare", "Det er umulig"], "correct": 2, "explain": "Tre strategier." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Selv tilfeldig sammensatte grupper kan gi favorisering av egen gruppe.",
+        "correct": true,
+        "explain": "Tajfels forsøk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Sosial påvirkning er alltid negativt.",
+        "correct": false,
+        "explain": "Normer får samfunnet til å fungere."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Milgram-studien er kritisert for å ha påført deltakerne stress.",
+        "correct": true,
+        "explain": "Etisk kritikk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Holdninger og handlinger stemmer alltid overens.",
+        "correct": false,
+        "explain": "Derfor oppstår kognitiv dissonans."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva kan algoritmer i sosiale medier forsterke?",
+        "options": [
+          "Hukommelse",
+          "Polarisering gjennom ekkokamre",
+          "Søvnkvalitet",
+          "Konsentrasjon"
+        ],
+        "correct": 1,
+        "explain": "Man ser mest av det man er enig i."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem beskrev gruppetenkning?",
+        "options": [
+          "Irving Janis",
+          "Leon Festinger",
+          "Stanley Milgram",
+          "Henri Tajfel"
+        ],
+        "correct": 0,
+        "explain": "Analyserte politiske feilbeslutninger."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan kan man redusere kognitiv dissonans?",
+        "options": [
+          "Ved å glemme alt",
+          "Ved å sove",
+          "Ved å endre atferd, endre holdning eller bortforklare",
+          "Det er umulig"
+        ],
+        "correct": 2,
+        "explain": "Tre strategier."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I en klasse venter elevene på tur før de snakker, mens klasserepresentanten forventes å formidle klassens synspunkter. Forklar hva som er en norm, og hva som er en rolle, i disse eksemplene.",
+        "fasit": "Å vente på tur er en norm fordi det er en uskreven regel for oppførsel i gruppen. Å formidle klassens synspunkter er en forventning knyttet til klasserepresentantens posisjon, altså en rolle.",
+        "kriterier": [
+          "Forklarer at normen er en uskreven regel for hvordan man oppfører seg i gruppen.",
+          "Forklarer at rollen er en forventning knyttet til klasserepresentantens posisjon."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "To elever endrer svaret sitt etter at de hører hva resten av gruppen mener. Den ene vil unngå å bli avvist, mens den andre tror gruppen vet bedre. Sammenlign hvilken type sosial påvirkning som virker på hver elev.",
+        "fasit": "Den første eleven påvirkes normativt fordi hen følger gruppen for å bli likt eller unngå avvisning. Den andre påvirkes informativt fordi hen følger gruppen i troen på at de andre vet bedre.",
+        "kriterier": [
+          "Knytter ønsket om å unngå avvisning eller bli likt til normativ påvirkning.",
+          "Knytter troen på at gruppen vet bedre til informativ påvirkning."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En arbeidsgruppe skynder seg mot enighet. Medlemmer som tviler, tier fordi de er redde for å skape dårlig stemning, og gruppen antar at planen ikke kan slå feil. Forklar hva dette kan være et eksempel på, og hva det kan føre til.",
+        "fasit": "Dette kan være gruppetenkning, der ønsket om enighet gjør at kritiske spørsmål ikke blir stilt. Selvsensur og en følelse av at gruppen ikke kan ta feil kan bidra til dårlige beslutninger.",
+        "kriterier": [
+          "Identifiserer gruppetenkning som at ønsket om enighet hindrer kritisk tenkning.",
+          "Bruker tegn fra situasjonen, som selvsensur eller tro på at gruppen ikke kan ta feil, og knytter dette til risiko for dårlige beslutninger."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sara mener at det er viktig å redusere plastbruken, blir bekymret når hun ser mye plastavfall og tar med en gjenbrukbar flaske. Vis hvordan disse tre delene kan forstås som komponenter i en holdning.",
+        "fasit": "Tanken om at plastbruken bør reduseres er den kognitive komponenten, og bekymringen er den affektive komponenten. Det å ta med en gjenbrukbar flaske er den atferdsmessige komponenten.",
+        "kriterier": [
+          "Knytter tanken eller oppfatningen til den kognitive komponenten.",
+          "Knytter følelsen til den affektive komponenten.",
+          "Knytter handlingen til den atferdsmessige komponenten."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Elever deles tilfeldig i to lag. Etter hvert støtter flere elevene på sitt eget lag enn elevene på det andre laget, selv om lagene ble laget tilfeldig. Bruk begrepene inngruppe og utgruppe til å forklare mønsteret.",
+        "fasit": "Elevene kan oppfatte sitt eget lag som inngruppen, «vi», og det andre laget som utgruppen, «de». Sosial identitet knytter noe av selvfølelsen til gruppene man tilhører, og selv tilfeldige grupper kan føre til favorisering av egen gruppe.",
+        "kriterier": [
+          "Skiller mellom eget lag som inngruppe («vi») og det andre laget som utgruppe («de»).",
+          "Forklarer at gruppetilhørighet kan bidra til favorisering av egen gruppe, også når gruppene er tilfeldige."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En person møter bare innlegg på sosiale medier som bekrefter meningene hen allerede har. Forklar hvorfor dette kan kalles et ekkokammer, og hvordan det kan påvirke meningsforskjeller.",
+        "fasit": "Det kan kalles et ekkokammer fordi personen hovedsakelig møter meninger som bekrefter egne. Slike ekkokamre og algoritmer kan forsterke polarisering.",
+        "kriterier": [
+          "Forklarer at et ekkokammer innebærer å møte meninger som bekrefter egne.",
+          "Knytter ekkokamre eller algoritmer til at polarisering kan forsterkes."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev antar at alle i en bestemt gruppe har samme egenskap, selv om eleven bare kjenner til noen få personer fra gruppen. Forklar hvorfor dette er en stereotypi, og hvordan slike forestillinger kan få følger for hvordan gruppen behandles.",
+        "fasit": "Det er en stereotypi fordi eleven bruker en forenklet forestilling om en gruppe. Slike forestillinger kan bidra til fordommer og diskriminering.",
+        "kriterier": [
+          "Forklarer stereotypi som en forenklet forestilling om en gruppe.",
+          "Knytter slike forestillinger til mulige fordommer eller diskriminering."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En elev mener at det er viktig å være ærlig, men kopierer likevel svaret til en annen. Beskriv to ulike måter eleven kan forsøke å redusere ubehaget ved motsetningen på.",
+        "fasit": "Eleven kan endre atferden ved å slutte å kopiere, eller endre holdningen sin til handlingen. Eleven kan også bortforklare motsetningen mellom holdningen og handlingen.",
+        "kriterier": [
+          "Viser at ubehaget oppstår fordi handlingen krasjer med elevens holdning.",
+          "Beskriver minst to mulige måter å redusere ubehaget på: endre atferd, endre holdning eller bortforklare motsetningen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,77 +4,422 @@
   "trinnId": "vg2",
   "name": "Optimering i økonomi",
   "intro": "Kostnads-, inntekts- og overskuddsfunksjoner, grensekostnad og grenseinntekt, største overskudd, minste enhetskostnad og optimal pris – og hvordan derivasjon brukes til å løse slike problemer.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Tre sentrale funksjoner\n\n- **Kostnadsfunksjonen K(x)**: hva det koster å produsere x enheter. Den består av **faste kostnader** (husleie, maskiner) og **variable kostnader** (råvarer, lønn per enhet).\n- **Inntektsfunksjonen I(x)**: hva bedriften får inn. Med fast pris p er I(x) = p · x.\n- **Overskuddsfunksjonen O(x) = I(x) − K(x)**.\n\nI eksemplene bruker vi\n\n**K(x) = 0,5x² + 20x + 800** og en pris på **100 kr** per enhet.\n\n## Grensekostnad og grenseinntekt\n\n- **Grensekostnaden K′(x)** er omtrent hva det koster å lage **én enhet til**. Her er K′(x) = x + 20.\n- **Grenseinntekten I′(x)** er omtrent hvor mye inntekten øker ved å selge én enhet til. Her er I′(x) = 100.\n\n## Største overskudd\n\nO(x) = 100x − (0,5x² + 20x + 800) = −0,5x² + 80x − 800\n\nO′(x) = −x + 80 = 0 gir **x = 80**. Overskuddet blir\n\nO(80) = −0,5 · 6400 + 6400 − 800 = **2400 kr**\n\nLegg merke til at K′(80) = 100 = I′(80). Overskuddet er størst når **grensekostnaden er lik grenseinntekten**. Så lenge en ekstra enhet gir mer inntekt enn den koster, lønner det seg å produsere mer.\n\n## Minste enhetskostnad\n\n**Enhetskostnaden** er gjennomsnittlig kostnad per enhet:\n\nE(x) = K(x) / x = 0,5x + 20 + 800/x\n\nE′(x) = 0,5 − 800/x² = 0 gir x² = 1600, altså **x = 40**, og E(40) = 20 + 20 + 20 = **60 kr**.\n\nDet er ingen tilfeldighet at K′(40) = 60: Enhetskostnaden er **lavest** der **grensekostnaden er lik enhetskostnaden**.\n\n## Pris som avhenger av antall\n\nOfte må prisen **senkes** for å selge flere. Hvis prisen er p(x) = 200 − 2x, blir inntekten\n\nI(x) = (200 − 2x) · x = 200x − 2x²\n\nI′(x) = 200 − 4x = 0 gir x = 50 og p = 100 kr. **Største inntekt** er I(50) = **5000 kr**. Merk at største **inntekt** ikke er det samme som største **overskudd** – kostnadene må også tas med.\n\n## Framgangsmåte\n\n1. Still opp funksjonen som skal optimeres.\n2. Finn **definisjonsmengden** – for eksempel kan x ikke være negativ eller større enn kapasiteten.\n3. **Deriver** og løs f′(x) = 0.\n4. Vis med **fortegnslinje** at du har et maksimum eller minimum, og sjekk **endepunktene**.\n5. **Svar** i sammenheng, med enheter.\n\n## Andre optimeringsproblemer\n\nDerivasjon brukes også til å finne **minst materialbruk** for en emballasje, **størst areal** innenfor et gitt gjerde eller **optimal lagerstørrelse**. Framgangsmåten er den samme.\n\n## Vurdering\n\nModellene er **forenklinger**. I virkeligheten kan etterspørselen endre seg, kapasiteten være begrenset og produksjonen skje i hele partier. Diskuter derfor om svaret er **realistisk**.",
   "flashcards": [
-    { "term": "Kostnadsfunksjon K(x)", "def": "Hva det koster å produsere x enheter." },
-    { "term": "Faste kostnader", "def": "Kostnader som ikke avhenger av produksjonen, som husleie." },
-    { "term": "Variable kostnader", "def": "Kostnader som øker med produksjonen." },
-    { "term": "Inntektsfunksjon", "def": "I(x) = p · x ved fast pris." },
-    { "term": "Overskudd", "def": "O(x) = I(x) − K(x)" },
-    { "term": "Grensekostnad", "def": "K′(x) – kostnaden for én enhet til." },
-    { "term": "Grenseinntekt", "def": "I′(x) – inntekten for én enhet til." },
-    { "term": "Største overskudd", "def": "Når K′(x) = I′(x)." },
-    { "term": "Enhetskostnad", "def": "E(x) = K(x)/x" },
-    { "term": "Minste enhetskostnad", "def": "Når K′(x) = E(x)." },
-    { "term": "K(x) = 0,5x² + 20x + 800, pris 100 kr", "def": "Største overskudd 2400 kr ved x = 80." },
-    { "term": "Minste enhetskostnad i eksempelet", "def": "60 kr ved x = 40." },
-    { "term": "p(x) = 200 − 2x", "def": "Største inntekt 5000 kr ved x = 50." },
-    { "term": "Største inntekt og største overskudd", "def": "Ikke det samme – kostnadene må med." },
-    { "term": "Definisjonsmengde i optimering", "def": "Bestemmes av situasjonen, som kapasitet." }
+    {
+      "term": "Kostnadsfunksjon K(x)",
+      "def": "Hva det koster å produsere x enheter."
+    },
+    {
+      "term": "Faste kostnader",
+      "def": "Kostnader som ikke avhenger av produksjonen, som husleie."
+    },
+    {
+      "term": "Variable kostnader",
+      "def": "Kostnader som øker med produksjonen."
+    },
+    {
+      "term": "Inntektsfunksjon",
+      "def": "I(x) = p · x ved fast pris."
+    },
+    {
+      "term": "Overskudd",
+      "def": "O(x) = I(x) − K(x)"
+    },
+    {
+      "term": "Grensekostnad",
+      "def": "K′(x) – kostnaden for én enhet til."
+    },
+    {
+      "term": "Grenseinntekt",
+      "def": "I′(x) – inntekten for én enhet til."
+    },
+    {
+      "term": "Største overskudd",
+      "def": "Når K′(x) = I′(x)."
+    },
+    {
+      "term": "Enhetskostnad",
+      "def": "E(x) = K(x)/x"
+    },
+    {
+      "term": "Minste enhetskostnad",
+      "def": "Når K′(x) = E(x)."
+    },
+    {
+      "term": "K(x) = 0,5x² + 20x + 800, pris 100 kr",
+      "def": "Største overskudd 2400 kr ved x = 80."
+    },
+    {
+      "term": "Minste enhetskostnad i eksempelet",
+      "def": "60 kr ved x = 40."
+    },
+    {
+      "term": "p(x) = 200 − 2x",
+      "def": "Største inntekt 5000 kr ved x = 50."
+    },
+    {
+      "term": "Største inntekt og største overskudd",
+      "def": "Ikke det samme – kostnadene må med."
+    },
+    {
+      "term": "Definisjonsmengde i optimering",
+      "def": "Bestemmes av situasjonen, som kapasitet."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan er overskuddet definert?", "options": ["K(x) − I(x)", "I(x) − K(x)", "I(x) · K(x)", "K(x)/x"], "correct": 1, "explain": "Inntekt minus kostnad." },
-    { "id": "q02", "text": "K(x) = 0,5x² + 20x + 800 og prisen er 100 kr. Hvilken x gir størst overskudd?", "options": ["x = 80", "x = 40", "x = 100", "x = 20"], "correct": 0, "explain": "O′(x) = −x + 80 = 0." },
-    { "id": "q03", "text": "Hva er det største overskuddet i eksempelet?", "options": ["3200 kr", "6400 kr", "2400 kr", "800 kr"], "correct": 2, "explain": "O(80) = −3200 + 6400 − 800." },
-    { "id": "q04", "text": "Når er overskuddet størst?", "options": ["Når K(x) = 0", "Når I(x) er størst", "Når x er størst mulig", "Når grensekostnaden er lik grenseinntekten"], "correct": 3, "explain": "K′(x) = I′(x)." },
-    { "id": "q05", "text": "Hva er enhetskostnaden?", "options": ["K(x)/x", "K′(x)", "I(x) − K(x)", "K(x) · x"], "correct": 0, "explain": "Gjennomsnittlig kostnad per enhet." },
-    { "id": "q06", "text": "Hvilken x gir minst enhetskostnad når K(x) = 0,5x² + 20x + 800?", "options": ["x = 80", "x = 40", "x = 20", "x = 1600"], "correct": 1, "explain": "E′(x) = 0,5 − 800/x² = 0." },
-    { "id": "q07", "text": "Prisen er p(x) = 200 − 2x. Hva er største inntekt?", "options": ["10 000 kr", "2500 kr", "5000 kr", "200 kr"], "correct": 2, "explain": "x = 50 gir I = 100 · 50." },
-    { "id": "q08", "text": "Hva er grensekostnaden?", "options": ["De faste kostnadene", "Den totale kostnaden", "Gjennomsnittskostnaden", "Omtrent kostnaden for å lage én enhet til"], "correct": 3, "explain": "K′(x)." },
-    { "id": "q09", "text": "Hvorfor er største inntekt ikke alltid det samme som største overskudd?", "options": ["Fordi kostnadene også påvirker overskuddet", "Fordi inntekten alltid er null", "Fordi prisen er fast", "Det er alltid det samme"], "correct": 0, "explain": "O = I − K." },
-    { "id": "q10", "text": "Hva er K′(x) når K(x) = 0,5x² + 20x + 800?", "options": ["0,5x + 20", "x + 20", "x² + 20", "20"], "correct": 1, "explain": "0,5 · 2x + 20." }
+    {
+      "id": "q01",
+      "text": "Hvordan er overskuddet definert?",
+      "options": [
+        "K(x) − I(x)",
+        "I(x) − K(x)",
+        "I(x) · K(x)",
+        "K(x)/x"
+      ],
+      "correct": 1,
+      "explain": "Inntekt minus kostnad."
+    },
+    {
+      "id": "q02",
+      "text": "K(x) = 0,5x² + 20x + 800 og prisen er 100 kr. Hvilken x gir størst overskudd?",
+      "options": [
+        "x = 80",
+        "x = 40",
+        "x = 100",
+        "x = 20"
+      ],
+      "correct": 0,
+      "explain": "O′(x) = −x + 80 = 0."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er det største overskuddet i eksempelet?",
+      "options": [
+        "3200 kr",
+        "6400 kr",
+        "2400 kr",
+        "800 kr"
+      ],
+      "correct": 2,
+      "explain": "O(80) = −3200 + 6400 − 800."
+    },
+    {
+      "id": "q04",
+      "text": "Når er overskuddet størst?",
+      "options": [
+        "Når K(x) = 0",
+        "Når I(x) er størst",
+        "Når x er størst mulig",
+        "Når grensekostnaden er lik grenseinntekten"
+      ],
+      "correct": 3,
+      "explain": "K′(x) = I′(x)."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er enhetskostnaden?",
+      "options": [
+        "K(x)/x",
+        "K′(x)",
+        "I(x) − K(x)",
+        "K(x) · x"
+      ],
+      "correct": 0,
+      "explain": "Gjennomsnittlig kostnad per enhet."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken x gir minst enhetskostnad når K(x) = 0,5x² + 20x + 800?",
+      "options": [
+        "x = 80",
+        "x = 40",
+        "x = 20",
+        "x = 1600"
+      ],
+      "correct": 1,
+      "explain": "E′(x) = 0,5 − 800/x² = 0."
+    },
+    {
+      "id": "q07",
+      "text": "Prisen er p(x) = 200 − 2x. Hva er største inntekt?",
+      "options": [
+        "10 000 kr",
+        "2500 kr",
+        "5000 kr",
+        "200 kr"
+      ],
+      "correct": 2,
+      "explain": "x = 50 gir I = 100 · 50."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er grensekostnaden?",
+      "options": [
+        "De faste kostnadene",
+        "Den totale kostnaden",
+        "Gjennomsnittskostnaden",
+        "Omtrent kostnaden for å lage én enhet til"
+      ],
+      "correct": 3,
+      "explain": "K′(x)."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er største inntekt ikke alltid det samme som største overskudd?",
+      "options": [
+        "Fordi kostnadene også påvirker overskuddet",
+        "Fordi inntekten alltid er null",
+        "Fordi prisen er fast",
+        "Det er alltid det samme"
+      ],
+      "correct": 0,
+      "explain": "O = I − K."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er K′(x) når K(x) = 0,5x² + 20x + 800?",
+      "options": [
+        "0,5x + 20",
+        "x + 20",
+        "x² + 20",
+        "20"
+      ],
+      "correct": 1,
+      "explain": "0,5 · 2x + 20."
+    }
   ],
   "mindmap": {
     "label": "Økonomisk optimering",
     "children": [
-      { "label": "Funksjoner", "children": [
-        { "label": "K(x)" },
-        { "label": "I(x)" },
-        { "label": "O = I − K" }
-      ] },
-      { "label": "Grenser", "children": [
-        { "label": "Grensekostnad K′" },
-        { "label": "Grenseinntekt I′" }
-      ] },
-      { "label": "Optimum", "children": [
-        { "label": "Maks overskudd: K′ = I′" },
-        { "label": "Min enhetskostnad: K′ = E" },
-        { "label": "Maks inntekt" }
-      ] },
-      { "label": "Framgangsmåte", "children": [
-        { "label": "Definisjonsmengde" },
-        { "label": "f′ = 0 og fortegnslinje" },
-        { "label": "Endepunkter" }
-      ] },
-      { "label": "Vurdering", "children": [
-        { "label": "Forenklinger" },
-        { "label": "Kapasitet og etterspørsel" }
-      ] }
+      {
+        "label": "Funksjoner",
+        "children": [
+          {
+            "label": "K(x)"
+          },
+          {
+            "label": "I(x)"
+          },
+          {
+            "label": "O = I − K"
+          }
+        ]
+      },
+      {
+        "label": "Grenser",
+        "children": [
+          {
+            "label": "Grensekostnad K′"
+          },
+          {
+            "label": "Grenseinntekt I′"
+          }
+        ]
+      },
+      {
+        "label": "Optimum",
+        "children": [
+          {
+            "label": "Maks overskudd: K′ = I′"
+          },
+          {
+            "label": "Min enhetskostnad: K′ = E"
+          },
+          {
+            "label": "Maks inntekt"
+          }
+        ]
+      },
+      {
+        "label": "Framgangsmåte",
+        "children": [
+          {
+            "label": "Definisjonsmengde"
+          },
+          {
+            "label": "f′ = 0 og fortegnslinje"
+          },
+          {
+            "label": "Endepunkter"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering",
+        "children": [
+          {
+            "label": "Forenklinger"
+          },
+          {
+            "label": "Kapasitet og etterspørsel"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Enhetskostnaden er lavest der grensekostnaden er lik enhetskostnaden.", "correct": true, "explain": "I eksempelet er begge 60 kr ved x = 40." },
-      { "id": "m02", "type": "sant-usant", "text": "Husleie er en variabel kostnad.", "correct": false, "explain": "Husleie er en fast kostnad." },
-      { "id": "m03", "type": "sant-usant", "text": "Hvis en ekstra enhet gir mer inntekt enn den koster, lønner det seg å øke produksjonen.", "correct": true, "explain": "Da øker overskuddet." },
-      { "id": "m04", "type": "sant-usant", "text": "Svaret på et optimeringsproblem trenger ikke å vurderes opp mot virkeligheten.", "correct": false, "explain": "Modellene er forenklinger som må vurderes." },
-      { "id": "m05", "type": "flervalg", "text": "O(x) = −x² + 60x − 500. Hvilken x gir størst overskudd?", "options": ["x = 60", "x = 30", "x = 500", "x = 10"], "correct": 1, "explain": "O′(x) = −2x + 60 = 0." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er I(x) når prisen er p(x) = 200 − 2x?", "options": ["200x − 2x²", "200 − 2x", "200x − 2x", "(200 − 2x)²"], "correct": 0, "explain": "Pris ganger antall." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er E(40) når K(x) = 0,5x² + 20x + 800?", "options": ["40 kr", "100 kr", "60 kr", "2400 kr"], "correct": 2, "explain": "(800 + 800 + 800)/40." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Enhetskostnaden er lavest der grensekostnaden er lik enhetskostnaden.",
+        "correct": true,
+        "explain": "I eksempelet er begge 60 kr ved x = 40."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Husleie er en variabel kostnad.",
+        "correct": false,
+        "explain": "Husleie er en fast kostnad."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Hvis en ekstra enhet gir mer inntekt enn den koster, lønner det seg å øke produksjonen.",
+        "correct": true,
+        "explain": "Da øker overskuddet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Svaret på et optimeringsproblem trenger ikke å vurderes opp mot virkeligheten.",
+        "correct": false,
+        "explain": "Modellene er forenklinger som må vurderes."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "O(x) = −x² + 60x − 500. Hvilken x gir størst overskudd?",
+        "options": [
+          "x = 60",
+          "x = 30",
+          "x = 500",
+          "x = 10"
+        ],
+        "correct": 1,
+        "explain": "O′(x) = −2x + 60 = 0."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er I(x) når prisen er p(x) = 200 − 2x?",
+        "options": [
+          "200x − 2x²",
+          "200 − 2x",
+          "200x − 2x",
+          "(200 − 2x)²"
+        ],
+        "correct": 0,
+        "explain": "Pris ganger antall."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er E(40) når K(x) = 0,5x² + 20x + 800?",
+        "options": [
+          "40 kr",
+          "100 kr",
+          "60 kr",
+          "2400 kr"
+        ],
+        "correct": 2,
+        "explain": "(800 + 800 + 800)/40."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En bedrift betaler husleie og kjøper råvarer til hver enhet den produserer. Forklar forskjellen på faste og variable kostnader, og klassifiser disse kostnadene.",
+        "fasit": "Husleie er en fast kostnad fordi den ikke avhenger av hvor mange enheter bedriften produserer. Råvarene er variable kostnader fordi kostnaden øker når bedriften produserer flere enheter.",
+        "kriterier": [
+          "Forklarer at faste kostnader ikke avhenger av produksjonsmengden.",
+          "Forklarer at variable kostnader øker med produksjonen, og klassifiserer husleie og råvarer riktig."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Grensekostnaden beskriver omtrent kostnaden ved å lage én enhet til, og grenseinntekten beskriver omtrent inntektsøkningen ved å selge én enhet til. Forklar hvorfor det lønner seg å øke produksjonen når grenseinntekten er større enn grensekostnaden.",
+        "fasit": "Da gir den ekstra enheten større inntekt enn kostnad. Den øker derfor overskuddet, så det lønner seg å produsere mer.",
+        "kriterier": [
+          "Sammenligner inntektsøkningen fra den ekstra enheten med kostnaden ved å lage den.",
+          "Knytter forskjellen til at overskuddet øker."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Prisen per enhet er p(x) = 200 − 2x, og inntekten er I(x) = p(x) · x. Finn prisen og inntekten når bedriften selger 40 enheter. Vis det viktigste regnetrinnet.",
+        "fasit": "Prisen blir p(40) = 200 − 2 · 40 = 120 kr. Inntekten blir I(40) = 120 · 40 = 4800 kr.",
+        "kriterier": [
+          "Regner ut prisen til 120 kr ved å sette x = 40 inn i prisfunksjonen.",
+          "Regner ut inntekten til 4800 kr ved å multiplisere prisen med 40."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En bedrift har kostnadsfunksjonen K(x) = 0,5x² + 20x + 800. Når x = 40, beregn enhetskostnaden E(40) og grensekostnaden K′(40). Vis de viktigste regnetrinnene, og forklar kort hva tallene beskriver.",
+        "fasit": "K(40) = 0,5 · 40² + 20 · 40 + 800 = 2400, så E(40) = 2400/40 = 60 kr. K′(40) = 40 + 20 = 60 kr. Enhetskostnaden er gjennomsnittlig kostnad per enhet, mens grensekostnaden er omtrent kostnaden for én enhet til.",
+        "kriterier": [
+          "Finner E(40) = 60 kr ved å dele K(40) på 40.",
+          "Finner K′(40) = 60 kr.",
+          "Skiller mellom gjennomsnittlig kostnad per enhet og kostnaden for én ekstra enhet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En bedrift kan ikke produsere mer enn kapasiteten sin, og produksjonsmengden kan heller ikke være negativ. Hvis kapasiteten kalles C, beskriv definisjonsmengden for x og forklar hvorfor den er viktig når bedriften optimerer.",
+        "fasit": "Definisjonsmengden er 0 ≤ x ≤ C. Den viser hvilke produksjonsmengder som er mulige, slik at bedriften ikke velger en løsning utenfor kapasiteten eller en negativ produksjonsmengde.",
+        "kriterier": [
+          "Angir at produksjonsmengden må ligge mellom 0 og C, inkludert grensene.",
+          "Forklarer at definisjonsmengden begrenser optimeringen til mulige valg."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En beregning med en kostnads- og inntektsmodell viser at overskuddet er størst ved x = 80. Bedriften har imidlertid kapasitet til å produsere færre enn 80 enheter. Forklar hva dette betyr for bedriftens valg, og nevn hva den må undersøke videre.",
+        "fasit": "Bedriften kan ikke velge x = 80 fordi det ligger over kapasiteten. Den må finne det beste valget blant produksjonsmengdene den faktisk kan produsere, blant annet ved å ta hensyn til grenseverdiene i det mulige området.",
+        "kriterier": [
+          "Slår fast at x = 80 ikke er et mulig valg når kapasiteten er lavere.",
+          "Forklarer at bedriften må optimere innenfor den mulige definisjonsmengden og undersøke grensene."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En matematisk modell gir et bestemt produksjonsnivå som størst overskudd. Nevn to forhold fra virkeligheten som kan gjøre at dette nivået ikke passer helt, og forklar kort hvorfor.",
+        "fasit": "Etterspørselen kan endre seg, slik at inntekten ikke blir som modellen viser. Kapasiteten kan også være begrenset, så bedriften kanskje ikke kan produsere den beregnede mengden.",
+        "kriterier": [
+          "Nevner to relevante forhold, for eksempel endret etterspørsel, begrenset kapasitet eller produksjon i hele partier.",
+          "Forklarer hvordan minst ett av forholdene kan gjøre modellens resultat mindre realistisk."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Tenk deg at en bedrift vil bruke minst mulig materiale til emballasjen sin. Forklar hva den kan optimere, og hva et optimalt resultat vil fortelle bedriften.",
+        "fasit": "Bedriften kan optimere materialbruken ved å finne emballasjeløsningen som krever minst materiale. Det optimale resultatet viser hvilken løsning som når dette minimumet.",
+        "kriterier": [
+          "Angir at størrelsen som skal minimeres, er materialbruken.",
+          "Forklarer at optimaliseringen finner løsningen med minst mulig materialbruk."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

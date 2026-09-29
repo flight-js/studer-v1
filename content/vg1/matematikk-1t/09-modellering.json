@@ -4,78 +4,425 @@
   "trinnId": "vg1",
   "name": "Modellering og matematikk i tekster",
   "intro": "Modellering med polynom- og eksponentialfunksjoner, regresjon, bruk av den deriverte til å finne maksimum og vekstfart, drøfting av gyldighet – og kritisk lesing av matematikk i tekster og grafer.",
-  "kompetansemaal": [7, 8],
+  "kompetansemaal": [
+    7,
+    8
+  ],
   "sammendrag": "## Modeller i 1T\n\nEn **matematisk modell** beskriver en situasjon med en funksjon. I 1T kan vi bruke **lineære**, **andregrads-**, **tredjegrads-**, **eksponential-** og **potensfunksjoner**, og vi kan bruke **den deriverte** til å analysere modellen.\n\n## Eksempel 1: kast\n\nEn ball kastes rett opp. Høyden i meter etter t sekunder er\n\nh(t) = −4,9t² + 20t + 1,5\n\n- **1,5** er **starthøyden**.\n- h′(t) = −9,8t + 20 er **farten** oppover i m/s. h′(1) = 10,2 m/s.\n- Høyeste punkt: h′(t) = 0 gir t = 20/9,8 ≈ **2,04 s**, og h(2,04) ≈ **21,9 m**.\n- Modellen gjelder bare fra ballen kastes til den treffer bakken – det er **gyldighetsområdet**.\n\n## Eksempel 2: størst overskudd\n\nEn bedrift regner med at overskuddet ved salg av x enheter er\n\nO(x) = −0,5x² + 60x − 1000\n\nO′(x) = −x + 60 = 0 gir **x = 60**, og O(60) = −1800 + 3600 − 1000 = **800**. Det største overskuddet er altså 800 kr ved salg av 60 enheter.\n\n## Regresjon\n\nNår vi har data, kan vi finne en modell med **regresjon** i GeoGebra:\n\n- **RegLin** – lineær\n- **RegPoly(liste, 2)** – andregrads (grad 2)\n- **RegEksp** – eksponentiell\n- **RegPot** – potensfunksjon\n\nVelg modelltype ut fra **formen på dataene** og det vi **vet om situasjonen**: Øker dataene med omtrent samme **prosent** per periode, passer en eksponentiell modell. Har de et **toppunkt**, kan en andregradsmodell passe. En modell med mange ledd kan passe perfekt til dataene, men likevel gi urimelige **prognoser**.\n\n## Drøfte og argumentere\n\nNår du presenterer en modell, bør du\n\n1. forklare **premissene** – hva har du antatt?\n2. vise **framgangsmåten** og **resultatene** med enheter\n3. vurdere **gyldighetsområdet** – for hvilke verdier gir modellen mening?\n4. drøfte **styrker og svakheter** – hva ser modellen bort fra?\n\nEn andregradsmodell for salg over tid kan for eksempel gi **negative** tall langt fram i tid, noe som er umulig.\n\n## Matematikk i tekster\n\nMatematikk finnes i **nyhetssaker**, **rapporter** og **reklame**. Les kritisk:\n\n- Starter **y-aksen på null**? Hvis ikke, kan forskjeller se større ut enn de er.\n- Skiller teksten mellom **prosent** og **prosentpoeng**?\n- Er det brukt **gjennomsnitt** eller **median**, og hva betyr det for tolkningen?\n- Er utvalget **stort nok** og **representativt**?\n- Blandes **sammenheng** og **årsak**?\n\nNår du analyserer en tekst, bør du **hente ut** de relevante tallene, gjøre **egne beregninger** og **presentere** hva resultatene viser – og hva de ikke viser.",
   "flashcards": [
-    { "term": "h(t) = −4,9t² + 20t + 1,5", "def": "Høyden til en ball som kastes opp med starthøyde 1,5 m." },
-    { "term": "h′(t)", "def": "Farten i m/s når h er høyde i meter." },
-    { "term": "Maksimum med den deriverte", "def": "Løs f′(x) = 0 og sjekk fortegnet rundt punktet." },
-    { "term": "O(x) = −0,5x² + 60x − 1000", "def": "Størst overskudd, 800, ved x = 60." },
-    { "term": "RegPoly(liste, 2)", "def": "Andregradsregresjon i GeoGebra." },
-    { "term": "RegEksp", "def": "Eksponentiell regresjon i GeoGebra." },
-    { "term": "RegPot", "def": "Potensregresjon i GeoGebra." },
-    { "term": "Velge modelltype", "def": "Ut fra formen på dataene og kunnskap om situasjonen." },
-    { "term": "Gyldighetsområde", "def": "Verdiene der modellen gir mening." },
-    { "term": "Premiss", "def": "Antakelse modellen bygger på." },
-    { "term": "Prognose", "def": "Beregning av framtidig utvikling med en modell." },
-    { "term": "Y-akse som ikke starter på null", "def": "Kan få forskjeller til å se større ut." },
-    { "term": "Median", "def": "Den midterste verdien når dataene er sortert." },
-    { "term": "Sammenheng og årsak", "def": "At to ting henger sammen, betyr ikke at den ene forårsaker den andre." },
-    { "term": "Drøfte en modell", "def": "Vurdere premisser, gyldighet, styrker og svakheter." }
+    {
+      "term": "h(t) = −4,9t² + 20t + 1,5",
+      "def": "Høyden til en ball som kastes opp med starthøyde 1,5 m."
+    },
+    {
+      "term": "h′(t)",
+      "def": "Farten i m/s når h er høyde i meter."
+    },
+    {
+      "term": "Maksimum med den deriverte",
+      "def": "Løs f′(x) = 0 og sjekk fortegnet rundt punktet."
+    },
+    {
+      "term": "O(x) = −0,5x² + 60x − 1000",
+      "def": "Størst overskudd, 800, ved x = 60."
+    },
+    {
+      "term": "RegPoly(liste, 2)",
+      "def": "Andregradsregresjon i GeoGebra."
+    },
+    {
+      "term": "RegEksp",
+      "def": "Eksponentiell regresjon i GeoGebra."
+    },
+    {
+      "term": "RegPot",
+      "def": "Potensregresjon i GeoGebra."
+    },
+    {
+      "term": "Velge modelltype",
+      "def": "Ut fra formen på dataene og kunnskap om situasjonen."
+    },
+    {
+      "term": "Gyldighetsområde",
+      "def": "Verdiene der modellen gir mening."
+    },
+    {
+      "term": "Premiss",
+      "def": "Antakelse modellen bygger på."
+    },
+    {
+      "term": "Prognose",
+      "def": "Beregning av framtidig utvikling med en modell."
+    },
+    {
+      "term": "Y-akse som ikke starter på null",
+      "def": "Kan få forskjeller til å se større ut."
+    },
+    {
+      "term": "Median",
+      "def": "Den midterste verdien når dataene er sortert."
+    },
+    {
+      "term": "Sammenheng og årsak",
+      "def": "At to ting henger sammen, betyr ikke at den ene forårsaker den andre."
+    },
+    {
+      "term": "Drøfte en modell",
+      "def": "Vurdere premisser, gyldighet, styrker og svakheter."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "h(t) = −4,9t² + 20t + 1,5. Hva betyr tallet 1,5?", "options": ["Farten", "Starthøyden", "Tyngdeakselerasjonen", "Tiden"], "correct": 1, "explain": "h(0) = 1,5." },
-    { "id": "q02", "text": "Når er ballen i h(t) = −4,9t² + 20t + 1,5 på sitt høyeste?", "options": ["t ≈ 2,04 s", "t = 20 s", "t ≈ 4,1 s", "t = 1,5 s"], "correct": 0, "explain": "h′(t) = −9,8t + 20 = 0 gir t ≈ 2,04." },
-    { "id": "q03", "text": "Hvilken GeoGebra-kommando gir andregradsregresjon?", "options": ["RegLin(liste)", "RegEksp(liste)", "RegPoly(liste, 2)", "Nullpunkt(liste)"], "correct": 2, "explain": "Tallet 2 angir graden." },
-    { "id": "q04", "text": "O(x) = −0,5x² + 60x − 1000. For hvilken x er overskuddet størst?", "options": ["x = 1000", "x = 120", "x = 30", "x = 60"], "correct": 3, "explain": "O′(x) = −x + 60 = 0 gir x = 60." },
-    { "id": "q05", "text": "Hva er det største overskuddet for O(x) = −0,5x² + 60x − 1000?", "options": ["800", "3600", "1000", "2600"], "correct": 0, "explain": "O(60) = −1800 + 3600 − 1000 = 800." },
-    { "id": "q06", "text": "Hva er gyldighetsområdet for modellen av ballkastet?", "options": ["Alle t", "Fra ballen kastes til den treffer bakken", "Bare t = 0", "t < 0"], "correct": 1, "explain": "Utenfor dette gir modellen ingen mening." },
-    { "id": "q07", "text": "En graf i en avis har y-akse som starter på 95 i stedet for 0. Hva er problemet?", "options": ["Grafen blir lettere å lese", "Ingenting", "Forskjellene ser større ut enn de er", "Tallene blir feil"], "correct": 2, "explain": "Små forskjeller kan se dramatiske ut." },
-    { "id": "q08", "text": "Hvordan bør du velge modelltype?", "options": ["Alltid lineær", "Den med flest ledd", "Tilfeldig", "Ut fra formen på dataene og kunnskap om situasjonen"], "correct": 3, "explain": "En god modell passer både data og teori." },
-    { "id": "q09", "text": "Hva betyr det å drøfte en modell?", "options": ["Å vurdere premisser, gyldighet, styrker og svakheter", "Å tegne grafen", "Å regne ut ett svar", "Å skrive formelen på nytt"], "correct": 0, "explain": "Drøftingen viser hvor mye vi kan stole på modellen." },
-    { "id": "q10", "text": "Hvorfor kan en andregradsmodell for salg gi urimelige svar langt fram i tid?", "options": ["Fordi andregradsfunksjoner alltid er feil", "Fordi modellen kan gi negative eller urealistiske verdier utenfor dataområdet", "Fordi GeoGebra regner feil", "Fordi salg alltid er konstant"], "correct": 1, "explain": "Modellen gjelder bare innenfor gyldighetsområdet." }
+    {
+      "id": "q01",
+      "text": "h(t) = −4,9t² + 20t + 1,5. Hva betyr tallet 1,5?",
+      "options": [
+        "Farten",
+        "Starthøyden",
+        "Tyngdeakselerasjonen",
+        "Tiden"
+      ],
+      "correct": 1,
+      "explain": "h(0) = 1,5."
+    },
+    {
+      "id": "q02",
+      "text": "Når er ballen i h(t) = −4,9t² + 20t + 1,5 på sitt høyeste?",
+      "options": [
+        "t ≈ 2,04 s",
+        "t = 20 s",
+        "t ≈ 4,1 s",
+        "t = 1,5 s"
+      ],
+      "correct": 0,
+      "explain": "h′(t) = −9,8t + 20 = 0 gir t ≈ 2,04."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken GeoGebra-kommando gir andregradsregresjon?",
+      "options": [
+        "RegLin(liste)",
+        "RegEksp(liste)",
+        "RegPoly(liste, 2)",
+        "Nullpunkt(liste)"
+      ],
+      "correct": 2,
+      "explain": "Tallet 2 angir graden."
+    },
+    {
+      "id": "q04",
+      "text": "O(x) = −0,5x² + 60x − 1000. For hvilken x er overskuddet størst?",
+      "options": [
+        "x = 1000",
+        "x = 120",
+        "x = 30",
+        "x = 60"
+      ],
+      "correct": 3,
+      "explain": "O′(x) = −x + 60 = 0 gir x = 60."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er det største overskuddet for O(x) = −0,5x² + 60x − 1000?",
+      "options": [
+        "800",
+        "3600",
+        "1000",
+        "2600"
+      ],
+      "correct": 0,
+      "explain": "O(60) = −1800 + 3600 − 1000 = 800."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er gyldighetsområdet for modellen av ballkastet?",
+      "options": [
+        "Alle t",
+        "Fra ballen kastes til den treffer bakken",
+        "Bare t = 0",
+        "t < 0"
+      ],
+      "correct": 1,
+      "explain": "Utenfor dette gir modellen ingen mening."
+    },
+    {
+      "id": "q07",
+      "text": "En graf i en avis har y-akse som starter på 95 i stedet for 0. Hva er problemet?",
+      "options": [
+        "Grafen blir lettere å lese",
+        "Ingenting",
+        "Forskjellene ser større ut enn de er",
+        "Tallene blir feil"
+      ],
+      "correct": 2,
+      "explain": "Små forskjeller kan se dramatiske ut."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan bør du velge modelltype?",
+      "options": [
+        "Alltid lineær",
+        "Den med flest ledd",
+        "Tilfeldig",
+        "Ut fra formen på dataene og kunnskap om situasjonen"
+      ],
+      "correct": 3,
+      "explain": "En god modell passer både data og teori."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr det å drøfte en modell?",
+      "options": [
+        "Å vurdere premisser, gyldighet, styrker og svakheter",
+        "Å tegne grafen",
+        "Å regne ut ett svar",
+        "Å skrive formelen på nytt"
+      ],
+      "correct": 0,
+      "explain": "Drøftingen viser hvor mye vi kan stole på modellen."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan en andregradsmodell for salg gi urimelige svar langt fram i tid?",
+      "options": [
+        "Fordi andregradsfunksjoner alltid er feil",
+        "Fordi modellen kan gi negative eller urealistiske verdier utenfor dataområdet",
+        "Fordi GeoGebra regner feil",
+        "Fordi salg alltid er konstant"
+      ],
+      "correct": 1,
+      "explain": "Modellen gjelder bare innenfor gyldighetsområdet."
+    }
   ],
   "mindmap": {
     "label": "Modellering i 1T",
     "children": [
-      { "label": "Modeller", "children": [
-        { "label": "Polynom" },
-        { "label": "Eksponential" },
-        { "label": "Potens" }
-      ] },
-      { "label": "Den deriverte", "children": [
-        { "label": "Vekstfart" },
-        { "label": "Maksimum og minimum" }
-      ] },
-      { "label": "Regresjon", "children": [
-        { "label": "RegLin" },
-        { "label": "RegPoly" },
-        { "label": "RegEksp og RegPot" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Premisser" },
-        { "label": "Gyldighetsområde" },
-        { "label": "Styrker og svakheter" }
-      ] },
-      { "label": "Tekster", "children": [
-        { "label": "Akser" },
-        { "label": "Prosent og prosentpoeng" },
-        { "label": "Sammenheng og årsak" }
-      ] }
+      {
+        "label": "Modeller",
+        "children": [
+          {
+            "label": "Polynom"
+          },
+          {
+            "label": "Eksponential"
+          },
+          {
+            "label": "Potens"
+          }
+        ]
+      },
+      {
+        "label": "Den deriverte",
+        "children": [
+          {
+            "label": "Vekstfart"
+          },
+          {
+            "label": "Maksimum og minimum"
+          }
+        ]
+      },
+      {
+        "label": "Regresjon",
+        "children": [
+          {
+            "label": "RegLin"
+          },
+          {
+            "label": "RegPoly"
+          },
+          {
+            "label": "RegEksp og RegPot"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Premisser"
+          },
+          {
+            "label": "Gyldighetsområde"
+          },
+          {
+            "label": "Styrker og svakheter"
+          }
+        ]
+      },
+      {
+        "label": "Tekster",
+        "children": [
+          {
+            "label": "Akser"
+          },
+          {
+            "label": "Prosent og prosentpoeng"
+          },
+          {
+            "label": "Sammenheng og årsak"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En modell kan passe godt til data og likevel gi dårlige prognoser.", "correct": true, "explain": "Utenfor dataområdet kan modellen oppføre seg urimelig." },
-      { "id": "m02", "type": "sant-usant", "text": "Den deriverte kan ikke brukes i modellering.", "correct": false, "explain": "Den deriverte gir vekstfart og hjelper oss å finne maksimum og minimum." },
-      { "id": "m03", "type": "sant-usant", "text": "Man bør oppgi enheter når man presenterer resultatene av en modell.", "correct": true, "explain": "Uten enheter er resultatene vanskelige å tolke." },
-      { "id": "m04", "type": "sant-usant", "text": "Regresjon gir alltid en perfekt modell.", "correct": false, "explain": "Regresjon gir den beste funksjonen av en valgt type, men den kan passe dårlig." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken regresjon passer når dataene dobles med jevne mellomrom?", "options": ["Lineær", "Eksponentiell", "Andregrads", "Ingen"], "correct": 1, "explain": "Fast prosentvis vekst er eksponentiell." },
-      { "id": "m06", "type": "flervalg", "text": "Hva forteller h′(1) når h(t) er høyden til en ball i meter?", "options": ["Farten oppover etter 1 s", "Høyden etter 1 s", "Tiden ballen er i lufta", "Starthøyden"], "correct": 0, "explain": "Den deriverte av høyden er farten." },
-      { "id": "m07", "type": "flervalg", "text": "Hva bør en presentasjon av en modell inneholde?", "options": ["Bare svaret", "Bare grafen", "Premisser, modell, resultater og vurdering", "Bare formelen"], "correct": 2, "explain": "Da kan andre vurdere hvor god modellen er." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En modell kan passe godt til data og likevel gi dårlige prognoser.",
+        "correct": true,
+        "explain": "Utenfor dataområdet kan modellen oppføre seg urimelig."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Den deriverte kan ikke brukes i modellering.",
+        "correct": false,
+        "explain": "Den deriverte gir vekstfart og hjelper oss å finne maksimum og minimum."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Man bør oppgi enheter når man presenterer resultatene av en modell.",
+        "correct": true,
+        "explain": "Uten enheter er resultatene vanskelige å tolke."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Regresjon gir alltid en perfekt modell.",
+        "correct": false,
+        "explain": "Regresjon gir den beste funksjonen av en valgt type, men den kan passe dårlig."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken regresjon passer når dataene dobles med jevne mellomrom?",
+        "options": [
+          "Lineær",
+          "Eksponentiell",
+          "Andregrads",
+          "Ingen"
+        ],
+        "correct": 1,
+        "explain": "Fast prosentvis vekst er eksponentiell."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva forteller h′(1) når h(t) er høyden til en ball i meter?",
+        "options": [
+          "Farten oppover etter 1 s",
+          "Høyden etter 1 s",
+          "Tiden ballen er i lufta",
+          "Starthøyden"
+        ],
+        "correct": 0,
+        "explain": "Den deriverte av høyden er farten."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva bør en presentasjon av en modell inneholde?",
+        "options": [
+          "Bare svaret",
+          "Bare grafen",
+          "Premisser, modell, resultater og vurdering",
+          "Bare formelen"
+        ],
+        "correct": 2,
+        "explain": "Da kan andre vurdere hvor god modellen er."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En balls høyde er gitt ved h(t) = −4,9t² + 20t + 1,5, og farten er h′(t) = −9,8t + 20. Regn ut farten etter 1 sekund, og forklar hva svaret betyr.",
+        "fasit": "h′(1) = −9,8 · 1 + 20 = 10,2 m/s. Ballen beveger seg da oppover med 10,2 m/s.",
+        "kriterier": [
+          "Regner ut 10,2 m/s.",
+          "Forklarer at dette er farten etter 1 sekund, og at ballen beveger seg oppover."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Overskuddet ved salg av x enheter er O(x) = −0,5x² + 60x − 1000. Regn ut O(20), og forklar hva resultatet betyr i situasjonen.",
+        "fasit": "O(20) = −0,5 · 20² + 60 · 20 − 1000 = −200 + 1200 − 1000 = 0. Modellen gir et overskudd på 0 kr ved salg av 20 enheter.",
+        "kriterier": [
+          "Viser en riktig utregning som gir O(20) = 0.",
+          "Tolk­er svaret som 0 kr i overskudd ved salg av 20 enheter."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En ballhøyde er beskrevet med h(t) = −4,9t² + 20t + 1,5, der h måles i meter og t i sekunder. Forklar hva h(t) og t forteller i denne modellen.",
+        "fasit": "h(t) er høyden til ballen etter t sekunder, målt i meter. t er tiden som har gått siden ballen ble kastet, målt i sekunder.",
+        "kriterier": [
+          "Forklarer at h(t) er ballens høyde.",
+          "Forklarer at t er tid etter kastet, med riktige enheter."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En samling tall sorteres fra lavest til høyest. Forklar hva medianen er, og hvordan du finner den i den sorterte samlingen.",
+        "fasit": "Medianen er den midterste verdien når tallene er sortert. Den finnes ved å finne verdien som står i midten av samlingen.",
+        "kriterier": [
+          "Forklarer at medianen er den midterste verdien i sorterte data.",
+          "Beskriver at tallene må sorteres for å finne den."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et datasett øker med omtrent samme prosent fra periode til periode. Et annet datasett øker først og får deretter et toppunkt. Sammenlign hvilken modelltype som kan passe til hvert datasett, og begrunn valgene.",
+        "fasit": "En eksponentiell modell kan passe til datasettet som øker med omtrent samme prosent per periode. En andregradsmodell kan passe til datasettet med et toppunkt.",
+        "kriterier": [
+          "Knytter økning med omtrent samme prosent til en eksponentiell modell.",
+          "Knytter et toppunkt til en andregradsmodell."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En rapport viser at to størrelser henger sammen. Forklar hvorfor dette alene ikke beviser at den ene størrelsen forårsaker den andre.",
+        "fasit": "To størrelser kan variere sammen uten at den ene er årsaken til den andre. Derfor kan rapporten vise en sammenheng, men ikke fastslå årsak bare ut fra dette.",
+        "kriterier": [
+          "Skiller mellom at størrelser henger sammen og at den ene forårsaker den andre.",
+          "Forklarer at sammenhengen alene ikke er nok til å fastslå årsak."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En matematisk modell passer perfekt til alle målepunktene, men gir urimelige prognoser. Forklar hvordan dette kan skje, og hva det viser om å vurdere modeller.",
+        "fasit": "En modell med mange ledd kan passe perfekt til dataene den er laget fra, men likevel gi urimelige prognoser. Derfor må modellen vurderes ut fra mer enn hvor godt den passer til målepunktene.",
+        "kriterier": [
+          "Forklarer at en modell kan passe dataene godt, men likevel gi urimelige prognoser.",
+          "Får fram at modellens prognoser eller egnethet også må vurderes."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En rapport bruker en spørreundersøkelse til å si noe om en større gruppe. Hvilke to sider ved utvalget bør du undersøke før du vurderer om konklusjonen er pålitelig?",
+        "fasit": "Jeg bør undersøke om utvalget er stort nok, og om det er representativt for den større gruppen. Hvis ikke, kan konklusjonen være usikker eller gi et skjevt bilde.",
+        "kriterier": [
+          "Nevner at utvalget må være stort nok.",
+          "Nevner at utvalget må være representativt for gruppen konklusjonen gjelder."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

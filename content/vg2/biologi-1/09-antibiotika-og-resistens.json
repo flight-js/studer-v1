@@ -4,80 +4,432 @@
   "trinnId": "vg2",
   "name": "Antibiotika og antibiotikaresistens",
   "intro": "Hva antibiotika er og hvordan de virker, hvorfor de ikke virker mot virus, hvordan bakterier blir resistente gjennom mutasjoner, genoverføring og seleksjon – og hva vi kan gjøre for å bremse utviklingen.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Hva er antibiotika?\n\n**Antibiotika** er legemidler som **dreper** bakterier eller **hemmer** veksten deres. **Alexander Fleming** oppdaget i **1928** at muggsoppen *Penicillium* laget et stoff som drepte bakterier – **penicillin**. Fra 1940-tallet ble antibiotika tatt i bruk i stor skala, og infeksjoner som tidligere kunne være dødelige, ble lette å behandle.\n\n## Hvordan antibiotika virker\n\nAntibiotika angriper strukturer som **bakterier har**, men som **våre celler mangler** eller har i en annen form. Derfor skader de bakteriene uten å skade oss (**selektiv toksisitet**). Ulike antibiotika:\n\n- hindrer bakteriene i å bygge **celleveggen** – slik virker **penicillin**\n- hemmer bakterienes **ribosomer** og dermed **proteinsyntesen**\n- hindrer **kopiering av DNA**\n\n**Smalspektrede** antibiotika virker mot få typer bakterier, mens **bredspektrede** virker mot mange – og rammer derfor også flere av de nyttige bakteriene i tarmen.\n\n## Antibiotika virker ikke mot virus\n\nVirus har verken cellevegg, ribosomer eller eget stoffskifte. Derfor har antibiotika **ingen effekt** på forkjølelse, influensa eller covid-19. Å bruke antibiotika mot virusinfeksjoner gir bare **bivirkninger** og øker faren for resistens.\n\n## Hvordan resistens oppstår\n\n**Antibiotikaresistens** betyr at bakterier ikke lenger blir drept eller hemmet av et antibiotikum.\n\n1. **Mutasjoner**: Tilfeldige endringer i DNA kan gi en bakterie en egenskap som beskytter den – for eksempel et enzym som bryter ned antibiotikumet.\n2. **Horisontal genoverføring**: Bakterier kan **dele gener** med hverandre, også mellom ulike arter. Resistensgener ligger ofte på små DNA-ringer, **plasmider**, som kan overføres ved **konjugasjon**.\n3. **Naturlig seleksjon**: Når vi bruker antibiotika, dør de følsomme bakteriene, mens de **resistente overlever** og formerer seg. Jo **mer** antibiotika som brukes, desto sterkere blir seleksjonen.\n\nFordi bakterier formerer seg svært raskt, kan resistens spre seg på kort tid.\n\n## Konsekvenser\n\n**Multiresistente bakterier**, som **MRSA** (meticillinresistente *Staphylococcus aureus*), er motstandsdyktige mot flere antibiotika. Verdens helseorganisasjon regner antibiotikaresistens som en av de **største truslene** mot global helse. Uten virksomme antibiotika blir:\n\n- vanlige infeksjoner vanskeligere å behandle\n- **operasjoner**, **kreftbehandling** og **for tidlig fødte barn** mer risikable\n- sykehusopphold lengre og dyrere\n\nForskere har anslått at resistente bakterier var den direkte årsaken til over én million dødsfall i verden i 2019.\n\n## Tiltak\n\n- Bruk antibiotika **bare når det trengs**, og bare mot bakterieinfeksjoner.\n- Følg **legens anvisning** – ikke bruk rester eller andres medisiner.\n- Velg **smalspektrede** antibiotika når det er mulig. Norge bruker for eksempel mye vanlig penicillin.\n- **Smittevern** og **håndhygiene** på sykehus og sykehjem.\n- **Vaksiner** forebygger infeksjoner og dermed behovet for antibiotika.\n- Begrense bruken i **husdyrhold** og **fiskeoppdrett**. I Norge er bruken lav, blant annet fordi vaksiner har gjort oppdrettsfisken friskere.\n- Forske fram **nye antibiotika** og alternativer, som bakterieetende virus (**bakteriofager**).\n\nNorge har **lav forekomst** av resistente bakterier sammenlignet med mange andre land, men resistens sprer seg over landegrensene.",
   "flashcards": [
-    { "term": "Antibiotika", "def": "Legemidler som dreper eller hemmer bakterier." },
-    { "term": "Alexander Fleming", "def": "Oppdaget penicillin i 1928." },
-    { "term": "Selektiv toksisitet", "def": "Skader bakterier uten å skade våre celler." },
-    { "term": "Penicillin", "def": "Hindrer bakteriene i å bygge cellevegg." },
-    { "term": "Smalspektret antibiotikum", "def": "Virker mot få typer bakterier." },
-    { "term": "Bredspektret antibiotikum", "def": "Virker mot mange typer bakterier, også nyttige tarmbakterier." },
-    { "term": "Antibiotikaresistens", "def": "Bakterier tåler antibiotikumet." },
-    { "term": "Horisontal genoverføring", "def": "Bakterier deler gener med hverandre." },
-    { "term": "Plasmid", "def": "Liten DNA-ring som ofte bærer resistensgener." },
-    { "term": "Konjugasjon", "def": "Overføring av plasmider mellom bakterier." },
-    { "term": "Seleksjon", "def": "Resistente bakterier overlever og formerer seg når antibiotika brukes." },
-    { "term": "MRSA", "def": "Meticillinresistente gule stafylokokker." },
-    { "term": "Multiresistent bakterie", "def": "Motstandsdyktig mot flere antibiotika." },
-    { "term": "Bakteriofag", "def": "Virus som angriper bakterier – mulig alternativ til antibiotika." },
-    { "term": "Antibiotika mot virus", "def": "Har ingen effekt." }
+    {
+      "term": "Antibiotika",
+      "def": "Legemidler som dreper eller hemmer bakterier."
+    },
+    {
+      "term": "Alexander Fleming",
+      "def": "Oppdaget penicillin i 1928."
+    },
+    {
+      "term": "Selektiv toksisitet",
+      "def": "Skader bakterier uten å skade våre celler."
+    },
+    {
+      "term": "Penicillin",
+      "def": "Hindrer bakteriene i å bygge cellevegg."
+    },
+    {
+      "term": "Smalspektret antibiotikum",
+      "def": "Virker mot få typer bakterier."
+    },
+    {
+      "term": "Bredspektret antibiotikum",
+      "def": "Virker mot mange typer bakterier, også nyttige tarmbakterier."
+    },
+    {
+      "term": "Antibiotikaresistens",
+      "def": "Bakterier tåler antibiotikumet."
+    },
+    {
+      "term": "Horisontal genoverføring",
+      "def": "Bakterier deler gener med hverandre."
+    },
+    {
+      "term": "Plasmid",
+      "def": "Liten DNA-ring som ofte bærer resistensgener."
+    },
+    {
+      "term": "Konjugasjon",
+      "def": "Overføring av plasmider mellom bakterier."
+    },
+    {
+      "term": "Seleksjon",
+      "def": "Resistente bakterier overlever og formerer seg når antibiotika brukes."
+    },
+    {
+      "term": "MRSA",
+      "def": "Meticillinresistente gule stafylokokker."
+    },
+    {
+      "term": "Multiresistent bakterie",
+      "def": "Motstandsdyktig mot flere antibiotika."
+    },
+    {
+      "term": "Bakteriofag",
+      "def": "Virus som angriper bakterier – mulig alternativ til antibiotika."
+    },
+    {
+      "term": "Antibiotika mot virus",
+      "def": "Har ingen effekt."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvorfor virker ikke antibiotika mot virus?", "options": ["Virus er for store", "Virus mangler strukturene antibiotika angriper, som cellevegg og ribosomer", "Virus er alltid resistente", "Antibiotika blir brutt ned av virus"], "correct": 1, "explain": "Virus bruker vertscellens maskineri." },
-    { "id": "q02", "text": "Hvordan virker penicillin?", "options": ["Hindrer bakteriene i å bygge cellevegg", "Ødelegger virus", "Styrker immunforsvaret", "Bryter ned DNA i våre celler"], "correct": 0, "explain": "Våre celler har ikke cellevegg." },
-    { "id": "q03", "text": "Hva er horisontal genoverføring?", "options": ["At gener arves fra foreldre", "At bakterier dør", "At bakterier deler gener med hverandre", "At mennesker får nye gener"], "correct": 2, "explain": "Ofte via plasmider." },
-    { "id": "q04", "text": "Hvorfor fører mye bruk av antibiotika til mer resistens?", "options": ["Antibiotika lager nye bakterier", "Antibiotika gjør bakteriene større", "Antibiotika skader immunforsvaret", "De følsomme bakteriene dør, og de resistente overlever og formerer seg"], "correct": 3, "explain": "Naturlig seleksjon." },
-    { "id": "q05", "text": "Hvem oppdaget penicillin?", "options": ["Alexander Fleming", "Louis Pasteur", "Charles Darwin", "Robert Koch"], "correct": 0, "explain": "I 1928." },
-    { "id": "q06", "text": "Hva er MRSA?", "options": ["Et virus", "Multiresistente gule stafylokokker", "Et nytt antibiotikum", "En vaksine"], "correct": 1, "explain": "Motstandsdyktig mot flere antibiotika." },
-    { "id": "q07", "text": "Hvorfor bør man velge smalspektrede antibiotika når det er mulig?", "options": ["De er alltid billigere", "De virker også mot virus", "De rammer færre nyttige bakterier og gir mindre seleksjon for resistens", "De har ingen bivirkninger"], "correct": 2, "explain": "Bredspektrede påvirker hele tarmfloraen." },
-    { "id": "q08", "text": "Hvilken behandling blir mer risikabel uten virksomme antibiotika?", "options": ["Forkjølelse", "Brilleutprøving", "Tannpuss", "Operasjoner og kreftbehandling"], "correct": 3, "explain": "De krever ofte forebygging og behandling av infeksjoner." },
-    { "id": "q09", "text": "Hva er et plasmid?", "options": ["En liten DNA-ring i bakterier", "Et virus", "En del av cellemembranen", "Et antibiotikum"], "correct": 0, "explain": "Kan overføres mellom bakterier." },
-    { "id": "q10", "text": "Hvordan kan vaksiner bidra mot antibiotikaresistens?", "options": ["De dreper resistente bakterier direkte", "De forebygger infeksjoner og dermed behovet for antibiotika", "De inneholder antibiotika", "De gjør ingen forskjell"], "correct": 1, "explain": "Mindre bruk gir mindre seleksjon." }
+    {
+      "id": "q01",
+      "text": "Hvorfor virker ikke antibiotika mot virus?",
+      "options": [
+        "Virus er for store",
+        "Virus mangler strukturene antibiotika angriper, som cellevegg og ribosomer",
+        "Virus er alltid resistente",
+        "Antibiotika blir brutt ned av virus"
+      ],
+      "correct": 1,
+      "explain": "Virus bruker vertscellens maskineri."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan virker penicillin?",
+      "options": [
+        "Hindrer bakteriene i å bygge cellevegg",
+        "Ødelegger virus",
+        "Styrker immunforsvaret",
+        "Bryter ned DNA i våre celler"
+      ],
+      "correct": 0,
+      "explain": "Våre celler har ikke cellevegg."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er horisontal genoverføring?",
+      "options": [
+        "At gener arves fra foreldre",
+        "At bakterier dør",
+        "At bakterier deler gener med hverandre",
+        "At mennesker får nye gener"
+      ],
+      "correct": 2,
+      "explain": "Ofte via plasmider."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor fører mye bruk av antibiotika til mer resistens?",
+      "options": [
+        "Antibiotika lager nye bakterier",
+        "Antibiotika gjør bakteriene større",
+        "Antibiotika skader immunforsvaret",
+        "De følsomme bakteriene dør, og de resistente overlever og formerer seg"
+      ],
+      "correct": 3,
+      "explain": "Naturlig seleksjon."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem oppdaget penicillin?",
+      "options": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Charles Darwin",
+        "Robert Koch"
+      ],
+      "correct": 0,
+      "explain": "I 1928."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er MRSA?",
+      "options": [
+        "Et virus",
+        "Multiresistente gule stafylokokker",
+        "Et nytt antibiotikum",
+        "En vaksine"
+      ],
+      "correct": 1,
+      "explain": "Motstandsdyktig mot flere antibiotika."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor bør man velge smalspektrede antibiotika når det er mulig?",
+      "options": [
+        "De er alltid billigere",
+        "De virker også mot virus",
+        "De rammer færre nyttige bakterier og gir mindre seleksjon for resistens",
+        "De har ingen bivirkninger"
+      ],
+      "correct": 2,
+      "explain": "Bredspektrede påvirker hele tarmfloraen."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken behandling blir mer risikabel uten virksomme antibiotika?",
+      "options": [
+        "Forkjølelse",
+        "Brilleutprøving",
+        "Tannpuss",
+        "Operasjoner og kreftbehandling"
+      ],
+      "correct": 3,
+      "explain": "De krever ofte forebygging og behandling av infeksjoner."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et plasmid?",
+      "options": [
+        "En liten DNA-ring i bakterier",
+        "Et virus",
+        "En del av cellemembranen",
+        "Et antibiotikum"
+      ],
+      "correct": 0,
+      "explain": "Kan overføres mellom bakterier."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan vaksiner bidra mot antibiotikaresistens?",
+      "options": [
+        "De dreper resistente bakterier direkte",
+        "De forebygger infeksjoner og dermed behovet for antibiotika",
+        "De inneholder antibiotika",
+        "De gjør ingen forskjell"
+      ],
+      "correct": 1,
+      "explain": "Mindre bruk gir mindre seleksjon."
+    }
   ],
   "mindmap": {
     "label": "Antibiotika og resistens",
     "children": [
-      { "label": "Antibiotika", "children": [
-        { "label": "Fleming og penicillin" },
-        { "label": "Selektiv toksisitet" },
-        { "label": "Smal- og bredspektret" }
-      ] },
-      { "label": "Virkemåte", "children": [
-        { "label": "Cellevegg" },
-        { "label": "Ribosomer" },
-        { "label": "DNA-kopiering" }
-      ] },
-      { "label": "Resistens", "children": [
-        { "label": "Mutasjoner" },
-        { "label": "Plasmider" },
-        { "label": "Seleksjon" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "MRSA" },
-        { "label": "Operasjoner og kreft" },
-        { "label": "Global trussel" }
-      ] },
-      { "label": "Tiltak", "children": [
-        { "label": "Riktig bruk" },
-        { "label": "Smittevern og vaksiner" },
-        { "label": "Husdyr og oppdrett" },
-        { "label": "Ny forskning" }
-      ] }
+      {
+        "label": "Antibiotika",
+        "children": [
+          {
+            "label": "Fleming og penicillin"
+          },
+          {
+            "label": "Selektiv toksisitet"
+          },
+          {
+            "label": "Smal- og bredspektret"
+          }
+        ]
+      },
+      {
+        "label": "Virkemåte",
+        "children": [
+          {
+            "label": "Cellevegg"
+          },
+          {
+            "label": "Ribosomer"
+          },
+          {
+            "label": "DNA-kopiering"
+          }
+        ]
+      },
+      {
+        "label": "Resistens",
+        "children": [
+          {
+            "label": "Mutasjoner"
+          },
+          {
+            "label": "Plasmider"
+          },
+          {
+            "label": "Seleksjon"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "MRSA"
+          },
+          {
+            "label": "Operasjoner og kreft"
+          },
+          {
+            "label": "Global trussel"
+          }
+        ]
+      },
+      {
+        "label": "Tiltak",
+        "children": [
+          {
+            "label": "Riktig bruk"
+          },
+          {
+            "label": "Smittevern og vaksiner"
+          },
+          {
+            "label": "Husdyr og oppdrett"
+          },
+          {
+            "label": "Ny forskning"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Resistensgener kan overføres mellom ulike bakteriearter.", "correct": true, "explain": "Gjennom horisontal genoverføring." },
-      { "id": "m02", "type": "sant-usant", "text": "Antibiotika hjelper mot influensa.", "correct": false, "explain": "Influensa skyldes virus." },
-      { "id": "m03", "type": "sant-usant", "text": "Norge har lav forekomst av resistente bakterier sammenlignet med mange land.", "correct": true, "explain": "Blant annet på grunn av forsiktig bruk." },
-      { "id": "m04", "type": "sant-usant", "text": "Det er lurt å spare på rester av antibiotika til neste gang du blir syk.", "correct": false, "explain": "Følg legens anvisning og ikke bruk rester." },
-      { "id": "m05", "type": "flervalg", "text": "Hvorfor kan resistens spre seg raskt?", "options": ["Bakterier lever lenge", "Bakterier formerer seg svært raskt", "Bakterier er store", "Bakterier har cellekjerne"], "correct": 1, "explain": "Mange generasjoner på kort tid." },
-      { "id": "m06", "type": "flervalg", "text": "Hvorfor bruker norsk fiskeoppdrett lite antibiotika i dag?", "options": ["Vaksiner har gjort fisken friskere", "Fisk kan ikke få bakterieinfeksjoner", "Antibiotika er forbudt i all matproduksjon", "Laks tåler ikke antibiotika"], "correct": 0, "explain": "Vaksinering av oppdrettsfisk." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er en bakteriofag?", "options": ["En bakterie som spiser virus", "En hvit blodcelle", "Et virus som angriper bakterier", "Et antibiotikum fra sopp"], "correct": 2, "explain": "Mulig alternativ behandling." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Resistensgener kan overføres mellom ulike bakteriearter.",
+        "correct": true,
+        "explain": "Gjennom horisontal genoverføring."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Antibiotika hjelper mot influensa.",
+        "correct": false,
+        "explain": "Influensa skyldes virus."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Norge har lav forekomst av resistente bakterier sammenlignet med mange land.",
+        "correct": true,
+        "explain": "Blant annet på grunn av forsiktig bruk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det er lurt å spare på rester av antibiotika til neste gang du blir syk.",
+        "correct": false,
+        "explain": "Følg legens anvisning og ikke bruk rester."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvorfor kan resistens spre seg raskt?",
+        "options": [
+          "Bakterier lever lenge",
+          "Bakterier formerer seg svært raskt",
+          "Bakterier er store",
+          "Bakterier har cellekjerne"
+        ],
+        "correct": 1,
+        "explain": "Mange generasjoner på kort tid."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvorfor bruker norsk fiskeoppdrett lite antibiotika i dag?",
+        "options": [
+          "Vaksiner har gjort fisken friskere",
+          "Fisk kan ikke få bakterieinfeksjoner",
+          "Antibiotika er forbudt i all matproduksjon",
+          "Laks tåler ikke antibiotika"
+        ],
+        "correct": 0,
+        "explain": "Vaksinering av oppdrettsfisk."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er en bakteriofag?",
+        "options": [
+          "En bakterie som spiser virus",
+          "En hvit blodcelle",
+          "Et virus som angriper bakterier",
+          "Et antibiotikum fra sopp"
+        ],
+        "correct": 2,
+        "explain": "Mulig alternativ behandling."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et antibiotikum angriper en struktur som finnes hos bakterier, men som menneskeceller mangler eller har i en annen form. Forklar hva selektiv toksisitet betyr, og hvorfor det er nyttig i behandling av bakterieinfeksjoner.",
+        "fasit": "Selektiv toksisitet betyr at antibiotika skader bakterier uten å skade menneskecellene våre. Det gjør at antibiotika kan brukes til å behandle bakterieinfeksjoner.",
+        "kriterier": [
+          "Forklarer at antibiotika rammer bakterier uten å skade våre celler på samme måte.",
+          "Knytter dette til at antibiotika kan behandle bakterieinfeksjoner."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Antibiotikum A hemmer bakterienes ribosomer, mens antibiotikum B hindrer kopiering av bakterienes DNA. Sammenlign hva de to antibiotikaene forstyrrer, og forklar hva de har til felles.",
+        "fasit": "Antibiotikum A forstyrrer proteinsyntesen ved å hemme ribosomene, mens B hindrer bakteriene i å kopiere DNA. Begge forstyrrer viktige prosesser i bakteriene og kan dermed hemme veksten deres.",
+        "kriterier": [
+          "Beskriver riktig at A hemmer ribosomer og proteinsyntese.",
+          "Beskriver riktig at B hindrer kopiering av DNA.",
+          "Får fram at begge forstyrrer bakterienes prosesser og kan hemme vekst."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I en bakteriegruppe har én bakterie en tilfeldig DNA-endring som gjør at den lager et enzym som bryter ned et antibiotikum. Når antibiotikumet brukes, dør de følsomme bakteriene. Forklar hvorfor andelen resistente bakterier kan øke.",
+        "fasit": "DNA-endringen gir bakterien en egenskap som gjør den resistent. Når de følsomme bakteriene dør, overlever den resistente bakterien og kan formere seg, slik at andelen resistente bakterier øker.",
+        "kriterier": [
+          "Knytter DNA-endringen til en egenskap som gir resistens.",
+          "Forklarer at følsomme bakterier dør, mens resistente overlever og formerer seg."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I ett tilfelle oppstår en tilfeldig endring i DNA-et til en bakterie. I et annet tilfelle overfører en bakterie et plasmid med et resistensgen til en annen bakterie. Hva kalles prosessene, og hva er forskjellen på dem?",
+        "fasit": "Den tilfeldige DNA-endringen er en mutasjon. Overføringen av plasmidet er konjugasjon, som er horisontal genoverføring: genet flyttes mellom bakterier i stedet for å oppstå som en endring i DNA-et til bakterien selv.",
+        "kriterier": [
+          "Kaller den tilfeldige DNA-endringen en mutasjon.",
+          "Knytter plasmidoverføringen til konjugasjon eller horisontal genoverføring.",
+          "Forklarer forskjellen mellom en DNA-endring i bakterien og overføring av gener mellom bakterier."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Nora har antibiotika igjen fra en tidligere behandling og vurderer å bruke det mot en ny infeksjon uten å ha snakket med lege. Hva bør hun gjøre, og hvilke råd om antibiotikabruk begrunner svaret?",
+        "fasit": "Nora bør ikke bruke restene, men følge legens anvisning og rådføre seg med lege om den nye infeksjonen. Antibiotika skal bare brukes når det trengs og mot bakterieinfeksjoner, ikke som rester eller andres medisiner.",
+        "kriterier": [
+          "Sier at hun ikke bør bruke antibiotikarester på egen hånd.",
+          "Viser til at antibiotika skal brukes etter legens anvisning og bare når det trengs mot bakterieinfeksjoner."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En forsker undersøker bakteriofager som et mulig alternativ til antibiotika. Forklar hva en bakteriofag angriper, og hvorfor den kan være aktuell som alternativ.",
+        "fasit": "En bakteriofag er et virus som angriper bakterier. Derfor kan bakteriofager undersøkes som et mulig alternativ til antibiotika.",
+        "kriterier": [
+          "Forklarer at bakteriofager er virus som angriper bakterier.",
+          "Knytter dette til at de kan være et mulig alternativ til antibiotika."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En tenkt bakterieprøve inneholder 24 antibiotikafølsomme og 6 resistente bakterier. Et antibiotikum dreper alle de følsomme, men ingen av de resistente. Hvor stor del av bakteriene er resistente før behandlingen, og hvor mange bakterier er igjen etterpå?",
+        "fasit": "Det er 30 bakterier til sammen, og den resistente andelen er 6/30 = 1/5. Etter behandlingen er de 6 resistente bakteriene igjen.",
+        "kriterier": [
+          "Regner ut at den resistente andelen før behandling er 1/5.",
+          "Svar­er at 6 bakterier er igjen etter behandlingen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Etter en antibiotikabehandling overlever 3 resistente bakterier. I en forenklet modell deler hver bakterie seg én gang per runde, slik at hver blir til 2, og alle bakteriene overlever. Hvor mange resistente bakterier er det etter 3 runder? Vis det viktigste regnestykket.",
+        "fasit": "Antallet dobles i hver runde: 3 → 6 → 12 → 24. Det er 24 resistente bakterier etter 3 runder.",
+        "kriterier": [
+          "Viser at antallet dobles i hver runde.",
+          "Kommer fram til 24 resistente bakterier etter 3 runder."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,76 +4,418 @@
   "trinnId": "vg2",
   "name": "Konkurransemidler i oppstartsfasen",
   "intro": "Hvordan en ny virksomhet med små ressurser kan bruke produkt, pris, distribusjon, kommunikasjon og personlig service for å vinne sine første kunder – og hvordan en lanseringsplan settes opp.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Små ressurser – store valg\n\nEn ny virksomhet har som regel lite **penger**, lite **tid** og få **ansatte**. Den er ofte **ukjent** for kundene. Derfor må gründeren **prioritere** og være **kreativ** med **konkurransemidlene** – produkt, pris, plass og påvirkning.\n\n## Produkt\n\n- Start med et **enkelt** produkt som løser **kjernebehovet** godt – et **minimumsprodukt** – og forbedre det ut fra tilbakemeldinger.\n- Sørg for jevn **kvalitet**. De første kundene er viktige **ambassadører**.\n- Velg et **navn** som er lett å huske. Sjekk at navnet ikke er tatt som **varemerke**, og at **domenenavnet** er ledig.\n- En enkel, tydelig **logo** og **emballasje** gir et profesjonelt inntrykk.\n\n## Pris\n\n- Prisen må på sikt **dekke kostnadene** og gi **overskudd**. Mange gründere setter prisen for **lavt** fordi de glemmer egen arbeidstid og skjulte kostnader.\n- **Introduksjonspris** eller **lanseringstilbud** kan få kundene til å prøve produktet.\n- **Skumming** – høy startpris – passer når produktet er **unikt**, og kundene er villige til å betale for å være først.\n- Gjør det **enkelt** å betale, for eksempel med kort og mobilbetaling.\n\n## Plass – distribusjon\n\n- **Direkte salg** gir kontakt med kundene og ingen mellomledd.\n- **Nettbutikk** og **markedsplasser** på nett gir mange kunder, men krever god logistikk.\n- **Pop-up-butikker**, **markeder** og **messer** er billige måter å møte kunder på.\n- **Samarbeid** med eksisterende butikker kan gi rask tilgang til kunder, men butikken tar en andel av prisen.\n\n## Påvirkning – kommunikasjon\n\n- **Sosiale medier**: gratis å bruke, men krever jevnlig og engasjerende **innhold**.\n- **Eget nettverk**: familie, venner og tidligere kolleger kan bli de første kundene.\n- **Anbefalinger** fra fornøyde kunder – jungeltelegrafen – er ofte det mest **troverdige**.\n- **PR**: Lokalaviser og radio skriver gjerne om nye, spennende virksomheter. Det er **gratis** omtale.\n- **Geriljamarkedsføring**: kreative, overraskende og billige aktiviteter som vekker oppmerksomhet.\n- **Samarbeid med påvirkere** med små, men engasjerte følgerskarer kan gi god effekt for lite penger. Samarbeidet må **merkes** som reklame.\n- **Personlig salg**: Gründeren selv er ofte den beste selgeren fordi hen brenner for produktet.\n\n## Personlig service\n\nEn liten virksomhet kan konkurrere med **nærhet**, **fleksibilitet** og **personlig** service – noe store kjeder ofte ikke klarer.\n\n## Lanseringsplan\n\n1. **Før lansering**: test produktet, bygg følgere i sosiale medier, kontakt pressen.\n2. **Lansering**: et **arrangement**, et lanseringstilbud eller en kampanje som skaper oppmerksomhet.\n3. **Etter lansering**: følg opp kundene, samle **tilbakemeldinger**, mål **salget** og juster.\n\n## Helhet\n\nKonkurransemidlene må **henge sammen**. Et produkt som skal oppleves som eksklusivt, bør ikke selges på billigsalg overalt. Velg de konkurransemidlene som gir mest **effekt** for pengene – og mål hva som virker.",
   "flashcards": [
-    { "term": "Konkurransemidler", "def": "Produkt, pris, plass og påvirkning." },
-    { "term": "Minimumsprodukt", "def": "Enkel første versjon som løser kjernebehovet." },
-    { "term": "Domenenavn", "def": "Adressen til nettsiden – bør sjekkes tidlig." },
-    { "term": "Introduksjonspris", "def": "Lav startpris for å få kundene til å prøve." },
-    { "term": "Skumming", "def": "Høy startpris når produktet er unikt." },
-    { "term": "Direkte salg", "def": "Salg rett til kunden uten mellomledd." },
-    { "term": "Pop-up-butikk", "def": "Midlertidig butikk som er billig å etablere." },
-    { "term": "Markedsplass på nett", "def": "Nettsted der mange selgere når mange kunder." },
-    { "term": "Jungeltelegrafen", "def": "Anbefalinger fra fornøyde kunder." },
-    { "term": "PR i oppstarten", "def": "Gratis omtale i lokale medier." },
-    { "term": "Geriljamarkedsføring", "def": "Kreative, overraskende og billige aktiviteter." },
-    { "term": "Mikropåvirker", "def": "Påvirker med liten, men engasjert følgerskare." },
-    { "term": "Personlig service", "def": "Nærhet og fleksibilitet som konkurransefortrinn for små virksomheter." },
-    { "term": "Lanseringsplan", "def": "Aktiviteter før, under og etter lansering." },
-    { "term": "Ambassadør", "def": "Fornøyd kunde som anbefaler virksomheten til andre." }
+    {
+      "term": "Konkurransemidler",
+      "def": "Produkt, pris, plass og påvirkning."
+    },
+    {
+      "term": "Minimumsprodukt",
+      "def": "Enkel første versjon som løser kjernebehovet."
+    },
+    {
+      "term": "Domenenavn",
+      "def": "Adressen til nettsiden – bør sjekkes tidlig."
+    },
+    {
+      "term": "Introduksjonspris",
+      "def": "Lav startpris for å få kundene til å prøve."
+    },
+    {
+      "term": "Skumming",
+      "def": "Høy startpris når produktet er unikt."
+    },
+    {
+      "term": "Direkte salg",
+      "def": "Salg rett til kunden uten mellomledd."
+    },
+    {
+      "term": "Pop-up-butikk",
+      "def": "Midlertidig butikk som er billig å etablere."
+    },
+    {
+      "term": "Markedsplass på nett",
+      "def": "Nettsted der mange selgere når mange kunder."
+    },
+    {
+      "term": "Jungeltelegrafen",
+      "def": "Anbefalinger fra fornøyde kunder."
+    },
+    {
+      "term": "PR i oppstarten",
+      "def": "Gratis omtale i lokale medier."
+    },
+    {
+      "term": "Geriljamarkedsføring",
+      "def": "Kreative, overraskende og billige aktiviteter."
+    },
+    {
+      "term": "Mikropåvirker",
+      "def": "Påvirker med liten, men engasjert følgerskare."
+    },
+    {
+      "term": "Personlig service",
+      "def": "Nærhet og fleksibilitet som konkurransefortrinn for små virksomheter."
+    },
+    {
+      "term": "Lanseringsplan",
+      "def": "Aktiviteter før, under og etter lansering."
+    },
+    {
+      "term": "Ambassadør",
+      "def": "Fornøyd kunde som anbefaler virksomheten til andre."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvorfor må en ny virksomhet prioritere konkurransemidlene nøye?", "options": ["Fordi den har mye penger", "Fordi den har små ressurser og er ukjent", "Fordi loven krever det", "Fordi den ikke har konkurrenter"], "correct": 1, "explain": "Pengene må gi mest mulig effekt." },
-    { "id": "q02", "text": "Hvorfor setter mange gründere prisen for lavt?", "options": ["De glemmer egen arbeidstid og skjulte kostnader", "De vil ha få kunder", "De har for høye kostnader", "Loven krever lav pris"], "correct": 0, "explain": "Prisen må dekke alle kostnader over tid." },
-    { "id": "q03", "text": "Hva bør du sjekke før du velger navn på virksomheten?", "options": ["At navnet er langt", "At navnet er på engelsk", "At det ikke er tatt som varemerke, og at domenenavnet er ledig", "At navnet ligner konkurrentens"], "correct": 2, "explain": "Unngå konflikter senere." },
-    { "id": "q04", "text": "Hva er geriljamarkedsføring?", "options": ["Dyr TV-reklame", "Reklame i aviser", "Salg via grossister", "Kreative, overraskende og billige aktiviteter"], "correct": 3, "explain": "Passer når budsjettet er lite." },
-    { "id": "q05", "text": "Hvilken kommunikasjon er ofte mest troverdig?", "options": ["Anbefalinger fra fornøyde kunder", "Egne annonser", "Plakater", "Pressemeldinger"], "correct": 0, "explain": "Jungeltelegrafen." },
-    { "id": "q06", "text": "Når passer skumming for en ny virksomhet?", "options": ["Når produktet er likt alle andre", "Når produktet er unikt og kundene vil betale for å være først", "Når man vil ha flest mulig kunder raskt", "Aldri"], "correct": 1, "explain": "Høy startpris." },
-    { "id": "q07", "text": "Hva er en fordel med pop-up-butikker?", "options": ["De er permanente", "De krever store investeringer", "De er billige måter å møte kunder på", "De har ingen kunder"], "correct": 2, "explain": "Midlertidige." },
-    { "id": "q08", "text": "Hva hører til fasen etter lansering?", "options": ["Å velge navn", "Å finne en idé", "Å registrere selskapet", "Å samle tilbakemeldinger og måle salget"], "correct": 3, "explain": "Og justere." },
-    { "id": "q09", "text": "Hvordan kan en liten virksomhet konkurrere med store kjeder?", "options": ["Med nærhet og personlig service", "Med de laveste prisene alltid", "Med mest reklame", "Med flest butikker"], "correct": 0, "explain": "Fleksibilitet er en styrke." },
-    { "id": "q10", "text": "Hva må et samarbeid med en påvirker merkes som?", "options": ["Nyheter", "Reklame", "Privat innlegg", "Ingenting"], "correct": 1, "explain": "Skjult reklame er forbudt." }
+    {
+      "id": "q01",
+      "text": "Hvorfor må en ny virksomhet prioritere konkurransemidlene nøye?",
+      "options": [
+        "Fordi den har mye penger",
+        "Fordi den har små ressurser og er ukjent",
+        "Fordi loven krever det",
+        "Fordi den ikke har konkurrenter"
+      ],
+      "correct": 1,
+      "explain": "Pengene må gi mest mulig effekt."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor setter mange gründere prisen for lavt?",
+      "options": [
+        "De glemmer egen arbeidstid og skjulte kostnader",
+        "De vil ha få kunder",
+        "De har for høye kostnader",
+        "Loven krever lav pris"
+      ],
+      "correct": 0,
+      "explain": "Prisen må dekke alle kostnader over tid."
+    },
+    {
+      "id": "q03",
+      "text": "Hva bør du sjekke før du velger navn på virksomheten?",
+      "options": [
+        "At navnet er langt",
+        "At navnet er på engelsk",
+        "At det ikke er tatt som varemerke, og at domenenavnet er ledig",
+        "At navnet ligner konkurrentens"
+      ],
+      "correct": 2,
+      "explain": "Unngå konflikter senere."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er geriljamarkedsføring?",
+      "options": [
+        "Dyr TV-reklame",
+        "Reklame i aviser",
+        "Salg via grossister",
+        "Kreative, overraskende og billige aktiviteter"
+      ],
+      "correct": 3,
+      "explain": "Passer når budsjettet er lite."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken kommunikasjon er ofte mest troverdig?",
+      "options": [
+        "Anbefalinger fra fornøyde kunder",
+        "Egne annonser",
+        "Plakater",
+        "Pressemeldinger"
+      ],
+      "correct": 0,
+      "explain": "Jungeltelegrafen."
+    },
+    {
+      "id": "q06",
+      "text": "Når passer skumming for en ny virksomhet?",
+      "options": [
+        "Når produktet er likt alle andre",
+        "Når produktet er unikt og kundene vil betale for å være først",
+        "Når man vil ha flest mulig kunder raskt",
+        "Aldri"
+      ],
+      "correct": 1,
+      "explain": "Høy startpris."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en fordel med pop-up-butikker?",
+      "options": [
+        "De er permanente",
+        "De krever store investeringer",
+        "De er billige måter å møte kunder på",
+        "De har ingen kunder"
+      ],
+      "correct": 2,
+      "explain": "Midlertidige."
+    },
+    {
+      "id": "q08",
+      "text": "Hva hører til fasen etter lansering?",
+      "options": [
+        "Å velge navn",
+        "Å finne en idé",
+        "Å registrere selskapet",
+        "Å samle tilbakemeldinger og måle salget"
+      ],
+      "correct": 3,
+      "explain": "Og justere."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan kan en liten virksomhet konkurrere med store kjeder?",
+      "options": [
+        "Med nærhet og personlig service",
+        "Med de laveste prisene alltid",
+        "Med mest reklame",
+        "Med flest butikker"
+      ],
+      "correct": 0,
+      "explain": "Fleksibilitet er en styrke."
+    },
+    {
+      "id": "q10",
+      "text": "Hva må et samarbeid med en påvirker merkes som?",
+      "options": [
+        "Nyheter",
+        "Reklame",
+        "Privat innlegg",
+        "Ingenting"
+      ],
+      "correct": 1,
+      "explain": "Skjult reklame er forbudt."
+    }
   ],
   "mindmap": {
     "label": "Konkurransemidler i oppstarten",
     "children": [
-      { "label": "Produkt", "children": [
-        { "label": "Minimumsprodukt" },
-        { "label": "Navn og logo" }
-      ] },
-      { "label": "Pris", "children": [
-        { "label": "Dekke kostnader" },
-        { "label": "Introduksjon eller skumming" }
-      ] },
-      { "label": "Plass", "children": [
-        { "label": "Direkte og nett" },
-        { "label": "Pop-up og marked" }
-      ] },
-      { "label": "Påvirkning", "children": [
-        { "label": "Sosiale medier og nettverk" },
-        { "label": "PR og anbefalinger" },
-        { "label": "Geriljamarkedsføring" }
-      ] },
-      { "label": "Lansering", "children": [
-        { "label": "Før" },
-        { "label": "Under" },
-        { "label": "Etter" }
-      ] }
+      {
+        "label": "Produkt",
+        "children": [
+          {
+            "label": "Minimumsprodukt"
+          },
+          {
+            "label": "Navn og logo"
+          }
+        ]
+      },
+      {
+        "label": "Pris",
+        "children": [
+          {
+            "label": "Dekke kostnader"
+          },
+          {
+            "label": "Introduksjon eller skumming"
+          }
+        ]
+      },
+      {
+        "label": "Plass",
+        "children": [
+          {
+            "label": "Direkte og nett"
+          },
+          {
+            "label": "Pop-up og marked"
+          }
+        ]
+      },
+      {
+        "label": "Påvirkning",
+        "children": [
+          {
+            "label": "Sosiale medier og nettverk"
+          },
+          {
+            "label": "PR og anbefalinger"
+          },
+          {
+            "label": "Geriljamarkedsføring"
+          }
+        ]
+      },
+      {
+        "label": "Lansering",
+        "children": [
+          {
+            "label": "Før"
+          },
+          {
+            "label": "Under"
+          },
+          {
+            "label": "Etter"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Lokale medier skriver ofte gjerne om nye og spennende virksomheter.", "correct": true, "explain": "Gratis PR." },
-      { "id": "m02", "type": "sant-usant", "text": "Sosiale medier gir gode resultater uten at man legger inn arbeid.", "correct": false, "explain": "Det krever jevnlig og engasjerende innhold." },
-      { "id": "m03", "type": "sant-usant", "text": "De første kundene kan bli viktige ambassadører for virksomheten.", "correct": true, "explain": "De anbefaler videre." },
-      { "id": "m04", "type": "sant-usant", "text": "Et produkt som skal oppleves som eksklusivt, bør selges på billigsalg overalt.", "correct": false, "explain": "Konkurransemidlene må henge sammen." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er en ulempe ved å selge gjennom eksisterende butikker?", "options": ["Man når ingen kunder", "Butikken tar en andel av prisen", "Det er ulovlig", "Det krever patent"], "correct": 1, "explain": "Men det gir rask tilgang til kunder." },
-      { "id": "m06", "type": "flervalg", "text": "Hva hører til fasen før lansering?", "options": ["Teste produktet og bygge følgere", "Måle salget", "Samle tilbakemeldinger fra kjøpere", "Avslutte virksomheten"], "correct": 0, "explain": "Forbered markedet." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor er gründeren ofte en god selger?", "options": ["Fordi hen har mest penger", "Fordi hen er eldst", "Fordi hen brenner for produktet", "Fordi hen har lært det på skolen"], "correct": 2, "explain": "Engasjement smitter." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Lokale medier skriver ofte gjerne om nye og spennende virksomheter.",
+        "correct": true,
+        "explain": "Gratis PR."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Sosiale medier gir gode resultater uten at man legger inn arbeid.",
+        "correct": false,
+        "explain": "Det krever jevnlig og engasjerende innhold."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "De første kundene kan bli viktige ambassadører for virksomheten.",
+        "correct": true,
+        "explain": "De anbefaler videre."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et produkt som skal oppleves som eksklusivt, bør selges på billigsalg overalt.",
+        "correct": false,
+        "explain": "Konkurransemidlene må henge sammen."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er en ulempe ved å selge gjennom eksisterende butikker?",
+        "options": [
+          "Man når ingen kunder",
+          "Butikken tar en andel av prisen",
+          "Det er ulovlig",
+          "Det krever patent"
+        ],
+        "correct": 1,
+        "explain": "Men det gir rask tilgang til kunder."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva hører til fasen før lansering?",
+        "options": [
+          "Teste produktet og bygge følgere",
+          "Måle salget",
+          "Samle tilbakemeldinger fra kjøpere",
+          "Avslutte virksomheten"
+        ],
+        "correct": 0,
+        "explain": "Forbered markedet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor er gründeren ofte en god selger?",
+        "options": [
+          "Fordi hen har mest penger",
+          "Fordi hen er eldst",
+          "Fordi hen brenner for produktet",
+          "Fordi hen har lært det på skolen"
+        ],
+        "correct": 2,
+        "explain": "Engasjement smitter."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En gründer skal utvikle en ny app, men har få ressurser. Forklar hva et minimumsprodukt er, og hvorfor det kan være lurt å forbedre produktet etter tilbakemeldinger fra kundene.",
+        "fasit": "Et minimumsprodukt er en enkel første versjon som løser kundens kjernebehov. Tilbakemeldinger viser hva som bør forbedres videre.",
+        "kriterier": [
+          "Forklarer at minimumsproduktet er en enkel første versjon som dekker kjernebehovet.",
+          "Knytter tilbakemeldinger til videre forbedring av produktet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En gründer vurderer å selge produktene sine direkte på et marked eller gjennom en eksisterende butikk. Sammenlign alternativene med tanke på kundekontakt og betaling til mellomledd.",
+        "fasit": "Ved direkte salg får gründeren kontakt med kundene og slipper mellomledd. En eksisterende butikk kan gi rask tilgang til kunder, men tar en andel av prisen.",
+        "kriterier": [
+          "Får fram at direkte salg gir kundekontakt uten mellomledd.",
+          "Får fram at samarbeid med en butikk kan gi rask tilgang til kunder, men at butikken tar en andel av prisen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En liten virksomhet vil selge produktene sine på nett og nå mange kunder. Den vurderer en markedsplass på nett. Forklar én fordel ved dette valget og ett forhold virksomheten må være forberedt på.",
+        "fasit": "En markedsplass på nett kan gjøre det mulig å nå mange kunder. Virksomheten må samtidig sørge for at logistikken fungerer godt.",
+        "kriterier": [
+          "Nevner at en markedsplass på nett kan gi tilgang til mange kunder.",
+          "Nevner at virksomheten trenger god logistikk."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En ny virksomhet planlegger lanseringen sin. Beskriv én passende aktivitet før lanseringen, én under lanseringen og én etter lanseringen.",
+        "fasit": "Før lanseringen kan virksomheten teste produktet, bygge følgere eller kontakte pressen. Under lanseringen kan den arrangere et arrangement eller bruke et lanseringstilbud, og etterpå kan den følge opp kundene og samle tilbakemeldinger.",
+        "kriterier": [
+          "Gir en relevant aktivitet før og under lanseringen.",
+          "Gir en relevant aktivitet etter lanseringen, for eksempel å følge opp kunder eller samle tilbakemeldinger."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "De første kundene til en ny virksomhet er fornøyde med produktet. Forklar hvordan jevn kvalitet kan gjøre disse kundene viktige for virksomheten.",
+        "fasit": "Jevn kvalitet gjør det mer sannsynlig at kundene blir fornøyde. Fornøyde kunder kan bli ambassadører ved å anbefale virksomheten til andre.",
+        "kriterier": [
+          "Knytter jevn kvalitet til fornøyde kunder.",
+          "Forklarer at fornøyde kunder kan anbefale virksomheten til andre."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En ny virksomhet ønsker å bli omtalt i nærmiljøet, men har lite penger til markedsføring. Hvilket kommunikasjonsmiddel fra lokalaviser eller radio kan den bruke, og hvorfor passer det?",
+        "fasit": "Virksomheten kan satse på PR ved å kontakte lokalaviser eller radio. Lokalmedier skriver gjerne om nye og spennende virksomheter, og omtalen er gratis.",
+        "kriterier": [
+          "Foreslår PR gjennom lokale medier.",
+          "Forklarer at omtalen kan være gratis og passer når virksomheten har lite penger."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En nettbutikk gjør det vanskelig for kundene å betale. Nevn to betalingsmåter virksomheten kan tilby, og forklar hvorfor det kan være lurt å gjøre betalingen enklere.",
+        "fasit": "Nettbutikken kan tilby kortbetaling og mobilbetaling. Når det er enkelt å betale, blir det lettere for kundene å gjennomføre kjøpet.",
+        "kriterier": [
+          "Nevner to passende betalingsmåter, som kort og mobilbetaling.",
+          "Forklarer at en enkel betalingsløsning gjør det lettere for kundene å betale."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En ukjent virksomhet skal lansere et produkt. Forklar hvordan en enkel, tydelig logo og emballasje kan bidra til at produktet virker mer profesjonelt.",
+        "fasit": "En enkel og tydelig logo og emballasje kan gi produktet et profesjonelt inntrykk. Det kan være nyttig når virksomheten ennå er ukjent for kundene.",
+        "kriterier": [
+          "Får fram at logo og emballasje kan gi et profesjonelt inntrykk.",
+          "Knytter dette til at virksomheten er ukjent eller skal gjøre et godt førsteinntrykk."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

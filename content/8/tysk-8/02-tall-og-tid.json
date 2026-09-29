@@ -4,80 +4,433 @@
   "trinnId": "8",
   "name": "Tall, dager og klokka",
   "intro": "Tallene på tysk, ukedager, måneder og årstider, hvordan du sier datoen og bursdagen din, og hvordan du spør om og sier hva klokka er.",
-  "kompetansemaal": [6, 1],
+  "kompetansemaal": [
+    6,
+    1
+  ],
   "sammendrag": "## Tallene 0–20\n\n0 **null**, 1 **eins**, 2 **zwei**, 3 **drei**, 4 **vier**, 5 **fünf**, 6 **sechs**, 7 **sieben**, 8 **acht**, 9 **neun**, 10 **zehn**, 11 **elf**, 12 **zwölf**, 13 **dreizehn**, 14 **vierzehn**, 15 **fünfzehn**, 16 **sechzehn**, 17 **siebzehn**, 18 **achtzehn**, 19 **neunzehn**, 20 **zwanzig**.\n\nLegg merke til at 16 og 17 er forkortet: *sechzehn* og *siebzehn*.\n\n## Tallene over 20\n\nPå tysk sier man **enerne før tierne**, slik man også gjorde i gammel norsk telling: 21 = **einundzwanzig** («en-og-tjue»), 34 = **vierunddreißig**, 58 = **achtundfünfzig**. Tallene skrives i ett ord.\n\nTierne er 30 **dreißig**, 40 **vierzig**, 50 **fünfzig**, 60 **sechzig**, 70 **siebzig**, 80 **achtzig** og 90 **neunzig**. 100 er **hundert**. Merk at 30 skrives med **ß**, og at 60 og 70 er forkortet.\n\n## Ukedagene\n\n**Montag** (mandag), **Dienstag** (tirsdag), **Mittwoch** (onsdag), **Donnerstag** (torsdag), **Freitag** (fredag), **Samstag** (lørdag, i Nord-Tyskland også *Sonnabend*) og **Sonntag** (søndag). «På mandag» heter **am Montag**.\n\n## Måneder og årstider\n\n**Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember.** «I mai» heter **im Mai**. Årstidene er **der Frühling** (våren), **der Sommer**, **der Herbst** (høsten) og **der Winter**. Som alle substantiver skrives de med stor forbokstav.\n\n## Dato og bursdag\n\n- **Heute ist der erste Mai.** – I dag er det første mai.\n- **Wann hast du Geburtstag?** – Når har du bursdag?\n- **Ich habe am dritten März Geburtstag.** – Jeg har bursdag 3. mars.\n\n## Hva er klokka?\n\nDu kan spørre **Wie spät ist es?** eller **Wie viel Uhr ist es?**\n\n- 8.00: **Es ist acht Uhr.**\n- 8.10: **Es ist zehn nach acht.**\n- 8.15: **Es ist Viertel nach acht.** (kvart over åtte)\n- 8.30: **Es ist halb neun.** (halv ni – akkurat som på norsk!)\n- 8.45: **Es ist Viertel vor neun.** (kvart på ni)\n- 8.50: **Es ist zehn vor neun.**\n\nNår du forteller **når** noe skjer, bruker du **um**: *Die Schule beginnt um acht Uhr.* – Skolen begynner klokka åtte.\n\n## Tips for å lære tall\n\nØv ved å si telefonnummeret ditt, bursdagen din eller prisene i en butikk høyt på tysk. Lytt etter tall i tyske sanger og videoer. Å skrive tallene med bokstaver hjelper også på rettskrivingen.",
   "flashcards": [
-    { "term": "zwölf", "def": "12" },
-    { "term": "zwanzig", "def": "20" },
-    { "term": "einundzwanzig", "def": "21 – enerne kommer før tierne" },
-    { "term": "dreißig", "def": "30 – skrives med ß" },
-    { "term": "hundert", "def": "100" },
-    { "term": "Montag", "def": "mandag" },
-    { "term": "Mittwoch", "def": "onsdag" },
-    { "term": "Donnerstag", "def": "torsdag" },
-    { "term": "Samstag", "def": "lørdag" },
-    { "term": "der Frühling", "def": "våren" },
-    { "term": "der Herbst", "def": "høsten" },
-    { "term": "Wie spät ist es?", "def": "Hva er klokka?" },
-    { "term": "halb neun", "def": "halv ni (8.30)" },
-    { "term": "Viertel nach drei", "def": "kvart over tre" },
-    { "term": "Viertel vor vier", "def": "kvart på fire" },
-    { "term": "der Geburtstag", "def": "bursdagen" }
+    {
+      "term": "zwölf",
+      "def": "12"
+    },
+    {
+      "term": "zwanzig",
+      "def": "20"
+    },
+    {
+      "term": "einundzwanzig",
+      "def": "21 – enerne kommer før tierne"
+    },
+    {
+      "term": "dreißig",
+      "def": "30 – skrives med ß"
+    },
+    {
+      "term": "hundert",
+      "def": "100"
+    },
+    {
+      "term": "Montag",
+      "def": "mandag"
+    },
+    {
+      "term": "Mittwoch",
+      "def": "onsdag"
+    },
+    {
+      "term": "Donnerstag",
+      "def": "torsdag"
+    },
+    {
+      "term": "Samstag",
+      "def": "lørdag"
+    },
+    {
+      "term": "der Frühling",
+      "def": "våren"
+    },
+    {
+      "term": "der Herbst",
+      "def": "høsten"
+    },
+    {
+      "term": "Wie spät ist es?",
+      "def": "Hva er klokka?"
+    },
+    {
+      "term": "halb neun",
+      "def": "halv ni (8.30)"
+    },
+    {
+      "term": "Viertel nach drei",
+      "def": "kvart over tre"
+    },
+    {
+      "term": "Viertel vor vier",
+      "def": "kvart på fire"
+    },
+    {
+      "term": "der Geburtstag",
+      "def": "bursdagen"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan skriver du 21 på tysk?", "options": ["zwanzigeins", "zweiundeins", "einundzwanzig", "zwanzig und eins"], "correct": 2, "explain": "Enerne kommer først: «en-og-tjue»." },
-    { "id": "q02", "text": "Hva betyr «halb vier»?", "options": ["Halv fire (3.30)", "Halv tre (2.30)", "Kvart over fire", "Fire timer"], "correct": 0, "explain": "Som på norsk betyr «halb vier» en halv time før fire." },
-    { "id": "q03", "text": "Hvilken ukedag er «Mittwoch»?", "options": ["Mandag", "Tirsdag", "Torsdag", "Onsdag"], "correct": 3, "explain": "«Mittwoch» betyr egentlig «midtuke»." },
-    { "id": "q04", "text": "Hvordan spør du hva klokka er?", "options": ["Wie alt bist du?", "Wie spät ist es?", "Wo wohnst du?", "Wie geht's?"], "correct": 1, "explain": "Du kan også si «Wie viel Uhr ist es?»." },
-    { "id": "q05", "text": "Hvordan skrives tallet 30 på tysk?", "options": ["dreizig", "dreizehn", "dreißig", "dreisig"], "correct": 2, "explain": "30 skrives med ß, i motsetning til de andre tierne som slutter på -zig." },
-    { "id": "q06", "text": "Hva betyr «Viertel vor vier»?", "options": ["Kvart på fire", "Kvart over fire", "Halv fire", "Fire og et kvarter"], "correct": 0, "explain": "«vor» betyr «før» eller «på»." },
-    { "id": "q07", "text": "Hvordan sier du «i mai» på tysk?", "options": ["am Mai", "um Mai", "in Mai", "im Mai"], "correct": 3, "explain": "Med måneder og årstider bruker du «im»." },
-    { "id": "q08", "text": "Hvilket tall er «sechzig»?", "options": ["16", "60", "6", "600"], "correct": 1, "explain": "16 er «sechzehn», 60 er «sechzig»." },
-    { "id": "q09", "text": "Hvordan sier du «på mandag»?", "options": ["am Montag", "im Montag", "um Montag", "in Montag"], "correct": 0, "explain": "Med ukedager bruker du «am»." },
-    { "id": "q10", "text": "Hva heter høsten på tysk?", "options": ["der Frühling", "der Sommer", "der Herbst", "der Winter"], "correct": 2, "explain": "«Herbst» ligner det engelske «harvest», innhøsting." }
+    {
+      "id": "q01",
+      "text": "Hvordan skriver du 21 på tysk?",
+      "options": [
+        "zwanzigeins",
+        "zweiundeins",
+        "einundzwanzig",
+        "zwanzig und eins"
+      ],
+      "correct": 2,
+      "explain": "Enerne kommer først: «en-og-tjue»."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr «halb vier»?",
+      "options": [
+        "Halv fire (3.30)",
+        "Halv tre (2.30)",
+        "Kvart over fire",
+        "Fire timer"
+      ],
+      "correct": 0,
+      "explain": "Som på norsk betyr «halb vier» en halv time før fire."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken ukedag er «Mittwoch»?",
+      "options": [
+        "Mandag",
+        "Tirsdag",
+        "Torsdag",
+        "Onsdag"
+      ],
+      "correct": 3,
+      "explain": "«Mittwoch» betyr egentlig «midtuke»."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan spør du hva klokka er?",
+      "options": [
+        "Wie alt bist du?",
+        "Wie spät ist es?",
+        "Wo wohnst du?",
+        "Wie geht's?"
+      ],
+      "correct": 1,
+      "explain": "Du kan også si «Wie viel Uhr ist es?»."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan skrives tallet 30 på tysk?",
+      "options": [
+        "dreizig",
+        "dreizehn",
+        "dreißig",
+        "dreisig"
+      ],
+      "correct": 2,
+      "explain": "30 skrives med ß, i motsetning til de andre tierne som slutter på -zig."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr «Viertel vor vier»?",
+      "options": [
+        "Kvart på fire",
+        "Kvart over fire",
+        "Halv fire",
+        "Fire og et kvarter"
+      ],
+      "correct": 0,
+      "explain": "«vor» betyr «før» eller «på»."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan sier du «i mai» på tysk?",
+      "options": [
+        "am Mai",
+        "um Mai",
+        "in Mai",
+        "im Mai"
+      ],
+      "correct": 3,
+      "explain": "Med måneder og årstider bruker du «im»."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket tall er «sechzig»?",
+      "options": [
+        "16",
+        "60",
+        "6",
+        "600"
+      ],
+      "correct": 1,
+      "explain": "16 er «sechzehn», 60 er «sechzig»."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan sier du «på mandag»?",
+      "options": [
+        "am Montag",
+        "im Montag",
+        "um Montag",
+        "in Montag"
+      ],
+      "correct": 0,
+      "explain": "Med ukedager bruker du «am»."
+    },
+    {
+      "id": "q10",
+      "text": "Hva heter høsten på tysk?",
+      "options": [
+        "der Frühling",
+        "der Sommer",
+        "der Herbst",
+        "der Winter"
+      ],
+      "correct": 2,
+      "explain": "«Herbst» ligner det engelske «harvest», innhøsting."
+    }
   ],
   "mindmap": {
     "label": "Tall og tid",
     "children": [
-      { "label": "Tall", "children": [
-        { "label": "0–20" },
-        { "label": "einundzwanzig", "note": "21" },
-        { "label": "Tierne" },
-        { "label": "dreißig med ß" }
-      ] },
-      { "label": "Ukedager", "children": [
-        { "label": "Montag–Sonntag" },
-        { "label": "am Montag" }
-      ] },
-      { "label": "Måneder og årstider", "children": [
-        { "label": "Januar–Dezember" },
-        { "label": "im Mai" },
-        { "label": "Frühling, Sommer, Herbst, Winter" }
-      ] },
-      { "label": "Klokka", "children": [
-        { "label": "Wie spät ist es?" },
-        { "label": "Viertel nach / vor" },
-        { "label": "halb neun" },
-        { "label": "um acht Uhr" }
-      ] },
-      { "label": "Dato", "children": [
-        { "label": "der erste Mai" },
-        { "label": "Geburtstag" }
-      ] }
+      {
+        "label": "Tall",
+        "children": [
+          {
+            "label": "0–20"
+          },
+          {
+            "label": "einundzwanzig",
+            "note": "21"
+          },
+          {
+            "label": "Tierne"
+          },
+          {
+            "label": "dreißig med ß"
+          }
+        ]
+      },
+      {
+        "label": "Ukedager",
+        "children": [
+          {
+            "label": "Montag–Sonntag"
+          },
+          {
+            "label": "am Montag"
+          }
+        ]
+      },
+      {
+        "label": "Måneder og årstider",
+        "children": [
+          {
+            "label": "Januar–Dezember"
+          },
+          {
+            "label": "im Mai"
+          },
+          {
+            "label": "Frühling, Sommer, Herbst, Winter"
+          }
+        ]
+      },
+      {
+        "label": "Klokka",
+        "children": [
+          {
+            "label": "Wie spät ist es?"
+          },
+          {
+            "label": "Viertel nach / vor"
+          },
+          {
+            "label": "halb neun"
+          },
+          {
+            "label": "um acht Uhr"
+          }
+        ]
+      },
+      {
+        "label": "Dato",
+        "children": [
+          {
+            "label": "der erste Mai"
+          },
+          {
+            "label": "Geburtstag"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "På tysk sier man enerne før tierne, som i «fünfundvierzig» (45).", "correct": true, "explain": "Slik telte man også på norsk før." },
-      { "id": "m02", "type": "sant-usant", "text": "Månedsnavn skrives med liten forbokstav på tysk.", "correct": false, "explain": "Månedene er substantiver og skrives med stor forbokstav." },
-      { "id": "m03", "type": "sant-usant", "text": "«um acht Uhr» betyr klokka åtte.", "correct": true, "explain": "«um» brukes når du sier når noe skjer." },
-      { "id": "m04", "type": "sant-usant", "text": "«zwölf» betyr tjue.", "correct": false, "explain": "«zwölf» er 12. Tjue heter «zwanzig»." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Ich habe am dritten März Geburtstag»?", "options": ["Jeg er tre år gammel", "Jeg har bursdag 3. mars", "Jeg har tre bursdager", "Det er tre dager til mars"], "correct": 1, "explain": "«am dritten März» betyr «den tredje mars»." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket ord betyr «lørdag»?", "options": ["Sonntag", "Freitag", "Samstag", "Dienstag"], "correct": 2, "explain": "I Nord-Tyskland sier noen også «Sonnabend»." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Viertel nach drei»?", "options": ["Kvart over tre", "Kvart på tre", "Halv tre", "Tre kvarter"], "correct": 0, "explain": "«nach» betyr «etter» eller «over»." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "På tysk sier man enerne før tierne, som i «fünfundvierzig» (45).",
+        "correct": true,
+        "explain": "Slik telte man også på norsk før."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Månedsnavn skrives med liten forbokstav på tysk.",
+        "correct": false,
+        "explain": "Månedene er substantiver og skrives med stor forbokstav."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«um acht Uhr» betyr klokka åtte.",
+        "correct": true,
+        "explain": "«um» brukes når du sier når noe skjer."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«zwölf» betyr tjue.",
+        "correct": false,
+        "explain": "«zwölf» er 12. Tjue heter «zwanzig»."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Ich habe am dritten März Geburtstag»?",
+        "options": [
+          "Jeg er tre år gammel",
+          "Jeg har bursdag 3. mars",
+          "Jeg har tre bursdager",
+          "Det er tre dager til mars"
+        ],
+        "correct": 1,
+        "explain": "«am dritten März» betyr «den tredje mars»."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket ord betyr «lørdag»?",
+        "options": [
+          "Sonntag",
+          "Freitag",
+          "Samstag",
+          "Dienstag"
+        ],
+        "correct": 2,
+        "explain": "I Nord-Tyskland sier noen også «Sonnabend»."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «Viertel nach drei»?",
+        "options": [
+          "Kvart over tre",
+          "Kvart på tre",
+          "Halv tre",
+          "Tre kvarter"
+        ],
+        "correct": 0,
+        "explain": "«nach» betyr «etter» eller «over»."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Skriv tallet 58 med tyske bokstaver. Forklar hvilken rekkefølge enerne og tierne kommer i, og hvordan tallet skrives.",
+        "fasit": "58 skrives achtundfünfzig. På tysk kommer enerne før tierne, og tallet skrives i ett ord.",
+        "kriterier": [
+          "Skriver achtundfünfzig riktig.",
+          "Forklarer at enerne kommer før tierne, og at tallet skrives i ett ord."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Skriv 16 og 17 med tyske bokstaver. Forklar hva som er spesielt med skrivemåten deres.",
+        "fasit": "16 skrives sechzehn, og 17 skrives siebzehn. Begge formene er forkortet.",
+        "kriterier": [
+          "Skriver både sechzehn og siebzehn riktig.",
+          "Får fram at begge formene er forkortet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign klokkeslettene 8.10 og 8.50. Skriv begge på tysk, og forklar hva nach og vor forteller om tidspunktet.",
+        "fasit": "8.10 er Es ist zehn nach acht, og 8.50 er Es ist zehn vor neun. Nach betyr at tiden er etter åtte, mens vor betyr at det er ti minutter igjen til ni.",
+        "kriterier": [
+          "Gir riktig tysk uttrykk for begge klokkeslettene.",
+          "Forklarer forskjellen mellom nach og vor med utgangspunkt i klokkeslettene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Skolen begynner klokka 8.30. Skriv en tysk setning om når skolen begynner, og bruk um.",
+        "fasit": "Die Schule beginnt um halb neun.",
+        "kriterier": [
+          "Bruker um for å fortelle når noe skjer.",
+          "Skriver klokkeslettet 8.30 som halb neun."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Du skal fortelle på tysk at du har bursdag 3. mars. Skriv en hel setning.",
+        "fasit": "Ich habe am dritten März Geburtstag.",
+        "kriterier": [
+          "Får fram at bursdagen er 3. mars.",
+          "Bruker en forståelig tysk setning med am og Geburtstag."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Skriv de tyske navnene på ukedagene fra mandag til søndag i riktig rekkefølge.",
+        "fasit": "Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag.",
+        "kriterier": [
+          "Har med ukedagene i riktig rekkefølge.",
+          "Skriver ukedagsnavnene riktig eller med bare små skrivefeil."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvordan stor forbokstav brukes i tyske navn på årstider. Skriv to eksempler med artikkel.",
+        "fasit": "Årstidene er substantiver på tysk og skrives derfor med stor forbokstav. Eksempler er der Sommer og der Winter.",
+        "kriterier": [
+          "Forklarer at årstidene er substantiver og derfor har stor forbokstav.",
+          "Gir to riktige eksempler på årstider med stor forbokstav."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Nevn én måte å øve på tyske tall, og forklar hvordan den kan hjelpe deg med å lære.",
+        "fasit": "Jeg kan skrive tallene med bokstaver. Det hjelper meg med å lære hvordan tallene staves på tysk.",
+        "kriterier": [
+          "Nevner en øvingsmåte fra temaet, for eksempel å skrive tall med bokstaver eller si et telefonnummer høyt.",
+          "Forklarer hvordan øvingsmåten hjelper med tall eller tysk rettskriving."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

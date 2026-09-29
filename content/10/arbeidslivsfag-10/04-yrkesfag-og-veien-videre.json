@@ -4,81 +4,434 @@
   "trinnId": "10",
   "name": "Yrkesfag og veien videre",
   "intro": "De ti yrkesfaglige utdanningsprogrammene, 2 + 2-modellen, lærlingtid og fagbrev, påbygging og fagskole, og hvordan erfaringene fra arbeidslivsfag kan hjelpe deg å velge.",
-  "kompetansemaal": [4, 8],
+  "kompetansemaal": [
+    4,
+    8
+  ],
   "sammendrag": "## Yrkesfag i videregående\n\nI videregående skole kan du velge mellom **studieforberedende** og **yrkesfaglige** utdanningsprogram. Yrkesfagene gir deg et **yrke** og kvalifiserer deg for arbeidslivet. Det finnes **ti yrkesfaglige utdanningsprogram**:\n\n1. **Bygg- og anleggsteknikk** – for eksempel tømrer, rørlegger og anleggsmaskinfører\n2. **Elektro og datateknologi** – elektriker, automatiker, dataelektroniker\n3. **Frisør, blomster, interiør og eksponeringsdesign** – frisør, blomsterdekoratør\n4. **Helse- og oppvekstfag** – helsefagarbeider, barne- og ungdomsarbeider\n5. **Håndverk, design og produktutvikling** – for eksempel møbelsnekker, gullsmed og skredder\n6. **Informasjonsteknologi og medieproduksjon** – IT-driftsfag, mediegrafiker\n7. **Naturbruk** – landbruk, fiske og havbruk, skogbruk\n8. **Restaurant- og matfag** – kokk, baker, servitør\n9. **Salg, service og reiseliv** – salgsfag, resepsjon, reiseliv\n10. **Teknologi- og industrifag** – bilmekaniker, industrimekaniker, flyfag\n\n## 2 + 2-modellen\n\nDe fleste yrkesfag følger **2 + 2-modellen**: **to år i skole** (Vg1 og Vg2) og **to år som lærling** i en bedrift. Som **lærling** har du en **lærekontrakt**, får **lærlinglønn** som øker gradvis, og lærer faget i praksis sammen med erfarne fagarbeidere. Opplæringen avsluttes med en **fagprøve** eller **svenneprøve**, og da får du **fagbrev** eller **svennebrev**. Noen fag har andre modeller, for eksempel **tre år i skole**. Med fagbrev kan du senere ta **mesterbrev** og drive egen bedrift.\n\n## Veien videre etter fagbrev\n\n- **Jobb** som fagarbeider – mange bransjer trenger flere fagarbeidere.\n- **Fagskole**: høyere yrkesfaglig utdanning som bygger på fagbrevet.\n- **Påbygging til generell studiekompetanse** (Vg3 påbygg), som gir mulighet til å søke universitet og høyskole.\n- **Y-veien**: Enkelte ingeniørutdanninger tar opp søkere med fagbrev.\n\nYrkesfag stenger altså ingen dører – det finnes mange veier videre.\n\n## Fagarbeidere i framtiden\n\nArbeidslivet trenger mange **fagarbeidere**, for eksempel innen helse, bygg og elektro. **Ny teknologi**, **digitalisering** og det **grønne skiftet** endrer mange yrker, og fagarbeidere må derfor lære hele livet (**livslang læring**).\n\n## Hva har du lært i arbeidslivsfag?\n\nArbeidslivsfag gir deg **erfaring** med ulike yrkesfag. Når du skal velge videre, kan du **vurdere egen innsats** og spørre deg selv:\n\n- Hvilke arbeidsoppdrag likte jeg best – å jobbe med **mennesker**, **mat**, **materialer** eller **teknologi**?\n- Hva mestret jeg godt, og hva vil jeg bli bedre på?\n- Liker jeg å jobbe **praktisk** og se resultatet av arbeidet?\n\nSnakk med **rådgiveren**, prøv **hospitering** på videregående og snakk med folk som jobber i yrker du er interessert i. **Utdanning.no** og **vilbli.no** har informasjon om utdanningsprogram og yrker.",
   "flashcards": [
-    { "term": "Yrkesfaglig utdanningsprogram", "def": "Utdanningsprogram i videregående som gir et yrke." },
-    { "term": "Ti yrkesfaglige program", "def": "Antallet yrkesfaglige utdanningsprogram i videregående." },
-    { "term": "2 + 2-modellen", "def": "To år i skole og to år som lærling i bedrift." },
-    { "term": "Lærling", "def": "Person som får opplæring i et fag i en bedrift etter lærekontrakt." },
-    { "term": "Lærekontrakt", "def": "Avtale mellom lærling og lærebedrift om opplæringen." },
-    { "term": "Lærlinglønn", "def": "Lønn til lærlinger som øker gradvis gjennom læretiden." },
-    { "term": "Fagprøve", "def": "Praktisk prøve som avslutter læretiden." },
-    { "term": "Fagbrev", "def": "Bevis på at man er utdannet fagarbeider." },
-    { "term": "Svennebrev", "def": "Fagbrev i håndverksfag, som frisør og tømrer." },
-    { "term": "Mesterbrev", "def": "Videreutdanning etter fagbrev som gir rett til å drive og lede egen bedrift." },
-    { "term": "Fagskole", "def": "Høyere yrkesfaglig utdanning som bygger på fagbrev." },
-    { "term": "Påbygging", "def": "Vg3 som gir generell studiekompetanse etter yrkesfag." },
-    { "term": "Y-veien", "def": "Vei til ingeniørutdanning for søkere med fagbrev." },
-    { "term": "Hospitering", "def": "Å besøke og prøve et utdanningsprogram eller en arbeidsplass." },
-    { "term": "Livslang læring", "def": "Å fortsette å lære gjennom hele arbeidslivet." }
+    {
+      "term": "Yrkesfaglig utdanningsprogram",
+      "def": "Utdanningsprogram i videregående som gir et yrke."
+    },
+    {
+      "term": "Ti yrkesfaglige program",
+      "def": "Antallet yrkesfaglige utdanningsprogram i videregående."
+    },
+    {
+      "term": "2 + 2-modellen",
+      "def": "To år i skole og to år som lærling i bedrift."
+    },
+    {
+      "term": "Lærling",
+      "def": "Person som får opplæring i et fag i en bedrift etter lærekontrakt."
+    },
+    {
+      "term": "Lærekontrakt",
+      "def": "Avtale mellom lærling og lærebedrift om opplæringen."
+    },
+    {
+      "term": "Lærlinglønn",
+      "def": "Lønn til lærlinger som øker gradvis gjennom læretiden."
+    },
+    {
+      "term": "Fagprøve",
+      "def": "Praktisk prøve som avslutter læretiden."
+    },
+    {
+      "term": "Fagbrev",
+      "def": "Bevis på at man er utdannet fagarbeider."
+    },
+    {
+      "term": "Svennebrev",
+      "def": "Fagbrev i håndverksfag, som frisør og tømrer."
+    },
+    {
+      "term": "Mesterbrev",
+      "def": "Videreutdanning etter fagbrev som gir rett til å drive og lede egen bedrift."
+    },
+    {
+      "term": "Fagskole",
+      "def": "Høyere yrkesfaglig utdanning som bygger på fagbrev."
+    },
+    {
+      "term": "Påbygging",
+      "def": "Vg3 som gir generell studiekompetanse etter yrkesfag."
+    },
+    {
+      "term": "Y-veien",
+      "def": "Vei til ingeniørutdanning for søkere med fagbrev."
+    },
+    {
+      "term": "Hospitering",
+      "def": "Å besøke og prøve et utdanningsprogram eller en arbeidsplass."
+    },
+    {
+      "term": "Livslang læring",
+      "def": "Å fortsette å lære gjennom hele arbeidslivet."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvor mange yrkesfaglige utdanningsprogram finnes det i videregående?", "options": ["Fem", "Tolv", "Tre", "Ti"], "correct": 3, "explain": "I tillegg finnes studieforberedende programmer." },
-    { "id": "q02", "text": "Hva er 2 + 2-modellen?", "options": ["To år i skole og to år som lærling", "To år på ungdomsskolen og to år på videregående", "To fag og to prøver", "To lærere og to elever"], "correct": 0, "explain": "De fleste yrkesfag følger denne modellen." },
-    { "id": "q03", "text": "Hva får du når du har bestått fagprøven?", "options": ["Vitnemål fra ungdomsskolen", "Fagbrev", "Førerkort", "Mastergrad"], "correct": 1, "explain": "I håndverksfag kalles det svennebrev." },
-    { "id": "q04", "text": "Hvilket utdanningsprogram fører til yrket elektriker?", "options": ["Bygg- og anleggsteknikk", "Naturbruk", "Elektro og datateknologi", "Restaurant- og matfag"], "correct": 2, "explain": "Automatiker og dataelektroniker hører også hit." },
-    { "id": "q05", "text": "Hva er påbygging?", "options": ["Et år som gir generell studiekompetanse etter yrkesfag", "Å bygge et hus", "En lærlingplass", "En del av ungdomsskolen"], "correct": 0, "explain": "Påbygging gjør det mulig å søke høyere utdanning." },
-    { "id": "q06", "text": "Hva er en fagskole?", "options": ["En ungdomsskole", "Et universitet", "En barneskole", "Høyere yrkesfaglig utdanning som bygger på fagbrev"], "correct": 3, "explain": "Fagskolen gir spesialisering innen et fagområde." },
-    { "id": "q07", "text": "Hva er en lærekontrakt?", "options": ["En arbeidsavtale for lærere", "En avtale mellom lærling og lærebedrift om opplæringen", "En kontrakt om å kjøpe verktøy", "En skoleavtale"], "correct": 1, "explain": "Lærekontrakten gir lærlingen rettigheter og plikter." },
-    { "id": "q08", "text": "Hvilket utdanningsprogram fører til yrket helsefagarbeider?", "options": ["Salg, service og reiseliv", "Teknologi- og industrifag", "Naturbruk", "Helse- og oppvekstfag"], "correct": 3, "explain": "Barne- og ungdomsarbeidere utdannes også her." },
-    { "id": "q09", "text": "Hvorfor er livslang læring viktig for fagarbeidere?", "options": ["Fordi yrkene ikke endrer seg", "Fordi ny teknologi og det grønne skiftet endrer mange yrker", "Fordi det er påbudt å gå på skole hele livet", "Det er ikke viktig"], "correct": 1, "explain": "Fagarbeidere må stadig lære nye metoder og verktøy." },
-    { "id": "q10", "text": "Hva kan du gjøre for å finne ut hvilket utdanningsprogram som passer deg?", "options": ["Velge det vennene dine velger", "Kaste mynt", "Snakke med rådgiveren og hospitere", "Velge det første på lista"], "correct": 2, "explain": "Erfaringer fra arbeidslivsfag er også nyttige." }
+    {
+      "id": "q01",
+      "text": "Hvor mange yrkesfaglige utdanningsprogram finnes det i videregående?",
+      "options": [
+        "Fem",
+        "Tolv",
+        "Tre",
+        "Ti"
+      ],
+      "correct": 3,
+      "explain": "I tillegg finnes studieforberedende programmer."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er 2 + 2-modellen?",
+      "options": [
+        "To år i skole og to år som lærling",
+        "To år på ungdomsskolen og to år på videregående",
+        "To fag og to prøver",
+        "To lærere og to elever"
+      ],
+      "correct": 0,
+      "explain": "De fleste yrkesfag følger denne modellen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva får du når du har bestått fagprøven?",
+      "options": [
+        "Vitnemål fra ungdomsskolen",
+        "Fagbrev",
+        "Førerkort",
+        "Mastergrad"
+      ],
+      "correct": 1,
+      "explain": "I håndverksfag kalles det svennebrev."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket utdanningsprogram fører til yrket elektriker?",
+      "options": [
+        "Bygg- og anleggsteknikk",
+        "Naturbruk",
+        "Elektro og datateknologi",
+        "Restaurant- og matfag"
+      ],
+      "correct": 2,
+      "explain": "Automatiker og dataelektroniker hører også hit."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er påbygging?",
+      "options": [
+        "Et år som gir generell studiekompetanse etter yrkesfag",
+        "Å bygge et hus",
+        "En lærlingplass",
+        "En del av ungdomsskolen"
+      ],
+      "correct": 0,
+      "explain": "Påbygging gjør det mulig å søke høyere utdanning."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en fagskole?",
+      "options": [
+        "En ungdomsskole",
+        "Et universitet",
+        "En barneskole",
+        "Høyere yrkesfaglig utdanning som bygger på fagbrev"
+      ],
+      "correct": 3,
+      "explain": "Fagskolen gir spesialisering innen et fagområde."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en lærekontrakt?",
+      "options": [
+        "En arbeidsavtale for lærere",
+        "En avtale mellom lærling og lærebedrift om opplæringen",
+        "En kontrakt om å kjøpe verktøy",
+        "En skoleavtale"
+      ],
+      "correct": 1,
+      "explain": "Lærekontrakten gir lærlingen rettigheter og plikter."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket utdanningsprogram fører til yrket helsefagarbeider?",
+      "options": [
+        "Salg, service og reiseliv",
+        "Teknologi- og industrifag",
+        "Naturbruk",
+        "Helse- og oppvekstfag"
+      ],
+      "correct": 3,
+      "explain": "Barne- og ungdomsarbeidere utdannes også her."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er livslang læring viktig for fagarbeidere?",
+      "options": [
+        "Fordi yrkene ikke endrer seg",
+        "Fordi ny teknologi og det grønne skiftet endrer mange yrker",
+        "Fordi det er påbudt å gå på skole hele livet",
+        "Det er ikke viktig"
+      ],
+      "correct": 1,
+      "explain": "Fagarbeidere må stadig lære nye metoder og verktøy."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kan du gjøre for å finne ut hvilket utdanningsprogram som passer deg?",
+      "options": [
+        "Velge det vennene dine velger",
+        "Kaste mynt",
+        "Snakke med rådgiveren og hospitere",
+        "Velge det første på lista"
+      ],
+      "correct": 2,
+      "explain": "Erfaringer fra arbeidslivsfag er også nyttige."
+    }
   ],
   "mindmap": {
     "label": "Yrkesfag og veien videre",
     "children": [
-      { "label": "Ti program", "children": [
-        { "label": "Bygg og elektro" },
-        { "label": "Helse og oppvekst" },
-        { "label": "Restaurant og mat" },
-        { "label": "Teknologi og industri" }
-      ] },
-      { "label": "2 + 2-modellen", "children": [
-        { "label": "To år skole" },
-        { "label": "To år lærling" },
-        { "label": "Lærekontrakt" }
-      ] },
-      { "label": "Fagbrev", "children": [
-        { "label": "Fagprøve" },
-        { "label": "Svennebrev" },
-        { "label": "Mesterbrev" }
-      ] },
-      { "label": "Videre", "children": [
-        { "label": "Jobb" },
-        { "label": "Fagskole" },
-        { "label": "Påbygging" },
-        { "label": "Y-veien" }
-      ] },
-      { "label": "Velge", "children": [
-        { "label": "Egen erfaring" },
-        { "label": "Rådgiver" },
-        { "label": "Hospitering" }
-      ] }
+      {
+        "label": "Ti program",
+        "children": [
+          {
+            "label": "Bygg og elektro"
+          },
+          {
+            "label": "Helse og oppvekst"
+          },
+          {
+            "label": "Restaurant og mat"
+          },
+          {
+            "label": "Teknologi og industri"
+          }
+        ]
+      },
+      {
+        "label": "2 + 2-modellen",
+        "children": [
+          {
+            "label": "To år skole"
+          },
+          {
+            "label": "To år lærling"
+          },
+          {
+            "label": "Lærekontrakt"
+          }
+        ]
+      },
+      {
+        "label": "Fagbrev",
+        "children": [
+          {
+            "label": "Fagprøve"
+          },
+          {
+            "label": "Svennebrev"
+          },
+          {
+            "label": "Mesterbrev"
+          }
+        ]
+      },
+      {
+        "label": "Videre",
+        "children": [
+          {
+            "label": "Jobb"
+          },
+          {
+            "label": "Fagskole"
+          },
+          {
+            "label": "Påbygging"
+          },
+          {
+            "label": "Y-veien"
+          }
+        ]
+      },
+      {
+        "label": "Velge",
+        "children": [
+          {
+            "label": "Egen erfaring"
+          },
+          {
+            "label": "Rådgiver"
+          },
+          {
+            "label": "Hospitering"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Med fagbrev kan man senere ta mesterbrev.", "correct": true, "explain": "Mesterbrevet gir rett til å lede egen bedrift i mange håndverksfag." },
-      { "id": "m02", "type": "sant-usant", "text": "Yrkesfag stenger for høyere utdanning for alltid.", "correct": false, "explain": "Påbygging, fagskole og Y-veien gir mange veier videre." },
-      { "id": "m03", "type": "sant-usant", "text": "En lærling får lønn.", "correct": true, "explain": "Lærlinglønnen øker gradvis gjennom læretiden." },
-      { "id": "m04", "type": "sant-usant", "text": "Alle yrkesfag har nøyaktig samme opplæringsmodell.", "correct": false, "explain": "De fleste følger 2 + 2-modellen, men noen fag har andre modeller." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket yrke hører til restaurant- og matfag?", "options": ["Tømrer", "Frisør", "Baker", "Elektriker"], "correct": 2, "explain": "Kokk og servitør hører også hit." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er Y-veien?", "options": ["En vei til ingeniørutdanning for søkere med fagbrev", "En motorvei", "En type lærekontrakt", "Et utdanningsprogram på ungdomsskolen"], "correct": 0, "explain": "Y-veien bygger på fagbrevet." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket nettsted har informasjon om utdanningsprogram i videregående?", "options": ["Arbeidstilsynet.no", "Vilbli.no", "Mattilsynet.no", "Yr.no"], "correct": 1, "explain": "Også utdanning.no har mye informasjon om yrker." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Med fagbrev kan man senere ta mesterbrev.",
+        "correct": true,
+        "explain": "Mesterbrevet gir rett til å lede egen bedrift i mange håndverksfag."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Yrkesfag stenger for høyere utdanning for alltid.",
+        "correct": false,
+        "explain": "Påbygging, fagskole og Y-veien gir mange veier videre."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En lærling får lønn.",
+        "correct": true,
+        "explain": "Lærlinglønnen øker gradvis gjennom læretiden."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle yrkesfag har nøyaktig samme opplæringsmodell.",
+        "correct": false,
+        "explain": "De fleste følger 2 + 2-modellen, men noen fag har andre modeller."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket yrke hører til restaurant- og matfag?",
+        "options": [
+          "Tømrer",
+          "Frisør",
+          "Baker",
+          "Elektriker"
+        ],
+        "correct": 2,
+        "explain": "Kokk og servitør hører også hit."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er Y-veien?",
+        "options": [
+          "En vei til ingeniørutdanning for søkere med fagbrev",
+          "En motorvei",
+          "En type lærekontrakt",
+          "Et utdanningsprogram på ungdomsskolen"
+        ],
+        "correct": 0,
+        "explain": "Y-veien bygger på fagbrevet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket nettsted har informasjon om utdanningsprogram i videregående?",
+        "options": [
+          "Arbeidstilsynet.no",
+          "Vilbli.no",
+          "Mattilsynet.no",
+          "Yr.no"
+        ],
+        "correct": 1,
+        "explain": "Også utdanning.no har mye informasjon om yrker."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen mellom et studieforberedende utdanningsprogram og et yrkesfaglig utdanningsprogram når det gjelder hva utdanningen gir deg.",
+        "fasit": "Et yrkesfaglig utdanningsprogram gir deg opplæring mot et yrke og kvalifiserer deg for arbeidslivet. Et studieforberedende program er den andre typen utdanningsprogram i videregående.",
+        "kriterier": [
+          "Forklarer at yrkesfag gir opplæring mot et yrke eller kvalifiserer for arbeidslivet.",
+          "Skiller yrkesfag fra studieforberedende utdanning."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En elev mener at fagbrev og svennebrev er helt ulike typer bevis. Forklar hva som er riktig om forholdet mellom dem.",
+        "fasit": "Svennebrev er en type fagbrev som brukes i håndverksfag. Frisør og tømrer er eksempler på slike fag.",
+        "kriterier": [
+          "Forklarer at svennebrev er fagbrev i håndverksfag.",
+          "Gir eventuelt et passende eksempel på et håndverksfag."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva betyr det at lærlinglønn øker gradvis, og når får en lærling slik lønn?",
+        "fasit": "Lærlinglønn er lønnen en lærling får i læretiden, og den blir høyere gradvis gjennom denne perioden.",
+        "kriterier": [
+          "Forklarer at lærlinglønn er lønn til en lærling.",
+          "Får fram at lønnen øker gradvis gjennom læretiden."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Etter yrkesfag kan du ta fagskole eller Vg3 påbygg. Sammenlign hva disse to valgene kan føre til.",
+        "fasit": "Fagskole er høyere yrkesfaglig utdanning som bygger på fagbrev. Vg3 påbygg gir generell studiekompetanse og mulighet til å søke universitet og høyskole.",
+        "kriterier": [
+          "Beskriver fagskole som høyere yrkesfaglig utdanning som bygger på fagbrev.",
+          "Forklarer at påbygg gir generell studiekompetanse og kan åpne for universitet eller høyskole."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Samir har fagbrev og ønsker å bli ingeniør. Forklar hvilken vei han kan undersøke, og hvorfor den kan passe for ham.",
+        "fasit": "Samir kan undersøke Y-veien. Enkelte ingeniørutdanninger tar opp søkere med fagbrev.",
+        "kriterier": [
+          "Nevner Y-veien.",
+          "Forklarer at enkelte ingeniørutdanninger tar opp søkere med fagbrev."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En ungdom liker å bake og ønsker å utdanne seg til baker. Hvilket yrkesfaglig utdanningsprogram passer best, og hvordan henger det sammen med yrket?",
+        "fasit": "Restaurant- og matfag passer best. Baker er et av yrkene som hører til dette utdanningsprogrammet.",
+        "kriterier": [
+          "Velger restaurant- og matfag.",
+          "Knytter programmet til baker eller baking."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Mina har prøvd ulike arbeidsoppgaver i arbeidslivsfag. Hun likte best å jobbe med materialer og å se et ferdig resultat. Forklar hvordan hun kan bruke disse erfaringene når hun vurderer hva hun vil velge videre.",
+        "fasit": "Mina kan bruke det hun likte, til å vurdere om hun trives med praktisk arbeid og arbeid med materialer. Hun kan også tenke over hva hun mestret, og hva hun ønsker å bli bedre på.",
+        "kriterier": [
+          "Knytter interessen for materialer eller ferdige resultater til vurderingen av hva slags arbeid som passer henne.",
+          "Viser at hun kan vurdere egen mestring eller hva hun vil utvikle videre."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En lærling lærer faget i en bedrift sammen med erfarne fagarbeidere. Forklar hvordan denne delen av opplæringen kan hjelpe lærlingen med å lære yrket i praksis.",
+        "fasit": "I bedriften får lærlingen øve på arbeidsoppgaver som hører til faget. Erfarne fagarbeidere kan vise og veilede lærlingen mens hen lærer gjennom praktisk arbeid.",
+        "kriterier": [
+          "Forklarer at lærlingen øver på faglige arbeidsoppgaver i praksis i bedriften.",
+          "Beskriver hvordan erfarne fagarbeidere bidrar til opplæringen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

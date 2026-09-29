@@ -4,74 +4,412 @@
   "trinnId": "vg3",
   "name": "Diskrete fordelinger og simulering",
   "intro": "Uniform, binomisk, hypergeometrisk og poissonfordeling – når de passer, formler for sannsynlighet, forventning og varians – og hvordan du simulerer utfall med programmering, utforsker fordelingene og gir eksempler på reelle anvendelser.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Uniform fordeling\n\nI en **uniform** fordeling er alle utfall **like sannsynlige**, som ved et terningkast der hvert utfall har sannsynlighet 1/6.\n\n## Binomisk fordeling\n\nX er **binomisk fordelt** når\n\n- vi gjør **n** forsøk\n- hvert forsøk har to utfall: **suksess** eller **ikke**\n- sannsynligheten for suksess, **p**, er den **samme** hver gang\n- forsøkene er **uavhengige**\n\n**P(X = k) = C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ**\n\n**E(X) = np** og **Var(X) = np(1 − p)**\n\n**Eksempel**: 30 % av kundene kjøper ekstrautstyr. Blant 10 kunder er P(X = 3) = C(10, 3) · 0,3³ · 0,7⁷ ≈ **0,267**. E(X) = 3 og Var(X) = 2,1.\n\n**Kvalitetskontroll**: 10 % av varene er defekte. Du sjekker 20. P(X ≤ 2) ≈ **0,677**.\n\n## Hypergeometrisk fordeling\n\nNår vi trekker **uten tilbakelegging** fra en **liten** populasjon, endres sannsynligheten fra trekk til trekk. Har vi N elementer der m er «spesielle», og trekker n, er\n\n**P(X = k) = C(m, k) · C(N − m, n − k)/C(N, n)**\n\nE(X) = n · m/N. **Lotto** og trekning av personer til et utvalg er typiske eksempler.\n\nNår populasjonen er **stor** i forhold til utvalget, blir hypergeometrisk og binomisk fordeling nesten **like**.\n\n## Poissonfordeling\n\n**Poissonfordelingen** beskriver **antall hendelser** i et tidsrom eller område når hendelsene skjer **tilfeldig** og **uavhengig** med en fast **gjennomsnittlig rate** λ:\n\n**P(X = k) = λᵏ · e^(−λ)/k!**\n\n**E(X) = Var(X) = λ**\n\n**Eksempel**: En butikk får i snitt 3 kunder per 10 minutter. P(ingen kunder) = e^(−3) ≈ **0,050**, og P(nøyaktig 3) ≈ **0,224**.\n\nEksempler: telefoner til en kundeservice, trafikkulykker per måned og feil per side i en bok.\n\n## Simulering\n\nMed **simulering** lar vi datamaskinen gjennomføre forsøket **mange** ganger. Andelen ganger en hendelse skjer, nærmer seg sannsynligheten – **store talls lov**.\n\nHva er sannsynligheten for minst én sekser på fire terningkast?\n\n```python\nimport random\nN = 100000\ntreff = 0\nfor i in range(N):\n    kast = [random.randint(1, 6) for _ in range(4)]\n    if 6 in kast:\n        treff = treff + 1\nprint(treff/N)\n```\n\nSvaret blir nær det eksakte 1 − (5/6)⁴ ≈ **0,518**.\n\nSimulering er nyttig når\n\n- **formelen** er vanskelig eller ukjent\n- vi vil **kontrollere** en utregning\n- vi vil se **formen** på en fordeling i et **histogram**\n\n## Velge riktig fordeling\n\n| Situasjon | Fordeling |\n|---|---|\n| Like sannsynlige utfall | Uniform |\n| n uavhengige forsøk, fast p | Binomisk |\n| Trekk uten tilbakelegging, liten populasjon | Hypergeometrisk |\n| Antall hendelser per tid eller område | Poisson |\n\n## Reelle anvendelser\n\n- **Flyselskaper** bruker binomisk fordeling til **overbooking**, fordi noen passasjerer ikke møter.\n- **Kundesentre** bruker poissonfordeling til å planlegge **bemanning**.\n- **Fabrikker** bruker binomisk eller hypergeometrisk fordeling i **kvalitetskontroll**.\n\nVurder alltid om **forutsetningene** holder: Er forsøkene virkelig uavhengige, og er p den samme hele tiden?",
   "flashcards": [
-    { "term": "Uniform fordeling", "def": "Alle utfall er like sannsynlige." },
-    { "term": "Binomisk fordeling", "def": "n uavhengige forsøk med fast sannsynlighet p." },
-    { "term": "Binomisk sannsynlighet", "def": "C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ" },
-    { "term": "E og Var binomisk", "def": "np og np(1 − p)" },
-    { "term": "Hypergeometrisk fordeling", "def": "Trekk uten tilbakelegging fra liten populasjon." },
-    { "term": "Hypergeometrisk sannsynlighet", "def": "C(m, k) · C(N − m, n − k)/C(N, n)" },
-    { "term": "E hypergeometrisk", "def": "n · m/N" },
-    { "term": "Poissonfordeling", "def": "Antall tilfeldige hendelser per tid eller område." },
-    { "term": "Poisson sannsynlighet", "def": "λᵏ · e^(−λ)/k!" },
-    { "term": "E og Var Poisson", "def": "Begge er λ." },
-    { "term": "Simulering", "def": "Datamaskinen gjentar forsøket mange ganger." },
-    { "term": "Store talls lov", "def": "Relativ frekvens nærmer seg sannsynligheten." },
-    { "term": "Histogram", "def": "Viser formen på en fordeling." },
-    { "term": "Overbooking", "def": "Flyselskaper selger flere billetter enn seter – binomisk modell." },
-    { "term": "random.randint(1, 6)", "def": "Tilfeldig heltall fra 1 til 6 i Python." }
+    {
+      "term": "Uniform fordeling",
+      "def": "Alle utfall er like sannsynlige."
+    },
+    {
+      "term": "Binomisk fordeling",
+      "def": "n uavhengige forsøk med fast sannsynlighet p."
+    },
+    {
+      "term": "Binomisk sannsynlighet",
+      "def": "C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ"
+    },
+    {
+      "term": "E og Var binomisk",
+      "def": "np og np(1 − p)"
+    },
+    {
+      "term": "Hypergeometrisk fordeling",
+      "def": "Trekk uten tilbakelegging fra liten populasjon."
+    },
+    {
+      "term": "Hypergeometrisk sannsynlighet",
+      "def": "C(m, k) · C(N − m, n − k)/C(N, n)"
+    },
+    {
+      "term": "E hypergeometrisk",
+      "def": "n · m/N"
+    },
+    {
+      "term": "Poissonfordeling",
+      "def": "Antall tilfeldige hendelser per tid eller område."
+    },
+    {
+      "term": "Poisson sannsynlighet",
+      "def": "λᵏ · e^(−λ)/k!"
+    },
+    {
+      "term": "E og Var Poisson",
+      "def": "Begge er λ."
+    },
+    {
+      "term": "Simulering",
+      "def": "Datamaskinen gjentar forsøket mange ganger."
+    },
+    {
+      "term": "Store talls lov",
+      "def": "Relativ frekvens nærmer seg sannsynligheten."
+    },
+    {
+      "term": "Histogram",
+      "def": "Viser formen på en fordeling."
+    },
+    {
+      "term": "Overbooking",
+      "def": "Flyselskaper selger flere billetter enn seter – binomisk modell."
+    },
+    {
+      "term": "random.randint(1, 6)",
+      "def": "Tilfeldig heltall fra 1 til 6 i Python."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er E(X) når X er binomisk med n = 10 og p = 0,3?", "options": ["0,3", "3", "7", "2,1"], "correct": 1, "explain": "np." },
-    { "id": "q02", "text": "Hvilken fordeling passer for antall telefoner til en kundeservice per time?", "options": ["Poisson", "Uniform", "Hypergeometrisk", "Binomisk med n = 2"], "correct": 0, "explain": "Tilfeldige hendelser med fast rate." },
-    { "id": "q03", "text": "Når passer hypergeometrisk fordeling?", "options": ["Ved uendelig mange forsøk", "Ved like sannsynlige utfall", "Ved trekk uten tilbakelegging fra en liten populasjon", "Ved hendelser per tid"], "correct": 2, "explain": "Sannsynligheten endres fra trekk til trekk." },
-    { "id": "q04", "text": "Hva er P(X = 0) i en poissonfordeling med λ = 3?", "options": ["0", "1/3", "0,224", "Omtrent 0,050"], "correct": 3, "explain": "e^(−3)." },
-    { "id": "q05", "text": "Hva sier store talls lov?", "options": ["Relativ frekvens nærmer seg sannsynligheten når antall forsøk øker", "Store tall er mer sannsynlige", "Alle utfall blir like vanlige", "Sannsynligheten øker med antall forsøk"], "correct": 0, "explain": "Grunnlaget for simulering." },
-    { "id": "q06", "text": "Hva er Var(X) i en binomisk fordeling med n = 10 og p = 0,3?", "options": ["3", "2,1", "0,21", "7"], "correct": 1, "explain": "10 · 0,3 · 0,7." },
-    { "id": "q07", "text": "Hva er sannsynligheten for minst én sekser på fire terningkast?", "options": ["2/3", "1/6", "Omtrent 0,518", "Omtrent 0,482"], "correct": 2, "explain": "1 − (5/6)⁴." },
-    { "id": "q08", "text": "Hvilken forutsetning gjelder for binomisk fordeling?", "options": ["Trekk uten tilbakelegging", "p endres for hvert forsøk", "Uendelig mange utfall", "Uavhengige forsøk med samme p"], "correct": 3, "explain": "Og to utfall per forsøk." },
-    { "id": "q09", "text": "Hva gjelder for forventning og varians i en poissonfordeling?", "options": ["Begge er λ", "E = λ og Var = λ²", "E = 1/λ", "Var = 0"], "correct": 0, "explain": "Et kjennetegn for Poisson." },
-    { "id": "q10", "text": "Hvorfor bruker flyselskaper binomisk fordeling?", "options": ["For å beregne drivstoff", "For å planlegge overbooking", "For å sette billettpris", "For å beregne flytid"], "correct": 1, "explain": "Noen passasjerer møter ikke." }
+    {
+      "id": "q01",
+      "text": "Hva er E(X) når X er binomisk med n = 10 og p = 0,3?",
+      "options": [
+        "0,3",
+        "3",
+        "7",
+        "2,1"
+      ],
+      "correct": 1,
+      "explain": "np."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken fordeling passer for antall telefoner til en kundeservice per time?",
+      "options": [
+        "Poisson",
+        "Uniform",
+        "Hypergeometrisk",
+        "Binomisk med n = 2"
+      ],
+      "correct": 0,
+      "explain": "Tilfeldige hendelser med fast rate."
+    },
+    {
+      "id": "q03",
+      "text": "Når passer hypergeometrisk fordeling?",
+      "options": [
+        "Ved uendelig mange forsøk",
+        "Ved like sannsynlige utfall",
+        "Ved trekk uten tilbakelegging fra en liten populasjon",
+        "Ved hendelser per tid"
+      ],
+      "correct": 2,
+      "explain": "Sannsynligheten endres fra trekk til trekk."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er P(X = 0) i en poissonfordeling med λ = 3?",
+      "options": [
+        "0",
+        "1/3",
+        "0,224",
+        "Omtrent 0,050"
+      ],
+      "correct": 3,
+      "explain": "e^(−3)."
+    },
+    {
+      "id": "q05",
+      "text": "Hva sier store talls lov?",
+      "options": [
+        "Relativ frekvens nærmer seg sannsynligheten når antall forsøk øker",
+        "Store tall er mer sannsynlige",
+        "Alle utfall blir like vanlige",
+        "Sannsynligheten øker med antall forsøk"
+      ],
+      "correct": 0,
+      "explain": "Grunnlaget for simulering."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er Var(X) i en binomisk fordeling med n = 10 og p = 0,3?",
+      "options": [
+        "3",
+        "2,1",
+        "0,21",
+        "7"
+      ],
+      "correct": 1,
+      "explain": "10 · 0,3 · 0,7."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er sannsynligheten for minst én sekser på fire terningkast?",
+      "options": [
+        "2/3",
+        "1/6",
+        "Omtrent 0,518",
+        "Omtrent 0,482"
+      ],
+      "correct": 2,
+      "explain": "1 − (5/6)⁴."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken forutsetning gjelder for binomisk fordeling?",
+      "options": [
+        "Trekk uten tilbakelegging",
+        "p endres for hvert forsøk",
+        "Uendelig mange utfall",
+        "Uavhengige forsøk med samme p"
+      ],
+      "correct": 3,
+      "explain": "Og to utfall per forsøk."
+    },
+    {
+      "id": "q09",
+      "text": "Hva gjelder for forventning og varians i en poissonfordeling?",
+      "options": [
+        "Begge er λ",
+        "E = λ og Var = λ²",
+        "E = 1/λ",
+        "Var = 0"
+      ],
+      "correct": 0,
+      "explain": "Et kjennetegn for Poisson."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor bruker flyselskaper binomisk fordeling?",
+      "options": [
+        "For å beregne drivstoff",
+        "For å planlegge overbooking",
+        "For å sette billettpris",
+        "For å beregne flytid"
+      ],
+      "correct": 1,
+      "explain": "Noen passasjerer møter ikke."
+    }
   ],
   "mindmap": {
     "label": "Diskrete fordelinger",
     "children": [
-      { "label": "Uniform", "children": [
-        { "label": "Like sannsynlige utfall" }
-      ] },
-      { "label": "Binomisk", "children": [
-        { "label": "n, p, uavhengige forsøk" },
-        { "label": "np og np(1 − p)" }
-      ] },
-      { "label": "Hypergeometrisk", "children": [
-        { "label": "Uten tilbakelegging" },
-        { "label": "Lotto" }
-      ] },
-      { "label": "Poisson", "children": [
-        { "label": "Rate λ" },
-        { "label": "E = Var = λ" }
-      ] },
-      { "label": "Simulering", "children": [
-        { "label": "Store talls lov" },
-        { "label": "Python og histogram" },
-        { "label": "Reelle anvendelser" }
-      ] }
+      {
+        "label": "Uniform",
+        "children": [
+          {
+            "label": "Like sannsynlige utfall"
+          }
+        ]
+      },
+      {
+        "label": "Binomisk",
+        "children": [
+          {
+            "label": "n, p, uavhengige forsøk"
+          },
+          {
+            "label": "np og np(1 − p)"
+          }
+        ]
+      },
+      {
+        "label": "Hypergeometrisk",
+        "children": [
+          {
+            "label": "Uten tilbakelegging"
+          },
+          {
+            "label": "Lotto"
+          }
+        ]
+      },
+      {
+        "label": "Poisson",
+        "children": [
+          {
+            "label": "Rate λ"
+          },
+          {
+            "label": "E = Var = λ"
+          }
+        ]
+      },
+      {
+        "label": "Simulering",
+        "children": [
+          {
+            "label": "Store talls lov"
+          },
+          {
+            "label": "Python og histogram"
+          },
+          {
+            "label": "Reelle anvendelser"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Ved stor populasjon blir hypergeometrisk og binomisk fordeling nesten like.", "correct": true, "explain": "Ett trekk endrer sannsynligheten lite." },
-      { "id": "m02", "type": "sant-usant", "text": "Simulering gir alltid nøyaktig samme svar hver gang.", "correct": false, "explain": "Svaret varierer litt, men nærmer seg sannsynligheten." },
-      { "id": "m03", "type": "sant-usant", "text": "Lotto kan beskrives med hypergeometrisk fordeling.", "correct": true, "explain": "Kulene trekkes uten tilbakelegging." },
-      { "id": "m04", "type": "sant-usant", "text": "Binomisk fordeling kan brukes selv om forsøkene påvirker hverandre sterkt.", "correct": false, "explain": "Forsøkene må være uavhengige." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er P(X ≤ 2) når 20 varer sjekkes og 10 % er defekte?", "options": ["0,1", "Omtrent 0,677", "Omtrent 0,285", "0,2"], "correct": 1, "explain": "Binomisk med n = 20 og p = 0,1." },
-      { "id": "m06", "type": "flervalg", "text": "Hva kan simulering brukes til?", "options": ["Kontrollere en utregning og se formen på en fordeling", "Bevise en formel", "Endre sannsynligheten", "Fjerne tilfeldighet"], "correct": 0, "explain": "Også når formelen er ukjent." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er P(X = 3) i en poissonfordeling med λ = 3?", "options": ["Omtrent 0,050", "Omtrent 0,5", "Omtrent 0,224", "1"], "correct": 2, "explain": "3³ · e^(−3)/3!." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ved stor populasjon blir hypergeometrisk og binomisk fordeling nesten like.",
+        "correct": true,
+        "explain": "Ett trekk endrer sannsynligheten lite."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Simulering gir alltid nøyaktig samme svar hver gang.",
+        "correct": false,
+        "explain": "Svaret varierer litt, men nærmer seg sannsynligheten."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Lotto kan beskrives med hypergeometrisk fordeling.",
+        "correct": true,
+        "explain": "Kulene trekkes uten tilbakelegging."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Binomisk fordeling kan brukes selv om forsøkene påvirker hverandre sterkt.",
+        "correct": false,
+        "explain": "Forsøkene må være uavhengige."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er P(X ≤ 2) når 20 varer sjekkes og 10 % er defekte?",
+        "options": [
+          "0,1",
+          "Omtrent 0,677",
+          "Omtrent 0,285",
+          "0,2"
+        ],
+        "correct": 1,
+        "explain": "Binomisk med n = 20 og p = 0,1."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva kan simulering brukes til?",
+        "options": [
+          "Kontrollere en utregning og se formen på en fordeling",
+          "Bevise en formel",
+          "Endre sannsynligheten",
+          "Fjerne tilfeldighet"
+        ],
+        "correct": 0,
+        "explain": "Også når formelen er ukjent."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er P(X = 3) i en poissonfordeling med λ = 3?",
+        "options": [
+          "Omtrent 0,050",
+          "Omtrent 0,5",
+          "Omtrent 0,224",
+          "1"
+        ],
+        "correct": 2,
+        "explain": "3³ · e^(−3)/3!."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva det betyr at en fordeling er uniform. Bruk et vanlig terningkast som eksempel.",
+        "fasit": "En uniform fordeling betyr at alle utfall er like sannsynlige. For en vanlig terning er sannsynligheten 1/6 for hvert av de seks utfallene.",
+        "kriterier": [
+          "Forklarer at alle utfall har samme sannsynlighet.",
+          "Knytter forklaringen riktig til terningkastet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En vanlig terning har utfallene 1 til 6, og alle er like sannsynlige. Hva er sannsynligheten for å få et partall? Vis kort hvordan du finner svaret.",
+        "fasit": "Partallene er 2, 4 og 6, altså tre av seks utfall. Sannsynligheten er 3/6 = 1/2.",
+        "kriterier": [
+          "Finner at tre av de seks utfallene er partall.",
+          "Oppgir sannsynligheten 1/2."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "To uavhengige forsøk har hver sannsynlighet 1/2 for suksess. Bruk den binomiske formelen til å finne sannsynligheten for nøyaktig én suksess.",
+        "fasit": "Her er n = 2, k = 1 og p = 1/2. P(X = 1) = C(2, 1) · (1/2) · (1/2) = 2/4 = 1/2.",
+        "kriterier": [
+          "Setter inn verdiene riktig i den binomiske sannsynlighetsformelen.",
+          "Får sannsynligheten 1/2."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En liten populasjon har 10 elementer, hvorav 3 er spesielle. Du trekker 2 elementer uten tilbakelegging. Finn sannsynligheten for å trekke nøyaktig ett spesielt element.",
+        "fasit": "P(X = 1) = C(3, 1) · C(7, 1) / C(10, 2) = 21/45 = 7/15.",
+        "kriterier": [
+          "Bruker den hypergeometriske formelen med 3 spesielle og 7 andre elementer.",
+          "Oppgir sannsynligheten 7/15."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign binomisk og hypergeometrisk fordeling når man trekker fra en liten populasjon uten tilbakelegging. Hvorfor er ikke den binomiske modellen like godt egnet?",
+        "fasit": "I den binomiske modellen er forsøkene uavhengige og suksessannsynligheten er den samme hver gang. Ved trekking uten tilbakelegging fra en liten populasjon endres sannsynligheten fra trekk til trekk, så den hypergeometriske modellen passer bedre.",
+        "kriterier": [
+          "Beskriver binomisk fordeling med uavhengige forsøk og fast sannsynlighet.",
+          "Forklarer at sannsynligheten endres ved trekking uten tilbakelegging fra en liten populasjon."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Antall hendelser følger en poissonfordeling med gjennomsnittlig rate λ = 3. Bruk poissonformelen til å finne sannsynligheten for nøyaktig 3 hendelser.",
+        "fasit": "P(X = 3) = 3³ · e⁻³ / 3! = 27e⁻³ / 6 ≈ 0,224.",
+        "kriterier": [
+          "Setter λ = 3 og k = 3 riktig inn i poissonformelen.",
+          "Får omtrent 0,224."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I Python brukes `random.randint(1, 6)` i en simulering av terningkast. Forklar hva funksjonen gjør, og hvordan den kan brukes i simuleringen.",
+        "fasit": "Funksjonen trekker et tilfeldig heltall fra og med 1 til og med 6. Dette kan representere utfallet av ett terningkast i simuleringen.",
+        "kriterier": [
+          "Angir at resultatet er et tilfeldig heltall fra 1 til 6, inklusive begge endepunktene.",
+          "Knytter resultatet til et terningkast i simuleringen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En datamaskin simulerer en fordeling mange ganger og viser resultatene i et histogram. Hva kan histogrammet hjelpe deg med å se?",
+        "fasit": "Histogrammet viser formen på fordelingen av resultatene fra simuleringen. Det kan gjøre det lettere å se hvordan resultatene fordeler seg.",
+        "kriterier": [
+          "Forklarer at histogrammet viser formen på en fordeling.",
+          "Knytter histogrammet til resultatene fra simuleringen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,79 +4,428 @@
   "trinnId": "vg1",
   "name": "Samfunnsfaglig metode, kilder og ideologier",
   "intro": "Hvordan du utforsker aktuelle debatter med samfunnsfaglige metoder og kilder, og hvordan interesser og ideologier som liberalisme, konservatisme, sosialisme og grønn ideologi påvirker argumenter og valg av kilder.",
-  "kompetansemaal": [1, 2],
+  "kompetansemaal": [
+    1,
+    2
+  ],
   "sammendrag": "## Samfunnsfaglige metoder\n\nFor å undersøke samfunnet bruker vi to hovedtyper metoder:\n\n- **Kvantitative metoder** gir **tall**: spørreundersøkelser, statistikk og registerdata. De kan si noe om **mange** personer, men lite om hvorfor folk mener det de mener.\n- **Kvalitative metoder** gir **dybde**: intervjuer, observasjon og analyse av tekster. De gir innsikt i tanker og erfaringer, men gjelder **få** personer.\n\nViktige begreper er **utvalg** – de som blir undersøkt – og om utvalget er **representativt** for gruppen vi vil si noe om. **Validitet** handler om vi faktisk måler det vi vil måle, og **reliabilitet** om målingen er pålitelig og ville gitt samme resultat på nytt.\n\n## Kilder og kildekritikk\n\nGode kilder til samfunnsfag er blant annet **SSB**, **Stortinget** og **regjeringen**, **forskningsinstitutter**, **redaktørstyrte medier** og **interesseorganisasjoner**. Spør alltid: **Hvem** står bak? **Hvorfor** er kilden laget? Er informasjonen **oppdatert**? Hva sier **andre kilder**?\n\nSkill mellom **fakta**, **meninger** og **tolkninger**, og vær oppmerksom på at statistikk kan presenteres på måter som gir et skjevt bilde.\n\n## Interesser og argumenter\n\nFolk argumenterer ofte ut fra **interesser** – det de selv tjener eller taper på. En bonde, en miljøvernorganisasjon og en næringslivsleder kan se helt ulikt på samme sak. Interessene påvirker også **hvilke kilder** vi velger og **hvilke fakta** vi legger vekt på.\n\n## Ideologier\n\nEn **ideologi** er et sett av sammenhengende ideer om hvordan samfunnet **er** og **bør** være.\n\n- **Liberalisme**: vekt på **individets frihet**, rettigheter og **markedsøkonomi**. Staten bør være begrenset.\n- **Konservatisme**: vekt på **tradisjoner**, stabilitet, familie og **gradvis** endring.\n- **Sosialisme**: vekt på **likhet** og **fellesskap**. Produksjonsmidlene bør i større grad eies i fellesskap.\n- **Sosialdemokrati**: **blandingsøkonomi** med marked og sterk stat, **velferdsstat** og omfordeling.\n- **Grønn ideologi**: vekt på **naturen** og kommende generasjoner – økonomisk vekst må ha grenser.\n\n## Høyre og venstre\n\nPolitiske partier plasseres ofte på en **høyre–venstre-akse** etter synet på **økonomisk likhet og statens rolle**: Til venstre ønsker man mer omfordeling og en sterkere stat, til høyre mer marked og lavere skatter. I Norge regnes for eksempel **Rødt** og **SV** til venstre og **Høyre** og **Fremskrittspartiet** til høyre. Mange saker, som miljø, innvandring og distriktspolitikk, passer likevel dårlig på én akse.\n\n## Argumentere for egne og andres meninger\n\nI samfunnsfaglige diskusjoner skal du kunne **begrunne** dine egne meninger og **forstå og gjengi** andres. Å kunne argumentere for et syn du selv er uenig i, viser at du forstår debatten. Vær **saklig**, bruk **gode kilder**, og skill mellom **fakta** og **verdier**: Uenighet om fakta kan ofte avklares, mens uenighet om verdier – hva som er viktigst – er kjernen i politikken.",
   "flashcards": [
-    { "term": "Kvantitativ metode", "def": "Metode som gir tall, som spørreundersøkelser og statistikk." },
-    { "term": "Kvalitativ metode", "def": "Metode som gir dybde, som intervjuer og observasjon." },
-    { "term": "Representativt utvalg", "def": "Et utvalg som ligner gruppen man vil si noe om." },
-    { "term": "Validitet", "def": "Om man faktisk måler det man vil måle." },
-    { "term": "Reliabilitet", "def": "Om målingen er pålitelig og ville gitt samme resultat på nytt." },
-    { "term": "Interesse", "def": "Det en person eller gruppe tjener eller taper på i en sak." },
-    { "term": "Ideologi", "def": "Sammenhengende ideer om hvordan samfunnet er og bør være." },
-    { "term": "Liberalisme", "def": "Vekt på individets frihet og markedsøkonomi." },
-    { "term": "Konservatisme", "def": "Vekt på tradisjoner og gradvis endring." },
-    { "term": "Sosialisme", "def": "Vekt på likhet og fellesskap." },
-    { "term": "Sosialdemokrati", "def": "Blandingsøkonomi med velferdsstat og omfordeling." },
-    { "term": "Grønn ideologi", "def": "Vekt på naturen og grenser for økonomisk vekst." },
-    { "term": "Høyre–venstre-aksen", "def": "Plassering etter syn på økonomisk likhet og statens rolle." },
-    { "term": "Fakta og verdier", "def": "Fakta kan sjekkes; verdier handler om hva som er viktigst." },
-    { "term": "SSB", "def": "Statistisk sentralbyrå – kilde til offisiell statistikk." }
+    {
+      "term": "Kvantitativ metode",
+      "def": "Metode som gir tall, som spørreundersøkelser og statistikk."
+    },
+    {
+      "term": "Kvalitativ metode",
+      "def": "Metode som gir dybde, som intervjuer og observasjon."
+    },
+    {
+      "term": "Representativt utvalg",
+      "def": "Et utvalg som ligner gruppen man vil si noe om."
+    },
+    {
+      "term": "Validitet",
+      "def": "Om man faktisk måler det man vil måle."
+    },
+    {
+      "term": "Reliabilitet",
+      "def": "Om målingen er pålitelig og ville gitt samme resultat på nytt."
+    },
+    {
+      "term": "Interesse",
+      "def": "Det en person eller gruppe tjener eller taper på i en sak."
+    },
+    {
+      "term": "Ideologi",
+      "def": "Sammenhengende ideer om hvordan samfunnet er og bør være."
+    },
+    {
+      "term": "Liberalisme",
+      "def": "Vekt på individets frihet og markedsøkonomi."
+    },
+    {
+      "term": "Konservatisme",
+      "def": "Vekt på tradisjoner og gradvis endring."
+    },
+    {
+      "term": "Sosialisme",
+      "def": "Vekt på likhet og fellesskap."
+    },
+    {
+      "term": "Sosialdemokrati",
+      "def": "Blandingsøkonomi med velferdsstat og omfordeling."
+    },
+    {
+      "term": "Grønn ideologi",
+      "def": "Vekt på naturen og grenser for økonomisk vekst."
+    },
+    {
+      "term": "Høyre–venstre-aksen",
+      "def": "Plassering etter syn på økonomisk likhet og statens rolle."
+    },
+    {
+      "term": "Fakta og verdier",
+      "def": "Fakta kan sjekkes; verdier handler om hva som er viktigst."
+    },
+    {
+      "term": "SSB",
+      "def": "Statistisk sentralbyrå – kilde til offisiell statistikk."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner kvalitative metoder?", "options": ["De gir mange tall om mange personer", "De gir dybdeinnsikt om få personer", "De bruker bare statistikk", "De er alltid mer korrekte"], "correct": 1, "explain": "Intervjuer og observasjon er typiske kvalitative metoder." },
-    { "id": "q02", "text": "Hva betyr det at et utvalg er representativt?", "options": ["At det ligner gruppen man vil si noe om", "At det er stort", "At det bare består av eksperter", "At alle er enige"], "correct": 0, "explain": "Et skjevt utvalg gir misvisende resultater." },
-    { "id": "q03", "text": "Hvilken ideologi legger mest vekt på tradisjoner og gradvis endring?", "options": ["Sosialisme", "Liberalisme", "Konservatisme", "Grønn ideologi"], "correct": 2, "explain": "Konservatismen er skeptisk til raske og store endringer." },
-    { "id": "q04", "text": "Hva kjennetegner sosialdemokratiet?", "options": ["Fullt statseie av all produksjon", "Ingen stat", "Bare markedsøkonomi", "Blandingsøkonomi med velferdsstat og omfordeling"], "correct": 3, "explain": "Sosialdemokratiet har preget norsk politikk etter krigen." },
-    { "id": "q05", "text": "Hvordan kan interesser påvirke en debatt?", "options": ["De kan påvirke hvilke argumenter og kilder folk velger", "De har ingen betydning", "De gjør alle enige", "De gjør debatten mer nøytral"], "correct": 0, "explain": "Folk argumenterer ofte ut fra det de selv tjener eller taper på." },
-    { "id": "q06", "text": "Hva er reliabilitet?", "options": ["At man måler det man vil måle", "At målingen er pålitelig og ville gitt samme resultat på nytt", "At utvalget er stort", "At kilden er ny"], "correct": 1, "explain": "Validitet handler om man måler det riktige." },
-    { "id": "q07", "text": "Hva ligger vanligvis til grunn for plasseringen på høyre–venstre-aksen?", "options": ["Synet på miljø", "Synet på kultur", "Synet på økonomisk likhet og statens rolle", "Synet på utenrikspolitikk"], "correct": 2, "explain": "Venstresiden vil ha mer omfordeling, høyresiden mer marked." },
-    { "id": "q08", "text": "Hvilken ideologi legger mest vekt på individets frihet og markedsøkonomi?", "options": ["Sosialisme", "Konservatisme", "Grønn ideologi", "Liberalisme"], "correct": 3, "explain": "Liberalismen vil begrense statens makt." },
-    { "id": "q09", "text": "Hva er forskjellen på uenighet om fakta og uenighet om verdier?", "options": ["Fakta kan ofte sjekkes, mens verdier handler om hva som er viktigst", "Det er ingen forskjell", "Verdier kan alltid bevises", "Fakta er alltid meninger"], "correct": 0, "explain": "Uenighet om verdier er kjernen i politikken." },
-    { "id": "q10", "text": "Hvorfor kan det være nyttig å argumentere for et syn du er uenig i?", "options": ["For å bytte mening", "For å vise at du forstår debatten og motpartens argumenter", "For å lure andre", "Det er ikke nyttig"], "correct": 1, "explain": "Det gjør også dine egne argumenter bedre." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner kvalitative metoder?",
+      "options": [
+        "De gir mange tall om mange personer",
+        "De gir dybdeinnsikt om få personer",
+        "De bruker bare statistikk",
+        "De er alltid mer korrekte"
+      ],
+      "correct": 1,
+      "explain": "Intervjuer og observasjon er typiske kvalitative metoder."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr det at et utvalg er representativt?",
+      "options": [
+        "At det ligner gruppen man vil si noe om",
+        "At det er stort",
+        "At det bare består av eksperter",
+        "At alle er enige"
+      ],
+      "correct": 0,
+      "explain": "Et skjevt utvalg gir misvisende resultater."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken ideologi legger mest vekt på tradisjoner og gradvis endring?",
+      "options": [
+        "Sosialisme",
+        "Liberalisme",
+        "Konservatisme",
+        "Grønn ideologi"
+      ],
+      "correct": 2,
+      "explain": "Konservatismen er skeptisk til raske og store endringer."
+    },
+    {
+      "id": "q04",
+      "text": "Hva kjennetegner sosialdemokratiet?",
+      "options": [
+        "Fullt statseie av all produksjon",
+        "Ingen stat",
+        "Bare markedsøkonomi",
+        "Blandingsøkonomi med velferdsstat og omfordeling"
+      ],
+      "correct": 3,
+      "explain": "Sosialdemokratiet har preget norsk politikk etter krigen."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan kan interesser påvirke en debatt?",
+      "options": [
+        "De kan påvirke hvilke argumenter og kilder folk velger",
+        "De har ingen betydning",
+        "De gjør alle enige",
+        "De gjør debatten mer nøytral"
+      ],
+      "correct": 0,
+      "explain": "Folk argumenterer ofte ut fra det de selv tjener eller taper på."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er reliabilitet?",
+      "options": [
+        "At man måler det man vil måle",
+        "At målingen er pålitelig og ville gitt samme resultat på nytt",
+        "At utvalget er stort",
+        "At kilden er ny"
+      ],
+      "correct": 1,
+      "explain": "Validitet handler om man måler det riktige."
+    },
+    {
+      "id": "q07",
+      "text": "Hva ligger vanligvis til grunn for plasseringen på høyre–venstre-aksen?",
+      "options": [
+        "Synet på miljø",
+        "Synet på kultur",
+        "Synet på økonomisk likhet og statens rolle",
+        "Synet på utenrikspolitikk"
+      ],
+      "correct": 2,
+      "explain": "Venstresiden vil ha mer omfordeling, høyresiden mer marked."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken ideologi legger mest vekt på individets frihet og markedsøkonomi?",
+      "options": [
+        "Sosialisme",
+        "Konservatisme",
+        "Grønn ideologi",
+        "Liberalisme"
+      ],
+      "correct": 3,
+      "explain": "Liberalismen vil begrense statens makt."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er forskjellen på uenighet om fakta og uenighet om verdier?",
+      "options": [
+        "Fakta kan ofte sjekkes, mens verdier handler om hva som er viktigst",
+        "Det er ingen forskjell",
+        "Verdier kan alltid bevises",
+        "Fakta er alltid meninger"
+      ],
+      "correct": 0,
+      "explain": "Uenighet om verdier er kjernen i politikken."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan det være nyttig å argumentere for et syn du er uenig i?",
+      "options": [
+        "For å bytte mening",
+        "For å vise at du forstår debatten og motpartens argumenter",
+        "For å lure andre",
+        "Det er ikke nyttig"
+      ],
+      "correct": 1,
+      "explain": "Det gjør også dine egne argumenter bedre."
+    }
   ],
   "mindmap": {
     "label": "Metode og ideologi",
     "children": [
-      { "label": "Metoder", "children": [
-        { "label": "Kvantitative" },
-        { "label": "Kvalitative" },
-        { "label": "Validitet og reliabilitet" }
-      ] },
-      { "label": "Kilder", "children": [
-        { "label": "SSB og forskning" },
-        { "label": "Medier" },
-        { "label": "Kildekritikk" }
-      ] },
-      { "label": "Interesser", "children": [
-        { "label": "Hvem tjener?" },
-        { "label": "Valg av kilder" }
-      ] },
-      { "label": "Ideologier", "children": [
-        { "label": "Liberalisme" },
-        { "label": "Konservatisme" },
-        { "label": "Sosialisme og sosialdemokrati" },
-        { "label": "Grønn ideologi" }
-      ] },
-      { "label": "Argumentasjon", "children": [
-        { "label": "Høyre og venstre" },
-        { "label": "Fakta og verdier" },
-        { "label": "Forstå andres syn" }
-      ] }
+      {
+        "label": "Metoder",
+        "children": [
+          {
+            "label": "Kvantitative"
+          },
+          {
+            "label": "Kvalitative"
+          },
+          {
+            "label": "Validitet og reliabilitet"
+          }
+        ]
+      },
+      {
+        "label": "Kilder",
+        "children": [
+          {
+            "label": "SSB og forskning"
+          },
+          {
+            "label": "Medier"
+          },
+          {
+            "label": "Kildekritikk"
+          }
+        ]
+      },
+      {
+        "label": "Interesser",
+        "children": [
+          {
+            "label": "Hvem tjener?"
+          },
+          {
+            "label": "Valg av kilder"
+          }
+        ]
+      },
+      {
+        "label": "Ideologier",
+        "children": [
+          {
+            "label": "Liberalisme"
+          },
+          {
+            "label": "Konservatisme"
+          },
+          {
+            "label": "Sosialisme og sosialdemokrati"
+          },
+          {
+            "label": "Grønn ideologi"
+          }
+        ]
+      },
+      {
+        "label": "Argumentasjon",
+        "children": [
+          {
+            "label": "Høyre og venstre"
+          },
+          {
+            "label": "Fakta og verdier"
+          },
+          {
+            "label": "Forstå andres syn"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En spørreundersøkelse er et eksempel på en kvantitativ metode.", "correct": true, "explain": "Den gir tall som kan analyseres statistisk." },
-      { "id": "m02", "type": "sant-usant", "text": "Alle politiske saker passer godt inn på én høyre–venstre-akse.", "correct": false, "explain": "Saker som miljø og distriktspolitikk passer dårlig på én akse." },
-      { "id": "m03", "type": "sant-usant", "text": "Grønn ideologi mener økonomisk vekst må ha grenser.", "correct": true, "explain": "Naturen og kommende generasjoner står sentralt." },
-      { "id": "m04", "type": "sant-usant", "text": "Statistikk kan aldri gi et skjevt bilde.", "correct": false, "explain": "Utvalg og presentasjon kan gjøre statistikk misvisende." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken metode passer best for å forstå hvordan unge opplever utenforskap?", "options": ["Dybdeintervjuer", "Registerdata om inntekt", "Folketelling", "Valgstatistikk"], "correct": 0, "explain": "Kvalitative metoder gir innsikt i opplevelser." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilke partier regnes vanligvis til høyre i norsk politikk?", "options": ["Rødt og SV", "Høyre og Fremskrittspartiet", "Arbeiderpartiet og SV", "MDG og Rødt"], "correct": 1, "explain": "Rødt og SV regnes til venstre." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er en ideologi?", "options": ["Et politisk parti", "En lov", "Sammenhengende ideer om hvordan samfunnet er og bør være", "En type statistikk"], "correct": 2, "explain": "Ideologier ligger til grunn for partienes politikk." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En spørreundersøkelse er et eksempel på en kvantitativ metode.",
+        "correct": true,
+        "explain": "Den gir tall som kan analyseres statistisk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle politiske saker passer godt inn på én høyre–venstre-akse.",
+        "correct": false,
+        "explain": "Saker som miljø og distriktspolitikk passer dårlig på én akse."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Grønn ideologi mener økonomisk vekst må ha grenser.",
+        "correct": true,
+        "explain": "Naturen og kommende generasjoner står sentralt."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Statistikk kan aldri gi et skjevt bilde.",
+        "correct": false,
+        "explain": "Utvalg og presentasjon kan gjøre statistikk misvisende."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken metode passer best for å forstå hvordan unge opplever utenforskap?",
+        "options": [
+          "Dybdeintervjuer",
+          "Registerdata om inntekt",
+          "Folketelling",
+          "Valgstatistikk"
+        ],
+        "correct": 0,
+        "explain": "Kvalitative metoder gir innsikt i opplevelser."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilke partier regnes vanligvis til høyre i norsk politikk?",
+        "options": [
+          "Rødt og SV",
+          "Høyre og Fremskrittspartiet",
+          "Arbeiderpartiet og SV",
+          "MDG og Rødt"
+        ],
+        "correct": 1,
+        "explain": "Rødt og SV regnes til venstre."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er en ideologi?",
+        "options": [
+          "Et politisk parti",
+          "En lov",
+          "Sammenhengende ideer om hvordan samfunnet er og bør være",
+          "En type statistikk"
+        ],
+        "correct": 2,
+        "explain": "Ideologier ligger til grunn for partienes politikk."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En undersøkelse skal finne ut både hvor mange som støtter et forslag, og hvorfor de støtter det. Hvilken metode passer best til hvert spørsmål, og hva kan hver metode vise?",
+        "fasit": "En kvantitativ metode, som en spørreundersøkelse, passer for å finne hvor mange som støtter forslaget. Kvalitative intervjuer kan gi innsikt i hvorfor folk støtter det.",
+        "kriterier": [
+          "Knytter kvantitativ metode til tall eller hvor mange.",
+          "Knytter kvalitativ metode til dybde eller innsikt i hvorfor folk mener noe."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En skole vil måle elevenes interesse for politikk ved å spørre om de har deltatt på et politisk møte. Forklar hvorfor dette spørsmålet kan ha svak validitet.",
+        "fasit": "Spørsmålet måler om elevene har deltatt på et møte, men ikke nødvendigvis hele den politiske interessen deres. Elever kan være interessert i politikk uten å ha deltatt på et møte.",
+        "kriterier": [
+          "Forklarer at validitet handler om målingen faktisk undersøker det man ønsker å måle.",
+          "Viser at møte-deltakelse ikke nødvendigvis fanger opp all politisk interesse."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Du finner en påstand om en politisk sak på nettsiden til en interesseorganisasjon. Nevn to kildekritiske undersøkelser du bør gjøre før du stoler på påstanden.",
+        "fasit": "Jeg bør undersøke hvem som står bak påstanden, og hvorfor organisasjonen har laget den. Jeg bør også sjekke om informasjonen er oppdatert og om andre kilder støtter den.",
+        "kriterier": [
+          "Vurderer hvem som står bak eller hvorfor kilden er laget.",
+          "Foreslår å undersøke om informasjonen er oppdatert eller sammenligne med andre kilder."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I en debatt står det: «Statistikk viser at mange ønsker lavere skatter, og derfor bør skattene senkes.» Forklar hvilken del som er en faktapåstand, og hvilken del som uttrykker en verdi eller vurdering.",
+        "fasit": "Påstanden om at statistikk viser at mange ønsker lavere skatter, er en faktapåstand som kan undersøkes. At skattene derfor bør senkes, er en vurdering av hva som bør gjøres.",
+        "kriterier": [
+          "Identifiserer påstanden om hva statistikken viser som noe som kan sjekkes.",
+          "Identifiserer konklusjonen om hva man bør gjøre som en vurdering eller verdi."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign sosialisme og liberalisme når det gjelder hva de legger mest vekt på i samfunnet.",
+        "fasit": "Sosialismen legger særlig vekt på likhet og fellesskap, og på at produksjonsmidler i større grad bør eies i fellesskap. Liberalismen legger særlig vekt på individets frihet, rettigheter og markedsøkonomi.",
+        "kriterier": [
+          "Beskriver sosialismens vekt på likhet og fellesskap.",
+          "Beskriver liberalismens vekt på individets frihet eller markedsøkonomi."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En kommune vurderer å begrense økonomisk vekst for å ta bedre vare på naturen og dem som kommer etter oss. Forklar hvordan grønn ideologi kan begrunne dette synet.",
+        "fasit": "Grønn ideologi legger vekt på naturen og kommende generasjoner. Den kan derfor støtte grenser for økonomisk vekst når veksten går på bekostning av naturen.",
+        "kriterier": [
+          "Knytter grønn ideologi til hensynet til naturen.",
+          "Knytter synet til kommende generasjoner eller grenser for økonomisk vekst."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et parti vil øke skattene for å omfordele mer og ønsker en sterkere stat. Hvor på høyre–venstre-aksen passer partiet best, og hvorfor?",
+        "fasit": "Partiet passer best til venstre. Ønsket om mer omfordeling og en sterkere stat kjennetegner venstresiden på høyre–venstre-aksen.",
+        "kriterier": [
+          "Plasserer partiet til venstre.",
+          "Begrunner plasseringen med mer omfordeling eller en sterkere stat."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hva en ideologi er, og hvorfor en ideologi er mer enn én enkelt mening.",
+        "fasit": "En ideologi er et sett av sammenhengende ideer om hvordan samfunnet er og bør være. Den består derfor av flere ideer som henger sammen, ikke bare én mening.",
+        "kriterier": [
+          "Forklarer at en ideologi består av ideer som henger sammen.",
+          "Får fram at ideologien handler om hvordan samfunnet er og bør være."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

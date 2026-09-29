@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Dagsaktuelle juridiske problemstillinger",
   "intro": "Hvordan du utforsker og drøfter dagsaktuelle rettsspørsmål – å finne saken, kildene og interessene, skille mellom gjeldende rett og hva retten bør være – med eksempler som kunstig intelligens og opphavsrett, ytringsfrihet på nett, barnevern og menneskerettigheter, og nye straffebestemmelser.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Hva er et dagsaktuelt rettsspørsmål?\n\nEt **dagsaktuelt** rettsspørsmål er en juridisk problemstilling som diskuteres **nå** – i nyhetene, i Stortinget eller i domstolene. Ofte er det **uklart** hva gjeldende rett er, eller det pågår en debatt om loven bør **endres**.\n\n## Slik utforsker du et rettsspørsmål\n\n1. **Finn saken**: Hva har skjedd, og hvem er involvert?\n2. **Finn kildene**: Hvilke lover, dommer og konvensjoner gjelder? Bruk **Lovdata**, **domstol.no**, **regjeringen.no** og **stortinget.no**.\n3. **Kartlegg interessene**: Hvem vinner og hvem taper på ulike løsninger?\n4. **Skill mellom** gjeldende rett – **de lege lata** – og hva retten bør være – **de lege ferenda**.\n5. **Vurder kildene kritisk**: En avisartikkel eller et innlegg i sosiale medier er ikke en rettskilde, og kan være **vinklet**.\n6. **Drøft** med argumenter for og mot, og kom fram til et **standpunkt**.\n\n## Eksempel: kunstig intelligens og opphavsrett\n\nKI-verktøy trenes på store mengder tekst, bilder og musikk. Det reiser spørsmål som:\n\n- Er det lovlig å bruke **opphavsrettslig beskyttet** materiale til trening uten samtykke?\n- Hvem eier et bilde eller en tekst som er **laget av KI**?\n- Hvem er **ansvarlig** hvis KI gir feil råd eller krenker noens rettigheter?\n\nHer møtes **åndsverkloven**, **personvernregler** og nye regler fra **EU** om kunstig intelligens. Mange spørsmål er fortsatt **uavklarte**.\n\n## Eksempel: ytringsfrihet på nett\n\n**Grunnloven § 100** verner ytringsfriheten, men **straffeloven** forbyr blant annet **hatefulle ytringer** og **trusler**. Spørsmål er hvor grensen går, og hvilket ansvar **plattformene** har for innholdet brukerne legger ut.\n\n## Eksempel: barnevern og menneskerettigheter\n\n**Den europeiske menneskerettsdomstolen (EMD)** har i flere saker kommet fram til at Norge har krenket **retten til familieliv** i **EMK artikkel 8** i barnevernssaker. Det har ført til endringer i praksis og debatt om balansen mellom **barnets beste** og **foreldrenes rettigheter**.\n\n## Eksempel: nye straffebestemmelser\n\nStraffeloven endres jevnlig. Et eksempel er den **samtykkebaserte** voldtektsbestemmelsen som trådte i kraft 1. juli 2025. I debatten før lovendringen var spørsmålet om voldtekt skulle defineres ut fra **manglende samtykke** i stedet for vold, trusler eller at offeret ikke kunne motsette seg. Her møtes **rettssikkerhet** for den tiltalte, **vern** av ofre og **bevisspørsmål**.\n\n## Argumenter i debatten\n\nTypiske hensyn i drøftingen:\n\n- **Rettssikkerhet**: Er reglene klare og forutsigbare?\n- **Likhet**: Behandles like saker likt?\n- **Effektivitet**: Virker regelen etter hensikten?\n- **Menneskerettigheter**: Er inngrepet nødvendig og forholdsmessig?\n- **Demokrati**: Bør spørsmålet avgjøres av Stortinget eller domstolene?\n\n## Kildekritikk\n\nNår du bruker nyhetssaker:\n\n- Hvem er **avsender**, og hvilke **interesser** har de?\n- Er det **fakta** eller **meninger**?\n- Stemmer omtalen med **dommen** eller **loven** selv?\n\n## Presentasjon\n\nEt godt arbeid med et aktuelt rettsspørsmål **forklarer** saken, viser **gjeldende rett** med kilder, **drøfter** argumentene og ender med et **begrunnet standpunkt**. Husk å oppgi **dato** – aktuelle saker endrer seg raskt.",
   "flashcards": [
-    { "term": "Dagsaktuelt rettsspørsmål", "def": "Juridisk problemstilling som diskuteres nå." },
-    { "term": "De lege lata", "def": "Gjeldende rett." },
-    { "term": "De lege ferenda", "def": "Hva retten bør være." },
-    { "term": "Lovdata", "def": "Nettsted med lover, forskrifter og dommer." },
-    { "term": "Interessekartlegging", "def": "Å finne hvem som vinner og taper på ulike løsninger." },
-    { "term": "KI og opphavsrett", "def": "Spørsmål om trening på beskyttet materiale og eierskap til KI-innhold." },
-    { "term": "Åndsverkloven", "def": "Loven om opphavsrett." },
-    { "term": "Grunnloven § 100", "def": "Verner ytringsfriheten." },
-    { "term": "Hatefulle ytringer", "def": "Straffbare ytringer som angriper grupper, for eksempel på grunn av hudfarge eller religion." },
-    { "term": "EMK artikkel 8", "def": "Retten til privatliv og familieliv." },
-    { "term": "EMD", "def": "Den europeiske menneskerettsdomstolen." },
-    { "term": "Samtykkebasert voldtektsbestemmelse", "def": "Voldtekt defineres ut fra manglende samtykke." },
-    { "term": "Forholdsmessighet", "def": "Inngrepet må stå i rimelig forhold til målet." },
-    { "term": "Kildekritikk", "def": "Vurdering av avsender, interesser, fakta og meninger." },
-    { "term": "Begrunnet standpunkt", "def": "Konklusjon støttet av argumenter og kilder." }
+    {
+      "term": "Dagsaktuelt rettsspørsmål",
+      "def": "Juridisk problemstilling som diskuteres nå."
+    },
+    {
+      "term": "De lege lata",
+      "def": "Gjeldende rett."
+    },
+    {
+      "term": "De lege ferenda",
+      "def": "Hva retten bør være."
+    },
+    {
+      "term": "Lovdata",
+      "def": "Nettsted med lover, forskrifter og dommer."
+    },
+    {
+      "term": "Interessekartlegging",
+      "def": "Å finne hvem som vinner og taper på ulike løsninger."
+    },
+    {
+      "term": "KI og opphavsrett",
+      "def": "Spørsmål om trening på beskyttet materiale og eierskap til KI-innhold."
+    },
+    {
+      "term": "Åndsverkloven",
+      "def": "Loven om opphavsrett."
+    },
+    {
+      "term": "Grunnloven § 100",
+      "def": "Verner ytringsfriheten."
+    },
+    {
+      "term": "Hatefulle ytringer",
+      "def": "Straffbare ytringer som angriper grupper, for eksempel på grunn av hudfarge eller religion."
+    },
+    {
+      "term": "EMK artikkel 8",
+      "def": "Retten til privatliv og familieliv."
+    },
+    {
+      "term": "EMD",
+      "def": "Den europeiske menneskerettsdomstolen."
+    },
+    {
+      "term": "Samtykkebasert voldtektsbestemmelse",
+      "def": "Voldtekt defineres ut fra manglende samtykke."
+    },
+    {
+      "term": "Forholdsmessighet",
+      "def": "Inngrepet må stå i rimelig forhold til målet."
+    },
+    {
+      "term": "Kildekritikk",
+      "def": "Vurdering av avsender, interesser, fakta og meninger."
+    },
+    {
+      "term": "Begrunnet standpunkt",
+      "def": "Konklusjon støttet av argumenter og kilder."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er første steg når du skal utforske et aktuelt rettsspørsmål?", "options": ["Skrive konklusjonen", "Finne ut hva saken handler om og hvem som er involvert", "Velge side", "Lese kommentarfelt"], "correct": 1, "explain": "Deretter kildene." },
-    { "id": "q02", "text": "Hvilken artikkel i EMK verner retten til familieliv?", "options": ["Artikkel 8", "Artikkel 2", "Artikkel 10", "Artikkel 3"], "correct": 0, "explain": "Viktig i barnevernssaker." },
-    { "id": "q03", "text": "Hvilket spørsmål reiser KI i opphavsretten?", "options": ["Om KI kan stemme", "Om KI kan straffes", "Om det er lovlig å trene KI på beskyttet materiale", "Om KI trenger pass"], "correct": 2, "explain": "Mange spørsmål er uavklarte." },
-    { "id": "q04", "text": "Hva verner Grunnloven § 100?", "options": ["Eiendomsretten", "Religionsfriheten", "Stemmeretten", "Ytringsfriheten"], "correct": 3, "explain": "Med grenser i straffeloven." },
-    { "id": "q05", "text": "Hva betyr at en regel er samtykkebasert?", "options": ["At det avgjørende er om det forelå samtykke", "At begge parter må signere", "At politiet må samtykke", "At dommeren må godkjenne"], "correct": 0, "explain": "Voldtektsbestemmelsen ble samtykkebasert i 2025." },
-    { "id": "q06", "text": "Hvorfor er ikke en avisartikkel en rettskilde?", "options": ["Fordi aviser er forbudt", "Fordi den bare omtaler saken og kan være vinklet", "Fordi den er for kort", "Fordi den er gratis"], "correct": 1, "explain": "Gå til loven og dommen selv." },
-    { "id": "q07", "text": "Hva er rettssikkerhet som argument?", "options": ["At straffene er strenge", "At saker går raskt", "At reglene er klare og forutsigbare", "At alle får erstatning"], "correct": 2, "explain": "Et sentralt hensyn i rettsstaten." },
-    { "id": "q08", "text": "Hvorfor bør du oppgi dato når du skriver om aktuelle saker?", "options": ["Fordi det er pent", "Fordi lærerne krever det", "Fordi lover aldri endres", "Fordi aktuelle saker endrer seg raskt"], "correct": 3, "explain": "Nye dommer og lover kan komme." },
-    { "id": "q09", "text": "Hva er forholdsmessighet?", "options": ["At inngrepet står i rimelig forhold til målet", "At straffen er lik for alle", "At loven er lang", "At saken er stor"], "correct": 0, "explain": "Viktig ved menneskerettighetsinngrep." },
-    { "id": "q10", "text": "Hva bør et arbeid med et aktuelt rettsspørsmål ende med?", "options": ["Et sitat", "Et begrunnet standpunkt", "En avisoverskrift", "Et spørsmål"], "correct": 1, "explain": "Støttet av argumenter og kilder." }
+    {
+      "id": "q01",
+      "text": "Hva er første steg når du skal utforske et aktuelt rettsspørsmål?",
+      "options": [
+        "Skrive konklusjonen",
+        "Finne ut hva saken handler om og hvem som er involvert",
+        "Velge side",
+        "Lese kommentarfelt"
+      ],
+      "correct": 1,
+      "explain": "Deretter kildene."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken artikkel i EMK verner retten til familieliv?",
+      "options": [
+        "Artikkel 8",
+        "Artikkel 2",
+        "Artikkel 10",
+        "Artikkel 3"
+      ],
+      "correct": 0,
+      "explain": "Viktig i barnevernssaker."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket spørsmål reiser KI i opphavsretten?",
+      "options": [
+        "Om KI kan stemme",
+        "Om KI kan straffes",
+        "Om det er lovlig å trene KI på beskyttet materiale",
+        "Om KI trenger pass"
+      ],
+      "correct": 2,
+      "explain": "Mange spørsmål er uavklarte."
+    },
+    {
+      "id": "q04",
+      "text": "Hva verner Grunnloven § 100?",
+      "options": [
+        "Eiendomsretten",
+        "Religionsfriheten",
+        "Stemmeretten",
+        "Ytringsfriheten"
+      ],
+      "correct": 3,
+      "explain": "Med grenser i straffeloven."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr at en regel er samtykkebasert?",
+      "options": [
+        "At det avgjørende er om det forelå samtykke",
+        "At begge parter må signere",
+        "At politiet må samtykke",
+        "At dommeren må godkjenne"
+      ],
+      "correct": 0,
+      "explain": "Voldtektsbestemmelsen ble samtykkebasert i 2025."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor er ikke en avisartikkel en rettskilde?",
+      "options": [
+        "Fordi aviser er forbudt",
+        "Fordi den bare omtaler saken og kan være vinklet",
+        "Fordi den er for kort",
+        "Fordi den er gratis"
+      ],
+      "correct": 1,
+      "explain": "Gå til loven og dommen selv."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er rettssikkerhet som argument?",
+      "options": [
+        "At straffene er strenge",
+        "At saker går raskt",
+        "At reglene er klare og forutsigbare",
+        "At alle får erstatning"
+      ],
+      "correct": 2,
+      "explain": "Et sentralt hensyn i rettsstaten."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor bør du oppgi dato når du skriver om aktuelle saker?",
+      "options": [
+        "Fordi det er pent",
+        "Fordi lærerne krever det",
+        "Fordi lover aldri endres",
+        "Fordi aktuelle saker endrer seg raskt"
+      ],
+      "correct": 3,
+      "explain": "Nye dommer og lover kan komme."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er forholdsmessighet?",
+      "options": [
+        "At inngrepet står i rimelig forhold til målet",
+        "At straffen er lik for alle",
+        "At loven er lang",
+        "At saken er stor"
+      ],
+      "correct": 0,
+      "explain": "Viktig ved menneskerettighetsinngrep."
+    },
+    {
+      "id": "q10",
+      "text": "Hva bør et arbeid med et aktuelt rettsspørsmål ende med?",
+      "options": [
+        "Et sitat",
+        "Et begrunnet standpunkt",
+        "En avisoverskrift",
+        "Et spørsmål"
+      ],
+      "correct": 1,
+      "explain": "Støttet av argumenter og kilder."
+    }
   ],
   "mindmap": {
     "label": "Aktuelle rettsspørsmål",
     "children": [
-      { "label": "Metode", "children": [
-        { "label": "Saken og kildene" },
-        { "label": "Interesser" },
-        { "label": "Lata og ferenda" }
-      ] },
-      { "label": "Eksempler", "children": [
-        { "label": "KI og opphavsrett" },
-        { "label": "Ytringsfrihet på nett" },
-        { "label": "Barnevern og EMD" },
-        { "label": "Samtykke og voldtekt" }
-      ] },
-      { "label": "Argumenter", "children": [
-        { "label": "Rettssikkerhet" },
-        { "label": "Menneskerettigheter" },
-        { "label": "Demokrati" }
-      ] },
-      { "label": "Kildekritikk", "children": [
-        { "label": "Avsender" },
-        { "label": "Fakta og meninger" }
-      ] },
-      { "label": "Presentasjon", "children": [
-        { "label": "Begrunnet standpunkt" },
-        { "label": "Dato" }
-      ] }
+      {
+        "label": "Metode",
+        "children": [
+          {
+            "label": "Saken og kildene"
+          },
+          {
+            "label": "Interesser"
+          },
+          {
+            "label": "Lata og ferenda"
+          }
+        ]
+      },
+      {
+        "label": "Eksempler",
+        "children": [
+          {
+            "label": "KI og opphavsrett"
+          },
+          {
+            "label": "Ytringsfrihet på nett"
+          },
+          {
+            "label": "Barnevern og EMD"
+          },
+          {
+            "label": "Samtykke og voldtekt"
+          }
+        ]
+      },
+      {
+        "label": "Argumenter",
+        "children": [
+          {
+            "label": "Rettssikkerhet"
+          },
+          {
+            "label": "Menneskerettigheter"
+          },
+          {
+            "label": "Demokrati"
+          }
+        ]
+      },
+      {
+        "label": "Kildekritikk",
+        "children": [
+          {
+            "label": "Avsender"
+          },
+          {
+            "label": "Fakta og meninger"
+          }
+        ]
+      },
+      {
+        "label": "Presentasjon",
+        "children": [
+          {
+            "label": "Begrunnet standpunkt"
+          },
+          {
+            "label": "Dato"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "EMD har i flere saker kommet fram til at Norge har krenket retten til familieliv i barnevernssaker.", "correct": true, "explain": "Det har ført til endringer i praksis." },
-      { "id": "m02", "type": "sant-usant", "text": "Alle spørsmål om KI og opphavsrett er ferdig avklart.", "correct": false, "explain": "Mange er fortsatt uavklarte." },
-      { "id": "m03", "type": "sant-usant", "text": "Ytringsfriheten har grenser, for eksempel mot trusler.", "correct": true, "explain": "Straffeloven setter grenser." },
-      { "id": "m04", "type": "sant-usant", "text": "Et innlegg i sosiale medier er en rettskilde.", "correct": false, "explain": "Det er ikke en rettskilde." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket spørsmål handler om de lege ferenda?", "options": ["Hva sier loven i dag?", "Bør loven endres?", "Hva står i paragrafen?", "Hva sa Høyesterett?"], "correct": 1, "explain": "Hva retten bør være." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor kan du finne informasjon om lovforslag?", "options": ["stortinget.no og regjeringen.no", "Bare i aviser", "På sosiale medier", "Hos naboen"], "correct": 0, "explain": "Offisielle kilder." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket demokratisk spørsmål reiser mange rettsdebatter?", "options": ["Hvem som skal betale skatt", "Om loven er trykt", "Om spørsmålet bør avgjøres av Stortinget eller domstolene", "Om dommerne liker saken"], "correct": 2, "explain": "Maktfordeling." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "EMD har i flere saker kommet fram til at Norge har krenket retten til familieliv i barnevernssaker.",
+        "correct": true,
+        "explain": "Det har ført til endringer i praksis."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle spørsmål om KI og opphavsrett er ferdig avklart.",
+        "correct": false,
+        "explain": "Mange er fortsatt uavklarte."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Ytringsfriheten har grenser, for eksempel mot trusler.",
+        "correct": true,
+        "explain": "Straffeloven setter grenser."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et innlegg i sosiale medier er en rettskilde.",
+        "correct": false,
+        "explain": "Det er ikke en rettskilde."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket spørsmål handler om de lege ferenda?",
+        "options": [
+          "Hva sier loven i dag?",
+          "Bør loven endres?",
+          "Hva står i paragrafen?",
+          "Hva sa Høyesterett?"
+        ],
+        "correct": 1,
+        "explain": "Hva retten bør være."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor kan du finne informasjon om lovforslag?",
+        "options": [
+          "stortinget.no og regjeringen.no",
+          "Bare i aviser",
+          "På sosiale medier",
+          "Hos naboen"
+        ],
+        "correct": 0,
+        "explain": "Offisielle kilder."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket demokratisk spørsmål reiser mange rettsdebatter?",
+        "options": [
+          "Hvem som skal betale skatt",
+          "Om loven er trykt",
+          "Om spørsmålet bør avgjøres av Stortinget eller domstolene",
+          "Om dommerne liker saken"
+        ],
+        "correct": 2,
+        "explain": "Maktfordeling."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign de lege lata og de lege ferenda. Hva slags spørsmål prøver du å besvare med hvert av begrepene?",
+        "fasit": "De lege lata handler om hva gjeldende rett er. De lege ferenda handler om hva retten bør være, for eksempel om en lov bør endres.",
+        "kriterier": [
+          "Skiller mellom gjeldende rett og hva retten bør være.",
+          "Knytter begrepene til ulike spørsmål om rettstilstanden."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Du undersøker både hvilken lovregel som gjelder i en sak, og hvordan en domstol har vurdert et lignende spørsmål. Hvilke nettsteder kan du bruke til å finne lovtekst og dommer?",
+        "fasit": "Lovdata kan brukes til å finne lover og dommer. Domstol.no er også en relevant kilde når du leter etter informasjon om dommer.",
+        "kriterier": [
+          "Nevner Lovdata som kilde til lovtekst.",
+          "Nevner en egnet kilde til dommer, for eksempel Lovdata eller domstol.no."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En avisartikkel omtaler en aktuell rettssak og blander opplysninger om saken med vurderinger av utfallet. Beskriv to kontroller du bør gjøre før du bruker artikkelen i en juridisk drøfting.",
+        "fasit": "Jeg bør undersøke hvem som står bak artikkelen og hvilke interesser avsenderen kan ha. Jeg bør skille fakta fra meninger og kontrollere omtalen mot dommen eller loven.",
+        "kriterier": [
+          "Vurderer avsenderen eller mulige interesser bak artikkelen.",
+          "Skiller mellom fakta og meninger, eller kontrollerer opplysningene mot dommen eller loven."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En bruker legger ut en trussel på en plattform. Forklar hvilke to rettslige hensyn som kan komme i konflikt, og hvorfor det ikke er nok å vise til ytringsfriheten alene.",
+        "fasit": "Grunnloven § 100 verner ytringsfriheten, men straffeloven forbyr blant annet trusler. Derfor må man også vurdere om innholdet rammes av straffeloven.",
+        "kriterier": [
+          "Viser til at ytringsfriheten er vernet av Grunnloven § 100.",
+          "Får fram at trusler er forbudt etter straffeloven, slik at ytringsfriheten ikke alene avgjør saken."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et rettsspørsmål er om opphavsrettslig beskyttet materiale kan brukes til å trene KI uten samtykke. Bruk interessekartlegging til å forklare hvem som kan vinne eller tape på ulike løsninger.",
+        "fasit": "Hvis slik trening tillates uten samtykke, kan de som trener KI få større mulighet til å bruke materialet, mens rettighetshaverne kan tape kontroll over bruken. Et krav om samtykke kan styrke rettighetshavernes kontroll, men begrense tilgangen til materiale for KI-trening.",
+        "kriterier": [
+          "Identifiserer både aktører som trener KI og rettighetshavere som berørte interesser.",
+          "Forklarer hvordan ulike løsninger kan gi fordeler eller ulemper for disse aktørene."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "EMD har i flere barnevernssaker kommet fram til at Norge krenket retten til familieliv etter EMK artikkel 8. Forklar hvordan slike avgjørelser kan påvirke norsk praksis og debatten om barnevern.",
+        "fasit": "Avgjørelsene har ført til endringer i norsk praksis. De har også bidratt til debatt om hvordan barnets beste skal balanseres mot foreldrenes rettigheter.",
+        "kriterier": [
+          "Knytter EMDs avgjørelser til endringer i norsk praksis.",
+          "Forklarer at de aktualiserer balansen mellom barnets beste og foreldrenes rettigheter."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I debatten før den samtykkebaserte voldtektsbestemmelsen trådte i kraft, sto ulike hensyn mot hverandre. Forklar hvordan rettssikkerhet, vern av ofre og bevisspørsmål kan inngå i denne debatten.",
+        "fasit": "En drøfting kan vurdere om regelen er klar og forutsigbar for den tiltalte, samtidig som den gir vern til ofre. Den må også ta hensyn til hvordan det kan bevises om samtykke manglet.",
+        "kriterier": [
+          "Knytter rettssikkerhet til klarhet eller forutsigbarhet for den tiltalte.",
+          "Får fram både hensynet til vern av ofre og at bevis for manglende samtykke kan være et spørsmål."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I en aktuell rettsdebatt kan spørsmålet være om en løsning bør komme gjennom en lovendring fra Stortinget eller gjennom domstolenes behandling av saken. Forklar hvilket demokratihensyn dette reiser.",
+        "fasit": "Spørsmålet gjelder hvem som bør avgjøre rettsutviklingen. Demokrati kan tale for at Stortinget, som vedtar lover, bør avgjøre om loven skal endres, mens domstolene behandler rettsspørsmål i konkrete saker.",
+        "kriterier": [
+          "Får fram at spørsmålet gjelder hvem som bør avgjøre rettsutviklingen.",
+          "Knytter hensynet til demokrati til Stortingets rolle i å vedta lover."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,77 +4,421 @@
   "trinnId": "vg2",
   "name": "Algoritmer og effektivitet",
   "intro": "Hva en algoritme er, søkealgoritmer som lineært og binært søk, sorteringsalgoritmer som boblesortering og flettesortering, og hvordan du vurderer og måler hvor effektiv koden din er.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Hva er en algoritme?\n\nEn **algoritme** er en **presis**, **endelig** oppskrift på hvordan et problem skal løses – steg for steg. Den kan skrives som **pseudokode**, tegnes som **flytdiagram** eller programmeres.\n\nDet finnes ofte **mange** algoritmer som løser samme problem, men noen er **mye raskere** enn andre når datamengden blir stor.\n\n## Søkealgoritmer\n\n**Lineært søk** går gjennom listen **ett element om gangen** til det finner det det leter etter.\n\n```\ndef lineært_søk(liste, mål):\n    for i in range(len(liste)):\n        if liste[i] == mål:\n            return i\n    return -1\n```\n\nI verste fall må den se på **alle** n elementene.\n\n**Binært søk** krever at listen er **sortert**. Den ser på **midterste** element og halverer søkeområdet for hvert steg – omtrent som når du leter i en ordbok. Med 1 000 000 elementer trengs bare rundt **20 steg**, fordi 2²⁰ ≈ 1 million.\n\n## Sorteringsalgoritmer\n\n- **Boblesortering**: Går gjennom listen gang på gang og **bytter** nabotall som står i feil rekkefølge. Enkel å forstå, men **treg** for store lister.\n- **Utvalgssortering**: Finner det minste elementet og setter det først, så det nest minste, og så videre.\n- **Flettesortering**: Deler listen i to, sorterer hver halvdel og **fletter** dem sammen. Mye **raskere** for store lister.\n\nI praksis bruker vi ofte innebygde funksjoner som sorted() i Python, som er svært effektive.\n\n## Tidskompleksitet\n\n**Tidskompleksitet** beskriver hvordan kjøretiden **vokser** når datamengden n øker. Vi bruker **O-notasjon**:\n\n| Kompleksitet | Eksempel | n = 1 000 000 |\n|---|---|---|\n| O(1) | slå opp element nummer i | 1 steg |\n| O(log n) | binært søk | ca. 20 steg |\n| O(n) | lineært søk | 1 million steg |\n| O(n log n) | flettesortering | ca. 20 millioner steg |\n| O(n²) | boblesortering | 1 billion steg |\n\nForskjellen er liten for små lister, men **enorm** for store. En algoritme med **nøstede løkker** over samme liste er ofte O(n²).\n\n## Vurdere egen kode\n\n- **Tell løkkene**: Én løkke over listen gir ofte O(n), to nøstede løkker gir ofte O(n²).\n- **Unngå unødvendig arbeid**: Avslutt løkken når svaret er funnet, og ikke regn ut det samme flere ganger.\n- **Velg riktig datastruktur**: Å sjekke om et element finnes i en **mengde** (set) eller en **ordbok** (dict) går mye raskere enn i en liste.\n- **Mål tiden**: Med modulen time kan du måle hvor lang tid koden bruker, for eksempel for 1000, 10 000 og 100 000 elementer, og se hvordan tiden vokser.\n\n## Andre typer algoritmer\n\n- **Rekursive** algoritmer kaller seg selv, som flettesortering.\n- **Grådige** algoritmer velger det som ser best ut i hvert steg, for eksempel når en automat gir vekslepenger med færrest mulig mynter.\n- **Anbefalingsalgoritmer** i strømmetjenester og sosiale medier foreslår innhold ut fra hva du og andre har likt.\n\nEn god algoritme er **korrekt**, **effektiv** og **forståelig**.",
   "flashcards": [
-    { "term": "Algoritme", "def": "Presis, endelig oppskrift for å løse et problem." },
-    { "term": "Pseudokode", "def": "Algoritme skrevet i et forenklet, kodeliknende språk." },
-    { "term": "Lineært søk", "def": "Går gjennom ett element om gangen – O(n)." },
-    { "term": "Binært søk", "def": "Halverer søkeområdet i en sortert liste – O(log n)." },
-    { "term": "Binært søk i 1 million elementer", "def": "Omtrent 20 steg." },
-    { "term": "Boblesortering", "def": "Bytter nabotall i feil rekkefølge – O(n²)." },
-    { "term": "Utvalgssortering", "def": "Finner minste element og setter det først, gang på gang." },
-    { "term": "Flettesortering", "def": "Deler, sorterer og fletter – O(n log n)." },
-    { "term": "Tidskompleksitet", "def": "Hvordan kjøretiden vokser med datamengden." },
-    { "term": "O(1)", "def": "Konstant tid, uavhengig av n." },
-    { "term": "Nøstede løkker", "def": "Gir ofte O(n²)." },
-    { "term": "set og dict", "def": "Datastrukturer med svært raske oppslag." },
-    { "term": "Rekursiv algoritme", "def": "Algoritme som kaller seg selv." },
-    { "term": "Grådig algoritme", "def": "Velger det som ser best ut i hvert steg." },
-    { "term": "Modulen time", "def": "Brukes til å måle kjøretid i Python." }
+    {
+      "term": "Algoritme",
+      "def": "Presis, endelig oppskrift for å løse et problem."
+    },
+    {
+      "term": "Pseudokode",
+      "def": "Algoritme skrevet i et forenklet, kodeliknende språk."
+    },
+    {
+      "term": "Lineært søk",
+      "def": "Går gjennom ett element om gangen – O(n)."
+    },
+    {
+      "term": "Binært søk",
+      "def": "Halverer søkeområdet i en sortert liste – O(log n)."
+    },
+    {
+      "term": "Binært søk i 1 million elementer",
+      "def": "Omtrent 20 steg."
+    },
+    {
+      "term": "Boblesortering",
+      "def": "Bytter nabotall i feil rekkefølge – O(n²)."
+    },
+    {
+      "term": "Utvalgssortering",
+      "def": "Finner minste element og setter det først, gang på gang."
+    },
+    {
+      "term": "Flettesortering",
+      "def": "Deler, sorterer og fletter – O(n log n)."
+    },
+    {
+      "term": "Tidskompleksitet",
+      "def": "Hvordan kjøretiden vokser med datamengden."
+    },
+    {
+      "term": "O(1)",
+      "def": "Konstant tid, uavhengig av n."
+    },
+    {
+      "term": "Nøstede løkker",
+      "def": "Gir ofte O(n²)."
+    },
+    {
+      "term": "set og dict",
+      "def": "Datastrukturer med svært raske oppslag."
+    },
+    {
+      "term": "Rekursiv algoritme",
+      "def": "Algoritme som kaller seg selv."
+    },
+    {
+      "term": "Grådig algoritme",
+      "def": "Velger det som ser best ut i hvert steg."
+    },
+    {
+      "term": "Modulen time",
+      "def": "Brukes til å måle kjøretid i Python."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva krever binært søk?", "options": ["At listen er kort", "At listen er sortert", "At listen bare har tall under 100", "At listen er usortert"], "correct": 1, "explain": "Ellers kan vi ikke vite hvilken halvdel vi skal lete i." },
-    { "id": "q02", "text": "Omtrent hvor mange steg trenger binært søk i en sortert liste med 1 000 000 elementer?", "options": ["20", "1000", "500 000", "1 000 000"], "correct": 0, "explain": "2²⁰ ≈ 1 million." },
-    { "id": "q03", "text": "Hvilken tidskompleksitet har boblesortering?", "options": ["O(1)", "O(log n)", "O(n²)", "O(n)"], "correct": 2, "explain": "Nøstede gjennomganger av listen." },
-    { "id": "q04", "text": "Hva beskriver tidskompleksitet?", "options": ["Hvor mange linjer koden har", "Hvilket språk koden er skrevet i", "Hvor gammel algoritmen er", "Hvordan kjøretiden vokser når datamengden øker"], "correct": 3, "explain": "Skrives med O-notasjon." },
-    { "id": "q05", "text": "Hvilken sorteringsalgoritme er raskest for store lister?", "options": ["Flettesortering", "Boblesortering", "Utvalgssortering", "De er like raske"], "correct": 0, "explain": "O(n log n) mot O(n²)." },
-    { "id": "q06", "text": "Hva gir ofte O(n²)?", "options": ["Ett enkelt oppslag", "To nøstede løkker over samme liste", "Binært søk", "En if-setning"], "correct": 1, "explain": "For hvert element går vi gjennom alle." },
-    { "id": "q07", "text": "Hva er en algoritme?", "options": ["Et programmeringsspråk", "En datamaskin", "En presis, endelig oppskrift for å løse et problem", "En type database"], "correct": 2, "explain": "Kan skrives som pseudokode eller kode." },
-    { "id": "q08", "text": "Hvorfor er det raskere å sjekke om et element finnes i et set enn i en liste?", "options": ["Set er alltid kortere", "Set kan bare inneholde tall", "Lister er ødelagte", "Set har svært raske oppslag uten å gå gjennom alle elementene"], "correct": 3, "explain": "Nær konstant tid." },
-    { "id": "q09", "text": "Hva returnerer lineært_søk hvis målet ikke finnes?", "options": ["−1", "0", "Hele listen", "Målet"], "correct": 0, "explain": "Etter at alle elementene er sjekket." },
-    { "id": "q10", "text": "Hvordan kan du måle hvor effektiv koden din er i praksis?", "options": ["Telle bokstavene", "Måle kjøretiden for ulike datamengder", "Endre fargene i editoren", "Skrive flere kommentarer"], "correct": 1, "explain": "Se hvordan tiden vokser." }
+    {
+      "id": "q01",
+      "text": "Hva krever binært søk?",
+      "options": [
+        "At listen er kort",
+        "At listen er sortert",
+        "At listen bare har tall under 100",
+        "At listen er usortert"
+      ],
+      "correct": 1,
+      "explain": "Ellers kan vi ikke vite hvilken halvdel vi skal lete i."
+    },
+    {
+      "id": "q02",
+      "text": "Omtrent hvor mange steg trenger binært søk i en sortert liste med 1 000 000 elementer?",
+      "options": [
+        "20",
+        "1000",
+        "500 000",
+        "1 000 000"
+      ],
+      "correct": 0,
+      "explain": "2²⁰ ≈ 1 million."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken tidskompleksitet har boblesortering?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n²)",
+        "O(n)"
+      ],
+      "correct": 2,
+      "explain": "Nøstede gjennomganger av listen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva beskriver tidskompleksitet?",
+      "options": [
+        "Hvor mange linjer koden har",
+        "Hvilket språk koden er skrevet i",
+        "Hvor gammel algoritmen er",
+        "Hvordan kjøretiden vokser når datamengden øker"
+      ],
+      "correct": 3,
+      "explain": "Skrives med O-notasjon."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken sorteringsalgoritme er raskest for store lister?",
+      "options": [
+        "Flettesortering",
+        "Boblesortering",
+        "Utvalgssortering",
+        "De er like raske"
+      ],
+      "correct": 0,
+      "explain": "O(n log n) mot O(n²)."
+    },
+    {
+      "id": "q06",
+      "text": "Hva gir ofte O(n²)?",
+      "options": [
+        "Ett enkelt oppslag",
+        "To nøstede løkker over samme liste",
+        "Binært søk",
+        "En if-setning"
+      ],
+      "correct": 1,
+      "explain": "For hvert element går vi gjennom alle."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en algoritme?",
+      "options": [
+        "Et programmeringsspråk",
+        "En datamaskin",
+        "En presis, endelig oppskrift for å løse et problem",
+        "En type database"
+      ],
+      "correct": 2,
+      "explain": "Kan skrives som pseudokode eller kode."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er det raskere å sjekke om et element finnes i et set enn i en liste?",
+      "options": [
+        "Set er alltid kortere",
+        "Set kan bare inneholde tall",
+        "Lister er ødelagte",
+        "Set har svært raske oppslag uten å gå gjennom alle elementene"
+      ],
+      "correct": 3,
+      "explain": "Nær konstant tid."
+    },
+    {
+      "id": "q09",
+      "text": "Hva returnerer lineært_søk hvis målet ikke finnes?",
+      "options": [
+        "−1",
+        "0",
+        "Hele listen",
+        "Målet"
+      ],
+      "correct": 0,
+      "explain": "Etter at alle elementene er sjekket."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan du måle hvor effektiv koden din er i praksis?",
+      "options": [
+        "Telle bokstavene",
+        "Måle kjøretiden for ulike datamengder",
+        "Endre fargene i editoren",
+        "Skrive flere kommentarer"
+      ],
+      "correct": 1,
+      "explain": "Se hvordan tiden vokser."
+    }
   ],
   "mindmap": {
     "label": "Algoritmer og effektivitet",
     "children": [
-      { "label": "Algoritme", "children": [
-        { "label": "Presis og endelig" },
-        { "label": "Pseudokode og flytdiagram" }
-      ] },
-      { "label": "Søk", "children": [
-        { "label": "Lineært O(n)" },
-        { "label": "Binært O(log n)" }
-      ] },
-      { "label": "Sortering", "children": [
-        { "label": "Boblesortering" },
-        { "label": "Utvalgssortering" },
-        { "label": "Flettesortering" }
-      ] },
-      { "label": "Kompleksitet", "children": [
-        { "label": "O-notasjon" },
-        { "label": "Nøstede løkker" },
-        { "label": "Måle tid" }
-      ] },
-      { "label": "Andre typer", "children": [
-        { "label": "Rekursive" },
-        { "label": "Grådige" },
-        { "label": "Anbefalinger" }
-      ] }
+      {
+        "label": "Algoritme",
+        "children": [
+          {
+            "label": "Presis og endelig"
+          },
+          {
+            "label": "Pseudokode og flytdiagram"
+          }
+        ]
+      },
+      {
+        "label": "Søk",
+        "children": [
+          {
+            "label": "Lineært O(n)"
+          },
+          {
+            "label": "Binært O(log n)"
+          }
+        ]
+      },
+      {
+        "label": "Sortering",
+        "children": [
+          {
+            "label": "Boblesortering"
+          },
+          {
+            "label": "Utvalgssortering"
+          },
+          {
+            "label": "Flettesortering"
+          }
+        ]
+      },
+      {
+        "label": "Kompleksitet",
+        "children": [
+          {
+            "label": "O-notasjon"
+          },
+          {
+            "label": "Nøstede løkker"
+          },
+          {
+            "label": "Måle tid"
+          }
+        ]
+      },
+      {
+        "label": "Andre typer",
+        "children": [
+          {
+            "label": "Rekursive"
+          },
+          {
+            "label": "Grådige"
+          },
+          {
+            "label": "Anbefalinger"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Forskjellen mellom O(n) og O(n²) blir enorm når datamengden er stor.", "correct": true, "explain": "1 million mot 1 billion steg." },
-      { "id": "m02", "type": "sant-usant", "text": "Binært søk fungerer på usorterte lister.", "correct": false, "explain": "Listen må være sortert." },
-      { "id": "m03", "type": "sant-usant", "text": "Flettesortering er et eksempel på en rekursiv algoritme.", "correct": true, "explain": "Den sorterer halvdelene med seg selv." },
-      { "id": "m04", "type": "sant-usant", "text": "Den enkleste algoritmen er alltid den mest effektive.", "correct": false, "explain": "Boblesortering er enkel, men treg." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken tidskompleksitet har lineært søk?", "options": ["O(1)", "O(n)", "O(n²)", "O(log n)"], "correct": 1, "explain": "I verste fall sjekkes alle n elementene." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gjør en grådig algoritme?", "options": ["Velger det som ser best ut i hvert steg", "Prøver alle muligheter", "Kaller seg selv", "Sorterer alltid først"], "correct": 0, "explain": "For eksempel vekslepenger med færrest mynter." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan kan du gjøre et lineært søk raskere i praksis?", "options": ["Legge inn flere print", "Gå gjennom listen to ganger", "Avslutte løkken når elementet er funnet", "Bruke globale variabler"], "correct": 2, "explain": "Unngå unødvendig arbeid." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Forskjellen mellom O(n) og O(n²) blir enorm når datamengden er stor.",
+        "correct": true,
+        "explain": "1 million mot 1 billion steg."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Binært søk fungerer på usorterte lister.",
+        "correct": false,
+        "explain": "Listen må være sortert."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Flettesortering er et eksempel på en rekursiv algoritme.",
+        "correct": true,
+        "explain": "Den sorterer halvdelene med seg selv."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Den enkleste algoritmen er alltid den mest effektive.",
+        "correct": false,
+        "explain": "Boblesortering er enkel, men treg."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken tidskompleksitet har lineært søk?",
+        "options": [
+          "O(1)",
+          "O(n)",
+          "O(n²)",
+          "O(log n)"
+        ],
+        "correct": 1,
+        "explain": "I verste fall sjekkes alle n elementene."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gjør en grådig algoritme?",
+        "options": [
+          "Velger det som ser best ut i hvert steg",
+          "Prøver alle muligheter",
+          "Kaller seg selv",
+          "Sorterer alltid først"
+        ],
+        "correct": 0,
+        "explain": "For eksempel vekslepenger med færrest mynter."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan kan du gjøre et lineært søk raskere i praksis?",
+        "options": [
+          "Legge inn flere print",
+          "Gå gjennom listen to ganger",
+          "Avslutte løkken når elementet er funnet",
+          "Bruke globale variabler"
+        ],
+        "correct": 2,
+        "explain": "Unngå unødvendig arbeid."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En algoritme er skrevet med ord og strukturer som ligner på kode, men ikke i et bestemt programmeringsspråk. Hva kalles denne skrivemåten, og hva slags beskrivelse gir den?",
+        "fasit": "Dette kalles pseudokode. Den beskriver en algoritme i et forenklet, kodeliknende språk.",
+        "kriterier": [
+          "Kaller skrivemåten pseudokode.",
+          "Forklarer at den beskriver en algoritme i et forenklet, kodeliknende språk."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Du skal finne et navn i en sortert liste. Sammenlign hvordan lineært søk og binært søk leter, og forklar hvorfor søkemåtene kan bruke ulikt antall steg.",
+        "fasit": "Lineært søk undersøker ett element om gangen, mens binært søk undersøker det midterste elementet og halverer søkeområdet for hvert steg. Derfor kan binært søk bruke langt færre steg i en stor, sortert liste.",
+        "kriterier": [
+          "Forklarer at lineært søk går gjennom elementene ett om gangen.",
+          "Forklarer at binært søk halverer søkeområdet, og knytter dette til færre steg i en stor sortert liste."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et program skal sortere en svært stor liste. Velg mellom boblesortering og flettesortering, og begrunn valget med hvordan algoritmen arbeider og hvor effektiv den er for store lister.",
+        "fasit": "Jeg ville valgt flettesortering. Den deler listen i to, sorterer hver halvdel og fletter dem sammen, og den er mye raskere enn boblesortering for store lister.",
+        "kriterier": [
+          "Velger flettesortering for en svært stor liste.",
+          "Beskriver at den deler, sorterer delene og fletter dem sammen, eller forklarer at den er raskere for store lister enn boblesortering."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "For en liste med 1 000 000 elementer bruker lineært søk omtrent 1 000 000 steg, mens binært søk bruker omtrent 20 steg. Hvor mange flere steg bruker lineært søk ifølge disse anslagene? Vis det viktigste regnestykket.",
+        "fasit": "Lineært søk bruker omtrent 1 000 000 − 20 = 999 980 flere steg.",
+        "kriterier": [
+          "Setter opp differansen mellom 1 000 000 og 20.",
+          "Får svaret 999 980 flere steg."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "For 1 000 000 elementer bruker lineært søk omtrent 1 million steg, og flettesortering omtrent 20 millioner steg. Hvor mange ganger så mange steg er anslaget for flettesortering? Vis det viktigste regnestykket.",
+        "fasit": "20 millioner delt på 1 million er 20. Anslaget for flettesortering er altså 20 ganger så stort.",
+        "kriterier": [
+          "Deler 20 millioner på 1 million.",
+          "Får svaret 20 ganger."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En algoritme slår direkte opp element nummer i i en liste. Dette er O(1). Forklar hva O(1) betyr for kjøretiden når antallet elementer i listen øker.",
+        "fasit": "O(1) betyr at kjøretiden er konstant og ikke avhenger av hvor mange elementer listen har. Oppslaget bruker derfor omtrent like lang tid selv om listen blir større.",
+        "kriterier": [
+          "Forklarer at O(1) betyr konstant tid.",
+          "Knytter dette til at kjøretiden ikke vokser med antallet elementer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev vurderer en algoritme og vil kalle den god. Hvilke tre egenskaper bør eleven vurdere, og hva betyr hver av dem kort?",
+        "fasit": "En god algoritme er korrekt, effektiv og forståelig. Den løser problemet riktig, bruker ressursene godt og er mulig å forstå.",
+        "kriterier": [
+          "Nevner korrekt, effektiv og forståelig.",
+          "Forklarer minst to av egenskapene faglig riktig."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En automat gir vekslepenger ved å velge den mynten som ser best ut i hvert steg. Hvilken type algoritme beskriver dette, og hva kjennetegner måten den velger på?",
+        "fasit": "Dette er en grådig algoritme. Den velger det som ser best ut i hvert enkelt steg.",
+        "kriterier": [
+          "Identifiserer algoritmen som grådig.",
+          "Forklarer at den velger det som ser best ut i hvert steg."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Bærekraftige valg for virksomheter",
   "intro": "Hvordan virksomheter kan vurdere bærekraftige valg med tanke på sosiale, økonomiske og miljømessige forhold – trippel bunnlinje, FNs bærekraftsmål, sirkulær økonomi og livsløpsvurdering, bærekraft i markedsmiksen, miljøsertifiseringer – og hvordan de unngår grønnvasking og håndterer dilemmaer.",
-  "kompetansemaal": [13],
+  "kompetansemaal": [
+    13
+  ],
   "sammendrag": "## Tre dimensjoner\n\n**Bærekraftig utvikling** er utvikling som dekker dagens behov uten å ødelegge mulighetene for **kommende generasjoner**. For virksomheter brukes ofte **trippel bunnlinje**:\n\n- **Miljømessig** – planet: klima, natur, ressurser og forurensning\n- **Sosial** – people: arbeidsforhold, menneskerettigheter, helse og lokalsamfunn\n- **Økonomisk** – profit: lønnsomhet og **langsiktig** verdiskaping\n\nEn virksomhet som ikke er **lønnsom**, overlever ikke – men lønnsomhet på bekostning av miljø og mennesker er ikke bærekraftig.\n\n## FNs bærekraftsmål\n\n**FNs 17 bærekraftsmål** gir en felles ramme. Mange virksomheter velger ut de målene der de har størst **påvirkning** – for eksempel **ansvarlig forbruk og produksjon** eller **anstendig arbeid**.\n\n## Sirkulær økonomi\n\nI en **lineær** økonomi **utvinner**, **produserer**, **bruker** og **kaster** vi. I en **sirkulær** økonomi holdes ressursene i bruk så lenge som mulig:\n\n- **Design** for lang levetid og reparasjon\n- **Gjenbruk**, **reparasjon** og **utleie**\n- **Materialgjenvinning**\n- **Ombruk** av brukte produkter\n\n## Livsløpsvurdering\n\nEn **livsløpsvurdering** kartlegger miljøbelastningen gjennom **hele** livet til et produkt – råvarer, produksjon, transport, bruk og avfall. Den kan avsløre at det største avtrykket ligger et **annet** sted enn man tror.\n\n## Bærekraft i markedsmiksen\n\n- **Produkt**: mer miljøvennlige materialer, lang levetid, reparerbarhet og mindre **emballasje**\n- **Pris**: prisen bør dekke de **reelle** kostnadene. Bærekraftige produkter kan koste mer – hvordan får man kundene til å betale?\n- **Distribusjon**: kortreiste varer, effektiv logistikk og **utslippsfri** transport\n- **Påvirkning**: **ærlig** og **dokumentert** kommunikasjon om bærekraft\n- **Personale** og **prosesser**: gode **arbeidsforhold** og **energieffektiv** drift\n\n## Sertifiseringer og merker\n\n**Miljøsertifiseringer** og **merkeordninger** – som **Svanemerket**, **EU Ecolabel**, **Fairtrade** og miljøledelsessystemer som **Miljøfyrtårn** og **ISO 14001** – kan dokumentere innsatsen og gi **troverdighet**.\n\n## Grønnvasking\n\n**Grønnvasking** er å gi inntrykk av at et produkt eller en virksomhet er mer **miljøvennlig** enn det er. Eksempler er vage ord som «**grønn**» og «**klimanøytral**» uten dokumentasjon, eller å fremheve én liten forbedring mens resten av virksomheten er uendret. **Forbrukertilsynet** har laget veiledning, og miljøpåstander må kunne **dokumenteres**. Grønnvasking kan gi **bøter** og **omdømmetap**.\n\n## Dilemmaer\n\n- **Kostnad** mot **miljø**: Bærekraftige løsninger kan være dyrere på kort sikt.\n- **Vekst** mot **ressursbruk**: Er det bærekraftig å selge **mer**?\n- **Arbeidsplasser** mot **miljøhensyn**: Å legge ned forurensende produksjon kan koste jobber.\n- **Kundenes ønsker** mot **handling**: Mange sier de vil kjøpe bærekraftig, men velger ofte det **billigste**.\n\n## Vurdering\n\nNår du vurderer et bærekraftig valg, kan du spørre:\n\n1. Hvilken **effekt** har tiltaket på miljø, mennesker og økonomi?\n2. Er det **dokumentert** og **målbart**?\n3. Er det knyttet til **kjernevirksomheten**?\n4. Er det **lønnsomt** på **lang** sikt?\n5. Kan det kommuniseres **ærlig** uten å overdrive?\n\nBærekraft handler om **helhet** og **langsiktighet** – og om å ta **valg** mellom hensyn som ikke alltid trekker i samme retning.",
   "flashcards": [
-    { "term": "Bærekraftig utvikling", "def": "Dekke dagens behov uten å ødelegge for kommende generasjoner." },
-    { "term": "Trippel bunnlinje", "def": "Miljø, sosiale forhold og økonomi." },
-    { "term": "FNs bærekraftsmål", "def": "17 mål som felles ramme for bærekraft." },
-    { "term": "Lineær økonomi", "def": "Utvinne, produsere, bruke og kaste." },
-    { "term": "Sirkulær økonomi", "def": "Ressurser holdes i bruk så lenge som mulig." },
-    { "term": "Ombruk", "def": "Brukte produkter tas i bruk igjen." },
-    { "term": "Livsløpsvurdering", "def": "Miljøbelastning gjennom hele produktets liv." },
-    { "term": "Svanemerket", "def": "Nordisk miljømerke." },
-    { "term": "Fairtrade", "def": "Merke for rettferdig handel og bedre vilkår for produsenter." },
-    { "term": "Miljøfyrtårn", "def": "Norsk miljøledelsessertifisering." },
-    { "term": "ISO 14001", "def": "Internasjonal standard for miljøledelse." },
-    { "term": "Grønnvasking", "def": "Å gi inntrykk av å være mer miljøvennlig enn man er." },
-    { "term": "Dokumentasjonskrav", "def": "Miljøpåstander må kunne dokumenteres." },
-    { "term": "Holdning–handling-gap", "def": "Kunder sier de vil kjøpe bærekraftig, men velger ofte billigst." },
-    { "term": "Reelle kostnader", "def": "Prisen dekker også miljø- og samfunnskostnader." }
+    {
+      "term": "Bærekraftig utvikling",
+      "def": "Dekke dagens behov uten å ødelegge for kommende generasjoner."
+    },
+    {
+      "term": "Trippel bunnlinje",
+      "def": "Miljø, sosiale forhold og økonomi."
+    },
+    {
+      "term": "FNs bærekraftsmål",
+      "def": "17 mål som felles ramme for bærekraft."
+    },
+    {
+      "term": "Lineær økonomi",
+      "def": "Utvinne, produsere, bruke og kaste."
+    },
+    {
+      "term": "Sirkulær økonomi",
+      "def": "Ressurser holdes i bruk så lenge som mulig."
+    },
+    {
+      "term": "Ombruk",
+      "def": "Brukte produkter tas i bruk igjen."
+    },
+    {
+      "term": "Livsløpsvurdering",
+      "def": "Miljøbelastning gjennom hele produktets liv."
+    },
+    {
+      "term": "Svanemerket",
+      "def": "Nordisk miljømerke."
+    },
+    {
+      "term": "Fairtrade",
+      "def": "Merke for rettferdig handel og bedre vilkår for produsenter."
+    },
+    {
+      "term": "Miljøfyrtårn",
+      "def": "Norsk miljøledelsessertifisering."
+    },
+    {
+      "term": "ISO 14001",
+      "def": "Internasjonal standard for miljøledelse."
+    },
+    {
+      "term": "Grønnvasking",
+      "def": "Å gi inntrykk av å være mer miljøvennlig enn man er."
+    },
+    {
+      "term": "Dokumentasjonskrav",
+      "def": "Miljøpåstander må kunne dokumenteres."
+    },
+    {
+      "term": "Holdning–handling-gap",
+      "def": "Kunder sier de vil kjøpe bærekraftig, men velger ofte billigst."
+    },
+    {
+      "term": "Reelle kostnader",
+      "def": "Prisen dekker også miljø- og samfunnskostnader."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er de tre dimensjonene i trippel bunnlinje?", "options": ["Pris, produkt og plass", "Miljø, sosiale forhold og økonomi", "Styrker, svakheter og trusler", "Stat, fylke og kommune"], "correct": 1, "explain": "Planet, people og profit." },
-    { "id": "q02", "text": "Hva kjennetegner sirkulær økonomi?", "options": ["Ressurser holdes i bruk så lenge som mulig", "Utvinne, bruke og kaste", "Bare resirkulering av papir", "Ingen produksjon"], "correct": 0, "explain": "Gjenbruk, reparasjon og gjenvinning." },
-    { "id": "q03", "text": "Hva er en livsløpsvurdering?", "options": ["En vurdering av ansatte", "En markedsundersøkelse", "Kartlegging av miljøbelastning gjennom hele produktets liv", "En prisstrategi"], "correct": 2, "explain": "Fra råvare til avfall." },
-    { "id": "q04", "text": "Hva er grønnvasking?", "options": ["Miljøsertifisering", "Ærlig miljøkommunikasjon", "Resirkulering", "Å gi inntrykk av å være mer miljøvennlig enn man er"], "correct": 3, "explain": "Kan gi bøter og omdømmetap." },
-    { "id": "q05", "text": "Hva må miljøpåstander i markedsføring kunne?", "options": ["Dokumenteres", "Være vage", "Bruke grønn farge", "Være på engelsk"], "correct": 0, "explain": "Forbrukertilsynets veiledning." },
-    { "id": "q06", "text": "Hva er et bærekraftig produkttiltak?", "options": ["Mer emballasje", "Lang levetid og reparerbarhet", "Planlagt foreldelse", "Kortere garanti"], "correct": 1, "explain": "Design for lang levetid." },
-    { "id": "q07", "text": "Hva er holdning–handling-gapet?", "options": ["At ansatte ikke møter", "At lederen ikke lytter", "At kunder sier de vil kjøpe bærekraftig, men ofte velger billigst", "At priser er høye"], "correct": 2, "explain": "Et dilemma for virksomheter." },
-    { "id": "q08", "text": "Hvilket merke handler om rettferdig handel?", "options": ["ISO 14001", "Miljøfyrtårn", "Svanemerket", "Fairtrade"], "correct": 3, "explain": "Bedre vilkår for produsenter." },
-    { "id": "q09", "text": "Hvorfor er lønnsomhet en del av bærekraft?", "options": ["Fordi en virksomhet som ikke er lønnsom, ikke overlever", "Fordi bare penger teller", "Fordi miljø ikke betyr noe", "Det er det ikke"], "correct": 0, "explain": "Økonomisk dimensjon." },
-    { "id": "q10", "text": "Hva er et dilemma ved bærekraftige valg?", "options": ["At alt er gratis", "At bærekraftige løsninger kan være dyrere på kort sikt", "At kundene alltid betaler mer", "At det ikke finnes valg"], "correct": 1, "explain": "Kostnad mot miljø." }
+    {
+      "id": "q01",
+      "text": "Hva er de tre dimensjonene i trippel bunnlinje?",
+      "options": [
+        "Pris, produkt og plass",
+        "Miljø, sosiale forhold og økonomi",
+        "Styrker, svakheter og trusler",
+        "Stat, fylke og kommune"
+      ],
+      "correct": 1,
+      "explain": "Planet, people og profit."
+    },
+    {
+      "id": "q02",
+      "text": "Hva kjennetegner sirkulær økonomi?",
+      "options": [
+        "Ressurser holdes i bruk så lenge som mulig",
+        "Utvinne, bruke og kaste",
+        "Bare resirkulering av papir",
+        "Ingen produksjon"
+      ],
+      "correct": 0,
+      "explain": "Gjenbruk, reparasjon og gjenvinning."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en livsløpsvurdering?",
+      "options": [
+        "En vurdering av ansatte",
+        "En markedsundersøkelse",
+        "Kartlegging av miljøbelastning gjennom hele produktets liv",
+        "En prisstrategi"
+      ],
+      "correct": 2,
+      "explain": "Fra råvare til avfall."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er grønnvasking?",
+      "options": [
+        "Miljøsertifisering",
+        "Ærlig miljøkommunikasjon",
+        "Resirkulering",
+        "Å gi inntrykk av å være mer miljøvennlig enn man er"
+      ],
+      "correct": 3,
+      "explain": "Kan gi bøter og omdømmetap."
+    },
+    {
+      "id": "q05",
+      "text": "Hva må miljøpåstander i markedsføring kunne?",
+      "options": [
+        "Dokumenteres",
+        "Være vage",
+        "Bruke grønn farge",
+        "Være på engelsk"
+      ],
+      "correct": 0,
+      "explain": "Forbrukertilsynets veiledning."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er et bærekraftig produkttiltak?",
+      "options": [
+        "Mer emballasje",
+        "Lang levetid og reparerbarhet",
+        "Planlagt foreldelse",
+        "Kortere garanti"
+      ],
+      "correct": 1,
+      "explain": "Design for lang levetid."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er holdning–handling-gapet?",
+      "options": [
+        "At ansatte ikke møter",
+        "At lederen ikke lytter",
+        "At kunder sier de vil kjøpe bærekraftig, men ofte velger billigst",
+        "At priser er høye"
+      ],
+      "correct": 2,
+      "explain": "Et dilemma for virksomheter."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket merke handler om rettferdig handel?",
+      "options": [
+        "ISO 14001",
+        "Miljøfyrtårn",
+        "Svanemerket",
+        "Fairtrade"
+      ],
+      "correct": 3,
+      "explain": "Bedre vilkår for produsenter."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er lønnsomhet en del av bærekraft?",
+      "options": [
+        "Fordi en virksomhet som ikke er lønnsom, ikke overlever",
+        "Fordi bare penger teller",
+        "Fordi miljø ikke betyr noe",
+        "Det er det ikke"
+      ],
+      "correct": 0,
+      "explain": "Økonomisk dimensjon."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et dilemma ved bærekraftige valg?",
+      "options": [
+        "At alt er gratis",
+        "At bærekraftige løsninger kan være dyrere på kort sikt",
+        "At kundene alltid betaler mer",
+        "At det ikke finnes valg"
+      ],
+      "correct": 1,
+      "explain": "Kostnad mot miljø."
+    }
   ],
   "mindmap": {
     "label": "Bærekraftige valg",
     "children": [
-      { "label": "Dimensjoner", "children": [
-        { "label": "Miljø" },
-        { "label": "Sosial" },
-        { "label": "Økonomi" }
-      ] },
-      { "label": "Rammer", "children": [
-        { "label": "FNs bærekraftsmål" },
-        { "label": "Sirkulær økonomi" },
-        { "label": "Livsløpsvurdering" }
-      ] },
-      { "label": "Markedsmiks", "children": [
-        { "label": "Produkt og emballasje" },
-        { "label": "Pris og distribusjon" },
-        { "label": "Ærlig kommunikasjon" }
-      ] },
-      { "label": "Dokumentasjon", "children": [
-        { "label": "Sertifiseringer og merker" },
-        { "label": "Unngå grønnvasking" }
-      ] },
-      { "label": "Dilemmaer", "children": [
-        { "label": "Kostnad og vekst" },
-        { "label": "Arbeidsplasser" },
-        { "label": "Holdning og handling" }
-      ] }
+      {
+        "label": "Dimensjoner",
+        "children": [
+          {
+            "label": "Miljø"
+          },
+          {
+            "label": "Sosial"
+          },
+          {
+            "label": "Økonomi"
+          }
+        ]
+      },
+      {
+        "label": "Rammer",
+        "children": [
+          {
+            "label": "FNs bærekraftsmål"
+          },
+          {
+            "label": "Sirkulær økonomi"
+          },
+          {
+            "label": "Livsløpsvurdering"
+          }
+        ]
+      },
+      {
+        "label": "Markedsmiks",
+        "children": [
+          {
+            "label": "Produkt og emballasje"
+          },
+          {
+            "label": "Pris og distribusjon"
+          },
+          {
+            "label": "Ærlig kommunikasjon"
+          }
+        ]
+      },
+      {
+        "label": "Dokumentasjon",
+        "children": [
+          {
+            "label": "Sertifiseringer og merker"
+          },
+          {
+            "label": "Unngå grønnvasking"
+          }
+        ]
+      },
+      {
+        "label": "Dilemmaer",
+        "children": [
+          {
+            "label": "Kostnad og vekst"
+          },
+          {
+            "label": "Arbeidsplasser"
+          },
+          {
+            "label": "Holdning og handling"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En livsløpsvurdering kan vise at det største avtrykket ligger et annet sted enn man tror.", "correct": true, "explain": "For eksempel i bruksfasen." },
-      { "id": "m02", "type": "sant-usant", "text": "Ordet «grønn» i reklame trenger ingen dokumentasjon.", "correct": false, "explain": "Miljøpåstander må kunne dokumenteres." },
-      { "id": "m03", "type": "sant-usant", "text": "Utleie og reparasjon er eksempler på sirkulær økonomi.", "correct": true, "explain": "Ressursene holdes i bruk." },
-      { "id": "m04", "type": "sant-usant", "text": "Bærekraft handler bare om miljø.", "correct": false, "explain": "Også sosiale og økonomiske forhold." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket tiltak gjør distribusjonen mer bærekraftig?", "options": ["Mer flyfrakt", "Utslippsfri transport og effektiv logistikk", "Mer emballasje", "Lengre transport"], "correct": 1, "explain": "Også kortreiste varer." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er Miljøfyrtårn?", "options": ["En norsk miljøledelsessertifisering", "Et fyrtårn", "En lov", "En type reklame"], "correct": 0, "explain": "Dokumenterer miljøinnsats." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål hører med når du vurderer et bærekraftig valg?", "options": ["Er logoen grønn?", "Er det populært på nett?", "Er effekten dokumentert og målbar?", "Er det billigst?"], "correct": 2, "explain": "Også lønnsomhet på lang sikt." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En livsløpsvurdering kan vise at det største avtrykket ligger et annet sted enn man tror.",
+        "correct": true,
+        "explain": "For eksempel i bruksfasen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Ordet «grønn» i reklame trenger ingen dokumentasjon.",
+        "correct": false,
+        "explain": "Miljøpåstander må kunne dokumenteres."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Utleie og reparasjon er eksempler på sirkulær økonomi.",
+        "correct": true,
+        "explain": "Ressursene holdes i bruk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Bærekraft handler bare om miljø.",
+        "correct": false,
+        "explain": "Også sosiale og økonomiske forhold."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket tiltak gjør distribusjonen mer bærekraftig?",
+        "options": [
+          "Mer flyfrakt",
+          "Utslippsfri transport og effektiv logistikk",
+          "Mer emballasje",
+          "Lengre transport"
+        ],
+        "correct": 1,
+        "explain": "Også kortreiste varer."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er Miljøfyrtårn?",
+        "options": [
+          "En norsk miljøledelsessertifisering",
+          "Et fyrtårn",
+          "En lov",
+          "En type reklame"
+        ],
+        "correct": 0,
+        "explain": "Dokumenterer miljøinnsats."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket spørsmål hører med når du vurderer et bærekraftig valg?",
+        "options": [
+          "Er logoen grønn?",
+          "Er det populært på nett?",
+          "Er effekten dokumentert og målbar?",
+          "Er det billigst?"
+        ],
+        "correct": 2,
+        "explain": "Også lønnsomhet på lang sikt."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En virksomhet dekker kundenes behov i dag ved å bruke ressurser på en måte som svekker kommende generasjoners mulighet til å dekke sine behov. Forklar hvorfor dette ikke er bærekraftig utvikling.",
+        "fasit": "Bærekraftig utvikling skal dekke dagens behov uten å ødelegge mulighetene for kommende generasjoner. Virksomhetens ressursbruk svekker disse mulighetene.",
+        "kriterier": [
+          "Forklarer at bærekraftig utvikling tar hensyn til både dagens behov og kommende generasjoner.",
+          "Knytter virksomhetens ressursbruk til at framtidige muligheter svekkes."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En virksomhet har særlig stor påvirkning på arbeidsforholdene til menneskene som produserer varene den selger. Hvilket av FNs bærekraftsmål som er nevnt her, passer best for virksomheten å prioritere, og hvorfor?",
+        "fasit": "Anstendig arbeid passer best fordi målet handler om arbeidsforhold. Virksomheten bør velge mål som henger sammen med områdene den har størst påvirkning på.",
+        "kriterier": [
+          "Velger anstendig arbeid som relevant bærekraftsmål.",
+          "Begrunner valget med virksomhetens påvirkning på arbeidsforhold."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen på ombruk og materialgjenvinning av et brukt produkt.",
+        "fasit": "Ved ombruk tas det brukte produktet i bruk igjen. Ved materialgjenvinning gjenvinnes materialene i produktet.",
+        "kriterier": [
+          "Forklarer at ombruk betyr at det brukte produktet brukes igjen.",
+          "Skiller dette fra materialgjenvinning, der materialene gjenvinnes."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En livsløpsvurdering av et produkt viser at transport står for større miljøbelastning enn emballasjen. Virksomheten hadde planlagt å bare redusere emballasjen. Forklar hvordan vurderingen bør påvirke hva virksomheten prioriterer.",
+        "fasit": "Virksomheten bør vurdere tiltak som reduserer belastningen fra transport, siden vurderingen viser at dette bidrar mest. Den bør se på hele produktets livsløp og ikke bare emballasjen.",
+        "kriterier": [
+          "Knytter prioriteringen til at transport står for den største belastningen i situasjonen.",
+          "Viser at tiltak bør vurderes ut fra produktets samlede livsløp."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign hva Svanemerket og Fairtrade særlig forteller om et produkt.",
+        "fasit": "Svanemerket er et nordisk miljømerke. Fairtrade handler om rettferdig handel og bedre vilkår for produsenter.",
+        "kriterier": [
+          "Knytter Svanemerket til miljø.",
+          "Knytter Fairtrade til rettferdig handel eller bedre vilkår for produsenter."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En virksomhet vil sette en pris som dekker produktets reelle kostnader, også miljø- og samfunnskostnader. Forklar hvorfor dette kan gjøre prisen høyere, og hvordan det henger sammen med bærekraftige valg.",
+        "fasit": "Når prisen skal dekke miljø- og samfunnskostnader i tillegg til andre kostnader, kan den bli høyere. Da gjenspeiler prisen kostnadene bedre, selv om bærekraftige produkter kan være dyrere for kundene.",
+        "kriterier": [
+          "Forklarer at miljø- og samfunnskostnader kan bidra til en høyere pris.",
+          "Knytter prisen til at de reelle kostnadene skal dekkes."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En virksomhet omtaler et produkt som «grønt» uten dokumentasjon og framhever én liten forbedring, selv om resten av virksomheten er uendret. Forklar hvorfor dette kan være villedende, og nevn én mulig konsekvens.",
+        "fasit": "Påstanden kan gi inntrykk av at produktet eller virksomheten er mer miljøvennlig enn den er, uten at dette er dokumentert. Virksomheten kan risikere bøter eller omdømmetap.",
+        "kriterier": [
+          "Forklarer at påstanden gir et overdrevet eller udokumentert inntrykk av miljøvennlighet.",
+          "Nevner bøter eller omdømmetap som en mulig konsekvens."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En virksomhet vurderer å legge ned en forurensende produksjon, men nedleggingen kan koste arbeidsplasser. Forklar hvilke hensyn som står mot hverandre, og hvorfor valget må vurderes bredt.",
+        "fasit": "Miljøhensyn står mot hensynet til arbeidsplasser og mennesker. Valget må vurderes bredt fordi bærekraft handler om flere hensyn som ikke alltid trekker i samme retning.",
+        "kriterier": [
+          "Forklarer konflikten mellom å redusere forurensning og å bevare arbeidsplasser.",
+          "Viser at bærekraftige valg krever at flere hensyn vurderes samlet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

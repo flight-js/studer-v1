@@ -4,77 +4,421 @@
   "trinnId": "vg2",
   "name": "Kulturbegrepet og kultursammenligning",
   "intro": "Ulike oppfatninger av kultur – fra finkultur til kultur som felles mening – etnosentrisme og kulturrelativisme, og hvordan antropologer sammenligner kulturfenomener som gaver, ritualer og slektskap innad i og mellom kulturer.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Hva er kultur?\n\nOrdet **kultur** brukes på mange måter:\n\n- **Finkultur** (det humanistiske kulturbegrepet): kunst, litteratur, musikk og teater – «kultur» som noe man kan ha **mer eller mindre** av.\n- **Det beskrivende kulturbegrepet**: Antropologen **Edward B. Tylor** definerte i 1871 kultur som den **komplekse helheten** av kunnskap, tro, kunst, moral, lover, skikker og vaner mennesker tilegner seg som medlemmer av et samfunn. Etter dette synet har **alle** mennesker kultur.\n- **Kultur som mening**: **Clifford Geertz** så kultur som et **nett av meninger** som mennesker selv har spunnet, og som vi må **tolke** for å forstå handlinger.\n- **Kultur som prosess**: Moderne antropologer understreker at kultur ikke er en fast «ting», men noe som hele tiden **skapes**, **forhandles** og **endres** – og at det finnes stor **variasjon** innad i en kultur.\n\nKultur er **lært**, **delt** og **overført** mellom generasjoner, i motsetning til det som er medfødt.\n\n## Etnosentrisme og kulturrelativisme\n\n- **Etnosentrisme** betyr å vurdere andre kulturer ut fra **egen** kultur som målestokk – ofte slik at ens egen kultur fremstår som den **rette**.\n- **Kulturrelativisme** betyr å forsøke å forstå handlinger ut fra **den kulturen de hører til i**. Som **metode** er dette viktig i antropologien. Som **moralsk standpunkt** – at alt er like riktig – er det omstridt, for eksempel når det gjelder menneskerettigheter.\n\n## Sammenligne kulturfenomener\n\nAntropologer sammenligner for å finne både **likheter** og **forskjeller** – og for å se sin egen kultur med nye øyne.\n\n**Gaver**: **Marcel Mauss** viste i «Gaven» (1925) at gaver skaper **forpliktelser**: plikten til å **gi**, å **ta imot** og å **gi tilbake**. Gaver bygger **relasjoner**. Det gjelder både seremonielle byttesystemer i Stillehavet og julegaver og bursdagsgaver i Norge.\n\n**Overgangsriter**: **Arnold van Gennep** beskrev ritualer som markerer overgang fra én status til en annen – med tre faser: **atskillelse**, **overgang** (en **liminal** fase «mellom») og **innlemmelse**. Eksempler er konfirmasjon, russetid, bryllup, begravelse og innvielsesritualer i mange kulturer.\n\n**Slektskap**: Hvem regnes som familie, og hvem arver? Noen samfunn regner slekt bare gjennom **mors** linje, andre gjennom **fars**, og i Norge gjennom **begge**. Storfamilie og kjernefamilie gir ulike rettigheter og plikter.\n\n**Mat**: Hva som regnes som spiselig, og hvem man spiser med, sier mye om verdier, religion og fellesskap.\n\n## Variasjon innad i kulturer\n\nInnenfor Norge finnes store forskjeller – mellom by og land, generasjoner, religiøse og etniske grupper, samer og majoritetsbefolkning. Begreper som **subkultur** brukes om grupper med egne normer og stil, for eksempel i musikk, gaming eller idrett.\n\n## Drøfting\n\nEt sterkt, fast kulturbegrep kan føre til **stereotypier** – at «alle» i en gruppe tenker likt. Et åpnere kulturbegrep gir rom for **individer**, **endring** og **blanding**, men kan gjøre det vanskelig å si noe generelt. Diskuter hvilket kulturbegrep som passer best til ulike formål.",
   "flashcards": [
-    { "term": "Finkultur", "def": "Kunst, litteratur og musikk – det humanistiske kulturbegrepet." },
-    { "term": "Det beskrivende kulturbegrepet", "def": "Kultur som den komplekse helheten av kunnskap, tro, skikker og vaner." },
-    { "term": "Edward B. Tylor", "def": "Definerte kultur som en kompleks helhet i 1871." },
-    { "term": "Clifford Geertz", "def": "Kultur som et nett av meninger som må tolkes." },
-    { "term": "Kultur som prosess", "def": "Kultur skapes, forhandles og endres hele tiden." },
-    { "term": "Etnosentrisme", "def": "Å vurdere andre kulturer ut fra egen kultur som målestokk." },
-    { "term": "Kulturrelativisme", "def": "Å forstå handlinger ut fra kulturen de hører til i." },
-    { "term": "Marcel Mauss", "def": "Skrev «Gaven» om gavers forpliktelser (1925)." },
-    { "term": "Gavens tre plikter", "def": "Å gi, å ta imot og å gi tilbake." },
-    { "term": "Overgangsrite", "def": "Ritual som markerer overgang fra én status til en annen." },
-    { "term": "Arnold van Gennep", "def": "Beskrev overgangsriter med tre faser." },
-    { "term": "Liminal fase", "def": "Overgangsfasen «mellom» to statuser." },
-    { "term": "Slektskap", "def": "Hvem som regnes som familie, med rettigheter og plikter." },
-    { "term": "Subkultur", "def": "Gruppe med egne normer og stil innenfor en større kultur." },
-    { "term": "Stereotypi", "def": "Forenklet og generaliserende bilde av en gruppe." }
+    {
+      "term": "Finkultur",
+      "def": "Kunst, litteratur og musikk – det humanistiske kulturbegrepet."
+    },
+    {
+      "term": "Det beskrivende kulturbegrepet",
+      "def": "Kultur som den komplekse helheten av kunnskap, tro, skikker og vaner."
+    },
+    {
+      "term": "Edward B. Tylor",
+      "def": "Definerte kultur som en kompleks helhet i 1871."
+    },
+    {
+      "term": "Clifford Geertz",
+      "def": "Kultur som et nett av meninger som må tolkes."
+    },
+    {
+      "term": "Kultur som prosess",
+      "def": "Kultur skapes, forhandles og endres hele tiden."
+    },
+    {
+      "term": "Etnosentrisme",
+      "def": "Å vurdere andre kulturer ut fra egen kultur som målestokk."
+    },
+    {
+      "term": "Kulturrelativisme",
+      "def": "Å forstå handlinger ut fra kulturen de hører til i."
+    },
+    {
+      "term": "Marcel Mauss",
+      "def": "Skrev «Gaven» om gavers forpliktelser (1925)."
+    },
+    {
+      "term": "Gavens tre plikter",
+      "def": "Å gi, å ta imot og å gi tilbake."
+    },
+    {
+      "term": "Overgangsrite",
+      "def": "Ritual som markerer overgang fra én status til en annen."
+    },
+    {
+      "term": "Arnold van Gennep",
+      "def": "Beskrev overgangsriter med tre faser."
+    },
+    {
+      "term": "Liminal fase",
+      "def": "Overgangsfasen «mellom» to statuser."
+    },
+    {
+      "term": "Slektskap",
+      "def": "Hvem som regnes som familie, med rettigheter og plikter."
+    },
+    {
+      "term": "Subkultur",
+      "def": "Gruppe med egne normer og stil innenfor en større kultur."
+    },
+    {
+      "term": "Stereotypi",
+      "def": "Forenklet og generaliserende bilde av en gruppe."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner det beskrivende kulturbegrepet?", "options": ["Kultur er bare kunst og musikk", "Alle mennesker har kultur – kunnskap, tro, skikker og vaner", "Bare noen har kultur", "Kultur er medfødt"], "correct": 1, "explain": "Tylors definisjon fra 1871." },
-    { "id": "q02", "text": "Hva er etnosentrisme?", "options": ["Å vurdere andre kulturer ut fra egen kultur som målestokk", "Å studere etnisitet", "Å respektere alle kulturer", "Å reise mye"], "correct": 0, "explain": "Egen kultur fremstår som den rette." },
-    { "id": "q03", "text": "Hva viste Marcel Mauss om gaver?", "options": ["At gaver er gratis", "At gaver bare finnes i Norge", "At gaver skaper forpliktelser og relasjoner", "At gaver er uviktige"], "correct": 2, "explain": "Å gi, ta imot og gi tilbake." },
-    { "id": "q04", "text": "Hvilke tre faser har en overgangsrite ifølge van Gennep?", "options": ["Fødsel, liv og død", "Barn, ungdom og voksen", "Start, midt og slutt", "Atskillelse, overgang og innlemmelse"], "correct": 3, "explain": "Overgangen er en liminal fase." },
-    { "id": "q05", "text": "Hvordan så Clifford Geertz på kultur?", "options": ["Som et nett av meninger som må tolkes", "Som biologi", "Som økonomi", "Som bare kunst"], "correct": 0, "explain": "Han la vekt på tolkning." },
-    { "id": "q06", "text": "Hva er kulturrelativisme som metode?", "options": ["At alle kulturer er like", "Å forsøke å forstå handlinger ut fra kulturen de hører til i", "Å dømme andre kulturer", "Å kopiere andre kulturer"], "correct": 1, "explain": "Som moralsk standpunkt er det omstridt." },
-    { "id": "q07", "text": "Hvilket er et eksempel på en overgangsrite i Norge?", "options": ["Å handle mat", "Å se på TV", "Konfirmasjon", "Å ta bussen"], "correct": 2, "explain": "Markerer overgang fra barn til ungdom." },
-    { "id": "q08", "text": "Hvorfor kan et fast kulturbegrep føre til stereotypier?", "options": ["Fordi det er for åpent", "Fordi det bare handler om kunst", "Fordi det er vitenskapelig", "Fordi det kan få det til å se ut som om alle i en gruppe tenker likt"], "correct": 3, "explain": "Det skjuler variasjon og endring." },
-    { "id": "q09", "text": "Hva er en subkultur?", "options": ["En gruppe med egne normer og stil innenfor en større kultur", "En kultur under vann", "En mindre verdifull kultur", "En utdødd kultur"], "correct": 0, "explain": "For eksempel i musikk eller gaming." },
-    { "id": "q10", "text": "Hva betyr det at kultur er lært?", "options": ["At den er arvelig", "At vi tilegner oss den gjennom sosialisering", "At den bare læres på skolen", "At den aldri endres"], "correct": 1, "explain": "Kultur er lært, delt og overført." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner det beskrivende kulturbegrepet?",
+      "options": [
+        "Kultur er bare kunst og musikk",
+        "Alle mennesker har kultur – kunnskap, tro, skikker og vaner",
+        "Bare noen har kultur",
+        "Kultur er medfødt"
+      ],
+      "correct": 1,
+      "explain": "Tylors definisjon fra 1871."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er etnosentrisme?",
+      "options": [
+        "Å vurdere andre kulturer ut fra egen kultur som målestokk",
+        "Å studere etnisitet",
+        "Å respektere alle kulturer",
+        "Å reise mye"
+      ],
+      "correct": 0,
+      "explain": "Egen kultur fremstår som den rette."
+    },
+    {
+      "id": "q03",
+      "text": "Hva viste Marcel Mauss om gaver?",
+      "options": [
+        "At gaver er gratis",
+        "At gaver bare finnes i Norge",
+        "At gaver skaper forpliktelser og relasjoner",
+        "At gaver er uviktige"
+      ],
+      "correct": 2,
+      "explain": "Å gi, ta imot og gi tilbake."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilke tre faser har en overgangsrite ifølge van Gennep?",
+      "options": [
+        "Fødsel, liv og død",
+        "Barn, ungdom og voksen",
+        "Start, midt og slutt",
+        "Atskillelse, overgang og innlemmelse"
+      ],
+      "correct": 3,
+      "explain": "Overgangen er en liminal fase."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan så Clifford Geertz på kultur?",
+      "options": [
+        "Som et nett av meninger som må tolkes",
+        "Som biologi",
+        "Som økonomi",
+        "Som bare kunst"
+      ],
+      "correct": 0,
+      "explain": "Han la vekt på tolkning."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er kulturrelativisme som metode?",
+      "options": [
+        "At alle kulturer er like",
+        "Å forsøke å forstå handlinger ut fra kulturen de hører til i",
+        "Å dømme andre kulturer",
+        "Å kopiere andre kulturer"
+      ],
+      "correct": 1,
+      "explain": "Som moralsk standpunkt er det omstridt."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket er et eksempel på en overgangsrite i Norge?",
+      "options": [
+        "Å handle mat",
+        "Å se på TV",
+        "Konfirmasjon",
+        "Å ta bussen"
+      ],
+      "correct": 2,
+      "explain": "Markerer overgang fra barn til ungdom."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor kan et fast kulturbegrep føre til stereotypier?",
+      "options": [
+        "Fordi det er for åpent",
+        "Fordi det bare handler om kunst",
+        "Fordi det er vitenskapelig",
+        "Fordi det kan få det til å se ut som om alle i en gruppe tenker likt"
+      ],
+      "correct": 3,
+      "explain": "Det skjuler variasjon og endring."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en subkultur?",
+      "options": [
+        "En gruppe med egne normer og stil innenfor en større kultur",
+        "En kultur under vann",
+        "En mindre verdifull kultur",
+        "En utdødd kultur"
+      ],
+      "correct": 0,
+      "explain": "For eksempel i musikk eller gaming."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr det at kultur er lært?",
+      "options": [
+        "At den er arvelig",
+        "At vi tilegner oss den gjennom sosialisering",
+        "At den bare læres på skolen",
+        "At den aldri endres"
+      ],
+      "correct": 1,
+      "explain": "Kultur er lært, delt og overført."
+    }
   ],
   "mindmap": {
     "label": "Kulturbegrepet",
     "children": [
-      { "label": "Kulturbegreper", "children": [
-        { "label": "Finkultur" },
-        { "label": "Tylor: kompleks helhet" },
-        { "label": "Geertz: mening" },
-        { "label": "Kultur som prosess" }
-      ] },
-      { "label": "Holdninger", "children": [
-        { "label": "Etnosentrisme" },
-        { "label": "Kulturrelativisme" }
-      ] },
-      { "label": "Sammenligning", "children": [
-        { "label": "Gaver (Mauss)" },
-        { "label": "Overgangsriter" },
-        { "label": "Slektskap og mat" }
-      ] },
-      { "label": "Variasjon", "children": [
-        { "label": "Innad i kulturer" },
-        { "label": "Subkulturer" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Stereotypier" },
-        { "label": "Åpent eller fast begrep" }
-      ] }
+      {
+        "label": "Kulturbegreper",
+        "children": [
+          {
+            "label": "Finkultur"
+          },
+          {
+            "label": "Tylor: kompleks helhet"
+          },
+          {
+            "label": "Geertz: mening"
+          },
+          {
+            "label": "Kultur som prosess"
+          }
+        ]
+      },
+      {
+        "label": "Holdninger",
+        "children": [
+          {
+            "label": "Etnosentrisme"
+          },
+          {
+            "label": "Kulturrelativisme"
+          }
+        ]
+      },
+      {
+        "label": "Sammenligning",
+        "children": [
+          {
+            "label": "Gaver (Mauss)"
+          },
+          {
+            "label": "Overgangsriter"
+          },
+          {
+            "label": "Slektskap og mat"
+          }
+        ]
+      },
+      {
+        "label": "Variasjon",
+        "children": [
+          {
+            "label": "Innad i kulturer"
+          },
+          {
+            "label": "Subkulturer"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Stereotypier"
+          },
+          {
+            "label": "Åpent eller fast begrep"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Etter det beskrivende kulturbegrepet har alle mennesker kultur.", "correct": true, "explain": "Kultur er ikke bare finkultur." },
-      { "id": "m02", "type": "sant-usant", "text": "Kulturrelativisme som moralsk standpunkt er ukontroversielt.", "correct": false, "explain": "Det er omstridt, særlig i møte med menneskerettigheter." },
-      { "id": "m03", "type": "sant-usant", "text": "Julegaver kan analyseres med Mauss' teori om gaver.", "correct": true, "explain": "De skaper forventninger om gjengjeld." },
-      { "id": "m04", "type": "sant-usant", "text": "Alle i Norge har nøyaktig samme kultur.", "correct": false, "explain": "Det er stor variasjon innad i Norge." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken fase i en overgangsrite er «mellom» to statuser?", "options": ["Atskillelse", "Den liminale fasen", "Innlemmelse", "Forberedelse"], "correct": 1, "explain": "Russetiden kan tolkes slik." },
-      { "id": "m06", "type": "flervalg", "text": "Hvem definerte kultur som en kompleks helhet i 1871?", "options": ["Edward B. Tylor", "Clifford Geertz", "Marcel Mauss", "Karl Marx"], "correct": 0, "explain": "En klassisk antropologisk definisjon." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor sammenligner antropologer kulturer?", "options": ["For å rangere dem", "For å bevise at én er best", "For å finne likheter og forskjeller og se egen kultur med nye øyne", "For å gjøre alle like"], "correct": 2, "explain": "Sammenligning gir innsikt." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Etter det beskrivende kulturbegrepet har alle mennesker kultur.",
+        "correct": true,
+        "explain": "Kultur er ikke bare finkultur."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kulturrelativisme som moralsk standpunkt er ukontroversielt.",
+        "correct": false,
+        "explain": "Det er omstridt, særlig i møte med menneskerettigheter."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Julegaver kan analyseres med Mauss' teori om gaver.",
+        "correct": true,
+        "explain": "De skaper forventninger om gjengjeld."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle i Norge har nøyaktig samme kultur.",
+        "correct": false,
+        "explain": "Det er stor variasjon innad i Norge."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken fase i en overgangsrite er «mellom» to statuser?",
+        "options": [
+          "Atskillelse",
+          "Den liminale fasen",
+          "Innlemmelse",
+          "Forberedelse"
+        ],
+        "correct": 1,
+        "explain": "Russetiden kan tolkes slik."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem definerte kultur som en kompleks helhet i 1871?",
+        "options": [
+          "Edward B. Tylor",
+          "Clifford Geertz",
+          "Marcel Mauss",
+          "Karl Marx"
+        ],
+        "correct": 0,
+        "explain": "En klassisk antropologisk definisjon."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor sammenligner antropologer kulturer?",
+        "options": [
+          "For å rangere dem",
+          "For å bevise at én er best",
+          "For å finne likheter og forskjeller og se egen kultur med nye øyne",
+          "For å gjøre alle like"
+        ],
+        "correct": 2,
+        "explain": "Sammenligning gir innsikt."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva er forskjellen på finkultur og kultur i det beskrivende kulturbegrepet? Forklar hva slags innhold hvert begrep legger vekt på.",
+        "fasit": "Finkultur viser til kunst, litteratur, musikk og teater. Det beskrivende kulturbegrepet omfatter en bredere helhet av blant annet kunnskap, tro, skikker og vaner i et samfunn.",
+        "kriterier": [
+          "Forklarer at finkultur handler om kunstneriske uttrykk.",
+          "Viser at det beskrivende kulturbegrepet favner flere sider ved livet i et samfunn."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I en gruppe forandrer en tradisjon seg over tid fordi medlemmene diskuterer hva den skal bety. Noen i gruppen følger også tradisjonen på andre måter enn andre. Forklar hvordan dette viser at kultur er en prosess.",
+        "fasit": "Kultur som prosess betyr at kultur ikke er fast, men skapes og forhandles mellom mennesker. Tradisjonen endres over tid, og gruppemedlemmene kan forstå eller praktisere den ulikt.",
+        "kriterier": [
+          "Får fram at kultur skapes eller forhandles, og ikke er fast.",
+          "Får fram at kultur kan endres eller variere mellom mennesker i samme gruppe."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En person møter en uvant skikk og sier at den er feil fordi den ikke følger reglene personen kjenner hjemmefra. Forklar hva som er etnosentrisk ved reaksjonen, og hvordan personen kan forsøke å forstå skikken på en annen måte.",
+        "fasit": "Reaksjonen er etnosentrisk fordi personen vurderer skikken ut fra sin egen kultur som målestokk. Personen kan forsøke å forstå hvilken mening skikken har i kulturen den hører til i.",
+        "kriterier": [
+          "Forklarer at personen bruker sin egen kultur som målestokk.",
+          "Foreslår å forstå skikken ut fra kulturen den hører til i."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hva er forskjellen på å bruke kulturrelativisme som metode og å mene at alle handlinger er like riktige? Ta med hvorfor det moralske standpunktet kan være omstridt.",
+        "fasit": "Som metode handler kulturrelativisme om å forstå handlinger ut fra kulturen de hører til i. Det er noe annet enn å mene at alt er like riktig, et standpunkt som kan være omstridt, blant annet i spørsmål om menneskerettigheter.",
+        "kriterier": [
+          "Skiller mellom å forstå handlinger i kulturell sammenheng og å vurdere alt som like riktig.",
+          "Nevner at det moralske standpunktet kan være omstridt, for eksempel i spørsmål om menneskerettigheter."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I ett samfunn regnes slekt gjennom mors linje, i et annet gjennom fars linje, mens slekt i Norge regnes gjennom begge. Sammenlign disse måtene å regne slekt på, og forklar hva slektskap kan ha betydning for.",
+        "fasit": "I det første samfunnet regnes slekt bare gjennom mors linje, og i det andre bare gjennom fars. I Norge regnes slekt gjennom begge linjene, og hvem som regnes som familie kan ha betydning for rettigheter og plikter.",
+        "kriterier": [
+          "Skiller mellom mors linje, fars linje og begge linjer.",
+          "Knytter slektskap til hvem som regnes som familie og/eller til rettigheter og plikter."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En antropolog undersøker et samfunn der mennesker samles for å spise, og der enkelte matvarer ikke regnes som spiselige. Forklar hva antropologen kan lære ved å undersøke matvanene.",
+        "fasit": "Matvaner kan vise hvilke verdier og hvilken religion som har betydning i samfunnet. De kan også si noe om fellesskap, for eksempel hvem som spiser sammen.",
+        "kriterier": [
+          "Knytter matvaner til verdier eller religion.",
+          "Får fram at mat og måltider kan uttrykke fellesskap eller hvem man spiser med."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev får en gave i en sammenheng der det forventes at eleven både tar imot og senere gir en gave tilbake. Forklar hvordan dette kan skape en relasjon mellom giveren og mottakeren.",
+        "fasit": "Gaven skaper forpliktelser: mottakeren skal ta imot og gi tilbake, slik giveren har gitt. Forpliktelsene knytter giveren og mottakeren sammen og bygger en relasjon.",
+        "kriterier": [
+          "Får fram at gaver kan innebære forpliktelser til å gi, ta imot eller gi tilbake.",
+          "Forklarer at forpliktelsene bidrar til å bygge en relasjon."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En gruppe innenfor et større samfunn har egne normer og en egen stil knyttet til gaming. Forklar hvorfor gruppen kan kalles en subkultur, og hva eksemplet viser om variasjon i samfunnet.",
+        "fasit": "Gruppen kan kalles en subkultur fordi den har egne normer og en egen stil innenfor en større kultur. Eksemplet viser at det finnes variasjon mellom grupper i samme samfunn.",
+        "kriterier": [
+          "Knytter subkultur til egne normer og/eller stil innenfor en større kultur.",
+          "Forklarer at eksemplet viser variasjon innad i samfunnet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

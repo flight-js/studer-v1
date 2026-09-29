@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Integral som grenseverdi av summer",
   "intro": "Hvordan det bestemte integralet defineres som grenseverdien av en følge av summer – venstre- og høyresummer, under- og oversummer, Riemann-summer – regneregler for bestemte integraler, og hvordan integralet tolkes som areal, strekning og samlet mengde.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Problemet\n\nHvordan finner vi **arealet** under en krum graf? Idéen er å dele området i mange smale **rektangler**, legge sammen arealene og la bredden gå mot 0.\n\n## Summer av rektangler\n\nDel intervallet [a, b] i n like deler med bredde\n\n**Δx = (b − a)/n**\n\nI hvert delintervall velger vi en høyde f(xᵢ):\n\n- **Venstresum**: høyden i venstre endepunkt\n- **Høyresum**: høyden i høyre endepunkt\n- **Undersum**: den minste funksjonsverdien i delintervallet\n- **Oversum**: den største funksjonsverdien\n\nEn slik sum Σ f(xᵢ) · Δx kalles en **Riemann-sum**.\n\n## Eksempel: f(x) = x² på [0, 1]\n\nMed n = 4 er Δx = 0,25.\n\n- Venstresum: (0 + 0,0625 + 0,25 + 0,5625) · 0,25 ≈ **0,219**\n- Høyresum: (0,0625 + 0,25 + 0,5625 + 1) · 0,25 ≈ **0,469**\n\nDet riktige arealet ligger mellom. Fordi f er **voksende**, er venstresummen en undersum og høyresummen en oversum.\n\nMed n delintervaller blir høyresummen\n\nΣ (i/n)² · (1/n) = (1/n³) · n(n + 1)(2n + 1)/6\n\nNår n → ∞, går dette mot **1/3**. Her bruker vi at 1² + 2² + … + n² = n(n + 1)(2n + 1)/6.\n\n## Det bestemte integralet\n\nNår under- og oversummene nærmer seg **samme** tall når n → ∞, kaller vi tallet det **bestemte integralet**:\n\n**∫ₐᵇ f(x) dx = lim (n → ∞) Σ f(xᵢ) · Δx**\n\n- ∫ er en langstrakt **S** for «sum».\n- dx minner om den uendelig smale bredden Δx.\n- a og b er **integrasjonsgrensene**.\n\nFor **kontinuerlige** funksjoner finnes grenseverdien alltid.\n\n## Fortegn\n\nDer grafen ligger **under** x-aksen, er f(xᵢ) negativ, og bidraget blir **negativt**. Integralet gir derfor et **areal med fortegn**. For å finne det **geometriske arealet** må du dele opp ved nullpunktene.\n\n## Regneregler\n\n- ∫ₐᵇ (f(x) + g(x)) dx = ∫ₐᵇ f(x) dx + ∫ₐᵇ g(x) dx\n- ∫ₐᵇ k · f(x) dx = k · ∫ₐᵇ f(x) dx\n- ∫ₐᵇ f(x) dx + ∫ᵦᶜ f(x) dx = ∫ₐᶜ f(x) dx (b mellom a og c)\n- ∫ₐᵃ f(x) dx = 0\n- ∫ᵦₐ f(x) dx = −∫ₐᵇ f(x) dx\n\n## Tolkning\n\nIntegralet er en **sum av mange små bidrag**, og **enheten** er y-enhet ganget med x-enhet:\n\n- **Fart** v(t) i m/s integrert over tid gir **forflytning** i meter.\n- **Vannføring** i liter per minutt integrert over tid gir **antall liter**.\n- **Effekt** i watt integrert over tid gir **energi** i joule.\n- **Befolkningstetthet** integrert over areal gir **antall mennesker**.\n\nDenne tolkningen gjør at integraler kan brukes i svært mange **praktiske** situasjoner – også når vi bare har **måledata** og må regne ut summen **numerisk**.",
   "flashcards": [
-    { "term": "Δx", "def": "Bredden på hvert delintervall: (b − a)/n." },
-    { "term": "Venstresum", "def": "Rektangelhøyden hentes i venstre endepunkt." },
-    { "term": "Høyresum", "def": "Rektangelhøyden hentes i høyre endepunkt." },
-    { "term": "Undersum", "def": "Bruker den minste funksjonsverdien i hvert delintervall." },
-    { "term": "Oversum", "def": "Bruker den største funksjonsverdien i hvert delintervall." },
-    { "term": "Riemann-sum", "def": "Σ f(xᵢ) · Δx" },
-    { "term": "Bestemt integral", "def": "Grenseverdien av Riemann-summene når n → ∞." },
-    { "term": "Integrasjonsgrenser", "def": "a og b i ∫ₐᵇ f(x) dx." },
-    { "term": "Integraltegnet ∫", "def": "En langstrakt S for «sum»." },
-    { "term": "Areal med fortegn", "def": "Områder under x-aksen teller negativt." },
-    { "term": "∫ₐᵃ f(x) dx", "def": "0" },
-    { "term": "Bytte grenser", "def": "∫ᵦₐ f(x) dx = −∫ₐᵇ f(x) dx" },
-    { "term": "Enhet til integral", "def": "y-enhet ganget med x-enhet." },
-    { "term": "Integral av fart", "def": "Forflytning." },
-    { "term": "Integral av effekt", "def": "Energi." }
+    {
+      "term": "Δx",
+      "def": "Bredden på hvert delintervall: (b − a)/n."
+    },
+    {
+      "term": "Venstresum",
+      "def": "Rektangelhøyden hentes i venstre endepunkt."
+    },
+    {
+      "term": "Høyresum",
+      "def": "Rektangelhøyden hentes i høyre endepunkt."
+    },
+    {
+      "term": "Undersum",
+      "def": "Bruker den minste funksjonsverdien i hvert delintervall."
+    },
+    {
+      "term": "Oversum",
+      "def": "Bruker den største funksjonsverdien i hvert delintervall."
+    },
+    {
+      "term": "Riemann-sum",
+      "def": "Σ f(xᵢ) · Δx"
+    },
+    {
+      "term": "Bestemt integral",
+      "def": "Grenseverdien av Riemann-summene når n → ∞."
+    },
+    {
+      "term": "Integrasjonsgrenser",
+      "def": "a og b i ∫ₐᵇ f(x) dx."
+    },
+    {
+      "term": "Integraltegnet ∫",
+      "def": "En langstrakt S for «sum»."
+    },
+    {
+      "term": "Areal med fortegn",
+      "def": "Områder under x-aksen teller negativt."
+    },
+    {
+      "term": "∫ₐᵃ f(x) dx",
+      "def": "0"
+    },
+    {
+      "term": "Bytte grenser",
+      "def": "∫ᵦₐ f(x) dx = −∫ₐᵇ f(x) dx"
+    },
+    {
+      "term": "Enhet til integral",
+      "def": "y-enhet ganget med x-enhet."
+    },
+    {
+      "term": "Integral av fart",
+      "def": "Forflytning."
+    },
+    {
+      "term": "Integral av effekt",
+      "def": "Energi."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er Δx når [0, 2] deles i 8 like deler?", "options": ["0,5", "0,25", "2", "8"], "correct": 1, "explain": "(2 − 0)/8." },
-    { "id": "q02", "text": "Hvordan defineres det bestemte integralet?", "options": ["Som grenseverdien av Riemann-summer når n → ∞", "Som den deriverte", "Som en venstresum med n = 4", "Som f(b) · b"], "correct": 0, "explain": "Rektanglene blir uendelig smale." },
-    { "id": "q03", "text": "Hvilken sum er en oversum for en voksende funksjon?", "options": ["Venstresummen", "Midtpunktsummen", "Høyresummen", "Ingen"], "correct": 2, "explain": "Høyre endepunkt har størst verdi." },
-    { "id": "q04", "text": "Hva er høyresummen for f(x) = x² på [0, 1] med n = 2?", "options": ["0,125", "0,25", "1", "0,625"], "correct": 3, "explain": "(0,25 + 1) · 0,5 = 0,625." },
-    { "id": "q05", "text": "Hva gir integralet av farten over et tidsintervall?", "options": ["Forflytningen", "Akselerasjonen", "Tiden", "Massen"], "correct": 0, "explain": "m/s · s = m." },
-    { "id": "q06", "text": "Hva er ∫ᵦₐ f(x) dx uttrykt ved ∫ₐᵇ f(x) dx?", "options": ["Det samme", "−∫ₐᵇ f(x) dx", "0", "2∫ₐᵇ f(x) dx"], "correct": 1, "explain": "Å bytte grensene skifter fortegn." },
-    { "id": "q07", "text": "Hva skjer med integralet der grafen ligger under x-aksen?", "options": ["Bidraget blir positivt", "Det ignoreres", "Bidraget blir negativt", "Det dobles"], "correct": 2, "explain": "Areal med fortegn." },
-    { "id": "q08", "text": "Hvilken enhet får integralet av effekt i watt over tid i sekunder?", "options": ["Watt", "Meter", "Sekunder", "Joule"], "correct": 3, "explain": "W · s = J." },
-    { "id": "q09", "text": "Hva er ∫ₐᵇ 3f(x) dx hvis ∫ₐᵇ f(x) dx = 5?", "options": ["15", "8", "5", "3"], "correct": 0, "explain": "Konstanter kan settes utenfor." },
-    { "id": "q10", "text": "Hvilken verdi går høyresummene for x² på [0, 1] mot?", "options": ["1/2", "1/3", "1", "0"], "correct": 1, "explain": "(1/n³) · n(n + 1)(2n + 1)/6 → 1/3." }
+    {
+      "id": "q01",
+      "text": "Hva er Δx når [0, 2] deles i 8 like deler?",
+      "options": [
+        "0,5",
+        "0,25",
+        "2",
+        "8"
+      ],
+      "correct": 1,
+      "explain": "(2 − 0)/8."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan defineres det bestemte integralet?",
+      "options": [
+        "Som grenseverdien av Riemann-summer når n → ∞",
+        "Som den deriverte",
+        "Som en venstresum med n = 4",
+        "Som f(b) · b"
+      ],
+      "correct": 0,
+      "explain": "Rektanglene blir uendelig smale."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken sum er en oversum for en voksende funksjon?",
+      "options": [
+        "Venstresummen",
+        "Midtpunktsummen",
+        "Høyresummen",
+        "Ingen"
+      ],
+      "correct": 2,
+      "explain": "Høyre endepunkt har størst verdi."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er høyresummen for f(x) = x² på [0, 1] med n = 2?",
+      "options": [
+        "0,125",
+        "0,25",
+        "1",
+        "0,625"
+      ],
+      "correct": 3,
+      "explain": "(0,25 + 1) · 0,5 = 0,625."
+    },
+    {
+      "id": "q05",
+      "text": "Hva gir integralet av farten over et tidsintervall?",
+      "options": [
+        "Forflytningen",
+        "Akselerasjonen",
+        "Tiden",
+        "Massen"
+      ],
+      "correct": 0,
+      "explain": "m/s · s = m."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er ∫ᵦₐ f(x) dx uttrykt ved ∫ₐᵇ f(x) dx?",
+      "options": [
+        "Det samme",
+        "−∫ₐᵇ f(x) dx",
+        "0",
+        "2∫ₐᵇ f(x) dx"
+      ],
+      "correct": 1,
+      "explain": "Å bytte grensene skifter fortegn."
+    },
+    {
+      "id": "q07",
+      "text": "Hva skjer med integralet der grafen ligger under x-aksen?",
+      "options": [
+        "Bidraget blir positivt",
+        "Det ignoreres",
+        "Bidraget blir negativt",
+        "Det dobles"
+      ],
+      "correct": 2,
+      "explain": "Areal med fortegn."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken enhet får integralet av effekt i watt over tid i sekunder?",
+      "options": [
+        "Watt",
+        "Meter",
+        "Sekunder",
+        "Joule"
+      ],
+      "correct": 3,
+      "explain": "W · s = J."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er ∫ₐᵇ 3f(x) dx hvis ∫ₐᵇ f(x) dx = 5?",
+      "options": [
+        "15",
+        "8",
+        "5",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "Konstanter kan settes utenfor."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken verdi går høyresummene for x² på [0, 1] mot?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1",
+        "0"
+      ],
+      "correct": 1,
+      "explain": "(1/n³) · n(n + 1)(2n + 1)/6 → 1/3."
+    }
   ],
   "mindmap": {
     "label": "Integral som grenseverdi",
     "children": [
-      { "label": "Summer", "children": [
-        { "label": "Venstre- og høyresum" },
-        { "label": "Under- og oversum" },
-        { "label": "Riemann-sum" }
-      ] },
-      { "label": "Grenseverdi", "children": [
-        { "label": "n → ∞" },
-        { "label": "∫ₐᵇ f(x) dx" }
-      ] },
-      { "label": "Fortegn", "children": [
-        { "label": "Under x-aksen negativt" },
-        { "label": "Geometrisk areal" }
-      ] },
-      { "label": "Regneregler", "children": [
-        { "label": "Sum og konstant" },
-        { "label": "Dele opp intervallet" },
-        { "label": "Bytte grenser" }
-      ] },
-      { "label": "Tolkning", "children": [
-        { "label": "Areal" },
-        { "label": "Forflytning" },
-        { "label": "Samlet mengde og energi" }
-      ] }
+      {
+        "label": "Summer",
+        "children": [
+          {
+            "label": "Venstre- og høyresum"
+          },
+          {
+            "label": "Under- og oversum"
+          },
+          {
+            "label": "Riemann-sum"
+          }
+        ]
+      },
+      {
+        "label": "Grenseverdi",
+        "children": [
+          {
+            "label": "n → ∞"
+          },
+          {
+            "label": "∫ₐᵇ f(x) dx"
+          }
+        ]
+      },
+      {
+        "label": "Fortegn",
+        "children": [
+          {
+            "label": "Under x-aksen negativt"
+          },
+          {
+            "label": "Geometrisk areal"
+          }
+        ]
+      },
+      {
+        "label": "Regneregler",
+        "children": [
+          {
+            "label": "Sum og konstant"
+          },
+          {
+            "label": "Dele opp intervallet"
+          },
+          {
+            "label": "Bytte grenser"
+          }
+        ]
+      },
+      {
+        "label": "Tolkning",
+        "children": [
+          {
+            "label": "Areal"
+          },
+          {
+            "label": "Forflytning"
+          },
+          {
+            "label": "Samlet mengde og energi"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "For en voksende funksjon er venstresummen en undersum.", "correct": true, "explain": "Venstre endepunkt har minst verdi." },
-      { "id": "m02", "type": "sant-usant", "text": "Integralet av en funksjon er alltid positivt.", "correct": false, "explain": "Områder under x-aksen gir negative bidrag." },
-      { "id": "m03", "type": "sant-usant", "text": "∫ₐᵃ f(x) dx = 0.", "correct": true, "explain": "Intervallet har bredde 0." },
-      { "id": "m04", "type": "sant-usant", "text": "Flere rektangler gir vanligvis en dårligere tilnærming.", "correct": false, "explain": "Flere og smalere rektangler gir bedre tilnærming." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er 1² + 2² + … + n²?", "options": ["n(n + 1)/2", "n(n + 1)(2n + 1)/6", "n³/3", "n²"], "correct": 1, "explain": "Brukes for å finne ∫₀¹ x² dx." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gir vannføring i liter per minutt integrert over tid i minutter?", "options": ["Antall liter", "Liter per sekund", "Minutter", "Farten"], "correct": 0, "explain": "L/min · min = L." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilke funksjoner har alltid et bestemt integral på et lukket intervall?", "options": ["Bare lineære", "Bare polynomer", "Kontinuerlige funksjoner", "Ingen"], "correct": 2, "explain": "Grenseverdien finnes da alltid." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "For en voksende funksjon er venstresummen en undersum.",
+        "correct": true,
+        "explain": "Venstre endepunkt har minst verdi."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Integralet av en funksjon er alltid positivt.",
+        "correct": false,
+        "explain": "Områder under x-aksen gir negative bidrag."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "∫ₐᵃ f(x) dx = 0.",
+        "correct": true,
+        "explain": "Intervallet har bredde 0."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Flere rektangler gir vanligvis en dårligere tilnærming.",
+        "correct": false,
+        "explain": "Flere og smalere rektangler gir bedre tilnærming."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er 1² + 2² + … + n²?",
+        "options": [
+          "n(n + 1)/2",
+          "n(n + 1)(2n + 1)/6",
+          "n³/3",
+          "n²"
+        ],
+        "correct": 1,
+        "explain": "Brukes for å finne ∫₀¹ x² dx."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gir vannføring i liter per minutt integrert over tid i minutter?",
+        "options": [
+          "Antall liter",
+          "Liter per sekund",
+          "Minutter",
+          "Farten"
+        ],
+        "correct": 0,
+        "explain": "L/min · min = L."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilke funksjoner har alltid et bestemt integral på et lukket intervall?",
+        "options": [
+          "Bare lineære",
+          "Bare polynomer",
+          "Kontinuerlige funksjoner",
+          "Ingen"
+        ],
+        "correct": 2,
+        "explain": "Grenseverdien finnes da alltid."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar med egne ord hva en Riemann-sum regner ut, og hva faktorene f(xᵢ) og Δx står for i hvert ledd.",
+        "fasit": "En Riemann-sum legger sammen arealene av rektangler som tilnærmer området under grafen. f(xᵢ) er høyden i et valgt punkt, og Δx er bredden på hvert rektangel.",
+        "kriterier": [
+          "Forklarer at summen består av rektangelbidrag som tilnærmer området under grafen.",
+          "Knytter f(xᵢ) til høyde og Δx til bredde."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hvorfor kan summer av rektangler brukes til å finne et bestemt integral? Forklar hva som må skje med under- og oversummene når antallet delintervaller øker.",
+        "fasit": "Når bredden på rektanglene blir mindre, gir summene en stadig bedre tilnærming til området. Det bestemte integralet er grenseverdien når under- og oversummene nærmer seg samme tall.",
+        "kriterier": [
+          "Forklarer at mindre delintervaller gir en bedre tilnærming.",
+          "Får fram at under- og oversummene må nærme seg samme grenseverdi."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen på en undersum og en oversum i ett delintervall. Hvordan velges høyden i hvert rektangel?",
+        "fasit": "I en undersum velges den minste funksjonsverdien i delintervallet som rektangelhøyde. I en oversum velges den største funksjonsverdien.",
+        "kriterier": [
+          "Beskriver at undersummen bruker den minste funksjonsverdien.",
+          "Beskriver at oversummen bruker den største funksjonsverdien."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Regn ut venstresummen for f(x) = x² på [0, 1] når intervallet deles i fire like deler. Vis de viktigste stegene.",
+        "fasit": "Bredden er Δx = 1/4, og venstre endepunkter er 0, 1/4, 1/2 og 3/4. Venstresummen blir (0² + (1/4)² + (1/2)² + (3/4)²) · 1/4 = 7/32, omtrent 0,219.",
+        "kriterier": [
+          "Bruker bredden 1/4 og funksjonsverdiene i venstre endepunkter.",
+          "Regner ut venstresummen til 7/32, eventuelt omtrent 0,219."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Det bestemte integralet av x² på [0, 1] er 1/3. Bruk additivitetsregelen til å regne ut integralet av x² + x² på det samme intervallet.",
+        "fasit": "Additivitetsregelen gir ∫₀¹(x² + x²) dx = ∫₀¹x² dx + ∫₀¹x² dx. Dermed blir integralet 1/3 + 1/3 = 2/3.",
+        "kriterier": [
+          "Deler integralet av summen opp i summen av to integraler.",
+          "Finner verdien 2/3."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En graf ligger over x-aksen fra a til c og under x-aksen fra c til b, der c er et nullpunkt. Forklar forskjellen på integralet fra a til b og det geometriske arealet mellom grafen og x-aksen.",
+        "fasit": "Integralbidraget fra delen under x-aksen er negativt, så integralet er et areal med fortegn. For å finne det geometriske arealet må vi dele ved nullpunktet og regne arealet på hver side uten at den negative delen trekkes fra den positive.",
+        "kriterier": [
+          "Forklarer at delen under x-aksen bidrar negativt til integralet.",
+          "Får fram at man må dele ved nullpunktet for å finne geometrisk areal."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Vannføring måles i liter per minutt. Forklar hva integralet av vannføringen over et tidsintervall forteller, og vis hvordan enhetene henger sammen.",
+        "fasit": "Integralet gir den totale vannmengden som har strømmet gjennom i tidsintervallet. Enheten blir liter per minutt ganget med minutter, altså liter.",
+        "kriterier": [
+          "Tolker integralet som samlet vannmengde i tidsintervallet.",
+          "Forklarer at liter per minutt ganget med minutter gir liter."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I uttrykket ∫ₐᵇ f(x) dx står a og b som integrasjonsgrenser. Forklar hva grensene og dx forteller om summen som integralet bygger på.",
+        "fasit": "a og b angir endepunktene for intervallet som deles opp og summeres over. dx minner om bredden til de stadig smalere delintervallene når summen går mot en grenseverdi.",
+        "kriterier": [
+          "Knytter a og b til endepunktene for intervallet.",
+          "Knytter dx til bredden på delintervallene i grenseprosessen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Teknologi og etikk",
   "intro": "Hvordan du drøfter etiske problemstillinger knyttet til teknologisk utvikling – med konsekvensetikk, pliktetikk og dydsetikk, føre var-prinsippet og eksempler som selvkjørende biler, kunstig intelligens, droner og genteknologi.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Hvorfor etikk i teknologi?\n\nTeknologi er **ikke nøytral**. Den kan gjøre livet bedre, men også skade mennesker, dyr og natur, og den kan fordele fordeler og ulemper **urettferdig**. **Etikk** handler om hva som er **rett og galt**, og hvordan vi bør handle. Ingeniører, forskere, bedrifter og politikere tar hele tiden valg med etiske sider.\n\n## Tre etiske perspektiver\n\n- **Konsekvensetikk**: En handling er riktig hvis den gir de **beste konsekvensene** for flest mulig. Spørsmål: Hvem får nytte, og hvem tar skade?\n- **Pliktetikk**: Noen handlinger er riktige eller gale **i seg selv**, uansett konsekvenser – for eksempel å lyve eller å bruke mennesker bare som middel. Spørsmål: Bryter teknologien med **rettigheter** eller **plikter**?\n- **Dydsetikk**: Spør hva en **god person** – ærlig, ansvarlig, rettferdig – ville gjort. Spørsmål: Hva slags mennesker og samfunn gjør teknologien oss til?\n\nPerspektivene kan gi **ulike svar**, og i en god drøfting bruker du gjerne flere.\n\n## Viktige prinsipper\n\n- **Føre var-prinsippet**: Når en teknologi kan gi **alvorlig** eller **uopprettelig** skade, og kunnskapen er usikker, bør vi være **forsiktige** – selv om skaden ikke er bevist.\n- **Ansvar**: Hvem har ansvaret når noe går galt – produsenten, programmereren, brukeren eller myndighetene?\n- **Rettferdighet**: Blir fordeler og ulemper fordelt rettferdig mellom grupper, land og generasjoner?\n- **Autonomi**: Får folk bestemme selv, med god informasjon?\n\n**Collingridge-dilemmaet** beskriver en vanskelig situasjon: Tidlig i utviklingen er en teknologi lett å **endre**, men vi vet lite om konsekvensene. Når konsekvensene blir kjent, er teknologien ofte så **utbredt** at den er vanskelig å endre.\n\n## Eksempler\n\n**Selvkjørende biler** kan redusere ulykker, fordi de fleste ulykker skyldes menneskelige feil. Men hvordan skal bilen programmeres til å velge i en ulykkessituasjon? Og hvem har ansvaret ved en kollisjon?\n\n**Kunstig intelligens** kan brukes til bedre diagnoser, men kan også **diskriminere**, overvåke og lage falskt innhold. Hvor mye bør vi la maskiner bestemme over mennesker?\n\n**Droner** brukes til redning, kartlegging og levering – men også i krig og til overvåking.\n\n**Genteknologi**, som genredigering med **CRISPR**, kan gi sykdomsresistente planter og nye behandlinger, men reiser spørsmål om **naturlighet**, **risiko** og endringer som arves.\n\n**Tingenes internett** gjør hjemmet «smart», men gir også nye muligheter for **innbrudd i systemer** og innsamling av data.\n\n## Hvem bestemmer?\n\nI Norge gir **Teknologirådet** råd til Stortinget om ny teknologi, og de **nasjonale forskningsetiske komiteene** gir retningslinjer for forskningen. Mange mener at **brukere** og **innbyggere** også bør få si sin mening tidlig i utviklingen.\n\n## Slik drøfter du\n\n1. **Beskriv** teknologien og situasjonen.\n2. **Identifiser** hvem som berøres – også dyr, natur og framtidige generasjoner.\n3. Bruk **etiske perspektiver** og prinsipper.\n4. **Vei** argumentene mot hverandre.\n5. Kom fram til en **begrunnet konklusjon** – gjerne med forslag til regler eller tiltak.",
   "flashcards": [
-    { "term": "Etikk", "def": "Læren om rett og galt og hvordan vi bør handle." },
-    { "term": "Konsekvensetikk", "def": "Riktig handling gir de beste konsekvensene for flest." },
-    { "term": "Pliktetikk", "def": "Noen handlinger er riktige eller gale i seg selv." },
-    { "term": "Dydsetikk", "def": "Hva ville en god person gjort?" },
-    { "term": "Føre var-prinsippet", "def": "Vær forsiktig ved mulig alvorlig skade og usikker kunnskap." },
-    { "term": "Collingridge-dilemmaet", "def": "Lett å endre tidlig, men da vet vi lite; når vi vet mer, er det vanskelig å endre." },
-    { "term": "Ansvar", "def": "Hvem som står til ansvar når teknologien gjør skade." },
-    { "term": "Rettferdighet", "def": "Rettferdig fordeling av fordeler og ulemper." },
-    { "term": "Autonomi", "def": "Retten til å bestemme selv med god informasjon." },
-    { "term": "Selvkjørende biler", "def": "Reiser spørsmål om valg i ulykker og ansvar." },
-    { "term": "CRISPR", "def": "Metode for genredigering." },
-    { "term": "Tingenes internett", "def": "Hverdagsgjenstander koblet til nettet." },
-    { "term": "Teknologirådet", "def": "Gir råd til Stortinget om ny teknologi." },
-    { "term": "Forskningsetiske komiteer", "def": "Gir retningslinjer for forskningen i Norge." },
-    { "term": "Teknologi er ikke nøytral", "def": "Den påvirker og fordeler makt, risiko og nytte." }
+    {
+      "term": "Etikk",
+      "def": "Læren om rett og galt og hvordan vi bør handle."
+    },
+    {
+      "term": "Konsekvensetikk",
+      "def": "Riktig handling gir de beste konsekvensene for flest."
+    },
+    {
+      "term": "Pliktetikk",
+      "def": "Noen handlinger er riktige eller gale i seg selv."
+    },
+    {
+      "term": "Dydsetikk",
+      "def": "Hva ville en god person gjort?"
+    },
+    {
+      "term": "Føre var-prinsippet",
+      "def": "Vær forsiktig ved mulig alvorlig skade og usikker kunnskap."
+    },
+    {
+      "term": "Collingridge-dilemmaet",
+      "def": "Lett å endre tidlig, men da vet vi lite; når vi vet mer, er det vanskelig å endre."
+    },
+    {
+      "term": "Ansvar",
+      "def": "Hvem som står til ansvar når teknologien gjør skade."
+    },
+    {
+      "term": "Rettferdighet",
+      "def": "Rettferdig fordeling av fordeler og ulemper."
+    },
+    {
+      "term": "Autonomi",
+      "def": "Retten til å bestemme selv med god informasjon."
+    },
+    {
+      "term": "Selvkjørende biler",
+      "def": "Reiser spørsmål om valg i ulykker og ansvar."
+    },
+    {
+      "term": "CRISPR",
+      "def": "Metode for genredigering."
+    },
+    {
+      "term": "Tingenes internett",
+      "def": "Hverdagsgjenstander koblet til nettet."
+    },
+    {
+      "term": "Teknologirådet",
+      "def": "Gir råd til Stortinget om ny teknologi."
+    },
+    {
+      "term": "Forskningsetiske komiteer",
+      "def": "Gir retningslinjer for forskningen i Norge."
+    },
+    {
+      "term": "Teknologi er ikke nøytral",
+      "def": "Den påvirker og fordeler makt, risiko og nytte."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner konsekvensetikk?", "options": ["Handlinger er gale i seg selv", "Riktig handling gir de beste konsekvensene for flest", "Man spør hva en god person ville gjort", "Alle handlinger er like gode"], "correct": 1, "explain": "Nytte og skade veies." },
-    { "id": "q02", "text": "Hva sier føre var-prinsippet?", "options": ["Vær forsiktig når det kan bli alvorlig skade og kunnskapen er usikker", "Innfør all ny teknologi raskt", "Bare bevist skade skal tas hensyn til", "Teknologi er alltid farlig"], "correct": 0, "explain": "Viktig ved uopprettelig skade." },
-    { "id": "q03", "text": "Hva er Collingridge-dilemmaet?", "options": ["At teknologi alltid er dyr", "At ingen vil ha ny teknologi", "At teknologien er lett å endre tidlig, men da vet vi lite om konsekvensene", "At etikk og teknologi ikke henger sammen"], "correct": 2, "explain": "Når vi vet mer, er den vanskelig å endre." },
-    { "id": "q04", "text": "Hvilket perspektiv spør hva en god person ville gjort?", "options": ["Konsekvensetikk", "Pliktetikk", "Føre var-prinsippet", "Dydsetikk"], "correct": 3, "explain": "Fokus på karakter." },
-    { "id": "q05", "text": "Hvilket etisk spørsmål reiser selvkjørende biler?", "options": ["Hvem har ansvaret ved en kollisjon?", "Hvilken farge skal de ha?", "Hvor mange seter skal de ha?", "Hvor raskt kan de lades?"], "correct": 0, "explain": "Også hvordan de skal velge i ulykker." },
-    { "id": "q06", "text": "Hvem gir råd til Stortinget om ny teknologi i Norge?", "options": ["Datatilsynet", "Teknologirådet", "Forbrukerrådet", "NRK"], "correct": 1, "explain": "Et uavhengig råd." },
-    { "id": "q07", "text": "Hva betyr det at teknologi ikke er nøytral?", "options": ["At den alltid er ond", "At den ikke virker", "At den påvirker og fordeler nytte, risiko og makt", "At den er politisk styrt"], "correct": 2, "explain": "Valgene i utviklingen har konsekvenser." },
-    { "id": "q08", "text": "Hvilket etisk spørsmål reiser genredigering med CRISPR?", "options": ["Om fargen på plantene", "Om prisen på laboratorieutstyr", "Om hvor raskt det går", "Om naturlighet, risiko og endringer som arves"], "correct": 3, "explain": "Særlig ved endringer i kjønnsceller." },
-    { "id": "q09", "text": "Hvem bør identifiseres som berørte i en etisk drøfting?", "options": ["Alle som påvirkes – også dyr, natur og framtidige generasjoner", "Bare produsenten", "Bare kjøperne", "Bare myndighetene"], "correct": 0, "explain": "Bredt perspektiv." },
-    { "id": "q10", "text": "Hva handler pliktetikk om?", "options": ["Bare konsekvensene", "At noen handlinger er riktige eller gale i seg selv", "Å maksimere profitt", "Å følge flertallet"], "correct": 1, "explain": "For eksempel å ikke lyve." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner konsekvensetikk?",
+      "options": [
+        "Handlinger er gale i seg selv",
+        "Riktig handling gir de beste konsekvensene for flest",
+        "Man spør hva en god person ville gjort",
+        "Alle handlinger er like gode"
+      ],
+      "correct": 1,
+      "explain": "Nytte og skade veies."
+    },
+    {
+      "id": "q02",
+      "text": "Hva sier føre var-prinsippet?",
+      "options": [
+        "Vær forsiktig når det kan bli alvorlig skade og kunnskapen er usikker",
+        "Innfør all ny teknologi raskt",
+        "Bare bevist skade skal tas hensyn til",
+        "Teknologi er alltid farlig"
+      ],
+      "correct": 0,
+      "explain": "Viktig ved uopprettelig skade."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er Collingridge-dilemmaet?",
+      "options": [
+        "At teknologi alltid er dyr",
+        "At ingen vil ha ny teknologi",
+        "At teknologien er lett å endre tidlig, men da vet vi lite om konsekvensene",
+        "At etikk og teknologi ikke henger sammen"
+      ],
+      "correct": 2,
+      "explain": "Når vi vet mer, er den vanskelig å endre."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket perspektiv spør hva en god person ville gjort?",
+      "options": [
+        "Konsekvensetikk",
+        "Pliktetikk",
+        "Føre var-prinsippet",
+        "Dydsetikk"
+      ],
+      "correct": 3,
+      "explain": "Fokus på karakter."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket etisk spørsmål reiser selvkjørende biler?",
+      "options": [
+        "Hvem har ansvaret ved en kollisjon?",
+        "Hvilken farge skal de ha?",
+        "Hvor mange seter skal de ha?",
+        "Hvor raskt kan de lades?"
+      ],
+      "correct": 0,
+      "explain": "Også hvordan de skal velge i ulykker."
+    },
+    {
+      "id": "q06",
+      "text": "Hvem gir råd til Stortinget om ny teknologi i Norge?",
+      "options": [
+        "Datatilsynet",
+        "Teknologirådet",
+        "Forbrukerrådet",
+        "NRK"
+      ],
+      "correct": 1,
+      "explain": "Et uavhengig råd."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr det at teknologi ikke er nøytral?",
+      "options": [
+        "At den alltid er ond",
+        "At den ikke virker",
+        "At den påvirker og fordeler nytte, risiko og makt",
+        "At den er politisk styrt"
+      ],
+      "correct": 2,
+      "explain": "Valgene i utviklingen har konsekvenser."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket etisk spørsmål reiser genredigering med CRISPR?",
+      "options": [
+        "Om fargen på plantene",
+        "Om prisen på laboratorieutstyr",
+        "Om hvor raskt det går",
+        "Om naturlighet, risiko og endringer som arves"
+      ],
+      "correct": 3,
+      "explain": "Særlig ved endringer i kjønnsceller."
+    },
+    {
+      "id": "q09",
+      "text": "Hvem bør identifiseres som berørte i en etisk drøfting?",
+      "options": [
+        "Alle som påvirkes – også dyr, natur og framtidige generasjoner",
+        "Bare produsenten",
+        "Bare kjøperne",
+        "Bare myndighetene"
+      ],
+      "correct": 0,
+      "explain": "Bredt perspektiv."
+    },
+    {
+      "id": "q10",
+      "text": "Hva handler pliktetikk om?",
+      "options": [
+        "Bare konsekvensene",
+        "At noen handlinger er riktige eller gale i seg selv",
+        "Å maksimere profitt",
+        "Å følge flertallet"
+      ],
+      "correct": 1,
+      "explain": "For eksempel å ikke lyve."
+    }
   ],
   "mindmap": {
     "label": "Teknologi og etikk",
     "children": [
-      { "label": "Perspektiver", "children": [
-        { "label": "Konsekvensetikk" },
-        { "label": "Pliktetikk" },
-        { "label": "Dydsetikk" }
-      ] },
-      { "label": "Prinsipper", "children": [
-        { "label": "Føre var" },
-        { "label": "Ansvar" },
-        { "label": "Rettferdighet og autonomi" }
-      ] },
-      { "label": "Dilemmaer", "children": [
-        { "label": "Collingridge" },
-        { "label": "Teknologi er ikke nøytral" }
-      ] },
-      { "label": "Eksempler", "children": [
-        { "label": "Selvkjørende biler" },
-        { "label": "KI" },
-        { "label": "Droner" },
-        { "label": "Genteknologi" }
-      ] },
-      { "label": "Styring", "children": [
-        { "label": "Teknologirådet" },
-        { "label": "Forskningsetikk" },
-        { "label": "Medvirkning" }
-      ] }
+      {
+        "label": "Perspektiver",
+        "children": [
+          {
+            "label": "Konsekvensetikk"
+          },
+          {
+            "label": "Pliktetikk"
+          },
+          {
+            "label": "Dydsetikk"
+          }
+        ]
+      },
+      {
+        "label": "Prinsipper",
+        "children": [
+          {
+            "label": "Føre var"
+          },
+          {
+            "label": "Ansvar"
+          },
+          {
+            "label": "Rettferdighet og autonomi"
+          }
+        ]
+      },
+      {
+        "label": "Dilemmaer",
+        "children": [
+          {
+            "label": "Collingridge"
+          },
+          {
+            "label": "Teknologi er ikke nøytral"
+          }
+        ]
+      },
+      {
+        "label": "Eksempler",
+        "children": [
+          {
+            "label": "Selvkjørende biler"
+          },
+          {
+            "label": "KI"
+          },
+          {
+            "label": "Droner"
+          },
+          {
+            "label": "Genteknologi"
+          }
+        ]
+      },
+      {
+        "label": "Styring",
+        "children": [
+          {
+            "label": "Teknologirådet"
+          },
+          {
+            "label": "Forskningsetikk"
+          },
+          {
+            "label": "Medvirkning"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Ulike etiske perspektiver kan gi ulike svar på samme spørsmål.", "correct": true, "explain": "Derfor bruker en god drøfting gjerne flere." },
-      { "id": "m02", "type": "sant-usant", "text": "Føre var-prinsippet krever at skaden er bevist før man handler.", "correct": false, "explain": "Det gjelder nettopp når kunnskapen er usikker." },
-      { "id": "m03", "type": "sant-usant", "text": "Droner kan brukes både til redning og til krig.", "correct": true, "explain": "Samme teknologi kan ha ulik bruk." },
-      { "id": "m04", "type": "sant-usant", "text": "Bare ingeniører har ansvar for konsekvensene av teknologi.", "correct": false, "explain": "Også bedrifter, brukere og myndigheter har ansvar." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken risiko er knyttet til tingenes internett?", "options": ["At tingene blir tyngre", "Innbrudd i systemer og innsamling av data", "At strømmen blir billigere", "At tingene slutter å virke uten internett alltid"], "correct": 1, "explain": "Flere tilkoblede enheter gir flere angrepspunkter." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er det siste steget i en etisk drøfting?", "options": ["En begrunnet konklusjon", "Å beskrive teknologien", "Å liste opp perspektivene", "Å telle argumentene"], "correct": 0, "explain": "Gjerne med forslag til tiltak." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket argument for selvkjørende biler bygger på konsekvensetikk?", "options": ["At det er galt å overlate valg til maskiner", "At en god sjåfør alltid kjører selv", "At de kan redusere antall ulykker", "At bilene er pene"], "correct": 2, "explain": "Fokus på gode konsekvenser." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ulike etiske perspektiver kan gi ulike svar på samme spørsmål.",
+        "correct": true,
+        "explain": "Derfor bruker en god drøfting gjerne flere."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Føre var-prinsippet krever at skaden er bevist før man handler.",
+        "correct": false,
+        "explain": "Det gjelder nettopp når kunnskapen er usikker."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Droner kan brukes både til redning og til krig.",
+        "correct": true,
+        "explain": "Samme teknologi kan ha ulik bruk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Bare ingeniører har ansvar for konsekvensene av teknologi.",
+        "correct": false,
+        "explain": "Også bedrifter, brukere og myndigheter har ansvar."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken risiko er knyttet til tingenes internett?",
+        "options": [
+          "At tingene blir tyngre",
+          "Innbrudd i systemer og innsamling av data",
+          "At strømmen blir billigere",
+          "At tingene slutter å virke uten internett alltid"
+        ],
+        "correct": 1,
+        "explain": "Flere tilkoblede enheter gir flere angrepspunkter."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er det siste steget i en etisk drøfting?",
+        "options": [
+          "En begrunnet konklusjon",
+          "Å beskrive teknologien",
+          "Å liste opp perspektivene",
+          "Å telle argumentene"
+        ],
+        "correct": 0,
+        "explain": "Gjerne med forslag til tiltak."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket argument for selvkjørende biler bygger på konsekvensetikk?",
+        "options": [
+          "At det er galt å overlate valg til maskiner",
+          "At en god sjåfør alltid kjører selv",
+          "At de kan redusere antall ulykker",
+          "At bilene er pene"
+        ],
+        "correct": 2,
+        "explain": "Fokus på gode konsekvenser."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et smarthus samler inn data om hvordan beboerne bruker apparatene. Beboerne får lite informasjon og kan ikke velge om dataene samles inn. Forklar hvordan dette påvirker autonomien deres.",
+        "fasit": "Autonomien blir svekket fordi beboerne ikke får god nok informasjon til å ta et valg. De får heller ikke bestemme selv om dataene deres skal samles inn.",
+        "kriterier": [
+          "Knytter autonomi til å kunne bestemme selv med god informasjon.",
+          "Forklarer at manglende informasjon eller valgmulighet svekker autonomien."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et sykehus vurderer å bruke kunstig intelligens til å stille diagnoser. Systemet kan gi flere pasienter rask hjelp, men det kan også diskriminere enkelte grupper. Sammenlign hvordan konsekvensetikk og pliktetikk kan vurdere bruken.",
+        "fasit": "Konsekvensetikken vil veie nytten av raskere hjelp mot skaden diskriminering kan føre til. Pliktetikken vil vurdere om bruken bryter med plikter eller rettigheter, for eksempel ved å behandle pasienter urettferdig.",
+        "kriterier": [
+          "Forklarer at konsekvensetikken vurderer nytte og skade.",
+          "Forklarer at pliktetikken vurderer plikter eller rettigheter uavhengig av konsekvensene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En selvkjørende bil kolliderer. Forklar hvorfor ansvaret ikke nødvendigvis bare ligger hos personen som satt i bilen, og nevn to andre aktører som kan ha ansvar.",
+        "fasit": "Ansvaret kan avhenge av hvem som har utviklet, programmert, brukt eller regulert teknologien. Produsenten, programmereren eller myndighetene kan derfor også være ansvarlige.",
+        "kriterier": [
+          "Forklarer at ansvar kan avhenge av flere roller enn personen i bilen.",
+          "Nevner to mulige ansvarlige aktører, som produsent, programmerer, bruker eller myndigheter."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En kommune vurderer å bruke droner i søk etter personer som har gått seg bort. Droner kan også brukes til overvåking. Beskriv én nytte ved redningsbruken, én etisk bekymring og ett tiltak som kan begrense bekymringen.",
+        "fasit": "Droner kan hjelpe med å finne personer som trenger redning. Overvåking kan påvirke mennesker som blir filmet, så kommunen kan lage tydelige regler for når og hvordan dronene brukes.",
+        "kriterier": [
+          "Beskriver at droner kan brukes til redning eller søk etter personer.",
+          "Nevner overvåking som en etisk bekymring.",
+          "Foreslår et relevant tiltak, for eksempel regler som begrenser bruken."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et system for kunstig intelligens gir dårligere diagnoser til én gruppe enn til andre. Forklar hvorfor dette er et spørsmål om rettferdighet.",
+        "fasit": "Det er et spørsmål om rettferdighet fordi fordelen ved gode diagnoser ikke fordeles likt mellom gruppene. Én gruppe får større risiko for å bli skadet eller ikke få like god hjelp.",
+        "kriterier": [
+          "Knytter rettferdighet til hvordan fordeler og ulemper fordeles mellom grupper.",
+          "Forklarer at gruppen som får dårligere diagnoser, kan bli skadelidende."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign Teknologirådet og de nasjonale forskningsetiske komiteene: Hvem gir råd til Stortinget om ny teknologi, og hva gjør komiteene?",
+        "fasit": "Teknologirådet gir råd til Stortinget om ny teknologi. De nasjonale forskningsetiske komiteene gir retningslinjer for forskningen i Norge.",
+        "kriterier": [
+          "Knytter Teknologirådet til råd om ny teknologi til Stortinget.",
+          "Knytter forskningsetiske komiteer til retningslinjer for forskning i Norge."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et kjøleskap som er koblet til internett, kan gjøre hjemmet smartere. Forklar to etiske risikoer som følger med at hverdagsgjenstander kobles til nettet.",
+        "fasit": "En risiko er at noen kan bryte seg inn i systemet. En annen er at data om hvordan kjøleskapet eller hjemmet brukes, kan bli samlet inn.",
+        "kriterier": [
+          "Nevner risiko for innbrudd i systemer.",
+          "Nevner innsamling av data."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En bedrift utvikler en ny teknologi og lar brukere og innbyggere komme med innspill før utviklingen er ferdig. Forklar én grunn til at det er nyttig å få innspill fra dem tidlig.",
+        "fasit": "Tidlige innspill kan gjøre at utviklerne oppdager hvem som kan bli påvirket, og hvilke problemer teknologien kan føre til. Da kan de ta hensyn til dette mens teknologien fortsatt er under utvikling.",
+        "kriterier": [
+          "Forklarer at brukere eller innbyggere kan gjøre utviklerne oppmerksomme på virkninger eller problemer.",
+          "Knytter tidlige innspill til muligheten for å ta hensyn til dem i utviklingen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

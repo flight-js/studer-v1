@@ -4,76 +4,419 @@
   "trinnId": "vg3",
   "name": "Normalfordelingen",
   "intro": "Kontinuerlige fordelinger og sannsynlighetstetthet, normalfordelingens form og parametere, 68–95–99,7-regelen, standardisering med Z, bruk av tabell, GeoGebra og Python, og hvordan normalfordelingen tolkes i praktiske situasjoner.",
-  "kompetansemaal": [8, 10],
+  "kompetansemaal": [
+    8,
+    10
+  ],
   "sammendrag": "## Kontinuerlige fordelinger\n\nNoen stokastiske variabler kan ta **alle** verdier i et intervall – for eksempel **vekt**, **høyde** og **tid**. De kalles **kontinuerlige**.\n\nFordelingen beskrives med en **sannsynlighetstetthet** f(x). Sannsynligheten er **arealet** under grafen:\n\n**P(a < X < b) = ∫ₐᵇ f(x) dx**\n\nHele arealet under grafen er 1. Sannsynligheten for **én bestemt** verdi er **0**, så P(X < a) = P(X ≤ a).\n\n## Normalfordelingen\n\n**Normalfordelingen** har en symmetrisk **klokkeform** og bestemmes av\n\n- **μ** – forventningen, der toppen ligger\n- **σ** – standardavviket, som bestemmer hvor **bred** kurven er\n\nTettheten er\n\nf(x) = (1/(σ√(2π))) · e^(−(x − μ)²/(2σ²))\n\nDen kan ikke integreres med kjente funksjoner, så vi bruker **tabell**, **GeoGebra** eller **Python**.\n\n## 68–95–99,7-regelen\n\nI en normalfordeling ligger omtrent\n\n- **68 %** av verdiene innenfor μ ± σ\n- **95 %** innenfor μ ± 2σ\n- **99,7 %** innenfor μ ± 3σ\n\n## Standardisering\n\nAlle normalfordelinger kan gjøres om til **standardnormalfordelingen** med μ = 0 og σ = 1:\n\n**Z = (X − μ)/σ**\n\nZ forteller hvor mange **standardavvik** verdien ligger fra forventningen. Φ(z) = P(Z ≤ z) finnes i en **tabell**.\n\n## Eksempel: brødposer\n\nVekten av brødposer er normalfordelt med μ = 750 g og σ = 10 g.\n\n- P(X < 730) = P(Z < −2) ≈ **0,023**\n- P(740 < X < 760) = P(−1 < Z < 1) ≈ **0,68**\n- Hvilken vekt har de **5 % letteste** posene under? Φ(z) = 0,05 gir z ≈ −1,645, og x = 750 − 1,645 · 10 ≈ **733,6 g**.\n\n## Eksempel: høyde\n\nAnta at høyden i en gruppe er normalfordelt med μ = 180 cm og σ = 7 cm. P(X > 190) = P(Z > 1,43) ≈ 1 − 0,924 = **0,076**. Omtrent 7–8 % er altså høyere enn 190 cm.\n\n## Verktøy\n\n- **GeoGebra**: Sannsynlighetskalkulatoren, eller Normal(μ, σ, x) for P(X ≤ x) og InversNormal(μ, σ, p) for å finne x.\n- **Python**: from scipy.stats import norm, deretter norm.cdf(x, μ, σ) og norm.ppf(p, μ, σ).\n\nTegn gjerne en **skisse** av kurven og skraver området du skal finne – da ser du om svaret er rimelig.\n\n## Hvorfor er normalfordelingen så vanlig?\n\nMange størrelser er **summen** av mange små, uavhengige bidrag – gener, miljø, små målefeil. **Sentralgrensesetningen** sier at slike summer blir tilnærmet normalfordelt. Derfor dukker normalfordelingen opp i **målinger**, **biologi**, **produksjon** og **økonomi**.\n\n## Begrensninger\n\nIkke alle data er normalfordelte. **Inntekter** er for eksempel **skjevfordelte** med en lang hale mot høye verdier. Sjekk med et **histogram** før du bruker normalfordelingen.",
   "flashcards": [
-    { "term": "Kontinuerlig variabel", "def": "Kan ta alle verdier i et intervall." },
-    { "term": "Sannsynlighetstetthet", "def": "Funksjon der arealet under grafen er sannsynlighet." },
-    { "term": "P(a < X < b)", "def": "∫ₐᵇ f(x) dx" },
-    { "term": "P(X = a) kontinuerlig", "def": "0" },
-    { "term": "Normalfordeling", "def": "Symmetrisk klokkeform bestemt av μ og σ." },
-    { "term": "μ ± σ", "def": "Omtrent 68 % av verdiene." },
-    { "term": "μ ± 2σ", "def": "Omtrent 95 % av verdiene." },
-    { "term": "μ ± 3σ", "def": "Omtrent 99,7 % av verdiene." },
-    { "term": "Standardisering", "def": "Z = (X − μ)/σ" },
-    { "term": "Standardnormalfordeling", "def": "μ = 0 og σ = 1." },
-    { "term": "Φ(z)", "def": "P(Z ≤ z) – finnes i tabell." },
-    { "term": "z for 5 % nedre hale", "def": "Omtrent −1,645." },
-    { "term": "InversNormal", "def": "GeoGebra-kommando som finner x fra en sannsynlighet." },
-    { "term": "norm.cdf", "def": "Python-funksjon for P(X ≤ x)." },
-    { "term": "Skjevfordeling", "def": "Fordeling med lang hale – for eksempel inntekter." }
+    {
+      "term": "Kontinuerlig variabel",
+      "def": "Kan ta alle verdier i et intervall."
+    },
+    {
+      "term": "Sannsynlighetstetthet",
+      "def": "Funksjon der arealet under grafen er sannsynlighet."
+    },
+    {
+      "term": "P(a < X < b)",
+      "def": "∫ₐᵇ f(x) dx"
+    },
+    {
+      "term": "P(X = a) kontinuerlig",
+      "def": "0"
+    },
+    {
+      "term": "Normalfordeling",
+      "def": "Symmetrisk klokkeform bestemt av μ og σ."
+    },
+    {
+      "term": "μ ± σ",
+      "def": "Omtrent 68 % av verdiene."
+    },
+    {
+      "term": "μ ± 2σ",
+      "def": "Omtrent 95 % av verdiene."
+    },
+    {
+      "term": "μ ± 3σ",
+      "def": "Omtrent 99,7 % av verdiene."
+    },
+    {
+      "term": "Standardisering",
+      "def": "Z = (X − μ)/σ"
+    },
+    {
+      "term": "Standardnormalfordeling",
+      "def": "μ = 0 og σ = 1."
+    },
+    {
+      "term": "Φ(z)",
+      "def": "P(Z ≤ z) – finnes i tabell."
+    },
+    {
+      "term": "z for 5 % nedre hale",
+      "def": "Omtrent −1,645."
+    },
+    {
+      "term": "InversNormal",
+      "def": "GeoGebra-kommando som finner x fra en sannsynlighet."
+    },
+    {
+      "term": "norm.cdf",
+      "def": "Python-funksjon for P(X ≤ x)."
+    },
+    {
+      "term": "Skjevfordeling",
+      "def": "Fordeling med lang hale – for eksempel inntekter."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Omtrent hvor stor andel ligger innenfor μ ± 2σ?", "options": ["68 %", "95 %", "99,7 %", "50 %"], "correct": 1, "explain": "68–95–99,7-regelen." },
-    { "id": "q02", "text": "Hva er Z når X = 730, μ = 750 og σ = 10?", "options": ["−2", "2", "−20", "0,2"], "correct": 0, "explain": "(730 − 750)/10." },
-    { "id": "q03", "text": "Hva er P(X = 750) når X er kontinuerlig?", "options": ["0,5", "1", "0", "0,68"], "correct": 2, "explain": "Én enkelt verdi har areal 0." },
-    { "id": "q04", "text": "Hva bestemmer σ i en normalfordeling?", "options": ["Hvor toppen ligger", "Arealet under kurven", "Om kurven er symmetrisk", "Hvor bred kurven er"], "correct": 3, "explain": "μ bestemmer plasseringen." },
-    { "id": "q05", "text": "Hva er P(740 < X < 760) når μ = 750 og σ = 10?", "options": ["Omtrent 0,68", "Omtrent 0,95", "Omtrent 0,5", "Omtrent 0,34"], "correct": 0, "explain": "μ ± σ." },
-    { "id": "q06", "text": "Hvordan finnes sannsynligheten i en kontinuerlig fordeling?", "options": ["Som høyden på grafen", "Som arealet under grafen", "Som stigningstallet", "Som μ"], "correct": 1, "explain": "Et integral av tettheten." },
-    { "id": "q07", "text": "Hva er P(X > 190) når μ = 180 og σ = 7?", "options": ["Omtrent 0,5", "Omtrent 0,025", "Omtrent 0,076", "Omtrent 0,16"], "correct": 2, "explain": "z ≈ 1,43." },
-    { "id": "q08", "text": "Hvorfor er normalfordelingen så vanlig?", "options": ["Fordi alle data er symmetriske", "Fordi den er lett å tegne", "Fordi den har bare én parameter", "Fordi summer av mange små uavhengige bidrag blir tilnærmet normalfordelt"], "correct": 3, "explain": "Sentralgrensesetningen." },
-    { "id": "q09", "text": "Hvilken vekt har de 5 % letteste brødposene under når μ = 750 g og σ = 10 g?", "options": ["Omtrent 733,6 g", "740 g", "730 g", "Omtrent 766,4 g"], "correct": 0, "explain": "750 − 1,645 · 10." },
-    { "id": "q10", "text": "Hvilken type data er ofte ikke normalfordelt?", "options": ["Målefeil", "Inntekter", "Vekt av produserte varer", "Høyde"], "correct": 1, "explain": "Skjevfordelt med lang hale." }
+    {
+      "id": "q01",
+      "text": "Omtrent hvor stor andel ligger innenfor μ ± 2σ?",
+      "options": [
+        "68 %",
+        "95 %",
+        "99,7 %",
+        "50 %"
+      ],
+      "correct": 1,
+      "explain": "68–95–99,7-regelen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er Z når X = 730, μ = 750 og σ = 10?",
+      "options": [
+        "−2",
+        "2",
+        "−20",
+        "0,2"
+      ],
+      "correct": 0,
+      "explain": "(730 − 750)/10."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er P(X = 750) når X er kontinuerlig?",
+      "options": [
+        "0,5",
+        "1",
+        "0",
+        "0,68"
+      ],
+      "correct": 2,
+      "explain": "Én enkelt verdi har areal 0."
+    },
+    {
+      "id": "q04",
+      "text": "Hva bestemmer σ i en normalfordeling?",
+      "options": [
+        "Hvor toppen ligger",
+        "Arealet under kurven",
+        "Om kurven er symmetrisk",
+        "Hvor bred kurven er"
+      ],
+      "correct": 3,
+      "explain": "μ bestemmer plasseringen."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er P(740 < X < 760) når μ = 750 og σ = 10?",
+      "options": [
+        "Omtrent 0,68",
+        "Omtrent 0,95",
+        "Omtrent 0,5",
+        "Omtrent 0,34"
+      ],
+      "correct": 0,
+      "explain": "μ ± σ."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan finnes sannsynligheten i en kontinuerlig fordeling?",
+      "options": [
+        "Som høyden på grafen",
+        "Som arealet under grafen",
+        "Som stigningstallet",
+        "Som μ"
+      ],
+      "correct": 1,
+      "explain": "Et integral av tettheten."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er P(X > 190) når μ = 180 og σ = 7?",
+      "options": [
+        "Omtrent 0,5",
+        "Omtrent 0,025",
+        "Omtrent 0,076",
+        "Omtrent 0,16"
+      ],
+      "correct": 2,
+      "explain": "z ≈ 1,43."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er normalfordelingen så vanlig?",
+      "options": [
+        "Fordi alle data er symmetriske",
+        "Fordi den er lett å tegne",
+        "Fordi den har bare én parameter",
+        "Fordi summer av mange små uavhengige bidrag blir tilnærmet normalfordelt"
+      ],
+      "correct": 3,
+      "explain": "Sentralgrensesetningen."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken vekt har de 5 % letteste brødposene under når μ = 750 g og σ = 10 g?",
+      "options": [
+        "Omtrent 733,6 g",
+        "740 g",
+        "730 g",
+        "Omtrent 766,4 g"
+      ],
+      "correct": 0,
+      "explain": "750 − 1,645 · 10."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken type data er ofte ikke normalfordelt?",
+      "options": [
+        "Målefeil",
+        "Inntekter",
+        "Vekt av produserte varer",
+        "Høyde"
+      ],
+      "correct": 1,
+      "explain": "Skjevfordelt med lang hale."
+    }
   ],
   "mindmap": {
     "label": "Normalfordelingen",
     "children": [
-      { "label": "Kontinuerlig", "children": [
-        { "label": "Tetthet" },
-        { "label": "Areal = sannsynlighet" }
-      ] },
-      { "label": "Form", "children": [
-        { "label": "μ og σ" },
-        { "label": "Klokkeform" }
-      ] },
-      { "label": "Regler", "children": [
-        { "label": "68–95–99,7" },
-        { "label": "Z = (X − μ)/σ" }
-      ] },
-      { "label": "Verktøy", "children": [
-        { "label": "Tabell" },
-        { "label": "GeoGebra" },
-        { "label": "Python" }
-      ] },
-      { "label": "Bruk", "children": [
-        { "label": "Produksjon" },
-        { "label": "Målinger" },
-        { "label": "Sjekk med histogram" }
-      ] }
+      {
+        "label": "Kontinuerlig",
+        "children": [
+          {
+            "label": "Tetthet"
+          },
+          {
+            "label": "Areal = sannsynlighet"
+          }
+        ]
+      },
+      {
+        "label": "Form",
+        "children": [
+          {
+            "label": "μ og σ"
+          },
+          {
+            "label": "Klokkeform"
+          }
+        ]
+      },
+      {
+        "label": "Regler",
+        "children": [
+          {
+            "label": "68–95–99,7"
+          },
+          {
+            "label": "Z = (X − μ)/σ"
+          }
+        ]
+      },
+      {
+        "label": "Verktøy",
+        "children": [
+          {
+            "label": "Tabell"
+          },
+          {
+            "label": "GeoGebra"
+          },
+          {
+            "label": "Python"
+          }
+        ]
+      },
+      {
+        "label": "Bruk",
+        "children": [
+          {
+            "label": "Produksjon"
+          },
+          {
+            "label": "Målinger"
+          },
+          {
+            "label": "Sjekk med histogram"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Hele arealet under en sannsynlighetstetthet er 1.", "correct": true, "explain": "Summen av alle sannsynligheter." },
-      { "id": "m02", "type": "sant-usant", "text": "Normalfordelingen er skjev med lang hale mot høyre.", "correct": false, "explain": "Den er symmetrisk." },
-      { "id": "m03", "type": "sant-usant", "text": "Z forteller hvor mange standardavvik en verdi ligger fra forventningen.", "correct": true, "explain": "Z = (X − μ)/σ." },
-      { "id": "m04", "type": "sant-usant", "text": "Normalfordelingens tetthet kan enkelt integreres med kjente funksjoner.", "correct": false, "explain": "Vi må bruke tabell eller verktøy." },
-      { "id": "m05", "type": "flervalg", "text": "Omtrent hvor stor andel ligger mer enn 2σ over forventningen?", "options": ["5 %", "2,5 %", "16 %", "0,15 %"], "correct": 1, "explain": "Halvparten av de 5 % utenfor μ ± 2σ." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken Python-funksjon gir P(X ≤ x) i en normalfordeling?", "options": ["norm.cdf", "norm.ppf", "random.randint", "print"], "correct": 0, "explain": "norm.ppf gir x fra en sannsynlighet." },
-      { "id": "m07", "type": "flervalg", "text": "Hvor ligger toppen på normalfordelingskurven?", "options": ["Ved μ + σ", "Ved 0 alltid", "Ved μ", "Ved μ − 2σ"], "correct": 2, "explain": "Kurven er symmetrisk om μ." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Hele arealet under en sannsynlighetstetthet er 1.",
+        "correct": true,
+        "explain": "Summen av alle sannsynligheter."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Normalfordelingen er skjev med lang hale mot høyre.",
+        "correct": false,
+        "explain": "Den er symmetrisk."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Z forteller hvor mange standardavvik en verdi ligger fra forventningen.",
+        "correct": true,
+        "explain": "Z = (X − μ)/σ."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Normalfordelingens tetthet kan enkelt integreres med kjente funksjoner.",
+        "correct": false,
+        "explain": "Vi må bruke tabell eller verktøy."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Omtrent hvor stor andel ligger mer enn 2σ over forventningen?",
+        "options": [
+          "5 %",
+          "2,5 %",
+          "16 %",
+          "0,15 %"
+        ],
+        "correct": 1,
+        "explain": "Halvparten av de 5 % utenfor μ ± 2σ."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken Python-funksjon gir P(X ≤ x) i en normalfordeling?",
+        "options": [
+          "norm.cdf",
+          "norm.ppf",
+          "random.randint",
+          "print"
+        ],
+        "correct": 0,
+        "explain": "norm.ppf gir x fra en sannsynlighet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvor ligger toppen på normalfordelingskurven?",
+        "options": [
+          "Ved μ + σ",
+          "Ved 0 alltid",
+          "Ved μ",
+          "Ved μ − 2σ"
+        ],
+        "correct": 2,
+        "explain": "Kurven er symmetrisk om μ."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Høyde regnes som en kontinuerlig variabel. Forklar hva det betyr for hvilke verdier høyden kan ha.",
+        "fasit": "En kontinuerlig variabel kan ta alle verdier i et intervall. Høyden trenger derfor ikke være et helt antall centimeter.",
+        "kriterier": [
+          "Forklarer at variabelen kan ta alle verdier i et intervall.",
+          "Knytter forklaringen til at høyde kan ha verdier mellom hele centimeter."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign hvilken rolle μ og σ har i en normalfordeling. Hva skjer med kurven hvis μ endres, eller hvis σ endres?",
+        "fasit": "μ bestemmer forventningen og hvor toppen av kurven ligger. σ bestemmer hvor bred kurven er, så en endring i σ påvirker bredden.",
+        "kriterier": [
+          "Forklarer at μ bestemmer sentrum/toppen av kurven.",
+          "Forklarer at σ bestemmer bredden på kurven."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Vekten av brødposer er normalfordelt med μ = 750 g og σ = 10 g. Finn intervallet som inneholder omtrent 95 % av vektene ved hjelp av 68–95–99,7-regelen.",
+        "fasit": "Omtrent 95 % ligger innenfor μ ± 2σ. Det gir 750 ± 2 · 10, altså fra 730 g til 770 g.",
+        "kriterier": [
+          "Bruker intervallet μ ± 2σ for omtrent 95 %.",
+          "Regner ut riktige grenser: 730 g og 770 g."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I en normalfordeling, omtrent hvor stor andel av verdiene ligger mellom μ + σ og μ + 2σ? Bruk 68–95–99,7-regelen og kurvens symmetri.",
+        "fasit": "Mellom μ − 2σ og μ + 2σ ligger omtrent 95 %, og innenfor μ ± σ ligger omtrent 68 %. Forskjellen er 27 %, som fordeles likt på begge sider, så andelen er omtrent 13,5 %.",
+        "kriterier": [
+          "Finner forskjellen 95 % − 68 % = 27 %.",
+          "Bruker symmetrien til å dele forskjellen på to og får omtrent 13,5 %."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hva standardisering gjør, og hva Z-verdien forteller om en observasjon.",
+        "fasit": "Standardisering regner om X til Z = (X − μ)/σ, slik at verdien måles i standardavvik fra forventningen. Z forteller hvor mange standardavvik observasjonen ligger fra μ.",
+        "kriterier": [
+          "Beskriver standardisering som en omregning til Z, gjerne med formelen.",
+          "Forklarer at Z angir avstanden fra forventningen målt i standardavvik."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En tabell gir verdien Φ(z). Forklar hvilken sannsynlighet denne verdien viser, og hvilket område under standardnormalfordelingen den gjelder.",
+        "fasit": "Φ(z) er sannsynligheten P(Z ≤ z). Den viser arealet under kurven til venstre for z.",
+        "kriterier": [
+          "Knytter Φ(z) til P(Z ≤ z).",
+          "Forklarer at sannsynligheten gjelder området til venstre for z."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign GeoGebra-kommandoene Normal(μ, σ, x) og InversNormal(μ, σ, p). Hva finner hver av dem?",
+        "fasit": "Normal(μ, σ, x) finner sannsynligheten for at X er mindre enn eller lik x. InversNormal(μ, σ, p) finner verdien x som svarer til sannsynligheten p.",
+        "kriterier": [
+          "Forklarer at Normal finner en sannsynlighet ut fra en x-verdi.",
+          "Forklarer at InversNormal finner en x-verdi ut fra en sannsynlighet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Inntekter kan være skjevfordelte med en lang hale mot høye verdier. Forklar hvorfor det er lurt å undersøke et histogram før man bruker en normalfordeling på slike data.",
+        "fasit": "En normalfordeling er symmetrisk, mens skjevfordelte inntekter har en lang hale mot høye verdier. Et histogram kan vise om dataene er skjeve og dermed om normalfordelingen passer dårlig.",
+        "kriterier": [
+          "Knytter normalfordelingen til en symmetrisk form og inntekter til en skjev fordeling med lang hale mot høye verdier.",
+          "Forklarer at histogrammet brukes til å vurdere om dataene passer med normalfordelingen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

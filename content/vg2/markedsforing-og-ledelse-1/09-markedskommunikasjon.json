@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Markedskommunikasjon",
   "intro": "Kommunikasjonsprosessen, kommunikasjonsmål og AIDA-modellen, virkemidlene i kommunikasjonsmiksen – reklame, personlig salg, salgsfremmende tiltak, PR, sponsing og digital markedsføring – og hvordan budskap og strategier brukes som konkurransemiddel.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Hva er markedskommunikasjon?\n\n**Markedskommunikasjon** – **påvirkning** i de fire P-ene – er all kommunikasjon virksomheten har med markedet for å **informere**, **overbevise** og **minne** kundene på produktene.\n\n## Kommunikasjonsprosessen\n\n**Avsenderen** lager et **budskap** som sendes gjennom en **kanal** til en **mottaker**. Mottakeren **tolker** budskapet og gir kanskje en **respons**. Underveis kan **støy** forstyrre – for eksempel mange andre reklamer eller at mottakeren ikke følger med. Budskapet må derfor tilpasses **målgruppen** og kanalen.\n\n## Kommunikasjonsmål\n\nMålene deles ofte i tre nivåer:\n\n1. **Kjennskap** – kunden skal **vite** om produktet.\n2. **Holdning** – kunden skal **like** produktet.\n3. **Handling** – kunden skal **kjøpe** eller gjøre noe annet.\n\n**AIDA-modellen** beskriver veien mot kjøp: **oppmerksomhet** (attention), **interesse** (interest), **lyst** (desire) og **handling** (action). En god annonse fanger blikket, vekker interesse, skaper lyst og gjør det **lett** å handle.\n\n## Kommunikasjonsmiksen\n\n- **Reklame**: **betalt** kommunikasjon i medier, som TV, aviser, plakater og sosiale medier. Når **mange**, men gir liten mulighet for dialog.\n- **Personlig salg**: selgeren møter kunden **ansikt til ansikt** eller på telefon. Kan **tilpasses** kunden og passer for **dyre** og **kompliserte** produkter.\n- **Salgsfremmende tiltak**: **kortsiktige** tiltak som kuponger, smaksprøver, konkurranser og «3 for 2».\n- **PR** (public relations): å bygge **omdømme** og få **redaksjonell omtale**, for eksempel gjennom pressemeldinger. Omtale oppleves **troverdig**, men virksomheten har lite **kontroll**.\n- **Sponsing**: støtte til idrett, kultur eller frivillighet i bytte mot synlighet og et positivt **image**.\n- **Direkte markedsføring**: personlig rettet kommunikasjon via **e-post**, SMS eller post. Krever ofte **samtykke**.\n- **Digital markedsføring**: annonser i **sosiale medier** og **søkemotorer**, innhold på egne kanaler og samarbeid med **påvirkere**. Kan **målrettes** presist og **måles** godt.\n\n## Budskapet\n\n- **Rasjonelle appeller** bruker **fakta**: pris, egenskaper og kvalitet.\n- **Emosjonelle appeller** spiller på **følelser**: humor, glede, nostalgi, frykt eller fellesskap.\n- Et **unikt salgsargument** er det som skiller produktet fra konkurrentene.\n- **Historiefortelling** gjør budskapet lettere å **huske**.\n\nDyre og viktige kjøp krever ofte mer **informasjon**, mens rutinekjøp påvirkes mer av **følelser** og **gjenkjennelse**.\n\n## Strategier\n\n- **Push**: kommunikasjon rettet mot **forhandlere** med rabatter og salgsstøtte.\n- **Pull**: kommunikasjon rettet mot **forbrukerne**, som skaper etterspørsel.\n- **Integrert markedskommunikasjon**: Alle kanaler og virkemidler sender det **samme** budskapet med samme **visuelle** uttrykk. Det gir sterkere **gjenkjennelse**.\n\n## Kommunikasjon som konkurransemiddel\n\nVirksomheter i markeder med **like** produkter, som brus og mobilabonnement, bruker ofte store summer på kommunikasjon for å skape **forskjeller** i kundenes hode. Kommunikasjonen må likevel **stemme** med resten av tilbudet: Lover reklamen mer enn produktet holder, blir kundene **skuffet**, og omdømmet svekkes.",
   "flashcards": [
-    { "term": "Markedskommunikasjon", "def": "Kommunikasjon som informerer, overbeviser og minner kundene på produktene." },
-    { "term": "Kommunikasjonsprosessen", "def": "Avsender, budskap, kanal, mottaker, respons og støy." },
-    { "term": "Støy", "def": "Alt som forstyrrer budskapet på veien til mottakeren." },
-    { "term": "Kommunikasjonsmål", "def": "Kjennskap, holdning og handling." },
-    { "term": "AIDA", "def": "Oppmerksomhet, interesse, lyst og handling." },
-    { "term": "Reklame", "def": "Betalt kommunikasjon i medier som når mange." },
-    { "term": "Personlig salg", "def": "Tilpasset kommunikasjon ansikt til ansikt eller på telefon." },
-    { "term": "Salgsfremmende tiltak", "def": "Kortsiktige tiltak som kuponger, smaksprøver og «3 for 2»." },
-    { "term": "PR", "def": "Å bygge omdømme og få redaksjonell omtale." },
-    { "term": "Sponsing", "def": "Støtte til idrett eller kultur i bytte mot synlighet." },
-    { "term": "Direkte markedsføring", "def": "Personlig rettet kommunikasjon via e-post, SMS eller post." },
-    { "term": "Rasjonell appell", "def": "Budskap som bygger på fakta som pris og egenskaper." },
-    { "term": "Emosjonell appell", "def": "Budskap som spiller på følelser." },
-    { "term": "Unikt salgsargument", "def": "Det som skiller produktet fra konkurrentene." },
-    { "term": "Integrert markedskommunikasjon", "def": "Samme budskap og uttrykk i alle kanaler." },
-    { "term": "Historiefortelling", "def": "Å formidle budskapet gjennom en fortelling som er lett å huske." }
+    {
+      "term": "Markedskommunikasjon",
+      "def": "Kommunikasjon som informerer, overbeviser og minner kundene på produktene."
+    },
+    {
+      "term": "Kommunikasjonsprosessen",
+      "def": "Avsender, budskap, kanal, mottaker, respons og støy."
+    },
+    {
+      "term": "Støy",
+      "def": "Alt som forstyrrer budskapet på veien til mottakeren."
+    },
+    {
+      "term": "Kommunikasjonsmål",
+      "def": "Kjennskap, holdning og handling."
+    },
+    {
+      "term": "AIDA",
+      "def": "Oppmerksomhet, interesse, lyst og handling."
+    },
+    {
+      "term": "Reklame",
+      "def": "Betalt kommunikasjon i medier som når mange."
+    },
+    {
+      "term": "Personlig salg",
+      "def": "Tilpasset kommunikasjon ansikt til ansikt eller på telefon."
+    },
+    {
+      "term": "Salgsfremmende tiltak",
+      "def": "Kortsiktige tiltak som kuponger, smaksprøver og «3 for 2»."
+    },
+    {
+      "term": "PR",
+      "def": "Å bygge omdømme og få redaksjonell omtale."
+    },
+    {
+      "term": "Sponsing",
+      "def": "Støtte til idrett eller kultur i bytte mot synlighet."
+    },
+    {
+      "term": "Direkte markedsføring",
+      "def": "Personlig rettet kommunikasjon via e-post, SMS eller post."
+    },
+    {
+      "term": "Rasjonell appell",
+      "def": "Budskap som bygger på fakta som pris og egenskaper."
+    },
+    {
+      "term": "Emosjonell appell",
+      "def": "Budskap som spiller på følelser."
+    },
+    {
+      "term": "Unikt salgsargument",
+      "def": "Det som skiller produktet fra konkurrentene."
+    },
+    {
+      "term": "Integrert markedskommunikasjon",
+      "def": "Samme budskap og uttrykk i alle kanaler."
+    },
+    {
+      "term": "Historiefortelling",
+      "def": "Å formidle budskapet gjennom en fortelling som er lett å huske."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er støy i kommunikasjonsprosessen?", "options": ["Høy musikk i reklamen", "Alt som forstyrrer budskapet på veien til mottakeren", "Kundens respons", "Kanalen"], "correct": 1, "explain": "For eksempel mange andre reklamer." },
-    { "id": "q02", "text": "Hva står AIDA for?", "options": ["Oppmerksomhet, interesse, lyst og handling", "Analyse, idé, design og annonse", "Avsender, informasjon, dialog og avslutning", "Appell, image, distribusjon og avgift"], "correct": 0, "explain": "Veien mot kjøp." },
-    { "id": "q03", "text": "Hvilket virkemiddel passer best for dyre og kompliserte produkter?", "options": ["Plakatreklame", "Smaksprøver", "Personlig salg", "Sponsing"], "correct": 2, "explain": "Kan tilpasses kunden." },
-    { "id": "q04", "text": "Hva er et eksempel på salgsfremmende tiltak?", "options": ["En TV-reklame", "En pressemelding", "Sponsing av et fotballag", "«3 for 2»"], "correct": 3, "explain": "Kortsiktige tiltak." },
-    { "id": "q05", "text": "Hvorfor oppleves PR ofte som troverdig?", "options": ["Fordi omtalen kommer fra redaksjonelle medier, ikke virksomheten selv", "Fordi den er betalt", "Fordi den er kort", "Fordi den alltid er positiv"], "correct": 0, "explain": "Men virksomheten har lite kontroll." },
-    { "id": "q06", "text": "Hva er en emosjonell appell?", "options": ["Fakta om pris", "Et budskap som spiller på følelser", "En tabell med egenskaper", "En garanti"], "correct": 1, "explain": "For eksempel humor eller nostalgi." },
-    { "id": "q07", "text": "Hva er integrert markedskommunikasjon?", "options": ["Bare én kanal", "Ulike budskap i hver kanal", "Samme budskap og uttrykk i alle kanaler", "Kommunikasjon bare til ansatte"], "correct": 2, "explain": "Gir sterkere gjenkjennelse." },
-    { "id": "q08", "text": "Hvilket kommunikasjonsmål handler om at kunden skal like produktet?", "options": ["Kjennskap", "Handling", "Kjøp", "Holdning"], "correct": 3, "explain": "Det midterste nivået." },
-    { "id": "q09", "text": "Hva er en fordel med digital markedsføring?", "options": ["Den kan målrettes og måles godt", "Den er alltid gratis", "Den når bare eldre", "Den krever ikke samtykke"], "correct": 0, "explain": "Annonser kan vises til utvalgte målgrupper." },
-    { "id": "q10", "text": "Hva skjer hvis reklamen lover mer enn produktet holder?", "options": ["Salget øker for alltid", "Kundene blir skuffet og omdømmet svekkes", "Ingenting", "Prisen går opp"], "correct": 1, "explain": "Kommunikasjonen må stemme med tilbudet." }
+    {
+      "id": "q01",
+      "text": "Hva er støy i kommunikasjonsprosessen?",
+      "options": [
+        "Høy musikk i reklamen",
+        "Alt som forstyrrer budskapet på veien til mottakeren",
+        "Kundens respons",
+        "Kanalen"
+      ],
+      "correct": 1,
+      "explain": "For eksempel mange andre reklamer."
+    },
+    {
+      "id": "q02",
+      "text": "Hva står AIDA for?",
+      "options": [
+        "Oppmerksomhet, interesse, lyst og handling",
+        "Analyse, idé, design og annonse",
+        "Avsender, informasjon, dialog og avslutning",
+        "Appell, image, distribusjon og avgift"
+      ],
+      "correct": 0,
+      "explain": "Veien mot kjøp."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket virkemiddel passer best for dyre og kompliserte produkter?",
+      "options": [
+        "Plakatreklame",
+        "Smaksprøver",
+        "Personlig salg",
+        "Sponsing"
+      ],
+      "correct": 2,
+      "explain": "Kan tilpasses kunden."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er et eksempel på salgsfremmende tiltak?",
+      "options": [
+        "En TV-reklame",
+        "En pressemelding",
+        "Sponsing av et fotballag",
+        "«3 for 2»"
+      ],
+      "correct": 3,
+      "explain": "Kortsiktige tiltak."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor oppleves PR ofte som troverdig?",
+      "options": [
+        "Fordi omtalen kommer fra redaksjonelle medier, ikke virksomheten selv",
+        "Fordi den er betalt",
+        "Fordi den er kort",
+        "Fordi den alltid er positiv"
+      ],
+      "correct": 0,
+      "explain": "Men virksomheten har lite kontroll."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en emosjonell appell?",
+      "options": [
+        "Fakta om pris",
+        "Et budskap som spiller på følelser",
+        "En tabell med egenskaper",
+        "En garanti"
+      ],
+      "correct": 1,
+      "explain": "For eksempel humor eller nostalgi."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er integrert markedskommunikasjon?",
+      "options": [
+        "Bare én kanal",
+        "Ulike budskap i hver kanal",
+        "Samme budskap og uttrykk i alle kanaler",
+        "Kommunikasjon bare til ansatte"
+      ],
+      "correct": 2,
+      "explain": "Gir sterkere gjenkjennelse."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket kommunikasjonsmål handler om at kunden skal like produktet?",
+      "options": [
+        "Kjennskap",
+        "Handling",
+        "Kjøp",
+        "Holdning"
+      ],
+      "correct": 3,
+      "explain": "Det midterste nivået."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en fordel med digital markedsføring?",
+      "options": [
+        "Den kan målrettes og måles godt",
+        "Den er alltid gratis",
+        "Den når bare eldre",
+        "Den krever ikke samtykke"
+      ],
+      "correct": 0,
+      "explain": "Annonser kan vises til utvalgte målgrupper."
+    },
+    {
+      "id": "q10",
+      "text": "Hva skjer hvis reklamen lover mer enn produktet holder?",
+      "options": [
+        "Salget øker for alltid",
+        "Kundene blir skuffet og omdømmet svekkes",
+        "Ingenting",
+        "Prisen går opp"
+      ],
+      "correct": 1,
+      "explain": "Kommunikasjonen må stemme med tilbudet."
+    }
   ],
   "mindmap": {
     "label": "Markedskommunikasjon",
     "children": [
-      { "label": "Prosess", "children": [
-        { "label": "Avsender og budskap" },
-        { "label": "Kanal og mottaker" },
-        { "label": "Støy" }
-      ] },
-      { "label": "Mål", "children": [
-        { "label": "Kjennskap, holdning, handling" },
-        { "label": "AIDA" }
-      ] },
-      { "label": "Virkemidler", "children": [
-        { "label": "Reklame" },
-        { "label": "Personlig salg" },
-        { "label": "Salgsfremmende tiltak" },
-        { "label": "PR og sponsing" },
-        { "label": "Digitalt" }
-      ] },
-      { "label": "Budskap", "children": [
-        { "label": "Rasjonelt og emosjonelt" },
-        { "label": "Unikt salgsargument" }
-      ] },
-      { "label": "Strategi", "children": [
-        { "label": "Push og pull" },
-        { "label": "Integrert kommunikasjon" }
-      ] }
+      {
+        "label": "Prosess",
+        "children": [
+          {
+            "label": "Avsender og budskap"
+          },
+          {
+            "label": "Kanal og mottaker"
+          },
+          {
+            "label": "Støy"
+          }
+        ]
+      },
+      {
+        "label": "Mål",
+        "children": [
+          {
+            "label": "Kjennskap, holdning, handling"
+          },
+          {
+            "label": "AIDA"
+          }
+        ]
+      },
+      {
+        "label": "Virkemidler",
+        "children": [
+          {
+            "label": "Reklame"
+          },
+          {
+            "label": "Personlig salg"
+          },
+          {
+            "label": "Salgsfremmende tiltak"
+          },
+          {
+            "label": "PR og sponsing"
+          },
+          {
+            "label": "Digitalt"
+          }
+        ]
+      },
+      {
+        "label": "Budskap",
+        "children": [
+          {
+            "label": "Rasjonelt og emosjonelt"
+          },
+          {
+            "label": "Unikt salgsargument"
+          }
+        ]
+      },
+      {
+        "label": "Strategi",
+        "children": [
+          {
+            "label": "Push og pull"
+          },
+          {
+            "label": "Integrert kommunikasjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Markedskommunikasjon kan både informere, overbevise og minne kundene på produkter.", "correct": true, "explain": "Tre hovedoppgaver." },
-      { "id": "m02", "type": "sant-usant", "text": "Reklame gir like god mulighet for dialog som personlig salg.", "correct": false, "explain": "Reklame er enveiskommunikasjon til mange." },
-      { "id": "m03", "type": "sant-usant", "text": "Rutinekjøp påvirkes ofte mer av følelser og gjenkjennelse enn av fakta.", "correct": true, "explain": "Lite engasjement." },
-      { "id": "m04", "type": "sant-usant", "text": "Direkte markedsføring på e-post kan alltid sendes uten samtykke.", "correct": false, "explain": "Det krever ofte samtykke." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er en pull-strategi i kommunikasjon?", "options": ["Rabatter til forhandlere", "Kommunikasjon rettet mot forbrukerne for å skape etterspørsel", "Personlig salg til grossister", "Å kutte reklame"], "correct": 1, "explain": "Kundene trekker varen gjennom kanalen." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er sponsing?", "options": ["Støtte til idrett eller kultur i bytte mot synlighet", "En type rabatt", "En pressemelding", "Personlig salg"], "correct": 0, "explain": "Gir et positivt image." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor bruker virksomheter med like produkter mye penger på kommunikasjon?", "options": ["Fordi produktene er ulovlige", "Fordi de ikke har konkurrenter", "For å skape forskjeller i kundenes hode", "For å senke prisen"], "correct": 2, "explain": "For eksempel brus og mobilabonnement." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Markedskommunikasjon kan både informere, overbevise og minne kundene på produkter.",
+        "correct": true,
+        "explain": "Tre hovedoppgaver."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Reklame gir like god mulighet for dialog som personlig salg.",
+        "correct": false,
+        "explain": "Reklame er enveiskommunikasjon til mange."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Rutinekjøp påvirkes ofte mer av følelser og gjenkjennelse enn av fakta.",
+        "correct": true,
+        "explain": "Lite engasjement."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Direkte markedsføring på e-post kan alltid sendes uten samtykke.",
+        "correct": false,
+        "explain": "Det krever ofte samtykke."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er en pull-strategi i kommunikasjon?",
+        "options": [
+          "Rabatter til forhandlere",
+          "Kommunikasjon rettet mot forbrukerne for å skape etterspørsel",
+          "Personlig salg til grossister",
+          "Å kutte reklame"
+        ],
+        "correct": 1,
+        "explain": "Kundene trekker varen gjennom kanalen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er sponsing?",
+        "options": [
+          "Støtte til idrett eller kultur i bytte mot synlighet",
+          "En type rabatt",
+          "En pressemelding",
+          "Personlig salg"
+        ],
+        "correct": 0,
+        "explain": "Gir et positivt image."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor bruker virksomheter med like produkter mye penger på kommunikasjon?",
+        "options": [
+          "Fordi produktene er ulovlige",
+          "Fordi de ikke har konkurrenter",
+          "For å skape forskjeller i kundenes hode",
+          "For å senke prisen"
+        ],
+        "correct": 2,
+        "explain": "For eksempel brus og mobilabonnement."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva markedskommunikasjon er, og hva virksomheten ønsker å oppnå gjennom den.",
+        "fasit": "Markedskommunikasjon er kommunikasjon virksomheten har med markedet for å påvirke kundene. Den skal informere, overbevise og minne kundene på produktene.",
+        "kriterier": [
+          "Forklarer at markedskommunikasjon er virksomhetens kommunikasjon eller påvirkning rettet mot markedet.",
+          "Får fram at den skal informere, overbevise og/eller minne kundene på produktene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En bedrift publiserer et innlegg om et produkt i sosiale medier. Mulige kunder ser innlegget, og noen kommenterer. Pek ut avsender, kanal, mottaker og respons i situasjonen.",
+        "fasit": "Bedriften er avsender, og innlegget er budskapet som sendes gjennom sosiale medier som kanal. De mulige kundene er mottakere, og kommentarene deres er respons.",
+        "kriterier": [
+          "Identifiserer bedriften som avsender, sosiale medier som kanal og kundene som mottakere.",
+          "Forklarer at kommentarene er mottakernes respons."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen på målene kjennskap, holdning og handling i markedskommunikasjon. Hva skal kunden vite, like eller gjøre ved hvert mål?",
+        "fasit": "Kjennskap betyr at kunden skal vite om produktet, mens holdning betyr at kunden skal like det. Handling betyr at kunden skal kjøpe produktet eller gjøre noe annet.",
+        "kriterier": [
+          "Skiller mellom kjennskap som å vite om produktet og holdning som å like det.",
+          "Forklarer handling som å kjøpe produktet eller gjøre noe annet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign reklame og personlig salg ut fra hvor mange de kan nå, og hvor godt kommunikasjonen kan tilpasses den enkelte kunden.",
+        "fasit": "Reklame er betalt kommunikasjon i medier som kan nå mange, men gir liten mulighet for dialog. Personlig salg skjer ansikt til ansikt eller på telefon og kan tilpasses kunden.",
+        "kriterier": [
+          "Får fram at reklame kan nå mange, men gir liten mulighet for dialog.",
+          "Får fram at personlig salg kan tilpasses den enkelte kunden."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En virksomhet vil bruke en rasjonell appell i en annonse. Gi ett eksempel på hva annonsen kan framheve, og forklar hvorfor dette er en rasjonell appell.",
+        "fasit": "Annonsen kan framheve produktets pris. Det er en rasjonell appell fordi budskapet bygger på fakta.",
+        "kriterier": [
+          "Gir et eksempel på fakta annonsen kan framheve, for eksempel pris, egenskaper eller kvalitet.",
+          "Begrunner at dette er rasjonelt fordi budskapet bygger på fakta."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En produsent gir forhandlere rabatter og lager samtidig annonser som skal få forbrukere til å etterspørre produktet. Forklar hvilken strategi hvert tiltak viser, og hvem tiltakene er rettet mot.",
+        "fasit": "Rabattene til forhandlerne er en push-strategi, fordi kommunikasjonen rettes mot forhandlerne. Annonsene rettet mot forbrukerne er en pull-strategi, fordi de skal skape etterspørsel hos forbrukerne.",
+        "kriterier": [
+          "Knytter rabattene til forhandlerne til push og forklarer at strategien retter seg mot forhandlere.",
+          "Knytter annonsene til forbrukerne til pull og forklarer at strategien skal skape etterspørsel."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En virksomhet støtter et kulturarrangement og får logoen sin synlig der. Forklar hvorfor dette er sponsing, og hva virksomheten får igjen for støtten.",
+        "fasit": "Dette er sponsing fordi virksomheten støtter kultur mot å få synlighet. Synligheten kan bidra til et positivt image for virksomheten.",
+        "kriterier": [
+          "Forklarer at sponsing innebærer støtte til idrett, kultur eller frivillighet i bytte mot synlighet.",
+          "Får fram at støtten og synligheten kan bidra til et positivt image."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En virksomhet vil gjøre et produktbudskap lettere å huske. Forklar hvordan historiefortelling kan hjelpe, og hva historiefortelling betyr i denne sammenhengen.",
+        "fasit": "Historiefortelling betyr å formidle budskapet gjennom en fortelling. Det kan gjøre budskapet lettere for kundene å huske.",
+        "kriterier": [
+          "Forklarer at historiefortelling formidler budskapet gjennom en fortelling.",
+          "Knytter historiefortelling til at budskapet blir lettere å huske."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

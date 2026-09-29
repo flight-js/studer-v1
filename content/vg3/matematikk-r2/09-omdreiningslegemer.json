@@ -4,75 +4,415 @@
   "trinnId": "vg3",
   "name": "Omdreiningslegemer og volum",
   "intro": "Hvordan integrasjon brukes til å beregne volum – skivemetoden med tverrsnittsareal, omdreiningslegemer rundt x-aksen og y-aksen, legemer med hulrom – og hvordan formlene for kjegle og kule kan utledes, sammen med funksjonsanalyse av grafen som roteres.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Skivemetoden\n\nTenk deg at et legeme skjæres i tynne **skiver** vinkelrett på x-aksen. Hver skive har **tverrsnittsareal** A(x) og tykkelse Δx, så volumet er omtrent A(x) · Δx. Summerer vi og lar Δx → 0, får vi\n\n**V = ∫ₐᵇ A(x) dx**\n\nDette er den samme idéen som for areal: en **sum av mange små bidrag**.\n\n## Omdreiningslegemer rundt x-aksen\n\nNår grafen til f **roteres** 360° om x-aksen mellom x = a og x = b, dannes et **omdreiningslegeme**. Hver skive er en **sirkelskive** med radius f(x), så A(x) = π · f(x)². Volumet er\n\n**V = π · ∫ₐᵇ (f(x))² dx**\n\n**Eksempel**: f(x) = √x på [0, 4]:\n\nV = π ∫₀⁴ x dx = π · [x²/2]₀⁴ = **8π**\n\n## Utlede kjent volum\n\n**Kjegle** med radius r og høyde h: Roter linjen f(x) = (r/h)x fra 0 til h.\n\nV = π ∫₀ʰ (r/h)² x² dx = π(r²/h²) · h³/3 = **πr²h/3**\n\n**Kule** med radius r: Roter halvsirkelen f(x) = √(r² − x²) fra −r til r.\n\nV = π ∫ (r² − x²) dx = π[r²x − x³/3] fra −r til r = π(2r³ − 2r³/3) = **4πr³/3**\n\n**Sylinder**: En konstant funksjon f(x) = r gir V = πr²h.\n\n## Legemer med hulrom\n\nNår området **mellom** to grafer f(x) ≥ g(x) ≥ 0 roteres, blir hver skive en **ring**:\n\n**V = π · ∫ₐᵇ ((f(x))² − (g(x))²) dx**\n\nMerk at vi trekker fra **kvadratene** – ikke kvadratet av differansen.\n\n## Rotasjon om y-aksen\n\nRoteres en graf om **y-aksen**, integrerer vi langs y. Skriv x som funksjon av y og bruk\n\n**V = π · ∫ (x(y))² dy**\n\n## Funksjonsanalyse\n\nFør du regner volum, er det lurt å **analysere** funksjonen:\n\n- **Nullpunkter** viser hvor legemet er tynnest.\n- **f′** viser hvor legemet blir **bredere** eller **smalere**, og **toppunktene** gir **største radius**.\n- **f″** viser om profilen **krummer** innover eller utover.\n\nDette er nyttig når du for eksempel skal **designe** en vase, en flaske eller en tank, og vil vite hvor mye den rommer.\n\n## Praktiske problemer\n\n- **Hvor høyt** står vannet når tanken er halvfull? Løs likningen π ∫₀ʰ (f(x))² dx = V/2 for h, ofte med **CAS**.\n- **Hvor mye materiale** trengs? Regn ut volumet av det ytre legemet minus hulrommet.\n- Pass på **enheter**: Er x i cm, blir volumet i cm³. 1 dm³ = 1 L.\n\n## Numerisk volum\n\nHar du bare **målinger** av radien langs et legeme – for eksempel en trestamme – kan du regne ut volumet **numerisk** med trapesmetoden på A(x) = π · r(x)².",
   "flashcards": [
-    { "term": "Skivemetoden", "def": "V = ∫ₐᵇ A(x) dx med tverrsnittsareal A(x)." },
-    { "term": "Omdreiningslegeme", "def": "Legeme som dannes når en graf roteres om en akse." },
-    { "term": "Volum rundt x-aksen", "def": "V = π · ∫ₐᵇ (f(x))² dx" },
-    { "term": "Tverrsnitt ved rotasjon", "def": "Sirkelskive med radius f(x)." },
-    { "term": "Kjeglevolum", "def": "πr²h/3 – fra rotasjon av f(x) = (r/h)x." },
-    { "term": "Kulevolum", "def": "4πr³/3 – fra rotasjon av √(r² − x²)." },
-    { "term": "Sylindervolum", "def": "πr²h – fra en konstant funksjon." },
-    { "term": "Legeme med hulrom", "def": "V = π · ∫ₐᵇ ((f(x))² − (g(x))²) dx" },
-    { "term": "Vanlig feil med hulrom", "def": "Å kvadrere differansen i stedet for å trekke fra kvadratene." },
-    { "term": "Rotasjon om y-aksen", "def": "V = π · ∫ (x(y))² dy" },
-    { "term": "Største radius", "def": "Finnes i toppunktet til f." },
-    { "term": "1 dm³", "def": "1 liter." },
-    { "term": "Halvfull tank", "def": "Løs π ∫₀ʰ (f(x))² dx = V/2 for h." },
-    { "term": "Numerisk volum", "def": "Trapesmetoden på A(x) = π · r(x)² fra målinger." },
-    { "term": "Enhet for volum", "def": "Lengdeenhet i tredje potens, for eksempel cm³." }
+    {
+      "term": "Skivemetoden",
+      "def": "V = ∫ₐᵇ A(x) dx med tverrsnittsareal A(x)."
+    },
+    {
+      "term": "Omdreiningslegeme",
+      "def": "Legeme som dannes når en graf roteres om en akse."
+    },
+    {
+      "term": "Volum rundt x-aksen",
+      "def": "V = π · ∫ₐᵇ (f(x))² dx"
+    },
+    {
+      "term": "Tverrsnitt ved rotasjon",
+      "def": "Sirkelskive med radius f(x)."
+    },
+    {
+      "term": "Kjeglevolum",
+      "def": "πr²h/3 – fra rotasjon av f(x) = (r/h)x."
+    },
+    {
+      "term": "Kulevolum",
+      "def": "4πr³/3 – fra rotasjon av √(r² − x²)."
+    },
+    {
+      "term": "Sylindervolum",
+      "def": "πr²h – fra en konstant funksjon."
+    },
+    {
+      "term": "Legeme med hulrom",
+      "def": "V = π · ∫ₐᵇ ((f(x))² − (g(x))²) dx"
+    },
+    {
+      "term": "Vanlig feil med hulrom",
+      "def": "Å kvadrere differansen i stedet for å trekke fra kvadratene."
+    },
+    {
+      "term": "Rotasjon om y-aksen",
+      "def": "V = π · ∫ (x(y))² dy"
+    },
+    {
+      "term": "Største radius",
+      "def": "Finnes i toppunktet til f."
+    },
+    {
+      "term": "1 dm³",
+      "def": "1 liter."
+    },
+    {
+      "term": "Halvfull tank",
+      "def": "Løs π ∫₀ʰ (f(x))² dx = V/2 for h."
+    },
+    {
+      "term": "Numerisk volum",
+      "def": "Trapesmetoden på A(x) = π · r(x)² fra målinger."
+    },
+    {
+      "term": "Enhet for volum",
+      "def": "Lengdeenhet i tredje potens, for eksempel cm³."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er volumformelen når f roteres om x-aksen?", "options": ["V = ∫ₐᵇ f(x) dx", "V = π · ∫ₐᵇ (f(x))² dx", "V = 2π · ∫ₐᵇ f(x) dx", "V = π · (∫ₐᵇ f(x) dx)²"], "correct": 1, "explain": "Sirkelskiver med radius f(x)." },
-    { "id": "q02", "text": "Hva er volumet når f(x) = √x roteres om x-aksen fra 0 til 4?", "options": ["8π", "16π", "4π", "2π"], "correct": 0, "explain": "π · [x²/2]₀⁴." },
-    { "id": "q03", "text": "Hvilken funksjon roteres for å utlede kulevolumet?", "options": ["f(x) = x", "f(x) = r", "f(x) = √(r² − x²)", "f(x) = x²"], "correct": 2, "explain": "En halvsirkel." },
-    { "id": "q04", "text": "Hva er volumet av legemet når f(x) = x roteres fra 0 til 3?", "options": ["3π", "27π", "6π", "9π"], "correct": 3, "explain": "π · [x³/3]₀³ = 9π – en kjegle." },
-    { "id": "q05", "text": "Hvordan regnes volumet av et legeme med hulrom mellom f og g?", "options": ["π · ∫ₐᵇ ((f(x))² − (g(x))²) dx", "π · ∫ₐᵇ (f(x) − g(x))² dx", "∫ₐᵇ (f(x) − g(x)) dx", "π · ∫ₐᵇ f(x)g(x) dx"], "correct": 0, "explain": "Trekk fra kvadratene." },
-    { "id": "q06", "text": "Hva er volumet når f(x) = 2 roteres fra 0 til 3?", "options": ["6π", "12π", "4π", "18π"], "correct": 1, "explain": "En sylinder: π · 4 · 3." },
-    { "id": "q07", "text": "Hva er den generelle skivemetoden?", "options": ["V = A · h alltid", "V = ∫ f′(x) dx", "V = ∫ₐᵇ A(x) dx", "V = π · r²"], "correct": 2, "explain": "A(x) er tverrsnittsarealet." },
-    { "id": "q08", "text": "Hvor finner du største radius i et omdreiningslegeme?", "options": ["I nullpunktene", "I vendepunktet", "Alltid i endepunktet", "I toppunktet til f"], "correct": 3, "explain": "Der f er størst." },
-    { "id": "q09", "text": "Hvilken formel gir volumet ved rotasjon om y-aksen?", "options": ["V = π · ∫ (x(y))² dy", "V = π · ∫ (f(x))² dx", "V = ∫ y dy", "V = 2πr"], "correct": 0, "explain": "Integrer langs y." },
-    { "id": "q10", "text": "Hva er volumet i liter av 3000 cm³?", "options": ["30 L", "3 L", "0,3 L", "300 L"], "correct": 1, "explain": "1 L = 1000 cm³." }
+    {
+      "id": "q01",
+      "text": "Hva er volumformelen når f roteres om x-aksen?",
+      "options": [
+        "V = ∫ₐᵇ f(x) dx",
+        "V = π · ∫ₐᵇ (f(x))² dx",
+        "V = 2π · ∫ₐᵇ f(x) dx",
+        "V = π · (∫ₐᵇ f(x) dx)²"
+      ],
+      "correct": 1,
+      "explain": "Sirkelskiver med radius f(x)."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er volumet når f(x) = √x roteres om x-aksen fra 0 til 4?",
+      "options": [
+        "8π",
+        "16π",
+        "4π",
+        "2π"
+      ],
+      "correct": 0,
+      "explain": "π · [x²/2]₀⁴."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken funksjon roteres for å utlede kulevolumet?",
+      "options": [
+        "f(x) = x",
+        "f(x) = r",
+        "f(x) = √(r² − x²)",
+        "f(x) = x²"
+      ],
+      "correct": 2,
+      "explain": "En halvsirkel."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er volumet av legemet når f(x) = x roteres fra 0 til 3?",
+      "options": [
+        "3π",
+        "27π",
+        "6π",
+        "9π"
+      ],
+      "correct": 3,
+      "explain": "π · [x³/3]₀³ = 9π – en kjegle."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan regnes volumet av et legeme med hulrom mellom f og g?",
+      "options": [
+        "π · ∫ₐᵇ ((f(x))² − (g(x))²) dx",
+        "π · ∫ₐᵇ (f(x) − g(x))² dx",
+        "∫ₐᵇ (f(x) − g(x)) dx",
+        "π · ∫ₐᵇ f(x)g(x) dx"
+      ],
+      "correct": 0,
+      "explain": "Trekk fra kvadratene."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er volumet når f(x) = 2 roteres fra 0 til 3?",
+      "options": [
+        "6π",
+        "12π",
+        "4π",
+        "18π"
+      ],
+      "correct": 1,
+      "explain": "En sylinder: π · 4 · 3."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er den generelle skivemetoden?",
+      "options": [
+        "V = A · h alltid",
+        "V = ∫ f′(x) dx",
+        "V = ∫ₐᵇ A(x) dx",
+        "V = π · r²"
+      ],
+      "correct": 2,
+      "explain": "A(x) er tverrsnittsarealet."
+    },
+    {
+      "id": "q08",
+      "text": "Hvor finner du største radius i et omdreiningslegeme?",
+      "options": [
+        "I nullpunktene",
+        "I vendepunktet",
+        "Alltid i endepunktet",
+        "I toppunktet til f"
+      ],
+      "correct": 3,
+      "explain": "Der f er størst."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken formel gir volumet ved rotasjon om y-aksen?",
+      "options": [
+        "V = π · ∫ (x(y))² dy",
+        "V = π · ∫ (f(x))² dx",
+        "V = ∫ y dy",
+        "V = 2πr"
+      ],
+      "correct": 0,
+      "explain": "Integrer langs y."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er volumet i liter av 3000 cm³?",
+      "options": [
+        "30 L",
+        "3 L",
+        "0,3 L",
+        "300 L"
+      ],
+      "correct": 1,
+      "explain": "1 L = 1000 cm³."
+    }
   ],
   "mindmap": {
     "label": "Omdreiningslegemer",
     "children": [
-      { "label": "Skivemetoden", "children": [
-        { "label": "Tverrsnittsareal A(x)" },
-        { "label": "V = ∫ A(x) dx" }
-      ] },
-      { "label": "Rotasjon om x-aksen", "children": [
-        { "label": "V = π ∫ f² dx" },
-        { "label": "Hulrom: f² − g²" }
-      ] },
-      { "label": "Kjente legemer", "children": [
-        { "label": "Kjegle" },
-        { "label": "Kule" },
-        { "label": "Sylinder" }
-      ] },
-      { "label": "Rotasjon om y-aksen", "children": [
-        { "label": "x som funksjon av y" }
-      ] },
-      { "label": "Anvendelser", "children": [
-        { "label": "Funksjonsanalyse" },
-        { "label": "Tanker og vaser" },
-        { "label": "Numerisk volum" }
-      ] }
+      {
+        "label": "Skivemetoden",
+        "children": [
+          {
+            "label": "Tverrsnittsareal A(x)"
+          },
+          {
+            "label": "V = ∫ A(x) dx"
+          }
+        ]
+      },
+      {
+        "label": "Rotasjon om x-aksen",
+        "children": [
+          {
+            "label": "V = π ∫ f² dx"
+          },
+          {
+            "label": "Hulrom: f² − g²"
+          }
+        ]
+      },
+      {
+        "label": "Kjente legemer",
+        "children": [
+          {
+            "label": "Kjegle"
+          },
+          {
+            "label": "Kule"
+          },
+          {
+            "label": "Sylinder"
+          }
+        ]
+      },
+      {
+        "label": "Rotasjon om y-aksen",
+        "children": [
+          {
+            "label": "x som funksjon av y"
+          }
+        ]
+      },
+      {
+        "label": "Anvendelser",
+        "children": [
+          {
+            "label": "Funksjonsanalyse"
+          },
+          {
+            "label": "Tanker og vaser"
+          },
+          {
+            "label": "Numerisk volum"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kjegleformelen πr²h/3 kan utledes ved å rotere en rett linje gjennom origo.", "correct": true, "explain": "f(x) = (r/h)x." },
-      { "id": "m02", "type": "sant-usant", "text": "Ved hulrom regner vi π ∫ (f(x) − g(x))² dx.", "correct": false, "explain": "Vi trekker fra kvadratene: f² − g²." },
-      { "id": "m03", "type": "sant-usant", "text": "Volumet av en trestamme kan regnes ut numerisk fra målte radier.", "correct": true, "explain": "Trapesmetoden på π · r(x)²." },
-      { "id": "m04", "type": "sant-usant", "text": "Volum og areal regnes ut med helt ulike idéer.", "correct": false, "explain": "Begge er summer av mange små bidrag." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er tverrsnittsarealet A(x) når f roteres om x-aksen?", "options": ["2π · f(x)", "π · (f(x))²", "f(x)²", "π · f(x)"], "correct": 1, "explain": "En sirkel med radius f(x)." },
-      { "id": "m06", "type": "flervalg", "text": "Hva må du gjøre for å finne vannhøyden når en tank er halvfull?", "options": ["Løse π ∫₀ʰ (f(x))² dx = V/2 for h", "Dele høyden på 2", "Derivere f", "Finne toppunktet"], "correct": 0, "explain": "Formen avgjør høyden." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er volumet når f(x) = eˣ roteres om x-aksen fra 0 til 1?", "options": ["π(e − 1)", "πe²", "π(e² − 1)/2", "π/2"], "correct": 2, "explain": "π ∫₀¹ e^(2x) dx = π[e^(2x)/2]₀¹." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kjegleformelen πr²h/3 kan utledes ved å rotere en rett linje gjennom origo.",
+        "correct": true,
+        "explain": "f(x) = (r/h)x."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Ved hulrom regner vi π ∫ (f(x) − g(x))² dx.",
+        "correct": false,
+        "explain": "Vi trekker fra kvadratene: f² − g²."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Volumet av en trestamme kan regnes ut numerisk fra målte radier.",
+        "correct": true,
+        "explain": "Trapesmetoden på π · r(x)²."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Volum og areal regnes ut med helt ulike idéer.",
+        "correct": false,
+        "explain": "Begge er summer av mange små bidrag."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er tverrsnittsarealet A(x) når f roteres om x-aksen?",
+        "options": [
+          "2π · f(x)",
+          "π · (f(x))²",
+          "f(x)²",
+          "π · f(x)"
+        ],
+        "correct": 1,
+        "explain": "En sirkel med radius f(x)."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva må du gjøre for å finne vannhøyden når en tank er halvfull?",
+        "options": [
+          "Løse π ∫₀ʰ (f(x))² dx = V/2 for h",
+          "Dele høyden på 2",
+          "Derivere f",
+          "Finne toppunktet"
+        ],
+        "correct": 0,
+        "explain": "Formen avgjør høyden."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er volumet når f(x) = eˣ roteres om x-aksen fra 0 til 1?",
+        "options": [
+          "π(e − 1)",
+          "πe²",
+          "π(e² − 1)/2",
+          "π/2"
+        ],
+        "correct": 2,
+        "explain": "π ∫₀¹ e^(2x) dx = π[e^(2x)/2]₀¹."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et legeme deles i mange tynne skiver vinkelrett på x-aksen. Forklar hvorfor summen av skivenes volum kan brukes til å finne volumet av hele legemet.",
+        "fasit": "Hver skive har omtrent volum lik tverrsnittsarealet ganger tykkelsen. Når skivene blir svært tynne, gir summen av volumene det samlede volumet, uttrykt ved et integral.",
+        "kriterier": [
+          "Knytter volumet av én skive til tverrsnittsareal og tykkelse.",
+          "Forklarer at summen av mange tynne skiver gir hele volumet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En graf med radius f(x) roteres rundt x-aksen. Forklar hvorfor arealet av et sirkelformet tverrsnitt blir π(f(x))², og ikke πf(x).",
+        "fasit": "Tverrsnittet er en sirkel med radius f(x). Arealet av en sirkel er π ganger radiusen i andre, så radiusen må kvadreres.",
+        "kriterier": [
+          "Identifiserer f(x) som radiusen i tverrsnittet.",
+          "Forklarer at sirkelarealet bruker radiusen i andre."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En kjegle og en sylinder har samme grunnflateradius r og høyde h. Sammenlign volumene deres, og forklar kort hvorfor de ikke er like store.",
+        "fasit": "Sylindervolumet er πr²h, mens kjeglevolumet er πr²h/3. Kjeglen er en tredel så stor fordi radiusen i tverrsnittene øker fra null til r, i stedet for å være r hele veien.",
+        "kriterier": [
+          "Får fram at kjeglevolumet er en tredel av sylindervolumet.",
+          "Knytter forskjellen til at kjeglen ikke har radius r gjennom hele høyden."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Grafen til f(x) = 2x roteres 360° rundt x-aksen fra x = 0 til x = 1. Regn ut volumet.",
+        "fasit": "Volumet er π∫₀¹(2x)² dx = 4π∫₀¹x² dx = 4π/3.",
+        "kriterier": [
+          "Setter opp integralet π∫₀¹(2x)² dx.",
+          "Får svaret 4π/3."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Området mellom y = 3 og y = 1 for 0 ≤ x ≤ 2 roteres rundt x-aksen. Regn ut volumet av legemet med hulrom.",
+        "fasit": "Tverrsnittene er ringer, så V = π∫₀²(3² − 1²) dx = π · 8 · 2 = 16π.",
+        "kriterier": [
+          "Trekker fra kvadratene av radiene, altså bruker 3² − 1².",
+          "Får volumet 16π."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En tank har radiusprofil f(x), der x måles fra bunnen. Skriv opp likningen du må løse for å finne høyden h når tanken er halvfull, og forklar hva likningen uttrykker.",
+        "fasit": "Jeg løser π∫₀ʰ(f(x))² dx = V/2, der V er hele tankens volum. Integraluttrykket er volumet opp til høyden h, og det skal være halvparten av totalvolumet.",
+        "kriterier": [
+          "Setter opp π∫₀ʰ(f(x))² dx = V/2.",
+          "Forklarer at integralet gir volumet fra bunnen til høyden h."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du har målt radiusen til en trestamme på flere steder langs den. Beskriv hvordan du kan bruke målingene til å anslå stammens volum.",
+        "fasit": "For hver målt radius r(x) finner jeg tverrsnittsarealet A(x) = πr(x)². Deretter bruker jeg trapesmetoden på disse arealene langs stammen for å anslå volumet.",
+        "kriterier": [
+          "Gjør målingene av radius om til tverrsnittsareal med πr(x)².",
+          "Bruker trapesmetoden på arealene langs stammen for å anslå volumet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du skal utforme profilen til en vase som dannes ved rotasjon om x-aksen. Forklar hva f′ og f″ kan fortelle deg om profilen, og hvordan dette kan være nyttig i utformingen.",
+        "fasit": "f′ viser hvor profilen blir bredere eller smalere, og et toppunkt gir den største radiusen. f″ viser om profilen krummer innover eller utover, noe som hjelper når vasens form skal utformes.",
+        "kriterier": [
+          "Knytter f′ til om radiusen øker eller minker, eller til største radius i et toppunkt.",
+          "Knytter f″ til profilens krumming innover eller utover."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

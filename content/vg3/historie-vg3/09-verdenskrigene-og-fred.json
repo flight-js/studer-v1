@@ -4,79 +4,428 @@
   "trinnId": "vg3",
   "name": "Verdenskrigene, andre konflikter og fredsslutninger",
   "intro": "Bakgrunnen for første og andre verdenskrig, fredsslutningene i Versailles og etter 1945, den kalde krigen og andre sentrale konflikter – og om fredsslutninger og forsoningsprosesser har bidratt til varig fred.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Første verdenskrig (1914–1918)\n\nBakgrunnen oppsummeres ofte med fire faktorer:\n\n- **Militarisme**: stormaktene rustet opp, og generalene hadde stor innflytelse.\n- **Allianser**: Europa var delt i to blokker – **Trippelententen** (Storbritannia, Frankrike og Russland) og **Sentralmaktene** med Tyskland og Østerrike-Ungarn.\n- **Imperialisme**: konkurranse om kolonier og makt.\n- **Nasjonalisme**: sterk tro på egen nasjon og ønske om selvstendighet blant folk på Balkan.\n\nDen **utløsende** årsaken var drapet på den østerrikske tronfølgeren **Franz Ferdinand** i **Sarajevo** i juni 1914. Alliansene gjorde at konflikten raskt spredte seg. Krigen ble en brutal **skyttergravskrig** der om lag 15–20 millioner mennesker døde.\n\n## Versaillesfreden\n\n**Versaillestraktaten** fra **1919** påla Tyskland å ta **skylden** for krigen, betale store **krigserstatninger**, avgi land og begrense hæren. **Folkeforbundet** ble opprettet for å sikre freden.\n\nMange tyskere opplevde freden som en **ydmykelse** – en «diktatfred». Historikere diskuterer om freden var for **hard**, for **svak** eller bare **dårlig håndhevet**, men mange mener den bidro til grobunn for **nazismen**.\n\n## Andre verdenskrig (1939–1945)\n\nViktige årsaker:\n\n- misnøyen med **Versaillesfreden**\n- **den økonomiske krisen** etter børskrakket i **1929**, som ga arbeidsløshet og politisk ustabilitet\n- **fascisme** og **nazisme** med krav om nytt land og hevn\n- **ettergivenhetspolitikken**: Storbritannia og Frankrike lot Hitler ta **Østerrike** og **Sudetenland** i 1938 for å unngå krig\n- **Folkeforbundets** svakhet\n- **ikke-angrepspakten** mellom Tyskland og Sovjetunionen i august 1939\n\nKrigen startet da Tyskland angrep **Polen** 1. september **1939**. Mer enn **60 millioner** mennesker døde, flest **sivile**.\n\n## Freden etter 1945\n\nEtter andre verdenskrig valgte de allierte en annen strategi:\n\n- **FN** ble opprettet i **1945** med **Sikkerhetsrådet**.\n- **Krigsforbryterdomstolene** i **Nürnberg** stilte nazistiske ledere til ansvar.\n- **Marshallhjelpen** fra USA hjalp Vest-Europa med gjenoppbyggingen.\n- **Europeisk samarbeid**, som Kull- og stålunionen i 1951 og senere **EU**, knyttet tidligere fiender som **Frankrike** og **Tyskland** sammen.\n\nMen Europa ble samtidig delt i **den kalde krigen** (1947–1991) mellom **USA** og **Sovjetunionen**. Kappløpet om atomvåpen og **stedfortrederkriger** som **Korea** og **Vietnam** preget verden.\n\n## Andre konflikter\n\n- **Krigene på Balkan** på 1990-tallet endte med **Dayton-avtalen** i 1995.\n- **Konflikten mellom Israel og palestinerne** har vart i mange tiår. **Oslo-avtalene** fra 1993 ga håp, men førte ikke til varig fred.\n- **Russlands fullskala invasjon av Ukraina** i **2022** viste at krig mellom stater i Europa ikke er historie.\n\n## Fred og forsoning\n\n**Fred** er mer enn fravær av krig. Varig fred krever ofte **forsoning** – at partene erkjenner uretten og bygger **tillit**.\n\n- **Sør-Afrika** opprettet en **sannhets- og forsoningskommisjon** etter apartheid.\n- **Tyskland** har gjort et omfattende oppgjør med **nazismen**.\n- I Norge la **Sannhets- og forsoningskommisjonen** i **2023** fram en rapport om fornorskingspolitikken overfor **samer**, **kvener** og **skogfinner**.\n\n## Refleksjon\n\nVersaillesfreden viser at en fred som oppleves som **urettferdig**, kan skape ny konflikt. Freden etter 1945 viser at **samarbeid** og **gjenoppbygging** kan gi mer varig fred – i hvert fall i Vest-Europa.",
   "flashcards": [
-    { "term": "Militarisme", "def": "Opprustning og stor innflytelse for militære ledere." },
-    { "term": "Allianser før 1914", "def": "Trippelententen mot Sentralmaktene." },
-    { "term": "Franz Ferdinand", "def": "Østerriksk tronfølger drept i Sarajevo i 1914." },
-    { "term": "Skyttergravskrig", "def": "Krigføring fra gravde stillinger på vestfronten." },
-    { "term": "Versaillestraktaten", "def": "Fredsavtalen fra 1919 som la skylden på Tyskland." },
-    { "term": "Folkeforbundet", "def": "Organisasjon for fred opprettet etter første verdenskrig." },
-    { "term": "Diktatfred", "def": "En fred som oppleves som påtvunget og urettferdig." },
-    { "term": "Ettergivenhetspolitikken", "def": "Å gi etter for Hitlers krav for å unngå krig." },
-    { "term": "Ikke-angrepspakten 1939", "def": "Avtale mellom Tyskland og Sovjetunionen før krigen." },
-    { "term": "FN", "def": "De forente nasjoner, opprettet i 1945." },
-    { "term": "Nürnbergprosessen", "def": "Rettssakene mot nazistiske krigsforbrytere." },
-    { "term": "Marshallhjelpen", "def": "Amerikansk økonomisk hjelp til gjenoppbyggingen av Vest-Europa." },
-    { "term": "Den kalde krigen", "def": "Konflikten mellom USA og Sovjetunionen 1947–1991." },
-    { "term": "Stedfortrederkrig", "def": "Krig der stormakter støtter hver sin side uten å kjempe direkte mot hverandre." },
-    { "term": "Forsoning", "def": "Å erkjenne urett og bygge tillit mellom tidligere fiender." },
-    { "term": "Sannhets- og forsoningskommisjonen", "def": "Norsk kommisjon som i 2023 la fram rapport om fornorskingen." }
+    {
+      "term": "Militarisme",
+      "def": "Opprustning og stor innflytelse for militære ledere."
+    },
+    {
+      "term": "Allianser før 1914",
+      "def": "Trippelententen mot Sentralmaktene."
+    },
+    {
+      "term": "Franz Ferdinand",
+      "def": "Østerriksk tronfølger drept i Sarajevo i 1914."
+    },
+    {
+      "term": "Skyttergravskrig",
+      "def": "Krigføring fra gravde stillinger på vestfronten."
+    },
+    {
+      "term": "Versaillestraktaten",
+      "def": "Fredsavtalen fra 1919 som la skylden på Tyskland."
+    },
+    {
+      "term": "Folkeforbundet",
+      "def": "Organisasjon for fred opprettet etter første verdenskrig."
+    },
+    {
+      "term": "Diktatfred",
+      "def": "En fred som oppleves som påtvunget og urettferdig."
+    },
+    {
+      "term": "Ettergivenhetspolitikken",
+      "def": "Å gi etter for Hitlers krav for å unngå krig."
+    },
+    {
+      "term": "Ikke-angrepspakten 1939",
+      "def": "Avtale mellom Tyskland og Sovjetunionen før krigen."
+    },
+    {
+      "term": "FN",
+      "def": "De forente nasjoner, opprettet i 1945."
+    },
+    {
+      "term": "Nürnbergprosessen",
+      "def": "Rettssakene mot nazistiske krigsforbrytere."
+    },
+    {
+      "term": "Marshallhjelpen",
+      "def": "Amerikansk økonomisk hjelp til gjenoppbyggingen av Vest-Europa."
+    },
+    {
+      "term": "Den kalde krigen",
+      "def": "Konflikten mellom USA og Sovjetunionen 1947–1991."
+    },
+    {
+      "term": "Stedfortrederkrig",
+      "def": "Krig der stormakter støtter hver sin side uten å kjempe direkte mot hverandre."
+    },
+    {
+      "term": "Forsoning",
+      "def": "Å erkjenne urett og bygge tillit mellom tidligere fiender."
+    },
+    {
+      "term": "Sannhets- og forsoningskommisjonen",
+      "def": "Norsk kommisjon som i 2023 la fram rapport om fornorskingen."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva var den utløsende årsaken til første verdenskrig?", "options": ["Angrepet på Polen", "Drapet på Franz Ferdinand i Sarajevo", "Børskrakket i 1929", "Den russiske revolusjonen"], "correct": 1, "explain": "Alliansene spredte konflikten." },
-    { "id": "q02", "text": "Hva påla Versaillestraktaten Tyskland?", "options": ["Skyld, krigserstatninger og tap av land", "Å bli med i Folkeforbundet med en gang", "Å få flere kolonier", "Å bygge opp hæren"], "correct": 0, "explain": "Mange tyskere opplevde det som en ydmykelse." },
-    { "id": "q03", "text": "Hva var ettergivenhetspolitikken?", "options": ["At Tyskland ga etter", "At USA gikk inn i krigen", "At Storbritannia og Frankrike ga etter for Hitlers krav", "At Sovjet angrep Tyskland"], "correct": 2, "explain": "For eksempel Sudetenland i 1938." },
-    { "id": "q04", "text": "Hvordan startet andre verdenskrig?", "options": ["Japan angrep USA", "Italia angrep Etiopia", "Sovjet angrep Finland", "Tyskland angrep Polen"], "correct": 3, "explain": "1. september 1939." },
-    { "id": "q05", "text": "Hvilket tiltak etter 1945 knyttet Frankrike og Tyskland sammen?", "options": ["Europeisk samarbeid som Kull- og stålunionen", "Versaillestraktaten", "Ettergivenhetspolitikken", "Den kalde krigen"], "correct": 0, "explain": "Grunnlaget for EU." },
-    { "id": "q06", "text": "Hva er en stedfortrederkrig?", "options": ["En krig mellom to stormakter direkte", "En krig der stormakter støtter hver sin side uten å kjempe direkte", "En borgerkrig uten utenlandsk innblanding", "En krig i verdensrommet"], "correct": 1, "explain": "For eksempel Korea og Vietnam." },
-    { "id": "q07", "text": "Hva la Sannhets- og forsoningskommisjonen i Norge fram i 2023?", "options": ["En rapport om andre verdenskrig", "En ny grunnlov", "En rapport om fornorskingspolitikken", "En fredsavtale"], "correct": 2, "explain": "Om samer, kvener og skogfinner." },
-    { "id": "q08", "text": "Hvorfor mener mange at Versaillesfreden bidro til ny krig?", "options": ["Fordi den var for mild mot alle", "Fordi Tyskland vant", "Fordi den ga Tyskland kolonier", "Fordi den ble opplevd som urettferdig og ga grobunn for nazismen"], "correct": 3, "explain": "Historikere diskuterer dette." },
-    { "id": "q09", "text": "Hva var Nürnbergprosessen?", "options": ["Rettssakene mot nazistiske krigsforbrytere", "En fredsavtale", "En militær operasjon", "Et møte i FN"], "correct": 0, "explain": "Ledere ble stilt til ansvar." },
-    { "id": "q10", "text": "Hva betyr at fred er mer enn fravær av krig?", "options": ["At fred er umulig", "At varig fred ofte krever forsoning og tillit", "At krig alltid kommer tilbake", "At fred bare gjelder stater"], "correct": 1, "explain": "Forsoning er en del av freden." }
+    {
+      "id": "q01",
+      "text": "Hva var den utløsende årsaken til første verdenskrig?",
+      "options": [
+        "Angrepet på Polen",
+        "Drapet på Franz Ferdinand i Sarajevo",
+        "Børskrakket i 1929",
+        "Den russiske revolusjonen"
+      ],
+      "correct": 1,
+      "explain": "Alliansene spredte konflikten."
+    },
+    {
+      "id": "q02",
+      "text": "Hva påla Versaillestraktaten Tyskland?",
+      "options": [
+        "Skyld, krigserstatninger og tap av land",
+        "Å bli med i Folkeforbundet med en gang",
+        "Å få flere kolonier",
+        "Å bygge opp hæren"
+      ],
+      "correct": 0,
+      "explain": "Mange tyskere opplevde det som en ydmykelse."
+    },
+    {
+      "id": "q03",
+      "text": "Hva var ettergivenhetspolitikken?",
+      "options": [
+        "At Tyskland ga etter",
+        "At USA gikk inn i krigen",
+        "At Storbritannia og Frankrike ga etter for Hitlers krav",
+        "At Sovjet angrep Tyskland"
+      ],
+      "correct": 2,
+      "explain": "For eksempel Sudetenland i 1938."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan startet andre verdenskrig?",
+      "options": [
+        "Japan angrep USA",
+        "Italia angrep Etiopia",
+        "Sovjet angrep Finland",
+        "Tyskland angrep Polen"
+      ],
+      "correct": 3,
+      "explain": "1. september 1939."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket tiltak etter 1945 knyttet Frankrike og Tyskland sammen?",
+      "options": [
+        "Europeisk samarbeid som Kull- og stålunionen",
+        "Versaillestraktaten",
+        "Ettergivenhetspolitikken",
+        "Den kalde krigen"
+      ],
+      "correct": 0,
+      "explain": "Grunnlaget for EU."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en stedfortrederkrig?",
+      "options": [
+        "En krig mellom to stormakter direkte",
+        "En krig der stormakter støtter hver sin side uten å kjempe direkte",
+        "En borgerkrig uten utenlandsk innblanding",
+        "En krig i verdensrommet"
+      ],
+      "correct": 1,
+      "explain": "For eksempel Korea og Vietnam."
+    },
+    {
+      "id": "q07",
+      "text": "Hva la Sannhets- og forsoningskommisjonen i Norge fram i 2023?",
+      "options": [
+        "En rapport om andre verdenskrig",
+        "En ny grunnlov",
+        "En rapport om fornorskingspolitikken",
+        "En fredsavtale"
+      ],
+      "correct": 2,
+      "explain": "Om samer, kvener og skogfinner."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor mener mange at Versaillesfreden bidro til ny krig?",
+      "options": [
+        "Fordi den var for mild mot alle",
+        "Fordi Tyskland vant",
+        "Fordi den ga Tyskland kolonier",
+        "Fordi den ble opplevd som urettferdig og ga grobunn for nazismen"
+      ],
+      "correct": 3,
+      "explain": "Historikere diskuterer dette."
+    },
+    {
+      "id": "q09",
+      "text": "Hva var Nürnbergprosessen?",
+      "options": [
+        "Rettssakene mot nazistiske krigsforbrytere",
+        "En fredsavtale",
+        "En militær operasjon",
+        "Et møte i FN"
+      ],
+      "correct": 0,
+      "explain": "Ledere ble stilt til ansvar."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr at fred er mer enn fravær av krig?",
+      "options": [
+        "At fred er umulig",
+        "At varig fred ofte krever forsoning og tillit",
+        "At krig alltid kommer tilbake",
+        "At fred bare gjelder stater"
+      ],
+      "correct": 1,
+      "explain": "Forsoning er en del av freden."
+    }
   ],
   "mindmap": {
     "label": "Verdenskrigene og fred",
     "children": [
-      { "label": "Første verdenskrig", "children": [
-        { "label": "Militarisme og allianser" },
-        { "label": "Imperialisme og nasjonalisme" },
-        { "label": "Sarajevo 1914" }
-      ] },
-      { "label": "Versailles", "children": [
-        { "label": "Skyld og erstatning" },
-        { "label": "Folkeforbundet" }
-      ] },
-      { "label": "Andre verdenskrig", "children": [
-        { "label": "Krise og nazisme" },
-        { "label": "Ettergivenhet" },
-        { "label": "Polen 1939" }
-      ] },
-      { "label": "Etter 1945", "children": [
-        { "label": "FN og Nürnberg" },
-        { "label": "Marshallhjelp og EU" },
-        { "label": "Kald krig" }
-      ] },
-      { "label": "Forsoning", "children": [
-        { "label": "Sør-Afrika" },
-        { "label": "Norge 2023" },
-        { "label": "Ukraina og Midtøsten" }
-      ] }
+      {
+        "label": "Første verdenskrig",
+        "children": [
+          {
+            "label": "Militarisme og allianser"
+          },
+          {
+            "label": "Imperialisme og nasjonalisme"
+          },
+          {
+            "label": "Sarajevo 1914"
+          }
+        ]
+      },
+      {
+        "label": "Versailles",
+        "children": [
+          {
+            "label": "Skyld og erstatning"
+          },
+          {
+            "label": "Folkeforbundet"
+          }
+        ]
+      },
+      {
+        "label": "Andre verdenskrig",
+        "children": [
+          {
+            "label": "Krise og nazisme"
+          },
+          {
+            "label": "Ettergivenhet"
+          },
+          {
+            "label": "Polen 1939"
+          }
+        ]
+      },
+      {
+        "label": "Etter 1945",
+        "children": [
+          {
+            "label": "FN og Nürnberg"
+          },
+          {
+            "label": "Marshallhjelp og EU"
+          },
+          {
+            "label": "Kald krig"
+          }
+        ]
+      },
+      {
+        "label": "Forsoning",
+        "children": [
+          {
+            "label": "Sør-Afrika"
+          },
+          {
+            "label": "Norge 2023"
+          },
+          {
+            "label": "Ukraina og Midtøsten"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Flest av de døde i andre verdenskrig var sivile.", "correct": true, "explain": "Mer enn 60 millioner døde." },
-      { "id": "m02", "type": "sant-usant", "text": "Oslo-avtalene fra 1993 skapte varig fred mellom Israel og palestinerne.", "correct": false, "explain": "De ga håp, men ikke varig fred." },
-      { "id": "m03", "type": "sant-usant", "text": "Den økonomiske krisen etter 1929 bidro til politisk ustabilitet.", "correct": true, "explain": "En årsak til andre verdenskrig." },
-      { "id": "m04", "type": "sant-usant", "text": "Den kalde krigen var en direkte krig mellom USA og Sovjetunionen.", "correct": false, "explain": "De kjempet ikke direkte mot hverandre." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken avtale endte krigene på Balkan i 1995?", "options": ["Versaillestraktaten", "Dayton-avtalen", "Oslo-avtalene", "München-avtalen"], "correct": 1, "explain": "Etter krigen i Bosnia." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilke land var med i Trippelententen?", "options": ["Storbritannia, Frankrike og Russland", "Tyskland, Østerrike-Ungarn og Italia", "USA, Japan og Kina", "Norge, Sverige og Danmark"], "correct": 0, "explain": "Mot Sentralmaktene." },
-      { "id": "m07", "type": "flervalg", "text": "Når startet Russlands fullskala invasjon av Ukraina?", "options": ["1991", "2014", "2022", "2008"], "correct": 2, "explain": "Viste at krig mellom stater i Europa ikke er historie." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Flest av de døde i andre verdenskrig var sivile.",
+        "correct": true,
+        "explain": "Mer enn 60 millioner døde."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Oslo-avtalene fra 1993 skapte varig fred mellom Israel og palestinerne.",
+        "correct": false,
+        "explain": "De ga håp, men ikke varig fred."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Den økonomiske krisen etter 1929 bidro til politisk ustabilitet.",
+        "correct": true,
+        "explain": "En årsak til andre verdenskrig."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Den kalde krigen var en direkte krig mellom USA og Sovjetunionen.",
+        "correct": false,
+        "explain": "De kjempet ikke direkte mot hverandre."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken avtale endte krigene på Balkan i 1995?",
+        "options": [
+          "Versaillestraktaten",
+          "Dayton-avtalen",
+          "Oslo-avtalene",
+          "München-avtalen"
+        ],
+        "correct": 1,
+        "explain": "Etter krigen i Bosnia."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilke land var med i Trippelententen?",
+        "options": [
+          "Storbritannia, Frankrike og Russland",
+          "Tyskland, Østerrike-Ungarn og Italia",
+          "USA, Japan og Kina",
+          "Norge, Sverige og Danmark"
+        ],
+        "correct": 0,
+        "explain": "Mot Sentralmaktene."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Når startet Russlands fullskala invasjon av Ukraina?",
+        "options": [
+          "1991",
+          "2014",
+          "2022",
+          "2008"
+        ],
+        "correct": 2,
+        "explain": "Viste at krig mellom stater i Europa ikke er historie."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen mellom imperialisme og nasjonalisme som årsaker til spenning før første verdenskrig.",
+        "fasit": "Imperialisme var konkurranse om kolonier og makt. Nasjonalisme var sterk tro på egen nasjon, og på Balkan også et ønske om selvstendighet.",
+        "kriterier": [
+          "Forklarer imperialisme som konkurranse om kolonier og makt.",
+          "Forklarer nasjonalisme som sterk nasjonstilhørighet eller ønske om selvstendighet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Europa var delt i Trippelententen og Sentralmaktene før første verdenskrig. Forklar hvordan alliansene bidro til at en konflikt kunne spre seg.",
+        "fasit": "Alliansene bandt land sammen i to blokker. Da det oppsto en konflikt, ble flere land trukket inn gjennom alliansene, og krigen spredte seg raskt.",
+        "kriterier": [
+          "Forklarer at landene var bundet sammen i allianser eller blokker.",
+          "Knytter alliansene til at flere land ble trukket inn og konflikten spredte seg."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva menes med skyttergravskrig, og hvor ble denne typen krigføring brukt under første verdenskrig?",
+        "fasit": "Skyttergravskrig er krigføring fra gravde stillinger. Under første verdenskrig ble den brukt på vestfronten.",
+        "kriterier": [
+          "Forklarer at soldatene kjempet fra gravde stillinger eller skyttergraver.",
+          "Plasserer krigføringen på vestfronten."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan børskrakket i 1929 kunne bidra til politisk ustabilitet før andre verdenskrig.",
+        "fasit": "Den økonomiske krisen etter børskrakket førte til arbeidsløshet. Arbeidsløsheten bidro til politisk ustabilitet, som var en av årsakene til andre verdenskrig.",
+        "kriterier": [
+          "Knytter krisen etter børskrakket til arbeidsløshet.",
+          "Forklarer at arbeidsløshet og krise bidro til politisk ustabilitet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign Folkeforbundet og FN ut fra når de ble opprettet og hvilken rolle som er knyttet til dem.",
+        "fasit": "Folkeforbundet ble opprettet etter første verdenskrig for å sikre freden. FN ble opprettet i 1945 og hadde et sikkerhetsråd.",
+        "kriterier": [
+          "Plasserer Folkeforbundet etter første verdenskrig og knytter det til arbeidet for fred.",
+          "Oppgir at FN ble opprettet i 1945 og nevner Sikkerhetsrådet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Beskriv den kalde krigen ved å nevne partene og to trekk som preget perioden.",
+        "fasit": "Den kalde krigen var en konflikt mellom USA og Sovjetunionen fra 1947 til 1991. Perioden var preget av kappløp om atomvåpen og stedfortrederkriger, blant annet i Korea og Vietnam.",
+        "kriterier": [
+          "Nevner USA og Sovjetunionen som partene i konflikten.",
+          "Nevner både atomvåpenkappløpet og stedfortrederkriger, gjerne med Korea eller Vietnam som eksempel."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sør-Afrika opprettet en sannhets- og forsoningskommisjon etter apartheid. Forklar hvordan dette kan være et eksempel på forsoning.",
+        "fasit": "Forsoning innebærer å erkjenne urett og bygge tillit mellom tidligere motstandere. Kommisjonen etter apartheid var et tiltak knyttet til en slik prosess i Sør-Afrika.",
+        "kriterier": [
+          "Forklarer at forsoning handler om å erkjenne urett.",
+          "Knytter kommisjonen etter apartheid til arbeidet med å bygge tillit eller forsoning."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Etter andre verdenskrig trengte Vest-Europa hjelp til gjenoppbygging. Hvilket amerikansk tiltak bidro til dette, og hva var formålet?",
+        "fasit": "Marshallhjelpen var økonomisk hjelp fra USA. Den skulle hjelpe Vest-Europa med gjenoppbyggingen etter krigen.",
+        "kriterier": [
+          "Identifiserer tiltaket som Marshallhjelpen.",
+          "Forklarer at den økonomiske hjelpen støttet gjenoppbyggingen av Vest-Europa."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

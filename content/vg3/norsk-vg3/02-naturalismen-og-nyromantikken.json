@@ -4,77 +4,422 @@
   "trinnId": "vg3",
   "name": "Naturalismen og nyromantikken",
   "intro": "Naturalismen med Amalie Skram, Hans Jæger og Kristiania-bohemen, og nyromantikken på 1890-tallet med Knut Hamsun, Sigbjørn Obstfelder og Arne Garborg – to retninger med svært ulike syn på mennesket og sjelelivet.",
-  "kompetansemaal": [1, 2],
+  "kompetansemaal": [
+    1,
+    2
+  ],
   "sammendrag": "## Naturalismen\n\n**Naturalismen** var en skjerpet form for realisme på 1880-tallet. Inspirasjonen kom blant annet fra den franske forfatteren **Émile Zola**, som ville skrive romaner nesten som **vitenskapelige eksperimenter**.\n\nKjennetegn:\n\n- Mennesket er **styrt** av **arv**, **miljø** og **drifter** – det har liten fri vilje.\n- Skildringene er **nakne** og **detaljerte**, også av det stygge: fattigdom, sykdom, alkohol og seksualitet.\n- Fortelleren er **objektiv** og **upartisk**.\n- Slutten er ofte **pessimistisk**.\n\n## Amalie Skram\n\n**Amalie Skram** er den fremste norske naturalisten. I **Constance Ring** (1885) skildrer hun en kvinne som er fanget i et ulykkelig ekteskap. Romanserien **Hellemyrsfolket** følger en slekt gjennom flere generasjoner og viser hvordan **fattigdom** og **arv** fører nedover. Skram skrev åpent om **kvinners seksualitet** og **overgrep**, noe som provoserte mange.\n\n## Kristiania-bohemen\n\n**Hans Jæger** og kretsen rundt ham i Kristiania protesterte mot borgerlig moral og krevde **fri kjærlighet**. Romanen **Fra Kristiania-Bohêmen** (1885) ble **beslaglagt**, og Jæger ble dømt til fengsel. Maleren **Christian Krohg** var også en del av miljøet.\n\n## Nyromantikken\n\nPå **1890-tallet** kom en reaksjon. Mange forfattere mente at realismen og naturalismen ga et for **ytre** og **mekanisk** bilde av mennesket. De ville utforske **sjelelivet** – det **indre**, **ubevisste** og **uforklarlige**.\n\nKjennetegn ved nyromantikken:\n\n- **Individet** og **følelsene** står i sentrum.\n- Interesse for **det ubevisste**, **drømmer** og **stemninger**\n- **Lyrikken** blomstrer igjen.\n- **Naturen** og **mystikken** kommer tilbake – men nå som speil for sjelen.\n- **Symboler** og **bilder** i stedet for direkte samfunnskritikk\n\n## Knut Hamsun\n\n**Knut Hamsun** gjorde opprør mot den realistiske litteraturen. I essayet «**Fra det ubevidste Sjæleliv**» (1890) krevde han at litteraturen skulle skildre sjelens **små, uforklarlige bevegelser**. Romanen **Sult** (1890) skildrer en ung, sulten forfatter i Kristiania innenfra – med skiftende stemninger, galskap og stolthet. Den regnes som et av de første **modernistiske** verkene i Europa. Hamsun fikk **Nobelprisen** i **1920**.\n\n## Sigbjørn Obstfelder og Arne Garborg\n\n**Sigbjørn Obstfelder** skrev lyrikk om **fremmedfølelse** i den moderne verden. Diktet «**Jeg ser**» (1893) ender med linjen der jeget føler at det er kommet til feil klode. Samme år malte **Edvard Munch** **Skrik** – begge uttrykker **angst** og **ensomhet**.\n\n**Arne Garborg** skrev på **nynorsk**. Diktsyklusen **Haugtussa** (1895) handler om jenta **Veslemøy**, som ser inn i en overnaturlig verden. Naturen, folketroen og det mystiske står sentralt.\n\n## To syn på mennesket\n\n| | Naturalismen | Nyromantikken |\n|---|---|---|\n| Mennesket | styrt av arv og miljø | sammensatt og gåtefullt |\n| Fokus | samfunnet og det ytre | sjelen og det indre |\n| Stil | objektiv og detaljert | stemningsfull og symbolsk |\n\n## Refleksjon\n\nSpørsmålet om mennesket er **styrt** eller **fritt** er fortsatt aktuelt – for eksempel i debatter om **gener**, **oppvekst** og **ansvar**.",
   "flashcards": [
-    { "term": "Naturalismen", "def": "Skjerpet realisme der mennesket styres av arv, miljø og drifter." },
-    { "term": "Émile Zola", "def": "Fransk naturalist som ville skrive romaner som vitenskapelige eksperimenter." },
-    { "term": "Amalie Skram", "def": "Norges fremste naturalist." },
-    { "term": "Constance Ring", "def": "Skrams roman fra 1885 om en kvinne i et ulykkelig ekteskap." },
-    { "term": "Hellemyrsfolket", "def": "Skrams romanserie om en slekt på vei nedover." },
-    { "term": "Kristiania-bohemen", "def": "Kretsen rundt Hans Jæger som kjempet mot borgerlig moral." },
-    { "term": "Fra Kristiania-Bohêmen", "def": "Jægers roman fra 1885 som ble beslaglagt." },
-    { "term": "Nyromantikken", "def": "Retning på 1890-tallet som utforsket sjelelivet og det ubevisste." },
-    { "term": "Fra det ubevidste Sjæleliv", "def": "Hamsuns essay fra 1890 om å skildre sjelens bevegelser." },
-    { "term": "Sult", "def": "Hamsuns roman fra 1890 – et tidlig modernistisk verk." },
-    { "term": "Knut Hamsun", "def": "Forfatter som fikk Nobelprisen i 1920." },
-    { "term": "Sigbjørn Obstfelder", "def": "Lyriker som skrev om fremmedfølelse, blant annet «Jeg ser»." },
-    { "term": "Skrik", "def": "Munchs maleri fra 1893 som uttrykker angst." },
-    { "term": "Haugtussa", "def": "Garborgs diktsyklus på nynorsk fra 1895 om Veslemøy." },
-    { "term": "Symbol", "def": "Et konkret bilde som står for noe mer." }
+    {
+      "term": "Naturalismen",
+      "def": "Skjerpet realisme der mennesket styres av arv, miljø og drifter."
+    },
+    {
+      "term": "Émile Zola",
+      "def": "Fransk naturalist som ville skrive romaner som vitenskapelige eksperimenter."
+    },
+    {
+      "term": "Amalie Skram",
+      "def": "Norges fremste naturalist."
+    },
+    {
+      "term": "Constance Ring",
+      "def": "Skrams roman fra 1885 om en kvinne i et ulykkelig ekteskap."
+    },
+    {
+      "term": "Hellemyrsfolket",
+      "def": "Skrams romanserie om en slekt på vei nedover."
+    },
+    {
+      "term": "Kristiania-bohemen",
+      "def": "Kretsen rundt Hans Jæger som kjempet mot borgerlig moral."
+    },
+    {
+      "term": "Fra Kristiania-Bohêmen",
+      "def": "Jægers roman fra 1885 som ble beslaglagt."
+    },
+    {
+      "term": "Nyromantikken",
+      "def": "Retning på 1890-tallet som utforsket sjelelivet og det ubevisste."
+    },
+    {
+      "term": "Fra det ubevidste Sjæleliv",
+      "def": "Hamsuns essay fra 1890 om å skildre sjelens bevegelser."
+    },
+    {
+      "term": "Sult",
+      "def": "Hamsuns roman fra 1890 – et tidlig modernistisk verk."
+    },
+    {
+      "term": "Knut Hamsun",
+      "def": "Forfatter som fikk Nobelprisen i 1920."
+    },
+    {
+      "term": "Sigbjørn Obstfelder",
+      "def": "Lyriker som skrev om fremmedfølelse, blant annet «Jeg ser»."
+    },
+    {
+      "term": "Skrik",
+      "def": "Munchs maleri fra 1893 som uttrykker angst."
+    },
+    {
+      "term": "Haugtussa",
+      "def": "Garborgs diktsyklus på nynorsk fra 1895 om Veslemøy."
+    },
+    {
+      "term": "Symbol",
+      "def": "Et konkret bilde som står for noe mer."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner naturalismens menneskesyn?", "options": ["Mennesket har full fri vilje", "Mennesket styres av arv, miljø og drifter", "Mennesket er alltid godt", "Mennesket styres av Gud"], "correct": 1, "explain": "Liten fri vilje." },
-    { "id": "q02", "text": "Hvem er Norges fremste naturalist?", "options": ["Amalie Skram", "Knut Hamsun", "Arne Garborg", "Sigbjørn Obstfelder"], "correct": 0, "explain": "Hun skrev blant annet Constance Ring." },
-    { "id": "q03", "text": "Hva skjedde med Hans Jægers Fra Kristiania-Bohêmen?", "options": ["Den vant Nobelprisen", "Den ble pensum i skolen", "Den ble beslaglagt", "Den ble aldri utgitt"], "correct": 2, "explain": "Jæger ble dømt til fengsel." },
-    { "id": "q04", "text": "Hva ville nyromantikerne utforske?", "options": ["Samfunnets institusjoner", "Økonomi og politikk", "Sagatidens helter", "Sjelelivet og det ubevisste"], "correct": 3, "explain": "En reaksjon mot realismen." },
-    { "id": "q05", "text": "Hvilket verk regnes som et av de første modernistiske i Europa?", "options": ["Sult", "Et dukkehjem", "Haugtussa", "Constance Ring"], "correct": 0, "explain": "Hamsun, 1890." },
-    { "id": "q06", "text": "Hvilken stemning uttrykker Obstfelders «Jeg ser» og Munchs Skrik?", "options": ["Glede og fellesskap", "Angst og fremmedfølelse", "Nasjonal stolthet", "Religiøs trygghet"], "correct": 1, "explain": "Begge fra 1893." },
-    { "id": "q07", "text": "Hva handler Haugtussa om?", "options": ["Et ulykkelig ekteskap", "En sulten forfatter", "Veslemøy, som ser inn i en overnaturlig verden", "En slekt i forfall"], "correct": 2, "explain": "Skrevet på nynorsk." },
-    { "id": "q08", "text": "Hva kjennetegner stilen i nyromantikken?", "options": ["Objektiv og detaljert", "Statistisk og faglig", "Tørr og saklig", "Stemningsfull og symbolsk"], "correct": 3, "explain": "Bilder og symboler i stedet for direkte samfunnskritikk." },
-    { "id": "q09", "text": "Hvem inspirerte naturalistene med ideen om romanen som eksperiment?", "options": ["Émile Zola", "Georg Brandes", "Henrik Wergeland", "Charles Dickens"], "correct": 0, "explain": "Fransk naturalist." },
-    { "id": "q10", "text": "Når fikk Knut Hamsun Nobelprisen?", "options": ["1903", "1920", "1928", "2023"], "correct": 1, "explain": "Undset fikk den i 1928." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner naturalismens menneskesyn?",
+      "options": [
+        "Mennesket har full fri vilje",
+        "Mennesket styres av arv, miljø og drifter",
+        "Mennesket er alltid godt",
+        "Mennesket styres av Gud"
+      ],
+      "correct": 1,
+      "explain": "Liten fri vilje."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem er Norges fremste naturalist?",
+      "options": [
+        "Amalie Skram",
+        "Knut Hamsun",
+        "Arne Garborg",
+        "Sigbjørn Obstfelder"
+      ],
+      "correct": 0,
+      "explain": "Hun skrev blant annet Constance Ring."
+    },
+    {
+      "id": "q03",
+      "text": "Hva skjedde med Hans Jægers Fra Kristiania-Bohêmen?",
+      "options": [
+        "Den vant Nobelprisen",
+        "Den ble pensum i skolen",
+        "Den ble beslaglagt",
+        "Den ble aldri utgitt"
+      ],
+      "correct": 2,
+      "explain": "Jæger ble dømt til fengsel."
+    },
+    {
+      "id": "q04",
+      "text": "Hva ville nyromantikerne utforske?",
+      "options": [
+        "Samfunnets institusjoner",
+        "Økonomi og politikk",
+        "Sagatidens helter",
+        "Sjelelivet og det ubevisste"
+      ],
+      "correct": 3,
+      "explain": "En reaksjon mot realismen."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket verk regnes som et av de første modernistiske i Europa?",
+      "options": [
+        "Sult",
+        "Et dukkehjem",
+        "Haugtussa",
+        "Constance Ring"
+      ],
+      "correct": 0,
+      "explain": "Hamsun, 1890."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken stemning uttrykker Obstfelders «Jeg ser» og Munchs Skrik?",
+      "options": [
+        "Glede og fellesskap",
+        "Angst og fremmedfølelse",
+        "Nasjonal stolthet",
+        "Religiøs trygghet"
+      ],
+      "correct": 1,
+      "explain": "Begge fra 1893."
+    },
+    {
+      "id": "q07",
+      "text": "Hva handler Haugtussa om?",
+      "options": [
+        "Et ulykkelig ekteskap",
+        "En sulten forfatter",
+        "Veslemøy, som ser inn i en overnaturlig verden",
+        "En slekt i forfall"
+      ],
+      "correct": 2,
+      "explain": "Skrevet på nynorsk."
+    },
+    {
+      "id": "q08",
+      "text": "Hva kjennetegner stilen i nyromantikken?",
+      "options": [
+        "Objektiv og detaljert",
+        "Statistisk og faglig",
+        "Tørr og saklig",
+        "Stemningsfull og symbolsk"
+      ],
+      "correct": 3,
+      "explain": "Bilder og symboler i stedet for direkte samfunnskritikk."
+    },
+    {
+      "id": "q09",
+      "text": "Hvem inspirerte naturalistene med ideen om romanen som eksperiment?",
+      "options": [
+        "Émile Zola",
+        "Georg Brandes",
+        "Henrik Wergeland",
+        "Charles Dickens"
+      ],
+      "correct": 0,
+      "explain": "Fransk naturalist."
+    },
+    {
+      "id": "q10",
+      "text": "Når fikk Knut Hamsun Nobelprisen?",
+      "options": [
+        "1903",
+        "1920",
+        "1928",
+        "2023"
+      ],
+      "correct": 1,
+      "explain": "Undset fikk den i 1928."
+    }
   ],
   "mindmap": {
     "label": "Naturalismen og nyromantikken",
     "children": [
-      { "label": "Naturalismen", "children": [
-        { "label": "Arv, miljø og drifter" },
-        { "label": "Nakne skildringer" },
-        { "label": "Zola" }
-      ] },
-      { "label": "Naturalister", "children": [
-        { "label": "Amalie Skram" },
-        { "label": "Hans Jæger og bohemen" }
-      ] },
-      { "label": "Nyromantikken", "children": [
-        { "label": "Sjeleliv og det ubevisste" },
-        { "label": "Stemning og symboler" },
-        { "label": "Lyrikk" }
-      ] },
-      { "label": "Nyromantikere", "children": [
-        { "label": "Hamsun: Sult" },
-        { "label": "Obstfelder: Jeg ser" },
-        { "label": "Garborg: Haugtussa" }
-      ] },
-      { "label": "Menneskesyn", "children": [
-        { "label": "Styrt" },
-        { "label": "Gåtefullt" }
-      ] }
+      {
+        "label": "Naturalismen",
+        "children": [
+          {
+            "label": "Arv, miljø og drifter"
+          },
+          {
+            "label": "Nakne skildringer"
+          },
+          {
+            "label": "Zola"
+          }
+        ]
+      },
+      {
+        "label": "Naturalister",
+        "children": [
+          {
+            "label": "Amalie Skram"
+          },
+          {
+            "label": "Hans Jæger og bohemen"
+          }
+        ]
+      },
+      {
+        "label": "Nyromantikken",
+        "children": [
+          {
+            "label": "Sjeleliv og det ubevisste"
+          },
+          {
+            "label": "Stemning og symboler"
+          },
+          {
+            "label": "Lyrikk"
+          }
+        ]
+      },
+      {
+        "label": "Nyromantikere",
+        "children": [
+          {
+            "label": "Hamsun: Sult"
+          },
+          {
+            "label": "Obstfelder: Jeg ser"
+          },
+          {
+            "label": "Garborg: Haugtussa"
+          }
+        ]
+      },
+      {
+        "label": "Menneskesyn",
+        "children": [
+          {
+            "label": "Styrt"
+          },
+          {
+            "label": "Gåtefullt"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Naturalistene skildret også det stygge, som sykdom og fattigdom.", "correct": true, "explain": "Nakne og detaljerte skildringer." },
-      { "id": "m02", "type": "sant-usant", "text": "Nyromantikken var en videreføring av naturalismens menneskesyn.", "correct": false, "explain": "Den var en reaksjon mot det." },
-      { "id": "m03", "type": "sant-usant", "text": "Amalie Skram skrev åpent om kvinners seksualitet.", "correct": true, "explain": "Det provoserte mange." },
-      { "id": "m04", "type": "sant-usant", "text": "Haugtussa er skrevet på bokmål.", "correct": false, "explain": "Garborg skrev på nynorsk." },
-      { "id": "m05", "type": "flervalg", "text": "Hva krevde Kristiania-bohemen?", "options": ["Strengere moral", "Fri kjærlighet og opprør mot borgerlig moral", "Mer religion", "Nasjonal romantikk"], "correct": 1, "explain": "Hans Jæger var lederen." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken slutt er typisk for naturalistiske romaner?", "options": ["Pessimistisk", "Lykkelig", "Religiøs frelse", "Heroisk seier"], "correct": 0, "explain": "Personene går ofte til grunne." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan skildres hovedpersonen i Sult?", "options": ["Objektivt utenfra", "Som en helt", "Innenfra med skiftende stemninger", "Gjennom brev"], "correct": 2, "explain": "Hamsun skildret sjelelivet." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Naturalistene skildret også det stygge, som sykdom og fattigdom.",
+        "correct": true,
+        "explain": "Nakne og detaljerte skildringer."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Nyromantikken var en videreføring av naturalismens menneskesyn.",
+        "correct": false,
+        "explain": "Den var en reaksjon mot det."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Amalie Skram skrev åpent om kvinners seksualitet.",
+        "correct": true,
+        "explain": "Det provoserte mange."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Haugtussa er skrevet på bokmål.",
+        "correct": false,
+        "explain": "Garborg skrev på nynorsk."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva krevde Kristiania-bohemen?",
+        "options": [
+          "Strengere moral",
+          "Fri kjærlighet og opprør mot borgerlig moral",
+          "Mer religion",
+          "Nasjonal romantikk"
+        ],
+        "correct": 1,
+        "explain": "Hans Jæger var lederen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken slutt er typisk for naturalistiske romaner?",
+        "options": [
+          "Pessimistisk",
+          "Lykkelig",
+          "Religiøs frelse",
+          "Heroisk seier"
+        ],
+        "correct": 0,
+        "explain": "Personene går ofte til grunne."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan skildres hovedpersonen i Sult?",
+        "options": [
+          "Objektivt utenfra",
+          "Som en helt",
+          "Innenfra med skiftende stemninger",
+          "Gjennom brev"
+        ],
+        "correct": 2,
+        "explain": "Hamsun skildret sjelelivet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Émile Zola ville skrive romaner nesten som vitenskapelige eksperimenter. Forklar hvordan denne ideen passer med naturalismens syn på hva som former mennesket.",
+        "fasit": "Romanen kan undersøke hvordan arv, miljø og drifter påvirker mennesket. Dette passer med naturalismens syn på at mennesket har liten fri vilje.",
+        "kriterier": [
+          "Knytter eksperimentideen til å undersøke eller skildre mennesket.",
+          "Forklarer at arv, miljø og drifter former mennesket og begrenser fri vilje."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign Amalie Skrams Constance Ring og Hellemyrsfolket. Hva skildrer hvert verk, og hva har de til felles?",
+        "fasit": "Constance Ring skildrer en kvinne som er fanget i et ulykkelig ekteskap, mens Hellemyrsfolket følger en slekt gjennom flere generasjoner og viser hvordan fattigdom og arv fører nedover. Begge verkene skildrer menneskers liv under vanskelige vilkår.",
+        "kriterier": [
+          "Skiller mellom handlingen eller motivet i de to verkene.",
+          "Får fram en relevant likhet, for eksempel at begge skildrer menneskers vanskelige livsvilkår."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Tenk deg en roman der en person formes av arv, fattigdom og drifter. Fortelleren skildrer sykdom og fattigdom detaljert og nøkternt, og slutten er pessimistisk. Forklar hvilke trekk som gjør romanen naturalistisk.",
+        "fasit": "Romanen er naturalistisk fordi mennesket framstilles som styrt av arv, miljø og drifter. Den detaljerte, nøkterne skildringen og den pessimistiske slutten er også typiske naturalistiske trekk.",
+        "kriterier": [
+          "Knytter menneskets situasjon til arv, miljø eller drifter.",
+          "Identifiserer minst ett av stiltrekkene: detaljert/naken skildring, objektiv forteller eller pessimistisk slutt."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign naturalismen og nyromantikken når det gjelder hva de retter oppmerksomheten mot, og hvordan mennesket blir framstilt.",
+        "fasit": "Naturalismen retter oppmerksomheten mot samfunnet og det ytre, og framstiller mennesket som styrt av arv og miljø. Nyromantikken fokuserer på sjelen og det indre, og framstiller mennesket som sammensatt og gåtefullt.",
+        "kriterier": [
+          "Skiller mellom retningenes fokus på det ytre/samfunnet og det indre/sjelen.",
+          "Skiller mellom naturalismens menneskesyn og nyromantikkens menneskesyn."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "På 1890-tallet reagerte mange forfattere mot realismen og naturalismen. Forklar hva de mente disse retningene ga et for begrenset bilde av, og hva de derfor ville utforske.",
+        "fasit": "De mente at realismen og naturalismen ga et for ytre og mekanisk bilde av mennesket. Derfor ville de utforske sjelelivet, blant annet det indre, ubevisste og uforklarlige.",
+        "kriterier": [
+          "Forklarer kritikken av det ytre eller mekaniske menneskebildet.",
+          "Nevner utforskingen av sjelelivet eller det indre og ubevisste."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I nyromantikken kunne naturen speile sjelen, og forfatterne brukte symboler i stedet for direkte samfunnskritikk. Forklar hva et symbol kan bidra med i en slik tekst.",
+        "fasit": "Et symbol er et konkret bilde som står for noe mer. I en nyromantisk tekst kan det uttrykke en følelse eller en side ved sjelen indirekte, i stedet for å kritisere samfunnet direkte.",
+        "kriterier": [
+          "Forklarer at et symbol har en betydning utover det konkrete bildet.",
+          "Knytter symbolbruken til å uttrykke indre liv eller følelser indirekte."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Knut Hamsun mente at litteraturen burde skildre sjelens små, uforklarlige bevegelser. Forklar hvordan innholdet og fortellemåten i Sult passer med dette synet.",
+        "fasit": "Sult skildrer den unge forfatteren innenfra, med skiftende stemninger, galskap og stolthet. Slik viser romanen skiftninger i det indre livet framfor bare å beskrive ytre forhold.",
+        "kriterier": [
+          "Viser til at romanen skildrer hovedpersonen innenfra eller fokuserer på det indre.",
+          "Knytter skiftende stemninger, galskap eller stolthet til sjelens bevegelser."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hans Jæger og Kristiania-bohemen utfordret normene i samtiden. Forklar hva de protesterte mot, og hvilken livsform eller holdning de krevde større frihet til.",
+        "fasit": "Kristiania-bohemen protesterte mot borgerlig moral og krevde fri kjærlighet. De utfordret dermed de rådende normene for hvordan mennesker skulle leve og elske.",
+        "kriterier": [
+          "Nevner protesten mot borgerlig moral.",
+          "Nevner kravet om fri kjærlighet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -354,6 +354,80 @@
         "correct": 0,
         "explain": "Many Native American peoples lived across the continent for thousands of years."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Washington, D.C. is the capital of the USA, but it is not part of any state. Explain how this makes it different from a state such as California.",
+        "fasit": "Washington, D.C. is the country's capital, but it is not one of the 50 states. California is a state.",
+        "kriterier": [
+          "Explains that Washington, D.C. is the capital but is not a state.",
+          "Clearly distinguishes it from a state."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "The Declaration of Independence was written in 1776, and the Constitution dates from 1787. Explain how their purposes are different.",
+        "fasit": "The Declaration of Independence declared the colonies' independence from Britain. The Constitution is the basic law that forms the basis of the American government.",
+        "kriterier": [
+          "Explains that the Declaration declared independence from Britain.",
+          "Explains that the Constitution is the basic law or basis of the government."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "In a country, the central government shares power with states, and the states can make many of their own laws. Explain why this country could be called a federal republic.",
+        "fasit": "It could be called a federal republic because power is shared between a central government and the states. The states also have the power to make many of their own laws.",
+        "kriterier": [
+          "Explains that power is shared between the central government and the states.",
+          "Connects the states' ability to make laws with this shared power."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Slavery ended after the Civil War, but African Americans still faced discrimination, especially in the South. Explain why the civil rights movement was needed in the 1950s and 1960s, and what it fought for.",
+        "fasit": "The movement was needed because African Americans still faced discrimination even after slavery ended. It fought for equal rights, using peaceful protests.",
+        "kriterier": [
+          "Explains that discrimination continued after slavery ended.",
+          "States that the movement fought for equal rights."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "During the 1800s, the USA expanded westwards, often at the expense of Native Americans. Explain what this means for Native Americans.",
+        "fasit": "As the country expanded westwards, Native Americans often lost out. The expansion happened at their expense.",
+        "kriterier": [
+          "Explains that westward expansion harmed Native Americans or happened at their expense.",
+          "Gives a clear implication of this, such as Native Americans losing out."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Imagine that people challenge a new law because they believe it goes against the Constitution. Which US institution decides whether the law follows the Constitution, and what does it decide?",
+        "fasit": "The Supreme Court decides whether the law follows the Constitution. It considers whether the law is constitutional.",
+        "kriterier": [
+          "Identifies the Supreme Court.",
+          "Explains that it decides whether the law follows the Constitution."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A student claims that people in the USA have roots only in Europe. Correct this claim using two other regions people have come from, and explain what this shows about American society.",
+        "fasit": "People have also come from Africa, Latin America and Asia. This shows that American society has diverse cultural backgrounds.",
+        "kriterier": [
+          "Names at least two other regions: Africa, Latin America or Asia.",
+          "Explains that this contributes to the USA's cultural diversity."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "The USA stretches from the Atlantic Ocean to the Pacific Ocean and also includes Alaska and Hawaii. Explain what these facts tell us about the country's geographic extent.",
+        "fasit": "The USA stretches across the country from the Atlantic to the Pacific. It also includes Alaska and Hawaii.",
+        "kriterier": [
+          "Identifies that the country stretches from the Atlantic to the Pacific.",
+          "Mentions that Alaska and Hawaii are also part of the USA."
+        ]
+      }
     ]
   },
   "kvalitet": {

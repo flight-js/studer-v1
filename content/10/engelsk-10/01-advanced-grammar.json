@@ -343,6 +343,80 @@
         "correct": 0,
         "explain": "The question word stays, the word order becomes a statement, and the verb moves back."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Explain how the passive is formed. In “The meal was cooked,” identify the part that uses a form of “be” and the past participle.",
+        "fasit": "The passive is formed with a form of “be” and a past participle. In the sentence, “was” is the form of “be” and “cooked” is the past participle.",
+        "kriterier": [
+          "States that the passive uses be + past participle.",
+          "Correctly identifies “was” and “cooked” in the sentence."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Compare the focus in these sentences: “The chef cooked the meal” and “The meal was cooked.” What does each sentence focus on?",
+        "fasit": "The active sentence focuses on the chef, who does the action. The passive sentence focuses on the meal, which the action is done to.",
+        "kriterier": [
+          "Explains that the active sentence focuses on who does the action.",
+          "Explains that the passive sentence focuses on what the action is done to."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Compare these sentences: “If I finish my work, I will go home” and “If I had more time, I would travel.” Explain what kind of situation each conditional describes.",
+        "fasit": "The first conditional describes a real possibility in the future. The second conditional describes an unreal or unlikely situation now.",
+        "kriterier": [
+          "Identifies the first sentence as a real future possibility.",
+          "Identifies the second sentence as unreal or unlikely now."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Give advice to a friend using the formal second conditional: “If I ___ you, I ___ take a break.” Fill in both gaps, then explain why “were” is used with “I” in this expression.",
+        "fasit": "If I were you, I would take a break. “Were” is the formal form used in “If I were you” with all persons.",
+        "kriterier": [
+          "Uses “were” and “would” to complete the sentence.",
+          "Explains that the formal expression uses “were” with all persons."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "They left late and missed the bus. Write a third conditional sentence explaining how leaving early could have changed what happened.",
+        "fasit": "If they had left early, they would have caught the bus.",
+        "kriterier": [
+          "Uses “had” plus a past participle in the if-clause.",
+          "Uses “would have” plus a past participle in the main clause to describe an unreal past result."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Report this sentence from the listener’s point of view, using “me” for “you”: He said, “I can help you.”",
+        "fasit": "He said that he could help me.",
+        "kriterier": [
+          "Changes “can” to “could.”",
+          "Changes “I” to “he” and “you” to “me.”"
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Report this question: She asked, “What do you do?” Use “I” for the person being asked.",
+        "fasit": "She asked what I did.",
+        "kriterier": [
+          "Changes “do” to “did.”",
+          "Uses statement word order after “what,” without question word order."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Explain the difference between direct speech and reported speech. Include what happens to the verb when the reporting verb is in the past.",
+        "fasit": "Direct speech gives someone’s exact words, usually in quotation marks. Reported speech retells what they said, and the verb usually moves one step back in time when the reporting verb is in the past.",
+        "kriterier": [
+          "Explains that direct speech gives the exact words and reported speech retells them.",
+          "Explains that the verb usually moves one step back in time after a past reporting verb."
+        ]
+      }
     ]
   },
   "kvalitet": {

@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Potenser, logaritmer og anvendelser",
   "intro": "Potensregler og logaritmeregler, hvordan du løser eksponential- og logaritmelikninger, og hvordan logaritmer brukes i rente, doblingstid, pH, desibel og jordskjelvskalaer.",
-  "kompetansemaal": [7, 8],
+  "kompetansemaal": [
+    7,
+    8
+  ],
   "sammendrag": "## Potenser\n\n- aᵐ · aⁿ = aᵐ⁺ⁿ og aᵐ / aⁿ = aᵐ⁻ⁿ\n- (aᵐ)ⁿ = aᵐ·ⁿ\n- a⁰ = 1 og a⁻ⁿ = 1/aⁿ\n- a^(1/n) = ⁿ√a\n\nPotenser brukes til å beskrive **prosentvis vekst**: Et beløp på 10 000 kr med 3 % årlig rente vokser til 10 000 · 1,03ᵗ kroner etter t år.\n\n## Logaritmer\n\n**lg x** er det tallet 10 må opphøyes i for å få x:\n\nlg 100 = 2, lg 1000 = 3, lg 1 = 0 og lg 0,01 = −2\n\nEgenskaper:\n\n- lg x er bare definert for **x > 0**.\n- lg x < 0 når 0 < x < 1.\n- **10^(lg x) = x** og **lg(10ˣ) = x** – logaritmen og potensen opphever hverandre.\n\n## Logaritmereglene\n\n- lg(a · b) = lg a + lg b\n- lg(a / b) = lg a − lg b\n- lg(aˣ) = x · lg a\n\nDen siste regelen er nøkkelen til å løse eksponentiallikninger: Den flytter **eksponenten ned**.\n\n## Eksponentiallikninger\n\n**Doblingstid**: Hvor lenge tar det før et beløp dobles med 5 % rente?\n\n1,05ˣ = 2 → x · lg 1,05 = lg 2 → x = lg 2 / lg 1,05 ≈ **14,2 år**\n\n**Et gitt beløp**: 10 000 · 1,03ˣ = 15 000\n\n1,03ˣ = 1,5 → x = lg 1,5 / lg 1,03 ≈ **13,7 år**\n\nFramgangsmåte: **Isoler potensen**, ta **lg** på begge sider, og bruk **lg(aˣ) = x · lg a**.\n\n## Logaritmelikninger\n\n- lg x = 3 gir x = 10³ = **1000**.\n- lg x − lg 2 = 1 gir lg(x/2) = 1, så x/2 = 10 og **x = 20**.\n\nSett alltid **prøve** – løsninger som gir logaritmen av et negativt tall, må forkastes.\n\n## Logaritmiske skalaer\n\nNår tall spenner over mange tierpotenser, er **logaritmiske skalaer** praktiske:\n\n- **pH = −lg[H₃O⁺]**: pH 3 er **ti ganger** så surt som pH 4.\n- **Desibel**: 10 dB mer betyr ti ganger så stor lydintensitet. 20 dB mer betyr hundre ganger.\n- **Jordskjelv**: På magnitudeskalaen betyr én enhet mer omtrent **ti ganger** så store utslag på seismografen og rundt **30 ganger** så mye energi.\n- **Grafer**: Med **logaritmisk akse** blir eksponentiell vekst en **rett linje**. Det er nyttig for å vise for eksempel smittetall eller datakraft over tid.\n\n## Andre anvendelser\n\n- **Legemidler**: Mengden virkestoff i kroppen avtar ofte eksponentielt, og logaritmer gir **halveringstiden**.\n- **Inflasjon**: Hvor lenge tar det før prisene er doblet med 2 % årlig prisvekst? lg 2 / lg 1,02 ≈ 35 år.\n- **Økonomisk vekst** og **befolkningsvekst** over lang tid.",
   "flashcards": [
-    { "term": "aᵐ · aⁿ", "def": "aᵐ⁺ⁿ" },
-    { "term": "a⁻ⁿ", "def": "1/aⁿ" },
-    { "term": "lg x", "def": "Tallet 10 må opphøyes i for å få x." },
-    { "term": "lg 1000", "def": "3" },
-    { "term": "lg 0,01", "def": "−2" },
-    { "term": "Definisjonsmengde for lg x", "def": "x > 0" },
-    { "term": "lg(a · b)", "def": "lg a + lg b" },
-    { "term": "lg(a / b)", "def": "lg a − lg b" },
-    { "term": "lg(aˣ)", "def": "x · lg a" },
-    { "term": "Doblingstid ved 5 %", "def": "lg 2 / lg 1,05 ≈ 14,2 år" },
-    { "term": "Løse aˣ = b", "def": "x = lg b / lg a" },
-    { "term": "pH", "def": "−lg[H₃O⁺]" },
-    { "term": "10 dB mer", "def": "Ti ganger så stor lydintensitet." },
-    { "term": "Én magnitude mer", "def": "Omtrent ti ganger så store utslag og rundt 30 ganger så mye energi." },
-    { "term": "Logaritmisk akse", "def": "Gjør eksponentiell vekst til en rett linje." }
+    {
+      "term": "aᵐ · aⁿ",
+      "def": "aᵐ⁺ⁿ"
+    },
+    {
+      "term": "a⁻ⁿ",
+      "def": "1/aⁿ"
+    },
+    {
+      "term": "lg x",
+      "def": "Tallet 10 må opphøyes i for å få x."
+    },
+    {
+      "term": "lg 1000",
+      "def": "3"
+    },
+    {
+      "term": "lg 0,01",
+      "def": "−2"
+    },
+    {
+      "term": "Definisjonsmengde for lg x",
+      "def": "x > 0"
+    },
+    {
+      "term": "lg(a · b)",
+      "def": "lg a + lg b"
+    },
+    {
+      "term": "lg(a / b)",
+      "def": "lg a − lg b"
+    },
+    {
+      "term": "lg(aˣ)",
+      "def": "x · lg a"
+    },
+    {
+      "term": "Doblingstid ved 5 %",
+      "def": "lg 2 / lg 1,05 ≈ 14,2 år"
+    },
+    {
+      "term": "Løse aˣ = b",
+      "def": "x = lg b / lg a"
+    },
+    {
+      "term": "pH",
+      "def": "−lg[H₃O⁺]"
+    },
+    {
+      "term": "10 dB mer",
+      "def": "Ti ganger så stor lydintensitet."
+    },
+    {
+      "term": "Én magnitude mer",
+      "def": "Omtrent ti ganger så store utslag og rundt 30 ganger så mye energi."
+    },
+    {
+      "term": "Logaritmisk akse",
+      "def": "Gjør eksponentiell vekst til en rett linje."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er lg 0,01?", "options": ["2", "−2", "0,01", "−0,01"], "correct": 1, "explain": "10⁻² = 0,01." },
-    { "id": "q02", "text": "Hvor lang tid tar det å doble et beløp med 5 % årlig rente?", "options": ["Omtrent 14,2 år", "20 år", "10 år", "Omtrent 7 år"], "correct": 0, "explain": "lg 2 / lg 1,05." },
-    { "id": "q03", "text": "Løs 10 000 · 1,03ˣ = 15 000.", "options": ["x ≈ 50", "x = 5", "x ≈ 13,7", "x ≈ 1,5"], "correct": 2, "explain": "x = lg 1,5 / lg 1,03." },
-    { "id": "q04", "text": "Hvilken regel brukes til å flytte eksponenten ned?", "options": ["lg(a · b) = lg a + lg b", "lg(a / b) = lg a − lg b", "lg 1 = 0", "lg(aˣ) = x · lg a"], "correct": 3, "explain": "Nøkkelen til eksponentiallikninger." },
-    { "id": "q05", "text": "Løs lg x − lg 2 = 1.", "options": ["x = 20", "x = 12", "x = 5", "x = 3"], "correct": 0, "explain": "lg(x/2) = 1 gir x/2 = 10." },
-    { "id": "q06", "text": "Hvor mye surere er pH 3 enn pH 5?", "options": ["2 ganger", "100 ganger", "20 ganger", "1000 ganger"], "correct": 1, "explain": "To enheter gir 10²." },
-    { "id": "q07", "text": "Hvordan ser eksponentiell vekst ut med logaritmisk y-akse?", "options": ["Som en parabel", "Som en S-kurve", "Som en rett linje", "Som en sirkel"], "correct": 2, "explain": "lg(a · bˣ) = lg a + x · lg b." },
-    { "id": "q08", "text": "Hva er lg 1?", "options": ["1", "10", "Ikke definert", "0"], "correct": 3, "explain": "10⁰ = 1." },
-    { "id": "q09", "text": "Hvor mye større lydintensitet gir 20 dB mer?", "options": ["100 ganger", "20 ganger", "2 ganger", "10 ganger"], "correct": 0, "explain": "10 dB er ti ganger; 20 dB er 10 · 10." },
-    { "id": "q10", "text": "Hvorfor må du sette prøve i logaritmelikninger?", "options": ["Fordi lg alltid gir heltall", "Fordi løsninger kan gi logaritmen av et negativt tall", "Fordi logaritmer er upresise", "Det må du ikke"], "correct": 1, "explain": "lg x er bare definert for x > 0." }
+    {
+      "id": "q01",
+      "text": "Hva er lg 0,01?",
+      "options": [
+        "2",
+        "−2",
+        "0,01",
+        "−0,01"
+      ],
+      "correct": 1,
+      "explain": "10⁻² = 0,01."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor lang tid tar det å doble et beløp med 5 % årlig rente?",
+      "options": [
+        "Omtrent 14,2 år",
+        "20 år",
+        "10 år",
+        "Omtrent 7 år"
+      ],
+      "correct": 0,
+      "explain": "lg 2 / lg 1,05."
+    },
+    {
+      "id": "q03",
+      "text": "Løs 10 000 · 1,03ˣ = 15 000.",
+      "options": [
+        "x ≈ 50",
+        "x = 5",
+        "x ≈ 13,7",
+        "x ≈ 1,5"
+      ],
+      "correct": 2,
+      "explain": "x = lg 1,5 / lg 1,03."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken regel brukes til å flytte eksponenten ned?",
+      "options": [
+        "lg(a · b) = lg a + lg b",
+        "lg(a / b) = lg a − lg b",
+        "lg 1 = 0",
+        "lg(aˣ) = x · lg a"
+      ],
+      "correct": 3,
+      "explain": "Nøkkelen til eksponentiallikninger."
+    },
+    {
+      "id": "q05",
+      "text": "Løs lg x − lg 2 = 1.",
+      "options": [
+        "x = 20",
+        "x = 12",
+        "x = 5",
+        "x = 3"
+      ],
+      "correct": 0,
+      "explain": "lg(x/2) = 1 gir x/2 = 10."
+    },
+    {
+      "id": "q06",
+      "text": "Hvor mye surere er pH 3 enn pH 5?",
+      "options": [
+        "2 ganger",
+        "100 ganger",
+        "20 ganger",
+        "1000 ganger"
+      ],
+      "correct": 1,
+      "explain": "To enheter gir 10²."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan ser eksponentiell vekst ut med logaritmisk y-akse?",
+      "options": [
+        "Som en parabel",
+        "Som en S-kurve",
+        "Som en rett linje",
+        "Som en sirkel"
+      ],
+      "correct": 2,
+      "explain": "lg(a · bˣ) = lg a + x · lg b."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er lg 1?",
+      "options": [
+        "1",
+        "10",
+        "Ikke definert",
+        "0"
+      ],
+      "correct": 3,
+      "explain": "10⁰ = 1."
+    },
+    {
+      "id": "q09",
+      "text": "Hvor mye større lydintensitet gir 20 dB mer?",
+      "options": [
+        "100 ganger",
+        "20 ganger",
+        "2 ganger",
+        "10 ganger"
+      ],
+      "correct": 0,
+      "explain": "10 dB er ti ganger; 20 dB er 10 · 10."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor må du sette prøve i logaritmelikninger?",
+      "options": [
+        "Fordi lg alltid gir heltall",
+        "Fordi løsninger kan gi logaritmen av et negativt tall",
+        "Fordi logaritmer er upresise",
+        "Det må du ikke"
+      ],
+      "correct": 1,
+      "explain": "lg x er bare definert for x > 0."
+    }
   ],
   "mindmap": {
     "label": "Potenser og logaritmer",
     "children": [
-      { "label": "Potenser", "children": [
-        { "label": "Regneregler" },
-        { "label": "Prosentvis vekst" }
-      ] },
-      { "label": "Logaritmer", "children": [
-        { "label": "lg x" },
-        { "label": "x > 0" },
-        { "label": "Opphever 10ˣ" }
-      ] },
-      { "label": "Regler", "children": [
-        { "label": "Produkt → sum" },
-        { "label": "Kvotient → differanse" },
-        { "label": "Potens → faktor" }
-      ] },
-      { "label": "Likninger", "children": [
-        { "label": "Doblingstid" },
-        { "label": "Logaritmelikninger" },
-        { "label": "Sett prøve" }
-      ] },
-      { "label": "Skalaer", "children": [
-        { "label": "pH" },
-        { "label": "Desibel" },
-        { "label": "Jordskjelv" },
-        { "label": "Logaritmisk akse" }
-      ] }
+      {
+        "label": "Potenser",
+        "children": [
+          {
+            "label": "Regneregler"
+          },
+          {
+            "label": "Prosentvis vekst"
+          }
+        ]
+      },
+      {
+        "label": "Logaritmer",
+        "children": [
+          {
+            "label": "lg x"
+          },
+          {
+            "label": "x > 0"
+          },
+          {
+            "label": "Opphever 10ˣ"
+          }
+        ]
+      },
+      {
+        "label": "Regler",
+        "children": [
+          {
+            "label": "Produkt → sum"
+          },
+          {
+            "label": "Kvotient → differanse"
+          },
+          {
+            "label": "Potens → faktor"
+          }
+        ]
+      },
+      {
+        "label": "Likninger",
+        "children": [
+          {
+            "label": "Doblingstid"
+          },
+          {
+            "label": "Logaritmelikninger"
+          },
+          {
+            "label": "Sett prøve"
+          }
+        ]
+      },
+      {
+        "label": "Skalaer",
+        "children": [
+          {
+            "label": "pH"
+          },
+          {
+            "label": "Desibel"
+          },
+          {
+            "label": "Jordskjelv"
+          },
+          {
+            "label": "Logaritmisk akse"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "lg x er negativ når 0 < x < 1.", "correct": true, "explain": "For eksempel lg 0,1 = −1." },
-      { "id": "m02", "type": "sant-usant", "text": "lg(a + b) = lg a + lg b.", "correct": false, "explain": "Regelen gjelder produktet a · b." },
-      { "id": "m03", "type": "sant-usant", "text": "Med 2 % årlig prisvekst tar det omtrent 35 år før prisene dobles.", "correct": true, "explain": "lg 2 / lg 1,02 ≈ 35." },
-      { "id": "m04", "type": "sant-usant", "text": "Et jordskjelv med magnitude 6 har dobbelt så mye energi som ett med magnitude 5.", "correct": false, "explain": "Det har rundt 30 ganger så mye energi." },
-      { "id": "m05", "type": "flervalg", "text": "Løs lg x = 3.", "options": ["x = 30", "x = 1000", "x = 3/10", "x = 0,001"], "correct": 1, "explain": "x = 10³." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er 5⁰?", "options": ["1", "0", "5", "Ikke definert"], "correct": 0, "explain": "a⁰ = 1." },
-      { "id": "m07", "type": "flervalg", "text": "Løs 2ˣ = 10.", "options": ["x = 5", "x = 1/lg 5", "x = 1/lg 2 ≈ 3,32", "x = lg 2"], "correct": 2, "explain": "x = lg 10 / lg 2 = 1/lg 2." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "lg x er negativ når 0 < x < 1.",
+        "correct": true,
+        "explain": "For eksempel lg 0,1 = −1."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "lg(a + b) = lg a + lg b.",
+        "correct": false,
+        "explain": "Regelen gjelder produktet a · b."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Med 2 % årlig prisvekst tar det omtrent 35 år før prisene dobles.",
+        "correct": true,
+        "explain": "lg 2 / lg 1,02 ≈ 35."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et jordskjelv med magnitude 6 har dobbelt så mye energi som ett med magnitude 5.",
+        "correct": false,
+        "explain": "Det har rundt 30 ganger så mye energi."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Løs lg x = 3.",
+        "options": [
+          "x = 30",
+          "x = 1000",
+          "x = 3/10",
+          "x = 0,001"
+        ],
+        "correct": 1,
+        "explain": "x = 10³."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er 5⁰?",
+        "options": [
+          "1",
+          "0",
+          "5",
+          "Ikke definert"
+        ],
+        "correct": 0,
+        "explain": "a⁰ = 1."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Løs 2ˣ = 10.",
+        "options": [
+          "x = 5",
+          "x = 1/lg 5",
+          "x = 1/lg 2 ≈ 3,32",
+          "x = lg 2"
+        ],
+        "correct": 2,
+        "explain": "x = lg 10 / lg 2 = 1/lg 2."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forenkle uttrykket 10³ / 10². Vis hvilket eksponentsteg du bruker, og oppgi svaret.",
+        "fasit": "10³ / 10² = 10³⁻² = 10.",
+        "kriterier": [
+          "Bruker regelen for divisjon av potenser med samme grunntall og trekker eksponentene fra hverandre.",
+          "Oppgir svaret 10."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Skriv 10⁻² både som brøk og som desimaltall.",
+        "fasit": "10⁻² = 1/10² = 1/100 = 0,01.",
+        "kriterier": [
+          "Bruker regelen  a⁻ⁿ = 1/aⁿ.",
+          "Oppgir både 1/100 og 0,01."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar hva lg x betyr, og bruk lg 100 = 2 til å vise hvordan definisjonen virker.",
+        "fasit": "lg x er tallet 10 må opphøyes i for å få x. Siden 10² = 100, er lg 100 = 2.",
+        "kriterier": [
+          "Forklarer at lg x er eksponenten 10 må ha for å bli x.",
+          "Knytter lg 100 = 2 til at 10² = 100."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev foreslår x = −2 som løsning i en likning der uttrykket lg x inngår. Forklar hvorfor denne verdien ikke kan være en løsning.",
+        "fasit": "lg x er bare definert når x > 0. Når x = −2, blir det logaritmen av et negativt tall, og uttrykket er ikke definert.",
+        "kriterier": [
+          "Nevner at argumentet i lg må være større enn 0.",
+          "Forklarer at x = −2 derfor ikke er tillatt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign logaritmeregelen for et produkt med regelen for en brøk. Skriv begge reglene og forklar forskjellen mellom dem.",
+        "fasit": "For et produkt er lg(a · b) = lg a + lg b, mens lg(a / b) = lg a − lg b. Produkt gir altså en sum av logaritmer, mens brøk gir en differanse.",
+        "kriterier": [
+          "Oppgir at logaritmen av et produkt blir summen av logaritmene.",
+          "Oppgir at logaritmen av en brøk blir differansen mellom logaritmene."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et beløp på 10 000 kr vokser med 3 % årlig og beskrives av 10 000 · 1,03ᵗ kroner etter t år. Forklar hva 1,03 og t betyr i modellen.",
+        "fasit": "Faktoren 1,03 betyr at beløpet hvert år blir 103 % av beløpet året før, altså at det vokser med 3 %. t er antall år.",
+        "kriterier": [
+          "Forklarer at 1,03 er vekstfaktoren ved 3 % årlig vekst.",
+          "Forklarer at t angir antall år."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "På magnitudeskalaen har et jordskjelv én enhet høyere magnitude enn et annet. Beskriv hva dette omtrent betyr for utslagene på seismografen og for energien.",
+        "fasit": "Utslagene på seismografen er omtrent ti ganger så store. Energien er rundt 30 ganger så stor.",
+        "kriterier": [
+          "Nevner omtrent ti ganger så store utslag på seismografen.",
+          "Nevner rundt 30 ganger så mye energi."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Mengden virkestoff i kroppen avtar ofte eksponentielt. Forklar hva halveringstiden beskriver, og hvordan logaritmer kan brukes i forbindelse med den.",
+        "fasit": "Halveringstiden er tiden det tar før mengden virkestoff blir halvert. Når mengden avtar eksponentielt, kan logaritmer brukes til å finne denne tiden.",
+        "kriterier": [
+          "Forklarer at halveringstid er tiden før mengden blir halvparten.",
+          "Knytter bruk av logaritmer til å finne tiden ved eksponentiell avtagning."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

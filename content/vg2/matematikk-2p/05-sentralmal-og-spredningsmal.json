@@ -4,79 +4,427 @@
   "trinnId": "vg2",
   "name": "Sentralmål og spredningsmål",
   "intro": "Gjennomsnitt, median og typetall, variasjonsbredde, kvartilbredde og standardavvik – hvordan du regner dem ut, også for grupperte data og i regneark, og hvordan du velger det målet som passer best.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Sentralmål\n\n**Sentralmål** forteller hva som er **typisk** i et datamateriale. Vi bruker datasettet 4, 7, 7, 8, 10, 12, 15:\n\n- **Gjennomsnitt**: summen delt på antallet: 63/7 = **9**\n- **Median**: den **midterste** verdien når dataene er **sortert**: **8**. Er det et partall verdier, tar vi gjennomsnittet av de to midterste.\n- **Typetall**: den verdien som forekommer **oftest**: **7**\n\n## Hvilket sentralmål passer best?\n\n**Gjennomsnittet** påvirkes mye av **ekstreme verdier**. Fem personer tjener 400 000, 420 000, 450 000, 480 000 og 5 000 000 kr. Gjennomsnittet er **1 350 000 kr**, men **medianen** er **450 000 kr** – som gir et mye bedre bilde av hva som er vanlig. Derfor oppgir SSB ofte **medianinntekt**.\n\n**Typetall** passer for **kategoriske data**, som favorittfarge eller mest solgte skostørrelse.\n\n## Spredningsmål\n\n**Spredningsmål** forteller hvor mye dataene **varierer**.\n\n- **Variasjonsbredde**: største minus minste verdi: 15 − 4 = **11**. Påvirkes mye av ekstreme verdier.\n- **Kvartiler**: Når dataene er sortert, deler **nedre kvartil (Q1)**, **medianen** og **øvre kvartil (Q3)** materialet i fire like store deler. For datasettet over er Q1 = 7 og Q3 = 12.\n- **Kvartilbredde**: Q3 − Q1 = **5**. Viser spredningen til den **midterste halvdelen** og påvirkes lite av ekstreme verdier.\n- **Standardavvik**: et mål på hvor langt verdiene i **gjennomsnitt** ligger fra **gjennomsnittet**.\n\n## Standardavvik\n\nFor datasettet 2, 4, 4, 4, 5, 5, 7, 9 er gjennomsnittet 5.\n\n1. Finn avviket fra gjennomsnittet for hver verdi og **kvadrer** det: 9, 1, 1, 1, 0, 0, 4, 16.\n2. Finn **gjennomsnittet** av kvadratene: 32/8 = 4 (dette kalles **variansen**).\n3. Ta **kvadratroten**: √4 = **2**.\n\nStort standardavvik betyr **stor spredning**. To klasser kan ha samme gjennomsnittskarakter, men helt ulik spredning.\n\n## Grupperte data\n\nNår data er **gruppert i klasser**, bruker vi **klassemidtpunktet** for å anslå gjennomsnittet:\n\n| Klasse | Midtpunkt | Frekvens |\n| --- | --- | --- |\n| [0, 10) | 5 | 4 |\n| [10, 20) | 15 | 6 |\n\nGjennomsnitt ≈ (5 · 4 + 15 · 6) / 10 = 110/10 = **11**\n\n## Regneark\n\nNyttige funksjoner: **GJENNOMSNITT**, **MEDIAN**, **MODUS** (typetall), **MAKS**, **MIN** og **STDAV.P** (standardavvik for hele populasjonen).",
   "flashcards": [
-    { "term": "Sentralmål", "def": "Mål på hva som er typisk: gjennomsnitt, median og typetall." },
-    { "term": "Gjennomsnitt", "def": "Summen av verdiene delt på antallet." },
-    { "term": "Median", "def": "Den midterste verdien når dataene er sortert." },
-    { "term": "Typetall", "def": "Den verdien som forekommer oftest." },
-    { "term": "Ekstreme verdier", "def": "Verdier som skiller seg mye ut og påvirker gjennomsnittet." },
-    { "term": "Medianinntekt", "def": "Brukes fordi få svært høye inntekter ikke påvirker den mye." },
-    { "term": "Spredningsmål", "def": "Mål på hvor mye dataene varierer." },
-    { "term": "Variasjonsbredde", "def": "Største minus minste verdi." },
-    { "term": "Nedre og øvre kvartil", "def": "Q1 og Q3 – deler sorterte data i fire like store deler sammen med medianen." },
-    { "term": "Kvartilbredde", "def": "Q3 − Q1 – spredningen til den midterste halvdelen." },
-    { "term": "Standardavvik", "def": "Hvor langt verdiene i gjennomsnitt ligger fra gjennomsnittet." },
-    { "term": "Varians", "def": "Gjennomsnittet av de kvadrerte avvikene – standardavviket i andre." },
-    { "term": "Klassemidtpunkt", "def": "Midten av en klasse, brukt for grupperte data." },
-    { "term": "STDAV.P", "def": "Regnearkfunksjon for standardavvik." },
-    { "term": "MODUS", "def": "Regnearkfunksjon for typetall." }
+    {
+      "term": "Sentralmål",
+      "def": "Mål på hva som er typisk: gjennomsnitt, median og typetall."
+    },
+    {
+      "term": "Gjennomsnitt",
+      "def": "Summen av verdiene delt på antallet."
+    },
+    {
+      "term": "Median",
+      "def": "Den midterste verdien når dataene er sortert."
+    },
+    {
+      "term": "Typetall",
+      "def": "Den verdien som forekommer oftest."
+    },
+    {
+      "term": "Ekstreme verdier",
+      "def": "Verdier som skiller seg mye ut og påvirker gjennomsnittet."
+    },
+    {
+      "term": "Medianinntekt",
+      "def": "Brukes fordi få svært høye inntekter ikke påvirker den mye."
+    },
+    {
+      "term": "Spredningsmål",
+      "def": "Mål på hvor mye dataene varierer."
+    },
+    {
+      "term": "Variasjonsbredde",
+      "def": "Største minus minste verdi."
+    },
+    {
+      "term": "Nedre og øvre kvartil",
+      "def": "Q1 og Q3 – deler sorterte data i fire like store deler sammen med medianen."
+    },
+    {
+      "term": "Kvartilbredde",
+      "def": "Q3 − Q1 – spredningen til den midterste halvdelen."
+    },
+    {
+      "term": "Standardavvik",
+      "def": "Hvor langt verdiene i gjennomsnitt ligger fra gjennomsnittet."
+    },
+    {
+      "term": "Varians",
+      "def": "Gjennomsnittet av de kvadrerte avvikene – standardavviket i andre."
+    },
+    {
+      "term": "Klassemidtpunkt",
+      "def": "Midten av en klasse, brukt for grupperte data."
+    },
+    {
+      "term": "STDAV.P",
+      "def": "Regnearkfunksjon for standardavvik."
+    },
+    {
+      "term": "MODUS",
+      "def": "Regnearkfunksjon for typetall."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er medianen i 4, 7, 7, 8, 10, 12, 15?", "options": ["7", "8", "9", "10"], "correct": 1, "explain": "Den midterste av sju verdier er den fjerde." },
-    { "id": "q02", "text": "Hva er gjennomsnittet i 4, 7, 7, 8, 10, 12, 15?", "options": ["9", "8", "7", "10"], "correct": 0, "explain": "63/7 = 9." },
-    { "id": "q03", "text": "Hvorfor oppgir SSB ofte medianinntekt i stedet for gjennomsnittsinntekt?", "options": ["Fordi medianen er lettere å regne ut", "Fordi gjennomsnittet alltid er feil", "Fordi medianen påvirkes lite av noen få svært høye inntekter", "Fordi medianen alltid er høyest"], "correct": 2, "explain": "Ekstreme verdier drar gjennomsnittet opp." },
-    { "id": "q04", "text": "Hva er variasjonsbredden i 4, 7, 7, 8, 10, 12, 15?", "options": ["8", "15", "5", "11"], "correct": 3, "explain": "15 − 4 = 11." },
-    { "id": "q05", "text": "Hvilket sentralmål passer best for favorittfarger?", "options": ["Typetall", "Gjennomsnitt", "Median", "Standardavvik"], "correct": 0, "explain": "Farger er kategoriske data." },
-    { "id": "q06", "text": "Hva er kvartilbredden når Q1 = 7 og Q3 = 12?", "options": ["19", "5", "7", "12"], "correct": 1, "explain": "Q3 − Q1 = 5." },
-    { "id": "q07", "text": "Hva forteller et stort standardavvik?", "options": ["At gjennomsnittet er høyt", "At medianen er lav", "At dataene har stor spredning", "At det er få verdier"], "correct": 2, "explain": "Verdiene ligger langt fra gjennomsnittet." },
-    { "id": "q08", "text": "Hva er standardavviket til 2, 4, 4, 4, 5, 5, 7, 9?", "options": ["5", "4", "32", "2"], "correct": 3, "explain": "Variansen er 4, og √4 = 2." },
-    { "id": "q09", "text": "Hvordan anslår du gjennomsnittet for grupperte data?", "options": ["Med klassemidtpunktene ganget med frekvensene", "Med den største klassen", "Med antall klasser", "Med medianen"], "correct": 0, "explain": "Summen deles på antall observasjoner." },
-    { "id": "q10", "text": "Hvilken regnearkfunksjon gir typetallet?", "options": ["MEDIAN", "MODUS", "GJENNOMSNITT", "STDAV.P"], "correct": 1, "explain": "Typetall heter mode på engelsk." }
+    {
+      "id": "q01",
+      "text": "Hva er medianen i 4, 7, 7, 8, 10, 12, 15?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct": 1,
+      "explain": "Den midterste av sju verdier er den fjerde."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er gjennomsnittet i 4, 7, 7, 8, 10, 12, 15?",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "63/7 = 9."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor oppgir SSB ofte medianinntekt i stedet for gjennomsnittsinntekt?",
+      "options": [
+        "Fordi medianen er lettere å regne ut",
+        "Fordi gjennomsnittet alltid er feil",
+        "Fordi medianen påvirkes lite av noen få svært høye inntekter",
+        "Fordi medianen alltid er høyest"
+      ],
+      "correct": 2,
+      "explain": "Ekstreme verdier drar gjennomsnittet opp."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er variasjonsbredden i 4, 7, 7, 8, 10, 12, 15?",
+      "options": [
+        "8",
+        "15",
+        "5",
+        "11"
+      ],
+      "correct": 3,
+      "explain": "15 − 4 = 11."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket sentralmål passer best for favorittfarger?",
+      "options": [
+        "Typetall",
+        "Gjennomsnitt",
+        "Median",
+        "Standardavvik"
+      ],
+      "correct": 0,
+      "explain": "Farger er kategoriske data."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er kvartilbredden når Q1 = 7 og Q3 = 12?",
+      "options": [
+        "19",
+        "5",
+        "7",
+        "12"
+      ],
+      "correct": 1,
+      "explain": "Q3 − Q1 = 5."
+    },
+    {
+      "id": "q07",
+      "text": "Hva forteller et stort standardavvik?",
+      "options": [
+        "At gjennomsnittet er høyt",
+        "At medianen er lav",
+        "At dataene har stor spredning",
+        "At det er få verdier"
+      ],
+      "correct": 2,
+      "explain": "Verdiene ligger langt fra gjennomsnittet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er standardavviket til 2, 4, 4, 4, 5, 5, 7, 9?",
+      "options": [
+        "5",
+        "4",
+        "32",
+        "2"
+      ],
+      "correct": 3,
+      "explain": "Variansen er 4, og √4 = 2."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan anslår du gjennomsnittet for grupperte data?",
+      "options": [
+        "Med klassemidtpunktene ganget med frekvensene",
+        "Med den største klassen",
+        "Med antall klasser",
+        "Med medianen"
+      ],
+      "correct": 0,
+      "explain": "Summen deles på antall observasjoner."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken regnearkfunksjon gir typetallet?",
+      "options": [
+        "MEDIAN",
+        "MODUS",
+        "GJENNOMSNITT",
+        "STDAV.P"
+      ],
+      "correct": 1,
+      "explain": "Typetall heter mode på engelsk."
+    }
   ],
   "mindmap": {
     "label": "Sentralmål og spredning",
     "children": [
-      { "label": "Sentralmål", "children": [
-        { "label": "Gjennomsnitt" },
-        { "label": "Median" },
-        { "label": "Typetall" }
-      ] },
-      { "label": "Velge mål", "children": [
-        { "label": "Ekstreme verdier" },
-        { "label": "Medianinntekt" },
-        { "label": "Kategoriske data" }
-      ] },
-      { "label": "Spredning", "children": [
-        { "label": "Variasjonsbredde" },
-        { "label": "Kvartiler" },
-        { "label": "Kvartilbredde" },
-        { "label": "Standardavvik" }
-      ] },
-      { "label": "Grupperte data", "children": [
-        { "label": "Klassemidtpunkt" },
-        { "label": "Frekvens" }
-      ] },
-      { "label": "Regneark", "children": [
-        { "label": "GJENNOMSNITT, MEDIAN" },
-        { "label": "MODUS" },
-        { "label": "STDAV.P" }
-      ] }
+      {
+        "label": "Sentralmål",
+        "children": [
+          {
+            "label": "Gjennomsnitt"
+          },
+          {
+            "label": "Median"
+          },
+          {
+            "label": "Typetall"
+          }
+        ]
+      },
+      {
+        "label": "Velge mål",
+        "children": [
+          {
+            "label": "Ekstreme verdier"
+          },
+          {
+            "label": "Medianinntekt"
+          },
+          {
+            "label": "Kategoriske data"
+          }
+        ]
+      },
+      {
+        "label": "Spredning",
+        "children": [
+          {
+            "label": "Variasjonsbredde"
+          },
+          {
+            "label": "Kvartiler"
+          },
+          {
+            "label": "Kvartilbredde"
+          },
+          {
+            "label": "Standardavvik"
+          }
+        ]
+      },
+      {
+        "label": "Grupperte data",
+        "children": [
+          {
+            "label": "Klassemidtpunkt"
+          },
+          {
+            "label": "Frekvens"
+          }
+        ]
+      },
+      {
+        "label": "Regneark",
+        "children": [
+          {
+            "label": "GJENNOMSNITT, MEDIAN"
+          },
+          {
+            "label": "MODUS"
+          },
+          {
+            "label": "STDAV.P"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kvartilbredden påvirkes lite av ekstreme verdier.", "correct": true, "explain": "Den gjelder bare den midterste halvdelen." },
-      { "id": "m02", "type": "sant-usant", "text": "Medianen påvirkes like mye av ekstreme verdier som gjennomsnittet.", "correct": false, "explain": "Medianen påvirkes mye mindre." },
-      { "id": "m03", "type": "sant-usant", "text": "To klasser kan ha samme gjennomsnitt, men ulik spredning.", "correct": true, "explain": "Derfor trenger vi spredningsmål." },
-      { "id": "m04", "type": "sant-usant", "text": "Dataene må sorteres før man finner gjennomsnittet.", "correct": false, "explain": "Sortering trengs for medianen, ikke gjennomsnittet." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er medianen i 3, 5, 8, 10?", "options": ["5", "6,5", "8", "6"], "correct": 1, "explain": "Gjennomsnittet av de to midterste: (5 + 8)/2 = 6,5." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er typetallet i 2, 3, 3, 3, 5, 6?", "options": ["3", "2", "5", "3,7"], "correct": 0, "explain": "3 forekommer oftest." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er variansen?", "options": ["Største minus minste verdi", "Den midterste verdien", "Gjennomsnittet av de kvadrerte avvikene", "Q3 − Q1"], "correct": 2, "explain": "Standardavviket er kvadratroten av variansen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kvartilbredden påvirkes lite av ekstreme verdier.",
+        "correct": true,
+        "explain": "Den gjelder bare den midterste halvdelen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Medianen påvirkes like mye av ekstreme verdier som gjennomsnittet.",
+        "correct": false,
+        "explain": "Medianen påvirkes mye mindre."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "To klasser kan ha samme gjennomsnitt, men ulik spredning.",
+        "correct": true,
+        "explain": "Derfor trenger vi spredningsmål."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Dataene må sorteres før man finner gjennomsnittet.",
+        "correct": false,
+        "explain": "Sortering trengs for medianen, ikke gjennomsnittet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er medianen i 3, 5, 8, 10?",
+        "options": [
+          "5",
+          "6,5",
+          "8",
+          "6"
+        ],
+        "correct": 1,
+        "explain": "Gjennomsnittet av de to midterste: (5 + 8)/2 = 6,5."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er typetallet i 2, 3, 3, 3, 5, 6?",
+        "options": [
+          "3",
+          "2",
+          "5",
+          "3,7"
+        ],
+        "correct": 0,
+        "explain": "3 forekommer oftest."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er variansen?",
+        "options": [
+          "Største minus minste verdi",
+          "Den midterste verdien",
+          "Gjennomsnittet av de kvadrerte avvikene",
+          "Q3 − Q1"
+        ],
+        "correct": 2,
+        "explain": "Standardavviket er kvadratroten av variansen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar sammenhengen mellom varians og standardavvik.",
+        "fasit": "Variansen er gjennomsnittet av de kvadrerte avvikene fra gjennomsnittet. Standardavviket er kvadratroten av variansen.",
+        "kriterier": [
+          "Forklarer at variansen bygger på kvadrerte avvik fra gjennomsnittet.",
+          "Forklarer at standardavviket er kvadratroten av variansen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign variasjonsbredden og kvartilbredden. Hva måler de, og hvilken påvirkes minst av ekstreme verdier?",
+        "fasit": "Variasjonsbredden er største verdi minus minste verdi, mens kvartilbredden er Q3 minus Q1 og viser spredningen til den midterste halvdelen. Kvartilbredden påvirkes mindre av ekstreme verdier.",
+        "kriterier": [
+          "Skiller mellom hvordan variasjonsbredden og kvartilbredden beregnes eller hva de viser.",
+          "Slår fast at kvartilbredden påvirkes mindre av ekstreme verdier."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I datasettet 4, 7, 7, 8, 10, 12, 15: Finn typetallet og forklar hvorfor det er typetallet.",
+        "fasit": "Typetallet er 7, fordi 7 forekommer oftere enn hver av de andre verdiene.",
+        "kriterier": [
+          "Oppgir 7 som typetall.",
+          "Begrunner svaret med at 7 forekommer oftest."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Finn medianen i datasettet 2, 4, 4, 4, 5, 5, 7, 9. Vis det viktigste steget i utregningen.",
+        "fasit": "Det er åtte verdier, så medianen er gjennomsnittet av de to midterste verdiene, 4 og 5. Medianen er (4 + 5) / 2 = 4,5.",
+        "kriterier": [
+          "Bruker de to midterste verdiene 4 og 5.",
+          "Regner ut medianen til 4,5 ved å finne gjennomsnittet av dem."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Datasettet 2, 4, 4, 4, 5, 5, 7, 9 har gjennomsnitt 5. Finn variansen. Vis det viktigste steget.",
+        "fasit": "Gjennomsnittet av de kvadrerte avvikene er (9 + 1 + 1 + 1 + 0 + 0 + 4 + 16) / 8 = 32 / 8 = 4. Variansen er 4.",
+        "kriterier": [
+          "Bruker de kvadrerte avvikene til å finne variansen.",
+          "Deler summen 32 på 8 og får variansen 4."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "To klasser har samme gjennomsnittskarakter, men den ene klassen har større standardavvik. Hva forteller det om karakterene i klassene?",
+        "fasit": "Karakterene i klassen med større standardavvik har større spredning rundt gjennomsnittet. Det betyr at karakterene i de to klassene varierer ulikt, selv om gjennomsnittet er likt.",
+        "kriterier": [
+          "Knytter større standardavvik til større spredning eller variasjon.",
+          "Forklarer at likt gjennomsnitt ikke betyr at karakterene er like fordelt."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "For grupperte data brukes klassemidtpunktet til å anslå gjennomsnittet. I klassen [0, 10) er midtpunktet 5, og i klassen [10, 20) er midtpunktet 15. Hvorfor gir bruk av disse midtpunktene et anslag og ikke nødvendigvis det nøyaktige gjennomsnittet?",
+        "fasit": "Når dataene er gruppert i klasser, bruker vi midtpunktet som representant for verdiene i hver klasse. Verdiene kan ligge andre steder i klassene, så beregningen gir et anslag.",
+        "kriterier": [
+          "Forklarer at klassemidtpunktet brukes som representant for verdiene i klassen.",
+          "Forklarer at de faktiske verdiene kan avvike fra midtpunktet, slik at gjennomsnittet bare anslås."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du har registrert alle verdiene i en hel populasjon og vil finne standardavviket i et regneark. Hvilken funksjon fra funksjonslisten bruker du, og hva forteller resultatet?",
+        "fasit": "Jeg bruker STDAV.P, som finner standardavviket for hele populasjonen. Resultatet sier noe om hvor langt verdiene i gjennomsnitt ligger fra gjennomsnittet.",
+        "kriterier": [
+          "Oppgir STDAV.P som funksjonen for standardavvik i hele populasjonen.",
+          "Forklarer at standardavviket beskriver avstanden fra verdiene til gjennomsnittet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

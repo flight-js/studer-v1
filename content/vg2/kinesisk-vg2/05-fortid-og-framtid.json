@@ -343,6 +343,80 @@
         "correct": 2,
         "explain": "会 om sannsynlighet."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign 了 i setningen 我买了一本书 og 过 i setningen 我去过中国. Hva forteller hver partikkel om handlingen?",
+        "fasit": "了 viser at en handling er fullført. 过 viser at man har hatt en erfaring eller gjort noe noen gang.",
+        "kriterier": [
+          "Skiller mellom en fullført handling og en erfaring.",
+          "Forklarer riktig betydning for både 了 og 过."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Skriv på kinesisk: «I går kjøpte jeg en bok.» Bruk 昨天, 买 og 了.",
+        "fasit": "我昨天买了一本书。",
+        "kriterier": [
+          "Bruker 昨天 for «i går».",
+          "Plasserer 了 etter 买 og uttrykker at bokkjøpet er fullført."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Skriv på kinesisk: «Forrige uke spiste jeg ikke.» Bruk 上个星期, 吃饭 og 没(有).",
+        "fasit": "上个星期我没吃饭。",
+        "kriterier": [
+          "Bruker 没(有) til å nekte handlingen.",
+          "Utelater 了 i den nektede setningen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Skriv på kinesisk at du aldri har vært i Japan. Bruk 我, 去, 日本, 没 og 过.",
+        "fasit": "我没去过日本。",
+        "kriterier": [
+          "Bruker mønsteret 没(有) + 去 + 过 for å uttrykke at erfaringen mangler.",
+          "Får med Japan som stedet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Du har en plan om å dra til Kina neste år. Skriv dette på kinesisk med 明年 og 打算.",
+        "fasit": "明年我打算去中国。",
+        "kriterier": [
+          "Bruker 明年 for «neste år».",
+          "Bruker 打算 til å uttrykke en plan om å dra til Kina."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign 要 og 想 som framtidsuttrykk. Forklar forskjellen ved hjelp av setningene 明年我要去中国 og 以后我想当老师.",
+        "fasit": "要 uttrykker at man skal eller har tenkt å gjøre noe. 想 uttrykker at man har lyst til eller ønsker å gjøre noe.",
+        "kriterier": [
+          "Forklarer 要 som en plan eller intensjon.",
+          "Skiller 想 fra 要 ved å knytte 想 til ønske eller lyst."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Værmeldingen sier at det sannsynligvis regner i morgen. Skriv dette på kinesisk med 明天 og 会. Forklar kort hvorfor 会 passer til en værmelding.",
+        "fasit": "明天会下雨。 会 passer fordi den her uttrykker noe som sannsynligvis kommer til å skje.",
+        "kriterier": [
+          "Skriver en forståelig setning med 明天会下雨.",
+          "Forklarer at 会 uttrykker sannsynlighet eller en forventning om framtiden."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skriv to setninger på kinesisk om en person: Før lærte personen ikke kinesisk. Senere ønsker personen å bli lærer. Bruk 以前 i den første setningen og 以后 og 想 i den andre.",
+        "fasit": "以前我没学中文。以后我想当老师。",
+        "kriterier": [
+          "Bruker 以前 i setningen om det som var før.",
+          "Bruker 以后 og 想 til å uttrykke et senere ønske om å bli lærer."
+        ]
+      }
     ]
   },
   "kvalitet": {

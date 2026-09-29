@@ -348,6 +348,81 @@
         "correct": 2,
         "explain": "Affect is the verb, effect the noun."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Compare the meaning of these sentences: “I moved to Oslo in 2020” and “I have lived in Oslo since 2020.” What does the verb tense in each sentence tell us about the action and its connection to now?",
+        "fasit": "“Moved” is past simple and describes a finished action at a specific past time. “Have lived” is present perfect and connects the past to now.",
+        "kriterier": [
+          "Explains that past simple is for a finished action at a specific time in the past.",
+          "Explains that present perfect connects the past to now."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Correct this sentence and explain why the corrected word is needed: “I have lived here since five years.”",
+        "fasit": "I have lived here for five years. Use “for” with a period of time; “since” is used with a point in time.",
+        "kriterier": [
+          "Changes “since” to “for”.",
+          "Explains that five years is a period of time, not a point in time."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "A student writes, “She gave me many advices.” Rewrite the sentence correctly using “a piece of” and explain why “advice” is written this way.",
+        "fasit": "She gave me a piece of advice. “Advice” is uncountable in English, so it does not take a plural -s; “a piece of” is used to count it.",
+        "kriterier": [
+          "Uses “a piece of advice” correctly.",
+          "Explains that “advice” is uncountable and does not take a plural -s."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Explain why these sentences use different verb forms: “The number of students is increasing” and “A number of students are absent.”",
+        "fasit": "“The number” refers to one number, so it takes the singular verb “is”. “A number of students” means several students, so it takes the plural verb “are”.",
+        "kriterier": [
+          "Explains that “the number” takes a singular verb because the subject is the number itself.",
+          "Explains that “a number of” means several and takes a plural verb."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Compare these relative clauses: “The students who passed the exam were happy” and “My brother, who lives in Bergen, is a doctor.” Explain how the clauses differ in purpose and punctuation.",
+        "fasit": "The first clause tells us which students, so it is defining and has no commas. The second adds extra information, so it is non-defining and is set off with commas.",
+        "kriterier": [
+          "Identifies that a defining clause tells us which person or thing and has no commas.",
+          "Identifies that a non-defining clause adds extra information and uses commas."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Write one conditional sentence about an unreal situation now and one about an unreal past situation. Use having more money as the first situation and studying before an exam as the second. Explain briefly how the verb forms show the difference.",
+        "fasit": "If I had more money, I would travel. If I had studied, I would have passed. The second conditional describes an unreal or unlikely situation now; the third conditional describes an unreal past situation.",
+        "kriterier": [
+          "Uses the second conditional form for the unreal present situation: “if” + past form, then “would” + verb.",
+          "Uses the third conditional form for the unreal past situation: “if” + past perfect, then “would have” + past participle.",
+          "Distinguishes an unreal present situation from an unreal past situation."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Explain the difference between an adjective and an adverb. Use “beautiful” to describe a singer and to describe how the singer sings.",
+        "fasit": "An adjective describes a noun, so we can say “a beautiful singer”. An adverb describes a verb, so we can say “sings beautifully”.",
+        "kriterier": [
+          "Uses “beautiful” as an adjective describing the singer.",
+          "Uses “beautifully” as an adverb describing how the singer sings."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "A paragraph has these two sentences: “The students finished the exam. The students were happy.” Rewrite them to avoid repeating “The students”, and explain how your change helps cohesion.",
+        "fasit": "The students finished the exam. They were happy. The pronoun “they” refers back to “the students” and helps the sentences hang together.",
+        "kriterier": [
+          "Replaces the repeated phrase with a pronoun that clearly refers to the students.",
+          "Explains that the reference helps connect the sentences or makes them hang together."
+        ]
+      }
     ]
   },
   "kvalitet": {

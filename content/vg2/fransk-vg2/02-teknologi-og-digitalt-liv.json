@@ -4,78 +4,426 @@
   "trinnId": "vg2",
   "name": "Teknologi og digitalt liv",
   "intro": "Hvordan du snakker om sosiale medier, mobilbruk, kunstig intelligens og personvern på fransk, Frankrikes mobilforbud i skolen, og hvordan du bruker gérondif (en + -ant) til å uttrykke samtidighet og måte.",
-  "kompetansemaal": [1, 2, 6],
+  "kompetansemaal": [
+    1,
+    2,
+    6
+  ],
   "sammendrag": "## Ord om digitalt liv\n\n- *les réseaux sociaux* – sosiale medier\n- *le portable* – mobilen\n- *le temps d'écran* – skjermtiden\n- *publier, partager, liker* – publisere, dele, like\n- *l'intelligence artificielle (IA)* – kunstig intelligens\n- *la protection des données* – personvernet\n- *les fausses informations / les fake news* – falske nyheter\n- *être accro* – være hekta, avhengig\n\nPersonvernforordningen heter på fransk **RGPD** (*Règlement général sur la protection des données*).\n\n## Mobil i skolen\n\nFrankrike innførte i **2018** en lov som **forbyr mobil** i **barneskolen** og **collège** (ungdomsskolen) – også i friminuttene. Debatten om mobilbruk, konsentrasjon og psykisk helse ligner den i Norge.\n\n## Gérondif\n\n**Gérondif** består av **en** + **participe présent** (-ant). Det uttrykker\n\n- **samtidighet**: *Je fais mes devoirs **en écoutant** de la musique.* – Jeg gjør lekser mens jeg hører på musikk.\n- **måte**: *On apprend une langue **en parlant**.* – Man lærer et språk ved å snakke.\n\n**Participe présent** lages av **nous**-formen i presens: fjern **-ons** og legg til **-ant**:\n\n- nous regard**ons** → regard**ant**\n- nous fais**ons** → fais**ant**\n- nous finiss**ons** → finiss**ant**\n\n**Uregelmessige**: *être* → **étant**, *avoir* → **ayant**, *savoir* → **sachant**.\n\n## Fordeler og ulemper\n\n**Les avantages**:\n- *On peut rester en contact avec ses amis.*\n- *On trouve des informations rapidement.*\n- *L'IA peut aider à apprendre.*\n\n**Les inconvénients**:\n- *Beaucoup de jeunes passent trop de temps devant l'écran.*\n- *Il y a beaucoup de fausses informations.*\n- *Nos données sont collectées.*\n\n## Lytte til fransk\n\n- Hør på **nyheter** tilpasset språkelever, som **RFI** sin *Journal en français facile* eller **TV5Monde**.\n- Lytt etter **nøkkelord** og **tall** – ikke hvert ord.\n- Legg merke til **binding** (*liaison*): *les_amis* uttales «lez-ami».\n- Se serier med **fransk teksting**.\n\n## Å presentere\n\n*Aujourd'hui, je vais vous parler de …* – I dag skal jeg snakke om …\n*D'abord …, ensuite …, enfin …*\n*Pour conclure, …* – For å konkludere …",
   "flashcards": [
-    { "term": "les réseaux sociaux", "def": "sosiale medier" },
-    { "term": "le portable", "def": "mobilen" },
-    { "term": "le temps d'écran", "def": "skjermtiden" },
-    { "term": "partager", "def": "dele" },
-    { "term": "l'intelligence artificielle (IA)", "def": "kunstig intelligens" },
-    { "term": "la protection des données", "def": "personvernet" },
-    { "term": "être accro", "def": "være hekta, avhengig" },
-    { "term": "le RGPD", "def": "den franske betegnelsen på GDPR" },
-    { "term": "en écoutant", "def": "mens man hører (gérondif)" },
-    { "term": "On apprend en parlant.", "def": "Man lærer ved å snakke." },
-    { "term": "étant / ayant", "def": "participe présent av être / avoir" },
-    { "term": "les avantages / les inconvénients", "def": "fordelene / ulempene" },
-    { "term": "la liaison", "def": "binding mellom ord i uttale: les_amis" },
-    { "term": "Je vais vous parler de …", "def": "Jeg skal snakke om …" },
-    { "term": "Pour conclure, …", "def": "For å konkludere …" }
+    {
+      "term": "les réseaux sociaux",
+      "def": "sosiale medier"
+    },
+    {
+      "term": "le portable",
+      "def": "mobilen"
+    },
+    {
+      "term": "le temps d'écran",
+      "def": "skjermtiden"
+    },
+    {
+      "term": "partager",
+      "def": "dele"
+    },
+    {
+      "term": "l'intelligence artificielle (IA)",
+      "def": "kunstig intelligens"
+    },
+    {
+      "term": "la protection des données",
+      "def": "personvernet"
+    },
+    {
+      "term": "être accro",
+      "def": "være hekta, avhengig"
+    },
+    {
+      "term": "le RGPD",
+      "def": "den franske betegnelsen på GDPR"
+    },
+    {
+      "term": "en écoutant",
+      "def": "mens man hører (gérondif)"
+    },
+    {
+      "term": "On apprend en parlant.",
+      "def": "Man lærer ved å snakke."
+    },
+    {
+      "term": "étant / ayant",
+      "def": "participe présent av être / avoir"
+    },
+    {
+      "term": "les avantages / les inconvénients",
+      "def": "fordelene / ulempene"
+    },
+    {
+      "term": "la liaison",
+      "def": "binding mellom ord i uttale: les_amis"
+    },
+    {
+      "term": "Je vais vous parler de …",
+      "def": "Jeg skal snakke om …"
+    },
+    {
+      "term": "Pour conclure, …",
+      "def": "For å konkludere …"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr «les réseaux sociaux»?", "options": ["nettverkskablene", "sosiale medier", "sosialarbeiderne", "vennegruppene"], "correct": 1, "explain": "réseau = nettverk." },
-    { "id": "q02", "text": "Hvordan dannes gérondif?", "options": ["en + participe présent", "avoir + partisipp", "être + infinitiv", "que + subjonctif"], "correct": 0, "explain": "en écoutant, en faisant." },
-    { "id": "q03", "text": "Hva er participe présent av «faire»?", "options": ["fait", "faisait", "faisant", "ferant"], "correct": 2, "explain": "nous faisons → faisant." },
-    { "id": "q04", "text": "Hva innførte Frankrike i 2018?", "options": ["Gratis mobil til alle elever", "Forbud mot sosiale medier", "Obligatorisk programmering", "Forbud mot mobil i barneskolen og collège"], "correct": 3, "explain": "Også i friminuttene." },
-    { "id": "q05", "text": "Hva betyr «On apprend une langue en parlant»?", "options": ["Man lærer et språk ved å snakke.", "Man snakker et språk man har lært.", "Man lærer å snakke.", "Man snakker mens man lærer matte."], "correct": 0, "explain": "Gérondif uttrykker måte." },
-    { "id": "q06", "text": "Hva er participe présent av «être»?", "options": ["étant", "êtant", "soyant", "été"], "correct": 0, "explain": "être er uregelmessig." },
-    { "id": "q07", "text": "Hva betyr «être accro»?", "options": ["være sint", "være trøtt", "være hekta", "være borte"], "correct": 2, "explain": "accro au portable = mobilavhengig." },
-    { "id": "q08", "text": "Hva er en god strategi når du lytter til franske nyheter?", "options": ["Forstå hvert ord", "Lese transkripsjonen først alltid", "Aldri bruke teksting", "Lytte etter nøkkelord og tall"], "correct": 3, "explain": "Hovedinnholdet er viktigst." },
-    { "id": "q09", "text": "Hva betyr «les inconvénients»?", "options": ["ulempene", "fordelene", "løsningene", "bekvemmelighetene"], "correct": 0, "explain": "les avantages = fordelene." },
-    { "id": "q10", "text": "Hvordan sier du «Jeg gjør lekser mens jeg hører på musikk»?", "options": ["Je fais mes devoirs et écouter de la musique.", "Je fais mes devoirs en écoutant de la musique.", "Je fais mes devoirs pour écouter de la musique.", "J'écoute mes devoirs en musique."], "correct": 1, "explain": "Gérondif uttrykker samtidighet." }
+    {
+      "id": "q01",
+      "text": "Hva betyr «les réseaux sociaux»?",
+      "options": [
+        "nettverkskablene",
+        "sosiale medier",
+        "sosialarbeiderne",
+        "vennegruppene"
+      ],
+      "correct": 1,
+      "explain": "réseau = nettverk."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan dannes gérondif?",
+      "options": [
+        "en + participe présent",
+        "avoir + partisipp",
+        "être + infinitiv",
+        "que + subjonctif"
+      ],
+      "correct": 0,
+      "explain": "en écoutant, en faisant."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er participe présent av «faire»?",
+      "options": [
+        "fait",
+        "faisait",
+        "faisant",
+        "ferant"
+      ],
+      "correct": 2,
+      "explain": "nous faisons → faisant."
+    },
+    {
+      "id": "q04",
+      "text": "Hva innførte Frankrike i 2018?",
+      "options": [
+        "Gratis mobil til alle elever",
+        "Forbud mot sosiale medier",
+        "Obligatorisk programmering",
+        "Forbud mot mobil i barneskolen og collège"
+      ],
+      "correct": 3,
+      "explain": "Også i friminuttene."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr «On apprend une langue en parlant»?",
+      "options": [
+        "Man lærer et språk ved å snakke.",
+        "Man snakker et språk man har lært.",
+        "Man lærer å snakke.",
+        "Man snakker mens man lærer matte."
+      ],
+      "correct": 0,
+      "explain": "Gérondif uttrykker måte."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er participe présent av «être»?",
+      "options": [
+        "étant",
+        "êtant",
+        "soyant",
+        "été"
+      ],
+      "correct": 0,
+      "explain": "être er uregelmessig."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr «être accro»?",
+      "options": [
+        "være sint",
+        "være trøtt",
+        "være hekta",
+        "være borte"
+      ],
+      "correct": 2,
+      "explain": "accro au portable = mobilavhengig."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en god strategi når du lytter til franske nyheter?",
+      "options": [
+        "Forstå hvert ord",
+        "Lese transkripsjonen først alltid",
+        "Aldri bruke teksting",
+        "Lytte etter nøkkelord og tall"
+      ],
+      "correct": 3,
+      "explain": "Hovedinnholdet er viktigst."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «les inconvénients»?",
+      "options": [
+        "ulempene",
+        "fordelene",
+        "løsningene",
+        "bekvemmelighetene"
+      ],
+      "correct": 0,
+      "explain": "les avantages = fordelene."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan sier du «Jeg gjør lekser mens jeg hører på musikk»?",
+      "options": [
+        "Je fais mes devoirs et écouter de la musique.",
+        "Je fais mes devoirs en écoutant de la musique.",
+        "Je fais mes devoirs pour écouter de la musique.",
+        "J'écoute mes devoirs en musique."
+      ],
+      "correct": 1,
+      "explain": "Gérondif uttrykker samtidighet."
+    }
   ],
   "mindmap": {
     "label": "Teknologi og digitalt liv",
     "children": [
-      { "label": "Ord", "children": [
-        { "label": "réseaux sociaux" },
-        { "label": "temps d'écran" },
-        { "label": "IA" },
-        { "label": "protection des données" }
-      ] },
-      { "label": "Frankrike", "children": [
-        { "label": "Mobilforbud 2018" },
-        { "label": "RGPD" }
-      ] },
-      { "label": "Gérondif", "children": [
-        { "label": "en + -ant" },
-        { "label": "Samtidighet" },
-        { "label": "Måte" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "avantages" },
-        { "label": "inconvénients" }
-      ] },
-      { "label": "Lytte og presentere", "children": [
-        { "label": "RFI og TV5Monde" },
-        { "label": "Liaison" },
-        { "label": "Pour conclure" }
-      ] }
+      {
+        "label": "Ord",
+        "children": [
+          {
+            "label": "réseaux sociaux"
+          },
+          {
+            "label": "temps d'écran"
+          },
+          {
+            "label": "IA"
+          },
+          {
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "label": "Frankrike",
+        "children": [
+          {
+            "label": "Mobilforbud 2018"
+          },
+          {
+            "label": "RGPD"
+          }
+        ]
+      },
+      {
+        "label": "Gérondif",
+        "children": [
+          {
+            "label": "en + -ant"
+          },
+          {
+            "label": "Samtidighet"
+          },
+          {
+            "label": "Måte"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "avantages"
+          },
+          {
+            "label": "inconvénients"
+          }
+        ]
+      },
+      {
+        "label": "Lytte og presentere",
+        "children": [
+          {
+            "label": "RFI og TV5Monde"
+          },
+          {
+            "label": "Liaison"
+          },
+          {
+            "label": "Pour conclure"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Participe présent lages vanligvis av nous-formen i presens.", "correct": true, "explain": "nous regardons → regardant." },
-      { "id": "m02", "type": "sant-usant", "text": "Gérondif lages med «à» + infinitiv.", "correct": false, "explain": "Gérondif er en + participe présent." },
-      { "id": "m03", "type": "sant-usant", "text": "RFI har nyheter på lett fransk.", "correct": true, "explain": "Journal en français facile." },
-      { "id": "m04", "type": "sant-usant", "text": "«partager» betyr å slette.", "correct": false, "explain": "partager betyr å dele." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er participe présent av «avoir»?", "options": ["avant", "ayant", "eu", "avoyant"], "correct": 1, "explain": "avoir er uregelmessig." },
-      { "id": "m06", "type": "flervalg", "text": "Hvordan innleder du en presentasjon på fransk?", "options": ["Aujourd'hui, je vais vous parler de …", "Pour conclure, …", "Enfin, …", "Au revoir, …"], "correct": 0, "explain": "Deretter kan du bruke d'abord, ensuite, enfin." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er «la liaison»?", "options": ["en kjærlighetshistorie", "et bindeord i grammatikken", "binding mellom ord i uttale", "et lenke på nett"], "correct": 2, "explain": "les_amis uttales «lez-ami»." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Participe présent lages vanligvis av nous-formen i presens.",
+        "correct": true,
+        "explain": "nous regardons → regardant."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Gérondif lages med «à» + infinitiv.",
+        "correct": false,
+        "explain": "Gérondif er en + participe présent."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "RFI har nyheter på lett fransk.",
+        "correct": true,
+        "explain": "Journal en français facile."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«partager» betyr å slette.",
+        "correct": false,
+        "explain": "partager betyr å dele."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er participe présent av «avoir»?",
+        "options": [
+          "avant",
+          "ayant",
+          "eu",
+          "avoyant"
+        ],
+        "correct": 1,
+        "explain": "avoir er uregelmessig."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvordan innleder du en presentasjon på fransk?",
+        "options": [
+          "Aujourd'hui, je vais vous parler de …",
+          "Pour conclure, …",
+          "Enfin, …",
+          "Au revoir, …"
+        ],
+        "correct": 0,
+        "explain": "Deretter kan du bruke d'abord, ensuite, enfin."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er «la liaison»?",
+        "options": [
+          "en kjærlighetshistorie",
+          "et bindeord i grammatikken",
+          "binding mellom ord i uttale",
+          "et lenke på nett"
+        ],
+        "correct": 2,
+        "explain": "les_amis uttales «lez-ami»."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Expliquez le lien entre « la protection des données » et le RGPD. Que désigne le RGPD en français ?",
+        "fasit": "La protection des données concerne le respect de la vie privée. Le RGPD est le Règlement général sur la protection des données.",
+        "kriterier": [
+          "Forklarer at databeskyttelse handler om personvern.",
+          "Forklarer at RGPD er den franske betegnelsen for personvernforordningen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Une élève utilise les réseaux sociaux pour rester en contact avec ses amis. Donnez un avantage de cette situation et un inconvénient possible de la vie numérique.",
+        "fasit": "Elle peut rester en contact avec ses amis. Mais il y a beaucoup de fausses informations, par exemple.",
+        "kriterier": [
+          "Nevner at sosiale medier kan gjøre det mulig å holde kontakt med venner.",
+          "Nevner en relevant ulempe, som falske nyheter, innsamling av data eller for mye skjermtid."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Comparez deux façons d’écouter ou de regarder du français : les informations adaptées aux apprenants, comme le Journal en français facile, et les séries avec des sous-titres français. Qu’est-ce qui les distingue ?",
+        "fasit": "Le Journal en français facile est un programme d’informations adapté aux apprenants. Avec une série, on regarde une histoire avec des sous-titres en français.",
+        "kriterier": [
+          "Forklarer at nyhetene er tilpasset språkelever.",
+          "Forklarer at serier kan ses med fransk teksting."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Dans « Je fais mes devoirs en écoutant de la musique » et « On apprend une langue en parlant », quelle fonction le gérondif exprime-t-il dans chaque phrase ?",
+        "fasit": "« En écoutant » exprime la simultanéité : on écoute de la musique pendant qu’on fait ses devoirs. « En parlant » exprime la manière : on apprend une langue par la parole.",
+        "kriterier": [
+          "Identifiserer « en écoutant » som samtidighet.",
+          "Identifiserer « en parlant » som måte eller middel."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Pourquoi « ayant » est-il la forme correcte du participe présent de « avoir », plutôt qu’une forme construite simplement à partir de « nous avons » ?",
+        "fasit": "« Avoir » a une forme irrégulière au participe présent : « ayant ». On ne forme donc pas cette forme en ajoutant simplement « -ant » à « avons ».",
+        "kriterier": [
+          "Slår fast at « avoir » har en uregelmessig participe présent-form.",
+          "Oppgir den korrekte formen « ayant »."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Tu fais une présentation sur les avantages et les inconvénients du portable. Écris une phrase pour commencer avec « Je vais vous parler de … » et une phrase pour conclure avec « Pour conclure, … ».",
+        "fasit": "Je vais vous parler des avantages et des inconvénients du portable. Pour conclure, le portable a des avantages et des inconvénients.",
+        "kriterier": [
+          "Bruker « Je vais vous parler de … » som innledning til temaet.",
+          "Bruker « Pour conclure, … » som avslutning på temaet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Expliquez ce qu’est la liaison en français et illustrez votre explication avec « les amis ».",
+        "fasit": "La liaison est un lien entre des mots dans la prononciation. Dans « les amis », on entend le son « z » entre les deux mots : « lez-ami ».",
+        "kriterier": [
+          "Forklarer at liaison er en lydforbindelse mellom ord i uttalen.",
+          "Bruker « les amis » og viser til z-lyden mellom ordene."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Expliquez la différence entre « le temps d’écran » et « être accro » au portable.",
+        "fasit": "Le temps d’écran désigne le temps passé devant un écran. Être accro au portable signifie en être dépendant ou très attaché.",
+        "kriterier": [
+          "Forklarer at skjermtid handler om hvor mye tid man bruker foran en skjerm.",
+          "Forklarer at « être accro » betyr å være avhengig eller hekta."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

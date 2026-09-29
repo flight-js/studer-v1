@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Kontinuitet",
   "intro": "Når en funksjon er kontinuerlig eller diskontinuerlig i et punkt, delt definerte funksjoner, hvordan du bestemmer en parameter som gjør funksjonen kontinuerlig, skjæringssetningen og eksempler på nyttige diskontinuerlige funksjoner.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Intuitivt\n\nEn funksjon er **kontinuerlig** i et intervall hvis du kan tegne grafen **uten å løfte blyanten**. Et **sprang** eller et **hull** i grafen gir en **diskontinuitet**.\n\n## Presis definisjon\n\nf er kontinuerlig i x = a hvis tre krav er oppfylt:\n\n1. **f(a) er definert.**\n2. **lim ₓ→ₐ f(x) eksisterer** – venstre og høyre grenseverdi er like.\n3. **lim ₓ→ₐ f(x) = f(a).**\n\nSvikter ett av kravene, er f **diskontinuerlig** i a.\n\n## Kontinuerlige funksjoner\n\n**Polynomfunksjoner**, **eksponentialfunksjoner** og **logaritmefunksjoner** er kontinuerlige i hele definisjonsmengden sin. En **rasjonal funksjon** er også kontinuerlig overalt der den er **definert**. f(x) = 1/x er altså kontinuerlig i sin definisjonsmengde, men har et brudd i grafen i x = 0, der den ikke er definert.\n\nSummer, produkter og sammensetninger av kontinuerlige funksjoner er kontinuerlige.\n\n## Delt definerte funksjoner\n\nDet er i **skjøten** mellom delene at du må sjekke kontinuiteten.\n\n**Eksempel 1**: f(x) = x + 1 for x < 2 og f(x) = x² for x ≥ 2.\n\n- Venstre grense: 2 + 1 = 3\n- Høyre grense: 2² = 4\n\nGrensene er ulike, så f er **diskontinuerlig** i x = 2. Grafen har et **sprang**.\n\n**Eksempel 2 – bestemme en parameter**: f(x) = x² for x ≤ 2 og f(x) = ax − 2 for x > 2. For at f skal være kontinuerlig, må de to delene møtes:\n\n2² = a · 2 − 2 → 4 = 2a − 2 → **a = 3**\n\n## Kontinuitet og deriverbarhet\n\nEn funksjon som er **deriverbar** i et punkt, er også **kontinuerlig** der. Det motsatte gjelder ikke: f(x) = |x| er kontinuerlig i 0, men har en **knekk** og er ikke deriverbar der.\n\n## Skjæringssetningen\n\nHvis f er **kontinuerlig** på [a, b] og f(a) og f(b) har **motsatt fortegn**, har f **minst ett nullpunkt** mellom a og b.\n\nDette er grunnlaget for **halveringsmetoden**: Du halverer intervallet gang på gang og beholder den halvdelen der fortegnet skifter. Slik kan en datamaskin finne nullpunkter med ønsket nøyaktighet.\n\n**Eksempel**: f(x) = x³ + x − 1 gir f(0) = −1 og f(1) = 1. Siden f er kontinuerlig, har den et nullpunkt mellom 0 og 1.\n\n## Nyttige diskontinuerlige funksjoner\n\nMange situasjoner i hverdagen beskrives best med **sprang**:\n\n- **Parkeringsavgift** per påbegynt time: Prisen hopper når en ny time begynner.\n- **Porto** som avhenger av vektklasser.\n- **Trinnskatt**: Skattesatsen for hver ekstra krone hopper når inntekten passerer et trinn.\n- **Avrunding** til nærmeste hele tall.\n- **Av/på-funksjoner** i fysikk og teknologi, som strøm som slås på ved et bestemt tidspunkt.\n\nI slike modeller er det viktig å vite hvilken verdi funksjonen har **i selve spranget** – for eksempel om 60 minutter koster én eller to timer.",
   "flashcards": [
-    { "term": "Kontinuerlig (intuitivt)", "def": "Grafen kan tegnes uten å løfte blyanten." },
-    { "term": "Krav 1 for kontinuitet i a", "def": "f(a) er definert." },
-    { "term": "Krav 2 for kontinuitet i a", "def": "lim ₓ→ₐ f(x) eksisterer." },
-    { "term": "Krav 3 for kontinuitet i a", "def": "lim ₓ→ₐ f(x) = f(a)." },
-    { "term": "Diskontinuitet", "def": "Et punkt der minst ett av kravene svikter." },
-    { "term": "Sprang", "def": "Venstre og høyre grenseverdi er ulike." },
-    { "term": "Delt definert funksjon", "def": "Funksjon med ulike uttrykk på ulike intervaller." },
-    { "term": "Skjøt", "def": "Punktet der delene i en delt funksjon møtes." },
-    { "term": "Kontinuerlige funksjonstyper", "def": "Polynomer, eksponential- og logaritmefunksjoner i sin definisjonsmengde." },
-    { "term": "Deriverbar ⇒ kontinuerlig", "def": "Gjelder alltid, men ikke omvendt." },
-    { "term": "|x| i x = 0", "def": "Kontinuerlig, men ikke deriverbar (knekk)." },
-    { "term": "Skjæringssetningen", "def": "Kontinuerlig f med fortegnsskifte på [a, b] har et nullpunkt der." },
-    { "term": "Halveringsmetoden", "def": "Numerisk metode som halverer intervallet med fortegnsskifte." },
-    { "term": "Parkeringsavgift per påbegynt time", "def": "Eksempel på en diskontinuerlig funksjon." },
-    { "term": "Trinnskatt", "def": "Skattesatsen for ekstra inntekt hopper ved hvert trinn." }
+    {
+      "term": "Kontinuerlig (intuitivt)",
+      "def": "Grafen kan tegnes uten å løfte blyanten."
+    },
+    {
+      "term": "Krav 1 for kontinuitet i a",
+      "def": "f(a) er definert."
+    },
+    {
+      "term": "Krav 2 for kontinuitet i a",
+      "def": "lim ₓ→ₐ f(x) eksisterer."
+    },
+    {
+      "term": "Krav 3 for kontinuitet i a",
+      "def": "lim ₓ→ₐ f(x) = f(a)."
+    },
+    {
+      "term": "Diskontinuitet",
+      "def": "Et punkt der minst ett av kravene svikter."
+    },
+    {
+      "term": "Sprang",
+      "def": "Venstre og høyre grenseverdi er ulike."
+    },
+    {
+      "term": "Delt definert funksjon",
+      "def": "Funksjon med ulike uttrykk på ulike intervaller."
+    },
+    {
+      "term": "Skjøt",
+      "def": "Punktet der delene i en delt funksjon møtes."
+    },
+    {
+      "term": "Kontinuerlige funksjonstyper",
+      "def": "Polynomer, eksponential- og logaritmefunksjoner i sin definisjonsmengde."
+    },
+    {
+      "term": "Deriverbar ⇒ kontinuerlig",
+      "def": "Gjelder alltid, men ikke omvendt."
+    },
+    {
+      "term": "|x| i x = 0",
+      "def": "Kontinuerlig, men ikke deriverbar (knekk)."
+    },
+    {
+      "term": "Skjæringssetningen",
+      "def": "Kontinuerlig f med fortegnsskifte på [a, b] har et nullpunkt der."
+    },
+    {
+      "term": "Halveringsmetoden",
+      "def": "Numerisk metode som halverer intervallet med fortegnsskifte."
+    },
+    {
+      "term": "Parkeringsavgift per påbegynt time",
+      "def": "Eksempel på en diskontinuerlig funksjon."
+    },
+    {
+      "term": "Trinnskatt",
+      "def": "Skattesatsen for ekstra inntekt hopper ved hvert trinn."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "f(x) = x + 1 for x < 2 og x² for x ≥ 2. Er f kontinuerlig i x = 2?", "options": ["Ja, fordi f(2) er definert", "Nei, venstre grense er 3 og høyre grense er 4", "Ja, fordi begge deler er polynomer", "Nei, fordi f(2) ikke er definert"], "correct": 1, "explain": "Grafen har et sprang." },
-    { "id": "q02", "text": "f(x) = x² for x ≤ 2 og ax − 2 for x > 2. Hvilken a gjør f kontinuerlig?", "options": ["a = 3", "a = 2", "a = 1", "a = 4"], "correct": 0, "explain": "4 = 2a − 2." },
-    { "id": "q03", "text": "Hvilken funksjon er kontinuerlig, men ikke deriverbar i x = 0?", "options": ["f(x) = x²", "f(x) = 1/x", "f(x) = |x|", "f(x) = eˣ"], "correct": 2, "explain": "Grafen har en knekk." },
-    { "id": "q04", "text": "Hva sier skjæringssetningen?", "options": ["Alle funksjoner har nullpunkter", "En deriverbar funksjon er kontinuerlig", "Grenseverdier er alltid definert", "En kontinuerlig funksjon med fortegnsskifte på [a, b] har et nullpunkt der"], "correct": 3, "explain": "Grunnlaget for halveringsmetoden." },
-    { "id": "q05", "text": "Hvilket av disse er et eksempel på en diskontinuerlig funksjon i hverdagen?", "options": ["Parkeringsavgift per påbegynt time", "Temperaturen gjennom et døgn", "Høyden til en voksende plante", "Posisjonen til en bil"], "correct": 0, "explain": "Prisen hopper ved hver ny time." },
-    { "id": "q06", "text": "Hvilke tre krav må være oppfylt for at f skal være kontinuerlig i a?", "options": ["f(a) = 0, f′(a) = 0 og f″(a) = 0", "f(a) definert, lim ₓ→ₐ f(x) finnes og lim ₓ→ₐ f(x) = f(a)", "f er et polynom", "f er voksende rundt a"], "correct": 1, "explain": "Alle tre må gjelde." },
-    { "id": "q07", "text": "f(x) = x³ + x − 1. Hva kan du slutte av at f(0) = −1 og f(1) = 1?", "options": ["At f har et toppunkt", "At f ikke har nullpunkter", "At f har et nullpunkt mellom 0 og 1", "At f(0,5) = 0"], "correct": 2, "explain": "f er kontinuerlig og skifter fortegn." },
-    { "id": "q08", "text": "Er f(x) = 1/x kontinuerlig i definisjonsmengden sin?", "options": ["Nei, den er aldri kontinuerlig", "Bare for x > 0", "Nei, den har sprang overalt", "Ja, men den er ikke definert i x = 0"], "correct": 3, "explain": "Bruddet ligger utenfor definisjonsmengden." },
-    { "id": "q09", "text": "Hva gjelder alltid?", "options": ["Deriverbar i a ⇒ kontinuerlig i a", "Kontinuerlig i a ⇒ deriverbar i a", "Kontinuerlig ⇒ voksende", "Diskontinuerlig ⇒ deriverbar"], "correct": 0, "explain": "Det motsatte gjelder ikke." },
-    { "id": "q10", "text": "Hvor må du sjekke kontinuiteten til en delt definert funksjon?", "options": ["Bare i x = 0", "I skjøtene mellom delene", "Der funksjonen er størst", "Ingen steder"], "correct": 1, "explain": "Hver del er ofte kontinuerlig for seg." }
+    {
+      "id": "q01",
+      "text": "f(x) = x + 1 for x < 2 og x² for x ≥ 2. Er f kontinuerlig i x = 2?",
+      "options": [
+        "Ja, fordi f(2) er definert",
+        "Nei, venstre grense er 3 og høyre grense er 4",
+        "Ja, fordi begge deler er polynomer",
+        "Nei, fordi f(2) ikke er definert"
+      ],
+      "correct": 1,
+      "explain": "Grafen har et sprang."
+    },
+    {
+      "id": "q02",
+      "text": "f(x) = x² for x ≤ 2 og ax − 2 for x > 2. Hvilken a gjør f kontinuerlig?",
+      "options": [
+        "a = 3",
+        "a = 2",
+        "a = 1",
+        "a = 4"
+      ],
+      "correct": 0,
+      "explain": "4 = 2a − 2."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken funksjon er kontinuerlig, men ikke deriverbar i x = 0?",
+      "options": [
+        "f(x) = x²",
+        "f(x) = 1/x",
+        "f(x) = |x|",
+        "f(x) = eˣ"
+      ],
+      "correct": 2,
+      "explain": "Grafen har en knekk."
+    },
+    {
+      "id": "q04",
+      "text": "Hva sier skjæringssetningen?",
+      "options": [
+        "Alle funksjoner har nullpunkter",
+        "En deriverbar funksjon er kontinuerlig",
+        "Grenseverdier er alltid definert",
+        "En kontinuerlig funksjon med fortegnsskifte på [a, b] har et nullpunkt der"
+      ],
+      "correct": 3,
+      "explain": "Grunnlaget for halveringsmetoden."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket av disse er et eksempel på en diskontinuerlig funksjon i hverdagen?",
+      "options": [
+        "Parkeringsavgift per påbegynt time",
+        "Temperaturen gjennom et døgn",
+        "Høyden til en voksende plante",
+        "Posisjonen til en bil"
+      ],
+      "correct": 0,
+      "explain": "Prisen hopper ved hver ny time."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilke tre krav må være oppfylt for at f skal være kontinuerlig i a?",
+      "options": [
+        "f(a) = 0, f′(a) = 0 og f″(a) = 0",
+        "f(a) definert, lim ₓ→ₐ f(x) finnes og lim ₓ→ₐ f(x) = f(a)",
+        "f er et polynom",
+        "f er voksende rundt a"
+      ],
+      "correct": 1,
+      "explain": "Alle tre må gjelde."
+    },
+    {
+      "id": "q07",
+      "text": "f(x) = x³ + x − 1. Hva kan du slutte av at f(0) = −1 og f(1) = 1?",
+      "options": [
+        "At f har et toppunkt",
+        "At f ikke har nullpunkter",
+        "At f har et nullpunkt mellom 0 og 1",
+        "At f(0,5) = 0"
+      ],
+      "correct": 2,
+      "explain": "f er kontinuerlig og skifter fortegn."
+    },
+    {
+      "id": "q08",
+      "text": "Er f(x) = 1/x kontinuerlig i definisjonsmengden sin?",
+      "options": [
+        "Nei, den er aldri kontinuerlig",
+        "Bare for x > 0",
+        "Nei, den har sprang overalt",
+        "Ja, men den er ikke definert i x = 0"
+      ],
+      "correct": 3,
+      "explain": "Bruddet ligger utenfor definisjonsmengden."
+    },
+    {
+      "id": "q09",
+      "text": "Hva gjelder alltid?",
+      "options": [
+        "Deriverbar i a ⇒ kontinuerlig i a",
+        "Kontinuerlig i a ⇒ deriverbar i a",
+        "Kontinuerlig ⇒ voksende",
+        "Diskontinuerlig ⇒ deriverbar"
+      ],
+      "correct": 0,
+      "explain": "Det motsatte gjelder ikke."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor må du sjekke kontinuiteten til en delt definert funksjon?",
+      "options": [
+        "Bare i x = 0",
+        "I skjøtene mellom delene",
+        "Der funksjonen er størst",
+        "Ingen steder"
+      ],
+      "correct": 1,
+      "explain": "Hver del er ofte kontinuerlig for seg."
+    }
   ],
   "mindmap": {
     "label": "Kontinuitet",
     "children": [
-      { "label": "Definisjon", "children": [
-        { "label": "f(a) definert" },
-        { "label": "Grenseverdien finnes" },
-        { "label": "lim = f(a)" }
-      ] },
-      { "label": "Funksjonstyper", "children": [
-        { "label": "Polynomer" },
-        { "label": "Eksponential og logaritme" },
-        { "label": "Rasjonale i Df" }
-      ] },
-      { "label": "Delt definerte", "children": [
-        { "label": "Sjekk skjøten" },
-        { "label": "Bestem parameter" }
-      ] },
-      { "label": "Sammenhenger", "children": [
-        { "label": "Deriverbar ⇒ kontinuerlig" },
-        { "label": "|x| har knekk" },
-        { "label": "Skjæringssetningen" }
-      ] },
-      { "label": "Anvendelser", "children": [
-        { "label": "Parkering og porto" },
-        { "label": "Trinnskatt" },
-        { "label": "Halveringsmetoden" }
-      ] }
+      {
+        "label": "Definisjon",
+        "children": [
+          {
+            "label": "f(a) definert"
+          },
+          {
+            "label": "Grenseverdien finnes"
+          },
+          {
+            "label": "lim = f(a)"
+          }
+        ]
+      },
+      {
+        "label": "Funksjonstyper",
+        "children": [
+          {
+            "label": "Polynomer"
+          },
+          {
+            "label": "Eksponential og logaritme"
+          },
+          {
+            "label": "Rasjonale i Df"
+          }
+        ]
+      },
+      {
+        "label": "Delt definerte",
+        "children": [
+          {
+            "label": "Sjekk skjøten"
+          },
+          {
+            "label": "Bestem parameter"
+          }
+        ]
+      },
+      {
+        "label": "Sammenhenger",
+        "children": [
+          {
+            "label": "Deriverbar ⇒ kontinuerlig"
+          },
+          {
+            "label": "|x| har knekk"
+          },
+          {
+            "label": "Skjæringssetningen"
+          }
+        ]
+      },
+      {
+        "label": "Anvendelser",
+        "children": [
+          {
+            "label": "Parkering og porto"
+          },
+          {
+            "label": "Trinnskatt"
+          },
+          {
+            "label": "Halveringsmetoden"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Alle polynomfunksjoner er kontinuerlige.", "correct": true, "explain": "Overalt på tallinjen." },
-      { "id": "m02", "type": "sant-usant", "text": "En kontinuerlig funksjon er alltid deriverbar.", "correct": false, "explain": "|x| er et moteksempel." },
-      { "id": "m03", "type": "sant-usant", "text": "Halveringsmetoden bygger på skjæringssetningen.", "correct": true, "explain": "Den beholder intervallet med fortegnsskifte." },
-      { "id": "m04", "type": "sant-usant", "text": "Hvis venstre og høyre grenseverdi er ulike, er funksjonen kontinuerlig.", "correct": false, "explain": "Da har grafen et sprang." },
-      { "id": "m05", "type": "flervalg", "text": "f(x) = 2x for x < 1 og x + k for x ≥ 1. Hvilken k gjør f kontinuerlig?", "options": ["k = 2", "k = 1", "k = 0", "k = −1"], "correct": 1, "explain": "2 · 1 = 1 + k." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken funksjon er diskontinuerlig i x = 0?", "options": ["f(x) = 1 for x < 0 og f(x) = 2 for x ≥ 0", "f(x) = x²", "f(x) = |x|", "f(x) = eˣ"], "correct": 0, "explain": "Grafen hopper fra 1 til 2." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor er kontinuitet viktig for skjæringssetningen?", "options": ["Fordi alle funksjoner er kontinuerlige", "Fordi den bare gjelder polynomer", "Fordi en funksjon med sprang kan skifte fortegn uten å ha nullpunkt", "Fordi den krever deriverbarhet"], "correct": 2, "explain": "Grafen kan «hoppe over» x-aksen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Alle polynomfunksjoner er kontinuerlige.",
+        "correct": true,
+        "explain": "Overalt på tallinjen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En kontinuerlig funksjon er alltid deriverbar.",
+        "correct": false,
+        "explain": "|x| er et moteksempel."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Halveringsmetoden bygger på skjæringssetningen.",
+        "correct": true,
+        "explain": "Den beholder intervallet med fortegnsskifte."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Hvis venstre og høyre grenseverdi er ulike, er funksjonen kontinuerlig.",
+        "correct": false,
+        "explain": "Da har grafen et sprang."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "f(x) = 2x for x < 1 og x + k for x ≥ 1. Hvilken k gjør f kontinuerlig?",
+        "options": [
+          "k = 2",
+          "k = 1",
+          "k = 0",
+          "k = −1"
+        ],
+        "correct": 1,
+        "explain": "2 · 1 = 1 + k."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken funksjon er diskontinuerlig i x = 0?",
+        "options": [
+          "f(x) = 1 for x < 0 og f(x) = 2 for x ≥ 0",
+          "f(x) = x²",
+          "f(x) = |x|",
+          "f(x) = eˣ"
+        ],
+        "correct": 0,
+        "explain": "Grafen hopper fra 1 til 2."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor er kontinuitet viktig for skjæringssetningen?",
+        "options": [
+          "Fordi alle funksjoner er kontinuerlige",
+          "Fordi den bare gjelder polynomer",
+          "Fordi en funksjon med sprang kan skifte fortegn uten å ha nullpunkt",
+          "Fordi den krever deriverbarhet"
+        ],
+        "correct": 2,
+        "explain": "Grafen kan «hoppe over» x-aksen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar med egne ord hva det betyr at en graf er kontinuerlig i et intervall, og hva et hull eller sprang betyr for kontinuiteten.",
+        "fasit": "Grafen er kontinuerlig hvis den kan tegnes uten å løfte blyanten. Et hull eller sprang betyr at funksjonen er diskontinuerlig et sted.",
+        "kriterier": [
+          "Forklarer kontinuitet intuitivt som en graf uten brudd.",
+          "Knytter hull eller sprang til diskontinuitet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign kontinuitet og deriverbarhet i ett punkt. Bruk f(x) = |x| i x = 0 som eksempel.",
+        "fasit": "En funksjon som er deriverbar i et punkt, er alltid kontinuerlig der, men en kontinuerlig funksjon trenger ikke være deriverbar. f(x) = |x| er kontinuerlig i 0, men har en knekk og er ikke deriverbar der.",
+        "kriterier": [
+          "Får fram at deriverbarhet medfører kontinuitet, men ikke omvendt.",
+          "Bruker |x| i 0 som eksempel på kontinuitet uten deriverbarhet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En parkeringsavgift beregnes per påbegynt time. Forklar hvorfor avgiften kan beskrives av en diskontinuerlig funksjon, og hvorfor det er viktig å vite hva som gjelder akkurat når 60 minutter har gått.",
+        "fasit": "Når en ny time begynner, hopper avgiften opp, så funksjonen får et sprang. Det må derfor være tydelig om 60 minutter regnes som én eller to påbegynte timer.",
+        "kriterier": [
+          "Forklarer at avgiften hopper når en ny time begynner.",
+          "Viser at verdien ved selve tidsgrensen må avklares."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "La f(x) = x² + 1. Regn ut f(3), og forklar om f er kontinuerlig i x = 3.",
+        "fasit": "f(3) = 3² + 1 = 10. Siden f er en polynomfunksjon, er den kontinuerlig i hele definisjonsmengden sin, også i x = 3.",
+        "kriterier": [
+          "Regner riktig ut at f(3) = 10.",
+          "Begrunner kontinuiteten med at f er en polynomfunksjon."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En funksjon er kontinuerlig på [0, 2], og f(0) < 0 og f(2) > 0. Halveringsmetoden brukes. Du får vite at f(1) < 0 og f(1,5) > 0. Hvilket intervall beholdes etter to halveringer, og hvor bredt er det? Vis de viktigste stegene.",
+        "fasit": "Først beholdes [1, 2], fordi f(1) og f(2) har motsatt fortegn. Deretter beholdes [1, 1,5], og bredden er 1,5 − 1 = 0,5.",
+        "kriterier": [
+          "Finner riktig intervall etter første halvering, [1, 2].",
+          "Finner [1, 1,5] og regner ut bredden 0,5."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En funksjon har motsatt fortegn i endepunktene til et intervall, men det er ikke oppgitt om funksjonen er kontinuerlig der. Hva kan du konkludere om et nullpunkt ut fra skjæringssetningen? Forklar.",
+        "fasit": "Skjæringssetningen kan ikke brukes til å garantere et nullpunkt, fordi funksjonen må være kontinuerlig på intervallet. Fortegnsskifte i endepunktene alene er ikke nok til å trekke den konklusjonen.",
+        "kriterier": [
+          "Nevner at kontinuitet på hele intervallet er et krav i skjæringssetningen.",
+          "Konkluderer at fortegnsskifte alene ikke garanterer et nullpunkt."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En rasjonal funksjon er ikke definert i x = a. Forklar hva dette betyr for kontinuiteten i x = a, selv om funksjonen er kontinuerlig der den ellers er definert.",
+        "fasit": "Funksjonen er diskontinuerlig i x = a fordi f(a) ikke er definert. At den er kontinuerlig andre steder i definisjonsmengden, endrer ikke dette.",
+        "kriterier": [
+          "Slår fast at funksjonen er diskontinuerlig i x = a.",
+          "Begrunner det med at f(a) ikke er definert."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "La f og g være kontinuerlige funksjoner. Hva kan du si om funksjonene f + g, fg og f(g(x))?",
+        "fasit": "Summen f + g og produktet fg er kontinuerlige. Sammensetningen f(g(x)) er også kontinuerlig.",
+        "kriterier": [
+          "Får med at summen og produktet av kontinuerlige funksjoner er kontinuerlige.",
+          "Får med at sammensetningen også er kontinuerlig."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

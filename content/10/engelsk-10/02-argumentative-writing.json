@@ -347,6 +347,80 @@
         "correct": 0,
         "explain": "For example: “It is time for schools to act.”"
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "In your own words, explain what makes an essay argumentative.",
+        "fasit": "An argumentative essay takes a position on an issue and supports it with arguments and evidence to convince the reader.",
+        "kriterier": [
+          "Sier at essayet tar standpunkt i en sak.",
+          "Forklarer at standpunktet støttes med argumenter og bevis for å overbevise leseren."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Compare the purpose of a hook with the purpose of a topic sentence.",
+        "fasit": "A hook catches the reader’s interest at the start of an essay. A topic sentence states the main point of a paragraph.",
+        "kriterier": [
+          "Forklarer at en hook skal fange leserens interesse.",
+          "Forklarer at en topic sentence forteller hva avsnittet handler om."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "In PEEL, evidence and explanation are different parts. Explain what each one does in a body paragraph.",
+        "fasit": "Evidence gives facts, examples, statistics or quotes to support a point. The explanation shows why that evidence supports the writer’s view.",
+        "kriterier": [
+          "Beskriver evidence som støtte for et poeng, for eksempel fakta eller eksempler.",
+          "Forklarer at explanation viser hvordan beviset støtter synspunktet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "A body paragraph states a point and gives evidence, but does not explain the connection between them. What should the writer add, and why?",
+        "fasit": "The writer should add an explanation of how the evidence supports the point. This helps the reader understand why the evidence matters to the argument.",
+        "kriterier": [
+          "Foreslår å forklare sammenhengen mellom beviset og poenget.",
+          "Viser at forklaringen gjør det tydeligere hvorfor beviset støtter argumentet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Name two forms that evidence can take in an argumentative essay, and explain how evidence helps an argument.",
+        "fasit": "Evidence can be facts and examples. It supports a point and makes the argument stronger.",
+        "kriterier": [
+          "Nevner to gyldige former for evidence, som fakta, eksempler, statistikk eller sitater.",
+          "Forklarer at evidence støtter et poeng eller gjør argumentet sterkere."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Explain the difference between a counterargument and a refutation.",
+        "fasit": "A counterargument presents an opposing view fairly. A refutation responds to that view and shows why it is wrong or weaker.",
+        "kriterier": [
+          "Forklarer at en counterargument presenterer et motsatt syn.",
+          "Forklarer at en refutation svarer på synet og viser hvorfor det er feil eller svakere."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A writer adds another supporting point and then explains a result caused by an earlier point. Which linking word fits each purpose: “moreover” or “therefore”? Explain your choices.",
+        "fasit": "“Moreover” fits when the writer adds another supporting point. “Therefore” fits when the writer shows a result or consequence.",
+        "kriterier": [
+          "Knytter moreover til å legge til et poeng.",
+          "Knytter therefore til resultat eller følge."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "What is a call to action, and what is its purpose at the end of an argumentative essay?",
+        "fasit": "A call to action is an ending that encourages the reader to do or think something. It gives the reader a clear final prompt.",
+        "kriterier": [
+          "Forklarer at en call to action oppfordrer leseren til å gjøre eller tenke noe.",
+          "Knytter den til avslutningen av essayet."
+        ]
+      }
     ]
   },
   "kvalitet": {

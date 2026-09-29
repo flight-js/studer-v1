@@ -361,7 +361,84 @@
         "correct": 0,
         "explain": "Sterke verb har ofte ingen ending i presens på nynorsk: eg skriv."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på hovedmål og sidemål. Ta også med hva alle elever skal lære fra 8. trinn.",
+        "fasit": "Hovedmålet er skriftspråket du bruker mest, og sidemålet er det andre skriftspråket. Fra 8. trinn skal alle lære å skrive både bokmål og nynorsk.",
+        "kriterier": [
+          "Forklarer at hovedmålet er skriftspråket man bruker mest, og sidemålet er det andre.",
+          "Får fram at alle skal lære å skrive både bokmål og nynorsk fra 8. trinn."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Mange nynorske ord ligner på bokmålsord, men noen småord og bøyningsendinger skiller seg ut. Forklar hvorfor det er nyttig å lære nettopp disse formene.",
+        "fasit": "Småord og bøyningsendinger er blant forskjellene man ofte møter. Når man lærer dem, har man kommet langt i å skrive nynorsk.",
+        "kriterier": [
+          "Får fram at småord og bøyningsendinger er viktige kjennetegn som skiller nynorsk fra bokmål.",
+          "Forklarer at det å lære disse formene hjelper en godt på vei med nynorsken."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev blander «dei» og «dykk». Forklar forskjellen på hvem pronomenene viser til, og hvilken form «dykk» er.",
+        "fasit": "«Dei» viser til personer i tredje person flertall. «Dykk» er objektsformen av «de» i andre person flertall, altså bokmålsformen «dere».",
+        "kriterier": [
+          "Forklarer at «dei» viser til tredje person flertall.",
+          "Forklarer at «dykk» er objektsform i andre person flertall."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Skriv substantivene «gut», «jente» og «hus» på nynorsk i ubestemt form, hver med riktig artikkel. Forklar hva artiklene viser.",
+        "fasit": "Det heter ein gut, ei jente og eit hus. Artiklene viser hankjønn, hokjønn og inkjekjønn.",
+        "kriterier": [
+          "Bruker riktig artikkel til alle tre substantivene.",
+          "Knytter ein, ei og eit til henholdsvis hankjønn, hokjønn og inkjekjønn."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En elev skriver «Eg likar å kasta ball og å lese». Skriv setningen på nytt med konsekvent infinitivform, og forklar hva du endret.",
+        "fasit": "Eg likar å kasta ball og å lesa. Jeg endret «å lese» til «å lesa», slik at begge infinitivene har a-infinitiv.",
+        "kriterier": [
+          "Skriver begge infinitivene konsekvent med samme type infinitiv, enten e-infinitiv eller a-infinitiv.",
+          "Forklarer at infinitivformene må være konsekvente i teksten."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hva som kjennetegner sterke verb, og bruk «å skrive» som eksempel ved å vise bøyningen.",
+        "fasit": "Sterke verb skifter vokal når de bøyes. «Å skrive» bøyes skriv – skreiv – har skrive.",
+        "kriterier": [
+          "Forklarer at sterke verb skifter vokal.",
+          "Gir riktig bøyning av «å skrive»."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du er usikker på om et ord er riktig skrevet på nynorsk, og retteprogrammet foreslår en endring. Beskriv to ting du kan gjøre for å kontrollere teksten.",
+        "fasit": "Jeg kan slå opp ordet i en nynorsk ordbok, for eksempel Nynorskordboka. Jeg kan også bruke nynorsk retteprogram og lese over selv.",
+        "kriterier": [
+          "Nevner å slå opp i en nynorsk ordbok eller å bruke nynorsk retteprogram.",
+          "Får fram at man bør lese over selv, også når man bruker retteprogram."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En elev skal skrive «hjemme», «spørre» og «kjærlighet» på nynorsk. Skriv nynorskformene, og forklar hvorfor det kan være lurt å lære slike egne former.",
+        "fasit": "Formene er heime, spørje og kjærleik. Det er nyttig å lære dem fordi noen ord har egne nynorske former og ikke bør oversettes ord for ord fra bokmål.",
+        "kriterier": [
+          "Gir de nynorske formene heime, spørje og kjærleik.",
+          "Forklarer at noen ord har egne nynorske former, så ord-for-ord-oversettelse fra bokmål kan bli feil."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

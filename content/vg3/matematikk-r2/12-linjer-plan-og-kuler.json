@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Linjer, plan og kuler i rommet",
   "intro": "Parameterframstilling av linjer, likningen for et plan med normalvektor, plan gjennom tre punkter, skjæringspunkter, vinkler og avstander mellom punkter, linjer og plan, og likningen for en kuleflate med tangentplan.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Linjer\n\nEn linje gjennom punktet P(x₀, y₀, z₀) med **retningsvektor** r = [a, b, c] har **parameterframstillingen**\n\n**x = x₀ + at, y = y₀ + bt, z = z₀ + ct**\n\nHver verdi av t gir ett punkt på linjen. I rommet kan to linjer være **parallelle**, **skjære** hverandre eller være **vindskjeve** – verken parallelle eller skjærende.\n\n## Plan\n\nEt plan bestemmes av et punkt P(x₀, y₀, z₀) og en **normalvektor** n = [a, b, c] som står vinkelrett på planet:\n\n**a(x − x₀) + b(y − y₀) + c(z − z₀) = 0**\n\nsom kan skrives **ax + by + cz + d = 0**. Koeffisientene foran x, y og z er normalvektoren.\n\n**Plan gjennom tre punkter** A, B og C: Normalvektoren er **n = AB × AC**. Sett inn ett av punktene for å finne d.\n\n## Skjæring\n\n- **Linje og plan**: Sett parameterframstillingen inn i planlikningen, løs for t og finn punktet.\n- **To plan**: Skjærer hverandre i en **linje** med retningsvektor **n₁ × n₂**, hvis de ikke er parallelle.\n- **To linjer**: Sett koordinatene like og løs for de to parameterne. Går det ikke, er linjene vindskjeve eller parallelle.\n\n## Vinkler\n\n- Mellom to **linjer**: vinkelen mellom retningsvektorene.\n- Mellom to **plan**: vinkelen mellom normalvektorene.\n- Mellom en **linje** og et **plan**: 90° minus vinkelen mellom retningsvektoren og normalvektoren.\n\n## Avstander\n\n**Punkt og plan**: Avstanden fra Q(x₁, y₁, z₁) til planet ax + by + cz + d = 0 er\n\n**|ax₁ + by₁ + cz₁ + d| / √(a² + b² + c²)**\n\n**Eksempel**: Fra (1, 2, 3) til 2x − y + 2z − 3 = 0:\n\n|2 − 2 + 6 − 3| / √(4 + 1 + 4) = 3/3 = **1**\n\n**Punkt og linje**: Avstanden er |PQ × r| / |r|, der P er et punkt på linjen og r er retningsvektoren.\n\n## Kuler\n\nEn **kuleflate** med sentrum S(x₀, y₀, z₀) og radius r har likningen\n\n**(x − x₀)² + (y − y₀)² + (z − z₀)² = r²**\n\nEr likningen skrevet ut, bruker du **fullstendige kvadrater**:\n\nx² + y² + z² − 2x + 4y − 4 = 0\n(x − 1)² + (y + 2)² + z² = 4 + 1 + 4 = 9\n\nSentrum er **(1, −2, 0)** og radius **3**.\n\n## Kuler, linjer og plan\n\n- Et **tangentplan** i punktet T på kuleflaten har normalvektor **ST** – radien står vinkelrett på tangentplanet.\n- Et plan **skjærer** kulen når avstanden fra sentrum til planet er **mindre** enn radien. Skjæringen er en **sirkel**.\n- En linje kan skjære kuleflaten i **to**, **ett** eller **ingen** punkter. Sett parameterframstillingen inn i kulelikningen og løs andregradslikningen i t.\n\n## Anvendelser\n\nLinjer, plan og kuler brukes i **arkitektur**, **3D-modellering**, **robotikk** og **GPS** – der mottakeren finner posisjonen som skjæringen mellom flere kuleflater med satellittene i sentrum.",
   "flashcards": [
-    { "term": "Parameterframstilling av linje", "def": "x = x₀ + at, y = y₀ + bt, z = z₀ + ct" },
-    { "term": "Retningsvektor", "def": "Vektor som angir retningen til en linje." },
-    { "term": "Vindskjeve linjer", "def": "Linjer som verken er parallelle eller skjærer hverandre." },
-    { "term": "Normalvektor", "def": "Vektor som står vinkelrett på et plan." },
-    { "term": "Planlikning", "def": "ax + by + cz + d = 0 med n = [a, b, c]." },
-    { "term": "Plan gjennom tre punkter", "def": "n = AB × AC" },
-    { "term": "Skjæring linje–plan", "def": "Sett parameterframstillingen inn i planlikningen." },
-    { "term": "Skjæringslinje mellom plan", "def": "Retningsvektor n₁ × n₂." },
-    { "term": "Vinkel mellom plan", "def": "Vinkelen mellom normalvektorene." },
-    { "term": "Avstand punkt–plan", "def": "|ax₁ + by₁ + cz₁ + d| / √(a² + b² + c²)" },
-    { "term": "Avstand punkt–linje", "def": "|PQ × r| / |r|" },
-    { "term": "Kulelikning", "def": "(x − x₀)² + (y − y₀)² + (z − z₀)² = r²" },
-    { "term": "Fullstendige kvadrater", "def": "Brukes for å finne sentrum og radius." },
-    { "term": "Tangentplan til kule", "def": "Har radien ST som normalvektor." },
-    { "term": "Plan som skjærer kule", "def": "Avstanden fra sentrum er mindre enn radien – skjæringen er en sirkel." }
+    {
+      "term": "Parameterframstilling av linje",
+      "def": "x = x₀ + at, y = y₀ + bt, z = z₀ + ct"
+    },
+    {
+      "term": "Retningsvektor",
+      "def": "Vektor som angir retningen til en linje."
+    },
+    {
+      "term": "Vindskjeve linjer",
+      "def": "Linjer som verken er parallelle eller skjærer hverandre."
+    },
+    {
+      "term": "Normalvektor",
+      "def": "Vektor som står vinkelrett på et plan."
+    },
+    {
+      "term": "Planlikning",
+      "def": "ax + by + cz + d = 0 med n = [a, b, c]."
+    },
+    {
+      "term": "Plan gjennom tre punkter",
+      "def": "n = AB × AC"
+    },
+    {
+      "term": "Skjæring linje–plan",
+      "def": "Sett parameterframstillingen inn i planlikningen."
+    },
+    {
+      "term": "Skjæringslinje mellom plan",
+      "def": "Retningsvektor n₁ × n₂."
+    },
+    {
+      "term": "Vinkel mellom plan",
+      "def": "Vinkelen mellom normalvektorene."
+    },
+    {
+      "term": "Avstand punkt–plan",
+      "def": "|ax₁ + by₁ + cz₁ + d| / √(a² + b² + c²)"
+    },
+    {
+      "term": "Avstand punkt–linje",
+      "def": "|PQ × r| / |r|"
+    },
+    {
+      "term": "Kulelikning",
+      "def": "(x − x₀)² + (y − y₀)² + (z − z₀)² = r²"
+    },
+    {
+      "term": "Fullstendige kvadrater",
+      "def": "Brukes for å finne sentrum og radius."
+    },
+    {
+      "term": "Tangentplan til kule",
+      "def": "Har radien ST som normalvektor."
+    },
+    {
+      "term": "Plan som skjærer kule",
+      "def": "Avstanden fra sentrum er mindre enn radien – skjæringen er en sirkel."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er normalvektoren til planet 2x − y + 3z − 5 = 0?", "options": ["[2, 1, 3]", "[2, −1, 3]", "[−5, 2, 3]", "[1, 1, 1]"], "correct": 1, "explain": "Koeffisientene foran x, y og z." },
-    { "id": "q02", "text": "Hvordan finner du normalvektoren til et plan gjennom A, B og C?", "options": ["n = AB × AC", "n = AB · AC", "n = AB + AC", "n = A + B + C"], "correct": 0, "explain": "Vektorproduktet står vinkelrett på begge." },
-    { "id": "q03", "text": "Hva er avstanden fra (1, 2, 3) til planet 2x − y + 2z − 3 = 0?", "options": ["3", "9", "1", "0"], "correct": 2, "explain": "|2 − 2 + 6 − 3| / 3." },
-    { "id": "q04", "text": "Hva er vindskjeve linjer?", "options": ["Linjer som skjærer hverandre", "Parallelle linjer", "Linjer i samme plan", "Linjer som verken er parallelle eller skjærer hverandre"], "correct": 3, "explain": "Bare mulig i rommet." },
-    { "id": "q05", "text": "Hva er sentrum og radius til x² + y² + z² − 2x + 4y − 4 = 0?", "options": ["(1, −2, 0) og 3", "(−1, 2, 0) og 3", "(1, −2, 0) og 9", "(2, −4, 0) og 4"], "correct": 0, "explain": "(x − 1)² + (y + 2)² + z² = 9." },
-    { "id": "q06", "text": "Hvordan finner du vinkelen mellom to plan?", "options": ["Vinkelen mellom to punkter", "Vinkelen mellom normalvektorene", "Summen av d-verdiene", "Alltid 90°"], "correct": 1, "explain": "Normalvektorene bestemmer planets helning." },
-    { "id": "q07", "text": "Hvilken retningsvektor har skjæringslinjen mellom to plan?", "options": ["n₁ + n₂", "n₁ · n₂", "n₁ × n₂", "n₁ − n₂"], "correct": 2, "explain": "Den står vinkelrett på begge normalvektorene." },
-    { "id": "q08", "text": "Hvilken normalvektor har tangentplanet i punktet T på en kule med sentrum S?", "options": ["[1, 0, 0]", "Retningsvektoren til x-aksen", "Summen av S og T", "ST"], "correct": 3, "explain": "Radien står vinkelrett på tangentplanet." },
-    { "id": "q09", "text": "Når skjærer et plan en kule?", "options": ["Når avstanden fra sentrum til planet er mindre enn radien", "Alltid", "Når planet går gjennom origo", "Når d = 0"], "correct": 0, "explain": "Skjæringen er en sirkel." },
-    { "id": "q10", "text": "Hvordan finner du skjæringspunktet mellom en linje og et plan?", "options": ["Ta vektorproduktet", "Sett parameterframstillingen inn i planlikningen og løs for t", "Finn avstanden", "Legg sammen likningene"], "correct": 1, "explain": "t gir punktet." }
+    {
+      "id": "q01",
+      "text": "Hva er normalvektoren til planet 2x − y + 3z − 5 = 0?",
+      "options": [
+        "[2, 1, 3]",
+        "[2, −1, 3]",
+        "[−5, 2, 3]",
+        "[1, 1, 1]"
+      ],
+      "correct": 1,
+      "explain": "Koeffisientene foran x, y og z."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan finner du normalvektoren til et plan gjennom A, B og C?",
+      "options": [
+        "n = AB × AC",
+        "n = AB · AC",
+        "n = AB + AC",
+        "n = A + B + C"
+      ],
+      "correct": 0,
+      "explain": "Vektorproduktet står vinkelrett på begge."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er avstanden fra (1, 2, 3) til planet 2x − y + 2z − 3 = 0?",
+      "options": [
+        "3",
+        "9",
+        "1",
+        "0"
+      ],
+      "correct": 2,
+      "explain": "|2 − 2 + 6 − 3| / 3."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er vindskjeve linjer?",
+      "options": [
+        "Linjer som skjærer hverandre",
+        "Parallelle linjer",
+        "Linjer i samme plan",
+        "Linjer som verken er parallelle eller skjærer hverandre"
+      ],
+      "correct": 3,
+      "explain": "Bare mulig i rommet."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er sentrum og radius til x² + y² + z² − 2x + 4y − 4 = 0?",
+      "options": [
+        "(1, −2, 0) og 3",
+        "(−1, 2, 0) og 3",
+        "(1, −2, 0) og 9",
+        "(2, −4, 0) og 4"
+      ],
+      "correct": 0,
+      "explain": "(x − 1)² + (y + 2)² + z² = 9."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan finner du vinkelen mellom to plan?",
+      "options": [
+        "Vinkelen mellom to punkter",
+        "Vinkelen mellom normalvektorene",
+        "Summen av d-verdiene",
+        "Alltid 90°"
+      ],
+      "correct": 1,
+      "explain": "Normalvektorene bestemmer planets helning."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken retningsvektor har skjæringslinjen mellom to plan?",
+      "options": [
+        "n₁ + n₂",
+        "n₁ · n₂",
+        "n₁ × n₂",
+        "n₁ − n₂"
+      ],
+      "correct": 2,
+      "explain": "Den står vinkelrett på begge normalvektorene."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken normalvektor har tangentplanet i punktet T på en kule med sentrum S?",
+      "options": [
+        "[1, 0, 0]",
+        "Retningsvektoren til x-aksen",
+        "Summen av S og T",
+        "ST"
+      ],
+      "correct": 3,
+      "explain": "Radien står vinkelrett på tangentplanet."
+    },
+    {
+      "id": "q09",
+      "text": "Når skjærer et plan en kule?",
+      "options": [
+        "Når avstanden fra sentrum til planet er mindre enn radien",
+        "Alltid",
+        "Når planet går gjennom origo",
+        "Når d = 0"
+      ],
+      "correct": 0,
+      "explain": "Skjæringen er en sirkel."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan finner du skjæringspunktet mellom en linje og et plan?",
+      "options": [
+        "Ta vektorproduktet",
+        "Sett parameterframstillingen inn i planlikningen og løs for t",
+        "Finn avstanden",
+        "Legg sammen likningene"
+      ],
+      "correct": 1,
+      "explain": "t gir punktet."
+    }
   ],
   "mindmap": {
     "label": "Linjer, plan og kuler",
     "children": [
-      { "label": "Linjer", "children": [
-        { "label": "Parameterframstilling" },
-        { "label": "Vindskjeve linjer" }
-      ] },
-      { "label": "Plan", "children": [
-        { "label": "Normalvektor" },
-        { "label": "Tre punkter: AB × AC" }
-      ] },
-      { "label": "Skjæring og vinkler", "children": [
-        { "label": "Linje og plan" },
-        { "label": "To plan" },
-        { "label": "Vinkler via vektorer" }
-      ] },
-      { "label": "Avstander", "children": [
-        { "label": "Punkt–plan" },
-        { "label": "Punkt–linje" }
-      ] },
-      { "label": "Kuler", "children": [
-        { "label": "Fullstendige kvadrater" },
-        { "label": "Tangentplan" },
-        { "label": "GPS" }
-      ] }
+      {
+        "label": "Linjer",
+        "children": [
+          {
+            "label": "Parameterframstilling"
+          },
+          {
+            "label": "Vindskjeve linjer"
+          }
+        ]
+      },
+      {
+        "label": "Plan",
+        "children": [
+          {
+            "label": "Normalvektor"
+          },
+          {
+            "label": "Tre punkter: AB × AC"
+          }
+        ]
+      },
+      {
+        "label": "Skjæring og vinkler",
+        "children": [
+          {
+            "label": "Linje og plan"
+          },
+          {
+            "label": "To plan"
+          },
+          {
+            "label": "Vinkler via vektorer"
+          }
+        ]
+      },
+      {
+        "label": "Avstander",
+        "children": [
+          {
+            "label": "Punkt–plan"
+          },
+          {
+            "label": "Punkt–linje"
+          }
+        ]
+      },
+      {
+        "label": "Kuler",
+        "children": [
+          {
+            "label": "Fullstendige kvadrater"
+          },
+          {
+            "label": "Tangentplan"
+          },
+          {
+            "label": "GPS"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "To plan som ikke er parallelle, skjærer hverandre i en linje.", "correct": true, "explain": "Med retningsvektor n₁ × n₂." },
-      { "id": "m02", "type": "sant-usant", "text": "En linje og en kuleflate kan ha tre skjæringspunkter.", "correct": false, "explain": "Andregradslikningen gir høyst to." },
-      { "id": "m03", "type": "sant-usant", "text": "GPS bruker skjæringen mellom kuleflater.", "correct": true, "explain": "Satellittene er sentrum." },
-      { "id": "m04", "type": "sant-usant", "text": "Normalvektoren til et plan ligger i planet.", "correct": false, "explain": "Den står vinkelrett på planet." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er kulelikningen med sentrum (0, 1, −2) og radius 4?", "options": ["x² + (y − 1)² + (z + 2)² = 4", "x² + (y − 1)² + (z + 2)² = 16", "x² + (y + 1)² + (z − 2)² = 16", "x² + y² + z² = 16"], "correct": 1, "explain": "r² = 16." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket punkt ligger på linjen x = 1 + 2t, y = 3 − t, z = t?", "options": ["(3, 2, 1)", "(3, 4, 1)", "(1, 3, 1)", "(2, 2, 2)"], "correct": 0, "explain": "t = 1." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er vinkelen mellom en linje og et plan?", "options": ["Vinkelen mellom retningsvektor og normalvektor", "Alltid 0°", "90° minus vinkelen mellom retningsvektor og normalvektor", "Summen av vinklene"], "correct": 2, "explain": "Normalvektoren står vinkelrett på planet." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "To plan som ikke er parallelle, skjærer hverandre i en linje.",
+        "correct": true,
+        "explain": "Med retningsvektor n₁ × n₂."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En linje og en kuleflate kan ha tre skjæringspunkter.",
+        "correct": false,
+        "explain": "Andregradslikningen gir høyst to."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "GPS bruker skjæringen mellom kuleflater.",
+        "correct": true,
+        "explain": "Satellittene er sentrum."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Normalvektoren til et plan ligger i planet.",
+        "correct": false,
+        "explain": "Den står vinkelrett på planet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er kulelikningen med sentrum (0, 1, −2) og radius 4?",
+        "options": [
+          "x² + (y − 1)² + (z + 2)² = 4",
+          "x² + (y − 1)² + (z + 2)² = 16",
+          "x² + (y + 1)² + (z − 2)² = 16",
+          "x² + y² + z² = 16"
+        ],
+        "correct": 1,
+        "explain": "r² = 16."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket punkt ligger på linjen x = 1 + 2t, y = 3 − t, z = t?",
+        "options": [
+          "(3, 2, 1)",
+          "(3, 4, 1)",
+          "(1, 3, 1)",
+          "(2, 2, 2)"
+        ],
+        "correct": 0,
+        "explain": "t = 1."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er vinkelen mellom en linje og et plan?",
+        "options": [
+          "Vinkelen mellom retningsvektor og normalvektor",
+          "Alltid 0°",
+          "90° minus vinkelen mellom retningsvektor og normalvektor",
+          "Summen av vinklene"
+        ],
+        "correct": 2,
+        "explain": "Normalvektoren står vinkelrett på planet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva parameteren t og retningsvektoren betyr i parameterframstillingen x = x₀ + at, y = y₀ + bt, z = z₀ + ct for en linje.",
+        "fasit": "Når t varierer, får vi ulike punkter på linjen. Retningsvektoren [a, b, c] angir hvilken retning linjen går i, og hvordan koordinatene endres når t øker.",
+        "kriterier": [
+          "Forklarer at ulike t-verdier gir punkter på linjen.",
+          "Forklarer at retningsvektoren angir linjens retning eller koordinatendringene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En linje har parameterframstillingen x = 1 + t, y = 2 − t, z = t. Finn skjæringspunktet mellom linjen og planet x + y + z = 5.",
+        "fasit": "Setter vi inn linjens koordinater, får vi (1 + t) + (2 − t) + t = 5, altså t = 2. Skjæringspunktet er (3, 0, 2).",
+        "kriterier": [
+          "Setter linjens koordinater inn i planlikningen og finner t = 2.",
+          "Oppgir skjæringspunktet (3, 0, 2)."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar sammenhengen mellom vinkelen en linje danner med et plan, og vinkelen mellom linjens retningsvektor og planets normalvektor.",
+        "fasit": "Normalvektoren står vinkelrett på planet. Derfor er den spisse vinkelen mellom linjen og planet 90° minus vinkelen mellom retningsvektoren og normalvektoren.",
+        "kriterier": [
+          "Får fram at normalvektoren står vinkelrett på planet.",
+          "Forklarer at vinklene er komplementære, slik at vinkelen med planet er 90° minus vinkelen med normalen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Skriv likningen x² + y² + z² + 6x − 2y − 6 = 0 på kuleform, og finn kulens sentrum og radius.",
+        "fasit": "Ved å fullføre kvadratene får vi (x + 3)² + (y − 1)² + z² = 16. Sentrum er (−3, 1, 0), og radius er 4.",
+        "kriterier": [
+          "Skriver kulelikningen på formen (x + 3)² + (y − 1)² + z² = 16.",
+          "Finner sentrum (−3, 1, 0) og radius 4."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En kule har sentrum (0, 0, 0) og radius 5, og et plan har likningen z = 3. Avgjør om planet skjærer kuleflaten, og beskriv skjæringen.",
+        "fasit": "Avstanden fra sentrum til planet z = 3 er 3, som er mindre enn radiusen 5. Planet skjærer derfor kuleflaten i en sirkel.",
+        "kriterier": [
+          "Sammenligner avstanden fra sentrum til planet med radiusen og får fram at avstanden er mindre enn 5.",
+          "Konkluderer med at skjæringen er en sirkel."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En kule har sentrum S = (1, 0, 2), og T = (3, 1, 2) ligger på kuleflaten. Finn en normalvektor til tangentplanet i T, og begrunn svaret.",
+        "fasit": "Vektoren ST = (3 − 1, 1 − 0, 2 − 2) = (2, 1, 0) er en normalvektor til tangentplanet. Radien ST står vinkelrett på tangentplanet.",
+        "kriterier": [
+          "Finner vektoren ST = (2, 1, 0).",
+          "Begrunner at radien fra sentrum til berøringspunktet står vinkelrett på tangentplanet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "GPS-mottakeren finner posisjonen sin ved hjelp av avstander til satellitter. Forklar hvordan kuleflater kan brukes til å finne posisjonen.",
+        "fasit": "Hver avstand til en satellitt bestemmer en kuleflate med satellitten i sentrum. Mottakerens posisjon ligger der flere slike kuleflater skjærer hverandre.",
+        "kriterier": [
+          "Knytter hver satellittavstand til en kuleflate med satellitten som sentrum.",
+          "Forklarer at posisjonen bestemmes av skjæringen mellom flere kuleflater."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Kuleflaten har likningen x² + y² + z² = 4, og en linje har parameterframstillingen x = t, y = 0, z = 0. Finn skjæringspunktene mellom linjen og kuleflaten.",
+        "fasit": "Innsetting gir t² = 4, så t = −2 eller t = 2. Skjæringspunktene er (−2, 0, 0) og (2, 0, 0).",
+        "kriterier": [
+          "Setter linjens koordinater inn i kulelikningen og får t² = 4.",
+          "Oppgir begge skjæringspunktene (−2, 0, 0) og (2, 0, 0)."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

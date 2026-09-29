@@ -340,6 +340,80 @@
         "correct": 0,
         "explain": "En prognose er en forutsigelse av framtiden, for eksempel befolkningstall om ti år, laget med en modell."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Når du forenkler en virkelig situasjon for å lage en matematisk modell, hva bestemmer du da, og hvorfor kan det være nyttig?",
+        "fasit": "Du bestemmer hvilke forhold som skal tas med, og hvilke du ser bort fra. Det gjør situasjonen enklere å beskrive matematisk, men modellen tar da ikke hensyn til alt i virkeligheten.",
+        "kriterier": [
+          "Forklarer at forenkling handler om å velge hva som tas med og hva som utelates.",
+          "Forklarer at dette gjør situasjonen enklere å modellere, samtidig som noe fra virkeligheten ikke blir med."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Du har regnet ut et svar med en modell, men vurderingen viser at svaret ikke virker rimelig i situasjonen. Hva kan du gjøre videre i modelleringsprosessen, og hvorfor?",
+        "fasit": "Jeg kan gå tilbake og undersøke forutsetningene eller modellen, og eventuelt endre dem. Deretter kan jeg regne på nytt og vurdere svaret igjen.",
+        "kriterier": [
+          "Beskriver at man bør undersøke eller endre forutsetninger eller modell.",
+          "Forklarer at man kan gå gjennom stegene på nytt og vurdere det nye svaret."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign en situasjon der noe øker med like mange hver gang, med en situasjon der det øker med samme prosent hver gang. Hvilken funksjonstype passer til hver situasjon?",
+        "fasit": "Når økningen er like stor i antall hver gang, passer en lineær modell. Når økningen er den samme i prosent hver gang, passer en eksponentiell modell.",
+        "kriterier": [
+          "Knytter lik endring i antall til en lineær modell.",
+          "Knytter lik endring i prosent til en eksponentiell modell."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En størrelse øker med 5 % på ett år. Finn vekstfaktoren for dette året som desimaltall, og vis det viktigste regnestykket.",
+        "fasit": "Vekstfaktoren er 1,05. Regnestykket er 100 % + 5 % = 105 % = 1,05.",
+        "kriterier": [
+          "Finner vekstfaktoren 1,05.",
+          "Viser at vekstfaktoren kommer av 100 % pluss 5 %, gjort om til desimaltall."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En modell for høyden til et barn bygger på målinger fra 2 til 10 års alder. Hvilken alder ligger midt mellom disse aldersgrensene, og hva kalles det når modellen brukes der?",
+        "fasit": "Alderen midt mellom grensene er 6 år, siden (2 + 10) / 2 = 6. Å bruke modellen mellom målepunktene kalles å interpolere.",
+        "kriterier": [
+          "Finner 6 år og viser eller beskriver beregningen fra 2 og 10.",
+          "Kaller bruk mellom målepunktene interpolering."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En matematisk modell for strømforbruk gir et beregnet tall. Forklar hva du må gjøre for å tolke tallet i den virkelige situasjonen.",
+        "fasit": "Jeg må forklare hva tallet betyr for strømforbruket i situasjonen, ikke bare oppgi tallet. Det innebærer å knytte det matematiske svaret tilbake til det modellen beskriver.",
+        "kriterier": [
+          "Knytter tallet til strømforbruket i situasjonen.",
+          "Forklarer at tolkning handler om å oversette det matematiske svaret til hva det betyr i virkeligheten."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En prognose endrer seg mye når du endrer en forutsetning litt. Hva forteller det om prognosen, og hva bør du nevne når du presenterer den?",
+        "fasit": "Det tyder på at prognosen er følsom for forutsetningen, og at resultatet kan være usikkert. Når jeg presenterer den, bør jeg forklare hvilken forutsetning den bygger på, og at resultatet påvirkes av den.",
+        "kriterier": [
+          "Forklarer at store endringer i resultatet viser at prognosen er følsom for forutsetningen.",
+          "Nevner at forutsetningen og usikkerheten bør komme fram i presentasjonen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En værmelding bruker en matematisk modell til å si noe om været framover. Forklar hvorfor værmeldingen er en prognose, og hvorfor den ikke er et sikkert faktum.",
+        "fasit": "Værmeldingen er en prognose fordi den bruker en modell til å forutsi hva som kan skje. Modellen er en forenkling av virkeligheten og bygger på forutsetninger, så den kan ikke garantere utfallet.",
+        "kriterier": [
+          "Forklarer at en prognose er en forutsigelse basert på en modell.",
+          "Forklarer at modellen ikke garanterer utfallet, for eksempel fordi den er forenklet eller bygger på forutsetninger."
+        ]
+      }
     ]
   },
   "kvalitet": {

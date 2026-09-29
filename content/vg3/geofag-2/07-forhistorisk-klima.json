@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Forhistorisk klima",
   "intro": "Hvordan forskere rekonstruerer forhistorisk klima med iskjerner, sedimentkjerner, årringer, pollen og isotoper, hva vi vet om istider, mellomistider, Milanković-syklusene og brå klimaendringer – og hvordan paleoklima brukes til å teste modeller og lage prognoser for framtidens klima.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Hva er paleoklima?\n\n**Paleoklimatologi** er forskning på klimaet før vi hadde **direkte målinger**. Regelmessige temperaturmålinger finnes bare fra omtrent **1850**. For å se lenger tilbake bruker forskerne **klimaarkiver** – naturlige spor som gjemmer informasjon om tidligere klima. Slike spor kalles **proksydata**.\n\n## Klimaarkiver\n\n- **Iskjerner**: Borekjerner fra **Antarktis** og **Grønland** består av snø som har samlet seg lag på lag. Små **luftbobler** i isen inneholder atmosfære fra fortiden, og vi kan måle **CO₂** og **metan** direkte. Iskjernene fra Antarktis går omtrent **800 000 år** tilbake.\n- **Isotoper**: Forholdet mellom **tunge** og **lette** oksygenisotoper i is og i skall fra havorganismer forteller om **temperatur** og **ismengde**.\n- **Sedimentkjerner** fra havbunnen og innsjøer inneholder skall, pollen og partikler som viser klimaet gjennom **millioner** av år.\n- **Pollen** forteller hvilke **planter** som vokste – og dermed om temperatur og nedbør.\n- **Årringer** i trær viser vekstforholdene år for år.\n- **Koraller**, **drypsteiner** og **breavsetninger** som **morener** er også viktige arkiver.\n\nDataene må **dateres**, for eksempel ved å telle **årlag** eller med **radioaktive** metoder.\n\n## Istider og mellomistider\n\nDe siste omtrent **2,6 millioner** årene har jorda vekslet mellom kalde **istider** og varmere **mellomistider**. Vi lever nå i en mellomistid – **holocen** – som begynte for omtrent **11 700** år siden. Under siste istid var Norge dekket av en tykk **innlandsis**, og havnivået var over **100 meter** lavere enn i dag.\n\n## Milanković-syklusene\n\nVekslingen styres av **Milanković-syklusene** – regelmessige endringer i jordbanen:\n\n- **Eksentrisitet**: hvor elliptisk banen er – omtrent **100 000** år\n- **Helning** av jordaksen – omtrent **41 000** år\n- **Presesjon**: hvilken retning jordaksen peker – omtrent **23 000** år\n\nEndringene påvirker **hvor** og **når** sollyset treffer jorda, særlig om sommeren på høye nordlige breddegrader. Iskjernene viser at **CO₂** og **temperatur** har fulgt hverandre tett: Tilbakekoblinger fra CO₂, is og hav **forsterket** de små endringene i solinnstrålingen.\n\n## Brå endringer og varme perioder\n\n- Klimaet har noen ganger endret seg **brått** – på tiår – for eksempel ved slutten av siste istid.\n- For omtrent **56 millioner** år siden steg temperaturen kraftig på kort geologisk tid da store mengder karbon ble sluppet ut. Perioden gir innsikt i hva som skjer ved rask **karbonutslipp**.\n- I nyere tid hadde vi **middelalderens varmeperiode** og **den lille istid**, men disse var mer **regionale** og mindre enn dagens globale oppvarming.\n\n## Paleoklima og framtiden\n\nForhistorisk klima brukes til å\n\n- **teste** klimamodeller: Klarer modellen å gjenskape istider og varme perioder?\n- anslå **klimafølsomheten** – hvor mye temperaturen stiger ved en **dobling** av CO₂\n- forstå **tilbakekoblinger** og **vippepunkter**\n- sette dagens endringer i **perspektiv**: Dagens CO₂-nivå er **høyere** enn noen gang de siste **800 000** årene, og endringen skjer mye **raskere** enn ved naturlige overganger\n\n## Refleksjon\n\nKlimaet har alltid **endret** seg – men paleoklimaet viser også hvor **følsomt** klimasystemet er for endringer i CO₂, og at dagens endringer er **uvanlig raske**.",
   "flashcards": [
-    { "term": "Paleoklimatologi", "def": "Forskning på klimaet før direkte målinger." },
-    { "term": "Klimaarkiv", "def": "Naturlige spor som gjemmer informasjon om tidligere klima." },
-    { "term": "Proksydata", "def": "Indirekte data om fortidens klima." },
-    { "term": "Iskjerner", "def": "Borekjerner fra isbreer med luftbobler fra fortiden." },
-    { "term": "Antarktiske iskjerner", "def": "Går omtrent 800 000 år tilbake." },
-    { "term": "Oksygenisotoper", "def": "Forholdet mellom tunge og lette isotoper viser temperatur og ismengde." },
-    { "term": "Sedimentkjerner", "def": "Borekjerner fra hav- og innsjøbunn som viser klima over lang tid." },
-    { "term": "Pollen", "def": "Viser hvilke planter som vokste." },
-    { "term": "Holocen", "def": "Dagens mellomistid som begynte for omtrent 11 700 år siden." },
-    { "term": "Milanković-sykluser", "def": "Regelmessige endringer i jordbanen som styrer istider." },
-    { "term": "Eksentrisitet", "def": "Hvor elliptisk jordbanen er – omtrent 100 000 år." },
-    { "term": "Aksehelning", "def": "Variasjon i jordaksens helning – omtrent 41 000 år." },
-    { "term": "Presesjon", "def": "Endring i jordaksens retning – omtrent 23 000 år." },
-    { "term": "Klimafølsomhet", "def": "Hvor mye temperaturen stiger ved dobling av CO₂." },
-    { "term": "Den lille istid", "def": "Kaldere periode i nyere tid, mer regional enn dagens oppvarming." }
+    {
+      "term": "Paleoklimatologi",
+      "def": "Forskning på klimaet før direkte målinger."
+    },
+    {
+      "term": "Klimaarkiv",
+      "def": "Naturlige spor som gjemmer informasjon om tidligere klima."
+    },
+    {
+      "term": "Proksydata",
+      "def": "Indirekte data om fortidens klima."
+    },
+    {
+      "term": "Iskjerner",
+      "def": "Borekjerner fra isbreer med luftbobler fra fortiden."
+    },
+    {
+      "term": "Antarktiske iskjerner",
+      "def": "Går omtrent 800 000 år tilbake."
+    },
+    {
+      "term": "Oksygenisotoper",
+      "def": "Forholdet mellom tunge og lette isotoper viser temperatur og ismengde."
+    },
+    {
+      "term": "Sedimentkjerner",
+      "def": "Borekjerner fra hav- og innsjøbunn som viser klima over lang tid."
+    },
+    {
+      "term": "Pollen",
+      "def": "Viser hvilke planter som vokste."
+    },
+    {
+      "term": "Holocen",
+      "def": "Dagens mellomistid som begynte for omtrent 11 700 år siden."
+    },
+    {
+      "term": "Milanković-sykluser",
+      "def": "Regelmessige endringer i jordbanen som styrer istider."
+    },
+    {
+      "term": "Eksentrisitet",
+      "def": "Hvor elliptisk jordbanen er – omtrent 100 000 år."
+    },
+    {
+      "term": "Aksehelning",
+      "def": "Variasjon i jordaksens helning – omtrent 41 000 år."
+    },
+    {
+      "term": "Presesjon",
+      "def": "Endring i jordaksens retning – omtrent 23 000 år."
+    },
+    {
+      "term": "Klimafølsomhet",
+      "def": "Hvor mye temperaturen stiger ved dobling av CO₂."
+    },
+    {
+      "term": "Den lille istid",
+      "def": "Kaldere periode i nyere tid, mer regional enn dagens oppvarming."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er proksydata?", "options": ["Direkte temperaturmålinger", "Indirekte data om fortidens klima", "Værvarsler", "Satellittbilder"], "correct": 1, "explain": "For eksempel iskjerner og pollen." },
-    { "id": "q02", "text": "Hva inneholder luftbobler i iskjerner?", "options": ["Atmosfære fra fortiden", "Vann fra havet", "Pollen", "Sand"], "correct": 0, "explain": "Vi kan måle CO₂ og metan direkte." },
-    { "id": "q03", "text": "Hvor langt tilbake går iskjernene fra Antarktis?", "options": ["Omtrent 1000 år", "Omtrent 10 000 år", "Omtrent 800 000 år", "Omtrent 100 millioner år"], "correct": 2, "explain": "Lange klimaserier." },
-    { "id": "q04", "text": "Hva styrer vekslingen mellom istider og mellomistider?", "options": ["Vulkaner alene", "Menneskelige utslipp", "El Niño", "Milanković-syklusene"], "correct": 3, "explain": "Endringer i jordbanen." },
-    { "id": "q05", "text": "Når begynte holocen?", "options": ["For omtrent 11 700 år siden", "For 800 000 år siden", "For 56 millioner år siden", "I 1850"], "correct": 0, "explain": "Dagens mellomistid." },
-    { "id": "q06", "text": "Hvilken Milanković-syklus har en periode på omtrent 41 000 år?", "options": ["Eksentrisitet", "Aksehelning", "Presesjon", "Solsyklusen"], "correct": 1, "explain": "Helningen av jordaksen." },
-    { "id": "q07", "text": "Hva viser iskjernene om CO₂ og temperatur?", "options": ["At de ikke henger sammen", "At CO₂ alltid har vært konstant", "At de har fulgt hverandre tett", "At temperaturen alltid har vært lik"], "correct": 2, "explain": "CO₂ har forsterket endringene." },
-    { "id": "q08", "text": "Hvordan brukes paleoklima til å forbedre klimamodeller?", "options": ["Ved å varsle været", "Ved å måle vind", "Ved å telle trær", "Ved å teste om modellene gjenskaper tidligere klima"], "correct": 3, "explain": "Også for å anslå klimafølsomheten." },
-    { "id": "q09", "text": "Hva er klimafølsomhet?", "options": ["Hvor mye temperaturen stiger ved en dobling av CO₂", "Hvor raskt været endres", "Hvor følsomme mennesker er for kulde", "Hvor mye is som smelter per år"], "correct": 0, "explain": "Et nøkkeltall i klimaforskningen." },
-    { "id": "q10", "text": "Hvordan er dagens CO₂-nivå sammenlignet med de siste 800 000 årene?", "options": ["Lavere enn noen gang", "Høyere enn noen gang", "Helt vanlig", "Ukjent"], "correct": 1, "explain": "Og endringen skjer mye raskere." }
+    {
+      "id": "q01",
+      "text": "Hva er proksydata?",
+      "options": [
+        "Direkte temperaturmålinger",
+        "Indirekte data om fortidens klima",
+        "Værvarsler",
+        "Satellittbilder"
+      ],
+      "correct": 1,
+      "explain": "For eksempel iskjerner og pollen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva inneholder luftbobler i iskjerner?",
+      "options": [
+        "Atmosfære fra fortiden",
+        "Vann fra havet",
+        "Pollen",
+        "Sand"
+      ],
+      "correct": 0,
+      "explain": "Vi kan måle CO₂ og metan direkte."
+    },
+    {
+      "id": "q03",
+      "text": "Hvor langt tilbake går iskjernene fra Antarktis?",
+      "options": [
+        "Omtrent 1000 år",
+        "Omtrent 10 000 år",
+        "Omtrent 800 000 år",
+        "Omtrent 100 millioner år"
+      ],
+      "correct": 2,
+      "explain": "Lange klimaserier."
+    },
+    {
+      "id": "q04",
+      "text": "Hva styrer vekslingen mellom istider og mellomistider?",
+      "options": [
+        "Vulkaner alene",
+        "Menneskelige utslipp",
+        "El Niño",
+        "Milanković-syklusene"
+      ],
+      "correct": 3,
+      "explain": "Endringer i jordbanen."
+    },
+    {
+      "id": "q05",
+      "text": "Når begynte holocen?",
+      "options": [
+        "For omtrent 11 700 år siden",
+        "For 800 000 år siden",
+        "For 56 millioner år siden",
+        "I 1850"
+      ],
+      "correct": 0,
+      "explain": "Dagens mellomistid."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken Milanković-syklus har en periode på omtrent 41 000 år?",
+      "options": [
+        "Eksentrisitet",
+        "Aksehelning",
+        "Presesjon",
+        "Solsyklusen"
+      ],
+      "correct": 1,
+      "explain": "Helningen av jordaksen."
+    },
+    {
+      "id": "q07",
+      "text": "Hva viser iskjernene om CO₂ og temperatur?",
+      "options": [
+        "At de ikke henger sammen",
+        "At CO₂ alltid har vært konstant",
+        "At de har fulgt hverandre tett",
+        "At temperaturen alltid har vært lik"
+      ],
+      "correct": 2,
+      "explain": "CO₂ har forsterket endringene."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan brukes paleoklima til å forbedre klimamodeller?",
+      "options": [
+        "Ved å varsle været",
+        "Ved å måle vind",
+        "Ved å telle trær",
+        "Ved å teste om modellene gjenskaper tidligere klima"
+      ],
+      "correct": 3,
+      "explain": "Også for å anslå klimafølsomheten."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er klimafølsomhet?",
+      "options": [
+        "Hvor mye temperaturen stiger ved en dobling av CO₂",
+        "Hvor raskt været endres",
+        "Hvor følsomme mennesker er for kulde",
+        "Hvor mye is som smelter per år"
+      ],
+      "correct": 0,
+      "explain": "Et nøkkeltall i klimaforskningen."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan er dagens CO₂-nivå sammenlignet med de siste 800 000 årene?",
+      "options": [
+        "Lavere enn noen gang",
+        "Høyere enn noen gang",
+        "Helt vanlig",
+        "Ukjent"
+      ],
+      "correct": 1,
+      "explain": "Og endringen skjer mye raskere."
+    }
   ],
   "mindmap": {
     "label": "Forhistorisk klima",
     "children": [
-      { "label": "Klimaarkiver", "children": [
-        { "label": "Iskjerner" },
-        { "label": "Sedimenter og pollen" },
-        { "label": "Årringer og koraller" }
-      ] },
-      { "label": "Metoder", "children": [
-        { "label": "Isotoper" },
-        { "label": "Datering" }
-      ] },
-      { "label": "Istider", "children": [
-        { "label": "Istider og mellomistider" },
-        { "label": "Holocen" },
-        { "label": "Innlandsis over Norge" }
-      ] },
-      { "label": "Milanković", "children": [
-        { "label": "Eksentrisitet 100 000" },
-        { "label": "Helning 41 000" },
-        { "label": "Presesjon 23 000" }
-      ] },
-      { "label": "Framtiden", "children": [
-        { "label": "Teste modeller" },
-        { "label": "Klimafølsomhet" },
-        { "label": "Perspektiv på i dag" }
-      ] }
+      {
+        "label": "Klimaarkiver",
+        "children": [
+          {
+            "label": "Iskjerner"
+          },
+          {
+            "label": "Sedimenter og pollen"
+          },
+          {
+            "label": "Årringer og koraller"
+          }
+        ]
+      },
+      {
+        "label": "Metoder",
+        "children": [
+          {
+            "label": "Isotoper"
+          },
+          {
+            "label": "Datering"
+          }
+        ]
+      },
+      {
+        "label": "Istider",
+        "children": [
+          {
+            "label": "Istider og mellomistider"
+          },
+          {
+            "label": "Holocen"
+          },
+          {
+            "label": "Innlandsis over Norge"
+          }
+        ]
+      },
+      {
+        "label": "Milanković",
+        "children": [
+          {
+            "label": "Eksentrisitet 100 000"
+          },
+          {
+            "label": "Helning 41 000"
+          },
+          {
+            "label": "Presesjon 23 000"
+          }
+        ]
+      },
+      {
+        "label": "Framtiden",
+        "children": [
+          {
+            "label": "Teste modeller"
+          },
+          {
+            "label": "Klimafølsomhet"
+          },
+          {
+            "label": "Perspektiv på i dag"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Under siste istid var havnivået over 100 meter lavere enn i dag.", "correct": true, "explain": "Mye vann var bundet i is." },
-      { "id": "m02", "type": "sant-usant", "text": "Regelmessige temperaturmålinger finnes fra de siste 10 000 årene.", "correct": false, "explain": "De finnes bare fra omtrent 1850." },
-      { "id": "m03", "type": "sant-usant", "text": "Klimaet har noen ganger endret seg brått på tiår.", "correct": true, "explain": "For eksempel ved slutten av siste istid." },
-      { "id": "m04", "type": "sant-usant", "text": "Den lille istid var like stor og global som dagens oppvarming.", "correct": false, "explain": "Den var mer regional og mindre." },
-      { "id": "m05", "type": "flervalg", "text": "Hva viser pollen i sedimenter?", "options": ["Havtemperatur direkte", "Hvilke planter som vokste", "CO₂-innhold", "Vindstyrke"], "correct": 1, "explain": "Gir informasjon om temperatur og nedbør." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gir innsikt i hva som skjer ved raske karbonutslipp?", "options": ["Den varme perioden for omtrent 56 millioner år siden", "Den lille istid", "Holocen", "Middelalderen"], "correct": 0, "explain": "Kraftig oppvarming på kort geologisk tid." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan dateres klimaarkiver?", "options": ["Bare ved å gjette", "Med værmeldinger", "Ved å telle årlag eller med radioaktive metoder", "Med kompass"], "correct": 2, "explain": "Nødvendig for tidsserier." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Under siste istid var havnivået over 100 meter lavere enn i dag.",
+        "correct": true,
+        "explain": "Mye vann var bundet i is."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Regelmessige temperaturmålinger finnes fra de siste 10 000 årene.",
+        "correct": false,
+        "explain": "De finnes bare fra omtrent 1850."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Klimaet har noen ganger endret seg brått på tiår.",
+        "correct": true,
+        "explain": "For eksempel ved slutten av siste istid."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Den lille istid var like stor og global som dagens oppvarming.",
+        "correct": false,
+        "explain": "Den var mer regional og mindre."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva viser pollen i sedimenter?",
+        "options": [
+          "Havtemperatur direkte",
+          "Hvilke planter som vokste",
+          "CO₂-innhold",
+          "Vindstyrke"
+        ],
+        "correct": 1,
+        "explain": "Gir informasjon om temperatur og nedbør."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gir innsikt i hva som skjer ved raske karbonutslipp?",
+        "options": [
+          "Den varme perioden for omtrent 56 millioner år siden",
+          "Den lille istid",
+          "Holocen",
+          "Middelalderen"
+        ],
+        "correct": 0,
+        "explain": "Kraftig oppvarming på kort geologisk tid."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan dateres klimaarkiver?",
+        "options": [
+          "Bare ved å gjette",
+          "Med værmeldinger",
+          "Ved å telle årlag eller med radioaktive metoder",
+          "Med kompass"
+        ],
+        "correct": 2,
+        "explain": "Nødvendig for tidsserier."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva undersøker paleoklimatologien, og hvorfor bruker forskere klimaarkiver når de undersøker klima før regelmessige temperaturmålinger begynte omkring 1850?",
+        "fasit": "Paleoklimatologi undersøker klimaet før vi hadde direkte målinger. Siden regelmessige temperaturmålinger bare finnes fra omtrent 1850, bruker forskere naturlige klimaarkiver for å finne spor etter eldre klima.",
+        "kriterier": [
+          "Forklarer at paleoklimatologi gjelder klimaet før direkte målinger.",
+          "Knytter behovet for klimaarkiver til at regelmessige målinger bare finnes fra omtrent 1850."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et sedimentlag inneholder pollen. Forklar hva pollen kan fortelle om fortidens klima, og hvordan forskere bruker det til å trekke slutninger.",
+        "fasit": "Pollen viser hvilke planter som vokste da sedimentet ble dannet. Ut fra plantene kan forskerne trekke slutninger om temperatur og nedbør.",
+        "kriterier": [
+          "Nevner at pollen gir informasjon om hvilke planter som vokste.",
+          "Knytter plantene til slutninger om temperatur og/eller nedbør."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign hva oksygenisotoper og årringer kan fortelle om fortidens klima.",
+        "fasit": "Forholdet mellom tunge og lette oksygenisotoper kan fortelle om temperatur og ismengde. Årringer viser vekstforholdene år for år.",
+        "kriterier": [
+          "Knytter oksygenisotoper til temperatur og ismengde.",
+          "Knytter årringer til vekstforhold fra år til år."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hvorfor må forskere datere klimaarkiver før de bruker dem til å undersøke fortidens klima? Nevn to metoder for datering.",
+        "fasit": "Datering viser når sporene i klimaarkivet ble dannet, slik at klimaopplysningene kan plasseres i tid. Forskere kan for eksempel telle årlag eller bruke radioaktive metoder.",
+        "kriterier": [
+          "Forklarer at datering plasserer klimainformasjonen i tid.",
+          "Nevner både telling av årlag og radioaktive metoder."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign middelalderens varmeperiode og den lille istid med dagens globale oppvarming når det gjelder geografisk utbredelse og størrelse.",
+        "fasit": "Middelalderens varmeperiode og den lille istid var mer regionale og mindre enn dagens globale oppvarming. Dagens oppvarming er dermed større og mer globalt omfattende.",
+        "kriterier": [
+          "Beskriver de to eldre periodene som mer regionale enn dagens oppvarming.",
+          "Beskriver dem som mindre enn dagens globale oppvarming."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Eksentrisitet har en periode på omtrent 100 000 år, mens presesjon har en periode på omtrent 23 000 år. Hvor mye lengre er perioden for eksentrisitet? Vis det viktigste regnestykket.",
+        "fasit": "Perioden for eksentrisitet er omtrent 77 000 år lengre. Regnestykket er 100 000 − 23 000 = 77 000 år.",
+        "kriterier": [
+          "Regner ut differansen 100 000 − 23 000.",
+          "Oppgir svaret som omtrent 77 000 år."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Holocen begynte for omtrent 11 700 år siden, og regelmessige temperaturmålinger begynte omkring 1850. Omtrent hvor mange år gikk det fra starten av holocen til 1850? Vis det viktigste regnestykket.",
+        "fasit": "Det gikk omtrent 9 850 år. Regnestykket er 11 700 − 1 850 = 9 850 år.",
+        "kriterier": [
+          "Trekker 1 850 fra 11 700.",
+          "Oppgir et svar på omtrent 9 850 år."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "For omtrent 56 millioner år siden steg temperaturen kraftig etter at store mengder karbon ble sluppet ut. Forklar hvordan denne perioden kan være relevant når forskere undersøker konsekvensene av raske karbonutslipp i dag.",
+        "fasit": "Perioden viser at store karbonutslipp på kort geologisk tid kan være knyttet til en kraftig temperaturøkning. Den gir derfor innsikt i mulige konsekvenser av raske karbonutslipp.",
+        "kriterier": [
+          "Knytter store karbonutslipp i perioden til den kraftige temperaturøkningen.",
+          "Forklarer at perioden gir innsikt i konsekvenser av raske karbonutslipp."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

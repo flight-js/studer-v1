@@ -4,76 +4,422 @@
   "trinnId": "vg3",
   "name": "Forsøk, modeller og kunnskapsutvikling i kjemi",
   "intro": "Hvordan du planlegger og gjennomfører kjemiske forsøk trygt, vurderer usikkerhet og feilkilder og bruker presist fagspråk – hvordan modeller og teorier i kjemi utvikles gjennom samarbeid – og hvordan du utforsker en egen problemstilling og presenterer funnene.",
-  "kompetansemaal": [1, 2, 3, 15],
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    15
+  ],
   "sammendrag": "## Kjemisk fagspråk\n\nKjemi har et **presist** fagspråk. Det er forskjell på **stoffmengde** (mol) og **masse** (g), på **konsentrasjon** (mol/L) og **løselighet**, og på **reaksjonsfart** og **likevekt**. Kjemiske formler, **reaksjonsligninger** med tilstandssymboler og **IUPAC**-navn gjør at kjemikere over hele verden forstår hverandre. Bruk alltid riktige **enheter** og et rimelig antall **gjeldende sifre**.\n\n## Planlegge forsøk\n\n1. Formuler en **problemstilling** eller **hypotese**.\n2. Bestem **variabler**: Hva endrer du (**uavhengig** variabel), hva måler du (**avhengig** variabel), og hva holder du **konstant**?\n3. Velg **utstyr**, **mengder** og **metode**.\n4. Gjør en **risikovurdering**.\n\n## Sikkerhet\n\n- Les **sikkerhetsdatablad** og **faresymboler** på kjemikaliene.\n- Bruk **vernebriller**, **frakk** og **hansker** når det trengs.\n- Arbeid i **avtrekkskap** med flyktige eller giftige stoffer.\n- Bruk **minst mulig** kjemikalier, og velg **mindre farlige** alternativer der det går.\n- Sørg for riktig **avfallshåndtering**.\n\n## Usikkerhet og feilkilder\n\nAlle målinger har **usikkerhet**.\n\n- **Tilfeldige feil** gir **spredning** i resultatene, for eksempel små variasjoner i avlesning. De kan reduseres ved å gjenta forsøket og regne **gjennomsnitt**.\n- **Systematiske feil** trekker resultatene i **én retning**, for eksempel en vekt som viser for mye eller en titreringsløsning med feil konsentrasjon.\n\nSkill mellom **nøyaktighet** – hvor nær det sanne svaret du er – og **presisjon** – hvor like resultatene er når du gjentar målingen. Et **prosentvis avvik** fra en kjent verdi kan brukes til å vurdere resultatet.\n\n## Hvordan modeller og teorier utvikles\n\nKjemiske **modeller** er **forenklede** bilder av virkeligheten. **Atommodellen** er et godt eksempel: fra **Daltons** kuler via **Thomsons** «rosinbolle» og **Rutherfords** kjerne til **Bohrs** skall og dagens **kvantemekaniske** modell med orbitaler. Hver modell ble utviklet fordi nye **forsøk** viste noe den gamle ikke kunne forklare.\n\nEn **teori** er en godt underbygd forklaring som gjør **prediksjoner** som kan testes.\n\n## Samarbeid\n\nKunnskap i kjemi utvikles gjennom **samarbeid**:\n\n- Forskere publiserer resultater som blir **fagfellevurdert**.\n- Andre **gjentar** forsøkene for å se om resultatene holder.\n- **IUPAC** lager felles regler for navn, symboler og måleenheter.\n- Store **forskningsprosjekter** samler kjemikere, fysikere, biologer og ingeniører fra mange land.\n\n## Utforske en problemstilling\n\nNår du utforsker en egen problemstilling, teoretisk eller praktisk:\n\n- avgrens problemstillingen\n- finn **teori** og **kilder**\n- gjennomfør forsøk eller analyser\n- **drøft** resultatene: stemmer de med teorien? Hvilke **feilkilder** kan forklare avvik?\n- presenter funnene **tydelig**, med tabeller, grafer og en begrunnet **konklusjon**",
   "flashcards": [
-    { "term": "IUPAC", "def": "Internasjonal organisasjon som lager regler for navn og symboler i kjemi." },
-    { "term": "Stoffmengde", "def": "Antall mol av et stoff." },
-    { "term": "Gjeldende sifre", "def": "Sifrene i et tall som sier noe om målingens nøyaktighet." },
-    { "term": "Uavhengig variabel", "def": "Det du endrer i et forsøk." },
-    { "term": "Avhengig variabel", "def": "Det du måler i et forsøk." },
-    { "term": "Risikovurdering", "def": "Vurdering av farer og tiltak før et forsøk." },
-    { "term": "Sikkerhetsdatablad", "def": "Dokument med informasjon om farer og håndtering av et kjemikalie." },
-    { "term": "Avtrekkskap", "def": "Skap som suger ut giftige eller flyktige gasser." },
-    { "term": "Tilfeldige feil", "def": "Feil som gir spredning i resultatene." },
-    { "term": "Systematiske feil", "def": "Feil som trekker resultatene i én retning." },
-    { "term": "Nøyaktighet", "def": "Hvor nær det sanne svaret resultatet er." },
-    { "term": "Presisjon", "def": "Hvor like resultatene er ved gjentatte målinger." },
-    { "term": "Prosentvis avvik", "def": "Forskjellen fra en kjent verdi i prosent." },
-    { "term": "Modell", "def": "Forenklet bilde av virkeligheten." },
-    { "term": "Teori", "def": "Godt underbygd forklaring som gjør testbare prediksjoner." },
-    { "term": "Fagfellevurdering", "def": "Andre forskere vurderer arbeidet før publisering." }
+    {
+      "term": "IUPAC",
+      "def": "Internasjonal organisasjon som lager regler for navn og symboler i kjemi."
+    },
+    {
+      "term": "Stoffmengde",
+      "def": "Antall mol av et stoff."
+    },
+    {
+      "term": "Gjeldende sifre",
+      "def": "Sifrene i et tall som sier noe om målingens nøyaktighet."
+    },
+    {
+      "term": "Uavhengig variabel",
+      "def": "Det du endrer i et forsøk."
+    },
+    {
+      "term": "Avhengig variabel",
+      "def": "Det du måler i et forsøk."
+    },
+    {
+      "term": "Risikovurdering",
+      "def": "Vurdering av farer og tiltak før et forsøk."
+    },
+    {
+      "term": "Sikkerhetsdatablad",
+      "def": "Dokument med informasjon om farer og håndtering av et kjemikalie."
+    },
+    {
+      "term": "Avtrekkskap",
+      "def": "Skap som suger ut giftige eller flyktige gasser."
+    },
+    {
+      "term": "Tilfeldige feil",
+      "def": "Feil som gir spredning i resultatene."
+    },
+    {
+      "term": "Systematiske feil",
+      "def": "Feil som trekker resultatene i én retning."
+    },
+    {
+      "term": "Nøyaktighet",
+      "def": "Hvor nær det sanne svaret resultatet er."
+    },
+    {
+      "term": "Presisjon",
+      "def": "Hvor like resultatene er ved gjentatte målinger."
+    },
+    {
+      "term": "Prosentvis avvik",
+      "def": "Forskjellen fra en kjent verdi i prosent."
+    },
+    {
+      "term": "Modell",
+      "def": "Forenklet bilde av virkeligheten."
+    },
+    {
+      "term": "Teori",
+      "def": "Godt underbygd forklaring som gjør testbare prediksjoner."
+    },
+    {
+      "term": "Fagfellevurdering",
+      "def": "Andre forskere vurderer arbeidet før publisering."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er den avhengige variabelen i et forsøk?", "options": ["Det du endrer", "Det du måler", "Det du holder konstant", "Utstyret"], "correct": 1, "explain": "Den uavhengige variabelen er det du endrer." },
-    { "id": "q02", "text": "En vekt viser alltid 0,05 g for mye. Hva slags feil er det?", "options": ["Systematisk feil", "Tilfeldig feil", "Ingen feil", "Presisjonsfeil"], "correct": 0, "explain": "Den trekker resultatet i én retning." },
-    { "id": "q03", "text": "Hva er presisjon?", "options": ["Hvor nær det sanne svaret du er", "Hvor stort utvalget er", "Hvor like resultatene er ved gjentatte målinger", "Hvor raskt forsøket går"], "correct": 2, "explain": "Nøyaktighet er nærhet til sann verdi." },
-    { "id": "q04", "text": "Hvor finner du informasjon om farene ved et kjemikalie?", "options": ["I læreboka alene", "På nettforum", "Hos en venn", "I sikkerhetsdatabladet"], "correct": 3, "explain": "Sammen med faresymbolene." },
-    { "id": "q05", "text": "Hvordan kan tilfeldige feil reduseres?", "options": ["Ved å gjenta forsøket og regne gjennomsnitt", "Ved å bruke en annen vekt", "Ved å endre hypotesen", "De kan ikke reduseres"], "correct": 0, "explain": "Spredningen jevnes ut." },
-    { "id": "q06", "text": "Hvorfor har atommodellen endret seg over tid?", "options": ["Fordi forskerne ble uenige om navn", "Fordi nye forsøk viste noe den gamle modellen ikke kunne forklare", "Fordi atomene endret seg", "Fordi det er mote"], "correct": 1, "explain": "Fra Dalton til kvantemekanikk." },
-    { "id": "q07", "text": "Hva gjør IUPAC?", "options": ["Selger kjemikalier", "Driver laboratorier i skolen", "Lager felles regler for navn, symboler og enheter", "Godkjenner medisiner"], "correct": 2, "explain": "Gjør at kjemikere forstår hverandre." },
-    { "id": "q08", "text": "Hva kjennetegner en vitenskapelig teori?", "options": ["Det er en gjetning", "Det er en mening", "Den kan aldri testes", "Den er godt underbygd og gjør testbare prediksjoner"], "correct": 3, "explain": "Teorier kan endres ved nye funn." },
-    { "id": "q09", "text": "Hvorfor bør du bruke minst mulig kjemikalier?", "options": ["For å redusere risiko og avfall", "For å gjøre forsøket vanskeligere", "Fordi det gir større feil", "Fordi det er påbudt å ikke gjøre forsøk"], "correct": 0, "explain": "Et prinsipp i trygt og grønt laboratoriearbeid." },
-    { "id": "q10", "text": "Hva bør drøftingen i en rapport inneholde?", "options": ["Bare resultatene", "Vurdering av om resultatene stemmer med teorien og hvilke feilkilder som kan forklare avvik", "Bare utstyrslisten", "Ingen konklusjon"], "correct": 1, "explain": "Kritisk vurdering av egne funn." }
+    {
+      "id": "q01",
+      "text": "Hva er den avhengige variabelen i et forsøk?",
+      "options": [
+        "Det du endrer",
+        "Det du måler",
+        "Det du holder konstant",
+        "Utstyret"
+      ],
+      "correct": 1,
+      "explain": "Den uavhengige variabelen er det du endrer."
+    },
+    {
+      "id": "q02",
+      "text": "En vekt viser alltid 0,05 g for mye. Hva slags feil er det?",
+      "options": [
+        "Systematisk feil",
+        "Tilfeldig feil",
+        "Ingen feil",
+        "Presisjonsfeil"
+      ],
+      "correct": 0,
+      "explain": "Den trekker resultatet i én retning."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er presisjon?",
+      "options": [
+        "Hvor nær det sanne svaret du er",
+        "Hvor stort utvalget er",
+        "Hvor like resultatene er ved gjentatte målinger",
+        "Hvor raskt forsøket går"
+      ],
+      "correct": 2,
+      "explain": "Nøyaktighet er nærhet til sann verdi."
+    },
+    {
+      "id": "q04",
+      "text": "Hvor finner du informasjon om farene ved et kjemikalie?",
+      "options": [
+        "I læreboka alene",
+        "På nettforum",
+        "Hos en venn",
+        "I sikkerhetsdatabladet"
+      ],
+      "correct": 3,
+      "explain": "Sammen med faresymbolene."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan kan tilfeldige feil reduseres?",
+      "options": [
+        "Ved å gjenta forsøket og regne gjennomsnitt",
+        "Ved å bruke en annen vekt",
+        "Ved å endre hypotesen",
+        "De kan ikke reduseres"
+      ],
+      "correct": 0,
+      "explain": "Spredningen jevnes ut."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor har atommodellen endret seg over tid?",
+      "options": [
+        "Fordi forskerne ble uenige om navn",
+        "Fordi nye forsøk viste noe den gamle modellen ikke kunne forklare",
+        "Fordi atomene endret seg",
+        "Fordi det er mote"
+      ],
+      "correct": 1,
+      "explain": "Fra Dalton til kvantemekanikk."
+    },
+    {
+      "id": "q07",
+      "text": "Hva gjør IUPAC?",
+      "options": [
+        "Selger kjemikalier",
+        "Driver laboratorier i skolen",
+        "Lager felles regler for navn, symboler og enheter",
+        "Godkjenner medisiner"
+      ],
+      "correct": 2,
+      "explain": "Gjør at kjemikere forstår hverandre."
+    },
+    {
+      "id": "q08",
+      "text": "Hva kjennetegner en vitenskapelig teori?",
+      "options": [
+        "Det er en gjetning",
+        "Det er en mening",
+        "Den kan aldri testes",
+        "Den er godt underbygd og gjør testbare prediksjoner"
+      ],
+      "correct": 3,
+      "explain": "Teorier kan endres ved nye funn."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor bør du bruke minst mulig kjemikalier?",
+      "options": [
+        "For å redusere risiko og avfall",
+        "For å gjøre forsøket vanskeligere",
+        "Fordi det gir større feil",
+        "Fordi det er påbudt å ikke gjøre forsøk"
+      ],
+      "correct": 0,
+      "explain": "Et prinsipp i trygt og grønt laboratoriearbeid."
+    },
+    {
+      "id": "q10",
+      "text": "Hva bør drøftingen i en rapport inneholde?",
+      "options": [
+        "Bare resultatene",
+        "Vurdering av om resultatene stemmer med teorien og hvilke feilkilder som kan forklare avvik",
+        "Bare utstyrslisten",
+        "Ingen konklusjon"
+      ],
+      "correct": 1,
+      "explain": "Kritisk vurdering av egne funn."
+    }
   ],
   "mindmap": {
     "label": "Forsøk og kunnskap i kjemi",
     "children": [
-      { "label": "Fagspråk", "children": [
-        { "label": "Begreper og enheter" },
-        { "label": "Formler og IUPAC" }
-      ] },
-      { "label": "Planlegging", "children": [
-        { "label": "Hypotese og variabler" },
-        { "label": "Risikovurdering" }
-      ] },
-      { "label": "Usikkerhet", "children": [
-        { "label": "Tilfeldige feil" },
-        { "label": "Systematiske feil" },
-        { "label": "Nøyaktighet og presisjon" }
-      ] },
-      { "label": "Modeller og teorier", "children": [
-        { "label": "Atommodellens utvikling" },
-        { "label": "Prediksjoner" }
-      ] },
-      { "label": "Samarbeid", "children": [
-        { "label": "Fagfellevurdering" },
-        { "label": "Egen problemstilling" }
-      ] }
+      {
+        "label": "Fagspråk",
+        "children": [
+          {
+            "label": "Begreper og enheter"
+          },
+          {
+            "label": "Formler og IUPAC"
+          }
+        ]
+      },
+      {
+        "label": "Planlegging",
+        "children": [
+          {
+            "label": "Hypotese og variabler"
+          },
+          {
+            "label": "Risikovurdering"
+          }
+        ]
+      },
+      {
+        "label": "Usikkerhet",
+        "children": [
+          {
+            "label": "Tilfeldige feil"
+          },
+          {
+            "label": "Systematiske feil"
+          },
+          {
+            "label": "Nøyaktighet og presisjon"
+          }
+        ]
+      },
+      {
+        "label": "Modeller og teorier",
+        "children": [
+          {
+            "label": "Atommodellens utvikling"
+          },
+          {
+            "label": "Prediksjoner"
+          }
+        ]
+      },
+      {
+        "label": "Samarbeid",
+        "children": [
+          {
+            "label": "Fagfellevurdering"
+          },
+          {
+            "label": "Egen problemstilling"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Alle målinger har usikkerhet.", "correct": true, "explain": "Derfor må den vurderes." },
-      { "id": "m02", "type": "sant-usant", "text": "Høy presisjon betyr alltid høy nøyaktighet.", "correct": false, "explain": "Resultatene kan være like, men feil." },
-      { "id": "m03", "type": "sant-usant", "text": "Rutherford oppdaget at atomet har en liten, tett kjerne.", "correct": true, "explain": "Gullfolieforsøket." },
-      { "id": "m04", "type": "sant-usant", "text": "Kunnskap i kjemi utvikles helst av enkeltpersoner som arbeider alene.", "correct": false, "explain": "Samarbeid er avgjørende." },
-      { "id": "m05", "type": "flervalg", "text": "Hva gjør et avtrekkskap?", "options": ["Kjøler ned løsninger", "Suger ut giftige eller flyktige gasser", "Veier stoffer", "Lagrer avfall"], "correct": 1, "explain": "Viktig sikkerhetsutstyr." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken modell innførte skall der elektronene går i bestemte baner?", "options": ["Bohrs modell", "Daltons modell", "Thomsons modell", "Den kvantemekaniske modellen"], "correct": 0, "explain": "Senere erstattet av orbitaler." },
-      { "id": "m07", "type": "flervalg", "text": "Hva måler prosentvis avvik?", "options": ["Hvor mange forsøk du gjorde", "Hvor lang tid forsøket tok", "Forskjellen fra en kjent verdi i prosent", "Antall gjeldende sifre"], "correct": 2, "explain": "Brukes til å vurdere resultater." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Alle målinger har usikkerhet.",
+        "correct": true,
+        "explain": "Derfor må den vurderes."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Høy presisjon betyr alltid høy nøyaktighet.",
+        "correct": false,
+        "explain": "Resultatene kan være like, men feil."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Rutherford oppdaget at atomet har en liten, tett kjerne.",
+        "correct": true,
+        "explain": "Gullfolieforsøket."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kunnskap i kjemi utvikles helst av enkeltpersoner som arbeider alene.",
+        "correct": false,
+        "explain": "Samarbeid er avgjørende."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva gjør et avtrekkskap?",
+        "options": [
+          "Kjøler ned løsninger",
+          "Suger ut giftige eller flyktige gasser",
+          "Veier stoffer",
+          "Lagrer avfall"
+        ],
+        "correct": 1,
+        "explain": "Viktig sikkerhetsutstyr."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken modell innførte skall der elektronene går i bestemte baner?",
+        "options": [
+          "Bohrs modell",
+          "Daltons modell",
+          "Thomsons modell",
+          "Den kvantemekaniske modellen"
+        ],
+        "correct": 0,
+        "explain": "Senere erstattet av orbitaler."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva måler prosentvis avvik?",
+        "options": [
+          "Hvor mange forsøk du gjorde",
+          "Hvor lang tid forsøket tok",
+          "Forskjellen fra en kjent verdi i prosent",
+          "Antall gjeldende sifre"
+        ],
+        "correct": 2,
+        "explain": "Brukes til å vurdere resultater."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på stoffmengde og masse. Ta med hva slags enhet som brukes for hver av dem.",
+        "fasit": "Stoffmengde beskriver hvor mange mol det er av et stoff, mens masse beskriver hvor mye stoffet veier. Stoffmengde måles i mol og masse i gram.",
+        "kriterier": [
+          "Forklarer at stoffmengde er antall mol, mens masse er hvor mye stoffet veier.",
+          "Knytter mol til stoffmengde og gram til masse."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Du undersøker hvordan temperaturen påvirker reaksjonsfarten. Oppgi den uavhengige variabelen, den avhengige variabelen og én faktor du bør holde konstant.",
+        "fasit": "Temperaturen er den uavhengige variabelen, og reaksjonsfarten er den avhengige variabelen. For eksempel bør konsentrasjonen holdes konstant.",
+        "kriterier": [
+          "Identifiserer temperaturen som uavhengig variabel og reaksjonsfarten som avhengig variabel.",
+          "Oppgir en relevant faktor som bør holdes konstant, for eksempel konsentrasjonen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I et forsøk skal du bruke et flyktig kjemikalie. Beskriv hvor du bør arbeide, og forklar hvorfor.",
+        "fasit": "Jeg bør arbeide i et avtrekkskap, som suger ut flyktige eller giftige gasser. Jeg bør også bruke verneutstyr når det trengs.",
+        "kriterier": [
+          "Sier at forsøket bør gjøres i avtrekkskap.",
+          "Forklarer at avtrekkskapet suger ut flyktige eller giftige gasser."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En atommodell viser atomene som kuler. Forklar hvorfor en slik modell ikke er en fullstendig beskrivelse av virkeligheten, og hva modellen likevel kan brukes til.",
+        "fasit": "En modell er en forenkling og viser derfor ikke alle sider ved virkeligheten. Den kan likevel brukes som et bilde som hjelper oss å beskrive atomer.",
+        "kriterier": [
+          "Forklarer at modellen er forenklet og ikke gjengir hele virkeligheten.",
+          "Beskriver at modellen likevel kan hjelpe oss med å forstå eller beskrive atomer."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar forskjellen på fagfellevurdering og å gjenta et forsøk som måter å kontrollere forskning på.",
+        "fasit": "Ved fagfellevurdering vurderer andre forskere arbeidet før det publiseres. Når andre gjentar forsøket, undersøker de om resultatene holder.",
+        "kriterier": [
+          "Forklarer at fagfellevurdering innebærer at andre forskere vurderer arbeidet før publisering.",
+          "Forklarer at gjentakelse undersøker om resultatene kan gjenfinnes eller holder."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Tre målinger er 4,8 g, 5,0 g og 5,2 g. Regn ut gjennomsnittet. Vis det viktigste regnetrinnet.",
+        "fasit": "Gjennomsnittet er (4,8 + 5,0 + 5,2) / 3 = 5,0 g.",
+        "kriterier": [
+          "Legger sammen målingene og deler summen på 3.",
+          "Oppgir gjennomsnittet 5,0 g."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En kjent verdi er 10,0 g, og målingen din er 9,5 g. Regn ut prosentvis avvik med formelen |måling − kjent verdi| / kjent verdi · 100 %. Vis det viktigste regnetrinnet.",
+        "fasit": "Prosentvis avvik er |9,5 − 10,0| / 10,0 · 100 % = 5 %.",
+        "kriterier": [
+          "Bruker forskjellen mellom målingen og den kjente verdien, delt på den kjente verdien.",
+          "Regner ut og oppgir prosentvis avvik på 5 %."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du gjentar en måling flere ganger og får resultater som ligger tett samlet, men som alle er et stykke fra den kjente verdien. Hva sier dette om presisjonen og nøyaktigheten?",
+        "fasit": "Resultatene har god presisjon fordi de ligger tett samlet. Nøyaktigheten er dårligere fordi resultatene er et stykke fra den kjente verdien.",
+        "kriterier": [
+          "Knytter tett samlet resultatene til god presisjon.",
+          "Knytter avstanden fra den kjente verdien til dårligere nøyaktighet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

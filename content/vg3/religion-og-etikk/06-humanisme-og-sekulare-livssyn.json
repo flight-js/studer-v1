@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Humanisme og sekulære livssyn",
   "intro": "Sekulære livssyn og humanismens historie fra antikken og renessansen til opplysningstiden – sekulær humanisme i dag, Human-Etisk Forbund, humanistiske ritualer og etikk, og andre sekulære livssyn og nyreligiøsitet i Norge.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Hva er et sekulært livssyn?\n\nEt **sekulært** livssyn gir svar på store spørsmål om **mennesket**, **verden** og **moral** uten å bygge på **guder** eller det **overnaturlige**. Det viktigste sekulære livssynet i Norge er **humanismen**.\n\n## Humanismens historie\n\nOrdet **humanisme** har vært brukt om ulike ting:\n\n- I **antikken** satte greske filosofer som **Sokrates** og **Protagoras** mennesket og **fornuften** i sentrum. Protagoras sa at «**mennesket er alle tings mål**».\n- I **renessansen** på 1400- og 1500-tallet la **humanistene** vekt på menneskets **muligheter**, **utdanning** og studier av antikke tekster.\n- I **opplysningstiden** på 1700-tallet ble **fornuften**, **vitenskapen** og **menneskerettighetene** sentrale. Mange opplysningsfilosofer var kritiske til **kirkens** makt.\n\n## Sekulær humanisme i dag\n\n**Sekulær humanisme** – eller **livssynshumanisme** – er et livssyn med disse hovedtankene:\n\n- **Mennesket** er en del av **naturen** og har utviklet seg gjennom **evolusjon**.\n- Det finnes ingen **gud** eller et **liv etter døden**, eller det er i hvert fall ingen grunn til å tro det.\n- **Fornuft**, **vitenskap** og **kritisk tenkning** er de beste veiene til kunnskap.\n- **Menneskeverd**, **frihet** og **ansvar** er grunnleggende verdier.\n- **Moralen** skal begrunnes i hva som gir **gode liv** for mennesker og andre levende vesener – ikke i guddommelige bud.\n- **Meningen** med livet er noe mennesker selv må **skape**.\n\n## Human-Etisk Forbund\n\n**Human-Etisk Forbund** ble stiftet i **1956** og er en av verdens største humanistiske organisasjoner i forhold til folketallet. Forbundet tilbyr **humanistiske seremonier**:\n\n- **navnefest** for barn\n- **humanistisk konfirmasjon** – med kurs om etikk, livssyn og menneskerettigheter\n- **vigsel**\n- **gravferd**\n\nForbundet arbeider for et **livssynsnøytralt** samfunn der alle livssyn behandles **likt**, og har vært kritisk til at kirken har hatt særstilling.\n\n## Humanistisk etikk\n\nHumanistisk etikk er ofte **konsekvensorientert** – hva gir **best** resultat for de berørte? – men den bygger også på **menneskerettigheter**, **empati** og **toleranse**. Humanister mener at vi er **ansvarlige** for egne valg, og at vi kan være **gode** uten Gud.\n\n## Andre sekulære livssyn og tendenser\n\n- **Ateisme** og **agnostisisme** er standpunkter om Gud, men ikke hele livssyn i seg selv.\n- Mange nordmenn er «**sekulære**» uten å være medlem av noen organisasjon.\n- Samtidig finnes **nyreligiøsitet** og **alternativ spiritualitet** – for eksempel yoga, meditasjon, healing og engletro – der mange setter sammen sin egen tro fra ulike kilder. Dette kalles ofte **religiøs individualisering**.\n\n## Sammenligning og kritikk\n\nHumanister og religiøse **deler** mange verdier, som **menneskeverd** og **nestekjærlighet**. Forskjellen ligger i **begrunnelsen**. Kritikere av humanismen spør om den kan begrunne **menneskeverdet** uten noe **høyere**, og om den gir for stor tro på **fornuft** og **fremskritt**.",
   "flashcards": [
-    { "term": "Sekulært livssyn", "def": "Livssyn som ikke bygger på guder eller det overnaturlige." },
-    { "term": "Humanisme", "def": "Livssyn som setter mennesket, fornuften og menneskeverdet i sentrum." },
-    { "term": "Protagoras", "def": "Gresk filosof: «Mennesket er alle tings mål.»" },
-    { "term": "Renessansehumanisme", "def": "Vekt på menneskets muligheter, utdanning og antikke tekster." },
-    { "term": "Opplysningstiden", "def": "1700-tallets vekt på fornuft, vitenskap og rettigheter." },
-    { "term": "Livssynshumanisme", "def": "Et annet ord for sekulær humanisme." },
-    { "term": "Evolusjon", "def": "Humanister ser mennesket som en del av naturen og utviklet gjennom evolusjon." },
-    { "term": "Human-Etisk Forbund", "def": "Humanistisk organisasjon stiftet i 1956." },
-    { "term": "Humanistisk konfirmasjon", "def": "Kurs og seremoni om etikk, livssyn og menneskerettigheter." },
-    { "term": "Navnefest", "def": "Humanistisk seremoni for barn." },
-    { "term": "Livssynsnøytralt samfunn", "def": "Samfunn der alle livssyn behandles likt." },
-    { "term": "Humanistisk etikk", "def": "Moral begrunnet i hva som gir gode liv, ikke i guddommelige bud." },
-    { "term": "Nyreligiøsitet", "def": "Nye former for religiøsitet og alternativ spiritualitet." },
-    { "term": "Religiøs individualisering", "def": "At folk setter sammen sin egen tro fra ulike kilder." },
-    { "term": "Menneskeverd", "def": "At alle mennesker har samme ukrenkelige verdi." }
+    {
+      "term": "Sekulært livssyn",
+      "def": "Livssyn som ikke bygger på guder eller det overnaturlige."
+    },
+    {
+      "term": "Humanisme",
+      "def": "Livssyn som setter mennesket, fornuften og menneskeverdet i sentrum."
+    },
+    {
+      "term": "Protagoras",
+      "def": "Gresk filosof: «Mennesket er alle tings mål.»"
+    },
+    {
+      "term": "Renessansehumanisme",
+      "def": "Vekt på menneskets muligheter, utdanning og antikke tekster."
+    },
+    {
+      "term": "Opplysningstiden",
+      "def": "1700-tallets vekt på fornuft, vitenskap og rettigheter."
+    },
+    {
+      "term": "Livssynshumanisme",
+      "def": "Et annet ord for sekulær humanisme."
+    },
+    {
+      "term": "Evolusjon",
+      "def": "Humanister ser mennesket som en del av naturen og utviklet gjennom evolusjon."
+    },
+    {
+      "term": "Human-Etisk Forbund",
+      "def": "Humanistisk organisasjon stiftet i 1956."
+    },
+    {
+      "term": "Humanistisk konfirmasjon",
+      "def": "Kurs og seremoni om etikk, livssyn og menneskerettigheter."
+    },
+    {
+      "term": "Navnefest",
+      "def": "Humanistisk seremoni for barn."
+    },
+    {
+      "term": "Livssynsnøytralt samfunn",
+      "def": "Samfunn der alle livssyn behandles likt."
+    },
+    {
+      "term": "Humanistisk etikk",
+      "def": "Moral begrunnet i hva som gir gode liv, ikke i guddommelige bud."
+    },
+    {
+      "term": "Nyreligiøsitet",
+      "def": "Nye former for religiøsitet og alternativ spiritualitet."
+    },
+    {
+      "term": "Religiøs individualisering",
+      "def": "At folk setter sammen sin egen tro fra ulike kilder."
+    },
+    {
+      "term": "Menneskeverd",
+      "def": "At alle mennesker har samme ukrenkelige verdi."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner et sekulært livssyn?", "options": ["Det bygger på guder", "Det bygger ikke på guder eller det overnaturlige", "Det har ingen verdier", "Det er alltid religiøst"], "correct": 1, "explain": "Humanismen er det viktigste i Norge." },
-    { "id": "q02", "text": "Hvem sa at «mennesket er alle tings mål»?", "options": ["Protagoras", "Luther", "Buddha", "Kant"], "correct": 0, "explain": "Gresk filosof i antikken." },
-    { "id": "q03", "text": "Hva ser sekulære humanister som den beste veien til kunnskap?", "options": ["Hellige tekster", "Åpenbaringer", "Fornuft, vitenskap og kritisk tenkning", "Tradisjon alene"], "correct": 2, "explain": "Et hovedprinsipp." },
-    { "id": "q04", "text": "Når ble Human-Etisk Forbund stiftet?", "options": ["1814", "1905", "1989", "1956"], "correct": 3, "explain": "En stor humanistisk organisasjon." },
-    { "id": "q05", "text": "Hvilken seremoni tilbyr Human-Etisk Forbund?", "options": ["Humanistisk konfirmasjon", "Dåp", "Nattverd", "Bar mitsva"], "correct": 0, "explain": "Også navnefest, vigsel og gravferd." },
-    { "id": "q06", "text": "Hvordan begrunner humanister moralen?", "options": ["I guddommelige bud", "I hva som gir gode liv for mennesker og andre levende vesener", "I kongens vilje", "I tilfeldigheter"], "correct": 1, "explain": "Også i menneskerettigheter og empati." },
-    { "id": "q07", "text": "Hva er religiøs individualisering?", "options": ["At alle følger samme kirke", "At staten bestemmer tro", "At folk setter sammen sin egen tro fra ulike kilder", "At religion forsvinner"], "correct": 2, "explain": "Typisk for nyreligiøsitet." },
-    { "id": "q08", "text": "Hva er en kritikk mot humanismen?", "options": ["At den har for mange guder", "At den forbyr vitenskap", "At den er for religiøs", "At det er uklart hvordan den begrunner menneskeverdet uten noe høyere"], "correct": 3, "explain": "Også for stor tro på fremskritt." },
-    { "id": "q09", "text": "Hva la renessansehumanistene vekt på?", "options": ["Menneskets muligheter, utdanning og antikke tekster", "Kirkens makt", "Gjenfødelse", "Kongens guddommelige rett"], "correct": 0, "explain": "1400- og 1500-tallet." },
-    { "id": "q10", "text": "Hva deler humanister og religiøse ofte?", "options": ["Troen på Gud", "Verdier som menneskeverd og nestekjærlighet", "Synet på liv etter døden", "Hellige tekster"], "correct": 1, "explain": "Forskjellen ligger i begrunnelsen." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner et sekulært livssyn?",
+      "options": [
+        "Det bygger på guder",
+        "Det bygger ikke på guder eller det overnaturlige",
+        "Det har ingen verdier",
+        "Det er alltid religiøst"
+      ],
+      "correct": 1,
+      "explain": "Humanismen er det viktigste i Norge."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem sa at «mennesket er alle tings mål»?",
+      "options": [
+        "Protagoras",
+        "Luther",
+        "Buddha",
+        "Kant"
+      ],
+      "correct": 0,
+      "explain": "Gresk filosof i antikken."
+    },
+    {
+      "id": "q03",
+      "text": "Hva ser sekulære humanister som den beste veien til kunnskap?",
+      "options": [
+        "Hellige tekster",
+        "Åpenbaringer",
+        "Fornuft, vitenskap og kritisk tenkning",
+        "Tradisjon alene"
+      ],
+      "correct": 2,
+      "explain": "Et hovedprinsipp."
+    },
+    {
+      "id": "q04",
+      "text": "Når ble Human-Etisk Forbund stiftet?",
+      "options": [
+        "1814",
+        "1905",
+        "1989",
+        "1956"
+      ],
+      "correct": 3,
+      "explain": "En stor humanistisk organisasjon."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken seremoni tilbyr Human-Etisk Forbund?",
+      "options": [
+        "Humanistisk konfirmasjon",
+        "Dåp",
+        "Nattverd",
+        "Bar mitsva"
+      ],
+      "correct": 0,
+      "explain": "Også navnefest, vigsel og gravferd."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan begrunner humanister moralen?",
+      "options": [
+        "I guddommelige bud",
+        "I hva som gir gode liv for mennesker og andre levende vesener",
+        "I kongens vilje",
+        "I tilfeldigheter"
+      ],
+      "correct": 1,
+      "explain": "Også i menneskerettigheter og empati."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er religiøs individualisering?",
+      "options": [
+        "At alle følger samme kirke",
+        "At staten bestemmer tro",
+        "At folk setter sammen sin egen tro fra ulike kilder",
+        "At religion forsvinner"
+      ],
+      "correct": 2,
+      "explain": "Typisk for nyreligiøsitet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en kritikk mot humanismen?",
+      "options": [
+        "At den har for mange guder",
+        "At den forbyr vitenskap",
+        "At den er for religiøs",
+        "At det er uklart hvordan den begrunner menneskeverdet uten noe høyere"
+      ],
+      "correct": 3,
+      "explain": "Også for stor tro på fremskritt."
+    },
+    {
+      "id": "q09",
+      "text": "Hva la renessansehumanistene vekt på?",
+      "options": [
+        "Menneskets muligheter, utdanning og antikke tekster",
+        "Kirkens makt",
+        "Gjenfødelse",
+        "Kongens guddommelige rett"
+      ],
+      "correct": 0,
+      "explain": "1400- og 1500-tallet."
+    },
+    {
+      "id": "q10",
+      "text": "Hva deler humanister og religiøse ofte?",
+      "options": [
+        "Troen på Gud",
+        "Verdier som menneskeverd og nestekjærlighet",
+        "Synet på liv etter døden",
+        "Hellige tekster"
+      ],
+      "correct": 1,
+      "explain": "Forskjellen ligger i begrunnelsen."
+    }
   ],
   "mindmap": {
     "label": "Humanisme og sekulære livssyn",
     "children": [
-      { "label": "Historie", "children": [
-        { "label": "Antikken" },
-        { "label": "Renessansen" },
-        { "label": "Opplysningstiden" }
-      ] },
-      { "label": "Sekulær humanisme", "children": [
-        { "label": "Natur og evolusjon" },
-        { "label": "Fornuft og vitenskap" },
-        { "label": "Menneskeverd og ansvar" }
-      ] },
-      { "label": "Human-Etisk Forbund", "children": [
-        { "label": "Seremonier" },
-        { "label": "Livssynsnøytralitet" }
-      ] },
-      { "label": "Andre tendenser", "children": [
-        { "label": "Ateisme og agnostisisme" },
-        { "label": "Nyreligiøsitet" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Felles verdier" },
-        { "label": "Ulik begrunnelse" }
-      ] }
+      {
+        "label": "Historie",
+        "children": [
+          {
+            "label": "Antikken"
+          },
+          {
+            "label": "Renessansen"
+          },
+          {
+            "label": "Opplysningstiden"
+          }
+        ]
+      },
+      {
+        "label": "Sekulær humanisme",
+        "children": [
+          {
+            "label": "Natur og evolusjon"
+          },
+          {
+            "label": "Fornuft og vitenskap"
+          },
+          {
+            "label": "Menneskeverd og ansvar"
+          }
+        ]
+      },
+      {
+        "label": "Human-Etisk Forbund",
+        "children": [
+          {
+            "label": "Seremonier"
+          },
+          {
+            "label": "Livssynsnøytralitet"
+          }
+        ]
+      },
+      {
+        "label": "Andre tendenser",
+        "children": [
+          {
+            "label": "Ateisme og agnostisisme"
+          },
+          {
+            "label": "Nyreligiøsitet"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Felles verdier"
+          },
+          {
+            "label": "Ulik begrunnelse"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Humanister mener at meningen med livet er noe mennesker selv må skape.", "correct": true, "explain": "Ikke gitt av en gud." },
-      { "id": "m02", "type": "sant-usant", "text": "Ateisme er et fullstendig livssyn i seg selv.", "correct": false, "explain": "Det er et standpunkt om Gud." },
-      { "id": "m03", "type": "sant-usant", "text": "Human-Etisk Forbund arbeider for et livssynsnøytralt samfunn.", "correct": true, "explain": "Alle livssyn skal behandles likt." },
-      { "id": "m04", "type": "sant-usant", "text": "Humanister mener man ikke kan være god uten Gud.", "correct": false, "explain": "De mener man kan være god uten Gud." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er et eksempel på alternativ spiritualitet?", "options": ["Humanistisk konfirmasjon", "Healing og engletro", "Vitenskapelig metode", "Ateisme"], "correct": 1, "explain": "Nyreligiøsitet." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken periode satte fornuft, vitenskap og menneskerettigheter i sentrum?", "options": ["Opplysningstiden", "Middelalderen", "Vikingtiden", "Steinalderen"], "correct": 0, "explain": "1700-tallet." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken type etikk er humanistisk etikk ofte orientert mot?", "options": ["Guddommelige bud", "Tradisjon alene", "Konsekvenser for de berørte", "Kongens lover"], "correct": 2, "explain": "Hva gir best resultat?" }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Humanister mener at meningen med livet er noe mennesker selv må skape.",
+        "correct": true,
+        "explain": "Ikke gitt av en gud."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Ateisme er et fullstendig livssyn i seg selv.",
+        "correct": false,
+        "explain": "Det er et standpunkt om Gud."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Human-Etisk Forbund arbeider for et livssynsnøytralt samfunn.",
+        "correct": true,
+        "explain": "Alle livssyn skal behandles likt."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Humanister mener man ikke kan være god uten Gud.",
+        "correct": false,
+        "explain": "De mener man kan være god uten Gud."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på alternativ spiritualitet?",
+        "options": [
+          "Humanistisk konfirmasjon",
+          "Healing og engletro",
+          "Vitenskapelig metode",
+          "Ateisme"
+        ],
+        "correct": 1,
+        "explain": "Nyreligiøsitet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken periode satte fornuft, vitenskap og menneskerettigheter i sentrum?",
+        "options": [
+          "Opplysningstiden",
+          "Middelalderen",
+          "Vikingtiden",
+          "Steinalderen"
+        ],
+        "correct": 0,
+        "explain": "1700-tallet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken type etikk er humanistisk etikk ofte orientert mot?",
+        "options": [
+          "Guddommelige bud",
+          "Tradisjon alene",
+          "Konsekvenser for de berørte",
+          "Kongens lover"
+        ],
+        "correct": 2,
+        "explain": "Hva gir best resultat?"
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva kjennetegner humanismen som livssyn, utover at den ikke bygger på guder eller det overnaturlige?",
+        "fasit": "Humanismen setter mennesket, fornuften og menneskeverdet i sentrum. Den legger vekt på menneskers frihet og ansvar.",
+        "kriterier": [
+          "Får fram at mennesket står i sentrum.",
+          "Knytter humanismen til fornuft eller menneskeverd."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hvordan passer synet på evolusjon sammen med humanistenes syn på mennesket?",
+        "fasit": "Humanister ser mennesket som en del av naturen, som har utviklet seg gjennom evolusjon. Mennesket forstås dermed ikke som løsrevet fra naturen.",
+        "kriterier": [
+          "Får fram at mennesket er en del av naturen.",
+          "Knytter menneskets utvikling til evolusjon."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign hva som var særlig sentralt for filosofer i antikken, med hva som ble sentralt i opplysningstiden.",
+        "fasit": "I antikken satte filosofer som Sokrates og Protagoras mennesket og fornuften i sentrum. I opplysningstiden ble også vitenskap og menneskerettigheter viktige, og mange filosofer kritiserte kirkens makt.",
+        "kriterier": [
+          "Får fram mennesket og fornuften som sentralt i antikken.",
+          "Får fram vitenskap, menneskerettigheter eller kritikk av kirkens makt som sentralt i opplysningstiden."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev vurderer å dele et bilde av en medelev uten å spørre først. Hvordan kan humanistisk etikk brukes til å vurdere valget?",
+        "fasit": "En humanistisk vurdering ser på konsekvensene for den som blir berørt, og tar hensyn til empati og menneskeverd. Eleven har ansvar for egne valg og bør vurdere om delingen kan skade den andre.",
+        "kriterier": [
+          "Viser at konsekvensene for den berørte personen bør vurderes.",
+          "Knytter vurderingen til empati, menneskeverd eller ansvar for egne valg."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Human-Etisk Forbund arbeider for et livssynsnøytralt samfunn. Hva betyr det, og hvordan henger det sammen med forbundets kritikk av kirkens særstilling?",
+        "fasit": "Et livssynsnøytralt samfunn behandler ulike livssyn likt. Derfor har Human-Etisk Forbund vært kritisk til at kirken har hatt en særstilling.",
+        "kriterier": [
+          "Forklarer at ulike livssyn skal behandles likt.",
+          "Knytter dette til kritikken av kirkens særstilling."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En person forteller at hen er ateist eller agnostiker. Hvorfor forteller ikke dette alene hvilket livssyn personen har?",
+        "fasit": "Ateisme og agnostisisme er standpunkter om Gud, men ikke hele livssyn i seg selv. De sier derfor ikke alene hva personen mener om for eksempel mennesket, moral eller meningen med livet.",
+        "kriterier": [
+          "Får fram at ateisme og agnostisisme er standpunkter om Gud.",
+          "Forklarer at standpunktene ikke alene dekker et helt livssyn."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hva innebærer menneskeverd i humanismen, og hva betyr det for hvordan mennesker bør vurderes?",
+        "fasit": "Menneskeverd betyr at alle mennesker har samme ukrenkelige verdi. I humanismen skal ikke menneskers verdi gjøres avhengig av hvem de er eller hvilket livssyn de har.",
+        "kriterier": [
+          "Får fram at alle mennesker har samme verdi.",
+          "Får fram at verdien er ukrenkelig eller ikke avhenger av bestemte kjennetegn."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hva mener humanister når de sier at mennesket selv må skape meningen med livet?",
+        "fasit": "Humanister mener at meningen med livet ikke er gitt på forhånd, men at mennesker selv må skape den. Det innebærer at mennesker kan finne eller forme mening gjennom egne valg og liv.",
+        "kriterier": [
+          "Får fram at mennesker selv skaper meningen med livet.",
+          "Skiller dette fra en mening som er gitt på forhånd."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

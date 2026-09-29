@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Aktuelle og rettshistoriske juridiske spørsmål",
   "intro": "Viktige milepæler i norsk rettshistorie – fra landskapslovene og Magnus Lagabøtes landslov til Grunnloven og menneskerettighetene – og hvordan du utforsker og drøfter dagsaktuelle juridiske problemstillinger.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Hvorfor rettshistorie?\n\nRetten **endrer seg** med samfunnet. Ved å se på rettshistorien forstår vi bedre **hvorfor** reglene er som de er – og at det vi i dag tar for gitt, en gang var **omstridt**.\n\n## Milepæler i norsk rettshistorie\n\n- **Landskapslovene** i middelalderen, som **Gulatingsloven** og **Frostatingsloven**, ble vedtatt på **ting** der frie menn møttes. «**Med lov skal land bygges**» er et kjent uttrykk fra denne tiden.\n- **Magnus Lagabøtes landslov** fra **1274** ga hele Norge én felles lov – noe av det første i Europa.\n- **Christian 5.s Norske Lov** fra **1687** samlet lovene under **eneveldet**.\n- **Grunnloven** fra **1814** innførte **folkesuverenitet**, **maktfordeling** og **rettigheter** som ytringsfrihet og vern mot vilkårlig fengsling.\n- **Kvinners rettigheter**: Gifte kvinner ble **myndige** på slutten av 1800-tallet, og kvinner fikk **stemmerett** i **1913**.\n- **Dødsstraff** ble avskaffet i fredstid i **1902**, men brukt i **landssvikoppgjøret** etter andre verdenskrig. Den ble helt avskaffet i **1979**.\n- **Menneskerettsloven** (1999) og **Grunnlovens menneskerettighetskapittel** (2014) styrket menneskerettighetenes stilling.\n- **Diskriminering**: Homofili var straffbart i Norge fram til **1972**. I dag vernes seksuell orientering av diskrimineringsloven.\n\n## Dagsaktuelle problemstillinger\n\nNye samfunnsforhold gir nye **juridiske** spørsmål:\n\n- **Kunstig intelligens**: Hvem har **ansvaret** når en KI-løsning gjør feil? Hvem har **opphavsretten** til innhold laget av KI, og er det lov å trene KI på andres verk?\n- **Personvern**: Hvor mye kan bedrifter og staten samle inn av **data** om oss?\n- **Barnevern**: Norge har tapt flere saker i **Den europeiske menneskerettsdomstolen** om retten til **familieliv**.\n- **Klima og miljø**: **Klimasøksmålet** om oljeboring og Grunnlovens miljøparagraf (**§ 112**).\n- **Urfolksrett**: **Fosen-saken**, der Høyesterett i 2021 kom fram til at vindkraftverk krenket reindriftssamenes rettigheter.\n- **Netthets** og **ytringsfrihet**: Hvor går grensen mellom lovlige og straffbare ytringer?\n\n## Slik drøfter du en juridisk problemstilling\n\n1. **Beskriv** saken og hvorfor den er aktuell.\n2. Finn **gjeldende rett**: Hvilke **lover**, **dommer** og **menneskerettigheter** er relevante?\n3. Løft fram **hensyn** som taler for ulike løsninger – for eksempel **rettssikkerhet**, **personvern**, **barnets beste**, **forutberegnelighet** eller **effektivitet**.\n4. Vurder **argumenter for og mot**.\n5. Skill mellom hva som **er** gjeldende rett (**de lege lata**) og hva som **bør** være gjeldende rett (**de lege ferenda**).\n6. Kom fram til en **begrunnet konklusjon**.\n\n## Kilder\n\nBruk **Lovdata** for lover og dommer, **regjeringen.no** for forarbeider, og **redaktørstyrte medier** og **fagartikler** for å følge debatten. Vær **kildekritisk** til innlegg fra parter med **egeninteresse** i saken.\n\n## Refleksjon\n\nRettshistorien viser at retten både **speiler** og **former** samfunnets verdier. Mange rettigheter vi har i dag, er resultat av **kamp** – og dagens juridiske debatter former morgendagens lover.",
   "flashcards": [
-    { "term": "Landskapslovene", "def": "Middelalderlover som Gulatingsloven og Frostatingsloven." },
-    { "term": "«Med lov skal land bygges»", "def": "Kjent uttrykk fra middelalderens lovgivning." },
-    { "term": "Magnus Lagabøtes landslov", "def": "Felles lov for hele Norge fra 1274." },
-    { "term": "Christian 5.s Norske Lov", "def": "Samlet lovene under eneveldet i 1687." },
-    { "term": "Grunnloven 1814", "def": "Folkesuverenitet, maktfordeling og rettigheter." },
-    { "term": "Stemmerett for kvinner", "def": "Innført i Norge i 1913." },
-    { "term": "Dødsstraff", "def": "Avskaffet i fredstid i 1902 og helt i 1979." },
-    { "term": "Landssvikoppgjøret", "def": "Rettsoppgjøret etter andre verdenskrig." },
-    { "term": "Homofili avkriminalisert", "def": "I Norge i 1972." },
-    { "term": "Grunnloven § 112", "def": "Retten til et sunt miljø." },
-    { "term": "Klimasøksmålet", "def": "Rettssak om oljeboring og miljøparagrafen." },
-    { "term": "De lege lata", "def": "Det som er gjeldende rett." },
-    { "term": "De lege ferenda", "def": "Det som bør være gjeldende rett." },
-    { "term": "KI og opphavsrett", "def": "Aktuelt spørsmål om rettigheter til innhold laget av KI." },
-    { "term": "Juridisk drøfting", "def": "Gjeldende rett, hensyn, argumenter og begrunnet konklusjon." }
+    {
+      "term": "Landskapslovene",
+      "def": "Middelalderlover som Gulatingsloven og Frostatingsloven."
+    },
+    {
+      "term": "«Med lov skal land bygges»",
+      "def": "Kjent uttrykk fra middelalderens lovgivning."
+    },
+    {
+      "term": "Magnus Lagabøtes landslov",
+      "def": "Felles lov for hele Norge fra 1274."
+    },
+    {
+      "term": "Christian 5.s Norske Lov",
+      "def": "Samlet lovene under eneveldet i 1687."
+    },
+    {
+      "term": "Grunnloven 1814",
+      "def": "Folkesuverenitet, maktfordeling og rettigheter."
+    },
+    {
+      "term": "Stemmerett for kvinner",
+      "def": "Innført i Norge i 1913."
+    },
+    {
+      "term": "Dødsstraff",
+      "def": "Avskaffet i fredstid i 1902 og helt i 1979."
+    },
+    {
+      "term": "Landssvikoppgjøret",
+      "def": "Rettsoppgjøret etter andre verdenskrig."
+    },
+    {
+      "term": "Homofili avkriminalisert",
+      "def": "I Norge i 1972."
+    },
+    {
+      "term": "Grunnloven § 112",
+      "def": "Retten til et sunt miljø."
+    },
+    {
+      "term": "Klimasøksmålet",
+      "def": "Rettssak om oljeboring og miljøparagrafen."
+    },
+    {
+      "term": "De lege lata",
+      "def": "Det som er gjeldende rett."
+    },
+    {
+      "term": "De lege ferenda",
+      "def": "Det som bør være gjeldende rett."
+    },
+    {
+      "term": "KI og opphavsrett",
+      "def": "Aktuelt spørsmål om rettigheter til innhold laget av KI."
+    },
+    {
+      "term": "Juridisk drøfting",
+      "def": "Gjeldende rett, hensyn, argumenter og begrunnet konklusjon."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva var Magnus Lagabøtes landslov fra 1274?", "options": ["Norges første grunnlov", "En felles lov for hele Norge", "En lov om arv bare", "En handelsavtale"], "correct": 1, "explain": "Noe av det første i Europa." },
-    { "id": "q02", "text": "Når fikk kvinner stemmerett i Norge?", "options": ["1913", "1814", "1884", "1945"], "correct": 0, "explain": "Menn fikk allmenn stemmerett i 1898." },
-    { "id": "q03", "text": "Når ble dødsstraff helt avskaffet i Norge?", "options": ["1814", "1902", "1979", "2000"], "correct": 2, "explain": "I fredstid allerede i 1902." },
-    { "id": "q04", "text": "Hva betyr de lege ferenda?", "options": ["Det som er gjeldende rett", "En type dom", "En lov fra middelalderen", "Det som bør være gjeldende rett"], "correct": 3, "explain": "De lege lata er gjeldende rett." },
-    { "id": "q05", "text": "Hvilken paragraf i Grunnloven handler om retten til et sunt miljø?", "options": ["§ 112", "§ 1", "§ 96", "§ 104"], "correct": 0, "explain": "Brukt i klimasøksmålet." },
-    { "id": "q06", "text": "Hvilket juridisk spørsmål reiser kunstig intelligens?", "options": ["Hvem som skal betale arveavgift", "Hvem som har ansvaret og opphavsretten", "Hvor mange dommere Høyesterett skal ha", "Hvor gammel man må være for å gifte seg"], "correct": 1, "explain": "Et dagsaktuelt spørsmål." },
-    { "id": "q07", "text": "Når ble homofili avkriminalisert i Norge?", "options": ["1814", "1945", "1972", "2009"], "correct": 2, "explain": "I dag er seksuell orientering vernet mot diskriminering." },
-    { "id": "q08", "text": "Hva hørte til Grunnloven av 1814?", "options": ["Enevelde", "Stemmerett for alle", "Dødsstraff for alle lovbrudd", "Folkesuverenitet og maktfordeling"], "correct": 3, "explain": "Og rettigheter som ytringsfrihet." },
-    { "id": "q09", "text": "Hvor bør du finne lover og dommer når du drøfter en juridisk sak?", "options": ["Lovdata", "Sosiale medier", "Reklame", "Et partiprogram"], "correct": 0, "explain": "Den offisielle kilden." },
-    { "id": "q10", "text": "Hva viser rettshistorien om forholdet mellom rett og samfunn?", "options": ["At retten aldri endres", "At retten både speiler og former samfunnets verdier", "At retten ikke har med verdier å gjøre", "At bare dommere bestemmer"], "correct": 1, "explain": "Mange rettigheter er resultat av kamp." }
+    {
+      "id": "q01",
+      "text": "Hva var Magnus Lagabøtes landslov fra 1274?",
+      "options": [
+        "Norges første grunnlov",
+        "En felles lov for hele Norge",
+        "En lov om arv bare",
+        "En handelsavtale"
+      ],
+      "correct": 1,
+      "explain": "Noe av det første i Europa."
+    },
+    {
+      "id": "q02",
+      "text": "Når fikk kvinner stemmerett i Norge?",
+      "options": [
+        "1913",
+        "1814",
+        "1884",
+        "1945"
+      ],
+      "correct": 0,
+      "explain": "Menn fikk allmenn stemmerett i 1898."
+    },
+    {
+      "id": "q03",
+      "text": "Når ble dødsstraff helt avskaffet i Norge?",
+      "options": [
+        "1814",
+        "1902",
+        "1979",
+        "2000"
+      ],
+      "correct": 2,
+      "explain": "I fredstid allerede i 1902."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr de lege ferenda?",
+      "options": [
+        "Det som er gjeldende rett",
+        "En type dom",
+        "En lov fra middelalderen",
+        "Det som bør være gjeldende rett"
+      ],
+      "correct": 3,
+      "explain": "De lege lata er gjeldende rett."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken paragraf i Grunnloven handler om retten til et sunt miljø?",
+      "options": [
+        "§ 112",
+        "§ 1",
+        "§ 96",
+        "§ 104"
+      ],
+      "correct": 0,
+      "explain": "Brukt i klimasøksmålet."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilket juridisk spørsmål reiser kunstig intelligens?",
+      "options": [
+        "Hvem som skal betale arveavgift",
+        "Hvem som har ansvaret og opphavsretten",
+        "Hvor mange dommere Høyesterett skal ha",
+        "Hvor gammel man må være for å gifte seg"
+      ],
+      "correct": 1,
+      "explain": "Et dagsaktuelt spørsmål."
+    },
+    {
+      "id": "q07",
+      "text": "Når ble homofili avkriminalisert i Norge?",
+      "options": [
+        "1814",
+        "1945",
+        "1972",
+        "2009"
+      ],
+      "correct": 2,
+      "explain": "I dag er seksuell orientering vernet mot diskriminering."
+    },
+    {
+      "id": "q08",
+      "text": "Hva hørte til Grunnloven av 1814?",
+      "options": [
+        "Enevelde",
+        "Stemmerett for alle",
+        "Dødsstraff for alle lovbrudd",
+        "Folkesuverenitet og maktfordeling"
+      ],
+      "correct": 3,
+      "explain": "Og rettigheter som ytringsfrihet."
+    },
+    {
+      "id": "q09",
+      "text": "Hvor bør du finne lover og dommer når du drøfter en juridisk sak?",
+      "options": [
+        "Lovdata",
+        "Sosiale medier",
+        "Reklame",
+        "Et partiprogram"
+      ],
+      "correct": 0,
+      "explain": "Den offisielle kilden."
+    },
+    {
+      "id": "q10",
+      "text": "Hva viser rettshistorien om forholdet mellom rett og samfunn?",
+      "options": [
+        "At retten aldri endres",
+        "At retten både speiler og former samfunnets verdier",
+        "At retten ikke har med verdier å gjøre",
+        "At bare dommere bestemmer"
+      ],
+      "correct": 1,
+      "explain": "Mange rettigheter er resultat av kamp."
+    }
   ],
   "mindmap": {
     "label": "Aktuelle og rettshistoriske saker",
     "children": [
-      { "label": "Middelalder", "children": [
-        { "label": "Landskapslovene" },
-        { "label": "Landsloven 1274" }
-      ] },
-      { "label": "Enevelde og 1814", "children": [
-        { "label": "Norske Lov 1687" },
-        { "label": "Grunnloven" }
-      ] },
-      { "label": "Endringer", "children": [
-        { "label": "Kvinners rettigheter" },
-        { "label": "Dødsstraff" },
-        { "label": "Homofili 1972" }
-      ] },
-      { "label": "Aktuelt", "children": [
-        { "label": "KI" },
-        { "label": "Personvern" },
-        { "label": "Klima og Fosen" },
-        { "label": "Barnevern i EMD" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Gjeldende rett" },
-        { "label": "Hensyn og argumenter" },
-        { "label": "Lata og ferenda" }
-      ] }
+      {
+        "label": "Middelalder",
+        "children": [
+          {
+            "label": "Landskapslovene"
+          },
+          {
+            "label": "Landsloven 1274"
+          }
+        ]
+      },
+      {
+        "label": "Enevelde og 1814",
+        "children": [
+          {
+            "label": "Norske Lov 1687"
+          },
+          {
+            "label": "Grunnloven"
+          }
+        ]
+      },
+      {
+        "label": "Endringer",
+        "children": [
+          {
+            "label": "Kvinners rettigheter"
+          },
+          {
+            "label": "Dødsstraff"
+          },
+          {
+            "label": "Homofili 1972"
+          }
+        ]
+      },
+      {
+        "label": "Aktuelt",
+        "children": [
+          {
+            "label": "KI"
+          },
+          {
+            "label": "Personvern"
+          },
+          {
+            "label": "Klima og Fosen"
+          },
+          {
+            "label": "Barnevern i EMD"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Gjeldende rett"
+          },
+          {
+            "label": "Hensyn og argumenter"
+          },
+          {
+            "label": "Lata og ferenda"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Dødsstraff ble brukt i landssvikoppgjøret etter andre verdenskrig.", "correct": true, "explain": "Selv om den var avskaffet i fredstid." },
-      { "id": "m02", "type": "sant-usant", "text": "Norge har aldri tapt saker i Den europeiske menneskerettsdomstolen.", "correct": false, "explain": "Norge har tapt flere saker, blant annet om barnevern." },
-      { "id": "m03", "type": "sant-usant", "text": "I en juridisk drøfting bør du skille mellom gjeldende rett og hva retten bør være.", "correct": true, "explain": "De lege lata og de lege ferenda." },
-      { "id": "m04", "type": "sant-usant", "text": "Landskapslovene ble vedtatt av kongen alene.", "correct": false, "explain": "De ble vedtatt på ting der frie menn møttes." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken lov samlet lovene under eneveldet?", "options": ["Magnus Lagabøtes landslov", "Christian 5.s Norske Lov", "Grunnloven", "Menneskerettsloven"], "correct": 1, "explain": "Fra 1687." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket hensyn er sentralt i barnevernssaker?", "options": ["Barnets beste", "Effektivitet alene", "Kostnader alene", "Ingen hensyn"], "correct": 0, "explain": "Veid mot retten til familieliv." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor bør du være kildekritisk til innlegg fra parter i en sak?", "options": ["Fordi de alltid lyver", "Fordi de er for korte", "Fordi de kan ha egeninteresse i saken", "Fordi de ikke er på Lovdata"], "correct": 2, "explain": "Sjekk mot flere kilder." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Dødsstraff ble brukt i landssvikoppgjøret etter andre verdenskrig.",
+        "correct": true,
+        "explain": "Selv om den var avskaffet i fredstid."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Norge har aldri tapt saker i Den europeiske menneskerettsdomstolen.",
+        "correct": false,
+        "explain": "Norge har tapt flere saker, blant annet om barnevern."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "I en juridisk drøfting bør du skille mellom gjeldende rett og hva retten bør være.",
+        "correct": true,
+        "explain": "De lege lata og de lege ferenda."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Landskapslovene ble vedtatt av kongen alene.",
+        "correct": false,
+        "explain": "De ble vedtatt på ting der frie menn møttes."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken lov samlet lovene under eneveldet?",
+        "options": [
+          "Magnus Lagabøtes landslov",
+          "Christian 5.s Norske Lov",
+          "Grunnloven",
+          "Menneskerettsloven"
+        ],
+        "correct": 1,
+        "explain": "Fra 1687."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket hensyn er sentralt i barnevernssaker?",
+        "options": [
+          "Barnets beste",
+          "Effektivitet alene",
+          "Kostnader alene",
+          "Ingen hensyn"
+        ],
+        "correct": 0,
+        "explain": "Veid mot retten til familieliv."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor bør du være kildekritisk til innlegg fra parter i en sak?",
+        "options": [
+          "Fordi de alltid lyver",
+          "Fordi de er for korte",
+          "Fordi de kan ha egeninteresse i saken",
+          "Fordi de ikke er på Lovdata"
+        ],
+        "correct": 2,
+        "explain": "Sjekk mot flere kilder."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva var landskapslovene, og hvordan ble de vedtatt?",
+        "fasit": "Landskapslovene var middelalderlover, blant annet Gulatingsloven og Frostatingsloven. De ble vedtatt på ting der frie menn møttes.",
+        "kriterier": [
+          "Forklarer at dette var lover fra middelalderen, gjerne med et eksempel.",
+          "Får fram at lovene ble vedtatt på ting der frie menn møttes."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign hvordan landskapslovene og Christian 5.s Norske Lov ble til. Hva er en viktig forskjell?",
+        "fasit": "Landskapslovene ble vedtatt på ting der frie menn møttes. Christian 5.s Norske Lov samlet lovene under eneveldet i 1687.",
+        "kriterier": [
+          "Beskriver at landskapslovene ble vedtatt på ting der frie menn møttes.",
+          "Beskriver at Christian 5.s Norske Lov samlet lovene under eneveldet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev sier at dødsstraff ble avskaffet i Norge i 1902, og derfor ikke kunne brukes etter det året. Forklar hva eleven har misforstått.",
+        "fasit": "Dødsstraff ble avskaffet i fredstid i 1902, men ble brukt i landssvikoppgjøret etter andre verdenskrig. Den ble helt avskaffet i 1979.",
+        "kriterier": [
+          "Skiller mellom avskaffelsen i fredstid i 1902 og at dødsstraff fortsatt ble brukt i landssvikoppgjøret.",
+          "Får fram at dødsstraff først ble helt avskaffet i 1979."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Bedrifter og staten kan samle inn data om mennesker. Forklar hvorfor dette kan bli et juridisk spørsmål når samfunnet endrer seg.",
+        "fasit": "Nye forhold kan skape spørsmål som lovene må ta stilling til. Når bedrifter eller staten samler inn data, blir det for eksempel et spørsmål hvor mye de kan samle inn uten å krenke personvernet.",
+        "kriterier": [
+          "Forklarer at nye samfunnsforhold kan føre til nye juridiske spørsmål.",
+          "Knytter eksempelet til spørsmålet om hvor mye data bedrifter eller staten kan samle inn, eller til personvern."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En juridisk drøfting beskriver først hva som er gjeldende rett, og vurderer deretter hva retten bør være. Hvilket begrep passer til hver del?",
+        "fasit": "Det som er gjeldende rett, er de lege lata. Det som bør være gjeldende rett, er de lege ferenda.",
+        "kriterier": [
+          "Knytter de lege lata til det som er gjeldende rett.",
+          "Knytter de lege ferenda til det som bør være gjeldende rett."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I Fosen-saken kom Høyesterett i 2021 fram til at vindkraftverk krenket reindriftssamenes rettigheter. Forklar hvorfor saken er et eksempel på en aktuell problemstilling om urfolksrett.",
+        "fasit": "Saken handler om hvordan vindkraftverk påvirket reindriftssamenes rettigheter. Høyesteretts konklusjon om at rettighetene var krenket, gjør saken til et juridisk spørsmål om urfolksrett.",
+        "kriterier": [
+          "Knytter saken til reindriftssamenes rettigheter og vindkraftverkene.",
+          "Får fram at Høyesterett kom fram til at rettighetene var krenket."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En part i en juridisk sak publiserer et innlegg med påstander som støtter partens egen interesse. Forklar hvordan du bør undersøke påstandene før du bruker dem som kilder.",
+        "fasit": "Vær kildekritisk fordi parten kan ha egeninteresse i saken. Kontroller juridiske opplysninger mot lover og dommer i Lovdata, og bruk gjerne redaktørstyrte medier eller fagartikler for å undersøke debatten.",
+        "kriterier": [
+          "Får fram at partens egeninteresse gjør det viktig å være kildekritisk.",
+          "Nevner relevante kilder å kontrollere opplysningene mot, for eksempel Lovdata for lover og dommer eller redaktørstyrte medier og fagartikler."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du skal drøfte en sak om oljeboring og Grunnlovens miljøparagraf. Beskriv hva du bør undersøke og vurdere før du kommer med en begrunnet konklusjon.",
+        "fasit": "Jeg bør finne gjeldende rett, blant annet relevante lover, dommer og menneskerettigheter, og ta med hensyn og argumenter som taler for ulike løsninger. Deretter bør jeg vurdere argumentene og begrunne konklusjonen.",
+        "kriterier": [
+          "Får fram at drøftingen må undersøke relevant gjeldende rett, som lover eller dommer.",
+          "Får fram at ulike hensyn eller argumenter må vurderes før en begrunnet konklusjon."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

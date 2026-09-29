@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Forsøk, målinger og modeller i fysikk",
   "intro": "Hvordan du planlegger og gjennomfører fysikkforsøk, håndterer måleusikkerhet, gjeldende siffer og feilkilder, analyserer data med grafer og regresjon, og vurderer, bruker og lager modeller av fysiske fenomener.",
-  "kompetansemaal": [1, 2],
+  "kompetansemaal": [
+    1,
+    2
+  ],
   "sammendrag": "## Fysikk er en eksperimentell vitenskap\n\nFysikken bygger på **målinger**. En god forsøksrapport viser **hypotese**, **utstyr**, **framgangsmåte**, **resultater**, **analyse** og **konklusjon**.\n\n## Planlegge et forsøk\n\n- Hva er **problemstillingen**?\n- Hvilken **uavhengig variabel** endrer du, og hvilken **avhengig variabel** måler du?\n- Hvilke variabler må **holdes konstante**?\n- Hvor mange **målinger** trenger du for et pålitelig resultat?\n\n## Måleusikkerhet\n\nIngen måling er helt nøyaktig. **Måleusikkerheten** angis ofte som ± : *l = (2,45 ± 0,01) m*.\n\n- **Tilfeldige feil** varierer fra måling til måling, for eksempel reaksjonstid ved bruk av stoppeklokke. De reduseres ved å ta **gjennomsnittet** av mange målinger.\n- **Systematiske feil** påvirker alle målinger likt, for eksempel en vekt som ikke er nullstilt. De oppdages ved å **kontrollere utstyret** og sammenligne med kjente verdier.\n- **Relativ usikkerhet** = usikkerhet / måleverdi, ofte i prosent.\n\n## Gjeldende siffer\n\nSvaret bør ikke ha flere **gjeldende siffer** enn den minst nøyaktige målingen. 2,4 m / 1,23 s = 1,951… m/s → **2,0 m/s** (to gjeldende siffer). Bruk **standardform** for svært store og små tall: 0,000 45 = 4,5 · 10⁻⁴.\n\n## SI-enheter\n\nGrunnenheter er blant annet **meter** (m), **kilogram** (kg), **sekund** (s), **ampere** (A) og **kelvin** (K). Avledede enheter som **newton** (N = kg·m/s²) og **joule** (J = N·m) er bygd av dem. Sjekk alltid at enhetene i en beregning **stemmer**.\n\n## Analysere data\n\n- Lag **tabell** og **graf** med den uavhengige variabelen på **x-aksen**.\n- Bruk **regresjon** i regneark eller GeoGebra for å finne sammenhengen. En **lineær** sammenheng gir en rett linje; **stigningstallet** har ofte en fysisk betydning, som en fart eller en konstant.\n- Noen ganger lønner det seg å **linearisere**: Hvis s = ½at², gir en graf av s mot t² en rett linje med stigningstall a/2.\n\n## Modeller\n\nEn **modell** er en forenklet beskrivelse som kan **forklare** og **forutsi**. Eksempler er **modellen av fritt fall uten luftmotstand**, **atommodeller** og **klimamodeller**. En god modell\n\n- stemmer med **målinger**\n- kan gi **testbare forutsigelser**\n- har et tydelig **gyldighetsområde** – modellen for fritt fall uten luftmotstand passer for en stein, men ikke for en fallskjerm\n\nNår målinger ikke stemmer med modellen, må vi vurdere om det skyldes **feil i målingene** eller om modellen må **forbedres**.",
   "flashcards": [
-    { "term": "Uavhengig variabel", "def": "Det du endrer i et forsøk." },
-    { "term": "Avhengig variabel", "def": "Det du måler i et forsøk." },
-    { "term": "Måleusikkerhet", "def": "Hvor nøyaktig en måling er, angitt med ±." },
-    { "term": "Tilfeldig feil", "def": "Feil som varierer fra måling til måling – reduseres med gjennomsnitt." },
-    { "term": "Systematisk feil", "def": "Feil som påvirker alle målinger likt, som en vekt som ikke er nullstilt." },
-    { "term": "Relativ usikkerhet", "def": "Usikkerhet delt på måleverdien, ofte i prosent." },
-    { "term": "Gjeldende siffer", "def": "Siffer som sier noe om nøyaktigheten i et tall." },
-    { "term": "SI-grunnenheter", "def": "Blant annet meter, kilogram, sekund, ampere og kelvin." },
-    { "term": "Newton (N)", "def": "kg·m/s²" },
-    { "term": "Joule (J)", "def": "N·m" },
-    { "term": "Regresjon", "def": "Å finne funksjonen som passer best til måledata." },
-    { "term": "Linearisere", "def": "Å velge akser slik at sammenhengen blir en rett linje." },
-    { "term": "Modell", "def": "Forenklet beskrivelse som kan forklare og forutsi." },
-    { "term": "Gyldighetsområde", "def": "Situasjonene der modellen gir gode resultater." },
-    { "term": "Standardform", "def": "a · 10ⁿ med 1 ≤ a < 10." }
+    {
+      "term": "Uavhengig variabel",
+      "def": "Det du endrer i et forsøk."
+    },
+    {
+      "term": "Avhengig variabel",
+      "def": "Det du måler i et forsøk."
+    },
+    {
+      "term": "Måleusikkerhet",
+      "def": "Hvor nøyaktig en måling er, angitt med ±."
+    },
+    {
+      "term": "Tilfeldig feil",
+      "def": "Feil som varierer fra måling til måling – reduseres med gjennomsnitt."
+    },
+    {
+      "term": "Systematisk feil",
+      "def": "Feil som påvirker alle målinger likt, som en vekt som ikke er nullstilt."
+    },
+    {
+      "term": "Relativ usikkerhet",
+      "def": "Usikkerhet delt på måleverdien, ofte i prosent."
+    },
+    {
+      "term": "Gjeldende siffer",
+      "def": "Siffer som sier noe om nøyaktigheten i et tall."
+    },
+    {
+      "term": "SI-grunnenheter",
+      "def": "Blant annet meter, kilogram, sekund, ampere og kelvin."
+    },
+    {
+      "term": "Newton (N)",
+      "def": "kg·m/s²"
+    },
+    {
+      "term": "Joule (J)",
+      "def": "N·m"
+    },
+    {
+      "term": "Regresjon",
+      "def": "Å finne funksjonen som passer best til måledata."
+    },
+    {
+      "term": "Linearisere",
+      "def": "Å velge akser slik at sammenhengen blir en rett linje."
+    },
+    {
+      "term": "Modell",
+      "def": "Forenklet beskrivelse som kan forklare og forutsi."
+    },
+    {
+      "term": "Gyldighetsområde",
+      "def": "Situasjonene der modellen gir gode resultater."
+    },
+    {
+      "term": "Standardform",
+      "def": "a · 10ⁿ med 1 ≤ a < 10."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en systematisk feil?", "options": ["En feil som varierer tilfeldig", "En feil som påvirker alle målinger likt", "En regnefeil", "En feil i rapporten"], "correct": 1, "explain": "For eksempel en vekt som ikke er nullstilt." },
-    { "id": "q02", "text": "Hvordan reduserer du tilfeldige feil?", "options": ["Ved å ta gjennomsnittet av mange målinger", "Ved å bruke færre målinger", "Ved å runde av mer", "Ved å endre enheten"], "correct": 0, "explain": "Tilfeldige variasjoner jevner seg ut." },
-    { "id": "q03", "text": "2,4 m / 1,23 s = 1,951… m/s. Hvordan bør svaret oppgis?", "options": ["1,951 m/s", "1,95 m/s", "2,0 m/s", "2 m/s"], "correct": 2, "explain": "2,4 har to gjeldende siffer." },
-    { "id": "q04", "text": "Hvordan kan newton skrives med grunnenheter?", "options": ["kg·m", "kg/s", "m/s²", "kg·m/s²"], "correct": 3, "explain": "F = ma gir kg·m/s²." },
-    { "id": "q05", "text": "Du vil undersøke sammenhengen s = ½at². Hva bør du plotte for å få en rett linje?", "options": ["s mot t²", "s mot t", "t mot a", "s mot 1/t"], "correct": 0, "explain": "Stigningstallet blir a/2." },
-    { "id": "q06", "text": "Hva kjennetegner en god modell?", "options": ["Den er alltid helt nøyaktig", "Den stemmer med målinger og gir testbare forutsigelser", "Den er komplisert", "Den kan ikke testes"], "correct": 1, "explain": "Den har også et tydelig gyldighetsområde." },
-    { "id": "q07", "text": "Hva er relativ usikkerhet?", "options": ["Usikkerheten i meter", "Den største målingen", "Usikkerheten delt på måleverdien", "Gjennomsnittet"], "correct": 2, "explain": "Ofte oppgitt i prosent." },
-    { "id": "q08", "text": "Hvorfor passer ikke modellen for fritt fall uten luftmotstand for en fallskjerm?", "options": ["Fordi tyngdekraften er annerledes", "Fordi fallskjermen er for tung", "Fordi modellen er feil for alle ting", "Fordi luftmotstanden er stor og ikke kan ses bort fra"], "correct": 3, "explain": "Fallskjermen er utenfor modellens gyldighetsområde." },
-    { "id": "q09", "text": "Hvilken akse bør den uavhengige variabelen stå på?", "options": ["x-aksen", "y-aksen", "Begge", "Den skal ikke i grafen"], "correct": 0, "explain": "Den avhengige variabelen står på y-aksen." },
-    { "id": "q10", "text": "Hvordan skrives 0,000 45 på standardform?", "options": ["45 · 10⁻⁵", "4,5 · 10⁻⁴", "4,5 · 10⁴", "0,45 · 10⁻³"], "correct": 1, "explain": "Tallet foran skal være mellom 1 og 10." }
+    {
+      "id": "q01",
+      "text": "Hva er en systematisk feil?",
+      "options": [
+        "En feil som varierer tilfeldig",
+        "En feil som påvirker alle målinger likt",
+        "En regnefeil",
+        "En feil i rapporten"
+      ],
+      "correct": 1,
+      "explain": "For eksempel en vekt som ikke er nullstilt."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan reduserer du tilfeldige feil?",
+      "options": [
+        "Ved å ta gjennomsnittet av mange målinger",
+        "Ved å bruke færre målinger",
+        "Ved å runde av mer",
+        "Ved å endre enheten"
+      ],
+      "correct": 0,
+      "explain": "Tilfeldige variasjoner jevner seg ut."
+    },
+    {
+      "id": "q03",
+      "text": "2,4 m / 1,23 s = 1,951… m/s. Hvordan bør svaret oppgis?",
+      "options": [
+        "1,951 m/s",
+        "1,95 m/s",
+        "2,0 m/s",
+        "2 m/s"
+      ],
+      "correct": 2,
+      "explain": "2,4 har to gjeldende siffer."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan kan newton skrives med grunnenheter?",
+      "options": [
+        "kg·m",
+        "kg/s",
+        "m/s²",
+        "kg·m/s²"
+      ],
+      "correct": 3,
+      "explain": "F = ma gir kg·m/s²."
+    },
+    {
+      "id": "q05",
+      "text": "Du vil undersøke sammenhengen s = ½at². Hva bør du plotte for å få en rett linje?",
+      "options": [
+        "s mot t²",
+        "s mot t",
+        "t mot a",
+        "s mot 1/t"
+      ],
+      "correct": 0,
+      "explain": "Stigningstallet blir a/2."
+    },
+    {
+      "id": "q06",
+      "text": "Hva kjennetegner en god modell?",
+      "options": [
+        "Den er alltid helt nøyaktig",
+        "Den stemmer med målinger og gir testbare forutsigelser",
+        "Den er komplisert",
+        "Den kan ikke testes"
+      ],
+      "correct": 1,
+      "explain": "Den har også et tydelig gyldighetsområde."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er relativ usikkerhet?",
+      "options": [
+        "Usikkerheten i meter",
+        "Den største målingen",
+        "Usikkerheten delt på måleverdien",
+        "Gjennomsnittet"
+      ],
+      "correct": 2,
+      "explain": "Ofte oppgitt i prosent."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor passer ikke modellen for fritt fall uten luftmotstand for en fallskjerm?",
+      "options": [
+        "Fordi tyngdekraften er annerledes",
+        "Fordi fallskjermen er for tung",
+        "Fordi modellen er feil for alle ting",
+        "Fordi luftmotstanden er stor og ikke kan ses bort fra"
+      ],
+      "correct": 3,
+      "explain": "Fallskjermen er utenfor modellens gyldighetsområde."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken akse bør den uavhengige variabelen stå på?",
+      "options": [
+        "x-aksen",
+        "y-aksen",
+        "Begge",
+        "Den skal ikke i grafen"
+      ],
+      "correct": 0,
+      "explain": "Den avhengige variabelen står på y-aksen."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan skrives 0,000 45 på standardform?",
+      "options": [
+        "45 · 10⁻⁵",
+        "4,5 · 10⁻⁴",
+        "4,5 · 10⁴",
+        "0,45 · 10⁻³"
+      ],
+      "correct": 1,
+      "explain": "Tallet foran skal være mellom 1 og 10."
+    }
   ],
   "mindmap": {
     "label": "Forsøk og modeller",
     "children": [
-      { "label": "Planlegging", "children": [
-        { "label": "Problemstilling" },
-        { "label": "Variabler" },
-        { "label": "Antall målinger" }
-      ] },
-      { "label": "Usikkerhet", "children": [
-        { "label": "Tilfeldige feil" },
-        { "label": "Systematiske feil" },
-        { "label": "Relativ usikkerhet" }
-      ] },
-      { "label": "Tall og enheter", "children": [
-        { "label": "Gjeldende siffer" },
-        { "label": "SI-enheter" },
-        { "label": "Standardform" }
-      ] },
-      { "label": "Analyse", "children": [
-        { "label": "Tabell og graf" },
-        { "label": "Regresjon" },
-        { "label": "Linearisering" }
-      ] },
-      { "label": "Modeller", "children": [
-        { "label": "Forklare og forutsi" },
-        { "label": "Gyldighetsområde" },
-        { "label": "Forbedre modellen" }
-      ] }
+      {
+        "label": "Planlegging",
+        "children": [
+          {
+            "label": "Problemstilling"
+          },
+          {
+            "label": "Variabler"
+          },
+          {
+            "label": "Antall målinger"
+          }
+        ]
+      },
+      {
+        "label": "Usikkerhet",
+        "children": [
+          {
+            "label": "Tilfeldige feil"
+          },
+          {
+            "label": "Systematiske feil"
+          },
+          {
+            "label": "Relativ usikkerhet"
+          }
+        ]
+      },
+      {
+        "label": "Tall og enheter",
+        "children": [
+          {
+            "label": "Gjeldende siffer"
+          },
+          {
+            "label": "SI-enheter"
+          },
+          {
+            "label": "Standardform"
+          }
+        ]
+      },
+      {
+        "label": "Analyse",
+        "children": [
+          {
+            "label": "Tabell og graf"
+          },
+          {
+            "label": "Regresjon"
+          },
+          {
+            "label": "Linearisering"
+          }
+        ]
+      },
+      {
+        "label": "Modeller",
+        "children": [
+          {
+            "label": "Forklare og forutsi"
+          },
+          {
+            "label": "Gyldighetsområde"
+          },
+          {
+            "label": "Forbedre modellen"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Ingen måling er helt nøyaktig.", "correct": true, "explain": "Alle målinger har en usikkerhet." },
-      { "id": "m02", "type": "sant-usant", "text": "Svaret på en beregning bør ha flere gjeldende siffer enn målingene.", "correct": false, "explain": "Svaret bør ikke være mer nøyaktig enn den minst nøyaktige målingen." },
-      { "id": "m03", "type": "sant-usant", "text": "Stigningstallet til en lineær graf har ofte en fysisk betydning.", "correct": true, "explain": "For eksempel fart i en s-t-graf." },
-      { "id": "m04", "type": "sant-usant", "text": "Kilogram er ikke en SI-grunnenhet.", "correct": false, "explain": "Kilogram er grunnenheten for masse." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er en typisk tilfeldig feil?", "options": ["En linjal som mangler de første millimeterne", "Reaksjonstid ved bruk av stoppeklokke", "En vekt som viser 5 g for mye", "Feil enhet"], "correct": 1, "explain": "Den varierer fra gang til gang." },
-      { "id": "m06", "type": "flervalg", "text": "Hvordan kan joule skrives?", "options": ["N·m", "N/m", "kg/s", "W/s"], "correct": 0, "explain": "Arbeid er kraft ganger vei." },
-      { "id": "m07", "type": "flervalg", "text": "Hva bør du gjøre når målingene ikke stemmer med modellen?", "options": ["Slette målingene", "Endre konklusjonen uten å undersøke", "Vurdere om det skyldes målefeil eller om modellen må forbedres", "Ignorere avviket"], "correct": 2, "explain": "Slik utvikler fysikken seg." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ingen måling er helt nøyaktig.",
+        "correct": true,
+        "explain": "Alle målinger har en usikkerhet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Svaret på en beregning bør ha flere gjeldende siffer enn målingene.",
+        "correct": false,
+        "explain": "Svaret bør ikke være mer nøyaktig enn den minst nøyaktige målingen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Stigningstallet til en lineær graf har ofte en fysisk betydning.",
+        "correct": true,
+        "explain": "For eksempel fart i en s-t-graf."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kilogram er ikke en SI-grunnenhet.",
+        "correct": false,
+        "explain": "Kilogram er grunnenheten for masse."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er en typisk tilfeldig feil?",
+        "options": [
+          "En linjal som mangler de første millimeterne",
+          "Reaksjonstid ved bruk av stoppeklokke",
+          "En vekt som viser 5 g for mye",
+          "Feil enhet"
+        ],
+        "correct": 1,
+        "explain": "Den varierer fra gang til gang."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvordan kan joule skrives?",
+        "options": [
+          "N·m",
+          "N/m",
+          "kg/s",
+          "W/s"
+        ],
+        "correct": 0,
+        "explain": "Arbeid er kraft ganger vei."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva bør du gjøre når målingene ikke stemmer med modellen?",
+        "options": [
+          "Slette målingene",
+          "Endre konklusjonen uten å undersøke",
+          "Vurdere om det skyldes målefeil eller om modellen må forbedres",
+          "Ignorere avviket"
+        ],
+        "correct": 2,
+        "explain": "Slik utvikler fysikken seg."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En elev undersøker hvordan lengden på en strekning henger sammen med tiden det tar å tilbakelegge den. Eleven endrer strekningen og måler tiden. Identifiser den uavhengige og den avhengige variabelen, og forklar hvorfor andre relevante forhold bør holdes konstante.",
+        "fasit": "Strekningen er den uavhengige variabelen, og tiden er den avhengige variabelen. Andre relevante forhold bør holdes konstante slik at en kan undersøke hvordan endringen i strekning henger sammen med målt tid.",
+        "kriterier": [
+          "Identifiserer strekning som uavhengig variabel og tid som avhengig variabel.",
+          "Forklarer at konstante forhold gjør det mulig å knytte endringer i målingen til den uavhengige variabelen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En måling oppgis som l = (2,45 ± 0,01) m. Forklar hva tallet 2,45 m og leddet ± 0,01 m forteller.",
+        "fasit": "Måleverdien er 2,45 m, og måleusikkerheten er 0,01 m. Notasjonen viser at målingen ikke er helt nøyaktig.",
+        "kriterier": [
+          "Forklarer at 2,45 m er måleverdien.",
+          "Forklarer at ± 0,01 m angir måleusikkerheten."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "To lengder måles med samme usikkerhet: 1,0 m ± 0,1 m og 10,0 m ± 0,1 m. Regn ut relativ usikkerhet i prosent for begge målingene, og sammenlign dem.",
+        "fasit": "For 1,0 m er den relative usikkerheten 0,1/1,0 = 10 %. For 10,0 m er den 0,1/10,0 = 1 %, så den første målingen har større relativ usikkerhet.",
+        "kriterier": [
+          "Regner ut 10 % for målingen på 1,0 m.",
+          "Regner ut 1 % for målingen på 10,0 m og sammenligner dem riktig."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Bruk sammenhengene N = kg·m/s² og J = N·m til å skrive joule med SI-grunnenheter. Vis det viktigste regnetrinnet.",
+        "fasit": "J = N·m = (kg·m/s²)·m = kg·m²/s².",
+        "kriterier": [
+          "Setter inn uttrykket for newton i uttrykket for joule.",
+          "Får kg·m²/s² som svar."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Du har målt to variabler og bruker regresjon på måledataene. Forklar hva regresjonen finner, og hva stigningstallet kan fortelle når sammenhengen er lineær.",
+        "fasit": "Regresjonen finner funksjonen som passer best til måledataene. For en lineær sammenheng kan stigningstallet ha en fysisk betydning, for eksempel være en fart eller en konstant.",
+        "kriterier": [
+          "Forklarer at regresjon finner en funksjon som passer best til måledataene.",
+          "Knytter stigningstallet i en lineær sammenheng til en fysisk størrelse eller konstant."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Målingene i et forsøk stemmer ikke med modellen som brukes. Forklar hvilke to mulige årsaker du bør vurdere før du trekker en konklusjon.",
+        "fasit": "Det kan skyldes feil i målingene, eller at modellen ikke beskriver situasjonen godt nok. Derfor bør en vurdere målingene og om modellen må forbedres.",
+        "kriterier": [
+          "Nevner at det kan være feil i målingene.",
+          "Nevner at modellen kan trenge forbedring."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hvilke seks deler skal en god forsøksrapport vise?",
+        "fasit": "En god forsøksrapport viser hypotese, utstyr, framgangsmåte, resultater, analyse og konklusjon.",
+        "kriterier": [
+          "Nevner hypotese, utstyr og framgangsmåte.",
+          "Nevner resultater, analyse og konklusjon."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hva standardform er, og hvorfor den kan være nyttig når du skriver svært store eller svært små tall.",
+        "fasit": "Standardform skriver et tall som a · 10ⁿ, der 1 ≤ a < 10. Den gjør det enklere å skrive svært store og små tall.",
+        "kriterier": [
+          "Beskriver standardform som a · 10ⁿ med 1 ≤ a < 10.",
+          "Forklarer at standardform brukes for svært store eller svært små tall."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

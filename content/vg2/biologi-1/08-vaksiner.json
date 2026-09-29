@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Vaksiner – vern for individ og samfunn",
   "intro": "Hvordan vaksiner lærer immunforsvaret å kjenne igjen et patogen, ulike typer vaksiner, flokkimmunitet, bivirkninger og etiske spørsmål rundt vaksinasjon.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Prinsippet bak vaksiner\n\nEn **vaksine** «øver» immunforsvaret uten at du blir syk. Vaksinen inneholder **antigener** fra et patogen – eller en oppskrift på dem. Immunforsvaret gjennomfører en **primærrespons** og danner **hukommelsesceller**. Hvis du senere blir smittet av det ekte patogenet, kommer en rask og kraftig **sekundærrespons**, og du blir ikke syk eller bare lite syk.\n\nNoen vaksiner må gis i flere doser eller fornyes med **oppfriskningsdoser** for å gi god og varig beskyttelse.\n\n## Typer vaksiner\n\n- **Levende, svekkede vaksiner**: Patogenet er svekket slik at det ikke gir sykdom hos friske. Eksempel: vaksinen mot **meslinger, kusma og røde hunder** (MMR).\n- **Inaktiverte vaksiner**: drepte patogener, for eksempel mot polio slik den gis i Norge.\n- **Subenhetsvaksiner**: bare deler av patogenet, som et overflateprotein. Eksempel: **HPV** og hepatitt B.\n- **Toksoidvaksiner**: ufarliggjort toksin, som mot **stivkrampe** og difteri.\n- **mRNA-vaksiner**: inneholder en oppskrift som får kroppens egne celler til å lage et **virusprotein** en kort tid. De ble tatt i bruk i stor skala mot **covid-19**. mRNA-en brytes raskt ned og endrer ikke arvestoffet vårt.\n\n## Vern på individnivå\n\nDen som er vaksinert, har **lavere risiko** for å bli syk og for å få **alvorlig sykdom**. Ingen vaksine gir 100 % beskyttelse, men mange gir svært god beskyttelse.\n\n## Vern på populasjonsnivå: flokkimmunitet\n\nNår en stor nok andel av befolkningen er immun, får smitten vanskelig for å spre seg. Det kalles **flokkimmunitet**, og den beskytter også dem som **ikke kan vaksineres** – nyfødte, svært syke og personer med svekket immunforsvar.\n\nHvor stor andel som trengs, avhenger av hvor **smittsom** sykdommen er. Det **basale reproduksjonstallet** R₀ er hvor mange én smittet i gjennomsnitt smitter i en befolkning uten immunitet. Terskelen for flokkimmunitet er omtrent **1 − 1/R₀**. Meslinger er svært smittsomt (R₀ rundt 12–18), og derfor trengs det en vaksinasjonsdekning på **rundt 95 %**.\n\n## Suksesshistorier\n\n- **Kopper** ble erklært **utryddet** av Verdens helseorganisasjon (WHO) i **1980** etter en global vaksinasjonskampanje.\n- **Polio** er nesten utryddet.\n- I Norge tilbys vaksiner gratis gjennom **barnevaksinasjonsprogrammet**, som er **frivillig**, og oppslutningen er høy.\n\n## Bivirkninger og sikkerhet\n\n**Vanlige bivirkninger** er milde og kortvarige: ømhet, lett feber og tretthet. **Alvorlige** bivirkninger er **sjeldne**. Vaksiner testes i store **kliniske studier** før godkjenning og **overvåkes** etter at de er tatt i bruk.\n\nPåstanden om at MMR-vaksinen gir autisme kom fra en studie fra **1998** som senere ble **trukket tilbake**, og store studier har ikke funnet noen slik sammenheng. Likevel førte påstanden til lavere vaksinasjonsdekning og **meslingutbrudd** i flere land.\n\n## Etiske spørsmål\n\n- Bør vaksiner være **frivillige** eller **påbudt**?\n- Hvordan veier vi **individets rett** til å bestemme mot **fellesskapets** behov for flokkimmunitet?\n- Hvordan kan vaksiner **fordeles rettferdig** mellom rike og fattige land?",
   "flashcards": [
-    { "term": "Vaksine", "def": "Øver immunforsvaret med antigener uten at du blir syk." },
-    { "term": "Oppfriskningsdose", "def": "Ny dose som forsterker eller forlenger beskyttelsen." },
-    { "term": "Levende, svekket vaksine", "def": "Svekket patogen, som i MMR-vaksinen." },
-    { "term": "Inaktivert vaksine", "def": "Inneholder drepte patogener." },
-    { "term": "Subenhetsvaksine", "def": "Bare deler av patogenet, som et overflateprotein." },
-    { "term": "Toksoidvaksine", "def": "Ufarliggjort toksin, som mot stivkrampe." },
-    { "term": "mRNA-vaksine", "def": "Oppskrift som får cellene til å lage et virusprotein en kort tid." },
-    { "term": "Flokkimmunitet", "def": "Nok immune til at smitten får vanskelig for å spre seg." },
-    { "term": "R₀", "def": "Hvor mange én smittet i snitt smitter i en befolkning uten immunitet." },
-    { "term": "Terskel for flokkimmunitet", "def": "Omtrent 1 − 1/R₀." },
-    { "term": "Meslinger", "def": "Svært smittsom sykdom som krever rundt 95 % vaksinasjonsdekning." },
-    { "term": "Kopper", "def": "Erklært utryddet av WHO i 1980." },
-    { "term": "Barnevaksinasjonsprogrammet", "def": "Gratis og frivillige vaksiner til barn i Norge." },
-    { "term": "Klinisk studie", "def": "Stor utprøving av en vaksine før godkjenning." },
-    { "term": "MMR", "def": "Vaksine mot meslinger, kusma og røde hunder." }
+    {
+      "term": "Vaksine",
+      "def": "Øver immunforsvaret med antigener uten at du blir syk."
+    },
+    {
+      "term": "Oppfriskningsdose",
+      "def": "Ny dose som forsterker eller forlenger beskyttelsen."
+    },
+    {
+      "term": "Levende, svekket vaksine",
+      "def": "Svekket patogen, som i MMR-vaksinen."
+    },
+    {
+      "term": "Inaktivert vaksine",
+      "def": "Inneholder drepte patogener."
+    },
+    {
+      "term": "Subenhetsvaksine",
+      "def": "Bare deler av patogenet, som et overflateprotein."
+    },
+    {
+      "term": "Toksoidvaksine",
+      "def": "Ufarliggjort toksin, som mot stivkrampe."
+    },
+    {
+      "term": "mRNA-vaksine",
+      "def": "Oppskrift som får cellene til å lage et virusprotein en kort tid."
+    },
+    {
+      "term": "Flokkimmunitet",
+      "def": "Nok immune til at smitten får vanskelig for å spre seg."
+    },
+    {
+      "term": "R₀",
+      "def": "Hvor mange én smittet i snitt smitter i en befolkning uten immunitet."
+    },
+    {
+      "term": "Terskel for flokkimmunitet",
+      "def": "Omtrent 1 − 1/R₀."
+    },
+    {
+      "term": "Meslinger",
+      "def": "Svært smittsom sykdom som krever rundt 95 % vaksinasjonsdekning."
+    },
+    {
+      "term": "Kopper",
+      "def": "Erklært utryddet av WHO i 1980."
+    },
+    {
+      "term": "Barnevaksinasjonsprogrammet",
+      "def": "Gratis og frivillige vaksiner til barn i Norge."
+    },
+    {
+      "term": "Klinisk studie",
+      "def": "Stor utprøving av en vaksine før godkjenning."
+    },
+    {
+      "term": "MMR",
+      "def": "Vaksine mot meslinger, kusma og røde hunder."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan beskytter en vaksine mot sykdom?", "options": ["Den dreper alle bakterier i kroppen", "Den gjør at kroppen danner hukommelsesceller", "Den erstatter immunforsvaret", "Den gir antibiotika"], "correct": 1, "explain": "Da kommer en rask sekundærrespons ved smitte." },
-    { "id": "q02", "text": "Hva er flokkimmunitet?", "options": ["At nok personer er immune til at smitten får vanskelig for å spre seg", "At alle er syke samtidig", "At dyr er vaksinert", "At én person er immun"], "correct": 0, "explain": "Den beskytter også dem som ikke kan vaksineres." },
-    { "id": "q03", "text": "Hvorfor trengs det så høy vaksinasjonsdekning mot meslinger?", "options": ["Fordi vaksinen er svak", "Fordi meslinger er ufarlig", "Fordi meslinger er svært smittsomt", "Fordi det bare finnes i Norge"], "correct": 2, "explain": "R₀ rundt 12–18 gir terskel rundt 95 %." },
-    { "id": "q04", "text": "Hva inneholder en mRNA-vaksine?", "options": ["Levende virus", "Antibiotika", "Drepte bakterier", "En oppskrift som får cellene til å lage et virusprotein"], "correct": 3, "explain": "mRNA-en brytes raskt ned." },
-    { "id": "q05", "text": "Hvilken sykdom er erklært utryddet?", "options": ["Kopper", "Meslinger", "Influensa", "Stivkrampe"], "correct": 0, "explain": "WHO erklærte det i 1980." },
-    { "id": "q06", "text": "Hvilken type vaksine er MMR?", "options": ["mRNA-vaksine", "Levende, svekket vaksine", "Toksoidvaksine", "Inaktivert vaksine"], "correct": 1, "explain": "Patogenene er svekket." },
-    { "id": "q07", "text": "Hva er terskelen for flokkimmunitet når R₀ = 4?", "options": ["25 %", "50 %", "75 %", "96 %"], "correct": 2, "explain": "1 − 1/4 = 0,75." },
-    { "id": "q08", "text": "Hva skjedde med studien fra 1998 som koblet MMR-vaksinen til autisme?", "options": ["Den ble bekreftet", "Den førte til nobelpris", "Den ble aldri lest", "Den ble trukket tilbake, og sammenhengen er ikke funnet i store studier"], "correct": 3, "explain": "Likevel førte den til meslingutbrudd." },
-    { "id": "q09", "text": "Hvem beskyttes særlig av flokkimmunitet?", "options": ["De som ikke kan vaksineres", "Bare de vaksinerte", "Bare helsepersonell", "Ingen"], "correct": 0, "explain": "For eksempel nyfødte og personer med svekket immunforsvar." },
-    { "id": "q10", "text": "Hvilke bivirkninger er vanligst etter vaksinasjon?", "options": ["Alvorlige og varige", "Milde og kortvarige, som ømhet og lett feber", "Ingen i det hele tatt", "Autisme"], "correct": 1, "explain": "Alvorlige bivirkninger er sjeldne." }
+    {
+      "id": "q01",
+      "text": "Hvordan beskytter en vaksine mot sykdom?",
+      "options": [
+        "Den dreper alle bakterier i kroppen",
+        "Den gjør at kroppen danner hukommelsesceller",
+        "Den erstatter immunforsvaret",
+        "Den gir antibiotika"
+      ],
+      "correct": 1,
+      "explain": "Da kommer en rask sekundærrespons ved smitte."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er flokkimmunitet?",
+      "options": [
+        "At nok personer er immune til at smitten får vanskelig for å spre seg",
+        "At alle er syke samtidig",
+        "At dyr er vaksinert",
+        "At én person er immun"
+      ],
+      "correct": 0,
+      "explain": "Den beskytter også dem som ikke kan vaksineres."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor trengs det så høy vaksinasjonsdekning mot meslinger?",
+      "options": [
+        "Fordi vaksinen er svak",
+        "Fordi meslinger er ufarlig",
+        "Fordi meslinger er svært smittsomt",
+        "Fordi det bare finnes i Norge"
+      ],
+      "correct": 2,
+      "explain": "R₀ rundt 12–18 gir terskel rundt 95 %."
+    },
+    {
+      "id": "q04",
+      "text": "Hva inneholder en mRNA-vaksine?",
+      "options": [
+        "Levende virus",
+        "Antibiotika",
+        "Drepte bakterier",
+        "En oppskrift som får cellene til å lage et virusprotein"
+      ],
+      "correct": 3,
+      "explain": "mRNA-en brytes raskt ned."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken sykdom er erklært utryddet?",
+      "options": [
+        "Kopper",
+        "Meslinger",
+        "Influensa",
+        "Stivkrampe"
+      ],
+      "correct": 0,
+      "explain": "WHO erklærte det i 1980."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken type vaksine er MMR?",
+      "options": [
+        "mRNA-vaksine",
+        "Levende, svekket vaksine",
+        "Toksoidvaksine",
+        "Inaktivert vaksine"
+      ],
+      "correct": 1,
+      "explain": "Patogenene er svekket."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er terskelen for flokkimmunitet når R₀ = 4?",
+      "options": [
+        "25 %",
+        "50 %",
+        "75 %",
+        "96 %"
+      ],
+      "correct": 2,
+      "explain": "1 − 1/4 = 0,75."
+    },
+    {
+      "id": "q08",
+      "text": "Hva skjedde med studien fra 1998 som koblet MMR-vaksinen til autisme?",
+      "options": [
+        "Den ble bekreftet",
+        "Den førte til nobelpris",
+        "Den ble aldri lest",
+        "Den ble trukket tilbake, og sammenhengen er ikke funnet i store studier"
+      ],
+      "correct": 3,
+      "explain": "Likevel førte den til meslingutbrudd."
+    },
+    {
+      "id": "q09",
+      "text": "Hvem beskyttes særlig av flokkimmunitet?",
+      "options": [
+        "De som ikke kan vaksineres",
+        "Bare de vaksinerte",
+        "Bare helsepersonell",
+        "Ingen"
+      ],
+      "correct": 0,
+      "explain": "For eksempel nyfødte og personer med svekket immunforsvar."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilke bivirkninger er vanligst etter vaksinasjon?",
+      "options": [
+        "Alvorlige og varige",
+        "Milde og kortvarige, som ømhet og lett feber",
+        "Ingen i det hele tatt",
+        "Autisme"
+      ],
+      "correct": 1,
+      "explain": "Alvorlige bivirkninger er sjeldne."
+    }
   ],
   "mindmap": {
     "label": "Vaksiner",
     "children": [
-      { "label": "Prinsipp", "children": [
-        { "label": "Antigen" },
-        { "label": "Hukommelsesceller" },
-        { "label": "Oppfriskningsdoser" }
-      ] },
-      { "label": "Typer", "children": [
-        { "label": "Levende svekket" },
-        { "label": "Inaktivert" },
-        { "label": "Subenhet og toksoid" },
-        { "label": "mRNA" }
-      ] },
-      { "label": "Populasjon", "children": [
-        { "label": "Flokkimmunitet" },
-        { "label": "R₀ og terskel" }
-      ] },
-      { "label": "Resultater", "children": [
-        { "label": "Kopper utryddet" },
-        { "label": "Barnevaksinasjonsprogrammet" }
-      ] },
-      { "label": "Sikkerhet og etikk", "children": [
-        { "label": "Bivirkninger" },
-        { "label": "Frivillighet" },
-        { "label": "Global fordeling" }
-      ] }
+      {
+        "label": "Prinsipp",
+        "children": [
+          {
+            "label": "Antigen"
+          },
+          {
+            "label": "Hukommelsesceller"
+          },
+          {
+            "label": "Oppfriskningsdoser"
+          }
+        ]
+      },
+      {
+        "label": "Typer",
+        "children": [
+          {
+            "label": "Levende svekket"
+          },
+          {
+            "label": "Inaktivert"
+          },
+          {
+            "label": "Subenhet og toksoid"
+          },
+          {
+            "label": "mRNA"
+          }
+        ]
+      },
+      {
+        "label": "Populasjon",
+        "children": [
+          {
+            "label": "Flokkimmunitet"
+          },
+          {
+            "label": "R₀ og terskel"
+          }
+        ]
+      },
+      {
+        "label": "Resultater",
+        "children": [
+          {
+            "label": "Kopper utryddet"
+          },
+          {
+            "label": "Barnevaksinasjonsprogrammet"
+          }
+        ]
+      },
+      {
+        "label": "Sikkerhet og etikk",
+        "children": [
+          {
+            "label": "Bivirkninger"
+          },
+          {
+            "label": "Frivillighet"
+          },
+          {
+            "label": "Global fordeling"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Barnevaksinasjonsprogrammet i Norge er frivillig.", "correct": true, "explain": "Oppslutningen er likevel høy." },
-      { "id": "m02", "type": "sant-usant", "text": "mRNA-vaksiner endrer arvestoffet vårt.", "correct": false, "explain": "mRNA-en går ikke inn i cellekjernen og brytes raskt ned." },
-      { "id": "m03", "type": "sant-usant", "text": "Vaksiner overvåkes også etter at de er godkjent.", "correct": true, "explain": "Slik oppdages sjeldne bivirkninger." },
-      { "id": "m04", "type": "sant-usant", "text": "Alle vaksiner gir 100 % beskyttelse.", "correct": false, "explain": "Ingen vaksine er helt perfekt, men mange gir svært god beskyttelse." },
-      { "id": "m05", "type": "flervalg", "text": "Hva slags vaksine brukes mot stivkrampe?", "options": ["mRNA-vaksine", "Toksoidvaksine", "Levende, svekket vaksine", "Ingen vaksine finnes"], "correct": 1, "explain": "Toksinet er gjort ufarlig." },
-      { "id": "m06", "type": "flervalg", "text": "Hva måler R₀?", "options": ["Hvor mange én smittet i snitt smitter i en befolkning uten immunitet", "Hvor mange som dør", "Hvor mange som er vaksinert", "Hvor lenge man er syk"], "correct": 0, "explain": "Høy R₀ betyr svært smittsom." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket etisk spørsmål er sentralt i vaksinedebatten?", "options": ["Om vaksiner smaker godt", "Om vaksiner er dyre å produsere", "Hvordan individets rett veies mot fellesskapets behov", "Om vaksiner bør gis til planter"], "correct": 2, "explain": "Også rettferdig global fordeling." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Barnevaksinasjonsprogrammet i Norge er frivillig.",
+        "correct": true,
+        "explain": "Oppslutningen er likevel høy."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "mRNA-vaksiner endrer arvestoffet vårt.",
+        "correct": false,
+        "explain": "mRNA-en går ikke inn i cellekjernen og brytes raskt ned."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Vaksiner overvåkes også etter at de er godkjent.",
+        "correct": true,
+        "explain": "Slik oppdages sjeldne bivirkninger."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle vaksiner gir 100 % beskyttelse.",
+        "correct": false,
+        "explain": "Ingen vaksine er helt perfekt, men mange gir svært god beskyttelse."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva slags vaksine brukes mot stivkrampe?",
+        "options": [
+          "mRNA-vaksine",
+          "Toksoidvaksine",
+          "Levende, svekket vaksine",
+          "Ingen vaksine finnes"
+        ],
+        "correct": 1,
+        "explain": "Toksinet er gjort ufarlig."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva måler R₀?",
+        "options": [
+          "Hvor mange én smittet i snitt smitter i en befolkning uten immunitet",
+          "Hvor mange som dør",
+          "Hvor mange som er vaksinert",
+          "Hvor lenge man er syk"
+        ],
+        "correct": 0,
+        "explain": "Høy R₀ betyr svært smittsom."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket etisk spørsmål er sentralt i vaksinedebatten?",
+        "options": [
+          "Om vaksiner smaker godt",
+          "Om vaksiner er dyre å produsere",
+          "Hvordan individets rett veies mot fellesskapets behov",
+          "Om vaksiner bør gis til planter"
+        ],
+        "correct": 2,
+        "explain": "Også rettferdig global fordeling."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Etter en vaksinasjon har immunforsvaret dannet hukommelsesceller. Forklar hvordan disse cellene påvirker immunforsvarets reaksjon dersom personen senere blir smittet av det samme patogenet.",
+        "fasit": "Hukommelsescellene gjør at immunforsvaret kan kjenne igjen patogenet og lage en raskere og kraftigere sekundærrespons. Personen blir derfor ikke syk eller blir bare lite syk.",
+        "kriterier": [
+          "Forklarer at hukommelsescellene bidrar til å kjenne igjen patogenet ved senere smitte.",
+          "Knytter gjenkjenningen til en raskere og kraftigere respons som gir mindre sykdom eller hindrer sykdom."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign inaktiverte vaksiner og subenhetsvaksiner. Hva inneholder hver av dem?",
+        "fasit": "En inaktivert vaksine inneholder drepte patogener. En subenhetsvaksine inneholder bare deler av patogenet, for eksempel et overflateprotein.",
+        "kriterier": [
+          "Beskriver inaktiverte vaksiner som vaksiner med drepte patogener.",
+          "Beskriver subenhetsvaksiner som vaksiner med bare deler av patogenet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Noen vaksiner gis som oppfriskningsdoser etter tidligere doser. Forklar hva en oppfriskningsdose gjør, og hvorfor den kan være nødvendig.",
+        "fasit": "En oppfriskningsdose forsterker eller forlenger beskyttelsen fra tidligere vaksinedoser. Den kan være nødvendig fordi noen vaksiner trenger flere doser eller fornyelse for å gi god og varig beskyttelse.",
+        "kriterier": [
+          "Forklarer at dosen forsterker eller forlenger beskyttelsen.",
+          "Knytter behovet til at noen vaksiner trenger flere doser eller fornyelse for god og varig beskyttelse."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En nyfødt kan ikke vaksineres, men bor i et samfunn der en stor nok andel av befolkningen er immun. Forklar hvordan dette kan redusere den nyfødtes risiko for å bli smittet.",
+        "fasit": "Når mange er immune, får smitten vanskeligere for å spre seg fra person til person. Flokkimmunitet kan derfor beskytte den nyfødte, selv om barnet ikke selv er vaksinert.",
+        "kriterier": [
+          "Forklarer at høy andel immune gjør det vanskeligere for smitte å spre seg.",
+          "Knytter dette til indirekte beskyttelse av den nyfødte som ikke kan vaksineres."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Terskelen for flokkimmunitet er omtrent 1 − 1/R₀. Hvis R₀ = 5, regn ut terskelen som en prosentandel. Vis det viktigste regnestykket.",
+        "fasit": "1 − 1/5 = 4/5 = 80 %. Terskelen for flokkimmunitet er omtrent 80 %.",
+        "kriterier": [
+          "Setter R₀ = 5 inn i uttrykket og får 1 − 1/5 eller tilsvarende regnestykke.",
+          "Oppgir 80 % som terskelen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I en befolkning på 200 personer er 190 vaksinert mot meslinger. Regn ut vaksinasjonsdekningen og vurder om den når rundt 95 %, som trengs mot meslinger. Vis det viktigste regnestykket.",
+        "fasit": "190/200 = 0,95, altså 95 %. Dekningen når dermed rundt 95 %, som trengs mot meslinger.",
+        "kriterier": [
+          "Regner ut andelen som 190/200 = 0,95 eller viser tilsvarende framgangsmåte.",
+          "Oppgir 95 % og vurderer at den når rundt 95 %-nivået for meslinger."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Før en vaksine blir godkjent, prøves den ut i store kliniske studier, og etter at den tas i bruk, blir den overvåket. Forklar hva som skjer i disse to fasene.",
+        "fasit": "I store kliniske studier prøves vaksinen ut før godkjenning. Etter at vaksinen tas i bruk, overvåkes den videre for å følge med på sikkerheten.",
+        "kriterier": [
+          "Beskriver kliniske studier som utprøving før godkjenning.",
+          "Beskriver overvåking etter at vaksinen er tatt i bruk."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En påstand om at MMR-vaksinen gir autisme førte til lavere vaksinasjonsdekning i flere land. Forklar hvordan lavere vaksinasjonsdekning kan føre til meslingutbrudd.",
+        "fasit": "Når vaksinasjonsdekningen blir lavere, er færre beskyttet, og smitten får lettere for å spre seg. Det kan føre til meslingutbrudd.",
+        "kriterier": [
+          "Knytter lavere vaksinasjonsdekning til at færre er beskyttet.",
+          "Forklarer at smitten da lettere kan spre seg og føre til utbrudd."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

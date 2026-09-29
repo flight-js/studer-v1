@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Forbrukeratferd",
   "intro": "Hvordan forbrukere tar kjøpsbeslutninger – kjøpsprosessen og ulike typer kjøp – og hvilke psykologiske, sosiale, kulturelle og personlige faktorer som påvirker hva vi kjøper.",
-  "kompetansemaal": [2],
+  "kompetansemaal": [
+    2
+  ],
   "sammendrag": "## Hva er forbrukeratferd?\n\n**Forbrukeratferd** handler om hvordan mennesker **velger**, **kjøper**, **bruker** og **kvitter seg med** varer og tjenester. Virksomheter som forstår kundene sine, kan lage bedre produkter og treffe bedre med markedsføringen.\n\n## Kjøpsprosessen\n\nEt kjøp går ofte gjennom fem trinn:\n\n1. **Behovserkjennelse** – kunden merker et behov, for eksempel at mobilen er ødelagt.\n2. **Informasjonssøk** – kunden leser anmeldelser, spør venner og sammenligner.\n3. **Vurdering av alternativer** – kunden veier pris, kvalitet, merke og egenskaper.\n4. **Kjøpsbeslutning** – kunden kjøper, eller lar være.\n5. **Etterkjøpsatferd** – kunden blir fornøyd eller misfornøyd og forteller det kanskje videre.\n\nEtter et dyrt kjøp kan kunden tvile på om valget var riktig. Denne tvilen kalles **kognitiv dissonans**. Virksomheter kan dempe den med god **oppfølging**, garanti og bekreftende informasjon.\n\n## Typer kjøp\n\n- **Rutinekjøp**: billige varer vi kjøper ofte, som melk. Lite **engasjement**.\n- **Begrenset problemløsning**: noe mer vurdering, for eksempel et nytt merke av sjampo.\n- **Omfattende problemløsning**: dyre og viktige kjøp, som PC eller bil. Høyt engasjement og mye informasjonssøk.\n- **Impulskjøp**: uplanlagte kjøp, ofte ved **kassen** eller i **sosiale medier**.\n\n## Psykologiske faktorer\n\n- **Motiver** og **behov** – Maslows behovspyramide brukes ofte for å forklare hvilke behov et produkt dekker.\n- **Persepsjon** – hvordan vi **legger merke til** og **tolker** informasjon. Farger, emballasje og plassering i butikken påvirker.\n- **Læring** – erfaringer gjør oss **lojale** mot et merke.\n- **Holdninger** – varige vurderinger av produkter og merker.\n- **Følelser** – mange kjøp styres mer av følelser enn av fornuft.\n\n## Sosiale faktorer\n\n- **Referansegrupper** – grupper vi sammenligner oss med eller ønsker å tilhøre, som venner eller idrettslaget.\n- **Familien** – påvirker vaner og verdier, og barn påvirker mange av familiens kjøp.\n- **Opinionsledere** og **påvirkere** – personer som andre lytter til, for eksempel influensere.\n- **Status** og **roller** – vi kjøper noe for å vise hvem vi er.\n\n## Kulturelle faktorer\n\n- **Kultur** – felles verdier og normer. I Norge er for eksempel **friluftsliv** en viktig del av kulturen.\n- **Subkulturer** – grupper med egne verdier og stil, som gamere eller religiøse minoriteter.\n- **Sosial klasse** – utdanning og inntekt påvirker smak og forbruk.\n- **Høytider** og **tradisjoner** – som jul og 17. mai.\n\n## Personlige faktorer\n\n**Alder**, **livsfase**, **økonomi**, **yrke**, **livsstil** og **personlighet** påvirker hva vi kjøper. En student og en småbarnsfamilie har svært ulike behov.\n\n## Digitale kjøp\n\nPå nett blir vi påvirket av **anmeldelser**, **anbefalinger** fra algoritmer, **tidsbegrensede** tilbud og hvor **lett** det er å betale. Det gjør det raskere å kjøpe – men også lettere å kjøpe noe vi **ikke trenger**.\n\n## Vurdering\n\nForbrukeratferd er et samspill av **mange** faktorer. Virksomheter bruker kunnskapen til å treffe kundene bedre, men det reiser også **etiske** spørsmål: Når blir påvirkning til **manipulasjon**, og hvordan påvirker markedsføringen **overforbruk**?",
   "flashcards": [
-    { "term": "Forbrukeratferd", "def": "Hvordan mennesker velger, kjøper, bruker og kvitter seg med produkter." },
-    { "term": "Kjøpsprosessen", "def": "Behovserkjennelse, informasjonssøk, vurdering, kjøp og etterkjøpsatferd." },
-    { "term": "Behovserkjennelse", "def": "Kunden merker et behov." },
-    { "term": "Etterkjøpsatferd", "def": "Kunden blir fornøyd eller misfornøyd etter kjøpet." },
-    { "term": "Kognitiv dissonans etter kjøp", "def": "Tvil om kjøpet var riktig." },
-    { "term": "Rutinekjøp", "def": "Billige varer vi kjøper ofte med lite engasjement." },
-    { "term": "Omfattende problemløsning", "def": "Dyre og viktige kjøp med mye informasjonssøk." },
-    { "term": "Impulskjøp", "def": "Uplanlagt kjøp." },
-    { "term": "Persepsjon", "def": "Hvordan vi legger merke til og tolker informasjon." },
-    { "term": "Holdning", "def": "Varig vurdering av et produkt eller merke." },
-    { "term": "Referansegruppe", "def": "Gruppe vi sammenligner oss med eller ønsker å tilhøre." },
-    { "term": "Opinionsleder", "def": "Person som andre lytter til og lar seg påvirke av." },
-    { "term": "Subkultur", "def": "Gruppe med egne verdier og stil innenfor en kultur." },
-    { "term": "Sosial klasse", "def": "Utdanning og inntekt som påvirker smak og forbruk." },
-    { "term": "Livsfase", "def": "Hvor i livet man er, for eksempel student eller småbarnsforelder." },
-    { "term": "Engasjement", "def": "Hvor viktig og involverende et kjøp er for kunden." }
+    {
+      "term": "Forbrukeratferd",
+      "def": "Hvordan mennesker velger, kjøper, bruker og kvitter seg med produkter."
+    },
+    {
+      "term": "Kjøpsprosessen",
+      "def": "Behovserkjennelse, informasjonssøk, vurdering, kjøp og etterkjøpsatferd."
+    },
+    {
+      "term": "Behovserkjennelse",
+      "def": "Kunden merker et behov."
+    },
+    {
+      "term": "Etterkjøpsatferd",
+      "def": "Kunden blir fornøyd eller misfornøyd etter kjøpet."
+    },
+    {
+      "term": "Kognitiv dissonans etter kjøp",
+      "def": "Tvil om kjøpet var riktig."
+    },
+    {
+      "term": "Rutinekjøp",
+      "def": "Billige varer vi kjøper ofte med lite engasjement."
+    },
+    {
+      "term": "Omfattende problemløsning",
+      "def": "Dyre og viktige kjøp med mye informasjonssøk."
+    },
+    {
+      "term": "Impulskjøp",
+      "def": "Uplanlagt kjøp."
+    },
+    {
+      "term": "Persepsjon",
+      "def": "Hvordan vi legger merke til og tolker informasjon."
+    },
+    {
+      "term": "Holdning",
+      "def": "Varig vurdering av et produkt eller merke."
+    },
+    {
+      "term": "Referansegruppe",
+      "def": "Gruppe vi sammenligner oss med eller ønsker å tilhøre."
+    },
+    {
+      "term": "Opinionsleder",
+      "def": "Person som andre lytter til og lar seg påvirke av."
+    },
+    {
+      "term": "Subkultur",
+      "def": "Gruppe med egne verdier og stil innenfor en kultur."
+    },
+    {
+      "term": "Sosial klasse",
+      "def": "Utdanning og inntekt som påvirker smak og forbruk."
+    },
+    {
+      "term": "Livsfase",
+      "def": "Hvor i livet man er, for eksempel student eller småbarnsforelder."
+    },
+    {
+      "term": "Engasjement",
+      "def": "Hvor viktig og involverende et kjøp er for kunden."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er første trinn i kjøpsprosessen?", "options": ["Informasjonssøk", "Behovserkjennelse", "Kjøpsbeslutning", "Etterkjøpsatferd"], "correct": 1, "explain": "Kunden merker et behov." },
-    { "id": "q02", "text": "Hva er kognitiv dissonans etter kjøp?", "options": ["Tvil om kjøpet var riktig", "Glede over kjøpet", "Et impulskjøp", "En rabatt"], "correct": 0, "explain": "Vanlig etter dyre kjøp." },
-    { "id": "q03", "text": "Hvilket kjøp er typisk omfattende problemløsning?", "options": ["Melk", "Tyggegummi", "En ny bil", "Brød"], "correct": 2, "explain": "Dyrt og viktig kjøp." },
-    { "id": "q04", "text": "Hva er en referansegruppe?", "options": ["En gruppe forskere", "En kundeklubb", "En butikkjede", "En gruppe vi sammenligner oss med eller ønsker å tilhøre"], "correct": 3, "explain": "En sosial faktor." },
-    { "id": "q05", "text": "Hvilken faktor er psykologisk?", "options": ["Persepsjon", "Sosial klasse", "Familie", "Kultur"], "correct": 0, "explain": "Også motiver, læring og holdninger." },
-    { "id": "q06", "text": "Hva er en opinionsleder?", "options": ["En politiker", "En person som andre lytter til og lar seg påvirke av", "En butikksjef", "En journalist alltid"], "correct": 1, "explain": "For eksempel en influenser." },
-    { "id": "q07", "text": "Hvilken faktor er kulturell?", "options": ["Alder", "Holdninger", "Subkultur", "Økonomi"], "correct": 2, "explain": "Grupper med egne verdier og stil." },
-    { "id": "q08", "text": "Hva er et impulskjøp?", "options": ["Et planlagt kjøp", "Et kjøp av bil", "Et kjøp med mye informasjonssøk", "Et uplanlagt kjøp"], "correct": 3, "explain": "Ofte ved kassen eller i sosiale medier." },
-    { "id": "q09", "text": "Hvordan kan en virksomhet dempe kundens tvil etter et dyrt kjøp?", "options": ["Med god oppfølging og garanti", "Ved å heve prisen", "Ved å ignorere kunden", "Ved å slutte å selge produktet"], "correct": 0, "explain": "Bekrefter at valget var riktig." },
-    { "id": "q10", "text": "Hvorfor gjør netthandel det lettere å kjøpe noe vi ikke trenger?", "options": ["Fordi varene er dårligere", "Fordi anbefalinger, tidsbegrensede tilbud og enkel betaling gjør kjøpet raskt", "Fordi det er dyrere", "Fordi det er ulovlig"], "correct": 1, "explain": "Terskelen for å kjøpe blir lavere." }
+    {
+      "id": "q01",
+      "text": "Hva er første trinn i kjøpsprosessen?",
+      "options": [
+        "Informasjonssøk",
+        "Behovserkjennelse",
+        "Kjøpsbeslutning",
+        "Etterkjøpsatferd"
+      ],
+      "correct": 1,
+      "explain": "Kunden merker et behov."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er kognitiv dissonans etter kjøp?",
+      "options": [
+        "Tvil om kjøpet var riktig",
+        "Glede over kjøpet",
+        "Et impulskjøp",
+        "En rabatt"
+      ],
+      "correct": 0,
+      "explain": "Vanlig etter dyre kjøp."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket kjøp er typisk omfattende problemløsning?",
+      "options": [
+        "Melk",
+        "Tyggegummi",
+        "En ny bil",
+        "Brød"
+      ],
+      "correct": 2,
+      "explain": "Dyrt og viktig kjøp."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er en referansegruppe?",
+      "options": [
+        "En gruppe forskere",
+        "En kundeklubb",
+        "En butikkjede",
+        "En gruppe vi sammenligner oss med eller ønsker å tilhøre"
+      ],
+      "correct": 3,
+      "explain": "En sosial faktor."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken faktor er psykologisk?",
+      "options": [
+        "Persepsjon",
+        "Sosial klasse",
+        "Familie",
+        "Kultur"
+      ],
+      "correct": 0,
+      "explain": "Også motiver, læring og holdninger."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en opinionsleder?",
+      "options": [
+        "En politiker",
+        "En person som andre lytter til og lar seg påvirke av",
+        "En butikksjef",
+        "En journalist alltid"
+      ],
+      "correct": 1,
+      "explain": "For eksempel en influenser."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken faktor er kulturell?",
+      "options": [
+        "Alder",
+        "Holdninger",
+        "Subkultur",
+        "Økonomi"
+      ],
+      "correct": 2,
+      "explain": "Grupper med egne verdier og stil."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et impulskjøp?",
+      "options": [
+        "Et planlagt kjøp",
+        "Et kjøp av bil",
+        "Et kjøp med mye informasjonssøk",
+        "Et uplanlagt kjøp"
+      ],
+      "correct": 3,
+      "explain": "Ofte ved kassen eller i sosiale medier."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan kan en virksomhet dempe kundens tvil etter et dyrt kjøp?",
+      "options": [
+        "Med god oppfølging og garanti",
+        "Ved å heve prisen",
+        "Ved å ignorere kunden",
+        "Ved å slutte å selge produktet"
+      ],
+      "correct": 0,
+      "explain": "Bekrefter at valget var riktig."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor gjør netthandel det lettere å kjøpe noe vi ikke trenger?",
+      "options": [
+        "Fordi varene er dårligere",
+        "Fordi anbefalinger, tidsbegrensede tilbud og enkel betaling gjør kjøpet raskt",
+        "Fordi det er dyrere",
+        "Fordi det er ulovlig"
+      ],
+      "correct": 1,
+      "explain": "Terskelen for å kjøpe blir lavere."
+    }
   ],
   "mindmap": {
     "label": "Forbrukeratferd",
     "children": [
-      { "label": "Kjøpsprosessen", "children": [
-        { "label": "Behov og informasjon" },
-        { "label": "Vurdering og kjøp" },
-        { "label": "Etterkjøp" }
-      ] },
-      { "label": "Kjøpstyper", "children": [
-        { "label": "Rutine" },
-        { "label": "Omfattende" },
-        { "label": "Impuls" }
-      ] },
-      { "label": "Psykologisk", "children": [
-        { "label": "Motiver" },
-        { "label": "Persepsjon og læring" },
-        { "label": "Holdninger" }
-      ] },
-      { "label": "Sosialt", "children": [
-        { "label": "Referansegrupper" },
-        { "label": "Familie" },
-        { "label": "Påvirkere" }
-      ] },
-      { "label": "Kulturelt og personlig", "children": [
-        { "label": "Kultur og subkultur" },
-        { "label": "Livsfase og økonomi" }
-      ] }
+      {
+        "label": "Kjøpsprosessen",
+        "children": [
+          {
+            "label": "Behov og informasjon"
+          },
+          {
+            "label": "Vurdering og kjøp"
+          },
+          {
+            "label": "Etterkjøp"
+          }
+        ]
+      },
+      {
+        "label": "Kjøpstyper",
+        "children": [
+          {
+            "label": "Rutine"
+          },
+          {
+            "label": "Omfattende"
+          },
+          {
+            "label": "Impuls"
+          }
+        ]
+      },
+      {
+        "label": "Psykologisk",
+        "children": [
+          {
+            "label": "Motiver"
+          },
+          {
+            "label": "Persepsjon og læring"
+          },
+          {
+            "label": "Holdninger"
+          }
+        ]
+      },
+      {
+        "label": "Sosialt",
+        "children": [
+          {
+            "label": "Referansegrupper"
+          },
+          {
+            "label": "Familie"
+          },
+          {
+            "label": "Påvirkere"
+          }
+        ]
+      },
+      {
+        "label": "Kulturelt og personlig",
+        "children": [
+          {
+            "label": "Kultur og subkultur"
+          },
+          {
+            "label": "Livsfase og økonomi"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange kjøp styres mer av følelser enn av fornuft.", "correct": true, "explain": "Følelser er en viktig psykologisk faktor." },
-      { "id": "m02", "type": "sant-usant", "text": "Rutinekjøp krever mye informasjonssøk.", "correct": false, "explain": "Rutinekjøp har lite engasjement." },
-      { "id": "m03", "type": "sant-usant", "text": "Barn kan påvirke mange av familiens kjøp.", "correct": true, "explain": "Familien er en sosial faktor." },
-      { "id": "m04", "type": "sant-usant", "text": "Kultur har ingen betydning for hva vi kjøper.", "correct": false, "explain": "Kultur påvirker verdier, normer og tradisjoner." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken faktor er personlig?", "options": ["Referansegruppe", "Livsfase", "Kultur", "Opinionsleder"], "correct": 1, "explain": "Også alder, økonomi og livsstil." },
-      { "id": "m06", "type": "flervalg", "text": "Hvordan kan plassering i butikken påvirke kjøp?", "options": ["Gjennom persepsjon – det vi legger merke til", "Den har ingen effekt", "Den endrer prisen", "Den gjør varen ulovlig"], "correct": 0, "explain": "Varer i øyehøyde blir sett oftere." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket etisk spørsmål reiser kunnskap om forbrukeratferd?", "options": ["Om varene er tunge", "Om butikken er stor", "Når påvirkning blir til manipulasjon", "Om kunden har bil"], "correct": 2, "explain": "Og hvordan markedsføring påvirker overforbruk." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange kjøp styres mer av følelser enn av fornuft.",
+        "correct": true,
+        "explain": "Følelser er en viktig psykologisk faktor."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Rutinekjøp krever mye informasjonssøk.",
+        "correct": false,
+        "explain": "Rutinekjøp har lite engasjement."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Barn kan påvirke mange av familiens kjøp.",
+        "correct": true,
+        "explain": "Familien er en sosial faktor."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kultur har ingen betydning for hva vi kjøper.",
+        "correct": false,
+        "explain": "Kultur påvirker verdier, normer og tradisjoner."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken faktor er personlig?",
+        "options": [
+          "Referansegruppe",
+          "Livsfase",
+          "Kultur",
+          "Opinionsleder"
+        ],
+        "correct": 1,
+        "explain": "Også alder, økonomi og livsstil."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvordan kan plassering i butikken påvirke kjøp?",
+        "options": [
+          "Gjennom persepsjon – det vi legger merke til",
+          "Den har ingen effekt",
+          "Den endrer prisen",
+          "Den gjør varen ulovlig"
+        ],
+        "correct": 0,
+        "explain": "Varer i øyehøyde blir sett oftere."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket etisk spørsmål reiser kunnskap om forbrukeratferd?",
+        "options": [
+          "Om varene er tunge",
+          "Om butikken er stor",
+          "Når påvirkning blir til manipulasjon",
+          "Om kunden har bil"
+        ],
+        "correct": 2,
+        "explain": "Og hvordan markedsføring påvirker overforbruk."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva forbrukeratferd handler om, fra kunden begynner å velge et produkt til kunden kvitter seg med det.",
+        "fasit": "Forbrukeratferd handler om hvordan mennesker velger, kjøper og bruker varer og tjenester, og hvordan de kvitter seg med dem.",
+        "kriterier": [
+          "Får fram at forbrukeratferd omfatter flere deler av kundens forhold til varer eller tjenester, ikke bare selve kjøpet.",
+          "Nevner både kjøp eller bruk og det å kvitte seg med produktet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign et rutinekjøp, som å kjøpe melk, med et omfattende kjøp, som å kjøpe en bil. Hvordan skiller de seg i engasjement og informasjonssøk?",
+        "fasit": "Ved et rutinekjøp er engasjementet lite, og kunden søker vanligvis lite informasjon. Bilkjøpet er dyrt og viktig, så kunden har høyt engasjement og søker mye informasjon.",
+        "kriterier": [
+          "Beskriver rutinekjøp som et kjøp med lite engasjement og lite informasjonssøk.",
+          "Beskriver omfattende problemløsning som et viktig kjøp med høyt engasjement og mye informasjonssøk."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En kunde har bestemt seg for å kjøpe en mobil. Kunden sammenligner nå pris, kvalitet, merke og egenskaper hos flere mobiler. Hvilket trinn i kjøpsprosessen er kunden i, og hva gjør kunden i dette trinnet?",
+        "fasit": "Kunden er i trinnet vurdering av alternativer. Kunden veier egenskaper ved de ulike mobilene opp mot hverandre før kjøpsbeslutningen.",
+        "kriterier": [
+          "Identifiserer vurdering av alternativer som trinnet.",
+          "Forklarer at kunden sammenligner eller veier ulike egenskaper ved alternativene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En butikk plasserer en vare godt synlig ved inngangen. Forklar hvordan dette kan påvirke kundens valg ved hjelp av begrepet persepsjon.",
+        "fasit": "Persepsjon handler om hvordan vi legger merke til og tolker informasjon. Den synlige plasseringen kan gjøre at kunden legger merke til varen og vurderer den som et alternativ.",
+        "kriterier": [
+          "Forklarer persepsjon som det å legge merke til og tolke informasjon.",
+          "Knytter den synlige plasseringen til at kunden lettere legger merke til varen eller påvirkes i vurderingen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En kunde har hatt gode erfaringer med et merke og velger det igjen. Hvilken psykologisk faktor forklarer hvordan erfaringer kan føre til lojalitet? Forklar sammenhengen.",
+        "fasit": "Læring kan forklare dette. Erfaringer med et merke kan gjøre kunden lojal mot det og føre til at kunden velger det igjen.",
+        "kriterier": [
+          "Identifiserer læring som den relevante psykologiske faktoren.",
+          "Forklarer at erfaringer kan gjøre kunden lojal mot et merke eller påvirke framtidige valg."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En student og en småbarnsfamilie vurderer hva de trenger å kjøpe. Forklar hvordan livsfase kan føre til at de har ulike behov og kjøper ulike ting.",
+        "fasit": "Livsfase handler om hvor i livet man er. En student og en småbarnsfamilie kan derfor ha ulike behov, noe som påvirker hva de kjøper.",
+        "kriterier": [
+          "Forklarer at livsfase er hvor i livet en person eller familie befinner seg.",
+          "Knytter ulike livsfaser til ulike behov og dermed ulike kjøp."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En nettbutikk viser en kunde anbefalinger som en algoritme har valgt ut. Forklar hvordan slike anbefalinger kan påvirke kundens kjøpsvalg.",
+        "fasit": "Anbefalinger fra algoritmer kan påvirke hvilke produkter kunden legger merke til og vurderer. Det kan dermed påvirke hva kunden velger å kjøpe.",
+        "kriterier": [
+          "Får fram at algoritmeanbefalinger kan påvirke kunden.",
+          "Forklarer at påvirkningen kan skje ved at kunden legger merke til eller vurderer bestemte produkter."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En gruppe gamere har egne verdier og en egen stil, og medlemmene velger produkter som passer til dette. Forklar hvorfor gruppen kan kalles en subkultur, og hvordan den kan påvirke medlemmenes kjøp.",
+        "fasit": "Gruppen kan kalles en subkultur fordi den har egne verdier og en egen stil innenfor en større kultur. Dette kan påvirke hvilke produkter medlemmene velger.",
+        "kriterier": [
+          "Forklarer at en subkultur er en gruppe innenfor en kultur med egne verdier eller stil.",
+          "Knytter gruppetilhørigheten til medlemmenes produktvalg."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

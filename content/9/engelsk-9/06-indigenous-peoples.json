@@ -359,6 +359,79 @@
         "correct": 0,
         "explain": "The Australian government apologised in 2008."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "When Europeans colonised North America, Australia and New Zealand, indigenous peoples were harmed in several ways. Describe two different effects of colonisation on them.",
+        "fasit": "Many indigenous peoples lost land or were forced away from their traditional areas. Many also died from diseases brought by settlers or were killed in wars.",
+        "kriterier": [
+          "Describes two distinct effects, such as land loss, forced removal, disease, deaths in war or broken treaties."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Compare what happened to indigenous children in Canadian residential schools and to Aboriginal children in Australia.",
+        "fasit": "In Canada, indigenous children were sent to residential schools where they were forbidden to speak their languages. In Australia, many Aboriginal children were taken from their families; they are known as the Stolen Generations.",
+        "kriterier": [
+          "Explains what happened to children in Canada, including the ban on their languages.",
+          "Explains that Aboriginal children in Australia were taken from their families."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "In Canada, indigenous children were forbidden to speak their languages at residential schools. In Norway, Sámi children were often not allowed to speak Sámi at school during Norwegianisation. What do these policies have in common, and what did they restrict?",
+        "fasit": "Both policies restricted indigenous children from using their own languages at school. This put pressure on them to give up part of their culture.",
+        "kriterier": [
+          "Identifies that both policies restricted children’s use of their indigenous languages.",
+          "Connects the restrictions to pressure to give up language or culture."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Today, the Sámi in Norway have the Sámediggi and Sámi languages have official status. Explain how these two facts relate to Sámi political representation and language rights.",
+        "fasit": "The Sámediggi gives the Sámi their own parliament in Norway, while official status recognises Sámi languages. These are ways of supporting Sámi political representation and language rights.",
+        "kriterier": [
+          "Connects the Sámediggi to Sámi political representation.",
+          "Connects official language status to recognition or support for Sámi language rights."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "A student says that Inuit and Métis people are not Indigenous because the term “First Nations” is used for Indigenous peoples in Canada. Use what you know about Canada to correct the student.",
+        "fasit": "First Nations, Inuit and Métis are all Indigenous peoples in Canada. First Nations is one group alongside the Inuit and the Métis.",
+        "kriterier": [
+          "States that Inuit and Métis are Indigenous peoples in Canada.",
+          "Clarifies that First Nations is not the only Indigenous group in Canada."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "A community’s language is being used less, but people begin learning it again, and its art and music gain new attention. Explain why this can be an example of cultural revival.",
+        "fasit": "Learning the language again helps bring it back into use. New attention to the community’s art and music also shows renewed interest in its culture and traditions.",
+        "kriterier": [
+          "Explains that learning the language again helps renew or revive it.",
+          "Connects renewed attention to art or music with renewed interest in the community’s culture."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A plan for wind power or mining could affect land used for reindeer herding. Explain why this could cause a conflict and what kind of rights are involved.",
+        "fasit": "The project may compete with reindeer herding for the use of the land. The conflict concerns indigenous peoples’ rights to land and the use of their traditional areas.",
+        "kriterier": [
+          "Explains that development and reindeer herding may compete over land use.",
+          "Identifies indigenous peoples’ land rights as an issue."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Compare the UN Declaration on the Rights of Indigenous Peoples with the Treaty of Waitangi. Who is connected to each one, and how are they different in scope?",
+        "fasit": "The UN adopted the declaration on the rights of indigenous peoples in 2007, so it concerns indigenous peoples broadly. The Treaty of Waitangi is an agreement between the British Crown and Māori chiefs and is central to debates about Māori rights.",
+        "kriterier": [
+          "Identifies the UN Declaration as a declaration concerning the rights of indigenous peoples broadly.",
+          "Identifies the Treaty of Waitangi as an agreement between the British Crown and Māori chiefs."
+        ]
+      }
     ]
   },
   "kvalitet": {

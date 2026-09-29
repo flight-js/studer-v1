@@ -4,79 +4,427 @@
   "trinnId": "vg1",
   "name": "Kjemiske bindinger og stoffers egenskaper",
   "intro": "Ionebinding, kovalent binding og metallbinding, polare og upolare molekyler, bindinger mellom molekyler og hvordan bindingene forklarer egenskaper som smeltepunkt, løselighet og elektrisk ledningsevne.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Hvorfor binder atomer seg?\n\nAtomer binder seg sammen for å bli mer **stabile** – ofte ved å få **fullt ytterste skall**, som edelgassene. Det kan skje ved å **gi fra seg**, **ta opp** eller **dele** elektroner. Typen binding avgjør mange av stoffets **egenskaper**.\n\n## Ionebinding\n\n**Ionebinding** oppstår mellom et **metall** og et **ikke-metall**. Metallet gir fra seg elektroner og blir et **positivt ion**, mens ikke-metallet tar opp elektroner og blir et **negativt ion**. Ionene holdes sammen av sterke elektriske krefter i et **iongitter**.\n\nEksempel: **Natriumklorid** (NaCl, bordsalt) består av Na⁺ og Cl⁻.\n\nEgenskaper til ionforbindelser:\n\n- **Høyt smeltepunkt** – NaCl smelter ved 801 °C.\n- **Harde, men sprø** krystaller.\n- Leder **ikke** strøm i fast form, men **leder strøm** når de er **smeltet** eller **løst i vann**, fordi ionene da kan bevege seg.\n\n## Kovalent binding\n\n**Kovalent binding** oppstår mellom **ikke-metaller**, som **deler elektronpar**. Slik dannes **molekyler** som H₂O, CO₂ og CH₄.\n\n- I en **upolar** binding deles elektronene likt, som i H₂ og Cl₂.\n- I en **polar** binding trekker det ene atomet mer på elektronene fordi det har høyere **elektronegativitet**. Da blir den ene enden svakt negativ og den andre svakt positiv.\n\n**Vann** er et **polart molekyl** fordi oksygen trekker på elektronene og molekylet er **vinklet**. CO₂ har polare bindinger, men er **lineært**, så molekylet blir **upolart**.\n\n## Bindinger mellom molekyler\n\nMellom molekyler virker svakere krefter:\n\n- **Hydrogenbindinger** – mellom molekyler der H er bundet til O, N eller F, som i vann. De forklarer hvorfor vann har et **uvanlig høyt kokepunkt** (100 °C) for et så lite molekyl.\n- **Dipol–dipol-krefter** – mellom polare molekyler.\n- **Van der Waals-krefter** (London-krefter) – svake krefter mellom alle molekyler, sterkere jo større molekylene er.\n\nMolekylære stoffer har derfor ofte **lave smelte- og kokepunkt** – mange er gasser eller væsker ved romtemperatur.\n\n## Metallbinding\n\nI metaller deler atomene de ytterste elektronene i en **elektronsjø** rundt positive metallioner. Det forklarer at metaller\n\n- **leder strøm** og **varme** godt\n- er **formbare** – lagene kan gli uten at bindingene brytes\n- har **metallglans**\n\n## Nettverksstoffer\n\nI noen stoffer er alle atomene bundet sammen med kovalente bindinger i et stort nettverk. **Diamant** og **grafitt** består begge bare av karbon, men **diamant** er ekstremt hard, mens **grafitt** er myk og **leder strøm** fordi noen elektroner kan bevege seg mellom lagene.\n\n## «Likt løser likt»\n\n**Polare** stoffer løses godt i **polare** løsemidler: Salt og sukker løses i vann. **Upolare** stoffer løses i **upolare** løsemidler: Fett løses ikke i vann, men i for eksempel bensin. Derfor trenger vi **såpe**, som har en polar og en upolar ende, for å vaske bort fett.",
   "flashcards": [
-    { "term": "Ionebinding", "def": "Binding mellom positive og negative ioner, typisk metall og ikke-metall." },
-    { "term": "Ion", "def": "Atom som har gitt fra seg eller tatt opp elektroner og er elektrisk ladet." },
-    { "term": "Iongitter", "def": "Regelmessig mønster av positive og negative ioner." },
-    { "term": "Ionforbindelser leder strøm", "def": "Når de er smeltet eller løst i vann, ikke i fast form." },
-    { "term": "Kovalent binding", "def": "Ikke-metaller deler elektronpar." },
-    { "term": "Elektronegativitet", "def": "Hvor sterkt et atom trekker på elektronene i en binding." },
-    { "term": "Polar binding", "def": "Elektronene deles ulikt, så bindingen får en positiv og en negativ ende." },
-    { "term": "Polart molekyl", "def": "Molekyl med en positiv og en negativ ende, som vann." },
-    { "term": "Hydrogenbinding", "def": "Sterk binding mellom molekyler der H er bundet til O, N eller F." },
-    { "term": "Van der Waals-krefter", "def": "Svake krefter mellom alle molekyler." },
-    { "term": "Metallbinding", "def": "Positive metallioner i en sjø av frie elektroner." },
-    { "term": "Diamant og grafitt", "def": "To former av karbon med svært ulike egenskaper." },
-    { "term": "Likt løser likt", "def": "Polare stoffer løses i polare løsemidler, upolare i upolare." },
-    { "term": "Såpe", "def": "Har en polar og en upolar ende og kan løse fett i vann." },
-    { "term": "NaCl", "def": "Natriumklorid, en ionforbindelse med smeltepunkt 801 °C." }
+    {
+      "term": "Ionebinding",
+      "def": "Binding mellom positive og negative ioner, typisk metall og ikke-metall."
+    },
+    {
+      "term": "Ion",
+      "def": "Atom som har gitt fra seg eller tatt opp elektroner og er elektrisk ladet."
+    },
+    {
+      "term": "Iongitter",
+      "def": "Regelmessig mønster av positive og negative ioner."
+    },
+    {
+      "term": "Ionforbindelser leder strøm",
+      "def": "Når de er smeltet eller løst i vann, ikke i fast form."
+    },
+    {
+      "term": "Kovalent binding",
+      "def": "Ikke-metaller deler elektronpar."
+    },
+    {
+      "term": "Elektronegativitet",
+      "def": "Hvor sterkt et atom trekker på elektronene i en binding."
+    },
+    {
+      "term": "Polar binding",
+      "def": "Elektronene deles ulikt, så bindingen får en positiv og en negativ ende."
+    },
+    {
+      "term": "Polart molekyl",
+      "def": "Molekyl med en positiv og en negativ ende, som vann."
+    },
+    {
+      "term": "Hydrogenbinding",
+      "def": "Sterk binding mellom molekyler der H er bundet til O, N eller F."
+    },
+    {
+      "term": "Van der Waals-krefter",
+      "def": "Svake krefter mellom alle molekyler."
+    },
+    {
+      "term": "Metallbinding",
+      "def": "Positive metallioner i en sjø av frie elektroner."
+    },
+    {
+      "term": "Diamant og grafitt",
+      "def": "To former av karbon med svært ulike egenskaper."
+    },
+    {
+      "term": "Likt løser likt",
+      "def": "Polare stoffer løses i polare løsemidler, upolare i upolare."
+    },
+    {
+      "term": "Såpe",
+      "def": "Har en polar og en upolar ende og kan løse fett i vann."
+    },
+    {
+      "term": "NaCl",
+      "def": "Natriumklorid, en ionforbindelse med smeltepunkt 801 °C."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken type binding finnes i natriumklorid (NaCl)?", "options": ["Kovalent binding", "Ionebinding", "Metallbinding", "Hydrogenbinding"], "correct": 1, "explain": "Na⁺ og Cl⁻ holdes sammen av elektriske krefter." },
-    { "id": "q02", "text": "Hva skjer i en kovalent binding?", "options": ["Atomene deler elektronpar", "Et atom gir bort alle elektronene", "Atomene deler protoner", "Elektronene flyter fritt i en sjø"], "correct": 0, "explain": "Kovalente bindinger dannes mellom ikke-metaller." },
-    { "id": "q03", "text": "Når leder salt strøm?", "options": ["Alltid", "Aldri", "Når det er smeltet eller løst i vann", "Bare i fast form"], "correct": 2, "explain": "Da kan ionene bevege seg." },
-    { "id": "q04", "text": "Hvorfor er vann et polart molekyl?", "options": ["Fordi det er lineært", "Fordi det er et metall", "Fordi det inneholder ioner", "Fordi oksygen trekker mer på elektronene og molekylet er vinklet"], "correct": 3, "explain": "Da får molekylet en negativ og en positiv ende." },
-    { "id": "q05", "text": "Hva forklarer at metaller leder strøm godt?", "options": ["Frie elektroner i en elektronsjø", "Hydrogenbindinger", "Iongitter", "Polare bindinger"], "correct": 0, "explain": "Elektronene kan bevege seg gjennom metallet." },
-    { "id": "q06", "text": "Hvorfor løses ikke fett i vann?", "options": ["Fordi fett er tyngre enn vann", "Fordi fett er upolart og vann er polart", "Fordi vann er for kaldt", "Fordi fett er et metall"], "correct": 1, "explain": "Likt løser likt." },
-    { "id": "q07", "text": "Hva forklarer at vann har et høyt kokepunkt for et så lite molekyl?", "options": ["Ionebindinger", "Metallbindinger", "Hydrogenbindinger mellom molekylene", "At vann er upolart"], "correct": 2, "explain": "Hydrogenbindingene må brytes for at vannet skal koke." },
-    { "id": "q08", "text": "Hvorfor leder grafitt strøm, mens diamant ikke gjør det?", "options": ["Grafitt inneholder metall", "Diamant er for hard", "Grafitt er polart", "I grafitt kan noen elektroner bevege seg mellom lagene"], "correct": 3, "explain": "Begge består bare av karbon, men atomene er ordnet ulikt." },
-    { "id": "q09", "text": "Hva er elektronegativitet?", "options": ["Hvor sterkt et atom trekker på elektronene i en binding", "Antall elektroner i et atom", "Ladningen til et ion", "Hvor tungt et atom er"], "correct": 0, "explain": "Forskjell i elektronegativitet gir polare bindinger." },
-    { "id": "q10", "text": "Hvorfor er CO₂ upolart selv om bindingene er polare?", "options": ["Fordi karbon er et metall", "Fordi molekylet er lineært, så polariteten oppheves", "Fordi det er en gass", "Fordi det har hydrogenbindinger"], "correct": 1, "explain": "De to polare bindingene peker i hver sin retning." }
+    {
+      "id": "q01",
+      "text": "Hvilken type binding finnes i natriumklorid (NaCl)?",
+      "options": [
+        "Kovalent binding",
+        "Ionebinding",
+        "Metallbinding",
+        "Hydrogenbinding"
+      ],
+      "correct": 1,
+      "explain": "Na⁺ og Cl⁻ holdes sammen av elektriske krefter."
+    },
+    {
+      "id": "q02",
+      "text": "Hva skjer i en kovalent binding?",
+      "options": [
+        "Atomene deler elektronpar",
+        "Et atom gir bort alle elektronene",
+        "Atomene deler protoner",
+        "Elektronene flyter fritt i en sjø"
+      ],
+      "correct": 0,
+      "explain": "Kovalente bindinger dannes mellom ikke-metaller."
+    },
+    {
+      "id": "q03",
+      "text": "Når leder salt strøm?",
+      "options": [
+        "Alltid",
+        "Aldri",
+        "Når det er smeltet eller løst i vann",
+        "Bare i fast form"
+      ],
+      "correct": 2,
+      "explain": "Da kan ionene bevege seg."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor er vann et polart molekyl?",
+      "options": [
+        "Fordi det er lineært",
+        "Fordi det er et metall",
+        "Fordi det inneholder ioner",
+        "Fordi oksygen trekker mer på elektronene og molekylet er vinklet"
+      ],
+      "correct": 3,
+      "explain": "Da får molekylet en negativ og en positiv ende."
+    },
+    {
+      "id": "q05",
+      "text": "Hva forklarer at metaller leder strøm godt?",
+      "options": [
+        "Frie elektroner i en elektronsjø",
+        "Hydrogenbindinger",
+        "Iongitter",
+        "Polare bindinger"
+      ],
+      "correct": 0,
+      "explain": "Elektronene kan bevege seg gjennom metallet."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor løses ikke fett i vann?",
+      "options": [
+        "Fordi fett er tyngre enn vann",
+        "Fordi fett er upolart og vann er polart",
+        "Fordi vann er for kaldt",
+        "Fordi fett er et metall"
+      ],
+      "correct": 1,
+      "explain": "Likt løser likt."
+    },
+    {
+      "id": "q07",
+      "text": "Hva forklarer at vann har et høyt kokepunkt for et så lite molekyl?",
+      "options": [
+        "Ionebindinger",
+        "Metallbindinger",
+        "Hydrogenbindinger mellom molekylene",
+        "At vann er upolart"
+      ],
+      "correct": 2,
+      "explain": "Hydrogenbindingene må brytes for at vannet skal koke."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor leder grafitt strøm, mens diamant ikke gjør det?",
+      "options": [
+        "Grafitt inneholder metall",
+        "Diamant er for hard",
+        "Grafitt er polart",
+        "I grafitt kan noen elektroner bevege seg mellom lagene"
+      ],
+      "correct": 3,
+      "explain": "Begge består bare av karbon, men atomene er ordnet ulikt."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er elektronegativitet?",
+      "options": [
+        "Hvor sterkt et atom trekker på elektronene i en binding",
+        "Antall elektroner i et atom",
+        "Ladningen til et ion",
+        "Hvor tungt et atom er"
+      ],
+      "correct": 0,
+      "explain": "Forskjell i elektronegativitet gir polare bindinger."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor er CO₂ upolart selv om bindingene er polare?",
+      "options": [
+        "Fordi karbon er et metall",
+        "Fordi molekylet er lineært, så polariteten oppheves",
+        "Fordi det er en gass",
+        "Fordi det har hydrogenbindinger"
+      ],
+      "correct": 1,
+      "explain": "De to polare bindingene peker i hver sin retning."
+    }
   ],
   "mindmap": {
     "label": "Kjemiske bindinger",
     "children": [
-      { "label": "Ionebinding", "children": [
-        { "label": "Metall + ikke-metall" },
-        { "label": "Iongitter" },
-        { "label": "Høyt smeltepunkt" }
-      ] },
-      { "label": "Kovalent binding", "children": [
-        { "label": "Deler elektronpar" },
-        { "label": "Polar og upolar" },
-        { "label": "Elektronegativitet" }
-      ] },
-      { "label": "Mellom molekyler", "children": [
-        { "label": "Hydrogenbindinger" },
-        { "label": "Dipol–dipol" },
-        { "label": "Van der Waals" }
-      ] },
-      { "label": "Metallbinding", "children": [
-        { "label": "Elektronsjø" },
-        { "label": "Leder strøm" },
-        { "label": "Formbar" }
-      ] },
-      { "label": "Egenskaper", "children": [
-        { "label": "Likt løser likt" },
-        { "label": "Diamant og grafitt" },
-        { "label": "Såpe" }
-      ] }
+      {
+        "label": "Ionebinding",
+        "children": [
+          {
+            "label": "Metall + ikke-metall"
+          },
+          {
+            "label": "Iongitter"
+          },
+          {
+            "label": "Høyt smeltepunkt"
+          }
+        ]
+      },
+      {
+        "label": "Kovalent binding",
+        "children": [
+          {
+            "label": "Deler elektronpar"
+          },
+          {
+            "label": "Polar og upolar"
+          },
+          {
+            "label": "Elektronegativitet"
+          }
+        ]
+      },
+      {
+        "label": "Mellom molekyler",
+        "children": [
+          {
+            "label": "Hydrogenbindinger"
+          },
+          {
+            "label": "Dipol–dipol"
+          },
+          {
+            "label": "Van der Waals"
+          }
+        ]
+      },
+      {
+        "label": "Metallbinding",
+        "children": [
+          {
+            "label": "Elektronsjø"
+          },
+          {
+            "label": "Leder strøm"
+          },
+          {
+            "label": "Formbar"
+          }
+        ]
+      },
+      {
+        "label": "Egenskaper",
+        "children": [
+          {
+            "label": "Likt løser likt"
+          },
+          {
+            "label": "Diamant og grafitt"
+          },
+          {
+            "label": "Såpe"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Sukker løses godt i vann fordi begge er polare.", "correct": true, "explain": "Likt løser likt." },
-      { "id": "m02", "type": "sant-usant", "text": "Ionforbindelser har vanligvis lave smeltepunkt.", "correct": false, "explain": "De har høye smeltepunkt på grunn av sterke krefter i iongitteret." },
-      { "id": "m03", "type": "sant-usant", "text": "Metaller er formbare fordi lagene kan gli uten at bindingene brytes.", "correct": true, "explain": "Elektronsjøen holder atomene sammen." },
-      { "id": "m04", "type": "sant-usant", "text": "Kovalente bindinger dannes vanligvis mellom to metaller.", "correct": false, "explain": "Kovalente bindinger dannes mellom ikke-metaller." },
-      { "id": "m05", "type": "flervalg", "text": "Hvorfor kan såpe vaske bort fett?", "options": ["Den har en polar og en upolar ende", "Den er et metall", "Den inneholder salt", "Den er upolar i begge ender"], "correct": 0, "explain": "Den upolare enden binder seg til fettet og den polare til vannet." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på et upolart molekyl?", "options": ["H₂O", "NH₃", "Cl₂", "HCl"], "correct": 2, "explain": "To like atomer deler elektronene likt." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken binding er svakest?", "options": ["Ionebinding", "Van der Waals-krefter", "Kovalent binding", "Metallbinding"], "correct": 1, "explain": "Van der Waals-krefter er svake krefter mellom molekyler." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Sukker løses godt i vann fordi begge er polare.",
+        "correct": true,
+        "explain": "Likt løser likt."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Ionforbindelser har vanligvis lave smeltepunkt.",
+        "correct": false,
+        "explain": "De har høye smeltepunkt på grunn av sterke krefter i iongitteret."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Metaller er formbare fordi lagene kan gli uten at bindingene brytes.",
+        "correct": true,
+        "explain": "Elektronsjøen holder atomene sammen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kovalente bindinger dannes vanligvis mellom to metaller.",
+        "correct": false,
+        "explain": "Kovalente bindinger dannes mellom ikke-metaller."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvorfor kan såpe vaske bort fett?",
+        "options": [
+          "Den har en polar og en upolar ende",
+          "Den er et metall",
+          "Den inneholder salt",
+          "Den er upolar i begge ender"
+        ],
+        "correct": 0,
+        "explain": "Den upolare enden binder seg til fettet og den polare til vannet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på et upolart molekyl?",
+        "options": [
+          "H₂O",
+          "NH₃",
+          "Cl₂",
+          "HCl"
+        ],
+        "correct": 2,
+        "explain": "To like atomer deler elektronene likt."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken binding er svakest?",
+        "options": [
+          "Ionebinding",
+          "Van der Waals-krefter",
+          "Kovalent binding",
+          "Metallbinding"
+        ],
+        "correct": 1,
+        "explain": "Van der Waals-krefter er svake krefter mellom molekyler."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et metallatom gir fra seg elektroner til et ikke-metallatom. Hva slags ioner dannes, og hvordan holdes ionene sammen i et iongitter?",
+        "fasit": "Metallatomet blir et positivt ion, og ikke-metallatomet blir et negativt ion. De motsatt ladde ionene tiltrekker hverandre med elektriske krefter i iongitteret.",
+        "kriterier": [
+          "Forklarer at metallet blir positivt og ikke-metallet negativt ladet.",
+          "Beskriver at motsatt ladde ioner tiltrekker hverandre i iongitteret."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I H₂ deles elektronene likt mellom atomene. Forklar hvordan dette skiller seg fra en polar binding, og hva slags ladningsender en polar binding får.",
+        "fasit": "I en polar binding deles elektronene ulikt fordi det ene atomet trekker sterkere på dem. Da får bindingen en svakt negativ ende og en svakt positiv ende, i motsetning til H₂ der elektronene deles likt.",
+        "kriterier": [
+          "Beskriver at elektronene deles ulikt i en polar binding, men likt i H₂.",
+          "Forklarer at polar binding får en svakt positiv og en svakt negativ ende."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Mange molekylære stoffer har lave smelte- og kokepunkter. Forklar dette ved å beskrive kreftene mellom molekylene.",
+        "fasit": "Kreftene mellom molekylene er svake. Derfor kreves det ofte lite energi for å få molekylene fra hverandre når stoffet smelter eller koker.",
+        "kriterier": [
+          "Får fram at kreftene mellom molekylene er svake.",
+          "Knytter de svake kreftene til lave smelte- eller kokepunkter."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En fettflekk skal vaskes bort med vann. Forklar hvordan såpe kan hjelpe, ved å bruke hva du vet om endene på såpemolekylet.",
+        "fasit": "Såpe har en upolar ende som kan virke sammen med fettet, og en polar ende som passer med vann. Derfor kan såpe hjelpe med å få fettet bort med vann.",
+        "kriterier": [
+          "Forklarer at såpe har både en polar og en upolar ende.",
+          "Knytter den upolare enden til fett og den polare enden til vann."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Metaller kan formes uten at de går i stykker. Forklar hvordan dette henger sammen med lagene i metallet og metallbindingen.",
+        "fasit": "I metaller ligger positive metallioner i en elektronsjø. Lagene kan gli forbi hverandre uten at bindingene brytes, slik at metallet kan formes.",
+        "kriterier": [
+          "Beskriver metallbindingen som positive metallioner i en elektronsjø.",
+          "Forklarer at lagene kan gli uten at bindingene brytes."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Diamant og grafitt består begge av karbon. Sammenlign dem ved å beskrive én egenskap de har felles, og én egenskap som er ulik.",
+        "fasit": "Begge består bare av karbon. Diamant er ekstremt hard, mens grafitt er myk.",
+        "kriterier": [
+          "Nevner at begge består av karbon.",
+          "Skiller mellom diamantens hardhet og grafittens mykhet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Natriumklorid (NaCl) smelter ved 801 °C, og vann koker ved 100 °C. Hvor mange grader er forskjellen mellom temperaturene? Vis det viktigste regnestykket.",
+        "fasit": "Forskjellen er 801 − 100 = 701 °C.",
+        "kriterier": [
+          "Setter opp eller viser subtraksjonen 801 − 100.",
+          "Oppgir forskjellen som 701 °C."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Ett CO₂-molekyl består av ett karbonatom og to oksygenatomer. Hvor mange atomer er det til sammen i fire CO₂-molekyler? Vis det viktigste regnestykket.",
+        "fasit": "Hvert CO₂-molekyl har 1 + 2 = 3 atomer. I fire molekyler blir det 4 × 3 = 12 atomer.",
+        "kriterier": [
+          "Får fram at hvert CO₂-molekyl har tre atomer.",
+          "Regner ut at fire molekyler har 12 atomer."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

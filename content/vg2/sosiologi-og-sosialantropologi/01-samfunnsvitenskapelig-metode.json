@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Samfunnsvitenskapelig metode og kildekritikk",
   "intro": "Hvordan sosiologer og sosialantropologer undersøker samfunnet – kvantitative og kvalitative metoder, feltarbeid og deltakende observasjon, kildekritikk, forskningsetikk og hvordan du gjennomfører en egen undersøkelse.",
-  "kompetansemaal": [1, 2],
+  "kompetansemaal": [
+    1,
+    2
+  ],
   "sammendrag": "## To fag med ulik tradisjon\n\n**Sosiologi** studerer **samfunnet** og samspillet mellom mennesker – ofte i moderne samfunn og gjerne med store datamengder. **Sosialantropologi** studerer **kultur** og **sosialt liv** i alle slags samfunn, ofte gjennom lange **feltarbeid**. Begge fagene er **samfunnsvitenskaper**: De bygger på systematiske undersøkelser, ikke bare meninger.\n\n## Kvantitativ metode\n\nKvantitative metoder gir **tall** som kan analyseres statistisk:\n\n- **Spørreundersøkelser** med faste svaralternativer\n- **Registerdata** og offisiell statistikk, for eksempel fra **SSB**\n\n**Styrker**: Kan si noe om **mange** og om hvor **utbredt** noe er, og gjør det mulig å sammenligne grupper.\n**Svakheter**: Gir lite innsikt i **hvorfor** folk mener og gjør som de gjør, og svarene avhenger av hvordan spørsmålene er formulert.\n\nEt **representativt utvalg** er viktig: Utvalget bør ligne befolkningen det skal si noe om.\n\n## Kvalitativ metode\n\nKvalitative metoder gir **dybdekunnskap**:\n\n- **Intervju** – ofte åpne eller halvstrukturerte samtaler.\n- **Deltakende observasjon** – forskeren **deltar** i livet til dem som studeres, ofte over lang tid. Metoden ble grunnlagt av antropologen **Bronisław Malinowski**, som bodde på Trobriandøyene under første verdenskrig.\n- **Dokumentanalyse** – av tekster, bilder og innlegg i sosiale medier.\n\n**Styrker**: Gir forståelse av **meninger**, **erfaringer** og **sammenhenger** sett fra de involvertes side (et **innenfraperspektiv**).\n**Svakheter**: Få informanter gjør det vanskelig å **generalisere**, og forskerens nærhet kan påvirke resultatene.\n\nMange undersøkelser **kombinerer** metodene.\n\n## Nærhet og distanse\n\nI feltarbeid må forskeren balansere **nærhet** – for å forstå – og **distanse** – for å kunne analysere. **Emisk** perspektiv er de involvertes egen forståelse, mens **etisk** perspektiv er forskerens analytiske blikk utenfra.\n\n## Kildekritikk\n\nNår du finner informasjon, spør:\n\n- **Hvem** står bak, og hva er **formålet**?\n- Er kilden **faglig** og **oppdatert**?\n- Bygger den på **undersøkelser** eller på **meninger**?\n- Stemmer den med **andre** kilder?\n\nForskningsartikler som er **fagfellevurdert**, offentlig statistikk og faglitteratur er ofte gode kilder. Innlegg i sosiale medier og kommersielle nettsider må vurderes ekstra nøye.\n\n## Forskningsetikk\n\n- **Informert samtykke**: Deltakerne vet hva de deltar i, og kan trekke seg.\n- **Anonymitet** og **konfidensialitet**: Deltakerne skal ikke kunne gjenkjennes.\n- **Ikke skade**: Forskningen skal ikke utsette deltakerne for belastninger.\n- Personopplysninger må behandles etter **personvernregelverket**.\n\n## Egen undersøkelse – steg for steg\n\n1. **Problemstilling**: et tydelig, avgrenset spørsmål.\n2. **Teori** og tidligere forskning.\n3. **Valg av metode** – begrunn valget.\n4. **Innsamling** av data.\n5. **Analyse** og tolkning.\n6. **Drøfting** av resultater, svakheter og **gyldighet**.\n7. **Konklusjon**.",
   "flashcards": [
-    { "term": "Sosiologi", "def": "Studerer samfunnet og samspillet mellom mennesker." },
-    { "term": "Sosialantropologi", "def": "Studerer kultur og sosialt liv, ofte gjennom feltarbeid." },
-    { "term": "Kvantitativ metode", "def": "Gir tall som kan analyseres statistisk." },
-    { "term": "Kvalitativ metode", "def": "Gir dybdekunnskap om meninger og erfaringer." },
-    { "term": "Representativt utvalg", "def": "Utvalg som ligner befolkningen det skal si noe om." },
-    { "term": "Registerdata", "def": "Opplysninger fra offentlige registre, som hos SSB." },
-    { "term": "Deltakende observasjon", "def": "Forskeren deltar i livet til dem som studeres." },
-    { "term": "Bronisław Malinowski", "def": "Grunnla moderne feltarbeid på Trobriandøyene." },
-    { "term": "Halvstrukturert intervju", "def": "Samtale med temaer bestemt på forhånd, men åpne svar." },
-    { "term": "Emisk perspektiv", "def": "De involvertes egen forståelse." },
-    { "term": "Etisk perspektiv (metode)", "def": "Forskerens analytiske blikk utenfra." },
-    { "term": "Kildekritikk", "def": "Vurdering av hvem som står bak, formål og troverdighet." },
-    { "term": "Informert samtykke", "def": "Deltakerne vet hva de deltar i og kan trekke seg." },
-    { "term": "Anonymitet", "def": "Deltakerne skal ikke kunne gjenkjennes." },
-    { "term": "Generalisere", "def": "Å trekke slutninger fra utvalget til en større gruppe." }
+    {
+      "term": "Sosiologi",
+      "def": "Studerer samfunnet og samspillet mellom mennesker."
+    },
+    {
+      "term": "Sosialantropologi",
+      "def": "Studerer kultur og sosialt liv, ofte gjennom feltarbeid."
+    },
+    {
+      "term": "Kvantitativ metode",
+      "def": "Gir tall som kan analyseres statistisk."
+    },
+    {
+      "term": "Kvalitativ metode",
+      "def": "Gir dybdekunnskap om meninger og erfaringer."
+    },
+    {
+      "term": "Representativt utvalg",
+      "def": "Utvalg som ligner befolkningen det skal si noe om."
+    },
+    {
+      "term": "Registerdata",
+      "def": "Opplysninger fra offentlige registre, som hos SSB."
+    },
+    {
+      "term": "Deltakende observasjon",
+      "def": "Forskeren deltar i livet til dem som studeres."
+    },
+    {
+      "term": "Bronisław Malinowski",
+      "def": "Grunnla moderne feltarbeid på Trobriandøyene."
+    },
+    {
+      "term": "Halvstrukturert intervju",
+      "def": "Samtale med temaer bestemt på forhånd, men åpne svar."
+    },
+    {
+      "term": "Emisk perspektiv",
+      "def": "De involvertes egen forståelse."
+    },
+    {
+      "term": "Etisk perspektiv (metode)",
+      "def": "Forskerens analytiske blikk utenfra."
+    },
+    {
+      "term": "Kildekritikk",
+      "def": "Vurdering av hvem som står bak, formål og troverdighet."
+    },
+    {
+      "term": "Informert samtykke",
+      "def": "Deltakerne vet hva de deltar i og kan trekke seg."
+    },
+    {
+      "term": "Anonymitet",
+      "def": "Deltakerne skal ikke kunne gjenkjennes."
+    },
+    {
+      "term": "Generalisere",
+      "def": "Å trekke slutninger fra utvalget til en større gruppe."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en styrke ved kvantitativ metode?", "options": ["Den gir dyp forståelse av enkeltpersoner", "Den kan si noe om mange og om hvor utbredt noe er", "Den krever ingen spørsmål", "Den gir alltid sanne svar"], "correct": 1, "explain": "Men den forklarer lite om hvorfor." },
-    { "id": "q02", "text": "Hva er deltakende observasjon?", "options": ["At forskeren deltar i livet til dem som studeres", "Et spørreskjema", "En statistikkanalyse", "Et telefonintervju"], "correct": 0, "explain": "Typisk for sosialantropologisk feltarbeid." },
-    { "id": "q03", "text": "Hvem regnes som grunnleggeren av moderne feltarbeid?", "options": ["Karl Marx", "Émile Durkheim", "Bronisław Malinowski", "Max Weber"], "correct": 2, "explain": "Feltarbeid på Trobriandøyene." },
-    { "id": "q04", "text": "Hva er en svakhet ved kvalitativ metode?", "options": ["Den gir ingen dybdekunnskap", "Den kan ikke brukes på mennesker", "Den bruker for mange tall", "Få informanter gjør det vanskelig å generalisere"], "correct": 3, "explain": "Til gjengjeld gir den dybde." },
-    { "id": "q05", "text": "Hva betyr informert samtykke?", "options": ["At deltakerne vet hva de deltar i og kan trekke seg", "At forskeren bestemmer alt", "At deltakerne får betalt", "At navnene publiseres"], "correct": 0, "explain": "Et grunnleggende forskningsetisk krav." },
-    { "id": "q06", "text": "Hva er et emisk perspektiv?", "options": ["Forskerens analyse utenfra", "De involvertes egen forståelse", "Et statistisk perspektiv", "Et historisk perspektiv"], "correct": 1, "explain": "Et innenfraperspektiv." },
-    { "id": "q07", "text": "Hvorfor er et representativt utvalg viktig i en spørreundersøkelse?", "options": ["Det gjør undersøkelsen billigere", "Det gjør svarene kortere", "Det gjør det mulig å si noe om hele befolkningen", "Det er ikke viktig"], "correct": 2, "explain": "Utvalget må ligne befolkningen." },
-    { "id": "q08", "text": "Hvilket spørsmål hører til kildekritikk?", "options": ["Hvor mange ord har teksten?", "Hvilken skrifttype er brukt?", "Hvor lang er kilden?", "Hvem står bak, og hva er formålet?"], "correct": 3, "explain": "Avsender og formål påvirker innholdet." },
-    { "id": "q09", "text": "Hvorfor kombinerer mange forskere kvantitative og kvalitative metoder?", "options": ["For å få både bredde og dybde", "Fordi det er påbudt", "For å slippe analyse", "For å unngå kildekritikk"], "correct": 0, "explain": "Metodene utfyller hverandre." },
-    { "id": "q10", "text": "Hva er det første steget i en samfunnsfaglig undersøkelse?", "options": ["Å skrive konklusjonen", "Å formulere en tydelig problemstilling", "Å samle inn data", "Å velge skrifttype"], "correct": 1, "explain": "Problemstillingen styrer resten." }
+    {
+      "id": "q01",
+      "text": "Hva er en styrke ved kvantitativ metode?",
+      "options": [
+        "Den gir dyp forståelse av enkeltpersoner",
+        "Den kan si noe om mange og om hvor utbredt noe er",
+        "Den krever ingen spørsmål",
+        "Den gir alltid sanne svar"
+      ],
+      "correct": 1,
+      "explain": "Men den forklarer lite om hvorfor."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er deltakende observasjon?",
+      "options": [
+        "At forskeren deltar i livet til dem som studeres",
+        "Et spørreskjema",
+        "En statistikkanalyse",
+        "Et telefonintervju"
+      ],
+      "correct": 0,
+      "explain": "Typisk for sosialantropologisk feltarbeid."
+    },
+    {
+      "id": "q03",
+      "text": "Hvem regnes som grunnleggeren av moderne feltarbeid?",
+      "options": [
+        "Karl Marx",
+        "Émile Durkheim",
+        "Bronisław Malinowski",
+        "Max Weber"
+      ],
+      "correct": 2,
+      "explain": "Feltarbeid på Trobriandøyene."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er en svakhet ved kvalitativ metode?",
+      "options": [
+        "Den gir ingen dybdekunnskap",
+        "Den kan ikke brukes på mennesker",
+        "Den bruker for mange tall",
+        "Få informanter gjør det vanskelig å generalisere"
+      ],
+      "correct": 3,
+      "explain": "Til gjengjeld gir den dybde."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr informert samtykke?",
+      "options": [
+        "At deltakerne vet hva de deltar i og kan trekke seg",
+        "At forskeren bestemmer alt",
+        "At deltakerne får betalt",
+        "At navnene publiseres"
+      ],
+      "correct": 0,
+      "explain": "Et grunnleggende forskningsetisk krav."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er et emisk perspektiv?",
+      "options": [
+        "Forskerens analyse utenfra",
+        "De involvertes egen forståelse",
+        "Et statistisk perspektiv",
+        "Et historisk perspektiv"
+      ],
+      "correct": 1,
+      "explain": "Et innenfraperspektiv."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er et representativt utvalg viktig i en spørreundersøkelse?",
+      "options": [
+        "Det gjør undersøkelsen billigere",
+        "Det gjør svarene kortere",
+        "Det gjør det mulig å si noe om hele befolkningen",
+        "Det er ikke viktig"
+      ],
+      "correct": 2,
+      "explain": "Utvalget må ligne befolkningen."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket spørsmål hører til kildekritikk?",
+      "options": [
+        "Hvor mange ord har teksten?",
+        "Hvilken skrifttype er brukt?",
+        "Hvor lang er kilden?",
+        "Hvem står bak, og hva er formålet?"
+      ],
+      "correct": 3,
+      "explain": "Avsender og formål påvirker innholdet."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor kombinerer mange forskere kvantitative og kvalitative metoder?",
+      "options": [
+        "For å få både bredde og dybde",
+        "Fordi det er påbudt",
+        "For å slippe analyse",
+        "For å unngå kildekritikk"
+      ],
+      "correct": 0,
+      "explain": "Metodene utfyller hverandre."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er det første steget i en samfunnsfaglig undersøkelse?",
+      "options": [
+        "Å skrive konklusjonen",
+        "Å formulere en tydelig problemstilling",
+        "Å samle inn data",
+        "Å velge skrifttype"
+      ],
+      "correct": 1,
+      "explain": "Problemstillingen styrer resten."
+    }
   ],
   "mindmap": {
     "label": "Samfunnsvitenskapelig metode",
     "children": [
-      { "label": "Fagene", "children": [
-        { "label": "Sosiologi" },
-        { "label": "Sosialantropologi" }
-      ] },
-      { "label": "Kvantitativ", "children": [
-        { "label": "Spørreundersøkelser" },
-        { "label": "Registerdata" },
-        { "label": "Representativt utvalg" }
-      ] },
-      { "label": "Kvalitativ", "children": [
-        { "label": "Intervju" },
-        { "label": "Deltakende observasjon" },
-        { "label": "Dokumentanalyse" }
-      ] },
-      { "label": "Kilder og etikk", "children": [
-        { "label": "Kildekritikk" },
-        { "label": "Informert samtykke" },
-        { "label": "Anonymitet" }
-      ] },
-      { "label": "Egen undersøkelse", "children": [
-        { "label": "Problemstilling" },
-        { "label": "Analyse og drøfting" },
-        { "label": "Konklusjon" }
-      ] }
+      {
+        "label": "Fagene",
+        "children": [
+          {
+            "label": "Sosiologi"
+          },
+          {
+            "label": "Sosialantropologi"
+          }
+        ]
+      },
+      {
+        "label": "Kvantitativ",
+        "children": [
+          {
+            "label": "Spørreundersøkelser"
+          },
+          {
+            "label": "Registerdata"
+          },
+          {
+            "label": "Representativt utvalg"
+          }
+        ]
+      },
+      {
+        "label": "Kvalitativ",
+        "children": [
+          {
+            "label": "Intervju"
+          },
+          {
+            "label": "Deltakende observasjon"
+          },
+          {
+            "label": "Dokumentanalyse"
+          }
+        ]
+      },
+      {
+        "label": "Kilder og etikk",
+        "children": [
+          {
+            "label": "Kildekritikk"
+          },
+          {
+            "label": "Informert samtykke"
+          },
+          {
+            "label": "Anonymitet"
+          }
+        ]
+      },
+      {
+        "label": "Egen undersøkelse",
+        "children": [
+          {
+            "label": "Problemstilling"
+          },
+          {
+            "label": "Analyse og drøfting"
+          },
+          {
+            "label": "Konklusjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Formuleringen av spørsmål kan påvirke svarene i en spørreundersøkelse.", "correct": true, "explain": "Ledende spørsmål gir skjeve svar." },
-      { "id": "m02", "type": "sant-usant", "text": "Kvalitative undersøkelser med få informanter kan alltid generaliseres til hele befolkningen.", "correct": false, "explain": "De gir dybde, men sjelden grunnlag for generalisering." },
-      { "id": "m03", "type": "sant-usant", "text": "I feltarbeid må forskeren balansere nærhet og distanse.", "correct": true, "explain": "Både for å forstå og for å analysere." },
-      { "id": "m04", "type": "sant-usant", "text": "Et innlegg i sosiale medier er alltid like troverdig som en forskningsartikkel.", "correct": false, "explain": "Fagfellevurdert forskning er som regel mer pålitelig." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken metode passer best for å finne ut hvor mange elever som jobber ved siden av skolen?", "options": ["Deltakende observasjon", "Spørreundersøkelse", "Dybdeintervju med én elev", "Dokumentanalyse av dikt"], "correct": 1, "explain": "Kvantitativ metode for utbredelse." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken metode passer best for å forstå hvordan det oppleves å flytte til et nytt land?", "options": ["Kvalitative intervjuer", "Registerdata", "En enkel telling", "En opinionsmåling"], "correct": 0, "explain": "Erfaringer krever dybde." },
-      { "id": "m07", "type": "flervalg", "text": "Hva innebærer anonymitet i forskning?", "options": ["At forskeren er hemmelig", "At ingen får lese resultatene", "At deltakerne ikke skal kunne gjenkjennes", "At det ikke brukes navn på fagene"], "correct": 2, "explain": "Et etisk krav." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Formuleringen av spørsmål kan påvirke svarene i en spørreundersøkelse.",
+        "correct": true,
+        "explain": "Ledende spørsmål gir skjeve svar."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kvalitative undersøkelser med få informanter kan alltid generaliseres til hele befolkningen.",
+        "correct": false,
+        "explain": "De gir dybde, men sjelden grunnlag for generalisering."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "I feltarbeid må forskeren balansere nærhet og distanse.",
+        "correct": true,
+        "explain": "Både for å forstå og for å analysere."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et innlegg i sosiale medier er alltid like troverdig som en forskningsartikkel.",
+        "correct": false,
+        "explain": "Fagfellevurdert forskning er som regel mer pålitelig."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken metode passer best for å finne ut hvor mange elever som jobber ved siden av skolen?",
+        "options": [
+          "Deltakende observasjon",
+          "Spørreundersøkelse",
+          "Dybdeintervju med én elev",
+          "Dokumentanalyse av dikt"
+        ],
+        "correct": 1,
+        "explain": "Kvantitativ metode for utbredelse."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken metode passer best for å forstå hvordan det oppleves å flytte til et nytt land?",
+        "options": [
+          "Kvalitative intervjuer",
+          "Registerdata",
+          "En enkel telling",
+          "En opinionsmåling"
+        ],
+        "correct": 0,
+        "explain": "Erfaringer krever dybde."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva innebærer anonymitet i forskning?",
+        "options": [
+          "At forskeren er hemmelig",
+          "At ingen får lese resultatene",
+          "At deltakerne ikke skal kunne gjenkjennes",
+          "At det ikke brukes navn på fagene"
+        ],
+        "correct": 2,
+        "explain": "Et etisk krav."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen mellom sosiologi og sosialantropologi ved å beskrive hva hvert fag særlig studerer, og nevn en typisk måte sosialantropologer samler inn kunnskap på.",
+        "fasit": "Sosiologi studerer samfunnet og samspillet mellom mennesker, mens sosialantropologi studerer kultur og sosialt liv i ulike samfunn. Sosialantropologer bruker ofte lange feltarbeid.",
+        "kriterier": [
+          "Skiller mellom fagene ved å beskrive hva de studerer, og knytter feltarbeid til sosialantropologi."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En forsker vil finne ut hvor utbredt en bestemt oppfatning er blant elever på en skole. Hvilken metode passer best, og hvordan bør forskeren velge deltakere for å kunne si noe om elevene som gruppe?",
+        "fasit": "En kvantitativ metode, for eksempel en spørreundersøkelse med faste svaralternativer, passer godt fordi den gir tall om hvor utbredt oppfatningen er. Utvalget bør ligne elevgruppen forskeren vil si noe om.",
+        "kriterier": [
+          "Velger en kvantitativ metode fordi den kan vise hvor utbredt noe er.",
+          "Forklarer at utvalget bør ligne gruppen resultatene skal si noe om."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et halvstrukturert intervju har temaer bestemt på forhånd, men åpne svar. Forklar hva denne kombinasjonen gjør mulig i en intervjusamtale.",
+        "fasit": "Temaene på forhånd gjør at intervjuet holder seg til det forskeren vil undersøke. Åpne svar gir deltakerne rom til å forklare egne erfaringer og meninger.",
+        "kriterier": [
+          "Forklarer hvordan forhåndsbestemte temaer gir retning til samtalen.",
+          "Forklarer at åpne svar gir rom for deltakernes egne erfaringer eller meninger."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Under et feltarbeid forteller deltakerne hvordan de selv forstår en tradisjon. Forskeren analyserer samtidig tradisjonen utenfra. Forklar forskjellen på de to perspektivene.",
+        "fasit": "Deltakernes egen forståelse er et emisk perspektiv. Forskerens analytiske blikk utenfra er et etisk perspektiv.",
+        "kriterier": [
+          "Knytter deltakernes egen forståelse til et emisk perspektiv.",
+          "Knytter forskerens analytiske blikk utenfra til et etisk perspektiv."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Du finner et innlegg i sosiale medier som kommer med en påstand om et samfunnsforhold. Innlegget viser ikke til undersøkelser. Nevn to kildekritiske vurderinger du bør gjøre før du bruker påstanden.",
+        "fasit": "Jeg bør undersøke hvem som står bak innlegget, og hva formålet er. Jeg bør også vurdere om påstanden bygger på undersøkelser, og sjekke om den stemmer med andre kilder.",
+        "kriterier": [
+          "Vurderer hvem som står bak kilden eller hva formålet er.",
+          "Vurderer grunnlaget for påstanden eller sammenligner den med andre kilder."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En forsker skal skrive om erfaringer deltakerne har delt i intervjuer. Forklar hvordan forskeren kan ivareta anonymiteten deres.",
+        "fasit": "Forskeren bør passe på at deltakerne ikke kan gjenkjennes i det som publiseres. Opplysninger som kan identifisere dem, må håndteres i tråd med personvernregelverket.",
+        "kriterier": [
+          "Forklarer at deltakerne ikke skal kunne gjenkjennes i framstillingen.",
+          "Viser at personopplysninger må håndteres forsvarlig, for eksempel etter personvernregelverket."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En forsker intervjuer noen få elever fra én klasse og vil bruke svarene til å si noe om alle Vg2-elever. Forklar hvorfor det kan være vanskelig å generalisere fra dette utvalget.",
+        "fasit": "Det kan være vanskelig å generalisere fordi få informanter gir et begrenset grunnlag. Elever fra én klasse trenger heller ikke å ligne alle Vg2-elever.",
+        "kriterier": [
+          "Viser at få informanter gir et begrenset grunnlag for slutninger om en større gruppe.",
+          "Forklarer at utvalget kanskje ikke ligner gruppen forskeren vil si noe om."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En forsker har samlet inn data til en undersøkelse. Hvilke to hovedtrinn følger før forskeren konkluderer, og hva bør forskeren vurdere i det ene trinnet?",
+        "fasit": "Forskeren analyserer og tolker først dataene. Deretter drøfter forskeren resultatene, svakhetene ved undersøkelsen og resultatenes gyldighet før konklusjonen.",
+        "kriterier": [
+          "Plasserer analyse og tolkning etter datainnsamlingen og før konklusjonen.",
+          "Nevner at drøftingen bør vurdere svakheter eller gyldighet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

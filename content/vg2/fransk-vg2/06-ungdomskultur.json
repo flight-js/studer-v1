@@ -4,77 +4,423 @@
   "trinnId": "vg2",
   "name": "Ungdomskultur, slang og språklæring",
   "intro": "Ungdomskultur i den fransktalende verden – Fête de la Musique, fransk rap, fotball og verlan – pronomenene y og en, og strategier og digitale ressurser som hjelper deg å lære fransk videre.",
-  "kompetansemaal": [1, 2, 7],
+  "kompetansemaal": [
+    1,
+    2,
+    7
+  ],
   "sammendrag": "## Fritid og kultur\n\n- **Fête de la Musique** arrangeres **21. juni** hvert år siden **1982**. Da spiller amatører og profesjonelle musikere gratis i gatene over hele Frankrike – og ideen har spredd seg til mange land.\n- **Fransk rap** er blant de største i verden, med mange artister fra **forstedene**.\n- **Fotball** er svært populært, og den øverste ligaen heter **Ligue 1**.\n- Mange unge møtes på **kafeer** og i **parker**, og **tegneserier** og **manga** er svært populære.\n\n## Verlan – ungdomsslang\n\n**Verlan** er slang der man **bytter om stavelsene** i ordet. Navnet kommer selv fra *l'envers* (det omvendte): **l'envers → verlan**.\n\n| Vanlig ord | Verlan | Betydning |\n| --- | --- | --- |\n| fou | **ouf** | gal, sprø |\n| louche | **chelou** | rar, mistenkelig |\n| femme | **meuf** | jente, dame |\n| lourd | **relou** | irriterende |\n\nAndre vanlige slangord: *un pote* (en kompis), *trop bien* (kjempebra), *grave* (veldig), *kiffer* (å like).\n\n## Pronomenet y\n\n**y** erstatter **à** + en **ting** eller et **sted**:\n\n- *Tu vas **à Paris** ? – Oui, j'**y** vais.* – Ja, jeg drar dit.\n- *Tu penses **à l'examen** ? – Oui, j'**y** pense.*\n\n**Il y a** (det er / det finnes) inneholder også *y*.\n\n## Pronomenet en\n\n**en** erstatter **de** + noe, og brukes ofte om **mengder**:\n\n- *Tu as **des frères** ? – Oui, j'**en** ai deux.* – Ja, jeg har to (av dem).\n- *Tu veux **du café** ? – Non merci, je n'**en** veux pas.*\n- *Il parle **de son voyage** ? – Oui, il **en** parle tout le temps.*\n\nBegge står **foran verbet**, som andre objektspronomen.\n\n## Strategier for språklæring\n\n- **Lytt** til fransk musikk og podkaster, og se serier med **fransk teksting**.\n- Bruk **TV5Monde** og **RFI** sine ressurser for språkelever.\n- Lag **ordkort** og repeter jevnlig.\n- Finn en **språkpartner** eller en **brevvenn** (*un correspondant*).\n- Bruk **ordbøker** og **oversettelsesverktøy** kritisk.\n- Bruk det du kan fra **engelsk** – mange ord er like: *la nation*, *important*, *la question*.\n- **Snakk** så mye du kan, selv om du gjør feil.\n\n## Å fortelle om fritiden\n\n*Le week-end, je sors avec mes potes.*\n*J'adore le rap français, surtout …*\n*Je fais partie d'un club de foot.* – Jeg er med i en fotballklubb.",
   "flashcards": [
-    { "term": "la Fête de la Musique", "def": "musikkfest i gatene 21. juni hvert år" },
-    { "term": "la Ligue 1", "def": "den øverste fotballigaen i Frankrike" },
-    { "term": "le verlan", "def": "slang der stavelsene byttes om" },
-    { "term": "ouf", "def": "gal, sprø (verlan for fou)" },
-    { "term": "chelou", "def": "rar, mistenkelig (verlan for louche)" },
-    { "term": "relou", "def": "irriterende (verlan for lourd)" },
-    { "term": "un pote", "def": "en kompis" },
-    { "term": "kiffer", "def": "å like (slang)" },
-    { "term": "J'y vais.", "def": "Jeg drar dit. (y = à + sted)" },
-    { "term": "J'y pense.", "def": "Jeg tenker på det. (y = à + ting)" },
-    { "term": "J'en ai deux.", "def": "Jeg har to (av dem). (en = de + noe)" },
-    { "term": "Je n'en veux pas.", "def": "Jeg vil ikke ha noe (av det)." },
-    { "term": "un correspondant", "def": "en brevvenn" },
-    { "term": "Je fais partie d'un club.", "def": "Jeg er med i en klubb." },
-    { "term": "trop bien", "def": "kjempebra" }
+    {
+      "term": "la Fête de la Musique",
+      "def": "musikkfest i gatene 21. juni hvert år"
+    },
+    {
+      "term": "la Ligue 1",
+      "def": "den øverste fotballigaen i Frankrike"
+    },
+    {
+      "term": "le verlan",
+      "def": "slang der stavelsene byttes om"
+    },
+    {
+      "term": "ouf",
+      "def": "gal, sprø (verlan for fou)"
+    },
+    {
+      "term": "chelou",
+      "def": "rar, mistenkelig (verlan for louche)"
+    },
+    {
+      "term": "relou",
+      "def": "irriterende (verlan for lourd)"
+    },
+    {
+      "term": "un pote",
+      "def": "en kompis"
+    },
+    {
+      "term": "kiffer",
+      "def": "å like (slang)"
+    },
+    {
+      "term": "J'y vais.",
+      "def": "Jeg drar dit. (y = à + sted)"
+    },
+    {
+      "term": "J'y pense.",
+      "def": "Jeg tenker på det. (y = à + ting)"
+    },
+    {
+      "term": "J'en ai deux.",
+      "def": "Jeg har to (av dem). (en = de + noe)"
+    },
+    {
+      "term": "Je n'en veux pas.",
+      "def": "Jeg vil ikke ha noe (av det)."
+    },
+    {
+      "term": "un correspondant",
+      "def": "en brevvenn"
+    },
+    {
+      "term": "Je fais partie d'un club.",
+      "def": "Jeg er med i en klubb."
+    },
+    {
+      "term": "trop bien",
+      "def": "kjempebra"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Når arrangeres Fête de la Musique?", "options": ["14. juli", "21. juni", "1. mai", "24. desember"], "correct": 1, "explain": "Den har vært arrangert siden 1982." },
-    { "id": "q02", "text": "Hva er verlan?", "options": ["Slang der stavelsene byttes om", "En fransk dialekt fra Sør-Frankrike", "Et formelt språk", "En type rap"], "correct": 0, "explain": "l'envers → verlan." },
-    { "id": "q03", "text": "Hva betyr «ouf» på verlan?", "options": ["kjedelig", "trøtt", "gal, sprø", "glad"], "correct": 2, "explain": "fou → ouf." },
-    { "id": "q04", "text": "Erstatt «à Paris»: «Tu vas à Paris ? – Oui, j'___ vais.»", "options": ["en", "le", "lui", "y"], "correct": 3, "explain": "y erstatter à + sted." },
-    { "id": "q05", "text": "Erstatt «des frères»: «Tu as des frères ? – Oui, j'___ ai deux.»", "options": ["en", "y", "les", "leur"], "correct": 0, "explain": "en erstatter de + noe, ofte med mengder." },
-    { "id": "q06", "text": "Hva betyr «un pote»?", "options": ["en gryte", "en kompis", "en lærer", "en plakat"], "correct": 1, "explain": "Uformelt ord for venn." },
-    { "id": "q07", "text": "Hva betyr «relou»?", "options": ["morsom", "rask", "irriterende", "rolig"], "correct": 2, "explain": "lourd → relou." },
-    { "id": "q08", "text": "Hvor står pronomenene y og en?", "options": ["Sist i setningen", "Etter verbet", "Først i setningen alltid", "Foran verbet"], "correct": 3, "explain": "J'y vais. J'en ai deux." },
-    { "id": "q09", "text": "Hva betyr «Je n'en veux pas»?", "options": ["Jeg vil ikke ha noe (av det).", "Jeg vil ha mer.", "Jeg vet ikke.", "Jeg drar ikke."], "correct": 0, "explain": "en erstatter for eksempel du café." },
-    { "id": "q10", "text": "Hva er en god strategi for å lære fransk videre?", "options": ["Unngå å snakke til du kan alt", "Se serier med fransk teksting og repetere ord jevnlig", "Bare lese grammatikk", "Oversette alt med verktøy uten å sjekke"], "correct": 1, "explain": "Variert og jevnlig bruk gir best læring." }
+    {
+      "id": "q01",
+      "text": "Når arrangeres Fête de la Musique?",
+      "options": [
+        "14. juli",
+        "21. juni",
+        "1. mai",
+        "24. desember"
+      ],
+      "correct": 1,
+      "explain": "Den har vært arrangert siden 1982."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er verlan?",
+      "options": [
+        "Slang der stavelsene byttes om",
+        "En fransk dialekt fra Sør-Frankrike",
+        "Et formelt språk",
+        "En type rap"
+      ],
+      "correct": 0,
+      "explain": "l'envers → verlan."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr «ouf» på verlan?",
+      "options": [
+        "kjedelig",
+        "trøtt",
+        "gal, sprø",
+        "glad"
+      ],
+      "correct": 2,
+      "explain": "fou → ouf."
+    },
+    {
+      "id": "q04",
+      "text": "Erstatt «à Paris»: «Tu vas à Paris ? – Oui, j'___ vais.»",
+      "options": [
+        "en",
+        "le",
+        "lui",
+        "y"
+      ],
+      "correct": 3,
+      "explain": "y erstatter à + sted."
+    },
+    {
+      "id": "q05",
+      "text": "Erstatt «des frères»: «Tu as des frères ? – Oui, j'___ ai deux.»",
+      "options": [
+        "en",
+        "y",
+        "les",
+        "leur"
+      ],
+      "correct": 0,
+      "explain": "en erstatter de + noe, ofte med mengder."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr «un pote»?",
+      "options": [
+        "en gryte",
+        "en kompis",
+        "en lærer",
+        "en plakat"
+      ],
+      "correct": 1,
+      "explain": "Uformelt ord for venn."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr «relou»?",
+      "options": [
+        "morsom",
+        "rask",
+        "irriterende",
+        "rolig"
+      ],
+      "correct": 2,
+      "explain": "lourd → relou."
+    },
+    {
+      "id": "q08",
+      "text": "Hvor står pronomenene y og en?",
+      "options": [
+        "Sist i setningen",
+        "Etter verbet",
+        "Først i setningen alltid",
+        "Foran verbet"
+      ],
+      "correct": 3,
+      "explain": "J'y vais. J'en ai deux."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «Je n'en veux pas»?",
+      "options": [
+        "Jeg vil ikke ha noe (av det).",
+        "Jeg vil ha mer.",
+        "Jeg vet ikke.",
+        "Jeg drar ikke."
+      ],
+      "correct": 0,
+      "explain": "en erstatter for eksempel du café."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en god strategi for å lære fransk videre?",
+      "options": [
+        "Unngå å snakke til du kan alt",
+        "Se serier med fransk teksting og repetere ord jevnlig",
+        "Bare lese grammatikk",
+        "Oversette alt med verktøy uten å sjekke"
+      ],
+      "correct": 1,
+      "explain": "Variert og jevnlig bruk gir best læring."
+    }
   ],
   "mindmap": {
     "label": "Ungdomskultur og språklæring",
     "children": [
-      { "label": "Kultur", "children": [
-        { "label": "Fête de la Musique" },
-        { "label": "Fransk rap" },
-        { "label": "Ligue 1" }
-      ] },
-      { "label": "Verlan", "children": [
-        { "label": "ouf" },
-        { "label": "chelou" },
-        { "label": "relou" }
-      ] },
-      { "label": "Pronomenet y", "children": [
-        { "label": "à + sted" },
-        { "label": "J'y vais" }
-      ] },
-      { "label": "Pronomenet en", "children": [
-        { "label": "de + noe" },
-        { "label": "J'en ai deux" }
-      ] },
-      { "label": "Strategier", "children": [
-        { "label": "TV5Monde og RFI" },
-        { "label": "Brevvenn" },
-        { "label": "Snakk mye" }
-      ] }
+      {
+        "label": "Kultur",
+        "children": [
+          {
+            "label": "Fête de la Musique"
+          },
+          {
+            "label": "Fransk rap"
+          },
+          {
+            "label": "Ligue 1"
+          }
+        ]
+      },
+      {
+        "label": "Verlan",
+        "children": [
+          {
+            "label": "ouf"
+          },
+          {
+            "label": "chelou"
+          },
+          {
+            "label": "relou"
+          }
+        ]
+      },
+      {
+        "label": "Pronomenet y",
+        "children": [
+          {
+            "label": "à + sted"
+          },
+          {
+            "label": "J'y vais"
+          }
+        ]
+      },
+      {
+        "label": "Pronomenet en",
+        "children": [
+          {
+            "label": "de + noe"
+          },
+          {
+            "label": "J'en ai deux"
+          }
+        ]
+      },
+      {
+        "label": "Strategier",
+        "children": [
+          {
+            "label": "TV5Monde og RFI"
+          },
+          {
+            "label": "Brevvenn"
+          },
+          {
+            "label": "Snakk mye"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Ordet «verlan» er selv et verlan-ord.", "correct": true, "explain": "l'envers → verlan." },
-      { "id": "m02", "type": "sant-usant", "text": "Pronomenet «en» erstatter «à» + sted.", "correct": false, "explain": "Det er y som erstatter à + sted." },
-      { "id": "m03", "type": "sant-usant", "text": "«il y a» inneholder pronomenet y.", "correct": true, "explain": "Il y a = det er, det finnes." },
-      { "id": "m04", "type": "sant-usant", "text": "Fête de la Musique arrangeres bare i Paris.", "correct": false, "explain": "Den arrangeres over hele Frankrike og i mange andre land." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «meuf» på verlan?", "options": ["mat", "jente, dame", "musikk", "mor"], "correct": 1, "explain": "femme → meuf." },
-      { "id": "m06", "type": "flervalg", "text": "Erstatt «de son voyage»: «Il parle de son voyage ? – Oui, il ___ parle.»", "options": ["en", "y", "le", "lui"], "correct": 0, "explain": "parler de → en." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «kiffer»?", "options": ["å kjempe", "å kaste", "å like", "å kjøpe"], "correct": 2, "explain": "Je kiffe cette chanson !" }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ordet «verlan» er selv et verlan-ord.",
+        "correct": true,
+        "explain": "l'envers → verlan."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Pronomenet «en» erstatter «à» + sted.",
+        "correct": false,
+        "explain": "Det er y som erstatter à + sted."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«il y a» inneholder pronomenet y.",
+        "correct": true,
+        "explain": "Il y a = det er, det finnes."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Fête de la Musique arrangeres bare i Paris.",
+        "correct": false,
+        "explain": "Den arrangeres over hele Frankrike og i mange andre land."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «meuf» på verlan?",
+        "options": [
+          "mat",
+          "jente, dame",
+          "musikk",
+          "mor"
+        ],
+        "correct": 1,
+        "explain": "femme → meuf."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Erstatt «de son voyage»: «Il parle de son voyage ? – Oui, il ___ parle.»",
+        "options": [
+          "en",
+          "y",
+          "le",
+          "lui"
+        ],
+        "correct": 0,
+        "explain": "parler de → en."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «kiffer»?",
+        "options": [
+          "å kjempe",
+          "å kaste",
+          "å like",
+          "å kjøpe"
+        ],
+        "correct": 2,
+        "explain": "Je kiffe cette chanson !"
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Beskriv hva som skjer under Fête de la Musique, og fortell hvordan ideen har fått betydning utenfor Frankrike.",
+        "fasit": "Amatører og profesjonelle musikere spiller gratis i gatene over hele Frankrike. Ideen har også spredd seg til mange andre land.",
+        "kriterier": [
+          "Får fram at både amatører og profesjonelle spiller gratis i gatene.",
+          "Nevner at musikkfestideen har spredd seg til andre land."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign fransk rap og fotball som deler av fransk kultur. Ta med én opplysning om hver.",
+        "fasit": "Fransk rap er blant de største i verden, og mange av artistene kommer fra forstedene. Fotball er svært populært, og den øverste ligaen heter Ligue 1.",
+        "kriterier": [
+          "Får fram at fransk rap er svært stor, og/eller at mange artister kommer fra forstedene.",
+          "Får fram at fotball er svært populært og at Ligue 1 er den øverste ligaen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Ordet *verlan* kommer fra *l'envers*. Forklar hvordan navnet henger sammen med måten verlan dannes på.",
+        "fasit": "I verlan byttes stavelsene om. Navnet *verlan* kommer av at stavelsene i *l'envers* er snudd om.",
+        "kriterier": [
+          "Forklarer at stavelsene i et ord byttes om.",
+          "Knytter dette til at *l'envers* blir til *verlan*."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar forskjellen på hva pronomenene *y* og *en* erstatter. Ta med hvilken preposisjon som hører til hvert pronomen.",
+        "fasit": "*Y* erstatter *à* pluss en ting eller et sted. *En* erstatter *de* pluss noe, og brukes ofte når man snakker om mengder.",
+        "kriterier": [
+          "Får fram at *y* erstatter *à* sammen med en ting eller et sted.",
+          "Får fram at *en* erstatter *de* sammen med noe, ofte en mengde."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En elev forstår franske tekster, men synes det er vanskelig å forstå tale og å huske nye ord. Foreslå én konkret strategi for hvert problem, og forklar kort hvordan de passer.",
+        "fasit": "For å øve på å forstå tale kan eleven lytte til fransk musikk eller podkaster, eller se serier med fransk teksting. For å huske nye ord kan eleven lage ordkort og repetere dem jevnlig.",
+        "kriterier": [
+          "Foreslår en relevant strategi for å øve på å forstå fransk tale.",
+          "Foreslår ordkort med jevnlig repetisjon for å huske ord."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Skriv på fransk at du liker fransk rap, og bruk slangverbet *kiffer*.",
+        "fasit": "Je kiffe le rap français.",
+        "kriterier": [
+          "Bruker *kiffer* i en forståelig fransk setning.",
+          "Får fram at det er fransk rap eleven liker."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvordan kunnskap i engelsk kan være nyttig når du lærer fransk. Bruk ett eksempel på ord som ligner i de to språkene.",
+        "fasit": "Mange franske og engelske ord ligner, så engelsk kan hjelpe deg med å forstå franske ord. For eksempel ligner *important* på det engelske *important*.",
+        "kriterier": [
+          "Forklarer at likheter mellom ord kan hjelpe med å forstå fransk.",
+          "Gir et relevant eksempel, som *la nation*, *important* eller *la question*."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Nevn hvor mange unge ofte møtes i Frankrike, og hvilke to typer lesestoff som er svært populære.",
+        "fasit": "Mange unge møtes på kafeer og i parker. Tegneserier og manga er svært populære.",
+        "kriterier": [
+          "Nevner kafeer og parker som møtesteder.",
+          "Nevner både tegneserier og manga som populære."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Derivasjon og integrasjon i egne modeller",
   "intro": "Hvordan du bruker derivasjon og integrasjon til å analysere og tolke modeller av reelle datasett – vekstfart, maksimal vekst og vendepunkt, samlet mengde fra en ratemodell, gjennomsnittsverdi – og hvordan enkle modeller kan beskrives med vekstfarten.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Fra modell til analyse\n\nNår du har laget en **modell** f av et datasett, kan du bruke **derivasjon** og **integrasjon** til å svare på spørsmål om situasjonen. Husk alltid å **tolke** svaret med **enheter**.\n\n## Derivasjon: vekstfart\n\nf′(x) er den **momentane vekstfarten**. Enheten er «y-enhet per x-enhet».\n\n- **f′(x) > 0**: modellen **vokser**.\n- **f′(x) = 0**: mulig **topp-** eller **bunnpunkt**.\n- **f″(x)** forteller om vekstfarten **øker** eller **avtar**.\n- Et **vendepunkt** er der f″ skifter fortegn – der veksten er **størst** eller **minst**.\n\n**Eksempel**: En logistisk modell for antall brukere av en app, N(t) = 50 000/(1 + 99e^(−0,4t)), t i uker. Veksten er **størst** når N er halvparten av bæreevnen, altså 25 000 brukere. Det skjer når 99e^(−0,4t) = 1, som gir t = ln 99/0,4 ≈ **11,5 uker**.\n\n## Integrasjon: samlet mengde\n\nHar du en modell for en **rate** – mengde per tid – gir integralet den **samlede mengden**.\n\n**Eksempel**: Vannføringen i en elv er modellert med v(t) m³/s. Da er ∫ₐᵇ v(t) dt det **totale volumet** i m³ som renner forbi mellom tidspunktene a og b (målt i sekunder).\n\n**Eksempel**: Strømforbruket i en bolig er modellert med P(t) kW gjennom et døgn. ∫₀²⁴ P(t) dt gir **energien** i kWh.\n\n## Gjennomsnittsverdi\n\nGjennomsnittsverdien av f på [a, b] er\n\n**f̄ = (1/(b − a)) · ∫ₐᵇ f(x) dx**\n\nDen svarer til høyden på et rektangel med **samme areal** som området under grafen. Brukes for eksempel til å finne **gjennomsnittstemperaturen** over et døgn fra en trigonometrisk modell.\n\n## Total endring\n\nHar du en modell for **endringsraten** f′, gir\n\n**f(b) = f(a) + ∫ₐᵇ f′(x) dx**\n\nverdien ved slutten. Kjenner du startverdien og hvor fort noe endrer seg, kan du finne hvor mye det er senere.\n\n## Modeller beskrevet med vekstfart\n\nMange modeller bygger på en antakelse om **vekstfarten**:\n\n- «Vekstfarten er **proporsjonal** med størrelsen»: **y′ = k · y**. Løsningen er **y = C · e^(kx)** – eksponentiell vekst.\n- «Temperaturen endrer seg proporsjonalt med **forskjellen** til omgivelsene»: **T′ = −k(T − Tₒ)**. Løsningen er T = Tₒ + C · e^(−kt) – avkjøling.\n- «Veksten bremses når bestanden nærmer seg K»: **y′ = k · y(1 − y/K)** – logistisk vekst.\n\nLikninger som inneholder en **ukjent funksjon og dens deriverte**, kalles **differensiallikninger**. Du kan **kontrollere** en løsning ved å derivere den og sette inn.\n\n## Tolke og vurdere\n\n- Hva betyr svaret i **virkeligheten**?\n- Er det **rimelig**? En negativ vannføring eller en befolkning større enn bæreevnen tyder på feil.\n- Hvor **pålitelig** er modellen i dette området? Analyser utenfor dataområdet er **usikre**.\n- Hvilke **forenklinger** ligger i modellen, og hvordan påvirker de konklusjonen?\n\nBruk **CAS** eller **Python** til utregningene, men forklar **hva** du regner ut og **hvorfor**.",
   "flashcards": [
-    { "term": "f′(x) i en modell", "def": "Momentan vekstfart – y-enhet per x-enhet." },
-    { "term": "f″(x)", "def": "Forteller om vekstfarten øker eller avtar." },
-    { "term": "Vendepunkt", "def": "Der f″ skifter fortegn – størst eller minst vekst." },
-    { "term": "Størst vekst i logistisk modell", "def": "Når bestanden er K/2." },
-    { "term": "Integral av en rate", "def": "Samlet mengde." },
-    { "term": "Integral av effekt i kW over timer", "def": "Energi i kWh." },
-    { "term": "Gjennomsnittsverdi", "def": "(1/(b − a)) · ∫ₐᵇ f(x) dx" },
-    { "term": "Total endring", "def": "f(b) = f(a) + ∫ₐᵇ f′(x) dx" },
-    { "term": "Differensiallikning", "def": "Likning med en ukjent funksjon og dens deriverte." },
-    { "term": "y′ = k · y", "def": "Løsning y = C · e^(kx)." },
-    { "term": "Avkjølingsmodell", "def": "T′ = −k(T − Tₒ) med løsning T = Tₒ + C · e^(−kt)." },
-    { "term": "Logistisk vekstfart", "def": "y′ = k · y(1 − y/K)" },
-    { "term": "Kontroll av løsning", "def": "Deriver og sett inn i likningen." },
-    { "term": "Rimelighet", "def": "Sjekk at svaret gir mening i virkeligheten." },
-    { "term": "Enheter", "def": "Viktige for å tolke deriverte og integraler." }
+    {
+      "term": "f′(x) i en modell",
+      "def": "Momentan vekstfart – y-enhet per x-enhet."
+    },
+    {
+      "term": "f″(x)",
+      "def": "Forteller om vekstfarten øker eller avtar."
+    },
+    {
+      "term": "Vendepunkt",
+      "def": "Der f″ skifter fortegn – størst eller minst vekst."
+    },
+    {
+      "term": "Størst vekst i logistisk modell",
+      "def": "Når bestanden er K/2."
+    },
+    {
+      "term": "Integral av en rate",
+      "def": "Samlet mengde."
+    },
+    {
+      "term": "Integral av effekt i kW over timer",
+      "def": "Energi i kWh."
+    },
+    {
+      "term": "Gjennomsnittsverdi",
+      "def": "(1/(b − a)) · ∫ₐᵇ f(x) dx"
+    },
+    {
+      "term": "Total endring",
+      "def": "f(b) = f(a) + ∫ₐᵇ f′(x) dx"
+    },
+    {
+      "term": "Differensiallikning",
+      "def": "Likning med en ukjent funksjon og dens deriverte."
+    },
+    {
+      "term": "y′ = k · y",
+      "def": "Løsning y = C · e^(kx)."
+    },
+    {
+      "term": "Avkjølingsmodell",
+      "def": "T′ = −k(T − Tₒ) med løsning T = Tₒ + C · e^(−kt)."
+    },
+    {
+      "term": "Logistisk vekstfart",
+      "def": "y′ = k · y(1 − y/K)"
+    },
+    {
+      "term": "Kontroll av løsning",
+      "def": "Deriver og sett inn i likningen."
+    },
+    {
+      "term": "Rimelighet",
+      "def": "Sjekk at svaret gir mening i virkeligheten."
+    },
+    {
+      "term": "Enheter",
+      "def": "Viktige for å tolke deriverte og integraler."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva forteller f′(x) i en modell?", "options": ["Samlet mengde", "Momentan vekstfart", "Gjennomsnittsverdi", "Startverdi"], "correct": 1, "explain": "y-enhet per x-enhet." },
-    { "id": "q02", "text": "Når er veksten størst i en logistisk modell?", "options": ["Når bestanden er K/2", "Ved start", "Når bestanden er K", "Aldri"], "correct": 0, "explain": "I vendepunktet." },
-    { "id": "q03", "text": "Hva gir integralet av vannføring i m³/s over tid i sekunder?", "options": ["Farten", "Vannstanden", "Totalt volum i m³", "Gjennomsnittlig vannføring"], "correct": 2, "explain": "m³/s · s = m³." },
-    { "id": "q04", "text": "Hvordan regnes gjennomsnittsverdien av f på [a, b] ut?", "options": ["(f(a) + f(b))/2", "f′(b) − f′(a)", "∫ₐᵇ f(x) dx", "(1/(b − a)) · ∫ₐᵇ f(x) dx"], "correct": 3, "explain": "Rektangel med samme areal." },
-    { "id": "q05", "text": "Hva er løsningen av y′ = k · y?", "options": ["y = C · e^(kx)", "y = kx + C", "y = k/x", "y = C · xᵏ"], "correct": 0, "explain": "Eksponentiell vekst." },
-    { "id": "q06", "text": "Hva kalles en likning med en ukjent funksjon og dens deriverte?", "options": ["Andregradslikning", "Differensiallikning", "Eksponentiallikning", "Vektorlikning"], "correct": 1, "explain": "Beskriver vekstfart." },
-    { "id": "q07", "text": "Hva er et vendepunkt?", "options": ["Der f = 0", "Der f′ = 0 alltid", "Der f″ skifter fortegn", "Der grafen slutter"], "correct": 2, "explain": "Vekstfarten har topp- eller bunnpunkt." },
-    { "id": "q08", "text": "Hva gir ∫₀²⁴ P(t) dt når P er effekten i kW og t er timer?", "options": ["Effekt i kW", "Tid i timer", "Gjennomsnittseffekt", "Energi i kWh"], "correct": 3, "explain": "kW · h = kWh." },
-    { "id": "q09", "text": "Hvordan kan du kontrollere en løsning av en differensiallikning?", "options": ["Deriver den og sett inn i likningen", "Integrer to ganger", "Tegn en tabell", "Du kan ikke kontrollere den"], "correct": 0, "explain": "Venstre og høyre side skal bli like." },
-    { "id": "q10", "text": "Hva tyder en beregnet befolkning større enn bæreevnen i en logistisk modell på?", "options": ["Rask vekst", "Feil i utregningen eller modellen", "At modellen er perfekt", "Vendepunkt"], "correct": 1, "explain": "Vurder alltid rimeligheten." }
+    {
+      "id": "q01",
+      "text": "Hva forteller f′(x) i en modell?",
+      "options": [
+        "Samlet mengde",
+        "Momentan vekstfart",
+        "Gjennomsnittsverdi",
+        "Startverdi"
+      ],
+      "correct": 1,
+      "explain": "y-enhet per x-enhet."
+    },
+    {
+      "id": "q02",
+      "text": "Når er veksten størst i en logistisk modell?",
+      "options": [
+        "Når bestanden er K/2",
+        "Ved start",
+        "Når bestanden er K",
+        "Aldri"
+      ],
+      "correct": 0,
+      "explain": "I vendepunktet."
+    },
+    {
+      "id": "q03",
+      "text": "Hva gir integralet av vannføring i m³/s over tid i sekunder?",
+      "options": [
+        "Farten",
+        "Vannstanden",
+        "Totalt volum i m³",
+        "Gjennomsnittlig vannføring"
+      ],
+      "correct": 2,
+      "explain": "m³/s · s = m³."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan regnes gjennomsnittsverdien av f på [a, b] ut?",
+      "options": [
+        "(f(a) + f(b))/2",
+        "f′(b) − f′(a)",
+        "∫ₐᵇ f(x) dx",
+        "(1/(b − a)) · ∫ₐᵇ f(x) dx"
+      ],
+      "correct": 3,
+      "explain": "Rektangel med samme areal."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er løsningen av y′ = k · y?",
+      "options": [
+        "y = C · e^(kx)",
+        "y = kx + C",
+        "y = k/x",
+        "y = C · xᵏ"
+      ],
+      "correct": 0,
+      "explain": "Eksponentiell vekst."
+    },
+    {
+      "id": "q06",
+      "text": "Hva kalles en likning med en ukjent funksjon og dens deriverte?",
+      "options": [
+        "Andregradslikning",
+        "Differensiallikning",
+        "Eksponentiallikning",
+        "Vektorlikning"
+      ],
+      "correct": 1,
+      "explain": "Beskriver vekstfart."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er et vendepunkt?",
+      "options": [
+        "Der f = 0",
+        "Der f′ = 0 alltid",
+        "Der f″ skifter fortegn",
+        "Der grafen slutter"
+      ],
+      "correct": 2,
+      "explain": "Vekstfarten har topp- eller bunnpunkt."
+    },
+    {
+      "id": "q08",
+      "text": "Hva gir ∫₀²⁴ P(t) dt når P er effekten i kW og t er timer?",
+      "options": [
+        "Effekt i kW",
+        "Tid i timer",
+        "Gjennomsnittseffekt",
+        "Energi i kWh"
+      ],
+      "correct": 3,
+      "explain": "kW · h = kWh."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan kan du kontrollere en løsning av en differensiallikning?",
+      "options": [
+        "Deriver den og sett inn i likningen",
+        "Integrer to ganger",
+        "Tegn en tabell",
+        "Du kan ikke kontrollere den"
+      ],
+      "correct": 0,
+      "explain": "Venstre og høyre side skal bli like."
+    },
+    {
+      "id": "q10",
+      "text": "Hva tyder en beregnet befolkning større enn bæreevnen i en logistisk modell på?",
+      "options": [
+        "Rask vekst",
+        "Feil i utregningen eller modellen",
+        "At modellen er perfekt",
+        "Vendepunkt"
+      ],
+      "correct": 1,
+      "explain": "Vurder alltid rimeligheten."
+    }
   ],
   "mindmap": {
     "label": "Analyse av modeller",
     "children": [
-      { "label": "Derivasjon", "children": [
-        { "label": "Vekstfart" },
-        { "label": "Topp- og bunnpunkt" },
-        { "label": "Vendepunkt" }
-      ] },
-      { "label": "Integrasjon", "children": [
-        { "label": "Samlet mengde" },
-        { "label": "Gjennomsnittsverdi" },
-        { "label": "Total endring" }
-      ] },
-      { "label": "Vekstfart som modell", "children": [
-        { "label": "y′ = ky" },
-        { "label": "Avkjøling" },
-        { "label": "Logistisk" }
-      ] },
-      { "label": "Tolkning", "children": [
-        { "label": "Enheter" },
-        { "label": "Rimelighet" }
-      ] },
-      { "label": "Verktøy", "children": [
-        { "label": "CAS" },
-        { "label": "Python" }
-      ] }
+      {
+        "label": "Derivasjon",
+        "children": [
+          {
+            "label": "Vekstfart"
+          },
+          {
+            "label": "Topp- og bunnpunkt"
+          },
+          {
+            "label": "Vendepunkt"
+          }
+        ]
+      },
+      {
+        "label": "Integrasjon",
+        "children": [
+          {
+            "label": "Samlet mengde"
+          },
+          {
+            "label": "Gjennomsnittsverdi"
+          },
+          {
+            "label": "Total endring"
+          }
+        ]
+      },
+      {
+        "label": "Vekstfart som modell",
+        "children": [
+          {
+            "label": "y′ = ky"
+          },
+          {
+            "label": "Avkjøling"
+          },
+          {
+            "label": "Logistisk"
+          }
+        ]
+      },
+      {
+        "label": "Tolkning",
+        "children": [
+          {
+            "label": "Enheter"
+          },
+          {
+            "label": "Rimelighet"
+          }
+        ]
+      },
+      {
+        "label": "Verktøy",
+        "children": [
+          {
+            "label": "CAS"
+          },
+          {
+            "label": "Python"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Enheten til den deriverte er y-enhet per x-enhet.", "correct": true, "explain": "For eksempel brukere per uke." },
-      { "id": "m02", "type": "sant-usant", "text": "Analyser utenfor dataområdet er like pålitelige som innenfor.", "correct": false, "explain": "De er mer usikre." },
-      { "id": "m03", "type": "sant-usant", "text": "T = Tₒ + C · e^(−kt) beskriver avkjøling mot omgivelsestemperaturen.", "correct": true, "explain": "Løsningen av T′ = −k(T − Tₒ)." },
-      { "id": "m04", "type": "sant-usant", "text": "f′(x) = 0 betyr alltid et toppunkt.", "correct": false, "explain": "Det kan også være et bunnpunkt eller terrassepunkt." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er gjennomsnittsverdien av f(x) = 2x på [0, 3]?", "options": ["6", "3", "9", "2"], "correct": 1, "explain": "(1/3) · [x²]₀³ = 9/3." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor mange uker tar det før N(t) = 50 000/(1 + 99e^(−0,4t)) vokser raskest?", "options": ["Omtrent 11,5 uker", "Omtrent 2,5 uker", "Omtrent 25 uker", "Omtrent 50 uker"], "correct": 0, "explain": "t = ln 99/0,4." },
-      { "id": "m07", "type": "flervalg", "text": "Hva finner du med f(a) + ∫ₐᵇ f′(x) dx?", "options": ["f′(b)", "Gjennomsnittet", "f(b)", "Arealet under f"], "correct": 2, "explain": "Startverdi pluss total endring." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Enheten til den deriverte er y-enhet per x-enhet.",
+        "correct": true,
+        "explain": "For eksempel brukere per uke."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Analyser utenfor dataområdet er like pålitelige som innenfor.",
+        "correct": false,
+        "explain": "De er mer usikre."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "T = Tₒ + C · e^(−kt) beskriver avkjøling mot omgivelsestemperaturen.",
+        "correct": true,
+        "explain": "Løsningen av T′ = −k(T − Tₒ)."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "f′(x) = 0 betyr alltid et toppunkt.",
+        "correct": false,
+        "explain": "Det kan også være et bunnpunkt eller terrassepunkt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er gjennomsnittsverdien av f(x) = 2x på [0, 3]?",
+        "options": [
+          "6",
+          "3",
+          "9",
+          "2"
+        ],
+        "correct": 1,
+        "explain": "(1/3) · [x²]₀³ = 9/3."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor mange uker tar det før N(t) = 50 000/(1 + 99e^(−0,4t)) vokser raskest?",
+        "options": [
+          "Omtrent 11,5 uker",
+          "Omtrent 2,5 uker",
+          "Omtrent 25 uker",
+          "Omtrent 50 uker"
+        ],
+        "correct": 0,
+        "explain": "t = ln 99/0,4."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva finner du med f(a) + ∫ₐᵇ f′(x) dx?",
+        "options": [
+          "f′(b)",
+          "Gjennomsnittet",
+          "f(b)",
+          "Arealet under f"
+        ],
+        "correct": 2,
+        "explain": "Startverdi pluss total endring."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign antakelsen bak eksponentiell vekst, y′ = k · y, med antakelsen bak logistisk vekst, y′ = k · y(1 − y/K). Hva sier modellene om hvordan vekstfarten avhenger av størrelsen y?",
+        "fasit": "I den eksponentielle modellen er vekstfarten proporsjonal med størrelsen y. I den logistiske modellen bremses veksten av faktoren 1 − y/K når y nærmer seg K.",
+        "kriterier": [
+          "Forklarer at eksponentiell vekstfart er proporsjonal med y.",
+          "Forklarer at logistisk vekst bremses når y nærmer seg K."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I en modell for temperaturendring er T′ = −k(T − Tₒ), der k > 0 og Tₒ er omgivelsestemperaturen. Forklar hva minustegnet sier om retningen på temperaturendringen når T er høyere enn Tₒ.",
+        "fasit": "Når T er høyere enn Tₒ, er T − Tₒ positiv. Minustegnet gjør da T′ negativ, så temperaturen synker og beveger seg mot omgivelsestemperaturen.",
+        "kriterier": [
+          "Knytter T > Tₒ til at T − Tₒ er positiv.",
+          "Forklarer at T′ blir negativ og at temperaturen synker."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Vis ved derivasjon at y = C · e^(kx) er en løsning av differensiallikningen y′ = k · y.",
+        "fasit": "Derivasjon gir y′ = C · k · e^(kx) = k · (C · e^(kx)). Siden C · e^(kx) = y, får vi y′ = k · y.",
+        "kriterier": [
+          "Deriverer y og får y′ = kC · e^(kx).",
+          "Knytter uttrykket til y og viser at y′ = k · y."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En modell har konstant endringsrate f′(x) = r på intervallet [a, b], og f(a) = A. Bruk formelen for total endring til å finne f(b). Vis det viktigste steget.",
+        "fasit": "f(b) = f(a) + ∫ₐᵇ r dx = A + r(b − a).",
+        "kriterier": [
+          "Bruker at integralet av den konstante raten er r(b − a).",
+          "Får f(b) = A + r(b − a)."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En modell beskriver vekstfarten f′(x). Forklar hva fortegnet til f″(x) forteller om vekstfarten, og hva et fortegnsskifte i f″ betyr.",
+        "fasit": "Når f″(x) er positiv, øker vekstfarten, og når den er negativ, avtar vekstfarten. Et fortegnsskifte i f″ markerer et vendepunkt, der veksten er størst eller minst.",
+        "kriterier": [
+          "Knytter positiv og negativ f″ til henholdsvis økende og avtakende vekstfart.",
+          "Forklarer at fortegnsskifte i f″ gir et vendepunkt med størst eller minst vekst."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Modellen N(t) = 50 000/(1 + 99e^(−0,4t)) beskriver antall brukere av en app etter t uker. Veksten er størst når N = 25 000. Likningen for tidspunktet er 99e^(−0,4t) = 1. Finn t eksakt og oppgi den omtrentlige verdien.",
+        "fasit": "Fra 99e^(−0,4t) = 1 får vi e^(−0,4t) = 1/99, så −0,4t = −ln 99. Dermed er t = ln 99/0,4 ≈ 11,5 uker.",
+        "kriterier": [
+          "Løser likningen og får t = ln 99/0,4.",
+          "Oppgir omtrent 11,5 uker."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En funksjon f(t) måler en mengde i liter, og t måles i minutter. Hvilke enheter har f′(t) og integralet ∫ₐᵇ f′(t) dt? Forklar kort hva integralet beskriver.",
+        "fasit": "f′(t) har enheten liter per minutt. Integralets enhet er liter, og integralet beskriver den samlede endringen i mengden fra a til b.",
+        "kriterier": [
+          "Oppgir liter per minutt som enheten til f′(t).",
+          "Oppgir liter som enheten til integralet og tolker det som samlet endring."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En modell er laget ut fra data fra et bestemt område av x-verdiene. Forklar hvorfor en beregning langt utenfor dette området bør vurderes forsiktig, og nevn hva du bør undersøke ved vurderingen.",
+        "fasit": "Beregninger utenfor dataområdet er usikre fordi modellen der ikke støttes av de samme dataene. Vurder om resultatet er rimelig i virkeligheten, og ta hensyn til modellens forenklinger.",
+        "kriterier": [
+          "Forklarer at beregninger utenfor dataområdet er usikre.",
+          "Nevner rimelighet eller modellens forenklinger som noe som bør vurderes."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

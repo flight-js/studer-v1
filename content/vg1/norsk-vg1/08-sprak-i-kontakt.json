@@ -4,81 +4,433 @@
   "trinnId": "vg1",
   "name": "Norsk i møte med andre språk",
   "intro": "Særtrekk ved norsk sammenlignet med andre språk – språkfamilier, ordstilling, tonelag og artikler – og hvordan språkmøter med latin, lavtysk, dansk, engelsk og andre språk har endret norsk.",
-  "kompetansemaal": [12],
+  "kompetansemaal": [
+    12
+  ],
   "sammendrag": "## Norsk blant verdens språk\n\nNorsk er et **nordisk** eller **nordgermansk** språk. Det tilhører den **germanske** grenen av den **indoeuropeiske språkfamilien**, sammen med blant annet engelsk og tysk. De nærmeste slektningene er **svensk** og **dansk**, og de tre skandinaviske språkene er i stor grad **gjensidig forståelige**. **Islandsk** og **færøysk** er også nordiske, men vanskeligere for nordmenn å forstå.\n\nNoen språk i Norge tilhører helt andre familier: **Samiske språk** og **kvensk** er **finsk-ugriske** (uralske) språk, i slekt med finsk og estisk.\n\n## Særtrekk ved norsk\n\n- **V2-ordstilling**: Verbalet står på andre plass i helsetninger: *I dag **regner** det.* Engelsk sier *Today it **rains*** – med subjektet før verbet.\n- **Etterhengt bestemt artikkel**: *hus**et*** – mens engelsk og tysk setter artikkelen foran: *the house*, *das Haus*.\n- **Tonelag (tonem)**: I mange norske dialekter kan tonegangen skille ord som ellers uttales likt, for eksempel *bønder* og *bønner*. Språk som **kinesisk** bruker toner i enda større grad.\n- **Sammensatte ord** skrives i **ett ord**: *skolebuss*, ikke *skole buss*. Å dele dem kalles **særskriving** og kan endre betydningen.\n- **Dialektmangfold** og **to offisielle skriftspråk**: bokmål og nynorsk.\n\n## Språkmøter som har endret norsk\n\nSpråk endrer seg når folk som snakker ulike språk, møtes:\n\n- **Latin og gresk** kom med **kristendommen** og lærdommen i middelalderen og senere – ord som *skole*, *tavle* og mange fagord.\n- **Lavtysk**: I **hansatiden** (fra 1300-tallet) hadde tyske kjøpmenn stor makt i Bergen. Norsk fikk mange lånord som *betale*, *arbeid* og *frue*, og ordlagingselementer som **be-**, **-het** og **-else**.\n- **Dansk**: I **dansketiden** (1380–1814) ble **dansk** skriftspråk i Norge. Bokmål har utviklet seg fra dette dansk-norske skriftspråket, mens nynorsk bygger på dialektene.\n- **Fransk** ga ord som *sjåfør*, *byrå* og *stasjon*, ofte med **fornorsket skrivemåte**.\n- **Engelsk** påvirker norsk sterkt i dag gjennom **medier**, **spill**, **musikk** og **teknologi**: *chille*, *nice*, *streame*. Slike lånord kalles **anglisismer**.\n\n## Språkmøter i dag\n\nI byer med mange språk har det oppstått **multietnolekter** – måter å snakke på som blander trekk fra norsk og andre språk. Kjente ord er *wolla* («jeg sverger») og *sjofe* («se»). Mange unge **kodeveksler**, det vil si skifter mellom ulike måter å snakke på etter hvem de snakker med.\n\n## Hvordan skjer språkendring?\n\nSpråk endrer seg på mange nivåer: **ordforråd** (nye ord og lånord), **uttale**, **grammatikk** og **skrivemåte**. **Språkrådet** gir råd om norsk språk og foreslår ofte **norske erstatningsord** for engelske lånord. Noen mener engelsk truer norsk på enkelte områder, som høyere utdanning og næringsliv – dette kalles **domenetap**.",
   "flashcards": [
-    { "term": "Nordgermansk språk", "def": "Nordisk språk, som norsk, svensk, dansk, islandsk og færøysk." },
-    { "term": "Indoeuropeisk språkfamilie", "def": "Stor språkfamilie som blant annet omfatter germanske, romanske og slaviske språk." },
-    { "term": "Finsk-ugriske språk", "def": "Språkfamilie med blant annet finsk, estisk, samisk og kvensk." },
-    { "term": "Gjensidig forståelige språk", "def": "Språk der brukerne forstår hverandre, som norsk, svensk og dansk." },
-    { "term": "V2-ordstilling", "def": "Verbalet står på andre plass i helsetninger." },
-    { "term": "Etterhengt artikkel", "def": "Bestemt artikkel som endelse, som i «huset»." },
-    { "term": "Tonelag (tonem)", "def": "Tonegang som kan skille ord, som «bønder» og «bønner»." },
-    { "term": "Særskriving", "def": "Å skrive sammensatte ord i to ord." },
-    { "term": "Lavtysk påvirkning", "def": "Lånord og ordlagingselementer fra hansatiden, som «betale» og «-het»." },
-    { "term": "Dansketiden", "def": "Perioden 1380–1814 da Norge var i union med Danmark." },
-    { "term": "Lånord", "def": "Ord som er hentet fra et annet språk." },
-    { "term": "Anglisisme", "def": "Lånord eller uttrykk fra engelsk." },
-    { "term": "Multietnolekt", "def": "Språkvariant med trekk fra norsk og andre språk." },
-    { "term": "Språkrådet", "def": "Statens fagorgan for norsk språk." },
-    { "term": "Domenetap", "def": "At et språk mister terreng til et annet språk på et samfunnsområde." }
+    {
+      "term": "Nordgermansk språk",
+      "def": "Nordisk språk, som norsk, svensk, dansk, islandsk og færøysk."
+    },
+    {
+      "term": "Indoeuropeisk språkfamilie",
+      "def": "Stor språkfamilie som blant annet omfatter germanske, romanske og slaviske språk."
+    },
+    {
+      "term": "Finsk-ugriske språk",
+      "def": "Språkfamilie med blant annet finsk, estisk, samisk og kvensk."
+    },
+    {
+      "term": "Gjensidig forståelige språk",
+      "def": "Språk der brukerne forstår hverandre, som norsk, svensk og dansk."
+    },
+    {
+      "term": "V2-ordstilling",
+      "def": "Verbalet står på andre plass i helsetninger."
+    },
+    {
+      "term": "Etterhengt artikkel",
+      "def": "Bestemt artikkel som endelse, som i «huset»."
+    },
+    {
+      "term": "Tonelag (tonem)",
+      "def": "Tonegang som kan skille ord, som «bønder» og «bønner»."
+    },
+    {
+      "term": "Særskriving",
+      "def": "Å skrive sammensatte ord i to ord."
+    },
+    {
+      "term": "Lavtysk påvirkning",
+      "def": "Lånord og ordlagingselementer fra hansatiden, som «betale» og «-het»."
+    },
+    {
+      "term": "Dansketiden",
+      "def": "Perioden 1380–1814 da Norge var i union med Danmark."
+    },
+    {
+      "term": "Lånord",
+      "def": "Ord som er hentet fra et annet språk."
+    },
+    {
+      "term": "Anglisisme",
+      "def": "Lånord eller uttrykk fra engelsk."
+    },
+    {
+      "term": "Multietnolekt",
+      "def": "Språkvariant med trekk fra norsk og andre språk."
+    },
+    {
+      "term": "Språkrådet",
+      "def": "Statens fagorgan for norsk språk."
+    },
+    {
+      "term": "Domenetap",
+      "def": "At et språk mister terreng til et annet språk på et samfunnsområde."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken språkfamilie tilhører norsk?", "options": ["Den finsk-ugriske", "Den semittiske", "Den indoeuropeiske", "Den kinesisk-tibetanske"], "correct": 2, "explain": "Norsk er et germansk, nordisk språk." },
-    { "id": "q02", "text": "Hvilke språk er samisk i slekt med?", "options": ["Finsk og estisk", "Norsk og svensk", "Engelsk og tysk", "Russisk og polsk"], "correct": 0, "explain": "Samisk er et finsk-ugrisk språk." },
-    { "id": "q03", "text": "Hva er et særtrekk ved bestemt form i norsk?", "options": ["Artikkelen står foran substantivet", "Det finnes ingen bestemt form", "Artikkelen skrives med stor bokstav", "Artikkelen henges på som endelse"], "correct": 3, "explain": "Norsk: huset. Engelsk: the house." },
-    { "id": "q04", "text": "Hvilken periode ga norsk mange lånord fra lavtysk?", "options": ["Vikingtiden", "Hansatiden", "Dansketiden", "1900-tallet"], "correct": 1, "explain": "Tyske kjøpmenn hadde stor makt i Bergen fra 1300-tallet." },
-    { "id": "q05", "text": "Hvilke ord kan skilles av tonelag i mange dialekter?", "options": ["bønder og bønner", "hus og huset", "katt og hund", "stor og liten"], "correct": 0, "explain": "Tonegangen er ulik selv om lydene er nesten like." },
-    { "id": "q06", "text": "Hva er en anglisisme?", "options": ["Et gammelt norsk ord", "Et dialektord", "Et lånord eller uttrykk fra engelsk", "Et samisk ord"], "correct": 2, "explain": "«Chille» og «streame» er eksempler." },
-    { "id": "q07", "text": "Hvilket skriftspråk har utviklet seg fra det dansk-norske skriftspråket?", "options": ["Nynorsk", "Samisk", "Kvensk", "Bokmål"], "correct": 3, "explain": "Nynorsk bygger på dialektene." },
-    { "id": "q08", "text": "Hva er særskriving?", "options": ["Å skrive sammensatte ord i to ord", "Å skrive på dialekt", "Å skrive med store bokstaver", "Å skrive på sidemål"], "correct": 0, "explain": "Særskriving kan endre betydningen: «røyk fritt» og «røykfritt»." },
-    { "id": "q09", "text": "Hva er domenetap?", "options": ["At et ord forsvinner fra ordboka", "At et språk mister terreng til et annet språk på et samfunnsområde", "At en dialekt dør ut", "At man glemmer et språk"], "correct": 1, "explain": "Engelsk brukes for eksempel mye i forskning og næringsliv." },
-    { "id": "q10", "text": "Hvilket ordlagingselement kom fra lavtysk?", "options": ["-skap i «vennskap»", "-else i «forståelse»", "-ing i «fisking»", "-lig i «vennlig»"], "correct": 1, "explain": "Også be- og -het kom fra lavtysk." }
+    {
+      "id": "q01",
+      "text": "Hvilken språkfamilie tilhører norsk?",
+      "options": [
+        "Den finsk-ugriske",
+        "Den semittiske",
+        "Den indoeuropeiske",
+        "Den kinesisk-tibetanske"
+      ],
+      "correct": 2,
+      "explain": "Norsk er et germansk, nordisk språk."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilke språk er samisk i slekt med?",
+      "options": [
+        "Finsk og estisk",
+        "Norsk og svensk",
+        "Engelsk og tysk",
+        "Russisk og polsk"
+      ],
+      "correct": 0,
+      "explain": "Samisk er et finsk-ugrisk språk."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er et særtrekk ved bestemt form i norsk?",
+      "options": [
+        "Artikkelen står foran substantivet",
+        "Det finnes ingen bestemt form",
+        "Artikkelen skrives med stor bokstav",
+        "Artikkelen henges på som endelse"
+      ],
+      "correct": 3,
+      "explain": "Norsk: huset. Engelsk: the house."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken periode ga norsk mange lånord fra lavtysk?",
+      "options": [
+        "Vikingtiden",
+        "Hansatiden",
+        "Dansketiden",
+        "1900-tallet"
+      ],
+      "correct": 1,
+      "explain": "Tyske kjøpmenn hadde stor makt i Bergen fra 1300-tallet."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilke ord kan skilles av tonelag i mange dialekter?",
+      "options": [
+        "bønder og bønner",
+        "hus og huset",
+        "katt og hund",
+        "stor og liten"
+      ],
+      "correct": 0,
+      "explain": "Tonegangen er ulik selv om lydene er nesten like."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en anglisisme?",
+      "options": [
+        "Et gammelt norsk ord",
+        "Et dialektord",
+        "Et lånord eller uttrykk fra engelsk",
+        "Et samisk ord"
+      ],
+      "correct": 2,
+      "explain": "«Chille» og «streame» er eksempler."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket skriftspråk har utviklet seg fra det dansk-norske skriftspråket?",
+      "options": [
+        "Nynorsk",
+        "Samisk",
+        "Kvensk",
+        "Bokmål"
+      ],
+      "correct": 3,
+      "explain": "Nynorsk bygger på dialektene."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er særskriving?",
+      "options": [
+        "Å skrive sammensatte ord i to ord",
+        "Å skrive på dialekt",
+        "Å skrive med store bokstaver",
+        "Å skrive på sidemål"
+      ],
+      "correct": 0,
+      "explain": "Særskriving kan endre betydningen: «røyk fritt» og «røykfritt»."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er domenetap?",
+      "options": [
+        "At et ord forsvinner fra ordboka",
+        "At et språk mister terreng til et annet språk på et samfunnsområde",
+        "At en dialekt dør ut",
+        "At man glemmer et språk"
+      ],
+      "correct": 1,
+      "explain": "Engelsk brukes for eksempel mye i forskning og næringsliv."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket ordlagingselement kom fra lavtysk?",
+      "options": [
+        "-skap i «vennskap»",
+        "-else i «forståelse»",
+        "-ing i «fisking»",
+        "-lig i «vennlig»"
+      ],
+      "correct": 1,
+      "explain": "Også be- og -het kom fra lavtysk."
+    }
   ],
   "mindmap": {
     "label": "Norsk i møte med andre språk",
     "children": [
-      { "label": "Språkfamilier", "children": [
-        { "label": "Indoeuropeisk" },
-        { "label": "Nordgermansk" },
-        { "label": "Finsk-ugrisk" }
-      ] },
-      { "label": "Særtrekk", "children": [
-        { "label": "V2" },
-        { "label": "Etterhengt artikkel" },
-        { "label": "Tonelag" },
-        { "label": "Sammensatte ord" }
-      ] },
-      { "label": "Historiske språkmøter", "children": [
-        { "label": "Latin" },
-        { "label": "Lavtysk" },
-        { "label": "Dansk" },
-        { "label": "Fransk" }
-      ] },
-      { "label": "I dag", "children": [
-        { "label": "Engelsk" },
-        { "label": "Multietnolekt" },
-        { "label": "Kodeveksling" }
-      ] },
-      { "label": "Språkendring", "children": [
-        { "label": "Lånord" },
-        { "label": "Språkrådet" },
-        { "label": "Domenetap" }
-      ] }
+      {
+        "label": "Språkfamilier",
+        "children": [
+          {
+            "label": "Indoeuropeisk"
+          },
+          {
+            "label": "Nordgermansk"
+          },
+          {
+            "label": "Finsk-ugrisk"
+          }
+        ]
+      },
+      {
+        "label": "Særtrekk",
+        "children": [
+          {
+            "label": "V2"
+          },
+          {
+            "label": "Etterhengt artikkel"
+          },
+          {
+            "label": "Tonelag"
+          },
+          {
+            "label": "Sammensatte ord"
+          }
+        ]
+      },
+      {
+        "label": "Historiske språkmøter",
+        "children": [
+          {
+            "label": "Latin"
+          },
+          {
+            "label": "Lavtysk"
+          },
+          {
+            "label": "Dansk"
+          },
+          {
+            "label": "Fransk"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Engelsk"
+          },
+          {
+            "label": "Multietnolekt"
+          },
+          {
+            "label": "Kodeveksling"
+          }
+        ]
+      },
+      {
+        "label": "Språkendring",
+        "children": [
+          {
+            "label": "Lånord"
+          },
+          {
+            "label": "Språkrådet"
+          },
+          {
+            "label": "Domenetap"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Norsk, svensk og dansk er i stor grad gjensidig forståelige.", "correct": true, "explain": "De er nært beslektede skandinaviske språk." },
-      { "id": "m02", "type": "sant-usant", "text": "Kvensk er et germansk språk.", "correct": false, "explain": "Kvensk er et finsk-ugrisk språk." },
-      { "id": "m03", "type": "sant-usant", "text": "Språkrådet foreslår ofte norske erstatningsord for engelske lånord.", "correct": true, "explain": "Et eksempel er «strømme» for «streame»." },
-      { "id": "m04", "type": "sant-usant", "text": "I engelsk står verbet alltid på andre plass etter et adverbial først i setningen.", "correct": false, "explain": "Engelsk sier «Today it rains», med subjektet før verbet." },
-      { "id": "m05", "type": "flervalg", "text": "Når var dansketiden?", "options": ["800–1066", "1380–1814", "1814–1905", "1905–1945"], "correct": 1, "explain": "I denne perioden ble dansk skriftspråket i Norge." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket ord er et fransk lånord?", "options": ["sjåfør", "betale", "chille", "skole"], "correct": 0, "explain": "Skrivemåten er fornorsket fra «chauffeur»." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «wolla» i multietnolekt?", "options": ["Hei", "Se", "Jeg sverger", "Takk"], "correct": 2, "explain": "Ordet brukes for å forsterke at noe er sant." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Norsk, svensk og dansk er i stor grad gjensidig forståelige.",
+        "correct": true,
+        "explain": "De er nært beslektede skandinaviske språk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kvensk er et germansk språk.",
+        "correct": false,
+        "explain": "Kvensk er et finsk-ugrisk språk."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Språkrådet foreslår ofte norske erstatningsord for engelske lånord.",
+        "correct": true,
+        "explain": "Et eksempel er «strømme» for «streame»."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "I engelsk står verbet alltid på andre plass etter et adverbial først i setningen.",
+        "correct": false,
+        "explain": "Engelsk sier «Today it rains», med subjektet før verbet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Når var dansketiden?",
+        "options": [
+          "800–1066",
+          "1380–1814",
+          "1814–1905",
+          "1905–1945"
+        ],
+        "correct": 1,
+        "explain": "I denne perioden ble dansk skriftspråket i Norge."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket ord er et fransk lånord?",
+        "options": [
+          "sjåfør",
+          "betale",
+          "chille",
+          "skole"
+        ],
+        "correct": 0,
+        "explain": "Skrivemåten er fornorsket fra «chauffeur»."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «wolla» i multietnolekt?",
+        "options": [
+          "Hei",
+          "Se",
+          "Jeg sverger",
+          "Takk"
+        ],
+        "correct": 2,
+        "explain": "Ordet brukes for å forsterke at noe er sant."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Norsk, svensk og dansk er i stor grad gjensidig forståelige, mens islandsk og færøysk er vanskeligere for nordmenn å forstå. Forklar hva «gjensidig forståelige språk» betyr, og ta med denne forskjellen.",
+        "fasit": "Gjensidig forståelige språk er språk der brukerne i stor grad forstår hverandre. Norsk, svensk og dansk er slike språk, mens islandsk og færøysk er vanskeligere for nordmenn å forstå.",
+        "kriterier": [
+          "Forklarer at brukerne av språkene forstår hverandre.",
+          "Får fram forskjellen mellom norsk, svensk og dansk på den ene siden og islandsk og færøysk på den andre."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Ord som «skole» og «tavle» kom inn i norsk fra latin og gresk. Forklar hvilken historisk sammenheng som bidro til denne påvirkningen.",
+        "fasit": "Latin og gresk påvirket norsk gjennom kristendommen og lærdommen i middelalderen og senere. Dette førte blant annet til at ord som «skole» og «tavle» kom inn i språket.",
+        "kriterier": [
+          "Knytter påvirkningen til kristendommen og lærdommen.",
+          "Plasserer påvirkningen i middelalderen og senere."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev skriver «I dag det regner». Skriv setningen med norsk V2-ordstilling, og forklar kort hva regelen går ut på.",
+        "fasit": "Setningen skal være «I dag regner det». I helsetninger står verbal på andre plass, så verbet kommer etter «I dag».",
+        "kriterier": [
+          "Retter setningen til «I dag regner det».",
+          "Forklarer at verbal står på andre plass i helsetningen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Ordet «sjåfør» er et lånord fra fransk. Forklar hva dette eksempelet viser om hvordan franske ord kan bli en del av norsk.",
+        "fasit": "«Sjåfør» viser at norsk har fått lånord fra fransk. Ordet har fått en fornorsket skrivemåte.",
+        "kriterier": [
+          "Slår fast at «sjåfør» er et fransk lånord.",
+          "Får fram at ordet har fått en fornorsket skrivemåte."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I en by blander en talemåte trekk fra norsk og andre språk. En person skifter også mellom ulike måter å snakke på etter hvem hen snakker med. Forklar hvilket begrep som passer til hver av de to situasjonene.",
+        "fasit": "Talemåten som blander trekk fra norsk og andre språk, er en multietnolekt. Å skifte mellom ulike måter å snakke på etter hvem man snakker med, er å kodeveksle.",
+        "kriterier": [
+          "Knytter blanding av trekk fra norsk og andre språk til multietnolekt.",
+          "Knytter skifte mellom talemåter etter hvem man snakker med til kodeveksling."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev lurer på hva Språkrådet kan gjøre når engelske lånord blir brukt på norsk. Forklar hvilken rolle Språkrådet har, og nevn hva slags forslag det ofte gir.",
+        "fasit": "Språkrådet er statens fagorgan for norsk språk. Det gir råd om norsk og foreslår ofte norske erstatningsord for engelske lånord.",
+        "kriterier": [
+          "Forklarer at Språkrådet er statens fagorgan for norsk språk og gir språkråd.",
+          "Får fram at det ofte foreslår norske erstatningsord for engelske lånord."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Tenk deg at engelsk i stor grad blir brukt i stedet for norsk i høyere utdanning. Forklar hvilken bekymring dette kan gi for norsk, og bruk det relevante fagbegrepet.",
+        "fasit": "Dette kan føre til at norsk mister terreng innenfor høyere utdanning. Når et språk mister terreng til et annet på et samfunnsområde, kalles det domenetap.",
+        "kriterier": [
+          "Forklarer at norsk kan miste terreng til engelsk på området høyere utdanning.",
+          "Bruker begrepet domenetap om denne utviklingen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En elev mener at norsk, samisk og kvensk tilhører samme språkfamilie fordi språkene brukes i Norge. Korriger påstanden ved å plassere norsk, samiske språk og kvensk i språkfamiliene deres.",
+        "fasit": "Norsk tilhører den germanske grenen av den indoeuropeiske språkfamilien. Samiske språk og kvensk er finsk-ugriske, eller uralske, språk.",
+        "kriterier": [
+          "Plasserer norsk i den germanske grenen av den indoeuropeiske språkfamilien.",
+          "Plasserer både samiske språk og kvensk i den finsk-ugriske eller uralske språkfamilien."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Mineraler, bergarter og sedimenter",
   "intro": "Hva mineraler er og hvordan du kjenner dem igjen, de viktigste mineralgruppene, magmatiske, sedimentære og metamorfe bergarter, kornstørrelser i sedimenter og bergartssyklusen.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Mineraler\n\nEt **mineral** er et naturlig, fast og uorganisk stoff med en bestemt **kjemisk sammensetning** og en ordnet **krystallstruktur**. Bergarter er bygd opp av ett eller flere mineraler.\n\n### Mineralgrupper\n\n- **Silikater** – bygd av silisium og oksygen. De utgjør det meste av jordskorpa. Eksempler: **kvarts**, **feltspat**, **glimmer**, olivin.\n- **Karbonater** – for eksempel **kalkspat** (CaCO₃).\n- **Oksider** – for eksempel magnetitt og hematitt (jernmalm).\n- **Sulfider** – for eksempel kobberkis og blyglans.\n- **Halogenider** – for eksempel steinsalt.\n- **Grunnstoffer** – for eksempel gull og grafitt.\n\n### Å kjenne igjen mineraler\n\n- **Hardhet** etter **Mohs skala** fra 1 (talk) til 10 (diamant). Kvarts har hardhet 7 og riper glass.\n- **Glans**, **farge** og **strekfarge** – fargen på pulveret når mineralet gnis mot uglasert porselen.\n- **Spaltning**: Glimmer kan flakes i tynne blad.\n- **Syretest**: Kalkspat **bruser** i fortynnet saltsyre.\n\n## Tre bergartsgrupper\n\n**Magmatiske bergarter** dannes når **magma** størkner.\n\n- **Dypbergarter** størkner **langsomt** dypt i jorda og får **store krystaller**: **granitt** (lys) og **gabbro** (mørk). Norges nasjonalbergart, **larvikitt**, er en dypbergart.\n- **Dagbergarter** størkner **raskt** på overflaten og blir **finkornede**: **basalt**.\n\n**Sedimentære bergarter** dannes av **sedimenter** som avsettes i **lag**, presses sammen og sementeres.\n\n- **Sandstein**, **leirskifer** og **konglomerat** av bergartsbiter.\n- **Kalkstein**, ofte av skall fra organismer.\n- Her finner vi **fossiler**.\n\n**Metamorfe bergarter** dannes når eksisterende bergarter **omdannes** av høyt **trykk** og høy **temperatur** – uten å smelte.\n\n- Granitt kan bli til **gneis**, som er båndet. Gneis er svært vanlig i Norge.\n- Kalkstein blir til **marmor**.\n- Sandstein blir til **kvartsitt**, og leirskifer til **glimmerskifer**.\n\n## Sedimenter og kornstørrelse\n\nSedimenter deles inn etter **kornstørrelse**:\n\n- **leire**: under 0,002 mm\n- **silt**: 0,002–0,06 mm\n- **sand**: 0,06–2 mm\n- **grus**: 2–64 mm\n- **stein** og **blokk**: større\n\nJo **raskere** vannet renner, desto **større** korn kan det frakte. Derfor avsettes grus i strie elver og leire i rolig vann. Sedimenter som er **sortert** etter størrelse, forteller at vann har fraktet dem; **usorterte** sedimenter er ofte avsatt av is.\n\n## Bergartssyklusen\n\nBergartene er del av et evig **kretsløp**:\n\n1. **Magma** størkner til magmatiske bergarter.\n2. Bergartene **forvitres** og **eroderes** til sedimenter.\n3. Sedimentene blir til **sedimentære bergarter**.\n4. Ved **fjellkjededannelse** eller **begravning** omdannes de til **metamorfe bergarter**.\n5. Hvis temperaturen blir høy nok, **smelter** de og blir magma igjen.\n\nSyklusen kan ta **snarveier** – for eksempel kan en granitt forvitre direkte, eller en metamorf bergart løftes opp og eroderes. **Platetektonikken** holder syklusen i gang.",
   "flashcards": [
-    { "term": "Mineral", "def": "Naturlig, fast, uorganisk stoff med bestemt sammensetning og krystallstruktur." },
-    { "term": "Silikater", "def": "Mineraler av silisium og oksygen – det meste av jordskorpa." },
-    { "term": "Mohs skala", "def": "Hardhetsskala fra 1 (talk) til 10 (diamant)." },
-    { "term": "Strekfarge", "def": "Fargen på mineralpulveret mot uglasert porselen." },
-    { "term": "Syretest", "def": "Kalkspat bruser i fortynnet saltsyre." },
-    { "term": "Dypbergart", "def": "Magmatisk bergart som størkner langsomt og får store krystaller." },
-    { "term": "Dagbergart", "def": "Magmatisk bergart som størkner raskt og blir finkornet." },
-    { "term": "Granitt", "def": "Lys dypbergart av kvarts, feltspat og glimmer." },
-    { "term": "Basalt", "def": "Mørk, finkornet dagbergart." },
-    { "term": "Larvikitt", "def": "Norges nasjonalbergart – en dypbergart." },
-    { "term": "Sedimentær bergart", "def": "Dannet av sedimenter i lag, ofte med fossiler." },
-    { "term": "Metamorf bergart", "def": "Omdannet av trykk og temperatur uten å smelte." },
-    { "term": "Gneis", "def": "Båndet metamorf bergart, svært vanlig i Norge." },
-    { "term": "Sand", "def": "Kornstørrelse 0,06–2 mm." },
-    { "term": "Leire", "def": "Kornstørrelse under 0,002 mm." },
-    { "term": "Bergartssyklusen", "def": "Kretsløpet mellom magmatiske, sedimentære og metamorfe bergarter." }
+    {
+      "term": "Mineral",
+      "def": "Naturlig, fast, uorganisk stoff med bestemt sammensetning og krystallstruktur."
+    },
+    {
+      "term": "Silikater",
+      "def": "Mineraler av silisium og oksygen – det meste av jordskorpa."
+    },
+    {
+      "term": "Mohs skala",
+      "def": "Hardhetsskala fra 1 (talk) til 10 (diamant)."
+    },
+    {
+      "term": "Strekfarge",
+      "def": "Fargen på mineralpulveret mot uglasert porselen."
+    },
+    {
+      "term": "Syretest",
+      "def": "Kalkspat bruser i fortynnet saltsyre."
+    },
+    {
+      "term": "Dypbergart",
+      "def": "Magmatisk bergart som størkner langsomt og får store krystaller."
+    },
+    {
+      "term": "Dagbergart",
+      "def": "Magmatisk bergart som størkner raskt og blir finkornet."
+    },
+    {
+      "term": "Granitt",
+      "def": "Lys dypbergart av kvarts, feltspat og glimmer."
+    },
+    {
+      "term": "Basalt",
+      "def": "Mørk, finkornet dagbergart."
+    },
+    {
+      "term": "Larvikitt",
+      "def": "Norges nasjonalbergart – en dypbergart."
+    },
+    {
+      "term": "Sedimentær bergart",
+      "def": "Dannet av sedimenter i lag, ofte med fossiler."
+    },
+    {
+      "term": "Metamorf bergart",
+      "def": "Omdannet av trykk og temperatur uten å smelte."
+    },
+    {
+      "term": "Gneis",
+      "def": "Båndet metamorf bergart, svært vanlig i Norge."
+    },
+    {
+      "term": "Sand",
+      "def": "Kornstørrelse 0,06–2 mm."
+    },
+    {
+      "term": "Leire",
+      "def": "Kornstørrelse under 0,002 mm."
+    },
+    {
+      "term": "Bergartssyklusen",
+      "def": "Kretsløpet mellom magmatiske, sedimentære og metamorfe bergarter."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken mineralgruppe utgjør det meste av jordskorpa?", "options": ["Karbonater", "Silikater", "Sulfider", "Halogenider"], "correct": 1, "explain": "Kvarts og feltspat er silikater." },
-    { "id": "q02", "text": "Hvorfor har granitt store krystaller?", "options": ["Den størknet langsomt dypt i jorda", "Den størknet raskt på overflaten", "Den er dannet av sedimenter", "Den er omdannet av trykk"], "correct": 0, "explain": "Krystallene fikk tid til å vokse." },
-    { "id": "q03", "text": "Hva blir kalkstein til ved metamorfose?", "options": ["Gneis", "Kvartsitt", "Marmor", "Basalt"], "correct": 2, "explain": "Kalkspaten krystalliserer om." },
-    { "id": "q04", "text": "Hvilket mineral bruser i fortynnet saltsyre?", "options": ["Kvarts", "Glimmer", "Feltspat", "Kalkspat"], "correct": 3, "explain": "Karbonatet frigjør CO₂." },
-    { "id": "q05", "text": "Hvilken bergartsgruppe kan inneholde fossiler?", "options": ["Sedimentære bergarter", "Dypbergarter", "Dagbergarter", "Ingen"], "correct": 0, "explain": "Organismer blir begravd i sedimentene." },
-    { "id": "q06", "text": "Hva er kornstørrelsen til sand?", "options": ["Under 0,002 mm", "0,06–2 mm", "2–64 mm", "Over 64 mm"], "correct": 1, "explain": "Mindre korn er silt og leire." },
-    { "id": "q07", "text": "Hva forteller usorterte sedimenter ofte?", "options": ["At de er avsatt i rolig vann", "At de er avsatt av vind", "At de er avsatt av is", "At de er magmatiske"], "correct": 2, "explain": "Isen avsetter alle størrelser om hverandre." },
-    { "id": "q08", "text": "Hvilken hardhet har kvarts på Mohs skala?", "options": ["1", "3", "10", "7"], "correct": 3, "explain": "Kvarts riper glass." },
-    { "id": "q09", "text": "Hva er gneis?", "options": ["En båndet metamorf bergart", "En finkornet dagbergart", "En sedimentær bergart", "Et mineral"], "correct": 0, "explain": "Svært vanlig i Norge." },
-    { "id": "q10", "text": "Hva skjer i bergartssyklusen når en bergart smelter?", "options": ["Den blir til sediment", "Den blir magma som senere kan størkne til en magmatisk bergart", "Den blir marmor", "Den forsvinner"], "correct": 1, "explain": "Syklusen starter på nytt." }
+    {
+      "id": "q01",
+      "text": "Hvilken mineralgruppe utgjør det meste av jordskorpa?",
+      "options": [
+        "Karbonater",
+        "Silikater",
+        "Sulfider",
+        "Halogenider"
+      ],
+      "correct": 1,
+      "explain": "Kvarts og feltspat er silikater."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor har granitt store krystaller?",
+      "options": [
+        "Den størknet langsomt dypt i jorda",
+        "Den størknet raskt på overflaten",
+        "Den er dannet av sedimenter",
+        "Den er omdannet av trykk"
+      ],
+      "correct": 0,
+      "explain": "Krystallene fikk tid til å vokse."
+    },
+    {
+      "id": "q03",
+      "text": "Hva blir kalkstein til ved metamorfose?",
+      "options": [
+        "Gneis",
+        "Kvartsitt",
+        "Marmor",
+        "Basalt"
+      ],
+      "correct": 2,
+      "explain": "Kalkspaten krystalliserer om."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket mineral bruser i fortynnet saltsyre?",
+      "options": [
+        "Kvarts",
+        "Glimmer",
+        "Feltspat",
+        "Kalkspat"
+      ],
+      "correct": 3,
+      "explain": "Karbonatet frigjør CO₂."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken bergartsgruppe kan inneholde fossiler?",
+      "options": [
+        "Sedimentære bergarter",
+        "Dypbergarter",
+        "Dagbergarter",
+        "Ingen"
+      ],
+      "correct": 0,
+      "explain": "Organismer blir begravd i sedimentene."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er kornstørrelsen til sand?",
+      "options": [
+        "Under 0,002 mm",
+        "0,06–2 mm",
+        "2–64 mm",
+        "Over 64 mm"
+      ],
+      "correct": 1,
+      "explain": "Mindre korn er silt og leire."
+    },
+    {
+      "id": "q07",
+      "text": "Hva forteller usorterte sedimenter ofte?",
+      "options": [
+        "At de er avsatt i rolig vann",
+        "At de er avsatt av vind",
+        "At de er avsatt av is",
+        "At de er magmatiske"
+      ],
+      "correct": 2,
+      "explain": "Isen avsetter alle størrelser om hverandre."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken hardhet har kvarts på Mohs skala?",
+      "options": [
+        "1",
+        "3",
+        "10",
+        "7"
+      ],
+      "correct": 3,
+      "explain": "Kvarts riper glass."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er gneis?",
+      "options": [
+        "En båndet metamorf bergart",
+        "En finkornet dagbergart",
+        "En sedimentær bergart",
+        "Et mineral"
+      ],
+      "correct": 0,
+      "explain": "Svært vanlig i Norge."
+    },
+    {
+      "id": "q10",
+      "text": "Hva skjer i bergartssyklusen når en bergart smelter?",
+      "options": [
+        "Den blir til sediment",
+        "Den blir magma som senere kan størkne til en magmatisk bergart",
+        "Den blir marmor",
+        "Den forsvinner"
+      ],
+      "correct": 1,
+      "explain": "Syklusen starter på nytt."
+    }
   ],
   "mindmap": {
     "label": "Mineraler og bergarter",
     "children": [
-      { "label": "Mineraler", "children": [
-        { "label": "Silikater" },
-        { "label": "Karbonater og oksider" },
-        { "label": "Sulfider og grunnstoffer" }
-      ] },
-      { "label": "Identifisering", "children": [
-        { "label": "Hardhet" },
-        { "label": "Strek og glans" },
-        { "label": "Syretest" }
-      ] },
-      { "label": "Bergarter", "children": [
-        { "label": "Magmatiske" },
-        { "label": "Sedimentære" },
-        { "label": "Metamorfe" }
-      ] },
-      { "label": "Sedimenter", "children": [
-        { "label": "Leire, silt, sand, grus" },
-        { "label": "Sortert og usortert" }
-      ] },
-      { "label": "Bergartssyklusen", "children": [
-        { "label": "Størkning" },
-        { "label": "Forvitring og avsetning" },
-        { "label": "Omdanning og smelting" }
-      ] }
+      {
+        "label": "Mineraler",
+        "children": [
+          {
+            "label": "Silikater"
+          },
+          {
+            "label": "Karbonater og oksider"
+          },
+          {
+            "label": "Sulfider og grunnstoffer"
+          }
+        ]
+      },
+      {
+        "label": "Identifisering",
+        "children": [
+          {
+            "label": "Hardhet"
+          },
+          {
+            "label": "Strek og glans"
+          },
+          {
+            "label": "Syretest"
+          }
+        ]
+      },
+      {
+        "label": "Bergarter",
+        "children": [
+          {
+            "label": "Magmatiske"
+          },
+          {
+            "label": "Sedimentære"
+          },
+          {
+            "label": "Metamorfe"
+          }
+        ]
+      },
+      {
+        "label": "Sedimenter",
+        "children": [
+          {
+            "label": "Leire, silt, sand, grus"
+          },
+          {
+            "label": "Sortert og usortert"
+          }
+        ]
+      },
+      {
+        "label": "Bergartssyklusen",
+        "children": [
+          {
+            "label": "Størkning"
+          },
+          {
+            "label": "Forvitring og avsetning"
+          },
+          {
+            "label": "Omdanning og smelting"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Metamorfe bergarter dannes uten at bergarten smelter.", "correct": true, "explain": "Trykk og temperatur omdanner mineralene." },
-      { "id": "m02", "type": "sant-usant", "text": "Basalt er en grovkornet dypbergart.", "correct": false, "explain": "Basalt er en finkornet dagbergart." },
-      { "id": "m03", "type": "sant-usant", "text": "Raskt rennende vann kan frakte større korn enn sakte rennende vann.", "correct": true, "explain": "Derfor avsettes leire i rolig vann." },
-      { "id": "m04", "type": "sant-usant", "text": "Diamant er det mykeste mineralet på Mohs skala.", "correct": false, "explain": "Diamant er det hardeste; talk er det mykeste." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er Norges nasjonalbergart?", "options": ["Gneis", "Larvikitt", "Marmor", "Sandstein"], "correct": 1, "explain": "En dypbergart fra Vestfold." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket mineral kan flakes i tynne blad?", "options": ["Glimmer", "Kvarts", "Kalkspat", "Magnetitt"], "correct": 0, "explain": "Det har god spaltning i én retning." },
-      { "id": "m07", "type": "flervalg", "text": "Hva blir sandstein til ved metamorfose?", "options": ["Marmor", "Gneis", "Kvartsitt", "Granitt"], "correct": 2, "explain": "Kvartskornene vokser sammen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Metamorfe bergarter dannes uten at bergarten smelter.",
+        "correct": true,
+        "explain": "Trykk og temperatur omdanner mineralene."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Basalt er en grovkornet dypbergart.",
+        "correct": false,
+        "explain": "Basalt er en finkornet dagbergart."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Raskt rennende vann kan frakte større korn enn sakte rennende vann.",
+        "correct": true,
+        "explain": "Derfor avsettes leire i rolig vann."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Diamant er det mykeste mineralet på Mohs skala.",
+        "correct": false,
+        "explain": "Diamant er det hardeste; talk er det mykeste."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er Norges nasjonalbergart?",
+        "options": [
+          "Gneis",
+          "Larvikitt",
+          "Marmor",
+          "Sandstein"
+        ],
+        "correct": 1,
+        "explain": "En dypbergart fra Vestfold."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket mineral kan flakes i tynne blad?",
+        "options": [
+          "Glimmer",
+          "Kvarts",
+          "Kalkspat",
+          "Magnetitt"
+        ],
+        "correct": 0,
+        "explain": "Det har god spaltning i én retning."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva blir sandstein til ved metamorfose?",
+        "options": [
+          "Marmor",
+          "Gneis",
+          "Kvartsitt",
+          "Granitt"
+        ],
+        "correct": 2,
+        "explain": "Kvartskornene vokser sammen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva et mineral er. Ta med hva slags stoff det er, og hva som kjennetegner sammensetningen og strukturen.",
+        "fasit": "Et mineral er et naturlig, fast og uorganisk stoff. Det har en bestemt kjemisk sammensetning og en ordnet krystallstruktur.",
+        "kriterier": [
+          "Beskriver mineralet som naturlig, fast og uorganisk.",
+          "Får fram at det har bestemt kjemisk sammensetning og ordnet krystallstruktur."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign silikater og karbonater ved å forklare hva som kjennetegner hvert mineralgruppe. Nevn ett eksempel på en karbonat.",
+        "fasit": "Silikater er bygd av silisium og oksygen, og utgjør det meste av jordskorpa. Karbonater er en annen mineralgruppe, og kalkspat er et eksempel.",
+        "kriterier": [
+          "Forklarer at silikater består av silisium og oksygen.",
+          "Nevner kalkspat som et eksempel på et karbonat."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Du skal undersøke strekfargen til et mineral. Beskriv hvordan du gjør testen, og hva strekfargen forteller deg.",
+        "fasit": "Gni mineralet mot uglasert porselen, slik at det blir igjen pulver. Strekfargen er fargen på dette pulveret.",
+        "kriterier": [
+          "Beskriver at mineralet gnis mot uglasert porselen.",
+          "Forklarer at strekfargen er fargen på mineralpulveret."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En bergart blir utsatt for høyt trykk og høy temperatur mens den forblir fast. Hvilken type omdanning beskriver dette, og hvorfor er bergarten ikke magmatisk?",
+        "fasit": "Bergarten gjennomgår metamorfose og blir metamorf. Den er ikke magmatisk fordi den er omdannet uten å smelte.",
+        "kriterier": [
+          "Knytter omdanningen ved høyt trykk og høy temperatur til metamorfe bergarter.",
+          "Forklarer at bergarten ikke smelter."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En elv renner først raskt og blir deretter roligere. Forklar hva som sannsynligvis skjer med grus og leire når vannstrømmen avtar.",
+        "fasit": "Når vannet blir roligere, avsettes grus fordi den raske strømmen ikke lenger kan frakte de større kornene. Leire avsettes i rolig vann.",
+        "kriterier": [
+          "Forklarer at raskere vann kan frakte større korn enn roligere vann.",
+          "Knytter avsetning av grus til at strømmen avtar, og leire til rolig vann."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En sedimentprøve inneholder korn på 6 mm og 0,03 mm. Grus er 2–64 mm, og silt er 0,002–0,06 mm. Hvor mange ganger større er det største kornet enn det minste, og hvilken sedimentklasse tilhører hvert korn? Vis det viktigste regnestykket.",
+        "fasit": "Det største kornet er grus, og det minste er silt. Forholdet er 6 ÷ 0,03 = 200, så det største kornet er 200 ganger større.",
+        "kriterier": [
+          "Klassifiserer 6 mm som grus og 0,03 mm som silt.",
+          "Viser eller forklarer regnestykket som gir forholdet 200."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Mohs skala går fra talk med hardhet 1 til diamant med hardhet 10. Hvor stor er forskjellen mellom hardhetstallene? Vis utregningen.",
+        "fasit": "Forskjellen er 10 − 1 = 9.",
+        "kriterier": [
+          "Trekker hardhetstallet til talk fra hardhetstallet til diamant.",
+          "Får svaret 9."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En granitt ved jordoverflaten forvitrer og eroderes. Beskriv hvilke prosesser som kan føre materialet videre fram til en sedimentær bergart.",
+        "fasit": "Granitten brytes ned til sedimenter som avsettes i lag. Lagene presses sammen og sementeres, slik at det dannes en sedimentær bergart.",
+        "kriterier": [
+          "Forklarer at forvitring og erosjon danner sedimenter.",
+          "Får fram at sedimentene avsettes i lag, presses sammen og sementeres."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Demokrati og rettigheter i Sápmi",
   "intro": "Samenes stilling som urfolk i Norge – fra fornorskingspolitikken og Alta-saken til Grunnloven § 108, sameloven, Sametinget, ILO-konvensjon 169, SP artikkel 27, Finnmarksloven og konsultasjonsplikten – og hvordan Fosen-dommen viser at menneskerettighetene verner samisk kultur.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Samene som urfolk\n\nSamene er et **urfolk** med tradisjonelle bosettingsområder i **Norge**, **Sverige**, **Finland** og **Russland** – til sammen kalt **Sápmi** (på sørsamisk **Saepmie**, på lulesamisk **Sábme**). Som urfolk har samene rett til å **bevare og utvikle** sitt språk, sin kultur og sitt samfunnsliv.\n\n**Kvener/norskfinner**, **skogfinner**, **jøder**, **rom** og **romanifolk/tatere** er **nasjonale minoriteter** med egne rettigheter, men de har ikke status som urfolk.\n\n## Fra fornorsking til rettigheter\n\nFra midten av **1800-tallet** og langt ut på **1900-tallet** førte staten en **fornorskingspolitikk**. Samisk språk ble fortrengt i skolen, og regler om blant annet **jordkjøp** stilte krav om norskkunnskaper. **Sannhets- og forsoningskommisjonen** la fram sin rapport i **2023** og dokumenterte urett og langvarige virkninger.\n\n**Alta-saken** rundt **1980** ble et vendepunkt. Den førte til **Samerettsutvalget** og en rekke rettslige endringer:\n\n- **Sameloven** (1987)\n- En egen grunnlovsbestemmelse i **1988**, i dag **Grunnloven § 108**: Staten skal legge forholdene til rette for at det samiske folk kan sikre og utvikle sitt **språk**, sin **kultur** og sitt **samfunnsliv**.\n- **Sametinget**, som åpnet i **1989**\n\n## Sametinget og samisk demokrati\n\n**Sametinget** er samenes folkevalgte organ. Valg holdes samtidig med **stortingsvalget**, og for å stemme må man stå i **samemanntallet**. Sametinget har **egne oppgaver** innen blant annet språk, kultur og næringsutvikling, og gir **råd** til staten i saker som angår samene.\n\n## Internasjonale rettigheter\n\n- **ILO-konvensjon nr. 169** om urfolk: Norge var i **1990** det første landet som ratifiserte den. Den gir blant annet rett til **konsultasjoner** og rettigheter til **land og ressurser**.\n- **SP artikkel 27**: Minoriteter har rett til å utøve sin **kultur**. For samene omfatter dette **reindrift** og andre tradisjonelle næringer. Retten er gjort til norsk lov gjennom **menneskerettsloven**.\n- FNs **urfolkserklæring** (2007) er ikke bindende, men har stor politisk vekt.\n\n## Land og ressurser\n\n**Finnmarksloven** (2005) overførte om lag 95 % av arealet i Finnmark til **Finnmarkseiendommen**, som styres av representanter fra Sametinget og fylket. **Finnmarkskommisjonen** kartlegger bruks- og eierrettigheter, og **Utmarksdomstolen** avgjør tvister.\n\n## Konsultasjonsplikt\n\nStatlige, fylkeskommunale og kommunale myndigheter har plikt til å **konsultere** Sametinget og andre berørte samiske interesser i saker som kan **påvirke samiske interesser direkte**. Plikten er lovfestet i **sameloven**. Konsultasjonene skal skje i **god tro** med mål om **enighet**.\n\n## Fosen-dommen\n\nI **2021** kom **Høyesterett** i **storkammer** fram til at konsesjonene til to vindkraftverk på **Fosen** var **ugyldige**. Utbyggingen krenket reindriftssamenes rett til **kulturutøvelse** etter **SP artikkel 27**, fordi den truet muligheten til å drive reindrift i området.\n\nTurbinene ble likevel stående i lang tid etter dommen. Det førte til **protestaksjoner**, blant annet ved departementene i Oslo, og en debatt om hvordan staten følger opp **menneskerettsbrudd**. I desember 2023 og mars 2024 ble det inngått **avtaler** med de to berørte reindriftsgruppene: Turbinene blir stående, mens reindrifta får kompensasjon og nye vinterbeiter.\n\n## Drøfting\n\nSamiske rettighetssaker handler ofte om å **veie** hensyn mot hverandre – for eksempel **grønn energi** og **mineraler** mot **reindrift** og **kultur**. Spørsmålet er både **juridisk** – hva sier menneskerettighetene? – og **politisk** – hvordan bør flertallet ta hensyn til et urfolk?",
   "flashcards": [
-    { "term": "Urfolk", "def": "Folk med tilknytning til et område før dagens statsgrenser, med egen kultur og samfunnsliv." },
-    { "term": "Sápmi", "def": "Samenes tradisjonelle områder i Norge, Sverige, Finland og Russland." },
-    { "term": "Nasjonale minoriteter", "def": "Kvener/norskfinner, skogfinner, jøder, rom og romanifolk/tatere." },
-    { "term": "Fornorskingspolitikken", "def": "Statens politikk for å gjøre samer og kvener norske." },
-    { "term": "Sannhets- og forsoningskommisjonen", "def": "La fram rapport om fornorskingen i 2023." },
-    { "term": "Grunnloven § 108", "def": "Staten skal legge til rette for samisk språk, kultur og samfunnsliv." },
-    { "term": "Sametinget", "def": "Samenes folkevalgte organ – åpnet i 1989." },
-    { "term": "Samemanntallet", "def": "Registeret man må stå i for å stemme ved sametingsvalg." },
-    { "term": "ILO-konvensjon 169", "def": "Urfolkskonvensjon – Norge ratifiserte som første land i 1990." },
-    { "term": "SP artikkel 27", "def": "Minoriteters rett til å utøve sin kultur." },
-    { "term": "Finnmarksloven", "def": "Lov fra 2005 om land og ressurser i Finnmark." },
-    { "term": "Finnmarkseiendommen", "def": "Eier det meste av grunnen i Finnmark." },
-    { "term": "Konsultasjonsplikt", "def": "Plikt til å konsultere samiske interesser i saker som berører dem direkte." },
-    { "term": "Fosen-dommen", "def": "Høyesterett 2021: vindkraftkonsesjoner ugyldige på grunn av SP artikkel 27." },
-    { "term": "Alta-saken", "def": "Vendepunkt for samiske rettigheter rundt 1980." }
+    {
+      "term": "Urfolk",
+      "def": "Folk med tilknytning til et område før dagens statsgrenser, med egen kultur og samfunnsliv."
+    },
+    {
+      "term": "Sápmi",
+      "def": "Samenes tradisjonelle områder i Norge, Sverige, Finland og Russland."
+    },
+    {
+      "term": "Nasjonale minoriteter",
+      "def": "Kvener/norskfinner, skogfinner, jøder, rom og romanifolk/tatere."
+    },
+    {
+      "term": "Fornorskingspolitikken",
+      "def": "Statens politikk for å gjøre samer og kvener norske."
+    },
+    {
+      "term": "Sannhets- og forsoningskommisjonen",
+      "def": "La fram rapport om fornorskingen i 2023."
+    },
+    {
+      "term": "Grunnloven § 108",
+      "def": "Staten skal legge til rette for samisk språk, kultur og samfunnsliv."
+    },
+    {
+      "term": "Sametinget",
+      "def": "Samenes folkevalgte organ – åpnet i 1989."
+    },
+    {
+      "term": "Samemanntallet",
+      "def": "Registeret man må stå i for å stemme ved sametingsvalg."
+    },
+    {
+      "term": "ILO-konvensjon 169",
+      "def": "Urfolkskonvensjon – Norge ratifiserte som første land i 1990."
+    },
+    {
+      "term": "SP artikkel 27",
+      "def": "Minoriteters rett til å utøve sin kultur."
+    },
+    {
+      "term": "Finnmarksloven",
+      "def": "Lov fra 2005 om land og ressurser i Finnmark."
+    },
+    {
+      "term": "Finnmarkseiendommen",
+      "def": "Eier det meste av grunnen i Finnmark."
+    },
+    {
+      "term": "Konsultasjonsplikt",
+      "def": "Plikt til å konsultere samiske interesser i saker som berører dem direkte."
+    },
+    {
+      "term": "Fosen-dommen",
+      "def": "Høyesterett 2021: vindkraftkonsesjoner ugyldige på grunn av SP artikkel 27."
+    },
+    {
+      "term": "Alta-saken",
+      "def": "Vendepunkt for samiske rettigheter rundt 1980."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva sier Grunnloven § 108?", "options": ["At samisk er eneste offisielle språk", "At staten skal legge til rette for samisk språk, kultur og samfunnsliv", "At samer ikke kan stemme", "At Sametinget er lovgivende"], "correct": 1, "explain": "Innført i 1988 som § 110 a." },
-    { "id": "q02", "text": "Når åpnet Sametinget?", "options": ["1989", "1814", "1945", "2005"], "correct": 0, "explain": "Etter Alta-saken og sameloven." },
-    { "id": "q03", "text": "Hva verner SP artikkel 27?", "options": ["Retten til utdanning", "Retten til eiendom", "Minoriteters rett til å utøve sin kultur", "Ytringsfriheten"], "correct": 2, "explain": "Omfatter reindrift." },
-    { "id": "q04", "text": "Hvilket land ratifiserte ILO-konvensjon 169 først?", "options": ["Sverige", "Finland", "Russland", "Norge"], "correct": 3, "explain": "I 1990." },
-    { "id": "q05", "text": "Hva kom Høyesterett fram til i Fosen-saken?", "options": ["At vindkraftkonsesjonene var ugyldige fordi de krenket SP artikkel 27", "At reindrift ikke er kultur", "At staten skulle betale bøter til EU", "At turbinene var lovlige"], "correct": 0, "explain": "Storkammer i 2021." },
-    { "id": "q06", "text": "Hva gjør Finnmarksloven?", "options": ["Innfører samisk som skolespråk", "Overfører det meste av grunnen i Finnmark til Finnmarkseiendommen", "Oppretter Sametinget", "Forbyr reindrift"], "correct": 1, "explain": "Fra 2005." },
-    { "id": "q07", "text": "Hvem er en nasjonal minoritet, men ikke urfolk?", "options": ["Samene", "Nordmenn", "Kvener/norskfinner", "Inuitter på Grønland"], "correct": 2, "explain": "Også skogfinner, jøder, rom og romanifolk/tatere." },
-    { "id": "q08", "text": "Hva innebærer konsultasjonsplikten?", "options": ["At samer må betale skatt", "At Sametinget kan nedlegge veto", "At bare staten kan bestemme", "At myndighetene skal konsultere samiske interesser i saker som berører dem direkte"], "correct": 3, "explain": "I god tro med mål om enighet." },
-    { "id": "q09", "text": "Hva må man gjøre for å stemme ved sametingsvalg?", "options": ["Stå i samemanntallet", "Bo i Finnmark", "Snakke flytende samisk", "Eie reinsdyr"], "correct": 0, "explain": "Manntallet har egne kriterier." },
-    { "id": "q10", "text": "Hvilken sak regnes som et vendepunkt for samiske rettigheter?", "options": ["Fosen-saken", "Alta-saken", "Nürnbergprosessen", "Unionsoppløsningen"], "correct": 1, "explain": "Rundt 1980." }
+    {
+      "id": "q01",
+      "text": "Hva sier Grunnloven § 108?",
+      "options": [
+        "At samisk er eneste offisielle språk",
+        "At staten skal legge til rette for samisk språk, kultur og samfunnsliv",
+        "At samer ikke kan stemme",
+        "At Sametinget er lovgivende"
+      ],
+      "correct": 1,
+      "explain": "Innført i 1988 som § 110 a."
+    },
+    {
+      "id": "q02",
+      "text": "Når åpnet Sametinget?",
+      "options": [
+        "1989",
+        "1814",
+        "1945",
+        "2005"
+      ],
+      "correct": 0,
+      "explain": "Etter Alta-saken og sameloven."
+    },
+    {
+      "id": "q03",
+      "text": "Hva verner SP artikkel 27?",
+      "options": [
+        "Retten til utdanning",
+        "Retten til eiendom",
+        "Minoriteters rett til å utøve sin kultur",
+        "Ytringsfriheten"
+      ],
+      "correct": 2,
+      "explain": "Omfatter reindrift."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket land ratifiserte ILO-konvensjon 169 først?",
+      "options": [
+        "Sverige",
+        "Finland",
+        "Russland",
+        "Norge"
+      ],
+      "correct": 3,
+      "explain": "I 1990."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kom Høyesterett fram til i Fosen-saken?",
+      "options": [
+        "At vindkraftkonsesjonene var ugyldige fordi de krenket SP artikkel 27",
+        "At reindrift ikke er kultur",
+        "At staten skulle betale bøter til EU",
+        "At turbinene var lovlige"
+      ],
+      "correct": 0,
+      "explain": "Storkammer i 2021."
+    },
+    {
+      "id": "q06",
+      "text": "Hva gjør Finnmarksloven?",
+      "options": [
+        "Innfører samisk som skolespråk",
+        "Overfører det meste av grunnen i Finnmark til Finnmarkseiendommen",
+        "Oppretter Sametinget",
+        "Forbyr reindrift"
+      ],
+      "correct": 1,
+      "explain": "Fra 2005."
+    },
+    {
+      "id": "q07",
+      "text": "Hvem er en nasjonal minoritet, men ikke urfolk?",
+      "options": [
+        "Samene",
+        "Nordmenn",
+        "Kvener/norskfinner",
+        "Inuitter på Grønland"
+      ],
+      "correct": 2,
+      "explain": "Også skogfinner, jøder, rom og romanifolk/tatere."
+    },
+    {
+      "id": "q08",
+      "text": "Hva innebærer konsultasjonsplikten?",
+      "options": [
+        "At samer må betale skatt",
+        "At Sametinget kan nedlegge veto",
+        "At bare staten kan bestemme",
+        "At myndighetene skal konsultere samiske interesser i saker som berører dem direkte"
+      ],
+      "correct": 3,
+      "explain": "I god tro med mål om enighet."
+    },
+    {
+      "id": "q09",
+      "text": "Hva må man gjøre for å stemme ved sametingsvalg?",
+      "options": [
+        "Stå i samemanntallet",
+        "Bo i Finnmark",
+        "Snakke flytende samisk",
+        "Eie reinsdyr"
+      ],
+      "correct": 0,
+      "explain": "Manntallet har egne kriterier."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken sak regnes som et vendepunkt for samiske rettigheter?",
+      "options": [
+        "Fosen-saken",
+        "Alta-saken",
+        "Nürnbergprosessen",
+        "Unionsoppløsningen"
+      ],
+      "correct": 1,
+      "explain": "Rundt 1980."
+    }
   ],
   "mindmap": {
     "label": "Samiske rettigheter",
     "children": [
-      { "label": "Historie", "children": [
-        { "label": "Fornorsking" },
-        { "label": "Alta-saken" },
-        { "label": "Sannhetskommisjonen" }
-      ] },
-      { "label": "Nasjonal rett", "children": [
-        { "label": "Grunnloven § 108" },
-        { "label": "Sameloven" },
-        { "label": "Finnmarksloven" }
-      ] },
-      { "label": "Demokrati", "children": [
-        { "label": "Sametinget" },
-        { "label": "Samemanntallet" },
-        { "label": "Konsultasjoner" }
-      ] },
-      { "label": "Internasjonal rett", "children": [
-        { "label": "ILO 169" },
-        { "label": "SP artikkel 27" }
-      ] },
-      { "label": "Fosen", "children": [
-        { "label": "Høyesterett 2021" },
-        { "label": "Oppfølging og protester" }
-      ] }
+      {
+        "label": "Historie",
+        "children": [
+          {
+            "label": "Fornorsking"
+          },
+          {
+            "label": "Alta-saken"
+          },
+          {
+            "label": "Sannhetskommisjonen"
+          }
+        ]
+      },
+      {
+        "label": "Nasjonal rett",
+        "children": [
+          {
+            "label": "Grunnloven § 108"
+          },
+          {
+            "label": "Sameloven"
+          },
+          {
+            "label": "Finnmarksloven"
+          }
+        ]
+      },
+      {
+        "label": "Demokrati",
+        "children": [
+          {
+            "label": "Sametinget"
+          },
+          {
+            "label": "Samemanntallet"
+          },
+          {
+            "label": "Konsultasjoner"
+          }
+        ]
+      },
+      {
+        "label": "Internasjonal rett",
+        "children": [
+          {
+            "label": "ILO 169"
+          },
+          {
+            "label": "SP artikkel 27"
+          }
+        ]
+      },
+      {
+        "label": "Fosen",
+        "children": [
+          {
+            "label": "Høyesterett 2021"
+          },
+          {
+            "label": "Oppfølging og protester"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Sametingsvalg holdes samtidig med stortingsvalget.", "correct": true, "explain": "Hvert fjerde år." },
-      { "id": "m02", "type": "sant-usant", "text": "FNs urfolkserklæring er juridisk bindende for Norge.", "correct": false, "explain": "Den er ikke bindende, men har politisk vekt." },
-      { "id": "m03", "type": "sant-usant", "text": "Reindrift er vernet som samisk kulturutøvelse etter SP artikkel 27.", "correct": true, "explain": "Grunnlaget for Fosen-dommen." },
-      { "id": "m04", "type": "sant-usant", "text": "Fosen-turbinene ble revet dagen etter dommen.", "correct": false, "explain": "De ble stående lenge, noe som førte til protester." },
-      { "id": "m05", "type": "flervalg", "text": "Hva gjør Utmarksdomstolen?", "options": ["Dømmer i straffesaker", "Avgjør tvister om bruks- og eierrettigheter i Finnmark", "Velger Sametinget", "Gir vindkraftkonsesjoner"], "correct": 1, "explain": "Etter Finnmarksloven." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilke hensyn veies ofte mot hverandre i samiske rettighetssaker?", "options": ["Grønn energi og mineraler mot reindrift og kultur", "Skatt mot toll", "Skole mot helse", "Sport mot kultur"], "correct": 0, "explain": "Både juridisk og politisk." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken lov gjør SP artikkel 27 til norsk lov?", "options": ["Straffeloven", "Plan- og bygningsloven", "Menneskerettsloven", "Opplæringsloven"], "correct": 2, "explain": "Med forrang ved motstrid." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Sametingsvalg holdes samtidig med stortingsvalget.",
+        "correct": true,
+        "explain": "Hvert fjerde år."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "FNs urfolkserklæring er juridisk bindende for Norge.",
+        "correct": false,
+        "explain": "Den er ikke bindende, men har politisk vekt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Reindrift er vernet som samisk kulturutøvelse etter SP artikkel 27.",
+        "correct": true,
+        "explain": "Grunnlaget for Fosen-dommen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Fosen-turbinene ble revet dagen etter dommen.",
+        "correct": false,
+        "explain": "De ble stående lenge, noe som førte til protester."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva gjør Utmarksdomstolen?",
+        "options": [
+          "Dømmer i straffesaker",
+          "Avgjør tvister om bruks- og eierrettigheter i Finnmark",
+          "Velger Sametinget",
+          "Gir vindkraftkonsesjoner"
+        ],
+        "correct": 1,
+        "explain": "Etter Finnmarksloven."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilke hensyn veies ofte mot hverandre i samiske rettighetssaker?",
+        "options": [
+          "Grønn energi og mineraler mot reindrift og kultur",
+          "Skatt mot toll",
+          "Skole mot helse",
+          "Sport mot kultur"
+        ],
+        "correct": 0,
+        "explain": "Både juridisk og politisk."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken lov gjør SP artikkel 27 til norsk lov?",
+        "options": [
+          "Straffeloven",
+          "Plan- og bygningsloven",
+          "Menneskerettsloven",
+          "Opplæringsloven"
+        ],
+        "correct": 2,
+        "explain": "Med forrang ved motstrid."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva som kjennetegner samene som urfolk, og hvordan urfolksstatusen skiller seg fra statusen til nasjonale minoriteter.",
+        "fasit": "Samene har tilknytning til et område fra før dagens statsgrenser og har egen kultur og eget samfunnsliv. Nasjonale minoriteter har egne rettigheter, men har ikke status som urfolk.",
+        "kriterier": [
+          "Forklarer urfolk gjennom tilknytning til et område før dagens statsgrenser og egen kultur eller eget samfunnsliv.",
+          "Får fram at nasjonale minoriteter har egne rettigheter, men ikke urfolksstatus."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hvordan virket fornorskingspolitikken inn på samisk språk og samiske rettigheter? Ta med ett konkret eksempel på hvordan politikken ble gjennomført.",
+        "fasit": "Samisk språk ble fortrengt i skolen, og regler om blant annet jordkjøp stilte krav om norskkunnskaper. Dette var del av statens politikk for å gjøre samer og kvener norske.",
+        "kriterier": [
+          "Beskriver en konkret virkning eller et tiltak, for eksempel at samisk ble fortrengt i skolen eller at jordkjøp krevde norskkunnskaper.",
+          "Knytter eksempelet til statens fornorskingspolitikk."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Alta-saken rundt 1980 ble et vendepunkt for samiske rettigheter. Beskriv hvordan saken førte til endringer i det samiske rettighetsarbeidet.",
+        "fasit": "Alta-saken førte til at Samerettsutvalget ble opprettet og til flere rettslige endringer. Blant disse var sameloven, Grunnloven § 108 og opprettelsen av Sametinget.",
+        "kriterier": [
+          "Nevner at saken førte til Samerettsutvalget.",
+          "Nevner minst én rettslig eller institusjonell endring som fulgte, som sameloven, Grunnloven § 108 eller Sametinget."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign ILO-konvensjon nr. 169 og FNs urfolkserklæring når det gjelder rettslig status og innhold.",
+        "fasit": "ILO-konvensjon nr. 169 gir blant annet urfolk rett til konsultasjoner og rettigheter til land og ressurser. FNs urfolkserklæring er ikke bindende, men har stor politisk vekt.",
+        "kriterier": [
+          "Får fram at ILO-konvensjonen gir rettigheter, blant annet knyttet til konsultasjoner eller land og ressurser.",
+          "Får fram at urfolkserklæringen ikke er bindende, men har stor politisk vekt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En kommune vurderer et tiltak som kan påvirke samiske interesser direkte. Hva må kommunen gjøre overfor berørte samiske interesser, og hva skal konsultasjonene søke å oppnå?",
+        "fasit": "Kommunen har plikt til å konsultere Sametinget og andre berørte samiske interesser. Konsultasjonene skal skje i god tro og ha enighet som mål.",
+        "kriterier": [
+          "Slår fast at kommunen må konsultere Sametinget og andre berørte samiske interesser når saken kan påvirke dem direkte.",
+          "Får fram at konsultasjonene skal skje i god tro med mål om enighet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Finnmarkskommisjonen og Utmarksdomstolen har ulike oppgaver i arbeidet med rettigheter til land og bruk i Finnmark. Forklar forskjellen.",
+        "fasit": "Finnmarkskommisjonen kartlegger bruks- og eierrettigheter. Utmarksdomstolen avgjør tvister om slike rettigheter.",
+        "kriterier": [
+          "Forklarer at Finnmarkskommisjonen kartlegger bruks- og eierrettigheter.",
+          "Forklarer at Utmarksdomstolen avgjør tvister."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I Fosen-dommen slo Høyesterett fast at konsesjonene til to vindkraftverk var ugyldige. Forklar hvorfor utbyggingen krenket reindriftssamenes rettigheter etter SP artikkel 27.",
+        "fasit": "Utbyggingen truet muligheten til å drive reindrift i området. Reindrift er en del av samenes kulturutøvelse, som er vernet av SP artikkel 27.",
+        "kriterier": [
+          "Forklarer at vindkraftutbyggingen truet muligheten til å drive reindrift i området.",
+          "Knytter reindrift til kulturutøvelse og vernet i SP artikkel 27."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et prosjekt skal gi grønn energi, men kan komme i konflikt med reindrift og samisk kultur. Forklar hva som må vurderes juridisk, og hva den politiske avveiningen handler om.",
+        "fasit": "Juridisk må man vurdere hva menneskerettighetene sier om samiske rettigheter. Politisk handler avveiningen om hvordan flertallet skal ta hensyn til urfolket når hensyn som grønn energi settes opp mot reindrift og kultur.",
+        "kriterier": [
+          "Nevner at saken må vurderes opp mot menneskerettighetene og samiske rettigheter.",
+          "Forklarer den politiske avveiningen mellom for eksempel grønn energi og hensynet til reindrift, kultur eller urfolk."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

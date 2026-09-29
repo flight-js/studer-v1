@@ -4,78 +4,426 @@
   "trinnId": "vg2",
   "name": "Læring og læringsstrategier",
   "intro": "Behavioristiske, sosialkognitive, kognitive og sosiokulturelle perspektiver på læring – fra Pavlovs hunder til Vygotskijs proksimale utviklingssone – hva som hemmer og fremmer læring, og hvordan du kan vurdere dine egne læringsstrategier.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Hva er læring?\n\n**Læring** er en relativt **varig endring** i atferd eller kunnskap som skyldes **erfaring**. Psykologien har flere perspektiver på hvordan læring skjer.\n\n## Behavioristiske perspektiver\n\n**Klassisk betinging**: **Ivan Pavlov** oppdaget at hunder begynte å sikle når de hørte en lyd som pleide å komme før maten. En **nøytral stimulus** (lyden) blir koblet til en **ubetinget stimulus** (maten) og gir etter hvert en **betinget respons** (sikling). Slik kan også **fobier** oppstå. Hvis lyden gjentas uten mat, **slukkes** responsen.\n\n**Operant betinging**: **B.F. Skinner** viste at atferd styres av **konsekvensene**.\n\n- **Positiv forsterkning**: noe **behagelig** legges til – for eksempel ros – og atferden øker.\n- **Negativ forsterkning**: noe **ubehagelig** fjernes – for eksempel at maset stopper når du rydder – og atferden øker.\n- **Straff**: atferden **reduseres**.\n\n**Uforutsigbare** belønninger gir ofte svært **vedvarende** atferd. Det brukes i pengespill og i varsler på sosiale medier.\n\n## Sosialkognitiv læring\n\n**Albert Bandura** viste at vi lærer ved å **observere** andre – **modellæring**. I **Bobo-dukke-forsøket** slo barn dukken oftere etter å ha sett en voksen gjøre det. Modellæring krever **oppmerksomhet**, **hukommelse**, evne til å **gjøre** det samme og **motivasjon**.\n\n## Kognitive perspektiver\n\n**Jean Piaget** mente at barn aktivt **konstruerer** kunnskap. Ny informasjon tas inn i eksisterende **skjemaer** (**assimilasjon**), eller skjemaene **endres** når de ikke passer (**akkommodasjon**). Piaget beskrev fire **utviklingsstadier**, fra det **sensomotoriske** hos spedbarn til det **formelt operasjonelle**, der ungdom kan tenke **abstrakt**.\n\n## Sosiokulturelle perspektiver\n\n**Lev Vygotskij** mente at læring skjer i **samspill** med andre, og at **språket** er et viktig verktøy. Den **proksimale utviklingssonen** er avstanden mellom det eleven klarer **alene**, og det eleven klarer **med hjelp**. Gode lærere gir **stillas** – støtte som gradvis trekkes bort.\n\n## Hva fremmer og hemmer læring?\n\n**Fremmer**:\n\n- **motivasjon** og **mestringsopplevelser**\n- gode **relasjoner** og et trygt **læringsmiljø**\n- tydelige **mål** og **tilbakemeldinger**\n- **søvn**, **fysisk aktivitet** og **forkunnskaper**\n\n**Hemmer**:\n\n- **stress**, **prestasjonsangst** og **søvnmangel**\n- **forstyrrelser**, som mobilvarsler\n- **negative** forventninger til seg selv\n\n## Læringsstrategier\n\n- **Hukommelsesstrategier**: gjenta og **puge**. Nyttig for gloser og formler, men gir lite **forståelse** alene.\n- **Organiseringsstrategier**: **tankekart**, sammendrag og tabeller.\n- **Elaboreringsstrategier**: koble nytt stoff til det du **kan fra før**, og forklar det med **egne ord**.\n- **Metakognisjon**: å tenke over **egen** læring – «Hva kan jeg? Hva må jeg jobbe mer med?»\n\nForskning viser at **å teste seg selv** og **å spre** repetisjonen over tid virker bedre enn å lese om igjen. Ideen om faste **læringsstiler** – at noen bare lærer visuelt eller auditivt – har **lite** forskningsstøtte.\n\n## Vurdere egne strategier\n\nSpør deg selv: Husker jeg stoffet etter en uke? Kan jeg **forklare** det til andre? Klarer jeg å **bruke** det på nye oppgaver? Er svaret nei, kan det være lurt å bytte strategi.",
   "flashcards": [
-    { "term": "Læring", "def": "Relativt varig endring i atferd eller kunnskap som skyldes erfaring." },
-    { "term": "Klassisk betinging", "def": "En nøytral stimulus kobles til en ubetinget stimulus og gir en betinget respons." },
-    { "term": "Ivan Pavlov", "def": "Oppdaget klassisk betinging hos hunder." },
-    { "term": "Utslukking", "def": "Den betingede responsen forsvinner når koblingen opphører." },
-    { "term": "Operant betinging", "def": "Atferd styres av konsekvensene." },
-    { "term": "Positiv forsterkning", "def": "Noe behagelig legges til, og atferden øker." },
-    { "term": "Negativ forsterkning", "def": "Noe ubehagelig fjernes, og atferden øker." },
-    { "term": "Straff", "def": "En konsekvens som reduserer atferden." },
-    { "term": "Modellæring", "def": "Å lære ved å observere andre." },
-    { "term": "Bobo-dukke-forsøket", "def": "Banduras forsøk der barn etterlignet en voksens aggresjon." },
-    { "term": "Assimilasjon", "def": "Ny informasjon tas inn i eksisterende skjemaer." },
-    { "term": "Akkommodasjon", "def": "Skjemaene endres for å passe ny informasjon." },
-    { "term": "Proksimal utviklingssone", "def": "Det eleven klarer med hjelp, men ikke alene ennå." },
-    { "term": "Stillas", "def": "Støtte som gradvis trekkes bort når eleven mestrer mer." },
-    { "term": "Elaboreringsstrategi", "def": "Å koble nytt stoff til det man kan fra før." },
-    { "term": "Metakognisjon", "def": "Å tenke over egen tenkning og læring." },
-    { "term": "Læringsstiler", "def": "Idé om at folk lærer best visuelt eller auditivt – lite forskningsstøtte." }
+    {
+      "term": "Læring",
+      "def": "Relativt varig endring i atferd eller kunnskap som skyldes erfaring."
+    },
+    {
+      "term": "Klassisk betinging",
+      "def": "En nøytral stimulus kobles til en ubetinget stimulus og gir en betinget respons."
+    },
+    {
+      "term": "Ivan Pavlov",
+      "def": "Oppdaget klassisk betinging hos hunder."
+    },
+    {
+      "term": "Utslukking",
+      "def": "Den betingede responsen forsvinner når koblingen opphører."
+    },
+    {
+      "term": "Operant betinging",
+      "def": "Atferd styres av konsekvensene."
+    },
+    {
+      "term": "Positiv forsterkning",
+      "def": "Noe behagelig legges til, og atferden øker."
+    },
+    {
+      "term": "Negativ forsterkning",
+      "def": "Noe ubehagelig fjernes, og atferden øker."
+    },
+    {
+      "term": "Straff",
+      "def": "En konsekvens som reduserer atferden."
+    },
+    {
+      "term": "Modellæring",
+      "def": "Å lære ved å observere andre."
+    },
+    {
+      "term": "Bobo-dukke-forsøket",
+      "def": "Banduras forsøk der barn etterlignet en voksens aggresjon."
+    },
+    {
+      "term": "Assimilasjon",
+      "def": "Ny informasjon tas inn i eksisterende skjemaer."
+    },
+    {
+      "term": "Akkommodasjon",
+      "def": "Skjemaene endres for å passe ny informasjon."
+    },
+    {
+      "term": "Proksimal utviklingssone",
+      "def": "Det eleven klarer med hjelp, men ikke alene ennå."
+    },
+    {
+      "term": "Stillas",
+      "def": "Støtte som gradvis trekkes bort når eleven mestrer mer."
+    },
+    {
+      "term": "Elaboreringsstrategi",
+      "def": "Å koble nytt stoff til det man kan fra før."
+    },
+    {
+      "term": "Metakognisjon",
+      "def": "Å tenke over egen tenkning og læring."
+    },
+    {
+      "term": "Læringsstiler",
+      "def": "Idé om at folk lærer best visuelt eller auditivt – lite forskningsstøtte."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva oppdaget Pavlov?", "options": ["Operant betinging", "Klassisk betinging", "Modellæring", "Proksimal utviklingssone"], "correct": 1, "explain": "Hundene siklet av en lyd." },
-    { "id": "q02", "text": "Et barn får ros for å rydde og rydder oftere. Hva er dette?", "options": ["Positiv forsterkning", "Negativ forsterkning", "Straff", "Utslukking"], "correct": 0, "explain": "Noe behagelig legges til." },
-    { "id": "q03", "text": "Hva er negativ forsterkning?", "options": ["Å straffe uønsket atferd", "Å ignorere atferd", "Å fjerne noe ubehagelig slik at atferden øker", "Å gi ros"], "correct": 2, "explain": "Forsterkning øker alltid atferden." },
-    { "id": "q04", "text": "Hva viste Bobo-dukke-forsøket?", "options": ["At barn lærer bare av belønning", "At aggresjon er medfødt", "At barn glemmer raskt", "At barn lærer ved å observere voksne"], "correct": 3, "explain": "Modellæring." },
-    { "id": "q05", "text": "Hva er akkommodasjon hos Piaget?", "options": ["At skjemaene endres for å passe ny informasjon", "At ny informasjon passer rett inn", "At barnet sover", "At læreren hjelper"], "correct": 0, "explain": "Assimilasjon er når informasjonen passer inn." },
-    { "id": "q06", "text": "Hva er den proksimale utviklingssonen?", "options": ["Det eleven allerede kan", "Det eleven klarer med hjelp, men ikke alene ennå", "Et klasserom", "Det eleven aldri kan lære"], "correct": 1, "explain": "Vygotskijs begrep." },
-    { "id": "q07", "text": "Hva er metakognisjon?", "options": ["Å puge", "Å lese fort", "Å tenke over egen læring", "Å lære av andre"], "correct": 2, "explain": "Hjelper deg å velge riktig strategi." },
-    { "id": "q08", "text": "Hvilken strategi har best forskningsstøtte?", "options": ["Lese om igjen mange ganger", "Streke under alt", "Tilpasse seg én læringsstil", "Teste seg selv og spre repetisjonen"], "correct": 3, "explain": "Testing og spredt repetisjon virker." },
-    { "id": "q09", "text": "Hvorfor gir uforutsigbare belønninger vedvarende atferd?", "options": ["Man vet aldri når neste belønning kommer", "De er alltid store", "De er straff", "De gir søvn"], "correct": 0, "explain": "Brukes i pengespill og apper." },
-    { "id": "q10", "text": "Hva kan hemme læring?", "options": ["Gode relasjoner", "Søvnmangel og stress", "Tydelige mål", "Mestringsopplevelser"], "correct": 1, "explain": "Også forstyrrelser og prestasjonsangst." }
+    {
+      "id": "q01",
+      "text": "Hva oppdaget Pavlov?",
+      "options": [
+        "Operant betinging",
+        "Klassisk betinging",
+        "Modellæring",
+        "Proksimal utviklingssone"
+      ],
+      "correct": 1,
+      "explain": "Hundene siklet av en lyd."
+    },
+    {
+      "id": "q02",
+      "text": "Et barn får ros for å rydde og rydder oftere. Hva er dette?",
+      "options": [
+        "Positiv forsterkning",
+        "Negativ forsterkning",
+        "Straff",
+        "Utslukking"
+      ],
+      "correct": 0,
+      "explain": "Noe behagelig legges til."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er negativ forsterkning?",
+      "options": [
+        "Å straffe uønsket atferd",
+        "Å ignorere atferd",
+        "Å fjerne noe ubehagelig slik at atferden øker",
+        "Å gi ros"
+      ],
+      "correct": 2,
+      "explain": "Forsterkning øker alltid atferden."
+    },
+    {
+      "id": "q04",
+      "text": "Hva viste Bobo-dukke-forsøket?",
+      "options": [
+        "At barn lærer bare av belønning",
+        "At aggresjon er medfødt",
+        "At barn glemmer raskt",
+        "At barn lærer ved å observere voksne"
+      ],
+      "correct": 3,
+      "explain": "Modellæring."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er akkommodasjon hos Piaget?",
+      "options": [
+        "At skjemaene endres for å passe ny informasjon",
+        "At ny informasjon passer rett inn",
+        "At barnet sover",
+        "At læreren hjelper"
+      ],
+      "correct": 0,
+      "explain": "Assimilasjon er når informasjonen passer inn."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den proksimale utviklingssonen?",
+      "options": [
+        "Det eleven allerede kan",
+        "Det eleven klarer med hjelp, men ikke alene ennå",
+        "Et klasserom",
+        "Det eleven aldri kan lære"
+      ],
+      "correct": 1,
+      "explain": "Vygotskijs begrep."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er metakognisjon?",
+      "options": [
+        "Å puge",
+        "Å lese fort",
+        "Å tenke over egen læring",
+        "Å lære av andre"
+      ],
+      "correct": 2,
+      "explain": "Hjelper deg å velge riktig strategi."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken strategi har best forskningsstøtte?",
+      "options": [
+        "Lese om igjen mange ganger",
+        "Streke under alt",
+        "Tilpasse seg én læringsstil",
+        "Teste seg selv og spre repetisjonen"
+      ],
+      "correct": 3,
+      "explain": "Testing og spredt repetisjon virker."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor gir uforutsigbare belønninger vedvarende atferd?",
+      "options": [
+        "Man vet aldri når neste belønning kommer",
+        "De er alltid store",
+        "De er straff",
+        "De gir søvn"
+      ],
+      "correct": 0,
+      "explain": "Brukes i pengespill og apper."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kan hemme læring?",
+      "options": [
+        "Gode relasjoner",
+        "Søvnmangel og stress",
+        "Tydelige mål",
+        "Mestringsopplevelser"
+      ],
+      "correct": 1,
+      "explain": "Også forstyrrelser og prestasjonsangst."
+    }
   ],
   "mindmap": {
     "label": "Læring",
     "children": [
-      { "label": "Behaviorisme", "children": [
-        { "label": "Klassisk betinging" },
-        { "label": "Operant betinging" },
-        { "label": "Forsterkning og straff" }
-      ] },
-      { "label": "Sosialkognitiv", "children": [
-        { "label": "Bandura" },
-        { "label": "Modellæring" }
-      ] },
-      { "label": "Kognitiv", "children": [
-        { "label": "Piaget" },
-        { "label": "Assimilasjon og akkommodasjon" }
-      ] },
-      { "label": "Sosiokulturell", "children": [
-        { "label": "Vygotskij" },
-        { "label": "Proksimal sone og stillas" }
-      ] },
-      { "label": "Strategier", "children": [
-        { "label": "Hukommelse og organisering" },
-        { "label": "Elaborering" },
-        { "label": "Metakognisjon" }
-      ] }
+      {
+        "label": "Behaviorisme",
+        "children": [
+          {
+            "label": "Klassisk betinging"
+          },
+          {
+            "label": "Operant betinging"
+          },
+          {
+            "label": "Forsterkning og straff"
+          }
+        ]
+      },
+      {
+        "label": "Sosialkognitiv",
+        "children": [
+          {
+            "label": "Bandura"
+          },
+          {
+            "label": "Modellæring"
+          }
+        ]
+      },
+      {
+        "label": "Kognitiv",
+        "children": [
+          {
+            "label": "Piaget"
+          },
+          {
+            "label": "Assimilasjon og akkommodasjon"
+          }
+        ]
+      },
+      {
+        "label": "Sosiokulturell",
+        "children": [
+          {
+            "label": "Vygotskij"
+          },
+          {
+            "label": "Proksimal sone og stillas"
+          }
+        ]
+      },
+      {
+        "label": "Strategier",
+        "children": [
+          {
+            "label": "Hukommelse og organisering"
+          },
+          {
+            "label": "Elaborering"
+          },
+          {
+            "label": "Metakognisjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Fobier kan oppstå gjennom klassisk betinging.", "correct": true, "explain": "Noe nøytralt kobles til frykt." },
-      { "id": "m02", "type": "sant-usant", "text": "Straff øker sannsynligheten for at atferden gjentas.", "correct": false, "explain": "Straff reduserer atferden." },
-      { "id": "m03", "type": "sant-usant", "text": "Vygotskij mente at språket er et viktig verktøy for læring.", "correct": true, "explain": "Læring skjer i samspill med andre." },
-      { "id": "m04", "type": "sant-usant", "text": "Forskningen viser tydelig at alle har én fast læringsstil.", "correct": false, "explain": "Læringsstiler har lite forskningsstøtte." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket stadium hos Piaget kjennetegnes av abstrakt tenkning?", "options": ["Det sensomotoriske", "Det formelt operasjonelle", "Det preoperasjonelle", "Det konkret operasjonelle"], "correct": 1, "explain": "Fra ungdomsalderen." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på en elaboreringsstrategi?", "options": ["Å forklare stoffet med egne ord", "Å lese samme tekst fem ganger", "Å skrive av læreboka", "Å høre musikk"], "correct": 0, "explain": "Koble nytt stoff til det du kan." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er stillas i undervisning?", "options": ["Et klasserom", "En prøve", "Støtte som gradvis trekkes bort", "Straff for feil"], "correct": 2, "explain": "Hjelper eleven gjennom den proksimale sonen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Fobier kan oppstå gjennom klassisk betinging.",
+        "correct": true,
+        "explain": "Noe nøytralt kobles til frykt."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Straff øker sannsynligheten for at atferden gjentas.",
+        "correct": false,
+        "explain": "Straff reduserer atferden."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Vygotskij mente at språket er et viktig verktøy for læring.",
+        "correct": true,
+        "explain": "Læring skjer i samspill med andre."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Forskningen viser tydelig at alle har én fast læringsstil.",
+        "correct": false,
+        "explain": "Læringsstiler har lite forskningsstøtte."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket stadium hos Piaget kjennetegnes av abstrakt tenkning?",
+        "options": [
+          "Det sensomotoriske",
+          "Det formelt operasjonelle",
+          "Det preoperasjonelle",
+          "Det konkret operasjonelle"
+        ],
+        "correct": 1,
+        "explain": "Fra ungdomsalderen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på en elaboreringsstrategi?",
+        "options": [
+          "Å forklare stoffet med egne ord",
+          "Å lese samme tekst fem ganger",
+          "Å skrive av læreboka",
+          "Å høre musikk"
+        ],
+        "correct": 0,
+        "explain": "Koble nytt stoff til det du kan."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er stillas i undervisning?",
+        "options": [
+          "Et klasserom",
+          "En prøve",
+          "Støtte som gradvis trekkes bort",
+          "Straff for feil"
+        ],
+        "correct": 2,
+        "explain": "Hjelper eleven gjennom den proksimale sonen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva menes med læring i psykologi? Forklar hva som endres, og hvilken rolle erfaring har.",
+        "fasit": "Læring er en relativt varig endring i atferd eller kunnskap som skyldes erfaring.",
+        "kriterier": [
+          "Forklarer at læring innebærer en relativt varig endring i atferd eller kunnskap.",
+          "Knytter endringen til erfaring."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En hund hører en tone rett før den får mat. Etter mange gjentakelser sikler hunden når den hører tonen. Hva slags læring viser dette, og hva kan skje hvis tonen gjentas uten at hunden får mat?",
+        "fasit": "Dette er klassisk betinging: Tonen blir koblet til maten og utløser etter hvert sikling. Hvis tonen gjentas uten mat, kan siklingen slukkes.",
+        "kriterier": [
+          "Forklarer at tonen blir koblet til maten og etter hvert utløser en betinget respons.",
+          "Forklarer at responsen kan slukkes når tonen ikke lenger følges av mat."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev øver oftere etter å ha fått ros. En annen elev avbryter sjeldnere etter en konsekvens som gjør at atferden reduseres. Forklar hvorfor den første situasjonen er positiv forsterkning, mens den andre er straff.",
+        "fasit": "Ros er noe behagelig som legges til, og øvingen øker, så det er positiv forsterkning. I den andre situasjonen reduseres avbrytelsene, så konsekvensen fungerer som straff.",
+        "kriterier": [
+          "Knytter positiv forsterkning til at noe behagelig legges til og at atferden øker.",
+          "Kjenner igjen straff ved at atferden reduseres."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Jon ser en medelev utføre en ny bevegelse og prøver å gjøre den samme selv. Hvilke fire forutsetninger må være på plass for at Jon skal kunne lære bevegelsen ved modellæring?",
+        "fasit": "Jon må rette oppmerksomheten mot bevegelsen og huske den. Han må kunne utføre den selv og være motivert til å prøve.",
+        "kriterier": [
+          "Nevner oppmerksomhet og hukommelse som nødvendige forutsetninger.",
+          "Nevner evne til å utføre handlingen og motivasjon."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et barn ser en spurv og kaller den en fugl fordi den passer med barnets eksisterende skjema. Senere møter barnet en pingvin og endrer skjemaet sitt slik at det også passer med fugler som ikke flyr. Forklar hvilken del som er assimilasjon, og hvilken del som er akkommodasjon.",
+        "fasit": "Å plassere spurven i det eksisterende skjemaet for fugler er assimilasjon. Å endre skjemaet etter møtet med pingvinen er akkommodasjon.",
+        "kriterier": [
+          "Forklarer assimilasjon som å ta ny informasjon inn i et eksisterende skjema.",
+          "Forklarer akkommodasjon som å endre skjemaet fordi det ikke passer med den nye informasjonen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev klarer en oppgave med lærerens spørsmål som støtte, men ikke alene ennå. Læreren gir etter hvert færre spørsmål etter hvert som eleven mestrer mer. Forklar hvorfor lærerens støtte kalles stillas, og hvordan den hjelper eleven.",
+        "fasit": "Stillas er støtte som gradvis trekkes bort når eleven mestrer mer. Støtten hjelper eleven med det hen ennå ikke klarer alene, fram mot å kunne gjøre det selv.",
+        "kriterier": [
+          "Forklarer at stillas er støtte som gradvis trekkes tilbake når eleven mestrer mer.",
+          "Viser at støtten hjelper eleven med oppgaver hen ennå ikke klarer alene."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev leser et nytt fagbegrep flere ganger, men synes det er vanskelig å forstå. Beskriv hvordan eleven kan bruke en elaboreringsstrategi for å arbeide med begrepet.",
+        "fasit": "Eleven kan koble begrepet til noe hen allerede kan og forklare det med egne ord. Da arbeider eleven med å knytte ny kunnskap til forkunnskaper, i stedet for bare å gjenta den.",
+        "kriterier": [
+          "Foreslår å koble det nye begrepet til kunnskap eleven har fra før.",
+          "Forklarer at eleven kan bearbeide eller forklare begrepet med egne ord."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En lærer mener at hver elev bør lære bare på den måten som passer elevens læringsstil, for eksempel visuelt eller auditivt. Forklar hva ideen om læringsstiler går ut på, og hva forskningen sier om den.",
+        "fasit": "Ideen om læringsstiler går ut på at personer lærer best på bestemte måter, for eksempel visuelt eller auditivt. Denne ideen har lite forskningsstøtte.",
+        "kriterier": [
+          "Forklarer at læringsstiler er en idé om at personer lærer best gjennom bestemte former, som visuell eller auditiv læring.",
+          "Får fram at ideen har lite forskningsstøtte."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -355,6 +355,80 @@
         "correct": 2,
         "explain": "A summary shortens a text to its key ideas."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "What does it mean to be source-critical, and why is this useful when you search for information?",
+        "fasit": "Being source-critical means asking questions about a source before trusting and using it. This helps you avoid relying on false or misleading information.",
+        "kriterier": [
+          "Explains that source criticism involves checking or questioning a source before trusting it.",
+          "Explains that this can help avoid false or misleading information."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Explain the difference between bias and fake news. Can a biased text still be true?",
+        "fasit": "Bias is a one-sided presentation of information, while fake news is false information presented as real news. A biased text can still be true if it only includes facts that support one side.",
+        "kriterier": [
+          "Distinguishes one-sided presentation from false information presented as real news.",
+          "Explains that a biased text can be true, for example by leaving out facts that support another side."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "A company publishes a page praising one of its products. What is the likely purpose of the page, and what should you do before trusting its claims?",
+        "fasit": "The likely purpose is to sell the product. Check the evidence for its claims and compare them with what other reliable sources say, rather than assuming the claims are true.",
+        "kriterier": [
+          "Identifies selling or persuading people to buy as the likely purpose.",
+          "Recommends checking evidence or comparing the claims with other reliable sources."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "You find a claim on a website you do not know. Describe how you could use lateral reading to check the claim.",
+        "fasit": "Open new tabs and look for what other sources say about the website and the claim. You can also use a fact-checking site to check whether the claim is true.",
+        "kriterier": [
+          "Describes checking the website or claim using other sources in new tabs.",
+          "Mentions checking whether other reliable sources support the claim or using a fact-checking site."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Compare quoting and paraphrasing. Explain what you do in each and what you must include in both cases.",
+        "fasit": "When quoting, you use someone's exact words in quotation marks. When paraphrasing, you express someone's ideas in your own words. Both require a reference to the source.",
+        "kriterier": [
+          "Explains that a quote uses the source's exact words, while a paraphrase uses your own words to express the idea.",
+          "States that both require a reference to the source."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "A long article explains several points, and you want to give a brief account of its main ideas. What kind of writing should you use, and how is it different from paraphrasing?",
+        "fasit": "You should summarise the article by briefly giving its main points. Paraphrasing expresses a particular idea from a source in your own words rather than briefly covering the main points of a longer text.",
+        "kriterier": [
+          "Identifies summarising as briefly giving the main points of a longer text.",
+          "Distinguishes this from paraphrasing an idea in your own words."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "An AI chatbot gives you a fact and names a source for it. What should you do before using this information, and what should you be open about?",
+        "fasit": "Check the fact using reliable sources and make sure the named source is real, because AI can invent facts and sources. Be open about how you used AI.",
+        "kriterier": [
+          "Says to verify the fact using reliable sources and recognises that the chatbot may invent information or sources.",
+          "Says to be open about how AI was used."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "You need to decide whether to use information from an unfamiliar website. Explain how the questions “Who?” and “Why?” can help you assess it.",
+        "fasit": "“Who?” helps you find out who wrote the information and whether the author or organisation is an expert. “Why?” helps you check whether the website gives evidence and sources, and whether other reliable sources agree.",
+        "kriterier": [
+          "Explains that “Who?” is about identifying the author or organisation and assessing their expertise.",
+          "Explains that “Why?” involves checking evidence or sources and comparing with reliable sources."
+        ]
+      }
     ]
   },
   "kvalitet": {

@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Talespråk i endring",
   "intro": "Hvordan talespråket i Norge endrer seg i dag – dialektutjevning og regionalisering, sosiolekter, multietnolektisk ungdomsspråk, påvirkning fra engelsk og nye medier – og sammenhengen mellom språk, kultur og identitet.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Talespråket i Norge\n\nNorge har **ingen offisiell norm** for talespråket. Det er vanlig å snakke **dialekt** i alle sammenhenger – på jobb, i Stortinget og på TV. Samtidig skriver vi **bokmål** eller **nynorsk**. Dette er uvanlig sammenlignet med mange andre land.\n\nTalespråket er likevel i stadig **endring**. Endringene skyldes blant annet **urbanisering**, **mobilitet**, **innvandring**, **globalisering** og **nye medier**.\n\n## Dialektutjevning og regionalisering\n\nFør levde folk i små, lukkede samfunn, og dialektene varierte mye fra bygd til bygd. I dag flytter folk mer og møter mange andre. Resultatet er **dialektutjevning**: Særtrekk ved de minste dialektene forsvinner.\n\nOfte skjer en **regionalisering**. Dialekten i en **større by** påvirker omlandet, slik at det vokser fram **regionale** talemål. Ungdom i nabokommunene begynner å snakke mer likt byen.\n\nEksempler på endringer:\n\n- **Skarre-r** har spredt seg langs kysten fra Bergen og Stavanger og nordover og østover i flere områder.\n- Mange steder forsvinner **hunkjønn** – «en bok» i stedet for «ei bok».\n- Gamle ord og bøyningsformer, som **dativ**, blir sjeldnere.\n\n## Sosiolekter og variasjon\n\nTalespråket varierer ikke bare etter **sted**, men også etter\n\n- **sosial bakgrunn** – **sosiolekter**, som forskjellen mellom øst- og vestkanten i Oslo\n- **alder** – ungdom snakker ofte annerledes enn besteforeldrene\n- **situasjon** – vi tilpasser språket etter hvem vi snakker med\n\n## Multietnolektisk ungdomsspråk\n\nI flerkulturelle bymiljøer, for eksempel i **Oslo** og **Drammen**, har ungdom utviklet en egen talemåte. Den kalles gjerne **multietnolekt** – eller mer uformelt **kebabnorsk**. Den brukes av ungdom med **ulik** bakgrunn, også de med norske foreldre.\n\nKjennetegn kan være\n\n- **lånord** fra blant annet arabisk, urdu, tyrkisk og somali, som *wolla* («jeg sverger»)\n- en egen **rytme** og **uttale**\n- **ordstilling** der verbet ikke står på andreplass: «I går jeg var på kino»\n\nFor mange er denne talemåten en markør for **identitet** og **fellesskap**.\n\n## Engelsk påvirkning\n\nEngelsk påvirker norsk gjennom **lånord** som *chille*, *date* og *streame*, og gjennom **kodeveksling** – at man bytter mellom norsk og engelsk i samme samtale. Noen er bekymret for **domenetap**: at norsk mister terreng i områder som forskning, næringsliv og data. Andre mener at norsk alltid har tatt opp ord fra andre språk og vil **tilpasse** seg.\n\n## Nye medier\n\nI **sosiale medier** skriver mange **dialekt** eller en blanding av skrift- og talespråk. Emojier, forkortelser og nye ord sprer seg raskt. **Strømmetjenester** og **dataspill** gjør at mange hører mye engelsk – og mindre av andre nordiske språk.\n\n## Språk, kultur og identitet\n\nSpråket sier noe om **hvem vi er** og **hvor vi hører til**. Dialekten kan være et symbol på **hjemsted**, mens ungdomsspråk kan vise **tilhørighet** til en gruppe. Samtidig kan språk føre til **fordommer** – noen dialekter og talemåter har lavere **status** enn andre.\n\n**Språkloven** (2022) slår fast at **norsk** er hovedspråket i Norge, og at **samisk** er urfolksspråk. **Kvensk**, **romani**, **romanes** og **skogfinsk** er nasjonale minoritetsspråk, og **norsk tegnspråk** har også et særskilt vern.",
   "flashcards": [
-    { "term": "Offisiell talemålsnorm", "def": "Norge har ingen slik norm – det er vanlig å snakke dialekt." },
-    { "term": "Dialektutjevning", "def": "Særtrekk ved små dialekter forsvinner." },
-    { "term": "Regionalisering", "def": "Bydialekten påvirker omlandet, og regionale talemål vokser fram." },
-    { "term": "Skarre-r", "def": "R uttalt bak i munnen – har spredt seg langs kysten." },
-    { "term": "Sosiolekt", "def": "Talemåte knyttet til sosial bakgrunn." },
-    { "term": "Multietnolekt", "def": "Talemåte som har utviklet seg i flerkulturelle bymiljøer." },
-    { "term": "Kebabnorsk", "def": "Uformell betegnelse på multietnolektisk ungdomsspråk." },
-    { "term": "V2-regelen", "def": "Verbet står på andreplass i norske helsetninger – brytes i multietnolekt." },
-    { "term": "Lånord", "def": "Ord som er hentet fra et annet språk." },
-    { "term": "Kodeveksling", "def": "Å bytte mellom to språk i samme samtale." },
-    { "term": "Domenetap", "def": "At et språk mister terreng innen et område, som forskning." },
-    { "term": "Språk og identitet", "def": "Språket viser hvem vi er og hvor vi hører til." },
-    { "term": "Språkloven", "def": "Lov fra 2022 om norsk, samisk, minoritetsspråk og tegnspråk." },
-    { "term": "Nasjonale minoritetsspråk", "def": "Kvensk, romani, romanes og skogfinsk." },
-    { "term": "Mobilitet", "def": "At folk flytter og reiser mer – en årsak til språkendring." }
+    {
+      "term": "Offisiell talemålsnorm",
+      "def": "Norge har ingen slik norm – det er vanlig å snakke dialekt."
+    },
+    {
+      "term": "Dialektutjevning",
+      "def": "Særtrekk ved små dialekter forsvinner."
+    },
+    {
+      "term": "Regionalisering",
+      "def": "Bydialekten påvirker omlandet, og regionale talemål vokser fram."
+    },
+    {
+      "term": "Skarre-r",
+      "def": "R uttalt bak i munnen – har spredt seg langs kysten."
+    },
+    {
+      "term": "Sosiolekt",
+      "def": "Talemåte knyttet til sosial bakgrunn."
+    },
+    {
+      "term": "Multietnolekt",
+      "def": "Talemåte som har utviklet seg i flerkulturelle bymiljøer."
+    },
+    {
+      "term": "Kebabnorsk",
+      "def": "Uformell betegnelse på multietnolektisk ungdomsspråk."
+    },
+    {
+      "term": "V2-regelen",
+      "def": "Verbet står på andreplass i norske helsetninger – brytes i multietnolekt."
+    },
+    {
+      "term": "Lånord",
+      "def": "Ord som er hentet fra et annet språk."
+    },
+    {
+      "term": "Kodeveksling",
+      "def": "Å bytte mellom to språk i samme samtale."
+    },
+    {
+      "term": "Domenetap",
+      "def": "At et språk mister terreng innen et område, som forskning."
+    },
+    {
+      "term": "Språk og identitet",
+      "def": "Språket viser hvem vi er og hvor vi hører til."
+    },
+    {
+      "term": "Språkloven",
+      "def": "Lov fra 2022 om norsk, samisk, minoritetsspråk og tegnspråk."
+    },
+    {
+      "term": "Nasjonale minoritetsspråk",
+      "def": "Kvensk, romani, romanes og skogfinsk."
+    },
+    {
+      "term": "Mobilitet",
+      "def": "At folk flytter og reiser mer – en årsak til språkendring."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Har Norge en offisiell norm for talespråket?", "options": ["Ja, bokmål", "Nei, det er vanlig å snakke dialekt", "Ja, nynorsk", "Ja, Oslo-dialekt"], "correct": 1, "explain": "Uvanlig sammenlignet med mange land." },
-    { "id": "q02", "text": "Hva er regionalisering?", "options": ["At bydialekten påvirker omlandet og regionale talemål vokser fram", "At alle dialekter blir helt like", "At nynorsk blir mer brukt", "At engelsk erstatter norsk"], "correct": 0, "explain": "En form for dialektutjevning." },
-    { "id": "q03", "text": "Hva er en sosiolekt?", "options": ["En dialekt fra et bestemt sted", "Et skriftspråk", "En talemåte knyttet til sosial bakgrunn", "Et fremmedspråk"], "correct": 2, "explain": "For eksempel øst- og vestkant i Oslo." },
-    { "id": "q04", "text": "Hva kjennetegner multietnolektisk ungdomsspråk?", "options": ["Bare engelske ord", "Gammelnorske former", "Streng V2-regel", "Lånord, egen rytme og ordstilling der verbet ikke står på andreplass"], "correct": 3, "explain": "«I går jeg var på kino»." },
-    { "id": "q05", "text": "Hva er kodeveksling?", "options": ["Å bytte mellom to språk i samme samtale", "Å skrive kode", "Å bytte dialekt helt", "Å lære et nytt språk"], "correct": 0, "explain": "Vanlig mellom norsk og engelsk." },
-    { "id": "q06", "text": "Hva er domenetap?", "options": ["At dialekter forsvinner", "At et språk mister terreng innen et område", "At man glemmer ord", "At ord får ny betydning"], "correct": 1, "explain": "For eksempel i forskning." },
-    { "id": "q07", "text": "Hvilken endring skjer mange steder i norske dialekter?", "options": ["Flere kasus", "Mer dativ", "Hunkjønn forsvinner", "Flere dialekter oppstår"], "correct": 2, "explain": "«En bok» i stedet for «ei bok»." },
-    { "id": "q08", "text": "Hvilket språk slår språkloven fast er urfolksspråk?", "options": ["Kvensk", "Romani", "Norsk tegnspråk", "Samisk"], "correct": 3, "explain": "Kvensk er nasjonalt minoritetsspråk." },
-    { "id": "q09", "text": "Hvorfor forsvinner særtrekk ved små dialekter?", "options": ["Fordi folk flytter mer og møter mange andre", "Fordi det er forbudt å bruke dem", "Fordi skolen krever bokmål i tale", "Fordi de aldri har eksistert"], "correct": 0, "explain": "Mobilitet og urbanisering." },
-    { "id": "q10", "text": "Hva kan en dialekt være et symbol på?", "options": ["Utdanning alltid", "Hjemsted og tilhørighet", "Inntekt", "Alder alene"], "correct": 1, "explain": "Språk og identitet henger sammen." }
+    {
+      "id": "q01",
+      "text": "Har Norge en offisiell norm for talespråket?",
+      "options": [
+        "Ja, bokmål",
+        "Nei, det er vanlig å snakke dialekt",
+        "Ja, nynorsk",
+        "Ja, Oslo-dialekt"
+      ],
+      "correct": 1,
+      "explain": "Uvanlig sammenlignet med mange land."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er regionalisering?",
+      "options": [
+        "At bydialekten påvirker omlandet og regionale talemål vokser fram",
+        "At alle dialekter blir helt like",
+        "At nynorsk blir mer brukt",
+        "At engelsk erstatter norsk"
+      ],
+      "correct": 0,
+      "explain": "En form for dialektutjevning."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en sosiolekt?",
+      "options": [
+        "En dialekt fra et bestemt sted",
+        "Et skriftspråk",
+        "En talemåte knyttet til sosial bakgrunn",
+        "Et fremmedspråk"
+      ],
+      "correct": 2,
+      "explain": "For eksempel øst- og vestkant i Oslo."
+    },
+    {
+      "id": "q04",
+      "text": "Hva kjennetegner multietnolektisk ungdomsspråk?",
+      "options": [
+        "Bare engelske ord",
+        "Gammelnorske former",
+        "Streng V2-regel",
+        "Lånord, egen rytme og ordstilling der verbet ikke står på andreplass"
+      ],
+      "correct": 3,
+      "explain": "«I går jeg var på kino»."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er kodeveksling?",
+      "options": [
+        "Å bytte mellom to språk i samme samtale",
+        "Å skrive kode",
+        "Å bytte dialekt helt",
+        "Å lære et nytt språk"
+      ],
+      "correct": 0,
+      "explain": "Vanlig mellom norsk og engelsk."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er domenetap?",
+      "options": [
+        "At dialekter forsvinner",
+        "At et språk mister terreng innen et område",
+        "At man glemmer ord",
+        "At ord får ny betydning"
+      ],
+      "correct": 1,
+      "explain": "For eksempel i forskning."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken endring skjer mange steder i norske dialekter?",
+      "options": [
+        "Flere kasus",
+        "Mer dativ",
+        "Hunkjønn forsvinner",
+        "Flere dialekter oppstår"
+      ],
+      "correct": 2,
+      "explain": "«En bok» i stedet for «ei bok»."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket språk slår språkloven fast er urfolksspråk?",
+      "options": [
+        "Kvensk",
+        "Romani",
+        "Norsk tegnspråk",
+        "Samisk"
+      ],
+      "correct": 3,
+      "explain": "Kvensk er nasjonalt minoritetsspråk."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor forsvinner særtrekk ved små dialekter?",
+      "options": [
+        "Fordi folk flytter mer og møter mange andre",
+        "Fordi det er forbudt å bruke dem",
+        "Fordi skolen krever bokmål i tale",
+        "Fordi de aldri har eksistert"
+      ],
+      "correct": 0,
+      "explain": "Mobilitet og urbanisering."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kan en dialekt være et symbol på?",
+      "options": [
+        "Utdanning alltid",
+        "Hjemsted og tilhørighet",
+        "Inntekt",
+        "Alder alene"
+      ],
+      "correct": 1,
+      "explain": "Språk og identitet henger sammen."
+    }
   ],
   "mindmap": {
     "label": "Talespråk i endring",
     "children": [
-      { "label": "Norsk situasjon", "children": [
-        { "label": "Ingen talemålsnorm" },
-        { "label": "Dialekt overalt" }
-      ] },
-      { "label": "Utjevning", "children": [
-        { "label": "Regionalisering" },
-        { "label": "Skarre-r" },
-        { "label": "Hunkjønn forsvinner" }
-      ] },
-      { "label": "Variasjon", "children": [
-        { "label": "Sosiolekt" },
-        { "label": "Multietnolekt" },
-        { "label": "Alder og situasjon" }
-      ] },
-      { "label": "Påvirkning", "children": [
-        { "label": "Engelsk og kodeveksling" },
-        { "label": "Domenetap" },
-        { "label": "Nye medier" }
-      ] },
-      { "label": "Identitet", "children": [
-        { "label": "Tilhørighet" },
-        { "label": "Status og fordommer" },
-        { "label": "Språkloven" }
-      ] }
+      {
+        "label": "Norsk situasjon",
+        "children": [
+          {
+            "label": "Ingen talemålsnorm"
+          },
+          {
+            "label": "Dialekt overalt"
+          }
+        ]
+      },
+      {
+        "label": "Utjevning",
+        "children": [
+          {
+            "label": "Regionalisering"
+          },
+          {
+            "label": "Skarre-r"
+          },
+          {
+            "label": "Hunkjønn forsvinner"
+          }
+        ]
+      },
+      {
+        "label": "Variasjon",
+        "children": [
+          {
+            "label": "Sosiolekt"
+          },
+          {
+            "label": "Multietnolekt"
+          },
+          {
+            "label": "Alder og situasjon"
+          }
+        ]
+      },
+      {
+        "label": "Påvirkning",
+        "children": [
+          {
+            "label": "Engelsk og kodeveksling"
+          },
+          {
+            "label": "Domenetap"
+          },
+          {
+            "label": "Nye medier"
+          }
+        ]
+      },
+      {
+        "label": "Identitet",
+        "children": [
+          {
+            "label": "Tilhørighet"
+          },
+          {
+            "label": "Status og fordommer"
+          },
+          {
+            "label": "Språkloven"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Multietnolektisk ungdomsspråk brukes også av ungdom med norske foreldre.", "correct": true, "explain": "Det er knyttet til miljø og fellesskap." },
-      { "id": "m02", "type": "sant-usant", "text": "Norsk har aldri tatt opp ord fra andre språk.", "correct": false, "explain": "Norsk har alltid lånt ord." },
-      { "id": "m03", "type": "sant-usant", "text": "Mange skriver dialekt i sosiale medier.", "correct": true, "explain": "Skillet mellom tale og skrift blir mindre." },
-      { "id": "m04", "type": "sant-usant", "text": "Alle dialekter har like høy status i alle sammenhenger.", "correct": false, "explain": "Noen talemåter møter fordommer." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr ordet «wolla» i ungdomsspråket?", "options": ["«Hei»", "«Jeg sverger»", "«Takk»", "«Ha det»"], "correct": 1, "explain": "Et lånord fra arabisk." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket språk er nasjonalt minoritetsspråk i Norge?", "options": ["Kvensk", "Engelsk", "Samisk", "Svensk"], "correct": 0, "explain": "Samisk er urfolksspråk." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er en årsak til endringer i talespråket?", "options": ["Færre reiser", "Mindre kontakt mellom folk", "Urbanisering, innvandring og nye medier", "At dialekter er forbudt"], "correct": 2, "explain": "Samfunnsendringer gir språkendringer." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Multietnolektisk ungdomsspråk brukes også av ungdom med norske foreldre.",
+        "correct": true,
+        "explain": "Det er knyttet til miljø og fellesskap."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Norsk har aldri tatt opp ord fra andre språk.",
+        "correct": false,
+        "explain": "Norsk har alltid lånt ord."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange skriver dialekt i sosiale medier.",
+        "correct": true,
+        "explain": "Skillet mellom tale og skrift blir mindre."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle dialekter har like høy status i alle sammenhenger.",
+        "correct": false,
+        "explain": "Noen talemåter møter fordommer."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr ordet «wolla» i ungdomsspråket?",
+        "options": [
+          "«Hei»",
+          "«Jeg sverger»",
+          "«Takk»",
+          "«Ha det»"
+        ],
+        "correct": 1,
+        "explain": "Et lånord fra arabisk."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket språk er nasjonalt minoritetsspråk i Norge?",
+        "options": [
+          "Kvensk",
+          "Engelsk",
+          "Samisk",
+          "Svensk"
+        ],
+        "correct": 0,
+        "explain": "Samisk er urfolksspråk."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er en årsak til endringer i talespråket?",
+        "options": [
+          "Færre reiser",
+          "Mindre kontakt mellom folk",
+          "Urbanisering, innvandring og nye medier",
+          "At dialekter er forbudt"
+        ],
+        "correct": 2,
+        "explain": "Samfunnsendringer gir språkendringer."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Folk flytter og reiser mer enn før og møter mennesker fra flere steder. Forklar hvordan denne mobiliteten kan føre til endringer i dialektene.",
+        "fasit": "Når folk møtes og snakker sammen, kan talemåter og språkformer spre seg mellom steder. Da kan særtrekk ved små dialekter bli mindre vanlige.",
+        "kriterier": [
+          "Forklarer at mobilitet gjør at folk med ulike talemåter møtes.",
+          "Knytter møtene til at språkformer spres eller at lokale særtrekk blir mindre vanlige."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Beskriv forskjellen mellom talespråk og skriftspråk i Norge ved å nevne hva folk vanligvis snakker, og hvilke to former de skriver på.",
+        "fasit": "Folk i Norge snakker vanligvis dialekt, mens de skriver bokmål eller nynorsk.",
+        "kriterier": [
+          "Får fram at dialekt er vanlig i talespråket.",
+          "Nevner både bokmål og nynorsk som skriftformer."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva er skarre-r, og i hvilken retning har denne uttalen spredd seg i Norge?",
+        "fasit": "Skarre-r er en r-lyd som uttales bak i munnen. Den har spredd seg langs kysten fra Bergen og Stavanger nordover og østover i flere områder.",
+        "kriterier": [
+          "Forklarer at r-en uttales bak i munnen.",
+          "Beskriver spredningen langs kysten fra Bergen og Stavanger nordover og østover."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person sier «Jeg skal chille etter skolen», mens en annen sier «I am tired» og fortsetter samtalen på norsk. Forklar hva som er et lånord, og hva som er kodeveksling i disse eksemplene.",
+        "fasit": "«Chille» er et lånord fra engelsk som brukes i en norsk setning. Når personen bytter fra norsk til engelsk og tilbake i samtalen, er det kodeveksling.",
+        "kriterier": [
+          "Identifiserer «chille» som et lånord fra engelsk.",
+          "Forklarer at kodeveksling er å bytte mellom språk i samme samtale."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Mange skriver dialekt eller blander skrift- og talespråk i sosiale medier. Nevn én annen måte sosiale medier påvirker språk på, og forklar hvordan den sprer seg.",
+        "fasit": "Emojier, forkortelser og nye ord brukes også i sosiale medier. De kan spre seg raskt mellom brukere.",
+        "kriterier": [
+          "Nevner emojier, forkortelser eller nye ord.",
+          "Får fram at slike språkformer sprer seg raskt."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En person snakker med venner og med en lærer og tilpasser talemåten etter hvem personen snakker med. Hvilken type språklig variasjon viser situasjonen, og hva er tilpasningen knyttet til?",
+        "fasit": "Dette er variasjon etter situasjon. Personen tilpasser språket etter hvem hen snakker med.",
+        "kriterier": [
+          "Identifiserer situasjon som grunnen til variasjonen.",
+          "Forklarer at talemåten tilpasses samtalepartneren."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hvilke fire språk regnes som nasjonale minoritetsspråk i Norge?",
+        "fasit": "Kvensk, romani, romanes og skogfinsk er nasjonale minoritetsspråk i Norge.",
+        "kriterier": [
+          "Nevner kvensk og romani.",
+          "Nevner romanes og skogfinsk."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En ungdom med norske foreldre bruker en talemåte som har utviklet seg blant ungdom i flerkulturelle bymiljøer. Hva kalles talemåten, og hva viser situasjonen om hvem som kan bruke den?",
+        "fasit": "Talemåten kalles multietnolekt, eller mer uformelt kebabnorsk. Den brukes av ungdom med ulik bakgrunn, også ungdom med norske foreldre.",
+        "kriterier": [
+          "Identifiserer talemåten som multietnolekt eller kebabnorsk.",
+          "Får fram at den brukes av ungdom med ulik bakgrunn, også ungdom med norske foreldre."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

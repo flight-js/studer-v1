@@ -4,75 +4,415 @@
   "trinnId": "vg3",
   "name": "Samfunnsansvar og omdømme",
   "intro": "Hvordan virksomheters samfunnsansvar kan drøftes ut fra et etisk, lovmessig og forretningsmessig perspektiv – Carrolls pyramide, interessenter, åpenhetsloven og aktsomhetsvurderinger, delt verdiskaping – og hvordan samfunnsansvar påvirker omdømmet, med omdømmebygging og krisehåndtering.",
-  "kompetansemaal": [12],
+  "kompetansemaal": [
+    12
+  ],
   "sammendrag": "## Hva er samfunnsansvar?\n\n**Samfunnsansvar** – ofte kalt **CSR** – handler om hvordan virksomheter tar hensyn til **mennesker**, **samfunn** og **miljø** i det de gjør – også utover det loven krever.\n\n## Carrolls pyramide\n\n**Archie Carroll** beskrev fire nivåer av samfunnsansvar:\n\n1. **Økonomisk** ansvar: være **lønnsom**, skape arbeidsplasser og betale skatt\n2. **Juridisk** ansvar: følge **lover** og regler\n3. **Etisk** ansvar: gjøre det som er **rett** og **rettferdig**, også når loven ikke krever det\n4. **Filantropisk** ansvar: bidra **frivillig** til samfunnet – sponsing, gaver og frivillig arbeid\n\n## Interessenter\n\n**Interessenter** er grupper som påvirkes av eller kan påvirke virksomheten: **eiere**, **ansatte**, **kunder**, **leverandører**, **lokalsamfunn**, **myndigheter**, **media** og **interesseorganisasjoner**. Samfunnsansvar handler om å ta **hensyn** til interessentene – og å **balansere** ulike interesser.\n\n## Tre perspektiver\n\n**Etisk perspektiv**: Virksomheter har en **plikt** til å unngå å skade mennesker og miljø, uavhengig av lønnsomhet.\n\n**Lovmessig perspektiv**: Loven setter **minstekrav**:\n\n- **Arbeidsmiljøloven**, **markedsføringsloven** og **miljølovgivning**\n- **Åpenhetsloven** (2022) krever at større virksomheter – som oppfyller minst to av tre vilkår: over 70 millioner kroner i salgsinntekt, over 35 millioner i balansesum eller over 50 årsverk – gjør **aktsomhetsvurderinger** av **menneskerettigheter** og **anstendige arbeidsforhold** i **leverandørkjeden**, og at forbrukere kan be om **informasjon**\n- **Regnskapsloven** stiller krav om **rapportering** om samfunnsansvar for store foretak\n\n**Forretningsmessig perspektiv**: Samfunnsansvar kan **lønne seg**:\n\n- bedre **omdømme** og **kundelojalitet**\n- lettere å **rekruttere** og beholde ansatte\n- lavere **risiko** for skandaler og bøter\n- tilgang til **investorer** som vektlegger bærekraft\n\n**Michael Porter** og **Mark Kramer** lanserte begrepet **delt verdiskaping** – shared value – der virksomheter skaper **økonomisk** verdi ved å løse **samfunnsproblemer**.\n\nKritikere mener at bedrifters oppgave først og fremst er å **tjene penger** innenfor lovens rammer, og at samfunnsansvar noen ganger bare er **markedsføring**.\n\n## Omdømme\n\n**Omdømme** er summen av **oppfatningene** interessentene har av virksomheten over tid. Det bygges av det virksomheten **gjør** – ikke bare det den **sier**. Et godt omdømme gir **tillit**, **lojalitet** og **handlingsrom**.\n\nOmdømme skiller seg fra **identitet** – hvordan virksomheten ser på **seg selv** – og **profil** – hvordan den **ønsker** å bli sett. Et gap mellom profil og faktisk atferd kan gi **omdømmetap**.\n\n## Omdømmekriser\n\nSkandaler – som barnearbeid hos leverandører, lekkasjer av persondata eller grønnvasking – kan skade omdømmet **raskt**, særlig i **sosiale medier**. God **krisehåndtering** innebærer å\n\n1. reagere **raskt**\n2. være **ærlig** og **åpen**\n3. ta **ansvar** og beklage\n4. fortelle hva som gjøres for å **rette opp**\n5. **følge opp** over tid\n\n## Vurdering\n\nNår du vurderer samfunnsansvar, kan du spørre: Er tiltakene **ekte** og knyttet til kjernevirksomheten, eller er de **pynt**? Blir de **fulgt opp** og **rapportert**? Og hvordan påvirker de **omdømmet** og **lønnsomheten** på lang sikt?",
   "flashcards": [
-    { "term": "Samfunnsansvar (CSR)", "def": "Hensyn til mennesker, samfunn og miljø – også utover loven." },
-    { "term": "Carrolls pyramide", "def": "Økonomisk, juridisk, etisk og filantropisk ansvar." },
-    { "term": "Filantropisk ansvar", "def": "Frivillige bidrag som sponsing og gaver." },
-    { "term": "Interessenter", "def": "Grupper som påvirkes av eller kan påvirke virksomheten." },
-    { "term": "Åpenhetsloven", "def": "Krav om aktsomhetsvurderinger i leverandørkjeden – fra 2022." },
-    { "term": "Aktsomhetsvurdering", "def": "Kartlegging av risiko for brudd på menneskerettigheter og arbeidsforhold." },
-    { "term": "Delt verdiskaping", "def": "Økonomisk verdi ved å løse samfunnsproblemer – Porter og Kramer." },
-    { "term": "Omdømme", "def": "Summen av interessentenes oppfatninger over tid." },
-    { "term": "Identitet", "def": "Hvordan virksomheten ser på seg selv." },
-    { "term": "Profil", "def": "Hvordan virksomheten ønsker å bli sett." },
-    { "term": "Omdømmegap", "def": "Forskjell mellom profil og faktisk atferd." },
-    { "term": "Krisehåndtering", "def": "Raskt, ærlig, ta ansvar og rette opp." },
-    { "term": "Leverandørkjede", "def": "Alle leverandører bak et produkt." },
-    { "term": "Handlingsrom", "def": "Frihet et godt omdømme gir i vanskelige situasjoner." },
-    { "term": "Kritikk av CSR", "def": "At samfunnsansvar kan være ren markedsføring." }
+    {
+      "term": "Samfunnsansvar (CSR)",
+      "def": "Hensyn til mennesker, samfunn og miljø – også utover loven."
+    },
+    {
+      "term": "Carrolls pyramide",
+      "def": "Økonomisk, juridisk, etisk og filantropisk ansvar."
+    },
+    {
+      "term": "Filantropisk ansvar",
+      "def": "Frivillige bidrag som sponsing og gaver."
+    },
+    {
+      "term": "Interessenter",
+      "def": "Grupper som påvirkes av eller kan påvirke virksomheten."
+    },
+    {
+      "term": "Åpenhetsloven",
+      "def": "Krav om aktsomhetsvurderinger i leverandørkjeden – fra 2022."
+    },
+    {
+      "term": "Aktsomhetsvurdering",
+      "def": "Kartlegging av risiko for brudd på menneskerettigheter og arbeidsforhold."
+    },
+    {
+      "term": "Delt verdiskaping",
+      "def": "Økonomisk verdi ved å løse samfunnsproblemer – Porter og Kramer."
+    },
+    {
+      "term": "Omdømme",
+      "def": "Summen av interessentenes oppfatninger over tid."
+    },
+    {
+      "term": "Identitet",
+      "def": "Hvordan virksomheten ser på seg selv."
+    },
+    {
+      "term": "Profil",
+      "def": "Hvordan virksomheten ønsker å bli sett."
+    },
+    {
+      "term": "Omdømmegap",
+      "def": "Forskjell mellom profil og faktisk atferd."
+    },
+    {
+      "term": "Krisehåndtering",
+      "def": "Raskt, ærlig, ta ansvar og rette opp."
+    },
+    {
+      "term": "Leverandørkjede",
+      "def": "Alle leverandører bak et produkt."
+    },
+    {
+      "term": "Handlingsrom",
+      "def": "Frihet et godt omdømme gir i vanskelige situasjoner."
+    },
+    {
+      "term": "Kritikk av CSR",
+      "def": "At samfunnsansvar kan være ren markedsføring."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er de fire nivåene i Carrolls pyramide?", "options": ["Pris, produkt, plass og påvirkning", "Økonomisk, juridisk, etisk og filantropisk", "Styrker, svakheter, muligheter og trusler", "Planlegge, organisere, lede og kontrollere"], "correct": 1, "explain": "Fra lønnsomhet til frivillige bidrag." },
-    { "id": "q02", "text": "Hva krever åpenhetsloven?", "options": ["Aktsomhetsvurderinger av menneskerettigheter og arbeidsforhold i leverandørkjeden", "At alle priser er offentlige", "At bedrifter betaler mer skatt", "At alle ansatte får bonus"], "correct": 0, "explain": "For større virksomheter." },
-    { "id": "q03", "text": "Hva er delt verdiskaping?", "options": ["Å dele overskuddet likt", "Å gi bort produkter", "Å skape økonomisk verdi ved å løse samfunnsproblemer", "Å samarbeide med konkurrenter"], "correct": 2, "explain": "Porter og Kramer." },
-    { "id": "q04", "text": "Hva er omdømme?", "options": ["Virksomhetens logo", "Hvordan virksomheten ser på seg selv", "Hvordan virksomheten ønsker å bli sett", "Summen av interessentenes oppfatninger over tid"], "correct": 3, "explain": "Bygges av handlinger." },
-    { "id": "q05", "text": "Hva er et forretningsmessig argument for samfunnsansvar?", "options": ["Bedre omdømme og lettere rekruttering", "Høyere kostnader", "Mindre kontroll", "Færre kunder"], "correct": 0, "explain": "Også lavere risiko." },
-    { "id": "q06", "text": "Hva er første steg i god krisehåndtering?", "options": ["Å tie", "Å reagere raskt", "Å skylde på andre", "Å slette kontoer"], "correct": 1, "explain": "Deretter ærlighet og ansvar." },
-    { "id": "q07", "text": "Hvem er interessenter?", "options": ["Bare eierne", "Bare kundene", "Grupper som påvirkes av eller kan påvirke virksomheten", "Bare konkurrentene"], "correct": 2, "explain": "Ansatte, kunder, lokalsamfunn og flere." },
-    { "id": "q08", "text": "Hva kan et gap mellom profil og faktisk atferd føre til?", "options": ["Bedre omdømme", "Høyere lønn", "Flere ansatte", "Omdømmetap"], "correct": 3, "explain": "Troverdigheten svekkes." },
-    { "id": "q09", "text": "Hva er filantropisk ansvar?", "options": ["Frivillige bidrag til samfunnet", "Å følge loven", "Å være lønnsom", "Å betale skatt"], "correct": 0, "explain": "Toppen av pyramiden." },
-    { "id": "q10", "text": "Hva er en kritikk av samfunnsansvar?", "options": ["At det er ulovlig", "At det noen ganger bare er markedsføring", "At det alltid er for dyrt", "At kunder ikke bryr seg"], "correct": 1, "explain": "Tiltakene må være ekte." }
+    {
+      "id": "q01",
+      "text": "Hva er de fire nivåene i Carrolls pyramide?",
+      "options": [
+        "Pris, produkt, plass og påvirkning",
+        "Økonomisk, juridisk, etisk og filantropisk",
+        "Styrker, svakheter, muligheter og trusler",
+        "Planlegge, organisere, lede og kontrollere"
+      ],
+      "correct": 1,
+      "explain": "Fra lønnsomhet til frivillige bidrag."
+    },
+    {
+      "id": "q02",
+      "text": "Hva krever åpenhetsloven?",
+      "options": [
+        "Aktsomhetsvurderinger av menneskerettigheter og arbeidsforhold i leverandørkjeden",
+        "At alle priser er offentlige",
+        "At bedrifter betaler mer skatt",
+        "At alle ansatte får bonus"
+      ],
+      "correct": 0,
+      "explain": "For større virksomheter."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er delt verdiskaping?",
+      "options": [
+        "Å dele overskuddet likt",
+        "Å gi bort produkter",
+        "Å skape økonomisk verdi ved å løse samfunnsproblemer",
+        "Å samarbeide med konkurrenter"
+      ],
+      "correct": 2,
+      "explain": "Porter og Kramer."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er omdømme?",
+      "options": [
+        "Virksomhetens logo",
+        "Hvordan virksomheten ser på seg selv",
+        "Hvordan virksomheten ønsker å bli sett",
+        "Summen av interessentenes oppfatninger over tid"
+      ],
+      "correct": 3,
+      "explain": "Bygges av handlinger."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er et forretningsmessig argument for samfunnsansvar?",
+      "options": [
+        "Bedre omdømme og lettere rekruttering",
+        "Høyere kostnader",
+        "Mindre kontroll",
+        "Færre kunder"
+      ],
+      "correct": 0,
+      "explain": "Også lavere risiko."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er første steg i god krisehåndtering?",
+      "options": [
+        "Å tie",
+        "Å reagere raskt",
+        "Å skylde på andre",
+        "Å slette kontoer"
+      ],
+      "correct": 1,
+      "explain": "Deretter ærlighet og ansvar."
+    },
+    {
+      "id": "q07",
+      "text": "Hvem er interessenter?",
+      "options": [
+        "Bare eierne",
+        "Bare kundene",
+        "Grupper som påvirkes av eller kan påvirke virksomheten",
+        "Bare konkurrentene"
+      ],
+      "correct": 2,
+      "explain": "Ansatte, kunder, lokalsamfunn og flere."
+    },
+    {
+      "id": "q08",
+      "text": "Hva kan et gap mellom profil og faktisk atferd føre til?",
+      "options": [
+        "Bedre omdømme",
+        "Høyere lønn",
+        "Flere ansatte",
+        "Omdømmetap"
+      ],
+      "correct": 3,
+      "explain": "Troverdigheten svekkes."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er filantropisk ansvar?",
+      "options": [
+        "Frivillige bidrag til samfunnet",
+        "Å følge loven",
+        "Å være lønnsom",
+        "Å betale skatt"
+      ],
+      "correct": 0,
+      "explain": "Toppen av pyramiden."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en kritikk av samfunnsansvar?",
+      "options": [
+        "At det er ulovlig",
+        "At det noen ganger bare er markedsføring",
+        "At det alltid er for dyrt",
+        "At kunder ikke bryr seg"
+      ],
+      "correct": 1,
+      "explain": "Tiltakene må være ekte."
+    }
   ],
   "mindmap": {
     "label": "Samfunnsansvar",
     "children": [
-      { "label": "Carroll", "children": [
-        { "label": "Økonomisk og juridisk" },
-        { "label": "Etisk og filantropisk" }
-      ] },
-      { "label": "Interessenter", "children": [
-        { "label": "Eiere og ansatte" },
-        { "label": "Kunder og lokalsamfunn" }
-      ] },
-      { "label": "Perspektiver", "children": [
-        { "label": "Etisk" },
-        { "label": "Lovmessig – åpenhetsloven" },
-        { "label": "Forretningsmessig – delt verdi" }
-      ] },
-      { "label": "Omdømme", "children": [
-        { "label": "Identitet og profil" },
-        { "label": "Omdømmegap" }
-      ] },
-      { "label": "Kriser", "children": [
-        { "label": "Raskt og ærlig" },
-        { "label": "Ansvar og oppfølging" }
-      ] }
+      {
+        "label": "Carroll",
+        "children": [
+          {
+            "label": "Økonomisk og juridisk"
+          },
+          {
+            "label": "Etisk og filantropisk"
+          }
+        ]
+      },
+      {
+        "label": "Interessenter",
+        "children": [
+          {
+            "label": "Eiere og ansatte"
+          },
+          {
+            "label": "Kunder og lokalsamfunn"
+          }
+        ]
+      },
+      {
+        "label": "Perspektiver",
+        "children": [
+          {
+            "label": "Etisk"
+          },
+          {
+            "label": "Lovmessig – åpenhetsloven"
+          },
+          {
+            "label": "Forretningsmessig – delt verdi"
+          }
+        ]
+      },
+      {
+        "label": "Omdømme",
+        "children": [
+          {
+            "label": "Identitet og profil"
+          },
+          {
+            "label": "Omdømmegap"
+          }
+        ]
+      },
+      {
+        "label": "Kriser",
+        "children": [
+          {
+            "label": "Raskt og ærlig"
+          },
+          {
+            "label": "Ansvar og oppfølging"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Omdømme bygges av det virksomheten gjør, ikke bare det den sier.", "correct": true, "explain": "Handlinger teller mest." },
-      { "id": "m02", "type": "sant-usant", "text": "Samfunnsansvar handler bare om å følge loven.", "correct": false, "explain": "Det handler også om etisk og frivillig ansvar." },
-      { "id": "m03", "type": "sant-usant", "text": "Forbrukere kan be om informasjon etter åpenhetsloven.", "correct": true, "explain": "Om hvordan virksomheten håndterer risiko." },
-      { "id": "m04", "type": "sant-usant", "text": "Et godt omdømme har ingen verdi i en krise.", "correct": false, "explain": "Det gir tillit og handlingsrom." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er et eksempel på en omdømmekrise?", "options": ["En ny logo", "Barnearbeid hos en leverandør", "En sommerkampanje", "En ny butikk"], "correct": 1, "explain": "Spres raskt i sosiale medier." },
-      { "id": "m06", "type": "flervalg", "text": "Hva skiller ekte samfunnsansvar fra pynt?", "options": ["At tiltakene er knyttet til kjernevirksomheten og følges opp", "At det er mye reklame for det", "At det er billig", "At ingen vet om det"], "correct": 0, "explain": "Og rapporteres." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er profil?", "options": ["Summen av oppfatninger", "Hvordan virksomheten ser seg selv", "Hvordan virksomheten ønsker å bli sett", "Regnskapet"], "correct": 2, "explain": "Identitet er selvbildet." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Omdømme bygges av det virksomheten gjør, ikke bare det den sier.",
+        "correct": true,
+        "explain": "Handlinger teller mest."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Samfunnsansvar handler bare om å følge loven.",
+        "correct": false,
+        "explain": "Det handler også om etisk og frivillig ansvar."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Forbrukere kan be om informasjon etter åpenhetsloven.",
+        "correct": true,
+        "explain": "Om hvordan virksomheten håndterer risiko."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et godt omdømme har ingen verdi i en krise.",
+        "correct": false,
+        "explain": "Det gir tillit og handlingsrom."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på en omdømmekrise?",
+        "options": [
+          "En ny logo",
+          "Barnearbeid hos en leverandør",
+          "En sommerkampanje",
+          "En ny butikk"
+        ],
+        "correct": 1,
+        "explain": "Spres raskt i sosiale medier."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva skiller ekte samfunnsansvar fra pynt?",
+        "options": [
+          "At tiltakene er knyttet til kjernevirksomheten og følges opp",
+          "At det er mye reklame for det",
+          "At det er billig",
+          "At ingen vet om det"
+        ],
+        "correct": 0,
+        "explain": "Og rapporteres."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er profil?",
+        "options": [
+          "Summen av oppfatninger",
+          "Hvordan virksomheten ser seg selv",
+          "Hvordan virksomheten ønsker å bli sett",
+          "Regnskapet"
+        ],
+        "correct": 2,
+        "explain": "Identitet er selvbildet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva samfunnsansvar (CSR) innebærer, og hvordan det går utover det virksomheten er pålagt ved lov.",
+        "fasit": "Samfunnsansvar handler om å ta hensyn til mennesker, samfunn og miljø i virksomhetens handlinger. Det omfatter også ansvar som går lenger enn det loven krever.",
+        "kriterier": [
+          "Får fram hensynet til mennesker, samfunn og miljø.",
+          "Får fram at ansvaret går utover lovkrav."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign identitet og profil i en virksomhet. Hva beskriver hvert av begrepene?",
+        "fasit": "Identitet er hvordan virksomheten ser på seg selv. Profil er hvordan virksomheten ønsker å bli sett av andre.",
+        "kriterier": [
+          "Beskriver identitet som virksomhetens syn på seg selv.",
+          "Beskriver profil som hvordan virksomheten ønsker å bli oppfattet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En beslutning i en virksomhet påvirker både ansatte, kunder og lokalsamfunnet. Forklar hvorfor virksomheten bør ta hensyn til og balansere interessene deres.",
+        "fasit": "Disse gruppene påvirkes av virksomheten og er derfor interessenter. De kan ha ulike interesser, så virksomheten bør ta hensyn til dem og forsøke å balansere dem.",
+        "kriterier": [
+          "Forklarer at gruppene er interessenter fordi de påvirkes av virksomheten.",
+          "Får fram at ulike interesser må tas hensyn til og balanseres."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En virksomhet følger alle lover, men vurderer et tiltak som kan skade mennesker eller miljø. Bruk det etiske og det lovmessige perspektivet til å forklare hva virksomheten bør ta hensyn til.",
+        "fasit": "Det lovmessige perspektivet krever at virksomheten følger lovens minstekrav. Det etiske perspektivet innebærer også en plikt til å unngå skade på mennesker og miljø, selv når loven ikke krever det.",
+        "kriterier": [
+          "Får fram at loven setter minstekrav som virksomheten må følge.",
+          "Får fram at det etiske ansvaret kan gå lenger og innebærer å unngå skade."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En virksomhet undersøker risiko for brudd på menneskerettigheter og dårlige arbeidsforhold hos leverandørene sine. Forklar hva en slik aktsomhetsvurdering går ut på.",
+        "fasit": "En aktsomhetsvurdering går ut på å kartlegge risiko for brudd på menneskerettigheter og anstendige arbeidsforhold i leverandørkjeden. Den hjelper virksomheten med å undersøke mulige problemer hos leverandørene.",
+        "kriterier": [
+          "Forklarer at vurderingen kartlegger risiko.",
+          "Nevner menneskerettigheter og arbeidsforhold i leverandørkjeden."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En virksomhet legger et samfunnsansvarstiltak inn i kjernevirksomheten og rapporterer hvordan det følges opp. Forklar hvorfor dette er relevant når man vurderer om tiltaket er reelt eller bare pynt.",
+        "fasit": "At tiltaket er knyttet til kjernevirksomheten, tyder på at det handler om hvordan virksomheten faktisk drives, ikke bare om å skape et godt inntrykk. Rapportering av oppfølging gjør det mulig å se om virksomheten følger opp tiltaket over tid.",
+        "kriterier": [
+          "Forklarer hvorfor tilknytning til kjernevirksomheten taler for at tiltaket er reelt.",
+          "Får fram at rapportering og oppfølging viser om tiltaket blir gjennomført over tid."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En virksomhet har allerede reagert raskt på en krise. Beskriv to viktige ting den bør gjøre videre for å håndtere krisen godt.",
+        "fasit": "Virksomheten bør være ærlig og åpen, ta ansvar og beklage. Den bør også fortelle hva den gjør for å rette opp situasjonen og følge opp over tid.",
+        "kriterier": [
+          "Nevner ærlighet og åpenhet og/eller at virksomheten tar ansvar og beklager.",
+          "Får fram at virksomheten må rette opp situasjonen og følge opp videre."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hva handlingsrom betyr for en virksomhet, og hvordan et godt omdømme kan gi virksomheten større handlingsrom i en vanskelig situasjon.",
+        "fasit": "Handlingsrom er friheten virksomheten har til å handle i vanskelige situasjoner. Et godt omdømme kan gi større handlingsrom fordi interessentene har tillit til virksomheten.",
+        "kriterier": [
+          "Forklarer handlingsrom som frihet eller mulighet til å handle i en vanskelig situasjon.",
+          "Knytter større handlingsrom til tillit som følger av et godt omdømme."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,81 +4,434 @@
   "trinnId": "vg1",
   "name": "Kulturmøter i litteraturen",
   "intro": "Hvordan tekster framstiller møter mellom ulike kulturer: «vi og de», stereotypier, identitet og tilhørighet, hvem som får stemme, og språket som virkemiddel – med eksempler fra norsk litteratur.",
-  "kompetansemaal": [2, 1],
+  "kompetansemaal": [
+    2,
+    1
+  ],
   "sammendrag": "## Kulturmøter\n\nEt **kulturmøte** er et møte mellom mennesker med ulik **kulturell bakgrunn** – ulikt språk, religion, levesett eller verdier. Litteraturen har alltid skildret slike møter: mellom samer og nordmenn, mellom by og bygd, mellom nordmenn og innvandrere, og mellom generasjoner i samme familie.\n\n## «Vi» og «de andre»\n\nMange tekster viser hvordan mennesker deler verden inn i **«vi»** og **«de andre»**. Når «de andre» framstilles som like, fremmede eller truende, snakker vi om **stereotypier** og **fordommer**. Noen tekster **forsterker** slike bilder, mens andre **utfordrer** dem ved å vise mennesker som sammensatte individer.\n\nBegrepet **eksotisme** brukes når det fremmede framstilles som spennende og annerledes, men på en overfladisk måte. Litteraturforskeren **Edward Said** kritiserte i boka *Orientalism* (1978) hvordan vestlige tekster har framstilt «Østen» som mystisk og tilbakestående.\n\n## Identitet og tilhørighet\n\nEt vanlig tema er **identitet**: Hvem er jeg når jeg har røtter i flere kulturer? Personer i slike tekster kan oppleve å stå **mellom to kulturer**, eller de kan skape en **hybrid identitet** som henter noe fra begge. Andre temaer er **utenforskap**, **rasisme**, **forventninger fra familien** og **generasjonskonflikter**.\n\n## Eksempler fra norsk litteratur\n\n- **Henrik Wergeland** skrev diktsamlingene *Jøden* og *Jødinden* på 1840-tallet for å få opphevet forbudet mot jøder i Grunnloven.\n- **Maria Navarro Skarangers** *Alle utlendinger har lukka gardiner* (2015) er skrevet på en **multietnolekt**, et språk preget av ungdom med ulik språkbakgrunn i Oslo.\n- **Zeshan Shakars** *Tante Ulrikkes vei* (2017) skildrer to unge gutter i Groruddalen gjennom e-poster og intervjuer til en undersøkelse – og viser forskjellen på hvordan de ser seg selv og hvordan storsamfunnet ser dem.\n- Samisk litteratur skildrer ofte møtet med **fornorskingen** og kampen for språk og kultur.\n\n## Hvordan analysere kulturmøter?\n\nNyttige spørsmål:\n\n1. **Hvem forteller**, og fra hvilket perspektiv? Ser vi møtet fra innsiden eller utenfra?\n2. **Hvem får stemme**, og hvem blir bare beskrevet?\n3. Hvordan framstilles de ulike kulturene – **nyansert** eller **stereotypt**?\n4. Hvilke **konflikter** oppstår, og hvordan løses de?\n5. Hvordan brukes **språket**? Dialekt, multietnolekt, **kodeveksling** og ord fra andre språk kan vise identitet og tilhørighet.\n6. Hva kan teksten si om **samfunnet** den er skrevet i?\n\n## Hvorfor lese om kulturmøter?\n\nLitteratur kan gi innsikt i hvordan det er å være **en annen**. Den kan skape **empati**, utfordre egne fordommer og vise at kultur ikke er noe fast, men noe som stadig **endrer seg** i møte med andre.",
   "flashcards": [
-    { "term": "Kulturmøte", "def": "Møte mellom mennesker med ulik kulturell bakgrunn." },
-    { "term": "«Vi og de andre»", "def": "Inndeling av mennesker i en egen gruppe og en fremmed gruppe." },
-    { "term": "Stereotypi", "def": "Forenklet og fastlåst bilde av en gruppe mennesker." },
-    { "term": "Fordom", "def": "Negativ holdning til noen uten å kjenne dem." },
-    { "term": "Eksotisme", "def": "Å framstille det fremmede som spennende og annerledes på en overfladisk måte." },
-    { "term": "Orientalisme", "def": "Edward Saids begrep for vestlige, forenklede framstillinger av «Østen»." },
-    { "term": "Identitet", "def": "Hvem man er og opplever seg som." },
-    { "term": "Hybrid identitet", "def": "Identitet som henter noe fra flere kulturer." },
-    { "term": "Multietnolekt", "def": "Språkvariant preget av ungdom med ulik språkbakgrunn." },
-    { "term": "Kodeveksling", "def": "Å skifte mellom språk eller språkvarianter i samme samtale." },
-    { "term": "Perspektiv", "def": "Hvem som ser og forteller i en tekst." },
-    { "term": "Å gi stemme", "def": "At en person eller gruppe får fortelle selv i teksten." },
-    { "term": "Wergelands Jøden", "def": "Diktsamling fra 1840-tallet mot forbudet mot jøder i Grunnloven." },
-    { "term": "Tante Ulrikkes vei", "def": "Roman av Zeshan Shakar om to unge gutter i Groruddalen." },
-    { "term": "Empati", "def": "Evnen til å sette seg inn i hvordan andre har det." }
+    {
+      "term": "Kulturmøte",
+      "def": "Møte mellom mennesker med ulik kulturell bakgrunn."
+    },
+    {
+      "term": "«Vi og de andre»",
+      "def": "Inndeling av mennesker i en egen gruppe og en fremmed gruppe."
+    },
+    {
+      "term": "Stereotypi",
+      "def": "Forenklet og fastlåst bilde av en gruppe mennesker."
+    },
+    {
+      "term": "Fordom",
+      "def": "Negativ holdning til noen uten å kjenne dem."
+    },
+    {
+      "term": "Eksotisme",
+      "def": "Å framstille det fremmede som spennende og annerledes på en overfladisk måte."
+    },
+    {
+      "term": "Orientalisme",
+      "def": "Edward Saids begrep for vestlige, forenklede framstillinger av «Østen»."
+    },
+    {
+      "term": "Identitet",
+      "def": "Hvem man er og opplever seg som."
+    },
+    {
+      "term": "Hybrid identitet",
+      "def": "Identitet som henter noe fra flere kulturer."
+    },
+    {
+      "term": "Multietnolekt",
+      "def": "Språkvariant preget av ungdom med ulik språkbakgrunn."
+    },
+    {
+      "term": "Kodeveksling",
+      "def": "Å skifte mellom språk eller språkvarianter i samme samtale."
+    },
+    {
+      "term": "Perspektiv",
+      "def": "Hvem som ser og forteller i en tekst."
+    },
+    {
+      "term": "Å gi stemme",
+      "def": "At en person eller gruppe får fortelle selv i teksten."
+    },
+    {
+      "term": "Wergelands Jøden",
+      "def": "Diktsamling fra 1840-tallet mot forbudet mot jøder i Grunnloven."
+    },
+    {
+      "term": "Tante Ulrikkes vei",
+      "def": "Roman av Zeshan Shakar om to unge gutter i Groruddalen."
+    },
+    {
+      "term": "Empati",
+      "def": "Evnen til å sette seg inn i hvordan andre har det."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en stereotypi?", "options": ["En type musikkanlegg", "En nyansert personskildring", "Et forenklet og fastlåst bilde av en gruppe", "En litterær periode"], "correct": 2, "explain": "Stereotypier gjør mennesker like og overser forskjellene mellom dem." },
-    { "id": "q02", "text": "Hvorfor skrev Henrik Wergeland diktsamlingene Jøden og Jødinden?", "options": ["For å få opphevet forbudet mot jøder i Grunnloven", "For å feire grunnlovsdagen", "For å skildre samisk kultur", "For å kritisere kristendommen"], "correct": 0, "explain": "Forbudet ble opphevet i 1851, etter Wergelands død." },
-    { "id": "q03", "text": "Hva er en multietnolekt?", "options": ["Et offisielt skriftspråk", "En dialekt fra Vestlandet", "Et samisk språk", "En språkvariant preget av ungdom med ulik språkbakgrunn"], "correct": 3, "explain": "Skaranger bruker multietnolekt som virkemiddel i romanen sin." },
-    { "id": "q04", "text": "Hva betyr hybrid identitet?", "options": ["At man ikke har noen identitet", "En identitet som henter noe fra flere kulturer", "At man bytter navn", "At man bare tilhører én kultur"], "correct": 1, "explain": "Mange med røtter i flere land beskriver en slik identitet." },
-    { "id": "q05", "text": "Hvilket spørsmål er nyttig når du analyserer kulturmøter i en tekst?", "options": ["Hvem forteller, og hvem får stemme?", "Hvor mange sider har boka?", "Hva kostet boka?", "Hvor bor forfatteren nå?"], "correct": 0, "explain": "Perspektivet påvirker hvordan kulturene framstilles." },
-    { "id": "q06", "text": "Hva kritiserte Edward Said i Orientalism?", "options": ["Norsk litteratur", "Samiske fortellinger", "Vestlige, forenklede framstillinger av «Østen»", "Moderne lyrikk"], "correct": 2, "explain": "Begrepet orientalisme brukes fortsatt i analyse av kulturmøter." },
-    { "id": "q07", "text": "Hva er kodeveksling?", "options": ["Å bytte passord", "Å skifte mellom språk eller språkvarianter i samme samtale", "Å oversette en bok", "Å skrive på nynorsk"], "correct": 1, "explain": "Kodeveksling kan vise tilhørighet til flere grupper." },
-    { "id": "q08", "text": "Hva skildrer Zeshan Shakars Tante Ulrikkes vei?", "options": ["Livet på et fiskevær", "Samisk reindrift", "Forbudet mot jøder", "To unge gutter i Groruddalen"], "correct": 3, "explain": "Romanen er skrevet som e-poster og intervjuer." },
-    { "id": "q09", "text": "Hva er eksotisme?", "options": ["Å framstille det fremmede som spennende på en overfladisk måte", "Å reise mye", "En type rim", "Å skrive om sin egen kultur"], "correct": 0, "explain": "Eksotisme kan gjøre andre kulturer til kulisser." },
-    { "id": "q10", "text": "Hvordan kan litteratur om kulturmøter påvirke leseren?", "options": ["Den kan ikke påvirke noen", "Den gir bare underholdning", "Den kan skape empati og utfordre fordommer", "Den gjør leseren mer fordomsfull"], "correct": 2, "explain": "Litteratur lar oss se verden fra andres ståsted." }
+    {
+      "id": "q01",
+      "text": "Hva er en stereotypi?",
+      "options": [
+        "En type musikkanlegg",
+        "En nyansert personskildring",
+        "Et forenklet og fastlåst bilde av en gruppe",
+        "En litterær periode"
+      ],
+      "correct": 2,
+      "explain": "Stereotypier gjør mennesker like og overser forskjellene mellom dem."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor skrev Henrik Wergeland diktsamlingene Jøden og Jødinden?",
+      "options": [
+        "For å få opphevet forbudet mot jøder i Grunnloven",
+        "For å feire grunnlovsdagen",
+        "For å skildre samisk kultur",
+        "For å kritisere kristendommen"
+      ],
+      "correct": 0,
+      "explain": "Forbudet ble opphevet i 1851, etter Wergelands død."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en multietnolekt?",
+      "options": [
+        "Et offisielt skriftspråk",
+        "En dialekt fra Vestlandet",
+        "Et samisk språk",
+        "En språkvariant preget av ungdom med ulik språkbakgrunn"
+      ],
+      "correct": 3,
+      "explain": "Skaranger bruker multietnolekt som virkemiddel i romanen sin."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr hybrid identitet?",
+      "options": [
+        "At man ikke har noen identitet",
+        "En identitet som henter noe fra flere kulturer",
+        "At man bytter navn",
+        "At man bare tilhører én kultur"
+      ],
+      "correct": 1,
+      "explain": "Mange med røtter i flere land beskriver en slik identitet."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket spørsmål er nyttig når du analyserer kulturmøter i en tekst?",
+      "options": [
+        "Hvem forteller, og hvem får stemme?",
+        "Hvor mange sider har boka?",
+        "Hva kostet boka?",
+        "Hvor bor forfatteren nå?"
+      ],
+      "correct": 0,
+      "explain": "Perspektivet påvirker hvordan kulturene framstilles."
+    },
+    {
+      "id": "q06",
+      "text": "Hva kritiserte Edward Said i Orientalism?",
+      "options": [
+        "Norsk litteratur",
+        "Samiske fortellinger",
+        "Vestlige, forenklede framstillinger av «Østen»",
+        "Moderne lyrikk"
+      ],
+      "correct": 2,
+      "explain": "Begrepet orientalisme brukes fortsatt i analyse av kulturmøter."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er kodeveksling?",
+      "options": [
+        "Å bytte passord",
+        "Å skifte mellom språk eller språkvarianter i samme samtale",
+        "Å oversette en bok",
+        "Å skrive på nynorsk"
+      ],
+      "correct": 1,
+      "explain": "Kodeveksling kan vise tilhørighet til flere grupper."
+    },
+    {
+      "id": "q08",
+      "text": "Hva skildrer Zeshan Shakars Tante Ulrikkes vei?",
+      "options": [
+        "Livet på et fiskevær",
+        "Samisk reindrift",
+        "Forbudet mot jøder",
+        "To unge gutter i Groruddalen"
+      ],
+      "correct": 3,
+      "explain": "Romanen er skrevet som e-poster og intervjuer."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er eksotisme?",
+      "options": [
+        "Å framstille det fremmede som spennende på en overfladisk måte",
+        "Å reise mye",
+        "En type rim",
+        "Å skrive om sin egen kultur"
+      ],
+      "correct": 0,
+      "explain": "Eksotisme kan gjøre andre kulturer til kulisser."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan litteratur om kulturmøter påvirke leseren?",
+      "options": [
+        "Den kan ikke påvirke noen",
+        "Den gir bare underholdning",
+        "Den kan skape empati og utfordre fordommer",
+        "Den gjør leseren mer fordomsfull"
+      ],
+      "correct": 2,
+      "explain": "Litteratur lar oss se verden fra andres ståsted."
+    }
   ],
   "mindmap": {
     "label": "Kulturmøter i litteraturen",
     "children": [
-      { "label": "Vi og de", "children": [
-        { "label": "Stereotypier" },
-        { "label": "Fordommer" },
-        { "label": "Eksotisme" },
-        { "label": "Orientalisme" }
-      ] },
-      { "label": "Identitet", "children": [
-        { "label": "Mellom to kulturer" },
-        { "label": "Hybrid identitet" },
-        { "label": "Tilhørighet" }
-      ] },
-      { "label": "Eksempler", "children": [
-        { "label": "Wergeland: Jøden" },
-        { "label": "Skaranger" },
-        { "label": "Shakar" },
-        { "label": "Samisk litteratur" }
-      ] },
-      { "label": "Analyse", "children": [
-        { "label": "Hvem forteller?" },
-        { "label": "Hvem får stemme?" },
-        { "label": "Nyansert eller stereotypt?" }
-      ] },
-      { "label": "Språk", "children": [
-        { "label": "Multietnolekt" },
-        { "label": "Kodeveksling" },
-        { "label": "Dialekt" }
-      ] }
+      {
+        "label": "Vi og de",
+        "children": [
+          {
+            "label": "Stereotypier"
+          },
+          {
+            "label": "Fordommer"
+          },
+          {
+            "label": "Eksotisme"
+          },
+          {
+            "label": "Orientalisme"
+          }
+        ]
+      },
+      {
+        "label": "Identitet",
+        "children": [
+          {
+            "label": "Mellom to kulturer"
+          },
+          {
+            "label": "Hybrid identitet"
+          },
+          {
+            "label": "Tilhørighet"
+          }
+        ]
+      },
+      {
+        "label": "Eksempler",
+        "children": [
+          {
+            "label": "Wergeland: Jøden"
+          },
+          {
+            "label": "Skaranger"
+          },
+          {
+            "label": "Shakar"
+          },
+          {
+            "label": "Samisk litteratur"
+          }
+        ]
+      },
+      {
+        "label": "Analyse",
+        "children": [
+          {
+            "label": "Hvem forteller?"
+          },
+          {
+            "label": "Hvem får stemme?"
+          },
+          {
+            "label": "Nyansert eller stereotypt?"
+          }
+        ]
+      },
+      {
+        "label": "Språk",
+        "children": [
+          {
+            "label": "Multietnolekt"
+          },
+          {
+            "label": "Kodeveksling"
+          },
+          {
+            "label": "Dialekt"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kulturmøter kan også skje mellom generasjoner i samme familie.", "correct": true, "explain": "Foreldre og barn kan ha ulike verdier og levesett." },
-      { "id": "m02", "type": "sant-usant", "text": "Alle tekster om kulturmøter utfordrer stereotypier.", "correct": false, "explain": "Noen tekster forsterker stereotypier." },
-      { "id": "m03", "type": "sant-usant", "text": "Språkvalg kan være et virkemiddel for å vise identitet i en roman.", "correct": true, "explain": "Skaranger bruker multietnolekt nettopp slik." },
-      { "id": "m04", "type": "sant-usant", "text": "Kultur er noe fast som aldri endrer seg.", "correct": false, "explain": "Kulturer endrer seg stadig, blant annet i møte med andre." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er en fordom?", "options": ["En negativ holdning til noen uten å kjenne dem", "En gammel dom i retten", "Et litterært virkemiddel", "En type fortelling"], "correct": 0, "explain": "Fordommer kan utfordres gjennom møter og litteratur." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr det å «gi stemme» til noen i en tekst?", "options": ["Å gi dem sangtimer", "Å la dem stemme ved valg", "At de får fortelle selv", "At de ikke nevnes"], "correct": 2, "explain": "Det gir et innenfra-perspektiv." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken roman er skrevet på multietnolekt?", "options": ["Min kamp", "Alle utlendinger har lukka gardiner", "Peer Gynt", "Et dukkehjem"], "correct": 1, "explain": "Romanen er av Maria Navarro Skaranger." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kulturmøter kan også skje mellom generasjoner i samme familie.",
+        "correct": true,
+        "explain": "Foreldre og barn kan ha ulike verdier og levesett."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle tekster om kulturmøter utfordrer stereotypier.",
+        "correct": false,
+        "explain": "Noen tekster forsterker stereotypier."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Språkvalg kan være et virkemiddel for å vise identitet i en roman.",
+        "correct": true,
+        "explain": "Skaranger bruker multietnolekt nettopp slik."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kultur er noe fast som aldri endrer seg.",
+        "correct": false,
+        "explain": "Kulturer endrer seg stadig, blant annet i møte med andre."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er en fordom?",
+        "options": [
+          "En negativ holdning til noen uten å kjenne dem",
+          "En gammel dom i retten",
+          "Et litterært virkemiddel",
+          "En type fortelling"
+        ],
+        "correct": 0,
+        "explain": "Fordommer kan utfordres gjennom møter og litteratur."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr det å «gi stemme» til noen i en tekst?",
+        "options": [
+          "Å gi dem sangtimer",
+          "Å la dem stemme ved valg",
+          "At de får fortelle selv",
+          "At de ikke nevnes"
+        ],
+        "correct": 2,
+        "explain": "Det gir et innenfra-perspektiv."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken roman er skrevet på multietnolekt?",
+        "options": [
+          "Min kamp",
+          "Alle utlendinger har lukka gardiner",
+          "Peer Gynt",
+          "Et dukkehjem"
+        ],
+        "correct": 1,
+        "explain": "Romanen er av Maria Navarro Skaranger."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "To mennesker kan ha ulikt språk, religion, levesett eller verdier. Forklar hvorfor møtet mellom dem kan kalles et kulturmøte.",
+        "fasit": "Det er et kulturmøte fordi menneskene har ulik kulturell bakgrunn. De møtes på tvers av forskjeller som språk, religion, levesett eller verdier.",
+        "kriterier": [
+          "Forklarer at kulturmøtet handler om mennesker med ulik kulturell bakgrunn.",
+          "Knytter forskjellen til minst ett eksempel, som språk, religion, levesett eller verdier."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign en stereotypi med en fordom. Hva er forskjellen på de to begrepene?",
+        "fasit": "En stereotypi er et forenklet og fastlåst bilde av en gruppe. En fordom er en negativ holdning til noen uten at man kjenner dem.",
+        "kriterier": [
+          "Forklarer stereotypi som et forenklet, fastlåst bilde av en gruppe.",
+          "Forklarer fordom som en negativ holdning uten kjennskap."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Tenk deg at en person fra en gruppe selv forteller om erfaringene sine i en roman, i stedet for at en forteller utenfra beskriver personen. Forklar hvordan dette påvirker hvem som får stemme, og hvilket perspektiv leseren møter.",
+        "fasit": "Når personen forteller selv, får personen stemme i teksten. Leseren møter erfaringene fra personens eget perspektiv, ikke bare slik en utenforstående beskriver dem.",
+        "kriterier": [
+          "Forklarer at personen selv får fortelle eller uttrykke erfaringene sine.",
+          "Viser at perspektivet dermed kommer innenfra personen eller gruppen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I *Tante Ulrikkes vei* kommer historien om to unge gutter i Groruddalen fram gjennom e-poster og intervjuer til en undersøkelse. Forklar hvordan dette kan vise forskjellen mellom hvordan guttene ser seg selv, og hvordan storsamfunnet ser dem.",
+        "fasit": "E-postene og intervjuene kan vise ulike måter å beskrive guttene på. Slik kommer forskjellen fram mellom deres eget syn på seg selv og storsamfunnets blikk på dem.",
+        "kriterier": [
+          "Knytter e-postene og intervjuene til at ulike stemmer eller framstillinger kommer fram.",
+          "Forklarer forskjellen mellom guttenes eget syn og storsamfunnets syn."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En ungdom bruker norsk med venner og skifter til et annet språk eller en annen språkvariant i samme samtale med familien. Hvilket språklig fenomen kan dette være, og hva kan det vise om ungdommens tilhørighet?",
+        "fasit": "Dette kan være kodeveksling, fordi ungdommen skifter mellom språk eller språkvarianter. Skiftet kan vise tilhørighet til ulike mennesker eller miljøer.",
+        "kriterier": [
+          "Identifiserer skiftingen mellom språk eller språkvarianter som kodeveksling.",
+          "Forklarer at språkbruken kan vise identitet eller tilhørighet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign Henrik Wergelands *Jøden* og *Jødinden* med Edward Saids kritikk i *Orientalism*. Hva prøvde Wergeland å påvirke, og hva kritiserte Said?",
+        "fasit": "Wergeland skrev diktsamlingene for å få opphevet forbudet mot jøder i Grunnloven. Said kritiserte vestlige tekster som framstilte «Østen» som mystisk og tilbakestående.",
+        "kriterier": [
+          "Forklarer at Wergeland ville få opphevet forbudet mot jøder i Grunnloven.",
+          "Forklarer at Said kritiserte vestlige, forenklede framstillinger av «Østen»."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Samisk litteratur skildrer ofte fornorskingen og kampen for språk og kultur. Forklar hvordan disse temaene henger sammen.",
+        "fasit": "Fornorskingen er knyttet til møtet mellom samisk og norsk kultur. Kampen for språk og kultur viser at samisk identitet og tilhørighet står på spill.",
+        "kriterier": [
+          "Knytter fornorskingen til møtet mellom samisk og norsk kultur.",
+          "Forklarer at kampen handler om å bevare eller kjempe for samisk språk og kultur."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En ungdom ønsker å leve på en måte som kombinerer ulike kulturelle vaner, mens familien forventer at ungdommen følger familiens vaner. Forklar hvilken type konflikt dette kan være, og hvorfor den oppstår.",
+        "fasit": "Dette kan være en generasjonskonflikt. Den oppstår fordi ungdommens ønsker og identitet ikke helt samsvarer med familiens forventninger.",
+        "kriterier": [
+          "Identifiserer konflikten som en generasjonskonflikt eller konflikt mellom ungdommen og familien.",
+          "Forklarer at den skyldes ulike forventninger eller ønsker knyttet til identitet og levesett."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

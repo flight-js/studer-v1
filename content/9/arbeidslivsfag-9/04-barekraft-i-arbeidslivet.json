@@ -4,80 +4,430 @@
   "trinnId": "9",
   "name": "Bærekraft i arbeidslivet",
   "intro": "De tre dimensjonene av bærekraft, sirkulær økonomi, reduser–gjenbruk–gjenvinn, kildesortering, livsløpet til et produkt, energi og transport, og hvordan du tar bærekraftige valg i arbeidsoppdrag.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Hva er bærekraft?\n\n**Bærekraftig utvikling** betyr å dekke behovene til mennesker i dag uten å ødelegge mulighetene for dem som kommer etter oss. Bærekraft har tre **dimensjoner**:\n\n- **Miljø**: Vi må ta vare på naturen, klimaet og ressursene.\n- **Økonomi**: Bedrifter må tjene penger og skape arbeidsplasser over tid.\n- **Sosialt**: Arbeidet skal skje under **anstendige arbeidsforhold**, med rettferdig lønn og uten barnearbeid.\n\nFNs **bærekraftsmål** gjelder også arbeidslivet, for eksempel mål 8 om anstendig arbeid og økonomisk vekst og mål 12 om ansvarlig forbruk og produksjon.\n\n## Lineær og sirkulær økonomi\n\nI en **lineær økonomi** hentes råvarer ut, varer produseres, brukes og kastes: *ta – lag – kast*. I en **sirkulær økonomi** holdes ressursene i bruk så lenge som mulig ved at produkter **repareres**, **gjenbrukes** og til slutt **gjenvinnes**.\n\n## Reduser, gjenbruk, gjenvinn\n\nRekkefølgen er viktig:\n\n1. **Reduser**: Bruk mindre materialer og energi. Planlegg godt, slik at det blir lite **kapp** og **svinn**.\n2. **Gjenbruk**: Bruk ting om igjen, gjerne til noe nytt (**redesign**).\n3. **Gjenvinn**: Sorter avfallet, slik at materialene kan bli til nye produkter.\n\n## Kildesortering\n\nI verksted og kjøkken sorterer man **matavfall**, **papir og papp**, **plast**, **glass og metall**, **restavfall** og **farlig avfall**. Farlig avfall er for eksempel **maling**, **løsemidler**, **batterier** og **elektronikk**. Det skal aldri kastes i vanlig avfall eller helles i vasken, men leveres til et **mottak**.\n\n## Livsløpet til et produkt\n\nEt produkt påvirker miljøet gjennom hele **livsløpet**: **råvarer**, **produksjon**, **transport**, **bruk** og **avfall**. Et produkt som er **holdbart** og lett å **reparere**, har ofte lavere miljøbelastning enn et billig produkt som må byttes ofte.\n\n## Energi og transport\n\nSlå av **maskiner, lys og ovner** når de ikke er i bruk. Kjøp gjerne **lokale** råvarer, noe som kan gi kortere transport. Samle innkjøp og leveranser for å unngå unødvendige turer.\n\n## Bærekraftige valg i arbeidsoppdrag\n\nNår du planlegger et arbeidsoppdrag, kan du spørre:\n\n- Kan vi bruke **gjenbruksmaterialer**?\n- Hvordan kan vi få **minst mulig avfall** og **matsvinn**?\n- Er produktet **holdbart**?\n- Er råvarene produsert under **gode arbeidsforhold**? **Miljømerker** som Svanemerket og **Fairtrade**-merket kan gi informasjon om dette.\n\n**Grønne jobber** er en voksende del av arbeidslivet, for eksempel innen fornybar energi, reparasjon og ombruk.",
   "flashcards": [
-    { "term": "Bærekraftig utvikling", "def": "Å dekke dagens behov uten å ødelegge mulighetene for dem som kommer etter oss." },
-    { "term": "Tre dimensjoner av bærekraft", "def": "Miljø, økonomi og det sosiale." },
-    { "term": "Anstendig arbeid", "def": "Arbeid med rettferdig lønn, trygge forhold og uten barnearbeid." },
-    { "term": "Lineær økonomi", "def": "Ta – lag – kast." },
-    { "term": "Sirkulær økonomi", "def": "Økonomi der ressursene holdes i bruk ved reparasjon, gjenbruk og gjenvinning." },
-    { "term": "Reduser", "def": "Å bruke mindre materialer og energi." },
-    { "term": "Gjenbruk", "def": "Å bruke ting om igjen." },
-    { "term": "Gjenvinning", "def": "Å gjøre avfall om til nye materialer." },
-    { "term": "Redesign", "def": "Å lage noe nytt av noe gammelt." },
-    { "term": "Kildesortering", "def": "Å sortere avfallet der det oppstår." },
-    { "term": "Farlig avfall", "def": "Avfall som maling, løsemidler og batterier som må leveres til mottak." },
-    { "term": "Livsløp", "def": "Et produkts vei fra råvarer via produksjon, transport og bruk til avfall." },
-    { "term": "Svanemerket", "def": "Nordisk miljømerke for produkter med lavere miljøbelastning." },
-    { "term": "Fairtrade", "def": "Merke som viser at produsentene har fått en rettferdig betaling." },
-    { "term": "Grønne jobber", "def": "Jobber som bidrar til et mer bærekraftig samfunn." }
+    {
+      "term": "Bærekraftig utvikling",
+      "def": "Å dekke dagens behov uten å ødelegge mulighetene for dem som kommer etter oss."
+    },
+    {
+      "term": "Tre dimensjoner av bærekraft",
+      "def": "Miljø, økonomi og det sosiale."
+    },
+    {
+      "term": "Anstendig arbeid",
+      "def": "Arbeid med rettferdig lønn, trygge forhold og uten barnearbeid."
+    },
+    {
+      "term": "Lineær økonomi",
+      "def": "Ta – lag – kast."
+    },
+    {
+      "term": "Sirkulær økonomi",
+      "def": "Økonomi der ressursene holdes i bruk ved reparasjon, gjenbruk og gjenvinning."
+    },
+    {
+      "term": "Reduser",
+      "def": "Å bruke mindre materialer og energi."
+    },
+    {
+      "term": "Gjenbruk",
+      "def": "Å bruke ting om igjen."
+    },
+    {
+      "term": "Gjenvinning",
+      "def": "Å gjøre avfall om til nye materialer."
+    },
+    {
+      "term": "Redesign",
+      "def": "Å lage noe nytt av noe gammelt."
+    },
+    {
+      "term": "Kildesortering",
+      "def": "Å sortere avfallet der det oppstår."
+    },
+    {
+      "term": "Farlig avfall",
+      "def": "Avfall som maling, løsemidler og batterier som må leveres til mottak."
+    },
+    {
+      "term": "Livsløp",
+      "def": "Et produkts vei fra råvarer via produksjon, transport og bruk til avfall."
+    },
+    {
+      "term": "Svanemerket",
+      "def": "Nordisk miljømerke for produkter med lavere miljøbelastning."
+    },
+    {
+      "term": "Fairtrade",
+      "def": "Merke som viser at produsentene har fått en rettferdig betaling."
+    },
+    {
+      "term": "Grønne jobber",
+      "def": "Jobber som bidrar til et mer bærekraftig samfunn."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er de tre dimensjonene av bærekraft?", "options": ["Tre, metall og plast", "Miljø, økonomi og det sosiale", "Fortid, nåtid og framtid", "Land, by og hav"], "correct": 1, "explain": "Alle tre må henge sammen for at utviklingen skal være bærekraftig." },
-    { "id": "q02", "text": "Hva kjennetegner en sirkulær økonomi?", "options": ["Ta – lag – kast", "Alt produseres i utlandet", "Ressursene holdes i bruk ved reparasjon, gjenbruk og gjenvinning", "Ingen ting blir produsert"], "correct": 2, "explain": "Den lineære økonomien er ta – lag – kast." },
-    { "id": "q03", "text": "Hva er det første steget i «reduser, gjenbruk, gjenvinn»?", "options": ["Å bruke mindre materialer og energi", "Å kaste mest mulig", "Å kjøpe nytt", "Å brenne avfallet"], "correct": 0, "explain": "Det beste avfallet er det som aldri oppstår." },
-    { "id": "q04", "text": "Hva gjør du med rester av maling fra et arbeidsoppdrag?", "options": ["Heller dem i vasken", "Kaster dem i restavfallet", "Graver dem ned", "Leverer dem til mottak for farlig avfall"], "correct": 3, "explain": "Maling kan skade natur og avløpssystemer." },
-    { "id": "q05", "text": "Hva hører med i livsløpet til et produkt?", "options": ["Bare produksjonen", "Råvarer, produksjon, transport, bruk og avfall", "Bare avfallet", "Bare prisen"], "correct": 1, "explain": "Miljøbelastningen må vurderes gjennom hele livsløpet." },
-    { "id": "q06", "text": "Hva viser Fairtrade-merket?", "options": ["At produsentene har fått en rettferdig betaling", "At produktet er billig", "At produktet er norsk", "At produktet er økologisk"], "correct": 0, "explain": "Fairtrade handler om den sosiale dimensjonen av bærekraft." },
-    { "id": "q07", "text": "Hvorfor kan et holdbart produkt være mer bærekraftig enn et billig produkt?", "options": ["Det er alltid laget av plast", "Det krever mer transport", "Det må byttes sjeldnere", "Det er tyngre"], "correct": 2, "explain": "Færre nye produkter betyr mindre ressursbruk og avfall." },
-    { "id": "q08", "text": "Hva er et eksempel på en grønn jobb?", "options": ["Å selge engangsartikler", "Å installere solcellepaneler", "Å kaste brukte klær", "Å kjøre tom lastebil"], "correct": 1, "explain": "Fornybar energi, reparasjon og ombruk gir grønne jobber." },
-    { "id": "q09", "text": "Hvilket FN-bærekraftsmål handler om anstendig arbeid?", "options": ["Mål 1", "Mål 14", "Mål 3", "Mål 8"], "correct": 3, "explain": "Mål 8 handler om anstendig arbeid og økonomisk vekst." },
-    { "id": "q10", "text": "Hvordan kan du redusere svinn i et arbeidsoppdrag?", "options": ["Kjøpe mye ekstra materiale", "Planlegge godt og måle nøye", "Kaste rester med en gang", "Ikke lage arbeidstegning"], "correct": 1, "explain": "God planlegging gir lite kapp og svinn." }
+    {
+      "id": "q01",
+      "text": "Hva er de tre dimensjonene av bærekraft?",
+      "options": [
+        "Tre, metall og plast",
+        "Miljø, økonomi og det sosiale",
+        "Fortid, nåtid og framtid",
+        "Land, by og hav"
+      ],
+      "correct": 1,
+      "explain": "Alle tre må henge sammen for at utviklingen skal være bærekraftig."
+    },
+    {
+      "id": "q02",
+      "text": "Hva kjennetegner en sirkulær økonomi?",
+      "options": [
+        "Ta – lag – kast",
+        "Alt produseres i utlandet",
+        "Ressursene holdes i bruk ved reparasjon, gjenbruk og gjenvinning",
+        "Ingen ting blir produsert"
+      ],
+      "correct": 2,
+      "explain": "Den lineære økonomien er ta – lag – kast."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er det første steget i «reduser, gjenbruk, gjenvinn»?",
+      "options": [
+        "Å bruke mindre materialer og energi",
+        "Å kaste mest mulig",
+        "Å kjøpe nytt",
+        "Å brenne avfallet"
+      ],
+      "correct": 0,
+      "explain": "Det beste avfallet er det som aldri oppstår."
+    },
+    {
+      "id": "q04",
+      "text": "Hva gjør du med rester av maling fra et arbeidsoppdrag?",
+      "options": [
+        "Heller dem i vasken",
+        "Kaster dem i restavfallet",
+        "Graver dem ned",
+        "Leverer dem til mottak for farlig avfall"
+      ],
+      "correct": 3,
+      "explain": "Maling kan skade natur og avløpssystemer."
+    },
+    {
+      "id": "q05",
+      "text": "Hva hører med i livsløpet til et produkt?",
+      "options": [
+        "Bare produksjonen",
+        "Råvarer, produksjon, transport, bruk og avfall",
+        "Bare avfallet",
+        "Bare prisen"
+      ],
+      "correct": 1,
+      "explain": "Miljøbelastningen må vurderes gjennom hele livsløpet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva viser Fairtrade-merket?",
+      "options": [
+        "At produsentene har fått en rettferdig betaling",
+        "At produktet er billig",
+        "At produktet er norsk",
+        "At produktet er økologisk"
+      ],
+      "correct": 0,
+      "explain": "Fairtrade handler om den sosiale dimensjonen av bærekraft."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor kan et holdbart produkt være mer bærekraftig enn et billig produkt?",
+      "options": [
+        "Det er alltid laget av plast",
+        "Det krever mer transport",
+        "Det må byttes sjeldnere",
+        "Det er tyngre"
+      ],
+      "correct": 2,
+      "explain": "Færre nye produkter betyr mindre ressursbruk og avfall."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et eksempel på en grønn jobb?",
+      "options": [
+        "Å selge engangsartikler",
+        "Å installere solcellepaneler",
+        "Å kaste brukte klær",
+        "Å kjøre tom lastebil"
+      ],
+      "correct": 1,
+      "explain": "Fornybar energi, reparasjon og ombruk gir grønne jobber."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket FN-bærekraftsmål handler om anstendig arbeid?",
+      "options": [
+        "Mål 1",
+        "Mål 14",
+        "Mål 3",
+        "Mål 8"
+      ],
+      "correct": 3,
+      "explain": "Mål 8 handler om anstendig arbeid og økonomisk vekst."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan du redusere svinn i et arbeidsoppdrag?",
+      "options": [
+        "Kjøpe mye ekstra materiale",
+        "Planlegge godt og måle nøye",
+        "Kaste rester med en gang",
+        "Ikke lage arbeidstegning"
+      ],
+      "correct": 1,
+      "explain": "God planlegging gir lite kapp og svinn."
+    }
   ],
   "mindmap": {
     "label": "Bærekraft i arbeidslivet",
     "children": [
-      { "label": "Tre dimensjoner", "children": [
-        { "label": "Miljø" },
-        { "label": "Økonomi" },
-        { "label": "Sosialt" }
-      ] },
-      { "label": "Økonomi", "children": [
-        { "label": "Lineær: ta – lag – kast" },
-        { "label": "Sirkulær" },
-        { "label": "Reparasjon" }
-      ] },
-      { "label": "Avfall", "children": [
-        { "label": "Reduser" },
-        { "label": "Gjenbruk" },
-        { "label": "Gjenvinn" },
-        { "label": "Farlig avfall" }
-      ] },
-      { "label": "Livsløp", "children": [
-        { "label": "Råvarer" },
-        { "label": "Produksjon og transport" },
-        { "label": "Bruk og avfall" }
-      ] },
-      { "label": "Valg i oppdrag", "children": [
-        { "label": "Gjenbruksmaterialer" },
-        { "label": "Miljømerker" },
-        { "label": "Grønne jobber" }
-      ] }
+      {
+        "label": "Tre dimensjoner",
+        "children": [
+          {
+            "label": "Miljø"
+          },
+          {
+            "label": "Økonomi"
+          },
+          {
+            "label": "Sosialt"
+          }
+        ]
+      },
+      {
+        "label": "Økonomi",
+        "children": [
+          {
+            "label": "Lineær: ta – lag – kast"
+          },
+          {
+            "label": "Sirkulær"
+          },
+          {
+            "label": "Reparasjon"
+          }
+        ]
+      },
+      {
+        "label": "Avfall",
+        "children": [
+          {
+            "label": "Reduser"
+          },
+          {
+            "label": "Gjenbruk"
+          },
+          {
+            "label": "Gjenvinn"
+          },
+          {
+            "label": "Farlig avfall"
+          }
+        ]
+      },
+      {
+        "label": "Livsløp",
+        "children": [
+          {
+            "label": "Råvarer"
+          },
+          {
+            "label": "Produksjon og transport"
+          },
+          {
+            "label": "Bruk og avfall"
+          }
+        ]
+      },
+      {
+        "label": "Valg i oppdrag",
+        "children": [
+          {
+            "label": "Gjenbruksmaterialer"
+          },
+          {
+            "label": "Miljømerker"
+          },
+          {
+            "label": "Grønne jobber"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Batterier er farlig avfall.", "correct": true, "explain": "Batterier inneholder stoffer som kan skade miljøet." },
-      { "id": "m02", "type": "sant-usant", "text": "Bærekraft handler bare om miljø.", "correct": false, "explain": "Bærekraft handler også om økonomi og sosiale forhold." },
-      { "id": "m03", "type": "sant-usant", "text": "Å slå av maskiner som ikke er i bruk, sparer energi.", "correct": true, "explain": "Små tiltak blir til mye over tid." },
-      { "id": "m04", "type": "sant-usant", "text": "I en lineær økonomi blir alt gjenvunnet.", "correct": false, "explain": "Den lineære økonomien er ta – lag – kast." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er redesign?", "options": ["Å kaste gamle ting", "Å lage noe nytt av noe gammelt", "Å male en tegning", "Å kjøpe nye materialer"], "correct": 1, "explain": "For eksempel en veske laget av gamle jeans." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er Svanemerket?", "options": ["Et nordisk miljømerke", "Et merke for norsk mat", "Et merke for dyrevelferd", "Et merke for billige varer"], "correct": 0, "explain": "Svanemerkede produkter har lavere miljøbelastning." },
-      { "id": "m07", "type": "flervalg", "text": "Hva hører til den sosiale dimensjonen av bærekraft?", "options": ["Klimautslipp", "Fortjeneste", "Trygge arbeidsforhold og rettferdig lønn", "Energibruk"], "correct": 2, "explain": "Den sosiale dimensjonen handler om menneskene." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Batterier er farlig avfall.",
+        "correct": true,
+        "explain": "Batterier inneholder stoffer som kan skade miljøet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Bærekraft handler bare om miljø.",
+        "correct": false,
+        "explain": "Bærekraft handler også om økonomi og sosiale forhold."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Å slå av maskiner som ikke er i bruk, sparer energi.",
+        "correct": true,
+        "explain": "Små tiltak blir til mye over tid."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "I en lineær økonomi blir alt gjenvunnet.",
+        "correct": false,
+        "explain": "Den lineære økonomien er ta – lag – kast."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er redesign?",
+        "options": [
+          "Å kaste gamle ting",
+          "Å lage noe nytt av noe gammelt",
+          "Å male en tegning",
+          "Å kjøpe nye materialer"
+        ],
+        "correct": 1,
+        "explain": "For eksempel en veske laget av gamle jeans."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er Svanemerket?",
+        "options": [
+          "Et nordisk miljømerke",
+          "Et merke for norsk mat",
+          "Et merke for dyrevelferd",
+          "Et merke for billige varer"
+        ],
+        "correct": 0,
+        "explain": "Svanemerkede produkter har lavere miljøbelastning."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva hører til den sosiale dimensjonen av bærekraft?",
+        "options": [
+          "Klimautslipp",
+          "Fortjeneste",
+          "Trygge arbeidsforhold og rettferdig lønn",
+          "Energibruk"
+        ],
+        "correct": 2,
+        "explain": "Den sosiale dimensjonen handler om menneskene."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr bærekraftig utvikling? Forklar både hva vi skal ta hensyn til i dag, og hva vi må ta vare på for framtidige generasjoner.",
+        "fasit": "Bærekraftig utvikling betyr å dekke behovene til mennesker i dag uten å ødelegge mulighetene for dem som kommer etter oss.",
+        "kriterier": [
+          "Får fram at dagens behov skal dekkes.",
+          "Får fram at framtidige generasjoners muligheter ikke skal ødelegges."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hva må kjennetegne et arbeid for at det skal regnes som anstendig arbeid?",
+        "fasit": "Anstendig arbeid har rettferdig lønn og trygge arbeidsforhold. Det foregår uten barnearbeid.",
+        "kriterier": [
+          "Nevner rettferdig lønn og trygge forhold.",
+          "Nevner at arbeidet skal være uten barnearbeid."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen på gjenbruk og gjenvinning.",
+        "fasit": "Ved gjenbruk brukes en ting om igjen. Ved gjenvinning blir avfall gjort om til nye materialer.",
+        "kriterier": [
+          "Forklarer at gjenbruk betyr å bruke ting om igjen.",
+          "Forklarer at gjenvinning gjør avfall om til nye materialer."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev lager en ny pose av et gammelt stoffstykke. Hvilket begrep beskriver dette, og hva betyr begrepet?",
+        "fasit": "Dette er redesign. Redesign betyr å lage noe nytt av noe gammelt.",
+        "kriterier": [
+          "Kjenner igjen handlingen som redesign.",
+          "Forklarer at redesign er å lage noe nytt av noe gammelt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En kunde ser at et produkt har Svanemerket. Hva forteller merket om produktet?",
+        "fasit": "Svanemerket er et nordisk miljømerke. Det viser at produktet har lavere miljøbelastning.",
+        "kriterier": [
+          "Nevner at Svanemerket er et miljømerke.",
+          "Får fram at merket viser til lavere miljøbelastning."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et kjøkken vil redusere transporten når det bestiller varer. Hvilke to valg kan kjøkkenet gjøre, og hvordan kan de redusere transporten?",
+        "fasit": "Kjøkkenet kan kjøpe lokale råvarer, som kan gi kortere transport. Det kan også samle innkjøp og leveranser, slik at det blir færre unødvendige turer.",
+        "kriterier": [
+          "Foreslår lokale råvarer og knytter det til kortere transport.",
+          "Foreslår å samle innkjøp eller leveranser for å unngå unødvendige turer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hvordan kan en jobb med reparasjon bidra til et mer bærekraftig samfunn, og hva kalles slike jobber?",
+        "fasit": "Reparasjon kan holde produkter i bruk lenger. Jobber som bidrar til et mer bærekraftig samfunn, kalles grønne jobber.",
+        "kriterier": [
+          "Får fram at reparasjon kan holde produkter i bruk lenger.",
+          "Kaller slike jobber grønne jobber."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du er ferdig med å bruke en maskin og arbeidslyset på verkstedet. Hva bør du gjøre, og hvordan bidrar det til bærekraft?",
+        "fasit": "Jeg bør slå av maskinen og lyset når de ikke er i bruk. Da bruker arbeidsplassen mindre energi.",
+        "kriterier": [
+          "Foreslår å slå av maskinen og lyset når de ikke brukes.",
+          "Knytter dette til at man bruker mindre energi."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

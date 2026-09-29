@@ -4,78 +4,424 @@
   "trinnId": "vg1",
   "name": "Prosent, prosentpoeng og promille",
   "intro": "Prosentregning i hverdag og samfunn: finne prosentdelen, prosenten og det hele, prosentvis endring, forskjellen på prosent og prosentpoeng, promille og merverdiavgift.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Prosent\n\n**Prosent** betyr **hundredeler**: 25 % = 25/100 = 0,25. Å regne om til desimaltall gjør prosentregning enkelt.\n\n## Tre grunntyper\n\n**1. Finne prosentdelen**: Hvor mye er 30 % av 800 kr?\n0,30 · 800 = **240 kr**\n\n**2. Finne prosenten**: 45 av 180 elever går til fots. Hvor mange prosent er det?\n45/180 = 0,25 = **25 %**\n\n**3. Finne det hele**: 60 kr er 15 % av et beløp. Hva er beløpet?\n60 / 0,15 = **400 kr**\n\n## Prosentvis endring\n\n**Prosentvis endring** = (ny verdi − gammel verdi) / gammel verdi · 100 %\n\n- En pris øker fra 250 kr til 300 kr: 50/250 = 0,20 = **20 % økning**.\n- En pris synker fra 400 kr til 300 kr: 100/400 = 0,25 = **25 % nedgang**.\n\nLegg merke til at vi alltid deler på den **gamle** verdien.\n\n## Prosent og prosentpoeng\n\nNår noe som allerede er målt i prosent endrer seg, må vi skille mellom **prosentpoeng** og **prosent**:\n\nEt parti går fra **20 %** til **25 %** oppslutning.\n\n- Endringen er **5 prosentpoeng** (25 − 20).\n- Den prosentvise endringen er **25 %** (5/20 = 0,25).\n\nBegge deler er riktig, men de betyr noe forskjellig. I nyheter om valg, renter og ledighet er det viktig å lese nøye: En renteøkning fra 4 % til 5 % er 1 prosentpoeng, men 25 % økning i renten.\n\n## Promille\n\n**Promille** (‰) betyr **tusendeler**: 3 ‰ = 3/1000 = 0,003. Altså er 1 % = 10 ‰. Promille brukes blant annet om\n\n- **alkohol i blodet**: Grensen for å kjøre bil i Norge er **0,2 ‰**.\n- **eiendomsskatt**, som kommunene regner i promille av verdien.\n- **saltinnhold** i havet.\n\n## Merverdiavgift\n\nDe fleste varer og tjenester har **merverdiavgift** (moms). Den generelle satsen er **25 %**.\n\n- Pris uten moms 400 kr → med moms: 400 · 1,25 = **500 kr**.\n- Pris med moms 500 kr → uten moms: 500 / 1,25 = **400 kr**.\n\nObs: Momsen er ikke 25 % av 500 kr! Den er 25 % av prisen **uten** moms, altså 100 kr.\n\n## Rabatt og vurdering\n\nEn jakke til 800 kr med 30 % rabatt koster 800 · 0,70 = **560 kr**. Når du presenterer svar, bør du skrive **enhet**, vise **framgangsmåten** og vurdere om svaret er **rimelig**. Pass også på: Hvis prisen først økes med 10 % og så senkes med 10 %, blir den **ikke** som før – den blir 1 % lavere.",
   "flashcards": [
-    { "term": "Prosent", "def": "Hundredeler: 25 % = 0,25." },
-    { "term": "Finne prosentdelen", "def": "Gang det hele med prosenten som desimaltall: 0,30 · 800." },
-    { "term": "Finne prosenten", "def": "Del delen på det hele: 45/180 = 25 %." },
-    { "term": "Finne det hele", "def": "Del delen på prosenten som desimaltall: 60 / 0,15." },
-    { "term": "Prosentvis endring", "def": "(ny − gammel) / gammel · 100 %." },
-    { "term": "Prosentpoeng", "def": "Differansen mellom to prosenttall: fra 20 % til 25 % er 5 prosentpoeng." },
-    { "term": "Prosent vs. prosentpoeng", "def": "Fra 20 % til 25 %: 5 prosentpoeng, men 25 % økning." },
-    { "term": "Promille", "def": "Tusendeler: 3 ‰ = 0,003." },
-    { "term": "1 %", "def": "10 ‰" },
-    { "term": "Promillegrensen for bilkjøring", "def": "0,2 ‰ i Norge." },
-    { "term": "Merverdiavgift (moms)", "def": "Avgift på varer og tjenester, generelt 25 %." },
-    { "term": "Legge til 25 % moms", "def": "Gang prisen med 1,25." },
-    { "term": "Trekke fra 25 % moms", "def": "Del prisen med moms på 1,25." },
-    { "term": "Rabatt på 30 %", "def": "Gang prisen med 0,70." },
-    { "term": "+10 % og så −10 %", "def": "Gir 1 % nedgang, fordi 1,10 · 0,90 = 0,99." }
+    {
+      "term": "Prosent",
+      "def": "Hundredeler: 25 % = 0,25."
+    },
+    {
+      "term": "Finne prosentdelen",
+      "def": "Gang det hele med prosenten som desimaltall: 0,30 · 800."
+    },
+    {
+      "term": "Finne prosenten",
+      "def": "Del delen på det hele: 45/180 = 25 %."
+    },
+    {
+      "term": "Finne det hele",
+      "def": "Del delen på prosenten som desimaltall: 60 / 0,15."
+    },
+    {
+      "term": "Prosentvis endring",
+      "def": "(ny − gammel) / gammel · 100 %."
+    },
+    {
+      "term": "Prosentpoeng",
+      "def": "Differansen mellom to prosenttall: fra 20 % til 25 % er 5 prosentpoeng."
+    },
+    {
+      "term": "Prosent vs. prosentpoeng",
+      "def": "Fra 20 % til 25 %: 5 prosentpoeng, men 25 % økning."
+    },
+    {
+      "term": "Promille",
+      "def": "Tusendeler: 3 ‰ = 0,003."
+    },
+    {
+      "term": "1 %",
+      "def": "10 ‰"
+    },
+    {
+      "term": "Promillegrensen for bilkjøring",
+      "def": "0,2 ‰ i Norge."
+    },
+    {
+      "term": "Merverdiavgift (moms)",
+      "def": "Avgift på varer og tjenester, generelt 25 %."
+    },
+    {
+      "term": "Legge til 25 % moms",
+      "def": "Gang prisen med 1,25."
+    },
+    {
+      "term": "Trekke fra 25 % moms",
+      "def": "Del prisen med moms på 1,25."
+    },
+    {
+      "term": "Rabatt på 30 %",
+      "def": "Gang prisen med 0,70."
+    },
+    {
+      "term": "+10 % og så −10 %",
+      "def": "Gir 1 % nedgang, fordi 1,10 · 0,90 = 0,99."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er 30 % av 800 kr?", "options": ["24 kr", "240 kr", "2400 kr", "270 kr"], "correct": 1, "explain": "0,30 · 800 = 240." },
-    { "id": "q02", "text": "45 av 180 elever går til skolen. Hvor mange prosent er det?", "options": ["40 %", "45 %", "25 %", "18 %"], "correct": 2, "explain": "45/180 = 0,25 = 25 %." },
-    { "id": "q03", "text": "Et parti går fra 20 % til 25 % oppslutning. Hvor mange prosentpoeng økte det?", "options": ["5 prosentpoeng", "25 prosentpoeng", "20 prosentpoeng", "45 prosentpoeng"], "correct": 0, "explain": "25 − 20 = 5 prosentpoeng." },
-    { "id": "q04", "text": "Et parti går fra 20 % til 25 % oppslutning. Hvor mange prosent økte oppslutningen?", "options": ["5 %", "20 %", "45 %", "25 %"], "correct": 3, "explain": "Økningen på 5 prosentpoeng delt på 20 gir 0,25 = 25 %." },
-    { "id": "q05", "text": "Hva er 3 ‰ som desimaltall?", "options": ["0,3", "0,03", "0,003", "3,0"], "correct": 2, "explain": "Promille betyr tusendeler: 3/1000." },
-    { "id": "q06", "text": "En pris stiger fra 250 kr til 300 kr. Hva er den prosentvise økningen?", "options": ["20 %", "50 %", "16,7 %", "25 %"], "correct": 0, "explain": "50/250 = 0,20. Del alltid på den gamle verdien." },
-    { "id": "q07", "text": "60 kr er 15 % av et beløp. Hva er beløpet?", "options": ["9 kr", "400 kr", "600 kr", "900 kr"], "correct": 1, "explain": "60 / 0,15 = 400." },
-    { "id": "q08", "text": "En vare koster 500 kr med 25 % moms. Hva koster den uten moms?", "options": ["375 kr", "475 kr", "125 kr", "400 kr"], "correct": 3, "explain": "500 / 1,25 = 400. Momsen er 25 % av prisen uten moms." },
-    { "id": "q09", "text": "En pris synker fra 400 kr til 300 kr. Hva er den prosentvise nedgangen?", "options": ["33,3 %", "100 %", "25 %", "75 %"], "correct": 2, "explain": "100/400 = 0,25 = 25 %." },
-    { "id": "q10", "text": "Hva er promillegrensen for å kjøre bil i Norge?", "options": ["0,2 ‰", "0,5 ‰", "2 ‰", "0 ‰"], "correct": 0, "explain": "Grensen er 0,2 promille alkohol i blodet." }
+    {
+      "id": "q01",
+      "text": "Hva er 30 % av 800 kr?",
+      "options": [
+        "24 kr",
+        "240 kr",
+        "2400 kr",
+        "270 kr"
+      ],
+      "correct": 1,
+      "explain": "0,30 · 800 = 240."
+    },
+    {
+      "id": "q02",
+      "text": "45 av 180 elever går til skolen. Hvor mange prosent er det?",
+      "options": [
+        "40 %",
+        "45 %",
+        "25 %",
+        "18 %"
+      ],
+      "correct": 2,
+      "explain": "45/180 = 0,25 = 25 %."
+    },
+    {
+      "id": "q03",
+      "text": "Et parti går fra 20 % til 25 % oppslutning. Hvor mange prosentpoeng økte det?",
+      "options": [
+        "5 prosentpoeng",
+        "25 prosentpoeng",
+        "20 prosentpoeng",
+        "45 prosentpoeng"
+      ],
+      "correct": 0,
+      "explain": "25 − 20 = 5 prosentpoeng."
+    },
+    {
+      "id": "q04",
+      "text": "Et parti går fra 20 % til 25 % oppslutning. Hvor mange prosent økte oppslutningen?",
+      "options": [
+        "5 %",
+        "20 %",
+        "45 %",
+        "25 %"
+      ],
+      "correct": 3,
+      "explain": "Økningen på 5 prosentpoeng delt på 20 gir 0,25 = 25 %."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er 3 ‰ som desimaltall?",
+      "options": [
+        "0,3",
+        "0,03",
+        "0,003",
+        "3,0"
+      ],
+      "correct": 2,
+      "explain": "Promille betyr tusendeler: 3/1000."
+    },
+    {
+      "id": "q06",
+      "text": "En pris stiger fra 250 kr til 300 kr. Hva er den prosentvise økningen?",
+      "options": [
+        "20 %",
+        "50 %",
+        "16,7 %",
+        "25 %"
+      ],
+      "correct": 0,
+      "explain": "50/250 = 0,20. Del alltid på den gamle verdien."
+    },
+    {
+      "id": "q07",
+      "text": "60 kr er 15 % av et beløp. Hva er beløpet?",
+      "options": [
+        "9 kr",
+        "400 kr",
+        "600 kr",
+        "900 kr"
+      ],
+      "correct": 1,
+      "explain": "60 / 0,15 = 400."
+    },
+    {
+      "id": "q08",
+      "text": "En vare koster 500 kr med 25 % moms. Hva koster den uten moms?",
+      "options": [
+        "375 kr",
+        "475 kr",
+        "125 kr",
+        "400 kr"
+      ],
+      "correct": 3,
+      "explain": "500 / 1,25 = 400. Momsen er 25 % av prisen uten moms."
+    },
+    {
+      "id": "q09",
+      "text": "En pris synker fra 400 kr til 300 kr. Hva er den prosentvise nedgangen?",
+      "options": [
+        "33,3 %",
+        "100 %",
+        "25 %",
+        "75 %"
+      ],
+      "correct": 2,
+      "explain": "100/400 = 0,25 = 25 %."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er promillegrensen for å kjøre bil i Norge?",
+      "options": [
+        "0,2 ‰",
+        "0,5 ‰",
+        "2 ‰",
+        "0 ‰"
+      ],
+      "correct": 0,
+      "explain": "Grensen er 0,2 promille alkohol i blodet."
+    }
   ],
   "mindmap": {
     "label": "Prosent og prosentpoeng",
     "children": [
-      { "label": "Grunntyper", "children": [
-        { "label": "Prosentdelen" },
-        { "label": "Prosenten" },
-        { "label": "Det hele" }
-      ] },
-      { "label": "Endring", "children": [
-        { "label": "Prosentvis endring" },
-        { "label": "Del på gammel verdi" },
-        { "label": "Rabatt" }
-      ] },
-      { "label": "Prosentpoeng", "children": [
-        { "label": "Differanse i prosent" },
-        { "label": "Valg og renter" }
-      ] },
-      { "label": "Promille", "children": [
-        { "label": "Tusendeler" },
-        { "label": "Alkohol i blodet" },
-        { "label": "Eiendomsskatt" }
-      ] },
-      { "label": "Moms", "children": [
-        { "label": "25 %" },
-        { "label": "Gang med 1,25" },
-        { "label": "Del på 1,25" }
-      ] }
+      {
+        "label": "Grunntyper",
+        "children": [
+          {
+            "label": "Prosentdelen"
+          },
+          {
+            "label": "Prosenten"
+          },
+          {
+            "label": "Det hele"
+          }
+        ]
+      },
+      {
+        "label": "Endring",
+        "children": [
+          {
+            "label": "Prosentvis endring"
+          },
+          {
+            "label": "Del på gammel verdi"
+          },
+          {
+            "label": "Rabatt"
+          }
+        ]
+      },
+      {
+        "label": "Prosentpoeng",
+        "children": [
+          {
+            "label": "Differanse i prosent"
+          },
+          {
+            "label": "Valg og renter"
+          }
+        ]
+      },
+      {
+        "label": "Promille",
+        "children": [
+          {
+            "label": "Tusendeler"
+          },
+          {
+            "label": "Alkohol i blodet"
+          },
+          {
+            "label": "Eiendomsskatt"
+          }
+        ]
+      },
+      {
+        "label": "Moms",
+        "children": [
+          {
+            "label": "25 %"
+          },
+          {
+            "label": "Gang med 1,25"
+          },
+          {
+            "label": "Del på 1,25"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Prosent betyr hundredeler.", "correct": true, "explain": "Per cent betyr «per hundre»." },
-      { "id": "m02", "type": "sant-usant", "text": "En økning fra 10 % til 12 % er en økning på 2 %.", "correct": false, "explain": "Det er en økning på 2 prosentpoeng, som er 20 %." },
-      { "id": "m03", "type": "sant-usant", "text": "1 % er det samme som 10 ‰.", "correct": true, "explain": "1/100 = 10/1000." },
-      { "id": "m04", "type": "sant-usant", "text": "Hvis en pris først økes med 10 % og så senkes med 10 %, blir den som før.", "correct": false, "explain": "1,10 · 0,90 = 0,99, så prisen blir 1 % lavere." },
-      { "id": "m05", "type": "flervalg", "text": "Hvor mange prosent er 12 av 48?", "options": ["4 %", "25 %", "12 %", "36 %"], "correct": 1, "explain": "12/48 = 0,25." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er 0,35 skrevet i prosent?", "options": ["3,5 %", "0,35 %", "350 %", "35 %"], "correct": 3, "explain": "Gang med 100: 0,35 · 100 = 35." },
-      { "id": "m07", "type": "flervalg", "text": "En jakke koster 800 kr. Hva koster den med 30 % rabatt?", "options": ["240 kr", "770 kr", "560 kr", "530 kr"], "correct": 2, "explain": "800 · 0,70 = 560." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Prosent betyr hundredeler.",
+        "correct": true,
+        "explain": "Per cent betyr «per hundre»."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En økning fra 10 % til 12 % er en økning på 2 %.",
+        "correct": false,
+        "explain": "Det er en økning på 2 prosentpoeng, som er 20 %."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "1 % er det samme som 10 ‰.",
+        "correct": true,
+        "explain": "1/100 = 10/1000."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Hvis en pris først økes med 10 % og så senkes med 10 %, blir den som før.",
+        "correct": false,
+        "explain": "1,10 · 0,90 = 0,99, så prisen blir 1 % lavere."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvor mange prosent er 12 av 48?",
+        "options": [
+          "4 %",
+          "25 %",
+          "12 %",
+          "36 %"
+        ],
+        "correct": 1,
+        "explain": "12/48 = 0,25."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er 0,35 skrevet i prosent?",
+        "options": [
+          "3,5 %",
+          "0,35 %",
+          "350 %",
+          "35 %"
+        ],
+        "correct": 3,
+        "explain": "Gang med 100: 0,35 · 100 = 35."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "En jakke koster 800 kr. Hva koster den med 30 % rabatt?",
+        "options": [
+          "240 kr",
+          "770 kr",
+          "560 kr",
+          "530 kr"
+        ],
+        "correct": 2,
+        "explain": "800 · 0,70 = 560."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En vare koster 400 kr før rabatt eller avgift. Finn 25 % av prisen, og vis regnestykket.",
+        "fasit": "25 % er 0,25 som desimaltall. 0,25 · 400 = 100 kr.",
+        "kriterier": [
+          "Gjør om 25 % til 0,25 og ganger med 400.",
+          "Får 100 kr."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En vare koster 400 kr uten merverdiavgift. Den generelle momssatsen er 25 %. Finn prisen med moms, og vis framgangsmåten.",
+        "fasit": "Jeg ganger prisen uten moms med 1,25: 400 · 1,25 = 500. Prisen med moms er 500 kr.",
+        "kriterier": [
+          "Bruker multiplikasjonsfaktoren 1,25.",
+          "Får 500 kr med moms."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En rente øker fra 4 % til 5 %. Forklar endringen både i prosentpoeng og som prosentvis økning.",
+        "fasit": "Økningen er 1 prosentpoeng. Den prosentvise økningen er 1/4 = 0,25, altså 25 %.",
+        "kriterier": [
+          "Finner forskjellen på prosenttallene: 1 prosentpoeng.",
+          "Regner den relative økningen ut fra den gamle renten på 4 % og får 25 %."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hva promille betyr, og skriv hvor mange promille 1 % tilsvarer.",
+        "fasit": "Promille betyr tusendeler. 1 % tilsvarer 10 ‰.",
+        "kriterier": [
+          "Forklarer at promille er tusendeler.",
+          "Oppgir at 1 % = 10 ‰."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Når du regner ut prosentvis endring, deler du endringen på den gamle verdien. Forklar hvorfor den gamle verdien brukes som nevner.",
+        "fasit": "Prosentvis endring viser hvor stor endringen er sammenlignet med verdien før endringen. Derfor deler vi på den gamle verdien.",
+        "kriterier": [
+          "Forklarer at endringen sammenlignes med utgangspunktet før endringen.",
+          "Knytter dette til at den gamle verdien brukes som nevner."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En jakke kostet 800 kr og har 30 % rabatt. En elev regner 800 · 0,30 = 240 kr og sier at jakken nå koster 240 kr. Forklar feilen og finn riktig pris.",
+        "fasit": "240 kr er rabattbeløpet, ikke prisen etter rabatt. Jeg trekker rabatten fra: 800 − 240 = 560 kr.",
+        "kriterier": [
+          "Forklarer at 240 kr er rabattbeløpet.",
+          "Trekker rabatten fra 800 kr og får 560 kr."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En pris øker først med 10 % og synker deretter med 10 %. Forklar om prisen ender på samme nivå som før, og finn den samlede prosentvise endringen.",
+        "fasit": "Prisen ender ikke på samme nivå. Endringsfaktorene gir 1,10 · 0,90 = 0,99, altså en samlet nedgang på 1 %.",
+        "kriterier": [
+          "Bruker faktorene 1,10 og 0,90 etter hverandre.",
+          "Konkluderer med at prisen blir 1 % lavere enn opprinnelig."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du kjenner både en del av en mengde og hele mengden, og skal finne hvor mange prosent delen er av det hele. Forklar hvilken regneoperasjon du bruker, og hvordan du gjør svaret om til prosent.",
+        "fasit": "Jeg deler delen på det hele. Da får jeg et desimaltall, som jeg gjør om til prosent ved å gange med 100 eller skrive det som prosent.",
+        "kriterier": [
+          "Deler delen på det hele.",
+          "Forklarer at desimaltallet gjøres om til prosent."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

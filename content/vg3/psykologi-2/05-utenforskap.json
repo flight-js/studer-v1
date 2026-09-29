@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Utenforskap – årsaker og konsekvenser",
   "intro": "Hva utenforskap er, hvorfor tilhørighet er et grunnleggende menneskelig behov, hvilke årsaker på individ-, familie-, skole- og samfunnsnivå som kan føre til utenforskap, hvilke konsekvenser det kan få for den enkelte, og hva som kan beskytte og inkludere.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Hva er utenforskap?\n\n**Utenforskap** betyr å stå **utenfor** fellesskap som de fleste andre er en del av – venneflokk, klasse, fritidsaktiviteter, utdanning, arbeidsliv eller samfunnet mer generelt.\n\n- **Sosial isolasjon** er **objektiv**: få kontakter og lite samvær.\n- **Ensomhet** er **subjektiv**: en **smertefull** opplevelse av å mangle nære relasjoner. Man kan være ensom blant mange mennesker – og alene uten å være ensom.\n\n## Behovet for å høre til\n\nPsykologene **Roy Baumeister** og **Mark Leary** har argumentert for at mennesket har et grunnleggende **behov for tilhørighet**. Også i **Maslows** behovspyramide er **kjærlighet og tilhørighet** et sentralt behov. Evolusjonært har det å høre til en gruppe vært avgjørende for å **overleve**.\n\nForsøk har vist at det å bli **utestengt** – selv i et enkelt dataspill der man ikke får ballen – kan gi en opplevelse som minner om **smerte**. Avvisning **gjør vondt**.\n\n## Årsaker til utenforskap\n\nUtenforskap har ofte **flere** årsaker som virker sammen:\n\n- **Individ**: sjenanse, **psykiske vansker**, **funksjonsnedsettelser**, svake sosiale ferdigheter eller lav selvfølelse\n- **Familie**: **lav inntekt** som gjør at barn ikke kan delta i fritidsaktiviteter, **konflikter** og **omsorgssvikt**\n- **Skole**: **mobbing**, **utestengning**, lærevansker og et dårlig **klassemiljø**\n- **Samfunn**: **diskriminering**, **språkbarrierer**, arbeidsledighet, **bosted** og mangel på møteplasser\n- **Digitalt**: utestengning fra **gruppechatter** og **nettmobbing**\n\n## Konsekvenser for individet\n\n- **Psykisk helse**: økt risiko for **angst**, **depresjon** og **selvskading**\n- **Fysisk helse**: langvarig ensomhet henger sammen med **stress**, dårligere **søvn** og svekket helse\n- **Selvbilde**: følelsen av å være **uønsket** kan gi lav selvfølelse\n- **Skole og arbeid**: **frafall** fra videregående kan gi svakere tilknytning til arbeidslivet senere\n- **Risikoatferd**: noen søker tilhørighet i **negative** miljøer, som kriminelle eller ekstreme grupper\n\n## Den onde sirkelen\n\nEnsomhet kan **forsterke seg selv**. Den som er ensom, blir ofte mer **årvåken** for tegn på avvisning, tolker nøytrale signaler som **negative** og trekker seg **tilbake**. Da blir det enda vanskeligere å få kontakt.\n\n## Unge utenfor arbeid og utdanning\n\nEn gruppe som får mye oppmerksomhet, er unge som verken er i **arbeid**, **utdanning** eller **opplæring** – ofte kalt **NEET**. Mange av dem har **psykiske helseplager**, og det kan være vanskelig å komme inn igjen.\n\n## Beskyttende faktorer\n\n- **Én god venn** kan utgjøre en stor forskjell.\n- En **voksen** som ser eleven, for eksempel en lærer eller trener.\n- **Fritidsaktiviteter** som er tilgjengelige for alle, uavhengig av økonomi.\n- Et **inkluderende** skolemiljø. Etter opplæringsloven har elever rett til et **trygt og godt skolemiljø**, og skolen har **plikt til å handle** når en elev ikke har det.\n- **Tidlig innsats** fra helsesykepleier, NAV og oppfølgingstjenesten.\n\n## Refleksjon\n\nUtenforskap er både et **individuelt** og et **samfunnsmessig** problem. Når du reflekterer, kan du spørre: Hvem har **ansvar** for å inkludere – den enkelte, klassen, skolen eller samfunnet? Og hvordan kan vi **legge til rette** for at flere får oppleve tilhørighet?",
   "flashcards": [
-    { "term": "Utenforskap", "def": "Å stå utenfor fellesskap de fleste andre er en del av." },
-    { "term": "Sosial isolasjon", "def": "Objektivt få kontakter og lite samvær." },
-    { "term": "Ensomhet", "def": "Subjektiv, smertefull opplevelse av å mangle nære relasjoner." },
-    { "term": "Behov for tilhørighet", "def": "Grunnleggende behov – Baumeister og Leary." },
-    { "term": "Sosial smerte", "def": "Avvisning kan oppleves som smerte." },
-    { "term": "Individuelle årsaker", "def": "Sjenanse, psykiske vansker, funksjonsnedsettelser, svake sosiale ferdigheter." },
-    { "term": "Familieårsaker", "def": "Lav inntekt, konflikter og omsorgssvikt." },
-    { "term": "Skoleårsaker", "def": "Mobbing, utestengning og dårlig klassemiljø." },
-    { "term": "Samfunnsårsaker", "def": "Diskriminering, språkbarrierer, arbeidsledighet." },
-    { "term": "Den onde sirkelen", "def": "Ensomhet gjør en mer årvåken for avvisning og mer tilbaketrukket." },
-    { "term": "NEET", "def": "Unge som verken er i arbeid, utdanning eller opplæring." },
-    { "term": "Risikoatferd", "def": "Søke tilhørighet i negative miljøer." },
-    { "term": "Beskyttende faktor", "def": "For eksempel én god venn eller en voksen som ser deg." },
-    { "term": "Trygt og godt skolemiljø", "def": "Elevenes rett etter opplæringsloven." },
-    { "term": "Tidlig innsats", "def": "Hjelp før problemene blir store." }
+    {
+      "term": "Utenforskap",
+      "def": "Å stå utenfor fellesskap de fleste andre er en del av."
+    },
+    {
+      "term": "Sosial isolasjon",
+      "def": "Objektivt få kontakter og lite samvær."
+    },
+    {
+      "term": "Ensomhet",
+      "def": "Subjektiv, smertefull opplevelse av å mangle nære relasjoner."
+    },
+    {
+      "term": "Behov for tilhørighet",
+      "def": "Grunnleggende behov – Baumeister og Leary."
+    },
+    {
+      "term": "Sosial smerte",
+      "def": "Avvisning kan oppleves som smerte."
+    },
+    {
+      "term": "Individuelle årsaker",
+      "def": "Sjenanse, psykiske vansker, funksjonsnedsettelser, svake sosiale ferdigheter."
+    },
+    {
+      "term": "Familieårsaker",
+      "def": "Lav inntekt, konflikter og omsorgssvikt."
+    },
+    {
+      "term": "Skoleårsaker",
+      "def": "Mobbing, utestengning og dårlig klassemiljø."
+    },
+    {
+      "term": "Samfunnsårsaker",
+      "def": "Diskriminering, språkbarrierer, arbeidsledighet."
+    },
+    {
+      "term": "Den onde sirkelen",
+      "def": "Ensomhet gjør en mer årvåken for avvisning og mer tilbaketrukket."
+    },
+    {
+      "term": "NEET",
+      "def": "Unge som verken er i arbeid, utdanning eller opplæring."
+    },
+    {
+      "term": "Risikoatferd",
+      "def": "Søke tilhørighet i negative miljøer."
+    },
+    {
+      "term": "Beskyttende faktor",
+      "def": "For eksempel én god venn eller en voksen som ser deg."
+    },
+    {
+      "term": "Trygt og godt skolemiljø",
+      "def": "Elevenes rett etter opplæringsloven."
+    },
+    {
+      "term": "Tidlig innsats",
+      "def": "Hjelp før problemene blir store."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er forskjellen på ensomhet og sosial isolasjon?", "options": ["Det er det samme", "Ensomhet er subjektiv, isolasjon er objektiv", "Isolasjon er alltid frivillig", "Ensomhet gjelder bare eldre"], "correct": 1, "explain": "Man kan være ensom blant mange." },
-    { "id": "q02", "text": "Hvem argumenterte for at mennesket har et grunnleggende behov for tilhørighet?", "options": ["Baumeister og Leary", "Asch og Milgram", "Piaget og Vygotskij", "Pavlov og Skinner"], "correct": 0, "explain": "The need to belong." },
-    { "id": "q03", "text": "Hva kan være en familieårsak til utenforskap?", "options": ["Mobbing i klassen", "Diskriminering i arbeidslivet", "Lav inntekt som hindrer deltakelse i fritidsaktiviteter", "Gruppechatter"], "correct": 2, "explain": "Økonomi påvirker deltakelse." },
-    { "id": "q04", "text": "Hva er den onde sirkelen ved ensomhet?", "options": ["At man får flere venner", "At ensomhet alltid går over", "At man blir mer sosial", "At man blir mer årvåken for avvisning og trekker seg tilbake"], "correct": 3, "explain": "Ensomheten forsterkes." },
-    { "id": "q05", "text": "Hva står NEET for?", "options": ["Unge som verken er i arbeid, utdanning eller opplæring", "En type mobbing", "En skole", "En diagnose"], "correct": 0, "explain": "Not in employment, education or training." },
-    { "id": "q06", "text": "Hvilken konsekvens kan utenforskap ha for psykisk helse?", "options": ["Bedre konsentrasjon", "Økt risiko for angst og depresjon", "Mer energi", "Ingen konsekvenser"], "correct": 1, "explain": "Også selvskading." },
-    { "id": "q07", "text": "Hva viser forsøk med utestengning i enkle dataspill?", "options": ["At ingen bryr seg", "At spill er farlige", "At avvisning kan oppleves som smerte", "At alle blir sinte"], "correct": 2, "explain": "Sosial smerte." },
-    { "id": "q08", "text": "Hvilken rett har elever etter opplæringsloven?", "options": ["Rett til gratis mobil", "Rett til å velge lærer", "Rett til egne fag", "Rett til et trygt og godt skolemiljø"], "correct": 3, "explain": "Skolen har plikt til å handle." },
-    { "id": "q09", "text": "Hvilken beskyttende faktor kan utgjøre en stor forskjell?", "options": ["Én god venn", "Mer skjermtid", "Flere prøver", "Mindre søvn"], "correct": 0, "explain": "Også en voksen som ser eleven." },
-    { "id": "q10", "text": "Hvorfor kan noen som opplever utenforskap, søke seg til negative miljøer?", "options": ["Fordi de er onde", "Fordi de søker tilhørighet", "Fordi det er tilfeldig", "Fordi de er rike"], "correct": 1, "explain": "Behovet for tilhørighet er sterkt." }
+    {
+      "id": "q01",
+      "text": "Hva er forskjellen på ensomhet og sosial isolasjon?",
+      "options": [
+        "Det er det samme",
+        "Ensomhet er subjektiv, isolasjon er objektiv",
+        "Isolasjon er alltid frivillig",
+        "Ensomhet gjelder bare eldre"
+      ],
+      "correct": 1,
+      "explain": "Man kan være ensom blant mange."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem argumenterte for at mennesket har et grunnleggende behov for tilhørighet?",
+      "options": [
+        "Baumeister og Leary",
+        "Asch og Milgram",
+        "Piaget og Vygotskij",
+        "Pavlov og Skinner"
+      ],
+      "correct": 0,
+      "explain": "The need to belong."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kan være en familieårsak til utenforskap?",
+      "options": [
+        "Mobbing i klassen",
+        "Diskriminering i arbeidslivet",
+        "Lav inntekt som hindrer deltakelse i fritidsaktiviteter",
+        "Gruppechatter"
+      ],
+      "correct": 2,
+      "explain": "Økonomi påvirker deltakelse."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er den onde sirkelen ved ensomhet?",
+      "options": [
+        "At man får flere venner",
+        "At ensomhet alltid går over",
+        "At man blir mer sosial",
+        "At man blir mer årvåken for avvisning og trekker seg tilbake"
+      ],
+      "correct": 3,
+      "explain": "Ensomheten forsterkes."
+    },
+    {
+      "id": "q05",
+      "text": "Hva står NEET for?",
+      "options": [
+        "Unge som verken er i arbeid, utdanning eller opplæring",
+        "En type mobbing",
+        "En skole",
+        "En diagnose"
+      ],
+      "correct": 0,
+      "explain": "Not in employment, education or training."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken konsekvens kan utenforskap ha for psykisk helse?",
+      "options": [
+        "Bedre konsentrasjon",
+        "Økt risiko for angst og depresjon",
+        "Mer energi",
+        "Ingen konsekvenser"
+      ],
+      "correct": 1,
+      "explain": "Også selvskading."
+    },
+    {
+      "id": "q07",
+      "text": "Hva viser forsøk med utestengning i enkle dataspill?",
+      "options": [
+        "At ingen bryr seg",
+        "At spill er farlige",
+        "At avvisning kan oppleves som smerte",
+        "At alle blir sinte"
+      ],
+      "correct": 2,
+      "explain": "Sosial smerte."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken rett har elever etter opplæringsloven?",
+      "options": [
+        "Rett til gratis mobil",
+        "Rett til å velge lærer",
+        "Rett til egne fag",
+        "Rett til et trygt og godt skolemiljø"
+      ],
+      "correct": 3,
+      "explain": "Skolen har plikt til å handle."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken beskyttende faktor kan utgjøre en stor forskjell?",
+      "options": [
+        "Én god venn",
+        "Mer skjermtid",
+        "Flere prøver",
+        "Mindre søvn"
+      ],
+      "correct": 0,
+      "explain": "Også en voksen som ser eleven."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan noen som opplever utenforskap, søke seg til negative miljøer?",
+      "options": [
+        "Fordi de er onde",
+        "Fordi de søker tilhørighet",
+        "Fordi det er tilfeldig",
+        "Fordi de er rike"
+      ],
+      "correct": 1,
+      "explain": "Behovet for tilhørighet er sterkt."
+    }
   ],
   "mindmap": {
     "label": "Utenforskap",
     "children": [
-      { "label": "Begreper", "children": [
-        { "label": "Ensomhet" },
-        { "label": "Sosial isolasjon" },
-        { "label": "Tilhørighetsbehov" }
-      ] },
-      { "label": "Årsaker", "children": [
-        { "label": "Individ og familie" },
-        { "label": "Skole" },
-        { "label": "Samfunn og digitalt" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Psykisk og fysisk helse" },
-        { "label": "Selvbilde" },
-        { "label": "Frafall og risikoatferd" }
-      ] },
-      { "label": "Mekanismer", "children": [
-        { "label": "Sosial smerte" },
-        { "label": "Ond sirkel" }
-      ] },
-      { "label": "Inkludering", "children": [
-        { "label": "Venner og voksne" },
-        { "label": "Skolemiljø" },
-        { "label": "Tidlig innsats" }
-      ] }
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Ensomhet"
+          },
+          {
+            "label": "Sosial isolasjon"
+          },
+          {
+            "label": "Tilhørighetsbehov"
+          }
+        ]
+      },
+      {
+        "label": "Årsaker",
+        "children": [
+          {
+            "label": "Individ og familie"
+          },
+          {
+            "label": "Skole"
+          },
+          {
+            "label": "Samfunn og digitalt"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Psykisk og fysisk helse"
+          },
+          {
+            "label": "Selvbilde"
+          },
+          {
+            "label": "Frafall og risikoatferd"
+          }
+        ]
+      },
+      {
+        "label": "Mekanismer",
+        "children": [
+          {
+            "label": "Sosial smerte"
+          },
+          {
+            "label": "Ond sirkel"
+          }
+        ]
+      },
+      {
+        "label": "Inkludering",
+        "children": [
+          {
+            "label": "Venner og voksne"
+          },
+          {
+            "label": "Skolemiljø"
+          },
+          {
+            "label": "Tidlig innsats"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Man kan være alene uten å være ensom.", "correct": true, "explain": "Ensomhet er en subjektiv opplevelse." },
-      { "id": "m02", "type": "sant-usant", "text": "Utenforskap har nesten alltid én enkelt årsak.", "correct": false, "explain": "Ofte virker flere årsaker sammen." },
-      { "id": "m03", "type": "sant-usant", "text": "Utestengning fra gruppechatter er en form for utenforskap.", "correct": true, "explain": "Digitalt utenforskap." },
-      { "id": "m04", "type": "sant-usant", "text": "Frafall fra videregående har ingen betydning for senere arbeidsliv.", "correct": false, "explain": "Det kan gi svakere tilknytning til arbeidslivet." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket nivå hører diskriminering til som årsak?", "options": ["Individ", "Samfunn", "Biologi", "Søvn"], "correct": 1, "explain": "Strukturelle forhold." },
-      { "id": "m06", "type": "flervalg", "text": "Hvem kan bidra med tidlig innsats?", "options": ["Helsesykepleier, NAV og oppfølgingstjenesten", "Bare politiet", "Ingen", "Bare foreldre"], "correct": 0, "explain": "Flere tjenester samarbeider." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket nivå i Maslows pyramide handler om tilhørighet?", "options": ["Fysiologiske behov", "Trygghet", "Kjærlighet og tilhørighet", "Selvaktualisering"], "correct": 2, "explain": "Et sosialt behov." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Man kan være alene uten å være ensom.",
+        "correct": true,
+        "explain": "Ensomhet er en subjektiv opplevelse."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Utenforskap har nesten alltid én enkelt årsak.",
+        "correct": false,
+        "explain": "Ofte virker flere årsaker sammen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Utestengning fra gruppechatter er en form for utenforskap.",
+        "correct": true,
+        "explain": "Digitalt utenforskap."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Frafall fra videregående har ingen betydning for senere arbeidsliv.",
+        "correct": false,
+        "explain": "Det kan gi svakere tilknytning til arbeidslivet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket nivå hører diskriminering til som årsak?",
+        "options": [
+          "Individ",
+          "Samfunn",
+          "Biologi",
+          "Søvn"
+        ],
+        "correct": 1,
+        "explain": "Strukturelle forhold."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem kan bidra med tidlig innsats?",
+        "options": [
+          "Helsesykepleier, NAV og oppfølgingstjenesten",
+          "Bare politiet",
+          "Ingen",
+          "Bare foreldre"
+        ],
+        "correct": 0,
+        "explain": "Flere tjenester samarbeider."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket nivå i Maslows pyramide handler om tilhørighet?",
+        "options": [
+          "Fysiologiske behov",
+          "Trygghet",
+          "Kjærlighet og tilhørighet",
+          "Selvaktualisering"
+        ],
+        "correct": 2,
+        "explain": "Et sosialt behov."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Maja står utenfor både venneflokken og fritidsaktivitetene som de fleste i klassen deltar i. Forklar hvorfor situasjonen kan beskrives som utenforskap.",
+        "fasit": "Utenforskap betyr å stå utenfor fellesskap som de fleste andre er en del av. Maja står utenfor flere slike fellesskap, både sosialt og på fritiden.",
+        "kriterier": [
+          "Forklarer at utenforskap innebærer å stå utenfor fellesskap de fleste andre deltar i.",
+          "Knytter forklaringen til at Maja ikke er inkludert i venneflokken og fritidsaktivitetene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hvordan menneskets behov for tilhørighet kan henge sammen med overlevelse.",
+        "fasit": "Å høre til en gruppe har evolusjonært vært viktig for å overleve. Derfor kan tilhørighet forstås som et grunnleggende menneskelig behov.",
+        "kriterier": [
+          "Får fram at tilhørighet er et grunnleggende behov.",
+          "Forklarer sammenhengen mellom det å høre til en gruppe og muligheten for å overleve."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign individuelle årsaker og samfunnsårsaker til utenforskap. Bruk ett eksempel på hver type årsak.",
+        "fasit": "Individuelle årsaker handler om forhold ved personen, som sjenanse eller psykiske vansker. Samfunnsårsaker handler om forhold i samfunnet, som diskriminering eller språkbarrierer.",
+        "kriterier": [
+          "Skiller mellom forhold ved individet og forhold i samfunnet.",
+          "Gir et relevant eksempel på hver type årsak."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sander blir utestengt fra klassens gruppechat og utsatt for nettmobbing. Forklar hvordan disse digitale forholdene kan bidra til at han står utenfor fellesskapet.",
+        "fasit": "Utestengning fra gruppechatten og nettmobbing kan gjøre det vanskeligere for Sander å delta i det sosiale fellesskapet. Begge deler er digitale forhold som kan bidra til utenforskap.",
+        "kriterier": [
+          "Identifiserer utestengning fra gruppechat og nettmobbing som digitale forhold.",
+          "Forklarer hvordan de kan hindre deltakelse eller tilhørighet i fellesskapet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign mulige psykiske og fysiske konsekvenser av langvarig ensomhet.",
+        "fasit": "Ensomhet kan øke risikoen for psykiske plager som angst og depresjon. Fysisk kan langvarig ensomhet henge sammen med stress, dårligere søvn og svekket helse.",
+        "kriterier": [
+          "Nevner en relevant psykisk konsekvens, for eksempel økt risiko for angst eller depresjon.",
+          "Nevner en relevant fysisk konsekvens, for eksempel stress, dårligere søvn eller svekket helse."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Mina er verken i arbeid, utdanning eller opplæring, og hun har psykiske helseplager. Forklar hvorfor det kan være vanskelig for henne å komme inn igjen i arbeid eller utdanning.",
+        "fasit": "Psykiske helseplager kan gjøre det vanskelig å komme inn igjen i arbeid eller utdanning. Unge som står utenfor arbeid, utdanning og opplæring, kan derfor ha utfordringer med å komme tilbake.",
+        "kriterier": [
+          "Knytter psykiske helseplager til at det kan være vanskelig å komme inn igjen.",
+          "Knytter utfordringen til at Mina står utenfor arbeid, utdanning og opplæring."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En lærer legger merke til at en elev ofte blir stående alene og sørger for å følge opp eleven. Forklar hvorfor en voksen som ser eleven, kan være en beskyttende faktor.",
+        "fasit": "En voksen som ser eleven, kan gi støtte og bidra til at eleven opplever tilhørighet. Det kan beskytte mot at eleven blir stående alene i en vanskelig situasjon.",
+        "kriterier": [
+          "Forklarer at støtte fra en voksen kan bidra til at eleven opplever å bli sett eller får hjelp.",
+          "Knytter dette til tilhørighet eller redusert risiko for utenforskap."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En fritidsaktivitet har ingen kostnad og er åpen for alle. Forklar hvordan dette kan bidra til å forebygge utenforskap.",
+        "fasit": "Når aktiviteten er tilgjengelig uavhengig av økonomi, kan flere delta. Det gir flere mulighet til å bli en del av et fellesskap.",
+        "kriterier": [
+          "Forklarer at en kostnadsfri aktivitet kan gjøre deltakelse mulig uavhengig av familiens økonomi.",
+          "Knytter deltakelse til muligheten for å oppleve fellesskap eller tilhørighet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

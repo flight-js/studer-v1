@@ -4,76 +4,418 @@
   "trinnId": "vg2",
   "name": "Parameterframstillinger",
   "intro": "Parameterframstilling av linjer med retningsvektor, å sjekke om punkter ligger på en linje, skjæringspunkter, kurver beskrevet med parameter, og hvordan dette brukes til bevegelse, fart og skrått kast.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Linje med retningsvektor\n\nEn linje er bestemt av **ett punkt** P(x₀, y₀) og en **retningsvektor** r⃗ = [a, b]. Alle punkter på linjen kan skrives\n\n**x = x₀ + a · t**\n**y = y₀ + b · t**\n\nTallet t kalles **parameteren**. Hver verdi av t gir ett punkt på linjen.\n\n**Eksempel**: Linjen gjennom A(1, 2) og B(4, 6) har retningsvektor AB⃗ = [3, 4]:\n\nx = 1 + 3t, y = 2 + 4t\n\nt = 0 gir A, t = 1 gir B, og t = 0,5 gir midtpunktet (2,5; 4).\n\n## Ligger punktet på linjen?\n\nSett punktets koordinater inn og se om **samme t** passer i begge likningene.\n\n**Eksempel**: Ligger (7, 10) på linjen over? 1 + 3t = 7 gir t = 2. Da er y = 2 + 4 · 2 = 10. **Ja**, punktet ligger på linjen.\n\n## Skjæringspunkt mellom to linjer\n\nBruk **ulike parametere** for de to linjene, for eksempel t og s, og sett koordinatene like:\n\nl: x = 1 + 3t, y = 2 + 4t og m: x = 7 − s, y = 2 + s\n\n1 + 3t = 7 − s og 2 + 4t = 2 + s. Fra den andre er s = 4t, som gir 1 + 3t = 7 − 4t, altså t = 6/7. Skjæringspunktet blir (1 + 18/7, 2 + 24/7) = **(25/7, 38/7)**.\n\n**Parallelle linjer** har parallelle retningsvektorer. De skjærer hverandre ikke, med mindre de er samme linje.\n\n## Fra parameterform til y = ax + b\n\nLøs den ene likningen for t og sett inn i den andre. Fra x = 1 + 3t får vi t = (x − 1)/3, og y = 2 + 4(x − 1)/3 = (4/3)x + 2/3. Stigningstallet er **b/a = 4/3**.\n\n## Bevegelse og kurver\n\nNår t er **tid**, beskriver parameterframstillingen en **bane**:\n\n**r⃗(t) = [x(t), y(t)]** – posisjonsvektoren\n\n- **Farten** er den deriverte: v⃗(t) = r⃗′(t) = [x′(t), y′(t)]\n- **Banefarten** er lengden |v⃗(t)|\n- **Akselerasjonen** er a⃗(t) = v⃗′(t)\n\nFor en linje med konstant fart er v⃗ = [a, b] hele tiden, og banefarten er √(a² + b²).\n\n## Skrått kast\n\nEn ball sparkes med startfart v₀ = 20 m/s i vinkelen α = 30° med bakken. Uten luftmotstand er\n\nx(t) = v₀ cos α · t ≈ 17,3t\ny(t) = v₀ sin α · t − ½ g t² = 10t − 4,905t²\n\n- Ballen lander når y = 0: t = 10/4,905 ≈ **2,04 s**.\n- Lengden på kastet: x(2,04) ≈ **35 m**.\n- Største høyde: v_y = 10 − 9,81t = 0 gir t ≈ 1,02 s og y ≈ **5,1 m**.\n\n## Andre kurver\n\nMed parameter kan vi også beskrive kurver som ikke er grafer av funksjoner, for eksempel en **sirkel**: x = r cos t, y = r sin t. Også to båter eller fly kan modelleres: Kolliderer de, må de være på **samme sted** ved **samme t**.",
   "flashcards": [
-    { "term": "Parameterframstilling av linje", "def": "x = x₀ + at, y = y₀ + bt" },
-    { "term": "Retningsvektor", "def": "Vektor som angir linjens retning, som [a, b]." },
-    { "term": "Parameter", "def": "Tallet t som gir ett punkt på linjen for hver verdi." },
-    { "term": "Linjen gjennom A(1, 2) og B(4, 6)", "def": "x = 1 + 3t, y = 2 + 4t" },
-    { "term": "Ligger punktet på linjen?", "def": "Samme t må passe i begge likningene." },
-    { "term": "Skjæringspunkt mellom linjer", "def": "Bruk ulike parametere og sett koordinatene like." },
-    { "term": "Parallelle linjer", "def": "Har parallelle retningsvektorer." },
-    { "term": "Stigningstall fra [a, b]", "def": "b/a" },
-    { "term": "Posisjonsvektor", "def": "r⃗(t) = [x(t), y(t)]" },
-    { "term": "Fartsvektor", "def": "v⃗(t) = r⃗′(t)" },
-    { "term": "Banefart", "def": "|v⃗(t)|" },
-    { "term": "Skrått kast, x(t)", "def": "v₀ cos α · t" },
-    { "term": "Skrått kast, y(t)", "def": "v₀ sin α · t − ½gt²" },
-    { "term": "Sirkel med parameter", "def": "x = r cos t, y = r sin t" },
-    { "term": "Kollisjon", "def": "Samme sted ved samme t." }
+    {
+      "term": "Parameterframstilling av linje",
+      "def": "x = x₀ + at, y = y₀ + bt"
+    },
+    {
+      "term": "Retningsvektor",
+      "def": "Vektor som angir linjens retning, som [a, b]."
+    },
+    {
+      "term": "Parameter",
+      "def": "Tallet t som gir ett punkt på linjen for hver verdi."
+    },
+    {
+      "term": "Linjen gjennom A(1, 2) og B(4, 6)",
+      "def": "x = 1 + 3t, y = 2 + 4t"
+    },
+    {
+      "term": "Ligger punktet på linjen?",
+      "def": "Samme t må passe i begge likningene."
+    },
+    {
+      "term": "Skjæringspunkt mellom linjer",
+      "def": "Bruk ulike parametere og sett koordinatene like."
+    },
+    {
+      "term": "Parallelle linjer",
+      "def": "Har parallelle retningsvektorer."
+    },
+    {
+      "term": "Stigningstall fra [a, b]",
+      "def": "b/a"
+    },
+    {
+      "term": "Posisjonsvektor",
+      "def": "r⃗(t) = [x(t), y(t)]"
+    },
+    {
+      "term": "Fartsvektor",
+      "def": "v⃗(t) = r⃗′(t)"
+    },
+    {
+      "term": "Banefart",
+      "def": "|v⃗(t)|"
+    },
+    {
+      "term": "Skrått kast, x(t)",
+      "def": "v₀ cos α · t"
+    },
+    {
+      "term": "Skrått kast, y(t)",
+      "def": "v₀ sin α · t − ½gt²"
+    },
+    {
+      "term": "Sirkel med parameter",
+      "def": "x = r cos t, y = r sin t"
+    },
+    {
+      "term": "Kollisjon",
+      "def": "Samme sted ved samme t."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en parameterframstilling av linjen gjennom A(1, 2) med retningsvektor [3, 4]?", "options": ["x = 3 + t, y = 4 + 2t", "x = 1 + 3t, y = 2 + 4t", "y = 3x + 4", "x = 1 + 4t, y = 2 + 3t"], "correct": 1, "explain": "Startpunkt pluss t ganger retningsvektor." },
-    { "id": "q02", "text": "Ligger (7, 10) på linjen x = 1 + 3t, y = 2 + 4t?", "options": ["Ja, t = 2 passer i begge", "Nei", "Bare hvis t = 7", "Det kan ikke avgjøres"], "correct": 0, "explain": "x = 7 gir t = 2, og da er y = 10." },
-    { "id": "q03", "text": "Hva er stigningstallet til linjen med retningsvektor [3, 4]?", "options": ["3/4", "12", "4/3", "7"], "correct": 2, "explain": "b/a." },
-    { "id": "q04", "text": "Hvorfor bruker vi ulike parametere når vi finner skjæringspunktet mellom to linjer?", "options": ["For at regningen skal bli kortere", "Fordi linjene er parallelle", "Fordi t alltid er tid", "Fordi punktet kan nås ved ulike parameterverdier på de to linjene"], "correct": 3, "explain": "t og s er uavhengige." },
-    { "id": "q05", "text": "Hvordan finner du fartsvektoren når posisjonen er r⃗(t) = [x(t), y(t)]?", "options": ["Deriver hver koordinat", "Integrer", "Del på t", "Ta lengden"], "correct": 0, "explain": "v⃗(t) = [x′(t), y′(t)]." },
-    { "id": "q06", "text": "En ball sparkes med 20 m/s i 30° vinkel. Omtrent når lander den (uten luftmotstand)?", "options": ["1,0 s", "2,0 s", "4,1 s", "0,5 s"], "correct": 1, "explain": "10t − 4,905t² = 0 gir t ≈ 2,04 s." },
-    { "id": "q07", "text": "Hva er banefarten når v⃗ = [3, 4] m/s?", "options": ["7 m/s", "12 m/s", "5 m/s", "1 m/s"], "correct": 2, "explain": "|[3, 4]| = 5." },
-    { "id": "q08", "text": "Hvilken parameterframstilling beskriver en sirkel med radius r om origo?", "options": ["x = rt, y = rt", "x = r + t, y = r − t", "x = t, y = t²", "x = r cos t, y = r sin t"], "correct": 3, "explain": "cos² t + sin² t = 1." },
-    { "id": "q09", "text": "Hvilket punkt gir t = 0,5 på linjen x = 1 + 3t, y = 2 + 4t?", "options": ["(2,5; 4)", "(4, 6)", "(1, 2)", "(3, 4)"], "correct": 0, "explain": "Midtpunktet mellom A og B." },
-    { "id": "q10", "text": "Omtrent hvor høyt når ballen som sparkes med 20 m/s i 30° vinkel?", "options": ["10 m", "5,1 m", "20 m", "2 m"], "correct": 1, "explain": "v_y = 10 m/s gir h = 10²/(2 · 9,81)." }
+    {
+      "id": "q01",
+      "text": "Hva er en parameterframstilling av linjen gjennom A(1, 2) med retningsvektor [3, 4]?",
+      "options": [
+        "x = 3 + t, y = 4 + 2t",
+        "x = 1 + 3t, y = 2 + 4t",
+        "y = 3x + 4",
+        "x = 1 + 4t, y = 2 + 3t"
+      ],
+      "correct": 1,
+      "explain": "Startpunkt pluss t ganger retningsvektor."
+    },
+    {
+      "id": "q02",
+      "text": "Ligger (7, 10) på linjen x = 1 + 3t, y = 2 + 4t?",
+      "options": [
+        "Ja, t = 2 passer i begge",
+        "Nei",
+        "Bare hvis t = 7",
+        "Det kan ikke avgjøres"
+      ],
+      "correct": 0,
+      "explain": "x = 7 gir t = 2, og da er y = 10."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er stigningstallet til linjen med retningsvektor [3, 4]?",
+      "options": [
+        "3/4",
+        "12",
+        "4/3",
+        "7"
+      ],
+      "correct": 2,
+      "explain": "b/a."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor bruker vi ulike parametere når vi finner skjæringspunktet mellom to linjer?",
+      "options": [
+        "For at regningen skal bli kortere",
+        "Fordi linjene er parallelle",
+        "Fordi t alltid er tid",
+        "Fordi punktet kan nås ved ulike parameterverdier på de to linjene"
+      ],
+      "correct": 3,
+      "explain": "t og s er uavhengige."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan finner du fartsvektoren når posisjonen er r⃗(t) = [x(t), y(t)]?",
+      "options": [
+        "Deriver hver koordinat",
+        "Integrer",
+        "Del på t",
+        "Ta lengden"
+      ],
+      "correct": 0,
+      "explain": "v⃗(t) = [x′(t), y′(t)]."
+    },
+    {
+      "id": "q06",
+      "text": "En ball sparkes med 20 m/s i 30° vinkel. Omtrent når lander den (uten luftmotstand)?",
+      "options": [
+        "1,0 s",
+        "2,0 s",
+        "4,1 s",
+        "0,5 s"
+      ],
+      "correct": 1,
+      "explain": "10t − 4,905t² = 0 gir t ≈ 2,04 s."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er banefarten når v⃗ = [3, 4] m/s?",
+      "options": [
+        "7 m/s",
+        "12 m/s",
+        "5 m/s",
+        "1 m/s"
+      ],
+      "correct": 2,
+      "explain": "|[3, 4]| = 5."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken parameterframstilling beskriver en sirkel med radius r om origo?",
+      "options": [
+        "x = rt, y = rt",
+        "x = r + t, y = r − t",
+        "x = t, y = t²",
+        "x = r cos t, y = r sin t"
+      ],
+      "correct": 3,
+      "explain": "cos² t + sin² t = 1."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket punkt gir t = 0,5 på linjen x = 1 + 3t, y = 2 + 4t?",
+      "options": [
+        "(2,5; 4)",
+        "(4, 6)",
+        "(1, 2)",
+        "(3, 4)"
+      ],
+      "correct": 0,
+      "explain": "Midtpunktet mellom A og B."
+    },
+    {
+      "id": "q10",
+      "text": "Omtrent hvor høyt når ballen som sparkes med 20 m/s i 30° vinkel?",
+      "options": [
+        "10 m",
+        "5,1 m",
+        "20 m",
+        "2 m"
+      ],
+      "correct": 1,
+      "explain": "v_y = 10 m/s gir h = 10²/(2 · 9,81)."
+    }
   ],
   "mindmap": {
     "label": "Parameterframstillinger",
     "children": [
-      { "label": "Linjer", "children": [
-        { "label": "Punkt og retningsvektor" },
-        { "label": "x = x₀ + at, y = y₀ + bt" }
-      ] },
-      { "label": "Oppgavetyper", "children": [
-        { "label": "Punkt på linjen?" },
-        { "label": "Skjæringspunkt" },
-        { "label": "Til y = ax + b" }
-      ] },
-      { "label": "Bevegelse", "children": [
-        { "label": "Posisjonsvektor" },
-        { "label": "Fartsvektor og banefart" },
-        { "label": "Akselerasjon" }
-      ] },
-      { "label": "Skrått kast", "children": [
-        { "label": "x = v₀ cos α t" },
-        { "label": "y = v₀ sin α t − ½gt²" }
-      ] },
-      { "label": "Andre kurver", "children": [
-        { "label": "Sirkel" },
-        { "label": "Kollisjoner" }
-      ] }
+      {
+        "label": "Linjer",
+        "children": [
+          {
+            "label": "Punkt og retningsvektor"
+          },
+          {
+            "label": "x = x₀ + at, y = y₀ + bt"
+          }
+        ]
+      },
+      {
+        "label": "Oppgavetyper",
+        "children": [
+          {
+            "label": "Punkt på linjen?"
+          },
+          {
+            "label": "Skjæringspunkt"
+          },
+          {
+            "label": "Til y = ax + b"
+          }
+        ]
+      },
+      {
+        "label": "Bevegelse",
+        "children": [
+          {
+            "label": "Posisjonsvektor"
+          },
+          {
+            "label": "Fartsvektor og banefart"
+          },
+          {
+            "label": "Akselerasjon"
+          }
+        ]
+      },
+      {
+        "label": "Skrått kast",
+        "children": [
+          {
+            "label": "x = v₀ cos α t"
+          },
+          {
+            "label": "y = v₀ sin α t − ½gt²"
+          }
+        ]
+      },
+      {
+        "label": "Andre kurver",
+        "children": [
+          {
+            "label": "Sirkel"
+          },
+          {
+            "label": "Kollisjoner"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En linje har mange ulike parameterframstillinger.", "correct": true, "explain": "Du kan velge ulike startpunkter og retningsvektorer." },
-      { "id": "m02", "type": "sant-usant", "text": "To linjer med parallelle retningsvektorer skjærer hverandre alltid i ett punkt.", "correct": false, "explain": "De er parallelle eller sammenfallende." },
-      { "id": "m03", "type": "sant-usant", "text": "I et skrått kast uten luftmotstand er farten i x-retningen konstant.", "correct": true, "explain": "Ingen kraft virker vannrett." },
-      { "id": "m04", "type": "sant-usant", "text": "To båter kolliderer hvis banene deres krysser hverandre.", "correct": false, "explain": "De må være på samme sted ved samme tid." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken retningsvektor har linjen y = 2x + 1?", "options": ["[2, 1]", "[1, 2]", "[1, 1]", "[0, 2]"], "correct": 1, "explain": "Stigningstall 2 = b/a med a = 1, b = 2." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er y(t) i et skrått kast med startfart i y-retning 10 m/s?", "options": ["10t − 4,905t²", "10t + 4,905t²", "10 − 9,81t", "4,905t²"], "correct": 0, "explain": "y = v₀y · t − ½gt²." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er akselerasjonsvektoren i et skrått kast uten luftmotstand?", "options": ["[0, 0]", "[9,81, 0]", "[0, −9,81] m/s²", "[v₀, 0]"], "correct": 2, "explain": "Bare tyngdekraften virker." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En linje har mange ulike parameterframstillinger.",
+        "correct": true,
+        "explain": "Du kan velge ulike startpunkter og retningsvektorer."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "To linjer med parallelle retningsvektorer skjærer hverandre alltid i ett punkt.",
+        "correct": false,
+        "explain": "De er parallelle eller sammenfallende."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "I et skrått kast uten luftmotstand er farten i x-retningen konstant.",
+        "correct": true,
+        "explain": "Ingen kraft virker vannrett."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "To båter kolliderer hvis banene deres krysser hverandre.",
+        "correct": false,
+        "explain": "De må være på samme sted ved samme tid."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken retningsvektor har linjen y = 2x + 1?",
+        "options": [
+          "[2, 1]",
+          "[1, 2]",
+          "[1, 1]",
+          "[0, 2]"
+        ],
+        "correct": 1,
+        "explain": "Stigningstall 2 = b/a med a = 1, b = 2."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er y(t) i et skrått kast med startfart i y-retning 10 m/s?",
+        "options": [
+          "10t − 4,905t²",
+          "10t + 4,905t²",
+          "10 − 9,81t",
+          "4,905t²"
+        ],
+        "correct": 0,
+        "explain": "y = v₀y · t − ½gt²."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er akselerasjonsvektoren i et skrått kast uten luftmotstand?",
+        "options": [
+          "[0, 0]",
+          "[9,81, 0]",
+          "[0, −9,81] m/s²",
+          "[v₀, 0]"
+        ],
+        "correct": 2,
+        "explain": "Bare tyngdekraften virker."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I parameterframstillingen x = x₀ + at, y = y₀ + bt, forklar hvilken rolle retningsvektoren [a, b] og parameteren t har.",
+        "fasit": "Retningsvektoren angir retningen linjen går i og endringen i x- og y-koordinatene når t endres. Hver verdi av t gir ett punkt på linjen.",
+        "kriterier": [
+          "Forklarer at retningsvektoren angir linjens retning eller koordinatendring.",
+          "Forklarer at en verdi av t bestemmer et punkt på linjen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "På linjen x = 1 + 3t, y = 2 + 4t, finn punktet som svarer til t = −1. Vis det viktigste regnetrinnet.",
+        "fasit": "Setter vi t = −1 inn, får vi x = 1 − 3 = −2 og y = 2 − 4 = −2. Punktet er (−2, −2).",
+        "kriterier": [
+          "Setter t = −1 inn i begge koordinatlikningene.",
+          "Oppgir punktet (−2, −2)."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Finn skjæringspunktet mellom linjene l: x = 1 + 3t, y = 2 + 4t og m: x = 7 − s, y = 2 + s. Vis det viktigste steget i utregningen.",
+        "fasit": "Fra y-likningene får vi 2 + 4t = 2 + s, altså s = 4t. Da gir x-likningene 1 + 3t = 7 − 4t, så t = 6/7 og skjæringspunktet er (25/7, 38/7).",
+        "kriterier": [
+          "Bruker begge koordinatlikningene til å få s = 4t og t = 6/7.",
+          "Finner skjæringspunktet (25/7, 38/7)."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Gjør parameterframstillingen x = 1 + 3t, y = 2 + 4t om til formen y = ax + b. Vis hvordan du fjerner t.",
+        "fasit": "Fra x = 1 + 3t får vi t = (x − 1)/3. Setter vi dette inn i y-likningen, får vi y = 2 + 4(x − 1)/3 = (4/3)x + 2/3.",
+        "kriterier": [
+          "Løser x-likningen riktig for t.",
+          "Setter uttrykket for t inn i y-likningen og får y = (4/3)x + 2/3."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar forskjellen på fartsvektoren v⃗(t) og banefarten for en bevegelse beskrevet med posisjonsvektoren r⃗(t).",
+        "fasit": "Fartsvektoren er den deriverte av posisjonsvektoren og viser bevegelsen som en vektor. Banefarten er lengden av fartsvektoren.",
+        "kriterier": [
+          "Forklarer at fartsvektoren er den deriverte av posisjonsvektoren.",
+          "Forklarer at banefarten er lengden av fartsvektoren."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "To linjer har parallelle retningsvektorer. Forklar hva dette sier om linjene, og nevn unntaket fra regelen om at de ikke skjærer hverandre.",
+        "fasit": "Linjer med parallelle retningsvektorer er parallelle og skjærer vanligvis ikke hverandre. Unntaket er når de er samme linje.",
+        "kriterier": [
+          "Knytter parallelle retningsvektorer til parallelle linjer.",
+          "Nevner at linjene kan være samme linje."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "To båter beskrives med parameterframstillinger for posisjonen sin. Hvilken betingelse må være oppfylt for at de skal kollidere?",
+        "fasit": "Båtene må være på samme sted ved samme verdi av t. At de passerer samme sted til ulike tider, er ikke nok.",
+        "kriterier": [
+          "Sier at båtene må være på samme sted.",
+          "Sier at de må være der ved samme tidspunkt eller samme t-verdi."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En ball lander ved t ≈ 2,04 s, og den horisontale posisjonen er gitt ved x(t) = 17,3t. Forklar hvordan du finner lengden på kastet, og oppgi den omtrentlige lengden.",
+        "fasit": "Setter vi landingstiden inn i x(t), får vi x(2,04) ≈ 35. Lengden på kastet er omtrent 35 m.",
+        "kriterier": [
+          "Bruker landingstiden i x(t), ikke y(t), for å finne kastelengden.",
+          "Oppgir omtrent 35 m."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

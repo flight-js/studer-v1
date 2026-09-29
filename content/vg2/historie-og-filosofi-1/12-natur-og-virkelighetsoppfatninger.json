@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Natur, miljø og virkelighetsoppfatninger",
   "intro": "Forholdet mellom miljø og ressursbruk i et historisk perspektiv, ulike syn på forholdet mellom mennesker, dyr og natur, og virkelighetsoppfatninger fra ulike tradisjoner og deler av verden – og hvordan mennesket og naturen har blitt verdsatt.",
-  "kompetansemaal": [10, 11],
+  "kompetansemaal": [
+    10,
+    11
+  ],
   "sammendrag": "## Miljø og ressursbruk i historien\n\nMennesker har alltid **påvirket** naturen – men i svært ulik grad.\n\n- **Jegere og sankere** var avhengige av naturens rytmer, men bidro trolig til at store dyr som mammuter døde ut.\n- **Jordbruket** førte til **avskoging**, erosjon og omforming av landskap. Allerede i antikken ble store skoger rundt Middelhavet hugget.\n- Klimaet har også påvirket samfunnene: Under **den lille istid** (om lag 1300–1850) ga kalde perioder dårlige avlinger og sult i Europa.\n- Med **industrialiseringen** økte bruken av **kull** og senere **olje** kraftig, sammen med forurensning og utslipp.\n- Etter **1950** har veksten i befolkning, produksjon, energibruk og utslipp vært så rask at forskere snakker om **den store akselerasjonen** – og om en ny epoke, **antropocen**.\n\n## Mennesket, dyrene og naturen\n\n**Antroposentrisme** setter **mennesket** i sentrum: Naturen og dyrene har verdi fordi de er **nyttige** for oss.\n\n- **Aristoteles** mente at planter er til for dyrene, og dyrene for mennesket.\n- **Descartes** så dyr som **maskiner** uten bevissthet.\n- I **1. Mosebok** får mennesket i oppdrag å legge jorda under seg. Mange kristne tolker dette i dag som et **forvalteransvar** – å ta vare på skaperverket.\n\n**Utvidede syn**:\n\n- **Jeremy Bentham** mente at spørsmålet ikke er om dyr kan **tenke**, men om de kan **lide**. **Peter Singer** bygde videre på dette i *Animal Liberation* (1975).\n- **Biosentrisme**: Alt **levende** har verdi i seg selv.\n- **Økosentrisme**: **Økosystemer** og arter som helhet har verdi. Den norske filosofen **Arne Næss** utviklet **dypøkologien**, som legger vekt på at alt liv har **egenverdi**.\n\n## Virkelighetsoppfatninger fra ulike tradisjoner\n\n- **Buddhismen**: Alt henger sammen og er i **forandring**. Idéen om **karma** og respekt for alt levende gir mange buddhister et ønske om å **ikke skade**.\n- **Hinduismen**: Det guddommelige kan finnes i hele naturen; mange hinduer ser **kua** som hellig, og **ahimsa** – ikke-vold – er et viktig ideal.\n- **Daoismen** i Kina: Mennesket bør leve i **harmoni** med **dao**, naturens vei, og ikke kjempe mot den.\n- **Konfucianismen** legger vekt på **harmoni** i familie og samfunn og riktige relasjoner mellom mennesker.\n- **Urfolks** tradisjoner, som den **samiske**, ser ofte mennesket som **en del av** naturen, med **gjensidige forpliktelser**. Naturen gir, og mennesket skal ta bare det det trenger.\n- **Abrahamittiske religioner** – jødedom, kristendom og islam – ser naturen som **skapt** av Gud, og mennesket som **forvalter** med ansvar.\n- Det **moderne vitenskapelige** verdensbildet ser naturen som styrt av **naturlover** og gjenstand for utforskning.\n\n## Verdsetting av mennesker\n\nSynet på **mennesket** har også variert. Mange tradisjoner har gitt noen grupper **høyere verdi** enn andre – etter kjønn, kaste, klasse eller hudfarge. Idéen om at **alle** mennesker har **lik verdi**, har røtter i blant annet religion og opplysningsfilosofi, og ble nedfelt i **FNs menneskerettighetserklæring** i 1948.\n\n## Refleksjon\n\nHvilket syn på naturen vi har, påvirker **politikken**: Skal en vassdragsutbygging vurderes bare ut fra **nytte** for mennesker, eller har naturen **egenverdi**? Og hvem skal bære kostnadene ved **klimaendringene**? Ulike tradisjoner kan gi **ressurser** til å tenke nytt om forholdet mellom mennesker og natur.",
   "flashcards": [
-    { "term": "Den lille istid", "def": "Kalde perioder om lag 1300–1850 med dårlige avlinger." },
-    { "term": "Den store akselerasjonen", "def": "Rask vekst i befolkning, produksjon og utslipp etter 1950." },
-    { "term": "Antropocen", "def": "Foreslått epoke der mennesket er den viktigste kraften på jorda." },
-    { "term": "Antroposentrisme", "def": "Mennesket i sentrum; naturen har verdi fordi den er nyttig." },
-    { "term": "Descartes om dyr", "def": "Så dyr som maskiner uten bevissthet." },
-    { "term": "Forvalteransvar", "def": "Å ta vare på skaperverket." },
-    { "term": "Bentham om dyr", "def": "Det avgjørende er om dyr kan lide." },
-    { "term": "Peter Singer", "def": "Skrev Animal Liberation (1975)." },
-    { "term": "Biosentrisme", "def": "Alt levende har verdi i seg selv." },
-    { "term": "Økosentrisme", "def": "Økosystemer og arter som helhet har verdi." },
-    { "term": "Dypøkologi", "def": "Arne Næss' filosofi om at alt liv har egenverdi." },
-    { "term": "Ahimsa", "def": "Ikke-vold – viktig ideal i hinduisme og buddhisme." },
-    { "term": "Dao", "def": "Naturens vei i daoismen." },
-    { "term": "Samisk naturforståelse", "def": "Mennesket som del av naturen med gjensidige forpliktelser." },
-    { "term": "FNs menneskerettighetserklæring", "def": "Slo fast i 1948 at alle mennesker har lik verdi." }
+    {
+      "term": "Den lille istid",
+      "def": "Kalde perioder om lag 1300–1850 med dårlige avlinger."
+    },
+    {
+      "term": "Den store akselerasjonen",
+      "def": "Rask vekst i befolkning, produksjon og utslipp etter 1950."
+    },
+    {
+      "term": "Antropocen",
+      "def": "Foreslått epoke der mennesket er den viktigste kraften på jorda."
+    },
+    {
+      "term": "Antroposentrisme",
+      "def": "Mennesket i sentrum; naturen har verdi fordi den er nyttig."
+    },
+    {
+      "term": "Descartes om dyr",
+      "def": "Så dyr som maskiner uten bevissthet."
+    },
+    {
+      "term": "Forvalteransvar",
+      "def": "Å ta vare på skaperverket."
+    },
+    {
+      "term": "Bentham om dyr",
+      "def": "Det avgjørende er om dyr kan lide."
+    },
+    {
+      "term": "Peter Singer",
+      "def": "Skrev Animal Liberation (1975)."
+    },
+    {
+      "term": "Biosentrisme",
+      "def": "Alt levende har verdi i seg selv."
+    },
+    {
+      "term": "Økosentrisme",
+      "def": "Økosystemer og arter som helhet har verdi."
+    },
+    {
+      "term": "Dypøkologi",
+      "def": "Arne Næss' filosofi om at alt liv har egenverdi."
+    },
+    {
+      "term": "Ahimsa",
+      "def": "Ikke-vold – viktig ideal i hinduisme og buddhisme."
+    },
+    {
+      "term": "Dao",
+      "def": "Naturens vei i daoismen."
+    },
+    {
+      "term": "Samisk naturforståelse",
+      "def": "Mennesket som del av naturen med gjensidige forpliktelser."
+    },
+    {
+      "term": "FNs menneskerettighetserklæring",
+      "def": "Slo fast i 1948 at alle mennesker har lik verdi."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er antroposentrisme?", "options": ["At alt levende har lik verdi", "At mennesket står i sentrum og naturen har verdi fordi den er nyttig", "At økosystemer har egenverdi", "At dyr er hellige"], "correct": 1, "explain": "Et menneskesentrert syn." },
-    { "id": "q02", "text": "Hvordan så Descartes på dyr?", "options": ["Som maskiner uten bevissthet", "Som hellige vesener", "Som like mye verdt som mennesker", "Som guder"], "correct": 0, "explain": "Et syn som er sterkt kritisert i dag." },
-    { "id": "q03", "text": "Hva mente Bentham var det avgjørende spørsmålet om dyr?", "options": ["Om de kan tenke", "Om de kan snakke", "Om de kan lide", "Om de er nyttige"], "correct": 2, "explain": "Grunnlag for dyreetikk." },
-    { "id": "q04", "text": "Hva er dypøkologi?", "options": ["Havforskning", "En type jordbruk", "Et økonomisk system", "Arne Næss' filosofi om at alt liv har egenverdi"], "correct": 3, "explain": "Et økosentrisk syn." },
-    { "id": "q05", "text": "Hva legger daoismen vekt på?", "options": ["Å leve i harmoni med naturens vei", "Å beherske naturen", "Å samle rikdom", "Å bygge store byer"], "correct": 0, "explain": "Dao er naturens vei." },
-    { "id": "q06", "text": "Hva kjennetegner mange urfolks naturforståelse?", "options": ["At naturen er fiende", "At mennesket er en del av naturen med gjensidige forpliktelser", "At naturen bare er ressurser", "At dyr ikke har verdi"], "correct": 1, "explain": "For eksempel i samisk tradisjon." },
-    { "id": "q07", "text": "Hva er den store akselerasjonen?", "options": ["Industrialiseringen i Storbritannia", "Jordbruksrevolusjonen", "Rask vekst i befolkning, produksjon og utslipp etter 1950", "Den lille istid"], "correct": 2, "explain": "Grunnlag for begrepet antropocen." },
-    { "id": "q08", "text": "Hvordan tolker mange kristne i dag oppdraget om å legge jorda under seg?", "options": ["Som rett til å ødelegge naturen", "Som et krav om å bo i byer", "Som et forbud mot jordbruk", "Som et forvalteransvar for skaperverket"], "correct": 3, "explain": "Å ta vare på naturen." },
-    { "id": "q09", "text": "Hva er ahimsa?", "options": ["Ikke-vold", "En hellig elv", "En gud", "En type meditasjon"], "correct": 0, "explain": "Viktig i hinduisme og buddhisme." },
-    { "id": "q10", "text": "Hvordan kan synet på naturen påvirke politikken?", "options": ["Det har ingen betydning", "Det avgjør om naturinngrep vurderes bare ut fra nytte eller også ut fra naturens egenverdi", "Det bestemmer skattesatsen", "Det avgjør valgdagen"], "correct": 1, "explain": "For eksempel ved vassdragsutbygging." }
+    {
+      "id": "q01",
+      "text": "Hva er antroposentrisme?",
+      "options": [
+        "At alt levende har lik verdi",
+        "At mennesket står i sentrum og naturen har verdi fordi den er nyttig",
+        "At økosystemer har egenverdi",
+        "At dyr er hellige"
+      ],
+      "correct": 1,
+      "explain": "Et menneskesentrert syn."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan så Descartes på dyr?",
+      "options": [
+        "Som maskiner uten bevissthet",
+        "Som hellige vesener",
+        "Som like mye verdt som mennesker",
+        "Som guder"
+      ],
+      "correct": 0,
+      "explain": "Et syn som er sterkt kritisert i dag."
+    },
+    {
+      "id": "q03",
+      "text": "Hva mente Bentham var det avgjørende spørsmålet om dyr?",
+      "options": [
+        "Om de kan tenke",
+        "Om de kan snakke",
+        "Om de kan lide",
+        "Om de er nyttige"
+      ],
+      "correct": 2,
+      "explain": "Grunnlag for dyreetikk."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er dypøkologi?",
+      "options": [
+        "Havforskning",
+        "En type jordbruk",
+        "Et økonomisk system",
+        "Arne Næss' filosofi om at alt liv har egenverdi"
+      ],
+      "correct": 3,
+      "explain": "Et økosentrisk syn."
+    },
+    {
+      "id": "q05",
+      "text": "Hva legger daoismen vekt på?",
+      "options": [
+        "Å leve i harmoni med naturens vei",
+        "Å beherske naturen",
+        "Å samle rikdom",
+        "Å bygge store byer"
+      ],
+      "correct": 0,
+      "explain": "Dao er naturens vei."
+    },
+    {
+      "id": "q06",
+      "text": "Hva kjennetegner mange urfolks naturforståelse?",
+      "options": [
+        "At naturen er fiende",
+        "At mennesket er en del av naturen med gjensidige forpliktelser",
+        "At naturen bare er ressurser",
+        "At dyr ikke har verdi"
+      ],
+      "correct": 1,
+      "explain": "For eksempel i samisk tradisjon."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er den store akselerasjonen?",
+      "options": [
+        "Industrialiseringen i Storbritannia",
+        "Jordbruksrevolusjonen",
+        "Rask vekst i befolkning, produksjon og utslipp etter 1950",
+        "Den lille istid"
+      ],
+      "correct": 2,
+      "explain": "Grunnlag for begrepet antropocen."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan tolker mange kristne i dag oppdraget om å legge jorda under seg?",
+      "options": [
+        "Som rett til å ødelegge naturen",
+        "Som et krav om å bo i byer",
+        "Som et forbud mot jordbruk",
+        "Som et forvalteransvar for skaperverket"
+      ],
+      "correct": 3,
+      "explain": "Å ta vare på naturen."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er ahimsa?",
+      "options": [
+        "Ikke-vold",
+        "En hellig elv",
+        "En gud",
+        "En type meditasjon"
+      ],
+      "correct": 0,
+      "explain": "Viktig i hinduisme og buddhisme."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan synet på naturen påvirke politikken?",
+      "options": [
+        "Det har ingen betydning",
+        "Det avgjør om naturinngrep vurderes bare ut fra nytte eller også ut fra naturens egenverdi",
+        "Det bestemmer skattesatsen",
+        "Det avgjør valgdagen"
+      ],
+      "correct": 1,
+      "explain": "For eksempel ved vassdragsutbygging."
+    }
   ],
   "mindmap": {
     "label": "Natur og virkelighetsoppfatninger",
     "children": [
-      { "label": "Ressursbruk i historien", "children": [
-        { "label": "Jordbruk og avskoging" },
-        { "label": "Den lille istid" },
-        { "label": "Industrialisering og akselerasjon" }
-      ] },
-      { "label": "Menneskesentrert", "children": [
-        { "label": "Aristoteles" },
-        { "label": "Descartes" },
-        { "label": "Forvalteransvar" }
-      ] },
-      { "label": "Utvidede syn", "children": [
-        { "label": "Bentham og Singer" },
-        { "label": "Biosentrisme" },
-        { "label": "Dypøkologi" }
-      ] },
-      { "label": "Tradisjoner", "children": [
-        { "label": "Buddhisme og hinduisme" },
-        { "label": "Daoisme og konfucianisme" },
-        { "label": "Urfolk og abrahamittiske religioner" }
-      ] },
-      { "label": "Verdsetting", "children": [
-        { "label": "Lik verdi for alle" },
-        { "label": "Naturens egenverdi" },
-        { "label": "Klima og politikk" }
-      ] }
+      {
+        "label": "Ressursbruk i historien",
+        "children": [
+          {
+            "label": "Jordbruk og avskoging"
+          },
+          {
+            "label": "Den lille istid"
+          },
+          {
+            "label": "Industrialisering og akselerasjon"
+          }
+        ]
+      },
+      {
+        "label": "Menneskesentrert",
+        "children": [
+          {
+            "label": "Aristoteles"
+          },
+          {
+            "label": "Descartes"
+          },
+          {
+            "label": "Forvalteransvar"
+          }
+        ]
+      },
+      {
+        "label": "Utvidede syn",
+        "children": [
+          {
+            "label": "Bentham og Singer"
+          },
+          {
+            "label": "Biosentrisme"
+          },
+          {
+            "label": "Dypøkologi"
+          }
+        ]
+      },
+      {
+        "label": "Tradisjoner",
+        "children": [
+          {
+            "label": "Buddhisme og hinduisme"
+          },
+          {
+            "label": "Daoisme og konfucianisme"
+          },
+          {
+            "label": "Urfolk og abrahamittiske religioner"
+          }
+        ]
+      },
+      {
+        "label": "Verdsetting",
+        "children": [
+          {
+            "label": "Lik verdi for alle"
+          },
+          {
+            "label": "Naturens egenverdi"
+          },
+          {
+            "label": "Klima og politikk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mennesker påvirket naturen også lenge før industrialiseringen.", "correct": true, "explain": "Blant annet gjennom jordbruk og avskoging." },
-      { "id": "m02", "type": "sant-usant", "text": "Økosentrisme mener at bare mennesker har verdi.", "correct": false, "explain": "Økosentrisme gir økosystemer og arter verdi." },
-      { "id": "m03", "type": "sant-usant", "text": "Den lille istid ga dårlige avlinger og sult i Europa.", "correct": true, "explain": "Kalde perioder om lag 1300–1850." },
-      { "id": "m04", "type": "sant-usant", "text": "Idéen om at alle mennesker har lik verdi, har alltid vært selvsagt i alle kulturer.", "correct": false, "explain": "Mange tradisjoner har rangert mennesker ulikt." },
-      { "id": "m05", "type": "flervalg", "text": "I hvilken tradisjon ser mange kua som hellig?", "options": ["Daoismen", "Hinduismen", "Konfucianismen", "Stoisismen"], "correct": 1, "explain": "Knyttet til ahimsa." },
-      { "id": "m06", "type": "flervalg", "text": "Hvem skrev Animal Liberation i 1975?", "options": ["Peter Singer", "Arne Næss", "Jeremy Bentham", "René Descartes"], "correct": 0, "explain": "Bygde videre på Bentham." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er biosentrisme?", "options": ["At mennesket står i sentrum", "At bare økosystemer har verdi", "At alt levende har verdi i seg selv", "At naturen er en maskin"], "correct": 2, "explain": "Hvert levende vesen har egenverdi." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mennesker påvirket naturen også lenge før industrialiseringen.",
+        "correct": true,
+        "explain": "Blant annet gjennom jordbruk og avskoging."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Økosentrisme mener at bare mennesker har verdi.",
+        "correct": false,
+        "explain": "Økosentrisme gir økosystemer og arter verdi."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Den lille istid ga dårlige avlinger og sult i Europa.",
+        "correct": true,
+        "explain": "Kalde perioder om lag 1300–1850."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Idéen om at alle mennesker har lik verdi, har alltid vært selvsagt i alle kulturer.",
+        "correct": false,
+        "explain": "Mange tradisjoner har rangert mennesker ulikt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "I hvilken tradisjon ser mange kua som hellig?",
+        "options": [
+          "Daoismen",
+          "Hinduismen",
+          "Konfucianismen",
+          "Stoisismen"
+        ],
+        "correct": 1,
+        "explain": "Knyttet til ahimsa."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem skrev Animal Liberation i 1975?",
+        "options": [
+          "Peter Singer",
+          "Arne Næss",
+          "Jeremy Bentham",
+          "René Descartes"
+        ],
+        "correct": 0,
+        "explain": "Bygde videre på Bentham."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er biosentrisme?",
+        "options": [
+          "At mennesket står i sentrum",
+          "At bare økosystemer har verdi",
+          "At alt levende har verdi i seg selv",
+          "At naturen er en maskin"
+        ],
+        "correct": 2,
+        "explain": "Hvert levende vesen har egenverdi."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Under den lille istid, om lag 1300–1850, opplevde Europa kalde perioder. Forklar hvordan dette kunne påvirke menneskers liv.",
+        "fasit": "Kuldeperiodene kunne føre til dårlige avlinger. Det kunne igjen føre til sult i Europa.",
+        "kriterier": [
+          "Knytter kalde perioder til dårlige avlinger.",
+          "Forklarer at dårlige avlinger kunne føre til sult."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En vassdragsutbygging skal vurderes. Hvordan ville begrunnelsen for utbyggingen skille seg mellom et antroposentrisk og et økosentrisk syn?",
+        "fasit": "Et antroposentrisk syn ville vurdere naturen ut fra nytten den har for mennesker. Et økosentrisk syn ville også legge vekt på at økosystemer og arter som helhet har verdi.",
+        "kriterier": [
+          "Forklarer at antroposentrisme setter menneskers nytte i sentrum.",
+          "Forklarer at økosentrisme tillegger økosystemer og arter verdi som helhet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hvordan endret industrialiseringen menneskers ressursbruk, og hvilke miljøfølger fulgte med denne endringen?",
+        "fasit": "Bruken av kull økte kraftig under industrialiseringen, og senere økte også bruken av olje. Dette skjedde sammen med mer forurensning og større utslipp.",
+        "kriterier": [
+          "Nevner økt bruk av kull og senere olje.",
+          "Knytter den økte ressursbruken til forurensning og utslipp."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hva er én viktig forskjell mellom buddhismens og daoismens syn på forholdet mellom mennesker og natur?",
+        "fasit": "Buddhismen legger vekt på at alt henger sammen og er i forandring, og at man bør unngå å skade levende vesener. Daoismen legger vekt på å leve i harmoni med dao, naturens vei, og ikke kjempe mot den.",
+        "kriterier": [
+          "Beskriver et relevant trekk ved buddhismens syn, som sammenheng, forandring eller ønsket om ikke å skade.",
+          "Beskriver dao som naturens vei og knytter den til harmoni med naturen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Jordbruk har ført til avskoging og erosjon. Forklar hvordan jordbruk også kunne bidra til å omforme landskapet.",
+        "fasit": "Når mennesker ryddet skog for å bruke jorda til jordbruk, ble landskapet endret. Avskoging og erosjon er eksempler på slike endringer.",
+        "kriterier": [
+          "Knytter jordbruk til menneskelig endring av landskapet.",
+          "Nevner avskoging eller erosjon som en konkret følge."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Den store akselerasjonen viser til rask vekst etter 1950, mens antropocen er en foreslått epoke der mennesket er den viktigste kraften på jorda. Forklar hvordan begrepene henger sammen.",
+        "fasit": "Den store akselerasjonen viser til den raske veksten i befolkning, produksjon og utslipp etter 1950. Denne veksten kan støtte tanken om antropocen, fordi den viser hvor stor påvirkning menneskelig aktivitet har på jorda.",
+        "kriterier": [
+          "Forklarer at den store akselerasjonen er rask vekst etter 1950.",
+          "Knytter veksten til ideen om at mennesket er en viktig kraft på jorda i antropocen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "FNs menneskerettighetserklæring fra 1948 slo fast at alle mennesker har lik verdi. Forklar hvordan denne ideen utfordrer at noen grupper tidligere ble verdsatt høyere enn andre.",
+        "fasit": "Erklæringen slår fast at alle mennesker har lik verdi, uavhengig av hvilken gruppe de tilhører. Dette utfordrer syn der mennesker ble rangert etter for eksempel kjønn, kaste, klasse eller hudfarge.",
+        "kriterier": [
+          "Forklarer at erklæringen fastslår lik verdi for alle mennesker.",
+          "Knytter dette til at grupper tidligere ble verdsatt ulikt, for eksempel etter kjønn, kaste, klasse eller hudfarge."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Jegere og sankere var avhengige av naturens rytmer, men kan også ha bidratt til at store dyr som mammuter døde ut. Forklar hvordan disse to forholdene kan være sanne samtidig.",
+        "fasit": "Jegere og sankere var avhengige av naturen for livsgrunnlaget sitt og måtte følge dens rytmer. Samtidig kan aktivitetene deres ha påvirket naturen så mye at de bidro til at store dyr som mammuter døde ut.",
+        "kriterier": [
+          "Forklarer at jegere og sankere var avhengige av naturen.",
+          "Forklarer at mennesker likevel kunne påvirke naturen og bidra til at store dyr døde ut."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

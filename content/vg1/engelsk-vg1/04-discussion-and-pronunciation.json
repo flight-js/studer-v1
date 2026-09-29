@@ -358,6 +358,80 @@
         "correct": 1,
         "explain": "ba-NA-na. The first and last syllables have a schwa."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "What makes a good discussion different from a competition to win? Explain what participants should do with other people’s arguments.",
+        "fasit": "A good discussion is about exploring an issue together, not winning. Participants should understand others’ arguments, respond to them and build on their ideas.",
+        "kriterier": [
+          "Explains that the aim is to explore an issue together rather than win.",
+          "Says participants should respond to or build on other people’s arguments."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "A classmate says, “Visual aids should support what a presenter says, not repeat it.” Write a response that builds on this point and adds that visual aids can help the audience follow the presentation.",
+        "fasit": "I’d like to add to what you said: visual aids can also help the audience follow the presentation.",
+        "kriterier": [
+          "Uses a phrase or wording that clearly builds on the classmate’s point.",
+          "Adds the given idea that visual aids can help the audience follow the presentation."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Explain the difference between paraphrasing and using a filler when you cannot remember a word.",
+        "fasit": "Paraphrasing means describing the idea in different words, while a filler such as “Well …” gives you time to think.",
+        "kriterier": [
+          "Explains that paraphrasing expresses the idea in other words.",
+          "Explains that a filler gives the speaker time to think."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "You cannot remember the word “bottle opener” during a discussion. Use paraphrasing to explain what you mean without stopping the conversation.",
+        "fasit": "It’s the thing you use to open bottles. I can’t remember the word for it.",
+        "kriterier": [
+          "Describes the object or its use in other words instead of simply stopping.",
+          "Makes clear that it is used to open bottles."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Describe a clear structure for an oral presentation and give one signposting phrase that could guide the audience to a new part.",
+        "fasit": "A presentation has an introduction, a main part and a conclusion. A speaker could say, “Now let’s turn to …” to guide the audience to a new part.",
+        "kriterier": [
+          "Includes an introduction, a main part and a conclusion.",
+          "Gives a phrase that signals or guides the audience to a part of the presentation."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "When giving a presentation, should you speak from keywords or read a full manuscript? Explain what you should do and mention one way to help connect with the audience.",
+        "fasit": "You should speak from keywords rather than read a full manuscript. Keeping eye contact helps you connect with the audience.",
+        "kriterier": [
+          "Says the speaker should use keywords rather than read a full manuscript.",
+          "Mentions eye contact as a way to connect with the audience."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Compare how the sounds /v/ and /w/ are made in English. Include what the lips or teeth do for each sound.",
+        "fasit": "For /v/, the teeth touch the lower lip. For /w/, the lips are rounded and the teeth do not touch them.",
+        "kriterier": [
+          "Explains that /v/ involves contact between the teeth and the lower lip.",
+          "Explains that /w/ is made with rounded lips without touching the teeth."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Explain how shadowing works as a way to practise English pronunciation, and name one other way to practise pronunciation from a recording or speaker.",
+        "fasit": "In shadowing, you repeat what a speaker says right after them. You can also record yourself and compare your pronunciation with the speaker’s.",
+        "kriterier": [
+          "Explains that shadowing means repeating right after a speaker.",
+          "Names another relevant practice method, such as recording yourself and comparing or using an online dictionary that plays pronunciation."
+        ]
+      }
     ]
   },
   "kvalitet": {

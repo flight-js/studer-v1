@@ -349,6 +349,81 @@
         "correct": 2,
         "explain": "星期 = uke."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen mellom 上课 (shàngkè) og 下课 (xiàkè) i løpet av en skoledag.",
+        "fasit": "上课 betyr at man har time. 下课 betyr at timen er slutt.",
+        "kriterier": [
+          "Forklarer at 上课 er når timen pågår.",
+          "Forklarer at 下课 er når timen er slutt."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hvorfor 高考 (gāokǎo) kan skape press for elever i Kina. Ta med hva prøven brukes til, og hvorfor den er viktig.",
+        "fasit": "高考 er en nasjonal opptaksprøve til universitetet. Den skaper press fordi den er svært viktig for elevenes framtid.",
+        "kriterier": [
+          "Får fram at 高考 er en nasjonal opptaksprøve til universitetet.",
+          "Forklarer sammenhengen mellom prøvens betydning for framtiden og presset."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign 会 (huì), 能 (néng) og 可以 (kěyǐ). Forklar hva slags «kan» hvert ord uttrykker.",
+        "fasit": "会 brukes om noe man kan fordi man har lært det. 能 handler om å være i stand til i en bestemt situasjon, mens 可以 handler om å ha lov til noe.",
+        "kriterier": [
+          "Skiller 会 som en lært ferdighet fra 能 som evne i en bestemt situasjon.",
+          "Forklarer at 可以 uttrykker tillatelse."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Skriv en setning på kinesisk som betyr «Jeg spiller ofte basketball». Bruk 我, 常常 og 打篮球.",
+        "fasit": "我常常打篮球。",
+        "kriterier": [
+          "Bruker 常常 for «ofte» og 打篮球 for «spille basketball».",
+          "Lager en setning som uttrykker at det er jeg som spiller."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar forskjellen mellom 老师 (lǎoshī) og 同学 (tóngxué) når du snakker om personer på skolen.",
+        "fasit": "老师 betyr lærer. 同学 betyr klassekamerat.",
+        "kriterier": [
+          "Forklarer at 老师 er en lærer.",
+          "Forklarer at 同学 er en klassekamerat."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Du skal presentere deg for en ny klassekamerat på kinesisk. Skriv at du er elev på videregående, liker historie best, og har tegning som hobby. Bruk 历史 for historie og 画画 for å tegne.",
+        "fasit": "我是高中生。我最喜欢的科目是历史。我的爱好是画画。",
+        "kriterier": [
+          "Sier på kinesisk at du er elev på videregående.",
+          "Får fram at historie er favorittfaget.",
+          "Får fram at tegning er hobbyen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du lager ordkort for å lære kinesiske ord om skole og fritid. Beskriv hva du skriver på hver side av kortet.",
+        "fasit": "Jeg skriver det kinesiske tegnet på den ene siden. På den andre skriver jeg pinyin og betydningen.",
+        "kriterier": [
+          "Plasserer det kinesiske tegnet på én side.",
+          "Plasserer både pinyin og betydning på den andre siden."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign 每天 (měi tiān) og 每个星期 (měi ge xīngqī). Forklar hvor ofte de beskriver at noe skjer, og gi ett eksempel på en aktivitet for hvert uttrykk.",
+        "fasit": "每天 betyr hver dag, mens 每个星期 betyr hver uke. For eksempel kan man si 我每天游泳 og 我每个星期画画.",
+        "kriterier": [
+          "Skiller mellom «hver dag» og «hver uke».",
+          "Gir et passende eksempel på en aktivitet med hvert uttrykk."
+        ]
+      }
     ]
   },
   "kvalitet": {

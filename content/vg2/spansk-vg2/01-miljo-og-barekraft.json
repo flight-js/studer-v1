@@ -4,79 +4,421 @@
   "trinnId": "vg2",
   "name": "Klima, miljø og bærekraft",
   "intro": "Hvordan du snakker og skriver om klima og miljø på spansk, miljøutfordringer i Spania og Latin-Amerika – tørke, skogbranner og avskoging i Amazonas – og hvordan du gir råd og oppfordringer med imperativ og subjuntivo.",
-  "kompetansemaal": [4, 5, 8],
+  "kompetansemaal": [
+    4,
+    5,
+    8
+  ],
   "sammendrag": "## Ord om klima og miljø\n\n- *el cambio climático* – klimaendringene\n- *el medio ambiente* – miljøet\n- *la sostenibilidad* – bærekraften, *sostenible* – bærekraftig\n- *las energías renovables* – fornybare energikilder\n- *la sequía* – tørken\n- *los incendios forestales* – skogbrannene\n- *la deforestación* – avskogingen\n- *la basura* – søppelet, *reciclar* – gjenvinne\n- *la contaminación* – forurensningen\n\n## Miljøutfordringer\n\n- **Spania** rammes av stadig flere **hetebølger**, lange perioder med **tørke** og store **skogbranner**. Samtidig har Spania bygd ut mye **sol- og vindkraft**.\n- I **Latin-Amerika** er **avskogingen** av **Amazonas** en stor utfordring – regnskogen er viktig for klimaet og for **urfolk** som bor der.\n- I **Andesfjellene** smelter **isbreene**, noe som truer vannforsyningen til millioner av mennesker.\n\n## Imperativ – oppfordringer\n\n**Tú-form, bekreftende**: samme form som 3. person entall i presens:\n\n- *¡**Recicla** la basura!* – Gjenvinn søppelet!\n- *¡**Apaga** la luz!* – Slå av lyset!\n\nUregelmessige: *hacer → **haz***, *poner → **pon***, *venir → **ven***, *tener → **ten***, *salir → **sal***, *decir → **di***, *ir → **ve***, *ser → **sé***.\n\n**Tú-form, nektende**: *no* + **subjuntivo**:\n\n- *¡**No uses** bolsas de plástico!* – Ikke bruk plastposer!\n- *¡**No tires** basura al mar!* – Ikke kast søppel i havet!\n\n**Usted-form**: **subjuntivo** – *¡**Recicle**!*, *¡**No use** plástico!*\n\n## Subjuntivo etter krav og ønsker\n\n- *Es necesario que **reduzcamos** las emisiones.* – Det er nødvendig at vi reduserer utslippene.\n- *Quiero que los gobiernos **hagan** más.* – Jeg vil at regjeringene skal gjøre mer.\n- *Es importante que todos **reciclen**.*\n\n## Å argumentere\n\n- *En mi opinión, …* / *Desde mi punto de vista, …*\n- *Por un lado …, por otro lado …*\n- *Habría que …* – Man burde …\n- *En conclusión, …* – Avslutningsvis …\n\n## Sammenligning med Norge\n\nNorge har mye **vannkraft**, mens Spania satser på **sol**. Begge land har store utfordringer – Norge med **olje og gass**, Spania med **tørke** og **vannmangel**.",
   "flashcards": [
-    { "term": "el cambio climático", "def": "klimaendringene" },
-    { "term": "el medio ambiente", "def": "miljøet" },
-    { "term": "la sostenibilidad", "def": "bærekraften" },
-    { "term": "las energías renovables", "def": "fornybare energikilder" },
-    { "term": "la sequía", "def": "tørken" },
-    { "term": "los incendios forestales", "def": "skogbrannene" },
-    { "term": "la deforestación", "def": "avskogingen" },
-    { "term": "reciclar", "def": "gjenvinne" },
-    { "term": "¡Recicla!", "def": "Gjenvinn! (imperativ, tú)" },
-    { "term": "¡Haz!", "def": "Gjør! (imperativ av hacer)" },
-    { "term": "¡No uses plástico!", "def": "Ikke bruk plast! (nektende imperativ med subjuntivo)" },
-    { "term": "Es necesario que + subjuntivo", "def": "Det er nødvendig at …" },
-    { "term": "Habría que …", "def": "Man burde …" },
-    { "term": "Desde mi punto de vista, …", "def": "Fra mitt synspunkt …" },
-    { "term": "En conclusión, …", "def": "Avslutningsvis …" }
+    {
+      "term": "el cambio climático",
+      "def": "klimaendringene"
+    },
+    {
+      "term": "el medio ambiente",
+      "def": "miljøet"
+    },
+    {
+      "term": "la sostenibilidad",
+      "def": "bærekraften"
+    },
+    {
+      "term": "las energías renovables",
+      "def": "fornybare energikilder"
+    },
+    {
+      "term": "la sequía",
+      "def": "tørken"
+    },
+    {
+      "term": "los incendios forestales",
+      "def": "skogbrannene"
+    },
+    {
+      "term": "la deforestación",
+      "def": "avskogingen"
+    },
+    {
+      "term": "reciclar",
+      "def": "gjenvinne"
+    },
+    {
+      "term": "¡Recicla!",
+      "def": "Gjenvinn! (imperativ, tú)"
+    },
+    {
+      "term": "¡Haz!",
+      "def": "Gjør! (imperativ av hacer)"
+    },
+    {
+      "term": "¡No uses plástico!",
+      "def": "Ikke bruk plast! (nektende imperativ med subjuntivo)"
+    },
+    {
+      "term": "Es necesario que + subjuntivo",
+      "def": "Det er nødvendig at …"
+    },
+    {
+      "term": "Habría que …",
+      "def": "Man burde …"
+    },
+    {
+      "term": "Desde mi punto de vista, …",
+      "def": "Fra mitt synspunkt …"
+    },
+    {
+      "term": "En conclusión, …",
+      "def": "Avslutningsvis …"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr «la sequía»?", "options": ["flommen", "tørken", "stormen", "skogen"], "correct": 1, "explain": "Tørke er et stort problem i Spania." },
-    { "id": "q02", "text": "Hva er bekreftende imperativ (tú) av «apagar»?", "options": ["apaga", "apague", "apagas", "apagues"], "correct": 0, "explain": "Samme form som 3. person entall i presens." },
-    { "id": "q03", "text": "Hvordan sier du «Ikke bruk plastposer!» til en venn?", "options": ["¡No usa bolsas de plástico!", "¡No usar bolsas de plástico!", "¡No uses bolsas de plástico!", "¡Usa no bolsas de plástico!"], "correct": 2, "explain": "Nektende imperativ bruker subjuntivo." },
-    { "id": "q04", "text": "Hva er imperativ (tú) av «hacer»?", "options": ["hace", "haga", "hacé", "haz"], "correct": 3, "explain": "hacer er uregelmessig." },
-    { "id": "q05", "text": "Hvilken miljøutfordring er stor i Latin-Amerika?", "options": ["Avskogingen av Amazonas", "Mangel på snø i Norge", "Kjernekraftulykker", "Havis som vokser"], "correct": 0, "explain": "Regnskogen er viktig for klimaet og for urfolk." },
-    { "id": "q06", "text": "Velg riktig: «Es necesario que ___ las emisiones.» (reducir, vi)", "options": ["reducimos", "reduzcamos", "reduciremos", "reducir"], "correct": 1, "explain": "Etter es necesario que brukes subjuntivo." },
-    { "id": "q07", "text": "Hva betyr «el medio ambiente»?", "options": ["middelhavet", "halvparten", "miljøet", "gjennomsnittet"], "correct": 2, "explain": "proteger el medio ambiente = beskytte miljøet." },
-    { "id": "q08", "text": "Hva er imperativ i usted-form av «reciclar»?", "options": ["recicla", "reciclas", "reciclar", "recicle"], "correct": 3, "explain": "Usted-imperativ bruker subjuntivo." },
-    { "id": "q09", "text": "Hva betyr «Habría que reciclar más»?", "options": ["Man burde gjenvinne mer.", "Vi gjenvinner mer.", "Man gjenvant mer.", "Det er forbudt å gjenvinne."], "correct": 0, "explain": "Habría que = man burde." },
-    { "id": "q10", "text": "Hvorfor er smeltende isbreer i Andes et problem?", "options": ["Fordi det blir for mye snø", "Fordi de truer vannforsyningen til millioner av mennesker", "Fordi det blir færre turister", "Det er ikke noe problem"], "correct": 1, "explain": "Mange er avhengige av smeltevann." }
+    {
+      "id": "q01",
+      "text": "Hva betyr «la sequía»?",
+      "options": [
+        "flommen",
+        "tørken",
+        "stormen",
+        "skogen"
+      ],
+      "correct": 1,
+      "explain": "Tørke er et stort problem i Spania."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er bekreftende imperativ (tú) av «apagar»?",
+      "options": [
+        "apaga",
+        "apague",
+        "apagas",
+        "apagues"
+      ],
+      "correct": 0,
+      "explain": "Samme form som 3. person entall i presens."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan sier du «Ikke bruk plastposer!» til en venn?",
+      "options": [
+        "¡No usa bolsas de plástico!",
+        "¡No usar bolsas de plástico!",
+        "¡No uses bolsas de plástico!",
+        "¡Usa no bolsas de plástico!"
+      ],
+      "correct": 2,
+      "explain": "Nektende imperativ bruker subjuntivo."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er imperativ (tú) av «hacer»?",
+      "options": [
+        "hace",
+        "haga",
+        "hacé",
+        "haz"
+      ],
+      "correct": 3,
+      "explain": "hacer er uregelmessig."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken miljøutfordring er stor i Latin-Amerika?",
+      "options": [
+        "Avskogingen av Amazonas",
+        "Mangel på snø i Norge",
+        "Kjernekraftulykker",
+        "Havis som vokser"
+      ],
+      "correct": 0,
+      "explain": "Regnskogen er viktig for klimaet og for urfolk."
+    },
+    {
+      "id": "q06",
+      "text": "Velg riktig: «Es necesario que ___ las emisiones.» (reducir, vi)",
+      "options": [
+        "reducimos",
+        "reduzcamos",
+        "reduciremos",
+        "reducir"
+      ],
+      "correct": 1,
+      "explain": "Etter es necesario que brukes subjuntivo."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr «el medio ambiente»?",
+      "options": [
+        "middelhavet",
+        "halvparten",
+        "miljøet",
+        "gjennomsnittet"
+      ],
+      "correct": 2,
+      "explain": "proteger el medio ambiente = beskytte miljøet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er imperativ i usted-form av «reciclar»?",
+      "options": [
+        "recicla",
+        "reciclas",
+        "reciclar",
+        "recicle"
+      ],
+      "correct": 3,
+      "explain": "Usted-imperativ bruker subjuntivo."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «Habría que reciclar más»?",
+      "options": [
+        "Man burde gjenvinne mer.",
+        "Vi gjenvinner mer.",
+        "Man gjenvant mer.",
+        "Det er forbudt å gjenvinne."
+      ],
+      "correct": 0,
+      "explain": "Habría que = man burde."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor er smeltende isbreer i Andes et problem?",
+      "options": [
+        "Fordi det blir for mye snø",
+        "Fordi de truer vannforsyningen til millioner av mennesker",
+        "Fordi det blir færre turister",
+        "Det er ikke noe problem"
+      ],
+      "correct": 1,
+      "explain": "Mange er avhengige av smeltevann."
+    }
   ],
   "mindmap": {
     "label": "Klima og miljø",
     "children": [
-      { "label": "Ord", "children": [
-        { "label": "cambio climático" },
-        { "label": "medio ambiente" },
-        { "label": "sostenibilidad" }
-      ] },
-      { "label": "Utfordringer", "children": [
-        { "label": "Sequía i Spania" },
-        { "label": "Incendios" },
-        { "label": "Amazonas" },
-        { "label": "Isbreer i Andes" }
-      ] },
-      { "label": "Imperativ", "children": [
-        { "label": "¡Recicla!" },
-        { "label": "haz, pon, ven" },
-        { "label": "¡No uses …!" }
-      ] },
-      { "label": "Subjuntivo", "children": [
-        { "label": "Es necesario que" },
-        { "label": "Quiero que" }
-      ] },
-      { "label": "Argumentere", "children": [
-        { "label": "Desde mi punto de vista" },
-        { "label": "Habría que" },
-        { "label": "En conclusión" }
-      ] }
+      {
+        "label": "Ord",
+        "children": [
+          {
+            "label": "cambio climático"
+          },
+          {
+            "label": "medio ambiente"
+          },
+          {
+            "label": "sostenibilidad"
+          }
+        ]
+      },
+      {
+        "label": "Utfordringer",
+        "children": [
+          {
+            "label": "Sequía i Spania"
+          },
+          {
+            "label": "Incendios"
+          },
+          {
+            "label": "Amazonas"
+          },
+          {
+            "label": "Isbreer i Andes"
+          }
+        ]
+      },
+      {
+        "label": "Imperativ",
+        "children": [
+          {
+            "label": "¡Recicla!"
+          },
+          {
+            "label": "haz, pon, ven"
+          },
+          {
+            "label": "¡No uses …!"
+          }
+        ]
+      },
+      {
+        "label": "Subjuntivo",
+        "children": [
+          {
+            "label": "Es necesario que"
+          },
+          {
+            "label": "Quiero que"
+          }
+        ]
+      },
+      {
+        "label": "Argumentere",
+        "children": [
+          {
+            "label": "Desde mi punto de vista"
+          },
+          {
+            "label": "Habría que"
+          },
+          {
+            "label": "En conclusión"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Spania har bygd ut mye sol- og vindkraft.", "correct": true, "explain": "Landet har mye sol." },
-      { "id": "m02", "type": "sant-usant", "text": "Nektende imperativ i tú-form har samme form som bekreftende.", "correct": false, "explain": "Nektende imperativ bruker subjuntivo: no uses." },
-      { "id": "m03", "type": "sant-usant", "text": "«reciclar» betyr å gjenvinne.", "correct": true, "explain": "Hay que reciclar." },
-      { "id": "m04", "type": "sant-usant", "text": "Imperativ av «tener» i tú-form er «tiene».", "correct": false, "explain": "Det er uregelmessig: ten." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «los incendios forestales»?", "options": ["skogbrannene", "skogarbeiderne", "fyrverkeriet", "skogsdyrene"], "correct": 0, "explain": "Skogbranner rammer Spania ofte om sommeren." },
-      { "id": "m06", "type": "flervalg", "text": "Hvordan sier du «Kom hit!» til en venn?", "options": ["¡Viene aquí!", "¡Ven aquí!", "¡Venga aquí!", "¡Venir aquí!"], "correct": 1, "explain": "venir → ven." },
-      { "id": "m07", "type": "flervalg", "text": "Velg riktig: «Quiero que los gobiernos ___ más.» (hacer)", "options": ["hacen", "harán", "hagan", "hacer"], "correct": 2, "explain": "Etter quiero que brukes subjuntivo." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Spania har bygd ut mye sol- og vindkraft.",
+        "correct": true,
+        "explain": "Landet har mye sol."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Nektende imperativ i tú-form har samme form som bekreftende.",
+        "correct": false,
+        "explain": "Nektende imperativ bruker subjuntivo: no uses."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«reciclar» betyr å gjenvinne.",
+        "correct": true,
+        "explain": "Hay que reciclar."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Imperativ av «tener» i tú-form er «tiene».",
+        "correct": false,
+        "explain": "Det er uregelmessig: ten."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «los incendios forestales»?",
+        "options": [
+          "skogbrannene",
+          "skogarbeiderne",
+          "fyrverkeriet",
+          "skogsdyrene"
+        ],
+        "correct": 0,
+        "explain": "Skogbranner rammer Spania ofte om sommeren."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvordan sier du «Kom hit!» til en venn?",
+        "options": [
+          "¡Viene aquí!",
+          "¡Ven aquí!",
+          "¡Venga aquí!",
+          "¡Venir aquí!"
+        ],
+        "correct": 1,
+        "explain": "venir → ven."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Velg riktig: «Quiero que los gobiernos ___ más.» (hacer)",
+        "options": [
+          "hacen",
+          "harán",
+          "hagan",
+          "hacer"
+        ],
+        "correct": 2,
+        "explain": "Etter quiero que brukes subjuntivo."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Explica qué son las energías renovables y menciona dos tipos de energía renovable que España ha desarrollado mucho.",
+        "fasit": "Son fuentes de energía como la solar y la eólica. España ha desarrollado mucho la energía solar y la energía eólica.",
+        "kriterier": [
+          "Explica que son fuentes de energía y menciona la energía solar y la eólica."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Compara la energía que se usa mucho en Noruega con la energía en la que apuesta España.",
+        "fasit": "Noruega tiene mucha energía hidroeléctrica, mientras que España apuesta por la energía solar.",
+        "kriterier": [
+          "Indica correctamente la energía hidroeléctrica de Noruega y la apuesta de España por la energía solar, y establece una comparación."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "La selva amazónica es importante para el clima y para los pueblos indígenas que viven allí. Explica por qué la deforestación de la Amazonía es un problema.",
+        "fasit": "La deforestación es un problema porque la selva amazónica es importante para el clima y para los pueblos indígenas que viven allí.",
+        "kriterier": [
+          "Relaciona la deforestación con la importancia de la selva para el clima y para los pueblos indígenas."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Tu amigo deja la luz encendida y tiene basura para tirar. Escríbele dos instrucciones afirmativas en la forma tú: una sobre la luz y otra sobre la basura.",
+        "fasit": "¡Apaga la luz! ¡Recicla la basura!",
+        "kriterier": [
+          "Usa correctamente los imperativos afirmativos «apaga» y «recicla» y los relaciona con las situaciones indicadas."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Un amigo quiere tirar basura al mar. Escríbele una instrucción en español para decirle que no lo haga. Usa el imperativo negativo de tú con el verbo «tirar».",
+        "fasit": "¡No tires basura al mar!",
+        "kriterier": [
+          "Forma correctamente el imperativo negativo de tú con «no» y expresa que no debe tirar basura al mar."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Escribe en español una frase que diga que es importante que todos reciclen. Empieza con «Es importante que…».",
+        "fasit": "Es importante que todos reciclen.",
+        "kriterier": [
+          "Construye la frase con «Es importante que» y usa correctamente el subjuntivo «reciclen»."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Compara el problema del agua en España con el de los Andes: España sufre sequías y falta de agua; en los Andes se están derritiendo los glaciares y eso amenaza el suministro de agua.",
+        "fasit": "En España hay sequías y falta de agua. En los Andes, el deshielo de los glaciares amenaza el suministro de agua.",
+        "kriterier": [
+          "Menciona la sequía o la falta de agua en España y relaciona el deshielo de los glaciares en los Andes con el suministro de agua."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En un colegio hay basura y quieren cuidar el medio ambiente. Escribe una recomendación en español que empiece con «Habría que» y use el verbo «reciclar».",
+        "fasit": "Habría que reciclar la basura para cuidar el medio ambiente.",
+        "kriterier": [
+          "Usa «Habría que» seguido del infinitivo «reciclar» y propone reciclar la basura."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

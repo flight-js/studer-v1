@@ -354,6 +354,80 @@
         "correct": 2,
         "explain": "Alliteration repeats the first sound in nearby words."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Why does analysing fiction involve looking at how a story creates meaning, not only what happens in it?",
+        "fasit": "Looking at how a story creates meaning helps readers understand people, cultures and periods. It also trains them to read critically.",
+        "kriterier": [
+          "Explains that analysis examines how the story creates meaning, rather than only recounting events.",
+          "Gives a relevant reason, such as understanding people, cultures or periods, or developing critical reading."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Explain how the plot of a story differs from its climax.",
+        "fasit": "The plot is the sequence of events in the story. The climax is the turning point or moment of greatest tension within that sequence.",
+        "kriterier": [
+          "Describes plot as the sequence of events.",
+          "Identifies the climax as the turning point or moment of greatest tension."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Compare a round character with a flat character.",
+        "fasit": "A round character is complex and has many traits. A flat character has few traits.",
+        "kriterier": [
+          "Explains that a round character is complex or has many traits.",
+          "Explains that a flat character has few traits."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "A character wants to tell the truth but fears hurting a friend. What kind of conflict is this, and why?",
+        "fasit": "This is an internal conflict because the struggle takes place within the character. The character is torn between telling the truth and avoiding hurting a friend.",
+        "kriterier": [
+          "Identifies the conflict as internal.",
+          "Explains that the struggle is within the character, between competing thoughts or feelings."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "A third-person narrator reveals the thoughts of several characters. What type of narrator is this, and what detail supports your answer?",
+        "fasit": "This is an omniscient narrator. The narrator can reveal the thoughts of several characters, so it knows more than the viewpoint of just one character.",
+        "kriterier": [
+          "Identifies the narrator as omniscient.",
+          "Uses the narrator’s access to several characters’ thoughts to support the answer."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "In a story, a storm appears while the main character is experiencing strong inner turmoil. Explain how the storm can function as a symbol.",
+        "fasit": "The storm can symbolise the character’s inner turmoil. It is something concrete that stands for an idea or feeling.",
+        "kriterier": [
+          "Connects the storm to the character’s inner turmoil.",
+          "Explains that a symbol is something concrete that stands for an idea or feeling."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "In Shirley Jackson’s short story “The Lottery,” a peaceful village setting and a harmless-sounding title lead up to a shocking ending. Explain how this contrast affects the reader or contributes to the story’s ideas.",
+        "fasit": "The peaceful setting and harmless-sounding title may make the ending more shocking because they create a calm expectation. The contrast helps the story raise questions about tradition, conformity and violence.",
+        "kriterier": [
+          "Explains that the calm setting or title contrasts with the shocking ending and affects the reader’s expectations.",
+          "Connects the contrast to at least one of the story’s ideas: tradition, conformity or violence."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "A student’s body paragraph identifies a symbol but mainly retells the events around it. What should the student add to make the paragraph a literary analysis?",
+        "fasit": "The student should use a short quotation as evidence and explain how the symbol creates an effect or supports an interpretation. This develops an idea instead of only retelling events.",
+        "kriterier": [
+          "Suggests using a short quotation as evidence.",
+          "Says to explain the effect or meaning of the symbol, rather than only recounting events."
+        ]
+      }
     ]
   },
   "kvalitet": {

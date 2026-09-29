@@ -349,6 +349,80 @@
         "correct": 2,
         "explain": "在哪儿 = hvor."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva uttrykker 从……到……, og hva uttrykker 离 sammen med 近 eller 远? Forklar forskjellen mellom å beskrive en reise fra ett sted til et annet og avstanden mellom steder.",
+        "fasit": "从……到…… beskriver en reise fra ett sted til et annet. 离 sammen med 近 eller 远 beskriver om avstanden fra et sted til et annet er kort eller lang.",
+        "kriterier": [
+          "Forklarer at 从……到…… viser fra- og til-sted for en reise.",
+          "Forklarer at 离 med 近 eller 远 beskriver avstand som nær eller langt unna."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En person skal til jernbanestasjonen. Gi veibeskrivelsen på kinesisk: Gå først rett fram, ta så til venstre, og si at personen er framme.",
+        "fasit": "一直走，往左拐，到了。",
+        "kriterier": [
+          "Bruker 一直走 for å si at personen skal gå rett fram.",
+          "Bruker 往左拐 for å si at personen skal ta til venstre, og 到了 for å si at personen er framme."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen på 旁边 og 对面 når du beskriver hvor noe ligger i forhold til et annet sted.",
+        "fasit": "旁边 betyr at noe ligger ved siden av et sted. 对面 betyr at det ligger overfor stedet.",
+        "kriterier": [
+          "Forklarer at 旁边 betyr ved siden av.",
+          "Forklarer at 对面 betyr overfor."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hva betyr 高铁? Fortell også én opplysning om høyhastighetstognettet i Kina.",
+        "fasit": "高铁 betyr høyhastighetstog. Kina har verdens største nett av høyhastighetstog, og togene går i over 300 km/t mellom mange store byer.",
+        "kriterier": [
+          "Forklarer at 高铁 er et høyhastighetstog.",
+          "Gir en korrekt opplysning om nettets størrelse, hastighet eller forbindelser mellom store byer i Kina."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Mange bruker mobilen til flere ting når de reiser i Kina. Nevn to slike bruksområder, og forklar kort hvordan de kan hjelpe på reisen.",
+        "fasit": "Mobilen kan brukes til billetter og kart, slik at den reisende kan ordne reisen og finne fram. Den kan også brukes til betaling.",
+        "kriterier": [
+          "Nevner minst to av bruksområdene billetter, kart og betaling.",
+          "Knytter bruksområdene til praktiske behov på reisen, som å ordne billetter eller finne fram."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "På vårfestivalen reiser hundrevis av millioner mennesker hjem i Kina. Forklar hvorfor det da kan være vanskelig å få billetter.",
+        "fasit": "Svært mange reiser hjem samtidig under vårfestivalen. Derfor er det vanskelig å få billetter.",
+        "kriterier": [
+          "Får fram at svært mange mennesker reiser hjem under vårfestivalen.",
+          "Knytter det store antallet reisende til at det er vanskelig å få billetter."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du står ved en billettluke og vil be om én billett til Shanghai. Skriv forespørselen på kinesisk.",
+        "fasit": "我要一张去上海的票。",
+        "kriterier": [
+          "Skriver en forespørsel om en billett til Shanghai på kinesisk.",
+          "Bruker 张 som mengdeord for billetten og får fram at den skal til Shanghai."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hva 坐 betyr i uttrykket 坐飞机, og skill mellom betydningen av 飞机 og 机场.",
+        "fasit": "坐 betyr å reise med når det brukes sammen med et transportmiddel. 飞机 betyr fly, mens 机场 betyr flyplass.",
+        "kriterier": [
+          "Forklarer at 坐 betyr å reise med et transportmiddel i dette uttrykket.",
+          "Skiller mellom 飞机 (fly) og 机场 (flyplass)."
+        ]
+      }
     ]
   },
   "kvalitet": {

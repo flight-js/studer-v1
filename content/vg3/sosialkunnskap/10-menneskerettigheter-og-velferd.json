@@ -4,79 +4,427 @@
   "trinnId": "vg3",
   "name": "Menneskerettigheter og velferdsstaten",
   "intro": "Hvordan menneskerettighetene har påvirket den norske velferdsstaten – økonomiske, sosiale og kulturelle rettigheter, barnekonvensjonen og rettighetene til mennesker med funksjonsnedsettelser – og hvordan menneskerettighetene ivaretas i Norge, med kontrollorganer og områder der Norge får kritikk.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Menneskerettighetene\n\n**FNs verdenserklæring om menneskerettighetene** fra **1948** slo fast at alle mennesker er født **frie** og **like** i verdighet og rettigheter. Senere kom bindende **konvensjoner**:\n\n- **SP**: sivile og politiske rettigheter – ytringsfrihet, stemmerett, rettferdig rettergang\n- **ØSK**: økonomiske, sosiale og kulturelle rettigheter – rett til **arbeid**, **sosial trygghet**, **helse**, **utdanning** og en tilfredsstillende **levestandard**\n- **Barnekonvensjonen** (1989)\n- **Kvinnediskrimineringskonvensjonen**\n- **Konvensjonen om rettighetene til mennesker med nedsatt funksjonsevne (CRPD)**\n\n## Velferd som rettighet\n\nMenneskerettighetene har bidratt til at velferd i Norge ses som **rettigheter** – ikke **veldedighet**. Grunnloven har egne bestemmelser:\n\n- **§ 104**: **Barnets beste** skal være et grunnleggende hensyn, og barn har rett til å bli **hørt**.\n- **§ 109**: Rett til **utdanning**.\n- **§ 110**: Staten skal legge til rette for at alle kan tjene til livets opphold gjennom **arbeid**, og de som ikke kan det, har rett til **støtte**.\n- **§ 98**: **Likhet** for loven og vern mot usaklig forskjellsbehandling.\n\n## Barnekonvensjonen\n\nBarnekonvensjonen er gjort til **norsk lov** gjennom menneskerettsloven. Viktige prinsipper:\n\n- **Barnets beste** (artikkel 3)\n- **Retten til å bli hørt** (artikkel 12)\n- **Ikke-diskriminering**\n- **Retten til liv og utvikling**\n\nKonvensjonen har påvirket blant annet **barnevernsloven**, **barneloven** og **opplæringsloven**, og barn skal i større grad **høres** i saker som angår dem. **Barneombudet** skal fremme barns interesser.\n\n## Funksjonsnedsettelser og likestilling\n\n**CRPD** krever at mennesker med funksjonsnedsettelser skal kunne delta i samfunnet på **like** vilkår. Det har påvirket arbeidet med **universell utforming**, **brukerstyrt personlig assistanse** og **diskrimineringsvern**.\n\n## Hvordan ivaretas rettighetene i Norge?\n\n- **Grunnloven** og **menneskerettsloven** gir rettighetene **rettslig** vern.\n- **Domstolene** kan prøve om staten bryter menneskerettighetene.\n- **Norges institusjon for menneskerettigheter (NIM)** overvåker og gir råd.\n- **Likestillings- og diskrimineringsombudet** og **Diskrimineringsnemnda** behandler saker om diskriminering.\n- **Sivilombudet** kontrollerer forvaltningen.\n- **FN-komiteer** vurderer jevnlig hvordan Norge følger konvensjonene og gir **anbefalinger**.\n\n## Områder med kritikk\n\nNorge regnes som et land der menneskerettighetene i stor grad blir **respektert**, men får kritikk på noen områder:\n\n- **Barnevern**: Den europeiske menneskerettsdomstolen har i flere saker kommet fram til at Norge har krenket **retten til familieliv**.\n- **Barnefattigdom**: økende andel barn i lavinntektsfamilier\n- **Tvang** i psykisk helsevern\n- **Samiske rettigheter**, som i Fosen-saken\n- **Isolasjon** i fengsler\n- **Diskriminering** i arbeids- og boligmarkedet\n\n## Menneskerettigheter og velferdspolitikk\n\nMenneskerettighetene gir **minimumskrav**, men sier lite om **hvor mye** velferd staten skal gi. Mange rettigheter skal oppfylles **gradvis** ut fra landets **ressurser**. Derfor er velferdspolitikk også **politikk**: Innenfor rammene må politikerne prioritere.\n\n## Drøfting\n\nHar menneskerettighetene gitt **domstolene** for mye makt over velferdspolitikken? Eller er de et nødvendig **vern** for **svake grupper** mot flertallet? Svaret avhenger av hvordan man veier **demokrati** og **rettighetsvern**.",
   "flashcards": [
-    { "term": "Verdenserklæringen", "def": "FNs erklæring om menneskerettighetene fra 1948." },
-    { "term": "SP", "def": "Konvensjonen om sivile og politiske rettigheter." },
-    { "term": "ØSK", "def": "Konvensjonen om økonomiske, sosiale og kulturelle rettigheter." },
-    { "term": "Velferd som rettighet", "def": "Velferd ses som rett, ikke veldedighet." },
-    { "term": "Grunnloven § 104", "def": "Barnets beste og barns rett til å bli hørt." },
-    { "term": "Grunnloven § 109", "def": "Rett til utdanning." },
-    { "term": "Grunnloven § 110", "def": "Rett til arbeid eller støtte." },
-    { "term": "Barnets beste", "def": "Grunnleggende hensyn – barnekonvensjonen artikkel 3." },
-    { "term": "Retten til å bli hørt", "def": "Barnekonvensjonen artikkel 12." },
-    { "term": "CRPD", "def": "Konvensjonen om rettighetene til mennesker med nedsatt funksjonsevne." },
-    { "term": "Barneombudet", "def": "Skal fremme barns interesser." },
-    { "term": "NIM", "def": "Norges institusjon for menneskerettigheter." },
-    { "term": "Diskrimineringsnemnda", "def": "Behandler klager om diskriminering." },
-    { "term": "FN-komiteer", "def": "Vurderer hvordan land følger konvensjonene." },
-    { "term": "Gradvis oppfyllelse", "def": "Sosiale rettigheter oppfylles ut fra landets ressurser." }
+    {
+      "term": "Verdenserklæringen",
+      "def": "FNs erklæring om menneskerettighetene fra 1948."
+    },
+    {
+      "term": "SP",
+      "def": "Konvensjonen om sivile og politiske rettigheter."
+    },
+    {
+      "term": "ØSK",
+      "def": "Konvensjonen om økonomiske, sosiale og kulturelle rettigheter."
+    },
+    {
+      "term": "Velferd som rettighet",
+      "def": "Velferd ses som rett, ikke veldedighet."
+    },
+    {
+      "term": "Grunnloven § 104",
+      "def": "Barnets beste og barns rett til å bli hørt."
+    },
+    {
+      "term": "Grunnloven § 109",
+      "def": "Rett til utdanning."
+    },
+    {
+      "term": "Grunnloven § 110",
+      "def": "Rett til arbeid eller støtte."
+    },
+    {
+      "term": "Barnets beste",
+      "def": "Grunnleggende hensyn – barnekonvensjonen artikkel 3."
+    },
+    {
+      "term": "Retten til å bli hørt",
+      "def": "Barnekonvensjonen artikkel 12."
+    },
+    {
+      "term": "CRPD",
+      "def": "Konvensjonen om rettighetene til mennesker med nedsatt funksjonsevne."
+    },
+    {
+      "term": "Barneombudet",
+      "def": "Skal fremme barns interesser."
+    },
+    {
+      "term": "NIM",
+      "def": "Norges institusjon for menneskerettigheter."
+    },
+    {
+      "term": "Diskrimineringsnemnda",
+      "def": "Behandler klager om diskriminering."
+    },
+    {
+      "term": "FN-komiteer",
+      "def": "Vurderer hvordan land følger konvensjonene."
+    },
+    {
+      "term": "Gradvis oppfyllelse",
+      "def": "Sosiale rettigheter oppfylles ut fra landets ressurser."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken konvensjon gir rett til arbeid, helse og sosial trygghet?", "options": ["SP", "ØSK", "EMK artikkel 10", "Genèvekonvensjonen"], "correct": 1, "explain": "Økonomiske, sosiale og kulturelle rettigheter." },
-    { "id": "q02", "text": "Hva sier Grunnloven § 104?", "options": ["At barnets beste skal være et grunnleggende hensyn", "At alle har stemmerett", "At kongen er ukrenkelig", "At skolen er gratis"], "correct": 0, "explain": "Og at barn har rett til å bli hørt." },
-    { "id": "q03", "text": "Hva betyr at velferd ses som en rettighet?", "options": ["At velferd er veldedighet", "At bare noen får hjelp", "At man har krav på hjelp når vilkårene er oppfylt", "At velferd er gratis for alle"], "correct": 2, "explain": "Ikke avhengig av godvilje." },
-    { "id": "q04", "text": "Hvilken institusjon overvåker menneskerettighetene i Norge?", "options": ["NAV", "Lånekassen", "Skatteetaten", "Norges institusjon for menneskerettigheter"], "correct": 3, "explain": "NIM." },
-    { "id": "q05", "text": "På hvilket område har Norge fått kritikk fra EMD?", "options": ["Barnevern", "Skatt", "Veibygging", "Fiskeri"], "correct": 0, "explain": "Retten til familieliv." },
-    { "id": "q06", "text": "Hva krever CRPD?", "options": ["At alle skal ha bil", "At mennesker med funksjonsnedsettelser kan delta på like vilkår", "At alle må jobbe", "At skolen er privat"], "correct": 1, "explain": "Har påvirket universell utforming." },
-    { "id": "q07", "text": "Hvilken artikkel i barnekonvensjonen handler om retten til å bli hørt?", "options": ["Artikkel 1", "Artikkel 3", "Artikkel 12", "Artikkel 30"], "correct": 2, "explain": "Artikkel 3 er barnets beste." },
-    { "id": "q08", "text": "Hvorfor er velferdspolitikk fortsatt politikk selv med menneskerettigheter?", "options": ["Fordi rettighetene ikke gjelder", "Fordi politikere kan se bort fra dem", "Fordi alt er bestemt av FN", "Fordi rettighetene gir minimumskrav og skal oppfylles gradvis"], "correct": 3, "explain": "Innenfor rammene må det prioriteres." },
-    { "id": "q09", "text": "Når kom FNs verdenserklæring om menneskerettighetene?", "options": ["1948", "1814", "1989", "2014"], "correct": 0, "explain": "Etter andre verdenskrig." },
-    { "id": "q10", "text": "Hvem behandler klager om diskriminering?", "options": ["Stortinget", "Diskrimineringsnemnda", "NAV", "Politiet alene"], "correct": 1, "explain": "Etter veiledning fra ombudet." }
+    {
+      "id": "q01",
+      "text": "Hvilken konvensjon gir rett til arbeid, helse og sosial trygghet?",
+      "options": [
+        "SP",
+        "ØSK",
+        "EMK artikkel 10",
+        "Genèvekonvensjonen"
+      ],
+      "correct": 1,
+      "explain": "Økonomiske, sosiale og kulturelle rettigheter."
+    },
+    {
+      "id": "q02",
+      "text": "Hva sier Grunnloven § 104?",
+      "options": [
+        "At barnets beste skal være et grunnleggende hensyn",
+        "At alle har stemmerett",
+        "At kongen er ukrenkelig",
+        "At skolen er gratis"
+      ],
+      "correct": 0,
+      "explain": "Og at barn har rett til å bli hørt."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr at velferd ses som en rettighet?",
+      "options": [
+        "At velferd er veldedighet",
+        "At bare noen får hjelp",
+        "At man har krav på hjelp når vilkårene er oppfylt",
+        "At velferd er gratis for alle"
+      ],
+      "correct": 2,
+      "explain": "Ikke avhengig av godvilje."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken institusjon overvåker menneskerettighetene i Norge?",
+      "options": [
+        "NAV",
+        "Lånekassen",
+        "Skatteetaten",
+        "Norges institusjon for menneskerettigheter"
+      ],
+      "correct": 3,
+      "explain": "NIM."
+    },
+    {
+      "id": "q05",
+      "text": "På hvilket område har Norge fått kritikk fra EMD?",
+      "options": [
+        "Barnevern",
+        "Skatt",
+        "Veibygging",
+        "Fiskeri"
+      ],
+      "correct": 0,
+      "explain": "Retten til familieliv."
+    },
+    {
+      "id": "q06",
+      "text": "Hva krever CRPD?",
+      "options": [
+        "At alle skal ha bil",
+        "At mennesker med funksjonsnedsettelser kan delta på like vilkår",
+        "At alle må jobbe",
+        "At skolen er privat"
+      ],
+      "correct": 1,
+      "explain": "Har påvirket universell utforming."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken artikkel i barnekonvensjonen handler om retten til å bli hørt?",
+      "options": [
+        "Artikkel 1",
+        "Artikkel 3",
+        "Artikkel 12",
+        "Artikkel 30"
+      ],
+      "correct": 2,
+      "explain": "Artikkel 3 er barnets beste."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er velferdspolitikk fortsatt politikk selv med menneskerettigheter?",
+      "options": [
+        "Fordi rettighetene ikke gjelder",
+        "Fordi politikere kan se bort fra dem",
+        "Fordi alt er bestemt av FN",
+        "Fordi rettighetene gir minimumskrav og skal oppfylles gradvis"
+      ],
+      "correct": 3,
+      "explain": "Innenfor rammene må det prioriteres."
+    },
+    {
+      "id": "q09",
+      "text": "Når kom FNs verdenserklæring om menneskerettighetene?",
+      "options": [
+        "1948",
+        "1814",
+        "1989",
+        "2014"
+      ],
+      "correct": 0,
+      "explain": "Etter andre verdenskrig."
+    },
+    {
+      "id": "q10",
+      "text": "Hvem behandler klager om diskriminering?",
+      "options": [
+        "Stortinget",
+        "Diskrimineringsnemnda",
+        "NAV",
+        "Politiet alene"
+      ],
+      "correct": 1,
+      "explain": "Etter veiledning fra ombudet."
+    }
   ],
   "mindmap": {
     "label": "Menneskerettigheter og velferd",
     "children": [
-      { "label": "Konvensjoner", "children": [
-        { "label": "SP og ØSK" },
-        { "label": "Barnekonvensjonen" },
-        { "label": "CRPD" }
-      ] },
-      { "label": "Grunnloven", "children": [
-        { "label": "§ 104 barn" },
-        { "label": "§ 109 utdanning" },
-        { "label": "§ 110 arbeid" }
-      ] },
-      { "label": "Påvirkning", "children": [
-        { "label": "Velferd som rettighet" },
-        { "label": "Barns rett til å bli hørt" },
-        { "label": "Universell utforming" }
-      ] },
-      { "label": "Kontroll", "children": [
-        { "label": "Domstoler" },
-        { "label": "NIM og ombud" },
-        { "label": "FN-komiteer" }
-      ] },
-      { "label": "Kritikk", "children": [
-        { "label": "Barnevern" },
-        { "label": "Barnefattigdom" },
-        { "label": "Tvang og samiske rettigheter" }
-      ] }
+      {
+        "label": "Konvensjoner",
+        "children": [
+          {
+            "label": "SP og ØSK"
+          },
+          {
+            "label": "Barnekonvensjonen"
+          },
+          {
+            "label": "CRPD"
+          }
+        ]
+      },
+      {
+        "label": "Grunnloven",
+        "children": [
+          {
+            "label": "§ 104 barn"
+          },
+          {
+            "label": "§ 109 utdanning"
+          },
+          {
+            "label": "§ 110 arbeid"
+          }
+        ]
+      },
+      {
+        "label": "Påvirkning",
+        "children": [
+          {
+            "label": "Velferd som rettighet"
+          },
+          {
+            "label": "Barns rett til å bli hørt"
+          },
+          {
+            "label": "Universell utforming"
+          }
+        ]
+      },
+      {
+        "label": "Kontroll",
+        "children": [
+          {
+            "label": "Domstoler"
+          },
+          {
+            "label": "NIM og ombud"
+          },
+          {
+            "label": "FN-komiteer"
+          }
+        ]
+      },
+      {
+        "label": "Kritikk",
+        "children": [
+          {
+            "label": "Barnevern"
+          },
+          {
+            "label": "Barnefattigdom"
+          },
+          {
+            "label": "Tvang og samiske rettigheter"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Barnekonvensjonen er gjort til norsk lov.", "correct": true, "explain": "Gjennom menneskerettsloven." },
-      { "id": "m02", "type": "sant-usant", "text": "Norge får aldri kritikk for menneskerettighetsbrudd.", "correct": false, "explain": "Norge får kritikk på flere områder." },
-      { "id": "m03", "type": "sant-usant", "text": "Grunnloven § 110 handler om retten til arbeid eller støtte.", "correct": true, "explain": "Staten skal legge til rette." },
-      { "id": "m04", "type": "sant-usant", "text": "Menneskerettighetene bestemmer nøyaktig hvor store trygdeytelsene skal være.", "correct": false, "explain": "De gir minimumskrav." },
-      { "id": "m05", "type": "flervalg", "text": "Hva gjør Barneombudet?", "options": ["Dømmer i barnevernssaker", "Fremmer barns interesser", "Driver barnehager", "Utbetaler barnetrygd"], "correct": 1, "explain": "Et talerør for barn." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket dilemma drøftes ofte om menneskerettigheter og velferd?", "options": ["Demokrati mot rettighetsvern", "Skatt mot toll", "Skole mot helse", "By mot land"], "correct": 0, "explain": "Hvor mye makt skal domstolene ha?" },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken lov har blitt påvirket av barnekonvensjonen?", "options": ["Veitrafikkloven", "Skatteloven", "Barnevernsloven", "Tolloven"], "correct": 2, "explain": "Også barneloven og opplæringsloven." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Barnekonvensjonen er gjort til norsk lov.",
+        "correct": true,
+        "explain": "Gjennom menneskerettsloven."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Norge får aldri kritikk for menneskerettighetsbrudd.",
+        "correct": false,
+        "explain": "Norge får kritikk på flere områder."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Grunnloven § 110 handler om retten til arbeid eller støtte.",
+        "correct": true,
+        "explain": "Staten skal legge til rette."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Menneskerettighetene bestemmer nøyaktig hvor store trygdeytelsene skal være.",
+        "correct": false,
+        "explain": "De gir minimumskrav."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva gjør Barneombudet?",
+        "options": [
+          "Dømmer i barnevernssaker",
+          "Fremmer barns interesser",
+          "Driver barnehager",
+          "Utbetaler barnetrygd"
+        ],
+        "correct": 1,
+        "explain": "Et talerør for barn."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket dilemma drøftes ofte om menneskerettigheter og velferd?",
+        "options": [
+          "Demokrati mot rettighetsvern",
+          "Skatt mot toll",
+          "Skole mot helse",
+          "By mot land"
+        ],
+        "correct": 0,
+        "explain": "Hvor mye makt skal domstolene ha?"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken lov har blitt påvirket av barnekonvensjonen?",
+        "options": [
+          "Veitrafikkloven",
+          "Skatteloven",
+          "Barnevernsloven",
+          "Tolloven"
+        ],
+        "correct": 2,
+        "explain": "Også barneloven og opplæringsloven."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "FNs verdenserklæring om menneskerettighetene kom i 1948. Senere ble blant annet SP og ØSK vedtatt som bindende konvensjoner. Forklar forskjellen mellom verdenserklæringen og konvensjonene.",
+        "fasit": "Verdenserklæringen slo fast at alle mennesker er født frie og like i verdighet og rettigheter. SP og ØSK er senere konvensjoner som er bindende.",
+        "kriterier": [
+          "Får fram at verdenserklæringen slo fast grunnleggende menneskerettigheter.",
+          "Får fram at konvensjonene som kom senere, er bindende."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "SP og ØSK beskytter ulike typer rettigheter. Sammenlign dem ved å forklare hva slags rettigheter hver konvensjon gjelder, og gi ett eksempel på en rettighet fra hver.",
+        "fasit": "SP gjelder sivile og politiske rettigheter, som ytringsfrihet eller stemmerett. ØSK gjelder økonomiske, sosiale og kulturelle rettigheter, som rett til arbeid eller helse.",
+        "kriterier": [
+          "Skiller mellom sivile og politiske rettigheter i SP og økonomiske, sosiale og kulturelle rettigheter i ØSK.",
+          "Gir et passende eksempel på en rettighet fra hver konvensjon."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En kommune skal ta en beslutning om et tilbud som har stor betydning for en 13-åring. Forklar hvordan prinsippene om barnets beste og retten til å bli hørt bør få betydning for beslutningen.",
+        "fasit": "Kommunen må la barnets beste være et grunnleggende hensyn. Barnet skal få si sin mening i saken, og synet deres må tas med i vurderingen.",
+        "kriterier": [
+          "Forklarer at barnets beste skal være et grunnleggende hensyn.",
+          "Forklarer at barnet skal få uttale seg i en sak som angår det."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person kan ikke tjene til livets opphold gjennom arbeid. Hva sier Grunnloven § 110 om statens ansvar i en slik situasjon?",
+        "fasit": "Staten skal legge til rette for at alle kan tjene til livets opphold gjennom arbeid. De som ikke kan gjøre det, har rett til støtte.",
+        "kriterier": [
+          "Får fram at staten skal legge til rette for at folk kan forsørge seg gjennom arbeid.",
+          "Får fram at personer som ikke kan forsørge seg slik, har rett til støtte."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "CRPD krever at mennesker med funksjonsnedsettelser skal kunne delta i samfunnet på like vilkår. Forklar hvordan universell utforming kan bidra til dette.",
+        "fasit": "Universell utforming gjør omgivelser og løsninger tilgjengelige for flere. Det kan redusere hindringer for deltakelse og gjøre det lettere for mennesker med funksjonsnedsettelser å delta på like vilkår.",
+        "kriterier": [
+          "Forklarer at universell utforming gjør omgivelser eller løsninger mer tilgjengelige.",
+          "Knytter tilgjengeligheten til muligheten for lik deltakelse."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "NIM overvåker menneskerettighetene og gir råd, mens Sivilombudet kontrollerer forvaltningen. Forklar forskjellen på rollene deres.",
+        "fasit": "NIM følger med på hvordan menneskerettighetene ivaretas og gir råd om dem. Sivilombudet kontrollerer hvordan forvaltningen utfører oppgavene sine.",
+        "kriterier": [
+          "Beskriver NIMs rolle med å overvåke menneskerettigheter og gi råd.",
+          "Beskriver Sivilombudets rolle med å kontrollere forvaltningen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sosiale rettigheter skal oppfylles gradvis ut fra landets ressurser, samtidig som menneskerettighetene gir minimumskrav. Forklar hva dette betyr når staten planlegger å bygge ut helsetilbud.",
+        "fasit": "Staten må ta hensyn til ressursene sine når den bygger ut helsetilbud, og oppfylle sosiale rettigheter gradvis. Ressursbegrensninger betyr likevel ikke at menneskerettighetenes minimumskrav kan ses bort fra.",
+        "kriterier": [
+          "Får fram at oppfyllelsen kan skje gradvis og må ses i lys av landets ressurser.",
+          "Får fram at menneskerettighetene samtidig stiller minimumskrav."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En person mener at staten har brutt en menneskerettighet. Forklar hvilken rolle Grunnloven, menneskerettsloven og domstolene kan ha i å undersøke dette.",
+        "fasit": "Grunnloven og menneskerettsloven gir rettighetene rettslig vern. Domstolene kan prøve om staten har brutt menneskerettighetene.",
+        "kriterier": [
+          "Får fram at Grunnloven og menneskerettsloven gir rettighetene rettslig vern.",
+          "Får fram at domstolene kan undersøke om staten har brutt menneskerettighetene."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

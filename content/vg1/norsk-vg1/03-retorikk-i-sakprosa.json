@@ -4,82 +4,436 @@
   "trinnId": "vg1",
   "name": "Retorikk i sakprosa",
   "intro": "Kommunikasjonssituasjonen, appellformene etos, patos og logos, kairos, språklige virkemidler i sakprosa og hvordan du skriver en retorisk analyse av en kronikk, tale eller reklame.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Retorikk\n\n**Retorikk** er læren om hvordan man **overbeviser** gjennom tale og tekst. Den ble utviklet i antikkens Hellas, og **Aristoteles** beskrev tre **appellformer** som fortsatt brukes i analyser i dag.\n\n## Kommunikasjonssituasjonen\n\nEn retorisk analyse starter med **kommunikasjonssituasjonen**:\n\n- **Avsender** – hvem står bak, og hvilken rolle har de?\n- **Mottaker** – hvem er teksten rettet mot?\n- **Formål** – hva vil avsenderen oppnå?\n- **Kontekst** – når og i hvilken situasjon ble teksten til?\n- **Medium og sjanger** – kronikk, leserinnlegg, tale, reklame, innlegg i sosiale medier\n\n## Appellformene\n\n- **Etos** handler om **troverdighet**. Avsenderen viser at hen er **kompetent**, **pålitelig** og **velvillig** – for eksempel ved å vise til egen erfaring, utdanning eller tittel. Etos kan styrkes eller svekkes underveis i teksten.\n- **Patos** appellerer til **følelser** som medfølelse, sinne, frykt, stolthet eller håp – ofte gjennom personlige historier, sterke bilder og ladede ord.\n- **Logos** appellerer til **fornuft** gjennom **fakta**, **statistikk**, **eksempler** og logisk argumentasjon.\n\nI tillegg snakker man om **kairos** – det **rette øyeblikket**. En tekst har mer gjennomslag når den kommer på riktig tidspunkt, for eksempel rett etter en hendelse som er mye omtalt.\n\n## Språklige virkemidler i sakprosa\n\n- **Metafor**: «Skolen er en fabrikk.»\n- **Sammenligning**: «Klasserommet var som en bikube.»\n- **Besjeling**: «Byen våknet.»\n- **Gjentakelse** og **anafor** – samme ord i starten av flere setninger: «Vi vil … Vi vil … Vi vil …»\n- **Tretall** – tre ledd som gir rytme: «før, nå og i framtiden»\n- **Kontrast**: rik og fattig, før og nå\n- **Retoriske spørsmål** – spørsmål der svaret er underforstått\n- **Overdrivelse (hyperbol)** og **underdrivelse**\n- **Ironi** – å si det motsatte av det man mener\n- **Ladede ord** – ord med sterke positive eller negative assosiasjoner, som «frihet» eller «kaos»\n- **Inkluderende «vi»** – skaper fellesskap med leseren\n\n## Å skrive en retorisk analyse\n\n1. **Innledning**: Presenter teksten (tittel, avsender, sjanger, publisert hvor og når) og hovedsynspunktet.\n2. **Kommunikasjonssituasjonen**: Hvem, til hvem, hvorfor og i hvilken kontekst?\n3. **Appellformer**: Vis med **sitater** hvordan etos, patos og logos brukes.\n4. **Virkemidler**: Hvilke virkemidler brukes, og **hvilken effekt** har de?\n5. **Vurdering**: Hvor **overbevisende** er teksten for målgruppen? Er argumentasjonen **saklig**?\n\nDet viktigste er å **forklare effekten** – ikke bare liste opp virkemidlene.",
   "flashcards": [
-    { "term": "Retorikk", "def": "Læren om hvordan man overbeviser gjennom tale og tekst." },
-    { "term": "Aristoteles", "def": "Gresk filosof som beskrev appellformene etos, patos og logos." },
-    { "term": "Kommunikasjonssituasjon", "def": "Avsender, mottaker, formål, kontekst og medium." },
-    { "term": "Etos", "def": "Appell til avsenderens troverdighet." },
-    { "term": "Patos", "def": "Appell til følelser." },
-    { "term": "Logos", "def": "Appell til fornuft gjennom fakta og logikk." },
-    { "term": "Kairos", "def": "Det rette øyeblikket for å si noe." },
-    { "term": "Anafor", "def": "Gjentakelse av samme ord i starten av flere setninger." },
-    { "term": "Tretall", "def": "Tre ledd etter hverandre som gir rytme og tyngde." },
-    { "term": "Retorisk spørsmål", "def": "Spørsmål der svaret er underforstått." },
-    { "term": "Hyperbol", "def": "Overdrivelse brukt som virkemiddel." },
-    { "term": "Ironi", "def": "Å si det motsatte av det man mener." },
-    { "term": "Ladede ord", "def": "Ord med sterke positive eller negative assosiasjoner." },
-    { "term": "Besjeling", "def": "Å gi ting eller natur menneskelige egenskaper." },
-    { "term": "Inkluderende «vi»", "def": "Bruk av «vi» for å skape fellesskap med mottakeren." }
+    {
+      "term": "Retorikk",
+      "def": "Læren om hvordan man overbeviser gjennom tale og tekst."
+    },
+    {
+      "term": "Aristoteles",
+      "def": "Gresk filosof som beskrev appellformene etos, patos og logos."
+    },
+    {
+      "term": "Kommunikasjonssituasjon",
+      "def": "Avsender, mottaker, formål, kontekst og medium."
+    },
+    {
+      "term": "Etos",
+      "def": "Appell til avsenderens troverdighet."
+    },
+    {
+      "term": "Patos",
+      "def": "Appell til følelser."
+    },
+    {
+      "term": "Logos",
+      "def": "Appell til fornuft gjennom fakta og logikk."
+    },
+    {
+      "term": "Kairos",
+      "def": "Det rette øyeblikket for å si noe."
+    },
+    {
+      "term": "Anafor",
+      "def": "Gjentakelse av samme ord i starten av flere setninger."
+    },
+    {
+      "term": "Tretall",
+      "def": "Tre ledd etter hverandre som gir rytme og tyngde."
+    },
+    {
+      "term": "Retorisk spørsmål",
+      "def": "Spørsmål der svaret er underforstått."
+    },
+    {
+      "term": "Hyperbol",
+      "def": "Overdrivelse brukt som virkemiddel."
+    },
+    {
+      "term": "Ironi",
+      "def": "Å si det motsatte av det man mener."
+    },
+    {
+      "term": "Ladede ord",
+      "def": "Ord med sterke positive eller negative assosiasjoner."
+    },
+    {
+      "term": "Besjeling",
+      "def": "Å gi ting eller natur menneskelige egenskaper."
+    },
+    {
+      "term": "Inkluderende «vi»",
+      "def": "Bruk av «vi» for å skape fellesskap med mottakeren."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken appellform handler om troverdighet?", "options": ["Patos", "Logos", "Etos", "Kairos"], "correct": 2, "explain": "Etos handler om hvordan avsenderen framstår." },
-    { "id": "q02", "text": "En tekst bruker statistikk fra SSB. Hvilken appellform er dette?", "options": ["Etos", "Logos", "Patos", "Ironi"], "correct": 1, "explain": "Fakta og tall appellerer til fornuften." },
-    { "id": "q03", "text": "Hva er kairos?", "options": ["Det rette øyeblikket", "En type metafor", "Avsenderens troverdighet", "En gresk tekst"], "correct": 0, "explain": "Timing påvirker hvor stort gjennomslag en tekst får." },
-    { "id": "q04", "text": "«Vi vil ha rent vann. Vi vil ha ren luft. Vi vil ha en framtid.» Hvilket virkemiddel er brukt?", "options": ["Ironi", "Besjeling", "Hyperbol", "Anafor"], "correct": 3, "explain": "Samme ord i starten av flere setninger gir rytme og tyngde." },
-    { "id": "q05", "text": "En kronikk forteller om en jente som ikke fikk hjelp i tide. Hvilken appellform brukes mest?", "options": ["Logos", "Kairos", "Patos", "Etos"], "correct": 2, "explain": "Personlige historier vekker følelser." },
-    { "id": "q06", "text": "Hva er det første du bør gjøre i en retorisk analyse?", "options": ["Presentere teksten og kommunikasjonssituasjonen", "Liste opp alle virkemidler", "Skrive din egen mening om saken", "Oversette teksten"], "correct": 0, "explain": "Konteksten er grunnlaget for resten av analysen." },
-    { "id": "q07", "text": "Hva er et retorisk spørsmål?", "options": ["Et spørsmål i en quiz", "Et spørsmål til læreren", "Et spørsmål uten svar", "Et spørsmål der svaret er underforstått"], "correct": 3, "explain": "Eksempel: «Vil vi virkelig at barna våre skal vokse opp slik?»" },
-    { "id": "q08", "text": "Hvorfor er det viktig å forklare effekten av virkemidlene?", "options": ["Fordi analysen skal vise hvordan teksten prøver å overbevise", "Fordi det gjør teksten lengre", "Fordi det er lettere enn å finne dem", "Det er ikke viktig"], "correct": 0, "explain": "En liste over virkemidler uten effekt er ikke en analyse." },
-    { "id": "q09", "text": "En lege skriver: «Som overlege i tjue år har jeg sett …» Hva prøver legen å styrke?", "options": ["Patos", "Etos", "Kairos", "Logos"], "correct": 1, "explain": "Erfaring og tittel gir troverdighet." },
-    { "id": "q10", "text": "Hva er ladede ord?", "options": ["Ord med sterke positive eller negative assosiasjoner", "Ord som er lange", "Ord fra andre språk", "Fagord"], "correct": 0, "explain": "«Frihet» og «kaos» er eksempler." }
+    {
+      "id": "q01",
+      "text": "Hvilken appellform handler om troverdighet?",
+      "options": [
+        "Patos",
+        "Logos",
+        "Etos",
+        "Kairos"
+      ],
+      "correct": 2,
+      "explain": "Etos handler om hvordan avsenderen framstår."
+    },
+    {
+      "id": "q02",
+      "text": "En tekst bruker statistikk fra SSB. Hvilken appellform er dette?",
+      "options": [
+        "Etos",
+        "Logos",
+        "Patos",
+        "Ironi"
+      ],
+      "correct": 1,
+      "explain": "Fakta og tall appellerer til fornuften."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er kairos?",
+      "options": [
+        "Det rette øyeblikket",
+        "En type metafor",
+        "Avsenderens troverdighet",
+        "En gresk tekst"
+      ],
+      "correct": 0,
+      "explain": "Timing påvirker hvor stort gjennomslag en tekst får."
+    },
+    {
+      "id": "q04",
+      "text": "«Vi vil ha rent vann. Vi vil ha ren luft. Vi vil ha en framtid.» Hvilket virkemiddel er brukt?",
+      "options": [
+        "Ironi",
+        "Besjeling",
+        "Hyperbol",
+        "Anafor"
+      ],
+      "correct": 3,
+      "explain": "Samme ord i starten av flere setninger gir rytme og tyngde."
+    },
+    {
+      "id": "q05",
+      "text": "En kronikk forteller om en jente som ikke fikk hjelp i tide. Hvilken appellform brukes mest?",
+      "options": [
+        "Logos",
+        "Kairos",
+        "Patos",
+        "Etos"
+      ],
+      "correct": 2,
+      "explain": "Personlige historier vekker følelser."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er det første du bør gjøre i en retorisk analyse?",
+      "options": [
+        "Presentere teksten og kommunikasjonssituasjonen",
+        "Liste opp alle virkemidler",
+        "Skrive din egen mening om saken",
+        "Oversette teksten"
+      ],
+      "correct": 0,
+      "explain": "Konteksten er grunnlaget for resten av analysen."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er et retorisk spørsmål?",
+      "options": [
+        "Et spørsmål i en quiz",
+        "Et spørsmål til læreren",
+        "Et spørsmål uten svar",
+        "Et spørsmål der svaret er underforstått"
+      ],
+      "correct": 3,
+      "explain": "Eksempel: «Vil vi virkelig at barna våre skal vokse opp slik?»"
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er det viktig å forklare effekten av virkemidlene?",
+      "options": [
+        "Fordi analysen skal vise hvordan teksten prøver å overbevise",
+        "Fordi det gjør teksten lengre",
+        "Fordi det er lettere enn å finne dem",
+        "Det er ikke viktig"
+      ],
+      "correct": 0,
+      "explain": "En liste over virkemidler uten effekt er ikke en analyse."
+    },
+    {
+      "id": "q09",
+      "text": "En lege skriver: «Som overlege i tjue år har jeg sett …» Hva prøver legen å styrke?",
+      "options": [
+        "Patos",
+        "Etos",
+        "Kairos",
+        "Logos"
+      ],
+      "correct": 1,
+      "explain": "Erfaring og tittel gir troverdighet."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er ladede ord?",
+      "options": [
+        "Ord med sterke positive eller negative assosiasjoner",
+        "Ord som er lange",
+        "Ord fra andre språk",
+        "Fagord"
+      ],
+      "correct": 0,
+      "explain": "«Frihet» og «kaos» er eksempler."
+    }
   ],
   "mindmap": {
     "label": "Retorikk i sakprosa",
     "children": [
-      { "label": "Situasjon", "children": [
-        { "label": "Avsender og mottaker" },
-        { "label": "Formål" },
-        { "label": "Kontekst og sjanger" }
-      ] },
-      { "label": "Appellformer", "children": [
-        { "label": "Etos" },
-        { "label": "Patos" },
-        { "label": "Logos" },
-        { "label": "Kairos" }
-      ] },
-      { "label": "Bilder", "children": [
-        { "label": "Metafor" },
-        { "label": "Sammenligning" },
-        { "label": "Besjeling" }
-      ] },
-      { "label": "Andre virkemidler", "children": [
-        { "label": "Anafor og tretall" },
-        { "label": "Kontrast" },
-        { "label": "Retoriske spørsmål" },
-        { "label": "Ironi og ladede ord" }
-      ] },
-      { "label": "Analysen", "children": [
-        { "label": "Innledning" },
-        { "label": "Sitater" },
-        { "label": "Effekt" },
-        { "label": "Vurdering" }
-      ] }
+      {
+        "label": "Situasjon",
+        "children": [
+          {
+            "label": "Avsender og mottaker"
+          },
+          {
+            "label": "Formål"
+          },
+          {
+            "label": "Kontekst og sjanger"
+          }
+        ]
+      },
+      {
+        "label": "Appellformer",
+        "children": [
+          {
+            "label": "Etos"
+          },
+          {
+            "label": "Patos"
+          },
+          {
+            "label": "Logos"
+          },
+          {
+            "label": "Kairos"
+          }
+        ]
+      },
+      {
+        "label": "Bilder",
+        "children": [
+          {
+            "label": "Metafor"
+          },
+          {
+            "label": "Sammenligning"
+          },
+          {
+            "label": "Besjeling"
+          }
+        ]
+      },
+      {
+        "label": "Andre virkemidler",
+        "children": [
+          {
+            "label": "Anafor og tretall"
+          },
+          {
+            "label": "Kontrast"
+          },
+          {
+            "label": "Retoriske spørsmål"
+          },
+          {
+            "label": "Ironi og ladede ord"
+          }
+        ]
+      },
+      {
+        "label": "Analysen",
+        "children": [
+          {
+            "label": "Innledning"
+          },
+          {
+            "label": "Sitater"
+          },
+          {
+            "label": "Effekt"
+          },
+          {
+            "label": "Vurdering"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Etos kan styrkes eller svekkes underveis i en tekst.", "correct": true, "explain": "Usaklige angrep kan for eksempel svekke troverdigheten." },
-      { "id": "m02", "type": "sant-usant", "text": "Appellformene ble beskrevet av en norsk forfatter på 1900-tallet.", "correct": false, "explain": "De ble beskrevet av Aristoteles i antikkens Hellas." },
-      { "id": "m03", "type": "sant-usant", "text": "Et inkluderende «vi» kan skape fellesskap med leseren.", "correct": true, "explain": "Leseren føler seg som en del av saken." },
-      { "id": "m04", "type": "sant-usant", "text": "Ironi betyr å si nøyaktig det man mener.", "correct": false, "explain": "Ironi er å si det motsatte av det man mener." },
-      { "id": "m05", "type": "flervalg", "text": "«Byen våknet.» Hvilket virkemiddel er dette?", "options": ["Anafor", "Besjeling", "Tretall", "Hyperbol"], "correct": 1, "explain": "Byen får en menneskelig egenskap." },
-      { "id": "m06", "type": "flervalg", "text": "Hva hører til kommunikasjonssituasjonen?", "options": ["Rimmønster", "Antall avsnitt", "Avsender, mottaker, formål og kontekst", "Skrifttype"], "correct": 2, "explain": "Kommunikasjonssituasjonen forklarer hvorfor teksten er som den er." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er et tretall?", "options": ["Tre setninger med samme ord", "Tre avsnitt", "Et tall i en statistikk", "Tre ledd etter hverandre som gir rytme"], "correct": 3, "explain": "Eksempel: «før, nå og i framtiden»." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Etos kan styrkes eller svekkes underveis i en tekst.",
+        "correct": true,
+        "explain": "Usaklige angrep kan for eksempel svekke troverdigheten."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Appellformene ble beskrevet av en norsk forfatter på 1900-tallet.",
+        "correct": false,
+        "explain": "De ble beskrevet av Aristoteles i antikkens Hellas."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Et inkluderende «vi» kan skape fellesskap med leseren.",
+        "correct": true,
+        "explain": "Leseren føler seg som en del av saken."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Ironi betyr å si nøyaktig det man mener.",
+        "correct": false,
+        "explain": "Ironi er å si det motsatte av det man mener."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "«Byen våknet.» Hvilket virkemiddel er dette?",
+        "options": [
+          "Anafor",
+          "Besjeling",
+          "Tretall",
+          "Hyperbol"
+        ],
+        "correct": 1,
+        "explain": "Byen får en menneskelig egenskap."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva hører til kommunikasjonssituasjonen?",
+        "options": [
+          "Rimmønster",
+          "Antall avsnitt",
+          "Avsender, mottaker, formål og kontekst",
+          "Skrifttype"
+        ],
+        "correct": 2,
+        "explain": "Kommunikasjonssituasjonen forklarer hvorfor teksten er som den er."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er et tretall?",
+        "options": [
+          "Tre setninger med samme ord",
+          "Tre avsnitt",
+          "Et tall i en statistikk",
+          "Tre ledd etter hverandre som gir rytme"
+        ],
+        "correct": 3,
+        "explain": "Eksempel: «før, nå og i framtiden»."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar med egne ord hva retorikk handler om, og hvilke typer uttrykk den gjelder.",
+        "fasit": "Retorikk er læren om hvordan man overbeviser gjennom tale og tekst.",
+        "kriterier": [
+          "Forklarer at retorikk handler om å overbevise.",
+          "Nevner at det gjelder tale og tekst."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign patos og logos: Hva forsøker hver appellform å påvirke, og hva slags virkemidler kan brukes?",
+        "fasit": "Patos prøver å påvirke følelsene, for eksempel med personlige historier eller ladede ord. Logos prøver å overbevise fornuften gjennom fakta, eksempler eller logisk argumentasjon.",
+        "kriterier": [
+          "Forklarer at patos appellerer til følelser.",
+          "Forklarer at logos appellerer til fornuft gjennom fakta eller logikk."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En organisasjon publiserer et innlegg om en hendelse rett etter at hendelsen har fått mye oppmerksomhet. Forklar hvorfor tidspunktet kan gjøre innlegget mer virkningsfullt.",
+        "fasit": "Innlegget kommer på et tidspunkt da mange allerede er opptatt av hendelsen. Det rette tidspunktet kan derfor gi innlegget større gjennomslag; dette handler om kairos.",
+        "kriterier": [
+          "Knytter tidspunktet til at hendelsen er mye omtalt eller aktuell.",
+          "Forklarer at riktig timing kan gi teksten større gjennomslag."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar forskjellen på metafor og sammenligning i disse uttrykkene: «Skolen er en fabrikk» og «Klasserommet var som en bikube».",
+        "fasit": "«Skolen er en fabrikk» er en metafor som beskriver skolen direkte som en fabrikk. «Klasserommet var som en bikube» er en sammenligning, fordi klasserommet sammenlignes med en bikube.",
+        "kriterier": [
+          "Forklarer at metaforen beskriver noe som noe annet uten å si at det er «som».",
+          "Forklarer at sammenligningen viser likhet mellom ting, gjerne med «som»."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I uttrykket «Byen våknet» får byen en menneskelig egenskap. Hva kalles dette virkemiddelet, og hvordan virker uttrykket?",
+        "fasit": "Dette er besjeling, fordi byen får den menneskelige egenskapen å våkne. Uttrykket får byen til å virke levende eller aktiv.",
+        "kriterier": [
+          "Identifiserer besjeling og forklarer at byen får en menneskelig egenskap.",
+          "Beskriver at uttrykket får byen til å virke levende eller aktiv."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Lag et eksempel på et tretall i en oppfordring om å ta vare på nærmiljøet. Forklar hva som gjør eksempelet til et tretall.",
+        "fasit": "«Vi kan rydde, plante og ta vare på nærmiljøet.» Det er et tretall fordi oppfordringen har tre ledd etter hverandre, noe som kan gi rytme og tyngde.",
+        "kriterier": [
+          "Gir et eksempel med tre ledd etter hverandre.",
+          "Forklarer at tretallet kan gi rytme eller tyngde."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elevrådsrepresentant holder en tale for skolens elever for å få dem til å delta i en ryddeaksjon. Pek ut avsender, mottaker, formål, medium og sjanger i situasjonen.",
+        "fasit": "Avsenderen er elevrådsrepresentanten, og mottakerne er skolens elever. Formålet er å få dem til å delta i ryddeaksjonen, og medium og sjanger er en tale.",
+        "kriterier": [
+          "Peker ut elevrådsrepresentanten som avsender og skolens elever som mottakere.",
+          "Får fram formålet og at medium/sjanger er en tale."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En skribent beskriver en lang ventetid slik: «Jeg har ventet i tusen år.» Forklar hva slags virkemiddel uttrykket er, og hva overdrivelsen kan gjøre med framstillingen.",
+        "fasit": "Dette er en hyperbol, fordi skribenten overdriver ventetiden og ikke mener tusen år bokstavelig. Overdrivelsen kan understreke hvor lang ventetiden føles.",
+        "kriterier": [
+          "Identifiserer hyperbol og forklarer at uttrykket overdriver.",
+          "Forklarer at overdrivelsen understreker eller gir et sterkt inntrykk av ventetiden."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

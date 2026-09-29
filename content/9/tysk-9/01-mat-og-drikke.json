@@ -4,81 +4,435 @@
   "trinnId": "9",
   "name": "Mat og drikke",
   "intro": "Måltider, mat og drikke på tysk, hvordan du sier hva du liker, hvordan du bestiller på kafé og restaurant, og akkusativ med den og einen.",
-  "kompetansemaal": [2, 4],
+  "kompetansemaal": [
+    2,
+    4
+  ],
   "sammendrag": "## Måltider – die Mahlzeiten\n\n- **das Frühstück** – frokosten. Mange tyskere spiser **Brötchen** (rundstykker) med **Butter**, **Käse**, **Wurst** (pølsepålegg) eller syltetøy (**Marmelade**).\n- **das Mittagessen** – måltidet midt på dagen. Tradisjonelt var dette dagens varme hovedmåltid.\n- **das Abendessen** eller **das Abendbrot** – kveldsmaten. I mange familier består den av brød med pålegg.\n\n## Mat – das Essen\n\n- **das Brot** (brødet), **das Ei** (egget), **das Müsli**\n- **das Obst** (frukt): **der Apfel**, **die Banane**, **die Orange**\n- **das Gemüse** (grønnsaker): **die Kartoffel**, **die Tomate**, **die Karotte**\n- **das Fleisch** (kjøttet), **das Hähnchen** (kyllingen), **der Fisch**\n- **die Nudeln** (pasta), **der Reis**, **die Suppe** og **der Kuchen** (kaken)\n\n## Drikke – die Getränke\n\n**das Wasser**, **der Saft** (juicen), **die Milch**, **der Tee**, **der Kaffee** og **die Limonade**. Vann med kullsyre heter **Wasser mit Kohlensäure** eller **Sprudel**.\n\n## Si hva du liker\n\n- **Ich esse gern Pizza.** – Jeg liker å spise pizza.\n- **Ich trinke gern Tee.** – Jeg liker å drikke te.\n- **Ich mag Äpfel.** – Jeg liker epler. **Ich mag keinen Fisch.** – Jeg liker ikke fisk.\n- **Ich habe Hunger / Durst.** – Jeg er sulten / tørst. Bokstavelig: Jeg har sult / tørst.\n\n## Viktige verb\n\n- **essen** (spise): ich esse, du **isst**, er **isst**, wir essen\n- **nehmen** (ta): ich nehme, du **nimmst**, er **nimmt**\n- **mögen** (like): ich **mag**, du **magst**, er **mag**\n- **möchten** (ville gjerne ha, høflig): ich möchte, du möchtest, er möchte\n\n## På kafé og restaurant\n\n- **Die Speisekarte, bitte.** – Menyen, takk.\n- **Was möchtest du?** / **Was möchten Sie?** – Hva vil du/De ha?\n- **Ich möchte eine Suppe und ein Wasser, bitte.** – Jeg vil gjerne ha en suppe og et vann.\n- **Ich nehme den Fisch.** – Jeg tar fisken.\n- **Guten Appetit!** – God appetitt! **Prost!** – Skål!\n- **Die Rechnung, bitte!** eller **Zahlen, bitte!** – Regningen, takk!\n- **Das macht zwölf Euro.** – Det blir tolv euro.\n\nI Tyskland er det vanlig å **runde opp** eller gi litt **Trinkgeld** (tips), ofte 5–10 prosent.\n\n## Akkusativ – den og einen\n\nNår noe er **objekt** i setningen, endres hankjønnsartikkelen: **der → den** og **ein → einen**. *Ich nehme **den** Salat. Ich möchte **einen** Apfel.* Hunkjønn og intetkjønn endres ikke: *Ich möchte **eine** Banane und **ein** Brötchen.*",
   "flashcards": [
-    { "term": "das Frühstück", "def": "frokosten" },
-    { "term": "das Mittagessen", "def": "måltidet midt på dagen" },
-    { "term": "das Abendbrot", "def": "kveldsmaten, ofte brød med pålegg" },
-    { "term": "das Brötchen", "def": "rundstykket" },
-    { "term": "der Käse", "def": "osten" },
-    { "term": "die Wurst", "def": "pølsa, også pølsepålegg" },
-    { "term": "das Obst", "def": "frukt" },
-    { "term": "das Gemüse", "def": "grønnsaker" },
-    { "term": "das Hähnchen", "def": "kyllingen" },
-    { "term": "der Saft", "def": "juicen" },
-    { "term": "Ich habe Hunger.", "def": "Jeg er sulten." },
-    { "term": "Ich möchte …", "def": "Jeg vil gjerne ha …" },
-    { "term": "die Speisekarte", "def": "menyen" },
-    { "term": "Die Rechnung, bitte!", "def": "Regningen, takk!" },
-    { "term": "Guten Appetit!", "def": "God appetitt!" },
-    { "term": "essen: du isst, er isst", "def": "å spise – uregelrett i entall" }
+    {
+      "term": "das Frühstück",
+      "def": "frokosten"
+    },
+    {
+      "term": "das Mittagessen",
+      "def": "måltidet midt på dagen"
+    },
+    {
+      "term": "das Abendbrot",
+      "def": "kveldsmaten, ofte brød med pålegg"
+    },
+    {
+      "term": "das Brötchen",
+      "def": "rundstykket"
+    },
+    {
+      "term": "der Käse",
+      "def": "osten"
+    },
+    {
+      "term": "die Wurst",
+      "def": "pølsa, også pølsepålegg"
+    },
+    {
+      "term": "das Obst",
+      "def": "frukt"
+    },
+    {
+      "term": "das Gemüse",
+      "def": "grønnsaker"
+    },
+    {
+      "term": "das Hähnchen",
+      "def": "kyllingen"
+    },
+    {
+      "term": "der Saft",
+      "def": "juicen"
+    },
+    {
+      "term": "Ich habe Hunger.",
+      "def": "Jeg er sulten."
+    },
+    {
+      "term": "Ich möchte …",
+      "def": "Jeg vil gjerne ha …"
+    },
+    {
+      "term": "die Speisekarte",
+      "def": "menyen"
+    },
+    {
+      "term": "Die Rechnung, bitte!",
+      "def": "Regningen, takk!"
+    },
+    {
+      "term": "Guten Appetit!",
+      "def": "God appetitt!"
+    },
+    {
+      "term": "essen: du isst, er isst",
+      "def": "å spise – uregelrett i entall"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr «das Frühstück»?", "options": ["Middag", "Lunsj", "Frokost", "Kveldsmat"], "correct": 2, "explain": "«früh» betyr tidlig." },
-    { "id": "q02", "text": "Hvordan sier du «Jeg er sulten»?", "options": ["Ich habe Hunger.", "Ich bin Hunger.", "Ich habe Durst.", "Ich esse Hunger."], "correct": 0, "explain": "På tysk «har» man sult." },
-    { "id": "q03", "text": "Hva er riktig form av «essen» med «du»?", "options": ["du esse", "du essen", "du esst", "du isst"], "correct": 3, "explain": "«essen» bytter vokal i entall: du isst, er isst." },
-    { "id": "q04", "text": "Hvordan bestiller du høflig en te?", "options": ["Ich will Tee!", "Ich möchte einen Tee, bitte.", "Tee jetzt!", "Du Tee?"], "correct": 1, "explain": "«Ich möchte …, bitte» er høflig." },
-    { "id": "q05", "text": "Hvordan ber du om regningen?", "options": ["Guten Appetit!", "Prost!", "Die Speisekarte, bitte.", "Die Rechnung, bitte."], "correct": 3, "explain": "Du kan også si «Zahlen, bitte!»." },
-    { "id": "q06", "text": "Hva er «das Obst»?", "options": ["Grønnsaker", "Kjøtt", "Frukt", "Brød"], "correct": 2, "explain": "Grønnsaker heter «das Gemüse»." },
-    { "id": "q07", "text": "Hvilken setning er riktig?", "options": ["Ich möchte ein Apfel.", "Ich möchte einen Apfel.", "Ich möchte eine Apfel.", "Ich möchte einer Apfel."], "correct": 1, "explain": "«Apfel» er hankjønn og står som objekt, derfor «einen»." },
-    { "id": "q08", "text": "Hva sier du før måltidet?", "options": ["Guten Appetit!", "Auf Wiedersehen!", "Zahlen, bitte!", "Gute Nacht!"], "correct": 0, "explain": "Det betyr «God appetitt!»." },
-    { "id": "q09", "text": "Hva er «das Abendbrot» i mange tyske familier?", "options": ["En varm middag", "Kake", "Frokost", "Et kveldsmåltid med brød og pålegg"], "correct": 3, "explain": "Ordet betyr bokstavelig «kveldsbrød»." },
-    { "id": "q10", "text": "Hva betyr «die Speisekarte»?", "options": ["Regningen", "Bordet", "Menyen", "Kokken"], "correct": 2, "explain": "«Speise» betyr rett eller mat." }
+    {
+      "id": "q01",
+      "text": "Hva betyr «das Frühstück»?",
+      "options": [
+        "Middag",
+        "Lunsj",
+        "Frokost",
+        "Kveldsmat"
+      ],
+      "correct": 2,
+      "explain": "«früh» betyr tidlig."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan sier du «Jeg er sulten»?",
+      "options": [
+        "Ich habe Hunger.",
+        "Ich bin Hunger.",
+        "Ich habe Durst.",
+        "Ich esse Hunger."
+      ],
+      "correct": 0,
+      "explain": "På tysk «har» man sult."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er riktig form av «essen» med «du»?",
+      "options": [
+        "du esse",
+        "du essen",
+        "du esst",
+        "du isst"
+      ],
+      "correct": 3,
+      "explain": "«essen» bytter vokal i entall: du isst, er isst."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan bestiller du høflig en te?",
+      "options": [
+        "Ich will Tee!",
+        "Ich möchte einen Tee, bitte.",
+        "Tee jetzt!",
+        "Du Tee?"
+      ],
+      "correct": 1,
+      "explain": "«Ich möchte …, bitte» er høflig."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan ber du om regningen?",
+      "options": [
+        "Guten Appetit!",
+        "Prost!",
+        "Die Speisekarte, bitte.",
+        "Die Rechnung, bitte."
+      ],
+      "correct": 3,
+      "explain": "Du kan også si «Zahlen, bitte!»."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er «das Obst»?",
+      "options": [
+        "Grønnsaker",
+        "Kjøtt",
+        "Frukt",
+        "Brød"
+      ],
+      "correct": 2,
+      "explain": "Grønnsaker heter «das Gemüse»."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken setning er riktig?",
+      "options": [
+        "Ich möchte ein Apfel.",
+        "Ich möchte einen Apfel.",
+        "Ich möchte eine Apfel.",
+        "Ich möchte einer Apfel."
+      ],
+      "correct": 1,
+      "explain": "«Apfel» er hankjønn og står som objekt, derfor «einen»."
+    },
+    {
+      "id": "q08",
+      "text": "Hva sier du før måltidet?",
+      "options": [
+        "Guten Appetit!",
+        "Auf Wiedersehen!",
+        "Zahlen, bitte!",
+        "Gute Nacht!"
+      ],
+      "correct": 0,
+      "explain": "Det betyr «God appetitt!»."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er «das Abendbrot» i mange tyske familier?",
+      "options": [
+        "En varm middag",
+        "Kake",
+        "Frokost",
+        "Et kveldsmåltid med brød og pålegg"
+      ],
+      "correct": 3,
+      "explain": "Ordet betyr bokstavelig «kveldsbrød»."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «die Speisekarte»?",
+      "options": [
+        "Regningen",
+        "Bordet",
+        "Menyen",
+        "Kokken"
+      ],
+      "correct": 2,
+      "explain": "«Speise» betyr rett eller mat."
+    }
   ],
   "mindmap": {
     "label": "Mat og drikke",
     "children": [
-      { "label": "Måltider", "children": [
-        { "label": "Frühstück" },
-        { "label": "Mittagessen" },
-        { "label": "Abendbrot" }
-      ] },
-      { "label": "Mat og drikke", "children": [
-        { "label": "Obst og Gemüse" },
-        { "label": "Fleisch, Fisch, Hähnchen" },
-        { "label": "Wasser, Saft, Tee" }
-      ] },
-      { "label": "Liker", "children": [
-        { "label": "Ich esse gern …" },
-        { "label": "Ich mag …" },
-        { "label": "Hunger og Durst" }
-      ] },
-      { "label": "Restaurant", "children": [
-        { "label": "Die Speisekarte, bitte" },
-        { "label": "Ich möchte …" },
-        { "label": "Die Rechnung, bitte" },
-        { "label": "Trinkgeld" }
-      ] },
-      { "label": "Grammatikk", "children": [
-        { "label": "essen, nehmen" },
-        { "label": "mögen, möchten" },
-        { "label": "den og einen" }
-      ] }
+      {
+        "label": "Måltider",
+        "children": [
+          {
+            "label": "Frühstück"
+          },
+          {
+            "label": "Mittagessen"
+          },
+          {
+            "label": "Abendbrot"
+          }
+        ]
+      },
+      {
+        "label": "Mat og drikke",
+        "children": [
+          {
+            "label": "Obst og Gemüse"
+          },
+          {
+            "label": "Fleisch, Fisch, Hähnchen"
+          },
+          {
+            "label": "Wasser, Saft, Tee"
+          }
+        ]
+      },
+      {
+        "label": "Liker",
+        "children": [
+          {
+            "label": "Ich esse gern …"
+          },
+          {
+            "label": "Ich mag …"
+          },
+          {
+            "label": "Hunger og Durst"
+          }
+        ]
+      },
+      {
+        "label": "Restaurant",
+        "children": [
+          {
+            "label": "Die Speisekarte, bitte"
+          },
+          {
+            "label": "Ich möchte …"
+          },
+          {
+            "label": "Die Rechnung, bitte"
+          },
+          {
+            "label": "Trinkgeld"
+          }
+        ]
+      },
+      {
+        "label": "Grammatikk",
+        "children": [
+          {
+            "label": "essen, nehmen"
+          },
+          {
+            "label": "mögen, möchten"
+          },
+          {
+            "label": "den og einen"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "«Ich habe Durst» betyr jeg er tørst.", "correct": true, "explain": "«Durst» betyr tørst." },
-      { "id": "m02", "type": "sant-usant", "text": "«das Gemüse» betyr frukt.", "correct": false, "explain": "«das Gemüse» betyr grønnsaker. Frukt heter «das Obst»." },
-      { "id": "m03", "type": "sant-usant", "text": "I Tyskland er det vanlig å runde opp eller gi litt tips på restaurant.", "correct": true, "explain": "Tips kalles «Trinkgeld»." },
-      { "id": "m04", "type": "sant-usant", "text": "«nehmen» bøyes «du nehmst».", "correct": false, "explain": "Det heter «du nimmst» og «er nimmt»." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Ich mag keinen Fisch»?", "options": ["Jeg liker fisk", "Jeg liker ikke fisk", "Jeg har fisk", "Jeg spiser fisk i dag"], "correct": 1, "explain": "«kein» nekter substantivet." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er «das Brötchen»?", "options": ["Et rundstykke", "En kake", "En pølse", "Et egg"], "correct": 0, "explain": "Endelsen -chen betyr at noe er lite: et lite brød." },
-      { "id": "m07", "type": "flervalg", "text": "Hva sier man når man skåler?", "options": ["Guten Appetit!", "Danke!", "Prost!", "Tschüs!"], "correct": 2, "explain": "«Prost!» betyr «Skål!»." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "«Ich habe Durst» betyr jeg er tørst.",
+        "correct": true,
+        "explain": "«Durst» betyr tørst."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "«das Gemüse» betyr frukt.",
+        "correct": false,
+        "explain": "«das Gemüse» betyr grønnsaker. Frukt heter «das Obst»."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "I Tyskland er det vanlig å runde opp eller gi litt tips på restaurant.",
+        "correct": true,
+        "explain": "Tips kalles «Trinkgeld»."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«nehmen» bøyes «du nehmst».",
+        "correct": false,
+        "explain": "Det heter «du nimmst» og «er nimmt»."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Ich mag keinen Fisch»?",
+        "options": [
+          "Jeg liker fisk",
+          "Jeg liker ikke fisk",
+          "Jeg har fisk",
+          "Jeg spiser fisk i dag"
+        ],
+        "correct": 1,
+        "explain": "«kein» nekter substantivet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er «das Brötchen»?",
+        "options": [
+          "Et rundstykke",
+          "En kake",
+          "En pølse",
+          "Et egg"
+        ],
+        "correct": 0,
+        "explain": "Endelsen -chen betyr at noe er lite: et lite brød."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva sier man når man skåler?",
+        "options": [
+          "Guten Appetit!",
+          "Danke!",
+          "Prost!",
+          "Tschüs!"
+        ],
+        "correct": 2,
+        "explain": "«Prost!» betyr «Skål!»."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign måltidet midt på dagen (das Mittagessen) med kveldsmaten (das Abendbrot). Hva er typisk for hvert måltid?",
+        "fasit": "Das Mittagessen er måltidet midt på dagen og var tradisjonelt dagens varme hovedmåltid. Abendbrot er kveldsmat som i mange familier består av brød med pålegg.",
+        "kriterier": [
+          "Plasserer Mittagessen midt på dagen og nevner at det tradisjonelt var dagens varme hovedmåltid.",
+          "Forklarer at Abendbrot er kveldsmat som ofte består av brød med pålegg."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar på norsk hvorfor det heter «den Salat» i setningen «Ich nehme den Salat», og ikke «der Salat».",
+        "fasit": "Salat er hankjønn, og det står som objekt i setningen. Hankjønnsartikkelen der endres til den i akkusativ.",
+        "kriterier": [
+          "Forklarer at Salat står som objekt.",
+          "Nevner at der endres til den for hankjønn i akkusativ."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Skriv to tyske setninger: Si at du liker epler, og at du ikke liker fisk.",
+        "fasit": "Ich mag Äpfel. Ich mag keinen Fisch.",
+        "kriterier": [
+          "Bruker mag til å uttrykke at epler faller i smak.",
+          "Uttrykker at eleven ikke liker fisk, med riktig nektelse."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du bestiller på kafé og vil gjerne ha en suppe og en juice. Skriv en høflig bestilling på tysk med «Ich möchte».",
+        "fasit": "Ich möchte eine Suppe und einen Saft, bitte.",
+        "kriterier": [
+          "Bruker Ich möchte i en høflig bestilling.",
+          "Får fram suppe og juice med riktige artikler: eine Suppe og einen Saft."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hva betyr «Sprudel», og hvilken annen tysk formulering kan brukes om den samme drikken?",
+        "fasit": "Sprudel betyr vann med kullsyre. En annen formulering er Wasser mit Kohlensäure.",
+        "kriterier": [
+          "Forklarer at Sprudel er vann med kullsyre.",
+          "Nevner Wasser mit Kohlensäure som en annen formulering."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En kunde får regningen på en restaurant i Tyskland. Forklar hva «Trinkgeld» betyr i denne situasjonen, og hvor stor andel det ofte er.",
+        "fasit": "Trinkgeld er tips som kunden gir i tillegg til regningen. Det er vanlig å runde opp eller gi omtrent 5–10 prosent.",
+        "kriterier": [
+          "Forklarer at Trinkgeld er tips som gis i forbindelse med betalingen.",
+          "Nevner at det ofte er 5–10 prosent eller at man runder opp."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du er tørst og vil gjerne ha limonade. Skriv to tyske setninger der du sier at du er tørst og bestiller limonade høflig.",
+        "fasit": "Ich habe Durst. Ich möchte eine Limonade, bitte.",
+        "kriterier": [
+          "Bruker Ich habe Durst for å si at du er tørst.",
+          "Bestiller limonade med Ich möchte."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skriv en tysk setning om en vanlig frokost i Tyskland. Ta med Brötchen og to ulike ting de kan spises med.",
+        "fasit": "Viele Deutsche essen zum Frühstück Brötchen mit Butter und Käse.",
+        "kriterier": [
+          "Nevner Brötchen som frokostmat.",
+          "Tar med to passende ting å ha på Brötchen, for eksempel Butter, Käse, Wurst eller Marmelade."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

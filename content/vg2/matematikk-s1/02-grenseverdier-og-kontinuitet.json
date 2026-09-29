@@ -4,77 +4,422 @@
   "trinnId": "vg2",
   "name": "Grenseverdier og kontinuitet",
   "intro": "Hva grenseverdier er og hvordan du bestemmer dem, grenser mot uendelig og asymptoter, kontinuitet og sprang – med anvendelser fra økonomi som enhetskostnad, mengderabatt, parkering og trinnskatt.",
-  "kompetansemaal": [4, 9],
+  "kompetansemaal": [
+    4,
+    9
+  ],
   "sammendrag": "## Grenseverdier\n\n**lim ₓ→ₐ f(x) = L** betyr at f(x) kommer så nær L vi vil, når x kommer nær nok a. Grenseverdien sier noe om hva som skjer **nær** a, ikke nødvendigvis **i** a.\n\nGrenseverdien **finnes** bare hvis grensen fra **venstre** og fra **høyre** er like.\n\n## Strategier\n\n- **Sett inn** når funksjonen er definert og «snill» i punktet: lim ₓ→₂ (3x + 1) = 7.\n- **Faktoriser og forkort** når innsetting gir «0/0»:\n\nlim ₓ→₃ (x² − 9)/(x − 3) = lim ₓ→₃ (x + 3) = **6**\n\n- **Tabell eller graf**: Regn ut verdier nær a i regneark eller GeoGebra. Det gir en god antakelse.\n- **Mot uendelig**: Del teller og nevner med den høyeste potensen av x.\n\n## En økonomisk anvendelse\n\nEn bedrift har faste kostnader på 500 kr og variable kostnader på 20 kr per enhet. **Enhetskostnaden** er\n\nE(x) = (500 + 20x) / x = 500/x + 20\n\nNår x → ∞, går 500/x → 0, så **lim ₓ→∞ E(x) = 20**. Jo mer som produseres, desto mindre betyr de faste kostnadene, men enhetskostnaden kommer aldri under 20 kr. Linjen y = 20 er en **vannrett asymptote**.\n\n## Kontinuitet\n\nf er **kontinuerlig** i x = a hvis\n\n1. f(a) er definert\n2. lim ₓ→ₐ f(x) finnes\n3. lim ₓ→ₐ f(x) = f(a)\n\nIntuitivt kan grafen tegnes **uten å løfte blyanten**. Polynomfunksjoner er kontinuerlige overalt.\n\n## Delt definerte funksjoner\n\nSjekk **skjøten** mellom delene.\n\n**Eksempel**: f(x) = 2x + 1 for x < 3 og f(x) = ax − 2 for x ≥ 3. Kontinuitet krever 2 · 3 + 1 = 3a − 2, altså 7 = 3a − 2 og **a = 3**.\n\n## Diskontinuerlige funksjoner i økonomi\n\nMange priser og avgifter har **sprang**:\n\n- **Parkering** til 30 kr per påbegynt time: Prisen hopper fra 30 til 60 kr etter nøyaktig én time.\n- **Mengderabatt**: En vare koster 100 kr per stykk ved kjøp av under 50 stykk og 80 kr per stykk ved 50 eller flere. 49 stykk koster 4900 kr, men 50 stykk bare 4000 kr! Den totale prisen har et **sprang** ved x = 50.\n- **Trinnskatt**: Satsen for ekstra inntekt øker i trinn.\n- **Porto** etter vektklasser og **strømnettleie** etter kapasitetstrinn.\n\nI slike modeller er det viktig å presisere hvilken verdi funksjonen har **i selve spranget** – for eksempel om grensen gjelder «under 50» eller «50 eller mer».\n\n## Resonnement med grenseverdier\n\nGrenseverdier lar oss **argumentere** for langsiktig oppførsel: Hva skjer med enhetskostnaden når produksjonen blir svært stor? Hva skjer med et lån når nedbetalingstiden blir svært lang? Det er også grunnlaget for **den deriverte**, som er grenseverdien av den gjennomsnittlige vekstfarten.",
   "flashcards": [
-    { "term": "Grenseverdi", "def": "Verdien f(x) nærmer seg når x nærmer seg a." },
-    { "term": "Når finnes grenseverdien?", "def": "Når venstre og høyre grense er like." },
-    { "term": "«0/0» ved innsetting", "def": "Faktoriser og forkort." },
-    { "term": "lim ₓ→₃ (x² − 9)/(x − 3)", "def": "6" },
-    { "term": "Grense mot uendelig", "def": "Del med høyeste potens av x." },
-    { "term": "Enhetskostnad", "def": "E(x) = K(x)/x" },
-    { "term": "lim ₓ→∞ (500/x + 20)", "def": "20" },
-    { "term": "Vannrett asymptote", "def": "Linjen y = L når f(x) → L når x → ∞." },
-    { "term": "Kontinuerlig i a", "def": "f(a) definert, grensen finnes og er lik f(a)." },
-    { "term": "Skjøt", "def": "Punktet der delene i en delt funksjon møtes." },
-    { "term": "Sprang", "def": "Venstre og høyre grense er ulike." },
-    { "term": "Parkering per påbegynt time", "def": "Diskontinuerlig pris." },
-    { "term": "Mengderabatt", "def": "Kan gi sprang i total pris." },
-    { "term": "Trinnskatt", "def": "Satsen for ekstra inntekt øker i trinn." },
-    { "term": "Polynomfunksjoner", "def": "Kontinuerlige overalt." }
+    {
+      "term": "Grenseverdi",
+      "def": "Verdien f(x) nærmer seg når x nærmer seg a."
+    },
+    {
+      "term": "Når finnes grenseverdien?",
+      "def": "Når venstre og høyre grense er like."
+    },
+    {
+      "term": "«0/0» ved innsetting",
+      "def": "Faktoriser og forkort."
+    },
+    {
+      "term": "lim ₓ→₃ (x² − 9)/(x − 3)",
+      "def": "6"
+    },
+    {
+      "term": "Grense mot uendelig",
+      "def": "Del med høyeste potens av x."
+    },
+    {
+      "term": "Enhetskostnad",
+      "def": "E(x) = K(x)/x"
+    },
+    {
+      "term": "lim ₓ→∞ (500/x + 20)",
+      "def": "20"
+    },
+    {
+      "term": "Vannrett asymptote",
+      "def": "Linjen y = L når f(x) → L når x → ∞."
+    },
+    {
+      "term": "Kontinuerlig i a",
+      "def": "f(a) definert, grensen finnes og er lik f(a)."
+    },
+    {
+      "term": "Skjøt",
+      "def": "Punktet der delene i en delt funksjon møtes."
+    },
+    {
+      "term": "Sprang",
+      "def": "Venstre og høyre grense er ulike."
+    },
+    {
+      "term": "Parkering per påbegynt time",
+      "def": "Diskontinuerlig pris."
+    },
+    {
+      "term": "Mengderabatt",
+      "def": "Kan gi sprang i total pris."
+    },
+    {
+      "term": "Trinnskatt",
+      "def": "Satsen for ekstra inntekt øker i trinn."
+    },
+    {
+      "term": "Polynomfunksjoner",
+      "def": "Kontinuerlige overalt."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er lim ₓ→₃ (x² − 9)/(x − 3)?", "options": ["0", "6", "3", "Den finnes ikke"], "correct": 1, "explain": "Forkort til x + 3." },
-    { "id": "q02", "text": "Hva nærmer enhetskostnaden E(x) = 500/x + 20 seg når x → ∞?", "options": ["20", "0", "500", "520"], "correct": 0, "explain": "500/x → 0." },
-    { "id": "q03", "text": "f(x) = 2x + 1 for x < 3 og ax − 2 for x ≥ 3. Hvilken a gjør f kontinuerlig?", "options": ["a = 1", "a = 2", "a = 3", "a = 7"], "correct": 2, "explain": "7 = 3a − 2." },
-    { "id": "q04", "text": "Når finnes lim ₓ→ₐ f(x)?", "options": ["Alltid", "Bare når f(a) = 0", "Bare for polynomer", "Når venstre og høyre grense er like"], "correct": 3, "explain": "De ensidige grensene må stemme." },
-    { "id": "q05", "text": "Hvorfor er parkering til 30 kr per påbegynt time en diskontinuerlig funksjon?", "options": ["Prisen hopper når en ny time begynner", "Prisen er konstant", "Prisen synker over tid", "Den er et polynom"], "correct": 0, "explain": "Grafen har sprang." },
-    { "id": "q06", "text": "En vare koster 100 kr/stk under 50 stk og 80 kr/stk fra 50 stk. Hva koster 50 stk?", "options": ["5000 kr", "4000 kr", "4900 kr", "4080 kr"], "correct": 1, "explain": "50 · 80 kr." },
-    { "id": "q07", "text": "Hva kjennetegner en kontinuerlig funksjon intuitivt?", "options": ["Den er alltid voksende", "Den er et polynom", "Grafen kan tegnes uten å løfte blyanten", "Den har asymptoter"], "correct": 2, "explain": "Ingen sprang eller hull." },
-    { "id": "q08", "text": "Hva er den vannrette asymptoten til E(x) = 500/x + 20?", "options": ["x = 0", "y = 500", "y = 0", "y = 20"], "correct": 3, "explain": "E(x) → 20." },
-    { "id": "q09", "text": "Hva er lim ₓ→₂ (3x + 1)?", "options": ["7", "6", "5", "Den finnes ikke"], "correct": 0, "explain": "Innsetting." },
-    { "id": "q10", "text": "Hvilken funksjonstype er kontinuerlig overalt?", "options": ["Trinnfunksjoner", "Polynomfunksjoner", "Rasjonale funksjoner", "Delt definerte funksjoner"], "correct": 1, "explain": "For eksempel x² + 3x − 1." }
+    {
+      "id": "q01",
+      "text": "Hva er lim ₓ→₃ (x² − 9)/(x − 3)?",
+      "options": [
+        "0",
+        "6",
+        "3",
+        "Den finnes ikke"
+      ],
+      "correct": 1,
+      "explain": "Forkort til x + 3."
+    },
+    {
+      "id": "q02",
+      "text": "Hva nærmer enhetskostnaden E(x) = 500/x + 20 seg når x → ∞?",
+      "options": [
+        "20",
+        "0",
+        "500",
+        "520"
+      ],
+      "correct": 0,
+      "explain": "500/x → 0."
+    },
+    {
+      "id": "q03",
+      "text": "f(x) = 2x + 1 for x < 3 og ax − 2 for x ≥ 3. Hvilken a gjør f kontinuerlig?",
+      "options": [
+        "a = 1",
+        "a = 2",
+        "a = 3",
+        "a = 7"
+      ],
+      "correct": 2,
+      "explain": "7 = 3a − 2."
+    },
+    {
+      "id": "q04",
+      "text": "Når finnes lim ₓ→ₐ f(x)?",
+      "options": [
+        "Alltid",
+        "Bare når f(a) = 0",
+        "Bare for polynomer",
+        "Når venstre og høyre grense er like"
+      ],
+      "correct": 3,
+      "explain": "De ensidige grensene må stemme."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor er parkering til 30 kr per påbegynt time en diskontinuerlig funksjon?",
+      "options": [
+        "Prisen hopper når en ny time begynner",
+        "Prisen er konstant",
+        "Prisen synker over tid",
+        "Den er et polynom"
+      ],
+      "correct": 0,
+      "explain": "Grafen har sprang."
+    },
+    {
+      "id": "q06",
+      "text": "En vare koster 100 kr/stk under 50 stk og 80 kr/stk fra 50 stk. Hva koster 50 stk?",
+      "options": [
+        "5000 kr",
+        "4000 kr",
+        "4900 kr",
+        "4080 kr"
+      ],
+      "correct": 1,
+      "explain": "50 · 80 kr."
+    },
+    {
+      "id": "q07",
+      "text": "Hva kjennetegner en kontinuerlig funksjon intuitivt?",
+      "options": [
+        "Den er alltid voksende",
+        "Den er et polynom",
+        "Grafen kan tegnes uten å løfte blyanten",
+        "Den har asymptoter"
+      ],
+      "correct": 2,
+      "explain": "Ingen sprang eller hull."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er den vannrette asymptoten til E(x) = 500/x + 20?",
+      "options": [
+        "x = 0",
+        "y = 500",
+        "y = 0",
+        "y = 20"
+      ],
+      "correct": 3,
+      "explain": "E(x) → 20."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er lim ₓ→₂ (3x + 1)?",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "Den finnes ikke"
+      ],
+      "correct": 0,
+      "explain": "Innsetting."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken funksjonstype er kontinuerlig overalt?",
+      "options": [
+        "Trinnfunksjoner",
+        "Polynomfunksjoner",
+        "Rasjonale funksjoner",
+        "Delt definerte funksjoner"
+      ],
+      "correct": 1,
+      "explain": "For eksempel x² + 3x − 1."
+    }
   ],
   "mindmap": {
     "label": "Grenser og kontinuitet",
     "children": [
-      { "label": "Grenseverdi", "children": [
-        { "label": "Venstre og høyre" },
-        { "label": "Nær a, ikke i a" }
-      ] },
-      { "label": "Strategier", "children": [
-        { "label": "Innsetting" },
-        { "label": "Faktorisering" },
-        { "label": "Tabell og graf" },
-        { "label": "Høyeste potens" }
-      ] },
-      { "label": "Økonomi", "children": [
-        { "label": "Enhetskostnad" },
-        { "label": "Asymptote y = 20" }
-      ] },
-      { "label": "Kontinuitet", "children": [
-        { "label": "Tre krav" },
-        { "label": "Skjøt og parameter" }
-      ] },
-      { "label": "Sprang i praksis", "children": [
-        { "label": "Parkering" },
-        { "label": "Mengderabatt" },
-        { "label": "Trinnskatt" }
-      ] }
+      {
+        "label": "Grenseverdi",
+        "children": [
+          {
+            "label": "Venstre og høyre"
+          },
+          {
+            "label": "Nær a, ikke i a"
+          }
+        ]
+      },
+      {
+        "label": "Strategier",
+        "children": [
+          {
+            "label": "Innsetting"
+          },
+          {
+            "label": "Faktorisering"
+          },
+          {
+            "label": "Tabell og graf"
+          },
+          {
+            "label": "Høyeste potens"
+          }
+        ]
+      },
+      {
+        "label": "Økonomi",
+        "children": [
+          {
+            "label": "Enhetskostnad"
+          },
+          {
+            "label": "Asymptote y = 20"
+          }
+        ]
+      },
+      {
+        "label": "Kontinuitet",
+        "children": [
+          {
+            "label": "Tre krav"
+          },
+          {
+            "label": "Skjøt og parameter"
+          }
+        ]
+      },
+      {
+        "label": "Sprang i praksis",
+        "children": [
+          {
+            "label": "Parkering"
+          },
+          {
+            "label": "Mengderabatt"
+          },
+          {
+            "label": "Trinnskatt"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Med mengderabatt kan det være billigere å kjøpe flere enheter enn færre.", "correct": true, "explain": "50 stk kan koste mindre enn 49 stk." },
-      { "id": "m02", "type": "sant-usant", "text": "En funksjon må være definert i a for å ha en grenseverdi der.", "correct": false, "explain": "Grenseverdien handler om verdier nær a." },
-      { "id": "m03", "type": "sant-usant", "text": "Faste kostnader betyr mindre per enhet jo mer som produseres.", "correct": true, "explain": "500/x går mot 0." },
-      { "id": "m04", "type": "sant-usant", "text": "En delt definert funksjon er alltid diskontinuerlig.", "correct": false, "explain": "Den er kontinuerlig hvis delene møtes i skjøten." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er lim ₓ→∞ (4x + 3)/(2x − 1)?", "options": ["−3", "2", "4", "∞"], "correct": 1, "explain": "Del med x: 4/2." },
-      { "id": "m06", "type": "flervalg", "text": "Hva koster 49 stk når prisen er 100 kr/stk under 50 stk?", "options": ["4900 kr", "3920 kr", "4000 kr", "5000 kr"], "correct": 0, "explain": "49 · 100 kr." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er lim ₓ→₁ (x² − 1)/(x − 1)?", "options": ["0", "1", "2", "Den finnes ikke"], "correct": 2, "explain": "Forkort til x + 1." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Med mengderabatt kan det være billigere å kjøpe flere enheter enn færre.",
+        "correct": true,
+        "explain": "50 stk kan koste mindre enn 49 stk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En funksjon må være definert i a for å ha en grenseverdi der.",
+        "correct": false,
+        "explain": "Grenseverdien handler om verdier nær a."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Faste kostnader betyr mindre per enhet jo mer som produseres.",
+        "correct": true,
+        "explain": "500/x går mot 0."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En delt definert funksjon er alltid diskontinuerlig.",
+        "correct": false,
+        "explain": "Den er kontinuerlig hvis delene møtes i skjøten."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er lim ₓ→∞ (4x + 3)/(2x − 1)?",
+        "options": [
+          "−3",
+          "2",
+          "4",
+          "∞"
+        ],
+        "correct": 1,
+        "explain": "Del med x: 4/2."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva koster 49 stk når prisen er 100 kr/stk under 50 stk?",
+        "options": [
+          "4900 kr",
+          "3920 kr",
+          "4000 kr",
+          "5000 kr"
+        ],
+        "correct": 0,
+        "explain": "49 · 100 kr."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er lim ₓ→₁ (x² − 1)/(x − 1)?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "Den finnes ikke"
+        ],
+        "correct": 2,
+        "explain": "Forkort til x + 1."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar med egne ord hva limₓ→ₐ f(x) = L forteller om f(x), og skill mellom hva som skjer nær x = a og hva som skjer akkurat i x = a.",
+        "fasit": "Det betyr at f(x) kan komme så nær L vi vil når x kommer nær nok a. Grenseverdien beskriver ikke nødvendigvis verdien f(a).",
+        "kriterier": [
+          "Forklarer at f(x) nærmer seg L når x nærmer seg a.",
+          "Skiller mellom verdier nær a og verdien akkurat i a."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hva må være sant for at en funksjon skal være kontinuerlig i x = a? Forklar hvordan vilkårene henger sammen.",
+        "fasit": "f(a) må være definert, grenseverdien når x nærmer seg a må finnes, og grenseverdien må være lik f(a). Da stemmer verdien i punktet med det funksjonen nærmer seg.",
+        "kriterier": [
+          "Nevner at f(a) må være definert og at grenseverdien må finnes.",
+          "Nevner at grenseverdien må være lik f(a)."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Enhetskostnaden er E(x) = 500/x + 20. Regn ut enhetskostnaden når x = 500, og forklar kort hva svaret betyr.",
+        "fasit": "E(500) = 500/500 + 20 = 21. Enhetskostnaden er 21 kr per enhet når det produseres 500 enheter.",
+        "kriterier": [
+          "Setter x = 500 inn i uttrykket og får 21.",
+          "Tolk­er svaret som enhetskostnad per enhet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En vare koster 100 kr per stykk ved kjøp av under 50 stykk og 80 kr per stykk ved kjøp av 50 eller flere. Regn ut prisforskjellen mellom 49 og 50 stykk, og forklar hva forskjellen viser.",
+        "fasit": "49 stykk koster 49 · 100 = 4900 kr, mens 50 stykk koster 50 · 80 = 4000 kr. Totalprisen synker med 900 kr når antallet går fra 49 til 50, så prisen har et sprang ved grensen.",
+        "kriterier": [
+          "Regner ut totalprisene 4900 kr og 4000 kr.",
+          "Finner forskjellen på 900 kr og knytter den til et sprang i totalprisen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Når direkte innsetting i en brøk gir 0/0, hvilken framgangsmåte kan du bruke for å finne grenseverdien? Forklar de viktigste stegene.",
+        "fasit": "Faktoriser uttrykkene i telleren og nevneren, og forkort en felles faktor. Finn deretter grenseverdien til det forkortede uttrykket.",
+        "kriterier": [
+          "Nevner faktorisering av teller og nevner.",
+          "Nevner at en felles faktor forkortes før grenseverdien beregnes."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Du vil anslå grenseverdien til en funksjon når x nærmer seg a, ved hjelp av en verditabell eller en graf. Hva undersøker du, og hva kan metoden fortelle deg?",
+        "fasit": "Jeg undersøker funksjonsverdier for x-verdier nær a, eventuelt fra begge sider. Verdiene kan gi en god antakelse om hvilken verdi funksjonen nærmer seg.",
+        "kriterier": [
+          "Tar utgangspunkt i funksjonsverdier eller grafen nær x = a.",
+          "Forklarer at dette gir en antakelse om grenseverdien."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Enhetskostnaden er E(x) = 500/x + 20. Forklar hvorfor enhetskostnaden nærmer seg 20 kr når produksjonen blir svært stor, og hva dette sier om de faste kostnadene.",
+        "fasit": "Når x blir svært stor, går 500/x mot 0, så E(x) nærmer seg 20 kr. De faste kostnadene betyr stadig mindre per enhet, men enhetskostnaden kommer ikke under 20 kr.",
+        "kriterier": [
+          "Forklarer at 500/x går mot 0 når x øker uten grense.",
+          "Knytter grensen på 20 kr til at de faste kostnadene betyr mindre per enhet, og at kostnaden ikke kommer under 20 kr."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar sammenhengen mellom grenseverdier og den deriverte.",
+        "fasit": "Den deriverte er grenseverdien av den gjennomsnittlige vekstfarten. Grenseverdier gjør det dermed mulig å beskrive vekstfarten når endringen blir svært liten.",
+        "kriterier": [
+          "Nevner at den deriverte bygger på en grenseverdi.",
+          "Knytter grenseverdien til den gjennomsnittlige vekstfarten."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

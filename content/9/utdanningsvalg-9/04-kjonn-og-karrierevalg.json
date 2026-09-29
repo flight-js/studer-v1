@@ -4,79 +4,427 @@
   "trinnId": "9",
   "name": "Kjønn og karrierevalg",
   "intro": "Det kjønnsdelte arbeidsmarkedet i Norge, hvorfor jenter og gutter ofte velger ulikt, lønnsforskjeller og deltid, likestillingsloven og hvordan du kan ta valg uten å styres av stereotypier.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Et kjønnsdelt arbeidsmarked\n\nNorge regnes som et av de mest likestilte landene i verden. Likevel er **arbeidsmarkedet kjønnsdelt**: Mange yrker domineres av ett kjønn.\n\n- **Kvinner** er i stort flertall blant sykepleiere, helsefagarbeidere, barnehagelærere og frisører.\n- **Menn** er i stort flertall blant elektrikere, tømrere, rørleggere, bilmekanikere og ingeniører i enkelte fag.\n\nDet samme mønsteret ser man i videregående: **Helse- og oppvekstfag** har flest jenter, mens **elektro og datateknologi**, **bygg- og anleggsteknikk** og **teknologi- og industrifag** har flest gutter. I høyere utdanning er det nå **flere kvinner enn menn**.\n\n## Hvorfor velger vi ulikt?\n\nForklaringene er sammensatte:\n\n- **Kjønnsstereotypier**: forestillinger om hva som er «typisk» for jenter og gutter\n- **Forventninger** fra familie, venner og samfunnet\n- **Rollemodeller**: Vi ser sjelden kvinnelige elektrikere eller mannlige barnehagelærere\n- **Medier og reklame** som viser yrker på en kjønnet måte\n- **Frykt for å skille seg ut** eller bli den eneste av sitt kjønn i klassen\n- **Interesser** – men interesser formes også av hva vi har fått prøve\n\n## Konsekvenser\n\nDet kjønnsdelte arbeidsmarkedet har konsekvenser:\n\n- **Lønnsforskjeller**: Kvinner tjener i gjennomsnitt mindre enn menn, blant annet fordi mange kvinnedominerte yrker har lavere lønn.\n- **Deltid**: Flere kvinner enn menn jobber deltid, noe som gir lavere inntekt og pensjon.\n- **Mangel på arbeidskraft**: Når halvparten av befolkningen sjelden vurderer et yrke, går samfunnet glipp av talenter. For eksempel trengs det flere menn i helse og omsorg og flere kvinner i teknologi.\n- **Mangfold på arbeidsplassen** gir ofte bedre løsninger og arbeidsmiljø.\n\n## Lover og tiltak\n\n**Likestillings- og diskrimineringsloven** forbyr diskriminering på grunn av kjønn, blant annet ved ansettelse og lønn. **Likestillings- og diskrimineringsombudet** gir veiledning, og **Diskrimineringsnemnda** behandler klager. Arbeidsgivere har plikt til å jobbe aktivt for likestilling.\n\nDet finnes også tiltak for å få flere til å velge **utradisjonelt**, for eksempel kampanjer, jentedager i teknologifag, rekrutteringstiltak for gutter i helsefag og **ekstra poeng** til det underrepresenterte kjønnet ved opptak til enkelte studier.\n\n## Ditt valg\n\nÅ velge **utradisjonelt** betyr å velge et yrke der det er få av ditt kjønn. Det viktigste er at du velger ut fra **dine egne interesser og ferdigheter**, ikke ut fra hva andre mener passer for deg. Still deg selv spørsmålet: *Hadde jeg valgt annerledes hvis jeg hadde vært av et annet kjønn?*",
   "flashcards": [
-    { "term": "Kjønnsdelt arbeidsmarked", "def": "At mange yrker domineres av ett kjønn." },
-    { "term": "Kjønnsstereotypi", "def": "Forestilling om hva som er typisk for jenter og gutter." },
-    { "term": "Rollemodell", "def": "En person andre ser opp til og lar seg inspirere av." },
-    { "term": "Utradisjonelt valg", "def": "Å velge et yrke der det er få av ens eget kjønn." },
-    { "term": "Likestilling", "def": "At kvinner og menn har like rettigheter, plikter og muligheter." },
-    { "term": "Lønnsforskjell", "def": "Forskjellen mellom gjennomsnittslønnen til kvinner og menn." },
-    { "term": "Deltid", "def": "Å jobbe mindre enn full stilling." },
-    { "term": "Likestillings- og diskrimineringsloven", "def": "Lov som forbyr diskriminering, blant annet på grunn av kjønn." },
-    { "term": "Likestillings- og diskrimineringsombudet", "def": "Offentlig organ som gir veiledning om diskriminering." },
-    { "term": "Diskrimineringsnemnda", "def": "Organ som behandler klager om diskriminering." },
-    { "term": "Aktivitetsplikt", "def": "Arbeidsgiveres plikt til å jobbe aktivt for likestilling." },
-    { "term": "Kjønnspoeng", "def": "Ekstra poeng til det underrepresenterte kjønnet ved opptak til enkelte studier." },
-    { "term": "Mangfold", "def": "At ulike mennesker med ulik bakgrunn jobber sammen." },
-    { "term": "Kvinnedominert yrke", "def": "Yrke der de fleste er kvinner, som sykepleier." },
-    { "term": "Mannsdominert yrke", "def": "Yrke der de fleste er menn, som elektriker." }
+    {
+      "term": "Kjønnsdelt arbeidsmarked",
+      "def": "At mange yrker domineres av ett kjønn."
+    },
+    {
+      "term": "Kjønnsstereotypi",
+      "def": "Forestilling om hva som er typisk for jenter og gutter."
+    },
+    {
+      "term": "Rollemodell",
+      "def": "En person andre ser opp til og lar seg inspirere av."
+    },
+    {
+      "term": "Utradisjonelt valg",
+      "def": "Å velge et yrke der det er få av ens eget kjønn."
+    },
+    {
+      "term": "Likestilling",
+      "def": "At kvinner og menn har like rettigheter, plikter og muligheter."
+    },
+    {
+      "term": "Lønnsforskjell",
+      "def": "Forskjellen mellom gjennomsnittslønnen til kvinner og menn."
+    },
+    {
+      "term": "Deltid",
+      "def": "Å jobbe mindre enn full stilling."
+    },
+    {
+      "term": "Likestillings- og diskrimineringsloven",
+      "def": "Lov som forbyr diskriminering, blant annet på grunn av kjønn."
+    },
+    {
+      "term": "Likestillings- og diskrimineringsombudet",
+      "def": "Offentlig organ som gir veiledning om diskriminering."
+    },
+    {
+      "term": "Diskrimineringsnemnda",
+      "def": "Organ som behandler klager om diskriminering."
+    },
+    {
+      "term": "Aktivitetsplikt",
+      "def": "Arbeidsgiveres plikt til å jobbe aktivt for likestilling."
+    },
+    {
+      "term": "Kjønnspoeng",
+      "def": "Ekstra poeng til det underrepresenterte kjønnet ved opptak til enkelte studier."
+    },
+    {
+      "term": "Mangfold",
+      "def": "At ulike mennesker med ulik bakgrunn jobber sammen."
+    },
+    {
+      "term": "Kvinnedominert yrke",
+      "def": "Yrke der de fleste er kvinner, som sykepleier."
+    },
+    {
+      "term": "Mannsdominert yrke",
+      "def": "Yrke der de fleste er menn, som elektriker."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr det at arbeidsmarkedet er kjønnsdelt?", "options": ["At kvinner og menn jobber på ulike dager", "At mange yrker domineres av ett kjønn", "At lønna er lik for alle", "At menn og kvinner ikke får jobbe sammen"], "correct": 1, "explain": "Norge har et av de mest kjønnsdelte arbeidsmarkedene i Europa, selv om landet regnes som likestilt." },
-    { "id": "q02", "text": "Hvilket utdanningsprogram har flest jenter?", "options": ["Elektro og datateknologi", "Bygg- og anleggsteknikk", "Teknologi- og industrifag", "Helse- og oppvekstfag"], "correct": 3, "explain": "De tekniske programmene har flest gutter." },
-    { "id": "q03", "text": "Hva er et utradisjonelt valg?", "options": ["Å velge et yrke der det er få av ditt kjønn", "Å velge det samme som foreldrene", "Å ikke velge noe", "Å velge den korteste utdanningen"], "correct": 0, "explain": "For eksempel en gutt som blir helsefagarbeider." },
-    { "id": "q04", "text": "Hvilken lov forbyr diskriminering på grunn av kjønn?", "options": ["Opplæringsloven", "Ferieloven", "Likestillings- og diskrimineringsloven", "Vegtrafikkloven"], "correct": 2, "explain": "Loven gjelder blant annet ved ansettelse og lønn." },
-    { "id": "q05", "text": "Hvorfor tjener kvinner i gjennomsnitt mindre enn menn?", "options": ["Fordi de er dårligere", "Blant annet fordi mange kvinnedominerte yrker har lavere lønn og flere kvinner jobber deltid", "Fordi loven sier det", "Det gjør de ikke"], "correct": 1, "explain": "Lønnsforskjellene har flere årsaker." },
-    { "id": "q06", "text": "Hva er en kjønnsstereotypi?", "options": ["En forestilling om hva som er typisk for jenter og gutter", "En type musikkanlegg", "En lov", "Et yrke"], "correct": 0, "explain": "Stereotypier kan begrense valgene våre." },
-    { "id": "q07", "text": "Hvordan kan rollemodeller påvirke yrkesvalg?", "options": ["De har ingen betydning", "De bestemmer valget for deg", "De gjør det lettere å se for seg et yrke man ellers ikke ville vurdert", "De gjør alle yrker like"], "correct": 2, "explain": "Det er lettere å velge noe når man ser at andre som ligner en, har gjort det." },
-    { "id": "q08", "text": "Hvorfor er det et problem for samfunnet at arbeidsmarkedet er kjønnsdelt?", "options": ["Det er ikke et problem", "Det gir for mange arbeidere", "Det gjør alle yrker like", "Samfunnet går glipp av talenter og får mangel på arbeidskraft i noen yrker"], "correct": 3, "explain": "Det trengs for eksempel flere menn i helse og omsorg." },
-    { "id": "q09", "text": "Hva er kjønnspoeng?", "options": ["Ekstra poeng til det underrepresenterte kjønnet ved opptak til enkelte studier", "Poeng i gym", "Poeng for å være gutt", "En karakter"], "correct": 0, "explain": "Tiltaket skal gi en jevnere kjønnsbalanse." },
-    { "id": "q10", "text": "Hva er et godt spørsmål å stille seg når man velger utdanning?", "options": ["Hva velger alle vennene mine?", "Hadde jeg valgt annerledes hvis jeg hadde vært av et annet kjønn?", "Hva er mest populært på sosiale medier?", "Hva er den korteste utdanningen?"], "correct": 1, "explain": "Spørsmålet kan avsløre om stereotypier styrer valget." }
+    {
+      "id": "q01",
+      "text": "Hva betyr det at arbeidsmarkedet er kjønnsdelt?",
+      "options": [
+        "At kvinner og menn jobber på ulike dager",
+        "At mange yrker domineres av ett kjønn",
+        "At lønna er lik for alle",
+        "At menn og kvinner ikke får jobbe sammen"
+      ],
+      "correct": 1,
+      "explain": "Norge har et av de mest kjønnsdelte arbeidsmarkedene i Europa, selv om landet regnes som likestilt."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket utdanningsprogram har flest jenter?",
+      "options": [
+        "Elektro og datateknologi",
+        "Bygg- og anleggsteknikk",
+        "Teknologi- og industrifag",
+        "Helse- og oppvekstfag"
+      ],
+      "correct": 3,
+      "explain": "De tekniske programmene har flest gutter."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er et utradisjonelt valg?",
+      "options": [
+        "Å velge et yrke der det er få av ditt kjønn",
+        "Å velge det samme som foreldrene",
+        "Å ikke velge noe",
+        "Å velge den korteste utdanningen"
+      ],
+      "correct": 0,
+      "explain": "For eksempel en gutt som blir helsefagarbeider."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken lov forbyr diskriminering på grunn av kjønn?",
+      "options": [
+        "Opplæringsloven",
+        "Ferieloven",
+        "Likestillings- og diskrimineringsloven",
+        "Vegtrafikkloven"
+      ],
+      "correct": 2,
+      "explain": "Loven gjelder blant annet ved ansettelse og lønn."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor tjener kvinner i gjennomsnitt mindre enn menn?",
+      "options": [
+        "Fordi de er dårligere",
+        "Blant annet fordi mange kvinnedominerte yrker har lavere lønn og flere kvinner jobber deltid",
+        "Fordi loven sier det",
+        "Det gjør de ikke"
+      ],
+      "correct": 1,
+      "explain": "Lønnsforskjellene har flere årsaker."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en kjønnsstereotypi?",
+      "options": [
+        "En forestilling om hva som er typisk for jenter og gutter",
+        "En type musikkanlegg",
+        "En lov",
+        "Et yrke"
+      ],
+      "correct": 0,
+      "explain": "Stereotypier kan begrense valgene våre."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan kan rollemodeller påvirke yrkesvalg?",
+      "options": [
+        "De har ingen betydning",
+        "De bestemmer valget for deg",
+        "De gjør det lettere å se for seg et yrke man ellers ikke ville vurdert",
+        "De gjør alle yrker like"
+      ],
+      "correct": 2,
+      "explain": "Det er lettere å velge noe når man ser at andre som ligner en, har gjort det."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er det et problem for samfunnet at arbeidsmarkedet er kjønnsdelt?",
+      "options": [
+        "Det er ikke et problem",
+        "Det gir for mange arbeidere",
+        "Det gjør alle yrker like",
+        "Samfunnet går glipp av talenter og får mangel på arbeidskraft i noen yrker"
+      ],
+      "correct": 3,
+      "explain": "Det trengs for eksempel flere menn i helse og omsorg."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er kjønnspoeng?",
+      "options": [
+        "Ekstra poeng til det underrepresenterte kjønnet ved opptak til enkelte studier",
+        "Poeng i gym",
+        "Poeng for å være gutt",
+        "En karakter"
+      ],
+      "correct": 0,
+      "explain": "Tiltaket skal gi en jevnere kjønnsbalanse."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et godt spørsmål å stille seg når man velger utdanning?",
+      "options": [
+        "Hva velger alle vennene mine?",
+        "Hadde jeg valgt annerledes hvis jeg hadde vært av et annet kjønn?",
+        "Hva er mest populært på sosiale medier?",
+        "Hva er den korteste utdanningen?"
+      ],
+      "correct": 1,
+      "explain": "Spørsmålet kan avsløre om stereotypier styrer valget."
+    }
   ],
   "mindmap": {
     "label": "Kjønn og karrierevalg",
     "children": [
-      { "label": "Kjønnsdelt", "children": [
-        { "label": "Kvinnedominerte yrker" },
-        { "label": "Mannsdominerte yrker" },
-        { "label": "Videregående" }
-      ] },
-      { "label": "Årsaker", "children": [
-        { "label": "Stereotypier" },
-        { "label": "Forventninger" },
-        { "label": "Rollemodeller" },
-        { "label": "Medier" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Lønnsforskjeller" },
-        { "label": "Deltid" },
-        { "label": "Mangel på arbeidskraft" }
-      ] },
-      { "label": "Lover og tiltak", "children": [
-        { "label": "Likestillingsloven" },
-        { "label": "Ombudet" },
-        { "label": "Kjønnspoeng" }
-      ] },
-      { "label": "Ditt valg", "children": [
-        { "label": "Egne interesser" },
-        { "label": "Utradisjonelle valg" }
-      ] }
+      {
+        "label": "Kjønnsdelt",
+        "children": [
+          {
+            "label": "Kvinnedominerte yrker"
+          },
+          {
+            "label": "Mannsdominerte yrker"
+          },
+          {
+            "label": "Videregående"
+          }
+        ]
+      },
+      {
+        "label": "Årsaker",
+        "children": [
+          {
+            "label": "Stereotypier"
+          },
+          {
+            "label": "Forventninger"
+          },
+          {
+            "label": "Rollemodeller"
+          },
+          {
+            "label": "Medier"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Lønnsforskjeller"
+          },
+          {
+            "label": "Deltid"
+          },
+          {
+            "label": "Mangel på arbeidskraft"
+          }
+        ]
+      },
+      {
+        "label": "Lover og tiltak",
+        "children": [
+          {
+            "label": "Likestillingsloven"
+          },
+          {
+            "label": "Ombudet"
+          },
+          {
+            "label": "Kjønnspoeng"
+          }
+        ]
+      },
+      {
+        "label": "Ditt valg",
+        "children": [
+          {
+            "label": "Egne interesser"
+          },
+          {
+            "label": "Utradisjonelle valg"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Flere kvinner enn menn jobber deltid i Norge.", "correct": true, "explain": "Deltid gir lavere inntekt og pensjon." },
-      { "id": "m02", "type": "sant-usant", "text": "Det er lov å la være å ansette noen fordi de er kvinne.", "correct": false, "explain": "Likestillings- og diskrimineringsloven forbyr dette." },
-      { "id": "m03", "type": "sant-usant", "text": "Det er nå flere kvinner enn menn i høyere utdanning i Norge.", "correct": true, "explain": "Kvinner er i flertall blant studentene." },
-      { "id": "m04", "type": "sant-usant", "text": "Interesser er medfødte og påvirkes ikke av hva vi har fått prøve.", "correct": false, "explain": "Interesser formes også av erfaringer og forventninger." },
-      { "id": "m05", "type": "flervalg", "text": "Hvem behandler klager om diskriminering?", "options": ["Politiet", "Rådgiveren", "Diskrimineringsnemnda", "Kommunestyret"], "correct": 2, "explain": "Ombudet gir veiledning, og nemnda behandler klager." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket yrke er i dag mannsdominert?", "options": ["Sykepleier", "Elektriker", "Barnehagelærer", "Frisør"], "correct": 1, "explain": "De andre yrkene er kvinnedominerte." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er en fordel med mangfold på arbeidsplassen?", "options": ["Det gir ofte bedre løsninger og arbeidsmiljø", "Det gir lavere lønn", "Det gjør alle like", "Det gir færre ansatte"], "correct": 0, "explain": "Ulike perspektiver kan gi bedre løsninger." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Flere kvinner enn menn jobber deltid i Norge.",
+        "correct": true,
+        "explain": "Deltid gir lavere inntekt og pensjon."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Det er lov å la være å ansette noen fordi de er kvinne.",
+        "correct": false,
+        "explain": "Likestillings- og diskrimineringsloven forbyr dette."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Det er nå flere kvinner enn menn i høyere utdanning i Norge.",
+        "correct": true,
+        "explain": "Kvinner er i flertall blant studentene."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Interesser er medfødte og påvirkes ikke av hva vi har fått prøve.",
+        "correct": false,
+        "explain": "Interesser formes også av erfaringer og forventninger."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem behandler klager om diskriminering?",
+        "options": [
+          "Politiet",
+          "Rådgiveren",
+          "Diskrimineringsnemnda",
+          "Kommunestyret"
+        ],
+        "correct": 2,
+        "explain": "Ombudet gir veiledning, og nemnda behandler klager."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket yrke er i dag mannsdominert?",
+        "options": [
+          "Sykepleier",
+          "Elektriker",
+          "Barnehagelærer",
+          "Frisør"
+        ],
+        "correct": 1,
+        "explain": "De andre yrkene er kvinnedominerte."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er en fordel med mangfold på arbeidsplassen?",
+        "options": [
+          "Det gir ofte bedre løsninger og arbeidsmiljø",
+          "Det gir lavere lønn",
+          "Det gjør alle like",
+          "Det gir færre ansatte"
+        ],
+        "correct": 0,
+        "explain": "Ulike perspektiver kan gi bedre løsninger."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En arbeidstaker jobber mindre enn full stilling. Hva kalles det, og hvordan kan det påvirke inntekt og pensjon?",
+        "fasit": "Det kalles deltid. Deltid kan gi lavere inntekt og pensjon.",
+        "kriterier": [
+          "Forklarer at deltid betyr å jobbe mindre enn full stilling.",
+          "Nevner at deltid kan gi lavere inntekt og pensjon."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En person vil først få veiledning om diskriminering og vurderer senere å klage. Hvilket organ gir veiledning, og hvilket behandler klager?",
+        "fasit": "Likestillings- og diskrimineringsombudet gir veiledning. Diskrimineringsnemnda behandler klager.",
+        "kriterier": [
+          "Knytter veiledning til Likestillings- og diskrimineringsombudet.",
+          "Knytter behandling av klager til Diskrimineringsnemnda."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elevs familie sier at teknologi passer best for gutter, og reklamer viser ofte menn i teknologiyrker. Forklar hvordan dette kan påvirke jenters utdannings- og yrkesvalg.",
+        "fasit": "Forventninger fra familien og kjønnet framstilling i reklame kan få jenter til å tenke at teknologi ikke passer for dem. Da kan færre jenter vurdere teknologifag og teknologiyrker.",
+        "kriterier": [
+          "Forklarer at familieforventninger og/eller reklame kan påvirke hva jenter oppfatter som passende.",
+          "Knytter påvirkningen til at færre jenter kan vurdere teknologi."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En gutt vurderer helse og omsorg, men er redd for å bli den eneste gutten i klassen. Forklar hvordan denne frykten kan påvirke valget hans, og hvordan det å få prøve fagområdet kan påvirke interessene hans.",
+        "fasit": "Frykten for å skille seg ut kan få ham til å velge bort helse og omsorg selv om han er interessert. Når han får prøve fagområdet, kan han oppdage interesser han ikke visste at han hadde.",
+        "kriterier": [
+          "Forklarer at frykten for å skille seg ut kan føre til at han velger bort fagområdet.",
+          "Forklarer at interesser også kan formes av hva man får prøve."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En mann velger å bli helsefagarbeider. Hvorfor kan det regnes som et utradisjonelt valg, og hvilken utfordring i arbeidslivet kan flere slike valg bidra til å møte?",
+        "fasit": "Det er et utradisjonelt valg fordi det er få menn i helse og omsorg. Flere menn i slike yrker kan bidra til å møte mangelen på arbeidskraft.",
+        "kriterier": [
+          "Forklarer at valget er utradisjonelt fordi få menn jobber i helse og omsorg.",
+          "Knytter flere slike valg til behovet for arbeidskraft."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev mener at det er jevn kjønnsfordeling på alle utdanninger fordi det er flere kvinner enn menn i høyere utdanning. Bruk mønsteret på videregående til å forklare hvorfor påstanden ikke stemmer.",
+        "fasit": "På videregående er det flest jenter på helse- og oppvekstfag, mens det er flest gutter på blant annet elektro og datateknologi. At det er flere kvinner enn menn i høyere utdanning, betyr derfor ikke at alle utdanningsvalg har jevn kjønnsfordeling.",
+        "kriterier": [
+          "Nevner at helse- og oppvekstfag har flest jenter, og at minst ett av de andre nevnte utdanningsprogrammene har flest gutter.",
+          "Forklarer at flere kvinner enn menn i høyere utdanning ikke betyr at alle utdanninger har jevn kjønnsfordeling."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hva betyr mangfold på en arbeidsplass, og nevn én fordel mangfold kan gi?",
+        "fasit": "Mangfold betyr at ulike mennesker med ulik bakgrunn jobber sammen. Det kan ofte gi bedre løsninger eller et bedre arbeidsmiljø.",
+        "kriterier": [
+          "Forklarer at mangfold innebærer at ulike mennesker med ulik bakgrunn jobber sammen.",
+          "Nevner bedre løsninger eller bedre arbeidsmiljø som en mulig fordel."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En arbeidsgiver mener at det er nok å la være å diskriminere, og at arbeidsgiveren ikke trenger å gjøre noe mer for likestilling. Rett påstanden ved å forklare aktivitetsplikten.",
+        "fasit": "Aktivitetsplikt betyr at arbeidsgivere har plikt til å jobbe aktivt for likestilling. Det innebærer mer enn bare å la være å diskriminere.",
+        "kriterier": [
+          "Forklarer at arbeidsgivere har plikt til å jobbe aktivt for likestilling.",
+          "Får fram at plikten innebærer mer enn bare å unngå diskriminering."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

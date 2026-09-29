@@ -4,77 +4,422 @@
   "trinnId": "vg3",
   "name": "Kilder og informasjon i sosialkunnskap",
   "intro": "Hvordan du finner og vurderer informasjon for å analysere samfunnsspørsmål – offentlig statistikk, forskningsrapporter og offentlige utredninger, nyheter og sosiale medier – kildekritiske spørsmål, bruk og misbruk av statistikk, og desinformasjon.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Hvorfor kilder er viktige\n\nSosialkunnskap handler om **samfunnsspørsmål** der det ofte finnes **ulike** meninger – om fattigdom, velferd, kriminalitet og inkludering. For å analysere slike spørsmål må du bygge på **pålitelig** informasjon og kunne skille **fakta** fra **meninger**.\n\n## Viktige kildetyper\n\n- **Offentlig statistikk**: **Statistisk sentralbyrå (SSB)** lager statistikk om befolkning, inntekt, utdanning og arbeid. **Folkehelseinstituttet** har tall om helse.\n- **Spørreundersøkelser blant unge**: **Ungdata** kartlegger hvordan ungdom har det – venner, skole, fritid og helse.\n- **Offentlige utredninger**: **NOU-er** er grundige utredninger som ofte ligger til grunn for nye lover og reformer.\n- **Forskningsrapporter** fra universiteter og **forskningsinstitutter**.\n- **Stortingsmeldinger** viser regjeringens politikk.\n- **Nyheter** og **reportasjer**: viktige for aktuelle saker, men kan være **vinklet**.\n- **Interesseorganisasjoner**: kan ha god kunnskap, men arbeider for **bestemte** saker.\n- **Sosiale medier**: raske og mangfoldige, men uten redaksjonell kontroll.\n\n## Kildekritiske spørsmål\n\n1. **Hvem** står bak kilden, og hvilke **interesser** har de?\n2. **Når** ble den laget – er den **oppdatert**?\n3. **Hvordan** er kunnskapen framskaffet – **metode** og **utvalg**?\n4. Er det **fakta**, **tolkning** eller **mening**?\n5. Stemmer det med **andre** kilder?\n6. Hva **mangler** – hvem får ikke komme til orde?\n\n## Redaktørstyrte medier\n\nNorske **redaktørstyrte** medier følger **Vær Varsom-plakaten**, som krever at kildene er **kontrollert** og at den som angripes, får **svare**. Klager kan sendes til **Pressens Faglige Utvalg (PFU)**. Slike rutiner finnes ikke i sosiale medier.\n\n## Statistikk – bruk og misbruk\n\n- **Gjennomsnitt** og **median**: Noen få svært høye inntekter kan trekke **gjennomsnittet** opp. **Medianen** – den midterste verdien – gir ofte et bedre bilde av den typiske inntekten.\n- **Prosent** og **prosentpoeng**: Går andelen fra 10 til 15 %, er økningen **5 prosentpoeng**, men **50 prosent**.\n- **Sammenheng og årsak**: At to forhold henger sammen, betyr ikke at det ene **forårsaker** det andre.\n- **Utvalg**: En nettavstemning der hvem som helst kan svare, er ikke **representativ**.\n- **Grafer** kan villede, for eksempel ved at **aksen** ikke starter på null.\n\n## Desinformasjon\n\n**Desinformasjon** er **bevisst** falsk eller villedende informasjon, mens **feilinformasjon** er feil som spres **uten** vilje til å villede. Tegn på falske saker er **sensasjonelle** overskrifter, manglende **kilder**, **manipulerte** bilder og innhold som spiller på sterke **følelser**. **Faktisk.no** sjekker påstander i norsk offentlighet.\n\n## Fra kilder til analyse\n\nNår du analyserer et samfunnsspørsmål:\n\n- samle kilder med **ulike** perspektiver\n- vurder **kvaliteten** på hver kilde\n- bruk **fakta** og **statistikk** til å beskrive situasjonen\n- bruk **teori** for å forklare\n- **drøft** ulike syn og kom fram til en **begrunnet** konklusjon\n- oppgi kildene **tydelig**",
   "flashcards": [
-    { "term": "SSB", "def": "Statistisk sentralbyrå – lager offisiell statistikk." },
-    { "term": "Ungdata", "def": "Undersøkelse om hvordan ungdom har det." },
-    { "term": "NOU", "def": "Norsk offentlig utredning." },
-    { "term": "Stortingsmelding", "def": "Dokument som viser regjeringens politikk." },
-    { "term": "Interesseorganisasjon", "def": "Arbeider for bestemte saker – kan ha interesser." },
-    { "term": "Vær Varsom-plakaten", "def": "Etiske regler for norsk presse." },
-    { "term": "PFU", "def": "Pressens Faglige Utvalg – behandler klager på presseetikk." },
-    { "term": "Median", "def": "Den midterste verdien når tallene er sortert." },
-    { "term": "Gjennomsnitt", "def": "Summen delt på antallet – påvirkes av ekstreme verdier." },
-    { "term": "Prosentpoeng", "def": "Forskjellen mellom to prosenttall." },
-    { "term": "Representativt utvalg", "def": "Speiler befolkningen man vil si noe om." },
-    { "term": "Desinformasjon", "def": "Bevisst falsk eller villedende informasjon." },
-    { "term": "Feilinformasjon", "def": "Feil som spres uten vilje til å villede." },
-    { "term": "Faktisk.no", "def": "Norsk faktasjekktjeneste." },
-    { "term": "Kildekritikk", "def": "Vurdering av hvem, når, hvordan og hvorfor." }
+    {
+      "term": "SSB",
+      "def": "Statistisk sentralbyrå – lager offisiell statistikk."
+    },
+    {
+      "term": "Ungdata",
+      "def": "Undersøkelse om hvordan ungdom har det."
+    },
+    {
+      "term": "NOU",
+      "def": "Norsk offentlig utredning."
+    },
+    {
+      "term": "Stortingsmelding",
+      "def": "Dokument som viser regjeringens politikk."
+    },
+    {
+      "term": "Interesseorganisasjon",
+      "def": "Arbeider for bestemte saker – kan ha interesser."
+    },
+    {
+      "term": "Vær Varsom-plakaten",
+      "def": "Etiske regler for norsk presse."
+    },
+    {
+      "term": "PFU",
+      "def": "Pressens Faglige Utvalg – behandler klager på presseetikk."
+    },
+    {
+      "term": "Median",
+      "def": "Den midterste verdien når tallene er sortert."
+    },
+    {
+      "term": "Gjennomsnitt",
+      "def": "Summen delt på antallet – påvirkes av ekstreme verdier."
+    },
+    {
+      "term": "Prosentpoeng",
+      "def": "Forskjellen mellom to prosenttall."
+    },
+    {
+      "term": "Representativt utvalg",
+      "def": "Speiler befolkningen man vil si noe om."
+    },
+    {
+      "term": "Desinformasjon",
+      "def": "Bevisst falsk eller villedende informasjon."
+    },
+    {
+      "term": "Feilinformasjon",
+      "def": "Feil som spres uten vilje til å villede."
+    },
+    {
+      "term": "Faktisk.no",
+      "def": "Norsk faktasjekktjeneste."
+    },
+    {
+      "term": "Kildekritikk",
+      "def": "Vurdering av hvem, når, hvordan og hvorfor."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvem lager offisiell statistikk i Norge?", "options": ["NRK", "Statistisk sentralbyrå", "Stortinget", "Faktisk.no"], "correct": 1, "explain": "SSB." },
-    { "id": "q02", "text": "Hvorfor er medianinntekt ofte bedre enn gjennomsnittsinntekt?", "options": ["Fordi den ikke påvirkes så mye av noen få svært høye inntekter", "Fordi den alltid er høyere", "Fordi den er lettere å regne ut", "Fordi den er nyere"], "correct": 0, "explain": "Viser den typiske inntekten." },
-    { "id": "q03", "text": "Andelen øker fra 10 % til 15 %. Hvor mange prosentpoeng er det?", "options": ["50", "15", "5", "1,5"], "correct": 2, "explain": "Men en økning på 50 prosent." },
-    { "id": "q04", "text": "Hva er en NOU?", "options": ["En nyhetsartikkel", "En lov", "En statistikkbank", "En grundig offentlig utredning"], "correct": 3, "explain": "Ligger ofte til grunn for reformer." },
-    { "id": "q05", "text": "Hva er desinformasjon?", "options": ["Bevisst falsk eller villedende informasjon", "Feil uten vilje til å villede", "Offentlig statistikk", "Satire"], "correct": 0, "explain": "Feilinformasjon er utilsiktet." },
-    { "id": "q06", "text": "Hvilke etiske regler følger redaktørstyrte medier?", "options": ["Straffeloven alene", "Vær Varsom-plakaten", "Ingen regler", "Reglene til sosiale medier"], "correct": 1, "explain": "Klager går til PFU." },
-    { "id": "q07", "text": "Hvorfor er en nettavstemning ofte ikke representativ?", "options": ["Fordi den er digital", "Fordi den er gratis", "Fordi hvem som helst kan svare", "Fordi den er for stor"], "correct": 2, "explain": "Utvalget er selvvalgt." },
-    { "id": "q08", "text": "Hvilket kildekritisk spørsmål handler om interesser?", "options": ["Når ble den laget?", "Hvor lang er den?", "Hvilken font brukes?", "Hvem står bak, og hva vil de oppnå?"], "correct": 3, "explain": "Avsender og formål." },
-    { "id": "q09", "text": "Hva kartlegger Ungdata?", "options": ["Hvordan ungdom har det", "Boligpriser", "Valgresultater", "Været"], "correct": 0, "explain": "Venner, skole, fritid og helse." },
-    { "id": "q10", "text": "Hvordan kan en graf villede?", "options": ["Ved å ha farger", "Ved at aksen ikke starter på null", "Ved å ha tittel", "Ved å vise tall"], "correct": 1, "explain": "Små forskjeller ser store ut." }
+    {
+      "id": "q01",
+      "text": "Hvem lager offisiell statistikk i Norge?",
+      "options": [
+        "NRK",
+        "Statistisk sentralbyrå",
+        "Stortinget",
+        "Faktisk.no"
+      ],
+      "correct": 1,
+      "explain": "SSB."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor er medianinntekt ofte bedre enn gjennomsnittsinntekt?",
+      "options": [
+        "Fordi den ikke påvirkes så mye av noen få svært høye inntekter",
+        "Fordi den alltid er høyere",
+        "Fordi den er lettere å regne ut",
+        "Fordi den er nyere"
+      ],
+      "correct": 0,
+      "explain": "Viser den typiske inntekten."
+    },
+    {
+      "id": "q03",
+      "text": "Andelen øker fra 10 % til 15 %. Hvor mange prosentpoeng er det?",
+      "options": [
+        "50",
+        "15",
+        "5",
+        "1,5"
+      ],
+      "correct": 2,
+      "explain": "Men en økning på 50 prosent."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er en NOU?",
+      "options": [
+        "En nyhetsartikkel",
+        "En lov",
+        "En statistikkbank",
+        "En grundig offentlig utredning"
+      ],
+      "correct": 3,
+      "explain": "Ligger ofte til grunn for reformer."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er desinformasjon?",
+      "options": [
+        "Bevisst falsk eller villedende informasjon",
+        "Feil uten vilje til å villede",
+        "Offentlig statistikk",
+        "Satire"
+      ],
+      "correct": 0,
+      "explain": "Feilinformasjon er utilsiktet."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilke etiske regler følger redaktørstyrte medier?",
+      "options": [
+        "Straffeloven alene",
+        "Vær Varsom-plakaten",
+        "Ingen regler",
+        "Reglene til sosiale medier"
+      ],
+      "correct": 1,
+      "explain": "Klager går til PFU."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er en nettavstemning ofte ikke representativ?",
+      "options": [
+        "Fordi den er digital",
+        "Fordi den er gratis",
+        "Fordi hvem som helst kan svare",
+        "Fordi den er for stor"
+      ],
+      "correct": 2,
+      "explain": "Utvalget er selvvalgt."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket kildekritisk spørsmål handler om interesser?",
+      "options": [
+        "Når ble den laget?",
+        "Hvor lang er den?",
+        "Hvilken font brukes?",
+        "Hvem står bak, og hva vil de oppnå?"
+      ],
+      "correct": 3,
+      "explain": "Avsender og formål."
+    },
+    {
+      "id": "q09",
+      "text": "Hva kartlegger Ungdata?",
+      "options": [
+        "Hvordan ungdom har det",
+        "Boligpriser",
+        "Valgresultater",
+        "Været"
+      ],
+      "correct": 0,
+      "explain": "Venner, skole, fritid og helse."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan en graf villede?",
+      "options": [
+        "Ved å ha farger",
+        "Ved at aksen ikke starter på null",
+        "Ved å ha tittel",
+        "Ved å vise tall"
+      ],
+      "correct": 1,
+      "explain": "Små forskjeller ser store ut."
+    }
   ],
   "mindmap": {
     "label": "Kilder",
     "children": [
-      { "label": "Kildetyper", "children": [
-        { "label": "SSB og Ungdata" },
-        { "label": "NOU og forskning" },
-        { "label": "Medier og sosiale medier" }
-      ] },
-      { "label": "Kildekritikk", "children": [
-        { "label": "Hvem og hvorfor" },
-        { "label": "Når og hvordan" },
-        { "label": "Fakta eller mening" }
-      ] },
-      { "label": "Presse", "children": [
-        { "label": "Vær Varsom-plakaten" },
-        { "label": "PFU" }
-      ] },
-      { "label": "Statistikk", "children": [
-        { "label": "Median og gjennomsnitt" },
-        { "label": "Prosentpoeng" },
-        { "label": "Villedende grafer" }
-      ] },
-      { "label": "Desinformasjon", "children": [
-        { "label": "Tegn på falske saker" },
-        { "label": "Faktasjekk" }
-      ] }
+      {
+        "label": "Kildetyper",
+        "children": [
+          {
+            "label": "SSB og Ungdata"
+          },
+          {
+            "label": "NOU og forskning"
+          },
+          {
+            "label": "Medier og sosiale medier"
+          }
+        ]
+      },
+      {
+        "label": "Kildekritikk",
+        "children": [
+          {
+            "label": "Hvem og hvorfor"
+          },
+          {
+            "label": "Når og hvordan"
+          },
+          {
+            "label": "Fakta eller mening"
+          }
+        ]
+      },
+      {
+        "label": "Presse",
+        "children": [
+          {
+            "label": "Vær Varsom-plakaten"
+          },
+          {
+            "label": "PFU"
+          }
+        ]
+      },
+      {
+        "label": "Statistikk",
+        "children": [
+          {
+            "label": "Median og gjennomsnitt"
+          },
+          {
+            "label": "Prosentpoeng"
+          },
+          {
+            "label": "Villedende grafer"
+          }
+        ]
+      },
+      {
+        "label": "Desinformasjon",
+        "children": [
+          {
+            "label": "Tegn på falske saker"
+          },
+          {
+            "label": "Faktasjekk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Interesseorganisasjoner kan ha god kunnskap, men arbeider for bestemte saker.", "correct": true, "explain": "Vurder formålet." },
-      { "id": "m02", "type": "sant-usant", "text": "At to forhold henger sammen, beviser at det ene forårsaker det andre.", "correct": false, "explain": "Sammenheng er ikke årsak." },
-      { "id": "m03", "type": "sant-usant", "text": "Sosiale medier har ikke samme redaksjonelle kontroll som redaktørstyrte medier.", "correct": true, "explain": "Vær derfor ekstra kritisk." },
-      { "id": "m04", "type": "sant-usant", "text": "En kilde som mangler kildehenvisninger, er alltid pålitelig.", "correct": false, "explain": "Manglende kilder er et varselsignal." },
-      { "id": "m05", "type": "flervalg", "text": "Hva gjør Faktisk.no?", "options": ["Lager statistikk", "Sjekker påstander i offentligheten", "Skriver lover", "Driver meningsmålinger"], "correct": 1, "explain": "Faktasjekk." },
-      { "id": "m06", "type": "flervalg", "text": "Hva bør en god analyse av et samfunnsspørsmål inneholde?", "options": ["Fakta, teori, drøfting og begrunnet konklusjon", "Bare egne meninger", "Bare én kilde", "Bare statistikk"], "correct": 0, "explain": "Med tydelige kildehenvisninger." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål handler om metode?", "options": ["Hvem står bak?", "Når ble den laget?", "Hvordan er kunnskapen framskaffet?", "Hvem liker den?"], "correct": 2, "explain": "Utvalg og framgangsmåte." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Interesseorganisasjoner kan ha god kunnskap, men arbeider for bestemte saker.",
+        "correct": true,
+        "explain": "Vurder formålet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "At to forhold henger sammen, beviser at det ene forårsaker det andre.",
+        "correct": false,
+        "explain": "Sammenheng er ikke årsak."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Sosiale medier har ikke samme redaksjonelle kontroll som redaktørstyrte medier.",
+        "correct": true,
+        "explain": "Vær derfor ekstra kritisk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En kilde som mangler kildehenvisninger, er alltid pålitelig.",
+        "correct": false,
+        "explain": "Manglende kilder er et varselsignal."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva gjør Faktisk.no?",
+        "options": [
+          "Lager statistikk",
+          "Sjekker påstander i offentligheten",
+          "Skriver lover",
+          "Driver meningsmålinger"
+        ],
+        "correct": 1,
+        "explain": "Faktasjekk."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva bør en god analyse av et samfunnsspørsmål inneholde?",
+        "options": [
+          "Fakta, teori, drøfting og begrunnet konklusjon",
+          "Bare egne meninger",
+          "Bare én kilde",
+          "Bare statistikk"
+        ],
+        "correct": 0,
+        "explain": "Med tydelige kildehenvisninger."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket spørsmål handler om metode?",
+        "options": [
+          "Hvem står bak?",
+          "Når ble den laget?",
+          "Hvordan er kunnskapen framskaffet?",
+          "Hvem liker den?"
+        ],
+        "correct": 2,
+        "explain": "Utvalg og framgangsmåte."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva er forskjellen på en NOU og en stortingsmelding når du undersøker et samfunnsspørsmål?",
+        "fasit": "En NOU er en grundig offentlig utredning som ofte kan ligge til grunn for nye lover og reformer. En stortingsmelding viser regjeringens politikk.",
+        "kriterier": [
+          "Forklarer at en NOU er en grundig utredning og ofte grunnlag for lover eller reformer.",
+          "Forklarer at en stortingsmelding viser regjeringens politikk."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I en undersøkelse ser man at skolefravær og helseplager blant ungdom øker samtidig. Hvorfor er ikke dette nok til å slå fast at skolefravær forårsaker helseplagene?",
+        "fasit": "At to forhold øker samtidig, viser en sammenheng, men ikke nødvendigvis at det ene forårsaker det andre. Det kan være andre forklaringer, og man trenger mer kunnskap for å fastslå årsak.",
+        "kriterier": [
+          "Skiller mellom at to forhold henger sammen og at det ene forårsaker det andre.",
+          "Viser at det kan finnes andre forklaringer, eller at mer kunnskap trengs for å fastslå årsak."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "To personer deler den samme uriktige påstanden: Den ene tror påstanden er sann, mens den andre vet at den er falsk. Hvem sprer desinformasjon, og hvem sprer feilinformasjon? Begrunn svaret.",
+        "fasit": "Personen som vet at påstanden er falsk, sprer desinformasjon fordi informasjonen deles bevisst. Personen som tror påstanden er sann, sprer feilinformasjon fordi det skjer uten vilje til å villede.",
+        "kriterier": [
+          "Knytter desinformasjon til at personen bevisst sprer noe falskt eller villedende.",
+          "Knytter feilinformasjon til at feilen spres uten vilje til å villede."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du finner en rapport om ungdoms levekår som ble laget for en tid tilbake. Rapporten sier lite om hvordan kunnskapen ble samlet inn. Hvilke to forhold bør du undersøke før du bruker rapporten, og hvorfor?",
+        "fasit": "Jeg bør undersøke når rapporten ble laget, fordi eldre kunnskap kan være mindre oppdatert. Jeg bør også finne ut hvordan undersøkelsen ble gjennomført og hvem som deltok, for å vurdere hva resultatene kan si noe om.",
+        "kriterier": [
+          "Tar opp når rapporten ble laget og knytter tidspunktet til hvor oppdatert kunnskapen er.",
+          "Tar opp metode eller hvem som deltok, og forklarer at dette har betydning for hvordan resultatene kan vurderes."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En interesseorganisasjon publiserer informasjon om saken den arbeider for. Forklar hvordan informasjonen kan være nyttig, og hvorfor du bør sammenligne den med andre kilder.",
+        "fasit": "Organisasjonen kan ha god kunnskap om saken den arbeider for. Samtidig har den bestemte interesser, så det er viktig å sammenligne informasjonen med andre kilder før man trekker konklusjoner.",
+        "kriterier": [
+          "Forklarer at interesseorganisasjonen kan ha relevant kunnskap om saken.",
+          "Knytter organisasjonens interesser til behovet for å kontrollere eller sammenligne informasjonen med andre kilder."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Du skal undersøke en aktuell sak og finner både en reportasje i et redaktørstyrt medium og et innlegg om saken i sosiale medier. Forklar én viktig forskjell på hvordan disse kildene kvalitetssikres.",
+        "fasit": "Redaktørstyrte medier følger Vær Varsom-plakaten, som blant annet krever at kilder kontrolleres, og at den som angripes, får svare. Sosiale medier har ikke de samme redaksjonelle rutinene.",
+        "kriterier": [
+          "Nevner minst én relevant rutine i redaktørstyrte medier, som kildekontroll eller retten til å svare.",
+          "Forklarer at slike redaksjonelle rutiner ikke finnes på samme måte i sosiale medier."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En rapport fastslår at en gruppe har fått lavere inntekt. En kommentator sier at utviklingen er urettferdig. Hvilken påstand er en beskrivelse av fakta, og hvilken er en mening? Forklar forskjellen.",
+        "fasit": "Påstanden om at gruppen har fått lavere inntekt, beskriver et forhold som kan undersøkes med fakta. At utviklingen er urettferdig, er en vurdering eller mening.",
+        "kriterier": [
+          "Identifiserer påstanden om lavere inntekt som en faktapåstand som kan undersøkes.",
+          "Identifiserer «urettferdig» som en vurdering eller mening, ikke et rent faktum."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du skal analysere inkludering i samfunnet. Beskriv hvordan du kan bruke kilder og fagkunnskap for å komme fram til en begrunnet konklusjon.",
+        "fasit": "Jeg vil samle kilder med ulike perspektiver og vurdere kvaliteten på dem. Fakta og statistikk kan beskrive situasjonen, mens teori kan hjelpe med å forklare den; deretter drøfter jeg ulike syn, konkluderer begrunnet og oppgir kildene tydelig.",
+        "kriterier": [
+          "Beskriver bruk av flere perspektiver og vurdering av kildenes kvalitet.",
+          "Forklarer hvordan fakta eller statistikk kan beskrive situasjonen, og teori kan bidra til å forklare den.",
+          "Viser til drøfting av ulike syn, en begrunnet konklusjon eller tydelig kildeoppgivelse."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

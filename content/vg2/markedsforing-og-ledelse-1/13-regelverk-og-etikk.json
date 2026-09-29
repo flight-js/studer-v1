@@ -4,78 +4,425 @@
   "trinnId": "vg2",
   "name": "Regelverk og etikk i markedsføring",
   "intro": "Hovedreglene i markedsføringsloven – god markedsføringsskikk, forbud mot villedende og aggressiv markedsføring, merking av reklame, vern av barn og regler for e-post og telefonsalg – andre reklameforbud, Forbrukertilsynet og virksomhetens etiske ansvar.",
-  "kompetansemaal": [13],
+  "kompetansemaal": [
+    13
+  ],
   "sammendrag": "## Hvorfor regler for markedsføring?\n\nMarkedsføring kan påvirke oss sterkt. Reglene skal **beskytte forbrukerne** mot villedende og aggressiv påvirkning og sørge for **rettferdig konkurranse** mellom virksomhetene. Den viktigste loven er **markedsføringsloven**.\n\n## God markedsføringsskikk\n\nMarkedsføring skal ikke stride mot **god markedsføringsskikk**. Den skal ikke være **støtende**, og den skal ikke framstille kvinner eller menn på en **nedsettende** måte eller bidra til et **kroppspress** som kan skade.\n\nReklame der en persons **kroppsfasong**, **størrelse** eller **hud** er endret ved **retusjering**, skal **merkes** med et eget merke.\n\n## Reklame skal se ut som reklame\n\nMarkedsføring skal **tydelig** framstå som markedsføring. **Skjult reklame** er forbudt. **Påvirkere** som får betalt, produkter eller andre fordeler for å omtale noe, må **merke** innlegget tydelig som **reklame** eller **annonse** – helt i **starten**, slik at følgerne ser det med en gang.\n\n## Forbud mot urimelig handelspraksis\n\n- **Villedende** markedsføring: å gi **uriktige** opplysninger eller skjule viktig informasjon om pris, egenskaper eller vilkår. Eksempler er falske **førpriser** og påstander om at tilbudet «bare gjelder i dag» når det ikke stemmer.\n- **Aggressiv** markedsføring: **press**, **trakassering** eller **tvang**, for eksempel gjentatte og påtrengende henvendelser.\n\n## Vern av barn\n\nBarn er ekstra **sårbare** for påvirkning. Markedsføring rettet mot barn skal ta hensyn til **alderen** deres, og det er forbudt å oppfordre barn **direkte** til å kjøpe eller til å mase på foreldrene. **Skolen** skal være mest mulig **reklamefri**.\n\n## E-post, SMS og telefonsalg\n\n- Markedsføring på **e-post** og **SMS** til forbrukere krever som hovedregel **forhåndssamtykke**. Mottakeren skal alltid enkelt kunne **reservere** seg.\n- Virksomheter kan ikke ringe forbrukere som har registrert seg i **Reservasjonsregisteret**, med mindre det finnes et kundeforhold eller samtykke.\n\n## Andre regler\n\n- **Alkoholreklame** og **tobakksreklame** er i hovedsak **forbudt** i Norge.\n- **Personvernregelverket** setter krav til innsamling og bruk av **persondata** – for eksempel ved målrettet reklame.\n- Påstander om **miljø** og **helse** må kunne **dokumenteres**.\n\n## Tilsyn\n\n**Forbrukertilsynet** fører tilsyn med markedsføringsloven. Tilsynet kan gi **veiledning**, kreve at ulovlig markedsføring **stanses**, og ilegge **tvangsmulkt** og **overtredelsesgebyr**.\n\n## Etisk ansvar\n\n**Ikke alt som er lovlig, er etisk.** Virksomheter har et **samfunnsansvar** som går lenger enn loven:\n\n- å være **ærlige** og ikke love mer enn produktet holder\n- å ta hensyn til **sårbare** grupper, som barn og personer med spilleproblemer\n- å unngå å skape **kroppspress** og **kjøpepress**\n- å bruke **persondata** på en måte kundene kan stole på\n- å unngå **manipulerende design**, som skjulte avbestillingsknapper eller falske nedtellingsklokker\n\nEtisk markedsføring gir **tillit**, og tillit er et viktig **konkurransefortrinn** på lang sikt. Brudd på reglene kan gi både **bøter** og **omdømmetap**.",
   "flashcards": [
-    { "term": "Markedsføringsloven", "def": "Den viktigste loven om markedsføring i Norge." },
-    { "term": "God markedsføringsskikk", "def": "Markedsføring skal ikke være støtende, nedsettende eller skadelig." },
-    { "term": "Retusjert reklame", "def": "Reklame med endret kropp eller hud skal merkes." },
-    { "term": "Skjult reklame", "def": "Markedsføring som ikke framstår tydelig som reklame – forbudt." },
-    { "term": "Merking av reklame", "def": "Påvirkere må merke betalte innlegg som reklame helt i starten." },
-    { "term": "Villedende markedsføring", "def": "Uriktige eller skjulte opplysninger om pris, egenskaper eller vilkår." },
-    { "term": "Aggressiv markedsføring", "def": "Press, trakassering eller tvang." },
-    { "term": "Falsk førpris", "def": "Oppdiktet «før»-pris som får tilbudet til å virke bedre." },
-    { "term": "Vern av barn", "def": "Forbud mot å oppfordre barn direkte til å kjøpe." },
-    { "term": "Forhåndssamtykke", "def": "Kreves som hovedregel for markedsføring på e-post og SMS." },
-    { "term": "Reservasjonsregisteret", "def": "Register der forbrukere kan reservere seg mot telefonsalg." },
-    { "term": "Alkoholreklame", "def": "I hovedsak forbudt i Norge." },
-    { "term": "Forbrukertilsynet", "def": "Fører tilsyn med markedsføringsloven." },
-    { "term": "Overtredelsesgebyr", "def": "Bot tilsynet kan gi ved brudd på loven." },
-    { "term": "Samfunnsansvar", "def": "Ansvar som går lenger enn det loven krever." },
-    { "term": "Manipulerende design", "def": "Nettsider som lurer brukeren, for eksempel med skjulte knapper." }
+    {
+      "term": "Markedsføringsloven",
+      "def": "Den viktigste loven om markedsføring i Norge."
+    },
+    {
+      "term": "God markedsføringsskikk",
+      "def": "Markedsføring skal ikke være støtende, nedsettende eller skadelig."
+    },
+    {
+      "term": "Retusjert reklame",
+      "def": "Reklame med endret kropp eller hud skal merkes."
+    },
+    {
+      "term": "Skjult reklame",
+      "def": "Markedsføring som ikke framstår tydelig som reklame – forbudt."
+    },
+    {
+      "term": "Merking av reklame",
+      "def": "Påvirkere må merke betalte innlegg som reklame helt i starten."
+    },
+    {
+      "term": "Villedende markedsføring",
+      "def": "Uriktige eller skjulte opplysninger om pris, egenskaper eller vilkår."
+    },
+    {
+      "term": "Aggressiv markedsføring",
+      "def": "Press, trakassering eller tvang."
+    },
+    {
+      "term": "Falsk førpris",
+      "def": "Oppdiktet «før»-pris som får tilbudet til å virke bedre."
+    },
+    {
+      "term": "Vern av barn",
+      "def": "Forbud mot å oppfordre barn direkte til å kjøpe."
+    },
+    {
+      "term": "Forhåndssamtykke",
+      "def": "Kreves som hovedregel for markedsføring på e-post og SMS."
+    },
+    {
+      "term": "Reservasjonsregisteret",
+      "def": "Register der forbrukere kan reservere seg mot telefonsalg."
+    },
+    {
+      "term": "Alkoholreklame",
+      "def": "I hovedsak forbudt i Norge."
+    },
+    {
+      "term": "Forbrukertilsynet",
+      "def": "Fører tilsyn med markedsføringsloven."
+    },
+    {
+      "term": "Overtredelsesgebyr",
+      "def": "Bot tilsynet kan gi ved brudd på loven."
+    },
+    {
+      "term": "Samfunnsansvar",
+      "def": "Ansvar som går lenger enn det loven krever."
+    },
+    {
+      "term": "Manipulerende design",
+      "def": "Nettsider som lurer brukeren, for eksempel med skjulte knapper."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er formålet med markedsføringsloven?", "options": ["Å øke salget", "Å beskytte forbrukerne og sikre rettferdig konkurranse", "Å forby all reklame", "Å fastsette priser"], "correct": 1, "explain": "Den viktigste loven på området." },
-    { "id": "q02", "text": "Hva må en påvirker gjøre ved et betalt samarbeid?", "options": ["Merke innlegget tydelig som reklame helt i starten", "Ingenting", "Bare nevne det i kommentarfeltet", "Skjule samarbeidet"], "correct": 0, "explain": "Skjult reklame er forbudt." },
-    { "id": "q03", "text": "Hva er villedende markedsføring?", "options": ["Reklame med humor", "Reklame på TV", "Uriktige eller skjulte opplysninger om pris eller egenskaper", "Reklame med kjente personer"], "correct": 2, "explain": "For eksempel falske førpriser." },
-    { "id": "q04", "text": "Hva må merkes i reklame der kroppen er endret ved retusjering?", "options": ["Prisen", "Produsenten", "Fotografen", "At reklamen er retusjert"], "correct": 3, "explain": "Regelen skal motvirke kroppspress." },
-    { "id": "q05", "text": "Hva krever markedsføring på e-post til forbrukere som hovedregel?", "options": ["Forhåndssamtykke", "At e-posten er kort", "At den sendes om natta", "Ingenting"], "correct": 0, "explain": "Mottakeren skal også kunne reservere seg." },
-    { "id": "q06", "text": "Hvem fører tilsyn med markedsføringsloven?", "options": ["Datatilsynet", "Forbrukertilsynet", "Arbeidstilsynet", "Politiet"], "correct": 1, "explain": "Kan gi overtredelsesgebyr." },
-    { "id": "q07", "text": "Hva er forbudt i markedsføring rettet mot barn?", "options": ["Å bruke farger", "Å vise leker", "Å oppfordre barn direkte til å kjøpe", "Å bruke tegnefigurer"], "correct": 2, "explain": "Barn er ekstra sårbare." },
-    { "id": "q08", "text": "Hva er aggressiv markedsføring?", "options": ["Høy musikk i butikken", "Store plakater", "Lave priser", "Press, trakassering eller tvang"], "correct": 3, "explain": "Forbudt som urimelig handelspraksis." },
-    { "id": "q09", "text": "Hva betyr «ikke alt som er lovlig, er etisk»?", "options": ["At virksomheter har et ansvar som går lenger enn loven", "At loven ikke gjelder", "At etikk er ulovlig", "At alt er lov"], "correct": 0, "explain": "Samfunnsansvar." },
-    { "id": "q10", "text": "Hva er et eksempel på manipulerende design?", "options": ["En tydelig kjøpsknapp", "En skjult avbestillingsknapp", "En oversiktlig meny", "En prisliste"], "correct": 1, "explain": "Lurer brukeren." }
+    {
+      "id": "q01",
+      "text": "Hva er formålet med markedsføringsloven?",
+      "options": [
+        "Å øke salget",
+        "Å beskytte forbrukerne og sikre rettferdig konkurranse",
+        "Å forby all reklame",
+        "Å fastsette priser"
+      ],
+      "correct": 1,
+      "explain": "Den viktigste loven på området."
+    },
+    {
+      "id": "q02",
+      "text": "Hva må en påvirker gjøre ved et betalt samarbeid?",
+      "options": [
+        "Merke innlegget tydelig som reklame helt i starten",
+        "Ingenting",
+        "Bare nevne det i kommentarfeltet",
+        "Skjule samarbeidet"
+      ],
+      "correct": 0,
+      "explain": "Skjult reklame er forbudt."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er villedende markedsføring?",
+      "options": [
+        "Reklame med humor",
+        "Reklame på TV",
+        "Uriktige eller skjulte opplysninger om pris eller egenskaper",
+        "Reklame med kjente personer"
+      ],
+      "correct": 2,
+      "explain": "For eksempel falske førpriser."
+    },
+    {
+      "id": "q04",
+      "text": "Hva må merkes i reklame der kroppen er endret ved retusjering?",
+      "options": [
+        "Prisen",
+        "Produsenten",
+        "Fotografen",
+        "At reklamen er retusjert"
+      ],
+      "correct": 3,
+      "explain": "Regelen skal motvirke kroppspress."
+    },
+    {
+      "id": "q05",
+      "text": "Hva krever markedsføring på e-post til forbrukere som hovedregel?",
+      "options": [
+        "Forhåndssamtykke",
+        "At e-posten er kort",
+        "At den sendes om natta",
+        "Ingenting"
+      ],
+      "correct": 0,
+      "explain": "Mottakeren skal også kunne reservere seg."
+    },
+    {
+      "id": "q06",
+      "text": "Hvem fører tilsyn med markedsføringsloven?",
+      "options": [
+        "Datatilsynet",
+        "Forbrukertilsynet",
+        "Arbeidstilsynet",
+        "Politiet"
+      ],
+      "correct": 1,
+      "explain": "Kan gi overtredelsesgebyr."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er forbudt i markedsføring rettet mot barn?",
+      "options": [
+        "Å bruke farger",
+        "Å vise leker",
+        "Å oppfordre barn direkte til å kjøpe",
+        "Å bruke tegnefigurer"
+      ],
+      "correct": 2,
+      "explain": "Barn er ekstra sårbare."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er aggressiv markedsføring?",
+      "options": [
+        "Høy musikk i butikken",
+        "Store plakater",
+        "Lave priser",
+        "Press, trakassering eller tvang"
+      ],
+      "correct": 3,
+      "explain": "Forbudt som urimelig handelspraksis."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «ikke alt som er lovlig, er etisk»?",
+      "options": [
+        "At virksomheter har et ansvar som går lenger enn loven",
+        "At loven ikke gjelder",
+        "At etikk er ulovlig",
+        "At alt er lov"
+      ],
+      "correct": 0,
+      "explain": "Samfunnsansvar."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et eksempel på manipulerende design?",
+      "options": [
+        "En tydelig kjøpsknapp",
+        "En skjult avbestillingsknapp",
+        "En oversiktlig meny",
+        "En prisliste"
+      ],
+      "correct": 1,
+      "explain": "Lurer brukeren."
+    }
   ],
   "mindmap": {
     "label": "Regelverk og etikk",
     "children": [
-      { "label": "Markedsføringsloven", "children": [
-        { "label": "God markedsføringsskikk" },
-        { "label": "Villedende og aggressiv" },
-        { "label": "Retusjering" }
-      ] },
-      { "label": "Merking", "children": [
-        { "label": "Skjult reklame forbudt" },
-        { "label": "Påvirkere" }
-      ] },
-      { "label": "Særlige regler", "children": [
-        { "label": "Barn" },
-        { "label": "E-post og telefon" },
-        { "label": "Alkohol og tobakk" }
-      ] },
-      { "label": "Tilsyn", "children": [
-        { "label": "Forbrukertilsynet" },
-        { "label": "Gebyr og mulkt" }
-      ] },
-      { "label": "Etikk", "children": [
-        { "label": "Ærlighet" },
-        { "label": "Sårbare grupper" },
-        { "label": "Tillit" }
-      ] }
+      {
+        "label": "Markedsføringsloven",
+        "children": [
+          {
+            "label": "God markedsføringsskikk"
+          },
+          {
+            "label": "Villedende og aggressiv"
+          },
+          {
+            "label": "Retusjering"
+          }
+        ]
+      },
+      {
+        "label": "Merking",
+        "children": [
+          {
+            "label": "Skjult reklame forbudt"
+          },
+          {
+            "label": "Påvirkere"
+          }
+        ]
+      },
+      {
+        "label": "Særlige regler",
+        "children": [
+          {
+            "label": "Barn"
+          },
+          {
+            "label": "E-post og telefon"
+          },
+          {
+            "label": "Alkohol og tobakk"
+          }
+        ]
+      },
+      {
+        "label": "Tilsyn",
+        "children": [
+          {
+            "label": "Forbrukertilsynet"
+          },
+          {
+            "label": "Gebyr og mulkt"
+          }
+        ]
+      },
+      {
+        "label": "Etikk",
+        "children": [
+          {
+            "label": "Ærlighet"
+          },
+          {
+            "label": "Sårbare grupper"
+          },
+          {
+            "label": "Tillit"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Miljøpåstander i reklame må kunne dokumenteres.", "correct": true, "explain": "Ellers kan de være villedende." },
-      { "id": "m02", "type": "sant-usant", "text": "Alkoholreklame er fritt tillatt i Norge.", "correct": false, "explain": "Den er i hovedsak forbudt." },
-      { "id": "m03", "type": "sant-usant", "text": "Virksomheter kan som hovedregel ikke ringe forbrukere som står i Reservasjonsregisteret.", "correct": true, "explain": "Med unntak for kundeforhold og samtykke." },
-      { "id": "m04", "type": "sant-usant", "text": "Etisk markedsføring har ingen betydning for lønnsomheten.", "correct": false, "explain": "Tillit er et konkurransefortrinn." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken påstand kan være villedende?", "options": ["«Tilbudet gjelder bare i dag» når det varer i en måned", "«Pris 199 kr»", "«Laget i Norge» når det stemmer", "«Ny smak»"], "correct": 0, "explain": "Falsk tidsbegrensning." },
-      { "id": "m06", "type": "flervalg", "text": "Hva kan Forbrukertilsynet gjøre ved ulovlig markedsføring?", "options": ["Fengsle daglig leder", "Kreve stans og ilegge gebyr", "Stenge alle butikker i Norge", "Ingenting"], "correct": 1, "explain": "Også tvangsmulkt." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor gjelder det egne regler for markedsføring mot barn?", "options": ["Barn har mye penger", "Barn ser lite reklame", "Barn er ekstra sårbare for påvirkning", "Barn kan ikke lese"], "correct": 2, "explain": "De har vanskeligere for å gjennomskue reklame." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Miljøpåstander i reklame må kunne dokumenteres.",
+        "correct": true,
+        "explain": "Ellers kan de være villedende."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alkoholreklame er fritt tillatt i Norge.",
+        "correct": false,
+        "explain": "Den er i hovedsak forbudt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Virksomheter kan som hovedregel ikke ringe forbrukere som står i Reservasjonsregisteret.",
+        "correct": true,
+        "explain": "Med unntak for kundeforhold og samtykke."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Etisk markedsføring har ingen betydning for lønnsomheten.",
+        "correct": false,
+        "explain": "Tillit er et konkurransefortrinn."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken påstand kan være villedende?",
+        "options": [
+          "«Tilbudet gjelder bare i dag» når det varer i en måned",
+          "«Pris 199 kr»",
+          "«Laget i Norge» når det stemmer",
+          "«Ny smak»"
+        ],
+        "correct": 0,
+        "explain": "Falsk tidsbegrensning."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva kan Forbrukertilsynet gjøre ved ulovlig markedsføring?",
+        "options": [
+          "Fengsle daglig leder",
+          "Kreve stans og ilegge gebyr",
+          "Stenge alle butikker i Norge",
+          "Ingenting"
+        ],
+        "correct": 1,
+        "explain": "Også tvangsmulkt."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor gjelder det egne regler for markedsføring mot barn?",
+        "options": [
+          "Barn har mye penger",
+          "Barn ser lite reklame",
+          "Barn er ekstra sårbare for påvirkning",
+          "Barn kan ikke lese"
+        ],
+        "correct": 2,
+        "explain": "De har vanskeligere for å gjennomskue reklame."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En annonse viser kvinner på en nedsettende måte og bidrar til kroppspress. Forklar hvorfor dette kan være i strid med god markedsføringsskikk.",
+        "fasit": "Markedsføring skal ikke framstille kvinner eller menn på en nedsettende måte eller bidra til et kroppspress som kan skade. Derfor kan annonsen være i strid med god markedsføringsskikk.",
+        "kriterier": [
+          "Forklarer at markedsføring ikke skal være nedsettende.",
+          "Knytter kroppspress til at det kan være skadelig."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En nettbutikk skjuler en viktig avgift fram til kunden skal betale. En annen virksomhet sender gjentatte, påtrengende meldinger til en kunde. Sammenlign hvilken type urimelig markedsføring de to situasjonene viser.",
+        "fasit": "Nettbutikken bruker villedende markedsføring fordi viktig prisinformasjon er skjult. De gjentatte meldingene er aggressiv markedsføring fordi de er påtrengende.",
+        "kriterier": [
+          "Kjenner igjen skjult prisinformasjon som villedende markedsføring.",
+          "Kjenner igjen gjentatte, påtrengende henvendelser som aggressiv markedsføring."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En virksomhet vil sende reklame på SMS til en forbruker som ikke har samtykket. Den vil også ringe en annen forbruker som står i Reservasjonsregisteret, uten at de har et kundeforhold eller samtykke. Sammenlign reglene for de to situasjonene.",
+        "fasit": "SMS-reklame krever som hovedregel forhåndssamtykke, og mottakeren skal enkelt kunne reservere seg. Virksomheten kan ikke ringe personen i Reservasjonsregisteret når det ikke finnes et kundeforhold eller samtykke.",
+        "kriterier": [
+          "Får fram hovedregelen om forhåndssamtykke for SMS-reklame.",
+          "Får fram at registrering hindrer telefonsalg når unntakene ikke gjelder."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En virksomhet vil bruke påstanden «bra for helsen» i en annonse for et produkt, men har ikke dokumentasjon. Hva må virksomheten gjøre før den bruker påstanden?",
+        "fasit": "Påstander om helse må kunne dokumenteres. Virksomheten må derfor ha dokumentasjon som støtter påstanden før den bruker den i markedsføringen.",
+        "kriterier": [
+          "Nevner at helse- og miljøpåstander må kunne dokumenteres.",
+          "Knytter dokumentasjonen til at påstanden må støttes."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En markedsfører planlegger reklame for alkohol og tobakk i Norge. Hvilken hovedregel gjelder for denne typen reklame?",
+        "fasit": "Alkoholreklame og tobakksreklame er i hovedsak forbudt i Norge. Markedsføreren må derfor ta hensyn til dette for begge produkttypene.",
+        "kriterier": [
+          "Får fram at alkoholreklame i hovedsak er forbudt.",
+          "Får fram at tobakksreklame i hovedsak er forbudt."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En virksomhet vil rette en kampanje mot personer den vet har spilleproblemer. Bruk begrepet samfunnsansvar til å forklare hva virksomheten bør ta hensyn til.",
+        "fasit": "Samfunnsansvar betyr at virksomheten også tar ansvar utover det loven krever. Den bør ta hensyn til at personer med spilleproblemer er sårbare, og unngå markedsføring som utnytter sårbarheten deres.",
+        "kriterier": [
+          "Får fram at samfunnsansvar går lenger enn lovens krav.",
+          "Forklarer at virksomheten bør ta hensyn til sårbare personer med spilleproblemer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En virksomhet bruker ulovlig markedsføring. Nevn to ulike tiltak Forbrukertilsynet kan bruke overfor virksomheten.",
+        "fasit": "Forbrukertilsynet kan kreve at den ulovlige markedsføringen stanses. Tilsynet kan også ilegge tvangsmulkt eller overtredelsesgebyr.",
+        "kriterier": [
+          "Nevner at tilsynet kan kreve at markedsføringen stanses.",
+          "Nevner tvangsmulkt eller overtredelsesgebyr som et mulig tiltak."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvordan etisk markedsføring kan gi en virksomhet et konkurransefortrinn på lang sikt.",
+        "fasit": "Ærlig og ansvarlig markedsføring kan bygge tillit hos kundene. Tillit kan gjøre virksomheten mer attraktiv og dermed gi et konkurransefortrinn på lang sikt.",
+        "kriterier": [
+          "Knytter etisk markedsføring til tillit hos kundene.",
+          "Forklarer at tillit kan gi et konkurransefortrinn på lang sikt."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

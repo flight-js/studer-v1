@@ -4,77 +4,422 @@
   "trinnId": "vg3",
   "name": "Hinduisme, buddhisme og andre østlige tradisjoner",
   "intro": "Sentrale trekk ved hinduisme og buddhisme – samsara, karma og moksha, de fire edle sannhetene og den åttedelte veien – kort om sikhisme, konfutsianisme og daoisme, og en sammenligning av østlige og vestlige religiøse tradisjoner.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Hinduisme\n\n**Hinduisme** er en samlebetegnelse på mange tradisjoner som har vokst fram i **India** over flere tusen år. Den har **ingen grunnlegger** og ingen felles trosbekjennelse.\n\n- **Hellige skrifter**: de eldste er **Vedaene**. **Upanishadene** inneholder filosofiske tekster, og **Bhagavadgita** er en av de mest leste.\n- **Brahman** er den **altomfattende** virkeligheten, og **atman** er menneskets innerste **selv**. Ifølge mange hinduer er atman og brahman **ett**.\n- **Guder**: Mange guder dyrkes, blant dem **Brahma**, **Vishnu** og **Shiva**. Mange hinduer ser gudene som ulike **uttrykk** for det samme guddommelige.\n- **Samsara** er kretsløpet av fødsel, død og **gjenfødelse**. **Karma** er loven om at handlinger får **konsekvenser** for det neste livet. Målet er **moksha** – **frigjøring** fra kretsløpet.\n- **Dharma** er plikten og den rette måten å leve på.\n- **Puja** er tilbedelse hjemme eller i templet.\n\n**Kastesystemet** har historisk delt samfunnet i grupper med ulik status. Diskriminering på grunn av kaste er forbudt i Indias grunnlov, men har fortsatt betydning.\n\n## Buddhisme\n\n**Buddhismen** ble grunnlagt av **Siddharta Gautama** i Nord-India for rundt 2500 år siden. Han levde som prins, men forlot palasset etter å ha sett **alderdom**, **sykdom** og **død**. Etter lang meditasjon fikk han **oppvåkning** og ble kalt **Buddha** – «den oppvåknede».\n\n**De fire edle sannhetene**:\n\n1. Livet innebærer **lidelse**.\n2. Lidelsen skyldes **begjær** og tilknytning.\n3. Lidelsen kan **opphøre**.\n4. Veien dit er **den åttedelte veien** – rett forståelse, tanke, tale, handling, levemåte, innsats, oppmerksomhet og konsentrasjon.\n\nBuddhismen lærer at det ikke finnes et **fast selv** – **anatta** – og at alt er **forgjengelig**. Målet er **nirvana** – at lidelsen og gjenfødslene opphører.\n\nHovedretninger er **theravada**, **mahayana** og **vajrayana**, som den tibetanske buddhismen med **Dalai Lama**.\n\n## Sikhisme\n\n**Sikhismen** ble grunnlagt av **Guru Nanak** i **Punjab** rundt år **1500**. Sikhene tror på **én gud** og på **likeverd** mellom alle mennesker. Den hellige boken **Guru Granth Sahib** står i sentrum i tempelet – **gurdwaraen** – der alle kan spise gratis i **langar**, fellesmåltidet.\n\n## Kinesiske tradisjoner\n\n- **Konfutsianisme** bygger på læren til **Konfucius** og legger vekt på **harmoni**, **plikt**, respekt for **foreldre** og riktige **relasjoner**.\n- **Daoisme** handler om å leve i pakt med **dao** – «veien» – og naturens rytme. Symbolet **yin og yang** viser at motsetninger **utfyller** hverandre.\n\n## Østlige og vestlige tradisjoner\n\n| | Vestlige (abrahamittiske) | Østlige |\n|---|---|---|\n| Gud | én personlig gud | mange guder, en upersonlig virkelighet eller ingen gud |\n| Tid | lineær – fra skapelse til dommedag | syklisk – kretsløp og gjenfødelse |\n| Mål | frelse og evig liv | frigjøring eller harmoni |\n| Tekster | én avgrenset hellig bok | ofte mange tekster |\n\nSammenligningen er en **forenkling**. Det finnes stor **variasjon** innenfor alle tradisjonene, og mange tradisjoner har påvirket hverandre.",
   "flashcards": [
-    { "term": "Hinduisme", "def": "Samlebetegnelse på mange tradisjoner fra India uten én grunnlegger." },
-    { "term": "Vedaene", "def": "Hinduismens eldste hellige skrifter." },
-    { "term": "Bhagavadgita", "def": "En av de mest leste hinduistiske tekstene." },
-    { "term": "Brahman og atman", "def": "Den altomfattende virkeligheten og menneskets innerste selv." },
-    { "term": "Samsara", "def": "Kretsløpet av fødsel, død og gjenfødelse." },
-    { "term": "Karma", "def": "Loven om at handlinger får konsekvenser for det neste livet." },
-    { "term": "Moksha", "def": "Frigjøring fra kretsløpet i hinduismen." },
-    { "term": "Dharma", "def": "Plikten og den rette måten å leve på." },
-    { "term": "Buddha", "def": "«Den oppvåknede» – Siddharta Gautama." },
-    { "term": "De fire edle sannhetene", "def": "Lidelse, årsaken til lidelse, opphør av lidelse og veien dit." },
-    { "term": "Den åttedelte veien", "def": "Buddhismens vei ut av lidelsen." },
-    { "term": "Anatta", "def": "Læren om at det ikke finnes et fast selv." },
-    { "term": "Nirvana", "def": "At lidelsen og gjenfødslene opphører." },
-    { "term": "Guru Nanak", "def": "Grunnla sikhismen rundt år 1500." },
-    { "term": "Langar", "def": "Gratis fellesmåltid i sikhenes tempel." },
-    { "term": "Yin og yang", "def": "Daoistisk symbol for motsetninger som utfyller hverandre." }
+    {
+      "term": "Hinduisme",
+      "def": "Samlebetegnelse på mange tradisjoner fra India uten én grunnlegger."
+    },
+    {
+      "term": "Vedaene",
+      "def": "Hinduismens eldste hellige skrifter."
+    },
+    {
+      "term": "Bhagavadgita",
+      "def": "En av de mest leste hinduistiske tekstene."
+    },
+    {
+      "term": "Brahman og atman",
+      "def": "Den altomfattende virkeligheten og menneskets innerste selv."
+    },
+    {
+      "term": "Samsara",
+      "def": "Kretsløpet av fødsel, død og gjenfødelse."
+    },
+    {
+      "term": "Karma",
+      "def": "Loven om at handlinger får konsekvenser for det neste livet."
+    },
+    {
+      "term": "Moksha",
+      "def": "Frigjøring fra kretsløpet i hinduismen."
+    },
+    {
+      "term": "Dharma",
+      "def": "Plikten og den rette måten å leve på."
+    },
+    {
+      "term": "Buddha",
+      "def": "«Den oppvåknede» – Siddharta Gautama."
+    },
+    {
+      "term": "De fire edle sannhetene",
+      "def": "Lidelse, årsaken til lidelse, opphør av lidelse og veien dit."
+    },
+    {
+      "term": "Den åttedelte veien",
+      "def": "Buddhismens vei ut av lidelsen."
+    },
+    {
+      "term": "Anatta",
+      "def": "Læren om at det ikke finnes et fast selv."
+    },
+    {
+      "term": "Nirvana",
+      "def": "At lidelsen og gjenfødslene opphører."
+    },
+    {
+      "term": "Guru Nanak",
+      "def": "Grunnla sikhismen rundt år 1500."
+    },
+    {
+      "term": "Langar",
+      "def": "Gratis fellesmåltid i sikhenes tempel."
+    },
+    {
+      "term": "Yin og yang",
+      "def": "Daoistisk symbol for motsetninger som utfyller hverandre."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvem grunnla hinduismen?", "options": ["Buddha", "Den har ingen grunnlegger", "Guru Nanak", "Konfucius"], "correct": 1, "explain": "Den har vokst fram over flere tusen år." },
-    { "id": "q02", "text": "Hva er samsara?", "options": ["Kretsløpet av fødsel, død og gjenfødelse", "En gud", "En hellig bok", "Et tempel"], "correct": 0, "explain": "Målet er å bli fri fra det." },
-    { "id": "q03", "text": "Hva er karma?", "options": ["En type meditasjon", "En gud", "Loven om at handlinger får konsekvenser for det neste livet", "Et måltid"], "correct": 2, "explain": "Sentralt i både hinduisme og buddhisme." },
-    { "id": "q04", "text": "Hva sier den andre edle sannheten?", "options": ["Livet er bare lykke", "Lidelse finnes ikke", "Veien er meditasjon alene", "Lidelsen skyldes begjær og tilknytning"], "correct": 3, "explain": "Buddhas lære." },
-    { "id": "q05", "text": "Hva er anatta?", "options": ["Læren om at det ikke finnes et fast selv", "Den høyeste guden", "Et ritual", "En hellig elv"], "correct": 0, "explain": "Alt er forgjengelig." },
-    { "id": "q06", "text": "Hva er langar?", "options": ["En bønn", "Et gratis fellesmåltid i sikhenes tempel", "En pilegrimsreise", "En fest"], "correct": 1, "explain": "Uttrykk for likeverd." },
-    { "id": "q07", "text": "Hva legger konfutsianismen vekt på?", "options": ["Gjenfødelse", "Frelse", "Harmoni, plikt og riktige relasjoner", "Én personlig gud"], "correct": 2, "explain": "Respekt for foreldre er viktig." },
-    { "id": "q08", "text": "Hvordan skiller østlige tradisjoner seg ofte fra vestlige i synet på tid?", "options": ["De ser tiden som lineær", "De har ingen tid", "De ser tiden som slutt", "De ser tiden som syklisk"], "correct": 3, "explain": "Kretsløp og gjenfødelse." },
-    { "id": "q09", "text": "Hva er moksha?", "options": ["Frigjøring fra kretsløpet", "En gud", "En kaste", "En fest"], "correct": 0, "explain": "Målet i hinduismen." },
-    { "id": "q10", "text": "Hva betyr ordet Buddha?", "options": ["Den hellige", "Den oppvåknede", "Den første", "Den rike"], "correct": 1, "explain": "Siddharta Gautama fikk oppvåkning." }
+    {
+      "id": "q01",
+      "text": "Hvem grunnla hinduismen?",
+      "options": [
+        "Buddha",
+        "Den har ingen grunnlegger",
+        "Guru Nanak",
+        "Konfucius"
+      ],
+      "correct": 1,
+      "explain": "Den har vokst fram over flere tusen år."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er samsara?",
+      "options": [
+        "Kretsløpet av fødsel, død og gjenfødelse",
+        "En gud",
+        "En hellig bok",
+        "Et tempel"
+      ],
+      "correct": 0,
+      "explain": "Målet er å bli fri fra det."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er karma?",
+      "options": [
+        "En type meditasjon",
+        "En gud",
+        "Loven om at handlinger får konsekvenser for det neste livet",
+        "Et måltid"
+      ],
+      "correct": 2,
+      "explain": "Sentralt i både hinduisme og buddhisme."
+    },
+    {
+      "id": "q04",
+      "text": "Hva sier den andre edle sannheten?",
+      "options": [
+        "Livet er bare lykke",
+        "Lidelse finnes ikke",
+        "Veien er meditasjon alene",
+        "Lidelsen skyldes begjær og tilknytning"
+      ],
+      "correct": 3,
+      "explain": "Buddhas lære."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er anatta?",
+      "options": [
+        "Læren om at det ikke finnes et fast selv",
+        "Den høyeste guden",
+        "Et ritual",
+        "En hellig elv"
+      ],
+      "correct": 0,
+      "explain": "Alt er forgjengelig."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er langar?",
+      "options": [
+        "En bønn",
+        "Et gratis fellesmåltid i sikhenes tempel",
+        "En pilegrimsreise",
+        "En fest"
+      ],
+      "correct": 1,
+      "explain": "Uttrykk for likeverd."
+    },
+    {
+      "id": "q07",
+      "text": "Hva legger konfutsianismen vekt på?",
+      "options": [
+        "Gjenfødelse",
+        "Frelse",
+        "Harmoni, plikt og riktige relasjoner",
+        "Én personlig gud"
+      ],
+      "correct": 2,
+      "explain": "Respekt for foreldre er viktig."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan skiller østlige tradisjoner seg ofte fra vestlige i synet på tid?",
+      "options": [
+        "De ser tiden som lineær",
+        "De har ingen tid",
+        "De ser tiden som slutt",
+        "De ser tiden som syklisk"
+      ],
+      "correct": 3,
+      "explain": "Kretsløp og gjenfødelse."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er moksha?",
+      "options": [
+        "Frigjøring fra kretsløpet",
+        "En gud",
+        "En kaste",
+        "En fest"
+      ],
+      "correct": 0,
+      "explain": "Målet i hinduismen."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr ordet Buddha?",
+      "options": [
+        "Den hellige",
+        "Den oppvåknede",
+        "Den første",
+        "Den rike"
+      ],
+      "correct": 1,
+      "explain": "Siddharta Gautama fikk oppvåkning."
+    }
   ],
   "mindmap": {
     "label": "Østlige tradisjoner",
     "children": [
-      { "label": "Hinduisme", "children": [
-        { "label": "Brahman og atman" },
-        { "label": "Samsara og karma" },
-        { "label": "Moksha og dharma" }
-      ] },
-      { "label": "Buddhisme", "children": [
-        { "label": "Fire edle sannheter" },
-        { "label": "Åttedelte vei" },
-        { "label": "Anatta og nirvana" }
-      ] },
-      { "label": "Sikhisme", "children": [
-        { "label": "Guru Nanak" },
-        { "label": "Likeverd og langar" }
-      ] },
-      { "label": "Kina", "children": [
-        { "label": "Konfutsianisme" },
-        { "label": "Daoisme" }
-      ] },
-      { "label": "Sammenligning", "children": [
-        { "label": "Syklisk og lineær tid" },
-        { "label": "Frigjøring og frelse" }
-      ] }
+      {
+        "label": "Hinduisme",
+        "children": [
+          {
+            "label": "Brahman og atman"
+          },
+          {
+            "label": "Samsara og karma"
+          },
+          {
+            "label": "Moksha og dharma"
+          }
+        ]
+      },
+      {
+        "label": "Buddhisme",
+        "children": [
+          {
+            "label": "Fire edle sannheter"
+          },
+          {
+            "label": "Åttedelte vei"
+          },
+          {
+            "label": "Anatta og nirvana"
+          }
+        ]
+      },
+      {
+        "label": "Sikhisme",
+        "children": [
+          {
+            "label": "Guru Nanak"
+          },
+          {
+            "label": "Likeverd og langar"
+          }
+        ]
+      },
+      {
+        "label": "Kina",
+        "children": [
+          {
+            "label": "Konfutsianisme"
+          },
+          {
+            "label": "Daoisme"
+          }
+        ]
+      },
+      {
+        "label": "Sammenligning",
+        "children": [
+          {
+            "label": "Syklisk og lineær tid"
+          },
+          {
+            "label": "Frigjøring og frelse"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange hinduer ser gudene som ulike uttrykk for det samme guddommelige.", "correct": true, "explain": "Brahman er den altomfattende virkeligheten." },
-      { "id": "m02", "type": "sant-usant", "text": "Sikhismen er en polyteistisk religion.", "correct": false, "explain": "Sikhene tror på én gud." },
-      { "id": "m03", "type": "sant-usant", "text": "Diskriminering på grunn av kaste er forbudt i Indias grunnlov.", "correct": true, "explain": "Men kaste har fortsatt betydning." },
-      { "id": "m04", "type": "sant-usant", "text": "Buddhismen lærer at sjelen er fast og uforanderlig.", "correct": false, "explain": "Anatta – det finnes ikke et fast selv." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken retning er den tibetanske buddhismen en del av?", "options": ["Theravada", "Vajrayana", "Sunni", "Reform"], "correct": 1, "explain": "Med Dalai Lama." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr dao?", "options": ["Veien", "Guden", "Kongen", "Tempelet"], "correct": 0, "explain": "Å leve i pakt med naturens rytme." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilke tre guder er blant de mest kjente i hinduismen?", "options": ["Zevs, Hera og Apollon", "Odin, Tor og Frøy", "Brahma, Vishnu og Shiva", "Beaivi, Máttaráhkká og Uksáhkká"], "correct": 2, "explain": "Mange andre guder dyrkes også." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange hinduer ser gudene som ulike uttrykk for det samme guddommelige.",
+        "correct": true,
+        "explain": "Brahman er den altomfattende virkeligheten."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Sikhismen er en polyteistisk religion.",
+        "correct": false,
+        "explain": "Sikhene tror på én gud."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Diskriminering på grunn av kaste er forbudt i Indias grunnlov.",
+        "correct": true,
+        "explain": "Men kaste har fortsatt betydning."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Buddhismen lærer at sjelen er fast og uforanderlig.",
+        "correct": false,
+        "explain": "Anatta – det finnes ikke et fast selv."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken retning er den tibetanske buddhismen en del av?",
+        "options": [
+          "Theravada",
+          "Vajrayana",
+          "Sunni",
+          "Reform"
+        ],
+        "correct": 1,
+        "explain": "Med Dalai Lama."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr dao?",
+        "options": [
+          "Veien",
+          "Guden",
+          "Kongen",
+          "Tempelet"
+        ],
+        "correct": 0,
+        "explain": "Å leve i pakt med naturens rytme."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilke tre guder er blant de mest kjente i hinduismen?",
+        "options": [
+          "Zevs, Hera og Apollon",
+          "Odin, Tor og Frøy",
+          "Brahma, Vishnu og Shiva",
+          "Beaivi, Máttaráhkká og Uksáhkká"
+        ],
+        "correct": 2,
+        "explain": "Mange andre guder dyrkes også."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I hinduismen er Brahman den altomfattende virkeligheten, mens atman er menneskets innerste selv. Forklar hvordan mange hinduer forstår forholdet mellom Brahman og atman.",
+        "fasit": "Mange hinduer mener at atman og Brahman egentlig er ett. Atman er dermed knyttet til den altomfattende virkeligheten.",
+        "kriterier": [
+          "Forklarer at atman er menneskets innerste selv og Brahman den altomfattende virkeligheten.",
+          "Får fram at mange hinduer ser dem som ett."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Siddharta Gautama forlot palasset etter å ha sett alderdom, sykdom og død. Forklar hvilken rolle disse møtene spiller i fortellingen om at han ble Buddha.",
+        "fasit": "Møtene gjorde Siddharta kjent med alderdom, sykdom og død. Etter at han hadde sett dette, forlot han palasset, mediterte lenge og fikk oppvåkning.",
+        "kriterier": [
+          "Knytter møtene med alderdom, sykdom og død til at Siddharta forlot palasset.",
+          "Får fram at han senere fikk oppvåkning og ble kalt Buddha."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign målet moksha i hinduismen med målet nirvana i buddhismen. Hva skal man frigjøres fra eller få til i hver tradisjon?",
+        "fasit": "Moksha er frigjøring fra samsara, kretsløpet av fødsel, død og gjenfødelse. Nirvana betyr at lidelsen og gjenfødslene opphører.",
+        "kriterier": [
+          "Forklarer moksha som frigjøring fra samsara.",
+          "Forklarer nirvana som at lidelsen og gjenfødslene opphører."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En hindu vurderer hva som er plikten og den rette måten å leve på i en situasjon. Hvilket begrep beskriver dette, og hva betyr begrepet?",
+        "fasit": "Begrepet er dharma. Det betyr plikten og den rette måten å leve på.",
+        "kriterier": [
+          "Bruker begrepet dharma.",
+          "Forklarer at det handler om plikt og rett måte å leve på."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Vedaene, Upanishadene og Bhagavadgita er viktige hinduistiske tekster. Forklar én forskjell mellom hver av disse tekstene ut fra hvilken rolle de har.",
+        "fasit": "Vedaene er hinduismens eldste hellige skrifter. Upanishadene inneholder filosofiske tekster, mens Bhagavadgita er en av de mest leste hinduistiske tekstene.",
+        "kriterier": [
+          "Får fram at Vedaene er de eldste hellige skriftene.",
+          "Skiller mellom Upanishadenes filosofiske innhold og Bhagavadgitas utbredelse som en mye lest tekst."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I en gurdwara kan alle spise gratis sammen i langar. Forklar hvordan denne praksisen henger sammen med en sentral tanke i sikhismen.",
+        "fasit": "Sikhismen lærer at alle mennesker er likeverdige. At alle kan spise gratis sammen i langar, passer med denne tanken.",
+        "kriterier": [
+          "Nevner at sikhismen legger vekt på likeverd mellom alle mennesker.",
+          "Knytter langar, der alle kan spise gratis sammen, til likeverd."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Daoismen handler om å leve i pakt med dao, naturens rytme. Forklar hva yin og yang uttrykker, og hvordan det henger sammen med dette synet.",
+        "fasit": "Yin og yang viser at motsetninger utfyller hverandre. Dette passer med tanken om å leve i pakt med dao og naturens rytme.",
+        "kriterier": [
+          "Forklarer at yin og yang står for motsetninger som utfyller hverandre.",
+          "Knytter dette til dao eller naturens rytme."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign synet på gud i den enkle oversikten over østlige og vestlige tradisjoner. Hva er én typisk forskjell, og hvorfor må sammenligningen ikke forstås som en regel uten unntak?",
+        "fasit": "Vestlige, abrahamittiske tradisjoner beskrives ofte med én personlig gud, mens østlige tradisjoner kan ha mange guder, en upersonlig virkelighet eller ingen gud. Dette er en forenkling fordi det finnes stor variasjon innenfor tradisjonene.",
+        "kriterier": [
+          "Får fram en typisk forskjell mellom synet på gud i østlige og vestlige tradisjoner.",
+          "Forklarer at forskjellen er en forenkling fordi det er stor variasjon."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

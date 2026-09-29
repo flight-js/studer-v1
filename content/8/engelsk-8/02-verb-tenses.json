@@ -341,6 +341,80 @@
         "correct": 0,
         "explain": "“Every summer” shows a habit, so we use the present simple."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Compare “I read every evening” and “I am reading now.” Explain what each verb form tells us.",
+        "fasit": "“Read” is present simple and describes a habit. “Am reading” is present continuous and describes something happening now.",
+        "kriterier": [
+          "Explains that present simple is used for habits or routines.",
+          "Explains that present continuous is used for something happening now."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Explain the difference between “He watches” and “They watch.” Which subjects get -s in the present simple?",
+        "fasit": "In the present simple, the verb gets -s with he, she and it. “They” does not take -s, so we say “They watch.”",
+        "kriterier": [
+          "States that he, she and it take -s in the present simple.",
+          "Distinguishes this from subjects such as they, which do not take -s."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Give the past simple forms of “walk” and “take.” Explain how the form of a regular verb differs from an irregular verb.",
+        "fasit": "The past simple forms are “walked” and “took.” A regular verb adds -ed, while an irregular verb changes form and must be learned.",
+        "kriterier": [
+          "Gives “walked” and “took” as the correct past simple forms.",
+          "Explains that regular verbs add -ed but irregular verbs change form."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Explain why “I visited London last year” uses past simple, while “I have visited London” uses present perfect.",
+        "fasit": "“Last year” is a finished time, so the sentence uses past simple. The present perfect does not state a finished time and connects the past to the present.",
+        "kriterier": [
+          "Connects past simple with a finished, stated time.",
+          "Explains that present perfect links the past to the present and is not used with a finished time."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Someone started living in a place five years ago and still lives there. Write a present perfect sentence using “for,” and explain what “for” tells us.",
+        "fasit": "“I have lived here for five years.” “For five years” tells us how long the person has lived there, and the present perfect connects this past period to the present.",
+        "kriterier": [
+          "Uses have/has with a past participle in a sentence about something continuing to the present.",
+          "Explains that “for” gives the length of time."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "You decide right now to help someone. Another person has already planned to study tonight. Write a sentence for each situation using “will” and “be going to,” and explain why each form fits.",
+        "fasit": "“I’ll help you” uses will for a quick decision. “I’m going to study tonight” uses be going to for a plan.",
+        "kriterier": [
+          "Uses will for the decision made at that moment.",
+          "Uses be going to for the plan made earlier."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A meeting is already arranged for six o’clock. Write a sentence using the present continuous to describe it, and explain why this tense is suitable.",
+        "fasit": "“We are meeting at six.” The present continuous can describe a fixed arrangement.",
+        "kriterier": [
+          "Writes a suitable present continuous sentence with am/is/are and a verb ending in -ing.",
+          "Explains that the tense is used for fixed arrangements."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Correct “I am liking this song” and explain why the verb form needs to change.",
+        "fasit": "“I like this song.” “Like” is a stative verb and is rarely used in the present continuous.",
+        "kriterier": [
+          "Corrects the sentence to “I like this song.”",
+          "Explains that stative verbs such as “like” are rarely used with -ing."
+        ]
+      }
     ]
   },
   "kvalitet": {

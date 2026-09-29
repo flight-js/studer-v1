@@ -4,79 +4,429 @@
   "trinnId": "vg3",
   "name": "Religion, livssyn og sentrale fagbegreper",
   "intro": "Hva religion og livssyn er, ulike måter å definere religion på, religionens dimensjoner, innenfra- og utenfraperspektiv, sentrale fagbegreper i religion, filosofi og etikk – og hvordan du vurderer kilder til kunnskap om religioner og livssyn.",
-  "kompetansemaal": [7, 8],
+  "kompetansemaal": [
+    7,
+    8
+  ],
   "sammendrag": "## Hva er religion?\n\nDet finnes ingen definisjon av **religion** som alle er enige om. To hovedtyper:\n\n- **Substansielle** definisjoner sier hva religion **er**, for eksempel tro på noe **overnaturlig** – guder, ånder eller en hellig virkelighet.\n- **Funksjonelle** definisjoner sier hva religion **gjør**: gir **mening**, **fellesskap**, **identitet** og svar på store spørsmål.\n\nEn funksjonell definisjon kan også omfatte fotball eller politikk, mens en substansiell definisjon kan utelate retninger uten gud, som noen former for buddhisme.\n\n## Livssyn\n\nEt **livssyn** er en grunnleggende oppfatning av **virkeligheten**, **mennesket** og hva som er **viktig** i livet. Alle har et livssyn, enten det er **religiøst** eller **sekulært**. I Norge brukes ordet ofte om **ikke-religiøse** livssyn, som **humanisme**.\n\n## Religionens dimensjoner\n\nReligionsforskeren **Ninian Smart** beskrev religioner ut fra flere dimensjoner:\n\n- **Læren** – trosinnholdet\n- **Fortellingene** – myter og hellige fortellinger\n- **Etikken** – regler og verdier for livet\n- **Ritualene** – bønn, gudstjenester og overgangsriter\n- **Erfaringene** – opplevelser av det hellige\n- **Fellesskapet** – organisasjon og tilhørighet\n- **Det materielle** – bygninger, kunst, klær og symboler\n\nModellen gjør det lettere å **sammenligne** religioner.\n\n## Innenfra og utenfra\n\n- Et **innenfraperspektiv** er hvordan de **troende** selv forstår sin religion.\n- Et **utenfraperspektiv** er hvordan **forskere** eller andre beskriver den.\n\nBegge perspektivene er viktige. **Religionsvitenskapen** prøver å beskrive religioner **nøytralt** og **saklig**, uten å ta stilling til om de er **sanne**.\n\n## Sentrale fagbegreper\n\n- **Monoteisme**: tro på **én** gud. **Polyteisme**: tro på **mange** guder.\n- **Panteisme**: Gud er **i alt**.\n- **Ateisme**: tro på at det **ikke finnes** noen gud. **Agnostisisme**: at vi **ikke kan vite** om det finnes en gud.\n- **Sekularisering**: at religion får **mindre** betydning i samfunnet eller i folks liv.\n- **Fundamentalisme**: bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger.\n- **Etikk**: systematisk tenkning om hva som er **rett** og **galt**. **Moral**: de faktiske **normene** og handlingene.\n- **Metafysikk**: filosofisk tenkning om **virkelighetens** grunnleggende natur.\n\n## Kilder til kunnskap\n\n- **Hellige tekster**, som Bibelen og Koranen – men tekstene **tolkes** ulikt.\n- **Troende** og **trossamfunn** – viktige innenfrastemmer, men én troende kan ikke snakke for **alle**.\n- **Forskning**, fagbøker og leksikon\n- **Medier** og sosiale medier – ofte preget av **konflikt** og **forenklinger**\n\n## Kildekritikk\n\nSpør: **Hvem** står bak? Er det et **innenfra-** eller **utenfraperspektiv**? Hvilket **formål** har kilden? Representerer den **mange** eller **få**? Stemmer den med **andre** kilder?\n\nHusk at religioner er **mangfoldige**. Det finnes ikke én «ekte» versjon av kristendommen eller islam – troende lever og tolker religionen **ulikt**.",
   "flashcards": [
-    { "term": "Substansiell definisjon", "def": "Sier hva religion er, for eksempel tro på noe overnaturlig." },
-    { "term": "Funksjonell definisjon", "def": "Sier hva religion gjør, for eksempel gir mening og fellesskap." },
-    { "term": "Livssyn", "def": "Grunnleggende oppfatning av virkeligheten, mennesket og hva som er viktig." },
-    { "term": "Ninian Smart", "def": "Religionsforsker som beskrev religionens dimensjoner." },
-    { "term": "Innenfraperspektiv", "def": "Hvordan de troende selv forstår sin religion." },
-    { "term": "Utenfraperspektiv", "def": "Hvordan forskere og andre beskriver religionen." },
-    { "term": "Religionsvitenskap", "def": "Nøytral og saklig studie av religioner." },
-    { "term": "Monoteisme", "def": "Tro på én gud." },
-    { "term": "Polyteisme", "def": "Tro på mange guder." },
-    { "term": "Panteisme", "def": "Troen på at Gud er i alt." },
-    { "term": "Ateisme", "def": "Tro på at det ikke finnes noen gud." },
-    { "term": "Agnostisisme", "def": "Synet at vi ikke kan vite om det finnes en gud." },
-    { "term": "Sekularisering", "def": "At religion får mindre betydning i samfunnet." },
-    { "term": "Fundamentalisme", "def": "Bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger." },
-    { "term": "Etikk og moral", "def": "Etikk er tenkning om rett og galt, moral er de faktiske normene." },
-    { "term": "Metafysikk", "def": "Filosofisk tenkning om virkelighetens grunnleggende natur." }
+    {
+      "term": "Substansiell definisjon",
+      "def": "Sier hva religion er, for eksempel tro på noe overnaturlig."
+    },
+    {
+      "term": "Funksjonell definisjon",
+      "def": "Sier hva religion gjør, for eksempel gir mening og fellesskap."
+    },
+    {
+      "term": "Livssyn",
+      "def": "Grunnleggende oppfatning av virkeligheten, mennesket og hva som er viktig."
+    },
+    {
+      "term": "Ninian Smart",
+      "def": "Religionsforsker som beskrev religionens dimensjoner."
+    },
+    {
+      "term": "Innenfraperspektiv",
+      "def": "Hvordan de troende selv forstår sin religion."
+    },
+    {
+      "term": "Utenfraperspektiv",
+      "def": "Hvordan forskere og andre beskriver religionen."
+    },
+    {
+      "term": "Religionsvitenskap",
+      "def": "Nøytral og saklig studie av religioner."
+    },
+    {
+      "term": "Monoteisme",
+      "def": "Tro på én gud."
+    },
+    {
+      "term": "Polyteisme",
+      "def": "Tro på mange guder."
+    },
+    {
+      "term": "Panteisme",
+      "def": "Troen på at Gud er i alt."
+    },
+    {
+      "term": "Ateisme",
+      "def": "Tro på at det ikke finnes noen gud."
+    },
+    {
+      "term": "Agnostisisme",
+      "def": "Synet at vi ikke kan vite om det finnes en gud."
+    },
+    {
+      "term": "Sekularisering",
+      "def": "At religion får mindre betydning i samfunnet."
+    },
+    {
+      "term": "Fundamentalisme",
+      "def": "Bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger."
+    },
+    {
+      "term": "Etikk og moral",
+      "def": "Etikk er tenkning om rett og galt, moral er de faktiske normene."
+    },
+    {
+      "term": "Metafysikk",
+      "def": "Filosofisk tenkning om virkelighetens grunnleggende natur."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner en funksjonell definisjon av religion?", "options": ["Den sier hva religion er", "Den sier hva religion gjør, for eksempel gir mening og fellesskap", "Den handler bare om guder", "Den gjelder bare kristendom"], "correct": 1, "explain": "Kan også omfatte ikke-religiøse fenomener." },
-    { "id": "q02", "text": "Hva er et livssyn?", "options": ["En grunnleggende oppfatning av virkeligheten, mennesket og hva som er viktig", "Bare religiøs tro", "En politisk ideologi", "En type ritual"], "correct": 0, "explain": "Alle har et livssyn." },
-    { "id": "q03", "text": "Hva er et innenfraperspektiv?", "options": ["Hvordan forskere beskriver religionen", "Hvordan medier framstiller religionen", "Hvordan de troende selv forstår sin religion", "Hvordan staten ser på religionen"], "correct": 2, "explain": "Utenfraperspektivet er forskerens." },
-    { "id": "q04", "text": "Hva er agnostisisme?", "options": ["Tro på mange guder", "Tro på én gud", "Tro på at Gud er i alt", "Synet at vi ikke kan vite om det finnes en gud"], "correct": 3, "explain": "Skiller seg fra ateisme." },
-    { "id": "q05", "text": "Hva er sekularisering?", "options": ["At religion får mindre betydning i samfunnet", "At religion blir sterkere", "At en ny religion oppstår", "At staten innfører religion"], "correct": 0, "explain": "Et sentralt fagbegrep." },
-    { "id": "q06", "text": "Hvilken dimensjon hos Ninian Smart handler om bønn og gudstjenester?", "options": ["Læren", "Ritualene", "Etikken", "Det materielle"], "correct": 1, "explain": "Også overgangsriter." },
-    { "id": "q07", "text": "Hvorfor kan én troende ikke snakke for alle?", "options": ["Fordi troende lyver", "Fordi religioner ikke har medlemmer", "Fordi religioner er mangfoldige og tolkes ulikt", "Fordi bare prester vet"], "correct": 2, "explain": "Det finnes ikke én ekte versjon." },
-    { "id": "q08", "text": "Hva er forskjellen på etikk og moral?", "options": ["Det er det samme", "Moral er teori, etikk er praksis", "Etikk handler bare om religion", "Etikk er tenkning om rett og galt, moral er de faktiske normene"], "correct": 3, "explain": "Viktig fagbegrep." },
-    { "id": "q09", "text": "Hva prøver religionsvitenskapen å gjøre?", "options": ["Beskrive religioner nøytralt uten å ta stilling til om de er sanne", "Bevise at religioner er sanne", "Bevise at religioner er usanne", "Omvende folk"], "correct": 0, "explain": "Saklig og nøytralt." },
-    { "id": "q10", "text": "Hva er monoteisme?", "options": ["Tro på mange guder", "Tro på én gud", "Tro på ingen gud", "Tro på ånder"], "correct": 1, "explain": "For eksempel jødedom, kristendom og islam." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner en funksjonell definisjon av religion?",
+      "options": [
+        "Den sier hva religion er",
+        "Den sier hva religion gjør, for eksempel gir mening og fellesskap",
+        "Den handler bare om guder",
+        "Den gjelder bare kristendom"
+      ],
+      "correct": 1,
+      "explain": "Kan også omfatte ikke-religiøse fenomener."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er et livssyn?",
+      "options": [
+        "En grunnleggende oppfatning av virkeligheten, mennesket og hva som er viktig",
+        "Bare religiøs tro",
+        "En politisk ideologi",
+        "En type ritual"
+      ],
+      "correct": 0,
+      "explain": "Alle har et livssyn."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er et innenfraperspektiv?",
+      "options": [
+        "Hvordan forskere beskriver religionen",
+        "Hvordan medier framstiller religionen",
+        "Hvordan de troende selv forstår sin religion",
+        "Hvordan staten ser på religionen"
+      ],
+      "correct": 2,
+      "explain": "Utenfraperspektivet er forskerens."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er agnostisisme?",
+      "options": [
+        "Tro på mange guder",
+        "Tro på én gud",
+        "Tro på at Gud er i alt",
+        "Synet at vi ikke kan vite om det finnes en gud"
+      ],
+      "correct": 3,
+      "explain": "Skiller seg fra ateisme."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er sekularisering?",
+      "options": [
+        "At religion får mindre betydning i samfunnet",
+        "At religion blir sterkere",
+        "At en ny religion oppstår",
+        "At staten innfører religion"
+      ],
+      "correct": 0,
+      "explain": "Et sentralt fagbegrep."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken dimensjon hos Ninian Smart handler om bønn og gudstjenester?",
+      "options": [
+        "Læren",
+        "Ritualene",
+        "Etikken",
+        "Det materielle"
+      ],
+      "correct": 1,
+      "explain": "Også overgangsriter."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor kan én troende ikke snakke for alle?",
+      "options": [
+        "Fordi troende lyver",
+        "Fordi religioner ikke har medlemmer",
+        "Fordi religioner er mangfoldige og tolkes ulikt",
+        "Fordi bare prester vet"
+      ],
+      "correct": 2,
+      "explain": "Det finnes ikke én ekte versjon."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er forskjellen på etikk og moral?",
+      "options": [
+        "Det er det samme",
+        "Moral er teori, etikk er praksis",
+        "Etikk handler bare om religion",
+        "Etikk er tenkning om rett og galt, moral er de faktiske normene"
+      ],
+      "correct": 3,
+      "explain": "Viktig fagbegrep."
+    },
+    {
+      "id": "q09",
+      "text": "Hva prøver religionsvitenskapen å gjøre?",
+      "options": [
+        "Beskrive religioner nøytralt uten å ta stilling til om de er sanne",
+        "Bevise at religioner er sanne",
+        "Bevise at religioner er usanne",
+        "Omvende folk"
+      ],
+      "correct": 0,
+      "explain": "Saklig og nøytralt."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er monoteisme?",
+      "options": [
+        "Tro på mange guder",
+        "Tro på én gud",
+        "Tro på ingen gud",
+        "Tro på ånder"
+      ],
+      "correct": 1,
+      "explain": "For eksempel jødedom, kristendom og islam."
+    }
   ],
   "mindmap": {
     "label": "Religion og livssyn",
     "children": [
-      { "label": "Definisjoner", "children": [
-        { "label": "Substansiell" },
-        { "label": "Funksjonell" },
-        { "label": "Livssyn" }
-      ] },
-      { "label": "Dimensjoner", "children": [
-        { "label": "Lære og fortellinger" },
-        { "label": "Etikk og ritualer" },
-        { "label": "Erfaring, fellesskap, materielt" }
-      ] },
-      { "label": "Perspektiv", "children": [
-        { "label": "Innenfra" },
-        { "label": "Utenfra" }
-      ] },
-      { "label": "Fagbegreper", "children": [
-        { "label": "Mono-, poly-, panteisme" },
-        { "label": "Ateisme og agnostisisme" },
-        { "label": "Sekularisering" }
-      ] },
-      { "label": "Kilder", "children": [
-        { "label": "Hellige tekster" },
-        { "label": "Troende og forskning" },
-        { "label": "Kildekritikk" }
-      ] }
+      {
+        "label": "Definisjoner",
+        "children": [
+          {
+            "label": "Substansiell"
+          },
+          {
+            "label": "Funksjonell"
+          },
+          {
+            "label": "Livssyn"
+          }
+        ]
+      },
+      {
+        "label": "Dimensjoner",
+        "children": [
+          {
+            "label": "Lære og fortellinger"
+          },
+          {
+            "label": "Etikk og ritualer"
+          },
+          {
+            "label": "Erfaring, fellesskap, materielt"
+          }
+        ]
+      },
+      {
+        "label": "Perspektiv",
+        "children": [
+          {
+            "label": "Innenfra"
+          },
+          {
+            "label": "Utenfra"
+          }
+        ]
+      },
+      {
+        "label": "Fagbegreper",
+        "children": [
+          {
+            "label": "Mono-, poly-, panteisme"
+          },
+          {
+            "label": "Ateisme og agnostisisme"
+          },
+          {
+            "label": "Sekularisering"
+          }
+        ]
+      },
+      {
+        "label": "Kilder",
+        "children": [
+          {
+            "label": "Hellige tekster"
+          },
+          {
+            "label": "Troende og forskning"
+          },
+          {
+            "label": "Kildekritikk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Det finnes ingen definisjon av religion som alle er enige om.", "correct": true, "explain": "Substansielle og funksjonelle definisjoner har ulike svakheter." },
-      { "id": "m02", "type": "sant-usant", "text": "Medier gir alltid et balansert bilde av religioner.", "correct": false, "explain": "De er ofte preget av konflikt og forenklinger." },
-      { "id": "m03", "type": "sant-usant", "text": "Hellige tekster kan tolkes ulikt av troende.", "correct": true, "explain": "Derfor er religioner mangfoldige." },
-      { "id": "m04", "type": "sant-usant", "text": "Bare religiøse mennesker har et livssyn.", "correct": false, "explain": "Alle har et livssyn." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er panteisme?", "options": ["Tro på én gud", "Troen på at Gud er i alt", "Tro på ingen gud", "Tro på mange guder"], "correct": 1, "explain": "Gud og verden er ett." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er fundamentalisme?", "options": ["Bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger", "Tro på mange guder", "Sekularisering", "Religionsvitenskap"], "correct": 0, "explain": "Finnes i mange religioner." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken dimensjon omfatter kirker, moskeer og symboler?", "options": ["Læren", "Etikken", "Det materielle", "Erfaringene"], "correct": 2, "explain": "Bygninger, kunst og klær." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Det finnes ingen definisjon av religion som alle er enige om.",
+        "correct": true,
+        "explain": "Substansielle og funksjonelle definisjoner har ulike svakheter."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Medier gir alltid et balansert bilde av religioner.",
+        "correct": false,
+        "explain": "De er ofte preget av konflikt og forenklinger."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Hellige tekster kan tolkes ulikt av troende.",
+        "correct": true,
+        "explain": "Derfor er religioner mangfoldige."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Bare religiøse mennesker har et livssyn.",
+        "correct": false,
+        "explain": "Alle har et livssyn."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er panteisme?",
+        "options": [
+          "Tro på én gud",
+          "Troen på at Gud er i alt",
+          "Tro på ingen gud",
+          "Tro på mange guder"
+        ],
+        "correct": 1,
+        "explain": "Gud og verden er ett."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er fundamentalisme?",
+        "options": [
+          "Bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger",
+          "Tro på mange guder",
+          "Sekularisering",
+          "Religionsvitenskap"
+        ],
+        "correct": 0,
+        "explain": "Finnes i mange religioner."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken dimensjon omfatter kirker, moskeer og symboler?",
+        "options": [
+          "Læren",
+          "Etikken",
+          "Det materielle",
+          "Erfaringene"
+        ],
+        "correct": 2,
+        "explain": "Bygninger, kunst og klær."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En definisjon beskriver religion som tro på noe overnaturlig. En annen beskriver religion som noe som gir mening og fellesskap. Forklar hvilken type definisjon hver av dem er, og hva som skiller dem.",
+        "fasit": "Den første er substansiell fordi den sier hva religion er, med vekt på tro på noe overnaturlig. Den andre er funksjonell fordi den beskriver hva religion gjør for mennesker.",
+        "kriterier": [
+          "Knytter tro på noe overnaturlig til en substansiell definisjon og forklarer at den sier hva religion er.",
+          "Knytter mening eller fellesskap til en funksjonell definisjon og forklarer at den sier hva religion gjør."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En elev hevder at bare religiøse mennesker har et livssyn. Rett påstanden, og bruk humanisme som eksempel i forklaringen.",
+        "fasit": "Påstanden er feil, fordi alle har et livssyn, enten det er religiøst eller sekulært. Humanisme er et eksempel på et ikke-religiøst livssyn.",
+        "kriterier": [
+          "Forklarer at livssyn kan være både religiøst og sekulært, og at alle har et livssyn.",
+          "Bruker humanisme som eksempel på et ikke-religiøst livssyn."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En troende forteller at bønn gir en opplevelse av kontakt med det hellige. En forsker beskriver bønn som en del av religionen uten å vurdere om det hellige finnes. Forklar hvilket perspektiv hver av dem bruker, og hva som kjennetegner forskerens tilnærming.",
+        "fasit": "Den troende bruker et innenfraperspektiv, mens forskeren bruker et utenfraperspektiv. Forskeren forsøker å beskrive religionen nøytralt og saklig uten å ta stilling til om troen er sann.",
+        "kriterier": [
+          "Identifiserer den troendes beskrivelse som innenfraperspektiv og forskerens som utenfraperspektiv.",
+          "Forklarer at forskeren beskriver nøytralt og saklig uten å avgjøre om troen er sann."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person tror at det finnes mange guder. En annen tror at Gud er i alt. Forklar hvilket fagbegrep som passer til hvert syn, og hva som skiller synene.",
+        "fasit": "Tro på mange guder kalles polyteisme. Tro på at Gud er i alt, kalles panteisme; forskjellen er at det ene synet handler om mange guder, mens det andre handler om Guds nærvær i alt.",
+        "kriterier": [
+          "Knytter tro på mange guder til polyteisme.",
+          "Knytter troen på at Gud er i alt til panteisme og viser hva som skiller synene."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En person leser hellige tekster bokstavelig og avviser moderne tolkninger. Hvilket fagbegrep beskriver dette synet, og hvilke trekk ved situasjonen viser det?",
+        "fasit": "Dette beskrives som fundamentalisme. Personen leser hellige tekster bokstavelig og motsetter seg moderne tolkninger.",
+        "kriterier": [
+          "Identifiserer situasjonen som fundamentalisme.",
+          "Viser til både bokstavelig lesning av hellige tekster og motstand mot moderne tolkninger."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev bruker et innlegg fra sosiale medier som eneste kilde for å beskrive en religion. Nevn to spørsmål eleven bør stille for å vurdere kilden, og forklar hvorfor det er nyttig å sammenligne med andre kilder.",
+        "fasit": "Eleven bør undersøke hvem som står bak innlegget, og om det representerer mange eller få. Det er nyttig å sammenligne med andre kilder fordi innlegg i sosiale medier kan være preget av konflikt og forenklinger.",
+        "kriterier": [
+          "Nevner relevante kildekritiske spørsmål, for eksempel hvem som står bak, formålet eller om kilden representerer mange eller få.",
+          "Forklarer at sammenligning med andre kilder kan avdekke forenklinger eller et skjevt bilde."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En filosofisk diskusjon handler om hva virkeligheten grunnleggende sett er, ikke om hvilke normer mennesker bør følge. Hvilket fagbegrep passer best, og hvorfor?",
+        "fasit": "Metafysikk passer best, fordi det er filosofisk tenkning om virkelighetens grunnleggende natur. Normer for hva mennesker bør gjøre, er ikke hovedtemaet i denne diskusjonen.",
+        "kriterier": [
+          "Identifiserer metafysikk som fagbegrepet.",
+          "Forklarer at metafysikk handler om virkelighetens grunnleggende natur."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En klasse skal sammenligne to religioner ved hjelp av Ninian Smarts modell. Forklar hvordan modellen kan hjelpe dem, og nevn to ulike dimensjoner de kan undersøke.",
+        "fasit": "Modellen gjør det lettere å sammenligne religioner ved å undersøke flere sider ved dem. Klassen kan for eksempel undersøke læren og ritualene, eller fellesskapet og det materielle.",
+        "kriterier": [
+          "Forklarer at modellen hjelper med å sammenligne religioner ved å undersøke ulike dimensjoner.",
+          "Nevner to ulike dimensjoner, for eksempel læren, fortellingene, etikken, ritualene, erfaringene, fellesskapet eller det materielle."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

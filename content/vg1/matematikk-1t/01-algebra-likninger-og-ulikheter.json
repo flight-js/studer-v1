@@ -4,79 +4,430 @@
   "trinnId": "vg1",
   "name": "Algebra, likninger og ulikheter",
   "intro": "Forskjellen på uttrykk, likning, identitet og funksjon, lineære likninger og brøklikninger, likningssett med to ukjente, lineære ulikheter og strategier for å løse og kontrollere.",
-  "kompetansemaal": [4, 5, 3],
+  "kompetansemaal": [
+    4,
+    5,
+    3
+  ],
   "sammendrag": "## Fire viktige begreper\n\n- Et **algebraisk uttrykk** har ikke likhetstegn: 3x + 2.\n- En **likning** er en likhet som er sann bare for bestemte verdier: 3x + 2 = 11 er sann bare for x = 3.\n- En **identitet** er en likhet som er sann for **alle** verdier av variablene: (a + b)² = a² + 2ab + b².\n- En **funksjon** er en regel som gir én verdi for hver x: f(x) = 3x + 2.\n\n## Lineære likninger\n\nVi løser likninger ved å gjøre **det samme på begge sider**:\n\n5 − 2x = x − 4 → 5 + 4 = x + 2x → 9 = 3x → **x = 3**\n\n**Brøklikninger** løses ved å gange alle ledd med **fellesnevneren**:\n\nx/2 + x/3 = 5 → gang med 6 → 3x + 2x = 30 → 5x = 30 → **x = 6**\n\nHusk å **sette prøve**: Sett løsningen inn i den opprinnelige likningen og sjekk at venstre og høyre side blir like.\n\n## Likningssett\n\nEt **likningssett** med to ukjente består av to likninger. Løsningen er de verdiene av x og y som passer i **begge**.\n\nx + y = 10\n2x − y = 5\n\n- **Addisjonsmetoden**: Legg sammen likningene slik at én ukjent forsvinner: 3x = 15 → x = 5, og da er y = 5.\n- **Innsettingsmetoden**: Løs den ene likningen for y (y = 10 − x) og sett inn i den andre.\n- **Grafisk**: Tegn begge linjene. Løsningen er **skjæringspunktet** (5, 5).\n\nEt lineært likningssett kan ha **én løsning** (linjene krysser), **ingen løsning** (parallelle linjer) eller **uendelig mange løsninger** (linjene faller sammen).\n\n## Ulikheter\n\nUlikheter løses nesten som likninger:\n\n2x − 4 > 6 → 2x > 10 → **x > 5**\n\nMen: Når vi **ganger eller deler med et negativt tall**, må vi **snu ulikhetstegnet**:\n\n−3x < 12 → **x > −4**\n\nTest gjerne med et tall: x = 0 gir −3 · 0 = 0 < 12, og 0 > −4 stemmer.\n\n## Formler og digitale verktøy\n\nI mange situasjoner må vi **identifisere variable størrelser**, **sette opp en formel** og utforske den. I **CAS** i GeoGebra kan du løse likninger med **Løs(likning, x)** og likningssett med **Løs({likning1, likning2}, {x, y})**. Digitale verktøy er nyttige, men du må kunne **argumentere** for framgangsmåten og **tolke** svaret.\n\n## Strategier\n\nNyttige strategier i problemløsning er å **tegne figur**, **prøve med enkle tall**, **innføre en variabel** for det ukjente, **løse grafisk** og **kontrollere** svaret til slutt.",
   "flashcards": [
-    { "term": "Algebraisk uttrykk", "def": "Kombinasjon av tall og variabler uten likhetstegn, som 3x + 2." },
-    { "term": "Likning", "def": "Likhet som er sann bare for bestemte verdier." },
-    { "term": "Identitet", "def": "Likhet som er sann for alle verdier av variablene." },
-    { "term": "Funksjon", "def": "Regel som gir én verdi for hver x." },
-    { "term": "Sette prøve", "def": "Å sette løsningen inn i likningen for å kontrollere den." },
-    { "term": "Brøklikning", "def": "Likning med brøk; gang alle ledd med fellesnevneren." },
-    { "term": "Likningssett", "def": "To eller flere likninger som skal være oppfylt samtidig." },
-    { "term": "Addisjonsmetoden", "def": "Legge sammen likningene slik at én ukjent forsvinner." },
-    { "term": "Innsettingsmetoden", "def": "Løse én likning for en ukjent og sette inn i den andre." },
-    { "term": "Grafisk løsning av likningssett", "def": "Skjæringspunktet mellom linjene." },
-    { "term": "Parallelle linjer", "def": "Likningssettet har ingen løsning." },
-    { "term": "Ulikhet", "def": "Sammenligning med <, >, ≤ eller ≥." },
-    { "term": "Snu ulikhetstegnet", "def": "Når man ganger eller deler med et negativt tall." },
-    { "term": "Løs(likning, x)", "def": "CAS-kommando i GeoGebra for å løse likninger." },
-    { "term": "Uendelig mange løsninger", "def": "Når to likninger beskriver samme linje." }
+    {
+      "term": "Algebraisk uttrykk",
+      "def": "Kombinasjon av tall og variabler uten likhetstegn, som 3x + 2."
+    },
+    {
+      "term": "Likning",
+      "def": "Likhet som er sann bare for bestemte verdier."
+    },
+    {
+      "term": "Identitet",
+      "def": "Likhet som er sann for alle verdier av variablene."
+    },
+    {
+      "term": "Funksjon",
+      "def": "Regel som gir én verdi for hver x."
+    },
+    {
+      "term": "Sette prøve",
+      "def": "Å sette løsningen inn i likningen for å kontrollere den."
+    },
+    {
+      "term": "Brøklikning",
+      "def": "Likning med brøk; gang alle ledd med fellesnevneren."
+    },
+    {
+      "term": "Likningssett",
+      "def": "To eller flere likninger som skal være oppfylt samtidig."
+    },
+    {
+      "term": "Addisjonsmetoden",
+      "def": "Legge sammen likningene slik at én ukjent forsvinner."
+    },
+    {
+      "term": "Innsettingsmetoden",
+      "def": "Løse én likning for en ukjent og sette inn i den andre."
+    },
+    {
+      "term": "Grafisk løsning av likningssett",
+      "def": "Skjæringspunktet mellom linjene."
+    },
+    {
+      "term": "Parallelle linjer",
+      "def": "Likningssettet har ingen løsning."
+    },
+    {
+      "term": "Ulikhet",
+      "def": "Sammenligning med <, >, ≤ eller ≥."
+    },
+    {
+      "term": "Snu ulikhetstegnet",
+      "def": "Når man ganger eller deler med et negativt tall."
+    },
+    {
+      "term": "Løs(likning, x)",
+      "def": "CAS-kommando i GeoGebra for å løse likninger."
+    },
+    {
+      "term": "Uendelig mange løsninger",
+      "def": "Når to likninger beskriver samme linje."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en identitet?", "options": ["En likning med én løsning", "En likhet som er sann for alle verdier av variablene", "Et uttrykk uten likhetstegn", "En funksjon"], "correct": 1, "explain": "Kvadratsetningene er eksempler på identiteter." },
-    { "id": "q02", "text": "Løs likningen 3x + 2 = 11.", "options": ["x = 3", "x = 13/3", "x = 9", "x = 4"], "correct": 0, "explain": "3x = 9, så x = 3." },
-    { "id": "q03", "text": "Løs likningen x/2 + x/3 = 5.", "options": ["x = 5", "x = 30", "x = 6", "x = 2"], "correct": 2, "explain": "Gang med 6: 3x + 2x = 30, så x = 6." },
-    { "id": "q04", "text": "Løs ulikheten −3x < 12.", "options": ["x < −4", "x > 4", "x < 4", "x > −4"], "correct": 3, "explain": "Vi deler på −3 og må snu ulikhetstegnet." },
-    { "id": "q05", "text": "Løs likningssettet x + y = 10 og 2x − y = 5.", "options": ["x = 5, y = 5", "x = 3, y = 7", "x = 4, y = 6", "x = 10, y = 0"], "correct": 0, "explain": "Addisjon gir 3x = 15, så x = 5 og y = 5." },
-    { "id": "q06", "text": "Hvilken av disse er en likning?", "options": ["2x − 1", "2x − 1 = 7", "f(x) = 2x − 1", "(x + 1)² = x² + 2x + 1"], "correct": 1, "explain": "Den er sann bare for x = 4. Den siste er en identitet." },
-    { "id": "q07", "text": "Hvordan finner du løsningen av et likningssett grafisk?", "options": ["Nullpunktet til den ene linjen", "Der linjene skjærer y-aksen", "Skjæringspunktet mellom linjene", "Ved å sammenligne stigningstallene"], "correct": 2, "explain": "Skjæringspunktet passer i begge likningene." },
-    { "id": "q08", "text": "Løs ulikheten 2x − 4 > 6.", "options": ["x > 1", "x < 5", "x > 10", "x > 5"], "correct": 3, "explain": "2x > 10, så x > 5." },
-    { "id": "q09", "text": "Hvilken metode går ut på å legge sammen likningene slik at én ukjent forsvinner?", "options": ["Addisjonsmetoden", "Innsettingsmetoden", "Prøve og feile", "Fortegnsskjema"], "correct": 0, "explain": "Metoden fungerer når koeffisientene er motsatte tall." },
-    { "id": "q10", "text": "Hvordan kan du kontrollere at en løsning er riktig?", "options": ["Gjette", "Sette prøve i den opprinnelige likningen", "Spørre en venn", "Se på grafen til en annen likning"], "correct": 1, "explain": "Venstre og høyre side skal bli like." }
+    {
+      "id": "q01",
+      "text": "Hva er en identitet?",
+      "options": [
+        "En likning med én løsning",
+        "En likhet som er sann for alle verdier av variablene",
+        "Et uttrykk uten likhetstegn",
+        "En funksjon"
+      ],
+      "correct": 1,
+      "explain": "Kvadratsetningene er eksempler på identiteter."
+    },
+    {
+      "id": "q02",
+      "text": "Løs likningen 3x + 2 = 11.",
+      "options": [
+        "x = 3",
+        "x = 13/3",
+        "x = 9",
+        "x = 4"
+      ],
+      "correct": 0,
+      "explain": "3x = 9, så x = 3."
+    },
+    {
+      "id": "q03",
+      "text": "Løs likningen x/2 + x/3 = 5.",
+      "options": [
+        "x = 5",
+        "x = 30",
+        "x = 6",
+        "x = 2"
+      ],
+      "correct": 2,
+      "explain": "Gang med 6: 3x + 2x = 30, så x = 6."
+    },
+    {
+      "id": "q04",
+      "text": "Løs ulikheten −3x < 12.",
+      "options": [
+        "x < −4",
+        "x > 4",
+        "x < 4",
+        "x > −4"
+      ],
+      "correct": 3,
+      "explain": "Vi deler på −3 og må snu ulikhetstegnet."
+    },
+    {
+      "id": "q05",
+      "text": "Løs likningssettet x + y = 10 og 2x − y = 5.",
+      "options": [
+        "x = 5, y = 5",
+        "x = 3, y = 7",
+        "x = 4, y = 6",
+        "x = 10, y = 0"
+      ],
+      "correct": 0,
+      "explain": "Addisjon gir 3x = 15, så x = 5 og y = 5."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken av disse er en likning?",
+      "options": [
+        "2x − 1",
+        "2x − 1 = 7",
+        "f(x) = 2x − 1",
+        "(x + 1)² = x² + 2x + 1"
+      ],
+      "correct": 1,
+      "explain": "Den er sann bare for x = 4. Den siste er en identitet."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan finner du løsningen av et likningssett grafisk?",
+      "options": [
+        "Nullpunktet til den ene linjen",
+        "Der linjene skjærer y-aksen",
+        "Skjæringspunktet mellom linjene",
+        "Ved å sammenligne stigningstallene"
+      ],
+      "correct": 2,
+      "explain": "Skjæringspunktet passer i begge likningene."
+    },
+    {
+      "id": "q08",
+      "text": "Løs ulikheten 2x − 4 > 6.",
+      "options": [
+        "x > 1",
+        "x < 5",
+        "x > 10",
+        "x > 5"
+      ],
+      "correct": 3,
+      "explain": "2x > 10, så x > 5."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken metode går ut på å legge sammen likningene slik at én ukjent forsvinner?",
+      "options": [
+        "Addisjonsmetoden",
+        "Innsettingsmetoden",
+        "Prøve og feile",
+        "Fortegnsskjema"
+      ],
+      "correct": 0,
+      "explain": "Metoden fungerer når koeffisientene er motsatte tall."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan du kontrollere at en løsning er riktig?",
+      "options": [
+        "Gjette",
+        "Sette prøve i den opprinnelige likningen",
+        "Spørre en venn",
+        "Se på grafen til en annen likning"
+      ],
+      "correct": 1,
+      "explain": "Venstre og høyre side skal bli like."
+    }
   ],
   "mindmap": {
     "label": "Algebra og likninger",
     "children": [
-      { "label": "Begreper", "children": [
-        { "label": "Uttrykk" },
-        { "label": "Likning" },
-        { "label": "Identitet" },
-        { "label": "Funksjon" }
-      ] },
-      { "label": "Likninger", "children": [
-        { "label": "Samme på begge sider" },
-        { "label": "Brøklikninger" },
-        { "label": "Sette prøve" }
-      ] },
-      { "label": "Likningssett", "children": [
-        { "label": "Addisjonsmetoden" },
-        { "label": "Innsettingsmetoden" },
-        { "label": "Grafisk" }
-      ] },
-      { "label": "Ulikheter", "children": [
-        { "label": "Løs som likninger" },
-        { "label": "Snu tegnet ved negativ faktor" }
-      ] },
-      { "label": "Verktøy", "children": [
-        { "label": "CAS: Løs" },
-        { "label": "Strategier" },
-        { "label": "Argumentere" }
-      ] }
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Uttrykk"
+          },
+          {
+            "label": "Likning"
+          },
+          {
+            "label": "Identitet"
+          },
+          {
+            "label": "Funksjon"
+          }
+        ]
+      },
+      {
+        "label": "Likninger",
+        "children": [
+          {
+            "label": "Samme på begge sider"
+          },
+          {
+            "label": "Brøklikninger"
+          },
+          {
+            "label": "Sette prøve"
+          }
+        ]
+      },
+      {
+        "label": "Likningssett",
+        "children": [
+          {
+            "label": "Addisjonsmetoden"
+          },
+          {
+            "label": "Innsettingsmetoden"
+          },
+          {
+            "label": "Grafisk"
+          }
+        ]
+      },
+      {
+        "label": "Ulikheter",
+        "children": [
+          {
+            "label": "Løs som likninger"
+          },
+          {
+            "label": "Snu tegnet ved negativ faktor"
+          }
+        ]
+      },
+      {
+        "label": "Verktøy",
+        "children": [
+          {
+            "label": "CAS: Løs"
+          },
+          {
+            "label": "Strategier"
+          },
+          {
+            "label": "Argumentere"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "(a + b)² = a² + 2ab + b² er en identitet.", "correct": true, "explain": "Den gjelder for alle verdier av a og b." },
-      { "id": "m02", "type": "sant-usant", "text": "Når vi ganger begge sider av en ulikhet med et negativt tall, beholder vi ulikhetstegnet.", "correct": false, "explain": "Ulikhetstegnet må snus." },
-      { "id": "m03", "type": "sant-usant", "text": "Et likningssett med to lineære likninger kan ha uendelig mange løsninger.", "correct": true, "explain": "Det skjer når linjene faller sammen." },
-      { "id": "m04", "type": "sant-usant", "text": "3x + 5 er en likning.", "correct": false, "explain": "Det er et uttrykk – det mangler likhetstegn." },
-      { "id": "m05", "type": "flervalg", "text": "Løs likningen 5 − 2x = x − 4.", "options": ["x = 3", "x = −3", "x = 1/3", "x = 9"], "correct": 0, "explain": "9 = 3x, så x = 3." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken CAS-kommando i GeoGebra løser likninger?", "options": ["Nullpunkt", "Løs", "Skjæring", "RegLin"], "correct": 1, "explain": "Løs(likning, x) gir løsningen." },
-      { "id": "m07", "type": "flervalg", "text": "To likninger gir parallelle linjer. Hvor mange løsninger har likningssettet?", "options": ["Én", "To", "Ingen", "Uendelig mange"], "correct": 2, "explain": "Parallelle linjer krysser aldri." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "(a + b)² = a² + 2ab + b² er en identitet.",
+        "correct": true,
+        "explain": "Den gjelder for alle verdier av a og b."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Når vi ganger begge sider av en ulikhet med et negativt tall, beholder vi ulikhetstegnet.",
+        "correct": false,
+        "explain": "Ulikhetstegnet må snus."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Et likningssett med to lineære likninger kan ha uendelig mange løsninger.",
+        "correct": true,
+        "explain": "Det skjer når linjene faller sammen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "3x + 5 er en likning.",
+        "correct": false,
+        "explain": "Det er et uttrykk – det mangler likhetstegn."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Løs likningen 5 − 2x = x − 4.",
+        "options": [
+          "x = 3",
+          "x = −3",
+          "x = 1/3",
+          "x = 9"
+        ],
+        "correct": 0,
+        "explain": "9 = 3x, så x = 3."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken CAS-kommando i GeoGebra løser likninger?",
+        "options": [
+          "Nullpunkt",
+          "Løs",
+          "Skjæring",
+          "RegLin"
+        ],
+        "correct": 1,
+        "explain": "Løs(likning, x) gir løsningen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "To likninger gir parallelle linjer. Hvor mange løsninger har likningssettet?",
+        "options": [
+          "Én",
+          "To",
+          "Ingen",
+          "Uendelig mange"
+        ],
+        "correct": 2,
+        "explain": "Parallelle linjer krysser aldri."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på et algebraisk uttrykk og en likning. Gi ett eksempel på hver.",
+        "fasit": "Et algebraisk uttrykk har ikke likhetstegn, for eksempel 3x + 2. En likning har likhetstegn og er sann bare for bestemte verdier, for eksempel 3x + 2 = 11.",
+        "kriterier": [
+          "Forklarer at et algebraisk uttrykk ikke har likhetstegn, mens en likning har det.",
+          "Gir eksempler som viser forskjellen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Løs likningen 5 − 2x = x − 4. Vis det viktigste steget.",
+        "fasit": "Legg til 2x og 4 på begge sider: 5 + 4 = x + 2x. Da får vi 9 = 3x, så x = 3.",
+        "kriterier": [
+          "Gjør samme operasjon på begge sider for å samle leddene.",
+          "Finner løsningen x = 3."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar hvordan du bruker fellesnevneren når du løser en brøklikning, og hvorfor du ganger alle ledd med den.",
+        "fasit": "Jeg ganger alle ledd med fellesnevneren, slik at brøkene fjernes. Da får jeg en enklere likning med samme løsning.",
+        "kriterier": [
+          "Beskriver at alle ledd må ganges med fellesnevneren.",
+          "Forklarer at dette fjerner brøkene uten å endre løsningene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvorfor ulikhetstegnet må snus når du ganger eller deler begge sider av en ulikhet med et negativt tall.",
+        "fasit": "Ganging eller deling med et negativt tall snur rekkefølgen mellom tallene. Derfor må ulikhetstegnet snus for at ulikheten fortsatt skal være riktig.",
+        "kriterier": [
+          "Knytter regelendringen til at rekkefølgen mellom tall snus ved negativ ganging eller deling.",
+          "Sier at ulikhetstegnet derfor må snus."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign addisjonsmetoden og innsettingsmetoden for å løse et likningssett.",
+        "fasit": "Med addisjonsmetoden legger jeg sammen likningene slik at én ukjent forsvinner. Med innsettingsmetoden løser jeg én likning for en ukjent og setter uttrykket inn i den andre.",
+        "kriterier": [
+          "Forklarer at addisjonsmetoden fjerner en ukjent ved å legge sammen likningene.",
+          "Forklarer at innsettingsmetoden bruker et uttrykk fra den ene likningen i den andre."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar forskjellen på et likningssett med parallelle linjer og et likningssett der linjene faller sammen.",
+        "fasit": "Parallelle linjer krysser ikke, så likningssettet har ingen løsning. Når linjene faller sammen, beskriver de samme linje, og likningssettet har uendelig mange løsninger.",
+        "kriterier": [
+          "Knytter parallelle linjer til at likningssettet ikke har noen løsning.",
+          "Knytter sammenfallende linjer til uendelig mange løsninger."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En funksjon er gitt ved f(x) = 3x + 2. Finn f(5), og forklar hva svaret betyr.",
+        "fasit": "f(5) = 3 · 5 + 2 = 17. Det betyr at funksjonen gir verdien 17 når x er 5.",
+        "kriterier": [
+          "Setter inn 5 for x og regner ut 17.",
+          "Forklarer at 17 er funksjonsverdien når x = 5."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skriv GeoGebra CAS-kommandoen for å løse en likning med hensyn på x, og kommandoen for å løse et likningssett med hensyn på x og y. Forklar kort hva hver kommando brukes til.",
+        "fasit": "For en likning skriver jeg Løs(likning, x), og for et likningssett skriver jeg Løs({likning1, likning2}, {x, y}). Den første løser én likning for x, og den andre løser likningene samtidig for x og y.",
+        "kriterier": [
+          "Oppgir riktig syntaks for kommandoen Løs(likning, x).",
+          "Oppgir riktig syntaks for likningssettkommandoen med begge likningene og begge ukjente.",
+          "Skiller mellom å løse én likning og et likningssett."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

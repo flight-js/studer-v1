@@ -4,78 +4,425 @@
   "trinnId": "vg1",
   "name": "Tysk historie: fra keiserrike til gjenforening",
   "intro": "Hovedlinjer i Tysklands historie på 1900-tallet – første verdenskrig, Weimarrepublikken, nazismen og Holocaust, delingen, Berlinmuren og gjenforeningen – og hvordan du bruker passiv og årstall på tysk.",
-  "kompetansemaal": [8, 4],
+  "kompetansemaal": [
+    8,
+    4
+  ],
   "sammendrag": "## Keiserriket og første verdenskrig\n\nTyskland ble samlet som **keiserrike** (*das Kaiserreich*) i **1871**. Landet tapte **første verdenskrig** (1914–1918), og keiseren måtte gå av.\n\n## Weimarrepublikken\n\n**Die Weimarer Republik** (1918/1919–1933) var Tysklands første demokrati. Den slet med krigsskadeerstatninger, **hyperinflasjon** i 1923 og **økonomisk krise** etter børskrakket i 1929. Arbeidsløshet og misnøye ga grobunn for ekstreme partier.\n\n## Nazismen og andre verdenskrig\n\nI **1933** kom **Adolf Hitler** og **nazistene** (NSDAP) til makten. De avskaffet demokratiet, forfulgte politiske motstandere og innførte raselover mot **jøder**. Tyskland startet **andre verdenskrig** ved å angripe Polen i **1939**. Under krigen myrdet nazistene rundt **seks millioner jøder** i **Holocaust** (*die Shoah*), i tillegg til rom, mennesker med funksjonsnedsettelser, homofile og andre. Krigen endte med Tysklands **kapitulasjon** i **mai 1945**.\n\n## Et delt land\n\nEtter krigen ble Tyskland delt i fire **okkupasjonssoner**. I **1949** ble det opprettet to stater:\n\n- **die BRD** (Bundesrepublik Deutschland) i vest – demokrati og markedsøkonomi, allierte med USA\n- **die DDR** (Deutsche Demokratische Republik) i øst – kommunistisk ettpartistat under Sovjetunionens innflytelse, med hemmelig politi, **Stasi**\n\n## Berlinmuren\n\nFor å stanse flukten fra øst til vest bygde DDR **Berlinmuren** (*die Berliner Mauer*) **13. august 1961**. Mange ble drept da de prøvde å flykte. **9. november 1989** åpnet grensen seg etter store fredelige demonstrasjoner – **Mauerfall**. **3. oktober 1990** ble Tyskland **gjenforent** (*die Wiedervereinigung*). Dagen feires som *der Tag der Deutschen Einheit*.\n\n## Minnekultur\n\nTyskland har arbeidet mye med å **huske** og ta ansvar for fortiden (*Vergangenheitsbewältigung*). Eksempler er **Holocaust-minnesmerket** i Berlin og **snublesteinene** (*Stolpersteine*) – små messingplater i fortauet utenfor hjemmene til ofre for nazismen.\n\n## Språk: årstall og passiv\n\n**Årstall** sier man uten preposisjon eller med *im Jahr*:\n\n- *1989 fiel die Mauer.* / *Im Jahr 1989 fiel die Mauer.* – ikke *in 1989* som på engelsk\n- 1961 leses *neunzehnhunderteinundsechzig*.\n\n**Passiv** brukes når handlingen er viktigere enn hvem som gjorde den: **werden** + partisipp. I fortid: **wurde** + partisipp.\n\n- *Die Mauer **wurde** 1961 **gebaut**.* – Muren ble bygd i 1961.\n- *Deutschland **wurde** 1990 **wiedervereinigt**.*\n- Den som utfører handlingen, innledes med **von**: *Die Mauer wurde **von** der DDR gebaut.*",
   "flashcards": [
-    { "term": "das Kaiserreich", "def": "keiserriket – Tyskland samlet i 1871" },
-    { "term": "die Weimarer Republik", "def": "Tysklands første demokrati, 1919–1933" },
-    { "term": "die Inflation", "def": "prisstigningen – hyperinflasjon i 1923" },
-    { "term": "1933", "def": "Hitler og nazistene kom til makten" },
-    { "term": "der Holocaust / die Shoah", "def": "folkemordet på rundt seks millioner jøder" },
-    { "term": "die BRD", "def": "Vest-Tyskland, opprettet 1949" },
-    { "term": "die DDR", "def": "Øst-Tyskland, kommunistisk ettpartistat, opprettet 1949" },
-    { "term": "die Stasi", "def": "det hemmelige politiet i DDR" },
-    { "term": "die Berliner Mauer", "def": "Berlinmuren – bygd 13. august 1961" },
-    { "term": "der Mauerfall", "def": "murens fall 9. november 1989" },
-    { "term": "die Wiedervereinigung", "def": "gjenforeningen 3. oktober 1990" },
-    { "term": "der Tag der Deutschen Einheit", "def": "Tysklands nasjonaldag, 3. oktober" },
-    { "term": "die Stolpersteine", "def": "snublesteiner til minne om ofre for nazismen" },
-    { "term": "wurde gebaut", "def": "ble bygd (passiv i fortid)" },
-    { "term": "Im Jahr 1989 …", "def": "I 1989 … (ikke «in 1989»)" }
+    {
+      "term": "das Kaiserreich",
+      "def": "keiserriket – Tyskland samlet i 1871"
+    },
+    {
+      "term": "die Weimarer Republik",
+      "def": "Tysklands første demokrati, 1919–1933"
+    },
+    {
+      "term": "die Inflation",
+      "def": "prisstigningen – hyperinflasjon i 1923"
+    },
+    {
+      "term": "1933",
+      "def": "Hitler og nazistene kom til makten"
+    },
+    {
+      "term": "der Holocaust / die Shoah",
+      "def": "folkemordet på rundt seks millioner jøder"
+    },
+    {
+      "term": "die BRD",
+      "def": "Vest-Tyskland, opprettet 1949"
+    },
+    {
+      "term": "die DDR",
+      "def": "Øst-Tyskland, kommunistisk ettpartistat, opprettet 1949"
+    },
+    {
+      "term": "die Stasi",
+      "def": "det hemmelige politiet i DDR"
+    },
+    {
+      "term": "die Berliner Mauer",
+      "def": "Berlinmuren – bygd 13. august 1961"
+    },
+    {
+      "term": "der Mauerfall",
+      "def": "murens fall 9. november 1989"
+    },
+    {
+      "term": "die Wiedervereinigung",
+      "def": "gjenforeningen 3. oktober 1990"
+    },
+    {
+      "term": "der Tag der Deutschen Einheit",
+      "def": "Tysklands nasjonaldag, 3. oktober"
+    },
+    {
+      "term": "die Stolpersteine",
+      "def": "snublesteiner til minne om ofre for nazismen"
+    },
+    {
+      "term": "wurde gebaut",
+      "def": "ble bygd (passiv i fortid)"
+    },
+    {
+      "term": "Im Jahr 1989 …",
+      "def": "I 1989 … (ikke «in 1989»)"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Når ble Berlinmuren bygd?", "options": ["1949", "1961", "1989", "1945"], "correct": 1, "explain": "13. august 1961." },
-    { "id": "q02", "text": "Når ble Tyskland gjenforent?", "options": ["3. oktober 1990", "9. november 1989", "8. mai 1945", "1. januar 2000"], "correct": 0, "explain": "Muren falt allerede 9. november 1989." },
-    { "id": "q03", "text": "Hva var Stasi?", "options": ["Et parti i Vest-Tyskland", "En fotballklubb", "Det hemmelige politiet i DDR", "En avis"], "correct": 2, "explain": "Stasi overvåket innbyggerne i Øst-Tyskland." },
-    { "id": "q04", "text": "Hvordan sier du «I 1989 falt muren» på tysk?", "options": ["In 1989 fiel die Mauer.", "Im 1989 fiel die Mauer.", "Auf 1989 fiel die Mauer.", "1989 fiel die Mauer."], "correct": 3, "explain": "Årstall uten preposisjon – eller «im Jahr 1989»." },
-    { "id": "q05", "text": "Hva betyr «Die Mauer wurde 1961 gebaut»?", "options": ["Muren ble bygd i 1961.", "Muren falt i 1961.", "Muren blir bygd i 1961.", "Muren skal bygges i 1961."], "correct": 0, "explain": "wurde + partisipp = passiv i fortid." },
-    { "id": "q06", "text": "Hva var Weimarrepublikken?", "options": ["Et keiserrike", "Tysklands første demokrati", "Et kommunistisk diktatur", "Et område i Sveits"], "correct": 1, "explain": "Den varte fra 1919 til 1933." },
-    { "id": "q07", "text": "Hva er Stolpersteine?", "options": ["Steiner fra Berlinmuren", "Et fjellområde", "Små minneplater i fortauet for ofre for nazismen", "En type brostein fra keisertiden"], "correct": 2, "explain": "De ligger utenfor der ofrene bodde." },
-    { "id": "q08", "text": "Hvilket år kom nazistene til makten i Tyskland?", "options": ["1918", "1923", "1939", "1933"], "correct": 3, "explain": "Hitler ble rikskansler i 1933." },
-    { "id": "q09", "text": "Hvordan dannes passiv på tysk?", "options": ["werden + partisipp", "haben + infinitiv", "sein + infinitiv", "würde + infinitiv"], "correct": 0, "explain": "I fortid: wurde + partisipp." },
-    { "id": "q10", "text": "Hva var DDR?", "options": ["Vest-Tyskland", "Den kommunistiske staten i Øst-Tyskland", "Et parti i Weimarrepublikken", "Den tyske hæren"], "correct": 1, "explain": "DDR eksisterte fra 1949 til 1990." }
+    {
+      "id": "q01",
+      "text": "Når ble Berlinmuren bygd?",
+      "options": [
+        "1949",
+        "1961",
+        "1989",
+        "1945"
+      ],
+      "correct": 1,
+      "explain": "13. august 1961."
+    },
+    {
+      "id": "q02",
+      "text": "Når ble Tyskland gjenforent?",
+      "options": [
+        "3. oktober 1990",
+        "9. november 1989",
+        "8. mai 1945",
+        "1. januar 2000"
+      ],
+      "correct": 0,
+      "explain": "Muren falt allerede 9. november 1989."
+    },
+    {
+      "id": "q03",
+      "text": "Hva var Stasi?",
+      "options": [
+        "Et parti i Vest-Tyskland",
+        "En fotballklubb",
+        "Det hemmelige politiet i DDR",
+        "En avis"
+      ],
+      "correct": 2,
+      "explain": "Stasi overvåket innbyggerne i Øst-Tyskland."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan sier du «I 1989 falt muren» på tysk?",
+      "options": [
+        "In 1989 fiel die Mauer.",
+        "Im 1989 fiel die Mauer.",
+        "Auf 1989 fiel die Mauer.",
+        "1989 fiel die Mauer."
+      ],
+      "correct": 3,
+      "explain": "Årstall uten preposisjon – eller «im Jahr 1989»."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr «Die Mauer wurde 1961 gebaut»?",
+      "options": [
+        "Muren ble bygd i 1961.",
+        "Muren falt i 1961.",
+        "Muren blir bygd i 1961.",
+        "Muren skal bygges i 1961."
+      ],
+      "correct": 0,
+      "explain": "wurde + partisipp = passiv i fortid."
+    },
+    {
+      "id": "q06",
+      "text": "Hva var Weimarrepublikken?",
+      "options": [
+        "Et keiserrike",
+        "Tysklands første demokrati",
+        "Et kommunistisk diktatur",
+        "Et område i Sveits"
+      ],
+      "correct": 1,
+      "explain": "Den varte fra 1919 til 1933."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er Stolpersteine?",
+      "options": [
+        "Steiner fra Berlinmuren",
+        "Et fjellområde",
+        "Små minneplater i fortauet for ofre for nazismen",
+        "En type brostein fra keisertiden"
+      ],
+      "correct": 2,
+      "explain": "De ligger utenfor der ofrene bodde."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket år kom nazistene til makten i Tyskland?",
+      "options": [
+        "1918",
+        "1923",
+        "1939",
+        "1933"
+      ],
+      "correct": 3,
+      "explain": "Hitler ble rikskansler i 1933."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan dannes passiv på tysk?",
+      "options": [
+        "werden + partisipp",
+        "haben + infinitiv",
+        "sein + infinitiv",
+        "würde + infinitiv"
+      ],
+      "correct": 0,
+      "explain": "I fortid: wurde + partisipp."
+    },
+    {
+      "id": "q10",
+      "text": "Hva var DDR?",
+      "options": [
+        "Vest-Tyskland",
+        "Den kommunistiske staten i Øst-Tyskland",
+        "Et parti i Weimarrepublikken",
+        "Den tyske hæren"
+      ],
+      "correct": 1,
+      "explain": "DDR eksisterte fra 1949 til 1990."
+    }
   ],
   "mindmap": {
     "label": "Tysk historie",
     "children": [
-      { "label": "Før 1933", "children": [
-        { "label": "Keiserriket 1871" },
-        { "label": "Første verdenskrig" },
-        { "label": "Weimarrepublikken" }
-      ] },
-      { "label": "1933–1945", "children": [
-        { "label": "Nazismen" },
-        { "label": "Holocaust" },
-        { "label": "Andre verdenskrig" }
-      ] },
-      { "label": "Delingen", "children": [
-        { "label": "BRD og DDR 1949" },
-        { "label": "Stasi" },
-        { "label": "Berlinmuren 1961" }
-      ] },
-      { "label": "Gjenforening", "children": [
-        { "label": "Mauerfall 9.11.1989" },
-        { "label": "3. oktober 1990" }
-      ] },
-      { "label": "Språk", "children": [
-        { "label": "Årstall" },
-        { "label": "Passiv: wurde + partisipp" },
-        { "label": "Minnekultur" }
-      ] }
+      {
+        "label": "Før 1933",
+        "children": [
+          {
+            "label": "Keiserriket 1871"
+          },
+          {
+            "label": "Første verdenskrig"
+          },
+          {
+            "label": "Weimarrepublikken"
+          }
+        ]
+      },
+      {
+        "label": "1933–1945",
+        "children": [
+          {
+            "label": "Nazismen"
+          },
+          {
+            "label": "Holocaust"
+          },
+          {
+            "label": "Andre verdenskrig"
+          }
+        ]
+      },
+      {
+        "label": "Delingen",
+        "children": [
+          {
+            "label": "BRD og DDR 1949"
+          },
+          {
+            "label": "Stasi"
+          },
+          {
+            "label": "Berlinmuren 1961"
+          }
+        ]
+      },
+      {
+        "label": "Gjenforening",
+        "children": [
+          {
+            "label": "Mauerfall 9.11.1989"
+          },
+          {
+            "label": "3. oktober 1990"
+          }
+        ]
+      },
+      {
+        "label": "Språk",
+        "children": [
+          {
+            "label": "Årstall"
+          },
+          {
+            "label": "Passiv: wurde + partisipp"
+          },
+          {
+            "label": "Minnekultur"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Tyskland ble samlet som keiserrike i 1871.", "correct": true, "explain": "Før det var Tyskland delt i mange stater." },
-      { "id": "m02", "type": "sant-usant", "text": "DDR var et demokrati med frie valg.", "correct": false, "explain": "DDR var en kommunistisk ettpartistat." },
-      { "id": "m03", "type": "sant-usant", "text": "3. oktober er Tysklands nasjonaldag.", "correct": true, "explain": "Der Tag der Deutschen Einheit." },
-      { "id": "m04", "type": "sant-usant", "text": "Berlinmuren falt i 1961.", "correct": false, "explain": "Den ble bygd i 1961 og falt i 1989." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «die Wiedervereinigung»?", "options": ["delingen", "gjenforeningen", "revolusjonen", "okkupasjonen"], "correct": 1, "explain": "Tyskland ble gjenforent i 1990." },
-      { "id": "m06", "type": "flervalg", "text": "Hvordan sier du «Tyskland ble gjenforent i 1990»?", "options": ["Deutschland wurde 1990 wiedervereinigt.", "Deutschland hat 1990 wiedervereinigt.", "Deutschland wird 1990 wiedervereinigt.", "Deutschland war 1990 wiedervereinigen."], "correct": 0, "explain": "Passiv i fortid: wurde + partisipp." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket land angrep Tyskland i 1939, slik at andre verdenskrig startet?", "options": ["Frankrike", "Norge", "Polen", "Sovjetunionen"], "correct": 2, "explain": "Angrepet på Polen 1. september 1939." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Tyskland ble samlet som keiserrike i 1871.",
+        "correct": true,
+        "explain": "Før det var Tyskland delt i mange stater."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "DDR var et demokrati med frie valg.",
+        "correct": false,
+        "explain": "DDR var en kommunistisk ettpartistat."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "3. oktober er Tysklands nasjonaldag.",
+        "correct": true,
+        "explain": "Der Tag der Deutschen Einheit."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Berlinmuren falt i 1961.",
+        "correct": false,
+        "explain": "Den ble bygd i 1961 og falt i 1989."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «die Wiedervereinigung»?",
+        "options": [
+          "delingen",
+          "gjenforeningen",
+          "revolusjonen",
+          "okkupasjonen"
+        ],
+        "correct": 1,
+        "explain": "Tyskland ble gjenforent i 1990."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvordan sier du «Tyskland ble gjenforent i 1990»?",
+        "options": [
+          "Deutschland wurde 1990 wiedervereinigt.",
+          "Deutschland hat 1990 wiedervereinigt.",
+          "Deutschland wird 1990 wiedervereinigt.",
+          "Deutschland war 1990 wiedervereinigen."
+        ],
+        "correct": 0,
+        "explain": "Passiv i fortid: wurde + partisipp."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket land angrep Tyskland i 1939, slik at andre verdenskrig startet?",
+        "options": [
+          "Frankrike",
+          "Norge",
+          "Polen",
+          "Sovjetunionen"
+        ],
+        "correct": 2,
+        "explain": "Angrepet på Polen 1. september 1939."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Tyskland tapte første verdenskrig. Forklar hvilken endring dette førte til for keiseren og styreformen i Tyskland.",
+        "fasit": "Keiseren måtte gå av. Tyskland ble Weimarrepublikken, landets første demokrati.",
+        "kriterier": [
+          "Nevner at keiseren måtte gå av.",
+          "Knytter overgangen til Weimarrepublikken eller Tysklands første demokrati."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Weimarrepublikken hadde økonomiske problemer. Forklar hvordan problemene bidro til at ekstreme partier fikk støtte.",
+        "fasit": "Krigsskadeerstatninger, hyperinflasjon og den økonomiske krisen førte til arbeidsløshet og misnøye. Dette ga grobunn for ekstreme partier.",
+        "kriterier": [
+          "Knytter økonomiske problemer til arbeidsløshet eller misnøye.",
+          "Forklarer at arbeidsløshet eller misnøye ga grobunn for ekstreme partier."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign BRD og DDR etter at de ble opprettet i 1949. Ta med styreform og én annen viktig forskjell.",
+        "fasit": "BRD i vest var et demokrati med markedsøkonomi og var alliert med USA. DDR i øst var en kommunistisk ettpartistat under Sovjetunionens innflytelse, med det hemmelige politiet Stasi.",
+        "kriterier": [
+          "Beskriver BRD som et demokrati med markedsøkonomi, og plasserer det i vest.",
+          "Beskriver DDR som en kommunistisk ettpartistat i øst, under Sovjetunionens innflytelse eller med Stasi."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Tyskland kapitulerte i mai 1945. Forklar hvordan landet ble organisert etter krigen, og hva som ble opprettet i 1949.",
+        "fasit": "Etter krigen ble Tyskland delt i fire okkupasjonssoner. I 1949 ble BRD opprettet i vest og DDR i øst.",
+        "kriterier": [
+          "Nevner at Tyskland ble delt i fire okkupasjonssoner.",
+          "Nevner at to stater, BRD og DDR, ble opprettet i 1949, og plasserer dem i vest og øst."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar både hvorfor DDR bygde Berlinmuren og hva som førte til at grensen åpnet seg i 1989.",
+        "fasit": "DDR bygde muren for å stanse flukten fra øst til vest. Etter store fredelige demonstrasjoner åpnet grensen seg 9. november 1989.",
+        "kriterier": [
+          "Forklarer at muren skulle stanse flukt fra øst til vest.",
+          "Knytter grensen som åpnet seg i 1989 til store fredelige demonstrasjoner."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En skole i Berlin vil lage et minneprosjekt om ofre for nazismen. Forklar hvordan Holocaust-minnesmerket og snublesteinene viser to ulike måter å minnes fortiden på.",
+        "fasit": "Holocaust-minnesmerket er et minnesmerke i Berlin. Snublesteinene er små messingplater i fortauet utenfor hjemmene til ofre for nazismen.",
+        "kriterier": [
+          "Forklarer at Holocaust-minnesmerket i Berlin er et minne om Holocaust.",
+          "Beskriver snublesteinene som messingplater i fortauet utenfor hjemmene til ofre for nazismen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Tyskland startet andre verdenskrig og kapitulerte senere. Beskriv disse to hendelsene med årstall eller tidspunkt.",
+        "fasit": "Tyskland startet andre verdenskrig ved å angripe Polen i 1939. Krigen endte med Tysklands kapitulasjon i mai 1945.",
+        "kriterier": [
+          "Nevner at Tyskland angrep Polen i 1939.",
+          "Nevner Tysklands kapitulasjon i mai 1945 som slutten på krigen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skriv på tysk én setning i fortidspassiv som forteller at grensen åpnet seg i 1989 etter store fredelige demonstrasjoner.",
+        "fasit": "Die Grenze wurde 1989 nach großen friedlichen Demonstrationen geöffnet.",
+        "kriterier": [
+          "Bruker riktig fortidspassiv, for eksempel «wurde … geöffnet».",
+          "Får med at grensen åpnet seg i 1989 etter store fredelige demonstrasjoner."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

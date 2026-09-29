@@ -4,80 +4,430 @@
   "trinnId": "vg2",
   "name": "Anvendt psykologi og yrker",
   "intro": "Hvordan psykologisk kunnskap brukes i praksis – i helsevesenet, skolen, arbeidslivet, idretten, rettsvesenet og markedsføringen – og hvilke yrker som bygger på psykologi.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Hva er anvendt psykologi?\n\n**Grunnforskning** i psykologi søker ny kunnskap om hvordan mennesker tenker, føler og handler. **Anvendt psykologi** bruker denne kunnskapen til å løse **praktiske problemer**. Psykologi brukes derfor i mange **yrker**, ikke bare av psykologer.\n\n## Klinisk psykologi og helse\n\n**Klinisk psykologi** handler om å **utrede** og **behandle** psykiske lidelser, som angst og depresjon.\n\n- En **psykolog** har profesjonsstudium i psykologi og kan utrede og gi **psykoterapi**.\n- En **psykiater** er **lege** med spesialisering i psykiatri og kan skrive ut **medisiner**.\n- **Kognitiv atferdsterapi** (KAT) er en mye brukt behandlingsform som hjelper personen å endre **tankemønstre** og **atferd**.\n\n**Helsepsykologi** undersøker hvordan tanker og vaner påvirker **fysisk helse**, for eksempel hvordan man kan få folk til å slutte å røyke eller bevege seg mer.\n\n## Pedagogisk psykologi og skolen\n\n**Pedagogisk psykologi** bruker kunnskap om **læring**, **motivasjon** og **utvikling** i skolen. Lærere bruker den når de gir **tilbakemeldinger** og tilpasser undervisningen. **PP-tjenesten** (pedagogisk-psykologisk tjeneste) utreder elever som trenger **spesialundervisning**, og **helsesykepleiere** og **rådgivere** bruker samtaleferdigheter i møte med elever.\n\n## Arbeids- og organisasjonspsykologi\n\nHer brukes psykologi i **arbeidslivet**:\n\n- **rekruttering** og **personlighetstester** ved ansettelser\n- **ledelse** og **motivasjon**\n- **arbeidsmiljø**, **stress** og **konflikter**\n- **teamarbeid** og **endringsprosesser**\n\n## Idrettspsykologi\n\n**Idrettspsykologer** hjelper utøvere med **mental trening**: **målsetting**, **konsentrasjon**, **visualisering**, å håndtere **prestasjonsangst** og å komme tilbake etter skader.\n\n## Rettspsykologi\n\n**Rettspsykologi** brukes i **rettsvesenet**:\n\n- vurdering av **vitneutsagn**, siden **hukommelsen** kan påvirkes av ledende spørsmål\n- **avhør av barn** i **Statens barnehus**\n- **rettspsykiatriske** vurderinger av om en tiltalt var **tilregnelig**\n\n## Psykologi i markedsføring og teknologi\n\n**Markedsføring** bruker psykologi om **persepsjon**, **følelser** og **sosial påvirkning** – for eksempel farger, **anbefalinger** fra andre og **knapphet** («bare tre igjen!»). **Apper** og **sosiale medier** designes ofte for å holde på **oppmerksomheten**, blant annet gjennom **varsler** og **belønninger**. Dette reiser **etiske** spørsmål.\n\n## Andre yrker\n\nPsykologisk kunnskap er nyttig for **sykepleiere**, **leger**, **politi**, **barnevernspedagoger**, **ledere**, **journalister**, **designere** og **selgere** – alle som jobber med mennesker.\n\n## Etikk i anvendt psykologi\n\nPsykologisk kunnskap kan brukes både til å **hjelpe** og til å **manipulere**. Viktige spørsmål er\n\n- om personen har gitt **samtykke**\n- om **taushetsplikten** blir respektert\n- om metoden er **dokumentert** og **forskningsbasert**\n- om kunnskapen brukes i personens **egen interesse**\n\nTittelen **psykolog** er **beskyttet** i Norge – bare den som har **autorisasjon**, kan kalle seg psykolog.",
   "flashcards": [
-    { "term": "Anvendt psykologi", "def": "Bruk av psykologisk kunnskap til å løse praktiske problemer." },
-    { "term": "Grunnforskning", "def": "Forskning som søker ny kunnskap uten et bestemt praktisk mål." },
-    { "term": "Klinisk psykologi", "def": "Utredning og behandling av psykiske lidelser." },
-    { "term": "Psykolog", "def": "Profesjonsutdannet i psykologi, gir utredning og psykoterapi." },
-    { "term": "Psykiater", "def": "Lege med spesialisering i psykiatri – kan skrive ut medisiner." },
-    { "term": "Kognitiv atferdsterapi", "def": "Behandling som endrer tankemønstre og atferd." },
-    { "term": "Helsepsykologi", "def": "Hvordan tanker og vaner påvirker fysisk helse." },
-    { "term": "Pedagogisk psykologi", "def": "Kunnskap om læring, motivasjon og utvikling brukt i skolen." },
-    { "term": "PP-tjenesten", "def": "Pedagogisk-psykologisk tjeneste som utreder elevers behov." },
-    { "term": "Arbeids- og organisasjonspsykologi", "def": "Psykologi om rekruttering, ledelse og arbeidsmiljø." },
-    { "term": "Idrettspsykologi", "def": "Mental trening, målsetting og håndtering av prestasjonsangst." },
-    { "term": "Visualisering", "def": "Å se for seg en prestasjon i detalj som mental trening." },
-    { "term": "Rettspsykologi", "def": "Psykologi i rettsvesenet, som vurdering av vitneutsagn." },
-    { "term": "Statens barnehus", "def": "Sted der barn avhøres og får hjelp etter vold eller overgrep." },
-    { "term": "Knapphet i markedsføring", "def": "Å få en vare til å virke sjelden for å øke lysten til å kjøpe." },
-    { "term": "Beskyttet tittel", "def": "Bare autoriserte psykologer kan kalle seg psykolog." }
+    {
+      "term": "Anvendt psykologi",
+      "def": "Bruk av psykologisk kunnskap til å løse praktiske problemer."
+    },
+    {
+      "term": "Grunnforskning",
+      "def": "Forskning som søker ny kunnskap uten et bestemt praktisk mål."
+    },
+    {
+      "term": "Klinisk psykologi",
+      "def": "Utredning og behandling av psykiske lidelser."
+    },
+    {
+      "term": "Psykolog",
+      "def": "Profesjonsutdannet i psykologi, gir utredning og psykoterapi."
+    },
+    {
+      "term": "Psykiater",
+      "def": "Lege med spesialisering i psykiatri – kan skrive ut medisiner."
+    },
+    {
+      "term": "Kognitiv atferdsterapi",
+      "def": "Behandling som endrer tankemønstre og atferd."
+    },
+    {
+      "term": "Helsepsykologi",
+      "def": "Hvordan tanker og vaner påvirker fysisk helse."
+    },
+    {
+      "term": "Pedagogisk psykologi",
+      "def": "Kunnskap om læring, motivasjon og utvikling brukt i skolen."
+    },
+    {
+      "term": "PP-tjenesten",
+      "def": "Pedagogisk-psykologisk tjeneste som utreder elevers behov."
+    },
+    {
+      "term": "Arbeids- og organisasjonspsykologi",
+      "def": "Psykologi om rekruttering, ledelse og arbeidsmiljø."
+    },
+    {
+      "term": "Idrettspsykologi",
+      "def": "Mental trening, målsetting og håndtering av prestasjonsangst."
+    },
+    {
+      "term": "Visualisering",
+      "def": "Å se for seg en prestasjon i detalj som mental trening."
+    },
+    {
+      "term": "Rettspsykologi",
+      "def": "Psykologi i rettsvesenet, som vurdering av vitneutsagn."
+    },
+    {
+      "term": "Statens barnehus",
+      "def": "Sted der barn avhøres og får hjelp etter vold eller overgrep."
+    },
+    {
+      "term": "Knapphet i markedsføring",
+      "def": "Å få en vare til å virke sjelden for å øke lysten til å kjøpe."
+    },
+    {
+      "term": "Beskyttet tittel",
+      "def": "Bare autoriserte psykologer kan kalle seg psykolog."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er anvendt psykologi?", "options": ["Psykologi om dyr", "Bruk av psykologisk kunnskap til å løse praktiske problemer", "Psykologi bare for leger", "Historisk psykologi"], "correct": 1, "explain": "I motsetning til grunnforskning." },
-    { "id": "q02", "text": "Hva er forskjellen på en psykolog og en psykiater?", "options": ["En psykiater er lege og kan skrive ut medisiner", "Det er det samme", "En psykolog kan skrive ut medisiner", "En psykiater jobber bare i skolen"], "correct": 0, "explain": "Begge kan behandle psykiske lidelser." },
-    { "id": "q03", "text": "Hva gjør kognitiv atferdsterapi?", "options": ["Tolker drømmer", "Gir medisiner", "Hjelper personen å endre tankemønstre og atferd", "Opererer i hjernen"], "correct": 2, "explain": "En mye brukt behandlingsform." },
-    { "id": "q04", "text": "Hva gjør PP-tjenesten?", "options": ["Rekrutterer ledere", "Avhører vitner", "Trener idrettsutøvere", "Utreder elever som trenger spesialundervisning"], "correct": 3, "explain": "Pedagogisk-psykologisk tjeneste." },
-    { "id": "q05", "text": "Hvilket felt jobber med mental trening og prestasjonsangst?", "options": ["Idrettspsykologi", "Rettspsykologi", "Klinisk psykologi", "Helsepsykologi"], "correct": 0, "explain": "Målsetting, konsentrasjon og visualisering." },
-    { "id": "q06", "text": "Hvorfor er rettspsykologi viktig ved vitneutsagn?", "options": ["Vitner lyver alltid", "Hukommelsen kan påvirkes av ledende spørsmål", "Vitner husker alt perfekt", "Retten bruker ikke vitner"], "correct": 1, "explain": "Minner kan endres." },
-    { "id": "q07", "text": "Hva er et eksempel på psykologi i markedsføring?", "options": ["Å gi ærlige produktopplysninger", "Å selge varer billig", "Å skrive «bare tre igjen!» for å skape knapphet", "Å ha åpent om søndagen"], "correct": 2, "explain": "Knapphet øker lysten til å kjøpe." },
-    { "id": "q08", "text": "Hvilket felt handler om rekruttering, ledelse og arbeidsmiljø?", "options": ["Idrettspsykologi", "Rettspsykologi", "Pedagogisk psykologi", "Arbeids- og organisasjonspsykologi"], "correct": 3, "explain": "Psykologi i arbeidslivet." },
-    { "id": "q09", "text": "Kan hvem som helst kalle seg psykolog i Norge?", "options": ["Nei, tittelen er beskyttet", "Ja", "Ja, hvis de har tatt et nettkurs", "Bare hvis de jobber i skolen"], "correct": 0, "explain": "Krever autorisasjon." },
-    { "id": "q10", "text": "Hvilket etisk spørsmål er viktig i anvendt psykologi?", "options": ["Om kunnskapen er gammel", "Om kunnskapen brukes i personens egen interesse", "Om psykologen er ung", "Om metoden er dyr"], "correct": 1, "explain": "Psykologi kan brukes både til å hjelpe og manipulere." }
+    {
+      "id": "q01",
+      "text": "Hva er anvendt psykologi?",
+      "options": [
+        "Psykologi om dyr",
+        "Bruk av psykologisk kunnskap til å løse praktiske problemer",
+        "Psykologi bare for leger",
+        "Historisk psykologi"
+      ],
+      "correct": 1,
+      "explain": "I motsetning til grunnforskning."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er forskjellen på en psykolog og en psykiater?",
+      "options": [
+        "En psykiater er lege og kan skrive ut medisiner",
+        "Det er det samme",
+        "En psykolog kan skrive ut medisiner",
+        "En psykiater jobber bare i skolen"
+      ],
+      "correct": 0,
+      "explain": "Begge kan behandle psykiske lidelser."
+    },
+    {
+      "id": "q03",
+      "text": "Hva gjør kognitiv atferdsterapi?",
+      "options": [
+        "Tolker drømmer",
+        "Gir medisiner",
+        "Hjelper personen å endre tankemønstre og atferd",
+        "Opererer i hjernen"
+      ],
+      "correct": 2,
+      "explain": "En mye brukt behandlingsform."
+    },
+    {
+      "id": "q04",
+      "text": "Hva gjør PP-tjenesten?",
+      "options": [
+        "Rekrutterer ledere",
+        "Avhører vitner",
+        "Trener idrettsutøvere",
+        "Utreder elever som trenger spesialundervisning"
+      ],
+      "correct": 3,
+      "explain": "Pedagogisk-psykologisk tjeneste."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket felt jobber med mental trening og prestasjonsangst?",
+      "options": [
+        "Idrettspsykologi",
+        "Rettspsykologi",
+        "Klinisk psykologi",
+        "Helsepsykologi"
+      ],
+      "correct": 0,
+      "explain": "Målsetting, konsentrasjon og visualisering."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor er rettspsykologi viktig ved vitneutsagn?",
+      "options": [
+        "Vitner lyver alltid",
+        "Hukommelsen kan påvirkes av ledende spørsmål",
+        "Vitner husker alt perfekt",
+        "Retten bruker ikke vitner"
+      ],
+      "correct": 1,
+      "explain": "Minner kan endres."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er et eksempel på psykologi i markedsføring?",
+      "options": [
+        "Å gi ærlige produktopplysninger",
+        "Å selge varer billig",
+        "Å skrive «bare tre igjen!» for å skape knapphet",
+        "Å ha åpent om søndagen"
+      ],
+      "correct": 2,
+      "explain": "Knapphet øker lysten til å kjøpe."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket felt handler om rekruttering, ledelse og arbeidsmiljø?",
+      "options": [
+        "Idrettspsykologi",
+        "Rettspsykologi",
+        "Pedagogisk psykologi",
+        "Arbeids- og organisasjonspsykologi"
+      ],
+      "correct": 3,
+      "explain": "Psykologi i arbeidslivet."
+    },
+    {
+      "id": "q09",
+      "text": "Kan hvem som helst kalle seg psykolog i Norge?",
+      "options": [
+        "Nei, tittelen er beskyttet",
+        "Ja",
+        "Ja, hvis de har tatt et nettkurs",
+        "Bare hvis de jobber i skolen"
+      ],
+      "correct": 0,
+      "explain": "Krever autorisasjon."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket etisk spørsmål er viktig i anvendt psykologi?",
+      "options": [
+        "Om kunnskapen er gammel",
+        "Om kunnskapen brukes i personens egen interesse",
+        "Om psykologen er ung",
+        "Om metoden er dyr"
+      ],
+      "correct": 1,
+      "explain": "Psykologi kan brukes både til å hjelpe og manipulere."
+    }
   ],
   "mindmap": {
     "label": "Anvendt psykologi",
     "children": [
-      { "label": "Helse", "children": [
-        { "label": "Klinisk psykologi" },
-        { "label": "Psykolog og psykiater" },
-        { "label": "Helsepsykologi" }
-      ] },
-      { "label": "Skole", "children": [
-        { "label": "Pedagogisk psykologi" },
-        { "label": "PP-tjenesten" }
-      ] },
-      { "label": "Arbeid og idrett", "children": [
-        { "label": "Rekruttering og ledelse" },
-        { "label": "Mental trening" }
-      ] },
-      { "label": "Rettsvesen", "children": [
-        { "label": "Vitneutsagn" },
-        { "label": "Statens barnehus" }
-      ] },
-      { "label": "Marked og teknologi", "children": [
-        { "label": "Knapphet og anbefalinger" },
-        { "label": "Oppmerksomhet i apper" }
-      ] },
-      { "label": "Etikk", "children": [
-        { "label": "Samtykke" },
-        { "label": "Hjelpe eller manipulere" }
-      ] }
+      {
+        "label": "Helse",
+        "children": [
+          {
+            "label": "Klinisk psykologi"
+          },
+          {
+            "label": "Psykolog og psykiater"
+          },
+          {
+            "label": "Helsepsykologi"
+          }
+        ]
+      },
+      {
+        "label": "Skole",
+        "children": [
+          {
+            "label": "Pedagogisk psykologi"
+          },
+          {
+            "label": "PP-tjenesten"
+          }
+        ]
+      },
+      {
+        "label": "Arbeid og idrett",
+        "children": [
+          {
+            "label": "Rekruttering og ledelse"
+          },
+          {
+            "label": "Mental trening"
+          }
+        ]
+      },
+      {
+        "label": "Rettsvesen",
+        "children": [
+          {
+            "label": "Vitneutsagn"
+          },
+          {
+            "label": "Statens barnehus"
+          }
+        ]
+      },
+      {
+        "label": "Marked og teknologi",
+        "children": [
+          {
+            "label": "Knapphet og anbefalinger"
+          },
+          {
+            "label": "Oppmerksomhet i apper"
+          }
+        ]
+      },
+      {
+        "label": "Etikk",
+        "children": [
+          {
+            "label": "Samtykke"
+          },
+          {
+            "label": "Hjelpe eller manipulere"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Psykologisk kunnskap er nyttig også i yrker som sykepleier og politi.", "correct": true, "explain": "Alle som jobber med mennesker." },
-      { "id": "m02", "type": "sant-usant", "text": "Helsepsykologi handler bare om psykiske lidelser.", "correct": false, "explain": "Den handler også om hvordan tanker og vaner påvirker fysisk helse." },
-      { "id": "m03", "type": "sant-usant", "text": "Mange apper er designet for å holde på oppmerksomheten vår.", "correct": true, "explain": "Blant annet med varsler og belønninger." },
-      { "id": "m04", "type": "sant-usant", "text": "Taushetsplikt er uviktig i anvendt psykologi.", "correct": false, "explain": "Taushetsplikten er sentral i all behandling." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er visualisering i idrettspsykologi?", "options": ["Å se på video av motstanderen", "Å se for seg en prestasjon i detalj", "Å bruke briller", "Å tegne treningsplaner"], "correct": 1, "explain": "En form for mental trening." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor avhøres barn som kan ha vært utsatt for vold?", "options": ["I Statens barnehus", "På skolen", "Hos Arbeidstilsynet", "I Stortinget"], "correct": 0, "explain": "Avhøret tilpasses barnet." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kjennetegner grunnforskning?", "options": ["Den løser alltid et praktisk problem", "Den gjøres bare i skolen", "Den søker ny kunnskap uten et bestemt praktisk mål", "Den bruker ikke data"], "correct": 2, "explain": "Anvendt forskning bygger videre på den." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Psykologisk kunnskap er nyttig også i yrker som sykepleier og politi.",
+        "correct": true,
+        "explain": "Alle som jobber med mennesker."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Helsepsykologi handler bare om psykiske lidelser.",
+        "correct": false,
+        "explain": "Den handler også om hvordan tanker og vaner påvirker fysisk helse."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange apper er designet for å holde på oppmerksomheten vår.",
+        "correct": true,
+        "explain": "Blant annet med varsler og belønninger."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Taushetsplikt er uviktig i anvendt psykologi.",
+        "correct": false,
+        "explain": "Taushetsplikten er sentral i all behandling."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er visualisering i idrettspsykologi?",
+        "options": [
+          "Å se på video av motstanderen",
+          "Å se for seg en prestasjon i detalj",
+          "Å bruke briller",
+          "Å tegne treningsplaner"
+        ],
+        "correct": 1,
+        "explain": "En form for mental trening."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor avhøres barn som kan ha vært utsatt for vold?",
+        "options": [
+          "I Statens barnehus",
+          "På skolen",
+          "Hos Arbeidstilsynet",
+          "I Stortinget"
+        ],
+        "correct": 0,
+        "explain": "Avhøret tilpasses barnet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kjennetegner grunnforskning?",
+        "options": [
+          "Den løser alltid et praktisk problem",
+          "Den gjøres bare i skolen",
+          "Den søker ny kunnskap uten et bestemt praktisk mål",
+          "Den bruker ikke data"
+        ],
+        "correct": 2,
+        "explain": "Anvendt forskning bygger videre på den."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign klinisk psykologi og helsepsykologi: Hva er hovedområdet hvert felt undersøker eller arbeider med?",
+        "fasit": "Klinisk psykologi handler om å utrede og behandle psykiske lidelser. Helsepsykologi undersøker hvordan tanker og vaner påvirker fysisk helse.",
+        "kriterier": [
+          "Forklarer at klinisk psykologi handler om utredning og behandling av psykiske lidelser.",
+          "Forklarer at helsepsykologi handler om hvordan tanker og vaner påvirker fysisk helse."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En lærer merker at noen elever mister motivasjonen når de ikke får til en oppgave. Forklar hvordan kunnskap fra pedagogisk psykologi kan hjelpe læreren med å støtte elevenes læring.",
+        "fasit": "Læreren kan bruke kunnskap om læring og motivasjon til å gi nyttige tilbakemeldinger og tilpasse undervisningen. Slik kan læreren støtte elevenes utvikling og læring.",
+        "kriterier": [
+          "Knytter pedagogisk psykologi til læring, motivasjon eller utvikling.",
+          "Forklarer hvordan tilbakemeldinger eller tilpasset undervisning kan støtte elevene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En arbeidsgruppe har lav motivasjon og konflikter mellom kollegene. Forklar hvordan arbeids- og organisasjonspsykologi kan brukes til å arbeide med situasjonen.",
+        "fasit": "Arbeids- og organisasjonspsykologi kan brukes til å arbeide med motivasjon, arbeidsmiljø og konflikter. Kunnskapen kan også brukes til å støtte ledelse og teamarbeid.",
+        "kriterier": [
+          "Knytter feltet til minst ett relevant forhold, som motivasjon, arbeidsmiljø eller konflikter.",
+          "Forklarer hvordan psykologisk kunnskap kan brukes i arbeidet med gruppen eller arbeidsplassen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En idrettsutøver ser for seg hele konkurransen i detalj før den starter. Forklar hva denne mentale treningen kalles, og hva utøveren gjør.",
+        "fasit": "Dette kalles visualisering. Utøveren ser for seg en prestasjon i detalj som en del av mental trening.",
+        "kriterier": [
+          "Kjenner igjen mental treningsmetode som visualisering.",
+          "Forklarer at utøveren ser for seg prestasjonen i detalj."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et barn som har opplevd vold, skal avhøres og få hjelp. Forklar hvilken rolle Statens barnehus har i en slik situasjon.",
+        "fasit": "Statens barnehus er et sted der barn avhøres og får hjelp etter vold eller overgrep.",
+        "kriterier": [
+          "Forklarer at barn kan avhøres ved Statens barnehus.",
+          "Får fram at barn også kan få hjelp der etter vold eller overgrep."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En butikk reklamerer med «bare tre igjen». Forklar hva knapphet i markedsføring betyr, og hvorfor det kan gjøre at folk får mer lyst til å kjøpe varen.",
+        "fasit": "Knapphet betyr at en vare framstilles som sjelden eller snart utsolgt. Det kan øke lysten til å kjøpe varen fordi den virker vanskelig å få tak i.",
+        "kriterier": [
+          "Forklarer at varen framstilles som sjelden eller begrenset tilgjengelig.",
+          "Knytter dette til økt kjøpelyst."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En app bruker varsler og belønninger for å få brukerne til å komme tilbake ofte. Forklar hvordan slike virkemidler kan holde på oppmerksomheten, og nevn én etisk bekymring.",
+        "fasit": "Varsler og belønninger kan trekke brukernes oppmerksomhet tilbake til appen og bidra til at de bruker den ofte. En etisk bekymring er at psykologisk kunnskap kan brukes til å påvirke eller manipulere brukerne.",
+        "kriterier": [
+          "Forklarer at varsler eller belønninger kan trekke oppmerksomheten tilbake til appen.",
+          "Nevner en relevant etisk bekymring, for eksempel påvirkning eller manipulering av brukerne."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En veileder bruker en metode som ikke er dokumentert eller forskningsbasert, og forteller ikke personen hvordan personopplysninger blir behandlet. Forklar to etiske hensyn veilederen bør ivareta.",
+        "fasit": "Veilederen bør bruke en metode som er dokumentert og forskningsbasert. Veilederen må også respektere taushetsplikten og behandle personopplysninger forsvarlig.",
+        "kriterier": [
+          "Får fram at metoden bør være dokumentert og forskningsbasert.",
+          "Får fram at taushetsplikten eller forsvarlig behandling av personopplysninger må ivaretas."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

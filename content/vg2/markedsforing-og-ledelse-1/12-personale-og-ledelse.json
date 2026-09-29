@@ -4,77 +4,421 @@
   "trinnId": "vg2",
   "name": "Personalet og ledelsen i markedsføringen",
   "intro": "Hvorfor de ansatte og lederne er avgjørende når markedsføringsstrategien skal gjennomføres: sannhetens øyeblikk, intern markedsføring, servicekvalitet, ledelsesstiler, situasjonsbestemt ledelse, motivasjon og organisasjonskultur.",
-  "kompetansemaal": [12],
+  "kompetansemaal": [
+    12
+  ],
   "sammendrag": "## De ansatte som konkurransemiddel\n\nEn strategi på papiret er lite verdt hvis den ikke blir **gjennomført**. Det er de **ansatte** som møter kundene, svarer i telefonen, pakker varene og løser problemer. Særlig i **tjenesteytende** virksomheter er personalet en del av **produktet**.\n\n## Sannhetens øyeblikk\n\n**Sannhetens øyeblikk** er hvert møte mellom kunden og virksomheten – i butikken, på telefon, i chat eller i sosiale medier. Uttrykket ble kjent gjennom den svenske flyselskapslederen **Jan Carlzon**. Hvert møte kan **styrke** eller **svekke** kundens inntrykk. Én dårlig opplevelse kan ødelegge mye av det reklamen har bygget opp.\n\n## Intern markedsføring\n\n**Intern markedsføring** betyr å «selge» strategien til de **ansatte** før den selges til kundene. De ansatte må\n\n- **kjenne** virksomhetens mål, verdier og posisjonering\n- ha **kunnskap** om produktene\n- få **opplæring** i service og salg\n- **tro** på det de selger\n\nAnsatte som trives og er stolte av arbeidsplassen, blir gode **ambassadører**.\n\n## Servicekvalitet\n\nKunden sammenligner **forventet** service med **opplevd** service. Blir forventningene innfridd eller overgått, blir kunden **fornøyd** og kanskje **lojal**. God **klagebehandling** kan gjøre en misfornøyd kunde til en lojal kunde.\n\n## Ledelsens rolle\n\nLederne skal **formidle** strategien, **organisere** arbeidet, **motivere** de ansatte og **følge opp** resultatene. De er også **rollemodeller**: Hvis lederen ikke tar kundene på alvor, gjør heller ikke de ansatte det.\n\n## Ledelsesstiler\n\n- **Autoritær** ledelse: Lederen **bestemmer** alene. Effektivt i kriser, men kan gi lite **engasjement**.\n- **Demokratisk** ledelse: Lederen **involverer** de ansatte i beslutninger. Gir eierskap, men kan ta tid.\n- **La det skure**-ledelse: Lederen gir **lite** styring. Kan fungere med svært selvstendige ansatte, men gir ofte **uklarhet**.\n\n**Situasjonsbestemt ledelse** betyr at lederen **tilpasser** stilen til den ansattes **kompetanse** og **motivasjon**: En nyansatt trenger tydelige **instrukser**, mens en erfaren medarbeider kan få **delegert** ansvar.\n\n## Motivasjon\n\n**Frederick Herzberg** skilte mellom\n\n- **hygienefaktorer** – lønn, arbeidstid og arbeidsforhold. Er de dårlige, blir de ansatte **misfornøyde**, men gode hygienefaktorer gir ikke i seg selv motivasjon.\n- **motivasjonsfaktorer** – **anerkjennelse**, **ansvar**, **utvikling** og **meningsfullt** arbeid. De gir **motivasjon** og **engasjement**.\n\nRos, tillit og muligheter til å **lære** kan derfor bety like mye som lønn.\n\n## Organisasjonskultur\n\n**Organisasjonskulturen** er de **felles verdiene**, **normene** og **vanene** i virksomheten – «måten vi gjør ting på her». En **kundeorientert** kultur gjør at de ansatte tar ansvar for kundene også når lederen ikke ser på.\n\n## Vurdering\n\nNår en virksomhet lanserer en ny strategi – for eksempel å bli kjent for **best service** – må den investere i **opplæring**, **rekruttering**, **motivasjon** og **ledelse**. Ellers blir løftene i reklamen **tomme**.",
   "flashcards": [
-    { "term": "Sannhetens øyeblikk", "def": "Hvert møte mellom kunden og virksomheten." },
-    { "term": "Jan Carlzon", "def": "Svensk flyselskapsleder som gjorde «sannhetens øyeblikk» kjent." },
-    { "term": "Intern markedsføring", "def": "Å selge strategien til de ansatte før kundene." },
-    { "term": "Ambassadør", "def": "Ansatt som snakker positivt om arbeidsplassen og produktene." },
-    { "term": "Servicekvalitet", "def": "Forholdet mellom forventet og opplevd service." },
-    { "term": "Klagebehandling", "def": "Hvordan virksomheten håndterer misfornøyde kunder." },
-    { "term": "Autoritær ledelse", "def": "Lederen bestemmer alene." },
-    { "term": "Demokratisk ledelse", "def": "Lederen involverer de ansatte i beslutninger." },
-    { "term": "La det skure-ledelse", "def": "Lederen gir lite styring." },
-    { "term": "Situasjonsbestemt ledelse", "def": "Lederstilen tilpasses den ansattes kompetanse og motivasjon." },
-    { "term": "Delegering", "def": "Å gi ansvar og myndighet til en medarbeider." },
-    { "term": "Hygienefaktorer", "def": "Herzberg: lønn og arbeidsforhold som hindrer misnøye." },
-    { "term": "Motivasjonsfaktorer", "def": "Herzberg: anerkjennelse, ansvar og utvikling som gir motivasjon." },
-    { "term": "Organisasjonskultur", "def": "Felles verdier, normer og vaner i virksomheten." },
-    { "term": "Kundeorientert kultur", "def": "Ansatte tar ansvar for kundene også uten kontroll." }
+    {
+      "term": "Sannhetens øyeblikk",
+      "def": "Hvert møte mellom kunden og virksomheten."
+    },
+    {
+      "term": "Jan Carlzon",
+      "def": "Svensk flyselskapsleder som gjorde «sannhetens øyeblikk» kjent."
+    },
+    {
+      "term": "Intern markedsføring",
+      "def": "Å selge strategien til de ansatte før kundene."
+    },
+    {
+      "term": "Ambassadør",
+      "def": "Ansatt som snakker positivt om arbeidsplassen og produktene."
+    },
+    {
+      "term": "Servicekvalitet",
+      "def": "Forholdet mellom forventet og opplevd service."
+    },
+    {
+      "term": "Klagebehandling",
+      "def": "Hvordan virksomheten håndterer misfornøyde kunder."
+    },
+    {
+      "term": "Autoritær ledelse",
+      "def": "Lederen bestemmer alene."
+    },
+    {
+      "term": "Demokratisk ledelse",
+      "def": "Lederen involverer de ansatte i beslutninger."
+    },
+    {
+      "term": "La det skure-ledelse",
+      "def": "Lederen gir lite styring."
+    },
+    {
+      "term": "Situasjonsbestemt ledelse",
+      "def": "Lederstilen tilpasses den ansattes kompetanse og motivasjon."
+    },
+    {
+      "term": "Delegering",
+      "def": "Å gi ansvar og myndighet til en medarbeider."
+    },
+    {
+      "term": "Hygienefaktorer",
+      "def": "Herzberg: lønn og arbeidsforhold som hindrer misnøye."
+    },
+    {
+      "term": "Motivasjonsfaktorer",
+      "def": "Herzberg: anerkjennelse, ansvar og utvikling som gir motivasjon."
+    },
+    {
+      "term": "Organisasjonskultur",
+      "def": "Felles verdier, normer og vaner i virksomheten."
+    },
+    {
+      "term": "Kundeorientert kultur",
+      "def": "Ansatte tar ansvar for kundene også uten kontroll."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er sannhetens øyeblikk?", "options": ["Når regnskapet legges fram", "Hvert møte mellom kunden og virksomheten", "Når en ansatt får lønn", "Når en reklame lanseres"], "correct": 1, "explain": "Hvert møte kan styrke eller svekke inntrykket." },
-    { "id": "q02", "text": "Hva er intern markedsføring?", "options": ["Å selge strategien til de ansatte", "Reklame i egen butikk", "Salg til andre bedrifter", "Å markedsføre i utlandet"], "correct": 0, "explain": "De ansatte må tro på det de selger." },
-    { "id": "q03", "text": "Når blir en kunde fornøyd med servicen?", "options": ["Når prisen er høy", "Når det er lang kø", "Når opplevd service innfrir eller overgår forventningene", "Når butikken er stor"], "correct": 2, "explain": "Kunden sammenligner." },
-    { "id": "q04", "text": "Hvilken ledelsesstil involverer de ansatte i beslutninger?", "options": ["Autoritær", "La det skure", "Enevelde", "Demokratisk"], "correct": 3, "explain": "Gir eierskap." },
-    { "id": "q05", "text": "Hva er situasjonsbestemt ledelse?", "options": ["Å tilpasse stilen til den ansattes kompetanse og motivasjon", "Å alltid bestemme alene", "Å aldri styre", "Å lede bare i kriser"], "correct": 0, "explain": "En nyansatt trenger mer instruksjon." },
-    { "id": "q06", "text": "Hva er en motivasjonsfaktor hos Herzberg?", "options": ["Lønn", "Anerkjennelse", "Arbeidstid", "Kontorets temperatur"], "correct": 1, "explain": "Lønn er en hygienefaktor." },
-    { "id": "q07", "text": "Hva er organisasjonskultur?", "options": ["Kunst på veggene", "Organisasjonskartet", "Felles verdier, normer og vaner", "Julebordet"], "correct": 2, "explain": "«Måten vi gjør ting på her»." },
-    { "id": "q08", "text": "Hvorfor er lederen en rollemodell?", "options": ["Fordi lederen har høyest lønn", "Fordi lederen er eldst", "Fordi lederen jobber minst", "Fordi de ansatte ofte gjør som lederen gjør"], "correct": 3, "explain": "Holdninger smitter." },
-    { "id": "q09", "text": "Når kan autoritær ledelse fungere godt?", "options": ["I kriser der det må tas raske beslutninger", "Alltid", "Når de ansatte er svært erfarne", "Aldri"], "correct": 0, "explain": "Men kan gi lite engasjement over tid." },
-    { "id": "q10", "text": "Hva kan god klagebehandling føre til?", "options": ["Flere klager", "At en misfornøyd kunde blir lojal", "Lavere kvalitet", "At kunden aldri kommer tilbake"], "correct": 1, "explain": "Kunden ser at virksomheten tar ansvar." }
+    {
+      "id": "q01",
+      "text": "Hva er sannhetens øyeblikk?",
+      "options": [
+        "Når regnskapet legges fram",
+        "Hvert møte mellom kunden og virksomheten",
+        "Når en ansatt får lønn",
+        "Når en reklame lanseres"
+      ],
+      "correct": 1,
+      "explain": "Hvert møte kan styrke eller svekke inntrykket."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er intern markedsføring?",
+      "options": [
+        "Å selge strategien til de ansatte",
+        "Reklame i egen butikk",
+        "Salg til andre bedrifter",
+        "Å markedsføre i utlandet"
+      ],
+      "correct": 0,
+      "explain": "De ansatte må tro på det de selger."
+    },
+    {
+      "id": "q03",
+      "text": "Når blir en kunde fornøyd med servicen?",
+      "options": [
+        "Når prisen er høy",
+        "Når det er lang kø",
+        "Når opplevd service innfrir eller overgår forventningene",
+        "Når butikken er stor"
+      ],
+      "correct": 2,
+      "explain": "Kunden sammenligner."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken ledelsesstil involverer de ansatte i beslutninger?",
+      "options": [
+        "Autoritær",
+        "La det skure",
+        "Enevelde",
+        "Demokratisk"
+      ],
+      "correct": 3,
+      "explain": "Gir eierskap."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er situasjonsbestemt ledelse?",
+      "options": [
+        "Å tilpasse stilen til den ansattes kompetanse og motivasjon",
+        "Å alltid bestemme alene",
+        "Å aldri styre",
+        "Å lede bare i kriser"
+      ],
+      "correct": 0,
+      "explain": "En nyansatt trenger mer instruksjon."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en motivasjonsfaktor hos Herzberg?",
+      "options": [
+        "Lønn",
+        "Anerkjennelse",
+        "Arbeidstid",
+        "Kontorets temperatur"
+      ],
+      "correct": 1,
+      "explain": "Lønn er en hygienefaktor."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er organisasjonskultur?",
+      "options": [
+        "Kunst på veggene",
+        "Organisasjonskartet",
+        "Felles verdier, normer og vaner",
+        "Julebordet"
+      ],
+      "correct": 2,
+      "explain": "«Måten vi gjør ting på her»."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er lederen en rollemodell?",
+      "options": [
+        "Fordi lederen har høyest lønn",
+        "Fordi lederen er eldst",
+        "Fordi lederen jobber minst",
+        "Fordi de ansatte ofte gjør som lederen gjør"
+      ],
+      "correct": 3,
+      "explain": "Holdninger smitter."
+    },
+    {
+      "id": "q09",
+      "text": "Når kan autoritær ledelse fungere godt?",
+      "options": [
+        "I kriser der det må tas raske beslutninger",
+        "Alltid",
+        "Når de ansatte er svært erfarne",
+        "Aldri"
+      ],
+      "correct": 0,
+      "explain": "Men kan gi lite engasjement over tid."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kan god klagebehandling føre til?",
+      "options": [
+        "Flere klager",
+        "At en misfornøyd kunde blir lojal",
+        "Lavere kvalitet",
+        "At kunden aldri kommer tilbake"
+      ],
+      "correct": 1,
+      "explain": "Kunden ser at virksomheten tar ansvar."
+    }
   ],
   "mindmap": {
     "label": "Personale og ledelse",
     "children": [
-      { "label": "Ansatte", "children": [
-        { "label": "Sannhetens øyeblikk" },
-        { "label": "Intern markedsføring" },
-        { "label": "Ambassadører" }
-      ] },
-      { "label": "Service", "children": [
-        { "label": "Forventet og opplevd" },
-        { "label": "Klagebehandling" }
-      ] },
-      { "label": "Ledelsesstiler", "children": [
-        { "label": "Autoritær" },
-        { "label": "Demokratisk" },
-        { "label": "La det skure" },
-        { "label": "Situasjonsbestemt" }
-      ] },
-      { "label": "Motivasjon", "children": [
-        { "label": "Hygienefaktorer" },
-        { "label": "Motivasjonsfaktorer" }
-      ] },
-      { "label": "Kultur", "children": [
-        { "label": "Verdier og normer" },
-        { "label": "Kundeorientering" }
-      ] }
+      {
+        "label": "Ansatte",
+        "children": [
+          {
+            "label": "Sannhetens øyeblikk"
+          },
+          {
+            "label": "Intern markedsføring"
+          },
+          {
+            "label": "Ambassadører"
+          }
+        ]
+      },
+      {
+        "label": "Service",
+        "children": [
+          {
+            "label": "Forventet og opplevd"
+          },
+          {
+            "label": "Klagebehandling"
+          }
+        ]
+      },
+      {
+        "label": "Ledelsesstiler",
+        "children": [
+          {
+            "label": "Autoritær"
+          },
+          {
+            "label": "Demokratisk"
+          },
+          {
+            "label": "La det skure"
+          },
+          {
+            "label": "Situasjonsbestemt"
+          }
+        ]
+      },
+      {
+        "label": "Motivasjon",
+        "children": [
+          {
+            "label": "Hygienefaktorer"
+          },
+          {
+            "label": "Motivasjonsfaktorer"
+          }
+        ]
+      },
+      {
+        "label": "Kultur",
+        "children": [
+          {
+            "label": "Verdier og normer"
+          },
+          {
+            "label": "Kundeorientering"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "I tjenesteytende virksomheter er de ansatte ofte en del av selve produktet.", "correct": true, "explain": "For eksempel frisører og servitører." },
-      { "id": "m02", "type": "sant-usant", "text": "Gode hygienefaktorer gir alene sterk motivasjon ifølge Herzberg.", "correct": false, "explain": "De hindrer misnøye, men motiverer ikke i seg selv." },
-      { "id": "m03", "type": "sant-usant", "text": "Én dårlig kundeopplevelse kan svekke det reklamen har bygget opp.", "correct": true, "explain": "Sannhetens øyeblikk." },
-      { "id": "m04", "type": "sant-usant", "text": "La det skure-ledelse gir alltid klare mål og god oppfølging.", "correct": false, "explain": "Den gir ofte uklarhet." },
-      { "id": "m05", "type": "flervalg", "text": "Hva trenger en nyansatt ifølge situasjonsbestemt ledelse?", "options": ["Full delegering", "Tydelige instrukser", "Ingen oppfølging", "Bare høy lønn"], "correct": 1, "explain": "Lav kompetanse på oppgaven krever mer styring." },
-      { "id": "m06", "type": "flervalg", "text": "Hva må en virksomhet investere i for å bli kjent for best service?", "options": ["Opplæring, motivasjon og ledelse", "Bare mer reklame", "Bare lavere priser", "Bare flere butikker"], "correct": 0, "explain": "Ellers blir løftene tomme." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken faktor er en hygienefaktor hos Herzberg?", "options": ["Anerkjennelse", "Ansvar", "Lønn", "Personlig utvikling"], "correct": 2, "explain": "Hindrer misnøye." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "I tjenesteytende virksomheter er de ansatte ofte en del av selve produktet.",
+        "correct": true,
+        "explain": "For eksempel frisører og servitører."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Gode hygienefaktorer gir alene sterk motivasjon ifølge Herzberg.",
+        "correct": false,
+        "explain": "De hindrer misnøye, men motiverer ikke i seg selv."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Én dårlig kundeopplevelse kan svekke det reklamen har bygget opp.",
+        "correct": true,
+        "explain": "Sannhetens øyeblikk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "La det skure-ledelse gir alltid klare mål og god oppfølging.",
+        "correct": false,
+        "explain": "Den gir ofte uklarhet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva trenger en nyansatt ifølge situasjonsbestemt ledelse?",
+        "options": [
+          "Full delegering",
+          "Tydelige instrukser",
+          "Ingen oppfølging",
+          "Bare høy lønn"
+        ],
+        "correct": 1,
+        "explain": "Lav kompetanse på oppgaven krever mer styring."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva må en virksomhet investere i for å bli kjent for best service?",
+        "options": [
+          "Opplæring, motivasjon og ledelse",
+          "Bare mer reklame",
+          "Bare lavere priser",
+          "Bare flere butikker"
+        ],
+        "correct": 0,
+        "explain": "Ellers blir løftene tomme."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken faktor er en hygienefaktor hos Herzberg?",
+        "options": [
+          "Anerkjennelse",
+          "Ansvar",
+          "Lønn",
+          "Personlig utvikling"
+        ],
+        "correct": 2,
+        "explain": "Hindrer misnøye."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En virksomhet har en god markedsføringsstrategi, men de ansatte følger den ikke i møtet med kundene. Forklar hvorfor dette kan gjøre strategien lite verdt, særlig i en tjenesteytende virksomhet.",
+        "fasit": "Strategien må gjennomføres av de ansatte når de møter kundene. I en tjenesteytende virksomhet er personalets service også en del av produktet.",
+        "kriterier": [
+          "Knytter strategiens verdi til at den blir gjennomført av de ansatte.",
+          "Forklarer at personalet eller servicen er en del av produktet i tjenesteytende virksomheter."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En butikk lover god hjelp i reklamen, men en ansatt avviser en kunde som ber om hjelp. Forklar hvordan dette møtet kan påvirke kundens inntrykk av butikken.",
+        "fasit": "Møtet er et sannhetens øyeblikk som kan svekke kundens inntrykk. Den dårlige opplevelsen kan også ødelegge noe av det reklamen har bygget opp.",
+        "kriterier": [
+          "Forklarer at møtet mellom kunden og virksomheten kan styrke eller svekke inntrykket.",
+          "Knytter den dårlige opplevelsen til løftet eller inntrykket reklamen har skapt."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En virksomhet vil bli kjent for best service. De ansatte kjenner ikke produktene godt og har ikke fått opplæring i service. Nevn to ting ledelsen bør gjøre før strategien markedsføres til kundene, og forklar hvordan de kan hjelpe.",
+        "fasit": "Ledelsen bør gi de ansatte kunnskap om produktene og opplæring i service. Da blir de bedre i stand til å levere servicen strategien lover.",
+        "kriterier": [
+          "Foreslår relevante tiltak for å forberede de ansatte, som produktkunnskap eller opplæring i service og salg.",
+          "Forklarer hvordan tiltakene hjelper de ansatte med å gjennomføre strategien overfor kundene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En kunde forventer rask og vennlig hjelp, men opplever lang ventetid og lite hjelp. Forklar hva virksomheten må sammenligne for å vurdere servicekvaliteten, og hva situasjonen viser.",
+        "fasit": "Virksomheten må sammenligne forventet service med opplevd service. Her er den opplevde servicen dårligere enn det kunden forventet.",
+        "kriterier": [
+          "Viser at servicekvalitet vurderes ved å sammenligne forventet og opplevd service.",
+          "Bruker situasjonen til å forklare at den opplevde servicen ikke innfridde forventningene."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign autoritær og demokratisk ledelse med tanke på hvem som tar beslutningene, og én mulig følge for de ansatte eller arbeidet.",
+        "fasit": "Ved autoritær ledelse bestemmer lederen alene, mens ansatte involveres i beslutninger ved demokratisk ledelse. Demokratisk ledelse kan gi de ansatte eierskap, men beslutningene kan ta tid.",
+        "kriterier": [
+          "Forklarer forskjellen på hvem som tar beslutningene i de to lederstilene.",
+          "Nevner en relevant følge, som eierskap eller engasjement ved demokratisk ledelse eller at beslutninger kan ta tid."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En nyansatt trenger mye støtte, mens en erfaren medarbeider kan arbeide selvstendig. Forklar hvordan lederen kan tilpasse ledelsen til hver av dem.",
+        "fasit": "Lederen kan gi den nyansatte tydelige instrukser. Den erfarne medarbeideren kan få delegert ansvar fordi vedkommende har mer kompetanse til å arbeide selvstendig.",
+        "kriterier": [
+          "Foreslår tydelige instrukser eller mer styring for den nyansatte.",
+          "Foreslår delegering eller større ansvar for den erfarne medarbeideren, knyttet til kompetansen eller selvstendigheten deres."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En arbeidsplass forbedrer lønnen og arbeidsforholdene, og gir samtidig ansatte mer ansvar og mulighet til å utvikle seg. Bruk Herzbergs begreper til å skille mellom de to typene tiltak og forklar forskjellen på virkningen deres.",
+        "fasit": "Lønn og arbeidsforhold er hygienefaktorer som kan hindre misnøye. Ansvar og utvikling er motivasjonsfaktorer som kan skape motivasjon og engasjement.",
+        "kriterier": [
+          "Plasserer lønn og arbeidsforhold som hygienefaktorer og forklarer at de hindrer misnøye.",
+          "Plasserer ansvar og utvikling som motivasjonsfaktorer og forklarer at de kan gi motivasjon eller engasjement."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En ansatt hjelper kunder med problemer selv når lederen ikke er til stede. Forklar hva dette kan tyde på ved virksomhetens kultur, og hvordan kulturen kan påvirke de ansattes handlinger.",
+        "fasit": "Det kan tyde på en kundeorientert organisasjonskultur. Felles verdier og normer om å ta ansvar for kundene kan gjøre at ansatte hjelper dem også uten kontroll fra lederen.",
+        "kriterier": [
+          "Knytter handlingen til en kundeorientert kultur.",
+          "Forklarer at felles verdier eller normer kan påvirke ansatte til å ta ansvar for kundene også uten lederens kontroll."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

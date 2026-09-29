@@ -4,75 +4,417 @@
   "trinnId": "vg3",
   "name": "Test av gjennomsnitt og konfidensintervall",
   "intro": "Hvordan du tester en påstand om et gjennomsnitt med normalfordelingen, hva som endres når standardavviket er ukjent, hvordan du lager og tolker konfidensintervaller for gjennomsnitt og andeler, og sammenhengen mellom konfidensintervall og hypotesetest.",
-  "kompetansemaal": [10, 11],
+  "kompetansemaal": [
+    10,
+    11
+  ],
   "sammendrag": "## Gjennomsnitt i et utvalg\n\nVi vil vite noe om **forventningen μ** i en populasjon, men har bare et **utvalg** med n målinger og gjennomsnitt x̄. Etter **sentralgrensesetningen** er X̄ tilnærmet normalfordelt med\n\n- forventning **μ**\n- standardavvik **σ/√n** – ofte kalt **standardfeilen**\n\n## Test av gjennomsnitt med kjent σ\n\nTeststørrelsen er\n\n**Z = (x̄ − μ₀)/(σ/√n)**\n\n**Eksempel**: Pakker skal veie 500 g. Maskinen har σ = 6 g. Et utvalg på 36 pakker gir x̄ = 497,5 g. Veier pakkene feil?\n\n- H₀: μ = 500 og H₁: μ ≠ 500 – tosidig\n- Z = (497,5 − 500)/(6/√36) = −2,5/1 = **−2,5**\n- p-verdi = 2 · P(Z ≤ −2,5) ≈ 2 · 0,0062 ≈ **0,012**\n\n0,012 < 0,05, så vi **forkaster** H₀. Det er grunnlag for å påstå at maskinen ikke fyller riktig i gjennomsnitt.\n\n## Ukjent standardavvik\n\nOfte kjenner vi ikke σ og må bruke **utvalgets standardavvik s**. Da gir **t-fordelingen** en mer korrekt test, særlig for små utvalg. Den ligner normalfordelingen, men har **tykkere haler**. I Python kan du bruke scipy.stats.ttest_1samp. For store utvalg blir t-fordelingen og normalfordelingen nesten like.\n\n## Konfidensintervall for gjennomsnitt\n\nEt **95 % konfidensintervall** for μ er\n\n**x̄ ± 1,96 · σ/√n**\n\nFor pakkene blir det 497,5 ± 1,96 · 1, altså omtrent **[495,5, 499,5]** gram.\n\n**Tolking**: Hvis vi gjentok utvalget mange ganger og laget et slikt intervall hver gang, ville omtrent **95 %** av intervallene inneholde den sanne μ. Det er **metoden** som treffer i 95 % av tilfellene.\n\n## Konfidensintervall for andel\n\nMed andelen p̂ i et utvalg på n er et 95 % konfidensintervall\n\n**p̂ ± 1,96 · √(p̂(1 − p̂)/n)**\n\n**Eksempel**: I en meningsmåling med 1000 personer svarer 30 % at de vil stemme på et parti. Feilmarginen er\n\n1,96 · √(0,3 · 0,7/1000) ≈ **0,028**\n\nIntervallet er omtrent **27,2 % til 32,8 %** – «pluss minus 2,8 prosentpoeng».\n\n## Bredden på intervallet\n\n- Større utvalg gir **smalere** intervall. For å **halvere** feilmarginen trenger du **fire** ganger så stort utvalg.\n- Høyere konfidensnivå, for eksempel 99 %, gir **bredere** intervall. Da bruker vi 2,576 i stedet for 1,96.\n- Større spredning i dataene gir bredere intervall.\n\n## Sammenheng med hypotesetest\n\nEn **tosidig** test på 5 % nivå forkaster H₀: μ = μ₀ **akkurat når** μ₀ ligger **utenfor** 95 % konfidensintervallet. For pakkene ligger 500 g utenfor [495,5, 499,5], og testen forkastet H₀.\n\n## Reelle data og kritisk blikk\n\n- Er utvalget **tilfeldig** og **representativt**? En nettavstemning der alle kan svare, gir ikke et gyldig konfidensintervall.\n- Er målingene **uavhengige**?\n- Feilmarginen i en meningsmåling tar bare hensyn til **tilfeldig** variasjon, ikke til at noen lar være å svare eller svarer uærlig.\n\nNår to partier i en måling skiller seg med mindre enn feilmarginen, kan vi **ikke** si sikkert hvem som er størst.",
   "flashcards": [
-    { "term": "Standardfeil", "def": "σ/√n – standardavviket til gjennomsnittet." },
-    { "term": "Z for gjennomsnitt", "def": "(x̄ − μ₀)/(σ/√n)" },
-    { "term": "Utvalgets standardavvik s", "def": "Brukes når σ er ukjent." },
-    { "term": "t-fordelingen", "def": "Brukes med ukjent σ – tykkere haler enn normalfordelingen." },
-    { "term": "ttest_1samp", "def": "Python-funksjon for t-test av ett gjennomsnitt." },
-    { "term": "95 % konfidensintervall for μ", "def": "x̄ ± 1,96 · σ/√n" },
-    { "term": "95 % konfidensintervall for andel", "def": "p̂ ± 1,96 · √(p̂(1 − p̂)/n)" },
-    { "term": "Tolking av konfidensintervall", "def": "Metoden fanger den sanne verdien i 95 % av tilfellene." },
-    { "term": "Feilmargin", "def": "Halve bredden av konfidensintervallet." },
-    { "term": "Halvere feilmarginen", "def": "Krever fire ganger så stort utvalg." },
-    { "term": "99 % konfidensintervall", "def": "Bruker 2,576 – bredere intervall." },
-    { "term": "Test og intervall", "def": "Tosidig test forkaster når μ₀ ligger utenfor intervallet." },
-    { "term": "Representativt utvalg", "def": "Speiler populasjonen – nødvendig for gyldige konklusjoner." },
-    { "term": "Feilmargin i meningsmåling", "def": "Tar bare hensyn til tilfeldig variasjon." },
-    { "term": "1,96", "def": "z-verdien for 95 % tosidig." }
+    {
+      "term": "Standardfeil",
+      "def": "σ/√n – standardavviket til gjennomsnittet."
+    },
+    {
+      "term": "Z for gjennomsnitt",
+      "def": "(x̄ − μ₀)/(σ/√n)"
+    },
+    {
+      "term": "Utvalgets standardavvik s",
+      "def": "Brukes når σ er ukjent."
+    },
+    {
+      "term": "t-fordelingen",
+      "def": "Brukes med ukjent σ – tykkere haler enn normalfordelingen."
+    },
+    {
+      "term": "ttest_1samp",
+      "def": "Python-funksjon for t-test av ett gjennomsnitt."
+    },
+    {
+      "term": "95 % konfidensintervall for μ",
+      "def": "x̄ ± 1,96 · σ/√n"
+    },
+    {
+      "term": "95 % konfidensintervall for andel",
+      "def": "p̂ ± 1,96 · √(p̂(1 − p̂)/n)"
+    },
+    {
+      "term": "Tolking av konfidensintervall",
+      "def": "Metoden fanger den sanne verdien i 95 % av tilfellene."
+    },
+    {
+      "term": "Feilmargin",
+      "def": "Halve bredden av konfidensintervallet."
+    },
+    {
+      "term": "Halvere feilmarginen",
+      "def": "Krever fire ganger så stort utvalg."
+    },
+    {
+      "term": "99 % konfidensintervall",
+      "def": "Bruker 2,576 – bredere intervall."
+    },
+    {
+      "term": "Test og intervall",
+      "def": "Tosidig test forkaster når μ₀ ligger utenfor intervallet."
+    },
+    {
+      "term": "Representativt utvalg",
+      "def": "Speiler populasjonen – nødvendig for gyldige konklusjoner."
+    },
+    {
+      "term": "Feilmargin i meningsmåling",
+      "def": "Tar bare hensyn til tilfeldig variasjon."
+    },
+    {
+      "term": "1,96",
+      "def": "z-verdien for 95 % tosidig."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er standardfeilen når σ = 6 og n = 36?", "options": ["6", "1", "0,17", "36"], "correct": 1, "explain": "6/√36." },
-    { "id": "q02", "text": "Hva er Z når x̄ = 497,5, μ₀ = 500, σ = 6 og n = 36?", "options": ["−2,5", "2,5", "−0,4", "−15"], "correct": 0, "explain": "−2,5/1." },
-    { "id": "q03", "text": "Hva er et 95 % konfidensintervall for μ?", "options": ["x̄ ± σ", "μ ± 1,96", "x̄ ± 1,96 · σ/√n", "x̄ ± 2,576 · σ"], "correct": 2, "explain": "Bruker standardfeilen." },
-    { "id": "q04", "text": "Hva er feilmarginen når 30 % av 1000 svarer ja?", "options": ["30 prosentpoeng", "1 prosentpoeng", "10 prosentpoeng", "Omtrent 2,8 prosentpoeng"], "correct": 3, "explain": "1,96 · √(0,21/1000)." },
-    { "id": "q05", "text": "Hvor mye større utvalg trengs for å halvere feilmarginen?", "options": ["Fire ganger så stort", "Dobbelt så stort", "Halvparten så stort", "Ti ganger så stort"], "correct": 0, "explain": "Feilmarginen avtar med √n." },
-    { "id": "q06", "text": "Hva brukes når σ er ukjent og utvalget er lite?", "options": ["Poissonfordelingen", "t-fordelingen", "Uniform fordeling", "Ingen test er mulig"], "correct": 1, "explain": "Med utvalgets standardavvik s." },
-    { "id": "q07", "text": "Hva skjer med intervallet når konfidensnivået økes fra 95 % til 99 %?", "options": ["Det blir smalere", "Det blir uendret", "Det blir bredere", "Det forsvinner"], "correct": 2, "explain": "2,576 i stedet for 1,96." },
-    { "id": "q08", "text": "Når forkaster en tosidig test på 5 % nivå H₀: μ = μ₀?", "options": ["Når μ₀ ligger midt i intervallet", "Når intervallet er bredt", "Når x̄ = μ₀", "Når μ₀ ligger utenfor 95 % konfidensintervallet"], "correct": 3, "explain": "Test og intervall henger sammen." },
-    { "id": "q09", "text": "Hvordan tolkes et 95 % konfidensintervall?", "options": ["Metoden gir intervaller som inneholder den sanne verdien i 95 % av tilfellene", "95 % av dataene ligger i intervallet", "μ endres i 95 % av tilfellene", "Det er 95 % sikkert at x̄ er riktig"], "correct": 0, "explain": "Det er metoden som treffer." },
-    { "id": "q10", "text": "Hva tar feilmarginen i en meningsmåling ikke hensyn til?", "options": ["Tilfeldig variasjon", "At noen lar være å svare eller svarer uærlig", "Utvalgets størrelse", "Andelen som svarer ja"], "correct": 1, "explain": "Bare tilfeldig variasjon." }
+    {
+      "id": "q01",
+      "text": "Hva er standardfeilen når σ = 6 og n = 36?",
+      "options": [
+        "6",
+        "1",
+        "0,17",
+        "36"
+      ],
+      "correct": 1,
+      "explain": "6/√36."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er Z når x̄ = 497,5, μ₀ = 500, σ = 6 og n = 36?",
+      "options": [
+        "−2,5",
+        "2,5",
+        "−0,4",
+        "−15"
+      ],
+      "correct": 0,
+      "explain": "−2,5/1."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er et 95 % konfidensintervall for μ?",
+      "options": [
+        "x̄ ± σ",
+        "μ ± 1,96",
+        "x̄ ± 1,96 · σ/√n",
+        "x̄ ± 2,576 · σ"
+      ],
+      "correct": 2,
+      "explain": "Bruker standardfeilen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er feilmarginen når 30 % av 1000 svarer ja?",
+      "options": [
+        "30 prosentpoeng",
+        "1 prosentpoeng",
+        "10 prosentpoeng",
+        "Omtrent 2,8 prosentpoeng"
+      ],
+      "correct": 3,
+      "explain": "1,96 · √(0,21/1000)."
+    },
+    {
+      "id": "q05",
+      "text": "Hvor mye større utvalg trengs for å halvere feilmarginen?",
+      "options": [
+        "Fire ganger så stort",
+        "Dobbelt så stort",
+        "Halvparten så stort",
+        "Ti ganger så stort"
+      ],
+      "correct": 0,
+      "explain": "Feilmarginen avtar med √n."
+    },
+    {
+      "id": "q06",
+      "text": "Hva brukes når σ er ukjent og utvalget er lite?",
+      "options": [
+        "Poissonfordelingen",
+        "t-fordelingen",
+        "Uniform fordeling",
+        "Ingen test er mulig"
+      ],
+      "correct": 1,
+      "explain": "Med utvalgets standardavvik s."
+    },
+    {
+      "id": "q07",
+      "text": "Hva skjer med intervallet når konfidensnivået økes fra 95 % til 99 %?",
+      "options": [
+        "Det blir smalere",
+        "Det blir uendret",
+        "Det blir bredere",
+        "Det forsvinner"
+      ],
+      "correct": 2,
+      "explain": "2,576 i stedet for 1,96."
+    },
+    {
+      "id": "q08",
+      "text": "Når forkaster en tosidig test på 5 % nivå H₀: μ = μ₀?",
+      "options": [
+        "Når μ₀ ligger midt i intervallet",
+        "Når intervallet er bredt",
+        "Når x̄ = μ₀",
+        "Når μ₀ ligger utenfor 95 % konfidensintervallet"
+      ],
+      "correct": 3,
+      "explain": "Test og intervall henger sammen."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan tolkes et 95 % konfidensintervall?",
+      "options": [
+        "Metoden gir intervaller som inneholder den sanne verdien i 95 % av tilfellene",
+        "95 % av dataene ligger i intervallet",
+        "μ endres i 95 % av tilfellene",
+        "Det er 95 % sikkert at x̄ er riktig"
+      ],
+      "correct": 0,
+      "explain": "Det er metoden som treffer."
+    },
+    {
+      "id": "q10",
+      "text": "Hva tar feilmarginen i en meningsmåling ikke hensyn til?",
+      "options": [
+        "Tilfeldig variasjon",
+        "At noen lar være å svare eller svarer uærlig",
+        "Utvalgets størrelse",
+        "Andelen som svarer ja"
+      ],
+      "correct": 1,
+      "explain": "Bare tilfeldig variasjon."
+    }
   ],
   "mindmap": {
     "label": "Gjennomsnitt og intervall",
     "children": [
-      { "label": "Utvalg", "children": [
-        { "label": "x̄ og μ" },
-        { "label": "Standardfeil σ/√n" }
-      ] },
-      { "label": "Test", "children": [
-        { "label": "Z-test med kjent σ" },
-        { "label": "t-test med ukjent σ" }
-      ] },
-      { "label": "Konfidensintervall", "children": [
-        { "label": "For gjennomsnitt" },
-        { "label": "For andel" },
-        { "label": "Tolking" }
-      ] },
-      { "label": "Bredde", "children": [
-        { "label": "Utvalgsstørrelse" },
-        { "label": "Konfidensnivå" }
-      ] },
-      { "label": "Kritisk blikk", "children": [
-        { "label": "Representativt utvalg" },
-        { "label": "Meningsmålinger" }
-      ] }
+      {
+        "label": "Utvalg",
+        "children": [
+          {
+            "label": "x̄ og μ"
+          },
+          {
+            "label": "Standardfeil σ/√n"
+          }
+        ]
+      },
+      {
+        "label": "Test",
+        "children": [
+          {
+            "label": "Z-test med kjent σ"
+          },
+          {
+            "label": "t-test med ukjent σ"
+          }
+        ]
+      },
+      {
+        "label": "Konfidensintervall",
+        "children": [
+          {
+            "label": "For gjennomsnitt"
+          },
+          {
+            "label": "For andel"
+          },
+          {
+            "label": "Tolking"
+          }
+        ]
+      },
+      {
+        "label": "Bredde",
+        "children": [
+          {
+            "label": "Utvalgsstørrelse"
+          },
+          {
+            "label": "Konfidensnivå"
+          }
+        ]
+      },
+      {
+        "label": "Kritisk blikk",
+        "children": [
+          {
+            "label": "Representativt utvalg"
+          },
+          {
+            "label": "Meningsmålinger"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "For store utvalg blir t-fordelingen og normalfordelingen nesten like.", "correct": true, "explain": "Forskjellen er størst for små utvalg." },
-      { "id": "m02", "type": "sant-usant", "text": "En nettavstemning der alle kan svare, gir et gyldig konfidensintervall.", "correct": false, "explain": "Utvalget er ikke tilfeldig." },
-      { "id": "m03", "type": "sant-usant", "text": "Større spredning i dataene gir bredere konfidensintervall.", "correct": true, "explain": "σ står i telleren." },
-      { "id": "m04", "type": "sant-usant", "text": "To partier som skiller seg med mindre enn feilmarginen, kan sikkert rangeres.", "correct": false, "explain": "Forskjellen kan skyldes tilfeldigheter." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er 95 % konfidensintervallet for pakkene med x̄ = 497,5 og standardfeil 1?", "options": ["[496,5, 498,5]", "Omtrent [495,5, 499,5]", "[490, 505]", "[497,5, 500]"], "correct": 1, "explain": "497,5 ± 1,96." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er den tosidige p-verdien når Z = −2,5?", "options": ["Omtrent 0,012", "Omtrent 0,006", "Omtrent 0,05", "Omtrent 0,5"], "correct": 0, "explain": "2 · 0,0062." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken z-verdi brukes for et 99 % konfidensintervall?", "options": ["1,645", "1,96", "2,576", "3"], "correct": 2, "explain": "Bredere enn 95 %." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "For store utvalg blir t-fordelingen og normalfordelingen nesten like.",
+        "correct": true,
+        "explain": "Forskjellen er størst for små utvalg."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En nettavstemning der alle kan svare, gir et gyldig konfidensintervall.",
+        "correct": false,
+        "explain": "Utvalget er ikke tilfeldig."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Større spredning i dataene gir bredere konfidensintervall.",
+        "correct": true,
+        "explain": "σ står i telleren."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "To partier som skiller seg med mindre enn feilmarginen, kan sikkert rangeres.",
+        "correct": false,
+        "explain": "Forskjellen kan skyldes tilfeldigheter."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er 95 % konfidensintervallet for pakkene med x̄ = 497,5 og standardfeil 1?",
+        "options": [
+          "[496,5, 498,5]",
+          "Omtrent [495,5, 499,5]",
+          "[490, 505]",
+          "[497,5, 500]"
+        ],
+        "correct": 1,
+        "explain": "497,5 ± 1,96."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er den tosidige p-verdien når Z = −2,5?",
+        "options": [
+          "Omtrent 0,012",
+          "Omtrent 0,006",
+          "Omtrent 0,05",
+          "Omtrent 0,5"
+        ],
+        "correct": 0,
+        "explain": "2 · 0,0062."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken z-verdi brukes for et 99 % konfidensintervall?",
+        "options": [
+          "1,645",
+          "1,96",
+          "2,576",
+          "3"
+        ],
+        "correct": 2,
+        "explain": "Bredere enn 95 %."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva forteller standardfeilen om gjennomsnittet i et utvalg, og hvordan påvirkes den når utvalgsstørrelsen n øker?",
+        "fasit": "Standardfeilen er standardavviket til gjennomsnittet og beregnes som σ/√n. Når n øker, blir standardfeilen mindre.",
+        "kriterier": [
+          "Forklarer at standardfeilen beskriver spredningen til gjennomsnittet.",
+          "Knytter standardfeilen til σ/√n og sier at den blir mindre når n øker."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign testen av et gjennomsnitt når populasjonens standardavvik σ er kjent, med testen når σ er ukjent.",
+        "fasit": "Når σ er kjent, bruker vi Z-teststørrelsen med σ/√n i nevneren. Når σ er ukjent, bruker vi utvalgets standardavvik s og t-fordelingen, som har tykkere haler enn normalfordelingen, særlig viktig for små utvalg.",
+        "kriterier": [
+          "Knytter kjent σ til Z-teststørrelsen.",
+          "Knytter ukjent σ til utvalgets standardavvik s og t-fordelingen.",
+          "Får fram at t-fordelingen har tykkere haler, særlig relevant ved små utvalg."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En maskin fyller pakker med gjennomsnittsvekt x̄ = 497,5 g. For utvalget er n = 36, og maskinens standardavvik er σ = 6 g. Bruk 99 %-intervallet x̄ ± 2,576 · σ/√n til å regne ut intervallet.",
+        "fasit": "Standardfeilen er 6/√36 = 1 g. Intervallet blir 497,5 ± 2,576, altså omtrent [494,9, 500,1] g.",
+        "kriterier": [
+          "Finner standardfeilen 1 g.",
+          "Bruker 2,576 som feilmarginfaktor og får et intervall omtrent fra 494,9 g til 500,1 g."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I en tosidig test er P(Z ≤ −2,5) = 0,0062. Regn ut p-verdien og avgjør om H₀ forkastes på 5 % nivå.",
+        "fasit": "P-verdien er 2 · 0,0062 = 0,0124, omtrent 0,012. Siden den er mindre enn 0,05, forkaster vi H₀.",
+        "kriterier": [
+          "Dobler sannsynligheten og finner p-verdi omtrent 0,012.",
+          "Sammenligner med 0,05 og konkluderer med at H₀ forkastes."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En maskin skal fylle pakker med 500 g i gjennomsnitt. Skriv nullhypotesen og den alternative hypotesen hvis du vil undersøke om maskinen i gjennomsnitt fyller feil mengde, uansett om mengden er for høy eller for lav.",
+        "fasit": "Nullhypotesen er H₀: μ = 500 g. Den alternative hypotesen er H₁: μ ≠ 500 g, så testen er tosidig.",
+        "kriterier": [
+          "Oppgir H₀: μ = 500 g.",
+          "Oppgir H₁: μ ≠ 500 g eller forklarer at testen er tosidig."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hva er forskjellen på et konfidensintervall for et gjennomsnitt og et konfidensintervall for en andel? Nevn hvilken verdi fra utvalget som brukes i hvert tilfelle.",
+        "fasit": "Et intervall for et gjennomsnitt anslår populasjonsgjennomsnittet μ og tar utgangspunkt i utvalgsgjennomsnittet x̄. Et intervall for en andel anslår populasjonsandelen og tar utgangspunkt i utvalgsandelen p̂.",
+        "kriterier": [
+          "Knytter intervallet for gjennomsnitt til μ og x̄.",
+          "Knytter intervallet for andel til populasjonsandelen og p̂."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En nettavstemning om partipreferanser lar alle som besøker nettsiden svare. Hvorfor kan resultatet ikke uten videre brukes til å lage et gyldig konfidensintervall for alle velgere?",
+        "fasit": "De som svarer, utgjør ikke nødvendigvis et tilfeldig og representativt utvalg av alle velgere. Derfor kan resultatet være skjevt, og et konfidensintervall basert på det er ikke nødvendigvis gyldig.",
+        "kriterier": [
+          "Forklarer at selvvalgte deltakere ikke nødvendigvis er et tilfeldig eller representativt utvalg.",
+          "Knytter dette til at konfidensintervallet ikke gir et gyldig grunnlag for konklusjoner om alle velgere."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I en meningsmåling er forskjellen mellom to partiers oppslutning mindre enn feilmarginen. Hva kan du konkludere om hvilket parti som er størst, og hvorfor?",
+        "fasit": "Du kan ikke si sikkert hvilket parti som er størst. Forskjellen er mindre enn feilmarginen, så den kan skyldes tilfeldig variasjon i målingen.",
+        "kriterier": [
+          "Konkluderer med at det ikke er mulig å si sikkert hvilket parti som er størst.",
+          "Begrunner det med at forskjellen er mindre enn feilmarginen og kan skyldes tilfeldig variasjon."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

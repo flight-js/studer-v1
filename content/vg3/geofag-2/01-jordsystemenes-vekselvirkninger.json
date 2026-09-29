@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Vekselvirkninger mellom jordsystemene",
   "intro": "Hvordan atmosfæren, hydrosfæren, kryosfæren, litosfæren og biosfæren påvirker hverandre – med vekt på hvordan vekselvirkningene påvirker havet, atmosfæren og kryosfæren, og hvordan positive og negative tilbakekoblinger kan forsterke eller dempe endringer.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Fem jordsystemer\n\n- **Atmosfæren** – lufta rundt jorda\n- **Hydrosfæren** – hav, innsjøer, elver og grunnvann\n- **Kryosfæren** – is og snø: isbreer, innlandsis, havis og permafrost\n- **Litosfæren** – jordskorpa og den øverste delen av mantelen\n- **Biosfæren** – alt liv\n\nSystemene utveksler hele tiden **energi**, **vann** og **stoffer**. En endring i ett system påvirker de andre.\n\n## Hav og atmosfære\n\n- Havet tar opp mye **varme** og **CO₂** fra atmosfæren og demper klimaendringene. Men mer CO₂ gir **havforsuring**.\n- **Fordamping** fra havet gir vanndamp til atmosfæren, og **nedbør** fører vannet tilbake.\n- **Vind** driver **havstrømmer** og skaper **bølger**, og havstrømmene frakter varme som påvirker **værmønstre**.\n- **El Niño** i Stillehavet er et eksempel på samspill mellom hav og atmosfære som påvirker været over store deler av verden.\n\n## Kryosfæren\n\n- Is og snø har høy **albedo** – de reflekterer mye sollys.\n- Når **havis** smelter, blir mørkt hav blottlagt. Havet tar opp mer varme, og mer is smelter. Dette er en **positiv tilbakekobling** – den **forsterker** endringen.\n- Når **isbreer** og **innlandsis** smelter, stiger **havnivået**. Smeltevann kan også påvirke **havstrømmer** fordi ferskvann er **lettere** enn saltvann.\n- **Permafrost** som tiner, kan slippe ut **metan** og **CO₂** – en annen positiv tilbakekobling.\n\n## Litosfæren\n\n- **Vulkanutbrudd** kan sende **svovelgasser** høyt opp i atmosfæren. Der danner de små partikler som **reflekterer** sollys og kan gi **avkjøling** i et par år. Etter utbruddet fra **Pinatubo** på Filippinene i **1991** falt den globale temperaturen med omtrent **en halv grad**.\n- **Forvitring** av bergarter tar opp CO₂ over **lang** tid og påvirker klimaet over millioner av år.\n- **Platetektonikk** endrer fordelingen av **hav** og **land** og dermed havstrømmer og klima over geologisk tid.\n\n## Biosfæren\n\n- **Fotosyntese** på land og i havet tar opp CO₂ og produserer oksygen.\n- **Skog** påvirker **fordamping** og **nedbør**.\n- **Mennesket** er i dag en viktig del av biosfæren som endrer de andre systemene gjennom **utslipp**, **arealbruk** og **forurensning**.\n\n## Tilbakekoblinger\n\n- **Positive** tilbakekoblinger **forsterker** en endring, som is–albedo-effekten og tining av permafrost.\n- **Negative** tilbakekoblinger **demper** en endring. Et eksempel er at en varmere jord sender ut **mer varmestråling** til verdensrommet.\n\n**Vanndamp** er en viktig tilbakekobling: Varmere luft kan holde mer vanndamp, og vanndamp er en **drivhusgass**. Skyer kan virke **begge veier** – de reflekterer sollys, men holder også på varme.\n\n## Vippepunkter\n\nNoen forskere advarer mot **vippepunkter** – terskler der en endring blir **selvforsterkende** og vanskelig å snu, for eksempel **nedsmelting** av Grønlandsisen eller en svekkelse av **havstrømmene** i Atlanterhavet.",
   "flashcards": [
-    { "term": "Atmosfæren", "def": "Lufta rundt jorda." },
-    { "term": "Hydrosfæren", "def": "Hav, innsjøer, elver og grunnvann." },
-    { "term": "Kryosfæren", "def": "Is og snø: breer, innlandsis, havis og permafrost." },
-    { "term": "Litosfæren", "def": "Jordskorpa og øverste del av mantelen." },
-    { "term": "Biosfæren", "def": "Alt liv på jorda." },
-    { "term": "Albedo", "def": "Hvor mye av sollyset en overflate reflekterer." },
-    { "term": "Is–albedo-effekten", "def": "Smeltende is gir mørkere overflate og mer oppvarming." },
-    { "term": "Positiv tilbakekobling", "def": "Forsterker en endring." },
-    { "term": "Negativ tilbakekobling", "def": "Demper en endring." },
-    { "term": "Permafrost", "def": "Jord som er frossen hele året – kan slippe ut metan når den tiner." },
-    { "term": "Pinatubo 1991", "def": "Vulkanutbrudd som ga global avkjøling på omtrent en halv grad." },
-    { "term": "El Niño", "def": "Samspill mellom hav og atmosfære i Stillehavet som påvirker været globalt." },
-    { "term": "Havforsuring", "def": "Havets pH synker når det tar opp CO₂." },
-    { "term": "Vanndamp som tilbakekobling", "def": "Varmere luft holder mer vanndamp, som er en drivhusgass." },
-    { "term": "Vippepunkt", "def": "Terskel der endringen blir selvforsterkende." }
+    {
+      "term": "Atmosfæren",
+      "def": "Lufta rundt jorda."
+    },
+    {
+      "term": "Hydrosfæren",
+      "def": "Hav, innsjøer, elver og grunnvann."
+    },
+    {
+      "term": "Kryosfæren",
+      "def": "Is og snø: breer, innlandsis, havis og permafrost."
+    },
+    {
+      "term": "Litosfæren",
+      "def": "Jordskorpa og øverste del av mantelen."
+    },
+    {
+      "term": "Biosfæren",
+      "def": "Alt liv på jorda."
+    },
+    {
+      "term": "Albedo",
+      "def": "Hvor mye av sollyset en overflate reflekterer."
+    },
+    {
+      "term": "Is–albedo-effekten",
+      "def": "Smeltende is gir mørkere overflate og mer oppvarming."
+    },
+    {
+      "term": "Positiv tilbakekobling",
+      "def": "Forsterker en endring."
+    },
+    {
+      "term": "Negativ tilbakekobling",
+      "def": "Demper en endring."
+    },
+    {
+      "term": "Permafrost",
+      "def": "Jord som er frossen hele året – kan slippe ut metan når den tiner."
+    },
+    {
+      "term": "Pinatubo 1991",
+      "def": "Vulkanutbrudd som ga global avkjøling på omtrent en halv grad."
+    },
+    {
+      "term": "El Niño",
+      "def": "Samspill mellom hav og atmosfære i Stillehavet som påvirker været globalt."
+    },
+    {
+      "term": "Havforsuring",
+      "def": "Havets pH synker når det tar opp CO₂."
+    },
+    {
+      "term": "Vanndamp som tilbakekobling",
+      "def": "Varmere luft holder mer vanndamp, som er en drivhusgass."
+    },
+    {
+      "term": "Vippepunkt",
+      "def": "Terskel der endringen blir selvforsterkende."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilket system omfatter isbreer, havis og permafrost?", "options": ["Hydrosfæren", "Kryosfæren", "Litosfæren", "Biosfæren"], "correct": 1, "explain": "Is og snø." },
-    { "id": "q02", "text": "Hva er is–albedo-effekten?", "options": ["Smeltende is gir mørkere overflate som tar opp mer varme", "Is reflekterer mindre enn hav", "Is smelter aldri", "Is lager vind"], "correct": 0, "explain": "En positiv tilbakekobling." },
-    { "id": "q03", "text": "Hva skjedde etter vulkanutbruddet på Pinatubo i 1991?", "options": ["Global oppvarming", "Havnivået sank", "Global avkjøling på omtrent en halv grad", "Ingenting"], "correct": 2, "explain": "Svovelpartikler reflekterte sollys." },
-    { "id": "q04", "text": "Hvorfor er tining av permafrost en positiv tilbakekobling?", "options": ["Den gir mer is", "Den gir mer oksygen", "Den gir mer skog", "Den slipper ut metan og CO₂ som gir mer oppvarming"], "correct": 3, "explain": "Forsterker endringen." },
-    { "id": "q05", "text": "Hva gjør havet med CO₂ og varme fra atmosfæren?", "options": ["Tar opp mye av det og demper klimaendringene", "Slipper ut alt", "Påvirkes ikke", "Lager mer CO₂"], "correct": 0, "explain": "Men gir havforsuring." },
-    { "id": "q06", "text": "Hva er en negativ tilbakekobling?", "options": ["En som forsterker endringen", "En som demper endringen", "En som er skadelig", "En som stopper alt liv"], "correct": 1, "explain": "For eksempel økt varmestråling fra en varmere jord." },
-    { "id": "q07", "text": "Hvordan kan smeltevann påvirke havstrømmer?", "options": ["Det gjør havet saltere", "Det har ingen virkning", "Ferskvann er lettere enn saltvann og kan endre sirkulasjonen", "Det gjør havet kaldere alltid"], "correct": 2, "explain": "Tetthetsforskjeller driver havstrømmer." },
-    { "id": "q08", "text": "Hva er et vippepunkt?", "options": ["Et punkt på et kart", "En type vulkan", "En værstasjon", "En terskel der endringen blir selvforsterkende"], "correct": 3, "explain": "For eksempel nedsmelting av Grønlandsisen." },
-    { "id": "q09", "text": "Hvordan påvirker forvitring klimaet over lang tid?", "options": ["Den tar opp CO₂", "Den slipper ut metan", "Den lager is", "Den øker albedo"], "correct": 0, "explain": "Over millioner av år." },
-    { "id": "q10", "text": "Hvorfor kan skyer virke begge veier på klimaet?", "options": ["De består av is", "De reflekterer sollys, men holder også på varme", "De lager vind", "De er alltid kalde"], "correct": 1, "explain": "Netto virkning avhenger av skytype og høyde." }
+    {
+      "id": "q01",
+      "text": "Hvilket system omfatter isbreer, havis og permafrost?",
+      "options": [
+        "Hydrosfæren",
+        "Kryosfæren",
+        "Litosfæren",
+        "Biosfæren"
+      ],
+      "correct": 1,
+      "explain": "Is og snø."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er is–albedo-effekten?",
+      "options": [
+        "Smeltende is gir mørkere overflate som tar opp mer varme",
+        "Is reflekterer mindre enn hav",
+        "Is smelter aldri",
+        "Is lager vind"
+      ],
+      "correct": 0,
+      "explain": "En positiv tilbakekobling."
+    },
+    {
+      "id": "q03",
+      "text": "Hva skjedde etter vulkanutbruddet på Pinatubo i 1991?",
+      "options": [
+        "Global oppvarming",
+        "Havnivået sank",
+        "Global avkjøling på omtrent en halv grad",
+        "Ingenting"
+      ],
+      "correct": 2,
+      "explain": "Svovelpartikler reflekterte sollys."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor er tining av permafrost en positiv tilbakekobling?",
+      "options": [
+        "Den gir mer is",
+        "Den gir mer oksygen",
+        "Den gir mer skog",
+        "Den slipper ut metan og CO₂ som gir mer oppvarming"
+      ],
+      "correct": 3,
+      "explain": "Forsterker endringen."
+    },
+    {
+      "id": "q05",
+      "text": "Hva gjør havet med CO₂ og varme fra atmosfæren?",
+      "options": [
+        "Tar opp mye av det og demper klimaendringene",
+        "Slipper ut alt",
+        "Påvirkes ikke",
+        "Lager mer CO₂"
+      ],
+      "correct": 0,
+      "explain": "Men gir havforsuring."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en negativ tilbakekobling?",
+      "options": [
+        "En som forsterker endringen",
+        "En som demper endringen",
+        "En som er skadelig",
+        "En som stopper alt liv"
+      ],
+      "correct": 1,
+      "explain": "For eksempel økt varmestråling fra en varmere jord."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan kan smeltevann påvirke havstrømmer?",
+      "options": [
+        "Det gjør havet saltere",
+        "Det har ingen virkning",
+        "Ferskvann er lettere enn saltvann og kan endre sirkulasjonen",
+        "Det gjør havet kaldere alltid"
+      ],
+      "correct": 2,
+      "explain": "Tetthetsforskjeller driver havstrømmer."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et vippepunkt?",
+      "options": [
+        "Et punkt på et kart",
+        "En type vulkan",
+        "En værstasjon",
+        "En terskel der endringen blir selvforsterkende"
+      ],
+      "correct": 3,
+      "explain": "For eksempel nedsmelting av Grønlandsisen."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan påvirker forvitring klimaet over lang tid?",
+      "options": [
+        "Den tar opp CO₂",
+        "Den slipper ut metan",
+        "Den lager is",
+        "Den øker albedo"
+      ],
+      "correct": 0,
+      "explain": "Over millioner av år."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan skyer virke begge veier på klimaet?",
+      "options": [
+        "De består av is",
+        "De reflekterer sollys, men holder også på varme",
+        "De lager vind",
+        "De er alltid kalde"
+      ],
+      "correct": 1,
+      "explain": "Netto virkning avhenger av skytype og høyde."
+    }
   ],
   "mindmap": {
     "label": "Jordsystemene",
     "children": [
-      { "label": "Systemene", "children": [
-        { "label": "Atmosfære og hydrosfære" },
-        { "label": "Kryosfære" },
-        { "label": "Litosfære og biosfære" }
-      ] },
-      { "label": "Hav og atmosfære", "children": [
-        { "label": "Varme og CO₂" },
-        { "label": "Vind og strømmer" },
-        { "label": "El Niño" }
-      ] },
-      { "label": "Kryosfæren", "children": [
-        { "label": "Albedo" },
-        { "label": "Havnivå" },
-        { "label": "Permafrost" }
-      ] },
-      { "label": "Litosfæren", "children": [
-        { "label": "Vulkaner" },
-        { "label": "Forvitring" }
-      ] },
-      { "label": "Tilbakekoblinger", "children": [
-        { "label": "Positive" },
-        { "label": "Negative" },
-        { "label": "Vippepunkter" }
-      ] }
+      {
+        "label": "Systemene",
+        "children": [
+          {
+            "label": "Atmosfære og hydrosfære"
+          },
+          {
+            "label": "Kryosfære"
+          },
+          {
+            "label": "Litosfære og biosfære"
+          }
+        ]
+      },
+      {
+        "label": "Hav og atmosfære",
+        "children": [
+          {
+            "label": "Varme og CO₂"
+          },
+          {
+            "label": "Vind og strømmer"
+          },
+          {
+            "label": "El Niño"
+          }
+        ]
+      },
+      {
+        "label": "Kryosfæren",
+        "children": [
+          {
+            "label": "Albedo"
+          },
+          {
+            "label": "Havnivå"
+          },
+          {
+            "label": "Permafrost"
+          }
+        ]
+      },
+      {
+        "label": "Litosfæren",
+        "children": [
+          {
+            "label": "Vulkaner"
+          },
+          {
+            "label": "Forvitring"
+          }
+        ]
+      },
+      {
+        "label": "Tilbakekoblinger",
+        "children": [
+          {
+            "label": "Positive"
+          },
+          {
+            "label": "Negative"
+          },
+          {
+            "label": "Vippepunkter"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Varmere luft kan holde mer vanndamp.", "correct": true, "explain": "Vanndamp er en drivhusgass." },
-      { "id": "m02", "type": "sant-usant", "text": "Jordsystemene er uavhengige av hverandre.", "correct": false, "explain": "De utveksler energi, vann og stoffer." },
-      { "id": "m03", "type": "sant-usant", "text": "Mennesket er i dag en viktig kraft som endrer jordsystemene.", "correct": true, "explain": "Gjennom utslipp og arealbruk." },
-      { "id": "m04", "type": "sant-usant", "text": "Mørkt hav reflekterer mer sollys enn is.", "correct": false, "explain": "Is har høyere albedo." },
-      { "id": "m05", "type": "flervalg", "text": "Hva driver havstrømmer i overflaten?", "options": ["Månen alene", "Vind", "Vulkaner", "Permafrost"], "correct": 1, "explain": "Også tetthetsforskjeller." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gir smelting av isbreer og innlandsis?", "options": ["Havnivåstigning", "Havnivåsenkning", "Mer havis", "Kaldere hav alltid"], "correct": 0, "explain": "Havis som smelter, gir lite havnivåendring." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan påvirker platetektonikk klimaet?", "options": ["Raskt fra år til år", "Ikke i det hele tatt", "Ved å endre fordelingen av hav og land over geologisk tid", "Bare gjennom jordskjelv"], "correct": 2, "explain": "Endrer havstrømmer og klima." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Varmere luft kan holde mer vanndamp.",
+        "correct": true,
+        "explain": "Vanndamp er en drivhusgass."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Jordsystemene er uavhengige av hverandre.",
+        "correct": false,
+        "explain": "De utveksler energi, vann og stoffer."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mennesket er i dag en viktig kraft som endrer jordsystemene.",
+        "correct": true,
+        "explain": "Gjennom utslipp og arealbruk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Mørkt hav reflekterer mer sollys enn is.",
+        "correct": false,
+        "explain": "Is har høyere albedo."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva driver havstrømmer i overflaten?",
+        "options": [
+          "Månen alene",
+          "Vind",
+          "Vulkaner",
+          "Permafrost"
+        ],
+        "correct": 1,
+        "explain": "Også tetthetsforskjeller."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gir smelting av isbreer og innlandsis?",
+        "options": [
+          "Havnivåstigning",
+          "Havnivåsenkning",
+          "Mer havis",
+          "Kaldere hav alltid"
+        ],
+        "correct": 0,
+        "explain": "Havis som smelter, gir lite havnivåendring."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan påvirker platetektonikk klimaet?",
+        "options": [
+          "Raskt fra år til år",
+          "Ikke i det hele tatt",
+          "Ved å endre fordelingen av hav og land over geologisk tid",
+          "Bare gjennom jordskjelv"
+        ],
+        "correct": 2,
+        "explain": "Endrer havstrømmer og klima."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign hydrosfæren og kryosfæren. Hvilke deler av jorda omfatter hvert system?",
+        "fasit": "Hydrosfæren omfatter vann i hav, innsjøer, elver og grunnvann. Kryosfæren omfatter is og snø, blant annet isbreer, havis og permafrost.",
+        "kriterier": [
+          "Skiller mellom vannsystemet og systemet for is og snø.",
+          "Gir minst ett riktig eksempel på hva hvert system omfatter."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hvordan vind kan påvirke både havet og været.",
+        "fasit": "Vind driver havstrømmer og skaper bølger. Havstrømmene frakter varme, og det kan påvirke værmønstre.",
+        "kriterier": [
+          "Knytter vind til havstrømmer eller bølger.",
+          "Forklarer at havstrømmer frakter varme som påvirker værmønstre."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et vulkanutbrudd sender svovelgasser høyt opp i atmosfæren. Forklar hvordan dette kan føre til avkjøling.",
+        "fasit": "Svovelgassene danner små partikler i atmosfæren. Partiklene reflekterer sollys, slik at mindre energi varmer jorda og det kan bli avkjøling.",
+        "kriterier": [
+          "Nevner at gassene danner små partikler i atmosfæren.",
+          "Forklarer at partiklene reflekterer sollys og kan gi avkjøling."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "El Niño er et samspill mellom hav og atmosfære i Stillehavet. Hvilken følge kan dette samspillet ha for været?",
+        "fasit": "Samspillet mellom havet og atmosfæren under El Niño kan påvirke været over store deler av verden.",
+        "kriterier": [
+          "Identifiserer havet og atmosfæren som systemene som samspiller.",
+          "Nevner at været kan påvirkes over store deler av verden."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Varmere luft kan holde mer vanndamp, og vanndamp er en drivhusgass. Forklar hvordan dette kan forsterke en oppvarming.",
+        "fasit": "Når lufta blir varmere, kan den holde mer vanndamp. Siden vanndamp er en drivhusgass, bidrar den til å holde på varme og forsterke oppvarmingen.",
+        "kriterier": [
+          "Knytter varmere luft til at mer vanndamp kan være i lufta.",
+          "Forklarer at vanndampens rolle som drivhusgass kan forsterke oppvarmingen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign hva som skjer med klimaet når havis smelter, med hva som skjer med havnivået når isbreer eller innlandsis smelter.",
+        "fasit": "Når havis smelter, blir mørkt hav blottlagt. Havet tar da opp mer varme, som kan bidra til mer smelting. Når isbreer eller innlandsis smelter, stiger havnivået.",
+        "kriterier": [
+          "Forklarer at smelting av havis blottlegger mørkt hav som tar opp mer varme.",
+          "Nevner at smelting av isbreer eller innlandsis øker havnivået."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I en forenklet bokføring tilfører utslipp 15 enheter CO₂ til atmosfæren, mens fotosyntese tar opp 6 enheter. Hvor mange enheter CO₂ blir det netto tilført, og hvilket jordsystem tar opp CO₂-en?",
+        "fasit": "Netto blir 15 − 6 = 9 enheter CO₂ tilført. Det er biosfæren som tar opp CO₂ gjennom fotosyntese.",
+        "kriterier": [
+          "Regner ut at netto tilførsel er 9 enheter CO₂.",
+          "Knytter opptaket gjennom fotosyntese til biosfæren."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I en enkel modell kan lufta holde 4 enheter vanndamp før oppvarming og 7 enheter etter oppvarming. Hvor mange flere enheter kan lufta holde, og hvordan kan dette påvirke oppvarmingen?",
+        "fasit": "Lufta kan holde 7 − 4 = 3 flere enheter vanndamp. Siden vanndamp er en drivhusgass, kan økningen forsterke oppvarmingen.",
+        "kriterier": [
+          "Regner ut at økningen er 3 enheter.",
+          "Forklarer at mer vanndamp kan forsterke oppvarmingen fordi vanndamp er en drivhusgass."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

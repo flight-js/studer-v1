@@ -4,79 +4,428 @@
   "trinnId": "vg3",
   "name": "Redoksreaksjoner og elektrokjemi",
   "intro": "Oksidasjon og reduksjon, oksidasjonstall og balansering av redoksligninger, galvaniske celler og standard reduksjonspotensial, cellespenning og energi, batterier og brenselceller, elektrolyse med Faradays lov og korrosjon.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Oksidasjon og reduksjon\n\nI en **redoksreaksjon** overføres **elektroner**.\n\n- **Oksidasjon**: et stoff **avgir** elektroner, og oksidasjonstallet **øker**.\n- **Reduksjon**: et stoff **tar opp** elektroner, og oksidasjonstallet **minker**.\n\nStoffet som blir redusert, er **oksidasjonsmiddelet**, og stoffet som blir oksidert, er **reduksjonsmiddelet**.\n\n**Oksidasjonstall** hjelper oss å holde orden: Grunnstoffer har 0, O har vanligvis −2 og H vanligvis +1, og summen i et nøytralt molekyl er 0.\n\n## Balansering\n\nRedoksligninger balanseres slik at **elektronene** som avgis, er like mange som dem som tas opp. Ofte deler vi reaksjonen i to **halvreaksjoner**. I sur løsning brukes H⁺ og H₂O, i basisk løsning OH⁻ og H₂O.\n\n## Galvaniske celler\n\nI en **galvanisk celle** gir en **spontan** redoksreaksjon **elektrisk strøm**. I **Daniell-cellen** står sink i en sinksulfatløsning og kobber i en kobbersulfatløsning, forbundet med en **saltbro**:\n\n- **Anoden** (−): Zn → Zn²⁺ + 2e⁻ – **oksidasjon**\n- **Katoden** (+): Cu²⁺ + 2e⁻ → Cu – **reduksjon**\n\n## Standard reduksjonspotensial og cellespenning\n\n**Spenningsrekken** ordner halvreaksjonene etter **standard reduksjonspotensial** E°. Jo høyere E°, desto lettere blir stoffet **redusert**.\n\n**E°celle = E°katode − E°anode**\n\nFor Daniell-cellen: E°(Cu²⁺/Cu) = +0,34 V og E°(Zn²⁺/Zn) = −0,76 V, så E°celle = 0,34 − (−0,76) = **1,10 V**.\n\n## Spenning og energi\n\nSammenhengen mellom cellespenning og energi er\n\n**ΔG° = −zFE°**\n\nder z er antall elektroner som overføres, og **F = 96 485 C/mol** er **Faradays konstant**. For Daniell-cellen: ΔG° = −2 · 96 485 · 1,10 J ≈ **−212 kJ** per mol. En positiv cellespenning gir negativ ΔG – reaksjonen er **spontan**.\n\n## Batterier og brenselceller\n\n- **Litium-ion-batterier** i mobiler og elbiler kan **lades opp** igjen – reaksjonen drives baklengs ved lading.\n- I en **brenselcelle** reagerer **hydrogen** og **oksygen** og gir strøm og vann.\n\n## Elektrolyse\n\nI **elektrolyse** brukes **elektrisk energi** til å drive en **ikke-spontan** redoksreaksjon. Eksempler er produksjon av **aluminium**, **klor** og **hydrogen** og **forkobring** og **forgylling**.\n\n**Faradays lov** gir sammenhengen mellom **ladning** og **stoffmengde**:\n\n- Ladning: Q = I · t\n- Stoffmengde elektroner: n(e⁻) = Q / F\n- Stoffmengde stoff: n = n(e⁻) / z\n\n**Eksempel**: Elektrolyse av Cu²⁺ med **2,0 A** i **30 min**: Q = 2,0 · 1800 = 3600 C, n(e⁻) = 3600 / 96 485 = 0,0373 mol, n(Cu) = 0,0187 mol og m(Cu) = 0,0187 · 63,55 ≈ **1,19 g**.\n\n## Korrosjon\n\n**Korrosjon** er en redoksreaksjon der metaller **oksideres**, som når **jern ruster**. Den kan hindres med **maling**, **galvanisering** (sinkbelegg) eller en **offeranode** av et mer uedelt metall, som sink på båter.",
   "flashcards": [
-    { "term": "Oksidasjon", "def": "Avgivelse av elektroner – oksidasjonstallet øker." },
-    { "term": "Reduksjon", "def": "Opptak av elektroner – oksidasjonstallet minker." },
-    { "term": "Oksidasjonsmiddel", "def": "Stoffet som blir redusert." },
-    { "term": "Reduksjonsmiddel", "def": "Stoffet som blir oksidert." },
-    { "term": "Halvreaksjon", "def": "Oksidasjonen eller reduksjonen skrevet for seg." },
-    { "term": "Galvanisk celle", "def": "Celle der en spontan redoksreaksjon gir strøm." },
-    { "term": "Anode", "def": "Elektroden der oksidasjon skjer." },
-    { "term": "Katode", "def": "Elektroden der reduksjon skjer." },
-    { "term": "Saltbro", "def": "Forbindelse som lar ioner vandre og lukker kretsen." },
-    { "term": "Standard reduksjonspotensial", "def": "E° – høyere verdi betyr lettere å redusere." },
-    { "term": "E°celle", "def": "E°katode − E°anode." },
-    { "term": "ΔG° = −zFE°", "def": "Sammenhengen mellom cellespenning og fri energi." },
-    { "term": "Faradays konstant", "def": "F = 96 485 C/mol – ladningen til ett mol elektroner." },
-    { "term": "Elektrolyse", "def": "Elektrisk energi driver en ikke-spontan redoksreaksjon." },
-    { "term": "Offeranode", "def": "Uedelt metall som korroderer i stedet for konstruksjonen." },
-    { "term": "Brenselcelle", "def": "Hydrogen og oksygen reagerer og gir strøm og vann." }
+    {
+      "term": "Oksidasjon",
+      "def": "Avgivelse av elektroner – oksidasjonstallet øker."
+    },
+    {
+      "term": "Reduksjon",
+      "def": "Opptak av elektroner – oksidasjonstallet minker."
+    },
+    {
+      "term": "Oksidasjonsmiddel",
+      "def": "Stoffet som blir redusert."
+    },
+    {
+      "term": "Reduksjonsmiddel",
+      "def": "Stoffet som blir oksidert."
+    },
+    {
+      "term": "Halvreaksjon",
+      "def": "Oksidasjonen eller reduksjonen skrevet for seg."
+    },
+    {
+      "term": "Galvanisk celle",
+      "def": "Celle der en spontan redoksreaksjon gir strøm."
+    },
+    {
+      "term": "Anode",
+      "def": "Elektroden der oksidasjon skjer."
+    },
+    {
+      "term": "Katode",
+      "def": "Elektroden der reduksjon skjer."
+    },
+    {
+      "term": "Saltbro",
+      "def": "Forbindelse som lar ioner vandre og lukker kretsen."
+    },
+    {
+      "term": "Standard reduksjonspotensial",
+      "def": "E° – høyere verdi betyr lettere å redusere."
+    },
+    {
+      "term": "E°celle",
+      "def": "E°katode − E°anode."
+    },
+    {
+      "term": "ΔG° = −zFE°",
+      "def": "Sammenhengen mellom cellespenning og fri energi."
+    },
+    {
+      "term": "Faradays konstant",
+      "def": "F = 96 485 C/mol – ladningen til ett mol elektroner."
+    },
+    {
+      "term": "Elektrolyse",
+      "def": "Elektrisk energi driver en ikke-spontan redoksreaksjon."
+    },
+    {
+      "term": "Offeranode",
+      "def": "Uedelt metall som korroderer i stedet for konstruksjonen."
+    },
+    {
+      "term": "Brenselcelle",
+      "def": "Hydrogen og oksygen reagerer og gir strøm og vann."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva skjer ved oksidasjon?", "options": ["Stoffet tar opp elektroner", "Stoffet avgir elektroner", "Stoffet tar opp protoner", "Ingenting"], "correct": 1, "explain": "Oksidasjonstallet øker." },
-    { "id": "q02", "text": "Hvor skjer reduksjonen i en galvanisk celle?", "options": ["På katoden", "På anoden", "I saltbroen", "I ledningen"], "correct": 0, "explain": "Oksidasjon skjer på anoden." },
-    { "id": "q03", "text": "E°(Cu²⁺/Cu) = +0,34 V og E°(Zn²⁺/Zn) = −0,76 V. Hva er E°celle?", "options": ["0,42 V", "−1,10 V", "1,10 V", "0,34 V"], "correct": 2, "explain": "0,34 − (−0,76) = 1,10 V." },
-    { "id": "q04", "text": "Hva forteller en positiv cellespenning?", "options": ["At ΔG er positiv", "At reaksjonen ikke skjer", "At det trengs elektrolyse", "At reaksjonen er spontan og ΔG er negativ"], "correct": 3, "explain": "ΔG° = −zFE°." },
-    { "id": "q05", "text": "Hva er Faradays konstant?", "options": ["96 485 C/mol", "6,02 · 10²³ /mol", "8,314 J/(mol·K)", "1,0 · 10⁻¹⁴"], "correct": 0, "explain": "Ladningen til ett mol elektroner." },
-    { "id": "q06", "text": "Hva er elektrolyse?", "options": ["En spontan reaksjon som gir strøm", "Elektrisk energi driver en ikke-spontan redoksreaksjon", "En syre-base-reaksjon", "En felling"], "correct": 1, "explain": "Brukes for eksempel til aluminiumsproduksjon." },
-    { "id": "q07", "text": "Hvor mye kobber felles ut med 2,0 A i 30 min fra Cu²⁺?", "options": ["2,38 g", "0,59 g", "Omtrent 1,19 g", "63,5 g"], "correct": 2, "explain": "Q = 3600 C, n(e⁻) = 0,0373 mol, n(Cu) = 0,0187 mol." },
-    { "id": "q08", "text": "Hvordan beskytter en offeranode et skip?", "options": ["Den øker spenningen", "Den maler skroget", "Den tar opp oksygen", "Den er av et mer uedelt metall som korroderer i stedet"], "correct": 3, "explain": "For eksempel sink." },
-    { "id": "q09", "text": "Hva er et oksidasjonsmiddel?", "options": ["Stoffet som blir redusert", "Stoffet som blir oksidert", "En katalysator", "En saltbro"], "correct": 0, "explain": "Det oksiderer et annet stoff." },
-    { "id": "q10", "text": "Hva dannes i en hydrogen-brenselcelle?", "options": ["CO₂", "Strøm og vann", "Metan", "Salt"], "correct": 1, "explain": "Hydrogen og oksygen reagerer." }
+    {
+      "id": "q01",
+      "text": "Hva skjer ved oksidasjon?",
+      "options": [
+        "Stoffet tar opp elektroner",
+        "Stoffet avgir elektroner",
+        "Stoffet tar opp protoner",
+        "Ingenting"
+      ],
+      "correct": 1,
+      "explain": "Oksidasjonstallet øker."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor skjer reduksjonen i en galvanisk celle?",
+      "options": [
+        "På katoden",
+        "På anoden",
+        "I saltbroen",
+        "I ledningen"
+      ],
+      "correct": 0,
+      "explain": "Oksidasjon skjer på anoden."
+    },
+    {
+      "id": "q03",
+      "text": "E°(Cu²⁺/Cu) = +0,34 V og E°(Zn²⁺/Zn) = −0,76 V. Hva er E°celle?",
+      "options": [
+        "0,42 V",
+        "−1,10 V",
+        "1,10 V",
+        "0,34 V"
+      ],
+      "correct": 2,
+      "explain": "0,34 − (−0,76) = 1,10 V."
+    },
+    {
+      "id": "q04",
+      "text": "Hva forteller en positiv cellespenning?",
+      "options": [
+        "At ΔG er positiv",
+        "At reaksjonen ikke skjer",
+        "At det trengs elektrolyse",
+        "At reaksjonen er spontan og ΔG er negativ"
+      ],
+      "correct": 3,
+      "explain": "ΔG° = −zFE°."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er Faradays konstant?",
+      "options": [
+        "96 485 C/mol",
+        "6,02 · 10²³ /mol",
+        "8,314 J/(mol·K)",
+        "1,0 · 10⁻¹⁴"
+      ],
+      "correct": 0,
+      "explain": "Ladningen til ett mol elektroner."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er elektrolyse?",
+      "options": [
+        "En spontan reaksjon som gir strøm",
+        "Elektrisk energi driver en ikke-spontan redoksreaksjon",
+        "En syre-base-reaksjon",
+        "En felling"
+      ],
+      "correct": 1,
+      "explain": "Brukes for eksempel til aluminiumsproduksjon."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor mye kobber felles ut med 2,0 A i 30 min fra Cu²⁺?",
+      "options": [
+        "2,38 g",
+        "0,59 g",
+        "Omtrent 1,19 g",
+        "63,5 g"
+      ],
+      "correct": 2,
+      "explain": "Q = 3600 C, n(e⁻) = 0,0373 mol, n(Cu) = 0,0187 mol."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan beskytter en offeranode et skip?",
+      "options": [
+        "Den øker spenningen",
+        "Den maler skroget",
+        "Den tar opp oksygen",
+        "Den er av et mer uedelt metall som korroderer i stedet"
+      ],
+      "correct": 3,
+      "explain": "For eksempel sink."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et oksidasjonsmiddel?",
+      "options": [
+        "Stoffet som blir redusert",
+        "Stoffet som blir oksidert",
+        "En katalysator",
+        "En saltbro"
+      ],
+      "correct": 0,
+      "explain": "Det oksiderer et annet stoff."
+    },
+    {
+      "id": "q10",
+      "text": "Hva dannes i en hydrogen-brenselcelle?",
+      "options": [
+        "CO₂",
+        "Strøm og vann",
+        "Metan",
+        "Salt"
+      ],
+      "correct": 1,
+      "explain": "Hydrogen og oksygen reagerer."
+    }
   ],
   "mindmap": {
     "label": "Redoks og elektrokjemi",
     "children": [
-      { "label": "Redoks", "children": [
-        { "label": "Oksidasjon og reduksjon" },
-        { "label": "Oksidasjonstall" },
-        { "label": "Halvreaksjoner" }
-      ] },
-      { "label": "Galvaniske celler", "children": [
-        { "label": "Anode og katode" },
-        { "label": "Saltbro" },
-        { "label": "Daniell-cellen" }
-      ] },
-      { "label": "Spenning og energi", "children": [
-        { "label": "Spenningsrekken" },
-        { "label": "E°celle" },
-        { "label": "ΔG° = −zFE°" }
-      ] },
-      { "label": "Elektrolyse", "children": [
-        { "label": "Faradays lov" },
-        { "label": "Aluminium og forkobring" }
-      ] },
-      { "label": "Anvendelser", "children": [
-        { "label": "Batterier" },
-        { "label": "Brenselceller" },
-        { "label": "Korrosjon" }
-      ] }
+      {
+        "label": "Redoks",
+        "children": [
+          {
+            "label": "Oksidasjon og reduksjon"
+          },
+          {
+            "label": "Oksidasjonstall"
+          },
+          {
+            "label": "Halvreaksjoner"
+          }
+        ]
+      },
+      {
+        "label": "Galvaniske celler",
+        "children": [
+          {
+            "label": "Anode og katode"
+          },
+          {
+            "label": "Saltbro"
+          },
+          {
+            "label": "Daniell-cellen"
+          }
+        ]
+      },
+      {
+        "label": "Spenning og energi",
+        "children": [
+          {
+            "label": "Spenningsrekken"
+          },
+          {
+            "label": "E°celle"
+          },
+          {
+            "label": "ΔG° = −zFE°"
+          }
+        ]
+      },
+      {
+        "label": "Elektrolyse",
+        "children": [
+          {
+            "label": "Faradays lov"
+          },
+          {
+            "label": "Aluminium og forkobring"
+          }
+        ]
+      },
+      {
+        "label": "Anvendelser",
+        "children": [
+          {
+            "label": "Batterier"
+          },
+          {
+            "label": "Brenselceller"
+          },
+          {
+            "label": "Korrosjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Når et litium-ion-batteri lades, drives reaksjonen baklengs.", "correct": true, "explain": "Elektrisk energi lagres som kjemisk energi." },
-      { "id": "m02", "type": "sant-usant", "text": "Jo lavere standard reduksjonspotensial, desto lettere blir stoffet redusert.", "correct": false, "explain": "Jo høyere E°, desto lettere reduseres det." },
-      { "id": "m03", "type": "sant-usant", "text": "Rusting av jern er en redoksreaksjon.", "correct": true, "explain": "Jernet oksideres." },
-      { "id": "m04", "type": "sant-usant", "text": "I elektrolyse gir reaksjonen strøm av seg selv.", "correct": false, "explain": "Strøm tilføres for å drive reaksjonen." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er oksidasjonstallet til et grunnstoff i fri form?", "options": ["+1", "0", "−2", "Det varierer"], "correct": 1, "explain": "For eksempel O₂ og Cu." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken formel gir ladningen i elektrolyse?", "options": ["Q = I · t", "Q = m / M", "Q = c · V", "Q = F / z"], "correct": 0, "explain": "Strøm ganger tid." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er galvanisering?", "options": ["Å male jern", "Å lade et batteri", "Å dekke jern med et sinkbelegg", "Å smelte metall"], "correct": 2, "explain": "Beskytter mot korrosjon." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Når et litium-ion-batteri lades, drives reaksjonen baklengs.",
+        "correct": true,
+        "explain": "Elektrisk energi lagres som kjemisk energi."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Jo lavere standard reduksjonspotensial, desto lettere blir stoffet redusert.",
+        "correct": false,
+        "explain": "Jo høyere E°, desto lettere reduseres det."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Rusting av jern er en redoksreaksjon.",
+        "correct": true,
+        "explain": "Jernet oksideres."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "I elektrolyse gir reaksjonen strøm av seg selv.",
+        "correct": false,
+        "explain": "Strøm tilføres for å drive reaksjonen."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er oksidasjonstallet til et grunnstoff i fri form?",
+        "options": [
+          "+1",
+          "0",
+          "−2",
+          "Det varierer"
+        ],
+        "correct": 1,
+        "explain": "For eksempel O₂ og Cu."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken formel gir ladningen i elektrolyse?",
+        "options": [
+          "Q = I · t",
+          "Q = m / M",
+          "Q = c · V",
+          "Q = F / z"
+        ],
+        "correct": 0,
+        "explain": "Strøm ganger tid."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er galvanisering?",
+        "options": [
+          "Å male jern",
+          "Å lade et batteri",
+          "Å dekke jern med et sinkbelegg",
+          "Å smelte metall"
+        ],
+        "correct": 2,
+        "explain": "Beskytter mot korrosjon."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign oksidasjon og reduksjon med hensyn til elektroner og oksidasjonstall.",
+        "fasit": "Ved oksidasjon avgir et stoff elektroner, og oksidasjonstallet øker. Ved reduksjon tar et stoff opp elektroner, og oksidasjonstallet minker.",
+        "kriterier": [
+          "Forklarer at oksidasjon innebærer avgivelse av elektroner og økt oksidasjonstall.",
+          "Forklarer at reduksjon innebærer opptak av elektroner og minket oksidasjonstall."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I et nøytralt vannmolekyl er oksidasjonstallet til hydrogen +1. Hva er oksidasjonstallet til oksygen? Vis det viktigste regnestykket.",
+        "fasit": "Summen av oksidasjonstallene i et nøytralt molekyl er 0. Derfor blir oksygenets oksidasjonstall 0 − 2 · (+1) = −2.",
+        "kriterier": [
+          "Bruker at summen av oksidasjonstallene i et nøytralt molekyl er 0.",
+          "Får oksidasjonstallet til oksygen til −2 med et riktig regnesteg."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I Daniell-cellen skjer reaksjonene Zn → Zn²⁺ + 2e⁻ og Cu²⁺ + 2e⁻ → Cu. Hvilket stoff er reduksjonsmiddelet, og hvorfor?",
+        "fasit": "Sink er reduksjonsmiddelet. Sink avgir elektroner og blir oksidert, mens reduksjonsmiddelet er stoffet som selv blir oksidert.",
+        "kriterier": [
+          "Identifiserer sink (Zn) som reduksjonsmiddelet.",
+          "Begrunner svaret med at sink avgir elektroner eller blir oksidert."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I en Daniell-celle er sink- og kobberelektrodene forbundet med en saltbro. Forklar hvilken funksjon saltbroen har i cellen.",
+        "fasit": "Saltbroen lar ioner vandre mellom løsningene og lukker dermed den elektriske kretsen. Uten denne ionebevegelsen kan cellen ikke opprettholde strømmen på vanlig måte.",
+        "kriterier": [
+          "Nevner at ioner kan vandre gjennom saltbroen.",
+          "Forklarer at saltbroen bidrar til å lukke kretsen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign en galvanisk celle med elektrolyse når det gjelder spontanitet og energi.",
+        "fasit": "I en galvanisk celle gir en spontan redoksreaksjon elektrisk strøm. Ved elektrolyse brukes elektrisk energi til å drive en ikke-spontan redoksreaksjon.",
+        "kriterier": [
+          "Knytter galvanisk celle til en spontan reaksjon som gir elektrisk strøm.",
+          "Knytter elektrolyse til elektrisk energi som driver en ikke-spontan reaksjon."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "For Daniell-cellen er E°celle = 1,10 V. Bruk ΔG° = −zFE°, z = 2 og F = 96 485 C/mol til å beregne ΔG° per mol. Oppgi svaret i kJ/mol.",
+        "fasit": "ΔG° = −2 · 96 485 · 1,10 J ≈ −212 000 J. Det tilsvarer omtrent −212 kJ/mol.",
+        "kriterier": [
+          "Setter inn z = 2, F = 96 485 C/mol og E° = 1,10 V med negativt fortegn.",
+          "Får omtrent −212 kJ/mol."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I en elektrolyse er ladningen Q = 3600 C. Bruk n(e⁻) = Q/F og F = 96 485 C/mol til å beregne stoffmengden elektroner.",
+        "fasit": "n(e⁻) = 3600/96 485 mol ≈ 0,0373 mol.",
+        "kriterier": [
+          "Setter Q = 3600 C og F = 96 485 C/mol inn i formelen n(e⁻) = Q/F.",
+          "Får omtrent 0,0373 mol elektroner."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Jern kan ruste ved korrosjon. Forklar hvorfor rusting av jern er en oksidasjon, og nevn én metode som kan hindre korrosjon.",
+        "fasit": "Når jern korroderer, blir metallet oksidert: det avgir elektroner, og oksidasjonstallet øker. Korrosjon kan hindres med for eksempel maling eller galvanisering.",
+        "kriterier": [
+          "Forklarer at jern oksideres ved å avgi elektroner eller ved at oksidasjonstallet øker.",
+          "Nevner en oppgitt metode for å hindre korrosjon, som maling eller galvanisering."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

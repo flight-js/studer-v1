@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Sosial ulikhet, marginalisering og utenforskap",
   "intro": "Hva sosial ulikhet er og hvordan den måles, årsaker til ulikhet, marginalisering og utenforskap – familiebakgrunn og sosial arv, utdanning, arbeidsmarked, helse, diskriminering og bosted – og hvilke konsekvenser dette får for individ og samfunn.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Hva er sosial ulikhet?\n\n**Sosial ulikhet** betyr at grupper i samfunnet har **ulik tilgang** til goder som **inntekt**, **formue**, **utdanning**, **helse**, **makt** og **status**. Norge har **små** forskjeller sammenlignet med mange land, men forskjellene har **økt** de siste tiårene, særlig i **formue**.\n\n## Måling\n\n- **Gini-koeffisienten** måler inntektsulikhet fra **0** – alle har like mye – til **1** – én person har alt.\n- **Relativ fattigdom** – eller **lavinntekt** – måles ofte som husholdninger med under **60 %** av **medianinntekten**.\n- **Absolutt fattigdom** betyr at man mangler det mest **grunnleggende** – mat, bolig og klær.\n\nI Norge snakker vi mest om **relativ** fattigdom: å ha så lite at man ikke kan delta på **vanlige** aktiviteter i samfunnet.\n\n## Marginalisering og utenforskap\n\n- **Marginalisering** er en **prosess** der personer eller grupper skyves ut mot **kanten** av samfunnet – med svakere tilknytning til arbeid, utdanning og sosiale fellesskap.\n- **Utenforskap** er **resultatet**: å stå **utenfor** arbeidsliv, utdanning eller sosiale fellesskap.\n\n## Årsaker\n\n**Familiebakgrunn og sosial arv**: Barn av foreldre med **høy utdanning** og **inntekt** tar oftere høyere utdanning selv. Etter **Pierre Bourdieu** handler det om **kulturell**, **sosial** og **økonomisk kapital** som overføres. **Sosial mobilitet** – å bevege seg mellom lag – er likevel relativt **høy** i Norge.\n\n**Utdanning**: Å **fullføre** videregående er en av de viktigste faktorene for å komme i **arbeid**. Frafall øker risikoen for utenforskap.\n\n**Arbeidsmarkedet**: Det er stadig færre jobber for dem **uten** formell kompetanse. **Automatisering** og krav til **språk** og **digitale** ferdigheter kan stenge noen ute.\n\n**Helse**: **Psykiske** og **fysiske** helseproblemer kan gi frafall fra skole og arbeid – og lav inntekt kan igjen gi dårligere helse.\n\n**Diskriminering**: Personer med **minoritetsbakgrunn**, **funksjonsnedsettelser** eller som er **LHBTIQ+**, kan møte diskriminering – for eksempel i jobbsøking.\n\n**Bosted**: Opphopning av **levekårsutfordringer** i enkelte bydeler og kommuner kan gi dårligere tilgang til gode skoler, nettverk og arbeid.\n\n## Konsekvenser for individet\n\n- dårligere **helse** og kortere **levealder**\n- **ensomhet**, **skam** og lav **selvfølelse**\n- at barn ikke kan delta på **fritidsaktiviteter** og bursdager\n- større risiko for **rus** og **kriminalitet**\n- at utenforskap **går i arv**\n\n## Konsekvenser for samfunnet\n\n- **Tapt arbeidskraft** og **skatteinntekter**, og økte utgifter til **trygd**\n- svekket **tillit** mellom grupper og til institusjonene\n- **polarisering** og økt fare for **radikalisering**\n- mindre **samhold**\n\nForskerne **Richard Wilkinson** og **Kate Pickett** har argumentert for at samfunn med **store** forskjeller har flere **sosiale problemer** – også for de rike.\n\n## Tiltak\n\n- **Gratis** eller rimelige barnehager og fritidstilbud\n- **Tidlig innsats** i skolen og tiltak mot **frafall**\n- **Omfordeling** gjennom skatt og ytelser\n- **Arbeidsrettede** tiltak fra NAV\n- Tiltak mot **diskriminering**\n\n## Drøfting\n\nEr ulikhet et resultat av **individuelle valg** eller av **strukturelle** forhold? De fleste samfunnsforskere mener at **begge** spiller inn – men at strukturelle forhold ofte er **undervurdert** i den offentlige debatten.",
   "flashcards": [
-    { "term": "Sosial ulikhet", "def": "Ulik tilgang til inntekt, formue, utdanning, helse, makt og status." },
-    { "term": "Gini-koeffisienten", "def": "Mål på inntektsulikhet fra 0 til 1." },
-    { "term": "Relativ fattigdom", "def": "Under 60 % av medianinntekten – kan ikke delta på vanlige aktiviteter." },
-    { "term": "Absolutt fattigdom", "def": "Mangler mat, bolig og klær." },
-    { "term": "Marginalisering", "def": "Prosess der noen skyves ut mot kanten av samfunnet." },
-    { "term": "Utenforskap", "def": "Å stå utenfor arbeid, utdanning eller sosiale fellesskap." },
-    { "term": "Sosial arv", "def": "Levekår og muligheter overføres fra foreldre til barn." },
-    { "term": "Sosial mobilitet", "def": "Bevegelse mellom sosiale lag." },
-    { "term": "Frafall", "def": "Å ikke fullføre videregående – øker risikoen for utenforskap." },
-    { "term": "Automatisering", "def": "Maskiner overtar oppgaver – færre jobber uten kompetanse." },
-    { "term": "Levekårsutfordringer", "def": "Opphopning av lav inntekt, dårlig helse og trangboddhet." },
-    { "term": "Diskriminering", "def": "Usaklig forskjellsbehandling." },
-    { "term": "Wilkinson og Pickett", "def": "Mener store forskjeller gir flere sosiale problemer." },
-    { "term": "Omfordeling", "def": "Skatt og ytelser som jevner ut forskjeller." },
-    { "term": "Tidlig innsats", "def": "Hjelp før problemene vokser." }
+    {
+      "term": "Sosial ulikhet",
+      "def": "Ulik tilgang til inntekt, formue, utdanning, helse, makt og status."
+    },
+    {
+      "term": "Gini-koeffisienten",
+      "def": "Mål på inntektsulikhet fra 0 til 1."
+    },
+    {
+      "term": "Relativ fattigdom",
+      "def": "Under 60 % av medianinntekten – kan ikke delta på vanlige aktiviteter."
+    },
+    {
+      "term": "Absolutt fattigdom",
+      "def": "Mangler mat, bolig og klær."
+    },
+    {
+      "term": "Marginalisering",
+      "def": "Prosess der noen skyves ut mot kanten av samfunnet."
+    },
+    {
+      "term": "Utenforskap",
+      "def": "Å stå utenfor arbeid, utdanning eller sosiale fellesskap."
+    },
+    {
+      "term": "Sosial arv",
+      "def": "Levekår og muligheter overføres fra foreldre til barn."
+    },
+    {
+      "term": "Sosial mobilitet",
+      "def": "Bevegelse mellom sosiale lag."
+    },
+    {
+      "term": "Frafall",
+      "def": "Å ikke fullføre videregående – øker risikoen for utenforskap."
+    },
+    {
+      "term": "Automatisering",
+      "def": "Maskiner overtar oppgaver – færre jobber uten kompetanse."
+    },
+    {
+      "term": "Levekårsutfordringer",
+      "def": "Opphopning av lav inntekt, dårlig helse og trangboddhet."
+    },
+    {
+      "term": "Diskriminering",
+      "def": "Usaklig forskjellsbehandling."
+    },
+    {
+      "term": "Wilkinson og Pickett",
+      "def": "Mener store forskjeller gir flere sosiale problemer."
+    },
+    {
+      "term": "Omfordeling",
+      "def": "Skatt og ytelser som jevner ut forskjeller."
+    },
+    {
+      "term": "Tidlig innsats",
+      "def": "Hjelp før problemene vokser."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva måler Gini-koeffisienten?", "options": ["Arbeidsledighet", "Inntektsulikhet", "Befolkningsvekst", "Levealder"], "correct": 1, "explain": "Fra 0 til 1." },
-    { "id": "q02", "text": "Hvordan måles relativ fattigdom ofte?", "options": ["Under 60 % av medianinntekten", "Mindre enn 1000 kr i måneden", "Ingen bolig", "Arbeidsledig i ett år"], "correct": 0, "explain": "EU-definisjonen." },
-    { "id": "q03", "text": "Hva er marginalisering?", "options": ["Et resultat", "En type skatt", "En prosess der noen skyves ut mot kanten av samfunnet", "En velferdsordning"], "correct": 2, "explain": "Utenforskap er resultatet." },
-    { "id": "q04", "text": "Hva er sosial arv?", "options": ["Arv av penger alene", "Gener", "Lover", "At levekår og muligheter overføres fra foreldre til barn"], "correct": 3, "explain": "Bourdieus kapitalformer." },
-    { "id": "q05", "text": "Hvilken faktor er en av de viktigste for å komme i arbeid?", "options": ["Å fullføre videregående", "Å bo i by", "Å ha mange følgere", "Å være født om sommeren"], "correct": 0, "explain": "Frafall øker risikoen for utenforskap." },
-    { "id": "q06", "text": "Hvilken konsekvens har utenforskap for samfunnet?", "options": ["Økte skatteinntekter", "Tapt arbeidskraft og svekket tillit", "Mer samhold", "Lavere trygdeutgifter"], "correct": 1, "explain": "Også polarisering." },
-    { "id": "q07", "text": "Hva mener Wilkinson og Pickett?", "options": ["At ulikhet ikke betyr noe", "At bare fattige rammes", "At samfunn med store forskjeller har flere sosiale problemer", "At rike land alltid er lykkeligst"], "correct": 2, "explain": "Også for de rike." },
-    { "id": "q08", "text": "Hva har økt mest i Norge de siste tiårene?", "options": ["Likhet i formue", "Absolutt fattigdom", "Andelen uten skolegang", "Forskjeller i formue"], "correct": 3, "explain": "Forskjellene er likevel små internasjonalt." },
-    { "id": "q09", "text": "Hvordan kan automatisering bidra til utenforskap?", "options": ["Ved at det blir færre jobber for dem uten formell kompetanse", "Ved å gi flere jobber til alle", "Ved å senke skatten", "Ved å øke lønningene"], "correct": 0, "explain": "Kravene i arbeidslivet øker." },
-    { "id": "q10", "text": "Hva mener de fleste samfunnsforskere om årsakene til ulikhet?", "options": ["At det bare skyldes valg", "At både individuelle valg og strukturer spiller inn", "At det bare skyldes flaks", "At det bare skyldes gener"], "correct": 1, "explain": "Aktør og struktur." }
+    {
+      "id": "q01",
+      "text": "Hva måler Gini-koeffisienten?",
+      "options": [
+        "Arbeidsledighet",
+        "Inntektsulikhet",
+        "Befolkningsvekst",
+        "Levealder"
+      ],
+      "correct": 1,
+      "explain": "Fra 0 til 1."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan måles relativ fattigdom ofte?",
+      "options": [
+        "Under 60 % av medianinntekten",
+        "Mindre enn 1000 kr i måneden",
+        "Ingen bolig",
+        "Arbeidsledig i ett år"
+      ],
+      "correct": 0,
+      "explain": "EU-definisjonen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er marginalisering?",
+      "options": [
+        "Et resultat",
+        "En type skatt",
+        "En prosess der noen skyves ut mot kanten av samfunnet",
+        "En velferdsordning"
+      ],
+      "correct": 2,
+      "explain": "Utenforskap er resultatet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er sosial arv?",
+      "options": [
+        "Arv av penger alene",
+        "Gener",
+        "Lover",
+        "At levekår og muligheter overføres fra foreldre til barn"
+      ],
+      "correct": 3,
+      "explain": "Bourdieus kapitalformer."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken faktor er en av de viktigste for å komme i arbeid?",
+      "options": [
+        "Å fullføre videregående",
+        "Å bo i by",
+        "Å ha mange følgere",
+        "Å være født om sommeren"
+      ],
+      "correct": 0,
+      "explain": "Frafall øker risikoen for utenforskap."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken konsekvens har utenforskap for samfunnet?",
+      "options": [
+        "Økte skatteinntekter",
+        "Tapt arbeidskraft og svekket tillit",
+        "Mer samhold",
+        "Lavere trygdeutgifter"
+      ],
+      "correct": 1,
+      "explain": "Også polarisering."
+    },
+    {
+      "id": "q07",
+      "text": "Hva mener Wilkinson og Pickett?",
+      "options": [
+        "At ulikhet ikke betyr noe",
+        "At bare fattige rammes",
+        "At samfunn med store forskjeller har flere sosiale problemer",
+        "At rike land alltid er lykkeligst"
+      ],
+      "correct": 2,
+      "explain": "Også for de rike."
+    },
+    {
+      "id": "q08",
+      "text": "Hva har økt mest i Norge de siste tiårene?",
+      "options": [
+        "Likhet i formue",
+        "Absolutt fattigdom",
+        "Andelen uten skolegang",
+        "Forskjeller i formue"
+      ],
+      "correct": 3,
+      "explain": "Forskjellene er likevel små internasjonalt."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan kan automatisering bidra til utenforskap?",
+      "options": [
+        "Ved at det blir færre jobber for dem uten formell kompetanse",
+        "Ved å gi flere jobber til alle",
+        "Ved å senke skatten",
+        "Ved å øke lønningene"
+      ],
+      "correct": 0,
+      "explain": "Kravene i arbeidslivet øker."
+    },
+    {
+      "id": "q10",
+      "text": "Hva mener de fleste samfunnsforskere om årsakene til ulikhet?",
+      "options": [
+        "At det bare skyldes valg",
+        "At både individuelle valg og strukturer spiller inn",
+        "At det bare skyldes flaks",
+        "At det bare skyldes gener"
+      ],
+      "correct": 1,
+      "explain": "Aktør og struktur."
+    }
   ],
   "mindmap": {
     "label": "Sosial ulikhet",
     "children": [
-      { "label": "Måling", "children": [
-        { "label": "Gini" },
-        { "label": "Relativ og absolutt fattigdom" }
-      ] },
-      { "label": "Begreper", "children": [
-        { "label": "Marginalisering" },
-        { "label": "Utenforskap" },
-        { "label": "Sosial arv og mobilitet" }
-      ] },
-      { "label": "Årsaker", "children": [
-        { "label": "Familie og utdanning" },
-        { "label": "Arbeidsmarked og helse" },
-        { "label": "Diskriminering og bosted" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Individ" },
-        { "label": "Samfunn" }
-      ] },
-      { "label": "Tiltak", "children": [
-        { "label": "Tidlig innsats" },
-        { "label": "Omfordeling" },
-        { "label": "Arbeidsrettede tiltak" }
-      ] }
+      {
+        "label": "Måling",
+        "children": [
+          {
+            "label": "Gini"
+          },
+          {
+            "label": "Relativ og absolutt fattigdom"
+          }
+        ]
+      },
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Marginalisering"
+          },
+          {
+            "label": "Utenforskap"
+          },
+          {
+            "label": "Sosial arv og mobilitet"
+          }
+        ]
+      },
+      {
+        "label": "Årsaker",
+        "children": [
+          {
+            "label": "Familie og utdanning"
+          },
+          {
+            "label": "Arbeidsmarked og helse"
+          },
+          {
+            "label": "Diskriminering og bosted"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Individ"
+          },
+          {
+            "label": "Samfunn"
+          }
+        ]
+      },
+      {
+        "label": "Tiltak",
+        "children": [
+          {
+            "label": "Tidlig innsats"
+          },
+          {
+            "label": "Omfordeling"
+          },
+          {
+            "label": "Arbeidsrettede tiltak"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Sosial mobilitet er relativt høy i Norge.", "correct": true, "explain": "Men sosial arv har likevel betydning." },
-      { "id": "m02", "type": "sant-usant", "text": "Relativ fattigdom betyr at man mangler mat og bolig.", "correct": false, "explain": "Det er absolutt fattigdom." },
-      { "id": "m03", "type": "sant-usant", "text": "Lav inntekt og dårlig helse kan forsterke hverandre.", "correct": true, "explain": "Helse og økonomi henger sammen." },
-      { "id": "m04", "type": "sant-usant", "text": "Utenforskap har bare konsekvenser for den enkelte, ikke for samfunnet.", "correct": false, "explain": "Det gir tapt arbeidskraft og svekket tillit." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr en Gini-koeffisient på 0?", "options": ["At én person har alt", "At alle har like mye", "At ingen har inntekt", "At ulikheten er stor"], "correct": 1, "explain": "Fullstendig likhet." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket tiltak kan motvirke at utenforskap går i arv?", "options": ["Gratis eller rimelige fritidstilbud for barn", "Høyere egenandeler", "Færre barnehager", "Kutt i skolehelsetjenesten"], "correct": 0, "explain": "Gir alle barn mulighet til å delta." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken gruppe kan møte diskriminering i jobbsøking?", "options": ["Bare eldre", "Ingen", "Personer med minoritetsbakgrunn eller funksjonsnedsettelse", "Bare de med høy utdanning"], "correct": 2, "explain": "Diskriminering er en årsak til utenforskap." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Sosial mobilitet er relativt høy i Norge.",
+        "correct": true,
+        "explain": "Men sosial arv har likevel betydning."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Relativ fattigdom betyr at man mangler mat og bolig.",
+        "correct": false,
+        "explain": "Det er absolutt fattigdom."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Lav inntekt og dårlig helse kan forsterke hverandre.",
+        "correct": true,
+        "explain": "Helse og økonomi henger sammen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Utenforskap har bare konsekvenser for den enkelte, ikke for samfunnet.",
+        "correct": false,
+        "explain": "Det gir tapt arbeidskraft og svekket tillit."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr en Gini-koeffisient på 0?",
+        "options": [
+          "At én person har alt",
+          "At alle har like mye",
+          "At ingen har inntekt",
+          "At ulikheten er stor"
+        ],
+        "correct": 1,
+        "explain": "Fullstendig likhet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket tiltak kan motvirke at utenforskap går i arv?",
+        "options": [
+          "Gratis eller rimelige fritidstilbud for barn",
+          "Høyere egenandeler",
+          "Færre barnehager",
+          "Kutt i skolehelsetjenesten"
+        ],
+        "correct": 0,
+        "explain": "Gir alle barn mulighet til å delta."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken gruppe kan møte diskriminering i jobbsøking?",
+        "options": [
+          "Bare eldre",
+          "Ingen",
+          "Personer med minoritetsbakgrunn eller funksjonsnedsettelse",
+          "Bare de med høy utdanning"
+        ],
+        "correct": 2,
+        "explain": "Diskriminering er en årsak til utenforskap."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En familie har mat, bolig og klær, men har så lite inntekt at barna ikke kan delta på vanlige fritidsaktiviteter. Forklar om dette er relativ eller absolutt fattigdom, og begrunn svaret.",
+        "fasit": "Dette er relativ fattigdom fordi familien ikke har råd til å delta på vanlige aktiviteter i samfunnet. Det er ikke absolutt fattigdom når familien har det mest grunnleggende.",
+        "kriterier": [
+          "Identifiserer situasjonen som relativ fattigdom.",
+          "Begrunner med manglende mulighet til å delta på vanlige aktiviteter, og skiller dette fra mangel på grunnleggende behov."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Barn av foreldre med høy utdanning og inntekt tar oftere selv høyere utdanning. Forklar hvordan kulturell, sosial og økonomisk kapital kan bidra til dette mønsteret.",
+        "fasit": "Kapital fra foreldrene kan overføres til barna og gi dem ulike ressurser og muligheter. Dette kan gjøre det lettere for barna å ta høyere utdanning og bidra til sosial arv.",
+        "kriterier": [
+          "Forklarer at kapital og muligheter kan overføres fra foreldre til barn.",
+          "Knytter dette til at barnas utdanningsmuligheter påvirkes, og dermed til sosial arv."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev fullfører ikke videregående skole. Forklar hvordan dette kan øke risikoen for utenforskap, og nevn ett tiltak som kan forebygge utviklingen.",
+        "fasit": "Å fullføre videregående er viktig for å komme i arbeid, så frafall kan gjøre det vanskeligere å få tilknytning til arbeidslivet. Tidlig innsats eller tiltak mot frafall i skolen kan forebygge utviklingen.",
+        "kriterier": [
+          "Knytter frafall fra videregående til økt risiko for å stå utenfor arbeid eller samfunnet.",
+          "Nevner et relevant forebyggende tiltak, som tidlig innsats eller tiltak mot frafall."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan helseproblemer og lav inntekt kan påvirke hverandre i en negativ sirkel.",
+        "fasit": "Psykiske eller fysiske helseproblemer kan føre til frafall fra skole eller arbeid og dermed lavere inntekt. Lav inntekt kan igjen gi dårligere helse.",
+        "kriterier": [
+          "Forklarer hvordan helseproblemer kan svekke tilknytningen til skole eller arbeid og bidra til lav inntekt.",
+          "Forklarer at lav inntekt igjen kan føre til dårligere helse."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En person møter usaklig forskjellsbehandling når hen søker jobb. Forklar hvordan dette kan bidra til utenforskap, og nevn ett tiltak som kan motvirke problemet.",
+        "fasit": "Diskriminering kan gjøre det vanskeligere for personen å få arbeid og dermed øke risikoen for utenforskap. Tiltak mot diskriminering kan bidra til å motvirke dette.",
+        "kriterier": [
+          "Knytter diskriminering i jobbsøking til svakere mulighet for arbeid og risiko for utenforskap.",
+          "Nevner tiltak mot diskriminering som en relevant løsning."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I et område er det mange innbyggere med lav inntekt, dårlig helse og trangboddhet. Forklar hvordan slike levekårsutfordringer kan påvirke innbyggernes muligheter.",
+        "fasit": "Når levekårsutfordringer samler seg i et område, kan innbyggerne få dårligere tilgang til gode skoler, nettverk og arbeid. Det kan bidra til at forskjeller og utenforskap opprettholdes.",
+        "kriterier": [
+          "Forklarer at opphopning av levekårsutfordringer kan gi dårligere tilgang til muligheter.",
+          "Nevner relevante forhold som skoler, nettverk eller arbeid og knytter dem til økte forskjeller eller utenforskap."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et barn kan ikke delta på fritidsaktiviteter fordi familien har dårlig råd. Foreslå ett tiltak som kan gjøre det lettere for barnet å delta, og forklar hvordan tiltaket kan motvirke utenforskap.",
+        "fasit": "Gratis eller rimelige fritidstilbud kan gjøre det mulig for barnet å delta selv om familien har dårlig råd. Deltakelse kan bidra til at barnet ikke stenges ute fra sosiale fellesskap.",
+        "kriterier": [
+          "Foreslår gratis eller rimelige fritidstilbud.",
+          "Forklarer at tiltaket kan gi barnet mulighet til å delta i sosiale fellesskap."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvordan omfordeling gjennom skatt og ytelser kan bidra til å redusere sosial ulikhet.",
+        "fasit": "Skatt og ytelser kan omfordele økonomiske ressurser mellom grupper. Det kan jevne ut forskjeller i inntekt og gi flere bedre muligheter til å delta i samfunnet.",
+        "kriterier": [
+          "Forklarer at skatt og ytelser omfordeler ressurser.",
+          "Knytter omfordelingen til mindre forskjeller eller bedre muligheter for deltakelse."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,77 +4,420 @@
   "trinnId": "vg3",
   "name": "Radianer og trigonometriske funksjoner",
   "intro": "Radianer som vinkelmål, buelengde og sektorareal, enhetssirkelen og eksakte verdier, grafene til sinus, cosinus og tangens, funksjoner av typen A sin(cx + φ) + d med amplitude og periode, og derivasjon av trigonometriske funksjoner med praktiske anvendelser.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Radianer\n\nEn vinkel på **1 radian** er vinkelen der **buen** er like lang som **radien**. Generelt er vinkelen i radianer\n\n**θ = bue/radius**\n\nEn hel sirkel har buelengde 2πr, så **360° = 2π**, og **180° = π**. Noen viktige vinkler:\n\n- 90° = π/2\n- 60° = π/3\n- 45° = π/4\n- 30° = π/6\n\n1 radian er omtrent **57,3°**.\n\n**Buelengde**: s = rθ. **Sektorareal**: A = ½r²θ – begge med θ i radianer.\n\n## Enhetssirkelen\n\nEt punkt på **enhetssirkelen** (radius 1) med vinkel v har koordinatene **(cos v, sin v)**, og **tan v = sin v/cos v**.\n\nEksakte verdier:\n\n- sin(π/6) = ½ og cos(π/6) = √3/2\n- sin(π/4) = cos(π/4) = √2/2\n- sin(π/3) = √3/2 og cos(π/3) = ½\n\n## Grafene\n\n- **sin x** og **cos x** har **periode 2π** og verdier mellom **−1 og 1**. Cosinusgrafen er sinusgrafen **forskjøvet** π/2 til venstre.\n- **tan x** har **periode π** og **vertikale asymptoter** der cos x = 0, altså x = π/2 + nπ.\n\n## Sinusfunksjoner\n\nMange periodiske fenomener kan modelleres med\n\n**f(x) = A sin(cx + φ) + d**\n\n- **Amplitude** |A|: halve forskjellen mellom største og minste verdi\n- **Likevektslinje** y = d: midt mellom største og minste verdi\n- **Periode** p = **2π/c**\n- **Faseforskyvning**: grafen er forskjøvet −φ/c langs x-aksen\n\n**Eksempel**: f(x) = 3 sin(2x) + 1 har amplitude **3**, likevektslinje y = 1, periode **π**, største verdi **4** og minste verdi **−2**.\n\n## Derivasjon\n\n- **(sin x)′ = cos x**\n- **(cos x)′ = −sin x**\n- **(tan x)′ = 1/cos²x = 1 + tan²x**\n\nMed kjerneregelen: (sin(cx + φ))′ = c · cos(cx + φ).\n\n## Hvorfor radianer?\n\nFormlene for de deriverte bygger på grenseverdien\n\n**lim (x → 0) sin x / x = 1**\n\nDen gjelder bare når x er i **radianer**. Måler vi i grader, får vi en ekstra faktor π/180 i alle deriverte. Derfor bruker vi **alltid** radianer i analyse.\n\n## Praktisk eksempel: tidevann\n\nVannstanden i en havn modelleres med\n\nh(t) = 1,5 sin(0,506t) + 2, h i meter og t i timer.\n\n- **Periode**: 2π/0,506 ≈ **12,4 timer** – omtrent to flo og to fjære i døgnet.\n- **Høyvann**: 3,5 m. **Lavvann**: 0,5 m.\n- **Vekstfart**: h′(t) = 1,5 · 0,506 · cos(0,506t). Vannet stiger **raskest** – omtrent **0,76 m per time** – når det passerer **likevektslinjen**.\n\nAndre eksempler er **dagslengde** gjennom året, **temperatur**, **lyd**, **vekselstrøm** og **svingninger** i fjærer.\n\n## Regresjon\n\nMed **sinusregresjon** i GeoGebra kan du tilpasse en slik modell til **måledata**. Tolk parameterne: Amplituden og perioden bør gi mening i situasjonen.",
   "flashcards": [
-    { "term": "1 radian", "def": "Vinkelen der buen er like lang som radien – omtrent 57,3°." },
-    { "term": "180°", "def": "π radianer." },
-    { "term": "Buelengde", "def": "s = rθ" },
-    { "term": "Sektorareal", "def": "A = ½r²θ" },
-    { "term": "Enhetssirkelen", "def": "Punktet med vinkel v har koordinatene (cos v, sin v)." },
-    { "term": "sin(π/6)", "def": "½" },
-    { "term": "cos(π/6)", "def": "√3/2" },
-    { "term": "sin(π/4)", "def": "√2/2" },
-    { "term": "Periode til tan x", "def": "π" },
-    { "term": "Amplitude", "def": "|A| – halve forskjellen mellom største og minste verdi." },
-    { "term": "Periode til A sin(cx + φ) + d", "def": "2π/c" },
-    { "term": "Likevektslinje", "def": "y = d" },
-    { "term": "(sin x)′", "def": "cos x" },
-    { "term": "(cos x)′", "def": "−sin x" },
-    { "term": "(tan x)′", "def": "1/cos²x = 1 + tan²x" },
-    { "term": "Viktig grenseverdi", "def": "lim sin x / x = 1 når x → 0, i radianer." }
+    {
+      "term": "1 radian",
+      "def": "Vinkelen der buen er like lang som radien – omtrent 57,3°."
+    },
+    {
+      "term": "180°",
+      "def": "π radianer."
+    },
+    {
+      "term": "Buelengde",
+      "def": "s = rθ"
+    },
+    {
+      "term": "Sektorareal",
+      "def": "A = ½r²θ"
+    },
+    {
+      "term": "Enhetssirkelen",
+      "def": "Punktet med vinkel v har koordinatene (cos v, sin v)."
+    },
+    {
+      "term": "sin(π/6)",
+      "def": "½"
+    },
+    {
+      "term": "cos(π/6)",
+      "def": "√3/2"
+    },
+    {
+      "term": "sin(π/4)",
+      "def": "√2/2"
+    },
+    {
+      "term": "Periode til tan x",
+      "def": "π"
+    },
+    {
+      "term": "Amplitude",
+      "def": "|A| – halve forskjellen mellom største og minste verdi."
+    },
+    {
+      "term": "Periode til A sin(cx + φ) + d",
+      "def": "2π/c"
+    },
+    {
+      "term": "Likevektslinje",
+      "def": "y = d"
+    },
+    {
+      "term": "(sin x)′",
+      "def": "cos x"
+    },
+    {
+      "term": "(cos x)′",
+      "def": "−sin x"
+    },
+    {
+      "term": "(tan x)′",
+      "def": "1/cos²x = 1 + tan²x"
+    },
+    {
+      "term": "Viktig grenseverdi",
+      "def": "lim sin x / x = 1 når x → 0, i radianer."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er 180° i radianer?", "options": ["π/2", "π", "2π", "180"], "correct": 1, "explain": "En halv sirkel." },
-    { "id": "q02", "text": "Hva er perioden til f(x) = 3 sin(2x) + 1?", "options": ["π", "2π", "3", "π/2"], "correct": 0, "explain": "2π/2." },
-    { "id": "q03", "text": "Hva er amplituden til f(x) = 3 sin(2x) + 1?", "options": ["1", "2", "3", "4"], "correct": 2, "explain": "|A| = 3." },
-    { "id": "q04", "text": "Hva er største verdi til f(x) = 3 sin(2x) + 1?", "options": ["3", "1", "2", "4"], "correct": 3, "explain": "d + |A|." },
-    { "id": "q05", "text": "Hva er (sin x)′?", "options": ["cos x", "−cos x", "sin x", "−sin x"], "correct": 0, "explain": "Gjelder med x i radianer." },
-    { "id": "q06", "text": "Hva er den deriverte av cos(3x)?", "options": ["3 sin(3x)", "−3 sin(3x)", "−sin(3x)", "sin(3x)/3"], "correct": 1, "explain": "Kjerneregelen." },
-    { "id": "q07", "text": "Hva er buelengden når r = 2 og θ = π/3?", "options": ["π/6", "π/3", "2π/3", "2π"], "correct": 2, "explain": "s = rθ." },
-    { "id": "q08", "text": "Hva er sin(π/6)?", "options": ["√3/2", "√2/2", "1", "½"], "correct": 3, "explain": "Eksakt verdi." },
-    { "id": "q09", "text": "Hvorfor bruker vi radianer når vi deriverer?", "options": ["Fordi lim sin x / x = 1 bare gjelder i radianer", "Fordi grader er ulovlig", "Fordi π er lettere å skrive", "Det er tilfeldig"], "correct": 0, "explain": "Ellers får vi faktoren π/180." },
-    { "id": "q10", "text": "Hva er 60° i radianer?", "options": ["π/6", "π/3", "π/4", "2π/3"], "correct": 1, "explain": "60/180 · π." }
+    {
+      "id": "q01",
+      "text": "Hva er 180° i radianer?",
+      "options": [
+        "π/2",
+        "π",
+        "2π",
+        "180"
+      ],
+      "correct": 1,
+      "explain": "En halv sirkel."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er perioden til f(x) = 3 sin(2x) + 1?",
+      "options": [
+        "π",
+        "2π",
+        "3",
+        "π/2"
+      ],
+      "correct": 0,
+      "explain": "2π/2."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er amplituden til f(x) = 3 sin(2x) + 1?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 2,
+      "explain": "|A| = 3."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er største verdi til f(x) = 3 sin(2x) + 1?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "correct": 3,
+      "explain": "d + |A|."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er (sin x)′?",
+      "options": [
+        "cos x",
+        "−cos x",
+        "sin x",
+        "−sin x"
+      ],
+      "correct": 0,
+      "explain": "Gjelder med x i radianer."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den deriverte av cos(3x)?",
+      "options": [
+        "3 sin(3x)",
+        "−3 sin(3x)",
+        "−sin(3x)",
+        "sin(3x)/3"
+      ],
+      "correct": 1,
+      "explain": "Kjerneregelen."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er buelengden når r = 2 og θ = π/3?",
+      "options": [
+        "π/6",
+        "π/3",
+        "2π/3",
+        "2π"
+      ],
+      "correct": 2,
+      "explain": "s = rθ."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er sin(π/6)?",
+      "options": [
+        "√3/2",
+        "√2/2",
+        "1",
+        "½"
+      ],
+      "correct": 3,
+      "explain": "Eksakt verdi."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor bruker vi radianer når vi deriverer?",
+      "options": [
+        "Fordi lim sin x / x = 1 bare gjelder i radianer",
+        "Fordi grader er ulovlig",
+        "Fordi π er lettere å skrive",
+        "Det er tilfeldig"
+      ],
+      "correct": 0,
+      "explain": "Ellers får vi faktoren π/180."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er 60° i radianer?",
+      "options": [
+        "π/6",
+        "π/3",
+        "π/4",
+        "2π/3"
+      ],
+      "correct": 1,
+      "explain": "60/180 · π."
+    }
   ],
   "mindmap": {
     "label": "Trigonometriske funksjoner",
     "children": [
-      { "label": "Radianer", "children": [
-        { "label": "θ = bue/radius" },
-        { "label": "180° = π" },
-        { "label": "Buelengde og sektor" }
-      ] },
-      { "label": "Enhetssirkelen", "children": [
-        { "label": "(cos v, sin v)" },
-        { "label": "Eksakte verdier" }
-      ] },
-      { "label": "Grafer", "children": [
-        { "label": "sin og cos: periode 2π" },
-        { "label": "tan: periode π" }
-      ] },
-      { "label": "A sin(cx + φ) + d", "children": [
-        { "label": "Amplitude" },
-        { "label": "Periode 2π/c" },
-        { "label": "Likevektslinje" }
-      ] },
-      { "label": "Derivasjon og bruk", "children": [
-        { "label": "sin′ = cos, cos′ = −sin" },
-        { "label": "Tidevann og dagslengde" }
-      ] }
+      {
+        "label": "Radianer",
+        "children": [
+          {
+            "label": "θ = bue/radius"
+          },
+          {
+            "label": "180° = π"
+          },
+          {
+            "label": "Buelengde og sektor"
+          }
+        ]
+      },
+      {
+        "label": "Enhetssirkelen",
+        "children": [
+          {
+            "label": "(cos v, sin v)"
+          },
+          {
+            "label": "Eksakte verdier"
+          }
+        ]
+      },
+      {
+        "label": "Grafer",
+        "children": [
+          {
+            "label": "sin og cos: periode 2π"
+          },
+          {
+            "label": "tan: periode π"
+          }
+        ]
+      },
+      {
+        "label": "A sin(cx + φ) + d",
+        "children": [
+          {
+            "label": "Amplitude"
+          },
+          {
+            "label": "Periode 2π/c"
+          },
+          {
+            "label": "Likevektslinje"
+          }
+        ]
+      },
+      {
+        "label": "Derivasjon og bruk",
+        "children": [
+          {
+            "label": "sin′ = cos, cos′ = −sin"
+          },
+          {
+            "label": "Tidevann og dagslengde"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "1 radian er omtrent 57,3°.", "correct": true, "explain": "180/π." },
-      { "id": "m02", "type": "sant-usant", "text": "tan x har periode 2π.", "correct": false, "explain": "Perioden er π." },
-      { "id": "m03", "type": "sant-usant", "text": "(tan x)′ = 1 + tan²x.", "correct": true, "explain": "Det er det samme som 1/cos²x." },
-      { "id": "m04", "type": "sant-usant", "text": "sin x kan ha verdien 2.", "correct": false, "explain": "Verdiene ligger mellom −1 og 1." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er likevektslinjen til f(x) = 2 cos x − 3?", "options": ["y = 2", "y = −3", "y = 3", "y = −1"], "correct": 1, "explain": "y = d." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er sektorarealet når r = 3 og θ = 2?", "options": ["9", "6", "18", "3"], "correct": 0, "explain": "½ · 9 · 2." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er cos(π/3)?", "options": ["√3/2", "0", "½", "1"], "correct": 2, "explain": "Eksakt verdi." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "1 radian er omtrent 57,3°.",
+        "correct": true,
+        "explain": "180/π."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "tan x har periode 2π.",
+        "correct": false,
+        "explain": "Perioden er π."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "(tan x)′ = 1 + tan²x.",
+        "correct": true,
+        "explain": "Det er det samme som 1/cos²x."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "sin x kan ha verdien 2.",
+        "correct": false,
+        "explain": "Verdiene ligger mellom −1 og 1."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er likevektslinjen til f(x) = 2 cos x − 3?",
+        "options": [
+          "y = 2",
+          "y = −3",
+          "y = 3",
+          "y = −1"
+        ],
+        "correct": 1,
+        "explain": "y = d."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er sektorarealet når r = 3 og θ = 2?",
+        "options": [
+          "9",
+          "6",
+          "18",
+          "3"
+        ],
+        "correct": 0,
+        "explain": "½ · 9 · 2."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er cos(π/3)?",
+        "options": [
+          "√3/2",
+          "0",
+          "½",
+          "1"
+        ],
+        "correct": 2,
+        "explain": "Eksakt verdi."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar med egne ord hva det betyr at en vinkel er 1 radian.",
+        "fasit": "En vinkel er 1 radian når buen den spenner over, er like lang som radiusen. Det tilsvarer omtrent 57,3°.",
+        "kriterier": [
+          "Forklarer sammenhengen mellom buelengden og radiusen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En sirkelbue har radius 3 og sentralvinkel π/6 radianer. Bruk s = rθ til å beregne buelengden.",
+        "fasit": "s = 3 · π/6 = π/2. Buelengden er π/2.",
+        "kriterier": [
+          "Setter inn radiusen og vinkelen i s = rθ.",
+          "Får buelengden π/2."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En sektor har radius 2 og sentralvinkel π/3 radianer. Bruk A = ½r²θ til å beregne sektorarealet.",
+        "fasit": "A = ½ · 2² · π/3 = 2π/3. Sektorarealet er 2π/3.",
+        "kriterier": [
+          "Bruker formelen for sektorareal med riktig radius og vinkel.",
+          "Får arealet 2π/3."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign grafene til sin x og cos x ved å oppgi perioden og verdiområdet deres, og forklar hvordan grafene er forskjøvet i forhold til hverandre.",
+        "fasit": "Begge grafene har periode 2π og verdiområde fra −1 til 1. Cosinusgrafen er sinusgrafen forskjøvet π/2 til venstre.",
+        "kriterier": [
+          "Oppgir at begge har periode 2π og verdiområde [−1, 1].",
+          "Forklarer forskyvningen på π/2 til venstre."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et punkt på enhetssirkelen har vinkelen π/3. Finn punktets eksakte koordinater, der koordinatene er (cos v, sin v).",
+        "fasit": "Punktet har koordinatene (½, √3/2), siden cos(π/3) = ½ og sin(π/3) = √3/2.",
+        "kriterier": [
+          "Oppgir koordinatene (½, √3/2) i riktig rekkefølge."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Tangensfunksjonen har vertikale asymptoter ved x = π/2 + nπ, der n er et heltall. Forklar hvorfor grafen har asymptoter akkurat der.",
+        "fasit": "Tan x = sin x/cos x. Ved x = π/2 + nπ er cos x = 0, så brøken ikke er definert; derfor har tan x vertikale asymptoter der.",
+        "kriterier": [
+          "Knytter tangens til brøken sin x/cos x.",
+          "Forklarer at cos x = 0 på disse stedene, slik at tangens ikke er definert."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Deriver funksjonen f(x) = sin(2x + π/3). Vis det viktigste steget med kjerneregelen.",
+        "fasit": "Med kjerneregelen får vi f′(x) = 2 cos(2x + π/3). Faktoren 2 kommer fra den deriverte av det indre uttrykket.",
+        "kriterier": [
+          "Deriverer sinusuttrykket til cos(2x + π/3).",
+          "Tar med faktoren 2 fra kjerneregelen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Vannstanden i en havn modelleres av h(t) = 1,5 sin(0,506t) + 2, målt i meter. Finn modellens høyeste og laveste vannstand, og forklar kort hvordan du finner dem.",
+        "fasit": "Sinusverdien ligger mellom −1 og 1, så vannstanden varierer fra 2 − 1,5 = 0,5 m til 2 + 1,5 = 3,5 m. Høyeste vannstand er 3,5 m, og laveste er 0,5 m.",
+        "kriterier": [
+          "Finner høyeste vannstand som 3,5 m og laveste som 0,5 m.",
+          "Bruker at sinusverdien varierer mellom −1 og 1."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

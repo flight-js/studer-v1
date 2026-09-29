@@ -4,79 +4,427 @@
   "trinnId": "vg2",
   "name": "Medier, kommunikasjon og samhandling",
   "intro": "Hvordan ny teknologi har endret medier, kommunikasjon og samhandling – fra massemedier til sosiale medier, nettverkssamfunnet, selvpresentasjon, parasosiale relasjoner, algoritmer og ekkokamre.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Fra massemedier til sosiale medier\n\n**Massemedier** som aviser, radio og TV sendte fra **få** til **mange**. Redaksjonene bestemte hva som var nyheter – de var **portvoktere**. Med internett og **sosiale medier** kan **alle** publisere, og kommunikasjonen går fra **mange til mange**.\n\nDenne endringen har gjort mediebildet mer **mangfoldig** og **demokratisk** – men også mer **fragmentert** og uoversiktlig.\n\n## Nettverkssamfunnet\n\nSosiologen **Manuel Castells** beskrev **nettverkssamfunnet**: Økonomi, politikk og sosiale relasjoner organiseres i stadig større grad gjennom **digitale nettverk** som går på tvers av landegrenser. Informasjon og kontakter blir viktige kilder til **makt**.\n\n## Samhandling på nett\n\nNy teknologi endrer **hvordan** vi møtes:\n\n- Vi kan holde kontakt med venner og familie **over store avstander**.\n- Vi danner **fellesskap** rundt interesser – gaming, musikk, identitet – uavhengig av hvor vi bor.\n- Mye kommunikasjon er **asynkron** (meldinger vi svarer på senere) og **tekstbasert**, slik at kroppsspråk og tonefall mangler. Det kan gi misforståelser, og derfor brukes emojier.\n\n## Selvpresentasjon\n\n**Erving Goffmans** teori om **inntrykksstyring** passer godt til sosiale medier. Vi viser fram en **redigert** versjon av oss selv på **scenen** – nøye utvalgte bilder og innlegg – mens det meste av hverdagen skjer **bak scenen**. Å sammenligne seg med andres redigerte liv kan gi **press** og dårligere selvbilde.\n\n## Parasosiale relasjoner\n\nEn **parasosial relasjon** er en **ensidig** relasjon, der vi føler at vi kjenner en person – for eksempel en **influenser** – som ikke kjenner oss. Influensere bruker nærhet og ærlighet for å bygge tillit, noe som også gjør dem til effektive **reklamekanaler**. Reklame i sosiale medier skal **merkes** tydelig.\n\n## Algoritmer, ekkokamre og polarisering\n\nPlattformene bruker **algoritmer** som velger innhold ut fra hva vi har likt og sett før. Det kan gi\n\n- **filterbobler** – at vi mest ser innhold som passer til våre interesser\n- **ekkokamre** – at vi mest møter synspunkter som bekrefter våre egne\n- rask spredning av **feilinformasjon**, fordi sjokkerende innhold ofte får mest oppmerksomhet\n\nForskerne er uenige om **hvor sterke** disse effektene er, men mange peker på at de kan bidra til **polarisering**.\n\n## Makt og medier\n\nDe store **teknologiselskapene** har fått stor makt over offentligheten. Samtidig har **aktivister** og grupper uten tilgang til tradisjonelle medier fått nye muligheter til å bli hørt – som **#MeToo** og klimabevegelsen viser. Staten prøver å regulere, for eksempel gjennom EUs regler for digitale tjenester.\n\n## Hvordan påvirker det oss?\n\n- **Positivt**: tilhørighet, informasjon, deltakelse og kreativitet.\n- **Negativt**: **netthets**, press, søvnproblemer, konsentrasjonsvansker og personvernutfordringer.\n\nMange snakker om behovet for **digital dømmekraft**: å kunne vurdere kilder, beskytte seg selv og oppføre seg ansvarlig på nett.",
   "flashcards": [
-    { "term": "Massemedier", "def": "Aviser, radio og TV – kommunikasjon fra få til mange." },
-    { "term": "Portvokter", "def": "Redaksjon som bestemmer hva som blir nyheter." },
-    { "term": "Fra mange til mange", "def": "Kommunikasjon i sosiale medier der alle kan publisere." },
-    { "term": "Nettverkssamfunnet", "def": "Samfunn organisert gjennom digitale nettverk (Castells)." },
-    { "term": "Asynkron kommunikasjon", "def": "Meldinger som besvares senere." },
-    { "term": "Inntrykksstyring på nett", "def": "Å vise fram en redigert versjon av seg selv." },
-    { "term": "Parasosial relasjon", "def": "Ensidig relasjon til for eksempel en influenser." },
-    { "term": "Influenser", "def": "Person med stor påvirkning og mange følgere i sosiale medier." },
-    { "term": "Algoritme (medier)", "def": "Velger innhold ut fra hva vi har likt og sett." },
-    { "term": "Filterboble", "def": "At vi mest ser innhold som passer våre interesser." },
-    { "term": "Ekkokammer", "def": "At vi mest møter synspunkter som bekrefter våre egne." },
-    { "term": "Polarisering", "def": "At grupper beveger seg lenger fra hverandre." },
-    { "term": "#MeToo", "def": "Eksempel på bevegelse som fikk gjennomslag via sosiale medier." },
-    { "term": "Netthets", "def": "Trakassering og hets på nett." },
-    { "term": "Digital dømmekraft", "def": "Evnen til å opptre ansvarlig og kritisk på nett." }
+    {
+      "term": "Massemedier",
+      "def": "Aviser, radio og TV – kommunikasjon fra få til mange."
+    },
+    {
+      "term": "Portvokter",
+      "def": "Redaksjon som bestemmer hva som blir nyheter."
+    },
+    {
+      "term": "Fra mange til mange",
+      "def": "Kommunikasjon i sosiale medier der alle kan publisere."
+    },
+    {
+      "term": "Nettverkssamfunnet",
+      "def": "Samfunn organisert gjennom digitale nettverk (Castells)."
+    },
+    {
+      "term": "Asynkron kommunikasjon",
+      "def": "Meldinger som besvares senere."
+    },
+    {
+      "term": "Inntrykksstyring på nett",
+      "def": "Å vise fram en redigert versjon av seg selv."
+    },
+    {
+      "term": "Parasosial relasjon",
+      "def": "Ensidig relasjon til for eksempel en influenser."
+    },
+    {
+      "term": "Influenser",
+      "def": "Person med stor påvirkning og mange følgere i sosiale medier."
+    },
+    {
+      "term": "Algoritme (medier)",
+      "def": "Velger innhold ut fra hva vi har likt og sett."
+    },
+    {
+      "term": "Filterboble",
+      "def": "At vi mest ser innhold som passer våre interesser."
+    },
+    {
+      "term": "Ekkokammer",
+      "def": "At vi mest møter synspunkter som bekrefter våre egne."
+    },
+    {
+      "term": "Polarisering",
+      "def": "At grupper beveger seg lenger fra hverandre."
+    },
+    {
+      "term": "#MeToo",
+      "def": "Eksempel på bevegelse som fikk gjennomslag via sosiale medier."
+    },
+    {
+      "term": "Netthets",
+      "def": "Trakassering og hets på nett."
+    },
+    {
+      "term": "Digital dømmekraft",
+      "def": "Evnen til å opptre ansvarlig og kritisk på nett."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr det at redaksjoner var portvoktere?", "options": ["At de passet dørene", "At de bestemte hva som ble nyheter", "At de solgte aviser", "At de sensurerte alt"], "correct": 1, "explain": "I massemedienes tid." },
-    { "id": "q02", "text": "Hvem beskrev nettverkssamfunnet?", "options": ["Manuel Castells", "Émile Durkheim", "Karl Marx", "Max Weber"], "correct": 0, "explain": "Digitale nettverk på tvers av grenser." },
-    { "id": "q03", "text": "Hva er en parasosial relasjon?", "options": ["Et vennskap i klassen", "Et forhold mellom kolleger", "En ensidig relasjon til en person som ikke kjenner oss", "Et familieforhold"], "correct": 2, "explain": "For eksempel til en influenser." },
-    { "id": "q04", "text": "Hva er et ekkokammer?", "options": ["Et rom med ekko", "En type podkast", "En reklamekanal", "Når vi mest møter synspunkter som bekrefter våre egne"], "correct": 3, "explain": "Kan bidra til polarisering." },
-    { "id": "q05", "text": "Hvordan passer Goffmans teori til sosiale medier?", "options": ["Vi viser fram en redigert versjon av oss selv", "Vi viser alltid alt", "Vi har ingen roller på nett", "Sosiale medier har ingen publikum"], "correct": 0, "explain": "Inntrykksstyring." },
-    { "id": "q06", "text": "Hvordan har sosiale medier endret kommunikasjonen?", "options": ["Fra mange til få", "Fra få til mange, til mange til mange", "Fra muntlig til skriftlig bare", "Ingen endring"], "correct": 1, "explain": "Alle kan publisere." },
-    { "id": "q07", "text": "Hvorfor kan feilinformasjon spre seg raskt i sosiale medier?", "options": ["Fordi alle er kildekritiske", "Fordi redaksjonene sjekker alt", "Fordi sjokkerende innhold ofte får mest oppmerksomhet", "Fordi algoritmer fjerner alt"], "correct": 2, "explain": "Algoritmer belønner engasjement." },
-    { "id": "q08", "text": "Hvilket er et positivt trekk ved sosiale medier?", "options": ["Netthets", "Søvnproblemer", "Kroppspress", "Nye fellesskap og muligheter for deltakelse"], "correct": 3, "explain": "Også for grupper uten tilgang til tradisjonelle medier." },
-    { "id": "q09", "text": "Hva er en filterboble?", "options": ["At vi mest ser innhold som passer våre interesser", "En type såpe", "Et personvernfilter", "En reklameblokker"], "correct": 0, "explain": "Algoritmene tilpasser innholdet." },
-    { "id": "q10", "text": "Hva er digital dømmekraft?", "options": ["Å dømme andre på nett", "Evnen til å opptre ansvarlig og kritisk på nett", "Å bruke mye tid på nett", "Å kunne programmere"], "correct": 1, "explain": "Kildekritikk og nettvett." }
+    {
+      "id": "q01",
+      "text": "Hva betyr det at redaksjoner var portvoktere?",
+      "options": [
+        "At de passet dørene",
+        "At de bestemte hva som ble nyheter",
+        "At de solgte aviser",
+        "At de sensurerte alt"
+      ],
+      "correct": 1,
+      "explain": "I massemedienes tid."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem beskrev nettverkssamfunnet?",
+      "options": [
+        "Manuel Castells",
+        "Émile Durkheim",
+        "Karl Marx",
+        "Max Weber"
+      ],
+      "correct": 0,
+      "explain": "Digitale nettverk på tvers av grenser."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en parasosial relasjon?",
+      "options": [
+        "Et vennskap i klassen",
+        "Et forhold mellom kolleger",
+        "En ensidig relasjon til en person som ikke kjenner oss",
+        "Et familieforhold"
+      ],
+      "correct": 2,
+      "explain": "For eksempel til en influenser."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er et ekkokammer?",
+      "options": [
+        "Et rom med ekko",
+        "En type podkast",
+        "En reklamekanal",
+        "Når vi mest møter synspunkter som bekrefter våre egne"
+      ],
+      "correct": 3,
+      "explain": "Kan bidra til polarisering."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan passer Goffmans teori til sosiale medier?",
+      "options": [
+        "Vi viser fram en redigert versjon av oss selv",
+        "Vi viser alltid alt",
+        "Vi har ingen roller på nett",
+        "Sosiale medier har ingen publikum"
+      ],
+      "correct": 0,
+      "explain": "Inntrykksstyring."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan har sosiale medier endret kommunikasjonen?",
+      "options": [
+        "Fra mange til få",
+        "Fra få til mange, til mange til mange",
+        "Fra muntlig til skriftlig bare",
+        "Ingen endring"
+      ],
+      "correct": 1,
+      "explain": "Alle kan publisere."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor kan feilinformasjon spre seg raskt i sosiale medier?",
+      "options": [
+        "Fordi alle er kildekritiske",
+        "Fordi redaksjonene sjekker alt",
+        "Fordi sjokkerende innhold ofte får mest oppmerksomhet",
+        "Fordi algoritmer fjerner alt"
+      ],
+      "correct": 2,
+      "explain": "Algoritmer belønner engasjement."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket er et positivt trekk ved sosiale medier?",
+      "options": [
+        "Netthets",
+        "Søvnproblemer",
+        "Kroppspress",
+        "Nye fellesskap og muligheter for deltakelse"
+      ],
+      "correct": 3,
+      "explain": "Også for grupper uten tilgang til tradisjonelle medier."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en filterboble?",
+      "options": [
+        "At vi mest ser innhold som passer våre interesser",
+        "En type såpe",
+        "Et personvernfilter",
+        "En reklameblokker"
+      ],
+      "correct": 0,
+      "explain": "Algoritmene tilpasser innholdet."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er digital dømmekraft?",
+      "options": [
+        "Å dømme andre på nett",
+        "Evnen til å opptre ansvarlig og kritisk på nett",
+        "Å bruke mye tid på nett",
+        "Å kunne programmere"
+      ],
+      "correct": 1,
+      "explain": "Kildekritikk og nettvett."
+    }
   ],
   "mindmap": {
     "label": "Medier og samhandling",
     "children": [
-      { "label": "Medieutvikling", "children": [
-        { "label": "Massemedier" },
-        { "label": "Sosiale medier" },
-        { "label": "Nettverkssamfunnet" }
-      ] },
-      { "label": "Samhandling", "children": [
-        { "label": "Kontakt over avstand" },
-        { "label": "Interessefellesskap" },
-        { "label": "Asynkron tekst" }
-      ] },
-      { "label": "Identitet", "children": [
-        { "label": "Inntrykksstyring" },
-        { "label": "Parasosiale relasjoner" },
-        { "label": "Sammenligning og press" }
-      ] },
-      { "label": "Algoritmer", "children": [
-        { "label": "Filterbobler" },
-        { "label": "Ekkokamre" },
-        { "label": "Feilinformasjon" }
-      ] },
-      { "label": "Makt og ansvar", "children": [
-        { "label": "Teknologiselskaper" },
-        { "label": "Aktivisme" },
-        { "label": "Digital dømmekraft" }
-      ] }
+      {
+        "label": "Medieutvikling",
+        "children": [
+          {
+            "label": "Massemedier"
+          },
+          {
+            "label": "Sosiale medier"
+          },
+          {
+            "label": "Nettverkssamfunnet"
+          }
+        ]
+      },
+      {
+        "label": "Samhandling",
+        "children": [
+          {
+            "label": "Kontakt over avstand"
+          },
+          {
+            "label": "Interessefellesskap"
+          },
+          {
+            "label": "Asynkron tekst"
+          }
+        ]
+      },
+      {
+        "label": "Identitet",
+        "children": [
+          {
+            "label": "Inntrykksstyring"
+          },
+          {
+            "label": "Parasosiale relasjoner"
+          },
+          {
+            "label": "Sammenligning og press"
+          }
+        ]
+      },
+      {
+        "label": "Algoritmer",
+        "children": [
+          {
+            "label": "Filterbobler"
+          },
+          {
+            "label": "Ekkokamre"
+          },
+          {
+            "label": "Feilinformasjon"
+          }
+        ]
+      },
+      {
+        "label": "Makt og ansvar",
+        "children": [
+          {
+            "label": "Teknologiselskaper"
+          },
+          {
+            "label": "Aktivisme"
+          },
+          {
+            "label": "Digital dømmekraft"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Reklame fra influensere skal merkes tydelig.", "correct": true, "explain": "Det er et krav i markedsføringsregelverket." },
-      { "id": "m02", "type": "sant-usant", "text": "Forskerne er helt enige om hvor sterk effekten av ekkokamre er.", "correct": false, "explain": "Det er faglig uenighet om styrken." },
-      { "id": "m03", "type": "sant-usant", "text": "Tekstbasert kommunikasjon mangler kroppsspråk og tonefall.", "correct": true, "explain": "Det kan gi misforståelser." },
-      { "id": "m04", "type": "sant-usant", "text": "Sosiale medier har bare negative konsekvenser.", "correct": false, "explain": "De gir også fellesskap og deltakelse." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken bevegelse fikk stor gjennomslagskraft via sosiale medier?", "options": ["Arbeiderbevegelsen på 1800-tallet", "#MeToo", "Reformasjonen", "Hanseatene"], "correct": 1, "explain": "Fra 2017." },
-      { "id": "m06", "type": "flervalg", "text": "Hvem har fått stor makt over offentligheten i dag?", "options": ["De store teknologiselskapene", "Postvesenet", "Telegrafen", "Lokale bibliotek"], "correct": 0, "explain": "Gjennom plattformer og algoritmer." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan det føre til å sammenligne seg med andres redigerte liv på nett?", "options": ["Bedre søvn", "Mer tid", "Press og dårligere selvbilde", "Høyere inntekt"], "correct": 2, "explain": "Vi ser bare scenen, ikke bakscenen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Reklame fra influensere skal merkes tydelig.",
+        "correct": true,
+        "explain": "Det er et krav i markedsføringsregelverket."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Forskerne er helt enige om hvor sterk effekten av ekkokamre er.",
+        "correct": false,
+        "explain": "Det er faglig uenighet om styrken."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Tekstbasert kommunikasjon mangler kroppsspråk og tonefall.",
+        "correct": true,
+        "explain": "Det kan gi misforståelser."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Sosiale medier har bare negative konsekvenser.",
+        "correct": false,
+        "explain": "De gir også fellesskap og deltakelse."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken bevegelse fikk stor gjennomslagskraft via sosiale medier?",
+        "options": [
+          "Arbeiderbevegelsen på 1800-tallet",
+          "#MeToo",
+          "Reformasjonen",
+          "Hanseatene"
+        ],
+        "correct": 1,
+        "explain": "Fra 2017."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem har fått stor makt over offentligheten i dag?",
+        "options": [
+          "De store teknologiselskapene",
+          "Postvesenet",
+          "Telegrafen",
+          "Lokale bibliotek"
+        ],
+        "correct": 0,
+        "explain": "Gjennom plattformer og algoritmer."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan det føre til å sammenligne seg med andres redigerte liv på nett?",
+        "options": [
+          "Bedre søvn",
+          "Mer tid",
+          "Press og dårligere selvbilde",
+          "Høyere inntekt"
+        ],
+        "correct": 2,
+        "explain": "Vi ser bare scenen, ikke bakscenen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En person sender en melding til en venn, og vennen svarer flere timer senere. Forklar hvorfor dette er asynkron kommunikasjon.",
+        "fasit": "Det er asynkron kommunikasjon fordi meldingen ikke må besvares med en gang. Avsender og mottaker kommuniserer på ulike tidspunkter.",
+        "kriterier": [
+          "Forklarer at svar kan komme senere, ikke med en gang.",
+          "Knytter dette til at kommunikasjonen skjer på ulike tidspunkter."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I nettverkssamfunnet organiseres økonomi, politikk og sosiale relasjoner i økende grad gjennom digitale nettverk på tvers av landegrenser. Forklar hvordan informasjon og kontakter kan gi makt i et slikt samfunn.",
+        "fasit": "Digitale nettverk gjør det mulig å dele informasjon og knytte kontakter på tvers av landegrenser. Tilgang til informasjon og viktige kontakter kan derfor gi innflytelse og makt.",
+        "kriterier": [
+          "Forklarer at nettverk gjør deling av informasjon eller kontakt på tvers av landegrenser mulig.",
+          "Viser hvordan informasjon eller kontakter kan gi innflytelse eller makt."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En ungdom blir med i et nettbasert spillfellesskap med personer som bor langt unna. Forklar hva slags fellesskap dette er, og hvorfor det kan oppstå selv om deltakerne bor på ulike steder.",
+        "fasit": "Det er et fellesskap som oppstår rundt en felles interesse. Sosiale medier og annen nettkommunikasjon gjør at folk kan møtes og samhandle uavhengig av hvor de bor.",
+        "kriterier": [
+          "Knytter fellesskapet til en felles interesse, som gaming.",
+          "Forklarer at digital samhandling gjør fellesskap mulig på tvers av geografisk avstand."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En influenser deler en produktanbefaling på sosiale medier på en personlig og nær måte. Forklar hvorfor influensere kan være effektive reklamekanaler, og hva som gjelder når innholdet er reklame.",
+        "fasit": "Følgere kan oppleve at de kjenner influenseren, og tilliten som bygges gjennom nærhet og ærlighet, kan gjøre anbefalingen virkningsfull. Reklame i sosiale medier skal merkes tydelig.",
+        "kriterier": [
+          "Forklarer hvordan nærhet, opplevd tillit eller en parasosial relasjon kan påvirke følgerne.",
+          "Får fram at reklame skal merkes tydelig."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Algoritmer velger ofte innhold ut fra hva brukere har likt og sett tidligere. Forklar hvordan dette kan bidra til polarisering, og ta med hvorfor forskere ikke er sikre på hvor sterk effekten er.",
+        "fasit": "Når brukere ofte får innhold som bekrefter egne synspunkter, kan grupper bevege seg lenger fra hverandre, altså bli mer polariserte. Forskere er uenige om hvor sterke effektene av algoritmene er.",
+        "kriterier": [
+          "Forklarer en sammenheng mellom algoritmevalgt innhold og at grupper kan bevege seg lenger fra hverandre.",
+          "Nevner at forskere er uenige eller usikre på hvor sterke effektene er."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "#MeToo er et eksempel på en bevegelse som fikk gjennomslag via sosiale medier. Forklar hvilken mulighet sosiale medier kan gi aktivister eller grupper som ikke får tilgang til tradisjonelle medier.",
+        "fasit": "Sosiale medier kan gi aktivister og grupper en mulighet til å publisere og bli hørt uten å være avhengige av tradisjonelle medier. #MeToo viser hvordan en bevegelse kan få gjennomslag gjennom slike plattformer.",
+        "kriterier": [
+          "Forklarer at sosiale medier gir grupper mulighet til å publisere eller bli hørt.",
+          "Knytter muligheten til grupper som mangler tilgang til tradisjonelle medier."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev bruker sosiale medier til å holde kontakt med venner som bor langt unna, men opplever også netthets. Forklar én positiv og én negativ påvirkning sosiale medier kan ha i denne situasjonen.",
+        "fasit": "Det positive er at eleven kan holde kontakt med venner over store avstander. Netthets er en negativ påvirkning fordi det innebærer trakassering eller hets på nett.",
+        "kriterier": [
+          "Forklarer hvordan kontakt over avstand kan være en positiv påvirkning.",
+          "Forklarer netthets som en negativ påvirkning eller som trakassering/hets på nett."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du ser et oppsiktsvekkende innlegg på nettet, men vet ikke om opplysningene stemmer. Beskriv hvordan du kan bruke digital dømmekraft før du deler innlegget.",
+        "fasit": "Jeg bør vurdere hvor opplysningene kommer fra, før jeg bestemmer meg for om de er til å stole på. Hvis jeg ikke vet om de stemmer, bør jeg være forsiktig med å dele dem videre.",
+        "kriterier": [
+          "Viser at kilden eller opplysningene bør vurderes kritisk.",
+          "Viser ansvar ved å være forsiktig med å dele noe som kan være feilinformasjon."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,74 +4,418 @@
   "trinnId": "8",
   "name": "Lesestrategier",
   "intro": "Hvordan du leser før, under og etter lesingen, og hvilke strategier som passer til skjønnlitteratur og sakprosa.",
-  "kompetansemaal": [3, 1],
+  "kompetansemaal": [
+    3,
+    1
+  ],
   "sammendrag": "## Hvorfor lesestrategier?\n\nEn **lesestrategi** er en bevisst måte å lese på for å forstå og huske bedre. Gode lesere bruker strategier uten å tenke over det, men alle kan lære dem. Hvilken strategi du velger, avhenger av **formålet** med lesingen og av **teksttypen**. Leser du en novelle for å oppleve, leser du annerledes enn når du leser et kapittel i naturfagboka for å lære til en prøve.\n\n## Før lesingen\n\n- **Skumlese**: Se raskt over tittel, ingresser, mellomtitler, bilder og uthevet tekst for å få et overblikk.\n- **Aktivere forkunnskaper**: Hva vet du fra før om temaet? Å koble ny kunnskap til det du kan, gjør den lettere å huske.\n- **Stille spørsmål**: Hva vil jeg finne ut av? Gjør gjerne overskriftene om til spørsmål.\n\n## Under lesingen\n\n- **Nærlese**: Les nøye og stopp opp ved det som er vanskelig.\n- **Sjekke forståelsen**: Kan jeg si med egne ord hva avsnittet handler om?\n- **Slå opp ukjente ord** eller finne betydningen ut fra sammenhengen.\n- **Understreke og notere**: Marker nøkkelord, ikke hele setninger.\n- **Søkelese**: Let raskt etter bestemte opplysninger, som et årstall eller et navn.\n\n## Etter lesingen\n\n- **Oppsummere**: Skriv et kort sammendrag med egne ord.\n- **Lage tankekart** eller tabeller som viser sammenhenger.\n- **Tolke og reflektere**: Hva mener teksten, og hva mener jeg?\n\n## Skjønnlitteratur og sakprosa\n\n**Skjønnlitteratur** er oppdiktede tekster som noveller, romaner og dikt. Her er det lurt å legge merke til personer, miljø, handling, synsvinkel og tema, og å stille spørsmål som «Hvorfor gjør personen dette?». **Sakprosa** er tekster om virkeligheten, som fagtekster, artikler og nyheter. Her er det viktig å finne hovedpoenger, skille fakta fra meninger og vurdere hvem som står bak teksten.\n\n## Reflektere over egen lesing\n\nÅ reflektere over egen lesing betyr å tenke gjennom hvilke strategier som fungerer for deg. Merker du at du har lest en side uten å huske noe, er det et tegn på at du må bytte strategi, for eksempel ved å stoppe og oppsummere hvert avsnitt. Å kunne forklare hvordan du leste, og hvorfor, er en del av det å være en god leser.",
   "flashcards": [
-    { "term": "Lesestrategi", "def": "En bevisst måte å lese på for å forstå og huske bedre." },
-    { "term": "Formål med lesingen", "def": "Hvorfor du leser: for å oppleve, lære, finne informasjon eller vurdere." },
-    { "term": "Skumlese", "def": "Lese raskt over tittel, mellomtitler, bilder og uthevet tekst for å få overblikk." },
-    { "term": "Søkelese", "def": "Lete raskt etter en bestemt opplysning, for eksempel et årstall eller navn." },
-    { "term": "Nærlese", "def": "Lese nøye og grundig, ofte flere ganger, for å forstå detaljer." },
-    { "term": "Forkunnskaper", "def": "Det du vet fra før om et tema. Å aktivere dem gjør ny kunnskap lettere å forstå." },
-    { "term": "Førlesing", "def": "Det du gjør før du leser: skumleser, tenker over hva du vet og stiller spørsmål." },
-    { "term": "Oppsummere", "def": "Gjengi hovedinnholdet kort med egne ord." },
-    { "term": "Nøkkelord", "def": "De viktigste ordene i en tekst, som bærer hovedinnholdet." },
-    { "term": "Tankekart", "def": "En tegning som viser et tema i midten og hvordan underpunktene henger sammen." },
-    { "term": "Skjønnlitteratur", "def": "Oppdiktede tekster, som noveller, romaner og dikt." },
-    { "term": "Sakprosa", "def": "Tekster om virkeligheten, som fagtekster, artikler og nyheter." },
-    { "term": "Ingress", "def": "Innledningen i en artikkel, ofte i fet skrift, som oppsummerer det viktigste." },
-    { "term": "Sjekke forståelsen", "def": "Stoppe opp og spørre seg selv om man kan forklare det man nettopp har lest." },
-    { "term": "Reflektere over lesing", "def": "Tenke over hvilke strategier som fungerte, og hva du kan gjøre annerledes." }
+    {
+      "term": "Lesestrategi",
+      "def": "En bevisst måte å lese på for å forstå og huske bedre."
+    },
+    {
+      "term": "Formål med lesingen",
+      "def": "Hvorfor du leser: for å oppleve, lære, finne informasjon eller vurdere."
+    },
+    {
+      "term": "Skumlese",
+      "def": "Lese raskt over tittel, mellomtitler, bilder og uthevet tekst for å få overblikk."
+    },
+    {
+      "term": "Søkelese",
+      "def": "Lete raskt etter en bestemt opplysning, for eksempel et årstall eller navn."
+    },
+    {
+      "term": "Nærlese",
+      "def": "Lese nøye og grundig, ofte flere ganger, for å forstå detaljer."
+    },
+    {
+      "term": "Forkunnskaper",
+      "def": "Det du vet fra før om et tema. Å aktivere dem gjør ny kunnskap lettere å forstå."
+    },
+    {
+      "term": "Førlesing",
+      "def": "Det du gjør før du leser: skumleser, tenker over hva du vet og stiller spørsmål."
+    },
+    {
+      "term": "Oppsummere",
+      "def": "Gjengi hovedinnholdet kort med egne ord."
+    },
+    {
+      "term": "Nøkkelord",
+      "def": "De viktigste ordene i en tekst, som bærer hovedinnholdet."
+    },
+    {
+      "term": "Tankekart",
+      "def": "En tegning som viser et tema i midten og hvordan underpunktene henger sammen."
+    },
+    {
+      "term": "Skjønnlitteratur",
+      "def": "Oppdiktede tekster, som noveller, romaner og dikt."
+    },
+    {
+      "term": "Sakprosa",
+      "def": "Tekster om virkeligheten, som fagtekster, artikler og nyheter."
+    },
+    {
+      "term": "Ingress",
+      "def": "Innledningen i en artikkel, ofte i fet skrift, som oppsummerer det viktigste."
+    },
+    {
+      "term": "Sjekke forståelsen",
+      "def": "Stoppe opp og spørre seg selv om man kan forklare det man nettopp har lest."
+    },
+    {
+      "term": "Reflektere over lesing",
+      "def": "Tenke over hvilke strategier som fungerte, og hva du kan gjøre annerledes."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva gjør du når du skumleser?", "options": ["Leser hvert ord nøye", "Ser raskt over titler, bilder og uthevet tekst", "Leser teksten høyt", "Skriver av teksten"], "correct": 1, "explain": "Skumlesing gir et raskt overblikk før du leser grundig." },
-    { "id": "q02", "text": "Du skal finne hvilket år en oppfinnelse ble gjort. Hvilken strategi passer best?", "options": ["Søkelesing", "Nærlesing", "Tankekart", "Høytlesing"], "correct": 0, "explain": "Når du leter etter en bestemt opplysning, søker du raskt gjennom teksten etter den." },
-    { "id": "q03", "text": "Hvorfor er det lurt å aktivere forkunnskaper før du leser?", "options": ["Fordi du slipper å lese hele teksten", "Fordi det gjør teksten kortere", "Fordi ny kunnskap blir lettere å forstå og huske når den kobles til det du kan", "Fordi læreren krever det"], "correct": 2, "explain": "Hjernen husker bedre når ny informasjon kan knyttes til noe den allerede kjenner." },
-    { "id": "q04", "text": "Hvilken tekst er sakprosa?", "options": ["En novelle", "Et eventyr", "Et dikt", "En fagartikkel om klimaendringer"], "correct": 3, "explain": "Sakprosa handler om virkeligheten. Novelle, eventyr og dikt er skjønnlitteratur." },
-    { "id": "q05", "text": "Hva bør du understreke når du leser en fagtekst?", "options": ["Hele setninger", "Nøkkelord", "Alle ord du kjenner", "Ingenting"], "correct": 1, "explain": "Nøkkelord bærer hovedinnholdet. Understreker du alt, blir det ingen hjelp når du skal repetere." },
-    { "id": "q06", "text": "Du har lest en side, men husker ingenting. Hva er et godt tiltak?", "options": ["Lese videre raskere", "Stoppe og oppsummere hvert avsnitt med egne ord", "Hoppe over kapittelet", "Lese siden baklengs"], "correct": 1, "explain": "Å oppsummere avsnitt for avsnitt tvinger deg til å bearbeide innholdet, og du merker med en gang hva du ikke har forstått." },
-    { "id": "q07", "text": "Hva er en ingress?", "options": ["Siste avsnitt i en novelle", "En bildetekst", "Innledningen i en artikkel som oppsummerer det viktigste", "En fotnote"], "correct": 2, "explain": "Ingressen står etter overskriften, ofte i fet skrift, og gir et sammendrag av saken." },
-    { "id": "q08", "text": "Hvilket spørsmål passer best når du leser skjønnlitteratur?", "options": ["Hvorfor handler personen slik?", "Hvem finansierte undersøkelsen?", "Hvilket årstall står i tabellen?", "Hva er kilden til tallene?"], "correct": 0, "explain": "I skjønnlitteratur er det ofte personenes motiver og tekstens tema som er interessant å tolke." },
-    { "id": "q09", "text": "Hva er en typisk strategi etter lesingen?", "options": ["Skumlese", "Aktivere forkunnskaper", "Se på bildene først", "Lage et tankekart over innholdet"], "correct": 3, "explain": "Etter lesingen bearbeider du stoffet, for eksempel med tankekart eller sammendrag." },
-    { "id": "q10", "text": "Hva betyr det å reflektere over egen lesing?", "options": ["Å lese teksten en gang til", "Å tenke over hvilke strategier som fungerer for deg og hvorfor", "Å lese høyt for andre", "Å skrive en bokanmeldelse"], "correct": 1, "explain": "Refleksjon over egen lesing handler om å bli bevisst hvordan du leser, slik at du kan velge bedre strategier." }
+    {
+      "id": "q01",
+      "text": "Hva gjør du når du skumleser?",
+      "options": [
+        "Leser hvert ord nøye",
+        "Ser raskt over titler, bilder og uthevet tekst",
+        "Leser teksten høyt",
+        "Skriver av teksten"
+      ],
+      "correct": 1,
+      "explain": "Skumlesing gir et raskt overblikk før du leser grundig."
+    },
+    {
+      "id": "q02",
+      "text": "Du skal finne hvilket år en oppfinnelse ble gjort. Hvilken strategi passer best?",
+      "options": [
+        "Søkelesing",
+        "Nærlesing",
+        "Tankekart",
+        "Høytlesing"
+      ],
+      "correct": 0,
+      "explain": "Når du leter etter en bestemt opplysning, søker du raskt gjennom teksten etter den."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor er det lurt å aktivere forkunnskaper før du leser?",
+      "options": [
+        "Fordi du slipper å lese hele teksten",
+        "Fordi det gjør teksten kortere",
+        "Fordi ny kunnskap blir lettere å forstå og huske når den kobles til det du kan",
+        "Fordi læreren krever det"
+      ],
+      "correct": 2,
+      "explain": "Hjernen husker bedre når ny informasjon kan knyttes til noe den allerede kjenner."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken tekst er sakprosa?",
+      "options": [
+        "En novelle",
+        "Et eventyr",
+        "Et dikt",
+        "En fagartikkel om klimaendringer"
+      ],
+      "correct": 3,
+      "explain": "Sakprosa handler om virkeligheten. Novelle, eventyr og dikt er skjønnlitteratur."
+    },
+    {
+      "id": "q05",
+      "text": "Hva bør du understreke når du leser en fagtekst?",
+      "options": [
+        "Hele setninger",
+        "Nøkkelord",
+        "Alle ord du kjenner",
+        "Ingenting"
+      ],
+      "correct": 1,
+      "explain": "Nøkkelord bærer hovedinnholdet. Understreker du alt, blir det ingen hjelp når du skal repetere."
+    },
+    {
+      "id": "q06",
+      "text": "Du har lest en side, men husker ingenting. Hva er et godt tiltak?",
+      "options": [
+        "Lese videre raskere",
+        "Stoppe og oppsummere hvert avsnitt med egne ord",
+        "Hoppe over kapittelet",
+        "Lese siden baklengs"
+      ],
+      "correct": 1,
+      "explain": "Å oppsummere avsnitt for avsnitt tvinger deg til å bearbeide innholdet, og du merker med en gang hva du ikke har forstått."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en ingress?",
+      "options": [
+        "Siste avsnitt i en novelle",
+        "En bildetekst",
+        "Innledningen i en artikkel som oppsummerer det viktigste",
+        "En fotnote"
+      ],
+      "correct": 2,
+      "explain": "Ingressen står etter overskriften, ofte i fet skrift, og gir et sammendrag av saken."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket spørsmål passer best når du leser skjønnlitteratur?",
+      "options": [
+        "Hvorfor handler personen slik?",
+        "Hvem finansierte undersøkelsen?",
+        "Hvilket årstall står i tabellen?",
+        "Hva er kilden til tallene?"
+      ],
+      "correct": 0,
+      "explain": "I skjønnlitteratur er det ofte personenes motiver og tekstens tema som er interessant å tolke."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en typisk strategi etter lesingen?",
+      "options": [
+        "Skumlese",
+        "Aktivere forkunnskaper",
+        "Se på bildene først",
+        "Lage et tankekart over innholdet"
+      ],
+      "correct": 3,
+      "explain": "Etter lesingen bearbeider du stoffet, for eksempel med tankekart eller sammendrag."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr det å reflektere over egen lesing?",
+      "options": [
+        "Å lese teksten en gang til",
+        "Å tenke over hvilke strategier som fungerer for deg og hvorfor",
+        "Å lese høyt for andre",
+        "Å skrive en bokanmeldelse"
+      ],
+      "correct": 1,
+      "explain": "Refleksjon over egen lesing handler om å bli bevisst hvordan du leser, slik at du kan velge bedre strategier."
+    }
   ],
   "mindmap": {
     "label": "Lesestrategier",
     "children": [
-      { "label": "Før", "children": [
-        { "label": "Skumlese", "note": "Overblikk" },
-        { "label": "Forkunnskaper" },
-        { "label": "Still spørsmål" }
-      ] },
-      { "label": "Under", "children": [
-        { "label": "Nærlese" },
-        { "label": "Søkelese", "note": "Finn opplysninger" },
-        { "label": "Nøkkelord" },
-        { "label": "Sjekk forståelsen" }
-      ] },
-      { "label": "Etter", "children": [
-        { "label": "Oppsummere" },
-        { "label": "Tankekart" },
-        { "label": "Tolke og reflektere" }
-      ] },
-      { "label": "Teksttype", "children": [
-        { "label": "Skjønnlitteratur", "note": "Personer, tema" },
-        { "label": "Sakprosa", "note": "Hovedpoeng, avsender" }
-      ] }
+      {
+        "label": "Før",
+        "children": [
+          {
+            "label": "Skumlese",
+            "note": "Overblikk"
+          },
+          {
+            "label": "Forkunnskaper"
+          },
+          {
+            "label": "Still spørsmål"
+          }
+        ]
+      },
+      {
+        "label": "Under",
+        "children": [
+          {
+            "label": "Nærlese"
+          },
+          {
+            "label": "Søkelese",
+            "note": "Finn opplysninger"
+          },
+          {
+            "label": "Nøkkelord"
+          },
+          {
+            "label": "Sjekk forståelsen"
+          }
+        ]
+      },
+      {
+        "label": "Etter",
+        "children": [
+          {
+            "label": "Oppsummere"
+          },
+          {
+            "label": "Tankekart"
+          },
+          {
+            "label": "Tolke og reflektere"
+          }
+        ]
+      },
+      {
+        "label": "Teksttype",
+        "children": [
+          {
+            "label": "Skjønnlitteratur",
+            "note": "Personer, tema"
+          },
+          {
+            "label": "Sakprosa",
+            "note": "Hovedpoeng, avsender"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q09"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q09"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Du bør alltid lese alle tekster på samme måte.", "correct": false, "explain": "Strategien bør tilpasses formålet og teksttypen." },
-      { "id": "m02", "type": "sant-usant", "text": "En roman er et eksempel på skjønnlitteratur.", "correct": true, "explain": "Romaner er oppdiktede fortellinger og hører til skjønnlitteraturen." },
-      { "id": "m03", "type": "sant-usant", "text": "Å oppsummere med egne ord hjelper deg å huske det du har lest.", "correct": true, "explain": "Når du omformulerer innholdet, bearbeider du det og husker det bedre." },
-      { "id": "m04", "type": "sant-usant", "text": "Nærlesing betyr å lese raskt for å få overblikk.", "correct": false, "explain": "Det er skumlesing. Nærlesing er grundig lesing av detaljer." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken strategi hører hjemme før lesingen?", "options": ["Skrive sammendrag", "Lage tankekart over innholdet", "Tolke budskapet", "Se over titler og mellomtitler"], "correct": 3, "explain": "Å se over titler og mellomtitler er en førlesingsstrategi som gir overblikk." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er viktig å vurdere når du leser sakprosa?", "options": ["Hvem som står bak teksten", "Hvilket rim diktet har", "Hvem hovedpersonen er forelsket i", "Hvilken farge omslaget har"], "correct": 0, "explain": "I sakprosa må du vurdere avsenderen og om teksten skiller fakta fra meninger." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan du gjøre med et ukjent ord?", "options": ["Alltid hoppe over det", "Slå det opp eller finne betydningen ut fra sammenhengen", "Slutte å lese", "Bytte det ut med et annet ord"], "correct": 1, "explain": "Ofte gir sammenhengen et hint. Er ordet viktig, bør du slå det opp." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Du bør alltid lese alle tekster på samme måte.",
+        "correct": false,
+        "explain": "Strategien bør tilpasses formålet og teksttypen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En roman er et eksempel på skjønnlitteratur.",
+        "correct": true,
+        "explain": "Romaner er oppdiktede fortellinger og hører til skjønnlitteraturen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Å oppsummere med egne ord hjelper deg å huske det du har lest.",
+        "correct": true,
+        "explain": "Når du omformulerer innholdet, bearbeider du det og husker det bedre."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Nærlesing betyr å lese raskt for å få overblikk.",
+        "correct": false,
+        "explain": "Det er skumlesing. Nærlesing er grundig lesing av detaljer."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken strategi hører hjemme før lesingen?",
+        "options": [
+          "Skrive sammendrag",
+          "Lage tankekart over innholdet",
+          "Tolke budskapet",
+          "Se over titler og mellomtitler"
+        ],
+        "correct": 3,
+        "explain": "Å se over titler og mellomtitler er en førlesingsstrategi som gir overblikk."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er viktig å vurdere når du leser sakprosa?",
+        "options": [
+          "Hvem som står bak teksten",
+          "Hvilket rim diktet har",
+          "Hvem hovedpersonen er forelsket i",
+          "Hvilken farge omslaget har"
+        ],
+        "correct": 0,
+        "explain": "I sakprosa må du vurdere avsenderen og om teksten skiller fakta fra meninger."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan du gjøre med et ukjent ord?",
+        "options": [
+          "Alltid hoppe over det",
+          "Slå det opp eller finne betydningen ut fra sammenhengen",
+          "Slutte å lese",
+          "Bytte det ut med et annet ord"
+        ],
+        "correct": 1,
+        "explain": "Ofte gir sammenhengen et hint. Er ordet viktig, bør du slå det opp."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Du skal lese en novelle for å oppleve en fortelling, og senere lese et kapittel i en naturfagbok for å lære til en prøve. Forklar hvorfor du kan velge ulike lesestrategier i de to situasjonene.",
+        "fasit": "Når du leser novella, kan du følge personene og handlingen for å oppleve fortellingen. I naturfagboka kan du lese nøye og oppsummere for å lære stoffet. Strategien bør passe til formålet og teksttypen.",
+        "kriterier": [
+          "Forklarer at strategivalget avhenger av formålet med lesingen og/eller teksttypen.",
+          "Viser med et relevant eksempel hvordan strategien kan være ulik i de to situasjonene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hva er forskjellen på å skumlese og å nærlese? Forklar når det kan være nyttig å bruke hver av strategiene.",
+        "fasit": "Når du skumleser, får du raskt et overblikk ved å se på for eksempel titler og mellomtitler. Når du nærleser, går du grundig inn i teksten for å forstå detaljer, særlig når noe er vanskelig.",
+        "kriterier": [
+          "Forklarer at skumlesing gir et raskt overblikk, mens nærlesing er grundig.",
+          "Knytter strategiene til passende situasjoner eller formål."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Før du leser et fagkapittel, ser du overskriften «Dyr i kalde områder». Skriv et spørsmål du kan stille deg før lesingen, og forklar hvordan spørsmålet kan hjelpe deg.",
+        "fasit": "Jeg kan spørre: «Hvordan klarer dyr å leve i kalde områder?» Spørsmålet gir meg noe bestemt å lete etter mens jeg leser.",
+        "kriterier": [
+          "Lager et relevant spørsmål om temaet i overskriften.",
+          "Forklarer at spørsmålet gir lesingen et fokus eller gjør det lettere å finne ut av noe."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Mens du leser en fagtekst, møter du et ord du ikke forstår. Forklar to måter du kan prøve å finne ut hva ordet betyr.",
+        "fasit": "Jeg kan se på ordene rundt og prøve å forstå betydningen ut fra sammenhengen. Hvis det ikke er nok, kan jeg slå opp ordet.",
+        "kriterier": [
+          "Nevner å bruke sammenhengen rundt ordet for å finne betydningen.",
+          "Nevner å slå opp ordet dersom betydningen fortsatt er uklar."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign hvordan du kan lese en novelle og en nyhetsartikkel. Hva kan du særlig legge merke til i hver teksttype?",
+        "fasit": "I en novelle kan jeg følge med på personer, miljø og handling. I en nyhetsartikkel kan jeg se etter hovedpoenger, skille fakta fra meninger og vurdere hvem som står bak.",
+        "kriterier": [
+          "Nevner relevante trekk å følge med på i skjønnlitteratur, som personer, miljø eller handling.",
+          "Nevner relevante trekk ved sakprosa, som hovedpoenger, fakta og meninger eller hvem som står bak."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Etter å ha lest om et tema vil du vise hvordan flere underpunkter henger sammen. Forklar hvordan et tankekart kan hjelpe deg med dette.",
+        "fasit": "Jeg kan skrive temaet i midten av tankekartet og plassere underpunktene rundt. Da blir det synlig hvordan underpunktene hører sammen med temaet og med hverandre.",
+        "kriterier": [
+          "Forklarer at temaet står i midten og underpunktene plasseres rundt.",
+          "Forklarer at tankekartet viser sammenhenger mellom temaet og underpunktene."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du leser en artikkel om et tema i virkeligheten. Forklar hvordan du kan vurdere om artikkelen gir pålitelig informasjon.",
+        "fasit": "Jeg kan undersøke hvem som står bak artikkelen, og skille mellom opplysninger som er fakta, og det som er meninger. Da vurderer jeg både informasjonen og avsenderen.",
+        "kriterier": [
+          "Nevner at man bør vurdere hvem som står bak teksten.",
+          "Nevner at man bør skille fakta fra meninger."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Når du leser en fagtekst, hvorfor er det ofte bedre å understreke nøkkelord enn hele setninger?",
+        "fasit": "Nøkkelord bærer viktige deler av hovedinnholdet. Når jeg markerer dem i stedet for hele setninger, blir det lettere å få oversikt over det viktigste.",
+        "kriterier": [
+          "Forklarer at nøkkelord viser eller bærer viktige deler av hovedinnholdet.",
+          "Knytter markering av nøkkelord til å få oversikt over det viktigste."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

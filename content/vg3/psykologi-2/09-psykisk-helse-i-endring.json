@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Synet på psykisk helse gjennom tidene",
   "intro": "Hvordan synet på psykisk helse og behandlingen av psykiske lidelser har endret seg – fra overnaturlige forklaringer og dårekister til asyler, moralsk behandling, psykoanalyse, lobotomi og psykofarmaka, avinstitusjonalisering og opptrappingsplan – og hvilke endringer som pågår i dag.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Tidlige forklaringer\n\nI mange tidlige samfunn ble psykiske lidelser forklart med **overnaturlige** krefter – **ånder**, **demoner** eller **straff** fra gudene. Den greske legen **Hippokrates** mente derimot at sykdom hadde **naturlige** årsaker, som ubalanse i kroppsvæskene.\n\nI Norge ble mennesker med alvorlige psykiske lidelser i lang tid holdt i **dårekister** – små rom eller bur ved sykehus og fattighus – eller satt bort på **legd** hos gårdbrukere.\n\n## Moralsk behandling og asyler\n\nPå slutten av 1700-tallet tok den franske legen **Philippe Pinel** til orde for å fjerne **lenkene** og behandle pasientene med **respekt**, ro og meningsfylt arbeid – **moralsk behandling**.\n\nI Norge kom **sinnssykeloven** i **1848**, og **Gaustad sykehus** ved Oslo åpnet i **1855** som et av de første store **asylene**. Tanken var at et rolig miljø utenfor samfunnet kunne **helbrede**. Etter hvert ble mange asyler **overfylte** og mer preget av **oppbevaring** enn behandling.\n\n## Nye teorier og inngripende behandling\n\n- **Sigmund Freud** og **psykoanalysen** rundt år **1900** la vekt på **ubevisste** konflikter og **samtalebehandling**.\n- I første halvdel av 1900-tallet ble det tatt i bruk **inngripende** biologiske metoder, som **insulinsjokk**, **elektrosjokk** og **lobotomi** – et inngrep i hjernens pannelapp. Mange som ble lobotomert, fikk **varige skader**, og fra 1996 har den norske staten gitt **erstatning** til mange av dem.\n- Elektrokonvulsiv behandling (**ECT**) brukes fortsatt i dag, men i en **tryggere** form og ved **alvorlig** depresjon.\n\n## Medisiner og avinstitusjonalisering\n\nPå **1950-tallet** kom de første effektive **psykofarmaka** – **antipsykotika** og **antidepressiva**. De gjorde det mulig for mange å bo **utenfor** institusjonene.\n\nPå **1960- og 70-tallet** kom sterk **kritikk** av de store institusjonene, som ble sett som **umenneskelige** og **stemplende**. Resultatet var **avinstitusjonalisering**: Flere skulle få hjelp **nær hjemmet**.\n\n## Diagnoser endres\n\nDiagnosesystemene **ICD** og **DSM** revideres jevnlig. **Homofili** ble fjernet som diagnose i Norge i **1977**, men først i 1990-årene fra WHOs internasjonale diagnosesystem ICD. Eksempelet viser at hva som regnes som **sykt**, også påvirkes av **kultur** og **verdier**.\n\n## Opptrapping og nærhet\n\n**Opptrappingsplanen for psykisk helse** (1999–2008) ga mer ressurser til **distriktspsykiatriske sentre (DPS)**, **barne- og ungdomspsykiatrien (BUP)** og **kommunale** tjenester. Siden **2020** har kommunene hatt plikt til å ha **psykologkompetanse**.\n\n## Dagens endringer\n\n- **Brukermedvirkning**: Pasienten skal være med på å bestemme egen behandling.\n- **Recovery** – bedringsprosesser: vekt på å leve et **meningsfullt** liv, også med symptomer.\n- **Lavterskeltilbud** som **Rask psykisk helsehjelp** og helsestasjon for ungdom.\n- **Digitale** behandlingsprogrammer og nettbasert terapi.\n- **Pakkeforløp** skal gi mer forutsigbare behandlingsløp.\n- Debatt om **tvang** og om **medisinfrie** behandlingstilbud.\n- **Åpenhet**: Mange forteller offentlig om egne psykiske plager, noe som kan redusere **stigma**.\n- **Livsmestring** er blitt et tverrfaglig tema i skolen.\n\nSamtidig diskuteres det om **flere** normale reaksjoner blir gjort om til **diagnoser**, og om tjenestene klarer å møte den økende **pågangen** fra unge.\n\n## Refleksjon\n\nHistorien viser at behandling av psykiske lidelser har vært preget av både **omsorg** og **overgrep**, og at det som var **anerkjent** behandling i én tid, kan bli sett på som **skadelig** senere. Det gir grunn til å være **kritisk** også til dagens metoder – og til å lytte til **pasientenes** erfaringer.",
   "flashcards": [
-    { "term": "Overnaturlige forklaringer", "def": "Ånder, demoner eller straff fra gudene." },
-    { "term": "Hippokrates", "def": "Mente sykdom hadde naturlige årsaker." },
-    { "term": "Dårekiste", "def": "Rom eller bur der mennesker med psykiske lidelser ble holdt." },
-    { "term": "Philippe Pinel", "def": "Fransk lege som tok til orde for å fjerne lenkene." },
-    { "term": "Moralsk behandling", "def": "Respekt, ro og meningsfylt arbeid." },
-    { "term": "Sinnssykeloven", "def": "Norges første lov om psykisk helsevern – 1848." },
-    { "term": "Gaustad sykehus", "def": "Asyl ved Oslo som åpnet i 1855." },
-    { "term": "Lobotomi", "def": "Inngrep i hjernens pannelapp – ga ofte varige skader." },
-    { "term": "Psykofarmaka", "def": "Medisiner mot psykiske lidelser – fra 1950-tallet." },
-    { "term": "Avinstitusjonalisering", "def": "Overgang fra store institusjoner til hjelp nær hjemmet." },
-    { "term": "Opptrappingsplanen", "def": "Satsing på psykisk helse 1999–2008." },
-    { "term": "DPS", "def": "Distriktspsykiatrisk senter." },
-    { "term": "Brukermedvirkning", "def": "Pasienten er med på å bestemme egen behandling." },
-    { "term": "Recovery", "def": "Bedringsprosess med vekt på et meningsfullt liv." },
-    { "term": "Stigma", "def": "Negative holdninger og stempling." }
+    {
+      "term": "Overnaturlige forklaringer",
+      "def": "Ånder, demoner eller straff fra gudene."
+    },
+    {
+      "term": "Hippokrates",
+      "def": "Mente sykdom hadde naturlige årsaker."
+    },
+    {
+      "term": "Dårekiste",
+      "def": "Rom eller bur der mennesker med psykiske lidelser ble holdt."
+    },
+    {
+      "term": "Philippe Pinel",
+      "def": "Fransk lege som tok til orde for å fjerne lenkene."
+    },
+    {
+      "term": "Moralsk behandling",
+      "def": "Respekt, ro og meningsfylt arbeid."
+    },
+    {
+      "term": "Sinnssykeloven",
+      "def": "Norges første lov om psykisk helsevern – 1848."
+    },
+    {
+      "term": "Gaustad sykehus",
+      "def": "Asyl ved Oslo som åpnet i 1855."
+    },
+    {
+      "term": "Lobotomi",
+      "def": "Inngrep i hjernens pannelapp – ga ofte varige skader."
+    },
+    {
+      "term": "Psykofarmaka",
+      "def": "Medisiner mot psykiske lidelser – fra 1950-tallet."
+    },
+    {
+      "term": "Avinstitusjonalisering",
+      "def": "Overgang fra store institusjoner til hjelp nær hjemmet."
+    },
+    {
+      "term": "Opptrappingsplanen",
+      "def": "Satsing på psykisk helse 1999–2008."
+    },
+    {
+      "term": "DPS",
+      "def": "Distriktspsykiatrisk senter."
+    },
+    {
+      "term": "Brukermedvirkning",
+      "def": "Pasienten er med på å bestemme egen behandling."
+    },
+    {
+      "term": "Recovery",
+      "def": "Bedringsprosess med vekt på et meningsfullt liv."
+    },
+    {
+      "term": "Stigma",
+      "def": "Negative holdninger og stempling."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva var dårekister?", "options": ["Medisinskap", "Rom eller bur der mennesker med psykiske lidelser ble holdt", "Sykehus med moderne behandling", "Terapirom"], "correct": 1, "explain": "Brukt i Norge før asylene." },
-    { "id": "q02", "text": "Hvem tok til orde for å fjerne lenkene fra pasientene?", "options": ["Philippe Pinel", "Sigmund Freud", "Hippokrates", "Egas Moniz"], "correct": 0, "explain": "Moralsk behandling." },
-    { "id": "q03", "text": "Når åpnet Gaustad sykehus?", "options": ["1814", "1905", "1855", "1950"], "correct": 2, "explain": "Etter sinnssykeloven av 1848." },
-    { "id": "q04", "text": "Hva gjorde det mulig for mange å bo utenfor institusjonene fra 1950-tallet?", "options": ["Lobotomi", "Dårekister", "Asyler", "Psykofarmaka"], "correct": 3, "explain": "Antipsykotika og antidepressiva." },
-    { "id": "q05", "text": "Hva er avinstitusjonalisering?", "options": ["Overgang fra store institusjoner til hjelp nær hjemmet", "Bygging av flere asyler", "Innføring av tvang", "Nedleggelse av all behandling"], "correct": 0, "explain": "Følge av kritikk på 1960- og 70-tallet." },
-    { "id": "q06", "text": "Hva viser det at homofili ble fjernet som diagnose?", "options": ["At diagnoser aldri endres", "At synet på sykdom påvirkes av kultur og verdier", "At alle diagnoser er feil", "At psykiatrien er ubetydelig"], "correct": 1, "explain": "Diagnosesystemer revideres." },
-    { "id": "q07", "text": "Hva er brukermedvirkning?", "options": ["At legen bestemmer alt", "At pårørende betaler", "At pasienten er med på å bestemme egen behandling", "At brukere driver sykehus"], "correct": 2, "explain": "Et sentralt prinsipp i dag." },
-    { "id": "q08", "text": "Hva var opptrappingsplanen for psykisk helse?", "options": ["En plan for flere asyler", "En plan for mer lobotomi", "En plan for nedleggelse av BUP", "En satsing med mer ressurser til DPS, BUP og kommunene"], "correct": 3, "explain": "1999–2008." },
-    { "id": "q09", "text": "Hva la psykoanalysen vekt på?", "options": ["Ubevisste konflikter og samtalebehandling", "Medisiner", "Hjernekirurgi", "Arbeid på gården"], "correct": 0, "explain": "Freud rundt år 1900." },
-    { "id": "q10", "text": "Hva handler recovery om?", "options": ["Kun å fjerne alle symptomer", "Å leve et meningsfullt liv, også med symptomer", "Å unngå all behandling", "Å bli innlagt"], "correct": 1, "explain": "Bedringsprosesser." }
+    {
+      "id": "q01",
+      "text": "Hva var dårekister?",
+      "options": [
+        "Medisinskap",
+        "Rom eller bur der mennesker med psykiske lidelser ble holdt",
+        "Sykehus med moderne behandling",
+        "Terapirom"
+      ],
+      "correct": 1,
+      "explain": "Brukt i Norge før asylene."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem tok til orde for å fjerne lenkene fra pasientene?",
+      "options": [
+        "Philippe Pinel",
+        "Sigmund Freud",
+        "Hippokrates",
+        "Egas Moniz"
+      ],
+      "correct": 0,
+      "explain": "Moralsk behandling."
+    },
+    {
+      "id": "q03",
+      "text": "Når åpnet Gaustad sykehus?",
+      "options": [
+        "1814",
+        "1905",
+        "1855",
+        "1950"
+      ],
+      "correct": 2,
+      "explain": "Etter sinnssykeloven av 1848."
+    },
+    {
+      "id": "q04",
+      "text": "Hva gjorde det mulig for mange å bo utenfor institusjonene fra 1950-tallet?",
+      "options": [
+        "Lobotomi",
+        "Dårekister",
+        "Asyler",
+        "Psykofarmaka"
+      ],
+      "correct": 3,
+      "explain": "Antipsykotika og antidepressiva."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er avinstitusjonalisering?",
+      "options": [
+        "Overgang fra store institusjoner til hjelp nær hjemmet",
+        "Bygging av flere asyler",
+        "Innføring av tvang",
+        "Nedleggelse av all behandling"
+      ],
+      "correct": 0,
+      "explain": "Følge av kritikk på 1960- og 70-tallet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva viser det at homofili ble fjernet som diagnose?",
+      "options": [
+        "At diagnoser aldri endres",
+        "At synet på sykdom påvirkes av kultur og verdier",
+        "At alle diagnoser er feil",
+        "At psykiatrien er ubetydelig"
+      ],
+      "correct": 1,
+      "explain": "Diagnosesystemer revideres."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er brukermedvirkning?",
+      "options": [
+        "At legen bestemmer alt",
+        "At pårørende betaler",
+        "At pasienten er med på å bestemme egen behandling",
+        "At brukere driver sykehus"
+      ],
+      "correct": 2,
+      "explain": "Et sentralt prinsipp i dag."
+    },
+    {
+      "id": "q08",
+      "text": "Hva var opptrappingsplanen for psykisk helse?",
+      "options": [
+        "En plan for flere asyler",
+        "En plan for mer lobotomi",
+        "En plan for nedleggelse av BUP",
+        "En satsing med mer ressurser til DPS, BUP og kommunene"
+      ],
+      "correct": 3,
+      "explain": "1999–2008."
+    },
+    {
+      "id": "q09",
+      "text": "Hva la psykoanalysen vekt på?",
+      "options": [
+        "Ubevisste konflikter og samtalebehandling",
+        "Medisiner",
+        "Hjernekirurgi",
+        "Arbeid på gården"
+      ],
+      "correct": 0,
+      "explain": "Freud rundt år 1900."
+    },
+    {
+      "id": "q10",
+      "text": "Hva handler recovery om?",
+      "options": [
+        "Kun å fjerne alle symptomer",
+        "Å leve et meningsfullt liv, også med symptomer",
+        "Å unngå all behandling",
+        "Å bli innlagt"
+      ],
+      "correct": 1,
+      "explain": "Bedringsprosesser."
+    }
   ],
   "mindmap": {
     "label": "Psykisk helse i endring",
     "children": [
-      { "label": "Tidlig tid", "children": [
-        { "label": "Overnaturlige forklaringer" },
-        { "label": "Dårekister og legd" }
-      ] },
-      { "label": "1800-tallet", "children": [
-        { "label": "Pinel og moralsk behandling" },
-        { "label": "Sinnssykeloven og Gaustad" }
-      ] },
-      { "label": "1900-tallet", "children": [
-        { "label": "Psykoanalyse" },
-        { "label": "Lobotomi og sjokkbehandling" },
-        { "label": "Psykofarmaka" }
-      ] },
-      { "label": "Omlegging", "children": [
-        { "label": "Avinstitusjonalisering" },
-        { "label": "Opptrappingsplanen" }
-      ] },
-      { "label": "I dag", "children": [
-        { "label": "Brukermedvirkning og recovery" },
-        { "label": "Lavterskel og digitalt" },
-        { "label": "Debatt om tvang og diagnoser" }
-      ] }
+      {
+        "label": "Tidlig tid",
+        "children": [
+          {
+            "label": "Overnaturlige forklaringer"
+          },
+          {
+            "label": "Dårekister og legd"
+          }
+        ]
+      },
+      {
+        "label": "1800-tallet",
+        "children": [
+          {
+            "label": "Pinel og moralsk behandling"
+          },
+          {
+            "label": "Sinnssykeloven og Gaustad"
+          }
+        ]
+      },
+      {
+        "label": "1900-tallet",
+        "children": [
+          {
+            "label": "Psykoanalyse"
+          },
+          {
+            "label": "Lobotomi og sjokkbehandling"
+          },
+          {
+            "label": "Psykofarmaka"
+          }
+        ]
+      },
+      {
+        "label": "Omlegging",
+        "children": [
+          {
+            "label": "Avinstitusjonalisering"
+          },
+          {
+            "label": "Opptrappingsplanen"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Brukermedvirkning og recovery"
+          },
+          {
+            "label": "Lavterskel og digitalt"
+          },
+          {
+            "label": "Debatt om tvang og diagnoser"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange som ble lobotomert, fikk varige skader.", "correct": true, "explain": "Staten har senere gitt erstatning." },
-      { "id": "m02", "type": "sant-usant", "text": "Elektrokonvulsiv behandling er helt forbudt i dag.", "correct": false, "explain": "Den brukes i tryggere form ved alvorlig depresjon." },
-      { "id": "m03", "type": "sant-usant", "text": "Kommunene har siden 2020 hatt plikt til å ha psykologkompetanse.", "correct": true, "explain": "Styrker tjenestene nær folk." },
-      { "id": "m04", "type": "sant-usant", "text": "Asylene var alltid preget av god behandling og få pasienter.", "correct": false, "explain": "Mange ble overfylte." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er et lavterskeltilbud?", "options": ["Innleggelse på sykehus", "Rask psykisk helsehjelp i kommunen", "Tvangsbehandling", "Lobotomi"], "correct": 1, "explain": "Lett tilgjengelig hjelp." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er en pågående debatt i psykisk helsevern?", "options": ["Om tvang og medisinfrie tilbud", "Om å gjeninnføre dårekister", "Om å forby samtaleterapi", "Om å stenge alle DPS"], "correct": 0, "explain": "Pasientens rettigheter og valg." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan åpenhet om psykiske plager bidra til?", "options": ["Mer stigma", "Flere asyler", "Redusert stigma", "Færre behandlinger"], "correct": 2, "explain": "Gjør det lettere å søke hjelp." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange som ble lobotomert, fikk varige skader.",
+        "correct": true,
+        "explain": "Staten har senere gitt erstatning."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Elektrokonvulsiv behandling er helt forbudt i dag.",
+        "correct": false,
+        "explain": "Den brukes i tryggere form ved alvorlig depresjon."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Kommunene har siden 2020 hatt plikt til å ha psykologkompetanse.",
+        "correct": true,
+        "explain": "Styrker tjenestene nær folk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Asylene var alltid preget av god behandling og få pasienter.",
+        "correct": false,
+        "explain": "Mange ble overfylte."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et lavterskeltilbud?",
+        "options": [
+          "Innleggelse på sykehus",
+          "Rask psykisk helsehjelp i kommunen",
+          "Tvangsbehandling",
+          "Lobotomi"
+        ],
+        "correct": 1,
+        "explain": "Lett tilgjengelig hjelp."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en pågående debatt i psykisk helsevern?",
+        "options": [
+          "Om tvang og medisinfrie tilbud",
+          "Om å gjeninnføre dårekister",
+          "Om å forby samtaleterapi",
+          "Om å stenge alle DPS"
+        ],
+        "correct": 0,
+        "explain": "Pasientens rettigheter og valg."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan åpenhet om psykiske plager bidra til?",
+        "options": [
+          "Mer stigma",
+          "Flere asyler",
+          "Redusert stigma",
+          "Færre behandlinger"
+        ],
+        "correct": 2,
+        "explain": "Gjør det lettere å søke hjelp."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign overnaturlige forklaringer på psykiske lidelser med Hippokrates’ forklaring. Hva var den viktigste forskjellen mellom dem?",
+        "fasit": "Overnaturlige forklaringer la årsaken til ånder, demoner eller straff fra gudene. Hippokrates mente at sykdom hadde naturlige årsaker, som ubalanse i kroppsvæskene.",
+        "kriterier": [
+          "Forklarer at overnaturlige forklaringer viser til ånder, demoner eller guddommelig straff.",
+          "Forklarer at Hippokrates søkte naturlige årsaker til sykdom."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Asylene skulle være rolige steder utenfor samfunnet der pasienter kunne bli helbredet. Forklar hvordan asylene etter hvert kunne få en annen funksjon enn den opprinnelige tanken.",
+        "fasit": "Etter hvert ble mange asyler overfylte. Da ble de mer preget av å oppbevare pasienter enn av å behandle dem og forsøke å helbrede dem.",
+        "kriterier": [
+          "Nevner at mange asyler ble overfylte.",
+          "Forklarer at de derfor i større grad ble steder for oppbevaring enn behandling."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign lobotomi med ECT slik behandlingene er beskrevet historisk og i dag. Ta med én viktig forskjell i risiko eller bruk.",
+        "fasit": "Lobotomi var et inngrep i hjernens pannelapp, og mange fikk varige skader. ECT brukes fortsatt ved alvorlig depresjon, men i en tryggere form enn tidligere.",
+        "kriterier": [
+          "Beskriver lobotomi som et inngrep i hjernens pannelapp og knytter det til varige skader.",
+          "Får fram at ECT fortsatt brukes ved alvorlig depresjon i en tryggere form."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En pasient blir møtt med respekt, får være i rolige omgivelser og får meningsfylt arbeid. Hvilken behandlingsform fra slutten av 1700-tallet ligner dette på, og hva ved situasjonen passer med den?",
+        "fasit": "Dette ligner moralsk behandling. Respekt, ro og meningsfylt arbeid var sentrale deler av denne behandlingsformen.",
+        "kriterier": [
+          "Identifiserer situasjonen som moralsk behandling.",
+          "Forklarer sammenhengen med respekt, ro eller meningsfylt arbeid."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "På 1960- og 70-tallet ble store institusjoner kritisert som umenneskelige og stemplende. Forklar hvordan denne kritikken hang sammen med ønsket om å endre hvor mennesker fikk hjelp.",
+        "fasit": "Kritikken bidro til avinstitusjonalisering. Flere skulle få hjelp nær hjemmet i stedet for å bo på store institusjoner.",
+        "kriterier": [
+          "Knytter kritikken av institusjonene til avinstitusjonalisering.",
+          "Forklarer at målet var at flere skulle få hjelp nær hjemmet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En person har fortsatt psykiske symptomer, men ønsker å bygge et meningsfullt liv. Bruk recovery-perspektivet til å forklare hva slags mål hjelpen kan ha.",
+        "fasit": "I et recovery-perspektiv kan målet være at personen lever et meningsfullt liv, selv om noen symptomer fortsatt er til stede. Bedring betyr ikke nødvendigvis at alle symptomer forsvinner.",
+        "kriterier": [
+          "Knytter recovery til å leve et meningsfullt liv.",
+          "Får fram at dette kan være mulig også med symptomer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Opptrappingsplanen for psykisk helse (1999–2008) ga mer ressurser til DPS, BUP og kommunale tjenester. Siden 2020 skal kommunene ha psykologkompetanse. Forklar hvordan disse tiltakene kan bidra til at hjelp blir tilgjengelig nærmere folks hverdag.",
+        "fasit": "DPS, BUP og kommunale tjenester gir hjelp på flere nivåer og kan gjøre den mer tilgjengelig nær hjemmet. Psykologkompetanse i kommunene kan styrke det lokale tilbudet ytterligere.",
+        "kriterier": [
+          "Knytter ressurser til DPS, BUP eller kommunale tjenester til hjelp nærmere hjemmet.",
+          "Forklarer hvordan psykologkompetanse i kommunen kan styrke det lokale tilbudet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En person forteller offentlig om egne psykiske plager. Forklar hvordan slik åpenhet kan påvirke stigma rundt psykisk helse.",
+        "fasit": "Åpenhet kan redusere stigma ved å motvirke negative holdninger og stempling av mennesker med psykiske plager.",
+        "kriterier": [
+          "Forklarer at åpenhet kan bidra til mindre stigma.",
+          "Viser at stigma handler om negative holdninger eller stempling."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

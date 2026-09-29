@@ -4,79 +4,428 @@
   "trinnId": "vg3",
   "name": "Rettskilder og juridisk drøfting",
   "intro": "Hvordan du bruker rettskildene til å løse juridiske problemstillinger – tolking av lovtekst, vekting av forarbeider, rettspraksis og reelle hensyn, prinsipper for motstrid – og hvordan du bygger opp en fullstendig juridisk drøfting fra parter og krav til konklusjon.",
-  "kompetansemaal": [2, 3],
+  "kompetansemaal": [
+    2,
+    3
+  ],
   "sammendrag": "## Rettskildene i bruk\n\nI Rettslære 1 lærte du de viktigste **rettskildene**: lov, forarbeider, rettspraksis, forvaltningspraksis, sedvane og reelle hensyn. I Rettslære 2 skal du **bruke** dem til å løse konkrete saker.\n\n## Tolking av lovtekst\n\nUtgangspunktet er **ordlyden** – hva ordene betyr i **vanlig språkbruk**. Men ordlyden kan tolkes:\n\n- **Innskrenkende**: regelen gjelder **færre** tilfeller enn ordlyden tilsier.\n- **Utvidende**: regelen gjelder **flere** tilfeller.\n- **Analogi**: regelen brukes på et **lignende** tilfelle som ikke er nevnt.\n- **Antitetisk** – motsetningsslutning: det som ikke er nevnt, er **ikke** omfattet.\n\nI **strafferetten** er utvidende tolking og analogi til skade for tiltalte **ikke** tillatt, fordi Grunnloven krever klar hjemmel for straff.\n\n## Vekting av rettskilder\n\n- **Forarbeider** viser lovgivers **formål** og veier tungt, særlig for **nye** lover.\n- **Høyesteretts** avgjørelser er svært viktige. Særlig vekt har dommer fra **storkammer** og **plenum**.\n- **Reelle hensyn** – rimelighet, forutsigbarhet og samfunnsmessige konsekvenser – brukes når de andre kildene ikke gir klart svar.\n\n## Motstrid mellom regler\n\n- **Lex superior**: Den **høyere** regelen går foran – Grunnloven foran lov, lov foran forskrift.\n- **Lex specialis**: Den **spesielle** regelen går foran den **generelle**.\n- **Lex posterior**: Den **nyere** regelen går foran den **eldre**.\n\n**Menneskerettsloven** § 3 sier at konvensjonene den inkorporerer, går **foran** annen norsk lov ved motstrid.\n\n## Juridisk drøfting steg for steg\n\n1. **Parter**: Hvem er uenige? For eksempel kjøper og selger.\n2. **Krav**: Hva krever den ene parten? For eksempel heving av kjøpet eller erstatning.\n3. **Rettslig grunnlag**: Hvilken **regel** kan gi kravet? Finn lov og paragraf.\n4. **Juridisk problemstilling**: Formuler spørsmålet presist, for eksempel «Har varen en mangel etter forbrukerkjøpsloven § 15?»\n5. **Drøfting**:\n   - Tolk **vilkårene** i regelen.\n   - Bruk **faktum** – hva har skjedd?\n   - Trekk inn **argumenter** for og mot, med støtte i rettskildene.\n6. **Konklusjon**: Svar klart på problemstillingen.\n\n## Subsumsjon\n\nKjernen i drøftingen er **subsumsjon**: Du sammenholder **faktum** med **vilkårene** i regelen. Er vilkårene oppfylt, inntrer **rettsvirkningen**.\n\n**Eksempel**: Mia kjøper en mobil som slutter å virke etter seks måneder. Butikken avviser reklamasjonen.\n\n- Parter: Mia og butikken\n- Krav: omlevering eller retting\n- Rettslig grunnlag: forbrukerkjøpsloven\n- Problemstilling: Foreligger det en mangel?\n- Drøfting: Feil som viser seg innen **to år**, **antas** å ha vært der ved levering, med mindre selgeren viser noe annet.\n- Konklusjon: Mia har sannsynligvis krav på retting eller omlevering.\n\n## Flere spørsmål i samme sak\n\nNoen saker har **flere** problemstillinger. Løs dem i en **logisk rekkefølge** – først om det foreligger en mangel, deretter hvilke **krav** kjøperen kan fremme. Bruk **subsidiær** drøfting: Selv om du konkluderer med nei på ett spørsmål, kan du drøfte de neste «for det tilfellet at» svaret er ja.\n\n## Kilder\n\nLover og forskrifter finner du på **Lovdata**. Avgjørelser fra Høyesterett ligger også der og omtales på **domstol.no**. Forbrukertilsynet, Datatilsynet og Sivilombudet publiserer **uttalelser** som viser forvaltningspraksis.",
   "flashcards": [
-    { "term": "Ordlydstolking", "def": "Hva ordene betyr i vanlig språkbruk." },
-    { "term": "Innskrenkende tolking", "def": "Regelen gjelder færre tilfeller enn ordlyden tilsier." },
-    { "term": "Utvidende tolking", "def": "Regelen gjelder flere tilfeller enn ordlyden tilsier." },
-    { "term": "Analogi", "def": "Regelen brukes på et lignende tilfelle som ikke er nevnt." },
-    { "term": "Antitetisk tolking", "def": "Det som ikke er nevnt, er ikke omfattet." },
-    { "term": "Lex superior", "def": "Den høyere regelen går foran." },
-    { "term": "Lex specialis", "def": "Den spesielle regelen går foran den generelle." },
-    { "term": "Lex posterior", "def": "Den nyere regelen går foran den eldre." },
-    { "term": "Menneskerettsloven § 3", "def": "Inkorporerte konvensjoner går foran annen lov ved motstrid." },
-    { "term": "Parter", "def": "De som er uenige i saken." },
-    { "term": "Rettslig grunnlag", "def": "Regelen som kan gi kravet." },
-    { "term": "Juridisk problemstilling", "def": "Presist formulert rettsspørsmål." },
-    { "term": "Subsumsjon", "def": "Faktum sammenholdes med vilkårene i regelen." },
-    { "term": "Rettsvirkning", "def": "Det som følger når vilkårene er oppfylt." },
-    { "term": "Subsidiær drøfting", "def": "Drøfting «for det tilfellet at» et tidligere spørsmål besvares annerledes." }
+    {
+      "term": "Ordlydstolking",
+      "def": "Hva ordene betyr i vanlig språkbruk."
+    },
+    {
+      "term": "Innskrenkende tolking",
+      "def": "Regelen gjelder færre tilfeller enn ordlyden tilsier."
+    },
+    {
+      "term": "Utvidende tolking",
+      "def": "Regelen gjelder flere tilfeller enn ordlyden tilsier."
+    },
+    {
+      "term": "Analogi",
+      "def": "Regelen brukes på et lignende tilfelle som ikke er nevnt."
+    },
+    {
+      "term": "Antitetisk tolking",
+      "def": "Det som ikke er nevnt, er ikke omfattet."
+    },
+    {
+      "term": "Lex superior",
+      "def": "Den høyere regelen går foran."
+    },
+    {
+      "term": "Lex specialis",
+      "def": "Den spesielle regelen går foran den generelle."
+    },
+    {
+      "term": "Lex posterior",
+      "def": "Den nyere regelen går foran den eldre."
+    },
+    {
+      "term": "Menneskerettsloven § 3",
+      "def": "Inkorporerte konvensjoner går foran annen lov ved motstrid."
+    },
+    {
+      "term": "Parter",
+      "def": "De som er uenige i saken."
+    },
+    {
+      "term": "Rettslig grunnlag",
+      "def": "Regelen som kan gi kravet."
+    },
+    {
+      "term": "Juridisk problemstilling",
+      "def": "Presist formulert rettsspørsmål."
+    },
+    {
+      "term": "Subsumsjon",
+      "def": "Faktum sammenholdes med vilkårene i regelen."
+    },
+    {
+      "term": "Rettsvirkning",
+      "def": "Det som følger når vilkårene er oppfylt."
+    },
+    {
+      "term": "Subsidiær drøfting",
+      "def": "Drøfting «for det tilfellet at» et tidligere spørsmål besvares annerledes."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er utgangspunktet når en lovtekst skal tolkes?", "options": ["Dommerens mening", "Ordlyden", "Avisomtale", "Partenes ønsker"], "correct": 1, "explain": "Vanlig språkbruk." },
-    { "id": "q02", "text": "Hva betyr lex specialis?", "options": ["Den spesielle regelen går foran den generelle", "Den nyeste regelen går foran", "Den høyeste regelen går foran", "Den eldste regelen går foran"], "correct": 0, "explain": "Spesialregel foran hovedregel." },
-    { "id": "q03", "text": "Hvorfor er analogi til skade for tiltalte ikke tillatt i strafferetten?", "options": ["Fordi den er for tidkrevende", "Fordi Høyesterett ikke liker analogi", "Fordi Grunnloven krever klar hjemmel for straff", "Fordi det ikke finnes straffelover"], "correct": 2, "explain": "Legalitetsprinsippet." },
-    { "id": "q04", "text": "Hva er subsumsjon?", "options": ["Å finne partene", "Å skrive konklusjonen", "Å lete etter lover", "Å sammenholde faktum med vilkårene i regelen"], "correct": 3, "explain": "Kjernen i drøftingen." },
-    { "id": "q05", "text": "Hva sier menneskerettsloven § 3?", "options": ["At inkorporerte konvensjoner går foran annen lov ved motstrid", "At menneskerettighetene ikke gjelder i Norge", "At forskrifter går foran lover", "At EU-retten gjelder"], "correct": 0, "explain": "En viktig motstridsregel." },
-    { "id": "q06", "text": "Hva er riktig rekkefølge i en juridisk drøfting?", "options": ["Konklusjon, faktum, krav", "Parter, krav, rettslig grunnlag, problemstilling, drøfting, konklusjon", "Drøfting, parter, lov", "Problemstilling, konklusjon, parter"], "correct": 1, "explain": "Fra hvem og hva til svar." },
-    { "id": "q07", "text": "Hva betyr lex superior?", "options": ["Den nyeste regelen går foran", "Den spesielle regelen går foran", "Den høyere regelen går foran", "Den lengste regelen går foran"], "correct": 2, "explain": "Grunnloven foran lov." },
-    { "id": "q08", "text": "Når får reelle hensyn størst betydning?", "options": ["Når loven er helt klar", "Aldri", "Bare i straffesaker", "Når de andre kildene ikke gir klart svar"], "correct": 3, "explain": "Rimelighet og konsekvenser." },
-    { "id": "q09", "text": "Hva er antitetisk tolking?", "options": ["Det som ikke er nevnt, er ikke omfattet", "Å bruke regelen på lignende tilfeller", "Å utvide regelen", "Å se bort fra ordlyden"], "correct": 0, "explain": "Motsetningsslutning." },
-    { "id": "q10", "text": "Hvilke dommer fra Høyesterett har særlig stor vekt?", "options": ["Dommer i ankeutvalget", "Dommer fra storkammer og plenum", "Tingrettsdommer", "Dommer med dissens"], "correct": 1, "explain": "Prinsipielle saker." }
+    {
+      "id": "q01",
+      "text": "Hva er utgangspunktet når en lovtekst skal tolkes?",
+      "options": [
+        "Dommerens mening",
+        "Ordlyden",
+        "Avisomtale",
+        "Partenes ønsker"
+      ],
+      "correct": 1,
+      "explain": "Vanlig språkbruk."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr lex specialis?",
+      "options": [
+        "Den spesielle regelen går foran den generelle",
+        "Den nyeste regelen går foran",
+        "Den høyeste regelen går foran",
+        "Den eldste regelen går foran"
+      ],
+      "correct": 0,
+      "explain": "Spesialregel foran hovedregel."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor er analogi til skade for tiltalte ikke tillatt i strafferetten?",
+      "options": [
+        "Fordi den er for tidkrevende",
+        "Fordi Høyesterett ikke liker analogi",
+        "Fordi Grunnloven krever klar hjemmel for straff",
+        "Fordi det ikke finnes straffelover"
+      ],
+      "correct": 2,
+      "explain": "Legalitetsprinsippet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er subsumsjon?",
+      "options": [
+        "Å finne partene",
+        "Å skrive konklusjonen",
+        "Å lete etter lover",
+        "Å sammenholde faktum med vilkårene i regelen"
+      ],
+      "correct": 3,
+      "explain": "Kjernen i drøftingen."
+    },
+    {
+      "id": "q05",
+      "text": "Hva sier menneskerettsloven § 3?",
+      "options": [
+        "At inkorporerte konvensjoner går foran annen lov ved motstrid",
+        "At menneskerettighetene ikke gjelder i Norge",
+        "At forskrifter går foran lover",
+        "At EU-retten gjelder"
+      ],
+      "correct": 0,
+      "explain": "En viktig motstridsregel."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er riktig rekkefølge i en juridisk drøfting?",
+      "options": [
+        "Konklusjon, faktum, krav",
+        "Parter, krav, rettslig grunnlag, problemstilling, drøfting, konklusjon",
+        "Drøfting, parter, lov",
+        "Problemstilling, konklusjon, parter"
+      ],
+      "correct": 1,
+      "explain": "Fra hvem og hva til svar."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr lex superior?",
+      "options": [
+        "Den nyeste regelen går foran",
+        "Den spesielle regelen går foran",
+        "Den høyere regelen går foran",
+        "Den lengste regelen går foran"
+      ],
+      "correct": 2,
+      "explain": "Grunnloven foran lov."
+    },
+    {
+      "id": "q08",
+      "text": "Når får reelle hensyn størst betydning?",
+      "options": [
+        "Når loven er helt klar",
+        "Aldri",
+        "Bare i straffesaker",
+        "Når de andre kildene ikke gir klart svar"
+      ],
+      "correct": 3,
+      "explain": "Rimelighet og konsekvenser."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er antitetisk tolking?",
+      "options": [
+        "Det som ikke er nevnt, er ikke omfattet",
+        "Å bruke regelen på lignende tilfeller",
+        "Å utvide regelen",
+        "Å se bort fra ordlyden"
+      ],
+      "correct": 0,
+      "explain": "Motsetningsslutning."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilke dommer fra Høyesterett har særlig stor vekt?",
+      "options": [
+        "Dommer i ankeutvalget",
+        "Dommer fra storkammer og plenum",
+        "Tingrettsdommer",
+        "Dommer med dissens"
+      ],
+      "correct": 1,
+      "explain": "Prinsipielle saker."
+    }
   ],
   "mindmap": {
     "label": "Juridisk metode",
     "children": [
-      { "label": "Tolking", "children": [
-        { "label": "Ordlyd" },
-        { "label": "Innskrenkende og utvidende" },
-        { "label": "Analogi og antitetisk" }
-      ] },
-      { "label": "Vekting", "children": [
-        { "label": "Forarbeider" },
-        { "label": "Høyesterett" },
-        { "label": "Reelle hensyn" }
-      ] },
-      { "label": "Motstrid", "children": [
-        { "label": "Lex superior" },
-        { "label": "Lex specialis" },
-        { "label": "Lex posterior" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Parter og krav" },
-        { "label": "Rettslig grunnlag" },
-        { "label": "Subsumsjon" },
-        { "label": "Konklusjon" }
-      ] },
-      { "label": "Kilder", "children": [
-        { "label": "Lovdata" },
-        { "label": "Tilsyn og ombud" }
-      ] }
+      {
+        "label": "Tolking",
+        "children": [
+          {
+            "label": "Ordlyd"
+          },
+          {
+            "label": "Innskrenkende og utvidende"
+          },
+          {
+            "label": "Analogi og antitetisk"
+          }
+        ]
+      },
+      {
+        "label": "Vekting",
+        "children": [
+          {
+            "label": "Forarbeider"
+          },
+          {
+            "label": "Høyesterett"
+          },
+          {
+            "label": "Reelle hensyn"
+          }
+        ]
+      },
+      {
+        "label": "Motstrid",
+        "children": [
+          {
+            "label": "Lex superior"
+          },
+          {
+            "label": "Lex specialis"
+          },
+          {
+            "label": "Lex posterior"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Parter og krav"
+          },
+          {
+            "label": "Rettslig grunnlag"
+          },
+          {
+            "label": "Subsumsjon"
+          },
+          {
+            "label": "Konklusjon"
+          }
+        ]
+      },
+      {
+        "label": "Kilder",
+        "children": [
+          {
+            "label": "Lovdata"
+          },
+          {
+            "label": "Tilsyn og ombud"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Forarbeider veier ofte tungt for nye lover.", "correct": true, "explain": "De viser lovgivers formål." },
-      { "id": "m02", "type": "sant-usant", "text": "En forskrift går foran en lov ved motstrid.", "correct": false, "explain": "Loven er høyere – lex superior." },
-      { "id": "m03", "type": "sant-usant", "text": "En sak kan ha flere problemstillinger som må løses i logisk rekkefølge.", "correct": true, "explain": "For eksempel mangel før krav." },
-      { "id": "m04", "type": "sant-usant", "text": "Konklusjonen kan stå åpen i en juridisk drøfting.", "correct": false, "explain": "Du skal svare klart på problemstillingen." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr lex posterior?", "options": ["Den høyere regelen går foran", "Den nyere regelen går foran den eldre", "Den spesielle regelen går foran", "Den eldste regelen går foran"], "correct": 1, "explain": "Nyere foran eldre." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor finner du norske lover og forskrifter?", "options": ["Lovdata", "Wikipedia", "Stortingets kantine", "Politiets nettside"], "correct": 0, "explain": "Også dommer fra Høyesterett." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er et krav i en juridisk sak?", "options": ["Loven som gjelder", "Dommerens navn", "Det den ene parten krever av den andre", "Konklusjonen"], "correct": 2, "explain": "For eksempel erstatning eller heving." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Forarbeider veier ofte tungt for nye lover.",
+        "correct": true,
+        "explain": "De viser lovgivers formål."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En forskrift går foran en lov ved motstrid.",
+        "correct": false,
+        "explain": "Loven er høyere – lex superior."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En sak kan ha flere problemstillinger som må løses i logisk rekkefølge.",
+        "correct": true,
+        "explain": "For eksempel mangel før krav."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Konklusjonen kan stå åpen i en juridisk drøfting.",
+        "correct": false,
+        "explain": "Du skal svare klart på problemstillingen."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr lex posterior?",
+        "options": [
+          "Den høyere regelen går foran",
+          "Den nyere regelen går foran den eldre",
+          "Den spesielle regelen går foran",
+          "Den eldste regelen går foran"
+        ],
+        "correct": 1,
+        "explain": "Nyere foran eldre."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor finner du norske lover og forskrifter?",
+        "options": [
+          "Lovdata",
+          "Wikipedia",
+          "Stortingets kantine",
+          "Politiets nettside"
+        ],
+        "correct": 0,
+        "explain": "Også dommer fra Høyesterett."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er et krav i en juridisk sak?",
+        "options": [
+          "Loven som gjelder",
+          "Dommerens navn",
+          "Det den ene parten krever av den andre",
+          "Konklusjonen"
+        ],
+        "correct": 2,
+        "explain": "For eksempel erstatning eller heving."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En lovregel ser etter ordlyden ut til å omfatte mange tilfeller. En jurist tolker regelen slik at den bare gjelder færre av dem. Hva kalles denne typen tolking, og hva skjer med regelens rekkevidde?",
+        "fasit": "Dette er innskrenkende tolking. Regelen gjelder færre tilfeller enn ordlyden tilsier.",
+        "kriterier": [
+          "Identifiserer innskrenkende tolking.",
+          "Forklarer at regelen får snevrere rekkevidde enn ordlyden tilsier."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En regel nevner sykler, men ikke et annet kjøretøy. Forklar forskjellen på å bruke regelen analogisk på det andre kjøretøyet og å tolke regelen antitetisk.",
+        "fasit": "Ved analogi brukes regelen på det andre kjøretøyet fordi det ligner på sykler, selv om det ikke er nevnt. Ved antitetisk tolking regnes det som ikke nevnt, og dermed som ikke omfattet av regelen.",
+        "kriterier": [
+          "Forklarer at analogi bruker regelen på et lignende, ikke nevnt tilfelle.",
+          "Forklarer at antitetisk tolking holder det som ikke er nevnt, utenfor regelen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "To norske regler gir motstridende svar i samme sak. Den ene regelen er nyere enn den andre. Hvilket tolkningsprinsipp er relevant, og hvilken regel går foran?",
+        "fasit": "Lex posterior er relevant. Etter dette prinsippet går den nyere regelen foran den eldre.",
+        "kriterier": [
+          "Identifiserer lex posterior.",
+          "Forklarer at den nyere regelen går foran den eldre ved motstrid."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign hva forarbeider og avgjørelser fra Høyesterett kan bidra med når en lovregel skal tolkes. Ta også med én situasjon der en av kildene får særlig vekt.",
+        "fasit": "Forarbeider kan vise lovgivers formål, og de veier særlig tungt for nye lover. Høyesteretts avgjørelser er svært viktige, særlig avgjørelser fra storkammer eller plenum.",
+        "kriterier": [
+          "Forklarer at forarbeider kan belyse lovgivers formål, særlig ved nye lover.",
+          "Forklarer at Høyesteretts avgjørelser har stor vekt, og gjerne nevner storkammer eller plenum."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En vare slutter å virke 18 måneder etter at den ble levert. Selgeren viser ikke at feilen oppsto etter leveringen. Hva følger av regelen om feil som viser seg innen to år?",
+        "fasit": "Feilen antas å ha vært til stede ved leveringen, fordi den viste seg innen to år. Selgeren kan avkrefte denne antakelsen ved å vise noe annet.",
+        "kriterier": [
+          "Anvender toårsregelen og sier at feilen antas å ha vært til stede ved levering.",
+          "Får fram at selgeren kan vise at feilen oppsto senere."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Nora krever retting av en vare fra butikken hun kjøpte den i, men butikken avviser kravet. Hvem er partene i saken, og hva er Noras krav?",
+        "fasit": "Partene er Nora og butikken. Noras krav er at butikken retter varen.",
+        "kriterier": [
+          "Identifiserer Nora og butikken som partene.",
+          "Angir retting av varen som Noras krav."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En kjøper mener at en vare har en mangel, mens selgeren er uenig. Kjøperen krever deretter retting. Forklar hva subsidiær drøfting innebærer for spørsmålet om retting dersom du først konkluderer med at det ikke foreligger en mangel.",
+        "fasit": "Du kan likevel drøfte spørsmålet om retting subsidiært, for det tilfellet at det likevel skulle foreligge en mangel. Det betyr at du vurderer det neste spørsmålet selv om du først svarte nei på det første.",
+        "kriterier": [
+          "Forklarer at retting drøftes «for det tilfellet at» det likevel foreligger en mangel.",
+          "Viser at subsidiær drøfting lar deg gå videre til neste spørsmål selv om du først konkluderer med nei."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Andre rettskilder gir ikke et klart svar mellom to mulige tolkninger av en regel. Forklar hvordan forutsigbarhet kan brukes som et reelt hensyn i vurderingen.",
+        "fasit": "Man kan vurdere hvilken tolkning som gir mest forutsigbare utfall for dem regelen gjelder. Forutsigbarhet er et reelt hensyn som kan trekkes inn når de andre rettskildene ikke gir et klart svar.",
+        "kriterier": [
+          "Knytter forutsigbarhet til hvor forutsigbare regelens utfall blir.",
+          "Forklarer at reelle hensyn brukes når andre rettskilder ikke gir et klart svar."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

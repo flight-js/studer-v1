@@ -4,78 +4,426 @@
   "trinnId": "vg1",
   "name": "Identitet, vennskap og følelser",
   "intro": "Hvordan du beskriver personlighet, vennskap og følelser på spansk, med forskjellen på ser og estar, verb som fungerer som gustar og refleksive verb om relasjoner.",
-  "kompetansemaal": [2, 3, 6],
+  "kompetansemaal": [
+    2,
+    3,
+    6
+  ],
   "sammendrag": "## Ser eller estar?\n\nSpansk har to verb for «å være»:\n\n**Ser** brukes om det som **kjennetegner** noe eller noen – egenskaper, identitet, opprinnelse, yrke:\n*Soy noruega. Mi hermano **es** simpático. **Es** profesora.*\n\n**Estar** brukes om **tilstander**, **følelser** og **sted**:\n*Hoy **estoy** cansado. **Estamos** en casa. Ana **está** triste.*\n\nNoen adjektiver endrer betydning: *ser aburrido* (være kjedelig) – *estar aburrido* (kjede seg); *ser listo* (være smart) – *estar listo* (være klar).\n\n## Personlighet\n\n*simpático/a* (hyggelig), *sincero/a* (ærlig), *generoso/a* (raus), *tímido/a* (sjenert), *divertido/a* (morsom), *trabajador/a* (arbeidsom), *celoso/a* (sjalu), *cariñoso/a* (kjærlig).\n\n## Verb som gustar\n\nMed **gustar** er det tingen man liker som er **subjekt**. Personen står i **indirekte objekt** (me, te, le, nos, os, les):\n\n- *Me **gusta** la música.* – *Me **gustan** los perros.* (flertall!)\n- *A mi hermana le gusta bailar.*\n\nAndre verb som fungerer likt:\n\n- *encantar* – elske: *Me encanta el cine.*\n- *interesar* – interessere: *Nos interesa la política.*\n- *molestar* – irritere: *Me molesta el ruido.*\n- *preocupar* – bekymre: *Me preocupa el examen.*\n- *caer bien / mal* – like / ikke like (en person): *Tu amigo me cae muy bien.*\n\n## Refleksive verb om relasjoner\n\n- *llevarse bien / mal con* – komme godt / dårlig overens med: *Me llevo bien con mis padres.*\n- *enamorarse de* – forelske seg i\n- *enfadarse* – bli sint\n- *pelearse* – krangle\n- *sentirse* – føle seg: *Me siento solo/a.*\n\n## Følelser\n\n*Estoy contento/a, triste, nervioso/a, enfadado/a, preocupado/a.*\n*Tengo miedo.* (Jeg er redd.) *Tengo ganas de …* (Jeg har lyst til …)\n\n## Familie og venner\n\n*los padres* (foreldrene), *los hermanos* (søsknene – også brødrene), *el novio / la novia* (kjæresten), *el mejor amigo / la mejor amiga* (bestevennen). I Spania sier unge ofte *tío/tía* om venner, og i Mexico *güey*.\n\n## Strategi\n\nNår du lærer et adjektiv, lær **begge kjønn** og om det vanligvis brukes med **ser** eller **estar**.",
   "flashcards": [
-    { "term": "ser", "def": "å være – om egenskaper, identitet, opprinnelse og yrke" },
-    { "term": "estar", "def": "å være – om tilstander, følelser og sted" },
-    { "term": "Estoy cansado/a.", "def": "Jeg er trøtt." },
-    { "term": "ser aburrido / estar aburrido", "def": "være kjedelig / kjede seg" },
-    { "term": "simpático/a", "def": "hyggelig" },
-    { "term": "celoso/a", "def": "sjalu" },
-    { "term": "Me gustan los perros.", "def": "Jeg liker hunder. (flertall: gustan)" },
-    { "term": "Me encanta …", "def": "Jeg elsker …" },
-    { "term": "Me molesta …", "def": "Det irriterer meg …" },
-    { "term": "caer bien", "def": "like (en person)" },
-    { "term": "llevarse bien con", "def": "komme godt overens med" },
-    { "term": "enamorarse de", "def": "forelske seg i" },
-    { "term": "enfadarse", "def": "bli sint" },
-    { "term": "Tengo miedo.", "def": "Jeg er redd." },
-    { "term": "el novio / la novia", "def": "kjæresten" }
+    {
+      "term": "ser",
+      "def": "å være – om egenskaper, identitet, opprinnelse og yrke"
+    },
+    {
+      "term": "estar",
+      "def": "å være – om tilstander, følelser og sted"
+    },
+    {
+      "term": "Estoy cansado/a.",
+      "def": "Jeg er trøtt."
+    },
+    {
+      "term": "ser aburrido / estar aburrido",
+      "def": "være kjedelig / kjede seg"
+    },
+    {
+      "term": "simpático/a",
+      "def": "hyggelig"
+    },
+    {
+      "term": "celoso/a",
+      "def": "sjalu"
+    },
+    {
+      "term": "Me gustan los perros.",
+      "def": "Jeg liker hunder. (flertall: gustan)"
+    },
+    {
+      "term": "Me encanta …",
+      "def": "Jeg elsker …"
+    },
+    {
+      "term": "Me molesta …",
+      "def": "Det irriterer meg …"
+    },
+    {
+      "term": "caer bien",
+      "def": "like (en person)"
+    },
+    {
+      "term": "llevarse bien con",
+      "def": "komme godt overens med"
+    },
+    {
+      "term": "enamorarse de",
+      "def": "forelske seg i"
+    },
+    {
+      "term": "enfadarse",
+      "def": "bli sint"
+    },
+    {
+      "term": "Tengo miedo.",
+      "def": "Jeg er redd."
+    },
+    {
+      "term": "el novio / la novia",
+      "def": "kjæresten"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Velg riktig verb: «Hoy ___ muy cansada.»", "options": ["soy", "estoy", "es", "tengo"], "correct": 1, "explain": "Tilstand: estar." },
-    { "id": "q02", "text": "Velg riktig verb: «Mi padre ___ médico.»", "options": ["es", "está", "tiene", "hace"], "correct": 0, "explain": "Yrke: ser." },
-    { "id": "q03", "text": "Velg riktig: «Me ___ los gatos.»", "options": ["gusta", "gusto", "gustan", "gustas"], "correct": 2, "explain": "Los gatos er flertall: gustan." },
-    { "id": "q04", "text": "Hva betyr «Me llevo bien con mi hermana»?", "options": ["Jeg bærer søsteren min.", "Jeg ligner på søsteren min.", "Jeg savner søsteren min.", "Jeg kommer godt overens med søsteren min."], "correct": 3, "explain": "llevarse bien con = komme godt overens med." },
-    { "id": "q05", "text": "Hva betyr «estar aburrido»?", "options": ["å kjede seg", "å være kjedelig", "å være sint", "å være trøtt"], "correct": 0, "explain": "ser aburrido = å være kjedelig." },
-    { "id": "q06", "text": "Hvordan sier du «Jeg er redd»?", "options": ["Soy miedo.", "Tengo miedo.", "Estoy miedo.", "Hago miedo."], "correct": 1, "explain": "Tener brukes i mange uttrykk om følelser og tilstander." },
-    { "id": "q07", "text": "Velg riktig: «A mi hermano ___ gusta el fútbol.»", "options": ["me", "te", "le", "les"], "correct": 2, "explain": "a mi hermano → le." },
-    { "id": "q08", "text": "Hva betyr «Tu amigo me cae muy bien»?", "options": ["Vennen din faller.", "Vennen din ringer meg.", "Vennen din hjelper meg.", "Jeg liker vennen din godt."], "correct": 3, "explain": "caer bien = like en person." },
-    { "id": "q09", "text": "Hva betyr «enfadarse»?", "options": ["bli sint", "bli forelsket", "bli trøtt", "bli syk"], "correct": 0, "explain": "No te enfades = Ikke bli sint." },
-    { "id": "q10", "text": "Hva betyr «Me preocupa el examen»?", "options": ["Jeg gleder meg til eksamen.", "Eksamen bekymrer meg.", "Jeg har bestått eksamen.", "Jeg forbereder meg til eksamen."], "correct": 1, "explain": "preocupar fungerer som gustar." }
+    {
+      "id": "q01",
+      "text": "Velg riktig verb: «Hoy ___ muy cansada.»",
+      "options": [
+        "soy",
+        "estoy",
+        "es",
+        "tengo"
+      ],
+      "correct": 1,
+      "explain": "Tilstand: estar."
+    },
+    {
+      "id": "q02",
+      "text": "Velg riktig verb: «Mi padre ___ médico.»",
+      "options": [
+        "es",
+        "está",
+        "tiene",
+        "hace"
+      ],
+      "correct": 0,
+      "explain": "Yrke: ser."
+    },
+    {
+      "id": "q03",
+      "text": "Velg riktig: «Me ___ los gatos.»",
+      "options": [
+        "gusta",
+        "gusto",
+        "gustan",
+        "gustas"
+      ],
+      "correct": 2,
+      "explain": "Los gatos er flertall: gustan."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr «Me llevo bien con mi hermana»?",
+      "options": [
+        "Jeg bærer søsteren min.",
+        "Jeg ligner på søsteren min.",
+        "Jeg savner søsteren min.",
+        "Jeg kommer godt overens med søsteren min."
+      ],
+      "correct": 3,
+      "explain": "llevarse bien con = komme godt overens med."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr «estar aburrido»?",
+      "options": [
+        "å kjede seg",
+        "å være kjedelig",
+        "å være sint",
+        "å være trøtt"
+      ],
+      "correct": 0,
+      "explain": "ser aburrido = å være kjedelig."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan sier du «Jeg er redd»?",
+      "options": [
+        "Soy miedo.",
+        "Tengo miedo.",
+        "Estoy miedo.",
+        "Hago miedo."
+      ],
+      "correct": 1,
+      "explain": "Tener brukes i mange uttrykk om følelser og tilstander."
+    },
+    {
+      "id": "q07",
+      "text": "Velg riktig: «A mi hermano ___ gusta el fútbol.»",
+      "options": [
+        "me",
+        "te",
+        "le",
+        "les"
+      ],
+      "correct": 2,
+      "explain": "a mi hermano → le."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr «Tu amigo me cae muy bien»?",
+      "options": [
+        "Vennen din faller.",
+        "Vennen din ringer meg.",
+        "Vennen din hjelper meg.",
+        "Jeg liker vennen din godt."
+      ],
+      "correct": 3,
+      "explain": "caer bien = like en person."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «enfadarse»?",
+      "options": [
+        "bli sint",
+        "bli forelsket",
+        "bli trøtt",
+        "bli syk"
+      ],
+      "correct": 0,
+      "explain": "No te enfades = Ikke bli sint."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «Me preocupa el examen»?",
+      "options": [
+        "Jeg gleder meg til eksamen.",
+        "Eksamen bekymrer meg.",
+        "Jeg har bestått eksamen.",
+        "Jeg forbereder meg til eksamen."
+      ],
+      "correct": 1,
+      "explain": "preocupar fungerer som gustar."
+    }
   ],
   "mindmap": {
     "label": "Identitet og relasjoner",
     "children": [
-      { "label": "Ser og estar", "children": [
-        { "label": "ser: egenskaper" },
-        { "label": "estar: tilstander" },
-        { "label": "aburrido, listo" }
-      ] },
-      { "label": "Personlighet", "children": [
-        { "label": "simpático, sincero" },
-        { "label": "tímido, celoso" }
-      ] },
-      { "label": "Som gustar", "children": [
-        { "label": "gusta / gustan" },
-        { "label": "encantar, molestar" },
-        { "label": "caer bien" }
-      ] },
-      { "label": "Relasjoner", "children": [
-        { "label": "llevarse bien" },
-        { "label": "enamorarse" },
-        { "label": "pelearse" }
-      ] },
-      { "label": "Følelser", "children": [
-        { "label": "contento, triste" },
-        { "label": "tengo miedo" },
-        { "label": "me siento" }
-      ] }
+      {
+        "label": "Ser og estar",
+        "children": [
+          {
+            "label": "ser: egenskaper"
+          },
+          {
+            "label": "estar: tilstander"
+          },
+          {
+            "label": "aburrido, listo"
+          }
+        ]
+      },
+      {
+        "label": "Personlighet",
+        "children": [
+          {
+            "label": "simpático, sincero"
+          },
+          {
+            "label": "tímido, celoso"
+          }
+        ]
+      },
+      {
+        "label": "Som gustar",
+        "children": [
+          {
+            "label": "gusta / gustan"
+          },
+          {
+            "label": "encantar, molestar"
+          },
+          {
+            "label": "caer bien"
+          }
+        ]
+      },
+      {
+        "label": "Relasjoner",
+        "children": [
+          {
+            "label": "llevarse bien"
+          },
+          {
+            "label": "enamorarse"
+          },
+          {
+            "label": "pelearse"
+          }
+        ]
+      },
+      {
+        "label": "Følelser",
+        "children": [
+          {
+            "label": "contento, triste"
+          },
+          {
+            "label": "tengo miedo"
+          },
+          {
+            "label": "me siento"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Man bruker «estar» for å si hvor noe befinner seg.", "correct": true, "explain": "¿Dónde está el museo?" },
-      { "id": "m02", "type": "sant-usant", "text": "I «Me gusta la música» er «me» subjektet.", "correct": false, "explain": "La música er subjektet; me er indirekte objekt." },
-      { "id": "m03", "type": "sant-usant", "text": "«ser listo» og «estar listo» betyr forskjellige ting.", "correct": true, "explain": "Være smart / være klar." },
-      { "id": "m04", "type": "sant-usant", "text": "Opprinnelse uttrykkes med «estar»: «Estoy de Noruega».", "correct": false, "explain": "Opprinnelse uttrykkes med ser: Soy de Noruega." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Me siento solo»?", "options": ["Jeg sitter alene.", "Jeg føler meg ensom.", "Jeg er bare meg.", "Jeg liker å være alene."], "correct": 1, "explain": "sentirse = føle seg." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr «generoso»?", "options": ["raus", "generell", "sint", "sjalu"], "correct": 0, "explain": "Hunkjønn: generosa." },
-      { "id": "m07", "type": "flervalg", "text": "Velg riktig: «Nos ___ mucho los idiomas.»", "options": ["interesa", "interesamos", "interesan", "interesas"], "correct": 2, "explain": "Los idiomas er flertall: interesan." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Man bruker «estar» for å si hvor noe befinner seg.",
+        "correct": true,
+        "explain": "¿Dónde está el museo?"
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I «Me gusta la música» er «me» subjektet.",
+        "correct": false,
+        "explain": "La música er subjektet; me er indirekte objekt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«ser listo» og «estar listo» betyr forskjellige ting.",
+        "correct": true,
+        "explain": "Være smart / være klar."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Opprinnelse uttrykkes med «estar»: «Estoy de Noruega».",
+        "correct": false,
+        "explain": "Opprinnelse uttrykkes med ser: Soy de Noruega."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Me siento solo»?",
+        "options": [
+          "Jeg sitter alene.",
+          "Jeg føler meg ensom.",
+          "Jeg er bare meg.",
+          "Jeg liker å være alene."
+        ],
+        "correct": 1,
+        "explain": "sentirse = føle seg."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr «generoso»?",
+        "options": [
+          "raus",
+          "generell",
+          "sint",
+          "sjalu"
+        ],
+        "correct": 0,
+        "explain": "Hunkjønn: generosa."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Velg riktig: «Nos ___ mucho los idiomas.»",
+        "options": [
+          "interesa",
+          "interesamos",
+          "interesan",
+          "interesas"
+        ],
+        "correct": 2,
+        "explain": "Los idiomas er flertall: interesan."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar på norsk hva ser og estar vanligvis brukes om. Ta med minst én type informasjon som uttrykkes med hvert verb.",
+        "fasit": "Ser brukes om egenskaper, identitet, opprinnelse og yrke. Estar brukes om tilstander, følelser og sted.",
+        "kriterier": [
+          "Forklarer at ser brukes om kjennetegn eller identitet.",
+          "Forklarer at estar brukes om tilstand, følelse eller sted."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign betydningen av ser listo og estar listo på norsk.",
+        "fasit": "Ser listo betyr å være smart, mens estar listo betyr å være klar.",
+        "kriterier": [
+          "Forklarer at ser listo beskriver at noen er smart.",
+          "Forklarer at estar listo beskriver at noen er klar."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Skriv to setninger på spansk: Én om en hyggelig gutt og én om en hyggelig jente. Bruk ser og riktig form av simpático/a.",
+        "fasit": "Mi amigo es simpático. Mi amiga es simpática.",
+        "kriterier": [
+          "Bruker ser riktig i begge setningene.",
+          "Bruker simpático om gutten og simpática om jenta."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar på norsk hva los hermanos betyr, og hvorfor det ikke alltid bare betyr «brødrene».",
+        "fasit": "Los hermanos betyr søsknene, og ordet kan vise til både brødre og søsken av blandet kjønn.",
+        "kriterier": [
+          "Forklarer at los hermanos kan bety søsknene.",
+          "Får fram at ordet også kan brukes når søsknene ikke bare er gutter."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Du elsker kino, men støy irriterer deg. Skriv to setninger på spansk: Bruk Me encanta om kino og Me molesta om støy.",
+        "fasit": "Me encanta el cine. Me molesta el ruido.",
+        "kriterier": [
+          "Bruker Me encanta riktig sammen med el cine.",
+          "Bruker Me molesta riktig sammen med el ruido."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign hvordan unge i Spania og Mexico kan bruke ordene tío/tía og güey om venner.",
+        "fasit": "I Spania sier unge ofte tío eller tía om venner. I Mexico bruker unge ofte güey.",
+        "kriterier": [
+          "Knytter tío/tía til unge i Spania og venner.",
+          "Knytter güey til unge i Mexico."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du føler deg alene. Skriv dette på spansk med verbet sentirse.",
+        "fasit": "Me siento solo. (En jente kan skrive: Me siento sola.)",
+        "kriterier": [
+          "Bruker formen me siento.",
+          "Bruker solo eller sola slik at setningen uttrykker at personen føler seg alene."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skriv på spansk: «Jeg forelsker meg i kjæresten min.» Bruk enamorarse de og riktig ord for kjæreste.",
+        "fasit": "Me enamoro de mi novio. (En jente kan også skrive: Me enamoro de mi novia.)",
+        "kriterier": [
+          "Bruker en riktig form av enamorarse.",
+          "Bruker de foran kjæresten og riktig form av novio/novia."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

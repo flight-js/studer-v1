@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Kravspesifikasjon, arbeidstegninger og produktutvikling",
   "intro": "Hvordan du utvikler et funksjonelt produkt med en tydelig kravspesifikasjon, lager arbeidstegninger med projeksjoner, mål og målestokk, bygger prototyper og tester produktet mot kravene.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Produktutvikling som prosess\n\nÅ utvikle et produkt skjer sjelden i én rett linje. Vanligvis går man gjennom **faser** som gjentas:\n\n1. **Behov og problem**: Hvilket problem skal produktet løse, og for hvem?\n2. **Kravspesifikasjon**: Hva må produktet kunne?\n3. **Idéutvikling**: Skisser flere løsninger og velg den beste.\n4. **Arbeidstegninger** og planlegging.\n5. **Prototype**: en første, ofte enkel versjon.\n6. **Testing** mot kravene.\n7. **Forbedring** – og ny test.\n\nDenne **iterative** arbeidsmåten gjør at feil oppdages tidlig, mens de er billige å rette.\n\n## Kravspesifikasjon\n\nEn **kravspesifikasjon** beskriver hva produktet **skal** gjøre og hvilke **begrensninger** det har. Gode krav er **konkrete** og **målbare**:\n\n- **Dårlig**: «Lampen skal være lys.»\n- **Bedre**: «Lampen skal gi minst 300 lux på en pult 50 cm under lampen.»\n\nKravene deles ofte i\n\n- **funksjonelle krav** – hva produktet gjør: «Viften skal starte automatisk når temperaturen er over 25 °C.»\n- **ikke-funksjonelle krav** – egenskaper som størrelse, vekt, pris, sikkerhet, levetid og brukervennlighet: «Produktet skal koste under 300 kr i materialer.»\n\nMan skiller gjerne mellom **må-krav** og **bør-krav**. Kravspesifikasjonen er grunnlaget for **testingen**: Hvert krav bør kunne sjekkes med en **test**.\n\n## Arbeidstegninger\n\nEn **arbeidstegning** skal gjøre det mulig for andre å **lage** produktet nøyaktig. Den inneholder\n\n- **projeksjoner**: Produktet vises **forfra**, **ovenfra** og **fra siden**. I Norge og Europa plasseres riss etter **europeisk projeksjonsmetode**.\n- **Mål** i millimeter, satt med **målelinjer** og **hjelpelinjer**.\n- **Målestokk**, for eksempel 1 : 2 (tegningen er halvparten så stor som virkeligheten) eller 2 : 1 (dobbelt så stor).\n- **Tegningshode** med navn, dato, materiale og målestokk.\n- Eventuelle **snitt** som viser det indre av produktet.\n\nTegninger lages i dag ofte i **DAK-programmer** (dataassistert konstruksjon), som Fusion 360, Onshape eller Tinkercad. Derfra kan delene sendes direkte til en **3D-printer** eller **laserkutter**.\n\n## Prototyper\n\n- **Skissemodeller** i papp eller skum tester form og størrelse.\n- **Funksjonsprototyper** tester om teknikken virker, gjerne med **koblingsbrett** og mikrokontroller.\n- **Ferdige prototyper** ligner det endelige produktet.\n\n## Testing\n\nLag en **testplan** med ett eller flere tester for hvert krav. Registrer **resultatet**, og vurder om kravet er **oppfylt**. Tester som feiler, gir viktig informasjon om hva som må forbedres. Test også med **brukere** – de oppdager ofte problemer utviklerne ikke har tenkt på.\n\n## Dokumentasjon\n\nFør en **logg** gjennom prosjektet: valg du tok og hvorfor, problemer og løsninger, bilder, tegninger og testresultater. Det gjør arbeidet **etterprøvbart** og gjør det lettere å forbedre produktet senere.",
   "flashcards": [
-    { "term": "Iterativ utvikling", "def": "Faser som gjentas: prototype, test og forbedring." },
-    { "term": "Kravspesifikasjon", "def": "Beskriver hva produktet skal gjøre og hvilke begrensninger det har." },
-    { "term": "Målbart krav", "def": "Krav som kan sjekkes med en test, som «minst 300 lux»." },
-    { "term": "Funksjonelt krav", "def": "Hva produktet gjør." },
-    { "term": "Ikke-funksjonelt krav", "def": "Egenskaper som pris, vekt, sikkerhet og levetid." },
-    { "term": "Må-krav og bør-krav", "def": "Krav som må oppfylles og krav som er ønskelige." },
-    { "term": "Arbeidstegning", "def": "Tegning som gjør det mulig å lage produktet nøyaktig." },
-    { "term": "Projeksjoner", "def": "Riss forfra, ovenfra og fra siden." },
-    { "term": "Europeisk projeksjonsmetode", "def": "Plassering av riss brukt i Norge og Europa." },
-    { "term": "Målestokk 1 : 2", "def": "Tegningen er halvparten så stor som virkeligheten." },
-    { "term": "Tegningshode", "def": "Felt med navn, dato, materiale og målestokk." },
-    { "term": "DAK", "def": "Dataassistert konstruksjon." },
-    { "term": "Prototype", "def": "Tidlig versjon av produktet for testing." },
-    { "term": "Testplan", "def": "Oversikt over tester knyttet til hvert krav." },
-    { "term": "Prosjektlogg", "def": "Dokumentasjon av valg, problemer og resultater." }
+    {
+      "term": "Iterativ utvikling",
+      "def": "Faser som gjentas: prototype, test og forbedring."
+    },
+    {
+      "term": "Kravspesifikasjon",
+      "def": "Beskriver hva produktet skal gjøre og hvilke begrensninger det har."
+    },
+    {
+      "term": "Målbart krav",
+      "def": "Krav som kan sjekkes med en test, som «minst 300 lux»."
+    },
+    {
+      "term": "Funksjonelt krav",
+      "def": "Hva produktet gjør."
+    },
+    {
+      "term": "Ikke-funksjonelt krav",
+      "def": "Egenskaper som pris, vekt, sikkerhet og levetid."
+    },
+    {
+      "term": "Må-krav og bør-krav",
+      "def": "Krav som må oppfylles og krav som er ønskelige."
+    },
+    {
+      "term": "Arbeidstegning",
+      "def": "Tegning som gjør det mulig å lage produktet nøyaktig."
+    },
+    {
+      "term": "Projeksjoner",
+      "def": "Riss forfra, ovenfra og fra siden."
+    },
+    {
+      "term": "Europeisk projeksjonsmetode",
+      "def": "Plassering av riss brukt i Norge og Europa."
+    },
+    {
+      "term": "Målestokk 1 : 2",
+      "def": "Tegningen er halvparten så stor som virkeligheten."
+    },
+    {
+      "term": "Tegningshode",
+      "def": "Felt med navn, dato, materiale og målestokk."
+    },
+    {
+      "term": "DAK",
+      "def": "Dataassistert konstruksjon."
+    },
+    {
+      "term": "Prototype",
+      "def": "Tidlig versjon av produktet for testing."
+    },
+    {
+      "term": "Testplan",
+      "def": "Oversikt over tester knyttet til hvert krav."
+    },
+    {
+      "term": "Prosjektlogg",
+      "def": "Dokumentasjon av valg, problemer og resultater."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en kravspesifikasjon?", "options": ["En tegning av produktet", "En beskrivelse av hva produktet skal gjøre og hvilke begrensninger det har", "En brukermanual", "En prisliste"], "correct": 1, "explain": "Grunnlaget for utvikling og testing." },
-    { "id": "q02", "text": "Hvilket krav er best formulert?", "options": ["Lampen skal gi minst 300 lux på en pult 50 cm under lampen", "Lampen skal være lys", "Lampen skal være fin", "Lampen skal være god"], "correct": 0, "explain": "Det er konkret og målbart." },
-    { "id": "q03", "text": "Hva betyr målestokk 2 : 1?", "options": ["Tegningen er halvparten så stor", "Tegningen er like stor", "Tegningen er dobbelt så stor som virkeligheten", "Tegningen har to riss"], "correct": 2, "explain": "Brukes for små deler." },
-    { "id": "q04", "text": "Hvilke riss viser en arbeidstegning vanligvis?", "options": ["Bare forfra", "Et fotografi", "Bare et 3D-bilde", "Forfra, ovenfra og fra siden"], "correct": 3, "explain": "Projeksjoner." },
-    { "id": "q05", "text": "Hvilket er et funksjonelt krav?", "options": ["Viften skal starte automatisk over 25 °C", "Produktet skal koste under 300 kr", "Produktet skal veie under 1 kg", "Produktet skal vare i fem år"], "correct": 0, "explain": "Det beskriver hva produktet gjør." },
-    { "id": "q06", "text": "Hvorfor jobber man iterativt i produktutvikling?", "options": ["For å bruke mer tid", "For å oppdage feil tidlig mens de er billige å rette", "Fordi det er påbudt", "For å slippe testing"], "correct": 1, "explain": "Prototype, test og forbedring gjentas." },
-    { "id": "q07", "text": "Hva er DAK?", "options": ["En type mikrokontroller", "En måleenhet", "Dataassistert konstruksjon", "En sensor"], "correct": 2, "explain": "Programmer som Fusion 360 og Tinkercad." },
-    { "id": "q08", "text": "Hva bør en testplan inneholde?", "options": ["Bare bilder av produktet", "Bare prisen", "Navnet på produktet", "Tester knyttet til hvert krav, med resultat"], "correct": 3, "explain": "Viser om kravene er oppfylt." },
-    { "id": "q09", "text": "Hvilken måleenhet brukes vanligvis på arbeidstegninger?", "options": ["Millimeter", "Meter", "Tommer", "Kilometer"], "correct": 0, "explain": "Standard i teknisk tegning." },
-    { "id": "q10", "text": "Hva er formålet med en funksjonsprototype?", "options": ["Å vise fargene", "Å teste om teknikken virker", "Å selge produktet", "Å lage tegningshodet"], "correct": 1, "explain": "Gjerne med koblingsbrett og mikrokontroller." }
+    {
+      "id": "q01",
+      "text": "Hva er en kravspesifikasjon?",
+      "options": [
+        "En tegning av produktet",
+        "En beskrivelse av hva produktet skal gjøre og hvilke begrensninger det har",
+        "En brukermanual",
+        "En prisliste"
+      ],
+      "correct": 1,
+      "explain": "Grunnlaget for utvikling og testing."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket krav er best formulert?",
+      "options": [
+        "Lampen skal gi minst 300 lux på en pult 50 cm under lampen",
+        "Lampen skal være lys",
+        "Lampen skal være fin",
+        "Lampen skal være god"
+      ],
+      "correct": 0,
+      "explain": "Det er konkret og målbart."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr målestokk 2 : 1?",
+      "options": [
+        "Tegningen er halvparten så stor",
+        "Tegningen er like stor",
+        "Tegningen er dobbelt så stor som virkeligheten",
+        "Tegningen har to riss"
+      ],
+      "correct": 2,
+      "explain": "Brukes for små deler."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilke riss viser en arbeidstegning vanligvis?",
+      "options": [
+        "Bare forfra",
+        "Et fotografi",
+        "Bare et 3D-bilde",
+        "Forfra, ovenfra og fra siden"
+      ],
+      "correct": 3,
+      "explain": "Projeksjoner."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket er et funksjonelt krav?",
+      "options": [
+        "Viften skal starte automatisk over 25 °C",
+        "Produktet skal koste under 300 kr",
+        "Produktet skal veie under 1 kg",
+        "Produktet skal vare i fem år"
+      ],
+      "correct": 0,
+      "explain": "Det beskriver hva produktet gjør."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor jobber man iterativt i produktutvikling?",
+      "options": [
+        "For å bruke mer tid",
+        "For å oppdage feil tidlig mens de er billige å rette",
+        "Fordi det er påbudt",
+        "For å slippe testing"
+      ],
+      "correct": 1,
+      "explain": "Prototype, test og forbedring gjentas."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er DAK?",
+      "options": [
+        "En type mikrokontroller",
+        "En måleenhet",
+        "Dataassistert konstruksjon",
+        "En sensor"
+      ],
+      "correct": 2,
+      "explain": "Programmer som Fusion 360 og Tinkercad."
+    },
+    {
+      "id": "q08",
+      "text": "Hva bør en testplan inneholde?",
+      "options": [
+        "Bare bilder av produktet",
+        "Bare prisen",
+        "Navnet på produktet",
+        "Tester knyttet til hvert krav, med resultat"
+      ],
+      "correct": 3,
+      "explain": "Viser om kravene er oppfylt."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken måleenhet brukes vanligvis på arbeidstegninger?",
+      "options": [
+        "Millimeter",
+        "Meter",
+        "Tommer",
+        "Kilometer"
+      ],
+      "correct": 0,
+      "explain": "Standard i teknisk tegning."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er formålet med en funksjonsprototype?",
+      "options": [
+        "Å vise fargene",
+        "Å teste om teknikken virker",
+        "Å selge produktet",
+        "Å lage tegningshodet"
+      ],
+      "correct": 1,
+      "explain": "Gjerne med koblingsbrett og mikrokontroller."
+    }
   ],
   "mindmap": {
     "label": "Produktutvikling",
     "children": [
-      { "label": "Prosess", "children": [
-        { "label": "Behov" },
-        { "label": "Idéer" },
-        { "label": "Iterasjon" }
-      ] },
-      { "label": "Kravspesifikasjon", "children": [
-        { "label": "Funksjonelle krav" },
-        { "label": "Ikke-funksjonelle krav" },
-        { "label": "Målbare krav" }
-      ] },
-      { "label": "Arbeidstegninger", "children": [
-        { "label": "Projeksjoner" },
-        { "label": "Mål og målestokk" },
-        { "label": "DAK" }
-      ] },
-      { "label": "Prototyper", "children": [
-        { "label": "Skissemodell" },
-        { "label": "Funksjonsprototype" }
-      ] },
-      { "label": "Testing", "children": [
-        { "label": "Testplan" },
-        { "label": "Brukertest" },
-        { "label": "Logg" }
-      ] }
+      {
+        "label": "Prosess",
+        "children": [
+          {
+            "label": "Behov"
+          },
+          {
+            "label": "Idéer"
+          },
+          {
+            "label": "Iterasjon"
+          }
+        ]
+      },
+      {
+        "label": "Kravspesifikasjon",
+        "children": [
+          {
+            "label": "Funksjonelle krav"
+          },
+          {
+            "label": "Ikke-funksjonelle krav"
+          },
+          {
+            "label": "Målbare krav"
+          }
+        ]
+      },
+      {
+        "label": "Arbeidstegninger",
+        "children": [
+          {
+            "label": "Projeksjoner"
+          },
+          {
+            "label": "Mål og målestokk"
+          },
+          {
+            "label": "DAK"
+          }
+        ]
+      },
+      {
+        "label": "Prototyper",
+        "children": [
+          {
+            "label": "Skissemodell"
+          },
+          {
+            "label": "Funksjonsprototype"
+          }
+        ]
+      },
+      {
+        "label": "Testing",
+        "children": [
+          {
+            "label": "Testplan"
+          },
+          {
+            "label": "Brukertest"
+          },
+          {
+            "label": "Logg"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Hvert krav i kravspesifikasjonen bør kunne sjekkes med en test.", "correct": true, "explain": "Ellers vet vi ikke om det er oppfylt." },
-      { "id": "m02", "type": "sant-usant", "text": "En test som feiler, er bortkastet.", "correct": false, "explain": "Den viser hva som må forbedres." },
-      { "id": "m03", "type": "sant-usant", "text": "Fra DAK-programmer kan deler sendes direkte til en 3D-printer.", "correct": true, "explain": "Det gjør prototyping raskere." },
-      { "id": "m04", "type": "sant-usant", "text": "Pris og vekt er funksjonelle krav.", "correct": false, "explain": "Det er ikke-funksjonelle krav." },
-      { "id": "m05", "type": "flervalg", "text": "En del er 40 mm lang i virkeligheten. Hvor lang er den på en tegning i målestokk 1 : 2?", "options": ["80 mm", "20 mm", "40 mm", "2 mm"], "correct": 1, "explain": "Halvparten av virkeligheten." },
-      { "id": "m06", "type": "flervalg", "text": "Hva hører hjemme i tegningshodet?", "options": ["Navn, dato, materiale og målestokk", "Testresultatene", "Programkoden", "Kravspesifikasjonen"], "correct": 0, "explain": "Formell informasjon om tegningen." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor bør du føre prosjektlogg?", "options": ["For å bruke opp tiden", "Fordi læreren krever det", "For at arbeidet blir etterprøvbart og lettere å forbedre", "For å slippe tegninger"], "correct": 2, "explain": "Valg og resultater dokumenteres." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Hvert krav i kravspesifikasjonen bør kunne sjekkes med en test.",
+        "correct": true,
+        "explain": "Ellers vet vi ikke om det er oppfylt."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En test som feiler, er bortkastet.",
+        "correct": false,
+        "explain": "Den viser hva som må forbedres."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Fra DAK-programmer kan deler sendes direkte til en 3D-printer.",
+        "correct": true,
+        "explain": "Det gjør prototyping raskere."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Pris og vekt er funksjonelle krav.",
+        "correct": false,
+        "explain": "Det er ikke-funksjonelle krav."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "En del er 40 mm lang i virkeligheten. Hvor lang er den på en tegning i målestokk 1 : 2?",
+        "options": [
+          "80 mm",
+          "20 mm",
+          "40 mm",
+          "2 mm"
+        ],
+        "correct": 1,
+        "explain": "Halvparten av virkeligheten."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva hører hjemme i tegningshodet?",
+        "options": [
+          "Navn, dato, materiale og målestokk",
+          "Testresultatene",
+          "Programkoden",
+          "Kravspesifikasjonen"
+        ],
+        "correct": 0,
+        "explain": "Formell informasjon om tegningen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor bør du føre prosjektlogg?",
+        "options": [
+          "For å bruke opp tiden",
+          "Fordi læreren krever det",
+          "For at arbeidet blir etterprøvbart og lettere å forbedre",
+          "For å slippe tegninger"
+        ],
+        "correct": 2,
+        "explain": "Valg og resultater dokumenteres."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En prototype testes mot produktets krav. Forklar hvordan et konkret og målbart krav gjør det lettere å vurdere testresultatet.",
+        "fasit": "Et konkret, målbart krav kan kontrolleres med en test. Da blir det tydelig om kravet er oppfylt eller ikke.",
+        "kriterier": [
+          "Forklarer at kravet kan kontrolleres eller måles i en test.",
+          "Knytter testresultatet til om kravet er oppfylt."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar forskjellen mellom et funksjonelt og et ikke-funksjonelt krav. Gi ett eksempel på hvert fra et produkt som har en vifte.",
+        "fasit": "Et funksjonelt krav beskriver hva produktet skal gjøre, for eksempel at viften starter automatisk over en bestemt temperatur. Et ikke-funksjonelt krav beskriver en egenskap, for eksempel hvor mye produktet kan koste.",
+        "kriterier": [
+          "Skiller mellom hva produktet gjør og en egenskap ved produktet.",
+          "Gir et eksempel på hvert krav som passer til forklaringen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En gruppe lager en kravspesifikasjon med både må-krav og bør-krav. Forklar hvordan skillet kan hjelpe gruppen når den velger mellom to produktløsninger.",
+        "fasit": "Må-krav må være oppfylt, så en løsning som ikke oppfyller dem, passer ikke. Bør-krav er ønskelige, og gruppen kan bruke dem til å sammenligne løsninger som oppfyller må-kravene.",
+        "kriterier": [
+          "Forklarer at må-krav er nødvendige å oppfylle.",
+          "Forklarer at bør-krav er ønskelige og kan brukes til å vurdere eller sammenligne løsninger."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du lager en arbeidstegning som en annen person skal bruke til å lage produktet. Forklar hvorfor både flere projeksjoner og mål er nyttige for den som skal lage det.",
+        "fasit": "Projeksjonene viser produktet fra ulike retninger, slik at formen blir lettere å forstå. Målene viser størrelsene nøyaktig, slik at produktet kan lages i riktig størrelse.",
+        "kriterier": [
+          "Forklarer at projeksjonene viser produktet fra ulike retninger og gir informasjon om formen.",
+          "Forklarer at målene angir nøyaktige størrelser for produksjonen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "På en arbeidstegning i målestokk 1 : 2 er en del 35 mm lang. Hvor lang er delen i virkeligheten? Vis det viktigste regnestykket.",
+        "fasit": "Målestokk 1 : 2 betyr at tegningen er halvparten så stor som virkeligheten. 35 mm · 2 = 70 mm, så delen er 70 mm lang i virkeligheten.",
+        "kriterier": [
+          "Bruker at virkelig størrelse er dobbelt så stor som tegningen.",
+          "Regner riktig til 70 mm."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et produkt skal koste under 300 kr i materialer. To deler koster 120 kr og 95 kr. Alle beløp er hele kroner. Hvor mye kan en tredje del koste mest uten at kravet brytes? Vis regnestykket.",
+        "fasit": "De to første delene koster 120 + 95 = 215 kr. Siden totalen må være under 300 kr, kan den tredje delen koste mest 84 kr: 215 + 84 = 299 kr.",
+        "kriterier": [
+          "Regner ut at de to delene til sammen koster 215 kr.",
+          "Tar hensyn til at kostnaden må være under 300 kr, og finner 84 kr som største mulige kostnad."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du vil undersøke om formen og størrelsen på et produkt passer før du lager teknikken i det. Hvilken type prototype passer best, og hva kan du bruke den til å undersøke?",
+        "fasit": "En skissemodell i papp eller skum passer best. Den kan brukes til å undersøke produktets form og størrelse før teknikken lages.",
+        "kriterier": [
+          "Velger en skissemodell.",
+          "Knytter skissemodellen til testing av form og størrelse."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Under et produktutviklingsprosjekt skriver gruppen ned valg, problemer, løsninger og testresultater i en logg. Forklar hvordan loggen kan være nyttig når produktet skal vurderes eller forbedres senere.",
+        "fasit": "Loggen gjør det mulig å etterprøve hva gruppen har gjort og hvorfor. Den gir også informasjon som kan brukes når produktet skal forbedres senere.",
+        "kriterier": [
+          "Forklarer at loggen dokumenterer arbeidet slik at det kan etterprøves.",
+          "Forklarer at informasjonen kan brukes i senere forbedring."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

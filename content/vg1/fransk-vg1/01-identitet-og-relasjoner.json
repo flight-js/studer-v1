@@ -349,6 +349,79 @@
         "correct": 2,
         "explain": "-eur blir ofte -euse."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Skriv de franske formene for «arbeidsom» om en gutt og om en jente. Forklar kort på norsk hvorfor formene er ulike.",
+        "fasit": "Om en gutt sier man travailleur, og om en jente travailleuse. Adjektivet bøyes etter kjønn.",
+        "kriterier": [
+          "Gir riktig form for både gutt og jente.",
+          "Forklarer at adjektivet bøyes etter kjønn."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign hvordan gentil og timide ser ut i hankjønn og hunkjønn. Hva endres?",
+        "fasit": "Gentil blir gentille i hunkjønn. Timide har samme skrivemåte i hankjønn og hunkjønn, selv om adjektivet fortsatt viser til personen det beskriver.",
+        "kriterier": [
+          "Viser at gentil får en annen hunkjønnsform.",
+          "Viser at timide har samme form i hankjønn og hunkjønn."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I setningen «On se dispute parfois», hvem viser se tilbake til? Forklar også kort hva det forteller om verbet.",
+        "fasit": "Se viser tilbake til subjektet on. Se disputer er et pronominalt verb, og setningen betyr at vi krangler av og til.",
+        "kriterier": [
+          "Forklarer at se viser tilbake til subjektet on.",
+          "Knytter dette til at verbet er pronominalt."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign «Tu vois Marie ? Je la vois» og «Je parle à mes parents. Je leur parle». Hva erstatter la og leur, og hva er forskjellen på objektene?",
+        "fasit": "La erstatter Marie, som er direkte objekt. Leur erstatter mes parents, som er indirekte objekt etter à.",
+        "kriterier": [
+          "Knytter la til Marie og direkte objekt.",
+          "Knytter leur til mes parents og indirekte objekt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hva er forskjellen på det en person uttrykker med «Je suis triste» og «Je me sens seul(e)»?",
+        "fasit": "Je suis triste betyr at personen er trist. Je me sens seul(e) betyr at personen føler seg ensom.",
+        "kriterier": [
+          "Skiller mellom å være trist og å føle seg ensom."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Ordet copine kan vise til ulike relasjoner. Forklar hvilke, og hvordan petite amie avklarer betydningen.",
+        "fasit": "Une copine kan bety en venninne eller kjæreste. La petite amie betyr kjæresten, altså en jente.",
+        "kriterier": [
+          "Forklarer at copine kan bety venninne eller kjæreste.",
+          "Forklarer at petite amie viser til kjæresten."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En jente vil fortelle at hun er skuffet og føler seg ensom. Skriv begge tingene på fransk.",
+        "fasit": "Je suis déçue. Je me sens seule.",
+        "kriterier": [
+          "Bruker déçue om den skuffede jenta.",
+          "Bruker je me sens seule for å uttrykke at hun føler seg ensom."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Beskriv en strategi for å lære franske adjektiver og øve på å snakke spontant om en person du kjenner godt.",
+        "fasit": "Lær adjektivene sammen med hankjønns- og hunkjønnsformen, for eksempel gentil og gentille. Øv på å snakke spontant i ett minutt om en person du kjenner godt.",
+        "kriterier": [
+          "Foreslår å lære adjektivformene for hankjønn og hunkjønn sammen.",
+          "Nevner øving på å snakke spontant om en person man kjenner godt."
+        ]
+      }
     ]
   },
   "kvalitet": {

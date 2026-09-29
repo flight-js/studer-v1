@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Voldslovbrudd og seksuallovbrudd",
   "intro": "Sentrale straffebud om vold – kroppskrenkelse, kroppsskade, trusler, mishandling i nære relasjoner og drap – og om seksuallovbrudd – voldtekt, seksuell lavalder og deling av seksualiserte bilder – med bruk av straffbarhetsvilkårene, nødverge og ofrenes rettigheter.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Voldslovbrudd\n\nStraffeloven skiller mellom ulike grader av vold. Hvilket straffebud som brukes, avhenger av **handlingen** og **følgene**:\n\n- **Kroppskrenkelse** (§ 271): å slå, skubbe eller på annen måte bruke **vold** mot en annen, eller krenke hen fysisk. Strafferamme: **bot** eller **fengsel inntil 1 år**.\n- **Grov kroppskrenkelse** (§ 272): for eksempel bruk av **våpen**, flere gjerningspersoner eller særlig sårbart offer.\n- **Kroppsskade** (§ 273): Volden fører til **skade** på kropp eller helse, som brudd eller hjernerystelse.\n- **Grov kroppsskade** (§ 274): Følgene er **betydelige**, som varig skade.\n- **Drap** (§ 275): å **drepe** en annen – straffes med fengsel fra **8** inntil **21 år**.\n\n**Trusler** (§ 263) er straffbart når noen truer med en straffbar handling under slike omstendigheter at trusselen er egnet til å fremkalle **alvorlig frykt**. Det gjelder også trusler på nett.\n\n**Mishandling i nære relasjoner** (§ 282) rammer den som ved **trusler**, **tvang**, **vold** eller andre krenkelser **alvorlig eller gjentatt** mishandler en partner, et barn eller andre nærstående. Loven tar hensyn til at vold i hjemmet ofte skjer **over tid**.\n\n## Bruk av straffbarhetsvilkårene\n\nEksempel: Aron slår Leo i ansiktet på en fest, og Leo får brukket nesen.\n\n- **Lovhjemmel**: straffeloven § 273 om kroppsskade\n- **Objektiv gjerningsbeskrivelse**: Slaget er vold, og brudd er skade på kroppen.\n- **Straffrihetsgrunn**: Var det **nødverge**? Hvis Leo angrep først og Aron forsvarte seg forholdsmessig, kan handlingen være rettmessig.\n- **Skyld**: Aron slo **forsettlig**. For følgen – skaden – er det nok at han kunne ha innsett muligheten.\n\n## Seksuallovbrudd\n\nSeksuallovbruddene står i **kapittel 26** i straffeloven. De verner den **seksuelle selvbestemmelsesretten** – retten til selv å bestemme over egen kropp og seksualitet.\n\n**Voldtekt** (§ 291) er et av de mest alvorlige lovbruddene. Fra **1. juli 2025** er bestemmelsen **samtykkebasert**: Det avgjørende er om den andre har **samtykket** med ord eller handlinger – ikke om det er brukt vold eller trusler. Samtidig ble minstestraffen på tre års fengsel for voldtekt fjernet. Et samtykke må være **frivillig** og kan **trekkes tilbake**. Den som sover, er bevisstløs eller sterkt beruset, kan ikke samtykke.\n\n**Grov voldtekt** gir strengere straff, for eksempel ved **flere** gjerningspersoner eller alvorlig skade.\n\n## Barn og seksuell lavalder\n\n- Den **seksuelle lavalderen** er **16 år**. Seksuell omgang med barn under 16 er straffbart (§ 302), selv om barnet sier ja.\n- Seksuell omgang med barn **under 14 år** regnes alltid som **voldtekt** (§ 299).\n- Straffen kan **falle bort** når de to er **omtrent jevnbyrdige** i alder og utvikling.\n\n## Bilder og deling\n\nÅ lage, besitte eller dele **seksualiserte** bilder og filmer av personer **under 18 år** er straffbart. Det gjelder også når ungdom deler bilder av **hverandre** videre. Deling av **intime** bilder av voksne uten samtykke er også straffbart.\n\n## Ofrenes rettigheter\n\n- **Bistandsadvokat** betalt av staten i saker om blant annet voldtekt og mishandling i nære relasjoner\n- **Voldsoffererstatning** fra staten når skadevolderen ikke kan betale\n- **Kontaktforbud** – ofte kalt besøksforbud – som beskytter mot en person\n- Hjelp fra **overgrepsmottak**, **krisesentre** og **SMISO** eller lignende sentre\n\n## Drøfting\n\nVolds- og seksuallovbrudd reiser spørsmål om **bevis** – ofte er det ord mot ord – om **rettssikkerhet** for den tiltalte og om **vern** av ofrene. Mange saker **anmeldes ikke**, og mange **henlegges**. Diskusjonen om samtykkelovgivning handler blant annet om lovens **normdannende** effekt.",
   "flashcards": [
-    { "term": "Kroppskrenkelse", "def": "Vold eller fysisk krenkelse – § 271, bot eller fengsel inntil 1 år." },
-    { "term": "Kroppsskade", "def": "Vold som fører til skade på kropp eller helse – § 273." },
-    { "term": "Grov kroppsskade", "def": "Vold med betydelige følger – § 274." },
-    { "term": "Drap", "def": "§ 275 – fengsel fra 8 inntil 21 år." },
-    { "term": "Trusler", "def": "Trussel egnet til å fremkalle alvorlig frykt – § 263." },
-    { "term": "Mishandling i nære relasjoner", "def": "Alvorlig eller gjentatt mishandling av nærstående – § 282." },
-    { "term": "Seksuell selvbestemmelsesrett", "def": "Retten til selv å bestemme over egen kropp og seksualitet." },
-    { "term": "Voldtekt", "def": "§ 291 – samtykkebasert: avgjørende om den andre har samtykket." },
-    { "term": "Gyldig samtykke", "def": "Frivillig og kan trekkes tilbake – ikke mulig når man sover eller er bevisstløs." },
-    { "term": "Seksuell lavalder", "def": "16 år." },
-    { "term": "Barn under 14", "def": "Seksuell omgang regnes alltid som voldtekt – § 299." },
-    { "term": "Jevnbyrdige i alder", "def": "Straffen kan falle bort når partene er omtrent like gamle og modne." },
-    { "term": "Bistandsadvokat", "def": "Advokat for fornærmede betalt av staten." },
-    { "term": "Voldsoffererstatning", "def": "Erstatning fra staten når skadevolderen ikke kan betale." },
-    { "term": "Kontaktforbud", "def": "Forbud mot å oppsøke eller kontakte en person." }
+    {
+      "term": "Kroppskrenkelse",
+      "def": "Vold eller fysisk krenkelse – § 271, bot eller fengsel inntil 1 år."
+    },
+    {
+      "term": "Kroppsskade",
+      "def": "Vold som fører til skade på kropp eller helse – § 273."
+    },
+    {
+      "term": "Grov kroppsskade",
+      "def": "Vold med betydelige følger – § 274."
+    },
+    {
+      "term": "Drap",
+      "def": "§ 275 – fengsel fra 8 inntil 21 år."
+    },
+    {
+      "term": "Trusler",
+      "def": "Trussel egnet til å fremkalle alvorlig frykt – § 263."
+    },
+    {
+      "term": "Mishandling i nære relasjoner",
+      "def": "Alvorlig eller gjentatt mishandling av nærstående – § 282."
+    },
+    {
+      "term": "Seksuell selvbestemmelsesrett",
+      "def": "Retten til selv å bestemme over egen kropp og seksualitet."
+    },
+    {
+      "term": "Voldtekt",
+      "def": "§ 291 – samtykkebasert: avgjørende om den andre har samtykket."
+    },
+    {
+      "term": "Gyldig samtykke",
+      "def": "Frivillig og kan trekkes tilbake – ikke mulig når man sover eller er bevisstløs."
+    },
+    {
+      "term": "Seksuell lavalder",
+      "def": "16 år."
+    },
+    {
+      "term": "Barn under 14",
+      "def": "Seksuell omgang regnes alltid som voldtekt – § 299."
+    },
+    {
+      "term": "Jevnbyrdige i alder",
+      "def": "Straffen kan falle bort når partene er omtrent like gamle og modne."
+    },
+    {
+      "term": "Bistandsadvokat",
+      "def": "Advokat for fornærmede betalt av staten."
+    },
+    {
+      "term": "Voldsoffererstatning",
+      "def": "Erstatning fra staten når skadevolderen ikke kan betale."
+    },
+    {
+      "term": "Kontaktforbud",
+      "def": "Forbud mot å oppsøke eller kontakte en person."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er forskjellen på kroppskrenkelse og kroppsskade?", "options": ["Det er det samme", "Kroppsskade krever at volden fører til skade", "Kroppskrenkelse er alltid grovere", "Kroppsskade gjelder bare våpen"], "correct": 1, "explain": "Følgen avgjør." },
-    { "id": "q02", "text": "Hva er den seksuelle lavalderen i Norge?", "options": ["16 år", "15 år", "14 år", "18 år"], "correct": 0, "explain": "Straffeloven § 302." },
-    { "id": "q03", "text": "Hva er avgjørende i en samtykkebasert voldtektsbestemmelse?", "options": ["Om det er brukt vold", "Om det finnes vitner", "Om den andre har samtykket", "Om partene kjenner hverandre"], "correct": 2, "explain": "Samtykket må være frivillig." },
-    { "id": "q04", "text": "Hvilket straffebud rammer alvorlig eller gjentatt mishandling av en partner?", "options": ["§ 263 trusler", "§ 271 kroppskrenkelse", "§ 275 drap", "§ 282 mishandling i nære relasjoner"], "correct": 3, "explain": "Tar hensyn til vold over tid." },
-    { "id": "q05", "text": "Hva er strafferammen for drap?", "options": ["Fengsel fra 8 inntil 21 år", "Bot", "Fengsel inntil 1 år", "Fengsel inntil 3 år"], "correct": 0, "explain": "Straffeloven § 275." },
-    { "id": "q06", "text": "Kan den som sover, samtykke til seksuell omgang?", "options": ["Ja, hvis hen samtykket tidligere", "Nei", "Ja, hvis de er kjærester", "Ja, hvis hen er over 18"], "correct": 1, "explain": "Et samtykke krever at man er i stand til å gi det." },
-    { "id": "q07", "text": "Når er trusler straffbare?", "options": ["Alltid når noen blir sint", "Bare når de skrives på papir", "Når trusselen er egnet til å fremkalle alvorlig frykt", "Bare når de gjennomføres"], "correct": 2, "explain": "Gjelder også på nett." },
-    { "id": "q08", "text": "Hva er straffbart ved deling av bilder?", "options": ["Å dele feriebilder", "Å dele bilder av natur", "Å dele egne selfier", "Å dele seksualiserte bilder av personer under 18 år"], "correct": 3, "explain": "Også når ungdom deler bilder av hverandre." },
-    { "id": "q09", "text": "Hva gir en bistandsadvokat?", "options": ["Juridisk hjelp til fornærmede betalt av staten", "Forsvar for tiltalte", "Råd til politiet", "Hjelp til dommeren"], "correct": 0, "explain": "I blant annet voldtektssaker." },
-    { "id": "q10", "text": "Hva må vurderes hvis gjerningspersonen hevder at hen forsvarte seg?", "options": ["Om offeret har forsikring", "Om det var nødverge", "Om det var nødrett", "Om det var forsøk"], "correct": 1, "explain": "En straffrihetsgrunn." }
+    {
+      "id": "q01",
+      "text": "Hva er forskjellen på kroppskrenkelse og kroppsskade?",
+      "options": [
+        "Det er det samme",
+        "Kroppsskade krever at volden fører til skade",
+        "Kroppskrenkelse er alltid grovere",
+        "Kroppsskade gjelder bare våpen"
+      ],
+      "correct": 1,
+      "explain": "Følgen avgjør."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er den seksuelle lavalderen i Norge?",
+      "options": [
+        "16 år",
+        "15 år",
+        "14 år",
+        "18 år"
+      ],
+      "correct": 0,
+      "explain": "Straffeloven § 302."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er avgjørende i en samtykkebasert voldtektsbestemmelse?",
+      "options": [
+        "Om det er brukt vold",
+        "Om det finnes vitner",
+        "Om den andre har samtykket",
+        "Om partene kjenner hverandre"
+      ],
+      "correct": 2,
+      "explain": "Samtykket må være frivillig."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket straffebud rammer alvorlig eller gjentatt mishandling av en partner?",
+      "options": [
+        "§ 263 trusler",
+        "§ 271 kroppskrenkelse",
+        "§ 275 drap",
+        "§ 282 mishandling i nære relasjoner"
+      ],
+      "correct": 3,
+      "explain": "Tar hensyn til vold over tid."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er strafferammen for drap?",
+      "options": [
+        "Fengsel fra 8 inntil 21 år",
+        "Bot",
+        "Fengsel inntil 1 år",
+        "Fengsel inntil 3 år"
+      ],
+      "correct": 0,
+      "explain": "Straffeloven § 275."
+    },
+    {
+      "id": "q06",
+      "text": "Kan den som sover, samtykke til seksuell omgang?",
+      "options": [
+        "Ja, hvis hen samtykket tidligere",
+        "Nei",
+        "Ja, hvis de er kjærester",
+        "Ja, hvis hen er over 18"
+      ],
+      "correct": 1,
+      "explain": "Et samtykke krever at man er i stand til å gi det."
+    },
+    {
+      "id": "q07",
+      "text": "Når er trusler straffbare?",
+      "options": [
+        "Alltid når noen blir sint",
+        "Bare når de skrives på papir",
+        "Når trusselen er egnet til å fremkalle alvorlig frykt",
+        "Bare når de gjennomføres"
+      ],
+      "correct": 2,
+      "explain": "Gjelder også på nett."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er straffbart ved deling av bilder?",
+      "options": [
+        "Å dele feriebilder",
+        "Å dele bilder av natur",
+        "Å dele egne selfier",
+        "Å dele seksualiserte bilder av personer under 18 år"
+      ],
+      "correct": 3,
+      "explain": "Også når ungdom deler bilder av hverandre."
+    },
+    {
+      "id": "q09",
+      "text": "Hva gir en bistandsadvokat?",
+      "options": [
+        "Juridisk hjelp til fornærmede betalt av staten",
+        "Forsvar for tiltalte",
+        "Råd til politiet",
+        "Hjelp til dommeren"
+      ],
+      "correct": 0,
+      "explain": "I blant annet voldtektssaker."
+    },
+    {
+      "id": "q10",
+      "text": "Hva må vurderes hvis gjerningspersonen hevder at hen forsvarte seg?",
+      "options": [
+        "Om offeret har forsikring",
+        "Om det var nødverge",
+        "Om det var nødrett",
+        "Om det var forsøk"
+      ],
+      "correct": 1,
+      "explain": "En straffrihetsgrunn."
+    }
   ],
   "mindmap": {
     "label": "Vold og seksuallovbrudd",
     "children": [
-      { "label": "Vold", "children": [
-        { "label": "Kroppskrenkelse" },
-        { "label": "Kroppsskade" },
-        { "label": "Drap" }
-      ] },
-      { "label": "Trusler og mishandling", "children": [
-        { "label": "§ 263" },
-        { "label": "§ 282 nære relasjoner" }
-      ] },
-      { "label": "Seksuallovbrudd", "children": [
-        { "label": "Voldtekt og samtykke" },
-        { "label": "Seksuell lavalder 16" },
-        { "label": "Under 14 år" }
-      ] },
-      { "label": "Bilder", "children": [
-        { "label": "Under 18 år" },
-        { "label": "Intime bilder uten samtykke" }
-      ] },
-      { "label": "Ofre", "children": [
-        { "label": "Bistandsadvokat" },
-        { "label": "Voldsoffererstatning" },
-        { "label": "Kontaktforbud" }
-      ] }
+      {
+        "label": "Vold",
+        "children": [
+          {
+            "label": "Kroppskrenkelse"
+          },
+          {
+            "label": "Kroppsskade"
+          },
+          {
+            "label": "Drap"
+          }
+        ]
+      },
+      {
+        "label": "Trusler og mishandling",
+        "children": [
+          {
+            "label": "§ 263"
+          },
+          {
+            "label": "§ 282 nære relasjoner"
+          }
+        ]
+      },
+      {
+        "label": "Seksuallovbrudd",
+        "children": [
+          {
+            "label": "Voldtekt og samtykke"
+          },
+          {
+            "label": "Seksuell lavalder 16"
+          },
+          {
+            "label": "Under 14 år"
+          }
+        ]
+      },
+      {
+        "label": "Bilder",
+        "children": [
+          {
+            "label": "Under 18 år"
+          },
+          {
+            "label": "Intime bilder uten samtykke"
+          }
+        ]
+      },
+      {
+        "label": "Ofre",
+        "children": [
+          {
+            "label": "Bistandsadvokat"
+          },
+          {
+            "label": "Voldsoffererstatning"
+          },
+          {
+            "label": "Kontaktforbud"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Et samtykke kan trekkes tilbake underveis.", "correct": true, "explain": "Da må handlingen stoppe." },
-      { "id": "m02", "type": "sant-usant", "text": "Seksuell omgang med en 13-åring er lovlig hvis 13-åringen sier ja.", "correct": false, "explain": "Det regnes alltid som voldtekt av barn under 14." },
-      { "id": "m03", "type": "sant-usant", "text": "Mange voldtektssaker blir aldri anmeldt.", "correct": true, "explain": "Det er en stor utfordring for rettssystemet." },
-      { "id": "m04", "type": "sant-usant", "text": "Trusler som fremsettes på sosiale medier, kan aldri være straffbare.", "correct": false, "explain": "Trusler på nett kan være straffbare." },
-      { "id": "m05", "type": "flervalg", "text": "Hva kan gjøre en kroppskrenkelse grov?", "options": ["At den skjer om dagen", "Bruk av våpen", "At offeret er voksen", "At gjerningspersonen er alene"], "correct": 1, "explain": "Også særlig sårbart offer." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket rettsgode verner seksuallovbruddene?", "options": ["Den seksuelle selvbestemmelsesretten", "Eiendomsretten", "Ytringsfriheten", "Retten til utdanning"], "correct": 0, "explain": "Retten til å bestemme over egen kropp." },
-      { "id": "m07", "type": "flervalg", "text": "Hvem kan gi erstatning når skadevolderen ikke kan betale?", "options": ["Kommunen", "Skolen", "Staten gjennom voldsoffererstatning", "Ingen"], "correct": 2, "explain": "En viktig ordning for ofre." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Et samtykke kan trekkes tilbake underveis.",
+        "correct": true,
+        "explain": "Da må handlingen stoppe."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Seksuell omgang med en 13-åring er lovlig hvis 13-åringen sier ja.",
+        "correct": false,
+        "explain": "Det regnes alltid som voldtekt av barn under 14."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange voldtektssaker blir aldri anmeldt.",
+        "correct": true,
+        "explain": "Det er en stor utfordring for rettssystemet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Trusler som fremsettes på sosiale medier, kan aldri være straffbare.",
+        "correct": false,
+        "explain": "Trusler på nett kan være straffbare."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva kan gjøre en kroppskrenkelse grov?",
+        "options": [
+          "At den skjer om dagen",
+          "Bruk av våpen",
+          "At offeret er voksen",
+          "At gjerningspersonen er alene"
+        ],
+        "correct": 1,
+        "explain": "Også særlig sårbart offer."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket rettsgode verner seksuallovbruddene?",
+        "options": [
+          "Den seksuelle selvbestemmelsesretten",
+          "Eiendomsretten",
+          "Ytringsfriheten",
+          "Retten til utdanning"
+        ],
+        "correct": 0,
+        "explain": "Retten til å bestemme over egen kropp."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvem kan gi erstatning når skadevolderen ikke kan betale?",
+        "options": [
+          "Kommunen",
+          "Skolen",
+          "Staten gjennom voldsoffererstatning",
+          "Ingen"
+        ],
+        "correct": 2,
+        "explain": "En viktig ordning for ofre."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr seksuell selvbestemmelsesrett, og hvilken rettighet skal den beskytte?",
+        "fasit": "Seksuell selvbestemmelsesrett er retten til selv å bestemme over egen kropp og seksualitet. Seksuallovbruddene skal beskytte denne retten.",
+        "kriterier": [
+          "Forklarer at man selv bestemmer over egen kropp og seksualitet.",
+          "Knytter retten til beskyttelsen seksuallovbruddene gir."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En voldshandling fører til varig skade på en persons kropp. Hvilket straffebud kan være aktuelt, og hvorfor?",
+        "fasit": "Grov kroppsskade etter straffeloven § 274 kan være aktuelt fordi skaden er varig og dermed en betydelig følge av volden.",
+        "kriterier": [
+          "Nevner grov kroppsskade, § 274.",
+          "Forklarer at varig skade er en betydelig følge."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hvorfor kan mishandling i nære relasjoner handle om et mønster over tid, og ikke bare én enkelt handling?",
+        "fasit": "Mishandling i nære relasjoner kan bestå av alvorlige eller gjentatte krenkelser, som trusler, tvang eller vold. Loven tar hensyn til at vold i hjemmet ofte skjer over tid.",
+        "kriterier": [
+          "Får fram at mishandlingen kan bestå av alvorlige eller gjentatte krenkelser.",
+          "Forklarer at volden ofte skjer over tid."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Under seksuell omgang trekker den ene personen tilbake samtykket, men den andre fortsetter. Forklar hvilken betydning tilbaketrekkingen har etter reglene om voldtekt.",
+        "fasit": "Samtykke kan trekkes tilbake, så den andre kan ikke legge til grunn at samtykket fortsatt gjelder. Etter den samtykkebaserte bestemmelsen er det avgjørende om den andre har samtykket.",
+        "kriterier": [
+          "Slår fast at samtykke kan trekkes tilbake.",
+          "Forklarer at fortsatt seksuell omgang etter tilbaketrekkingen skjer uten et gjeldende samtykke."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "To personer er omtrent jevnbyrdige i alder og utvikling, og den ene er under 16 år. Forklar hva hovedregelen er om seksuell omgang, og hvilken betydning jevnbyrdigheten kan ha for straffen.",
+        "fasit": "Seksuell omgang med barn under 16 år er straffbart etter § 302, selv om barnet sier ja. Hvis personene er omtrent jevnbyrdige i alder og utvikling, kan straffen falle bort.",
+        "kriterier": [
+          "Får fram at seksuell omgang med en person under 16 år er straffbart, også ved samtykke.",
+          "Forklarer at straffen kan falle bort når partene er omtrent jevnbyrdige i alder og utvikling."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Flere personer begår en voldtekt sammen. Forklar hvorfor dette kan gjøre voldtekten grov.",
+        "fasit": "Grov voldtekt gir strengere straff. Flere gjerningspersoner er et eksempel på et forhold som kan gjøre voldtekten grov.",
+        "kriterier": [
+          "Knytter flere gjerningspersoner til vurderingen av grov voldtekt.",
+          "Får fram at grov voldtekt gir strengere straff."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En person er utsatt for vold, skadevolderen kan ikke betale, og personen trenger beskyttelse mot kontakt med skadevolderen. Hvilke to ordninger kan være aktuelle, og hva skal de gjøre?",
+        "fasit": "Voldsoffererstatning fra staten kan være aktuell når skadevolderen ikke kan betale. Kontaktforbud kan beskytte personen ved å forby skadevolderen å oppsøke eller kontakte hen.",
+        "kriterier": [
+          "Nevner voldsoffererstatning og forklarer når den kan gis.",
+          "Nevner kontaktforbud og forklarer at det skal beskytte mot kontakt eller oppsøking."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I noen saker står ord mot ord. Forklar hvordan dette kan skape en utfordring både for vurderingen av bevis og for hensynet til partene i saken.",
+        "fasit": "Når det står ord mot ord, kan det være vanskelig å vurdere bevisene. Retten må samtidig ivareta rettssikkerheten til den tiltalte og vernet av den som er utsatt for lovbruddet.",
+        "kriterier": [
+          "Forklarer at ord mot ord kan gjøre bevisvurderingen vanskelig.",
+          "Får fram både hensynet til den tiltaltes rettssikkerhet og hensynet til offerets vern."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

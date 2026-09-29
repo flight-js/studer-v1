@@ -4,78 +4,425 @@
   "trinnId": "vg2",
   "name": "Programmering med funksjoner",
   "intro": "Prosedyreorientert programmering med variabler, betingelser og løkker, funksjoner med og uten parametere og returverdier, og hvordan du strukturerer, kommenterer og feilsøker kode.",
-  "kompetansemaal": [7, 9],
+  "kompetansemaal": [
+    7,
+    9
+  ],
   "sammendrag": "## Grunnelementene\n\nEt **prosedyreorientert** program består av instruksjoner som utføres **i rekkefølge**. Eksemplene er i **Python**, men de samme ideene finnes i JavaScript og andre språk.\n\n- **Variabler** lagrer verdier: alder = 17\n- **Datatyper**: heltall (int), desimaltall (float), tekst (str), sannhetsverdier (bool) og lister\n- **Betingelser** velger mellom veier: if, elif og else\n- **Løkker** gjentar: for-løkker for et kjent antall ganger, while-løkker så lenge en betingelse er sann\n\n## Funksjoner\n\nEn **funksjon** (prosedyre) er en navngitt kodeblokk som kan **gjenbrukes**. Funksjoner gjør programmet **kortere**, **lettere å lese** og **lettere å teste**.\n\n**Uten parametere og uten returverdi**:\n\n```\ndef hils():\n    print(\"Hei og velkommen!\")\n\nhils()\n```\n\n**Med parametere** – verdier funksjonen får inn:\n\n```\ndef hils_på(navn):\n    print(f\"Hei, {navn}!\")\n\nhils_på(\"Ida\")\n```\n\n**Med returverdi** – funksjonen sender et resultat tilbake:\n\n```\ndef areal_sirkel(r):\n    return 3.14159 * r ** 2\n\nsvar = areal_sirkel(2)   # svar blir omtrent 12.57\n```\n\nForskjellen er viktig: **print** viser noe på skjermen, mens **return** gir verdien tilbake slik at resten av programmet kan **bruke** den videre.\n\n**Flere parametere og betingelse**:\n\n```\ndef karakter(poeng, maks):\n    prosent = poeng / maks * 100\n    if prosent >= 90:\n        return 6\n    elif prosent >= 75:\n        return 5\n    else:\n        return 4\n```\n\n## Lokale og globale variabler\n\nVariabler som lages **inne i** en funksjon, er **lokale** – de finnes bare der. Det hindrer at funksjoner ødelegger for hverandre. Send heller verdier inn som **parametere** og ut med **return** enn å bruke globale variabler.\n\n## Strukturere kode\n\n- Del problemet i **små funksjoner** som gjør **én ting** hver.\n- Gi variabler og funksjoner **beskrivende navn**: beregn_snitt er bedre enn f2.\n- Samle funksjonene øverst og **hovedprogrammet** nederst.\n- Unngå å **gjenta** kode – lag heller en funksjon.\n\n## Kommentarer\n\n**Kommentarer** starter med # i Python og ignoreres av datamaskinen. Gode kommentarer forklarer **hvorfor** koden gjør noe, ikke bare **hva**. En **docstring** øverst i en funksjon beskriver hva den gjør, hvilke parametere den tar og hva den returnerer.\n\n## Feilsøking\n\n- **Syntaksfeil**: koden bryter språkets regler, for eksempel en manglende parentes.\n- **Kjøretidsfeil**: programmet krasjer, for eksempel ved deling på null.\n- **Logiske feil**: programmet kjører, men gir feil svar.\n\nFinn feil ved å lese **feilmeldingen**, legge inn **print** for å se verdiene underveis, bruke en **debugger** og **teste** funksjonene med verdier der du vet svaret.\n\n## Utforske andres kode\n\nNår du leser kode du ikke har skrevet, kan du **forutsi** hva den gjør, **kjøre** den, **endre** litt og se hva som skjer – og legge inn egne kommentarer.",
   "flashcards": [
-    { "term": "Variabel", "def": "Navngitt lagringsplass for en verdi." },
-    { "term": "Datatyper", "def": "int, float, str, bool og lister." },
-    { "term": "if / elif / else", "def": "Betingelser som velger mellom veier." },
-    { "term": "for-løkke", "def": "Gjentar et kjent antall ganger eller for hvert element." },
-    { "term": "while-løkke", "def": "Gjentar så lenge en betingelse er sann." },
-    { "term": "Funksjon", "def": "Navngitt kodeblokk som kan gjenbrukes." },
-    { "term": "Parameter", "def": "Verdi funksjonen får inn." },
-    { "term": "Returverdi", "def": "Resultat funksjonen sender tilbake med return." },
-    { "term": "print og return", "def": "print viser, return gir verdien tilbake til programmet." },
-    { "term": "Lokal variabel", "def": "Finnes bare inne i funksjonen." },
-    { "term": "Kommentar i Python", "def": "Starter med # og ignoreres ved kjøring." },
-    { "term": "Docstring", "def": "Beskrivelse øverst i en funksjon." },
-    { "term": "Syntaksfeil", "def": "Koden bryter språkets regler." },
-    { "term": "Logisk feil", "def": "Programmet kjører, men gir feil svar." },
-    { "term": "Debugger", "def": "Verktøy for å gå gjennom koden steg for steg." }
+    {
+      "term": "Variabel",
+      "def": "Navngitt lagringsplass for en verdi."
+    },
+    {
+      "term": "Datatyper",
+      "def": "int, float, str, bool og lister."
+    },
+    {
+      "term": "if / elif / else",
+      "def": "Betingelser som velger mellom veier."
+    },
+    {
+      "term": "for-løkke",
+      "def": "Gjentar et kjent antall ganger eller for hvert element."
+    },
+    {
+      "term": "while-løkke",
+      "def": "Gjentar så lenge en betingelse er sann."
+    },
+    {
+      "term": "Funksjon",
+      "def": "Navngitt kodeblokk som kan gjenbrukes."
+    },
+    {
+      "term": "Parameter",
+      "def": "Verdi funksjonen får inn."
+    },
+    {
+      "term": "Returverdi",
+      "def": "Resultat funksjonen sender tilbake med return."
+    },
+    {
+      "term": "print og return",
+      "def": "print viser, return gir verdien tilbake til programmet."
+    },
+    {
+      "term": "Lokal variabel",
+      "def": "Finnes bare inne i funksjonen."
+    },
+    {
+      "term": "Kommentar i Python",
+      "def": "Starter med # og ignoreres ved kjøring."
+    },
+    {
+      "term": "Docstring",
+      "def": "Beskrivelse øverst i en funksjon."
+    },
+    {
+      "term": "Syntaksfeil",
+      "def": "Koden bryter språkets regler."
+    },
+    {
+      "term": "Logisk feil",
+      "def": "Programmet kjører, men gir feil svar."
+    },
+    {
+      "term": "Debugger",
+      "def": "Verktøy for å gå gjennom koden steg for steg."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er forskjellen på print og return i en funksjon?", "options": ["Det er det samme", "print viser noe på skjermen, return gir verdien tilbake til programmet", "return viser noe på skjermen", "print avslutter programmet"], "correct": 1, "explain": "En returverdi kan brukes videre." },
-    { "id": "q02", "text": "Hva er en parameter?", "options": ["En verdi funksjonen får inn", "En kommentar", "En feil", "En løkke"], "correct": 0, "explain": "For eksempel navn i hils_på(navn)." },
-    { "id": "q03", "text": "Hva returnerer areal_sirkel(2) omtrent?", "options": ["6,28", "4", "12,57", "3,14"], "correct": 2, "explain": "3,14159 · 2²." },
-    { "id": "q04", "text": "Hva kjennetegner en lokal variabel?", "options": ["Den kan brukes overalt i programmet", "Den er alltid et tall", "Den lagres på tjeneren", "Den finnes bare inne i funksjonen der den lages"], "correct": 3, "explain": "Det hindrer at funksjoner påvirker hverandre." },
-    { "id": "q05", "text": "Hvilken løkke passer når du ikke vet hvor mange ganger den skal gå?", "options": ["while-løkke", "for-løkke over en liste med kjent lengde", "if-setning", "En funksjon uten parametere"], "correct": 0, "explain": "Den går så lenge betingelsen er sann." },
-    { "id": "q06", "text": "Hva er en logisk feil?", "options": ["En manglende parentes", "At programmet kjører, men gir feil svar", "At programmet ikke starter", "En feilstavet kommentar"], "correct": 1, "explain": "Den er ofte vanskeligst å finne." },
-    { "id": "q07", "text": "Hva bør gode kommentarer forklare?", "options": ["Hver eneste linje", "Ingenting", "Hvorfor koden gjør noe", "Hvem som skrev koden"], "correct": 2, "explain": "Koden viser ofte selv hva den gjør." },
-    { "id": "q08", "text": "Hva returnerer karakter(80, 100)?", "options": ["6", "4", "80", "5"], "correct": 3, "explain": "80 % er minst 75, men under 90." },
-    { "id": "q09", "text": "Hvorfor bør du dele et program i små funksjoner?", "options": ["Det gjør koden lettere å lese, teste og gjenbruke", "Det gjør programmet tregere", "Det er påbudt i Python", "Det fjerner alle feil"], "correct": 0, "explain": "Hver funksjon bør gjøre én ting." },
-    { "id": "q10", "text": "Hvordan starter en kommentar i Python?", "options": ["//", "#", "<!--", "/*"], "correct": 1, "explain": "// brukes i JavaScript." }
+    {
+      "id": "q01",
+      "text": "Hva er forskjellen på print og return i en funksjon?",
+      "options": [
+        "Det er det samme",
+        "print viser noe på skjermen, return gir verdien tilbake til programmet",
+        "return viser noe på skjermen",
+        "print avslutter programmet"
+      ],
+      "correct": 1,
+      "explain": "En returverdi kan brukes videre."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er en parameter?",
+      "options": [
+        "En verdi funksjonen får inn",
+        "En kommentar",
+        "En feil",
+        "En løkke"
+      ],
+      "correct": 0,
+      "explain": "For eksempel navn i hils_på(navn)."
+    },
+    {
+      "id": "q03",
+      "text": "Hva returnerer areal_sirkel(2) omtrent?",
+      "options": [
+        "6,28",
+        "4",
+        "12,57",
+        "3,14"
+      ],
+      "correct": 2,
+      "explain": "3,14159 · 2²."
+    },
+    {
+      "id": "q04",
+      "text": "Hva kjennetegner en lokal variabel?",
+      "options": [
+        "Den kan brukes overalt i programmet",
+        "Den er alltid et tall",
+        "Den lagres på tjeneren",
+        "Den finnes bare inne i funksjonen der den lages"
+      ],
+      "correct": 3,
+      "explain": "Det hindrer at funksjoner påvirker hverandre."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken løkke passer når du ikke vet hvor mange ganger den skal gå?",
+      "options": [
+        "while-løkke",
+        "for-løkke over en liste med kjent lengde",
+        "if-setning",
+        "En funksjon uten parametere"
+      ],
+      "correct": 0,
+      "explain": "Den går så lenge betingelsen er sann."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en logisk feil?",
+      "options": [
+        "En manglende parentes",
+        "At programmet kjører, men gir feil svar",
+        "At programmet ikke starter",
+        "En feilstavet kommentar"
+      ],
+      "correct": 1,
+      "explain": "Den er ofte vanskeligst å finne."
+    },
+    {
+      "id": "q07",
+      "text": "Hva bør gode kommentarer forklare?",
+      "options": [
+        "Hver eneste linje",
+        "Ingenting",
+        "Hvorfor koden gjør noe",
+        "Hvem som skrev koden"
+      ],
+      "correct": 2,
+      "explain": "Koden viser ofte selv hva den gjør."
+    },
+    {
+      "id": "q08",
+      "text": "Hva returnerer karakter(80, 100)?",
+      "options": [
+        "6",
+        "4",
+        "80",
+        "5"
+      ],
+      "correct": 3,
+      "explain": "80 % er minst 75, men under 90."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor bør du dele et program i små funksjoner?",
+      "options": [
+        "Det gjør koden lettere å lese, teste og gjenbruke",
+        "Det gjør programmet tregere",
+        "Det er påbudt i Python",
+        "Det fjerner alle feil"
+      ],
+      "correct": 0,
+      "explain": "Hver funksjon bør gjøre én ting."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan starter en kommentar i Python?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "/*"
+      ],
+      "correct": 1,
+      "explain": "// brukes i JavaScript."
+    }
   ],
   "mindmap": {
     "label": "Programmering med funksjoner",
     "children": [
-      { "label": "Grunnelementer", "children": [
-        { "label": "Variabler og typer" },
-        { "label": "Betingelser" },
-        { "label": "Løkker" }
-      ] },
-      { "label": "Funksjoner", "children": [
-        { "label": "Uten parametere" },
-        { "label": "Med parametere" },
-        { "label": "Med returverdi" }
-      ] },
-      { "label": "Omfang", "children": [
-        { "label": "Lokale variabler" },
-        { "label": "Unngå globale" }
-      ] },
-      { "label": "Struktur", "children": [
-        { "label": "Små funksjoner" },
-        { "label": "Beskrivende navn" },
-        { "label": "Kommentarer og docstring" }
-      ] },
-      { "label": "Feilsøking", "children": [
-        { "label": "Syntaks-, kjøretids- og logiske feil" },
-        { "label": "print og debugger" },
-        { "label": "Testing" }
-      ] }
+      {
+        "label": "Grunnelementer",
+        "children": [
+          {
+            "label": "Variabler og typer"
+          },
+          {
+            "label": "Betingelser"
+          },
+          {
+            "label": "Løkker"
+          }
+        ]
+      },
+      {
+        "label": "Funksjoner",
+        "children": [
+          {
+            "label": "Uten parametere"
+          },
+          {
+            "label": "Med parametere"
+          },
+          {
+            "label": "Med returverdi"
+          }
+        ]
+      },
+      {
+        "label": "Omfang",
+        "children": [
+          {
+            "label": "Lokale variabler"
+          },
+          {
+            "label": "Unngå globale"
+          }
+        ]
+      },
+      {
+        "label": "Struktur",
+        "children": [
+          {
+            "label": "Små funksjoner"
+          },
+          {
+            "label": "Beskrivende navn"
+          },
+          {
+            "label": "Kommentarer og docstring"
+          }
+        ]
+      },
+      {
+        "label": "Feilsøking",
+        "children": [
+          {
+            "label": "Syntaks-, kjøretids- og logiske feil"
+          },
+          {
+            "label": "print og debugger"
+          },
+          {
+            "label": "Testing"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En funksjon kan ha flere parametere.", "correct": true, "explain": "For eksempel karakter(poeng, maks)." },
-      { "id": "m02", "type": "sant-usant", "text": "Kommentarer påvirker hvordan programmet kjører.", "correct": false, "explain": "De ignoreres av datamaskinen." },
-      { "id": "m03", "type": "sant-usant", "text": "Deling på null kan gi en kjøretidsfeil.", "correct": true, "explain": "Programmet krasjer." },
-      { "id": "m04", "type": "sant-usant", "text": "Det er god praksis å kopiere den samme koden mange steder i stedet for å lage en funksjon.", "correct": false, "explain": "Gjentatt kode bør samles i en funksjon." },
-      { "id": "m05", "type": "flervalg", "text": "Hva skriver dette ut: for i in range(3): print(i)?", "options": ["1 2 3", "0 1 2", "0 1 2 3", "3"], "correct": 1, "explain": "range(3) gir 0, 1 og 2." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket funksjonsnavn er mest beskrivende?", "options": ["beregn_snitt", "f2", "x", "gjør"], "correct": 0, "explain": "Navnet forteller hva funksjonen gjør." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken datatype har verdien True?", "options": ["int", "str", "bool", "float"], "correct": 2, "explain": "Sannhetsverdi." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En funksjon kan ha flere parametere.",
+        "correct": true,
+        "explain": "For eksempel karakter(poeng, maks)."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kommentarer påvirker hvordan programmet kjører.",
+        "correct": false,
+        "explain": "De ignoreres av datamaskinen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Deling på null kan gi en kjøretidsfeil.",
+        "correct": true,
+        "explain": "Programmet krasjer."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det er god praksis å kopiere den samme koden mange steder i stedet for å lage en funksjon.",
+        "correct": false,
+        "explain": "Gjentatt kode bør samles i en funksjon."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva skriver dette ut: for i in range(3): print(i)?",
+        "options": [
+          "1 2 3",
+          "0 1 2",
+          "0 1 2 3",
+          "3"
+        ],
+        "correct": 1,
+        "explain": "range(3) gir 0, 1 og 2."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket funksjonsnavn er mest beskrivende?",
+        "options": [
+          "beregn_snitt",
+          "f2",
+          "x",
+          "gjør"
+        ],
+        "correct": 0,
+        "explain": "Navnet forteller hva funksjonen gjør."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken datatype har verdien True?",
+        "options": [
+          "int",
+          "str",
+          "bool",
+          "float"
+        ],
+        "correct": 2,
+        "explain": "Sannhetsverdi."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Se på Python-koden:\n```python\ndef hils():\n    print(\"Hei og velkommen!\")\n\nhils()\n```\nForklar hva funksjonsdefinisjonen gjør, og hva som skjer når `hils()` kjøres.",
+        "fasit": "Definisjonen lager en navngitt kodeblokk som heter `hils`, og instruksjonen inni den skriver en hilsen. Når `hils()` kjøres, utføres kodeblokken.",
+        "kriterier": [
+          "Forklarer at definisjonen lager en navngitt funksjon eller kodeblokk.",
+          "Forklarer at funksjonskallet utfører instruksjonene i funksjonen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Funksjonen `hils_på(navn)` kan brukes med ulike navn, for eksempel `hils_på(\"Ida\")` eller `hils_på(\"Ali\")`. Forklar hvordan funksjonen kan hilse på ulike personer uten at kodeblokken må skrives på nytt for hvert navn.",
+        "fasit": "Navnet sendes inn når funksjonen kalles, og funksjonen bruker den innsendte verdien i hilsenen. Dermed kan den samme funksjonen brukes med forskjellige navn.",
+        "kriterier": [
+          "Forklarer at navnet sendes inn til funksjonen når den kalles.",
+          "Forklarer at samme kodeblokk kan brukes med ulike navn."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et program bruker globale variabler for å dele verdier mellom flere funksjoner. Forklar hvorfor det kan være bedre å sende verdier inn som parametere og sende resultater ut med `return`.",
+        "fasit": "Globale variabler kan gjøre at funksjoner påvirker hverandre. Med parametere og `return` får funksjonene verdiene de trenger og sender resultater tilbake uten å være avhengige av globale variabler.",
+        "kriterier": [
+          "Forklarer at globale variabler kan føre til at funksjoner påvirker hverandre.",
+          "Forklarer at parametere og `return` kan brukes til å sende verdier inn og resultater ut."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Se på de to feilene: (1) En funksjon mangler en avsluttende parentes, slik at koden bryter Python-reglene. (2) Programmet prøver å dele på null og krasjer. Forklar hvilken type feil hvert tilfelle er.",
+        "fasit": "Den manglende parentesen er en syntaksfeil fordi koden bryter språkets regler. Deling på null som får programmet til å krasje, er en kjøretidsfeil.",
+        "kriterier": [
+          "Kaller den manglende parentesen en syntaksfeil og knytter det til brudd på språkreglene.",
+          "Kaller krasj ved deling på null en kjøretidsfeil."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et program kjører, men gir feil svar fra en funksjon. Beskriv én måte du kan undersøke hva som går galt, og hvordan du kan sjekke om funksjonen gir riktig svar etterpå.",
+        "fasit": "Jeg kan legge inn `print`-instruksjoner for å se verdiene underveis eller gå gjennom koden med en debugger. Deretter kan jeg teste funksjonen med verdier der jeg allerede vet hva svaret skal være.",
+        "kriterier": [
+          "Nevner en relevant undersøkelsesmetode, for eksempel `print` underveis eller debugger.",
+          "Forklarer at funksjonen bør testes med verdier der riktig svar er kjent."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Du skal skrive en docstring for en funksjon som tar inn to verdier og returnerer et resultat. Hva bør docstringen beskrive?",
+        "fasit": "Docstringen bør beskrive hva funksjonen gjør, hvilke parametere den tar inn, og hva den returnerer.",
+        "kriterier": [
+          "Nevner hva funksjonen gjør.",
+          "Nevner både parameterne og verdien funksjonen returnerer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En funksjon som beregner et snitt, heter `f2`. Foreslå et mer beskrivende navn og forklar hvorfor det er bedre.",
+        "fasit": "Et bedre navn er `beregn_snitt`. Det beskriver hva funksjonen gjør og gjør koden lettere å forstå.",
+        "kriterier": [
+          "Foreslår et navn som tydelig beskriver at funksjonen beregner et snitt.",
+          "Forklarer at beskrivende navn gjør koden lettere å forstå eller lese."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du oppdager at den samme kodeblokken er skrevet flere steder i et program. Beskriv en endring du kan gjøre for å unngå gjentakelsen, og hvordan programmet bruker koden etter endringen.",
+        "fasit": "Jeg kan samle kodeblokken i en funksjon og gi funksjonen et beskrivende navn. Der den samme koden trengs, kan programmet kalle funksjonen i stedet for å gjenta kodeblokken.",
+        "kriterier": [
+          "Foreslår å samle den gjentatte koden i en funksjon.",
+          "Forklarer at funksjonen kan kalles flere steder der koden trengs."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

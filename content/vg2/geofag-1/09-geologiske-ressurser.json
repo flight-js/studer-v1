@@ -4,81 +4,434 @@
   "trinnId": "vg2",
   "name": "Geologiske ressurser",
   "intro": "Hvordan malmer, industrimineraler, byggeråstoffer, olje og gass dannes, hvordan de kartlegges og utvinnes i Norge og verden – og hvilke konsekvenser utvinningen har i et bærekraftsperspektiv.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Typer geologiske ressurser\n\n- **Metaller** fra **malm** – bergart med så mye av et metall at det lønner seg å utvinne det: jern, kobber, nikkel, sink, gull og **sjeldne jordartsmetaller**.\n- **Industrimineraler**: kalk, kvarts, olivin, grafitt og nefelinsyenitt, som brukes i blant annet stål, glass, papir og elektronikk.\n- **Byggeråstoffer**: **sand**, **grus** og **pukk**. Målt i tonn er dette den største geologiske ressursen vi bruker.\n- **Naturstein**: for eksempel larvikitt og skifer.\n- **Energiressurser**: **olje**, **gass**, **kull** og **uran**, i tillegg til **jordvarme**.\n- **Grunnvann**.\n\n## Hvordan ressursene dannes\n\n- **Magmatiske prosesser**: Når magma avkjøles, kan tunge mineraler samles i egne lag, for eksempel nikkel og krom.\n- **Varme væsker** (hydrotermale løsninger) sirkulerer i sprekker og feller ut metaller som kobber, sink og gull i **ganger**.\n- **Sedimentære prosesser** kan samle tunge mineraler i elvesand, eller danne kull av plantemateriale.\n- **Olje og gass** dannes av **organisk materiale**, som plankton, som blir begravd i finkornede sedimenter. Ved temperaturer på rundt **60–120 °C** omdannes det til olje. Oljen og gassen **vandrer** oppover til en porøs **reservoarbergart**, som sandstein, og blir fanget under en tett **takbergart** i en **felle**.\n\n## Kartlegging\n\n- **Geologiske kart** over berggrunn og løsmasser, som hos **NGU**.\n- **Geofysiske målinger** fra fly, skip eller bakken: magnetiske målinger, tyngdemålinger og **seismikk**, der lydbølger sendes ned og reflekteres fra lagene. Seismikk er viktigst i leting etter olje og gass.\n- **Geokjemiske analyser** av stein, jord og bekkesand.\n- **Boring** med **kjerneprøver** som bekrefter hva som finnes.\n\n## Utvinning\n\nMalm og mineraler hentes ut i **dagbrudd** eller **gruver** under jorda. Malmen **knuses** og **oppredes**, slik at de verdifulle mineralene skilles fra resten. Olje og gass hentes ut med brønner fra **plattformer** eller **havbunnsanlegg**.\n\n## Norge\n\n- **Olje og gass** fra norsk sokkel har siden 1970-tallet vært Norges viktigste eksportvare og har finansiert **Statens pensjonsfond utland**.\n- Norge har lang **gruvehistorie**, som kobberverket på **Røros** og sølvverket på **Kongsberg**.\n- **Fensfeltet** i Telemark har store forekomster av **sjeldne jordartsmetaller**, som trengs i magneter til vindturbiner og elbiler. Det planlegges gruvedrift, men den er ikke startet ennå.\n- Det tas også ut mye **pukk** og **grus**, og Norge eksporterer blant annet pukk og industrimineraler.\n\n## Konsekvenser og bærekraft\n\n**Fordeler**: arbeidsplasser, inntekter og råstoffer til samfunnet. Mange metaller er nødvendige for **det grønne skiftet** – til batterier, solceller, vindturbiner og strømnett.\n\n**Ulemper**:\n\n- **naturinngrep** i leveområder og landskap\n- **gruveavfall**; plassering i sjø (sjødeponi) eller på land er ofte omstridt\n- **avrenning** av tungmetaller og syre fra gamle gruver\n- konflikt med **reindrift**, **friluftsliv** og **fiske**\n- **klimagassutslipp** når fossile brensler brennes\n\nTiltak for mer bærekraftig bruk er **gjenvinning** av metaller (**sirkulærøkonomi**), mindre avfall, strenge **miljøkrav**, god **arealplanlegging** og at lokalsamfunn og samiske interesser blir hørt.",
   "flashcards": [
-    { "term": "Malm", "def": "Bergart med nok metall til at det lønner seg å utvinne." },
-    { "term": "Industrimineraler", "def": "Mineraler som kalk, kvarts og olivin brukt i industrien." },
-    { "term": "Byggeråstoffer", "def": "Sand, grus og pukk – største ressurs målt i tonn." },
-    { "term": "Hydrotermale løsninger", "def": "Varme væsker som feller ut metaller i sprekker." },
-    { "term": "Reservoarbergart", "def": "Porøs bergart der olje og gass samles, som sandstein." },
-    { "term": "Takbergart", "def": "Tett bergart som hindrer olje og gass i å lekke opp." },
-    { "term": "Felle", "def": "Struktur der olje og gass fanges." },
-    { "term": "Oljevinduet", "def": "Omtrent 60–120 °C, der organisk materiale blir til olje." },
-    { "term": "Seismikk", "def": "Lydbølger som kartlegger lagene i undergrunnen." },
-    { "term": "Kjerneprøve", "def": "Borekjerne som viser hva som finnes i dypet." },
-    { "term": "Dagbrudd", "def": "Utvinning i et åpent brudd på overflaten." },
-    { "term": "Oppredning", "def": "Å skille verdifulle mineraler fra resten av malmen." },
-    { "term": "Sjeldne jordartsmetaller", "def": "Metaller til magneter i vindturbiner og elbiler, funnet blant annet i Fensfeltet." },
-    { "term": "Sjødeponi", "def": "Plassering av gruveavfall i sjøen – ofte omstridt." },
-    { "term": "Sirkulærøkonomi", "def": "Gjenbruk og gjenvinning av materialer." }
+    {
+      "term": "Malm",
+      "def": "Bergart med nok metall til at det lønner seg å utvinne."
+    },
+    {
+      "term": "Industrimineraler",
+      "def": "Mineraler som kalk, kvarts og olivin brukt i industrien."
+    },
+    {
+      "term": "Byggeråstoffer",
+      "def": "Sand, grus og pukk – største ressurs målt i tonn."
+    },
+    {
+      "term": "Hydrotermale løsninger",
+      "def": "Varme væsker som feller ut metaller i sprekker."
+    },
+    {
+      "term": "Reservoarbergart",
+      "def": "Porøs bergart der olje og gass samles, som sandstein."
+    },
+    {
+      "term": "Takbergart",
+      "def": "Tett bergart som hindrer olje og gass i å lekke opp."
+    },
+    {
+      "term": "Felle",
+      "def": "Struktur der olje og gass fanges."
+    },
+    {
+      "term": "Oljevinduet",
+      "def": "Omtrent 60–120 °C, der organisk materiale blir til olje."
+    },
+    {
+      "term": "Seismikk",
+      "def": "Lydbølger som kartlegger lagene i undergrunnen."
+    },
+    {
+      "term": "Kjerneprøve",
+      "def": "Borekjerne som viser hva som finnes i dypet."
+    },
+    {
+      "term": "Dagbrudd",
+      "def": "Utvinning i et åpent brudd på overflaten."
+    },
+    {
+      "term": "Oppredning",
+      "def": "Å skille verdifulle mineraler fra resten av malmen."
+    },
+    {
+      "term": "Sjeldne jordartsmetaller",
+      "def": "Metaller til magneter i vindturbiner og elbiler, funnet blant annet i Fensfeltet."
+    },
+    {
+      "term": "Sjødeponi",
+      "def": "Plassering av gruveavfall i sjøen – ofte omstridt."
+    },
+    {
+      "term": "Sirkulærøkonomi",
+      "def": "Gjenbruk og gjenvinning av materialer."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er malm?", "options": ["All stein i en gruve", "Bergart med nok metall til at det lønner seg å utvinne", "Et industrimineral", "Olje i berggrunnen"], "correct": 1, "explain": "Om noe er malm, avhenger også av prisen." },
-    { "id": "q02", "text": "Hvilken geologisk ressurs brukes mest målt i tonn?", "options": ["Sand, grus og pukk", "Gull", "Kobber", "Uran"], "correct": 0, "explain": "Til veier, betong og bygg." },
-    { "id": "q03", "text": "Hvor samles olje og gass?", "options": ["I takbergarten", "I granitt", "I en porøs reservoarbergart under en tett takbergart", "I morene"], "correct": 2, "explain": "Fanget i en felle." },
-    { "id": "q04", "text": "Hvilken metode er viktigst i leting etter olje og gass?", "options": ["Syretest", "Skuringsstriper", "Radiometrisk datering", "Seismikk"], "correct": 3, "explain": "Lydbølger reflekteres fra lagene." },
-    { "id": "q05", "text": "Hva dannes olje av?", "options": ["Organisk materiale som plankton", "Magma", "Kalkstein", "Vulkansk aske"], "correct": 0, "explain": "Det omdannes ved 60–120 °C." },
-    { "id": "q06", "text": "Hvorfor er Fensfeltet i Telemark interessant?", "options": ["Det har mye olje", "Det har store forekomster av sjeldne jordartsmetaller", "Det er Norges største grusforekomst", "Det har mye gull"], "correct": 1, "explain": "Viktig for det grønne skiftet." },
-    { "id": "q07", "text": "Hva er en miljøulempe ved gamle gruver?", "options": ["De gir for mye grunnvann", "De hindrer skred", "Avrenning av tungmetaller og syre", "De gir mer skog"], "correct": 2, "explain": "Som ved enkelte gamle kobbergruver." },
-    { "id": "q08", "text": "Hvorfor trengs mer mineralutvinning i det grønne skiftet?", "options": ["For å brenne mer kull", "For å lage mer plast", "For å bygge flere oljeplattformer", "Batterier, vindturbiner og strømnett krever mange metaller"], "correct": 3, "explain": "Gjenvinning kan dekke noe av behovet." },
-    { "id": "q09", "text": "Hva er en kjerneprøve?", "options": ["En borekjerne som viser hva som finnes i dypet", "En prøve fra jordas kjerne", "En seismisk måling", "En vannprøve"], "correct": 0, "explain": "Den bekrefter tolkningene." },
-    { "id": "q10", "text": "Hva er et tiltak for mer bærekraftig bruk av metaller?", "options": ["Mer engangsbruk", "Gjenvinning og sirkulærøkonomi", "Flere sjødeponier", "Mindre miljøkrav"], "correct": 1, "explain": "Metaller kan brukes om igjen mange ganger." }
+    {
+      "id": "q01",
+      "text": "Hva er malm?",
+      "options": [
+        "All stein i en gruve",
+        "Bergart med nok metall til at det lønner seg å utvinne",
+        "Et industrimineral",
+        "Olje i berggrunnen"
+      ],
+      "correct": 1,
+      "explain": "Om noe er malm, avhenger også av prisen."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken geologisk ressurs brukes mest målt i tonn?",
+      "options": [
+        "Sand, grus og pukk",
+        "Gull",
+        "Kobber",
+        "Uran"
+      ],
+      "correct": 0,
+      "explain": "Til veier, betong og bygg."
+    },
+    {
+      "id": "q03",
+      "text": "Hvor samles olje og gass?",
+      "options": [
+        "I takbergarten",
+        "I granitt",
+        "I en porøs reservoarbergart under en tett takbergart",
+        "I morene"
+      ],
+      "correct": 2,
+      "explain": "Fanget i en felle."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken metode er viktigst i leting etter olje og gass?",
+      "options": [
+        "Syretest",
+        "Skuringsstriper",
+        "Radiometrisk datering",
+        "Seismikk"
+      ],
+      "correct": 3,
+      "explain": "Lydbølger reflekteres fra lagene."
+    },
+    {
+      "id": "q05",
+      "text": "Hva dannes olje av?",
+      "options": [
+        "Organisk materiale som plankton",
+        "Magma",
+        "Kalkstein",
+        "Vulkansk aske"
+      ],
+      "correct": 0,
+      "explain": "Det omdannes ved 60–120 °C."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor er Fensfeltet i Telemark interessant?",
+      "options": [
+        "Det har mye olje",
+        "Det har store forekomster av sjeldne jordartsmetaller",
+        "Det er Norges største grusforekomst",
+        "Det har mye gull"
+      ],
+      "correct": 1,
+      "explain": "Viktig for det grønne skiftet."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en miljøulempe ved gamle gruver?",
+      "options": [
+        "De gir for mye grunnvann",
+        "De hindrer skred",
+        "Avrenning av tungmetaller og syre",
+        "De gir mer skog"
+      ],
+      "correct": 2,
+      "explain": "Som ved enkelte gamle kobbergruver."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor trengs mer mineralutvinning i det grønne skiftet?",
+      "options": [
+        "For å brenne mer kull",
+        "For å lage mer plast",
+        "For å bygge flere oljeplattformer",
+        "Batterier, vindturbiner og strømnett krever mange metaller"
+      ],
+      "correct": 3,
+      "explain": "Gjenvinning kan dekke noe av behovet."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en kjerneprøve?",
+      "options": [
+        "En borekjerne som viser hva som finnes i dypet",
+        "En prøve fra jordas kjerne",
+        "En seismisk måling",
+        "En vannprøve"
+      ],
+      "correct": 0,
+      "explain": "Den bekrefter tolkningene."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et tiltak for mer bærekraftig bruk av metaller?",
+      "options": [
+        "Mer engangsbruk",
+        "Gjenvinning og sirkulærøkonomi",
+        "Flere sjødeponier",
+        "Mindre miljøkrav"
+      ],
+      "correct": 1,
+      "explain": "Metaller kan brukes om igjen mange ganger."
+    }
   ],
   "mindmap": {
     "label": "Geologiske ressurser",
     "children": [
-      { "label": "Typer", "children": [
-        { "label": "Metaller og malm" },
-        { "label": "Industrimineraler" },
-        { "label": "Sand, grus, pukk" },
-        { "label": "Olje, gass, kull" }
-      ] },
-      { "label": "Dannelse", "children": [
-        { "label": "Magmatisk" },
-        { "label": "Hydrotermal" },
-        { "label": "Sedimentær" },
-        { "label": "Reservoar og felle" }
-      ] },
-      { "label": "Kartlegging", "children": [
-        { "label": "Geologiske kart" },
-        { "label": "Seismikk og geofysikk" },
-        { "label": "Boring" }
-      ] },
-      { "label": "Norge", "children": [
-        { "label": "Norsk sokkel" },
-        { "label": "Røros og Kongsberg" },
-        { "label": "Fensfeltet" }
-      ] },
-      { "label": "Bærekraft", "children": [
-        { "label": "Grønt skifte" },
-        { "label": "Avfall og avrenning" },
-        { "label": "Gjenvinning" }
-      ] }
+      {
+        "label": "Typer",
+        "children": [
+          {
+            "label": "Metaller og malm"
+          },
+          {
+            "label": "Industrimineraler"
+          },
+          {
+            "label": "Sand, grus, pukk"
+          },
+          {
+            "label": "Olje, gass, kull"
+          }
+        ]
+      },
+      {
+        "label": "Dannelse",
+        "children": [
+          {
+            "label": "Magmatisk"
+          },
+          {
+            "label": "Hydrotermal"
+          },
+          {
+            "label": "Sedimentær"
+          },
+          {
+            "label": "Reservoar og felle"
+          }
+        ]
+      },
+      {
+        "label": "Kartlegging",
+        "children": [
+          {
+            "label": "Geologiske kart"
+          },
+          {
+            "label": "Seismikk og geofysikk"
+          },
+          {
+            "label": "Boring"
+          }
+        ]
+      },
+      {
+        "label": "Norge",
+        "children": [
+          {
+            "label": "Norsk sokkel"
+          },
+          {
+            "label": "Røros og Kongsberg"
+          },
+          {
+            "label": "Fensfeltet"
+          }
+        ]
+      },
+      {
+        "label": "Bærekraft",
+        "children": [
+          {
+            "label": "Grønt skifte"
+          },
+          {
+            "label": "Avfall og avrenning"
+          },
+          {
+            "label": "Gjenvinning"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Olje og gass har vært Norges viktigste eksportvare siden 1970-tallet.", "correct": true, "explain": "Inntektene går til Statens pensjonsfond utland." },
-      { "id": "m02", "type": "sant-usant", "text": "Takbergarten må være porøs slik at oljen kan lekke opp.", "correct": false, "explain": "Takbergarten må være tett for å fange oljen." },
-      { "id": "m03", "type": "sant-usant", "text": "Røros er kjent for gammel kobbergruvedrift.", "correct": true, "explain": "Kobberverket drev i flere hundre år." },
-      { "id": "m04", "type": "sant-usant", "text": "Gruvedrift kan aldri komme i konflikt med reindrift.", "correct": false, "explain": "Gruver kan ta viktige beiteområder." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr oppredning?", "options": ["Å bore etter olje", "Å skille verdifulle mineraler fra resten av malmen", "Å lage kart", "Å deponere avfall"], "correct": 1, "explain": "Etter knusing." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken bergart er en typisk reservoarbergart?", "options": ["Sandstein", "Leirskifer", "Granitt", "Marmor"], "correct": 0, "explain": "Den har mange porer." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er sjødeponi?", "options": ["En oljeplattform", "En havn for malmskip", "Plassering av gruveavfall i sjøen", "Et havbunnsanlegg for gass"], "correct": 2, "explain": "Det er ofte omstridt." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Olje og gass har vært Norges viktigste eksportvare siden 1970-tallet.",
+        "correct": true,
+        "explain": "Inntektene går til Statens pensjonsfond utland."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Takbergarten må være porøs slik at oljen kan lekke opp.",
+        "correct": false,
+        "explain": "Takbergarten må være tett for å fange oljen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Røros er kjent for gammel kobbergruvedrift.",
+        "correct": true,
+        "explain": "Kobberverket drev i flere hundre år."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Gruvedrift kan aldri komme i konflikt med reindrift.",
+        "correct": false,
+        "explain": "Gruver kan ta viktige beiteområder."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr oppredning?",
+        "options": [
+          "Å bore etter olje",
+          "Å skille verdifulle mineraler fra resten av malmen",
+          "Å lage kart",
+          "Å deponere avfall"
+        ],
+        "correct": 1,
+        "explain": "Etter knusing."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken bergart er en typisk reservoarbergart?",
+        "options": [
+          "Sandstein",
+          "Leirskifer",
+          "Granitt",
+          "Marmor"
+        ],
+        "correct": 0,
+        "explain": "Den har mange porer."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er sjødeponi?",
+        "options": [
+          "En oljeplattform",
+          "En havn for malmskip",
+          "Plassering av gruveavfall i sjøen",
+          "Et havbunnsanlegg for gass"
+        ],
+        "correct": 2,
+        "explain": "Det er ofte omstridt."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Varme væsker kan sirkulere i sprekker i berggrunnen. Forklar hvordan slike hydrotermale løsninger kan danne metallforekomster.",
+        "fasit": "De varme væskene beveger seg gjennom sprekker og feller ut metaller når forholdene endres. Metallene kan dermed samle seg i ganger i berggrunnen.",
+        "kriterier": [
+          "Forklarer at varme væsker sirkulerer i sprekker.",
+          "Forklarer at væskene feller ut metaller, som samles i ganger."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign dagbrudd med utvinning i en gruve under jorda.",
+        "fasit": "Et dagbrudd er et åpent brudd på overflaten, mens en gruve under jorda henter ut malm eller mineraler fra dypet.",
+        "kriterier": [
+          "Beskriver dagbrudd som utvinning i et åpent brudd på overflaten.",
+          "Skiller dette fra utvinning i en gruve under jorda."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et geologisk kart og prøver av bekkesand tyder på at det kan finnes en metallforekomst i dypet. Hvilken metode kan brukes for å bekrefte hva som finnes der, og hva viser prøven?",
+        "fasit": "Man kan bore og ta opp en kjerneprøve. Den viser hvilke bergarter og mineraler som finnes i dypet.",
+        "kriterier": [
+          "Foreslår boring for å undersøke forekomsten.",
+          "Forklarer at kjerneprøven viser hva som finnes i dypet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan olje og gass kan bli fanget i en geologisk felle.",
+        "fasit": "Olje og gass vandrer oppover og samles i en porøs reservoarbergart. En tett takbergart hindrer dem i å lekke videre opp, slik at de blir fanget.",
+        "kriterier": [
+          "Forklarer at olje og gass vandrer oppover og samles i en porøs reservoarbergart.",
+          "Forklarer at en tett takbergart hindrer lekkasje og bidrar til at de fanges."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign seismikk med geokjemiske analyser som metoder for å undersøke mulige geologiske ressurser.",
+        "fasit": "Seismikk bruker lydbølger som reflekteres fra lag i undergrunnen. Geokjemiske analyser undersøker prøver av for eksempel stein, jord eller bekkesand.",
+        "kriterier": [
+          "Forklarer at seismikk bruker lydbølger til å kartlegge lag i undergrunnen.",
+          "Forklarer at geokjemiske analyser undersøker materiale som stein, jord eller bekkesand."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et lokalsamfunn vurderer gruvedrift. Forklar én fordel og én mulig ulempe ved utvinningen, og nevn ett tiltak som kan gjøre den mer bærekraftig.",
+        "fasit": "Gruvedrift kan gi arbeidsplasser og råstoffer, men kan også føre til naturinngrep eller konflikt med for eksempel reindrift og friluftsliv. God arealplanlegging eller strenge miljøkrav kan gjøre utvinningen mer bærekraftig.",
+        "kriterier": [
+          "Nevner en relevant fordel, som arbeidsplasser, inntekter eller råstoffer.",
+          "Nevner en relevant ulempe, som naturinngrep eller konflikt med andre interesser.",
+          "Nevner et relevant tiltak, som arealplanlegging, miljøkrav eller at berørte interesser blir hørt."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Oljevinduet går fra omtrent 60 °C til 120 °C. Hvor stor er temperaturforskjellen mellom grensene? Vis det viktigste regnestykket.",
+        "fasit": "Temperaturforskjellen er 60 °C. Regnestykket er 120 − 60 = 60.",
+        "kriterier": [
+          "Regner ut forskjellen ved å trekke den nedre grensen fra den øvre.",
+          "Oppgir 60 °C."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Oljevinduet går fra omtrent 60 °C til 120 °C. Hvor mange ganger så høy er den øvre temperaturgrensen som den nedre? Vis det viktigste regnestykket.",
+        "fasit": "Den øvre grensen er 2 ganger så høy som den nedre. Regnestykket er 120 ÷ 60 = 2.",
+        "kriterier": [
+          "Deler den øvre temperaturgrensen på den nedre.",
+          "Oppgir at den øvre grensen er 2 ganger så høy."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

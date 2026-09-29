@@ -4,77 +4,421 @@
   "trinnId": "vg1",
   "name": "Proporsjonalitet og omvendt proporsjonalitet",
   "intro": "Proporsjonale og omvendt proporsjonale størrelser i tabeller, formler og grafer, forholdstall, målestokk og blandingsforhold – med eksempler fra hverdag og arbeidsliv.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Proporsjonale størrelser\n\nTo størrelser x og y er **proporsjonale** når **forholdet** mellom dem er **konstant**:\n\ny/x = k, eller **y = k · x**\n\nTallet k kalles **proporsjonalitetskonstanten**. Eksempler:\n\n- Pris og mengde: 3 kg epler koster 90 kr. Da er k = 90/3 = **30 kr/kg**, og 5 kg koster 30 · 5 = **150 kr**.\n- Lønn og timer med fast timelønn.\n- Strekning og tid når farten er konstant.\n\nGrafen til to proporsjonale størrelser er en **rett linje gjennom origo**. Hvis x dobles, dobles også y.\n\n## Omvendt proporsjonale størrelser\n\nTo størrelser er **omvendt proporsjonale** når **produktet** er konstant:\n\nx · y = k, eller **y = k/x**\n\nNår x dobles, **halveres** y. Eksempler:\n\n- Antall arbeidere og tid: 4 personer bruker 6 timer på en jobb, altså 24 arbeidstimer. 8 personer bruker 24/8 = **3 timer** (hvis alle jobber like raskt).\n- Fart og tid på en fast strekning: 120 km tar 2 timer med 60 km/h og 1,5 timer med 80 km/h.\n- Antall personer som deler en regning, og hvor mye hver betaler.\n\nGrafen er en **hyperbel** – en kurve som synker raskt og så flater ut, og som aldri treffer aksene.\n\n## Sjekke en tabell\n\n| x | 1 | 2 | 4 |\n| --- | --- | --- | --- |\n| y | 12 | 6 | 3 |\n\n- Er **y/x** likt for alle par? 12, 3, 0,75 – nei, ikke proporsjonale.\n- Er **x · y** likt for alle par? 12, 12, 12 – ja, **omvendt proporsjonale** med k = 12.\n\nObs: y = 3x + 2 er en lineær sammenheng, men **ikke** proporsjonal, fordi grafen ikke går gjennom origo.\n\n## Forhold og målestokk\n\nEt **forhold** sammenligner to størrelser ved divisjon. **Målestokk** er et forhold mellom avstand på et kart eller en tegning og virkeligheten:\n\nMålestokk **1 : 50 000** betyr at 1 cm på kartet er 50 000 cm = 500 m i virkeligheten. 4 cm på kartet er da 4 · 500 m = **2 km**.\n\n## Blandingsforhold\n\nSaft som blandes i forholdet **1 : 4** betyr 1 del saft og 4 deler vann. Til 2 dl saft trengs 8 dl vann, og det blir 10 dl ferdig saft. Blandingsforhold brukes også for betong, maling, gjødsel og medisiner.\n\n## Hvorfor er dette nyttig?\n\nMange problemer i arbeidslivet handler om proporsjonalitet: å **skalere oppskrifter**, **regne ut materialbehov**, **planlegge bemanning** og **sammenligne priser**. Det viktige er å vurdere om sammenhengen **virkelig** er proporsjonal – for eksempel går ikke en jobb nødvendigvis dobbelt så fort med dobbelt så mange folk hvis de går i veien for hverandre.",
   "flashcards": [
-    { "term": "Proporsjonale størrelser", "def": "Størrelser der forholdet y/x er konstant." },
-    { "term": "y = k · x", "def": "Formel for proporsjonalitet." },
-    { "term": "Proporsjonalitetskonstant", "def": "Tallet k i y = kx eller y = k/x." },
-    { "term": "Graf ved proporsjonalitet", "def": "Rett linje gjennom origo." },
-    { "term": "Omvendt proporsjonale størrelser", "def": "Størrelser der produktet x · y er konstant." },
-    { "term": "y = k/x", "def": "Formel for omvendt proporsjonalitet." },
-    { "term": "Hyperbel", "def": "Grafen til omvendt proporsjonale størrelser." },
-    { "term": "Dobling ved proporsjonalitet", "def": "Når x dobles, dobles y." },
-    { "term": "Dobling ved omvendt proporsjonalitet", "def": "Når x dobles, halveres y." },
-    { "term": "Forhold", "def": "Sammenligning av to størrelser ved divisjon." },
-    { "term": "Målestokk", "def": "Forholdet mellom avstand på kart eller tegning og virkeligheten." },
-    { "term": "1 : 50 000", "def": "1 cm på kartet er 500 m i virkeligheten." },
-    { "term": "Blandingsforhold 1 : 4", "def": "1 del av det ene og 4 deler av det andre." },
-    { "term": "Arbeidstimer", "def": "Antall personer · antall timer – ofte konstant for en jobb." },
-    { "term": "Lineær, men ikke proporsjonal", "def": "y = ax + b med b ≠ 0 – grafen går ikke gjennom origo." }
+    {
+      "term": "Proporsjonale størrelser",
+      "def": "Størrelser der forholdet y/x er konstant."
+    },
+    {
+      "term": "y = k · x",
+      "def": "Formel for proporsjonalitet."
+    },
+    {
+      "term": "Proporsjonalitetskonstant",
+      "def": "Tallet k i y = kx eller y = k/x."
+    },
+    {
+      "term": "Graf ved proporsjonalitet",
+      "def": "Rett linje gjennom origo."
+    },
+    {
+      "term": "Omvendt proporsjonale størrelser",
+      "def": "Størrelser der produktet x · y er konstant."
+    },
+    {
+      "term": "y = k/x",
+      "def": "Formel for omvendt proporsjonalitet."
+    },
+    {
+      "term": "Hyperbel",
+      "def": "Grafen til omvendt proporsjonale størrelser."
+    },
+    {
+      "term": "Dobling ved proporsjonalitet",
+      "def": "Når x dobles, dobles y."
+    },
+    {
+      "term": "Dobling ved omvendt proporsjonalitet",
+      "def": "Når x dobles, halveres y."
+    },
+    {
+      "term": "Forhold",
+      "def": "Sammenligning av to størrelser ved divisjon."
+    },
+    {
+      "term": "Målestokk",
+      "def": "Forholdet mellom avstand på kart eller tegning og virkeligheten."
+    },
+    {
+      "term": "1 : 50 000",
+      "def": "1 cm på kartet er 500 m i virkeligheten."
+    },
+    {
+      "term": "Blandingsforhold 1 : 4",
+      "def": "1 del av det ene og 4 deler av det andre."
+    },
+    {
+      "term": "Arbeidstimer",
+      "def": "Antall personer · antall timer – ofte konstant for en jobb."
+    },
+    {
+      "term": "Lineær, men ikke proporsjonal",
+      "def": "y = ax + b med b ≠ 0 – grafen går ikke gjennom origo."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner proporsjonale størrelser?", "options": ["Produktet x · y er konstant", "Forholdet y/x er konstant", "Grafen er en hyperbel", "Den ene øker når den andre minker"], "correct": 1, "explain": "y = kx, og grafen er en rett linje gjennom origo." },
-    { "id": "q02", "text": "3 kg epler koster 90 kr. Hva koster 5 kg?", "options": ["120 kr", "180 kr", "150 kr", "450 kr"], "correct": 2, "explain": "Kiloprisen er 30 kr, og 30 · 5 = 150." },
-    { "id": "q03", "text": "4 personer bruker 6 timer på en jobb. Hvor lang tid bruker 8 personer som jobber like raskt?", "options": ["3 timer", "12 timer", "2 timer", "6 timer"], "correct": 0, "explain": "Jobben tar 24 arbeidstimer, og 24/8 = 3." },
-    { "id": "q04", "text": "Hvordan ser grafen til omvendt proporsjonale størrelser ut?", "options": ["Rett linje gjennom origo", "Parabel", "Vannrett linje", "Hyperbel"], "correct": 3, "explain": "Grafen synker raskt og flater ut, uten å treffe aksene." },
-    { "id": "q05", "text": "Et kart har målestokk 1 : 50 000. Hvor langt er 4 cm på kartet i virkeligheten?", "options": ["200 m", "2 km", "20 km", "50 km"], "correct": 1, "explain": "4 · 50 000 cm = 200 000 cm = 2 km." },
-    { "id": "q06", "text": "Hvilken formel viser omvendt proporsjonalitet?", "options": ["y = 24/x", "y = 24x", "y = x + 24", "y = x²"], "correct": 0, "explain": "Produktet x · y er alltid 24." },
-    { "id": "q07", "text": "Saft blandes i forholdet 1 : 4. Hvor mye vann trengs til 2 dl saft?", "options": ["2 dl", "4 dl", "10 dl", "8 dl"], "correct": 3, "explain": "4 deler vann per del saft: 2 · 4 = 8 dl." },
-    { "id": "q08", "text": "En tabell har x = 1, 2, 4 og y = 12, 6, 3. Hva slags sammenheng er dette?", "options": ["Proporsjonal", "Omvendt proporsjonal", "Lineær med konstantledd", "Ingen sammenheng"], "correct": 1, "explain": "x · y = 12 for alle parene." },
-    { "id": "q09", "text": "Hvor lang tid tar det å kjøre 120 km med 80 km/h?", "options": ["1,5 timer", "2 timer", "1,2 timer", "40 minutter"], "correct": 0, "explain": "120/80 = 1,5." },
-    { "id": "q10", "text": "Hva er proporsjonalitetskonstanten i y = 2,5x?", "options": ["x", "y", "2,5", "0"], "correct": 2, "explain": "k er tallet x ganges med." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner proporsjonale størrelser?",
+      "options": [
+        "Produktet x · y er konstant",
+        "Forholdet y/x er konstant",
+        "Grafen er en hyperbel",
+        "Den ene øker når den andre minker"
+      ],
+      "correct": 1,
+      "explain": "y = kx, og grafen er en rett linje gjennom origo."
+    },
+    {
+      "id": "q02",
+      "text": "3 kg epler koster 90 kr. Hva koster 5 kg?",
+      "options": [
+        "120 kr",
+        "180 kr",
+        "150 kr",
+        "450 kr"
+      ],
+      "correct": 2,
+      "explain": "Kiloprisen er 30 kr, og 30 · 5 = 150."
+    },
+    {
+      "id": "q03",
+      "text": "4 personer bruker 6 timer på en jobb. Hvor lang tid bruker 8 personer som jobber like raskt?",
+      "options": [
+        "3 timer",
+        "12 timer",
+        "2 timer",
+        "6 timer"
+      ],
+      "correct": 0,
+      "explain": "Jobben tar 24 arbeidstimer, og 24/8 = 3."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan ser grafen til omvendt proporsjonale størrelser ut?",
+      "options": [
+        "Rett linje gjennom origo",
+        "Parabel",
+        "Vannrett linje",
+        "Hyperbel"
+      ],
+      "correct": 3,
+      "explain": "Grafen synker raskt og flater ut, uten å treffe aksene."
+    },
+    {
+      "id": "q05",
+      "text": "Et kart har målestokk 1 : 50 000. Hvor langt er 4 cm på kartet i virkeligheten?",
+      "options": [
+        "200 m",
+        "2 km",
+        "20 km",
+        "50 km"
+      ],
+      "correct": 1,
+      "explain": "4 · 50 000 cm = 200 000 cm = 2 km."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken formel viser omvendt proporsjonalitet?",
+      "options": [
+        "y = 24/x",
+        "y = 24x",
+        "y = x + 24",
+        "y = x²"
+      ],
+      "correct": 0,
+      "explain": "Produktet x · y er alltid 24."
+    },
+    {
+      "id": "q07",
+      "text": "Saft blandes i forholdet 1 : 4. Hvor mye vann trengs til 2 dl saft?",
+      "options": [
+        "2 dl",
+        "4 dl",
+        "10 dl",
+        "8 dl"
+      ],
+      "correct": 3,
+      "explain": "4 deler vann per del saft: 2 · 4 = 8 dl."
+    },
+    {
+      "id": "q08",
+      "text": "En tabell har x = 1, 2, 4 og y = 12, 6, 3. Hva slags sammenheng er dette?",
+      "options": [
+        "Proporsjonal",
+        "Omvendt proporsjonal",
+        "Lineær med konstantledd",
+        "Ingen sammenheng"
+      ],
+      "correct": 1,
+      "explain": "x · y = 12 for alle parene."
+    },
+    {
+      "id": "q09",
+      "text": "Hvor lang tid tar det å kjøre 120 km med 80 km/h?",
+      "options": [
+        "1,5 timer",
+        "2 timer",
+        "1,2 timer",
+        "40 minutter"
+      ],
+      "correct": 0,
+      "explain": "120/80 = 1,5."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er proporsjonalitetskonstanten i y = 2,5x?",
+      "options": [
+        "x",
+        "y",
+        "2,5",
+        "0"
+      ],
+      "correct": 2,
+      "explain": "k er tallet x ganges med."
+    }
   ],
   "mindmap": {
     "label": "Proporsjonalitet",
     "children": [
-      { "label": "Proporsjonal", "children": [
-        { "label": "y/x konstant" },
-        { "label": "y = kx" },
-        { "label": "Linje gjennom origo" }
-      ] },
-      { "label": "Omvendt proporsjonal", "children": [
-        { "label": "x · y konstant" },
-        { "label": "y = k/x" },
-        { "label": "Hyperbel" }
-      ] },
-      { "label": "Sjekke tabeller", "children": [
-        { "label": "Del: y/x" },
-        { "label": "Gang: x · y" }
-      ] },
-      { "label": "Forhold", "children": [
-        { "label": "Målestokk" },
-        { "label": "Blandingsforhold" }
-      ] },
-      { "label": "I praksis", "children": [
-        { "label": "Priser" },
-        { "label": "Arbeidstimer" },
-        { "label": "Fart og tid" }
-      ] }
+      {
+        "label": "Proporsjonal",
+        "children": [
+          {
+            "label": "y/x konstant"
+          },
+          {
+            "label": "y = kx"
+          },
+          {
+            "label": "Linje gjennom origo"
+          }
+        ]
+      },
+      {
+        "label": "Omvendt proporsjonal",
+        "children": [
+          {
+            "label": "x · y konstant"
+          },
+          {
+            "label": "y = k/x"
+          },
+          {
+            "label": "Hyperbel"
+          }
+        ]
+      },
+      {
+        "label": "Sjekke tabeller",
+        "children": [
+          {
+            "label": "Del: y/x"
+          },
+          {
+            "label": "Gang: x · y"
+          }
+        ]
+      },
+      {
+        "label": "Forhold",
+        "children": [
+          {
+            "label": "Målestokk"
+          },
+          {
+            "label": "Blandingsforhold"
+          }
+        ]
+      },
+      {
+        "label": "I praksis",
+        "children": [
+          {
+            "label": "Priser"
+          },
+          {
+            "label": "Arbeidstimer"
+          },
+          {
+            "label": "Fart og tid"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Grafen til to proporsjonale størrelser går gjennom origo.", "correct": true, "explain": "Når x = 0, er y = k · 0 = 0." },
-      { "id": "m02", "type": "sant-usant", "text": "Hvis y halveres når x dobles, er x og y proporsjonale.", "correct": false, "explain": "Da er de omvendt proporsjonale." },
-      { "id": "m03", "type": "sant-usant", "text": "Med fast timelønn er lønn og antall timer proporsjonale.", "correct": true, "explain": "Lønn = timelønn · timer." },
-      { "id": "m04", "type": "sant-usant", "text": "y = 3x + 2 viser at x og y er proporsjonale.", "correct": false, "explain": "Grafen går ikke gjennom origo på grunn av konstantleddet 2." },
-      { "id": "m05", "type": "flervalg", "text": "Et kart har målestokk 1 : 25 000. Hvor langt er 6 cm på kartet i virkeligheten?", "options": ["150 m", "1,5 km", "15 km", "2,5 km"], "correct": 1, "explain": "6 · 25 000 cm = 150 000 cm = 1,5 km." },
-      { "id": "m06", "type": "flervalg", "text": "5 liter bensin koster 110 kr. Hva er literprisen?", "options": ["22 kr", "55 kr", "105 kr", "550 kr"], "correct": 0, "explain": "110/5 = 22." },
-      { "id": "m07", "type": "flervalg", "text": "En pizza deles likt. Jo flere som deler, jo mindre får hver. Hva slags sammenheng er dette?", "options": ["Proporsjonal", "Ingen sammenheng", "Omvendt proporsjonal", "Eksponentiell"], "correct": 2, "explain": "Antall personer · størrelse per person er konstant." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Grafen til to proporsjonale størrelser går gjennom origo.",
+        "correct": true,
+        "explain": "Når x = 0, er y = k · 0 = 0."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Hvis y halveres når x dobles, er x og y proporsjonale.",
+        "correct": false,
+        "explain": "Da er de omvendt proporsjonale."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Med fast timelønn er lønn og antall timer proporsjonale.",
+        "correct": true,
+        "explain": "Lønn = timelønn · timer."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "y = 3x + 2 viser at x og y er proporsjonale.",
+        "correct": false,
+        "explain": "Grafen går ikke gjennom origo på grunn av konstantleddet 2."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Et kart har målestokk 1 : 25 000. Hvor langt er 6 cm på kartet i virkeligheten?",
+        "options": [
+          "150 m",
+          "1,5 km",
+          "15 km",
+          "2,5 km"
+        ],
+        "correct": 1,
+        "explain": "6 · 25 000 cm = 150 000 cm = 1,5 km."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "5 liter bensin koster 110 kr. Hva er literprisen?",
+        "options": [
+          "22 kr",
+          "55 kr",
+          "105 kr",
+          "550 kr"
+        ],
+        "correct": 0,
+        "explain": "110/5 = 22."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "En pizza deles likt. Jo flere som deler, jo mindre får hver. Hva slags sammenheng er dette?",
+        "options": [
+          "Proporsjonal",
+          "Ingen sammenheng",
+          "Omvendt proporsjonal",
+          "Eksponentiell"
+        ],
+        "correct": 2,
+        "explain": "Antall personer · størrelse per person er konstant."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign proporsjonale og omvendt proporsjonale størrelser. Hva er konstant i hver sammenheng, og hva skjer med y når x dobles?",
+        "fasit": "For proporsjonale størrelser er forholdet y/x konstant, og når x dobles, dobles y. For omvendt proporsjonale størrelser er produktet x · y konstant, og når x dobles, halveres y.",
+        "kriterier": [
+          "Skiller mellom konstant forhold y/x og konstant produkt x · y.",
+          "Forklarer riktig hva som skjer med y når x dobles i begge sammenhengene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hvorfor sammenhengen y = 3x + 2 er lineær, men ikke proporsjonal.",
+        "fasit": "Sammenhengen er lineær, men den har et tillegg på 2. Derfor går ikke grafen gjennom origo, og forholdet y/x er ikke konstant.",
+        "kriterier": [
+          "Får fram at tillegget 2 gjør at grafen ikke går gjennom origo.",
+          "Knytter dette til at sammenhengen ikke er proporsjonal."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenhengen mellom x og y er y = 2,5x. Hva er y når x = 4? Vis det viktigste regnestykket.",
+        "fasit": "Setter vi x = 4 inn i formelen, får vi y = 2,5 · 4 = 10. Svaret er 10.",
+        "kriterier": [
+          "Setter 4 inn som x i formelen og regner ut 2,5 · 4.",
+          "Oppgir y = 10."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "To størrelser er omvendt proporsjonale, og produktet x · y er 12. Hva er y når x = 3? Vis det viktigste regnestykket.",
+        "fasit": "Siden x · y = 12, blir 3 · y = 12. Da er y = 12/3 = 4.",
+        "kriterier": [
+          "Bruker at produktet x · y skal være 12.",
+          "Regner ut og oppgir y = 4."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Fast timelønn gir en proporsjonal sammenheng mellom lønn og antall arbeidstimer. Forklar hvorfor, og hva proporsjonalitetskonstanten betyr i denne situasjonen.",
+        "fasit": "Når timelønna er fast, øker lønna i samme forhold som antall arbeidstimer. Proporsjonalitetskonstanten er timelønna, altså lønn per time.",
+        "kriterier": [
+          "Forklarer at samme timelønn gjør forholdet mellom lønn og timer konstant.",
+          "Forklarer at proporsjonalitetskonstanten er lønn per time."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hva betyr målestokken 1 : 50 000 for avstanden på kartet og avstanden i virkeligheten? Ta med hva 1 cm på kartet tilsvarer.",
+        "fasit": "Målestokken viser forholdet mellom avstand på kartet og avstand i virkeligheten. 1 cm på kartet tilsvarer 50 000 cm, altså 500 m, i virkeligheten.",
+        "kriterier": [
+          "Forklarer at målestokken sammenligner kartavstand med virkelig avstand.",
+          "Oppgir at 1 cm tilsvarer 500 m i virkeligheten."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et blandingsforhold er 1 : 4. Forklar hva de to tallene forteller om blandingen, og hvor mange deler blandingen består av til sammen.",
+        "fasit": "Forholdet betyr 1 del av det ene stoffet og 4 deler av det andre. Blandingen består av 5 deler til sammen.",
+        "kriterier": [
+          "Forklarer at forholdet beskriver 1 del av det ene stoffet og 4 deler av det andre.",
+          "Oppgir at blandingen består av 5 deler til sammen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En jobb tar kortere tid når flere personer arbeider med den. Forklar hvorfor dobbelt så mange personer ikke nødvendigvis betyr at jobben tar halvparten så lang tid.",
+        "fasit": "Det omvendte forholdet gjelder bare hvis arbeiderne jobber like raskt og kan arbeide effektivt sammen. Hvis de går i veien for hverandre, blir ikke arbeidstimer nødvendigvis konstante.",
+        "kriterier": [
+          "Nevner at arbeiderne må kunne jobbe effektivt sammen for at tiden skal halveres.",
+          "Forklarer at forstyrrelser eller at arbeiderne går i veien for hverandre kan gjøre at sammenhengen ikke blir omvendt proporsjonal."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

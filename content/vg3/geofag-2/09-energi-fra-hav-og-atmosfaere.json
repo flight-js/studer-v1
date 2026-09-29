@@ -4,77 +4,422 @@
   "trinnId": "vg3",
   "name": "Energi fra hav og atmosfære",
   "intro": "Hvordan energiressurser fra hav og atmosfære kan utnyttes – vindkraft på land og til havs, bølgekraft, tidevannskraft, havstrømkraft, osmotisk kraft og solenergi – og hvordan vi kan drøfte bærekraften i slike løsninger nasjonalt og globalt.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Energien kommer fra sola og månen\n\nDe fleste energiressursene i hav og atmosfære er drevet av **sola**. Ujevn oppvarming gir **trykkforskjeller** og dermed **vind**. Vinden lager **bølger** og driver **havstrømmer**. **Tidevannet** skyldes derimot hovedsakelig **månens** og solas **tiltrekning**.\n\nDisse ressursene er **fornybare** – de fornyes hele tiden og tar ikke slutt.\n\n## Vindkraft\n\nEn **vindturbin** omdanner bevegelsesenergien i vinden til elektrisk energi. Effekten øker kraftig med vindfarten – omtrent med **vindfarten i tredje potens**. Dobbelt så sterk vind gir derfor omtrent **åtte** ganger så mye effekt.\n\n- **Landbasert vindkraft** er relativt **billig**, men kan gi **naturinngrep**, støy og konflikter om **arealbruk** og **reindrift**.\n- **Havvind** har **sterkere** og **jevnere** vind. **Bunnfaste** turbiner står på grunt vann, mens **flytende** turbiner kan brukes på dypt vann. Norge har utviklet flytende havvind, blant annet i **Hywind**-prosjektene. Havvind er foreløpig **dyrere** og kan påvirke **fiskeri** og **sjøfugl**.\n\nVind er **uregelmessig**, så kraftsystemet trenger **lagring** eller **reguleringskraft** – i Norge ofte **vannkraft**.\n\n## Bølgekraft\n\nBølger inneholder mye energi, særlig langs **værharde kyster** som Norges vestkyst. Teknologien er likevel **umoden**: Utstyret må tåle **stormer** og **saltvann**, og det har vært vanskelig å gjøre bølgekraft **lønnsom**.\n\n## Tidevannskraft og havstrømkraft\n\n- **Tidevannskraft** utnytter vannet som strømmer inn og ut med tidevannet, for eksempel gjennom **demninger** i fjordmunninger eller **turbiner** i sterke tidevannsstrømmer. Den er **forutsigbar** – vi vet når tidevannet kommer.\n- **Havstrømkraft** utnytter faste havstrømmer med **undervannsturbiner**.\n\n## Osmotisk kraft\n\nNår **ferskvann** og **saltvann** møtes gjennom en **membran**, vil vannet trekke mot saltvannssiden. Trykket kan drive en turbin. Norge testet teknologien, men den ble ikke **lønnsom**.\n\n## Solenergi\n\n**Solceller** omdanner sollys direkte til strøm, og **solfangere** gir varme. Solenergi er den ressursen som vokser **raskest** i verden. I Norge er solinnstrålingen **lav** om vinteren, men solceller kan fungere godt om sommeren.\n\n## Bærekraft – å drøfte\n\nFornybar energi har **lave** utslipp i drift, men alle løsninger har **ulemper**:\n\n- **Miljø**: naturinngrep, fugledød, påvirkning på livet i havet, behov for **metaller** og **mineraler**\n- **Økonomi**: kostnad, lønnsomhet og **arbeidsplasser**\n- **Sosialt**: lokale **interesser**, **urfolksrettigheter** og **rettferdig** fordeling av fordeler og ulemper\n\n## Nasjonalt og globalt\n\nNorge har mye **vannkraft** og store **havområder** med gode vindressurser. Globalt er utbygging av fornybar energi avgjørende for å kutte utslipp, særlig i land som i dag bruker mye **kull**. Bærekraftig utnyttelse handler om å **balansere** behovet for ren energi mot hensynet til **natur** og **mennesker**.",
   "flashcards": [
-    { "term": "Fornybar energi", "def": "Energi som fornyes hele tiden og ikke tar slutt." },
-    { "term": "Vindturbin", "def": "Omdanner bevegelsesenergien i vinden til strøm." },
-    { "term": "Vindfart og effekt", "def": "Effekten øker omtrent med vindfarten i tredje potens." },
-    { "term": "Landbasert vindkraft", "def": "Billig, men kan gi naturinngrep og arealkonflikter." },
-    { "term": "Havvind", "def": "Vindkraft til havs med sterkere og jevnere vind." },
-    { "term": "Flytende havvind", "def": "Turbiner som kan brukes på dypt vann." },
-    { "term": "Hywind", "def": "Norske prosjekter med flytende havvind." },
-    { "term": "Bølgekraft", "def": "Energi fra bølger – umoden teknologi." },
-    { "term": "Tidevannskraft", "def": "Utnytter tidevannsstrømmer – forutsigbar." },
-    { "term": "Havstrømkraft", "def": "Undervannsturbiner i faste havstrømmer." },
-    { "term": "Osmotisk kraft", "def": "Kraft fra møtet mellom ferskvann og saltvann gjennom en membran." },
-    { "term": "Solceller", "def": "Omdanner sollys direkte til strøm." },
-    { "term": "Reguleringskraft", "def": "Kraft som jevner ut variasjoner, for eksempel vannkraft." },
-    { "term": "Tidevann", "def": "Skyldes hovedsakelig månens og solas tiltrekning." },
-    { "term": "Urfolksrettigheter", "def": "Hensyn som må vurderes ved utbygging, for eksempel reindrift." }
+    {
+      "term": "Fornybar energi",
+      "def": "Energi som fornyes hele tiden og ikke tar slutt."
+    },
+    {
+      "term": "Vindturbin",
+      "def": "Omdanner bevegelsesenergien i vinden til strøm."
+    },
+    {
+      "term": "Vindfart og effekt",
+      "def": "Effekten øker omtrent med vindfarten i tredje potens."
+    },
+    {
+      "term": "Landbasert vindkraft",
+      "def": "Billig, men kan gi naturinngrep og arealkonflikter."
+    },
+    {
+      "term": "Havvind",
+      "def": "Vindkraft til havs med sterkere og jevnere vind."
+    },
+    {
+      "term": "Flytende havvind",
+      "def": "Turbiner som kan brukes på dypt vann."
+    },
+    {
+      "term": "Hywind",
+      "def": "Norske prosjekter med flytende havvind."
+    },
+    {
+      "term": "Bølgekraft",
+      "def": "Energi fra bølger – umoden teknologi."
+    },
+    {
+      "term": "Tidevannskraft",
+      "def": "Utnytter tidevannsstrømmer – forutsigbar."
+    },
+    {
+      "term": "Havstrømkraft",
+      "def": "Undervannsturbiner i faste havstrømmer."
+    },
+    {
+      "term": "Osmotisk kraft",
+      "def": "Kraft fra møtet mellom ferskvann og saltvann gjennom en membran."
+    },
+    {
+      "term": "Solceller",
+      "def": "Omdanner sollys direkte til strøm."
+    },
+    {
+      "term": "Reguleringskraft",
+      "def": "Kraft som jevner ut variasjoner, for eksempel vannkraft."
+    },
+    {
+      "term": "Tidevann",
+      "def": "Skyldes hovedsakelig månens og solas tiltrekning."
+    },
+    {
+      "term": "Urfolksrettigheter",
+      "def": "Hensyn som må vurderes ved utbygging, for eksempel reindrift."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva driver de fleste energiressursene i hav og atmosfære?", "options": ["Jordas indre varme", "Sola", "Månen alene", "Vulkaner"], "correct": 1, "explain": "Tidevann er unntaket." },
-    { "id": "q02", "text": "Hvor mye øker effekten omtrent når vindfarten dobles?", "options": ["Åtte ganger", "To ganger", "Fire ganger", "Ingen endring"], "correct": 0, "explain": "Effekten følger vindfarten i tredje potens." },
-    { "id": "q03", "text": "Hvilken fordel har tidevannskraft?", "options": ["Den er billigst", "Den finnes overalt", "Den er forutsigbar", "Den krever ingen utstyr"], "correct": 2, "explain": "Vi vet når tidevannet kommer." },
-    { "id": "q04", "text": "Hva skyldes tidevannet hovedsakelig?", "options": ["Vinden", "Sola alene", "Havstrømmene", "Månens og solas tiltrekning"], "correct": 3, "explain": "Gravitasjon." },
-    { "id": "q05", "text": "Hvorfor er flytende havvind viktig for Norge?", "options": ["Fordi det kan brukes på dypt vann", "Fordi det er billigst", "Fordi det ikke trenger vind", "Fordi det står på land"], "correct": 0, "explain": "Mye dypt hav langs kysten." },
-    { "id": "q06", "text": "Hva er en utfordring med bølgekraft?", "options": ["For lite energi", "Utstyret må tåle stormer og saltvann", "Den er for forutsigbar", "Den gir store utslipp"], "correct": 1, "explain": "Teknologien er umoden." },
-    { "id": "q07", "text": "Hva er osmotisk kraft?", "options": ["Kraft fra vind", "Kraft fra sola", "Kraft fra møtet mellom ferskvann og saltvann", "Kraft fra kull"], "correct": 2, "explain": "Gjennom en membran." },
-    { "id": "q08", "text": "Hvorfor trenger vindkraft reguleringskraft?", "options": ["Fordi vinden alltid er lik", "Fordi turbinene er små", "Fordi vindkraft gir utslipp", "Fordi vinden er uregelmessig"], "correct": 3, "explain": "I Norge ofte vannkraft." },
-    { "id": "q09", "text": "Hvilken konflikt kan landbasert vindkraft gi?", "options": ["Naturinngrep og konflikt med reindrift", "Havforsuring", "Mer tidevann", "Høyere havnivå"], "correct": 0, "explain": "Arealbruk er et viktig tema." },
-    { "id": "q10", "text": "Hvilken energiressurs vokser raskest i verden?", "options": ["Bølgekraft", "Solenergi", "Osmotisk kraft", "Tidevannskraft"], "correct": 1, "explain": "Solceller er blitt mye billigere." }
+    {
+      "id": "q01",
+      "text": "Hva driver de fleste energiressursene i hav og atmosfære?",
+      "options": [
+        "Jordas indre varme",
+        "Sola",
+        "Månen alene",
+        "Vulkaner"
+      ],
+      "correct": 1,
+      "explain": "Tidevann er unntaket."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor mye øker effekten omtrent når vindfarten dobles?",
+      "options": [
+        "Åtte ganger",
+        "To ganger",
+        "Fire ganger",
+        "Ingen endring"
+      ],
+      "correct": 0,
+      "explain": "Effekten følger vindfarten i tredje potens."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken fordel har tidevannskraft?",
+      "options": [
+        "Den er billigst",
+        "Den finnes overalt",
+        "Den er forutsigbar",
+        "Den krever ingen utstyr"
+      ],
+      "correct": 2,
+      "explain": "Vi vet når tidevannet kommer."
+    },
+    {
+      "id": "q04",
+      "text": "Hva skyldes tidevannet hovedsakelig?",
+      "options": [
+        "Vinden",
+        "Sola alene",
+        "Havstrømmene",
+        "Månens og solas tiltrekning"
+      ],
+      "correct": 3,
+      "explain": "Gravitasjon."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor er flytende havvind viktig for Norge?",
+      "options": [
+        "Fordi det kan brukes på dypt vann",
+        "Fordi det er billigst",
+        "Fordi det ikke trenger vind",
+        "Fordi det står på land"
+      ],
+      "correct": 0,
+      "explain": "Mye dypt hav langs kysten."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en utfordring med bølgekraft?",
+      "options": [
+        "For lite energi",
+        "Utstyret må tåle stormer og saltvann",
+        "Den er for forutsigbar",
+        "Den gir store utslipp"
+      ],
+      "correct": 1,
+      "explain": "Teknologien er umoden."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er osmotisk kraft?",
+      "options": [
+        "Kraft fra vind",
+        "Kraft fra sola",
+        "Kraft fra møtet mellom ferskvann og saltvann",
+        "Kraft fra kull"
+      ],
+      "correct": 2,
+      "explain": "Gjennom en membran."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor trenger vindkraft reguleringskraft?",
+      "options": [
+        "Fordi vinden alltid er lik",
+        "Fordi turbinene er små",
+        "Fordi vindkraft gir utslipp",
+        "Fordi vinden er uregelmessig"
+      ],
+      "correct": 3,
+      "explain": "I Norge ofte vannkraft."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken konflikt kan landbasert vindkraft gi?",
+      "options": [
+        "Naturinngrep og konflikt med reindrift",
+        "Havforsuring",
+        "Mer tidevann",
+        "Høyere havnivå"
+      ],
+      "correct": 0,
+      "explain": "Arealbruk er et viktig tema."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken energiressurs vokser raskest i verden?",
+      "options": [
+        "Bølgekraft",
+        "Solenergi",
+        "Osmotisk kraft",
+        "Tidevannskraft"
+      ],
+      "correct": 1,
+      "explain": "Solceller er blitt mye billigere."
+    }
   ],
   "mindmap": {
     "label": "Energi fra hav og atmosfære",
     "children": [
-      { "label": "Vind", "children": [
-        { "label": "Landbasert" },
-        { "label": "Havvind og Hywind" }
-      ] },
-      { "label": "Havet", "children": [
-        { "label": "Bølgekraft" },
-        { "label": "Tidevannskraft" },
-        { "label": "Havstrømkraft" },
-        { "label": "Osmotisk kraft" }
-      ] },
-      { "label": "Sol", "children": [
-        { "label": "Solceller" },
-        { "label": "Solfangere" }
-      ] },
-      { "label": "Bærekraft", "children": [
-        { "label": "Miljø" },
-        { "label": "Økonomi" },
-        { "label": "Sosialt" }
-      ] },
-      { "label": "Skala", "children": [
-        { "label": "Norge" },
-        { "label": "Globalt" }
-      ] }
+      {
+        "label": "Vind",
+        "children": [
+          {
+            "label": "Landbasert"
+          },
+          {
+            "label": "Havvind og Hywind"
+          }
+        ]
+      },
+      {
+        "label": "Havet",
+        "children": [
+          {
+            "label": "Bølgekraft"
+          },
+          {
+            "label": "Tidevannskraft"
+          },
+          {
+            "label": "Havstrømkraft"
+          },
+          {
+            "label": "Osmotisk kraft"
+          }
+        ]
+      },
+      {
+        "label": "Sol",
+        "children": [
+          {
+            "label": "Solceller"
+          },
+          {
+            "label": "Solfangere"
+          }
+        ]
+      },
+      {
+        "label": "Bærekraft",
+        "children": [
+          {
+            "label": "Miljø"
+          },
+          {
+            "label": "Økonomi"
+          },
+          {
+            "label": "Sosialt"
+          }
+        ]
+      },
+      {
+        "label": "Skala",
+        "children": [
+          {
+            "label": "Norge"
+          },
+          {
+            "label": "Globalt"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Havvind har ofte sterkere og jevnere vind enn på land.", "correct": true, "explain": "Mindre friksjon over havet." },
-      { "id": "m02", "type": "sant-usant", "text": "Fornybar energi har ingen ulemper.", "correct": false, "explain": "Alle løsninger har ulemper for natur eller mennesker." },
-      { "id": "m03", "type": "sant-usant", "text": "Fornybar energi krever metaller og mineraler.", "correct": true, "explain": "Til turbiner, solceller og kabler." },
-      { "id": "m04", "type": "sant-usant", "text": "Osmotisk kraft er i dag en stor energikilde i Norge.", "correct": false, "explain": "Teknologien ble ikke lønnsom." },
-      { "id": "m05", "type": "flervalg", "text": "Hva kan havvind påvirke negativt?", "options": ["Tidevannet", "Fiskeri og sjøfugl", "Solinnstrålingen", "Månen"], "correct": 1, "explain": "Må vurderes ved utbygging." },
-      { "id": "m06", "type": "flervalg", "text": "Hvorfor er utbygging av fornybar energi særlig viktig globalt?", "options": ["For å erstatte kull og kutte utslipp", "For å øke utslippene", "For å stoppe tidevannet", "Fordi fossil energi er fornybar"], "correct": 0, "explain": "Kull gir store utslipp." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er de tre dimensjonene i bærekraft?", "options": ["Vind, sol og hav", "Pris, fart og størrelse", "Miljø, økonomi og sosiale forhold", "Land, hav og luft"], "correct": 2, "explain": "Brukes i drøftinger." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Havvind har ofte sterkere og jevnere vind enn på land.",
+        "correct": true,
+        "explain": "Mindre friksjon over havet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Fornybar energi har ingen ulemper.",
+        "correct": false,
+        "explain": "Alle løsninger har ulemper for natur eller mennesker."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Fornybar energi krever metaller og mineraler.",
+        "correct": true,
+        "explain": "Til turbiner, solceller og kabler."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Osmotisk kraft er i dag en stor energikilde i Norge.",
+        "correct": false,
+        "explain": "Teknologien ble ikke lønnsom."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva kan havvind påvirke negativt?",
+        "options": [
+          "Tidevannet",
+          "Fiskeri og sjøfugl",
+          "Solinnstrålingen",
+          "Månen"
+        ],
+        "correct": 1,
+        "explain": "Må vurderes ved utbygging."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvorfor er utbygging av fornybar energi særlig viktig globalt?",
+        "options": [
+          "For å erstatte kull og kutte utslipp",
+          "For å øke utslippene",
+          "For å stoppe tidevannet",
+          "Fordi fossil energi er fornybar"
+        ],
+        "correct": 0,
+        "explain": "Kull gir store utslipp."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er de tre dimensjonene i bærekraft?",
+        "options": [
+          "Vind, sol og hav",
+          "Pris, fart og størrelse",
+          "Miljø, økonomi og sosiale forhold",
+          "Land, hav og luft"
+        ],
+        "correct": 2,
+        "explain": "Brukes i drøftinger."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar sammenhengen mellom solas oppvarming, vind og bølger eller havstrømmer.",
+        "fasit": "Sola varmer jordoverflaten ujevnt, og det skaper trykkforskjeller som setter lufta i bevegelse som vind. Vinden lager bølger og driver havstrømmer.",
+        "kriterier": [
+          "Knytter ujevn oppvarming fra sola til trykkforskjeller og vind.",
+          "Forklarer at vinden lager bølger eller driver havstrømmer."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign landbasert vindkraft og havvind med tanke på vindforhold og mulige ulemper.",
+        "fasit": "Landbasert vindkraft er relativt billig, men kan gi naturinngrep og konflikter om arealbruk og reindrift. Havvind har sterkere og jevnere vind, men er foreløpig dyrere og kan påvirke fiskeri og sjøfugl.",
+        "kriterier": [
+          "Beskriver en relevant forskjell i vindforhold eller kostnad.",
+          "Beskriver en relevant ulempe ved hver av de to løsningene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En vindpark skal bygges på dypt vann. Hvilken type vindturbiner passer best, og hvorfor?",
+        "fasit": "Flytende vindturbiner passer best fordi de kan brukes på dypt vann. Bunnfaste turbiner brukes på grunt vann.",
+        "kriterier": [
+          "Velger flytende turbiner for dypt vann.",
+          "Forklarer forskjellen fra bunnfaste turbiner, som står på grunt vann."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et område har faste havstrømmer, og det vurderes å plassere turbiner under vann. Hvilken energiform passer til dette, og hvordan hentes energien ut?",
+        "fasit": "Havstrømkraft passer til området. Undervannsturbiner utnytter energien i de faste havstrømmene.",
+        "kriterier": [
+          "Identifiserer havstrømkraft.",
+          "Forklarer at undervannsturbiner utnytter energien i faste havstrømmer."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En norsk hytte bruker solceller. Forklar hvordan solcellene lager strøm, og hvorfor de kan fungere bedre om sommeren enn om vinteren.",
+        "fasit": "Solceller omdanner sollys direkte til strøm. I Norge er solinnstrålingen lav om vinteren, men solceller kan fungere godt om sommeren.",
+        "kriterier": [
+          "Forklarer at solceller omdanner sollys direkte til strøm.",
+          "Knytter forskjellen mellom årstidene til lav solinnstråling om vinteren og mulighet for god funksjon om sommeren."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En planlagt vindpark kan gi fornybar strøm, men berører et område brukt til reindrift og kan påvirke sjøfugl. Forklar hvilke hensyn som må balanseres før utbygging.",
+        "fasit": "Utbyggingen må veie behovet for ren energi mot virkninger for naturen, blant annet sjøfugl, og hensynet til reindrift og urfolksrettigheter. Fordeler og ulemper bør vurderes slik at hensynet til natur og mennesker ivaretas.",
+        "kriterier": [
+          "Nevner relevante naturhensyn, som påvirkning på sjøfugl.",
+          "Knytter reindrift til lokale interesser eller urfolksrettigheter.",
+          "Forklarer at hensynene må balanseres mot behovet for ren energi."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Effekten fra en vindturbin øker omtrent med vindfarten i tredje potens. Hvor mange ganger større blir effekten dersom vindfarten blir tre ganger så stor? Vis det viktigste regnestykket.",
+        "fasit": "Effekten blir omtrent 27 ganger så stor, fordi 3³ = 3 × 3 × 3 = 27.",
+        "kriterier": [
+          "Bruker tredje potens på forholdet mellom vindfartene.",
+          "Får svaret 27 ganger større effekt."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Effekten fra en vindturbin øker omtrent med vindfarten i tredje potens. Vindfarten øker, og effekten blir 64 ganger så stor. Hvor mange ganger større er vindfarten? Vis det viktigste regnestykket.",
+        "fasit": "Vindfarten er fire ganger så stor, fordi 4³ = 64.",
+        "kriterier": [
+          "Bruker sammenhengen med tredje potens, for eksempel ved å finne kubikkrota av 64.",
+          "Får svaret fire ganger større vindfart."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

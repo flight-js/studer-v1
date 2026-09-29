@@ -4,75 +4,415 @@
   "trinnId": "vg3",
   "name": "Entropi, entalpi og spontanitet",
   "intro": "Hva entropi er, hvordan entalpi og entropi sammen avgjør om en reaksjon er spontan gjennom Gibbs fri energi, de fire kombinasjonene av ΔH og ΔS, temperaturens betydning og sammenhengen mellom ΔG og likevektskonstanten.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Spontane prosesser\n\nEn **spontan** prosess skjer av seg selv uten at vi tilfører energi utenfra, for eksempel at is **smelter** i romtemperatur eller at jern **ruster**. Spontan betyr ikke nødvendigvis **rask** – rusting går sakte.\n\n## Entalpi\n\n**Entalpiendringen** ΔH viser hvor mye **varme** som frigjøres eller tas opp ved konstant trykk.\n\n- **Eksoterm** reaksjon: ΔH < 0 – varme avgis.\n- **Endoterm** reaksjon: ΔH > 0 – varme tas opp.\n\nMange spontane reaksjoner er eksoterme, men **ikke alle**. Når **ammoniumnitrat** løses i vann, blir løsningen **kald** – prosessen er endoterm, men likevel spontan. Forklaringen er **entropi**.\n\n## Entropi\n\n**Entropi** S er et mål på hvor mange **mulige måter** partiklene og energien kan fordeles på – ofte forklart som grad av **spredning** eller **uorden**.\n\nEntropien **øker** når\n\n- faste stoffer **smelter** eller væsker **fordamper**: S(g) > S(l) > S(s)\n- et stoff **løses** opp\n- antall **gassmolekyler** øker i en reaksjon\n- **temperaturen** øker\n\n**Termodynamikkens andre lov** sier at den totale entropien i universet **øker** i spontane prosesser.\n\n## Gibbs fri energi\n\nFor å vurdere spontanitet i et system bruker vi **Gibbs fri energi**:\n\n**ΔG = ΔH − TΔS**\n\nder T er temperaturen i **kelvin**.\n\n- ΔG < 0: reaksjonen er **spontan**.\n- ΔG > 0: reaksjonen er **ikke spontan**, men den motsatte reaksjonen er spontan.\n- ΔG = 0: systemet er i **likevekt**.\n\n## Fire kombinasjoner\n\n| ΔH | ΔS | Spontan? |\n|---|---|---|\n| − | + | alltid |\n| + | − | aldri |\n| − | − | ved **lav** temperatur |\n| + | + | ved **høy** temperatur |\n\n## Regneeksempel\n\nFor N₂ + 3H₂ → 2NH₃ er ΔH° = −92 kJ og ΔS° = −0,199 kJ/K.\n\nVed 298 K: ΔG° = −92 − 298 · (−0,199) ≈ −92 + 59 = **−33 kJ** – reaksjonen er spontan.\n\nReaksjonen blir **ikke-spontan** når TΔS blir større enn ΔH. Grensen er T = ΔH/ΔS = 92/0,199 ≈ **460 K**. Over denne temperaturen ligger likevekten mot reaktantene.\n\n## ΔG og likevekt\n\nStandard fri energi henger sammen med likevektskonstanten:\n\n**ΔG° = −RT ln K**\n\nder R = 8,314 J/(mol·K).\n\n- ΔG° < 0 gir K > 1 – likevekten ligger mot **produktene**.\n- ΔG° > 0 gir K < 1 – likevekten ligger mot **reaktantene**.\n\nFordi ΔG° avhenger av temperaturen, endres også **K** når temperaturen endres. Det forklarer hvorfor **temperatur** forskyver likevekter.\n\n## Spontanitet og fart\n\nTermodynamikk forteller **om** en reaksjon kan skje, ikke **hvor fort**. En spontan reaksjon kan ha så høy **aktiveringsenergi** at den nesten ikke skjer – som når **diamant** blir til **grafitt**. Farten styres av **kinetikk** og kan økes med en **katalysator**.",
   "flashcards": [
-    { "term": "Spontan prosess", "def": "Prosess som skjer av seg selv uten tilført energi." },
-    { "term": "Entalpiendring ΔH", "def": "Varme som frigjøres eller tas opp ved konstant trykk." },
-    { "term": "Eksoterm", "def": "ΔH < 0 – varme avgis." },
-    { "term": "Endoterm", "def": "ΔH > 0 – varme tas opp." },
-    { "term": "Entropi S", "def": "Mål på hvor mange måter partikler og energi kan fordeles på." },
-    { "term": "Entropiøkning", "def": "Ved smelting, fordamping, oppløsning og flere gassmolekyler." },
-    { "term": "Termodynamikkens andre lov", "def": "Universets totale entropi øker i spontane prosesser." },
-    { "term": "Gibbs fri energi", "def": "ΔG = ΔH − TΔS." },
-    { "term": "ΔG < 0", "def": "Reaksjonen er spontan." },
-    { "term": "ΔG = 0", "def": "Systemet er i likevekt." },
-    { "term": "ΔH < 0 og ΔS > 0", "def": "Alltid spontan." },
-    { "term": "ΔH > 0 og ΔS > 0", "def": "Spontan ved høy temperatur." },
-    { "term": "ΔG° = −RT ln K", "def": "Sammenhengen mellom fri energi og likevektskonstanten." },
-    { "term": "Kinetikk", "def": "Læren om hvor fort reaksjoner går." },
-    { "term": "Temperatur i kelvin", "def": "Må brukes i ΔG = ΔH − TΔS." }
+    {
+      "term": "Spontan prosess",
+      "def": "Prosess som skjer av seg selv uten tilført energi."
+    },
+    {
+      "term": "Entalpiendring ΔH",
+      "def": "Varme som frigjøres eller tas opp ved konstant trykk."
+    },
+    {
+      "term": "Eksoterm",
+      "def": "ΔH < 0 – varme avgis."
+    },
+    {
+      "term": "Endoterm",
+      "def": "ΔH > 0 – varme tas opp."
+    },
+    {
+      "term": "Entropi S",
+      "def": "Mål på hvor mange måter partikler og energi kan fordeles på."
+    },
+    {
+      "term": "Entropiøkning",
+      "def": "Ved smelting, fordamping, oppløsning og flere gassmolekyler."
+    },
+    {
+      "term": "Termodynamikkens andre lov",
+      "def": "Universets totale entropi øker i spontane prosesser."
+    },
+    {
+      "term": "Gibbs fri energi",
+      "def": "ΔG = ΔH − TΔS."
+    },
+    {
+      "term": "ΔG < 0",
+      "def": "Reaksjonen er spontan."
+    },
+    {
+      "term": "ΔG = 0",
+      "def": "Systemet er i likevekt."
+    },
+    {
+      "term": "ΔH < 0 og ΔS > 0",
+      "def": "Alltid spontan."
+    },
+    {
+      "term": "ΔH > 0 og ΔS > 0",
+      "def": "Spontan ved høy temperatur."
+    },
+    {
+      "term": "ΔG° = −RT ln K",
+      "def": "Sammenhengen mellom fri energi og likevektskonstanten."
+    },
+    {
+      "term": "Kinetikk",
+      "def": "Læren om hvor fort reaksjoner går."
+    },
+    {
+      "term": "Temperatur i kelvin",
+      "def": "Må brukes i ΔG = ΔH − TΔS."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvorfor er oppløsning av ammoniumnitrat i vann spontan selv om den er endoterm?", "options": ["Fordi ΔH er negativ", "Fordi entropien øker mye", "Fordi det er en katalysator", "Den er ikke spontan"], "correct": 1, "explain": "TΔS er større enn ΔH." },
-    { "id": "q02", "text": "Hvilken formel gir Gibbs fri energi?", "options": ["ΔG = ΔH − TΔS", "ΔG = ΔH + TΔS", "ΔG = −zF", "ΔG = m · c · ΔT"], "correct": 0, "explain": "T i kelvin." },
-    { "id": "q03", "text": "Hvilken tilstand har høyest entropi?", "options": ["Fast stoff", "Væske", "Gass", "Alle er like"], "correct": 2, "explain": "S(g) > S(l) > S(s)." },
-    { "id": "q04", "text": "ΔH > 0 og ΔS < 0. Når er reaksjonen spontan?", "options": ["Alltid", "Ved lav temperatur", "Ved høy temperatur", "Aldri"], "correct": 3, "explain": "ΔG er alltid positiv." },
-    { "id": "q05", "text": "Hva betyr ΔG = 0?", "options": ["Systemet er i likevekt", "Reaksjonen er spontan", "Reaksjonen går bare bakover", "Det er ingen reaksjon"], "correct": 0, "explain": "Ingen netto drivkraft." },
-    { "id": "q06", "text": "ΔH° = −92 kJ og ΔS° = −0,199 kJ/K. Hva er ΔG° ved 298 K?", "options": ["−151 kJ", "Omtrent −33 kJ", "+33 kJ", "−92 kJ"], "correct": 1, "explain": "−92 − 298 · (−0,199) ≈ −33 kJ." },
-    { "id": "q07", "text": "Hva betyr ΔG° < 0 for likevektskonstanten?", "options": ["K < 1", "K = 0", "K > 1", "K = 1"], "correct": 2, "explain": "ΔG° = −RT ln K." },
-    { "id": "q08", "text": "Hva forteller termodynamikken ikke?", "options": ["Om en reaksjon kan skje", "Hvor mye varme som avgis", "Hvordan entropien endres", "Hvor fort reaksjonen går"], "correct": 3, "explain": "Farten er kinetikk." },
-    { "id": "q09", "text": "Hva sier termodynamikkens andre lov?", "options": ["Universets totale entropi øker i spontane prosesser", "Energi kan skapes", "Entropien synker alltid", "Alle reaksjoner er eksoterme"], "correct": 0, "explain": "Grunnlaget for spontanitet." },
-    { "id": "q10", "text": "ΔH < 0 og ΔS < 0. Når er reaksjonen spontan?", "options": ["Ved høy temperatur", "Ved lav temperatur", "Alltid", "Aldri"], "correct": 1, "explain": "Da er ΔH større enn TΔS." }
+    {
+      "id": "q01",
+      "text": "Hvorfor er oppløsning av ammoniumnitrat i vann spontan selv om den er endoterm?",
+      "options": [
+        "Fordi ΔH er negativ",
+        "Fordi entropien øker mye",
+        "Fordi det er en katalysator",
+        "Den er ikke spontan"
+      ],
+      "correct": 1,
+      "explain": "TΔS er større enn ΔH."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken formel gir Gibbs fri energi?",
+      "options": [
+        "ΔG = ΔH − TΔS",
+        "ΔG = ΔH + TΔS",
+        "ΔG = −zF",
+        "ΔG = m · c · ΔT"
+      ],
+      "correct": 0,
+      "explain": "T i kelvin."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken tilstand har høyest entropi?",
+      "options": [
+        "Fast stoff",
+        "Væske",
+        "Gass",
+        "Alle er like"
+      ],
+      "correct": 2,
+      "explain": "S(g) > S(l) > S(s)."
+    },
+    {
+      "id": "q04",
+      "text": "ΔH > 0 og ΔS < 0. Når er reaksjonen spontan?",
+      "options": [
+        "Alltid",
+        "Ved lav temperatur",
+        "Ved høy temperatur",
+        "Aldri"
+      ],
+      "correct": 3,
+      "explain": "ΔG er alltid positiv."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr ΔG = 0?",
+      "options": [
+        "Systemet er i likevekt",
+        "Reaksjonen er spontan",
+        "Reaksjonen går bare bakover",
+        "Det er ingen reaksjon"
+      ],
+      "correct": 0,
+      "explain": "Ingen netto drivkraft."
+    },
+    {
+      "id": "q06",
+      "text": "ΔH° = −92 kJ og ΔS° = −0,199 kJ/K. Hva er ΔG° ved 298 K?",
+      "options": [
+        "−151 kJ",
+        "Omtrent −33 kJ",
+        "+33 kJ",
+        "−92 kJ"
+      ],
+      "correct": 1,
+      "explain": "−92 − 298 · (−0,199) ≈ −33 kJ."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr ΔG° < 0 for likevektskonstanten?",
+      "options": [
+        "K < 1",
+        "K = 0",
+        "K > 1",
+        "K = 1"
+      ],
+      "correct": 2,
+      "explain": "ΔG° = −RT ln K."
+    },
+    {
+      "id": "q08",
+      "text": "Hva forteller termodynamikken ikke?",
+      "options": [
+        "Om en reaksjon kan skje",
+        "Hvor mye varme som avgis",
+        "Hvordan entropien endres",
+        "Hvor fort reaksjonen går"
+      ],
+      "correct": 3,
+      "explain": "Farten er kinetikk."
+    },
+    {
+      "id": "q09",
+      "text": "Hva sier termodynamikkens andre lov?",
+      "options": [
+        "Universets totale entropi øker i spontane prosesser",
+        "Energi kan skapes",
+        "Entropien synker alltid",
+        "Alle reaksjoner er eksoterme"
+      ],
+      "correct": 0,
+      "explain": "Grunnlaget for spontanitet."
+    },
+    {
+      "id": "q10",
+      "text": "ΔH < 0 og ΔS < 0. Når er reaksjonen spontan?",
+      "options": [
+        "Ved høy temperatur",
+        "Ved lav temperatur",
+        "Alltid",
+        "Aldri"
+      ],
+      "correct": 1,
+      "explain": "Da er ΔH større enn TΔS."
+    }
   ],
   "mindmap": {
     "label": "Entropi og spontanitet",
     "children": [
-      { "label": "Entalpi", "children": [
-        { "label": "Eksoterm" },
-        { "label": "Endoterm" }
-      ] },
-      { "label": "Entropi", "children": [
-        { "label": "Spredning" },
-        { "label": "Gass > væske > fast" },
-        { "label": "Andre lov" }
-      ] },
-      { "label": "Gibbs", "children": [
-        { "label": "ΔG = ΔH − TΔS" },
-        { "label": "Fire kombinasjoner" }
-      ] },
-      { "label": "Likevekt", "children": [
-        { "label": "ΔG° = −RT ln K" },
-        { "label": "Temperatur og K" }
-      ] },
-      { "label": "Fart", "children": [
-        { "label": "Kinetikk" },
-        { "label": "Aktiveringsenergi" }
-      ] }
+      {
+        "label": "Entalpi",
+        "children": [
+          {
+            "label": "Eksoterm"
+          },
+          {
+            "label": "Endoterm"
+          }
+        ]
+      },
+      {
+        "label": "Entropi",
+        "children": [
+          {
+            "label": "Spredning"
+          },
+          {
+            "label": "Gass > væske > fast"
+          },
+          {
+            "label": "Andre lov"
+          }
+        ]
+      },
+      {
+        "label": "Gibbs",
+        "children": [
+          {
+            "label": "ΔG = ΔH − TΔS"
+          },
+          {
+            "label": "Fire kombinasjoner"
+          }
+        ]
+      },
+      {
+        "label": "Likevekt",
+        "children": [
+          {
+            "label": "ΔG° = −RT ln K"
+          },
+          {
+            "label": "Temperatur og K"
+          }
+        ]
+      },
+      {
+        "label": "Fart",
+        "children": [
+          {
+            "label": "Kinetikk"
+          },
+          {
+            "label": "Aktiveringsenergi"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En spontan reaksjon kan likevel gå svært langsomt.", "correct": true, "explain": "For eksempel diamant til grafitt." },
-      { "id": "m02", "type": "sant-usant", "text": "Alle spontane reaksjoner er eksoterme.", "correct": false, "explain": "Endoterme reaksjoner kan være spontane hvis entropien øker nok." },
-      { "id": "m03", "type": "sant-usant", "text": "Entropien øker når antall gassmolekyler øker i en reaksjon.", "correct": true, "explain": "Flere måter å fordele partiklene på." },
-      { "id": "m04", "type": "sant-usant", "text": "Temperaturen i ΔG = ΔH − TΔS skal oppgis i grader celsius.", "correct": false, "explain": "Den skal være i kelvin." },
-      { "id": "m05", "type": "flervalg", "text": "Ved hvilken temperatur blir ammoniakksyntesen ikke-spontan (ΔH = −92 kJ, ΔS = −0,199 kJ/K)?", "options": ["Over ca. 100 K", "Over ca. 460 K", "Under ca. 460 K", "Aldri"], "correct": 1, "explain": "T = ΔH/ΔS ≈ 460 K." },
-      { "id": "m06", "type": "flervalg", "text": "Hva skjer med entropien når is smelter?", "options": ["Den øker", "Den minker", "Den er uendret", "Den blir null"], "correct": 0, "explain": "Væske har høyere entropi enn fast stoff." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er R i ΔG° = −RT ln K?", "options": ["Faradays konstant", "Reaksjonsfarten", "Gasskonstanten, 8,314 J/(mol·K)", "Radien"], "correct": 2, "explain": "Den universelle gasskonstanten." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En spontan reaksjon kan likevel gå svært langsomt.",
+        "correct": true,
+        "explain": "For eksempel diamant til grafitt."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle spontane reaksjoner er eksoterme.",
+        "correct": false,
+        "explain": "Endoterme reaksjoner kan være spontane hvis entropien øker nok."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Entropien øker når antall gassmolekyler øker i en reaksjon.",
+        "correct": true,
+        "explain": "Flere måter å fordele partiklene på."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Temperaturen i ΔG = ΔH − TΔS skal oppgis i grader celsius.",
+        "correct": false,
+        "explain": "Den skal være i kelvin."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Ved hvilken temperatur blir ammoniakksyntesen ikke-spontan (ΔH = −92 kJ, ΔS = −0,199 kJ/K)?",
+        "options": [
+          "Over ca. 100 K",
+          "Over ca. 460 K",
+          "Under ca. 460 K",
+          "Aldri"
+        ],
+        "correct": 1,
+        "explain": "T = ΔH/ΔS ≈ 460 K."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva skjer med entropien når is smelter?",
+        "options": [
+          "Den øker",
+          "Den minker",
+          "Den er uendret",
+          "Den blir null"
+        ],
+        "correct": 0,
+        "explain": "Væske har høyere entropi enn fast stoff."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er R i ΔG° = −RT ln K?",
+        "options": [
+          "Faradays konstant",
+          "Reaksjonsfarten",
+          "Gasskonstanten, 8,314 J/(mol·K)",
+          "Radien"
+        ],
+        "correct": 2,
+        "explain": "Den universelle gasskonstanten."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva beskriver entalpiendringen ΔH, og hva beskriver entropien S? Forklar forskjellen mellom størrelsene.",
+        "fasit": "ΔH beskriver hvor mye varme som frigjøres eller tas opp ved konstant trykk. Entropi beskriver hvor mange måter partikler og energi kan fordeles på.",
+        "kriterier": [
+          "Forklarer at ΔH handler om varme ved konstant trykk.",
+          "Forklarer at entropi handler om mulige fordelinger av partikler og energi."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Diamant kan omdannes til grafitt spontant, men omdanningen skjer nesten ikke merkbart. Forklar hvordan dette er mulig, og hva som bestemmer reaksjonsfarten.",
+        "fasit": "En spontan prosess kan gå svært sakte dersom aktiveringsenergien er høy. Termodynamikken sier om prosessen kan skje, mens kinetikken beskriver hvor fort den skjer.",
+        "kriterier": [
+          "Forklarer at spontanitet ikke betyr at prosessen går raskt.",
+          "Knytter den lave farten til høy aktiveringsenergi eller kinetikk."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Beskriv en entropiøkende endring når en væske fordamper, og forklar hvorfor entropien øker.",
+        "fasit": "Når væsken fordamper, går partiklene over til gass. I gass er partiklene og energien fordelt på flere mulige måter enn i væske, så entropien øker.",
+        "kriterier": [
+          "Beskriver at væske går over til gass.",
+          "Begrunner entropiøkningen med flere mulige fordelinger eller større spredning."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En reaksjon har ΔH > 0 og ΔS > 0. Ved hvilken type temperatur kan reaksjonen bli spontan, og hvordan bidrar entropileddet i Gibbs-formelen til dette?",
+        "fasit": "Reaksjonen kan bli spontan ved høy temperatur. Når T øker, blir TΔS større, og leddet −TΔS trekker ΔG ned.",
+        "kriterier": [
+          "Angir at reaksjonen kan være spontan ved høy temperatur.",
+          "Forklarer at større TΔS gjør ΔG mindre gjennom leddet −TΔS."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar termodynamikkens andre lov med egne ord, og ta med hva den sier om spontane prosesser.",
+        "fasit": "Loven sier at den totale entropien i universet øker i spontane prosesser. Entropi er et mål på hvor mange måter partikler og energi kan fordeles på.",
+        "kriterier": [
+          "Sier at loven gjelder den totale entropien i universet.",
+          "Sier at denne entropien øker i spontane prosesser."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "For en reaksjon er ΔG positiv. Forklar hva dette betyr for reaksjonen framover, og hvilken retning som er spontan.",
+        "fasit": "Reaksjonen framover er ikke spontan. Den motsatte reaksjonen er spontan.",
+        "kriterier": [
+          "Sier at reaksjonen framover ikke er spontan.",
+          "Angir at den motsatte reaksjonen er spontan."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "For N₂ + 3H₂ → 2NH₃ er ΔH° = −92 kJ og ΔS° = −0,199 kJ/K. Bruk ΔG° = ΔH° − TΔS° til å finne omtrent hvilken temperatur i kelvin som gir ΔG° = 0.",
+        "fasit": "Når ΔG° = 0, er T = ΔH°/ΔS°. T = (−92)/(−0,199) ≈ 460 K.",
+        "kriterier": [
+          "Setter ΔG° lik null og bruker T = ΔH°/ΔS° eller tilsvarende framgangsmåte.",
+          "Får omtrent 460 K med riktig temperaturfortegn/enhet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "For N₂ + 3H₂ → 2NH₃ er ΔS° = −0,199 kJ/K. Ved 298 K, beregn verdien av leddet TΔS° i Gibbs-formelen.",
+        "fasit": "TΔS° = 298 · (−0,199) kJ ≈ −59 kJ. Fortegnet er negativt fordi ΔS° er negativ.",
+        "kriterier": [
+          "Multipliserer 298 K med −0,199 kJ/K.",
+          "Får omtrent −59 kJ og oppgir riktig fortegn."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

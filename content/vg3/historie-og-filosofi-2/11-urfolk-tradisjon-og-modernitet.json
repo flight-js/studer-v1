@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Urfolk mellom tradisjon og modernitet",
   "intro": "Hva som kjennetegner urfolk, urfolks kultur, verdier og levemåte – med vekt på samene – brytningen mellom tradisjon og modernitet, urfolksrettigheter i ILO-konvensjonen og FN-erklæringen, konflikter om land og ressurser som Fosen-saken, og kulturell revitalisering.",
-  "kompetansemaal": [13],
+  "kompetansemaal": [
+    13
+  ],
   "sammendrag": "## Hvem er urfolk?\n\n**Urfolk** er folk som nedstammer fra dem som bodde i et område **før** dagens statsgrenser ble trukket, og som har bevart egne **sosiale**, **kulturelle** og **politiske** institusjoner. Det finnes urfolk i over **90 land**, for eksempel **samer**, **inuitter**, **maorier**, **aboriginere** i Australia og mange urfolk i **Amerika**.\n\nI Norge er **samene** anerkjent som **urfolk**. Det samiske området – **Sápmi** – strekker seg over Norge, Sverige, Finland og Russland.\n\n## Kultur, verdier og levemåte\n\nSelv om urfolk er svært **forskjellige**, har mange noen felles trekk:\n\n- nær tilknytning til **land**, **natur** og **ressurser**\n- **tradisjonell kunnskap** om natur og bærekraftig bruk, overført gjennom generasjoner\n- vekt på **fellesskap**, **slekt** og **kollektive** rettigheter\n- **muntlige** tradisjoner, som **joik** hos samene\n- egne **språk**, næringer og rettssystemer\n\nFor mange samer har **reindrift**, **fiske**, **jordbruk** og **duodji** – samisk håndverk – vært viktige næringer og kulturbærere.\n\n## Møtet med moderniteten\n\nModerne **stater**, **industri** og **markeder** har ofte kommet i **konflikt** med urfolks levemåte:\n\n- **Assimilering** og **fornorsking** gjennom skole og kirke\n- **Tap av land** til gruver, vannkraft, veier, hytter, vindkraft og militære anlegg\n- **Klimaendringer** som gjør reindrift og fangst vanskeligere\n- **Urbanisering**: Mange samer bor i dag i **byer**.\n\n## Rettigheter\n\n- **ILO-konvensjon nr. 169** fra **1989** gir urfolk rett til å bevare kultur og institusjoner og til å bli **konsultert** om saker som angår dem. Norge ratifiserte den som første land i **1990**.\n- **FNs erklæring om urfolks rettigheter** fra **2007** slår fast retten til **selvbestemmelse**, land og ressurser.\n- I Norge har samene **Sametinget** og en egen **paragraf** i Grunnloven.\n\n## Fosen-saken\n\nI **2021** kom **Høyesterett** fram til at **vindkraftverkene** på **Fosen** krenket reindriftssamenes rett til **kulturutøvelse** etter FNs konvensjon om sivile og politiske rettigheter. Saken ble et symbol på konflikten mellom **grønn omstilling** og **urfolksrettigheter**, og den førte til store **protester**.\n\n## Tradisjon og modernitet – ikke motsetninger\n\nUrfolk lever ikke i fortiden. Mange kombinerer **tradisjon** og **modernitet**:\n\n- reindriftsutøvere bruker **snøscooter**, **droner** og **GPS**\n- **joik** blandes med pop, rock og elektronisk musikk\n- samisk **design**, **film** og **litteratur** når et internasjonalt publikum\n- **sosiale medier** brukes til å styrke **språk** og **identitet**\n\n**Revitalisering** – å gjenopplive språk og kultur – har gitt mange unge samer ny **stolthet**.\n\n## Drøfting\n\nViktige spørsmål er:\n\n- Hvordan kan **statens** behov for arealer og energi balanseres mot urfolks **rettigheter**?\n- Hvem skal **definere** hva som er «ekte» urfolkskultur?\n- Hva kan majoritetssamfunnet **lære** av urfolks forhold til naturen?\n\nUrfolks situasjon viser at **modernitet** ikke betyr at alle må bli **like**, og at det finnes **flere** måter å være moderne på.",
   "flashcards": [
-    { "term": "Urfolk", "def": "Etterkommere av dem som bodde i et område før dagens statsgrenser." },
-    { "term": "Sápmi", "def": "Det samiske området i Norge, Sverige, Finland og Russland." },
-    { "term": "Tradisjonell kunnskap", "def": "Erfaringsbasert kunnskap om natur, overført gjennom generasjoner." },
-    { "term": "Kollektive rettigheter", "def": "Rettigheter som tilhører en gruppe, ikke bare enkeltpersoner." },
-    { "term": "Duodji", "def": "Samisk håndverk." },
-    { "term": "Reindrift", "def": "Tradisjonell samisk næring og kulturbærer." },
-    { "term": "Assimilering", "def": "At en minoritet presses til å gi opp egen kultur." },
-    { "term": "ILO-konvensjon nr. 169", "def": "Konvensjon fra 1989 om urfolks rettigheter – Norge ratifiserte først." },
-    { "term": "Konsultasjon", "def": "Urfolks rett til å bli hørt i saker som angår dem." },
-    { "term": "FNs urfolkserklæring", "def": "Erklæring fra 2007 om urfolks rett til selvbestemmelse, land og ressurser." },
-    { "term": "Sametinget", "def": "Samenes folkevalgte organ i Norge." },
-    { "term": "Fosen-saken", "def": "Høyesterett fant i 2021 at vindkraftverk krenket reindriftssamers rettigheter." },
-    { "term": "Grønn omstilling", "def": "Overgang til fornybar energi – kan komme i konflikt med urfolksrettigheter." },
-    { "term": "Revitalisering", "def": "Gjenoppliving av språk og kultur." },
-    { "term": "Flere måter å være moderne på", "def": "Modernitet betyr ikke at alle må bli like." }
+    {
+      "term": "Urfolk",
+      "def": "Etterkommere av dem som bodde i et område før dagens statsgrenser."
+    },
+    {
+      "term": "Sápmi",
+      "def": "Det samiske området i Norge, Sverige, Finland og Russland."
+    },
+    {
+      "term": "Tradisjonell kunnskap",
+      "def": "Erfaringsbasert kunnskap om natur, overført gjennom generasjoner."
+    },
+    {
+      "term": "Kollektive rettigheter",
+      "def": "Rettigheter som tilhører en gruppe, ikke bare enkeltpersoner."
+    },
+    {
+      "term": "Duodji",
+      "def": "Samisk håndverk."
+    },
+    {
+      "term": "Reindrift",
+      "def": "Tradisjonell samisk næring og kulturbærer."
+    },
+    {
+      "term": "Assimilering",
+      "def": "At en minoritet presses til å gi opp egen kultur."
+    },
+    {
+      "term": "ILO-konvensjon nr. 169",
+      "def": "Konvensjon fra 1989 om urfolks rettigheter – Norge ratifiserte først."
+    },
+    {
+      "term": "Konsultasjon",
+      "def": "Urfolks rett til å bli hørt i saker som angår dem."
+    },
+    {
+      "term": "FNs urfolkserklæring",
+      "def": "Erklæring fra 2007 om urfolks rett til selvbestemmelse, land og ressurser."
+    },
+    {
+      "term": "Sametinget",
+      "def": "Samenes folkevalgte organ i Norge."
+    },
+    {
+      "term": "Fosen-saken",
+      "def": "Høyesterett fant i 2021 at vindkraftverk krenket reindriftssamers rettigheter."
+    },
+    {
+      "term": "Grønn omstilling",
+      "def": "Overgang til fornybar energi – kan komme i konflikt med urfolksrettigheter."
+    },
+    {
+      "term": "Revitalisering",
+      "def": "Gjenoppliving av språk og kultur."
+    },
+    {
+      "term": "Flere måter å være moderne på",
+      "def": "Modernitet betyr ikke at alle må bli like."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner urfolk?", "options": ["At de nylig har innvandret", "At de nedstammer fra dem som bodde i et område før dagens statsgrenser", "At de er flertallet", "At de bare bor i Norge"], "correct": 1, "explain": "Og har bevart egne institusjoner." },
-    { "id": "q02", "text": "Hva er Sápmi?", "options": ["Det samiske området i Norge, Sverige, Finland og Russland", "Et samisk ord for joik", "En samisk by", "Sametinget"], "correct": 0, "explain": "Går på tvers av statsgrenser." },
-    { "id": "q03", "text": "Hva gir ILO-konvensjon nr. 169 urfolk rett til?", "options": ["Å styre hele staten", "Å slippe skatt", "Å bevare kultur og bli konsultert i saker som angår dem", "Å eie all jord"], "correct": 2, "explain": "Norge ratifiserte den først i 1990." },
-    { "id": "q04", "text": "Hva kom Høyesterett fram til i Fosen-saken i 2021?", "options": ["At vindkraftverkene var lovlige uten problemer", "At reindrift skulle avvikles", "At samene måtte flytte", "At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse"], "correct": 3, "explain": "Et symbol på konflikten mellom grønn omstilling og urfolksrettigheter." },
-    { "id": "q05", "text": "Hva er duodji?", "options": ["Samisk håndverk", "Samisk sang", "Et samisk parti", "En reinflokk"], "correct": 0, "explain": "En viktig kulturbærer." },
-    { "id": "q06", "text": "Hvordan kombinerer mange reindriftsutøvere tradisjon og modernitet?", "options": ["Ved å slutte med rein", "Ved å bruke snøscooter, droner og GPS", "Ved å flytte til utlandet", "Ved å slutte å snakke samisk"], "correct": 1, "explain": "Tradisjon og modernitet er ikke motsetninger." },
-    { "id": "q07", "text": "Hva slår FNs urfolkserklæring fra 2007 fast?", "options": ["At urfolk skal assimileres", "At urfolk ikke har rettigheter", "Retten til selvbestemmelse, land og ressurser", "At urfolk skal flytte til byer"], "correct": 2, "explain": "En viktig internasjonal erklæring." },
-    { "id": "q08", "text": "Hva er en trussel mot urfolks levemåte i dag?", "options": ["Revitalisering", "Sametinget", "Tradisjonell kunnskap", "Tap av land og klimaendringer"], "correct": 3, "explain": "Gruver, vindkraft og hytter tar arealer." },
-    { "id": "q09", "text": "Hva er kollektive rettigheter?", "options": ["Rettigheter som tilhører en gruppe", "Rettigheter for én person", "Rettigheter for staten", "Rettigheter for bedrifter"], "correct": 0, "explain": "Viktig for mange urfolk." },
-    { "id": "q10", "text": "Hva har revitaliseringen gitt mange unge samer?", "options": ["Mindre interesse for kultur", "Ny stolthet over språk og kultur", "Tap av identitet", "Ingenting"], "correct": 1, "explain": "Gjenoppliving av språk og kultur." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner urfolk?",
+      "options": [
+        "At de nylig har innvandret",
+        "At de nedstammer fra dem som bodde i et område før dagens statsgrenser",
+        "At de er flertallet",
+        "At de bare bor i Norge"
+      ],
+      "correct": 1,
+      "explain": "Og har bevart egne institusjoner."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er Sápmi?",
+      "options": [
+        "Det samiske området i Norge, Sverige, Finland og Russland",
+        "Et samisk ord for joik",
+        "En samisk by",
+        "Sametinget"
+      ],
+      "correct": 0,
+      "explain": "Går på tvers av statsgrenser."
+    },
+    {
+      "id": "q03",
+      "text": "Hva gir ILO-konvensjon nr. 169 urfolk rett til?",
+      "options": [
+        "Å styre hele staten",
+        "Å slippe skatt",
+        "Å bevare kultur og bli konsultert i saker som angår dem",
+        "Å eie all jord"
+      ],
+      "correct": 2,
+      "explain": "Norge ratifiserte den først i 1990."
+    },
+    {
+      "id": "q04",
+      "text": "Hva kom Høyesterett fram til i Fosen-saken i 2021?",
+      "options": [
+        "At vindkraftverkene var lovlige uten problemer",
+        "At reindrift skulle avvikles",
+        "At samene måtte flytte",
+        "At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse"
+      ],
+      "correct": 3,
+      "explain": "Et symbol på konflikten mellom grønn omstilling og urfolksrettigheter."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er duodji?",
+      "options": [
+        "Samisk håndverk",
+        "Samisk sang",
+        "Et samisk parti",
+        "En reinflokk"
+      ],
+      "correct": 0,
+      "explain": "En viktig kulturbærer."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan kombinerer mange reindriftsutøvere tradisjon og modernitet?",
+      "options": [
+        "Ved å slutte med rein",
+        "Ved å bruke snøscooter, droner og GPS",
+        "Ved å flytte til utlandet",
+        "Ved å slutte å snakke samisk"
+      ],
+      "correct": 1,
+      "explain": "Tradisjon og modernitet er ikke motsetninger."
+    },
+    {
+      "id": "q07",
+      "text": "Hva slår FNs urfolkserklæring fra 2007 fast?",
+      "options": [
+        "At urfolk skal assimileres",
+        "At urfolk ikke har rettigheter",
+        "Retten til selvbestemmelse, land og ressurser",
+        "At urfolk skal flytte til byer"
+      ],
+      "correct": 2,
+      "explain": "En viktig internasjonal erklæring."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en trussel mot urfolks levemåte i dag?",
+      "options": [
+        "Revitalisering",
+        "Sametinget",
+        "Tradisjonell kunnskap",
+        "Tap av land og klimaendringer"
+      ],
+      "correct": 3,
+      "explain": "Gruver, vindkraft og hytter tar arealer."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er kollektive rettigheter?",
+      "options": [
+        "Rettigheter som tilhører en gruppe",
+        "Rettigheter for én person",
+        "Rettigheter for staten",
+        "Rettigheter for bedrifter"
+      ],
+      "correct": 0,
+      "explain": "Viktig for mange urfolk."
+    },
+    {
+      "id": "q10",
+      "text": "Hva har revitaliseringen gitt mange unge samer?",
+      "options": [
+        "Mindre interesse for kultur",
+        "Ny stolthet over språk og kultur",
+        "Tap av identitet",
+        "Ingenting"
+      ],
+      "correct": 1,
+      "explain": "Gjenoppliving av språk og kultur."
+    }
   ],
   "mindmap": {
     "label": "Urfolk, tradisjon og modernitet",
     "children": [
-      { "label": "Urfolk", "children": [
-        { "label": "Definisjon" },
-        { "label": "Samer og Sápmi" },
-        { "label": "Urfolk i verden" }
-      ] },
-      { "label": "Kultur", "children": [
-        { "label": "Land og natur" },
-        { "label": "Tradisjonell kunnskap" },
-        { "label": "Joik og duodji" }
-      ] },
-      { "label": "Møtet med moderniteten", "children": [
-        { "label": "Fornorsking" },
-        { "label": "Tap av land" },
-        { "label": "Klima" }
-      ] },
-      { "label": "Rettigheter", "children": [
-        { "label": "ILO 169" },
-        { "label": "FN-erklæringen 2007" },
-        { "label": "Fosen-saken" }
-      ] },
-      { "label": "I dag", "children": [
-        { "label": "Tradisjon og teknologi" },
-        { "label": "Revitalisering" }
-      ] }
+      {
+        "label": "Urfolk",
+        "children": [
+          {
+            "label": "Definisjon"
+          },
+          {
+            "label": "Samer og Sápmi"
+          },
+          {
+            "label": "Urfolk i verden"
+          }
+        ]
+      },
+      {
+        "label": "Kultur",
+        "children": [
+          {
+            "label": "Land og natur"
+          },
+          {
+            "label": "Tradisjonell kunnskap"
+          },
+          {
+            "label": "Joik og duodji"
+          }
+        ]
+      },
+      {
+        "label": "Møtet med moderniteten",
+        "children": [
+          {
+            "label": "Fornorsking"
+          },
+          {
+            "label": "Tap av land"
+          },
+          {
+            "label": "Klima"
+          }
+        ]
+      },
+      {
+        "label": "Rettigheter",
+        "children": [
+          {
+            "label": "ILO 169"
+          },
+          {
+            "label": "FN-erklæringen 2007"
+          },
+          {
+            "label": "Fosen-saken"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Tradisjon og teknologi"
+          },
+          {
+            "label": "Revitalisering"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange samer bor i dag i byer.", "correct": true, "explain": "Urbanisering har også påvirket urfolk." },
-      { "id": "m02", "type": "sant-usant", "text": "Urfolk lever i fortiden og bruker ikke moderne teknologi.", "correct": false, "explain": "Mange kombinerer tradisjon og modernitet." },
-      { "id": "m03", "type": "sant-usant", "text": "Det finnes urfolk i over 90 land.", "correct": true, "explain": "For eksempel inuitter og maorier." },
-      { "id": "m04", "type": "sant-usant", "text": "Grønn omstilling kan aldri komme i konflikt med urfolksrettigheter.", "correct": false, "explain": "Fosen-saken viser det motsatte." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er konsultasjon for urfolk?", "options": ["En type skatt", "Retten til å bli hørt i saker som angår dem", "Et samisk ritual", "En næring"], "correct": 1, "explain": "Fastslått i ILO 169." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket spørsmål er sentralt i drøftingen om urfolk og modernitet?", "options": ["Hvem skal definere hva som er «ekte» urfolkskultur?", "Hvor mange rein finnes?", "Hvilken farge har kofta?", "Når startet vikingtiden?"], "correct": 0, "explain": "Kultur endrer seg over tid." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilke folk er urfolk i Australia?", "options": ["Maorier", "Inuitter", "Aboriginere", "Samer"], "correct": 2, "explain": "Maoriene er urfolk i New Zealand." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange samer bor i dag i byer.",
+        "correct": true,
+        "explain": "Urbanisering har også påvirket urfolk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Urfolk lever i fortiden og bruker ikke moderne teknologi.",
+        "correct": false,
+        "explain": "Mange kombinerer tradisjon og modernitet."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Det finnes urfolk i over 90 land.",
+        "correct": true,
+        "explain": "For eksempel inuitter og maorier."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Grønn omstilling kan aldri komme i konflikt med urfolksrettigheter.",
+        "correct": false,
+        "explain": "Fosen-saken viser det motsatte."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er konsultasjon for urfolk?",
+        "options": [
+          "En type skatt",
+          "Retten til å bli hørt i saker som angår dem",
+          "Et samisk ritual",
+          "En næring"
+        ],
+        "correct": 1,
+        "explain": "Fastslått i ILO 169."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket spørsmål er sentralt i drøftingen om urfolk og modernitet?",
+        "options": [
+          "Hvem skal definere hva som er «ekte» urfolkskultur?",
+          "Hvor mange rein finnes?",
+          "Hvilken farge har kofta?",
+          "Når startet vikingtiden?"
+        ],
+        "correct": 0,
+        "explain": "Kultur endrer seg over tid."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilke folk er urfolk i Australia?",
+        "options": [
+          "Maorier",
+          "Inuitter",
+          "Aboriginere",
+          "Samer"
+        ],
+        "correct": 2,
+        "explain": "Maoriene er urfolk i New Zealand."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva menes med tradisjonell kunnskap om naturen, og hvordan blir slik kunnskap ført videre?",
+        "fasit": "Tradisjonell kunnskap er erfaringsbasert kunnskap om naturen og hvordan den kan brukes på en bærekraftig måte. Den blir overført gjennom generasjoner.",
+        "kriterier": [
+          "Forklarer at kunnskapen bygger på erfaring med naturen.",
+          "Får fram at kunnskapen overføres mellom generasjoner."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hvorfor tap av land kan ramme både næringsgrunnlaget og kulturen til samer. Bruk reindrift i svaret.",
+        "fasit": "Reindrift er avhengig av tilgang til land og naturressurser. Den er også en kulturbærer, så inngrep som tar arealer kan ramme både næringen og samisk kultur.",
+        "kriterier": [
+          "Knytter reindrift eller annen næring til tilgang på land og ressurser.",
+          "Forklarer at reindrift også har kulturell betydning."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign assimilering og revitalisering av samisk kultur: Hva skjer med kulturen i hver av prosessene?",
+        "fasit": "Ved assimilering presses en minoritet til å gi opp egen kultur. Revitalisering går motsatt vei ved å gjenopplive språk og kultur.",
+        "kriterier": [
+          "Forklarer at assimilering innebærer press om å gi opp egen kultur.",
+          "Forklarer at revitalisering innebærer å gjenopplive språk og kultur."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Joik kan blandes med pop, rock eller elektronisk musikk. Forklar hvordan dette eksempelet viser at tradisjon og modernitet kan kombineres.",
+        "fasit": "Joik er en samisk tradisjon som kan brukes i moderne musikksjangre. Eksempelet viser at tradisjon kan videreføres og utvikles uten at den må forsvinne.",
+        "kriterier": [
+          "Knytter joik til samisk tradisjon.",
+          "Forklarer at joik kan kombineres med moderne musikksjangre uten at tradisjonen dermed forsvinner."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Mange samer bor i byer, og sosiale medier brukes til å styrke samisk språk og identitet. Forklar hvorfor det å bo i en by ikke i seg selv betyr at samisk kultur er borte.",
+        "fasit": "Å bo i en by betyr ikke nødvendigvis at man gir opp samisk språk eller identitet. Sosiale medier kan brukes til å styrke disse delene av kulturen også i en moderne hverdag.",
+        "kriterier": [
+          "Skiller det å bo i en by fra det å gi opp samisk kultur eller identitet.",
+          "Bruker sosiale medier eller et annet relevant eksempel på hvordan språk eller identitet kan styrkes."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En stat vurderer å bygge en vei i et område som brukes av samiske reindriftsutøvere. Forklar hva konsultasjon innebærer i en slik sak, og hvorfor det er relevant.",
+        "fasit": "Konsultasjon innebærer at samene har rett til å bli hørt i saker som angår dem. Det er relevant fordi veien kan berøre arealer og reindrift.",
+        "kriterier": [
+          "Forklarer at konsultasjon gir samene rett til å bli hørt.",
+          "Knytter retten til at saken kan påvirke samene, for eksempel reindrift eller arealbruk."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I Fosen-saken sto vindkraft og reindrift mot hverandre. Forklar hvorfor saken viser en konflikt mellom grønn omstilling og urfolksrettigheter.",
+        "fasit": "Vindkraft inngår i overgangen til fornybar energi, men vindkraftverkene på Fosen krenket reindriftssamenes rett til kulturutøvelse. Saken viser derfor at tiltak for grønn omstilling kan komme i konflikt med urfolks rettigheter.",
+        "kriterier": [
+          "Forklarer at vindkraft er knyttet til grønn omstilling eller fornybar energi.",
+          "Får fram at vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En reindriftsutøver bruker GPS i arbeidet sitt. Forklar hvordan dette eksempelet utfordrer forestillingen om at en moderne person må gi opp tradisjonelle levemåter.",
+        "fasit": "GPS er moderne teknologi som kan brukes i tradisjonell reindrift. Eksempelet viser at moderne hjelpemidler kan kombineres med en tradisjonell næring.",
+        "kriterier": [
+          "Knytter GPS til moderne teknologi og reindrift til en tradisjonell næring.",
+          "Forklarer at de to kan kombineres."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,78 +4,425 @@
   "trinnId": "vg2",
   "name": "Markedsføring, ledelse og fagets modeller",
   "intro": "Hva markedsføring og ledelse er, sentrale begreper som behov og etterspørsel, utviklingen fra produksjonsorientering til samfunnsorientering, markedsføringsmiksen og markedsplanen – og hvordan du bruker kilder og modeller i arbeid med dagsaktuelle problemstillinger.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Hva er markedsføring?\n\n**Markedsføring** er mer enn reklame. Det er alle aktivitetene en virksomhet gjør for å **forstå** kundene og **skape**, **kommunisere** og **levere verdi** til dem – slik at både kunden og virksomheten tjener på **byttet**.\n\nTre grunnbegreper:\n\n- **Behov**: en følelse av at noe **mangler**, som sult eller ønsket om tilhørighet.\n- **Ønske**: den konkrete formen behovet tar, for eksempel en burger.\n- **Etterspørsel**: et ønske som kunden har **kjøpekraft** til å gjennomføre.\n\n## Fra produksjon til samfunnsansvar\n\nVirksomheter har hatt ulike **orienteringer** gjennom historien:\n\n1. **Produksjonsorientering**: Etterspørselen er større enn tilbudet. Målet er å produsere **effektivt** og billig.\n2. **Produktorientering**: Virksomheten tror kundene vil ha best mulig **kvalitet**.\n3. **Salgsorientering**: Tilbudet er stort, og virksomheten satser på **aggressivt salg**.\n4. **Markedsorientering**: Virksomheten tar utgangspunkt i **kundenes behov**.\n5. **Samfunnsorientering**: Virksomheten tar også hensyn til **samfunnet** og **miljøet** på lang sikt.\n\nI dag er **relasjonsmarkedsføring** viktig: å bygge **langsiktige** forhold til kundene gjennom god service, kundeklubber og dialog. Det er ofte **billigere** å beholde en kunde enn å skaffe en ny.\n\n## Markedsføringsmiksen\n\nVirksomheten bruker **konkurransemidler** for å nå målene sine. De fire klassiske er de **fire P-ene**:\n\n- **Produkt** – hva som tilbys\n- **Pris** – hva det koster\n- **Plass** – distribusjon, hvor og hvordan kunden får tak i produktet\n- **Påvirkning** – markedskommunikasjon\n\nFor **tjenester** brukes ofte **sju P-er**, der **personale**, **prosess** og **fysiske omgivelser** kommer i tillegg.\n\n## Hva er ledelse?\n\n**Ledelse** er å få andre til å arbeide mot felles **mål**. Klassiske **lederoppgaver** er å\n\n- **planlegge** – sette mål og velge strategier\n- **organisere** – fordele oppgaver og ressurser\n- **lede** – motivere og kommunisere med de ansatte\n- **kontrollere** – følge opp resultatene og justere\n\n## Markedsplanen\n\nEn **markedsplan** samler markedsføringsarbeidet:\n\n1. **Situasjonsanalyse** – hvor står vi?\n2. **Mål** – hvor vil vi?\n3. **Strategi** – målgruppe og posisjonering\n4. **Konkurransemidler** – de fire P-ene\n5. **Gjennomføring** og **budsjett**\n6. **Kontroll** – nådde vi målene?\n\n## Modeller og kilder\n\n**Modeller** som de fire P-ene, SWOT og AIDA er **forenklinger** som hjelper oss å **strukturere** en analyse. De passer ikke alltid perfekt, og du bør vurdere **svakhetene** deres.\n\nGode **kilder** er fagbøker, **SSB**, **Forbrukertilsynet**, bransjerapporter og redaktørstyrte medier. **Virksomhetenes egne** nettsider og pressemeldinger er nyttige, men har en **egeninteresse** i å vise seg fram.\n\n## Å arbeide med en dagsaktuell sak\n\nTa for eksempel en kjede som lanserer en ny **bærekraftig** produktserie. Du kan\n\n- bruke de **fire P-ene** for å beskrive tiltakene\n- bruke **SWOT** for å vurdere situasjonen\n- finne **kilder** som belyser saken fra flere sider\n- drøfte om satsingen er **lønnsom**, **troverdig** og **etisk**",
   "flashcards": [
-    { "term": "Markedsføring", "def": "Å forstå kundene og skape, kommunisere og levere verdi til dem." },
-    { "term": "Behov", "def": "En følelse av at noe mangler." },
-    { "term": "Ønske", "def": "Den konkrete formen et behov tar." },
-    { "term": "Etterspørsel", "def": "Et ønske kunden har kjøpekraft til å gjennomføre." },
-    { "term": "Produksjonsorientering", "def": "Fokus på effektiv og billig produksjon når etterspørselen er stor." },
-    { "term": "Salgsorientering", "def": "Satsing på aggressivt salg når tilbudet er stort." },
-    { "term": "Markedsorientering", "def": "Kundenes behov er utgangspunktet." },
-    { "term": "Samfunnsorientering", "def": "Hensyn også til samfunn og miljø på lang sikt." },
-    { "term": "Relasjonsmarkedsføring", "def": "Å bygge langsiktige forhold til kundene." },
-    { "term": "Konkurransemidler", "def": "Virkemidlene virksomheten bruker for å nå målene sine." },
-    { "term": "De fire P-ene", "def": "Produkt, pris, plass og påvirkning." },
-    { "term": "Sju P-er", "def": "De fire P-ene pluss personale, prosess og fysiske omgivelser." },
-    { "term": "Ledelse", "def": "Å få andre til å arbeide mot felles mål." },
-    { "term": "Lederoppgaver", "def": "Planlegge, organisere, lede og kontrollere." },
-    { "term": "Markedsplan", "def": "Situasjonsanalyse, mål, strategi, konkurransemidler, gjennomføring og kontroll." },
-    { "term": "Modell", "def": "En forenkling som hjelper oss å strukturere en analyse." }
+    {
+      "term": "Markedsføring",
+      "def": "Å forstå kundene og skape, kommunisere og levere verdi til dem."
+    },
+    {
+      "term": "Behov",
+      "def": "En følelse av at noe mangler."
+    },
+    {
+      "term": "Ønske",
+      "def": "Den konkrete formen et behov tar."
+    },
+    {
+      "term": "Etterspørsel",
+      "def": "Et ønske kunden har kjøpekraft til å gjennomføre."
+    },
+    {
+      "term": "Produksjonsorientering",
+      "def": "Fokus på effektiv og billig produksjon når etterspørselen er stor."
+    },
+    {
+      "term": "Salgsorientering",
+      "def": "Satsing på aggressivt salg når tilbudet er stort."
+    },
+    {
+      "term": "Markedsorientering",
+      "def": "Kundenes behov er utgangspunktet."
+    },
+    {
+      "term": "Samfunnsorientering",
+      "def": "Hensyn også til samfunn og miljø på lang sikt."
+    },
+    {
+      "term": "Relasjonsmarkedsføring",
+      "def": "Å bygge langsiktige forhold til kundene."
+    },
+    {
+      "term": "Konkurransemidler",
+      "def": "Virkemidlene virksomheten bruker for å nå målene sine."
+    },
+    {
+      "term": "De fire P-ene",
+      "def": "Produkt, pris, plass og påvirkning."
+    },
+    {
+      "term": "Sju P-er",
+      "def": "De fire P-ene pluss personale, prosess og fysiske omgivelser."
+    },
+    {
+      "term": "Ledelse",
+      "def": "Å få andre til å arbeide mot felles mål."
+    },
+    {
+      "term": "Lederoppgaver",
+      "def": "Planlegge, organisere, lede og kontrollere."
+    },
+    {
+      "term": "Markedsplan",
+      "def": "Situasjonsanalyse, mål, strategi, konkurransemidler, gjennomføring og kontroll."
+    },
+    {
+      "term": "Modell",
+      "def": "En forenkling som hjelper oss å strukturere en analyse."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er etterspørsel?", "options": ["En følelse av at noe mangler", "Et ønske kunden har kjøpekraft til å gjennomføre", "Et produkt", "En reklame"], "correct": 1, "explain": "Behov og ønsker blir etterspørsel når kunden kan betale." },
-    { "id": "q02", "text": "Hva kjennetegner markedsorientering?", "options": ["Kundenes behov er utgangspunktet", "Fokus på billig produksjon", "Aggressivt salg", "Bare kvalitet"], "correct": 0, "explain": "Virksomheten starter med kunden." },
-    { "id": "q03", "text": "Hva står de fire P-ene for?", "options": ["Plan, pris, personale og profitt", "Produkt, profil, pris og presse", "Produkt, pris, plass og påvirkning", "Pris, prosess, plass og personale"], "correct": 2, "explain": "Markedsføringsmiksen." },
-    { "id": "q04", "text": "Hvilke P-er kommer i tillegg for tjenester?", "options": ["Profitt, plan og presse", "Pris og produkt", "Promotering og plassering", "Personale, prosess og fysiske omgivelser"], "correct": 3, "explain": "Sju P-er." },
-    { "id": "q05", "text": "Hva er relasjonsmarkedsføring?", "options": ["Å bygge langsiktige forhold til kundene", "Å selge mest mulig på kort tid", "Å bare reklamere på TV", "Å senke prisene"], "correct": 0, "explain": "Det er ofte billigere å beholde en kunde enn å skaffe en ny." },
-    { "id": "q06", "text": "Hvilken oppgave er en klassisk lederoppgave?", "options": ["Å produsere varene selv", "Å planlegge, organisere, lede og kontrollere", "Å selge i kassen", "Å designe logoen"], "correct": 1, "explain": "Fire klassiske lederoppgaver." },
-    { "id": "q07", "text": "Hva er det første steget i en markedsplan?", "options": ["Kontroll", "Budsjett", "Situasjonsanalyse", "Reklame"], "correct": 2, "explain": "Hvor står vi?" },
-    { "id": "q08", "text": "Hvorfor bør du være kritisk til en virksomhets egne pressemeldinger?", "options": ["De er alltid feil", "De er for korte", "De er ulovlige", "Virksomheten har egeninteresse i å vise seg fram"], "correct": 3, "explain": "Sjekk mot flere kilder." },
-    { "id": "q09", "text": "Hva kjennetegner samfunnsorientering?", "options": ["Hensyn også til samfunn og miljø på lang sikt", "Fokus bare på profitt", "Fokus på produksjon", "Aggressivt salg"], "correct": 0, "explain": "Den nyeste orienteringen." },
-    { "id": "q10", "text": "Hva er en modell i markedsføring?", "options": ["En person i reklame", "En forenkling som hjelper oss å strukturere en analyse", "Et produkt", "En lov"], "correct": 1, "explain": "Modeller har også svakheter." }
+    {
+      "id": "q01",
+      "text": "Hva er etterspørsel?",
+      "options": [
+        "En følelse av at noe mangler",
+        "Et ønske kunden har kjøpekraft til å gjennomføre",
+        "Et produkt",
+        "En reklame"
+      ],
+      "correct": 1,
+      "explain": "Behov og ønsker blir etterspørsel når kunden kan betale."
+    },
+    {
+      "id": "q02",
+      "text": "Hva kjennetegner markedsorientering?",
+      "options": [
+        "Kundenes behov er utgangspunktet",
+        "Fokus på billig produksjon",
+        "Aggressivt salg",
+        "Bare kvalitet"
+      ],
+      "correct": 0,
+      "explain": "Virksomheten starter med kunden."
+    },
+    {
+      "id": "q03",
+      "text": "Hva står de fire P-ene for?",
+      "options": [
+        "Plan, pris, personale og profitt",
+        "Produkt, profil, pris og presse",
+        "Produkt, pris, plass og påvirkning",
+        "Pris, prosess, plass og personale"
+      ],
+      "correct": 2,
+      "explain": "Markedsføringsmiksen."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilke P-er kommer i tillegg for tjenester?",
+      "options": [
+        "Profitt, plan og presse",
+        "Pris og produkt",
+        "Promotering og plassering",
+        "Personale, prosess og fysiske omgivelser"
+      ],
+      "correct": 3,
+      "explain": "Sju P-er."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er relasjonsmarkedsføring?",
+      "options": [
+        "Å bygge langsiktige forhold til kundene",
+        "Å selge mest mulig på kort tid",
+        "Å bare reklamere på TV",
+        "Å senke prisene"
+      ],
+      "correct": 0,
+      "explain": "Det er ofte billigere å beholde en kunde enn å skaffe en ny."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken oppgave er en klassisk lederoppgave?",
+      "options": [
+        "Å produsere varene selv",
+        "Å planlegge, organisere, lede og kontrollere",
+        "Å selge i kassen",
+        "Å designe logoen"
+      ],
+      "correct": 1,
+      "explain": "Fire klassiske lederoppgaver."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er det første steget i en markedsplan?",
+      "options": [
+        "Kontroll",
+        "Budsjett",
+        "Situasjonsanalyse",
+        "Reklame"
+      ],
+      "correct": 2,
+      "explain": "Hvor står vi?"
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor bør du være kritisk til en virksomhets egne pressemeldinger?",
+      "options": [
+        "De er alltid feil",
+        "De er for korte",
+        "De er ulovlige",
+        "Virksomheten har egeninteresse i å vise seg fram"
+      ],
+      "correct": 3,
+      "explain": "Sjekk mot flere kilder."
+    },
+    {
+      "id": "q09",
+      "text": "Hva kjennetegner samfunnsorientering?",
+      "options": [
+        "Hensyn også til samfunn og miljø på lang sikt",
+        "Fokus bare på profitt",
+        "Fokus på produksjon",
+        "Aggressivt salg"
+      ],
+      "correct": 0,
+      "explain": "Den nyeste orienteringen."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en modell i markedsføring?",
+      "options": [
+        "En person i reklame",
+        "En forenkling som hjelper oss å strukturere en analyse",
+        "Et produkt",
+        "En lov"
+      ],
+      "correct": 1,
+      "explain": "Modeller har også svakheter."
+    }
   ],
   "mindmap": {
     "label": "Markedsføring og ledelse",
     "children": [
-      { "label": "Grunnbegreper", "children": [
-        { "label": "Behov og ønsker" },
-        { "label": "Etterspørsel" },
-        { "label": "Verdi" }
-      ] },
-      { "label": "Orienteringer", "children": [
-        { "label": "Produksjon og produkt" },
-        { "label": "Salg" },
-        { "label": "Marked og samfunn" }
-      ] },
-      { "label": "Markedsføringsmiks", "children": [
-        { "label": "Fire P-er" },
-        { "label": "Sju P-er for tjenester" }
-      ] },
-      { "label": "Ledelse", "children": [
-        { "label": "Planlegge og organisere" },
-        { "label": "Lede og kontrollere" }
-      ] },
-      { "label": "Arbeidsmåter", "children": [
-        { "label": "Markedsplan" },
-        { "label": "Modeller" },
-        { "label": "Kildekritikk" }
-      ] }
+      {
+        "label": "Grunnbegreper",
+        "children": [
+          {
+            "label": "Behov og ønsker"
+          },
+          {
+            "label": "Etterspørsel"
+          },
+          {
+            "label": "Verdi"
+          }
+        ]
+      },
+      {
+        "label": "Orienteringer",
+        "children": [
+          {
+            "label": "Produksjon og produkt"
+          },
+          {
+            "label": "Salg"
+          },
+          {
+            "label": "Marked og samfunn"
+          }
+        ]
+      },
+      {
+        "label": "Markedsføringsmiks",
+        "children": [
+          {
+            "label": "Fire P-er"
+          },
+          {
+            "label": "Sju P-er for tjenester"
+          }
+        ]
+      },
+      {
+        "label": "Ledelse",
+        "children": [
+          {
+            "label": "Planlegge og organisere"
+          },
+          {
+            "label": "Lede og kontrollere"
+          }
+        ]
+      },
+      {
+        "label": "Arbeidsmåter",
+        "children": [
+          {
+            "label": "Markedsplan"
+          },
+          {
+            "label": "Modeller"
+          },
+          {
+            "label": "Kildekritikk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Markedsføring er mer enn reklame.", "correct": true, "explain": "Det handler om å skape og levere verdi." },
-      { "id": "m02", "type": "sant-usant", "text": "Produksjonsorientering passer best når tilbudet er mye større enn etterspørselen.", "correct": false, "explain": "Den oppstod når etterspørselen var større enn tilbudet." },
-      { "id": "m03", "type": "sant-usant", "text": "Modeller som de fire P-ene er forenklinger av virkeligheten.", "correct": true, "explain": "De hjelper oss å strukturere en analyse." },
-      { "id": "m04", "type": "sant-usant", "text": "Det er alltid billigere å skaffe en ny kunde enn å beholde en gammel.", "correct": false, "explain": "Det er ofte omvendt." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken P handler om distribusjon?", "options": ["Påvirkning", "Plass", "Pris", "Produkt"], "correct": 1, "explain": "Hvor og hvordan kunden får tak i produktet." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken kilde gir offisiell statistikk?", "options": ["SSB", "En influencer", "En reklameplakat", "Et nettforum"], "correct": 0, "explain": "Statistisk sentralbyrå." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er et behov?", "options": ["Et bestemt merke", "Et ønske med kjøpekraft", "En følelse av at noe mangler", "En pris"], "correct": 2, "explain": "For eksempel sult." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Markedsføring er mer enn reklame.",
+        "correct": true,
+        "explain": "Det handler om å skape og levere verdi."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Produksjonsorientering passer best når tilbudet er mye større enn etterspørselen.",
+        "correct": false,
+        "explain": "Den oppstod når etterspørselen var større enn tilbudet."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Modeller som de fire P-ene er forenklinger av virkeligheten.",
+        "correct": true,
+        "explain": "De hjelper oss å strukturere en analyse."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det er alltid billigere å skaffe en ny kunde enn å beholde en gammel.",
+        "correct": false,
+        "explain": "Det er ofte omvendt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken P handler om distribusjon?",
+        "options": [
+          "Påvirkning",
+          "Plass",
+          "Pris",
+          "Produkt"
+        ],
+        "correct": 1,
+        "explain": "Hvor og hvordan kunden får tak i produktet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken kilde gir offisiell statistikk?",
+        "options": [
+          "SSB",
+          "En influencer",
+          "En reklameplakat",
+          "Et nettforum"
+        ],
+        "correct": 0,
+        "explain": "Statistisk sentralbyrå."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er et behov?",
+        "options": [
+          "Et bestemt merke",
+          "Et ønske med kjøpekraft",
+          "En følelse av at noe mangler",
+          "En pris"
+        ],
+        "correct": 2,
+        "explain": "For eksempel sult."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En kunde kjenner at hen er sulten, får lyst på en burger, men har ikke penger til å kjøpe den. Hva er behovet, hva er ønsket, og hvorfor er dette ikke etterspørsel?",
+        "fasit": "Sulten er behovet, og burgeren er ønsket. Det er ikke etterspørsel fordi kunden ikke har kjøpekraft til å gjennomføre kjøpet.",
+        "kriterier": [
+          "Skiller mellom behovet (at noe mangler) og ønsket (den konkrete formen behovet tar).",
+          "Forklarer at ønsket ikke er etterspørsel fordi kunden mangler kjøpekraft."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En virksomhet bruker penger på reklame, men undersøker ikke hva kundene trenger og vurderer ikke hvordan tilbudet skal gi dem verdi. Forklar hvorfor virksomheten ikke dekker hele markedsføringsarbeidet.",
+        "fasit": "Markedsføring er mer enn reklame. Virksomheten må også forstå kundene og skape og levere verdi til dem, i tillegg til å kommunisere verdien.",
+        "kriterier": [
+          "Forklarer at markedsføring omfatter mer enn kommunikasjon eller reklame.",
+          "Nevner at virksomheten må forstå kundene og skape eller levere verdi til dem."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign produksjonsorientering og salgsorientering. Hva fokuserer virksomheten på i hver orientering, og hvilken markedssituasjon forbindes de med?",
+        "fasit": "Ved produksjonsorientering er etterspørselen større enn tilbudet, og virksomheten fokuserer på effektiv og billig produksjon. Ved salgsorientering er tilbudet stort, og virksomheten satser på aggressivt salg.",
+        "kriterier": [
+          "Knytter produksjonsorientering til stor etterspørsel sammenlignet med tilbudet og effektiv, billig produksjon.",
+          "Knytter salgsorientering til stort tilbud og aggressivt salg."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En kjede skal lansere en ny bærekraftig produktserie. Foreslå ett tiltak for hver av de fire P-ene: produkt, pris, plass og påvirkning.",
+        "fasit": "Kjeden kan tilby produkter med bærekraftige egenskaper, velge en pris, bestemme hvor produktene skal selges og kommunisere lanseringen til kundene. Tiltakene viser hva kjeden tilbyr, hva det koster, hvor kundene får tak i det, og hvordan det kommuniseres.",
+        "kriterier": [
+          "Gir et relevant tiltak for produkt og pris.",
+          "Gir et relevant tiltak for plass og påvirkning."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En leder setter mål for en arbeidsgruppe og bestemmer deretter hvem som skal gjøre de ulike oppgavene. Hvilken lederoppgave beskrives i hver del, og hva skiller dem?",
+        "fasit": "Å sette mål er planlegging. Å fordele oppgaver er organisering: planlegging handler om mål og strategier, mens organisering handler om fordeling av oppgaver og ressurser.",
+        "kriterier": [
+          "Identifiserer målsetting som planlegging.",
+          "Identifiserer oppgavefordeling som organisering og skiller mellom hva de innebærer."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I en markedsplan er mål og strategi fastsatt, og virksomheten har valgt konkurransemidler. Hva kommer deretter, og hva skal virksomheten undersøke i kontrollfasen?",
+        "fasit": "Etter valg av konkurransemidler kommer gjennomføring og budsjett. I kontrollfasen undersøker virksomheten om den nådde målene.",
+        "kriterier": [
+          "Plasserer gjennomføring og budsjett etter konkurransemidlene.",
+          "Forklarer at kontroll handler om å undersøke om målene ble nådd."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev bruker en modell som eneste grunnlag for å analysere en virksomhet. Forklar hvorfor dette kan gi et ufullstendig bilde, og hva eleven bør gjøre med modellens svakheter.",
+        "fasit": "En modell er en forenkling og passer ikke alltid perfekt til situasjonen. Eleven bør derfor vurdere modellens svakheter i stedet for å behandle analysen som et fullstendig bilde.",
+        "kriterier": [
+          "Forklarer at modeller forenkler og derfor ikke alltid passer perfekt.",
+          "Sier at modellens svakheter bør vurderes."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En butikk ønsker å beholde flere av kundene sine. Foreslå ett tiltak innen relasjonsmarkedsføring, og forklar hvorfor det passer med målet.",
+        "fasit": "Butikken kan for eksempel bruke god service, en kundeklubb eller dialog med kundene for å bygge langsiktige forhold. Det passer fordi relasjonsmarkedsføring handler om å beholde og utvikle forholdet til kunder, og det er ofte billigere å beholde en kunde enn å skaffe en ny.",
+        "kriterier": [
+          "Foreslår et relevant tiltak, som god service, kundeklubb eller dialog.",
+          "Knytter tiltaket til langsiktige kundeforhold eller til at det ofte er billigere å beholde kunder enn å skaffe nye."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

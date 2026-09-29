@@ -4,79 +4,430 @@
   "trinnId": "vg2",
   "name": "Homeostase og regulering",
   "intro": "Hvordan nervesystemet og hormonsystemet holder kroppens indre miljø stabilt gjennom negativ tilbakekobling – med temperatur, blodsukker og væskebalanse som eksempler – og hvordan livsstil påvirker reguleringen.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Et stabilt indre miljø\n\n**Homeostase** betyr at kroppen holder det **indre miljøet** – temperatur, blodsukker, vanninnhold, pH og mer – innenfor **snevre grenser**, selv om omgivelsene endrer seg. Cellene og enzymene fungerer bare godt under stabile forhold.\n\n## Negativ tilbakekobling\n\nDe fleste reguleringer skjer ved **negativ tilbakekobling**:\n\n1. En **sensor** (reseptor) registrerer en endring.\n2. Et **kontrollsenter**, ofte i hjernen, sammenligner med **settpunktet**.\n3. En **effektor** – en muskel eller kjertel – gjør en endring som **motvirker** avviket.\n\nNår verdien er tilbake ved settpunktet, **dempes** responsen. Det fungerer som en termostat.\n\nMer sjelden finnes **positiv tilbakekobling**, som **forsterker** en endring – for eksempel under en **fødsel**, der hormonet oksytocin gir sterkere rier, som igjen gir mer oksytocin.\n\n## To styringssystemer\n\n- **Nervesystemet** sender elektriske signaler langs nerveceller. Det er **raskt** og **kortvarig**.\n- **Hormonsystemet** sender **hormoner** med blodet fra kjertler. Det er **langsommere**, men virker **lenger**. Hormonene påvirker bare celler med riktige **reseptorer**.\n\n**Hypothalamus** i hjernen binder de to systemene sammen.\n\n## Temperatur\n\nKroppstemperaturen holdes rundt **37 °C**. Hypothalamus får signaler fra temperatursensorer.\n\n- **For varmt**: Vi **svetter**, og blodårene i huden **utvider** seg slik at mer varme avgis.\n- **For kaldt**: Blodårene i huden **trekker seg sammen**, vi **skjelver**, og hårene reiser seg («gåsehud»).\n\n## Blodsukker\n\nBukspyttkjertelen regulerer blodsukkeret, som hos friske fastende personer ligger på omtrent **4–6 mmol/L**.\n\n- Etter et måltid stiger blodsukkeret. **Betacellene** skiller ut **insulin**, som får cellene til å ta opp glukose og leveren til å lagre den som **glykogen**. Blodsukkeret synker.\n- Når blodsukkeret blir lavt, skiller **alfacellene** ut **glukagon**, som får leveren til å bryte ned glykogen. Blodsukkeret stiger.\n\n## Væskebalanse\n\nNår kroppen mangler vann, skiller hypofysen ut **ADH** (antidiuretisk hormon). Det får **nyrene** til å holde tilbake vann, og urinen blir mørkere og mer konsentrert. **Alkohol hemmer ADH**, og derfor tisser man mer og kan bli dehydrert.\n\n## Livsstil og regulering\n\n- **Diabetes type 1** er en **autoimmun** sykdom der immunforsvaret ødelegger betacellene. Den behandles med insulin og skyldes **ikke** livsstil.\n- **Diabetes type 2** skyldes at cellene reagerer **dårligere** på insulin (insulinresistens). Arv spiller inn, men **fysisk inaktivitet**, **overvekt** og kosthold øker risikoen. **Mosjon** gjør cellene mer følsomme for insulin.\n- **Langvarig stress** gir høye nivåer av stresshormonet **kortisol**, som kan påvirke søvn, blodsukker og immunforsvar.\n- **Søvn**, **kosthold** og **fysisk aktivitet** påvirker altså kroppens evne til å holde balansen.",
   "flashcards": [
-    { "term": "Homeostase", "def": "Kroppen holder det indre miljøet stabilt." },
-    { "term": "Negativ tilbakekobling", "def": "Responsen motvirker avviket fra settpunktet." },
-    { "term": "Positiv tilbakekobling", "def": "Responsen forsterker endringen, som under fødsel." },
-    { "term": "Sensor, kontrollsenter, effektor", "def": "De tre leddene i en regulering." },
-    { "term": "Settpunkt", "def": "Verdien kroppen prøver å holde, som 37 °C." },
-    { "term": "Nervesystemet", "def": "Raske, kortvarige elektriske signaler." },
-    { "term": "Hormonsystemet", "def": "Langsommere, langvarige signaler med blodet." },
-    { "term": "Hypothalamus", "def": "Del av hjernen som styrer blant annet temperatur og binder nerve- og hormonsystemet sammen." },
-    { "term": "Insulin", "def": "Hormon fra betacellene som senker blodsukkeret." },
-    { "term": "Glukagon", "def": "Hormon fra alfacellene som øker blodsukkeret." },
-    { "term": "Glykogen", "def": "Lagringsform for glukose i lever og muskler." },
-    { "term": "ADH", "def": "Hormon som får nyrene til å holde tilbake vann." },
-    { "term": "Diabetes type 1", "def": "Autoimmun sykdom der betacellene ødelegges." },
-    { "term": "Diabetes type 2", "def": "Insulinresistens; risikoen øker med inaktivitet og overvekt." },
-    { "term": "Kortisol", "def": "Stresshormon som ved langvarig stress kan påvirke mange reguleringer." }
+    {
+      "term": "Homeostase",
+      "def": "Kroppen holder det indre miljøet stabilt."
+    },
+    {
+      "term": "Negativ tilbakekobling",
+      "def": "Responsen motvirker avviket fra settpunktet."
+    },
+    {
+      "term": "Positiv tilbakekobling",
+      "def": "Responsen forsterker endringen, som under fødsel."
+    },
+    {
+      "term": "Sensor, kontrollsenter, effektor",
+      "def": "De tre leddene i en regulering."
+    },
+    {
+      "term": "Settpunkt",
+      "def": "Verdien kroppen prøver å holde, som 37 °C."
+    },
+    {
+      "term": "Nervesystemet",
+      "def": "Raske, kortvarige elektriske signaler."
+    },
+    {
+      "term": "Hormonsystemet",
+      "def": "Langsommere, langvarige signaler med blodet."
+    },
+    {
+      "term": "Hypothalamus",
+      "def": "Del av hjernen som styrer blant annet temperatur og binder nerve- og hormonsystemet sammen."
+    },
+    {
+      "term": "Insulin",
+      "def": "Hormon fra betacellene som senker blodsukkeret."
+    },
+    {
+      "term": "Glukagon",
+      "def": "Hormon fra alfacellene som øker blodsukkeret."
+    },
+    {
+      "term": "Glykogen",
+      "def": "Lagringsform for glukose i lever og muskler."
+    },
+    {
+      "term": "ADH",
+      "def": "Hormon som får nyrene til å holde tilbake vann."
+    },
+    {
+      "term": "Diabetes type 1",
+      "def": "Autoimmun sykdom der betacellene ødelegges."
+    },
+    {
+      "term": "Diabetes type 2",
+      "def": "Insulinresistens; risikoen øker med inaktivitet og overvekt."
+    },
+    {
+      "term": "Kortisol",
+      "def": "Stresshormon som ved langvarig stress kan påvirke mange reguleringer."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er homeostase?", "options": ["At kroppen vokser", "At kroppen holder det indre miljøet stabilt", "At hjertet slår", "At kroppen bekjemper sykdom"], "correct": 1, "explain": "For eksempel temperatur og blodsukker." },
-    { "id": "q02", "text": "Hva kjennetegner negativ tilbakekobling?", "options": ["Responsen motvirker avviket", "Responsen forsterker endringen", "Det skjer ingen respons", "Settpunktet endres hele tiden"], "correct": 0, "explain": "Som en termostat." },
-    { "id": "q03", "text": "Hvilket hormon senker blodsukkeret?", "options": ["Glukagon", "Adrenalin", "Insulin", "ADH"], "correct": 2, "explain": "Det skilles ut fra betacellene." },
-    { "id": "q04", "text": "Hva skjer når kroppen blir for varm?", "options": ["Vi skjelver", "Blodårene i huden trekker seg sammen", "Vi får gåsehud", "Vi svetter og blodårene i huden utvider seg"], "correct": 3, "explain": "Mer varme avgis." },
-    { "id": "q05", "text": "Hva er forskjellen på nervesystemet og hormonsystemet?", "options": ["Nervesystemet er raskt og kortvarig, hormonsystemet langsommere og langvarig", "Hormonsystemet er alltid raskest", "De virker på samme måte", "Nervesystemet bruker blodet"], "correct": 0, "explain": "De samarbeider gjennom hypothalamus." },
-    { "id": "q06", "text": "Hvorfor tisser man mer når man drikker alkohol?", "options": ["Alkohol øker blodsukkeret", "Alkohol hemmer ADH", "Alkohol er vann", "Alkohol stimulerer insulin"], "correct": 1, "explain": "Nyrene holder tilbake mindre vann." },
-    { "id": "q07", "text": "Hva skyldes diabetes type 1?", "options": ["For mye sukker", "Lite mosjon", "At immunforsvaret ødelegger betacellene", "For mye insulin"], "correct": 2, "explain": "Den er autoimmun og skyldes ikke livsstil." },
-    { "id": "q08", "text": "Hvordan kan mosjon påvirke blodsukkerreguleringen?", "options": ["Den ødelegger betacellene", "Den stopper glukagon", "Den hemmer ADH", "Den gjør cellene mer følsomme for insulin"], "correct": 3, "explain": "Det reduserer risikoen for type 2-diabetes." },
-    { "id": "q09", "text": "Hva er et eksempel på positiv tilbakekobling?", "options": ["Oksytocin under fødsel", "Svetting", "Insulin etter et måltid", "Skjelving"], "correct": 0, "explain": "Endringen forsterkes til fødselen er over." },
-    { "id": "q10", "text": "Hva gjør glukagon?", "options": ["Senker blodsukkeret", "Får leveren til å bryte ned glykogen, slik at blodsukkeret stiger", "Holder tilbake vann", "Øker kroppstemperaturen"], "correct": 1, "explain": "Skilles ut fra alfacellene." }
+    {
+      "id": "q01",
+      "text": "Hva er homeostase?",
+      "options": [
+        "At kroppen vokser",
+        "At kroppen holder det indre miljøet stabilt",
+        "At hjertet slår",
+        "At kroppen bekjemper sykdom"
+      ],
+      "correct": 1,
+      "explain": "For eksempel temperatur og blodsukker."
+    },
+    {
+      "id": "q02",
+      "text": "Hva kjennetegner negativ tilbakekobling?",
+      "options": [
+        "Responsen motvirker avviket",
+        "Responsen forsterker endringen",
+        "Det skjer ingen respons",
+        "Settpunktet endres hele tiden"
+      ],
+      "correct": 0,
+      "explain": "Som en termostat."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket hormon senker blodsukkeret?",
+      "options": [
+        "Glukagon",
+        "Adrenalin",
+        "Insulin",
+        "ADH"
+      ],
+      "correct": 2,
+      "explain": "Det skilles ut fra betacellene."
+    },
+    {
+      "id": "q04",
+      "text": "Hva skjer når kroppen blir for varm?",
+      "options": [
+        "Vi skjelver",
+        "Blodårene i huden trekker seg sammen",
+        "Vi får gåsehud",
+        "Vi svetter og blodårene i huden utvider seg"
+      ],
+      "correct": 3,
+      "explain": "Mer varme avgis."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er forskjellen på nervesystemet og hormonsystemet?",
+      "options": [
+        "Nervesystemet er raskt og kortvarig, hormonsystemet langsommere og langvarig",
+        "Hormonsystemet er alltid raskest",
+        "De virker på samme måte",
+        "Nervesystemet bruker blodet"
+      ],
+      "correct": 0,
+      "explain": "De samarbeider gjennom hypothalamus."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor tisser man mer når man drikker alkohol?",
+      "options": [
+        "Alkohol øker blodsukkeret",
+        "Alkohol hemmer ADH",
+        "Alkohol er vann",
+        "Alkohol stimulerer insulin"
+      ],
+      "correct": 1,
+      "explain": "Nyrene holder tilbake mindre vann."
+    },
+    {
+      "id": "q07",
+      "text": "Hva skyldes diabetes type 1?",
+      "options": [
+        "For mye sukker",
+        "Lite mosjon",
+        "At immunforsvaret ødelegger betacellene",
+        "For mye insulin"
+      ],
+      "correct": 2,
+      "explain": "Den er autoimmun og skyldes ikke livsstil."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan kan mosjon påvirke blodsukkerreguleringen?",
+      "options": [
+        "Den ødelegger betacellene",
+        "Den stopper glukagon",
+        "Den hemmer ADH",
+        "Den gjør cellene mer følsomme for insulin"
+      ],
+      "correct": 3,
+      "explain": "Det reduserer risikoen for type 2-diabetes."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et eksempel på positiv tilbakekobling?",
+      "options": [
+        "Oksytocin under fødsel",
+        "Svetting",
+        "Insulin etter et måltid",
+        "Skjelving"
+      ],
+      "correct": 0,
+      "explain": "Endringen forsterkes til fødselen er over."
+    },
+    {
+      "id": "q10",
+      "text": "Hva gjør glukagon?",
+      "options": [
+        "Senker blodsukkeret",
+        "Får leveren til å bryte ned glykogen, slik at blodsukkeret stiger",
+        "Holder tilbake vann",
+        "Øker kroppstemperaturen"
+      ],
+      "correct": 1,
+      "explain": "Skilles ut fra alfacellene."
+    }
   ],
   "mindmap": {
     "label": "Homeostase",
     "children": [
-      { "label": "Tilbakekobling", "children": [
-        { "label": "Sensor–kontrollsenter–effektor" },
-        { "label": "Negativ" },
-        { "label": "Positiv" }
-      ] },
-      { "label": "Styringssystemer", "children": [
-        { "label": "Nervesystemet" },
-        { "label": "Hormonsystemet" },
-        { "label": "Hypothalamus" }
-      ] },
-      { "label": "Eksempler", "children": [
-        { "label": "Temperatur" },
-        { "label": "Blodsukker" },
-        { "label": "Væskebalanse" }
-      ] },
-      { "label": "Blodsukker", "children": [
-        { "label": "Insulin" },
-        { "label": "Glukagon" },
-        { "label": "Glykogen" }
-      ] },
-      { "label": "Livsstil", "children": [
-        { "label": "Diabetes type 1 og 2" },
-        { "label": "Stress og kortisol" },
-        { "label": "Søvn, kosthold, mosjon" }
-      ] }
+      {
+        "label": "Tilbakekobling",
+        "children": [
+          {
+            "label": "Sensor–kontrollsenter–effektor"
+          },
+          {
+            "label": "Negativ"
+          },
+          {
+            "label": "Positiv"
+          }
+        ]
+      },
+      {
+        "label": "Styringssystemer",
+        "children": [
+          {
+            "label": "Nervesystemet"
+          },
+          {
+            "label": "Hormonsystemet"
+          },
+          {
+            "label": "Hypothalamus"
+          }
+        ]
+      },
+      {
+        "label": "Eksempler",
+        "children": [
+          {
+            "label": "Temperatur"
+          },
+          {
+            "label": "Blodsukker"
+          },
+          {
+            "label": "Væskebalanse"
+          }
+        ]
+      },
+      {
+        "label": "Blodsukker",
+        "children": [
+          {
+            "label": "Insulin"
+          },
+          {
+            "label": "Glukagon"
+          },
+          {
+            "label": "Glykogen"
+          }
+        ]
+      },
+      {
+        "label": "Livsstil",
+        "children": [
+          {
+            "label": "Diabetes type 1 og 2"
+          },
+          {
+            "label": "Stress og kortisol"
+          },
+          {
+            "label": "Søvn, kosthold, mosjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Hormoner påvirker bare celler som har riktige reseptorer.", "correct": true, "explain": "Derfor virker hvert hormon på bestemte målceller." },
-      { "id": "m02", "type": "sant-usant", "text": "Diabetes type 1 skyldes hovedsakelig usunn livsstil.", "correct": false, "explain": "Den er autoimmun." },
-      { "id": "m03", "type": "sant-usant", "text": "Leveren kan lagre glukose som glykogen.", "correct": true, "explain": "Insulin stimulerer lagringen." },
-      { "id": "m04", "type": "sant-usant", "text": "Skjelving er kroppens måte å kvitte seg med varme på.", "correct": false, "explain": "Skjelving produserer varme når kroppen er for kald." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken kjertel skiller ut insulin?", "options": ["Skjoldbruskkjertelen", "Bukspyttkjertelen", "Binyrene", "Hypofysen"], "correct": 1, "explain": "Fra betacellene." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gjør ADH?", "options": ["Får nyrene til å holde tilbake vann", "Senker blodsukkeret", "Øker hjerterytmen", "Starter fødselen"], "correct": 0, "explain": "Antidiuretisk hormon." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket stresshormon kan påvirke søvn og blodsukker ved langvarig stress?", "options": ["Insulin", "Oksytocin", "Kortisol", "ADH"], "correct": 2, "explain": "Det skilles ut fra binyrene." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Hormoner påvirker bare celler som har riktige reseptorer.",
+        "correct": true,
+        "explain": "Derfor virker hvert hormon på bestemte målceller."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Diabetes type 1 skyldes hovedsakelig usunn livsstil.",
+        "correct": false,
+        "explain": "Den er autoimmun."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Leveren kan lagre glukose som glykogen.",
+        "correct": true,
+        "explain": "Insulin stimulerer lagringen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Skjelving er kroppens måte å kvitte seg med varme på.",
+        "correct": false,
+        "explain": "Skjelving produserer varme når kroppen er for kald."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken kjertel skiller ut insulin?",
+        "options": [
+          "Skjoldbruskkjertelen",
+          "Bukspyttkjertelen",
+          "Binyrene",
+          "Hypofysen"
+        ],
+        "correct": 1,
+        "explain": "Fra betacellene."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gjør ADH?",
+        "options": [
+          "Får nyrene til å holde tilbake vann",
+          "Senker blodsukkeret",
+          "Øker hjerterytmen",
+          "Starter fødselen"
+        ],
+        "correct": 0,
+        "explain": "Antidiuretisk hormon."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket stresshormon kan påvirke søvn og blodsukker ved langvarig stress?",
+        "options": [
+          "Insulin",
+          "Oksytocin",
+          "Kortisol",
+          "ADH"
+        ],
+        "correct": 2,
+        "explain": "Det skilles ut fra binyrene."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hvorfor er det viktig for celler og enzymer at kroppens indre miljø holdes stabilt?",
+        "fasit": "Celler og enzymer fungerer best under stabile forhold. Derfor må kroppen holde forhold som temperatur, blodsukker og pH innenfor snevre grenser.",
+        "kriterier": [
+          "Knytter stabilt indre miljø til at celler og enzymer fungerer godt.",
+          "Forklarer at kroppen holder forhold som temperatur eller blodsukker innenfor snevre grenser."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En person blir for kald. Forklar hvordan temperatursensorer, kontrollsenteret i hjernen og effektorene bidrar til å motvirke temperaturfallet.",
+        "fasit": "Temperatursensorene sender signaler til hypothalamus, som sammenligner temperaturen med settpunktet. Blodårene i huden trekker seg sammen, og kroppen skjelver, slik at responsen motvirker at kroppen blir kaldere.",
+        "kriterier": [
+          "Beskriver at temperatursensorer sender informasjon til hjernens kontrollsenter, hypothalamus.",
+          "Nevner minst én relevant respons på kulde: sammentrekning av blodårer i huden eller skjelving.",
+          "Forklarer at responsen motvirker temperaturfallet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Kroppens settpunkt for temperatur er omtrent 37 °C. I en regneoppgave måles temperaturen til 39 °C. Hvor mange grader over settpunktet er målingen, og nevn én respons som kan bidra til å senke temperaturen.",
+        "fasit": "Målingen er 39 − 37 = 2 °C over settpunktet. Kroppen kan svette eller utvide blodårene i huden, slik at mer varme avgis.",
+        "kriterier": [
+          "Regner ut at temperaturen er 2 °C over settpunktet.",
+          "Nevner svetting eller utvidelse av blodårene i huden.",
+          "Knytter responsen til at kroppen avgir mer varme eller senker temperaturen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign insulin og glukagon: Når skilles de ut, og hvordan påvirker de blodsukkeret på ulike måter?",
+        "fasit": "Etter et måltid skiller betacellene ut insulin, som får cellene til å ta opp glukose og leveren til å lagre glukose som glykogen. Når blodsukkeret er lavt, skiller alfacellene ut glukagon, som får leveren til å bryte ned glykogen og øker blodsukkeret.",
+        "kriterier": [
+          "Knytter insulin til høyt blodsukker, opptak av glukose i celler eller lagring som glykogen.",
+          "Knytter glukagon til lavt blodsukker og nedbryting av glykogen i leveren.",
+          "Får fram at insulin senker og glukagon øker blodsukkeret."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Fastende blodsukker hos friske ligger omtrent mellom 4 og 6 mmol/L. Regn ut bredden på dette intervallet og midtpunktet.",
+        "fasit": "Bredden er 6 − 4 = 2 mmol/L. Midtpunktet er (6 + 4) / 2 = 5 mmol/L.",
+        "kriterier": [
+          "Regner ut at bredden er 2 mmol/L.",
+          "Regner ut at midtpunktet er 5 mmol/L."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En person mangler vann, og kroppen skiller ut ADH. Forklar hvordan dette påvirker nyrene og urinen.",
+        "fasit": "ADH får nyrene til å holde tilbake mer vann. Dermed blir urinen mørkere og mer konsentrert.",
+        "kriterier": [
+          "Forklarer at ADH får nyrene til å holde tilbake vann.",
+          "Beskriver at urinen blir mer konsentrert eller mørkere som følge av dette."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign diabetes type 1 og type 2 ut fra hva som skjer i kroppen. Ta også med én faktor som øker risikoen for type 2.",
+        "fasit": "Ved diabetes type 1 ødelegger immunforsvaret betacellene. Ved type 2 reagerer cellene dårligere på insulin, og fysisk inaktivitet eller overvekt øker risikoen.",
+        "kriterier": [
+          "Skiller mellom ødeleggelse av betaceller ved type 1 og dårligere respons på insulin ved type 2.",
+          "Nevner fysisk inaktivitet eller overvekt som en faktor som øker risikoen for type 2."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvordan langvarig stress kan påvirke kroppens regulering, og nevn to forhold det kan påvirke.",
+        "fasit": "Langvarig stress gir høye nivåer av stresshormonet kortisol. Dette kan påvirke blant annet søvn, blodsukker og immunforsvar.",
+        "kriterier": [
+          "Knytter langvarig stress til høye nivåer av kortisol.",
+          "Nevner to av disse: søvn, blodsukker eller immunforsvar."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,76 +4,419 @@
   "trinnId": "vg2",
   "name": "Den deriverte – definisjon og tolkning",
   "intro": "Vekstfart og den deriverte som grenseverdi, hvordan du bestemmer f′(a) geometrisk, algebraisk og numerisk, tangentlikningen, og eksempler på funksjoner som ikke er deriverbare i et punkt.",
-  "kompetansemaal": [2, 4],
+  "kompetansemaal": [
+    2,
+    4
+  ],
   "sammendrag": "## Fra gjennomsnittlig til momentan vekstfart\n\nDen **gjennomsnittlige vekstfarten** fra x = a til x = a + h er stigningstallet til **sekanten**:\n\n(f(a + h) − f(a)) / h\n\nNår h går mot 0, nærmer sekanten seg **tangenten** i punktet. Grenseverdien er den **momentane vekstfarten** – den **deriverte**:\n\n**f′(a) = lim ₕ→₀ (f(a + h) − f(a)) / h**\n\nHvis grenseverdien finnes, sier vi at f er **deriverbar** i a.\n\n## Tre måter å bestemme f′(a)\n\n### Geometrisk\n\nf′(a) er **stigningstallet til tangenten** i punktet (a, f(a)). Du kan tegne tangenten på grafen og lese av stigningstallet, eller bruke kommandoen Tangent i GeoGebra.\n\n### Algebraisk\n\nBruk definisjonen. **Eksempel**: f(x) = x².\n\n(f(a + h) − f(a)) / h = ((a + h)² − a²) / h = (2ah + h²) / h = 2a + h\n\nNår h → 0, får vi **f′(a) = 2a**. For a = 3 er f′(3) = **6**.\n\n### Numerisk\n\nVelg en liten h og regn ut brøken:\n\n(f(3 + 0,001) − f(3)) / 0,001 = (9,006001 − 9) / 0,001 = **6,001**\n\nDen **symmetriske** differansen (f(a + h) − f(a − h)) / (2h) er ofte mer nøyaktig. Numeriske metoder er nyttige når vi bare har **måledata** eller en funksjon som er vanskelig å derivere.\n\n## Tangentlikningen\n\nTangenten i (a, f(a)) har likningen\n\n**y − f(a) = f′(a)(x − a)**\n\nFor f(x) = x² i a = 3: y − 9 = 6(x − 3), altså **y = 6x − 9**.\n\n## Tolkning i praksis\n\nDen deriverte har **enheten** «y-enhet per x-enhet»:\n\n- Er s(t) posisjon i meter og t tid i sekunder, er s′(t) **farten** i m/s.\n- Er K(x) kostnaden i kroner ved produksjon av x enheter, er K′(x) **grensekostnaden** – omtrent hva én ekstra enhet koster.\n- Er T(t) temperaturen i °C etter t timer, forteller T′(2) = −1,5 at temperaturen **synker** med omtrent 1,5 °C per time akkurat da.\n\n## Når er en funksjon ikke deriverbar?\n\n- **Knekk**: f(x) = |x| i x = 0. Fra venstre er stigningstallet −1, fra høyre +1, så grenseverdien finnes ikke.\n- **Sprang**: En funksjon som er **diskontinuerlig** i et punkt, er ikke deriverbar der.\n- **Loddrett tangent**: f(x) = ∛x i x = 0. Tangenten står loddrett, og stigningstallet blir uendelig.\n\nHusk: **Deriverbar ⇒ kontinuerlig**, men en kontinuerlig funksjon trenger ikke være deriverbar.",
   "flashcards": [
-    { "term": "Gjennomsnittlig vekstfart", "def": "(f(a + h) − f(a))/h – stigningstallet til sekanten." },
-    { "term": "Momentan vekstfart", "def": "Den deriverte – stigningstallet til tangenten." },
-    { "term": "Definisjonen av f′(a)", "def": "lim ₕ→₀ (f(a + h) − f(a))/h" },
-    { "term": "Deriverbar i a", "def": "Grenseverdien som definerer f′(a), finnes." },
-    { "term": "Geometrisk tolkning", "def": "f′(a) er stigningstallet til tangenten i (a, f(a))." },
-    { "term": "Numerisk derivasjon", "def": "Regn ut differansebrøken med en liten h." },
-    { "term": "Symmetrisk differanse", "def": "(f(a + h) − f(a − h))/(2h)" },
-    { "term": "Tangentlikningen", "def": "y − f(a) = f′(a)(x − a)" },
-    { "term": "f(x) = x²", "def": "f′(a) = 2a" },
-    { "term": "Tangent til x² i x = 3", "def": "y = 6x − 9" },
-    { "term": "s′(t)", "def": "Fart, når s er posisjon." },
-    { "term": "Grensekostnad", "def": "K′(x) – omtrent kostnaden for én ekstra enhet." },
-    { "term": "Knekk", "def": "Punkt der funksjonen ikke er deriverbar, som |x| i 0." },
-    { "term": "Loddrett tangent", "def": "Stigningstallet blir uendelig, som for ∛x i 0." },
-    { "term": "Enheten til f′", "def": "y-enhet per x-enhet." }
+    {
+      "term": "Gjennomsnittlig vekstfart",
+      "def": "(f(a + h) − f(a))/h – stigningstallet til sekanten."
+    },
+    {
+      "term": "Momentan vekstfart",
+      "def": "Den deriverte – stigningstallet til tangenten."
+    },
+    {
+      "term": "Definisjonen av f′(a)",
+      "def": "lim ₕ→₀ (f(a + h) − f(a))/h"
+    },
+    {
+      "term": "Deriverbar i a",
+      "def": "Grenseverdien som definerer f′(a), finnes."
+    },
+    {
+      "term": "Geometrisk tolkning",
+      "def": "f′(a) er stigningstallet til tangenten i (a, f(a))."
+    },
+    {
+      "term": "Numerisk derivasjon",
+      "def": "Regn ut differansebrøken med en liten h."
+    },
+    {
+      "term": "Symmetrisk differanse",
+      "def": "(f(a + h) − f(a − h))/(2h)"
+    },
+    {
+      "term": "Tangentlikningen",
+      "def": "y − f(a) = f′(a)(x − a)"
+    },
+    {
+      "term": "f(x) = x²",
+      "def": "f′(a) = 2a"
+    },
+    {
+      "term": "Tangent til x² i x = 3",
+      "def": "y = 6x − 9"
+    },
+    {
+      "term": "s′(t)",
+      "def": "Fart, når s er posisjon."
+    },
+    {
+      "term": "Grensekostnad",
+      "def": "K′(x) – omtrent kostnaden for én ekstra enhet."
+    },
+    {
+      "term": "Knekk",
+      "def": "Punkt der funksjonen ikke er deriverbar, som |x| i 0."
+    },
+    {
+      "term": "Loddrett tangent",
+      "def": "Stigningstallet blir uendelig, som for ∛x i 0."
+    },
+    {
+      "term": "Enheten til f′",
+      "def": "y-enhet per x-enhet."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan er f′(a) definert?", "options": ["(f(b) − f(a))/(b − a)", "lim ₕ→₀ (f(a + h) − f(a))/h", "f(a)/a", "lim ₓ→∞ f(x)"], "correct": 1, "explain": "Grenseverdien av sekantens stigningstall." },
-    { "id": "q02", "text": "Hva er f′(3) når f(x) = x²?", "options": ["6", "9", "3", "2"], "correct": 0, "explain": "f′(a) = 2a." },
-    { "id": "q03", "text": "Hva er tangenten til f(x) = x² i x = 3?", "options": ["y = 3x", "y = 6x", "y = 6x − 9", "y = 2x + 3"], "correct": 2, "explain": "y − 9 = 6(x − 3)." },
-    { "id": "q04", "text": "Hva er den geometriske tolkningen av f′(a)?", "options": ["Arealet under grafen", "Funksjonsverdien i a", "Stigningstallet til sekanten", "Stigningstallet til tangenten i (a, f(a))"], "correct": 3, "explain": "Den momentane vekstfarten." },
-    { "id": "q05", "text": "Hvorfor er ikke f(x) = |x| deriverbar i x = 0?", "options": ["Grafen har en knekk, og stigningstallet er −1 fra venstre og 1 fra høyre", "f(0) er ikke definert", "Funksjonen er ikke kontinuerlig", "Tangenten er vannrett"], "correct": 0, "explain": "Grenseverdien finnes ikke." },
-    { "id": "q06", "text": "Hva gir den numeriske beregningen (f(3,001) − f(3))/0,001 for f(x) = x²?", "options": ["6", "6,001", "9", "5,999"], "correct": 1, "explain": "(9,006001 − 9)/0,001." },
-    { "id": "q07", "text": "s(t) er posisjonen i meter etter t sekunder. Hva er s′(t)?", "options": ["Akselerasjonen", "Strekningen", "Farten i m/s", "Tiden"], "correct": 2, "explain": "Endring i posisjon per sekund." },
-    { "id": "q08", "text": "T(t) er temperaturen i °C etter t timer, og T′(2) = −1,5. Hva betyr det?", "options": ["Temperaturen er −1,5 °C", "Temperaturen er 2 °C", "Temperaturen stiger med 1,5 °C per time", "Temperaturen synker med omtrent 1,5 °C per time ved t = 2"], "correct": 3, "explain": "Negativ derivert betyr synkende." },
-    { "id": "q09", "text": "Hvorfor er ikke f(x) = ∛x deriverbar i x = 0?", "options": ["Tangenten er loddrett", "Funksjonen har et sprang", "f(0) er ikke definert", "Funksjonen er konstant"], "correct": 0, "explain": "Stigningstallet blir uendelig." },
-    { "id": "q10", "text": "Når er numerisk derivasjon særlig nyttig?", "options": ["Når vi har et enkelt polynom", "Når vi bare har måledata", "Aldri", "Når f er konstant"], "correct": 1, "explain": "Da har vi ikke noe funksjonsuttrykk å derivere." }
+    {
+      "id": "q01",
+      "text": "Hvordan er f′(a) definert?",
+      "options": [
+        "(f(b) − f(a))/(b − a)",
+        "lim ₕ→₀ (f(a + h) − f(a))/h",
+        "f(a)/a",
+        "lim ₓ→∞ f(x)"
+      ],
+      "correct": 1,
+      "explain": "Grenseverdien av sekantens stigningstall."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er f′(3) når f(x) = x²?",
+      "options": [
+        "6",
+        "9",
+        "3",
+        "2"
+      ],
+      "correct": 0,
+      "explain": "f′(a) = 2a."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er tangenten til f(x) = x² i x = 3?",
+      "options": [
+        "y = 3x",
+        "y = 6x",
+        "y = 6x − 9",
+        "y = 2x + 3"
+      ],
+      "correct": 2,
+      "explain": "y − 9 = 6(x − 3)."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er den geometriske tolkningen av f′(a)?",
+      "options": [
+        "Arealet under grafen",
+        "Funksjonsverdien i a",
+        "Stigningstallet til sekanten",
+        "Stigningstallet til tangenten i (a, f(a))"
+      ],
+      "correct": 3,
+      "explain": "Den momentane vekstfarten."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor er ikke f(x) = |x| deriverbar i x = 0?",
+      "options": [
+        "Grafen har en knekk, og stigningstallet er −1 fra venstre og 1 fra høyre",
+        "f(0) er ikke definert",
+        "Funksjonen er ikke kontinuerlig",
+        "Tangenten er vannrett"
+      ],
+      "correct": 0,
+      "explain": "Grenseverdien finnes ikke."
+    },
+    {
+      "id": "q06",
+      "text": "Hva gir den numeriske beregningen (f(3,001) − f(3))/0,001 for f(x) = x²?",
+      "options": [
+        "6",
+        "6,001",
+        "9",
+        "5,999"
+      ],
+      "correct": 1,
+      "explain": "(9,006001 − 9)/0,001."
+    },
+    {
+      "id": "q07",
+      "text": "s(t) er posisjonen i meter etter t sekunder. Hva er s′(t)?",
+      "options": [
+        "Akselerasjonen",
+        "Strekningen",
+        "Farten i m/s",
+        "Tiden"
+      ],
+      "correct": 2,
+      "explain": "Endring i posisjon per sekund."
+    },
+    {
+      "id": "q08",
+      "text": "T(t) er temperaturen i °C etter t timer, og T′(2) = −1,5. Hva betyr det?",
+      "options": [
+        "Temperaturen er −1,5 °C",
+        "Temperaturen er 2 °C",
+        "Temperaturen stiger med 1,5 °C per time",
+        "Temperaturen synker med omtrent 1,5 °C per time ved t = 2"
+      ],
+      "correct": 3,
+      "explain": "Negativ derivert betyr synkende."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er ikke f(x) = ∛x deriverbar i x = 0?",
+      "options": [
+        "Tangenten er loddrett",
+        "Funksjonen har et sprang",
+        "f(0) er ikke definert",
+        "Funksjonen er konstant"
+      ],
+      "correct": 0,
+      "explain": "Stigningstallet blir uendelig."
+    },
+    {
+      "id": "q10",
+      "text": "Når er numerisk derivasjon særlig nyttig?",
+      "options": [
+        "Når vi har et enkelt polynom",
+        "Når vi bare har måledata",
+        "Aldri",
+        "Når f er konstant"
+      ],
+      "correct": 1,
+      "explain": "Da har vi ikke noe funksjonsuttrykk å derivere."
+    }
   ],
   "mindmap": {
     "label": "Den deriverte",
     "children": [
-      { "label": "Vekstfart", "children": [
-        { "label": "Sekant: gjennomsnittlig" },
-        { "label": "Tangent: momentan" }
-      ] },
-      { "label": "Definisjon", "children": [
-        { "label": "lim ₕ→₀ (f(a+h) − f(a))/h" }
-      ] },
-      { "label": "Bestemme f′(a)", "children": [
-        { "label": "Geometrisk" },
-        { "label": "Algebraisk" },
-        { "label": "Numerisk" }
-      ] },
-      { "label": "Tolkning", "children": [
-        { "label": "Tangentlikning" },
-        { "label": "Fart" },
-        { "label": "Grensekostnad" }
-      ] },
-      { "label": "Ikke deriverbar", "children": [
-        { "label": "Knekk" },
-        { "label": "Sprang" },
-        { "label": "Loddrett tangent" }
-      ] }
+      {
+        "label": "Vekstfart",
+        "children": [
+          {
+            "label": "Sekant: gjennomsnittlig"
+          },
+          {
+            "label": "Tangent: momentan"
+          }
+        ]
+      },
+      {
+        "label": "Definisjon",
+        "children": [
+          {
+            "label": "lim ₕ→₀ (f(a+h) − f(a))/h"
+          }
+        ]
+      },
+      {
+        "label": "Bestemme f′(a)",
+        "children": [
+          {
+            "label": "Geometrisk"
+          },
+          {
+            "label": "Algebraisk"
+          },
+          {
+            "label": "Numerisk"
+          }
+        ]
+      },
+      {
+        "label": "Tolkning",
+        "children": [
+          {
+            "label": "Tangentlikning"
+          },
+          {
+            "label": "Fart"
+          },
+          {
+            "label": "Grensekostnad"
+          }
+        ]
+      },
+      {
+        "label": "Ikke deriverbar",
+        "children": [
+          {
+            "label": "Knekk"
+          },
+          {
+            "label": "Sprang"
+          },
+          {
+            "label": "Loddrett tangent"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En funksjon som er diskontinuerlig i et punkt, er ikke deriverbar der.", "correct": true, "explain": "Deriverbarhet krever kontinuitet." },
-      { "id": "m02", "type": "sant-usant", "text": "Den gjennomsnittlige vekstfarten er stigningstallet til tangenten.", "correct": false, "explain": "Den er stigningstallet til sekanten." },
-      { "id": "m03", "type": "sant-usant", "text": "Den symmetriske differansen gir ofte et mer nøyaktig numerisk svar.", "correct": true, "explain": "Feilene fra hver side opphever hverandre delvis." },
-      { "id": "m04", "type": "sant-usant", "text": "Den deriverte har alltid samme enhet som funksjonsverdien.", "correct": false, "explain": "Enheten er y-enhet per x-enhet." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er den gjennomsnittlige vekstfarten til f(x) = x² fra x = 1 til x = 3?", "options": ["2", "4", "8", "9"], "correct": 1, "explain": "(9 − 1)/(3 − 1) = 4." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er f′(a) for f(x) = 5x + 2, ut fra definisjonen?", "options": ["5", "2", "5a", "7"], "correct": 0, "explain": "(5(a + h) + 2 − 5a − 2)/h = 5." },
-      { "id": "m07", "type": "flervalg", "text": "K(x) er kostnaden ved å lage x enheter. Hva forteller K′(100) = 40?", "options": ["At 100 enheter koster 40 kr", "At kostnaden er 100 kr", "At enhet nummer 101 koster omtrent 40 kr ekstra", "At kostnaden synker"], "correct": 2, "explain": "Grensekostnaden." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En funksjon som er diskontinuerlig i et punkt, er ikke deriverbar der.",
+        "correct": true,
+        "explain": "Deriverbarhet krever kontinuitet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Den gjennomsnittlige vekstfarten er stigningstallet til tangenten.",
+        "correct": false,
+        "explain": "Den er stigningstallet til sekanten."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Den symmetriske differansen gir ofte et mer nøyaktig numerisk svar.",
+        "correct": true,
+        "explain": "Feilene fra hver side opphever hverandre delvis."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Den deriverte har alltid samme enhet som funksjonsverdien.",
+        "correct": false,
+        "explain": "Enheten er y-enhet per x-enhet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er den gjennomsnittlige vekstfarten til f(x) = x² fra x = 1 til x = 3?",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "9"
+        ],
+        "correct": 1,
+        "explain": "(9 − 1)/(3 − 1) = 4."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er f′(a) for f(x) = 5x + 2, ut fra definisjonen?",
+        "options": [
+          "5",
+          "2",
+          "5a",
+          "7"
+        ],
+        "correct": 0,
+        "explain": "(5(a + h) + 2 − 5a − 2)/h = 5."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "K(x) er kostnaden ved å lage x enheter. Hva forteller K′(100) = 40?",
+        "options": [
+          "At 100 enheter koster 40 kr",
+          "At kostnaden er 100 kr",
+          "At enhet nummer 101 koster omtrent 40 kr ekstra",
+          "At kostnaden synker"
+        ],
+        "correct": 2,
+        "explain": "Grensekostnaden."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign gjennomsnittlig vekstfart fra x = a til x = a + h med momentan vekstfart i x = a. Hva slags linje og stigningstall hører til hver?",
+        "fasit": "Gjennomsnittlig vekstfart er stigningstallet til sekanten gjennom punktene ved x = a og x = a + h. Momentan vekstfart er stigningstallet til tangenten i punktet ved x = a.",
+        "kriterier": [
+          "Knytter gjennomsnittlig vekstfart til sekanten gjennom to punkter.",
+          "Knytter momentan vekstfart til tangenten i punktet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hvordan differansebrøken for gjennomsnittlig vekstfart gir den deriverte når h går mot 0.",
+        "fasit": "Når h går mot 0, kommer punktet ved x = a + h nærmere punktet ved x = a. Sekanten nærmer seg tangenten, og hvis grenseverdien av differansebrøken finnes, er den f′(a), den momentane vekstfarten.",
+        "kriterier": [
+          "Forklarer at sekanten nærmer seg tangenten når h går mot 0.",
+          "Knytter grenseverdien av differansebrøken til f′(a), dersom grenseverdien finnes."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Bruk definisjonen av den deriverte til å finne f′(2) når f(x) = x². Vis det viktigste steget når differansebrøken forenkles.",
+        "fasit": "Differansebrøken blir ((2 + h)² − 2²)/h = (4h + h²)/h = 4 + h. Når h går mot 0, får vi f′(2) = 4.",
+        "kriterier": [
+          "Setter f(x) = x² og a = 2 inn i differansebrøken og forenkler den riktig.",
+          "Bruker at h går mot 0 til å få f′(2) = 4."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "For f(x) = x² skal du bruke den symmetriske differansen med a = 2 og h = 0,1. Regn ut estimatet for f′(2) når f(2,1) = 4,41 og f(1,9) = 3,61.",
+        "fasit": "Den symmetriske differansen blir (4,41 − 3,61)/(2 · 0,1) = 0,8/0,2 = 4. Estimatet for f′(2) er 4.",
+        "kriterier": [
+          "Bruker den symmetriske differansen med nevneren 2h.",
+          "Regner ut estimatet 4."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "K(x) er kostnaden i kroner ved å produsere x enheter, og K′(12) = 80. Forklar hva dette forteller om kostnaden ved å produsere én ekstra enhet rundt dette produksjonsnivået.",
+        "fasit": "Grensekostnaden ved 12 enheter er omtrent 80 kroner per ekstra enhet. Det betyr at kostnaden øker med omtrent 80 kroner når produksjonen økes med én enhet rundt dette nivået.",
+        "kriterier": [
+          "Tolk­er K′(12) som grensekostnaden ved produksjon av 12 enheter.",
+          "Forklarer at én ekstra enhet omtrent øker kostnaden med 80 kroner."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Beskriv hvordan numerisk derivasjon kan brukes når en funksjon er vanskelig å derivere eller når du bare har måledata. Ta også med hva som er spesielt med den symmetriske differansen.",
+        "fasit": "Ved numerisk derivasjon regner man ut differansebrøken med en liten h for å anslå den deriverte. Den symmetriske differansen bruker verdier på begge sider av punktet og er ofte mer nøyaktig.",
+        "kriterier": [
+          "Forklarer at en differansebrøk med liten h brukes til å anslå den deriverte.",
+          "Får fram at den symmetriske differansen bruker verdier på begge sider av punktet eller ofte er mer nøyaktig."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar sammenhengen mellom deriverbarhet og kontinuitet. Ta med om det motsatte av «deriverbar ⇒ kontinuerlig» alltid gjelder.",
+        "fasit": "Hvis en funksjon er deriverbar i et punkt, er den også kontinuerlig der. Det motsatte gjelder ikke alltid: En kontinuerlig funksjon kan ha en knekk og dermed mangle en derivert i punktet.",
+        "kriterier": [
+          "Sier at deriverbarhet innebærer kontinuitet.",
+          "Sier at kontinuitet ikke nødvendigvis innebærer deriverbarhet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En funksjon har enten et sprang eller en loddrett tangent i et punkt. Forklar hvorfor den ikke er deriverbar i noen av tilfellene.",
+        "fasit": "Ved et sprang er funksjonen diskontinuerlig, og en diskontinuerlig funksjon er ikke deriverbar der. Ved en loddrett tangent blir stigningstallet uendelig, så den deriverte finnes ikke som en endelig grenseverdi.",
+        "kriterier": [
+          "Knytter spranget til diskontinuitet og manglende deriverbarhet.",
+          "Forklarer at en loddrett tangent gir uendelig stigningstall."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,80 +4,433 @@
   "trinnId": "vg2",
   "name": "Forskningsmetoder og kildebruk i psykologi",
   "intro": "Hvordan psykologer forsker – eksperimenter, korrelasjonsstudier, observasjon, intervju, spørreskjema og kasusstudier – hva reliabilitet, validitet og etikk betyr, og hvordan du finner og vurderer psykologisk informasjon.",
-  "kompetansemaal": [1, 2],
+  "kompetansemaal": [
+    1,
+    2
+  ],
   "sammendrag": "## Psykologi som vitenskap\n\nPsykologien bygger på **systematiske undersøkelser**. En forsker stiller en **problemstilling**, lager en **hypotese** – en påstand som kan testes – og samler inn **data**.\n\n## Kvantitative og kvalitative metoder\n\n- **Kvantitative** metoder gir **tall** og egner seg til å undersøke **mange** personer og finne **mønstre**.\n- **Kvalitative** metoder gir **tekst** og **beskrivelser** og egner seg til å gå i **dybden** og forstå **opplevelser**.\n\n## Viktige metoder\n\n- **Eksperiment**: Forskeren endrer én faktor – den **uavhengige variabelen** – og måler effekten på den **avhengige variabelen**. Deltakerne fordeles **tilfeldig** i en **eksperimentgruppe** og en **kontrollgruppe**. Bare eksperimenter kan vise **årsak og virkning**.\n- **Korrelasjonsstudie**: Forskeren måler om to variabler **henger sammen**, for eksempel skjermtid og søvn. En **positiv korrelasjon** betyr at begge øker sammen, en **negativ** at den ene øker når den andre synker. **Korrelasjon er ikke kausalitet** – en tredje faktor kan forklare sammenhengen.\n- **Spørreskjema**: effektivt for mange deltakere, men svarene kan påvirkes av **sosial ønskverdighet** – at folk svarer det som virker «riktig».\n- **Intervju**: gir dybde og mulighet for oppfølgingsspørsmål.\n- **Observasjon**: forskeren ser på atferd, enten **deltakende** eller **ikke-deltakende**, **åpent** eller **skjult**.\n- **Kasusstudie**: grundig studie av **én person** eller gruppe, ofte ved sjeldne tilstander. Et kjent eksempel er **Phineas Gage**, som endret personlighet etter en skade i frontallappen i 1848.\n- **Tvillingstudier** og **adopsjonsstudier** brukes for å undersøke **arv og miljø**.\n\n## Kvalitet i forskningen\n\n- **Reliabilitet**: målingen er **pålitelig** – vi får samme resultat om vi gjentar den.\n- **Validitet**: vi måler faktisk det vi **vil** måle.\n- **Generaliserbarhet**: resultatene gjelder også utenfor **utvalget**. Mange studier bruker vestlige studenter, som ikke er representative for alle mennesker.\n- **Replikasjon**: andre forskere får samme resultat. Flere kjente funn har vist seg vanskelige å gjenta.\n- **Placeboeffekt** og **forventningseffekter** kan påvirke resultatene. I **dobbeltblinde** studier vet verken deltakere eller forskere hvem som er i hvilken gruppe.\n\n## Forskningsetikk\n\nPsykologisk forskning skal følge etiske regler:\n\n- **Informert samtykke** – deltakerne vet hva de er med på\n- **Frivillighet** og rett til å **trekke seg**\n- **Konfidensialitet** – opplysninger skal ikke kunne spores til enkeltpersoner\n- **Ingen unødig skade**\n- **Debriefing** – deltakerne får forklaring etterpå, særlig hvis de er blitt **villedet**\n\nEldre studier som **Milgrams lydighetseksperiment** ville i dag blitt kritisert for å utsette deltakerne for sterkt **stress**.\n\n## Å finne og vurdere informasjon\n\n- Bruk **fagbøker**, **forskningsartikler** og nettsteder som **Store norske leksikon** og **helsenorge.no**.\n- Spør: **Hvem** står bak? Er det **forskning** eller **meninger**? Hvor **stort** var utvalget?\n- Vær kritisk til **populærpsykologi**, **personlighetstester** på nett og overskrifter som gjør en **korrelasjon** om til en **årsak**.",
   "flashcards": [
-    { "term": "Hypotese", "def": "En påstand som kan testes." },
-    { "term": "Kvantitativ metode", "def": "Gir tall og finner mønstre hos mange." },
-    { "term": "Kvalitativ metode", "def": "Gir tekst og dybde om opplevelser." },
-    { "term": "Eksperiment", "def": "Forskeren endrer én faktor og måler effekten – kan vise årsak." },
-    { "term": "Uavhengig variabel", "def": "Faktoren forskeren endrer i et eksperiment." },
-    { "term": "Avhengig variabel", "def": "Det som måles i et eksperiment." },
-    { "term": "Kontrollgruppe", "def": "Gruppen som ikke får den eksperimentelle behandlingen." },
-    { "term": "Korrelasjon", "def": "Samvariasjon mellom to variabler – ikke nødvendigvis årsak." },
-    { "term": "Sosial ønskverdighet", "def": "Tendens til å svare det som virker riktig eller akseptert." },
-    { "term": "Kasusstudie", "def": "Grundig studie av én person eller gruppe." },
-    { "term": "Reliabilitet", "def": "Pålitelighet – samme resultat ved gjentatt måling." },
-    { "term": "Validitet", "def": "At man måler det man faktisk vil måle." },
-    { "term": "Replikasjon", "def": "At andre forskere får samme resultat." },
-    { "term": "Dobbeltblind studie", "def": "Verken deltakere eller forskere vet hvem som er i hvilken gruppe." },
-    { "term": "Informert samtykke", "def": "Deltakerne vet hva de er med på og sier ja frivillig." },
-    { "term": "Debriefing", "def": "Forklaring til deltakerne etter studien." },
-    { "term": "Phineas Gage", "def": "Kjent kasus: personlighetsendring etter skade i frontallappen." }
+    {
+      "term": "Hypotese",
+      "def": "En påstand som kan testes."
+    },
+    {
+      "term": "Kvantitativ metode",
+      "def": "Gir tall og finner mønstre hos mange."
+    },
+    {
+      "term": "Kvalitativ metode",
+      "def": "Gir tekst og dybde om opplevelser."
+    },
+    {
+      "term": "Eksperiment",
+      "def": "Forskeren endrer én faktor og måler effekten – kan vise årsak."
+    },
+    {
+      "term": "Uavhengig variabel",
+      "def": "Faktoren forskeren endrer i et eksperiment."
+    },
+    {
+      "term": "Avhengig variabel",
+      "def": "Det som måles i et eksperiment."
+    },
+    {
+      "term": "Kontrollgruppe",
+      "def": "Gruppen som ikke får den eksperimentelle behandlingen."
+    },
+    {
+      "term": "Korrelasjon",
+      "def": "Samvariasjon mellom to variabler – ikke nødvendigvis årsak."
+    },
+    {
+      "term": "Sosial ønskverdighet",
+      "def": "Tendens til å svare det som virker riktig eller akseptert."
+    },
+    {
+      "term": "Kasusstudie",
+      "def": "Grundig studie av én person eller gruppe."
+    },
+    {
+      "term": "Reliabilitet",
+      "def": "Pålitelighet – samme resultat ved gjentatt måling."
+    },
+    {
+      "term": "Validitet",
+      "def": "At man måler det man faktisk vil måle."
+    },
+    {
+      "term": "Replikasjon",
+      "def": "At andre forskere får samme resultat."
+    },
+    {
+      "term": "Dobbeltblind studie",
+      "def": "Verken deltakere eller forskere vet hvem som er i hvilken gruppe."
+    },
+    {
+      "term": "Informert samtykke",
+      "def": "Deltakerne vet hva de er med på og sier ja frivillig."
+    },
+    {
+      "term": "Debriefing",
+      "def": "Forklaring til deltakerne etter studien."
+    },
+    {
+      "term": "Phineas Gage",
+      "def": "Kjent kasus: personlighetsendring etter skade i frontallappen."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken metode kan vise årsak og virkning?", "options": ["Korrelasjonsstudie", "Eksperiment", "Spørreskjema", "Kasusstudie"], "correct": 1, "explain": "Forskeren kontrollerer den uavhengige variabelen." },
-    { "id": "q02", "text": "Hva er den avhengige variabelen?", "options": ["Det som måles", "Det forskeren endrer", "Kontrollgruppen", "Hypotesen"], "correct": 0, "explain": "Den uavhengige variabelen er det som endres." },
-    { "id": "q03", "text": "En studie finner at elever med mye skjermtid sover mindre. Hva kan vi konkludere?", "options": ["Skjermtid gir alltid dårlig søvn", "Dårlig søvn gir skjermtid", "Det er en sammenheng, men ikke nødvendigvis årsak", "Studien er ugyldig"], "correct": 2, "explain": "Korrelasjon er ikke kausalitet." },
-    { "id": "q04", "text": "Hva betyr reliabilitet?", "options": ["At studien er etisk", "At man måler det man vil", "At funnene gjelder alle", "At målingen er pålitelig og gir samme resultat ved gjentakelse"], "correct": 3, "explain": "Validitet er å måle det man vil måle." },
-    { "id": "q05", "text": "Hva er sosial ønskverdighet?", "options": ["At folk svarer det som virker akseptert", "At forskeren ønsker et bestemt resultat", "At deltakerne får betalt", "At studien er populær"], "correct": 0, "explain": "En svakhet ved spørreskjema og intervju." },
-    { "id": "q06", "text": "Hva kjennetegner en dobbeltblind studie?", "options": ["Deltakerne ser ikke", "Verken deltakere eller forskere vet hvem som er i hvilken gruppe", "Studien gjøres to ganger", "Det er to forskere"], "correct": 1, "explain": "Hindrer forventningseffekter." },
-    { "id": "q07", "text": "Hva er informert samtykke?", "options": ["At forskeren informerer pressen", "At deltakerne får betalt", "At deltakerne vet hva de er med på og sier ja frivillig", "At studien er godkjent av staten"], "correct": 2, "explain": "Et grunnprinsipp i forskningsetikken." },
-    { "id": "q08", "text": "Hva er en kasusstudie?", "options": ["En studie av tusenvis av personer", "Et eksperiment med kontrollgruppe", "En spørreundersøkelse", "En grundig studie av én person eller gruppe"], "correct": 3, "explain": "Ofte ved sjeldne tilstander." },
-    { "id": "q09", "text": "Hvorfor er det et problem at mange studier bruker vestlige studenter?", "options": ["Resultatene er ikke nødvendigvis generaliserbare", "Studentene lyver", "Det er ulovlig", "Studentene er for smarte"], "correct": 0, "explain": "Utvalget er ikke representativt for alle mennesker." },
-    { "id": "q10", "text": "Hvorfor ville Milgrams lydighetseksperiment blitt kritisert i dag?", "options": ["Det hadde for få deltakere", "Det utsatte deltakerne for sterkt stress", "Det brukte dyr", "Det var for kort"], "correct": 1, "explain": "Forskningsetikken krever at deltakerne ikke skades." }
+    {
+      "id": "q01",
+      "text": "Hvilken metode kan vise årsak og virkning?",
+      "options": [
+        "Korrelasjonsstudie",
+        "Eksperiment",
+        "Spørreskjema",
+        "Kasusstudie"
+      ],
+      "correct": 1,
+      "explain": "Forskeren kontrollerer den uavhengige variabelen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er den avhengige variabelen?",
+      "options": [
+        "Det som måles",
+        "Det forskeren endrer",
+        "Kontrollgruppen",
+        "Hypotesen"
+      ],
+      "correct": 0,
+      "explain": "Den uavhengige variabelen er det som endres."
+    },
+    {
+      "id": "q03",
+      "text": "En studie finner at elever med mye skjermtid sover mindre. Hva kan vi konkludere?",
+      "options": [
+        "Skjermtid gir alltid dårlig søvn",
+        "Dårlig søvn gir skjermtid",
+        "Det er en sammenheng, men ikke nødvendigvis årsak",
+        "Studien er ugyldig"
+      ],
+      "correct": 2,
+      "explain": "Korrelasjon er ikke kausalitet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr reliabilitet?",
+      "options": [
+        "At studien er etisk",
+        "At man måler det man vil",
+        "At funnene gjelder alle",
+        "At målingen er pålitelig og gir samme resultat ved gjentakelse"
+      ],
+      "correct": 3,
+      "explain": "Validitet er å måle det man vil måle."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er sosial ønskverdighet?",
+      "options": [
+        "At folk svarer det som virker akseptert",
+        "At forskeren ønsker et bestemt resultat",
+        "At deltakerne får betalt",
+        "At studien er populær"
+      ],
+      "correct": 0,
+      "explain": "En svakhet ved spørreskjema og intervju."
+    },
+    {
+      "id": "q06",
+      "text": "Hva kjennetegner en dobbeltblind studie?",
+      "options": [
+        "Deltakerne ser ikke",
+        "Verken deltakere eller forskere vet hvem som er i hvilken gruppe",
+        "Studien gjøres to ganger",
+        "Det er to forskere"
+      ],
+      "correct": 1,
+      "explain": "Hindrer forventningseffekter."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er informert samtykke?",
+      "options": [
+        "At forskeren informerer pressen",
+        "At deltakerne får betalt",
+        "At deltakerne vet hva de er med på og sier ja frivillig",
+        "At studien er godkjent av staten"
+      ],
+      "correct": 2,
+      "explain": "Et grunnprinsipp i forskningsetikken."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en kasusstudie?",
+      "options": [
+        "En studie av tusenvis av personer",
+        "Et eksperiment med kontrollgruppe",
+        "En spørreundersøkelse",
+        "En grundig studie av én person eller gruppe"
+      ],
+      "correct": 3,
+      "explain": "Ofte ved sjeldne tilstander."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er det et problem at mange studier bruker vestlige studenter?",
+      "options": [
+        "Resultatene er ikke nødvendigvis generaliserbare",
+        "Studentene lyver",
+        "Det er ulovlig",
+        "Studentene er for smarte"
+      ],
+      "correct": 0,
+      "explain": "Utvalget er ikke representativt for alle mennesker."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor ville Milgrams lydighetseksperiment blitt kritisert i dag?",
+      "options": [
+        "Det hadde for få deltakere",
+        "Det utsatte deltakerne for sterkt stress",
+        "Det brukte dyr",
+        "Det var for kort"
+      ],
+      "correct": 1,
+      "explain": "Forskningsetikken krever at deltakerne ikke skades."
+    }
   ],
   "mindmap": {
     "label": "Forskningsmetoder",
     "children": [
-      { "label": "Typer", "children": [
-        { "label": "Kvantitativ" },
-        { "label": "Kvalitativ" }
-      ] },
-      { "label": "Metoder", "children": [
-        { "label": "Eksperiment" },
-        { "label": "Korrelasjon" },
-        { "label": "Spørreskjema og intervju" },
-        { "label": "Observasjon og kasus" }
-      ] },
-      { "label": "Kvalitet", "children": [
-        { "label": "Reliabilitet" },
-        { "label": "Validitet" },
-        { "label": "Replikasjon" }
-      ] },
-      { "label": "Etikk", "children": [
-        { "label": "Informert samtykke" },
-        { "label": "Konfidensialitet" },
-        { "label": "Debriefing" }
-      ] },
-      { "label": "Kilder", "children": [
-        { "label": "Hvem står bak?" },
-        { "label": "Forskning eller mening?" }
-      ] }
+      {
+        "label": "Typer",
+        "children": [
+          {
+            "label": "Kvantitativ"
+          },
+          {
+            "label": "Kvalitativ"
+          }
+        ]
+      },
+      {
+        "label": "Metoder",
+        "children": [
+          {
+            "label": "Eksperiment"
+          },
+          {
+            "label": "Korrelasjon"
+          },
+          {
+            "label": "Spørreskjema og intervju"
+          },
+          {
+            "label": "Observasjon og kasus"
+          }
+        ]
+      },
+      {
+        "label": "Kvalitet",
+        "children": [
+          {
+            "label": "Reliabilitet"
+          },
+          {
+            "label": "Validitet"
+          },
+          {
+            "label": "Replikasjon"
+          }
+        ]
+      },
+      {
+        "label": "Etikk",
+        "children": [
+          {
+            "label": "Informert samtykke"
+          },
+          {
+            "label": "Konfidensialitet"
+          },
+          {
+            "label": "Debriefing"
+          }
+        ]
+      },
+      {
+        "label": "Kilder",
+        "children": [
+          {
+            "label": "Hvem står bak?"
+          },
+          {
+            "label": "Forskning eller mening?"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "I et eksperiment bør deltakerne fordeles tilfeldig i gruppene.", "correct": true, "explain": "Slik blir gruppene mest mulig like." },
-      { "id": "m02", "type": "sant-usant", "text": "En negativ korrelasjon betyr at det ikke finnes noen sammenheng.", "correct": false, "explain": "Den ene variabelen synker når den andre øker." },
-      { "id": "m03", "type": "sant-usant", "text": "Deltakere i psykologisk forskning har rett til å trekke seg.", "correct": true, "explain": "Frivillighet er et etisk krav." },
-      { "id": "m04", "type": "sant-usant", "text": "Validitet betyr at man får samme resultat ved gjentatt måling.", "correct": false, "explain": "Det er reliabilitet." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken metode egner seg best for å forstå en persons opplevelse i dybden?", "options": ["Et stort spørreskjema", "Et kvalitativt intervju", "En korrelasjonsstudie", "En statistisk registerstudie"], "correct": 1, "explain": "Gir rom for oppfølgingsspørsmål." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilke studier brukes for å undersøke arv og miljø?", "options": ["Tvillingstudier", "Markedsundersøkelser", "Meningsmålinger", "Feltarbeid i geologi"], "correct": 0, "explain": "Eneggede tvillinger har samme gener." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken kilde er mest pålitelig for psykologisk kunnskap?", "options": ["En personlighetstest på sosiale medier", "En reklame for et kurs", "En fagfellevurdert forskningsartikkel", "Et anonymt forum"], "correct": 2, "explain": "Andre forskere har vurdert den." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "I et eksperiment bør deltakerne fordeles tilfeldig i gruppene.",
+        "correct": true,
+        "explain": "Slik blir gruppene mest mulig like."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En negativ korrelasjon betyr at det ikke finnes noen sammenheng.",
+        "correct": false,
+        "explain": "Den ene variabelen synker når den andre øker."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Deltakere i psykologisk forskning har rett til å trekke seg.",
+        "correct": true,
+        "explain": "Frivillighet er et etisk krav."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Validitet betyr at man får samme resultat ved gjentatt måling.",
+        "correct": false,
+        "explain": "Det er reliabilitet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken metode egner seg best for å forstå en persons opplevelse i dybden?",
+        "options": [
+          "Et stort spørreskjema",
+          "Et kvalitativt intervju",
+          "En korrelasjonsstudie",
+          "En statistisk registerstudie"
+        ],
+        "correct": 1,
+        "explain": "Gir rom for oppfølgingsspørsmål."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilke studier brukes for å undersøke arv og miljø?",
+        "options": [
+          "Tvillingstudier",
+          "Markedsundersøkelser",
+          "Meningsmålinger",
+          "Feltarbeid i geologi"
+        ],
+        "correct": 0,
+        "explain": "Eneggede tvillinger har samme gener."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken kilde er mest pålitelig for psykologisk kunnskap?",
+        "options": [
+          "En personlighetstest på sosiale medier",
+          "En reklame for et kurs",
+          "En fagfellevurdert forskningsartikkel",
+          "Et anonymt forum"
+        ],
+        "correct": 2,
+        "explain": "Andre forskere har vurdert den."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En elev vil undersøke om musikk påvirker hvor mange oppgaver elever løser mens de arbeider. Skriv én hypotese som kan testes i en undersøkelse.",
+        "fasit": "En mulig hypotese er at elever som arbeider uten musikk, løser flere oppgaver enn elever som arbeider med musikk. Hypotesen kan testes ved å måle hvor mange oppgaver elevene løser.",
+        "kriterier": [
+          "Formulerer en påstand som kan testes.",
+          "Påstanden sier noe om en mulig sammenheng eller forskjell mellom musikk og antall løste oppgaver."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forskere vil både finne mønstre blant mange elever og forstå hvordan enkelte elever opplever skolehverdagen. Sammenlign kvantitativ og kvalitativ metode, og forklar hvilken som passer best til hvert mål.",
+        "fasit": "Kvantitativ metode passer til å undersøke mange elever og finne mønstre ved hjelp av tall. Kvalitativ metode passer til å gå i dybden og forstå elevenes opplevelser gjennom tekst og beskrivelser.",
+        "kriterier": [
+          "Knytter kvantitativ metode til tall, mange personer eller mønstre.",
+          "Knytter kvalitativ metode til dybde og forståelse av opplevelser."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forskere undersøker om en kort pause påvirker konsentrasjonen. Elevene fordeles tilfeldig i to grupper: Den ene får pause, mens den andre fortsetter å arbeide uten pause. Hvilken faktor endrer forskerne, og hvilken gruppe er kontrollgruppen?",
+        "fasit": "Forskerne endrer om elevene får en pause eller ikke. Gruppen som fortsetter å arbeide uten pause, er kontrollgruppen fordi den ikke får den eksperimentelle behandlingen.",
+        "kriterier": [
+          "Identifiserer pause eller ikke pause som faktoren forskerne endrer.",
+          "Identifiserer gruppen uten pause som kontrollgruppen og forklarer at den ikke får behandlingen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En undersøkelse finner at flere paraplyer er synlige på dager da gatene er våtere. Forklar hvorfor dette ikke viser at paraplyene gjør gatene våte, og gi en mulig tredje faktor som kan forklare sammenhengen.",
+        "fasit": "At to forhold samvarierer, viser ikke at det ene forårsaker det andre. Regn kan føre både til våte gater og til at flere bruker paraply.",
+        "kriterier": [
+          "Forklarer at korrelasjon eller samvariasjon ikke alene viser årsak og virkning.",
+          "Nevner en mulig tredje faktor som kan påvirke begge forholdene, for eksempel regn."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En forsker vil måle angst, men spør bare deltakerne hvor mange timer de spiller dataspill. Vurder om dette målet har god validitet, og begrunn svaret.",
+        "fasit": "Målet har trolig lav validitet, fordi antall timer med dataspill ikke i seg selv måler angst. Validitet handler om at forskeren faktisk måler det hen ønsker å måle.",
+        "kriterier": [
+          "Vurderer validiteten ut fra om målet faktisk fanger opp angst.",
+          "Begrunner vurderingen med at spilletid ikke direkte måler det forskeren vil undersøke."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et nettsted hevder at en personlighetstest på nett kan avsløre nøyaktig hvordan en person er. Nevn to ting du bør undersøke før du stoler på påstanden.",
+        "fasit": "Jeg ville undersøkt hvem som står bak nettstedet, og om påstanden bygger på forskning eller bare meninger. Jeg ville også undersøkt hvor stort utvalget i eventuell forskning var.",
+        "kriterier": [
+          "Nevner hvem som står bak informasjonen.",
+          "Undersøker om påstanden bygger på forskning eller meninger, eller vurderer størrelsen på utvalget."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Deltakere i en psykologisk studie har blitt villedet underveis. Hva bør forskerne gjøre etter studien, og hvorfor?",
+        "fasit": "Forskerne bør gi deltakerne debriefing, altså forklare dem hva studien gikk ut på etterpå. Det er særlig viktig når deltakerne har blitt villedet.",
+        "kriterier": [
+          "Forklarer at deltakerne skal få en forklaring etter studien.",
+          "Knytter debriefing til at deltakerne ble villedet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et forskerteam får et bestemt resultat i en studie. Andre forskere prøver å gjenta studien, men får ikke samme resultat. Forklar hva replikasjon er, og hva som har skjedd i denne situasjonen.",
+        "fasit": "Replikasjon betyr at andre forskere gjentar en studie og får samme resultat. I dette tilfellet har resultatet ikke blitt replikert.",
+        "kriterier": [
+          "Forklarer at replikasjon innebærer at andre forskere gjentar studien.",
+          "Får fram at samme resultat ikke ble oppnådd her."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

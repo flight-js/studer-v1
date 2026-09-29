@@ -348,6 +348,80 @@
         "correct": 2,
         "explain": "Suggests and may show caution."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Rewrite this sentence in a more formal register. Replace the informal expressions with suitable formal words: “A lot of kids got the details.”",
+        "fasit": "A considerable number of children obtained the details.",
+        "kriterier": [
+          "Uses formal alternatives for “a lot of”, “kids” and “got”.",
+          "Keeps the original meaning."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Rewrite the claim “Social media causes depression” so that it uses hedging and does not claim more than the evidence may show.",
+        "fasit": "Research suggests that social media use may increase the risk of depression.",
+        "kriterier": [
+          "Uses cautious language, such as “may” or “suggests”.",
+          "Changes the absolute claim into a less certain claim."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Change this active sentence into the passive voice, then explain what the passive version focuses on: “Researchers conducted the survey.”",
+        "fasit": "The survey was conducted by researchers. The passive version focuses on the survey and the action rather than on who conducted it.",
+        "kriterier": [
+          "Correctly uses the passive form “was conducted”.",
+          "Explains that the focus is on the action or survey rather than the person doing it."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "When listening to an academic presentation, what should you focus on and write in your notes? Explain how you can follow up on anything you do not understand.",
+        "fasit": "I should listen for signposting, key terms and examples, and take notes using keywords rather than full sentences. I can write down questions to follow up later.",
+        "kriterier": [
+          "Mentions listening for signposting, key terms or examples.",
+          "Explains that notes should use keywords rather than full sentences, or that questions can be written down for follow-up."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "A report reveals one small sign of a much larger problem. Write a sentence using the idiom “the tip of the iceberg” and explain what it means in this situation.",
+        "fasit": "The problem described in the report may be the tip of the iceberg: it is only a small visible part of a much larger problem.",
+        "kriterier": [
+          "Uses “the tip of the iceberg” in a relevant sentence.",
+          "Explains that the visible sign is only a small part of a bigger problem."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Explain the difference between “many” and “most”. Why is “most” a stronger claim?",
+        "fasit": "“Many” means a large number, while “most” means more than half. “Most” is a stronger claim because it says that the greater part of the group is included.",
+        "kriterier": [
+          "Distinguishes a large number from the greater part of a group.",
+          "Explains that “most” makes a stronger claim than “many”."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "You want to ask for information about a product. Write one sentence suitable for a formal email to a company and one sentence you could say informally to a friend. Keep the request the same.",
+        "fasit": "Formal: Could you please provide further information about this product? Informal: Can you tell me a bit more about this product?",
+        "kriterier": [
+          "Uses a suitably formal tone for the company and a more informal tone for the friend.",
+          "Makes the same request for product information in both sentences."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Join these ideas into one academic sentence using “however”: Idioms can make language vivid. Some idioms are too informal for academic writing.",
+        "fasit": "Idioms can make language vivid; however, some are too informal for academic writing.",
+        "kriterier": [
+          "Uses “however” to connect the two ideas.",
+          "Preserves the contrast between idioms being vivid and some being too informal for academic writing."
+        ]
+      }
     ]
   },
   "kvalitet": {

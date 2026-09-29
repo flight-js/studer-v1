@@ -4,81 +4,434 @@
   "trinnId": "10",
   "name": "Miljø og samfunn",
   "intro": "Miljøvern, avfall og energi i Tyskland, hvordan du uttrykker meninger om miljø på tysk, trekk ved det tyske samfunnet, og sammenligninger med Norge.",
-  "kompetansemaal": [8, 5],
+  "kompetansemaal": [
+    8,
+    5
+  ],
   "sammendrag": "## Miljø – die Umwelt\n\n**Umweltschutz** (miljøvern) og **der Klimawandel** (klimaendringene) er viktige temaer for mange unge i Tyskland. Bevegelsen **Fridays for Future** har hatt mange tilhengere der, og mange tyskere er opptatt av å leve mer bærekraftig.\n\n## Avfall og gjenvinning\n\nTyskland er kjent for **die Mülltrennung** – kildesortering. Mange husholdninger har flere dunker:\n\n- **die gelbe Tonne** – emballasje av plast og metall\n- **die blaue Tonne** – papir og papp\n- **die Biotonne** – matavfall\n- **der Restmüll** – restavfall\n\nSom i Norge er det **Pfand** (pant) på flasker og bokser. Å gjenvinne heter **recyceln**.\n\n## Energi og transport\n\n- **Die Energiewende**: Tyskland har gjennomført en stor omstilling til **erneuerbare Energie** (fornybar energi), særlig **Windkraft** (vindkraft) og **Solarenergie** (solenergi). De siste atomkraftverkene ble stengt i 2023, men kull ga fortsatt rundt en femdel av strømmen i 2025.\n- Mange reiser med **öffentliche Verkehrsmittel** (kollektivtransport) eller **mit dem Fahrrad** (sykkel).\n\n## Hva kan vi gjøre?\n\n- **Man sollte weniger Auto fahren.** – Man burde kjøre mindre bil.\n- **Wir müssen Energie und Wasser sparen.** – Vi må spare energi og vann.\n- **Ich kaufe Kleidung second hand.** – Jeg kjøper brukte klær.\n- **Ich finde es wichtig, dass wir die Umwelt schützen.** – Jeg synes det er viktig at vi beskytter miljøet.\n\n## Samfunnet i Tyskland\n\n- **Die Bundesrepublik Deutschland** er en forbundsstat med **16 delstater**. Nasjonalforsamlingen heter **der Bundestag**, og regjeringen ledes av **der Bundeskanzler** eller **die Bundeskanzlerin**. **Angela Merkel** var forbundskansler fra 2005 til 2021.\n- Tyskland er et **mangfoldig** land: Omtrent hver fjerde innbygger har innvandrerbakgrunn (*Einwanderungsgeschichte*). Den største gruppen har røtter i **Tyrkia**.\n- Historien preger fortsatt samfunnet. Tyske skoler legger stor vekt på å lære om **andre verdenskrig**, **Holocaust** og **delingen av Tyskland**.\n\n## Uttrykke meninger\n\n- **Ich bin dafür / dagegen, dass …** – Jeg er for / mot at …\n- **Einerseits …, andererseits …** – På den ene siden …, på den andre siden …\n- **Meiner Meinung nach sollten wir …** – Etter min mening burde vi …\n\nHusk at verbet står **sist** etter *dass*: *Ich bin dafür, dass Busse billiger **werden**.*\n\n## Tyskland og Norge\n\nBåde Norge og Tyskland satser på fornybar energi, og Norge eksporterer gass og strøm til Tyskland. Å sammenligne hvordan landene løser miljøutfordringer, gir nye perspektiver på vår egen hverdag.",
   "flashcards": [
-    { "term": "die Umwelt", "def": "miljøet" },
-    { "term": "der Umweltschutz", "def": "miljøvernet" },
-    { "term": "der Klimawandel", "def": "klimaendringene" },
-    { "term": "erneuerbare Energie", "def": "fornybar energi" },
-    { "term": "die Windkraft", "def": "vindkraften" },
-    { "term": "der Müll", "def": "avfallet, søppelet" },
-    { "term": "die Mülltrennung", "def": "kildesorteringen" },
-    { "term": "das Pfand", "def": "panten" },
-    { "term": "recyceln", "def": "å gjenvinne" },
-    { "term": "Energie sparen", "def": "å spare energi" },
-    { "term": "öffentliche Verkehrsmittel", "def": "kollektivtransport" },
-    { "term": "die Energiewende", "def": "Tysklands omstilling til fornybar energi" },
-    { "term": "Man sollte …", "def": "Man burde …" },
-    { "term": "Ich finde es wichtig, dass …", "def": "Jeg synes det er viktig at …" },
-    { "term": "der Bundestag", "def": "Tysklands nasjonalforsamling" },
-    { "term": "die Einwanderungsgeschichte", "def": "innvandrerbakgrunn" }
+    {
+      "term": "die Umwelt",
+      "def": "miljøet"
+    },
+    {
+      "term": "der Umweltschutz",
+      "def": "miljøvernet"
+    },
+    {
+      "term": "der Klimawandel",
+      "def": "klimaendringene"
+    },
+    {
+      "term": "erneuerbare Energie",
+      "def": "fornybar energi"
+    },
+    {
+      "term": "die Windkraft",
+      "def": "vindkraften"
+    },
+    {
+      "term": "der Müll",
+      "def": "avfallet, søppelet"
+    },
+    {
+      "term": "die Mülltrennung",
+      "def": "kildesorteringen"
+    },
+    {
+      "term": "das Pfand",
+      "def": "panten"
+    },
+    {
+      "term": "recyceln",
+      "def": "å gjenvinne"
+    },
+    {
+      "term": "Energie sparen",
+      "def": "å spare energi"
+    },
+    {
+      "term": "öffentliche Verkehrsmittel",
+      "def": "kollektivtransport"
+    },
+    {
+      "term": "die Energiewende",
+      "def": "Tysklands omstilling til fornybar energi"
+    },
+    {
+      "term": "Man sollte …",
+      "def": "Man burde …"
+    },
+    {
+      "term": "Ich finde es wichtig, dass …",
+      "def": "Jeg synes det er viktig at …"
+    },
+    {
+      "term": "der Bundestag",
+      "def": "Tysklands nasjonalforsamling"
+    },
+    {
+      "term": "die Einwanderungsgeschichte",
+      "def": "innvandrerbakgrunn"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr «die Umwelt»?", "options": ["Verden", "Byen", "Miljøet", "Været"], "correct": 2, "explain": "Verden heter «die Welt»." },
-    { "id": "q02", "text": "Hva er «die Mülltrennung»?", "options": ["Kildesortering av avfall", "En søppelbil", "Et søppelbrett", "Å kaste søppel i naturen"], "correct": 0, "explain": "«trennen» betyr å skille." },
-    { "id": "q03", "text": "Hva er «das Pfand»?", "options": ["En gave", "En regning", "En avgift på plast", "Pant på flasker og bokser"], "correct": 3, "explain": "Tyskland har pant, som Norge." },
-    { "id": "q04", "text": "Hva betyr «der Klimawandel»?", "options": ["Været i dag", "Klimaendringene", "Klimaanlegget", "Vinteren"], "correct": 1, "explain": "«der Wandel» betyr forandringen." },
-    { "id": "q05", "text": "Hva er eksempler på «erneuerbare Energie»?", "options": ["Kull og olje", "Gass og kull", "Atomkraft og olje", "Vind- og solenergi"], "correct": 3, "explain": "Fornybar energi kommer fra kilder som ikke tar slutt." },
-    { "id": "q06", "text": "Hva betyr «Man sollte weniger Auto fahren»?", "options": ["Man må kjøre mer bil", "Man kjører bil hver dag", "Man burde kjøre mindre bil", "Bilen er ødelagt"], "correct": 2, "explain": "«sollte» brukes om råd: burde." },
-    { "id": "q07", "text": "Hva kalles Tysklands omstilling til fornybar energi?", "options": ["Die Energiewende", "Die Wiedervereinigung", "Das Wirtschaftswunder", "Der Mauerfall"], "correct": 0, "explain": "«die Wende» betyr vendepunktet." },
-    { "id": "q08", "text": "Hva er «der Bundestag»?", "options": ["Tysklands nasjonaldag", "Tysklands nasjonalforsamling", "En delstat", "En avis"], "correct": 1, "explain": "Bundestag ligger i Berlin, i Riksdagsbygningen." },
-    { "id": "q09", "text": "Hvordan sier du at noe er viktig for deg?", "options": ["Es tut mir leid, dass …", "Ich habe Hunger, dass …", "Ich weiß nicht, dass …", "Ich finde es wichtig, dass …"], "correct": 3, "explain": "Husk at verbet står sist etter «dass»." },
-    { "id": "q10", "text": "Hva betyr «öffentliche Verkehrsmittel»?", "options": ["Kollektivtransport", "Privatbil", "Fly", "Sykkel"], "correct": 0, "explain": "«öffentlich» betyr offentlig." }
+    {
+      "id": "q01",
+      "text": "Hva betyr «die Umwelt»?",
+      "options": [
+        "Verden",
+        "Byen",
+        "Miljøet",
+        "Været"
+      ],
+      "correct": 2,
+      "explain": "Verden heter «die Welt»."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er «die Mülltrennung»?",
+      "options": [
+        "Kildesortering av avfall",
+        "En søppelbil",
+        "Et søppelbrett",
+        "Å kaste søppel i naturen"
+      ],
+      "correct": 0,
+      "explain": "«trennen» betyr å skille."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er «das Pfand»?",
+      "options": [
+        "En gave",
+        "En regning",
+        "En avgift på plast",
+        "Pant på flasker og bokser"
+      ],
+      "correct": 3,
+      "explain": "Tyskland har pant, som Norge."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr «der Klimawandel»?",
+      "options": [
+        "Været i dag",
+        "Klimaendringene",
+        "Klimaanlegget",
+        "Vinteren"
+      ],
+      "correct": 1,
+      "explain": "«der Wandel» betyr forandringen."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er eksempler på «erneuerbare Energie»?",
+      "options": [
+        "Kull og olje",
+        "Gass og kull",
+        "Atomkraft og olje",
+        "Vind- og solenergi"
+      ],
+      "correct": 3,
+      "explain": "Fornybar energi kommer fra kilder som ikke tar slutt."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr «Man sollte weniger Auto fahren»?",
+      "options": [
+        "Man må kjøre mer bil",
+        "Man kjører bil hver dag",
+        "Man burde kjøre mindre bil",
+        "Bilen er ødelagt"
+      ],
+      "correct": 2,
+      "explain": "«sollte» brukes om råd: burde."
+    },
+    {
+      "id": "q07",
+      "text": "Hva kalles Tysklands omstilling til fornybar energi?",
+      "options": [
+        "Die Energiewende",
+        "Die Wiedervereinigung",
+        "Das Wirtschaftswunder",
+        "Der Mauerfall"
+      ],
+      "correct": 0,
+      "explain": "«die Wende» betyr vendepunktet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er «der Bundestag»?",
+      "options": [
+        "Tysklands nasjonaldag",
+        "Tysklands nasjonalforsamling",
+        "En delstat",
+        "En avis"
+      ],
+      "correct": 1,
+      "explain": "Bundestag ligger i Berlin, i Riksdagsbygningen."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan sier du at noe er viktig for deg?",
+      "options": [
+        "Es tut mir leid, dass …",
+        "Ich habe Hunger, dass …",
+        "Ich weiß nicht, dass …",
+        "Ich finde es wichtig, dass …"
+      ],
+      "correct": 3,
+      "explain": "Husk at verbet står sist etter «dass»."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «öffentliche Verkehrsmittel»?",
+      "options": [
+        "Kollektivtransport",
+        "Privatbil",
+        "Fly",
+        "Sykkel"
+      ],
+      "correct": 0,
+      "explain": "«öffentlich» betyr offentlig."
+    }
   ],
   "mindmap": {
     "label": "Miljø og samfunn",
     "children": [
-      { "label": "Miljø", "children": [
-        { "label": "Umweltschutz" },
-        { "label": "Klimawandel" },
-        { "label": "Fridays for Future" }
-      ] },
-      { "label": "Avfall", "children": [
-        { "label": "Mülltrennung" },
-        { "label": "gelbe og blaue Tonne" },
-        { "label": "Pfand" }
-      ] },
-      { "label": "Energi og transport", "children": [
-        { "label": "Energiewende" },
-        { "label": "Wind og sol" },
-        { "label": "Kollektivtransport og sykkel" }
-      ] },
-      { "label": "Samfunn", "children": [
-        { "label": "16 delstater" },
-        { "label": "Bundestag og kansler" },
-        { "label": "Mangfold" },
-        { "label": "Historien" }
-      ] },
-      { "label": "Meninger", "children": [
-        { "label": "Man sollte …" },
-        { "label": "Ich finde es wichtig, dass …" },
-        { "label": "dafür / dagegen" }
-      ] }
+      {
+        "label": "Miljø",
+        "children": [
+          {
+            "label": "Umweltschutz"
+          },
+          {
+            "label": "Klimawandel"
+          },
+          {
+            "label": "Fridays for Future"
+          }
+        ]
+      },
+      {
+        "label": "Avfall",
+        "children": [
+          {
+            "label": "Mülltrennung"
+          },
+          {
+            "label": "gelbe og blaue Tonne"
+          },
+          {
+            "label": "Pfand"
+          }
+        ]
+      },
+      {
+        "label": "Energi og transport",
+        "children": [
+          {
+            "label": "Energiewende"
+          },
+          {
+            "label": "Wind og sol"
+          },
+          {
+            "label": "Kollektivtransport og sykkel"
+          }
+        ]
+      },
+      {
+        "label": "Samfunn",
+        "children": [
+          {
+            "label": "16 delstater"
+          },
+          {
+            "label": "Bundestag og kansler"
+          },
+          {
+            "label": "Mangfold"
+          },
+          {
+            "label": "Historien"
+          }
+        ]
+      },
+      {
+        "label": "Meninger",
+        "children": [
+          {
+            "label": "Man sollte …"
+          },
+          {
+            "label": "Ich finde es wichtig, dass …"
+          },
+          {
+            "label": "dafür / dagegen"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Tyskland er kjent for å sortere avfall i mange forskjellige beholdere.", "correct": true, "explain": "For eksempel gule, blå og brune dunker." },
-      { "id": "m02", "type": "sant-usant", "text": "Tyskland produserer fortsatt mye strøm fra atomkraft.", "correct": false, "explain": "De siste atomkraftverkene ble stengt i 2023." },
-      { "id": "m03", "type": "sant-usant", "text": "Angela Merkel var Tysklands forbundskansler fra 2005 til 2021.", "correct": true, "explain": "Hun var den første kvinnen i vervet." },
-      { "id": "m04", "type": "sant-usant", "text": "«recyceln» betyr å kaste.", "correct": false, "explain": "«recyceln» betyr å gjenvinne." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Energie sparen»?", "options": ["Å spare energi", "Å produsere energi", "Å kjøpe energi", "Å bruke mer energi"], "correct": 0, "explain": "«sparen» betyr å spare." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor mange delstater har Tyskland?", "options": ["9", "16", "20", "12"], "correct": 1, "explain": "Delstatene kalles «Bundesländer»." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Wir müssen die Umwelt schützen»?", "options": ["Vi liker miljøet", "Miljøet er fint", "Vi må beskytte miljøet", "Vi bor i miljøet"], "correct": 2, "explain": "«schützen» betyr å beskytte." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Tyskland er kjent for å sortere avfall i mange forskjellige beholdere.",
+        "correct": true,
+        "explain": "For eksempel gule, blå og brune dunker."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Tyskland produserer fortsatt mye strøm fra atomkraft.",
+        "correct": false,
+        "explain": "De siste atomkraftverkene ble stengt i 2023."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Angela Merkel var Tysklands forbundskansler fra 2005 til 2021.",
+        "correct": true,
+        "explain": "Hun var den første kvinnen i vervet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«recyceln» betyr å kaste.",
+        "correct": false,
+        "explain": "«recyceln» betyr å gjenvinne."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Energie sparen»?",
+        "options": [
+          "Å spare energi",
+          "Å produsere energi",
+          "Å kjøpe energi",
+          "Å bruke mer energi"
+        ],
+        "correct": 0,
+        "explain": "«sparen» betyr å spare."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor mange delstater har Tyskland?",
+        "options": [
+          "9",
+          "16",
+          "20",
+          "12"
+        ],
+        "correct": 1,
+        "explain": "Delstatene kalles «Bundesländer»."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «Wir müssen die Umwelt schützen»?",
+        "options": [
+          "Vi liker miljøet",
+          "Miljøet er fint",
+          "Vi må beskytte miljøet",
+          "Vi bor i miljøet"
+        ],
+        "correct": 2,
+        "explain": "«schützen» betyr å beskytte."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En husholdning i Tyskland skal sortere plast- og metallemballasje, papir og papp, matavfall og restavfall. Hvilken dunk skal brukes til hver type avfall?",
+        "fasit": "Plast- og metallemballasje skal i den gule dunken, papir og papp i den blå dunken, og matavfall i Biotonne. Restavfall skal i dunken for Restmüll.",
+        "kriterier": [
+          "Plasserer emballasje av plast og metall i den gule dunken og papir og papp i den blå.",
+          "Plasserer matavfall i Biotonne og restavfall i Restmüll."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En elev sier at all strøm i Tyskland nå kommer fra fornybar energi fordi landet har gjennomført die Energiewende. Rett opp påstanden med fakta om energikildene i Tyskland.",
+        "fasit": "Die Energiewende er en omstilling til fornybar energi, særlig vindkraft og solenergi. Men kull ga fortsatt rundt en femdel av strømmen i 2025, så all strøm kom ikke fra fornybare kilder.",
+        "kriterier": [
+          "Forklarer at omstillingen går mot fornybar energi, og nevner vindkraft eller solenergi.",
+          "Får fram at kull fortsatt ga rundt en femdel av strømmen i 2025."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign Norge og Tyskland når det gjelder fornybar energi og energi mellom landene. Hva har landene til felles, og hva gjør Norge for Tyskland?",
+        "fasit": "Både Norge og Tyskland satser på fornybar energi. Norge eksporterer gass og strøm til Tyskland.",
+        "kriterier": [
+          "Nevner at begge land satser på fornybar energi.",
+          "Nevner at Norge eksporterer både gass og strøm til Tyskland."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev ønsker å leve mer bærekraftig i hverdagen. Foreslå to konkrete handlinger eleven kan gjøre, ved å bruke disse rådene: kjøre mindre bil, spare energi og vann, kjøpe klær brukt, reise kollektivt eller sykle. Forklar kort hva eleven kan gjøre.",
+        "fasit": "Eleven kan ta bussen i stedet for å kjøre bil og kjøpe klær brukt. Eleven kan også huske å spare energi og vann hjemme.",
+        "kriterier": [
+          "Foreslår minst to ulike handlinger fra rådene.",
+          "Forklarer handlingene konkret, for eksempel ved å beskrive hvordan eleven kan reise eller handle."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Beskriv ett trekk ved mangfoldet i Tyskland, og fortell hvilken gruppe som er den største blant innbyggerne med innvandrerbakgrunn.",
+        "fasit": "Omtrent hver fjerde innbygger i Tyskland har innvandrerbakgrunn. Den største gruppen har røtter i Tyrkia.",
+        "kriterier": [
+          "Nevner at omtrent hver fjerde innbygger har innvandrerbakgrunn.",
+          "Nevner at den største gruppen har røtter i Tyrkia."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Tyske skoler legger stor vekt på bestemte deler av landets historie. Hvilke temaer lærer elevene om, og hvordan henger dette sammen med at historien fortsatt preger samfunnet?",
+        "fasit": "Elevene lærer blant annet om andre verdenskrig, Holocaust og delingen av Tyskland. Dette er deler av historien som fortsatt preger det tyske samfunnet.",
+        "kriterier": [
+          "Nevner minst to av temaene andre verdenskrig, Holocaust og delingen av Tyskland.",
+          "Knytter temaene til at historien fortsatt preger samfunnet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar forskjellen på rollene til der Bundestag og der Bundeskanzler eller die Bundeskanzlerin i Tyskland.",
+        "fasit": "Der Bundestag er Tysklands nasjonalforsamling. Regjeringen ledes av der Bundeskanzler eller die Bundeskanzlerin.",
+        "kriterier": [
+          "Forklarer at Bundestag er nasjonalforsamlingen.",
+          "Forklarer at forbundskansleren leder regjeringen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I setningen «Ich bin dafür, dass Busse billiger werden» står verbet «werden» etter «dass». Forklar regelen for hvor verbet står i en leddsetning med «dass».",
+        "fasit": "Etter «dass» står verbet sist i leddsetningen. Derfor står «werden» sist i «dass Busse billiger werden».",
+        "kriterier": [
+          "Forklarer at verbet står sist i leddsetningen etter «dass»."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,78 +4,425 @@
   "trinnId": "vg1",
   "name": "Funksjoner og grafer",
   "intro": "Hva en funksjon er, lineære og eksponentielle funksjoner, stigningstall og konstantledd, nullpunkter, skjæringspunkter og toppunkter – og hvordan du bruker GeoGebra til å utforske funksjoner.",
-  "kompetansemaal": [9, 11],
+  "kompetansemaal": [
+    9,
+    11
+  ],
   "sammendrag": "## Hva er en funksjon?\n\nEn **funksjon** er en sammenheng der hver verdi av x gir **nøyaktig én** verdi av y. Vi skriver ofte **f(x)** i stedet for y. Hvis f(x) = 150x + 200, er f(4) = 150 · 4 + 200 = **800**.\n\nEn funksjon kan vises som **formel**, **tabell**, **graf** eller med **ord**. **Definisjonsmengden** er de x-verdiene funksjonen gjelder for – for eksempel kan antall timer ikke være negativt.\n\n## Lineære funksjoner\n\nEn **lineær funksjon** har formen **f(x) = ax + b**, og grafen er en **rett linje**.\n\n- **a** er **stigningstallet**: hvor mye y endrer seg når x øker med 1. Positivt a gir stigende linje, negativt a gir synkende.\n- **b** er **konstantleddet**: verdien når x = 0, der grafen skjærer **y-aksen**.\n\nStigningstallet mellom to punkter: a = (y₂ − y₁)/(x₂ − x₁). Linjen gjennom (1, 5) og (3, 11) har a = (11 − 5)/(3 − 1) = 6/2 = **3**.\n\nLineære funksjoner beskriver **fast økning** per enhet, som en taxi med fast kilometerpris.\n\n## Eksponentialfunksjoner\n\nEn **eksponentialfunksjon** har formen **f(x) = b · aˣ**. Her er b startverdien og a **vekstfaktoren**. Den beskriver **fast prosentvis** endring:\n\n- f(x) = 500 · 1,05ˣ vokser med 5 % per enhet.\n- f(x) = 1000 · 0,9ˣ synker med 10 % per enhet.\n\nForskjellen er viktig: **Lineær vekst** øker med et **fast tall**, **eksponentiell vekst** øker med en **fast prosent** – og går etter hvert mye raskere.\n\n## Andre funksjoner\n\n- **Omvendt proporsjonale** funksjoner, f(x) = k/x, gir en hyperbel.\n- **Andregradsfunksjoner**, som f(x) = −x² + 6x, gir en **parabel** med et toppunkt eller bunnpunkt.\n\n## Viktige punkter på grafen\n\n- **Nullpunkt**: der grafen skjærer **x-aksen** (f(x) = 0). For f(x) = −2x + 10 er nullpunktet x = 5.\n- **Skjæringspunkt**: der to grafer møtes. Abonnement A koster 100 + 2x og B koster 200 + x. De er like når 100 + 2x = 200 + x, altså når **x = 100**.\n- **Toppunkt og bunnpunkt** (ekstremalpunkter): det høyeste eller laveste punktet i et område.\n\n## Digitale verktøy\n\nI **GeoGebra** kan du skrive inn funksjonen og få grafen direkte. Nyttige kommandoer:\n\n- **Nullpunkt(f)** – finner nullpunktene\n- **Skjæring(f, g)** – finner skjæringspunktene mellom to grafer\n- **Ekstremalpunkt(f)** – finner topp- og bunnpunkter\n- **Funksjon(f, start, slutt)** – tegner grafen innenfor en definisjonsmengde\n\nNår du bruker digitale verktøy, må du fortsatt **tolke** svaret: Hva betyr punktet i den praktiske situasjonen? Diskuter også om løsningen er **rimelig**.",
   "flashcards": [
-    { "term": "Funksjon", "def": "Sammenheng der hver x-verdi gir nøyaktig én y-verdi." },
-    { "term": "f(x)", "def": "Funksjonsverdien for en gitt x." },
-    { "term": "Definisjonsmengde", "def": "De x-verdiene funksjonen gjelder for." },
-    { "term": "Lineær funksjon", "def": "f(x) = ax + b, grafen er en rett linje." },
-    { "term": "Stigningstall", "def": "Hvor mye y endrer seg når x øker med 1." },
-    { "term": "Konstantledd", "def": "Verdien når x = 0, der grafen skjærer y-aksen." },
-    { "term": "Stigningstall mellom to punkter", "def": "(y₂ − y₁)/(x₂ − x₁)" },
-    { "term": "Eksponentialfunksjon", "def": "f(x) = b · aˣ, fast prosentvis endring." },
-    { "term": "Lineær vs. eksponentiell vekst", "def": "Fast tall per enhet vs. fast prosent per enhet." },
-    { "term": "Nullpunkt", "def": "Der grafen skjærer x-aksen." },
-    { "term": "Skjæringspunkt", "def": "Der to grafer møtes." },
-    { "term": "Toppunkt", "def": "Det høyeste punktet på grafen i et område." },
-    { "term": "Parabel", "def": "Grafen til en andregradsfunksjon." },
-    { "term": "Nullpunkt(f)", "def": "GeoGebra-kommando som finner nullpunkter." },
-    { "term": "Skjæring(f, g)", "def": "GeoGebra-kommando som finner skjæringspunkter." }
+    {
+      "term": "Funksjon",
+      "def": "Sammenheng der hver x-verdi gir nøyaktig én y-verdi."
+    },
+    {
+      "term": "f(x)",
+      "def": "Funksjonsverdien for en gitt x."
+    },
+    {
+      "term": "Definisjonsmengde",
+      "def": "De x-verdiene funksjonen gjelder for."
+    },
+    {
+      "term": "Lineær funksjon",
+      "def": "f(x) = ax + b, grafen er en rett linje."
+    },
+    {
+      "term": "Stigningstall",
+      "def": "Hvor mye y endrer seg når x øker med 1."
+    },
+    {
+      "term": "Konstantledd",
+      "def": "Verdien når x = 0, der grafen skjærer y-aksen."
+    },
+    {
+      "term": "Stigningstall mellom to punkter",
+      "def": "(y₂ − y₁)/(x₂ − x₁)"
+    },
+    {
+      "term": "Eksponentialfunksjon",
+      "def": "f(x) = b · aˣ, fast prosentvis endring."
+    },
+    {
+      "term": "Lineær vs. eksponentiell vekst",
+      "def": "Fast tall per enhet vs. fast prosent per enhet."
+    },
+    {
+      "term": "Nullpunkt",
+      "def": "Der grafen skjærer x-aksen."
+    },
+    {
+      "term": "Skjæringspunkt",
+      "def": "Der to grafer møtes."
+    },
+    {
+      "term": "Toppunkt",
+      "def": "Det høyeste punktet på grafen i et område."
+    },
+    {
+      "term": "Parabel",
+      "def": "Grafen til en andregradsfunksjon."
+    },
+    {
+      "term": "Nullpunkt(f)",
+      "def": "GeoGebra-kommando som finner nullpunkter."
+    },
+    {
+      "term": "Skjæring(f, g)",
+      "def": "GeoGebra-kommando som finner skjæringspunkter."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er stigningstallet i f(x) = 3x + 5?", "options": ["5", "3", "8", "x"], "correct": 1, "explain": "Tallet foran x er stigningstallet." },
-    { "id": "q02", "text": "Hva forteller konstantleddet b i f(x) = ax + b?", "options": ["Hvor bratt grafen er", "Hvor grafen skjærer x-aksen", "Hvor grafen skjærer y-aksen", "Hvor toppunktet er"], "correct": 2, "explain": "b er verdien når x = 0." },
-    { "id": "q03", "text": "Hva er stigningstallet til linjen gjennom (1, 5) og (3, 11)?", "options": ["3", "6", "2", "16"], "correct": 0, "explain": "(11 − 5)/(3 − 1) = 6/2 = 3." },
-    { "id": "q04", "text": "f(x) = 150x + 200. Hva er f(4)?", "options": ["354", "950", "600", "800"], "correct": 3, "explain": "150 · 4 + 200 = 600 + 200 = 800." },
-    { "id": "q05", "text": "Hvilken funksjon er en eksponentialfunksjon?", "options": ["f(x) = 5x + 500", "f(x) = 500 · 1,05ˣ", "f(x) = 500/x", "f(x) = x² + 5"], "correct": 1, "explain": "x står i eksponenten." },
-    { "id": "q06", "text": "Hva er et nullpunkt?", "options": ["Der grafen skjærer x-aksen", "Der grafen skjærer y-aksen", "Det høyeste punktet", "Der grafen starter"], "correct": 0, "explain": "I nullpunktet er f(x) = 0." },
-    { "id": "q07", "text": "Abonnement A koster 100 + 2x, og B koster 200 + x. For hvilken x koster de like mye?", "options": ["x = 50", "x = 300", "x = 100", "x = 200"], "correct": 2, "explain": "100 + 2x = 200 + x gir x = 100." },
-    { "id": "q08", "text": "Hvilken GeoGebra-kommando finner skjæringspunktene mellom to grafer?", "options": ["Nullpunkt(f)", "Ekstremalpunkt(f)", "Funksjon(f, 0, 10)", "Skjæring(f, g)"], "correct": 3, "explain": "Skjæring tar to objekter som input." },
-    { "id": "q09", "text": "Hva er et toppunkt?", "options": ["Der grafen starter", "Det høyeste punktet på grafen i et område", "Der grafen skjærer y-aksen", "Stigningstallet"], "correct": 1, "explain": "Toppunkter og bunnpunkter kalles ekstremalpunkter." },
-    { "id": "q10", "text": "Hva er forskjellen på lineær og eksponentiell vekst?", "options": ["Lineær vekst øker med et fast tall, eksponentiell med en fast prosent", "Det er ingen forskjell", "Lineær vekst går alltid raskest", "Eksponentiell vekst øker med et fast tall"], "correct": 0, "explain": "Eksponentiell vekst blir etter hvert mye raskere." }
+    {
+      "id": "q01",
+      "text": "Hva er stigningstallet i f(x) = 3x + 5?",
+      "options": [
+        "5",
+        "3",
+        "8",
+        "x"
+      ],
+      "correct": 1,
+      "explain": "Tallet foran x er stigningstallet."
+    },
+    {
+      "id": "q02",
+      "text": "Hva forteller konstantleddet b i f(x) = ax + b?",
+      "options": [
+        "Hvor bratt grafen er",
+        "Hvor grafen skjærer x-aksen",
+        "Hvor grafen skjærer y-aksen",
+        "Hvor toppunktet er"
+      ],
+      "correct": 2,
+      "explain": "b er verdien når x = 0."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er stigningstallet til linjen gjennom (1, 5) og (3, 11)?",
+      "options": [
+        "3",
+        "6",
+        "2",
+        "16"
+      ],
+      "correct": 0,
+      "explain": "(11 − 5)/(3 − 1) = 6/2 = 3."
+    },
+    {
+      "id": "q04",
+      "text": "f(x) = 150x + 200. Hva er f(4)?",
+      "options": [
+        "354",
+        "950",
+        "600",
+        "800"
+      ],
+      "correct": 3,
+      "explain": "150 · 4 + 200 = 600 + 200 = 800."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken funksjon er en eksponentialfunksjon?",
+      "options": [
+        "f(x) = 5x + 500",
+        "f(x) = 500 · 1,05ˣ",
+        "f(x) = 500/x",
+        "f(x) = x² + 5"
+      ],
+      "correct": 1,
+      "explain": "x står i eksponenten."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er et nullpunkt?",
+      "options": [
+        "Der grafen skjærer x-aksen",
+        "Der grafen skjærer y-aksen",
+        "Det høyeste punktet",
+        "Der grafen starter"
+      ],
+      "correct": 0,
+      "explain": "I nullpunktet er f(x) = 0."
+    },
+    {
+      "id": "q07",
+      "text": "Abonnement A koster 100 + 2x, og B koster 200 + x. For hvilken x koster de like mye?",
+      "options": [
+        "x = 50",
+        "x = 300",
+        "x = 100",
+        "x = 200"
+      ],
+      "correct": 2,
+      "explain": "100 + 2x = 200 + x gir x = 100."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken GeoGebra-kommando finner skjæringspunktene mellom to grafer?",
+      "options": [
+        "Nullpunkt(f)",
+        "Ekstremalpunkt(f)",
+        "Funksjon(f, 0, 10)",
+        "Skjæring(f, g)"
+      ],
+      "correct": 3,
+      "explain": "Skjæring tar to objekter som input."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et toppunkt?",
+      "options": [
+        "Der grafen starter",
+        "Det høyeste punktet på grafen i et område",
+        "Der grafen skjærer y-aksen",
+        "Stigningstallet"
+      ],
+      "correct": 1,
+      "explain": "Toppunkter og bunnpunkter kalles ekstremalpunkter."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er forskjellen på lineær og eksponentiell vekst?",
+      "options": [
+        "Lineær vekst øker med et fast tall, eksponentiell med en fast prosent",
+        "Det er ingen forskjell",
+        "Lineær vekst går alltid raskest",
+        "Eksponentiell vekst øker med et fast tall"
+      ],
+      "correct": 0,
+      "explain": "Eksponentiell vekst blir etter hvert mye raskere."
+    }
   ],
   "mindmap": {
     "label": "Funksjoner og grafer",
     "children": [
-      { "label": "Funksjon", "children": [
-        { "label": "Én y per x" },
-        { "label": "Formel, tabell, graf" },
-        { "label": "Definisjonsmengde" }
-      ] },
-      { "label": "Lineær", "children": [
-        { "label": "f(x) = ax + b" },
-        { "label": "Stigningstall" },
-        { "label": "Konstantledd" }
-      ] },
-      { "label": "Eksponentiell", "children": [
-        { "label": "f(x) = b · aˣ" },
-        { "label": "Fast prosent" }
-      ] },
-      { "label": "Punkter", "children": [
-        { "label": "Nullpunkt" },
-        { "label": "Skjæringspunkt" },
-        { "label": "Topp- og bunnpunkt" }
-      ] },
-      { "label": "GeoGebra", "children": [
-        { "label": "Nullpunkt(f)" },
-        { "label": "Skjæring(f, g)" },
-        { "label": "Ekstremalpunkt(f)" }
-      ] }
+      {
+        "label": "Funksjon",
+        "children": [
+          {
+            "label": "Én y per x"
+          },
+          {
+            "label": "Formel, tabell, graf"
+          },
+          {
+            "label": "Definisjonsmengde"
+          }
+        ]
+      },
+      {
+        "label": "Lineær",
+        "children": [
+          {
+            "label": "f(x) = ax + b"
+          },
+          {
+            "label": "Stigningstall"
+          },
+          {
+            "label": "Konstantledd"
+          }
+        ]
+      },
+      {
+        "label": "Eksponentiell",
+        "children": [
+          {
+            "label": "f(x) = b · aˣ"
+          },
+          {
+            "label": "Fast prosent"
+          }
+        ]
+      },
+      {
+        "label": "Punkter",
+        "children": [
+          {
+            "label": "Nullpunkt"
+          },
+          {
+            "label": "Skjæringspunkt"
+          },
+          {
+            "label": "Topp- og bunnpunkt"
+          }
+        ]
+      },
+      {
+        "label": "GeoGebra",
+        "children": [
+          {
+            "label": "Nullpunkt(f)"
+          },
+          {
+            "label": "Skjæring(f, g)"
+          },
+          {
+            "label": "Ekstremalpunkt(f)"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En funksjon gir nøyaktig én y-verdi for hver x-verdi.", "correct": true, "explain": "Det er selve definisjonen på en funksjon." },
-      { "id": "m02", "type": "sant-usant", "text": "Et negativt stigningstall betyr at grafen stiger.", "correct": false, "explain": "Negativt stigningstall gir en synkende linje." },
-      { "id": "m03", "type": "sant-usant", "text": "GeoGebra kan brukes til å finne nullpunkter.", "correct": true, "explain": "Kommandoen Nullpunkt(f) gjør dette." },
-      { "id": "m04", "type": "sant-usant", "text": "Grafen til f(x) = 2x + 3 går gjennom origo.", "correct": false, "explain": "Den skjærer y-aksen i 3." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er nullpunktet til f(x) = −2x + 10?", "options": ["x = −5", "x = 10", "x = 5", "x = 2"], "correct": 2, "explain": "−2x + 10 = 0 gir x = 5." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er definisjonsmengden til en funksjon?", "options": ["De y-verdiene funksjonen kan få", "De x-verdiene funksjonen gjelder for", "Stigningstallet", "Antall nullpunkter"], "correct": 1, "explain": "Den kan begrenses av den praktiske situasjonen." },
-      { "id": "m07", "type": "flervalg", "text": "Hva forteller f(x) = 1000 · 0,9ˣ?", "options": ["Verdien synker med 10 % for hver enhet", "Verdien øker med 90 %", "Verdien synker med 900", "Verdien er konstant"], "correct": 0, "explain": "Vekstfaktoren 0,9 betyr 10 % nedgang." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En funksjon gir nøyaktig én y-verdi for hver x-verdi.",
+        "correct": true,
+        "explain": "Det er selve definisjonen på en funksjon."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et negativt stigningstall betyr at grafen stiger.",
+        "correct": false,
+        "explain": "Negativt stigningstall gir en synkende linje."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "GeoGebra kan brukes til å finne nullpunkter.",
+        "correct": true,
+        "explain": "Kommandoen Nullpunkt(f) gjør dette."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Grafen til f(x) = 2x + 3 går gjennom origo.",
+        "correct": false,
+        "explain": "Den skjærer y-aksen i 3."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er nullpunktet til f(x) = −2x + 10?",
+        "options": [
+          "x = −5",
+          "x = 10",
+          "x = 5",
+          "x = 2"
+        ],
+        "correct": 2,
+        "explain": "−2x + 10 = 0 gir x = 5."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er definisjonsmengden til en funksjon?",
+        "options": [
+          "De y-verdiene funksjonen kan få",
+          "De x-verdiene funksjonen gjelder for",
+          "Stigningstallet",
+          "Antall nullpunkter"
+        ],
+        "correct": 1,
+        "explain": "Den kan begrenses av den praktiske situasjonen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva forteller f(x) = 1000 · 0,9ˣ?",
+        "options": [
+          "Verdien synker med 10 % for hver enhet",
+          "Verdien øker med 90 %",
+          "Verdien synker med 900",
+          "Verdien er konstant"
+        ],
+        "correct": 0,
+        "explain": "Vekstfaktoren 0,9 betyr 10 % nedgang."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva må være sant om verdiene av y for at en sammenheng skal være en funksjon? Forklar også hva f(x) betyr.",
+        "fasit": "Hver x-verdi må gi nøyaktig én y-verdi. f(x) er y-verdien som hører til en bestemt x-verdi.",
+        "kriterier": [
+          "Får fram at hver x-verdi gir nøyaktig én y-verdi.",
+          "Forklarer at f(x) er funksjonsverdien, altså y-verdien for en bestemt x-verdi."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En funksjon beskriver antall timer en aktivitet varer, der x står for antall timer. Hvorfor kan negative x-verdier ikke være med i definisjonsmengden?",
+        "fasit": "Definisjonsmengden inneholder x-verdiene funksjonen gjelder for. Antall timer kan ikke være negativt, så negative x-verdier passer ikke i denne situasjonen.",
+        "kriterier": [
+          "Forklarer at definisjonsmengden er x-verdiene funksjonen gjelder for.",
+          "Knytter bortvalget av negative verdier til at antall timer ikke kan være negativt."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En eksponentialfunksjon er skrevet som f(x) = b · aˣ. Forklar hva b og a forteller om funksjonen.",
+        "fasit": "b er startverdien. a er vekstfaktoren og beskriver den faste prosentvise endringen per enhet.",
+        "kriterier": [
+          "Identifiserer b som startverdien.",
+          "Forklarer at a er vekstfaktoren og knytter den til fast prosentvis endring."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En taxi tar en fast pris per kilometer. Forklar hvorfor en lineær funksjon kan passe til å beskrive kostnaden når antall kilometer øker.",
+        "fasit": "For hver ekstra kilometer øker kostnaden med det samme beløpet. En lineær funksjon passer fordi den beskriver en fast økning per enhet.",
+        "kriterier": [
+          "Forklarer at kostnaden øker med et fast beløp per kilometer.",
+          "Knytter den faste økningen til lineær funksjon."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "For funksjonen f(x) = −2x + 10, regn ut f(3). Vis det viktigste regnestykket.",
+        "fasit": "f(3) = −2 · 3 + 10 = 4. Derfor er f(3) lik 4.",
+        "kriterier": [
+          "Setter x = 3 inn i funksjonsuttrykket.",
+          "Regner riktig og får svaret 4."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Funksjonen f(x) = 500 · 1,05ˣ beskriver en størrelse. Regn ut f(1), og forklar hva svaret betyr som startverdi og endring.",
+        "fasit": "f(1) = 500 · 1,05 = 525. Startverdien er 500, og størrelsen har økt med 5 % etter én enhet.",
+        "kriterier": [
+          "Regner riktig ut at f(1) = 525.",
+          "Forklarer at 500 er startverdien, og at 1,05 svarer til en økning på 5 %."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign grafen til en lineær funksjon med grafen til en omvendt proporsjonal funksjon f(x) = k/x. Hva slags graf får du i hvert tilfelle?",
+        "fasit": "Grafen til en lineær funksjon er en rett linje. Grafen til en omvendt proporsjonal funksjon er en hyperbel.",
+        "kriterier": [
+          "Sier at en lineær funksjon har en rett linje som graf.",
+          "Sier at en omvendt proporsjonal funksjon har en hyperbel som graf."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "To grafer møtes i et skjæringspunkt. Forklar hva koordinatene til punktet betyr, og hva du bør vurdere hvis grafene beskriver en praktisk situasjon.",
+        "fasit": "I skjæringspunktet har grafene samme y-verdi for den samme x-verdien. I en praktisk situasjon bør vi tolke hva verdiene betyr og vurdere om løsningen er rimelig.",
+        "kriterier": [
+          "Forklarer at grafene har samme y-verdi ved samme x-verdi i skjæringspunktet.",
+          "Nevner at betydningen i situasjonen må tolkes, og at svaret bør vurderes som rimelig eller urimelig."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

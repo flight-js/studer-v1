@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Rekursive sammenhenger og programmering",
   "intro": "Rekursive og eksplisitte formler, Fibonacci-følgen, rekursjon i lån, sparing og populasjonsmodeller, og hvordan du utforsker rekursive sammenhenger med løkker og rekursive funksjoner i Python og presenterer framgangsmåten.",
-  "kompetansemaal": [2],
+  "kompetansemaal": [
+    2
+  ],
   "sammendrag": "## Rekursiv og eksplisitt formel\n\nEn **rekursiv** formel beskriver hvert ledd ved hjelp av **tidligere** ledd. Vi trenger også en **startverdi**.\n\n- Aritmetisk: a₁ = 3, **aₙ = aₙ₋₁ + 4**\n- Geometrisk: a₁ = 2, **aₙ = 3 · aₙ₋₁**\n\nEn **eksplisitt** formel regner ut aₙ direkte fra n, for eksempel aₙ = 4n − 1. Med en rekursiv formel må du regne deg fram ledd for ledd – noe en datamaskin er god til.\n\n## Fibonacci-følgen\n\nF₁ = 1, F₂ = 1 og **Fₙ = Fₙ₋₁ + Fₙ₋₂**. Det gir 1, 1, 2, 3, 5, 8, 13, 21, … Forholdet Fₙ₊₁/Fₙ nærmer seg det **gylne snitt**, (1 + √5)/2 ≈ 1,618.\n\n## Rekursjon i praksis\n\n**Lån**: Du låner 200 000 kr med 5 % rente og betaler 20 000 kr i året. Restgjelden etter n år:\n\nB₀ = 200 000, **Bₙ = 1,05 · Bₙ₋₁ − 20 000**\n\n**Populasjon**: En diskret **logistisk** modell med bæreevne K:\n\n**Pₙ₊₁ = Pₙ + r · Pₙ(1 − Pₙ/K)**\n\nVeksten bremses når Pₙ nærmer seg K.\n\n## Programmering med løkker\n\nEn **for-løkke** passer når du vet hvor mange steg du skal ta:\n\n```python\nB = 200000\nfor n in range(1, 6):\n    B = 1.05*B - 20000\n    print(n, round(B))\n```\n\nEn **while-løkke** passer når du skal fortsette til et **vilkår** er oppfylt, for eksempel til lånet er nedbetalt:\n\n```python\nB, n = 200000, 0\nwhile B > 0:\n    B = 1.05*B - 20000\n    n = n + 1\nprint(n)\n```\n\nMed **lister** kan du lagre alle leddene og tegne dem som et **diagram**.\n\n## Rekursive funksjoner\n\nEn funksjon er **rekursiv** når den **kaller seg selv**. Den må ha et **grunntilfelle** som stopper kallene.\n\n```python\ndef fakultet(n):\n    if n == 0:\n        return 1\n    return n*fakultet(n - 1)\n```\n\nfakultet(5) gir 5 · 4 · 3 · 2 · 1 = **120**.\n\nEn rekursiv Fibonacci-funksjon som kaller seg selv **to ganger** i hvert steg, blir svært **treg** for store n, fordi de samme leddene regnes ut om og om igjen. En **løkke** eller **lagring** av tidligere svar (memoisering) løser dette.\n\n## Fra rekursiv til eksplisitt\n\nNoen ganger kan vi finne en eksplisitt formel. Lånet over kan skrives som en geometrisk rekke:\n\nBₙ = 200 000 · 1,05ⁿ − 20 000(1,05ⁿ − 1)/0,05\n\nDet gir en **kontroll** av programmet.\n\n## Presentere framgangsmåten\n\nNår du presenterer en rekursiv undersøkelse, bør du\n\n1. forklare **modellen** og hva hver variabel betyr\n2. vise **startverdi** og **rekursjonsformel**\n3. vise og **kommentere** koden\n4. presentere resultatene i **tabell** eller **graf**\n5. **tolke** resultatet og vurdere **begrensningene** i modellen",
   "flashcards": [
-    { "term": "Rekursiv formel", "def": "Beskriver et ledd ved hjelp av tidligere ledd." },
-    { "term": "Eksplisitt formel", "def": "Regner ut aₙ direkte fra n." },
-    { "term": "Startverdi", "def": "Første ledd som rekursjonen bygger på." },
-    { "term": "Fibonacci-følgen", "def": "Fₙ = Fₙ₋₁ + Fₙ₋₂ med F₁ = F₂ = 1." },
-    { "term": "Det gylne snitt", "def": "(1 + √5)/2 ≈ 1,618." },
-    { "term": "Restgjeld rekursivt", "def": "Bₙ = (1 + r) · Bₙ₋₁ − terminbeløp." },
-    { "term": "Diskret logistisk modell", "def": "Pₙ₊₁ = Pₙ + r · Pₙ(1 − Pₙ/K)" },
-    { "term": "Bæreevne K", "def": "Største bestand miljøet kan bære." },
-    { "term": "for-løkke", "def": "Gjentar et bestemt antall ganger." },
-    { "term": "while-løkke", "def": "Gjentar så lenge et vilkår er oppfylt." },
-    { "term": "Rekursiv funksjon", "def": "Funksjon som kaller seg selv." },
-    { "term": "Grunntilfelle", "def": "Tilfellet som stopper rekursive kall." },
-    { "term": "n!", "def": "n · (n − 1) · … · 1, med 0! = 1." },
-    { "term": "Memoisering", "def": "Å lagre tidligere svar så de ikke regnes ut igjen." },
-    { "term": "Liste i Python", "def": "Lagrer mange verdier, for eksempel alle leddene." }
+    {
+      "term": "Rekursiv formel",
+      "def": "Beskriver et ledd ved hjelp av tidligere ledd."
+    },
+    {
+      "term": "Eksplisitt formel",
+      "def": "Regner ut aₙ direkte fra n."
+    },
+    {
+      "term": "Startverdi",
+      "def": "Første ledd som rekursjonen bygger på."
+    },
+    {
+      "term": "Fibonacci-følgen",
+      "def": "Fₙ = Fₙ₋₁ + Fₙ₋₂ med F₁ = F₂ = 1."
+    },
+    {
+      "term": "Det gylne snitt",
+      "def": "(1 + √5)/2 ≈ 1,618."
+    },
+    {
+      "term": "Restgjeld rekursivt",
+      "def": "Bₙ = (1 + r) · Bₙ₋₁ − terminbeløp."
+    },
+    {
+      "term": "Diskret logistisk modell",
+      "def": "Pₙ₊₁ = Pₙ + r · Pₙ(1 − Pₙ/K)"
+    },
+    {
+      "term": "Bæreevne K",
+      "def": "Største bestand miljøet kan bære."
+    },
+    {
+      "term": "for-løkke",
+      "def": "Gjentar et bestemt antall ganger."
+    },
+    {
+      "term": "while-løkke",
+      "def": "Gjentar så lenge et vilkår er oppfylt."
+    },
+    {
+      "term": "Rekursiv funksjon",
+      "def": "Funksjon som kaller seg selv."
+    },
+    {
+      "term": "Grunntilfelle",
+      "def": "Tilfellet som stopper rekursive kall."
+    },
+    {
+      "term": "n!",
+      "def": "n · (n − 1) · … · 1, med 0! = 1."
+    },
+    {
+      "term": "Memoisering",
+      "def": "Å lagre tidligere svar så de ikke regnes ut igjen."
+    },
+    {
+      "term": "Liste i Python",
+      "def": "Lagrer mange verdier, for eksempel alle leddene."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er a₄ når a₁ = 2 og aₙ = 3 · aₙ₋₁?", "options": ["18", "54", "24", "162"], "correct": 1, "explain": "2, 6, 18, 54." },
-    { "id": "q02", "text": "Hva er det neste tallet i Fibonacci-følgen 1, 1, 2, 3, 5, 8, …?", "options": ["13", "11", "16", "10"], "correct": 0, "explain": "5 + 8." },
-    { "id": "q03", "text": "Hva må en rekursiv funksjon ha for å stoppe?", "options": ["En while-løkke", "En liste", "Et grunntilfelle", "En print-kommando"], "correct": 2, "explain": "Ellers kaller den seg selv i det uendelige." },
-    { "id": "q04", "text": "Når passer en while-løkke best?", "options": ["Når du vet nøyaktig antall steg", "Aldri", "Bare for lister", "Når du skal fortsette til et vilkår er oppfylt"], "correct": 3, "explain": "For eksempel til lånet er nedbetalt." },
-    { "id": "q05", "text": "Hva blir B₁ når B₀ = 200 000 og Bₙ = 1,05 · Bₙ₋₁ − 20 000?", "options": ["190 000", "210 000", "180 000", "200 000"], "correct": 0, "explain": "210 000 − 20 000." },
-    { "id": "q06", "text": "Hvilken verdi nærmer forholdet Fₙ₊₁/Fₙ i Fibonacci-følgen seg?", "options": ["2", "Det gylne snitt, omtrent 1,618", "π", "1"], "correct": 1, "explain": "(1 + √5)/2." },
-    { "id": "q07", "text": "Hva returnerer fakultet(4) i den rekursive funksjonen?", "options": ["4", "10", "24", "16"], "correct": 2, "explain": "4 · 3 · 2 · 1." },
-    { "id": "q08", "text": "Hvorfor er en rekursiv Fibonacci-funksjon som kaller seg selv to ganger, treg?", "options": ["Fordi Python er tregt", "Fordi tallene er små", "Fordi den mangler grunntilfelle", "Fordi de samme leddene regnes ut om og om igjen"], "correct": 3, "explain": "Løses med løkke eller memoisering." },
-    { "id": "q09", "text": "Hva skjer med veksten i en logistisk modell når Pₙ nærmer seg K?", "options": ["Den bremses", "Den øker", "Den blir negativ alltid", "Den er konstant"], "correct": 0, "explain": "Faktoren (1 − Pₙ/K) går mot 0." },
-    { "id": "q10", "text": "Hva er en eksplisitt formel for følgen gitt ved a₁ = 3 og aₙ = aₙ₋₁ + 4?", "options": ["aₙ = 3n + 4", "aₙ = 4n − 1", "aₙ = 4n + 3", "aₙ = 3 · 4ⁿ"], "correct": 1, "explain": "3 + (n − 1) · 4." }
+    {
+      "id": "q01",
+      "text": "Hva er a₄ når a₁ = 2 og aₙ = 3 · aₙ₋₁?",
+      "options": [
+        "18",
+        "54",
+        "24",
+        "162"
+      ],
+      "correct": 1,
+      "explain": "2, 6, 18, 54."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er det neste tallet i Fibonacci-følgen 1, 1, 2, 3, 5, 8, …?",
+      "options": [
+        "13",
+        "11",
+        "16",
+        "10"
+      ],
+      "correct": 0,
+      "explain": "5 + 8."
+    },
+    {
+      "id": "q03",
+      "text": "Hva må en rekursiv funksjon ha for å stoppe?",
+      "options": [
+        "En while-løkke",
+        "En liste",
+        "Et grunntilfelle",
+        "En print-kommando"
+      ],
+      "correct": 2,
+      "explain": "Ellers kaller den seg selv i det uendelige."
+    },
+    {
+      "id": "q04",
+      "text": "Når passer en while-løkke best?",
+      "options": [
+        "Når du vet nøyaktig antall steg",
+        "Aldri",
+        "Bare for lister",
+        "Når du skal fortsette til et vilkår er oppfylt"
+      ],
+      "correct": 3,
+      "explain": "For eksempel til lånet er nedbetalt."
+    },
+    {
+      "id": "q05",
+      "text": "Hva blir B₁ når B₀ = 200 000 og Bₙ = 1,05 · Bₙ₋₁ − 20 000?",
+      "options": [
+        "190 000",
+        "210 000",
+        "180 000",
+        "200 000"
+      ],
+      "correct": 0,
+      "explain": "210 000 − 20 000."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken verdi nærmer forholdet Fₙ₊₁/Fₙ i Fibonacci-følgen seg?",
+      "options": [
+        "2",
+        "Det gylne snitt, omtrent 1,618",
+        "π",
+        "1"
+      ],
+      "correct": 1,
+      "explain": "(1 + √5)/2."
+    },
+    {
+      "id": "q07",
+      "text": "Hva returnerer fakultet(4) i den rekursive funksjonen?",
+      "options": [
+        "4",
+        "10",
+        "24",
+        "16"
+      ],
+      "correct": 2,
+      "explain": "4 · 3 · 2 · 1."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er en rekursiv Fibonacci-funksjon som kaller seg selv to ganger, treg?",
+      "options": [
+        "Fordi Python er tregt",
+        "Fordi tallene er små",
+        "Fordi den mangler grunntilfelle",
+        "Fordi de samme leddene regnes ut om og om igjen"
+      ],
+      "correct": 3,
+      "explain": "Løses med løkke eller memoisering."
+    },
+    {
+      "id": "q09",
+      "text": "Hva skjer med veksten i en logistisk modell når Pₙ nærmer seg K?",
+      "options": [
+        "Den bremses",
+        "Den øker",
+        "Den blir negativ alltid",
+        "Den er konstant"
+      ],
+      "correct": 0,
+      "explain": "Faktoren (1 − Pₙ/K) går mot 0."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en eksplisitt formel for følgen gitt ved a₁ = 3 og aₙ = aₙ₋₁ + 4?",
+      "options": [
+        "aₙ = 3n + 4",
+        "aₙ = 4n − 1",
+        "aₙ = 4n + 3",
+        "aₙ = 3 · 4ⁿ"
+      ],
+      "correct": 1,
+      "explain": "3 + (n − 1) · 4."
+    }
   ],
   "mindmap": {
     "label": "Rekursjon",
     "children": [
-      { "label": "Formler", "children": [
-        { "label": "Rekursiv" },
-        { "label": "Eksplisitt" },
-        { "label": "Startverdi" }
-      ] },
-      { "label": "Eksempler", "children": [
-        { "label": "Fibonacci" },
-        { "label": "Lån" },
-        { "label": "Logistisk vekst" }
-      ] },
-      { "label": "Løkker", "children": [
-        { "label": "for" },
-        { "label": "while" },
-        { "label": "Lister" }
-      ] },
-      { "label": "Rekursive funksjoner", "children": [
-        { "label": "Grunntilfelle" },
-        { "label": "Fakultet" },
-        { "label": "Memoisering" }
-      ] },
-      { "label": "Presentasjon", "children": [
-        { "label": "Kode og kommentarer" },
-        { "label": "Tabell og graf" }
-      ] }
+      {
+        "label": "Formler",
+        "children": [
+          {
+            "label": "Rekursiv"
+          },
+          {
+            "label": "Eksplisitt"
+          },
+          {
+            "label": "Startverdi"
+          }
+        ]
+      },
+      {
+        "label": "Eksempler",
+        "children": [
+          {
+            "label": "Fibonacci"
+          },
+          {
+            "label": "Lån"
+          },
+          {
+            "label": "Logistisk vekst"
+          }
+        ]
+      },
+      {
+        "label": "Løkker",
+        "children": [
+          {
+            "label": "for"
+          },
+          {
+            "label": "while"
+          },
+          {
+            "label": "Lister"
+          }
+        ]
+      },
+      {
+        "label": "Rekursive funksjoner",
+        "children": [
+          {
+            "label": "Grunntilfelle"
+          },
+          {
+            "label": "Fakultet"
+          },
+          {
+            "label": "Memoisering"
+          }
+        ]
+      },
+      {
+        "label": "Presentasjon",
+        "children": [
+          {
+            "label": "Kode og kommentarer"
+          },
+          {
+            "label": "Tabell og graf"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En rekursiv formel trenger en startverdi.", "correct": true, "explain": "Ellers vet vi ikke hvor vi skal begynne." },
-      { "id": "m02", "type": "sant-usant", "text": "0! er lik 0.", "correct": false, "explain": "0! er definert som 1." },
-      { "id": "m03", "type": "sant-usant", "text": "En eksplisitt formel kan brukes til å kontrollere et program.", "correct": true, "explain": "Svarene skal stemme." },
-      { "id": "m04", "type": "sant-usant", "text": "range(1, 6) i Python gir tallene 1 til og med 6.", "correct": false, "explain": "Den gir 1 til og med 5." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er en rekursiv funksjon?", "options": ["En funksjon uten parametre", "En funksjon som kaller seg selv", "En funksjon med løkke", "En funksjon som tegner grafer"], "correct": 1, "explain": "Må ha et grunntilfelle." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er F₈ i Fibonacci-følgen?", "options": ["21", "13", "34", "18"], "correct": 0, "explain": "1, 1, 2, 3, 5, 8, 13, 21." },
-      { "id": "m07", "type": "flervalg", "text": "Hva bør en presentasjon av en rekursiv modell inneholde?", "options": ["Bare koden", "Bare svaret", "Modell, formel, kode, resultater og tolkning", "Bare en graf"], "correct": 2, "explain": "Også begrensninger." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En rekursiv formel trenger en startverdi.",
+        "correct": true,
+        "explain": "Ellers vet vi ikke hvor vi skal begynne."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "0! er lik 0.",
+        "correct": false,
+        "explain": "0! er definert som 1."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En eksplisitt formel kan brukes til å kontrollere et program.",
+        "correct": true,
+        "explain": "Svarene skal stemme."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "range(1, 6) i Python gir tallene 1 til og med 6.",
+        "correct": false,
+        "explain": "Den gir 1 til og med 5."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er en rekursiv funksjon?",
+        "options": [
+          "En funksjon uten parametre",
+          "En funksjon som kaller seg selv",
+          "En funksjon med løkke",
+          "En funksjon som tegner grafer"
+        ],
+        "correct": 1,
+        "explain": "Må ha et grunntilfelle."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er F₈ i Fibonacci-følgen?",
+        "options": [
+          "21",
+          "13",
+          "34",
+          "18"
+        ],
+        "correct": 0,
+        "explain": "1, 1, 2, 3, 5, 8, 13, 21."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva bør en presentasjon av en rekursiv modell inneholde?",
+        "options": [
+          "Bare koden",
+          "Bare svaret",
+          "Modell, formel, kode, resultater og tolkning",
+          "Bare en graf"
+        ],
+        "correct": 2,
+        "explain": "Også begrensninger."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på en rekursiv og en eksplisitt formel. Hva må du bruke den rekursive formelen til, sammenlignet med den eksplisitte, for å finne et bestemt ledd?",
+        "fasit": "En rekursiv formel bruker tidligere ledd og en startverdi, så du regner deg fram ledd for ledd. En eksplisitt formel regner ut leddet direkte fra n.",
+        "kriterier": [
+          "Forklarer at en rekursiv formel bygger på tidligere ledd.",
+          "Forklarer at en eksplisitt formel regner ut leddet direkte fra n."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et lån har restgjeld B₀ = 200 000 kr og følger regelen Bₙ = 1,05 · Bₙ₋₁ − 20 000. Regn ut restgjelden B₂, og vis det viktigste regnetrinnet.",
+        "fasit": "B₁ = 1,05 · 200 000 − 20 000 = 190 000. Derfor blir B₂ = 1,05 · 190 000 − 20 000 = 179 500 kr.",
+        "kriterier": [
+          "Bruker regelen til å finne B₁ = 190 000 kr.",
+          "Finner B₂ = 179 500 kr."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I Fibonacci-følgen er F₁ = F₂ = 1 og Fₙ = Fₙ₋₁ + Fₙ₋₂. Regn ut F₇, og vis hvilke tidligere ledd du bruker.",
+        "fasit": "F₅ = 5 og F₆ = 8. Dermed er F₇ = F₆ + F₅ = 8 + 5 = 13.",
+        "kriterier": [
+          "Bruker de to foregående leddene i rekursjonsregelen.",
+          "Finner F₇ = 13."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En diskret logistisk modell er Pₙ₊₁ = Pₙ + r · Pₙ(1 − Pₙ/K). Anta at Pₙ = K/2. Sett dette inn i formelen og forenkle uttrykket for Pₙ₊₁.",
+        "fasit": "Pₙ₊₁ = K/2 + r · (K/2)(1 − 1/2) = K/2 + rK/4.",
+        "kriterier": [
+          "Setter Pₙ = K/2 inn både som Pₙ og i brøken Pₙ/K.",
+          "Får Pₙ₊₁ = K/2 + rK/4."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Se på koden: `B = 200000; for n in range(1, 6): B = 1.05*B - 20000; print(n, round(B))`. Hvor mange ganger oppdateres B, og hvilke verdier av n skrives ut?",
+        "fasit": "B oppdateres fem ganger. Verdiene av n som skrives ut, er 1, 2, 3, 4 og 5.",
+        "kriterier": [
+          "Angir at løkken oppdaterer B fem ganger.",
+          "Angir at n går fra 1 til og med 5."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I regelen Bₙ = 1,05 · Bₙ₋₁ − 20 000 beskrives utviklingen i et lån. Forklar hva faktoren 1,05 og tallet 20 000 betyr i denne modellen.",
+        "fasit": "Faktoren 1,05 gjør at restgjelden øker med 5 % rente før betalingen trekkes fra. Deretter trekkes terminbeløpet på 20 000 kr fra.",
+        "kriterier": [
+          "Knytter 1,05 til at restgjelden økes med 5 % rente.",
+          "Forklarer at 20 000 kr trekkes fra som betaling."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du regner ut ledd i en følge og vil vise utviklingen i et diagram. Forklar hvordan en liste i Python kan hjelpe deg med dette.",
+        "fasit": "En liste kan lagre de beregnede leddene etter hvert som de blir funnet. Da kan verdiene brukes til å lage et diagram som viser utviklingen i følgen.",
+        "kriterier": [
+          "Nevner at listen kan lagre flere eller alle leddene i følgen.",
+          "Forklarer at de lagrede verdiene kan brukes til å lage et diagram."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En rekursiv beregning av et lån kan også gjøres med en eksplisitt formel for Bₙ. Forklar hvordan du kan bruke den eksplisitte formelen til å kontrollere et program som regner rekursivt.",
+        "fasit": "Du kan regne ut restgjelden for samme n med både programmet og den eksplisitte formelen. Hvis resultatene stemmer overens, støtter det at programmet regner riktig.",
+        "kriterier": [
+          "Sammenligner verdier for samme n fra programmet og den eksplisitte formelen.",
+          "Forklarer at samsvar mellom resultatene kan brukes som kontroll av programmet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

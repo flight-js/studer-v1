@@ -4,77 +4,421 @@
   "trinnId": "vg2",
   "name": "Filosofisk samtale og argumentasjon",
   "intro": "Hvordan du bruker filosofisk samtale til å utforske spørsmål, hvordan et argument er bygd opp av premisser og konklusjon, forskjellen på gyldige og holdbare argumenter, og vanlige argumentasjonsfeil.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Filosofi begynner med undring\n\nFilosofi betyr **kjærlighet til visdom**. Filosofiske spørsmål er **grunnleggende** og kan ikke løses bare med målinger eller oppslag: Hva er rettferdighet? Har vi fri vilje? Kan vi vite noe sikkert?\n\n## Den filosofiske samtalen\n\n**Sokrates** (ca. 470–399 f.Kr.) gikk rundt i Athen og stilte spørsmål til folk som mente de visste noe. Gjennom **spørsmål og svar** viste han at mange oppfatninger var uklare eller selvmotsigende. Metoden kalles den **sokratiske samtalen**.\n\nI en filosofisk samtale i klassen\n\n- tar dere utgangspunkt i et **åpent spørsmål**\n- **lytter** til hverandre og bygger videre på det andre sier\n- **avklarer begreper**: Hva mener vi med «frihet»?\n- tester påstander med **eksempler** og **moteksempler**\n- ber om **begrunnelser**: Hvorfor mener du det?\n\nMålet er ikke å **vinne**, men å **tenke bedre sammen** – og det er lov å endre mening.\n\n## Hva er et argument?\n\nEt **argument** består av **premisser** – påstander som gir grunner – og en **konklusjon** som skal følge av dem.\n\n**Premiss 1**: Alle mennesker er dødelige.\n**Premiss 2**: Sokrates er et menneske.\n**Konklusjon**: Altså er Sokrates dødelig.\n\n## Gyldig og holdbart\n\n- Et argument er **gyldig** når konklusjonen **følger logisk** av premissene – hvis premissene er sanne, **må** konklusjonen være sann.\n- Et argument er **holdbart** når det er gyldig **og** premissene faktisk er **sanne**.\n\nEt argument kan være gyldig med usanne premisser: «Alle fisker kan fly. Laksen er en fisk. Altså kan laksen fly.» Logikken er riktig, men premiss 1 er usant.\n\nOg et argument kan ha sanne premisser og konklusjon, men likevel være **ugyldig**: «Alle katter er dyr. Pusi er et dyr. Altså er Pusi en katt.» Konklusjonen følger ikke – Pusi kunne vært en hund.\n\n## Deduksjon og induksjon\n\n- **Deduktive** argumenter går fra det **generelle** til det **spesielle** og kan gi **sikker** konklusjon.\n- **Induktive** argumenter går fra **enkelttilfeller** til en **generell** konklusjon: «Alle svaner jeg har sett, er hvite, altså er alle svaner hvite.» Konklusjonen er bare **sannsynlig** – og kan motbevises av én svart svane.\n\n## Argumentasjonsfeil\n\n- **Stråmann**: å angripe en **forvrengt** versjon av motpartens syn.\n- **Personangrep** (ad hominem): å angripe **personen** i stedet for argumentet.\n- **Falskt dilemma**: å late som det bare finnes **to** alternativer.\n- **Glidebane**: å påstå at ett steg **uunngåelig** fører til en katastrofe.\n- **Sirkelargument**: konklusjonen er allerede **forutsatt** i premissene.\n- **Irrelevant autoritet**: å vise til en kjent person som ikke har **fagkunnskap** om saken.\n- **Forhastet generalisering**: å trekke en bred slutning av **få** tilfeller.\n\n## Vurdere argumenter\n\nSpør: Er begrepene **klare**? Er premissene **sanne**? Følger konklusjonen **logisk**? Finnes det **motargumenter**? Å kunne vurdere argumenter er viktig både i filosofi, historie og i et **demokrati**, der vi hele tiden møter påstander som skal overbevise oss.",
   "flashcards": [
-    { "term": "Filosofi", "def": "Kjærlighet til visdom – utforsking av grunnleggende spørsmål." },
-    { "term": "Sokratisk samtale", "def": "Spørsmål og svar som prøver ut oppfatninger." },
-    { "term": "Begrepsavklaring", "def": "Å gjøre klart hva et ord betyr i samtalen." },
-    { "term": "Moteksempel", "def": "Eksempel som viser at en påstand ikke alltid gjelder." },
-    { "term": "Premiss", "def": "Påstand som gir grunn for konklusjonen." },
-    { "term": "Konklusjon", "def": "Påstanden som skal følge av premissene." },
-    { "term": "Gyldig argument", "def": "Konklusjonen følger logisk av premissene." },
-    { "term": "Holdbart argument", "def": "Gyldig og med sanne premisser." },
-    { "term": "Deduksjon", "def": "Fra det generelle til det spesielle – kan gi sikker konklusjon." },
-    { "term": "Induksjon", "def": "Fra enkelttilfeller til generell, sannsynlig konklusjon." },
-    { "term": "Stråmann", "def": "Å angripe en forvrengt versjon av motpartens syn." },
-    { "term": "Ad hominem", "def": "Å angripe personen i stedet for argumentet." },
-    { "term": "Falskt dilemma", "def": "Å late som det bare finnes to alternativer." },
-    { "term": "Glidebane", "def": "Å påstå at ett steg uunngåelig fører til katastrofe." },
-    { "term": "Sirkelargument", "def": "Konklusjonen er forutsatt i premissene." }
+    {
+      "term": "Filosofi",
+      "def": "Kjærlighet til visdom – utforsking av grunnleggende spørsmål."
+    },
+    {
+      "term": "Sokratisk samtale",
+      "def": "Spørsmål og svar som prøver ut oppfatninger."
+    },
+    {
+      "term": "Begrepsavklaring",
+      "def": "Å gjøre klart hva et ord betyr i samtalen."
+    },
+    {
+      "term": "Moteksempel",
+      "def": "Eksempel som viser at en påstand ikke alltid gjelder."
+    },
+    {
+      "term": "Premiss",
+      "def": "Påstand som gir grunn for konklusjonen."
+    },
+    {
+      "term": "Konklusjon",
+      "def": "Påstanden som skal følge av premissene."
+    },
+    {
+      "term": "Gyldig argument",
+      "def": "Konklusjonen følger logisk av premissene."
+    },
+    {
+      "term": "Holdbart argument",
+      "def": "Gyldig og med sanne premisser."
+    },
+    {
+      "term": "Deduksjon",
+      "def": "Fra det generelle til det spesielle – kan gi sikker konklusjon."
+    },
+    {
+      "term": "Induksjon",
+      "def": "Fra enkelttilfeller til generell, sannsynlig konklusjon."
+    },
+    {
+      "term": "Stråmann",
+      "def": "Å angripe en forvrengt versjon av motpartens syn."
+    },
+    {
+      "term": "Ad hominem",
+      "def": "Å angripe personen i stedet for argumentet."
+    },
+    {
+      "term": "Falskt dilemma",
+      "def": "Å late som det bare finnes to alternativer."
+    },
+    {
+      "term": "Glidebane",
+      "def": "Å påstå at ett steg uunngåelig fører til katastrofe."
+    },
+    {
+      "term": "Sirkelargument",
+      "def": "Konklusjonen er forutsatt i premissene."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Når er et argument gyldig?", "options": ["Når premissene er sanne", "Når konklusjonen følger logisk av premissene", "Når mange er enige", "Når det er langt"], "correct": 1, "explain": "Gyldighet handler om logikken." },
-    { "id": "q02", "text": "Når er et argument holdbart?", "options": ["Når det er gyldig og premissene er sanne", "Når det er gyldig", "Når konklusjonen er sann", "Når det bruker eksempler"], "correct": 0, "explain": "Begge kravene må oppfylles." },
-    { "id": "q03", "text": "«Alle katter er dyr. Pusi er et dyr. Altså er Pusi en katt.» Hva er feil?", "options": ["Premissene er usanne", "Det er et sirkelargument", "Konklusjonen følger ikke logisk av premissene", "Ingenting"], "correct": 2, "explain": "Pusi kunne vært et annet dyr." },
-    { "id": "q04", "text": "Hva er en stråmann?", "options": ["Å angripe personen", "Å vise til en autoritet", "Å trekke konklusjon av få tilfeller", "Å angripe en forvrengt versjon av motpartens syn"], "correct": 3, "explain": "Da blir motsynet lettere å avvise." },
-    { "id": "q05", "text": "Hva kjennetegner et induktivt argument?", "options": ["Det går fra enkelttilfeller til en generell, sannsynlig konklusjon", "Det gir alltid sikker konklusjon", "Det går fra generelt til spesielt", "Det har ingen premisser"], "correct": 0, "explain": "Kan motbevises av ett moteksempel." },
-    { "id": "q06", "text": "Hva er målet med en filosofisk samtale?", "options": ["Å vinne diskusjonen", "Å tenke bedre sammen og undersøke oppfatninger", "Å bli enige så raskt som mulig", "Å pugge svar"], "correct": 1, "explain": "Det er lov å endre mening." },
-    { "id": "q07", "text": "«Du kan ikke mene noe om skatt, du er jo bare 17.» Hvilken feil er dette?", "options": ["Glidebane", "Falskt dilemma", "Personangrep (ad hominem)", "Sirkelargument"], "correct": 2, "explain": "Angriper personen, ikke argumentet." },
-    { "id": "q08", "text": "Hvem er kjent for å stille spørsmål som avslørte uklare oppfatninger i Athen?", "options": ["Aristoteles", "Platon", "Descartes", "Sokrates"], "correct": 3, "explain": "Den sokratiske metoden." },
-    { "id": "q09", "text": "«Enten er du med oss, eller så er du mot oss.» Hvilken feil er dette?", "options": ["Falskt dilemma", "Stråmann", "Induksjon", "Holdbart argument"], "correct": 0, "explain": "Det finnes flere alternativer." },
-    { "id": "q10", "text": "Hva er et moteksempel?", "options": ["Et eksempel som støtter påstanden", "Et eksempel som viser at en påstand ikke alltid gjelder", "En konklusjon", "Et premiss"], "correct": 1, "explain": "Én svart svane motbeviser «alle svaner er hvite»." }
+    {
+      "id": "q01",
+      "text": "Når er et argument gyldig?",
+      "options": [
+        "Når premissene er sanne",
+        "Når konklusjonen følger logisk av premissene",
+        "Når mange er enige",
+        "Når det er langt"
+      ],
+      "correct": 1,
+      "explain": "Gyldighet handler om logikken."
+    },
+    {
+      "id": "q02",
+      "text": "Når er et argument holdbart?",
+      "options": [
+        "Når det er gyldig og premissene er sanne",
+        "Når det er gyldig",
+        "Når konklusjonen er sann",
+        "Når det bruker eksempler"
+      ],
+      "correct": 0,
+      "explain": "Begge kravene må oppfylles."
+    },
+    {
+      "id": "q03",
+      "text": "«Alle katter er dyr. Pusi er et dyr. Altså er Pusi en katt.» Hva er feil?",
+      "options": [
+        "Premissene er usanne",
+        "Det er et sirkelargument",
+        "Konklusjonen følger ikke logisk av premissene",
+        "Ingenting"
+      ],
+      "correct": 2,
+      "explain": "Pusi kunne vært et annet dyr."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er en stråmann?",
+      "options": [
+        "Å angripe personen",
+        "Å vise til en autoritet",
+        "Å trekke konklusjon av få tilfeller",
+        "Å angripe en forvrengt versjon av motpartens syn"
+      ],
+      "correct": 3,
+      "explain": "Da blir motsynet lettere å avvise."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner et induktivt argument?",
+      "options": [
+        "Det går fra enkelttilfeller til en generell, sannsynlig konklusjon",
+        "Det gir alltid sikker konklusjon",
+        "Det går fra generelt til spesielt",
+        "Det har ingen premisser"
+      ],
+      "correct": 0,
+      "explain": "Kan motbevises av ett moteksempel."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er målet med en filosofisk samtale?",
+      "options": [
+        "Å vinne diskusjonen",
+        "Å tenke bedre sammen og undersøke oppfatninger",
+        "Å bli enige så raskt som mulig",
+        "Å pugge svar"
+      ],
+      "correct": 1,
+      "explain": "Det er lov å endre mening."
+    },
+    {
+      "id": "q07",
+      "text": "«Du kan ikke mene noe om skatt, du er jo bare 17.» Hvilken feil er dette?",
+      "options": [
+        "Glidebane",
+        "Falskt dilemma",
+        "Personangrep (ad hominem)",
+        "Sirkelargument"
+      ],
+      "correct": 2,
+      "explain": "Angriper personen, ikke argumentet."
+    },
+    {
+      "id": "q08",
+      "text": "Hvem er kjent for å stille spørsmål som avslørte uklare oppfatninger i Athen?",
+      "options": [
+        "Aristoteles",
+        "Platon",
+        "Descartes",
+        "Sokrates"
+      ],
+      "correct": 3,
+      "explain": "Den sokratiske metoden."
+    },
+    {
+      "id": "q09",
+      "text": "«Enten er du med oss, eller så er du mot oss.» Hvilken feil er dette?",
+      "options": [
+        "Falskt dilemma",
+        "Stråmann",
+        "Induksjon",
+        "Holdbart argument"
+      ],
+      "correct": 0,
+      "explain": "Det finnes flere alternativer."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et moteksempel?",
+      "options": [
+        "Et eksempel som støtter påstanden",
+        "Et eksempel som viser at en påstand ikke alltid gjelder",
+        "En konklusjon",
+        "Et premiss"
+      ],
+      "correct": 1,
+      "explain": "Én svart svane motbeviser «alle svaner er hvite»."
+    }
   ],
   "mindmap": {
     "label": "Filosofisk samtale og argumentasjon",
     "children": [
-      { "label": "Samtalen", "children": [
-        { "label": "Sokrates" },
-        { "label": "Åpne spørsmål" },
-        { "label": "Begreper og moteksempler" }
-      ] },
-      { "label": "Argumentet", "children": [
-        { "label": "Premisser" },
-        { "label": "Konklusjon" }
-      ] },
-      { "label": "Vurdering", "children": [
-        { "label": "Gyldig" },
-        { "label": "Holdbart" }
-      ] },
-      { "label": "Slutningstyper", "children": [
-        { "label": "Deduksjon" },
-        { "label": "Induksjon" }
-      ] },
-      { "label": "Feil", "children": [
-        { "label": "Stråmann" },
-        { "label": "Ad hominem" },
-        { "label": "Falskt dilemma" },
-        { "label": "Glidebane" }
-      ] }
+      {
+        "label": "Samtalen",
+        "children": [
+          {
+            "label": "Sokrates"
+          },
+          {
+            "label": "Åpne spørsmål"
+          },
+          {
+            "label": "Begreper og moteksempler"
+          }
+        ]
+      },
+      {
+        "label": "Argumentet",
+        "children": [
+          {
+            "label": "Premisser"
+          },
+          {
+            "label": "Konklusjon"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering",
+        "children": [
+          {
+            "label": "Gyldig"
+          },
+          {
+            "label": "Holdbart"
+          }
+        ]
+      },
+      {
+        "label": "Slutningstyper",
+        "children": [
+          {
+            "label": "Deduksjon"
+          },
+          {
+            "label": "Induksjon"
+          }
+        ]
+      },
+      {
+        "label": "Feil",
+        "children": [
+          {
+            "label": "Stråmann"
+          },
+          {
+            "label": "Ad hominem"
+          },
+          {
+            "label": "Falskt dilemma"
+          },
+          {
+            "label": "Glidebane"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Et argument kan være gyldig selv om premissene er usanne.", "correct": true, "explain": "Gyldighet handler bare om logikken." },
-      { "id": "m02", "type": "sant-usant", "text": "Induktive argumenter gir alltid sikre konklusjoner.", "correct": false, "explain": "De gir bare sannsynlige konklusjoner." },
-      { "id": "m03", "type": "sant-usant", "text": "I en filosofisk samtale er det lov å endre mening.", "correct": true, "explain": "Målet er å tenke bedre." },
-      { "id": "m04", "type": "sant-usant", "text": "Å vise til en kjent skuespiller i et spørsmål om medisin er et sterkt argument.", "correct": false, "explain": "Det er irrelevant autoritet." },
-      { "id": "m05", "type": "flervalg", "text": "«Tillater vi mobil i friminuttene, vil snart ingen lære noe på skolen.» Hvilken feil er dette?", "options": ["Stråmann", "Glidebane", "Sirkelargument", "Personangrep"], "correct": 1, "explain": "Påstått uunngåelig kjede av konsekvenser." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr ordet filosofi?", "options": ["Kjærlighet til visdom", "Læren om tall", "Kunsten å tale", "Studiet av stjerner"], "correct": 0, "explain": "Fra gresk." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål er typisk filosofisk?", "options": ["Hvor høyt er Galdhøpiggen?", "Hva koster en bussbillett?", "Hva er rettferdighet?", "Når går toget?"], "correct": 2, "explain": "Kan ikke løses bare med oppslag." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Et argument kan være gyldig selv om premissene er usanne.",
+        "correct": true,
+        "explain": "Gyldighet handler bare om logikken."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Induktive argumenter gir alltid sikre konklusjoner.",
+        "correct": false,
+        "explain": "De gir bare sannsynlige konklusjoner."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "I en filosofisk samtale er det lov å endre mening.",
+        "correct": true,
+        "explain": "Målet er å tenke bedre."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Å vise til en kjent skuespiller i et spørsmål om medisin er et sterkt argument.",
+        "correct": false,
+        "explain": "Det er irrelevant autoritet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "«Tillater vi mobil i friminuttene, vil snart ingen lære noe på skolen.» Hvilken feil er dette?",
+        "options": [
+          "Stråmann",
+          "Glidebane",
+          "Sirkelargument",
+          "Personangrep"
+        ],
+        "correct": 1,
+        "explain": "Påstått uunngåelig kjede av konsekvenser."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr ordet filosofi?",
+        "options": [
+          "Kjærlighet til visdom",
+          "Læren om tall",
+          "Kunsten å tale",
+          "Studiet av stjerner"
+        ],
+        "correct": 0,
+        "explain": "Fra gresk."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket spørsmål er typisk filosofisk?",
+        "options": [
+          "Hvor høyt er Galdhøpiggen?",
+          "Hva koster en bussbillett?",
+          "Hva er rettferdighet?",
+          "Når går toget?"
+        ],
+        "correct": 2,
+        "explain": "Kan ikke løses bare med oppslag."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "«Hva er rettferdighet?» er et filosofisk spørsmål. Forklar hva som gjør et spørsmål filosofisk, og hvorfor dette spørsmålet ikke kan avgjøres bare ved målinger eller oppslag.",
+        "fasit": "Filosofiske spørsmål handler om grunnleggende temaer og kan ikke løses bare ved å samle målinger eller slå opp et svar. Rettferdighet krever at vi undersøker hva begrepet betyr og hvordan vi bør forstå det.",
+        "kriterier": [
+          "Forklarer at filosofiske spørsmål undersøker grunnleggende spørsmål eller begreper.",
+          "Får fram at spørsmålet ikke kan avgjøres bare med målinger eller oppslag."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Se på argumentet: «Alle som deltar i samtalen, må lytte. Lina deltar i samtalen. Derfor må Lina lytte.» Hvilke to påstander er premisser, og hvilken påstand er konklusjonen?",
+        "fasit": "Premissene er at alle som deltar i samtalen, må lytte, og at Lina deltar i samtalen. Konklusjonen er at Lina må lytte.",
+        "kriterier": [
+          "Identifiserer begge premissene riktig.",
+          "Identifiserer konklusjonen som påstanden om at Lina må lytte."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign deduksjon og induksjon ved å forklare hvilken retning de går i, og hvor sikker konklusjonen kan være.",
+        "fasit": "Deduksjon går fra det generelle til det spesielle og kan gi en sikker konklusjon. Induksjon går fra enkelttilfeller til en generell konklusjon, som bare er sannsynlig.",
+        "kriterier": [
+          "Skiller mellom retningen fra generelt til spesielt og fra enkelttilfeller til generelt.",
+          "Forklarer forskjellen på sikker og sannsynlig konklusjon."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I en klassesamtale er dere uenige om noen har «frihet» til å gjøre som de vil. Hva kan dere gjøre for å avklare begrepet «frihet», og hvordan kan det hjelpe samtalen?",
+        "fasit": "Dere kan spørre hva hver av dere mener med «frihet», slik at betydningen blir tydelig. Da blir det lettere å forstå hva dere er uenige om og å vurdere påstandene deres.",
+        "kriterier": [
+          "Foreslår å undersøke eller tydeliggjøre hva «frihet» betyr i samtalen.",
+          "Forklarer at avklaringen gjør uenigheten eller påstandene lettere å forstå og vurdere."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Noen trekker slutningen «Alle svaner er hvite» fordi alle svanene de har sett, er hvite. Forklar hvordan en svart svane kan utfordre denne slutningen.",
+        "fasit": "En svart svane er et moteksempel fordi den viser at påstanden om at alle svaner er hvite, ikke alltid stemmer. Derfor gir observasjonene av hvite svaner ikke en sikker konklusjon om alle svaner.",
+        "kriterier": [
+          "Forklarer at en svart svane viser at påstanden ikke gjelder alle svaner.",
+          "Får fram at slutningen fra de observerte svanene derfor ikke er sikker."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Vurder argumentet: «Alle planter er dyr. En rose er en plante. Derfor er en rose et dyr.» Følger konklusjonen logisk av premissene, og er argumentet holdbart? Begrunn svaret.",
+        "fasit": "Konklusjonen følger logisk av premissene, så argumentet er gyldig. Det er ikke holdbart, fordi premisset om at alle planter er dyr, ikke er sant.",
+        "kriterier": [
+          "Skiller mellom at argumentet er gyldig og at det er holdbart.",
+          "Forklarer at argumentet ikke er holdbart fordi et premiss er usant."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev sier: «Hvis vi lar én elev levere litt for sent, kommer snart alle til å levere når de vil, og skolen vil miste all orden.» Hvilken argumentasjonsfeil bruker eleven, og hva er feilen i resonnementet?",
+        "fasit": "Dette er en glidebane. Eleven påstår at ett enkelt steg uunngåelig vil føre til en mye større og katastrofal konsekvens, uten å begrunne at det må skje.",
+        "kriterier": [
+          "Identifiserer resonnementet som en glidebane.",
+          "Forklarer at det hevdes en uunngåelig utvikling fra ett steg til en katastrofal konsekvens."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En kjent skuespiller uten fagkunnskap om historie hevder at en bestemt forklaring på en historisk hendelse er riktig. En elev sier at forklaringen derfor må være sann. Forklar hvorfor dette ikke er en god begrunnelse.",
+        "fasit": "At skuespilleren er kjent, viser ikke at forklaringen er riktig. Siden personen mangler fagkunnskap om historie, er det irrelevant å bruke vedkommendes kjendisstatus som støtte for påstanden.",
+        "kriterier": [
+          "Forklarer at det å være kjent ikke i seg selv viser at påstanden er sann.",
+          "Får fram at personen mangler relevant fagkunnskap, så henvisningen ikke støtter konklusjonen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

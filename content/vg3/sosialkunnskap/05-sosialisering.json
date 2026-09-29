@@ -4,78 +4,425 @@
   "trinnId": "vg3",
   "name": "Sosialisering i endring",
   "intro": "Hva sosialisering er, primær og sekundær sosialisering og de viktigste sosialiseringsagentene, ulike perspektiver – funksjonalistisk, konfliktperspektiv og interaksjonistisk med Mead og Cooley – og hvordan sosialiseringen har endret seg fra det tradisjonelle til det senmoderne og digitale samfunnet.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Hva er sosialisering?\n\n**Sosialisering** er prosessen der vi lærer **normer**, **verdier**, **roller** og **ferdigheter** som gjør at vi kan fungere i samfunnet. Den varer **hele livet** – fra småbarn til pensjonist.\n\n- **Primær sosialisering** skjer i de første leveårene, først og fremst i **familien**. Barnet lærer språk, grunnleggende normer og følelsesmessig **tilknytning**.\n- **Sekundær sosialisering** skjer gjennom **barnehage**, **skole**, **venner**, **medier**, **fritidsaktiviteter** og senere **arbeidslivet**.\n\nDe som påvirker oss, kalles **sosialiseringsagenter**.\n\n## Perspektiver på sosialisering\n\n**Funksjonalistisk perspektiv**: Sosialisering **overfører** felles normer og verdier fra én generasjon til den neste, slik at samfunnet blir **stabilt**. Skolen lærer for eksempel barna punktlighet og samarbeid.\n\n**Konfliktperspektivet**: Sosialisering kan **reprodusere** ulikhet. Etter **Bourdieu** får barn i ulike **klasser** ulik **kulturell kapital** hjemme, og skolen belønner ofte den kapitalen middelklassen har. Sosialisering kan også opprettholde tradisjonelle **kjønnsroller**.\n\n**Interaksjonistisk perspektiv**: Identitet skapes i **samspill** med andre.\n\n- **Charles Horton Cooley** beskrev **speilingsselvet**: Vi ser oss selv gjennom hvordan vi tror **andre** ser oss.\n- **George Herbert Mead** skilte mellom **signifikante andre** – nære personer som foreldre – og **den generaliserte andre** – samfunnets allmenne forventninger. Barnet lærer gjennom **lek** og **spill** å ta andres **perspektiv**.\n\n## Aktiv sosialisering\n\nBarn og unge er ikke bare **mottakere**. De **velger**, **tolker** og **påvirker** selv – og påvirker også foreldre og andre voksne. Vi snakker om **aktiv** sosialisering.\n\n## Endringer over tid\n\n**Det tradisjonelle samfunnet**: Familien og **lokalsamfunnet** var de viktigste agentene. Barn lærte **yrket** av foreldrene, og **kirken** hadde stor innflytelse. Normene var ofte **klare** og **felles**.\n\n**Det moderne samfunnet**: **Skolen** og **arbeidslivet** ble viktigere, og flere tok **utdanning**. Kvinner gikk ut i arbeid, og **barnehager** ble vanlige.\n\n**Det senmoderne samfunnet**: Den britiske sosiologen **Anthony Giddens** beskrev hvordan **tradisjoner** mister makt, og hvordan vi må **velge** og **skape** vår egen identitet – han kalte det **refleksivitet**. Mulighetene er mange, men det kan også gi **usikkerhet** og **press**.\n\n## Digital sosialisering\n\n- **Sosiale medier**, **spill** og **strømmetjenester** er blitt viktige sosialiseringsagenter.\n- Barn og unge møter **normer** og **idealer** fra hele verden – og fra **påvirkere**.\n- Jevnaldrende påvirker hverandre også **på nett**.\n- Foreldre og skole har **mindre kontroll** over hvilke verdier barna møter.\n\n## Andre endringer\n\n- **Flere familieformer**: samboere, skilte foreldre, regnbuefamilier og **bonusfamilier**\n- **Mer tid i institusjoner**: barnehage, skole og SFO\n- **Flerkulturelle** samfunn der barn kan møte ulike normer hjemme og ute\n- **Forhandlingsfamilien**: mer **dialog** og mindre **autoritær** oppdragelse\n\n## Drøfting\n\nHar familien mistet betydning? Mange mener at familien fortsatt er den **viktigste** sosialiseringsagenten, særlig for **verdier** og **tilknytning**, men at den deler innflytelsen med **flere** agenter enn før. Endringene gir **frihet** og **muligheter**, men også nye **utfordringer**.",
   "flashcards": [
-    { "term": "Sosialisering", "def": "Prosessen der vi lærer normer, verdier, roller og ferdigheter." },
-    { "term": "Primær sosialisering", "def": "Første leveår, særlig i familien." },
-    { "term": "Sekundær sosialisering", "def": "Gjennom barnehage, skole, venner, medier og arbeid." },
-    { "term": "Sosialiseringsagent", "def": "Person eller institusjon som påvirker sosialiseringen." },
-    { "term": "Funksjonalistisk syn", "def": "Sosialisering overfører felles normer og gir stabilitet." },
-    { "term": "Konfliktperspektiv", "def": "Sosialisering kan reprodusere ulikhet." },
-    { "term": "Speilingsselvet", "def": "Vi ser oss selv gjennom hvordan andre ser oss – Cooley." },
-    { "term": "Signifikante andre", "def": "Nære personer som foreldre – Mead." },
-    { "term": "Den generaliserte andre", "def": "Samfunnets allmenne forventninger – Mead." },
-    { "term": "Aktiv sosialisering", "def": "Barn og unge velger, tolker og påvirker selv." },
-    { "term": "Senmoderne samfunn", "def": "Tradisjoner mister makt, og identitet må skapes." },
-    { "term": "Refleksivitet", "def": "Å vurdere og velge egen identitet – Giddens." },
-    { "term": "Digital sosialisering", "def": "Sosiale medier og spill som sosialiseringsagenter." },
-    { "term": "Forhandlingsfamilien", "def": "Mer dialog og mindre autoritær oppdragelse." },
-    { "term": "Bonusfamilie", "def": "Familie med stebarn og steforeldre." }
+    {
+      "term": "Sosialisering",
+      "def": "Prosessen der vi lærer normer, verdier, roller og ferdigheter."
+    },
+    {
+      "term": "Primær sosialisering",
+      "def": "Første leveår, særlig i familien."
+    },
+    {
+      "term": "Sekundær sosialisering",
+      "def": "Gjennom barnehage, skole, venner, medier og arbeid."
+    },
+    {
+      "term": "Sosialiseringsagent",
+      "def": "Person eller institusjon som påvirker sosialiseringen."
+    },
+    {
+      "term": "Funksjonalistisk syn",
+      "def": "Sosialisering overfører felles normer og gir stabilitet."
+    },
+    {
+      "term": "Konfliktperspektiv",
+      "def": "Sosialisering kan reprodusere ulikhet."
+    },
+    {
+      "term": "Speilingsselvet",
+      "def": "Vi ser oss selv gjennom hvordan andre ser oss – Cooley."
+    },
+    {
+      "term": "Signifikante andre",
+      "def": "Nære personer som foreldre – Mead."
+    },
+    {
+      "term": "Den generaliserte andre",
+      "def": "Samfunnets allmenne forventninger – Mead."
+    },
+    {
+      "term": "Aktiv sosialisering",
+      "def": "Barn og unge velger, tolker og påvirker selv."
+    },
+    {
+      "term": "Senmoderne samfunn",
+      "def": "Tradisjoner mister makt, og identitet må skapes."
+    },
+    {
+      "term": "Refleksivitet",
+      "def": "Å vurdere og velge egen identitet – Giddens."
+    },
+    {
+      "term": "Digital sosialisering",
+      "def": "Sosiale medier og spill som sosialiseringsagenter."
+    },
+    {
+      "term": "Forhandlingsfamilien",
+      "def": "Mer dialog og mindre autoritær oppdragelse."
+    },
+    {
+      "term": "Bonusfamilie",
+      "def": "Familie med stebarn og steforeldre."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvor skjer primær sosialisering først og fremst?", "options": ["I skolen", "I familien", "På jobb", "I sosiale medier"], "correct": 1, "explain": "I de første leveårene." },
-    { "id": "q02", "text": "Hva er speilingsselvet?", "options": ["At vi ser oss selv gjennom hvordan andre ser oss", "At vi ser oss i speilet", "At vi etterligner foreldre", "At vi er like alle andre"], "correct": 0, "explain": "Cooley." },
-    { "id": "q03", "text": "Hva mener konfliktperspektivet om sosialisering?", "options": ["At den alltid gir likhet", "At den bare skjer i familien", "At den kan reprodusere ulikhet", "At den ikke finnes"], "correct": 2, "explain": "For eksempel gjennom kulturell kapital." },
-    { "id": "q04", "text": "Hva er den generaliserte andre?", "options": ["En nær venn", "En lærer", "Foreldre", "Samfunnets allmenne forventninger"], "correct": 3, "explain": "Mead." },
-    { "id": "q05", "text": "Hva kjennetegner det senmoderne samfunnet ifølge Giddens?", "options": ["At tradisjoner mister makt og identitet må skapes", "At kirken bestemmer alt", "At alle har samme yrke som foreldrene", "At familien er uten betydning"], "correct": 0, "explain": "Refleksivitet." },
-    { "id": "q06", "text": "Hva betyr aktiv sosialisering?", "options": ["At barn er passive mottakere", "At barn og unge velger, tolker og påvirker selv", "At bare voksne sosialiseres", "At sosialisering skjer ved trening"], "correct": 1, "explain": "Også foreldre påvirkes." },
-    { "id": "q07", "text": "Hvilken endring har skjedd i sosialiseringen?", "options": ["Færre sosialiseringsagenter", "Mer makt til kirken", "Flere agenter, blant annet digitale medier", "Mindre tid i institusjoner"], "correct": 2, "explain": "Barn tilbringer mer tid i barnehage og skole." },
-    { "id": "q08", "text": "Hva er en sosialiseringsagent?", "options": ["En hemmelig agent", "En lov", "En type skole", "En person eller institusjon som påvirker sosialiseringen"], "correct": 3, "explain": "Familie, skole, venner, medier." },
-    { "id": "q09", "text": "Hva mener mange om familiens betydning i dag?", "options": ["At den fortsatt er viktigst, men deler innflytelsen med flere", "At den ikke betyr noe", "At den har all makt", "At skolen har overtatt helt"], "correct": 0, "explain": "Særlig for verdier og tilknytning." },
-    { "id": "q10", "text": "Hva er forhandlingsfamilien?", "options": ["En familie som selger varer", "En familie med mer dialog og mindre autoritær oppdragelse", "En familie uten regler", "En storfamilie"], "correct": 1, "explain": "Barn får mer innflytelse." }
+    {
+      "id": "q01",
+      "text": "Hvor skjer primær sosialisering først og fremst?",
+      "options": [
+        "I skolen",
+        "I familien",
+        "På jobb",
+        "I sosiale medier"
+      ],
+      "correct": 1,
+      "explain": "I de første leveårene."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er speilingsselvet?",
+      "options": [
+        "At vi ser oss selv gjennom hvordan andre ser oss",
+        "At vi ser oss i speilet",
+        "At vi etterligner foreldre",
+        "At vi er like alle andre"
+      ],
+      "correct": 0,
+      "explain": "Cooley."
+    },
+    {
+      "id": "q03",
+      "text": "Hva mener konfliktperspektivet om sosialisering?",
+      "options": [
+        "At den alltid gir likhet",
+        "At den bare skjer i familien",
+        "At den kan reprodusere ulikhet",
+        "At den ikke finnes"
+      ],
+      "correct": 2,
+      "explain": "For eksempel gjennom kulturell kapital."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er den generaliserte andre?",
+      "options": [
+        "En nær venn",
+        "En lærer",
+        "Foreldre",
+        "Samfunnets allmenne forventninger"
+      ],
+      "correct": 3,
+      "explain": "Mead."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner det senmoderne samfunnet ifølge Giddens?",
+      "options": [
+        "At tradisjoner mister makt og identitet må skapes",
+        "At kirken bestemmer alt",
+        "At alle har samme yrke som foreldrene",
+        "At familien er uten betydning"
+      ],
+      "correct": 0,
+      "explain": "Refleksivitet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr aktiv sosialisering?",
+      "options": [
+        "At barn er passive mottakere",
+        "At barn og unge velger, tolker og påvirker selv",
+        "At bare voksne sosialiseres",
+        "At sosialisering skjer ved trening"
+      ],
+      "correct": 1,
+      "explain": "Også foreldre påvirkes."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken endring har skjedd i sosialiseringen?",
+      "options": [
+        "Færre sosialiseringsagenter",
+        "Mer makt til kirken",
+        "Flere agenter, blant annet digitale medier",
+        "Mindre tid i institusjoner"
+      ],
+      "correct": 2,
+      "explain": "Barn tilbringer mer tid i barnehage og skole."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en sosialiseringsagent?",
+      "options": [
+        "En hemmelig agent",
+        "En lov",
+        "En type skole",
+        "En person eller institusjon som påvirker sosialiseringen"
+      ],
+      "correct": 3,
+      "explain": "Familie, skole, venner, medier."
+    },
+    {
+      "id": "q09",
+      "text": "Hva mener mange om familiens betydning i dag?",
+      "options": [
+        "At den fortsatt er viktigst, men deler innflytelsen med flere",
+        "At den ikke betyr noe",
+        "At den har all makt",
+        "At skolen har overtatt helt"
+      ],
+      "correct": 0,
+      "explain": "Særlig for verdier og tilknytning."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er forhandlingsfamilien?",
+      "options": [
+        "En familie som selger varer",
+        "En familie med mer dialog og mindre autoritær oppdragelse",
+        "En familie uten regler",
+        "En storfamilie"
+      ],
+      "correct": 1,
+      "explain": "Barn får mer innflytelse."
+    }
   ],
   "mindmap": {
     "label": "Sosialisering",
     "children": [
-      { "label": "Typer", "children": [
-        { "label": "Primær" },
-        { "label": "Sekundær" },
-        { "label": "Aktiv sosialisering" }
-      ] },
-      { "label": "Perspektiver", "children": [
-        { "label": "Funksjonalisme" },
-        { "label": "Konflikt og Bourdieu" },
-        { "label": "Interaksjonisme" }
-      ] },
-      { "label": "Interaksjonisme", "children": [
-        { "label": "Speilingsselvet" },
-        { "label": "Signifikante og generaliserte andre" }
-      ] },
-      { "label": "Endring", "children": [
-        { "label": "Tradisjonelt" },
-        { "label": "Moderne" },
-        { "label": "Senmoderne" }
-      ] },
-      { "label": "I dag", "children": [
-        { "label": "Digital sosialisering" },
-        { "label": "Nye familieformer" },
-        { "label": "Flerkulturelt" }
-      ] }
+      {
+        "label": "Typer",
+        "children": [
+          {
+            "label": "Primær"
+          },
+          {
+            "label": "Sekundær"
+          },
+          {
+            "label": "Aktiv sosialisering"
+          }
+        ]
+      },
+      {
+        "label": "Perspektiver",
+        "children": [
+          {
+            "label": "Funksjonalisme"
+          },
+          {
+            "label": "Konflikt og Bourdieu"
+          },
+          {
+            "label": "Interaksjonisme"
+          }
+        ]
+      },
+      {
+        "label": "Interaksjonisme",
+        "children": [
+          {
+            "label": "Speilingsselvet"
+          },
+          {
+            "label": "Signifikante og generaliserte andre"
+          }
+        ]
+      },
+      {
+        "label": "Endring",
+        "children": [
+          {
+            "label": "Tradisjonelt"
+          },
+          {
+            "label": "Moderne"
+          },
+          {
+            "label": "Senmoderne"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Digital sosialisering"
+          },
+          {
+            "label": "Nye familieformer"
+          },
+          {
+            "label": "Flerkulturelt"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Sosialisering varer hele livet.", "correct": true, "explain": "Vi lærer nye roller hele tiden." },
-      { "id": "m02", "type": "sant-usant", "text": "I det tradisjonelle samfunnet var normene ofte uklare og svært ulike.", "correct": false, "explain": "Normene var ofte klare og felles." },
-      { "id": "m03", "type": "sant-usant", "text": "Påvirkere i sosiale medier kan fungere som sosialiseringsagenter.", "correct": true, "explain": "De formidler normer og idealer." },
-      { "id": "m04", "type": "sant-usant", "text": "Etter Bourdieu belønner skolen alle former for kulturell kapital likt.", "correct": false, "explain": "Den belønner ofte middelklassens kapital." },
-      { "id": "m05", "type": "flervalg", "text": "Hvem beskrev signifikante og generaliserte andre?", "options": ["Giddens", "Mead", "Durkheim", "Marx"], "correct": 1, "explain": "Gjennom lek og spill." },
-      { "id": "m06", "type": "flervalg", "text": "Hva kan være en utfordring i det senmoderne samfunnet?", "options": ["Usikkerhet og press ved mange valg", "For få valgmuligheter", "Ingen utdanning", "At alle har samme yrke"], "correct": 0, "explain": "Frihet gir også ansvar." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken endring har skjedd i familieformer?", "options": ["Bare kjernefamilier", "Færre skilsmisser", "Flere familieformer som bonus- og regnbuefamilier", "Ingen endring"], "correct": 2, "explain": "Mangfoldet har økt." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Sosialisering varer hele livet.",
+        "correct": true,
+        "explain": "Vi lærer nye roller hele tiden."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I det tradisjonelle samfunnet var normene ofte uklare og svært ulike.",
+        "correct": false,
+        "explain": "Normene var ofte klare og felles."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Påvirkere i sosiale medier kan fungere som sosialiseringsagenter.",
+        "correct": true,
+        "explain": "De formidler normer og idealer."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Etter Bourdieu belønner skolen alle former for kulturell kapital likt.",
+        "correct": false,
+        "explain": "Den belønner ofte middelklassens kapital."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem beskrev signifikante og generaliserte andre?",
+        "options": [
+          "Giddens",
+          "Mead",
+          "Durkheim",
+          "Marx"
+        ],
+        "correct": 1,
+        "explain": "Gjennom lek og spill."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva kan være en utfordring i det senmoderne samfunnet?",
+        "options": [
+          "Usikkerhet og press ved mange valg",
+          "For få valgmuligheter",
+          "Ingen utdanning",
+          "At alle har samme yrke"
+        ],
+        "correct": 0,
+        "explain": "Frihet gir også ansvar."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken endring har skjedd i familieformer?",
+        "options": [
+          "Bare kjernefamilier",
+          "Færre skilsmisser",
+          "Flere familieformer som bonus- og regnbuefamilier",
+          "Ingen endring"
+        ],
+        "correct": 2,
+        "explain": "Mangfoldet har økt."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign primær og sekundær sosialisering. Når skjer de, og gjennom hvilke personer eller arenaer lærer barn og unge?",
+        "fasit": "Primær sosialisering skjer i de første leveårene, særlig i familien. Sekundær sosialisering skjer blant annet gjennom barnehage, skole, venner, medier, fritidsaktiviteter og senere arbeidslivet.",
+        "kriterier": [
+          "Skiller mellom tidspunktet og den typiske arenaen for primær og sekundær sosialisering.",
+          "Nevner relevante arenaer eller personer for begge formene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Skolen lærer elever punktlighet og samarbeid. Forklar hvordan et funksjonalistisk perspektiv kan knytte dette til stabilitet i samfunnet.",
+        "fasit": "Fra et funksjonalistisk perspektiv overfører skolen felles normer og verdier til nye generasjoner. Når elever lærer punktlighet og samarbeid, kan det bidra til at samfunnet fungerer stabilt.",
+        "kriterier": [
+          "Knytter sosialisering til overføring av felles normer eller verdier.",
+          "Forklarer at dette kan bidra til stabilitet i samfunnet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Barn fra ulike klasser kan ha ulik kulturell kapital hjemme, og skolen belønner ofte den kulturelle kapitalen middelklassen har. Forklar hvordan dette kan bidra til at ulikhet reproduseres.",
+        "fasit": "Barn som allerede har den kulturelle kapitalen skolen belønner, kan få en fordel. Dermed kan sosialisering og skolens forventninger bidra til å videreføre forskjeller mellom klasser.",
+        "kriterier": [
+          "Forklarer at ulik kulturell kapital hjemme kan gi elever ulike forutsetninger i skolen.",
+          "Knytter skolens belønning av middelklassens kulturelle kapital til at ulikhet kan videreføres."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Mead mente at barn lærer gjennom lek og spill. Forklar hva barn lærer i slike situasjoner, og hvordan det kan utvikle forståelsen deres av andre.",
+        "fasit": "Gjennom lek og spill øver barn på å ta andres perspektiv. De lærer å forstå roller og forventninger i samspill med andre.",
+        "kriterier": [
+          "Nevner at barn lærer å ta andres perspektiv.",
+          "Knytter læringen til samspill, roller eller forventninger."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En ungdom møter normer og idealer fra påvirkere på sosiale medier og spiller på nett med jevnaldrende. Forklar hvordan dette er digital sosialisering, og nevn én følge for foreldres eller skolens kontroll.",
+        "fasit": "Sosiale medier og spill er sosialiseringsagenter der ungdom møter normer og idealer og påvirkes av jevnaldrende på nett. Foreldre og skole har mindre kontroll over hvilke verdier ungdom møter.",
+        "kriterier": [
+          "Forklarer at medier eller spill formidler normer og idealer eller at jevnaldrende påvirker hverandre på nett.",
+          "Nevner at foreldres og skolens kontroll over verdiene ungdom møter, er mindre."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En ungdom velger selv en fritidsaktivitet og får foreldrene til å endre mening om hva ungdom bør få bestemme. Forklar hvordan situasjonen viser aktiv sosialisering.",
+        "fasit": "Ungdommen er aktiv fordi hen selv velger en aktivitet, i stedet for bare å ta imot påvirkning. Ungdommen påvirker også foreldrenes syn, slik at påvirkningen går begge veier.",
+        "kriterier": [
+          "Viser at ungdommen selv velger eller tolker, og ikke bare er mottaker av påvirkning.",
+          "Forklarer at ungdommen påvirker foreldrene eller andre voksne."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et barn møter ulike normer hjemme og utenfor hjemmet i et flerkulturelt samfunn. Forklar hvilken side ved sosialiseringen situasjonen illustrerer.",
+        "fasit": "Situasjonen illustrerer at barn i flerkulturelle samfunn kan møte ulike normer hjemme og ute. Barnet sosialiseres dermed i møte med forskjellige forventninger.",
+        "kriterier": [
+          "Knytter situasjonen til at samfunnet er flerkulturelt eller at barn møter ulike normer.",
+          "Forklarer at normene kan variere mellom hjemmet og arenaer utenfor hjemmet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et barn går i barnehage og SFO, og bor i en familie med steforeldre. Hvilke to endringer i sosialiseringen illustrerer situasjonen, og hvordan påvirker de hvem barnet møter i hverdagen?",
+        "fasit": "Barnehage og SFO illustrerer at barn tilbringer mer tid i institusjoner. Steforeldrene illustrerer at det finnes flere familieformer, slik at både institusjoner og flere familiemedlemmer kan være del av barnets sosialisering.",
+        "kriterier": [
+          "Knytter barnehage og SFO til at barn tilbringer mer tid i institusjoner.",
+          "Knytter steforeldre til flere familieformer, som bonusfamilier.",
+          "Forklarer at både institusjoner og familie kan være arenaer eller påvirkningskilder i barnets hverdag."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

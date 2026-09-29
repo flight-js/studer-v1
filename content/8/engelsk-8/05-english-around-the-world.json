@@ -352,6 +352,80 @@
         "correct": 0,
         "explain": "An accent is about pronunciation. People from different places have different accents."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Nora learned Norwegian first as a child. She now lives in a country where she uses English every day in addition to Norwegian. Which is her first language, and which is her second language? Explain your answer.",
+        "fasit": "Norwegian is Nora’s first language because she learned it first as a child. English is her second language because she uses it in daily life as well.",
+        "kriterier": [
+          "Identifies Norwegian as her first language because she learned it first.",
+          "Identifies English as her second language because she uses it in daily life in addition to Norwegian."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Britain ruled large parts of the world from the 1600s to the 1900s. Later, the United States became a leading economic and cultural power. Explain how these two developments helped English spread around the world.",
+        "fasit": "The British Empire brought English to many parts of the world. Later, the United States helped make English more important through its economic and cultural influence.",
+        "kriterier": [
+          "Explains that British rule brought English to many parts of the world.",
+          "Explains that the United States’ economic and cultural influence later increased the importance of English."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "English is the main language in the United Kingdom. In India, English has official status and is used alongside local languages. What is the difference between these two roles of English?",
+        "fasit": "In the United Kingdom, English is the main language. In India, it has legal status as an official language but exists alongside local languages.",
+        "kriterier": [
+          "Explains that a main language is the primary language in a country.",
+          "Explains that an official language has legal status and can be used alongside local languages."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Two English speakers pronounce some words differently. Another English variety has its own words, grammar and pronunciation. Explain which description is about an accent and which is about a dialect.",
+        "fasit": "Different ways of pronouncing words describe accents. A variety with its own words, grammar and pronunciation is a dialect.",
+        "kriterier": [
+          "Connects accent with differences in pronunciation.",
+          "Explains that a dialect can differ in words and grammar as well as pronunciation."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "A student writes “colour, center, organise” in the same piece of writing. Explain what is inconsistent and give one way to fix it.",
+        "fasit": "The student has mixed British and American spelling. They can make the spelling consistent by using either “colour, centre, organise” or “color, center, organize”.",
+        "kriterier": [
+          "Identifies that the student has mixed British and American spelling.",
+          "Gives a consistent British or American set of spellings."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "In Norway, some people worry that English may push Norwegian aside in research or business. Knowing English can also give Norwegians chances to study, work and communicate internationally. Explain one concern and one benefit of using English in Norway.",
+        "fasit": "One concern is that Norwegian could be pushed aside in areas such as research or business. One benefit is that English can help Norwegians study, work and communicate internationally.",
+        "kriterier": [
+          "Describes the concern that English may push Norwegian aside in an area such as research or business.",
+          "Describes an international opportunity that knowing English can give Norwegians."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A Norwegian speaker uses the word “streaming”, borrowed from English. Explain why “streaming” is a loanword and what it shows about Norwegian and English.",
+        "fasit": "“Streaming” is a loanword because Norwegian has borrowed the word from English. It shows that words can move from one language into another.",
+        "kriterier": [
+          "Explains that a loanword is borrowed from another language.",
+          "Connects “streaming” in Norwegian to English as its source."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Norwegian has words such as “hus” and “bok”, which are similar to the English words “house” and “book”. Explain how comparing words like these can help someone learn English.",
+        "fasit": "A learner can use familiar Norwegian words to notice similarities with English words. Comparing them can help the learner learn English vocabulary.",
+        "kriterier": [
+          "Mentions that noticing similarities between known Norwegian words and English words can help learning.",
+          "Uses “hus/house” or “bok/book” as an example of a similar word pair."
+        ]
+      }
     ]
   },
   "kvalitet": {

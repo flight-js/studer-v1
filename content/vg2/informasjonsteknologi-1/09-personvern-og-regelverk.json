@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Personvern og regelverk",
   "intro": "Hva personopplysninger er, personvernforordningen (GDPR) og personopplysningsloven, prinsippene for behandling, den registrertes rettigheter, innebygd personvern – og hva regelverket betyr for deg som utvikler.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Personvern\n\n**Personvern** handler om retten til et **privatliv** og til å bestemme over **opplysninger om seg selv**. En **personopplysning** er enhver opplysning som kan knyttes til en **person**: navn, adresse, fødselsnummer, bilde, IP-adresse, posisjon eller hvilke nettsider du besøker.\n\n**Særlige kategorier** – som helse, etnisk opprinnelse, religion, politisk syn, seksuell orientering, fagforeningsmedlemskap, genetikk og biometri – er ekstra **sensitive** og har strengere regler.\n\n## Regelverket\n\nEUs **personvernforordning (GDPR)** gjelder i Norge gjennom **personopplysningsloven** fra **2018**. Den gjelder alle som behandler personopplysninger om personer i EØS – også selskaper utenfor Europa.\n\n**Datatilsynet** fører tilsyn i Norge og kan gi **overtredelsesgebyr** på inntil 20 millioner euro eller 4 % av et selskaps globale omsetning.\n\n## Prinsippene\n\nPersonopplysninger skal\n\n1. behandles **lovlig**, **rettferdig** og **åpent**\n2. samles inn for **bestemte formål** – ikke brukes til noe helt annet senere (**formålsbegrensning**)\n3. være **begrenset** til det som er nødvendig (**dataminimering**)\n4. være **korrekte**\n5. ikke **lagres** lenger enn nødvendig\n6. **sikres** mot uvedkommende, tap og endring\n\nDen som behandler opplysningene, må kunne **vise** at reglene følges.\n\n## Behandlingsgrunnlag\n\nEnhver behandling må ha et **lovlig grunnlag**, for eksempel\n\n- **samtykke** – frivillig, informert og aktivt; forhåndsavkryssede bokser er ikke gyldig samtykke\n- en **avtale**, som når en nettbutikk trenger adressen din for å sende varen\n- en **rettslig plikt**, som regnskapsregler\n- **berettiget interesse**, vurdert opp mot personvernet\n\nI Norge kan barn fra **13 år** selv samtykke til bruk av sosiale medier og lignende tjenester.\n\n## Dine rettigheter\n\n- **Informasjon** om hva som samles inn og hvorfor\n- **Innsyn** i opplysningene om deg\n- **Retting** av feil\n- **Sletting** – «retten til å bli glemt»\n- **Dataportabilitet** – å ta med dataene dine til en annen tjeneste\n- **Protestere** mot visse typer behandling, for eksempel direkte markedsføring\n\n## Konsekvenser for utvikling\n\nFor deg som lager nettsider og apper betyr regelverket blant annet:\n\n- **Innebygd personvern** (privacy by design): Tenk personvern fra **start**, ikke som et tillegg.\n- **Personvern som standard**: Standardinnstillingene skal være de mest personvernvennlige.\n- Samle inn **minst mulig** – spør: Trenger vi virkelig fødselsdatoen?\n- **Sikre** data med kryptering, tilgangsstyring og gode passordrutiner.\n- Skriv en tydelig **personvernerklæring**.\n- **Avvik**, som datalekkasjer, må som hovedregel meldes til Datatilsynet innen **72 timer**.\n- Ved høy risiko må det gjøres en **personvernkonsekvensvurdering (DPIA)**.\n\n## Informasjonskapsler\n\n**Informasjonskapsler** (cookies) er små filer som lagres i nettleseren, blant annet for innlogging, statistikk og annonser. Informasjonskapsler som ikke er nødvendige for at tjenesten skal virke, krever **samtykke**.",
   "flashcards": [
-    { "term": "Personvern", "def": "Retten til privatliv og til å bestemme over opplysninger om seg selv." },
-    { "term": "Personopplysning", "def": "Opplysning som kan knyttes til en person." },
-    { "term": "Særlige kategorier", "def": "Helse, etnisitet, religion, politisk syn, seksuell orientering, biometri m.m." },
-    { "term": "GDPR", "def": "EUs personvernforordning, i Norge via personopplysningsloven fra 2018." },
-    { "term": "Datatilsynet", "def": "Fører tilsyn med personvern i Norge." },
-    { "term": "Formålsbegrensning", "def": "Opplysninger skal bare brukes til formålet de ble samlet inn for." },
-    { "term": "Dataminimering", "def": "Samle inn bare det som er nødvendig." },
-    { "term": "Behandlingsgrunnlag", "def": "Lovlig grunnlag, som samtykke eller avtale." },
-    { "term": "Gyldig samtykke", "def": "Frivillig, informert og aktivt." },
-    { "term": "Aldersgrense for eget samtykke", "def": "13 år for sosiale medier og lignende tjenester i Norge." },
-    { "term": "Retten til å bli glemt", "def": "Retten til sletting av opplysninger." },
-    { "term": "Dataportabilitet", "def": "Retten til å ta med dataene sine til en annen tjeneste." },
-    { "term": "Innebygd personvern", "def": "Personvern tenkes inn fra starten av utviklingen." },
-    { "term": "Frist for å melde avvik", "def": "Som hovedregel 72 timer til Datatilsynet." },
-    { "term": "DPIA", "def": "Personvernkonsekvensvurdering ved høy risiko." }
+    {
+      "term": "Personvern",
+      "def": "Retten til privatliv og til å bestemme over opplysninger om seg selv."
+    },
+    {
+      "term": "Personopplysning",
+      "def": "Opplysning som kan knyttes til en person."
+    },
+    {
+      "term": "Særlige kategorier",
+      "def": "Helse, etnisitet, religion, politisk syn, seksuell orientering, biometri m.m."
+    },
+    {
+      "term": "GDPR",
+      "def": "EUs personvernforordning, i Norge via personopplysningsloven fra 2018."
+    },
+    {
+      "term": "Datatilsynet",
+      "def": "Fører tilsyn med personvern i Norge."
+    },
+    {
+      "term": "Formålsbegrensning",
+      "def": "Opplysninger skal bare brukes til formålet de ble samlet inn for."
+    },
+    {
+      "term": "Dataminimering",
+      "def": "Samle inn bare det som er nødvendig."
+    },
+    {
+      "term": "Behandlingsgrunnlag",
+      "def": "Lovlig grunnlag, som samtykke eller avtale."
+    },
+    {
+      "term": "Gyldig samtykke",
+      "def": "Frivillig, informert og aktivt."
+    },
+    {
+      "term": "Aldersgrense for eget samtykke",
+      "def": "13 år for sosiale medier og lignende tjenester i Norge."
+    },
+    {
+      "term": "Retten til å bli glemt",
+      "def": "Retten til sletting av opplysninger."
+    },
+    {
+      "term": "Dataportabilitet",
+      "def": "Retten til å ta med dataene sine til en annen tjeneste."
+    },
+    {
+      "term": "Innebygd personvern",
+      "def": "Personvern tenkes inn fra starten av utviklingen."
+    },
+    {
+      "term": "Frist for å melde avvik",
+      "def": "Som hovedregel 72 timer til Datatilsynet."
+    },
+    {
+      "term": "DPIA",
+      "def": "Personvernkonsekvensvurdering ved høy risiko."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en personopplysning?", "options": ["Bare navn og adresse", "Enhver opplysning som kan knyttes til en person", "Bare sensitive opplysninger", "Bare opplysninger på papir"], "correct": 1, "explain": "Også IP-adresse og posisjon." },
-    { "id": "q02", "text": "Hvem fører tilsyn med personvern i Norge?", "options": ["Datatilsynet", "Digitaliseringsdirektoratet", "Politiet", "Forbrukerrådet"], "correct": 0, "explain": "Det kan ilegge overtredelsesgebyr." },
-    { "id": "q03", "text": "Hva betyr dataminimering?", "options": ["Å komprimere data", "Å slette alle data", "Å samle inn bare det som er nødvendig", "Å lagre data i minst mulig filer"], "correct": 2, "explain": "Et av grunnprinsippene." },
-    { "id": "q04", "text": "Hvilket samtykke er gyldig?", "options": ["En forhåndsavkrysset boks", "Taushet", "At brukeren fortsetter å bruke siden", "Et frivillig, informert og aktivt ja"], "correct": 3, "explain": "Brukeren må selv ta et aktivt valg." },
-    { "id": "q05", "text": "Hva er innebygd personvern?", "options": ["At personvern tenkes inn fra starten av utviklingen", "At personvern legges til til slutt", "At data lagres i skyen", "At alle data krypteres uansett"], "correct": 0, "explain": "Privacy by design." },
-    { "id": "q06", "text": "Hvor raskt må en datalekkasje som hovedregel meldes til Datatilsynet?", "options": ["Innen ett år", "Innen 72 timer", "Innen 30 dager", "Det trengs ikke"], "correct": 1, "explain": "Avvik skal meldes raskt." },
-    { "id": "q07", "text": "Fra hvilken alder kan barn i Norge selv samtykke til sosiale medier og lignende tjenester?", "options": ["10 år", "16 år", "13 år", "18 år"], "correct": 2, "explain": "Norge har valgt 13 år." },
-    { "id": "q08", "text": "Hvilken opplysning hører til de særlige kategoriene?", "options": ["Favorittfarge", "Skostørrelse", "Hvilken skole du går på", "Helseopplysninger"], "correct": 3, "explain": "Ekstra sensitive opplysninger." },
-    { "id": "q09", "text": "Hva er dataportabilitet?", "options": ["Retten til å ta med dataene sine til en annen tjeneste", "Retten til å slette data", "At data kan flyttes mellom datamaskiner", "At data er krypterte"], "correct": 0, "explain": "En av den registrertes rettigheter." },
-    { "id": "q10", "text": "Når gjelder GDPR for et selskap utenfor Europa?", "options": ["Aldri", "Når det behandler personopplysninger om personer i EØS", "Bare hvis det har kontor i Norge", "Bare for amerikanske selskaper"], "correct": 1, "explain": "Regelverket følger personene." }
+    {
+      "id": "q01",
+      "text": "Hva er en personopplysning?",
+      "options": [
+        "Bare navn og adresse",
+        "Enhver opplysning som kan knyttes til en person",
+        "Bare sensitive opplysninger",
+        "Bare opplysninger på papir"
+      ],
+      "correct": 1,
+      "explain": "Også IP-adresse og posisjon."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem fører tilsyn med personvern i Norge?",
+      "options": [
+        "Datatilsynet",
+        "Digitaliseringsdirektoratet",
+        "Politiet",
+        "Forbrukerrådet"
+      ],
+      "correct": 0,
+      "explain": "Det kan ilegge overtredelsesgebyr."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr dataminimering?",
+      "options": [
+        "Å komprimere data",
+        "Å slette alle data",
+        "Å samle inn bare det som er nødvendig",
+        "Å lagre data i minst mulig filer"
+      ],
+      "correct": 2,
+      "explain": "Et av grunnprinsippene."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket samtykke er gyldig?",
+      "options": [
+        "En forhåndsavkrysset boks",
+        "Taushet",
+        "At brukeren fortsetter å bruke siden",
+        "Et frivillig, informert og aktivt ja"
+      ],
+      "correct": 3,
+      "explain": "Brukeren må selv ta et aktivt valg."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er innebygd personvern?",
+      "options": [
+        "At personvern tenkes inn fra starten av utviklingen",
+        "At personvern legges til til slutt",
+        "At data lagres i skyen",
+        "At alle data krypteres uansett"
+      ],
+      "correct": 0,
+      "explain": "Privacy by design."
+    },
+    {
+      "id": "q06",
+      "text": "Hvor raskt må en datalekkasje som hovedregel meldes til Datatilsynet?",
+      "options": [
+        "Innen ett år",
+        "Innen 72 timer",
+        "Innen 30 dager",
+        "Det trengs ikke"
+      ],
+      "correct": 1,
+      "explain": "Avvik skal meldes raskt."
+    },
+    {
+      "id": "q07",
+      "text": "Fra hvilken alder kan barn i Norge selv samtykke til sosiale medier og lignende tjenester?",
+      "options": [
+        "10 år",
+        "16 år",
+        "13 år",
+        "18 år"
+      ],
+      "correct": 2,
+      "explain": "Norge har valgt 13 år."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken opplysning hører til de særlige kategoriene?",
+      "options": [
+        "Favorittfarge",
+        "Skostørrelse",
+        "Hvilken skole du går på",
+        "Helseopplysninger"
+      ],
+      "correct": 3,
+      "explain": "Ekstra sensitive opplysninger."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er dataportabilitet?",
+      "options": [
+        "Retten til å ta med dataene sine til en annen tjeneste",
+        "Retten til å slette data",
+        "At data kan flyttes mellom datamaskiner",
+        "At data er krypterte"
+      ],
+      "correct": 0,
+      "explain": "En av den registrertes rettigheter."
+    },
+    {
+      "id": "q10",
+      "text": "Når gjelder GDPR for et selskap utenfor Europa?",
+      "options": [
+        "Aldri",
+        "Når det behandler personopplysninger om personer i EØS",
+        "Bare hvis det har kontor i Norge",
+        "Bare for amerikanske selskaper"
+      ],
+      "correct": 1,
+      "explain": "Regelverket følger personene."
+    }
   ],
   "mindmap": {
     "label": "Personvern og regelverk",
     "children": [
-      { "label": "Begreper", "children": [
-        { "label": "Personopplysning" },
-        { "label": "Særlige kategorier" }
-      ] },
-      { "label": "Regelverk", "children": [
-        { "label": "GDPR" },
-        { "label": "Personopplysningsloven" },
-        { "label": "Datatilsynet" }
-      ] },
-      { "label": "Prinsipper", "children": [
-        { "label": "Formålsbegrensning" },
-        { "label": "Dataminimering" },
-        { "label": "Sikkerhet" }
-      ] },
-      { "label": "Rettigheter", "children": [
-        { "label": "Innsyn og retting" },
-        { "label": "Sletting" },
-        { "label": "Dataportabilitet" }
-      ] },
-      { "label": "For utviklere", "children": [
-        { "label": "Innebygd personvern" },
-        { "label": "Samtykke og cookies" },
-        { "label": "Avvik innen 72 timer" }
-      ] }
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Personopplysning"
+          },
+          {
+            "label": "Særlige kategorier"
+          }
+        ]
+      },
+      {
+        "label": "Regelverk",
+        "children": [
+          {
+            "label": "GDPR"
+          },
+          {
+            "label": "Personopplysningsloven"
+          },
+          {
+            "label": "Datatilsynet"
+          }
+        ]
+      },
+      {
+        "label": "Prinsipper",
+        "children": [
+          {
+            "label": "Formålsbegrensning"
+          },
+          {
+            "label": "Dataminimering"
+          },
+          {
+            "label": "Sikkerhet"
+          }
+        ]
+      },
+      {
+        "label": "Rettigheter",
+        "children": [
+          {
+            "label": "Innsyn og retting"
+          },
+          {
+            "label": "Sletting"
+          },
+          {
+            "label": "Dataportabilitet"
+          }
+        ]
+      },
+      {
+        "label": "For utviklere",
+        "children": [
+          {
+            "label": "Innebygd personvern"
+          },
+          {
+            "label": "Samtykke og cookies"
+          },
+          {
+            "label": "Avvik innen 72 timer"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En IP-adresse kan være en personopplysning.", "correct": true, "explain": "Den kan knyttes til en person." },
-      { "id": "m02", "type": "sant-usant", "text": "Opplysninger kan lagres så lenge man vil, bare de er sikret.", "correct": false, "explain": "De skal ikke lagres lenger enn nødvendig." },
-      { "id": "m03", "type": "sant-usant", "text": "Standardinnstillingene i en app bør være de mest personvernvennlige.", "correct": true, "explain": "Personvern som standard." },
-      { "id": "m04", "type": "sant-usant", "text": "Alle informasjonskapsler kan brukes uten samtykke.", "correct": false, "explain": "Ikke-nødvendige informasjonskapsler krever samtykke." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er det høyeste overtredelsesgebyret etter GDPR?", "options": ["10 000 kr", "20 millioner euro eller 4 % av global omsetning", "1 million kroner", "Det finnes ingen gebyrer"], "correct": 1, "explain": "Det største av de to beløpene." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket behandlingsgrunnlag bruker en nettbutikk for å lagre adressen din når du bestiller?", "options": ["Avtale", "Samtykke til markedsføring", "Berettiget interesse alene", "Ingen grunnlag trengs"], "correct": 0, "explain": "Adressen trengs for å oppfylle kjøpet." },
-      { "id": "m07", "type": "flervalg", "text": "Hva bør du spørre deg selv før du legger inn et nytt felt i et registreringsskjema?", "options": ["Er feltet pent?", "Hvor mange felt har konkurrentene?", "Trenger vi virkelig denne opplysningen?", "Kan vi selge opplysningen?"], "correct": 2, "explain": "Dataminimering." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En IP-adresse kan være en personopplysning.",
+        "correct": true,
+        "explain": "Den kan knyttes til en person."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Opplysninger kan lagres så lenge man vil, bare de er sikret.",
+        "correct": false,
+        "explain": "De skal ikke lagres lenger enn nødvendig."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Standardinnstillingene i en app bør være de mest personvernvennlige.",
+        "correct": true,
+        "explain": "Personvern som standard."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle informasjonskapsler kan brukes uten samtykke.",
+        "correct": false,
+        "explain": "Ikke-nødvendige informasjonskapsler krever samtykke."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er det høyeste overtredelsesgebyret etter GDPR?",
+        "options": [
+          "10 000 kr",
+          "20 millioner euro eller 4 % av global omsetning",
+          "1 million kroner",
+          "Det finnes ingen gebyrer"
+        ],
+        "correct": 1,
+        "explain": "Det største av de to beløpene."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket behandlingsgrunnlag bruker en nettbutikk for å lagre adressen din når du bestiller?",
+        "options": [
+          "Avtale",
+          "Samtykke til markedsføring",
+          "Berettiget interesse alene",
+          "Ingen grunnlag trengs"
+        ],
+        "correct": 0,
+        "explain": "Adressen trengs for å oppfylle kjøpet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva bør du spørre deg selv før du legger inn et nytt felt i et registreringsskjema?",
+        "options": [
+          "Er feltet pent?",
+          "Hvor mange felt har konkurrentene?",
+          "Trenger vi virkelig denne opplysningen?",
+          "Kan vi selge opplysningen?"
+        ],
+        "correct": 2,
+        "explain": "Dataminimering."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Helseopplysninger regnes som en særlig kategori av personopplysninger, mens navn er en vanlig personopplysning. Forklar hvorfor opplysninger i særlige kategorier krever ekstra varsomhet.",
+        "fasit": "Helseopplysninger er sensitive og kan si mye om privatlivet til en person. Derfor gjelder det strengere regler for behandling av dem enn for vanlige personopplysninger.",
+        "kriterier": [
+          "Forklarer at opplysninger i særlige kategorier er ekstra sensitive.",
+          "Knytter sensitiviteten til behovet for strengere regler eller ekstra varsomhet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En treningsapp samler inn posisjonsdata for å vise en løpetur på et kart. Senere vil selskapet bruke dataene til å velge hvilke annonser brukeren ser. Hvilket personvernprinsipp kan dette bryte med, og hvorfor?",
+        "fasit": "Dette kan bryte med formålsbegrensning. Posisjonsdataene ble samlet inn for å vise løpeturen, og skal ikke brukes til et helt annet formål uten videre.",
+        "kriterier": [
+          "Peker på formålsbegrensning.",
+          "Forklarer at annonsevalg er et annet formål enn å vise løpeturen på kartet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En nettbutikk trenger adressen til en kunde for å sende en bestilt vare. Samtidig må butikken følge regler om regnskapsføring. Hvilket behandlingsgrunnlag passer for hvert av disse behovene?",
+        "fasit": "Avtale er grunnlaget for å bruke adressen til å sende varen, fordi adressen trengs for å oppfylle kjøpet. Rettslig plikt er grunnlaget for behandlingen som kreves av regnskapsreglene.",
+        "kriterier": [
+          "Knytter avtale til adressen som trengs for å sende varen.",
+          "Knytter rettslig plikt til regnskapsføringen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En bruker oppdager at en app har registrert feil adresse på profilen. Hvilken rettighet kan brukeren bruke for å få feilen rettet, og hva innebærer den?",
+        "fasit": "Brukeren kan bruke retten til retting. Den innebærer at feilaktige personopplysninger om brukeren kan bli korrigert.",
+        "kriterier": [
+          "Identifiserer retten til retting.",
+          "Forklarer at feilaktige opplysninger kan korrigeres."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En ny app viser brukerens posisjon offentlig som standard, selv om brukeren kan endre innstillingen senere. Hvilken endring bør utviklerne gjøre for å følge prinsippet om personvern som standard?",
+        "fasit": "Posisjonen bør ikke deles offentlig som standard. Standardinnstillingen bør være den mest personvernvennlige, slik at brukeren selv må velge å dele posisjonen.",
+        "kriterier": [
+          "Foreslår en mer personvernvennlig standardinnstilling, som at posisjonen ikke deles offentlig.",
+          "Forklarer at brukeren selv kan velge å dele posisjonen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En nettside bruker én informasjonskapsel som er nødvendig for innlogging, og en annen som brukes til annonser. Hvilken av dem krever samtykke etter reglene, og hvorfor?",
+        "fasit": "Informasjonskapselen som brukes til annonser krever samtykke, fordi den ikke er nødvendig for at tjenesten skal virke. Innloggingskapselen er nødvendig for tjenesten og omfattes ikke av dette samtykkekravet.",
+        "kriterier": [
+          "Identifiserer annonsekapselen som den som krever samtykke.",
+          "Begrunner det med at den ikke er nødvendig for at tjenesten skal virke."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En app lagrer brukerdata for alltid, selv etter at opplysningene ikke lenger trengs. Dataene er også tilgjengelige for ansatte som ikke trenger dem. Nevn to endringer utviklerne bør gjøre, og knytt dem til personvernprinsippene.",
+        "fasit": "Utviklerne bør slette opplysningene når de ikke lenger er nødvendige, i tråd med prinsippet om begrenset lagring. De bør begrense tilgangen til ansatte som trenger dataene, for å sikre dem mot uvedkommende.",
+        "kriterier": [
+          "Foreslår å ikke lagre opplysninger lenger enn nødvendig.",
+          "Foreslår tilgangsbegrensning eller et annet relevant sikkerhetstiltak."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Før en app utvikles videre, blir det vurdert at behandlingen av personopplysninger innebærer høy risiko. Hvilken vurdering må gjennomføres, og i hvilken situasjon kreves den?",
+        "fasit": "Det må gjennomføres en personvernkonsekvensvurdering, også kalt DPIA. Den kreves når behandlingen av personopplysninger innebærer høy risiko.",
+        "kriterier": [
+          "Navngir personvernkonsekvensvurdering eller DPIA.",
+          "Knytter kravet til høy risiko."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

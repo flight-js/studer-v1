@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Kommunikasjon, teknologi og det offentlige ordskiftet",
   "intro": "Hvordan moderne kommunikasjon og informasjonsteknologi – fra trykkekunsten og avisene til radio, TV, internett, sosiale medier og kunstig intelligens – har formet det offentlige ordskiftet, og hvilke muligheter og begrensninger de gir for menneskers liv og sannhetssøken.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Offentligheten\n\nDen **offentlige sfæren** er stedet der borgerne **diskuterer** felles saker og danner **meninger**. Filosofen **Jürgen Habermas** beskrev hvordan en **borgerlig offentlighet** vokste fram på 1700-tallet i **kaffehus**, **salonger** og **aviser**. Idealet var en fri samtale der **det beste argumentet** skulle vinne – uavhengig av hvem som sa det.\n\n## Fra trykkpresse til massemedier\n\n- **Trykkekunsten**, som **Johann Gutenberg** utviklet i Europa rundt **1450**, gjorde bøker billigere og spredte kunnskap. Den var viktig for **reformasjonen** og **opplysningstiden**.\n- **Aviser** fra 1600- og 1700-tallet skapte en **offentlig** debatt om politikk.\n- **Radio** og **TV** på 1900-tallet nådde **alle** samtidig. De skapte **felles referanser**, men kunne også brukes til **propaganda**, som i Nazi-Tyskland.\n\n## Internett og sosiale medier\n\n**Internett** og **sosiale medier** har endret offentligheten radikalt.\n\n**Muligheter**:\n\n- **Alle** kan ytre seg og nå et stort publikum.\n- Grupper som tidligere ikke ble hørt, kan **organisere** seg og **mobilisere** – som under **den arabiske våren**.\n- Tilgang til **informasjon** og **kunnskap** er enklere enn noen gang.\n\n**Begrensninger og utfordringer**:\n\n- **Algoritmer** viser oss det som skaper **engasjement**, ofte **sinne** og **konflikt**.\n- **Ekkokamre** og **filterbobler** gjør at vi mest møter synspunkter vi er enige i.\n- **Polarisering** og **netthets** kan få mange til å trekke seg fra debatten.\n- **Desinformasjon** sprer seg raskt.\n- **Oppmerksomhetsøkonomien**: Plattformene tjener penger på **tiden** vår og **dataene** våre.\n- **Overvåking** og tap av **personvern**.\n\n## Kunstig intelligens\n\n**Generativ kunstig intelligens** kan lage tekster, bilder, lyd og video som ser **ekte** ut. **Falske videoer**, såkalte **deepfakes**, kan brukes til å **lure** folk og påvirke **valg**. Samtidig kan KI gjøre kunnskap mer **tilgjengelig**. Det blir viktigere å kunne vurdere **kilder** og **opphav**.\n\n## Sannhetssøken\n\nI **2016** kåret Oxford-ordboken **post-truth** – «**postfaktisk**» – til årets ord. Begrepet beskriver en situasjon der **følelser** og **identitet** betyr mer enn **fakta** i den offentlige debatten. Mange mener dette truer **demokratiet**, som er avhengig av at borgerne har et **felles** grunnlag av fakta.\n\nMottiltak kan være **redaktørstyrte medier** som følger etiske regler, **faktasjekk**, **kildekritikk** i skolen og **regulering** av store plattformer.\n\n## Menneskers liv\n\nDigitale medier har endret **vennskap**, **identitet**, **arbeid** og **fritid**. De gir **fellesskap** og **muligheter**, men også **press**, **sammenligning** og **distraksjon**.\n\n## Drøfting\n\nEr den digitale offentligheten nærmere Habermas' ideal – fordi **alle** kan delta – eller lenger unna – fordi **algoritmer**, **støy** og **makt** styrer hva vi ser? Svaret er trolig **begge deler**.",
   "flashcards": [
-    { "term": "Offentlig sfære", "def": "Stedet der borgerne diskuterer felles saker." },
-    { "term": "Jürgen Habermas", "def": "Beskrev framveksten av den borgerlige offentligheten." },
-    { "term": "Det beste argumentet", "def": "Habermas' ideal om at argumenter, ikke makt, skal vinne." },
-    { "term": "Johann Gutenberg", "def": "Utviklet trykkekunsten i Europa rundt 1450." },
-    { "term": "Massemedier", "def": "Medier som når mange samtidig, som radio og TV." },
-    { "term": "Propaganda", "def": "Ensidig kommunikasjon for å påvirke folk." },
-    { "term": "Algoritme", "def": "Program som styrer hva vi ser i sosiale medier." },
-    { "term": "Filterboble", "def": "At vi mest får se innhold som passer våre synspunkter." },
-    { "term": "Polarisering", "def": "At grupper beveger seg lenger fra hverandre." },
-    { "term": "Oppmerksomhetsøkonomi", "def": "Plattformene tjener penger på tiden og dataene våre." },
-    { "term": "Deepfake", "def": "Falsk video eller lyd laget med kunstig intelligens." },
-    { "term": "Post-truth", "def": "Postfaktisk – når følelser og identitet betyr mer enn fakta." },
-    { "term": "Redaktørstyrte medier", "def": "Medier der en redaktør har ansvar og etiske regler følges." },
-    { "term": "Mobilisering", "def": "Å samle folk til handling, for eksempel gjennom sosiale medier." },
-    { "term": "Personvern", "def": "Retten til kontroll over egne personopplysninger." }
+    {
+      "term": "Offentlig sfære",
+      "def": "Stedet der borgerne diskuterer felles saker."
+    },
+    {
+      "term": "Jürgen Habermas",
+      "def": "Beskrev framveksten av den borgerlige offentligheten."
+    },
+    {
+      "term": "Det beste argumentet",
+      "def": "Habermas' ideal om at argumenter, ikke makt, skal vinne."
+    },
+    {
+      "term": "Johann Gutenberg",
+      "def": "Utviklet trykkekunsten i Europa rundt 1450."
+    },
+    {
+      "term": "Massemedier",
+      "def": "Medier som når mange samtidig, som radio og TV."
+    },
+    {
+      "term": "Propaganda",
+      "def": "Ensidig kommunikasjon for å påvirke folk."
+    },
+    {
+      "term": "Algoritme",
+      "def": "Program som styrer hva vi ser i sosiale medier."
+    },
+    {
+      "term": "Filterboble",
+      "def": "At vi mest får se innhold som passer våre synspunkter."
+    },
+    {
+      "term": "Polarisering",
+      "def": "At grupper beveger seg lenger fra hverandre."
+    },
+    {
+      "term": "Oppmerksomhetsøkonomi",
+      "def": "Plattformene tjener penger på tiden og dataene våre."
+    },
+    {
+      "term": "Deepfake",
+      "def": "Falsk video eller lyd laget med kunstig intelligens."
+    },
+    {
+      "term": "Post-truth",
+      "def": "Postfaktisk – når følelser og identitet betyr mer enn fakta."
+    },
+    {
+      "term": "Redaktørstyrte medier",
+      "def": "Medier der en redaktør har ansvar og etiske regler følges."
+    },
+    {
+      "term": "Mobilisering",
+      "def": "Å samle folk til handling, for eksempel gjennom sosiale medier."
+    },
+    {
+      "term": "Personvern",
+      "def": "Retten til kontroll over egne personopplysninger."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva var Habermas' ideal for offentligheten?", "options": ["At de mektigste bestemmer", "At det beste argumentet skal vinne", "At bare eksperter snakker", "At staten styrer debatten"], "correct": 1, "explain": "Uavhengig av hvem som sier det." },
-    { "id": "q02", "text": "Hvilken betydning hadde trykkekunsten?", "options": ["Den gjorde bøker billigere og spredte kunnskap", "Den stoppet reformasjonen", "Den gjorde bøker dyrere", "Den hadde ingen betydning"], "correct": 0, "explain": "Viktig for reformasjonen og opplysningstiden." },
-    { "id": "q03", "text": "Hva er en filterboble?", "options": ["En type avis", "En algoritme for skatt", "At vi mest får se innhold som passer våre synspunkter", "En samtale"], "correct": 2, "explain": "Kan forsterke polarisering." },
-    { "id": "q04", "text": "Hva er oppmerksomhetsøkonomien?", "options": ["At aviser er gratis", "At staten betaler for medier", "At folk sparer tid", "At plattformer tjener penger på tiden og dataene våre"], "correct": 3, "explain": "Engasjement gir inntekter." },
-    { "id": "q05", "text": "Hva er en deepfake?", "options": ["En falsk video eller lyd laget med KI", "En type avis", "En faktasjekk", "En dyp debatt"], "correct": 0, "explain": "Kan påvirke valg." },
-    { "id": "q06", "text": "Hva betyr post-truth?", "options": ["Tiden etter sannhetskommisjoner", "At følelser og identitet betyr mer enn fakta i debatten", "At alt er sant", "At fakta er viktigere enn før"], "correct": 1, "explain": "Årets ord i 2016." },
-    { "id": "q07", "text": "Hva er en mulighet sosiale medier gir?", "options": ["Mer overvåking", "Mer netthets", "At grupper som ikke ble hørt, kan organisere og mobilisere", "Mer desinformasjon"], "correct": 2, "explain": "For eksempel under den arabiske våren." },
-    { "id": "q08", "text": "Hvorfor viser algoritmer ofte innhold som skaper sinne?", "options": ["Fordi det er sant", "Fordi det er lovpålagt", "Fordi det er kort", "Fordi det skaper engasjement"], "correct": 3, "explain": "Engasjement holder oss på plattformen." },
-    { "id": "q09", "text": "Hvordan ble radio brukt i Nazi-Tyskland?", "options": ["Til propaganda", "Til faktasjekk", "Til fri debatt", "Den ble forbudt"], "correct": 0, "explain": "Massemedier kan misbrukes." },
-    { "id": "q10", "text": "Hva kan være et mottiltak mot desinformasjon?", "options": ["Flere anonyme kontoer", "Faktasjekk og redaktørstyrte medier", "Mindre kildekritikk", "Flere algoritmer som viser sinne"], "correct": 1, "explain": "Også regulering av plattformer." }
+    {
+      "id": "q01",
+      "text": "Hva var Habermas' ideal for offentligheten?",
+      "options": [
+        "At de mektigste bestemmer",
+        "At det beste argumentet skal vinne",
+        "At bare eksperter snakker",
+        "At staten styrer debatten"
+      ],
+      "correct": 1,
+      "explain": "Uavhengig av hvem som sier det."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken betydning hadde trykkekunsten?",
+      "options": [
+        "Den gjorde bøker billigere og spredte kunnskap",
+        "Den stoppet reformasjonen",
+        "Den gjorde bøker dyrere",
+        "Den hadde ingen betydning"
+      ],
+      "correct": 0,
+      "explain": "Viktig for reformasjonen og opplysningstiden."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en filterboble?",
+      "options": [
+        "En type avis",
+        "En algoritme for skatt",
+        "At vi mest får se innhold som passer våre synspunkter",
+        "En samtale"
+      ],
+      "correct": 2,
+      "explain": "Kan forsterke polarisering."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er oppmerksomhetsøkonomien?",
+      "options": [
+        "At aviser er gratis",
+        "At staten betaler for medier",
+        "At folk sparer tid",
+        "At plattformer tjener penger på tiden og dataene våre"
+      ],
+      "correct": 3,
+      "explain": "Engasjement gir inntekter."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en deepfake?",
+      "options": [
+        "En falsk video eller lyd laget med KI",
+        "En type avis",
+        "En faktasjekk",
+        "En dyp debatt"
+      ],
+      "correct": 0,
+      "explain": "Kan påvirke valg."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr post-truth?",
+      "options": [
+        "Tiden etter sannhetskommisjoner",
+        "At følelser og identitet betyr mer enn fakta i debatten",
+        "At alt er sant",
+        "At fakta er viktigere enn før"
+      ],
+      "correct": 1,
+      "explain": "Årets ord i 2016."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en mulighet sosiale medier gir?",
+      "options": [
+        "Mer overvåking",
+        "Mer netthets",
+        "At grupper som ikke ble hørt, kan organisere og mobilisere",
+        "Mer desinformasjon"
+      ],
+      "correct": 2,
+      "explain": "For eksempel under den arabiske våren."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor viser algoritmer ofte innhold som skaper sinne?",
+      "options": [
+        "Fordi det er sant",
+        "Fordi det er lovpålagt",
+        "Fordi det er kort",
+        "Fordi det skaper engasjement"
+      ],
+      "correct": 3,
+      "explain": "Engasjement holder oss på plattformen."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan ble radio brukt i Nazi-Tyskland?",
+      "options": [
+        "Til propaganda",
+        "Til faktasjekk",
+        "Til fri debatt",
+        "Den ble forbudt"
+      ],
+      "correct": 0,
+      "explain": "Massemedier kan misbrukes."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kan være et mottiltak mot desinformasjon?",
+      "options": [
+        "Flere anonyme kontoer",
+        "Faktasjekk og redaktørstyrte medier",
+        "Mindre kildekritikk",
+        "Flere algoritmer som viser sinne"
+      ],
+      "correct": 1,
+      "explain": "Også regulering av plattformer."
+    }
   ],
   "mindmap": {
     "label": "Kommunikasjon og offentlighet",
     "children": [
-      { "label": "Offentlighet", "children": [
-        { "label": "Habermas" },
-        { "label": "Det beste argumentet" }
-      ] },
-      { "label": "Historie", "children": [
-        { "label": "Trykkekunst" },
-        { "label": "Aviser" },
-        { "label": "Radio og TV" }
-      ] },
-      { "label": "Sosiale medier", "children": [
-        { "label": "Mobilisering" },
-        { "label": "Algoritmer og filterbobler" },
-        { "label": "Polarisering og hets" }
-      ] },
-      { "label": "KI", "children": [
-        { "label": "Deepfakes" },
-        { "label": "Tilgang til kunnskap" }
-      ] },
-      { "label": "Sannhet", "children": [
-        { "label": "Post-truth" },
-        { "label": "Faktasjekk" },
-        { "label": "Redaktøransvar" }
-      ] }
+      {
+        "label": "Offentlighet",
+        "children": [
+          {
+            "label": "Habermas"
+          },
+          {
+            "label": "Det beste argumentet"
+          }
+        ]
+      },
+      {
+        "label": "Historie",
+        "children": [
+          {
+            "label": "Trykkekunst"
+          },
+          {
+            "label": "Aviser"
+          },
+          {
+            "label": "Radio og TV"
+          }
+        ]
+      },
+      {
+        "label": "Sosiale medier",
+        "children": [
+          {
+            "label": "Mobilisering"
+          },
+          {
+            "label": "Algoritmer og filterbobler"
+          },
+          {
+            "label": "Polarisering og hets"
+          }
+        ]
+      },
+      {
+        "label": "KI",
+        "children": [
+          {
+            "label": "Deepfakes"
+          },
+          {
+            "label": "Tilgang til kunnskap"
+          }
+        ]
+      },
+      {
+        "label": "Sannhet",
+        "children": [
+          {
+            "label": "Post-truth"
+          },
+          {
+            "label": "Faktasjekk"
+          },
+          {
+            "label": "Redaktøransvar"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Radio og TV skapte felles referanser fordi de nådde alle samtidig.", "correct": true, "explain": "Massemedier." },
-      { "id": "m02", "type": "sant-usant", "text": "Sosiale medier har bare positive følger for offentligheten.", "correct": false, "explain": "De gir både muligheter og utfordringer." },
-      { "id": "m03", "type": "sant-usant", "text": "Demokratiet er avhengig av et felles grunnlag av fakta.", "correct": true, "explain": "Derfor er desinformasjon en trussel." },
-      { "id": "m04", "type": "sant-usant", "text": "Netthets har ingen betydning for hvem som deltar i debatten.", "correct": false, "explain": "Mange trekker seg fra debatten." },
-      { "id": "m05", "type": "flervalg", "text": "Hvor vokste den borgerlige offentligheten fram?", "options": ["I kirkene", "I kaffehus, salonger og aviser", "I kongens slott", "I fabrikkene"], "correct": 1, "explain": "På 1700-tallet." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket år ble post-truth årets ord hos Oxford?", "options": ["2016", "2001", "2010", "2020"], "correct": 0, "explain": "Etter blant annet valget i USA." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er et kjennetegn ved redaktørstyrte medier?", "options": ["Ingen har ansvar", "Anonyme innlegg", "En redaktør har ansvar og etiske regler følges", "De er alltid gratis"], "correct": 2, "explain": "Viktig for sannhetssøken." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Radio og TV skapte felles referanser fordi de nådde alle samtidig.",
+        "correct": true,
+        "explain": "Massemedier."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Sosiale medier har bare positive følger for offentligheten.",
+        "correct": false,
+        "explain": "De gir både muligheter og utfordringer."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Demokratiet er avhengig av et felles grunnlag av fakta.",
+        "correct": true,
+        "explain": "Derfor er desinformasjon en trussel."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Netthets har ingen betydning for hvem som deltar i debatten.",
+        "correct": false,
+        "explain": "Mange trekker seg fra debatten."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvor vokste den borgerlige offentligheten fram?",
+        "options": [
+          "I kirkene",
+          "I kaffehus, salonger og aviser",
+          "I kongens slott",
+          "I fabrikkene"
+        ],
+        "correct": 1,
+        "explain": "På 1700-tallet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket år ble post-truth årets ord hos Oxford?",
+        "options": [
+          "2016",
+          "2001",
+          "2010",
+          "2020"
+        ],
+        "correct": 0,
+        "explain": "Etter blant annet valget i USA."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er et kjennetegn ved redaktørstyrte medier?",
+        "options": [
+          "Ingen har ansvar",
+          "Anonyme innlegg",
+          "En redaktør har ansvar og etiske regler følges",
+          "De er alltid gratis"
+        ],
+        "correct": 2,
+        "explain": "Viktig for sannhetssøken."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Innbyggere diskuterer felles saker og danner meninger. Forklar hva en offentlig sfære er, og hvilken rolle den har.",
+        "fasit": "Den offentlige sfæren er stedet der borgerne diskuterer saker som angår fellesskapet. Gjennom diskusjonen kan de danne meninger.",
+        "kriterier": [
+          "Forklarer at offentlig sfære er en arena for borgernes diskusjon om felles saker.",
+          "Får fram at borgerne kan danne meninger der."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign Habermas' ideal om offentligheten med den digitale offentligheten i dag. Hva skulle avgjøre hvilke synspunkter som vant, og hva kan påvirke hva folk ser på nettet?",
+        "fasit": "Hos Habermas skulle det beste argumentet vinne, uavhengig av hvem som fremmet det. I den digitale offentligheten kan algoritmer, støy og makt påvirke hvilke synspunkter folk møter.",
+        "kriterier": [
+          "Forklarer at Habermas' ideal var at argumentets kvalitet, ikke hvem som sa det, skulle avgjøre.",
+          "Nevner at algoritmer, støy eller makt kan styre synlighet i den digitale offentligheten."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign hvilken rolle aviser på 1600- og 1700-tallet hadde med rollen radio og TV fikk på 1900-tallet.",
+        "fasit": "Avisene skapte en offentlig debatt om politikk. Radio og TV nådde mange samtidig og skapte felles referanser.",
+        "kriterier": [
+          "Får fram at avisene bidro til offentlig politisk debatt.",
+          "Får fram at radio og TV nådde mange samtidig eller skapte felles referanser."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En gruppe som sjelden blir hørt, bruker sosiale medier til å organisere seg og samle støtte til en handling. Bruk begrepet mobilisering og forklar hvordan sosiale medier bidrar i situasjonen.",
+        "fasit": "Dette er mobilisering: å samle folk til handling. Sosiale medier gjør det mulig for gruppen å organisere seg og nå andre med saken sin.",
+        "kriterier": [
+          "Bruker mobilisering om å samle folk til handling.",
+          "Forklarer at sosiale medier kan hjelpe gruppen med å organisere seg eller nå flere."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En video laget med generativ kunstig intelligens ser ekte ut og viser en politiker som sier noe før et valg. Forklar hvilken risiko videoen skaper, og hva publikum bør undersøke.",
+        "fasit": "En slik falsk video, en deepfake, kan lure folk og påvirke et valg. Publikum bør vurdere kilden og opphavet til videoen.",
+        "kriterier": [
+          "Forklarer at en falsk, realistisk video kan villede folk eller påvirke valg.",
+          "Nevner at man bør undersøke kilden eller opphavet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvordan en postfaktisk debatt kan true demokratiet.",
+        "fasit": "I en postfaktisk debatt får følelser og identitet større betydning enn fakta. Det kan true demokratiet fordi borgerne trenger et felles faktagrunnlag.",
+        "kriterier": [
+          "Forklarer at følelser og identitet kan veie tyngre enn fakta.",
+          "Knytter dette til at demokratiet trenger et felles grunnlag av fakta."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I en nettdebatt gjør personangrep at noen slutter å delta, samtidig som gruppene blir mer uenige. Forklar sammenhengen mellom netthets, polarisering og deltakelse i debatten.",
+        "fasit": "Netthets kan bidra til at grupper beveger seg lenger fra hverandre, altså polarisering. Når debatten preges av hets, kan folk trekke seg fra den.",
+        "kriterier": [
+          "Forklarer polarisering som at grupper beveger seg lenger fra hverandre.",
+          "Får fram at netthets kan få folk til å trekke seg fra debatten."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En digital plattform overvåker brukerne og samler opplysninger om dem. Hvilken rettighet kan bli truet, og hva handler denne rettigheten om?",
+        "fasit": "Personvernet kan bli truet. Det handler om retten til å ha kontroll over egne personopplysninger.",
+        "kriterier": [
+          "Identifiserer personvern som rettigheten som kan bli truet.",
+          "Forklarer at personvern innebærer kontroll over egne personopplysninger."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

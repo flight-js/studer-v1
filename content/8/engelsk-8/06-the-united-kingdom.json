@@ -360,6 +360,80 @@
         "correct": 1,
         "explain": "The British Broadcasting Corporation is a well-known public broadcaster."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "A student says, “The Republic of Ireland is part of the UK because it is in the British Isles.” Explain what is wrong with this statement.",
+        "fasit": "The British Isles is a geographical name for Great Britain, Ireland and smaller islands. The Republic of Ireland is an independent country, so it is not part of the UK.",
+        "kriterier": [
+          "Explains that the British Isles is a geographical name, not the name of one country.",
+          "States that the Republic of Ireland is independent and not part of the UK."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "The King is head of state in the UK, while Parliament governs the country. Explain how these roles are different.",
+        "fasit": "The King represents the state but has little real political power. Parliament is the body that governs the UK.",
+        "kriterier": [
+          "Explains that the King has little real political power.",
+          "Explains that Parliament governs the country."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "How can London be the capital of both England and the whole UK?",
+        "fasit": "London is the capital of England and is also the capital of the UK. The UK includes England as well as Scotland, Wales and Northern Ireland.",
+        "kriterier": [
+          "States that London is the capital of England and the UK.",
+          "Shows that England is one of the four nations in the UK."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Someone says, “I am Scottish, so I cannot also be British.” Explain why both identities can describe the same person.",
+        "fasit": "A person can feel connected to Scotland and call themselves Scottish, while also being British because Scotland is part of the UK. People may identify with their own nation as well as Britain.",
+        "kriterier": [
+          "Explains that Scottish identity and British identity can both apply to one person.",
+          "Connects this to Scotland being part of the UK or to people feeling connected to both their nation and Britain."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "The Union Jack is the flag of the UK. Explain which crosses it combines and what that tells us about the flag.",
+        "fasit": "The Union Jack combines the crosses of England, Scotland and Ireland. Its design brings together crosses linked to different parts of the UK.",
+        "kriterier": [
+          "Names the crosses of England, Scotland and Ireland.",
+          "Explains that the flag combines them in one design."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "A school in Birmingham has students whose families have roots in the Caribbean, Africa, South Asia and Europe. Give two examples of how this range of backgrounds may be reflected in city life.",
+        "fasit": "A multicultural city may have a variety of food and music. Its different backgrounds may also be reflected in religion and language.",
+        "kriterier": [
+          "Gives two relevant examples, such as food, music, religion or language.",
+          "Connects the examples to people having different cultural backgrounds."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A classmate says English is the only language used in the UK. Correct them by comparing English with other languages mentioned and where they are used.",
+        "fasit": "English is the main language, but it is not the only language used. Many people speak Welsh in Wales, and Scottish Gaelic and Irish are also used.",
+        "kriterier": [
+          "States that English is the main language but not the only one used.",
+          "Names Welsh and where it is spoken, and mentions Scottish Gaelic or Irish."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "A question about education or health comes up in Scotland, Wales or Northern Ireland. Explain which bodies may make decisions about it and how this differs from decisions made in London.",
+        "fasit": "Scotland, Wales and Northern Ireland have their own parliaments or assemblies that decide on matters such as education and health. The UK Parliament is in London and governs the whole UK.",
+        "kriterier": [
+          "Identifies the parliaments or assemblies in Scotland, Wales and Northern Ireland as bodies that may decide on these matters.",
+          "Distinguishes their role from the UK Parliament in London."
+        ]
+      }
     ]
   },
   "kvalitet": {

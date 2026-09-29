@@ -350,6 +350,80 @@
         "correct": 1,
         "explain": "A rich world makes the story more immersive."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Films, songs and games can entertain people and also say something about society. Explain why they are called cultural expressions.",
+        "fasit": "They are cultural expressions because they are made forms of entertainment that can also communicate ideas about society.",
+        "kriterier": [
+          "Explains that films, songs or games are forms of entertainment.",
+          "Explains that they can express something about society."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "A film begins with a wide view of a town, then shows a person from the waist up during a conversation. Name the type of shot used for each moment and explain what each shot shows.",
+        "fasit": "The wide view is an establishing shot, which shows the setting. The shot from the waist up is a medium shot, which is commonly used for dialogue.",
+        "kriterier": [
+          "Identifies the wide view as an establishing shot and says it shows the setting.",
+          "Identifies the waist-up view as a medium shot and connects it to dialogue."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "In a film scene, the camera moves along with a character as the character runs through a street. What is this camera movement called, and what does the camera do?",
+        "fasit": "It is a tracking shot. The camera follows the action by moving along with the character.",
+        "kriterier": [
+          "Names the movement as a tracking shot.",
+          "Explains that the camera follows the action or character."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "A film scene includes footsteps made by a character and background music added for the audience. Classify each sound as diegetic or non-diegetic and explain the difference.",
+        "fasit": "The footsteps are diegetic because they exist in the story world. The background music is non-diegetic because it is added for the audience.",
+        "kriterier": [
+          "Classifies the footsteps as diegetic and explains that they exist in the story world.",
+          "Classifies the background music as non-diegetic and explains that it is added for the audience."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Bob Dylan's “Blowin' in the Wind” is linked to the civil rights era, and Kendrick Lamar's “Alright” became an anthem for Black Lives Matter protests. Explain how these examples show the connection between protest songs and social movements.",
+        "fasit": "Protest songs can support a cause and become part of a social movement. These songs are linked to the civil rights era and Black Lives Matter protests.",
+        "kriterier": [
+          "Explains that protest songs can support a cause or social movement.",
+          "Connects the two songs to the movements or periods named in the question."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "When analysing a song, what can you examine in its lyrics, and what musical features can you examine? Give at least one example of each.",
+        "fasit": "In the lyrics, you can examine themes, imagery or the speaker. In the music, you can examine features such as genre, tempo, instruments or mood.",
+        "kriterier": [
+          "Names a relevant aspect of lyrics, such as themes, imagery or the speaker.",
+          "Names a relevant musical feature, such as genre, tempo, instruments or mood."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Compare playing a video game with watching a film. Explain how the player's role can make the experience different.",
+        "fasit": "In a game, the player can make choices that may have consequences, so the player is active in the experience. When watching a film, the audience watches rather than making choices in the story.",
+        "kriterier": [
+          "Explains that a game player can make choices that may have consequences.",
+          "Contrasts this with the role of someone watching a film."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "A game has characters and a story, as well as a detailed fictional world. Explain what world-building means and how it differs from the story and characters.",
+        "fasit": "World-building is the creation of a detailed fictional world. It refers to the world the story takes place in, rather than the story or its characters.",
+        "kriterier": [
+          "Explains that world-building means creating a detailed fictional world.",
+          "Distinguishes the world from the story and characters."
+        ]
+      }
     ]
   },
   "kvalitet": {

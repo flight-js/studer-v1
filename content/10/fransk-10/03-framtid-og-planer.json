@@ -4,79 +4,429 @@
   "trinnId": "10",
   "name": "Framtid, planer og yrker",
   "intro": "Hvordan du snakker om framtiden på fransk med futur proche og futur simple, planer og drømmer, yrker og utdanning i Frankrike, og hvordan du begrunner med parce que og setter vilkår med si.",
-  "kompetansemaal": [3, 6],
+  "kompetansemaal": [
+    3,
+    6
+  ],
   "sammendrag": "## Å snakke om framtiden\n\nFransk har to vanlige framtidsformer:\n\n- **Futur proche** – nær framtid: **aller** + infinitiv. *Je **vais étudier** ce soir.* – Jeg skal studere i kveld.\n- **Futur simple** – framtid generelt: infinitiv + endingene **-ai, -as, -a, -ons, -ez, -ont**. *Je travailler**ai**, tu travailler**as**, il travailler**a** …*\n\nNoen vanlige verb har **uregelrett stamme** i futur simple: être → **je serai**, avoir → **j'aurai**, aller → **j'irai**, faire → **je ferai**, pouvoir → **je pourrai** og venir → **je viendrai**.\n\n## Planer og drømmer\n\n- **Je voudrais …** / **J'aimerais …** – Jeg vil gjerne …\n- **Je veux …** – Jeg vil …\n- **J'ai l'intention de voyager.** – Jeg har tenkt å reise.\n- **Je rêve de devenir pilote.** – Jeg drømmer om å bli pilot.\n- **J'espère que …** – Jeg håper at …\n\n## Yrker – les métiers\n\nMange yrker har egne hunkjønnsformer: **infirmier / infirmière** (sykepleier), **cuisinier / cuisinière** (kokk), **informaticien / informaticienne** (dataingeniør), **avocat / avocate** (advokat), **policier / policière** (politi) og **ingénieur / ingénieure**. Noen er like for begge kjønn, som **médecin**, **journaliste**, **architecte** og **vétérinaire**.\n\nMan bruker **ikke** artikkel foran yrket etter *être* og *devenir*: *Je voudrais être infirmière.* *Il veut devenir médecin.*\n\n## Utdanning i Frankrike\n\n- Etter **le collège** går man på **le lycée**, som kan være *général*, *technologique* eller *professionnel*.\n- Lycée avsluttes med eksamenen **le bac** (*le baccalauréat*).\n- Etterpå kan man studere ved **l'université** eller ved en av de prestisjetunge **grandes écoles**.\n- **L'apprentissage** er en yrkesopplæring der man lærer i en bedrift, og **le stage** er en praksisperiode.\n\n## Begrunne og sette vilkår\n\n- **parce que** (fordi) – vanlig ordstilling: *Je veux être médecin **parce que** j'aime aider les gens.*\n- **si** (hvis) + presens, deretter futur simple: *Si j'ai de bonnes notes, j'irai à l'université.*\n\n## Livet i framtiden\n\n- **Je voudrais habiter dans une grande ville / à la campagne.** – Jeg vil bo i en stor by / på landet.\n- **Je voudrais avoir des enfants.** – Jeg vil ha barn.\n- **Je voyagerai beaucoup.** – Jeg skal reise mye.\n\n## Tidsuttrykk\n\n**demain** (i morgen), **après-demain** (i overmorgen), **la semaine prochaine** (neste uke), **l'année prochaine** (neste år), **dans cinq ans** (om fem år) og **plus tard** (senere).",
   "flashcards": [
-    { "term": "aller + infinitiv", "def": "futur proche: Je vais étudier." },
-    { "term": "je vais étudier", "def": "jeg skal studere" },
-    { "term": "je travaillerai", "def": "jeg skal arbeide (futur simple)" },
-    { "term": "je serai / j'aurai / j'irai / je ferai", "def": "jeg skal være / ha / dra / gjøre" },
-    { "term": "le métier", "def": "yrket" },
-    { "term": "Je voudrais être médecin.", "def": "Jeg vil gjerne bli lege. (ingen artikkel foran yrket)" },
-    { "term": "infirmier / infirmière", "def": "sykepleier" },
-    { "term": "ingénieur / ingénieure", "def": "ingeniør" },
-    { "term": "le bac", "def": "eksamen som avslutter lycée" },
-    { "term": "le stage", "def": "praksisperioden" },
-    { "term": "l'apprentissage", "def": "lærlingordning, yrkesopplæring i bedrift" },
-    { "term": "parce que", "def": "fordi" },
-    { "term": "Si …, j'irai …", "def": "Hvis …, skal jeg dra …" },
-    { "term": "l'année prochaine", "def": "neste år" },
-    { "term": "dans cinq ans", "def": "om fem år" },
-    { "term": "Je rêve de …", "def": "Jeg drømmer om å …" }
+    {
+      "term": "aller + infinitiv",
+      "def": "futur proche: Je vais étudier."
+    },
+    {
+      "term": "je vais étudier",
+      "def": "jeg skal studere"
+    },
+    {
+      "term": "je travaillerai",
+      "def": "jeg skal arbeide (futur simple)"
+    },
+    {
+      "term": "je serai / j'aurai / j'irai / je ferai",
+      "def": "jeg skal være / ha / dra / gjøre"
+    },
+    {
+      "term": "le métier",
+      "def": "yrket"
+    },
+    {
+      "term": "Je voudrais être médecin.",
+      "def": "Jeg vil gjerne bli lege. (ingen artikkel foran yrket)"
+    },
+    {
+      "term": "infirmier / infirmière",
+      "def": "sykepleier"
+    },
+    {
+      "term": "ingénieur / ingénieure",
+      "def": "ingeniør"
+    },
+    {
+      "term": "le bac",
+      "def": "eksamen som avslutter lycée"
+    },
+    {
+      "term": "le stage",
+      "def": "praksisperioden"
+    },
+    {
+      "term": "l'apprentissage",
+      "def": "lærlingordning, yrkesopplæring i bedrift"
+    },
+    {
+      "term": "parce que",
+      "def": "fordi"
+    },
+    {
+      "term": "Si …, j'irai …",
+      "def": "Hvis …, skal jeg dra …"
+    },
+    {
+      "term": "l'année prochaine",
+      "def": "neste år"
+    },
+    {
+      "term": "dans cinq ans",
+      "def": "om fem år"
+    },
+    {
+      "term": "Je rêve de …",
+      "def": "Jeg drømmer om å …"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan lager du futur proche?", "options": ["avoir + partisipp", "être + infinitiv", "infinitiv + -ait", "aller + infinitiv"], "correct": 3, "explain": "For eksempel «Je vais partir»." },
-    { "id": "q02", "text": "Hvordan sier du «Jeg vil gjerne bli lege»?", "options": ["Je voudrais être un médecin.", "Je voudrais être médecin.", "Je voudrais médecin.", "Je suis voudrais médecin."], "correct": 1, "explain": "Man bruker ikke artikkel foran yrket." },
-    { "id": "q03", "text": "Hva er futur simple av «être» med «je»?", "options": ["j'étrai", "je sera", "je serai", "je suis"], "correct": 2, "explain": "«être» har stammen ser- i futur simple." },
-    { "id": "q04", "text": "Hvilken setning er riktig?", "options": ["Je veux être professeur parce que j'aime les enfants.", "Je veux être professeur parce que les enfants j'aime.", "Je veux être professeur que parce j'aime les enfants.", "Je veux être parce que professeur j'aime les enfants."], "correct": 0, "explain": "Etter «parce que» brukes vanlig ordstilling." },
-    { "id": "q05", "text": "Hva er «le stage»?", "options": ["En scene", "En eksamen", "En praksisperiode i en bedrift", "Et skolefag"], "correct": 2, "explain": "Mange franske elever har stage allerede i collège." },
-    { "id": "q06", "text": "Hva betyr «l'année prochaine»?", "options": ["Neste år", "I fjor", "Hvert år", "Dette året"], "correct": 0, "explain": "I fjor heter «l'année dernière»." },
-    { "id": "q07", "text": "Hva er «le bac»?", "options": ["En yrkestittel", "En skoletype", "En praksisplass", "Eksamen som avslutter lycée"], "correct": 3, "explain": "Bac gir adgang til høyere utdanning." },
-    { "id": "q08", "text": "Hva er hunkjønnsformen av «infirmier»?", "options": ["infirmiere", "infirmière", "infirmienne", "infirmiesse"], "correct": 1, "explain": "Endelsen -ier blir -ière." },
-    { "id": "q09", "text": "Hva betyr «Si j'ai de bonnes notes, j'irai à l'université»?", "options": ["Jeg har gode karakterer på universitetet", "Jeg gikk på universitetet", "Universitetet er bra", "Hvis jeg får gode karakterer, skal jeg gå på universitetet"], "correct": 3, "explain": "si + presens, deretter futur simple." },
-    { "id": "q10", "text": "Hva er «l'apprentissage»?", "options": ["En yrkesopplæring der man lærer i en bedrift", "En eksamen", "Et universitet", "En type lærer"], "correct": 0, "explain": "«apprendre» betyr å lære." }
+    {
+      "id": "q01",
+      "text": "Hvordan lager du futur proche?",
+      "options": [
+        "avoir + partisipp",
+        "être + infinitiv",
+        "infinitiv + -ait",
+        "aller + infinitiv"
+      ],
+      "correct": 3,
+      "explain": "For eksempel «Je vais partir»."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan sier du «Jeg vil gjerne bli lege»?",
+      "options": [
+        "Je voudrais être un médecin.",
+        "Je voudrais être médecin.",
+        "Je voudrais médecin.",
+        "Je suis voudrais médecin."
+      ],
+      "correct": 1,
+      "explain": "Man bruker ikke artikkel foran yrket."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er futur simple av «être» med «je»?",
+      "options": [
+        "j'étrai",
+        "je sera",
+        "je serai",
+        "je suis"
+      ],
+      "correct": 2,
+      "explain": "«être» har stammen ser- i futur simple."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken setning er riktig?",
+      "options": [
+        "Je veux être professeur parce que j'aime les enfants.",
+        "Je veux être professeur parce que les enfants j'aime.",
+        "Je veux être professeur que parce j'aime les enfants.",
+        "Je veux être parce que professeur j'aime les enfants."
+      ],
+      "correct": 0,
+      "explain": "Etter «parce que» brukes vanlig ordstilling."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er «le stage»?",
+      "options": [
+        "En scene",
+        "En eksamen",
+        "En praksisperiode i en bedrift",
+        "Et skolefag"
+      ],
+      "correct": 2,
+      "explain": "Mange franske elever har stage allerede i collège."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr «l'année prochaine»?",
+      "options": [
+        "Neste år",
+        "I fjor",
+        "Hvert år",
+        "Dette året"
+      ],
+      "correct": 0,
+      "explain": "I fjor heter «l'année dernière»."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er «le bac»?",
+      "options": [
+        "En yrkestittel",
+        "En skoletype",
+        "En praksisplass",
+        "Eksamen som avslutter lycée"
+      ],
+      "correct": 3,
+      "explain": "Bac gir adgang til høyere utdanning."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er hunkjønnsformen av «infirmier»?",
+      "options": [
+        "infirmiere",
+        "infirmière",
+        "infirmienne",
+        "infirmiesse"
+      ],
+      "correct": 1,
+      "explain": "Endelsen -ier blir -ière."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «Si j'ai de bonnes notes, j'irai à l'université»?",
+      "options": [
+        "Jeg har gode karakterer på universitetet",
+        "Jeg gikk på universitetet",
+        "Universitetet er bra",
+        "Hvis jeg får gode karakterer, skal jeg gå på universitetet"
+      ],
+      "correct": 3,
+      "explain": "si + presens, deretter futur simple."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er «l'apprentissage»?",
+      "options": [
+        "En yrkesopplæring der man lærer i en bedrift",
+        "En eksamen",
+        "Et universitet",
+        "En type lærer"
+      ],
+      "correct": 0,
+      "explain": "«apprendre» betyr å lære."
+    }
   ],
   "mindmap": {
     "label": "Framtid og planer",
     "children": [
-      { "label": "Framtid", "children": [
-        { "label": "aller + infinitiv" },
-        { "label": "Futur simple" },
-        { "label": "serai, aurai, irai, ferai" }
-      ] },
-      { "label": "Planer", "children": [
-        { "label": "Je voudrais / J'aimerais" },
-        { "label": "J'ai l'intention de" },
-        { "label": "Je rêve de" }
-      ] },
-      { "label": "Yrker", "children": [
-        { "label": "infirmier / infirmière" },
-        { "label": "médecin, journaliste" },
-        { "label": "Ingen artikkel foran yrket" }
-      ] },
-      { "label": "Utdanning", "children": [
-        { "label": "lycée og bac" },
-        { "label": "université, grandes écoles" },
-        { "label": "apprentissage og stage" }
-      ] },
-      { "label": "Begrunne", "children": [
-        { "label": "parce que" },
-        { "label": "si + presens, futur" }
-      ] }
+      {
+        "label": "Framtid",
+        "children": [
+          {
+            "label": "aller + infinitiv"
+          },
+          {
+            "label": "Futur simple"
+          },
+          {
+            "label": "serai, aurai, irai, ferai"
+          }
+        ]
+      },
+      {
+        "label": "Planer",
+        "children": [
+          {
+            "label": "Je voudrais / J'aimerais"
+          },
+          {
+            "label": "J'ai l'intention de"
+          },
+          {
+            "label": "Je rêve de"
+          }
+        ]
+      },
+      {
+        "label": "Yrker",
+        "children": [
+          {
+            "label": "infirmier / infirmière"
+          },
+          {
+            "label": "médecin, journaliste"
+          },
+          {
+            "label": "Ingen artikkel foran yrket"
+          }
+        ]
+      },
+      {
+        "label": "Utdanning",
+        "children": [
+          {
+            "label": "lycée og bac"
+          },
+          {
+            "label": "université, grandes écoles"
+          },
+          {
+            "label": "apprentissage og stage"
+          }
+        ]
+      },
+      {
+        "label": "Begrunne",
+        "children": [
+          {
+            "label": "parce que"
+          },
+          {
+            "label": "si + presens, futur"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "På fransk bruker man ikke artikkel foran yrket etter «être»: «Je suis professeur».", "correct": true, "explain": "Det samme gjelder etter «devenir»." },
-      { "id": "m02", "type": "sant-usant", "text": "Futur simple av «aller» med «je» er «j'allerai».", "correct": false, "explain": "Det heter «j'irai»." },
-      { "id": "m03", "type": "sant-usant", "text": "Man kan bruke «aller + infinitiv» om nær framtid.", "correct": true, "explain": "Det kalles futur proche." },
-      { "id": "m04", "type": "sant-usant", "text": "«parce que» flytter verbet til slutten av setningen.", "correct": false, "explain": "På fransk brukes vanlig ordstilling etter «parce que»." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «dans cinq ans»?", "options": ["For fem år siden", "Om fem år", "I fem år", "Hvert femte år"], "correct": 1, "explain": "For fem år siden heter «il y a cinq ans»." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er futur simple av «avoir» med «je»?", "options": ["j'aurai", "j'avrai", "j'avoirai", "j'ai"], "correct": 0, "explain": "«avoir» har stammen aur- i futur simple." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Je rêve de devenir pilote»?", "options": ["Jeg drømte om fly", "Jeg er pilot", "Jeg drømmer om å bli pilot", "Jeg liker piloter"], "correct": 2, "explain": "«rêver de» betyr å drømme om." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "På fransk bruker man ikke artikkel foran yrket etter «être»: «Je suis professeur».",
+        "correct": true,
+        "explain": "Det samme gjelder etter «devenir»."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Futur simple av «aller» med «je» er «j'allerai».",
+        "correct": false,
+        "explain": "Det heter «j'irai»."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Man kan bruke «aller + infinitiv» om nær framtid.",
+        "correct": true,
+        "explain": "Det kalles futur proche."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«parce que» flytter verbet til slutten av setningen.",
+        "correct": false,
+        "explain": "På fransk brukes vanlig ordstilling etter «parce que»."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «dans cinq ans»?",
+        "options": [
+          "For fem år siden",
+          "Om fem år",
+          "I fem år",
+          "Hvert femte år"
+        ],
+        "correct": 1,
+        "explain": "For fem år siden heter «il y a cinq ans»."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er futur simple av «avoir» med «je»?",
+        "options": [
+          "j'aurai",
+          "j'avrai",
+          "j'avoirai",
+          "j'ai"
+        ],
+        "correct": 0,
+        "explain": "«avoir» har stammen aur- i futur simple."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «Je rêve de devenir pilote»?",
+        "options": [
+          "Jeg drømte om fly",
+          "Jeg er pilot",
+          "Jeg drømmer om å bli pilot",
+          "Jeg liker piloter"
+        ],
+        "correct": 2,
+        "explain": "«rêver de» betyr å drømme om."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Compare le futur proche et le futur simple : quand utilise-t-on généralement chaque forme ? Donne un exemple avec « ce soir » et un autre avec « plus tard ».",
+        "fasit": "Le futur proche sert à parler d’un avenir proche, par exemple « Je vais étudier ce soir ». Le futur simple sert à parler de l’avenir en général, par exemple « Je travaillerai plus tard ».",
+        "kriterier": [
+          "Distingue l’avenir proche de l’avenir général.",
+          "Associe correctement un exemple à chaque forme."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Explique la différence entre « un stage » et « l’apprentissage » en français.",
+        "fasit": "Un stage est une période de pratique. L’apprentissage est une formation professionnelle où l’on apprend dans une entreprise.",
+        "kriterier": [
+          "Explique qu’un stage est une période de pratique.",
+          "Explique que l’apprentissage est une formation professionnelle en entreprise."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Présente le parcours scolaire en France, du collège aux études après le lycée. Indique aussi l’examen qui termine le lycée.",
+        "fasit": "Après le collège, on va au lycée, qui peut être général, technologique ou professionnel. Le lycée se termine avec le bac, puis on peut étudier à l’université ou dans une grande école.",
+        "kriterier": [
+          "Indique qu’après le collège, on va au lycée et que le bac termine le lycée.",
+          "Indique une possibilité d’études après le lycée : l’université ou une grande école."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Tu veux devenir cuisinier et tu aimes préparer des repas. Écris une phrase en français qui explique pourquoi tu veux exercer ce métier avec « parce que ».",
+        "fasit": "Je veux devenir cuisinier parce que j’aime préparer des repas.",
+        "kriterier": [
+          "Exprime que la personne veut devenir cuisinier.",
+          "Utilise « parce que » pour relier le métier à la raison donnée."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Tu as le bac et tu veux continuer tes études à l’université. Écris une phrase avec « si » et le futur simple pour exprimer ce projet.",
+        "fasit": "Si j’ai le bac, j’étudierai à l’université.",
+        "kriterier": [
+          "Utilise le présent après « si ».",
+          "Utilise le futur simple dans la proposition principale et exprime le projet d’étudier à l’université."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Parmi « ingénieur », « médecin » et « journaliste », donne un métier qui a une forme différente au féminin et un métier qui garde la même forme. Écris les formes demandées.",
+        "fasit": "« Ingénieur » devient « ingénieure » au féminin. « Médecin » garde la même forme pour les deux genres.",
+        "kriterier": [
+          "Donne correctement une forme féminine différente, par exemple « ingénieure ».",
+          "Donne correctement un métier qui garde la même forme, par exemple « médecin » ou « journaliste »."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Tu prévois de faire un stage dans cinq ans. Écris cette idée à la première personne avec le futur simple de « faire ».",
+        "fasit": "Dans cinq ans, je ferai un stage.",
+        "kriterier": [
+          "Utilise la forme « je ferai ».",
+          "Exprime bien l’idée d’un stage dans cinq ans."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Exprime en français l’espoir d’habiter à la campagne plus tard. Commence par « J’espère que » et utilise le futur simple de « habiter ».",
+        "fasit": "J’espère que j’habiterai à la campagne plus tard.",
+        "kriterier": [
+          "Commence une proposition avec « J’espère que » et exprime l’idée d’habiter à la campagne plus tard.",
+          "Utilise le futur simple « j’habiterai »."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

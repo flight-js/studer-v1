@@ -4,75 +4,415 @@
   "trinnId": "vg3",
   "name": "Krumlinjet bevegelse og sirkelbevegelse",
   "intro": "Hvordan krefter forårsaker krumlinjet bevegelse: sentripetalakselerasjon og sentripetalkraft, periode og banefart, beregninger for biler i sving, karuseller, loop-baner og doserte svinger – og hvorfor sentrifugalkraften ikke er en ekte kraft.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Krumlinjet bevegelse\n\nNewtons første lov sier at et legeme fortsetter i **rett linje** med **konstant fart** hvis summen av kreftene er null. For at noe skal bevege seg i en **kurve**, må det derfor virke en **kraft** med en komponent **vinkelrett** på fartsretningen. Denne komponenten endrer **retningen** på farten.\n\n## Jevn sirkelbevegelse\n\nVed **jevn sirkelbevegelse** er **banefarten** konstant, men **retningen** endrer seg hele tiden. Derfor er det en **akselerasjon** – rettet inn mot **sentrum** av sirkelen.\n\n- **Periode** T: tiden for én runde\n- **Banefart**: v = 2πr / T\n- **Sentripetalakselerasjon**: a = v² / r, rettet mot sentrum\n\n## Sentripetalkraft\n\nEtter Newtons andre lov må summen av kreftene inn mot sentrum være\n\n**ΣF = m · v² / r**\n\nDette kalles **sentripetalkraften**. Det er **ikke** en egen kraft, men **summen** av kreftene som peker mot sentrum. Den kan være\n\n- **friksjon** – når en bil svinger\n- **snordraget** – når en ball svinges i en snor\n- **gravitasjon** – når en satellitt går i bane\n- **normalkraft** – i en loop eller en dosert sving\n\n## Eksempel: bil i sving\n\nEn bil på 1200 kg kjører i 20 m/s gjennom en sving med radius 50 m.\n\n- a = 20² / 50 = **8,0 m/s²**\n- ΣF = 1200 · 8,0 = **9600 N**\n\nKraften må komme fra **friksjonen** mellom dekk og vei. På **glatt** vei er friksjonen mindre, og bilen kan ikke svinge like fort – den fortsetter rett fram, **ut av svingen**.\n\n## Loop\n\nI **toppen** av en loop virker både **tyngden** og **normalkraften** nedover, mot sentrum:\n\nmg + N = mv² / r\n\n**Minimumsfarten** i toppen får vi når N = 0: v = √(gr). For en loop med r = 10 m er v_min = √(9,81 · 10) ≈ **9,9 m/s**. Går vogna saktere, faller den ut av banen.\n\nI **bunnen** av loopen virker normalkraften oppover og tyngden nedover: N − mg = mv² / r. Da er N **større** enn mg – derfor kjenner du deg **tyngre** i bunnen.\n\n## Dosert sving\n\nPå **doserte** svinger, som på sykkelbaner og motorveier, heller underlaget innover. Da har **normalkraften** en komponent mot sentrum, og det trengs mindre friksjon for å svinge.\n\n## Sentrifugalkraft\n\nI en bil i sving kjenner du at du «presses utover». Dette er ingen ekte **kraft** fra omgivelsene. Kroppen din vil fortsette **rett fram** på grunn av **tregheten**, og bilen svinger **innover** under deg. Utenfra ser vi at bildøren eller setet dytter deg **inn** mot sentrum.\n\n## Ikke-jevn sirkelbevegelse\n\nHvis banefarten **endrer** seg, har akselerasjonen også en komponent **langs** banen – **baneakselerasjonen** – i tillegg til sentripetalakselerasjonen.",
   "flashcards": [
-    { "term": "Krumlinjet bevegelse", "def": "Bevegelse i en kurve som krever en kraft vinkelrett på farten." },
-    { "term": "Jevn sirkelbevegelse", "def": "Konstant banefart, men retningen endres hele tiden." },
-    { "term": "Periode T", "def": "Tiden for én runde." },
-    { "term": "Banefart", "def": "v = 2πr / T." },
-    { "term": "Sentripetalakselerasjon", "def": "a = v² / r, rettet mot sentrum." },
-    { "term": "Sentripetalkraft", "def": "Summen av kreftene mot sentrum: mv² / r." },
-    { "term": "Friksjon i sving", "def": "Gir sentripetalkraften for en bil." },
-    { "term": "Loop – toppen", "def": "mg + N = mv² / r." },
-    { "term": "Minimumsfart i loop", "def": "v = √(gr) når N = 0." },
-    { "term": "Loop – bunnen", "def": "N − mg = mv² / r – du kjenner deg tyngre." },
-    { "term": "Dosert sving", "def": "Sving der underlaget heller innover." },
-    { "term": "Sentrifugalkraft", "def": "Ingen ekte kraft – en følge av treghet." },
-    { "term": "Treghet", "def": "Legemers tendens til å fortsette i rett linje." },
-    { "term": "Baneakselerasjon", "def": "Akselerasjon langs banen når banefarten endres." },
-    { "term": "Snordrag", "def": "Kraften i en snor som kan gi sentripetalkraft." }
+    {
+      "term": "Krumlinjet bevegelse",
+      "def": "Bevegelse i en kurve som krever en kraft vinkelrett på farten."
+    },
+    {
+      "term": "Jevn sirkelbevegelse",
+      "def": "Konstant banefart, men retningen endres hele tiden."
+    },
+    {
+      "term": "Periode T",
+      "def": "Tiden for én runde."
+    },
+    {
+      "term": "Banefart",
+      "def": "v = 2πr / T."
+    },
+    {
+      "term": "Sentripetalakselerasjon",
+      "def": "a = v² / r, rettet mot sentrum."
+    },
+    {
+      "term": "Sentripetalkraft",
+      "def": "Summen av kreftene mot sentrum: mv² / r."
+    },
+    {
+      "term": "Friksjon i sving",
+      "def": "Gir sentripetalkraften for en bil."
+    },
+    {
+      "term": "Loop – toppen",
+      "def": "mg + N = mv² / r."
+    },
+    {
+      "term": "Minimumsfart i loop",
+      "def": "v = √(gr) når N = 0."
+    },
+    {
+      "term": "Loop – bunnen",
+      "def": "N − mg = mv² / r – du kjenner deg tyngre."
+    },
+    {
+      "term": "Dosert sving",
+      "def": "Sving der underlaget heller innover."
+    },
+    {
+      "term": "Sentrifugalkraft",
+      "def": "Ingen ekte kraft – en følge av treghet."
+    },
+    {
+      "term": "Treghet",
+      "def": "Legemers tendens til å fortsette i rett linje."
+    },
+    {
+      "term": "Baneakselerasjon",
+      "def": "Akselerasjon langs banen når banefarten endres."
+    },
+    {
+      "term": "Snordrag",
+      "def": "Kraften i en snor som kan gi sentripetalkraft."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvorfor har et legeme i jevn sirkelbevegelse akselerasjon?", "options": ["Fordi banefarten øker", "Fordi retningen på farten endres hele tiden", "Fordi det ikke virker krefter", "Det har ikke akselerasjon"], "correct": 1, "explain": "Akselerasjonen peker mot sentrum." },
-    { "id": "q02", "text": "Hva er sentripetalakselerasjonen?", "options": ["a = v² / r", "a = v · r", "a = r / v", "a = 2πr"], "correct": 0, "explain": "Rettet mot sentrum." },
-    { "id": "q03", "text": "En bil på 1200 kg kjører i 20 m/s i en sving med radius 50 m. Hva er ΣF mot sentrum?", "options": ["480 N", "24 000 N", "9600 N", "1200 N"], "correct": 2, "explain": "1200 · 20² / 50." },
-    { "id": "q04", "text": "Hva gir sentripetalkraften for en satellitt i bane?", "options": ["Friksjon", "Normalkraft", "Snordrag", "Gravitasjonen"], "correct": 3, "explain": "Jorda trekker satellitten mot sentrum." },
-    { "id": "q05", "text": "Hva er minimumsfarten i toppen av en loop med radius 10 m?", "options": ["Omtrent 9,9 m/s", "Omtrent 98 m/s", "Omtrent 3,1 m/s", "0 m/s"], "correct": 0, "explain": "v = √(gr)." },
-    { "id": "q06", "text": "Hvorfor kjenner du deg tyngre i bunnen av en loop?", "options": ["Fordi tyngden øker", "Fordi normalkraften er større enn mg", "Fordi farten er null", "Fordi du er lettere"], "correct": 1, "explain": "N − mg = mv²/r." },
-    { "id": "q07", "text": "Hva er sentrifugalkraften?", "options": ["En ekte kraft utover", "En type friksjon", "Ingen ekte kraft, men en følge av treghet", "Gravitasjonen"], "correct": 2, "explain": "Kroppen vil fortsette rett fram." },
-    { "id": "q08", "text": "Hvorfor trengs mindre friksjon i en dosert sving?", "options": ["Fordi farten er lavere", "Fordi bilen er lettere", "Fordi vegen er glatt", "Fordi normalkraften har en komponent mot sentrum"], "correct": 3, "explain": "Underlaget heller innover." },
-    { "id": "q09", "text": "Hva skjer hvis friksjonen er for liten når en bil svinger?", "options": ["Bilen fortsetter rett fram, ut av svingen", "Bilen svinger krappere", "Bilen stopper", "Ingenting"], "correct": 0, "explain": "Det mangler kraft mot sentrum." },
-    { "id": "q10", "text": "Hvordan regnes banefarten ut fra periode og radius?", "options": ["v = r / T", "v = 2πr / T", "v = T / r", "v = πr²"], "correct": 1, "explain": "Omkrets delt på tid." }
+    {
+      "id": "q01",
+      "text": "Hvorfor har et legeme i jevn sirkelbevegelse akselerasjon?",
+      "options": [
+        "Fordi banefarten øker",
+        "Fordi retningen på farten endres hele tiden",
+        "Fordi det ikke virker krefter",
+        "Det har ikke akselerasjon"
+      ],
+      "correct": 1,
+      "explain": "Akselerasjonen peker mot sentrum."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er sentripetalakselerasjonen?",
+      "options": [
+        "a = v² / r",
+        "a = v · r",
+        "a = r / v",
+        "a = 2πr"
+      ],
+      "correct": 0,
+      "explain": "Rettet mot sentrum."
+    },
+    {
+      "id": "q03",
+      "text": "En bil på 1200 kg kjører i 20 m/s i en sving med radius 50 m. Hva er ΣF mot sentrum?",
+      "options": [
+        "480 N",
+        "24 000 N",
+        "9600 N",
+        "1200 N"
+      ],
+      "correct": 2,
+      "explain": "1200 · 20² / 50."
+    },
+    {
+      "id": "q04",
+      "text": "Hva gir sentripetalkraften for en satellitt i bane?",
+      "options": [
+        "Friksjon",
+        "Normalkraft",
+        "Snordrag",
+        "Gravitasjonen"
+      ],
+      "correct": 3,
+      "explain": "Jorda trekker satellitten mot sentrum."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er minimumsfarten i toppen av en loop med radius 10 m?",
+      "options": [
+        "Omtrent 9,9 m/s",
+        "Omtrent 98 m/s",
+        "Omtrent 3,1 m/s",
+        "0 m/s"
+      ],
+      "correct": 0,
+      "explain": "v = √(gr)."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor kjenner du deg tyngre i bunnen av en loop?",
+      "options": [
+        "Fordi tyngden øker",
+        "Fordi normalkraften er større enn mg",
+        "Fordi farten er null",
+        "Fordi du er lettere"
+      ],
+      "correct": 1,
+      "explain": "N − mg = mv²/r."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er sentrifugalkraften?",
+      "options": [
+        "En ekte kraft utover",
+        "En type friksjon",
+        "Ingen ekte kraft, men en følge av treghet",
+        "Gravitasjonen"
+      ],
+      "correct": 2,
+      "explain": "Kroppen vil fortsette rett fram."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor trengs mindre friksjon i en dosert sving?",
+      "options": [
+        "Fordi farten er lavere",
+        "Fordi bilen er lettere",
+        "Fordi vegen er glatt",
+        "Fordi normalkraften har en komponent mot sentrum"
+      ],
+      "correct": 3,
+      "explain": "Underlaget heller innover."
+    },
+    {
+      "id": "q09",
+      "text": "Hva skjer hvis friksjonen er for liten når en bil svinger?",
+      "options": [
+        "Bilen fortsetter rett fram, ut av svingen",
+        "Bilen svinger krappere",
+        "Bilen stopper",
+        "Ingenting"
+      ],
+      "correct": 0,
+      "explain": "Det mangler kraft mot sentrum."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan regnes banefarten ut fra periode og radius?",
+      "options": [
+        "v = r / T",
+        "v = 2πr / T",
+        "v = T / r",
+        "v = πr²"
+      ],
+      "correct": 1,
+      "explain": "Omkrets delt på tid."
+    }
   ],
   "mindmap": {
     "label": "Sirkelbevegelse",
     "children": [
-      { "label": "Grunnbegreper", "children": [
-        { "label": "Periode og banefart" },
-        { "label": "a = v²/r" }
-      ] },
-      { "label": "Sentripetalkraft", "children": [
-        { "label": "Summen mot sentrum" },
-        { "label": "Friksjon, snor, gravitasjon" }
-      ] },
-      { "label": "Eksempler", "children": [
-        { "label": "Bil i sving" },
-        { "label": "Loop" },
-        { "label": "Dosert sving" }
-      ] },
-      { "label": "Loop", "children": [
-        { "label": "Toppen: v_min = √(gr)" },
-        { "label": "Bunnen: tyngre" }
-      ] },
-      { "label": "Misforståelser", "children": [
-        { "label": "Sentrifugalkraft" },
-        { "label": "Treghet" }
-      ] }
+      {
+        "label": "Grunnbegreper",
+        "children": [
+          {
+            "label": "Periode og banefart"
+          },
+          {
+            "label": "a = v²/r"
+          }
+        ]
+      },
+      {
+        "label": "Sentripetalkraft",
+        "children": [
+          {
+            "label": "Summen mot sentrum"
+          },
+          {
+            "label": "Friksjon, snor, gravitasjon"
+          }
+        ]
+      },
+      {
+        "label": "Eksempler",
+        "children": [
+          {
+            "label": "Bil i sving"
+          },
+          {
+            "label": "Loop"
+          },
+          {
+            "label": "Dosert sving"
+          }
+        ]
+      },
+      {
+        "label": "Loop",
+        "children": [
+          {
+            "label": "Toppen: v_min = √(gr)"
+          },
+          {
+            "label": "Bunnen: tyngre"
+          }
+        ]
+      },
+      {
+        "label": "Misforståelser",
+        "children": [
+          {
+            "label": "Sentrifugalkraft"
+          },
+          {
+            "label": "Treghet"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Sentripetalkraften er ikke en egen kraft, men summen av kreftene mot sentrum.", "correct": true, "explain": "Den kan være friksjon, snordrag eller gravitasjon." },
-      { "id": "m02", "type": "sant-usant", "text": "I jevn sirkelbevegelse er akselerasjonen null.", "correct": false, "explain": "Retningen endres, så det er akselerasjon." },
-      { "id": "m03", "type": "sant-usant", "text": "Hvis banefarten endres, har akselerasjonen også en komponent langs banen.", "correct": true, "explain": "Baneakselerasjon." },
-      { "id": "m04", "type": "sant-usant", "text": "Dobles farten i en sving, dobles også den nødvendige sentripetalkraften.", "correct": false, "explain": "Den firedobles fordi den er proporsjonal med v²." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilke krefter virker mot sentrum i toppen av en loop?", "options": ["Bare normalkraften", "Tyngden og normalkraften", "Bare friksjonen", "Ingen"], "correct": 1, "explain": "Begge peker nedover." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken retning har sentripetalakselerasjonen?", "options": ["Mot sentrum", "Utover", "Langs banen", "Oppover"], "correct": 0, "explain": "Inn mot sirkelens sentrum." },
-      { "id": "m07", "type": "flervalg", "text": "Hva gir sentripetalkraften når en ball svinges i en snor?", "options": ["Tyngden", "Friksjonen", "Snordraget", "Luftmotstanden"], "correct": 2, "explain": "Snoren trekker ballen inn." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Sentripetalkraften er ikke en egen kraft, men summen av kreftene mot sentrum.",
+        "correct": true,
+        "explain": "Den kan være friksjon, snordrag eller gravitasjon."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I jevn sirkelbevegelse er akselerasjonen null.",
+        "correct": false,
+        "explain": "Retningen endres, så det er akselerasjon."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Hvis banefarten endres, har akselerasjonen også en komponent langs banen.",
+        "correct": true,
+        "explain": "Baneakselerasjon."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Dobles farten i en sving, dobles også den nødvendige sentripetalkraften.",
+        "correct": false,
+        "explain": "Den firedobles fordi den er proporsjonal med v²."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilke krefter virker mot sentrum i toppen av en loop?",
+        "options": [
+          "Bare normalkraften",
+          "Tyngden og normalkraften",
+          "Bare friksjonen",
+          "Ingen"
+        ],
+        "correct": 1,
+        "explain": "Begge peker nedover."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken retning har sentripetalakselerasjonen?",
+        "options": [
+          "Mot sentrum",
+          "Utover",
+          "Langs banen",
+          "Oppover"
+        ],
+        "correct": 0,
+        "explain": "Inn mot sirkelens sentrum."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva gir sentripetalkraften når en ball svinges i en snor?",
+        "options": [
+          "Tyngden",
+          "Friksjonen",
+          "Snordraget",
+          "Luftmotstanden"
+        ],
+        "correct": 2,
+        "explain": "Snoren trekker ballen inn."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et legeme beveger seg i en kurve. Forklar hvorfor en kraft med en komponent vinkelrett på fartsretningen er nødvendig for at bevegelsen skal være krum.",
+        "fasit": "Kraftkomponenten vinkelrett på farten endrer fartsretningen. Uten en slik kraft ville legemet fortsatt rett fram med konstant fart.",
+        "kriterier": [
+          "Forklarer at den vinkelrette kraftkomponenten endrer fartsretningen.",
+          "Knytter fravær av kraft til bevegelse rett fram med konstant fart."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign jevn og ikke-jevn sirkelbevegelse med tanke på banefart og akselerasjon.",
+        "fasit": "Ved jevn sirkelbevegelse er banefarten konstant, og akselerasjonen er rettet inn mot sentrum. Når banefarten endres, har akselerasjonen også en komponent langs banen.",
+        "kriterier": [
+          "Får fram at banefarten er konstant ved jevn sirkelbevegelse, men endres ved ikke-jevn sirkelbevegelse.",
+          "Skiller mellom akselerasjon inn mot sentrum og baneakselerasjon langs banen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En bil kjører gjennom en sving på flat vei. Hvilken kraft fra omgivelsene gir kraften inn mot sentrum, og hvorfor er sentripetalkraften ikke en egen ekstra kraft?",
+        "fasit": "Friksjonen mellom dekkene og veien gir kraften inn mot sentrum. Sentripetalkraften er navnet på summen av kreftene som peker mot sentrum, ikke en ekstra kraft.",
+        "kriterier": [
+          "Identifiserer friksjonen mellom dekk og vei som kraften inn mot sentrum.",
+          "Forklarer at sentripetalkraften er summen av krefter mot sentrum, ikke en egen kraft."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Beskriv kreftene på en vogn i toppen og bunnen av en loop. Oppgi retningene deres og skriv kraftsammenhengen i hvert punkt.",
+        "fasit": "I toppen peker både tyngden og normalkraften ned mot sentrum, slik at mg + N = mv²/r. I bunnen peker normalkraften opp og tyngden ned, slik at N − mg = mv²/r.",
+        "kriterier": [
+          "Angir riktig retning for tyngde og normalkraft både i toppen og bunnen.",
+          "Oppgir riktige kraftsammenhenger for toppen og bunnen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En bil med masse 1200 kg kjører i 20 m/s gjennom en sving med radius 50 m. Regn ut sentripetalakselerasjonen. Vis det viktigste regnestykket.",
+        "fasit": "a = v²/r = 20²/50 = 400/50 = 8,0 m/s².",
+        "kriterier": [
+          "Bruker sammenhengen a = v²/r.",
+          "Får 8,0 m/s² med korrekt regnesteg."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En bil kjører i 20 m/s gjennom en sving med radius 50 m. Bruk v = 2πr/T til å finne perioden for én runde. Vis det viktigste regnestykket.",
+        "fasit": "T = 2πr/v = 2π · 50/20 = 5π s.",
+        "kriterier": [
+          "Omformer formelen riktig til T = 2πr/v.",
+          "Får perioden 5π s med et korrekt regnesteg."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En ball svinges rundt i en snor, og snoren plutselig ryker. Beskriv hvordan ballen beveger seg rett etter at snoren ryker, og forklar hvorfor.",
+        "fasit": "Ballens fart er rettet langs en rett linje i retningen den beveget seg akkurat da snoren røk. Når snordraget forsvinner, gjør tregheten at ballen fortsetter rett fram.",
+        "kriterier": [
+          "Beskriver at ballen fortsetter rett fram i retningen den hadde idet snoren røk.",
+          "Forklarer dette med treghet eller at snordraget ikke lenger virker."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hva betyr perioden til et legeme som beveger seg i sirkel, og hvordan skiller perioden seg fra banefarten?",
+        "fasit": "Perioden er tiden legemet bruker på én runde. Banefarten beskriver hvor raskt det beveger seg langs banen, mens perioden beskriver tiden for runden.",
+        "kriterier": [
+          "Forklarer at perioden er tiden for én runde.",
+          "Skiller perioden som en tid fra banefarten langs banen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

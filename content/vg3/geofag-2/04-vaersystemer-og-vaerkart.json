@@ -4,75 +4,415 @@
   "trinnId": "vg3",
   "name": "Værsystemer og værkart",
   "intro": "Hvordan værsystemer oppstår og utvikler seg på global, regional og lokal skala – luftmasser og fronter, polarfrontteorien og ekstratropiske lavtrykk, tropiske sykloner og monsun, lokale vinder som sjøbris og fønvind – og hvordan du tolker værkart og værutvikling.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Luftmasser\n\nEn **luftmasse** er et stort område med luft som har omtrent lik **temperatur** og **fuktighet**. Den får egenskapene fra området den dannes over:\n\n- **Arktisk** eller **polar** luft er **kald**.\n- **Tropisk** luft er **varm**.\n- **Maritim** luft dannes over hav og er **fuktig**.\n- **Kontinental** luft dannes over land og er **tørr**.\n\n## Fronter\n\nEn **front** er grensen mellom to luftmasser.\n\n- **Kaldfront**: Kald luft trenger inn under varm luft og løfter den **bratt**. Det gir ofte **kraftige byger**, vindskifte og **temperaturfall**.\n- **Varmfront**: Varm luft glir **sakte** opp over kald luft. Det gir lagdelte skyer og **langvarig**, jevn nedbør.\n- **Okklusjon**: Kaldfronten tar igjen varmfronten, og den varme luften løftes helt opp fra bakken.\n\n## Polarfrontteorien og lavtrykk\n\nNorske meteorologer i **Bergensskolen**, ledet av **Vilhelm Bjerknes**, utviklet tidlig på 1900-tallet **polarfrontteorien**. Den forklarer hvordan **ekstratropiske lavtrykk** dannes langs **polarfronten**:\n\n1. En **bølge** oppstår på fronten mellom kald og varm luft.\n2. Det dannes et **lavtrykk** med en varmfront og en kaldfront.\n3. Lavtrykket **utdyper** seg og gir vind og nedbør.\n4. Kaldfronten tar igjen varmfronten – **okklusjon** – og lavtrykket **svekkes**.\n\nNorge ligger i **vestavindsbeltet** og får mange slike lavtrykk fra **Atlanterhavet**.\n\n## Tropiske sykloner\n\n**Tropiske sykloner** – kalt **orkaner** i Atlanterhavet og **tyfoner** i Stillehavet – dannes over **varmt hav**, med havtemperatur på omtrent **26 °C** eller mer. Fordamping gir enorme mengder **energi** når vanndampen kondenserer. De har et rolig **øye** i midten og gir **ekstrem** vind, regn og **stormflo**. De svekkes når de kommer inn over land eller kaldere hav.\n\n## Monsun\n\n**Monsun** er vinder som skifter retning med **årstidene**. Om sommeren blir land varmere enn havet, og fuktig luft strømmer inn over land og gir **kraftig regn**, som i **Sør-Asia**. Om vinteren snur vinden.\n\n## Lokale vinder\n\n- **Sjøbris**: Om dagen blir land varmere enn sjøen, og vinden blåser **fra sjøen** mot land. Om natta kan det bli **landbris**.\n- **Fønvind**: Fuktig luft stiger opp over fjell, avkjøles og mister fuktighet som nedbør. Når den synker ned på **lesiden**, blir den **varm** og **tørr**.\n- **Fallvinder**: Kald, tung luft renner ned fjellsider og daler.\n\n## Værkart\n\nPå et **værkart**\n\n- viser **isobarer** lufttrykket. Tette isobarer betyr **sterk** vind.\n- er **H** høytrykk og **L** lavtrykk.\n- vises **kaldfronter** med **trekanter** og **varmfronter** med **halvsirkler**.\n- viser **satellittbilder** og **radarbilder** skyer og nedbør.\n\nNår du **tolker** et værkart, ser du på hvor lavtrykkene og frontene er, hvor de **beveger seg**, og hva slags **vær** de vil gi – for eksempel regn og mildvær når en varmfront nærmer seg Vestlandet.",
   "flashcards": [
-    { "term": "Luftmasse", "def": "Stort område med luft med lik temperatur og fuktighet." },
-    { "term": "Maritim luft", "def": "Fuktig luft dannet over hav." },
-    { "term": "Kontinental luft", "def": "Tørr luft dannet over land." },
-    { "term": "Kaldfront", "def": "Kald luft løfter varm luft bratt – byger og temperaturfall." },
-    { "term": "Varmfront", "def": "Varm luft glir over kald luft – jevn, langvarig nedbør." },
-    { "term": "Okklusjon", "def": "Kaldfronten tar igjen varmfronten." },
-    { "term": "Bergensskolen", "def": "Norske meteorologer som utviklet polarfrontteorien." },
-    { "term": "Vilhelm Bjerknes", "def": "Ledet Bergensskolen." },
-    { "term": "Ekstratropisk lavtrykk", "def": "Lavtrykk som dannes langs polarfronten." },
-    { "term": "Tropisk syklon", "def": "Kraftig storm over varmt hav – orkan eller tyfon." },
-    { "term": "Monsun", "def": "Vinder som skifter retning med årstidene." },
-    { "term": "Sjøbris", "def": "Vind fra sjøen mot land om dagen." },
-    { "term": "Fønvind", "def": "Varm og tørr fallvind på lesiden av fjell." },
-    { "term": "Kaldfront på kart", "def": "Vises med trekanter." },
-    { "term": "Varmfront på kart", "def": "Vises med halvsirkler." }
+    {
+      "term": "Luftmasse",
+      "def": "Stort område med luft med lik temperatur og fuktighet."
+    },
+    {
+      "term": "Maritim luft",
+      "def": "Fuktig luft dannet over hav."
+    },
+    {
+      "term": "Kontinental luft",
+      "def": "Tørr luft dannet over land."
+    },
+    {
+      "term": "Kaldfront",
+      "def": "Kald luft løfter varm luft bratt – byger og temperaturfall."
+    },
+    {
+      "term": "Varmfront",
+      "def": "Varm luft glir over kald luft – jevn, langvarig nedbør."
+    },
+    {
+      "term": "Okklusjon",
+      "def": "Kaldfronten tar igjen varmfronten."
+    },
+    {
+      "term": "Bergensskolen",
+      "def": "Norske meteorologer som utviklet polarfrontteorien."
+    },
+    {
+      "term": "Vilhelm Bjerknes",
+      "def": "Ledet Bergensskolen."
+    },
+    {
+      "term": "Ekstratropisk lavtrykk",
+      "def": "Lavtrykk som dannes langs polarfronten."
+    },
+    {
+      "term": "Tropisk syklon",
+      "def": "Kraftig storm over varmt hav – orkan eller tyfon."
+    },
+    {
+      "term": "Monsun",
+      "def": "Vinder som skifter retning med årstidene."
+    },
+    {
+      "term": "Sjøbris",
+      "def": "Vind fra sjøen mot land om dagen."
+    },
+    {
+      "term": "Fønvind",
+      "def": "Varm og tørr fallvind på lesiden av fjell."
+    },
+    {
+      "term": "Kaldfront på kart",
+      "def": "Vises med trekanter."
+    },
+    {
+      "term": "Varmfront på kart",
+      "def": "Vises med halvsirkler."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva slags vær gir en kaldfront ofte?", "options": ["Langvarig, jevn nedbør", "Kraftige byger og temperaturfall", "Tåke", "Varmt og tørt vær"], "correct": 1, "explain": "Varm luft løftes bratt." },
-    { "id": "q02", "text": "Hvem utviklet polarfrontteorien?", "options": ["Bergensskolen med Vilhelm Bjerknes", "Isaac Newton", "Charles Darwin", "Albert Einstein"], "correct": 0, "explain": "Tidlig på 1900-tallet." },
-    { "id": "q03", "text": "Hva kreves for at en tropisk syklon skal dannes?", "options": ["Kaldt hav", "Tørr luft", "Varmt hav på omtrent 26 °C eller mer", "Høytrykk"], "correct": 2, "explain": "Energien kommer fra fordamping." },
-    { "id": "q04", "text": "Hva er fønvind?", "options": ["Kald vind fra havet", "Vind i en orkan", "Vind rundt høytrykk", "Varm og tørr vind på lesiden av fjell"], "correct": 3, "explain": "Luften har mistet fuktighet på vei opp." },
-    { "id": "q05", "text": "Hvordan vises en varmfront på et værkart?", "options": ["Med halvsirkler", "Med trekanter", "Med stjerner", "Med piler"], "correct": 0, "explain": "Kaldfronter har trekanter." },
-    { "id": "q06", "text": "Når blåser sjøbris?", "options": ["Om natta", "Om dagen når land er varmere enn sjøen", "Bare om vinteren", "Aldri"], "correct": 1, "explain": "Om natta kan det bli landbris." },
-    { "id": "q07", "text": "Hva er okklusjon?", "options": ["Et høytrykk", "En orkan", "At kaldfronten tar igjen varmfronten", "En type sky"], "correct": 2, "explain": "Lavtrykket svekkes." },
-    { "id": "q08", "text": "Hva er monsun?", "options": ["En type orkan", "En lokal vind", "En havstrøm", "Vinder som skifter retning med årstidene"], "correct": 3, "explain": "Gir kraftig regn i Sør-Asia om sommeren." },
-    { "id": "q09", "text": "Hva slags luft er maritim luft?", "options": ["Fuktig luft dannet over hav", "Tørr luft over land", "Luft i høyden", "Luft ved polene alltid"], "correct": 0, "explain": "Kontinental luft er tørr." },
-    { "id": "q10", "text": "Hvorfor svekkes tropiske sykloner over land?", "options": ["Fordi de treffer fjell alene", "Fordi de mister tilgangen på energi fra varmt hav", "Fordi det blir mørkt", "Fordi det er for mye vann"], "correct": 1, "explain": "Fordamping driver dem." }
+    {
+      "id": "q01",
+      "text": "Hva slags vær gir en kaldfront ofte?",
+      "options": [
+        "Langvarig, jevn nedbør",
+        "Kraftige byger og temperaturfall",
+        "Tåke",
+        "Varmt og tørt vær"
+      ],
+      "correct": 1,
+      "explain": "Varm luft løftes bratt."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem utviklet polarfrontteorien?",
+      "options": [
+        "Bergensskolen med Vilhelm Bjerknes",
+        "Isaac Newton",
+        "Charles Darwin",
+        "Albert Einstein"
+      ],
+      "correct": 0,
+      "explain": "Tidlig på 1900-tallet."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kreves for at en tropisk syklon skal dannes?",
+      "options": [
+        "Kaldt hav",
+        "Tørr luft",
+        "Varmt hav på omtrent 26 °C eller mer",
+        "Høytrykk"
+      ],
+      "correct": 2,
+      "explain": "Energien kommer fra fordamping."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er fønvind?",
+      "options": [
+        "Kald vind fra havet",
+        "Vind i en orkan",
+        "Vind rundt høytrykk",
+        "Varm og tørr vind på lesiden av fjell"
+      ],
+      "correct": 3,
+      "explain": "Luften har mistet fuktighet på vei opp."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan vises en varmfront på et værkart?",
+      "options": [
+        "Med halvsirkler",
+        "Med trekanter",
+        "Med stjerner",
+        "Med piler"
+      ],
+      "correct": 0,
+      "explain": "Kaldfronter har trekanter."
+    },
+    {
+      "id": "q06",
+      "text": "Når blåser sjøbris?",
+      "options": [
+        "Om natta",
+        "Om dagen når land er varmere enn sjøen",
+        "Bare om vinteren",
+        "Aldri"
+      ],
+      "correct": 1,
+      "explain": "Om natta kan det bli landbris."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er okklusjon?",
+      "options": [
+        "Et høytrykk",
+        "En orkan",
+        "At kaldfronten tar igjen varmfronten",
+        "En type sky"
+      ],
+      "correct": 2,
+      "explain": "Lavtrykket svekkes."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er monsun?",
+      "options": [
+        "En type orkan",
+        "En lokal vind",
+        "En havstrøm",
+        "Vinder som skifter retning med årstidene"
+      ],
+      "correct": 3,
+      "explain": "Gir kraftig regn i Sør-Asia om sommeren."
+    },
+    {
+      "id": "q09",
+      "text": "Hva slags luft er maritim luft?",
+      "options": [
+        "Fuktig luft dannet over hav",
+        "Tørr luft over land",
+        "Luft i høyden",
+        "Luft ved polene alltid"
+      ],
+      "correct": 0,
+      "explain": "Kontinental luft er tørr."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor svekkes tropiske sykloner over land?",
+      "options": [
+        "Fordi de treffer fjell alene",
+        "Fordi de mister tilgangen på energi fra varmt hav",
+        "Fordi det blir mørkt",
+        "Fordi det er for mye vann"
+      ],
+      "correct": 1,
+      "explain": "Fordamping driver dem."
+    }
   ],
   "mindmap": {
     "label": "Værsystemer",
     "children": [
-      { "label": "Luftmasser", "children": [
-        { "label": "Arktisk og tropisk" },
-        { "label": "Maritim og kontinental" }
-      ] },
-      { "label": "Fronter", "children": [
-        { "label": "Kaldfront" },
-        { "label": "Varmfront" },
-        { "label": "Okklusjon" }
-      ] },
-      { "label": "Lavtrykk", "children": [
-        { "label": "Polarfrontteorien" },
-        { "label": "Bergensskolen" }
-      ] },
-      { "label": "Globalt og regionalt", "children": [
-        { "label": "Tropiske sykloner" },
-        { "label": "Monsun" }
-      ] },
-      { "label": "Lokalt og kart", "children": [
-        { "label": "Sjøbris og fønvind" },
-        { "label": "Isobarer og fronter på kart" }
-      ] }
+      {
+        "label": "Luftmasser",
+        "children": [
+          {
+            "label": "Arktisk og tropisk"
+          },
+          {
+            "label": "Maritim og kontinental"
+          }
+        ]
+      },
+      {
+        "label": "Fronter",
+        "children": [
+          {
+            "label": "Kaldfront"
+          },
+          {
+            "label": "Varmfront"
+          },
+          {
+            "label": "Okklusjon"
+          }
+        ]
+      },
+      {
+        "label": "Lavtrykk",
+        "children": [
+          {
+            "label": "Polarfrontteorien"
+          },
+          {
+            "label": "Bergensskolen"
+          }
+        ]
+      },
+      {
+        "label": "Globalt og regionalt",
+        "children": [
+          {
+            "label": "Tropiske sykloner"
+          },
+          {
+            "label": "Monsun"
+          }
+        ]
+      },
+      {
+        "label": "Lokalt og kart",
+        "children": [
+          {
+            "label": "Sjøbris og fønvind"
+          },
+          {
+            "label": "Isobarer og fronter på kart"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Tropiske sykloner har et rolig øye i midten.", "correct": true, "explain": "Rundt øyet er vinden kraftigst." },
-      { "id": "m02", "type": "sant-usant", "text": "En varmfront gir vanligvis korte, kraftige byger.", "correct": false, "explain": "Den gir jevn, langvarig nedbør." },
-      { "id": "m03", "type": "sant-usant", "text": "Norge får mange lavtrykk fra Atlanterhavet.", "correct": true, "explain": "Norge ligger i vestavindsbeltet." },
-      { "id": "m04", "type": "sant-usant", "text": "Tette isobarer betyr svak vind.", "correct": false, "explain": "De betyr sterk vind." },
-      { "id": "m05", "type": "flervalg", "text": "Hva kalles tropiske sykloner i Stillehavet?", "options": ["Orkaner", "Tyfoner", "Tornadoer", "Monsuner"], "correct": 1, "explain": "I Atlanterhavet kalles de orkaner." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er fallvinder?", "options": ["Kald, tung luft som renner ned fjellsider", "Varm luft som stiger", "Vind fra havet", "Vind i orkaner"], "correct": 0, "explain": "Vanlig i fjorder og daler." },
-      { "id": "m07", "type": "flervalg", "text": "Hva viser radarbilder?", "options": ["Lufttrykk", "Temperatur", "Nedbør", "Havstrømmer"], "correct": 2, "explain": "Brukes i værvarsling." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Tropiske sykloner har et rolig øye i midten.",
+        "correct": true,
+        "explain": "Rundt øyet er vinden kraftigst."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En varmfront gir vanligvis korte, kraftige byger.",
+        "correct": false,
+        "explain": "Den gir jevn, langvarig nedbør."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Norge får mange lavtrykk fra Atlanterhavet.",
+        "correct": true,
+        "explain": "Norge ligger i vestavindsbeltet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Tette isobarer betyr svak vind.",
+        "correct": false,
+        "explain": "De betyr sterk vind."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva kalles tropiske sykloner i Stillehavet?",
+        "options": [
+          "Orkaner",
+          "Tyfoner",
+          "Tornadoer",
+          "Monsuner"
+        ],
+        "correct": 1,
+        "explain": "I Atlanterhavet kalles de orkaner."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er fallvinder?",
+        "options": [
+          "Kald, tung luft som renner ned fjellsider",
+          "Varm luft som stiger",
+          "Vind fra havet",
+          "Vind i orkaner"
+        ],
+        "correct": 0,
+        "explain": "Vanlig i fjorder og daler."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva viser radarbilder?",
+        "options": [
+          "Lufttrykk",
+          "Temperatur",
+          "Nedbør",
+          "Havstrømmer"
+        ],
+        "correct": 2,
+        "explain": "Brukes i værvarsling."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign maritim og kontinental luft. Forklar hvor hver type dannes, og hva som kjennetegner fuktigheten i dem.",
+        "fasit": "Maritim luft dannes over hav og er fuktig. Kontinental luft dannes over land og er tørr.",
+        "kriterier": [
+          "Knytter maritim luft til hav og fuktighet.",
+          "Knytter kontinental luft til land og tørrhet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign hvordan en kaldfront og en varmfront beveger luftmassene, og forklar hvilken type nedbør de ofte gir.",
+        "fasit": "Ved en kaldfront trenger kald luft inn under varm luft og løfter den bratt, noe som ofte gir kraftige byger. Ved en varmfront glir varm luft sakte opp over kald luft og gir ofte jevn, langvarig nedbør.",
+        "kriterier": [
+          "Forklarer at kaldfronten løfter varm luft bratt og knytter det til kraftige byger.",
+          "Forklarer at varmfronten løfter varm luft sakte over kald luft og knytter det til jevn, langvarig nedbør."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En varmfront nærmer seg Vestlandet. Hvilket vær kan ventes når fronten nærmer seg, og hvordan henger det sammen med varmfronten?",
+        "fasit": "Det kan ventes regn og mildvær. Varm luft glir sakte opp over kald luft, noe som gir jevn og langvarig nedbør.",
+        "kriterier": [
+          "Forutsier regn eller langvarig, jevn nedbør.",
+          "Knytter nedbøren til at varm luft glir opp over kald luft, eller nevner at det ventes mildvær."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "På et værkart ligger isobarene svært tett. Hva forteller det om vinden, og hvilken informasjon viser isobarene?",
+        "fasit": "Isobarene viser lufttrykket, og når de ligger tett, betyr det at vinden er sterk.",
+        "kriterier": [
+          "Forklarer at isobarer viser lufttrykk.",
+          "Knytter tette isobarer til sterk vind."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hvordan en okklusjon oppstår i et ekstratropisk lavtrykk, og hvordan dette henger sammen med at lavtrykket svekkes.",
+        "fasit": "Okklusjon oppstår når kaldfronten tar igjen varmfronten, slik at den varme luften løftes helt opp fra bakken. Når dette skjer, svekkes lavtrykket.",
+        "kriterier": [
+          "Forklarer at kaldfronten tar igjen varmfronten.",
+          "Forklarer at varm luft løftes opp fra bakken, og knytter okklusjonen til at lavtrykket svekkes."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvordan vanndamp bidrar med energi til en tropisk syklon, og nevn én type ekstremvær den kan gi.",
+        "fasit": "Fordamping fra det varme havet gir vanndamp, som frigjør store mengder energi når den kondenserer. En tropisk syklon kan gi ekstrem vind, regn eller stormflo.",
+        "kriterier": [
+          "Forklarer at energi frigjøres når vanndamp kondenserer.",
+          "Nevner ekstrem vind, regn eller stormflo som en virkning."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "På et tenkt værkart er det 3 trekanter ved en kaldfront og 2 halvsirkler ved en varmfront. Hvor mange flere kaldfrontsymboler enn varmfrontsymboler er det? Vis regnestykket og si hvilken fronttype som har flest symboler.",
+        "fasit": "3 − 2 = 1. Det er ett flere kaldfrontsymbol, så kaldfronten har flest.",
+        "kriterier": [
+          "Regner ut forskjellen riktig: 1.",
+          "Identifiserer kaldfronten som fronttypen med flest symboler."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En tropisk syklon dannes over hav med en temperatur på omtrent 26 °C eller mer. I et tenkt eksempel er havtemperaturen 30 °C. Hvor mange grader over temperaturgrensen er havet? Vis regnestykket.",
+        "fasit": "30 − 26 = 4. Havtemperaturen er 4 °C over grensen.",
+        "kriterier": [
+          "Bruker 26 °C som temperaturgrense.",
+          "Regner ut forskjellen riktig: 4 °C."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

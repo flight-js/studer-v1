@@ -4,79 +4,427 @@
   "trinnId": "vg2",
   "name": "Ferskvann som ressurs",
   "intro": "Hvordan ferskvann brukes til drikkevann, jordbruk, industri og energi i Norge og verden, hvorfor vannmangel og konflikter oppstår, og hva bærekraftig vannforvaltning innebærer.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Hva brukes ferskvannet til?\n\nPå verdensbasis brukes rundt **70 %** av ferskvannet som tas ut, til **jordbruk** – mest **vanning**. Resten går til **industri** og **husholdninger**. Vann brukes også til **energi**: som kjølevann i kraftverk og direkte i **vannkraft**.\n\n## Norge – et vannrikt land\n\nNorge har mye nedbør og mange innsjøer og elver.\n\n- Rundt **90 %** av befolkningen får **drikkevann** fra **overflatevann** – innsjøer og elver. Resten kommer fra **grunnvann**.\n- **Vannkraft** står for omtrent **90 %** av strømproduksjonen.\n- Vannet må likevel **beskyttes**: Nedbørfeltet til drikkevannskilder må holdes rent, og **ledningsnettet** er mange steder gammelt, slik at mye vann **lekker** ut.\n\n## Vannmangel i verden\n\nMange land har **vannstress** – de bruker en stor del av det fornybare vannet de har. Årsakene er\n\n- **tørt klima** og ujevn fordeling av nedbøren over året\n- **befolkningsvekst** og **urbanisering**\n- **vanning** i stor skala\n- **forurensning** som gjør vannet ubrukelig\n- **klimaendringer** som gir mer tørke noen steder og smelter breene som mange elver er avhengige av\n\n**Aralsjøen** i Sentral-Asia er et kjent eksempel: Fra 1960-tallet ble elvene som renner til sjøen, brukt til å vanne bomullsåkre. Sjøen krympet dramatisk, fiskeriene brøt sammen, og saltstøv fra den tørre sjøbunnen ga helseproblemer.\n\nMange steder pumpes **grunnvann** opp raskere enn det fornyes. Da synker grunnvannsspeilet, brønner tørker ut, og bakken kan **synke** (setninger).\n\n## Vann over grenser\n\nMange store elver renner gjennom flere land, som **Nilen**, **Mekong** og **Eufrat og Tigris**. Når et land oppstrøms bygger **demninger**, kan land nedstrøms få mindre vann. Et eksempel er striden om den store demningen Etiopia har bygd på Den blå Nilen, som Egypt har vært bekymret for. Slike konflikter krever **avtaler** og **samarbeid**.\n\n## Virtuelt vann\n\n**Virtuelt vann** er vannet som er brukt til å lage en vare. Å produsere **1 kg storfekjøtt** krever i gjennomsnitt rundt **15 000 liter** vann, mens 1 kg grønnsaker krever langt mindre. Når Norge importerer mat og klær, «importerer» vi også vann fra andre land – kanskje fra områder med vannmangel.\n\n## Bærekraftig vannforvaltning\n\n- **Effektiv vanning**, som **dryppvanning**, som gir vann direkte til røttene.\n- **Reparere lekkasjer** i ledningsnettet.\n- **Gjenbruk** av renset avløpsvann til vanning og industri.\n- **Beskytte nedbørfelt** og **rense avløp**.\n- **Avsalting** av sjøvann – men det krever mye **energi**.\n- **Samarbeid** om grenseoverskridende vassdrag.\n- **Helhetlig forvaltning**: I Norge skal vannforskriften sørge for god **økologisk** og **kjemisk** tilstand i elver, innsjøer, grunnvann og kystvann.\n\nFN har som bærekraftsmål (mål 6) at alle skal ha tilgang til **rent vann** og **gode sanitærforhold**.",
   "flashcards": [
-    { "term": "Jordbrukets andel av vannuttaket", "def": "Rundt 70 % på verdensbasis." },
-    { "term": "Overflatevann", "def": "Vann i innsjøer og elver – hovedkilden til drikkevann i Norge." },
-    { "term": "Vannkraft i Norge", "def": "Omtrent 90 % av strømproduksjonen." },
-    { "term": "Vannstress", "def": "Når et land bruker en stor del av det fornybare vannet sitt." },
-    { "term": "Aralsjøen", "def": "Sjø som krympet dramatisk på grunn av vanning av bomull." },
-    { "term": "Overpumping av grunnvann", "def": "Grunnvannsspeilet synker og bakken kan synke." },
-    { "term": "Setninger", "def": "At bakken synker, for eksempel når grunnvann tas ut." },
-    { "term": "Grenseoverskridende vassdrag", "def": "Elver som renner gjennom flere land, som Nilen." },
-    { "term": "Virtuelt vann", "def": "Vannet som er brukt til å lage en vare." },
-    { "term": "1 kg storfekjøtt", "def": "Krever rundt 15 000 liter vann." },
-    { "term": "Dryppvanning", "def": "Vanning direkte til røttene med lite tap." },
-    { "term": "Avsalting", "def": "Å fjerne salt fra sjøvann – krever mye energi." },
-    { "term": "Vannforskriften", "def": "Norsk regelverk for god tilstand i vann." },
-    { "term": "Bærekraftsmål 6", "def": "Rent vann og gode sanitærforhold for alle." },
-    { "term": "Lekkasje i ledningsnett", "def": "Stort vanntap mange steder i Norge." }
+    {
+      "term": "Jordbrukets andel av vannuttaket",
+      "def": "Rundt 70 % på verdensbasis."
+    },
+    {
+      "term": "Overflatevann",
+      "def": "Vann i innsjøer og elver – hovedkilden til drikkevann i Norge."
+    },
+    {
+      "term": "Vannkraft i Norge",
+      "def": "Omtrent 90 % av strømproduksjonen."
+    },
+    {
+      "term": "Vannstress",
+      "def": "Når et land bruker en stor del av det fornybare vannet sitt."
+    },
+    {
+      "term": "Aralsjøen",
+      "def": "Sjø som krympet dramatisk på grunn av vanning av bomull."
+    },
+    {
+      "term": "Overpumping av grunnvann",
+      "def": "Grunnvannsspeilet synker og bakken kan synke."
+    },
+    {
+      "term": "Setninger",
+      "def": "At bakken synker, for eksempel når grunnvann tas ut."
+    },
+    {
+      "term": "Grenseoverskridende vassdrag",
+      "def": "Elver som renner gjennom flere land, som Nilen."
+    },
+    {
+      "term": "Virtuelt vann",
+      "def": "Vannet som er brukt til å lage en vare."
+    },
+    {
+      "term": "1 kg storfekjøtt",
+      "def": "Krever rundt 15 000 liter vann."
+    },
+    {
+      "term": "Dryppvanning",
+      "def": "Vanning direkte til røttene med lite tap."
+    },
+    {
+      "term": "Avsalting",
+      "def": "Å fjerne salt fra sjøvann – krever mye energi."
+    },
+    {
+      "term": "Vannforskriften",
+      "def": "Norsk regelverk for god tilstand i vann."
+    },
+    {
+      "term": "Bærekraftsmål 6",
+      "def": "Rent vann og gode sanitærforhold for alle."
+    },
+    {
+      "term": "Lekkasje i ledningsnett",
+      "def": "Stort vanntap mange steder i Norge."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva brukes mesteparten av ferskvannsuttaket i verden til?", "options": ["Husholdninger", "Jordbruk", "Industri", "Svømmebassenger"], "correct": 1, "explain": "Rundt 70 %, mest vanning." },
-    { "id": "q02", "text": "Hvor får de fleste i Norge drikkevannet sitt fra?", "options": ["Overflatevann fra innsjøer og elver", "Avsalting", "Grunnvann alene", "Regnvann fra taket"], "correct": 0, "explain": "Rundt 90 % fra overflatevann." },
-    { "id": "q03", "text": "Hvorfor krympet Aralsjøen?", "options": ["Et jordskjelv", "Økt nedbør", "Elvene ble brukt til å vanne bomullsåkre", "Isbreer smeltet"], "correct": 2, "explain": "Fra 1960-tallet." },
-    { "id": "q04", "text": "Hva er virtuelt vann?", "options": ["Vann i dataspill", "Grunnvann", "Vann i atmosfæren", "Vannet som er brukt til å lage en vare"], "correct": 3, "explain": "For eksempel mat og klær." },
-    { "id": "q05", "text": "Hva kan skje når grunnvann pumpes opp raskere enn det fornyes?", "options": ["Grunnvannsspeilet synker og bakken kan synke", "Det blir mer grunnvann", "Havet synker", "Ingenting"], "correct": 0, "explain": "Brønner kan tørke ut." },
-    { "id": "q06", "text": "Hvorfor kan demninger skape konflikter mellom land?", "options": ["De lager støy", "Land nedstrøms kan få mindre vann", "De øker nedbøren", "De gir for mye fisk"], "correct": 1, "explain": "For eksempel langs Nilen." },
-    { "id": "q07", "text": "Hva er en ulempe med avsalting?", "options": ["Vannet blir salt", "Det gir for mye vann", "Det krever mye energi", "Det virker bare i Norge"], "correct": 2, "explain": "Og saltlaken må tas hånd om." },
-    { "id": "q08", "text": "Hvilket tiltak gir mer effektiv vanning?", "options": ["Å vanne midt på dagen i sola", "Oversvømmelse av åkrene", "Å bruke mer vann", "Dryppvanning"], "correct": 3, "explain": "Vannet går direkte til røttene." },
-    { "id": "q09", "text": "Hvor stor del av strømproduksjonen i Norge er vannkraft?", "options": ["Omtrent 90 %", "Omtrent 10 %", "Omtrent 50 %", "Omtrent 30 %"], "correct": 0, "explain": "Norge har mange regulerte vassdrag." },
-    { "id": "q10", "text": "Hva handler FNs bærekraftsmål 6 om?", "options": ["Fornybar energi", "Rent vann og gode sanitærforhold", "Livet i havet", "Klima"], "correct": 1, "explain": "Tilgang for alle." }
+    {
+      "id": "q01",
+      "text": "Hva brukes mesteparten av ferskvannsuttaket i verden til?",
+      "options": [
+        "Husholdninger",
+        "Jordbruk",
+        "Industri",
+        "Svømmebassenger"
+      ],
+      "correct": 1,
+      "explain": "Rundt 70 %, mest vanning."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor får de fleste i Norge drikkevannet sitt fra?",
+      "options": [
+        "Overflatevann fra innsjøer og elver",
+        "Avsalting",
+        "Grunnvann alene",
+        "Regnvann fra taket"
+      ],
+      "correct": 0,
+      "explain": "Rundt 90 % fra overflatevann."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor krympet Aralsjøen?",
+      "options": [
+        "Et jordskjelv",
+        "Økt nedbør",
+        "Elvene ble brukt til å vanne bomullsåkre",
+        "Isbreer smeltet"
+      ],
+      "correct": 2,
+      "explain": "Fra 1960-tallet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er virtuelt vann?",
+      "options": [
+        "Vann i dataspill",
+        "Grunnvann",
+        "Vann i atmosfæren",
+        "Vannet som er brukt til å lage en vare"
+      ],
+      "correct": 3,
+      "explain": "For eksempel mat og klær."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kan skje når grunnvann pumpes opp raskere enn det fornyes?",
+      "options": [
+        "Grunnvannsspeilet synker og bakken kan synke",
+        "Det blir mer grunnvann",
+        "Havet synker",
+        "Ingenting"
+      ],
+      "correct": 0,
+      "explain": "Brønner kan tørke ut."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor kan demninger skape konflikter mellom land?",
+      "options": [
+        "De lager støy",
+        "Land nedstrøms kan få mindre vann",
+        "De øker nedbøren",
+        "De gir for mye fisk"
+      ],
+      "correct": 1,
+      "explain": "For eksempel langs Nilen."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en ulempe med avsalting?",
+      "options": [
+        "Vannet blir salt",
+        "Det gir for mye vann",
+        "Det krever mye energi",
+        "Det virker bare i Norge"
+      ],
+      "correct": 2,
+      "explain": "Og saltlaken må tas hånd om."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket tiltak gir mer effektiv vanning?",
+      "options": [
+        "Å vanne midt på dagen i sola",
+        "Oversvømmelse av åkrene",
+        "Å bruke mer vann",
+        "Dryppvanning"
+      ],
+      "correct": 3,
+      "explain": "Vannet går direkte til røttene."
+    },
+    {
+      "id": "q09",
+      "text": "Hvor stor del av strømproduksjonen i Norge er vannkraft?",
+      "options": [
+        "Omtrent 90 %",
+        "Omtrent 10 %",
+        "Omtrent 50 %",
+        "Omtrent 30 %"
+      ],
+      "correct": 0,
+      "explain": "Norge har mange regulerte vassdrag."
+    },
+    {
+      "id": "q10",
+      "text": "Hva handler FNs bærekraftsmål 6 om?",
+      "options": [
+        "Fornybar energi",
+        "Rent vann og gode sanitærforhold",
+        "Livet i havet",
+        "Klima"
+      ],
+      "correct": 1,
+      "explain": "Tilgang for alle."
+    }
   ],
   "mindmap": {
     "label": "Ferskvannsressurser",
     "children": [
-      { "label": "Bruk", "children": [
-        { "label": "Jordbruk 70 %" },
-        { "label": "Industri og husholdning" },
-        { "label": "Energi" }
-      ] },
-      { "label": "Norge", "children": [
-        { "label": "Overflatevann" },
-        { "label": "Vannkraft" },
-        { "label": "Lekkasjer" }
-      ] },
-      { "label": "Vannmangel", "children": [
-        { "label": "Vannstress" },
-        { "label": "Aralsjøen" },
-        { "label": "Overpumping" }
-      ] },
-      { "label": "Over grenser", "children": [
-        { "label": "Nilen og Mekong" },
-        { "label": "Virtuelt vann" }
-      ] },
-      { "label": "Bærekraft", "children": [
-        { "label": "Dryppvanning" },
-        { "label": "Gjenbruk og rensing" },
-        { "label": "Vannforskriften" },
-        { "label": "Bærekraftsmål 6" }
-      ] }
+      {
+        "label": "Bruk",
+        "children": [
+          {
+            "label": "Jordbruk 70 %"
+          },
+          {
+            "label": "Industri og husholdning"
+          },
+          {
+            "label": "Energi"
+          }
+        ]
+      },
+      {
+        "label": "Norge",
+        "children": [
+          {
+            "label": "Overflatevann"
+          },
+          {
+            "label": "Vannkraft"
+          },
+          {
+            "label": "Lekkasjer"
+          }
+        ]
+      },
+      {
+        "label": "Vannmangel",
+        "children": [
+          {
+            "label": "Vannstress"
+          },
+          {
+            "label": "Aralsjøen"
+          },
+          {
+            "label": "Overpumping"
+          }
+        ]
+      },
+      {
+        "label": "Over grenser",
+        "children": [
+          {
+            "label": "Nilen og Mekong"
+          },
+          {
+            "label": "Virtuelt vann"
+          }
+        ]
+      },
+      {
+        "label": "Bærekraft",
+        "children": [
+          {
+            "label": "Dryppvanning"
+          },
+          {
+            "label": "Gjenbruk og rensing"
+          },
+          {
+            "label": "Vannforskriften"
+          },
+          {
+            "label": "Bærekraftsmål 6"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Når Norge importerer mat, importerer vi også virtuelt vann.", "correct": true, "explain": "Vann brukt til produksjonen i andre land." },
-      { "id": "m02", "type": "sant-usant", "text": "Norge har ingen utfordringer med drikkevann.", "correct": false, "explain": "Gammelt ledningsnett og lekkasjer er en utfordring." },
-      { "id": "m03", "type": "sant-usant", "text": "Klimaendringer kan gi mindre vann i elver som er avhengige av smeltende breer.", "correct": true, "explain": "Når breene er borte, forsvinner smeltevannet." },
-      { "id": "m04", "type": "sant-usant", "text": "Grønnsaker krever mer vann per kilo enn storfekjøtt.", "correct": false, "explain": "Storfekjøtt krever langt mer vann." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket av disse gir vannstress?", "options": ["Våtere klima", "Befolkningsvekst og storstilt vanning", "Færre mennesker", "Bedre rensing"], "correct": 1, "explain": "Etterspørselen øker." },
-      { "id": "m06", "type": "flervalg", "text": "Hva skal vannforskriften i Norge sørge for?", "options": ["God økologisk og kjemisk tilstand i vann", "Lavere strømpris", "Mer vannkraft", "Flere demninger"], "correct": 0, "explain": "Helhetlig forvaltning av vannet." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken elv har vært kilde til uenighet mellom Etiopia og Egypt?", "options": ["Mekong", "Donau", "Nilen", "Amazonas"], "correct": 2, "explain": "På grunn av en stor demning på Den blå Nilen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Når Norge importerer mat, importerer vi også virtuelt vann.",
+        "correct": true,
+        "explain": "Vann brukt til produksjonen i andre land."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Norge har ingen utfordringer med drikkevann.",
+        "correct": false,
+        "explain": "Gammelt ledningsnett og lekkasjer er en utfordring."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Klimaendringer kan gi mindre vann i elver som er avhengige av smeltende breer.",
+        "correct": true,
+        "explain": "Når breene er borte, forsvinner smeltevannet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Grønnsaker krever mer vann per kilo enn storfekjøtt.",
+        "correct": false,
+        "explain": "Storfekjøtt krever langt mer vann."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket av disse gir vannstress?",
+        "options": [
+          "Våtere klima",
+          "Befolkningsvekst og storstilt vanning",
+          "Færre mennesker",
+          "Bedre rensing"
+        ],
+        "correct": 1,
+        "explain": "Etterspørselen øker."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva skal vannforskriften i Norge sørge for?",
+        "options": [
+          "God økologisk og kjemisk tilstand i vann",
+          "Lavere strømpris",
+          "Mer vannkraft",
+          "Flere demninger"
+        ],
+        "correct": 0,
+        "explain": "Helhetlig forvaltning av vannet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken elv har vært kilde til uenighet mellom Etiopia og Egypt?",
+        "options": [
+          "Mekong",
+          "Donau",
+          "Nilen",
+          "Amazonas"
+        ],
+        "correct": 2,
+        "explain": "På grunn av en stor demning på Den blå Nilen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr vannstress, og hvordan kan et land oppleve vannstress selv om det har fornybart vann?",
+        "fasit": "Vannstress betyr at et land bruker en stor del av det fornybare vannet det har. Det kan skje når vannforbruket er stort i forhold til hvor mye fornybart vann som er tilgjengelig.",
+        "kriterier": [
+          "Forklarer at vannstress handler om å bruke en stor del av landets fornybare vann.",
+          "Knytter vannstress til forholdet mellom vannbruk og tilgjengelig fornybart vann."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hvordan kan klimaendringer gjøre elver mindre pålitelige som vannkilde?",
+        "fasit": "Klimaendringer kan gi mer tørke noen steder, slik at det blir mindre vann i elvene. Smelting av breer kan også påvirke elver som er avhengige av breene.",
+        "kriterier": [
+          "Nevner at mer tørke noen steder kan redusere vanntilgangen.",
+          "Forklarer at smelting av breer kan påvirke elver som er avhengige av dem."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En norsk kommune oppdager at vann lekker ut fra gamle vannrør. Foreslå et tiltak og forklar hvordan det kan bidra til å ta vare på ferskvannet.",
+        "fasit": "Kommunen kan reparere lekkasjene i ledningsnettet. Da går mindre av vannet tapt før det når dem som skal bruke det.",
+        "kriterier": [
+          "Foreslår å reparere lekkasjer eller vedlikeholde ledningsnettet.",
+          "Forklarer at tiltaket reduserer vanntapet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hvorfor kan import av mat eller klær føre til at Norge bruker vannressurser i andre land?",
+        "fasit": "Det er brukt vann til å produsere varer som mat og klær. Dette vannet kalles virtuelt vann, så import kan bety at vannressurser i produksjonslandet blir brukt for å lage varene.",
+        "kriterier": [
+          "Forklarer at vann brukes i produksjonen av varer.",
+          "Knytter import til bruk av vannressurser i landet der varen produseres."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et land har forurenset vann og ujevnt fordelt nedbør gjennom året. Forklar hvordan begge forholdene kan bidra til vannstress.",
+        "fasit": "Forurensning kan gjøre vann ubrukelig, slik at mindre vann er tilgjengelig. Ujevn nedbør kan føre til perioder med lite vann, selv om det regner mer på andre tider av året.",
+        "kriterier": [
+          "Forklarer at forurensning reduserer mengden vann som kan brukes.",
+          "Forklarer at ujevn nedbør gir perioder med begrenset vanntilgang."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Norsk vannforvaltning skal sikre god økologisk og kjemisk tilstand. Forklar hva disse to delene av målet handler om, ved å bruke elver, innsjøer, grunnvann eller kystvann som eksempler.",
+        "fasit": "Målet er at vannforekomster som elver, innsjøer, grunnvann og kystvann skal ha både god økologisk og god kjemisk tilstand. Det innebærer at forvaltningen må ta hensyn til både naturforholdene og den kjemiske tilstanden i vannet.",
+        "kriterier": [
+          "Nevner både økologisk og kjemisk tilstand som mål.",
+          "Knytter målet til vannforekomster som elver, innsjøer, grunnvann eller kystvann."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "På verdensbasis går rundt 70 % av ferskvannet som tas ut, til jordbruk. Hvis det tas ut 200 like store enheter ferskvann, omtrent hvor mange enheter går til jordbruk? Vis det viktigste regnestykket.",
+        "fasit": "70 % av 200 er 140. Omtrent 140 enheter går til jordbruk.",
+        "kriterier": [
+          "Regner ut 70 % av 200, for eksempel 0,7 × 200.",
+          "Oppgir 140 enheter."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Produksjon av 1 kg storfekjøtt krever i gjennomsnitt rundt 15 000 liter vann. Hvor mye vann krever produksjon av 3 kg storfekjøtt? Vis det viktigste regnestykket.",
+        "fasit": "3 × 15 000 = 45 000. Produksjonen krever rundt 45 000 liter vann.",
+        "kriterier": [
+          "Multipliserer 15 000 liter med 3.",
+          "Oppgir rundt 45 000 liter."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

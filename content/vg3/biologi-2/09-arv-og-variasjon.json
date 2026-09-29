@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Arv og variasjon",
   "intro": "Hvordan egenskaper arves – Mendels lover, alleler, dominant og recessiv arv, krysningsskjema, kodominans, kjønnsbundet og polygen arv og stamtavler – og årsakene til genotypisk og fenotypisk variasjon i populasjoner: mutasjoner, meiose, befruktning og miljø.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Grunnbegreper\n\n- Et **gen** kan finnes i ulike varianter – **alleler**.\n- **Genotypen** er hvilke alleler et individ har. **Fenotypen** er hvilke egenskaper som **vises**.\n- **Homozygot**: to like alleler (AA eller aa). **Heterozygot**: to ulike alleler (Aa).\n- Et **dominant** allel (A) vises selv om det bare finnes ett av det. Et **recessivt** allel (a) vises bare hos **homozygote** individer (aa).\n\n## Mendels lover\n\nMunken **Gregor Mendel** krysset **erteplanter** på 1860-tallet og fant at egenskaper arves som **enheter** – det vi i dag kaller gener.\n\n- **Spaltningsloven**: De to allelene for en egenskap **skilles** når kjønnscellene dannes, slik at hver kjønnscelle får **ett** av dem.\n- **Loven om uavhengig fordeling**: Alleler for **ulike** gener fordeles **uavhengig** av hverandre – så lenge genene ligger på ulike kromosomer.\n\n## Krysningsskjema\n\nKrysser vi to heterozygote individer (Aa × Aa), får vi:\n\n| | A | a |\n|---|---|---|\n| **A** | AA | Aa |\n| **a** | Aa | aa |\n\nGenotypeforholdet blir **1 AA : 2 Aa : 1 aa**, og fenotypeforholdet **3 dominante : 1 recessiv**.\n\n## Andre arvemønstre\n\n- **Ufullstendig dominans**: Heterozygoten får en **mellomform**, for eksempel rosa blomster når rød og hvit krysses.\n- **Kodominans**: Begge allelene uttrykkes **fullt**. I **AB0-systemet** gir allelene A og B blodtype **AB**.\n- **Kjønnsbundet arv**: Gener på **X-kromosomet**. Menn har bare **én** X, så **recessive** sykdommer som **blødersykdom** og **fargeblindhet** er vanligere hos menn.\n- **Polygen arv**: Mange gener påvirker samme egenskap, som **høyde** og **hudfarge**. Det gir **gradvis** variasjon.\n\n## Stamtavler\n\n**Stamtavler** viser hvordan en egenskap går i arv i en familie. Et **recessivt** trekk kan **hoppe over** generasjoner og dukke opp hos barn av to friske bærere. Et **dominant** trekk vises i hver generasjon der det finnes.\n\n## Årsaker til variasjon\n\n**Genotypisk variasjon** oppstår ved\n\n- **mutasjoner** – endringer i DNA-sekvensen, den eneste kilden til **nye** alleler\n- **meiose** – **overkrysning** mellom kromosomer og **tilfeldig fordeling** av kromosomer gir nye kombinasjoner\n- **befruktning** – tilfeldig hvilken eggcelle og sædcelle som møtes\n\n**Fenotypisk variasjon** skyldes både **gener** og **miljø**. Eneggede tvillinger har samme gener, men kan få ulik **høyde**, **vekt** eller **helse** på grunn av kosthold, trening og livsstil. Hos planter kan **lys**, **vann** og **næring** gi stor variasjon mellom planter med like gener.\n\n## Betydning\n\nVariasjon er **råmaterialet** for **evolusjon**. En populasjon med stor genetisk variasjon har større sjanse til å **tilpasse** seg når miljøet endrer seg.",
   "flashcards": [
-    { "term": "Allel", "def": "Variant av et gen." },
-    { "term": "Genotype", "def": "Hvilke alleler et individ har." },
-    { "term": "Fenotype", "def": "Egenskapene som vises." },
-    { "term": "Homozygot", "def": "To like alleler, som AA eller aa." },
-    { "term": "Heterozygot", "def": "To ulike alleler, som Aa." },
-    { "term": "Dominant allel", "def": "Vises selv om det bare finnes ett av det." },
-    { "term": "Recessivt allel", "def": "Vises bare hos homozygote individer." },
-    { "term": "Spaltningsloven", "def": "Hver kjønnscelle får ett av de to allelene." },
-    { "term": "Uavhengig fordeling", "def": "Alleler for ulike gener fordeles uavhengig av hverandre." },
-    { "term": "Aa × Aa", "def": "Gir fenotypeforholdet 3 : 1." },
-    { "term": "Kodominans", "def": "Begge allelene uttrykkes fullt, som blodtype AB." },
-    { "term": "Kjønnsbundet arv", "def": "Gener på X-kromosomet – recessive trekk vanligere hos menn." },
-    { "term": "Polygen arv", "def": "Mange gener påvirker samme egenskap." },
-    { "term": "Overkrysning", "def": "Utbytting av DNA mellom kromosomer i meiosen." },
-    { "term": "Mutasjon", "def": "Endring i DNA – den eneste kilden til nye alleler." }
+    {
+      "term": "Allel",
+      "def": "Variant av et gen."
+    },
+    {
+      "term": "Genotype",
+      "def": "Hvilke alleler et individ har."
+    },
+    {
+      "term": "Fenotype",
+      "def": "Egenskapene som vises."
+    },
+    {
+      "term": "Homozygot",
+      "def": "To like alleler, som AA eller aa."
+    },
+    {
+      "term": "Heterozygot",
+      "def": "To ulike alleler, som Aa."
+    },
+    {
+      "term": "Dominant allel",
+      "def": "Vises selv om det bare finnes ett av det."
+    },
+    {
+      "term": "Recessivt allel",
+      "def": "Vises bare hos homozygote individer."
+    },
+    {
+      "term": "Spaltningsloven",
+      "def": "Hver kjønnscelle får ett av de to allelene."
+    },
+    {
+      "term": "Uavhengig fordeling",
+      "def": "Alleler for ulike gener fordeles uavhengig av hverandre."
+    },
+    {
+      "term": "Aa × Aa",
+      "def": "Gir fenotypeforholdet 3 : 1."
+    },
+    {
+      "term": "Kodominans",
+      "def": "Begge allelene uttrykkes fullt, som blodtype AB."
+    },
+    {
+      "term": "Kjønnsbundet arv",
+      "def": "Gener på X-kromosomet – recessive trekk vanligere hos menn."
+    },
+    {
+      "term": "Polygen arv",
+      "def": "Mange gener påvirker samme egenskap."
+    },
+    {
+      "term": "Overkrysning",
+      "def": "Utbytting av DNA mellom kromosomer i meiosen."
+    },
+    {
+      "term": "Mutasjon",
+      "def": "Endring i DNA – den eneste kilden til nye alleler."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er fenotype?", "options": ["Hvilke alleler et individ har", "Egenskapene som vises", "Et kromosom", "En mutasjon"], "correct": 1, "explain": "Genotypen er allelene." },
-    { "id": "q02", "text": "Hva blir fenotypeforholdet ved krysningen Aa × Aa?", "options": ["3 dominante : 1 recessiv", "1 : 1", "1 : 2 : 1 i fenotype", "Alle dominante"], "correct": 0, "explain": "Genotypeforholdet er 1 : 2 : 1." },
-    { "id": "q03", "text": "Når vises et recessivt trekk?", "options": ["Alltid", "Hos heterozygote", "Bare hos homozygote individer", "Aldri"], "correct": 2, "explain": "aa." },
-    { "id": "q04", "text": "Hvorfor er blødersykdom vanligere hos menn?", "options": ["Fordi menn har to X-kromosomer", "Fordi genet er dominant", "Fordi det er miljøbestemt", "Fordi menn har bare én X, og genet er recessivt og X-bundet"], "correct": 3, "explain": "Kjønnsbundet arv." },
-    { "id": "q05", "text": "Hva er kodominans?", "options": ["Begge allelene uttrykkes fullt", "Det ene allelet skjuler det andre", "En mellomform", "Ingen alleler uttrykkes"], "correct": 0, "explain": "Som blodtype AB." },
-    { "id": "q06", "text": "Hva er den eneste kilden til nye alleler?", "options": ["Overkrysning", "Mutasjoner", "Befruktning", "Miljøet"], "correct": 1, "explain": "Meiose gir nye kombinasjoner, ikke nye alleler." },
-    { "id": "q07", "text": "Hvorfor kan eneggede tvillinger ha ulik høyde?", "options": ["Fordi de har ulike gener", "Fordi de har ulike kromosomer", "Fordi miljøet også påvirker fenotypen", "Det kan de ikke"], "correct": 2, "explain": "Kosthold og livsstil spiller inn." },
-    { "id": "q08", "text": "Hva er polygen arv?", "options": ["Ett gen påvirker mange egenskaper", "Arv på X-kromosomet", "Arv fra én forelder", "Mange gener påvirker samme egenskap"], "correct": 3, "explain": "For eksempel høyde." },
-    { "id": "q09", "text": "Hvordan kan et recessivt trekk oppføre seg i en stamtavle?", "options": ["Det kan hoppe over generasjoner", "Det vises i alle generasjoner alltid", "Det vises bare hos kvinner", "Det forsvinner for alltid"], "correct": 0, "explain": "Friske bærere kan få barn med trekket." },
-    { "id": "q10", "text": "Hva sier Mendels spaltningslov?", "options": ["Alle gener arves samlet", "Hver kjønnscelle får ett av de to allelene", "Miljøet bestemmer arven", "Alleler blandes"], "correct": 1, "explain": "Allelene skilles ved dannelsen av kjønnsceller." }
+    {
+      "id": "q01",
+      "text": "Hva er fenotype?",
+      "options": [
+        "Hvilke alleler et individ har",
+        "Egenskapene som vises",
+        "Et kromosom",
+        "En mutasjon"
+      ],
+      "correct": 1,
+      "explain": "Genotypen er allelene."
+    },
+    {
+      "id": "q02",
+      "text": "Hva blir fenotypeforholdet ved krysningen Aa × Aa?",
+      "options": [
+        "3 dominante : 1 recessiv",
+        "1 : 1",
+        "1 : 2 : 1 i fenotype",
+        "Alle dominante"
+      ],
+      "correct": 0,
+      "explain": "Genotypeforholdet er 1 : 2 : 1."
+    },
+    {
+      "id": "q03",
+      "text": "Når vises et recessivt trekk?",
+      "options": [
+        "Alltid",
+        "Hos heterozygote",
+        "Bare hos homozygote individer",
+        "Aldri"
+      ],
+      "correct": 2,
+      "explain": "aa."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor er blødersykdom vanligere hos menn?",
+      "options": [
+        "Fordi menn har to X-kromosomer",
+        "Fordi genet er dominant",
+        "Fordi det er miljøbestemt",
+        "Fordi menn har bare én X, og genet er recessivt og X-bundet"
+      ],
+      "correct": 3,
+      "explain": "Kjønnsbundet arv."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er kodominans?",
+      "options": [
+        "Begge allelene uttrykkes fullt",
+        "Det ene allelet skjuler det andre",
+        "En mellomform",
+        "Ingen alleler uttrykkes"
+      ],
+      "correct": 0,
+      "explain": "Som blodtype AB."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den eneste kilden til nye alleler?",
+      "options": [
+        "Overkrysning",
+        "Mutasjoner",
+        "Befruktning",
+        "Miljøet"
+      ],
+      "correct": 1,
+      "explain": "Meiose gir nye kombinasjoner, ikke nye alleler."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor kan eneggede tvillinger ha ulik høyde?",
+      "options": [
+        "Fordi de har ulike gener",
+        "Fordi de har ulike kromosomer",
+        "Fordi miljøet også påvirker fenotypen",
+        "Det kan de ikke"
+      ],
+      "correct": 2,
+      "explain": "Kosthold og livsstil spiller inn."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er polygen arv?",
+      "options": [
+        "Ett gen påvirker mange egenskaper",
+        "Arv på X-kromosomet",
+        "Arv fra én forelder",
+        "Mange gener påvirker samme egenskap"
+      ],
+      "correct": 3,
+      "explain": "For eksempel høyde."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan kan et recessivt trekk oppføre seg i en stamtavle?",
+      "options": [
+        "Det kan hoppe over generasjoner",
+        "Det vises i alle generasjoner alltid",
+        "Det vises bare hos kvinner",
+        "Det forsvinner for alltid"
+      ],
+      "correct": 0,
+      "explain": "Friske bærere kan få barn med trekket."
+    },
+    {
+      "id": "q10",
+      "text": "Hva sier Mendels spaltningslov?",
+      "options": [
+        "Alle gener arves samlet",
+        "Hver kjønnscelle får ett av de to allelene",
+        "Miljøet bestemmer arven",
+        "Alleler blandes"
+      ],
+      "correct": 1,
+      "explain": "Allelene skilles ved dannelsen av kjønnsceller."
+    }
   ],
   "mindmap": {
     "label": "Arv og variasjon",
     "children": [
-      { "label": "Begreper", "children": [
-        { "label": "Allel, genotype, fenotype" },
-        { "label": "Homo- og heterozygot" },
-        { "label": "Dominant og recessiv" }
-      ] },
-      { "label": "Mendel", "children": [
-        { "label": "Spaltningsloven" },
-        { "label": "Uavhengig fordeling" },
-        { "label": "Krysningsskjema" }
-      ] },
-      { "label": "Andre mønstre", "children": [
-        { "label": "Kodominans" },
-        { "label": "Kjønnsbundet" },
-        { "label": "Polygen" }
-      ] },
-      { "label": "Variasjon", "children": [
-        { "label": "Mutasjoner" },
-        { "label": "Meiose og befruktning" },
-        { "label": "Miljø" }
-      ] },
-      { "label": "Anvendelse", "children": [
-        { "label": "Stamtavler" },
-        { "label": "Grunnlag for evolusjon" }
-      ] }
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Allel, genotype, fenotype"
+          },
+          {
+            "label": "Homo- og heterozygot"
+          },
+          {
+            "label": "Dominant og recessiv"
+          }
+        ]
+      },
+      {
+        "label": "Mendel",
+        "children": [
+          {
+            "label": "Spaltningsloven"
+          },
+          {
+            "label": "Uavhengig fordeling"
+          },
+          {
+            "label": "Krysningsskjema"
+          }
+        ]
+      },
+      {
+        "label": "Andre mønstre",
+        "children": [
+          {
+            "label": "Kodominans"
+          },
+          {
+            "label": "Kjønnsbundet"
+          },
+          {
+            "label": "Polygen"
+          }
+        ]
+      },
+      {
+        "label": "Variasjon",
+        "children": [
+          {
+            "label": "Mutasjoner"
+          },
+          {
+            "label": "Meiose og befruktning"
+          },
+          {
+            "label": "Miljø"
+          }
+        ]
+      },
+      {
+        "label": "Anvendelse",
+        "children": [
+          {
+            "label": "Stamtavler"
+          },
+          {
+            "label": "Grunnlag for evolusjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mendel gjorde sine forsøk med erteplanter.", "correct": true, "explain": "På 1860-tallet." },
-      { "id": "m02", "type": "sant-usant", "text": "Overkrysning skaper nye alleler.", "correct": false, "explain": "Den skaper nye kombinasjoner av eksisterende alleler." },
-      { "id": "m03", "type": "sant-usant", "text": "Stor genetisk variasjon gjør det lettere for en populasjon å tilpasse seg endringer.", "correct": true, "explain": "Variasjon er råmaterialet for evolusjon." },
-      { "id": "m04", "type": "sant-usant", "text": "Et dominant trekk kan bare vises hos homozygote individer.", "correct": false, "explain": "Det vises også hos heterozygote." },
-      { "id": "m05", "type": "flervalg", "text": "Hva gir krysning av rød og hvit blomst ved ufullstendig dominans?", "options": ["Røde blomster", "Rosa blomster", "Hvite blomster", "Røde og hvite flekker"], "correct": 1, "explain": "En mellomform." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken genotype er heterozygot?", "options": ["Aa", "AA", "aa", "AAa"], "correct": 0, "explain": "To ulike alleler." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan gi fenotypisk variasjon hos planter med like gener?", "options": ["Bare mutasjoner", "Ingenting", "Ulik tilgang på lys, vann og næring", "Bare meiose"], "correct": 2, "explain": "Miljøet påvirker fenotypen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mendel gjorde sine forsøk med erteplanter.",
+        "correct": true,
+        "explain": "På 1860-tallet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Overkrysning skaper nye alleler.",
+        "correct": false,
+        "explain": "Den skaper nye kombinasjoner av eksisterende alleler."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Stor genetisk variasjon gjør det lettere for en populasjon å tilpasse seg endringer.",
+        "correct": true,
+        "explain": "Variasjon er råmaterialet for evolusjon."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et dominant trekk kan bare vises hos homozygote individer.",
+        "correct": false,
+        "explain": "Det vises også hos heterozygote."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva gir krysning av rød og hvit blomst ved ufullstendig dominans?",
+        "options": [
+          "Røde blomster",
+          "Rosa blomster",
+          "Hvite blomster",
+          "Røde og hvite flekker"
+        ],
+        "correct": 1,
+        "explain": "En mellomform."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken genotype er heterozygot?",
+        "options": [
+          "Aa",
+          "AA",
+          "aa",
+          "AAa"
+        ],
+        "correct": 0,
+        "explain": "To ulike alleler."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan gi fenotypisk variasjon hos planter med like gener?",
+        "options": [
+          "Bare mutasjoner",
+          "Ingenting",
+          "Ulik tilgang på lys, vann og næring",
+          "Bare meiose"
+        ],
+        "correct": 2,
+        "explain": "Miljøet påvirker fenotypen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et individ har genotypen Aa. Forklar hva dette forteller om allelene individet har, og om individet er homozygot eller heterozygot.",
+        "fasit": "Individet har to ulike alleler, A og a, for genet. Det er heterozygot.",
+        "kriterier": [
+          "Forklarer at individet har to ulike alleler.",
+          "Klassifiserer individet som heterozygot."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "To gener ligger på ulike kromosomer. Forklar hvordan loven om uavhengig fordeling beskriver fordelingen av allelene for disse genene når kjønnsceller dannes.",
+        "fasit": "Alleler for de to genene fordeles uavhengig av hverandre når kjønnscellene dannes. Hvilket allel fra det ene genet en kjønnscelle får, avgjør ikke hvilket allel fra det andre genet den får.",
+        "kriterier": [
+          "Får fram at allelene for ulike gener fordeles uavhengig.",
+          "Knytter forklaringen til dannelsen av kjønnsceller og at genene ligger på ulike kromosomer."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign ufullstendig dominans og kodominans. Bruk gjerne blomsterfarge eller blodtype som eksempel.",
+        "fasit": "Ved ufullstendig dominans får heterozygoten en mellomform, som rosa blomster når rød og hvit krysses. Ved kodominans uttrykkes begge allelene fullt, slik som A- og B-allelene gir blodtype AB.",
+        "kriterier": [
+          "Forklarer at ufullstendig dominans gir en mellomform hos heterozygoten.",
+          "Forklarer at begge allelene uttrykkes fullt ved kodominans."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et individ med genotypen Aa krysses med et individ med genotypen aa. Allelet A er dominant. Finn genotypeforholdet blant avkommet, og vis det viktigste steget i utregningen.",
+        "fasit": "Aa-individet kan gi kjønnsceller med A eller a, mens aa-individet bare kan gi kjønnsceller med a. Avkommet får derfor genotypeforholdet 1 Aa : 1 aa.",
+        "kriterier": [
+          "Viser at kjønnscellene fra Aa-individet kan ha A eller a, mens de fra aa-individet har a.",
+          "Oppgir genotypeforholdet 1 Aa : 1 aa."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Ved krysningen Aa × Aa er genotypeforholdet 1 AA : 2 Aa : 1 aa. Hvor mange av 12 avkom forventes å ha hver av de tre genotypene? Vis det viktigste regnetrinnet.",
+        "fasit": "Forholdet har til sammen fire deler, og 12 ÷ 4 = 3 avkom per del. Det forventes derfor 3 AA, 6 Aa og 3 aa.",
+        "kriterier": [
+          "Bruker at genotypeforholdet består av fire deler og finner at hver del tilsvarer 3 avkom.",
+          "Oppgir riktig antall for alle tre genotypene: 3 AA, 6 Aa og 3 aa."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Planter med like gener vokser under ulike lys- og vannforhold. Forklar hvordan plantene likevel kan utvikle ulike egenskaper som vises.",
+        "fasit": "Fenotypen påvirkes både av gener og miljø. Ulik tilgang på lys eller vann kan derfor føre til at planter med like gener utvikler ulike egenskaper som vises.",
+        "kriterier": [
+          "Får fram at fenotypen påvirkes av både gener og miljø.",
+          "Knytter forskjellen mellom plantene til ulik tilgang på lys eller vann."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvordan overkrysning og tilfeldig fordeling av kromosomer i meiosen kan bidra til genotypisk variasjon.",
+        "fasit": "Ved overkrysning byttes DNA mellom kromosomer. Sammen med tilfeldig fordeling av kromosomer gir dette nye kombinasjoner av alleler i kjønnscellene.",
+        "kriterier": [
+          "Forklarer at overkrysning innebærer utbytting av DNA mellom kromosomer.",
+          "Får fram at overkrysning og tilfeldig kromosomfordeling gir nye kombinasjoner av alleler."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En populasjon har stor genetisk variasjon, og miljøet endrer seg. Forklar hvorfor variasjonen kan være viktig for populasjonens tilpasning.",
+        "fasit": "Genetisk variasjon er råmateriale for evolusjon. Når miljøet endrer seg, gir stor variasjon større sjanse for at noen individer har egenskaper som gjør at populasjonen kan tilpasse seg.",
+        "kriterier": [
+          "Knytter genetisk variasjon til evolusjon.",
+          "Forklarer at variasjon øker sjansen for at populasjonen kan tilpasse seg ved miljøendring."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

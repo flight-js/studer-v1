@@ -4,78 +4,425 @@
   "trinnId": "vg2",
   "name": "Derivasjonsregler",
   "intro": "Regler for å derivere potensfunksjoner, eksponential- og logaritmefunksjoner, og produkt-, kvotient- og kjerneregelen – med gjennomregnede eksempler.",
-  "kompetansemaal": [4, 10],
+  "kompetansemaal": [
+    4,
+    10
+  ],
   "sammendrag": "## Grunnregler\n\n- **Konstant**: (k)′ = 0\n- **Potens**: (xⁿ)′ = n · xⁿ⁻¹ – gjelder for alle reelle n\n- **Konstant faktor**: (k · f)′ = k · f′\n- **Sum og differanse**: (f ± g)′ = f′ ± g′\n\n**Eksempel**: f(x) = 3x⁴ − 2x + 5 gir **f′(x) = 12x³ − 2**.\n\nPotensregelen gjelder også for røtter og brøker:\n\n- √x = x^½ gir (√x)′ = ½ · x^(−½) = **1/(2√x)**\n- 1/x = x⁻¹ gir (1/x)′ = −x⁻² = **−1/x²**\n\n## Eksponential- og logaritmefunksjoner\n\n- **(eˣ)′ = eˣ** – funksjonen er sin egen deriverte!\n- **(aˣ)′ = aˣ · ln a**\n- **(ln x)′ = 1/x** for x > 0\n\nAt eˣ er lik sin egen deriverte, betyr at vekstfarten til eˣ alltid er lik funksjonsverdien. Det gjør e til det naturlige grunntallet for vekstmodeller.\n\n## Produktregelen\n\n**(u · v)′ = u′ · v + u · v′**\n\n**Eksempel**: f(x) = x² · eˣ\n\nf′(x) = 2x · eˣ + x² · eˣ = **eˣ(x² + 2x)**\n\n## Kvotientregelen\n\n**(u / v)′ = (u′ · v − u · v′) / v²**\n\n**Eksempel**: f(x) = ln x / x\n\nf′(x) = ((1/x) · x − ln x · 1) / x² = **(1 − ln x) / x²**\n\n## Kjerneregelen\n\nFor en **sammensatt** funksjon g(u(x)) deriverer vi den **ytre** funksjonen og ganger med den deriverte av **kjernen** u:\n\n**(g(u))′ = g′(u) · u′**\n\n**Eksempler**:\n\n- f(x) = (2x + 1)⁵. Kjernen er u = 2x + 1 med u′ = 2. f′(x) = 5(2x + 1)⁴ · 2 = **10(2x + 1)⁴**\n- f(x) = e³ˣ. Kjernen er 3x. f′(x) = e³ˣ · 3 = **3e³ˣ**\n- f(x) = ln(x² + 1). Kjernen er x² + 1. f′(x) = (1/(x² + 1)) · 2x = **2x / (x² + 1)**\n\n## Strategi\n\n1. **Se på strukturen**: Er uttrykket en sum, et produkt, en brøk eller en sammensatt funksjon?\n2. **Skriv om** hvis det forenkler: √x = x^½ og 5/x² = 5x⁻².\n3. **Deriver** med riktig regel – ofte må du kombinere flere.\n4. **Forenkle** svaret, gjerne ved å faktorisere ut felles faktorer, som eˣ.\n\n## Kontroll med CAS\n\nI GeoGebra CAS gir kommandoen **Derivert(f)** den deriverte. Bruk den til å **kontrollere** – men på prøve uten hjelpemidler må du kunne reglene. Du kan også sjekke et svar ved å sammenligne med en **numerisk** beregning av den deriverte i ett punkt.",
   "flashcards": [
-    { "term": "(xⁿ)′", "def": "n · xⁿ⁻¹" },
-    { "term": "(k)′", "def": "0" },
-    { "term": "(eˣ)′", "def": "eˣ" },
-    { "term": "(aˣ)′", "def": "aˣ · ln a" },
-    { "term": "(ln x)′", "def": "1/x" },
-    { "term": "(√x)′", "def": "1/(2√x)" },
-    { "term": "(1/x)′", "def": "−1/x²" },
-    { "term": "Produktregelen", "def": "(u · v)′ = u′v + uv′" },
-    { "term": "Kvotientregelen", "def": "(u/v)′ = (u′v − uv′)/v²" },
-    { "term": "Kjerneregelen", "def": "(g(u))′ = g′(u) · u′" },
-    { "term": "(x² · eˣ)′", "def": "eˣ(x² + 2x)" },
-    { "term": "((2x + 1)⁵)′", "def": "10(2x + 1)⁴" },
-    { "term": "(e³ˣ)′", "def": "3e³ˣ" },
-    { "term": "(ln(x² + 1))′", "def": "2x/(x² + 1)" },
-    { "term": "(ln x / x)′", "def": "(1 − ln x)/x²" }
+    {
+      "term": "(xⁿ)′",
+      "def": "n · xⁿ⁻¹"
+    },
+    {
+      "term": "(k)′",
+      "def": "0"
+    },
+    {
+      "term": "(eˣ)′",
+      "def": "eˣ"
+    },
+    {
+      "term": "(aˣ)′",
+      "def": "aˣ · ln a"
+    },
+    {
+      "term": "(ln x)′",
+      "def": "1/x"
+    },
+    {
+      "term": "(√x)′",
+      "def": "1/(2√x)"
+    },
+    {
+      "term": "(1/x)′",
+      "def": "−1/x²"
+    },
+    {
+      "term": "Produktregelen",
+      "def": "(u · v)′ = u′v + uv′"
+    },
+    {
+      "term": "Kvotientregelen",
+      "def": "(u/v)′ = (u′v − uv′)/v²"
+    },
+    {
+      "term": "Kjerneregelen",
+      "def": "(g(u))′ = g′(u) · u′"
+    },
+    {
+      "term": "(x² · eˣ)′",
+      "def": "eˣ(x² + 2x)"
+    },
+    {
+      "term": "((2x + 1)⁵)′",
+      "def": "10(2x + 1)⁴"
+    },
+    {
+      "term": "(e³ˣ)′",
+      "def": "3e³ˣ"
+    },
+    {
+      "term": "(ln(x² + 1))′",
+      "def": "2x/(x² + 1)"
+    },
+    {
+      "term": "(ln x / x)′",
+      "def": "(1 − ln x)/x²"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er f′(x) når f(x) = 3x⁴ − 2x + 5?", "options": ["12x³ − 2x", "12x³ − 2", "3x³ − 2", "12x⁴ − 2"], "correct": 1, "explain": "Deriver ledd for ledd." },
-    { "id": "q02", "text": "Hva er den deriverte av eˣ?", "options": ["eˣ", "x · eˣ⁻¹", "1/x", "e"], "correct": 0, "explain": "eˣ er sin egen deriverte." },
-    { "id": "q03", "text": "Hva er den deriverte av x² · eˣ?", "options": ["2x · eˣ", "x² · eˣ", "eˣ(x² + 2x)", "2eˣ"], "correct": 2, "explain": "Produktregelen." },
-    { "id": "q04", "text": "Hva er den deriverte av (2x + 1)⁵?", "options": ["5(2x + 1)⁴", "(2x + 1)⁴", "2(2x + 1)⁵", "10(2x + 1)⁴"], "correct": 3, "explain": "Kjerneregelen: gang med kjernens deriverte, 2." },
-    { "id": "q05", "text": "Hva er den deriverte av ln x?", "options": ["1/x", "ln x", "x", "eˣ"], "correct": 0, "explain": "For x > 0." },
-    { "id": "q06", "text": "Hva er den deriverte av √x?", "options": ["2√x", "1/(2√x)", "√x/2", "x^(3/2)"], "correct": 1, "explain": "√x = x^½." },
-    { "id": "q07", "text": "Hva er den deriverte av ln(x² + 1)?", "options": ["1/(x² + 1)", "2x · ln(x² + 1)", "2x/(x² + 1)", "1/(2x)"], "correct": 2, "explain": "Kjerneregelen med kjerne x² + 1." },
-    { "id": "q08", "text": "Hvilken regel brukes for å derivere en brøk u/v?", "options": ["Produktregelen", "Potensregelen", "Kjerneregelen alene", "Kvotientregelen"], "correct": 3, "explain": "(u′v − uv′)/v²." },
-    { "id": "q09", "text": "Hva er den deriverte av e³ˣ?", "options": ["3e³ˣ", "e³ˣ", "3xe³ˣ⁻¹", "e³"], "correct": 0, "explain": "Kjernen 3x har deriverte 3." },
-    { "id": "q10", "text": "Hva er den deriverte av 2ˣ?", "options": ["x · 2ˣ⁻¹", "2ˣ · ln 2", "2ˣ", "2x"], "correct": 1, "explain": "(aˣ)′ = aˣ ln a." }
+    {
+      "id": "q01",
+      "text": "Hva er f′(x) når f(x) = 3x⁴ − 2x + 5?",
+      "options": [
+        "12x³ − 2x",
+        "12x³ − 2",
+        "3x³ − 2",
+        "12x⁴ − 2"
+      ],
+      "correct": 1,
+      "explain": "Deriver ledd for ledd."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er den deriverte av eˣ?",
+      "options": [
+        "eˣ",
+        "x · eˣ⁻¹",
+        "1/x",
+        "e"
+      ],
+      "correct": 0,
+      "explain": "eˣ er sin egen deriverte."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er den deriverte av x² · eˣ?",
+      "options": [
+        "2x · eˣ",
+        "x² · eˣ",
+        "eˣ(x² + 2x)",
+        "2eˣ"
+      ],
+      "correct": 2,
+      "explain": "Produktregelen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er den deriverte av (2x + 1)⁵?",
+      "options": [
+        "5(2x + 1)⁴",
+        "(2x + 1)⁴",
+        "2(2x + 1)⁵",
+        "10(2x + 1)⁴"
+      ],
+      "correct": 3,
+      "explain": "Kjerneregelen: gang med kjernens deriverte, 2."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er den deriverte av ln x?",
+      "options": [
+        "1/x",
+        "ln x",
+        "x",
+        "eˣ"
+      ],
+      "correct": 0,
+      "explain": "For x > 0."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den deriverte av √x?",
+      "options": [
+        "2√x",
+        "1/(2√x)",
+        "√x/2",
+        "x^(3/2)"
+      ],
+      "correct": 1,
+      "explain": "√x = x^½."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er den deriverte av ln(x² + 1)?",
+      "options": [
+        "1/(x² + 1)",
+        "2x · ln(x² + 1)",
+        "2x/(x² + 1)",
+        "1/(2x)"
+      ],
+      "correct": 2,
+      "explain": "Kjerneregelen med kjerne x² + 1."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken regel brukes for å derivere en brøk u/v?",
+      "options": [
+        "Produktregelen",
+        "Potensregelen",
+        "Kjerneregelen alene",
+        "Kvotientregelen"
+      ],
+      "correct": 3,
+      "explain": "(u′v − uv′)/v²."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er den deriverte av e³ˣ?",
+      "options": [
+        "3e³ˣ",
+        "e³ˣ",
+        "3xe³ˣ⁻¹",
+        "e³"
+      ],
+      "correct": 0,
+      "explain": "Kjernen 3x har deriverte 3."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er den deriverte av 2ˣ?",
+      "options": [
+        "x · 2ˣ⁻¹",
+        "2ˣ · ln 2",
+        "2ˣ",
+        "2x"
+      ],
+      "correct": 1,
+      "explain": "(aˣ)′ = aˣ ln a."
+    }
   ],
   "mindmap": {
     "label": "Derivasjonsregler",
     "children": [
-      { "label": "Grunnregler", "children": [
-        { "label": "Konstant" },
-        { "label": "Potens" },
-        { "label": "Sum og faktor" }
-      ] },
-      { "label": "Spesielle funksjoner", "children": [
-        { "label": "eˣ" },
-        { "label": "aˣ" },
-        { "label": "ln x" }
-      ] },
-      { "label": "Sammensatte uttrykk", "children": [
-        { "label": "Produktregelen" },
-        { "label": "Kvotientregelen" },
-        { "label": "Kjerneregelen" }
-      ] },
-      { "label": "Strategi", "children": [
-        { "label": "Se strukturen" },
-        { "label": "Skriv om" },
-        { "label": "Forenkle" }
-      ] },
-      { "label": "Kontroll", "children": [
-        { "label": "CAS" },
-        { "label": "Numerisk sjekk" }
-      ] }
+      {
+        "label": "Grunnregler",
+        "children": [
+          {
+            "label": "Konstant"
+          },
+          {
+            "label": "Potens"
+          },
+          {
+            "label": "Sum og faktor"
+          }
+        ]
+      },
+      {
+        "label": "Spesielle funksjoner",
+        "children": [
+          {
+            "label": "eˣ"
+          },
+          {
+            "label": "aˣ"
+          },
+          {
+            "label": "ln x"
+          }
+        ]
+      },
+      {
+        "label": "Sammensatte uttrykk",
+        "children": [
+          {
+            "label": "Produktregelen"
+          },
+          {
+            "label": "Kvotientregelen"
+          },
+          {
+            "label": "Kjerneregelen"
+          }
+        ]
+      },
+      {
+        "label": "Strategi",
+        "children": [
+          {
+            "label": "Se strukturen"
+          },
+          {
+            "label": "Skriv om"
+          },
+          {
+            "label": "Forenkle"
+          }
+        ]
+      },
+      {
+        "label": "Kontroll",
+        "children": [
+          {
+            "label": "CAS"
+          },
+          {
+            "label": "Numerisk sjekk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Potensregelen gjelder også når eksponenten er negativ eller en brøk.", "correct": true, "explain": "For eksempel x⁻¹ og x^½." },
-      { "id": "m02", "type": "sant-usant", "text": "Den deriverte av et produkt er produktet av de deriverte.", "correct": false, "explain": "Bruk produktregelen: u′v + uv′." },
-      { "id": "m03", "type": "sant-usant", "text": "(1/x)′ = −1/x².", "correct": true, "explain": "x⁻¹ gir −x⁻²." },
-      { "id": "m04", "type": "sant-usant", "text": "Den deriverte av e²ˣ er e²ˣ.", "correct": false, "explain": "Kjerneregelen gir 2e²ˣ." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er den deriverte av ln x / x?", "options": ["1/x²", "(1 − ln x)/x²", "(ln x − 1)/x²", "1/(x · ln x)"], "correct": 1, "explain": "Kvotientregelen." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er den deriverte av 5/x²?", "options": ["−10/x³", "10/x³", "5/(2x)", "−5/x"], "correct": 0, "explain": "5x⁻² gir −10x⁻³." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken regel trenger du for f(x) = e^(x²)?", "options": ["Kvotientregelen", "Produktregelen", "Kjerneregelen", "Ingen regel"], "correct": 2, "explain": "f′(x) = 2x · e^(x²)." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Potensregelen gjelder også når eksponenten er negativ eller en brøk.",
+        "correct": true,
+        "explain": "For eksempel x⁻¹ og x^½."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Den deriverte av et produkt er produktet av de deriverte.",
+        "correct": false,
+        "explain": "Bruk produktregelen: u′v + uv′."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "(1/x)′ = −1/x².",
+        "correct": true,
+        "explain": "x⁻¹ gir −x⁻²."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Den deriverte av e²ˣ er e²ˣ.",
+        "correct": false,
+        "explain": "Kjerneregelen gir 2e²ˣ."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er den deriverte av ln x / x?",
+        "options": [
+          "1/x²",
+          "(1 − ln x)/x²",
+          "(ln x − 1)/x²",
+          "1/(x · ln x)"
+        ],
+        "correct": 1,
+        "explain": "Kvotientregelen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er den deriverte av 5/x²?",
+        "options": [
+          "−10/x³",
+          "10/x³",
+          "5/(2x)",
+          "−5/x"
+        ],
+        "correct": 0,
+        "explain": "5x⁻² gir −10x⁻³."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken regel trenger du for f(x) = e^(x²)?",
+        "options": [
+          "Kvotientregelen",
+          "Produktregelen",
+          "Kjerneregelen",
+          "Ingen regel"
+        ],
+        "correct": 2,
+        "explain": "f′(x) = 2x · e^(x²)."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvorfor den deriverte av en konstant k er 0. Hva skjer med den deriverte av f(x) hvis vi legger en konstant til funksjonen?",
+        "fasit": "En konstant endrer seg ikke når x endres, så vekstfarten er 0. Når en konstant legges til f(x), endres ikke den deriverte: (f(x) + k)′ = f′(x).",
+        "kriterier": [
+          "Knytter konstanten til at funksjonsverdien ikke endrer seg med x, og dermed har vekstfart 0.",
+          "Forklarer at det å legge en konstant til en funksjon ikke endrer den deriverte."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Deriver f(x) = 3/x². Skriv først om brøken som en potens, og vis det viktigste steget.",
+        "fasit": "Vi skriver f(x) = 3x⁻². Da gir potensregelen f′(x) = 3 · (−2)x⁻³ = −6/x³.",
+        "kriterier": [
+          "Skriver om 3/x² til 3x⁻².",
+          "Bruker potensregelen riktig og får −6/x³."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign produktregelen og kvotientregelen. Skriv formelen for hver, og forklar hva som står i nevneren når du deriverer en kvotient u/v.",
+        "fasit": "Produktregelen er (u · v)′ = u′v + uv′. Kvotientregelen er (u/v)′ = (u′v − uv′)/v², så nevneren er kvadratet av v.",
+        "kriterier": [
+          "Oppgir riktig formel for produktregelen.",
+          "Oppgir riktig formel for kvotientregelen og at nevneren er v²."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Deriver f(x) = 5x⁴ − 2√x. Vis hvordan du bruker potensregelen på begge leddene.",
+        "fasit": "Vi skriver √x som x^(1/2). Da blir f′(x) = 20x³ − 2 · (1/2)x^(−1/2) = 20x³ − 1/√x.",
+        "kriterier": [
+          "Deriverer 5x⁴ riktig til 20x³.",
+          "Bruker potensregelen på rotleddet og får −1/√x etter å ha tatt med faktoren −2."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Deriver f(x) = ln(3x + 2), der x > −2/3. Pek ut kjernen og vis hvordan kjerneregelen brukes.",
+        "fasit": "Kjernen er u(x) = 3x + 2, og u′(x) = 3. Siden (ln u)′ = (1/u) · u′, får vi f′(x) = 3/(3x + 2).",
+        "kriterier": [
+          "Identifiserer 3x + 2 som kjernen og finner den deriverte 3.",
+          "Ganger den ytre deriverte 1/(3x + 2) med kjernens deriverte og får 3/(3x + 2)."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Deriver f(x) = x · eˣ ved hjelp av produktregelen. Skriv også svaret på en forenklet form.",
+        "fasit": "Produktregelen gir f′(x) = 1 · eˣ + x · eˣ. Vi kan faktorisere ut eˣ og får f′(x) = eˣ(1 + x).",
+        "kriterier": [
+          "Bruker produktregelen med de deriverte av x og eˣ riktig.",
+          "Forenkler til eˣ(1 + x)."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I en vekstmodell er funksjonen eˣ. Forklar hva det betyr at eˣ er sin egen deriverte, og hvordan dette beskriver vekstfarten.",
+        "fasit": "Den deriverte av eˣ er eˣ, så vekstfarten er lik funksjonsverdien ved hver x-verdi. Funksjonen vokser derfor med en vekstfart som til enhver tid svarer til størrelsen på funksjonsverdien.",
+        "kriterier": [
+          "Forklarer at funksjonen og den deriverte har samme verdi for hver x.",
+          "Knytter dette til at vekstfarten til enhver tid er lik funksjonsverdien."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du har regnet ut den deriverte av en funksjon for hånd. Forklar hvordan kommandoen Derivert(f) i GeoGebra CAS kan brukes til å kontrollere svaret, og hvordan en numerisk beregning i ett punkt kan gi en ekstra kontroll.",
+        "fasit": "Derivert(f) i CAS kan brukes til å finne en deriverte som du kan sammenligne med svaret du har regnet ut. En numerisk beregning i ett punkt kan også sjekke om verdiene stemmer der, men du må kunne reglene når du arbeider uten hjelpemidler.",
+        "kriterier": [
+          "Forklarer at CAS-resultatet sammenlignes med den deriverte som er regnet ut for hånd.",
+          "Forklarer at numerisk kontroll i ett punkt sammenligner verdier der, og at reglene fortsatt må beherskes uten hjelpemidler."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

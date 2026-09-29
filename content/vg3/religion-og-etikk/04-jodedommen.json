@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Jødedommen",
   "intro": "Sentrale trekk ved jødedommen: pakten med Gud, Toraen, Tanakh og Talmud, sabbat, høytider og ritualer, de ulike retningene, diasporaen og staten Israel – og jødisk liv og historie i Norge.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Den eldste av de abrahamittiske religionene\n\n**Jødedommen** er den eldste av de tre **abrahamittiske** religionene – jødedom, kristendom og islam. Den bygger på troen på **én gud** og på en **pakt** mellom Gud og det jødiske folket. Ifølge tradisjonen inngikk Gud en pakt med **Abraham**, og senere fikk **Moses** Guds **lov** på **Sinai**-fjellet etter at israelittene ble ført ut av slaveriet i **Egypt**.\n\nJødedommen er både en **religion** og et **folk** med felles historie. Mange jøder er **sekulære**, men føler seg likevel jødiske.\n\n## Hellige skrifter\n\n- **Toraen** – de fem Mosebøkene – er den viktigste delen av de hellige skriftene. Den inneholder både **fortellinger** og **bud**.\n- **Tanakh** er hele den hebraiske bibelen: Toraen, **Profetene** og **Skriftene**. Den tilsvarer stort sett kristendommens Gamle testamente.\n- **Talmud** er en stor samling **diskusjoner** og **tolkninger** av loven, skrevet av rabbinere gjennom flere hundre år.\n\n## Tro og praksis\n\n- Troen på **én gud** uttrykkes i bønnen **Sjema**: «Hør, Israel! Herren er vår Gud, Herren er én.»\n- Jødedommen legger stor vekt på **handling** – å leve etter **budene** – mer enn på trosbekjennelser.\n- **Kosher**-reglene bestemmer hva som er tillatt å spise, for eksempel at kjøtt og melk ikke skal blandes.\n- **Synagogen** er stedet for bønn, lesning og undervisning, og **rabbineren** er lærer og leder.\n\n## Sabbat og høytider\n\n- **Sabbaten** varer fra **fredag kveld** til **lørdag kveld** og er en hviledag til minne om skapelsen.\n- **Pesach** minner om **utferden** fra Egypt.\n- **Rosh hashana** er det jødiske **nyttåret**, og **jom kippur** er **forsoningsdagen** med faste og bønn.\n- **Hanukka** er lysfesten som minner om gjeninnvielsen av tempelet i Jerusalem.\n\n## Overgangsriter\n\n- **Omskjæring** av guttebarn på den åttende dagen som tegn på pakten\n- **Bar mitsva** for gutter ved 13 år og **bat mitsva** for jenter ved 12 eller 13 år – de blir **religiøst myndige**\n\n## Retninger\n\n- **Ortodoks** jødedom følger loven **strengt** og ser den som uforanderlig.\n- **Konservativ** jødedom står i en mellomposisjon.\n- **Reformjødedom** eller **liberal** jødedom tilpasser tradisjonen til moderne tid, for eksempel med kvinnelige rabbinere.\n\n## Diaspora og Israel\n\nEtter at romerne ødela **tempelet** i Jerusalem i år **70**, spredte jødene seg over store deler av verden – **diasporaen**. Jøder ble utsatt for **forfølgelse** og **antisemittisme** i mange hundre år, og under **holocaust** ble om lag seks millioner jøder drept. Staten **Israel** ble opprettet i **1948**. Konflikten med **palestinerne** har preget regionen siden.\n\n## Jøder i Norge\n\n**Grunnloven** fra 1814 stengte jøder ute fra riket. Forbudet ble opphevet i **1851**, blant annet etter innsats fra **Henrik Wergeland**. Under andre verdenskrig ble rundt 770 jøder deportert fra Norge. I dag finnes det jødiske menigheter i **Oslo** og **Trondheim**, og jøder er en **nasjonal minoritet** i Norge.",
   "flashcards": [
-    { "term": "Abrahamittiske religioner", "def": "Jødedom, kristendom og islam." },
-    { "term": "Pakten", "def": "Forholdet mellom Gud og det jødiske folket." },
-    { "term": "Toraen", "def": "De fem Mosebøkene – den viktigste delen av de hellige skriftene." },
-    { "term": "Tanakh", "def": "Den hebraiske bibelen: Toraen, Profetene og Skriftene." },
-    { "term": "Talmud", "def": "Samling av rabbinernes diskusjoner og tolkninger av loven." },
-    { "term": "Sjema", "def": "Bønnen «Hør, Israel! Herren er vår Gud, Herren er én.»" },
-    { "term": "Kosher", "def": "Regler for hva som er tillatt å spise." },
-    { "term": "Synagoge", "def": "Sted for bønn, lesning og undervisning." },
-    { "term": "Rabbiner", "def": "Jødisk lærer og leder." },
-    { "term": "Sabbat", "def": "Hviledagen fra fredag kveld til lørdag kveld." },
-    { "term": "Pesach", "def": "Høytid som minner om utferden fra Egypt." },
-    { "term": "Jom kippur", "def": "Forsoningsdagen med faste og bønn." },
-    { "term": "Bar og bat mitsva", "def": "Overgangsrite der gutter og jenter blir religiøst myndige." },
-    { "term": "Diaspora", "def": "At jødene spredte seg over verden etter år 70." },
-    { "term": "Reformjødedom", "def": "Retning som tilpasser tradisjonen til moderne tid." }
+    {
+      "term": "Abrahamittiske religioner",
+      "def": "Jødedom, kristendom og islam."
+    },
+    {
+      "term": "Pakten",
+      "def": "Forholdet mellom Gud og det jødiske folket."
+    },
+    {
+      "term": "Toraen",
+      "def": "De fem Mosebøkene – den viktigste delen av de hellige skriftene."
+    },
+    {
+      "term": "Tanakh",
+      "def": "Den hebraiske bibelen: Toraen, Profetene og Skriftene."
+    },
+    {
+      "term": "Talmud",
+      "def": "Samling av rabbinernes diskusjoner og tolkninger av loven."
+    },
+    {
+      "term": "Sjema",
+      "def": "Bønnen «Hør, Israel! Herren er vår Gud, Herren er én.»"
+    },
+    {
+      "term": "Kosher",
+      "def": "Regler for hva som er tillatt å spise."
+    },
+    {
+      "term": "Synagoge",
+      "def": "Sted for bønn, lesning og undervisning."
+    },
+    {
+      "term": "Rabbiner",
+      "def": "Jødisk lærer og leder."
+    },
+    {
+      "term": "Sabbat",
+      "def": "Hviledagen fra fredag kveld til lørdag kveld."
+    },
+    {
+      "term": "Pesach",
+      "def": "Høytid som minner om utferden fra Egypt."
+    },
+    {
+      "term": "Jom kippur",
+      "def": "Forsoningsdagen med faste og bønn."
+    },
+    {
+      "term": "Bar og bat mitsva",
+      "def": "Overgangsrite der gutter og jenter blir religiøst myndige."
+    },
+    {
+      "term": "Diaspora",
+      "def": "At jødene spredte seg over verden etter år 70."
+    },
+    {
+      "term": "Reformjødedom",
+      "def": "Retning som tilpasser tradisjonen til moderne tid."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er Toraen?", "options": ["Den muslimske hellige boken", "De fem Mosebøkene", "Rabbinernes diskusjoner", "En bønn"], "correct": 1, "explain": "Den viktigste delen av de hellige skriftene." },
-    { "id": "q02", "text": "Hva er Talmud?", "options": ["En samling rabbinske diskusjoner og tolkninger av loven", "En høytid", "Et tempel", "En overgangsrite"], "correct": 0, "explain": "Skrevet gjennom flere hundre år." },
-    { "id": "q03", "text": "Når varer sabbaten?", "options": ["Hele søndag", "Mandag til fredag", "Fra fredag kveld til lørdag kveld", "Bare lørdag morgen"], "correct": 2, "explain": "En hviledag til minne om skapelsen." },
-    { "id": "q04", "text": "Hva minner pesach om?", "options": ["Skapelsen", "Tempelets gjeninnvielse", "Nyttåret", "Utferden fra Egypt"], "correct": 3, "explain": "En av de viktigste høytidene." },
-    { "id": "q05", "text": "Hva er jom kippur?", "options": ["Forsoningsdagen med faste og bønn", "Lysfesten", "Nyttåret", "Høsttakkefesten"], "correct": 0, "explain": "Den helligste dagen i året." },
-    { "id": "q06", "text": "Hvilken retning følger loven strengest?", "options": ["Reformjødedom", "Ortodoks jødedom", "Konservativ jødedom", "Sekulær jødedom"], "correct": 1, "explain": "Loven ses som uforanderlig." },
-    { "id": "q07", "text": "Hva er diasporaen?", "options": ["Et jødisk tempel", "En høytid", "At jødene spredte seg over verden", "En hellig bok"], "correct": 2, "explain": "Etter at tempelet ble ødelagt i år 70." },
-    { "id": "q08", "text": "Når ble forbudet mot jøder i Grunnloven opphevet?", "options": ["1814", "1905", "1945", "1851"], "correct": 3, "explain": "Blant annet etter innsats fra Wergeland." },
-    { "id": "q09", "text": "Hva er kosher?", "options": ["Regler for hva som er tillatt å spise", "En bønn", "En synagoge", "En type rabbiner"], "correct": 0, "explain": "For eksempel skal kjøtt og melk ikke blandes." },
-    { "id": "q10", "text": "Hva legger jødedommen særlig vekt på?", "options": ["Trosbekjennelser alene", "Handling – å leve etter budene", "Misjon", "Pilegrimsreise til Mekka"], "correct": 1, "explain": "Praksis er sentralt." }
+    {
+      "id": "q01",
+      "text": "Hva er Toraen?",
+      "options": [
+        "Den muslimske hellige boken",
+        "De fem Mosebøkene",
+        "Rabbinernes diskusjoner",
+        "En bønn"
+      ],
+      "correct": 1,
+      "explain": "Den viktigste delen av de hellige skriftene."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er Talmud?",
+      "options": [
+        "En samling rabbinske diskusjoner og tolkninger av loven",
+        "En høytid",
+        "Et tempel",
+        "En overgangsrite"
+      ],
+      "correct": 0,
+      "explain": "Skrevet gjennom flere hundre år."
+    },
+    {
+      "id": "q03",
+      "text": "Når varer sabbaten?",
+      "options": [
+        "Hele søndag",
+        "Mandag til fredag",
+        "Fra fredag kveld til lørdag kveld",
+        "Bare lørdag morgen"
+      ],
+      "correct": 2,
+      "explain": "En hviledag til minne om skapelsen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva minner pesach om?",
+      "options": [
+        "Skapelsen",
+        "Tempelets gjeninnvielse",
+        "Nyttåret",
+        "Utferden fra Egypt"
+      ],
+      "correct": 3,
+      "explain": "En av de viktigste høytidene."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er jom kippur?",
+      "options": [
+        "Forsoningsdagen med faste og bønn",
+        "Lysfesten",
+        "Nyttåret",
+        "Høsttakkefesten"
+      ],
+      "correct": 0,
+      "explain": "Den helligste dagen i året."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken retning følger loven strengest?",
+      "options": [
+        "Reformjødedom",
+        "Ortodoks jødedom",
+        "Konservativ jødedom",
+        "Sekulær jødedom"
+      ],
+      "correct": 1,
+      "explain": "Loven ses som uforanderlig."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er diasporaen?",
+      "options": [
+        "Et jødisk tempel",
+        "En høytid",
+        "At jødene spredte seg over verden",
+        "En hellig bok"
+      ],
+      "correct": 2,
+      "explain": "Etter at tempelet ble ødelagt i år 70."
+    },
+    {
+      "id": "q08",
+      "text": "Når ble forbudet mot jøder i Grunnloven opphevet?",
+      "options": [
+        "1814",
+        "1905",
+        "1945",
+        "1851"
+      ],
+      "correct": 3,
+      "explain": "Blant annet etter innsats fra Wergeland."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er kosher?",
+      "options": [
+        "Regler for hva som er tillatt å spise",
+        "En bønn",
+        "En synagoge",
+        "En type rabbiner"
+      ],
+      "correct": 0,
+      "explain": "For eksempel skal kjøtt og melk ikke blandes."
+    },
+    {
+      "id": "q10",
+      "text": "Hva legger jødedommen særlig vekt på?",
+      "options": [
+        "Trosbekjennelser alene",
+        "Handling – å leve etter budene",
+        "Misjon",
+        "Pilegrimsreise til Mekka"
+      ],
+      "correct": 1,
+      "explain": "Praksis er sentralt."
+    }
   ],
   "mindmap": {
     "label": "Jødedommen",
     "children": [
-      { "label": "Opphav", "children": [
-        { "label": "Abraham og pakten" },
-        { "label": "Moses og loven" }
-      ] },
-      { "label": "Skrifter", "children": [
-        { "label": "Toraen" },
-        { "label": "Tanakh" },
-        { "label": "Talmud" }
-      ] },
-      { "label": "Praksis", "children": [
-        { "label": "Sabbat" },
-        { "label": "Kosher" },
-        { "label": "Synagoge" }
-      ] },
-      { "label": "Høytider og riter", "children": [
-        { "label": "Pesach og jom kippur" },
-        { "label": "Hanukka" },
-        { "label": "Bar og bat mitsva" }
-      ] },
-      { "label": "Historie", "children": [
-        { "label": "Diaspora" },
-        { "label": "Holocaust og Israel" },
-        { "label": "Jøder i Norge" }
-      ] }
+      {
+        "label": "Opphav",
+        "children": [
+          {
+            "label": "Abraham og pakten"
+          },
+          {
+            "label": "Moses og loven"
+          }
+        ]
+      },
+      {
+        "label": "Skrifter",
+        "children": [
+          {
+            "label": "Toraen"
+          },
+          {
+            "label": "Tanakh"
+          },
+          {
+            "label": "Talmud"
+          }
+        ]
+      },
+      {
+        "label": "Praksis",
+        "children": [
+          {
+            "label": "Sabbat"
+          },
+          {
+            "label": "Kosher"
+          },
+          {
+            "label": "Synagoge"
+          }
+        ]
+      },
+      {
+        "label": "Høytider og riter",
+        "children": [
+          {
+            "label": "Pesach og jom kippur"
+          },
+          {
+            "label": "Hanukka"
+          },
+          {
+            "label": "Bar og bat mitsva"
+          }
+        ]
+      },
+      {
+        "label": "Historie",
+        "children": [
+          {
+            "label": "Diaspora"
+          },
+          {
+            "label": "Holocaust og Israel"
+          },
+          {
+            "label": "Jøder i Norge"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange jøder er sekulære, men føler seg likevel jødiske.", "correct": true, "explain": "Jødedommen er både religion og folk." },
-      { "id": "m02", "type": "sant-usant", "text": "Jødedommen er den yngste av de abrahamittiske religionene.", "correct": false, "explain": "Den er den eldste." },
-      { "id": "m03", "type": "sant-usant", "text": "Jøder er en nasjonal minoritet i Norge.", "correct": true, "explain": "Sammen med kvener, skogfinner, rom og romanifolket." },
-      { "id": "m04", "type": "sant-usant", "text": "Reformjødedommen tillater ikke kvinnelige rabbinere.", "correct": false, "explain": "Den har kvinnelige rabbinere." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er hanukka?", "options": ["Forsoningsdagen", "Lysfesten", "Nyttåret", "Utferden"], "correct": 1, "explain": "Minner om gjeninnvielsen av tempelet." },
-      { "id": "m06", "type": "flervalg", "text": "Når ble staten Israel opprettet?", "options": ["1948", "1914", "1851", "70"], "correct": 0, "explain": "Etter andre verdenskrig." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilke deler består Tanakh av?", "options": ["Evangeliene og brevene", "Koranen og hadith", "Toraen, Profetene og Skriftene", "Vedaene og Upanishadene"], "correct": 2, "explain": "Den hebraiske bibelen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange jøder er sekulære, men føler seg likevel jødiske.",
+        "correct": true,
+        "explain": "Jødedommen er både religion og folk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Jødedommen er den yngste av de abrahamittiske religionene.",
+        "correct": false,
+        "explain": "Den er den eldste."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Jøder er en nasjonal minoritet i Norge.",
+        "correct": true,
+        "explain": "Sammen med kvener, skogfinner, rom og romanifolket."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Reformjødedommen tillater ikke kvinnelige rabbinere.",
+        "correct": false,
+        "explain": "Den har kvinnelige rabbinere."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er hanukka?",
+        "options": [
+          "Forsoningsdagen",
+          "Lysfesten",
+          "Nyttåret",
+          "Utferden"
+        ],
+        "correct": 1,
+        "explain": "Minner om gjeninnvielsen av tempelet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Når ble staten Israel opprettet?",
+        "options": [
+          "1948",
+          "1914",
+          "1851",
+          "70"
+        ],
+        "correct": 0,
+        "explain": "Etter andre verdenskrig."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilke deler består Tanakh av?",
+        "options": [
+          "Evangeliene og brevene",
+          "Koranen og hadith",
+          "Toraen, Profetene og Skriftene",
+          "Vedaene og Upanishadene"
+        ],
+        "correct": 2,
+        "explain": "Den hebraiske bibelen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva pakten betyr i jødedommen, og knytt den til Abraham.",
+        "fasit": "Pakten er forholdet mellom Gud og det jødiske folket. Ifølge jødisk tradisjon inngikk Gud denne pakten med Abraham.",
+        "kriterier": [
+          "Forklarer at pakten er et forhold mellom Gud og det jødiske folket.",
+          "Knytter pakten til Abraham."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign Toraen og Tanakh med tanke på hva de inneholder, og forklar hvordan de henger sammen.",
+        "fasit": "Toraen består av de fem Mosebøkene. Tanakh er hele den hebraiske bibelen og omfatter Toraen, Profetene og Skriftene, så Toraen er en del av Tanakh.",
+        "kriterier": [
+          "Forklarer at Toraen er de fem Mosebøkene.",
+          "Forklarer at Tanakh også omfatter Profetene og Skriftene, og at Toraen inngår i Tanakh."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En person følger ikke religiøse regler, men omtaler seg likevel som jødisk. Forklar hvordan dette kan henge sammen med at jødedommen både er en religion og et folk.",
+        "fasit": "Jødisk identitet kan være knyttet til et folk og en felles historie, ikke bare til religiøs tro eller praksis. Derfor kan også sekulære personer føle seg jødiske.",
+        "kriterier": [
+          "Forklarer at jødisk identitet også handler om folk og felles historie.",
+          "Knytter dette til at sekulære jøder fortsatt kan føle seg jødiske."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du skal servere et måltid som følger kosher-reglene. Det serveres både kjøtt og melk. Hva må du passe på, og hvorfor?",
+        "fasit": "Kjøtt og melk skal ikke blandes i et kosher måltid. Derfor må de serveres hver for seg.",
+        "kriterier": [
+          "Slår fast at kjøtt og melk ikke skal blandes.",
+          "Bruker regelen til å forklare at maten må holdes atskilt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En besøkende vil delta i bønn og lære om jødisk tro. Forklar hvor personen kan gå, og hvilken rolle en rabbiner har der.",
+        "fasit": "Personen kan gå til en synagoge, som brukes til bønn, lesning og undervisning. En rabbiner er en jødisk lærer og leder.",
+        "kriterier": [
+          "Identifiserer synagogen som et sted for bønn og læring.",
+          "Forklarer rabbinerens rolle som lærer eller leder."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign sabbat og jom kippur med tanke på hva slags dag de er, og hva som kjennetegner dem.",
+        "fasit": "Sabbaten er en hviledag fra fredag kveld til lørdag kveld og minner om skapelsen. Jom kippur er forsoningsdagen, som kjennetegnes av faste og bønn.",
+        "kriterier": [
+          "Forklarer sabbaten som hviledag og knytter den til skapelsen.",
+          "Forklarer jom kippur som forsoningsdag med faste og bønn."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign ortodoks jødedom og reformjødedom: Hvordan forholder de seg ulikt til religiøs lov og tradisjon?",
+        "fasit": "Ortodoks jødedom følger loven strengt og ser den som uforanderlig. Reformjødedom tilpasser tradisjonen til moderne tid, for eksempel ved å ha kvinnelige rabbinere.",
+        "kriterier": [
+          "Forklarer at ortodoks jødedom følger loven strengt og ser den som uforanderlig.",
+          "Forklarer at reformjødedom tilpasser tradisjonen til moderne tid."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Grunnloven fra 1814 stengte jøder ute fra Norge, og forbudet ble opphevet i 1851. Forklar hvilken endring dette innebar for jøders adgang til riket, og hvilken rolle Henrik Wergeland hadde.",
+        "fasit": "I 1814 var jøder utestengt fra riket, mens de etter opphevelsen i 1851 kunne komme inn. Henrik Wergeland arbeidet for å få opphevet forbudet.",
+        "kriterier": [
+          "Forklarer endringen fra utestengelse til at forbudet ble opphevet.",
+          "Knytter Henrik Wergelands innsats til arbeidet for å oppheve forbudet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

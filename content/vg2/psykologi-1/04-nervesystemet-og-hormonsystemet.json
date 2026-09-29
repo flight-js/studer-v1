@@ -4,83 +4,444 @@
   "trinnId": "vg2",
   "name": "Nervesystemet, hjernen og hormonsystemet",
   "intro": "Nerveceller og signalstoffer, oppbygningen av nervesystemet, hjernens deler og hormonsystemet – og hvordan systemene samarbeider og danner grunnlaget for tanker, emosjoner og atferd.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Nervecellene\n\nHjernen består av rundt **86 milliarder nerveceller** – **nevroner**. Et nevron har\n\n- **dendritter** som tar imot signaler\n- en **cellekropp**\n- et **akson** som sender signalet videre, ofte dekket av isolerende **myelin** som gjør signalet raskere\n\nInne i nevronet går signalet som en **elektrisk impuls**. Mellom to nevroner er det en liten spalte, **synapsen**. Her frigjøres **signalstoffer** (nevrotransmittere) som påvirker neste celle.\n\n| Signalstoff | Viktig for |\n|---|---|\n| **Dopamin** | belønning, motivasjon og bevegelse |\n| **Serotonin** | humør, søvn og appetitt |\n| **Noradrenalin** | årvåkenhet og stressreaksjoner |\n| **GABA** | demper aktivitet – virker beroligende |\n| **Endorfiner** | demper smerte |\n\n## Nervesystemets oppbygning\n\n- **Sentralnervesystemet** (CNS): **hjernen** og **ryggmargen**.\n- **Det perifere nervesystemet**: nervene ut i kroppen.\n  - Det **somatiske** nervesystemet styrer **viljestyrte** bevegelser og tar imot sanseinntrykk.\n  - Det **autonome** nervesystemet styrer **automatiske** funksjoner. Den **sympatiske** delen gjør kroppen klar til **kamp eller flukt**, mens den **parasympatiske** delen gir **ro** og **hvile**.\n\n## Hjernens deler\n\n- **Hjernestammen** styrer livsviktige funksjoner som **pust** og **hjerterytme**.\n- **Lillehjernen** styrer **balanse** og **koordinasjon**.\n- **Det limbiske systemet** er viktig for **emosjoner** og **hukommelse**: **amygdala** reagerer på **fare** og **frykt**, **hippocampus** lagrer nye **minner**, og **hypothalamus** styrer **sult**, **temperatur** og **hormonsystemet**.\n- **Hjernebarken** er det ytterste laget og deles i fire lapper:\n  - **pannelappen** – planlegging, impulskontroll og beslutninger\n  - **isselappen** – kroppsfølelse og romforståelse\n  - **tinninglappen** – hørsel og språkforståelse\n  - **bakhodelappen** – syn\n\nDe to **hjernehalvdelene** er koblet sammen av **hjernebjelken**. Venstre halvdel styrer i hovedsak høyre side av kroppen og omvendt. Hjernen kan endre seg gjennom hele livet – **nevroplastisitet**.\n\n## Hormonsystemet\n\n**Hormoner** er kjemiske budbringere som skilles ut fra **kjertler** og fraktes med **blodet**. De virker **langsommere** og **lenger** enn nervesignaler.\n\n- **Hypofysen** styrer mange andre kjertler og kalles «**hovedkjertelen**».\n- **Binyrene** skiller ut **adrenalin** og **kortisol** ved stress.\n- **Skjoldbruskkjertelen** regulerer **stoffskiftet**.\n- **Epifysen** skiller ut **melatonin**, som regulerer **søvn**.\n- **Kjønnskjertlene** skiller ut **testosteron** og **østrogen**.\n- **Oksytocin** er viktig for **tilknytning** og **tillit**.\n\n## Samspillet: et eksempel\n\nDu ser noe som ligner en **slange** på stien. **Synssansen** sender signaler til hjernen, og **amygdala** reagerer lynraskt. **Hypothalamus** aktiverer det **sympatiske** nervesystemet og **binyrene**: pulsen øker, og du **hopper** til side. Et øyeblikk senere vurderer **pannelappen** at det bare var en **pinne**, og den **parasympatiske** delen roer kroppen ned.\n\nEksempelet viser at **tanker**, **emosjoner** og **atferd** oppstår i et samspill mellom **sanser**, **nerver** og **hormoner**. Psykologer har ulike teorier om hva som kommer først: den kroppslige reaksjonen eller følelsen – eller om følelsen avhenger av hvordan vi **tolker** kroppens signaler.",
   "flashcards": [
-    { "term": "Nevron", "def": "Nervecelle som sender elektriske og kjemiske signaler." },
-    { "term": "Dendritter", "def": "Utløpere som tar imot signaler." },
-    { "term": "Akson", "def": "Utløperen som sender signalet videre." },
-    { "term": "Myelin", "def": "Isolerende lag rundt aksonet som gjør signalet raskere." },
-    { "term": "Synapse", "def": "Spalten mellom to nevroner der signalstoffer frigjøres." },
-    { "term": "Dopamin", "def": "Signalstoff for belønning, motivasjon og bevegelse." },
-    { "term": "Serotonin", "def": "Signalstoff for humør, søvn og appetitt." },
-    { "term": "Sentralnervesystemet", "def": "Hjernen og ryggmargen." },
-    { "term": "Sympatiske nervesystem", "def": "Gjør kroppen klar til kamp eller flukt." },
-    { "term": "Parasympatiske nervesystem", "def": "Gir ro, hvile og fordøyelse." },
-    { "term": "Amygdala", "def": "Reagerer på fare og frykt." },
-    { "term": "Hippocampus", "def": "Viktig for å lagre nye minner." },
-    { "term": "Hypothalamus", "def": "Styrer sult, temperatur og hormonsystemet." },
-    { "term": "Pannelappen", "def": "Planlegging, impulskontroll og beslutninger." },
-    { "term": "Hjernebjelken", "def": "Forbinder de to hjernehalvdelene." },
-    { "term": "Nevroplastisitet", "def": "Hjernens evne til å endre seg gjennom livet." },
-    { "term": "Hormon", "def": "Kjemisk budbringer fra en kjertel, fraktes med blodet." },
-    { "term": "Hypofysen", "def": "«Hovedkjertelen» som styrer andre kjertler." },
-    { "term": "Kortisol", "def": "Stresshormon fra binyrene." },
-    { "term": "Melatonin", "def": "Hormon fra epifysen som regulerer søvn." }
+    {
+      "term": "Nevron",
+      "def": "Nervecelle som sender elektriske og kjemiske signaler."
+    },
+    {
+      "term": "Dendritter",
+      "def": "Utløpere som tar imot signaler."
+    },
+    {
+      "term": "Akson",
+      "def": "Utløperen som sender signalet videre."
+    },
+    {
+      "term": "Myelin",
+      "def": "Isolerende lag rundt aksonet som gjør signalet raskere."
+    },
+    {
+      "term": "Synapse",
+      "def": "Spalten mellom to nevroner der signalstoffer frigjøres."
+    },
+    {
+      "term": "Dopamin",
+      "def": "Signalstoff for belønning, motivasjon og bevegelse."
+    },
+    {
+      "term": "Serotonin",
+      "def": "Signalstoff for humør, søvn og appetitt."
+    },
+    {
+      "term": "Sentralnervesystemet",
+      "def": "Hjernen og ryggmargen."
+    },
+    {
+      "term": "Sympatiske nervesystem",
+      "def": "Gjør kroppen klar til kamp eller flukt."
+    },
+    {
+      "term": "Parasympatiske nervesystem",
+      "def": "Gir ro, hvile og fordøyelse."
+    },
+    {
+      "term": "Amygdala",
+      "def": "Reagerer på fare og frykt."
+    },
+    {
+      "term": "Hippocampus",
+      "def": "Viktig for å lagre nye minner."
+    },
+    {
+      "term": "Hypothalamus",
+      "def": "Styrer sult, temperatur og hormonsystemet."
+    },
+    {
+      "term": "Pannelappen",
+      "def": "Planlegging, impulskontroll og beslutninger."
+    },
+    {
+      "term": "Hjernebjelken",
+      "def": "Forbinder de to hjernehalvdelene."
+    },
+    {
+      "term": "Nevroplastisitet",
+      "def": "Hjernens evne til å endre seg gjennom livet."
+    },
+    {
+      "term": "Hormon",
+      "def": "Kjemisk budbringer fra en kjertel, fraktes med blodet."
+    },
+    {
+      "term": "Hypofysen",
+      "def": "«Hovedkjertelen» som styrer andre kjertler."
+    },
+    {
+      "term": "Kortisol",
+      "def": "Stresshormon fra binyrene."
+    },
+    {
+      "term": "Melatonin",
+      "def": "Hormon fra epifysen som regulerer søvn."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva skjer i synapsen?", "options": ["Blodet renses", "Signalstoffer frigjøres og påvirker neste nevron", "Hormoner lages", "Minner lagres permanent"], "correct": 1, "explain": "Signalet går kjemisk over spalten." },
-    { "id": "q02", "text": "Hvilket signalstoff er særlig knyttet til belønning og motivasjon?", "options": ["Dopamin", "Melatonin", "Insulin", "Kortisol"], "correct": 0, "explain": "Viktig i hjernens belønningssystem." },
-    { "id": "q03", "text": "Hva består sentralnervesystemet av?", "options": ["Nervene i armer og bein", "Hormonkjertlene", "Hjernen og ryggmargen", "Hjertet og lungene"], "correct": 2, "explain": "Resten er det perifere nervesystemet." },
-    { "id": "q04", "text": "Hvilken del av nervesystemet gjør kroppen klar til kamp eller flukt?", "options": ["Den parasympatiske", "Den somatiske", "Lillehjernen", "Den sympatiske"], "correct": 3, "explain": "Pulsen og pusten øker." },
-    { "id": "q05", "text": "Hvilken hjernedel reagerer raskt på fare?", "options": ["Amygdala", "Lillehjernen", "Bakhodelappen", "Hjernebjelken"], "correct": 0, "explain": "En del av det limbiske systemet." },
-    { "id": "q06", "text": "Hva styrer pannelappen?", "options": ["Syn", "Planlegging, impulskontroll og beslutninger", "Balanse", "Pust og hjerterytme"], "correct": 1, "explain": "Den modnes sist i hjernen." },
-    { "id": "q07", "text": "Hvordan skiller hormoner seg fra nervesignaler?", "options": ["De er raskere", "De går bare i hjernen", "De fraktes med blodet og virker langsommere og lenger", "De er elektriske"], "correct": 2, "explain": "Nervesignaler er raske og kortvarige." },
-    { "id": "q08", "text": "Hvilken kjertel kalles «hovedkjertelen»?", "options": ["Binyrene", "Skjoldbruskkjertelen", "Epifysen", "Hypofysen"], "correct": 3, "explain": "Den styrer mange andre kjertler." },
-    { "id": "q09", "text": "Hvilken del av hjernen er viktig for balanse og koordinasjon?", "options": ["Lillehjernen", "Tinninglappen", "Hippocampus", "Hypothalamus"], "correct": 0, "explain": "Ligger bak hjernestammen." },
-    { "id": "q10", "text": "Hva er nevroplastisitet?", "options": ["At hjernen er ferdig utviklet ved fødselen", "Hjernens evne til å endre seg gjennom livet", "En sykdom i nervene", "Et hormon"], "correct": 1, "explain": "Grunnlaget for læring." }
+    {
+      "id": "q01",
+      "text": "Hva skjer i synapsen?",
+      "options": [
+        "Blodet renses",
+        "Signalstoffer frigjøres og påvirker neste nevron",
+        "Hormoner lages",
+        "Minner lagres permanent"
+      ],
+      "correct": 1,
+      "explain": "Signalet går kjemisk over spalten."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket signalstoff er særlig knyttet til belønning og motivasjon?",
+      "options": [
+        "Dopamin",
+        "Melatonin",
+        "Insulin",
+        "Kortisol"
+      ],
+      "correct": 0,
+      "explain": "Viktig i hjernens belønningssystem."
+    },
+    {
+      "id": "q03",
+      "text": "Hva består sentralnervesystemet av?",
+      "options": [
+        "Nervene i armer og bein",
+        "Hormonkjertlene",
+        "Hjernen og ryggmargen",
+        "Hjertet og lungene"
+      ],
+      "correct": 2,
+      "explain": "Resten er det perifere nervesystemet."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken del av nervesystemet gjør kroppen klar til kamp eller flukt?",
+      "options": [
+        "Den parasympatiske",
+        "Den somatiske",
+        "Lillehjernen",
+        "Den sympatiske"
+      ],
+      "correct": 3,
+      "explain": "Pulsen og pusten øker."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken hjernedel reagerer raskt på fare?",
+      "options": [
+        "Amygdala",
+        "Lillehjernen",
+        "Bakhodelappen",
+        "Hjernebjelken"
+      ],
+      "correct": 0,
+      "explain": "En del av det limbiske systemet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva styrer pannelappen?",
+      "options": [
+        "Syn",
+        "Planlegging, impulskontroll og beslutninger",
+        "Balanse",
+        "Pust og hjerterytme"
+      ],
+      "correct": 1,
+      "explain": "Den modnes sist i hjernen."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan skiller hormoner seg fra nervesignaler?",
+      "options": [
+        "De er raskere",
+        "De går bare i hjernen",
+        "De fraktes med blodet og virker langsommere og lenger",
+        "De er elektriske"
+      ],
+      "correct": 2,
+      "explain": "Nervesignaler er raske og kortvarige."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken kjertel kalles «hovedkjertelen»?",
+      "options": [
+        "Binyrene",
+        "Skjoldbruskkjertelen",
+        "Epifysen",
+        "Hypofysen"
+      ],
+      "correct": 3,
+      "explain": "Den styrer mange andre kjertler."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken del av hjernen er viktig for balanse og koordinasjon?",
+      "options": [
+        "Lillehjernen",
+        "Tinninglappen",
+        "Hippocampus",
+        "Hypothalamus"
+      ],
+      "correct": 0,
+      "explain": "Ligger bak hjernestammen."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er nevroplastisitet?",
+      "options": [
+        "At hjernen er ferdig utviklet ved fødselen",
+        "Hjernens evne til å endre seg gjennom livet",
+        "En sykdom i nervene",
+        "Et hormon"
+      ],
+      "correct": 1,
+      "explain": "Grunnlaget for læring."
+    }
   ],
   "mindmap": {
     "label": "Nervesystemet og hormonsystemet",
     "children": [
-      { "label": "Nevronet", "children": [
-        { "label": "Dendritter og akson" },
-        { "label": "Synapse" },
-        { "label": "Signalstoffer" }
-      ] },
-      { "label": "Nervesystemet", "children": [
-        { "label": "CNS" },
-        { "label": "Somatisk" },
-        { "label": "Sympatisk og parasympatisk" }
-      ] },
-      { "label": "Hjernen", "children": [
-        { "label": "Hjernestamme og lillehjerne" },
-        { "label": "Limbiske system" },
-        { "label": "Fire lapper" }
-      ] },
-      { "label": "Hormoner", "children": [
-        { "label": "Hypofysen" },
-        { "label": "Adrenalin og kortisol" },
-        { "label": "Melatonin og oksytocin" }
-      ] },
-      { "label": "Samspill", "children": [
-        { "label": "Sanser → amygdala" },
-        { "label": "Kropp og tolkning" }
-      ] }
+      {
+        "label": "Nevronet",
+        "children": [
+          {
+            "label": "Dendritter og akson"
+          },
+          {
+            "label": "Synapse"
+          },
+          {
+            "label": "Signalstoffer"
+          }
+        ]
+      },
+      {
+        "label": "Nervesystemet",
+        "children": [
+          {
+            "label": "CNS"
+          },
+          {
+            "label": "Somatisk"
+          },
+          {
+            "label": "Sympatisk og parasympatisk"
+          }
+        ]
+      },
+      {
+        "label": "Hjernen",
+        "children": [
+          {
+            "label": "Hjernestamme og lillehjerne"
+          },
+          {
+            "label": "Limbiske system"
+          },
+          {
+            "label": "Fire lapper"
+          }
+        ]
+      },
+      {
+        "label": "Hormoner",
+        "children": [
+          {
+            "label": "Hypofysen"
+          },
+          {
+            "label": "Adrenalin og kortisol"
+          },
+          {
+            "label": "Melatonin og oksytocin"
+          }
+        ]
+      },
+      {
+        "label": "Samspill",
+        "children": [
+          {
+            "label": "Sanser → amygdala"
+          },
+          {
+            "label": "Kropp og tolkning"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Venstre hjernehalvdel styrer i hovedsak høyre side av kroppen.", "correct": true, "explain": "Nervebanene krysser." },
-      { "id": "m02", "type": "sant-usant", "text": "Bakhodelappen er særlig viktig for hørsel.", "correct": false, "explain": "Den er viktig for syn, tinninglappen for hørsel." },
-      { "id": "m03", "type": "sant-usant", "text": "Myelin gjør at nervesignaler går raskere.", "correct": true, "explain": "Det isolerer aksonet." },
-      { "id": "m04", "type": "sant-usant", "text": "Hippocampus styrer pust og hjerterytme.", "correct": false, "explain": "Det gjør hjernestammen, hippocampus er viktig for minner." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket hormon regulerer søvn?", "options": ["Adrenalin", "Melatonin", "Testosteron", "Insulin"], "correct": 1, "explain": "Skilles ut fra epifysen når det blir mørkt." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket signalstoff virker dempende på hjerneaktiviteten?", "options": ["GABA", "Dopamin", "Noradrenalin", "Adrenalin"], "correct": 0, "explain": "Virker beroligende." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket hormon er særlig knyttet til tilknytning og tillit?", "options": ["Kortisol", "Tyroksin", "Oksytocin", "Melatonin"], "correct": 2, "explain": "Viktig blant annet mellom foreldre og spedbarn." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Venstre hjernehalvdel styrer i hovedsak høyre side av kroppen.",
+        "correct": true,
+        "explain": "Nervebanene krysser."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Bakhodelappen er særlig viktig for hørsel.",
+        "correct": false,
+        "explain": "Den er viktig for syn, tinninglappen for hørsel."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Myelin gjør at nervesignaler går raskere.",
+        "correct": true,
+        "explain": "Det isolerer aksonet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Hippocampus styrer pust og hjerterytme.",
+        "correct": false,
+        "explain": "Det gjør hjernestammen, hippocampus er viktig for minner."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket hormon regulerer søvn?",
+        "options": [
+          "Adrenalin",
+          "Melatonin",
+          "Testosteron",
+          "Insulin"
+        ],
+        "correct": 1,
+        "explain": "Skilles ut fra epifysen når det blir mørkt."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket signalstoff virker dempende på hjerneaktiviteten?",
+        "options": [
+          "GABA",
+          "Dopamin",
+          "Noradrenalin",
+          "Adrenalin"
+        ],
+        "correct": 0,
+        "explain": "Virker beroligende."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket hormon er særlig knyttet til tilknytning og tillit?",
+        "options": [
+          "Kortisol",
+          "Tyroksin",
+          "Oksytocin",
+          "Melatonin"
+        ],
+        "correct": 2,
+        "explain": "Viktig blant annet mellom foreldre og spedbarn."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Beskriv hvordan et signal går gjennom et nevron fra dendrittene og videre ut av cellen. Ta også med hva myelin gjør.",
+        "fasit": "Dendrittene tar imot signaler, og aksonet sender signalet videre. Myelin isolerer aksonet og gjør at signalet går raskere.",
+        "kriterier": [
+          "Forklarer at dendrittene tar imot signaler og aksonet sender dem videre.",
+          "Forklarer at myelin gjør signalet raskere."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign det somatiske og det autonome nervesystemet ut fra hva de styrer.",
+        "fasit": "Det somatiske nervesystemet styrer viljestyrte bevegelser og tar imot sanseinntrykk. Det autonome nervesystemet styrer automatiske funksjoner.",
+        "kriterier": [
+          "Knytter det somatiske nervesystemet til viljestyrte bevegelser og/eller sanseinntrykk.",
+          "Knytter det autonome nervesystemet til automatiske funksjoner."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Du hører en muntlig beskjed og forstår ordene. Hvilken hjernelapp er særlig knyttet til disse oppgavene, og hva gjør den?",
+        "fasit": "Tinninglappen er særlig knyttet til hørsel og språkforståelse. Den er derfor relevant både når du hører beskjeden og forstår ordene.",
+        "kriterier": [
+          "Identifiserer tinninglappen.",
+          "Knytter tinninglappen til hørsel og språkforståelse."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev lærer navnet på en ny klassekamerat og vil huske det senere. Hvilken hjernedel er særlig viktig for dette, og hvorfor?",
+        "fasit": "Hippocampus er særlig viktig fordi den bidrar til å lagre nye minner. Den er derfor relevant når eleven skal huske et nytt navn.",
+        "kriterier": [
+          "Identifiserer hippocampus.",
+          "Forklarer at hippocampus er viktig for å lagre nye minner."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign binyrene og skjoldbruskkjertelen ut fra hva de skiller ut eller regulerer.",
+        "fasit": "Binyrene skiller ut adrenalin og kortisol ved stress. Skjoldbruskkjertelen regulerer stoffskiftet.",
+        "kriterier": [
+          "Knytter binyrene til adrenalin og/eller kortisol ved stress.",
+          "Knytter skjoldbruskkjertelen til regulering av stoffskiftet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign signalstoffene GABA og endorfiner ut fra virkningen deres.",
+        "fasit": "GABA demper aktivitet og virker beroligende. Endorfiner demper smerte.",
+        "kriterier": [
+          "Forklarer at GABA demper aktivitet eller virker beroligende.",
+          "Forklarer at endorfiner demper smerte."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvordan hjernebjelken og hjernehalvdelene henger sammen med styringen av kroppssidene.",
+        "fasit": "Hjernebjelken forbinder de to hjernehalvdelene. Hver hjernehalvdel styrer i hovedsak motsatt side av kroppen.",
+        "kriterier": [
+          "Forklarer at hjernebjelken forbinder hjernehalvdelene.",
+          "Forklarer at hver hjernehalvdel i hovedsak styrer motsatt kroppsside."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hvilke oppgaver er særlig knyttet til isselappen og bakhodelappen? Sammenlign de to lappene.",
+        "fasit": "Isselappen er særlig knyttet til kroppsfølelse og romforståelse. Bakhodelappen er særlig knyttet til syn.",
+        "kriterier": [
+          "Knytter isselappen til kroppsfølelse og/eller romforståelse.",
+          "Knytter bakhodelappen til syn."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

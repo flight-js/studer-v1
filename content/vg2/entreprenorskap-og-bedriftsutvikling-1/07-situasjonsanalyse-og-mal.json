@@ -4,76 +4,418 @@
   "trinnId": "vg2",
   "name": "Situasjonsanalyse, utviklingsmuligheter og mål",
   "intro": "Hvordan en ny virksomhet analyserer seg selv og omgivelsene med SWOT, PESTEL og Porters fem konkurransekrefter, vurderer utviklingsmuligheter med Ansoffs vekstmatrise og setter realistiske mål og milepæler i oppstartsfasen.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Hvorfor situasjonsanalyse i oppstarten?\n\nEn gründer må vite **hvor virksomheten står** og **hva som skjer rundt den** før hen setter mål og velger strategi. En **situasjonsanalyse** ser både **innover** på egne ressurser og **utover** mot markedet og samfunnet.\n\n## Intern analyse\n\nI oppstartsfasen er ressursene ofte **få**. Gründeren bør kartlegge\n\n- **kompetanse** – hva teamet kan, og hva som mangler\n- **kapital** – hvor mye penger som er tilgjengelig\n- **nettverk** – hvem som kan hjelpe\n- **tid** – hvor mye tid teamet faktisk har\n- **produktet** – hva som gjør det unikt\n\n## Ekstern analyse\n\n**PESTEL** ser på politiske, økonomiske, sosiale, teknologiske, miljømessige og juridiske forhold – for eksempel renter, trender og nye regler.\n\n**Porters fem konkurransekrefter** beskriver hvor **hard** konkurransen i en bransje er:\n\n1. **Rivalisering** mellom eksisterende konkurrenter\n2. **Trusselen fra nye aktører** – hvor lett det er å etablere seg\n3. **Trusselen fra erstatningsprodukter** – andre løsninger på samme behov\n4. **Leverandørenes forhandlingsmakt**\n5. **Kundenes forhandlingsmakt**\n\nJo sterkere kreftene er, desto vanskeligere er det å tjene penger i bransjen.\n\n## SWOT\n\n**SWOT-analysen** samler funnene i **styrker** og **svakheter** (internt) og **muligheter** og **trusler** (eksternt). Analysen er bare nyttig når den brukes til å **velge strategi**: bruke styrker til å utnytte muligheter, og redusere svakheter som gjør virksomheten sårbar for trusler.\n\n## Utviklingsmuligheter – Ansoffs vekstmatrise\n\n**Igor Ansoff** beskrev fire måter en virksomhet kan vokse på:\n\n| | Eksisterende marked | Nytt marked |\n|---|---|---|\n| **Eksisterende produkt** | **Markedspenetrasjon** – selge mer til dagens kunder | **Markedsutvikling** – nye kundegrupper eller steder |\n| **Nytt produkt** | **Produktutvikling** – nye produkter til dagens kunder | **Diversifisering** – nye produkter til nye markeder |\n\n**Risikoen** øker jo lenger bort fra det kjente virksomheten går. **Diversifisering** har høyest risiko.\n\n## Mål i oppstartsfasen\n\nMålene bygger på **visjonen** og **forretningsidéen**. Gode mål er **SMARTE**: spesifikke, målbare, akseptert, realistiske og tidsbestemte.\n\nI oppstarten kan det være lurt å sette\n\n- **salgsmål** – for eksempel 100 solgte enheter innen tre måneder\n- **økonomiske mål** – for eksempel å nå **nullpunktet** innen ett år\n- **kundemål** – antall kunder eller kundetilfredshet\n- **milepæler** – viktige steg, som ferdig prototyp, første kunde og lansering\n\n## Vær realistisk\n\nMange gründere er **for optimistiske**. Salget tar ofte **lengre tid**, og kostnadene blir **høyere** enn planlagt. Derfor bør målene **følges opp** og **justeres** når man lærer mer om markedet.\n\n## Eksempel\n\nEn elevbedrift som selger gjenbrukte vesker, finner at en **styrke** er et kreativt team, en **svakhet** er lite kapital, en **mulighet** er økende interesse for gjenbruk, og en **trussel** er billige vesker på nett. Den velger **markedspenetrasjon** på skolen først og setter målet «selge 60 vesker innen jul».",
   "flashcards": [
-    { "term": "Situasjonsanalyse", "def": "Kartlegging av egne ressurser og omgivelsene." },
-    { "term": "Intern analyse i oppstart", "def": "Kompetanse, kapital, nettverk, tid og produkt." },
-    { "term": "PESTEL", "def": "Politiske, økonomiske, sosiale, teknologiske, miljømessige og juridiske forhold." },
-    { "term": "Porters fem konkurransekrefter", "def": "Rivalisering, nye aktører, erstatningsprodukter, leverandørmakt og kundemakt." },
-    { "term": "Erstatningsprodukt", "def": "En annen løsning på samme behov." },
-    { "term": "Trussel fra nye aktører", "def": "Hvor lett det er for nye å etablere seg i bransjen." },
-    { "term": "SWOT", "def": "Styrker, svakheter, muligheter og trusler." },
-    { "term": "Ansoffs vekstmatrise", "def": "Fire vekststrategier ut fra produkt og marked." },
-    { "term": "Markedspenetrasjon", "def": "Selge mer av dagens produkt til dagens kunder." },
-    { "term": "Markedsutvikling", "def": "Selge dagens produkt til nye kundegrupper eller steder." },
-    { "term": "Produktutvikling", "def": "Nye produkter til dagens kunder." },
-    { "term": "Diversifisering", "def": "Nye produkter til nye markeder – høyest risiko." },
-    { "term": "SMARTE mål", "def": "Spesifikke, målbare, akseptert, realistiske og tidsbestemte." },
-    { "term": "Milepæl", "def": "Viktig steg på veien, som første kunde eller lansering." },
-    { "term": "Nullpunkt", "def": "Når inntektene akkurat dekker kostnadene." }
+    {
+      "term": "Situasjonsanalyse",
+      "def": "Kartlegging av egne ressurser og omgivelsene."
+    },
+    {
+      "term": "Intern analyse i oppstart",
+      "def": "Kompetanse, kapital, nettverk, tid og produkt."
+    },
+    {
+      "term": "PESTEL",
+      "def": "Politiske, økonomiske, sosiale, teknologiske, miljømessige og juridiske forhold."
+    },
+    {
+      "term": "Porters fem konkurransekrefter",
+      "def": "Rivalisering, nye aktører, erstatningsprodukter, leverandørmakt og kundemakt."
+    },
+    {
+      "term": "Erstatningsprodukt",
+      "def": "En annen løsning på samme behov."
+    },
+    {
+      "term": "Trussel fra nye aktører",
+      "def": "Hvor lett det er for nye å etablere seg i bransjen."
+    },
+    {
+      "term": "SWOT",
+      "def": "Styrker, svakheter, muligheter og trusler."
+    },
+    {
+      "term": "Ansoffs vekstmatrise",
+      "def": "Fire vekststrategier ut fra produkt og marked."
+    },
+    {
+      "term": "Markedspenetrasjon",
+      "def": "Selge mer av dagens produkt til dagens kunder."
+    },
+    {
+      "term": "Markedsutvikling",
+      "def": "Selge dagens produkt til nye kundegrupper eller steder."
+    },
+    {
+      "term": "Produktutvikling",
+      "def": "Nye produkter til dagens kunder."
+    },
+    {
+      "term": "Diversifisering",
+      "def": "Nye produkter til nye markeder – høyest risiko."
+    },
+    {
+      "term": "SMARTE mål",
+      "def": "Spesifikke, målbare, akseptert, realistiske og tidsbestemte."
+    },
+    {
+      "term": "Milepæl",
+      "def": "Viktig steg på veien, som første kunde eller lansering."
+    },
+    {
+      "term": "Nullpunkt",
+      "def": "Når inntektene akkurat dekker kostnadene."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva hører til den interne analysen i oppstartsfasen?", "options": ["Renten", "Teamets kompetanse og kapital", "Nye lover", "Konkurrentenes priser"], "correct": 1, "explain": "Forhold virksomheten selv rår over." },
-    { "id": "q02", "text": "Hvilken kraft hører til Porters fem konkurransekrefter?", "options": ["Trusselen fra erstatningsprodukter", "De ansattes motivasjon", "Logoen", "Visjonen"], "correct": 0, "explain": "Andre løsninger på samme behov." },
-    { "id": "q03", "text": "Hva betyr sterke konkurransekrefter?", "options": ["At det er lett å tjene penger", "At det ikke finnes konkurrenter", "At det er vanskeligere å tjene penger i bransjen", "At prisene alltid er høye"], "correct": 2, "explain": "Konkurransen presser marginene." },
-    { "id": "q04", "text": "Hvilken strategi i Ansoffs matrise har høyest risiko?", "options": ["Markedspenetrasjon", "Markedsutvikling", "Produktutvikling", "Diversifisering"], "correct": 3, "explain": "Både produkt og marked er nytt." },
-    { "id": "q05", "text": "Å selge mer av dagens produkt til dagens kunder er", "options": ["markedspenetrasjon", "diversifisering", "markedsutvikling", "produktutvikling"], "correct": 0, "explain": "Den tryggeste veien til vekst." },
-    { "id": "q06", "text": "En kafé begynner å selge den samme kaffen i en ny by. Hvilken strategi er dette?", "options": ["Produktutvikling", "Markedsutvikling", "Diversifisering", "Markedspenetrasjon"], "correct": 1, "explain": "Eksisterende produkt, nytt marked." },
-    { "id": "q07", "text": "Hva er en milepæl?", "options": ["Et budsjett", "En konkurrent", "Et viktig steg på veien, som første kunde", "En type lån"], "correct": 2, "explain": "Nyttig for å følge framdriften." },
-    { "id": "q08", "text": "Hvorfor bør mål i oppstartsfasen justeres underveis?", "options": ["Fordi mål ikke betyr noe", "Fordi loven krever det", "Fordi konkurrentene bestemmer", "Fordi man lærer mer om markedet, og mange er for optimistiske"], "correct": 3, "explain": "Salget tar ofte lengre tid enn planlagt." },
-    { "id": "q09", "text": "Hvilket mål er SMART?", "options": ["Selge 60 vesker innen jul", "Bli kjent", "Selge mye", "Få fornøyde kunder"], "correct": 0, "explain": "Spesifikt, målbart og tidsbestemt." },
-    { "id": "q10", "text": "Hva er kundenes forhandlingsmakt?", "options": ["Hvor mange ansatte kundene har", "Hvor mye kundene kan presse prisen eller kreve", "Hvor gamle kundene er", "Hvor kundene bor"], "correct": 1, "explain": "Stor når kundene er få og store." }
+    {
+      "id": "q01",
+      "text": "Hva hører til den interne analysen i oppstartsfasen?",
+      "options": [
+        "Renten",
+        "Teamets kompetanse og kapital",
+        "Nye lover",
+        "Konkurrentenes priser"
+      ],
+      "correct": 1,
+      "explain": "Forhold virksomheten selv rår over."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken kraft hører til Porters fem konkurransekrefter?",
+      "options": [
+        "Trusselen fra erstatningsprodukter",
+        "De ansattes motivasjon",
+        "Logoen",
+        "Visjonen"
+      ],
+      "correct": 0,
+      "explain": "Andre løsninger på samme behov."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr sterke konkurransekrefter?",
+      "options": [
+        "At det er lett å tjene penger",
+        "At det ikke finnes konkurrenter",
+        "At det er vanskeligere å tjene penger i bransjen",
+        "At prisene alltid er høye"
+      ],
+      "correct": 2,
+      "explain": "Konkurransen presser marginene."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken strategi i Ansoffs matrise har høyest risiko?",
+      "options": [
+        "Markedspenetrasjon",
+        "Markedsutvikling",
+        "Produktutvikling",
+        "Diversifisering"
+      ],
+      "correct": 3,
+      "explain": "Både produkt og marked er nytt."
+    },
+    {
+      "id": "q05",
+      "text": "Å selge mer av dagens produkt til dagens kunder er",
+      "options": [
+        "markedspenetrasjon",
+        "diversifisering",
+        "markedsutvikling",
+        "produktutvikling"
+      ],
+      "correct": 0,
+      "explain": "Den tryggeste veien til vekst."
+    },
+    {
+      "id": "q06",
+      "text": "En kafé begynner å selge den samme kaffen i en ny by. Hvilken strategi er dette?",
+      "options": [
+        "Produktutvikling",
+        "Markedsutvikling",
+        "Diversifisering",
+        "Markedspenetrasjon"
+      ],
+      "correct": 1,
+      "explain": "Eksisterende produkt, nytt marked."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er en milepæl?",
+      "options": [
+        "Et budsjett",
+        "En konkurrent",
+        "Et viktig steg på veien, som første kunde",
+        "En type lån"
+      ],
+      "correct": 2,
+      "explain": "Nyttig for å følge framdriften."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor bør mål i oppstartsfasen justeres underveis?",
+      "options": [
+        "Fordi mål ikke betyr noe",
+        "Fordi loven krever det",
+        "Fordi konkurrentene bestemmer",
+        "Fordi man lærer mer om markedet, og mange er for optimistiske"
+      ],
+      "correct": 3,
+      "explain": "Salget tar ofte lengre tid enn planlagt."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket mål er SMART?",
+      "options": [
+        "Selge 60 vesker innen jul",
+        "Bli kjent",
+        "Selge mye",
+        "Få fornøyde kunder"
+      ],
+      "correct": 0,
+      "explain": "Spesifikt, målbart og tidsbestemt."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er kundenes forhandlingsmakt?",
+      "options": [
+        "Hvor mange ansatte kundene har",
+        "Hvor mye kundene kan presse prisen eller kreve",
+        "Hvor gamle kundene er",
+        "Hvor kundene bor"
+      ],
+      "correct": 1,
+      "explain": "Stor når kundene er få og store."
+    }
   ],
   "mindmap": {
     "label": "Situasjonsanalyse og mål",
     "children": [
-      { "label": "Intern", "children": [
-        { "label": "Kompetanse og kapital" },
-        { "label": "Nettverk og tid" }
-      ] },
-      { "label": "Ekstern", "children": [
-        { "label": "PESTEL" },
-        { "label": "Porters fem krefter" }
-      ] },
-      { "label": "SWOT", "children": [
-        { "label": "Styrker og svakheter" },
-        { "label": "Muligheter og trusler" }
-      ] },
-      { "label": "Ansoff", "children": [
-        { "label": "Markedspenetrasjon" },
-        { "label": "Markeds- og produktutvikling" },
-        { "label": "Diversifisering" }
-      ] },
-      { "label": "Mål", "children": [
-        { "label": "SMARTE mål" },
-        { "label": "Milepæler" },
-        { "label": "Justering" }
-      ] }
+      {
+        "label": "Intern",
+        "children": [
+          {
+            "label": "Kompetanse og kapital"
+          },
+          {
+            "label": "Nettverk og tid"
+          }
+        ]
+      },
+      {
+        "label": "Ekstern",
+        "children": [
+          {
+            "label": "PESTEL"
+          },
+          {
+            "label": "Porters fem krefter"
+          }
+        ]
+      },
+      {
+        "label": "SWOT",
+        "children": [
+          {
+            "label": "Styrker og svakheter"
+          },
+          {
+            "label": "Muligheter og trusler"
+          }
+        ]
+      },
+      {
+        "label": "Ansoff",
+        "children": [
+          {
+            "label": "Markedspenetrasjon"
+          },
+          {
+            "label": "Markeds- og produktutvikling"
+          },
+          {
+            "label": "Diversifisering"
+          }
+        ]
+      },
+      {
+        "label": "Mål",
+        "children": [
+          {
+            "label": "SMARTE mål"
+          },
+          {
+            "label": "Milepæler"
+          },
+          {
+            "label": "Justering"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange gründere er for optimistiske om salg og kostnader.", "correct": true, "explain": "Derfor må målene følges opp." },
-      { "id": "m02", "type": "sant-usant", "text": "Diversifisering er den tryggeste vekststrategien.", "correct": false, "explain": "Den har høyest risiko." },
-      { "id": "m03", "type": "sant-usant", "text": "Hvis det er lett for nye aktører å etablere seg, øker konkurransen.", "correct": true, "explain": "En av Porters fem krefter." },
-      { "id": "m04", "type": "sant-usant", "text": "SWOT-analysen er ferdig når de fire feltene er fylt ut.", "correct": false, "explain": "Den må brukes til å velge strategi." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er produktutvikling i Ansoffs matrise?", "options": ["Dagens produkt til nye markeder", "Nye produkter til dagens kunder", "Nye produkter til nye markeder", "Dagens produkt til dagens kunder"], "correct": 1, "explain": "For eksempel en ny smak til faste kunder." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er et økonomisk mål i oppstartsfasen?", "options": ["Å nå nullpunktet innen ett år", "Å få en fin logo", "Å ha et godt teammøte", "Å velge farge på butikken"], "correct": 0, "explain": "Inntektene skal dekke kostnadene." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er et erstatningsprodukt for en kino?", "options": ["En annen kino", "En popcornleverandør", "En strømmetjeneste", "En billettautomat"], "correct": 2, "explain": "Dekker samme behov på en annen måte." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange gründere er for optimistiske om salg og kostnader.",
+        "correct": true,
+        "explain": "Derfor må målene følges opp."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Diversifisering er den tryggeste vekststrategien.",
+        "correct": false,
+        "explain": "Den har høyest risiko."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Hvis det er lett for nye aktører å etablere seg, øker konkurransen.",
+        "correct": true,
+        "explain": "En av Porters fem krefter."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "SWOT-analysen er ferdig når de fire feltene er fylt ut.",
+        "correct": false,
+        "explain": "Den må brukes til å velge strategi."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er produktutvikling i Ansoffs matrise?",
+        "options": [
+          "Dagens produkt til nye markeder",
+          "Nye produkter til dagens kunder",
+          "Nye produkter til nye markeder",
+          "Dagens produkt til dagens kunder"
+        ],
+        "correct": 1,
+        "explain": "For eksempel en ny smak til faste kunder."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et økonomisk mål i oppstartsfasen?",
+        "options": [
+          "Å nå nullpunktet innen ett år",
+          "Å få en fin logo",
+          "Å ha et godt teammøte",
+          "Å velge farge på butikken"
+        ],
+        "correct": 0,
+        "explain": "Inntektene skal dekke kostnadene."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er et erstatningsprodukt for en kino?",
+        "options": [
+          "En annen kino",
+          "En popcornleverandør",
+          "En strømmetjeneste",
+          "En billettautomat"
+        ],
+        "correct": 2,
+        "explain": "Dekker samme behov på en annen måte."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Før en gründer velger strategi og setter mål, kartlegger hen både virksomheten selv og omgivelsene. Forklar hva denne kartleggingen kalles, og hvorfor den bør gjøres først.",
+        "fasit": "Dette kalles en situasjonsanalyse. Den gir oversikt over virksomhetens egne ressurser og forhold i omgivelsene, slik at mål og strategi kan bygge på hvor virksomheten faktisk står.",
+        "kriterier": [
+          "Forklarer at analysen ser på både virksomheten internt og omgivelsene eksternt.",
+          "Knytter analysen til valg av mål eller strategi ut fra virksomhetens situasjon."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign en intern analyse med PESTEL. Hva undersøker de, og hvordan er perspektivet deres forskjellig?",
+        "fasit": "En intern analyse kartlegger virksomhetens egne forhold, som kompetanse, kapital og produkt. PESTEL undersøker politiske, økonomiske, sosiale, teknologiske, miljømessige og juridiske forhold rundt virksomheten.",
+        "kriterier": [
+          "Beskriver den interne analysen som en undersøkelse av virksomhetens egne ressurser eller forhold.",
+          "Beskriver PESTEL som en undersøkelse av eksterne forhold og viser tydelig forskjellen mellom perspektivene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elevbedrift selger gjenbrukte vesker, og kunder kan også kjøpe billige vesker på nett. Forklar hvorfor nettveskene kan være en trussel som erstatningsprodukter.",
+        "fasit": "Nettveskene kan dekke det samme behovet som de gjenbrukte veskene, selv om de er et annet produkt. De kan derfor gjøre det vanskeligere for elevbedriften å selge sine vesker.",
+        "kriterier": [
+          "Forklarer at et erstatningsprodukt er en annen løsning på det samme behovet.",
+          "Knytter erstatningsproduktet til en mulig utfordring for salget eller konkurransen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elevbedrift har et kreativt team, lite kapital, økende interesse for gjenbruk og konkurranse fra billige vesker på nett. Forklar hvordan bedriften kan bruke SWOT-funnene når den skal velge strategi.",
+        "fasit": "Bedriften kan bruke kreativiteten i teamet til å utnytte den økende interessen for gjenbruk. Samtidig bør den ta hensyn til lite kapital og konkurransen fra billige nettvesker når den velger strategi.",
+        "kriterier": [
+          "Viser hvordan en intern styrke kan brukes til å utnytte en ekstern mulighet.",
+          "Viser at svakheter eller trusler bør tas med i strategivalget."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign markedsutvikling og produktutvikling. I hvilken av strategiene tilbyr virksomheten nye produkter, og i hvilken finner den nye kundegrupper eller steder?",
+        "fasit": "Ved produktutvikling tilbyr virksomheten nye produkter til kundene den allerede har. Ved markedsutvikling selger den dagens produkt til nye kundegrupper eller på nye steder.",
+        "kriterier": [
+          "Knytter produktutvikling til nye produkter og dagens kunder.",
+          "Knytter markedsutvikling til dagens produkt og nye kundegrupper eller steder."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En virksomhet selger et produkt til kundene den allerede har, og begynner å tilby dem et nytt produkt. Hvilken vekststrategi i Ansoffs matrise beskriver den nye satsingen? Begrunn svaret ut fra produkt og marked.",
+        "fasit": "Dette er produktutvikling. Virksomheten tilbyr et nytt produkt i et marked den allerede kjenner, med eksisterende kunder.",
+        "kriterier": [
+          "Identifiserer strategien som produktutvikling.",
+          "Forklarer at produktet er nytt, mens kundene eller markedet er eksisterende."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elevbedrift setter målet «selge 60 vesker innen jul». Forklar hvordan et slikt salgsmål kan gjøre visjonen og forretningsideen mer konkrete i oppstartsfasen.",
+        "fasit": "Målet gjør retningen i visjonen og forretningsideen om til et konkret resultat bedriften kan arbeide mot. Det gjør det også mulig å følge med på om bedriften nærmer seg målet.",
+        "kriterier": [
+          "Forklarer at målet gjør visjonen eller forretningsideen om til en konkret retning eller handling.",
+          "Viser at målet kan brukes til å følge med på framdrift eller resultater."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En virksomhet når nullpunktet når inntektene akkurat dekker kostnadene. Hva forteller dette om virksomhetens økonomiske resultat på dette tidspunktet?",
+        "fasit": "Virksomheten går verken med overskudd eller underskudd på dette tidspunktet, fordi inntektene er like store som kostnadene.",
+        "kriterier": [
+          "Forklarer at inntektene dekker kostnadene.",
+          "Konkluderer med at virksomheten verken har overskudd eller underskudd ved nullpunktet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

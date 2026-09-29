@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Religion, livssyn og politikk",
   "intro": "Samspillet mellom religion, livssyn og politikk: religionsfrihet, ulike modeller for forholdet mellom stat og religion, aktuelle debatter i Norge om religiøse plagg, skole og livssynsnøytralitet – og religionens rolle i politikk og konflikter internasjonalt.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Religionsfrihet\n\n**Religionsfrihet** er en **menneskerettighet**. Den gir alle rett til å **tro** – eller ikke tro – og til å **skifte** religion og **praktisere** den alene eller sammen med andre. Friheten kan bare begrenses når det er **nødvendig** for å beskytte andres rettigheter, sikkerhet eller helse.\n\nI Norge er religionsfriheten vernet i **Grunnloven** og i **menneskerettsloven**. **Tros- og livssynsloven** fra **2021** regulerer blant annet **statsstøtte** til tros- og livssynssamfunn.\n\n## Stat og religion\n\nLand har ulike modeller:\n\n- **Statsreligion**: staten har én offisiell religion, som i **Iran** eller tidligere i Norge.\n- **Skille** mellom stat og religion: som i **USA** og **Frankrike**. Frankrike har en streng form for **sekularisme** – **laïcité** – der religiøse symboler er forbudt i offentlige skoler.\n- **Mellomformer**: som i **Norge** i dag, der **Den norske kirke** er en egen organisasjon, men fortsatt har en særstilling i Grunnloven, og der **alle** tros- og livssynssamfunn får statsstøtte.\n\n## Aktuelle debatter i Norge\n\n- **Religiøse plagg**: Skal politi, dommere eller lærere kunne bære **hijab**, **kors** eller **turban**? Tilhengere viser til **religionsfrihet** og **inkludering**. Motstandere mener representanter for staten bør framstå **nøytrale**.\n- **Skolen**: Hvor mye plass skal **kristendommen** ha i skolen og i **skolegudstjenester** før jul? Faget **KRLE** skal være **objektivt, kritisk og pluralistisk**.\n- **Omskjæring**, **dyrevelferd** og **slakting** etter religiøse regler\n- **Livssynsnøytralitet**: Skal offentlige seremonier, som ved nasjonale **minnemarkeringer**, være kirkelige eller livssynsnøytrale?\n- **Kjønn og likestilling**: debatter om kvinners rolle i trossamfunn, og om trossamfunn som **diskriminerer**, skal få støtte.\n\n## Religion i partipolitikken\n\n**Kristelig Folkeparti** bygger politikken sin på **kristne verdier**. Også andre partier henter argumenter fra religion og livssyn, for eksempel i saker om **abort**, **bioteknologi**, **innvandring** og **bistand**.\n\n## Internasjonalt\n\n- I **USA** har **kristne** velgergrupper stor politisk innflytelse, for eksempel i spørsmål om **abort**.\n- I **India** har **hindunasjonalismen** fått større politisk makt, og mange muslimer opplever **diskriminering**.\n- I **Iran** styrer religiøse ledere, og kvinners **klesdrakt** har utløst store protester.\n- I **Midtøsten** er religion en del av mange konflikter, som mellom **Israel** og **palestinerne**, men konfliktene handler også om **land**, **makt** og **nasjonalisme**.\n\n## Religion som årsak til konflikt?\n\nReligion blir ofte framstilt som **årsak** til konflikter. Forskere peker på at religion sjelden er **eneste** årsak. Den kan **forsterke** konflikter ved å gjøre dem til spørsmål om **identitet** og det **hellige** – men religiøse ledere kan også bidra til **fred** og **forsoning**.\n\n## Å drøfte\n\nNår du drøfter samspillet mellom religion og politikk, kan du veie ulike **verdier** mot hverandre: **religionsfrihet**, **ytringsfrihet**, **likestilling**, **nøytralitet** og **flertallets** tradisjoner. Ofte står gode verdier mot hverandre.",
   "flashcards": [
-    { "term": "Religionsfrihet", "def": "Rett til å tro eller ikke tro, skifte religion og praktisere den." },
-    { "term": "Tros- og livssynsloven", "def": "Lov fra 2021 om støtte til tros- og livssynssamfunn." },
-    { "term": "Statsreligion", "def": "Staten har én offisiell religion." },
-    { "term": "Laïcité", "def": "Fransk streng sekularisme med religiøse symboler forbudt i offentlige skoler." },
-    { "term": "Livssynsnøytralitet", "def": "At staten ikke favoriserer ett livssyn." },
-    { "term": "KRLE", "def": "Skolefaget som skal være objektivt, kritisk og pluralistisk." },
-    { "term": "Pluralistisk", "def": "At mange ulike syn får plass." },
-    { "term": "Religiøse plagg", "def": "For eksempel hijab, kors og turban – omdiskutert i offentlige yrker." },
-    { "term": "Kristelig Folkeparti", "def": "Parti som bygger politikken på kristne verdier." },
-    { "term": "Hindunasjonalisme", "def": "Politisk bevegelse som vil gjøre India mer hinduistisk." },
-    { "term": "Religion og konflikt", "def": "Religion er sjelden eneste årsak, men kan forsterke konflikter." },
-    { "term": "Særstilling", "def": "Den norske kirkes spesielle plass i Grunnloven." },
-    { "term": "Verdikonflikt", "def": "Når gode verdier står mot hverandre." },
-    { "term": "Menneskerettsloven", "def": "Lov som gjør sentrale menneskerettigheter til norsk lov." },
-    { "term": "Skolegudstjeneste", "def": "Gudstjeneste i skoletiden, ofte før jul – omdiskutert." }
+    {
+      "term": "Religionsfrihet",
+      "def": "Rett til å tro eller ikke tro, skifte religion og praktisere den."
+    },
+    {
+      "term": "Tros- og livssynsloven",
+      "def": "Lov fra 2021 om støtte til tros- og livssynssamfunn."
+    },
+    {
+      "term": "Statsreligion",
+      "def": "Staten har én offisiell religion."
+    },
+    {
+      "term": "Laïcité",
+      "def": "Fransk streng sekularisme med religiøse symboler forbudt i offentlige skoler."
+    },
+    {
+      "term": "Livssynsnøytralitet",
+      "def": "At staten ikke favoriserer ett livssyn."
+    },
+    {
+      "term": "KRLE",
+      "def": "Skolefaget som skal være objektivt, kritisk og pluralistisk."
+    },
+    {
+      "term": "Pluralistisk",
+      "def": "At mange ulike syn får plass."
+    },
+    {
+      "term": "Religiøse plagg",
+      "def": "For eksempel hijab, kors og turban – omdiskutert i offentlige yrker."
+    },
+    {
+      "term": "Kristelig Folkeparti",
+      "def": "Parti som bygger politikken på kristne verdier."
+    },
+    {
+      "term": "Hindunasjonalisme",
+      "def": "Politisk bevegelse som vil gjøre India mer hinduistisk."
+    },
+    {
+      "term": "Religion og konflikt",
+      "def": "Religion er sjelden eneste årsak, men kan forsterke konflikter."
+    },
+    {
+      "term": "Særstilling",
+      "def": "Den norske kirkes spesielle plass i Grunnloven."
+    },
+    {
+      "term": "Verdikonflikt",
+      "def": "Når gode verdier står mot hverandre."
+    },
+    {
+      "term": "Menneskerettsloven",
+      "def": "Lov som gjør sentrale menneskerettigheter til norsk lov."
+    },
+    {
+      "term": "Skolegudstjeneste",
+      "def": "Gudstjeneste i skoletiden, ofte før jul – omdiskutert."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva innebærer religionsfrihet?", "options": ["At alle må tilhøre en religion", "Rett til å tro eller ikke tro og praktisere sin religion", "At staten bestemmer tro", "At religion er forbudt"], "correct": 1, "explain": "En menneskerettighet." },
-    { "id": "q02", "text": "Hva kjennetegner laïcité i Frankrike?", "options": ["Streng sekularisme med religiøse symboler forbudt i offentlige skoler", "Katolsk statsreligion", "Full religiøs frihet i alle offentlige yrker", "Islamsk lov"], "correct": 0, "explain": "Ulik den norske modellen." },
-    { "id": "q03", "text": "Hvordan er forholdet mellom stat og kirke i Norge i dag?", "options": ["Streng statsreligion", "Fullt skille som i Frankrike", "En mellomform der kirken er egen organisasjon, men har en særstilling", "Religion er forbudt"], "correct": 2, "explain": "Alle tros- og livssynssamfunn får støtte." },
-    { "id": "q04", "text": "Hva er et argument for at statens representanter ikke bør bære religiøse plagg?", "options": ["Religionsfrihet", "Inkludering", "Mangfold", "At de bør framstå nøytrale"], "correct": 3, "explain": "Tilhengere viser til religionsfrihet." },
-    { "id": "q05", "text": "Hvordan skal KRLE-faget være?", "options": ["Objektivt, kritisk og pluralistisk", "Forkynnende", "Bare om kristendom", "Bare om ateisme"], "correct": 0, "explain": "Krav i opplæringsloven." },
-    { "id": "q06", "text": "Hva mener forskere ofte om religion som årsak til konflikt?", "options": ["At religion er eneste årsak", "At religion sjelden er eneste årsak, men kan forsterke konflikter", "At religion aldri har betydning", "At religion alltid gir fred"], "correct": 1, "explain": "Land, makt og nasjonalisme spiller også inn." },
-    { "id": "q07", "text": "Hvilket parti bygger politikken på kristne verdier?", "options": ["Høyre", "Senterpartiet", "Kristelig Folkeparti", "Rødt"], "correct": 2, "explain": "Også andre partier henter argumenter fra livssyn." },
-    { "id": "q08", "text": "Hva handler debatten om livssynsnøytralitet om?", "options": ["Om skolen skal ha matte", "Om kirker skal rives", "Om alle skal bli ateister", "Om offentlige seremonier skal være kirkelige eller livssynsnøytrale"], "correct": 3, "explain": "For eksempel minnemarkeringer." },
-    { "id": "q09", "text": "Hva har skjedd i India de siste årene?", "options": ["Hindunasjonalismen har fått større politisk makt", "India har blitt et islamsk land", "India har innført laïcité", "Religion er blitt forbudt"], "correct": 0, "explain": "Mange muslimer opplever diskriminering." },
-    { "id": "q10", "text": "Hva er en verdikonflikt?", "options": ["En konflikt om penger", "Når gode verdier står mot hverandre", "En krig mellom religioner", "En konflikt i en familie"], "correct": 1, "explain": "For eksempel religionsfrihet mot nøytralitet." }
+    {
+      "id": "q01",
+      "text": "Hva innebærer religionsfrihet?",
+      "options": [
+        "At alle må tilhøre en religion",
+        "Rett til å tro eller ikke tro og praktisere sin religion",
+        "At staten bestemmer tro",
+        "At religion er forbudt"
+      ],
+      "correct": 1,
+      "explain": "En menneskerettighet."
+    },
+    {
+      "id": "q02",
+      "text": "Hva kjennetegner laïcité i Frankrike?",
+      "options": [
+        "Streng sekularisme med religiøse symboler forbudt i offentlige skoler",
+        "Katolsk statsreligion",
+        "Full religiøs frihet i alle offentlige yrker",
+        "Islamsk lov"
+      ],
+      "correct": 0,
+      "explain": "Ulik den norske modellen."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan er forholdet mellom stat og kirke i Norge i dag?",
+      "options": [
+        "Streng statsreligion",
+        "Fullt skille som i Frankrike",
+        "En mellomform der kirken er egen organisasjon, men har en særstilling",
+        "Religion er forbudt"
+      ],
+      "correct": 2,
+      "explain": "Alle tros- og livssynssamfunn får støtte."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er et argument for at statens representanter ikke bør bære religiøse plagg?",
+      "options": [
+        "Religionsfrihet",
+        "Inkludering",
+        "Mangfold",
+        "At de bør framstå nøytrale"
+      ],
+      "correct": 3,
+      "explain": "Tilhengere viser til religionsfrihet."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan skal KRLE-faget være?",
+      "options": [
+        "Objektivt, kritisk og pluralistisk",
+        "Forkynnende",
+        "Bare om kristendom",
+        "Bare om ateisme"
+      ],
+      "correct": 0,
+      "explain": "Krav i opplæringsloven."
+    },
+    {
+      "id": "q06",
+      "text": "Hva mener forskere ofte om religion som årsak til konflikt?",
+      "options": [
+        "At religion er eneste årsak",
+        "At religion sjelden er eneste årsak, men kan forsterke konflikter",
+        "At religion aldri har betydning",
+        "At religion alltid gir fred"
+      ],
+      "correct": 1,
+      "explain": "Land, makt og nasjonalisme spiller også inn."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket parti bygger politikken på kristne verdier?",
+      "options": [
+        "Høyre",
+        "Senterpartiet",
+        "Kristelig Folkeparti",
+        "Rødt"
+      ],
+      "correct": 2,
+      "explain": "Også andre partier henter argumenter fra livssyn."
+    },
+    {
+      "id": "q08",
+      "text": "Hva handler debatten om livssynsnøytralitet om?",
+      "options": [
+        "Om skolen skal ha matte",
+        "Om kirker skal rives",
+        "Om alle skal bli ateister",
+        "Om offentlige seremonier skal være kirkelige eller livssynsnøytrale"
+      ],
+      "correct": 3,
+      "explain": "For eksempel minnemarkeringer."
+    },
+    {
+      "id": "q09",
+      "text": "Hva har skjedd i India de siste årene?",
+      "options": [
+        "Hindunasjonalismen har fått større politisk makt",
+        "India har blitt et islamsk land",
+        "India har innført laïcité",
+        "Religion er blitt forbudt"
+      ],
+      "correct": 0,
+      "explain": "Mange muslimer opplever diskriminering."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en verdikonflikt?",
+      "options": [
+        "En konflikt om penger",
+        "Når gode verdier står mot hverandre",
+        "En krig mellom religioner",
+        "En konflikt i en familie"
+      ],
+      "correct": 1,
+      "explain": "For eksempel religionsfrihet mot nøytralitet."
+    }
   ],
   "mindmap": {
     "label": "Religion og politikk",
     "children": [
-      { "label": "Rettigheter", "children": [
-        { "label": "Religionsfrihet" },
-        { "label": "Tros- og livssynsloven" }
-      ] },
-      { "label": "Modeller", "children": [
-        { "label": "Statsreligion" },
-        { "label": "Skille og laïcité" },
-        { "label": "Norsk mellomform" }
-      ] },
-      { "label": "Debatter i Norge", "children": [
-        { "label": "Religiøse plagg" },
-        { "label": "Skole og KRLE" },
-        { "label": "Livssynsnøytralitet" }
-      ] },
-      { "label": "Internasjonalt", "children": [
-        { "label": "USA og India" },
-        { "label": "Iran" },
-        { "label": "Midtøsten" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Årsak eller forsterker" },
-        { "label": "Verdikonflikter" }
-      ] }
+      {
+        "label": "Rettigheter",
+        "children": [
+          {
+            "label": "Religionsfrihet"
+          },
+          {
+            "label": "Tros- og livssynsloven"
+          }
+        ]
+      },
+      {
+        "label": "Modeller",
+        "children": [
+          {
+            "label": "Statsreligion"
+          },
+          {
+            "label": "Skille og laïcité"
+          },
+          {
+            "label": "Norsk mellomform"
+          }
+        ]
+      },
+      {
+        "label": "Debatter i Norge",
+        "children": [
+          {
+            "label": "Religiøse plagg"
+          },
+          {
+            "label": "Skole og KRLE"
+          },
+          {
+            "label": "Livssynsnøytralitet"
+          }
+        ]
+      },
+      {
+        "label": "Internasjonalt",
+        "children": [
+          {
+            "label": "USA og India"
+          },
+          {
+            "label": "Iran"
+          },
+          {
+            "label": "Midtøsten"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Årsak eller forsterker"
+          },
+          {
+            "label": "Verdikonflikter"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Religionsfriheten kan begrenses for å beskytte andres rettigheter.", "correct": true, "explain": "Men bare når det er nødvendig." },
-      { "id": "m02", "type": "sant-usant", "text": "I Norge får bare Den norske kirke statsstøtte.", "correct": false, "explain": "Alle tros- og livssynssamfunn får støtte." },
-      { "id": "m03", "type": "sant-usant", "text": "Religiøse ledere kan bidra til fred og forsoning.", "correct": true, "explain": "Religion er ikke bare en konfliktkilde." },
-      { "id": "m04", "type": "sant-usant", "text": "Konflikten mellom Israel og palestinerne handler bare om religion.", "correct": false, "explain": "Den handler også om land, makt og nasjonalisme." },
-      { "id": "m05", "type": "flervalg", "text": "I hvilket land har kvinners klesdrakt utløst store protester mot religiøse ledere?", "options": ["Norge", "Iran", "Frankrike", "USA"], "correct": 1, "explain": "Religiøse ledere styrer landet." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken rettighet brukes som argument for å tillate hijab i politiet?", "options": ["Religionsfrihet", "Eiendomsrett", "Stemmerett", "Arverett"], "correct": 0, "explain": "Og inkludering." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr at KRLE skal være pluralistisk?", "options": ["At bare én religion undervises", "At faget skal forkynne", "At mange ulike syn får plass", "At faget er valgfritt"], "correct": 2, "explain": "Objektivt, kritisk og pluralistisk." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Religionsfriheten kan begrenses for å beskytte andres rettigheter.",
+        "correct": true,
+        "explain": "Men bare når det er nødvendig."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I Norge får bare Den norske kirke statsstøtte.",
+        "correct": false,
+        "explain": "Alle tros- og livssynssamfunn får støtte."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Religiøse ledere kan bidra til fred og forsoning.",
+        "correct": true,
+        "explain": "Religion er ikke bare en konfliktkilde."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Konflikten mellom Israel og palestinerne handler bare om religion.",
+        "correct": false,
+        "explain": "Den handler også om land, makt og nasjonalisme."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "I hvilket land har kvinners klesdrakt utløst store protester mot religiøse ledere?",
+        "options": [
+          "Norge",
+          "Iran",
+          "Frankrike",
+          "USA"
+        ],
+        "correct": 1,
+        "explain": "Religiøse ledere styrer landet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken rettighet brukes som argument for å tillate hijab i politiet?",
+        "options": [
+          "Religionsfrihet",
+          "Eiendomsrett",
+          "Stemmerett",
+          "Arverett"
+        ],
+        "correct": 0,
+        "explain": "Og inkludering."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr at KRLE skal være pluralistisk?",
+        "options": [
+          "At bare én religion undervises",
+          "At faget skal forkynne",
+          "At mange ulike syn får plass",
+          "At faget er valgfritt"
+        ],
+        "correct": 2,
+        "explain": "Objektivt, kritisk og pluralistisk."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Myndighetene vurderer å begrense en religiøs praksis. Hvilke vilkår må være oppfylt for at en slik begrensning skal være tillatt?",
+        "fasit": "Begrensningen må være nødvendig for å beskytte andres rettigheter, sikkerhet eller helse.",
+        "kriterier": [
+          "Sier at begrensningen må være nødvendig.",
+          "Knytter begrensningen til beskyttelse av andres rettigheter, sikkerhet eller helse."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hva er forskjellen på menneskerettsloven og tros- og livssynsloven når det gjelder hva de regulerer?",
+        "fasit": "Menneskerettsloven gjør sentrale menneskerettigheter til norsk lov. Tros- og livssynsloven fra 2021 regulerer blant annet statsstøtte til tros- og livssynssamfunn.",
+        "kriterier": [
+          "Forklarer at menneskerettsloven gjør sentrale menneskerettigheter til norsk lov.",
+          "Forklarer at tros- og livssynsloven blant annet handler om statsstøtte."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign hvordan religion er knyttet til staten i Iran og USA.",
+        "fasit": "I Iran styrer religiøse ledere. USA er et eksempel på et land med skille mellom stat og religion.",
+        "kriterier": [
+          "Beskriver at religiøse ledere styrer i Iran.",
+          "Beskriver USA som et land med skille mellom stat og religion."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En politibetjent ønsker å bruke hijab eller turban på jobb. Forklar ett argument for å tillate religiøse plagg og ett argument for å begrense dem.",
+        "fasit": "Tilhengere kan vise til religionsfrihet og inkludering. Motstandere kan mene at personer som representerer staten, bør framstå nøytrale.",
+        "kriterier": [
+          "Knytter et argument for plaggene til religionsfrihet eller inkludering.",
+          "Knytter et argument mot plaggene til statlig nøytralitet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En skole arrangerer skolegudstjeneste før jul. Forklar hvorfor dette kan bli diskutert i en skole der KRLE skal være objektivt, kritisk og pluralistisk.",
+        "fasit": "Skolegudstjenester kan knyttes til kristne tradisjoner, men skolen skal også gi plass til ulike livssyn. Det kan derfor oppstå diskusjon om hvordan praksisen passer med et pluralistisk og objektivt skolefag.",
+        "kriterier": [
+          "Viser til at skolegudstjenester er knyttet til kristne tradisjoner.",
+          "Forklarer at pluralisme eller objektivitet innebærer hensyn til ulike livssyn."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En konflikt mellom Israel og palestinerne blir omtalt som om den bare handler om religion. Forklar hvorfor det er en for enkel framstilling.",
+        "fasit": "Religion kan forsterke konflikten ved å knytte den til identitet og det hellige. Konflikten handler også om land, makt og nasjonalisme.",
+        "kriterier": [
+          "Forklarer at religion kan forsterke konflikten gjennom identitet eller det hellige.",
+          "Nevner andre forhold som land, makt eller nasjonalisme."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et trossamfunn som diskriminerer, søker om statsstøtte. Hvilke hensyn kan stå mot hverandre når man vurderer om samfunnet bør få støtte?",
+        "fasit": "Hensynet til likestilling og motstand mot diskriminering kan stå mot hensynet til religionsfrihet. Spørsmålet blir om et trossamfunn som diskriminerer, likevel bør få offentlig støtte.",
+        "kriterier": [
+          "Knytter vurderingen til likestilling eller motstand mot diskriminering.",
+          "Knytter vurderingen til religionsfrihet eller spørsmålet om offentlig støtte."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign hvordan religion påvirker politikken i USA og Iran.",
+        "fasit": "I USA har kristne velgergrupper stor politisk innflytelse, blant annet i spørsmål om abort. I Iran styrer religiøse ledere.",
+        "kriterier": [
+          "Beskriver politisk innflytelse fra kristne velgergrupper i USA.",
+          "Beskriver at religiøse ledere styrer i Iran."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

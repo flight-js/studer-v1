@@ -355,6 +355,80 @@
         "correct": 0,
         "explain": "“Take care!” is friendly and informal."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "You are writing one message to a close friend and another to a company you do not know. Explain how the receivers and situations should affect the register you use.",
+        "fasit": "A message to a close friend can be informal because you know the person well. A message to a company should be formal because it is an official situation with a receiver you do not know.",
+        "kriterier": [
+          "Explains why writing to a close friend suits an informal register.",
+          "Explains why writing to the company suits a formal register."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Make this sentence suitable for a formal email by writing out the contractions: “I’m sorry, but I can’t send it today.” Explain why this change suits a formal email.",
+        "fasit": "“I am sorry, but I cannot send it today.” Formal writing usually avoids contractions, so the full forms are more suitable.",
+        "kriterier": [
+          "Changes both contractions to their full forms.",
+          "Explains that formal writing avoids contractions."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Compare the purpose of an application letter with the purpose of a letter of complaint.",
+        "fasit": "An application letter presents you and explains why you are suited for a job or course. A letter of complaint explains a problem and says what you expect to happen.",
+        "kriterier": [
+          "Explains that an application letter presents the writer and their suitability.",
+          "Explains that a complaint letter describes a problem and states an expectation."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "You need to write a letter to a company about a problem. Explain what information to include and how to make your expectation clear.",
+        "fasit": "Explain the problem politely but firmly, giving the relevant details. Then clearly state what you expect the company to do next.",
+        "kriterier": [
+          "Says the letter should explain the problem and include relevant details.",
+          "Says it should state what the writer expects to happen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Compare a blog post with an article by describing the usual tone and organisation of each.",
+        "fasit": "A blog post is often informal and personal, but it should still be clear and well organised. An article is usually more neutral and informative, and has a catchy headline.",
+        "kriterier": [
+          "Describes a blog post as often informal and personal while still clear or organised.",
+          "Describes an article as neutral and informative, or mentions its catchy headline."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Write a short message to a close friend asking to meet. Include an informal greeting, a contraction and an informal ending. Explain why this register fits.",
+        "fasit": "Hi! Do you want to meet later? I’m free after school. See you soon! This is informal because the receiver is a close friend.",
+        "kriterier": [
+          "Includes an informal greeting, a contraction and an informal ending.",
+          "Explains that an informal register fits because the message is for a close friend."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Explain what an application letter should tell its reader about the writer and why.",
+        "fasit": "An application letter should present the writer and explain why they are suited for the job or course. This helps the reader understand the writer’s reasons for applying.",
+        "kriterier": [
+          "Says the letter presents the writer.",
+          "Says it explains why the writer is suited for the job or course."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "You are revising an email for a formal receiver. Describe two things you should check to make sure the language stays formal throughout.",
+        "fasit": "Check that the greeting and ending are formal, and replace slang with polite, precise words. Also check that the sentences are complete and well structured.",
+        "kriterier": [
+          "Names a relevant feature to check, such as the greeting, ending or vocabulary.",
+          "Names another relevant feature, such as avoiding slang or using complete, well-structured sentences."
+        ]
+      }
     ]
   },
   "kvalitet": {

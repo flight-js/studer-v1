@@ -357,6 +357,80 @@
         "correct": 0,
         "explain": "“Whispered” tells the reader that the character speaks very quietly."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Explain in your own words what makes a text a narrative. Can a narrative be real, made up, or both?",
+        "fasit": "A narrative is a text that tells a story. It can be about something real or something made up.",
+        "kriterier": [
+          "Explains that a narrative tells a story.",
+          "States that a narrative can be real or made up."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "After a conflict appears in a story, what does the rising action do before the climax? Explain how it changes the story.",
+        "fasit": "The rising action builds tension and moves the story towards the climax, the most exciting turning point.",
+        "kriterier": [
+          "Explains that the tension builds.",
+          "Connects the rising action to the climax or turning point."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Compare a first-person narrator with a third-person narrator. Explain how each tells the story and what a third-person narrator can sometimes show.",
+        "fasit": "A first-person narrator tells the story as “I”, while a third-person narrator tells it about “he”, “she” or “they”. A third-person narrator can sometimes show several characters’ thoughts.",
+        "kriterier": [
+          "Distinguishes between telling the story as “I” and telling it about “he”, “she” or “they”.",
+          "Explains that a third-person narrator can show several characters’ thoughts."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Write one sentence that shows a character is afraid without using the word “afraid”. Use an action or a detail the character can sense.",
+        "fasit": "Her hands were shaking, and she could hear her own heartbeat.",
+        "kriterier": [
+          "Uses a concrete action or sensory detail.",
+          "Makes it clear that the character is afraid without naming the feeling."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "A character is trying to open a locked door. Write an opening that starts in the middle of this action, before explaining who the character is or where they are.",
+        "fasit": "I yanked the handle again, but the locked door would not move.",
+        "kriterier": [
+          "Begins during the action rather than with background information.",
+          "Makes the reader understand that the character is trying to open the door."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Rewrite these events in the past tense, keeping the tense consistent: “I open the door. I hear a noise. I run outside.”",
+        "fasit": "I opened the door, heard a noise, and ran outside.",
+        "kriterier": [
+          "Changes all the actions to past tense.",
+          "Keeps the tense consistent throughout."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "In a story, a character cannot find a key and is unable to open a door. At the end, the character finds the key and opens the door. Explain which part is the resolution and why.",
+        "fasit": "The ending, where the character finds the key and opens the door, is the resolution. It solves the problem of being unable to open the door.",
+        "kriterier": [
+          "Identifies the ending as the resolution.",
+          "Explains that the problem is solved."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "A story has a character and a setting, but the reader cannot understand the order of events. What story element should the writer make clearer, and what does it include?",
+        "fasit": "The writer should make the plot clearer. The plot is what happens in the story and the sequence of events.",
+        "kriterier": [
+          "Names the plot as the element to clarify.",
+          "Explains that it includes what happens and the sequence of events."
+        ]
+      }
     ]
   },
   "kvalitet": {

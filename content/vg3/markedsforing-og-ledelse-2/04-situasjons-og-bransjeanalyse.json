@@ -4,75 +4,415 @@
   "trinnId": "vg3",
   "name": "Situasjonsanalyse, bransjeanalyse og markedsstrategiske valg",
   "intro": "Hvordan situasjonsanalyse og bransjeanalyse brukes som grunnlag for markedsstrategiske beslutninger – fra SWOT til strategier, Porters fem krefter, markedsformer, Porters generiske strategier, Ansoffs vekstmatrise og BCG-matrisen – og hvordan du vurderer strategiske valg.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Fra analyse til strategi\n\nEn **situasjonsanalyse** kartlegger **interne** forhold – ressurser, kompetanse, økonomi – og **eksterne** forhold – marked, konkurrenter og makroomgivelser. Analysen skal ende i **strategiske valg**, ikke bare en liste.\n\n## Fra SWOT til strategier\n\nSWOT kan brukes **aktivt** ved å kombinere faktorene:\n\n- **Styrker + muligheter**: **Offensive** strategier – bruk styrkene til å utnytte mulighetene.\n- **Svakheter + muligheter**: **Forbedre** svakhetene for å kunne utnytte mulighetene.\n- **Styrker + trusler**: **Forsvar** – bruk styrkene til å møte truslene.\n- **Svakheter + trusler**: **Defensive** strategier – reduser risikoen, kanskje trekk deg ut.\n\n## Porters fem krefter\n\n**Michael Porter** viste at lønnsomheten i en **bransje** avhenger av fem krefter:\n\n1. **Rivalisering** mellom eksisterende konkurrenter\n2. **Trusselen fra nye aktører** – høye **etableringsbarrierer** som store investeringer beskytter bransjen\n3. **Trusselen fra substitutter** – produkter som dekker samme behov på en annen måte\n4. **Kundenes forhandlingsmakt**\n5. **Leverandørenes forhandlingsmakt**\n\nJo **sterkere** kreftene er, desto **lavere** lønnsomhet. **Dagligvarebransjen** i Norge preges for eksempel av noen få store **kjeder** med stor makt overfor **leverandørene**.\n\n## Markedsformer\n\n- **Fullkommen konkurranse**: mange tilbydere, like produkter\n- **Monopolistisk konkurranse**: mange tilbydere, **differensierte** produkter – som frisører og restauranter\n- **Oligopol**: **få** store aktører – som mobiloperatører og dagligvarekjeder\n- **Monopol**: **én** tilbyder\n\n## Porters generiske strategier\n\nEn virksomhet kan skaffe seg **konkurransefortrinn** på to måter – i hele markedet eller i en **nisje**:\n\n- **Kostnadsledelse**: lavest kostnader og ofte lavest pris\n- **Differensiering**: unike egenskaper kunden er villig til å betale **mer** for\n- **Fokus**: kostnadsledelse eller differensiering i et **avgrenset** segment\n\nPorter advarte mot å bli «**stuck in the middle**» – verken billigst eller best.\n\n## Ansoffs vekstmatrise\n\n| | Eksisterende produkter | Nye produkter |\n|---|---|---|\n| **Eksisterende marked** | Markedspenetrasjon | Produktutvikling |\n| **Nytt marked** | Markedsutvikling | Diversifisering |\n\n**Markedspenetrasjon** har **lavest** risiko, mens **diversifisering** har **høyest**.\n\n## BCG-matrisen\n\nBCG-matrisen plasserer produktene etter **markedsvekst** og **relativ markedsandel**:\n\n- **Stjerner**: høy vekst, høy andel – investér\n- **Melkekuer**: lav vekst, høy andel – gir **overskudd** som kan finansiere andre produkter\n- **Spørsmålstegn**: høy vekst, lav andel – satse eller avvikle?\n- **Hunder**: lav vekst, lav andel – ofte avvikle\n\n## Vurdering av strategiske beslutninger\n\nEn god strategi\n\n- bygger på **analysen** og utnytter **styrkene**\n- er **realistisk** ut fra ressursene\n- skiller virksomheten fra **konkurrentene**\n- henger sammen med **visjon** og **mål**\n- tar hensyn til **risiko**\n\nNår du vurderer en strategi, drøfter du **alternativer**, **konsekvenser** og hvordan **konkurrentene** kan reagere.",
   "flashcards": [
-    { "term": "Offensiv strategi", "def": "Bruke styrker til å utnytte muligheter." },
-    { "term": "Defensiv strategi", "def": "Redusere risiko når svakheter møter trusler." },
-    { "term": "Porters fem krefter", "def": "Rivalisering, nye aktører, substitutter, kunders og leverandørers makt." },
-    { "term": "Etableringsbarriere", "def": "Hindring for nye aktører, som store investeringer." },
-    { "term": "Substitutt", "def": "Produkt som dekker samme behov på en annen måte." },
-    { "term": "Oligopol", "def": "Få store aktører." },
-    { "term": "Monopolistisk konkurranse", "def": "Mange tilbydere med differensierte produkter." },
-    { "term": "Kostnadsledelse", "def": "Konkurransefortrinn gjennom lavest kostnader." },
-    { "term": "Differensiering", "def": "Unike egenskaper kunden vil betale mer for." },
-    { "term": "Fokusstrategi", "def": "Kostnadsledelse eller differensiering i en nisje." },
-    { "term": "Stuck in the middle", "def": "Verken billigst eller best." },
-    { "term": "Markedspenetrasjon", "def": "Selge mer av eksisterende produkter i eksisterende marked." },
-    { "term": "Diversifisering", "def": "Nye produkter i nye markeder – høyest risiko." },
-    { "term": "Melkeku", "def": "Lav vekst, høy markedsandel – gir overskudd." },
-    { "term": "Spørsmålstegn", "def": "Høy vekst, lav markedsandel." }
+    {
+      "term": "Offensiv strategi",
+      "def": "Bruke styrker til å utnytte muligheter."
+    },
+    {
+      "term": "Defensiv strategi",
+      "def": "Redusere risiko når svakheter møter trusler."
+    },
+    {
+      "term": "Porters fem krefter",
+      "def": "Rivalisering, nye aktører, substitutter, kunders og leverandørers makt."
+    },
+    {
+      "term": "Etableringsbarriere",
+      "def": "Hindring for nye aktører, som store investeringer."
+    },
+    {
+      "term": "Substitutt",
+      "def": "Produkt som dekker samme behov på en annen måte."
+    },
+    {
+      "term": "Oligopol",
+      "def": "Få store aktører."
+    },
+    {
+      "term": "Monopolistisk konkurranse",
+      "def": "Mange tilbydere med differensierte produkter."
+    },
+    {
+      "term": "Kostnadsledelse",
+      "def": "Konkurransefortrinn gjennom lavest kostnader."
+    },
+    {
+      "term": "Differensiering",
+      "def": "Unike egenskaper kunden vil betale mer for."
+    },
+    {
+      "term": "Fokusstrategi",
+      "def": "Kostnadsledelse eller differensiering i en nisje."
+    },
+    {
+      "term": "Stuck in the middle",
+      "def": "Verken billigst eller best."
+    },
+    {
+      "term": "Markedspenetrasjon",
+      "def": "Selge mer av eksisterende produkter i eksisterende marked."
+    },
+    {
+      "term": "Diversifisering",
+      "def": "Nye produkter i nye markeder – høyest risiko."
+    },
+    {
+      "term": "Melkeku",
+      "def": "Lav vekst, høy markedsandel – gir overskudd."
+    },
+    {
+      "term": "Spørsmålstegn",
+      "def": "Høy vekst, lav markedsandel."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken strategi kombinerer styrker og muligheter?", "options": ["Defensiv", "Offensiv", "Avvikling", "Forsvar"], "correct": 1, "explain": "Bruk styrkene aktivt." },
-    { "id": "q02", "text": "Hva er en substitutt?", "options": ["Et produkt som dekker samme behov på en annen måte", "En direkte konkurrent", "En leverandør", "En kunde"], "correct": 0, "explain": "For eksempel strømmetjeneste mot kino." },
-    { "id": "q03", "text": "Hva kjennetegner et oligopol?", "options": ["Én tilbyder", "Mange små tilbydere", "Få store aktører", "Ingen konkurranse"], "correct": 2, "explain": "Som dagligvarekjeder." },
-    { "id": "q04", "text": "Hvilken vekststrategi har høyest risiko?", "options": ["Markedspenetrasjon", "Markedsutvikling", "Produktutvikling", "Diversifisering"], "correct": 3, "explain": "Nye produkter i nye markeder." },
-    { "id": "q05", "text": "Hva er en melkeku i BCG-matrisen?", "options": ["Lav vekst og høy markedsandel", "Høy vekst og lav andel", "Lav vekst og lav andel", "Høy vekst og høy andel"], "correct": 0, "explain": "Gir overskudd." },
-    { "id": "q06", "text": "Hva advarte Porter mot?", "options": ["Differensiering", "Å bli «stuck in the middle»", "Kostnadsledelse", "Fokus"], "correct": 1, "explain": "Verken billigst eller best." },
-    { "id": "q07", "text": "Hva gjør høye etableringsbarrierer?", "options": ["Øker konkurransen", "Senker prisene", "Beskytter bransjen mot nye aktører", "Gir flere substitutter"], "correct": 2, "explain": "Gir høyere lønnsomhet for de etablerte." },
-    { "id": "q08", "text": "Hva er markedsutvikling i Ansoffs matrise?", "options": ["Nye produkter i eksisterende marked", "Mer salg av eksisterende produkter", "Nye produkter i nye markeder", "Eksisterende produkter i nye markeder"], "correct": 3, "explain": "For eksempel eksport." },
-    { "id": "q09", "text": "Hva er differensiering?", "options": ["Unike egenskaper kunden vil betale mer for", "Lavest pris", "Å selge i alle land", "Å kutte kostnader"], "correct": 0, "explain": "En av Porters generiske strategier." },
-    { "id": "q10", "text": "Hvordan påvirker sterke krefter i en bransje lønnsomheten?", "options": ["Den øker", "Den synker", "Den er uendret", "Den dobles"], "correct": 1, "explain": "Mer press på marginene." }
+    {
+      "id": "q01",
+      "text": "Hvilken strategi kombinerer styrker og muligheter?",
+      "options": [
+        "Defensiv",
+        "Offensiv",
+        "Avvikling",
+        "Forsvar"
+      ],
+      "correct": 1,
+      "explain": "Bruk styrkene aktivt."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er en substitutt?",
+      "options": [
+        "Et produkt som dekker samme behov på en annen måte",
+        "En direkte konkurrent",
+        "En leverandør",
+        "En kunde"
+      ],
+      "correct": 0,
+      "explain": "For eksempel strømmetjeneste mot kino."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kjennetegner et oligopol?",
+      "options": [
+        "Én tilbyder",
+        "Mange små tilbydere",
+        "Få store aktører",
+        "Ingen konkurranse"
+      ],
+      "correct": 2,
+      "explain": "Som dagligvarekjeder."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken vekststrategi har høyest risiko?",
+      "options": [
+        "Markedspenetrasjon",
+        "Markedsutvikling",
+        "Produktutvikling",
+        "Diversifisering"
+      ],
+      "correct": 3,
+      "explain": "Nye produkter i nye markeder."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en melkeku i BCG-matrisen?",
+      "options": [
+        "Lav vekst og høy markedsandel",
+        "Høy vekst og lav andel",
+        "Lav vekst og lav andel",
+        "Høy vekst og høy andel"
+      ],
+      "correct": 0,
+      "explain": "Gir overskudd."
+    },
+    {
+      "id": "q06",
+      "text": "Hva advarte Porter mot?",
+      "options": [
+        "Differensiering",
+        "Å bli «stuck in the middle»",
+        "Kostnadsledelse",
+        "Fokus"
+      ],
+      "correct": 1,
+      "explain": "Verken billigst eller best."
+    },
+    {
+      "id": "q07",
+      "text": "Hva gjør høye etableringsbarrierer?",
+      "options": [
+        "Øker konkurransen",
+        "Senker prisene",
+        "Beskytter bransjen mot nye aktører",
+        "Gir flere substitutter"
+      ],
+      "correct": 2,
+      "explain": "Gir høyere lønnsomhet for de etablerte."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er markedsutvikling i Ansoffs matrise?",
+      "options": [
+        "Nye produkter i eksisterende marked",
+        "Mer salg av eksisterende produkter",
+        "Nye produkter i nye markeder",
+        "Eksisterende produkter i nye markeder"
+      ],
+      "correct": 3,
+      "explain": "For eksempel eksport."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er differensiering?",
+      "options": [
+        "Unike egenskaper kunden vil betale mer for",
+        "Lavest pris",
+        "Å selge i alle land",
+        "Å kutte kostnader"
+      ],
+      "correct": 0,
+      "explain": "En av Porters generiske strategier."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan påvirker sterke krefter i en bransje lønnsomheten?",
+      "options": [
+        "Den øker",
+        "Den synker",
+        "Den er uendret",
+        "Den dobles"
+      ],
+      "correct": 1,
+      "explain": "Mer press på marginene."
+    }
   ],
   "mindmap": {
     "label": "Analyse og strategi",
     "children": [
-      { "label": "SWOT", "children": [
-        { "label": "Offensiv og forbedring" },
-        { "label": "Forsvar og defensiv" }
-      ] },
-      { "label": "Bransje", "children": [
-        { "label": "Porters fem krefter" },
-        { "label": "Markedsformer" }
-      ] },
-      { "label": "Konkurransestrategi", "children": [
-        { "label": "Kostnadsledelse" },
-        { "label": "Differensiering" },
-        { "label": "Fokus" }
-      ] },
-      { "label": "Vekst", "children": [
-        { "label": "Ansoff" },
-        { "label": "BCG" }
-      ] },
-      { "label": "Vurdering", "children": [
-        { "label": "Realisme og risiko" },
-        { "label": "Konkurrentenes reaksjon" }
-      ] }
+      {
+        "label": "SWOT",
+        "children": [
+          {
+            "label": "Offensiv og forbedring"
+          },
+          {
+            "label": "Forsvar og defensiv"
+          }
+        ]
+      },
+      {
+        "label": "Bransje",
+        "children": [
+          {
+            "label": "Porters fem krefter"
+          },
+          {
+            "label": "Markedsformer"
+          }
+        ]
+      },
+      {
+        "label": "Konkurransestrategi",
+        "children": [
+          {
+            "label": "Kostnadsledelse"
+          },
+          {
+            "label": "Differensiering"
+          },
+          {
+            "label": "Fokus"
+          }
+        ]
+      },
+      {
+        "label": "Vekst",
+        "children": [
+          {
+            "label": "Ansoff"
+          },
+          {
+            "label": "BCG"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering",
+        "children": [
+          {
+            "label": "Realisme og risiko"
+          },
+          {
+            "label": "Konkurrentenes reaksjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En situasjonsanalyse bør ende i strategiske valg.", "correct": true, "explain": "Ikke bare en liste." },
-      { "id": "m02", "type": "sant-usant", "text": "Markedspenetrasjon har høyest risiko i Ansoffs matrise.", "correct": false, "explain": "Den har lavest risiko." },
-      { "id": "m03", "type": "sant-usant", "text": "Melkekuer kan finansiere andre produkter.", "correct": true, "explain": "De gir overskudd." },
-      { "id": "m04", "type": "sant-usant", "text": "Kundenes forhandlingsmakt har ingen betydning for lønnsomheten.", "correct": false, "explain": "Sterk kundemakt presser prisene." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken markedsform kjennetegner frisører og restauranter?", "options": ["Monopol", "Monopolistisk konkurranse", "Oligopol", "Fullkommen konkurranse"], "correct": 1, "explain": "Mange tilbydere med ulike tilbud." },
-      { "id": "m06", "type": "flervalg", "text": "Hva kalles et produkt med høy vekst og høy markedsandel?", "options": ["Stjerne", "Hund", "Melkeku", "Spørsmålstegn"], "correct": 0, "explain": "Investér." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken kraft handler om at kjedene presser leverandørene?", "options": ["Substitutter", "Nye aktører", "Kundenes forhandlingsmakt", "Rivalisering"], "correct": 2, "explain": "Kjedene er leverandørenes kunder." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En situasjonsanalyse bør ende i strategiske valg.",
+        "correct": true,
+        "explain": "Ikke bare en liste."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Markedspenetrasjon har høyest risiko i Ansoffs matrise.",
+        "correct": false,
+        "explain": "Den har lavest risiko."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Melkekuer kan finansiere andre produkter.",
+        "correct": true,
+        "explain": "De gir overskudd."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kundenes forhandlingsmakt har ingen betydning for lønnsomheten.",
+        "correct": false,
+        "explain": "Sterk kundemakt presser prisene."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken markedsform kjennetegner frisører og restauranter?",
+        "options": [
+          "Monopol",
+          "Monopolistisk konkurranse",
+          "Oligopol",
+          "Fullkommen konkurranse"
+        ],
+        "correct": 1,
+        "explain": "Mange tilbydere med ulike tilbud."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva kalles et produkt med høy vekst og høy markedsandel?",
+        "options": [
+          "Stjerne",
+          "Hund",
+          "Melkeku",
+          "Spørsmålstegn"
+        ],
+        "correct": 0,
+        "explain": "Investér."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken kraft handler om at kjedene presser leverandørene?",
+        "options": [
+          "Substitutter",
+          "Nye aktører",
+          "Kundenes forhandlingsmakt",
+          "Rivalisering"
+        ],
+        "correct": 2,
+        "explain": "Kjedene er leverandørenes kunder."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvorfor en situasjonsanalyse bør undersøke både interne og eksterne forhold, og hvordan analysen skal brukes videre.",
+        "fasit": "Interne forhold viser virksomhetens ressurser, kompetanse og økonomi, mens eksterne forhold handler om markedet, konkurrentene og makroomgivelsene. Analysen skal gi grunnlag for strategiske valg, ikke bare ende som en liste over forhold.",
+        "kriterier": [
+          "Skiller mellom interne forhold og eksterne forhold med relevante eksempler.",
+          "Forklarer at analysen skal brukes som grunnlag for strategiske valg."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En virksomhet har svake ressurser og møter en trussel i markedet. Hvilken type SWOT-strategi passer, og hva er hensikten med den?",
+        "fasit": "En defensiv strategi passer når svakheter møter trusler. Hensikten er å redusere risikoen, og virksomheten kan i noen tilfeller vurdere å trekke seg ut.",
+        "kriterier": [
+          "Kobler kombinasjonen svakheter og trusler til en defensiv strategi.",
+          "Forklarer at strategien skal redusere risiko, eventuelt ved å trekke seg ut."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Noen få store dagligvarekjeder har stor makt overfor leverandørene sine. Hvilken av Porters fem krefter viser dette, og hva kan sterk slik makt bety for leverandørenes lønnsomhet?",
+        "fasit": "Dette viser kundenes forhandlingsmakt, fordi kjedene er kundene til leverandørene. Sterk forhandlingsmakt fra kundene kan presse lønnsomheten ned.",
+        "kriterier": [
+          "Identifiserer kundenes forhandlingsmakt som den aktuelle kraften.",
+          "Knytter sterk forhandlingsmakt til lavere lønnsomhet for leverandørene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign monopolistisk konkurranse og oligopol med tanke på antall tilbydere og hva som kjennetegner produktene eller aktørene.",
+        "fasit": "Monopolistisk konkurranse har mange tilbydere med differensierte produkter. Et oligopol har få store aktører.",
+        "kriterier": [
+          "Beskriver monopolistisk konkurranse som mange tilbydere med differensierte produkter.",
+          "Beskriver oligopol som få store aktører."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En bedrift tilbyr et produkt med unike egenskaper til en avgrenset kundegruppe. Hvilken av Porters generiske strategier passer best, og hva gjør den til en strategi for en nisje?",
+        "fasit": "Dette er en fokusstrategi med differensiering. Bedriften retter seg mot et avgrenset segment og tilbyr egenskaper som skiller produktet fra andres.",
+        "kriterier": [
+          "Identifiserer en fokusstrategi med differensiering.",
+          "Forklarer at strategien retter seg mot et avgrenset segment og skiller tilbudet ut."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En virksomhet vil lansere et nytt produkt til kundene i markedet den allerede betjener. Hvilken vekststrategi i Ansoffs matrise beskriver dette? Begrunn svaret.",
+        "fasit": "Dette er produktutvikling. Virksomheten tilbyr et nytt produkt i et eksisterende marked.",
+        "kriterier": [
+          "Identifiserer strategien som produktutvikling.",
+          "Begrunner svaret med at produktet er nytt, mens markedet er eksisterende."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et produkt har høy markedsvekst, men lav relativ markedsandel i BCG-matrisen. Hva kalles denne kategorien, og hvilket strategisk valg må virksomheten vurdere?",
+        "fasit": "Produktet er et spørsmålstegn. Virksomheten må vurdere om den skal satse på produktet eller avvikle det.",
+        "kriterier": [
+          "Identifiserer kategorien som et spørsmålstegn ut fra høy vekst og lav markedsandel.",
+          "Nevner vurderingen mellom å satse og å avvikle."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En virksomhet med begrensede ressurser vurderer diversifisering, altså nye produkter i nye markeder. Forklar hva den bør undersøke før den bestemmer seg, og hvorfor.",
+        "fasit": "Virksomheten bør vurdere om strategien er realistisk ut fra ressursene, og undersøke risikoen og konsekvensene. Den bør også sammenligne alternativer og tenke over hvordan konkurrentene kan reagere.",
+        "kriterier": [
+          "Vurderer om strategien lar seg gjennomføre med virksomhetens ressurser.",
+          "Drøfter risiko eller konsekvenser, gjerne sammen med alternativer eller konkurrentenes reaksjoner."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

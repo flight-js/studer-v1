@@ -4,78 +4,425 @@
   "trinnId": "vg2",
   "name": "Jordas indre og platetektonikk",
   "intro": "Jordas lagdeling, fra kontinentaldrift til platetektonikk, drivkreftene bak platebevegelsene, de tre typene plategrenser og hva de betyr for jordskjelv, vulkaner og fjellkjeder – også i Norge.",
-  "kompetansemaal": [2],
+  "kompetansemaal": [
+    2
+  ],
   "sammendrag": "## Jordas oppbygning\n\nJorda er lagdelt:\n\n- **Jordskorpa**: tynnest under havet (havbunnsskorpe, omtrent 5–10 km, mest basalt) og tykkest under kontinentene (kontinental skorpe, omtrent 30–70 km, mye granitt).\n- **Mantelen**: varm, fast bergart som likevel kan **flyte svært langsomt** over lang tid.\n- **Ytre kjerne**: **flytende** jern og nikkel. Bevegelsene her skaper **jordas magnetfelt**.\n- **Indre kjerne**: fast jern og nikkel på grunn av det enorme trykket.\n\nSkorpa og øverste del av mantelen danner den stive **litosfæren**, som er delt i **plater**. Under ligger den mer plastiske **astenosfæren**.\n\n## Fra kontinentaldrift til platetektonikk\n\n**Alfred Wegener** foreslo i **1912** at kontinentene har vært samlet i ett superkontinent, **Pangea**, og har drevet fra hverandre. Bevisene var at **kystlinjene** passer sammen, og at like **fossiler**, **bergarter** og **isspor** finnes på kontinenter som i dag ligger langt fra hverandre. Han kunne likevel ikke forklare **hva** som flyttet kontinentene.\n\nPå **1960-tallet** viste undersøkelser av havbunnen at ny havbunn dannes ved **midthavsryggene**, og at bergartene har **magnetiske striper** som er speilvendt på hver side av ryggen. Dette ble grunnlaget for teorien om **platetektonikk**.\n\n## Drivkrefter\n\nPlatene beveger seg noen **centimeter i året** – omtrent like raskt som neglene dine vokser. Drivkreftene er\n\n- **konveksjon** i mantelen, drevet av jordas indre varme\n- at tunge plater **synker** ned i mantelen og **trekker** resten av platen etter seg\n- at platene **glir** ned fra de høye midthavsryggene\n\n## Tre typer plategrenser\n\n**Divergente grenser** – platene beveger seg **fra hverandre**. Magma strømmer opp og danner ny skorpe. Eksempel: **Den midtatlantiske ryggen**, som går gjennom **Island**.\n\n**Konvergente grenser** – platene beveger seg **mot hverandre**:\n\n- Havbunnsplate mot kontinentalplate: Den tunge havbunnsplaten **subduseres** (dykker ned). Det gir **dyphavsgrøfter**, kraftige **jordskjelv** og **vulkaner**, som i **Andes** og **Japan**.\n- Kontinent mot kontinent: Ingen av platene synker, og skorpa **presses opp** til høye fjellkjeder, som **Himalaya**.\n\n**Transforme grenser** – platene **glir forbi** hverandre. Spenninger bygger seg opp og utløses i jordskjelv. Eksempel: **San Andreas-forkastningen** i California.\n\nNoen vulkaner ligger midt på plater, over **varme flekker** i mantelen – som **Hawaii**.\n\n## Norge og platetektonikken\n\n- Den **kaledonske fjellkjeden** ble dannet for rundt 400–430 millioner år siden, da kontinentene **Baltika** og **Laurentia** kolliderte. Restene av den finner vi i de norske fjellene i dag.\n- For rundt **55 millioner år** siden begynte **Nord-Atlanteren** å åpne seg mellom Norge og Grønland.\n- Norge ligger i dag **langt fra** plategrensene, men har likevel **moderate jordskjelv**, blant annet fordi spenninger fra Den midtatlantiske ryggen og landhevingen etter istida forplanter seg inn i skorpa.",
   "flashcards": [
-    { "term": "Havbunnsskorpe", "def": "Tynn skorpe, 5–10 km, mest basalt." },
-    { "term": "Kontinental skorpe", "def": "Tykk skorpe, 30–70 km, mye granitt." },
-    { "term": "Mantelen", "def": "Varm, fast bergart som flyter svært langsomt." },
-    { "term": "Ytre kjerne", "def": "Flytende jern og nikkel som skaper magnetfeltet." },
-    { "term": "Litosfæren", "def": "Stiv skorpe og øverste mantel, delt i plater." },
-    { "term": "Astenosfæren", "def": "Plastisk lag i mantelen under litosfæren." },
-    { "term": "Alfred Wegener", "def": "Foreslo kontinentaldrift i 1912." },
-    { "term": "Pangea", "def": "Superkontinentet der kontinentene var samlet." },
-    { "term": "Magnetiske striper", "def": "Speilvendte striper på hver side av midthavsryggene." },
-    { "term": "Divergent grense", "def": "Plater beveger seg fra hverandre, ny skorpe dannes." },
-    { "term": "Konvergent grense", "def": "Plater beveger seg mot hverandre." },
-    { "term": "Subduksjon", "def": "En tung plate dykker ned under en annen." },
-    { "term": "Transform grense", "def": "Plater glir forbi hverandre." },
-    { "term": "Varm flekk", "def": "Varmt område i mantelen som gir vulkaner midt på plater, som Hawaii." },
-    { "term": "Den kaledonske fjellkjeden", "def": "Dannet ved kollisjon mellom Baltika og Laurentia." }
+    {
+      "term": "Havbunnsskorpe",
+      "def": "Tynn skorpe, 5–10 km, mest basalt."
+    },
+    {
+      "term": "Kontinental skorpe",
+      "def": "Tykk skorpe, 30–70 km, mye granitt."
+    },
+    {
+      "term": "Mantelen",
+      "def": "Varm, fast bergart som flyter svært langsomt."
+    },
+    {
+      "term": "Ytre kjerne",
+      "def": "Flytende jern og nikkel som skaper magnetfeltet."
+    },
+    {
+      "term": "Litosfæren",
+      "def": "Stiv skorpe og øverste mantel, delt i plater."
+    },
+    {
+      "term": "Astenosfæren",
+      "def": "Plastisk lag i mantelen under litosfæren."
+    },
+    {
+      "term": "Alfred Wegener",
+      "def": "Foreslo kontinentaldrift i 1912."
+    },
+    {
+      "term": "Pangea",
+      "def": "Superkontinentet der kontinentene var samlet."
+    },
+    {
+      "term": "Magnetiske striper",
+      "def": "Speilvendte striper på hver side av midthavsryggene."
+    },
+    {
+      "term": "Divergent grense",
+      "def": "Plater beveger seg fra hverandre, ny skorpe dannes."
+    },
+    {
+      "term": "Konvergent grense",
+      "def": "Plater beveger seg mot hverandre."
+    },
+    {
+      "term": "Subduksjon",
+      "def": "En tung plate dykker ned under en annen."
+    },
+    {
+      "term": "Transform grense",
+      "def": "Plater glir forbi hverandre."
+    },
+    {
+      "term": "Varm flekk",
+      "def": "Varmt område i mantelen som gir vulkaner midt på plater, som Hawaii."
+    },
+    {
+      "term": "Den kaledonske fjellkjeden",
+      "def": "Dannet ved kollisjon mellom Baltika og Laurentia."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilket lag skaper jordas magnetfelt?", "options": ["Skorpa", "Den ytre kjernen", "Den indre kjernen", "Astenosfæren"], "correct": 1, "explain": "Flytende jern og nikkel i bevegelse." },
-    { "id": "q02", "text": "Hva skjer ved en divergent plategrense?", "options": ["Platene beveger seg fra hverandre og ny skorpe dannes", "Platene kolliderer", "Platene glir forbi hverandre", "En plate dykker ned"], "correct": 0, "explain": "For eksempel Den midtatlantiske ryggen." },
-    { "id": "q03", "text": "Hvordan ble Himalaya dannet?", "options": ["Ved en varm flekk", "Ved en divergent grense", "Ved at to kontinentalplater kolliderte", "Ved erosjon"], "correct": 2, "explain": "Skorpa ble presset opp." },
-    { "id": "q04", "text": "Hvilket bevis førte til teorien om platetektonikk på 1960-tallet?", "options": ["Kystlinjene", "Fossiler av dinosaurer", "Vulkaner på Island", "Magnetiske striper på havbunnen"], "correct": 3, "explain": "De viste havbunnsspredning." },
-    { "id": "q05", "text": "Hvor raskt beveger platene seg?", "options": ["Noen centimeter i året", "Noen meter i året", "Noen kilometer i året", "De står stille"], "correct": 0, "explain": "Omtrent like raskt som neglene vokser." },
-    { "id": "q06", "text": "Hva kjennetegner en subduksjonssone?", "options": ["Ny havbunn dannes", "Dyphavsgrøfter, kraftige jordskjelv og vulkaner", "Platene glir forbi hverandre uten jordskjelv", "Ingen geologisk aktivitet"], "correct": 1, "explain": "Som i Andes og Japan." },
-    { "id": "q07", "text": "Hvilken type plategrense er San Andreas-forkastningen?", "options": ["Divergent", "Konvergent", "Transform", "Varm flekk"], "correct": 2, "explain": "Platene glir forbi hverandre." },
-    { "id": "q08", "text": "Hvordan ble den kaledonske fjellkjeden dannet?", "options": ["Da Atlanterhavet åpnet seg", "Ved en varm flekk under Norge", "Under istida", "Ved en kollisjon mellom Baltika og Laurentia"], "correct": 3, "explain": "For rundt 400–430 millioner år siden." },
-    { "id": "q09", "text": "Hvorfor er den indre kjernen fast, selv om den er svært varm?", "options": ["På grunn av det enorme trykket", "Fordi den er kald", "Fordi den består av stein", "Fordi den er hul"], "correct": 0, "explain": "Trykket hindrer smelting." },
-    { "id": "q10", "text": "Hva manglet Wegener i teorien sin?", "options": ["Bevis fra fossiler", "En forklaring på hva som flyttet kontinentene", "Kart over kystlinjene", "Kunnskap om Pangea"], "correct": 1, "explain": "Platetektonikken ga forklaringen." }
+    {
+      "id": "q01",
+      "text": "Hvilket lag skaper jordas magnetfelt?",
+      "options": [
+        "Skorpa",
+        "Den ytre kjernen",
+        "Den indre kjernen",
+        "Astenosfæren"
+      ],
+      "correct": 1,
+      "explain": "Flytende jern og nikkel i bevegelse."
+    },
+    {
+      "id": "q02",
+      "text": "Hva skjer ved en divergent plategrense?",
+      "options": [
+        "Platene beveger seg fra hverandre og ny skorpe dannes",
+        "Platene kolliderer",
+        "Platene glir forbi hverandre",
+        "En plate dykker ned"
+      ],
+      "correct": 0,
+      "explain": "For eksempel Den midtatlantiske ryggen."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan ble Himalaya dannet?",
+      "options": [
+        "Ved en varm flekk",
+        "Ved en divergent grense",
+        "Ved at to kontinentalplater kolliderte",
+        "Ved erosjon"
+      ],
+      "correct": 2,
+      "explain": "Skorpa ble presset opp."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket bevis førte til teorien om platetektonikk på 1960-tallet?",
+      "options": [
+        "Kystlinjene",
+        "Fossiler av dinosaurer",
+        "Vulkaner på Island",
+        "Magnetiske striper på havbunnen"
+      ],
+      "correct": 3,
+      "explain": "De viste havbunnsspredning."
+    },
+    {
+      "id": "q05",
+      "text": "Hvor raskt beveger platene seg?",
+      "options": [
+        "Noen centimeter i året",
+        "Noen meter i året",
+        "Noen kilometer i året",
+        "De står stille"
+      ],
+      "correct": 0,
+      "explain": "Omtrent like raskt som neglene vokser."
+    },
+    {
+      "id": "q06",
+      "text": "Hva kjennetegner en subduksjonssone?",
+      "options": [
+        "Ny havbunn dannes",
+        "Dyphavsgrøfter, kraftige jordskjelv og vulkaner",
+        "Platene glir forbi hverandre uten jordskjelv",
+        "Ingen geologisk aktivitet"
+      ],
+      "correct": 1,
+      "explain": "Som i Andes og Japan."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken type plategrense er San Andreas-forkastningen?",
+      "options": [
+        "Divergent",
+        "Konvergent",
+        "Transform",
+        "Varm flekk"
+      ],
+      "correct": 2,
+      "explain": "Platene glir forbi hverandre."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan ble den kaledonske fjellkjeden dannet?",
+      "options": [
+        "Da Atlanterhavet åpnet seg",
+        "Ved en varm flekk under Norge",
+        "Under istida",
+        "Ved en kollisjon mellom Baltika og Laurentia"
+      ],
+      "correct": 3,
+      "explain": "For rundt 400–430 millioner år siden."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er den indre kjernen fast, selv om den er svært varm?",
+      "options": [
+        "På grunn av det enorme trykket",
+        "Fordi den er kald",
+        "Fordi den består av stein",
+        "Fordi den er hul"
+      ],
+      "correct": 0,
+      "explain": "Trykket hindrer smelting."
+    },
+    {
+      "id": "q10",
+      "text": "Hva manglet Wegener i teorien sin?",
+      "options": [
+        "Bevis fra fossiler",
+        "En forklaring på hva som flyttet kontinentene",
+        "Kart over kystlinjene",
+        "Kunnskap om Pangea"
+      ],
+      "correct": 1,
+      "explain": "Platetektonikken ga forklaringen."
+    }
   ],
   "mindmap": {
     "label": "Platetektonikk",
     "children": [
-      { "label": "Jordas lag", "children": [
-        { "label": "Skorpe" },
-        { "label": "Mantel" },
-        { "label": "Ytre og indre kjerne" }
-      ] },
-      { "label": "Historie", "children": [
-        { "label": "Wegener og Pangea" },
-        { "label": "Havbunnsspredning" }
-      ] },
-      { "label": "Drivkrefter", "children": [
-        { "label": "Konveksjon" },
-        { "label": "Synkende plater" }
-      ] },
-      { "label": "Plategrenser", "children": [
-        { "label": "Divergent" },
-        { "label": "Konvergent" },
-        { "label": "Transform" },
-        { "label": "Varme flekker" }
-      ] },
-      { "label": "Norge", "children": [
-        { "label": "Kaledonidene" },
-        { "label": "Nord-Atlanteren åpnes" },
-        { "label": "Moderate jordskjelv" }
-      ] }
+      {
+        "label": "Jordas lag",
+        "children": [
+          {
+            "label": "Skorpe"
+          },
+          {
+            "label": "Mantel"
+          },
+          {
+            "label": "Ytre og indre kjerne"
+          }
+        ]
+      },
+      {
+        "label": "Historie",
+        "children": [
+          {
+            "label": "Wegener og Pangea"
+          },
+          {
+            "label": "Havbunnsspredning"
+          }
+        ]
+      },
+      {
+        "label": "Drivkrefter",
+        "children": [
+          {
+            "label": "Konveksjon"
+          },
+          {
+            "label": "Synkende plater"
+          }
+        ]
+      },
+      {
+        "label": "Plategrenser",
+        "children": [
+          {
+            "label": "Divergent"
+          },
+          {
+            "label": "Konvergent"
+          },
+          {
+            "label": "Transform"
+          },
+          {
+            "label": "Varme flekker"
+          }
+        ]
+      },
+      {
+        "label": "Norge",
+        "children": [
+          {
+            "label": "Kaledonidene"
+          },
+          {
+            "label": "Nord-Atlanteren åpnes"
+          },
+          {
+            "label": "Moderate jordskjelv"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Havbunnsskorpa er tynnere enn den kontinentale skorpa.", "correct": true, "explain": "5–10 km mot 30–70 km." },
-      { "id": "m02", "type": "sant-usant", "text": "Norge ligger på en aktiv plategrense.", "correct": false, "explain": "Norge ligger langt fra plategrensene." },
-      { "id": "m03", "type": "sant-usant", "text": "Island ligger på Den midtatlantiske ryggen.", "correct": true, "explain": "Derfor er det mye vulkanisme der." },
-      { "id": "m04", "type": "sant-usant", "text": "Den ytre kjernen er fast.", "correct": false, "explain": "Den ytre kjernen er flytende." },
-      { "id": "m05", "type": "flervalg", "text": "Hva forklarer vulkanene på Hawaii?", "options": ["En subduksjonssone", "En varm flekk i mantelen", "En transform grense", "Kollisjon mellom kontinenter"], "correct": 1, "explain": "Hawaii ligger midt på en plate." },
-      { "id": "m06", "type": "flervalg", "text": "Når begynte Nord-Atlanteren å åpne seg mellom Norge og Grønland?", "options": ["For rundt 55 millioner år siden", "For 10 000 år siden", "For 4 milliarder år siden", "For 1 million år siden"], "correct": 0, "explain": "Grønland og Norge har drevet fra hverandre siden." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er litosfæren?", "options": ["Den flytende kjernen", "Atmosfærens nederste lag", "Skorpa og øverste mantel, delt i plater", "Havbunnens sedimenter"], "correct": 2, "explain": "Den er stiv." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Havbunnsskorpa er tynnere enn den kontinentale skorpa.",
+        "correct": true,
+        "explain": "5–10 km mot 30–70 km."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Norge ligger på en aktiv plategrense.",
+        "correct": false,
+        "explain": "Norge ligger langt fra plategrensene."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Island ligger på Den midtatlantiske ryggen.",
+        "correct": true,
+        "explain": "Derfor er det mye vulkanisme der."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Den ytre kjernen er fast.",
+        "correct": false,
+        "explain": "Den ytre kjernen er flytende."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva forklarer vulkanene på Hawaii?",
+        "options": [
+          "En subduksjonssone",
+          "En varm flekk i mantelen",
+          "En transform grense",
+          "Kollisjon mellom kontinenter"
+        ],
+        "correct": 1,
+        "explain": "Hawaii ligger midt på en plate."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Når begynte Nord-Atlanteren å åpne seg mellom Norge og Grønland?",
+        "options": [
+          "For rundt 55 millioner år siden",
+          "For 10 000 år siden",
+          "For 4 milliarder år siden",
+          "For 1 million år siden"
+        ],
+        "correct": 0,
+        "explain": "Grønland og Norge har drevet fra hverandre siden."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er litosfæren?",
+        "options": [
+          "Den flytende kjernen",
+          "Atmosfærens nederste lag",
+          "Skorpa og øverste mantel, delt i plater",
+          "Havbunnens sedimenter"
+        ],
+        "correct": 2,
+        "explain": "Den er stiv."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign havbunnsskorpe og kontinental skorpe med hensyn til tykkelse og bergartssammensetning.",
+        "fasit": "Havbunnsskorpa er omtrent 5–10 km tykk og består mest av basalt. Kontinentalskorpa er omtrent 30–70 km tykk og består mye av granitt.",
+        "kriterier": [
+          "Får fram at havbunnsskorpa er tynnere enn kontinentalskorpa, gjerne med riktige tykkelsesområder.",
+          "Får fram at havbunnsskorpa hovedsakelig består av basalt, mens kontinentalskorpa inneholder mye granitt."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Alfred Wegener foreslo at kontinentene en gang var samlet i Pangea. Forklar hvordan spor på kontinenter som nå ligger langt fra hverandre, kan støtte denne ideen. Bruk minst to typer spor.",
+        "fasit": "Hvis kystlinjer passer sammen, og like fossiler eller bergarter finnes på kontinenter langt fra hverandre, tyder det på at kontinentene tidligere hang sammen. Like issport kan også støtte ideen.",
+        "kriterier": [
+          "Forklarer at likheter mellom fjerne kontinenter tyder på at de tidligere var forbundet.",
+          "Bruker minst to relevante spor, som kystlinjer som passer sammen, like fossiler, bergarter eller issport."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar tre måter platene kan settes i bevegelse på: konveksjon i mantelen, synkende plater og midthavsrygger.",
+        "fasit": "Jordas indre varme driver konveksjon i mantelen. Tunge plater som synker, trekker resten av platen med seg, og plater kan også gli ned fra de høye midthavsryggene.",
+        "kriterier": [
+          "Knytter konveksjon i mantelen til jordas indre varme.",
+          "Forklarer at en tung plate som synker, trekker resten av platen etter seg.",
+          "Får fram at platene glir ned fra de høye midthavsryggene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En vulkan ligger midt på en plate, langt fra plategrensene. Bruk begrepet varm flekk til å forklare hvordan vulkanen kan dannes.",
+        "fasit": "Vulkanen kan dannes over en varm flekk, som er et varmt område i mantelen. En slik varm flekk kan gi vulkaner midt på en plate, slik som på Hawaii.",
+        "kriterier": [
+          "Forklarer at en varm flekk er et varmt område i mantelen.",
+          "Knytter den varme flekken til vulkanisme midt på en plate."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Norge ligger langt fra plategrensene, men har likevel moderate jordskjelv. Forklar to forhold som kan bidra til dette.",
+        "fasit": "Spenninger fra Den midtatlantiske ryggen kan forplante seg inn i jordskorpa i Norge. Landhevingen etter istida bidrar også til spenninger.",
+        "kriterier": [
+          "Nevner at spenninger fra Den midtatlantiske ryggen forplanter seg inn i skorpa.",
+          "Nevner landhevingen etter istida som en kilde til spenninger."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar forskjellen mellom litosfæren og astenosfæren, og beskriv hvor de ligger i forhold til hverandre.",
+        "fasit": "Litosfæren består av den stive jordskorpa og den øverste delen av mantelen, og den er delt i plater. Under den ligger den mer plastiske astenosfæren.",
+        "kriterier": [
+          "Beskriver litosfæren som et stivt lag av skorpe og øverste mantel som er delt i plater.",
+          "Plasserer astenosfæren under litosfæren og beskriver den som mer plastisk."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Havbunnsskorpa er omtrent 5–10 km tykk, mens kontinentalskorpa er omtrent 30–70 km tykk. Hvor mange kilometer tykkere er den tykkeste oppgitte kontinentalskorpa enn den tykkeste oppgitte havbunnsskorpa? Vis regnestykket.",
+        "fasit": "Den tykkeste oppgitte kontinentalskorpa er 60 km tykkere: 70 − 10 = 60 km.",
+        "kriterier": [
+          "Bruker de to tykkeste verdiene, 70 km og 10 km.",
+          "Viser regnestykket 70 − 10 og får svaret 60 km."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Den kaledonske fjellkjeden ble dannet for rundt 400–430 millioner år siden. Hvor mange millioner år er det mellom yttergrensene i dette tidsintervallet? Vis regnestykket.",
+        "fasit": "Det er 30 millioner år mellom yttergrensene: 430 − 400 = 30 millioner år.",
+        "kriterier": [
+          "Trekker den minste alderen fra den største: 430 − 400.",
+          "Får svaret 30 millioner år."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

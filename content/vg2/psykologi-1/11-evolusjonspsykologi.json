@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Evolusjonspsykologi",
   "intro": "Hvordan naturlig seleksjon kan ha formet menneskets tanker, emosjoner og atferd – frykt, emosjoner, partnervalg og altruisme – hvorfor fortidens tilpasninger ikke alltid passer i dag, og hvilken kritikk evolusjonspsykologien møter.",
-  "kompetansemaal": [12],
+  "kompetansemaal": [
+    12
+  ],
   "sammendrag": "## Naturlig seleksjon\n\n**Charles Darwin** beskrev i **1859** hvordan arter endrer seg gjennom **naturlig seleksjon**:\n\n1. Individer i en art er **forskjellige**.\n2. Mange egenskaper er **arvelige**.\n3. Individer med egenskaper som gir **overlevelse** og **reproduksjon**, får flere etterkommere.\n\nOver mange generasjoner blir de nyttige egenskapene **vanligere**. **Seksuell seleksjon** handler om egenskaper som gjør det lettere å få en **partner**.\n\n## Hva er evolusjonspsykologi?\n\n**Evolusjonspsykologien** mener at også **psyken** er formet av naturlig seleksjon. Mange av våre tanker, følelser og tilbøyeligheter er **tilpasninger** – **adaptasjoner** – som løste problemer for våre forfedre, som å finne mat, unngå fare, finne en partner og samarbeide i grupper.\n\nMennesker levde som **jegere og sankere** i det aller meste av sin historie. Psyken er derfor tilpasset et liv i små **grupper**, ikke i moderne byer.\n\n## Eksempler\n\n- **Frykt**: Mange blir lettere redde for **slanger**, **edderkopper** og **høyder** enn for biler og stikkontakter, selv om de siste er farligere i dag. Evolusjonspsykologer mener vi er **forberedt** på å lære frykt for farer som truet forfedrene våre.\n- **Emosjoner**: **Paul Ekman** fant at **grunnemosjoner** som glede, sinne, frykt, tristhet, avsky og overraskelse gjenkjennes i ansiktsuttrykk i mange **kulturer**. Emosjoner kan forstås som **signaler** som gjør oss klare til å handle. **Avsky** kan for eksempel beskytte mot **smitte** og bedervet mat.\n- **Tilknytning**: Spedbarn som holdt seg nær voksne, overlevde oftere.\n- **Partnervalg**: Studier fra mange land finner noen **felles** trekk i hva folk ser etter hos en partner, som **vennlighet** og **helse** – men også store **kulturelle** og **individuelle** forskjeller.\n- **Altruisme**: Å hjelpe **slektninger** kan lønne seg evolusjonært fordi de deler **gener** med oss – **slektsseleksjon**. Å hjelpe andre som hjelper **tilbake**, gir fordeler over tid – **gjensidig altruisme**.\n- **Gruppetilhørighet**: Å bli **utstøtt** fra gruppen var farlig, og det kan forklare hvorfor **avvisning** gjør så vondt.\n\n## Mismatch – når fortiden ikke passer\n\nNoen tilpasninger passer dårlig i dagens samfunn:\n\n- Lysten på **søtt** og **fett** var nyttig når mat var knapp, men bidrar i dag til **overvekt**.\n- **Stressreaksjonen** var laget for korte, fysiske farer, men aktiveres i dag av **prøver** og **e-post**.\n- Hjernen er rask til å reagere på **sosial sammenligning**, noe som kan forsterkes i **sosiale medier**.\n\n## Kritikk\n\n- **Vanskelig å teste**: Vi vet lite om hvordan forfedrene faktisk levde, og det er lett å lage **etterpåklokne** historier om hvorfor en egenskap «må» ha vært nyttig.\n- **Kultur og læring** kan forklare mye av det samme.\n- **Naturalistisk feilslutning**: At noe er «**naturlig**», betyr ikke at det er **riktig** eller **uunngåelig**. Evolusjonære forklaringer har blitt misbrukt til å forsvare for eksempel tradisjonelle **kjønnsroller**.\n- **Determinisme**: Mennesket har stor evne til **refleksjon** og **endring**.\n\n## Vurdering\n\nEvolusjonspsykologien gir et **perspektiv** på **hvorfor** vi har bestemte tilbøyeligheter. Den er mest overbevisende når den kombineres med **biologisk**, **kognitiv** og **sosiokulturell** forskning.",
   "flashcards": [
-    { "term": "Naturlig seleksjon", "def": "Egenskaper som gir overlevelse og reproduksjon, blir vanligere over tid." },
-    { "term": "Charles Darwin", "def": "Beskrev evolusjon ved naturlig seleksjon i 1859." },
-    { "term": "Seksuell seleksjon", "def": "Egenskaper som gjør det lettere å få en partner." },
-    { "term": "Evolusjonspsykologi", "def": "Forklarer psyken som formet av naturlig seleksjon." },
-    { "term": "Adaptasjon", "def": "Tilpasning som løste et problem for forfedrene." },
-    { "term": "Forberedt frykt", "def": "Vi lærer lettere frykt for farer som truet forfedrene, som slanger." },
-    { "term": "Grunnemosjoner", "def": "Glede, sinne, frykt, tristhet, avsky og overraskelse." },
-    { "term": "Paul Ekman", "def": "Fant at grunnemosjoner gjenkjennes på tvers av kulturer." },
-    { "term": "Avsky", "def": "Emosjon som kan beskytte mot smitte og bedervet mat." },
-    { "term": "Slektsseleksjon", "def": "Å hjelpe slektninger som deler gener med oss." },
-    { "term": "Gjensidig altruisme", "def": "Å hjelpe andre som hjelper tilbake." },
-    { "term": "Mismatch", "def": "Tilpasninger fra fortiden som passer dårlig i dag." },
-    { "term": "Naturalistisk feilslutning", "def": "Å tro at det naturlige også er riktig." },
-    { "term": "Jegere og sankere", "def": "Levemåten mennesker hadde i det meste av sin historie." },
-    { "term": "Determinisme", "def": "Synet at atferd er forhåndsbestemt – kritikk mot evolusjonspsykologien." }
+    {
+      "term": "Naturlig seleksjon",
+      "def": "Egenskaper som gir overlevelse og reproduksjon, blir vanligere over tid."
+    },
+    {
+      "term": "Charles Darwin",
+      "def": "Beskrev evolusjon ved naturlig seleksjon i 1859."
+    },
+    {
+      "term": "Seksuell seleksjon",
+      "def": "Egenskaper som gjør det lettere å få en partner."
+    },
+    {
+      "term": "Evolusjonspsykologi",
+      "def": "Forklarer psyken som formet av naturlig seleksjon."
+    },
+    {
+      "term": "Adaptasjon",
+      "def": "Tilpasning som løste et problem for forfedrene."
+    },
+    {
+      "term": "Forberedt frykt",
+      "def": "Vi lærer lettere frykt for farer som truet forfedrene, som slanger."
+    },
+    {
+      "term": "Grunnemosjoner",
+      "def": "Glede, sinne, frykt, tristhet, avsky og overraskelse."
+    },
+    {
+      "term": "Paul Ekman",
+      "def": "Fant at grunnemosjoner gjenkjennes på tvers av kulturer."
+    },
+    {
+      "term": "Avsky",
+      "def": "Emosjon som kan beskytte mot smitte og bedervet mat."
+    },
+    {
+      "term": "Slektsseleksjon",
+      "def": "Å hjelpe slektninger som deler gener med oss."
+    },
+    {
+      "term": "Gjensidig altruisme",
+      "def": "Å hjelpe andre som hjelper tilbake."
+    },
+    {
+      "term": "Mismatch",
+      "def": "Tilpasninger fra fortiden som passer dårlig i dag."
+    },
+    {
+      "term": "Naturalistisk feilslutning",
+      "def": "Å tro at det naturlige også er riktig."
+    },
+    {
+      "term": "Jegere og sankere",
+      "def": "Levemåten mennesker hadde i det meste av sin historie."
+    },
+    {
+      "term": "Determinisme",
+      "def": "Synet at atferd er forhåndsbestemt – kritikk mot evolusjonspsykologien."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er naturlig seleksjon?", "options": ["At de sterkeste alltid vinner", "At egenskaper som gir overlevelse og reproduksjon, blir vanligere", "At arter aldri endres", "At mennesker velger egenskaper"], "correct": 1, "explain": "Beskrevet av Darwin i 1859." },
-    { "id": "q02", "text": "Hva mener evolusjonspsykologien?", "options": ["At psyken er formet av naturlig seleksjon", "At alt skyldes oppdragelse", "At følelser er uten funksjon", "At mennesket ikke har utviklet seg"], "correct": 0, "explain": "Mange tilbøyeligheter er tilpasninger." },
-    { "id": "q03", "text": "Hvorfor blir mange lettere redde for slanger enn for biler?", "options": ["Slanger er farligere i dag", "Biler er ukjente", "Vi er forberedt på å lære frykt for farer som truet forfedrene", "Frykt er alltid lært fra foreldre"], "correct": 2, "explain": "Forberedt frykt." },
-    { "id": "q04", "text": "Hva fant Paul Ekman?", "options": ["At emosjoner er forskjellige i alle kulturer", "At bare mennesker har emosjoner", "At emosjoner er lært på skolen", "At grunnemosjoner gjenkjennes på tvers av kulturer"], "correct": 3, "explain": "Et argument for at emosjoner er medfødte." },
-    { "id": "q05", "text": "Hva er slektsseleksjon?", "options": ["Å hjelpe slektninger fordi de deler gener med oss", "Å velge partner i familien", "Å hjelpe fremmede", "Å konkurrere med søsken"], "correct": 0, "explain": "En forklaring på altruisme." },
-    { "id": "q06", "text": "Hva er et eksempel på mismatch?", "options": ["Tilknytning hos spedbarn", "Lysten på søtt og fett som bidrar til overvekt i dag", "Frykt for høyder", "Vennskap"], "correct": 1, "explain": "Nyttig når mat var knapp." },
-    { "id": "q07", "text": "Hva er den naturalistiske feilslutningen?", "options": ["Å tro at natur er farlig", "Å tro at alt er lært", "Å tro at det naturlige også er riktig", "Å tro at evolusjonen er over"], "correct": 2, "explain": "Naturlig betyr ikke riktig." },
-    { "id": "q08", "text": "Hvorfor kritiseres evolusjonspsykologien for å være vanskelig å teste?", "options": ["Fordi den ikke bruker data", "Fordi den bare handler om dyr", "Fordi den er for ny", "Fordi vi vet lite om hvordan forfedrene levde"], "correct": 3, "explain": "Det er lett å lage etterpåklokne forklaringer." },
-    { "id": "q09", "text": "Hvilken funksjon kan avsky ha hatt?", "options": ["Å beskytte mot smitte og bedervet mat", "Å gjøre oss glade", "Å skape vennskap", "Å øke appetitten"], "correct": 0, "explain": "Emosjoner som adaptive signaler." },
-    { "id": "q10", "text": "Hvorfor kan avvisning gjøre så vondt ifølge evolusjonspsykologien?", "options": ["Fordi det gir fysisk skade", "Fordi det var farlig å bli utstøtt fra gruppen", "Fordi mennesker levde alene", "Fordi det skyldes sosiale medier alene"], "correct": 1, "explain": "Vi er tilpasset et liv i små grupper." }
+    {
+      "id": "q01",
+      "text": "Hva er naturlig seleksjon?",
+      "options": [
+        "At de sterkeste alltid vinner",
+        "At egenskaper som gir overlevelse og reproduksjon, blir vanligere",
+        "At arter aldri endres",
+        "At mennesker velger egenskaper"
+      ],
+      "correct": 1,
+      "explain": "Beskrevet av Darwin i 1859."
+    },
+    {
+      "id": "q02",
+      "text": "Hva mener evolusjonspsykologien?",
+      "options": [
+        "At psyken er formet av naturlig seleksjon",
+        "At alt skyldes oppdragelse",
+        "At følelser er uten funksjon",
+        "At mennesket ikke har utviklet seg"
+      ],
+      "correct": 0,
+      "explain": "Mange tilbøyeligheter er tilpasninger."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor blir mange lettere redde for slanger enn for biler?",
+      "options": [
+        "Slanger er farligere i dag",
+        "Biler er ukjente",
+        "Vi er forberedt på å lære frykt for farer som truet forfedrene",
+        "Frykt er alltid lært fra foreldre"
+      ],
+      "correct": 2,
+      "explain": "Forberedt frykt."
+    },
+    {
+      "id": "q04",
+      "text": "Hva fant Paul Ekman?",
+      "options": [
+        "At emosjoner er forskjellige i alle kulturer",
+        "At bare mennesker har emosjoner",
+        "At emosjoner er lært på skolen",
+        "At grunnemosjoner gjenkjennes på tvers av kulturer"
+      ],
+      "correct": 3,
+      "explain": "Et argument for at emosjoner er medfødte."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er slektsseleksjon?",
+      "options": [
+        "Å hjelpe slektninger fordi de deler gener med oss",
+        "Å velge partner i familien",
+        "Å hjelpe fremmede",
+        "Å konkurrere med søsken"
+      ],
+      "correct": 0,
+      "explain": "En forklaring på altruisme."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er et eksempel på mismatch?",
+      "options": [
+        "Tilknytning hos spedbarn",
+        "Lysten på søtt og fett som bidrar til overvekt i dag",
+        "Frykt for høyder",
+        "Vennskap"
+      ],
+      "correct": 1,
+      "explain": "Nyttig når mat var knapp."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er den naturalistiske feilslutningen?",
+      "options": [
+        "Å tro at natur er farlig",
+        "Å tro at alt er lært",
+        "Å tro at det naturlige også er riktig",
+        "Å tro at evolusjonen er over"
+      ],
+      "correct": 2,
+      "explain": "Naturlig betyr ikke riktig."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor kritiseres evolusjonspsykologien for å være vanskelig å teste?",
+      "options": [
+        "Fordi den ikke bruker data",
+        "Fordi den bare handler om dyr",
+        "Fordi den er for ny",
+        "Fordi vi vet lite om hvordan forfedrene levde"
+      ],
+      "correct": 3,
+      "explain": "Det er lett å lage etterpåklokne forklaringer."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken funksjon kan avsky ha hatt?",
+      "options": [
+        "Å beskytte mot smitte og bedervet mat",
+        "Å gjøre oss glade",
+        "Å skape vennskap",
+        "Å øke appetitten"
+      ],
+      "correct": 0,
+      "explain": "Emosjoner som adaptive signaler."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan avvisning gjøre så vondt ifølge evolusjonspsykologien?",
+      "options": [
+        "Fordi det gir fysisk skade",
+        "Fordi det var farlig å bli utstøtt fra gruppen",
+        "Fordi mennesker levde alene",
+        "Fordi det skyldes sosiale medier alene"
+      ],
+      "correct": 1,
+      "explain": "Vi er tilpasset et liv i små grupper."
+    }
   ],
   "mindmap": {
     "label": "Evolusjonspsykologi",
     "children": [
-      { "label": "Darwin", "children": [
-        { "label": "Variasjon og arv" },
-        { "label": "Naturlig seleksjon" },
-        { "label": "Seksuell seleksjon" }
-      ] },
-      { "label": "Tilpasninger", "children": [
-        { "label": "Frykt" },
-        { "label": "Emosjoner og avsky" },
-        { "label": "Tilknytning" }
-      ] },
-      { "label": "Sosialt", "children": [
-        { "label": "Partnervalg" },
-        { "label": "Altruisme" },
-        { "label": "Gruppetilhørighet" }
-      ] },
-      { "label": "Mismatch", "children": [
-        { "label": "Søtt og fett" },
-        { "label": "Stress" }
-      ] },
-      { "label": "Kritikk", "children": [
-        { "label": "Vanskelig å teste" },
-        { "label": "Naturalistisk feilslutning" },
-        { "label": "Kultur og læring" }
-      ] }
+      {
+        "label": "Darwin",
+        "children": [
+          {
+            "label": "Variasjon og arv"
+          },
+          {
+            "label": "Naturlig seleksjon"
+          },
+          {
+            "label": "Seksuell seleksjon"
+          }
+        ]
+      },
+      {
+        "label": "Tilpasninger",
+        "children": [
+          {
+            "label": "Frykt"
+          },
+          {
+            "label": "Emosjoner og avsky"
+          },
+          {
+            "label": "Tilknytning"
+          }
+        ]
+      },
+      {
+        "label": "Sosialt",
+        "children": [
+          {
+            "label": "Partnervalg"
+          },
+          {
+            "label": "Altruisme"
+          },
+          {
+            "label": "Gruppetilhørighet"
+          }
+        ]
+      },
+      {
+        "label": "Mismatch",
+        "children": [
+          {
+            "label": "Søtt og fett"
+          },
+          {
+            "label": "Stress"
+          }
+        ]
+      },
+      {
+        "label": "Kritikk",
+        "children": [
+          {
+            "label": "Vanskelig å teste"
+          },
+          {
+            "label": "Naturalistisk feilslutning"
+          },
+          {
+            "label": "Kultur og læring"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mennesker har levd som jegere og sankere i det meste av sin historie.", "correct": true, "explain": "Psyken er tilpasset et liv i små grupper." },
-      { "id": "m02", "type": "sant-usant", "text": "At en atferd kan ha en evolusjonær forklaring, betyr at den er moralsk riktig.", "correct": false, "explain": "Det er den naturalistiske feilslutningen." },
-      { "id": "m03", "type": "sant-usant", "text": "Stressreaksjonen var opprinnelig tilpasset korte, fysiske farer.", "correct": true, "explain": "I dag aktiveres den av prøver og e-post." },
-      { "id": "m04", "type": "sant-usant", "text": "Evolusjonspsykologien mener at kultur ikke har noen betydning.", "correct": false, "explain": "Den er mest overbevisende sammen med sosiokulturell forskning." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er gjensidig altruisme?", "options": ["Å hjelpe bare seg selv", "Å hjelpe andre som hjelper tilbake", "Å hjelpe bare slektninger", "Å konkurrere om ressurser"], "correct": 1, "explain": "Gir fordeler over tid." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken emosjon hører til grunnemosjonene?", "options": ["Frykt", "Sjalusi", "Skyld", "Stolthet"], "correct": 0, "explain": "Sammen med glede, sinne, tristhet, avsky og overraskelse." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er seksuell seleksjon?", "options": ["Seleksjon av mat", "Seleksjon av bosted", "Utvalg av egenskaper som gjør det lettere å få en partner", "Seleksjon mot sykdom"], "correct": 2, "explain": "En del av Darwins teori." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mennesker har levd som jegere og sankere i det meste av sin historie.",
+        "correct": true,
+        "explain": "Psyken er tilpasset et liv i små grupper."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "At en atferd kan ha en evolusjonær forklaring, betyr at den er moralsk riktig.",
+        "correct": false,
+        "explain": "Det er den naturalistiske feilslutningen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Stressreaksjonen var opprinnelig tilpasset korte, fysiske farer.",
+        "correct": true,
+        "explain": "I dag aktiveres den av prøver og e-post."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Evolusjonspsykologien mener at kultur ikke har noen betydning.",
+        "correct": false,
+        "explain": "Den er mest overbevisende sammen med sosiokulturell forskning."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er gjensidig altruisme?",
+        "options": [
+          "Å hjelpe bare seg selv",
+          "Å hjelpe andre som hjelper tilbake",
+          "Å hjelpe bare slektninger",
+          "Å konkurrere om ressurser"
+        ],
+        "correct": 1,
+        "explain": "Gir fordeler over tid."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken emosjon hører til grunnemosjonene?",
+        "options": [
+          "Frykt",
+          "Sjalusi",
+          "Skyld",
+          "Stolthet"
+        ],
+        "correct": 0,
+        "explain": "Sammen med glede, sinne, tristhet, avsky og overraskelse."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er seksuell seleksjon?",
+        "options": [
+          "Seleksjon av mat",
+          "Seleksjon av bosted",
+          "Utvalg av egenskaper som gjør det lettere å få en partner",
+          "Seleksjon mot sykdom"
+        ],
+        "correct": 2,
+        "explain": "En del av Darwins teori."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En egenskap kan gjøre det lettere for et individ å få en partner, uten at den nødvendigvis hjelper individet med å overleve. Sammenlign seksuell seleksjon med naturlig seleksjon.",
+        "fasit": "Seksuell seleksjon handler om egenskaper som gjør det lettere å få en partner. Naturlig seleksjon handler om egenskaper som gir bedre muligheter for overlevelse og reproduksjon.",
+        "kriterier": [
+          "Forklarer at seksuell seleksjon gjelder egenskaper som øker muligheten for å få en partner.",
+          "Skiller dette fra naturlig seleksjon, som gjelder overlevelse og reproduksjon."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et spedbarn holder seg nær de voksne som passer på det. Forklar hvordan denne atferden kan forstås som en adaptasjon.",
+        "fasit": "Å holde seg nær voksne kan øke spedbarnets beskyttelse og sjanse for å overleve. Atferden kan forstås som en adaptasjon fordi den løste et viktig problem for spedbarns forfedre.",
+        "kriterier": [
+          "Knytter nærheten til voksne til økt beskyttelse eller overlevelse.",
+          "Forklarer at en adaptasjon er en tilpasning som løste et problem for forfedrene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Mennesker levde som jegere og sankere i det aller meste av sin historie. Forklar hvorfor dette er relevant for påstanden om at psyken er tilpasset små grupper heller enn moderne byer.",
+        "fasit": "Siden mennesker levde i små grupper i det meste av historien, mener evolusjonspsykologien at psyken ble formet for slike livsvilkår. Moderne byer er derfor et miljø som skiller seg fra det psyken i stor grad ble tilpasset til.",
+        "kriterier": [
+          "Viser til at mennesker levde som jegere og sankere i det meste av historien.",
+          "Knytter dette til at psyken ble tilpasset livet i små grupper, som skiller seg fra moderne byer."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev hjelper en medelev med skolearbeid, og senere hjelper medelevens tilbake. Forklar hvordan dette kan være et eksempel på gjensidig altruisme.",
+        "fasit": "Det er gjensidig altruisme fordi eleven hjelper en annen som senere hjelper tilbake. Hjelpen kan gi fordeler for begge over tid.",
+        "kriterier": [
+          "Forklarer at hjelpen går mellom personer som hjelper hverandre tilbake.",
+          "Får fram at dette kan gi fordeler over tid."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Folk i mange land legger ofte vekt på vennlighet og helse hos en partner, samtidig som det finnes kulturelle og individuelle forskjeller. Forklar hva dette viser om partnervalg.",
+        "fasit": "Felles trekk kan tyde på at noen ønsker ved partnervalg finnes på tvers av kulturer. Samtidig viser forskjellene at kultur og individuelle forhold også påvirker hvem folk velger.",
+        "kriterier": [
+          "Forklarer at enkelte trekk ved partnervalg kan være felles på tvers av land eller kulturer.",
+          "Får fram at kulturelle eller individuelle forskjeller også påvirker partnervalg."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En person sier: «Hvis en tilbøyelighet har utviklet seg gjennom evolusjon, kan vi ikke endre den.» Forklar hvorfor dette er et deterministisk syn, og hva evolusjonspsykologiens kritikk av dette synet går ut på.",
+        "fasit": "Utsagnet er deterministisk fordi det framstiller atferd som forhåndsbestemt. Mennesker kan reflektere og endre seg, så evolusjonære tilbøyeligheter betyr ikke at atferden er umulig å påvirke.",
+        "kriterier": [
+          "Kjenner igjen påstanden som deterministisk fordi atferd framstilles som forhåndsbestemt.",
+          "Forklarer at refleksjon og evne til endring gjør at mennesker ikke er fullstendig styrt av tilbøyeligheter."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En emosjon kan gjøre en person klar til å handle. Forklar hva det betyr å forstå emosjoner som signaler, og hvorfor en slik funksjon kan være nyttig.",
+        "fasit": "Emosjoner som signaler kan formidle at noe viktig skjer og gjøre oss klare til å reagere. Det kan være nyttig fordi vi lettere kan handle når en situasjon krever det.",
+        "kriterier": [
+          "Forklarer at emosjoner signaliserer noe om situasjonen eller hva som skjer.",
+          "Knytter signalet til at personen blir forberedt på å handle."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvorfor evolusjonspsykologiens forklaringer blir mest overbevisende når de vurderes sammen med biologisk, kognitiv og sosiokulturell forskning.",
+        "fasit": "Evolusjonspsykologi gir ett perspektiv på hvorfor vi har bestemte tilbøyeligheter, men forklarer ikke nødvendigvis alt alene. Biologisk, kognitiv og sosiokulturell forskning kan bidra med andre perspektiver og gi en mer helhetlig forståelse.",
+        "kriterier": [
+          "Får fram at evolusjonspsykologi gir ett perspektiv på menneskelig psyke eller atferd, ikke nødvendigvis hele forklaringen.",
+          "Forklarer at andre forskningsperspektiver bidrar til en mer helhetlig forståelse."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

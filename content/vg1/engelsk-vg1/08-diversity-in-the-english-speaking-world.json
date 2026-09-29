@@ -350,7 +350,84 @@
         "correct": 1,
         "explain": "A majority voted to leave the EU."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "The USA is often called a nation of immigrants. Explain why this description does not include the whole history of the country.",
+        "fasit": "The description leaves out the displacement of Native Americans and the history of slavery. Both are important parts of the country’s history.",
+        "kriterier": [
+          "Explains that the description leaves out the displacement of Native Americans and/or slavery.",
+          "Identifies these as important parts of US history, not just immigration."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "In the USA, slavery was abolished after the Civil War, but segregation continued in the South. Explain what this tells us about the relationship between these two changes.",
+        "fasit": "Abolishing slavery did not end racial separation. Segregation continued in the South even after slavery was abolished.",
+        "kriterier": [
+          "States that slavery was abolished after the Civil War.",
+          "Explains that racial separation continued in the South afterwards."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Compare the civil rights movement and Black Lives Matter. What was each movement concerned with?",
+        "fasit": "The civil rights movement struggled for equal rights for African Americans in the 1950s and 1960s. Black Lives Matter is a movement against racism and police violence.",
+        "kriterier": [
+          "Describes the civil rights movement as a struggle for equal rights for African Americans in the 1950s and 1960s.",
+          "Describes Black Lives Matter as opposing racism and police violence."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Explain how diversity in the UK includes more than immigration. Give two examples of other factors mentioned in the question.",
+        "fasit": "The UK includes England, Scotland, Wales and Northern Ireland, each with its own identity. Class and regional differences are also important parts of diversity.",
+        "kriterier": [
+          "Gives the four nations of the UK, or explains that they each have their own identity.",
+          "Mentions class or regional differences as another factor."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Compare the role of English in South Africa and India.",
+        "fasit": "English is one of South Africa’s twelve official languages. In India, it is widely used in government, business and higher education alongside Hindi and many other languages.",
+        "kriterier": [
+          "States that English is one of South Africa’s twelve official languages.",
+          "Explains that English is widely used in India in government, business or higher education alongside other languages."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "In Canada, what were residential schools intended to do to Indigenous children, and what report did the Truth and Reconciliation Commission present?",
+        "fasit": "Residential schools tried to assimilate Indigenous children. The Truth and Reconciliation Commission presented its final report in 2015.",
+        "kriterier": [
+          "Explains that the schools tried to assimilate Indigenous children.",
+          "Identifies the Commission’s final report and gives the year 2015."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Explain how knowledge of history can help someone read a text about a current issue in the English-speaking world. Give one further reason why this knowledge matters.",
+        "fasit": "Knowing the history helps readers understand current issues in context. It can also help them take part in global conversations.",
+        "kriterier": [
+          "Connects historical knowledge with understanding a text or current issue in context.",
+          "Gives a further reason, such as taking part in global conversations or reflecting on similar issues in Norway."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "In a discussion, someone mentions the 2016 Brexit referendum. Explain what Brexit means and name one issue connected to debates around it in the UK.",
+        "fasit": "Brexit means the UK’s departure from the EU, which was decided in a 2016 referendum. Immigration was one issue in UK debates around Brexit.",
+        "kriterier": [
+          "Explains that Brexit is the UK’s departure from the EU, decided in a 2016 referendum.",
+          "Connects the UK’s debates to immigration."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

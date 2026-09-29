@@ -351,6 +351,80 @@
         "correct": 1,
         "explain": "“Moving on to…” tells the audience you are starting a new part."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Some people understand English well but feel unsure when they speak. Explain why practice can help, and what the main goal of speaking English is.",
+        "fasit": "Practice helps you feel more confident when speaking. The goal is not to speak perfectly, but to get your message across, listen to others and keep the conversation going.",
+        "kriterier": [
+          "Explains that practice can help with feeling unsure or speaking with confidence.",
+          "Explains that the aim is to communicate and take part in the conversation, not to be perfect."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Compare these questions: “Did you enjoy the presentation?” and “What did you think of the presentation?” Explain which is open and which is closed, and how the answers may differ.",
+        "fasit": "“Did you enjoy the presentation?” is closed because it can be answered yes or no. “What did you think of the presentation?” is open and invites a longer answer.",
+        "kriterier": [
+          "Identifies the yes-or-no question as closed and the other question as open.",
+          "Explains that an open question invites a longer answer than a closed question."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Your discussion partner says that only one person should speak in a group discussion. You disagree and think everyone should get a chance to speak. Write a polite response using “I see what you mean, but…”",
+        "fasit": "I see what you mean, but I think everyone should get a chance to speak in a group discussion.",
+        "kriterier": [
+          "Uses “I see what you mean, but…” to disagree politely.",
+          "Clearly expresses the view that everyone should have a chance to speak."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Explain how the introduction, main part and conclusion each help give a presentation a clear structure.",
+        "fasit": "The introduction greets the audience, presents the topic and says what the presentation will cover. The main part develops the main points with examples, and the conclusion sums up the presentation.",
+        "kriterier": [
+          "Explains the introduction’s role in introducing the topic and preparing the audience.",
+          "Explains that the main part develops points and that the conclusion sums things up."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "You are preparing a presentation and have notes with only a few keywords. Explain why using these notes can be better than reading a full script.",
+        "fasit": "Keyword notes help you speak more freely instead of reading every word. They remind you of your main ideas while allowing you to speak to the audience.",
+        "kriterier": [
+          "Explains that keyword notes remind the speaker of important ideas.",
+          "Explains that notes allow the speaker to speak more freely than a full script."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "A speaker talks very quickly and uses the same tone throughout a presentation. Suggest two changes that would make the speech clearer or more interesting for the audience.",
+        "fasit": "The speaker should slow down and pause between ideas. They could also vary their intonation so the speech does not sound monotonous.",
+        "kriterier": [
+          "Suggests speaking slowly or pausing between ideas to improve clarity.",
+          "Suggests varying intonation to make the speech less monotonous."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Explain how you might adapt your English when talking with friends and when speaking in a job interview.",
+        "fasit": "With friends, you can use informal language. In a job interview, you should be more careful and polite.",
+        "kriterier": [
+          "Describes friends as a situation where informal language is suitable.",
+          "Describes a job interview as a situation where more careful and polite language is suitable."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Your friend asks who should choose what you do after school. Reply using “It’s up to you” and explain what your reply means.",
+        "fasit": "It’s up to you. That means you can decide what we do after school.",
+        "kriterier": [
+          "Uses “It’s up to you” in a reply to the situation.",
+          "Explains that the friend is the one who gets to decide."
+        ]
+      }
     ]
   },
   "kvalitet": {

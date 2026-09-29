@@ -4,81 +4,434 @@
   "trinnId": "10",
   "name": "Prosjektstyring",
   "intro": "Hvordan større arbeidsoppdrag gjennomføres som prosjekter: prosjektmål, faser, milepæler, Gantt-diagram, ressurser, budsjett og regnskap, statusmøter og sluttrapport.",
-  "kompetansemaal": [2, 8],
+  "kompetansemaal": [
+    2,
+    8
+  ],
   "sammendrag": "## Hva er et prosjekt?\n\nEt **prosjekt** er en arbeidsoppgave med et **tydelig mål**, en **start** og en **slutt**, et begrenset **budsjett** og et **prosjektteam**. Eksempler er å bygge en gapahuk i skolegården, arrangere et julemarked eller pusse opp et rom. I arbeidslivet jobber for eksempel bygg- og IT-bransjen mye i prosjekter.\n\n## Mål\n\nEt godt prosjektmål er **SMART**:\n\n- **S**pesifikt – tydelig hva som skal oppnås\n- **M**ålbart – man kan sjekke om det er nådd\n- **A**kseptert – teamet står bak det\n- **R**ealistisk – mulig å få til\n- **T**idsbestemt – har en frist\n\n«Vi skal lage ti fuglekasser av gjenbrukstre og levere dem til barnehagen innen 1. mai» er et SMART mål.\n\n## Fasene i et prosjekt\n\n1. **Idéfasen**: Finne behov og idé og avklare bestillingen.\n2. **Planleggingsfasen**: Lage mål, arbeidsplan, tidsplan, budsjett og risikovurdering.\n3. **Gjennomføringsfasen**: Utføre arbeidet og følge med på framdriften.\n4. **Avslutningsfasen**: Levere, evaluere og skrive **sluttrapport**.\n\n## Tidsplan og milepæler\n\nEt **Gantt-diagram** er en tidsplan der hver oppgave vises som en **stolpe** langs en tidslinje. Da ser man hva som skal skje når, og hvilke oppgaver som henger sammen. **Milepæler** er viktige delmål, for eksempel «materialer innkjøpt» eller «første prototyp ferdig». Noen oppgaver må gjøres i **rekkefølge**, mens andre kan gjøres **samtidig**.\n\n## Ressurser\n\nEt prosjekt trenger **ressurser**: **personer**, **tid**, **penger**, **materialer**, **verktøy** og **lokaler**. **Prosjektlederen** har ansvar for å fordele ressursene og holde oversikt.\n\n## Budsjett og regnskap\n\n**Budsjettet** lages **før** prosjektet og viser forventede inntekter og utgifter. **Regnskapet** føres **underveis og etterpå** og viser hva som faktisk ble brukt og tjent. Ved å sammenligne budsjett og regnskap ser man om prosjektet holdt seg innenfor rammene.\n\n## Følge opp underveis\n\nPå **statusmøter** går teamet gjennom: Hva er gjort? Hva gjenstår? Er det **problemer** eller **forsinkelser**? Hvis noe går galt, må man **justere planen** – for eksempel omfordele oppgaver, forenkle produktet eller avtale ny frist med oppdragsgiveren.\n\n## Sluttrapport og evaluering\n\nEn **sluttrapport** beskriver mål, gjennomføring, resultat, økonomi og **erfaringer**. Den inneholder også en **vurdering** av egen og gruppens innsats: Nådde vi målet? Hva fungerte i samarbeidet? Hva ville vi gjort annerledes? Slike erfaringer gjør neste prosjekt bedre.",
   "flashcards": [
-    { "term": "Prosjekt", "def": "Arbeidsoppgave med tydelig mål, start og slutt, budsjett og team." },
-    { "term": "SMART-mål", "def": "Mål som er spesifikt, målbart, akseptert, realistisk og tidsbestemt." },
-    { "term": "Idéfasen", "def": "Fasen der man finner behov og idé og avklarer bestillingen." },
-    { "term": "Planleggingsfasen", "def": "Fasen der man lager mål, planer, budsjett og risikovurdering." },
-    { "term": "Gjennomføringsfasen", "def": "Fasen der arbeidet utføres og framdriften følges opp." },
-    { "term": "Avslutningsfasen", "def": "Fasen der man leverer, evaluerer og skriver sluttrapport." },
-    { "term": "Gantt-diagram", "def": "Tidsplan der oppgavene vises som stolper langs en tidslinje." },
-    { "term": "Milepæl", "def": "Viktig delmål i et prosjekt." },
-    { "term": "Ressurser", "def": "Det prosjektet trenger: personer, tid, penger, materialer og verktøy." },
-    { "term": "Prosjektleder", "def": "Person som har ansvar for å lede prosjektet og holde oversikt." },
-    { "term": "Budsjett", "def": "Plan for forventede inntekter og utgifter, laget før prosjektet." },
-    { "term": "Regnskap", "def": "Oversikt over faktiske inntekter og utgifter." },
-    { "term": "Statusmøte", "def": "Møte der teamet går gjennom hva som er gjort og hva som gjenstår." },
-    { "term": "Prototyp", "def": "Første utkast av et produkt som testes før endelig produksjon." },
-    { "term": "Sluttrapport", "def": "Rapport om mål, gjennomføring, resultat, økonomi og erfaringer." }
+    {
+      "term": "Prosjekt",
+      "def": "Arbeidsoppgave med tydelig mål, start og slutt, budsjett og team."
+    },
+    {
+      "term": "SMART-mål",
+      "def": "Mål som er spesifikt, målbart, akseptert, realistisk og tidsbestemt."
+    },
+    {
+      "term": "Idéfasen",
+      "def": "Fasen der man finner behov og idé og avklarer bestillingen."
+    },
+    {
+      "term": "Planleggingsfasen",
+      "def": "Fasen der man lager mål, planer, budsjett og risikovurdering."
+    },
+    {
+      "term": "Gjennomføringsfasen",
+      "def": "Fasen der arbeidet utføres og framdriften følges opp."
+    },
+    {
+      "term": "Avslutningsfasen",
+      "def": "Fasen der man leverer, evaluerer og skriver sluttrapport."
+    },
+    {
+      "term": "Gantt-diagram",
+      "def": "Tidsplan der oppgavene vises som stolper langs en tidslinje."
+    },
+    {
+      "term": "Milepæl",
+      "def": "Viktig delmål i et prosjekt."
+    },
+    {
+      "term": "Ressurser",
+      "def": "Det prosjektet trenger: personer, tid, penger, materialer og verktøy."
+    },
+    {
+      "term": "Prosjektleder",
+      "def": "Person som har ansvar for å lede prosjektet og holde oversikt."
+    },
+    {
+      "term": "Budsjett",
+      "def": "Plan for forventede inntekter og utgifter, laget før prosjektet."
+    },
+    {
+      "term": "Regnskap",
+      "def": "Oversikt over faktiske inntekter og utgifter."
+    },
+    {
+      "term": "Statusmøte",
+      "def": "Møte der teamet går gjennom hva som er gjort og hva som gjenstår."
+    },
+    {
+      "term": "Prototyp",
+      "def": "Første utkast av et produkt som testes før endelig produksjon."
+    },
+    {
+      "term": "Sluttrapport",
+      "def": "Rapport om mål, gjennomføring, resultat, økonomi og erfaringer."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner et prosjekt?", "options": ["Det varer for alltid", "Det har et tydelig mål, en start og en slutt", "Det har ingen budsjett", "Det gjøres alltid alene"], "correct": 1, "explain": "Prosjekter er avgrensede oppgaver." },
-    { "id": "q02", "text": "Hva står T-en i SMART for?", "options": ["Teknisk", "Trygt", "Tidsbestemt", "Tydelig"], "correct": 2, "explain": "Et godt mål har en frist." },
-    { "id": "q03", "text": "Hva viser et Gantt-diagram?", "options": ["Oppgavene som stolper langs en tidslinje", "Hvor mye penger prosjektet tjente", "Hvem som er sjef", "En tegning av produktet"], "correct": 0, "explain": "Gantt-diagrammet gir oversikt over tidsplanen." },
-    { "id": "q04", "text": "Hva er forskjellen på budsjett og regnskap?", "options": ["Det er det samme", "Regnskapet lages før prosjektet", "Budsjettet viser hva som faktisk ble brukt", "Budsjettet er en plan, regnskapet viser hva som faktisk skjedde"], "correct": 3, "explain": "Ved å sammenligne dem ser man om prosjektet holdt seg innenfor rammene." },
-    { "id": "q05", "text": "Hva er en milepæl?", "options": ["Et viktig delmål i prosjektet", "En stein ved veien", "Prosjektets budsjett", "En type verktøy"], "correct": 0, "explain": "Milepæler gjør det lett å se om prosjektet er i rute." },
-    { "id": "q06", "text": "I hvilken fase lages risikovurderingen?", "options": ["Avslutningsfasen", "Planleggingsfasen", "Etter leveringen", "Den lages aldri"], "correct": 1, "explain": "Risikoen må vurderes før arbeidet starter." },
-    { "id": "q07", "text": "Hva gjør man på et statusmøte?", "options": ["Feirer at prosjektet er ferdig", "Velger ny prosjektleder", "Går gjennom hva som er gjort, hva som gjenstår og om det er problemer", "Deler ut lønn"], "correct": 2, "explain": "Statusmøter gjør det mulig å justere planen i tide." },
-    { "id": "q08", "text": "Hva bør en sluttrapport inneholde?", "options": ["Mål, gjennomføring, resultat, økonomi og erfaringer", "Bare bilder", "Bare navnene på deltakerne", "Bare budsjettet"], "correct": 0, "explain": "Erfaringene gjør neste prosjekt bedre." },
-    { "id": "q09", "text": "Prosjektet ligger an til å bli forsinket. Hva er et godt tiltak?", "options": ["Late som ingenting", "Justere planen og eventuelt avtale ny frist med oppdragsgiveren", "Slutte i prosjektet", "Skylde på andre"], "correct": 1, "explain": "Tidlig beskjed og justering gir bedre resultat." },
-    { "id": "q10", "text": "Hvilket av disse er et SMART mål?", "options": ["Vi skal lage noe fint", "Vi skal jobbe mye", "Vi skal gjøre vårt beste", "Vi skal lage ti fuglekasser og levere dem til barnehagen innen 1. mai"], "correct": 3, "explain": "Målet er spesifikt, målbart og tidsbestemt." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner et prosjekt?",
+      "options": [
+        "Det varer for alltid",
+        "Det har et tydelig mål, en start og en slutt",
+        "Det har ingen budsjett",
+        "Det gjøres alltid alene"
+      ],
+      "correct": 1,
+      "explain": "Prosjekter er avgrensede oppgaver."
+    },
+    {
+      "id": "q02",
+      "text": "Hva står T-en i SMART for?",
+      "options": [
+        "Teknisk",
+        "Trygt",
+        "Tidsbestemt",
+        "Tydelig"
+      ],
+      "correct": 2,
+      "explain": "Et godt mål har en frist."
+    },
+    {
+      "id": "q03",
+      "text": "Hva viser et Gantt-diagram?",
+      "options": [
+        "Oppgavene som stolper langs en tidslinje",
+        "Hvor mye penger prosjektet tjente",
+        "Hvem som er sjef",
+        "En tegning av produktet"
+      ],
+      "correct": 0,
+      "explain": "Gantt-diagrammet gir oversikt over tidsplanen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er forskjellen på budsjett og regnskap?",
+      "options": [
+        "Det er det samme",
+        "Regnskapet lages før prosjektet",
+        "Budsjettet viser hva som faktisk ble brukt",
+        "Budsjettet er en plan, regnskapet viser hva som faktisk skjedde"
+      ],
+      "correct": 3,
+      "explain": "Ved å sammenligne dem ser man om prosjektet holdt seg innenfor rammene."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en milepæl?",
+      "options": [
+        "Et viktig delmål i prosjektet",
+        "En stein ved veien",
+        "Prosjektets budsjett",
+        "En type verktøy"
+      ],
+      "correct": 0,
+      "explain": "Milepæler gjør det lett å se om prosjektet er i rute."
+    },
+    {
+      "id": "q06",
+      "text": "I hvilken fase lages risikovurderingen?",
+      "options": [
+        "Avslutningsfasen",
+        "Planleggingsfasen",
+        "Etter leveringen",
+        "Den lages aldri"
+      ],
+      "correct": 1,
+      "explain": "Risikoen må vurderes før arbeidet starter."
+    },
+    {
+      "id": "q07",
+      "text": "Hva gjør man på et statusmøte?",
+      "options": [
+        "Feirer at prosjektet er ferdig",
+        "Velger ny prosjektleder",
+        "Går gjennom hva som er gjort, hva som gjenstår og om det er problemer",
+        "Deler ut lønn"
+      ],
+      "correct": 2,
+      "explain": "Statusmøter gjør det mulig å justere planen i tide."
+    },
+    {
+      "id": "q08",
+      "text": "Hva bør en sluttrapport inneholde?",
+      "options": [
+        "Mål, gjennomføring, resultat, økonomi og erfaringer",
+        "Bare bilder",
+        "Bare navnene på deltakerne",
+        "Bare budsjettet"
+      ],
+      "correct": 0,
+      "explain": "Erfaringene gjør neste prosjekt bedre."
+    },
+    {
+      "id": "q09",
+      "text": "Prosjektet ligger an til å bli forsinket. Hva er et godt tiltak?",
+      "options": [
+        "Late som ingenting",
+        "Justere planen og eventuelt avtale ny frist med oppdragsgiveren",
+        "Slutte i prosjektet",
+        "Skylde på andre"
+      ],
+      "correct": 1,
+      "explain": "Tidlig beskjed og justering gir bedre resultat."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket av disse er et SMART mål?",
+      "options": [
+        "Vi skal lage noe fint",
+        "Vi skal jobbe mye",
+        "Vi skal gjøre vårt beste",
+        "Vi skal lage ti fuglekasser og levere dem til barnehagen innen 1. mai"
+      ],
+      "correct": 3,
+      "explain": "Målet er spesifikt, målbart og tidsbestemt."
+    }
   ],
   "mindmap": {
     "label": "Prosjektstyring",
     "children": [
-      { "label": "Prosjekt", "children": [
-        { "label": "Mål" },
-        { "label": "Start og slutt" },
-        { "label": "Team og leder" }
-      ] },
-      { "label": "Faser", "children": [
-        { "label": "Idé" },
-        { "label": "Planlegging" },
-        { "label": "Gjennomføring" },
-        { "label": "Avslutning" }
-      ] },
-      { "label": "Tidsplan", "children": [
-        { "label": "Gantt-diagram" },
-        { "label": "Milepæler" },
-        { "label": "Rekkefølge" }
-      ] },
-      { "label": "Økonomi", "children": [
-        { "label": "Ressurser" },
-        { "label": "Budsjett" },
-        { "label": "Regnskap" }
-      ] },
-      { "label": "Oppfølging", "children": [
-        { "label": "Statusmøter" },
-        { "label": "Justere planen" },
-        { "label": "Sluttrapport" },
-        { "label": "Vurdering" }
-      ] }
+      {
+        "label": "Prosjekt",
+        "children": [
+          {
+            "label": "Mål"
+          },
+          {
+            "label": "Start og slutt"
+          },
+          {
+            "label": "Team og leder"
+          }
+        ]
+      },
+      {
+        "label": "Faser",
+        "children": [
+          {
+            "label": "Idé"
+          },
+          {
+            "label": "Planlegging"
+          },
+          {
+            "label": "Gjennomføring"
+          },
+          {
+            "label": "Avslutning"
+          }
+        ]
+      },
+      {
+        "label": "Tidsplan",
+        "children": [
+          {
+            "label": "Gantt-diagram"
+          },
+          {
+            "label": "Milepæler"
+          },
+          {
+            "label": "Rekkefølge"
+          }
+        ]
+      },
+      {
+        "label": "Økonomi",
+        "children": [
+          {
+            "label": "Ressurser"
+          },
+          {
+            "label": "Budsjett"
+          },
+          {
+            "label": "Regnskap"
+          }
+        ]
+      },
+      {
+        "label": "Oppfølging",
+        "children": [
+          {
+            "label": "Statusmøter"
+          },
+          {
+            "label": "Justere planen"
+          },
+          {
+            "label": "Sluttrapport"
+          },
+          {
+            "label": "Vurdering"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Noen oppgaver i et prosjekt må gjøres i en bestemt rekkefølge.", "correct": true, "explain": "Man må for eksempel kjøpe materialer før man kan bygge." },
-      { "id": "m02", "type": "sant-usant", "text": "Evaluering er unødvendig når prosjektet er levert.", "correct": false, "explain": "Evalueringen gir erfaringer til neste prosjekt." },
-      { "id": "m03", "type": "sant-usant", "text": "En prototyp testes før endelig produksjon.", "correct": true, "explain": "Da kan feil rettes før man lager mange eksemplarer." },
-      { "id": "m04", "type": "sant-usant", "text": "Tid er ikke en ressurs i et prosjekt.", "correct": false, "explain": "Tid er en av de viktigste ressursene." },
-      { "id": "m05", "type": "flervalg", "text": "Hva står M-en i SMART for?", "options": ["Morsomt", "Moderne", "Mulig", "Målbart"], "correct": 3, "explain": "Man må kunne sjekke om målet er nådd." },
-      { "id": "m06", "type": "flervalg", "text": "Hvem har ansvar for å fordele ressursene i et prosjekt?", "options": ["Kunden", "Prosjektlederen", "Leverandøren", "Ingen"], "correct": 1, "explain": "Prosjektlederen holder oversikten." },
-      { "id": "m07", "type": "flervalg", "text": "Hva skjer i avslutningsfasen?", "options": ["Man finner en idé", "Man lager budsjett", "Man leverer, evaluerer og skriver sluttrapport", "Man kjøper materialer"], "correct": 2, "explain": "Avslutningen er like viktig som starten." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Noen oppgaver i et prosjekt må gjøres i en bestemt rekkefølge.",
+        "correct": true,
+        "explain": "Man må for eksempel kjøpe materialer før man kan bygge."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Evaluering er unødvendig når prosjektet er levert.",
+        "correct": false,
+        "explain": "Evalueringen gir erfaringer til neste prosjekt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En prototyp testes før endelig produksjon.",
+        "correct": true,
+        "explain": "Da kan feil rettes før man lager mange eksemplarer."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Tid er ikke en ressurs i et prosjekt.",
+        "correct": false,
+        "explain": "Tid er en av de viktigste ressursene."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva står M-en i SMART for?",
+        "options": [
+          "Morsomt",
+          "Moderne",
+          "Mulig",
+          "Målbart"
+        ],
+        "correct": 3,
+        "explain": "Man må kunne sjekke om målet er nådd."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem har ansvar for å fordele ressursene i et prosjekt?",
+        "options": [
+          "Kunden",
+          "Prosjektlederen",
+          "Leverandøren",
+          "Ingen"
+        ],
+        "correct": 1,
+        "explain": "Prosjektlederen holder oversikten."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva skjer i avslutningsfasen?",
+        "options": [
+          "Man finner en idé",
+          "Man lager budsjett",
+          "Man leverer, evaluerer og skriver sluttrapport",
+          "Man kjøper materialer"
+        ],
+        "correct": 2,
+        "explain": "Avslutningen er like viktig som starten."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et team skal arrangere et julemarked. Først finner de ut hva som trengs og avklarer bestillingen. Deretter lager de mål, arbeidsplan, tidsplan og budsjett. Forklar forskjellen på arbeidet i idéfasen og planleggingsfasen.",
+        "fasit": "I idéfasen finner teamet behovet og idéen og avklarer bestillingen. I planleggingsfasen lager de blant annet mål, planer og budsjett for hvordan prosjektet skal gjennomføres.",
+        "kriterier": [
+          "Beskriver idéfasen som å finne behov eller idé og avklare bestillingen.",
+          "Beskriver planleggingsfasen som å lage mål eller planer for arbeidet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et prosjektmål er «Vi skal lage noe fint». Forklar hvorfor det er vanskelig å vite om målet er nådd, og nevn to SMART-egenskaper som kan gjøre målet tydeligere.",
+        "fasit": "Målet sier ikke tydelig hva som skal lages, eller hvordan man kan sjekke om det er ferdig. Det kan bli tydeligere hvis det er spesifikt og målbart, for eksempel ved at det sier hva som skal lages og hvor mange.",
+        "kriterier": [
+          "Forklarer at målet er uklart eller vanskelig å kontrollere om er nådd.",
+          "Nevner og forklarer minst to relevante SMART-egenskaper."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et team bruker et Gantt-diagram for å planlegge et prosjekt. Noen oppgaver må gjøres etter hverandre, mens andre kan gjøres samtidig. Forklar hvordan diagrammet kan hjelpe teamet med dette.",
+        "fasit": "Stolpene langs tidslinjen viser når oppgavene skal utføres. Teamet kan bruke planen til å se hvilke oppgaver som må komme i rekkefølge, og hvilke som kan foregå samtidig.",
+        "kriterier": [
+          "Forklarer at stolpene viser oppgavene langs en tidslinje og når de skal skje.",
+          "Knytter planen til rekkefølge eller oppgaver som kan utføres samtidig."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et team har laget en plan for å bygge en gapahuk. Nå begynner de å utføre arbeidet og følge med på om det går framover som planlagt. Hvilken prosjektfase er de i, og hvorfor følger de med på framdriften i denne fasen?",
+        "fasit": "De er i gjennomføringsfasen. Da utfører teamet arbeidet og følger med på framdriften for å se hvordan prosjektet ligger an.",
+        "kriterier": [
+          "Identifiserer gjennomføringsfasen.",
+          "Forklarer at arbeidet utføres og at framdriften følges opp i denne fasen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Flere oppgaver i et prosjekt trenger den samme sagen, og den kan bare brukes til én oppgave om gangen. Forklar hva prosjektlederen bør gjøre med ressursene for å hjelpe teamet med å få arbeidet gjennomført.",
+        "fasit": "Prosjektlederen bør planlegge når sagen skal brukes til de ulike oppgavene, slik at bruken ikke kolliderer. Prosjektlederen må fordele ressursene og holde oversikt over dem.",
+        "kriterier": [
+          "Forklarer at bruken av sagen må fordeles eller planlegges slik at oppgavene ikke kolliderer.",
+          "Viser at prosjektlederen har ansvar for å fordele ressurser eller holde oversikt."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et team lager først en prototyp av et produkt og tester den før de lager den endelige versjonen. Forklar hva prototypen er, og hvorfor teamet tester den først.",
+        "fasit": "En prototyp er det første utkastet av produktet. Teamet tester den før endelig produksjon for å undersøke produktet og vurdere hva som bør gjøres videre.",
+        "kriterier": [
+          "Forklarer at en prototyp er et første utkast av produktet.",
+          "Forklarer at den testes før produktet lages ferdig."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et prosjekt er ferdig, og teamet snakker om hva som fungerte i samarbeidet og hva de ville gjort annerledes. Forklar hvordan slike erfaringer kan være nyttige i et senere prosjekt.",
+        "fasit": "Teamet kan bruke erfaringene til å forstå hva som fungerte godt, og hva som kan forbedres. Da kan de planlegge og samarbeide bedre i et senere prosjekt.",
+        "kriterier": [
+          "Knytter evalueringen til å finne ut hva som fungerte eller kunne vært gjort annerledes.",
+          "Forklarer at erfaringene kan brukes til å forbedre et senere prosjekt."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et team lager fuglekasser. Foreslå en milepæl som viser at en viktig del av arbeidet er nådd, og forklar hvorfor den passer som milepæl.",
+        "fasit": "«Den første fuglekassen er ferdig montert» kan være en milepæl. Den viser at en viktig del av arbeidet er nådd før teamet går videre med resten.",
+        "kriterier": [
+          "Foreslår en konkret viktig del av arbeidet som kan sjekkes, for eksempel at en første fuglekasse er ferdig.",
+          "Forklarer at milepælen viser at et viktig delmål eller en del av arbeidet er nådd."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,79 +4,427 @@
   "trinnId": "vg3",
   "name": "Synteser, utbytte og renhet",
   "intro": "Hvordan du gjennomfører en organisk syntese, beregner teoretisk og prosentvis utbytte med begrensende reaktant, hvilke faktorer som påvirker utbytte og renhet, og hvordan produkter renses og kontrolleres – med syntesen av acetylsalisylsyre som eksempel.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Hva er en syntese?\n\nEn **syntese** er framstilling av et **nytt stoff** fra enklere utgangsstoffer. Kjemikere lager legemidler, plast, fargestoffer og smaksstoffer gjennom synteser. En syntese består ofte av\n\n1. **reaksjon** under kontrollerte forhold – temperatur, tid og eventuell katalysator\n2. **opparbeiding** – å skille produktet fra resten av blandingen\n3. **rensing** av produktet\n4. **analyse** av utbytte og renhet\n\n## Eksempel: acetylsalisylsyre\n\n**Acetylsalisylsyre** – virkestoffet i mange smertestillende tabletter – lages av **salisylsyre** og **eddiksyreanhydrid** med litt syre som **katalysator**. Produktet **krystalliseres** ut ved avkjøling og **filtreres** fra.\n\n## Teoretisk og prosentvis utbytte\n\n- **Teoretisk utbytte** er hvor mye produkt som maksimalt kan dannes ut fra **reaksjonsligningen**.\n- **Faktisk utbytte** er hvor mye du faktisk får.\n- **Prosentvis utbytte** = faktisk utbytte / teoretisk utbytte · 100\n\n**Begrensende reaktant** er den reaktanten som tar **slutt** først. Den bestemmer teoretisk utbytte. Den andre reaktanten er i **overskudd**.\n\n**Regneeksempel**: Du starter med **2,00 g** salisylsyre (M = 138,1 g/mol), og eddiksyreanhydrid er i overskudd. Salisylsyre og acetylsalisylsyre reagerer i forholdet 1 : 1.\n\n- n(salisylsyre) = 2,00 / 138,1 ≈ 0,0145 mol\n- Teoretisk utbytte: 0,0145 mol · 180,2 g/mol ≈ **2,61 g**\n- Du får 2,10 g. Prosentvis utbytte = 2,10 / 2,61 · 100 ≈ **80 %**\n\n## Hva påvirker utbyttet?\n\n- **Likevekt**: Mange organiske reaksjoner, som esterdannelse, er **likevektsreaksjoner** og går ikke fullstendig. Overskudd av en reaktant eller fjerning av produkt kan øke utbyttet.\n- **Sidereaksjoner** som gir uønskede **biprodukter**\n- **Tap** under overføring, filtrering og rensing\n- **Ufullstendig** reaksjon – for kort tid eller feil temperatur\n- **Urene** utgangsstoffer\n\n## Rensing\n\n- **Filtrering** skiller fast stoff fra væske.\n- **Omkrystallisering**: Produktet løses i **varmt** løsemiddel og krystalliserer ut ved **avkjøling**, mens urenhetene blir igjen i løsningen.\n- **Destillasjon** skiller væsker med ulike **kokepunkter**.\n- **Ekstraksjon** flytter et stoff fra ett løsemiddel til et annet, for eksempel i en **skilletrakt**.\n- **Kromatografi** kan skille stoffer i en blanding.\n\n## Kontroll av renhet\n\n- **Smeltepunkt**: Et rent stoff har et **skarpt** smeltepunkt. Urenheter gir **lavere** smeltepunkt og et bredere smelteområde.\n- **Tynnsjiktkromatografi**: Et rent stoff gir **én** flekk.\n- **Spektroskopi**, som IR- og NMR-spektroskopi, viser hvilke **funksjonelle grupper** og strukturer stoffet har.\n\n## Utbytte og renhet – en avveining\n\nGrundig rensing gir høy **renhet**, men ofte **lavere** utbytte, fordi noe av produktet går tapt. I industrien må man finne en balanse mellom **kvalitet**, **kostnader** og **miljø**. **Grønn kjemi** legger vekt på synteser med høy **atomøkonomi**, der mest mulig av atomene i utgangsstoffene havner i produktet.",
   "flashcards": [
-    { "term": "Syntese", "def": "Framstilling av et nytt stoff fra enklere utgangsstoffer." },
-    { "term": "Opparbeiding", "def": "Å skille produktet fra resten av reaksjonsblandingen." },
-    { "term": "Acetylsalisylsyre", "def": "Virkestoff i smertestillende tabletter, lages av salisylsyre og eddiksyreanhydrid." },
-    { "term": "Teoretisk utbytte", "def": "Maksimal mengde produkt ut fra reaksjonsligningen." },
-    { "term": "Faktisk utbytte", "def": "Mengden produkt man faktisk får." },
-    { "term": "Prosentvis utbytte", "def": "Faktisk / teoretisk utbytte · 100." },
-    { "term": "Begrensende reaktant", "def": "Reaktanten som tar slutt først og bestemmer utbyttet." },
-    { "term": "Overskudd", "def": "Reaktanten det er mer av enn nødvendig." },
-    { "term": "Sidereaksjon", "def": "Uønsket reaksjon som gir biprodukter." },
-    { "term": "Omkrystallisering", "def": "Rensing ved å løse i varmt løsemiddel og la krystallisere ved avkjøling." },
-    { "term": "Destillasjon", "def": "Skiller væsker med ulike kokepunkter." },
-    { "term": "Ekstraksjon", "def": "Flytter et stoff fra ett løsemiddel til et annet." },
-    { "term": "Smeltepunkt og renhet", "def": "Rent stoff har skarpt smeltepunkt; urenheter senker det." },
-    { "term": "Spektroskopi", "def": "Analyse som viser funksjonelle grupper og struktur." },
-    { "term": "Atomøkonomi", "def": "Hvor mye av utgangsstoffenes atomer som havner i produktet." }
+    {
+      "term": "Syntese",
+      "def": "Framstilling av et nytt stoff fra enklere utgangsstoffer."
+    },
+    {
+      "term": "Opparbeiding",
+      "def": "Å skille produktet fra resten av reaksjonsblandingen."
+    },
+    {
+      "term": "Acetylsalisylsyre",
+      "def": "Virkestoff i smertestillende tabletter, lages av salisylsyre og eddiksyreanhydrid."
+    },
+    {
+      "term": "Teoretisk utbytte",
+      "def": "Maksimal mengde produkt ut fra reaksjonsligningen."
+    },
+    {
+      "term": "Faktisk utbytte",
+      "def": "Mengden produkt man faktisk får."
+    },
+    {
+      "term": "Prosentvis utbytte",
+      "def": "Faktisk / teoretisk utbytte · 100."
+    },
+    {
+      "term": "Begrensende reaktant",
+      "def": "Reaktanten som tar slutt først og bestemmer utbyttet."
+    },
+    {
+      "term": "Overskudd",
+      "def": "Reaktanten det er mer av enn nødvendig."
+    },
+    {
+      "term": "Sidereaksjon",
+      "def": "Uønsket reaksjon som gir biprodukter."
+    },
+    {
+      "term": "Omkrystallisering",
+      "def": "Rensing ved å løse i varmt løsemiddel og la krystallisere ved avkjøling."
+    },
+    {
+      "term": "Destillasjon",
+      "def": "Skiller væsker med ulike kokepunkter."
+    },
+    {
+      "term": "Ekstraksjon",
+      "def": "Flytter et stoff fra ett løsemiddel til et annet."
+    },
+    {
+      "term": "Smeltepunkt og renhet",
+      "def": "Rent stoff har skarpt smeltepunkt; urenheter senker det."
+    },
+    {
+      "term": "Spektroskopi",
+      "def": "Analyse som viser funksjonelle grupper og struktur."
+    },
+    {
+      "term": "Atomøkonomi",
+      "def": "Hvor mye av utgangsstoffenes atomer som havner i produktet."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er begrensende reaktant?", "options": ["Reaktanten det er mest av", "Reaktanten som tar slutt først", "Katalysatoren", "Produktet"], "correct": 1, "explain": "Den bestemmer teoretisk utbytte." },
-    { "id": "q02", "text": "Hvordan regnes prosentvis utbytte ut?", "options": ["Faktisk / teoretisk utbytte · 100", "Teoretisk / faktisk · 100", "Faktisk − teoretisk", "Masse / molar masse"], "correct": 0, "explain": "Gir utbyttet i prosent." },
-    { "id": "q03", "text": "2,00 g salisylsyre (M = 138,1 g/mol) gir teoretisk hvor mye acetylsalisylsyre (M = 180,2 g/mol)?", "options": ["2,00 g", "1,53 g", "Omtrent 2,61 g", "3,60 g"], "correct": 2, "explain": "0,0145 mol · 180,2 g/mol." },
-    { "id": "q04", "text": "Hva viser et lavt og bredt smeltepunkt?", "options": ["At stoffet er rent", "At stoffet er en gass", "At stoffet er en katalysator", "At stoffet inneholder urenheter"], "correct": 3, "explain": "Rent stoff har skarpt smeltepunkt." },
-    { "id": "q05", "text": "Hvordan virker omkrystallisering?", "options": ["Produktet løses i varmt løsemiddel og krystalliserer ved avkjøling, mens urenheter blir igjen", "Stoffene skilles etter kokepunkt", "Produktet fordamper", "Produktet filtreres bare"], "correct": 0, "explain": "En vanlig rensemetode." },
-    { "id": "q06", "text": "Hvorfor gir esterdannelse ofte under 100 % utbytte?", "options": ["Fordi den er eksplosiv", "Fordi det er en likevektsreaksjon", "Fordi den ikke trenger katalysator", "Fordi estere er gasser"], "correct": 1, "explain": "Reaksjonen går ikke fullstendig." },
-    { "id": "q07", "text": "Hvilken metode skiller væsker med ulike kokepunkter?", "options": ["Filtrering", "Omkrystallisering", "Destillasjon", "Titrering"], "correct": 2, "explain": "Stoffet med lavest kokepunkt fordamper først." },
-    { "id": "q08", "text": "Hvorfor gir grundig rensing ofte lavere utbytte?", "options": ["Fordi produktet blir mer rent og tungt", "Fordi rensing lager nytt produkt", "Fordi utbyttet alltid er 100 %", "Fordi noe av produktet går tapt"], "correct": 3, "explain": "En avveining mellom utbytte og renhet." },
-    { "id": "q09", "text": "Hva viser tynnsjiktkromatografi for et rent stoff?", "options": ["Én flekk", "Mange flekker", "Ingen flekker", "En farget væske"], "correct": 0, "explain": "Flere flekker tyder på urenheter." },
-    { "id": "q10", "text": "Hva er høy atomøkonomi?", "options": ["At mye avfall dannes", "At mest mulig av utgangsstoffenes atomer havner i produktet", "At syntesen er rask", "At produktet er billig"], "correct": 1, "explain": "Et prinsipp i grønn kjemi." }
+    {
+      "id": "q01",
+      "text": "Hva er begrensende reaktant?",
+      "options": [
+        "Reaktanten det er mest av",
+        "Reaktanten som tar slutt først",
+        "Katalysatoren",
+        "Produktet"
+      ],
+      "correct": 1,
+      "explain": "Den bestemmer teoretisk utbytte."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan regnes prosentvis utbytte ut?",
+      "options": [
+        "Faktisk / teoretisk utbytte · 100",
+        "Teoretisk / faktisk · 100",
+        "Faktisk − teoretisk",
+        "Masse / molar masse"
+      ],
+      "correct": 0,
+      "explain": "Gir utbyttet i prosent."
+    },
+    {
+      "id": "q03",
+      "text": "2,00 g salisylsyre (M = 138,1 g/mol) gir teoretisk hvor mye acetylsalisylsyre (M = 180,2 g/mol)?",
+      "options": [
+        "2,00 g",
+        "1,53 g",
+        "Omtrent 2,61 g",
+        "3,60 g"
+      ],
+      "correct": 2,
+      "explain": "0,0145 mol · 180,2 g/mol."
+    },
+    {
+      "id": "q04",
+      "text": "Hva viser et lavt og bredt smeltepunkt?",
+      "options": [
+        "At stoffet er rent",
+        "At stoffet er en gass",
+        "At stoffet er en katalysator",
+        "At stoffet inneholder urenheter"
+      ],
+      "correct": 3,
+      "explain": "Rent stoff har skarpt smeltepunkt."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan virker omkrystallisering?",
+      "options": [
+        "Produktet løses i varmt løsemiddel og krystalliserer ved avkjøling, mens urenheter blir igjen",
+        "Stoffene skilles etter kokepunkt",
+        "Produktet fordamper",
+        "Produktet filtreres bare"
+      ],
+      "correct": 0,
+      "explain": "En vanlig rensemetode."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor gir esterdannelse ofte under 100 % utbytte?",
+      "options": [
+        "Fordi den er eksplosiv",
+        "Fordi det er en likevektsreaksjon",
+        "Fordi den ikke trenger katalysator",
+        "Fordi estere er gasser"
+      ],
+      "correct": 1,
+      "explain": "Reaksjonen går ikke fullstendig."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken metode skiller væsker med ulike kokepunkter?",
+      "options": [
+        "Filtrering",
+        "Omkrystallisering",
+        "Destillasjon",
+        "Titrering"
+      ],
+      "correct": 2,
+      "explain": "Stoffet med lavest kokepunkt fordamper først."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor gir grundig rensing ofte lavere utbytte?",
+      "options": [
+        "Fordi produktet blir mer rent og tungt",
+        "Fordi rensing lager nytt produkt",
+        "Fordi utbyttet alltid er 100 %",
+        "Fordi noe av produktet går tapt"
+      ],
+      "correct": 3,
+      "explain": "En avveining mellom utbytte og renhet."
+    },
+    {
+      "id": "q09",
+      "text": "Hva viser tynnsjiktkromatografi for et rent stoff?",
+      "options": [
+        "Én flekk",
+        "Mange flekker",
+        "Ingen flekker",
+        "En farget væske"
+      ],
+      "correct": 0,
+      "explain": "Flere flekker tyder på urenheter."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er høy atomøkonomi?",
+      "options": [
+        "At mye avfall dannes",
+        "At mest mulig av utgangsstoffenes atomer havner i produktet",
+        "At syntesen er rask",
+        "At produktet er billig"
+      ],
+      "correct": 1,
+      "explain": "Et prinsipp i grønn kjemi."
+    }
   ],
   "mindmap": {
     "label": "Synteser",
     "children": [
-      { "label": "Syntese", "children": [
-        { "label": "Reaksjon" },
-        { "label": "Opparbeiding" },
-        { "label": "Acetylsalisylsyre" }
-      ] },
-      { "label": "Utbytte", "children": [
-        { "label": "Teoretisk og faktisk" },
-        { "label": "Prosentvis" },
-        { "label": "Begrensende reaktant" }
-      ] },
-      { "label": "Påvirker utbyttet", "children": [
-        { "label": "Likevekt" },
-        { "label": "Sidereaksjoner" },
-        { "label": "Tap" }
-      ] },
-      { "label": "Rensing", "children": [
-        { "label": "Omkrystallisering" },
-        { "label": "Destillasjon" },
-        { "label": "Ekstraksjon" }
-      ] },
-      { "label": "Renhet", "children": [
-        { "label": "Smeltepunkt" },
-        { "label": "Kromatografi og spektroskopi" },
-        { "label": "Atomøkonomi" }
-      ] }
+      {
+        "label": "Syntese",
+        "children": [
+          {
+            "label": "Reaksjon"
+          },
+          {
+            "label": "Opparbeiding"
+          },
+          {
+            "label": "Acetylsalisylsyre"
+          }
+        ]
+      },
+      {
+        "label": "Utbytte",
+        "children": [
+          {
+            "label": "Teoretisk og faktisk"
+          },
+          {
+            "label": "Prosentvis"
+          },
+          {
+            "label": "Begrensende reaktant"
+          }
+        ]
+      },
+      {
+        "label": "Påvirker utbyttet",
+        "children": [
+          {
+            "label": "Likevekt"
+          },
+          {
+            "label": "Sidereaksjoner"
+          },
+          {
+            "label": "Tap"
+          }
+        ]
+      },
+      {
+        "label": "Rensing",
+        "children": [
+          {
+            "label": "Omkrystallisering"
+          },
+          {
+            "label": "Destillasjon"
+          },
+          {
+            "label": "Ekstraksjon"
+          }
+        ]
+      },
+      {
+        "label": "Renhet",
+        "children": [
+          {
+            "label": "Smeltepunkt"
+          },
+          {
+            "label": "Kromatografi og spektroskopi"
+          },
+          {
+            "label": "Atomøkonomi"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Et overskudd av én reaktant kan øke utbyttet i en likevektsreaksjon.", "correct": true, "explain": "Le Châteliers prinsipp." },
-      { "id": "m02", "type": "sant-usant", "text": "Prosentvis utbytte kan normalt være over 100 % for et rent produkt.", "correct": false, "explain": "Over 100 % tyder på urenheter, for eksempel vann." },
-      { "id": "m03", "type": "sant-usant", "text": "Spektroskopi kan vise hvilke funksjonelle grupper et stoff har.", "correct": true, "explain": "For eksempel IR-spektroskopi." },
-      { "id": "m04", "type": "sant-usant", "text": "Sidereaksjoner øker utbyttet av ønsket produkt.", "correct": false, "explain": "De gir biprodukter og lavere utbytte." },
-      { "id": "m05", "type": "flervalg", "text": "Hva brukes en skilletrakt til?", "options": ["Destillasjon", "Ekstraksjon", "Titrering", "Veiing"], "correct": 1, "explain": "Skiller to væsker som ikke blandes." },
-      { "id": "m06", "type": "flervalg", "text": "Faktisk utbytte 2,10 g og teoretisk utbytte 2,61 g. Hva er prosentvis utbytte?", "options": ["Omtrent 80 %", "Omtrent 124 %", "Omtrent 50 %", "Omtrent 95 %"], "correct": 0, "explain": "2,10 / 2,61 · 100." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er opparbeiding?", "options": ["Å veie reaktantene", "Å varme opp", "Å skille produktet fra resten av blandingen", "Å skrive rapport"], "correct": 2, "explain": "Før rensingen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Et overskudd av én reaktant kan øke utbyttet i en likevektsreaksjon.",
+        "correct": true,
+        "explain": "Le Châteliers prinsipp."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Prosentvis utbytte kan normalt være over 100 % for et rent produkt.",
+        "correct": false,
+        "explain": "Over 100 % tyder på urenheter, for eksempel vann."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Spektroskopi kan vise hvilke funksjonelle grupper et stoff har.",
+        "correct": true,
+        "explain": "For eksempel IR-spektroskopi."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Sidereaksjoner øker utbyttet av ønsket produkt.",
+        "correct": false,
+        "explain": "De gir biprodukter og lavere utbytte."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva brukes en skilletrakt til?",
+        "options": [
+          "Destillasjon",
+          "Ekstraksjon",
+          "Titrering",
+          "Veiing"
+        ],
+        "correct": 1,
+        "explain": "Skiller to væsker som ikke blandes."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Faktisk utbytte 2,10 g og teoretisk utbytte 2,61 g. Hva er prosentvis utbytte?",
+        "options": [
+          "Omtrent 80 %",
+          "Omtrent 124 %",
+          "Omtrent 50 %",
+          "Omtrent 95 %"
+        ],
+        "correct": 0,
+        "explain": "2,10 / 2,61 · 100."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er opparbeiding?",
+        "options": [
+          "Å veie reaktantene",
+          "Å varme opp",
+          "Å skille produktet fra resten av blandingen",
+          "Å skrive rapport"
+        ],
+        "correct": 2,
+        "explain": "Før rensingen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på en syntese og opparbeiding i en kjemisk framstilling.",
+        "fasit": "En syntese er framstilling av et nytt stoff fra enklere utgangsstoffer. Opparbeiding er å skille produktet fra resten av reaksjonsblandingen.",
+        "kriterier": [
+          "Forklarer at syntese framstiller et nytt stoff fra enklere utgangsstoffer.",
+          "Forklarer at opparbeiding skiller produktet fra resten av reaksjonsblandingen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Acetylsalisylsyre framstilles av salisylsyre og eddiksyreanhydrid med litt syre som katalysator. Hvordan får man produktet ut av blandingen i dette eksempelet?",
+        "fasit": "Produktet krystalliseres ut ved avkjøling og filtreres deretter fra blandingen.",
+        "kriterier": [
+          "Sier at produktet krystalliseres ved avkjøling.",
+          "Sier at produktet deretter skilles fra med filtrering."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign filtrering og destillasjon: Hva slags blandinger eller stoffer kan hver metode skille?",
+        "fasit": "Filtrering skiller et fast stoff fra en væske. Destillasjon skiller væsker som har ulike kokepunkter.",
+        "kriterier": [
+          "Knytter filtrering til å skille fast stoff fra væske.",
+          "Knytter destillasjon til å skille væsker med ulike kokepunkter."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et stoff skal flyttes fra ett løsemiddel til et annet ved hjelp av en skilletrakt. Hvilken rensemetode brukes, og hva går metoden ut på?",
+        "fasit": "Metoden er ekstraksjon. Den flytter et stoff fra ett løsemiddel til et annet.",
+        "kriterier": [
+          "Identifiserer metoden som ekstraksjon.",
+          "Forklarer at stoffet flyttes fra ett løsemiddel til et annet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En reaksjon er en likevektsreaksjon. Forklar hvordan man kan øke utbyttet ved å fjerne produkt etter hvert som det dannes.",
+        "fasit": "Når produkt fjernes fra en likevektsreaksjon, kan utbyttet øke. Da blir mer produkt dannet enn om produktet blir værende i reaksjonsblandingen.",
+        "kriterier": [
+          "Sier at fjerning av produkt kan øke utbyttet i en likevektsreaksjon.",
+          "Knytter dette til at mer produkt dannes når produkt fjernes."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I en syntese er teoretisk utbytte 2,61 g, og faktisk utbytte er 2,10 g. Hva er det prosentvise utbyttet? Vis det viktigste regnestykket.",
+        "fasit": "Prosentvis utbytte = 2,10 / 2,61 · 100 ≈ 80 %.",
+        "kriterier": [
+          "Setter opp faktisk utbytte delt på teoretisk utbytte, multiplisert med 100.",
+          "Får omtrent 80 %."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Teoretisk utbytte i en reaksjon er 2,61 g, mens faktisk utbytte er 2,10 g. Hvor mange gram lavere er det faktiske utbyttet enn det teoretiske? Vis det viktigste regnestykket.",
+        "fasit": "Forskjellen er 2,61 g − 2,10 g = 0,51 g.",
+        "kriterier": [
+          "Regner ut forskjellen ved å trekke faktisk utbytte fra teoretisk utbytte.",
+          "Oppgir 0,51 g."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hva kan IR- eller NMR-spektroskopi fortelle om et stoff?",
+        "fasit": "IR- og NMR-spektroskopi kan vise hvilke funksjonelle grupper og strukturer stoffet har.",
+        "kriterier": [
+          "Sier at spektroskopi kan gi informasjon om funksjonelle grupper.",
+          "Sier at spektroskopi kan gi informasjon om stoffets struktur."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

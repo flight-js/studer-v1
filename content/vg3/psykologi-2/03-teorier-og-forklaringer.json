@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Teorier, perspektiver og forklaringer",
   "intro": "Hvordan du sammenligner og anvender ulike vitenskapelige tilnærminger i psykologien – biologisk, kognitivt, læringspsykologisk, psykodynamisk, humanistisk og sosiokulturelt perspektiv – og vurderer forklaringer på et fenomen ut fra forklaringsnivå, reduksjonisme, arv og miljø og forskningsstøtte.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Mange perspektiver på samme fenomen\n\nPsykologien har ikke **én** teori som forklarer alt. Ulike **perspektiver** ser på mennesket fra ulike vinkler. For å forstå et fenomen – for eksempel **angst** – er det nyttig å **sammenligne** forklaringene.\n\n## Perspektivene brukt på angst\n\n- **Biologisk**: Angst henger sammen med aktivitet i **amygdala**, **stresshormoner** og **arv**. Noen er mer **sårbare** enn andre.\n- **Kognitivt**: Angst opprettholdes av **tankemønstre** – for eksempel at man **overvurderer** faren og **undervurderer** egen mestring.\n- **Læringspsykologisk**: Angst kan **læres** gjennom **klassisk betinging** – en nøytral situasjon kobles til noe skremmende – og opprettholdes ved **unngåelse**, som gir lettelse og dermed **forsterkes**.\n- **Psykodynamisk**: Angst kan ha røtter i **ubevisste** konflikter og tidlige **relasjonserfaringer**.\n- **Humanistisk**: Angst kan oppstå når man lever i strid med sine **egne verdier** eller mangler **aksept** – vekt på **selvaktualisering**.\n- **Sosiokulturelt**: **Kultur**, **forventninger** og **sosiale forhold** – som prestasjonspress og sosiale medier – påvirker hvordan angst oppstår og uttrykkes.\n\n## Forklaringsnivåer\n\nForklaringene befinner seg på ulike **nivåer**:\n\n- **Biologisk nivå**: gener, hjerne, hormoner\n- **Psykologisk nivå**: tanker, følelser, læring\n- **Sosialt nivå**: relasjoner, kultur, samfunn\n\nDe utelukker ikke hverandre. Den **biopsykososiale modellen** kombinerer nivåene.\n\n## Reduksjonisme og holisme\n\n- **Reduksjonisme**: å forklare et fenomen ved å bryte det ned til **enkle** deler – for eksempel å forklare depresjon bare med signalstoffer. Det gjør forskning **presis**, men kan overse **helheten**.\n- **Holisme**: å se **helheten** og samspillet. Det gir et rikere bilde, men er vanskeligere å **teste**.\n\n## Arv og miljø\n\nEt sentralt spørsmål er hvor mye som skyldes **arv** og hvor mye som skyldes **miljø**. **Tvillingstudier** og **adopsjonsstudier** brukes til å undersøke dette. Svaret er nesten alltid **begge deler** – og de påvirker hverandre. **Epigenetikk** viser at miljøet kan påvirke hvordan gener **uttrykkes**.\n\n## Metoder i perspektivene\n\n- **Biologisk**: hjerneskanning (fMRI), tvillingstudier, målinger av hormoner\n- **Kognitivt**: eksperimenter med reaksjonstid og hukommelse\n- **Læring**: kontrollerte eksperimenter, ofte også med dyr\n- **Psykodynamisk**: kasusstudier og terapeutiske samtaler\n- **Humanistisk**: kvalitative intervjuer og selvrapport\n- **Sosiokulturelt**: feltstudier og tverrkulturelle sammenligninger\n\n## Vurdere forklaringer\n\nNår du vurderer en forklaring, kan du spørre:\n\n1. Er den støttet av **empirisk forskning**?\n2. Kan den **testes** – og i prinsippet **motbevises**?\n3. Hvor mye **forklarer** den – og hva forklarer den ikke?\n4. Er den **nyttig**, for eksempel i behandling?\n5. Gjelder den på tvers av **kulturer**?\n\n**Kognitiv atferdsterapi** for angst bygger på kognitive og læringspsykologiske forklaringer og har sterk forskningsstøtte. Psykodynamiske forklaringer er vanskeligere å teste, men har bidratt med innsikt om **relasjoner** og **ubevisste** prosesser.\n\n## Drøfting\n\nEn god drøfting viser at du kan **bruke** flere perspektiver, **sammenligne** styrker og svakheter, og argumentere for at en **helhetlig** forklaring ofte er best.",
   "flashcards": [
-    { "term": "Biologisk perspektiv", "def": "Forklarer med gener, hjerne og hormoner." },
-    { "term": "Kognitivt perspektiv", "def": "Forklarer med tanker og informasjonsbehandling." },
-    { "term": "Læringspsykologisk perspektiv", "def": "Forklarer med betinging og forsterkning." },
-    { "term": "Psykodynamisk perspektiv", "def": "Forklarer med ubevisste prosesser og tidlige erfaringer." },
-    { "term": "Humanistisk perspektiv", "def": "Vekt på fri vilje, verdier og selvaktualisering." },
-    { "term": "Sosiokulturelt perspektiv", "def": "Forklarer med kultur, relasjoner og samfunn." },
-    { "term": "Forklaringsnivåer", "def": "Biologisk, psykologisk og sosialt nivå." },
-    { "term": "Reduksjonisme", "def": "Å forklare ved å bryte ned til enkle deler." },
-    { "term": "Holisme", "def": "Å se helheten og samspillet." },
-    { "term": "Tvillingstudier", "def": "Sammenligner eneggede og toeggede tvillinger for å undersøke arv." },
-    { "term": "Epigenetikk", "def": "Miljøet påvirker hvordan gener uttrykkes." },
-    { "term": "Unngåelse", "def": "Gir kortsiktig lettelse og opprettholder angst." },
-    { "term": "Testbarhet", "def": "At en forklaring i prinsippet kan motbevises." },
-    { "term": "Kasusstudie", "def": "Grundig studie av én person eller ett tilfelle." },
-    { "term": "Biopsykososial modell", "def": "Kombinerer biologiske, psykologiske og sosiale forklaringer." }
+    {
+      "term": "Biologisk perspektiv",
+      "def": "Forklarer med gener, hjerne og hormoner."
+    },
+    {
+      "term": "Kognitivt perspektiv",
+      "def": "Forklarer med tanker og informasjonsbehandling."
+    },
+    {
+      "term": "Læringspsykologisk perspektiv",
+      "def": "Forklarer med betinging og forsterkning."
+    },
+    {
+      "term": "Psykodynamisk perspektiv",
+      "def": "Forklarer med ubevisste prosesser og tidlige erfaringer."
+    },
+    {
+      "term": "Humanistisk perspektiv",
+      "def": "Vekt på fri vilje, verdier og selvaktualisering."
+    },
+    {
+      "term": "Sosiokulturelt perspektiv",
+      "def": "Forklarer med kultur, relasjoner og samfunn."
+    },
+    {
+      "term": "Forklaringsnivåer",
+      "def": "Biologisk, psykologisk og sosialt nivå."
+    },
+    {
+      "term": "Reduksjonisme",
+      "def": "Å forklare ved å bryte ned til enkle deler."
+    },
+    {
+      "term": "Holisme",
+      "def": "Å se helheten og samspillet."
+    },
+    {
+      "term": "Tvillingstudier",
+      "def": "Sammenligner eneggede og toeggede tvillinger for å undersøke arv."
+    },
+    {
+      "term": "Epigenetikk",
+      "def": "Miljøet påvirker hvordan gener uttrykkes."
+    },
+    {
+      "term": "Unngåelse",
+      "def": "Gir kortsiktig lettelse og opprettholder angst."
+    },
+    {
+      "term": "Testbarhet",
+      "def": "At en forklaring i prinsippet kan motbevises."
+    },
+    {
+      "term": "Kasusstudie",
+      "def": "Grundig studie av én person eller ett tilfelle."
+    },
+    {
+      "term": "Biopsykososial modell",
+      "def": "Kombinerer biologiske, psykologiske og sosiale forklaringer."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilket perspektiv forklarer angst med tankemønstre?", "options": ["Biologisk", "Kognitivt", "Psykodynamisk", "Humanistisk"], "correct": 1, "explain": "Overvurdering av fare." },
-    { "id": "q02", "text": "Hvordan forklarer læringspsykologien at angst opprettholdes?", "options": ["Gjennom unngåelse som gir lettelse og forsterkes", "Gjennom gener alene", "Gjennom ubevisste drifter", "Gjennom selvaktualisering"], "correct": 0, "explain": "Negativ forsterkning." },
-    { "id": "q03", "text": "Hva er reduksjonisme?", "options": ["Å se helheten", "Å redusere antall deltakere", "Å forklare ved å bryte ned til enkle deler", "Å avvise all forskning"], "correct": 2, "explain": "Presist, men kan overse helheten." },
-    { "id": "q04", "text": "Hva viser epigenetikk?", "options": ["At gener ikke betyr noe", "At miljø ikke betyr noe", "At alle er like", "At miljøet kan påvirke hvordan gener uttrykkes"], "correct": 3, "explain": "Arv og miljø samspiller." },
-    { "id": "q05", "text": "Hvilken metode brukes ofte i det psykodynamiske perspektivet?", "options": ["Kasusstudier", "fMRI", "Reaksjonstidsforsøk", "Dyreforsøk"], "correct": 0, "explain": "Grundige studier av enkeltpersoner." },
-    { "id": "q06", "text": "Hvilket spørsmål er viktig når du vurderer en forklaring?", "options": ["Om den er gammel", "Om den er støttet av empirisk forskning", "Om den er lang", "Om den er populær"], "correct": 1, "explain": "Også testbarhet og nytte." },
-    { "id": "q07", "text": "Hvilket perspektiv legger vekt på kultur og sosiale forhold?", "options": ["Biologisk", "Kognitivt", "Sosiokulturelt", "Læringspsykologisk"], "correct": 2, "explain": "For eksempel prestasjonspress." },
-    { "id": "q08", "text": "Hva brukes tvillingstudier til?", "options": ["Å teste hukommelse", "Å måle reaksjonstid", "Å studere drømmer", "Å undersøke betydningen av arv"], "correct": 3, "explain": "Sammenligner eneggede og toeggede tvillinger." },
-    { "id": "q09", "text": "Hvilken behandling for angst bygger på kognitive og læringspsykologiske forklaringer?", "options": ["Kognitiv atferdsterapi", "Lobotomi", "Drømmetydning", "Hypnose"], "correct": 0, "explain": "Har sterk forskningsstøtte." },
-    { "id": "q10", "text": "Hvorfor er en helhetlig forklaring ofte best?", "options": ["Fordi den er kortest", "Fordi fenomener som angst har årsaker på flere nivåer", "Fordi den bare bruker ett perspektiv", "Fordi den ikke kan testes"], "correct": 1, "explain": "Biologisk, psykologisk og sosialt." }
+    {
+      "id": "q01",
+      "text": "Hvilket perspektiv forklarer angst med tankemønstre?",
+      "options": [
+        "Biologisk",
+        "Kognitivt",
+        "Psykodynamisk",
+        "Humanistisk"
+      ],
+      "correct": 1,
+      "explain": "Overvurdering av fare."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan forklarer læringspsykologien at angst opprettholdes?",
+      "options": [
+        "Gjennom unngåelse som gir lettelse og forsterkes",
+        "Gjennom gener alene",
+        "Gjennom ubevisste drifter",
+        "Gjennom selvaktualisering"
+      ],
+      "correct": 0,
+      "explain": "Negativ forsterkning."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er reduksjonisme?",
+      "options": [
+        "Å se helheten",
+        "Å redusere antall deltakere",
+        "Å forklare ved å bryte ned til enkle deler",
+        "Å avvise all forskning"
+      ],
+      "correct": 2,
+      "explain": "Presist, men kan overse helheten."
+    },
+    {
+      "id": "q04",
+      "text": "Hva viser epigenetikk?",
+      "options": [
+        "At gener ikke betyr noe",
+        "At miljø ikke betyr noe",
+        "At alle er like",
+        "At miljøet kan påvirke hvordan gener uttrykkes"
+      ],
+      "correct": 3,
+      "explain": "Arv og miljø samspiller."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken metode brukes ofte i det psykodynamiske perspektivet?",
+      "options": [
+        "Kasusstudier",
+        "fMRI",
+        "Reaksjonstidsforsøk",
+        "Dyreforsøk"
+      ],
+      "correct": 0,
+      "explain": "Grundige studier av enkeltpersoner."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilket spørsmål er viktig når du vurderer en forklaring?",
+      "options": [
+        "Om den er gammel",
+        "Om den er støttet av empirisk forskning",
+        "Om den er lang",
+        "Om den er populær"
+      ],
+      "correct": 1,
+      "explain": "Også testbarhet og nytte."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket perspektiv legger vekt på kultur og sosiale forhold?",
+      "options": [
+        "Biologisk",
+        "Kognitivt",
+        "Sosiokulturelt",
+        "Læringspsykologisk"
+      ],
+      "correct": 2,
+      "explain": "For eksempel prestasjonspress."
+    },
+    {
+      "id": "q08",
+      "text": "Hva brukes tvillingstudier til?",
+      "options": [
+        "Å teste hukommelse",
+        "Å måle reaksjonstid",
+        "Å studere drømmer",
+        "Å undersøke betydningen av arv"
+      ],
+      "correct": 3,
+      "explain": "Sammenligner eneggede og toeggede tvillinger."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken behandling for angst bygger på kognitive og læringspsykologiske forklaringer?",
+      "options": [
+        "Kognitiv atferdsterapi",
+        "Lobotomi",
+        "Drømmetydning",
+        "Hypnose"
+      ],
+      "correct": 0,
+      "explain": "Har sterk forskningsstøtte."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor er en helhetlig forklaring ofte best?",
+      "options": [
+        "Fordi den er kortest",
+        "Fordi fenomener som angst har årsaker på flere nivåer",
+        "Fordi den bare bruker ett perspektiv",
+        "Fordi den ikke kan testes"
+      ],
+      "correct": 1,
+      "explain": "Biologisk, psykologisk og sosialt."
+    }
   ],
   "mindmap": {
     "label": "Teorier og forklaringer",
     "children": [
-      { "label": "Perspektiver", "children": [
-        { "label": "Biologisk og kognitivt" },
-        { "label": "Læring og psykodynamisk" },
-        { "label": "Humanistisk og sosiokulturelt" }
-      ] },
-      { "label": "Nivåer", "children": [
-        { "label": "Biologisk, psykologisk, sosialt" },
-        { "label": "Biopsykososial modell" }
-      ] },
-      { "label": "Debatter", "children": [
-        { "label": "Reduksjonisme og holisme" },
-        { "label": "Arv og miljø" }
-      ] },
-      { "label": "Metoder", "children": [
-        { "label": "fMRI og tvillingstudier" },
-        { "label": "Eksperiment og kasus" }
-      ] },
-      { "label": "Vurdering", "children": [
-        { "label": "Forskningsstøtte" },
-        { "label": "Testbarhet" },
-        { "label": "Nytte" }
-      ] }
+      {
+        "label": "Perspektiver",
+        "children": [
+          {
+            "label": "Biologisk og kognitivt"
+          },
+          {
+            "label": "Læring og psykodynamisk"
+          },
+          {
+            "label": "Humanistisk og sosiokulturelt"
+          }
+        ]
+      },
+      {
+        "label": "Nivåer",
+        "children": [
+          {
+            "label": "Biologisk, psykologisk, sosialt"
+          },
+          {
+            "label": "Biopsykososial modell"
+          }
+        ]
+      },
+      {
+        "label": "Debatter",
+        "children": [
+          {
+            "label": "Reduksjonisme og holisme"
+          },
+          {
+            "label": "Arv og miljø"
+          }
+        ]
+      },
+      {
+        "label": "Metoder",
+        "children": [
+          {
+            "label": "fMRI og tvillingstudier"
+          },
+          {
+            "label": "Eksperiment og kasus"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering",
+        "children": [
+          {
+            "label": "Forskningsstøtte"
+          },
+          {
+            "label": "Testbarhet"
+          },
+          {
+            "label": "Nytte"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Ulike perspektiver kan utfylle hverandre.", "correct": true, "explain": "De forklarer på ulike nivåer." },
-      { "id": "m02", "type": "sant-usant", "text": "Spørsmålet om arv og miljø har som regel svaret «bare arv».", "correct": false, "explain": "Svaret er nesten alltid begge deler." },
-      { "id": "m03", "type": "sant-usant", "text": "Psykodynamiske forklaringer er ofte vanskelige å teste.", "correct": true, "explain": "Ubevisste prosesser er vanskelige å måle." },
-      { "id": "m04", "type": "sant-usant", "text": "Holisme gjør det lettere å teste presise hypoteser.", "correct": false, "explain": "Reduksjonisme gir mer presise tester." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken hjernestruktur er sentral i biologiske forklaringer på angst?", "options": ["Lillehjernen", "Amygdala", "Synsbarken", "Ryggmargen"], "correct": 1, "explain": "Viktig for frykt." },
-      { "id": "m06", "type": "flervalg", "text": "Hva legger det humanistiske perspektivet vekt på?", "options": ["Egne verdier, aksept og selvaktualisering", "Gener og hormoner", "Betinging", "Ubevisste drifter"], "correct": 0, "explain": "Maslow og Rogers." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken metode passer det sosiokulturelle perspektivet?", "options": ["Hjerneskanning", "Hormonmålinger", "Tverrkulturelle sammenligninger", "Dyreforsøk"], "correct": 2, "explain": "Også feltstudier." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ulike perspektiver kan utfylle hverandre.",
+        "correct": true,
+        "explain": "De forklarer på ulike nivåer."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Spørsmålet om arv og miljø har som regel svaret «bare arv».",
+        "correct": false,
+        "explain": "Svaret er nesten alltid begge deler."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Psykodynamiske forklaringer er ofte vanskelige å teste.",
+        "correct": true,
+        "explain": "Ubevisste prosesser er vanskelige å måle."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Holisme gjør det lettere å teste presise hypoteser.",
+        "correct": false,
+        "explain": "Reduksjonisme gir mer presise tester."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken hjernestruktur er sentral i biologiske forklaringer på angst?",
+        "options": [
+          "Lillehjernen",
+          "Amygdala",
+          "Synsbarken",
+          "Ryggmargen"
+        ],
+        "correct": 1,
+        "explain": "Viktig for frykt."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva legger det humanistiske perspektivet vekt på?",
+        "options": [
+          "Egne verdier, aksept og selvaktualisering",
+          "Gener og hormoner",
+          "Betinging",
+          "Ubevisste drifter"
+        ],
+        "correct": 0,
+        "explain": "Maslow og Rogers."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken metode passer det sosiokulturelle perspektivet?",
+        "options": [
+          "Hjerneskanning",
+          "Hormonmålinger",
+          "Tverrkulturelle sammenligninger",
+          "Dyreforsøk"
+        ],
+        "correct": 2,
+        "explain": "Også feltstudier."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign reduksjonisme og holisme som måter å forklare et psykologisk fenomen på. Ta med én styrke og én begrensning ved hver tilnærming.",
+        "fasit": "Reduksjonisme kan gi presise forklaringer ved å dele fenomenet opp, men kan overse helheten. Holisme viser hvordan flere forhold virker sammen, men forklaringer kan være vanskeligere å teste.",
+        "kriterier": [
+          "Forklarer at reduksjonisme bryter fenomenet ned i mindre deler, og nevner at det kan gjøre forskningen presis, men overse helheten.",
+          "Forklarer at holisme ser på helheten og samspillet, og nevner at det kan være vanskeligere å teste."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En person blir skremt i en bestemt situasjon og kjenner senere angst når situasjonen dukker opp igjen. Bruk klassisk betinging til å forklare hvordan angsten kan ha blitt lært.",
+        "fasit": "Situasjonen kan først ha vært nøytral, men ble koblet til noe skremmende. Etter koblingen kan situasjonen i seg selv utløse angst.",
+        "kriterier": [
+          "Forklarer at en nøytral situasjon kobles sammen med noe skremmende.",
+          "Forklarer at situasjonen senere kan utløse angst på grunn av koblingen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign hvordan biologisk og kognitivt perspektiv kan forklare angst. Ta med et konkret forhold hvert perspektiv legger vekt på.",
+        "fasit": "Det biologiske perspektivet kan knytte angst til aktivitet i amygdala, stresshormoner eller arv. Det kognitive perspektivet kan forklare angst med tankemønstre, som at faren overvurderes og egen mestring undervurderes.",
+        "kriterier": [
+          "Beskriver en biologisk forklaring på angst, for eksempel knyttet til amygdala, stresshormoner eller arv.",
+          "Beskriver en kognitiv forklaring med tankemønstre, for eksempel vurdering av fare eller egen mestring."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En forsker vil undersøke hvordan prestasjonspress og sosiale medier i elevenes miljø henger sammen med angst. Hvilket perspektiv passer best, og hvilken metode kan forskeren bruke? Begrunn svaret.",
+        "fasit": "Det sosiokulturelle perspektivet passer fordi det undersøker hvordan sosiale forhold og samfunn påvirker angst. Forskeren kan bruke en feltstudie for å undersøke forholdene i elevenes miljø.",
+        "kriterier": [
+          "Knytter prestasjonspress eller sosiale medier til det sosiokulturelle perspektivet.",
+          "Foreslår feltstudier og knytter metoden til undersøkelse av forhold i elevenes miljø."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En biopsykososial forklaring på angst kombinerer flere forklaringsnivåer. Beskriv ett mulig forhold på biologisk, psykologisk og sosialt nivå.",
+        "fasit": "Biologisk kan angst knyttes til stresshormoner, psykologisk til tankemønstre og sosialt til prestasjonspress. Den biopsykososiale modellen setter slike forhold fra ulike nivåer sammen.",
+        "kriterier": [
+          "Gir et relevant biologisk forhold, som gener, hjerne eller hormoner.",
+          "Gir et relevant psykologisk forhold, som tanker, følelser eller læring, og et sosialt forhold, som relasjoner, kultur eller samfunn."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Psykodynamiske forklaringer legger vekt på ubevisste prosesser. Forklar hva det vil si at en slik forklaring er testbar, og hvorfor det kan være vanskelig å teste den.",
+        "fasit": "En forklaring er testbar hvis den i prinsippet kan undersøkes og motbevises. Det kan være vanskelig å teste forklaringer om ubevisste prosesser fordi de ikke er direkte synlige.",
+        "kriterier": [
+          "Forklarer at testbarhet innebærer at en forklaring kan undersøkes og i prinsippet motbevises.",
+          "Knytter utfordringen ved psykodynamiske forklaringer til at de handler om ubevisste prosesser."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En person kjenner angst fordi hun opplever at hun lever i strid med egne verdier og mangler aksept. Forklar situasjonen med det humanistiske perspektivet, og knytt forklaringen til selvaktualisering.",
+        "fasit": "Det humanistiske perspektivet kan forstå angsten som knyttet til at personen ikke lever i tråd med egne verdier eller mangler aksept. Selvaktualisering handler om å utvikle seg i retning av det som er viktig for en selv.",
+        "kriterier": [
+          "Forklarer angsten med konflikt med egne verdier eller mangel på aksept.",
+          "Knytter selvaktualisering til å utvikle seg eller leve i tråd med det som er viktig for personen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En forsker vil undersøke om tankemønstre påvirker hvordan personer med angst husker informasjon. Hvilket perspektiv passer best, og hvilken type metode kan forskeren bruke?",
+        "fasit": "Det kognitive perspektivet passer fordi det handler om tanker og informasjonsbehandling. Forskeren kan bruke eksperimenter med hukommelse.",
+        "kriterier": [
+          "Knytter undersøkelsen av tankemønstre og hukommelse til det kognitive perspektivet.",
+          "Foreslår eksperimenter med hukommelse som en metode som passer."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

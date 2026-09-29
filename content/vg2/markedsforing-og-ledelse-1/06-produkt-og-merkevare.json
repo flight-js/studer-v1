@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Produkt og merkevare",
   "intro": "Produktet som konkurransemiddel: produktnivåer, varer og tjenester, produktlivssyklusen, sortiment, emballasje og produktutvikling – og hvordan virksomheter bygger merkevarer og velger merkevarestrategier.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Hva er et produkt?\n\nEt **produkt** er alt en virksomhet tilbyr for å dekke et **behov**: **varer**, **tjenester**, opplevelser og ideer. **Tjenester** skiller seg fra varer ved at de ikke kan **tas på**, ikke kan **lagres**, og ofte **produseres** og **forbrukes** samtidig, som en frisørtime.\n\n## Produktnivåer\n\nEt produkt kan beskrives i tre nivåer:\n\n1. **Kjerneproduktet** – det **grunnleggende behovet** kunden får dekket. For en mobil er det **kommunikasjon**.\n2. **Det faktiske produktet** – egenskapene kunden kjøper: design, kvalitet, merke og emballasje.\n3. **Det utvidede produktet** – det som kommer **i tillegg**: garanti, service, levering og kundestøtte.\n\nMange produkter er like i kjernen. Virksomheter **konkurrerer** derfor ofte på det **faktiske** og **utvidede** produktet.\n\n## Produktlivssyklusen\n\n**Produktlivssyklusen** beskriver hvordan salget av et produkt utvikler seg over tid:\n\n1. **Introduksjon** – lavt salg, høye kostnader til markedsføring\n2. **Vekst** – salget øker raskt, og konkurrenter kommer til\n3. **Modning** – salget flater ut, og konkurransen er hard\n4. **Metning** – markedet er fullt\n5. **Nedgang** – salget faller\n\nI hver fase bruker virksomheten konkurransemidlene **ulikt**. I modningsfasen kan den for eksempel **forbedre** produktet eller finne **nye målgrupper**.\n\n## Sortiment, emballasje og produktutvikling\n\n- **Sortimentet** er alle produktene en virksomhet tilbyr. **Bredde** er antall produktgrupper, og **dybde** er antall varianter innen hver gruppe.\n- **Emballasjen** beskytter produktet, gir **informasjon** og er et viktig **salgsargument** i butikkhyllen. Den blir også vurdert ut fra **miljø**.\n- **Produktutvikling** er nødvendig for å fornye sortimentet. Prosessen går fra **idé** via **testing** og **prototyp** til **lansering**.\n\n## Merkevare\n\nEn **merkevare** er mer enn et navn og en logo. Den er summen av de **inntrykkene**, **følelsene** og **forventningene** kundene har til produktet. En sterk merkevare gir\n\n- **gjenkjennelse** og **trygghet** for kunden\n- **lojale** kunder\n- mulighet til å ta **høyere pris**\n- lettere lansering av **nye** produkter\n\n**Merkevarebygging** skjer gjennom **navn**, **logo**, **farger**, **design**, **kommunikasjon** og ikke minst gjennom kundenes **opplevelser**. En merkevare må **innfri** løftene sine – ellers taper den **tillit**.\n\n## Merkevarestrategier\n\n- **Produsentmerker** eies av produsenten, som et kjent sjokolademerke.\n- **Egne merkevarer** (EMV) eies av **butikkjedene**. Dagligvarekjedene i Norge har mange egne merker, ofte med lavere pris.\n- **Paraplymerke** – samme navn på mange produkter, som gir tillit til nye produkter.\n- **Individuelle merker** – hvert produkt har sitt eget navn, slik at en feil ikke smitter over på de andre.\n\n## Produktet som konkurransemiddel\n\nVirksomheter kan konkurrere ved å ha **bedre kvalitet**, **smartere design**, **bærekraftige** løsninger, **bedre service** eller en **sterkere merkevare**. Produktet må passe til **målgruppen** og **posisjoneringen**.",
   "flashcards": [
-    { "term": "Produkt", "def": "Alt en virksomhet tilbyr for å dekke et behov." },
-    { "term": "Tjeneste", "def": "Kan ikke tas på eller lagres, og produseres ofte mens den forbrukes." },
-    { "term": "Kjerneprodukt", "def": "Det grunnleggende behovet kunden får dekket." },
-    { "term": "Faktisk produkt", "def": "Egenskapene kunden kjøper: design, kvalitet, merke og emballasje." },
-    { "term": "Utvidet produkt", "def": "Tillegg som garanti, service og levering." },
-    { "term": "Produktlivssyklusen", "def": "Introduksjon, vekst, modning, metning og nedgang." },
-    { "term": "Introduksjonsfasen", "def": "Lavt salg og høye markedsføringskostnader." },
-    { "term": "Modningsfasen", "def": "Salget flater ut og konkurransen er hard." },
-    { "term": "Sortiment", "def": "Alle produktene en virksomhet tilbyr." },
-    { "term": "Sortimentsbredde", "def": "Antall produktgrupper." },
-    { "term": "Sortimentsdybde", "def": "Antall varianter innen hver produktgruppe." },
-    { "term": "Emballasje", "def": "Beskytter, informerer og selger produktet." },
-    { "term": "Merkevare", "def": "Summen av inntrykk, følelser og forventninger kundene har til produktet." },
-    { "term": "Egne merkevarer (EMV)", "def": "Merker som eies av butikkjedene." },
-    { "term": "Paraplymerke", "def": "Samme navn på mange produkter." },
-    { "term": "Individuelle merker", "def": "Hvert produkt har sitt eget navn." }
+    {
+      "term": "Produkt",
+      "def": "Alt en virksomhet tilbyr for å dekke et behov."
+    },
+    {
+      "term": "Tjeneste",
+      "def": "Kan ikke tas på eller lagres, og produseres ofte mens den forbrukes."
+    },
+    {
+      "term": "Kjerneprodukt",
+      "def": "Det grunnleggende behovet kunden får dekket."
+    },
+    {
+      "term": "Faktisk produkt",
+      "def": "Egenskapene kunden kjøper: design, kvalitet, merke og emballasje."
+    },
+    {
+      "term": "Utvidet produkt",
+      "def": "Tillegg som garanti, service og levering."
+    },
+    {
+      "term": "Produktlivssyklusen",
+      "def": "Introduksjon, vekst, modning, metning og nedgang."
+    },
+    {
+      "term": "Introduksjonsfasen",
+      "def": "Lavt salg og høye markedsføringskostnader."
+    },
+    {
+      "term": "Modningsfasen",
+      "def": "Salget flater ut og konkurransen er hard."
+    },
+    {
+      "term": "Sortiment",
+      "def": "Alle produktene en virksomhet tilbyr."
+    },
+    {
+      "term": "Sortimentsbredde",
+      "def": "Antall produktgrupper."
+    },
+    {
+      "term": "Sortimentsdybde",
+      "def": "Antall varianter innen hver produktgruppe."
+    },
+    {
+      "term": "Emballasje",
+      "def": "Beskytter, informerer og selger produktet."
+    },
+    {
+      "term": "Merkevare",
+      "def": "Summen av inntrykk, følelser og forventninger kundene har til produktet."
+    },
+    {
+      "term": "Egne merkevarer (EMV)",
+      "def": "Merker som eies av butikkjedene."
+    },
+    {
+      "term": "Paraplymerke",
+      "def": "Samme navn på mange produkter."
+    },
+    {
+      "term": "Individuelle merker",
+      "def": "Hvert produkt har sitt eget navn."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er kjerneproduktet til en mobiltelefon?", "options": ["Designet", "Kommunikasjon", "Garantien", "Emballasjen"], "correct": 1, "explain": "Det grunnleggende behovet." },
-    { "id": "q02", "text": "Hva hører til det utvidede produktet?", "options": ["Garanti og service", "Kjernebehovet", "Fargen", "Logoen"], "correct": 0, "explain": "Tillegg utover selve produktet." },
-    { "id": "q03", "text": "Hva skiller tjenester fra varer?", "options": ["De er alltid dyrere", "De selges bare på nett", "De kan ikke lagres og produseres ofte mens de forbrukes", "De har emballasje"], "correct": 2, "explain": "For eksempel en frisørtime." },
-    { "id": "q04", "text": "I hvilken fase av produktlivssyklusen øker salget raskt?", "options": ["Introduksjon", "Modning", "Nedgang", "Vekst"], "correct": 3, "explain": "Konkurrentene kommer til." },
-    { "id": "q05", "text": "Hva er sortimentsdybde?", "options": ["Antall varianter innen en produktgruppe", "Antall produktgrupper", "Antall butikker", "Antall kunder"], "correct": 0, "explain": "Bredde er antall produktgrupper." },
-    { "id": "q06", "text": "Hva er en merkevare?", "options": ["Bare en logo", "Summen av inntrykk, følelser og forventninger kundene har", "Bare et navn", "En pris"], "correct": 1, "explain": "Bygges gjennom opplevelser og kommunikasjon." },
-    { "id": "q07", "text": "Hva er egne merkevarer (EMV)?", "options": ["Merker eid av produsenten", "Merker fra utlandet", "Merker eid av butikkjedene", "Merker uten logo"], "correct": 2, "explain": "Vanlige i dagligvarehandelen." },
-    { "id": "q08", "text": "Hva er en fordel med en sterk merkevare?", "options": ["Lavere kvalitet", "Ingen konkurranse", "Færre kunder", "Mulighet til å ta høyere pris og lojale kunder"], "correct": 3, "explain": "Gir også trygghet for kunden." },
-    { "id": "q09", "text": "Hva kan en virksomhet gjøre i modningsfasen?", "options": ["Forbedre produktet eller finne nye målgrupper", "Slutte å markedsføre", "Heve prisen kraftig", "Legge ned produktet med en gang"], "correct": 0, "explain": "For å forlenge livssyklusen." },
-    { "id": "q10", "text": "Hvorfor velger noen virksomheter individuelle merker?", "options": ["Fordi det er billigst", "For at en feil ved ett produkt ikke skal smitte over på andre", "Fordi loven krever det", "For å ha færre produkter"], "correct": 1, "explain": "Paraplymerker deler omdømmet." }
+    {
+      "id": "q01",
+      "text": "Hva er kjerneproduktet til en mobiltelefon?",
+      "options": [
+        "Designet",
+        "Kommunikasjon",
+        "Garantien",
+        "Emballasjen"
+      ],
+      "correct": 1,
+      "explain": "Det grunnleggende behovet."
+    },
+    {
+      "id": "q02",
+      "text": "Hva hører til det utvidede produktet?",
+      "options": [
+        "Garanti og service",
+        "Kjernebehovet",
+        "Fargen",
+        "Logoen"
+      ],
+      "correct": 0,
+      "explain": "Tillegg utover selve produktet."
+    },
+    {
+      "id": "q03",
+      "text": "Hva skiller tjenester fra varer?",
+      "options": [
+        "De er alltid dyrere",
+        "De selges bare på nett",
+        "De kan ikke lagres og produseres ofte mens de forbrukes",
+        "De har emballasje"
+      ],
+      "correct": 2,
+      "explain": "For eksempel en frisørtime."
+    },
+    {
+      "id": "q04",
+      "text": "I hvilken fase av produktlivssyklusen øker salget raskt?",
+      "options": [
+        "Introduksjon",
+        "Modning",
+        "Nedgang",
+        "Vekst"
+      ],
+      "correct": 3,
+      "explain": "Konkurrentene kommer til."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er sortimentsdybde?",
+      "options": [
+        "Antall varianter innen en produktgruppe",
+        "Antall produktgrupper",
+        "Antall butikker",
+        "Antall kunder"
+      ],
+      "correct": 0,
+      "explain": "Bredde er antall produktgrupper."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en merkevare?",
+      "options": [
+        "Bare en logo",
+        "Summen av inntrykk, følelser og forventninger kundene har",
+        "Bare et navn",
+        "En pris"
+      ],
+      "correct": 1,
+      "explain": "Bygges gjennom opplevelser og kommunikasjon."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er egne merkevarer (EMV)?",
+      "options": [
+        "Merker eid av produsenten",
+        "Merker fra utlandet",
+        "Merker eid av butikkjedene",
+        "Merker uten logo"
+      ],
+      "correct": 2,
+      "explain": "Vanlige i dagligvarehandelen."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en fordel med en sterk merkevare?",
+      "options": [
+        "Lavere kvalitet",
+        "Ingen konkurranse",
+        "Færre kunder",
+        "Mulighet til å ta høyere pris og lojale kunder"
+      ],
+      "correct": 3,
+      "explain": "Gir også trygghet for kunden."
+    },
+    {
+      "id": "q09",
+      "text": "Hva kan en virksomhet gjøre i modningsfasen?",
+      "options": [
+        "Forbedre produktet eller finne nye målgrupper",
+        "Slutte å markedsføre",
+        "Heve prisen kraftig",
+        "Legge ned produktet med en gang"
+      ],
+      "correct": 0,
+      "explain": "For å forlenge livssyklusen."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor velger noen virksomheter individuelle merker?",
+      "options": [
+        "Fordi det er billigst",
+        "For at en feil ved ett produkt ikke skal smitte over på andre",
+        "Fordi loven krever det",
+        "For å ha færre produkter"
+      ],
+      "correct": 1,
+      "explain": "Paraplymerker deler omdømmet."
+    }
   ],
   "mindmap": {
     "label": "Produkt og merkevare",
     "children": [
-      { "label": "Produktnivåer", "children": [
-        { "label": "Kjerne" },
-        { "label": "Faktisk" },
-        { "label": "Utvidet" }
-      ] },
-      { "label": "Livssyklus", "children": [
-        { "label": "Introduksjon og vekst" },
-        { "label": "Modning og metning" },
-        { "label": "Nedgang" }
-      ] },
-      { "label": "Sortiment", "children": [
-        { "label": "Bredde og dybde" },
-        { "label": "Emballasje" },
-        { "label": "Produktutvikling" }
-      ] },
-      { "label": "Merkevare", "children": [
-        { "label": "Inntrykk og følelser" },
-        { "label": "Lojalitet og pris" }
-      ] },
-      { "label": "Strategier", "children": [
-        { "label": "Produsentmerker" },
-        { "label": "Egne merkevarer" },
-        { "label": "Paraply og individuelle" }
-      ] }
+      {
+        "label": "Produktnivåer",
+        "children": [
+          {
+            "label": "Kjerne"
+          },
+          {
+            "label": "Faktisk"
+          },
+          {
+            "label": "Utvidet"
+          }
+        ]
+      },
+      {
+        "label": "Livssyklus",
+        "children": [
+          {
+            "label": "Introduksjon og vekst"
+          },
+          {
+            "label": "Modning og metning"
+          },
+          {
+            "label": "Nedgang"
+          }
+        ]
+      },
+      {
+        "label": "Sortiment",
+        "children": [
+          {
+            "label": "Bredde og dybde"
+          },
+          {
+            "label": "Emballasje"
+          },
+          {
+            "label": "Produktutvikling"
+          }
+        ]
+      },
+      {
+        "label": "Merkevare",
+        "children": [
+          {
+            "label": "Inntrykk og følelser"
+          },
+          {
+            "label": "Lojalitet og pris"
+          }
+        ]
+      },
+      {
+        "label": "Strategier",
+        "children": [
+          {
+            "label": "Produsentmerker"
+          },
+          {
+            "label": "Egne merkevarer"
+          },
+          {
+            "label": "Paraply og individuelle"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mange produkter er like i kjernen, så virksomhetene konkurrerer på det faktiske og utvidede produktet.", "correct": true, "explain": "For eksempel design og service." },
-      { "id": "m02", "type": "sant-usant", "text": "I introduksjonsfasen er salget høyt og markedsføringskostnadene lave.", "correct": false, "explain": "Det er omvendt." },
-      { "id": "m03", "type": "sant-usant", "text": "En merkevare som ikke innfrir løftene sine, kan tape tillit.", "correct": true, "explain": "Opplevelsene bygger merkevaren." },
-      { "id": "m04", "type": "sant-usant", "text": "Emballasjen har bare som oppgave å beskytte produktet.", "correct": false, "explain": "Den informerer og selger også." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er sortimentsbredde?", "options": ["Antall varianter i én gruppe", "Antall produktgrupper", "Størrelsen på butikken", "Antall ansatte"], "correct": 1, "explain": "Dybde er antall varianter." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er et paraplymerke?", "options": ["Samme navn på mange produkter", "Et merke for regntøy", "Et merke eid av butikken", "Et merke uten logo"], "correct": 0, "explain": "Gir tillit til nye produkter." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kommer etter idé og testing i produktutviklingen?", "options": ["Nedgang", "Metning", "Prototyp og lansering", "Avvikling"], "correct": 2, "explain": "Produktet prøves ut før det lanseres." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange produkter er like i kjernen, så virksomhetene konkurrerer på det faktiske og utvidede produktet.",
+        "correct": true,
+        "explain": "For eksempel design og service."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I introduksjonsfasen er salget høyt og markedsføringskostnadene lave.",
+        "correct": false,
+        "explain": "Det er omvendt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En merkevare som ikke innfrir løftene sine, kan tape tillit.",
+        "correct": true,
+        "explain": "Opplevelsene bygger merkevaren."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Emballasjen har bare som oppgave å beskytte produktet.",
+        "correct": false,
+        "explain": "Den informerer og selger også."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er sortimentsbredde?",
+        "options": [
+          "Antall varianter i én gruppe",
+          "Antall produktgrupper",
+          "Størrelsen på butikken",
+          "Antall ansatte"
+        ],
+        "correct": 1,
+        "explain": "Dybde er antall varianter."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et paraplymerke?",
+        "options": [
+          "Samme navn på mange produkter",
+          "Et merke for regntøy",
+          "Et merke eid av butikken",
+          "Et merke uten logo"
+        ],
+        "correct": 0,
+        "explain": "Gir tillit til nye produkter."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kommer etter idé og testing i produktutviklingen?",
+        "options": [
+          "Nedgang",
+          "Metning",
+          "Prototyp og lansering",
+          "Avvikling"
+        ],
+        "correct": 2,
+        "explain": "Produktet prøves ut før det lanseres."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Mange produkter dekker omtrent det samme grunnleggende behovet. Forklar hvorfor en virksomhet likevel kan skille seg fra konkurrentene gjennom det faktiske eller utvidede produktet.",
+        "fasit": "Når produktene dekker samme grunnleggende behov, kan virksomheten konkurrere med egenskaper som design og kvalitet, eller med tillegg som service og garanti. Dette kan gjøre tilbudet mer attraktivt enn konkurrentenes.",
+        "kriterier": [
+          "Forklarer at det faktiske eller utvidede produktet kan skille tilbudet fra produkter med samme kjerne.",
+          "Nevner relevante egenskaper eller tillegg, som kvalitet, design, service eller garanti."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Salget av et produkt har begynt å falle etter at det har vært på markedet en stund. Hvilken fase i produktlivssyklusen er produktet i, og hva kjennetegner salget i denne fasen?",
+        "fasit": "Produktet er i nedgangsfasen. I denne fasen faller salget.",
+        "kriterier": [
+          "Identifiserer nedgangsfasen.",
+          "Forklarer at salget faller."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Virksomhet A tilbyr flere produktgrupper, men få varianter i hver gruppe. Virksomhet B tilbyr færre produktgrupper, men mange varianter innen hver gruppe. Sammenlign sortimentsbredden og sortimentsdybden hos de to virksomhetene.",
+        "fasit": "Virksomhet A har større sortimentsbredde fordi den tilbyr flere produktgrupper. Virksomhet B har større sortimentsdybde fordi den har flere varianter innen hver gruppe.",
+        "kriterier": [
+          "Knytter sortimentsbredde til antall produktgrupper og vurderer A som bredere.",
+          "Knytter sortimentsdybde til antall varianter og vurderer B som dypere."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En produsent skal utforme emballasje til et produkt som skal selges i butikk. Forklar to ulike oppgaver emballasjen bør fylle.",
+        "fasit": "Emballasjen bør beskytte produktet og gi kunden informasjon. Den kan også fungere som et salgsargument i butikkhyllen.",
+        "kriterier": [
+          "Nevner minst to relevante oppgaver, som å beskytte, informere eller selge produktet.",
+          "Forklarer kort hvordan minst én av oppgavene er nyttig for produktet eller kunden."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En virksomhet skal lansere et nytt produkt og vil bruke samme merkenavn som på flere av sine eksisterende produkter. Hvilken merkevarestrategi beskriver dette, og hvilken fordel kan den gi ved lanseringen?",
+        "fasit": "Dette er en paraplymerke-strategi, der samme navn brukes på mange produkter. Kundene kan ha tillit til det kjente navnet, noe som kan gjøre det lettere å lansere det nye produktet.",
+        "kriterier": [
+          "Identifiserer strategien som paraplymerke.",
+          "Forklarer at et kjent merkenavn kan gi tillit til det nye produktet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En bedrift arbeider med å utvikle et nytt produkt. Beskriv rekkefølgen på de fire trinnene fra den første ideen til produktet lanseres.",
+        "fasit": "Prosessen går fra idé til testing, videre til prototyp og til slutt lansering.",
+        "kriterier": [
+          "Plasserer idé før testing og prototyp.",
+          "Plasserer lansering etter prototypen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et firma vil utvikle et produkt for en målgruppe som er opptatt av miljø. Nevn én produktegenskap firmaet kan satse på for å konkurrere, og forklar hvorfor valget passer til målgruppen.",
+        "fasit": "Firmaet kan satse på en bærekraftig løsning. Det passer fordi produktegenskapen tar hensyn til noe målgruppen er opptatt av.",
+        "kriterier": [
+          "Nevner en bærekraftig løsning som mulig konkurransefortrinn.",
+          "Knytter løsningen til målgruppens miljøinteresse."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En virksomhet kommuniserer et løfte om hva kundene kan forvente av merkevaren, men produktet innfrir ikke løftet. Forklar hva dette kan føre til for kundenes tillit.",
+        "fasit": "Når merkevaren ikke innfrir løftet sitt, kan kundene miste tillit til den. Opplevelsene kundene har, påvirker inntrykket og forventningene de har til merkevaren.",
+        "kriterier": [
+          "Forklarer at manglende innfrielse kan svekke kundenes tillit.",
+          "Knytter tilliten til kundenes forventninger eller opplevelser av merkevaren."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

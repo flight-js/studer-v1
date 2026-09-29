@@ -4,114 +4,242 @@
   "trinnId": "vg2",
   "name": "Syrer, baser og pH",
   "intro": "Protolyse, sterke og svake syrer, pH-skalaen og hvordan du regner ut pH for sterke syrer og baser.",
-  "kompetansemaal": [15],
+  "kompetansemaal": [
+    15
+  ],
   "sammendrag": "## Syrer og baser etter Brønsted\n\nEtter Brønsteds definisjon er en **syre** et stoff som gir fra seg et proton (H⁺), og en **base** et stoff som tar opp et proton. En reaksjon der et proton overføres, kalles en **protolyse**. Når hydrogenklorid løses i vann, gir det et proton til vannet:\n\nHCl(g) + H₂O(l) → H₃O⁺(aq) + Cl⁻(aq)\n\nH₃O⁺ kalles et **oksoniumion**, og det er dette ionet som gjør løsningen sur.\n\nNår en syre har gitt fra seg et proton, blir resten en base. NH₄⁺ og NH₃ er et **korresponderende syre-base-par**, og det samme er HCl og Cl⁻. Et stoff som både kan gi fra seg og ta opp protoner, kalles en **amfolytt**. Vann er det viktigste eksemplet.\n\n## Sterke og svake syrer\n\nEn **sterk syre** protolyseres fullstendig i vann, altså gir nesten alle syremolekylene fra seg protonet. Saltsyre, salpetersyre og svovelsyre er sterke syrer. En **svak syre**, som eddiksyre, protolyseres bare delvis, og det innstiller seg en likevekt:\n\nCH₃COOH + H₂O ⇌ H₃O⁺ + CH₃COO⁻\n\nHvor svak syren er, uttrykkes med **syrekonstanten** Ka. Jo mindre Ka, desto svakere syre. Eddiksyre har Ka ≈ 1,8 · 10⁻⁵. Ved samme konsentrasjon gir en svak syre derfor høyere pH enn en sterk syre. Tilsvarende er hydroksidionet, OH⁻, en **sterk base**, mens ammoniakk er en **svak base**.\n\n## Vann og pH\n\nVann protolyseres litt med seg selv: 2H₂O ⇌ H₃O⁺ + OH⁻. Ved 25 °C er produktet av konsentrasjonene alltid\n\n**Kw = [H₃O⁺] · [OH⁻] = 1,0 · 10⁻¹⁴**\n\nI rent vann er [H₃O⁺] = [OH⁻] = 1,0 · 10⁻⁷ mol/L. For å slippe å regne med så små tall bruker vi **pH**:\n\n**pH = −log[H₃O⁺]**\n\nVed 25 °C er pH 7 nøytralt, pH under 7 surt og pH over 7 basisk. Skalaen er logaritmisk: Når pH synker med 1, blir [H₃O⁺] ti ganger så stor. Tilsvarende er pOH = −log[OH⁻], og ved 25 °C er pH + pOH = 14.\n\nFor en sterk syre er [H₃O⁺] lik syrekonsentrasjonen. 0,010 mol/L HCl gir pH = −log(0,010) = 2. For 0,0010 mol/L NaOH er pOH = 3, og da er pH = 14 − 3 = 11.\n\n## Indikatorer\n\nEn **syre-base-indikator** er et fargestoff som skifter farge ved en bestemt pH. Bromtymolblått er gult i sur løsning og blått i basisk, mens fenolftalein er fargeløs i sur løsning og rosa i basisk. Med et **pH-meter** kan du måle pH mer nøyaktig.\n\n## Typiske reaksjoner\n\nSyrer reagerer med uedle metaller som magnesium og sink, og da dannes hydrogengass. Med karbonater dannes karbondioksid, som bruser. En syre og en base nøytraliserer hverandre og danner vann og et salt.",
   "flashcards": [
-    { "term": "Syre (Brønsted)", "def": "Stoff som gir fra seg et proton (H⁺)." },
-    { "term": "Base (Brønsted)", "def": "Stoff som tar opp et proton (H⁺)." },
-    { "term": "Protolyse", "def": "Reaksjon der et proton overføres fra en syre til en base, for eksempel HCl + H₂O → H₃O⁺ + Cl⁻." },
-    { "term": "Oksoniumion", "def": "H₃O⁺ – vannmolekyl som har tatt opp et proton. Gjør løsninger sure." },
-    { "term": "Korresponderende syre-base-par", "def": "En syre og basen den blir når den gir fra seg et proton, for eksempel NH₄⁺/NH₃ og CH₃COOH/CH₃COO⁻." },
-    { "term": "Amfolytt", "def": "Stoff som både kan virke som syre og som base, for eksempel H₂O og HCO₃⁻." },
-    { "term": "Sterk syre", "def": "Syre som protolyseres fullstendig i vann, for eksempel HCl, HNO₃ og H₂SO₄." },
-    { "term": "Svak syre", "def": "Syre som bare protolyseres delvis i vann, for eksempel eddiksyre og karbonsyre." },
-    { "term": "Sterk base", "def": "Base som tar opp protoner fullstendig. Hydroksidionet, OH⁻, fra for eksempel NaOH og KOH." },
-    { "term": "Svak base", "def": "Base som bare delvis tar opp protoner fra vann, for eksempel ammoniakk (NH₃)." },
-    { "term": "Syrekonstant (Ka)", "def": "Likevektskonstanten for protolysen av en syre. Jo mindre Ka, desto svakere syre." },
-    { "term": "Autoprotolyse", "def": "Vann protolyseres litt med seg selv: 2H₂O ⇌ H₃O⁺ + OH⁻." },
-    { "term": "Kw", "def": "Vannets ionekonstant: [H₃O⁺] · [OH⁻] = 1,0 · 10⁻¹⁴ ved 25 °C." },
-    { "term": "pH", "def": "pH = −log[H₃O⁺]. Under 7 er surt, 7 er nøytralt og over 7 er basisk (ved 25 °C)." },
-    { "term": "pOH", "def": "pOH = −log[OH⁻]. Ved 25 °C er pH + pOH = 14." },
-    { "term": "Nøytral løsning", "def": "Løsning der [H₃O⁺] = [OH⁻]. Ved 25 °C er pH = 7." },
-    { "term": "Logaritmisk skala", "def": "Når pH endres med 1, endres [H₃O⁺] med en faktor 10." },
-    { "term": "Syre-base-indikator", "def": "Fargestoff som skifter farge ved en bestemt pH." },
-    { "term": "Bromtymolblått", "def": "Indikator som er gul i sur løsning, grønn nær nøytral og blå i basisk løsning." },
-    { "term": "Fenolftalein", "def": "Indikator som er fargeløs i sur og nøytral løsning og rosa i basisk løsning." },
-    { "term": "Syre + uedelt metall", "def": "Gir et salt og hydrogengass, for eksempel Mg + 2HCl → MgCl₂ + H₂." },
-    { "term": "Syre + karbonat", "def": "Gir et salt, vann og karbondioksid, som bruser." }
+    {
+      "term": "Syre (Brønsted)",
+      "def": "Stoff som gir fra seg et proton (H⁺)."
+    },
+    {
+      "term": "Base (Brønsted)",
+      "def": "Stoff som tar opp et proton (H⁺)."
+    },
+    {
+      "term": "Protolyse",
+      "def": "Reaksjon der et proton overføres fra en syre til en base, for eksempel HCl + H₂O → H₃O⁺ + Cl⁻."
+    },
+    {
+      "term": "Oksoniumion",
+      "def": "H₃O⁺ – vannmolekyl som har tatt opp et proton. Gjør løsninger sure."
+    },
+    {
+      "term": "Korresponderende syre-base-par",
+      "def": "En syre og basen den blir når den gir fra seg et proton, for eksempel NH₄⁺/NH₃ og CH₃COOH/CH₃COO⁻."
+    },
+    {
+      "term": "Amfolytt",
+      "def": "Stoff som både kan virke som syre og som base, for eksempel H₂O og HCO₃⁻."
+    },
+    {
+      "term": "Sterk syre",
+      "def": "Syre som protolyseres fullstendig i vann, for eksempel HCl, HNO₃ og H₂SO₄."
+    },
+    {
+      "term": "Svak syre",
+      "def": "Syre som bare protolyseres delvis i vann, for eksempel eddiksyre og karbonsyre."
+    },
+    {
+      "term": "Sterk base",
+      "def": "Base som tar opp protoner fullstendig. Hydroksidionet, OH⁻, fra for eksempel NaOH og KOH."
+    },
+    {
+      "term": "Svak base",
+      "def": "Base som bare delvis tar opp protoner fra vann, for eksempel ammoniakk (NH₃)."
+    },
+    {
+      "term": "Syrekonstant (Ka)",
+      "def": "Likevektskonstanten for protolysen av en syre. Jo mindre Ka, desto svakere syre."
+    },
+    {
+      "term": "Autoprotolyse",
+      "def": "Vann protolyseres litt med seg selv: 2H₂O ⇌ H₃O⁺ + OH⁻."
+    },
+    {
+      "term": "Kw",
+      "def": "Vannets ionekonstant: [H₃O⁺] · [OH⁻] = 1,0 · 10⁻¹⁴ ved 25 °C."
+    },
+    {
+      "term": "pH",
+      "def": "pH = −log[H₃O⁺]. Under 7 er surt, 7 er nøytralt og over 7 er basisk (ved 25 °C)."
+    },
+    {
+      "term": "pOH",
+      "def": "pOH = −log[OH⁻]. Ved 25 °C er pH + pOH = 14."
+    },
+    {
+      "term": "Nøytral løsning",
+      "def": "Løsning der [H₃O⁺] = [OH⁻]. Ved 25 °C er pH = 7."
+    },
+    {
+      "term": "Logaritmisk skala",
+      "def": "Når pH endres med 1, endres [H₃O⁺] med en faktor 10."
+    },
+    {
+      "term": "Syre-base-indikator",
+      "def": "Fargestoff som skifter farge ved en bestemt pH."
+    },
+    {
+      "term": "Bromtymolblått",
+      "def": "Indikator som er gul i sur løsning, grønn nær nøytral og blå i basisk løsning."
+    },
+    {
+      "term": "Fenolftalein",
+      "def": "Indikator som er fargeløs i sur og nøytral løsning og rosa i basisk løsning."
+    },
+    {
+      "term": "Syre + uedelt metall",
+      "def": "Gir et salt og hydrogengass, for eksempel Mg + 2HCl → MgCl₂ + H₂."
+    },
+    {
+      "term": "Syre + karbonat",
+      "def": "Gir et salt, vann og karbondioksid, som bruser."
+    }
   ],
   "quiz": [
     {
       "id": "q01",
       "text": "Hva er en syre ifølge Brønsted?",
-      "options": ["En protonmottaker", "En protongiver", "En elektrongiver", "Et stoff som inneholder OH⁻"],
+      "options": [
+        "En protonmottaker",
+        "En protongiver",
+        "En elektrongiver",
+        "Et stoff som inneholder OH⁻"
+      ],
       "correct": 1,
       "explain": "En Brønsted-syre gir fra seg et proton (H⁺) til en base. Basen er protonmottakeren."
     },
     {
       "id": "q02",
       "text": "Hva er pH i 0,010 mol/L saltsyre?",
-      "options": ["1", "12", "2", "0,010"],
+      "options": [
+        "1",
+        "12",
+        "2",
+        "0,010"
+      ],
       "correct": 2,
       "explain": "Saltsyre er en sterk syre, så [H₃O⁺] = 0,010 mol/L. pH = −log(0,010) = 2."
     },
     {
       "id": "q03",
       "text": "Hva er den korresponderende basen til ammoniumionet, NH₄⁺?",
-      "options": ["NH₃", "NH₄OH", "NH₂⁻", "H₃O⁺"],
+      "options": [
+        "NH₃",
+        "NH₄OH",
+        "NH₂⁻",
+        "H₃O⁺"
+      ],
       "correct": 0,
       "explain": "Når NH₄⁺ gir fra seg et proton, blir det igjen NH₃. De to utgjør et korresponderende syre-base-par."
     },
     {
       "id": "q04",
       "text": "Løsning A har pH 3 og løsning B har pH 5. Hvor mange ganger større er [H₃O⁺] i A enn i B?",
-      "options": ["2", "15", "20", "100"],
+      "options": [
+        "2",
+        "15",
+        "20",
+        "100"
+      ],
       "correct": 3,
       "explain": "pH-skalaen er logaritmisk. En forskjell på 2 pH-enheter betyr en faktor 10 · 10 = 100."
     },
     {
       "id": "q05",
       "text": "Hva er pH i 0,0010 mol/L NaOH ved 25 °C?",
-      "options": ["3", "7", "10", "11"],
+      "options": [
+        "3",
+        "7",
+        "10",
+        "11"
+      ],
       "correct": 3,
       "explain": "[OH⁻] = 0,0010 mol/L gir pOH = 3. Ved 25 °C er pH = 14 − pOH = 11."
     },
     {
       "id": "q06",
       "text": "Hvorfor har 0,10 mol/L eddiksyre høyere pH enn 0,10 mol/L saltsyre?",
-      "options": ["Eddiksyre er en svak syre som bare protolyseres delvis", "Eddiksyre er egentlig en base", "Eddiksyre har større molar masse", "Saltsyre inneholder mindre vann"],
+      "options": [
+        "Eddiksyre er en svak syre som bare protolyseres delvis",
+        "Eddiksyre er egentlig en base",
+        "Eddiksyre har større molar masse",
+        "Saltsyre inneholder mindre vann"
+      ],
       "correct": 0,
       "explain": "Bare en liten del av eddiksyremolekylene gir fra seg protonet, så [H₃O⁺] blir mye lavere enn i saltsyre med samme konsentrasjon. Lavere [H₃O⁺] gir høyere pH."
     },
     {
       "id": "q07",
       "text": "Hvilket av disse stoffene er en amfolytt?",
-      "options": ["HCl", "NaOH", "H₂O", "Cl⁻"],
+      "options": [
+        "HCl",
+        "NaOH",
+        "H₂O",
+        "Cl⁻"
+      ],
       "correct": 2,
       "explain": "Vann kan gi fra seg et proton og bli OH⁻, eller ta opp et proton og bli H₃O⁺. Det virker altså både som syre og som base."
     },
     {
       "id": "q08",
       "text": "Hva er [H₃O⁺] i en løsning med pH 4?",
-      "options": ["4 mol/L", "1,0 · 10⁻⁴ mol/L", "1,0 · 10⁻¹⁰ mol/L", "0,4 mol/L"],
+      "options": [
+        "4 mol/L",
+        "1,0 · 10⁻⁴ mol/L",
+        "1,0 · 10⁻¹⁰ mol/L",
+        "0,4 mol/L"
+      ],
       "correct": 1,
       "explain": "[H₃O⁺] = 10 opphøyd i −pH, altså 10⁻⁴ mol/L. 1,0 · 10⁻¹⁰ mol/L er [OH⁻] i den samme løsningen."
     },
     {
       "id": "q09",
       "text": "Hva er verdien av vannets ionekonstant, Kw, ved 25 °C?",
-      "options": ["1,0 · 10⁻¹⁴", "1,0 · 10⁻⁷", "7", "14"],
+      "options": [
+        "1,0 · 10⁻¹⁴",
+        "1,0 · 10⁻⁷",
+        "7",
+        "14"
+      ],
       "correct": 0,
       "explain": "Kw = [H₃O⁺] · [OH⁻] = 1,0 · 10⁻¹⁴ ved 25 °C. I rent vann er hver av konsentrasjonene 1,0 · 10⁻⁷ mol/L."
     },
     {
       "id": "q10",
       "text": "Bromtymolblått blir gult i en løsning. Hva sier det om løsningen?",
-      "options": ["Den er basisk", "Den er nøytral", "Den inneholder et metall", "Den er sur"],
+      "options": [
+        "Den er basisk",
+        "Den er nøytral",
+        "Den inneholder et metall",
+        "Den er sur"
+      ],
       "correct": 3,
       "explain": "Bromtymolblått er gult i sur løsning, grønt rundt nøytral og blått i basisk løsning."
     },
     {
       "id": "q11",
       "text": "Hvilken av disse syrene er en sterk syre?",
-      "options": ["Eddiksyre", "Salpetersyre", "Karbonsyre", "Flussyre (HF)"],
+      "options": [
+        "Eddiksyre",
+        "Salpetersyre",
+        "Karbonsyre",
+        "Flussyre (HF)"
+      ],
       "correct": 1,
       "explain": "Salpetersyre, HNO₃, protolyseres fullstendig i vann. Eddiksyre, karbonsyre og flussyre er svake syrer."
     },
     {
       "id": "q12",
       "text": "Hvilken gass dannes når saltsyre reagerer med magnesium?",
-      "options": ["Oksygen", "Karbondioksid", "Hydrogen", "Klor"],
+      "options": [
+        "Oksygen",
+        "Karbondioksid",
+        "Hydrogen",
+        "Klor"
+      ],
       "correct": 2,
       "explain": "Mg + 2HCl → MgCl₂ + H₂. Magnesium er et uedelt metall som reduserer H⁺ til hydrogengass."
     }
@@ -122,60 +250,136 @@
       {
         "label": "Brønsted",
         "children": [
-          { "label": "Syre", "note": "Protongiver" },
-          { "label": "Base", "note": "Protonmottaker" },
-          { "label": "Protolyse", "note": "Overføring av H⁺" },
-          { "label": "Korresponderende par", "note": "NH₄⁺/NH₃, HCl/Cl⁻" },
-          { "label": "Amfolytt", "note": "H₂O, HCO₃⁻" }
+          {
+            "label": "Syre",
+            "note": "Protongiver"
+          },
+          {
+            "label": "Base",
+            "note": "Protonmottaker"
+          },
+          {
+            "label": "Protolyse",
+            "note": "Overføring av H⁺"
+          },
+          {
+            "label": "Korresponderende par",
+            "note": "NH₄⁺/NH₃, HCl/Cl⁻"
+          },
+          {
+            "label": "Amfolytt",
+            "note": "H₂O, HCO₃⁻"
+          }
         ]
       },
       {
         "label": "Sterke og svake",
         "children": [
-          { "label": "Sterke syrer", "note": "HCl, HNO₃, H₂SO₄" },
-          { "label": "Svake syrer", "note": "CH₃COOH, H₂CO₃, HF" },
-          { "label": "Sterke baser", "note": "OH⁻ fra NaOH, KOH" },
-          { "label": "Svake baser", "note": "NH₃" },
-          { "label": "Syrekonstant Ka", "note": "Liten Ka = svak syre" }
+          {
+            "label": "Sterke syrer",
+            "note": "HCl, HNO₃, H₂SO₄"
+          },
+          {
+            "label": "Svake syrer",
+            "note": "CH₃COOH, H₂CO₃, HF"
+          },
+          {
+            "label": "Sterke baser",
+            "note": "OH⁻ fra NaOH, KOH"
+          },
+          {
+            "label": "Svake baser",
+            "note": "NH₃"
+          },
+          {
+            "label": "Syrekonstant Ka",
+            "note": "Liten Ka = svak syre"
+          }
         ]
       },
       {
         "label": "Vann",
         "children": [
-          { "label": "Autoprotolyse", "note": "2H₂O ⇌ H₃O⁺ + OH⁻" },
-          { "label": "Kw", "note": "1,0 · 10⁻¹⁴ ved 25 °C" }
+          {
+            "label": "Autoprotolyse",
+            "note": "2H₂O ⇌ H₃O⁺ + OH⁻"
+          },
+          {
+            "label": "Kw",
+            "note": "1,0 · 10⁻¹⁴ ved 25 °C"
+          }
         ]
       },
       {
         "label": "pH",
         "children": [
-          { "label": "pH = −log[H₃O⁺]" },
-          { "label": "Skalaen", "note": "< 7 surt, 7 nøytralt, > 7 basisk" },
-          { "label": "Logaritmisk", "note": "1 pH-enhet = faktor 10" },
-          { "label": "pOH", "note": "pH + pOH = 14" }
+          {
+            "label": "pH = −log[H₃O⁺]"
+          },
+          {
+            "label": "Skalaen",
+            "note": "< 7 surt, 7 nøytralt, > 7 basisk"
+          },
+          {
+            "label": "Logaritmisk",
+            "note": "1 pH-enhet = faktor 10"
+          },
+          {
+            "label": "pOH",
+            "note": "pH + pOH = 14"
+          }
         ]
       },
       {
         "label": "Indikatorer",
         "children": [
-          { "label": "Bromtymolblått", "note": "Gul – grønn – blå" },
-          { "label": "Fenolftalein", "note": "Fargeløs – rosa" },
-          { "label": "pH-meter", "note": "Nøyaktig måling" }
+          {
+            "label": "Bromtymolblått",
+            "note": "Gul – grønn – blå"
+          },
+          {
+            "label": "Fenolftalein",
+            "note": "Fargeløs – rosa"
+          },
+          {
+            "label": "pH-meter",
+            "note": "Nøyaktig måling"
+          }
         ]
       },
       {
         "label": "Reaksjoner",
         "children": [
-          { "label": "Med uedle metaller", "note": "Gir hydrogengass" },
-          { "label": "Med karbonater", "note": "Gir karbondioksid" },
-          { "label": "Nøytralisering", "note": "Syre + base → salt + vann" }
+          {
+            "label": "Med uedle metaller",
+            "note": "Gir hydrogengass"
+          },
+          {
+            "label": "Med karbonater",
+            "note": "Gir karbondioksid"
+          },
+          {
+            "label": "Nøytralisering",
+            "note": "Syre + base → salt + vann"
+          }
         ]
       }
     ]
   },
   "miniprove": {
     "minutter": 20,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q08", "q09", "q11", "q12"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q08",
+      "q09",
+      "q11",
+      "q12"
+    ],
     "ekstra": [
       {
         "id": "m01",
@@ -188,7 +392,12 @@
         "id": "m02",
         "type": "flervalg",
         "text": "Hvilken likning viser protolysen av hydrogenklorid i vann?",
-        "options": ["HCl + H₂O → H₃O⁺ + Cl⁻", "HCl + H₂O → HClO + H₂", "HCl + H₂O → OH⁻ + H₂Cl⁺", "HCl → H + Cl"],
+        "options": [
+          "HCl + H₂O → H₃O⁺ + Cl⁻",
+          "HCl + H₂O → HClO + H₂",
+          "HCl + H₂O → OH⁻ + H₂Cl⁺",
+          "HCl → H + Cl"
+        ],
         "correct": 0,
         "explain": "HCl gir et proton til vannmolekylet. Da dannes oksoniumionet H₃O⁺ og kloridionet Cl⁻."
       },
@@ -203,7 +412,12 @@
         "id": "m04",
         "type": "flervalg",
         "text": "Hva er den korresponderende syren til hydroksidionet, OH⁻?",
-        "options": ["O²⁻", "H₃O⁺", "H₂O", "H₂O₂"],
+        "options": [
+          "O²⁻",
+          "H₃O⁺",
+          "H₂O",
+          "H₂O₂"
+        ],
         "correct": 2,
         "explain": "Når OH⁻ tar opp et proton, blir det H₂O. Vann er altså den korresponderende syren til OH⁻."
       },
@@ -218,7 +432,12 @@
         "id": "m06",
         "type": "flervalg",
         "text": "Hva er pH i en løsning der [H₃O⁺] = 1,0 · 10⁻⁹ mol/L?",
-        "options": ["9", "5", "−9", "14"],
+        "options": [
+          "9",
+          "5",
+          "−9",
+          "14"
+        ],
         "correct": 0,
         "explain": "pH = −log(1,0 · 10⁻⁹) = 9. Løsningen er basisk."
       },
@@ -226,7 +445,12 @@
         "id": "m07",
         "type": "flervalg",
         "text": "Hvilken indikator er fargeløs i sur løsning og rosa i basisk?",
-        "options": ["Bromtymolblått", "Lakmus", "Metyloransje", "Fenolftalein"],
+        "options": [
+          "Bromtymolblått",
+          "Lakmus",
+          "Metyloransje",
+          "Fenolftalein"
+        ],
         "correct": 3,
         "explain": "Fenolftalein er fargeløs under omtrent pH 8 og blir rosa i basisk løsning. Den brukes mye ved titrering av syre med sterk base."
       },
@@ -236,6 +460,80 @@
         "text": "Ammoniakk, NH₃, er en svak base.",
         "correct": true,
         "explain": "Bare en liten del av ammoniakkmolekylene tar opp et proton fra vann: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Se på reaksjonen HCl + H₂O → H₃O⁺ + Cl⁻. Forklar hvorfor dette er en protolyse, og hvilken rolle HCl og H₂O har i reaksjonen.",
+        "fasit": "Et proton overføres fra HCl til H₂O, så reaksjonen er en protolyse. HCl gir fra seg protonet, mens H₂O tar det opp og blir til H₃O⁺.",
+        "kriterier": [
+          "Forklarer at et proton overføres fra HCl til H₂O.",
+          "Identifiserer HCl som syre/protongiver og H₂O som base/protonmottaker."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar forskjellen på en sterk og en svak syre når de løses i vann. Ta også med hva en lav Ka-verdi forteller.",
+        "fasit": "En sterk syre protolyseres fullstendig i vann, mens en svak syre bare protolyseres delvis og innstiller en likevekt. Jo mindre Ka er, desto svakere er syren.",
+        "kriterier": [
+          "Skiller mellom fullstendig og delvis protolyse.",
+          "Forklarer at en mindre Ka betyr en svakere syre."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Rent vann ved 25 °C har [H₃O⁺] = 1,0 · 10⁻⁷ mol/L. Beregn pH ved hjelp av formelen pH = −log[H₃O⁺]. Vis det viktigste regnetrinnet.",
+        "fasit": "pH = −log(1,0 · 10⁻⁷) = 7. Rent vann har derfor pH 7 ved 25 °C.",
+        "kriterier": [
+          "Setter konsentrasjonen inn i pH-formelen.",
+          "Får pH = 7."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I rent vann ved 25 °C er [H₃O⁺] = 1,0 · 10⁻⁷ mol/L, og Kw = [H₃O⁺] · [OH⁻] = 1,0 · 10⁻¹⁴. Beregn [OH⁻] ved å bruke Kw-formelen.",
+        "fasit": "[OH⁻] = Kw/[H₃O⁺] = (1,0 · 10⁻¹⁴)/(1,0 · 10⁻⁷) = 1,0 · 10⁻⁷ mol/L.",
+        "kriterier": [
+          "Omformer Kw-uttrykket til [OH⁻] = Kw/[H₃O⁺].",
+          "Får [OH⁻] = 1,0 · 10⁻⁷ mol/L."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En løsning blir grønn med bromtymolblått og fargeløs med fenolftalein. Hva kan du slutte om løsningen ut fra disse fargene?",
+        "fasit": "Grønn bromtymolblått viser at løsningen er nær nøytral. Fargeløs fenolftalein passer med at løsningen er nøytral, siden indikatoren også er fargeløs i sur løsning.",
+        "kriterier": [
+          "Knytter grønn bromtymolblått til en løsning nær nøytral.",
+          "Forklarer at fargeløs fenolftalein ikke alene skiller mellom sur og nøytral løsning."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En syre tilsettes et karbonat, og det begynner å bruse. Hvilken gass dannes, og hvilke andre typer stoffer dannes i reaksjonen?",
+        "fasit": "Gassen som dannes, er karbondioksid, og det er den som gir brusingen. I tillegg dannes et salt og vann.",
+        "kriterier": [
+          "Identifiserer karbondioksid som gassen som gir brusingen.",
+          "Nevner at det også dannes et salt og vann."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Autoprotolysen av vann kan skrives 2H₂O ⇌ H₃O⁺ + OH⁻. Forklar hvordan reaksjonen viser at vann er en amfolytt.",
+        "fasit": "I reaksjonen gir ett vannmolekyl fra seg et proton og virker som en syre. Et annet vannmolekyl tar opp protonet og virker som en base.",
+        "kriterier": [
+          "Forklarer at et vannmolekyl gir fra seg et proton.",
+          "Forklarer at et annet vannmolekyl tar opp protonet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign OH⁻ og NH₃ som baser i vann. Hva er forskjellen på hvor fullstendig de tar opp protoner?",
+        "fasit": "OH⁻ er en sterk base og tar opp protoner fullstendig. NH₃ er en svak base og tar bare delvis opp protoner fra vann.",
+        "kriterier": [
+          "Beskriver OH⁻ som en sterk base som tar opp protoner fullstendig.",
+          "Beskriver NH₃ som en svak base som bare delvis tar opp protoner."
+        ]
       }
     ]
   },

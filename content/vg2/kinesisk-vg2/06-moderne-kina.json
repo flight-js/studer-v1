@@ -4,80 +4,432 @@
   "trinnId": "vg2",
   "name": "Det moderne Kina",
   "intro": "Kinas utvikling etter 1978 – økonomisk vekst, byer og teknologi – dagliglivet med mobil og superapper, utfordringer som forurensning og ulikhet, politikk og sensur, og Taiwan og Hongkong – med nyttige ord og uttrykk.",
-  "kompetansemaal": [8, 9, 4],
+  "kompetansemaal": [
+    8,
+    9,
+    4
+  ],
   "sammendrag": "## Fra fattigdom til stormakt\n\nEtter at kommunistpartiet tok makten i **1949**, var Kina lenge et fattig land med **planøkonomi**. Fra **1978** innførte lederen **Deng Xiaoping** **økonomiske reformer**: mer **markedsøkonomi** og åpning mot omverdenen. Siden har Kina hatt en enorm **økonomisk vekst**, og hundrevis av millioner mennesker er løftet ut av **fattigdom**. I dag har Kina **verdens nest største økonomi**.\n\n## Byer\n\nMange har flyttet fra **landsbygda** til **byene** (城市 *chéngshì*). Kina har flere **megabyer**, som **Shanghai**, **Beijing**, **Chongqing** og **Shenzhen** – som gikk fra en liten by til en teknologimetropol på noen tiår.\n\n## Teknologi i hverdagen\n\n- **微信** *Wēixìn* (**WeChat**) er en «**superapp**» – for meldinger, betaling, taxi, mat og mye mer.\n- **Mobilbetaling** med QR-koder er vanlig overalt.\n- **Netthandel** (*网上购物*) er enormt.\n- **高铁** *gāotiě* – høyhastighetstog – knytter byene sammen.\n\nNyttige ord: 手机 *shǒujī* (mobil), 上网 *shàngwǎng* (gå på nett), 电脑 *diànnǎo* (datamaskin), 科技 *kējì* (teknologi).\n\n## Utfordringer\n\n- **Forurensning** (污染 *wūrǎn*) av luft og vann – samtidig er Kina verdens største produsent av **sol- og vindkraft** og **elbiler**.\n- **Ulikhet** mellom **by og land** og mellom kyst og innland.\n- **Eldrebølge** – blant annet som følge av **ettbarnspolitikken**.\n- **Press** på unge: konkurranse om skoleplasser og jobber.\n\n## Politikk\n\nKina er en **ettpartistat** styrt av **Kinas kommunistiske parti**. Det finnes ikke frie valg, og det er **sensur** av medier og internett – mange vestlige nettsteder og apper er **blokkert** (ofte kalt «den store brannmuren»). Behandlingen av **uigurene** i Xinjiang og av **Tibet** har fått sterk internasjonal kritikk.\n\n## Taiwan og Hongkong\n\n- **Taiwan** har sitt **eget styre** og er et **demokrati**. Der brukes **tradisjonelle tegn**. Kina regner Taiwan som en del av landet, noe som skaper **spenning**.\n- **Hongkong** var **britisk koloni** til **1997**. Der snakkes mye **kantonesisk**, og det har vært store **demonstrasjoner** for demokratiske rettigheter.\n\n## Kina og Norge\n\nNorge og Kina **handler** mye med hverandre – Norge eksporterer blant annet **sjømat**, og importerer mye **elektronikk** og **klær**. Å lære kinesisk gir innsikt i et land som betyr mye for verden.",
   "flashcards": [
-    { "term": "1978", "def": "Deng Xiaoping startet økonomiske reformer i Kina" },
-    { "term": "Deng Xiaoping", "def": "Leder som åpnet Kina for markedsøkonomi" },
-    { "term": "城市 chéngshì", "def": "by" },
-    { "term": "Shenzhen", "def": "By som ble en teknologimetropol på noen tiår" },
-    { "term": "微信 Wēixìn", "def": "WeChat – en «superapp»" },
-    { "term": "手机 shǒujī", "def": "mobil" },
-    { "term": "上网 shàngwǎng", "def": "gå på nett" },
-    { "term": "科技 kējì", "def": "teknologi" },
-    { "term": "污染 wūrǎn", "def": "forurensning" },
-    { "term": "高铁 gāotiě", "def": "høyhastighetstog" },
-    { "term": "Ettpartistat", "def": "Stat der bare ett parti har makt" },
-    { "term": "Den store brannmuren", "def": "Betegnelse på Kinas internettsensur" },
-    { "term": "Taiwan", "def": "Øy med eget demokratisk styre og tradisjonelle tegn" },
-    { "term": "Hongkong 1997", "def": "Britisk koloni overført til Kina" },
-    { "term": "Verdens nest største økonomi", "def": "Kinas plass i verdensøkonomien" }
+    {
+      "term": "1978",
+      "def": "Deng Xiaoping startet økonomiske reformer i Kina"
+    },
+    {
+      "term": "Deng Xiaoping",
+      "def": "Leder som åpnet Kina for markedsøkonomi"
+    },
+    {
+      "term": "城市 chéngshì",
+      "def": "by"
+    },
+    {
+      "term": "Shenzhen",
+      "def": "By som ble en teknologimetropol på noen tiår"
+    },
+    {
+      "term": "微信 Wēixìn",
+      "def": "WeChat – en «superapp»"
+    },
+    {
+      "term": "手机 shǒujī",
+      "def": "mobil"
+    },
+    {
+      "term": "上网 shàngwǎng",
+      "def": "gå på nett"
+    },
+    {
+      "term": "科技 kējì",
+      "def": "teknologi"
+    },
+    {
+      "term": "污染 wūrǎn",
+      "def": "forurensning"
+    },
+    {
+      "term": "高铁 gāotiě",
+      "def": "høyhastighetstog"
+    },
+    {
+      "term": "Ettpartistat",
+      "def": "Stat der bare ett parti har makt"
+    },
+    {
+      "term": "Den store brannmuren",
+      "def": "Betegnelse på Kinas internettsensur"
+    },
+    {
+      "term": "Taiwan",
+      "def": "Øy med eget demokratisk styre og tradisjonelle tegn"
+    },
+    {
+      "term": "Hongkong 1997",
+      "def": "Britisk koloni overført til Kina"
+    },
+    {
+      "term": "Verdens nest største økonomi",
+      "def": "Kinas plass i verdensøkonomien"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvem startet de økonomiske reformene i Kina i 1978?", "options": ["Mao Zedong", "Deng Xiaoping", "Konfucius", "Xi Jinping"], "correct": 1, "explain": "Reformene åpnet for markedsøkonomi." },
-    { "id": "q02", "text": "Hva er WeChat (微信)?", "options": ["En «superapp» for meldinger, betaling og mye mer", "En TV-kanal", "En bank", "Et tog"], "correct": 0, "explain": "Nesten alle i Kina bruker den." },
-    { "id": "q03", "text": "Hva betyr 污染?", "options": ["teknologi", "by", "forurensning", "økonomi"], "correct": 2, "explain": "wūrǎn." },
-    { "id": "q04", "text": "Når ble Hongkong overført fra Storbritannia til Kina?", "options": ["1949", "1978", "2008", "1997"], "correct": 3, "explain": "Hongkong var britisk koloni til 1997." },
-    { "id": "q05", "text": "Hvilke tegn brukes i Taiwan?", "options": ["Tradisjonelle tegn", "Forenklede tegn", "Latinske bokstaver", "Japanske tegn"], "correct": 0, "explain": "Kina bruker forenklede tegn." },
-    { "id": "q06", "text": "Hva er Kinas politiske system?", "options": ["Et flerpartidemokrati", "En ettpartistat styrt av kommunistpartiet", "Et monarki", "Et føderalt demokrati"], "correct": 1, "explain": "Det finnes ikke frie valg." },
-    { "id": "q07", "text": "Hva betyr 上网?", "options": ["gå på jobb", "gå på skolen", "gå på nett", "gå opp"], "correct": 2, "explain": "shàngwǎng." },
-    { "id": "q08", "text": "Hva eksporterer Norge blant annet til Kina?", "options": ["Elektronikk", "Klær", "Ris", "Sjømat"], "correct": 3, "explain": "Kina eksporterer mye elektronikk og klær til Norge." },
-    { "id": "q09", "text": "Hva er en utfordring i det moderne Kina?", "options": ["Ulikhet mellom by og land", "For få byer", "For lite teknologi", "Ingen handel"], "correct": 0, "explain": "Også forurensning og eldrebølge." },
-    { "id": "q10", "text": "Hva betyr 手机?", "options": ["datamaskin", "mobil", "hånd", "maskin"], "correct": 1, "explain": "shǒujī – «håndmaskin»." }
+    {
+      "id": "q01",
+      "text": "Hvem startet de økonomiske reformene i Kina i 1978?",
+      "options": [
+        "Mao Zedong",
+        "Deng Xiaoping",
+        "Konfucius",
+        "Xi Jinping"
+      ],
+      "correct": 1,
+      "explain": "Reformene åpnet for markedsøkonomi."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er WeChat (微信)?",
+      "options": [
+        "En «superapp» for meldinger, betaling og mye mer",
+        "En TV-kanal",
+        "En bank",
+        "Et tog"
+      ],
+      "correct": 0,
+      "explain": "Nesten alle i Kina bruker den."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr 污染?",
+      "options": [
+        "teknologi",
+        "by",
+        "forurensning",
+        "økonomi"
+      ],
+      "correct": 2,
+      "explain": "wūrǎn."
+    },
+    {
+      "id": "q04",
+      "text": "Når ble Hongkong overført fra Storbritannia til Kina?",
+      "options": [
+        "1949",
+        "1978",
+        "2008",
+        "1997"
+      ],
+      "correct": 3,
+      "explain": "Hongkong var britisk koloni til 1997."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilke tegn brukes i Taiwan?",
+      "options": [
+        "Tradisjonelle tegn",
+        "Forenklede tegn",
+        "Latinske bokstaver",
+        "Japanske tegn"
+      ],
+      "correct": 0,
+      "explain": "Kina bruker forenklede tegn."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er Kinas politiske system?",
+      "options": [
+        "Et flerpartidemokrati",
+        "En ettpartistat styrt av kommunistpartiet",
+        "Et monarki",
+        "Et føderalt demokrati"
+      ],
+      "correct": 1,
+      "explain": "Det finnes ikke frie valg."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr 上网?",
+      "options": [
+        "gå på jobb",
+        "gå på skolen",
+        "gå på nett",
+        "gå opp"
+      ],
+      "correct": 2,
+      "explain": "shàngwǎng."
+    },
+    {
+      "id": "q08",
+      "text": "Hva eksporterer Norge blant annet til Kina?",
+      "options": [
+        "Elektronikk",
+        "Klær",
+        "Ris",
+        "Sjømat"
+      ],
+      "correct": 3,
+      "explain": "Kina eksporterer mye elektronikk og klær til Norge."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en utfordring i det moderne Kina?",
+      "options": [
+        "Ulikhet mellom by og land",
+        "For få byer",
+        "For lite teknologi",
+        "Ingen handel"
+      ],
+      "correct": 0,
+      "explain": "Også forurensning og eldrebølge."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr 手机?",
+      "options": [
+        "datamaskin",
+        "mobil",
+        "hånd",
+        "maskin"
+      ],
+      "correct": 1,
+      "explain": "shǒujī – «håndmaskin»."
+    }
   ],
   "mindmap": {
     "label": "Det moderne Kina",
     "children": [
-      { "label": "Utvikling", "children": [
-        { "label": "1949" },
-        { "label": "Reformer 1978" },
-        { "label": "Nest største økonomi" }
-      ] },
-      { "label": "Byer og teknologi", "children": [
-        { "label": "Megabyer" },
-        { "label": "微信" },
-        { "label": "Mobilbetaling" },
-        { "label": "高铁" }
-      ] },
-      { "label": "Utfordringer", "children": [
-        { "label": "污染" },
-        { "label": "Ulikhet" },
-        { "label": "Eldrebølge" }
-      ] },
-      { "label": "Politikk", "children": [
-        { "label": "Ettpartistat" },
-        { "label": "Sensur" },
-        { "label": "Menneskerettigheter" }
-      ] },
-      { "label": "Taiwan og Hongkong", "children": [
-        { "label": "Tradisjonelle tegn" },
-        { "label": "1997" },
-        { "label": "Kantonesisk" }
-      ] }
+      {
+        "label": "Utvikling",
+        "children": [
+          {
+            "label": "1949"
+          },
+          {
+            "label": "Reformer 1978"
+          },
+          {
+            "label": "Nest største økonomi"
+          }
+        ]
+      },
+      {
+        "label": "Byer og teknologi",
+        "children": [
+          {
+            "label": "Megabyer"
+          },
+          {
+            "label": "微信"
+          },
+          {
+            "label": "Mobilbetaling"
+          },
+          {
+            "label": "高铁"
+          }
+        ]
+      },
+      {
+        "label": "Utfordringer",
+        "children": [
+          {
+            "label": "污染"
+          },
+          {
+            "label": "Ulikhet"
+          },
+          {
+            "label": "Eldrebølge"
+          }
+        ]
+      },
+      {
+        "label": "Politikk",
+        "children": [
+          {
+            "label": "Ettpartistat"
+          },
+          {
+            "label": "Sensur"
+          },
+          {
+            "label": "Menneskerettigheter"
+          }
+        ]
+      },
+      {
+        "label": "Taiwan og Hongkong",
+        "children": [
+          {
+            "label": "Tradisjonelle tegn"
+          },
+          {
+            "label": "1997"
+          },
+          {
+            "label": "Kantonesisk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kina er verdens største produsent av sol- og vindkraft og elbiler.", "correct": true, "explain": "Samtidig har landet store utslipp." },
-      { "id": "m02", "type": "sant-usant", "text": "Kina har frie valg med mange partier.", "correct": false, "explain": "Kina er en ettpartistat." },
-      { "id": "m03", "type": "sant-usant", "text": "Hundrevis av millioner kinesere er løftet ut av fattigdom siden 1978.", "correct": true, "explain": "Den økonomiske veksten har vært enorm." },
-      { "id": "m04", "type": "sant-usant", "text": "I Hongkong snakkes det bare mandarin.", "correct": false, "explain": "I Hongkong snakkes det mye kantonesisk." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr 科技?", "options": ["kunst", "teknologi", "kjemi", "klima"], "correct": 1, "explain": "kējì." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken by gikk fra liten by til teknologimetropol på noen tiår?", "options": ["Shenzhen", "Xi'an", "Lhasa", "Harbin"], "correct": 0, "explain": "Shenzhen ligger nær Hongkong." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kalles Kinas internettsensur ofte?", "options": ["Den kinesiske mur", "Den røde linjen", "Den store brannmuren", "Silkeveien"], "correct": 2, "explain": "Mange vestlige nettsteder er blokkert." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kina er verdens største produsent av sol- og vindkraft og elbiler.",
+        "correct": true,
+        "explain": "Samtidig har landet store utslipp."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kina har frie valg med mange partier.",
+        "correct": false,
+        "explain": "Kina er en ettpartistat."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Hundrevis av millioner kinesere er løftet ut av fattigdom siden 1978.",
+        "correct": true,
+        "explain": "Den økonomiske veksten har vært enorm."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "I Hongkong snakkes det bare mandarin.",
+        "correct": false,
+        "explain": "I Hongkong snakkes det mye kantonesisk."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr 科技?",
+        "options": [
+          "kunst",
+          "teknologi",
+          "kjemi",
+          "klima"
+        ],
+        "correct": 1,
+        "explain": "kējì."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken by gikk fra liten by til teknologimetropol på noen tiår?",
+        "options": [
+          "Shenzhen",
+          "Xi'an",
+          "Lhasa",
+          "Harbin"
+        ],
+        "correct": 0,
+        "explain": "Shenzhen ligger nær Hongkong."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kalles Kinas internettsensur ofte?",
+        "options": [
+          "Den kinesiske mur",
+          "Den røde linjen",
+          "Den store brannmuren",
+          "Silkeveien"
+        ],
+        "correct": 2,
+        "explain": "Mange vestlige nettsteder er blokkert."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Kina hadde lenge planøkonomi. I 1978 startet Deng Xiaoping reformer med mer markedsøkonomi og åpning mot omverdenen. Forklar hva som endret seg, og nevn en viktig følge av reformene.",
+        "fasit": "Kina beveget seg fra planøkonomi mot mer markedsøkonomi og åpnet seg mer mot omverdenen. Etter reformene fikk landet sterk økonomisk vekst, og mange mennesker kom ut av fattigdom.",
+        "kriterier": [
+          "Forklarer overgangen mot mer markedsøkonomi og åpning mot omverdenen.",
+          "Knytter reformene til økonomisk vekst eller at mange kom ut av fattigdom."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Shenzhen gikk på noen tiår fra å være en liten by til å bli en teknologimetropol. Forklar hva dette eksemplet viser om utviklingen i det moderne Kina.",
+        "fasit": "Shenzhen viser hvor raskt en kinesisk by kan vokse og forandre seg. Byens utvikling til en teknologimetropol illustrerer også Kinas raske økonomiske og teknologiske utvikling.",
+        "kriterier": [
+          "Får fram at Shenzhen har gjennomgått en stor og rask byutvikling.",
+          "Knytter utviklingen til teknologisk eller økonomisk vekst i Kina."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I Kina er mobilbetaling med QR-koder vanlig, og 高铁 (gāotiě) er høyhastighetstog som knytter byene sammen. En besøkende skal betale for et måltid og reise videre til en annen by. Forklar hvilken teknologi som passer til hver del av reisen.",
+        "fasit": "Besøkeren kan bruke mobilbetaling med QR-kode til å betale for måltidet. 高铁 kan brukes til å reise raskt mellom byene.",
+        "kriterier": [
+          "Knytter QR-kode og mobilbetaling til betalingen.",
+          "Knytter 高铁 til reise mellom byer."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev prøver å åpne en vestlig nettside eller app i Kina, men får ikke tilgang. Forklar hvordan sensur og uttrykket «den store brannmuren» henger sammen med situasjonen.",
+        "fasit": "Kina sensurerer internett, og mange vestlige nettsteder og apper er blokkert. «Den store brannmuren» er et navn på denne internettsensuren.",
+        "kriterier": [
+          "Forklarer at blokkeringen skyldes sensur eller begrensninger på internett.",
+          "Forklarer at «den store brannmuren» viser til internettsensur, ikke en fysisk mur."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign Taiwan og Hongkong når det gjelder styre og forhold til Kina. Taiwan har eget demokratisk styre, mens Hongkong var britisk koloni fram til 1997 og har hatt demonstrasjoner for demokratiske rettigheter.",
+        "fasit": "Taiwan har eget demokratisk styre, men Kina regner øya som en del av landet, noe som skaper spenning. Hongkong ble overført fra Storbritannia til Kina i 1997, og der har det vært demonstrasjoner for demokratiske rettigheter.",
+        "kriterier": [
+          "Beskriver Taiwans eget demokratiske styre og at Kina regner Taiwan som en del av landet.",
+          "Beskriver Hongkongs overføring til Kina eller demonstrasjonene for demokratiske rettigheter."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Ettbarnspolitikken er blant årsakene til eldrebølgen i Kina. Forklar hvordan det kan være en sammenheng mellom en politikk som begrenser antall barn og en større andel eldre.",
+        "fasit": "Når færre barn blir født over tid, blir det færre unge sammenlignet med eldre. Dermed kan eldre utgjøre en større andel av befolkningen.",
+        "kriterier": [
+          "Knytter færre fødsler til at det blir færre unge i befolkningen.",
+          "Forklarer at dette bidrar til at eldre utgjør en større andel."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Kina har forurensning av luft og vann, samtidig som landet er verdens største produsent av sol- og vindkraft og elbiler. Forklar hva disse opplysningene viser om miljøsituasjonen i Kina.",
+        "fasit": "Kina har fortsatt store miljøutfordringer med forurensning av luft og vann. Samtidig produserer landet mye sol- og vindkraft og mange elbiler, så miljøutfordringer og utvikling av renere teknologi finnes side om side.",
+        "kriterier": [
+          "Får fram at luft- og vannforurensning fortsatt er en miljøutfordring.",
+          "Får fram at Kina samtidig er en stor produsent av sol- og vindkraft eller elbiler."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Ulikhet i Kina finnes både mellom by og land og mellom kyst og innland. Forklar hvilke to forskjeller denne beskrivelsen viser til.",
+        "fasit": "Den ene forskjellen går mellom mennesker som bor i byer, og mennesker som bor på landsbygda. Den andre går mellom kystområdene og innlandet.",
+        "kriterier": [
+          "Beskriver forskjellen mellom by og landsbygd.",
+          "Beskriver forskjellen mellom kyst og innland."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

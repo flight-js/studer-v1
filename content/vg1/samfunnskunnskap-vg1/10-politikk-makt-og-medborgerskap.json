@@ -4,81 +4,434 @@
   "trinnId": "vg1",
   "name": "Medborgerskap, politiske systemer og makt",
   "intro": "Hva det innebærer å være medborger, hvordan politiske systemer er organisert i Norge, USA, Kina og andre land – parlamentarisme, presidentstyre og autoritære styresett – og hvordan ulike former for makt påvirker enkeltpersoner og samfunn.",
-  "kompetansemaal": [11, 12],
+  "kompetansemaal": [
+    11,
+    12
+  ],
   "sammendrag": "## Medborgerskap\n\nÅ være **medborger** betyr å være et **aktivt** medlem av samfunnet – ikke bare å ha rettigheter, men også å **delta** og ta **ansvar**. Du kan være medborger ved å\n\n- **stemme** ved valg (fra 18 år)\n- engasjere deg i **elevråd**, **ungdomsråd**, **partier** eller **organisasjoner**\n- skrive **leserinnlegg**, delta i **debatter** eller **demonstrasjoner**\n- gjøre **frivillig arbeid**\n- holde deg **informert** og respektere andres rettigheter\n\n## Politiske systemer\n\n**Demokrati** betyr folkestyre. Kjennetegn er **frie valg**, **ytringsfrihet**, **maktfordeling**, **rettsstat** og **vern av minoriteter**.\n\n**Norge – parlamentarisme og konstitusjonelt monarki**\n- **Stortinget** (lovgivende makt) vedtar lover og budsjett.\n- **Regjeringen** (utøvende makt) må ha Stortingets **tillit** – dette er **parlamentarisme**, innført i **1884**.\n- **Domstolene** (dømmende makt) er uavhengige.\n- Kongen har en **symbolsk** rolle.\n\n**USA – presidentstyre**\n- **Presidenten** velges for fire år og leder den utøvende makten.\n- **Kongressen** (Representantenes hus og Senatet) vedtar lover.\n- **Høyesterett** kan oppheve lover som bryter med grunnloven.\n- Et system av **«checks and balances»** skal hindre at noen får for mye makt.\n\n**Autoritære styresett**\n- **Kina**: ettpartistat der **Kinas kommunistiske parti** har all makt. Ingen frie valg, streng sensur og overvåking.\n- **Russland**: formelt valg, men opposisjonen **undertrykkes**, mediene kontrolleres og valgene er ikke frie.\n- **Iran**: **teokrati**, der religiøse ledere har øverste makt.\n\nMange land er et sted **mellom** fullt demokrati og diktatur. Organisasjoner som **Freedom House** og **V-Dem** måler hvor demokratiske land er.\n\n## Hva er makt?\n\nSosiologen **Max Weber** definerte **makt** som evnen til å **få gjennomført sin vilje**, også mot andres motstand. Makt kan være\n\n- **politisk makt** – å vedta lover og styre\n- **økonomisk makt** – å eie og kontrollere ressurser og bedrifter\n- **mediemakt** – å bestemme hva folk får vite og snakker om\n- **ideologisk makt** – å påvirke hva folk mener er normalt og riktig\n- **makt i relasjoner** – i familien, på skolen og blant venner\n\n**Legitim makt** er makt som folk godtar som rettmessig, for eksempel en valgt regjering. **Autoritet** er makt basert på respekt eller posisjon.\n\n## Makt og avmakt\n\nMakt kan brukes til å **løse problemer** og **beskytte** svake, men også **misbrukes**. **Maktmisbruk** kan være korrupsjon, sensur, trakassering eller at store selskaper presser fram fordeler. Noen grupper opplever **avmakt** – at de ikke har innflytelse. **Maktfordeling**, **frie medier**, **åpenhet** og **rettssikkerhet** er viktige for å begrense maktmisbruk.",
   "flashcards": [
-    { "term": "Medborger", "def": "Et aktivt medlem av samfunnet som deltar og tar ansvar." },
-    { "term": "Demokrati", "def": "Folkestyre med frie valg, ytringsfrihet og maktfordeling." },
-    { "term": "Maktfordeling", "def": "Makten deles mellom lovgivende, utøvende og dømmende makt." },
-    { "term": "Parlamentarisme", "def": "Regjeringen må ha Stortingets tillit; innført i Norge i 1884." },
-    { "term": "Konstitusjonelt monarki", "def": "Kongen har en symbolsk rolle innenfor grunnloven." },
-    { "term": "Presidentstyre", "def": "Presidenten velges direkte og leder den utøvende makten, som i USA." },
-    { "term": "Checks and balances", "def": "System i USA der maktene kontrollerer hverandre." },
-    { "term": "Kongressen", "def": "USAs lovgivende forsamling med Representantenes hus og Senatet." },
-    { "term": "Ettpartistat", "def": "Stat der bare ett parti har makt, som Kina." },
-    { "term": "Teokrati", "def": "Styre der religiøse ledere har øverste makt, som i Iran." },
-    { "term": "Max Weber om makt", "def": "Evnen til å få gjennomført sin vilje, også mot andres motstand." },
-    { "term": "Mediemakt", "def": "Makt til å bestemme hva folk får vite og snakker om." },
-    { "term": "Legitim makt", "def": "Makt som folk godtar som rettmessig." },
-    { "term": "Avmakt", "def": "Følelsen av å ikke ha innflytelse." },
-    { "term": "Maktmisbruk", "def": "At makt brukes på urettmessig måte, som korrupsjon eller sensur." }
+    {
+      "term": "Medborger",
+      "def": "Et aktivt medlem av samfunnet som deltar og tar ansvar."
+    },
+    {
+      "term": "Demokrati",
+      "def": "Folkestyre med frie valg, ytringsfrihet og maktfordeling."
+    },
+    {
+      "term": "Maktfordeling",
+      "def": "Makten deles mellom lovgivende, utøvende og dømmende makt."
+    },
+    {
+      "term": "Parlamentarisme",
+      "def": "Regjeringen må ha Stortingets tillit; innført i Norge i 1884."
+    },
+    {
+      "term": "Konstitusjonelt monarki",
+      "def": "Kongen har en symbolsk rolle innenfor grunnloven."
+    },
+    {
+      "term": "Presidentstyre",
+      "def": "Presidenten velges direkte og leder den utøvende makten, som i USA."
+    },
+    {
+      "term": "Checks and balances",
+      "def": "System i USA der maktene kontrollerer hverandre."
+    },
+    {
+      "term": "Kongressen",
+      "def": "USAs lovgivende forsamling med Representantenes hus og Senatet."
+    },
+    {
+      "term": "Ettpartistat",
+      "def": "Stat der bare ett parti har makt, som Kina."
+    },
+    {
+      "term": "Teokrati",
+      "def": "Styre der religiøse ledere har øverste makt, som i Iran."
+    },
+    {
+      "term": "Max Weber om makt",
+      "def": "Evnen til å få gjennomført sin vilje, også mot andres motstand."
+    },
+    {
+      "term": "Mediemakt",
+      "def": "Makt til å bestemme hva folk får vite og snakker om."
+    },
+    {
+      "term": "Legitim makt",
+      "def": "Makt som folk godtar som rettmessig."
+    },
+    {
+      "term": "Avmakt",
+      "def": "Følelsen av å ikke ha innflytelse."
+    },
+    {
+      "term": "Maktmisbruk",
+      "def": "At makt brukes på urettmessig måte, som korrupsjon eller sensur."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr parlamentarisme?", "options": ["At kongen bestemmer", "At regjeringen må ha Stortingets tillit", "At presidenten velges direkte", "At domstolene lager lover"], "correct": 1, "explain": "Parlamentarismen ble innført i Norge i 1884." },
-    { "id": "q02", "text": "Hvem leder den utøvende makten i USA?", "options": ["Presidenten", "Kongressen", "Høyesterett", "Senatet"], "correct": 0, "explain": "Presidenten velges for fire år." },
-    { "id": "q03", "text": "Hva kjennetegner Kina politisk?", "options": ["Flerpartisystem med frie valg", "Konstitusjonelt monarki", "Ettpartistat der kommunistpartiet har all makt", "Presidentstyre som i USA"], "correct": 2, "explain": "Det er streng sensur og overvåking." },
-    { "id": "q04", "text": "Hvordan definerte Max Weber makt?", "options": ["Evnen til å tjene penger", "Evnen til å vinne valg", "Evnen til å skrive lover", "Evnen til å få gjennomført sin vilje, også mot andres motstand"], "correct": 3, "explain": "Definisjonen brukes mye i samfunnsfag." },
-    { "id": "q05", "text": "Hva er et teokrati?", "options": ["Styre der religiøse ledere har øverste makt", "Styre av militæret", "Styre av folket", "Styre av en konge uten makt"], "correct": 0, "explain": "Iran er et eksempel." },
-    { "id": "q06", "text": "Hva er formålet med «checks and balances» i USA?", "options": ["Å gi presidenten all makt", "Å hindre at noen får for mye makt", "Å redusere antall valg", "Å avskaffe domstolene"], "correct": 1, "explain": "Maktene kontrollerer hverandre." },
-    { "id": "q07", "text": "Hva er mediemakt?", "options": ["Makt til å vedta lover", "Makt over militæret", "Makt til å bestemme hva folk får vite og snakker om", "Makt over økonomien"], "correct": 2, "explain": "Mediene kalles ofte den fjerde statsmakt." },
-    { "id": "q08", "text": "Hvilken av disse er en måte å være aktiv medborger på?", "options": ["Å aldri følge med på nyheter", "Å ignorere valg", "Å bare tenke på seg selv", "Å engasjere seg i elevråd eller organisasjoner"], "correct": 3, "explain": "Medborgerskap handler om deltakelse og ansvar." },
-    { "id": "q09", "text": "Hva er legitim makt?", "options": ["Makt som folk godtar som rettmessig", "Makt tatt med vold", "Makt uten ansvar", "Makt over naturen"], "correct": 0, "explain": "En valgt regjering har legitim makt." },
-    { "id": "q10", "text": "Hvilket tiltak begrenser maktmisbruk?", "options": ["Sensur", "Frie medier og åpenhet", "At én person får all makt", "Å avskaffe valg"], "correct": 1, "explain": "Maktfordeling og rettssikkerhet er også viktige." }
+    {
+      "id": "q01",
+      "text": "Hva betyr parlamentarisme?",
+      "options": [
+        "At kongen bestemmer",
+        "At regjeringen må ha Stortingets tillit",
+        "At presidenten velges direkte",
+        "At domstolene lager lover"
+      ],
+      "correct": 1,
+      "explain": "Parlamentarismen ble innført i Norge i 1884."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem leder den utøvende makten i USA?",
+      "options": [
+        "Presidenten",
+        "Kongressen",
+        "Høyesterett",
+        "Senatet"
+      ],
+      "correct": 0,
+      "explain": "Presidenten velges for fire år."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kjennetegner Kina politisk?",
+      "options": [
+        "Flerpartisystem med frie valg",
+        "Konstitusjonelt monarki",
+        "Ettpartistat der kommunistpartiet har all makt",
+        "Presidentstyre som i USA"
+      ],
+      "correct": 2,
+      "explain": "Det er streng sensur og overvåking."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan definerte Max Weber makt?",
+      "options": [
+        "Evnen til å tjene penger",
+        "Evnen til å vinne valg",
+        "Evnen til å skrive lover",
+        "Evnen til å få gjennomført sin vilje, også mot andres motstand"
+      ],
+      "correct": 3,
+      "explain": "Definisjonen brukes mye i samfunnsfag."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er et teokrati?",
+      "options": [
+        "Styre der religiøse ledere har øverste makt",
+        "Styre av militæret",
+        "Styre av folket",
+        "Styre av en konge uten makt"
+      ],
+      "correct": 0,
+      "explain": "Iran er et eksempel."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er formålet med «checks and balances» i USA?",
+      "options": [
+        "Å gi presidenten all makt",
+        "Å hindre at noen får for mye makt",
+        "Å redusere antall valg",
+        "Å avskaffe domstolene"
+      ],
+      "correct": 1,
+      "explain": "Maktene kontrollerer hverandre."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er mediemakt?",
+      "options": [
+        "Makt til å vedta lover",
+        "Makt over militæret",
+        "Makt til å bestemme hva folk får vite og snakker om",
+        "Makt over økonomien"
+      ],
+      "correct": 2,
+      "explain": "Mediene kalles ofte den fjerde statsmakt."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken av disse er en måte å være aktiv medborger på?",
+      "options": [
+        "Å aldri følge med på nyheter",
+        "Å ignorere valg",
+        "Å bare tenke på seg selv",
+        "Å engasjere seg i elevråd eller organisasjoner"
+      ],
+      "correct": 3,
+      "explain": "Medborgerskap handler om deltakelse og ansvar."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er legitim makt?",
+      "options": [
+        "Makt som folk godtar som rettmessig",
+        "Makt tatt med vold",
+        "Makt uten ansvar",
+        "Makt over naturen"
+      ],
+      "correct": 0,
+      "explain": "En valgt regjering har legitim makt."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket tiltak begrenser maktmisbruk?",
+      "options": [
+        "Sensur",
+        "Frie medier og åpenhet",
+        "At én person får all makt",
+        "Å avskaffe valg"
+      ],
+      "correct": 1,
+      "explain": "Maktfordeling og rettssikkerhet er også viktige."
+    }
   ],
   "mindmap": {
     "label": "Politikk og makt",
     "children": [
-      { "label": "Medborgerskap", "children": [
-        { "label": "Stemme" },
-        { "label": "Organisasjoner" },
-        { "label": "Debatt" },
-        { "label": "Frivillighet" }
-      ] },
-      { "label": "Norge", "children": [
-        { "label": "Parlamentarisme" },
-        { "label": "Stortinget" },
-        { "label": "Konstitusjonelt monarki" }
-      ] },
-      { "label": "Andre systemer", "children": [
-        { "label": "USA: presidentstyre" },
-        { "label": "Kina: ettpartistat" },
-        { "label": "Iran: teokrati" }
-      ] },
-      { "label": "Makt", "children": [
-        { "label": "Weber" },
-        { "label": "Politisk og økonomisk" },
-        { "label": "Mediemakt" },
-        { "label": "Ideologisk" }
-      ] },
-      { "label": "Kontroll", "children": [
-        { "label": "Maktfordeling" },
-        { "label": "Frie medier" },
-        { "label": "Rettssikkerhet" }
-      ] }
+      {
+        "label": "Medborgerskap",
+        "children": [
+          {
+            "label": "Stemme"
+          },
+          {
+            "label": "Organisasjoner"
+          },
+          {
+            "label": "Debatt"
+          },
+          {
+            "label": "Frivillighet"
+          }
+        ]
+      },
+      {
+        "label": "Norge",
+        "children": [
+          {
+            "label": "Parlamentarisme"
+          },
+          {
+            "label": "Stortinget"
+          },
+          {
+            "label": "Konstitusjonelt monarki"
+          }
+        ]
+      },
+      {
+        "label": "Andre systemer",
+        "children": [
+          {
+            "label": "USA: presidentstyre"
+          },
+          {
+            "label": "Kina: ettpartistat"
+          },
+          {
+            "label": "Iran: teokrati"
+          }
+        ]
+      },
+      {
+        "label": "Makt",
+        "children": [
+          {
+            "label": "Weber"
+          },
+          {
+            "label": "Politisk og økonomisk"
+          },
+          {
+            "label": "Mediemakt"
+          },
+          {
+            "label": "Ideologisk"
+          }
+        ]
+      },
+      {
+        "label": "Kontroll",
+        "children": [
+          {
+            "label": "Maktfordeling"
+          },
+          {
+            "label": "Frie medier"
+          },
+          {
+            "label": "Rettssikkerhet"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kongen i Norge har i praksis en symbolsk rolle.", "correct": true, "explain": "Norge er et konstitusjonelt monarki." },
-      { "id": "m02", "type": "sant-usant", "text": "Russland har frie og rettferdige valg med en sterk opposisjon.", "correct": false, "explain": "Opposisjonen undertrykkes og valgene er ikke frie." },
-      { "id": "m03", "type": "sant-usant", "text": "Makt finnes også i relasjoner i familien og på skolen.", "correct": true, "explain": "Makt handler ikke bare om politikk." },
-      { "id": "m04", "type": "sant-usant", "text": "I USA kan ikke Høyesterett oppheve lover.", "correct": false, "explain": "Høyesterett kan oppheve lover som bryter med grunnloven." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilke to kamre har Kongressen i USA?", "options": ["Stortinget og Lagtinget", "Representantenes hus og Senatet", "Overhuset og Underhuset", "Rådet og Parlamentet"], "correct": 1, "explain": "Sammen vedtar de lover." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er avmakt?", "options": ["Følelsen av å ikke ha innflytelse", "Mye makt", "En type valg", "Et politisk parti"], "correct": 0, "explain": "Avmakt kan føre til lav deltakelse." },
-      { "id": "m07", "type": "flervalg", "text": "Hva måler organisasjoner som Freedom House og V-Dem?", "options": ["Økonomisk vekst", "Befolkningsvekst", "Hvor demokratiske land er", "Klimautslipp"], "correct": 2, "explain": "Mange land ligger mellom demokrati og diktatur." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kongen i Norge har i praksis en symbolsk rolle.",
+        "correct": true,
+        "explain": "Norge er et konstitusjonelt monarki."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Russland har frie og rettferdige valg med en sterk opposisjon.",
+        "correct": false,
+        "explain": "Opposisjonen undertrykkes og valgene er ikke frie."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Makt finnes også i relasjoner i familien og på skolen.",
+        "correct": true,
+        "explain": "Makt handler ikke bare om politikk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "I USA kan ikke Høyesterett oppheve lover.",
+        "correct": false,
+        "explain": "Høyesterett kan oppheve lover som bryter med grunnloven."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilke to kamre har Kongressen i USA?",
+        "options": [
+          "Stortinget og Lagtinget",
+          "Representantenes hus og Senatet",
+          "Overhuset og Underhuset",
+          "Rådet og Parlamentet"
+        ],
+        "correct": 1,
+        "explain": "Sammen vedtar de lover."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er avmakt?",
+        "options": [
+          "Følelsen av å ikke ha innflytelse",
+          "Mye makt",
+          "En type valg",
+          "Et politisk parti"
+        ],
+        "correct": 0,
+        "explain": "Avmakt kan føre til lav deltakelse."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva måler organisasjoner som Freedom House og V-Dem?",
+        "options": [
+          "Økonomisk vekst",
+          "Befolkningsvekst",
+          "Hvor demokratiske land er",
+          "Klimautslipp"
+        ],
+        "correct": 2,
+        "explain": "Mange land ligger mellom demokrati og diktatur."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva skiller en medborger fra en person som bare har rettigheter i samfunnet?",
+        "fasit": "En medborger deltar aktivt i samfunnet og tar ansvar, i tillegg til å ha rettigheter. Det kan for eksempel være å engasjere seg i elevrådet eller holde seg informert.",
+        "kriterier": [
+          "Får fram at medborgerskap handler om aktiv deltakelse, ikke bare om å ha rettigheter.",
+          "Får fram at medborgere også tar ansvar."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I Norge er makten delt mellom Stortinget, regjeringen og domstolene. Forklar hvilken oppgave hver av dem har.",
+        "fasit": "Stortinget vedtar lover og budsjett, regjeringen styrer og gjennomfører politikken, og domstolene dømmer. Domstolene er uavhengige.",
+        "kriterier": [
+          "Beskriver riktig oppgave for Stortinget og regjeringen.",
+          "Beskriver domstolenes dømmende oppgave og at de er uavhengige."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Kina er en ettpartistat der Kinas kommunistiske parti har all makt. Iran er et teokrati der religiøse ledere har øverste makt. Hva er den viktigste forskjellen mellom hvem som styrer i disse landene?",
+        "fasit": "I Kina ligger makten hos ett politisk parti, mens den i Iran ligger hos religiøse ledere. Forskjellen handler altså om hvilken type ledere som har den øverste makten.",
+        "kriterier": [
+          "Forklarer at Kinas makt ligger hos ett parti.",
+          "Forklarer at Irans øverste makt ligger hos religiøse ledere."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Russland har formelt valg, men opposisjonen undertrykkes, mediene kontrolleres og valgene er ikke frie. Forklar hvorfor det ikke er nok at et land holder valg for at det skal være et demokrati.",
+        "fasit": "Valgene må være frie for at folk skal kunne velge mellom reelle alternativer. Når opposisjonen undertrykkes og mediene kontrolleres, er det ikke nok at landet formelt holder valg.",
+        "kriterier": [
+          "Får fram at demokratiske valg må være frie.",
+          "Knytter undertrykking av opposisjonen eller kontroll av mediene til at valg ikke gir et fullt demokratisk system."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En elev vil påvirke saker som gjelder skolen, og begynner derfor å delta i elevrådet. Forklar hvordan dette kan gjøre eleven til en aktiv medborger.",
+        "fasit": "Ved å delta i elevrådet engasjerer eleven seg i et fellesskap og kan være med på å påvirke saker. Det er en måte å delta aktivt og ta ansvar på.",
+        "kriterier": [
+          "Knytter deltakelse i elevrådet til engasjement eller påvirkning.",
+          "Får fram at aktiv deltakelse og ansvar er sider ved medborgerskap."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En politiker er med på å vedta lover, mens en bedriftseier kontrollerer store ressurser og bedrifter. Hvilken type makt har de hver, og hva er forskjellen?",
+        "fasit": "Politikeren bruker politisk makt ved å være med på å vedta lover. Bedriftseieren har økonomisk makt fordi vedkommende kontrollerer ressurser og bedrifter.",
+        "kriterier": [
+          "Identifiserer politisk makt i eksempelet med politikeren.",
+          "Identifiserer økonomisk makt og knytter den til kontroll over ressurser eller bedrifter."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hva er forskjellen på legitim makt og autoritet?",
+        "fasit": "Legitim makt er makt folk godtar som rettmessig. Autoritet er makt som bygger på respekt eller en bestemt posisjon.",
+        "kriterier": [
+          "Forklarer at legitim makt blir godtatt som rettmessig.",
+          "Forklarer at autoritet bygger på respekt eller posisjon."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En gruppe opplever at den ikke blir hørt, og at de som har makt, ikke forklarer beslutningene sine. Nevn to tiltak som kan begrense maktmisbruk i en slik situasjon, og forklar kort hvordan de kan hjelpe.",
+        "fasit": "Åpenhet kan gjøre beslutninger lettere å undersøke, og frie medier kan informere om hvordan makten brukes. Slike tiltak kan bidra til å begrense maktmisbruk.",
+        "kriterier": [
+          "Nevner to relevante tiltak, som åpenhet, frie medier, maktfordeling eller rettssikkerhet.",
+          "Forklarer hvordan minst ett av tiltakene kan gjøre maktbruk lettere å kontrollere eller begrense."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Myndiggjøring og frigjøring i norsk og samisk historie",
   "intro": "Hvordan arbeidere, kvinner, samer, skeive og mennesker med funksjonsnedsettelser har kjempet for rettigheter og frigjøring i Norge – og hvordan kampene samtidig har utvidet og fordypet demokratiet.",
-  "kompetansemaal": [15],
+  "kompetansemaal": [
+    15
+  ],
   "sammendrag": "## Myndiggjøring\n\n**Myndiggjøring** betyr at mennesker får **makt** over sitt eget liv og mulighet til å **påvirke** samfunnet. **Frigjøring** handler om å bli fri fra **undertrykkelse** og **diskriminering**. I norsk historie har mange grupper kjempet for dette – og kampene har gjort **demokratiet** bredere.\n\n## Arbeiderbevegelsen\n\n- **Thrane-bevegelsen** (1848–51): **Marcus Thrane** organiserte arbeidere og husmenn og krevde **allmenn stemmerett**. Bevegelsen ble slått ned, og Thrane ble fengslet.\n- **Det norske Arbeiderparti** ble stiftet i **1887**, og **LO** i **1899**.\n- Arbeiderbevegelsen kjempet for **8-timersdag**, som ble lovfestet i **1919**, bedre **arbeidsforhold** og **velferd**.\n\n## Demokratiets gjennombrudd\n\n- **Parlamentarismen** ble innført i **1884**: Regjeringen må ha **Stortingets tillit**.\n- **Allmenn stemmerett for menn** kom i **1898**.\n\n## Kvinnebevegelsen\n\n- **Norsk Kvinnesaksforening** ble stiftet i **1884**, og **Gina Krog** var en av lederne i kampen for stemmerett.\n- Kvinner fikk **allmenn stemmerett** ved stortingsvalg i **1913**.\n- På **1970-tallet** kom en **ny kvinnebevegelse**. **Likestillingsloven** og loven om **selvbestemt abort** kom i **1978**.\n- **Gro Harlem Brundtland** ble Norges første kvinnelige **statsminister** i **1981**, og i **1986** dannet hun en regjering der nesten halvparten var kvinner.\n\n## Samisk frigjøring\n\nSamene ble lenge utsatt for **fornorsking**, men organiserte seg for å kjempe for språk, kultur og rettigheter.\n\n- **Elsa Laula Renberg** tok initiativ til det første samiske **landsmøtet** i **Trondheim** i **1917**. Datoen 6. februar er i dag **samefolkets dag**.\n- **Alta-saken** (1979–1981): Protester mot utbyggingen av Alta-vassdraget, med sultestreik utenfor Stortinget, satte **samiske rettigheter** på dagsordenen. Kraftverket ble bygd, men saken ble et **vendepunkt**.\n- Grunnloven fikk en egen **sameparagraf** i **1988**.\n- **Sametinget** ble opprettet i **1989**.\n- Norge ble i **1990** det første landet som ratifiserte **ILO-konvensjonen om urfolks rettigheter**.\n\n## Skeive rettigheter\n\n- Sex mellom menn ble **avkriminalisert** i **1972**.\n- I **1981** fikk homofile vern mot **diskriminering** i straffeloven.\n- **Partnerskapsloven** kom i **1993**, og den **felles ekteskapsloven** i **2009**.\n\n## Mennesker med funksjonsnedsettelser\n\nLenge bodde mange med utviklingshemming på store **institusjoner**. Med **ansvarsreformen** tidlig på **1990-tallet** ble institusjonene lagt ned, og ansvaret gikk over til **kommunene**. Kampen for **universell utforming** og **like muligheter** fortsetter.\n\n## Bidrag til demokratiet\n\nFrigjøringskampene har\n\n- gitt **flere** mennesker stemmerett og politisk **innflytelse**\n- skapt **organisasjoner** og **partier** som gir folk en **stemme**\n- ført til **lover** som verner mot diskriminering\n- gjort **menneskerettigheter** til en del av norsk rett\n\n## Refleksjon\n\nMange av rettighetene vi tar for gitt i dag, var **omstridt** og måtte **kjempes** fram. Historien viser at demokratiet ikke er ferdig – det **utvikles** når nye grupper krever å bli **hørt**.",
   "flashcards": [
-    { "term": "Myndiggjøring", "def": "At mennesker får makt over eget liv og kan påvirke samfunnet." },
-    { "term": "Thrane-bevegelsen", "def": "Arbeiderbevegelse 1848–51 ledet av Marcus Thrane." },
-    { "term": "LO", "def": "Landsorganisasjonen, stiftet i 1899." },
-    { "term": "8-timersdagen", "def": "Lovfestet i 1919." },
-    { "term": "Parlamentarismen", "def": "Regjeringen må ha Stortingets tillit – innført i 1884." },
-    { "term": "Norsk Kvinnesaksforening", "def": "Stiftet i 1884, kjempet for kvinners rettigheter." },
-    { "term": "Gina Krog", "def": "Leder i kampen for kvinners stemmerett." },
-    { "term": "Likestillingsloven", "def": "Lov fra 1978 mot kjønnsdiskriminering." },
-    { "term": "Gro Harlem Brundtland", "def": "Norges første kvinnelige statsminister, 1981." },
-    { "term": "Samefolkets dag", "def": "6. februar – til minne om landsmøtet i 1917." },
-    { "term": "Alta-saken", "def": "Protestene 1979–81 som satte samiske rettigheter på dagsordenen." },
-    { "term": "Sametinget", "def": "Samenes folkevalgte organ, opprettet i 1989." },
-    { "term": "ILO-konvensjonen om urfolk", "def": "Norge ratifiserte den som første land i 1990." },
-    { "term": "Partnerskapsloven", "def": "Lov fra 1993 som ga likekjønnede par rett til registrert partnerskap." },
-    { "term": "Ansvarsreformen", "def": "Reform tidlig på 1990-tallet som la ned institusjoner for utviklingshemmede." }
+    {
+      "term": "Myndiggjøring",
+      "def": "At mennesker får makt over eget liv og kan påvirke samfunnet."
+    },
+    {
+      "term": "Thrane-bevegelsen",
+      "def": "Arbeiderbevegelse 1848–51 ledet av Marcus Thrane."
+    },
+    {
+      "term": "LO",
+      "def": "Landsorganisasjonen, stiftet i 1899."
+    },
+    {
+      "term": "8-timersdagen",
+      "def": "Lovfestet i 1919."
+    },
+    {
+      "term": "Parlamentarismen",
+      "def": "Regjeringen må ha Stortingets tillit – innført i 1884."
+    },
+    {
+      "term": "Norsk Kvinnesaksforening",
+      "def": "Stiftet i 1884, kjempet for kvinners rettigheter."
+    },
+    {
+      "term": "Gina Krog",
+      "def": "Leder i kampen for kvinners stemmerett."
+    },
+    {
+      "term": "Likestillingsloven",
+      "def": "Lov fra 1978 mot kjønnsdiskriminering."
+    },
+    {
+      "term": "Gro Harlem Brundtland",
+      "def": "Norges første kvinnelige statsminister, 1981."
+    },
+    {
+      "term": "Samefolkets dag",
+      "def": "6. februar – til minne om landsmøtet i 1917."
+    },
+    {
+      "term": "Alta-saken",
+      "def": "Protestene 1979–81 som satte samiske rettigheter på dagsordenen."
+    },
+    {
+      "term": "Sametinget",
+      "def": "Samenes folkevalgte organ, opprettet i 1989."
+    },
+    {
+      "term": "ILO-konvensjonen om urfolk",
+      "def": "Norge ratifiserte den som første land i 1990."
+    },
+    {
+      "term": "Partnerskapsloven",
+      "def": "Lov fra 1993 som ga likekjønnede par rett til registrert partnerskap."
+    },
+    {
+      "term": "Ansvarsreformen",
+      "def": "Reform tidlig på 1990-tallet som la ned institusjoner for utviklingshemmede."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva krevde Thrane-bevegelsen?", "options": ["Kongens makt", "Allmenn stemmerett og bedre kår for arbeidere og husmenn", "Samisk selvstyre", "Union med Sverige"], "correct": 1, "explain": "Marcus Thrane ble fengslet." },
-    { "id": "q02", "text": "Når ble parlamentarismen innført i Norge?", "options": ["1884", "1814", "1905", "1913"], "correct": 0, "explain": "Regjeringen må ha Stortingets tillit." },
-    { "id": "q03", "text": "Når fikk kvinner allmenn stemmerett ved stortingsvalg?", "options": ["1898", "1884", "1913", "1978"], "correct": 2, "explain": "Menn fikk det i 1898." },
-    { "id": "q04", "text": "Hva satte Alta-saken på dagsordenen?", "options": ["Kvinners stemmerett", "Arbeidstiden", "Homofiles rettigheter", "Samiske rettigheter"], "correct": 3, "explain": "Et vendepunkt, selv om kraftverket ble bygd." },
-    { "id": "q05", "text": "Når ble Sametinget opprettet?", "options": ["1989", "1917", "1968", "2005"], "correct": 0, "explain": "Samenes folkevalgte organ." },
-    { "id": "q06", "text": "Hva skjedde i 1972?", "options": ["Kvinner fikk stemmerett", "Sex mellom menn ble avkriminalisert", "Sametinget ble opprettet", "LO ble stiftet"], "correct": 1, "explain": "Senere kom vern mot diskriminering og ekteskapslov." },
-    { "id": "q07", "text": "Hvem tok initiativ til det første samiske landsmøtet i 1917?", "options": ["Gina Krog", "Marcus Thrane", "Elsa Laula Renberg", "Gro Harlem Brundtland"], "correct": 2, "explain": "6. februar er samefolkets dag." },
-    { "id": "q08", "text": "Hva gjorde ansvarsreformen tidlig på 1990-tallet?", "options": ["Innførte stemmerett for kvinner", "Opprettet Sametinget", "Innførte 8-timersdagen", "La ned institusjoner og ga kommunene ansvaret for utviklingshemmede"], "correct": 3, "explain": "Flere fikk bo i egne hjem." },
-    { "id": "q09", "text": "Hvordan har frigjøringskampene bidratt til demokratiet?", "options": ["Ved å gi flere stemmerett, innflytelse og vern mot diskriminering", "Ved å fjerne valg", "Ved å gi kongen mer makt", "De har ikke bidratt"], "correct": 0, "explain": "Demokratiet er blitt bredere." },
-    { "id": "q10", "text": "Når kom den felles ekteskapsloven?", "options": ["1993", "2009", "1981", "1972"], "correct": 1, "explain": "Gir likekjønnede par rett til å gifte seg." }
+    {
+      "id": "q01",
+      "text": "Hva krevde Thrane-bevegelsen?",
+      "options": [
+        "Kongens makt",
+        "Allmenn stemmerett og bedre kår for arbeidere og husmenn",
+        "Samisk selvstyre",
+        "Union med Sverige"
+      ],
+      "correct": 1,
+      "explain": "Marcus Thrane ble fengslet."
+    },
+    {
+      "id": "q02",
+      "text": "Når ble parlamentarismen innført i Norge?",
+      "options": [
+        "1884",
+        "1814",
+        "1905",
+        "1913"
+      ],
+      "correct": 0,
+      "explain": "Regjeringen må ha Stortingets tillit."
+    },
+    {
+      "id": "q03",
+      "text": "Når fikk kvinner allmenn stemmerett ved stortingsvalg?",
+      "options": [
+        "1898",
+        "1884",
+        "1913",
+        "1978"
+      ],
+      "correct": 2,
+      "explain": "Menn fikk det i 1898."
+    },
+    {
+      "id": "q04",
+      "text": "Hva satte Alta-saken på dagsordenen?",
+      "options": [
+        "Kvinners stemmerett",
+        "Arbeidstiden",
+        "Homofiles rettigheter",
+        "Samiske rettigheter"
+      ],
+      "correct": 3,
+      "explain": "Et vendepunkt, selv om kraftverket ble bygd."
+    },
+    {
+      "id": "q05",
+      "text": "Når ble Sametinget opprettet?",
+      "options": [
+        "1989",
+        "1917",
+        "1968",
+        "2005"
+      ],
+      "correct": 0,
+      "explain": "Samenes folkevalgte organ."
+    },
+    {
+      "id": "q06",
+      "text": "Hva skjedde i 1972?",
+      "options": [
+        "Kvinner fikk stemmerett",
+        "Sex mellom menn ble avkriminalisert",
+        "Sametinget ble opprettet",
+        "LO ble stiftet"
+      ],
+      "correct": 1,
+      "explain": "Senere kom vern mot diskriminering og ekteskapslov."
+    },
+    {
+      "id": "q07",
+      "text": "Hvem tok initiativ til det første samiske landsmøtet i 1917?",
+      "options": [
+        "Gina Krog",
+        "Marcus Thrane",
+        "Elsa Laula Renberg",
+        "Gro Harlem Brundtland"
+      ],
+      "correct": 2,
+      "explain": "6. februar er samefolkets dag."
+    },
+    {
+      "id": "q08",
+      "text": "Hva gjorde ansvarsreformen tidlig på 1990-tallet?",
+      "options": [
+        "Innførte stemmerett for kvinner",
+        "Opprettet Sametinget",
+        "Innførte 8-timersdagen",
+        "La ned institusjoner og ga kommunene ansvaret for utviklingshemmede"
+      ],
+      "correct": 3,
+      "explain": "Flere fikk bo i egne hjem."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan har frigjøringskampene bidratt til demokratiet?",
+      "options": [
+        "Ved å gi flere stemmerett, innflytelse og vern mot diskriminering",
+        "Ved å fjerne valg",
+        "Ved å gi kongen mer makt",
+        "De har ikke bidratt"
+      ],
+      "correct": 0,
+      "explain": "Demokratiet er blitt bredere."
+    },
+    {
+      "id": "q10",
+      "text": "Når kom den felles ekteskapsloven?",
+      "options": [
+        "1993",
+        "2009",
+        "1981",
+        "1972"
+      ],
+      "correct": 1,
+      "explain": "Gir likekjønnede par rett til å gifte seg."
+    }
   ],
   "mindmap": {
     "label": "Myndiggjøring og frigjøring",
     "children": [
-      { "label": "Arbeidere", "children": [
-        { "label": "Thrane 1848" },
-        { "label": "Ap og LO" },
-        { "label": "8-timersdag 1919" }
-      ] },
-      { "label": "Demokrati", "children": [
-        { "label": "Parlamentarisme 1884" },
-        { "label": "Stemmerett 1898 og 1913" }
-      ] },
-      { "label": "Kvinner", "children": [
-        { "label": "Kvinnesaksforeningen" },
-        { "label": "Likestillingsloven 1978" },
-        { "label": "Brundtland 1981" }
-      ] },
-      { "label": "Samer", "children": [
-        { "label": "Landsmøtet 1917" },
-        { "label": "Alta-saken" },
-        { "label": "Sametinget 1989" }
-      ] },
-      { "label": "Andre grupper", "children": [
-        { "label": "Skeive rettigheter" },
-        { "label": "Funksjonsnedsettelser" }
-      ] }
+      {
+        "label": "Arbeidere",
+        "children": [
+          {
+            "label": "Thrane 1848"
+          },
+          {
+            "label": "Ap og LO"
+          },
+          {
+            "label": "8-timersdag 1919"
+          }
+        ]
+      },
+      {
+        "label": "Demokrati",
+        "children": [
+          {
+            "label": "Parlamentarisme 1884"
+          },
+          {
+            "label": "Stemmerett 1898 og 1913"
+          }
+        ]
+      },
+      {
+        "label": "Kvinner",
+        "children": [
+          {
+            "label": "Kvinnesaksforeningen"
+          },
+          {
+            "label": "Likestillingsloven 1978"
+          },
+          {
+            "label": "Brundtland 1981"
+          }
+        ]
+      },
+      {
+        "label": "Samer",
+        "children": [
+          {
+            "label": "Landsmøtet 1917"
+          },
+          {
+            "label": "Alta-saken"
+          },
+          {
+            "label": "Sametinget 1989"
+          }
+        ]
+      },
+      {
+        "label": "Andre grupper",
+        "children": [
+          {
+            "label": "Skeive rettigheter"
+          },
+          {
+            "label": "Funksjonsnedsettelser"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Grunnloven fikk en egen sameparagraf i 1988.", "correct": true, "explain": "Staten skal legge forholdene til rette for samisk språk, kultur og samfunnsliv." },
-      { "id": "m02", "type": "sant-usant", "text": "Thrane-bevegelsen fikk gjennomslag for allmenn stemmerett i 1851.", "correct": false, "explain": "Bevegelsen ble slått ned." },
-      { "id": "m03", "type": "sant-usant", "text": "Loven om selvbestemt abort kom i 1978.", "correct": true, "explain": "Samme år som likestillingsloven." },
-      { "id": "m04", "type": "sant-usant", "text": "Demokratiet er ferdig utviklet og endrer seg ikke.", "correct": false, "explain": "Det utvikles når nye grupper krever å bli hørt." },
-      { "id": "m05", "type": "flervalg", "text": "Når ble Det norske Arbeiderparti stiftet?", "options": ["1848", "1887", "1899", "1919"], "correct": 1, "explain": "LO kom i 1899." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket land ratifiserte først ILO-konvensjonen om urfolks rettigheter?", "options": ["Norge", "Sverige", "Finland", "Danmark"], "correct": 0, "explain": "I 1990." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kjennetegnet regjeringen Brundtland dannet i 1986?", "options": ["Bare menn", "Bare samer", "Nesten halvparten var kvinner", "Den hadde ingen statsråder"], "correct": 2, "explain": "Kalt «kvinneregjeringen»." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Grunnloven fikk en egen sameparagraf i 1988.",
+        "correct": true,
+        "explain": "Staten skal legge forholdene til rette for samisk språk, kultur og samfunnsliv."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Thrane-bevegelsen fikk gjennomslag for allmenn stemmerett i 1851.",
+        "correct": false,
+        "explain": "Bevegelsen ble slått ned."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Loven om selvbestemt abort kom i 1978.",
+        "correct": true,
+        "explain": "Samme år som likestillingsloven."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Demokratiet er ferdig utviklet og endrer seg ikke.",
+        "correct": false,
+        "explain": "Det utvikles når nye grupper krever å bli hørt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Når ble Det norske Arbeiderparti stiftet?",
+        "options": [
+          "1848",
+          "1887",
+          "1899",
+          "1919"
+        ],
+        "correct": 1,
+        "explain": "LO kom i 1899."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket land ratifiserte først ILO-konvensjonen om urfolks rettigheter?",
+        "options": [
+          "Norge",
+          "Sverige",
+          "Finland",
+          "Danmark"
+        ],
+        "correct": 0,
+        "explain": "I 1990."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kjennetegnet regjeringen Brundtland dannet i 1986?",
+        "options": [
+          "Bare menn",
+          "Bare samer",
+          "Nesten halvparten var kvinner",
+          "Den hadde ingen statsråder"
+        ],
+        "correct": 2,
+        "explain": "Kalt «kvinneregjeringen»."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar med egne ord hva myndiggjøring betyr, og hvordan det skiller seg fra frigjøring.",
+        "fasit": "Myndiggjøring betyr at mennesker får makt over eget liv og mulighet til å påvirke samfunnet. Frigjøring handler om å bli fri fra undertrykkelse og diskriminering.",
+        "kriterier": [
+          "Forklarer at myndiggjøring handler om makt over eget liv og innflytelse.",
+          "Forklarer at frigjøring handler om å bli fri fra undertrykkelse eller diskriminering."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Arbeiderpartiet ble stiftet i 1887 og LO i 1899. Forklar hvordan slike organisasjoner kunne hjelpe arbeidere med å få større innflytelse.",
+        "fasit": "Når arbeidere organiserte seg i partier og organisasjoner, kunne de stå sammen om krav og få en tydeligere stemme i samfunnet. Organisering kunne dermed bidra til politisk innflytelse og bedre rettigheter.",
+        "kriterier": [
+          "Forklarer at organisering samler arbeidere om felles krav eller interesser.",
+          "Knytter organisering til større innflytelse eller en sterkere stemme i samfunnet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Parlamentarismen ble innført i Norge i 1884. Forklar hvordan regelen om at regjeringen må ha Stortingets tillit påvirker forholdet mellom regjeringen og de folkevalgte.",
+        "fasit": "Regjeringen er avhengig av at Stortinget har tillit til den. Det gir Stortinget innflytelse over regjeringen og knytter regjeringens makt til de folkevalgte.",
+        "kriterier": [
+          "Forklarer at regjeringen må ha støtte eller tillit fra Stortinget.",
+          "Viser at dette gir Stortinget innflytelse over regjeringen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Allmenn stemmerett for menn kom i 1898, og kvinner fikk allmenn stemmerett ved stortingsvalg i 1913. Sammenlign hva disse endringene betydde for hvem som kunne delta i valg, og forklar hvordan de gjorde demokratiet bredere.",
+        "fasit": "Først fikk menn allmenn stemmerett, og senere fikk også kvinner denne retten ved stortingsvalg. Dermed kunne flere grupper delta politisk gjennom valg, og demokratiet ble bredere.",
+        "kriterier": [
+          "Får fram at menn fikk allmenn stemmerett før kvinner.",
+          "Forklarer at kvinners stemmerett utvidet hvem som kunne delta i valg og dermed gjorde demokratiet bredere."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I Alta-saken protesterte samer mot utbyggingen av Alta-vassdraget, og kraftverket ble likevel bygd. Forklar hvorfor saken likevel ble et vendepunkt.",
+        "fasit": "Protestene, blant annet sultestreiken utenfor Stortinget, satte samiske rettigheter på dagsordenen. Derfor ble saken et vendepunkt selv om kraftverket ble bygd.",
+        "kriterier": [
+          "Knytter protestene til at samiske rettigheter fikk større oppmerksomhet eller kom på dagsordenen.",
+          "Får fram at saken ble et vendepunkt selv om utbyggingen ble gjennomført."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sametinget ble opprettet i 1989, og Norge ratifiserte ILO-konvensjonen om urfolks rettigheter i 1990. Forklar hvordan disse to tiltakene på ulike måter kunne styrke samenes rettigheter.",
+        "fasit": "Sametinget ga samene et folkevalgt organ. ILO-konvensjonen var et internasjonalt vern for urfolks rettigheter som Norge sluttet seg til ved å ratifisere den.",
+        "kriterier": [
+          "Forklarer at Sametinget gir samene et folkevalgt organ eller en politisk stemme.",
+          "Forklarer at ratifiseringen innebar at Norge sluttet seg til en konvensjon om urfolks rettigheter."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Beskriv hvordan rettighetene til homofile ble utvidet fra 1972 til 1993. Ta med minst to ulike typer rettighetsendringer.",
+        "fasit": "Sex mellom menn ble avkriminalisert i 1972, og homofile fikk vern mot diskriminering i 1981. Partnerskapsloven i 1993 ga likekjønnede par rett til registrert partnerskap.",
+        "kriterier": [
+          "Nevner at sex mellom menn ble avkriminalisert eller at homofile fikk vern mot diskriminering.",
+          "Nevner at partnerskapsloven ga likekjønnede par rett til registrert partnerskap."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En kommune planlegger et offentlig bygg med trapper ved inngangen og uten en alternativ inngang. Bruk begrepene universell utforming og like muligheter til å forklare hvorfor dette kan hindre personer med funksjonsnedsettelser i å delta på lik linje med andre.",
+        "fasit": "Når inngangen bare har trapper, kan noen personer med funksjonsnedsettelser få problemer med å komme inn. Universell utforming handler om å utforme omgivelsene slik at flere kan bruke dem, og det støtter like muligheter til å delta.",
+        "kriterier": [
+          "Forklarer at manglende alternativ til trappene kan stenge noen ute eller begrense deltakelsen deres.",
+          "Knytter universell utforming til at flere skal kunne bruke bygget og delta på like vilkår."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

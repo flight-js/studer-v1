@@ -4,80 +4,431 @@
   "trinnId": "vg2",
   "name": "Anatomi, fysiologi og livsprosesser",
   "intro": "Sammenhengen mellom oppbygning og funksjon hos planter og dyr: celleånding og fotosyntese, gassutveksling, transport og fordøyelse – og hvorfor store overflater er så viktige.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Oppbygning og funksjon\n\n**Anatomi** handler om hvordan organismer er **bygd opp**, mens **fysiologi** handler om hvordan de **fungerer**. De henger tett sammen: Formen på et organ er tilpasset oppgaven det skal gjøre.\n\nAlle organismer må gjennomføre de samme **livsprosessene**: skaffe **energi** og **byggesteiner**, **utveksle gasser**, **transportere** stoffer, skille ut **avfall**, **reagere** på omgivelsene, **vokse** og **formere seg**.\n\n## Energi: celleånding og fotosyntese\n\n**Fotosyntesen** i kloroplastene hos planter og alger bygger opp glukose ved hjelp av lysenergi:\n\n6 CO₂ + 6 H₂O + lysenergi → C₆H₁₂O₆ + 6 O₂\n\n**Celleåndingen** i mitokondriene hos nesten alle eukaryoter bryter ned glukose og lagrer energien i **ATP**:\n\nC₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + energi\n\nLegg merke til at planter har **både** fotosyntese og celleånding.\n\n## Overflate og volum\n\nStoffer må inn og ut gjennom **overflater**. Når en organisme blir større, øker volumet **raskere** enn overflaten. Derfor har store organismer utviklet **store indre overflater**:\n\n- **Lungeblærer** (alveoler) i lungene gir en samlet overflate på flere titalls kvadratmeter.\n- **Tarmtotter** og mikrovilli i tynntarmen øker opptaksflaten.\n- **Gjellelameller** hos fisk og **rothår** hos planter gjør det samme.\n\n## Gassutveksling\n\nGasser går inn og ut ved **diffusjon** – fra høy til lav konsentrasjon. Ulike grupper løser dette ulikt:\n\n- **Pattedyr** puster med **lunger**.\n- **Fisk** har **gjeller**, der blod og vann strømmer i **motsatt retning** (motstrømsprinsippet), slik at mest mulig oksygen tas opp.\n- **Insekter** har **trakéer** – rør som leder luft direkte inn til cellene.\n- **Planter** har **spalteåpninger** på bladene som kan åpnes og lukkes.\n\n## Transport\n\n- Mennesket har et **lukket blodkretsløp** der hjertet pumper blodet gjennom **arterier**, **kapillærer** og **vener**. Pattedyr og fugler har et **dobbelt** kretsløp: ett gjennom lungene og ett gjennom kroppen.\n- Mange insekter har et **åpent** kretsløp der væsken skvulper fritt rundt organene.\n- Planter har **ledningsvev**: **Vedvev** (xylem) frakter vann og mineraler opp fra røttene, og **silvev** (floem) frakter sukker fra bladene til resten av planten.\n\n## Fordøyelse\n\nI **fordøyelseskanalen** blir store næringsmolekyler brutt ned av **enzymer** til små molekyler som kan tas opp: **Karbohydrater** blir til enkle sukkerarter, **proteiner** til aminosyrer og **fett** til fettsyrer og glyserol. Opptaket skjer hovedsakelig i **tynntarmen**. **Planteetere** har ofte lange tarmer og hjelp fra **mikroorganismer** til å bryte ned cellulose, mens **rovdyr** har kortere tarmer.",
   "flashcards": [
-    { "term": "Anatomi", "def": "Hvordan organismer er bygd opp." },
-    { "term": "Fysiologi", "def": "Hvordan organismer fungerer." },
-    { "term": "Fotosyntese", "def": "6 CO₂ + 6 H₂O + lys → C₆H₁₂O₆ + 6 O₂, i kloroplastene." },
-    { "term": "Celleånding", "def": "Glukose + oksygen → CO₂ + vann + energi (ATP), i mitokondriene." },
-    { "term": "ATP", "def": "Cellenes energibærer." },
-    { "term": "Overflate–volum-forhold", "def": "Volumet vokser raskere enn overflaten når organismen blir større." },
-    { "term": "Lungeblærer (alveoler)", "def": "Små blærer i lungene som gir stor overflate for gassutveksling." },
-    { "term": "Tarmtotter", "def": "Utposninger i tynntarmen som øker opptaksflaten." },
-    { "term": "Motstrømsprinsippet", "def": "Blod og vann strømmer motsatt vei i gjellene." },
-    { "term": "Trakéer", "def": "Luftrør som leder luft direkte til cellene hos insekter." },
-    { "term": "Spalteåpninger", "def": "Åpninger i bladene for gassutveksling." },
-    { "term": "Lukket blodkretsløp", "def": "Blodet holdes inne i blodårer." },
-    { "term": "Dobbelt kretsløp", "def": "Ett kretsløp gjennom lungene og ett gjennom kroppen." },
-    { "term": "Vedvev (xylem)", "def": "Frakter vann og mineraler opp fra røttene." },
-    { "term": "Silvev (floem)", "def": "Frakter sukker fra bladene til resten av planten." },
-    { "term": "Diffusjon", "def": "Stoffer beveger seg fra høy til lav konsentrasjon." }
+    {
+      "term": "Anatomi",
+      "def": "Hvordan organismer er bygd opp."
+    },
+    {
+      "term": "Fysiologi",
+      "def": "Hvordan organismer fungerer."
+    },
+    {
+      "term": "Fotosyntese",
+      "def": "6 CO₂ + 6 H₂O + lys → C₆H₁₂O₆ + 6 O₂, i kloroplastene."
+    },
+    {
+      "term": "Celleånding",
+      "def": "Glukose + oksygen → CO₂ + vann + energi (ATP), i mitokondriene."
+    },
+    {
+      "term": "ATP",
+      "def": "Cellenes energibærer."
+    },
+    {
+      "term": "Overflate–volum-forhold",
+      "def": "Volumet vokser raskere enn overflaten når organismen blir større."
+    },
+    {
+      "term": "Lungeblærer (alveoler)",
+      "def": "Små blærer i lungene som gir stor overflate for gassutveksling."
+    },
+    {
+      "term": "Tarmtotter",
+      "def": "Utposninger i tynntarmen som øker opptaksflaten."
+    },
+    {
+      "term": "Motstrømsprinsippet",
+      "def": "Blod og vann strømmer motsatt vei i gjellene."
+    },
+    {
+      "term": "Trakéer",
+      "def": "Luftrør som leder luft direkte til cellene hos insekter."
+    },
+    {
+      "term": "Spalteåpninger",
+      "def": "Åpninger i bladene for gassutveksling."
+    },
+    {
+      "term": "Lukket blodkretsløp",
+      "def": "Blodet holdes inne i blodårer."
+    },
+    {
+      "term": "Dobbelt kretsløp",
+      "def": "Ett kretsløp gjennom lungene og ett gjennom kroppen."
+    },
+    {
+      "term": "Vedvev (xylem)",
+      "def": "Frakter vann og mineraler opp fra røttene."
+    },
+    {
+      "term": "Silvev (floem)",
+      "def": "Frakter sukker fra bladene til resten av planten."
+    },
+    {
+      "term": "Diffusjon",
+      "def": "Stoffer beveger seg fra høy til lav konsentrasjon."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er forskjellen på anatomi og fysiologi?", "options": ["Det er det samme", "Anatomi er oppbygning, fysiologi er funksjon", "Anatomi gjelder planter, fysiologi dyr", "Fysiologi er oppbygning, anatomi er funksjon"], "correct": 1, "explain": "De henger tett sammen." },
-    { "id": "q02", "text": "Hvor foregår celleåndingen?", "options": ["I mitokondriene", "I kloroplastene", "I cellekjernen", "I celleveggen"], "correct": 0, "explain": "Energien lagres i ATP." },
-    { "id": "q03", "text": "Hvorfor har store organismer store indre overflater?", "options": ["For å bli tyngre", "For å se større ut", "Fordi volumet vokser raskere enn overflaten", "Fordi de har færre celler"], "correct": 2, "explain": "Stoffutvekslingen må skje gjennom overflater." },
-    { "id": "q04", "text": "Hva gjør vedvevet (xylem) i planter?", "options": ["Frakter sukker nedover", "Lager fotosyntese", "Lukker spalteåpningene", "Frakter vann og mineraler opp fra røttene"], "correct": 3, "explain": "Silvevet frakter sukker." },
-    { "id": "q05", "text": "Hva er motstrømsprinsippet i gjellene?", "options": ["Blod og vann strømmer i motsatt retning", "Vann strømmer inn og ut samme vei", "Blodet står stille", "Fisken svømmer baklengs"], "correct": 0, "explain": "Det gir effektivt oksygenopptak." },
-    { "id": "q06", "text": "Hvordan får insekter oksygen til cellene?", "options": ["Med lunger", "Gjennom trakéer", "Med gjeller", "Gjennom blodet i et lukket kretsløp"], "correct": 1, "explain": "Rør leder luft direkte inn." },
-    { "id": "q07", "text": "Hvor tas det meste av næringen opp hos mennesket?", "options": ["I magesekken", "I tykktarmen", "I tynntarmen", "I spiserøret"], "correct": 2, "explain": "Tarmtottene gir stor overflate." },
-    { "id": "q08", "text": "Hva er et dobbelt blodkretsløp?", "options": ["To hjerter", "Blod som går begge veier i samme åre", "Et åpent og et lukket kretsløp", "Ett kretsløp gjennom lungene og ett gjennom kroppen"], "correct": 3, "explain": "Pattedyr og fugler har det." },
-    { "id": "q09", "text": "Har planter celleånding?", "options": ["Ja, i tillegg til fotosyntese", "Nei, bare fotosyntese", "Bare om natten", "Bare i røttene"], "correct": 0, "explain": "Alle levende planteceller trenger ATP." },
-    { "id": "q10", "text": "Hva blir proteiner brutt ned til i fordøyelsen?", "options": ["Glukose", "Aminosyrer", "Fettsyrer", "Nukleotider"], "correct": 1, "explain": "Enzymer bryter ned proteinene." }
+    {
+      "id": "q01",
+      "text": "Hva er forskjellen på anatomi og fysiologi?",
+      "options": [
+        "Det er det samme",
+        "Anatomi er oppbygning, fysiologi er funksjon",
+        "Anatomi gjelder planter, fysiologi dyr",
+        "Fysiologi er oppbygning, anatomi er funksjon"
+      ],
+      "correct": 1,
+      "explain": "De henger tett sammen."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor foregår celleåndingen?",
+      "options": [
+        "I mitokondriene",
+        "I kloroplastene",
+        "I cellekjernen",
+        "I celleveggen"
+      ],
+      "correct": 0,
+      "explain": "Energien lagres i ATP."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor har store organismer store indre overflater?",
+      "options": [
+        "For å bli tyngre",
+        "For å se større ut",
+        "Fordi volumet vokser raskere enn overflaten",
+        "Fordi de har færre celler"
+      ],
+      "correct": 2,
+      "explain": "Stoffutvekslingen må skje gjennom overflater."
+    },
+    {
+      "id": "q04",
+      "text": "Hva gjør vedvevet (xylem) i planter?",
+      "options": [
+        "Frakter sukker nedover",
+        "Lager fotosyntese",
+        "Lukker spalteåpningene",
+        "Frakter vann og mineraler opp fra røttene"
+      ],
+      "correct": 3,
+      "explain": "Silvevet frakter sukker."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er motstrømsprinsippet i gjellene?",
+      "options": [
+        "Blod og vann strømmer i motsatt retning",
+        "Vann strømmer inn og ut samme vei",
+        "Blodet står stille",
+        "Fisken svømmer baklengs"
+      ],
+      "correct": 0,
+      "explain": "Det gir effektivt oksygenopptak."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan får insekter oksygen til cellene?",
+      "options": [
+        "Med lunger",
+        "Gjennom trakéer",
+        "Med gjeller",
+        "Gjennom blodet i et lukket kretsløp"
+      ],
+      "correct": 1,
+      "explain": "Rør leder luft direkte inn."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor tas det meste av næringen opp hos mennesket?",
+      "options": [
+        "I magesekken",
+        "I tykktarmen",
+        "I tynntarmen",
+        "I spiserøret"
+      ],
+      "correct": 2,
+      "explain": "Tarmtottene gir stor overflate."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et dobbelt blodkretsløp?",
+      "options": [
+        "To hjerter",
+        "Blod som går begge veier i samme åre",
+        "Et åpent og et lukket kretsløp",
+        "Ett kretsløp gjennom lungene og ett gjennom kroppen"
+      ],
+      "correct": 3,
+      "explain": "Pattedyr og fugler har det."
+    },
+    {
+      "id": "q09",
+      "text": "Har planter celleånding?",
+      "options": [
+        "Ja, i tillegg til fotosyntese",
+        "Nei, bare fotosyntese",
+        "Bare om natten",
+        "Bare i røttene"
+      ],
+      "correct": 0,
+      "explain": "Alle levende planteceller trenger ATP."
+    },
+    {
+      "id": "q10",
+      "text": "Hva blir proteiner brutt ned til i fordøyelsen?",
+      "options": [
+        "Glukose",
+        "Aminosyrer",
+        "Fettsyrer",
+        "Nukleotider"
+      ],
+      "correct": 1,
+      "explain": "Enzymer bryter ned proteinene."
+    }
   ],
   "mindmap": {
     "label": "Anatomi og fysiologi",
     "children": [
-      { "label": "Energi", "children": [
-        { "label": "Fotosyntese" },
-        { "label": "Celleånding" },
-        { "label": "ATP" }
-      ] },
-      { "label": "Overflater", "children": [
-        { "label": "Lungeblærer" },
-        { "label": "Tarmtotter" },
-        { "label": "Rothår og gjeller" }
-      ] },
-      { "label": "Gassutveksling", "children": [
-        { "label": "Lunger" },
-        { "label": "Gjeller" },
-        { "label": "Trakéer" },
-        { "label": "Spalteåpninger" }
-      ] },
-      { "label": "Transport", "children": [
-        { "label": "Lukket og åpent kretsløp" },
-        { "label": "Xylem og floem" }
-      ] },
-      { "label": "Fordøyelse", "children": [
-        { "label": "Enzymer" },
-        { "label": "Tynntarmen" },
-        { "label": "Plante- og kjøttetere" }
-      ] }
+      {
+        "label": "Energi",
+        "children": [
+          {
+            "label": "Fotosyntese"
+          },
+          {
+            "label": "Celleånding"
+          },
+          {
+            "label": "ATP"
+          }
+        ]
+      },
+      {
+        "label": "Overflater",
+        "children": [
+          {
+            "label": "Lungeblærer"
+          },
+          {
+            "label": "Tarmtotter"
+          },
+          {
+            "label": "Rothår og gjeller"
+          }
+        ]
+      },
+      {
+        "label": "Gassutveksling",
+        "children": [
+          {
+            "label": "Lunger"
+          },
+          {
+            "label": "Gjeller"
+          },
+          {
+            "label": "Trakéer"
+          },
+          {
+            "label": "Spalteåpninger"
+          }
+        ]
+      },
+      {
+        "label": "Transport",
+        "children": [
+          {
+            "label": "Lukket og åpent kretsløp"
+          },
+          {
+            "label": "Xylem og floem"
+          }
+        ]
+      },
+      {
+        "label": "Fordøyelse",
+        "children": [
+          {
+            "label": "Enzymer"
+          },
+          {
+            "label": "Tynntarmen"
+          },
+          {
+            "label": "Plante- og kjøttetere"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Gasser går inn og ut av celler ved diffusjon.", "correct": true, "explain": "Fra høy til lav konsentrasjon." },
-      { "id": "m02", "type": "sant-usant", "text": "Silvevet frakter vann opp fra røttene.", "correct": false, "explain": "Det er vedvevet; silvevet frakter sukker." },
-      { "id": "m03", "type": "sant-usant", "text": "Planteetere får ofte hjelp fra mikroorganismer til å bryte ned cellulose.", "correct": true, "explain": "For eksempel i vomma hos kyr." },
-      { "id": "m04", "type": "sant-usant", "text": "Mange insekter har et lukket blodkretsløp som mennesket.", "correct": false, "explain": "Mange insekter har et åpent kretsløp." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket stoff dannes i fotosyntesen?", "options": ["Karbondioksid", "Glukose", "ATP fra oksygen", "Nitrogen"], "correct": 1, "explain": "Og oksygen som biprodukt." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor kan planter regulere gassutvekslingen?", "options": ["I spalteåpningene", "I røttene", "I blomstene", "I frøene"], "correct": 0, "explain": "De kan åpnes og lukkes." },
-      { "id": "m07", "type": "flervalg", "text": "Hva blir fett brutt ned til?", "options": ["Aminosyrer", "Glukose", "Fettsyrer og glyserol", "Vitaminer"], "correct": 2, "explain": "Enzymet lipase gjør jobben." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Gasser går inn og ut av celler ved diffusjon.",
+        "correct": true,
+        "explain": "Fra høy til lav konsentrasjon."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Silvevet frakter vann opp fra røttene.",
+        "correct": false,
+        "explain": "Det er vedvevet; silvevet frakter sukker."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Planteetere får ofte hjelp fra mikroorganismer til å bryte ned cellulose.",
+        "correct": true,
+        "explain": "For eksempel i vomma hos kyr."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Mange insekter har et lukket blodkretsløp som mennesket.",
+        "correct": false,
+        "explain": "Mange insekter har et åpent kretsløp."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket stoff dannes i fotosyntesen?",
+        "options": [
+          "Karbondioksid",
+          "Glukose",
+          "ATP fra oksygen",
+          "Nitrogen"
+        ],
+        "correct": 1,
+        "explain": "Og oksygen som biprodukt."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor kan planter regulere gassutvekslingen?",
+        "options": [
+          "I spalteåpningene",
+          "I røttene",
+          "I blomstene",
+          "I frøene"
+        ],
+        "correct": 0,
+        "explain": "De kan åpnes og lukkes."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva blir fett brutt ned til?",
+        "options": [
+          "Aminosyrer",
+          "Glukose",
+          "Fettsyrer og glyserol",
+          "Vitaminer"
+        ],
+        "correct": 2,
+        "explain": "Enzymet lipase gjør jobben."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva ATP gjør i cellen, og hvordan celleåndingen bidrar til å gjøre ATP tilgjengelig.",
+        "fasit": "ATP er cellenes energibærer. I celleåndingen brytes glukose ned, og energien lagres i ATP.",
+        "kriterier": [
+          "Forklarer at ATP fungerer som cellenes energibærer.",
+          "Knytter celleåndingens nedbryting av glukose til at energi lagres i ATP."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Planter har både fotosyntese og celleånding. Forklar hva planten bruker de to prosessene til, og hvordan stoffene i prosessene henger sammen.",
+        "fasit": "I fotosyntesen bruker planten lysenergi, karbondioksid og vann til å bygge glukose og frigjøre oksygen. I celleåndingen brytes glukose ned med oksygen, og det dannes blant annet karbondioksid og vann samtidig som energi lagres i ATP.",
+        "kriterier": [
+          "Beskriver fotosyntesen som oppbygging av glukose ved hjelp av lysenergi, karbondioksid og vann.",
+          "Beskriver celleåndingen som nedbryting av glukose med oksygen, der energi lagres i ATP, og knytter stoffene i prosessene sammen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I en lungeblære er oksygenkonsentrasjonen høyere enn i blodet som kommer dit. Forklar hvilken vei oksygenet diffunderer, og hvorfor lungeblærene er nyttige for gassutvekslingen.",
+        "fasit": "Oksygen diffunderer fra lungeblæren til blodet, fra høyere til lavere konsentrasjon. Lungeblærene gir lungene en stor overflate der gassutveksling kan skje.",
+        "kriterier": [
+          "Angir at oksygen går fra lungeblæren til blodet fordi det beveger seg fra høy til lav konsentrasjon.",
+          "Forklarer at lungeblærene gir stor overflate for gassutveksling."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En plante tar opp vann og mineraler gjennom røttene og lager sukker i bladene. Hvilket ledningsvev frakter hvert av stoffene, og hvilken retning går transporten?",
+        "fasit": "Vedvevet frakter vann og mineraler opp fra røttene. Silvevet frakter sukker fra bladene til resten av planten.",
+        "kriterier": [
+          "Knytter vedvevet til transport av vann og mineraler opp fra røttene.",
+          "Knytter silvevet til transport av sukker fra bladene til resten av planten."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign fordøyelsen hos planteetere og rovdyr. Ta med både tarmlengde og hvordan cellulose blir brutt ned hos planteetere.",
+        "fasit": "Planteetere har ofte lange tarmer, og mikroorganismer hjelper dem med å bryte ned cellulose. Rovdyr har kortere tarmer.",
+        "kriterier": [
+          "Nevner at planteetere ofte har lange tarmer og rovdyr kortere tarmer.",
+          "Forklarer at mikroorganismer hjelper planteetere med å bryte ned cellulose."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign et lukket blodkretsløp hos mennesker med et åpent kretsløp hos mange insekter.",
+        "fasit": "Hos mennesker holdes blodet inne i blodårer i et lukket kretsløp. Hos mange insekter skvulper væsken fritt rundt organene i et åpent kretsløp.",
+        "kriterier": [
+          "Forklarer at blodet i et lukket kretsløp holdes inne i blodårer.",
+          "Forklarer at væsken i et åpent kretsløp skvulper fritt rundt organene."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I fotosynteseligningen er forholdet mellom CO₂ og O₂ 6:6. Hvis reaksjonen gjennomføres to ganger med stoffmengdene i ligningen, hvor mange O₂-molekyler dannes? Vis det viktigste regnetrinnet.",
+        "fasit": "Det dannes 12 O₂-molekyler. To ganger 6 O₂ gir 2 × 6 = 12.",
+        "kriterier": [
+          "Bruker at det dannes 6 O₂ i én reaksjon slik den står i ligningen, og dobler mengden.",
+          "Oppgir 12 O₂-molekyler."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I celleåndingsligningen brukes 1 glukosemolekyl og 6 O₂-molekyler, og det dannes 6 CO₂-molekyler. Hvis 2 glukosemolekyler brytes ned etter samme forhold, hvor mange O₂-molekyler brukes og hvor mange CO₂-molekyler dannes? Vis det viktigste regnetrinnet.",
+        "fasit": "Det brukes 12 O₂-molekyler, og det dannes 12 CO₂-molekyler. Stoffmengdene dobles fra 6 til 2 × 6 = 12 når mengden glukose dobles.",
+        "kriterier": [
+          "Dobler mengden O₂ som brukes, fra 6 til 12 molekyler.",
+          "Dobler mengden CO₂ som dannes, fra 6 til 12 molekyler."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

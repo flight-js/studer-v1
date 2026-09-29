@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Menneskerettigheter, demokrati og velferdsstat",
   "intro": "Hva menneskerettigheter er og hvordan de utviklet seg, sivile og politiske mot økonomiske, sosiale og kulturelle rettigheter, hvordan de er gjennomført i norsk rett – og hvilken betydning de har for demokratiet og velferdsstaten.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Hva er menneskerettigheter?\n\n**Menneskerettigheter** er grunnleggende rettigheter **alle** mennesker har, fordi de er mennesker. De er\n\n- **universelle** – de gjelder alle\n- **umistelige** – de kan ikke tas fra noen\n- **udelelige** – de henger sammen og er like viktige\n\nMenneskerettighetene beskytter **individet** mot **staten**, men pålegger også staten å **sikre** og **oppfylle** rettighetene.\n\n## Framvekst\n\nIdeene har røtter i blant annet **opplysningstiden** og revolusjonene på 1700-tallet. Etter **andre verdenskrig** og **Holocaust** ble det enighet om at verden trengte felles regler. **FNs verdenserklæring om menneskerettighetene** ble vedtatt **10. desember 1948**. Den er ikke juridisk bindende i seg selv, men har fått enorm betydning.\n\nSenere kom bindende **konvensjoner**:\n\n- **Den europeiske menneskerettskonvensjonen (EMK)**, 1950\n- **FNs konvensjon om sivile og politiske rettigheter (SP)** og **FNs konvensjon om økonomiske, sosiale og kulturelle rettigheter (ØSK)**, begge 1966\n- **Barnekonvensjonen** (1989), **kvinnediskrimineringskonvensjonen** (CEDAW) og konvensjonen mot **tortur**\n\n## To hovedtyper rettigheter\n\n**Sivile og politiske rettigheter** (**frihetsrettigheter**):\n\n- retten til **liv**, forbud mot **tortur** og **slaveri**\n- **ytringsfrihet**, **religionsfrihet**, **forsamlings-** og **organisasjonsfrihet**\n- **stemmerett** og rett til **rettferdig rettergang**\n\nStaten må først og fremst **la være** å krenke dem.\n\n**Økonomiske, sosiale og kulturelle rettigheter** (**velferdsrettigheter**):\n\n- rett til **arbeid**, **utdanning**, **helse**, **bolig** og **sosial trygghet**\n- rett til å delta i **kulturliv**\n\nStaten må **gjøre** noe aktivt – og rettighetene skal oppfylles **gradvis** etter statens ressurser.\n\n## Menneskerettigheter i norsk rett\n\n- **Grunnloven** fikk i **2014** et eget kapittel om menneskerettigheter.\n- **Menneskerettsloven** (1999) gjør EMK, SP, ØSK, Barnekonvensjonen og CEDAW til **norsk lov** med **forrang** foran annen lov.\n- **Domstolene** kan prøve om lover og vedtak er i strid med menneskerettighetene.\n\n## Betydning for demokratiet\n\nDemokrati er mer enn flertallsstyre. Uten **ytringsfrihet**, **pressefrihet**, **organisasjonsfrihet** og **frie valg** kan ikke folket gjøre seg opp en mening og kontrollere makthaverne. Menneskerettighetene **beskytter mindretall** mot flertallets overgrep og setter **grenser** for hva et flertall kan vedta.\n\n## Betydning for velferdsstaten\n\nVelferdsstaten kan ses som en måte å **oppfylle** de sosiale rettighetene: gratis **skole**, **helsehjelp**, **trygder** og **pensjon**. Menneskerettighetene gir også enkeltmennesker **krav** mot staten – for eksempel barns rett til **utdanning** og **helsehjelp**.\n\n## Spenninger\n\n- Når **domstoler** kan sette til side lover med henvisning til menneskerettighetene, flyttes makt fra **folkevalgte** til **dommere**. Noen kaller dette **rettsliggjøring** av politikken.\n- Rettigheter kan **kollidere** – for eksempel ytringsfrihet mot vern mot hat og diskriminering, eller privatliv mot sikkerhet.\n- **Kostnader**: Sosiale rettigheter krever ressurser, og politikerne må prioritere.",
   "flashcards": [
-    { "term": "Menneskerettigheter", "def": "Grunnleggende rettigheter alle har fordi de er mennesker." },
-    { "term": "Universelle", "def": "Gjelder alle mennesker." },
-    { "term": "Umistelige", "def": "Kan ikke tas fra noen." },
-    { "term": "Verdenserklæringen", "def": "FNs erklæring om menneskerettighetene, vedtatt 10. desember 1948." },
-    { "term": "EMK", "def": "Den europeiske menneskerettskonvensjonen fra 1950." },
-    { "term": "SP", "def": "FNs konvensjon om sivile og politiske rettigheter (1966)." },
-    { "term": "ØSK", "def": "FNs konvensjon om økonomiske, sosiale og kulturelle rettigheter (1966)." },
-    { "term": "Barnekonvensjonen", "def": "FN-konvensjon om barns rettigheter fra 1989." },
-    { "term": "Sivile og politiske rettigheter", "def": "Frihetsrettigheter som ytringsfrihet og stemmerett." },
-    { "term": "Økonomiske, sosiale og kulturelle rettigheter", "def": "Velferdsrettigheter som utdanning, helse og bolig." },
-    { "term": "Menneskerettsloven", "def": "Gjør sentrale konvensjoner til norsk lov med forrang (1999)." },
-    { "term": "Grunnlovens menneskerettighetskapittel", "def": "Kom i 2014." },
-    { "term": "Mindretallsvern", "def": "Beskyttelse av mindretall mot flertallets overgrep." },
-    { "term": "Rettsliggjøring", "def": "At makt flyttes fra folkevalgte til domstoler." },
-    { "term": "Rettighetskollisjon", "def": "Når to rettigheter står mot hverandre." }
+    {
+      "term": "Menneskerettigheter",
+      "def": "Grunnleggende rettigheter alle har fordi de er mennesker."
+    },
+    {
+      "term": "Universelle",
+      "def": "Gjelder alle mennesker."
+    },
+    {
+      "term": "Umistelige",
+      "def": "Kan ikke tas fra noen."
+    },
+    {
+      "term": "Verdenserklæringen",
+      "def": "FNs erklæring om menneskerettighetene, vedtatt 10. desember 1948."
+    },
+    {
+      "term": "EMK",
+      "def": "Den europeiske menneskerettskonvensjonen fra 1950."
+    },
+    {
+      "term": "SP",
+      "def": "FNs konvensjon om sivile og politiske rettigheter (1966)."
+    },
+    {
+      "term": "ØSK",
+      "def": "FNs konvensjon om økonomiske, sosiale og kulturelle rettigheter (1966)."
+    },
+    {
+      "term": "Barnekonvensjonen",
+      "def": "FN-konvensjon om barns rettigheter fra 1989."
+    },
+    {
+      "term": "Sivile og politiske rettigheter",
+      "def": "Frihetsrettigheter som ytringsfrihet og stemmerett."
+    },
+    {
+      "term": "Økonomiske, sosiale og kulturelle rettigheter",
+      "def": "Velferdsrettigheter som utdanning, helse og bolig."
+    },
+    {
+      "term": "Menneskerettsloven",
+      "def": "Gjør sentrale konvensjoner til norsk lov med forrang (1999)."
+    },
+    {
+      "term": "Grunnlovens menneskerettighetskapittel",
+      "def": "Kom i 2014."
+    },
+    {
+      "term": "Mindretallsvern",
+      "def": "Beskyttelse av mindretall mot flertallets overgrep."
+    },
+    {
+      "term": "Rettsliggjøring",
+      "def": "At makt flyttes fra folkevalgte til domstoler."
+    },
+    {
+      "term": "Rettighetskollisjon",
+      "def": "Når to rettigheter står mot hverandre."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Når ble FNs verdenserklæring om menneskerettighetene vedtatt?", "options": ["1814", "1948", "1966", "1999"], "correct": 1, "explain": "10. desember 1948." },
-    { "id": "q02", "text": "Hvilken rettighet er en sivil og politisk rettighet?", "options": ["Ytringsfrihet", "Rett til bolig", "Rett til helse", "Rett til arbeid"], "correct": 0, "explain": "En frihetsrettighet." },
-    { "id": "q03", "text": "Hva gjør menneskerettsloven av 1999?", "options": ["Avskaffer Grunnloven", "Oppretter Sametinget", "Gjør sentrale konvensjoner til norsk lov med forrang", "Gir kongen mer makt"], "correct": 2, "explain": "EMK, SP, ØSK, Barnekonvensjonen og CEDAW." },
-    { "id": "q04", "text": "Hvorfor er menneskerettighetene viktige for demokratiet?", "options": ["De gir kongen makt", "De avskaffer valg", "De gjør flertallet allmektig", "De sikrer ytringsfrihet, frie valg og vern om mindretall"], "correct": 3, "explain": "Demokrati er mer enn flertallsstyre." },
-    { "id": "q05", "text": "Hvordan kan velferdsstaten ses i lys av menneskerettighetene?", "options": ["Som en måte å oppfylle de sosiale rettighetene", "Som et brudd på menneskerettighetene", "Som uten sammenheng", "Som bare en økonomisk ordning"], "correct": 0, "explain": "Skole, helse og trygd." },
-    { "id": "q06", "text": "Hva er rettsliggjøring?", "options": ["At flere lover blir vedtatt", "At makt flyttes fra folkevalgte til domstoler", "At domstolene blir nedlagt", "At alle blir jurister"], "correct": 1, "explain": "En spenning mellom menneskerettigheter og demokrati." },
-    { "id": "q07", "text": "Hva betyr at menneskerettighetene er udelelige?", "options": ["At de bare gjelder én gruppe", "At de kan deles ut", "At de henger sammen og er like viktige", "At de kan selges"], "correct": 2, "explain": "Universelle, umistelige og udelelige." },
-    { "id": "q08", "text": "Hva må staten gjøre for å oppfylle sosiale rettigheter?", "options": ["Ingenting", "Bare la være å krenke dem", "Forby dem", "Gjøre noe aktivt, for eksempel sørge for skole og helsehjelp"], "correct": 3, "explain": "Oppfylles gradvis etter ressursene." },
-    { "id": "q09", "text": "Når fikk Grunnloven et eget kapittel om menneskerettigheter?", "options": ["2014", "1814", "1948", "1999"], "correct": 0, "explain": "Ved 200-årsjubileet." },
-    { "id": "q10", "text": "Hva er et eksempel på en rettighetskollisjon?", "options": ["Stemmerett mot valgdeltakelse", "Ytringsfrihet mot vern mot hat og diskriminering", "Utdanning mot skole", "Helse mot sykehus"], "correct": 1, "explain": "Rettigheter må noen ganger veies mot hverandre." }
+    {
+      "id": "q01",
+      "text": "Når ble FNs verdenserklæring om menneskerettighetene vedtatt?",
+      "options": [
+        "1814",
+        "1948",
+        "1966",
+        "1999"
+      ],
+      "correct": 1,
+      "explain": "10. desember 1948."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken rettighet er en sivil og politisk rettighet?",
+      "options": [
+        "Ytringsfrihet",
+        "Rett til bolig",
+        "Rett til helse",
+        "Rett til arbeid"
+      ],
+      "correct": 0,
+      "explain": "En frihetsrettighet."
+    },
+    {
+      "id": "q03",
+      "text": "Hva gjør menneskerettsloven av 1999?",
+      "options": [
+        "Avskaffer Grunnloven",
+        "Oppretter Sametinget",
+        "Gjør sentrale konvensjoner til norsk lov med forrang",
+        "Gir kongen mer makt"
+      ],
+      "correct": 2,
+      "explain": "EMK, SP, ØSK, Barnekonvensjonen og CEDAW."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor er menneskerettighetene viktige for demokratiet?",
+      "options": [
+        "De gir kongen makt",
+        "De avskaffer valg",
+        "De gjør flertallet allmektig",
+        "De sikrer ytringsfrihet, frie valg og vern om mindretall"
+      ],
+      "correct": 3,
+      "explain": "Demokrati er mer enn flertallsstyre."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan kan velferdsstaten ses i lys av menneskerettighetene?",
+      "options": [
+        "Som en måte å oppfylle de sosiale rettighetene",
+        "Som et brudd på menneskerettighetene",
+        "Som uten sammenheng",
+        "Som bare en økonomisk ordning"
+      ],
+      "correct": 0,
+      "explain": "Skole, helse og trygd."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er rettsliggjøring?",
+      "options": [
+        "At flere lover blir vedtatt",
+        "At makt flyttes fra folkevalgte til domstoler",
+        "At domstolene blir nedlagt",
+        "At alle blir jurister"
+      ],
+      "correct": 1,
+      "explain": "En spenning mellom menneskerettigheter og demokrati."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr at menneskerettighetene er udelelige?",
+      "options": [
+        "At de bare gjelder én gruppe",
+        "At de kan deles ut",
+        "At de henger sammen og er like viktige",
+        "At de kan selges"
+      ],
+      "correct": 2,
+      "explain": "Universelle, umistelige og udelelige."
+    },
+    {
+      "id": "q08",
+      "text": "Hva må staten gjøre for å oppfylle sosiale rettigheter?",
+      "options": [
+        "Ingenting",
+        "Bare la være å krenke dem",
+        "Forby dem",
+        "Gjøre noe aktivt, for eksempel sørge for skole og helsehjelp"
+      ],
+      "correct": 3,
+      "explain": "Oppfylles gradvis etter ressursene."
+    },
+    {
+      "id": "q09",
+      "text": "Når fikk Grunnloven et eget kapittel om menneskerettigheter?",
+      "options": [
+        "2014",
+        "1814",
+        "1948",
+        "1999"
+      ],
+      "correct": 0,
+      "explain": "Ved 200-årsjubileet."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et eksempel på en rettighetskollisjon?",
+      "options": [
+        "Stemmerett mot valgdeltakelse",
+        "Ytringsfrihet mot vern mot hat og diskriminering",
+        "Utdanning mot skole",
+        "Helse mot sykehus"
+      ],
+      "correct": 1,
+      "explain": "Rettigheter må noen ganger veies mot hverandre."
+    }
   ],
   "mindmap": {
     "label": "Menneskerettigheter",
     "children": [
-      { "label": "Kjennetegn", "children": [
-        { "label": "Universelle" },
-        { "label": "Umistelige" },
-        { "label": "Udelelige" }
-      ] },
-      { "label": "Framvekst", "children": [
-        { "label": "Verdenserklæringen 1948" },
-        { "label": "EMK, SP og ØSK" },
-        { "label": "Barnekonvensjonen" }
-      ] },
-      { "label": "Typer", "children": [
-        { "label": "Sivile og politiske" },
-        { "label": "Økonomiske, sosiale og kulturelle" }
-      ] },
-      { "label": "Norsk rett", "children": [
-        { "label": "Grunnloven 2014" },
-        { "label": "Menneskerettsloven" },
-        { "label": "Domstolene" }
-      ] },
-      { "label": "Betydning", "children": [
-        { "label": "Demokrati" },
-        { "label": "Velferdsstat" },
-        { "label": "Spenninger" }
-      ] }
+      {
+        "label": "Kjennetegn",
+        "children": [
+          {
+            "label": "Universelle"
+          },
+          {
+            "label": "Umistelige"
+          },
+          {
+            "label": "Udelelige"
+          }
+        ]
+      },
+      {
+        "label": "Framvekst",
+        "children": [
+          {
+            "label": "Verdenserklæringen 1948"
+          },
+          {
+            "label": "EMK, SP og ØSK"
+          },
+          {
+            "label": "Barnekonvensjonen"
+          }
+        ]
+      },
+      {
+        "label": "Typer",
+        "children": [
+          {
+            "label": "Sivile og politiske"
+          },
+          {
+            "label": "Økonomiske, sosiale og kulturelle"
+          }
+        ]
+      },
+      {
+        "label": "Norsk rett",
+        "children": [
+          {
+            "label": "Grunnloven 2014"
+          },
+          {
+            "label": "Menneskerettsloven"
+          },
+          {
+            "label": "Domstolene"
+          }
+        ]
+      },
+      {
+        "label": "Betydning",
+        "children": [
+          {
+            "label": "Demokrati"
+          },
+          {
+            "label": "Velferdsstat"
+          },
+          {
+            "label": "Spenninger"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Verdenserklæringen fra 1948 er ikke juridisk bindende i seg selv.", "correct": true, "explain": "Senere konvensjoner er bindende." },
-      { "id": "m02", "type": "sant-usant", "text": "Menneskerettighetene beskytter bare flertallet.", "correct": false, "explain": "De beskytter særlig mindretall og enkeltpersoner." },
-      { "id": "m03", "type": "sant-usant", "text": "Barnekonvensjonen er gjort til norsk lov med forrang.", "correct": true, "explain": "Gjennom menneskerettsloven." },
-      { "id": "m04", "type": "sant-usant", "text": "Rett til utdanning er en sivil og politisk rettighet.", "correct": false, "explain": "Det er en sosial rettighet." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken hendelse var en viktig bakgrunn for verdenserklæringen?", "options": ["Den franske revolusjonen", "Andre verdenskrig og Holocaust", "Den kalde krigen", "Kalmarunionen"], "correct": 1, "explain": "Verden trengte felles regler." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken konvensjon er europeisk?", "options": ["EMK", "SP", "ØSK", "CEDAW"], "correct": 0, "explain": "Den europeiske menneskerettskonvensjonen." },
-      { "id": "m07", "type": "flervalg", "text": "Hva må staten først og fremst gjøre for å respektere sivile og politiske rettigheter?", "options": ["Bygge sykehus", "Gi alle bolig", "La være å krenke dem", "Innføre skatt"], "correct": 2, "explain": "For eksempel ikke sensurere eller torturere." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Verdenserklæringen fra 1948 er ikke juridisk bindende i seg selv.",
+        "correct": true,
+        "explain": "Senere konvensjoner er bindende."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Menneskerettighetene beskytter bare flertallet.",
+        "correct": false,
+        "explain": "De beskytter særlig mindretall og enkeltpersoner."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Barnekonvensjonen er gjort til norsk lov med forrang.",
+        "correct": true,
+        "explain": "Gjennom menneskerettsloven."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Rett til utdanning er en sivil og politisk rettighet.",
+        "correct": false,
+        "explain": "Det er en sosial rettighet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken hendelse var en viktig bakgrunn for verdenserklæringen?",
+        "options": [
+          "Den franske revolusjonen",
+          "Andre verdenskrig og Holocaust",
+          "Den kalde krigen",
+          "Kalmarunionen"
+        ],
+        "correct": 1,
+        "explain": "Verden trengte felles regler."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken konvensjon er europeisk?",
+        "options": [
+          "EMK",
+          "SP",
+          "ØSK",
+          "CEDAW"
+        ],
+        "correct": 0,
+        "explain": "Den europeiske menneskerettskonvensjonen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva må staten først og fremst gjøre for å respektere sivile og politiske rettigheter?",
+        "options": [
+          "Bygge sykehus",
+          "Gi alle bolig",
+          "La være å krenke dem",
+          "Innføre skatt"
+        ],
+        "correct": 2,
+        "explain": "For eksempel ikke sensurere eller torturere."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen mellom at menneskerettighetene er universelle og at de er umistelige.",
+        "fasit": "At menneskerettighetene er universelle, betyr at de gjelder alle mennesker. At de er umistelige, betyr at ingen kan ta dem fra noen.",
+        "kriterier": [
+          "Forklarer at universelle rettigheter gjelder alle mennesker.",
+          "Forklarer at umistelige rettigheter ikke kan tas fra noen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Beskriv både hvordan menneskerettighetene beskytter individet, og hva de krever av staten.",
+        "fasit": "Menneskerettighetene beskytter individet mot at staten krenker rettighetene. Samtidig må staten sikre og oppfylle rettighetene.",
+        "kriterier": [
+          "Får fram at rettighetene beskytter individet mot staten.",
+          "Får fram at staten også har en plikt til å sikre eller oppfylle rettighetene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hvorfor ble det viktig å bli enige om felles regler for menneskerettigheter etter andre verdenskrig og Holocaust?",
+        "fasit": "Etter andre verdenskrig og Holocaust ble det enighet om at verden trengte felles regler for å beskytte mennesker. Dette bidro til at FNs verdenserklæring om menneskerettighetene ble vedtatt.",
+        "kriterier": [
+          "Knytter behovet for felles regler til erfaringene fra andre verdenskrig og Holocaust.",
+          "Forklarer at verdenserklæringen var et resultat av ønsket om felles regler eller beskyttelse."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign den juridiske statusen til FNs verdenserklæring om menneskerettighetene og senere menneskerettskonvensjoner.",
+        "fasit": "Verdenserklæringen er ikke juridisk bindende i seg selv. Senere konvensjoner, som EMK, SP og ØSK, er bindende.",
+        "kriterier": [
+          "Får fram at verdenserklæringen ikke er juridisk bindende i seg selv.",
+          "Får fram at senere konvensjoner er bindende."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign sivile og politiske rettigheter med økonomiske, sosiale og kulturelle rettigheter. Ta med hva slags ansvar staten har for hver type.",
+        "fasit": "Sivile og politiske rettigheter, som ytringsfrihet og stemmerett, krever først og fremst at staten lar være å krenke dem. Økonomiske, sosiale og kulturelle rettigheter, som utdanning og helse, krever at staten gjør noe aktivt.",
+        "kriterier": [
+          "Beskriver sivile og politiske rettigheter som frihetsrettigheter staten først og fremst må la være å krenke.",
+          "Beskriver økonomiske, sosiale og kulturelle rettigheter som rettigheter staten må arbeide aktivt for å oppfylle."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En stat forbyr en gruppe å organisere møter der medlemmene diskuterer samfunnsspørsmål. Hvilken type menneskerettighet er særlig berørt, og hva må staten først og fremst gjøre for å respektere den?",
+        "fasit": "Organisasjonsfriheten, som er en sivil og politisk rettighet, er særlig berørt. Staten må først og fremst la være å krenke denne friheten.",
+        "kriterier": [
+          "Identifiserer organisasjonsfrihet som en berørt rettighet.",
+          "Får fram at staten først og fremst må avstå fra å krenke sivile og politiske rettigheter."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En norsk domstol behandler en sak der et vedtak kan være i strid med EMK. Hva kan domstolen undersøke, og hvilken betydning har EMK i norsk rett?",
+        "fasit": "Domstolen kan prøve om vedtaket er i strid med menneskerettighetene. EMK er gjort til norsk lov gjennom menneskerettsloven og har forrang foran annen lov.",
+        "kriterier": [
+          "Får fram at domstolene kan prøve om vedtak er i strid med menneskerettighetene.",
+          "Får fram at EMK er norsk lov med forrang foran annen lov."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et flertall vedtar å forby en religiøs minoritet å utøve religionen sin. Forklar hvorfor et slikt flertallsvedtak kan være i strid med menneskerettighetene.",
+        "fasit": "Vedtaket griper inn i religionsfriheten. Menneskerettighetene beskytter mindretall mot flertallets overgrep og setter grenser for hva flertallet kan vedta.",
+        "kriterier": [
+          "Knytter situasjonen til religionsfriheten.",
+          "Forklarer at menneskerettighetene beskytter mindretall eller begrenser hva flertallet kan vedta."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

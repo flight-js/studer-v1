@@ -356,6 +356,80 @@
         "correct": 1,
         "explain": "The w is made with rounded lips, like a short “u”."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "What does intelligibility mean in pronunciation, and why is it a more important goal than sounding like a native speaker?",
+        "fasit": "Intelligibility means being easy to understand. A speaker does not need a native accent if people can understand what they say.",
+        "kriterier": [
+          "Explains that intelligibility means being easy to understand.",
+          "Explains that sounding like a native speaker is not necessary if the speaker is understandable."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Compare the two English th-sounds in “think” and “this”. What is the same about how they are made, and what is different?",
+        "fasit": "For both sounds, the tip of the tongue goes between the teeth. The sound in “think” is voiceless, while the sound in “this” is voiced.",
+        "kriterier": [
+          "Says the tongue tip goes between the teeth for both sounds.",
+          "Distinguishes the voiceless sound in “think” from the voiced sound in “this”."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Explain how your mouth is positioned differently when you say the v in “very” and the w in “we”.",
+        "fasit": "For v, the top teeth touch the lower lip. For w, the lips are rounded, like a short “u” sound.",
+        "kriterier": [
+          "Describes the top teeth touching the lower lip for v.",
+          "Describes rounded lips for w."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "In “knife” and “write”, one written letter is not pronounced in each word. Identify those letters and explain what this means when saying the words aloud.",
+        "fasit": "The k in “knife” and the w in “write” are silent. You say the words without pronouncing those letters.",
+        "kriterier": [
+          "Identifies k as silent in “knife” and w as silent in “write”.",
+          "Explains that the silent letters are not pronounced aloud."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Compare “REcord” as a noun and “reCORD” as a verb. Where is the stress in each word, and how does the stress relate to the word’s use?",
+        "fasit": "As a noun, the stress is on the first syllable: REcord. As a verb, it is on the second syllable: reCORD.",
+        "kriterier": [
+          "Places the noun’s stress on the first syllable.",
+          "Places the verb’s stress on the second syllable and connects the stress pattern to the word’s use."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "British and American English can differ in the r-sound in “car” and in the pronunciation of words such as “tomato” and “schedule”. Why is it useful to understand different varieties, and what can a learner choose as a model?",
+        "fasit": "Understanding different varieties helps you understand more English speakers. You can choose one variety as your own pronunciation model.",
+        "kriterier": [
+          "Explains that understanding varieties helps with understanding different English speakers.",
+          "Says a learner can choose one variety as a model."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "When saying “bag” and “back”, what must happen to the final consonants, and why does this matter for understanding?",
+        "fasit": "The final consonants must sound different: “bag” ends with a voiced sound, while “back” has a different final sound. If they sound the same, it may be harder to understand which word is meant.",
+        "kriterier": [
+          "States that the final consonants in “bag” and “back” must sound different.",
+          "Connects the difference to being able to understand which word is meant."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "You are learning a new English word and want to pronounce it clearly. Explain how you could use an online dictionary and word stress to practise it.",
+        "fasit": "I can use an online dictionary to listen to the word’s pronunciation. I can notice which syllable is stressed and practise saying the word with that stress.",
+        "kriterier": [
+          "Uses the dictionary to listen to the word’s pronunciation.",
+          "Explains that the learner should notice and practise the stressed syllable."
+        ]
+      }
     ]
   },
   "kvalitet": {

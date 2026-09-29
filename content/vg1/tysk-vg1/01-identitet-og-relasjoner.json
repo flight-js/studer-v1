@@ -4,76 +4,420 @@
   "trinnId": "vg1",
   "name": "Identitet, vennskap og følelser",
   "intro": "Hvordan du beskriver personlighet, vennskap, familie og følelser på tysk, med refleksive verb, personlige pronomen i akkusativ og dativ og verb med faste preposisjoner.",
-  "kompetansemaal": [2, 3, 6],
+  "kompetansemaal": [
+    2,
+    3,
+    6
+  ],
   "sammendrag": "## Å beskrive seg selv og andre\n\nPå nivå II skal du kunne fortelle mer utfyllende om **hvem du er** og hvordan du har det med andre. Nyttige adjektiver om personlighet:\n\n- *ehrlich* (ærlig), *zuverlässig* (pålitelig), *hilfsbereit* (hjelpsom), *lustig* (morsom)\n- *schüchtern* (sjenert), *selbstbewusst* (selvsikker), *ungeduldig* (utålmodig), *neugierig* (nysgjerrig)\n\n*Meine beste Freundin ist ehrlich und hilfsbereit, aber manchmal ein bisschen ungeduldig.*\n\n## Refleksive verb\n\nMange tyske verb om følelser og relasjoner er **refleksive** – de har et **refleksivt pronomen** som viser tilbake til subjektet:\n\n| | sich freuen (glede seg) |\n| --- | --- |\n| ich | freue **mich** |\n| du | freust **dich** |\n| er/sie/es | freut **sich** |\n| wir | freuen **uns** |\n| ihr | freut **euch** |\n| sie/Sie | freuen **sich** |\n\nAndre eksempler: *sich streiten* (krangle), *sich verlieben* (forelske seg), *sich treffen* (møtes), *sich fühlen* (føle seg), *sich ärgern* (ergre seg).\n\n*Wir treffen uns jeden Freitag.* – Vi møtes hver fredag.\n*Ich fühle mich heute müde.* – Jeg føler meg trøtt i dag.\n\n## Verb med faste preposisjoner\n\nMange verb har en **fast preposisjon**:\n\n- *sich freuen **auf*** (glede seg til noe som kommer): *Ich freue mich auf die Ferien.*\n- *sich freuen **über*** (glede seg over noe som har skjedd): *Ich freue mich über das Geschenk.*\n- *sich interessieren **für***: *Er interessiert sich für Musik.*\n- *sich verstehen **mit***: *Ich verstehe mich gut mit meiner Schwester.*\n- *Angst haben **vor***: *Sie hat Angst vor Spinnen.*\n\n## Pronomen i akkusativ og dativ\n\n| Nominativ | Akkusativ | Dativ |\n| --- | --- | --- |\n| ich | mich | mir |\n| du | dich | dir |\n| er | ihn | ihm |\n| sie | sie | ihr |\n| wir | uns | uns |\n| ihr | euch | euch |\n| sie/Sie | sie/Sie | ihnen/Ihnen |\n\n- Akkusativ etter mange verb: *Ich besuche **ihn**.*\n- Dativ etter verb som *helfen*, *danken*, *gefallen*: *Kannst du **mir** helfen?* *Die Jacke gefällt **ihr**.*\n\n## Følelser og konflikter\n\n- *Ich bin glücklich / traurig / wütend / enttäuscht / nervös.*\n- *Es geht mir gut / schlecht.*\n- *Wir haben uns gestritten, aber jetzt ist alles wieder gut.*\n\n## Strategi\n\nLag din egen **ordbank** med adjektiver og uttrykk du trenger for å beskrive deg selv, og øv på å **snakke spontant** i ett minutt om en venn eller et familiemedlem.",
   "flashcards": [
-    { "term": "ehrlich", "def": "ærlig" },
-    { "term": "zuverlässig", "def": "pålitelig" },
-    { "term": "schüchtern", "def": "sjenert" },
-    { "term": "neugierig", "def": "nysgjerrig" },
-    { "term": "sich freuen auf", "def": "glede seg til (noe som kommer)" },
-    { "term": "sich freuen über", "def": "glede seg over (noe som har skjedd)" },
-    { "term": "sich streiten", "def": "krangle" },
-    { "term": "sich verlieben in", "def": "forelske seg i" },
-    { "term": "sich interessieren für", "def": "interessere seg for" },
-    { "term": "sich verstehen mit", "def": "komme overens med" },
-    { "term": "Angst haben vor", "def": "være redd for" },
-    { "term": "Wir treffen uns.", "def": "Vi møtes." },
-    { "term": "mir / dir / ihm / ihr", "def": "dativformer av ich, du, er, sie" },
-    { "term": "Kannst du mir helfen?", "def": "Kan du hjelpe meg? (helfen tar dativ)" },
-    { "term": "enttäuscht", "def": "skuffet" }
+    {
+      "term": "ehrlich",
+      "def": "ærlig"
+    },
+    {
+      "term": "zuverlässig",
+      "def": "pålitelig"
+    },
+    {
+      "term": "schüchtern",
+      "def": "sjenert"
+    },
+    {
+      "term": "neugierig",
+      "def": "nysgjerrig"
+    },
+    {
+      "term": "sich freuen auf",
+      "def": "glede seg til (noe som kommer)"
+    },
+    {
+      "term": "sich freuen über",
+      "def": "glede seg over (noe som har skjedd)"
+    },
+    {
+      "term": "sich streiten",
+      "def": "krangle"
+    },
+    {
+      "term": "sich verlieben in",
+      "def": "forelske seg i"
+    },
+    {
+      "term": "sich interessieren für",
+      "def": "interessere seg for"
+    },
+    {
+      "term": "sich verstehen mit",
+      "def": "komme overens med"
+    },
+    {
+      "term": "Angst haben vor",
+      "def": "være redd for"
+    },
+    {
+      "term": "Wir treffen uns.",
+      "def": "Vi møtes."
+    },
+    {
+      "term": "mir / dir / ihm / ihr",
+      "def": "dativformer av ich, du, er, sie"
+    },
+    {
+      "term": "Kannst du mir helfen?",
+      "def": "Kan du hjelpe meg? (helfen tar dativ)"
+    },
+    {
+      "term": "enttäuscht",
+      "def": "skuffet"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er riktig refleksivt pronomen? «Wir freuen ___ auf das Wochenende.»", "options": ["sich", "uns", "euch", "mich"], "correct": 1, "explain": "Wir → uns." },
-    { "id": "q02", "text": "Hva betyr «sich freuen auf»?", "options": ["glede seg til noe som kommer", "glede seg over noe som har skjedd", "bli sint", "føle seg trøtt"], "correct": 0, "explain": "sich freuen über brukes om noe som har skjedd." },
-    { "id": "q03", "text": "Hvilken preposisjon hører til «sich interessieren»?", "options": ["auf", "mit", "für", "vor"], "correct": 2, "explain": "Er interessiert sich für Musik." },
-    { "id": "q04", "text": "Velg riktig pronomen: «Kannst du ___ helfen?»", "options": ["mich", "ich", "mein", "mir"], "correct": 3, "explain": "helfen tar dativ: mir." },
-    { "id": "q05", "text": "Hva betyr «schüchtern»?", "options": ["sjenert", "sint", "sulten", "selvsikker"], "correct": 0, "explain": "Det motsatte er selbstbewusst." },
-    { "id": "q06", "text": "Hvordan sier du «Jeg kommer godt overens med broren min»?", "options": ["Ich verstehe gut meinen Bruder.", "Ich verstehe mich gut mit meinem Bruder.", "Ich bin gut mit mein Bruder.", "Ich verstehe mir gut mit meinem Bruder."], "correct": 1, "explain": "sich verstehen mit + dativ." },
-    { "id": "q07", "text": "Hva er akkusativ av «er»?", "options": ["ihm", "er", "ihn", "sein"], "correct": 2, "explain": "Ich besuche ihn." },
-    { "id": "q08", "text": "Hva betyr «Wir haben uns gestritten»?", "options": ["Vi har møtt hverandre.", "Vi har forelsket oss.", "Vi har hjulpet hverandre.", "Vi har kranglet."], "correct": 3, "explain": "sich streiten = krangle." },
-    { "id": "q09", "text": "Hvilken preposisjon brukes med «Angst haben»?", "options": ["vor", "für", "auf", "mit"], "correct": 0, "explain": "Sie hat Angst vor Spinnen." },
-    { "id": "q10", "text": "Velg riktig: «Die Jacke gefällt ___.» (henne)", "options": ["sie", "ihr", "ihn", "sich"], "correct": 1, "explain": "gefallen tar dativ: ihr." }
+    {
+      "id": "q01",
+      "text": "Hva er riktig refleksivt pronomen? «Wir freuen ___ auf das Wochenende.»",
+      "options": [
+        "sich",
+        "uns",
+        "euch",
+        "mich"
+      ],
+      "correct": 1,
+      "explain": "Wir → uns."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr «sich freuen auf»?",
+      "options": [
+        "glede seg til noe som kommer",
+        "glede seg over noe som har skjedd",
+        "bli sint",
+        "føle seg trøtt"
+      ],
+      "correct": 0,
+      "explain": "sich freuen über brukes om noe som har skjedd."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken preposisjon hører til «sich interessieren»?",
+      "options": [
+        "auf",
+        "mit",
+        "für",
+        "vor"
+      ],
+      "correct": 2,
+      "explain": "Er interessiert sich für Musik."
+    },
+    {
+      "id": "q04",
+      "text": "Velg riktig pronomen: «Kannst du ___ helfen?»",
+      "options": [
+        "mich",
+        "ich",
+        "mein",
+        "mir"
+      ],
+      "correct": 3,
+      "explain": "helfen tar dativ: mir."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr «schüchtern»?",
+      "options": [
+        "sjenert",
+        "sint",
+        "sulten",
+        "selvsikker"
+      ],
+      "correct": 0,
+      "explain": "Det motsatte er selbstbewusst."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan sier du «Jeg kommer godt overens med broren min»?",
+      "options": [
+        "Ich verstehe gut meinen Bruder.",
+        "Ich verstehe mich gut mit meinem Bruder.",
+        "Ich bin gut mit mein Bruder.",
+        "Ich verstehe mir gut mit meinem Bruder."
+      ],
+      "correct": 1,
+      "explain": "sich verstehen mit + dativ."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er akkusativ av «er»?",
+      "options": [
+        "ihm",
+        "er",
+        "ihn",
+        "sein"
+      ],
+      "correct": 2,
+      "explain": "Ich besuche ihn."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr «Wir haben uns gestritten»?",
+      "options": [
+        "Vi har møtt hverandre.",
+        "Vi har forelsket oss.",
+        "Vi har hjulpet hverandre.",
+        "Vi har kranglet."
+      ],
+      "correct": 3,
+      "explain": "sich streiten = krangle."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken preposisjon brukes med «Angst haben»?",
+      "options": [
+        "vor",
+        "für",
+        "auf",
+        "mit"
+      ],
+      "correct": 0,
+      "explain": "Sie hat Angst vor Spinnen."
+    },
+    {
+      "id": "q10",
+      "text": "Velg riktig: «Die Jacke gefällt ___.» (henne)",
+      "options": [
+        "sie",
+        "ihr",
+        "ihn",
+        "sich"
+      ],
+      "correct": 1,
+      "explain": "gefallen tar dativ: ihr."
+    }
   ],
   "mindmap": {
     "label": "Identitet og relasjoner",
     "children": [
-      { "label": "Personlighet", "children": [
-        { "label": "ehrlich, zuverlässig" },
-        { "label": "schüchtern, neugierig" }
-      ] },
-      { "label": "Refleksive verb", "children": [
-        { "label": "sich freuen" },
-        { "label": "sich streiten" },
-        { "label": "sich treffen" }
-      ] },
-      { "label": "Faste preposisjoner", "children": [
-        { "label": "freuen auf / über" },
-        { "label": "interessieren für" },
-        { "label": "Angst vor" }
-      ] },
-      { "label": "Pronomen", "children": [
-        { "label": "Akkusativ: mich, dich, ihn" },
-        { "label": "Dativ: mir, dir, ihm" }
-      ] },
-      { "label": "Følelser", "children": [
-        { "label": "glücklich, traurig" },
-        { "label": "wütend, enttäuscht" }
-      ] }
+      {
+        "label": "Personlighet",
+        "children": [
+          {
+            "label": "ehrlich, zuverlässig"
+          },
+          {
+            "label": "schüchtern, neugierig"
+          }
+        ]
+      },
+      {
+        "label": "Refleksive verb",
+        "children": [
+          {
+            "label": "sich freuen"
+          },
+          {
+            "label": "sich streiten"
+          },
+          {
+            "label": "sich treffen"
+          }
+        ]
+      },
+      {
+        "label": "Faste preposisjoner",
+        "children": [
+          {
+            "label": "freuen auf / über"
+          },
+          {
+            "label": "interessieren für"
+          },
+          {
+            "label": "Angst vor"
+          }
+        ]
+      },
+      {
+        "label": "Pronomen",
+        "children": [
+          {
+            "label": "Akkusativ: mich, dich, ihn"
+          },
+          {
+            "label": "Dativ: mir, dir, ihm"
+          }
+        ]
+      },
+      {
+        "label": "Følelser",
+        "children": [
+          {
+            "label": "glücklich, traurig"
+          },
+          {
+            "label": "wütend, enttäuscht"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "«helfen» tar dativ på tysk.", "correct": true, "explain": "Ich helfe dir." },
-      { "id": "m02", "type": "sant-usant", "text": "«sich freuen über» brukes om noe man gleder seg til i framtiden.", "correct": false, "explain": "Om framtiden bruker man sich freuen auf." },
-      { "id": "m03", "type": "sant-usant", "text": "«ihr» kan være dativ av «sie» (entall).", "correct": true, "explain": "Ich gebe ihr das Buch." },
-      { "id": "m04", "type": "sant-usant", "text": "Det refleksive pronomenet for «du» er «sich».", "correct": false, "explain": "Du → dich (akkusativ)." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «zuverlässig»?", "options": ["pålitelig", "utålmodig", "lat", "stille"], "correct": 0, "explain": "En zuverlässige Freundin holder det hun lover." },
-      { "id": "m06", "type": "flervalg", "text": "Velg riktig: «Ich fühle ___ heute gut.»", "options": ["mir", "mein", "mich", "ich"], "correct": 2, "explain": "sich fühlen: ich fühle mich." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «sich verlieben in»?", "options": ["glede seg over", "forelske seg i", "krangle med", "møte"], "correct": 1, "explain": "Er hat sich in sie verliebt." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "«helfen» tar dativ på tysk.",
+        "correct": true,
+        "explain": "Ich helfe dir."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "«sich freuen über» brukes om noe man gleder seg til i framtiden.",
+        "correct": false,
+        "explain": "Om framtiden bruker man sich freuen auf."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«ihr» kan være dativ av «sie» (entall).",
+        "correct": true,
+        "explain": "Ich gebe ihr das Buch."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det refleksive pronomenet for «du» er «sich».",
+        "correct": false,
+        "explain": "Du → dich (akkusativ)."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «zuverlässig»?",
+        "options": [
+          "pålitelig",
+          "utålmodig",
+          "lat",
+          "stille"
+        ],
+        "correct": 0,
+        "explain": "En zuverlässige Freundin holder det hun lover."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Velg riktig: «Ich fühle ___ heute gut.»",
+        "options": [
+          "mir",
+          "mein",
+          "mich",
+          "ich"
+        ],
+        "correct": 2,
+        "explain": "sich fühlen: ich fühle mich."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «sich verlieben in»?",
+        "options": [
+          "glede seg over",
+          "forelske seg i",
+          "krangle med",
+          "møte"
+        ],
+        "correct": 1,
+        "explain": "Er hat sich in sie verliebt."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Erkläre auf Deutsch, was das Reflexivpronomen im Satz „Ich fühle mich heute müde“ zeigt.",
+        "fasit": "Das Pronomen mich bezieht sich auf das Subjekt ich zurück. Es zeigt, dass ich selbst mich müde fühle.",
+        "kriterier": [
+          "Forklarer at pronomenet viser tilbake til subjektet.",
+          "Knytter mich til ich i setningen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Du gleder deg til ferien, som ikke har begynt ennå, og over en gave du allerede har fått. Skriv en passende tysk setning om hver situasjon.",
+        "fasit": "Ich freue mich auf die Ferien. Ich freue mich über das Geschenk.",
+        "kriterier": [
+          "Bruker sich freuen auf om ferien som kommer.",
+          "Bruker sich freuen über om gaven som allerede er mottatt."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En venn forteller sannheten og holder det han lover. Beskriv ham på tysk med passende adjektiver, og forklar kort hvordan de passer.",
+        "fasit": "Er ist ehrlich, weil er die Wahrheit sagt, und zuverlässig, weil er hält, was er verspricht.",
+        "kriterier": [
+          "Knytter ehrlich til at vennen forteller sannheten.",
+          "Knytter zuverlässig til at han holder det han lover."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du og en venn avtaler at dere møtes i dag. Skriv dette på tysk med wir som subjekt.",
+        "fasit": "Wir treffen uns heute.",
+        "kriterier": [
+          "Bruker treffen i riktig form med wir.",
+          "Bruker det refleksive pronomenet uns."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Du vil takke en venn for hjelpen. Skriv det på tysk ved å bruke du-form.",
+        "fasit": "Ich danke dir für die Hilfe.",
+        "kriterier": [
+          "Bruker verbet danken.",
+          "Bruker dativformen dir."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En person er stille når hun møter nye mennesker, men stiller mange spørsmål fordi hun vil lære. Beskriv henne på tysk med passende adjektiver, og knytt dem til situasjonen.",
+        "fasit": "Sie ist schüchtern, wenn sie neue Menschen trifft, aber neugierig, weil sie viele Fragen stellt.",
+        "kriterier": [
+          "Knytter schüchtern til at hun er stille med nye mennesker.",
+          "Knytter neugierig til at hun stiller spørsmål for å lære."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Beskriv på tysk at en person forelsker seg i en annen person. Bruk uttrykket sich verlieben in.",
+        "fasit": "Er verliebt sich in eine andere Person.",
+        "kriterier": [
+          "Bruker riktig refleksiv form av sich verlieben.",
+          "Bruker preposisjonen in."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du er først sint etter en konflikt, men senere glad fordi alt har ordnet seg. Skriv én tysk setning for hver følelse.",
+        "fasit": "Zuerst bin ich wütend. Später bin ich glücklich, weil jetzt alles wieder gut ist.",
+        "kriterier": [
+          "Bruker wütend om følelsen etter konflikten.",
+          "Bruker glücklich om følelsen etter at alt har ordnet seg."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

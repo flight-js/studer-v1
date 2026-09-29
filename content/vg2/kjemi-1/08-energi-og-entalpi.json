@@ -4,112 +4,235 @@
   "trinnId": "vg2",
   "name": "Energi og entalpi",
   "intro": "Eksoterme og endoterme reaksjoner, entalpiendring, bindingsenergi, Hess' lov og kalorimetri.",
-  "kompetansemaal": [4, 12],
+  "kompetansemaal": [
+    4,
+    12
+  ],
   "sammendrag": "## Energi i kjemiske reaksjoner\n\nAlle kjemiske reaksjoner gir energiendringer. Det må tilføres energi for å bryte bindingene i reaktantene, og det frigjøres energi når nye bindinger dannes i produktene. Om reaksjonen totalt avgir eller tar opp energi, avhenger av hvilke bindinger som er sterkest.\n\n## Entalpi\n\n**Entalpi** (H) er et mål på den kjemiske energien i et stoff ved konstant trykk. Vi kan ikke måle H direkte, men vi kan måle **entalpiendringen** i en reaksjon:\n\n**ΔH = H(produkter) − H(reaktanter)**\n\n- I en **eksoterm** reaksjon avgis varme til omgivelsene, som blir varmere. Produktene har lavere entalpi enn reaktantene, og ΔH er negativ.\n- I en **endoterm** reaksjon tas varme opp fra omgivelsene, som blir kaldere. ΔH er positiv.\n\nForbrenning og nøytralisering er eksoterme. Fotosyntese og oppløsning av ammoniumnitrat i vann, som i kuldeposer, er endoterme.\n\n## Termokjemiske likninger\n\nEn termokjemisk likning viser ΔH sammen med reaksjonslikningen:\n\nCH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)   ΔH = −890 kJ\n\nΔH gjelder for stoffmengdene i likningen. Brenner 2 mol metan, avgis 1780 kJ. Snur vi likningen, skifter ΔH fortegn.\n\n## Bindingsenergi\n\nMed gjennomsnittlige **bindingsenergier** kan vi anslå ΔH: energien som trengs for å bryte bindingene, minus energien som frigjøres når de nye bindingene dannes. For H₂ + Cl₂ → 2HCl brytes én H–H-binding (436 kJ/mol) og én Cl–Cl-binding (242 kJ/mol), og det dannes to H–Cl-bindinger (431 kJ/mol hver). Da blir ΔH ≈ 678 kJ − 862 kJ = −184 kJ, og reaksjonen er eksoterm.\n\n## Hess' lov\n\n**Hess' lov** sier at entalpiendringen for en reaksjon er den samme uansett hvilken vei reaksjonen går. Derfor kan vi snu, gange opp og legge sammen kjente termokjemiske likninger for å finne ΔH for reaksjoner som er vanskelige å måle direkte.\n\n**Standard dannelsesentalpi** (ΔHf°) er entalpiendringen når 1 mol av et stoff dannes fra grunnstoffene i standardtilstand. For grunnstoffer i standardtilstand er den 0. Da gjelder:\n\n**ΔH° = ΣΔHf°(produkter) − ΣΔHf°(reaktanter)**\n\n## Kalorimetri\n\nI et **kalorimeter** måler vi temperaturendringen i vann og regner ut hvor mye varme som er avgitt eller tatt opp:\n\n**q = m · c · ΔT**\n\nFor vann er c = 4,18 J/(g · °C). Blir 100 g vann 5,0 °C varmere, har vannet tatt opp 100 g · 4,18 J/(g · °C) · 5,0 °C = 2090 J, altså 2,09 kJ. Deler vi på stoffmengden som reagerte, får vi ΔH i kJ/mol. Husk fortegnet: varmer reaksjonen opp vannet, er den eksoterm og ΔH negativ.",
   "flashcards": [
-    { "term": "Entalpi (H)", "def": "Mål på den kjemiske energien i et stoff ved konstant trykk. Bare endringen, ΔH, kan måles." },
-    { "term": "Entalpiendring (ΔH)", "def": "ΔH = H(produkter) − H(reaktanter). Oppgis i kJ eller kJ/mol." },
-    { "term": "Eksoterm reaksjon", "def": "Reaksjon som avgir varme til omgivelsene. ΔH < 0." },
-    { "term": "Endoterm reaksjon", "def": "Reaksjon som tar opp varme fra omgivelsene. ΔH > 0." },
-    { "term": "System og omgivelser", "def": "Systemet er stoffene som reagerer. Omgivelsene er alt rundt, for eksempel vannet og begeret." },
-    { "term": "Termokjemisk likning", "def": "Balansert reaksjonslikning med tilstandssymboler og ΔH for stoffmengdene i likningen." },
-    { "term": "Å bryte bindinger", "def": "Krever alltid energi – er endotermt." },
-    { "term": "Å danne bindinger", "def": "Frigjør alltid energi – er eksotermt." },
-    { "term": "Bindingsenergi", "def": "Energien som trengs for å bryte 1 mol av en bestemt binding i gassfase, for eksempel 436 kJ/mol for H–H." },
-    { "term": "ΔH fra bindingsenergier", "def": "ΔH ≈ sum av bindingsenergier som brytes − sum av bindingsenergier som dannes." },
-    { "term": "Entalpidiagram", "def": "Diagram som viser entalpien til reaktanter og produkter. Ved eksoterm reaksjon ligger produktene lavest." },
-    { "term": "Hess' lov", "def": "ΔH for en reaksjon er den samme uansett hvilken vei eller hvor mange trinn reaksjonen går i." },
-    { "term": "Snu en termokjemisk likning", "def": "ΔH skifter fortegn." },
-    { "term": "Gange en termokjemisk likning", "def": "ΔH ganges med det samme tallet." },
-    { "term": "Standard dannelsesentalpi (ΔHf°)", "def": "Entalpiendringen når 1 mol av et stoff dannes fra grunnstoffene i standardtilstand. Er 0 for grunnstoffer i standardtilstand." },
-    { "term": "Forbrenningsentalpi", "def": "ΔH når 1 mol av et stoff brenner fullstendig i oksygen. Alltid negativ." },
-    { "term": "Kalorimeter", "def": "Isolert beholder der man måler temperaturendringen i vann for å bestemme varmen i en reaksjon." },
-    { "term": "q = m · c · ΔT", "def": "Varme = masse · spesifikk varmekapasitet · temperaturendring." },
-    { "term": "Spesifikk varmekapasitet (c)", "def": "Varmen som trengs for å varme 1 g av et stoff 1 °C. For vann er c = 4,18 J/(g · °C)." },
-    { "term": "Kuldepose", "def": "Pose der et salt, for eksempel ammoniumnitrat, løses i vann i en endoterm prosess, slik at posen blir kald." }
+    {
+      "term": "Entalpi (H)",
+      "def": "Mål på den kjemiske energien i et stoff ved konstant trykk. Bare endringen, ΔH, kan måles."
+    },
+    {
+      "term": "Entalpiendring (ΔH)",
+      "def": "ΔH = H(produkter) − H(reaktanter). Oppgis i kJ eller kJ/mol."
+    },
+    {
+      "term": "Eksoterm reaksjon",
+      "def": "Reaksjon som avgir varme til omgivelsene. ΔH < 0."
+    },
+    {
+      "term": "Endoterm reaksjon",
+      "def": "Reaksjon som tar opp varme fra omgivelsene. ΔH > 0."
+    },
+    {
+      "term": "System og omgivelser",
+      "def": "Systemet er stoffene som reagerer. Omgivelsene er alt rundt, for eksempel vannet og begeret."
+    },
+    {
+      "term": "Termokjemisk likning",
+      "def": "Balansert reaksjonslikning med tilstandssymboler og ΔH for stoffmengdene i likningen."
+    },
+    {
+      "term": "Å bryte bindinger",
+      "def": "Krever alltid energi – er endotermt."
+    },
+    {
+      "term": "Å danne bindinger",
+      "def": "Frigjør alltid energi – er eksotermt."
+    },
+    {
+      "term": "Bindingsenergi",
+      "def": "Energien som trengs for å bryte 1 mol av en bestemt binding i gassfase, for eksempel 436 kJ/mol for H–H."
+    },
+    {
+      "term": "ΔH fra bindingsenergier",
+      "def": "ΔH ≈ sum av bindingsenergier som brytes − sum av bindingsenergier som dannes."
+    },
+    {
+      "term": "Entalpidiagram",
+      "def": "Diagram som viser entalpien til reaktanter og produkter. Ved eksoterm reaksjon ligger produktene lavest."
+    },
+    {
+      "term": "Hess' lov",
+      "def": "ΔH for en reaksjon er den samme uansett hvilken vei eller hvor mange trinn reaksjonen går i."
+    },
+    {
+      "term": "Snu en termokjemisk likning",
+      "def": "ΔH skifter fortegn."
+    },
+    {
+      "term": "Gange en termokjemisk likning",
+      "def": "ΔH ganges med det samme tallet."
+    },
+    {
+      "term": "Standard dannelsesentalpi (ΔHf°)",
+      "def": "Entalpiendringen når 1 mol av et stoff dannes fra grunnstoffene i standardtilstand. Er 0 for grunnstoffer i standardtilstand."
+    },
+    {
+      "term": "Forbrenningsentalpi",
+      "def": "ΔH når 1 mol av et stoff brenner fullstendig i oksygen. Alltid negativ."
+    },
+    {
+      "term": "Kalorimeter",
+      "def": "Isolert beholder der man måler temperaturendringen i vann for å bestemme varmen i en reaksjon."
+    },
+    {
+      "term": "q = m · c · ΔT",
+      "def": "Varme = masse · spesifikk varmekapasitet · temperaturendring."
+    },
+    {
+      "term": "Spesifikk varmekapasitet (c)",
+      "def": "Varmen som trengs for å varme 1 g av et stoff 1 °C. For vann er c = 4,18 J/(g · °C)."
+    },
+    {
+      "term": "Kuldepose",
+      "def": "Pose der et salt, for eksempel ammoniumnitrat, løses i vann i en endoterm prosess, slik at posen blir kald."
+    }
   ],
   "quiz": [
     {
       "id": "q01",
       "text": "Hva betyr det at ΔH for en reaksjon er negativ?",
-      "options": ["Reaksjonen er endoterm og tar opp varme", "Reaksjonen kan ikke skje", "Reaksjonen er eksoterm og avgir varme", "Temperaturen i omgivelsene synker"],
+      "options": [
+        "Reaksjonen er endoterm og tar opp varme",
+        "Reaksjonen kan ikke skje",
+        "Reaksjonen er eksoterm og avgir varme",
+        "Temperaturen i omgivelsene synker"
+      ],
       "correct": 2,
       "explain": "Negativ ΔH betyr at produktene har lavere entalpi enn reaktantene. Forskjellen avgis som varme, og omgivelsene blir varmere."
     },
     {
       "id": "q02",
       "text": "Hva skjer energimessig når kjemiske bindinger brytes?",
-      "options": ["Det krever energi", "Det frigjøres energi", "Det skjer ingen energiendring", "Det dannes nye atomer"],
+      "options": [
+        "Det krever energi",
+        "Det frigjøres energi",
+        "Det skjer ingen energiendring",
+        "Det dannes nye atomer"
+      ],
       "correct": 0,
       "explain": "Atomene i en binding tiltrekker hverandre, så det må tilføres energi for å skille dem. Energi frigjøres først når nye bindinger dannes."
     },
     {
       "id": "q03",
       "text": "Et salt løses i vann, og begerglasset blir kaldt. Hva slags prosess er dette?",
-      "options": ["Eksoterm, ΔH < 0", "Verken eksoterm eller endoterm", "En redoksreaksjon", "Endoterm, ΔH > 0"],
+      "options": [
+        "Eksoterm, ΔH < 0",
+        "Verken eksoterm eller endoterm",
+        "En redoksreaksjon",
+        "Endoterm, ΔH > 0"
+      ],
       "correct": 3,
       "explain": "Prosessen tar opp varme fra omgivelsene, altså fra vannet og glasset, som derfor blir kalde. Det er endotermt, og ΔH er positiv."
     },
     {
       "id": "q04",
       "text": "CH₄ + 2O₂ → CO₂ + 2H₂O, ΔH = −890 kJ. Hvor mye varme avgis når 2 mol metan brenner?",
-      "options": ["890 kJ", "1780 kJ", "445 kJ", "3560 kJ"],
+      "options": [
+        "890 kJ",
+        "1780 kJ",
+        "445 kJ",
+        "3560 kJ"
+      ],
       "correct": 1,
       "explain": "ΔH gjelder for 1 mol metan, slik likningen står. Dobbelt så mye metan gir dobbelt så mye varme: 2 · 890 kJ = 1780 kJ."
     },
     {
       "id": "q05",
       "text": "100 g vann blir 5,0 °C varmere. Hvor mye varme har vannet tatt opp? (c = 4,18 J/(g · °C))",
-      "options": ["2,09 kJ", "20,9 kJ", "0,418 kJ", "2090 kJ"],
+      "options": [
+        "2,09 kJ",
+        "20,9 kJ",
+        "0,418 kJ",
+        "2090 kJ"
+      ],
       "correct": 0,
       "explain": "q = m · c · ΔT = 100 g · 4,18 J/(g · °C) · 5,0 °C = 2090 J = 2,09 kJ."
     },
     {
       "id": "q06",
       "text": "Reaksjonen A → B har ΔH = −100 kJ. Hva er ΔH for B → A?",
-      "options": ["−100 kJ", "0 kJ", "+100 kJ", "−200 kJ"],
+      "options": [
+        "−100 kJ",
+        "0 kJ",
+        "+100 kJ",
+        "−200 kJ"
+      ],
       "correct": 2,
       "explain": "Når en likning snus, skifter ΔH fortegn. Den energien som avgis den ene veien, må tilføres den andre veien."
     },
     {
       "id": "q07",
       "text": "Hva sier Hess' lov?",
-      "options": ["Energi kan verken skapes eller forsvinne", "Reaksjonsfarten øker med temperaturen", "Varmen i en reaksjon avhenger av hvilken vei den går", "ΔH er den samme uansett hvilken vei reaksjonen går"],
+      "options": [
+        "Energi kan verken skapes eller forsvinne",
+        "Reaksjonsfarten øker med temperaturen",
+        "Varmen i en reaksjon avhenger av hvilken vei den går",
+        "ΔH er den samme uansett hvilken vei reaksjonen går"
+      ],
       "correct": 3,
       "explain": "Entalpi er en tilstandsfunksjon: ΔH avhenger bare av start og slutt, ikke av mellomtrinnene. Derfor kan termokjemiske likninger legges sammen."
     },
     {
       "id": "q08",
       "text": "Bindingsenergier: H–H 436 kJ/mol, Cl–Cl 242 kJ/mol, H–Cl 431 kJ/mol. Hva er omtrent ΔH for H₂ + Cl₂ → 2HCl?",
-      "options": ["+247 kJ", "−184 kJ", "−247 kJ", "+184 kJ"],
+      "options": [
+        "+247 kJ",
+        "−184 kJ",
+        "−247 kJ",
+        "+184 kJ"
+      ],
       "correct": 1,
       "explain": "Bindinger som brytes: 436 + 242 = 678 kJ. Bindinger som dannes: 2 · 431 = 862 kJ. ΔH ≈ 678 − 862 = −184 kJ."
     },
     {
       "id": "q09",
       "text": "Hvilken av disse prosessene er endoterm?",
-      "options": ["Forbrenning av ved", "Nøytralisering av syre med base", "Kondensasjon av vanndamp", "Fotosyntese"],
+      "options": [
+        "Forbrenning av ved",
+        "Nøytralisering av syre med base",
+        "Kondensasjon av vanndamp",
+        "Fotosyntese"
+      ],
       "correct": 3,
       "explain": "I fotosyntesen tas energi fra sollyset opp og lagres i glukose. Forbrenning, nøytralisering og kondensasjon avgir varme."
     },
     {
       "id": "q10",
       "text": "Hva er standard dannelsesentalpi for oksygengass, O₂(g)?",
-      "options": ["−286 kJ/mol", "0 kJ/mol", "+100 kJ/mol", "Den kan ikke bestemmes"],
+      "options": [
+        "−286 kJ/mol",
+        "0 kJ/mol",
+        "+100 kJ/mol",
+        "Den kan ikke bestemmes"
+      ],
       "correct": 1,
       "explain": "O₂(g) er et grunnstoff i standardtilstand. Da skal ingenting dannes, og dannelsesentalpien er per definisjon 0."
     },
     {
       "id": "q11",
       "text": "Hvorfor er forbrenning eksoterm?",
-      "options": ["Det trengs energi for å tenne på", "Det dannes gasser", "Bindingene som dannes, er sterkere enn bindingene som brytes", "Oksygen er et grunnstoff"],
+      "options": [
+        "Det trengs energi for å tenne på",
+        "Det dannes gasser",
+        "Bindingene som dannes, er sterkere enn bindingene som brytes",
+        "Oksygen er et grunnstoff"
+      ],
       "correct": 2,
       "explain": "Når bindingene i CO₂ og H₂O dannes, frigjøres mer energi enn det som trengs for å bryte bindingene i brenselet og oksygenet. Overskuddet avgis som varme."
     },
     {
       "id": "q12",
       "text": "0,050 mol av et stoff reagerer i et kalorimeter og avgir 2,5 kJ. Hva er ΔH per mol?",
-      "options": ["−50 kJ/mol", "+50 kJ/mol", "−0,125 kJ/mol", "−125 kJ/mol"],
+      "options": [
+        "−50 kJ/mol",
+        "+50 kJ/mol",
+        "−0,125 kJ/mol",
+        "−125 kJ/mol"
+      ],
       "correct": 0,
       "explain": "2,5 kJ / 0,050 mol = 50 kJ/mol. Reaksjonen avgir varme, så ΔH er negativ: −50 kJ/mol."
     }
@@ -120,16 +243,31 @@
       {
         "label": "Bindinger",
         "children": [
-          { "label": "Bryte bindinger", "note": "Krever energi" },
-          { "label": "Danne bindinger", "note": "Frigjør energi" }
+          {
+            "label": "Bryte bindinger",
+            "note": "Krever energi"
+          },
+          {
+            "label": "Danne bindinger",
+            "note": "Frigjør energi"
+          }
         ]
       },
       {
         "label": "Entalpi",
         "children": [
-          { "label": "H", "note": "Kjemisk energi ved konstant trykk" },
-          { "label": "ΔH", "note": "H(produkter) − H(reaktanter)" },
-          { "label": "Entalpidiagram", "note": "Viser nivåene før og etter" }
+          {
+            "label": "H",
+            "note": "Kjemisk energi ved konstant trykk"
+          },
+          {
+            "label": "ΔH",
+            "note": "H(produkter) − H(reaktanter)"
+          },
+          {
+            "label": "Entalpidiagram",
+            "note": "Viser nivåene før og etter"
+          }
         ]
       },
       {
@@ -139,16 +277,24 @@
             "label": "Eksoterm",
             "note": "ΔH < 0, avgir varme",
             "children": [
-              { "label": "Forbrenning" },
-              { "label": "Nøytralisering" }
+              {
+                "label": "Forbrenning"
+              },
+              {
+                "label": "Nøytralisering"
+              }
             ]
           },
           {
             "label": "Endoterm",
             "note": "ΔH > 0, tar opp varme",
             "children": [
-              { "label": "Fotosyntese" },
-              { "label": "Kuldepose" }
+              {
+                "label": "Fotosyntese"
+              },
+              {
+                "label": "Kuldepose"
+              }
             ]
           }
         ]
@@ -156,31 +302,65 @@
       {
         "label": "Termokjemiske likninger",
         "children": [
-          { "label": "Snu likningen", "note": "ΔH skifter fortegn" },
-          { "label": "Gange likningen", "note": "ΔH ganges likt" }
+          {
+            "label": "Snu likningen",
+            "note": "ΔH skifter fortegn"
+          },
+          {
+            "label": "Gange likningen",
+            "note": "ΔH ganges likt"
+          }
         ]
       },
       {
         "label": "Beregne ΔH",
         "children": [
-          { "label": "Bindingsenergier", "note": "Brutt − dannet" },
-          { "label": "Hess' lov", "note": "Samme ΔH uansett vei" },
-          { "label": "Dannelsesentalpier", "note": "Produkter − reaktanter" }
+          {
+            "label": "Bindingsenergier",
+            "note": "Brutt − dannet"
+          },
+          {
+            "label": "Hess' lov",
+            "note": "Samme ΔH uansett vei"
+          },
+          {
+            "label": "Dannelsesentalpier",
+            "note": "Produkter − reaktanter"
+          }
         ]
       },
       {
         "label": "Kalorimetri",
         "children": [
-          { "label": "q = m · c · ΔT" },
-          { "label": "c for vann", "note": "4,18 J/(g · °C)" },
-          { "label": "ΔH per mol", "note": "Varme delt på stoffmengde" }
+          {
+            "label": "q = m · c · ΔT"
+          },
+          {
+            "label": "c for vann",
+            "note": "4,18 J/(g · °C)"
+          },
+          {
+            "label": "ΔH per mol",
+            "note": "Varme delt på stoffmengde"
+          }
         ]
       }
     ]
   },
   "miniprove": {
     "minutter": 20,
-    "quizRefs": ["q01", "q03", "q04", "q05", "q06", "q07", "q08", "q10", "q11", "q12"],
+    "quizRefs": [
+      "q01",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q10",
+      "q11",
+      "q12"
+    ],
     "ekstra": [
       {
         "id": "m01",
@@ -193,7 +373,12 @@
         "id": "m02",
         "type": "flervalg",
         "text": "C + O₂ → CO₂ har ΔH = −394 kJ, og CO + ½O₂ → CO₂ har ΔH = −283 kJ. Hva er ΔH for C + ½O₂ → CO?",
-        "options": ["−677 kJ", "−111 kJ", "+111 kJ", "−394 kJ"],
+        "options": [
+          "−677 kJ",
+          "−111 kJ",
+          "+111 kJ",
+          "−394 kJ"
+        ],
         "correct": 1,
         "explain": "Snu den andre likningen (CO₂ → CO + ½O₂, ΔH = +283 kJ) og legg den til den første: −394 kJ + 283 kJ = −111 kJ."
       },
@@ -208,7 +393,12 @@
         "id": "m04",
         "type": "flervalg",
         "text": "Hvilken enhet har spesifikk varmekapasitet?",
-        "options": ["J/(g · °C)", "kJ/mol", "J · g", "°C/J"],
+        "options": [
+          "J/(g · °C)",
+          "kJ/mol",
+          "J · g",
+          "°C/J"
+        ],
         "correct": 0,
         "explain": "Spesifikk varmekapasitet er varmen per gram per grad, altså J/(g · °C). For vann er den 4,18 J/(g · °C)."
       },
@@ -223,7 +413,12 @@
         "id": "m06",
         "type": "flervalg",
         "text": "Hvor ligger produktene i et entalpidiagram for en endoterm reaksjon?",
-        "options": ["Lavere enn reaktantene", "På samme nivå som reaktantene", "Høyere enn reaktantene", "Alltid under null"],
+        "options": [
+          "Lavere enn reaktantene",
+          "På samme nivå som reaktantene",
+          "Høyere enn reaktantene",
+          "Alltid under null"
+        ],
         "correct": 2,
         "explain": "I en endoterm reaksjon tas energi opp, så produktene får høyere entalpi enn reaktantene."
       },
@@ -231,7 +426,12 @@
         "id": "m07",
         "type": "flervalg",
         "text": "200 g vann blir 3,0 °C varmere. Hvor mye varme er tatt opp? (c = 4,18 J/(g · °C))",
-        "options": ["25 kJ", "0,60 kJ", "250 kJ", "2,5 kJ"],
+        "options": [
+          "25 kJ",
+          "0,60 kJ",
+          "250 kJ",
+          "2,5 kJ"
+        ],
         "correct": 3,
         "explain": "q = 200 g · 4,18 J/(g · °C) · 3,0 °C = 2508 J ≈ 2,5 kJ."
       },
@@ -241,6 +441,80 @@
         "text": "Hvis en termokjemisk likning ganges med 2, blir også ΔH dobbelt så stor.",
         "correct": true,
         "explain": "Dobbelt så store stoffmengder gir dobbelt så stor energiendring."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva beskriver entalpi H, og hvordan skiller entalpiendringen ΔH seg fra entalpi?",
+        "fasit": "Entalpi er et mål på den kjemiske energien i et stoff ved konstant trykk. Entalpiendringen er forskjellen mellom produktenes og reaktantenes entalpi, og det er ΔH vi kan måle.",
+        "kriterier": [
+          "Forklarer at H beskriver kjemisk energi ved konstant trykk.",
+          "Forklarer at ΔH er forskjellen mellom produktenes og reaktantenes entalpi, og at H ikke måles direkte."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Når en reaksjon skjer, brytes bindinger i reaktantene og nye bindinger dannes i produktene. Forklar hvordan disse to prosessene påvirker energien, og hva som avgjør om reaksjonen totalt avgir eller tar opp energi.",
+        "fasit": "Det krever energi å bryte bindinger, mens det frigjøres energi når bindinger dannes. Om reaksjonen totalt avgir eller tar opp energi, avhenger av om det frigjøres mer eller mindre energi ved bindingene som dannes enn det som kreves for å bryte bindingene.",
+        "kriterier": [
+          "Får fram at bindinger må tilføres energi for å brytes, og at bindinger frigjør energi når de dannes.",
+          "Knytter netto energiendring til balansen mellom energien som kreves og energien som frigjøres."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign en eksoterm og en endoterm reaksjon. Ta med hvilken vei varmen går, hvordan omgivelsene påvirkes, og fortegnet til ΔH.",
+        "fasit": "I en eksoterm reaksjon går varme fra systemet til omgivelsene, som blir varmere, og ΔH er negativ. I en endoterm reaksjon går varme fra omgivelsene til systemet, omgivelsene blir kaldere, og ΔH er positiv.",
+        "kriterier": [
+          "Beskriver riktig varmeoverføring og fortegn for eksoterme reaksjoner.",
+          "Beskriver riktig varmeoverføring og fortegn for endoterme reaksjoner."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I et kalorimeter blir vannet varmere mens en reaksjon skjer. Beskriv hva temperaturøkningen forteller om varmeoverføringen mellom systemet og omgivelsene, og klassifiser reaksjonen.",
+        "fasit": "Vannet er en del av omgivelsene og har tatt opp varme fra systemet. Reaksjonen er derfor eksoterm, og ΔH er negativ.",
+        "kriterier": [
+          "Forklarer at vannet i omgivelsene tar opp varme fra reaksjonssystemet.",
+          "Klassifiserer reaksjonen som eksoterm og knytter dette til negativ ΔH."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hva viser en termokjemisk likning i tillegg til hvilke stoffer som reagerer og dannes? Forklar også hva ΔH-verdien gjelder for.",
+        "fasit": "En termokjemisk likning viser ΔH sammen med en balansert reaksjonslikning og tilstandssymboler. ΔH gjelder for stoffmengdene som står i likningen.",
+        "kriterier": [
+          "Nevner at likningen viser ΔH og tilstandssymboler sammen med reaksjonslikningen.",
+          "Forklarer at ΔH gjelder for stoffmengdene i likningen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hva standard dannelsesentalpi beskriver, og hvilken standard dannelsesentalpi grunnstoffer i standardtilstand har.",
+        "fasit": "Standard dannelsesentalpi er entalpiendringen når 1 mol av et stoff dannes fra grunnstoffene i standardtilstand. For grunnstoffer i standardtilstand er standard dannelsesentalpi 0.",
+        "kriterier": [
+          "Forklarer at størrelsen gjelder dannelse av 1 mol fra grunnstoffer i standardtilstand.",
+          "Oppgir at verdien for grunnstoffer i standardtilstand er 0."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I reaksjonen H₂ + Cl₂ → 2HCl brytes én H–H-binding med bindingsenergi 436 kJ/mol og én Cl–Cl-binding med bindingsenergi 242 kJ/mol. Hvor mye energi trengs for å bryte disse bindingene til sammen? Vis regnestykket.",
+        "fasit": "Energien som trengs, er 436 kJ + 242 kJ = 678 kJ.",
+        "kriterier": [
+          "Legger sammen bindingsenergiene for én H–H-binding og én Cl–Cl-binding.",
+          "Oppgir 678 kJ som svaret."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "For reaksjonen CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l) er ΔH = −890 kJ for stoffmengdene i likningen. Hvor mye varme avgis når 0,5 mol metan brenner? Vis det viktigste regnestykket.",
+        "fasit": "0,5 mol er halvparten av 1 mol metan, så varmen som avgis er 890 kJ ÷ 2 = 445 kJ.",
+        "kriterier": [
+          "Bruker at 0,5 mol er halvparten av stoffmengden metan i likningen.",
+          "Beregner at 445 kJ varme avgis."
+        ]
       }
     ]
   },

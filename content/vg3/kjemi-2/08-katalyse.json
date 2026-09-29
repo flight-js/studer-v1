@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Katalyse",
   "intro": "Hvordan katalysatorer virker ved å senke aktiveringsenergien, homogen og heterogen katalyse, enzymer som biologiske katalysatorer med aktivt sete, temperatur- og pH-optimum og hemmere – og katalysatorenes betydning i industrien, bilen og grønn kjemi.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Hva er en katalysator?\n\nEn **katalysator** er et stoff som øker **reaksjonsfarten** uten selv å bli **forbrukt**. Katalysatoren tas med i reaksjonen, men dannes igjen på slutten.\n\n## Aktiveringsenergi\n\nFor at en reaksjon skal skje, må partiklene **kollidere** med nok energi – **aktiveringsenergien**. En katalysator gir reaksjonen en **alternativ vei** med **lavere** aktiveringsenergi. Da får flere kollisjoner nok energi, og reaksjonen går **raskere**.\n\nKatalysatoren\n\n- endrer **ikke** ΔH for reaksjonen\n- endrer **ikke** likevekten, men gjør at likevekt nås **raskere**\n- virker **begge veier** i en likevektsreaksjon\n\n## Homogen og heterogen katalyse\n\n- **Homogen** katalyse: Katalysatoren er i **samme fase** som reaktantene, for eksempel en syre som katalyserer esterdannelse i løsning.\n- **Heterogen** katalyse: Katalysatoren er i en **annen fase**, ofte et **fast stoff** med gasser eller væsker rundt. Reaktantene **adsorberes** på overflaten, bindinger svekkes, og produktene slippes løs. En **stor overflate** gir mer effektiv katalyse.\n\n## Enzymer\n\n**Enzymer** er **biologiske katalysatorer**, som regel **proteiner**. Nesten alle reaksjoner i levende organismer er katalysert av enzymer.\n\n- Reaktanten kalles **substratet**. Det binder seg til enzymets **aktive sete**.\n- Etter **nøkkel–lås-modellen** passer substratet i det aktive setet. Den nyere **indusert tilpasning**-modellen sier at det aktive setet **endrer form** litt når substratet bindes.\n- Enzymer er svært **spesifikke** – hvert enzym katalyserer ofte bare én reaksjon.\n\nEnzymer har et **temperaturoptimum** og et **pH-optimum**. Ved for høy temperatur eller feil pH endres proteinets **form** – det **denatureres** – og enzymet slutter å virke. Mange av kroppens enzymer virker best rundt **37 °C**. **Pepsin** i magesekken virker best i **sur** løsning, mens enzymer i tynntarmen virker best ved nøytral til svakt basisk pH.\n\n**Hemmere** kan binde seg til enzymet og gjøre det mindre aktivt. Mange **medisiner** virker ved å hemme bestemte enzymer.\n\n## Katalysatorer i industrien\n\n- **Haber–Bosch**: En **jernkatalysator** gjør produksjonen av **ammoniakk** effektiv.\n- **Ostwald-prosessen**: **Platina** katalyserer produksjonen av **salpetersyre**, som brukes i kunstgjødsel.\n- **Oljeraffinering**: Katalysatorer bryter store hydrokarboner ned til bensin og andre produkter.\n- **Plastproduksjon**: Katalysatorer styrer hvordan polymerer bygges opp.\n\n## Katalysatoren i bilen\n\n**Katalysatoren** i bensinbiler inneholder metaller som **platina**, **palladium** og **rhodium**. Den gjør giftige gasser om til mindre skadelige stoffer: **CO** blir til **CO₂**, **nitrogenoksider** blir til **N₂**, og **uforbrente hydrokarboner** blir til CO₂ og vann.\n\n## Katalyse og grønn kjemi\n\nKatalysatorer er et av **prinsippene i grønn kjemi**. De gir **lavere** energiforbruk, **færre** biprodukter og mindre **avfall**. Bruk av **enzymer** i industrien – for eksempel i vaskemidler, næringsmidler og biodrivstoff – kan erstatte prosesser som krever høy temperatur og farlige kjemikalier.",
   "flashcards": [
-    { "term": "Katalysator", "def": "Stoff som øker reaksjonsfarten uten å bli forbrukt." },
-    { "term": "Aktiveringsenergi", "def": "Minste energi som trengs for at en reaksjon skal skje." },
-    { "term": "Alternativ reaksjonsvei", "def": "Katalysatoren gir en vei med lavere aktiveringsenergi." },
-    { "term": "Homogen katalyse", "def": "Katalysatoren er i samme fase som reaktantene." },
-    { "term": "Heterogen katalyse", "def": "Katalysatoren er i en annen fase, ofte et fast stoff." },
-    { "term": "Adsorpsjon", "def": "At molekyler binder seg til en overflate." },
-    { "term": "Enzym", "def": "Biologisk katalysator, som regel et protein." },
-    { "term": "Substrat", "def": "Stoffet et enzym virker på." },
-    { "term": "Aktivt sete", "def": "Stedet på enzymet der substratet bindes." },
-    { "term": "Nøkkel–lås-modellen", "def": "Substratet passer i det aktive setet som en nøkkel i en lås." },
-    { "term": "Indusert tilpasning", "def": "Det aktive setet endrer form litt når substratet bindes." },
-    { "term": "Denaturering", "def": "Proteinets form ødelegges av varme eller feil pH." },
-    { "term": "Pepsin", "def": "Enzym i magesekken som virker best i sur løsning." },
-    { "term": "Hemmer", "def": "Stoff som gjør et enzym mindre aktivt." },
-    { "term": "Bilkatalysator", "def": "Platina, palladium og rhodium som renser eksosen." }
+    {
+      "term": "Katalysator",
+      "def": "Stoff som øker reaksjonsfarten uten å bli forbrukt."
+    },
+    {
+      "term": "Aktiveringsenergi",
+      "def": "Minste energi som trengs for at en reaksjon skal skje."
+    },
+    {
+      "term": "Alternativ reaksjonsvei",
+      "def": "Katalysatoren gir en vei med lavere aktiveringsenergi."
+    },
+    {
+      "term": "Homogen katalyse",
+      "def": "Katalysatoren er i samme fase som reaktantene."
+    },
+    {
+      "term": "Heterogen katalyse",
+      "def": "Katalysatoren er i en annen fase, ofte et fast stoff."
+    },
+    {
+      "term": "Adsorpsjon",
+      "def": "At molekyler binder seg til en overflate."
+    },
+    {
+      "term": "Enzym",
+      "def": "Biologisk katalysator, som regel et protein."
+    },
+    {
+      "term": "Substrat",
+      "def": "Stoffet et enzym virker på."
+    },
+    {
+      "term": "Aktivt sete",
+      "def": "Stedet på enzymet der substratet bindes."
+    },
+    {
+      "term": "Nøkkel–lås-modellen",
+      "def": "Substratet passer i det aktive setet som en nøkkel i en lås."
+    },
+    {
+      "term": "Indusert tilpasning",
+      "def": "Det aktive setet endrer form litt når substratet bindes."
+    },
+    {
+      "term": "Denaturering",
+      "def": "Proteinets form ødelegges av varme eller feil pH."
+    },
+    {
+      "term": "Pepsin",
+      "def": "Enzym i magesekken som virker best i sur løsning."
+    },
+    {
+      "term": "Hemmer",
+      "def": "Stoff som gjør et enzym mindre aktivt."
+    },
+    {
+      "term": "Bilkatalysator",
+      "def": "Platina, palladium og rhodium som renser eksosen."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan øker en katalysator reaksjonsfarten?", "options": ["Ved å øke temperaturen", "Ved å gi en vei med lavere aktiveringsenergi", "Ved å endre ΔH", "Ved å bli forbrukt"], "correct": 1, "explain": "Flere kollisjoner har nok energi." },
-    { "id": "q02", "text": "Endrer en katalysator likevekten?", "options": ["Nei, men likevekt nås raskere", "Ja, mot produktene", "Ja, mot reaktantene", "Ja, den øker K"], "correct": 0, "explain": "Den virker begge veier." },
-    { "id": "q03", "text": "Hva er heterogen katalyse?", "options": ["Katalysator og reaktanter i samme fase", "Katalyse uten katalysator", "Katalysatoren er i en annen fase enn reaktantene", "Katalyse i kroppen"], "correct": 2, "explain": "Ofte et fast stoff med gass rundt." },
-    { "id": "q04", "text": "Hva er det aktive setet?", "options": ["Produktet", "Katalysatorens overflate i bilen", "Et hormon", "Stedet på enzymet der substratet bindes"], "correct": 3, "explain": "Gir enzymet dets spesifisitet." },
-    { "id": "q05", "text": "Hva skjer med et enzym ved for høy temperatur?", "options": ["Det denatureres og slutter å virke", "Det blir raskere for alltid", "Ingenting", "Det blir til et substrat"], "correct": 0, "explain": "Proteinets form ødelegges." },
-    { "id": "q06", "text": "Hvor virker pepsin best?", "options": ["I basisk løsning", "I sur løsning i magesekken", "Ved 100 °C", "I lungene"], "correct": 1, "explain": "Tilpasset magesyren." },
-    { "id": "q07", "text": "Hvilken katalysator brukes i Haber–Bosch-prosessen?", "options": ["Platina", "Et enzym", "Jern", "Nikkel"], "correct": 2, "explain": "For ammoniakkproduksjon." },
-    { "id": "q08", "text": "Hva gjør bilkatalysatoren med CO?", "options": ["Gjør det til metan", "Gjør det til N₂", "Lar det være", "Gjør det til CO₂"], "correct": 3, "explain": "Mindre giftig." },
-    { "id": "q09", "text": "Hvordan virker mange medisiner?", "options": ["Ved å hemme bestemte enzymer", "Ved å denaturere alle proteiner", "Ved å øke temperaturen", "Ved å endre DNA"], "correct": 0, "explain": "Enzymhemmere." },
-    { "id": "q10", "text": "Hvorfor er katalysatorer viktige i grønn kjemi?", "options": ["De øker avfallet", "De gir lavere energiforbruk og færre biprodukter", "De er alltid giftige", "De krever høy temperatur"], "correct": 1, "explain": "Et av prinsippene i grønn kjemi." }
+    {
+      "id": "q01",
+      "text": "Hvordan øker en katalysator reaksjonsfarten?",
+      "options": [
+        "Ved å øke temperaturen",
+        "Ved å gi en vei med lavere aktiveringsenergi",
+        "Ved å endre ΔH",
+        "Ved å bli forbrukt"
+      ],
+      "correct": 1,
+      "explain": "Flere kollisjoner har nok energi."
+    },
+    {
+      "id": "q02",
+      "text": "Endrer en katalysator likevekten?",
+      "options": [
+        "Nei, men likevekt nås raskere",
+        "Ja, mot produktene",
+        "Ja, mot reaktantene",
+        "Ja, den øker K"
+      ],
+      "correct": 0,
+      "explain": "Den virker begge veier."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er heterogen katalyse?",
+      "options": [
+        "Katalysator og reaktanter i samme fase",
+        "Katalyse uten katalysator",
+        "Katalysatoren er i en annen fase enn reaktantene",
+        "Katalyse i kroppen"
+      ],
+      "correct": 2,
+      "explain": "Ofte et fast stoff med gass rundt."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er det aktive setet?",
+      "options": [
+        "Produktet",
+        "Katalysatorens overflate i bilen",
+        "Et hormon",
+        "Stedet på enzymet der substratet bindes"
+      ],
+      "correct": 3,
+      "explain": "Gir enzymet dets spesifisitet."
+    },
+    {
+      "id": "q05",
+      "text": "Hva skjer med et enzym ved for høy temperatur?",
+      "options": [
+        "Det denatureres og slutter å virke",
+        "Det blir raskere for alltid",
+        "Ingenting",
+        "Det blir til et substrat"
+      ],
+      "correct": 0,
+      "explain": "Proteinets form ødelegges."
+    },
+    {
+      "id": "q06",
+      "text": "Hvor virker pepsin best?",
+      "options": [
+        "I basisk løsning",
+        "I sur løsning i magesekken",
+        "Ved 100 °C",
+        "I lungene"
+      ],
+      "correct": 1,
+      "explain": "Tilpasset magesyren."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken katalysator brukes i Haber–Bosch-prosessen?",
+      "options": [
+        "Platina",
+        "Et enzym",
+        "Jern",
+        "Nikkel"
+      ],
+      "correct": 2,
+      "explain": "For ammoniakkproduksjon."
+    },
+    {
+      "id": "q08",
+      "text": "Hva gjør bilkatalysatoren med CO?",
+      "options": [
+        "Gjør det til metan",
+        "Gjør det til N₂",
+        "Lar det være",
+        "Gjør det til CO₂"
+      ],
+      "correct": 3,
+      "explain": "Mindre giftig."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan virker mange medisiner?",
+      "options": [
+        "Ved å hemme bestemte enzymer",
+        "Ved å denaturere alle proteiner",
+        "Ved å øke temperaturen",
+        "Ved å endre DNA"
+      ],
+      "correct": 0,
+      "explain": "Enzymhemmere."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor er katalysatorer viktige i grønn kjemi?",
+      "options": [
+        "De øker avfallet",
+        "De gir lavere energiforbruk og færre biprodukter",
+        "De er alltid giftige",
+        "De krever høy temperatur"
+      ],
+      "correct": 1,
+      "explain": "Et av prinsippene i grønn kjemi."
+    }
   ],
   "mindmap": {
     "label": "Katalyse",
     "children": [
-      { "label": "Virkemåte", "children": [
-        { "label": "Lavere aktiveringsenergi" },
-        { "label": "Ikke forbrukt" },
-        { "label": "Samme likevekt" }
-      ] },
-      { "label": "Typer", "children": [
-        { "label": "Homogen" },
-        { "label": "Heterogen og overflate" }
-      ] },
-      { "label": "Enzymer", "children": [
-        { "label": "Aktivt sete og substrat" },
-        { "label": "Temperatur- og pH-optimum" },
-        { "label": "Hemmere" }
-      ] },
-      { "label": "Industri", "children": [
-        { "label": "Haber–Bosch" },
-        { "label": "Ostwald" },
-        { "label": "Oljeraffinering" }
-      ] },
-      { "label": "Miljø", "children": [
-        { "label": "Bilkatalysator" },
-        { "label": "Grønn kjemi" }
-      ] }
+      {
+        "label": "Virkemåte",
+        "children": [
+          {
+            "label": "Lavere aktiveringsenergi"
+          },
+          {
+            "label": "Ikke forbrukt"
+          },
+          {
+            "label": "Samme likevekt"
+          }
+        ]
+      },
+      {
+        "label": "Typer",
+        "children": [
+          {
+            "label": "Homogen"
+          },
+          {
+            "label": "Heterogen og overflate"
+          }
+        ]
+      },
+      {
+        "label": "Enzymer",
+        "children": [
+          {
+            "label": "Aktivt sete og substrat"
+          },
+          {
+            "label": "Temperatur- og pH-optimum"
+          },
+          {
+            "label": "Hemmere"
+          }
+        ]
+      },
+      {
+        "label": "Industri",
+        "children": [
+          {
+            "label": "Haber–Bosch"
+          },
+          {
+            "label": "Ostwald"
+          },
+          {
+            "label": "Oljeraffinering"
+          }
+        ]
+      },
+      {
+        "label": "Miljø",
+        "children": [
+          {
+            "label": "Bilkatalysator"
+          },
+          {
+            "label": "Grønn kjemi"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En katalysator endrer ikke ΔH for reaksjonen.", "correct": true, "explain": "Bare aktiveringsenergien." },
-      { "id": "m02", "type": "sant-usant", "text": "Enzymer kan katalysere nesten alle typer reaksjoner uten å være spesifikke.", "correct": false, "explain": "De er svært spesifikke." },
-      { "id": "m03", "type": "sant-usant", "text": "Stor overflate gir mer effektiv heterogen katalyse.", "correct": true, "explain": "Flere steder å adsorbere på." },
-      { "id": "m04", "type": "sant-usant", "text": "En katalysator blir brukt opp i reaksjonen.", "correct": false, "explain": "Den dannes igjen på slutten." },
-      { "id": "m05", "type": "flervalg", "text": "Hva katalyserer platina i Ostwald-prosessen?", "options": ["Ammoniakkproduksjon", "Salpetersyreproduksjon", "Oljeraffinering", "Esterdannelse"], "correct": 1, "explain": "Brukes til kunstgjødsel." },
-      { "id": "m06", "type": "flervalg", "text": "Hva sier modellen om indusert tilpasning?", "options": ["Det aktive setet endrer form litt når substratet bindes", "Substratet endrer ikke enzymet", "Enzymet brytes ned", "Enzymet er alltid stivt"], "correct": 0, "explain": "En videreutvikling av nøkkel–lås-modellen." },
-      { "id": "m07", "type": "flervalg", "text": "Hvor brukes enzymer industrielt?", "options": ["Bare i bilkatalysatorer", "Bare i ammoniakkproduksjon", "I vaskemidler, næringsmidler og biodrivstoff", "Ingen steder"], "correct": 2, "explain": "Kan erstatte energikrevende prosesser." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En katalysator endrer ikke ΔH for reaksjonen.",
+        "correct": true,
+        "explain": "Bare aktiveringsenergien."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Enzymer kan katalysere nesten alle typer reaksjoner uten å være spesifikke.",
+        "correct": false,
+        "explain": "De er svært spesifikke."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Stor overflate gir mer effektiv heterogen katalyse.",
+        "correct": true,
+        "explain": "Flere steder å adsorbere på."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En katalysator blir brukt opp i reaksjonen.",
+        "correct": false,
+        "explain": "Den dannes igjen på slutten."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva katalyserer platina i Ostwald-prosessen?",
+        "options": [
+          "Ammoniakkproduksjon",
+          "Salpetersyreproduksjon",
+          "Oljeraffinering",
+          "Esterdannelse"
+        ],
+        "correct": 1,
+        "explain": "Brukes til kunstgjødsel."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva sier modellen om indusert tilpasning?",
+        "options": [
+          "Det aktive setet endrer form litt når substratet bindes",
+          "Substratet endrer ikke enzymet",
+          "Enzymet brytes ned",
+          "Enzymet er alltid stivt"
+        ],
+        "correct": 0,
+        "explain": "En videreutvikling av nøkkel–lås-modellen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvor brukes enzymer industrielt?",
+        "options": [
+          "Bare i bilkatalysatorer",
+          "Bare i ammoniakkproduksjon",
+          "I vaskemidler, næringsmidler og biodrivstoff",
+          "Ingen steder"
+        ],
+        "correct": 2,
+        "explain": "Kan erstatte energikrevende prosesser."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign homogen og heterogen katalyse. Forklar hvordan fasen til katalysatoren skiller seg fra reaktantenes fase, og gi ett eksempel på hver type.",
+        "fasit": "Ved homogen katalyse er katalysatoren i samme fase som reaktantene, for eksempel en syre som katalyserer esterdannelse i løsning. Ved heterogen katalyse er katalysatoren i en annen fase, ofte et fast stoff, mens reaktantene er gasser eller væsker.",
+        "kriterier": [
+          "Forklarer riktig hvordan fasene er like eller ulike i de to katalysetypene.",
+          "Gir et relevant eksempel på begge typene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hvordan adsorpsjon bidrar til heterogen katalyse, og hvorfor en stor overflate kan gjøre katalysen mer effektiv.",
+        "fasit": "Ved adsorpsjon binder reaktantmolekyler seg til katalysatorens overflate. Der kan bindinger i reaktantene svekkes, og en stor overflate gir plass til flere molekyler.",
+        "kriterier": [
+          "Forklarer at reaktantene binder seg til katalysatorens overflate.",
+          "Knytter stor overflate til plass for flere reaktanter og mer effektiv katalyse."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen mellom nøkkel–lås-modellen og indusert tilpasning for hvordan et substrat binder seg til et enzym.",
+        "fasit": "I nøkkel–lås-modellen passer substratet inn i det aktive setet som det er. Ved indusert tilpasning endrer det aktive setet form litt når substratet bindes.",
+        "kriterier": [
+          "Beskriver nøkkel–lås som at substratet passer i det aktive setet.",
+          "Forklarer at det aktive setet endrer form litt ved indusert tilpasning."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Pepsin virker best i sur løsning. Enzymet plasseres i en løsning med nøytral pH. Bruk kunnskapen om enzymer til å forklare hva som kan skje med enzymets aktivitet.",
+        "fasit": "Pepsin virker ikke best ved nøytral pH, fordi det har optimum i sur løsning. Feil pH kan endre proteinets form og dermed gjøre enzymet mindre aktivt eller få det til å slutte å virke.",
+        "kriterier": [
+          "Knytter pepsins beste aktivitet til sur løsning og forklarer at nøytral pH ikke er optimum.",
+          "Forklarer at feil pH kan endre enzymets form og redusere eller stoppe aktiviteten."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En katalysator gir en reaksjon en alternativ vei med lavere aktiveringsenergi. Forklar hvordan reaksjonsfarten kan øke uten at reaksjonens ΔH endres.",
+        "fasit": "Den lavere aktiveringsenergien gjør at flere kollisjoner har nok energi til at reaksjonen skjer, så reaksjonen går raskere. Katalysatoren endrer ikke ΔH, som er forskjellen i energi mellom reaktanter og produkter.",
+        "kriterier": [
+          "Knytter lavere aktiveringsenergi til at flere kollisjoner kan føre til reaksjon.",
+          "Skiller mellom økt reaksjonsfart og at ΔH ikke endres."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En fabrikk skal velge mellom to prosesser: Haber–Bosch-produksjon av ammoniakk og Ostwald-prosessen for salpetersyre. Hvilket katalysatormetall brukes i hver prosess, og hva brukes salpetersyren til?",
+        "fasit": "I Haber–Bosch-prosessen brukes jern som katalysator, mens platina brukes i Ostwald-prosessen. Salpetersyren fra Ostwald-prosessen brukes i kunstgjødsel.",
+        "kriterier": [
+          "Knytter jern til Haber–Bosch og platina til Ostwald-prosessen.",
+          "Nevner at salpetersyre brukes i kunstgjødsel."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Bilkatalysatoren gjør CO om til CO₂, nitrogenoksider om til N₂ og uforbrente hydrokarboner om til CO₂ og vann. Regn ut hvor mange produktoppføringer det blir til sammen når gjentatt CO₂ telles på nytt for hver omdanning.",
+        "fasit": "Det blir 1 + 1 + 2 = 4 produktoppføringer: CO₂, N₂, CO₂ og vann.",
+        "kriterier": [
+          "Viser opptellingen 1 + 1 + 2.",
+          "Oppgir totalt 4 produktoppføringer."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Fire industrielle bruksområder for katalysatorer er Haber–Bosch-prosessen, Ostwald-prosessen, oljeraffinering og plastproduksjon. Regn ut hvor mange av de fire bruksområdene som er knyttet til produksjon av et navngitt stoff eller materiale i beskrivelsene: ammoniakk, salpetersyre, bensin og andre produkter, eller polymerer.",
+        "fasit": "Alle fire bruksområdene er knyttet til produksjon av et navngitt stoff eller materiale. Regnestykket er 4 av 4.",
+        "kriterier": [
+          "Teller alle de fire oppgitte bruksområdene med.",
+          "Oppgir 4 av 4."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

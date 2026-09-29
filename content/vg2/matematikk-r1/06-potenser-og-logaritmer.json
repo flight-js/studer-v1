@@ -4,80 +4,430 @@
   "trinnId": "vg2",
   "name": "Potenser, logaritmer og likninger",
   "intro": "Potensreglene, briggske og naturlige logaritmer, logaritmereglene og strategier for å løse eksponentiallikninger og logaritmelikninger – med anvendelser som pH og desibel.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Potensregler\n\nFor a > 0 og alle reelle m og n:\n\n- aᵐ · aⁿ = aᵐ⁺ⁿ\n- aᵐ / aⁿ = aᵐ⁻ⁿ\n- (aᵐ)ⁿ = aᵐ·ⁿ\n- (a · b)ⁿ = aⁿ · bⁿ\n- a⁰ = 1\n- a⁻ⁿ = 1 / aⁿ\n- a^(1/n) = ⁿ√a, for eksempel 8^(1/3) = 2\n\n## Logaritmer\n\nLogaritmen svarer på spørsmålet: **Hvilken eksponent må grunntallet opphøyes i?**\n\n- **Briggske logaritmer** (grunntall 10): lg x = y betyr 10ʸ = x. lg 1000 = **3**.\n- **Naturlige logaritmer** (grunntall e): ln x = y betyr eʸ = x. ln e = **1**.\n\nNoen verdier å huske: lg 1 = ln 1 = 0, lg 10 = 1, og logaritmen er bare definert for **x > 0**.\n\nLogaritmen og eksponentialfunksjonen **opphever** hverandre:\n\n10^(lg x) = x, lg(10ˣ) = x, e^(ln x) = x og ln(eˣ) = x\n\n## Logaritmereglene\n\n- lg(a · b) = lg a + lg b\n- lg(a / b) = lg a − lg b\n- lg(aⁿ) = n · lg a\n\nDe samme reglene gjelder for ln. Reglene følger direkte av potensreglene.\n\n## Eksponentiallikninger\n\n**1. Samme grunntall**: 2ˣ = 32 = 2⁵ gir **x = 5**.\n\n**2. Isoler potensen først**: 3 · 2ˣ = 48 gir 2ˣ = 16, så **x = 4**.\n\n**3. Ta logaritmen på begge sider**: 5ˣ = 20\n\nlg 5ˣ = lg 20 → x · lg 5 = lg 20 → x = lg 20 / lg 5 ≈ **1,86**\n\n**4. Med e**: eˣ = 7 gir x = ln 7 ≈ **1,95**.\n\n**5. Andregradslikning i eˣ**: e²ˣ − 3eˣ + 2 = 0. Sett u = eˣ: u² − 3u + 2 = 0 gir u = 1 eller u = 2, altså **x = 0** eller **x = ln 2**.\n\n## Logaritmelikninger\n\n**1. Bruk definisjonen**: lg x = 2 gir x = 10² = **100**.\n\n**2. Slå sammen med reglene**: lg x + lg(x + 3) = 1\n\nlg(x(x + 3)) = 1 → x² + 3x = 10 → x² + 3x − 10 = 0 → x = 2 eller x = −5\n\nLogaritmen er bare definert for positive tall, så **x = 2** er eneste løsning. **Sett alltid prøve** på løsningene!\n\n## Anvendelser\n\n- **pH** = −lg[H₃O⁺]. En løsning med [H₃O⁺] = 10⁻³ mol/L har pH = **3**. Én enhet lavere pH betyr **ti ganger** så sur løsning.\n- **Lydnivå** i desibel er en logaritmisk skala: 10 dB mer betyr ti ganger så stor lydintensitet.\n- **Richterskalaen** for jordskjelv er også logaritmisk.\n- **Tid i vekstmodeller**: Hvor lang tid tar det før et beløp dobles? Da må du løse en eksponentiallikning.",
   "flashcards": [
-    { "term": "aᵐ · aⁿ", "def": "aᵐ⁺ⁿ" },
-    { "term": "(aᵐ)ⁿ", "def": "aᵐ·ⁿ" },
-    { "term": "a⁻ⁿ", "def": "1/aⁿ" },
-    { "term": "a^(1/n)", "def": "ⁿ√a" },
-    { "term": "lg x = y", "def": "10ʸ = x" },
-    { "term": "ln x = y", "def": "eʸ = x" },
-    { "term": "lg 1000", "def": "3" },
-    { "term": "ln e", "def": "1" },
-    { "term": "lg(a · b)", "def": "lg a + lg b" },
-    { "term": "lg(a / b)", "def": "lg a − lg b" },
-    { "term": "lg(aⁿ)", "def": "n · lg a" },
-    { "term": "e^(ln x)", "def": "x" },
-    { "term": "Løse 5ˣ = 20", "def": "x = lg 20 / lg 5 ≈ 1,86" },
-    { "term": "Logaritmens definisjonsmengde", "def": "x > 0" },
-    { "term": "pH", "def": "−lg[H₃O⁺]" }
+    {
+      "term": "aᵐ · aⁿ",
+      "def": "aᵐ⁺ⁿ"
+    },
+    {
+      "term": "(aᵐ)ⁿ",
+      "def": "aᵐ·ⁿ"
+    },
+    {
+      "term": "a⁻ⁿ",
+      "def": "1/aⁿ"
+    },
+    {
+      "term": "a^(1/n)",
+      "def": "ⁿ√a"
+    },
+    {
+      "term": "lg x = y",
+      "def": "10ʸ = x"
+    },
+    {
+      "term": "ln x = y",
+      "def": "eʸ = x"
+    },
+    {
+      "term": "lg 1000",
+      "def": "3"
+    },
+    {
+      "term": "ln e",
+      "def": "1"
+    },
+    {
+      "term": "lg(a · b)",
+      "def": "lg a + lg b"
+    },
+    {
+      "term": "lg(a / b)",
+      "def": "lg a − lg b"
+    },
+    {
+      "term": "lg(aⁿ)",
+      "def": "n · lg a"
+    },
+    {
+      "term": "e^(ln x)",
+      "def": "x"
+    },
+    {
+      "term": "Løse 5ˣ = 20",
+      "def": "x = lg 20 / lg 5 ≈ 1,86"
+    },
+    {
+      "term": "Logaritmens definisjonsmengde",
+      "def": "x > 0"
+    },
+    {
+      "term": "pH",
+      "def": "−lg[H₃O⁺]"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er lg 1000?", "options": ["100", "3", "30", "10"], "correct": 1, "explain": "10³ = 1000." },
-    { "id": "q02", "text": "Løs 3 · 2ˣ = 48.", "options": ["x = 4", "x = 8", "x = 16", "x = 3"], "correct": 0, "explain": "2ˣ = 16 = 2⁴." },
-    { "id": "q03", "text": "Løs 5ˣ = 20.", "options": ["x = 4", "x = 0,25", "x ≈ 1,86", "x ≈ 2,5"], "correct": 2, "explain": "x = lg 20 / lg 5." },
-    { "id": "q04", "text": "Hva er lg(a · b)?", "options": ["lg a · lg b", "lg a − lg b", "lg(a + b)", "lg a + lg b"], "correct": 3, "explain": "Logaritmen av et produkt er summen." },
-    { "id": "q05", "text": "Løs lg x + lg(x + 3) = 1.", "options": ["x = 2", "x = −5", "x = 2 eller x = −5", "x = 10"], "correct": 0, "explain": "x = −5 er ikke gyldig, fordi logaritmen krever positive tall." },
-    { "id": "q06", "text": "Løs eˣ = 7.", "options": ["x = 7/e", "x = ln 7", "x = lg 7", "x = e⁷"], "correct": 1, "explain": "ln på begge sider." },
-    { "id": "q07", "text": "Hva er 8^(1/3)?", "options": ["8/3", "24", "2", "512"], "correct": 2, "explain": "Kubikkroten av 8." },
-    { "id": "q08", "text": "Løs e²ˣ − 3eˣ + 2 = 0.", "options": ["x = 1 eller x = 2", "x = 0", "x = ln 3", "x = 0 eller x = ln 2"], "correct": 3, "explain": "Sett u = eˣ: u = 1 eller u = 2." },
-    { "id": "q09", "text": "Hva er pH i en løsning med [H₃O⁺] = 10⁻³ mol/L?", "options": ["3", "−3", "0,001", "7"], "correct": 0, "explain": "pH = −lg 10⁻³." },
-    { "id": "q10", "text": "Hva er lg(aⁿ)?", "options": ["(lg a)ⁿ", "n · lg a", "lg a + n", "lg(n · a)"], "correct": 1, "explain": "Eksponenten kan flyttes foran." }
+    {
+      "id": "q01",
+      "text": "Hva er lg 1000?",
+      "options": [
+        "100",
+        "3",
+        "30",
+        "10"
+      ],
+      "correct": 1,
+      "explain": "10³ = 1000."
+    },
+    {
+      "id": "q02",
+      "text": "Løs 3 · 2ˣ = 48.",
+      "options": [
+        "x = 4",
+        "x = 8",
+        "x = 16",
+        "x = 3"
+      ],
+      "correct": 0,
+      "explain": "2ˣ = 16 = 2⁴."
+    },
+    {
+      "id": "q03",
+      "text": "Løs 5ˣ = 20.",
+      "options": [
+        "x = 4",
+        "x = 0,25",
+        "x ≈ 1,86",
+        "x ≈ 2,5"
+      ],
+      "correct": 2,
+      "explain": "x = lg 20 / lg 5."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er lg(a · b)?",
+      "options": [
+        "lg a · lg b",
+        "lg a − lg b",
+        "lg(a + b)",
+        "lg a + lg b"
+      ],
+      "correct": 3,
+      "explain": "Logaritmen av et produkt er summen."
+    },
+    {
+      "id": "q05",
+      "text": "Løs lg x + lg(x + 3) = 1.",
+      "options": [
+        "x = 2",
+        "x = −5",
+        "x = 2 eller x = −5",
+        "x = 10"
+      ],
+      "correct": 0,
+      "explain": "x = −5 er ikke gyldig, fordi logaritmen krever positive tall."
+    },
+    {
+      "id": "q06",
+      "text": "Løs eˣ = 7.",
+      "options": [
+        "x = 7/e",
+        "x = ln 7",
+        "x = lg 7",
+        "x = e⁷"
+      ],
+      "correct": 1,
+      "explain": "ln på begge sider."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er 8^(1/3)?",
+      "options": [
+        "8/3",
+        "24",
+        "2",
+        "512"
+      ],
+      "correct": 2,
+      "explain": "Kubikkroten av 8."
+    },
+    {
+      "id": "q08",
+      "text": "Løs e²ˣ − 3eˣ + 2 = 0.",
+      "options": [
+        "x = 1 eller x = 2",
+        "x = 0",
+        "x = ln 3",
+        "x = 0 eller x = ln 2"
+      ],
+      "correct": 3,
+      "explain": "Sett u = eˣ: u = 1 eller u = 2."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er pH i en løsning med [H₃O⁺] = 10⁻³ mol/L?",
+      "options": [
+        "3",
+        "−3",
+        "0,001",
+        "7"
+      ],
+      "correct": 0,
+      "explain": "pH = −lg 10⁻³."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er lg(aⁿ)?",
+      "options": [
+        "(lg a)ⁿ",
+        "n · lg a",
+        "lg a + n",
+        "lg(n · a)"
+      ],
+      "correct": 1,
+      "explain": "Eksponenten kan flyttes foran."
+    }
   ],
   "mindmap": {
     "label": "Potenser og logaritmer",
     "children": [
-      { "label": "Potensregler", "children": [
-        { "label": "aᵐ · aⁿ" },
-        { "label": "(aᵐ)ⁿ" },
-        { "label": "Negative og brøkeksponenter" }
-      ] },
-      { "label": "Logaritmer", "children": [
-        { "label": "lg – grunntall 10" },
-        { "label": "ln – grunntall e" },
-        { "label": "Opphever eksponentialfunksjonen" }
-      ] },
-      { "label": "Regler", "children": [
-        { "label": "Produkt → sum" },
-        { "label": "Kvotient → differanse" },
-        { "label": "Potens → faktor" }
-      ] },
-      { "label": "Likninger", "children": [
-        { "label": "Samme grunntall" },
-        { "label": "Ta logaritmen" },
-        { "label": "Substitusjon u = eˣ" },
-        { "label": "Sett prøve" }
-      ] },
-      { "label": "Anvendelser", "children": [
-        { "label": "pH" },
-        { "label": "Desibel" },
-        { "label": "Doblingstid" }
-      ] }
+      {
+        "label": "Potensregler",
+        "children": [
+          {
+            "label": "aᵐ · aⁿ"
+          },
+          {
+            "label": "(aᵐ)ⁿ"
+          },
+          {
+            "label": "Negative og brøkeksponenter"
+          }
+        ]
+      },
+      {
+        "label": "Logaritmer",
+        "children": [
+          {
+            "label": "lg – grunntall 10"
+          },
+          {
+            "label": "ln – grunntall e"
+          },
+          {
+            "label": "Opphever eksponentialfunksjonen"
+          }
+        ]
+      },
+      {
+        "label": "Regler",
+        "children": [
+          {
+            "label": "Produkt → sum"
+          },
+          {
+            "label": "Kvotient → differanse"
+          },
+          {
+            "label": "Potens → faktor"
+          }
+        ]
+      },
+      {
+        "label": "Likninger",
+        "children": [
+          {
+            "label": "Samme grunntall"
+          },
+          {
+            "label": "Ta logaritmen"
+          },
+          {
+            "label": "Substitusjon u = eˣ"
+          },
+          {
+            "label": "Sett prøve"
+          }
+        ]
+      },
+      {
+        "label": "Anvendelser",
+        "children": [
+          {
+            "label": "pH"
+          },
+          {
+            "label": "Desibel"
+          },
+          {
+            "label": "Doblingstid"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "ln 1 = 0.", "correct": true, "explain": "e⁰ = 1." },
-      { "id": "m02", "type": "sant-usant", "text": "lg(−10) = −1.", "correct": false, "explain": "Logaritmen er ikke definert for negative tall." },
-      { "id": "m03", "type": "sant-usant", "text": "En løsning med pH 3 er ti ganger så sur som en løsning med pH 4.", "correct": true, "explain": "pH-skalaen er logaritmisk." },
-      { "id": "m04", "type": "sant-usant", "text": "lg(a + b) = lg a + lg b.", "correct": false, "explain": "Det gjelder for produktet a · b, ikke summen." },
-      { "id": "m05", "type": "flervalg", "text": "Løs lg x = 2.", "options": ["x = 20", "x = 100", "x = 2/10", "x = 0,01"], "correct": 1, "explain": "x = 10²." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er 2⁻³?", "options": ["1/8", "−8", "−6", "8"], "correct": 0, "explain": "1/2³." },
-      { "id": "m07", "type": "flervalg", "text": "Løs 2ˣ = 32.", "options": ["x = 16", "x = 6", "x = 5", "x = 4"], "correct": 2, "explain": "2⁵ = 32." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "ln 1 = 0.",
+        "correct": true,
+        "explain": "e⁰ = 1."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "lg(−10) = −1.",
+        "correct": false,
+        "explain": "Logaritmen er ikke definert for negative tall."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En løsning med pH 3 er ti ganger så sur som en løsning med pH 4.",
+        "correct": true,
+        "explain": "pH-skalaen er logaritmisk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "lg(a + b) = lg a + lg b.",
+        "correct": false,
+        "explain": "Det gjelder for produktet a · b, ikke summen."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Løs lg x = 2.",
+        "options": [
+          "x = 20",
+          "x = 100",
+          "x = 2/10",
+          "x = 0,01"
+        ],
+        "correct": 1,
+        "explain": "x = 10²."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er 2⁻³?",
+        "options": [
+          "1/8",
+          "−8",
+          "−6",
+          "8"
+        ],
+        "correct": 0,
+        "explain": "1/2³."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Løs 2ˣ = 32.",
+        "options": [
+          "x = 16",
+          "x = 6",
+          "x = 5",
+          "x = 4"
+        ],
+        "correct": 2,
+        "explain": "2⁵ = 32."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva en negativ eksponent betyr, og regn ut 2⁻³.",
+        "fasit": "En negativ eksponent betyr at vi tar den omvendte verdien: 2⁻³ = 1/2³ = 1/8.",
+        "kriterier": [
+          "Forklarer at a⁻ⁿ = 1/aⁿ.",
+          "Regner ut 2⁻³ = 1/8."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Regn ut (2³)². Vis det viktigste steget ved å bruke potensregelen for en potens opphøyd i en potens.",
+        "fasit": "(2³)² = 2⁽³·²⁾ = 2⁶ = 64.",
+        "kriterier": [
+          "Multipliserer eksponentene, slik at uttrykket blir 2⁶.",
+          "Oppgir svaret 64."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva betyr lg x = y? Skriv den tilsvarende eksponentiallikningen, og forklar hva logaritmen finner.",
+        "fasit": "lg x = y betyr at 10ʸ = x. Logaritmen finner hvilken eksponent grunntallet 10 må ha for å bli x.",
+        "kriterier": [
+          "Skriver 10ʸ = x.",
+          "Forklarer at logaritmen finner eksponenten."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign lg og ln ved å oppgi grunntallet til hver av dem og hva de har felles.",
+        "fasit": "lg har grunntall 10, mens ln har grunntall e. Begge logaritmene svarer på hvilken eksponent grunntallet må opphøyes i for å gi tallet.",
+        "kriterier": [
+          "Oppgir grunntall 10 for lg og e for ln.",
+          "Forklarer at begge logaritmene finner en eksponent."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "For positive a og b, forklar hvorfor lg(ab) = lg a + lg b.",
+        "fasit": "Hvis lg a = p og lg b = q, er a = 10ᵖ og b = 10ᵠ. Da er ab = 10ᵖ · 10ᵠ = 10⁽ᵖ⁺ᵠ⁾, så lg(ab) = p + q = lg a + lg b.",
+        "kriterier": [
+          "Knytter lg a og lg b til eksponentialform med grunntall 10.",
+          "Bruker at produktet av potenser med samme grunntall får summen av eksponentene."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvorfor 0 og negative tall ikke kan brukes som argument i lg eller ln.",
+        "fasit": "En logaritme er bare definert for positive argumenter. En potens med grunntall 10 eller e er positiv, så den kan ikke bli 0 eller negativ.",
+        "kriterier": [
+          "Sier at logaritmens argument må være større enn 0.",
+          "Knytter dette til at potenser med grunntall 10 eller e er positive."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Regn ut lg(1000/10). Bruk logaritmeregelen for en kvotient, og vis steget der du setter inn logaritmeverdiene.",
+        "fasit": "lg(1000/10) = lg 1000 − lg 10 = 3 − 1 = 2.",
+        "kriterier": [
+          "Bruker regelen lg(a/b) = lg a − lg b.",
+          "Setter inn verdiene 3 og 1 og får svaret 2."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Lydnivå måles på en logaritmisk skala i desibel. Forklar hva en økning på 10 dB betyr for lydintensiteten.",
+        "fasit": "En økning på 10 dB betyr at lydintensiteten blir ti ganger så stor.",
+        "kriterier": [
+          "Kobler en økning på 10 dB til lydintensiteten.",
+          "Sier at intensiteten blir ti ganger så stor."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

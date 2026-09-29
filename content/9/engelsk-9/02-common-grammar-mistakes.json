@@ -351,6 +351,80 @@
         "correct": 3,
         "explain": "“Well” is the adverb that describes how she sings."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Norwegian and English are closely related, which can make English easier to learn. Why can this similarity also lead to mistakes?",
+        "fasit": "Because the languages are similar, learners may translate directly from Norwegian. A direct translation can lead to typical mistakes in English.",
+        "kriterier": [
+          "Explains that the languages’ similarity can tempt learners to translate directly.",
+          "Connects direct translation with making mistakes in English."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Complete the sentences and explain why the verbs are different: “Everybody ___ ready, but the police ___ coming.”",
+        "fasit": "Everybody is ready, but the police are coming. Everybody is singular, while police is plural in English.",
+        "kriterier": [
+          "Uses “is” with “everybody” because it is singular.",
+          "Uses “are” with “police” because it is plural in English."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Correct this sentence and explain the noun mistake: “I got an advice and two informations.”",
+        "fasit": "I got a piece of advice and some information. “Advice” and “information” are uncountable nouns in English, so they do not take “a” or a plural ending.",
+        "kriterier": [
+          "Correctly uses “a piece of advice” or another correct form without “an advice”.",
+          "Uses “information” without a plural ending and recognises that it is uncountable."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Correct both sentences and explain the article use: “She is doctor. We had a dinner.”",
+        "fasit": "She is a doctor. We had dinner. English uses “a” with jobs but usually no article with meals.",
+        "kriterier": [
+          "Adds “a” before the job “doctor”.",
+          "Removes “a” before “dinner” and explains that meals usually have no article."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "A learner writes, “Actually, I might visit if I have time,” but means “possibly.” Explain what is wrong and replace “Actually” with the right word.",
+        "fasit": "“Actually” means “faktisk,” not “possibly.” The learner should write, “Possibly, I might visit if I have time.”",
+        "kriterier": [
+          "Explains that “actually” means “faktisk,” not “possibly”.",
+          "Replaces “Actually” with “Possibly” or another suitable way to express “possibly”."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "A learner means they work in a factory but writes, “I work in a fabric.” Correct the sentence and explain the difference between “fabric” and “factory.”",
+        "fasit": "The correct sentence is, “I work in a factory.” “Fabric” means “stoff,” while “factory” means “fabrikk.”",
+        "kriterier": [
+          "Corrects “fabric” to “factory” in the sentence.",
+          "Distinguishes the meanings: fabric is stoff and factory is fabrikk."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A Norwegian speaker thinks the English word “brave” means “brav.” Explain the mistake and say what “brave” means in English.",
+        "fasit": "“Brave” does not mean “brav”; it means “modig.” The similar-looking words have different meanings.",
+        "kriterier": [
+          "Gives the meaning of “brave” as “modig”.",
+          "Explains that it does not mean Norwegian “brav” (well-behaved)."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "You have already introduced a cat by writing, “There is a cat in the garden.” Write a sentence saying that the cat is black, and explain why it starts with “it” or “there.”",
+        "fasit": "It is black. Use “it” because the cat has already been mentioned.",
+        "kriterier": [
+          "Begins the sentence with “It” and says the cat is black.",
+          "Explains that “it” refers to something already mentioned."
+        ]
+      }
     ]
   },
   "kvalitet": {

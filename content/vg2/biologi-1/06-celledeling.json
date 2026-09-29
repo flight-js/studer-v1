@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Celledeling og cellesyklus",
   "intro": "Todeling hos bakterier, cellesyklusen, mitose og meiose hos eukaryoter, hvordan celledelingen reguleres – og hva som skjer når reguleringen svikter, som ved kreft.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Hvorfor celler deler seg\n\nCeller deler seg for at organismer skal kunne **vokse**, **reparere** skader, erstatte **gamle celler** og **formere seg**. Hver dag lager kroppen din milliarder av nye celler, for eksempel i huden, tarmen og beinmargen.\n\n## Todeling hos prokaryoter\n\nBakterier deler seg ved **todeling**: Det ringformede DNA-et **kopieres**, cellen vokser, og den snøres av på midten til to like celler. Under gode forhold kan noen bakterier dele seg omtrent hvert **20. minutt**, og derfor kan en infeksjon utvikle seg raskt.\n\n## Cellesyklusen hos eukaryoter\n\nEn eukaryot celle går gjennom **cellesyklusen**:\n\n- **Interfase** – den lengste delen: Cellen **vokser** (G1), **kopierer DNA-et** (S) og **forbereder** delingen (G2).\n- **Mitose** – kjernedeling.\n- **Cytokinese** – selve cellen deles i to.\n\nMange celler, som nerveceller, går ut av syklusen og deler seg sjelden eller aldri.\n\n## Mitose\n\nMitosen gir to **genetisk like** datterceller med samme kromosomtall som morcellen. Hos mennesket er det **46 kromosomer** (23 par).\n\n1. **Profase**: Kromosomene kveiles opp og blir synlige; kjernemembranen brytes ned.\n2. **Metafase**: Kromosomene stiller seg på **midtplanet**.\n3. **Anafase**: **Søsterkromatidene** trekkes fra hverandre mot hver sin pol.\n4. **Telofase**: Nye kjernemembraner dannes.\n\nMitose brukes til **vekst**, **reparasjon** og **ukjønnet formering**. Hos planter dannes en **celleplate** mellom dattercellene, fordi de har cellevegg.\n\n## Meiose\n\n**Meiose** lager **kjønnsceller** og består av **to delinger**. Resultatet er **fire** celler med **halvt** kromosomtall – **haploide** celler med 23 kromosomer hos mennesket. Når egg og sædcelle smelter sammen, blir kromosomtallet 46 igjen.\n\nMeiosen gir **genetisk variasjon** på to måter:\n\n- **Overkrysning**: Homologe kromosomer bytter biter.\n- **Tilfeldig fordeling**: Hvilke kromosomer fra mor og far som havner i hver kjønnscelle, er tilfeldig.\n\n## Regulering av celledelingen\n\nCellesyklusen har **kontrollpunkter** der cellen «sjekker» at alt er i orden før den går videre – for eksempel at DNA-et er riktig kopiert. Proteiner som **sykliner** driver syklusen framover, mens andre proteiner kan **stoppe** den. Proteinet **p53** stopper delingen ved DNA-skade og kan sette i gang **apoptose** – programmert celledød.\n\n## Når reguleringen svikter\n\n**Kreft** oppstår når celler deler seg **ukontrollert**. Årsaken er **mutasjoner** i gener som styrer celledelingen:\n\n- **Proto-onkogener** fremmer vanligvis deling. Muterte blir de til **onkogener** – som en gasspedal som har låst seg.\n- **Tumorsuppressorgener**, som genet for p53, bremser vanligvis deling. Muterte fungerer de som **bremser som svikter**.\n\nVanligvis må **flere** mutasjoner samles før en celle blir til en kreftcelle. **Røyking**, **UV-stråling** og enkelte **virus** øker risikoen for mutasjoner.",
   "flashcards": [
-    { "term": "Todeling", "def": "Bakteriers celledeling til to like celler." },
-    { "term": "Cellesyklus", "def": "Interfase, mitose og cytokinese." },
-    { "term": "Interfase", "def": "Cellen vokser, kopierer DNA og forbereder deling." },
-    { "term": "Mitose", "def": "Kjernedeling som gir to genetisk like celler." },
-    { "term": "Cytokinese", "def": "Delingen av selve cellen." },
-    { "term": "Profase", "def": "Kromosomene kveiles opp, kjernemembranen brytes ned." },
-    { "term": "Metafase", "def": "Kromosomene stiller seg på midtplanet." },
-    { "term": "Anafase", "def": "Søsterkromatidene trekkes mot hver sin pol." },
-    { "term": "Telofase", "def": "Nye kjernemembraner dannes." },
-    { "term": "Meiose", "def": "To delinger som gir fire haploide kjønnsceller." },
-    { "term": "Haploid", "def": "Med halvt kromosomtall, 23 hos mennesket." },
-    { "term": "Overkrysning", "def": "Homologe kromosomer bytter biter i meiosen." },
-    { "term": "Kontrollpunkt", "def": "Sted i cellesyklusen der cellen sjekker at alt er i orden." },
-    { "term": "Apoptose", "def": "Programmert celledød." },
-    { "term": "Onkogen", "def": "Mutert gen som driver ukontrollert deling – en låst gasspedal." },
-    { "term": "Tumorsuppressorgen", "def": "Gen som bremser deling, som genet for p53." }
+    {
+      "term": "Todeling",
+      "def": "Bakteriers celledeling til to like celler."
+    },
+    {
+      "term": "Cellesyklus",
+      "def": "Interfase, mitose og cytokinese."
+    },
+    {
+      "term": "Interfase",
+      "def": "Cellen vokser, kopierer DNA og forbereder deling."
+    },
+    {
+      "term": "Mitose",
+      "def": "Kjernedeling som gir to genetisk like celler."
+    },
+    {
+      "term": "Cytokinese",
+      "def": "Delingen av selve cellen."
+    },
+    {
+      "term": "Profase",
+      "def": "Kromosomene kveiles opp, kjernemembranen brytes ned."
+    },
+    {
+      "term": "Metafase",
+      "def": "Kromosomene stiller seg på midtplanet."
+    },
+    {
+      "term": "Anafase",
+      "def": "Søsterkromatidene trekkes mot hver sin pol."
+    },
+    {
+      "term": "Telofase",
+      "def": "Nye kjernemembraner dannes."
+    },
+    {
+      "term": "Meiose",
+      "def": "To delinger som gir fire haploide kjønnsceller."
+    },
+    {
+      "term": "Haploid",
+      "def": "Med halvt kromosomtall, 23 hos mennesket."
+    },
+    {
+      "term": "Overkrysning",
+      "def": "Homologe kromosomer bytter biter i meiosen."
+    },
+    {
+      "term": "Kontrollpunkt",
+      "def": "Sted i cellesyklusen der cellen sjekker at alt er i orden."
+    },
+    {
+      "term": "Apoptose",
+      "def": "Programmert celledød."
+    },
+    {
+      "term": "Onkogen",
+      "def": "Mutert gen som driver ukontrollert deling – en låst gasspedal."
+    },
+    {
+      "term": "Tumorsuppressorgen",
+      "def": "Gen som bremser deling, som genet for p53."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er resultatet av mitose?", "options": ["Fire haploide celler", "To genetisk like celler", "To celler med halvt kromosomtall", "Én stor celle"], "correct": 1, "explain": "Brukes til vekst og reparasjon." },
-    { "id": "q02", "text": "Hva er resultatet av meiose?", "options": ["Fire haploide kjønnsceller", "To like kroppsceller", "Én diploid celle", "Åtte celler"], "correct": 0, "explain": "Kromosomtallet halveres." },
-    { "id": "q03", "text": "Når kopieres DNA-et i cellesyklusen?", "options": ["I metafasen", "I cytokinesen", "I interfasen (S-fasen)", "I telofasen"], "correct": 2, "explain": "Før selve delingen." },
-    { "id": "q04", "text": "Hva skjer i anafasen?", "options": ["Kjernemembranen dannes", "Kromosomene kveiles opp", "Cellen vokser", "Søsterkromatidene trekkes mot hver sin pol"], "correct": 3, "explain": "Hver dattercelle får en kopi." },
-    { "id": "q05", "text": "Hvordan deler bakterier seg?", "options": ["Ved todeling", "Ved meiose", "Ved mitose med kjernemembran", "Ved sporedannelse alltid"], "correct": 0, "explain": "Det ringformede DNA-et kopieres først." },
-    { "id": "q06", "text": "Hva er apoptose?", "options": ["Ukontrollert celledeling", "Programmert celledød", "Kopiering av DNA", "Overkrysning"], "correct": 1, "explain": "Skadde celler kan fjerne seg selv." },
-    { "id": "q07", "text": "Hva gjør p53?", "options": ["Driver celledelingen fram", "Lager nye kromosomer", "Stopper delingen ved DNA-skade", "Bryter ned cellemembranen"], "correct": 2, "explain": "Det er et tumorsuppressorprotein." },
-    { "id": "q08", "text": "Hva er et onkogen?", "options": ["Et gen som bremser deling", "Et gen for kjønnsceller", "Et virus", "Et mutert gen som driver ukontrollert deling"], "correct": 3, "explain": "Som en låst gasspedal." },
-    { "id": "q09", "text": "Hvilke to prosesser i meiosen gir genetisk variasjon?", "options": ["Overkrysning og tilfeldig fordeling av kromosomer", "Todeling og cytokinese", "Apoptose og mitose", "Interfase og telofase"], "correct": 0, "explain": "Derfor er søsken forskjellige." },
-    { "id": "q10", "text": "Hvor mange kromosomer har en kjønnscelle hos mennesket?", "options": ["46", "23", "92", "12"], "correct": 1, "explain": "Halvparten av 46." }
+    {
+      "id": "q01",
+      "text": "Hva er resultatet av mitose?",
+      "options": [
+        "Fire haploide celler",
+        "To genetisk like celler",
+        "To celler med halvt kromosomtall",
+        "Én stor celle"
+      ],
+      "correct": 1,
+      "explain": "Brukes til vekst og reparasjon."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er resultatet av meiose?",
+      "options": [
+        "Fire haploide kjønnsceller",
+        "To like kroppsceller",
+        "Én diploid celle",
+        "Åtte celler"
+      ],
+      "correct": 0,
+      "explain": "Kromosomtallet halveres."
+    },
+    {
+      "id": "q03",
+      "text": "Når kopieres DNA-et i cellesyklusen?",
+      "options": [
+        "I metafasen",
+        "I cytokinesen",
+        "I interfasen (S-fasen)",
+        "I telofasen"
+      ],
+      "correct": 2,
+      "explain": "Før selve delingen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva skjer i anafasen?",
+      "options": [
+        "Kjernemembranen dannes",
+        "Kromosomene kveiles opp",
+        "Cellen vokser",
+        "Søsterkromatidene trekkes mot hver sin pol"
+      ],
+      "correct": 3,
+      "explain": "Hver dattercelle får en kopi."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan deler bakterier seg?",
+      "options": [
+        "Ved todeling",
+        "Ved meiose",
+        "Ved mitose med kjernemembran",
+        "Ved sporedannelse alltid"
+      ],
+      "correct": 0,
+      "explain": "Det ringformede DNA-et kopieres først."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er apoptose?",
+      "options": [
+        "Ukontrollert celledeling",
+        "Programmert celledød",
+        "Kopiering av DNA",
+        "Overkrysning"
+      ],
+      "correct": 1,
+      "explain": "Skadde celler kan fjerne seg selv."
+    },
+    {
+      "id": "q07",
+      "text": "Hva gjør p53?",
+      "options": [
+        "Driver celledelingen fram",
+        "Lager nye kromosomer",
+        "Stopper delingen ved DNA-skade",
+        "Bryter ned cellemembranen"
+      ],
+      "correct": 2,
+      "explain": "Det er et tumorsuppressorprotein."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et onkogen?",
+      "options": [
+        "Et gen som bremser deling",
+        "Et gen for kjønnsceller",
+        "Et virus",
+        "Et mutert gen som driver ukontrollert deling"
+      ],
+      "correct": 3,
+      "explain": "Som en låst gasspedal."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilke to prosesser i meiosen gir genetisk variasjon?",
+      "options": [
+        "Overkrysning og tilfeldig fordeling av kromosomer",
+        "Todeling og cytokinese",
+        "Apoptose og mitose",
+        "Interfase og telofase"
+      ],
+      "correct": 0,
+      "explain": "Derfor er søsken forskjellige."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor mange kromosomer har en kjønnscelle hos mennesket?",
+      "options": [
+        "46",
+        "23",
+        "92",
+        "12"
+      ],
+      "correct": 1,
+      "explain": "Halvparten av 46."
+    }
   ],
   "mindmap": {
     "label": "Celledeling",
     "children": [
-      { "label": "Prokaryoter", "children": [
-        { "label": "Todeling" }
-      ] },
-      { "label": "Cellesyklus", "children": [
-        { "label": "Interfase: G1, S, G2" },
-        { "label": "Mitose" },
-        { "label": "Cytokinese" }
-      ] },
-      { "label": "Mitose", "children": [
-        { "label": "Profase" },
-        { "label": "Metafase" },
-        { "label": "Anafase" },
-        { "label": "Telofase" }
-      ] },
-      { "label": "Meiose", "children": [
-        { "label": "Fire haploide celler" },
-        { "label": "Overkrysning" },
-        { "label": "Tilfeldig fordeling" }
-      ] },
-      { "label": "Regulering", "children": [
-        { "label": "Kontrollpunkter" },
-        { "label": "p53 og apoptose" },
-        { "label": "Kreft" }
-      ] }
+      {
+        "label": "Prokaryoter",
+        "children": [
+          {
+            "label": "Todeling"
+          }
+        ]
+      },
+      {
+        "label": "Cellesyklus",
+        "children": [
+          {
+            "label": "Interfase: G1, S, G2"
+          },
+          {
+            "label": "Mitose"
+          },
+          {
+            "label": "Cytokinese"
+          }
+        ]
+      },
+      {
+        "label": "Mitose",
+        "children": [
+          {
+            "label": "Profase"
+          },
+          {
+            "label": "Metafase"
+          },
+          {
+            "label": "Anafase"
+          },
+          {
+            "label": "Telofase"
+          }
+        ]
+      },
+      {
+        "label": "Meiose",
+        "children": [
+          {
+            "label": "Fire haploide celler"
+          },
+          {
+            "label": "Overkrysning"
+          },
+          {
+            "label": "Tilfeldig fordeling"
+          }
+        ]
+      },
+      {
+        "label": "Regulering",
+        "children": [
+          {
+            "label": "Kontrollpunkter"
+          },
+          {
+            "label": "p53 og apoptose"
+          },
+          {
+            "label": "Kreft"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Interfasen er den lengste delen av cellesyklusen.", "correct": true, "explain": "Cellen vokser og kopierer DNA." },
-      { "id": "m02", "type": "sant-usant", "text": "Mitose gir genetisk variasjon.", "correct": false, "explain": "Mitose gir like celler; meiose gir variasjon." },
-      { "id": "m03", "type": "sant-usant", "text": "Vanligvis må flere mutasjoner samles før en celle blir en kreftcelle.", "correct": true, "explain": "Derfor øker risikoen med alderen." },
-      { "id": "m04", "type": "sant-usant", "text": "Planteceller deler seg ved at cellen snøres av på midten, som dyreceller.", "correct": false, "explain": "Planteceller danner en celleplate fordi de har cellevegg." },
-      { "id": "m05", "type": "flervalg", "text": "Hvor stiller kromosomene seg i metafasen?", "options": ["Ved polene", "På midtplanet", "Utenfor cellen", "I kjernemembranen"], "correct": 1, "explain": "Derfra trekkes de fra hverandre." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken faktor øker risikoen for mutasjoner i hudceller?", "options": ["UV-stråling", "Mosjon", "Søvn", "Vann"], "correct": 0, "explain": "UV kan skade DNA." },
-      { "id": "m07", "type": "flervalg", "text": "Hva brukes mitose til?", "options": ["Bare til å lage kjønnsceller", "Bare hos bakterier", "Vekst, reparasjon og ukjønnet formering", "Å halvere kromosomtallet"], "correct": 2, "explain": "Kjønnsceller lages ved meiose." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Interfasen er den lengste delen av cellesyklusen.",
+        "correct": true,
+        "explain": "Cellen vokser og kopierer DNA."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Mitose gir genetisk variasjon.",
+        "correct": false,
+        "explain": "Mitose gir like celler; meiose gir variasjon."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Vanligvis må flere mutasjoner samles før en celle blir en kreftcelle.",
+        "correct": true,
+        "explain": "Derfor øker risikoen med alderen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Planteceller deler seg ved at cellen snøres av på midten, som dyreceller.",
+        "correct": false,
+        "explain": "Planteceller danner en celleplate fordi de har cellevegg."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvor stiller kromosomene seg i metafasen?",
+        "options": [
+          "Ved polene",
+          "På midtplanet",
+          "Utenfor cellen",
+          "I kjernemembranen"
+        ],
+        "correct": 1,
+        "explain": "Derfra trekkes de fra hverandre."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken faktor øker risikoen for mutasjoner i hudceller?",
+        "options": [
+          "UV-stråling",
+          "Mosjon",
+          "Søvn",
+          "Vann"
+        ],
+        "correct": 0,
+        "explain": "UV kan skade DNA."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva brukes mitose til?",
+        "options": [
+          "Bare til å lage kjønnsceller",
+          "Bare hos bakterier",
+          "Vekst, reparasjon og ukjønnet formering",
+          "Å halvere kromosomtallet"
+        ],
+        "correct": 2,
+        "explain": "Kjønnsceller lages ved meiose."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En eukaryot celle går gjennom G1, S og G2 i interfasen, før mitose og cytokinese. Forklar hva som skjer i de tre delene av interfasen, og hva mitose og cytokinese innebærer.",
+        "fasit": "I G1 vokser cellen, i S kopieres DNA-et, og i G2 forbereder cellen delingen. Deretter deles kjernen ved mitose, og selve cellen deles ved cytokinese.",
+        "kriterier": [
+          "Beskriver vekst i G1, DNA-kopiering i S og forberedelse i G2.",
+          "Skiller mellom mitose som kjernedeling og cytokinese som deling av cellen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En organisme vokser og må også erstatte gamle eller skadde celler. Forklar hvordan celledeling bidrar til disse behovene.",
+        "fasit": "Celledeling lager nye celler som gjør at organismen kan vokse. Nye celler kan også erstatte gamle celler og bidra til å reparere skader.",
+        "kriterier": [
+          "Knytter celledeling til vekst gjennom dannelse av nye celler.",
+          "Knytter celledeling til reparasjon eller erstatning av gamle celler."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen på mitose og cytokinese i en eukaryot celle.",
+        "fasit": "Mitose er delingen av cellekjernen. Cytokinese er delingen av resten av cellen, slik at det dannes to celler.",
+        "kriterier": [
+          "Forklarer at mitose gjelder kjernedeling.",
+          "Forklarer at cytokinese gjelder deling av selve cellen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Under en celledeling ligger kromosomene på rekke langs midtplanet i cellen. Hvilken fase er cellen i, og hva er det som kjennetegner denne fasen?",
+        "fasit": "Cellen er i metafase. Da stiller kromosomene seg på midtplanet.",
+        "kriterier": [
+          "Identifiserer fasen som metafase.",
+          "Knytter fasen til kromosomer som stiller seg på midtplanet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Når en plantecelle deler seg, dannes det en celleplate mellom de to nye cellene. Forklar hvorfor planteceller danner en celleplate.",
+        "fasit": "Planteceller har en cellevegg. Celleplaten dannes mellom dattercellene når plantecellen deles.",
+        "kriterier": [
+          "Nevner at planteceller har cellevegg.",
+          "Forklarer at celleplaten dannes mellom dattercellene ved delingen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Mutasjoner kan ramme gener som styrer celledelingen. Forklar hvordan en mutasjon i et proto-onkogen og en mutasjon i et tumorsuppressorgen kan føre til ukontrollert celledeling.",
+        "fasit": "Et mutert proto-onkogen kan bli et onkogen som driver celledeling videre, som en gasspedal som har låst seg. Et mutert tumorsuppressorgen kan slutte å bremse delingen, slik at bremsene svikter.",
+        "kriterier": [
+          "Forklarer at et mutert proto-onkogen kan fremme celledeling ukontrollert.",
+          "Forklarer at et mutert tumorsuppressorgen kan miste sin bremsende funksjon."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Under gode forhold deler en bakterie seg hvert 20. minutt. Start med én bakterie, og anta at alle bakteriene deler seg i samme takt og ingen dør. Hvor mange bakterier er det etter én time? Vis det viktigste regnestykket.",
+        "fasit": "Én time er 60 minutter, altså tre delinger på 20 minutter hver. Antallet dobles tre ganger: 1 → 2 → 4 → 8, så det blir 8 bakterier.",
+        "kriterier": [
+          "Finner at det skjer tre delinger på én time.",
+          "Viser at antallet dobles tre ganger og får 8 bakterier."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Meiose hos mennesker danner fire kjønnsceller med 23 kromosomer i hver. Hvor mange kromosomer er det til sammen i de fire kjønnscellene? Vis regnestykket.",
+        "fasit": "Det er 4 × 23 = 92 kromosomer til sammen i de fire kjønnscellene.",
+        "kriterier": [
+          "Setter opp regnestykket 4 × 23.",
+          "Får svaret 92 kromosomer."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

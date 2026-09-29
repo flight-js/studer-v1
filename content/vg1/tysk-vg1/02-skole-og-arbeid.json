@@ -4,77 +4,423 @@
   "trinnId": "vg1",
   "name": "Skole, utdanning og arbeid",
   "intro": "Skolesystemet og yrkesutdanningen i Tyskland, praksisplass og jobbsøknad, og hvordan du bruker preteritum av sein, haben og modalverbene til å fortelle om skolegang og erfaringer.",
-  "kompetansemaal": [1, 2, 5],
+  "kompetansemaal": [
+    1,
+    2,
+    5
+  ],
   "sammendrag": "## Skolen i Tyskland\n\nDet tyske skolesystemet varierer mellom de **16 delstatene** (Bundesländer), men hovedtrekkene er:\n\n- **Grundschule** – barneskolen, vanligvis fra 6 til 10 år\n- Deretter velger elevene ofte mellom ulike skoletyper, som **Gymnasium** (fører til **Abitur**, som gir adgang til universitetet), **Realschule** og **Hauptschule** – eller en **Gesamtschule**, som samler alle.\n- **Abitur** tas vanligvis etter 12 eller 13 skoleår.\n\n## Das duale Ausbildungssystem\n\nTyskland er kjent for **yrkesutdanningen** sin: I **das duale System** er lærlingene (**Auszubildende**, ofte kalt **Azubis**) både i en **bedrift** og på en **Berufsschule**. Ordningen minner om lærlingordningen i Norge.\n\n## Preteritum av sein, haben og modalverb\n\nNår tyskere forteller om fortiden, bruker de i muntlig språk mest **perfektum**. Men **sein**, **haben** og **modalverbene** brukes nesten alltid i **preteritum** (Präteritum):\n\n| | sein | haben | können | müssen |\n| --- | --- | --- | --- | --- |\n| ich | war | hatte | konnte | musste |\n| du | warst | hattest | konntest | musstest |\n| er/sie/es | war | hatte | konnte | musste |\n| wir | waren | hatten | konnten | mussten |\n| ihr | wart | hattet | konntet | musstet |\n| sie/Sie | waren | hatten | konnten | mussten |\n\nOgså *wollen → wollte*, *dürfen → durfte*, *sollen → sollte*.\n\n*Als ich klein war, wollte ich Astronaut werden.* – Da jeg var liten, ville jeg bli astronaut.\n*Letztes Jahr musste ich viel lernen.* – I fjor måtte jeg lese mye.\n*In der Grundschule hatte ich eine sehr nette Lehrerin.*\n\n## Skole- og arbeidsord\n\n- *das Fach* (faget), *der Stundenplan* (timeplanen), *die Note* (karakteren), *die Prüfung* (prøven/eksamen)\n- *das Praktikum* (praksisplassen), *der Nebenjob* (deltidsjobben), *der Lohn* (lønnen)\n- *die Bewerbung* (søknaden), *der Lebenslauf* (CV-en), *das Vorstellungsgespräch* (jobbintervjuet)\n\n## En kort søknad\n\n*Sehr geehrte Damen und Herren,*\n*ich interessiere mich für ein Praktikum in Ihrer Firma, weil ich gern mit Menschen arbeite. Ich spreche Norwegisch, Englisch und ein bisschen Deutsch.*\n*Mit freundlichen Grüßen*\n\n**Sehr geehrte Damen und Herren** er en formell hilsen når du ikke vet navnet, og **Mit freundlichen Grüßen** er en vanlig formell avslutning. Husk at **Sie** og **Ihr/Ihre** skrives med **stor forbokstav** i høflig tiltale.",
   "flashcards": [
-    { "term": "die Grundschule", "def": "barneskolen" },
-    { "term": "das Gymnasium", "def": "skoletype som fører til Abitur" },
-    { "term": "das Abitur", "def": "avgangseksamen som gir adgang til universitetet" },
-    { "term": "das duale System", "def": "yrkesutdanning i bedrift og på Berufsschule" },
-    { "term": "der/die Auszubildende (Azubi)", "def": "lærlingen" },
-    { "term": "ich war / ich hatte", "def": "jeg var / jeg hadde" },
-    { "term": "ich konnte / ich musste", "def": "jeg kunne / jeg måtte" },
-    { "term": "ich wollte", "def": "jeg ville" },
-    { "term": "die Note", "def": "karakteren" },
-    { "term": "die Prüfung", "def": "prøven, eksamen" },
-    { "term": "das Praktikum", "def": "praksisplassen" },
-    { "term": "die Bewerbung", "def": "søknaden" },
-    { "term": "der Lebenslauf", "def": "CV-en" },
-    { "term": "Sehr geehrte Damen und Herren", "def": "formell hilsen når man ikke vet navnet" },
-    { "term": "Mit freundlichen Grüßen", "def": "Med vennlig hilsen" }
+    {
+      "term": "die Grundschule",
+      "def": "barneskolen"
+    },
+    {
+      "term": "das Gymnasium",
+      "def": "skoletype som fører til Abitur"
+    },
+    {
+      "term": "das Abitur",
+      "def": "avgangseksamen som gir adgang til universitetet"
+    },
+    {
+      "term": "das duale System",
+      "def": "yrkesutdanning i bedrift og på Berufsschule"
+    },
+    {
+      "term": "der/die Auszubildende (Azubi)",
+      "def": "lærlingen"
+    },
+    {
+      "term": "ich war / ich hatte",
+      "def": "jeg var / jeg hadde"
+    },
+    {
+      "term": "ich konnte / ich musste",
+      "def": "jeg kunne / jeg måtte"
+    },
+    {
+      "term": "ich wollte",
+      "def": "jeg ville"
+    },
+    {
+      "term": "die Note",
+      "def": "karakteren"
+    },
+    {
+      "term": "die Prüfung",
+      "def": "prøven, eksamen"
+    },
+    {
+      "term": "das Praktikum",
+      "def": "praksisplassen"
+    },
+    {
+      "term": "die Bewerbung",
+      "def": "søknaden"
+    },
+    {
+      "term": "der Lebenslauf",
+      "def": "CV-en"
+    },
+    {
+      "term": "Sehr geehrte Damen und Herren",
+      "def": "formell hilsen når man ikke vet navnet"
+    },
+    {
+      "term": "Mit freundlichen Grüßen",
+      "def": "Med vennlig hilsen"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er preteritum av «ich bin»?", "options": ["ich bin gewesen", "ich war", "ich wurde", "ich hatte"], "correct": 1, "explain": "sein → war." },
-    { "id": "q02", "text": "Hva gir Abitur adgang til?", "options": ["Universitetet", "Grundschule", "Førerkort", "Militæret"], "correct": 0, "explain": "Abitur tas vanligvis på Gymnasium." },
-    { "id": "q03", "text": "Velg riktig: «Letztes Jahr ___ ich viel lernen.»", "options": ["muss", "müssen", "musste", "gemusst"], "correct": 2, "explain": "müssen → ich musste." },
-    { "id": "q04", "text": "Hva kjennetegner «das duale System»?", "options": ["To skoler samtidig", "To språk i undervisningen", "Skole bare om kvelden", "Utdanning både i bedrift og på yrkesskole"], "correct": 3, "explain": "Lærlingene kalles Azubis." },
-    { "id": "q05", "text": "Hva betyr «der Lebenslauf»?", "options": ["CV-en", "lønnen", "timeplanen", "karakteren"], "correct": 0, "explain": "Lebenslauf legges ved en Bewerbung." },
-    { "id": "q06", "text": "Hvordan sier du «Da jeg var liten, ville jeg bli pilot»?", "options": ["Wenn ich klein bin, will ich Pilot werden.", "Als ich klein war, wollte ich Pilot werden.", "Als ich klein bin, wollte ich Pilot.", "Ich war klein und will Pilot."], "correct": 1, "explain": "Als + preteritum om én periode i fortiden." },
-    { "id": "q07", "text": "Hvilken hilsen passer i et formelt brev når du ikke vet navnet?", "options": ["Hallo Leute,", "Liebe Anna,", "Sehr geehrte Damen und Herren,", "Hi,"], "correct": 2, "explain": "Avslutt med Mit freundlichen Grüßen." },
-    { "id": "q08", "text": "Hva er preteritum av «wir haben»?", "options": ["wir habten", "wir hatte", "wir gehabt", "wir hatten"], "correct": 3, "explain": "haben → hatten i flertall." },
-    { "id": "q09", "text": "Hva betyr «das Vorstellungsgespräch»?", "options": ["jobbintervjuet", "presentasjonen i klassen", "samtalen med foreldre", "telefonsamtalen"], "correct": 0, "explain": "Man blir invitert til et Vorstellungsgespräch etter søknaden." },
-    { "id": "q10", "text": "Hvorfor skrives «Ihrer Firma» med stor I?", "options": ["Fordi det er et substantiv", "Fordi det er høflig tiltale", "Fordi det står først", "Det er en feil"], "correct": 1, "explain": "Sie, Ihr og Ihre skrives med stor forbokstav i høflig tiltale." }
+    {
+      "id": "q01",
+      "text": "Hva er preteritum av «ich bin»?",
+      "options": [
+        "ich bin gewesen",
+        "ich war",
+        "ich wurde",
+        "ich hatte"
+      ],
+      "correct": 1,
+      "explain": "sein → war."
+    },
+    {
+      "id": "q02",
+      "text": "Hva gir Abitur adgang til?",
+      "options": [
+        "Universitetet",
+        "Grundschule",
+        "Førerkort",
+        "Militæret"
+      ],
+      "correct": 0,
+      "explain": "Abitur tas vanligvis på Gymnasium."
+    },
+    {
+      "id": "q03",
+      "text": "Velg riktig: «Letztes Jahr ___ ich viel lernen.»",
+      "options": [
+        "muss",
+        "müssen",
+        "musste",
+        "gemusst"
+      ],
+      "correct": 2,
+      "explain": "müssen → ich musste."
+    },
+    {
+      "id": "q04",
+      "text": "Hva kjennetegner «das duale System»?",
+      "options": [
+        "To skoler samtidig",
+        "To språk i undervisningen",
+        "Skole bare om kvelden",
+        "Utdanning både i bedrift og på yrkesskole"
+      ],
+      "correct": 3,
+      "explain": "Lærlingene kalles Azubis."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr «der Lebenslauf»?",
+      "options": [
+        "CV-en",
+        "lønnen",
+        "timeplanen",
+        "karakteren"
+      ],
+      "correct": 0,
+      "explain": "Lebenslauf legges ved en Bewerbung."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan sier du «Da jeg var liten, ville jeg bli pilot»?",
+      "options": [
+        "Wenn ich klein bin, will ich Pilot werden.",
+        "Als ich klein war, wollte ich Pilot werden.",
+        "Als ich klein bin, wollte ich Pilot.",
+        "Ich war klein und will Pilot."
+      ],
+      "correct": 1,
+      "explain": "Als + preteritum om én periode i fortiden."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken hilsen passer i et formelt brev når du ikke vet navnet?",
+      "options": [
+        "Hallo Leute,",
+        "Liebe Anna,",
+        "Sehr geehrte Damen und Herren,",
+        "Hi,"
+      ],
+      "correct": 2,
+      "explain": "Avslutt med Mit freundlichen Grüßen."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er preteritum av «wir haben»?",
+      "options": [
+        "wir habten",
+        "wir hatte",
+        "wir gehabt",
+        "wir hatten"
+      ],
+      "correct": 3,
+      "explain": "haben → hatten i flertall."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr «das Vorstellungsgespräch»?",
+      "options": [
+        "jobbintervjuet",
+        "presentasjonen i klassen",
+        "samtalen med foreldre",
+        "telefonsamtalen"
+      ],
+      "correct": 0,
+      "explain": "Man blir invitert til et Vorstellungsgespräch etter søknaden."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor skrives «Ihrer Firma» med stor I?",
+      "options": [
+        "Fordi det er et substantiv",
+        "Fordi det er høflig tiltale",
+        "Fordi det står først",
+        "Det er en feil"
+      ],
+      "correct": 1,
+      "explain": "Sie, Ihr og Ihre skrives med stor forbokstav i høflig tiltale."
+    }
   ],
   "mindmap": {
     "label": "Skole og arbeid",
     "children": [
-      { "label": "Skolesystemet", "children": [
-        { "label": "Grundschule" },
-        { "label": "Gymnasium og Abitur" },
-        { "label": "Realschule, Gesamtschule" }
-      ] },
-      { "label": "Yrkesutdanning", "children": [
-        { "label": "das duale System" },
-        { "label": "Azubi" }
-      ] },
-      { "label": "Preteritum", "children": [
-        { "label": "war, hatte" },
-        { "label": "konnte, musste" },
-        { "label": "wollte, durfte" }
-      ] },
-      { "label": "Ord", "children": [
-        { "label": "Fach, Note, Prüfung" },
-        { "label": "Praktikum, Nebenjob" }
-      ] },
-      { "label": "Søknad", "children": [
-        { "label": "Bewerbung, Lebenslauf" },
-        { "label": "Sehr geehrte …" },
-        { "label": "Mit freundlichen Grüßen" }
-      ] }
+      {
+        "label": "Skolesystemet",
+        "children": [
+          {
+            "label": "Grundschule"
+          },
+          {
+            "label": "Gymnasium og Abitur"
+          },
+          {
+            "label": "Realschule, Gesamtschule"
+          }
+        ]
+      },
+      {
+        "label": "Yrkesutdanning",
+        "children": [
+          {
+            "label": "das duale System"
+          },
+          {
+            "label": "Azubi"
+          }
+        ]
+      },
+      {
+        "label": "Preteritum",
+        "children": [
+          {
+            "label": "war, hatte"
+          },
+          {
+            "label": "konnte, musste"
+          },
+          {
+            "label": "wollte, durfte"
+          }
+        ]
+      },
+      {
+        "label": "Ord",
+        "children": [
+          {
+            "label": "Fach, Note, Prüfung"
+          },
+          {
+            "label": "Praktikum, Nebenjob"
+          }
+        ]
+      },
+      {
+        "label": "Søknad",
+        "children": [
+          {
+            "label": "Bewerbung, Lebenslauf"
+          },
+          {
+            "label": "Sehr geehrte …"
+          },
+          {
+            "label": "Mit freundlichen Grüßen"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Tyskland har 16 delstater.", "correct": true, "explain": "Skolesystemet varierer mellom dem." },
-      { "id": "m02", "type": "sant-usant", "text": "I muntlig tysk brukes preteritum mest for alle verb.", "correct": false, "explain": "I muntlig språk brukes mest perfektum, unntatt for sein, haben og modalverb." },
-      { "id": "m03", "type": "sant-usant", "text": "«das Praktikum» betyr praksisplassen.", "correct": true, "explain": "Mange elever tar et Praktikum i en bedrift." },
-      { "id": "m04", "type": "sant-usant", "text": "«Mit freundlichen Grüßen» er en uformell avslutning til venner.", "correct": false, "explain": "Det er en formell avslutning." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er preteritum av «du kannst»?", "options": ["du kanntest", "du konntest", "du konnte", "du gekonnt"], "correct": 1, "explain": "können → konnte, du konntest." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr «die Note»?", "options": ["karakteren", "notatet", "noten i musikk", "timeplanen"], "correct": 0, "explain": "In Deutschland ist 1 die beste Note." },
-      { "id": "m07", "type": "flervalg", "text": "Hva heter en lærling på tysk?", "options": ["der Lehrer", "der Schüler", "der/die Auszubildende", "der Student"], "correct": 2, "explain": "Forkortes ofte Azubi." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Tyskland har 16 delstater.",
+        "correct": true,
+        "explain": "Skolesystemet varierer mellom dem."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I muntlig tysk brukes preteritum mest for alle verb.",
+        "correct": false,
+        "explain": "I muntlig språk brukes mest perfektum, unntatt for sein, haben og modalverb."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«das Praktikum» betyr praksisplassen.",
+        "correct": true,
+        "explain": "Mange elever tar et Praktikum i en bedrift."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«Mit freundlichen Grüßen» er en uformell avslutning til venner.",
+        "correct": false,
+        "explain": "Det er en formell avslutning."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er preteritum av «du kannst»?",
+        "options": [
+          "du kanntest",
+          "du konntest",
+          "du konnte",
+          "du gekonnt"
+        ],
+        "correct": 1,
+        "explain": "können → konnte, du konntest."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr «die Note»?",
+        "options": [
+          "karakteren",
+          "notatet",
+          "noten i musikk",
+          "timeplanen"
+        ],
+        "correct": 0,
+        "explain": "In Deutschland ist 1 die beste Note."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva heter en lærling på tysk?",
+        "options": [
+          "der Lehrer",
+          "der Schüler",
+          "der/die Auszubildende",
+          "der Student"
+        ],
+        "correct": 2,
+        "explain": "Forkortes ofte Azubi."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva er Grundschule i Tyskland, og hvor gamle er barna vanligvis når de går der?",
+        "fasit": "Grundschule er barneskolen i Tyskland. Barna går der vanligvis fra de er 6 til 10 år.",
+        "kriterier": [
+          "Forklarer at Grundschule er barneskolen.",
+          "Oppgir vanlig alder fra 6 til 10 år."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign Gymnasium og Gesamtschule i Tyskland. Hva er et viktig kjennetegn ved hver av dem?",
+        "fasit": "Gymnasium er en skoletype som fører til Abitur. Gesamtschule samler ulike skoletyper.",
+        "kriterier": [
+          "Får fram at Gymnasium fører til Abitur.",
+          "Får fram at Gesamtschule samler ulike skoletyper."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Tyskland har 16 delstater, og skolesystemet varierer mellom dem. Forklar hvorfor elever i ulike delstater ikke nødvendigvis følger helt samme skoleløp.",
+        "fasit": "Skolesystemet varierer mellom delstatene, blant annet i hvilke skoletyper elevene kan velge mellom etter Grundschule. Derfor kan skoleløpet være ulikt fra en delstat til en annen.",
+        "kriterier": [
+          "Knytter forskjellene i skoleløp til at skolesystemet varierer mellom delstatene.",
+          "Nevner at elevene kan gå videre til ulike skoletyper."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hva er forskjellen på et Praktikum og en Nebenjob?",
+        "fasit": "Et Praktikum er en praksisplass. En Nebenjob er en deltidsjobb.",
+        "kriterier": [
+          "Forklarer at Praktikum betyr praksisplass eller praksis.",
+          "Forklarer at Nebenjob betyr deltidsjobb."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Skriv på tysk: «I fjor hadde jeg en prøve.»",
+        "fasit": "Letztes Jahr hatte ich eine Prüfung.",
+        "kriterier": [
+          "Bruker preteritumsformen hatte.",
+          "Uttrykker at personen hadde en prøve eller eksamen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hvordan uttrykker tyskere vanligvis fortid i muntlig språk, og hvilke verb brukes nesten alltid i preteritum?",
+        "fasit": "I muntlig språk bruker tyskere mest perfektum når de forteller om fortiden. Sein, haben og modalverbene brukes nesten alltid i preteritum.",
+        "kriterier": [
+          "Får fram at perfektum brukes mest muntlig om fortid.",
+          "Nevner sein, haben og modalverbene som verb som nesten alltid står i preteritum."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du skriver en formell søknad og skal avslutte brevet. Hva betyr «Mit freundlichen Grüßen», og hvilken funksjon har uttrykket?",
+        "fasit": "«Mit freundlichen Grüßen» betyr «Med vennlig hilsen». Det brukes som en vanlig formell avslutning på et brev.",
+        "kriterier": [
+          "Oversetter uttrykket med «Med vennlig hilsen».",
+          "Forklarer at det brukes som en formell brevavslutning."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar forskjellen på die Note og die Prüfung ved å beskrive hva hvert ord viser til.",
+        "fasit": "Die Prüfung er en prøve eller eksamen. Die Note er karakteren man får.",
+        "kriterier": [
+          "Forklarer at Prüfung betyr prøve eller eksamen.",
+          "Forklarer at Note betyr karakter."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

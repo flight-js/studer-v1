@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Autonomi, frihet, ansvar og det gode liv",
   "intro": "Etisk og eksistensiell tenkning om autonomi, frihet og ansvar – Kants autonomi, Berlins negative og positive frihet og Sartres ansvar – og ulike svar på hva et godt liv er, fra Epikur, stoikerne og Aristoteles til Mill, Nozicks erfaringsmaskin og moderne lykkeforskning.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Autonomi\n\n**Autonomi** betyr **selvstyre** – å kunne styre sitt eget liv ut fra egne vurderinger. **Immanuel Kant** mente at mennesket er **autonomt** fordi det har **fornuft** og kan gi seg selv **moralske lover**. Den som bare følger **lyster** eller **autoriteter**, er **heteronom** – styrt utenfra.\n\nI dag er autonomi et viktig prinsipp i for eksempel **helsevesenet**: Pasienten har rett til å **samtykke** til eller **nekte** behandling.\n\n## To former for frihet\n\nFilosofen **Isaiah Berlin** skilte i **1958** mellom\n\n- **negativ frihet**: frihet **fra** tvang – at ingen hindrer meg i å gjøre det jeg vil\n- **positiv frihet**: frihet **til** – å ha reelle **muligheter** og **evne** til å styre eget liv\n\nEn person kan ha negativ frihet til å studere, men mangle positiv frihet hvis hen ikke har råd. Liberale vektlegger ofte **negativ** frihet, mens sosialdemokrater også legger vekt på **positiv** frihet gjennom skole og velferd.\n\n## Ansvar\n\nFrihet henger sammen med **ansvar**. **Jean-Paul Sartre** mente at vi er «**dømt til å være frie**»: Vi kan ikke skylde på Gud, naturen eller samfunnet, men må ta **ansvar** for våre valg. Å late som vi ikke har valg, kalte han **ond tro**.\n\nAndre peker på at **arv**, **miljø** og **samfunnet** begrenser valgene våre, og at ansvar derfor må ses i **sammenheng** med **handlingsrom**.\n\n## Hva er et godt liv?\n\n- **Epikur**: Det gode liv er et liv med **nytelse** – men forstått som **fravær av smerte** og **indre ro**. Enkle gleder, vennskap og refleksjon er viktigere enn luksus.\n- **Stoikerne**, som **Epiktet** og keiser **Markus Aurelius**: Vi skal skille mellom det vi **kan** og ikke kan påvirke, og møte livet med **sinnsro**.\n- **Aristoteles**: Det gode liv – **eudaimonia** – er å realisere sine **evner** og leve **dydig** i fellesskap med andre.\n- **John Stuart Mill** skilte mellom **høyere** og **lavere** nytelser: «Det er bedre å være et misfornøyd menneske enn en fornøyd gris.»\n- **Eksistensialistene**: Meningen er noe vi må **skape** selv.\n\n## Nozicks erfaringsmaskin\n\n**Robert Nozick** foreslo et tankeeksperiment: Ville du koblet deg til en **maskin** som gir deg akkurat de **opplevelsene** du ønsker, resten av livet? De fleste svarer **nei**. Nozick mente det viser at vi vil **gjøre** ting og **være** noe – ikke bare **føle** oss bra. Det er et argument mot at nytelse er det **eneste** som gir livet verdi.\n\n## Lykkeforskning\n\nModerne **lykkeforskning** finner at gode **relasjoner**, **helse**, **mening** og **mestring** betyr mer for tilfredshet enn **penger** – når de grunnleggende behovene er dekket.\n\n## Hvordan preges vi av verdiene?\n\nI dagens samfunn står **frihet**, **selvrealisering** og **valgmuligheter** sterkt. Mange opplever det som positivt, men noen opplever også **press** – forventningen om å velge «riktig» utdanning, jobb og livsstil. Filosofer har kalt dette **valgets byrde**. Spørsmålet er hvordan vi kan balansere **frihet** med **fellesskap**, **ansvar** og **ro**.",
   "flashcards": [
-    { "term": "Autonomi", "def": "Selvstyre – å styre eget liv ut fra egne vurderinger." },
-    { "term": "Heteronomi", "def": "Å være styrt utenfra av lyster eller autoriteter." },
-    { "term": "Negativ frihet", "def": "Frihet fra tvang." },
-    { "term": "Positiv frihet", "def": "Frihet til – reelle muligheter og evne til å styre eget liv." },
-    { "term": "Isaiah Berlin", "def": "Skilte i 1958 mellom negativ og positiv frihet." },
-    { "term": "Ond tro", "def": "Sartres begrep om å late som man ikke har valg." },
-    { "term": "Epikur", "def": "Det gode liv er fravær av smerte og indre ro." },
-    { "term": "Stoisisme", "def": "Skill mellom det du kan og ikke kan påvirke, og møt livet med sinnsro." },
-    { "term": "Markus Aurelius", "def": "Romersk keiser og stoisk filosof." },
-    { "term": "Eudaimonia", "def": "Aristoteles' begrep om det gode liv." },
-    { "term": "Høyere og lavere nytelser", "def": "Mills skille mellom ulike typer glede." },
-    { "term": "Erfaringsmaskinen", "def": "Nozicks tankeeksperiment om et liv med bare gode opplevelser." },
-    { "term": "Lykkeforskning", "def": "Forskning som viser at relasjoner og mening betyr mer enn penger." },
-    { "term": "Selvrealisering", "def": "Å utvikle seg og realisere sitt potensial." },
-    { "term": "Valgets byrde", "def": "Presset som følger av mange valgmuligheter." }
+    {
+      "term": "Autonomi",
+      "def": "Selvstyre – å styre eget liv ut fra egne vurderinger."
+    },
+    {
+      "term": "Heteronomi",
+      "def": "Å være styrt utenfra av lyster eller autoriteter."
+    },
+    {
+      "term": "Negativ frihet",
+      "def": "Frihet fra tvang."
+    },
+    {
+      "term": "Positiv frihet",
+      "def": "Frihet til – reelle muligheter og evne til å styre eget liv."
+    },
+    {
+      "term": "Isaiah Berlin",
+      "def": "Skilte i 1958 mellom negativ og positiv frihet."
+    },
+    {
+      "term": "Ond tro",
+      "def": "Sartres begrep om å late som man ikke har valg."
+    },
+    {
+      "term": "Epikur",
+      "def": "Det gode liv er fravær av smerte og indre ro."
+    },
+    {
+      "term": "Stoisisme",
+      "def": "Skill mellom det du kan og ikke kan påvirke, og møt livet med sinnsro."
+    },
+    {
+      "term": "Markus Aurelius",
+      "def": "Romersk keiser og stoisk filosof."
+    },
+    {
+      "term": "Eudaimonia",
+      "def": "Aristoteles' begrep om det gode liv."
+    },
+    {
+      "term": "Høyere og lavere nytelser",
+      "def": "Mills skille mellom ulike typer glede."
+    },
+    {
+      "term": "Erfaringsmaskinen",
+      "def": "Nozicks tankeeksperiment om et liv med bare gode opplevelser."
+    },
+    {
+      "term": "Lykkeforskning",
+      "def": "Forskning som viser at relasjoner og mening betyr mer enn penger."
+    },
+    {
+      "term": "Selvrealisering",
+      "def": "Å utvikle seg og realisere sitt potensial."
+    },
+    {
+      "term": "Valgets byrde",
+      "def": "Presset som følger av mange valgmuligheter."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er autonomi?", "options": ["Å være styrt av andre", "Selvstyre – å styre eget liv ut fra egne vurderinger", "Å ha mye penger", "Å bo alene"], "correct": 1, "explain": "Sentralt hos Kant." },
-    { "id": "q02", "text": "Hva er negativ frihet?", "options": ["Frihet fra tvang", "Frihet til å gjøre gode ting", "Mangel på frihet", "Frihet som er ulovlig"], "correct": 0, "explain": "Isaiah Berlins skille." },
-    { "id": "q03", "text": "En person har lov til å studere, men har ikke råd. Hva mangler hen?", "options": ["Negativ frihet", "Autonomi alltid", "Positiv frihet", "Ansvar"], "correct": 2, "explain": "Reelle muligheter." },
-    { "id": "q04", "text": "Hva mente Sartre med ond tro?", "options": ["Å tro på Gud", "Å være ond", "Å stole på andre", "Å late som man ikke har valg"], "correct": 3, "explain": "Vi må ta ansvar for valgene våre." },
-    { "id": "q05", "text": "Hva mente Epikur var det gode liv?", "options": ["Fravær av smerte og indre ro", "Luksus og fester", "Makt", "Berømmelse"], "correct": 0, "explain": "Enkle gleder og vennskap." },
-    { "id": "q06", "text": "Hva lærer stoikerne?", "options": ["Å søke mest mulig nytelse", "Å skille mellom det vi kan og ikke kan påvirke", "Å unngå alle andre", "Å samle rikdom"], "correct": 1, "explain": "Og møte livet med sinnsro." },
-    { "id": "q07", "text": "Hva viser Nozicks erfaringsmaskin ifølge Nozick?", "options": ["At nytelse er det eneste som teller", "At maskiner er gode", "At vi vil gjøre og være noe, ikke bare føle oss bra", "At lykke er umulig"], "correct": 2, "explain": "Et argument mot hedonisme." },
-    { "id": "q08", "text": "Hva finner lykkeforskningen betyr mest for tilfredshet?", "options": ["Bare penger", "Berømmelse", "Makt", "Relasjoner, helse, mening og mestring"], "correct": 3, "explain": "Når grunnleggende behov er dekket." },
-    { "id": "q09", "text": "Hva er eudaimonia?", "options": ["Aristoteles' begrep om det gode liv", "En gresk gud", "En type nytelse", "En stoisk øvelse"], "correct": 0, "explain": "Å realisere sine evner og leve dydig." },
-    { "id": "q10", "text": "Hva mente Mill med at det er bedre å være et misfornøyd menneske enn en fornøyd gris?", "options": ["At griser er lykkeligere", "At høyere nytelser er mer verdifulle enn lavere", "At misnøye er målet", "At dyr ikke har verdi"], "correct": 1, "explain": "Kvalitet, ikke bare mengde, teller." }
+    {
+      "id": "q01",
+      "text": "Hva er autonomi?",
+      "options": [
+        "Å være styrt av andre",
+        "Selvstyre – å styre eget liv ut fra egne vurderinger",
+        "Å ha mye penger",
+        "Å bo alene"
+      ],
+      "correct": 1,
+      "explain": "Sentralt hos Kant."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er negativ frihet?",
+      "options": [
+        "Frihet fra tvang",
+        "Frihet til å gjøre gode ting",
+        "Mangel på frihet",
+        "Frihet som er ulovlig"
+      ],
+      "correct": 0,
+      "explain": "Isaiah Berlins skille."
+    },
+    {
+      "id": "q03",
+      "text": "En person har lov til å studere, men har ikke råd. Hva mangler hen?",
+      "options": [
+        "Negativ frihet",
+        "Autonomi alltid",
+        "Positiv frihet",
+        "Ansvar"
+      ],
+      "correct": 2,
+      "explain": "Reelle muligheter."
+    },
+    {
+      "id": "q04",
+      "text": "Hva mente Sartre med ond tro?",
+      "options": [
+        "Å tro på Gud",
+        "Å være ond",
+        "Å stole på andre",
+        "Å late som man ikke har valg"
+      ],
+      "correct": 3,
+      "explain": "Vi må ta ansvar for valgene våre."
+    },
+    {
+      "id": "q05",
+      "text": "Hva mente Epikur var det gode liv?",
+      "options": [
+        "Fravær av smerte og indre ro",
+        "Luksus og fester",
+        "Makt",
+        "Berømmelse"
+      ],
+      "correct": 0,
+      "explain": "Enkle gleder og vennskap."
+    },
+    {
+      "id": "q06",
+      "text": "Hva lærer stoikerne?",
+      "options": [
+        "Å søke mest mulig nytelse",
+        "Å skille mellom det vi kan og ikke kan påvirke",
+        "Å unngå alle andre",
+        "Å samle rikdom"
+      ],
+      "correct": 1,
+      "explain": "Og møte livet med sinnsro."
+    },
+    {
+      "id": "q07",
+      "text": "Hva viser Nozicks erfaringsmaskin ifølge Nozick?",
+      "options": [
+        "At nytelse er det eneste som teller",
+        "At maskiner er gode",
+        "At vi vil gjøre og være noe, ikke bare føle oss bra",
+        "At lykke er umulig"
+      ],
+      "correct": 2,
+      "explain": "Et argument mot hedonisme."
+    },
+    {
+      "id": "q08",
+      "text": "Hva finner lykkeforskningen betyr mest for tilfredshet?",
+      "options": [
+        "Bare penger",
+        "Berømmelse",
+        "Makt",
+        "Relasjoner, helse, mening og mestring"
+      ],
+      "correct": 3,
+      "explain": "Når grunnleggende behov er dekket."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er eudaimonia?",
+      "options": [
+        "Aristoteles' begrep om det gode liv",
+        "En gresk gud",
+        "En type nytelse",
+        "En stoisk øvelse"
+      ],
+      "correct": 0,
+      "explain": "Å realisere sine evner og leve dydig."
+    },
+    {
+      "id": "q10",
+      "text": "Hva mente Mill med at det er bedre å være et misfornøyd menneske enn en fornøyd gris?",
+      "options": [
+        "At griser er lykkeligere",
+        "At høyere nytelser er mer verdifulle enn lavere",
+        "At misnøye er målet",
+        "At dyr ikke har verdi"
+      ],
+      "correct": 1,
+      "explain": "Kvalitet, ikke bare mengde, teller."
+    }
   ],
   "mindmap": {
     "label": "Frihet og det gode liv",
     "children": [
-      { "label": "Autonomi", "children": [
-        { "label": "Kant" },
-        { "label": "Heteronomi" },
-        { "label": "Samtykke i helse" }
-      ] },
-      { "label": "Frihet", "children": [
-        { "label": "Negativ" },
-        { "label": "Positiv" },
-        { "label": "Berlin" }
-      ] },
-      { "label": "Ansvar", "children": [
-        { "label": "Sartre" },
-        { "label": "Ond tro" },
-        { "label": "Handlingsrom" }
-      ] },
-      { "label": "Det gode liv", "children": [
-        { "label": "Epikur og stoikerne" },
-        { "label": "Aristoteles og Mill" },
-        { "label": "Erfaringsmaskinen" }
-      ] },
-      { "label": "I dag", "children": [
-        { "label": "Lykkeforskning" },
-        { "label": "Valgets byrde" }
-      ] }
+      {
+        "label": "Autonomi",
+        "children": [
+          {
+            "label": "Kant"
+          },
+          {
+            "label": "Heteronomi"
+          },
+          {
+            "label": "Samtykke i helse"
+          }
+        ]
+      },
+      {
+        "label": "Frihet",
+        "children": [
+          {
+            "label": "Negativ"
+          },
+          {
+            "label": "Positiv"
+          },
+          {
+            "label": "Berlin"
+          }
+        ]
+      },
+      {
+        "label": "Ansvar",
+        "children": [
+          {
+            "label": "Sartre"
+          },
+          {
+            "label": "Ond tro"
+          },
+          {
+            "label": "Handlingsrom"
+          }
+        ]
+      },
+      {
+        "label": "Det gode liv",
+        "children": [
+          {
+            "label": "Epikur og stoikerne"
+          },
+          {
+            "label": "Aristoteles og Mill"
+          },
+          {
+            "label": "Erfaringsmaskinen"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Lykkeforskning"
+          },
+          {
+            "label": "Valgets byrde"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Pasienter har rett til å nekte behandling på grunn av prinsippet om autonomi.", "correct": true, "explain": "Autonomi i helsevesenet." },
-      { "id": "m02", "type": "sant-usant", "text": "Epikur mente at luksus og overflod gir det beste livet.", "correct": false, "explain": "Han vektla enkle gleder og indre ro." },
-      { "id": "m03", "type": "sant-usant", "text": "Mange valgmuligheter kan også oppleves som et press.", "correct": true, "explain": "Valgets byrde." },
-      { "id": "m04", "type": "sant-usant", "text": "Sartre mente vi kan skylde på samfunnet for alle våre valg.", "correct": false, "explain": "Han mente vi har fullt ansvar." },
-      { "id": "m05", "type": "flervalg", "text": "Hvem skilte mellom negativ og positiv frihet?", "options": ["Kant", "Isaiah Berlin", "Mill", "Epikur"], "correct": 1, "explain": "I 1958." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken politisk retning legger ofte vekt på positiv frihet?", "options": ["Sosialdemokrati", "Anarkisme", "Enevelde", "Fascisme"], "correct": 0, "explain": "Gjennom skole og velferd." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr heteronom?", "options": ["Selvstyrt", "Fri", "Styrt utenfra av lyster eller autoriteter", "Lykkelig"], "correct": 2, "explain": "Motsatsen til autonom." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Pasienter har rett til å nekte behandling på grunn av prinsippet om autonomi.",
+        "correct": true,
+        "explain": "Autonomi i helsevesenet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Epikur mente at luksus og overflod gir det beste livet.",
+        "correct": false,
+        "explain": "Han vektla enkle gleder og indre ro."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange valgmuligheter kan også oppleves som et press.",
+        "correct": true,
+        "explain": "Valgets byrde."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Sartre mente vi kan skylde på samfunnet for alle våre valg.",
+        "correct": false,
+        "explain": "Han mente vi har fullt ansvar."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem skilte mellom negativ og positiv frihet?",
+        "options": [
+          "Kant",
+          "Isaiah Berlin",
+          "Mill",
+          "Epikur"
+        ],
+        "correct": 1,
+        "explain": "I 1958."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken politisk retning legger ofte vekt på positiv frihet?",
+        "options": [
+          "Sosialdemokrati",
+          "Anarkisme",
+          "Enevelde",
+          "Fascisme"
+        ],
+        "correct": 0,
+        "explain": "Gjennom skole og velferd."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr heteronom?",
+        "options": [
+          "Selvstyrt",
+          "Fri",
+          "Styrt utenfra av lyster eller autoriteter",
+          "Lykkelig"
+        ],
+        "correct": 2,
+        "explain": "Motsatsen til autonom."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Kant mente at mennesker kan være autonome fordi de har fornuft. Forklar hvordan fornuft henger sammen med autonomi, og sammenlign dette med å være styrt av lyster eller autoriteter.",
+        "fasit": "For Kant er et menneske autonomt når det bruker fornuften til å gi seg selv moralske lover. Den som bare følger lyster eller autoriteter, er heteronom fordi styringen kommer utenfra.",
+        "kriterier": [
+          "Forklarer at autonomi innebærer å styre seg selv ved hjelp av fornuft.",
+          "Skiller dette fra å være styrt av lyster eller autoriteter utenfra."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Isaiah Berlin skilte mellom negativ frihet, frihet fra tvang, og positiv frihet, reelle muligheter og evne til å styre eget liv. Forklar hvordan liberale og sosialdemokrater ofte vektlegger disse frihetsformene forskjellig.",
+        "fasit": "Liberale vektlegger ofte negativ frihet, altså at andre ikke skal hindre individet. Sosialdemokrater legger også vekt på positiv frihet, for eksempel at skole og velferd kan gi mennesker reelle muligheter.",
+        "kriterier": [
+          "Knytter liberal vektlegging til negativ frihet eller frihet fra tvang.",
+          "Knytter sosialdemokratisk vektlegging til positiv frihet og reelle muligheter, gjerne gjennom skole eller velferd."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En pasient får informasjon om en behandling og velger å nekte den. Forklar hvordan pasientens valg henger sammen med autonomi i helsevesenet.",
+        "fasit": "Valget uttrykker pasientens autonomi, fordi pasienten skal kunne styre eget liv ut fra egne vurderinger. I helsevesenet innebærer dette en rett til å samtykke til eller nekte behandling.",
+        "kriterier": [
+          "Forklarer at pasientens eget valg er et uttrykk for selvstyre eller egne vurderinger.",
+          "Nevner retten til å nekte behandling eller samtykke til behandling."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person sier at oppveksten og miljøet gjorde valgene hans uunngåelige. Forklar hvordan Sartre ville utfordret denne forklaringen, og hvorfor arv, miljø og samfunn likevel kan ha betydning for hvor ansvarlig personen er.",
+        "fasit": "Sartre ville ment at personen ikke kan skylde valgene sine på omgivelsene, fordi vi må ta ansvar for valgene våre; å late som vi ikke har valg er ond tro. Samtidig kan arv, miljø og samfunn begrense handlingsrommet, og det må tas med i vurderingen av ansvar.",
+        "kriterier": [
+          "Får fram at Sartre legger ansvar på mennesket for valgene det tar, og knytter det til ond tro eller det å late som man ikke har valg.",
+          "Forklarer at arv, miljø eller samfunn kan begrense handlingsrommet og dermed må tas med når ansvar vurderes."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En person søker luksus og sterke opplevelser for å få det godt. En annen foretrekker enkle gleder, vennskap og indre ro, og forsøker å konsentrere seg om det han kan påvirke. Sammenlign hvilken tilnærming som passer med Epikur, og hvilken som passer med stoikerne.",
+        "fasit": "Den andre personens vekt på enkle gleder, vennskap og indre ro passer med Epikur, som så fravær av smerte og indre ro som viktig. Konsentrasjonen om det personen kan påvirke, passer med stoikerne, som skiller mellom det vi kan og ikke kan påvirke.",
+        "kriterier": [
+          "Knytter Epikur til enkle gleder, fravær av smerte eller indre ro, framfor luksus.",
+          "Knytter stoikerne til skillet mellom det man kan og ikke kan påvirke."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev utvikler evnene sine, øver på å handle dydig og samarbeider godt med andre. Bruk Aristoteles’ syn på det gode liv til å forklare hvorfor dette kan være et eksempel på eudaimonia.",
+        "fasit": "For Aristoteles handler eudaimonia om å realisere evnene sine og leve dydig. Elevens utvikling av evner og gode handlinger sammen med andre passer derfor med hans syn på det gode liv.",
+        "kriterier": [
+          "Knytter eudaimonia til å realisere eller utvikle egne evner.",
+          "Får fram at et dydig liv i fellesskap med andre er viktig hos Aristoteles."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Mina mener at livet ikke har en ferdig mening som hun bare kan finne, og at hun må forme mening gjennom egne valg. Forklar hvordan dette synet henger sammen med eksistensialismen.",
+        "fasit": "Eksistensialistene mener at meningen ikke er gitt på forhånd, men er noe vi må skape selv. Minas syn på at hun former mening gjennom egne valg, passer derfor med eksistensialismen.",
+        "kriterier": [
+          "Forklarer at eksistensialistene mener at mening må skapes av mennesket selv.",
+          "Knytter dette til Minas egne valg eller handlinger."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Mange unge opplever press om å velge riktig utdanning, jobb og livsstil, selv om de også verdsetter friheten til å velge. Forklar hvorfor dette kan kalles valgets byrde, og hvilken motsetning det viser i dagens samfunn.",
+        "fasit": "Det kalles valgets byrde fordi mange valgmuligheter også kan føre til press om å velge riktig. Situasjonen viser en motsetning mellom frihet og selvrealisering på den ene siden og behovet for fellesskap, ansvar og ro på den andre.",
+        "kriterier": [
+          "Forklarer at mange valgmuligheter kan skape press eller forventning om å velge riktig.",
+          "Viser en spenning mellom frihet eller selvrealisering og fellesskap, ansvar eller ro."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

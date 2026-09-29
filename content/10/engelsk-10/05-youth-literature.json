@@ -359,6 +359,80 @@
         "correct": 1,
         "explain": "Notes make it much easier to write about the novel afterwards."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "A teenager is trying to understand who they are and where they belong. They are also dealing with conflict at home while becoming more independent. Name two YA themes shown in this situation and explain how each one fits.",
+        "fasit": "The situation shows identity, because the teenager is trying to understand who they are and where they belong. It also shows family conflict and becoming independent, because they are dealing with conflict at home while growing more independent.",
+        "kriterier": [
+          "Identifies identity and connects it to questions of who the teenager is or where they belong.",
+          "Identifies family conflict or becoming independent and connects it to the situation."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Compare the main situations in *The Catcher in the Rye* and *The Outsiders*. What is each novel about?",
+        "fasit": "*The Catcher in the Rye* is about a teenager who feels alienated from the adult world. *The Outsiders* is about rival gangs and loyalty.",
+        "kriterier": [
+          "Connects *The Catcher in the Rye* with a teenager’s alienation from the adult world.",
+          "Connects *The Outsiders* with rival gangs and loyalty."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "A story follows a teenager through everyday events that could really happen. It has no magic or other worlds. Which genre best fits, and why is it a better fit than fantasy?",
+        "fasit": "Realistic fiction fits best because the events could happen in everyday life. Fantasy often includes magic or other worlds, which are not part of this story.",
+        "kriterier": [
+          "Identifies realistic fiction and explains that the events could happen in everyday life.",
+          "Distinguishes it from fantasy by referring to magic or other worlds."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "You want to show that a novel’s main character changes during the story. What reading notes would help you support this idea, and how would you use them?",
+        "fasit": "I would use notes about the character and important events. Comparing how the character acts or thinks at different points can show how the events have changed them.",
+        "kriterier": [
+          "Uses notes about the character and/or important events as evidence.",
+          "Explains that comparing different points in the story can show the character’s change."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "You are writing an analysis and want to discuss a novel’s language or themes. What could you include as evidence, and how would it help?",
+        "fasit": "I could include quotations from the novel. They give evidence for what I say about the language or themes.",
+        "kriterier": [
+          "Identifies quotations from the novel as evidence.",
+          "Explains that quotations support a point about language or themes."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "A student is choosing between writing a book review and an analysis. Explain how the focus of the plot summary differs in the two forms, and name one other element they can discuss.",
+        "fasit": "A review gives a short summary without spoilers, while an analysis focuses on key events. Both can discuss characters, themes or language, using quotations.",
+        "kriterier": [
+          "Explains that a review’s summary avoids spoilers and an analysis focuses on key events.",
+          "Names a shared discussion element, such as characters, themes or language, or the use of quotations."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Compare the challenges faced by the main characters in *Wonder* and *The Hate U Give*.",
+        "fasit": "In *Wonder*, a boy with a facial difference starts school. In *The Hate U Give*, a girl witnesses police violence and finds her voice.",
+        "kriterier": [
+          "Connects *Wonder* with a boy with a facial difference starting school.",
+          "Connects *The Hate U Give* with a girl witnessing police violence and finding her voice."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "When writing about a novel in present tense, a writer can also connect it to the world around them. Choose either their own life or another book or film as a comparison, and explain what aspect of growing up they could compare.",
+        "fasit": "A writer could compare the character’s experience of becoming independent with something from their own life. This can help them consider how the novel’s ideas about growing up relate to life outside the story.",
+        "kriterier": [
+          "Chooses a comparison with their own life or another book or film.",
+          "Explains how the comparison relates to growing up or an idea in the novel."
+        ]
+      }
     ]
   },
   "kvalitet": {

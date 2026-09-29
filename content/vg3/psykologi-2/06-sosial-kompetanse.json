@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Sosial kompetanse",
   "intro": "Hva sosial kompetanse er og hvilke ferdigheter den består av – samarbeid, empati, selvhevdelse, selvkontroll og ansvarlighet – hvilke faktorer som påvirker utviklingen, som tilknytning, foreldrestil, lek, mentalisering, temperament og kultur, og hvorfor sosial kompetanse har stor betydning gjennom livet.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Hva er sosial kompetanse?\n\n**Sosial kompetanse** er de **kunnskapene**, **ferdighetene** og **holdningene** vi trenger for å mestre sosiale situasjoner, etablere og opprettholde **relasjoner** og samarbeide med andre. Det handler om å kunne **lese** situasjoner og tilpasse seg dem – ikke om å være mest mulig **utadvendt**.\n\n## Fem sentrale ferdigheter\n\nEn mye brukt inndeling i Norge peker på fem ferdigheter:\n\n- **Samarbeid**: å dele, hjelpe og følge felles regler\n- **Empati**: å forstå og vise omsorg for andres følelser og perspektiv\n- **Selvhevdelse**: å si sin **mening**, be om hjelp og stå imot negativt gruppepress – på en måte som respekterer andre\n- **Selvkontroll**: å regulere **følelser** og **impulser**, for eksempel sinne\n- **Ansvarlighet**: å vise **respekt**, holde avtaler og ta ansvar for egne handlinger\n\n## Faktorer som påvirker utviklingen\n\n**Tilknytning**: En **trygg** tilknytning til omsorgspersoner gir en «**trygg base**» som barnet kan utforske verden fra. Barnet lærer at andre er **tilgjengelige** og at egne følelser blir **forstått**.\n\n**Foreldrestil**: Psykologen **Diana Baumrind** beskrev ulike foreldrestiler. Den **autoritative** stilen – varm og støttende, men med **tydelige grenser** – henger ofte sammen med god sosial kompetanse. **Autoritær** stil har mye kontroll og lite varme, mens **ettergivende** stil har mye varme og få grenser.\n\n**Lek og jevnaldrende**: I **lek** øver barn på **turtaking**, **forhandling**, **rollespill** og **konfliktløsning**. Venner gir tilbakemelding som voksne ikke kan gi.\n\n**Mentalisering**: Evnen til å forstå at andre har **tanker**, **følelser** og **intensjoner** som kan være annerledes enn ens egne – ofte kalt **theory of mind**. Den utvikles tydelig rundt **fire–fem års** alder og fortsetter å utvikles gjennom ungdomstiden.\n\n**Emosjonsregulering**: Barn lærer å håndtere følelser gjennom voksne som **sammen** med dem roer ned sterke følelser – **samregulering** – før de klarer det selv.\n\n**Modellæring**: Etter **Albert Bandura** lærer barn ved å **observere** og **etterligne** andre.\n\n**Temperament**: Noen barn er født mer **aktive**, **sjenerte** eller **intense** enn andre. Temperamentet påvirker hvordan omgivelsene møter barnet.\n\n**Kultur**: Hva som regnes som **kompetent** – for eksempel øyekontakt, hvor direkte man er, eller hvor mye man snakker – varierer mellom **kulturer**.\n\n## Betydningen av sosial kompetanse\n\n- **Vennskap** og **tilhørighet**\n- **Læring** og trivsel på skolen\n- **Psykisk helse**: sosial kompetanse er en **beskyttende** faktor\n- **Arbeidsliv**: samarbeid og kommunikasjon er etterspurte ferdigheter\n- **Samfunn**: demokratisk deltakelse og **toleranse**\n\nSvak sosial kompetanse kan gi **utenforskap**, **konflikter** og **ensomhet**.\n\n## Kan sosial kompetanse læres?\n\nJa. Sosial kompetanse er ikke en fast egenskap. Den kan **trenes** gjennom rollespill, tilbakemeldinger og programmer i barnehage og skole. **Ungdomstiden** er en viktig periode, fordi hjernen fortsatt utvikler seg og **jevnaldrende** blir viktigere.\n\n## Refleksjon\n\nSosial kompetanse er **situasjonsavhengig**: Det som fungerer i en vennegjeng, passer kanskje ikke i et jobbintervju. En **introvert** person kan ha svært god sosial kompetanse. Spørsmålet er om man mestrer de situasjonene man møter – på en måte som tar vare på både **seg selv** og **andre**.",
   "flashcards": [
-    { "term": "Sosial kompetanse", "def": "Kunnskaper, ferdigheter og holdninger for å mestre sosiale situasjoner." },
-    { "term": "Samarbeid", "def": "Å dele, hjelpe og følge felles regler." },
-    { "term": "Empati", "def": "Å forstå og vise omsorg for andres følelser." },
-    { "term": "Selvhevdelse", "def": "Å si sin mening og stå imot press på en respektfull måte." },
-    { "term": "Selvkontroll", "def": "Å regulere følelser og impulser." },
-    { "term": "Ansvarlighet", "def": "Å vise respekt og ta ansvar for egne handlinger." },
-    { "term": "Trygg base", "def": "Trygg tilknytning som barnet kan utforske verden fra." },
-    { "term": "Autoritativ foreldrestil", "def": "Varm og støttende med tydelige grenser." },
-    { "term": "Autoritær foreldrestil", "def": "Mye kontroll og lite varme." },
-    { "term": "Ettergivende foreldrestil", "def": "Mye varme og få grenser." },
-    { "term": "Theory of mind", "def": "Forståelse av at andre har egne tanker og følelser." },
-    { "term": "Samregulering", "def": "Voksne hjelper barnet å roe ned sterke følelser." },
-    { "term": "Modellæring", "def": "Læring ved å observere og etterligne – Bandura." },
-    { "term": "Temperament", "def": "Medfødte forskjeller i aktivitet, sjenanse og intensitet." },
-    { "term": "Situasjonsavhengig", "def": "Hva som er kompetent, varierer med situasjon og kultur." }
+    {
+      "term": "Sosial kompetanse",
+      "def": "Kunnskaper, ferdigheter og holdninger for å mestre sosiale situasjoner."
+    },
+    {
+      "term": "Samarbeid",
+      "def": "Å dele, hjelpe og følge felles regler."
+    },
+    {
+      "term": "Empati",
+      "def": "Å forstå og vise omsorg for andres følelser."
+    },
+    {
+      "term": "Selvhevdelse",
+      "def": "Å si sin mening og stå imot press på en respektfull måte."
+    },
+    {
+      "term": "Selvkontroll",
+      "def": "Å regulere følelser og impulser."
+    },
+    {
+      "term": "Ansvarlighet",
+      "def": "Å vise respekt og ta ansvar for egne handlinger."
+    },
+    {
+      "term": "Trygg base",
+      "def": "Trygg tilknytning som barnet kan utforske verden fra."
+    },
+    {
+      "term": "Autoritativ foreldrestil",
+      "def": "Varm og støttende med tydelige grenser."
+    },
+    {
+      "term": "Autoritær foreldrestil",
+      "def": "Mye kontroll og lite varme."
+    },
+    {
+      "term": "Ettergivende foreldrestil",
+      "def": "Mye varme og få grenser."
+    },
+    {
+      "term": "Theory of mind",
+      "def": "Forståelse av at andre har egne tanker og følelser."
+    },
+    {
+      "term": "Samregulering",
+      "def": "Voksne hjelper barnet å roe ned sterke følelser."
+    },
+    {
+      "term": "Modellæring",
+      "def": "Læring ved å observere og etterligne – Bandura."
+    },
+    {
+      "term": "Temperament",
+      "def": "Medfødte forskjeller i aktivitet, sjenanse og intensitet."
+    },
+    {
+      "term": "Situasjonsavhengig",
+      "def": "Hva som er kompetent, varierer med situasjon og kultur."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er selvhevdelse?", "options": ["Å alltid få viljen sin", "Å si sin mening og stå imot press på en respektfull måte", "Å være stille", "Å dominere andre"], "correct": 1, "explain": "Respekterer også andre." },
-    { "id": "q02", "text": "Hvilken foreldrestil henger ofte sammen med god sosial kompetanse?", "options": ["Autoritativ", "Autoritær", "Forsømmende", "Ettergivende"], "correct": 0, "explain": "Varme og tydelige grenser." },
-    { "id": "q03", "text": "Hva er theory of mind?", "options": ["En teori om hjernen", "Evnen til å huske", "Forståelsen av at andre har egne tanker og følelser", "En type intelligens-test"], "correct": 2, "explain": "Mentalisering." },
-    { "id": "q04", "text": "Hva lærer barn gjennom lek?", "options": ["Bare motorikk", "Ingenting sosialt", "Bare regning", "Turtaking, forhandling og konfliktløsning"], "correct": 3, "explain": "Lek er sosial trening." },
-    { "id": "q05", "text": "Hva er samregulering?", "options": ["At voksne hjelper barnet å roe ned sterke følelser", "At barn regulerer hverandre", "At barnet klarer alt selv", "At følelser undertrykkes"], "correct": 0, "explain": "Før barnet klarer det selv." },
-    { "id": "q06", "text": "Hvem beskrev modellæring?", "options": ["Bowlby", "Bandura", "Baumrind", "Piaget"], "correct": 1, "explain": "Læring ved observasjon." },
-    { "id": "q07", "text": "Hvorfor er sosial kompetanse situasjonsavhengig?", "options": ["Fordi den er medfødt", "Fordi den aldri endres", "Fordi det som fungerer, varierer mellom situasjoner og kulturer", "Fordi den bare gjelder barn"], "correct": 2, "explain": "Kulturelle normer varierer." },
-    { "id": "q08", "text": "Kan sosial kompetanse læres?", "options": ["Nei, den er fast", "Bare i barndommen", "Bare av voksne", "Ja, gjennom trening og tilbakemeldinger"], "correct": 3, "explain": "Ungdomstiden er en viktig periode." },
-    { "id": "q09", "text": "Hva gir en trygg tilknytning?", "options": ["En trygg base for å utforske verden", "Mer sjenanse", "Mindre empati", "Flere konflikter"], "correct": 0, "explain": "Bowlby." },
-    { "id": "q10", "text": "Kan en introvert person ha god sosial kompetanse?", "options": ["Nei, aldri", "Ja", "Bare på nett", "Bare i familien"], "correct": 1, "explain": "Kompetanse handler om å mestre situasjoner." }
+    {
+      "id": "q01",
+      "text": "Hva er selvhevdelse?",
+      "options": [
+        "Å alltid få viljen sin",
+        "Å si sin mening og stå imot press på en respektfull måte",
+        "Å være stille",
+        "Å dominere andre"
+      ],
+      "correct": 1,
+      "explain": "Respekterer også andre."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken foreldrestil henger ofte sammen med god sosial kompetanse?",
+      "options": [
+        "Autoritativ",
+        "Autoritær",
+        "Forsømmende",
+        "Ettergivende"
+      ],
+      "correct": 0,
+      "explain": "Varme og tydelige grenser."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er theory of mind?",
+      "options": [
+        "En teori om hjernen",
+        "Evnen til å huske",
+        "Forståelsen av at andre har egne tanker og følelser",
+        "En type intelligens-test"
+      ],
+      "correct": 2,
+      "explain": "Mentalisering."
+    },
+    {
+      "id": "q04",
+      "text": "Hva lærer barn gjennom lek?",
+      "options": [
+        "Bare motorikk",
+        "Ingenting sosialt",
+        "Bare regning",
+        "Turtaking, forhandling og konfliktløsning"
+      ],
+      "correct": 3,
+      "explain": "Lek er sosial trening."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er samregulering?",
+      "options": [
+        "At voksne hjelper barnet å roe ned sterke følelser",
+        "At barn regulerer hverandre",
+        "At barnet klarer alt selv",
+        "At følelser undertrykkes"
+      ],
+      "correct": 0,
+      "explain": "Før barnet klarer det selv."
+    },
+    {
+      "id": "q06",
+      "text": "Hvem beskrev modellæring?",
+      "options": [
+        "Bowlby",
+        "Bandura",
+        "Baumrind",
+        "Piaget"
+      ],
+      "correct": 1,
+      "explain": "Læring ved observasjon."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er sosial kompetanse situasjonsavhengig?",
+      "options": [
+        "Fordi den er medfødt",
+        "Fordi den aldri endres",
+        "Fordi det som fungerer, varierer mellom situasjoner og kulturer",
+        "Fordi den bare gjelder barn"
+      ],
+      "correct": 2,
+      "explain": "Kulturelle normer varierer."
+    },
+    {
+      "id": "q08",
+      "text": "Kan sosial kompetanse læres?",
+      "options": [
+        "Nei, den er fast",
+        "Bare i barndommen",
+        "Bare av voksne",
+        "Ja, gjennom trening og tilbakemeldinger"
+      ],
+      "correct": 3,
+      "explain": "Ungdomstiden er en viktig periode."
+    },
+    {
+      "id": "q09",
+      "text": "Hva gir en trygg tilknytning?",
+      "options": [
+        "En trygg base for å utforske verden",
+        "Mer sjenanse",
+        "Mindre empati",
+        "Flere konflikter"
+      ],
+      "correct": 0,
+      "explain": "Bowlby."
+    },
+    {
+      "id": "q10",
+      "text": "Kan en introvert person ha god sosial kompetanse?",
+      "options": [
+        "Nei, aldri",
+        "Ja",
+        "Bare på nett",
+        "Bare i familien"
+      ],
+      "correct": 1,
+      "explain": "Kompetanse handler om å mestre situasjoner."
+    }
   ],
   "mindmap": {
     "label": "Sosial kompetanse",
     "children": [
-      { "label": "Ferdigheter", "children": [
-        { "label": "Samarbeid og empati" },
-        { "label": "Selvhevdelse og selvkontroll" },
-        { "label": "Ansvarlighet" }
-      ] },
-      { "label": "Tidlig utvikling", "children": [
-        { "label": "Tilknytning" },
-        { "label": "Foreldrestil" },
-        { "label": "Samregulering" }
-      ] },
-      { "label": "Sosial læring", "children": [
-        { "label": "Lek og jevnaldrende" },
-        { "label": "Modellæring" },
-        { "label": "Theory of mind" }
-      ] },
-      { "label": "Individ og kultur", "children": [
-        { "label": "Temperament" },
-        { "label": "Kulturelle normer" }
-      ] },
-      { "label": "Betydning", "children": [
-        { "label": "Vennskap og skole" },
-        { "label": "Psykisk helse" },
-        { "label": "Arbeidsliv" }
-      ] }
+      {
+        "label": "Ferdigheter",
+        "children": [
+          {
+            "label": "Samarbeid og empati"
+          },
+          {
+            "label": "Selvhevdelse og selvkontroll"
+          },
+          {
+            "label": "Ansvarlighet"
+          }
+        ]
+      },
+      {
+        "label": "Tidlig utvikling",
+        "children": [
+          {
+            "label": "Tilknytning"
+          },
+          {
+            "label": "Foreldrestil"
+          },
+          {
+            "label": "Samregulering"
+          }
+        ]
+      },
+      {
+        "label": "Sosial læring",
+        "children": [
+          {
+            "label": "Lek og jevnaldrende"
+          },
+          {
+            "label": "Modellæring"
+          },
+          {
+            "label": "Theory of mind"
+          }
+        ]
+      },
+      {
+        "label": "Individ og kultur",
+        "children": [
+          {
+            "label": "Temperament"
+          },
+          {
+            "label": "Kulturelle normer"
+          }
+        ]
+      },
+      {
+        "label": "Betydning",
+        "children": [
+          {
+            "label": "Vennskap og skole"
+          },
+          {
+            "label": "Psykisk helse"
+          },
+          {
+            "label": "Arbeidsliv"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Sosial kompetanse er en beskyttende faktor for psykisk helse.", "correct": true, "explain": "Gir tilhørighet og støtte." },
-      { "id": "m02", "type": "sant-usant", "text": "Sosial kompetanse betyr å være mest mulig utadvendt.", "correct": false, "explain": "Det handler om å mestre situasjoner." },
-      { "id": "m03", "type": "sant-usant", "text": "Temperament kan påvirke hvordan omgivelsene møter et barn.", "correct": true, "explain": "Samspill mellom barn og miljø." },
-      { "id": "m04", "type": "sant-usant", "text": "Normer for øyekontakt er like i alle kulturer.", "correct": false, "explain": "De varierer mellom kulturer." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken foreldrestil har mye kontroll og lite varme?", "options": ["Autoritativ", "Autoritær", "Ettergivende", "Forsømmende"], "correct": 1, "explain": "Baumrinds inndeling." },
-      { "id": "m06", "type": "flervalg", "text": "Rundt hvilken alder utvikles theory of mind tydelig?", "options": ["Fire–fem år", "Ett år", "Ti år", "Femten år"], "correct": 0, "explain": "Men den utvikles videre gjennom ungdomstiden." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken ferdighet handler om å regulere sinne?", "options": ["Empati", "Samarbeid", "Selvkontroll", "Selvhevdelse"], "correct": 2, "explain": "Regulering av følelser og impulser." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Sosial kompetanse er en beskyttende faktor for psykisk helse.",
+        "correct": true,
+        "explain": "Gir tilhørighet og støtte."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Sosial kompetanse betyr å være mest mulig utadvendt.",
+        "correct": false,
+        "explain": "Det handler om å mestre situasjoner."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Temperament kan påvirke hvordan omgivelsene møter et barn.",
+        "correct": true,
+        "explain": "Samspill mellom barn og miljø."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Normer for øyekontakt er like i alle kulturer.",
+        "correct": false,
+        "explain": "De varierer mellom kulturer."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken foreldrestil har mye kontroll og lite varme?",
+        "options": [
+          "Autoritativ",
+          "Autoritær",
+          "Ettergivende",
+          "Forsømmende"
+        ],
+        "correct": 1,
+        "explain": "Baumrinds inndeling."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Rundt hvilken alder utvikles theory of mind tydelig?",
+        "options": [
+          "Fire–fem år",
+          "Ett år",
+          "Ti år",
+          "Femten år"
+        ],
+        "correct": 0,
+        "explain": "Men den utvikles videre gjennom ungdomstiden."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken ferdighet handler om å regulere sinne?",
+        "options": [
+          "Empati",
+          "Samarbeid",
+          "Selvkontroll",
+          "Selvhevdelse"
+        ],
+        "correct": 2,
+        "explain": "Regulering av følelser og impulser."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva sosial kompetanse innebærer. Ta med minst to sider ved hva en person trenger for å mestre sosiale situasjoner.",
+        "fasit": "Sosial kompetanse innebærer kunnskaper, ferdigheter og holdninger som hjelper oss å mestre sosiale situasjoner. Den gjør det lettere å etablere og opprettholde relasjoner og samarbeide med andre.",
+        "kriterier": [
+          "Forklarer at sosial kompetanse handler om kunnskaper, ferdigheter og holdninger.",
+          "Knytter kompetansen til å mestre sosiale situasjoner, relasjoner eller samarbeid."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign autoritativ og autoritær foreldrestil. Hva kjennetegner hver av dem?",
+        "fasit": "En autoritativ forelder er varm og støttende, samtidig som det finnes tydelige grenser. En autoritær forelder har mye kontroll og lite varme.",
+        "kriterier": [
+          "Får fram at autoritativ stil kombinerer varme og støtte med tydelige grenser.",
+          "Får fram at autoritær stil har mye kontroll og lite varme."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I et gruppearbeid blir du sint fordi en medelev avviser forslaget ditt. Beskriv hvordan du kan håndtere situasjonen ved å bruke både selvkontroll og selvhevdelse.",
+        "fasit": "Jeg kan først prøve å roe ned sinnet og unngå å reagere impulsivt. Deretter kan jeg forklare hva jeg mener på en tydelig og respektfull måte.",
+        "kriterier": [
+          "Viser hvordan personen kan regulere sinne eller unngå en impulsiv reaksjon.",
+          "Viser hvordan personen kan uttrykke egen mening på en måte som respekterer den andre."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I et gruppearbeid hjelper du en medelev med oppgaven og følger gruppas regler. Du holder også avtalen om å gjøre din egen del. Forklar hvilke handlinger som viser samarbeid, og hvilke som viser ansvarlighet.",
+        "fasit": "Å hjelpe medeleven og følge gruppas regler viser samarbeid. Å holde avtalen om å gjøre sin egen del viser ansvarlighet.",
+        "kriterier": [
+          "Knytter det å hjelpe eller følge felles regler til samarbeid.",
+          "Knytter det å holde avtaler eller ta ansvar for egne handlinger til ansvarlighet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En ungdom ser en voksen lytte rolig til en person som er uenig, og begynner senere å gjøre det samme. Forklar hvordan denne læringen skjer.",
+        "fasit": "Ungdommen lærer ved å observere den voksne og etterligne måten den voksne lytter på. Dette er modellæring.",
+        "kriterier": [
+          "Forklarer at personen først observerer en annens handling.",
+          "Forklarer at personen lærer ved å etterligne handlingen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et barn er sjenert og tar sjelden ordet i en gruppe. Forklar hvordan barnets temperament kan påvirke hvordan omgivelsene møter barnet.",
+        "fasit": "Sjenanse kan være en del av barnets temperament, altså en medfødt forskjell. Temperamentet kan påvirke hvordan andre møter barnet.",
+        "kriterier": [
+          "Knytter sjenanse til temperament eller medfødte forskjeller.",
+          "Forklarer at temperament kan påvirke hvordan omgivelsene møter barnet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvorfor ungdomstiden er en viktig periode for å utvikle sosial kompetanse.",
+        "fasit": "Ungdomstiden er viktig fordi hjernen fortsatt utvikler seg, samtidig som jevnaldrende blir viktigere. Sosial kompetanse kan trenes, også i denne perioden.",
+        "kriterier": [
+          "Nevner at hjernen fortsatt utvikler seg i ungdomstiden.",
+          "Nevner at jevnaldrende blir viktigere, eller at sosial kompetanse kan trenes i denne perioden."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En elev strever med å samarbeide og følge felles regler. Forklar to mulige følger dette kan få for elevens sosiale situasjon.",
+        "fasit": "Det kan føre til konflikter med andre. Eleven kan også oppleve utenforskap eller ensomhet.",
+        "kriterier": [
+          "Knytter svake sosiale ferdigheter til konflikter.",
+          "Knytter svake sosiale ferdigheter til utenforskap eller ensomhet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

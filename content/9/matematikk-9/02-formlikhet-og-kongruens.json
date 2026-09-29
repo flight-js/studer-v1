@@ -348,6 +348,80 @@
         "correct": 3,
         "explain": "Arealet ganges med 3² = 9."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign kongruente og formlike figurer. Hva må være likt i hvert tilfelle, og hva kan være forskjellig?",
+        "fasit": "Kongruente figurer har samme form og størrelse, mens formlike figurer kan ha ulik størrelse. I begge tilfeller er samsvarende vinkler like, men hos formlike figurer har samsvarende sider samme forhold i stedet for nødvendigvis samme lengde.",
+        "kriterier": [
+          "Skiller mellom samme størrelse for kongruente figurer og mulig ulik størrelse for formlike figurer.",
+          "Får fram at samsvarende sider og vinkler oppfører seg ulikt i de to tilfellene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En likebeint trekant har en toppvinkel på 40°. Hvor stor er hver av vinklene ved grunnlinjen? Vis det viktigste regnestykket.",
+        "fasit": "Vinklene ved grunnlinjen er like store. De blir hver (180° − 40°) / 2 = 70°.",
+        "kriterier": [
+          "Bruker at vinkelsummen i en trekant er 180° og at grunnlinjevinklene er like.",
+          "Finner at hver grunnlinjevinkel er 70°."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Firkant A har begge par motstående sider parallelle. Firkant B har nøyaktig ett par parallelle sider. Hva kalles hver firkant, og hva er forskjellen på dem?",
+        "fasit": "Firkant A er et parallellogram, og firkant B er et trapes. Parallellogrammet har to par parallelle sider, mens trapeset har ett par.",
+        "kriterier": [
+          "Kaller firkant A et parallellogram og firkant B et trapes.",
+          "Beskriver riktig hvor mange par parallelle sider hver har."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I trekant ABC er vinkel A lik vinkel D i trekant DEF, vinkel B er lik vinkel E, og vinkel C er lik vinkel F. Hvilken side i trekant ABC samsvarer med side EF? Forklar hvordan du finner det.",
+        "fasit": "Side EF samsvarer med side BC. Endepunktene E og F samsvarer med henholdsvis B og C fordi vinklene ved disse hjørnene er like.",
+        "kriterier": [
+          "Oppgir at BC samsvarer med EF.",
+          "Knytter samsvaret til hvilke hjørner eller vinkler som er like."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Alle lengdene i en formlik figur blir ganget med 3. Hvor mange ganger så stort blir arealet? Forklar sammenhengen.",
+        "fasit": "Arealet blir 3² = 9 ganger så stort. Når lengdene ganges med en faktor k, ganges arealet med k².",
+        "kriterier": [
+          "Finner at arealet blir 9 ganger så stort.",
+          "Begrunner svaret med at arealfaktoren er kvadratet av lengdefaktoren."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I to trekanter er to sider like lange parvis, og vinkelen mellom disse sidene er også lik. Hvilket kongruenskrav beskriver dette, og hva kan du konkludere om trekantene?",
+        "fasit": "Dette er SVS-kravet: to sider og vinkelen mellom dem er like. Derfor er trekantene kongruente.",
+        "kriterier": [
+          "Identifiserer SVS og forklarer at vinkelen er mellom de to sidene.",
+          "Konkluderer med at trekantene er kongruente."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Tre vinkler i en firkant er 80°, 95° og 105°. Hvor stor er den fjerde vinkelen? Vis det viktigste regnestykket.",
+        "fasit": "Vinkelsummen i en firkant er 360°. Den fjerde vinkelen er 360° − (80° + 95° + 105°) = 80°.",
+        "kriterier": [
+          "Bruker at vinkelsummen i en firkant er 360°.",
+          "Finner at den fjerde vinkelen er 80°."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En trekant har én vinkel som er større enn 90°, og den har to like lange sider. Klassifiser trekanten etter vinklene og etter sidene. Forklar kort.",
+        "fasit": "Trekanten er stumpvinklet fordi den har en vinkel større enn 90°. Den er likebeint fordi den har to like lange sider.",
+        "kriterier": [
+          "Klassifiserer trekanten som stumpvinklet.",
+          "Klassifiserer trekanten som likebeint og knytter det til de to like lange sidene."
+        ]
+      }
     ]
   },
   "kvalitet": {

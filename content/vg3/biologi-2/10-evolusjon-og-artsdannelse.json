@@ -4,77 +4,422 @@
   "trinnId": "vg3",
   "name": "Evolusjon og artsdannelse",
   "intro": "Hvordan evolusjonære prosesser endrer genlageret i populasjoner – allelfrekvenser og Hardy–Weinberg-likevekten, naturlig og seksuell seleksjon, genetisk drift, flaskehals- og grunnleggereffekt og genflyt – og ulike mekanismer for artsdannelse med reproduktive barrierer.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Genlageret\n\n**Genlageret** er summen av alle **allelene** i en populasjon. **Evolusjon** betyr at **allelfrekvensene** i genlageret **endrer seg** fra generasjon til generasjon.\n\n## Hardy–Weinberg-likevekt\n\nHvis ingen evolusjonære krefter virker, holder allelfrekvensene seg **konstante**. For et gen med to alleler med frekvensene p og q gjelder\n\n- **p + q = 1**\n- **p² + 2pq + q² = 1**, der p² er andelen AA, 2pq andelen Aa og q² andelen aa\n\n**Eksempel**: 4 % av en populasjon viser et recessivt trekk (aa). Da er q² = 0,04, så q = 0,2 og p = 0,8. Andelen **bærere** (Aa) er 2 · 0,8 · 0,2 = **0,32**, altså 32 %.\n\nLikevekten forutsetter **ingen** mutasjoner, **ingen** seleksjon, **ingen** inn- eller utvandring, **tilfeldig** paring og en **stor** populasjon. Avvik fra likevekten viser at **evolusjon** skjer.\n\n## Evolusjonære mekanismer\n\n**Naturlig seleksjon**: Individer med egenskaper som gir flere **overlevende avkom**, sprer allelene sine.\n\n- **Retningsbestemt** seleksjon favoriserer det ene **ytterpunktet**, for eksempel mørkere farge.\n- **Stabiliserende** seleksjon favoriserer **gjennomsnittet**, for eksempel normal fødselsvekt.\n- **Splittende** seleksjon favoriserer **begge** ytterpunktene og kan føre til nye arter.\n\n**Seksuell seleksjon**: Egenskaper som gir større **paringssuksess**, som påfuglens hale, blir vanligere – selv om de kan være en ulempe for overlevelsen.\n\n**Genetisk drift**: **Tilfeldige** endringer i allelfrekvensene, særlig i **små** populasjoner.\n\n- **Flaskehalseffekt**: En populasjon blir kraftig redusert, for eksempel av jakt eller sykdom, og mister mye **variasjon**.\n- **Grunnleggereffekt**: Noen få individer grunnlegger en ny populasjon og tar bare med en del av variasjonen.\n\n**Genflyt**: **Inn-** og **utvandring** flytter alleler mellom populasjoner og gjør dem mer **like**.\n\n**Mutasjoner** gir **nye** alleler og er grunnlaget for all variasjon.\n\n## Artsbegrepet\n\nEtter det **biologiske artsbegrepet** er en **art** en gruppe individer som kan **pare seg** med hverandre og få **fruktbart** avkom.\n\n## Artsdannelse\n\n- **Allopatrisk artsdannelse**: En populasjon blir delt av en **geografisk barriere**, som en elv, et fjell eller havet. De to delene utvikler seg **ulikt** og blir til slutt **ulike arter**. **Darwins finker** på **Galápagosøyene** er et klassisk eksempel.\n- **Sympatrisk artsdannelse**: Nye arter oppstår i **samme** område, for eksempel når individer bruker ulike **nisjer** eller **matkilder**, eller ved **polyploidi** hos planter – at antall kromosomsett økes.\n\n## Reproduktive barrierer\n\n- **Før befruktning**: ulik **paringstid**, ulik **paringsatferd**, ulike **leveområder** eller kjønnsorganer som ikke passer\n- **Etter befruktning**: avkommet **dør** tidlig eller er **sterilt**, som **muldyret**, en krysning av hest og esel\n\n## Evolusjon i dag\n\nEvolusjon kan observeres i vår egen tid, for eksempel når bakterier utvikler **antibiotikaresistens** eller når fisk blir **kjønnsmodne** tidligere som følge av hardt **fiske**.",
   "flashcards": [
-    { "term": "Genlager", "def": "Summen av alle allelene i en populasjon." },
-    { "term": "Allelfrekvens", "def": "Hvor vanlig et allel er i genlageret." },
-    { "term": "Evolusjon", "def": "Endring i allelfrekvenser over generasjoner." },
-    { "term": "Hardy–Weinberg-likevekt", "def": "Konstante allelfrekvenser når ingen evolusjonære krefter virker." },
-    { "term": "p² + 2pq + q² = 1", "def": "Genotypefrekvensene i Hardy–Weinberg-likevekt." },
-    { "term": "Retningsbestemt seleksjon", "def": "Favoriserer det ene ytterpunktet." },
-    { "term": "Stabiliserende seleksjon", "def": "Favoriserer gjennomsnittet." },
-    { "term": "Splittende seleksjon", "def": "Favoriserer begge ytterpunktene." },
-    { "term": "Seksuell seleksjon", "def": "Egenskaper som gir paringssuksess, blir vanligere." },
-    { "term": "Genetisk drift", "def": "Tilfeldige endringer i allelfrekvenser, særlig i små populasjoner." },
-    { "term": "Flaskehalseffekt", "def": "Kraftig reduksjon av en populasjon gir tap av variasjon." },
-    { "term": "Grunnleggereffekt", "def": "Få individer grunnlegger en ny populasjon med mindre variasjon." },
-    { "term": "Genflyt", "def": "Flytting av alleler mellom populasjoner." },
-    { "term": "Allopatrisk artsdannelse", "def": "Nye arter etter geografisk isolasjon." },
-    { "term": "Sympatrisk artsdannelse", "def": "Nye arter i samme område, for eksempel ved polyploidi." },
-    { "term": "Reproduktiv barriere", "def": "Hindrer paring eller fruktbart avkom mellom arter." }
+    {
+      "term": "Genlager",
+      "def": "Summen av alle allelene i en populasjon."
+    },
+    {
+      "term": "Allelfrekvens",
+      "def": "Hvor vanlig et allel er i genlageret."
+    },
+    {
+      "term": "Evolusjon",
+      "def": "Endring i allelfrekvenser over generasjoner."
+    },
+    {
+      "term": "Hardy–Weinberg-likevekt",
+      "def": "Konstante allelfrekvenser når ingen evolusjonære krefter virker."
+    },
+    {
+      "term": "p² + 2pq + q² = 1",
+      "def": "Genotypefrekvensene i Hardy–Weinberg-likevekt."
+    },
+    {
+      "term": "Retningsbestemt seleksjon",
+      "def": "Favoriserer det ene ytterpunktet."
+    },
+    {
+      "term": "Stabiliserende seleksjon",
+      "def": "Favoriserer gjennomsnittet."
+    },
+    {
+      "term": "Splittende seleksjon",
+      "def": "Favoriserer begge ytterpunktene."
+    },
+    {
+      "term": "Seksuell seleksjon",
+      "def": "Egenskaper som gir paringssuksess, blir vanligere."
+    },
+    {
+      "term": "Genetisk drift",
+      "def": "Tilfeldige endringer i allelfrekvenser, særlig i små populasjoner."
+    },
+    {
+      "term": "Flaskehalseffekt",
+      "def": "Kraftig reduksjon av en populasjon gir tap av variasjon."
+    },
+    {
+      "term": "Grunnleggereffekt",
+      "def": "Få individer grunnlegger en ny populasjon med mindre variasjon."
+    },
+    {
+      "term": "Genflyt",
+      "def": "Flytting av alleler mellom populasjoner."
+    },
+    {
+      "term": "Allopatrisk artsdannelse",
+      "def": "Nye arter etter geografisk isolasjon."
+    },
+    {
+      "term": "Sympatrisk artsdannelse",
+      "def": "Nye arter i samme område, for eksempel ved polyploidi."
+    },
+    {
+      "term": "Reproduktiv barriere",
+      "def": "Hindrer paring eller fruktbart avkom mellom arter."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr evolusjon i populasjonsgenetikk?", "options": ["At individer endrer seg i løpet av livet", "At allelfrekvensene endrer seg over generasjoner", "At arter aldri endres", "At alle gener er like"], "correct": 1, "explain": "Genlageret endres." },
-    { "id": "q02", "text": "q² = 0,04. Hva er andelen bærere (Aa)?", "options": ["32 %", "4 %", "16 %", "64 %"], "correct": 0, "explain": "q = 0,2, p = 0,8, 2pq = 0,32." },
-    { "id": "q03", "text": "Hva forutsetter Hardy–Weinberg-likevekt?", "options": ["Sterk seleksjon", "Liten populasjon", "Ingen mutasjoner, seleksjon eller vandring og en stor populasjon", "Mye innvandring"], "correct": 2, "explain": "Avvik viser at evolusjon skjer." },
-    { "id": "q04", "text": "Hvilken seleksjon favoriserer gjennomsnittet?", "options": ["Retningsbestemt", "Splittende", "Seksuell", "Stabiliserende"], "correct": 3, "explain": "For eksempel normal fødselsvekt." },
-    { "id": "q05", "text": "Hva er genetisk drift?", "options": ["Tilfeldige endringer i allelfrekvenser", "Seleksjon av de sterkeste", "Innvandring", "Mutasjoner"], "correct": 0, "explain": "Særlig viktig i små populasjoner." },
-    { "id": "q06", "text": "Hva er flaskehalseffekten?", "options": ["At populasjonen vokser raskt", "At en kraftig reduksjon gir tap av genetisk variasjon", "At to arter blir én", "At allelene blandes"], "correct": 1, "explain": "For eksempel etter jakt eller sykdom." },
-    { "id": "q07", "text": "Hva er allopatrisk artsdannelse?", "options": ["Artsdannelse i samme område", "Artsdannelse ved krysning", "Artsdannelse etter geografisk isolasjon", "Artsdannelse ved genflyt"], "correct": 2, "explain": "Som Darwins finker." },
-    { "id": "q08", "text": "Hvorfor er muldyret et eksempel på en reproduktiv barriere?", "options": ["Fordi det ikke kan leve", "Fordi hest og esel ikke kan pare seg", "Fordi det er en ny art", "Fordi det er sterilt"], "correct": 3, "explain": "En barriere etter befruktning." },
-    { "id": "q09", "text": "Hva gjør genflyt med to populasjoner?", "options": ["Gjør dem mer like", "Gjør dem mer ulike", "Skaper nye arter", "Stopper evolusjonen"], "correct": 0, "explain": "Alleler flyttes mellom dem." },
-    { "id": "q10", "text": "Hva er et eksempel på evolusjon i vår egen tid?", "options": ["Dinosaurenes utdøing", "Antibiotikaresistens hos bakterier", "Dannelsen av jorda", "Istiden"], "correct": 1, "explain": "Resistente bakterier overlever og formerer seg." }
+    {
+      "id": "q01",
+      "text": "Hva betyr evolusjon i populasjonsgenetikk?",
+      "options": [
+        "At individer endrer seg i løpet av livet",
+        "At allelfrekvensene endrer seg over generasjoner",
+        "At arter aldri endres",
+        "At alle gener er like"
+      ],
+      "correct": 1,
+      "explain": "Genlageret endres."
+    },
+    {
+      "id": "q02",
+      "text": "q² = 0,04. Hva er andelen bærere (Aa)?",
+      "options": [
+        "32 %",
+        "4 %",
+        "16 %",
+        "64 %"
+      ],
+      "correct": 0,
+      "explain": "q = 0,2, p = 0,8, 2pq = 0,32."
+    },
+    {
+      "id": "q03",
+      "text": "Hva forutsetter Hardy–Weinberg-likevekt?",
+      "options": [
+        "Sterk seleksjon",
+        "Liten populasjon",
+        "Ingen mutasjoner, seleksjon eller vandring og en stor populasjon",
+        "Mye innvandring"
+      ],
+      "correct": 2,
+      "explain": "Avvik viser at evolusjon skjer."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken seleksjon favoriserer gjennomsnittet?",
+      "options": [
+        "Retningsbestemt",
+        "Splittende",
+        "Seksuell",
+        "Stabiliserende"
+      ],
+      "correct": 3,
+      "explain": "For eksempel normal fødselsvekt."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er genetisk drift?",
+      "options": [
+        "Tilfeldige endringer i allelfrekvenser",
+        "Seleksjon av de sterkeste",
+        "Innvandring",
+        "Mutasjoner"
+      ],
+      "correct": 0,
+      "explain": "Særlig viktig i små populasjoner."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er flaskehalseffekten?",
+      "options": [
+        "At populasjonen vokser raskt",
+        "At en kraftig reduksjon gir tap av genetisk variasjon",
+        "At to arter blir én",
+        "At allelene blandes"
+      ],
+      "correct": 1,
+      "explain": "For eksempel etter jakt eller sykdom."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er allopatrisk artsdannelse?",
+      "options": [
+        "Artsdannelse i samme område",
+        "Artsdannelse ved krysning",
+        "Artsdannelse etter geografisk isolasjon",
+        "Artsdannelse ved genflyt"
+      ],
+      "correct": 2,
+      "explain": "Som Darwins finker."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er muldyret et eksempel på en reproduktiv barriere?",
+      "options": [
+        "Fordi det ikke kan leve",
+        "Fordi hest og esel ikke kan pare seg",
+        "Fordi det er en ny art",
+        "Fordi det er sterilt"
+      ],
+      "correct": 3,
+      "explain": "En barriere etter befruktning."
+    },
+    {
+      "id": "q09",
+      "text": "Hva gjør genflyt med to populasjoner?",
+      "options": [
+        "Gjør dem mer like",
+        "Gjør dem mer ulike",
+        "Skaper nye arter",
+        "Stopper evolusjonen"
+      ],
+      "correct": 0,
+      "explain": "Alleler flyttes mellom dem."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et eksempel på evolusjon i vår egen tid?",
+      "options": [
+        "Dinosaurenes utdøing",
+        "Antibiotikaresistens hos bakterier",
+        "Dannelsen av jorda",
+        "Istiden"
+      ],
+      "correct": 1,
+      "explain": "Resistente bakterier overlever og formerer seg."
+    }
   ],
   "mindmap": {
     "label": "Evolusjon og artsdannelse",
     "children": [
-      { "label": "Genlageret", "children": [
-        { "label": "Allelfrekvenser" },
-        { "label": "Hardy–Weinberg" }
-      ] },
-      { "label": "Seleksjon", "children": [
-        { "label": "Retningsbestemt" },
-        { "label": "Stabiliserende og splittende" },
-        { "label": "Seksuell" }
-      ] },
-      { "label": "Tilfeldighet og vandring", "children": [
-        { "label": "Genetisk drift" },
-        { "label": "Flaskehals og grunnlegger" },
-        { "label": "Genflyt" }
-      ] },
-      { "label": "Artsdannelse", "children": [
-        { "label": "Allopatrisk" },
-        { "label": "Sympatrisk og polyploidi" }
-      ] },
-      { "label": "Barrierer", "children": [
-        { "label": "Før befruktning" },
-        { "label": "Etter befruktning" }
-      ] }
+      {
+        "label": "Genlageret",
+        "children": [
+          {
+            "label": "Allelfrekvenser"
+          },
+          {
+            "label": "Hardy–Weinberg"
+          }
+        ]
+      },
+      {
+        "label": "Seleksjon",
+        "children": [
+          {
+            "label": "Retningsbestemt"
+          },
+          {
+            "label": "Stabiliserende og splittende"
+          },
+          {
+            "label": "Seksuell"
+          }
+        ]
+      },
+      {
+        "label": "Tilfeldighet og vandring",
+        "children": [
+          {
+            "label": "Genetisk drift"
+          },
+          {
+            "label": "Flaskehals og grunnlegger"
+          },
+          {
+            "label": "Genflyt"
+          }
+        ]
+      },
+      {
+        "label": "Artsdannelse",
+        "children": [
+          {
+            "label": "Allopatrisk"
+          },
+          {
+            "label": "Sympatrisk og polyploidi"
+          }
+        ]
+      },
+      {
+        "label": "Barrierer",
+        "children": [
+          {
+            "label": "Før befruktning"
+          },
+          {
+            "label": "Etter befruktning"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mutasjoner gir nye alleler og er grunnlaget for all variasjon.", "correct": true, "explain": "Uten mutasjoner ingen ny variasjon." },
-      { "id": "m02", "type": "sant-usant", "text": "Genetisk drift har størst betydning i store populasjoner.", "correct": false, "explain": "Den har størst betydning i små populasjoner." },
-      { "id": "m03", "type": "sant-usant", "text": "Seksuell seleksjon kan favorisere egenskaper som er en ulempe for overlevelsen.", "correct": true, "explain": "For eksempel påfuglens hale." },
-      { "id": "m04", "type": "sant-usant", "text": "Etter det biologiske artsbegrepet kan individer av ulike arter få fruktbart avkom sammen.", "correct": false, "explain": "En art kan pare seg og få fruktbart avkom innad." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er polyploidi?", "options": ["Tap av kromosomer", "At antall kromosomsett økes", "En type mutasjon i ett gen", "Geografisk isolasjon"], "correct": 1, "explain": "Vanlig ved artsdannelse hos planter." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken barriere virker før befruktning?", "options": ["Ulik paringstid", "Sterile avkom", "Avkom som dør tidlig", "Ingen"], "correct": 0, "explain": "Hindrer at paring skjer." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan hardt fiske føre til evolusjonært?", "options": ["Større fisk", "Mer variasjon", "At fisk blir kjønnsmodne tidligere", "Ingen endring"], "correct": 2, "explain": "Store fisk fjernes." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mutasjoner gir nye alleler og er grunnlaget for all variasjon.",
+        "correct": true,
+        "explain": "Uten mutasjoner ingen ny variasjon."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Genetisk drift har størst betydning i store populasjoner.",
+        "correct": false,
+        "explain": "Den har størst betydning i små populasjoner."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Seksuell seleksjon kan favorisere egenskaper som er en ulempe for overlevelsen.",
+        "correct": true,
+        "explain": "For eksempel påfuglens hale."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Etter det biologiske artsbegrepet kan individer av ulike arter få fruktbart avkom sammen.",
+        "correct": false,
+        "explain": "En art kan pare seg og få fruktbart avkom innad."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er polyploidi?",
+        "options": [
+          "Tap av kromosomer",
+          "At antall kromosomsett økes",
+          "En type mutasjon i ett gen",
+          "Geografisk isolasjon"
+        ],
+        "correct": 1,
+        "explain": "Vanlig ved artsdannelse hos planter."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken barriere virker før befruktning?",
+        "options": [
+          "Ulik paringstid",
+          "Sterile avkom",
+          "Avkom som dør tidlig",
+          "Ingen"
+        ],
+        "correct": 0,
+        "explain": "Hindrer at paring skjer."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan hardt fiske føre til evolusjonært?",
+        "options": [
+          "Større fisk",
+          "Mer variasjon",
+          "At fisk blir kjønnsmodne tidligere",
+          "Ingen endring"
+        ],
+        "correct": 2,
+        "explain": "Store fisk fjernes."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva allelfrekvensen forteller om en populasjon, og hvordan den skiller seg fra genlageret.",
+        "fasit": "Allelfrekvensen forteller hvor vanlig et bestemt allel er i genlageret. Genlageret er summen av alle allelene i populasjonen.",
+        "kriterier": [
+          "Forklarer at allelfrekvens beskriver hvor vanlig et allel er.",
+          "Skiller dette fra genlageret, som omfatter alle allelene i populasjonen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I en populasjon er frekvensen til allel A p = 0,7 og til allel a q = 0,3. Bruk Hardy–Weinberg-formelen til å finne andelen AA, Aa og aa.",
+        "fasit": "Andelen AA er p² = 0,7² = 0,49, andelen Aa er 2pq = 2 · 0,7 · 0,3 = 0,42, og andelen aa er q² = 0,3² = 0,09.",
+        "kriterier": [
+          "Bruker p² for AA, 2pq for Aa og q² for aa.",
+          "Finner frekvensene 0,49 for AA, 0,42 for Aa og 0,09 for aa."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Frekvensen til allel A øker fra 0,35 til 0,50 i en populasjon. Regn ut endringen i prosentpoeng, og forklar hva endringen betyr for evolusjon.",
+        "fasit": "Endringen er 0,50 − 0,35 = 0,15, altså 15 prosentpoeng. Siden allelfrekvensen har endret seg, har det skjedd evolusjon.",
+        "kriterier": [
+          "Regner ut en økning på 0,15 eller 15 prosentpoeng.",
+          "Knytter endringen i allelfrekvens til at evolusjon har skjedd."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I en populasjon får individer med en bestemt arvelig egenskap flere overlevende avkom enn andre. Forklar hvordan dette kan føre til at egenskapen blir vanligere over generasjoner.",
+        "fasit": "Individene får flere overlevende avkom og sprer derfor allelene sine mer enn andre. Over generasjoner kan allelene og egenskapen bli vanligere i populasjonen gjennom naturlig seleksjon.",
+        "kriterier": [
+          "Knytter flere overlevende avkom til at individene sprer allelene sine mer.",
+          "Forklarer at dette kan gjøre allelene eller egenskapen vanligere over generasjoner."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En egenskap gir individer større paringssuksess, men gjør det samtidig vanskeligere for dem å overleve. Forklar hvorfor egenskapen likevel kan bli vanligere, og oppgi hvilken type seleksjon dette er.",
+        "fasit": "Egenskapen kan bli vanligere fordi individene får større paringssuksess og dermed sprer allelene sine mer. Dette er seksuell seleksjon, selv om egenskapen kan være en ulempe for overlevelsen.",
+        "kriterier": [
+          "Identifiserer seksuell seleksjon.",
+          "Forklarer at større paringssuksess kan gjøre egenskapen vanligere selv om den svekker overlevelsen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I én situasjon blir en populasjon kraftig redusert av sykdom. I en annen grunnlegger noen få individer en ny populasjon. Hvilken type genetisk drift beskriver hver situasjon, og hva skjer med variasjonen?",
+        "fasit": "Den kraftige reduksjonen er en flaskehalseffekt, mens den nye populasjonen opplever en grunnleggereffekt. I begge tilfeller blir bare en del av variasjonen bevart, slik at variasjonen kan bli mindre.",
+        "kriterier": [
+          "Kaller reduksjon av den opprinnelige populasjonen en flaskehalseffekt og etablering av en ny populasjon av få individer en grunnleggereffekt.",
+          "Forklarer at begge kan føre til mindre genetisk variasjon."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign allopatrisk og sympatrisk artsdannelse ved å forklare hvor populasjonene befinner seg når nye arter utvikles, og hva som skiller prosessene.",
+        "fasit": "Ved allopatrisk artsdannelse blir en populasjon delt av en geografisk barriere, og delene utvikler seg ulikt. Ved sympatrisk artsdannelse oppstår nye arter i samme område, for eksempel når individer bruker ulike nisjer eller ved polyploidi hos planter.",
+        "kriterier": [
+          "Forklarer at allopatrisk artsdannelse skjer etter geografisk deling.",
+          "Forklarer at sympatrisk artsdannelse skjer i samme område, for eksempel gjennom ulike nisjer eller polyploidi."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "To grupper lever i samme område, men parer seg på ulike tider av året. Forklar hvordan dette kan hindre at de får avkom sammen, og om barrieren virker før eller etter befruktning.",
+        "fasit": "Ulik paringstid gjør at gruppene ikke parer seg med hverandre. Dette er en reproduktiv barriere som virker før befruktning.",
+        "kriterier": [
+          "Forklarer at ulik paringstid hindrer paring mellom gruppene.",
+          "Plasserer barrieren før befruktning."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

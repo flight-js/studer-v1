@@ -4,76 +4,418 @@
   "trinnId": "vg2",
   "name": "Vekstfart og derivasjon",
   "intro": "Gjennomsnittlig og momentan vekstfart, den deriverte som grenseverdi, derivasjonsregler for polynomer, tangentlikningen og hvordan den deriverte tolkes i økonomi og samfunn – for eksempel som grensekostnad.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Gjennomsnittlig vekstfart\n\nDen **gjennomsnittlige vekstfarten** til f fra x = a til x = b er\n\n**(f(b) − f(a)) / (b − a)**\n\nDet er stigningstallet til **sekanten** gjennom de to punktene.\n\n**Eksempel**: f(x) = x² − 4x + 3 fra x = 1 til x = 4: (f(4) − f(1)) / 3 = (3 − 0) / 3 = **1**.\n\n## Momentan vekstfart\n\nDen **momentane vekstfarten** i ett punkt er stigningstallet til **tangenten**. Vi finner den som en **grenseverdi**:\n\n**f′(a) = lim ₕ→₀ (f(a + h) − f(a)) / h**\n\nDette er **den deriverte** av f i a.\n\n**Eksempel**: f(x) = x². (f(a + h) − f(a))/h = (2ah + h²)/h = 2a + h → **2a** når h → 0.\n\n## Derivasjonsregler for polynomer\n\n- (k)′ = 0\n- (x)′ = 1\n- (xⁿ)′ = n · xⁿ⁻¹\n- (k · f)′ = k · f′\n- (f + g)′ = f′ + g′\n\n**Eksempel**: f(x) = x² − 4x + 3 gir **f′(x) = 2x − 4**, og f′(3) = **2**.\n\n## Tangentlikningen\n\ny − f(a) = f′(a)(x − a)\n\nFor f(x) = x² − 4x + 3 i x = 3: f(3) = 0 og f′(3) = 2, så tangenten er **y = 2x − 6**.\n\n## Tolkning i økonomi og samfunn\n\nDen deriverte har **enheten** y-enhet per x-enhet.\n\n- **Grensekostnad**: Er K(x) kostnaden i kroner ved å produsere x enheter, er K′(x) omtrent hva **én enhet til** koster. For K(x) = 0,5x² + 20x + 800 er K′(x) = x + 20, og K′(40) = **60 kr per enhet**.\n- **Grenseinntekt**: I′(x) er omtrent hvor mye inntekten øker ved å selge én enhet til.\n- **Befolkning**: Er P(t) folketallet etter t år, er P′(t) endringen i **personer per år**.\n- **Salg**: Er S(t) salget i tusen enheter, forteller S′(5) = −2 at salget **synker** med omtrent 2000 enheter per år ved t = 5.\n\n## Fortegnet sier mye\n\n- f′(x) > 0: f **vokser**\n- f′(x) < 0: f **avtar**\n- f′(x) = 0: **vannrett tangent** – mulig topp- eller bunnpunkt\n\n## Digitale verktøy\n\nI GeoGebra gir **f′(x)** eller **Derivert(f)** den deriverte, og **Tangent(3, f)** tegner tangenten. Du kan også finne en **numerisk** tilnærming ved å regne ut (f(a + 0,001) − f(a)) / 0,001.\n\n## Vanlige feil\n\n- Å blande **gjennomsnittlig** og **momentan** vekstfart.\n- Å glemme **enheten** i tolkningen.\n- Å tro at f′(a) er det samme som f(a): Det ene er **verdien**, det andre er **endringen**.",
   "flashcards": [
-    { "term": "Gjennomsnittlig vekstfart", "def": "(f(b) − f(a))/(b − a) – stigningstallet til sekanten." },
-    { "term": "Momentan vekstfart", "def": "Stigningstallet til tangenten – den deriverte." },
-    { "term": "Definisjonen av f′(a)", "def": "lim ₕ→₀ (f(a + h) − f(a))/h" },
-    { "term": "(xⁿ)′", "def": "n · xⁿ⁻¹" },
-    { "term": "(k)′", "def": "0" },
-    { "term": "(k · f)′", "def": "k · f′" },
-    { "term": "f(x) = x² − 4x + 3", "def": "f′(x) = 2x − 4" },
-    { "term": "Tangentlikningen", "def": "y − f(a) = f′(a)(x − a)" },
-    { "term": "Grensekostnad", "def": "K′(x) – omtrent kostnaden for én enhet til." },
-    { "term": "Grenseinntekt", "def": "I′(x) – omtrent økningen i inntekt ved én enhet til." },
-    { "term": "K(x) = 0,5x² + 20x + 800", "def": "K′(40) = 60 kr per enhet." },
-    { "term": "P′(t) for folketall", "def": "Endring i personer per år." },
-    { "term": "f′(x) > 0", "def": "f vokser." },
-    { "term": "f′(x) = 0", "def": "Vannrett tangent." },
-    { "term": "Enheten til f′", "def": "y-enhet per x-enhet." }
+    {
+      "term": "Gjennomsnittlig vekstfart",
+      "def": "(f(b) − f(a))/(b − a) – stigningstallet til sekanten."
+    },
+    {
+      "term": "Momentan vekstfart",
+      "def": "Stigningstallet til tangenten – den deriverte."
+    },
+    {
+      "term": "Definisjonen av f′(a)",
+      "def": "lim ₕ→₀ (f(a + h) − f(a))/h"
+    },
+    {
+      "term": "(xⁿ)′",
+      "def": "n · xⁿ⁻¹"
+    },
+    {
+      "term": "(k)′",
+      "def": "0"
+    },
+    {
+      "term": "(k · f)′",
+      "def": "k · f′"
+    },
+    {
+      "term": "f(x) = x² − 4x + 3",
+      "def": "f′(x) = 2x − 4"
+    },
+    {
+      "term": "Tangentlikningen",
+      "def": "y − f(a) = f′(a)(x − a)"
+    },
+    {
+      "term": "Grensekostnad",
+      "def": "K′(x) – omtrent kostnaden for én enhet til."
+    },
+    {
+      "term": "Grenseinntekt",
+      "def": "I′(x) – omtrent økningen i inntekt ved én enhet til."
+    },
+    {
+      "term": "K(x) = 0,5x² + 20x + 800",
+      "def": "K′(40) = 60 kr per enhet."
+    },
+    {
+      "term": "P′(t) for folketall",
+      "def": "Endring i personer per år."
+    },
+    {
+      "term": "f′(x) > 0",
+      "def": "f vokser."
+    },
+    {
+      "term": "f′(x) = 0",
+      "def": "Vannrett tangent."
+    },
+    {
+      "term": "Enheten til f′",
+      "def": "y-enhet per x-enhet."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er den gjennomsnittlige vekstfarten til f(x) = x² − 4x + 3 fra x = 1 til x = 4?", "options": ["3", "1", "0", "4"], "correct": 1, "explain": "(3 − 0)/3." },
-    { "id": "q02", "text": "Hva er f′(x) når f(x) = x² − 4x + 3?", "options": ["2x − 4", "x − 4", "2x + 3", "2x² − 4"], "correct": 0, "explain": "Deriver ledd for ledd." },
-    { "id": "q03", "text": "Hva er tangenten til f(x) = x² − 4x + 3 i x = 3?", "options": ["y = 2x", "y = 3x − 9", "y = 2x − 6", "y = x − 3"], "correct": 2, "explain": "f(3) = 0 og f′(3) = 2." },
-    { "id": "q04", "text": "Hva er grensekostnaden?", "options": ["Den totale kostnaden", "De faste kostnadene", "Kostnaden per enhet i snitt", "K′(x) – omtrent kostnaden for én enhet til"], "correct": 3, "explain": "Den momentane vekstfarten til kostnaden." },
-    { "id": "q05", "text": "K(x) = 0,5x² + 20x + 800. Hva er K′(40)?", "options": ["60", "40", "20", "2400"], "correct": 0, "explain": "K′(x) = x + 20." },
-    { "id": "q06", "text": "Hva er den momentane vekstfarten geometrisk?", "options": ["Stigningstallet til sekanten", "Stigningstallet til tangenten", "Arealet under grafen", "Funksjonsverdien"], "correct": 1, "explain": "Tangenten i punktet." },
-    { "id": "q07", "text": "S(t) er salget i tusen enheter, og S′(5) = −2. Hva betyr det?", "options": ["Salget er −2 tusen", "Salget stiger med 2000 per år", "Salget synker med omtrent 2000 enheter per år ved t = 5", "Salget er 5 tusen"], "correct": 2, "explain": "Negativ derivert betyr nedgang." },
-    { "id": "q08", "text": "Hva er den deriverte av f(x) = 5x³?", "options": ["5x²", "15x³", "3x²", "15x²"], "correct": 3, "explain": "5 · 3x²." },
-    { "id": "q09", "text": "Hva betyr f′(x) = 0?", "options": ["Tangenten er vannrett", "f(x) = 0", "f er avtakende", "f er ikke definert"], "correct": 0, "explain": "Mulig topp- eller bunnpunkt." },
-    { "id": "q10", "text": "Hva er enheten til P′(t) når P er folketall og t er år?", "options": ["Personer", "Personer per år", "År", "Prosent"], "correct": 1, "explain": "y-enhet per x-enhet." }
+    {
+      "id": "q01",
+      "text": "Hva er den gjennomsnittlige vekstfarten til f(x) = x² − 4x + 3 fra x = 1 til x = 4?",
+      "options": [
+        "3",
+        "1",
+        "0",
+        "4"
+      ],
+      "correct": 1,
+      "explain": "(3 − 0)/3."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er f′(x) når f(x) = x² − 4x + 3?",
+      "options": [
+        "2x − 4",
+        "x − 4",
+        "2x + 3",
+        "2x² − 4"
+      ],
+      "correct": 0,
+      "explain": "Deriver ledd for ledd."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er tangenten til f(x) = x² − 4x + 3 i x = 3?",
+      "options": [
+        "y = 2x",
+        "y = 3x − 9",
+        "y = 2x − 6",
+        "y = x − 3"
+      ],
+      "correct": 2,
+      "explain": "f(3) = 0 og f′(3) = 2."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er grensekostnaden?",
+      "options": [
+        "Den totale kostnaden",
+        "De faste kostnadene",
+        "Kostnaden per enhet i snitt",
+        "K′(x) – omtrent kostnaden for én enhet til"
+      ],
+      "correct": 3,
+      "explain": "Den momentane vekstfarten til kostnaden."
+    },
+    {
+      "id": "q05",
+      "text": "K(x) = 0,5x² + 20x + 800. Hva er K′(40)?",
+      "options": [
+        "60",
+        "40",
+        "20",
+        "2400"
+      ],
+      "correct": 0,
+      "explain": "K′(x) = x + 20."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den momentane vekstfarten geometrisk?",
+      "options": [
+        "Stigningstallet til sekanten",
+        "Stigningstallet til tangenten",
+        "Arealet under grafen",
+        "Funksjonsverdien"
+      ],
+      "correct": 1,
+      "explain": "Tangenten i punktet."
+    },
+    {
+      "id": "q07",
+      "text": "S(t) er salget i tusen enheter, og S′(5) = −2. Hva betyr det?",
+      "options": [
+        "Salget er −2 tusen",
+        "Salget stiger med 2000 per år",
+        "Salget synker med omtrent 2000 enheter per år ved t = 5",
+        "Salget er 5 tusen"
+      ],
+      "correct": 2,
+      "explain": "Negativ derivert betyr nedgang."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er den deriverte av f(x) = 5x³?",
+      "options": [
+        "5x²",
+        "15x³",
+        "3x²",
+        "15x²"
+      ],
+      "correct": 3,
+      "explain": "5 · 3x²."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr f′(x) = 0?",
+      "options": [
+        "Tangenten er vannrett",
+        "f(x) = 0",
+        "f er avtakende",
+        "f er ikke definert"
+      ],
+      "correct": 0,
+      "explain": "Mulig topp- eller bunnpunkt."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er enheten til P′(t) når P er folketall og t er år?",
+      "options": [
+        "Personer",
+        "Personer per år",
+        "År",
+        "Prosent"
+      ],
+      "correct": 1,
+      "explain": "y-enhet per x-enhet."
+    }
   ],
   "mindmap": {
     "label": "Vekstfart og derivasjon",
     "children": [
-      { "label": "Vekstfart", "children": [
-        { "label": "Gjennomsnittlig – sekant" },
-        { "label": "Momentan – tangent" }
-      ] },
-      { "label": "Definisjon", "children": [
-        { "label": "Grenseverdi" }
-      ] },
-      { "label": "Regler", "children": [
-        { "label": "(xⁿ)′ = nxⁿ⁻¹" },
-        { "label": "Konstant og sum" },
-        { "label": "Tangentlikning" }
-      ] },
-      { "label": "Tolkning", "children": [
-        { "label": "Grensekostnad" },
-        { "label": "Grenseinntekt" },
-        { "label": "Befolkning og salg" }
-      ] },
-      { "label": "Fortegn", "children": [
-        { "label": "Vokser" },
-        { "label": "Avtar" },
-        { "label": "Vannrett tangent" }
-      ] }
+      {
+        "label": "Vekstfart",
+        "children": [
+          {
+            "label": "Gjennomsnittlig – sekant"
+          },
+          {
+            "label": "Momentan – tangent"
+          }
+        ]
+      },
+      {
+        "label": "Definisjon",
+        "children": [
+          {
+            "label": "Grenseverdi"
+          }
+        ]
+      },
+      {
+        "label": "Regler",
+        "children": [
+          {
+            "label": "(xⁿ)′ = nxⁿ⁻¹"
+          },
+          {
+            "label": "Konstant og sum"
+          },
+          {
+            "label": "Tangentlikning"
+          }
+        ]
+      },
+      {
+        "label": "Tolkning",
+        "children": [
+          {
+            "label": "Grensekostnad"
+          },
+          {
+            "label": "Grenseinntekt"
+          },
+          {
+            "label": "Befolkning og salg"
+          }
+        ]
+      },
+      {
+        "label": "Fortegn",
+        "children": [
+          {
+            "label": "Vokser"
+          },
+          {
+            "label": "Avtar"
+          },
+          {
+            "label": "Vannrett tangent"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Den deriverte av en konstant er null.", "correct": true, "explain": "En konstant endrer seg ikke." },
-      { "id": "m02", "type": "sant-usant", "text": "f(a) og f′(a) er det samme.", "correct": false, "explain": "f(a) er verdien, f′(a) er endringen." },
-      { "id": "m03", "type": "sant-usant", "text": "Grenseinntekten er den deriverte av inntektsfunksjonen.", "correct": true, "explain": "I′(x)." },
-      { "id": "m04", "type": "sant-usant", "text": "Gjennomsnittlig vekstfart er stigningstallet til tangenten.", "correct": false, "explain": "Det er stigningstallet til sekanten." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er den deriverte av f(x) = −3x² + 12x − 7?", "options": ["−3x + 12", "−6x + 12", "−6x² + 12", "6x − 12"], "correct": 1, "explain": "−3 · 2x + 12." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gir f′(a) = lim ₕ→₀ (f(a + h) − f(a))/h for f(x) = x²?", "options": ["2a", "a²", "2", "a"], "correct": 0, "explain": "(2ah + h²)/h = 2a + h → 2a." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken GeoGebra-kommando tegner tangenten til f i x = 3?", "options": ["Derivert(f)", "Ekstremalpunkt(f)", "Tangent(3, f)", "Nullpunkt(f)"], "correct": 2, "explain": "Tangent(punkt, funksjon)." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Den deriverte av en konstant er null.",
+        "correct": true,
+        "explain": "En konstant endrer seg ikke."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "f(a) og f′(a) er det samme.",
+        "correct": false,
+        "explain": "f(a) er verdien, f′(a) er endringen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Grenseinntekten er den deriverte av inntektsfunksjonen.",
+        "correct": true,
+        "explain": "I′(x)."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Gjennomsnittlig vekstfart er stigningstallet til tangenten.",
+        "correct": false,
+        "explain": "Det er stigningstallet til sekanten."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er den deriverte av f(x) = −3x² + 12x − 7?",
+        "options": [
+          "−3x + 12",
+          "−6x + 12",
+          "−6x² + 12",
+          "6x − 12"
+        ],
+        "correct": 1,
+        "explain": "−3 · 2x + 12."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gir f′(a) = lim ₕ→₀ (f(a + h) − f(a))/h for f(x) = x²?",
+        "options": [
+          "2a",
+          "a²",
+          "2",
+          "a"
+        ],
+        "correct": 0,
+        "explain": "(2ah + h²)/h = 2a + h → 2a."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken GeoGebra-kommando tegner tangenten til f i x = 3?",
+        "options": [
+          "Derivert(f)",
+          "Ekstremalpunkt(f)",
+          "Tangent(3, f)",
+          "Nullpunkt(f)"
+        ],
+        "correct": 2,
+        "explain": "Tangent(punkt, funksjon)."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign gjennomsnittlig og momentan vekstfart. Hva beskriver hver av dem, og hvilken geometrisk linje hører til hver?",
+        "fasit": "Gjennomsnittlig vekstfart beskriver endringen fra én x-verdi til en annen og er stigningstallet til sekanten. Momentan vekstfart beskriver endringen i ett punkt og er stigningstallet til tangenten.",
+        "kriterier": [
+          "Skiller mellom et intervall og ett punkt.",
+          "Knytter gjennomsnittlig vekstfart til sekanten og momentan vekstfart til tangenten."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hva grenseverdien f′(a) = limₕ→₀ (f(a + h) − f(a))/h forteller. Hva skjer med h i denne definisjonen?",
+        "fasit": "Brøken er stigningstallet mellom punktene ved a og a + h. Når h går mot 0, nærmer dette stigningstallet seg den momentane vekstfarten, altså stigningstallet til tangenten i a.",
+        "kriterier": [
+          "Forklarer at brøken er en vekstfart mellom to nærliggende punkter.",
+          "Får fram at h går mot 0, og at grensen gir den momentane vekstfarten."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "La f(x) = x². Finn den gjennomsnittlige vekstfarten fra x = 1 til x = 4. Vis det viktigste regnestykket.",
+        "fasit": "f(1) = 1 og f(4) = 16, så den gjennomsnittlige vekstfarten er (16 − 1)/(4 − 1) = 5.",
+        "kriterier": [
+          "Setter inn funksjonsverdiene i formelen for gjennomsnittlig vekstfart.",
+          "Får svaret 5."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "La f(x) = x². Finn likningen for tangenten til grafen når x = 3. Vis hvordan du bruker tangentlikningen.",
+        "fasit": "f(3) = 9 og f′(3) = 6. Tangentlikningen blir y − 9 = 6(x − 3), altså y = 6x − 9.",
+        "kriterier": [
+          "Bruker f(3) = 9 og f′(3) = 6 i tangentlikningen.",
+          "Får tangentlikningen y = 6x − 9."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "For f(x) = x² − 4x + 3 er f(3) = 0 og f′(3) = 2. Forklar forskjellen på hva disse to verdiene forteller om grafen ved x = 3.",
+        "fasit": "f(3) = 0 er funksjonsverdien, altså y-verdien på grafen ved x = 3. f′(3) = 2 er stigningstallet til tangenten der og beskriver den momentane endringen.",
+        "kriterier": [
+          "Forklarer at f(3) er funksjonsverdien.",
+          "Forklarer at f′(3) beskriver stigning eller momentan endring, ikke funksjonsverdien."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar forskjellen på grensekostnad og grenseinntekt. Hva sier hver av dem omtrent om én enhet til?",
+        "fasit": "Grensekostnaden sier omtrent hva det koster å produsere én enhet til. Grenseinntekten sier omtrent hvor mye inntekten øker når man selger én enhet til.",
+        "kriterier": [
+          "Knytter grensekostnad til kostnaden for å produsere én enhet til.",
+          "Knytter grenseinntekt til økningen i inntekt ved å selge én enhet til."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En funksjon har f′(x) < 0 i et intervall. Beskriv hvordan funksjonen utvikler seg i intervallet, og hva fortegnet til den deriverte forteller.",
+        "fasit": "Funksjonen avtar i intervallet. Den negative deriverte viser at stigningstallet til tangenten er negativt.",
+        "kriterier": [
+          "Sier at funksjonen avtar.",
+          "Knytter den negative deriverte til negativt stigningstall eller endring."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Beskriv hvordan du kan bruke (f(a + 0,001) − f(a))/0,001 til å anslå f′(a). Hvorfor er resultatet en tilnærming?",
+        "fasit": "Du setter inn funksjonsverdiene ved a + 0,001 og a og regner ut brøken. Den gir en tilnærming fordi h er liten, men ikke lik 0.",
+        "kriterier": [
+          "Forklarer at brøken regnes ut med funksjonsverdiene ved a + 0,001 og a.",
+          "Forklarer at verdien er en tilnærming fordi h ikke er 0."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

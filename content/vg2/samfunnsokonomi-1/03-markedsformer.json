@@ -4,76 +4,418 @@
   "trinnId": "vg2",
   "name": "Markedsformer",
   "intro": "De fire markedsformene – fullkommen konkurranse, monopolistisk konkurranse, oligopol og monopol – hvordan de skiller seg fra hverandre i antall aktører, produkter og etableringshindringer, og hvordan Konkurransetilsynet skal sikre konkurransen.",
-  "kompetansemaal": [2],
+  "kompetansemaal": [
+    2
+  ],
   "sammendrag": "## Hvorfor markedsformer?\n\nMarkeder er **ulike**. I noen konkurrerer tusenvis av små aktører, i andre er det bare én. **Markedsformen** avgjør hvor mye **makt** selgerne har over **prisen**, og hvor godt markedet fungerer for **forbrukerne**.\n\nVi skiller markedsformene ut fra\n\n- **antall** tilbydere\n- om produktene er **like** eller **ulike**\n- hvor lett det er for nye å **etablere** seg\n- hvor mye **markedsmakt** den enkelte har\n\n## Fullkommen konkurranse\n\n- **Mange** små tilbydere og kjøpere\n- **Like** produkter\n- **Full informasjon** om priser og kvalitet\n- **Fri etablering**\n\nIngen enkeltaktør kan påvirke prisen. Bedriftene er **pristakere** og bestemmer bare hvor mye de vil produsere. Konkurransen presser prisen ned mot **kostnadene**. Ingen markeder er helt slik, men markeder for **råvarer** og **aksjer** er ganske nær.\n\n## Monopolistisk konkurranse\n\n- **Mange** tilbydere\n- **Ulike** produkter – de skiller seg ut med merke, kvalitet eller beliggenhet\n- **Ganske fri** etablering\n\nHver bedrift har **litt** makt over prisen fordi kundene foretrekker akkurat deres produkt. Eksempler er **frisører**, **restauranter** og **klesbutikker**. Bedriftene konkurrerer ofte med **markedsføring** og **service**.\n\n## Oligopol\n\n- **Få**, store tilbydere\n- **Høye etableringshindringer**, for eksempel store investeringer\n- **Gjensidig avhengighet**: Hver bedrift må ta hensyn til hva de andre gjør\n\nSenker én aktør prisen, følger gjerne de andre etter. Det kan føre til **priskrig**, men også til at bedriftene unngår priskonkurranse og heller konkurrerer med **reklame** og **produktutvikling**. Eksempler i Norge er **dagligvarehandelen**, **mobiloperatører** og **flyselskaper**.\n\nOm bedriftene **avtaler** priser eller deler markedet mellom seg, kalles det et **kartell**. Det er **ulovlig**.\n\n## Monopol\n\n- **Én** tilbyder\n- **Ingen nære erstatninger**\n- **Svært høye** etableringshindringer\n\nMonopolisten kan sette en **høyere pris** og produsere **mindre** enn det som ville vært tilfelle med konkurranse. Det gir et **samfunnsøkonomisk tap**. Monopoler kan oppstå\n\n- fordi det er **billigst** med én aktør – et **naturlig monopol**, som **strømnettet**\n- gjennom **patenter**\n- fordi **staten** har bestemt det, som **Vinmonopolet**, som skal begrense alkoholskadene\n\nNaturlige monopoler blir ofte **regulert** av staten, slik at de ikke kan ta for høye priser.\n\n## Konkurransetilsynet\n\n**Konkurransetilsynet** håndhever **konkurranseloven**. Loven forbyr\n\n- **samarbeid** som begrenser konkurransen, som prissamarbeid og markedsdeling\n- **misbruk** av en **dominerende** stilling\n\nTilsynet kan også **stoppe oppkjøp** og sammenslåinger som svekker konkurransen for mye.\n\n## Å analysere et marked\n\nNår du analyserer et marked, kan du spørre:\n\n- Hvor mange tilbydere er det, og hvor store **markedsandeler** har de?\n- Er produktene like eller ulike?\n- Hvor lett er det for nye å komme inn?\n- Hvordan konkurrerer aktørene – på **pris** eller på andre ting?\n- Hva betyr markedsformen for **prisene** og **utvalget** til forbrukerne?",
   "flashcards": [
-    { "term": "Markedsform", "def": "Hvordan et marked er organisert ut fra antall aktører, produkter og etablering." },
-    { "term": "Fullkommen konkurranse", "def": "Mange små aktører, like produkter, full informasjon og fri etablering." },
-    { "term": "Pristaker", "def": "Bedrift som ikke kan påvirke prisen." },
-    { "term": "Monopolistisk konkurranse", "def": "Mange tilbydere med ulike produkter." },
-    { "term": "Oligopol", "def": "Få, store tilbydere som er gjensidig avhengige." },
-    { "term": "Gjensidig avhengighet", "def": "Hver bedrift må ta hensyn til hva konkurrentene gjør." },
-    { "term": "Kartell", "def": "Ulovlig samarbeid om priser eller markedsdeling." },
-    { "term": "Monopol", "def": "Én tilbyder uten nære erstatninger." },
-    { "term": "Naturlig monopol", "def": "Det er billigst med én aktør, som strømnettet." },
-    { "term": "Etableringshindringer", "def": "Forhold som gjør det vanskelig for nye å komme inn i markedet." },
-    { "term": "Markedsmakt", "def": "Evnen til å påvirke prisen." },
-    { "term": "Samfunnsøkonomisk tap", "def": "Tap for samfunnet fordi mengden blir mindre og prisen høyere enn ved konkurranse." },
-    { "term": "Vinmonopolet", "def": "Statlig monopol som skal begrense alkoholskadene." },
-    { "term": "Konkurransetilsynet", "def": "Håndhever konkurranseloven." },
-    { "term": "Dominerende stilling", "def": "Så stor markedsmakt at man kan opptre uavhengig av konkurrentene." }
+    {
+      "term": "Markedsform",
+      "def": "Hvordan et marked er organisert ut fra antall aktører, produkter og etablering."
+    },
+    {
+      "term": "Fullkommen konkurranse",
+      "def": "Mange små aktører, like produkter, full informasjon og fri etablering."
+    },
+    {
+      "term": "Pristaker",
+      "def": "Bedrift som ikke kan påvirke prisen."
+    },
+    {
+      "term": "Monopolistisk konkurranse",
+      "def": "Mange tilbydere med ulike produkter."
+    },
+    {
+      "term": "Oligopol",
+      "def": "Få, store tilbydere som er gjensidig avhengige."
+    },
+    {
+      "term": "Gjensidig avhengighet",
+      "def": "Hver bedrift må ta hensyn til hva konkurrentene gjør."
+    },
+    {
+      "term": "Kartell",
+      "def": "Ulovlig samarbeid om priser eller markedsdeling."
+    },
+    {
+      "term": "Monopol",
+      "def": "Én tilbyder uten nære erstatninger."
+    },
+    {
+      "term": "Naturlig monopol",
+      "def": "Det er billigst med én aktør, som strømnettet."
+    },
+    {
+      "term": "Etableringshindringer",
+      "def": "Forhold som gjør det vanskelig for nye å komme inn i markedet."
+    },
+    {
+      "term": "Markedsmakt",
+      "def": "Evnen til å påvirke prisen."
+    },
+    {
+      "term": "Samfunnsøkonomisk tap",
+      "def": "Tap for samfunnet fordi mengden blir mindre og prisen høyere enn ved konkurranse."
+    },
+    {
+      "term": "Vinmonopolet",
+      "def": "Statlig monopol som skal begrense alkoholskadene."
+    },
+    {
+      "term": "Konkurransetilsynet",
+      "def": "Håndhever konkurranseloven."
+    },
+    {
+      "term": "Dominerende stilling",
+      "def": "Så stor markedsmakt at man kan opptre uavhengig av konkurrentene."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner fullkommen konkurranse?", "options": ["Én tilbyder", "Mange små aktører, like produkter og fri etablering", "Få store aktører", "Ulike produkter og få aktører"], "correct": 1, "explain": "Ingen kan påvirke prisen." },
-    { "id": "q02", "text": "Hvilken markedsform passer best for frisører?", "options": ["Monopolistisk konkurranse", "Monopol", "Oligopol", "Fullkommen konkurranse"], "correct": 0, "explain": "Mange tilbydere med litt ulike tjenester." },
-    { "id": "q03", "text": "Hva kjennetegner et oligopol?", "options": ["Mange små aktører", "Én aktør", "Få, store aktører som er gjensidig avhengige", "Ingen etableringshindringer"], "correct": 2, "explain": "Som dagligvarehandelen i Norge." },
-    { "id": "q04", "text": "Hva er et kartell?", "options": ["En type monopol", "En statlig bedrift", "En kjede", "Ulovlig samarbeid om priser eller markedsdeling"], "correct": 3, "explain": "Forbudt i konkurranseloven." },
-    { "id": "q05", "text": "Hvorfor er strømnettet et naturlig monopol?", "options": ["Det er billigst med én aktør", "Staten har forbudt konkurranse av alkoholhensyn", "Det har patent", "Det er mange aktører"], "correct": 0, "explain": "Det lønner seg ikke å bygge flere parallelle nett." },
-    { "id": "q06", "text": "Hva gjør en monopolist sammenlignet med konkurranse?", "options": ["Setter lavere pris og produserer mer", "Setter høyere pris og produserer mindre", "Setter samme pris", "Produserer ingenting"], "correct": 1, "explain": "Gir et samfunnsøkonomisk tap." },
-    { "id": "q07", "text": "Hvem håndhever konkurranseloven?", "options": ["Forbrukertilsynet", "Norges Bank", "Konkurransetilsynet", "SSB"], "correct": 2, "explain": "Kan også stoppe oppkjøp." },
-    { "id": "q08", "text": "Hva er en pristaker?", "options": ["En monopolist", "En kunde", "Staten", "En bedrift som ikke kan påvirke prisen"], "correct": 3, "explain": "Typisk ved fullkommen konkurranse." },
-    { "id": "q09", "text": "Hvorfor unngår oligopolister ofte priskonkurranse?", "options": ["Fordi en priskrig kan gi lavere fortjeneste for alle", "Fordi det er ulovlig å endre priser", "Fordi de har ingen konkurrenter", "Fordi kundene ikke bryr seg om pris"], "correct": 0, "explain": "De konkurrerer heller med reklame og produkter." },
-    { "id": "q10", "text": "Hvorfor har Norge et statlig monopol på salg av vin og brennevin?", "options": ["For å gi staten mest mulig inntekter", "For å begrense alkoholskadene", "Fordi det er billigst", "Fordi det er et patent"], "correct": 1, "explain": "Et helsepolitisk formål." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner fullkommen konkurranse?",
+      "options": [
+        "Én tilbyder",
+        "Mange små aktører, like produkter og fri etablering",
+        "Få store aktører",
+        "Ulike produkter og få aktører"
+      ],
+      "correct": 1,
+      "explain": "Ingen kan påvirke prisen."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken markedsform passer best for frisører?",
+      "options": [
+        "Monopolistisk konkurranse",
+        "Monopol",
+        "Oligopol",
+        "Fullkommen konkurranse"
+      ],
+      "correct": 0,
+      "explain": "Mange tilbydere med litt ulike tjenester."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kjennetegner et oligopol?",
+      "options": [
+        "Mange små aktører",
+        "Én aktør",
+        "Få, store aktører som er gjensidig avhengige",
+        "Ingen etableringshindringer"
+      ],
+      "correct": 2,
+      "explain": "Som dagligvarehandelen i Norge."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er et kartell?",
+      "options": [
+        "En type monopol",
+        "En statlig bedrift",
+        "En kjede",
+        "Ulovlig samarbeid om priser eller markedsdeling"
+      ],
+      "correct": 3,
+      "explain": "Forbudt i konkurranseloven."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor er strømnettet et naturlig monopol?",
+      "options": [
+        "Det er billigst med én aktør",
+        "Staten har forbudt konkurranse av alkoholhensyn",
+        "Det har patent",
+        "Det er mange aktører"
+      ],
+      "correct": 0,
+      "explain": "Det lønner seg ikke å bygge flere parallelle nett."
+    },
+    {
+      "id": "q06",
+      "text": "Hva gjør en monopolist sammenlignet med konkurranse?",
+      "options": [
+        "Setter lavere pris og produserer mer",
+        "Setter høyere pris og produserer mindre",
+        "Setter samme pris",
+        "Produserer ingenting"
+      ],
+      "correct": 1,
+      "explain": "Gir et samfunnsøkonomisk tap."
+    },
+    {
+      "id": "q07",
+      "text": "Hvem håndhever konkurranseloven?",
+      "options": [
+        "Forbrukertilsynet",
+        "Norges Bank",
+        "Konkurransetilsynet",
+        "SSB"
+      ],
+      "correct": 2,
+      "explain": "Kan også stoppe oppkjøp."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en pristaker?",
+      "options": [
+        "En monopolist",
+        "En kunde",
+        "Staten",
+        "En bedrift som ikke kan påvirke prisen"
+      ],
+      "correct": 3,
+      "explain": "Typisk ved fullkommen konkurranse."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor unngår oligopolister ofte priskonkurranse?",
+      "options": [
+        "Fordi en priskrig kan gi lavere fortjeneste for alle",
+        "Fordi det er ulovlig å endre priser",
+        "Fordi de har ingen konkurrenter",
+        "Fordi kundene ikke bryr seg om pris"
+      ],
+      "correct": 0,
+      "explain": "De konkurrerer heller med reklame og produkter."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor har Norge et statlig monopol på salg av vin og brennevin?",
+      "options": [
+        "For å gi staten mest mulig inntekter",
+        "For å begrense alkoholskadene",
+        "Fordi det er billigst",
+        "Fordi det er et patent"
+      ],
+      "correct": 1,
+      "explain": "Et helsepolitisk formål."
+    }
   ],
   "mindmap": {
     "label": "Markedsformer",
     "children": [
-      { "label": "Fullkommen konkurranse", "children": [
-        { "label": "Mange og like" },
-        { "label": "Pristakere" }
-      ] },
-      { "label": "Monopolistisk", "children": [
-        { "label": "Mange og ulike" },
-        { "label": "Frisører og restauranter" }
-      ] },
-      { "label": "Oligopol", "children": [
-        { "label": "Få og store" },
-        { "label": "Gjensidig avhengighet" },
-        { "label": "Kartell forbudt" }
-      ] },
-      { "label": "Monopol", "children": [
-        { "label": "Én tilbyder" },
-        { "label": "Naturlig monopol" },
-        { "label": "Samfunnsøkonomisk tap" }
-      ] },
-      { "label": "Konkurransetilsynet", "children": [
-        { "label": "Konkurranseloven" },
-        { "label": "Oppkjøp" }
-      ] }
+      {
+        "label": "Fullkommen konkurranse",
+        "children": [
+          {
+            "label": "Mange og like"
+          },
+          {
+            "label": "Pristakere"
+          }
+        ]
+      },
+      {
+        "label": "Monopolistisk",
+        "children": [
+          {
+            "label": "Mange og ulike"
+          },
+          {
+            "label": "Frisører og restauranter"
+          }
+        ]
+      },
+      {
+        "label": "Oligopol",
+        "children": [
+          {
+            "label": "Få og store"
+          },
+          {
+            "label": "Gjensidig avhengighet"
+          },
+          {
+            "label": "Kartell forbudt"
+          }
+        ]
+      },
+      {
+        "label": "Monopol",
+        "children": [
+          {
+            "label": "Én tilbyder"
+          },
+          {
+            "label": "Naturlig monopol"
+          },
+          {
+            "label": "Samfunnsøkonomisk tap"
+          }
+        ]
+      },
+      {
+        "label": "Konkurransetilsynet",
+        "children": [
+          {
+            "label": "Konkurranseloven"
+          },
+          {
+            "label": "Oppkjøp"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Ingen virkelige markeder er helt fullkomne, men noen er ganske nær.", "correct": true, "explain": "For eksempel markeder for råvarer." },
-      { "id": "m02", "type": "sant-usant", "text": "I et oligopol trenger ikke bedriftene å bry seg om hva konkurrentene gjør.", "correct": false, "explain": "De er gjensidig avhengige." },
-      { "id": "m03", "type": "sant-usant", "text": "Naturlige monopoler blir ofte regulert av staten.", "correct": true, "explain": "Slik at de ikke tar for høye priser." },
-      { "id": "m04", "type": "sant-usant", "text": "Det er lovlig for konkurrenter å avtale felles priser.", "correct": false, "explain": "Prissamarbeid er forbudt." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken markedsform har høyest etableringshindringer?", "options": ["Fullkommen konkurranse", "Monopol", "Monopolistisk konkurranse", "Alle har like høye"], "correct": 1, "explain": "Ofte svært høye." },
-      { "id": "m06", "type": "flervalg", "text": "Hva kan Konkurransetilsynet gjøre ved et oppkjøp som svekker konkurransen?", "options": ["Stoppe det", "Ingenting", "Kjøpe selskapet selv", "Øke skatten"], "correct": 0, "explain": "Fusjonskontroll." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan konkurrerer bedrifter ofte i monopolistisk konkurranse?", "options": ["Bare med pris", "Med kartellavtaler", "Med markedsføring og service", "De konkurrerer ikke"], "correct": 2, "explain": "Produktene er ulike." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ingen virkelige markeder er helt fullkomne, men noen er ganske nær.",
+        "correct": true,
+        "explain": "For eksempel markeder for råvarer."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I et oligopol trenger ikke bedriftene å bry seg om hva konkurrentene gjør.",
+        "correct": false,
+        "explain": "De er gjensidig avhengige."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Naturlige monopoler blir ofte regulert av staten.",
+        "correct": true,
+        "explain": "Slik at de ikke tar for høye priser."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det er lovlig for konkurrenter å avtale felles priser.",
+        "correct": false,
+        "explain": "Prissamarbeid er forbudt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken markedsform har høyest etableringshindringer?",
+        "options": [
+          "Fullkommen konkurranse",
+          "Monopol",
+          "Monopolistisk konkurranse",
+          "Alle har like høye"
+        ],
+        "correct": 1,
+        "explain": "Ofte svært høye."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva kan Konkurransetilsynet gjøre ved et oppkjøp som svekker konkurransen?",
+        "options": [
+          "Stoppe det",
+          "Ingenting",
+          "Kjøpe selskapet selv",
+          "Øke skatten"
+        ],
+        "correct": 0,
+        "explain": "Fusjonskontroll."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan konkurrerer bedrifter ofte i monopolistisk konkurranse?",
+        "options": [
+          "Bare med pris",
+          "Med kartellavtaler",
+          "Med markedsføring og service",
+          "De konkurrerer ikke"
+        ],
+        "correct": 2,
+        "explain": "Produktene er ulike."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva en markedsform beskriver, og nevn to forhold som brukes for å skille mellom ulike markedsformer.",
+        "fasit": "En markedsform beskriver hvordan et marked er organisert. Antall tilbydere, om produktene er like eller ulike, og hvor lett det er å etablere seg, er forhold som kan skille markedsformer.",
+        "kriterier": [
+          "Forklarer at markedsform handler om hvordan et marked er organisert.",
+          "Nevner minst to relevante forhold, for eksempel antall tilbydere, produktenes likhet eller etableringsmuligheter."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I et marked selger mange bedrifter produkter som skiller seg fra hverandre i merke eller kvalitet. Det er ganske fritt for nye bedrifter å starte opp. Hvilken markedsform passer best, og hvorfor kan bedriftene ha litt kontroll over prisen?",
+        "fasit": "Dette er monopolistisk konkurranse. Kundene kan foretrekke en bestemt bedrifts produkt fordi det skiller seg ut, og derfor har bedriften litt markedsmakt.",
+        "kriterier": [
+          "Identifiserer markedsformen som monopolistisk konkurranse.",
+          "Knytter bedriftenes mulighet til å påvirke prisen til at produktene skiller seg ut og kan foretrekkes av kunder."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign fullkommen konkurranse og monopol når det gjelder antall tilbydere og om kundene har nære alternativer.",
+        "fasit": "Ved fullkommen konkurranse er det mange tilbydere, mens et monopol har én tilbyder. I et monopol finnes det ingen nære erstatninger for produktet.",
+        "kriterier": [
+          "Får fram at fullkommen konkurranse har mange tilbydere og monopol én.",
+          "Får fram at et monopol mangler nære erstatninger."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan høye etableringshindringer kan gjøre at få tilbydere dominerer et marked.",
+        "fasit": "Etableringshindringer gjør det vanskelig for nye bedrifter å komme inn. Da kan det bli få tilbydere som allerede er etablert, for eksempel i et oligopol.",
+        "kriterier": [
+          "Forklarer at etableringshindringer gjør det vanskelig for nye aktører å etablere seg.",
+          "Knytter dette til at markedet kan få eller beholde få tilbydere."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et strømnett er et naturlig monopol og blir regulert av staten. Hva skal reguleringen hindre, og hvordan kan den være til nytte for forbrukerne?",
+        "fasit": "Reguleringen skal hindre at monopolisten tar for høye priser. Det kan beskytte forbrukerne mot å måtte betale urimelig mye når de mangler nære alternativer.",
+        "kriterier": [
+          "Får fram at reguleringen skal begrense for høye priser fra monopolisten.",
+          "Forklarer at dette beskytter forbrukerne i et marked uten nære alternativer."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "To store tilbydere ønsker å slå seg sammen. Forklar hvorfor et slikt oppkjøp eller en sammenslåing kan bli stoppet.",
+        "fasit": "Sammenslåingen kan redusere konkurransen hvis den gjør markedet mer konsentrert eller svekker konkurrentene. Konkurransetilsynet kan stoppe oppkjøp og sammenslåinger som svekker konkurransen for mye.",
+        "kriterier": [
+          "Forklarer at sammenslåingen kan svekke konkurransen.",
+          "Får fram at Konkurransetilsynet kan stoppe slike oppkjøp eller sammenslåinger."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hva det betyr at en bedrift har en dominerende stilling, og hvorfor misbruk av en slik stilling er forbudt.",
+        "fasit": "En bedrift har en dominerende stilling når den har så stor markedsmakt at den kan opptre uavhengig av konkurrentene. Misbruk er forbudt fordi det kan begrense konkurransen.",
+        "kriterier": [
+          "Forklarer at dominerende stilling innebærer stor markedsmakt og mulighet til å opptre uavhengig av konkurrentene.",
+          "Knytter forbudet mot misbruk til at konkurransen kan begrenses."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En person skal analysere et marked der det allerede er kjent at det finnes mange tilbydere. Forklar hvorfor det også er nyttig å undersøke om produktene er like eller ulike, og hvor lett nye bedrifter kan etablere seg.",
+        "fasit": "Hvis produktene er ulike, kan bedriftene skille seg ut og få noe markedsmakt. Hvis det er lett for nye bedrifter å etablere seg, kan flere komme inn og konkurrere.",
+        "kriterier": [
+          "Forklarer at ulike produkter kan gi bedrifter mulighet til å skille seg ut og få markedsmakt.",
+          "Forklarer at enkel etablering gjør det lettere for nye tilbydere å komme inn og konkurrere."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

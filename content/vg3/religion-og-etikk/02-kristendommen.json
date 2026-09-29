@@ -4,76 +4,417 @@
   "trinnId": "vg3",
   "name": "Kristendommen",
   "intro": "Sentrale trekk ved kristendommen: Jesus og Bibelen, troen på treenigheten og frelse, de store kirkesamfunnene, ritualer og høytider, etikk – og kristendommens utbredelse og mangfold i dag, i Norge og globalt.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Opphav\n\nKristendommen oppstod i det **første århundret** blant jøder som trodde at **Jesus fra Nasaret** var **Messias** – den frelseren som var lovet i de jødiske skriftene. Jesus ble **korsfestet** i Jerusalem, og hans disipler forkynte at han hadde **stått opp** fra de døde. **Paulus** spredte troen til ikke-jøder i Romerriket. I dag er kristendommen den **største** religionen i verden.\n\n## Bibelen\n\n**Bibelen** består av\n\n- **Det gamle testamentet**, som stort sett tilsvarer de jødiske hellige skriftene\n- **Det nye testamentet** med de fire **evangeliene** om Jesu liv, **Apostlenes gjerninger**, **brevene** og **Johannes' åpenbaring**\n\nKristne leser Bibelen på ulike måter – fra **bokstavelig** til **historisk-kritisk**.\n\n## Troslære\n\n- **Treenigheten**: Gud er **én**, men har tre personer – **Far**, **Sønn** og **Hellig Ånd**.\n- **Inkarnasjonen**: Gud ble menneske i Jesus.\n- **Synd og frelse**: Mennesket er skilt fra Gud ved **synden**, men Jesu død og oppstandelse gir **frelse** og **tilgivelse**. Frelsen er en **gave** – **nåde**.\n- **Det evige liv**: håpet om oppstandelse og liv med Gud etter døden.\n\n## Kirkesamfunn\n\n- **Den katolske kirke** er den største, ledet av **paven** i Roma. Den legger stor vekt på **tradisjonen** og sju **sakramenter**.\n- **De ortodokse kirkene** står sterkt i Øst-Europa, Hellas og Russland. **Ikoner** og liturgi er sentrale.\n- **De protestantiske kirkene** vokste fram etter **reformasjonen** på 1500-tallet med **Martin Luther**. De vektlegger **Bibelen alene**, **troen alene** og **nåden alene**. **Den norske kirke** er **luthersk**.\n- **Pinsebevegelsen** og **karismatiske** kirker vokser raskt, særlig i det globale sør.\n\n## Ritualer og høytider\n\n- **Dåpen** tar mennesket inn i det kristne fellesskapet.\n- **Nattverden** minner om Jesu siste måltid med brød og vin.\n- **Konfirmasjon**, **vielse** og **gravferd** er viktige overgangsriter.\n- **Jul** feirer Jesu fødsel, **påske** hans død og oppstandelse, og **pinse** Den hellige ånds komme.\n\n## Etikk\n\n**Nestekjærlighet** er kjernen: «Du skal elske din neste som deg selv.» **Det dobbelte kjærlighetsbudet**, **De ti bud** og **Bergprekenen** er sentrale. Kristen etikk vektlegger **menneskeverd**, **tilgivelse** og omsorg for de **svake**. Kristne kan likevel være **uenige** i etiske spørsmål, som samlivsetikk og abort.\n\n## Kristendommen i dag\n\n- Tyngdepunktet har flyttet seg fra **Europa** til **Afrika**, **Latin-Amerika** og **Asia**.\n- I Norge er flertallet fortsatt medlem av **Den norske kirke**, men færre går regelmessig i kirken. Samtidig har **innvandring** gjort Norge mer **mangfoldig**, blant annet med flere **katolikker**.\n- **Økumenikk** betyr samarbeid mellom kirkesamfunnene.\n\n## Sammenligning\n\nKristendommen deler med **jødedommen** og **islam** troen på **én gud** og mange av de samme fortellingene, som om **Abraham**. Det som skiller den mest, er troen på at **Jesus** er **Guds sønn**.",
   "flashcards": [
-    { "term": "Jesus fra Nasaret", "def": "Den kristne tro ser ham som Messias og Guds sønn." },
-    { "term": "Messias", "def": "Den lovede frelseren i de jødiske skriftene." },
-    { "term": "Paulus", "def": "Spredte kristendommen til ikke-jøder i Romerriket." },
-    { "term": "Evangeliene", "def": "De fire bøkene i Det nye testamentet om Jesu liv." },
-    { "term": "Treenigheten", "def": "Én Gud i tre personer: Far, Sønn og Hellig Ånd." },
-    { "term": "Inkarnasjonen", "def": "Troen på at Gud ble menneske i Jesus." },
-    { "term": "Nåde", "def": "At frelsen er en gave fra Gud." },
-    { "term": "Den katolske kirke", "def": "Største kirkesamfunn, ledet av paven." },
-    { "term": "Ortodokse kirker", "def": "Kirker i Øst-Europa med vekt på ikoner og liturgi." },
-    { "term": "Reformasjonen", "def": "Luthers opprør på 1500-tallet som førte til protestantiske kirker." },
-    { "term": "Pinsebevegelsen", "def": "Karismatisk bevegelse som vokser raskt i det globale sør." },
-    { "term": "Dåp", "def": "Ritual som tar mennesket inn i det kristne fellesskapet." },
-    { "term": "Nattverd", "def": "Minnemåltid med brød og vin." },
-    { "term": "Nestekjærlighet", "def": "Å elske sin neste som seg selv – kjernen i kristen etikk." },
-    { "term": "Økumenikk", "def": "Samarbeid mellom kirkesamfunn." }
+    {
+      "term": "Jesus fra Nasaret",
+      "def": "Den kristne tro ser ham som Messias og Guds sønn."
+    },
+    {
+      "term": "Messias",
+      "def": "Den lovede frelseren i de jødiske skriftene."
+    },
+    {
+      "term": "Paulus",
+      "def": "Spredte kristendommen til ikke-jøder i Romerriket."
+    },
+    {
+      "term": "Evangeliene",
+      "def": "De fire bøkene i Det nye testamentet om Jesu liv."
+    },
+    {
+      "term": "Treenigheten",
+      "def": "Én Gud i tre personer: Far, Sønn og Hellig Ånd."
+    },
+    {
+      "term": "Inkarnasjonen",
+      "def": "Troen på at Gud ble menneske i Jesus."
+    },
+    {
+      "term": "Nåde",
+      "def": "At frelsen er en gave fra Gud."
+    },
+    {
+      "term": "Den katolske kirke",
+      "def": "Største kirkesamfunn, ledet av paven."
+    },
+    {
+      "term": "Ortodokse kirker",
+      "def": "Kirker i Øst-Europa med vekt på ikoner og liturgi."
+    },
+    {
+      "term": "Reformasjonen",
+      "def": "Luthers opprør på 1500-tallet som førte til protestantiske kirker."
+    },
+    {
+      "term": "Pinsebevegelsen",
+      "def": "Karismatisk bevegelse som vokser raskt i det globale sør."
+    },
+    {
+      "term": "Dåp",
+      "def": "Ritual som tar mennesket inn i det kristne fellesskapet."
+    },
+    {
+      "term": "Nattverd",
+      "def": "Minnemåltid med brød og vin."
+    },
+    {
+      "term": "Nestekjærlighet",
+      "def": "Å elske sin neste som seg selv – kjernen i kristen etikk."
+    },
+    {
+      "term": "Økumenikk",
+      "def": "Samarbeid mellom kirkesamfunn."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva tror kristne om Jesus?", "options": ["At han bare var en profet", "At han er Messias og Guds sønn", "At han aldri levde", "At han var en romersk keiser"], "correct": 1, "explain": "Det som skiller kristendommen mest fra jødedom og islam." },
-    { "id": "q02", "text": "Hva er treenigheten?", "options": ["Én Gud i tre personer", "Tre ulike guder", "Tre hellige bøker", "Tre høytider"], "correct": 0, "explain": "Far, Sønn og Hellig Ånd." },
-    { "id": "q03", "text": "Hvilket kirkesamfunn ledes av paven?", "options": ["Den ortodokse kirke", "Den norske kirke", "Den katolske kirke", "Pinsebevegelsen"], "correct": 2, "explain": "Den største kirken i verden." },
-    { "id": "q04", "text": "Hva la Martin Luther vekt på?", "options": ["Pavens makt", "Ikoner", "Mange sakramenter", "Bibelen alene, troen alene og nåden alene"], "correct": 3, "explain": "Grunnlaget for protestantismen." },
-    { "id": "q05", "text": "Hva feires i påsken?", "options": ["Jesu død og oppstandelse", "Jesu fødsel", "Den hellige ånds komme", "Moses og utferden"], "correct": 0, "explain": "Jul feirer fødselen." },
-    { "id": "q06", "text": "Hva er kjernen i kristen etikk?", "options": ["Hevn", "Nestekjærlighet", "Rikdom", "Makt"], "correct": 1, "explain": "«Du skal elske din neste som deg selv.»" },
-    { "id": "q07", "text": "Hvor har kristendommens tyngdepunkt flyttet seg?", "options": ["Til Europa", "Til Nord-Amerika alene", "Til Afrika, Latin-Amerika og Asia", "Til Antarktis"], "correct": 2, "explain": "Det globale sør." },
-    { "id": "q08", "text": "Hva er Den norske kirke?", "options": ["Katolsk", "Ortodoks", "Pinsekirke", "Luthersk"], "correct": 3, "explain": "Protestantisk." },
-    { "id": "q09", "text": "Hva er nattverden?", "options": ["Et minnemåltid med brød og vin", "En type dåp", "En høytid", "En bønn om natten"], "correct": 0, "explain": "Minner om Jesu siste måltid." },
-    { "id": "q10", "text": "Hvem spredte kristendommen til ikke-jøder i Romerriket?", "options": ["Martin Luther", "Paulus", "Moses", "Abraham"], "correct": 1, "explain": "Hans brev står i Det nye testamentet." }
+    {
+      "id": "q01",
+      "text": "Hva tror kristne om Jesus?",
+      "options": [
+        "At han bare var en profet",
+        "At han er Messias og Guds sønn",
+        "At han aldri levde",
+        "At han var en romersk keiser"
+      ],
+      "correct": 1,
+      "explain": "Det som skiller kristendommen mest fra jødedom og islam."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er treenigheten?",
+      "options": [
+        "Én Gud i tre personer",
+        "Tre ulike guder",
+        "Tre hellige bøker",
+        "Tre høytider"
+      ],
+      "correct": 0,
+      "explain": "Far, Sønn og Hellig Ånd."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilket kirkesamfunn ledes av paven?",
+      "options": [
+        "Den ortodokse kirke",
+        "Den norske kirke",
+        "Den katolske kirke",
+        "Pinsebevegelsen"
+      ],
+      "correct": 2,
+      "explain": "Den største kirken i verden."
+    },
+    {
+      "id": "q04",
+      "text": "Hva la Martin Luther vekt på?",
+      "options": [
+        "Pavens makt",
+        "Ikoner",
+        "Mange sakramenter",
+        "Bibelen alene, troen alene og nåden alene"
+      ],
+      "correct": 3,
+      "explain": "Grunnlaget for protestantismen."
+    },
+    {
+      "id": "q05",
+      "text": "Hva feires i påsken?",
+      "options": [
+        "Jesu død og oppstandelse",
+        "Jesu fødsel",
+        "Den hellige ånds komme",
+        "Moses og utferden"
+      ],
+      "correct": 0,
+      "explain": "Jul feirer fødselen."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er kjernen i kristen etikk?",
+      "options": [
+        "Hevn",
+        "Nestekjærlighet",
+        "Rikdom",
+        "Makt"
+      ],
+      "correct": 1,
+      "explain": "«Du skal elske din neste som deg selv.»"
+    },
+    {
+      "id": "q07",
+      "text": "Hvor har kristendommens tyngdepunkt flyttet seg?",
+      "options": [
+        "Til Europa",
+        "Til Nord-Amerika alene",
+        "Til Afrika, Latin-Amerika og Asia",
+        "Til Antarktis"
+      ],
+      "correct": 2,
+      "explain": "Det globale sør."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er Den norske kirke?",
+      "options": [
+        "Katolsk",
+        "Ortodoks",
+        "Pinsekirke",
+        "Luthersk"
+      ],
+      "correct": 3,
+      "explain": "Protestantisk."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er nattverden?",
+      "options": [
+        "Et minnemåltid med brød og vin",
+        "En type dåp",
+        "En høytid",
+        "En bønn om natten"
+      ],
+      "correct": 0,
+      "explain": "Minner om Jesu siste måltid."
+    },
+    {
+      "id": "q10",
+      "text": "Hvem spredte kristendommen til ikke-jøder i Romerriket?",
+      "options": [
+        "Martin Luther",
+        "Paulus",
+        "Moses",
+        "Abraham"
+      ],
+      "correct": 1,
+      "explain": "Hans brev står i Det nye testamentet."
+    }
   ],
   "mindmap": {
     "label": "Kristendommen",
     "children": [
-      { "label": "Opphav", "children": [
-        { "label": "Jesus" },
-        { "label": "Paulus" }
-      ] },
-      { "label": "Bibelen", "children": [
-        { "label": "Det gamle testamentet" },
-        { "label": "Det nye testamentet" }
-      ] },
-      { "label": "Lære", "children": [
-        { "label": "Treenighet" },
-        { "label": "Synd, frelse og nåde" }
-      ] },
-      { "label": "Kirker", "children": [
-        { "label": "Katolsk" },
-        { "label": "Ortodoks" },
-        { "label": "Protestantisk og pinse" }
-      ] },
-      { "label": "Praksis", "children": [
-        { "label": "Dåp og nattverd" },
-        { "label": "Jul, påske, pinse" },
-        { "label": "Nestekjærlighet" }
-      ] }
+      {
+        "label": "Opphav",
+        "children": [
+          {
+            "label": "Jesus"
+          },
+          {
+            "label": "Paulus"
+          }
+        ]
+      },
+      {
+        "label": "Bibelen",
+        "children": [
+          {
+            "label": "Det gamle testamentet"
+          },
+          {
+            "label": "Det nye testamentet"
+          }
+        ]
+      },
+      {
+        "label": "Lære",
+        "children": [
+          {
+            "label": "Treenighet"
+          },
+          {
+            "label": "Synd, frelse og nåde"
+          }
+        ]
+      },
+      {
+        "label": "Kirker",
+        "children": [
+          {
+            "label": "Katolsk"
+          },
+          {
+            "label": "Ortodoks"
+          },
+          {
+            "label": "Protestantisk og pinse"
+          }
+        ]
+      },
+      {
+        "label": "Praksis",
+        "children": [
+          {
+            "label": "Dåp og nattverd"
+          },
+          {
+            "label": "Jul, påske, pinse"
+          },
+          {
+            "label": "Nestekjærlighet"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kristendommen er den største religionen i verden.", "correct": true, "explain": "Etterfulgt av islam." },
-      { "id": "m02", "type": "sant-usant", "text": "Alle kristne er enige om alle etiske spørsmål.", "correct": false, "explain": "De kan være uenige, for eksempel om abort." },
-      { "id": "m03", "type": "sant-usant", "text": "Kristendommen, jødedommen og islam deler troen på én gud.", "correct": true, "explain": "Og fortellingen om Abraham." },
-      { "id": "m04", "type": "sant-usant", "text": "Det gamle testamentet handler om Jesu liv.", "correct": false, "explain": "Det gjør evangeliene i Det nye testamentet." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er økumenikk?", "options": ["Misjon", "Samarbeid mellom kirkesamfunn", "En type bønn", "En høytid"], "correct": 1, "explain": "Kirkene samarbeider på tvers." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er sentralt i de ortodokse kirkene?", "options": ["Ikoner og liturgi", "Pavens makt", "Bibelen alene", "Tungetale"], "correct": 0, "explain": "Står sterkt i Øst-Europa." },
-      { "id": "m07", "type": "flervalg", "text": "Hva feires i pinsen?", "options": ["Jesu fødsel", "Jesu død", "Den hellige ånds komme", "Moses' lov"], "correct": 2, "explain": "Femti dager etter påske." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kristendommen er den største religionen i verden.",
+        "correct": true,
+        "explain": "Etterfulgt av islam."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle kristne er enige om alle etiske spørsmål.",
+        "correct": false,
+        "explain": "De kan være uenige, for eksempel om abort."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Kristendommen, jødedommen og islam deler troen på én gud.",
+        "correct": true,
+        "explain": "Og fortellingen om Abraham."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det gamle testamentet handler om Jesu liv.",
+        "correct": false,
+        "explain": "Det gjør evangeliene i Det nye testamentet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er økumenikk?",
+        "options": [
+          "Misjon",
+          "Samarbeid mellom kirkesamfunn",
+          "En type bønn",
+          "En høytid"
+        ],
+        "correct": 1,
+        "explain": "Kirkene samarbeider på tvers."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er sentralt i de ortodokse kirkene?",
+        "options": [
+          "Ikoner og liturgi",
+          "Pavens makt",
+          "Bibelen alene",
+          "Tungetale"
+        ],
+        "correct": 0,
+        "explain": "Står sterkt i Øst-Europa."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva feires i pinsen?",
+        "options": [
+          "Jesu fødsel",
+          "Jesu død",
+          "Den hellige ånds komme",
+          "Moses' lov"
+        ],
+        "correct": 2,
+        "explain": "Femti dager etter påske."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr inkarnasjonen i kristen tro, og hvem er knyttet til denne troen?",
+        "fasit": "Inkarnasjonen er troen på at Gud ble menneske i Jesus. Den handler altså om Jesus.",
+        "kriterier": [
+          "Forklarer at inkarnasjonen betyr at Gud ble menneske.",
+          "Knytter inkarnasjonen til Jesus."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar sammenhengen mellom synd, Jesu død og oppstandelse og frelse i kristen tro.",
+        "fasit": "Synden skiller mennesket fra Gud. Ifølge kristen tro gir Jesu død og oppstandelse frelse og tilgivelse, og frelsen er en gave fra Gud, kalt nåde.",
+        "kriterier": [
+          "Forklarer at synden skiller mennesket fra Gud.",
+          "Forklarer at Jesu død og oppstandelse gir frelse og/eller tilgivelse, som er en gave fra Gud."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign Den katolske kirke og de ortodokse kirkene ved å beskrive et sentralt kjennetegn ved hver av dem.",
+        "fasit": "Den katolske kirke ledes av paven og legger stor vekt på tradisjonen og sakramentene. I de ortodokse kirkene står ikoner og liturgi sentralt.",
+        "kriterier": [
+          "Nevner at Den katolske kirke ledes av paven, eller framhever tradisjonen eller sakramentene.",
+          "Nevner ikoner eller liturgi som sentralt i de ortodokse kirkene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hvordan er Bibelen delt inn, og hvilke typer tekster finner vi i Det nye testamentet?",
+        "fasit": "Bibelen består av Det gamle testamentet og Det nye testamentet. Det nye testamentet inneholder evangeliene, Apostlenes gjerninger, brevene og Johannes' åpenbaring.",
+        "kriterier": [
+          "Skiller mellom Det gamle testamentet og Det nye testamentet.",
+          "Nevner minst to typer tekster eller bøker i Det nye testamentet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En person spør hva dåpen betyr når man blir døpt i en kristen kirke. Forklar hvilken betydning dåpen har i kristendommen.",
+        "fasit": "Dåpen er et ritual som tar mennesket inn i det kristne fellesskapet. Den markerer dermed en tilknytning til dette fellesskapet.",
+        "kriterier": [
+          "Forklarer at dåpen tar mennesket inn i det kristne fellesskapet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev blir holdt utenfor og gjort narr av. Beskriv en handling som uttrykker kristen etikk i denne situasjonen, og begrunn handlingen med et kristent prinsipp.",
+        "fasit": "Jeg kan invitere eleven inn i fellesskapet og si fra mot ertingen. Det uttrykker nestekjærlighet og respekt for menneskeverdet.",
+        "kriterier": [
+          "Foreslår en konkret handling som støtter eller viser omsorg for eleven.",
+          "Knytter handlingen til nestekjærlighet, menneskeverd eller omsorg for svake."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hva feirer kristne i julen, og hva feirer de i pinsen?",
+        "fasit": "Jul feirer Jesu fødsel. Pinsen feirer Den hellige ånds komme.",
+        "kriterier": [
+          "Knytter jul til Jesu fødsel.",
+          "Knytter pinse til Den hellige ånds komme."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "To kirkesamfunn planlegger å samarbeide om et felles arrangement. Hva kalles slikt samarbeid mellom kirkesamfunn, og hva betyr begrepet?",
+        "fasit": "Samarbeid mellom kirkesamfunn kalles økumenikk. Begrepet viser til at ulike kirkesamfunn samarbeider.",
+        "kriterier": [
+          "Identifiserer begrepet som økumenikk.",
+          "Forklarer at økumenikk betyr samarbeid mellom kirkesamfunn."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

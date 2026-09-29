@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Lønnsforskjeller, inntektsfordeling og ulikhet",
   "intro": "Hva som påvirker lønnsforskjeller, hvordan inntektsfordeling og ulikhet måles med Lorenzkurven og Gini-koeffisienten, forskjellen på inntekt og formue – og hvordan myndighetene kan påvirke fordelingen gjennom skatter, overføringer og tjenester.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Hvorfor tjener folk ulikt?\n\n**Lønnsforskjeller** har mange årsaker:\n\n- **Utdanning** og **kompetanse**: Arbeid som krever lang utdanning eller sjelden kompetanse, gir ofte høyere lønn.\n- **Erfaring** og **ansiennitet**\n- **Bransje**: Lønnsnivået er høyere i for eksempel finans og olje enn i varehandel og overnatting.\n- **Tilbud og etterspørsel** etter arbeidskraft: Er det mangel på en type arbeidskraft, stiger lønnen.\n- **Forhandlingsmakt**: Sterke **fagforeninger** og **tariffavtaler** gir jevnere lønninger.\n- **Kjønn**: Kvinner tjener i gjennomsnitt mindre enn menn, blant annet fordi de oftere jobber i yrker med lavere lønn og oftere jobber **deltid**.\n\n## Den norske modellen\n\nI Norge forhandles mye av lønnen mellom **arbeidsgiverorganisasjoner** og **fagforeninger**. I **frontfagsmodellen** forhandler de konkurranseutsatte næringene først, og resultatet blir en **norm** for andre. Det bidrar til **små lønnsforskjeller** og god **konkurranseevne**. **Trepartssamarbeidet** mellom partene i arbeidslivet og staten er en viktig del av modellen.\n\n## Å måle ulikhet\n\n**Lorenzkurven** viser hvor stor andel av **samlet inntekt** som går til en gitt andel av **befolkningen**, sortert fra den med lavest til den med høyest inntekt. Hvis alle tjente likt, ville kurven vært en **rett linje**. Jo mer kurven **buer** bort fra linjen, desto større er ulikheten.\n\n**Gini-koeffisienten** oppsummerer ulikheten i ett tall:\n\n- **0** betyr at alle har **like** stor inntekt.\n- **1** betyr at **én** person har all inntekt.\n\nNorge har **lav** inntektsulikhet sammenlignet med de fleste land, men ulikheten har **økt** noe de siste tiårene.\n\n**Formue** – det folk eier av bolig, aksjer og sparepenger – er fordelt mye **skjevere** enn inntekt. **Arv** og stigende **boligpriser** kan forsterke forskjellene.\n\n## Hvordan kan myndighetene påvirke fordelingen?\n\n- **Progressiv skatt**: Den som tjener mer, betaler en **høyere andel** i skatt. **Trinnskatten** er et eksempel.\n- **Formuesskatt** og skatt på **utbytte**\n- **Overføringer**: **barnetrygd**, **bostøtte**, **sosialhjelp**, **dagpenger** og **pensjoner**\n- **Gratis eller rimelige tjenester**: **skole**, **helse** og **barnehage** betyr relativt mest for dem med **lav** inntekt.\n- **Utdanningspolitikk**: Like muligheter til utdanning gir mer **sosial mobilitet**.\n- **Arbeidslivspolitikk**: **Allmenngjøring** av tariffavtaler gir minstelønn i enkelte bransjer, og tiltak mot **utenforskap** hjelper flere inn i jobb.\n\n## Konsekvenser av ulikhet\n\nStore forskjeller kan gi lavere **tillit**, mer **kriminalitet**, dårligere **helse** og svakere **sosial mobilitet**. Samtidig kan noe ulikhet gi **insentiver** til å ta utdanning, jobbe mer og starte bedrifter.\n\n## Drøfting\n\nDet er politisk uenighet om hvor mye staten bør **omfordele**. Noen mener høye skatter svekker lysten til å **jobbe** og **investere**. Andre mener små forskjeller gir et **tryggere** og mer **produktivt** samfunn. Spørsmålet handler både om **effektivitet** og om **verdier**: Hva er en **rettferdig** fordeling?",
   "flashcards": [
-    { "term": "Lønnsforskjeller", "def": "Forskjeller i lønn mellom personer, yrker og bransjer." },
-    { "term": "Tariffavtale", "def": "Avtale mellom arbeidsgiver- og arbeidstakerorganisasjoner om lønn og vilkår." },
-    { "term": "Frontfagsmodellen", "def": "Konkurranseutsatte næringer forhandler først og setter normen." },
-    { "term": "Trepartssamarbeidet", "def": "Samarbeid mellom arbeidsgivere, arbeidstakere og staten." },
-    { "term": "Inntektsfordeling", "def": "Hvordan samlet inntekt er fordelt i befolkningen." },
-    { "term": "Lorenzkurven", "def": "Viser hvor stor andel av inntekten som går til ulike andeler av befolkningen." },
-    { "term": "Gini-koeffisient", "def": "Mål på ulikhet fra 0 (full likhet) til 1 (én har alt)." },
-    { "term": "Formue", "def": "Det man eier av bolig, aksjer og sparepenger." },
-    { "term": "Progressiv skatt", "def": "Høyere inntekt gir høyere andel i skatt." },
-    { "term": "Trinnskatt", "def": "Ekstra skatt på inntekt over visse grenser." },
-    { "term": "Overføringer", "def": "Ytelser som barnetrygd, bostøtte og pensjoner." },
-    { "term": "Omfordeling", "def": "Når staten flytter ressurser fra noen grupper til andre." },
-    { "term": "Sosial mobilitet", "def": "Muligheten til å bevege seg opp eller ned i samfunnet." },
-    { "term": "Allmenngjøring", "def": "At en tariffavtale gjøres gjeldende for alle i en bransje." },
-    { "term": "Insentiv", "def": "Noe som motiverer til en handling, som å jobbe mer." }
+    {
+      "term": "Lønnsforskjeller",
+      "def": "Forskjeller i lønn mellom personer, yrker og bransjer."
+    },
+    {
+      "term": "Tariffavtale",
+      "def": "Avtale mellom arbeidsgiver- og arbeidstakerorganisasjoner om lønn og vilkår."
+    },
+    {
+      "term": "Frontfagsmodellen",
+      "def": "Konkurranseutsatte næringer forhandler først og setter normen."
+    },
+    {
+      "term": "Trepartssamarbeidet",
+      "def": "Samarbeid mellom arbeidsgivere, arbeidstakere og staten."
+    },
+    {
+      "term": "Inntektsfordeling",
+      "def": "Hvordan samlet inntekt er fordelt i befolkningen."
+    },
+    {
+      "term": "Lorenzkurven",
+      "def": "Viser hvor stor andel av inntekten som går til ulike andeler av befolkningen."
+    },
+    {
+      "term": "Gini-koeffisient",
+      "def": "Mål på ulikhet fra 0 (full likhet) til 1 (én har alt)."
+    },
+    {
+      "term": "Formue",
+      "def": "Det man eier av bolig, aksjer og sparepenger."
+    },
+    {
+      "term": "Progressiv skatt",
+      "def": "Høyere inntekt gir høyere andel i skatt."
+    },
+    {
+      "term": "Trinnskatt",
+      "def": "Ekstra skatt på inntekt over visse grenser."
+    },
+    {
+      "term": "Overføringer",
+      "def": "Ytelser som barnetrygd, bostøtte og pensjoner."
+    },
+    {
+      "term": "Omfordeling",
+      "def": "Når staten flytter ressurser fra noen grupper til andre."
+    },
+    {
+      "term": "Sosial mobilitet",
+      "def": "Muligheten til å bevege seg opp eller ned i samfunnet."
+    },
+    {
+      "term": "Allmenngjøring",
+      "def": "At en tariffavtale gjøres gjeldende for alle i en bransje."
+    },
+    {
+      "term": "Insentiv",
+      "def": "Noe som motiverer til en handling, som å jobbe mer."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kan forklare lønnsforskjeller?", "options": ["Bare flaks", "Utdanning, bransje og forhandlingsmakt", "Bare alder", "Bare bosted"], "correct": 1, "explain": "Også tilbud og etterspørsel etter arbeidskraft." },
-    { "id": "q02", "text": "Hva betyr en Gini-koeffisient på 0?", "options": ["At alle har like stor inntekt", "At én person har all inntekt", "At ingen har inntekt", "At ulikheten er svært stor"], "correct": 0, "explain": "1 betyr at én har alt." },
-    { "id": "q03", "text": "Hva viser Lorenzkurven?", "options": ["Prisstigningen", "Arbeidsledigheten", "Hvor stor andel av inntekten som går til ulike andeler av befolkningen", "BNP-veksten"], "correct": 2, "explain": "Jo mer den buer, jo større ulikhet." },
-    { "id": "q04", "text": "Hva er progressiv skatt?", "options": ["Alle betaler samme beløp", "Alle betaler samme prosent", "De med lav inntekt betaler mest", "Høyere inntekt gir høyere andel i skatt"], "correct": 3, "explain": "Trinnskatten er et eksempel." },
-    { "id": "q05", "text": "Hva er fordelt skjevest i Norge?", "options": ["Formue", "Inntekt", "Barnetrygd", "Skolegang"], "correct": 0, "explain": "Arv og boligpriser forsterker forskjellene." },
-    { "id": "q06", "text": "Hva er frontfagsmodellen?", "options": ["At staten bestemmer alle lønninger", "At konkurranseutsatte næringer forhandler først og setter normen", "At alle får samme lønn", "At lederne bestemmer lønnen"], "correct": 1, "explain": "Gir små lønnsforskjeller og god konkurranseevne." },
-    { "id": "q07", "text": "Hvorfor betyr gratis skole og helse mest for dem med lav inntekt?", "options": ["Fordi de bruker dem mindre", "Fordi de er dyrere for dem", "Fordi tjenestene utgjør en større del av inntekten deres", "Fordi de betaler mer skatt"], "correct": 2, "explain": "Utjevner forskjeller." },
-    { "id": "q08", "text": "Hva er et argument mot mye omfordeling?", "options": ["Det gir høyere tillit", "Det gir bedre helse", "Det gir mer sosial mobilitet", "Høye skatter kan svekke lysten til å jobbe og investere"], "correct": 3, "explain": "Et effektivitetsargument." },
-    { "id": "q09", "text": "Hva er en overføring?", "options": ["Barnetrygd", "Skatt", "Lønn", "Aksjeutbytte"], "correct": 0, "explain": "Også bostøtte og pensjoner." },
-    { "id": "q10", "text": "Hvilken konsekvens kan store forskjeller få?", "options": ["Høyere tillit", "Lavere tillit og svakere sosial mobilitet", "Mindre kriminalitet", "Bedre helse for alle"], "correct": 1, "explain": "Ifølge mye forskning." }
+    {
+      "id": "q01",
+      "text": "Hva kan forklare lønnsforskjeller?",
+      "options": [
+        "Bare flaks",
+        "Utdanning, bransje og forhandlingsmakt",
+        "Bare alder",
+        "Bare bosted"
+      ],
+      "correct": 1,
+      "explain": "Også tilbud og etterspørsel etter arbeidskraft."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr en Gini-koeffisient på 0?",
+      "options": [
+        "At alle har like stor inntekt",
+        "At én person har all inntekt",
+        "At ingen har inntekt",
+        "At ulikheten er svært stor"
+      ],
+      "correct": 0,
+      "explain": "1 betyr at én har alt."
+    },
+    {
+      "id": "q03",
+      "text": "Hva viser Lorenzkurven?",
+      "options": [
+        "Prisstigningen",
+        "Arbeidsledigheten",
+        "Hvor stor andel av inntekten som går til ulike andeler av befolkningen",
+        "BNP-veksten"
+      ],
+      "correct": 2,
+      "explain": "Jo mer den buer, jo større ulikhet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er progressiv skatt?",
+      "options": [
+        "Alle betaler samme beløp",
+        "Alle betaler samme prosent",
+        "De med lav inntekt betaler mest",
+        "Høyere inntekt gir høyere andel i skatt"
+      ],
+      "correct": 3,
+      "explain": "Trinnskatten er et eksempel."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er fordelt skjevest i Norge?",
+      "options": [
+        "Formue",
+        "Inntekt",
+        "Barnetrygd",
+        "Skolegang"
+      ],
+      "correct": 0,
+      "explain": "Arv og boligpriser forsterker forskjellene."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er frontfagsmodellen?",
+      "options": [
+        "At staten bestemmer alle lønninger",
+        "At konkurranseutsatte næringer forhandler først og setter normen",
+        "At alle får samme lønn",
+        "At lederne bestemmer lønnen"
+      ],
+      "correct": 1,
+      "explain": "Gir små lønnsforskjeller og god konkurranseevne."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor betyr gratis skole og helse mest for dem med lav inntekt?",
+      "options": [
+        "Fordi de bruker dem mindre",
+        "Fordi de er dyrere for dem",
+        "Fordi tjenestene utgjør en større del av inntekten deres",
+        "Fordi de betaler mer skatt"
+      ],
+      "correct": 2,
+      "explain": "Utjevner forskjeller."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et argument mot mye omfordeling?",
+      "options": [
+        "Det gir høyere tillit",
+        "Det gir bedre helse",
+        "Det gir mer sosial mobilitet",
+        "Høye skatter kan svekke lysten til å jobbe og investere"
+      ],
+      "correct": 3,
+      "explain": "Et effektivitetsargument."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en overføring?",
+      "options": [
+        "Barnetrygd",
+        "Skatt",
+        "Lønn",
+        "Aksjeutbytte"
+      ],
+      "correct": 0,
+      "explain": "Også bostøtte og pensjoner."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken konsekvens kan store forskjeller få?",
+      "options": [
+        "Høyere tillit",
+        "Lavere tillit og svakere sosial mobilitet",
+        "Mindre kriminalitet",
+        "Bedre helse for alle"
+      ],
+      "correct": 1,
+      "explain": "Ifølge mye forskning."
+    }
   ],
   "mindmap": {
     "label": "Inntektsfordeling og ulikhet",
     "children": [
-      { "label": "Lønnsforskjeller", "children": [
-        { "label": "Utdanning og bransje" },
-        { "label": "Forhandlingsmakt" },
-        { "label": "Kjønn og deltid" }
-      ] },
-      { "label": "Norsk modell", "children": [
-        { "label": "Frontfag" },
-        { "label": "Trepartssamarbeid" }
-      ] },
-      { "label": "Måling", "children": [
-        { "label": "Lorenzkurven" },
-        { "label": "Gini-koeffisient" },
-        { "label": "Inntekt og formue" }
-      ] },
-      { "label": "Virkemidler", "children": [
-        { "label": "Progressiv skatt" },
-        { "label": "Overføringer" },
-        { "label": "Gratis tjenester" }
-      ] },
-      { "label": "Drøfting", "children": [
-        { "label": "Tillit og mobilitet" },
-        { "label": "Insentiver" },
-        { "label": "Rettferdighet" }
-      ] }
+      {
+        "label": "Lønnsforskjeller",
+        "children": [
+          {
+            "label": "Utdanning og bransje"
+          },
+          {
+            "label": "Forhandlingsmakt"
+          },
+          {
+            "label": "Kjønn og deltid"
+          }
+        ]
+      },
+      {
+        "label": "Norsk modell",
+        "children": [
+          {
+            "label": "Frontfag"
+          },
+          {
+            "label": "Trepartssamarbeid"
+          }
+        ]
+      },
+      {
+        "label": "Måling",
+        "children": [
+          {
+            "label": "Lorenzkurven"
+          },
+          {
+            "label": "Gini-koeffisient"
+          },
+          {
+            "label": "Inntekt og formue"
+          }
+        ]
+      },
+      {
+        "label": "Virkemidler",
+        "children": [
+          {
+            "label": "Progressiv skatt"
+          },
+          {
+            "label": "Overføringer"
+          },
+          {
+            "label": "Gratis tjenester"
+          }
+        ]
+      },
+      {
+        "label": "Drøfting",
+        "children": [
+          {
+            "label": "Tillit og mobilitet"
+          },
+          {
+            "label": "Insentiver"
+          },
+          {
+            "label": "Rettferdighet"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Norge har lav inntektsulikhet sammenlignet med de fleste land.", "correct": true, "explain": "Men ulikheten har økt noe." },
-      { "id": "m02", "type": "sant-usant", "text": "Hvis alle tjente likt, ville Lorenzkurven bue kraftig.", "correct": false, "explain": "Den ville vært en rett linje." },
-      { "id": "m03", "type": "sant-usant", "text": "Kvinner jobber oftere deltid enn menn, noe som bidrar til lønnsforskjeller.", "correct": true, "explain": "Også yrkesvalg spiller inn." },
-      { "id": "m04", "type": "sant-usant", "text": "Spørsmålet om hvor mye staten bør omfordele, handler bare om fakta.", "correct": false, "explain": "Det handler også om verdier." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er allmenngjøring av en tariffavtale?", "options": ["At avtalen oppheves", "At den gjelder for alle i en bransje", "At den bare gjelder ledere", "At staten betaler lønnen"], "correct": 1, "explain": "Gir en minstelønn i enkelte bransjer." },
-      { "id": "m06", "type": "flervalg", "text": "Hvordan kan utdanningspolitikk påvirke ulikhet?", "options": ["Gi mer sosial mobilitet gjennom like muligheter", "Øke formuesforskjellene", "Senke skattene", "Fjerne overføringer"], "correct": 0, "explain": "Utdanning åpner dører." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan forsterke formuesforskjellene?", "options": ["Barnetrygd", "Gratis skole", "Arv og stigende boligpriser", "Progressiv skatt"], "correct": 2, "explain": "De som eier, får verdistigningen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Norge har lav inntektsulikhet sammenlignet med de fleste land.",
+        "correct": true,
+        "explain": "Men ulikheten har økt noe."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Hvis alle tjente likt, ville Lorenzkurven bue kraftig.",
+        "correct": false,
+        "explain": "Den ville vært en rett linje."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Kvinner jobber oftere deltid enn menn, noe som bidrar til lønnsforskjeller.",
+        "correct": true,
+        "explain": "Også yrkesvalg spiller inn."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Spørsmålet om hvor mye staten bør omfordele, handler bare om fakta.",
+        "correct": false,
+        "explain": "Det handler også om verdier."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er allmenngjøring av en tariffavtale?",
+        "options": [
+          "At avtalen oppheves",
+          "At den gjelder for alle i en bransje",
+          "At den bare gjelder ledere",
+          "At staten betaler lønnen"
+        ],
+        "correct": 1,
+        "explain": "Gir en minstelønn i enkelte bransjer."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvordan kan utdanningspolitikk påvirke ulikhet?",
+        "options": [
+          "Gi mer sosial mobilitet gjennom like muligheter",
+          "Øke formuesforskjellene",
+          "Senke skattene",
+          "Fjerne overføringer"
+        ],
+        "correct": 0,
+        "explain": "Utdanning åpner dører."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan forsterke formuesforskjellene?",
+        "options": [
+          "Barnetrygd",
+          "Gratis skole",
+          "Arv og stigende boligpriser",
+          "Progressiv skatt"
+        ],
+        "correct": 2,
+        "explain": "De som eier, får verdistigningen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Det er mangel på personer med en bestemt type kompetanse i arbeidsmarkedet. Forklar hvordan dette kan påvirke lønnen for denne typen arbeid.",
+        "fasit": "Når det er mangel på arbeidskraft, blir tilbudet av personer som kan utføre arbeidet lavt i forhold til etterspørselen. Da kan lønnen stige.",
+        "kriterier": [
+          "Knytter lønnsøkning til mangel på arbeidskraft.",
+          "Forklarer sammenhengen med tilbud og etterspørsel."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hva er en tariffavtale, og hvem inngår en slik avtale?",
+        "fasit": "En tariffavtale er en avtale om lønn og arbeidsvilkår mellom arbeidsgiverorganisasjoner og arbeidstakerorganisasjoner, som fagforeninger.",
+        "kriterier": [
+          "Forklarer at avtalen handler om lønn og vilkår.",
+          "Får fram at avtalen inngås mellom arbeidsgiver- og arbeidstakerorganisasjoner."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En tariffavtale blir gjort gjeldende for alle virksomheter og arbeidstakere i en bransje. Hva kalles dette, og hva innebærer det?",
+        "fasit": "Dette kalles allmenngjøring. Det innebærer at tariffavtalen gjelder for alle i bransjen, ikke bare dem som er direkte omfattet av avtalen.",
+        "kriterier": [
+          "Identifiserer dette som allmenngjøring.",
+          "Forklarer at avtalen gjelder alle i bransjen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign hvordan inntekt og formue er fordelt i Norge. Nevn også én faktor som kan forsterke forskjellene i formue.",
+        "fasit": "Formue er fordelt mye skjevere enn inntekt. Arv eller stigende boligpriser kan forsterke forskjellene i formue.",
+        "kriterier": [
+          "Får fram at formue er skjevere fordelt enn inntekt.",
+          "Nevner arv eller stigende boligpriser som en faktor som kan forsterke forskjellene."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En elev får samme mulighet som andre til å ta utdanning. Forklar hvordan dette kan påvirke elevens sosiale mobilitet.",
+        "fasit": "Like muligheter til utdanning kan gjøre det lettere for eleven å bevege seg oppover i samfunnet. Utdanningspolitikk kan dermed bidra til større sosial mobilitet.",
+        "kriterier": [
+          "Knytter like utdanningsmuligheter til mulighet for å bevege seg i samfunnet.",
+          "Forklarer at dette kan bidra til sosial mobilitet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hvilke tre parter samarbeider i trepartssamarbeidet, og hvilken rolle har staten i dette samarbeidet?",
+        "fasit": "Trepartssamarbeidet er mellom arbeidsgivere, arbeidstakere og staten. Staten er en av partene i samarbeidet om arbeidslivet.",
+        "kriterier": [
+          "Nevner arbeidsgivere og arbeidstakere som parter.",
+          "Nevner staten som den tredje parten."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "To land har Lorenzkurver som begge viser inntektsfordelingen i befolkningen. Kurven for land A bøyer seg mer bort fra den rette linjen enn kurven for land B. Hvilket land har størst inntektsulikhet, og hvorfor?",
+        "fasit": "Land A har størst inntektsulikhet. Jo mer Lorenzkurven bøyer seg bort fra den rette linjen, desto større er ulikheten.",
+        "kriterier": [
+          "Velger land A.",
+          "Begrunner svaret med at større avstand fra den rette linjen betyr større ulikhet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Én person mener at høye skatter kan svekke lysten til å jobbe og investere. En annen mener at små forskjeller gir et tryggere og mer produktivt samfunn. Hvilke to hensyn handler uenigheten om?",
+        "fasit": "Uenigheten handler både om effektivitet og om verdier, blant annet hva som er en rettferdig fordeling. Den første vektlegger mulige virkninger på arbeid og investeringer, mens den andre vektlegger fordelene ved små forskjeller.",
+        "kriterier": [
+          "Får fram hensynet til effektivitet.",
+          "Får fram hensynet til verdier eller rettferdig fordeling."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

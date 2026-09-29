@@ -4,81 +4,435 @@
   "trinnId": "vg1",
   "name": "Naturvitenskapelig metode og forsøk",
   "intro": "Hvordan naturvitenskapen arbeider med hypoteser, forsøk, modeller og teorier, hvordan du planlegger og presenterer et eget forsøk, og hvordan du risikovurderer og håndterer avfall forsvarlig.",
-  "kompetansemaal": [1, 2, 3],
+  "kompetansemaal": [
+    1,
+    2,
+    3
+  ],
   "sammendrag": "## Hvordan skaffer naturvitenskapen kunnskap?\n\nNaturvitenskapen bygger på **observasjoner** og **forsøk**. Arbeidet følger ofte disse trinnene:\n\n1. **Problemstilling**: et spørsmål som kan undersøkes.\n2. **Hypotese**: en mulig, **testbar** forklaring eller forutsigelse.\n3. **Forsøk eller observasjoner**: data samles inn.\n4. **Resultater**: data ordnes i tabeller og grafer.\n5. **Konklusjon**: Blir hypotesen **styrket** eller **svekket**?\n6. **Presentasjon**: Funnene deles og vurderes av andre.\n\n## Variabler og kontroll\n\nI et godt forsøk endrer vi **én ting om gangen**:\n\n- **Uavhengig variabel**: det vi endrer, for eksempel temperaturen.\n- **Avhengig variabel**: det vi måler, for eksempel hvor raskt en reaksjon går.\n- **Kontrollerte variabler**: alt vi holder likt, for eksempel mengde og konsentrasjon.\n\nEn **kontrollgruppe** uten behandling gjør det mulig å sammenligne. Vi gjentar forsøket for å få **pålitelige** resultater og vurderer **feilkilder** – for eksempel unøyaktige målinger.\n\n## Hypoteser, modeller og teorier\n\n- En **hypotese** er en foreløpig forklaring som skal testes.\n- En **modell** er en forenklet framstilling av virkeligheten – for eksempel en atommodell eller en klimamodell.\n- En **teori** er en **godt underbygd** forklaring som støttes av mange uavhengige observasjoner, som evolusjonsteorien eller big bang-teorien. «Bare en teori» er derfor en misforståelse.\n\nKunnskapen **endrer seg** når nye data kommer. **Atommodellen** er et godt eksempel: Dalton så atomet som en udelelig kule, Thomson oppdaget elektronet, Rutherford fant atomkjernen, og Bohr plasserte elektronene i skall. Hver modell forklarte mer enn den forrige.\n\n## Naturvitenskapens kjennetegn\n\n- **Etterprøvbarhet**: Andre skal kunne gjenta forsøket og få samme resultat.\n- **Fagfellevurdering**: Forskere vurderer hverandres arbeid før det publiseres.\n- **Åpenhet** om metoder og usikkerhet.\n\n## Eget forsøk\n\nNår du utforsker en **selvvalgt problemstilling**, må du **begrunne metodevalgene**: Hvorfor valgte du akkurat dette utstyret, disse målingene og denne framgangsmåten? Presenter **funn** med tabeller og grafer, og drøft **usikkerhet** og feilkilder.\n\n## Risikovurdering\n\nFør et forsøk må du vurdere risikoen:\n\n- Les **faresetninger** og **farepiktogrammer** på kjemikaliene, og se i **sikkerhetsdatabladet**.\n- Bruk **vernebriller**, **frakk** og eventuelt **hansker**.\n- Bruk **avtrekksskap** ved giftige eller illeluktende gasser.\n- Vit hvor **øyedusj**, **brannteppe** og **brannslukker** er.\n\n## Avfall\n\nKjemikalieavfall skal håndteres **forsvarlig**:\n\n- Fortynnede syrer og baser kan ofte **nøytraliseres** før de helles ut.\n- **Tungmetaller** og **organiske løsemidler** skal **aldri** i vasken, men i egne merkede avfallsbeholdere.\n- Følg skolens rutiner og lærerens instruksjoner.",
   "flashcards": [
-    { "term": "Hypotese", "def": "En mulig, testbar forklaring eller forutsigelse." },
-    { "term": "Uavhengig variabel", "def": "Det vi endrer i et forsøk." },
-    { "term": "Avhengig variabel", "def": "Det vi måler i et forsøk." },
-    { "term": "Kontrollerte variabler", "def": "Det vi holder likt i et forsøk." },
-    { "term": "Kontrollgruppe", "def": "Gruppe uten behandling som brukes til sammenligning." },
-    { "term": "Feilkilde", "def": "Noe som kan gjøre resultatene unøyaktige." },
-    { "term": "Modell", "def": "En forenklet framstilling av virkeligheten." },
-    { "term": "Teori", "def": "En godt underbygd forklaring støttet av mange observasjoner." },
-    { "term": "Etterprøvbarhet", "def": "At andre kan gjenta forsøket og få samme resultat." },
-    { "term": "Fagfellevurdering", "def": "At forskere vurderer hverandres arbeid før publisering." },
-    { "term": "Rutherford", "def": "Oppdaget atomkjernen." },
-    { "term": "Risikovurdering", "def": "Vurdering av farer og tiltak før et forsøk." },
-    { "term": "Sikkerhetsdatablad", "def": "Dokument med informasjon om farer og håndtering av et kjemikalie." },
-    { "term": "Avtrekksskap", "def": "Skap med avsug som brukes ved giftige gasser." },
-    { "term": "Tungmetallavfall", "def": "Skal aldri i vasken, men i egne merkede beholdere." }
+    {
+      "term": "Hypotese",
+      "def": "En mulig, testbar forklaring eller forutsigelse."
+    },
+    {
+      "term": "Uavhengig variabel",
+      "def": "Det vi endrer i et forsøk."
+    },
+    {
+      "term": "Avhengig variabel",
+      "def": "Det vi måler i et forsøk."
+    },
+    {
+      "term": "Kontrollerte variabler",
+      "def": "Det vi holder likt i et forsøk."
+    },
+    {
+      "term": "Kontrollgruppe",
+      "def": "Gruppe uten behandling som brukes til sammenligning."
+    },
+    {
+      "term": "Feilkilde",
+      "def": "Noe som kan gjøre resultatene unøyaktige."
+    },
+    {
+      "term": "Modell",
+      "def": "En forenklet framstilling av virkeligheten."
+    },
+    {
+      "term": "Teori",
+      "def": "En godt underbygd forklaring støttet av mange observasjoner."
+    },
+    {
+      "term": "Etterprøvbarhet",
+      "def": "At andre kan gjenta forsøket og få samme resultat."
+    },
+    {
+      "term": "Fagfellevurdering",
+      "def": "At forskere vurderer hverandres arbeid før publisering."
+    },
+    {
+      "term": "Rutherford",
+      "def": "Oppdaget atomkjernen."
+    },
+    {
+      "term": "Risikovurdering",
+      "def": "Vurdering av farer og tiltak før et forsøk."
+    },
+    {
+      "term": "Sikkerhetsdatablad",
+      "def": "Dokument med informasjon om farer og håndtering av et kjemikalie."
+    },
+    {
+      "term": "Avtrekksskap",
+      "def": "Skap med avsug som brukes ved giftige gasser."
+    },
+    {
+      "term": "Tungmetallavfall",
+      "def": "Skal aldri i vasken, men i egne merkede beholdere."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner en god hypotese?", "options": ["Den er sann", "Den kan testes", "Den er lang", "Den er basert på en mening"], "correct": 1, "explain": "En hypotese må kunne styrkes eller svekkes av forsøk." },
-    { "id": "q02", "text": "Du undersøker hvordan temperaturen påvirker hvor raskt sukker løses opp. Hva er den uavhengige variabelen?", "options": ["Temperaturen", "Tiden det tar", "Mengden sukker", "Størrelsen på begeret"], "correct": 0, "explain": "Temperaturen er det du endrer." },
-    { "id": "q03", "text": "Hva er en teori i naturvitenskapen?", "options": ["En gjetning", "En mening", "En godt underbygd forklaring støttet av mange observasjoner", "En hypotese som ikke er testet"], "correct": 2, "explain": "Evolusjonsteorien og big bang-teorien er eksempler." },
-    { "id": "q04", "text": "Hvorfor gjentar vi et forsøk flere ganger?", "options": ["For å bruke mer utstyr", "For å få flere feil", "For å endre hypotesen", "For å få mer pålitelige resultater"], "correct": 3, "explain": "Gjentakelser avslører tilfeldige feil." },
-    { "id": "q05", "text": "Hvem oppdaget atomkjernen?", "options": ["Rutherford", "Dalton", "Bohr", "Thomson"], "correct": 0, "explain": "Thomson oppdaget elektronet, og Bohr plasserte elektronene i skall." },
-    { "id": "q06", "text": "Hva betyr etterprøvbarhet?", "options": ["At forsøket er billig", "At andre kan gjenta forsøket og få samme resultat", "At læreren godkjenner forsøket", "At forsøket er farlig"], "correct": 1, "explain": "Etterprøvbarhet er et grunnleggende krav i naturvitenskapen." },
-    { "id": "q07", "text": "Hvor skal du kaste avfall som inneholder tungmetaller?", "options": ["I vasken", "I restavfallet", "I en egen merket avfallsbeholder", "I papirkurven"], "correct": 2, "explain": "Tungmetaller er skadelige for miljøet." },
-    { "id": "q08", "text": "Hva er en modell i naturvitenskapen?", "options": ["En person som poserer", "En sann kopi av virkeligheten", "En type forsøk", "En forenklet framstilling av virkeligheten"], "correct": 3, "explain": "Modeller hjelper oss å forstå og forutsi." },
-    { "id": "q09", "text": "Hva er fagfellevurdering?", "options": ["At forskere vurderer hverandres arbeid før publisering", "At elever retter hverandres prøver", "At journalister omtaler forskning", "At forskning blir patentert"], "correct": 0, "explain": "Det skal fange opp feil og svakheter." },
-    { "id": "q10", "text": "Hvor finner du informasjon om farene ved et kjemikalie?", "options": ["På etiketten til flasken med farger", "I sikkerhetsdatabladet", "I læreboka i historie", "På nettsiden til skolen"], "correct": 1, "explain": "Sikkerhetsdatabladet beskriver farer, verneutstyr og avfallshåndtering." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner en god hypotese?",
+      "options": [
+        "Den er sann",
+        "Den kan testes",
+        "Den er lang",
+        "Den er basert på en mening"
+      ],
+      "correct": 1,
+      "explain": "En hypotese må kunne styrkes eller svekkes av forsøk."
+    },
+    {
+      "id": "q02",
+      "text": "Du undersøker hvordan temperaturen påvirker hvor raskt sukker løses opp. Hva er den uavhengige variabelen?",
+      "options": [
+        "Temperaturen",
+        "Tiden det tar",
+        "Mengden sukker",
+        "Størrelsen på begeret"
+      ],
+      "correct": 0,
+      "explain": "Temperaturen er det du endrer."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en teori i naturvitenskapen?",
+      "options": [
+        "En gjetning",
+        "En mening",
+        "En godt underbygd forklaring støttet av mange observasjoner",
+        "En hypotese som ikke er testet"
+      ],
+      "correct": 2,
+      "explain": "Evolusjonsteorien og big bang-teorien er eksempler."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor gjentar vi et forsøk flere ganger?",
+      "options": [
+        "For å bruke mer utstyr",
+        "For å få flere feil",
+        "For å endre hypotesen",
+        "For å få mer pålitelige resultater"
+      ],
+      "correct": 3,
+      "explain": "Gjentakelser avslører tilfeldige feil."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem oppdaget atomkjernen?",
+      "options": [
+        "Rutherford",
+        "Dalton",
+        "Bohr",
+        "Thomson"
+      ],
+      "correct": 0,
+      "explain": "Thomson oppdaget elektronet, og Bohr plasserte elektronene i skall."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr etterprøvbarhet?",
+      "options": [
+        "At forsøket er billig",
+        "At andre kan gjenta forsøket og få samme resultat",
+        "At læreren godkjenner forsøket",
+        "At forsøket er farlig"
+      ],
+      "correct": 1,
+      "explain": "Etterprøvbarhet er et grunnleggende krav i naturvitenskapen."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor skal du kaste avfall som inneholder tungmetaller?",
+      "options": [
+        "I vasken",
+        "I restavfallet",
+        "I en egen merket avfallsbeholder",
+        "I papirkurven"
+      ],
+      "correct": 2,
+      "explain": "Tungmetaller er skadelige for miljøet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en modell i naturvitenskapen?",
+      "options": [
+        "En person som poserer",
+        "En sann kopi av virkeligheten",
+        "En type forsøk",
+        "En forenklet framstilling av virkeligheten"
+      ],
+      "correct": 3,
+      "explain": "Modeller hjelper oss å forstå og forutsi."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er fagfellevurdering?",
+      "options": [
+        "At forskere vurderer hverandres arbeid før publisering",
+        "At elever retter hverandres prøver",
+        "At journalister omtaler forskning",
+        "At forskning blir patentert"
+      ],
+      "correct": 0,
+      "explain": "Det skal fange opp feil og svakheter."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor finner du informasjon om farene ved et kjemikalie?",
+      "options": [
+        "På etiketten til flasken med farger",
+        "I sikkerhetsdatabladet",
+        "I læreboka i historie",
+        "På nettsiden til skolen"
+      ],
+      "correct": 1,
+      "explain": "Sikkerhetsdatabladet beskriver farer, verneutstyr og avfallshåndtering."
+    }
   ],
   "mindmap": {
     "label": "Naturvitenskapelig metode",
     "children": [
-      { "label": "Framgangsmåte", "children": [
-        { "label": "Problemstilling" },
-        { "label": "Hypotese" },
-        { "label": "Forsøk og resultater" },
-        { "label": "Konklusjon" }
-      ] },
-      { "label": "Forsøk", "children": [
-        { "label": "Variabler" },
-        { "label": "Kontrollgruppe" },
-        { "label": "Feilkilder" }
-      ] },
-      { "label": "Kunnskap", "children": [
-        { "label": "Hypotese" },
-        { "label": "Modell" },
-        { "label": "Teori" },
-        { "label": "Atommodellen" }
-      ] },
-      { "label": "Kjennetegn", "children": [
-        { "label": "Etterprøvbarhet" },
-        { "label": "Fagfellevurdering" },
-        { "label": "Åpenhet" }
-      ] },
-      { "label": "Sikkerhet", "children": [
-        { "label": "Risikovurdering" },
-        { "label": "Verneutstyr" },
-        { "label": "Avfall" }
-      ] }
+      {
+        "label": "Framgangsmåte",
+        "children": [
+          {
+            "label": "Problemstilling"
+          },
+          {
+            "label": "Hypotese"
+          },
+          {
+            "label": "Forsøk og resultater"
+          },
+          {
+            "label": "Konklusjon"
+          }
+        ]
+      },
+      {
+        "label": "Forsøk",
+        "children": [
+          {
+            "label": "Variabler"
+          },
+          {
+            "label": "Kontrollgruppe"
+          },
+          {
+            "label": "Feilkilder"
+          }
+        ]
+      },
+      {
+        "label": "Kunnskap",
+        "children": [
+          {
+            "label": "Hypotese"
+          },
+          {
+            "label": "Modell"
+          },
+          {
+            "label": "Teori"
+          },
+          {
+            "label": "Atommodellen"
+          }
+        ]
+      },
+      {
+        "label": "Kjennetegn",
+        "children": [
+          {
+            "label": "Etterprøvbarhet"
+          },
+          {
+            "label": "Fagfellevurdering"
+          },
+          {
+            "label": "Åpenhet"
+          }
+        ]
+      },
+      {
+        "label": "Sikkerhet",
+        "children": [
+          {
+            "label": "Risikovurdering"
+          },
+          {
+            "label": "Verneutstyr"
+          },
+          {
+            "label": "Avfall"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "I et godt forsøk endrer vi bare én variabel om gangen.", "correct": true, "explain": "Da vet vi hva som forårsaket endringen." },
-      { "id": "m02", "type": "sant-usant", "text": "En teori er det samme som en gjetning.", "correct": false, "explain": "En teori er godt underbygd av mange observasjoner." },
-      { "id": "m03", "type": "sant-usant", "text": "Naturvitenskapelig kunnskap kan endre seg når nye data kommer.", "correct": true, "explain": "Atommodellen har for eksempel endret seg mange ganger." },
-      { "id": "m04", "type": "sant-usant", "text": "Organiske løsemidler kan helles i vasken.", "correct": false, "explain": "De skal i egne avfallsbeholdere." },
-      { "id": "m05", "type": "flervalg", "text": "Du måler hvor høyt planter vokser med ulike mengder gjødsel. Hva er den avhengige variabelen?", "options": ["Mengden gjødsel", "Plantenes høyde", "Mengden vann", "Plantetypen"], "correct": 1, "explain": "Det du måler er den avhengige variabelen." },
-      { "id": "m06", "type": "flervalg", "text": "Når bør du bruke avtrekksskap?", "options": ["Når du veier salt", "Når du tegner grafer", "Når forsøket gir giftige eller illeluktende gasser", "Alltid når du bruker vann"], "correct": 2, "explain": "Avtrekket fjerner gassene." },
-      { "id": "m07", "type": "flervalg", "text": "Hva må du gjøre når du presenterer et eget forsøk?", "options": ["Begrunne metodevalgene og drøfte usikkerhet", "Bare vise det beste resultatet", "Skjule feilkildene", "Bare fortelle konklusjonen"], "correct": 0, "explain": "Åpenhet om metode og usikkerhet gjør resultatene troverdige." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "I et godt forsøk endrer vi bare én variabel om gangen.",
+        "correct": true,
+        "explain": "Da vet vi hva som forårsaket endringen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En teori er det samme som en gjetning.",
+        "correct": false,
+        "explain": "En teori er godt underbygd av mange observasjoner."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Naturvitenskapelig kunnskap kan endre seg når nye data kommer.",
+        "correct": true,
+        "explain": "Atommodellen har for eksempel endret seg mange ganger."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Organiske løsemidler kan helles i vasken.",
+        "correct": false,
+        "explain": "De skal i egne avfallsbeholdere."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Du måler hvor høyt planter vokser med ulike mengder gjødsel. Hva er den avhengige variabelen?",
+        "options": [
+          "Mengden gjødsel",
+          "Plantenes høyde",
+          "Mengden vann",
+          "Plantetypen"
+        ],
+        "correct": 1,
+        "explain": "Det du måler er den avhengige variabelen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Når bør du bruke avtrekksskap?",
+        "options": [
+          "Når du veier salt",
+          "Når du tegner grafer",
+          "Når forsøket gir giftige eller illeluktende gasser",
+          "Alltid når du bruker vann"
+        ],
+        "correct": 2,
+        "explain": "Avtrekket fjerner gassene."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva må du gjøre når du presenterer et eget forsøk?",
+        "options": [
+          "Begrunne metodevalgene og drøfte usikkerhet",
+          "Bare vise det beste resultatet",
+          "Skjule feilkildene",
+          "Bare fortelle konklusjonen"
+        ],
+        "correct": 0,
+        "explain": "Åpenhet om metode og usikkerhet gjør resultatene troverdige."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En elev undersøker om mengden vann påvirker hvor høye spirer blir. Hvorfor bør eleven holde blant annet lysmengde og type frø likt i alle gruppene?",
+        "fasit": "Da er det lettere å knytte en forskjell i spirenes høyde til mengden vann. Hvis flere forhold endres samtidig, blir det vanskelig å vite hva som påvirket resultatet.",
+        "kriterier": [
+          "Forklarer at andre forhold holdes like for å undersøke virkningen av mengden vann.",
+          "Får fram at flere endringer kan gjøre det uklart hva som forårsaket resultatet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En elev lager hypotesen «Hvis vannet blir varmere, går reaksjonen raskere». Etter forsøket viser resultatene at reaksjonen gikk raskere i varmt vann. Forklar forskjellen på hypotesen og konklusjonen i dette tilfellet.",
+        "fasit": "Hypotesen er forutsigelsen eleven laget før forsøket. Konklusjonen bygger på resultatene og sier at de støtter eller styrker hypotesen.",
+        "kriterier": [
+          "Beskriver hypotesen som en forutsigelse eller mulig forklaring som testes.",
+          "Forklarer at konklusjonen bygger på forsøksresultatene og vurderer hypotesen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev undersøker om en behandling påvirker et resultat. Én gruppe får behandlingen, mens en annen gruppe ikke får den. Hvilken gruppe er kontrollgruppen, og hvordan hjelper den eleven med å vurdere resultatet?",
+        "fasit": "Gruppen som ikke får behandlingen, er kontrollgruppen. Eleven kan sammenligne resultatene fra gruppene for å vurdere om behandlingen kan ha påvirket resultatet.",
+        "kriterier": [
+          "Identifiserer gruppen uten behandling som kontrollgruppen.",
+          "Forklarer at gruppen brukes som sammenligning for å vurdere virkningen av behandlingen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Tre gjentatte målinger er 4 sekunder, 6 sekunder og 5 sekunder. Regn ut gjennomsnittet og vis det viktigste regnestykket.",
+        "fasit": "Gjennomsnittet er (4 + 6 + 5) / 3 = 5 sekunder.",
+        "kriterier": [
+          "Legger sammen målingene og deler summen på 3.",
+          "Oppgir gjennomsnittet som 5 sekunder."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "To grupper gjør tre målinger hver. Gruppe A får 2, 4 og 3. Gruppe B får 5, 4 og 6. Regn ut gjennomsnittet for hver gruppe og hvor mye høyere gjennomsnittet til gruppe B er.",
+        "fasit": "Gjennomsnittet til A er (2 + 4 + 3) / 3 = 3, og gjennomsnittet til B er (5 + 4 + 6) / 3 = 5. B sitt gjennomsnitt er 5 − 3 = 2 høyere.",
+        "kriterier": [
+          "Finner gjennomsnittet 3 for gruppe A og 5 for gruppe B.",
+          "Finner at forskjellen mellom gjennomsnittene er 2."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Dalton beskrev atomet som en udelelig kule. Senere kom modeller der Thomson hadde oppdaget elektronet, Rutherford hadde funnet atomkjernen, og Bohr hadde plassert elektronene i skall. Hva viser denne utviklingen om hvordan naturvitenskapelig kunnskap og modeller kan endres?",
+        "fasit": "Utviklingen viser at modeller kan endres når nye data og oppdagelser gir bedre forklaringer. De nye atommodellene forklarte mer enn de tidligere modellene.",
+        "kriterier": [
+          "Knytter endringene i atommodellen til nye data eller oppdagelser.",
+          "Får fram at nyere modeller kan forklare mer enn tidligere modeller."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et forsøk kan danne giftig gass. Nevn et viktig tiltak for å beskytte deg mens forsøket pågår, og forklar hvorfor tiltaket er relevant.",
+        "fasit": "Forsøket bør utføres i et avtrekksskap, som brukes ved giftige gasser. Vernebriller og frakk er også viktige vernetiltak.",
+        "kriterier": [
+          "Nevner avtrekksskap som et relevant tiltak ved giftig gass.",
+          "Forklarer at avtrekksskapet brukes for å beskytte mot gassen, eller nevner relevant personlig verneutstyr."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En annen gruppe skal kunne gjenta forsøket ditt, men oppskriften din sier bare hva du undersøkte. Hvilke opplysninger bør du legge til, og hva bør du gjøre med usikkerhet og feilkilder?",
+        "fasit": "Jeg bør beskrive utstyret, målingene og framgangsmåten tydelig, slik at andre kan gjenta forsøket. Jeg bør også presentere og drøfte usikkerhet og mulige feilkilder.",
+        "kriterier": [
+          "Nevner detaljer om metode, utstyr, målinger eller framgangsmåte som gjør forsøket mulig å gjenta.",
+          "Får fram at usikkerhet eller feilkilder bør vurderes eller drøftes."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

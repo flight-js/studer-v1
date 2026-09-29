@@ -4,82 +4,440 @@
   "trinnId": "8",
   "name": "Befolkning, bosetting og levekår",
   "intro": "Hvordan politiske, geografiske og historiske forhold påvirker hvor folk bor, hvordan befolkningen utvikler seg, og hvilke levekår mennesker har i ulike deler av verden.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Demografi\n\n**Demografi** er læren om befolkningen: hvor mange vi er, hvor gamle vi er, og hvordan fødsler, dødsfall og flytting endrer befolkningen. Verdens befolkning passerte **8 milliarder** i 2022. Befolkningsveksten i et land er antall fødte minus antall døde, pluss innvandring minus utvandring.\n\nViktige mål er **fruktbarhetstallet** (hvor mange barn hver kvinne i gjennomsnitt får) og **forventet levealder**. For at befolkningen skal holde seg stabil uten innvandring, må fruktbarhetstallet være rundt 2,1. I Norge er det godt under dette.\n\n## Den demografiske overgangen\n\nModellen beskriver hvordan befolkningen endrer seg når et land utvikler seg:\n\n- **Fase 1**: Både fødselsraten og dødsraten er høye, og befolkningen vokser lite.\n- **Fase 2**: Dødsraten synker takket være bedre mat, rent vann og medisin. Befolkningen vokser raskt.\n- **Fase 3**: Fødselsraten synker fordi flere flytter til byer, kvinner får utdanning og prevensjon blir vanlig.\n- **Fase 4**: Begge ratene er lave, og veksten er liten.\n\nEn **befolkningspyramide** viser alderssammensetningen. Bred bunn betyr mange barn og unge, som i Niger. Smal bunn og bred topp betyr en aldrende befolkning, som i Japan og Italia.\n\n## Bosetting\n\n**Bosettingsmønsteret** viser hvor folk bor. De fleste bor i lavland nær kyster og elver, der det er vann, godt klima og matjord. Få bor i ørkener, polarområder og høyfjell. Over halvparten av verdens befolkning bor nå i byer. Denne **urbaniseringen** skjer raskest i Afrika og Asia. I Norge snakker vi om **sentralisering**: Mange flytter fra distriktene til byer og tettsteder.\n\n## Levekår\n\n**Levekår** er de materielle og sosiale forholdene folk lever under: inntekt, bolig, helse, utdanning, arbeid og trygghet. FN måler utvikling med **HDI** (indeksen for menneskelig utvikling), som kombinerer levealder, utdanning og inntekt. Norge ligger helt i toppen, mens flere land sør for Sahara ligger nederst.\n\n## Hva forklarer forskjellene?\n\n- **Geografiske forhold**: klima, naturressurser, tørke og flom, tilgang til havet.\n- **Politiske forhold**: stabilitet eller krig, korrupsjon, velferdsordninger og likestilling. Kinas **ettbarnspolitikk** (1980–2015) er et eksempel på politikk som endret demografien.\n- **Historiske forhold**: Kolonitiden trakk grenser og bygde opp økonomier basert på eksport av råvarer, noe som fortsatt preger mange land.\n\n**Migrasjon** påvirkes av **skyvefaktorer**, som krig, fattigdom og naturkatastrofer, og **trekkfaktorer**, som arbeid, trygghet og familie i et annet land.",
   "flashcards": [
-    { "term": "Demografi", "def": "Læren om befolkningen: størrelse, alder, fødsler, dødsfall og flytting." },
-    { "term": "Befolkningsvekst", "def": "Fødte minus døde, pluss innvandring minus utvandring." },
-    { "term": "Fruktbarhetstall", "def": "Hvor mange barn hver kvinne i gjennomsnitt får." },
-    { "term": "Forventet levealder", "def": "Hvor mange år en nyfødt i gjennomsnitt kan forvente å leve." },
-    { "term": "Demografisk overgang", "def": "Modell for hvordan fødsels- og dødsrater endres når et land utvikler seg." },
-    { "term": "Fase 2 i overgangen", "def": "Dødsraten synker mens fødselsraten er høy, og befolkningen vokser raskt." },
-    { "term": "Befolkningspyramide", "def": "Diagram som viser hvor mange som er i hver aldersgruppe, fordelt på kjønn." },
-    { "term": "Bosettingsmønster", "def": "Hvordan befolkningen er fordelt i et område." },
-    { "term": "Urbanisering", "def": "At en økende andel av befolkningen bor i byer." },
-    { "term": "Sentralisering", "def": "Flytting fra distriktene til byer og tettsteder." },
-    { "term": "Levekår", "def": "Materielle og sosiale forhold som inntekt, bolig, helse og utdanning." },
-    { "term": "HDI", "def": "FNs indeks for menneskelig utvikling: levealder, utdanning og inntekt." },
-    { "term": "Skyvefaktor", "def": "Noe som får folk til å flytte fra et sted, som krig eller fattigdom." },
-    { "term": "Trekkfaktor", "def": "Noe som trekker folk til et sted, som arbeid eller trygghet." },
-    { "term": "Ettbarnspolitikken", "def": "Kinesisk politikk fra 1980 til 2015 som begrenset antall barn per familie." }
+    {
+      "term": "Demografi",
+      "def": "Læren om befolkningen: størrelse, alder, fødsler, dødsfall og flytting."
+    },
+    {
+      "term": "Befolkningsvekst",
+      "def": "Fødte minus døde, pluss innvandring minus utvandring."
+    },
+    {
+      "term": "Fruktbarhetstall",
+      "def": "Hvor mange barn hver kvinne i gjennomsnitt får."
+    },
+    {
+      "term": "Forventet levealder",
+      "def": "Hvor mange år en nyfødt i gjennomsnitt kan forvente å leve."
+    },
+    {
+      "term": "Demografisk overgang",
+      "def": "Modell for hvordan fødsels- og dødsrater endres når et land utvikler seg."
+    },
+    {
+      "term": "Fase 2 i overgangen",
+      "def": "Dødsraten synker mens fødselsraten er høy, og befolkningen vokser raskt."
+    },
+    {
+      "term": "Befolkningspyramide",
+      "def": "Diagram som viser hvor mange som er i hver aldersgruppe, fordelt på kjønn."
+    },
+    {
+      "term": "Bosettingsmønster",
+      "def": "Hvordan befolkningen er fordelt i et område."
+    },
+    {
+      "term": "Urbanisering",
+      "def": "At en økende andel av befolkningen bor i byer."
+    },
+    {
+      "term": "Sentralisering",
+      "def": "Flytting fra distriktene til byer og tettsteder."
+    },
+    {
+      "term": "Levekår",
+      "def": "Materielle og sosiale forhold som inntekt, bolig, helse og utdanning."
+    },
+    {
+      "term": "HDI",
+      "def": "FNs indeks for menneskelig utvikling: levealder, utdanning og inntekt."
+    },
+    {
+      "term": "Skyvefaktor",
+      "def": "Noe som får folk til å flytte fra et sted, som krig eller fattigdom."
+    },
+    {
+      "term": "Trekkfaktor",
+      "def": "Noe som trekker folk til et sted, som arbeid eller trygghet."
+    },
+    {
+      "term": "Ettbarnspolitikken",
+      "def": "Kinesisk politikk fra 1980 til 2015 som begrenset antall barn per familie."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er demografi?", "options": ["Læren om befolkningen", "Læren om fjell og elver", "Læren om demokrati", "Læren om økonomi"], "correct": 0, "explain": "Demografi handler om befolkningens størrelse, sammensetning og endring." },
-    { "id": "q02", "text": "Hva skjer i fase 2 i den demografiske overgangen?", "options": ["Både fødselsraten og dødsraten er høye", "Dødsraten synker, og befolkningen vokser raskt", "Fødselsraten synker kraftig", "Befolkningen går ned"], "correct": 1, "explain": "Bedre mat, rent vann og medisin gjør at færre dør, mens det fortsatt fødes mange." },
-    { "id": "q03", "text": "Hva viser en befolkningspyramide med bred bunn?", "options": ["En aldrende befolkning", "At mange flytter ut", "En befolkning med mange barn og unge", "At levealderen er høy"], "correct": 2, "explain": "Bred bunn betyr at det fødes mange barn." },
-    { "id": "q04", "text": "Hvorfor bor få mennesker i Sahara?", "options": ["Fordi det er forbudt", "Fordi det er for mange byer der", "Fordi det er for kaldt", "Fordi det er tørt og lite vann"], "correct": 3, "explain": "Tilgang på vann er en av de viktigste forutsetningene for bosetting." },
-    { "id": "q05", "text": "Hva er urbanisering?", "options": ["At en økende andel bor i byer", "At byer blir mindre", "At skogen vokser", "At folk flytter til fjells"], "correct": 0, "explain": "Over halvparten av verdens befolkning bor nå i byer." },
-    { "id": "q06", "text": "Hva måler HDI?", "options": ["Bare inntekt", "Levealder, utdanning og inntekt", "Antall byer i et land", "Hvor mange som stemmer ved valg"], "correct": 1, "explain": "HDI gir et bredere bilde av utvikling enn inntekt alene." },
-    { "id": "q07", "text": "Hvorfor synker fødselsraten når et land utvikler seg?", "options": ["Fordi det blir færre sykehus", "Fordi alle flytter ut", "Fordi kvinner får mer utdanning og tilgang til prevensjon", "Fordi dødsraten øker"], "correct": 2, "explain": "Utdanning, arbeid og byliv gjør at mange velger å få færre barn." },
-    { "id": "q08", "text": "Hva er et eksempel på en skyvefaktor for migrasjon?", "options": ["Godt betalt arbeid i et annet land", "Gode skoler i et annet land", "Familie som bor i et annet land", "Krig i hjemlandet"], "correct": 3, "explain": "Skyvefaktorer får folk til å forlate et sted." },
-    { "id": "q09", "text": "Hvordan kan historiske forhold påvirke levekår i dag?", "options": ["Kolonitiden kan ha gitt økonomier som bygger på eksport av råvarer", "Historie påvirker aldri levekår", "Bare klimaet betyr noe", "Gamle kriger har ingen betydning"], "correct": 0, "explain": "Grenser og økonomiske strukturer fra kolonitiden preger fortsatt mange land." },
-    { "id": "q10", "text": "Hva er sentralisering i Norge?", "options": ["At folk flytter fra byer til bygder", "At folk flytter fra distriktene til byer og tettsteder", "At Oslo blir mindre", "At alle kommuner slås sammen"], "correct": 1, "explain": "Mange flytter dit arbeidsplassene og utdanningstilbudene er." }
+    {
+      "id": "q01",
+      "text": "Hva er demografi?",
+      "options": [
+        "Læren om befolkningen",
+        "Læren om fjell og elver",
+        "Læren om demokrati",
+        "Læren om økonomi"
+      ],
+      "correct": 0,
+      "explain": "Demografi handler om befolkningens størrelse, sammensetning og endring."
+    },
+    {
+      "id": "q02",
+      "text": "Hva skjer i fase 2 i den demografiske overgangen?",
+      "options": [
+        "Både fødselsraten og dødsraten er høye",
+        "Dødsraten synker, og befolkningen vokser raskt",
+        "Fødselsraten synker kraftig",
+        "Befolkningen går ned"
+      ],
+      "correct": 1,
+      "explain": "Bedre mat, rent vann og medisin gjør at færre dør, mens det fortsatt fødes mange."
+    },
+    {
+      "id": "q03",
+      "text": "Hva viser en befolkningspyramide med bred bunn?",
+      "options": [
+        "En aldrende befolkning",
+        "At mange flytter ut",
+        "En befolkning med mange barn og unge",
+        "At levealderen er høy"
+      ],
+      "correct": 2,
+      "explain": "Bred bunn betyr at det fødes mange barn."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor bor få mennesker i Sahara?",
+      "options": [
+        "Fordi det er forbudt",
+        "Fordi det er for mange byer der",
+        "Fordi det er for kaldt",
+        "Fordi det er tørt og lite vann"
+      ],
+      "correct": 3,
+      "explain": "Tilgang på vann er en av de viktigste forutsetningene for bosetting."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er urbanisering?",
+      "options": [
+        "At en økende andel bor i byer",
+        "At byer blir mindre",
+        "At skogen vokser",
+        "At folk flytter til fjells"
+      ],
+      "correct": 0,
+      "explain": "Over halvparten av verdens befolkning bor nå i byer."
+    },
+    {
+      "id": "q06",
+      "text": "Hva måler HDI?",
+      "options": [
+        "Bare inntekt",
+        "Levealder, utdanning og inntekt",
+        "Antall byer i et land",
+        "Hvor mange som stemmer ved valg"
+      ],
+      "correct": 1,
+      "explain": "HDI gir et bredere bilde av utvikling enn inntekt alene."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor synker fødselsraten når et land utvikler seg?",
+      "options": [
+        "Fordi det blir færre sykehus",
+        "Fordi alle flytter ut",
+        "Fordi kvinner får mer utdanning og tilgang til prevensjon",
+        "Fordi dødsraten øker"
+      ],
+      "correct": 2,
+      "explain": "Utdanning, arbeid og byliv gjør at mange velger å få færre barn."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er et eksempel på en skyvefaktor for migrasjon?",
+      "options": [
+        "Godt betalt arbeid i et annet land",
+        "Gode skoler i et annet land",
+        "Familie som bor i et annet land",
+        "Krig i hjemlandet"
+      ],
+      "correct": 3,
+      "explain": "Skyvefaktorer får folk til å forlate et sted."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan kan historiske forhold påvirke levekår i dag?",
+      "options": [
+        "Kolonitiden kan ha gitt økonomier som bygger på eksport av råvarer",
+        "Historie påvirker aldri levekår",
+        "Bare klimaet betyr noe",
+        "Gamle kriger har ingen betydning"
+      ],
+      "correct": 0,
+      "explain": "Grenser og økonomiske strukturer fra kolonitiden preger fortsatt mange land."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er sentralisering i Norge?",
+      "options": [
+        "At folk flytter fra byer til bygder",
+        "At folk flytter fra distriktene til byer og tettsteder",
+        "At Oslo blir mindre",
+        "At alle kommuner slås sammen"
+      ],
+      "correct": 1,
+      "explain": "Mange flytter dit arbeidsplassene og utdanningstilbudene er."
+    }
   ],
   "mindmap": {
     "label": "Befolkning og levekår",
     "children": [
-      { "label": "Demografi", "children": [
-        { "label": "Fødsler og dødsfall" },
-        { "label": "Inn- og utvandring" },
-        { "label": "Fruktbarhet og levealder" },
-        { "label": "Befolkningspyramider" }
-      ] },
-      { "label": "Demografisk overgang", "children": [
-        { "label": "Fase 1", "note": "Høye rater" },
-        { "label": "Fase 2", "note": "Rask vekst" },
-        { "label": "Fase 3", "note": "Færre fødsler" },
-        { "label": "Fase 4", "note": "Lav vekst" }
-      ] },
-      { "label": "Bosetting", "children": [
-        { "label": "Vann, klima og jord" },
-        { "label": "Urbanisering" },
-        { "label": "Sentralisering" }
-      ] },
-      { "label": "Levekår", "children": [
-        { "label": "Inntekt og bolig" },
-        { "label": "Helse og utdanning" },
-        { "label": "HDI" }
-      ] },
-      { "label": "Forklaringer", "children": [
-        { "label": "Geografi" },
-        { "label": "Politikk" },
-        { "label": "Historie" },
-        { "label": "Migrasjon" }
-      ] }
+      {
+        "label": "Demografi",
+        "children": [
+          {
+            "label": "Fødsler og dødsfall"
+          },
+          {
+            "label": "Inn- og utvandring"
+          },
+          {
+            "label": "Fruktbarhet og levealder"
+          },
+          {
+            "label": "Befolkningspyramider"
+          }
+        ]
+      },
+      {
+        "label": "Demografisk overgang",
+        "children": [
+          {
+            "label": "Fase 1",
+            "note": "Høye rater"
+          },
+          {
+            "label": "Fase 2",
+            "note": "Rask vekst"
+          },
+          {
+            "label": "Fase 3",
+            "note": "Færre fødsler"
+          },
+          {
+            "label": "Fase 4",
+            "note": "Lav vekst"
+          }
+        ]
+      },
+      {
+        "label": "Bosetting",
+        "children": [
+          {
+            "label": "Vann, klima og jord"
+          },
+          {
+            "label": "Urbanisering"
+          },
+          {
+            "label": "Sentralisering"
+          }
+        ]
+      },
+      {
+        "label": "Levekår",
+        "children": [
+          {
+            "label": "Inntekt og bolig"
+          },
+          {
+            "label": "Helse og utdanning"
+          },
+          {
+            "label": "HDI"
+          }
+        ]
+      },
+      {
+        "label": "Forklaringer",
+        "children": [
+          {
+            "label": "Geografi"
+          },
+          {
+            "label": "Politikk"
+          },
+          {
+            "label": "Historie"
+          },
+          {
+            "label": "Migrasjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Verdens befolkning har passert 8 milliarder.", "correct": true, "explain": "Ifølge FN passerte vi 8 milliarder i 2022." },
-      { "id": "m02", "type": "sant-usant", "text": "De fleste mennesker i verden bor i ørken- og fjellområder.", "correct": false, "explain": "De fleste bor i lavland nær kyster og elver." },
-      { "id": "m03", "type": "sant-usant", "text": "Japan har en befolkningspyramide med svært bred bunn.", "correct": false, "explain": "Japan har få fødsler og en aldrende befolkning, så pyramiden er smal nederst." },
-      { "id": "m04", "type": "sant-usant", "text": "Et fruktbarhetstall på rundt 2,1 gir på sikt en stabil befolkning uten innvandring.", "correct": true, "explain": "Hver generasjon erstatter da seg selv." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken er en trekkfaktor?", "options": ["Arbeidsløshet", "Naturkatastrofe", "Gode jobbmuligheter", "Forfølgelse"], "correct": 2, "explain": "Trekkfaktorer gjør et sted attraktivt å flytte til." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er forventet levealder?", "options": ["Hvor mange år en nyfødt i gjennomsnitt kan forvente å leve", "Alderen da man blir pensjonist", "Den høyeste alderen i et land", "Alderen da man får stemmerett"], "correct": 0, "explain": "Forventet levealder er et viktig mål på helse og levekår." },
-      { "id": "m07", "type": "flervalg", "text": "Hva var ettbarnspolitikken?", "options": ["En norsk lov om barnetrygd", "En regel i Kina som begrenset antall barn per familie", "En FN-avtale om barns rettigheter", "En skoleordning i Afrika"], "correct": 1, "explain": "Politikken varte fra 1980 til 2015 og har gitt Kina en raskt aldrende befolkning." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Verdens befolkning har passert 8 milliarder.",
+        "correct": true,
+        "explain": "Ifølge FN passerte vi 8 milliarder i 2022."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "De fleste mennesker i verden bor i ørken- og fjellområder.",
+        "correct": false,
+        "explain": "De fleste bor i lavland nær kyster og elver."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Japan har en befolkningspyramide med svært bred bunn.",
+        "correct": false,
+        "explain": "Japan har få fødsler og en aldrende befolkning, så pyramiden er smal nederst."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Et fruktbarhetstall på rundt 2,1 gir på sikt en stabil befolkning uten innvandring.",
+        "correct": true,
+        "explain": "Hver generasjon erstatter da seg selv."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken er en trekkfaktor?",
+        "options": [
+          "Arbeidsløshet",
+          "Naturkatastrofe",
+          "Gode jobbmuligheter",
+          "Forfølgelse"
+        ],
+        "correct": 2,
+        "explain": "Trekkfaktorer gjør et sted attraktivt å flytte til."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er forventet levealder?",
+        "options": [
+          "Hvor mange år en nyfødt i gjennomsnitt kan forvente å leve",
+          "Alderen da man blir pensjonist",
+          "Den høyeste alderen i et land",
+          "Alderen da man får stemmerett"
+        ],
+        "correct": 0,
+        "explain": "Forventet levealder er et viktig mål på helse og levekår."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva var ettbarnspolitikken?",
+        "options": [
+          "En norsk lov om barnetrygd",
+          "En regel i Kina som begrenset antall barn per familie",
+          "En FN-avtale om barns rettigheter",
+          "En skoleordning i Afrika"
+        ],
+        "correct": 1,
+        "explain": "Politikken varte fra 1980 til 2015 og har gitt Kina en raskt aldrende befolkning."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva forteller fruktbarhetstallet, og hva forteller forventet levealder? Forklar forskjellen på de to målene.",
+        "fasit": "Fruktbarhetstallet viser hvor mange barn hver kvinne får i gjennomsnitt. Forventet levealder viser hvor mange år en nyfødt i gjennomsnitt kan regne med å leve.",
+        "kriterier": [
+          "Forklarer at fruktbarhetstallet handler om antall barn per kvinne i gjennomsnitt.",
+          "Forklarer at forventet levealder handler om hvor lenge en nyfødt i gjennomsnitt kan leve."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign fase 1 og fase 4 i den demografiske overgangen. Hvordan er fødselsraten og dødsraten i hver fase, og hvor mye vokser befolkningen?",
+        "fasit": "I fase 1 er både fødselsraten og dødsraten høye, og befolkningen vokser lite. I fase 4 er begge ratene lave, og befolkningsveksten er også liten.",
+        "kriterier": [
+          "Beskriver at både fødselsraten og dødsraten er høye i fase 1, men lave i fase 4.",
+          "Får fram at befolkningen vokser lite i begge fasene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I et land er det like mange fødte som døde. Samtidig flytter flere mennesker inn i landet enn ut av det. Forklar om befolkningen vokser, minker eller holder seg lik, og hvorfor.",
+        "fasit": "Befolkningen vokser. Når like mange blir født som dør, går ikke folketallet opp eller ned av den grunn, men flere innflyttere enn utflyttere øker folketallet.",
+        "kriterier": [
+          "Konkluderer med at befolkningen vokser.",
+          "Forklarer at innvandringen er større enn utvandringen, mens fødsler og dødsfall går opp i opp."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I et land øker andelen av befolkningen som bor i byer. I Norge flytter mange fra distriktene til byer og tettsteder. Bruk begrepene urbanisering og sentralisering til å forklare hvilken beskrivelse som passer til hvert begrep.",
+        "fasit": "Når en økende andel av befolkningen bor i byer, kalles det urbanisering. Når folk i Norge flytter fra distriktene til byer og tettsteder, kalles det sentralisering.",
+        "kriterier": [
+          "Knytter urbanisering til at en økende andel bor i byer.",
+          "Knytter sentralisering til flytting fra distriktene til byer og tettsteder."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et område består av lavland ved en elv, med vann, godt klima og matjord. Et annet område er høyfjell. Hvilket område er det mest sannsynlig at flest mennesker vil bosette seg i? Begrunn svaret med forhold ved områdene.",
+        "fasit": "Det er mest sannsynlig at flest vil bosette seg i lavlandet ved elven. Der er det tilgang til vann, godt klima og matjord, mens få mennesker bor i høyfjell.",
+        "kriterier": [
+          "Velger lavlandet ved elven som området det mest sannsynlig bor flest i.",
+          "Begrunner valget med relevante forhold, som tilgang til vann, godt klima eller matjord."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En oversikt viser at inntekten i et område har økt, men at helse og utdanning har blitt dårligere. Forklar hvorfor inntekt alene ikke gir et fullstendig bilde av levekårene der.",
+        "fasit": "Levekår handler om flere materielle og sosiale forhold, ikke bare inntekt. Helse og utdanning er også viktige, så dårligere forhold på disse områdene påvirker levekårene selv om inntekten har økt.",
+        "kriterier": [
+          "Får fram at levekår omfatter flere forhold enn inntekt.",
+          "Bruker helse og utdanning som relevante sider ved levekårene i situasjonen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En person flytter fra et sted på grunn av krig og reiser til et annet land der personen har familie og mulighet for arbeid. Forklar hva som er en skyvefaktor og hva som er en trekkfaktor i situasjonen.",
+        "fasit": "Krigen er en skyvefaktor fordi den får personen til å flytte fra stedet. Familie og mulighet for arbeid er trekkfaktorer fordi de trekker personen til det nye landet.",
+        "kriterier": [
+          "Forklarer at krigen er en skyvefaktor som får personen til å flytte fra stedet.",
+          "Forklarer at familie eller arbeid er en trekkfaktor som trekker personen til det nye landet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Kinas ettbarnspolitikk begrenset hvor mange barn hver familie kunne få. Forklar hvordan en slik politikk kan påvirke antallet fødsler og befolkningsveksten.",
+        "fasit": "Når familier får færre barn, kan antallet fødsler bli lavere. Siden fødsler påvirker befolkningsveksten, kan en slik politikk endre hvordan befolkningen utvikler seg.",
+        "kriterier": [
+          "Forklarer at begrensningen kan føre til færre barn eller færre fødsler.",
+          "Knytter færre fødsler til en endring i befolkningsveksten eller befolkningens utvikling."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

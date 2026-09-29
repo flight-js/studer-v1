@@ -348,6 +348,80 @@
         "correct": 1,
         "explain": "Sensible is a false friend."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "English and Norwegian share words such as “sky” and “window”. Explain how Viking contact helped create this connection between the languages.",
+        "fasit": "Vikings from Scandinavia brought Old Norse words into English when they raided and settled in England. Some of these words are also familiar in Norwegian, which helps explain why the languages have words in common.",
+        "kriterier": [
+          "Explains that Vikings brought Old Norse words into English.",
+          "Connects the shared vocabulary to the languages’ Scandinavian/Germanic history or gives a relevant example."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Old English came from the Anglo-Saxons. Middle English was used from about 1100 to 1500, after the Norman Conquest brought French influence to England. Compare the sources of vocabulary in these two periods.",
+        "fasit": "Old English came from the Germanic language of the Anglo-Saxons. Middle English kept English words but gained many French words, especially in areas such as law, government and food.",
+        "kriterier": [
+          "Identifies the Anglo-Saxons or Germanic languages as the source of Old English.",
+          "Explains that French added many words to Middle English and identifies a relevant area of vocabulary."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "William Caxton brought the printing press to England in 1476. Explain how printing helped English become more standardised.",
+        "fasit": "Printing made it possible to produce and share many copies of written material. This helped make spelling more consistent across written English.",
+        "kriterier": [
+          "Connects printing with the production or wider spread of written material.",
+          "Explains that this helped standardise spelling."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Compare the roles of William Caxton and the King James Bible in shaping written English.",
+        "fasit": "Caxton brought the printing press to England, which helped standardise spelling. The King James Bible helped spread a common written language.",
+        "kriterier": [
+          "Explains Caxton’s connection to printing and spelling standardisation.",
+          "Explains the Bible’s role in spreading a common written language."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "In Kachru’s model, English is an official or second language in a country, often because of its colonial history. Which circle does this country belong to, and why?",
+        "fasit": "It belongs to the outer circle. In this circle, English is an official or second language, often because of colonial history.",
+        "kriterier": [
+          "Identifies the outer circle.",
+          "Explains that English is an official or second language there, often due to colonial history."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Indian English, Nigerian English and Scottish English have their own vocabulary or pronunciation. Explain what these examples show about English around the world.",
+        "fasit": "They show that English has different varieties around the world. There is not just one correct form of English; varieties can have their own vocabulary and pronunciation.",
+        "kriterier": [
+          "Explains that English has multiple varieties around the world.",
+          "Connects the varieties to differences such as vocabulary or pronunciation, rather than treating one as the only correct English."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "A Norwegian learner reads “I am sensible” and thinks that “sensible” means “sensitiv”. Explain the mistake and give the correct meaning of “sensible”.",
+        "fasit": "“Sensible” is a false friend here: it does not mean “sensitiv”. It means “fornuftig”.",
+        "kriterier": [
+          "Identifies the words as a false friend or explains that they look similar but have different meanings.",
+          "Gives the correct meaning of “sensible”: “fornuftig”."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Explain how the British Empire and the USA helped English become a global language. Include one way English is used internationally today.",
+        "fasit": "The British Empire spread English to many parts of the world. After the Second World War, the USA became a leading economic, political and cultural power, and English is now used internationally in areas such as science, business or aviation.",
+        "kriterier": [
+          "Explains that the British Empire spread English to different regions.",
+          "Connects the USA’s global influence after the Second World War or an international field of English use to English’s global role."
+        ]
+      }
     ]
   },
   "kvalitet": {

@@ -344,6 +344,80 @@
         "correct": 2,
         "explain": "Samtidig kan du spørre hva teksten sier oss i dag."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Kulturhistorisk kontekst handler om tiden, samfunnet og ideene rundt en tekst. Norge var i union med Danmark fra 1380 til 1814, og dansk var skriftspråket. Forklar hvordan denne konteksten kan prege en norsk tekst fra perioden.",
+        "fasit": "Unionen med Danmark gjorde at dansk var skriftspråket i Norge. Derfor må vi ta hensyn til at en norsk tekst fra perioden kan være skrevet på dansk, og forstå den i lys av forholdet mellom Norge og Danmark.",
+        "kriterier": [
+          "Knytter unionen til at dansk var skriftspråket.",
+          "Forklarer hvordan dette påvirker forståelsen av en norsk tekst fra perioden."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Boktrykkerkunsten og reformasjonen gjorde at flere fikk tilgang til Bibelen og religiøse tekster på morsmålet. Forklar hvordan disse endringene bidro til dette.",
+        "fasit": "Boktrykkerkunsten gjorde det mulig å spre bøker til flere. Reformasjonen gjorde Danmark-Norge luthersk, og religiøse tekster på morsmålet ble mer tilgjengelige.",
+        "kriterier": [
+          "Forklarer at boktrykkerkunsten bidro til større spredning av tekster.",
+          "Knytter reformasjonen til tilgang på religiøse tekster på morsmålet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign renessansen og humanismen: Hva kjennetegner hver av dem, og hvordan henger de sammen?",
+        "fasit": "Renessansen var en gjenfødelse av interessen for antikkens kunst og tenkning. Humanismen satte mennesket i sentrum og var en viktig måte å tenke på i denne perioden.",
+        "kriterier": [
+          "Forklarer renessansen som fornyet interesse for antikken.",
+          "Forklarer at humanismen setter mennesket i sentrum."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Peder Claussøn Friis oversatte Snorres kongesagaer til dansk. Bruk dette som eksempel på hvordan en oversettelse kan gjøre eldre tekster kjent for flere.",
+        "fasit": "Da Friis oversatte kongesagaene til dansk, kunne flere lese dem. Oversettelsen bidro dermed til at Snorres sagaer ble kjent for mange.",
+        "kriterier": [
+          "Får fram at Friis oversatte Snorres kongesagaer til dansk.",
+          "Forklarer at oversettelsen gjorde sagaene tilgjengelige eller kjente for flere."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hva betyr «forgjengelighet», og hvordan henger dette begrepet sammen med religiøse tekster fra barokken?",
+        "fasit": "Forgjengelighet betyr at alt jordisk tar slutt. I barokken sto religionen sterkt, og religiøse tekster kunne minne leserne om at livet på jorda ikke varer evig.",
+        "kriterier": [
+          "Forklarer at forgjengelighet handler om at alt jordisk tar slutt.",
+          "Knytter tanken til religiøse teksters påminnelse om livets forgjengelighet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign Petter Dass og Dorothe Engelbretsdatter som forfattere. Hva skrev de, og hva slags stoff finner vi i tekstene deres?",
+        "fasit": "Petter Dass skrev blant annet Nordlands Trompet, som skildrer natur, næringsliv og folk i Nord-Norge, og han skrev også salmer. Dorothe Engelbretsdatter skrev religiøse dikt og salmer.",
+        "kriterier": [
+          "Knytter Petter Dass til Nordlands Trompet og skildringer av Nord-Norge, eller til salmene hans.",
+          "Knytter Dorothe Engelbretsdatter til religiøse dikt eller salmer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I Erasmus Montanus kommer studenten Rasmus Berg hjem fra universitetet og insisterer på at jorda er rund. Hvilke to problemer ved kunnskap eller mangel på kunnskap kritiserer stykket?",
+        "fasit": "Stykket kritiserer både overlegen lærdom og uvitenhet. Konflikten viser at det å være lærd ikke nødvendigvis gjør en person klok eller ydmyk.",
+        "kriterier": [
+          "Nevner kritikk av overlegen lærdom eller arroganse.",
+          "Nevner kritikk av uvitenhet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Opplysningstiden la vekt på fornuft, kunnskap og kritisk tenkning. Forklar hvorfor disse ideene kunne gi håp om et bedre samfunn, og nevn to idealer fra perioden som ble viktige for politiske endringer.",
+        "fasit": "Man mente at mennesker kunne bruke kunnskap og kritisk tenkning til å forbedre seg selv og samfunnet. Toleranse og ytringsfrihet var blant idealene som ble viktige for revolusjonene og Grunnloven i 1814.",
+        "kriterier": [
+          "Forklarer at kunnskap og kritisk tenkning ble sett som veier til forbedring av samfunnet.",
+          "Nevner to idealer fra opplysningstiden og knytter dem til politiske endringer."
+        ]
+      }
     ]
   },
   "kvalitet": {

@@ -4,80 +4,431 @@
   "trinnId": "vg2",
   "name": "Nettsider med HTML og CSS",
   "intro": "Hvordan du bygger nettsider med markeringsspråket HTML – struktur, elementer, attributter, lenker, bilder, lister og tabeller – og styler dem med CSS: selektorer, boksmodellen, klasser, flexbox og responsiv design.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## HTML – innhold og struktur\n\n**HTML** (HyperText Markup Language) er et **markeringsspråk**. Det beskriver **hva** innholdet er – en overskrift, et avsnitt, en lenke – ved hjelp av **tagger**:\n\n```\n<!DOCTYPE html>\n<html lang=\"no\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <title>Min side</title>\n    <link rel=\"stylesheet\" href=\"stil.css\">\n  </head>\n  <body>\n    <h1>Velkommen</h1>\n    <p>Dette er et avsnitt.</p>\n  </body>\n</html>\n```\n\n- **head** inneholder informasjon om siden, som tittel, tegnkoding og kobling til CSS.\n- **body** inneholder det som vises.\n\n## Vanlige elementer\n\n- Overskrifter **h1–h6** i riktig **hierarki** – bare én h1 per side.\n- Avsnitt **p**.\n- Lenker: **a** med attributtet **href**.\n- Bilder: **img** med **src** og **alt** – alt-teksten beskriver bildet for dem som ikke ser det.\n- Lister: **ul** (punkter) eller **ol** (nummerert) med **li**.\n- Tabeller: **table**, **tr** (rad), **th** (overskriftscelle) og **td** (celle).\n- **Semantiske** elementer: **header**, **nav**, **main**, **section**, **article** og **footer** forteller hva de ulike delene av siden er. Det hjelper skjermlesere og søkemotorer.\n\nEt **attributt** gir ekstra informasjon til et element, for eksempel href, src, alt, class og id.\n\n## CSS – utseende\n\n**CSS** (Cascading Style Sheets) bestemmer **hvordan** innholdet ser ut. En regel består av en **selektor** og **deklarasjoner**:\n\n```\nh1 {\n  color: #1a4d8f;\n  font-family: Arial, sans-serif;\n}\n.viktig {\n  background-color: #ffe9a8;\n}\n```\n\n- **Elementselektor**: h1 treffer alle h1-elementer.\n- **Klasseselektor**: .viktig treffer alle elementer med class=\"viktig\". Klasser kan brukes mange ganger.\n- **ID-selektor**: #meny treffer ett unikt element.\n\n**Kaskade** betyr at flere regler kan treffe samme element, og at den mest **spesifikke** – eller den som kommer **sist** – vinner.\n\n## Boksmodellen\n\nHvert element er en boks med\n\n- **content** – innholdet\n- **padding** – luft **innenfor** kanten\n- **border** – kanten\n- **margin** – luft **utenfor** kanten\n\n## Layout\n\n**Flexbox** gjør det enkelt å plassere elementer på rad eller i kolonne:\n\n```\nnav {\n  display: flex;\n  gap: 1rem;\n}\n```\n\n**Responsiv design** betyr at siden tilpasser seg ulike skjermstørrelser. Med **media queries** kan du endre stilen på små skjermer:\n\n```\n@media (max-width: 600px) {\n  nav { flex-direction: column; }\n}\n```\n\n## God praksis\n\n- Skill **innhold** (HTML) fra **utseende** (CSS) – legg CSS i en egen fil.\n- Bruk **semantiske** elementer og riktig overskriftshierarki.\n- **Valider** koden, for eksempel med W3Cs validator, og test i flere nettlesere og på mobil.\n- Bruk **utviklerverktøyene** i nettleseren (F12) for å finne feil.",
   "flashcards": [
-    { "term": "HTML", "def": "Markeringsspråk som beskriver innhold og struktur." },
-    { "term": "CSS", "def": "Språk som bestemmer utseendet." },
-    { "term": "head", "def": "Informasjon om siden, som tittel og kobling til CSS." },
-    { "term": "body", "def": "Innholdet som vises på siden." },
-    { "term": "a href", "def": "Lenke." },
-    { "term": "img alt", "def": "Alternativ tekst som beskriver bildet." },
-    { "term": "ul, ol og li", "def": "Punktliste, nummerert liste og listeelement." },
-    { "term": "Semantiske elementer", "def": "header, nav, main, section, article, footer." },
-    { "term": "Attributt", "def": "Ekstra informasjon til et element, som href eller class." },
-    { "term": "Klasseselektor", "def": ".navn – treffer alle elementer med klassen." },
-    { "term": "ID-selektor", "def": "#navn – treffer ett unikt element." },
-    { "term": "Kaskade", "def": "Den mest spesifikke eller siste regelen vinner." },
-    { "term": "Boksmodellen", "def": "Content, padding, border og margin." },
-    { "term": "Flexbox", "def": "display: flex – plasserer elementer på rad eller i kolonne." },
-    { "term": "Media query", "def": "CSS-regel som gjelder for bestemte skjermstørrelser." },
-    { "term": "Responsiv design", "def": "Siden tilpasser seg ulike skjermer." }
+    {
+      "term": "HTML",
+      "def": "Markeringsspråk som beskriver innhold og struktur."
+    },
+    {
+      "term": "CSS",
+      "def": "Språk som bestemmer utseendet."
+    },
+    {
+      "term": "head",
+      "def": "Informasjon om siden, som tittel og kobling til CSS."
+    },
+    {
+      "term": "body",
+      "def": "Innholdet som vises på siden."
+    },
+    {
+      "term": "a href",
+      "def": "Lenke."
+    },
+    {
+      "term": "img alt",
+      "def": "Alternativ tekst som beskriver bildet."
+    },
+    {
+      "term": "ul, ol og li",
+      "def": "Punktliste, nummerert liste og listeelement."
+    },
+    {
+      "term": "Semantiske elementer",
+      "def": "header, nav, main, section, article, footer."
+    },
+    {
+      "term": "Attributt",
+      "def": "Ekstra informasjon til et element, som href eller class."
+    },
+    {
+      "term": "Klasseselektor",
+      "def": ".navn – treffer alle elementer med klassen."
+    },
+    {
+      "term": "ID-selektor",
+      "def": "#navn – treffer ett unikt element."
+    },
+    {
+      "term": "Kaskade",
+      "def": "Den mest spesifikke eller siste regelen vinner."
+    },
+    {
+      "term": "Boksmodellen",
+      "def": "Content, padding, border og margin."
+    },
+    {
+      "term": "Flexbox",
+      "def": "display: flex – plasserer elementer på rad eller i kolonne."
+    },
+    {
+      "term": "Media query",
+      "def": "CSS-regel som gjelder for bestemte skjermstørrelser."
+    },
+    {
+      "term": "Responsiv design",
+      "def": "Siden tilpasser seg ulike skjermer."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er HTML?", "options": ["Et programmeringsspråk for spill", "Et markeringsspråk som beskriver innhold og struktur", "Et stilspråk for farger", "En database"], "correct": 1, "explain": "CSS tar seg av utseendet." },
-    { "id": "q02", "text": "Hvilket attributt beskriver et bilde for dem som ikke ser det?", "options": ["alt", "src", "href", "class"], "correct": 0, "explain": "Viktig for skjermlesere." },
-    { "id": "q03", "text": "Hva treffer selektoren .viktig i CSS?", "options": ["Elementet med id viktig", "Alle p-elementer", "Alle elementer med class=\"viktig\"", "Bare det første elementet"], "correct": 2, "explain": "Punktum betyr klasse." },
-    { "id": "q04", "text": "Hva er padding i boksmodellen?", "options": ["Luft utenfor kanten", "Kanten rundt elementet", "Innholdet", "Luft innenfor kanten"], "correct": 3, "explain": "Margin er luft utenfor kanten." },
-    { "id": "q05", "text": "Hvilket element lager en lenke?", "options": ["a", "link", "img", "p"], "correct": 0, "explain": "Med attributtet href." },
-    { "id": "q06", "text": "Hva brukes media queries til?", "options": ["Hente data fra databaser", "Tilpasse stilen til ulike skjermstørrelser", "Legge inn video", "Lage lenker"], "correct": 1, "explain": "Responsiv design." },
-    { "id": "q07", "text": "Hvorfor bør du bruke semantiske elementer som nav og main?", "options": ["De gir penere farger", "De gjør siden raskere", "De forteller hva delene er, og hjelper skjermlesere og søkemotorer", "De er påbudt i CSS"], "correct": 2, "explain": "Struktur med mening." },
-    { "id": "q08", "text": "Hva gjør display: flex?", "options": ["Skjuler elementet", "Gjør teksten fet", "Legger inn et bilde", "Plasserer barneelementene på rad eller i kolonne"], "correct": 3, "explain": "Flexbox-layout." },
-    { "id": "q09", "text": "Hvor hører koblingen til CSS-filen hjemme?", "options": ["I head", "I body", "I footer", "I en tabell"], "correct": 0, "explain": "Med link rel=\"stylesheet\"." },
-    { "id": "q10", "text": "Hvor mange h1-overskrifter bør en side vanligvis ha?", "options": ["Ingen", "Én", "Minst fem", "Like mange som avsnitt"], "correct": 1, "explain": "Et riktig hierarki gjør siden lettere å forstå." }
+    {
+      "id": "q01",
+      "text": "Hva er HTML?",
+      "options": [
+        "Et programmeringsspråk for spill",
+        "Et markeringsspråk som beskriver innhold og struktur",
+        "Et stilspråk for farger",
+        "En database"
+      ],
+      "correct": 1,
+      "explain": "CSS tar seg av utseendet."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket attributt beskriver et bilde for dem som ikke ser det?",
+      "options": [
+        "alt",
+        "src",
+        "href",
+        "class"
+      ],
+      "correct": 0,
+      "explain": "Viktig for skjermlesere."
+    },
+    {
+      "id": "q03",
+      "text": "Hva treffer selektoren .viktig i CSS?",
+      "options": [
+        "Elementet med id viktig",
+        "Alle p-elementer",
+        "Alle elementer med class=\"viktig\"",
+        "Bare det første elementet"
+      ],
+      "correct": 2,
+      "explain": "Punktum betyr klasse."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er padding i boksmodellen?",
+      "options": [
+        "Luft utenfor kanten",
+        "Kanten rundt elementet",
+        "Innholdet",
+        "Luft innenfor kanten"
+      ],
+      "correct": 3,
+      "explain": "Margin er luft utenfor kanten."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket element lager en lenke?",
+      "options": [
+        "a",
+        "link",
+        "img",
+        "p"
+      ],
+      "correct": 0,
+      "explain": "Med attributtet href."
+    },
+    {
+      "id": "q06",
+      "text": "Hva brukes media queries til?",
+      "options": [
+        "Hente data fra databaser",
+        "Tilpasse stilen til ulike skjermstørrelser",
+        "Legge inn video",
+        "Lage lenker"
+      ],
+      "correct": 1,
+      "explain": "Responsiv design."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor bør du bruke semantiske elementer som nav og main?",
+      "options": [
+        "De gir penere farger",
+        "De gjør siden raskere",
+        "De forteller hva delene er, og hjelper skjermlesere og søkemotorer",
+        "De er påbudt i CSS"
+      ],
+      "correct": 2,
+      "explain": "Struktur med mening."
+    },
+    {
+      "id": "q08",
+      "text": "Hva gjør display: flex?",
+      "options": [
+        "Skjuler elementet",
+        "Gjør teksten fet",
+        "Legger inn et bilde",
+        "Plasserer barneelementene på rad eller i kolonne"
+      ],
+      "correct": 3,
+      "explain": "Flexbox-layout."
+    },
+    {
+      "id": "q09",
+      "text": "Hvor hører koblingen til CSS-filen hjemme?",
+      "options": [
+        "I head",
+        "I body",
+        "I footer",
+        "I en tabell"
+      ],
+      "correct": 0,
+      "explain": "Med link rel=\"stylesheet\"."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor mange h1-overskrifter bør en side vanligvis ha?",
+      "options": [
+        "Ingen",
+        "Én",
+        "Minst fem",
+        "Like mange som avsnitt"
+      ],
+      "correct": 1,
+      "explain": "Et riktig hierarki gjør siden lettere å forstå."
+    }
   ],
   "mindmap": {
     "label": "HTML og CSS",
     "children": [
-      { "label": "HTML-struktur", "children": [
-        { "label": "head og body" },
-        { "label": "Tagger og attributter" }
-      ] },
-      { "label": "Elementer", "children": [
-        { "label": "Overskrifter og avsnitt" },
-        { "label": "Lenker og bilder" },
-        { "label": "Lister og tabeller" },
-        { "label": "Semantiske" }
-      ] },
-      { "label": "CSS", "children": [
-        { "label": "Selektorer" },
-        { "label": "Klasse og id" },
-        { "label": "Kaskade" }
-      ] },
-      { "label": "Layout", "children": [
-        { "label": "Boksmodellen" },
-        { "label": "Flexbox" },
-        { "label": "Media queries" }
-      ] },
-      { "label": "God praksis", "children": [
-        { "label": "Skill innhold og stil" },
-        { "label": "Validering" },
-        { "label": "Utviklerverktøy" }
-      ] }
+      {
+        "label": "HTML-struktur",
+        "children": [
+          {
+            "label": "head og body"
+          },
+          {
+            "label": "Tagger og attributter"
+          }
+        ]
+      },
+      {
+        "label": "Elementer",
+        "children": [
+          {
+            "label": "Overskrifter og avsnitt"
+          },
+          {
+            "label": "Lenker og bilder"
+          },
+          {
+            "label": "Lister og tabeller"
+          },
+          {
+            "label": "Semantiske"
+          }
+        ]
+      },
+      {
+        "label": "CSS",
+        "children": [
+          {
+            "label": "Selektorer"
+          },
+          {
+            "label": "Klasse og id"
+          },
+          {
+            "label": "Kaskade"
+          }
+        ]
+      },
+      {
+        "label": "Layout",
+        "children": [
+          {
+            "label": "Boksmodellen"
+          },
+          {
+            "label": "Flexbox"
+          },
+          {
+            "label": "Media queries"
+          }
+        ]
+      },
+      {
+        "label": "God praksis",
+        "children": [
+          {
+            "label": "Skill innhold og stil"
+          },
+          {
+            "label": "Validering"
+          },
+          {
+            "label": "Utviklerverktøy"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En klasse kan brukes på mange elementer, mens en id skal være unik.", "correct": true, "explain": "Derfor brukes klasser til gjenbruk." },
-      { "id": "m02", "type": "sant-usant", "text": "CSS beskriver hvilket innhold en side har.", "correct": false, "explain": "HTML beskriver innholdet, CSS utseendet." },
-      { "id": "m03", "type": "sant-usant", "text": "Margin er luft utenfor kanten av et element.", "correct": true, "explain": "Padding er luft innenfor." },
-      { "id": "m04", "type": "sant-usant", "text": "Det er best å skrive all CSS direkte inne i hvert HTML-element.", "correct": false, "explain": "En egen CSS-fil skiller innhold og utseende." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket element lager en nummerert liste?", "options": ["ul", "ol", "li", "dl"], "correct": 1, "explain": "ol = ordered list." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket element brukes til en overskriftscelle i en tabell?", "options": ["th", "td", "tr", "thead"], "correct": 0, "explain": "td er vanlige celler." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan åpner du utviklerverktøyene i de fleste nettlesere?", "options": ["Ctrl + P", "Alt + F4", "F12", "Ctrl + Z"], "correct": 2, "explain": "Der kan du inspisere HTML og CSS." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En klasse kan brukes på mange elementer, mens en id skal være unik.",
+        "correct": true,
+        "explain": "Derfor brukes klasser til gjenbruk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "CSS beskriver hvilket innhold en side har.",
+        "correct": false,
+        "explain": "HTML beskriver innholdet, CSS utseendet."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Margin er luft utenfor kanten av et element.",
+        "correct": true,
+        "explain": "Padding er luft innenfor."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det er best å skrive all CSS direkte inne i hvert HTML-element.",
+        "correct": false,
+        "explain": "En egen CSS-fil skiller innhold og utseende."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket element lager en nummerert liste?",
+        "options": [
+          "ul",
+          "ol",
+          "li",
+          "dl"
+        ],
+        "correct": 1,
+        "explain": "ol = ordered list."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket element brukes til en overskriftscelle i en tabell?",
+        "options": [
+          "th",
+          "td",
+          "tr",
+          "thead"
+        ],
+        "correct": 0,
+        "explain": "td er vanlige celler."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan åpner du utviklerverktøyene i de fleste nettlesere?",
+        "options": [
+          "Ctrl + P",
+          "Alt + F4",
+          "F12",
+          "Ctrl + Z"
+        ],
+        "correct": 2,
+        "explain": "Der kan du inspisere HTML og CSS."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på en klasseselektor og en ID-selektor i CSS. Ta med hvor mange elementer hver av dem kan treffe.",
+        "fasit": "En klasseselektor, som .kort, kan treffe flere elementer med samme klasse. En ID-selektor, som #meny, treffer ett unikt element.",
+        "kriterier": [
+          "Forklarer at en klasse kan brukes på flere elementer.",
+          "Forklarer at en ID er ment for ett unikt element."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "To CSS-regler treffer samme h1-element. Den første setter teksten til rød, og den andre står lenger ned i CSS-filen og setter teksten til blå. Hvilken farge får teksten, og hvorfor?",
+        "fasit": "Teksten blir blå fordi begge reglene treffer elementet, og når reglene ellers er like, vinner den som kommer sist.",
+        "kriterier": [
+          "Oppgir at teksten blir blå.",
+          "Forklarer at den siste av de like spesifikke reglene vinner."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En navigasjonsmeny ligger på rad på store skjermer. Beskriv hvordan du kan bruke en media query til å vise menyen i kolonne på små skjermer.",
+        "fasit": "Bruk en media query som gjelder ved små skjermstørrelser, og sett flex-retningen til column for menyen. Da tilpasses visningen til den mindre skjermen.",
+        "kriterier": [
+          "Beskriver at media queryen avgrenser regelen til små skjermstørrelser.",
+          "Nevner at flex-retningen endres til kolonne."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En nettside har én hovedoverskrift og flere underoverskrifter under den. Beskriv hvordan du bør bruke h1 og h2 for å vise dette hierarkiet.",
+        "fasit": "Bruk én h1 for sidens hovedoverskrift og h2 for underoverskriftene. Overskriftsnivåene bør følge hierarkiet i innholdet.",
+        "kriterier": [
+          "Plasserer hovedoverskriften på nivå h1 og underoverskriftene på et lavere nivå, som h2.",
+          "Nevner at siden bør ha bare én h1."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Du skal lage en liste med trinn som må utføres i en bestemt rekkefølge. Hvilke HTML-elementer bruker du for listen og for hvert trinn, og hvorfor?",
+        "fasit": "Jeg bruker ol for listen fordi trinnene har en bestemt rekkefølge, og li for hvert trinn.",
+        "kriterier": [
+          "Velger ol fordi rekkefølgen er viktig.",
+          "Nevner li som element for hvert listepunkt."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En HTML-tabell skal ha en rad med overskriftsceller og en rad med vanlige celler. Forklar hvilken rolle tr, th og td har i tabellen.",
+        "fasit": "tr lager en rad. th brukes til overskriftsceller, mens td brukes til vanlige celler.",
+        "kriterier": [
+          "Forklarer at tr lager en rad.",
+          "Skiller mellom th som overskriftscelle og td som vanlig celle."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En nettside har en toppdel med logo, en meny med lenker, en hovedartikkel og en bunntekst. Hvilke semantiske HTML-elementer passer til disse delene?",
+        "fasit": "Bruk header til toppdelen, nav til menyen, article til hovedartikkelen og footer til bunnteksten.",
+        "kriterier": [
+          "Kobler header og nav til henholdsvis toppdelen og menyen.",
+          "Kobler article og footer til henholdsvis artikkelen og bunnteksten."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar forskjellen på padding og margin i boksmodellen, med utgangspunkt i kanten rundt et element.",
+        "fasit": "Padding er luft innenfor kanten, mellom innholdet og kanten. Margin er luft utenfor kanten.",
+        "kriterier": [
+          "Plasserer padding mellom innholdet og kanten.",
+          "Plasserer margin utenfor kanten."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

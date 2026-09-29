@@ -343,6 +343,80 @@
         "correct": 2,
         "explain": "zuótiān = i går."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan 十五 (15) og 二十 (20) viser mønsteret for kinesiske tall.",
+        "fasit": "十五 betyr ti pluss fem. 二十 betyr to tiere, altså tjue.",
+        "kriterier": [
+          "Forklarer at tallet etter 十 viser enerne i 十五.",
+          "Forklarer at 二 foran 十 betyr to tiere i 二十."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Skriv tallet 48 med kinesiske tegn.",
+        "fasit": "四十八",
+        "kriterier": [
+          "Skriver 四十 for førti.",
+          "Legger til 八 for åtte."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign bruken av 二 og 两 når man teller. Bruk 二十 og 两个人 som eksempler.",
+        "fasit": "二 brukes i 二十, der det betyr to tiere. 两 brukes foran et måleord, som i 两个人, «to personer».",
+        "kriterier": [
+          "Forklarer at 两 brukes foran et måleord.",
+          "Skiller denne bruken fra 二 i tall som 二十."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar forskjellen mellom 元 (yuán) og 块 (kuài) når man snakker om penger i Kina.",
+        "fasit": "Renminbi er valutaen i Kina, og 元 er enheten. 块 er den vanlige muntlige måten å si yuan på.",
+        "kriterier": [
+          "Knytter 元 til enheten yuan i renminbi.",
+          "Forklarer at 块 brukes muntlig i stedet for 元."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Klokka er 8.10. Skriv klokkeslettet med kinesiske tegn ved å bruke mønsteret for timer og minutter.",
+        "fasit": "八点十分",
+        "kriterier": [
+          "Skriver 八点 for klokka åtte.",
+          "Skriver 十分 for ti minutter."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I dag er det 星期五. Hvilken ukedag er det i morgen? Svar med kinesiske tegn og forklar kort hvordan du fant svaret.",
+        "fasit": "I morgen er 星期六. Ukedagene følger tallrekkefølgen, så dagen etter 星期五 er 星期六.",
+        "kriterier": [
+          "Oppgir 星期六.",
+          "Viser at ukedagene fra mandag til lørdag følger tallrekkefølgen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Måneder nummereres på kinesisk, og 九 betyr ni. Skriv «september» med kinesiske tegn, og forklar hvordan månedsnavnet er satt sammen.",
+        "fasit": "September er 九月. Det er satt sammen av 九, som betyr ni, og 月, som betyr måned.",
+        "kriterier": [
+          "Skriver 九月.",
+          "Forklarer at måneden dannes med tallet ni og 月."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvorfor 八 regnes som et lykketall, mens 四 ofte unngås i kinesisk kultur.",
+        "fasit": "八 regnes som et lykketall fordi det ligner ordet for å bli rik. 四 unngås ofte fordi det ligner ordet for død.",
+        "kriterier": [
+          "Knytter 八 til likheten med ordet for å bli rik.",
+          "Knytter 四 til likheten med ordet for død."
+        ]
+      }
     ]
   },
   "kvalitet": {

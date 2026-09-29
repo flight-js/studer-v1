@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Å lese fransk litteratur",
   "intro": "Hvordan du leser og tolker autentiske franske tekster – Albert Camus og Den fremmede, Jacques Prévert og hverdagslyrikk, novellesjangeren – nyttige analyseord på fransk og strategier for å lese vanskelige tekster.",
-  "kompetansemaal": [4, 9],
+  "kompetansemaal": [
+    4,
+    9
+  ],
   "sammendrag": "## Albert Camus: «L'Étranger» (1942)\n\n**Albert Camus** (1913–1960) vokste opp i **Algerie** og fikk **Nobelprisen i litteratur** i **1957**. Romanen **L'Étranger** (Den fremmede) begynner med at hovedpersonen **Meursault** får vite at moren er død – og han reagerer nesten ikke. Senere dreper han en mann på en strand i Alger, uten tydelig grunn. I rettssaken blir han dømt like mye for at han **ikke gråt** i morens begravelse som for drapet.\n\nRomanen er knyttet til Camus' tanker om **det absurde**: Livet har ingen gitt mening, men mennesket søker mening likevel. Språket er **enkelt**, med **korte setninger**, og romanen er skrevet i **passé composé** – noe som gir en **nøktern**, nesten likegyldig tone.\n\n## Jacques Prévert og hverdagslyrikk\n\n**Jacques Prévert** skrev dikt med **enkle ord** og **hverdagslige situasjoner**, som mange franske elever lærer utenat. I diktet **«Déjeuner du matin»** (fra samlingen *Paroles*, 1946) skildres en mann som drikker kaffe, røyker og går – **uten å snakke** eller **se** på den andre personen, som til slutt gråter. Diktet bruker **gjentakelser** og **passé composé**, og det usagte sier mye om **ensomhet** og **kjærlighet som tar slutt**.\n\n## Novellen\n\nFranske **noveller** (*la nouvelle*) har ofte **få personer**, en **konsentrert handling** og en **overraskende slutt** (*la chute*). Klassiske novelleforfattere er **Guy de Maupassant** – kjent for *La Parure* (Smykket) – og nyere forfattere som **Annie Ernaux**, som fikk Nobelprisen i **2022**.\n\n## Analyseord på fransk\n\n- *le personnage principal* – hovedpersonen\n- *le narrateur / la narratrice* – fortelleren\n- *l'intrigue* (f.) – handlingen\n- *le thème* – temaet\n- *le ton* – tonen\n- *la chute* – den overraskende slutten\n- *une fin ouverte* – en åpen slutt\n- *Le texte parle de …* – Teksten handler om …\n- *L'auteur utilise …* – Forfatteren bruker …\n\n## Lesestrategier\n\n- Les **tittelen** og **første avsnitt** nøye.\n- Se etter **ord du kjenner** fra engelsk: *la liberté*, *la solitude*, *absurde*.\n- **Gjett** ord ut fra sammenhengen.\n- Legg merke til **verbtidene** – de sier noe om **stemning** og **tempo**.\n- Skriv et kort **sammendrag** med egne ord etter hvert kapittel.\n\n## Egne opplevelser\n\n*Ce texte m'a touché(e) parce que …* – Denne teksten berørte meg fordi …\n*Je ne comprends pas pourquoi le personnage …*\n*À mon avis, le message du texte est …*",
   "flashcards": [
-    { "term": "Albert Camus", "def": "Forfatter av L'Étranger (1942), Nobelprisen 1957" },
-    { "term": "L'Étranger", "def": "Den fremmede – roman om Meursault og det absurde" },
-    { "term": "l'absurde", "def": "det absurde – livet har ingen gitt mening" },
-    { "term": "Jacques Prévert", "def": "Dikter kjent for enkle hverdagsdikt" },
-    { "term": "Déjeuner du matin", "def": "Dikt av Prévert om taushet og ensomhet" },
-    { "term": "la nouvelle", "def": "novellen" },
-    { "term": "la chute", "def": "den overraskende slutten i en novelle" },
-    { "term": "Guy de Maupassant", "def": "Klassisk fransk novelleforfatter" },
-    { "term": "Annie Ernaux", "def": "Fransk forfatter, Nobelprisen i litteratur 2022" },
-    { "term": "le personnage principal", "def": "hovedpersonen" },
-    { "term": "le narrateur", "def": "fortelleren" },
-    { "term": "l'intrigue", "def": "handlingen" },
-    { "term": "le ton", "def": "tonen" },
-    { "term": "Le texte parle de …", "def": "Teksten handler om …" },
-    { "term": "Ce texte m'a touché(e).", "def": "Denne teksten berørte meg." }
+    {
+      "term": "Albert Camus",
+      "def": "Forfatter av L'Étranger (1942), Nobelprisen 1957"
+    },
+    {
+      "term": "L'Étranger",
+      "def": "Den fremmede – roman om Meursault og det absurde"
+    },
+    {
+      "term": "l'absurde",
+      "def": "det absurde – livet har ingen gitt mening"
+    },
+    {
+      "term": "Jacques Prévert",
+      "def": "Dikter kjent for enkle hverdagsdikt"
+    },
+    {
+      "term": "Déjeuner du matin",
+      "def": "Dikt av Prévert om taushet og ensomhet"
+    },
+    {
+      "term": "la nouvelle",
+      "def": "novellen"
+    },
+    {
+      "term": "la chute",
+      "def": "den overraskende slutten i en novelle"
+    },
+    {
+      "term": "Guy de Maupassant",
+      "def": "Klassisk fransk novelleforfatter"
+    },
+    {
+      "term": "Annie Ernaux",
+      "def": "Fransk forfatter, Nobelprisen i litteratur 2022"
+    },
+    {
+      "term": "le personnage principal",
+      "def": "hovedpersonen"
+    },
+    {
+      "term": "le narrateur",
+      "def": "fortelleren"
+    },
+    {
+      "term": "l'intrigue",
+      "def": "handlingen"
+    },
+    {
+      "term": "le ton",
+      "def": "tonen"
+    },
+    {
+      "term": "Le texte parle de …",
+      "def": "Teksten handler om …"
+    },
+    {
+      "term": "Ce texte m'a touché(e).",
+      "def": "Denne teksten berørte meg."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva heter hovedpersonen i «L'Étranger»?", "options": ["Candide", "Meursault", "Jean Valjean", "Le Petit Prince"], "correct": 1, "explain": "Han reagerer nesten ikke på morens død." },
-    { "id": "q02", "text": "Hvilken filosofisk idé er knyttet til Camus?", "options": ["Det absurde", "Opplysning", "Romantikk", "Realisme"], "correct": 0, "explain": "Livet har ingen gitt mening, men vi søker mening likevel." },
-    { "id": "q03", "text": "Hva kjennetegner Préverts dikt?", "options": ["Lange, kompliserte ord", "Strenge rim og gammelt språk", "Enkle ord og hverdagslige situasjoner", "Bare om krig"], "correct": 2, "explain": "Mange franske elever lærer dem utenat." },
-    { "id": "q04", "text": "Hva er «la chute» i en novelle?", "options": ["begynnelsen", "fortelleren", "tittelen", "den overraskende slutten"], "correct": 3, "explain": "Maupassant er kjent for gode «chutes»." },
-    { "id": "q05", "text": "Når fikk Camus Nobelprisen i litteratur?", "options": ["1957", "1942", "2022", "1913"], "correct": 0, "explain": "Annie Ernaux fikk den i 2022." },
-    { "id": "q06", "text": "Hva betyr «le personnage principal»?", "options": ["fortelleren", "hovedpersonen", "forfatteren", "bipersonen"], "correct": 1, "explain": "principal = hoved-." },
-    { "id": "q07", "text": "Hvilken tid er «L'Étranger» skrevet i, som gir en nøktern tone?", "options": ["Futur", "Subjonctif", "Passé composé", "Conditionnel"], "correct": 2, "explain": "Det er uvanlig for en roman." },
-    { "id": "q08", "text": "Hva handler «Déjeuner du matin» om?", "options": ["En stor fest", "En reise til Paris", "En krig", "En mann som ikke snakker med eller ser på den andre, som gråter"], "correct": 3, "explain": "Det usagte sier mye om ensomhet." },
-    { "id": "q09", "text": "Hvordan sier du «Teksten handler om ensomhet»?", "options": ["Le texte parle de la solitude.", "Le texte est solitude.", "La solitude parle le texte.", "Le texte fait la solitude."], "correct": 0, "explain": "parler de = handle om." },
-    { "id": "q10", "text": "Hva er en god lesestrategi?", "options": ["Oversette hvert ord", "Se etter ord du kjenner fra engelsk og gjette ut fra sammenhengen", "Hoppe over første avsnitt", "Bare lese slutten"], "correct": 1, "explain": "la liberté, la solitude, absurde ligner engelsk." }
+    {
+      "id": "q01",
+      "text": "Hva heter hovedpersonen i «L'Étranger»?",
+      "options": [
+        "Candide",
+        "Meursault",
+        "Jean Valjean",
+        "Le Petit Prince"
+      ],
+      "correct": 1,
+      "explain": "Han reagerer nesten ikke på morens død."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken filosofisk idé er knyttet til Camus?",
+      "options": [
+        "Det absurde",
+        "Opplysning",
+        "Romantikk",
+        "Realisme"
+      ],
+      "correct": 0,
+      "explain": "Livet har ingen gitt mening, men vi søker mening likevel."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kjennetegner Préverts dikt?",
+      "options": [
+        "Lange, kompliserte ord",
+        "Strenge rim og gammelt språk",
+        "Enkle ord og hverdagslige situasjoner",
+        "Bare om krig"
+      ],
+      "correct": 2,
+      "explain": "Mange franske elever lærer dem utenat."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er «la chute» i en novelle?",
+      "options": [
+        "begynnelsen",
+        "fortelleren",
+        "tittelen",
+        "den overraskende slutten"
+      ],
+      "correct": 3,
+      "explain": "Maupassant er kjent for gode «chutes»."
+    },
+    {
+      "id": "q05",
+      "text": "Når fikk Camus Nobelprisen i litteratur?",
+      "options": [
+        "1957",
+        "1942",
+        "2022",
+        "1913"
+      ],
+      "correct": 0,
+      "explain": "Annie Ernaux fikk den i 2022."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr «le personnage principal»?",
+      "options": [
+        "fortelleren",
+        "hovedpersonen",
+        "forfatteren",
+        "bipersonen"
+      ],
+      "correct": 1,
+      "explain": "principal = hoved-."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken tid er «L'Étranger» skrevet i, som gir en nøktern tone?",
+      "options": [
+        "Futur",
+        "Subjonctif",
+        "Passé composé",
+        "Conditionnel"
+      ],
+      "correct": 2,
+      "explain": "Det er uvanlig for en roman."
+    },
+    {
+      "id": "q08",
+      "text": "Hva handler «Déjeuner du matin» om?",
+      "options": [
+        "En stor fest",
+        "En reise til Paris",
+        "En krig",
+        "En mann som ikke snakker med eller ser på den andre, som gråter"
+      ],
+      "correct": 3,
+      "explain": "Det usagte sier mye om ensomhet."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan sier du «Teksten handler om ensomhet»?",
+      "options": [
+        "Le texte parle de la solitude.",
+        "Le texte est solitude.",
+        "La solitude parle le texte.",
+        "Le texte fait la solitude."
+      ],
+      "correct": 0,
+      "explain": "parler de = handle om."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en god lesestrategi?",
+      "options": [
+        "Oversette hvert ord",
+        "Se etter ord du kjenner fra engelsk og gjette ut fra sammenhengen",
+        "Hoppe over første avsnitt",
+        "Bare lese slutten"
+      ],
+      "correct": 1,
+      "explain": "la liberté, la solitude, absurde ligner engelsk."
+    }
   ],
   "mindmap": {
     "label": "Fransk litteratur",
     "children": [
-      { "label": "Camus", "children": [
-        { "label": "L'Étranger 1942" },
-        { "label": "Meursault" },
-        { "label": "Det absurde" }
-      ] },
-      { "label": "Prévert", "children": [
-        { "label": "Paroles 1946" },
-        { "label": "Déjeuner du matin" },
-        { "label": "Det usagte" }
-      ] },
-      { "label": "Novellen", "children": [
-        { "label": "La chute" },
-        { "label": "Maupassant" },
-        { "label": "Annie Ernaux" }
-      ] },
-      { "label": "Analyseord", "children": [
-        { "label": "personnage principal" },
-        { "label": "narrateur" },
-        { "label": "ton" }
-      ] },
-      { "label": "Strategier", "children": [
-        { "label": "Engelske ord" },
-        { "label": "Gjette i kontekst" },
-        { "label": "Verbtider" }
-      ] }
+      {
+        "label": "Camus",
+        "children": [
+          {
+            "label": "L'Étranger 1942"
+          },
+          {
+            "label": "Meursault"
+          },
+          {
+            "label": "Det absurde"
+          }
+        ]
+      },
+      {
+        "label": "Prévert",
+        "children": [
+          {
+            "label": "Paroles 1946"
+          },
+          {
+            "label": "Déjeuner du matin"
+          },
+          {
+            "label": "Det usagte"
+          }
+        ]
+      },
+      {
+        "label": "Novellen",
+        "children": [
+          {
+            "label": "La chute"
+          },
+          {
+            "label": "Maupassant"
+          },
+          {
+            "label": "Annie Ernaux"
+          }
+        ]
+      },
+      {
+        "label": "Analyseord",
+        "children": [
+          {
+            "label": "personnage principal"
+          },
+          {
+            "label": "narrateur"
+          },
+          {
+            "label": "ton"
+          }
+        ]
+      },
+      {
+        "label": "Strategier",
+        "children": [
+          {
+            "label": "Engelske ord"
+          },
+          {
+            "label": "Gjette i kontekst"
+          },
+          {
+            "label": "Verbtider"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Camus vokste opp i Algerie.", "correct": true, "explain": "L'Étranger foregår også i Algerie." },
-      { "id": "m02", "type": "sant-usant", "text": "Meursault gråter mye i morens begravelse.", "correct": false, "explain": "Han gråter ikke, og det brukes mot ham i rettssaken." },
-      { "id": "m03", "type": "sant-usant", "text": "Annie Ernaux fikk Nobelprisen i litteratur i 2022.", "correct": true, "explain": "Hun skriver mye om eget liv og samfunnsklasser." },
-      { "id": "m04", "type": "sant-usant", "text": "Préverts dikt er kjent for et vanskelig og gammeldags språk.", "correct": false, "explain": "Han brukte enkle ord og hverdagsspråk." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «une fin ouverte»?", "options": ["en lykkelig slutt", "en åpen slutt", "en trist slutt", "en rask slutt"], "correct": 1, "explain": "Leseren må tolke selv." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken novelle er Maupassant kjent for?", "options": ["La Parure", "L'Étranger", "Le Petit Prince", "Les Misérables"], "correct": 0, "explain": "La Parure har en berømt chute." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «Ce texte m'a touché»?", "options": ["Jeg har tatt på teksten.", "Denne teksten er kjedelig.", "Denne teksten berørte meg.", "Jeg har skrevet teksten."], "correct": 2, "explain": "toucher = røre, berøre." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Camus vokste opp i Algerie.",
+        "correct": true,
+        "explain": "L'Étranger foregår også i Algerie."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Meursault gråter mye i morens begravelse.",
+        "correct": false,
+        "explain": "Han gråter ikke, og det brukes mot ham i rettssaken."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Annie Ernaux fikk Nobelprisen i litteratur i 2022.",
+        "correct": true,
+        "explain": "Hun skriver mye om eget liv og samfunnsklasser."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Préverts dikt er kjent for et vanskelig og gammeldags språk.",
+        "correct": false,
+        "explain": "Han brukte enkle ord og hverdagsspråk."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «une fin ouverte»?",
+        "options": [
+          "en lykkelig slutt",
+          "en åpen slutt",
+          "en trist slutt",
+          "en rask slutt"
+        ],
+        "correct": 1,
+        "explain": "Leseren må tolke selv."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken novelle er Maupassant kjent for?",
+        "options": [
+          "La Parure",
+          "L'Étranger",
+          "Le Petit Prince",
+          "Les Misérables"
+        ],
+        "correct": 0,
+        "explain": "La Parure har en berømt chute."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «Ce texte m'a touché»?",
+        "options": [
+          "Jeg har tatt på teksten.",
+          "Denne teksten er kjedelig.",
+          "Denne teksten berørte meg.",
+          "Jeg har skrevet teksten."
+        ],
+        "correct": 2,
+        "explain": "toucher = røre, berøre."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I rettssaken mot Meursault blir han dømt både for drapet og fordi han ikke gråt i morens begravelse. Forklar hvorfor reaksjonen hans i begravelsen blir viktig i rettssaken.",
+        "fasit": "Meursault reagerer nesten ikke da moren dør, og han gråter ikke i begravelsen. I rettssaken blir dette brukt mot ham, slik at han blir dømt like mye for reaksjonen sin som for drapet.",
+        "kriterier": [
+          "Får fram at Meursault ikke gråt eller viste sterk sorg i begravelsen.",
+          "Knytter dette til at retten dømmer ham for mer enn selve drapet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I «L'Étranger» bruker Camus korte setninger, et enkelt språk og passé composé. Forklar hvordan disse trekkene bidrar til tonen i romanen.",
+        "fasit": "De korte setningene og det enkle språket gjør fortellingen nøktern. Passé composé bidrar også til en nesten likegyldig tone.",
+        "kriterier": [
+          "Knytter språkformen eller de korte setningene til en nøktern tone.",
+          "Får fram at tonen kan virke nesten likegyldig."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Camus knytter «L'Étranger» til det absurde. Forklar hva det absurde betyr, og hvordan ideen rommer en motsetning.",
+        "fasit": "Det absurde handler om at livet ikke har noen gitt mening, samtidig som mennesket likevel søker mening. Motsetningen ligger mellom livets mangel på mening og menneskets søken etter den.",
+        "kriterier": [
+          "Forklarer at livet ikke har en gitt mening.",
+          "Får fram at mennesket likevel søker mening."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign «L'Étranger» av Camus og «Déjeuner du matin» av Prévert. Hva slags litterære tekster er de, og hvilke temaer forbindes med dem?",
+        "fasit": "«L'Étranger» er en roman om Meursault og det absurde. «Déjeuner du matin» er et dikt der taushet uttrykker ensomhet og kjærlighet som tar slutt.",
+        "kriterier": [
+          "Skiller mellom romanen «L'Étranger» og Préverts dikt.",
+          "Knytter verkene til relevante temaer: det absurde hos Camus og ensomhet eller kjærlighet som tar slutt hos Prévert."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I en fortelling følger vi en person som står i sentrum for hendelsene, mens en fortellerstemme formidler historien. Hva kalles disse to rollene på fransk, og hva er forskjellen på dem?",
+        "fasit": "Personen som står i sentrum, er *le personnage principal*. Stemmen som forteller historien, er *le narrateur* eller *la narratrice*.",
+        "kriterier": [
+          "Identifiserer hovedpersonen som *le personnage principal*.",
+          "Identifiserer fortelleren som *le narrateur* eller *la narratrice* og skiller rollen fra hovedpersonens."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I «Déjeuner du matin» gjør mannen hverdagslige ting uten å snakke eller se på den andre personen, som til slutt gråter. Forklar hvordan tausheten i diktet kan uttrykke et tema.",
+        "fasit": "Tausheten og mangelen på kontakt kan uttrykke ensomhet. De kan også vise at kjærligheten mellom personene er i ferd med å ta slutt.",
+        "kriterier": [
+          "Knytter tausheten eller mangelen på kontakt til ensomhet.",
+          "Får fram forbindelsen til kjærlighet som tar slutt."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign Guy de Maupassant og Annie Ernaux ut fra perioden eller forfattertypen de forbindes med, og én opplysning om Ernaux.",
+        "fasit": "Maupassant er en klassisk fransk novelleforfatter, mens Ernaux er en nyere forfatter. Ernaux fikk Nobelprisen i litteratur i 2022.",
+        "kriterier": [
+          "Skiller mellom Maupassant som klassisk novelleforfatter og Ernaux som nyere forfatter.",
+          "Nevner at Ernaux fikk Nobelprisen i litteratur i 2022."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du leser en fransk tekst og møter et ukjent ord. Du kjenner allerede ordet *la solitude*. Beskriv hvordan du kan bruke et kjent ord og sammenhengen rundt det ukjente ordet for å forstå teksten bedre.",
+        "fasit": "Jeg kan først se om *la solitude* eller andre kjente ord gir meg en idé om hva avsnittet handler om. Deretter kan jeg gjette betydningen av det ukjente ordet ut fra sammenhengen.",
+        "kriterier": [
+          "Bruker kjente ord til å få en idé om innholdet.",
+          "Foreslår å gjette det ukjente ordet ut fra sammenhengen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

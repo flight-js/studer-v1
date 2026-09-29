@@ -4,79 +4,428 @@
   "trinnId": "vg2",
   "name": "Mediemiks og innhold",
   "intro": "Hvordan virksomheter planlegger mediemiks: betalte, eide og fortjente medier, styrker og svakheter ved ulike kanaler, begreper som dekning, frekvens og tusenkontaktpris, medieplanen – og hvordan du lager innhold tilpasset ulike kanaler.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Hva er mediemiks?\n\n**Mediemiksen** er **kombinasjonen** av medier og kanaler en virksomhet bruker for å nå **målgruppen** med budskapet sitt. Målet er å nå de **riktige** personene, **mange nok ganger**, til en fornuftig **kostnad**.\n\n## Betalte, eide og fortjente medier\n\n- **Betalte medier**: annonser virksomheten **kjøper**, som TV-reklame, plakater og annonser i sosiale medier.\n- **Eide medier**: kanaler virksomheten **kontrollerer selv**, som nettside, nyhetsbrev og egne kontoer i sosiale medier.\n- **Fortjente medier**: omtale virksomheten **ikke betaler for**, som delinger, anmeldelser, avisomtale og anbefalinger fra kunder.\n\nDe beste kampanjene bruker alle tre: Betalte medier gir **rekkevidde**, eide medier gir **kontroll**, og fortjente medier gir **troverdighet**.\n\n## Kanaler\n\n| Kanal | Styrker | Svakheter |\n|---|---|---|\n| **TV og strømming** | levende bilder og lyd, når mange | dyrt |\n| **Radio og podkast** | billig, lokal, følger folk gjennom dagen | bare lyd |\n| **Aviser og nettaviser** | troverdig, lokal målretting | synkende lesertall på papir |\n| **Utendørsreklame** | synlig for mange | kort eksponering |\n| **Sosiale medier** | presis målretting, deling, måling | stor konkurranse om oppmerksomheten |\n| **Søkemotorer** | når kunder som **leter** etter produktet | krever kunnskap og budsjett |\n| **E-post og nyhetsbrev** | billig, personlig | krever samtykke |\n\n**Søkemotoroptimalisering** gjør at nettsiden kommer høyt i **vanlige** søkeresultater, mens **søkemotorannonser** er betalte treff.\n\n## Mediebegreper\n\n- **Dekning**: hvor stor del av målgruppen som ser budskapet **minst én gang**.\n- **Frekvens**: hvor mange ganger hver person i **gjennomsnitt** ser budskapet.\n- **Tusenkontaktpris**: hva det koster å nå **1000** visninger. Eksempel: En kampanje koster 10 000 kr og gir 200 000 visninger. Tusenkontaktprisen blir 10 000 ÷ 200 = **50 kr**.\n- **Klikkrate**: andelen som **klikker** på annonsen.\n- **Konvertering**: andelen som **handler**, for eksempel kjøper eller melder seg på.\n\n## Medieplanen\n\nEn **medieplan** beskriver\n\n1. **målgruppe** og **mål**\n2. **budskap**\n3. **kanaler** og hvorfor de er valgt\n4. **tidsplan** – jevnt over tid eller i intensive **perioder**\n5. **budsjett**\n6. hvordan resultatene skal **måles**\n\n## Innhold for ulike kanaler\n\nSamme budskap må **tilpasses** hver kanal:\n\n- **Korte videoer** i høydeformat passer i sosiale medier. De første **sekundene** må fange oppmerksomheten, og videoen bør ha **tekst**, fordi mange ser uten lyd.\n- En **plakat** må forstås på et **øyeblikk** – få ord og tydelig bilde.\n- En **nettside** kan gi mer **utfyllende** informasjon.\n\n**Innholdsmarkedsføring** betyr å lage **nyttig** eller **underholdende** innhold – som tips, oppskrifter eller guider – i stedet for rene salgsbudskap. Målet er å bygge **relasjoner** og **tillit**.\n\nAlt innhold bør ha samme **visuelle identitet** og **tone** slik at avsenderen er lett å kjenne igjen. Reklame skal alltid **merkes** tydelig som reklame.\n\n## Eksempel\n\nEn ny lunsjbar for elever kan bruke **korte videoer** i sosiale medier, **plakater** nær skolen, et **åpningstilbud**, egen **Instagram-konto** og håpe på **delinger** fra fornøyde kunder.",
   "flashcards": [
-    { "term": "Mediemiks", "def": "Kombinasjonen av medier og kanaler en virksomhet bruker." },
-    { "term": "Betalte medier", "def": "Annonser virksomheten kjøper." },
-    { "term": "Eide medier", "def": "Kanaler virksomheten kontrollerer selv, som nettside." },
-    { "term": "Fortjente medier", "def": "Omtale og delinger virksomheten ikke betaler for." },
-    { "term": "Dekning", "def": "Andelen av målgruppen som ser budskapet minst én gang." },
-    { "term": "Frekvens", "def": "Hvor mange ganger hver person i snitt ser budskapet." },
-    { "term": "Tusenkontaktpris", "def": "Kostnaden for å nå 1000 visninger." },
-    { "term": "Klikkrate", "def": "Andelen som klikker på annonsen." },
-    { "term": "Konvertering", "def": "Andelen som handler, for eksempel kjøper." },
-    { "term": "Søkemotoroptimalisering", "def": "Å få nettsiden høyt i vanlige søkeresultater." },
-    { "term": "Søkemotorannonse", "def": "Betalt treff i søkeresultatene." },
-    { "term": "Medieplan", "def": "Plan for målgruppe, mål, budskap, kanaler, tid, budsjett og måling." },
-    { "term": "Innholdsmarkedsføring", "def": "Nyttig eller underholdende innhold som bygger relasjoner." },
-    { "term": "Visuell identitet", "def": "Felles farger, fonter og uttrykk som gjør avsenderen gjenkjennelig." },
-    { "term": "Høydeformat", "def": "Vertikal video tilpasset mobil og sosiale medier." }
+    {
+      "term": "Mediemiks",
+      "def": "Kombinasjonen av medier og kanaler en virksomhet bruker."
+    },
+    {
+      "term": "Betalte medier",
+      "def": "Annonser virksomheten kjøper."
+    },
+    {
+      "term": "Eide medier",
+      "def": "Kanaler virksomheten kontrollerer selv, som nettside."
+    },
+    {
+      "term": "Fortjente medier",
+      "def": "Omtale og delinger virksomheten ikke betaler for."
+    },
+    {
+      "term": "Dekning",
+      "def": "Andelen av målgruppen som ser budskapet minst én gang."
+    },
+    {
+      "term": "Frekvens",
+      "def": "Hvor mange ganger hver person i snitt ser budskapet."
+    },
+    {
+      "term": "Tusenkontaktpris",
+      "def": "Kostnaden for å nå 1000 visninger."
+    },
+    {
+      "term": "Klikkrate",
+      "def": "Andelen som klikker på annonsen."
+    },
+    {
+      "term": "Konvertering",
+      "def": "Andelen som handler, for eksempel kjøper."
+    },
+    {
+      "term": "Søkemotoroptimalisering",
+      "def": "Å få nettsiden høyt i vanlige søkeresultater."
+    },
+    {
+      "term": "Søkemotorannonse",
+      "def": "Betalt treff i søkeresultatene."
+    },
+    {
+      "term": "Medieplan",
+      "def": "Plan for målgruppe, mål, budskap, kanaler, tid, budsjett og måling."
+    },
+    {
+      "term": "Innholdsmarkedsføring",
+      "def": "Nyttig eller underholdende innhold som bygger relasjoner."
+    },
+    {
+      "term": "Visuell identitet",
+      "def": "Felles farger, fonter og uttrykk som gjør avsenderen gjenkjennelig."
+    },
+    {
+      "term": "Høydeformat",
+      "def": "Vertikal video tilpasset mobil og sosiale medier."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er eide medier?", "options": ["Annonser virksomheten kjøper", "Kanaler virksomheten kontrollerer selv", "Omtale i avisen", "Delinger fra kunder"], "correct": 1, "explain": "For eksempel nettside og nyhetsbrev." },
-    { "id": "q02", "text": "Hva er fortjente medier?", "options": ["Omtale virksomheten ikke betaler for", "TV-reklame", "Nettsiden", "Plakater"], "correct": 0, "explain": "Gir troverdighet." },
-    { "id": "q03", "text": "En kampanje koster 10 000 kr og gir 200 000 visninger. Hva er tusenkontaktprisen?", "options": ["20 kr", "200 kr", "50 kr", "5 kr"], "correct": 2, "explain": "10 000 ÷ 200 = 50." },
-    { "id": "q04", "text": "Hva er dekning?", "options": ["Hvor mye kampanjen koster", "Hvor mange som kjøper", "Hvor mange ganger hver ser budskapet", "Andelen av målgruppen som ser budskapet minst én gang"], "correct": 3, "explain": "Frekvens er antall ganger." },
-    { "id": "q05", "text": "Hvilken kanal når kunder som aktivt leter etter et produkt?", "options": ["Søkemotorer", "Plakater", "Radio", "Kino"], "correct": 0, "explain": "Kunden søker selv." },
-    { "id": "q06", "text": "Hvorfor bør videoer i sosiale medier ha tekst?", "options": ["Fordi det er lovpålagt", "Fordi mange ser uten lyd", "Fordi det er billigere", "Fordi tekst gir flere klikk alltid"], "correct": 1, "explain": "Budskapet må forstås uten lyd." },
-    { "id": "q07", "text": "Hva er konvertering?", "options": ["Andelen som ser annonsen", "Å bytte kanal", "Andelen som handler", "Å oversette en annonse"], "correct": 2, "explain": "For eksempel kjøper eller melder seg på." },
-    { "id": "q08", "text": "Hva er innholdsmarkedsføring?", "options": ["Bare priser og tilbud", "Å kjøpe TV-reklame", "Å sende mange e-poster", "Nyttig eller underholdende innhold som bygger relasjoner"], "correct": 3, "explain": "For eksempel tips og oppskrifter." },
-    { "id": "q09", "text": "Hva kjennetegner en god plakat?", "options": ["Den forstås på et øyeblikk", "Den har mye tekst", "Den er uten bilde", "Den har små bokstaver"], "correct": 0, "explain": "Kort eksponering." },
-    { "id": "q10", "text": "Hva er en svakhet ved TV-reklame?", "options": ["Den når få", "Den er dyr", "Den har ikke lyd", "Den kan ikke vise bilder"], "correct": 1, "explain": "Men den når mange med levende bilder." }
+    {
+      "id": "q01",
+      "text": "Hva er eide medier?",
+      "options": [
+        "Annonser virksomheten kjøper",
+        "Kanaler virksomheten kontrollerer selv",
+        "Omtale i avisen",
+        "Delinger fra kunder"
+      ],
+      "correct": 1,
+      "explain": "For eksempel nettside og nyhetsbrev."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er fortjente medier?",
+      "options": [
+        "Omtale virksomheten ikke betaler for",
+        "TV-reklame",
+        "Nettsiden",
+        "Plakater"
+      ],
+      "correct": 0,
+      "explain": "Gir troverdighet."
+    },
+    {
+      "id": "q03",
+      "text": "En kampanje koster 10 000 kr og gir 200 000 visninger. Hva er tusenkontaktprisen?",
+      "options": [
+        "20 kr",
+        "200 kr",
+        "50 kr",
+        "5 kr"
+      ],
+      "correct": 2,
+      "explain": "10 000 ÷ 200 = 50."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er dekning?",
+      "options": [
+        "Hvor mye kampanjen koster",
+        "Hvor mange som kjøper",
+        "Hvor mange ganger hver ser budskapet",
+        "Andelen av målgruppen som ser budskapet minst én gang"
+      ],
+      "correct": 3,
+      "explain": "Frekvens er antall ganger."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken kanal når kunder som aktivt leter etter et produkt?",
+      "options": [
+        "Søkemotorer",
+        "Plakater",
+        "Radio",
+        "Kino"
+      ],
+      "correct": 0,
+      "explain": "Kunden søker selv."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor bør videoer i sosiale medier ha tekst?",
+      "options": [
+        "Fordi det er lovpålagt",
+        "Fordi mange ser uten lyd",
+        "Fordi det er billigere",
+        "Fordi tekst gir flere klikk alltid"
+      ],
+      "correct": 1,
+      "explain": "Budskapet må forstås uten lyd."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er konvertering?",
+      "options": [
+        "Andelen som ser annonsen",
+        "Å bytte kanal",
+        "Andelen som handler",
+        "Å oversette en annonse"
+      ],
+      "correct": 2,
+      "explain": "For eksempel kjøper eller melder seg på."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er innholdsmarkedsføring?",
+      "options": [
+        "Bare priser og tilbud",
+        "Å kjøpe TV-reklame",
+        "Å sende mange e-poster",
+        "Nyttig eller underholdende innhold som bygger relasjoner"
+      ],
+      "correct": 3,
+      "explain": "For eksempel tips og oppskrifter."
+    },
+    {
+      "id": "q09",
+      "text": "Hva kjennetegner en god plakat?",
+      "options": [
+        "Den forstås på et øyeblikk",
+        "Den har mye tekst",
+        "Den er uten bilde",
+        "Den har små bokstaver"
+      ],
+      "correct": 0,
+      "explain": "Kort eksponering."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en svakhet ved TV-reklame?",
+      "options": [
+        "Den når få",
+        "Den er dyr",
+        "Den har ikke lyd",
+        "Den kan ikke vise bilder"
+      ],
+      "correct": 1,
+      "explain": "Men den når mange med levende bilder."
+    }
   ],
   "mindmap": {
     "label": "Mediemiks og innhold",
     "children": [
-      { "label": "Medietyper", "children": [
-        { "label": "Betalte" },
-        { "label": "Eide" },
-        { "label": "Fortjente" }
-      ] },
-      { "label": "Kanaler", "children": [
-        { "label": "TV, radio og aviser" },
-        { "label": "Utendørs" },
-        { "label": "Sosiale medier og søk" }
-      ] },
-      { "label": "Begreper", "children": [
-        { "label": "Dekning og frekvens" },
-        { "label": "Tusenkontaktpris" },
-        { "label": "Klikk og konvertering" }
-      ] },
-      { "label": "Medieplan", "children": [
-        { "label": "Mål og budskap" },
-        { "label": "Tid og budsjett" },
-        { "label": "Måling" }
-      ] },
-      { "label": "Innhold", "children": [
-        { "label": "Tilpasset kanal" },
-        { "label": "Innholdsmarkedsføring" },
-        { "label": "Visuell identitet" }
-      ] }
+      {
+        "label": "Medietyper",
+        "children": [
+          {
+            "label": "Betalte"
+          },
+          {
+            "label": "Eide"
+          },
+          {
+            "label": "Fortjente"
+          }
+        ]
+      },
+      {
+        "label": "Kanaler",
+        "children": [
+          {
+            "label": "TV, radio og aviser"
+          },
+          {
+            "label": "Utendørs"
+          },
+          {
+            "label": "Sosiale medier og søk"
+          }
+        ]
+      },
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Dekning og frekvens"
+          },
+          {
+            "label": "Tusenkontaktpris"
+          },
+          {
+            "label": "Klikk og konvertering"
+          }
+        ]
+      },
+      {
+        "label": "Medieplan",
+        "children": [
+          {
+            "label": "Mål og budskap"
+          },
+          {
+            "label": "Tid og budsjett"
+          },
+          {
+            "label": "Måling"
+          }
+        ]
+      },
+      {
+        "label": "Innhold",
+        "children": [
+          {
+            "label": "Tilpasset kanal"
+          },
+          {
+            "label": "Innholdsmarkedsføring"
+          },
+          {
+            "label": "Visuell identitet"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Samme budskap bør tilpasses formatet i hver kanal.", "correct": true, "explain": "En plakat og en video krever ulikt innhold." },
-      { "id": "m02", "type": "sant-usant", "text": "Søkemotoroptimalisering betyr å kjøpe annonser i søkeresultatene.", "correct": false, "explain": "Det gjelder vanlige, ubetalte søkeresultater." },
-      { "id": "m03", "type": "sant-usant", "text": "Reklame skal alltid merkes tydelig som reklame.", "correct": true, "explain": "Det krever markedsføringsloven." },
-      { "id": "m04", "type": "sant-usant", "text": "Høy frekvens betyr at mange forskjellige personer ser budskapet.", "correct": false, "explain": "Frekvens er hvor mange ganger hver person ser det." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken kanal er billig og følger folk gjennom dagen?", "options": ["TV", "Radio og podkast", "Kino", "Magasiner"], "correct": 1, "explain": "Men bare lyd." },
-      { "id": "m06", "type": "flervalg", "text": "Hva gir betalte medier først og fremst?", "options": ["Rekkevidde", "Troverdighet", "Full gratis synlighet", "Ingen kostnader"], "correct": 0, "explain": "Fortjente medier gir troverdighet." },
-      { "id": "m07", "type": "flervalg", "text": "Hva hører hjemme i en medieplan?", "options": ["Bare logoen", "Bare de ansattes navn", "Målgruppe, kanaler, tidsplan og budsjett", "Bare prisen"], "correct": 2, "explain": "Og hvordan resultatene måles." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Samme budskap bør tilpasses formatet i hver kanal.",
+        "correct": true,
+        "explain": "En plakat og en video krever ulikt innhold."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Søkemotoroptimalisering betyr å kjøpe annonser i søkeresultatene.",
+        "correct": false,
+        "explain": "Det gjelder vanlige, ubetalte søkeresultater."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Reklame skal alltid merkes tydelig som reklame.",
+        "correct": true,
+        "explain": "Det krever markedsføringsloven."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Høy frekvens betyr at mange forskjellige personer ser budskapet.",
+        "correct": false,
+        "explain": "Frekvens er hvor mange ganger hver person ser det."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken kanal er billig og følger folk gjennom dagen?",
+        "options": [
+          "TV",
+          "Radio og podkast",
+          "Kino",
+          "Magasiner"
+        ],
+        "correct": 1,
+        "explain": "Men bare lyd."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva gir betalte medier først og fremst?",
+        "options": [
+          "Rekkevidde",
+          "Troverdighet",
+          "Full gratis synlighet",
+          "Ingen kostnader"
+        ],
+        "correct": 0,
+        "explain": "Fortjente medier gir troverdighet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva hører hjemme i en medieplan?",
+        "options": [
+          "Bare logoen",
+          "Bare de ansattes navn",
+          "Målgruppe, kanaler, tidsplan og budsjett",
+          "Bare prisen"
+        ],
+        "correct": 2,
+        "explain": "Og hvordan resultatene måles."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En virksomhet bruker flere medier og kanaler for å nå kundene sine. Forklar hva mediemiks betyr, og hva virksomheten prøver å oppnå med den.",
+        "fasit": "Mediemiks er kombinasjonen av medier og kanaler virksomheten bruker for å nå målgruppen. Den skal bidra til å nå de riktige personene mange nok ganger til en fornuftig kostnad.",
+        "kriterier": [
+          "Forklarer at mediemiks er en kombinasjon av medier eller kanaler.",
+          "Får fram at målet er å nå målgruppen på en effektiv måte, for eksempel med riktig rekkevidde og kostnad."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En virksomhet kjøper en annonse i sosiale medier. Kunder deler senere omtale av virksomheten uten at virksomheten betaler dem. Hva slags medier er dette, og hva er forskjellen mellom dem?",
+        "fasit": "Annonsen er betalte medier, mens kundenes omtale er fortjente medier. Betalte medier er annonser virksomheten kjøper, mens fortjente medier er omtale eller delinger den ikke betaler for.",
+        "kriterier": [
+          "Klassifiserer den kjøpte annonsen som betalte medier.",
+          "Klassifiserer omtalen uten betaling som fortjente medier og forklarer forskjellen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et mål viser hvor stor del av målgruppen som har sett en annonse minst én gang. Et annet viser hvor mange ganger hver person i gjennomsnitt har sett den. Hvilke to mediebegreper beskrives, og hvordan skiller de seg?",
+        "fasit": "Det første målet er dekning, og det andre er frekvens. Dekning sier hvor stor del av målgruppen som er nådd, mens frekvens sier hvor ofte hver person i gjennomsnitt har sett budskapet.",
+        "kriterier": [
+          "Knytter andelen som har sett annonsen minst én gang til dekning.",
+          "Knytter gjennomsnittlig antall visninger per person til frekvens."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En virksomhet vil vises når folk søker etter et produkt. Forklar forskjellen mellom søkemotoroptimalisering og søkemotorannonser.",
+        "fasit": "Søkemotoroptimalisering gjør at nettsiden kommer høyt i vanlige søkeresultater. Søkemotorannonser er betalte treff i søkeresultatene.",
+        "kriterier": [
+          "Forklarer at søkemotoroptimalisering gjelder plassering i vanlige søkeresultater.",
+          "Forklarer at søkemotorannonser er betalte treff."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En virksomhet skal lage en medieplan for en kampanje. Hvilke sentrale opplysninger bør planen inneholde?",
+        "fasit": "Planen bør beskrive målgruppe og mål, budskap, valgte kanaler, tidsplan og budsjett. Den bør også si hvordan resultatene skal måles.",
+        "kriterier": [
+          "Nevner målgruppe og mål samt budskap.",
+          "Nevner kanaler, tidsplan og budsjett.",
+          "Får fram at planen skal beskrive hvordan resultatene måles."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En lokal virksomhet vil nå folk i nærområdet med et rimelig budskap som kan følge dem gjennom dagen. Hvilken kanal fra denne listen passer best: TV og strømming, radio og podkast eller utendørsreklame? Begrunn valget med kanalens styrker.",
+        "fasit": "Radio og podkast passer best fordi kanalen er billig, kan være lokal og følger folk gjennom dagen.",
+        "kriterier": [
+          "Velger radio og podkast.",
+          "Begrunner valget med relevante styrker, som at kanalen er billig, lokal eller følger folk gjennom dagen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En virksomhet vil bruke det samme hovedbudskapet i en kort video på sosiale medier og på en nettside. Forklar hvordan innholdet bør tilpasses de to kanalene.",
+        "fasit": "Videoen bør være kort og i høydeformat, og de første sekundene bør fange oppmerksomheten. Nettsiden kan gi mer utfyllende informasjon.",
+        "kriterier": [
+          "Får fram at videoen bør tilpasses sosiale medier med kort format eller høydeformat og en oppmerksomhetsfangende start.",
+          "Får fram at nettsiden kan inneholde mer utfyllende informasjon."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En virksomhet bruker de samme fargene, fontene og uttrykket i flere kanaler, og holder en gjenkjennelig tone. Forklar hvorfor dette er nyttig.",
+        "fasit": "En felles visuell identitet og tone gjør at avsenderen blir lettere å kjenne igjen på tvers av kanalene.",
+        "kriterier": [
+          "Knytter felles visuell identitet og tone til at virksomheten framstår gjenkjennelig.",
+          "Får fram at dette gjelder på tvers av kanalene."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

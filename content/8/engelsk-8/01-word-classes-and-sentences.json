@@ -344,6 +344,80 @@
         "correct": 2,
         "explain": "“Engineer” starts with a vowel sound, so we use “an”. English also needs an article with jobs: She is an engineer."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Explain the difference between a noun and a pronoun. Give an example where a pronoun replaces a noun, such as “teacher” being replaced by “she”.",
+        "fasit": "A noun names a person, place, thing or idea. A pronoun replaces a noun: “The teacher is here. She is here.”",
+        "kriterier": [
+          "Explains that a noun names a person, place, thing or idea.",
+          "Explains that a pronoun replaces a noun, with an example that shows this."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Change “a tall building” to the plural. Explain what happens to the adjective.",
+        "fasit": "The plural is “tall buildings”. The adjective “tall” does not change in the plural.",
+        "kriterier": [
+          "Gives “tall buildings” as the plural form.",
+          "Explains that the adjective stays the same in the plural."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Explain why both “an hour” and “a university” use the correct article.",
+        "fasit": "“An” comes before a vowel sound, and the h in “hour” is silent. “University” starts with a “you” sound, which is a consonant sound, so it takes “a”.",
+        "kriterier": [
+          "Connects “an” in “an hour” to the vowel sound at the start.",
+          "Connects “a” in “a university” to its starting consonant sound."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Why is “Yesterday I went to the cinema” correct, while “Yesterday went I to the cinema” is not?",
+        "fasit": "Even when a time expression comes first, English keeps the subject before the verb. In the correct sentence, “I” comes before “went”.",
+        "kriterier": [
+          "Explains that the subject stays before the verb after a time expression.",
+          "Uses the sentence to show that “I” must come before “went”."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Turn “You like music.” into a question. Explain the job of the extra verb you add.",
+        "fasit": "“Do you like music?” The helping verb “do” is used to form the question.",
+        "kriterier": [
+          "Forms the question as “Do you like music?” or an equivalent correct question.",
+          "Explains that “do” is a helping verb used to form the question."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Why can “because it was raining” not stand alone as a sentence? Add a main clause to make it a complex sentence.",
+        "fasit": "It has a subject and a verb, but it is a subordinate clause and cannot stand alone. “I stayed at home because it was raining” is a complex sentence.",
+        "kriterier": [
+          "Explains that the clause is subordinate and cannot stand alone.",
+          "Adds a main clause that can stand alone and forms a complex sentence with the given clause."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Compare the adjective in “a quiet room” with the adverb in “speaks quietly”. What does each word describe?",
+        "fasit": "“Quiet” is an adjective that describes the noun “room”. “Quietly” is an adverb that describes the verb “speaks”.",
+        "kriterier": [
+          "Explains that the adjective describes a noun.",
+          "Explains that the adverb describes a verb."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Write one English sentence that contains a preposition showing place or time and a conjunction joining clauses. Name both words and explain what each one does.",
+        "fasit": "“The book is on the desk because I need it.” “On” is a preposition showing place, and “because” is a conjunction joining clauses.",
+        "kriterier": [
+          "Uses a preposition correctly to show a relation in place or time.",
+          "Uses a conjunction to join words or clauses and explains its role."
+        ]
+      }
     ]
   },
   "kvalitet": {

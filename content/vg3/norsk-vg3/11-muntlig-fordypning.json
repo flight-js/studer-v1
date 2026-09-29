@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Muntlige presentasjoner, samtaler og fordypning",
   "intro": "Hvordan du bruker fagkunnskap og presist fagspråk i utforskende samtaler, diskusjoner og muntlige presentasjoner om norskfaglige emner – fra å velge og avgrense et emne til struktur, stemmebruk, hjelpemidler og samtalen etterpå.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Muntlighet i norskfaget\n\nI norskfaget skal du kunne bruke **fagkunnskap** og **presist fagspråk** muntlig – i **samtaler**, **diskusjoner** og **presentasjoner**. Det betyr å kunne **forklare**, **begrunne**, **lytte** og **svare** på en måte som viser at du forstår stoffet.\n\n## Utforskende samtale\n\nI en **utforskende samtale** tenker deltakerne **sammen** for å forstå noe bedre. Målet er ikke å vinne, men å komme **videre**.\n\n- **Lytt** aktivt og **bygg videre** på det andre sier.\n- Still **åpne spørsmål**: «Hva mener du med …?», «Hvordan ser du det?»\n- **Begrunn** synspunktene dine med eksempler fra tekstene.\n- Vær villig til å **endre** mening.\n\n## Diskusjon\n\nI en **diskusjon** argumenterer deltakerne for ulike **standpunkter**. Du må kunne\n\n- formulere en tydelig **påstand**\n- underbygge den med **argumenter** og **eksempler**\n- **imøtegå** motargumenter på en saklig måte\n- vise **respekt** for andres synspunkter\n\n## Velge og avgrense et emne\n\nEn god muntlig presentasjon starter med et **avgrenset** emne og en tydelig **problemstilling**. «Kvinner i litteraturen» er for bredt. «Hvordan framstilles kvinners frihet i Et dukkehjem og Amtmandens Døttre?» gir en tydeligere retning.\n\nNår du **fordyper** deg i et emne, bør du\n\n- lese **primærtekstene** grundig\n- bruke **faglitteratur** og **kontekst**\n- velge noen **hovedpoeng** du vil få fram\n- finne gode **eksempler** og **sitater**\n\n## Struktur\n\n1. **Innledning**: fang oppmerksomheten, presenter emnet og problemstillingen, og gi en kort **oversikt**.\n2. **Hoveddel**: noen få, tydelige **poeng** i logisk rekkefølge, med eksempler og **fagbegreper**.\n3. **Avslutning**: oppsummer og gi et **svar** eller en **refleksjon**.\n\nBruk **overganger** som «Det neste jeg vil se på, er …» slik at publikum henger med.\n\n## Framføring\n\n- **Stikkord** i stedet for fullt manus gjør det lettere å snakke **fritt**.\n- **Stemme**: snakk tydelig, varier **tempo** og **tonefall**, og bruk **pauser**.\n- **Kroppsspråk**: stå stødig, ha **blikkontakt** og bruk hendene naturlig.\n- **Tid**: øv på forhånd, slik at du holder deg innenfor **tidsrammen**.\n\n## Hjelpemidler\n\n**Presentasjonsverktøy** kan gjøre framføringen tydeligere, men skal **støtte** – ikke erstatte – det du sier. Bruk **få ord** per lysbilde, gode **bilder** og korte **sitater**. Oppgi **kilder** også i presentasjonen.\n\n## Samtalen etterpå\n\nEtter en presentasjon kommer ofte en **samtale** med spørsmål. Da kan du vise **dybdekunnskap**:\n\n- Lytt til **hele** spørsmålet før du svarer.\n- Det er lov å **tenke** litt før du svarer.\n- Knytt svaret til **tekstene** og **fagbegrepene**.\n- Er du usikker, kan du si hva du **vet**, og **resonnere** deg fram.\n\n## Fagspråk\n\nBruk begreper som *epoke*, *motiv*, *tema*, *synsvinkel*, *appellformer*, *virkemidler* og *kontekst* – og vis at du forstår dem ved å **bruke** dem på konkrete eksempler.",
   "flashcards": [
-    { "term": "Utforskende samtale", "def": "Deltakerne tenker sammen for å forstå noe bedre." },
-    { "term": "Diskusjon", "def": "Deltakerne argumenterer for ulike standpunkter." },
-    { "term": "Aktiv lytting", "def": "Å følge med og bygge videre på det andre sier." },
-    { "term": "Åpent spørsmål", "def": "Spørsmål som ikke kan besvares med ja eller nei." },
-    { "term": "Imøtegå", "def": "Å svare på et motargument." },
-    { "term": "Avgrensning", "def": "Å snevre inn et emne slik at det blir håndterlig." },
-    { "term": "Problemstilling", "def": "Spørsmålet presentasjonen skal svare på." },
-    { "term": "Fordypning", "def": "Å gå grundig inn i et avgrenset emne." },
-    { "term": "Primærtekst", "def": "Den litterære teksten du skriver eller snakker om." },
-    { "term": "Stikkord", "def": "Korte notater som gjør det lettere å snakke fritt." },
-    { "term": "Overgang", "def": "Setning som binder sammen delene i en presentasjon." },
-    { "term": "Blikkontakt", "def": "Å se på publikum mens man snakker." },
-    { "term": "Tidsramme", "def": "Tiden presentasjonen skal holde seg innenfor." },
-    { "term": "Fagspråk", "def": "Presise fagbegreper brukt riktig." },
-    { "term": "Dybdekunnskap", "def": "Grundig forståelse som vises i samtalen etter presentasjonen." }
+    {
+      "term": "Utforskende samtale",
+      "def": "Deltakerne tenker sammen for å forstå noe bedre."
+    },
+    {
+      "term": "Diskusjon",
+      "def": "Deltakerne argumenterer for ulike standpunkter."
+    },
+    {
+      "term": "Aktiv lytting",
+      "def": "Å følge med og bygge videre på det andre sier."
+    },
+    {
+      "term": "Åpent spørsmål",
+      "def": "Spørsmål som ikke kan besvares med ja eller nei."
+    },
+    {
+      "term": "Imøtegå",
+      "def": "Å svare på et motargument."
+    },
+    {
+      "term": "Avgrensning",
+      "def": "Å snevre inn et emne slik at det blir håndterlig."
+    },
+    {
+      "term": "Problemstilling",
+      "def": "Spørsmålet presentasjonen skal svare på."
+    },
+    {
+      "term": "Fordypning",
+      "def": "Å gå grundig inn i et avgrenset emne."
+    },
+    {
+      "term": "Primærtekst",
+      "def": "Den litterære teksten du skriver eller snakker om."
+    },
+    {
+      "term": "Stikkord",
+      "def": "Korte notater som gjør det lettere å snakke fritt."
+    },
+    {
+      "term": "Overgang",
+      "def": "Setning som binder sammen delene i en presentasjon."
+    },
+    {
+      "term": "Blikkontakt",
+      "def": "Å se på publikum mens man snakker."
+    },
+    {
+      "term": "Tidsramme",
+      "def": "Tiden presentasjonen skal holde seg innenfor."
+    },
+    {
+      "term": "Fagspråk",
+      "def": "Presise fagbegreper brukt riktig."
+    },
+    {
+      "term": "Dybdekunnskap",
+      "def": "Grundig forståelse som vises i samtalen etter presentasjonen."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er målet med en utforskende samtale?", "options": ["Å vinne diskusjonen", "Å tenke sammen for å forstå noe bedre", "Å snakke mest", "Å bli ferdig raskt"], "correct": 1, "explain": "Man bygger videre på hverandre." },
-    { "id": "q02", "text": "Hvilket emne er best avgrenset?", "options": ["Hvordan framstilles kvinners frihet i Et dukkehjem og Amtmandens Døttre?", "Kvinner i litteraturen", "Norsk litteratur", "Litteratur og samfunn"], "correct": 0, "explain": "Gir en tydelig retning." },
-    { "id": "q03", "text": "Hvorfor er stikkord ofte bedre enn fullt manus?", "options": ["De er kortere å skrive", "De er påbudt", "De gjør det lettere å snakke fritt", "De gjør presentasjonen lengre"], "correct": 2, "explain": "Bedre kontakt med publikum." },
-    { "id": "q04", "text": "Hva hører til en god innledning?", "options": ["Alle kildene", "Konklusjonen", "En lang biografi", "Et blikkfang, emnet og problemstillingen"], "correct": 3, "explain": "Gi publikum oversikt." },
-    { "id": "q05", "text": "Hvordan bør lysbilder brukes?", "options": ["Som støtte med få ord og gode bilder", "Med all teksten du skal si", "Uten noen sammenheng", "I stedet for å snakke"], "correct": 0, "explain": "De skal støtte, ikke erstatte." },
-    { "id": "q06", "text": "Hva bør du gjøre hvis du er usikker på et spørsmål i samtalen?", "options": ["Late som du vet svaret", "Si hva du vet og resonnere deg fram", "Ikke svare", "Bytte tema"], "correct": 1, "explain": "Resonnering viser forståelse." },
-    { "id": "q07", "text": "Hva er et åpent spørsmål?", "options": ["Et spørsmål med ja eller nei", "Et spørsmål uten svar", "Et spørsmål som ikke kan besvares med ja eller nei", "Et ledende spørsmål"], "correct": 2, "explain": "For eksempel «Hvordan ser du det?»." },
-    { "id": "q08", "text": "Hva betyr det å imøtegå et motargument?", "options": ["Å ignorere det", "Å le av det", "Å gjenta det", "Å svare saklig på det"], "correct": 3, "explain": "Styrker din egen argumentasjon." },
-    { "id": "q09", "text": "Hva er en overgang i en presentasjon?", "options": ["En setning som binder sammen delene", "Et lysbilde", "En pause", "Et sitat"], "correct": 0, "explain": "For eksempel «Det neste jeg vil se på, er …»." },
-    { "id": "q10", "text": "Hvordan viser du at du forstår et fagbegrep?", "options": ["Ved å si det mange ganger", "Ved å bruke det på konkrete eksempler", "Ved å skrive det på lysbildet", "Ved å unngå det"], "correct": 1, "explain": "Anvendelse viser forståelse." }
+    {
+      "id": "q01",
+      "text": "Hva er målet med en utforskende samtale?",
+      "options": [
+        "Å vinne diskusjonen",
+        "Å tenke sammen for å forstå noe bedre",
+        "Å snakke mest",
+        "Å bli ferdig raskt"
+      ],
+      "correct": 1,
+      "explain": "Man bygger videre på hverandre."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket emne er best avgrenset?",
+      "options": [
+        "Hvordan framstilles kvinners frihet i Et dukkehjem og Amtmandens Døttre?",
+        "Kvinner i litteraturen",
+        "Norsk litteratur",
+        "Litteratur og samfunn"
+      ],
+      "correct": 0,
+      "explain": "Gir en tydelig retning."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor er stikkord ofte bedre enn fullt manus?",
+      "options": [
+        "De er kortere å skrive",
+        "De er påbudt",
+        "De gjør det lettere å snakke fritt",
+        "De gjør presentasjonen lengre"
+      ],
+      "correct": 2,
+      "explain": "Bedre kontakt med publikum."
+    },
+    {
+      "id": "q04",
+      "text": "Hva hører til en god innledning?",
+      "options": [
+        "Alle kildene",
+        "Konklusjonen",
+        "En lang biografi",
+        "Et blikkfang, emnet og problemstillingen"
+      ],
+      "correct": 3,
+      "explain": "Gi publikum oversikt."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan bør lysbilder brukes?",
+      "options": [
+        "Som støtte med få ord og gode bilder",
+        "Med all teksten du skal si",
+        "Uten noen sammenheng",
+        "I stedet for å snakke"
+      ],
+      "correct": 0,
+      "explain": "De skal støtte, ikke erstatte."
+    },
+    {
+      "id": "q06",
+      "text": "Hva bør du gjøre hvis du er usikker på et spørsmål i samtalen?",
+      "options": [
+        "Late som du vet svaret",
+        "Si hva du vet og resonnere deg fram",
+        "Ikke svare",
+        "Bytte tema"
+      ],
+      "correct": 1,
+      "explain": "Resonnering viser forståelse."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er et åpent spørsmål?",
+      "options": [
+        "Et spørsmål med ja eller nei",
+        "Et spørsmål uten svar",
+        "Et spørsmål som ikke kan besvares med ja eller nei",
+        "Et ledende spørsmål"
+      ],
+      "correct": 2,
+      "explain": "For eksempel «Hvordan ser du det?»."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr det å imøtegå et motargument?",
+      "options": [
+        "Å ignorere det",
+        "Å le av det",
+        "Å gjenta det",
+        "Å svare saklig på det"
+      ],
+      "correct": 3,
+      "explain": "Styrker din egen argumentasjon."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en overgang i en presentasjon?",
+      "options": [
+        "En setning som binder sammen delene",
+        "Et lysbilde",
+        "En pause",
+        "Et sitat"
+      ],
+      "correct": 0,
+      "explain": "For eksempel «Det neste jeg vil se på, er …»."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan viser du at du forstår et fagbegrep?",
+      "options": [
+        "Ved å si det mange ganger",
+        "Ved å bruke det på konkrete eksempler",
+        "Ved å skrive det på lysbildet",
+        "Ved å unngå det"
+      ],
+      "correct": 1,
+      "explain": "Anvendelse viser forståelse."
+    }
   ],
   "mindmap": {
     "label": "Muntlig i norsk",
     "children": [
-      { "label": "Samtale", "children": [
-        { "label": "Utforskende" },
-        { "label": "Aktiv lytting" },
-        { "label": "Åpne spørsmål" }
-      ] },
-      { "label": "Diskusjon", "children": [
-        { "label": "Påstand og argumenter" },
-        { "label": "Imøtegå" }
-      ] },
-      { "label": "Forberedelse", "children": [
-        { "label": "Avgrensning" },
-        { "label": "Problemstilling" },
-        { "label": "Fordypning" }
-      ] },
-      { "label": "Framføring", "children": [
-        { "label": "Struktur" },
-        { "label": "Stemme og kropp" },
-        { "label": "Hjelpemidler" }
-      ] },
-      { "label": "Etterpå", "children": [
-        { "label": "Lytt og tenk" },
-        { "label": "Fagspråk" }
-      ] }
+      {
+        "label": "Samtale",
+        "children": [
+          {
+            "label": "Utforskende"
+          },
+          {
+            "label": "Aktiv lytting"
+          },
+          {
+            "label": "Åpne spørsmål"
+          }
+        ]
+      },
+      {
+        "label": "Diskusjon",
+        "children": [
+          {
+            "label": "Påstand og argumenter"
+          },
+          {
+            "label": "Imøtegå"
+          }
+        ]
+      },
+      {
+        "label": "Forberedelse",
+        "children": [
+          {
+            "label": "Avgrensning"
+          },
+          {
+            "label": "Problemstilling"
+          },
+          {
+            "label": "Fordypning"
+          }
+        ]
+      },
+      {
+        "label": "Framføring",
+        "children": [
+          {
+            "label": "Struktur"
+          },
+          {
+            "label": "Stemme og kropp"
+          },
+          {
+            "label": "Hjelpemidler"
+          }
+        ]
+      },
+      {
+        "label": "Etterpå",
+        "children": [
+          {
+            "label": "Lytt og tenk"
+          },
+          {
+            "label": "Fagspråk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Det er lov å tenke litt før du svarer på et spørsmål.", "correct": true, "explain": "Gir bedre svar." },
-      { "id": "m02", "type": "sant-usant", "text": "I en utforskende samtale bør du aldri endre mening.", "correct": false, "explain": "Å være åpen for å endre mening er en del av det." },
-      { "id": "m03", "type": "sant-usant", "text": "Kilder bør oppgis også i en muntlig presentasjon.", "correct": true, "explain": "Etterrettelig kildebruk gjelder også muntlig." },
-      { "id": "m04", "type": "sant-usant", "text": "En god presentasjon har så mange poeng som mulig.", "correct": false, "explain": "Få, tydelige poeng er bedre." },
-      { "id": "m05", "type": "flervalg", "text": "Hva kan gjøre stemmebruken bedre?", "options": ["Snakke fort hele tiden", "Variere tempo og tonefall og bruke pauser", "Snakke lavt", "Lese opp alt"], "correct": 1, "explain": "Holder publikum engasjert." },
-      { "id": "m06", "type": "flervalg", "text": "Hva bør du lese grundig når du fordyper deg i et emne?", "options": ["Primærtekstene", "Bare sammendrag på nett", "Bare lysbildene", "Ingenting"], "correct": 0, "explain": "Grunnlaget for analysen." },
-      { "id": "m07", "type": "flervalg", "text": "Hva hører til avslutningen av en presentasjon?", "options": ["Nye poeng", "En ny problemstilling", "Oppsummering og svar eller refleksjon", "En lang kildeliste opplest"], "correct": 2, "explain": "Knytt sammen trådene." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Det er lov å tenke litt før du svarer på et spørsmål.",
+        "correct": true,
+        "explain": "Gir bedre svar."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I en utforskende samtale bør du aldri endre mening.",
+        "correct": false,
+        "explain": "Å være åpen for å endre mening er en del av det."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Kilder bør oppgis også i en muntlig presentasjon.",
+        "correct": true,
+        "explain": "Etterrettelig kildebruk gjelder også muntlig."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En god presentasjon har så mange poeng som mulig.",
+        "correct": false,
+        "explain": "Få, tydelige poeng er bedre."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva kan gjøre stemmebruken bedre?",
+        "options": [
+          "Snakke fort hele tiden",
+          "Variere tempo og tonefall og bruke pauser",
+          "Snakke lavt",
+          "Lese opp alt"
+        ],
+        "correct": 1,
+        "explain": "Holder publikum engasjert."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva bør du lese grundig når du fordyper deg i et emne?",
+        "options": [
+          "Primærtekstene",
+          "Bare sammendrag på nett",
+          "Bare lysbildene",
+          "Ingenting"
+        ],
+        "correct": 0,
+        "explain": "Grunnlaget for analysen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva hører til avslutningen av en presentasjon?",
+        "options": [
+          "Nye poeng",
+          "En ny problemstilling",
+          "Oppsummering og svar eller refleksjon",
+          "En lang kildeliste opplest"
+        ],
+        "correct": 2,
+        "explain": "Knytt sammen trådene."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign en utforskende samtale og en diskusjon. Hva er forskjellen på målet deltakerne har, og hvordan de forholder seg til ulike synspunkter?",
+        "fasit": "I en utforskende samtale tenker deltakerne sammen for å forstå noe bedre, og de kan endre mening underveis. I en diskusjon argumenterer de for ulike standpunkter og bør møte andres synspunkter med respekt.",
+        "kriterier": [
+          "Skiller mellom å undersøke noe sammen og å argumentere for standpunkter.",
+          "Får fram hvordan deltakerne forholder seg til andres syn eller egne meninger."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I en utforskende samtale sier en medelev noe du vil undersøke videre. Skriv et svar som viser aktiv lytting og inviterer medelevens til å utdype tanken.",
+        "fasit": "Du kan vise at du har fått med deg poenget, og stille et åpent oppfølgingsspørsmål. For eksempel: «Du mener altså at dette er viktig. Hva får deg til å tenke det?»",
+        "kriterier": [
+          "Viser at svaret tar utgangspunkt i det medeleven nettopp sa.",
+          "Stiller et åpent spørsmål som kan føre samtalen videre."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar hvorfor det er nyttig å avgrense et emne og formulere en problemstilling før du lager en muntlig presentasjon.",
+        "fasit": "En avgrensning gjør emnet mer håndterlig, slik at du kan gå grundig inn i det. Problemstillingen gir presentasjonen en tydelig retning og viser hva den skal svare på.",
+        "kriterier": [
+          "Forklarer at avgrensning snevrer inn et bredt emne til noe håndterlig.",
+          "Forklarer at problemstillingen styrer hva presentasjonen skal undersøke eller svare på."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du skal fordype deg i hvordan kvinners frihet framstilles i «Et dukkehjem» og «Amtmandens Døttre». Hvilke typer kilder bør du arbeide med, og hvordan kan de hjelpe deg med å utvikle hovedpoengene dine?",
+        "fasit": "Jeg bør lese primærtekstene grundig og også bruke faglitteratur og kontekst. Eksempler og sitater fra tekstene kan støtte hovedpoengene, mens faglitteratur og kontekst kan gi et bredere grunnlag for fordypningen.",
+        "kriterier": [
+          "Nevner primærtekstene og faglitteratur eller kontekst som relevante kilder.",
+          "Knytter arbeidet med kildene til å utvikle eller støtte hovedpoeng, for eksempel med eksempler eller sitater."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En presentasjon har flere viktige poeng i hoveddelen. Forklar hvordan du kan ordne dem og binde dem sammen slik at publikum lettere følger resonnementet.",
+        "fasit": "Poengene bør komme i en logisk rekkefølge og støttes med eksempler og fagbegreper. Overganger kan vise hvordan ett poeng henger sammen med det neste.",
+        "kriterier": [
+          "Får fram at poengene bør ordnes logisk.",
+          "Forklarer hvordan eksempler, fagbegreper eller overganger bidrar til å utvikle eller binde sammen poengene."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev snakker svært fort og ser mest ned på notatene sine under framføringen. Foreslå to endringer i stemmebruk eller kroppsspråk som kan gjøre framføringen tydeligere.",
+        "fasit": "Eleven kan senke tempoet og bruke pauser, slik at publikum får bedre tid til å følge med. Eleven kan også løfte blikket for å få blikkontakt med publikum.",
+        "kriterier": [
+          "Foreslår minst én relevant endring i stemmebruk, som å variere tempo eller bruke pauser.",
+          "Foreslår minst én relevant endring i kroppsspråk, som blikkontakt eller en stødig holdning."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du har fått en tidsramme for en presentasjon. Forklar hvordan øving på forhånd kan hjelpe deg med å holde deg innenfor den.",
+        "fasit": "Når jeg øver på forhånd, kan jeg undersøke om innholdet passer innenfor tidsrammen. Da kan jeg justere framføringen før jeg skal presentere.",
+        "kriterier": [
+          "Knytter øving til å kontrollere om presentasjonen passer innenfor tidsrammen.",
+          "Får fram at øving gjør det mulig å justere framføringen på forhånd."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvilken funksjon avslutningen har i en muntlig presentasjon, og hvordan den bør knyttes til problemstillingen.",
+        "fasit": "Avslutningen bør oppsummere de viktigste poengene og gi et svar eller en refleksjon. Den bør vise hvordan poengene samlet sett svarer på problemstillingen.",
+        "kriterier": [
+          "Nevner at avslutningen oppsummerer hovedpoeng og gir et svar eller en refleksjon.",
+          "Knytter avslutningen tydelig til problemstillingen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

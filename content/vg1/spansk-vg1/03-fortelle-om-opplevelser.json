@@ -4,77 +4,423 @@
   "trinnId": "vg1",
   "name": "Å fortelle om opplevelser",
   "intro": "Hvordan du forteller om opplevelser på spansk ved å kombinere pretérito indefinido og pretérito imperfecto, viktige uregelmessige verb, pluskvamperfektum og tidsuttrykk som gir fortellingen struktur.",
-  "kompetansemaal": [3, 5, 6],
+  "kompetansemaal": [
+    3,
+    5,
+    6
+  ],
   "sammendrag": "## To fortidsformer\n\nNår vi forteller om fortiden på spansk, kombinerer vi to tider:\n\n- **Pretérito imperfecto** beskriver **bakgrunn**, **situasjoner**, **vaner** og **tilstander** – hvordan det **var**.\n- **Pretérito indefinido** forteller om **avsluttede handlinger** og **hendelser** – hva som **skjedde**.\n\n*Hacía sol y **estábamos** en la playa. De repente, **empezó** a llover.* – Det var sol, og vi var på stranda. Plutselig begynte det å regne.\n\n## Imperfecto\n\n| | -ar: hablar | -er/-ir: comer / vivir |\n| --- | --- | --- |\n| yo | habl**aba** | com**ía** / viv**ía** |\n| tú | habl**abas** | com**ías** |\n| él/ella | habl**aba** | com**ía** |\n| nosotros | habl**ábamos** | com**íamos** |\n| vosotros | habl**abais** | com**íais** |\n| ellos | habl**aban** | com**ían** |\n\nBare tre verb er uregelmessige: **ser** (era), **ir** (iba) og **ver** (veía).\n\n*Cuando era pequeña, iba a la playa todos los veranos.* – Da jeg var liten, dro jeg på stranda hver sommer.\n\n## Indefinido\n\nRegelmessige endelser: **-ar**: *hablé, hablaste, habló, hablamos, hablasteis, hablaron* – **-er/-ir**: *comí, comiste, comió, comimos, comisteis, comieron*.\n\nViktige **uregelmessige** verb:\n\n| Infinitiv | yo | él/ella |\n| --- | --- | --- |\n| ser / ir | fui | fue |\n| tener | tuve | tuvo |\n| estar | estuve | estuvo |\n| hacer | hice | hizo |\n| poder | pude | pudo |\n| decir | dije | dijo |\n| venir | vine | vino |\n\nLegg merke til at **ser** og **ir** har **samme** former i indefinido – sammenhengen avgjør betydningen: *Fui a Madrid* (jeg dro) – *Fue increíble* (det var utrolig).\n\n## Pluskvamperfektum\n\n**Pretérito pluscuamperfecto** – *había* + partisipp – brukes om noe som skjedde **før** noe annet i fortiden:\n*Cuando llegamos, el tren ya **había salido**.* – Da vi kom fram, hadde toget allerede gått.\n\n## Tidsuttrykk\n\n*primero* (først), *luego / después* (så, etterpå), *de repente* (plutselig), *al final* (til slutt), *hace dos años* (for to år siden), *el verano pasado* (i fjor sommer), *ayer* (i går), *mientras* (mens).\n\n## Bygg opp en fortelling\n\n1. **Situasjonen** i imperfecto: *Era sábado. Hacía calor.*\n2. **Hendelsene** i indefinido: *Fuimos al concierto. De repente, vi a mi cantante favorito.*\n3. **Følelser**: *Estaba muy nerviosa. Tenía miedo.*\n4. **Avslutning**: *Al final, fue un día inolvidable.*",
   "flashcards": [
-    { "term": "pretérito imperfecto", "def": "fortid for bakgrunn, vaner og tilstander" },
-    { "term": "pretérito indefinido", "def": "fortid for avsluttede handlinger og hendelser" },
-    { "term": "hablaba / comía", "def": "snakket / spiste (imperfecto)" },
-    { "term": "era / iba / veía", "def": "de tre uregelmessige i imperfecto: ser, ir, ver" },
-    { "term": "hablé / comí", "def": "jeg snakket / jeg spiste (indefinido)" },
-    { "term": "fui", "def": "jeg var / jeg dro (ser og ir)" },
-    { "term": "tuve", "def": "jeg hadde (tener)" },
-    { "term": "hice", "def": "jeg gjorde (hacer)" },
-    { "term": "estuve", "def": "jeg var (estar)" },
-    { "term": "había salido", "def": "hadde gått (pluskvamperfektum)" },
-    { "term": "de repente", "def": "plutselig" },
-    { "term": "al final", "def": "til slutt" },
-    { "term": "hace dos años", "def": "for to år siden" },
-    { "term": "el verano pasado", "def": "i fjor sommer" },
-    { "term": "Hacía sol.", "def": "Det var sol." }
+    {
+      "term": "pretérito imperfecto",
+      "def": "fortid for bakgrunn, vaner og tilstander"
+    },
+    {
+      "term": "pretérito indefinido",
+      "def": "fortid for avsluttede handlinger og hendelser"
+    },
+    {
+      "term": "hablaba / comía",
+      "def": "snakket / spiste (imperfecto)"
+    },
+    {
+      "term": "era / iba / veía",
+      "def": "de tre uregelmessige i imperfecto: ser, ir, ver"
+    },
+    {
+      "term": "hablé / comí",
+      "def": "jeg snakket / jeg spiste (indefinido)"
+    },
+    {
+      "term": "fui",
+      "def": "jeg var / jeg dro (ser og ir)"
+    },
+    {
+      "term": "tuve",
+      "def": "jeg hadde (tener)"
+    },
+    {
+      "term": "hice",
+      "def": "jeg gjorde (hacer)"
+    },
+    {
+      "term": "estuve",
+      "def": "jeg var (estar)"
+    },
+    {
+      "term": "había salido",
+      "def": "hadde gått (pluskvamperfektum)"
+    },
+    {
+      "term": "de repente",
+      "def": "plutselig"
+    },
+    {
+      "term": "al final",
+      "def": "til slutt"
+    },
+    {
+      "term": "hace dos años",
+      "def": "for to år siden"
+    },
+    {
+      "term": "el verano pasado",
+      "def": "i fjor sommer"
+    },
+    {
+      "term": "Hacía sol.",
+      "def": "Det var sol."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilken tid brukes om vaner i fortiden?", "options": ["Indefinido", "Imperfecto", "Futuro", "Presens"], "correct": 1, "explain": "Iba a la playa todos los veranos." },
-    { "id": "q02", "text": "Hva er indefinido av «tener» i jeg-form?", "options": ["tuve", "tení", "tenía", "tengo"], "correct": 0, "explain": "tener er uregelmessig: tuve." },
-    { "id": "q03", "text": "Velg riktig kombinasjon: «___ sol cuando ___ a llover.»", "options": ["Hizo – empezaba", "Hace – empieza", "Hacía – empezó", "Hará – empezará"], "correct": 2, "explain": "Bakgrunn i imperfecto, hendelse i indefinido." },
-    { "id": "q04", "text": "Hva er imperfecto av «ir» i jeg-form?", "options": ["fui", "iré", "voy", "iba"], "correct": 3, "explain": "ir er uregelmessig i imperfecto: iba." },
-    { "id": "q05", "text": "Hva kan «fui» bety?", "options": ["jeg var eller jeg dro", "jeg hadde", "jeg gjorde", "jeg kom"], "correct": 0, "explain": "ser og ir har samme former i indefinido." },
-    { "id": "q06", "text": "Hva er indefinido av «hacer» i han-form?", "options": ["hació", "hizo", "hice", "hacía"], "correct": 1, "explain": "hacer: hice, hiciste, hizo." },
-    { "id": "q07", "text": "Hva uttrykker «había salido»?", "options": ["Noe som skjer nå", "En vane i fortiden", "Noe som skjedde før noe annet i fortiden", "Noe i framtiden"], "correct": 2, "explain": "Pluskvamperfektum." },
-    { "id": "q08", "text": "Hva betyr «de repente»?", "options": ["til slutt", "først", "etterpå", "plutselig"], "correct": 3, "explain": "De repente, empezó a llover." },
-    { "id": "q09", "text": "Hva er indefinido av «hablar» i jeg-form?", "options": ["hablé", "hablaba", "hablo", "hablaré"], "correct": 0, "explain": "Regelmessig -ar-verb: hablé." },
-    { "id": "q10", "text": "Hva betyr «hace dos años»?", "options": ["om to år", "for to år siden", "i to år", "hvert annet år"], "correct": 1, "explain": "hace + tid = for … siden." }
+    {
+      "id": "q01",
+      "text": "Hvilken tid brukes om vaner i fortiden?",
+      "options": [
+        "Indefinido",
+        "Imperfecto",
+        "Futuro",
+        "Presens"
+      ],
+      "correct": 1,
+      "explain": "Iba a la playa todos los veranos."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er indefinido av «tener» i jeg-form?",
+      "options": [
+        "tuve",
+        "tení",
+        "tenía",
+        "tengo"
+      ],
+      "correct": 0,
+      "explain": "tener er uregelmessig: tuve."
+    },
+    {
+      "id": "q03",
+      "text": "Velg riktig kombinasjon: «___ sol cuando ___ a llover.»",
+      "options": [
+        "Hizo – empezaba",
+        "Hace – empieza",
+        "Hacía – empezó",
+        "Hará – empezará"
+      ],
+      "correct": 2,
+      "explain": "Bakgrunn i imperfecto, hendelse i indefinido."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er imperfecto av «ir» i jeg-form?",
+      "options": [
+        "fui",
+        "iré",
+        "voy",
+        "iba"
+      ],
+      "correct": 3,
+      "explain": "ir er uregelmessig i imperfecto: iba."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kan «fui» bety?",
+      "options": [
+        "jeg var eller jeg dro",
+        "jeg hadde",
+        "jeg gjorde",
+        "jeg kom"
+      ],
+      "correct": 0,
+      "explain": "ser og ir har samme former i indefinido."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er indefinido av «hacer» i han-form?",
+      "options": [
+        "hació",
+        "hizo",
+        "hice",
+        "hacía"
+      ],
+      "correct": 1,
+      "explain": "hacer: hice, hiciste, hizo."
+    },
+    {
+      "id": "q07",
+      "text": "Hva uttrykker «había salido»?",
+      "options": [
+        "Noe som skjer nå",
+        "En vane i fortiden",
+        "Noe som skjedde før noe annet i fortiden",
+        "Noe i framtiden"
+      ],
+      "correct": 2,
+      "explain": "Pluskvamperfektum."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr «de repente»?",
+      "options": [
+        "til slutt",
+        "først",
+        "etterpå",
+        "plutselig"
+      ],
+      "correct": 3,
+      "explain": "De repente, empezó a llover."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er indefinido av «hablar» i jeg-form?",
+      "options": [
+        "hablé",
+        "hablaba",
+        "hablo",
+        "hablaré"
+      ],
+      "correct": 0,
+      "explain": "Regelmessig -ar-verb: hablé."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «hace dos años»?",
+      "options": [
+        "om to år",
+        "for to år siden",
+        "i to år",
+        "hvert annet år"
+      ],
+      "correct": 1,
+      "explain": "hace + tid = for … siden."
+    }
   ],
   "mindmap": {
     "label": "Fortelle om opplevelser",
     "children": [
-      { "label": "Imperfecto", "children": [
-        { "label": "Bakgrunn og vaner" },
-        { "label": "-aba / -ía" },
-        { "label": "era, iba, veía" }
-      ] },
-      { "label": "Indefinido", "children": [
-        { "label": "Avsluttede hendelser" },
-        { "label": "-é / -í" },
-        { "label": "fui, tuve, hice" }
-      ] },
-      { "label": "Pluskvamperfektum", "children": [
-        { "label": "había + partisipp" }
-      ] },
-      { "label": "Tidsuttrykk", "children": [
-        { "label": "primero, luego" },
-        { "label": "de repente" },
-        { "label": "al final" }
-      ] },
-      { "label": "Fortellingen", "children": [
-        { "label": "Situasjon" },
-        { "label": "Hendelser" },
-        { "label": "Følelser og slutt" }
-      ] }
+      {
+        "label": "Imperfecto",
+        "children": [
+          {
+            "label": "Bakgrunn og vaner"
+          },
+          {
+            "label": "-aba / -ía"
+          },
+          {
+            "label": "era, iba, veía"
+          }
+        ]
+      },
+      {
+        "label": "Indefinido",
+        "children": [
+          {
+            "label": "Avsluttede hendelser"
+          },
+          {
+            "label": "-é / -í"
+          },
+          {
+            "label": "fui, tuve, hice"
+          }
+        ]
+      },
+      {
+        "label": "Pluskvamperfektum",
+        "children": [
+          {
+            "label": "había + partisipp"
+          }
+        ]
+      },
+      {
+        "label": "Tidsuttrykk",
+        "children": [
+          {
+            "label": "primero, luego"
+          },
+          {
+            "label": "de repente"
+          },
+          {
+            "label": "al final"
+          }
+        ]
+      },
+      {
+        "label": "Fortellingen",
+        "children": [
+          {
+            "label": "Situasjon"
+          },
+          {
+            "label": "Hendelser"
+          },
+          {
+            "label": "Følelser og slutt"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Bare tre verb er uregelmessige i imperfecto.", "correct": true, "explain": "ser, ir og ver." },
-      { "id": "m02", "type": "sant-usant", "text": "En plutselig hendelse står vanligvis i imperfecto.", "correct": false, "explain": "Plutselige hendelser står i indefinido." },
-      { "id": "m03", "type": "sant-usant", "text": "«estuve» er indefinido av «estar».", "correct": true, "explain": "Estuve en Madrid dos semanas." },
-      { "id": "m04", "type": "sant-usant", "text": "Imperfecto av «comer» er «comaba».", "correct": false, "explain": "-er-verb får -ía: comía." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Cuando era pequeño, jugaba al fútbol»?", "options": ["Da jeg var liten, spilte jeg fotball.", "Jeg spilte fotball i går.", "Jeg skal spille fotball.", "Jeg har aldri spilt fotball."], "correct": 0, "explain": "Imperfecto om vaner." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er indefinido av «decir» i jeg-form?", "options": ["decí", "dije", "decía", "diré"], "correct": 1, "explain": "decir er uregelmessig: dije." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan sier du «i fjor sommer»?", "options": ["el verano próximo", "este verano", "el verano pasado", "en verano"], "correct": 2, "explain": "pasado = forrige." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Bare tre verb er uregelmessige i imperfecto.",
+        "correct": true,
+        "explain": "ser, ir og ver."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En plutselig hendelse står vanligvis i imperfecto.",
+        "correct": false,
+        "explain": "Plutselige hendelser står i indefinido."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«estuve» er indefinido av «estar».",
+        "correct": true,
+        "explain": "Estuve en Madrid dos semanas."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Imperfecto av «comer» er «comaba».",
+        "correct": false,
+        "explain": "-er-verb får -ía: comía."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Cuando era pequeño, jugaba al fútbol»?",
+        "options": [
+          "Da jeg var liten, spilte jeg fotball.",
+          "Jeg spilte fotball i går.",
+          "Jeg skal spille fotball.",
+          "Jeg har aldri spilt fotball."
+        ],
+        "correct": 0,
+        "explain": "Imperfecto om vaner."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er indefinido av «decir» i jeg-form?",
+        "options": [
+          "decí",
+          "dije",
+          "decía",
+          "diré"
+        ],
+        "correct": 1,
+        "explain": "decir er uregelmessig: dije."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan sier du «i fjor sommer»?",
+        "options": [
+          "el verano próximo",
+          "este verano",
+          "el verano pasado",
+          "en verano"
+        ],
+        "correct": 2,
+        "explain": "pasado = forrige."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar på spansk forskjellen mellom pretérito imperfecto og pretérito indefinido i en fortelling. Si hva slags informasjon hver tid vanligvis gir.",
+        "fasit": "El imperfecto describe el fondo, las situaciones, los hábitos o los estados. El indefinido cuenta acciones terminadas y acontecimientos.",
+        "kriterier": [
+          "Forklarer at imperfecto beskriver bakgrunn, vaner, situasjoner eller tilstander.",
+          "Forklarer at indefinido forteller om avsluttede handlinger eller hendelser."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Du vil fortelle at toget dro før dere kom fram. Skriv dette på spansk med «Cuando llegamos...» og pretérito pluscuamperfecto av «salir».",
+        "fasit": "Cuando llegamos, el tren ya había salido.",
+        "kriterier": [
+          "Bruker «había salido» om det som skjedde først.",
+          "Får fram at dere kom fram etter at toget hadde gått."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Lag en kort fortelling på spansk ut fra disse opplysningene: Det var lørdag og varmt. Dere dro på konsert. Du så favorittsangeren din og var nervøs. Dagen var uforglemmelig. Bruk «primero», «después» og «al final».",
+        "fasit": "Primero, era sábado y hacía calor. Después, fuimos al concierto y vi a mi cantante favorito; estaba muy nerviosa. Al final, fue un día inolvidable.",
+        "kriterier": [
+          "Bruker «primero», «después» og «al final» til å vise rekkefølge.",
+          "Bruker imperfecto til bakgrunn eller følelse og indefinido til avsluttede hendelser."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Skriv én spansk setning med «nosotros» og «hablar» i imperfecto, og én med «ellos» og «vivir» i imperfecto. Bruk riktig verbform.",
+        "fasit": "Nosotros hablábamos. Ellos vivían.",
+        "kriterier": [
+          "Bruker «hablábamos» med «nosotros».",
+          "Bruker «vivían» med «ellos»."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "På spansk finnes det tre uregelmessige verb i pretérito imperfecto. Nevn infinitivene, og skriv jeg-formen i imperfecto for hvert verb.",
+        "fasit": "Los tres verbos irregulares son ser, ir y ver. Sus formas son era, iba y veía.",
+        "kriterier": [
+          "Nevner ser, ir og ver som de tre uregelmessige verbene.",
+          "Knytter formene era, iba og veía til riktig verb."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar på norsk forskjellen mellom tidsuttrykkene «el verano pasado» og «al final». Hva forteller hvert uttrykk leseren?",
+        "fasit": "«El verano pasado» forteller når noe skjedde: i fjor sommer. «Al final» viser at noe skjer eller oppsummeres til slutt i en fortelling.",
+        "kriterier": [
+          "Forklarer at «el verano pasado» plasserer noe i tid, i fjor sommer.",
+          "Forklarer at «al final» viser til slutten av en hendelsesrekke eller fortelling."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Skriv én spansk setning som forteller at du i går hadde tid og var på stranda. Bruk «ayer», «tener» og «estar» i indefinido.",
+        "fasit": "Ayer tuve tiempo y estuve en la playa.",
+        "kriterier": [
+          "Bruker «tuve» som indefinido av «tener» i jeg-form.",
+          "Bruker «estuve» som indefinido av «estar» i jeg-form."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign tú-formene av «hablar» og «comer» i indefinido. Skriv begge formene og forklar kort hva endelsene viser.",
+        "fasit": "Las formas son «hablaste» y «comiste». Las dos están en indefinido y tienen terminaciones diferentes: «-aste» y «-iste».",
+        "kriterier": [
+          "Skriver «hablaste» og «comiste» riktig.",
+          "Forklarer at begge formene er indefinido, men har ulike endelser."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,77 +4,422 @@
   "trinnId": "vg3",
   "name": "Moderne tenkning og kritikken av den",
   "intro": "Kjennetegn og konsekvenser av moderne tenkning og virkelighetsforståelse – fornuft, vitenskap, individ, fremskrittstro og sekularisering – og kritikken fra romantikken, Frankfurterskolen, postmodernismen, økologisk tenkning og postkoloniale perspektiver.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Hva er moderniteten?\n\n**Moderniteten** er betegnelsen på den tenkningen og samfunnsformen som vokste fram i Europa fra **1600-tallet**, med røtter i **renessansen**, **den vitenskapelige revolusjonen** og **opplysningstiden**.\n\nKjennetegn:\n\n- **Fornuften** skal være grunnlaget for kunnskap og samfunn. **René Descartes** søkte sikker kunnskap og kom fram til «**jeg tenker, altså er jeg**».\n- **Naturvitenskapen** forklarer verden med **naturlover**. **Isaac Newton** viste at de samme lovene gjelder på jorda og i verdensrommet.\n- **Individet** står i sentrum med rettigheter, frihet og ansvar.\n- **Fremskrittstro**: Historien går mot et stadig **bedre** samfunn.\n- **Sekularisering**: Religion mister sin sentrale plass.\n- **Rasjonalisering**: Samfunnet organiseres **effektivt** gjennom byråkrati, marked og teknologi.\n\nSosiologen **Max Weber** kalte dette «**verdens avfortryllelse**»: Verden blir forklart **rasjonelt**, og det magiske og hellige trer tilbake.\n\n## Konsekvenser\n\nModerniteten har gitt **demokrati**, **menneskerettigheter**, **vitenskap**, **medisin**, **velstand** og **lengre liv**. Men den har også hatt en **mørk side**: **kolonialisme**, **industrialisert krig**, **miljøødeleggelse** og **fremmedgjøring**.\n\n## Kritikk\n\n**Romantikken** på 1800-tallet reagerte mot en for **kald** og **mekanisk** fornuft. Den løftet fram **følelser**, **naturen**, **fantasien** og det **nasjonale**.\n\n**Frankfurterskolen** – med **Theodor Adorno** og **Max Horkheimer** – skrev boka **Opplysningens dialektikk** under andre verdenskrig. De mente at fornuften kan bli et **redskap** for **kontroll** og **undertrykkelse**, og at **holocaust** viste hvordan moderne byråkrati og teknologi kunne brukes til **massedrap**.\n\n**Postmodernismen** kritiserte troen på **én sannhet** og de store forklaringene av historien. **Jean-François Lyotard** skrev i **1979** om **mistillit** til de **store fortellingene** – som fortellingen om fremskritt eller om klassesamfunnets endelige frigjøring.\n\n**Økologisk kritikk** peker på at moderne tenkning har sett naturen som en **ressurs** mennesket kan **beherske**, noe som har bidratt til **klimakrise** og **tap av natur**.\n\n**Postkolonial kritikk** viser at moderniteten ofte ble framstilt som **europeisk** og **universell**, mens andre kulturer ble sett på som **tilbakestående**.\n\n**Religiøs kritikk** hevder at moderniteten har skapt et **tomrom** av mening og verdier.\n\n## Forsvar for moderniteten\n\nForsvarere, som filosofen **Jürgen Habermas**, har kalt moderniteten et **uferdig prosjekt**. De mener at løsningen på modernitetens problemer ikke er å forlate **fornuften**, men å bruke den **bedre** – gjennom åpen **dialog**, **demokrati** og **kritikk**.\n\n## Senmodernitet\n\nNoen mener vi i dag lever i en **senmoderne** eller **flytende** tid, der identitet, arbeid og relasjoner er mindre **faste** enn før. Sosiologen **Zygmunt Bauman** brukte begrepet «**flytende modernitet**».\n\n## Drøfting\n\nNår du drøfter moderniteten, kan du spørre: Hva har moderne tenkning gjort **mulig**? Hva har den **ødelagt** eller **oversett**? Kan kritikken bygge på noe **annet** enn fornuften selv?",
   "flashcards": [
-    { "term": "Moderniteten", "def": "Tenkning og samfunnsform som vokste fram i Europa fra 1600-tallet." },
-    { "term": "René Descartes", "def": "Filosof som sa «jeg tenker, altså er jeg»." },
-    { "term": "Isaac Newton", "def": "Viste at de samme naturlovene gjelder på jorda og i verdensrommet." },
-    { "term": "Fremskrittstro", "def": "Troen på at historien går mot et stadig bedre samfunn." },
-    { "term": "Rasjonalisering", "def": "At samfunnet organiseres effektivt gjennom byråkrati, marked og teknologi." },
-    { "term": "Verdens avfortryllelse", "def": "Webers begrep om at verden forklares rasjonelt og det magiske trer tilbake." },
-    { "term": "Romantikken", "def": "Reaksjon som løftet fram følelser, natur og fantasi." },
-    { "term": "Frankfurterskolen", "def": "Adorno og Horkheimer, som kritiserte fornuften som redskap for kontroll." },
-    { "term": "Opplysningens dialektikk", "def": "Adorno og Horkheimers kritikk av moderniteten." },
-    { "term": "Postmodernisme", "def": "Kritikk av troen på én sannhet og de store fortellingene." },
-    { "term": "Jean-François Lyotard", "def": "Skrev i 1979 om mistillit til de store fortellingene." },
-    { "term": "De store fortellingene", "def": "Helhetlige forklaringer av historien, som fremskrittsfortellingen." },
-    { "term": "Jürgen Habermas", "def": "Kalte moderniteten et uferdig prosjekt." },
-    { "term": "Flytende modernitet", "def": "Baumans begrep om en tid der identitet og relasjoner er mindre faste." },
-    { "term": "Postkolonial kritikk", "def": "Viser at moderniteten ble framstilt som europeisk og universell." }
+    {
+      "term": "Moderniteten",
+      "def": "Tenkning og samfunnsform som vokste fram i Europa fra 1600-tallet."
+    },
+    {
+      "term": "René Descartes",
+      "def": "Filosof som sa «jeg tenker, altså er jeg»."
+    },
+    {
+      "term": "Isaac Newton",
+      "def": "Viste at de samme naturlovene gjelder på jorda og i verdensrommet."
+    },
+    {
+      "term": "Fremskrittstro",
+      "def": "Troen på at historien går mot et stadig bedre samfunn."
+    },
+    {
+      "term": "Rasjonalisering",
+      "def": "At samfunnet organiseres effektivt gjennom byråkrati, marked og teknologi."
+    },
+    {
+      "term": "Verdens avfortryllelse",
+      "def": "Webers begrep om at verden forklares rasjonelt og det magiske trer tilbake."
+    },
+    {
+      "term": "Romantikken",
+      "def": "Reaksjon som løftet fram følelser, natur og fantasi."
+    },
+    {
+      "term": "Frankfurterskolen",
+      "def": "Adorno og Horkheimer, som kritiserte fornuften som redskap for kontroll."
+    },
+    {
+      "term": "Opplysningens dialektikk",
+      "def": "Adorno og Horkheimers kritikk av moderniteten."
+    },
+    {
+      "term": "Postmodernisme",
+      "def": "Kritikk av troen på én sannhet og de store fortellingene."
+    },
+    {
+      "term": "Jean-François Lyotard",
+      "def": "Skrev i 1979 om mistillit til de store fortellingene."
+    },
+    {
+      "term": "De store fortellingene",
+      "def": "Helhetlige forklaringer av historien, som fremskrittsfortellingen."
+    },
+    {
+      "term": "Jürgen Habermas",
+      "def": "Kalte moderniteten et uferdig prosjekt."
+    },
+    {
+      "term": "Flytende modernitet",
+      "def": "Baumans begrep om en tid der identitet og relasjoner er mindre faste."
+    },
+    {
+      "term": "Postkolonial kritikk",
+      "def": "Viser at moderniteten ble framstilt som europeisk og universell."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner moderne tenkning?", "options": ["Tradisjon over fornuft", "Fornuft, vitenskap, individ og fremskrittstro", "Religion som grunnlag for all kunnskap", "Avvisning av vitenskap"], "correct": 1, "explain": "Også sekularisering og rasjonalisering." },
-    { "id": "q02", "text": "Hva mente Weber med verdens avfortryllelse?", "options": ["At verden forklares rasjonelt og det magiske trer tilbake", "At verden blir mer magisk", "At religion vokser", "At fornuften forsvinner"], "correct": 0, "explain": "En følge av moderniseringen." },
-    { "id": "q03", "text": "Hva kritiserte Frankfurterskolen?", "options": ["For lite fornuft", "Romantikken", "At fornuften kan bli et redskap for kontroll og undertrykkelse", "Religion"], "correct": 2, "explain": "I Opplysningens dialektikk." },
-    { "id": "q04", "text": "Hva mente Lyotard om de store fortellingene?", "options": ["At de er sanne", "At de er nye", "At de bør læres i skolen", "At det har oppstått mistillit til dem"], "correct": 3, "explain": "Postmoderne kritikk." },
-    { "id": "q05", "text": "Hva kalte Habermas moderniteten?", "options": ["Et uferdig prosjekt", "En katastrofe", "Et avsluttet kapittel", "En myte"], "correct": 0, "explain": "Fornuften må brukes bedre." },
-    { "id": "q06", "text": "Hva løftet romantikken fram som reaksjon på moderniteten?", "options": ["Byråkrati og effektivitet", "Følelser, natur og fantasi", "Statistikk", "Maskiner"], "correct": 1, "explain": "Mot en kald og mekanisk fornuft." },
-    { "id": "q07", "text": "Hva er økologisk kritikk av moderniteten?", "options": ["At den brukte for lite teknologi", "At den var for religiøs", "At den så naturen som en ressurs mennesket kan beherske", "At den var for romantisk"], "correct": 2, "explain": "Bidro til klimakrise og tap av natur." },
-    { "id": "q08", "text": "Hva sa Descartes?", "options": ["«Gud er død»", "«Mennesket er alle tings mål»", "«Jeg er fordi vi er»", "«Jeg tenker, altså er jeg»"], "correct": 3, "explain": "Søken etter sikker kunnskap." },
-    { "id": "q09", "text": "Hva er en mørk side ved moderniteten?", "options": ["Kolonialisme og industrialisert krig", "Lengre liv", "Menneskerettigheter", "Medisin"], "correct": 0, "explain": "Også miljøødeleggelse og fremmedgjøring." },
-    { "id": "q10", "text": "Hva er flytende modernitet?", "options": ["En tid med faste roller", "En tid der identitet, arbeid og relasjoner er mindre faste", "En teori om vann", "Middelalderen"], "correct": 1, "explain": "Zygmunt Baumans begrep." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner moderne tenkning?",
+      "options": [
+        "Tradisjon over fornuft",
+        "Fornuft, vitenskap, individ og fremskrittstro",
+        "Religion som grunnlag for all kunnskap",
+        "Avvisning av vitenskap"
+      ],
+      "correct": 1,
+      "explain": "Også sekularisering og rasjonalisering."
+    },
+    {
+      "id": "q02",
+      "text": "Hva mente Weber med verdens avfortryllelse?",
+      "options": [
+        "At verden forklares rasjonelt og det magiske trer tilbake",
+        "At verden blir mer magisk",
+        "At religion vokser",
+        "At fornuften forsvinner"
+      ],
+      "correct": 0,
+      "explain": "En følge av moderniseringen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kritiserte Frankfurterskolen?",
+      "options": [
+        "For lite fornuft",
+        "Romantikken",
+        "At fornuften kan bli et redskap for kontroll og undertrykkelse",
+        "Religion"
+      ],
+      "correct": 2,
+      "explain": "I Opplysningens dialektikk."
+    },
+    {
+      "id": "q04",
+      "text": "Hva mente Lyotard om de store fortellingene?",
+      "options": [
+        "At de er sanne",
+        "At de er nye",
+        "At de bør læres i skolen",
+        "At det har oppstått mistillit til dem"
+      ],
+      "correct": 3,
+      "explain": "Postmoderne kritikk."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kalte Habermas moderniteten?",
+      "options": [
+        "Et uferdig prosjekt",
+        "En katastrofe",
+        "Et avsluttet kapittel",
+        "En myte"
+      ],
+      "correct": 0,
+      "explain": "Fornuften må brukes bedre."
+    },
+    {
+      "id": "q06",
+      "text": "Hva løftet romantikken fram som reaksjon på moderniteten?",
+      "options": [
+        "Byråkrati og effektivitet",
+        "Følelser, natur og fantasi",
+        "Statistikk",
+        "Maskiner"
+      ],
+      "correct": 1,
+      "explain": "Mot en kald og mekanisk fornuft."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er økologisk kritikk av moderniteten?",
+      "options": [
+        "At den brukte for lite teknologi",
+        "At den var for religiøs",
+        "At den så naturen som en ressurs mennesket kan beherske",
+        "At den var for romantisk"
+      ],
+      "correct": 2,
+      "explain": "Bidro til klimakrise og tap av natur."
+    },
+    {
+      "id": "q08",
+      "text": "Hva sa Descartes?",
+      "options": [
+        "«Gud er død»",
+        "«Mennesket er alle tings mål»",
+        "«Jeg er fordi vi er»",
+        "«Jeg tenker, altså er jeg»"
+      ],
+      "correct": 3,
+      "explain": "Søken etter sikker kunnskap."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er en mørk side ved moderniteten?",
+      "options": [
+        "Kolonialisme og industrialisert krig",
+        "Lengre liv",
+        "Menneskerettigheter",
+        "Medisin"
+      ],
+      "correct": 0,
+      "explain": "Også miljøødeleggelse og fremmedgjøring."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er flytende modernitet?",
+      "options": [
+        "En tid med faste roller",
+        "En tid der identitet, arbeid og relasjoner er mindre faste",
+        "En teori om vann",
+        "Middelalderen"
+      ],
+      "correct": 1,
+      "explain": "Zygmunt Baumans begrep."
+    }
   ],
   "mindmap": {
     "label": "Moderniteten",
     "children": [
-      { "label": "Kjennetegn", "children": [
-        { "label": "Fornuft og vitenskap" },
-        { "label": "Individ" },
-        { "label": "Fremskritt og sekularisering" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Demokrati og velstand" },
-        { "label": "Kolonialisme og krig" }
-      ] },
-      { "label": "Kritikk", "children": [
-        { "label": "Romantikken" },
-        { "label": "Frankfurterskolen" },
-        { "label": "Postmodernismen" }
-      ] },
-      { "label": "Nyere kritikk", "children": [
-        { "label": "Økologisk" },
-        { "label": "Postkolonial" },
-        { "label": "Religiøs" }
-      ] },
-      { "label": "Forsvar", "children": [
-        { "label": "Habermas" },
-        { "label": "Flytende modernitet" }
-      ] }
+      {
+        "label": "Kjennetegn",
+        "children": [
+          {
+            "label": "Fornuft og vitenskap"
+          },
+          {
+            "label": "Individ"
+          },
+          {
+            "label": "Fremskritt og sekularisering"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Demokrati og velstand"
+          },
+          {
+            "label": "Kolonialisme og krig"
+          }
+        ]
+      },
+      {
+        "label": "Kritikk",
+        "children": [
+          {
+            "label": "Romantikken"
+          },
+          {
+            "label": "Frankfurterskolen"
+          },
+          {
+            "label": "Postmodernismen"
+          }
+        ]
+      },
+      {
+        "label": "Nyere kritikk",
+        "children": [
+          {
+            "label": "Økologisk"
+          },
+          {
+            "label": "Postkolonial"
+          },
+          {
+            "label": "Religiøs"
+          }
+        ]
+      },
+      {
+        "label": "Forsvar",
+        "children": [
+          {
+            "label": "Habermas"
+          },
+          {
+            "label": "Flytende modernitet"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Frankfurterskolen mente holocaust viste hvordan moderne byråkrati kunne brukes til massedrap.", "correct": true, "explain": "Fornuften kan bli et redskap for undertrykkelse." },
-      { "id": "m02", "type": "sant-usant", "text": "Postmodernismen styrket troen på én sannhet.", "correct": false, "explain": "Den kritiserte troen på én sannhet." },
-      { "id": "m03", "type": "sant-usant", "text": "Moderniteten har gitt både menneskerettigheter og miljøødeleggelse.", "correct": true, "explain": "Den har både lyse og mørke sider." },
-      { "id": "m04", "type": "sant-usant", "text": "Habermas mente vi burde forlate fornuften.", "correct": false, "explain": "Han mente vi må bruke den bedre." },
-      { "id": "m05", "type": "flervalg", "text": "Hvem viste at de samme naturlovene gjelder på jorda og i verdensrommet?", "options": ["Descartes", "Newton", "Weber", "Lyotard"], "correct": 1, "explain": "Viktig for den vitenskapelige revolusjonen." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er rasjonalisering?", "options": ["At samfunnet organiseres effektivt gjennom byråkrati, marked og teknologi", "At religion vokser", "At følelser styrer", "At naturen fredes"], "correct": 0, "explain": "Et kjennetegn ved moderniteten." },
-      { "id": "m07", "type": "flervalg", "text": "Hva hevder religiøs kritikk av moderniteten?", "options": ["At den er for religiøs", "At den har for lite teknologi", "At den har skapt et tomrom av mening og verdier", "At den er for gammel"], "correct": 2, "explain": "Sekulariseringen har en pris." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Frankfurterskolen mente holocaust viste hvordan moderne byråkrati kunne brukes til massedrap.",
+        "correct": true,
+        "explain": "Fornuften kan bli et redskap for undertrykkelse."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Postmodernismen styrket troen på én sannhet.",
+        "correct": false,
+        "explain": "Den kritiserte troen på én sannhet."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Moderniteten har gitt både menneskerettigheter og miljøødeleggelse.",
+        "correct": true,
+        "explain": "Den har både lyse og mørke sider."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Habermas mente vi burde forlate fornuften.",
+        "correct": false,
+        "explain": "Han mente vi må bruke den bedre."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem viste at de samme naturlovene gjelder på jorda og i verdensrommet?",
+        "options": [
+          "Descartes",
+          "Newton",
+          "Weber",
+          "Lyotard"
+        ],
+        "correct": 1,
+        "explain": "Viktig for den vitenskapelige revolusjonen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er rasjonalisering?",
+        "options": [
+          "At samfunnet organiseres effektivt gjennom byråkrati, marked og teknologi",
+          "At religion vokser",
+          "At følelser styrer",
+          "At naturen fredes"
+        ],
+        "correct": 0,
+        "explain": "Et kjennetegn ved moderniteten."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva hevder religiøs kritikk av moderniteten?",
+        "options": [
+          "At den er for religiøs",
+          "At den har for lite teknologi",
+          "At den har skapt et tomrom av mening og verdier",
+          "At den er for gammel"
+        ],
+        "correct": 2,
+        "explain": "Sekulariseringen har en pris."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Moderniteten innebærer både sekularisering og rasjonalisering. Forklar forskjellen mellom disse to utviklingstrekkene.",
+        "fasit": "Sekularisering betyr at religion mister sin sentrale plass. Rasjonalisering betyr at samfunnet organiseres mer effektivt gjennom blant annet byråkrati, marked og teknologi.",
+        "kriterier": [
+          "Skiller mellom religionens plass og organiseringen av samfunnet.",
+          "Forklarer begge utviklingstrekkene faglig riktig."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Isaac Newton viste at de samme naturlovene gjelder på jorda og i verdensrommet. Forklar hvorfor dette er et eksempel på moderne naturvitenskapelig tenkning.",
+        "fasit": "Newton viste at naturen kan forstås gjennom felles, generelle lover. Det uttrykker moderne tenkning fordi naturvitenskapen forklarer verden rasjonelt ved hjelp av naturlovene.",
+        "kriterier": [
+          "Forklarer at naturlovene gjelder på tvers av ulike deler av naturen.",
+          "Knytter dette til en rasjonell, naturvitenskapelig forklaring av verden."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En offentlig tjeneste innfører faste prosedyrer og digitale systemer for å behandle saker mest mulig effektivt. Bruk begrepet rasjonalisering til å forklare hva som skjer.",
+        "fasit": "Dette er rasjonalisering fordi tjenesten organiserer arbeidet mer effektivt gjennom prosedyrer og teknologi. Rasjonalisering handler også om effektiv organisering gjennom byråkrati og marked.",
+        "kriterier": [
+          "Knytter faste prosedyrer og/eller digitale systemer til effektiv organisering.",
+          "Forklarer at dette er et eksempel på rasjonalisering."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Postkolonial kritikk hevder at moderniteten ofte ble framstilt som europeisk og universell. Forklar hvorfor en slik framstilling kan kritiseres.",
+        "fasit": "Den kan kritiseres fordi den gjør europeiske erfaringer til målestokk for alle samfunn. Andre kulturer kan da bli framstilt som tilbakestående.",
+        "kriterier": [
+          "Forklarer at europeiske erfaringer ble framstilt som universelle eller gjeldende for alle.",
+          "Viser hvordan dette kunne føre til at andre kulturer ble sett på som tilbakestående."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Moderniteten bygger blant annet på fremskrittstro, mens økologisk kritikk peker på at naturen er blitt sett som en ressurs mennesket kan beherske. Forklar en mulig motsetning mellom disse perspektivene.",
+        "fasit": "Fremskrittstro innebærer tro på at historien går mot et stadig bedre samfunn. Økologisk kritikk peker på at ønsket om å beherske naturen har bidratt til klimakrise og tap av natur, og dermed viser at utvikling ikke nødvendigvis bare fører til noe bedre.",
+        "kriterier": [
+          "Forklarer fremskrittstro som tro på et stadig bedre samfunn.",
+          "Knytter menneskets behandling av naturen til klimakrise eller tap av natur.",
+          "Viser hvorfor dette utfordrer en ukritisk tro på fremskritt."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Moderniteten innebærer sekularisering, der religion mister sin sentrale plass. Forklar hvorfor religiøs kritikk kan hevde at dette skaper et problem for mennesker.",
+        "fasit": "Religiøs kritikk hevder at når religion mister sin sentrale plass, kan det oppstå et tomrom av mening og verdier. Problemet er altså ikke bare at religion får mindre plass, men at mennesker kan mangle retning og mening.",
+        "kriterier": [
+          "Knytter sekularisering til at religion får mindre sentral plass.",
+          "Forklarer kritikken med et mulig tomrom av mening eller verdier."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Descartes formulerte tanken «jeg tenker, altså er jeg». Forklar hvordan denne tanken viser at fornuften kan brukes som grunnlag for sikker kunnskap.",
+        "fasit": "Descartes tar utgangspunkt i det han selv ikke kan tvile på: at han tenker. Slik bruker han fornuften til å søke et sikkert grunnlag for kunnskap.",
+        "kriterier": [
+          "Forklarer at det å tenke gir Descartes et sikkert utgangspunkt.",
+          "Knytter dette til bruk av fornuft i søken etter kunnskap."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I et samfunn er folk uenige om hvordan modernitetens problemer bør løses. Bruk Habermas’ syn til å foreslå en måte å arbeide videre på uten å forkaste fornuften.",
+        "fasit": "Habermas ville ikke løse problemene ved å forlate fornuften, men ved å bruke den bedre. Åpen dialog, demokrati og kritikk kan bidra til å videreutvikle moderniteten.",
+        "kriterier": [
+          "Viser at fornuften ikke bør forkastes, men brukes bedre.",
+          "Nevner åpen dialog, demokrati eller kritikk som en måte å arbeide videre på."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

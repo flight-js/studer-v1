@@ -4,76 +4,416 @@
   "trinnId": "vg2",
   "name": "Makt, frihet og demokrati i antikken",
   "intro": "Bystatene i Hellas, det athenske demokratiet og hvem som fikk delta, Platons og Aristoteles' syn på styreformer, og den romerske republikken og keiserdømmet – med refleksjon over hva makt, frihet og demokrati betydde da og nå.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Bystatene i Hellas\n\nI antikkens Hellas fantes det ikke én stat, men hundrevis av **bystater** (**poleis**). Hver bystat hadde sitt eget styre. **Sparta** var styrt av en militær elite, mens **Athen** utviklet **demokratiet**.\n\n## Det athenske demokratiet\n\nEtter reformene til **Kleisthenes** rundt **508/507 f.Kr.** fikk borgerne i Athen makt til å styre selv. Demokratiet var på sitt mest utviklede i tiden rundt **Perikles** på 400-tallet f.Kr.\n\n- **Folkeforsamlingen** (ekklesia) var åpen for alle borgere og vedtok lover og avgjorde krig og fred.\n- **Rådet** forberedte sakene. Mange embeter ble fordelt ved **loddtrekning**.\n- **Folkedomstoler** med hundrevis av borgere dømte i saker.\n- **Ostrakisme**: Borgerne kunne stemme for å sende en farlig politiker i eksil i ti år.\n\nDet var et **direkte demokrati** – borgerne bestemte selv, uten valgte representanter.\n\n## Hvem var med?\n\nBare **frie, voksne menn** med athenske foreldre var **borgere**. **Kvinner**, **slaver** og **metøker** (innflyttere) hadde ingen politiske rettigheter. Derfor var det bare et **mindretall** av innbyggerne som kunne delta. Demokratiet hvilte også på **slavearbeid**, som ga borgerne tid til politikk.\n\n## Frihet i antikken\n\nFor grekerne betydde **frihet** først og fremst å **delta** i styringen av bystaten og ikke være **slave** eller underlagt en tyrann. Det moderne synet – at individet har **rettigheter** staten ikke kan krenke – vokste fram mye senere.\n\n## Filosofenes kritikk\n\n- **Platon** var **kritisk** til demokratiet. Han hadde sett at folkeforsamlingen dømte hans lærer **Sokrates** til døden i **399 f.Kr.** Platon mente at staten burde styres av **filosofkonger** med innsikt i det gode.\n- **Aristoteles** sammenlignet styreformer: styre av **én** (monarki eller tyranni), av **få** (aristokrati eller oligarki) og av **mange** (politeia eller demokrati). Den gode formen styrer for **alles beste**, den dårlige for **egen vinning**. Han mente en **blanding** var mest stabil.\n\n## Roma – republikk og keiserdømme\n\n**Den romerske republikken** (fra ca. 509 f.Kr.) hadde\n\n- to **konsuler** som ble valgt for ett år\n- **senatet**, der adelen hadde stor makt\n- **folkeforsamlinger** og **folketribuner** som skulle beskytte vanlige folk\n\nRepublikken hadde **maktfordeling** og **tidsbegrensning** for å hindre at én person fikk for mye makt. Men borgerkriger og mektige generaler undergravde den. I **27 f.Kr.** ble **Augustus** den første **keiseren**, og makten ble samlet hos én person – selv om republikkens institusjoner formelt fortsatte.\n\n**Romersk rett** og idéen om **borgerrett** fikk stor betydning senere. I **212 e.Kr.** fikk alle frie innbyggere i riket romersk borgerrett.\n\n## Kontinuitet og endring\n\nMange av antikkens ideer lever videre: **demokrati**, **republikk**, **senat**, **borger** og **maktfordeling**. Men innholdet har endret seg: Moderne demokrati er **representativt**, bygger på **allmenn stemmerett** og **menneskerettigheter**. Spørsmålet om **hvem** som regnes som en del av folket, har vært et hovedtema i demokratiets historie.",
   "flashcards": [
-    { "term": "Bystat (polis)", "def": "Selvstendig by med eget styre i antikkens Hellas." },
-    { "term": "Kleisthenes", "def": "Innførte demokratiske reformer i Athen rundt 508/507 f.Kr." },
-    { "term": "Perikles", "def": "Ledende politiker i Athens demokrati på 400-tallet f.Kr." },
-    { "term": "Folkeforsamlingen (ekklesia)", "def": "Forsamling av alle borgere som vedtok lover." },
-    { "term": "Loddtrekning", "def": "Metode for å fordele embeter i Athen." },
-    { "term": "Ostrakisme", "def": "Avstemning om å sende en politiker i eksil i ti år." },
-    { "term": "Direkte demokrati", "def": "Borgerne bestemmer selv uten valgte representanter." },
-    { "term": "Borgere i Athen", "def": "Frie, voksne menn med athenske foreldre." },
-    { "term": "Metøker", "def": "Innflyttere uten politiske rettigheter i Athen." },
-    { "term": "Filosofkonge", "def": "Platons ideal om hersker med innsikt i det gode." },
-    { "term": "Aristoteles' styreformer", "def": "Styre av én, få eller mange – gode og dårlige former." },
-    { "term": "Konsuler", "def": "To ledere i den romerske republikken, valgt for ett år." },
-    { "term": "Senatet", "def": "Rådsforsamling der adelen hadde stor makt i Roma." },
-    { "term": "Augustus", "def": "Første romerske keiser fra 27 f.Kr." },
-    { "term": "Romersk rett", "def": "Rettssystem som fikk stor betydning i Europa." }
+    {
+      "term": "Bystat (polis)",
+      "def": "Selvstendig by med eget styre i antikkens Hellas."
+    },
+    {
+      "term": "Kleisthenes",
+      "def": "Innførte demokratiske reformer i Athen rundt 508/507 f.Kr."
+    },
+    {
+      "term": "Perikles",
+      "def": "Ledende politiker i Athens demokrati på 400-tallet f.Kr."
+    },
+    {
+      "term": "Folkeforsamlingen (ekklesia)",
+      "def": "Forsamling av alle borgere som vedtok lover."
+    },
+    {
+      "term": "Loddtrekning",
+      "def": "Metode for å fordele embeter i Athen."
+    },
+    {
+      "term": "Ostrakisme",
+      "def": "Avstemning om å sende en politiker i eksil i ti år."
+    },
+    {
+      "term": "Direkte demokrati",
+      "def": "Borgerne bestemmer selv uten valgte representanter."
+    },
+    {
+      "term": "Borgere i Athen",
+      "def": "Frie, voksne menn med athenske foreldre."
+    },
+    {
+      "term": "Metøker",
+      "def": "Innflyttere uten politiske rettigheter i Athen."
+    },
+    {
+      "term": "Filosofkonge",
+      "def": "Platons ideal om hersker med innsikt i det gode."
+    },
+    {
+      "term": "Aristoteles' styreformer",
+      "def": "Styre av én, få eller mange – gode og dårlige former."
+    },
+    {
+      "term": "Konsuler",
+      "def": "To ledere i den romerske republikken, valgt for ett år."
+    },
+    {
+      "term": "Senatet",
+      "def": "Rådsforsamling der adelen hadde stor makt i Roma."
+    },
+    {
+      "term": "Augustus",
+      "def": "Første romerske keiser fra 27 f.Kr."
+    },
+    {
+      "term": "Romersk rett",
+      "def": "Rettssystem som fikk stor betydning i Europa."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvem kunne delta i det athenske demokratiet?", "options": ["Alle innbyggere", "Frie, voksne menn med athenske foreldre", "Bare adelen", "Kvinner og menn"], "correct": 1, "explain": "Kvinner, slaver og metøker var utelukket." },
-    { "id": "q02", "text": "Hva var ostrakisme?", "options": ["Avstemning om å sende en politiker i eksil i ti år", "En type skatt", "En olympisk øvelse", "Et tempel"], "correct": 0, "explain": "Stemmene ble risset i potteskår." },
-    { "id": "q03", "text": "Hvorfor var Platon kritisk til demokratiet?", "options": ["Fordi det var for strengt", "Fordi det var for lite", "Blant annet fordi folkeforsamlingen dømte Sokrates til døden", "Fordi det var romersk"], "correct": 2, "explain": "Han ville ha filosofkonger." },
-    { "id": "q04", "text": "Hva skilte en god og en dårlig styreform ifølge Aristoteles?", "options": ["Antall ledere", "Hvor rik staten var", "Om lederne var menn", "Om styret var for alles beste eller for egen vinning"], "correct": 3, "explain": "Han mente en blanding var mest stabil." },
-    { "id": "q05", "text": "Hvem ble den første romerske keiseren?", "options": ["Augustus", "Julius Cæsar", "Nero", "Konstantin"], "correct": 0, "explain": "I 27 f.Kr." },
-    { "id": "q06", "text": "Hva var et direkte demokrati i Athen?", "options": ["Valgte representanter bestemte", "Borgerne bestemte selv uten representanter", "Kongen bestemte", "Presteskapet bestemte"], "correct": 1, "explain": "Folkeforsamlingen." },
-    { "id": "q07", "text": "Hvordan skulle den romerske republikken hindre maktmisbruk?", "options": ["Ved å ha én konge", "Ved å avskaffe senatet", "Ved to konsuler valgt for ett år og maktfordeling", "Ved å forby valg"], "correct": 2, "explain": "Tidsbegrensning og deling av makt." },
-    { "id": "q08", "text": "Hva betydde frihet først og fremst for grekerne?", "options": ["Individuelle rettigheter mot staten", "Ytringsfrihet på nett", "Fri handel", "Å delta i styringen og ikke være slave"], "correct": 3, "explain": "Det moderne rettighetsbegrepet kom senere." },
-    { "id": "q09", "text": "Hvordan skiller moderne demokrati seg fra det athenske?", "options": ["Det er representativt og bygger på allmenn stemmerett", "Det er direkte", "Det utelukker kvinner", "Det bruker loddtrekning til alt"], "correct": 0, "explain": "Og på menneskerettigheter." },
-    { "id": "q10", "text": "Når fikk alle frie innbyggere i Romerriket borgerrett?", "options": ["509 f.Kr.", "212 e.Kr.", "27 f.Kr.", "1215"], "correct": 1, "explain": "En viktig utvidelse av borgerretten." }
+    {
+      "id": "q01",
+      "text": "Hvem kunne delta i det athenske demokratiet?",
+      "options": [
+        "Alle innbyggere",
+        "Frie, voksne menn med athenske foreldre",
+        "Bare adelen",
+        "Kvinner og menn"
+      ],
+      "correct": 1,
+      "explain": "Kvinner, slaver og metøker var utelukket."
+    },
+    {
+      "id": "q02",
+      "text": "Hva var ostrakisme?",
+      "options": [
+        "Avstemning om å sende en politiker i eksil i ti år",
+        "En type skatt",
+        "En olympisk øvelse",
+        "Et tempel"
+      ],
+      "correct": 0,
+      "explain": "Stemmene ble risset i potteskår."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor var Platon kritisk til demokratiet?",
+      "options": [
+        "Fordi det var for strengt",
+        "Fordi det var for lite",
+        "Blant annet fordi folkeforsamlingen dømte Sokrates til døden",
+        "Fordi det var romersk"
+      ],
+      "correct": 2,
+      "explain": "Han ville ha filosofkonger."
+    },
+    {
+      "id": "q04",
+      "text": "Hva skilte en god og en dårlig styreform ifølge Aristoteles?",
+      "options": [
+        "Antall ledere",
+        "Hvor rik staten var",
+        "Om lederne var menn",
+        "Om styret var for alles beste eller for egen vinning"
+      ],
+      "correct": 3,
+      "explain": "Han mente en blanding var mest stabil."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem ble den første romerske keiseren?",
+      "options": [
+        "Augustus",
+        "Julius Cæsar",
+        "Nero",
+        "Konstantin"
+      ],
+      "correct": 0,
+      "explain": "I 27 f.Kr."
+    },
+    {
+      "id": "q06",
+      "text": "Hva var et direkte demokrati i Athen?",
+      "options": [
+        "Valgte representanter bestemte",
+        "Borgerne bestemte selv uten representanter",
+        "Kongen bestemte",
+        "Presteskapet bestemte"
+      ],
+      "correct": 1,
+      "explain": "Folkeforsamlingen."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan skulle den romerske republikken hindre maktmisbruk?",
+      "options": [
+        "Ved å ha én konge",
+        "Ved å avskaffe senatet",
+        "Ved to konsuler valgt for ett år og maktfordeling",
+        "Ved å forby valg"
+      ],
+      "correct": 2,
+      "explain": "Tidsbegrensning og deling av makt."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betydde frihet først og fremst for grekerne?",
+      "options": [
+        "Individuelle rettigheter mot staten",
+        "Ytringsfrihet på nett",
+        "Fri handel",
+        "Å delta i styringen og ikke være slave"
+      ],
+      "correct": 3,
+      "explain": "Det moderne rettighetsbegrepet kom senere."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan skiller moderne demokrati seg fra det athenske?",
+      "options": [
+        "Det er representativt og bygger på allmenn stemmerett",
+        "Det er direkte",
+        "Det utelukker kvinner",
+        "Det bruker loddtrekning til alt"
+      ],
+      "correct": 0,
+      "explain": "Og på menneskerettigheter."
+    },
+    {
+      "id": "q10",
+      "text": "Når fikk alle frie innbyggere i Romerriket borgerrett?",
+      "options": [
+        "509 f.Kr.",
+        "212 e.Kr.",
+        "27 f.Kr.",
+        "1215"
+      ],
+      "correct": 1,
+      "explain": "En viktig utvidelse av borgerretten."
+    }
   ],
   "mindmap": {
     "label": "Antikkens makt og demokrati",
     "children": [
-      { "label": "Hellas", "children": [
-        { "label": "Bystater" },
-        { "label": "Sparta og Athen" }
-      ] },
-      { "label": "Athens demokrati", "children": [
-        { "label": "Kleisthenes og Perikles" },
-        { "label": "Folkeforsamling og loddtrekning" },
-        { "label": "Hvem var med?" }
-      ] },
-      { "label": "Filosofene", "children": [
-        { "label": "Platon: filosofkonger" },
-        { "label": "Aristoteles: styreformer" }
-      ] },
-      { "label": "Roma", "children": [
-        { "label": "Republikk" },
-        { "label": "Keiserdømme" },
-        { "label": "Romersk rett" }
-      ] },
-      { "label": "Kontinuitet og endring", "children": [
-        { "label": "Frihet da og nå" },
-        { "label": "Direkte og representativt" }
-      ] }
+      {
+        "label": "Hellas",
+        "children": [
+          {
+            "label": "Bystater"
+          },
+          {
+            "label": "Sparta og Athen"
+          }
+        ]
+      },
+      {
+        "label": "Athens demokrati",
+        "children": [
+          {
+            "label": "Kleisthenes og Perikles"
+          },
+          {
+            "label": "Folkeforsamling og loddtrekning"
+          },
+          {
+            "label": "Hvem var med?"
+          }
+        ]
+      },
+      {
+        "label": "Filosofene",
+        "children": [
+          {
+            "label": "Platon: filosofkonger"
+          },
+          {
+            "label": "Aristoteles: styreformer"
+          }
+        ]
+      },
+      {
+        "label": "Roma",
+        "children": [
+          {
+            "label": "Republikk"
+          },
+          {
+            "label": "Keiserdømme"
+          },
+          {
+            "label": "Romersk rett"
+          }
+        ]
+      },
+      {
+        "label": "Kontinuitet og endring",
+        "children": [
+          {
+            "label": "Frihet da og nå"
+          },
+          {
+            "label": "Direkte og representativt"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Demokratiet i Athen hvilte blant annet på slavearbeid.", "correct": true, "explain": "Slavene ga borgerne tid til politikk." },
-      { "id": "m02", "type": "sant-usant", "text": "Kvinner hadde stemmerett i Athens folkeforsamling.", "correct": false, "explain": "Bare frie, voksne menn med athenske foreldre." },
-      { "id": "m03", "type": "sant-usant", "text": "Ord som senat og republikk stammer fra Roma.", "correct": true, "explain": "Antikkens begreper lever videre." },
-      { "id": "m04", "type": "sant-usant", "text": "Aristoteles mente at styre av én alltid er dårlig.", "correct": false, "explain": "Monarki kunne være godt hvis det styrte for alles beste." },
-      { "id": "m05", "type": "flervalg", "text": "Hvordan ble mange embeter fordelt i Athen?", "options": ["Ved arv", "Ved loddtrekning", "Ved kjøp", "Av kongen"], "correct": 1, "explain": "For å gi alle borgere samme sjanse." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken bystat var styrt av en militær elite?", "options": ["Sparta", "Athen", "Korint", "Roma"], "correct": 0, "explain": "Kjent for sitt krigerske samfunn." },
-      { "id": "m07", "type": "flervalg", "text": "Når ble Sokrates dømt til døden?", "options": ["508 f.Kr.", "27 f.Kr.", "399 f.Kr.", "212 e.Kr."], "correct": 2, "explain": "Av en folkedomstol i Athen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Demokratiet i Athen hvilte blant annet på slavearbeid.",
+        "correct": true,
+        "explain": "Slavene ga borgerne tid til politikk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kvinner hadde stemmerett i Athens folkeforsamling.",
+        "correct": false,
+        "explain": "Bare frie, voksne menn med athenske foreldre."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Ord som senat og republikk stammer fra Roma.",
+        "correct": true,
+        "explain": "Antikkens begreper lever videre."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Aristoteles mente at styre av én alltid er dårlig.",
+        "correct": false,
+        "explain": "Monarki kunne være godt hvis det styrte for alles beste."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvordan ble mange embeter fordelt i Athen?",
+        "options": [
+          "Ved arv",
+          "Ved loddtrekning",
+          "Ved kjøp",
+          "Av kongen"
+        ],
+        "correct": 1,
+        "explain": "For å gi alle borgere samme sjanse."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken bystat var styrt av en militær elite?",
+        "options": [
+          "Sparta",
+          "Athen",
+          "Korint",
+          "Roma"
+        ],
+        "correct": 0,
+        "explain": "Kjent for sitt krigerske samfunn."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Når ble Sokrates dømt til døden?",
+        "options": [
+          "508 f.Kr.",
+          "27 f.Kr.",
+          "399 f.Kr.",
+          "212 e.Kr."
+        ],
+        "correct": 2,
+        "explain": "Av en folkedomstol i Athen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva var en bystat, eller polis, i antikkens Hellas?",
+        "fasit": "En bystat var en selvstendig by med eget styre. I Hellas fantes det mange bystater, blant annet Athen og Sparta.",
+        "kriterier": [
+          "Forklarer at bystaten var selvstendig og hadde eget styre."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign Kleisthenes og Perikles sin betydning for demokratiet i Athen.",
+        "fasit": "Kleisthenes innførte demokratiske reformer rundt 508/507 f.Kr. Perikles var en ledende politiker da demokratiet var på sitt mest utviklede på 400-tallet f.Kr.",
+        "kriterier": [
+          "Knytter Kleisthenes til innføringen av demokratiske reformer.",
+          "Knytter Perikles til Athens demokrati på 400-tallet f.Kr."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I Athen vedtok folkeforsamlingen lover, mens Rådet forberedte saker. Forklar forskjellen på oppgavene deres.",
+        "fasit": "Folkeforsamlingen, som var åpen for alle borgere, vedtok lover og avgjorde krig og fred. Rådet forberedte sakene som skulle behandles.",
+        "kriterier": [
+          "Forklarer at folkeforsamlingen vedtok lover eller avgjorde krig og fred.",
+          "Forklarer at Rådet forberedte saker."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hva innebar loddtrekning i Athen, og hva ble metoden brukt til?",
+        "fasit": "Loddtrekning innebar at man fordelte oppgaver ved å trekke lodd. I Athen ble mange embeter fordelt på denne måten.",
+        "kriterier": [
+          "Forklarer at loddtrekning fordelte roller eller oppgaver ved trekning.",
+          "Knytter metoden til fordeling av mange embeter i Athen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hvordan kunne slavearbeid gi athenske borgere bedre mulighet til å delta i politikken?",
+        "fasit": "Slavearbeid utførte arbeid som ellers måtte gjøres av borgerne. Det ga borgerne mer tid til å delta i politikken.",
+        "kriterier": [
+          "Forklarer sammenhengen mellom slavearbeid og at borgerne fikk tid til politikk."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I den romerske republikken hadde senatet stor makt, mens folketribunene skulle beskytte vanlige folk. Forklar hvilken rolle hver av disse hadde.",
+        "fasit": "Senatet var en rådsforsamling der adelen hadde stor makt. Folketribunene skulle beskytte vanlige folk.",
+        "kriterier": [
+          "Knytter senatets makt til adelen.",
+          "Forklarer at folketribunene skulle beskytte vanlige folk."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Da Roma gikk fra republikk til keiserdømme, hva skjedde med makten, og hva skjedde med republikkens institusjoner?",
+        "fasit": "Makten ble samlet hos én person. Republikkens institusjoner fortsatte likevel formelt å eksistere.",
+        "kriterier": [
+          "Forklarer at makten ble samlet hos én person.",
+          "Nevner at republikkens institusjoner formelt fortsatte."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Aristoteles delte styreformer inn etter om én, få eller mange styrte. Hvilken løsning mente han var mest stabil?",
+        "fasit": "Aristoteles mente at en blanding av styreformer var mest stabil. Han skilte mellom styre av én, få og mange.",
+        "kriterier": [
+          "Nevner at Aristoteles mente en blanding av styreformer var mest stabil.",
+          "Viser forståelse for inndelingen i styre av én, få eller mange."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,80 +4,430 @@
   "trinnId": "vg2",
   "name": "Makt, konfliktlinjer og kanaler for innflytelse",
   "intro": "Hvem som har makt i Norge, konfliktdimensjonene som former partiene, og de ulike kanalene for politisk innflytelse – parlamentarisk, korporativ, aksjon, media og rettslig – med eksempler fra praktisk politikk.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Makt i det norske systemet\n\nFormelt ligger makten hos **Stortinget**, **regjeringen** og **domstolene**. Men mange andre aktører påvirker politikken: **partier**, **interesseorganisasjoner**, **næringslivet**, **byråkratiet**, **medier**, **eksperter** og **aktivister**.\n\nDen store **Maktutredningen**, som ble avsluttet i **2003**, konkluderte med at **folkestyret** var svekket – fordi makt var flyttet fra folkevalgte til blant annet **markeder**, **domstoler**, **byråkrati**, **eksperter** og **internasjonale avtaler**.\n\n## Konfliktdimensjoner\n\nNorsk politikk kan beskrives langs flere **konfliktdimensjoner**:\n\n- **Økonomisk høyre–venstre**: Hvor mye skal **staten** styre, skattlegge og omfordele, og hvor mye skal overlates til **markedet**?\n- **Sentrum–periferi**: Hvor skal arbeidsplasser, sykehus, skoler og makt ligge – i byene eller i distriktene?\n- **Verdikonflikter**: innvandring, religion, familie, rus og likestilling.\n- **Miljø–vekst**: Hvor mye skal hensynet til **klima og natur** veie mot **økonomisk vekst** og arbeidsplasser, for eksempel i oljepolitikken?\n- **EU-spørsmålet**: nasjonal selvråderett mot europeisk samarbeid.\n\nPartiene plasserer seg ulikt på dimensjonene, og derfor kan de være enige i én sak og uenige i en annen.\n\n## Kanaler for innflytelse\n\n**1. Den parlamentariske kanalen**\n\nPåvirkning gjennom **valg**, **partier** og **folkevalgte**. Du kan stemme, melde deg inn i et parti, stille til valg eller kontakte politikere.\n\n**2. Den korporative kanalen**\n\n**Interesseorganisasjoner** – for eksempel **LO**, **NHO**, **Bondelaget** og miljøorganisasjoner – påvirker gjennom **høringer**, **utvalg** og **forhandlinger** med staten. **Trepartssamarbeidet** mellom arbeidstakere, arbeidsgivere og staten om lønn og arbeidsliv er et typisk eksempel. **Lobbyisme** er påvirkning av beslutningstakere på vegne av interesser.\n\n**3. Aksjonskanalen**\n\n**Demonstrasjoner**, **underskriftskampanjer**, **boikott** og **sivil ulydighet**. Eksempler er **Fosen-aksjonene** i 2023 og **skolestreikene for klima**. Aksjoner kan sette saker på dagsordenen raskt.\n\n**4. Mediekanalen**\n\nGjennom **medieoppslag**, **debattinnlegg** og **sosiale medier** kan saker få oppmerksomhet og legge press på politikerne. Mediene har **dagsordenmakt**.\n\n**5. Den rettslige kanalen**\n\nOrganisasjoner og enkeltpersoner kan gå til **domstolene** for å få prøvd om staten følger lover, **Grunnloven** og **menneskerettighetene**. **Klimasøksmålet** mot staten om oljeboring og **Fosen-dommen** i Høyesterett i 2021 er eksempler.\n\n## Hvem når fram?\n\nIkke alle har like store **maktressurser**. Grupper med mye **penger**, gode **nettverk**, **kunnskap** og **organisering** har ofte lettere for å påvirke. Svake grupper kan likevel få gjennomslag gjennom **aksjoner**, **media** og **domstoler**.\n\n## Eksempel fra praktisk politikk\n\nNår Stortinget skal behandle en sak om **vindkraft**, kan **næringslivet** bruke den korporative kanalen, **miljøorganisasjoner** og **reindriftssamer** kan bruke aksjoner, media og domstoler, og **partiene** må veie hensyn langs flere konfliktdimensjoner: **klima**, **natur**, **distrikter**, **urfolksrettigheter** og **økonomi**.",
   "flashcards": [
-    { "term": "Maktutredningen", "def": "Konkluderte i 2003 med at folkestyret var svekket." },
-    { "term": "Økonomisk høyre–venstre", "def": "Konflikt om statens og markedets rolle." },
-    { "term": "Sentrum–periferi", "def": "Konflikt mellom by og distrikt om ressurser og makt." },
-    { "term": "Verdikonflikt", "def": "Uenighet om innvandring, religion, familie og likestilling." },
-    { "term": "Miljø–vekst", "def": "Konflikt mellom klima- og naturhensyn og økonomisk vekst." },
-    { "term": "Parlamentarisk kanal", "def": "Påvirkning via valg, partier og folkevalgte." },
-    { "term": "Korporativ kanal", "def": "Påvirkning via organisasjoner, høringer og forhandlinger." },
-    { "term": "Trepartssamarbeid", "def": "Samarbeid mellom arbeidstakere, arbeidsgivere og staten." },
-    { "term": "Lobbyisme", "def": "Påvirkning av beslutningstakere på vegne av interesser." },
-    { "term": "Aksjonskanalen", "def": "Demonstrasjoner, kampanjer og sivil ulydighet." },
-    { "term": "Mediekanalen", "def": "Påvirkning gjennom medieoppslag og sosiale medier." },
-    { "term": "Dagsordenmakt", "def": "Makten til å bestemme hva som blir diskutert." },
-    { "term": "Rettslig kanal", "def": "Påvirkning ved å gå til domstolene." },
-    { "term": "Klimasøksmålet", "def": "Rettssak mot staten om oljeboring og miljørettigheter." },
-    { "term": "Høring", "def": "Organisasjoner og andre får uttale seg om forslag." }
+    {
+      "term": "Maktutredningen",
+      "def": "Konkluderte i 2003 med at folkestyret var svekket."
+    },
+    {
+      "term": "Økonomisk høyre–venstre",
+      "def": "Konflikt om statens og markedets rolle."
+    },
+    {
+      "term": "Sentrum–periferi",
+      "def": "Konflikt mellom by og distrikt om ressurser og makt."
+    },
+    {
+      "term": "Verdikonflikt",
+      "def": "Uenighet om innvandring, religion, familie og likestilling."
+    },
+    {
+      "term": "Miljø–vekst",
+      "def": "Konflikt mellom klima- og naturhensyn og økonomisk vekst."
+    },
+    {
+      "term": "Parlamentarisk kanal",
+      "def": "Påvirkning via valg, partier og folkevalgte."
+    },
+    {
+      "term": "Korporativ kanal",
+      "def": "Påvirkning via organisasjoner, høringer og forhandlinger."
+    },
+    {
+      "term": "Trepartssamarbeid",
+      "def": "Samarbeid mellom arbeidstakere, arbeidsgivere og staten."
+    },
+    {
+      "term": "Lobbyisme",
+      "def": "Påvirkning av beslutningstakere på vegne av interesser."
+    },
+    {
+      "term": "Aksjonskanalen",
+      "def": "Demonstrasjoner, kampanjer og sivil ulydighet."
+    },
+    {
+      "term": "Mediekanalen",
+      "def": "Påvirkning gjennom medieoppslag og sosiale medier."
+    },
+    {
+      "term": "Dagsordenmakt",
+      "def": "Makten til å bestemme hva som blir diskutert."
+    },
+    {
+      "term": "Rettslig kanal",
+      "def": "Påvirkning ved å gå til domstolene."
+    },
+    {
+      "term": "Klimasøksmålet",
+      "def": "Rettssak mot staten om oljeboring og miljørettigheter."
+    },
+    {
+      "term": "Høring",
+      "def": "Organisasjoner og andre får uttale seg om forslag."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva konkluderte Maktutredningen med i 2003?", "options": ["At folkestyret var styrket", "At folkestyret var svekket", "At Stortinget hadde all makt", "At media ikke har makt"], "correct": 1, "explain": "Makt var flyttet til blant annet markeder og domstoler." },
-    { "id": "q02", "text": "Hva er den korporative kanalen?", "options": ["Påvirkning via organisasjoner, høringer og forhandlinger", "Påvirkning via valg", "Påvirkning via demonstrasjoner", "Påvirkning via domstolene"], "correct": 0, "explain": "For eksempel LO og NHO." },
-    { "id": "q03", "text": "Hva er et eksempel på aksjonskanalen?", "options": ["Å stemme ved valg", "Å delta i en høring", "Skolestreik for klima", "Å gå til Høyesterett"], "correct": 2, "explain": "Aksjoner setter saker på dagsordenen." },
-    { "id": "q04", "text": "Hva handler den økonomiske høyre–venstre-dimensjonen om?", "options": ["Språk og religion", "By og land", "EU-medlemskap", "Hvor mye staten skal styre og omfordele"], "correct": 3, "explain": "Stat mot marked." },
-    { "id": "q05", "text": "Hva er den rettslige kanalen?", "options": ["Å gå til domstolene for å prøve om staten følger loven", "Å skrive debattinnlegg", "Å melde seg inn i et parti", "Å boikotte en bedrift"], "correct": 0, "explain": "For eksempel Fosen-saken." },
-    { "id": "q06", "text": "Hvorfor kan partier være enige i én sak og uenige i en annen?", "options": ["Fordi de ikke har program", "Fordi de plasserer seg ulikt på flere konfliktdimensjoner", "Fordi de alltid er enige", "Fordi de bytter meninger tilfeldig"], "correct": 1, "explain": "Politikken er flerdimensjonal." },
-    { "id": "q07", "text": "Hva er dagsordenmakt?", "options": ["Makten til å vedta lover", "Makten til å dømme", "Makten til å bestemme hva som blir diskutert", "Makten til å velge statsminister"], "correct": 2, "explain": "Mediene har mye av den." },
-    { "id": "q08", "text": "Hvilke grupper har ofte lettest for å påvirke politikken?", "options": ["Grupper uten organisering", "Grupper uten nettverk", "Grupper uten kunnskap", "Grupper med mye penger, gode nettverk og god organisering"], "correct": 3, "explain": "Maktressurser er ulikt fordelt." },
-    { "id": "q09", "text": "Hva er lobbyisme?", "options": ["Påvirkning av beslutningstakere på vegne av interesser", "Å sitte i Stortingets lobby", "Å stemme ved valg", "Å demonstrere"], "correct": 0, "explain": "En del av den korporative kanalen." },
-    { "id": "q10", "text": "Hvilken konfliktdimensjon handler om hvor sykehus og arbeidsplasser skal ligge?", "options": ["Miljø–vekst", "Sentrum–periferi", "Verdikonflikter", "EU-spørsmålet"], "correct": 1, "explain": "By mot distrikt." }
+    {
+      "id": "q01",
+      "text": "Hva konkluderte Maktutredningen med i 2003?",
+      "options": [
+        "At folkestyret var styrket",
+        "At folkestyret var svekket",
+        "At Stortinget hadde all makt",
+        "At media ikke har makt"
+      ],
+      "correct": 1,
+      "explain": "Makt var flyttet til blant annet markeder og domstoler."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er den korporative kanalen?",
+      "options": [
+        "Påvirkning via organisasjoner, høringer og forhandlinger",
+        "Påvirkning via valg",
+        "Påvirkning via demonstrasjoner",
+        "Påvirkning via domstolene"
+      ],
+      "correct": 0,
+      "explain": "For eksempel LO og NHO."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er et eksempel på aksjonskanalen?",
+      "options": [
+        "Å stemme ved valg",
+        "Å delta i en høring",
+        "Skolestreik for klima",
+        "Å gå til Høyesterett"
+      ],
+      "correct": 2,
+      "explain": "Aksjoner setter saker på dagsordenen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva handler den økonomiske høyre–venstre-dimensjonen om?",
+      "options": [
+        "Språk og religion",
+        "By og land",
+        "EU-medlemskap",
+        "Hvor mye staten skal styre og omfordele"
+      ],
+      "correct": 3,
+      "explain": "Stat mot marked."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er den rettslige kanalen?",
+      "options": [
+        "Å gå til domstolene for å prøve om staten følger loven",
+        "Å skrive debattinnlegg",
+        "Å melde seg inn i et parti",
+        "Å boikotte en bedrift"
+      ],
+      "correct": 0,
+      "explain": "For eksempel Fosen-saken."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor kan partier være enige i én sak og uenige i en annen?",
+      "options": [
+        "Fordi de ikke har program",
+        "Fordi de plasserer seg ulikt på flere konfliktdimensjoner",
+        "Fordi de alltid er enige",
+        "Fordi de bytter meninger tilfeldig"
+      ],
+      "correct": 1,
+      "explain": "Politikken er flerdimensjonal."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er dagsordenmakt?",
+      "options": [
+        "Makten til å vedta lover",
+        "Makten til å dømme",
+        "Makten til å bestemme hva som blir diskutert",
+        "Makten til å velge statsminister"
+      ],
+      "correct": 2,
+      "explain": "Mediene har mye av den."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilke grupper har ofte lettest for å påvirke politikken?",
+      "options": [
+        "Grupper uten organisering",
+        "Grupper uten nettverk",
+        "Grupper uten kunnskap",
+        "Grupper med mye penger, gode nettverk og god organisering"
+      ],
+      "correct": 3,
+      "explain": "Maktressurser er ulikt fordelt."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er lobbyisme?",
+      "options": [
+        "Påvirkning av beslutningstakere på vegne av interesser",
+        "Å sitte i Stortingets lobby",
+        "Å stemme ved valg",
+        "Å demonstrere"
+      ],
+      "correct": 0,
+      "explain": "En del av den korporative kanalen."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken konfliktdimensjon handler om hvor sykehus og arbeidsplasser skal ligge?",
+      "options": [
+        "Miljø–vekst",
+        "Sentrum–periferi",
+        "Verdikonflikter",
+        "EU-spørsmålet"
+      ],
+      "correct": 1,
+      "explain": "By mot distrikt."
+    }
   ],
   "mindmap": {
     "label": "Makt og kanaler",
     "children": [
-      { "label": "Makt", "children": [
-        { "label": "Formelle institusjoner" },
-        { "label": "Andre aktører" },
-        { "label": "Maktutredningen" }
-      ] },
-      { "label": "Konfliktdimensjoner", "children": [
-        { "label": "Høyre–venstre" },
-        { "label": "Sentrum–periferi" },
-        { "label": "Verdier" },
-        { "label": "Miljø–vekst" }
-      ] },
-      { "label": "Kanaler", "children": [
-        { "label": "Parlamentarisk" },
-        { "label": "Korporativ" },
-        { "label": "Aksjon" },
-        { "label": "Media og rettslig" }
-      ] },
-      { "label": "Maktressurser", "children": [
-        { "label": "Penger og nettverk" },
-        { "label": "Kunnskap og organisering" }
-      ] },
-      { "label": "Praksis", "children": [
-        { "label": "Vindkraft" },
-        { "label": "Fosen" },
-        { "label": "Klimasøksmålet" }
-      ] }
+      {
+        "label": "Makt",
+        "children": [
+          {
+            "label": "Formelle institusjoner"
+          },
+          {
+            "label": "Andre aktører"
+          },
+          {
+            "label": "Maktutredningen"
+          }
+        ]
+      },
+      {
+        "label": "Konfliktdimensjoner",
+        "children": [
+          {
+            "label": "Høyre–venstre"
+          },
+          {
+            "label": "Sentrum–periferi"
+          },
+          {
+            "label": "Verdier"
+          },
+          {
+            "label": "Miljø–vekst"
+          }
+        ]
+      },
+      {
+        "label": "Kanaler",
+        "children": [
+          {
+            "label": "Parlamentarisk"
+          },
+          {
+            "label": "Korporativ"
+          },
+          {
+            "label": "Aksjon"
+          },
+          {
+            "label": "Media og rettslig"
+          }
+        ]
+      },
+      {
+        "label": "Maktressurser",
+        "children": [
+          {
+            "label": "Penger og nettverk"
+          },
+          {
+            "label": "Kunnskap og organisering"
+          }
+        ]
+      },
+      {
+        "label": "Praksis",
+        "children": [
+          {
+            "label": "Vindkraft"
+          },
+          {
+            "label": "Fosen"
+          },
+          {
+            "label": "Klimasøksmålet"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Interesseorganisasjoner kan påvirke politikken gjennom høringer.", "correct": true, "explain": "Den korporative kanalen." },
-      { "id": "m02", "type": "sant-usant", "text": "Bare folkevalgte har makt i Norge.", "correct": false, "explain": "Mange aktører påvirker politikken." },
-      { "id": "m03", "type": "sant-usant", "text": "Fosen-dommen i Høyesterett er et eksempel på den rettslige kanalen.", "correct": true, "explain": "Reindriftssamer fikk medhold i 2021." },
-      { "id": "m04", "type": "sant-usant", "text": "Aksjoner kan aldri påvirke politikken.", "correct": false, "explain": "De kan sette saker raskt på dagsordenen." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilke organisasjoner er typiske parter i trepartssamarbeidet?", "options": ["Amnesty og Redd Barna", "LO og NHO sammen med staten", "Partiene på Stortinget", "Domstolene og politiet"], "correct": 1, "explain": "Arbeidstakere, arbeidsgivere og staten." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken kanal bruker du når du melder deg inn i et parti?", "options": ["Den parlamentariske", "Den korporative", "Aksjonskanalen", "Den rettslige"], "correct": 0, "explain": "Via partier og valg." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken konfliktdimensjon er sentral i oljepolitikken?", "options": ["Sentrum–periferi alene", "Religion", "Miljø–vekst", "Språk"], "correct": 2, "explain": "Klima mot økonomi og arbeidsplasser." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Interesseorganisasjoner kan påvirke politikken gjennom høringer.",
+        "correct": true,
+        "explain": "Den korporative kanalen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Bare folkevalgte har makt i Norge.",
+        "correct": false,
+        "explain": "Mange aktører påvirker politikken."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Fosen-dommen i Høyesterett er et eksempel på den rettslige kanalen.",
+        "correct": true,
+        "explain": "Reindriftssamer fikk medhold i 2021."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Aksjoner kan aldri påvirke politikken.",
+        "correct": false,
+        "explain": "De kan sette saker raskt på dagsordenen."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilke organisasjoner er typiske parter i trepartssamarbeidet?",
+        "options": [
+          "Amnesty og Redd Barna",
+          "LO og NHO sammen med staten",
+          "Partiene på Stortinget",
+          "Domstolene og politiet"
+        ],
+        "correct": 1,
+        "explain": "Arbeidstakere, arbeidsgivere og staten."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken kanal bruker du når du melder deg inn i et parti?",
+        "options": [
+          "Den parlamentariske",
+          "Den korporative",
+          "Aksjonskanalen",
+          "Den rettslige"
+        ],
+        "correct": 0,
+        "explain": "Via partier og valg."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken konfliktdimensjon er sentral i oljepolitikken?",
+        "options": [
+          "Sentrum–periferi alene",
+          "Religion",
+          "Miljø–vekst",
+          "Språk"
+        ],
+        "correct": 2,
+        "explain": "Klima mot økonomi og arbeidsplasser."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva er forskjellen på formell makt og politisk påvirkning? Bruk Stortinget og én annen aktør fra politikken i forklaringen.",
+        "fasit": "Stortinget har formell makt i det norske systemet. For eksempel kan medier påvirke politikken ved å gi saker oppmerksomhet, selv om de ikke har formell makt.",
+        "kriterier": [
+          "Skiller mellom formell makt hos Stortinget og påvirkning fra andre aktører.",
+          "Forklarer hvordan en annen aktør kan påvirke politikken."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En person vil påvirke en politisk sak ved å kontakte en folkevalgt. En interesseorganisasjon vil påvirke samme sak ved å delta i en høring. Hvilke kanaler bruker de, og hva kjennetegner hver kanal?",
+        "fasit": "Personen bruker den parlamentariske kanalen, som går gjennom folkevalgte. Organisasjonen bruker den korporative kanalen, der organisasjoner påvirker blant annet gjennom høringer.",
+        "kriterier": [
+          "Knytter kontakt med en folkevalgt til den parlamentariske kanalen.",
+          "Knytter organisasjonens deltakelse i en høring til den korporative kanalen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva er trepartssamarbeid, og hva er et typisk tema det handler om?",
+        "fasit": "Trepartssamarbeid er samarbeid mellom arbeidstakere, arbeidsgivere og staten. Det handler typisk om lønn og arbeidsliv.",
+        "kriterier": [
+          "Får med arbeidstakere, arbeidsgivere og staten.",
+          "Nevner lønn eller arbeidsliv som et typisk tema."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En sak får stor oppmerksomhet gjennom medieoppslag og sosiale medier. Forklar hvordan dette kan føre til at politikere blir påvirket.",
+        "fasit": "Medieoppslag og sosiale medier kan gjøre at flere blir opptatt av saken. Oppmerksomheten kan legge press på politikerne til å ta saken opp eller reagere på den.",
+        "kriterier": [
+          "Forklarer at mediene kan skape oppmerksomhet om en sak.",
+          "Knytter oppmerksomheten til press eller påvirkning på politikere."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I en vindkraftsak er noen opptatt av klima og natur, mens andre er opptatt av arbeidsplasser og økonomisk vekst. Hvilken konfliktdimensjon beskriver denne uenigheten, og hvilke hensyn står mot hverandre?",
+        "fasit": "Dette er miljø–vekst-dimensjonen. Hensynet til klima og natur står mot hensynet til økonomisk vekst og arbeidsplasser.",
+        "kriterier": [
+          "Identifiserer konflikten som miljø–vekst.",
+          "Forklarer at klima- og naturhensyn står mot økonomisk vekst eller arbeidsplasser."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hvorfor kan grupper med penger, nettverk, kunnskap og god organisering lettere påvirke politikken? Forklar også hvordan grupper med færre slike ressurser likevel kan få gjennomslag.",
+        "fasit": "Penger, nettverk, kunnskap og organisering kan gjøre det lettere å nå fram med interesser. Grupper med færre ressurser kan likevel få gjennomslag gjennom aksjoner, medier eller domstoler.",
+        "kriterier": [
+          "Forklarer at maktressurser gir bedre muligheter til å påvirke.",
+          "Nevner minst én kanal svake grupper kan bruke for å få gjennomslag."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign en verdikonflikt om religion med EU-spørsmålet. Hva handler hver av disse uenighetene om?",
+        "fasit": "En verdikonflikt om religion handler om ulike syn på religion i samfunnet. EU-spørsmålet handler om avveiningen mellom nasjonal selvråderett og europeisk samarbeid.",
+        "kriterier": [
+          "Forklarer at verdikonflikten gjelder ulike syn på religion.",
+          "Forklarer at EU-spørsmålet gjelder nasjonal selvråderett mot europeisk samarbeid."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Maktutredningen pekte på at makt var flyttet fra folkevalgte til blant annet markeder, domstoler, byråkrati og internasjonale avtaler. Forklar hvordan en slik maktforskyvning kan svekke folkestyret.",
+        "fasit": "Når mer makt ligger hos aktører og ordninger utenfor de folkevalgte, får folkevalgte mindre kontroll over beslutningene. Da kan folkestyret bli svekket fordi politikken i mindre grad styres av folkevalgte.",
+        "kriterier": [
+          "Forklarer at makt flyttes bort fra folkevalgte.",
+          "Knytter dette til at folkestyret eller folkevalgtes kontroll blir svekket."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

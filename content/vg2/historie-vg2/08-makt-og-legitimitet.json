@@ -4,80 +4,430 @@
   "trinnId": "vg2",
   "name": "Makt og legitimitet fra middelalder til tidlig nytid",
   "intro": "Hvordan makt ble fordelt og legitimert fra middelalderen til og med tidlig nytid – føydalisme, kongemakt og kirke i Norge, Magnus Lagabøtes landslov, eneveldet i Danmark-Norge – og opplysningstidens nye ideer om makt fra folket.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Makt og legitimitet\n\n**Legitimitet** betyr at makten blir sett på som **rettmessig**. Makthavere har alltid trengt **begrunnelser** for sin makt – ellers risikerer de opprør.\n\n## Middelalderen i Europa\n\nI store deler av Europa var samfunnet preget av **føydalisme**: **Kongen** ga jord (**len**) til **adelsmenn** mot at de ga ham **militær støtte** og **lojalitet**. Adelsmennene lot **bønder** dyrke jorda mot **skatt** og **arbeid**. Makten var **spredt** på mange hender, og **kirken** var en egen sterk maktfaktor med jord, skatter (**tiende**) og **paven** som overhode.\n\nMakten ble legitimert gjennom\n\n- **Gud** – kongen styrte **«av Guds nåde»**, og kirken **salvet** og **kronet** ham\n- **arv** – makten gikk i arv i kongeslekten\n- **tradisjon** og **lov**\n\n## Norge i middelalderen\n\nI Norge var føydalismen **svak**. Mange bønder **eide** sin egen jord. Kongemakten ble bygd opp gjennom **samlingen av riket**, **kristningen** og samarbeid med **kirken**.\n\n- Under **borgerkrigstiden** (ca. 1130–1240) kjempet ulike tronpretendenter om makten.\n- **Magnus Erlingsson** ble i **1160-årene** den første norske kongen som ble **kronet** av kirken.\n- **Magnus Lagabøte** innførte en felles **landslov** for hele riket i **1274**. Loven styrket **kongens** og **statens** makt, og gjorde retten mer lik for alle.\n\n**Svartedauden** (1349) svekket både adel, kirke og kongemakt i Norge, og landet havnet etter hvert i **union** med Danmark.\n\n## Tidlig nytid – sentralisering\n\nFra **1500-tallet** ble statene **sterkere** og **mer sentraliserte**. Kongene fikk større **embetsverk**, **stående hærer** og bedre **skatteinnkreving**. Etter **reformasjonen** (1537) overtok kongen kirkens eiendom og makt i Danmark-Norge.\n\n## Eneveldet\n\nI **1660** ble **eneveldet** innført i **Danmark-Norge**. **Kongeloven** fra **1665** ga kongen **all makt**: Han ga lover, utnevnte embetsmenn og var øverste dommer. Makten ble legitimert ved at kongen var **innsatt av Gud**. Samtidig var eneveldet effektivt: Et **profesjonelt embetsverk** styrte landet etter lover og regler.\n\nFilosofen **Thomas Hobbes** argumenterte i **Leviathan** (1651) for at mennesker trenger en **sterk hersker** for å unngå kaos og vold.\n\n## Nye ideer i opplysningstiden\n\nPå **1600- og 1700-tallet** kom nye ideer om hvor makten kommer fra:\n\n- **John Locke**: Mennesker har **naturlige rettigheter** – til liv, frihet og eiendom. Makten bygger på en **samfunnskontrakt**, og folket kan avsette en hersker som bryter den.\n- **Montesquieu**: Makten bør **deles** mellom **lovgivende**, **utøvende** og **dømmende** makt (1748).\n- **Rousseau**: Makten tilhører **folket** (**folkesuverenitet**).\n\nDisse ideene fikk stor betydning for **den amerikanske** og **den franske revolusjonen** og for **Grunnloven** i **1814**. Legitimiteten flyttet seg fra **Gud og arv** til **folket**.",
   "flashcards": [
-    { "term": "Legitimitet", "def": "At makten blir sett på som rettmessig." },
-    { "term": "Føydalisme", "def": "System der kongen ga jord (len) til adelsmenn mot lojalitet og militær støtte." },
-    { "term": "Len", "def": "Jord gitt av kongen til en adelsmann." },
-    { "term": "Tiende", "def": "Skatt til kirken – en tidel av avlingen." },
-    { "term": "«Av Guds nåde»", "def": "Uttrykk for at kongens makt kom fra Gud." },
-    { "term": "Borgerkrigstiden", "def": "Ca. 1130–1240 – kamper om kongemakten i Norge." },
-    { "term": "Magnus Erlingsson", "def": "Første norske konge som ble kronet av kirken (1160-årene)." },
-    { "term": "Magnus Lagabøtes landslov", "def": "Felles lov for hele Norge fra 1274." },
-    { "term": "Sentralisering", "def": "At makten samles hos statens ledelse." },
-    { "term": "Eneveldet", "def": "Kongen hadde all makt – innført i Danmark-Norge i 1660." },
-    { "term": "Kongeloven", "def": "Lov fra 1665 som ga kongen all makt." },
-    { "term": "Thomas Hobbes", "def": "Skrev Leviathan (1651) om behovet for en sterk hersker." },
-    { "term": "John Locke", "def": "Filosof som mente mennesker har naturlige rettigheter." },
-    { "term": "Montesquieu", "def": "Filosof som ville dele makten i tre (1748)." },
-    { "term": "Folkesuverenitet", "def": "At makten tilhører folket." }
+    {
+      "term": "Legitimitet",
+      "def": "At makten blir sett på som rettmessig."
+    },
+    {
+      "term": "Føydalisme",
+      "def": "System der kongen ga jord (len) til adelsmenn mot lojalitet og militær støtte."
+    },
+    {
+      "term": "Len",
+      "def": "Jord gitt av kongen til en adelsmann."
+    },
+    {
+      "term": "Tiende",
+      "def": "Skatt til kirken – en tidel av avlingen."
+    },
+    {
+      "term": "«Av Guds nåde»",
+      "def": "Uttrykk for at kongens makt kom fra Gud."
+    },
+    {
+      "term": "Borgerkrigstiden",
+      "def": "Ca. 1130–1240 – kamper om kongemakten i Norge."
+    },
+    {
+      "term": "Magnus Erlingsson",
+      "def": "Første norske konge som ble kronet av kirken (1160-årene)."
+    },
+    {
+      "term": "Magnus Lagabøtes landslov",
+      "def": "Felles lov for hele Norge fra 1274."
+    },
+    {
+      "term": "Sentralisering",
+      "def": "At makten samles hos statens ledelse."
+    },
+    {
+      "term": "Eneveldet",
+      "def": "Kongen hadde all makt – innført i Danmark-Norge i 1660."
+    },
+    {
+      "term": "Kongeloven",
+      "def": "Lov fra 1665 som ga kongen all makt."
+    },
+    {
+      "term": "Thomas Hobbes",
+      "def": "Skrev Leviathan (1651) om behovet for en sterk hersker."
+    },
+    {
+      "term": "John Locke",
+      "def": "Filosof som mente mennesker har naturlige rettigheter."
+    },
+    {
+      "term": "Montesquieu",
+      "def": "Filosof som ville dele makten i tre (1748)."
+    },
+    {
+      "term": "Folkesuverenitet",
+      "def": "At makten tilhører folket."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr at makt er legitim?", "options": ["At makten er stor", "At makten blir sett på som rettmessig", "At makten er arvet", "At makten er ulovlig"], "correct": 1, "explain": "Makthavere trenger begrunnelser for makten." },
-    { "id": "q02", "text": "Hva var føydalisme?", "options": ["System der kongen ga jord til adelsmenn mot lojalitet og militær støtte", "Et demokrati", "En type kirke", "En handelsavtale"], "correct": 0, "explain": "Makten var spredt på mange hender." },
-    { "id": "q03", "text": "Hvorfor var føydalismen svak i Norge?", "options": ["Fordi det ikke fantes konger", "Fordi kirken var svak", "Fordi mange bønder eide sin egen jord", "Fordi Norge var et demokrati"], "correct": 2, "explain": "Norge hadde mange selveiende bønder." },
-    { "id": "q04", "text": "Hva innførte Magnus Lagabøte i 1274?", "options": ["Eneveldet", "Reformasjonen", "Grunnloven", "En felles landslov for hele riket"], "correct": 3, "explain": "Loven styrket kongens og statens makt." },
-    { "id": "q05", "text": "Når ble eneveldet innført i Danmark-Norge?", "options": ["1660", "1537", "1814", "1274"], "correct": 0, "explain": "Kongeloven fra 1665 ga kongen all makt." },
-    { "id": "q06", "text": "Hva mente Montesquieu?", "options": ["At kongen skal ha all makt", "At makten bør deles mellom lovgivende, utøvende og dømmende makt", "At kirken skal styre", "At det ikke trengs lover"], "correct": 1, "explain": "Maktfordelingsprinsippet ble viktig for Grunnloven." },
-    { "id": "q07", "text": "Hvordan ble kongens makt legitimert i middelalderen?", "options": ["Gjennom valg", "Gjennom folkeavstemninger", "Gjennom Gud, arv og tradisjon", "Gjennom menneskerettigheter"], "correct": 2, "explain": "Kongen styrte «av Guds nåde»." },
-    { "id": "q08", "text": "Hva mente John Locke?", "options": ["At mennesker trenger en eneveldig konge", "At kirken skal ha all makt", "At bare adelen har rettigheter", "At mennesker har naturlige rettigheter, og at makten bygger på en samfunnskontrakt"], "correct": 3, "explain": "Folket kan avsette en hersker som bryter kontrakten." },
-    { "id": "q09", "text": "Hvem skrev «Leviathan»?", "options": ["Thomas Hobbes", "John Locke", "Rousseau", "Montesquieu"], "correct": 0, "explain": "Han argumenterte for en sterk hersker." },
-    { "id": "q10", "text": "Hvordan endret opplysningstidens ideer grunnlaget for legitim makt?", "options": ["Makten skulle komme fra kirken", "Legitimiteten flyttet seg fra Gud og arv til folket", "Kongen fikk mer makt", "Adelen fikk all makt"], "correct": 1, "explain": "Det preget Grunnloven i 1814." }
+    {
+      "id": "q01",
+      "text": "Hva betyr at makt er legitim?",
+      "options": [
+        "At makten er stor",
+        "At makten blir sett på som rettmessig",
+        "At makten er arvet",
+        "At makten er ulovlig"
+      ],
+      "correct": 1,
+      "explain": "Makthavere trenger begrunnelser for makten."
+    },
+    {
+      "id": "q02",
+      "text": "Hva var føydalisme?",
+      "options": [
+        "System der kongen ga jord til adelsmenn mot lojalitet og militær støtte",
+        "Et demokrati",
+        "En type kirke",
+        "En handelsavtale"
+      ],
+      "correct": 0,
+      "explain": "Makten var spredt på mange hender."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor var føydalismen svak i Norge?",
+      "options": [
+        "Fordi det ikke fantes konger",
+        "Fordi kirken var svak",
+        "Fordi mange bønder eide sin egen jord",
+        "Fordi Norge var et demokrati"
+      ],
+      "correct": 2,
+      "explain": "Norge hadde mange selveiende bønder."
+    },
+    {
+      "id": "q04",
+      "text": "Hva innførte Magnus Lagabøte i 1274?",
+      "options": [
+        "Eneveldet",
+        "Reformasjonen",
+        "Grunnloven",
+        "En felles landslov for hele riket"
+      ],
+      "correct": 3,
+      "explain": "Loven styrket kongens og statens makt."
+    },
+    {
+      "id": "q05",
+      "text": "Når ble eneveldet innført i Danmark-Norge?",
+      "options": [
+        "1660",
+        "1537",
+        "1814",
+        "1274"
+      ],
+      "correct": 0,
+      "explain": "Kongeloven fra 1665 ga kongen all makt."
+    },
+    {
+      "id": "q06",
+      "text": "Hva mente Montesquieu?",
+      "options": [
+        "At kongen skal ha all makt",
+        "At makten bør deles mellom lovgivende, utøvende og dømmende makt",
+        "At kirken skal styre",
+        "At det ikke trengs lover"
+      ],
+      "correct": 1,
+      "explain": "Maktfordelingsprinsippet ble viktig for Grunnloven."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan ble kongens makt legitimert i middelalderen?",
+      "options": [
+        "Gjennom valg",
+        "Gjennom folkeavstemninger",
+        "Gjennom Gud, arv og tradisjon",
+        "Gjennom menneskerettigheter"
+      ],
+      "correct": 2,
+      "explain": "Kongen styrte «av Guds nåde»."
+    },
+    {
+      "id": "q08",
+      "text": "Hva mente John Locke?",
+      "options": [
+        "At mennesker trenger en eneveldig konge",
+        "At kirken skal ha all makt",
+        "At bare adelen har rettigheter",
+        "At mennesker har naturlige rettigheter, og at makten bygger på en samfunnskontrakt"
+      ],
+      "correct": 3,
+      "explain": "Folket kan avsette en hersker som bryter kontrakten."
+    },
+    {
+      "id": "q09",
+      "text": "Hvem skrev «Leviathan»?",
+      "options": [
+        "Thomas Hobbes",
+        "John Locke",
+        "Rousseau",
+        "Montesquieu"
+      ],
+      "correct": 0,
+      "explain": "Han argumenterte for en sterk hersker."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan endret opplysningstidens ideer grunnlaget for legitim makt?",
+      "options": [
+        "Makten skulle komme fra kirken",
+        "Legitimiteten flyttet seg fra Gud og arv til folket",
+        "Kongen fikk mer makt",
+        "Adelen fikk all makt"
+      ],
+      "correct": 1,
+      "explain": "Det preget Grunnloven i 1814."
+    }
   ],
   "mindmap": {
     "label": "Makt og legitimitet",
     "children": [
-      { "label": "Middelalderen", "children": [
-        { "label": "Føydalisme" },
-        { "label": "Kirkens makt" },
-        { "label": "Av Guds nåde" }
-      ] },
-      { "label": "Norge", "children": [
-        { "label": "Selveiende bønder" },
-        { "label": "Borgerkrigstiden" },
-        { "label": "Landsloven 1274" }
-      ] },
-      { "label": "Tidlig nytid", "children": [
-        { "label": "Sentralisering" },
-        { "label": "Reformasjonen" },
-        { "label": "Embetsverk" }
-      ] },
-      { "label": "Eneveldet", "children": [
-        { "label": "1660" },
-        { "label": "Kongeloven 1665" },
-        { "label": "Hobbes" }
-      ] },
-      { "label": "Opplysningstiden", "children": [
-        { "label": "Locke" },
-        { "label": "Montesquieu" },
-        { "label": "Rousseau" },
-        { "label": "Grunnloven 1814" }
-      ] }
+      {
+        "label": "Middelalderen",
+        "children": [
+          {
+            "label": "Føydalisme"
+          },
+          {
+            "label": "Kirkens makt"
+          },
+          {
+            "label": "Av Guds nåde"
+          }
+        ]
+      },
+      {
+        "label": "Norge",
+        "children": [
+          {
+            "label": "Selveiende bønder"
+          },
+          {
+            "label": "Borgerkrigstiden"
+          },
+          {
+            "label": "Landsloven 1274"
+          }
+        ]
+      },
+      {
+        "label": "Tidlig nytid",
+        "children": [
+          {
+            "label": "Sentralisering"
+          },
+          {
+            "label": "Reformasjonen"
+          },
+          {
+            "label": "Embetsverk"
+          }
+        ]
+      },
+      {
+        "label": "Eneveldet",
+        "children": [
+          {
+            "label": "1660"
+          },
+          {
+            "label": "Kongeloven 1665"
+          },
+          {
+            "label": "Hobbes"
+          }
+        ]
+      },
+      {
+        "label": "Opplysningstiden",
+        "children": [
+          {
+            "label": "Locke"
+          },
+          {
+            "label": "Montesquieu"
+          },
+          {
+            "label": "Rousseau"
+          },
+          {
+            "label": "Grunnloven 1814"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Etter reformasjonen overtok kongen kirkens eiendom og makt i Danmark-Norge.", "correct": true, "explain": "Kongen ble kirkens overhode." },
-      { "id": "m02", "type": "sant-usant", "text": "Under eneveldet delte kongen makten med en folkevalgt forsamling.", "correct": false, "explain": "Kongen hadde all makt." },
-      { "id": "m03", "type": "sant-usant", "text": "Svartedauden svekket både adel, kirke og kongemakt i Norge.", "correct": true, "explain": "Inntektene falt kraftig." },
-      { "id": "m04", "type": "sant-usant", "text": "Rousseau mente makten tilhørte kongen alene.", "correct": false, "explain": "Rousseau mente makten tilhørte folket." },
-      { "id": "m05", "type": "flervalg", "text": "Hva var tiende?", "options": ["En skatt til kirken", "En type len", "En lov", "En hær"], "correct": 0, "explain": "En tidel av avlingen." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken periode i Norge var preget av kamper om kongemakten?", "options": ["Vikingtiden", "Borgerkrigstiden", "Dansketiden", "Unionstiden med Sverige"], "correct": 1, "explain": "Ca. 1130–1240." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor var eneveldet effektivt, ifølge mange historikere?", "options": ["Fordi kongen gjorde alt selv", "Fordi det ikke fantes lover", "Fordi et profesjonelt embetsverk styrte etter lover og regler", "Fordi folket stemte ofte"], "correct": 2, "explain": "Eneveldet var ikke vilkårlig styre." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Etter reformasjonen overtok kongen kirkens eiendom og makt i Danmark-Norge.",
+        "correct": true,
+        "explain": "Kongen ble kirkens overhode."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Under eneveldet delte kongen makten med en folkevalgt forsamling.",
+        "correct": false,
+        "explain": "Kongen hadde all makt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Svartedauden svekket både adel, kirke og kongemakt i Norge.",
+        "correct": true,
+        "explain": "Inntektene falt kraftig."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Rousseau mente makten tilhørte kongen alene.",
+        "correct": false,
+        "explain": "Rousseau mente makten tilhørte folket."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva var tiende?",
+        "options": [
+          "En skatt til kirken",
+          "En type len",
+          "En lov",
+          "En hær"
+        ],
+        "correct": 0,
+        "explain": "En tidel av avlingen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken periode i Norge var preget av kamper om kongemakten?",
+        "options": [
+          "Vikingtiden",
+          "Borgerkrigstiden",
+          "Dansketiden",
+          "Unionstiden med Sverige"
+        ],
+        "correct": 1,
+        "explain": "Ca. 1130–1240."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor var eneveldet effektivt, ifølge mange historikere?",
+        "options": [
+          "Fordi kongen gjorde alt selv",
+          "Fordi det ikke fantes lover",
+          "Fordi et profesjonelt embetsverk styrte etter lover og regler",
+          "Fordi folket stemte ofte"
+        ],
+        "correct": 2,
+        "explain": "Eneveldet var ikke vilkårlig styre."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hvorfor trengte makthavere i middelalderen å begrunne retten sin til å styre, og hva kunne skje hvis makten ikke ble sett på som rettmessig?",
+        "fasit": "Makthavere trengte begrunnelser for at folk skulle godta makten deres. Hvis makten ikke ble sett på som rettmessig, risikerte de opprør.",
+        "kriterier": [
+          "Forklarer at begrunnelser gjorde det lettere for folk å godta makten.",
+          "Nevner risikoen for opprør dersom makten ikke ble godtatt."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Kirken var en egen sterk maktfaktor i store deler av middelalderens Europa. Forklar hvilke ressurser eller posisjoner som ga kirken makt.",
+        "fasit": "Kirken hadde jord og fikk inn skatt i form av tiende. Paven var kirkens overhode.",
+        "kriterier": [
+          "Nevner at kirken hadde jord.",
+          "Nevner tiende eller pavens rolle som overhode."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Norske konger bygde opp kongemakten gjennom samlingen av riket, kristningen og samarbeid med kirken. Forklar hvordan samarbeid med kirken kunne styrke kongens stilling.",
+        "fasit": "Samarbeid med kirken kunne gi kongen støtte fra en sterk maktfaktor. Kirken kunne også bidra til å legitimere kongemakten, blant annet ved å krone kongen.",
+        "kriterier": [
+          "Forklarer at kirken var en sterk maktfaktor som kunne støtte kongen.",
+          "Knytter kirkens støtte til at kongemakten ble styrket eller framsto som mer rettmessig."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Svartedauden rammet Norge i 1349. Beskriv hvordan den påvirket maktforholdene i landet, og hvilken politisk utvikling Norge etter hvert gikk inn i.",
+        "fasit": "Svartedauden svekket adelen, kirken og kongemakten i Norge. Etter hvert kom landet i union med Danmark.",
+        "kriterier": [
+          "Nevner at adel, kirke og kongemakt ble svekket.",
+          "Nevner at Norge etter hvert kom i union med Danmark."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Etter reformasjonen i 1537 overtok kongen kirkens eiendom og makt i Danmark-Norge. Forklar hvordan dette endret maktforholdet mellom kongen og kirken.",
+        "fasit": "Kongen fikk større kontroll fordi han overtok eiendom og makt som tidligere hadde tilhørt kirken. Dermed ble kirken mindre selvstendig som maktfaktor.",
+        "kriterier": [
+          "Forklarer at kongen overtok kirkens eiendom og makt.",
+          "Får fram at dette styrket kongen og reduserte kirkens selvstendige makt."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Fra 1500-tallet ble statene mer sentraliserte. Forklar hva sentralisering betyr, og nevn hvordan embetsverk, stående hærer eller skatteinnkreving kunne bidra til å styrke staten.",
+        "fasit": "Sentralisering betyr at makten samles hos statens ledelse. Et større embetsverk, stående hærer og bedre skatteinnkreving ga staten større evne til å styre og opprettholde makten.",
+        "kriterier": [
+          "Forklarer at sentralisering innebærer at makten samles hos statens ledelse.",
+          "Knytter minst ett av tiltakene i oppgaven til at staten fikk større evne til å styre eller utøve makt."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Thomas Hobbes argumenterte i «Leviathan» for at mennesker trenger en sterk hersker. Forklar hvilken fare han mente en sterk hersker skulle hindre.",
+        "fasit": "Hobbes mente at mennesker trenger en sterk hersker for å unngå kaos og vold. Herskeren skulle sørge for at samfunnet ikke ble preget av slike tilstander.",
+        "kriterier": [
+          "Nevner både kaos og vold, eller beskriver tydelig disse farene.",
+          "Forklarer at den sterke herskeren skulle hindre eller begrense farene."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign Thomas Hobbes og Rousseau: Hva mente Hobbes at samfunnet trengte for å unngå kaos og vold, og hvem mente Rousseau at makten tilhørte?",
+        "fasit": "Hobbes mente at samfunnet trengte en sterk hersker for å unngå kaos og vold. Rousseau mente at makten tilhørte folket.",
+        "kriterier": [
+          "Knytter Hobbes til behovet for en sterk hersker for å unngå kaos og vold.",
+          "Knytter Rousseau til at makten tilhører folket."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

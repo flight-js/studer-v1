@@ -4,77 +4,422 @@
   "trinnId": "vg3",
   "name": "Historieframstillinger og historiebevissthet",
   "intro": "Hvordan intensjon, ståsted og perspektiv preger historieframstillinger, hvordan fortiden kan brukes både frigjørende og undertrykkende – og hvordan historiebevissthet formes i et samspill mellom samtidsforståelse, fortolkning av fortiden og forståelse av oss selv.",
-  "kompetansemaal": [11, 12],
+  "kompetansemaal": [
+    11,
+    12
+  ],
   "sammendrag": "## Framstillinger er ikke nøytrale\n\nEn **historieframstilling** – en lærebok, en dokumentar, et museum eller en tale – er alltid **valgt** og **formet** av noen. Tre forhold preger den:\n\n- **Intensjon**: Hva vil opphavspersonen **oppnå**? Informere, samle folk, overbevise, underholde eller selge?\n- **Ståsted**: Hvilken **bakgrunn**, **nasjonalitet**, **klasse**, **kjønn** og **politisk** syn har opphavspersonen?\n- **Perspektiv**: Hvem sitt **blikk** fortelles historien fra – vinnernes eller tapernes, makthavernes eller de vanlige menneskenes?\n\n## Frigjørende bruk av fortiden\n\nFortiden kan brukes til å **frigjøre** – til å gi grupper **stemme**, **verdighet** og **rettigheter**:\n\n- **Kvinnehistorie** har vist at kvinner har vært aktive **historiske aktører**, ikke bare bifigurer.\n- **Samisk historie** fortalt fra samisk ståsted har bidratt til **forsoning** og styrket **identitet** og **rettigheter**.\n- **Arbeiderbevegelsens** historie ga arbeidere en **felles fortelling** om kamp og framgang.\n- **Sannhetskommisjoner**, som i Sør-Afrika og Norge, lar ofre fortelle om **urett** som tidligere ble **fortiet**.\n\n## Undertrykkende bruk av fortiden\n\nFortiden kan også brukes til å **undertrykke**:\n\n- **Nazistene** brukte en oppdiktet historie om en overlegen «**arisk**» rase til å rettferdiggjøre **erobring** og **folkemord**.\n- I **Sovjetunionen** ble bilder **retusjert** og personer **fjernet** fra historien når de falt i unåde.\n- **Kolonimakter** framstilte de koloniserte som folk «**uten historie**».\n- Nasjonalistiske ledere bruker i dag historien til å rettferdiggjøre **krig** og **grenseendringer**.\n\n## Historiebevissthet\n\n**Historiebevissthet** er forbindelsen mellom **fortolkning av fortiden**, **forståelse av nåtiden** og **forventninger til framtiden**. Den virker **begge veier**:\n\n- **Samtiden preger fortolkningen av fortiden**: Hva vi synes er viktig i dag – for eksempel **likestilling**, **klima** eller **mangfold** – påvirker hvilke spørsmål vi stiller til fortiden. Hver generasjon **skriver historien på nytt**.\n- **Fortolkningen av fortiden preger forståelsen av oss selv**: Historien vi forteller om **nasjonen**, **familien** eller **gruppen** vår, påvirker **identiteten** og **verdiene** våre – og hva vi tror er **mulig** i framtiden.\n\n## Hvordan formes og endres historiebevisstheten?\n\nHistoriebevisstheten formes av **skolen**, **familien**, **medier**, **film**, **spill**, **minnesmerker** og **merkedager**. Den **endres** når\n\n- nye **kilder** og **forskning** kommer fram\n- nye **grupper** får stemme\n- **samfunnet** og **verdiene** endrer seg\n- store **hendelser**, som kriger eller pandemier, gir nye perspektiver\n\n## Eksempel\n\nSynet på **1814** har endret seg: fra en heroisk fortelling om nasjonal **gjenfødelse** til en mer nyansert forståelse der også **jødeparagrafen**, **stemmerettsbegrensninger** og **stormaktspolitikk** får plass. Endringen sier noe om **vår tids** verdier.\n\n## Refleksjon\n\nÅ være historiebevisst betyr å se at **vi selv** står i historien – at også vår forståelse er **preget** av tiden vi lever i, og at framtidige generasjoner vil tolke **oss**.",
   "flashcards": [
-    { "term": "Historieframstilling", "def": "En fortelling om fortiden, som en lærebok eller dokumentar." },
-    { "term": "Intensjon", "def": "Hva opphavspersonen vil oppnå med framstillingen." },
-    { "term": "Ståsted", "def": "Opphavspersonens bakgrunn og synspunkter." },
-    { "term": "Perspektiv", "def": "Hvem sitt blikk historien fortelles fra." },
-    { "term": "Frigjørende historiebruk", "def": "Fortiden brukes til å gi grupper stemme og rettigheter." },
-    { "term": "Undertrykkende historiebruk", "def": "Fortiden brukes til å rettferdiggjøre makt og overgrep." },
-    { "term": "Kvinnehistorie", "def": "Historie som viser kvinner som aktive aktører." },
-    { "term": "Sannhetskommisjon", "def": "Organ som lar ofre fortelle om urett som ble fortiet." },
-    { "term": "Retusjerte bilder", "def": "Sovjetisk forfalskning der personer ble fjernet fra historien." },
-    { "term": "Folk uten historie", "def": "Kolonimaktenes nedvurdering av de koloniserte." },
-    { "term": "Historiebevissthet", "def": "Forbindelsen mellom fortid, nåtid og framtid." },
-    { "term": "Toveis påvirkning", "def": "Samtiden preger synet på fortiden, og fortiden preger vår selvforståelse." },
-    { "term": "Identitet", "def": "Opplevelsen av hvem vi er – formes av historiene vi forteller." },
-    { "term": "Jødeparagrafen", "def": "Grunnlovens forbud mot jøder fra 1814 til 1851." },
-    { "term": "Minnesmerke", "def": "Monument som former historiebevisstheten." }
+    {
+      "term": "Historieframstilling",
+      "def": "En fortelling om fortiden, som en lærebok eller dokumentar."
+    },
+    {
+      "term": "Intensjon",
+      "def": "Hva opphavspersonen vil oppnå med framstillingen."
+    },
+    {
+      "term": "Ståsted",
+      "def": "Opphavspersonens bakgrunn og synspunkter."
+    },
+    {
+      "term": "Perspektiv",
+      "def": "Hvem sitt blikk historien fortelles fra."
+    },
+    {
+      "term": "Frigjørende historiebruk",
+      "def": "Fortiden brukes til å gi grupper stemme og rettigheter."
+    },
+    {
+      "term": "Undertrykkende historiebruk",
+      "def": "Fortiden brukes til å rettferdiggjøre makt og overgrep."
+    },
+    {
+      "term": "Kvinnehistorie",
+      "def": "Historie som viser kvinner som aktive aktører."
+    },
+    {
+      "term": "Sannhetskommisjon",
+      "def": "Organ som lar ofre fortelle om urett som ble fortiet."
+    },
+    {
+      "term": "Retusjerte bilder",
+      "def": "Sovjetisk forfalskning der personer ble fjernet fra historien."
+    },
+    {
+      "term": "Folk uten historie",
+      "def": "Kolonimaktenes nedvurdering av de koloniserte."
+    },
+    {
+      "term": "Historiebevissthet",
+      "def": "Forbindelsen mellom fortid, nåtid og framtid."
+    },
+    {
+      "term": "Toveis påvirkning",
+      "def": "Samtiden preger synet på fortiden, og fortiden preger vår selvforståelse."
+    },
+    {
+      "term": "Identitet",
+      "def": "Opplevelsen av hvem vi er – formes av historiene vi forteller."
+    },
+    {
+      "term": "Jødeparagrafen",
+      "def": "Grunnlovens forbud mot jøder fra 1814 til 1851."
+    },
+    {
+      "term": "Minnesmerke",
+      "def": "Monument som former historiebevisstheten."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr intensjon i en historieframstilling?", "options": ["Hvor gammel kilden er", "Hva opphavspersonen vil oppnå", "Hvor lang teksten er", "Hvem som leste den"], "correct": 1, "explain": "Informere, overbevise eller selge?" },
-    { "id": "q02", "text": "Hva er et eksempel på frigjørende historiebruk?", "options": ["Kvinnehistorie som viser kvinner som aktører", "Nazistenes rasehistorie", "Sovjetisk retusjering", "Kolonial nedvurdering"], "correct": 0, "explain": "Gir grupper stemme." },
-    { "id": "q03", "text": "Hva gjorde sovjetiske myndigheter med personer som falt i unåde?", "options": ["Hedret dem", "Skrev biografier om dem", "Fjernet dem fra bilder og historien", "Satte opp statuer"], "correct": 2, "explain": "Undertrykkende historiebruk." },
-    { "id": "q04", "text": "Hva er historiebevissthet?", "options": ["Å kunne mange årstall", "Å lese historiebøker", "Å like historie", "Forbindelsen mellom fortolkning av fortiden, nåtiden og framtiden"], "correct": 3, "explain": "Den virker begge veier." },
-    { "id": "q05", "text": "Hvordan preger samtiden fortolkningen av fortiden?", "options": ["Hva vi synes er viktig i dag, påvirker spørsmålene vi stiller til fortiden", "Den gjør ikke det", "Samtiden endrer kildene", "Samtiden sletter fortiden"], "correct": 0, "explain": "Hver generasjon skriver historien på nytt." },
-    { "id": "q06", "text": "Hva gjør sannhetskommisjoner?", "options": ["Dømmer forbrytere til døden", "Lar ofre fortelle om urett som ble fortiet", "Skriver lærebøker", "Bygger museer"], "correct": 1, "explain": "Bidrar til forsoning." },
-    { "id": "q07", "text": "Hvordan framstilte kolonimakter ofte de koloniserte?", "options": ["Som historiske helter", "Som likeverdige", "Som folk «uten historie»", "Som ledere"], "correct": 2, "explain": "Undertrykkende historiebruk." },
-    { "id": "q08", "text": "Hva kan endre historiebevisstheten?", "options": ["Ingenting", "Bare kongelige vedtak", "At alle kilder forsvinner", "Nye kilder, nye stemmer og endrede verdier"], "correct": 3, "explain": "Også store hendelser." },
-    { "id": "q09", "text": "Hvordan har synet på 1814 endret seg?", "options": ["Fra heroisk fortelling til mer nyansert forståelse med blant annet jødeparagrafen", "Fra negativt til heroisk", "Det har ikke endret seg", "1814 er glemt"], "correct": 0, "explain": "Endringen sier noe om vår tids verdier." },
-    { "id": "q10", "text": "Hva betyr det å være historiebevisst?", "options": ["Å tro at vi står utenfor historien", "Å se at også vår forståelse er preget av tiden vi lever i", "Å bare lese om krig", "Å unngå fortiden"], "correct": 1, "explain": "Framtidige generasjoner vil tolke oss." }
+    {
+      "id": "q01",
+      "text": "Hva betyr intensjon i en historieframstilling?",
+      "options": [
+        "Hvor gammel kilden er",
+        "Hva opphavspersonen vil oppnå",
+        "Hvor lang teksten er",
+        "Hvem som leste den"
+      ],
+      "correct": 1,
+      "explain": "Informere, overbevise eller selge?"
+    },
+    {
+      "id": "q02",
+      "text": "Hva er et eksempel på frigjørende historiebruk?",
+      "options": [
+        "Kvinnehistorie som viser kvinner som aktører",
+        "Nazistenes rasehistorie",
+        "Sovjetisk retusjering",
+        "Kolonial nedvurdering"
+      ],
+      "correct": 0,
+      "explain": "Gir grupper stemme."
+    },
+    {
+      "id": "q03",
+      "text": "Hva gjorde sovjetiske myndigheter med personer som falt i unåde?",
+      "options": [
+        "Hedret dem",
+        "Skrev biografier om dem",
+        "Fjernet dem fra bilder og historien",
+        "Satte opp statuer"
+      ],
+      "correct": 2,
+      "explain": "Undertrykkende historiebruk."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er historiebevissthet?",
+      "options": [
+        "Å kunne mange årstall",
+        "Å lese historiebøker",
+        "Å like historie",
+        "Forbindelsen mellom fortolkning av fortiden, nåtiden og framtiden"
+      ],
+      "correct": 3,
+      "explain": "Den virker begge veier."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan preger samtiden fortolkningen av fortiden?",
+      "options": [
+        "Hva vi synes er viktig i dag, påvirker spørsmålene vi stiller til fortiden",
+        "Den gjør ikke det",
+        "Samtiden endrer kildene",
+        "Samtiden sletter fortiden"
+      ],
+      "correct": 0,
+      "explain": "Hver generasjon skriver historien på nytt."
+    },
+    {
+      "id": "q06",
+      "text": "Hva gjør sannhetskommisjoner?",
+      "options": [
+        "Dømmer forbrytere til døden",
+        "Lar ofre fortelle om urett som ble fortiet",
+        "Skriver lærebøker",
+        "Bygger museer"
+      ],
+      "correct": 1,
+      "explain": "Bidrar til forsoning."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan framstilte kolonimakter ofte de koloniserte?",
+      "options": [
+        "Som historiske helter",
+        "Som likeverdige",
+        "Som folk «uten historie»",
+        "Som ledere"
+      ],
+      "correct": 2,
+      "explain": "Undertrykkende historiebruk."
+    },
+    {
+      "id": "q08",
+      "text": "Hva kan endre historiebevisstheten?",
+      "options": [
+        "Ingenting",
+        "Bare kongelige vedtak",
+        "At alle kilder forsvinner",
+        "Nye kilder, nye stemmer og endrede verdier"
+      ],
+      "correct": 3,
+      "explain": "Også store hendelser."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan har synet på 1814 endret seg?",
+      "options": [
+        "Fra heroisk fortelling til mer nyansert forståelse med blant annet jødeparagrafen",
+        "Fra negativt til heroisk",
+        "Det har ikke endret seg",
+        "1814 er glemt"
+      ],
+      "correct": 0,
+      "explain": "Endringen sier noe om vår tids verdier."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr det å være historiebevisst?",
+      "options": [
+        "Å tro at vi står utenfor historien",
+        "Å se at også vår forståelse er preget av tiden vi lever i",
+        "Å bare lese om krig",
+        "Å unngå fortiden"
+      ],
+      "correct": 1,
+      "explain": "Framtidige generasjoner vil tolke oss."
+    }
   ],
   "mindmap": {
     "label": "Framstillinger og historiebevissthet",
     "children": [
-      { "label": "Framstillinger", "children": [
-        { "label": "Intensjon" },
-        { "label": "Ståsted" },
-        { "label": "Perspektiv" }
-      ] },
-      { "label": "Frigjørende", "children": [
-        { "label": "Kvinnehistorie" },
-        { "label": "Samisk historie" },
-        { "label": "Sannhetskommisjoner" }
-      ] },
-      { "label": "Undertrykkende", "children": [
-        { "label": "Nazistisk rasehistorie" },
-        { "label": "Sovjetisk retusjering" },
-        { "label": "Kolonial nedvurdering" }
-      ] },
-      { "label": "Historiebevissthet", "children": [
-        { "label": "Samtid preger fortid" },
-        { "label": "Fortid preger identitet" }
-      ] },
-      { "label": "Endring", "children": [
-        { "label": "Nye kilder og stemmer" },
-        { "label": "1814 som eksempel" }
-      ] }
+      {
+        "label": "Framstillinger",
+        "children": [
+          {
+            "label": "Intensjon"
+          },
+          {
+            "label": "Ståsted"
+          },
+          {
+            "label": "Perspektiv"
+          }
+        ]
+      },
+      {
+        "label": "Frigjørende",
+        "children": [
+          {
+            "label": "Kvinnehistorie"
+          },
+          {
+            "label": "Samisk historie"
+          },
+          {
+            "label": "Sannhetskommisjoner"
+          }
+        ]
+      },
+      {
+        "label": "Undertrykkende",
+        "children": [
+          {
+            "label": "Nazistisk rasehistorie"
+          },
+          {
+            "label": "Sovjetisk retusjering"
+          },
+          {
+            "label": "Kolonial nedvurdering"
+          }
+        ]
+      },
+      {
+        "label": "Historiebevissthet",
+        "children": [
+          {
+            "label": "Samtid preger fortid"
+          },
+          {
+            "label": "Fortid preger identitet"
+          }
+        ]
+      },
+      {
+        "label": "Endring",
+        "children": [
+          {
+            "label": "Nye kilder og stemmer"
+          },
+          {
+            "label": "1814 som eksempel"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Historien vi forteller om gruppen vår, kan påvirke identiteten vår.", "correct": true, "explain": "Fortolkningen av fortiden preger selvforståelsen." },
-      { "id": "m02", "type": "sant-usant", "text": "En lærebok er alltid helt nøytral.", "correct": false, "explain": "Alle framstillinger er valgt og formet." },
-      { "id": "m03", "type": "sant-usant", "text": "Dataspill og film kan forme historiebevisstheten.", "correct": true, "explain": "Sammen med skole, familie og medier." },
-      { "id": "m04", "type": "sant-usant", "text": "Historiebevisstheten endrer seg aldri.", "correct": false, "explain": "Den endres med nye kilder, stemmer og verdier." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket perspektiv løfter fram vanlige menneskers liv?", "options": ["Makthavernes perspektiv", "Perspektivet nedenfra", "Kongens perspektiv", "Vinnernes perspektiv"], "correct": 1, "explain": "Gir nye stemmer plass." },
-      { "id": "m06", "type": "flervalg", "text": "Hva brukte nazistene historien til?", "options": ["Å rettferdiggjøre erobring og folkemord", "Å fremme forsoning", "Å gi minoriteter rettigheter", "Å kritisere seg selv"], "correct": 0, "explain": "Undertrykkende historiebruk." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan kan samisk historie fortalt fra samisk ståsted virke?", "options": ["Undertrykkende", "Nøytralt uten virkning", "Frigjørende og styrkende for identitet og rettigheter", "Forfalskende"], "correct": 2, "explain": "Bidrar også til forsoning." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Historien vi forteller om gruppen vår, kan påvirke identiteten vår.",
+        "correct": true,
+        "explain": "Fortolkningen av fortiden preger selvforståelsen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En lærebok er alltid helt nøytral.",
+        "correct": false,
+        "explain": "Alle framstillinger er valgt og formet."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Dataspill og film kan forme historiebevisstheten.",
+        "correct": true,
+        "explain": "Sammen med skole, familie og medier."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Historiebevisstheten endrer seg aldri.",
+        "correct": false,
+        "explain": "Den endres med nye kilder, stemmer og verdier."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket perspektiv løfter fram vanlige menneskers liv?",
+        "options": [
+          "Makthavernes perspektiv",
+          "Perspektivet nedenfra",
+          "Kongens perspektiv",
+          "Vinnernes perspektiv"
+        ],
+        "correct": 1,
+        "explain": "Gir nye stemmer plass."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva brukte nazistene historien til?",
+        "options": [
+          "Å rettferdiggjøre erobring og folkemord",
+          "Å fremme forsoning",
+          "Å gi minoriteter rettigheter",
+          "Å kritisere seg selv"
+        ],
+        "correct": 0,
+        "explain": "Undertrykkende historiebruk."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan kan samisk historie fortalt fra samisk ståsted virke?",
+        "options": [
+          "Undertrykkende",
+          "Nøytralt uten virkning",
+          "Frigjørende og styrkende for identitet og rettigheter",
+          "Forfalskende"
+        ],
+        "correct": 2,
+        "explain": "Bidrar også til forsoning."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En dokumentar om en konflikt er laget av en person med bestemte politiske synspunkter, og forteller hendelsene fra ledernes blikk. Hvilken del av situasjonen viser opphavspersonens ståsted, og hvilken viser perspektivet? Forklar forskjellen.",
+        "fasit": "Opphavspersonens politiske synspunkter er en del av ståstedet. At historien fortelles fra ledernes blikk, er perspektivet: hvem sin synsvinkel som får plass.",
+        "kriterier": [
+          "Knytter politiske synspunkter eller bakgrunn til ståsted.",
+          "Knytter ledernes blikk til perspektiv og forklarer at perspektiv handler om hvem sin synsvinkel historien fortelles fra."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et museum lager en historieframstilling om arbeiderbevegelsen med mål om å samle arbeidere rundt en felles fortelling. Forklar hvordan denne intensjonen kan påvirke hva museet legger vekt på.",
+        "fasit": "Når målet er å samle arbeidere, kan museet framheve arbeiderbevegelsens felles kamp og framgang. Intensjonen påvirker dermed hvilke deler av fortiden som velges og får mest plass.",
+        "kriterier": [
+          "Forklarer at målet om å samle arbeidere kan føre til at felles kamp eller framgang framheves.",
+          "Viser at intensjonen påvirker utvalget eller utformingen av historieframstillingen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Nazistene brukte en oppdiktet historie om en overlegen «arisk» rase. Forklar hvordan denne fortellingen ble brukt til å rettferdiggjøre handlinger.",
+        "fasit": "Fortellingen om en overlegen «arisk» rase ble brukt til å rettferdiggjøre erobring og folkemord. Historien ble dermed brukt undertrykkende for å legitimere makt og overgrep.",
+        "kriterier": [
+          "Knytter den oppdiktede fortellingen til rettferdiggjøring av erobring og folkemord.",
+          "Forklarer at dette er undertrykkende historiebruk eller legitimering av overgrep."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Kvinnehistorie viser kvinner som aktive historiske aktører, ikke bare som bifigurer. Forklar hva dette endrer ved måten fortiden blir framstilt på.",
+        "fasit": "Kvinner framstår da som mennesker som selv har handlet og påvirket historien. Framstillingen gir dem en tydeligere plass enn en fortelling der de bare er bifigurer.",
+        "kriterier": [
+          "Forklarer at kvinner vises som aktive aktører som har påvirket historien.",
+          "Viser at dette endrer eller utvider hvem som får plass i historieframstillingen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign hvordan en sannhetskommisjon og en kolonimakt kan behandle historien til en gruppe som har blitt fortiet eller undertrykt.",
+        "fasit": "En sannhetskommisjon lar ofre fortelle om urett som tidligere ble fortiet. Kolonimakter kunne i stedet framstille koloniserte folk som «uten historie», og dermed nedvurdere dem og deres fortid.",
+        "kriterier": [
+          "Får fram at sannhetskommisjoner gir ofre mulighet til å fortelle om fortiet urett.",
+          "Får fram at kolonimakter kunne nedvurdere koloniserte ved å framstille dem som folk «uten historie»."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En familie forteller sin historie med vekt på gruppens erfaringer og det familien har fått til. Forklar hvordan en slik fortelling kan påvirke familiemedlemmenes identitet og syn på framtiden.",
+        "fasit": "Fortellingen kan påvirke hvordan familiemedlemmene forstår hvem de er, og hvilke verdier de knytter til familien. Den kan også påvirke hva de tror er mulig for dem i framtiden.",
+        "kriterier": [
+          "Forklarer at fortellingen om fortiden kan påvirke identitet eller verdier.",
+          "Knytter fortellingen til forventninger om eller tro på hva som er mulig i framtiden."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et minnesmerke gjør at folk stadig møter en bestemt del av fortiden i nærmiljøet sitt. Forklar hvordan minnesmerket kan forme historiebevisstheten deres.",
+        "fasit": "Minnesmerket retter oppmerksomheten mot en del av fortiden og kan påvirke hvordan folk tolker den. Denne tolkningen kan også prege hvordan de forstår samfunnet de lever i.",
+        "kriterier": [
+          "Forklarer at minnesmerket retter oppmerksomhet mot eller former tolkningen av fortiden.",
+          "Knytter denne tolkningen til forståelsen av nåtiden eller samfunnet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En historiker finner nye kilder som gjør at en gruppe som tidligere fikk lite plass, kan fortelle mer om sin fortid. Forklar hvorfor en historieframstilling kan bli skrevet om i en slik situasjon.",
+        "fasit": "De nye kildene gir mer kunnskap om fortiden, og gruppen får en tydeligere stemme i framstillingen. Derfor kan historien bli fortalt fra et nytt eller mer nyansert perspektiv.",
+        "kriterier": [
+          "Forklarer at nye kilder gir grunnlag for å endre eller utvide kunnskapen om fortiden.",
+          "Får fram at gruppen får større plass eller en tydeligere stemme, slik at perspektivet endres eller blir mer nyansert."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

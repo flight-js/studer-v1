@@ -4,82 +4,436 @@
   "trinnId": "9",
   "name": "Holocaust og andre folkemord",
   "intro": "Hva folkemord er, hvordan Holocaust skjedde steg for steg, også i Norge, andre folkemord i nyere tid, og hvordan ekstreme holdninger og handlinger kan forebygges.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Hva er folkemord?\n\n**Folkemord** (genocid) er handlinger som gjøres med hensikt å ødelegge, helt eller delvis, en nasjonal, etnisk, religiøs eller «rasemessig» gruppe. Begrepet ble laget av den polsk-jødiske juristen **Raphael Lemkin** under andre verdenskrig, og i 1948 vedtok FN **folkemordkonvensjonen**, som gjør folkemord til en forbrytelse etter internasjonal rett.\n\n## Holocaust\n\n**Holocaust** er nazistenes systematiske drap på rundt **seks millioner jøder** i Europa under andre verdenskrig. Nazistene forfulgte og drepte også rom, mennesker med funksjonsnedsettelser, homofile og politiske motstandere.\n\nFolkemordet skjedde **steg for steg**:\n\n- Jøder ble fratatt rettigheter gjennom **Nürnberglovene** i 1935.\n- Under **Krystallnatten** i november 1938 ble synagoger og jødiske butikker angrepet.\n- Jøder ble tvunget inn i **ghettoer**, og i Øst-Europa skjøt drapskommandoer hundretusener.\n- Fra 1942 ble jøder deportert til **utryddelsesleirer** som **Auschwitz-Birkenau** og Treblinka, der de fleste ble drept i gasskamre.\n\nI **Norge** ble jødiske menn, kvinner og barn arrestert, også av norsk politi. 26. november 1942 ble over 500 sendt fra Oslo med skipet **Donau**. Totalt ble over 700 jøder deportert fra Norge, og under 40 av dem overlevde.\n\n## Andre folkemord\n\n- **Armenerne** i Det osmanske riket (1915–1916)\n- **Kambodsja** under Røde Khmer (1975–1979)\n- **Rwanda** (1994), der rundt 800 000 tutsier og moderate hutuer ble drept på omtrent 100 dager\n- **Srebrenica** i Bosnia (1995), der om lag 8000 bosniakiske menn og gutter ble drept\n\n## Årsaker\n\nFolkemord har ofte flere årsaker som virker sammen:\n\n- En **ideologi** som deler mennesker inn i «oss» og «dem» og ser på en gruppe som mindreverdig\n- **Propaganda** som **avhumaniserer** gruppen, for eksempel ved å kalle dem skadedyr\n- Krig eller krise som gjør det lettere å gjennomføre drapene\n- Autoritære ledere, lydighet og **tilskuere** som ikke griper inn\n\n## Konsekvenser\n\nFolkemord gir enorme tap av liv, traumer som går i arv over generasjoner, flukt og ødelagte samfunn. Etter krigen ble nazistiske ledere dømt i **Nürnbergprosessen**. Senere har FN opprettet domstoler for Rwanda og det tidligere Jugoslavia, og **Den internasjonale straffedomstolen** (ICC) ble opprettet i 2002.\n\n## Forebygging\n\nHvordan kan ekstreme holdninger og handlinger forebygges?\n\n- **Kunnskap** om historien og om hvordan folkemord utvikler seg\n- Å motarbeide **fordommer, hatprat og konspirasjonsteorier**\n- Å forsvare demokrati, rettsstat og menneskerettigheter\n- Å **si ifra** i stedet for å være tilskuer\n- **Kildekritikk** mot propaganda og desinformasjon\n- Internasjonalt samarbeid som kan gripe inn tidlig",
   "flashcards": [
-    { "term": "Folkemord", "def": "Handlinger med hensikt å ødelegge en nasjonal, etnisk, religiøs eller «rasemessig» gruppe." },
-    { "term": "Folkemordkonvensjonen", "def": "FN-avtale fra 1948 som gjør folkemord til en internasjonal forbrytelse." },
-    { "term": "Holocaust", "def": "Nazistenes systematiske drap på rundt seks millioner jøder." },
-    { "term": "Antisemittisme", "def": "Hat og fordommer mot jøder." },
-    { "term": "Nürnberglovene", "def": "Nazistiske lover fra 1935 som fratok jøder rettigheter." },
-    { "term": "Krystallnatten", "def": "Angrep på synagoger og jødiske butikker i Tyskland i november 1938." },
-    { "term": "Ghetto", "def": "Avstengt bydel der jøder ble tvunget til å bo under svært dårlige forhold." },
-    { "term": "Utryddelsesleir", "def": "Leir bygd for å drepe mennesker, som Auschwitz-Birkenau og Treblinka." },
-    { "term": "Donau", "def": "Skipet som 26. november 1942 fraktet over 500 jøder fra Oslo." },
-    { "term": "Avhumanisering", "def": "Å fremstille en gruppe som mindre menneskelig, ofte i propaganda." },
-    { "term": "Tilskuer", "def": "En som ser hva som skjer, men ikke griper inn." },
-    { "term": "Rwanda 1994", "def": "Folkemord der rundt 800 000 tutsier og moderate hutuer ble drept på omtrent 100 dager." },
-    { "term": "Srebrenica 1995", "def": "Folkemord i Bosnia der om lag 8000 bosniakiske menn og gutter ble drept." },
-    { "term": "Nürnbergprosessen", "def": "Rettssakene mot nazistiske ledere etter andre verdenskrig." },
-    { "term": "ICC", "def": "Den internasjonale straffedomstolen, opprettet i 2002." }
+    {
+      "term": "Folkemord",
+      "def": "Handlinger med hensikt å ødelegge en nasjonal, etnisk, religiøs eller «rasemessig» gruppe."
+    },
+    {
+      "term": "Folkemordkonvensjonen",
+      "def": "FN-avtale fra 1948 som gjør folkemord til en internasjonal forbrytelse."
+    },
+    {
+      "term": "Holocaust",
+      "def": "Nazistenes systematiske drap på rundt seks millioner jøder."
+    },
+    {
+      "term": "Antisemittisme",
+      "def": "Hat og fordommer mot jøder."
+    },
+    {
+      "term": "Nürnberglovene",
+      "def": "Nazistiske lover fra 1935 som fratok jøder rettigheter."
+    },
+    {
+      "term": "Krystallnatten",
+      "def": "Angrep på synagoger og jødiske butikker i Tyskland i november 1938."
+    },
+    {
+      "term": "Ghetto",
+      "def": "Avstengt bydel der jøder ble tvunget til å bo under svært dårlige forhold."
+    },
+    {
+      "term": "Utryddelsesleir",
+      "def": "Leir bygd for å drepe mennesker, som Auschwitz-Birkenau og Treblinka."
+    },
+    {
+      "term": "Donau",
+      "def": "Skipet som 26. november 1942 fraktet over 500 jøder fra Oslo."
+    },
+    {
+      "term": "Avhumanisering",
+      "def": "Å fremstille en gruppe som mindre menneskelig, ofte i propaganda."
+    },
+    {
+      "term": "Tilskuer",
+      "def": "En som ser hva som skjer, men ikke griper inn."
+    },
+    {
+      "term": "Rwanda 1994",
+      "def": "Folkemord der rundt 800 000 tutsier og moderate hutuer ble drept på omtrent 100 dager."
+    },
+    {
+      "term": "Srebrenica 1995",
+      "def": "Folkemord i Bosnia der om lag 8000 bosniakiske menn og gutter ble drept."
+    },
+    {
+      "term": "Nürnbergprosessen",
+      "def": "Rettssakene mot nazistiske ledere etter andre verdenskrig."
+    },
+    {
+      "term": "ICC",
+      "def": "Den internasjonale straffedomstolen, opprettet i 2002."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er folkemord?", "options": ["Handlinger med hensikt å ødelegge en nasjonal, etnisk, religiøs eller «rasemessig» gruppe", "Alle drap i krig", "En borgerkrig", "Et terrorangrep"], "correct": 0, "explain": "Det avgjørende er hensikten om å ødelegge gruppen." },
-    { "id": "q02", "text": "Omtrent hvor mange jøder ble drept i Holocaust?", "options": ["Rundt 600 000", "Rundt 1 million", "Rundt 6 millioner", "Rundt 60 millioner"], "correct": 2, "explain": "Omtrent to av tre jøder i Europa ble drept." },
-    { "id": "q03", "text": "Hva var Nürnberglovene fra 1935?", "options": ["Fredsavtaler etter krigen", "Lover som fratok jøder rettigheter", "Lover om arbeidstid", "Regler for de olympiske lekene"], "correct": 1, "explain": "Lovene gjorde jøder til annenrangs borgere og forbød blant annet ekteskap med ikke-jøder." },
-    { "id": "q04", "text": "Hva skjedde 26. november 1942?", "options": ["Tyskland kapitulerte", "Krystallnatten", "Nürnbergprosessen startet", "Over 500 jøder ble sendt fra Oslo med skipet Donau"], "correct": 3, "explain": "De fleste av dem ble drept i Auschwitz." },
-    { "id": "q05", "text": "Hva betyr avhumanisering?", "options": ["Å fremstille en gruppe som mindre menneskelig", "Å hjelpe flyktninger", "Å lære om historie", "Å dele ut mat"], "correct": 0, "explain": "Avhumanisering gjør det lettere å rettferdiggjøre vold mot en gruppe." },
-    { "id": "q06", "text": "Hvor skjedde folkemordet i 1994, der rundt 800 000 ble drept på omtrent 100 dager?", "options": ["Kambodsja", "Bosnia", "Armenia", "Rwanda"], "correct": 3, "explain": "Ofrene var tutsier og moderate hutuer." },
-    { "id": "q07", "text": "Hvorfor er tilskuere viktige når vi snakker om folkemord?", "options": ["Fordi de alltid stopper drapene", "Fordi folkemord blir lettere å gjennomføre når mange ser bort", "Fordi de er gjerningspersoner", "De er ikke viktige"], "correct": 1, "explain": "Når få sier ifra, møter gjerningspersonene lite motstand." },
-    { "id": "q08", "text": "Hva var Nürnbergprosessen?", "options": ["Et opprør i en ghetto", "Et folkemord i Tyskland", "Rettssaker mot nazistiske ledere etter krigen", "En tysk propagandakampanje"], "correct": 2, "explain": "Rettssakene slo fast at ledere kan straffes for forbrytelser mot menneskeheten." },
-    { "id": "q09", "text": "Hvilket tiltak kan bidra til å forebygge ekstreme holdninger?", "options": ["Å spre konspirasjonsteorier", "Å overse hatprat", "Å svekke rettsstaten", "Kunnskap og kildekritikk"], "correct": 3, "explain": "Kunnskap gjør det lettere å gjenkjenne propaganda og fordommer." },
-    { "id": "q10", "text": "Hvilke andre grupper enn jøder forfulgte og drepte nazistene?", "options": ["Rom, mennesker med funksjonsnedsettelser og politiske motstandere", "Bare soldater", "Ingen andre", "Bare britiske fanger"], "correct": 0, "explain": "Nazistene forfulgte alle de mente ikke passet inn i «folkefellesskapet»." }
+    {
+      "id": "q01",
+      "text": "Hva er folkemord?",
+      "options": [
+        "Handlinger med hensikt å ødelegge en nasjonal, etnisk, religiøs eller «rasemessig» gruppe",
+        "Alle drap i krig",
+        "En borgerkrig",
+        "Et terrorangrep"
+      ],
+      "correct": 0,
+      "explain": "Det avgjørende er hensikten om å ødelegge gruppen."
+    },
+    {
+      "id": "q02",
+      "text": "Omtrent hvor mange jøder ble drept i Holocaust?",
+      "options": [
+        "Rundt 600 000",
+        "Rundt 1 million",
+        "Rundt 6 millioner",
+        "Rundt 60 millioner"
+      ],
+      "correct": 2,
+      "explain": "Omtrent to av tre jøder i Europa ble drept."
+    },
+    {
+      "id": "q03",
+      "text": "Hva var Nürnberglovene fra 1935?",
+      "options": [
+        "Fredsavtaler etter krigen",
+        "Lover som fratok jøder rettigheter",
+        "Lover om arbeidstid",
+        "Regler for de olympiske lekene"
+      ],
+      "correct": 1,
+      "explain": "Lovene gjorde jøder til annenrangs borgere og forbød blant annet ekteskap med ikke-jøder."
+    },
+    {
+      "id": "q04",
+      "text": "Hva skjedde 26. november 1942?",
+      "options": [
+        "Tyskland kapitulerte",
+        "Krystallnatten",
+        "Nürnbergprosessen startet",
+        "Over 500 jøder ble sendt fra Oslo med skipet Donau"
+      ],
+      "correct": 3,
+      "explain": "De fleste av dem ble drept i Auschwitz."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr avhumanisering?",
+      "options": [
+        "Å fremstille en gruppe som mindre menneskelig",
+        "Å hjelpe flyktninger",
+        "Å lære om historie",
+        "Å dele ut mat"
+      ],
+      "correct": 0,
+      "explain": "Avhumanisering gjør det lettere å rettferdiggjøre vold mot en gruppe."
+    },
+    {
+      "id": "q06",
+      "text": "Hvor skjedde folkemordet i 1994, der rundt 800 000 ble drept på omtrent 100 dager?",
+      "options": [
+        "Kambodsja",
+        "Bosnia",
+        "Armenia",
+        "Rwanda"
+      ],
+      "correct": 3,
+      "explain": "Ofrene var tutsier og moderate hutuer."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er tilskuere viktige når vi snakker om folkemord?",
+      "options": [
+        "Fordi de alltid stopper drapene",
+        "Fordi folkemord blir lettere å gjennomføre når mange ser bort",
+        "Fordi de er gjerningspersoner",
+        "De er ikke viktige"
+      ],
+      "correct": 1,
+      "explain": "Når få sier ifra, møter gjerningspersonene lite motstand."
+    },
+    {
+      "id": "q08",
+      "text": "Hva var Nürnbergprosessen?",
+      "options": [
+        "Et opprør i en ghetto",
+        "Et folkemord i Tyskland",
+        "Rettssaker mot nazistiske ledere etter krigen",
+        "En tysk propagandakampanje"
+      ],
+      "correct": 2,
+      "explain": "Rettssakene slo fast at ledere kan straffes for forbrytelser mot menneskeheten."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket tiltak kan bidra til å forebygge ekstreme holdninger?",
+      "options": [
+        "Å spre konspirasjonsteorier",
+        "Å overse hatprat",
+        "Å svekke rettsstaten",
+        "Kunnskap og kildekritikk"
+      ],
+      "correct": 3,
+      "explain": "Kunnskap gjør det lettere å gjenkjenne propaganda og fordommer."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilke andre grupper enn jøder forfulgte og drepte nazistene?",
+      "options": [
+        "Rom, mennesker med funksjonsnedsettelser og politiske motstandere",
+        "Bare soldater",
+        "Ingen andre",
+        "Bare britiske fanger"
+      ],
+      "correct": 0,
+      "explain": "Nazistene forfulgte alle de mente ikke passet inn i «folkefellesskapet»."
+    }
   ],
   "mindmap": {
     "label": "Holocaust og folkemord",
     "children": [
-      { "label": "Folkemord", "children": [
-        { "label": "Definisjon" },
-        { "label": "Raphael Lemkin" },
-        { "label": "Konvensjonen", "note": "1948" }
-      ] },
-      { "label": "Holocaust", "children": [
-        { "label": "Seks millioner jøder" },
-        { "label": "Nürnberglovene og Krystallnatten" },
-        { "label": "Ghettoer og leirer" },
-        { "label": "Andre ofre" }
-      ] },
-      { "label": "Norge", "children": [
-        { "label": "Arrestasjoner 1942" },
-        { "label": "Donau" },
-        { "label": "Under 40 overlevde" }
-      ] },
-      { "label": "Andre folkemord", "children": [
-        { "label": "Armenia" },
-        { "label": "Kambodsja" },
-        { "label": "Rwanda" },
-        { "label": "Srebrenica" }
-      ] },
-      { "label": "Årsaker og forebygging", "children": [
-        { "label": "Ideologi og propaganda" },
-        { "label": "Tilskuere" },
-        { "label": "Kunnskap og kildekritikk" },
-        { "label": "Si ifra" }
-      ] }
+      {
+        "label": "Folkemord",
+        "children": [
+          {
+            "label": "Definisjon"
+          },
+          {
+            "label": "Raphael Lemkin"
+          },
+          {
+            "label": "Konvensjonen",
+            "note": "1948"
+          }
+        ]
+      },
+      {
+        "label": "Holocaust",
+        "children": [
+          {
+            "label": "Seks millioner jøder"
+          },
+          {
+            "label": "Nürnberglovene og Krystallnatten"
+          },
+          {
+            "label": "Ghettoer og leirer"
+          },
+          {
+            "label": "Andre ofre"
+          }
+        ]
+      },
+      {
+        "label": "Norge",
+        "children": [
+          {
+            "label": "Arrestasjoner 1942"
+          },
+          {
+            "label": "Donau"
+          },
+          {
+            "label": "Under 40 overlevde"
+          }
+        ]
+      },
+      {
+        "label": "Andre folkemord",
+        "children": [
+          {
+            "label": "Armenia"
+          },
+          {
+            "label": "Kambodsja"
+          },
+          {
+            "label": "Rwanda"
+          },
+          {
+            "label": "Srebrenica"
+          }
+        ]
+      },
+      {
+        "label": "Årsaker og forebygging",
+        "children": [
+          {
+            "label": "Ideologi og propaganda"
+          },
+          {
+            "label": "Tilskuere"
+          },
+          {
+            "label": "Kunnskap og kildekritikk"
+          },
+          {
+            "label": "Si ifra"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Folkemord starter ofte med fordommer, propaganda og diskriminerende lover.", "correct": true, "explain": "Holocaust skjedde steg for steg over flere år." },
-      { "id": "m02", "type": "sant-usant", "text": "Norsk politi deltok i arrestasjonen av jøder i Norge.", "correct": true, "explain": "Norske politifolk arresterte jøder og fraktet dem til skipet Donau." },
-      { "id": "m03", "type": "sant-usant", "text": "Det har ikke skjedd folkemord etter andre verdenskrig.", "correct": false, "explain": "Blant annet Kambodsja, Rwanda og Srebrenica er eksempler fra senere tid." },
-      { "id": "m04", "type": "sant-usant", "text": "Folkemordkonvensjonen ble vedtatt av FN i 1998.", "correct": false, "explain": "Konvensjonen ble vedtatt i 1948." },
-      { "id": "m05", "type": "flervalg", "text": "Hva var Auschwitz-Birkenau?", "options": ["En ghetto i Warszawa", "Nazistenes største utryddelsesleir", "En fredsavtale", "Et norsk fengsel"], "correct": 1, "explain": "Over én million mennesker ble drept der, de fleste jøder." },
-      { "id": "m06", "type": "flervalg", "text": "Hva skjedde under Krystallnatten i 1938?", "options": ["Synagoger og jødiske butikker ble angrepet", "Tyskland angrep Polen", "Hitler ble rikskansler", "Norge ble okkupert"], "correct": 0, "explain": "Navnet kommer av alle knuste vinduer." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken domstol ble opprettet i 2002 for å straffe folkemord og andre alvorlige forbrytelser?", "options": ["Høyesterett", "EU-domstolen", "Den internasjonale straffedomstolen (ICC)", "Den europeiske menneskerettsdomstolen"], "correct": 2, "explain": "ICC ligger i Haag i Nederland." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Folkemord starter ofte med fordommer, propaganda og diskriminerende lover.",
+        "correct": true,
+        "explain": "Holocaust skjedde steg for steg over flere år."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Norsk politi deltok i arrestasjonen av jøder i Norge.",
+        "correct": true,
+        "explain": "Norske politifolk arresterte jøder og fraktet dem til skipet Donau."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Det har ikke skjedd folkemord etter andre verdenskrig.",
+        "correct": false,
+        "explain": "Blant annet Kambodsja, Rwanda og Srebrenica er eksempler fra senere tid."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Folkemordkonvensjonen ble vedtatt av FN i 1998.",
+        "correct": false,
+        "explain": "Konvensjonen ble vedtatt i 1948."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva var Auschwitz-Birkenau?",
+        "options": [
+          "En ghetto i Warszawa",
+          "Nazistenes største utryddelsesleir",
+          "En fredsavtale",
+          "Et norsk fengsel"
+        ],
+        "correct": 1,
+        "explain": "Over én million mennesker ble drept der, de fleste jøder."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva skjedde under Krystallnatten i 1938?",
+        "options": [
+          "Synagoger og jødiske butikker ble angrepet",
+          "Tyskland angrep Polen",
+          "Hitler ble rikskansler",
+          "Norge ble okkupert"
+        ],
+        "correct": 0,
+        "explain": "Navnet kommer av alle knuste vinduer."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken domstol ble opprettet i 2002 for å straffe folkemord og andre alvorlige forbrytelser?",
+        "options": [
+          "Høyesterett",
+          "EU-domstolen",
+          "Den internasjonale straffedomstolen (ICC)",
+          "Den europeiske menneskerettsdomstolen"
+        ],
+        "correct": 2,
+        "explain": "ICC ligger i Haag i Nederland."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "FN vedtok folkemordkonvensjonen i 1948. Forklar hva denne avtalen fastslo.",
+        "fasit": "Folkemordkonvensjonen gjorde folkemord til en forbrytelse etter internasjonal rett.",
+        "kriterier": [
+          "Får fram at avtalen gjør folkemord til en internasjonal forbrytelse."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Holocaust skjedde steg for steg. Beskriv hvordan forfølgelsen av jødene utviklet seg fra at de mistet rettigheter til at mange ble drept.",
+        "fasit": "Jøder ble først fratatt rettigheter og utsatt for angrep. Senere ble mange tvunget inn i ghettoer eller skutt av drapskommandoer, før jøder fra 1942 ble deportert til utryddelsesleirer.",
+        "kriterier": [
+          "Beskriver en utvikling fra rettighetstap eller angrep til tvang, drap eller deportasjon.",
+          "Får fram at forfølgelsen ble stadig mer voldelig og endte med systematiske drap."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen mellom en ghetto og en utryddelsesleir under Holocaust.",
+        "fasit": "En ghetto var en avstengt bydel der jøder ble tvunget til å bo under svært dårlige forhold. En utryddelsesleir var bygd for å drepe mennesker.",
+        "kriterier": [
+          "Beskriver ghettoen som et sted der jøder ble tvunget til å bo.",
+          "Får fram at en utryddelsesleir var laget for å drepe mennesker."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Hva betyr antisemittisme? Bruk Krystallnatten som et eksempel på hvordan antisemittisme kom til uttrykk.",
+        "fasit": "Antisemittisme er hat og fordommer mot jøder. Under Krystallnatten ble synagoger og jødiske butikker angrepet.",
+        "kriterier": [
+          "Forklarer at antisemittisme er hat eller fordommer mot jøder.",
+          "Knytter angrepene på synagoger eller jødiske butikker til antisemittisme."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hvordan en ideologi som deler mennesker inn i «oss» og «dem», sammen med propaganda som avhumaniserer en gruppe, kan bidra til folkemord.",
+        "fasit": "En slik ideologi kan få en gruppe til å bli sett på som mindreverdig. Propaganda som framstiller gruppen som mindre menneskelig, kan gjøre det lettere å godta vold mot den.",
+        "kriterier": [
+          "Forklarer at ideologien framstiller en gruppe som mindreverdig eller som en fiende.",
+          "Får fram at avhumaniserende propaganda kan gjøre vold mot gruppen lettere å godta eller gjennomføre."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign Rwanda i 1994 og Srebrenica i 1995. Hvilke grupper ble drept, og omtrent hvor mange mennesker ble drept i hvert folkemord?",
+        "fasit": "I Rwanda ble rundt 800 000 tutsier og moderate hutuer drept på omtrent 100 dager. I Srebrenica ble om lag 8000 bosniakiske menn og gutter drept.",
+        "kriterier": [
+          "Nevner tutsier og moderate hutuer og omtrent 800 000 drepte i Rwanda.",
+          "Nevner bosniakiske menn og gutter og om lag 8000 drepte i Srebrenica."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev ser at det spres hatprat og konspirasjonsteorier om en gruppe, mens andre bare ser på. Foreslå to handlinger som kan bidra til å forebygge at slike holdninger får feste, og forklar kort hvorfor de kan hjelpe.",
+        "fasit": "Eleven kan si ifra mot hatpraten og bruke kildekritikk for å undersøke påstandene. Det kan motvirke fordommer og propaganda, og gjør at eleven ikke bare blir en tilskuer.",
+        "kriterier": [
+          "Foreslår å si ifra eller på annen måte motarbeide hatprat og fordommer.",
+          "Foreslår kildekritikk eller en annen relevant forebyggende handling og forklarer hvordan den kan hjelpe."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Folkemord kan få følger også etter at drapene har stanset. Forklar hvordan de kan påvirke både overlevende og samfunnet rundt dem.",
+        "fasit": "Overlevende kan få traumer som går i arv gjennom generasjoner. Folkemord kan også føre til flukt og ødelegge samfunn.",
+        "kriterier": [
+          "Får fram at traumer kan påvirke mennesker over generasjoner.",
+          "Nevner flukt eller ødelagte samfunn som en følge."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

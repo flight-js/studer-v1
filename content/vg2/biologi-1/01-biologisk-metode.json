@@ -4,79 +4,427 @@
   "trinnId": "vg2",
   "name": "Biologisk metode og undersøkelser",
   "intro": "Hvordan du planlegger og gjennomfører undersøkelser i laboratoriet og i felt, bruker kontrollgrupper og replikater, behandler og tolker data og presenterer resultatene i en rapport.",
-  "kompetansemaal": [1],
+  "kompetansemaal": [
+    1
+  ],
   "sammendrag": "## Hvordan biologer finner ut ting\n\nBiologien bygger på **observasjoner** og **undersøkelser**. Mye forskning følger den **hypotetisk-deduktive metoden**:\n\n1. **Observasjon** og **problemstilling**: Hva lurer du på?\n2. **Hypotese**: en mulig, **testbar** forklaring.\n3. **Prediksjon**: Hva forventer du å se hvis hypotesen stemmer?\n4. **Forsøk** eller **undersøkelse** som tester prediksjonen.\n5. **Analyse** og **konklusjon**: Blir hypotesen styrket eller svekket?\n\nEn hypotese kan **aldri bevises** helt, men den kan **styrkes** av mange forsøk – eller **forkastes**.\n\n## Planlegge forsøk\n\n- **Uavhengig variabel**: det du endrer, for eksempel temperatur.\n- **Avhengig variabel**: det du måler, for eksempel hvor mye gass som dannes.\n- **Kontrollerte variabler**: alt annet som må holdes likt.\n- **Kontrollgruppe**: en gruppe som ikke får behandlingen, slik at du har noe å sammenligne med.\n- **Replikater**: flere gjentak av hvert forsøk, fordi levende organismer **varierer**.\n\n**Eksempel**: Du undersøker hvordan temperaturen påvirker enzymet **katalase**, som bryter ned hydrogenperoksid til vann og oksygen. Du måler oksygenmengden ved fem temperaturer, med tre replikater ved hver.\n\n## Feltarbeid\n\nI felt undersøker vi organismer i sitt **naturlige miljø**:\n\n- **Ruteanalyse**: Du legger ut ruter på for eksempel 1 m × 1 m og registrerer arter og antall.\n- **Transekt**: en linje gjennom et område der du registrerer hvordan arter og **abiotiske faktorer** endrer seg, for eksempel fra fjæra og opp.\n- **Fangst–gjenfangst**: for å anslå størrelsen på en dyrebestand.\n\nRutene bør plasseres **tilfeldig** for å unngå at du velger de «beste» stedene.\n\n## Behandle og tolke data\n\n- Regn ut **gjennomsnitt** og se på **spredningen**, for eksempel med **standardavvik**.\n- Framstill data i **tabeller** og **grafer**: søylediagram for kategorier, linjediagram eller punktdiagram for sammenhenger.\n- Skill mellom **korrelasjon** og **årsakssammenheng**: At to ting varierer sammen, betyr ikke at den ene forårsaker den andre.\n- Vurder **feilkilder** og **usikkerhet**: Er forskjellen mellom gruppene større enn den tilfeldige variasjonen?\n\n## Presentere funn\n\nEn **forsøksrapport** har ofte delene **innledning** (teori og hypotese), **materiale og metode**, **resultater**, **diskusjon** og **konklusjon**. Resultatene skal presenteres **nøkternt**, mens tolkningen kommer i diskusjonen. I forskningen blir resultater **fagfellevurdert** før de publiseres.\n\n## Etikk\n\nUndersøkelser med **levende organismer** krever omtanke: Ikke skad dyr og planter unødvendig, følg regler for **dyreforsøk**, og ta hensyn til **personvern** når mennesker deltar.",
   "flashcards": [
-    { "term": "Hypotetisk-deduktiv metode", "def": "Observasjon, hypotese, prediksjon, forsøk og konklusjon." },
-    { "term": "Hypotese", "def": "En mulig, testbar forklaring." },
-    { "term": "Prediksjon", "def": "Hva du forventer å se hvis hypotesen stemmer." },
-    { "term": "Uavhengig variabel", "def": "Det du endrer i forsøket." },
-    { "term": "Avhengig variabel", "def": "Det du måler i forsøket." },
-    { "term": "Kontrollgruppe", "def": "Gruppe som ikke får behandlingen, til sammenligning." },
-    { "term": "Replikat", "def": "Gjentak av forsøket for å få mer pålitelige data." },
-    { "term": "Katalase", "def": "Enzym som bryter ned hydrogenperoksid til vann og oksygen." },
-    { "term": "Ruteanalyse", "def": "Registrering av arter i ruter med fast størrelse." },
-    { "term": "Transekt", "def": "Linje der du registrerer endringer i arter og miljø." },
-    { "term": "Fangst–gjenfangst", "def": "Metode for å anslå størrelsen på en dyrebestand." },
-    { "term": "Standardavvik", "def": "Mål på spredningen i dataene." },
-    { "term": "Korrelasjon", "def": "At to størrelser varierer sammen – ikke nødvendigvis årsak." },
-    { "term": "Fagfellevurdering", "def": "Andre forskere vurderer arbeidet før det publiseres." },
-    { "term": "Feilkilde", "def": "Noe som kan ha påvirket resultatet uten at det var meningen." }
+    {
+      "term": "Hypotetisk-deduktiv metode",
+      "def": "Observasjon, hypotese, prediksjon, forsøk og konklusjon."
+    },
+    {
+      "term": "Hypotese",
+      "def": "En mulig, testbar forklaring."
+    },
+    {
+      "term": "Prediksjon",
+      "def": "Hva du forventer å se hvis hypotesen stemmer."
+    },
+    {
+      "term": "Uavhengig variabel",
+      "def": "Det du endrer i forsøket."
+    },
+    {
+      "term": "Avhengig variabel",
+      "def": "Det du måler i forsøket."
+    },
+    {
+      "term": "Kontrollgruppe",
+      "def": "Gruppe som ikke får behandlingen, til sammenligning."
+    },
+    {
+      "term": "Replikat",
+      "def": "Gjentak av forsøket for å få mer pålitelige data."
+    },
+    {
+      "term": "Katalase",
+      "def": "Enzym som bryter ned hydrogenperoksid til vann og oksygen."
+    },
+    {
+      "term": "Ruteanalyse",
+      "def": "Registrering av arter i ruter med fast størrelse."
+    },
+    {
+      "term": "Transekt",
+      "def": "Linje der du registrerer endringer i arter og miljø."
+    },
+    {
+      "term": "Fangst–gjenfangst",
+      "def": "Metode for å anslå størrelsen på en dyrebestand."
+    },
+    {
+      "term": "Standardavvik",
+      "def": "Mål på spredningen i dataene."
+    },
+    {
+      "term": "Korrelasjon",
+      "def": "At to størrelser varierer sammen – ikke nødvendigvis årsak."
+    },
+    {
+      "term": "Fagfellevurdering",
+      "def": "Andre forskere vurderer arbeidet før det publiseres."
+    },
+    {
+      "term": "Feilkilde",
+      "def": "Noe som kan ha påvirket resultatet uten at det var meningen."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er en hypotese?", "options": ["Et bevist faktum", "En mulig, testbar forklaring", "Et måleresultat", "En konklusjon"], "correct": 1, "explain": "Hypotesen testes gjennom prediksjoner." },
-    { "id": "q02", "text": "Hvorfor bruker vi replikater?", "options": ["Fordi levende organismer varierer", "For å spare tid", "For å slippe kontrollgruppe", "For å bevise hypotesen"], "correct": 0, "explain": "Flere gjentak gir mer pålitelige resultater." },
-    { "id": "q03", "text": "Hva er en kontrollgruppe?", "options": ["Gruppen med størst effekt", "Gruppen som kontrollerer forsøket", "En gruppe som ikke får behandlingen", "En gruppe med flere variabler"], "correct": 2, "explain": "Den gir et sammenligningsgrunnlag." },
-    { "id": "q04", "text": "Du undersøker hvordan temperaturen påvirker katalase. Hva er den uavhengige variabelen?", "options": ["Oksygenmengden", "Mengden enzym", "Tiden", "Temperaturen"], "correct": 3, "explain": "Det er den du endrer." },
-    { "id": "q05", "text": "Hva er et transekt?", "options": ["En linje der du registrerer hvordan arter og miljø endrer seg", "En type mikroskop", "En statistisk test", "En rute på 1 m²"], "correct": 0, "explain": "For eksempel fra fjæra og opp." },
-    { "id": "q06", "text": "Hva betyr det at to variabler er korrelert?", "options": ["At den ene forårsaker den andre", "At de varierer sammen", "At de er like store", "At forsøket er feil"], "correct": 1, "explain": "Korrelasjon er ikke det samme som årsak." },
-    { "id": "q07", "text": "Hvorfor bør ruter i en ruteanalyse plasseres tilfeldig?", "options": ["Fordi det går raskere", "For å finne flest arter", "For å unngå at du velger de «beste» stedene", "Fordi det er påbudt"], "correct": 2, "explain": "Tilfeldig plassering gir mer representative data." },
-    { "id": "q08", "text": "Hvilken del av rapporten tolker resultatene?", "options": ["Materiale og metode", "Resultater", "Innledning", "Diskusjon"], "correct": 3, "explain": "Resultatdelen skal være nøktern." },
-    { "id": "q09", "text": "Kan en hypotese bevises helt?", "options": ["Nei, men den kan styrkes eller forkastes", "Ja, med ett forsøk", "Ja, hvis læreren er enig", "Nei, hypoteser kan ikke testes"], "correct": 0, "explain": "Nye data kan alltid endre bildet." },
-    { "id": "q10", "text": "Hva måler standardavviket?", "options": ["Gjennomsnittet", "Spredningen i dataene", "Den største verdien", "Antall målinger"], "correct": 1, "explain": "Stort standardavvik betyr stor variasjon." }
+    {
+      "id": "q01",
+      "text": "Hva er en hypotese?",
+      "options": [
+        "Et bevist faktum",
+        "En mulig, testbar forklaring",
+        "Et måleresultat",
+        "En konklusjon"
+      ],
+      "correct": 1,
+      "explain": "Hypotesen testes gjennom prediksjoner."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor bruker vi replikater?",
+      "options": [
+        "Fordi levende organismer varierer",
+        "For å spare tid",
+        "For å slippe kontrollgruppe",
+        "For å bevise hypotesen"
+      ],
+      "correct": 0,
+      "explain": "Flere gjentak gir mer pålitelige resultater."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en kontrollgruppe?",
+      "options": [
+        "Gruppen med størst effekt",
+        "Gruppen som kontrollerer forsøket",
+        "En gruppe som ikke får behandlingen",
+        "En gruppe med flere variabler"
+      ],
+      "correct": 2,
+      "explain": "Den gir et sammenligningsgrunnlag."
+    },
+    {
+      "id": "q04",
+      "text": "Du undersøker hvordan temperaturen påvirker katalase. Hva er den uavhengige variabelen?",
+      "options": [
+        "Oksygenmengden",
+        "Mengden enzym",
+        "Tiden",
+        "Temperaturen"
+      ],
+      "correct": 3,
+      "explain": "Det er den du endrer."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er et transekt?",
+      "options": [
+        "En linje der du registrerer hvordan arter og miljø endrer seg",
+        "En type mikroskop",
+        "En statistisk test",
+        "En rute på 1 m²"
+      ],
+      "correct": 0,
+      "explain": "For eksempel fra fjæra og opp."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr det at to variabler er korrelert?",
+      "options": [
+        "At den ene forårsaker den andre",
+        "At de varierer sammen",
+        "At de er like store",
+        "At forsøket er feil"
+      ],
+      "correct": 1,
+      "explain": "Korrelasjon er ikke det samme som årsak."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor bør ruter i en ruteanalyse plasseres tilfeldig?",
+      "options": [
+        "Fordi det går raskere",
+        "For å finne flest arter",
+        "For å unngå at du velger de «beste» stedene",
+        "Fordi det er påbudt"
+      ],
+      "correct": 2,
+      "explain": "Tilfeldig plassering gir mer representative data."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken del av rapporten tolker resultatene?",
+      "options": [
+        "Materiale og metode",
+        "Resultater",
+        "Innledning",
+        "Diskusjon"
+      ],
+      "correct": 3,
+      "explain": "Resultatdelen skal være nøktern."
+    },
+    {
+      "id": "q09",
+      "text": "Kan en hypotese bevises helt?",
+      "options": [
+        "Nei, men den kan styrkes eller forkastes",
+        "Ja, med ett forsøk",
+        "Ja, hvis læreren er enig",
+        "Nei, hypoteser kan ikke testes"
+      ],
+      "correct": 0,
+      "explain": "Nye data kan alltid endre bildet."
+    },
+    {
+      "id": "q10",
+      "text": "Hva måler standardavviket?",
+      "options": [
+        "Gjennomsnittet",
+        "Spredningen i dataene",
+        "Den største verdien",
+        "Antall målinger"
+      ],
+      "correct": 1,
+      "explain": "Stort standardavvik betyr stor variasjon."
+    }
   ],
   "mindmap": {
     "label": "Biologisk metode",
     "children": [
-      { "label": "Metode", "children": [
-        { "label": "Hypotese" },
-        { "label": "Prediksjon" },
-        { "label": "Forsøk og konklusjon" }
-      ] },
-      { "label": "Forsøk", "children": [
-        { "label": "Variabler" },
-        { "label": "Kontrollgruppe" },
-        { "label": "Replikater" }
-      ] },
-      { "label": "Felt", "children": [
-        { "label": "Ruteanalyse" },
-        { "label": "Transekt" },
-        { "label": "Fangst–gjenfangst" }
-      ] },
-      { "label": "Data", "children": [
-        { "label": "Gjennomsnitt og standardavvik" },
-        { "label": "Grafer" },
-        { "label": "Korrelasjon og årsak" }
-      ] },
-      { "label": "Formidling og etikk", "children": [
-        { "label": "Rapport" },
-        { "label": "Fagfellevurdering" },
-        { "label": "Dyrevelferd og personvern" }
-      ] }
+      {
+        "label": "Metode",
+        "children": [
+          {
+            "label": "Hypotese"
+          },
+          {
+            "label": "Prediksjon"
+          },
+          {
+            "label": "Forsøk og konklusjon"
+          }
+        ]
+      },
+      {
+        "label": "Forsøk",
+        "children": [
+          {
+            "label": "Variabler"
+          },
+          {
+            "label": "Kontrollgruppe"
+          },
+          {
+            "label": "Replikater"
+          }
+        ]
+      },
+      {
+        "label": "Felt",
+        "children": [
+          {
+            "label": "Ruteanalyse"
+          },
+          {
+            "label": "Transekt"
+          },
+          {
+            "label": "Fangst–gjenfangst"
+          }
+        ]
+      },
+      {
+        "label": "Data",
+        "children": [
+          {
+            "label": "Gjennomsnitt og standardavvik"
+          },
+          {
+            "label": "Grafer"
+          },
+          {
+            "label": "Korrelasjon og årsak"
+          }
+        ]
+      },
+      {
+        "label": "Formidling og etikk",
+        "children": [
+          {
+            "label": "Rapport"
+          },
+          {
+            "label": "Fagfellevurdering"
+          },
+          {
+            "label": "Dyrevelferd og personvern"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Fangst–gjenfangst brukes for å anslå størrelsen på en dyrebestand.", "correct": true, "explain": "Andelen merkede dyr i andre fangst gir et anslag." },
-      { "id": "m02", "type": "sant-usant", "text": "Resultatdelen i en rapport skal inneholde tolkninger og meninger.", "correct": false, "explain": "Tolkningen hører hjemme i diskusjonen." },
-      { "id": "m03", "type": "sant-usant", "text": "Katalase bryter ned hydrogenperoksid.", "correct": true, "explain": "Produktene er vann og oksygen." },
-      { "id": "m04", "type": "sant-usant", "text": "Ett enkelt forsøk er nok til å bevise en hypotese.", "correct": false, "explain": "Hypoteser kan styrkes, men ikke bevises endelig." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket diagram passer best for å vise antall individer av fem ulike arter?", "options": ["Linjediagram", "Søylediagram", "Punktdiagram", "Sektordiagram med tid"], "correct": 1, "explain": "Artene er kategorier." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er en kontrollert variabel?", "options": ["Noe som holdes likt i alle forsøkene", "Det du måler", "Det du endrer", "Resultatet"], "correct": 0, "explain": "Ellers kan den påvirke resultatet." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er fagfellevurdering?", "options": ["At elever retter hverandres prøver", "At forskeren vurderer seg selv", "At andre forskere vurderer arbeidet før publisering", "At en avis omtaler forskningen"], "correct": 2, "explain": "Det sikrer kvaliteten." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Fangst–gjenfangst brukes for å anslå størrelsen på en dyrebestand.",
+        "correct": true,
+        "explain": "Andelen merkede dyr i andre fangst gir et anslag."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Resultatdelen i en rapport skal inneholde tolkninger og meninger.",
+        "correct": false,
+        "explain": "Tolkningen hører hjemme i diskusjonen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Katalase bryter ned hydrogenperoksid.",
+        "correct": true,
+        "explain": "Produktene er vann og oksygen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Ett enkelt forsøk er nok til å bevise en hypotese.",
+        "correct": false,
+        "explain": "Hypoteser kan styrkes, men ikke bevises endelig."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket diagram passer best for å vise antall individer av fem ulike arter?",
+        "options": [
+          "Linjediagram",
+          "Søylediagram",
+          "Punktdiagram",
+          "Sektordiagram med tid"
+        ],
+        "correct": 1,
+        "explain": "Artene er kategorier."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en kontrollert variabel?",
+        "options": [
+          "Noe som holdes likt i alle forsøkene",
+          "Det du måler",
+          "Det du endrer",
+          "Resultatet"
+        ],
+        "correct": 0,
+        "explain": "Ellers kan den påvirke resultatet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er fagfellevurdering?",
+        "options": [
+          "At elever retter hverandres prøver",
+          "At forskeren vurderer seg selv",
+          "At andre forskere vurderer arbeidet før publisering",
+          "At en avis omtaler forskningen"
+        ],
+        "correct": 2,
+        "explain": "Det sikrer kvaliteten."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En biolog undersøker hypotesen «Temperaturen påvirker hvor mye oksygen katalase danner». Beskriv hva biologen bør gjøre fra hypotesen er formulert til hen kan trekke en konklusjon.",
+        "fasit": "Biologen lager en prediksjon om hva som forventes hvis hypotesen stemmer, og gjennomfører et forsøk som tester prediksjonen. Deretter analyserer biologen resultatene og vurderer om hypotesen er styrket eller svekket.",
+        "kriterier": [
+          "Forklarer at en prediksjon skal lages ut fra hypotesen.",
+          "Nevner at et forsøk tester prediksjonen, og at resultatene analyseres for å trekke en konklusjon."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign ruteanalyse og transekt: Hva registrerer man i hver metode, og hvordan er plasseringen eller formen på undersøkelsen forskjellig?",
+        "fasit": "I en ruteanalyse registrerer man arter og antall innenfor ruter med fast størrelse. I et transekt registrerer man endringer i arter og miljø langs en linje gjennom et område.",
+        "kriterier": [
+          "Beskriver ruteanalyse som registrering i ruter med fast størrelse.",
+          "Beskriver transekt som registrering langs en linje, der arter og miljø kan endre seg."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I et forsøk undersøker en elev hvordan temperaturen påvirker katalase ved å måle hvor mye oksygen som dannes. Hva er den avhengige variabelen, og hva bør holdes likt for at temperaturene skal kunne sammenlignes på en rettferdig måte?",
+        "fasit": "Den avhengige variabelen er mengden oksygen som dannes. Andre forhold enn temperaturen bør holdes like, slik at temperatur er den relevante forskjellen mellom forsøkene.",
+        "kriterier": [
+          "Identifiserer målt oksygenmengde som avhengig variabel.",
+          "Forklarer at andre forhold må holdes like for å kunne sammenligne temperaturene."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Ved én temperatur måles oksygenmengden i tre replikater: 2, 4 og 6 måleenheter. Regn ut gjennomsnittet, og vis det viktigste regnestykket.",
+        "fasit": "Gjennomsnittet er 4 måleenheter. Regnestykket er (2 + 4 + 6) / 3 = 4.",
+        "kriterier": [
+          "Legger sammen de tre målingene og deler summen på 3.",
+          "Oppgir gjennomsnittet som 4 måleenheter."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I tre ruter registreres henholdsvis 3, 5 og 4 individer av en art. Regn ut hvor mange individer som ble registrert til sammen, og forskjellen mellom det høyeste og laveste antallet.",
+        "fasit": "Til sammen ble 3 + 5 + 4 = 12 individer registrert. Forskjellen mellom det høyeste og laveste antallet er 5 − 3 = 2 individer.",
+        "kriterier": [
+          "Regner riktig ut samlet antall individer.",
+          "Regner riktig ut forskjellen mellom høyeste og laveste antall."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Langs et transekt øker både antallet av en planteart og en abiotisk faktor. Hva kan forskeren konkludere om sammenhengen mellom dem, og hva kan ikke fastslås ut fra dette alene?",
+        "fasit": "Forskeren kan si at de to størrelsene varierer sammen, altså at det er en korrelasjon. Det viser ikke alene at endringen i den abiotiske faktoren forårsaket endringen i antallet planter.",
+        "kriterier": [
+          "Beskriver at størrelsene varierer sammen, altså at det er en korrelasjon.",
+          "Forklarer at korrelasjon alene ikke viser årsakssammenheng."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev vil vise hvor mange individer som er registrert i hver av flere artskategorier. Hvilken type graf passer best, og hvorfor?",
+        "fasit": "Et søylediagram passer best fordi eleven skal sammenligne antall i ulike kategorier.",
+        "kriterier": [
+          "Velger søylediagram.",
+          "Begrunner valget med at dataene er kategorier som skal sammenlignes."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En klasse planlegger en undersøkelse med levende dyr. Nevn to hensyn de må ta for å gjennomføre undersøkelsen etisk.",
+        "fasit": "De må unngå å skade dyrene unødvendig og følge reglene for dyreforsøk.",
+        "kriterier": [
+          "Nevner at dyrene ikke skal skades unødvendig.",
+          "Nevner at regler for dyreforsøk må følges."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,79 +4,428 @@
   "trinnId": "vg3",
   "name": "Kjønn og identitet",
   "intro": "Ulike perspektiver på kjønn – biologisk, sosialt og juridisk kjønn, kjønnsroller i endring, kjønnsidentitet og kjønnsuttrykk, seksuell orientering, essensialisme og sosialkonstruktivisme, interseksjonalitet – og refleksjon over holdninger til egen og andres identitet.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Hva er kjønn?\n\nKjønn kan forstås på flere måter:\n\n- **Biologisk kjønn**: kromosomer, hormoner og kroppslige kjennetegn. Noen er født med **variasjoner** i kjønnsutvikling.\n- **Sosialt kjønn**: forventninger, normer og **roller** som samfunnet knytter til det å være kvinne eller mann.\n- **Juridisk kjønn**: kjønnet som er registrert i **folkeregisteret**. Siden **2016** kan personer over 16 år selv søke om å endre juridisk kjønn.\n\n## Kjønnsidentitet, kjønnsuttrykk og seksualitet\n\n- **Kjønnsidentitet**: hvilket kjønn man **opplever** å være. Den kan være i samsvar med kjønnet man ble tildelt ved fødselen (**cis**), eller ikke (**trans**). Noen opplever seg som **ikke-binære** – verken bare kvinne eller mann.\n- **Kjønnsuttrykk**: hvordan man **uttrykker** kjønn gjennom klær, hår, kroppsspråk og stemme.\n- **Seksuell orientering**: hvem man blir **forelsket** i eller tiltrukket av – for eksempel hetero, homo, bi eller aseksuell.\n\nDette er **ulike** dimensjoner. En person kan for eksempel være trans og hetero, eller cis og homofil.\n\n## Kjønnsroller i endring\n\nI det **tradisjonelle** samfunnet var det tydelig **arbeidsdeling**: Menn var **forsørgere**, og kvinner hadde ansvar for **hjem** og **barn**. Fra 1970-tallet har rollene endret seg mye i Norge:\n\n- Kvinner tar mer **utdanning** enn menn og er i stor grad i **arbeid**.\n- **Fedrekvoten** har gitt flere fedre omsorgsansvar.\n- **Likestillingsloven** og senere **likestillings- og diskrimineringsloven** forbyr diskriminering på grunn av kjønn, kjønnsidentitet og seksuell orientering.\n\nLikevel finnes forskjeller: **Kjønnsdelt** arbeidsmarked, **lønnsforskjeller**, flere kvinner i **deltid** og flere menn i **toppledelse**.\n\n## Perspektiver\n\n- **Essensialisme**: Forskjeller mellom kjønnene skyldes i hovedsak **medfødte**, biologiske forskjeller.\n- **Sosialkonstruktivisme**: Mye av det vi forbinder med kjønn, er **skapt** av kultur, sosialisering og forventninger – og kan derfor **endres**.\n- **Samspill**: Mange forskere mener at biologi og kultur **samvirker**.\n\n**Interseksjonalitet** betyr at kjønn **krysser** andre kategorier som **klasse**, **etnisitet**, **funksjonsevne** og **seksualitet**. En minoritetskvinne kan møte andre utfordringer enn en majoritetskvinne.\n\n## Identitet\n\n**Identitet** er vår oppfatning av **hvem vi er**. Den består av **personlig** identitet – egenskaper og erfaringer – og **sosial** identitet – gruppene vi tilhører. I det senmoderne samfunnet er identitet i større grad noe man **skaper** og **utforsker**.\n\n## Holdninger og minoritetsstress\n\nHoldninger til kjønn og seksualitet har blitt mer **åpne** i Norge, men mange **LHBTIQ+**-personer opplever fortsatt **hets**, **diskriminering** og **utestengning**. **Minoritetsstress** er den ekstra belastningen ved å tilhøre en gruppe som møter **fordommer** – for eksempel å måtte vurdere om man kan være åpen. Forskning viser at mange i disse gruppene har høyere forekomst av **psykiske helseplager**.\n\n**Negativ sosial kontroll** – at familie eller miljø begrenser hvem man kan være sammen med eller hvordan man kan leve – rammer også noen unge.\n\n## Refleksjon\n\nNår du reflekterer over holdninger til egen og andres identitet, kan du spørre:\n\n- Hvilke **forventninger** har jeg møtt knyttet til kjønn?\n- Hvilke **ord** og **vitser** bruker vi, og hvordan kan de oppleves?\n- Hvordan kan jeg bidra til at andre kan **være seg selv**?\n\nRespekt for andres identitet handler ikke om å være **enig** i alt, men om å anerkjenne andres rett til å **definere seg selv** og leve et **trygt** liv.",
   "flashcards": [
-    { "term": "Biologisk kjønn", "def": "Kromosomer, hormoner og kroppslige kjennetegn." },
-    { "term": "Sosialt kjønn", "def": "Forventninger og roller samfunnet knytter til kjønn." },
-    { "term": "Juridisk kjønn", "def": "Kjønnet registrert i folkeregisteret." },
-    { "term": "Kjønnsidentitet", "def": "Hvilket kjønn man opplever å være." },
-    { "term": "Cis", "def": "Kjønnsidentitet i samsvar med kjønnet tildelt ved fødselen." },
-    { "term": "Trans", "def": "Kjønnsidentitet ikke i samsvar med kjønnet tildelt ved fødselen." },
-    { "term": "Ikke-binær", "def": "Opplever seg verken bare som kvinne eller mann." },
-    { "term": "Kjønnsuttrykk", "def": "Hvordan man uttrykker kjønn gjennom klær, hår og kroppsspråk." },
-    { "term": "Seksuell orientering", "def": "Hvem man blir forelsket i eller tiltrukket av." },
-    { "term": "Essensialisme", "def": "Kjønnsforskjeller skyldes i hovedsak biologi." },
-    { "term": "Sosialkonstruktivisme", "def": "Mye av kjønn er skapt av kultur og forventninger." },
-    { "term": "Interseksjonalitet", "def": "Kjønn krysser klasse, etnisitet, funksjonsevne og seksualitet." },
-    { "term": "Fedrekvoten", "def": "Del av foreldrepermisjonen forbeholdt far." },
-    { "term": "Minoritetsstress", "def": "Ekstra belastning ved å tilhøre en gruppe som møter fordommer." },
-    { "term": "Negativ sosial kontroll", "def": "Familie eller miljø begrenser hvordan man kan leve." }
+    {
+      "term": "Biologisk kjønn",
+      "def": "Kromosomer, hormoner og kroppslige kjennetegn."
+    },
+    {
+      "term": "Sosialt kjønn",
+      "def": "Forventninger og roller samfunnet knytter til kjønn."
+    },
+    {
+      "term": "Juridisk kjønn",
+      "def": "Kjønnet registrert i folkeregisteret."
+    },
+    {
+      "term": "Kjønnsidentitet",
+      "def": "Hvilket kjønn man opplever å være."
+    },
+    {
+      "term": "Cis",
+      "def": "Kjønnsidentitet i samsvar med kjønnet tildelt ved fødselen."
+    },
+    {
+      "term": "Trans",
+      "def": "Kjønnsidentitet ikke i samsvar med kjønnet tildelt ved fødselen."
+    },
+    {
+      "term": "Ikke-binær",
+      "def": "Opplever seg verken bare som kvinne eller mann."
+    },
+    {
+      "term": "Kjønnsuttrykk",
+      "def": "Hvordan man uttrykker kjønn gjennom klær, hår og kroppsspråk."
+    },
+    {
+      "term": "Seksuell orientering",
+      "def": "Hvem man blir forelsket i eller tiltrukket av."
+    },
+    {
+      "term": "Essensialisme",
+      "def": "Kjønnsforskjeller skyldes i hovedsak biologi."
+    },
+    {
+      "term": "Sosialkonstruktivisme",
+      "def": "Mye av kjønn er skapt av kultur og forventninger."
+    },
+    {
+      "term": "Interseksjonalitet",
+      "def": "Kjønn krysser klasse, etnisitet, funksjonsevne og seksualitet."
+    },
+    {
+      "term": "Fedrekvoten",
+      "def": "Del av foreldrepermisjonen forbeholdt far."
+    },
+    {
+      "term": "Minoritetsstress",
+      "def": "Ekstra belastning ved å tilhøre en gruppe som møter fordommer."
+    },
+    {
+      "term": "Negativ sosial kontroll",
+      "def": "Familie eller miljø begrenser hvordan man kan leve."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er kjønnsidentitet?", "options": ["Hvem man blir forelsket i", "Hvilket kjønn man opplever å være", "Hvordan man kler seg", "Kjønnet i passet"], "correct": 1, "explain": "Ulikt seksuell orientering." },
-    { "id": "q02", "text": "Fra hvilket år kan personer over 16 år selv søke om å endre juridisk kjønn?", "options": ["2016", "1972", "2000", "2023"], "correct": 0, "explain": "Lov om endring av juridisk kjønn." },
-    { "id": "q03", "text": "Hva hevder sosialkonstruktivismen?", "options": ["At alt skyldes gener", "At kjønn ikke finnes", "At mye av det vi forbinder med kjønn, er skapt av kultur og forventninger", "At kjønnsroller aldri endres"], "correct": 2, "explain": "Kan derfor endres." },
-    { "id": "q04", "text": "Hva er interseksjonalitet?", "options": ["Et trafikkryss", "En lov", "En diagnose", "At kjønn krysser andre kategorier som klasse og etnisitet"], "correct": 3, "explain": "Gir ulike erfaringer." },
-    { "id": "q05", "text": "Hva er minoritetsstress?", "options": ["Ekstra belastning ved å tilhøre en gruppe som møter fordommer", "Stress på jobben", "Eksamenspress", "Stress ved flytting"], "correct": 0, "explain": "Kan gi psykiske helseplager." },
-    { "id": "q06", "text": "Hvilken endring i kjønnsroller har skjedd i Norge?", "options": ["Færre kvinner i arbeid", "Kvinner tar mer utdanning enn menn", "Menn tar all omsorg", "Ingen endring"], "correct": 1, "explain": "Store endringer siden 1970-tallet." },
-    { "id": "q07", "text": "Hva er kjønnsuttrykk?", "options": ["Kjønn i folkeregisteret", "Kromosomer", "Hvordan man uttrykker kjønn gjennom klær, hår og kroppsspråk", "Hvem man er forelsket i"], "correct": 2, "explain": "Kan variere uavhengig av identitet." },
-    { "id": "q08", "text": "Hva forbyr likestillings- og diskrimineringsloven?", "options": ["Deltid", "Fedrekvote", "Utdanning", "Diskriminering på grunn av kjønn, kjønnsidentitet og seksuell orientering"], "correct": 3, "explain": "Også andre grunnlag." },
-    { "id": "q09", "text": "Hva hevder essensialismen?", "options": ["At kjønnsforskjeller i hovedsak skyldes biologi", "At kjønn er helt sosialt skapt", "At kjønn er juridisk", "At kjønn ikke betyr noe"], "correct": 0, "explain": "Medfødte forskjeller." },
-    { "id": "q10", "text": "Hva innebærer respekt for andres identitet?", "options": ["At man må være enig i alt", "At man anerkjenner andres rett til å definere seg selv", "At man ikke snakker om kjønn", "At alle skal være like"], "correct": 1, "explain": "Og leve et trygt liv." }
+    {
+      "id": "q01",
+      "text": "Hva er kjønnsidentitet?",
+      "options": [
+        "Hvem man blir forelsket i",
+        "Hvilket kjønn man opplever å være",
+        "Hvordan man kler seg",
+        "Kjønnet i passet"
+      ],
+      "correct": 1,
+      "explain": "Ulikt seksuell orientering."
+    },
+    {
+      "id": "q02",
+      "text": "Fra hvilket år kan personer over 16 år selv søke om å endre juridisk kjønn?",
+      "options": [
+        "2016",
+        "1972",
+        "2000",
+        "2023"
+      ],
+      "correct": 0,
+      "explain": "Lov om endring av juridisk kjønn."
+    },
+    {
+      "id": "q03",
+      "text": "Hva hevder sosialkonstruktivismen?",
+      "options": [
+        "At alt skyldes gener",
+        "At kjønn ikke finnes",
+        "At mye av det vi forbinder med kjønn, er skapt av kultur og forventninger",
+        "At kjønnsroller aldri endres"
+      ],
+      "correct": 2,
+      "explain": "Kan derfor endres."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er interseksjonalitet?",
+      "options": [
+        "Et trafikkryss",
+        "En lov",
+        "En diagnose",
+        "At kjønn krysser andre kategorier som klasse og etnisitet"
+      ],
+      "correct": 3,
+      "explain": "Gir ulike erfaringer."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er minoritetsstress?",
+      "options": [
+        "Ekstra belastning ved å tilhøre en gruppe som møter fordommer",
+        "Stress på jobben",
+        "Eksamenspress",
+        "Stress ved flytting"
+      ],
+      "correct": 0,
+      "explain": "Kan gi psykiske helseplager."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken endring i kjønnsroller har skjedd i Norge?",
+      "options": [
+        "Færre kvinner i arbeid",
+        "Kvinner tar mer utdanning enn menn",
+        "Menn tar all omsorg",
+        "Ingen endring"
+      ],
+      "correct": 1,
+      "explain": "Store endringer siden 1970-tallet."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er kjønnsuttrykk?",
+      "options": [
+        "Kjønn i folkeregisteret",
+        "Kromosomer",
+        "Hvordan man uttrykker kjønn gjennom klær, hår og kroppsspråk",
+        "Hvem man er forelsket i"
+      ],
+      "correct": 2,
+      "explain": "Kan variere uavhengig av identitet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva forbyr likestillings- og diskrimineringsloven?",
+      "options": [
+        "Deltid",
+        "Fedrekvote",
+        "Utdanning",
+        "Diskriminering på grunn av kjønn, kjønnsidentitet og seksuell orientering"
+      ],
+      "correct": 3,
+      "explain": "Også andre grunnlag."
+    },
+    {
+      "id": "q09",
+      "text": "Hva hevder essensialismen?",
+      "options": [
+        "At kjønnsforskjeller i hovedsak skyldes biologi",
+        "At kjønn er helt sosialt skapt",
+        "At kjønn er juridisk",
+        "At kjønn ikke betyr noe"
+      ],
+      "correct": 0,
+      "explain": "Medfødte forskjeller."
+    },
+    {
+      "id": "q10",
+      "text": "Hva innebærer respekt for andres identitet?",
+      "options": [
+        "At man må være enig i alt",
+        "At man anerkjenner andres rett til å definere seg selv",
+        "At man ikke snakker om kjønn",
+        "At alle skal være like"
+      ],
+      "correct": 1,
+      "explain": "Og leve et trygt liv."
+    }
   ],
   "mindmap": {
     "label": "Kjønn og identitet",
     "children": [
-      { "label": "Kjønn", "children": [
-        { "label": "Biologisk" },
-        { "label": "Sosialt" },
-        { "label": "Juridisk" }
-      ] },
-      { "label": "Dimensjoner", "children": [
-        { "label": "Kjønnsidentitet" },
-        { "label": "Kjønnsuttrykk" },
-        { "label": "Seksuell orientering" }
-      ] },
-      { "label": "Roller", "children": [
-        { "label": "Tradisjonell arbeidsdeling" },
-        { "label": "Likestilling og fedrekvote" },
-        { "label": "Gjenstående forskjeller" }
-      ] },
-      { "label": "Perspektiver", "children": [
-        { "label": "Essensialisme" },
-        { "label": "Sosialkonstruktivisme" },
-        { "label": "Interseksjonalitet" }
-      ] },
-      { "label": "Holdninger", "children": [
-        { "label": "Minoritetsstress" },
-        { "label": "Negativ sosial kontroll" },
-        { "label": "Respekt" }
-      ] }
+      {
+        "label": "Kjønn",
+        "children": [
+          {
+            "label": "Biologisk"
+          },
+          {
+            "label": "Sosialt"
+          },
+          {
+            "label": "Juridisk"
+          }
+        ]
+      },
+      {
+        "label": "Dimensjoner",
+        "children": [
+          {
+            "label": "Kjønnsidentitet"
+          },
+          {
+            "label": "Kjønnsuttrykk"
+          },
+          {
+            "label": "Seksuell orientering"
+          }
+        ]
+      },
+      {
+        "label": "Roller",
+        "children": [
+          {
+            "label": "Tradisjonell arbeidsdeling"
+          },
+          {
+            "label": "Likestilling og fedrekvote"
+          },
+          {
+            "label": "Gjenstående forskjeller"
+          }
+        ]
+      },
+      {
+        "label": "Perspektiver",
+        "children": [
+          {
+            "label": "Essensialisme"
+          },
+          {
+            "label": "Sosialkonstruktivisme"
+          },
+          {
+            "label": "Interseksjonalitet"
+          }
+        ]
+      },
+      {
+        "label": "Holdninger",
+        "children": [
+          {
+            "label": "Minoritetsstress"
+          },
+          {
+            "label": "Negativ sosial kontroll"
+          },
+          {
+            "label": "Respekt"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kjønnsidentitet og seksuell orientering er ulike dimensjoner.", "correct": true, "explain": "En person kan være trans og hetero." },
-      { "id": "m02", "type": "sant-usant", "text": "Det finnes ikke lenger kjønnsforskjeller i det norske arbeidsmarkedet.", "correct": false, "explain": "Det er fortsatt et kjønnsdelt arbeidsmarked og lønnsforskjeller." },
-      { "id": "m03", "type": "sant-usant", "text": "Mange forskere mener at biologi og kultur samvirker.", "correct": true, "explain": "Ikke enten–eller." },
-      { "id": "m04", "type": "sant-usant", "text": "Alle LHBTIQ+-personer i Norge opplever full aksept.", "correct": false, "explain": "Mange opplever fortsatt hets og diskriminering." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr ikke-binær?", "options": ["Å være homofil", "Å oppleve seg verken bare som kvinne eller mann", "Å være cis", "Å ikke ha noen identitet"], "correct": 1, "explain": "En kjønnsidentitet." },
-      { "id": "m06", "type": "flervalg", "text": "Hva har fedrekvoten ført til?", "options": ["At flere fedre tar omsorgsansvar", "At færre kvinner jobber", "Lavere fødselstall", "At mødre får mindre permisjon totalt"], "correct": 0, "explain": "Endrede kjønnsroller." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er sosial identitet?", "options": ["Ens personlighet", "Ens gener", "Gruppene man tilhører", "Ens navn"], "correct": 2, "explain": "Personlig identitet er egenskaper og erfaringer." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kjønnsidentitet og seksuell orientering er ulike dimensjoner.",
+        "correct": true,
+        "explain": "En person kan være trans og hetero."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Det finnes ikke lenger kjønnsforskjeller i det norske arbeidsmarkedet.",
+        "correct": false,
+        "explain": "Det er fortsatt et kjønnsdelt arbeidsmarked og lønnsforskjeller."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Mange forskere mener at biologi og kultur samvirker.",
+        "correct": true,
+        "explain": "Ikke enten–eller."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle LHBTIQ+-personer i Norge opplever full aksept.",
+        "correct": false,
+        "explain": "Mange opplever fortsatt hets og diskriminering."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr ikke-binær?",
+        "options": [
+          "Å være homofil",
+          "Å oppleve seg verken bare som kvinne eller mann",
+          "Å være cis",
+          "Å ikke ha noen identitet"
+        ],
+        "correct": 1,
+        "explain": "En kjønnsidentitet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva har fedrekvoten ført til?",
+        "options": [
+          "At flere fedre tar omsorgsansvar",
+          "At færre kvinner jobber",
+          "Lavere fødselstall",
+          "At mødre får mindre permisjon totalt"
+        ],
+        "correct": 0,
+        "explain": "Endrede kjønnsroller."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er sosial identitet?",
+        "options": [
+          "Ens personlighet",
+          "Ens gener",
+          "Gruppene man tilhører",
+          "Ens navn"
+        ],
+        "correct": 2,
+        "explain": "Personlig identitet er egenskaper og erfaringer."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen mellom sosialt kjønn og juridisk kjønn. Gi ett eksempel på hva hvert av dem handler om.",
+        "fasit": "Sosialt kjønn handler om forventninger og roller samfunnet knytter til kjønn, for eksempel forventninger til hvem som skal ta ansvar for hjem og barn. Juridisk kjønn er kjønnet som er registrert i folkeregisteret.",
+        "kriterier": [
+          "Forklarer at sosialt kjønn handler om samfunnets forventninger eller roller.",
+          "Forklarer at juridisk kjønn handler om registreringen i folkeregisteret."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Alex ble tildelt jente ved fødselen, opplever seg som mann, bruker klær som ofte forbindes med kvinner og blir forelsket i menn. Forklar hva dette sier om Alex sin kjønnsidentitet, kjønnsuttrykk og seksuelle orientering, og hvorfor én av disse opplysningene ikke avgjør de andre.",
+        "fasit": "Alex er trans fordi kjønnsidentiteten ikke er i samsvar med kjønnet han ble tildelt ved fødselen. Klærne er en del av kjønnsuttrykket, og siden han er mann og blir forelsket i menn, er han homofil. Kjønnsidentitet, kjønnsuttrykk og seksuell orientering er ulike dimensjoner.",
+        "kriterier": [
+          "Knytter det å oppleve seg som mann når man ble tildelt jente ved fødselen, til trans.",
+          "Skiller mellom klær som kjønnsuttrykk og forelskelse i menn som seksuell orientering.",
+          "Får fram at disse dimensjonene ikke avgjør hverandre."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I det tradisjonelle samfunnet hadde menn oftere rollen som forsørgere, mens kvinner hadde ansvar for hjem og barn. Forklar hvordan fedrekvoten kan bidra til å endre denne arbeidsdelingen.",
+        "fasit": "Fedrekvoten gir far en del av foreldrepermisjonen som er forbeholdt ham. Når far får omsorgsansvar, kan ansvaret for barn i større grad deles, i stedet for å følge den tradisjonelle arbeidsdelingen.",
+        "kriterier": [
+          "Forklarer at fedrekvoten er en del av foreldrepermisjonen som er forbeholdt far.",
+          "Knytter fedrekvoten til at far får omsorgsansvar og at arbeidsdelingen kan bli mindre tradisjonell."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign essensialisme og sosialkonstruktivisme som forklaringer på forskjeller mellom kjønnene.",
+        "fasit": "Essensialisme forklarer i hovedsak kjønnsforskjeller med medfødte biologiske forskjeller. Sosialkonstruktivisme legger vekt på at mye av det vi forbinder med kjønn, er skapt av kultur og forventninger og derfor kan endres.",
+        "kriterier": [
+          "Knytter essensialisme til medfødte biologiske forskjeller.",
+          "Knytter sosialkonstruktivisme til kultur eller forventninger, og får fram at slike forhold kan endres."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Nora er kvinne og tilhører en etnisk minoritet. Forklar hvordan et interseksjonelt perspektiv kan brukes til å undersøke erfaringene hennes uten å anta at alle kvinner har de samme erfaringene.",
+        "fasit": "Et interseksjonelt perspektiv ser på hvordan kjønn krysser andre kategorier, som etnisitet. Det kan derfor undersøke om Nora møter andre utfordringer enn en kvinne som tilhører majoriteten, uten å anta at erfaringene hennes er gitt på forhånd.",
+        "kriterier": [
+          "Forklarer at kjønn må ses i sammenheng med andre kategorier, her etnisitet.",
+          "Får fram at dette kan gi andre erfaringer eller utfordringer enn for kvinner i majoriteten."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En ungdom får ikke lov av familien til å være sammen med en person hen er forelsket i, eller til å bestemme hvordan hen skal leve. Forklar hvorfor situasjonen kan være et eksempel på negativ sosial kontroll.",
+        "fasit": "Dette kan være negativ sosial kontroll fordi familien begrenser hvem ungdommen kan være sammen med og hvordan hen kan leve. Slik kontroll handler om at familie eller miljø begrenser en persons liv.",
+        "kriterier": [
+          "Peker på at familien begrenser ungdommens valg eller mulighet til å leve slik hen ønsker.",
+          "Knytter begrensningen til hvem ungdommen kan være sammen med eller hvordan hen kan leve."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En person beskriver seg selv både som omsorgsfull og som medlem av en bestemt vennegjeng. Forklar hvilken del av beskrivelsen som handler om personlig identitet, og hvilken som handler om sosial identitet. Ta også med hvordan identitet i det senmoderne samfunnet i større grad kan utvikles.",
+        "fasit": "Å være omsorgsfull handler om en personlig egenskap og dermed om personlig identitet. Å tilhøre en vennegjeng handler om sosial identitet, fordi det viser til en gruppe personen tilhører. I det senmoderne samfunnet skaper og utforsker mennesker i større grad identiteten sin.",
+        "kriterier": [
+          "Skiller mellom personlige egenskaper eller erfaringer og gruppene man tilhører.",
+          "Får fram at identitet i det senmoderne samfunnet i større grad skapes eller utforskes."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Det er forbudt å diskriminere på grunn av kjønn, samtidig som arbeidsmarkedet fortsatt kan være kjønnsdelt. Forklar hvordan dette kan være mulig, og bruk ett annet eksempel på en kjønnsforskjell som fortsatt finnes.",
+        "fasit": "Et forbud mot diskriminering fastsetter hva som ikke er lov, men betyr ikke i seg selv at alle forskjeller i samfunnet forsvinner. Arbeidsmarkedet kan fortsatt være kjønnsdelt, og det finnes blant annet lønnsforskjeller, flere kvinner i deltidsarbeid og flere menn i toppledelse.",
+        "kriterier": [
+          "Skiller mellom et forbud mot diskriminering og at ulikheter fortsatt kan finnes i samfunnet.",
+          "Nevner et annet eksempel på en kjønnsforskjell, som lønnsforskjeller, flere kvinner i deltid eller flere menn i toppledelse."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

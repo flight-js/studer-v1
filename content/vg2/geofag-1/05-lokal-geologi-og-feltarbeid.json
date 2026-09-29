@@ -4,80 +4,432 @@
   "trinnId": "vg2",
   "name": "Lokal geologi og feltarbeid",
   "intro": "Hvordan du undersøker berggrunn, løsmasser og jordsmonn der du bor, tolker observasjonene til en geologisk historie – og planlegger, gjennomfører og presenterer et geofaglig feltarbeid.",
-  "kompetansemaal": [5, 12],
+  "kompetansemaal": [
+    5,
+    12
+  ],
   "sammendrag": "## Berggrunn og løsmasser\n\n**Berggrunnen** er det faste fjellet. Over den ligger ofte **løsmasser** – løst materiale som sand, grus, leire og stein. I Norge ble de fleste løsmassene avsatt **under og etter siste istid**. De viktigste typene er:\n\n- **Morene**: **usortert** blanding av alt fra leire til store blokker, avsatt direkte av **isbreen**. Den dekker store deler av landet.\n- **Breelvavsetninger**: **sortert** og **lagdelt** sand og grus, avsatt av smeltevann fra breen. De er viktige **grus- og grunnvannsressurser**.\n- **Havavsetninger** (marin leire): finkornet materiale avsatt i havet da landet lå lavere enn i dag.\n- **Elveavsetninger**: sortert materiale avsatt av elver, for eksempel på elvesletter og i deltaer.\n- **Torv** og **myr**: organisk materiale.\n\n## Marin grense\n\n**Marin grense** er det høyeste nivået havet nådde etter istida, før landhevingen. Den varierer fra noen titalls meter på kysten til **over 200 meter** i Oslo-området. Under marin grense kan det finnes **marin leire** – som gir god jordbruksjord, men kan også inneholde **kvikkleire**.\n\n## Jordsmonn\n\nØverst dannes **jordsmonn** gjennom forvitring og nedbrytning av planterester. I barskog er **podsol** vanlig, med et blekt, utvasket lag under humuslaget. Jordsmonnet avhenger av **løsmassene**, **klimaet** og **vegetasjonen**.\n\n## Tolke den geologiske historien\n\nSlik kan du lese landskapet der du bor:\n\n- **Skuringsstriper** i berget viser hvilken vei isen beveget seg.\n- **Morenerygger** viser hvor brefronten sto.\n- **Strandlinjer** og **skjellbanker** høyt over havet viser **landheving**.\n- **Bergartene** forteller om eldre hendelser, som fjellkjededannelse eller vulkanisme.\n\nSammen gir dette en **geologisk historie** – fra dannelsen av berggrunnen for hundrevis av millioner år siden til istida og landhevingen.\n\n## Lokale ressurser\n\nGeologien bestemmer hvilke **ressurser** området har: **grus og pukk** til bygg og vei, **grunnvann** i breelvavsetninger, **jordbruksjord** på marin leire, **naturstein** og **mineraler**. Den påvirker også **naturfarer**, som kvikkleireskred.\n\n## Kartverktøy\n\n**Norges geologiske undersøkelse (NGU)** har digitale kart over **berggrunn**, **løsmasser**, **grunnvann** og **marin grense**. Slike kart er et godt utgangspunkt før feltarbeidet.\n\n## Feltarbeid steg for steg\n\n1. **Planlegging**: Formuler en **problemstilling**, studer kart og vurder **sikkerhet** – for eksempel ras, vann og vær.\n2. **Utstyr**: feltbok, GPS eller mobil, kompass, lupe, geologhammer, målebånd, prøveposer og fortynnet saltsyre.\n3. **Innsamling**: Beskriv lokaliteten nøyaktig, ta **bilder med målestokk**, noter observasjoner og ta **prøver**.\n4. **Bearbeiding**: Analyser prøvene – for eksempel **kornfordeling** ved sikting – og lag **tabeller**, **profiler** og **kart**.\n5. **Tolkning**: Hva forteller dataene om prosessene og historien? Hvilke **feilkilder** og usikkerheter finnes?\n6. **Presentasjon**: rapport, poster eller digital fortelling med tydelige figurer og kildehenvisninger.\n\nHusk å vise **respekt** for natur og grunneiere, og ikke ta prøver i verneområder.",
   "flashcards": [
-    { "term": "Berggrunn", "def": "Det faste fjellet." },
-    { "term": "Løsmasser", "def": "Løst materiale over berggrunnen, som sand, grus og leire." },
-    { "term": "Morene", "def": "Usortert materiale avsatt direkte av isbreen." },
-    { "term": "Breelvavsetning", "def": "Sortert, lagdelt sand og grus fra smeltevann." },
-    { "term": "Havavsetning", "def": "Finkornet materiale avsatt i havet, som marin leire." },
-    { "term": "Marin grense", "def": "Det høyeste nivået havet nådde etter istida." },
-    { "term": "Kvikkleire", "def": "Marin leire som kan bli flytende når den forstyrres." },
-    { "term": "Podsol", "def": "Jordsmonn i barskog med blekt, utvasket lag." },
-    { "term": "Skuringsstriper", "def": "Riper i berget som viser isens bevegelsesretning." },
-    { "term": "Morenerygg", "def": "Viser hvor brefronten sto." },
-    { "term": "Skjellbanker høyt over havet", "def": "Tegn på landheving." },
-    { "term": "NGU", "def": "Norges geologiske undersøkelse – lager geologiske kart." },
-    { "term": "Kornfordeling", "def": "Fordelingen av kornstørrelser, ofte målt ved sikting." },
-    { "term": "Feltbok", "def": "Notatbok for observasjoner i felt." },
-    { "term": "Bilde med målestokk", "def": "Foto med noe av kjent størrelse for å vise dimensjoner." }
+    {
+      "term": "Berggrunn",
+      "def": "Det faste fjellet."
+    },
+    {
+      "term": "Løsmasser",
+      "def": "Løst materiale over berggrunnen, som sand, grus og leire."
+    },
+    {
+      "term": "Morene",
+      "def": "Usortert materiale avsatt direkte av isbreen."
+    },
+    {
+      "term": "Breelvavsetning",
+      "def": "Sortert, lagdelt sand og grus fra smeltevann."
+    },
+    {
+      "term": "Havavsetning",
+      "def": "Finkornet materiale avsatt i havet, som marin leire."
+    },
+    {
+      "term": "Marin grense",
+      "def": "Det høyeste nivået havet nådde etter istida."
+    },
+    {
+      "term": "Kvikkleire",
+      "def": "Marin leire som kan bli flytende når den forstyrres."
+    },
+    {
+      "term": "Podsol",
+      "def": "Jordsmonn i barskog med blekt, utvasket lag."
+    },
+    {
+      "term": "Skuringsstriper",
+      "def": "Riper i berget som viser isens bevegelsesretning."
+    },
+    {
+      "term": "Morenerygg",
+      "def": "Viser hvor brefronten sto."
+    },
+    {
+      "term": "Skjellbanker høyt over havet",
+      "def": "Tegn på landheving."
+    },
+    {
+      "term": "NGU",
+      "def": "Norges geologiske undersøkelse – lager geologiske kart."
+    },
+    {
+      "term": "Kornfordeling",
+      "def": "Fordelingen av kornstørrelser, ofte målt ved sikting."
+    },
+    {
+      "term": "Feltbok",
+      "def": "Notatbok for observasjoner i felt."
+    },
+    {
+      "term": "Bilde med målestokk",
+      "def": "Foto med noe av kjent størrelse for å vise dimensjoner."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner en morene?", "options": ["Sortert og lagdelt sand", "Usortert blanding av leire, sand, stein og blokker", "Bare leire", "Organisk materiale"], "correct": 1, "explain": "Isen avsetter alt om hverandre." },
-    { "id": "q02", "text": "Hva er marin grense?", "options": ["Det høyeste nivået havet nådde etter istida", "Grensen mellom Norge og havet i dag", "Grensen for fiskerisone", "Høyeste flomnivå"], "correct": 0, "explain": "Den varierer fra sted til sted." },
-    { "id": "q03", "text": "Hvorfor er breelvavsetninger viktige ressurser?", "options": ["De inneholder gull", "De er gode til jordbruk alltid", "De er viktige kilder til grus og grunnvann", "De hindrer skred"], "correct": 2, "explain": "Sortert materiale med god gjennomstrømning." },
-    { "id": "q04", "text": "Hva viser skuringsstriper?", "options": ["Hvor gammelt berget er", "Landhevingen", "Hvor havet sto", "Hvilken vei isen beveget seg"], "correct": 3, "explain": "Stein i isen ripet opp berget." },
-    { "id": "q05", "text": "Hvor kan det finnes kvikkleire?", "options": ["Under marin grense", "På toppen av fjell", "I morene over tregrensen", "I vulkansk aske"], "correct": 0, "explain": "Kvikkleire er marin leire." },
-    { "id": "q06", "text": "Hva forteller skjellbanker høyt over havet?", "options": ["At det har vært vulkanutbrudd", "At landet har hevet seg", "At havet har steget", "At isen har vært der nylig"], "correct": 1, "explain": "Skjellene ble avsatt i havet." },
-    { "id": "q07", "text": "Hvorfor tar du bilder med målestokk i felt?", "options": ["For å spare tid", "For at bildet skal bli penere", "For å vise størrelsen på det du fotograferer", "For å finne retning"], "correct": 2, "explain": "Ellers er det vanskelig å tolke bildet." },
-    { "id": "q08", "text": "Hvor finner du digitale kart over løsmasser i Norge?", "options": ["Hos Statistisk sentralbyrå", "Hos Meteorologisk institutt", "Hos Folkehelseinstituttet", "Hos Norges geologiske undersøkelse (NGU)"], "correct": 3, "explain": "Også berggrunn og grunnvann." },
-    { "id": "q09", "text": "Hva er det første steget i et feltarbeid?", "options": ["Planlegging med problemstilling, kart og sikkerhetsvurdering", "Å ta prøver", "Å skrive rapporten", "Å sikte prøvene"], "correct": 0, "explain": "God planlegging gir bedre data." },
-    { "id": "q10", "text": "Hva er podsol?", "options": ["En type morene", "Jordsmonn i barskog med blekt, utvasket lag", "En bergart", "En type kvikkleire"], "correct": 1, "explain": "Vanlig i norsk barskog." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner en morene?",
+      "options": [
+        "Sortert og lagdelt sand",
+        "Usortert blanding av leire, sand, stein og blokker",
+        "Bare leire",
+        "Organisk materiale"
+      ],
+      "correct": 1,
+      "explain": "Isen avsetter alt om hverandre."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er marin grense?",
+      "options": [
+        "Det høyeste nivået havet nådde etter istida",
+        "Grensen mellom Norge og havet i dag",
+        "Grensen for fiskerisone",
+        "Høyeste flomnivå"
+      ],
+      "correct": 0,
+      "explain": "Den varierer fra sted til sted."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor er breelvavsetninger viktige ressurser?",
+      "options": [
+        "De inneholder gull",
+        "De er gode til jordbruk alltid",
+        "De er viktige kilder til grus og grunnvann",
+        "De hindrer skred"
+      ],
+      "correct": 2,
+      "explain": "Sortert materiale med god gjennomstrømning."
+    },
+    {
+      "id": "q04",
+      "text": "Hva viser skuringsstriper?",
+      "options": [
+        "Hvor gammelt berget er",
+        "Landhevingen",
+        "Hvor havet sto",
+        "Hvilken vei isen beveget seg"
+      ],
+      "correct": 3,
+      "explain": "Stein i isen ripet opp berget."
+    },
+    {
+      "id": "q05",
+      "text": "Hvor kan det finnes kvikkleire?",
+      "options": [
+        "Under marin grense",
+        "På toppen av fjell",
+        "I morene over tregrensen",
+        "I vulkansk aske"
+      ],
+      "correct": 0,
+      "explain": "Kvikkleire er marin leire."
+    },
+    {
+      "id": "q06",
+      "text": "Hva forteller skjellbanker høyt over havet?",
+      "options": [
+        "At det har vært vulkanutbrudd",
+        "At landet har hevet seg",
+        "At havet har steget",
+        "At isen har vært der nylig"
+      ],
+      "correct": 1,
+      "explain": "Skjellene ble avsatt i havet."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor tar du bilder med målestokk i felt?",
+      "options": [
+        "For å spare tid",
+        "For at bildet skal bli penere",
+        "For å vise størrelsen på det du fotograferer",
+        "For å finne retning"
+      ],
+      "correct": 2,
+      "explain": "Ellers er det vanskelig å tolke bildet."
+    },
+    {
+      "id": "q08",
+      "text": "Hvor finner du digitale kart over løsmasser i Norge?",
+      "options": [
+        "Hos Statistisk sentralbyrå",
+        "Hos Meteorologisk institutt",
+        "Hos Folkehelseinstituttet",
+        "Hos Norges geologiske undersøkelse (NGU)"
+      ],
+      "correct": 3,
+      "explain": "Også berggrunn og grunnvann."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er det første steget i et feltarbeid?",
+      "options": [
+        "Planlegging med problemstilling, kart og sikkerhetsvurdering",
+        "Å ta prøver",
+        "Å skrive rapporten",
+        "Å sikte prøvene"
+      ],
+      "correct": 0,
+      "explain": "God planlegging gir bedre data."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er podsol?",
+      "options": [
+        "En type morene",
+        "Jordsmonn i barskog med blekt, utvasket lag",
+        "En bergart",
+        "En type kvikkleire"
+      ],
+      "correct": 1,
+      "explain": "Vanlig i norsk barskog."
+    }
   ],
   "mindmap": {
     "label": "Lokal geologi og feltarbeid",
     "children": [
-      { "label": "Løsmasser", "children": [
-        { "label": "Morene" },
-        { "label": "Breelvavsetninger" },
-        { "label": "Havavsetninger" },
-        { "label": "Elveavsetninger og torv" }
-      ] },
-      { "label": "Landheving", "children": [
-        { "label": "Marin grense" },
-        { "label": "Kvikkleire" }
-      ] },
-      { "label": "Lese landskapet", "children": [
-        { "label": "Skuringsstriper" },
-        { "label": "Morenerygger" },
-        { "label": "Strandlinjer" }
-      ] },
-      { "label": "Ressurser", "children": [
-        { "label": "Grus og grunnvann" },
-        { "label": "Jordbruksjord" },
-        { "label": "NGU-kart" }
-      ] },
-      { "label": "Feltarbeid", "children": [
-        { "label": "Planlegging og sikkerhet" },
-        { "label": "Innsamling" },
-        { "label": "Bearbeiding og tolkning" },
-        { "label": "Presentasjon" }
-      ] }
+      {
+        "label": "Løsmasser",
+        "children": [
+          {
+            "label": "Morene"
+          },
+          {
+            "label": "Breelvavsetninger"
+          },
+          {
+            "label": "Havavsetninger"
+          },
+          {
+            "label": "Elveavsetninger og torv"
+          }
+        ]
+      },
+      {
+        "label": "Landheving",
+        "children": [
+          {
+            "label": "Marin grense"
+          },
+          {
+            "label": "Kvikkleire"
+          }
+        ]
+      },
+      {
+        "label": "Lese landskapet",
+        "children": [
+          {
+            "label": "Skuringsstriper"
+          },
+          {
+            "label": "Morenerygger"
+          },
+          {
+            "label": "Strandlinjer"
+          }
+        ]
+      },
+      {
+        "label": "Ressurser",
+        "children": [
+          {
+            "label": "Grus og grunnvann"
+          },
+          {
+            "label": "Jordbruksjord"
+          },
+          {
+            "label": "NGU-kart"
+          }
+        ]
+      },
+      {
+        "label": "Feltarbeid",
+        "children": [
+          {
+            "label": "Planlegging og sikkerhet"
+          },
+          {
+            "label": "Innsamling"
+          },
+          {
+            "label": "Bearbeiding og tolkning"
+          },
+          {
+            "label": "Presentasjon"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "De fleste løsmassene i Norge ble avsatt under og etter siste istid.", "correct": true, "explain": "Isen og smeltevannet flyttet store mengder materiale." },
-      { "id": "m02", "type": "sant-usant", "text": "Marin grense ligger like høyt over havet overalt i Norge.", "correct": false, "explain": "Den varierer fra noen titalls meter til over 200 meter." },
-      { "id": "m03", "type": "sant-usant", "text": "Marin leire kan gi god jordbruksjord.", "correct": true, "explain": "Mange viktige jordbruksområder ligger under marin grense." },
-      { "id": "m04", "type": "sant-usant", "text": "Det er greit å ta bergartsprøver i verneområder.", "correct": false, "explain": "Verneområder har egne regler, og natur skal behandles med respekt." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken metode brukes for å finne kornfordelingen i en prøve?", "options": ["Syretest", "Sikting", "Radiometrisk datering", "Kompassmåling"], "correct": 1, "explain": "Prøven ristes gjennom sikter med ulik maskevidde." },
-      { "id": "m06", "type": "flervalg", "text": "Hva viser en morenerygg?", "options": ["Hvor brefronten sto", "Hvor havet sto", "Hvor elva rant", "Hvor vulkanen var"], "correct": 0, "explain": "Isen skjøv opp materiale foran seg." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket utstyr bruker du for å teste om en bergart inneholder kalkspat?", "options": ["Kompass", "Lupe", "Fortynnet saltsyre", "Målebånd"], "correct": 2, "explain": "Kalkspat bruser." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "De fleste løsmassene i Norge ble avsatt under og etter siste istid.",
+        "correct": true,
+        "explain": "Isen og smeltevannet flyttet store mengder materiale."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Marin grense ligger like høyt over havet overalt i Norge.",
+        "correct": false,
+        "explain": "Den varierer fra noen titalls meter til over 200 meter."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Marin leire kan gi god jordbruksjord.",
+        "correct": true,
+        "explain": "Mange viktige jordbruksområder ligger under marin grense."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Det er greit å ta bergartsprøver i verneområder.",
+        "correct": false,
+        "explain": "Verneområder har egne regler, og natur skal behandles med respekt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken metode brukes for å finne kornfordelingen i en prøve?",
+        "options": [
+          "Syretest",
+          "Sikting",
+          "Radiometrisk datering",
+          "Kompassmåling"
+        ],
+        "correct": 1,
+        "explain": "Prøven ristes gjennom sikter med ulik maskevidde."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva viser en morenerygg?",
+        "options": [
+          "Hvor brefronten sto",
+          "Hvor havet sto",
+          "Hvor elva rant",
+          "Hvor vulkanen var"
+        ],
+        "correct": 0,
+        "explain": "Isen skjøv opp materiale foran seg."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket utstyr bruker du for å teste om en bergart inneholder kalkspat?",
+        "options": [
+          "Kompass",
+          "Lupe",
+          "Fortynnet saltsyre",
+          "Målebånd"
+        ],
+        "correct": 2,
+        "explain": "Kalkspat bruser."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign morene og breelvavsetning. Forklar hvordan de dannes, og hva som kjennetegner sorteringen av materialet i hver av dem.",
+        "fasit": "Morene er usortert materiale som isbreen har avsatt direkte. Breelvavsetning er sortert og lagdelt sand og grus som smeltevann har avsatt.",
+        "kriterier": [
+          "Forklarer at morene er avsatt direkte av isbreen og er usortert.",
+          "Forklarer at breelvavsetning er avsatt av smeltevann og er sortert og lagdelt."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "To områder har samme klima og vegetasjon, men ulike løsmasser. Forklar hvordan dette kan bidra til at jordsmonnet i områdene blir forskjellig.",
+        "fasit": "Jordsmonnet avhenger blant annet av løsmassene det dannes i. Når områdene har ulike løsmasser, kan jordsmonnet derfor bli forskjellig selv om klima og vegetasjon er like.",
+        "kriterier": [
+          "Knytter forskjellen i jordsmonn til at jordsmonnet dannes i løsmassene.",
+          "Viser at løsmassene kan påvirke jordsmonnet selv om klima og vegetasjon er like."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En morenerygg og en strandlinje er synlige i et landskap. Sammenlign hva disse to sporene kan fortelle om landskapets historie.",
+        "fasit": "Moreneryggen viser hvor brefronten sto. Strandlinjen høyt over dagens havnivå er et tegn på at landet har hevet seg etter istida.",
+        "kriterier": [
+          "Knytter moreneryggen til brefrontens tidligere plassering.",
+          "Knytter strandlinjen til landheving."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du skal planlegge feltarbeid i et område med ukjent geologi. Forklar hvordan digitale kart fra NGU kan brukes i planleggingen, og nevn én sikkerhetsvurdering dere bør gjøre.",
+        "fasit": "NGU-kart over berggrunn, løsmasser, grunnvann eller marin grense kan gi et utgangspunkt for å undersøke området. Før feltarbeidet bør vi også vurdere sikkerhet knyttet til for eksempel ras, vann eller vær.",
+        "kriterier": [
+          "Forklarer at geologiske kart fra NGU brukes som utgangspunkt for planleggingen.",
+          "Nevner en relevant sikkerhetsvurdering, som ras, vann eller vær."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et område har breelvavsetninger. Gi to eksempler på ressurser som kan være knyttet til slike avsetninger, og begrunn ett av eksemplene.",
+        "fasit": "Breelvavsetninger kan være en kilde til grus og grunnvann. Sand og grus er sortert og avsatt av smeltevann, og slike avsetninger er viktige grus- og grunnvannsressurser.",
+        "kriterier": [
+          "Nevner grus og/eller grunnvann som ressurs knyttet til breelvavsetninger.",
+          "Begrunner minst én ressurs med at breelvavsetninger er viktige grus- eller grunnvannsressurser."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Etter en feltøkt har dere notater og prøver fra en lokalitet. Forklar hvordan dere kan bearbeide materialet og bruke det til å tolke geologiske prosesser, og nevn én mulig feilkilde eller usikkerhet.",
+        "fasit": "Prøvene kan analyseres, for eksempel ved å sikte dem for å undersøke kornfordelingen, og resultatene kan samles i tabeller eller profiler. Dataene kan brukes til å tolke prosessene, men tolkningen kan være usikker på grunn av feilkilder i innsamlingen eller analysen.",
+        "kriterier": [
+          "Beskriver en relevant bearbeiding, som sikting eller bruk av tabeller og profiler.",
+          "Knytter bearbeidingen til tolkning av geologiske prosesser.",
+          "Nevner at feilkilder eller usikkerhet kan påvirke tolkningen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I et tenkt område er marin grense 210 meter over havet, og en lokalitet ligger 180 meter over havet. Hvor mange meter ligger lokaliteten under marin grense? Forklar hva plasseringen kan bety for muligheten for å finne marin leire der.",
+        "fasit": "Lokaliteten ligger 30 meter under marin grense, fordi 210 − 180 = 30. Det kan finnes marin leire under marin grense, men plasseringen alene viser ikke sikkert at leire finnes akkurat der.",
+        "kriterier": [
+          "Regner riktig ut at forskjellen er 30 meter.",
+          "Forklarer at marin leire kan finnes under marin grense, uten å slå fast at den nødvendigvis finnes på lokaliteten."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "To prøver veier 20 gram hver. Ved sikting inneholder prøve A 12 gram sand, mens prøve B inneholder 4 gram sand. Hvor stor andel av hver prøve er sand, og hvor mange prosentpoeng større er andelen i prøve A?",
+        "fasit": "I prøve A er sandandelen 12/20 = 60 %, og i prøve B er den 4/20 = 20 %. Forskjellen er 60 − 20 = 40 prosentpoeng.",
+        "kriterier": [
+          "Regner ut sandandelen til 60 % i prøve A og 20 % i prøve B.",
+          "Regner ut forskjellen til 40 prosentpoeng."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

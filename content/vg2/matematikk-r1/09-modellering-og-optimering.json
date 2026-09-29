@@ -4,80 +4,431 @@
   "trinnId": "vg2",
   "name": "Modellering, datasett og optimering",
   "intro": "Hvordan du planlegger et selvstendig arbeid med reelle naturvitenskapelige datasett, velger og tilpasser modeller, bruker derivasjon til å tolke modellene og løser optimeringsproblemer.",
-  "kompetansemaal": [1, 6],
+  "kompetansemaal": [
+    1,
+    6
+  ],
   "sammendrag": "## Et selvstendig arbeid med data\n\nI R1 skal du kunne arbeide med **reelle datasett** knyttet til naturvitenskap. Et godt arbeid følger gjerne disse stegene:\n\n1. **Problemstilling**: Hva vil du finne ut? For eksempel hvordan temperaturen, en dyrebestand eller CO₂-innholdet i lufta har endret seg.\n2. **Datainnsamling**: Finn data fra **pålitelige kilder**, som Statistisk sentralbyrå, Meteorologisk institutt eller forskningsinstitusjoner, eller mål selv. Noter **kilde** og **enheter**.\n3. **Bearbeiding**: Rydd i dataene, velg passende **variabler** og plott dem.\n4. **Modellvalg**: Velg modelltype ut fra **formen** på dataene og det du vet om fenomenet.\n5. **Analyse**: Bruk modellen og derivasjon til å svare på problemstillingen.\n6. **Vurdering**: Hvor god er modellen, og hvor langt kan du stole på den?\n7. **Presentasjon**: Tydelige grafer, forklaringer og konklusjon.\n\n## Velge modell\n\n- **Lineær** – jevn endring per tidsenhet.\n- **Polynom** – når grafen har topp- eller bunnpunkter. Unngå for høy grad; den kan passe dataene perfekt, men oppføre seg urimelig utenfor dem.\n- **Eksponentiell** – fast prosentvis endring.\n- **Logistisk** – vekst som flater ut mot en grense.\n- **Potens** – for eksempel sammenhenger i geometri og fysikk.\n\nBruk **regresjon** for å finne modellen som passer best. Se på **residualene** – avvikene mellom data og modell. Er de tilfeldig fordelt, passer modelltypen godt; følger de et mønster, bør du vurdere en annen modell.\n\n## Tolke modellen med derivasjon\n\n- **f′(t)** er **vekstfarten** – for eksempel antall individer per år. Husk **enheten**.\n- **Ekstremalpunkter** viser når noe er størst eller minst.\n- **Vendepunkter** viser når endringen er **raskest**.\n\n## Optimering\n\nMange problemer handler om å finne den **beste** løsningen: størst volum, minst materialbruk eller høyest fortjeneste.\n\n1. Velg en **variabel** og skriv den størrelsen som skal optimeres, som en **funksjon** av den.\n2. Finn **definisjonsmengden** ut fra situasjonen.\n3. **Deriver** og løs f′(x) = 0.\n4. Sjekk at du har et **maksimum** eller **minimum** – og sjekk endepunktene.\n5. **Svar** på spørsmålet med enheter.\n\n**Eksempel 1 – eske**: Av en kvadratisk plate på 30 cm × 30 cm skjærer vi ut kvadrater med side x i hjørnene og bretter opp en eske uten lokk.\n\nV(x) = x(30 − 2x)², 0 < x < 15\n\nV′(x) = (30 − 2x)(30 − 6x) = 0 gir x = 5 (x = 15 gir null volum). Største volum er V(5) = 5 · 20² = **2000 cm³**.\n\n**Eksempel 2 – inngjerding**: Med 100 m gjerde skal du lage en rektangulær innhegning inntil en vegg. Sidene vinkelrett på veggen er x, og siden parallelt med veggen er 100 − 2x.\n\nA(x) = x(100 − 2x), A′(x) = 100 − 4x = 0 gir x = 25. Største areal er 25 · 50 = **1250 m²**.\n\n## Vurdere modeller\n\nEn modell er en **forenkling**. Diskuter\n\n- hvor godt modellen passer dataene\n- om den gir **rimelige** svar utenfor dataområdet\n- hvilke **forutsetninger** den bygger på\n- hvilke **feilkilder** som finnes i dataene",
   "flashcards": [
-    { "term": "Problemstilling", "def": "Hva arbeidet skal finne ut." },
-    { "term": "Pålitelig kilde", "def": "For eksempel SSB, Meteorologisk institutt eller forskningsinstitusjoner." },
-    { "term": "Regresjon", "def": "Å finne modellen som passer best til dataene." },
-    { "term": "Residual", "def": "Avviket mellom datapunkt og modell." },
-    { "term": "Mønster i residualene", "def": "Tegn på at modelltypen passer dårlig." },
-    { "term": "Polynom av høy grad", "def": "Kan passe dataene perfekt, men oppføre seg urimelig utenfor dem." },
-    { "term": "f′(t) i en modell", "def": "Vekstfarten, med enhet per tidsenhet." },
-    { "term": "Vendepunkt i en modell", "def": "Når endringen er raskest." },
-    { "term": "Optimering", "def": "Å finne størst eller minst verdi, ofte med derivasjon." },
-    { "term": "Steg 1 i optimering", "def": "Skriv størrelsen som skal optimeres, som en funksjon av én variabel." },
-    { "term": "Definisjonsmengde i optimering", "def": "Bestemmes av situasjonen, for eksempel 0 < x < 15." },
-    { "term": "Eske av 30 cm-plate", "def": "Største volum 2000 cm³ ved x = 5 cm." },
-    { "term": "Innhegning med 100 m gjerde mot vegg", "def": "Største areal 1250 m² ved x = 25 m." },
-    { "term": "Sjekk endepunktene", "def": "Største eller minste verdi kan ligge i endepunktene." },
-    { "term": "Forutsetninger", "def": "Det modellen bygger på – må vurderes." }
+    {
+      "term": "Problemstilling",
+      "def": "Hva arbeidet skal finne ut."
+    },
+    {
+      "term": "Pålitelig kilde",
+      "def": "For eksempel SSB, Meteorologisk institutt eller forskningsinstitusjoner."
+    },
+    {
+      "term": "Regresjon",
+      "def": "Å finne modellen som passer best til dataene."
+    },
+    {
+      "term": "Residual",
+      "def": "Avviket mellom datapunkt og modell."
+    },
+    {
+      "term": "Mønster i residualene",
+      "def": "Tegn på at modelltypen passer dårlig."
+    },
+    {
+      "term": "Polynom av høy grad",
+      "def": "Kan passe dataene perfekt, men oppføre seg urimelig utenfor dem."
+    },
+    {
+      "term": "f′(t) i en modell",
+      "def": "Vekstfarten, med enhet per tidsenhet."
+    },
+    {
+      "term": "Vendepunkt i en modell",
+      "def": "Når endringen er raskest."
+    },
+    {
+      "term": "Optimering",
+      "def": "Å finne størst eller minst verdi, ofte med derivasjon."
+    },
+    {
+      "term": "Steg 1 i optimering",
+      "def": "Skriv størrelsen som skal optimeres, som en funksjon av én variabel."
+    },
+    {
+      "term": "Definisjonsmengde i optimering",
+      "def": "Bestemmes av situasjonen, for eksempel 0 < x < 15."
+    },
+    {
+      "term": "Eske av 30 cm-plate",
+      "def": "Største volum 2000 cm³ ved x = 5 cm."
+    },
+    {
+      "term": "Innhegning med 100 m gjerde mot vegg",
+      "def": "Største areal 1250 m² ved x = 25 m."
+    },
+    {
+      "term": "Sjekk endepunktene",
+      "def": "Største eller minste verdi kan ligge i endepunktene."
+    },
+    {
+      "term": "Forutsetninger",
+      "def": "Det modellen bygger på – må vurderes."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva forteller et tydelig mønster i residualene?", "options": ["At modellen er perfekt", "At modelltypen kanskje passer dårlig", "At dataene er feil", "At regresjonen er ugyldig"], "correct": 1, "explain": "Tilfeldige residualer tyder på god modelltype." },
-    { "id": "q02", "text": "Hvilken modelltype passer til data som vokser mot en øvre grense?", "options": ["Logistisk", "Lineær", "Eksponentiell", "Andregrads polynom med positiv x²-koeffisient"], "correct": 0, "explain": "Den har en bæreevne." },
-    { "id": "q03", "text": "Hva er største volum for en eske laget av en 30 cm × 30 cm plate?", "options": ["1000 cm³", "4500 cm³", "2000 cm³", "900 cm³"], "correct": 2, "explain": "V(5) = 5 · 20²." },
-    { "id": "q04", "text": "Hva er største areal for en innhegning med 100 m gjerde mot en vegg?", "options": ["625 m²", "2500 m²", "5000 m²", "1250 m²"], "correct": 3, "explain": "x = 25 gir 25 · 50." },
-    { "id": "q05", "text": "Hvorfor kan et polynom av høy grad være en dårlig modell?", "options": ["Det kan oppføre seg urimelig utenfor dataområdet", "Det passer aldri dataene", "Det kan ikke deriveres", "Det er alltid lineært"], "correct": 0, "explain": "Det kan svinge kraftig." },
-    { "id": "q06", "text": "Hva er det første steget i et optimeringsproblem?", "options": ["Derivere", "Skrive størrelsen som skal optimeres, som en funksjon av én variabel", "Tegne grafen", "Sette x = 0"], "correct": 1, "explain": "Deretter kan du derivere." },
-    { "id": "q07", "text": "N(t) er antall fisk etter t år. Hva er enheten til N′(t)?", "options": ["Fisk", "År", "Fisk per år", "År per fisk"], "correct": 2, "explain": "y-enhet per x-enhet." },
-    { "id": "q08", "text": "Hvorfor må du sjekke endepunktene i et optimeringsproblem?", "options": ["Fordi f′ alltid er null der", "Fordi modellen ikke gjelder der", "Fordi de alltid gir minst verdi", "Fordi største eller minste verdi kan ligge der"], "correct": 3, "explain": "Globale ekstremalverdier kan ligge i endepunktene." },
-    { "id": "q09", "text": "Hvilken kilde er god for norske befolkningsdata?", "options": ["Statistisk sentralbyrå", "En tilfeldig blogg", "Et reklameinnslag", "En gammel lærebok uten kildehenvisning"], "correct": 0, "explain": "Offisiell statistikk." },
-    { "id": "q10", "text": "Hva viser et vendepunkt i en modell av en populasjon?", "options": ["Når populasjonen er størst", "Når populasjonen vokser raskest", "Når populasjonen er null", "Når modellen slutter å gjelde"], "correct": 1, "explain": "Vekstfarten har et maksimum." }
+    {
+      "id": "q01",
+      "text": "Hva forteller et tydelig mønster i residualene?",
+      "options": [
+        "At modellen er perfekt",
+        "At modelltypen kanskje passer dårlig",
+        "At dataene er feil",
+        "At regresjonen er ugyldig"
+      ],
+      "correct": 1,
+      "explain": "Tilfeldige residualer tyder på god modelltype."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken modelltype passer til data som vokser mot en øvre grense?",
+      "options": [
+        "Logistisk",
+        "Lineær",
+        "Eksponentiell",
+        "Andregrads polynom med positiv x²-koeffisient"
+      ],
+      "correct": 0,
+      "explain": "Den har en bæreevne."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er største volum for en eske laget av en 30 cm × 30 cm plate?",
+      "options": [
+        "1000 cm³",
+        "4500 cm³",
+        "2000 cm³",
+        "900 cm³"
+      ],
+      "correct": 2,
+      "explain": "V(5) = 5 · 20²."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er største areal for en innhegning med 100 m gjerde mot en vegg?",
+      "options": [
+        "625 m²",
+        "2500 m²",
+        "5000 m²",
+        "1250 m²"
+      ],
+      "correct": 3,
+      "explain": "x = 25 gir 25 · 50."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor kan et polynom av høy grad være en dårlig modell?",
+      "options": [
+        "Det kan oppføre seg urimelig utenfor dataområdet",
+        "Det passer aldri dataene",
+        "Det kan ikke deriveres",
+        "Det er alltid lineært"
+      ],
+      "correct": 0,
+      "explain": "Det kan svinge kraftig."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er det første steget i et optimeringsproblem?",
+      "options": [
+        "Derivere",
+        "Skrive størrelsen som skal optimeres, som en funksjon av én variabel",
+        "Tegne grafen",
+        "Sette x = 0"
+      ],
+      "correct": 1,
+      "explain": "Deretter kan du derivere."
+    },
+    {
+      "id": "q07",
+      "text": "N(t) er antall fisk etter t år. Hva er enheten til N′(t)?",
+      "options": [
+        "Fisk",
+        "År",
+        "Fisk per år",
+        "År per fisk"
+      ],
+      "correct": 2,
+      "explain": "y-enhet per x-enhet."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor må du sjekke endepunktene i et optimeringsproblem?",
+      "options": [
+        "Fordi f′ alltid er null der",
+        "Fordi modellen ikke gjelder der",
+        "Fordi de alltid gir minst verdi",
+        "Fordi største eller minste verdi kan ligge der"
+      ],
+      "correct": 3,
+      "explain": "Globale ekstremalverdier kan ligge i endepunktene."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken kilde er god for norske befolkningsdata?",
+      "options": [
+        "Statistisk sentralbyrå",
+        "En tilfeldig blogg",
+        "Et reklameinnslag",
+        "En gammel lærebok uten kildehenvisning"
+      ],
+      "correct": 0,
+      "explain": "Offisiell statistikk."
+    },
+    {
+      "id": "q10",
+      "text": "Hva viser et vendepunkt i en modell av en populasjon?",
+      "options": [
+        "Når populasjonen er størst",
+        "Når populasjonen vokser raskest",
+        "Når populasjonen er null",
+        "Når modellen slutter å gjelde"
+      ],
+      "correct": 1,
+      "explain": "Vekstfarten har et maksimum."
+    }
   ],
   "mindmap": {
     "label": "Modellering og optimering",
     "children": [
-      { "label": "Arbeidsprosess", "children": [
-        { "label": "Problemstilling" },
-        { "label": "Data og kilder" },
-        { "label": "Presentasjon" }
-      ] },
-      { "label": "Modellvalg", "children": [
-        { "label": "Lineær og polynom" },
-        { "label": "Eksponentiell" },
-        { "label": "Logistisk" },
-        { "label": "Residualer" }
-      ] },
-      { "label": "Tolkning", "children": [
-        { "label": "Vekstfart" },
-        { "label": "Ekstremalpunkter" },
-        { "label": "Vendepunkter" }
-      ] },
-      { "label": "Optimering", "children": [
-        { "label": "Funksjon av én variabel" },
-        { "label": "f′ = 0" },
-        { "label": "Endepunkter" }
-      ] },
-      { "label": "Vurdering", "children": [
-        { "label": "Forutsetninger" },
-        { "label": "Gyldighetsområde" },
-        { "label": "Feilkilder" }
-      ] }
+      {
+        "label": "Arbeidsprosess",
+        "children": [
+          {
+            "label": "Problemstilling"
+          },
+          {
+            "label": "Data og kilder"
+          },
+          {
+            "label": "Presentasjon"
+          }
+        ]
+      },
+      {
+        "label": "Modellvalg",
+        "children": [
+          {
+            "label": "Lineær og polynom"
+          },
+          {
+            "label": "Eksponentiell"
+          },
+          {
+            "label": "Logistisk"
+          },
+          {
+            "label": "Residualer"
+          }
+        ]
+      },
+      {
+        "label": "Tolkning",
+        "children": [
+          {
+            "label": "Vekstfart"
+          },
+          {
+            "label": "Ekstremalpunkter"
+          },
+          {
+            "label": "Vendepunkter"
+          }
+        ]
+      },
+      {
+        "label": "Optimering",
+        "children": [
+          {
+            "label": "Funksjon av én variabel"
+          },
+          {
+            "label": "f′ = 0"
+          },
+          {
+            "label": "Endepunkter"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering",
+        "children": [
+          {
+            "label": "Forutsetninger"
+          },
+          {
+            "label": "Gyldighetsområde"
+          },
+          {
+            "label": "Feilkilder"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En modell er alltid en forenkling av virkeligheten.", "correct": true, "explain": "Derfor må forutsetningene vurderes." },
-      { "id": "m02", "type": "sant-usant", "text": "Det er ikke nødvendig å oppgi kilder for dataene.", "correct": false, "explain": "Kilder må alltid oppgis." },
-      { "id": "m03", "type": "sant-usant", "text": "I eskeeksempelet er definisjonsmengden 0 < x < 15.", "correct": true, "explain": "Ellers blir en side null eller negativ." },
-      { "id": "m04", "type": "sant-usant", "text": "Løsningen av f′(x) = 0 gir alltid et maksimum.", "correct": false, "explain": "Det kan også være et minimum eller terrassepunkt." },
-      { "id": "m05", "type": "flervalg", "text": "En bedrift har fortjenesten P(x) = −2x² + 80x − 300. Hvilken x gir størst fortjeneste?", "options": ["x = 40", "x = 20", "x = 80", "x = 15"], "correct": 1, "explain": "P′(x) = −4x + 80 = 0." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken modell passer for data som øker med omtrent 3 % per år?", "options": ["Eksponentiell", "Lineær", "Logistisk", "Konstant"], "correct": 0, "explain": "Fast prosentvis vekst." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er V′(x) for V(x) = x(30 − 2x)²?", "options": ["(30 − 2x)²", "−4x(30 − 2x)", "(30 − 2x)(30 − 6x)", "30 − 6x"], "correct": 2, "explain": "Produkt- og kjerneregelen, deretter faktorisering." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En modell er alltid en forenkling av virkeligheten.",
+        "correct": true,
+        "explain": "Derfor må forutsetningene vurderes."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Det er ikke nødvendig å oppgi kilder for dataene.",
+        "correct": false,
+        "explain": "Kilder må alltid oppgis."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "I eskeeksempelet er definisjonsmengden 0 < x < 15.",
+        "correct": true,
+        "explain": "Ellers blir en side null eller negativ."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Løsningen av f′(x) = 0 gir alltid et maksimum.",
+        "correct": false,
+        "explain": "Det kan også være et minimum eller terrassepunkt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "En bedrift har fortjenesten P(x) = −2x² + 80x − 300. Hvilken x gir størst fortjeneste?",
+        "options": [
+          "x = 40",
+          "x = 20",
+          "x = 80",
+          "x = 15"
+        ],
+        "correct": 1,
+        "explain": "P′(x) = −4x + 80 = 0."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken modell passer for data som øker med omtrent 3 % per år?",
+        "options": [
+          "Eksponentiell",
+          "Lineær",
+          "Logistisk",
+          "Konstant"
+        ],
+        "correct": 0,
+        "explain": "Fast prosentvis vekst."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er V′(x) for V(x) = x(30 − 2x)²?",
+        "options": [
+          "(30 − 2x)²",
+          "−4x(30 − 2x)",
+          "(30 − 2x)(30 − 6x)",
+          "30 − 6x"
+        ],
+        "correct": 2,
+        "explain": "Produkt- og kjerneregelen, deretter faktorisering."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva er en problemstilling i et arbeid med data, og hvordan hjelper den deg med å planlegge arbeidet?",
+        "fasit": "En problemstilling sier hva du vil finne ut. Den hjelper deg med å velge hvilke data du trenger, og hvordan du skal analysere dem.",
+        "kriterier": [
+          "Forklarer at problemstillingen sier hva arbeidet skal finne ut.",
+          "Knytter problemstillingen til valg av data eller analyse."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign lineære og eksponentielle modeller ved å forklare hvordan størrelsen endrer seg per tidsenhet i hver modell.",
+        "fasit": "I en lineær modell endres størrelsen med samme beløp per tidsenhet. I en eksponentiell modell endres den med samme prosent per tidsenhet.",
+        "kriterier": [
+          "Beskriver jevn endring i beløp for en lineær modell.",
+          "Beskriver fast prosentvis endring for en eksponentiell modell."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En forsker bruker regresjon på måledata. Forklar hva regresjonen finner, og hva et residual er.",
+        "fasit": "Regresjon finner en modell som passer best til dataene. Et residual er avviket mellom en målt verdi og modellens verdi for samme punkt.",
+        "kriterier": [
+          "Forklarer at regresjon brukes til å finne en modell som passer dataene.",
+          "Forklarer residual som avvik mellom et datapunkt og modellen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du skal undersøke hvordan temperaturen har endret seg ved hjelp av målinger. Forklar hvorfor du bør bruke en pålitelig datakilde og notere enhetene.",
+        "fasit": "En pålitelig kilde gjør det lettere å vurdere om målingene er troverdige. Enhetene viser hva måleverdiene betyr, slik at de kan tolkes riktig.",
+        "kriterier": [
+          "Knytter en pålitelig kilde til hvor troverdige dataene er.",
+          "Forklarer at enheter er nødvendige for å tolke måleverdiene."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En modell passer godt til målingene den ble laget fra, men gir svært urimelige verdier når den brukes utenfor dette området. Hvordan bør du vurdere modellens bruk i denne situasjonen?",
+        "fasit": "Modellen er en forenkling, og at den passer målingene betyr ikke at den gir rimelige svar utenfor dataområdet. Derfor bør resultatene utenfor området brukes med forsiktighet, og modellens forutsetninger vurderes.",
+        "kriterier": [
+          "Skiller mellom at modellen passer dataene og at den nødvendigvis er rimelig utenfor dataområdet.",
+          "Nevner at modellens forutsetninger eller begrensninger må vurderes."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar forskjellen på hva et ekstremalpunkt og et vendepunkt forteller om en modell for en dyrebestand.",
+        "fasit": "Et ekstremalpunkt viser når bestanden er størst eller minst. Et vendepunkt viser når endringen i bestanden er raskest.",
+        "kriterier": [
+          "Knytter ekstremalpunkt til største eller minste verdi.",
+          "Knytter vendepunkt til raskest endring."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En eske lages av en kvadratisk plate på 30 cm × 30 cm. Volumet er gitt ved V(x) = x(30 − 2x)², der x er størrelsen på kvadratene som skjæres ut. Finn volumet når x = 3 cm, og vis det viktigste regnestykket.",
+        "fasit": "V(3) = 3(30 − 6)² = 3 · 24² = 1728. Volumet er 1728 cm³.",
+        "kriterier": [
+          "Setter x = 3 inn i volumformelen og viser regnestykket 3 · 24².",
+          "Oppgir volumet med riktig enhet, cm³."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En rektangulær innhegning bygges inntil en vegg med 100 m gjerde. De to sidene vinkelrett på veggen er x meter, og siden parallelt med veggen er 100 − 2x meter. Finn arealet når x = 20 m, og vis det viktigste regnestykket.",
+        "fasit": "Den parallelle siden er 100 − 2 · 20 = 60 m. Arealet blir 20 · 60 = 1200 m².",
+        "kriterier": [
+          "Finner den parallelle siden som 60 m.",
+          "Regner ut arealet som 1200 m² og oppgir riktig enhet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

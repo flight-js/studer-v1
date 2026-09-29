@@ -4,77 +4,423 @@
   "trinnId": "vg1",
   "name": "Samfunn i Frankrike og den fransktalende verden",
   "intro": "Hvordan Frankrike er styrt, republikkens verdier og laïcité, protestkultur, den fransktalende verden – og hvordan du uttrykker meninger og bruker relativpronomenene qui, que, où og dont.",
-  "kompetansemaal": [4, 5, 8],
+  "kompetansemaal": [
+    4,
+    5,
+    8
+  ],
   "sammendrag": "## Den franske republikken\n\nFrankrike er en **republikk** med en sterk **president**, som velges direkte av folket for **fem år**. Presidenten utnevner **statsministeren** (*le Premier ministre*). Nasjonalforsamlingen heter **l'Assemblée nationale**. Frankrikes motto er **Liberté, Égalité, Fraternité** – frihet, likhet, brorskap.\n\nFastlands-Frankrike er delt i **13 regioner**. I tillegg har Frankrike **oversjøiske** områder, som **Guadeloupe**, **Martinique**, **Fransk Guyana** og **La Réunion**, som er en fullverdig del av landet – og av EU.\n\n## Laïcité\n\n**Laïcité** betyr at staten er **nøytral** i religiøse spørsmål, og at religion og stat er **atskilt**. Prinsippet ble slått fast i en lov fra **1905**. I offentlige skoler er det forbudt for elever å bære tydelige religiøse symboler. Laïcité er viktig for mange franskmenn, men også omdiskutert, blant annet i spørsmål om muslimske plagg.\n\n## Protestkultur\n\nFranskmenn har en sterk tradisjon for **demonstrasjoner** (*les manifestations*) og **streiker** (*les grèves*). **Gule vester**-bevegelsen (*les gilets jaunes*) startet i **2018** som en protest mot høyere drivstoffavgifter og ble en bred protest mot sosial ulikhet.\n\n## La Francophonie\n\nFransk snakkes av nesten **400 millioner** mennesker på alle kontinenter og er offisielt språk i rundt **30 land**. Den fransktalende verden kalles **la francophonie**:\n\n- **Europa**: Frankrike, Belgia, Sveits, Luxembourg, Monaco\n- **Amerika**: Québec i Canada, Haiti\n- **Afrika**: blant annet Senegal, Elfenbenskysten, Kongo, Marokko, Algerie og Tunisia\n\nMye av utbredelsen skyldes **kolonihistorien**. I dag bor de fleste fransktalende i **Afrika**.\n\n## Å uttrykke meninger\n\n- *À mon avis, … / Selon moi, …* – Etter min mening …\n- *Je pense / trouve / crois que …*\n- *Je suis pour / contre …* – Jeg er for / mot …\n- *D'un côté …, de l'autre …* – På den ene siden …, på den andre …\n- *Par contre / cependant* – derimot / likevel\n- *Il est important de …*\n\n## Relativpronomen\n\n- **qui** – når det viser til **subjektet**: *la ville **qui** est la plus grande*\n- **que** – når det viser til **objektet**: *le film **que** j'ai vu*\n- **où** – om **sted** eller **tid**: *le pays **où** je suis né*, *le jour **où** …*\n- **dont** – erstatter **de** + ord: *le livre **dont** je parle* (jeg snakker om boka – *parler de*)\n\n*Le Québec est une province **où** on parle français.*",
   "flashcards": [
-    { "term": "la République française", "def": "Den franske republikken" },
-    { "term": "le président", "def": "presidenten, valgt direkte for fem år" },
-    { "term": "l'Assemblée nationale", "def": "nasjonalforsamlingen" },
-    { "term": "Liberté, Égalité, Fraternité", "def": "Frihet, likhet, brorskap – Frankrikes motto" },
-    { "term": "la laïcité", "def": "atskillelse av religion og stat (lov fra 1905)" },
-    { "term": "la manifestation", "def": "demonstrasjonen" },
-    { "term": "la grève", "def": "streiken" },
-    { "term": "les gilets jaunes", "def": "de gule vestene – protestbevegelse fra 2018" },
-    { "term": "la francophonie", "def": "den fransktalende verden" },
-    { "term": "le Québec", "def": "fransktalende provins i Canada" },
-    { "term": "À mon avis …", "def": "Etter min mening …" },
-    { "term": "Je suis contre …", "def": "Jeg er mot …" },
-    { "term": "qui / que", "def": "relativpronomen for subjekt / objekt" },
-    { "term": "où", "def": "relativpronomen om sted eller tid" },
-    { "term": "dont", "def": "relativpronomen som erstatter de + ord" }
+    {
+      "term": "la République française",
+      "def": "Den franske republikken"
+    },
+    {
+      "term": "le président",
+      "def": "presidenten, valgt direkte for fem år"
+    },
+    {
+      "term": "l'Assemblée nationale",
+      "def": "nasjonalforsamlingen"
+    },
+    {
+      "term": "Liberté, Égalité, Fraternité",
+      "def": "Frihet, likhet, brorskap – Frankrikes motto"
+    },
+    {
+      "term": "la laïcité",
+      "def": "atskillelse av religion og stat (lov fra 1905)"
+    },
+    {
+      "term": "la manifestation",
+      "def": "demonstrasjonen"
+    },
+    {
+      "term": "la grève",
+      "def": "streiken"
+    },
+    {
+      "term": "les gilets jaunes",
+      "def": "de gule vestene – protestbevegelse fra 2018"
+    },
+    {
+      "term": "la francophonie",
+      "def": "den fransktalende verden"
+    },
+    {
+      "term": "le Québec",
+      "def": "fransktalende provins i Canada"
+    },
+    {
+      "term": "À mon avis …",
+      "def": "Etter min mening …"
+    },
+    {
+      "term": "Je suis contre …",
+      "def": "Jeg er mot …"
+    },
+    {
+      "term": "qui / que",
+      "def": "relativpronomen for subjekt / objekt"
+    },
+    {
+      "term": "où",
+      "def": "relativpronomen om sted eller tid"
+    },
+    {
+      "term": "dont",
+      "def": "relativpronomen som erstatter de + ord"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvor lenge sitter den franske presidenten om gangen?", "options": ["4 år", "5 år", "6 år", "7 år"], "correct": 1, "explain": "Presidenten velges direkte av folket." },
-    { "id": "q02", "text": "Hva betyr laïcité?", "options": ["Atskillelse av religion og stat", "Et politisk parti", "Den franske grunnloven", "En type skole"], "correct": 0, "explain": "Prinsippet ble slått fast i en lov fra 1905." },
-    { "id": "q03", "text": "Hva er Frankrikes motto?", "options": ["Dieu et mon droit", "Unité, Travail, Progrès", "Liberté, Égalité, Fraternité", "Vive la France"], "correct": 2, "explain": "Frihet, likhet, brorskap." },
-    { "id": "q04", "text": "Velg riktig: «C'est le film ___ j'ai vu hier.»", "options": ["qui", "où", "dont", "que"], "correct": 3, "explain": "le film er objekt: que." },
-    { "id": "q05", "text": "Hvor bor de fleste fransktalende i dag?", "options": ["I Afrika", "I Frankrike", "I Canada", "I Belgia"], "correct": 0, "explain": "Mye av utbredelsen skyldes kolonihistorien." },
-    { "id": "q06", "text": "Hva startet de gule vestene å protestere mot i 2018?", "options": ["Skolereformer", "Høyere drivstoffavgifter", "EU-medlemskap", "Pensjonsalderen"], "correct": 1, "explain": "Protesten ble senere en bred protest mot ulikhet." },
-    { "id": "q07", "text": "Velg riktig: «Le Québec est une province ___ on parle français.»", "options": ["que", "qui", "où", "dont"], "correct": 2, "explain": "où om sted." },
-    { "id": "q08", "text": "Hva betyr «la grève»?", "options": ["demonstrasjonen", "valget", "regjeringen", "streiken"], "correct": 3, "explain": "Streik er vanlig i Frankrike." },
-    { "id": "q09", "text": "Velg riktig: «C'est la fille ___ habite à côté.»", "options": ["qui", "que", "où", "dont"], "correct": 0, "explain": "la fille er subjekt: qui." },
-    { "id": "q10", "text": "Hva betyr «D'un côté …, de l'autre …»?", "options": ["Først … så …", "På den ene siden …, på den andre …", "Enten … eller …", "Ikke bare … men også …"], "correct": 1, "explain": "Nyttig for å drøfte fordeler og ulemper." }
+    {
+      "id": "q01",
+      "text": "Hvor lenge sitter den franske presidenten om gangen?",
+      "options": [
+        "4 år",
+        "5 år",
+        "6 år",
+        "7 år"
+      ],
+      "correct": 1,
+      "explain": "Presidenten velges direkte av folket."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr laïcité?",
+      "options": [
+        "Atskillelse av religion og stat",
+        "Et politisk parti",
+        "Den franske grunnloven",
+        "En type skole"
+      ],
+      "correct": 0,
+      "explain": "Prinsippet ble slått fast i en lov fra 1905."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er Frankrikes motto?",
+      "options": [
+        "Dieu et mon droit",
+        "Unité, Travail, Progrès",
+        "Liberté, Égalité, Fraternité",
+        "Vive la France"
+      ],
+      "correct": 2,
+      "explain": "Frihet, likhet, brorskap."
+    },
+    {
+      "id": "q04",
+      "text": "Velg riktig: «C'est le film ___ j'ai vu hier.»",
+      "options": [
+        "qui",
+        "où",
+        "dont",
+        "que"
+      ],
+      "correct": 3,
+      "explain": "le film er objekt: que."
+    },
+    {
+      "id": "q05",
+      "text": "Hvor bor de fleste fransktalende i dag?",
+      "options": [
+        "I Afrika",
+        "I Frankrike",
+        "I Canada",
+        "I Belgia"
+      ],
+      "correct": 0,
+      "explain": "Mye av utbredelsen skyldes kolonihistorien."
+    },
+    {
+      "id": "q06",
+      "text": "Hva startet de gule vestene å protestere mot i 2018?",
+      "options": [
+        "Skolereformer",
+        "Høyere drivstoffavgifter",
+        "EU-medlemskap",
+        "Pensjonsalderen"
+      ],
+      "correct": 1,
+      "explain": "Protesten ble senere en bred protest mot ulikhet."
+    },
+    {
+      "id": "q07",
+      "text": "Velg riktig: «Le Québec est une province ___ on parle français.»",
+      "options": [
+        "que",
+        "qui",
+        "où",
+        "dont"
+      ],
+      "correct": 2,
+      "explain": "où om sted."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr «la grève»?",
+      "options": [
+        "demonstrasjonen",
+        "valget",
+        "regjeringen",
+        "streiken"
+      ],
+      "correct": 3,
+      "explain": "Streik er vanlig i Frankrike."
+    },
+    {
+      "id": "q09",
+      "text": "Velg riktig: «C'est la fille ___ habite à côté.»",
+      "options": [
+        "qui",
+        "que",
+        "où",
+        "dont"
+      ],
+      "correct": 0,
+      "explain": "la fille er subjekt: qui."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr «D'un côté …, de l'autre …»?",
+      "options": [
+        "Først … så …",
+        "På den ene siden …, på den andre …",
+        "Enten … eller …",
+        "Ikke bare … men også …"
+      ],
+      "correct": 1,
+      "explain": "Nyttig for å drøfte fordeler og ulemper."
+    }
   ],
   "mindmap": {
     "label": "Samfunn og frankofoni",
     "children": [
-      { "label": "Republikken", "children": [
-        { "label": "Presidenten" },
-        { "label": "Assemblée nationale" },
-        { "label": "13 regioner" }
-      ] },
-      { "label": "Verdier", "children": [
-        { "label": "Liberté, Égalité, Fraternité" },
-        { "label": "Laïcité 1905" }
-      ] },
-      { "label": "Protest", "children": [
-        { "label": "Manifestations" },
-        { "label": "Grèves" },
-        { "label": "Gilets jaunes" }
-      ] },
-      { "label": "Francophonie", "children": [
-        { "label": "Europa" },
-        { "label": "Québec og Haiti" },
-        { "label": "Afrika" }
-      ] },
-      { "label": "Språk", "children": [
-        { "label": "À mon avis" },
-        { "label": "qui, que, où, dont" }
-      ] }
+      {
+        "label": "Republikken",
+        "children": [
+          {
+            "label": "Presidenten"
+          },
+          {
+            "label": "Assemblée nationale"
+          },
+          {
+            "label": "13 regioner"
+          }
+        ]
+      },
+      {
+        "label": "Verdier",
+        "children": [
+          {
+            "label": "Liberté, Égalité, Fraternité"
+          },
+          {
+            "label": "Laïcité 1905"
+          }
+        ]
+      },
+      {
+        "label": "Protest",
+        "children": [
+          {
+            "label": "Manifestations"
+          },
+          {
+            "label": "Grèves"
+          },
+          {
+            "label": "Gilets jaunes"
+          }
+        ]
+      },
+      {
+        "label": "Francophonie",
+        "children": [
+          {
+            "label": "Europa"
+          },
+          {
+            "label": "Québec og Haiti"
+          },
+          {
+            "label": "Afrika"
+          }
+        ]
+      },
+      {
+        "label": "Språk",
+        "children": [
+          {
+            "label": "À mon avis"
+          },
+          {
+            "label": "qui, que, où, dont"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "La Réunion er en del av Frankrike og EU.", "correct": true, "explain": "Oversjøiske områder er fullverdige deler av landet." },
-      { "id": "m02", "type": "sant-usant", "text": "Fransk snakkes bare i Europa.", "correct": false, "explain": "Fransk snakkes på alle kontinenter." },
-      { "id": "m03", "type": "sant-usant", "text": "«dont» kan erstatte «de» + et ord.", "correct": true, "explain": "le livre dont je parle (parler de)." },
-      { "id": "m04", "type": "sant-usant", "text": "Den franske presidenten velges av nasjonalforsamlingen.", "correct": false, "explain": "Presidenten velges direkte av folket." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «Je suis pour»?", "options": ["Jeg er mot.", "Jeg er for.", "Jeg er usikker.", "Jeg er fattig."], "correct": 1, "explain": "pour = for, contre = mot." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket land i Amerika har fransk som offisielt språk?", "options": ["Haiti", "Brasil", "Mexico", "Peru"], "correct": 0, "explain": "Også Québec i Canada er fransktalende." },
-      { "id": "m07", "type": "flervalg", "text": "Hva heter den franske statsministeren?", "options": ["le Président", "le Chancelier", "le Premier ministre", "le Roi"], "correct": 2, "explain": "Statsministeren utnevnes av presidenten." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "La Réunion er en del av Frankrike og EU.",
+        "correct": true,
+        "explain": "Oversjøiske områder er fullverdige deler av landet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Fransk snakkes bare i Europa.",
+        "correct": false,
+        "explain": "Fransk snakkes på alle kontinenter."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«dont» kan erstatte «de» + et ord.",
+        "correct": true,
+        "explain": "le livre dont je parle (parler de)."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Den franske presidenten velges av nasjonalforsamlingen.",
+        "correct": false,
+        "explain": "Presidenten velges direkte av folket."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «Je suis pour»?",
+        "options": [
+          "Jeg er mot.",
+          "Jeg er for.",
+          "Jeg er usikker.",
+          "Jeg er fattig."
+        ],
+        "correct": 1,
+        "explain": "pour = for, contre = mot."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket land i Amerika har fransk som offisielt språk?",
+        "options": [
+          "Haiti",
+          "Brasil",
+          "Mexico",
+          "Peru"
+        ],
+        "correct": 0,
+        "explain": "Også Québec i Canada er fransktalende."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva heter den franske statsministeren?",
+        "options": [
+          "le Président",
+          "le Chancelier",
+          "le Premier ministre",
+          "le Roi"
+        ],
+        "correct": 2,
+        "explain": "Statsministeren utnevnes av presidenten."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan presidenten og statsministeren får rollene sine i Frankrike.",
+        "fasit": "Presidenten velges direkte av folket for fem år. Presidenten utnevner statsministeren.",
+        "kriterier": [
+          "Får fram at folket velger presidenten direkte for fem år.",
+          "Får fram at presidenten utnevner statsministeren."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En elev vil bære et tydelig religiøst symbol på en offentlig skole i Frankrike. Forklar hvilken regel som gjelder, og hvordan den henger sammen med laïcité.",
+        "fasit": "Elever har ikke lov til å bære tydelige religiøse symboler i offentlige skoler. Dette henger sammen med laïcité, som innebærer at staten er nøytral i religiøse spørsmål og at religion og stat er atskilt.",
+        "kriterier": [
+          "Slår fast at tydelige religiøse symboler ikke er tillatt for elever i offentlige skoler.",
+          "Knytter regelen til statens religiøse nøytralitet eller at religion og stat er atskilt."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign fastlands-Frankrike med Frankrikes oversjøiske områder. Ta med hvor mange regioner fastlandet er delt i, og ett eksempel på et oversjøisk område.",
+        "fasit": "Fastlands-Frankrike er delt i 13 regioner. Oversjøiske områder, som Guadeloupe, er også en fullverdig del av Frankrike og EU.",
+        "kriterier": [
+          "Oppgir at fastlands-Frankrike har 13 regioner.",
+          "Gir et riktig eksempel på et oversjøisk område og får fram at slike områder er en del av Frankrike og EU."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "De gule vestene startet som en protest mot høyere drivstoffavgifter. Forklar hvordan protesten utviklet seg videre.",
+        "fasit": "Bevegelsen startet i 2018 som en protest mot høyere drivstoffavgifter. Den ble etter hvert en bred protest mot sosial ulikhet.",
+        "kriterier": [
+          "Får fram at protesten begynte i 2018 mot høyere drivstoffavgifter.",
+          "Forklarer at den utviklet seg til en bredere protest mot sosial ulikhet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Fransk snakkes i områder på flere kontinenter. Forklar én grunn til denne utbredelsen, og nevn ett eksempel på et fransktalende land i Afrika og ett i Amerika.",
+        "fasit": "Mye av utbredelsen skyldes kolonihistorien. Senegal i Afrika og Haiti i Amerika er eksempler på fransktalende land.",
+        "kriterier": [
+          "Knytter utbredelsen av fransk til kolonihistorien.",
+          "Nevner et riktig fransktalende land i Afrika og et i Amerika."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar forskjellen på en manifestation og en grève som protestformer. Ta med hva som skjer i hver av dem.",
+        "fasit": "En manifestation er en demonstrasjon, der folk protesterer sammen offentlig. En grève er en streik, der folk slutter å arbeide for å protestere.",
+        "kriterier": [
+          "Forklarer at en manifestation er en demonstrasjon eller offentlig protest.",
+          "Forklarer at en grève er en streik der arbeid stanses."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sett sammen setningene til én fransk setning ved å bruke relativpronomenet dont: «C'est un livre. Je parle de ce livre.»",
+        "fasit": "C'est un livre dont je parle.",
+        "kriterier": [
+          "Bruker dont til å erstatte «de ce livre».",
+          "Lager en grammatisk sammenhengende setning med riktig ordstilling."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sett sammen setningene til én fransk setning ved å bruke qui: «Le président est élu directement. Le président nomme le Premier ministre.»",
+        "fasit": "Le président, qui est élu directement, nomme le Premier ministre.",
+        "kriterier": [
+          "Bruker qui fordi pronomenet viser til subjektet i «est élu directement».",
+          "Beholder innholdet om at presidenten velges direkte og utnevner statsministeren."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

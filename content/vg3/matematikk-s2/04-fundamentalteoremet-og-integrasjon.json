@@ -4,75 +4,415 @@
   "trinnId": "vg3",
   "name": "Analysens fundamentalteorem og integrasjonsregler",
   "intro": "Antideriverte og ubestemte integraler, integrasjonsregler for potenser, 1/x og eksponentialfunksjoner, analysens fundamentalteorem med forklaring av hvorfor det gjelder, og konsekvenser som at integralet av en vekstfart gir den totale endringen.",
-  "kompetansemaal": [4],
+  "kompetansemaal": [
+    4
+  ],
   "sammendrag": "## Antiderivert\n\nÅ **integrere** er det motsatte av å derivere. F er en **antiderivert** til f hvis **F′(x) = f(x)**.\n\nEksempel: F(x) = x³ er en antiderivert til f(x) = 3x², fordi (x³)′ = 3x². Men også x³ + 5 og x³ − 2 er antideriverte. Derfor skriver vi det **ubestemte integralet** med en **konstant** C:\n\n**∫ 3x² dx = x³ + C**\n\n## Integrasjonsregler\n\n- ∫ k dx = kx + C\n- **∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C**, n ≠ −1\n- **∫ 1/x dx = ln|x| + C**\n- **∫ eˣ dx = eˣ + C**\n- ∫ e^(kx) dx = e^(kx)/k + C\n- ∫ aˣ dx = aˣ/ln a + C\n- Summer og konstanter: ∫ (f + g) dx = ∫ f dx + ∫ g dx og ∫ k · f dx = k · ∫ f dx\n\n**Kontroll**: Deriver svaret – da skal du få integranden tilbake.\n\n## Analysens fundamentalteorem\n\nHvis F er en antiderivert til f, er\n\n**∫ₐᵇ f(x) dx = F(b) − F(a)**\n\nVi skriver ofte **[F(x)]ₐᵇ** for F(b) − F(a).\n\n## Hvorfor gjelder teoremet?\n\nLa A(x) være **arealet** under grafen til f fra a til x. Øker vi x med en liten h, øker arealet med en smal **stripe** som er omtrent et rektangel med høyde f(x) og bredde h:\n\nA(x + h) − A(x) ≈ f(x) · h\n\nDeler vi på h og lar h gå mot 0, får vi **A′(x) = f(x)**. Arealfunksjonen er altså en **antiderivert** til f. Siden A(a) = 0, blir arealet fra a til b lik F(b) − F(a) for enhver antiderivert F.\n\n## Eksempler\n\n- ∫₀² (3x² − 2x) dx = [x³ − x²]₀² = (8 − 4) − 0 = **4**\n- ∫₁ᵉ 1/x dx = [ln x]₁ᵉ = 1 − 0 = **1**\n- ∫₀¹ eˣ dx = [eˣ]₀¹ = **e − 1** ≈ 1,72\n- ∫₀³ 4x dx = [2x²]₀³ = **18**\n\n## Konsekvenser av teoremet\n\n1. **Derivasjon og integrasjon er motsatte operasjoner.** Den ene «oppveier» den andre.\n2. Vi kan regne ut **eksakte** arealer og mengder uten å regne på summer av rektangler.\n3. **Total endring**: Integralet av en **vekstfart** gir den samlede **endringen**:\n\n**∫ₐᵇ f′(x) dx = f(b) − f(a)**\n\nEr B′(t) antall nye brukere per dag, er ∫ₐᵇ B′(t) dt hvor mange **flere** brukere det er blitt fra dag a til dag b.\n\n4. Kjenner vi **startverdien** og **vekstfarten**, kan vi finne verdien senere: f(b) = f(a) + ∫ₐᵇ f′(x) dx.\n\n## Økonomisk eksempel\n\nGrensekostnaden for en bedrift er K′(x) = 0,04x + 50 kr per enhet. Økningen i kostnad når produksjonen øker fra 1000 til 2000 enheter er\n\n∫₁₀₀₀²⁰⁰⁰ (0,04x + 50) dx = [0,02x² + 50x]₁₀₀₀²⁰⁰⁰ = 180 000 − 70 000 = **110 000 kr**\n\n## Historie\n\nTeoremet ble funnet av **Newton** og **Leibniz** på slutten av 1600-tallet. Det knyttet sammen to problemer som hadde vært studert hver for seg i århundrer – **tangenter** og **arealer**.",
   "flashcards": [
-    { "term": "Antiderivert", "def": "F med F′(x) = f(x)." },
-    { "term": "Ubestemt integral", "def": "∫ f(x) dx = F(x) + C" },
-    { "term": "Konstanten C", "def": "Trengs fordi den deriverte av en konstant er 0." },
-    { "term": "∫ xⁿ dx", "def": "xⁿ⁺¹/(n + 1) + C, n ≠ −1" },
-    { "term": "∫ 1/x dx", "def": "ln|x| + C" },
-    { "term": "∫ eˣ dx", "def": "eˣ + C" },
-    { "term": "∫ e^(kx) dx", "def": "e^(kx)/k + C" },
-    { "term": "∫ aˣ dx", "def": "aˣ/ln a + C" },
-    { "term": "Fundamentalteoremet", "def": "∫ₐᵇ f(x) dx = F(b) − F(a)" },
-    { "term": "[F(x)]ₐᵇ", "def": "F(b) − F(a)" },
-    { "term": "Arealfunksjon", "def": "A(x) – arealet fra a til x; A′(x) = f(x)." },
-    { "term": "Total endring", "def": "∫ₐᵇ f′(x) dx = f(b) − f(a)" },
-    { "term": "Kontroll av integral", "def": "Deriver svaret." },
-    { "term": "Integral av grensekostnad", "def": "Økningen i kostnad." },
-    { "term": "Newton og Leibniz", "def": "Fant fundamentalteoremet." }
+    {
+      "term": "Antiderivert",
+      "def": "F med F′(x) = f(x)."
+    },
+    {
+      "term": "Ubestemt integral",
+      "def": "∫ f(x) dx = F(x) + C"
+    },
+    {
+      "term": "Konstanten C",
+      "def": "Trengs fordi den deriverte av en konstant er 0."
+    },
+    {
+      "term": "∫ xⁿ dx",
+      "def": "xⁿ⁺¹/(n + 1) + C, n ≠ −1"
+    },
+    {
+      "term": "∫ 1/x dx",
+      "def": "ln|x| + C"
+    },
+    {
+      "term": "∫ eˣ dx",
+      "def": "eˣ + C"
+    },
+    {
+      "term": "∫ e^(kx) dx",
+      "def": "e^(kx)/k + C"
+    },
+    {
+      "term": "∫ aˣ dx",
+      "def": "aˣ/ln a + C"
+    },
+    {
+      "term": "Fundamentalteoremet",
+      "def": "∫ₐᵇ f(x) dx = F(b) − F(a)"
+    },
+    {
+      "term": "[F(x)]ₐᵇ",
+      "def": "F(b) − F(a)"
+    },
+    {
+      "term": "Arealfunksjon",
+      "def": "A(x) – arealet fra a til x; A′(x) = f(x)."
+    },
+    {
+      "term": "Total endring",
+      "def": "∫ₐᵇ f′(x) dx = f(b) − f(a)"
+    },
+    {
+      "term": "Kontroll av integral",
+      "def": "Deriver svaret."
+    },
+    {
+      "term": "Integral av grensekostnad",
+      "def": "Økningen i kostnad."
+    },
+    {
+      "term": "Newton og Leibniz",
+      "def": "Fant fundamentalteoremet."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er ∫ 3x² dx?", "options": ["6x + C", "x³ + C", "3x³ + C", "x² + C"], "correct": 1, "explain": "(x³)′ = 3x²." },
-    { "id": "q02", "text": "Hva sier fundamentalteoremet?", "options": ["∫ₐᵇ f(x) dx = F(b) − F(a)", "F(x) = f′(x)", "∫ f(x) dx = f(x)", "∫ₐᵇ f(x) dx = f(b) · f(a)"], "correct": 0, "explain": "F er en antiderivert." },
-    { "id": "q03", "text": "Hva er ∫₀² (3x² − 2x) dx?", "options": ["8", "12", "4", "0"], "correct": 2, "explain": "[x³ − x²]₀² = 8 − 4." },
-    { "id": "q04", "text": "Hva er ∫ 1/x dx?", "options": ["−1/x² + C", "x⁰ + C", "1/x² + C", "ln|x| + C"], "correct": 3, "explain": "Unntaket fra potensregelen." },
-    { "id": "q05", "text": "Hva er ∫₀¹ eˣ dx?", "options": ["e − 1", "e", "1", "0"], "correct": 0, "explain": "[eˣ]₀¹." },
-    { "id": "q06", "text": "Hva er ∫ e^(2x) dx?", "options": ["2e^(2x) + C", "e^(2x)/2 + C", "e^(2x) + C", "e^(x²) + C"], "correct": 1, "explain": "Del på k = 2." },
-    { "id": "q07", "text": "Hva gir ∫ₐᵇ f′(x) dx?", "options": ["f′(b) − f′(a)", "Gjennomsnittet av f", "f(b) − f(a)", "0"], "correct": 2, "explain": "Total endring." },
-    { "id": "q08", "text": "Hvorfor legger vi til C i et ubestemt integral?", "options": ["For riktig enhet", "Fordi integralet alltid er positivt", "Fordi C står for «konstant sum»", "Fordi det finnes mange antideriverte som skiller seg med en konstant"], "correct": 3, "explain": "Den deriverte av en konstant er 0." },
-    { "id": "q09", "text": "Hva er ∫₁ᵉ 1/x dx?", "options": ["1", "e", "0", "e − 1"], "correct": 0, "explain": "ln e − ln 1." },
-    { "id": "q10", "text": "Hva er ∫₀³ 4x dx?", "options": ["12", "18", "36", "9"], "correct": 1, "explain": "[2x²]₀³." }
+    {
+      "id": "q01",
+      "text": "Hva er ∫ 3x² dx?",
+      "options": [
+        "6x + C",
+        "x³ + C",
+        "3x³ + C",
+        "x² + C"
+      ],
+      "correct": 1,
+      "explain": "(x³)′ = 3x²."
+    },
+    {
+      "id": "q02",
+      "text": "Hva sier fundamentalteoremet?",
+      "options": [
+        "∫ₐᵇ f(x) dx = F(b) − F(a)",
+        "F(x) = f′(x)",
+        "∫ f(x) dx = f(x)",
+        "∫ₐᵇ f(x) dx = f(b) · f(a)"
+      ],
+      "correct": 0,
+      "explain": "F er en antiderivert."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er ∫₀² (3x² − 2x) dx?",
+      "options": [
+        "8",
+        "12",
+        "4",
+        "0"
+      ],
+      "correct": 2,
+      "explain": "[x³ − x²]₀² = 8 − 4."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er ∫ 1/x dx?",
+      "options": [
+        "−1/x² + C",
+        "x⁰ + C",
+        "1/x² + C",
+        "ln|x| + C"
+      ],
+      "correct": 3,
+      "explain": "Unntaket fra potensregelen."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er ∫₀¹ eˣ dx?",
+      "options": [
+        "e − 1",
+        "e",
+        "1",
+        "0"
+      ],
+      "correct": 0,
+      "explain": "[eˣ]₀¹."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er ∫ e^(2x) dx?",
+      "options": [
+        "2e^(2x) + C",
+        "e^(2x)/2 + C",
+        "e^(2x) + C",
+        "e^(x²) + C"
+      ],
+      "correct": 1,
+      "explain": "Del på k = 2."
+    },
+    {
+      "id": "q07",
+      "text": "Hva gir ∫ₐᵇ f′(x) dx?",
+      "options": [
+        "f′(b) − f′(a)",
+        "Gjennomsnittet av f",
+        "f(b) − f(a)",
+        "0"
+      ],
+      "correct": 2,
+      "explain": "Total endring."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor legger vi til C i et ubestemt integral?",
+      "options": [
+        "For riktig enhet",
+        "Fordi integralet alltid er positivt",
+        "Fordi C står for «konstant sum»",
+        "Fordi det finnes mange antideriverte som skiller seg med en konstant"
+      ],
+      "correct": 3,
+      "explain": "Den deriverte av en konstant er 0."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er ∫₁ᵉ 1/x dx?",
+      "options": [
+        "1",
+        "e",
+        "0",
+        "e − 1"
+      ],
+      "correct": 0,
+      "explain": "ln e − ln 1."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er ∫₀³ 4x dx?",
+      "options": [
+        "12",
+        "18",
+        "36",
+        "9"
+      ],
+      "correct": 1,
+      "explain": "[2x²]₀³."
+    }
   ],
   "mindmap": {
     "label": "Fundamentalteoremet",
     "children": [
-      { "label": "Antiderivert", "children": [
-        { "label": "F′ = f" },
-        { "label": "+ C" }
-      ] },
-      { "label": "Regler", "children": [
-        { "label": "Potenser" },
-        { "label": "1/x gir ln" },
-        { "label": "eˣ og aˣ" }
-      ] },
-      { "label": "Teoremet", "children": [
-        { "label": "F(b) − F(a)" },
-        { "label": "Arealfunksjon A′ = f" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Motsatte operasjoner" },
-        { "label": "Total endring" }
-      ] },
-      { "label": "Anvendelser", "children": [
-        { "label": "Kostnader" },
-        { "label": "Brukere og salg" }
-      ] }
+      {
+        "label": "Antiderivert",
+        "children": [
+          {
+            "label": "F′ = f"
+          },
+          {
+            "label": "+ C"
+          }
+        ]
+      },
+      {
+        "label": "Regler",
+        "children": [
+          {
+            "label": "Potenser"
+          },
+          {
+            "label": "1/x gir ln"
+          },
+          {
+            "label": "eˣ og aˣ"
+          }
+        ]
+      },
+      {
+        "label": "Teoremet",
+        "children": [
+          {
+            "label": "F(b) − F(a)"
+          },
+          {
+            "label": "Arealfunksjon A′ = f"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Motsatte operasjoner"
+          },
+          {
+            "label": "Total endring"
+          }
+        ]
+      },
+      {
+        "label": "Anvendelser",
+        "children": [
+          {
+            "label": "Kostnader"
+          },
+          {
+            "label": "Brukere og salg"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Du kan kontrollere et integral ved å derivere svaret.", "correct": true, "explain": "Du skal få integranden tilbake." },
-      { "id": "m02", "type": "sant-usant", "text": "∫ x⁻¹ dx = x⁰/0 + C.", "correct": false, "explain": "Potensregelen gjelder ikke for n = −1." },
-      { "id": "m03", "type": "sant-usant", "text": "Arealfunksjonen A(x) er en antiderivert til f.", "correct": true, "explain": "A′(x) = f(x)." },
-      { "id": "m04", "type": "sant-usant", "text": "Integrasjon og derivasjon har ingenting med hverandre å gjøre.", "correct": false, "explain": "De er motsatte operasjoner." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er ∫ (6x + 2) dx?", "options": ["6 + C", "3x² + 2x + C", "6x² + 2x + C", "3x + 2 + C"], "correct": 1, "explain": "Integrer ledd for ledd." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er økningen i kostnad fra 1000 til 2000 enheter når K′(x) = 0,04x + 50?", "options": ["110 000 kr", "50 000 kr", "180 000 kr", "70 000 kr"], "correct": 0, "explain": "[0,02x² + 50x]₁₀₀₀²⁰⁰⁰." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er ∫ 2ˣ dx?", "options": ["2ˣ + C", "x · 2ˣ⁻¹ + C", "2ˣ/ln 2 + C", "2ˣ · ln 2 + C"], "correct": 2, "explain": "∫ aˣ dx = aˣ/ln a + C." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Du kan kontrollere et integral ved å derivere svaret.",
+        "correct": true,
+        "explain": "Du skal få integranden tilbake."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "∫ x⁻¹ dx = x⁰/0 + C.",
+        "correct": false,
+        "explain": "Potensregelen gjelder ikke for n = −1."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Arealfunksjonen A(x) er en antiderivert til f.",
+        "correct": true,
+        "explain": "A′(x) = f(x)."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Integrasjon og derivasjon har ingenting med hverandre å gjøre.",
+        "correct": false,
+        "explain": "De er motsatte operasjoner."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er ∫ (6x + 2) dx?",
+        "options": [
+          "6 + C",
+          "3x² + 2x + C",
+          "6x² + 2x + C",
+          "3x + 2 + C"
+        ],
+        "correct": 1,
+        "explain": "Integrer ledd for ledd."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er økningen i kostnad fra 1000 til 2000 enheter når K′(x) = 0,04x + 50?",
+        "options": [
+          "110 000 kr",
+          "50 000 kr",
+          "180 000 kr",
+          "70 000 kr"
+        ],
+        "correct": 0,
+        "explain": "[0,02x² + 50x]₁₀₀₀²⁰⁰⁰."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er ∫ 2ˣ dx?",
+        "options": [
+          "2ˣ + C",
+          "x · 2ˣ⁻¹ + C",
+          "2ˣ/ln 2 + C",
+          "2ˣ · ln 2 + C"
+        ],
+        "correct": 2,
+        "explain": "∫ aˣ dx = aˣ/ln a + C."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva det vil si at F er en antiderivert til f, og hvordan du kan kontrollere at en funksjon er en antiderivert.",
+        "fasit": "F er en antiderivert til f når F′(x) = f(x). Du kontrollerer det ved å derivere F og se om du får f.",
+        "kriterier": [
+          "F′(x) = f(x)",
+          "Forklarer at kontrollen gjøres ved å derivere F"
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Regn ut det ubestemte integralet ∫ (3x² + 2x) dx. Vis det viktigste steget.",
+        "fasit": "Ved å integrere hvert ledd får vi ∫ 3x² dx + ∫ 2x dx = x³ + x² + C.",
+        "kriterier": [
+          "Integrerer begge ledd riktig til x³ og x²",
+          "Tar med konstanten C"
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Regn ut ∫₀² 3x² dx ved hjelp av en antiderivert.",
+        "fasit": "En antiderivert er x³. Derfor blir integralet [x³]₀² = 8 − 0 = 8.",
+        "kriterier": [
+          "Bruker en riktig antiderivert, x³",
+          "Setter inn grensene riktig og får 8"
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan en smal stripe under grafen til f viser at arealfunksjonen A har den deriverte A′(x) = f(x).",
+        "fasit": "Når x øker med h, øker arealet omtrent med f(x) · h. Deler vi arealøkningen på h og lar h gå mot 0, får vi A′(x) = f(x).",
+        "kriterier": [
+          "Knytter arealøkningen til en stripe som er omtrent f(x) · h",
+          "Forklarer at forholdet mellom arealøkning og h gir A′(x) = f(x)"
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign et ubestemt integral med et bestemt integral. Hva slags svar gir hvert av dem?",
+        "fasit": "Et ubestemt integral gir en familie av antideriverte med konstanten C. Et bestemt integral regnes ut som F(b) − F(a) og gir en bestemt verdi.",
+        "kriterier": [
+          "Beskriver det ubestemte integralet som antideriverte med C",
+          "Beskriver det bestemte integralet som F(b) − F(a), altså en bestemt verdi"
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En størrelse f har startverdien f(a), og f′(x) beskriver vekstfarten. Skriv en formel for f(b), og forklar hva integralet i formelen forteller.",
+        "fasit": "f(b) = f(a) + ∫ₐᵇ f′(x) dx. Integralverdien er den samlede endringen fra a til b, som legges til startverdien.",
+        "kriterier": [
+          "Skriver f(b) = f(a) + ∫ₐᵇ f′(x) dx",
+          "Forklarer at integralet gir samlet endring"
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hvorfor står det en faktor 1/k i regelen ∫ e^(kx) dx = e^(kx)/k + C?",
+        "fasit": "Når e^(kx) deriveres, oppstår en faktor k fra kjerneregelen. Faktoren 1/k gjør at denne faktoren oppheves når svaret deriveres.",
+        "kriterier": [
+          "Knytter faktoren k til derivasjon av eksponenten kx",
+          "Forklarer at 1/k opphever faktoren slik at integranden kommer tilbake"
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hvilken sammenheng etablerte Newton og Leibniz med analysens fundamentalteorem, og hvilke to typer problemer ble knyttet sammen?",
+        "fasit": "Newton og Leibniz knyttet sammen derivasjon og integrasjon. Teoremet forbandt problemer om tangenter med problemer om arealer.",
+        "kriterier": [
+          "Nevner sammenhengen mellom derivasjon og integrasjon",
+          "Nevner at tangent- og arealproblemer ble knyttet sammen"
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

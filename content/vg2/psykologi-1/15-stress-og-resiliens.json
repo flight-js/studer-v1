@@ -4,80 +4,432 @@
   "trinnId": "vg2",
   "name": "Stress, sårbarhet og resiliens",
   "intro": "Hva stress er, hvordan kroppen reagerer, Selyes og Lazarus' stressmodeller, konsekvenser av langvarig stress, sårbarhet-stress-modellen, resiliens og beskyttende faktorer – og hvordan man kan forebygge negative stressreaksjoner.",
-  "kompetansemaal": [14],
+  "kompetansemaal": [
+    14
+  ],
   "sammendrag": "## Hva er stress?\n\n**Stress** er kroppens og psykens reaksjon når vi møter **krav** – **stressorer** – som vi opplever at vi **ikke har ressurser** nok til å håndtere. Stressorer kan være\n\n- **store livshendelser**, som dødsfall, skilsmisse eller flytting\n- **daglige irritasjonsmomenter**, som mas, kø og konflikter\n- **langvarige belastninger**, som sykdom i familien, mobbing eller økonomiske problemer\n\n## Kroppens stressreaksjon\n\n1. Det **sympatiske nervesystemet** og **adrenalin** gir en **rask** reaksjon: Pulsen, pusten og blodtrykket øker, og kroppen blir klar til **kamp eller flukt**.\n2. **Hypothalamus** sender signaler via **hypofysen** til **binyrene**, som skiller ut **kortisol**. Kortisol gir kroppen **energi** over lengre tid.\n\nKortvarig stress kan være **nyttig**. Litt nervøsitet før en prøve kan skjerpe **konsentrasjonen**, og **moderat** aktivering gir ofte best **prestasjon**. For mye aktivering gir dårligere prestasjon.\n\n## Selyes stressmodell\n\n**Hans Selye** beskrev hvordan kroppen reagerer på langvarig stress i tre faser: **alarmfasen**, **motstandsfasen**, der kroppen prøver å tilpasse seg, og **utmattelsesfasen**, der ressursene tømmes.\n\n## Konsekvenser av langvarig stress\n\n- **søvnproblemer** og **utmattelse**\n- svekket **immunforsvar** og økt risiko for **hjerte- og karsykdom**\n- dårligere **konsentrasjon** og **hukommelse**\n- økt risiko for **angst**, **depresjon** og **utbrenthet**\n\n## Stress handler om tolkning\n\n**Richard Lazarus** og **Susan Folkman** viste at det er vår **vurdering** av situasjonen som avgjør om vi blir stresset:\n\n- **Primær vurdering**: Er dette en **trussel**, en **utfordring** eller uviktig?\n- **Sekundær vurdering**: Har jeg **ressurser** til å håndtere det?\n\nTo elever kan derfor oppleve samme prøve svært ulikt. **Mestringsstrategier** kan være\n\n- **problemfokuserte** – å gjøre noe med **situasjonen**, for eksempel lage en leseplan\n- **emosjonsfokuserte** – å dempe **følelsene**, for eksempel snakke med en venn eller trene\n\n**Unngåelse**, som å utsette eller ruse seg, gir kortvarig lettelse, men ofte **mer** stress senere.\n\n## Sårbarhet-stress-modellen\n\nIfølge **sårbarhet-stress-modellen** oppstår psykiske lidelser i et **samspill** mellom **sårbarhet** og **belastning**. Sårbarhet kan skyldes **gener**, **tidlige erfaringer** og **personlighet**. En person med høy sårbarhet kan bli syk av mindre belastning, mens en person med lav sårbarhet tåler mer.\n\n## Resiliens\n\n**Resiliens** er evnen til å **klare seg bra** til tross for **belastninger**. En kjent studie fulgte barn på øya **Kauai** på Hawaii i flere tiår. Omtrent **en tredel** av barna som vokste opp med mange risikofaktorer, utviklet seg likevel godt.\n\n**Beskyttende faktorer**:\n\n- **Individuelle**: mestringstro, problemløsningsevne, humor og evne til å regulere følelser\n- **Familie**: minst **én trygg voksen**, varme og støtte\n- **Omgivelser**: gode **venner**, en **lærer** som ser eleven, **fritidsaktiviteter** og et trygt **skolemiljø**\n\nResiliens er ikke en fast **egenskap**, men en **prosess** som kan **styrkes**.\n\n## Forebygge negative stressreaksjoner\n\n- **søvn**, **fysisk aktivitet** og regelmessige **måltider**\n- **planlegging** og **realistiske** mål\n- **pusteteknikker**, avspenning og **oppmerksomt nærvær**\n- å **snakke** med noen og be om **hjelp**\n- å utfordre **negative tanker**, som «alt må være perfekt»\n\nSamfunnet kan også forebygge, for eksempel ved å redusere **prestasjonspress** og bygge **gode skolemiljøer**.",
   "flashcards": [
-    { "term": "Stress", "def": "Reaksjon på krav vi opplever at vi ikke har ressurser nok til." },
-    { "term": "Stressor", "def": "Et krav eller en belastning som utløser stress." },
-    { "term": "Adrenalin", "def": "Hormon som gir rask kamp-eller-flukt-reaksjon." },
-    { "term": "Kortisol", "def": "Stresshormon fra binyrene som gir energi over tid." },
-    { "term": "Moderat aktivering", "def": "Gir ofte best prestasjon." },
-    { "term": "Selyes tre faser", "def": "Alarm, motstand og utmattelse." },
-    { "term": "Utbrenthet", "def": "Utmattelse etter langvarig stress." },
-    { "term": "Primær vurdering", "def": "Lazarus: Er situasjonen en trussel, en utfordring eller uviktig?" },
-    { "term": "Sekundær vurdering", "def": "Lazarus: Har jeg ressurser til å håndtere det?" },
-    { "term": "Problemfokusert mestring", "def": "Å gjøre noe med selve situasjonen." },
-    { "term": "Emosjonsfokusert mestring", "def": "Å dempe følelsene situasjonen gir." },
-    { "term": "Unngåelse", "def": "Å utsette eller flykte fra problemet – gir ofte mer stress senere." },
-    { "term": "Sårbarhet-stress-modellen", "def": "Psykiske lidelser oppstår i samspill mellom sårbarhet og belastning." },
-    { "term": "Resiliens", "def": "Evnen til å klare seg bra til tross for belastninger." },
-    { "term": "Kauai-studien", "def": "Fulgte barn i flere tiår – en tredel av risikobarna klarte seg godt." },
-    { "term": "Én trygg voksen", "def": "En av de viktigste beskyttende faktorene for barn." },
-    { "term": "Oppmerksomt nærvær", "def": "Å rette oppmerksomheten mot her og nå – kan dempe stress." }
+    {
+      "term": "Stress",
+      "def": "Reaksjon på krav vi opplever at vi ikke har ressurser nok til."
+    },
+    {
+      "term": "Stressor",
+      "def": "Et krav eller en belastning som utløser stress."
+    },
+    {
+      "term": "Adrenalin",
+      "def": "Hormon som gir rask kamp-eller-flukt-reaksjon."
+    },
+    {
+      "term": "Kortisol",
+      "def": "Stresshormon fra binyrene som gir energi over tid."
+    },
+    {
+      "term": "Moderat aktivering",
+      "def": "Gir ofte best prestasjon."
+    },
+    {
+      "term": "Selyes tre faser",
+      "def": "Alarm, motstand og utmattelse."
+    },
+    {
+      "term": "Utbrenthet",
+      "def": "Utmattelse etter langvarig stress."
+    },
+    {
+      "term": "Primær vurdering",
+      "def": "Lazarus: Er situasjonen en trussel, en utfordring eller uviktig?"
+    },
+    {
+      "term": "Sekundær vurdering",
+      "def": "Lazarus: Har jeg ressurser til å håndtere det?"
+    },
+    {
+      "term": "Problemfokusert mestring",
+      "def": "Å gjøre noe med selve situasjonen."
+    },
+    {
+      "term": "Emosjonsfokusert mestring",
+      "def": "Å dempe følelsene situasjonen gir."
+    },
+    {
+      "term": "Unngåelse",
+      "def": "Å utsette eller flykte fra problemet – gir ofte mer stress senere."
+    },
+    {
+      "term": "Sårbarhet-stress-modellen",
+      "def": "Psykiske lidelser oppstår i samspill mellom sårbarhet og belastning."
+    },
+    {
+      "term": "Resiliens",
+      "def": "Evnen til å klare seg bra til tross for belastninger."
+    },
+    {
+      "term": "Kauai-studien",
+      "def": "Fulgte barn i flere tiår – en tredel av risikobarna klarte seg godt."
+    },
+    {
+      "term": "Én trygg voksen",
+      "def": "En av de viktigste beskyttende faktorene for barn."
+    },
+    {
+      "term": "Oppmerksomt nærvær",
+      "def": "Å rette oppmerksomheten mot her og nå – kan dempe stress."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Når oppstår stress?", "options": ["Bare ved store katastrofer", "Når vi opplever at kravene er større enn ressursene", "Bare når vi sover lite", "Bare hos voksne"], "correct": 1, "explain": "Stressorer kan være store eller små." },
-    { "id": "q02", "text": "Hvilket hormon gir en rask kamp-eller-flukt-reaksjon?", "options": ["Adrenalin", "Melatonin", "Oksytocin", "Insulin"], "correct": 0, "explain": "Kortisol virker over lengre tid." },
-    { "id": "q03", "text": "Hva er de tre fasene i Selyes modell?", "options": ["Sjokk, reaksjon og bearbeiding", "Koding, lagring og gjenhenting", "Alarm, motstand og utmattelse", "Id, ego og superego"], "correct": 2, "explain": "Ressursene tømmes ved langvarig stress." },
-    { "id": "q04", "text": "Hva er en primær vurdering hos Lazarus?", "options": ["Om man har ressurser", "Om man skal ringe en venn", "Om man har sovet nok", "Om situasjonen er en trussel, en utfordring eller uviktig"], "correct": 3, "explain": "Sekundær vurdering handler om ressursene." },
-    { "id": "q05", "text": "En elev lager en leseplan før eksamen. Hvilken mestringsstrategi er dette?", "options": ["Problemfokusert", "Emosjonsfokusert", "Unngåelse", "Fornekting"], "correct": 0, "explain": "Eleven gjør noe med situasjonen." },
-    { "id": "q06", "text": "Hva sier sårbarhet-stress-modellen?", "options": ["At bare stress gir sykdom", "At psykiske lidelser oppstår i samspill mellom sårbarhet og belastning", "At sårbarhet ikke betyr noe", "At alle blir like syke"], "correct": 1, "explain": "Høy sårbarhet gir lavere terskel." },
-    { "id": "q07", "text": "Hva er resiliens?", "options": ["En psykisk lidelse", "Et stresshormon", "Evnen til å klare seg bra til tross for belastninger", "En fase i en krise"], "correct": 2, "explain": "Kan styrkes." },
-    { "id": "q08", "text": "Hva er en av de viktigste beskyttende faktorene for barn?", "options": ["Mye skjermtid", "Høye karakterer", "Å være alene", "Minst én trygg voksen"], "correct": 3, "explain": "Vist blant annet i Kauai-studien." },
-    { "id": "q09", "text": "Hva kan langvarig stress føre til?", "options": ["Svekket immunforsvar og søvnproblemer", "Bedre hukommelse", "Mer energi over tid", "Sterkere immunforsvar"], "correct": 0, "explain": "Også økt risiko for angst og depresjon." },
-    { "id": "q10", "text": "Hvorfor kan to elever oppleve samme prøve ulikt?", "options": ["Fordi prøven er ulik", "Fordi de vurderer situasjonen og ressursene sine ulikt", "Fordi bare den ene har kortisol", "Fordi stress er tilfeldig"], "correct": 1, "explain": "Tolkningen avgjør stressreaksjonen." }
+    {
+      "id": "q01",
+      "text": "Når oppstår stress?",
+      "options": [
+        "Bare ved store katastrofer",
+        "Når vi opplever at kravene er større enn ressursene",
+        "Bare når vi sover lite",
+        "Bare hos voksne"
+      ],
+      "correct": 1,
+      "explain": "Stressorer kan være store eller små."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilket hormon gir en rask kamp-eller-flukt-reaksjon?",
+      "options": [
+        "Adrenalin",
+        "Melatonin",
+        "Oksytocin",
+        "Insulin"
+      ],
+      "correct": 0,
+      "explain": "Kortisol virker over lengre tid."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er de tre fasene i Selyes modell?",
+      "options": [
+        "Sjokk, reaksjon og bearbeiding",
+        "Koding, lagring og gjenhenting",
+        "Alarm, motstand og utmattelse",
+        "Id, ego og superego"
+      ],
+      "correct": 2,
+      "explain": "Ressursene tømmes ved langvarig stress."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er en primær vurdering hos Lazarus?",
+      "options": [
+        "Om man har ressurser",
+        "Om man skal ringe en venn",
+        "Om man har sovet nok",
+        "Om situasjonen er en trussel, en utfordring eller uviktig"
+      ],
+      "correct": 3,
+      "explain": "Sekundær vurdering handler om ressursene."
+    },
+    {
+      "id": "q05",
+      "text": "En elev lager en leseplan før eksamen. Hvilken mestringsstrategi er dette?",
+      "options": [
+        "Problemfokusert",
+        "Emosjonsfokusert",
+        "Unngåelse",
+        "Fornekting"
+      ],
+      "correct": 0,
+      "explain": "Eleven gjør noe med situasjonen."
+    },
+    {
+      "id": "q06",
+      "text": "Hva sier sårbarhet-stress-modellen?",
+      "options": [
+        "At bare stress gir sykdom",
+        "At psykiske lidelser oppstår i samspill mellom sårbarhet og belastning",
+        "At sårbarhet ikke betyr noe",
+        "At alle blir like syke"
+      ],
+      "correct": 1,
+      "explain": "Høy sårbarhet gir lavere terskel."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er resiliens?",
+      "options": [
+        "En psykisk lidelse",
+        "Et stresshormon",
+        "Evnen til å klare seg bra til tross for belastninger",
+        "En fase i en krise"
+      ],
+      "correct": 2,
+      "explain": "Kan styrkes."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en av de viktigste beskyttende faktorene for barn?",
+      "options": [
+        "Mye skjermtid",
+        "Høye karakterer",
+        "Å være alene",
+        "Minst én trygg voksen"
+      ],
+      "correct": 3,
+      "explain": "Vist blant annet i Kauai-studien."
+    },
+    {
+      "id": "q09",
+      "text": "Hva kan langvarig stress føre til?",
+      "options": [
+        "Svekket immunforsvar og søvnproblemer",
+        "Bedre hukommelse",
+        "Mer energi over tid",
+        "Sterkere immunforsvar"
+      ],
+      "correct": 0,
+      "explain": "Også økt risiko for angst og depresjon."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan to elever oppleve samme prøve ulikt?",
+      "options": [
+        "Fordi prøven er ulik",
+        "Fordi de vurderer situasjonen og ressursene sine ulikt",
+        "Fordi bare den ene har kortisol",
+        "Fordi stress er tilfeldig"
+      ],
+      "correct": 1,
+      "explain": "Tolkningen avgjør stressreaksjonen."
+    }
   ],
   "mindmap": {
     "label": "Stress og resiliens",
     "children": [
-      { "label": "Stress", "children": [
-        { "label": "Stressorer" },
-        { "label": "Adrenalin og kortisol" },
-        { "label": "Selyes faser" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Søvn og immunforsvar" },
-        { "label": "Angst og depresjon" }
-      ] },
-      { "label": "Vurdering og mestring", "children": [
-        { "label": "Lazarus og Folkman" },
-        { "label": "Problemfokusert" },
-        { "label": "Emosjonsfokusert" }
-      ] },
-      { "label": "Sårbarhet og resiliens", "children": [
-        { "label": "Sårbarhet-stress-modellen" },
-        { "label": "Beskyttende faktorer" },
-        { "label": "Kauai-studien" }
-      ] },
-      { "label": "Forebygging", "children": [
-        { "label": "Søvn og aktivitet" },
-        { "label": "Planlegging" },
-        { "label": "Snakke med noen" }
-      ] }
+      {
+        "label": "Stress",
+        "children": [
+          {
+            "label": "Stressorer"
+          },
+          {
+            "label": "Adrenalin og kortisol"
+          },
+          {
+            "label": "Selyes faser"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Søvn og immunforsvar"
+          },
+          {
+            "label": "Angst og depresjon"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering og mestring",
+        "children": [
+          {
+            "label": "Lazarus og Folkman"
+          },
+          {
+            "label": "Problemfokusert"
+          },
+          {
+            "label": "Emosjonsfokusert"
+          }
+        ]
+      },
+      {
+        "label": "Sårbarhet og resiliens",
+        "children": [
+          {
+            "label": "Sårbarhet-stress-modellen"
+          },
+          {
+            "label": "Beskyttende faktorer"
+          },
+          {
+            "label": "Kauai-studien"
+          }
+        ]
+      },
+      {
+        "label": "Forebygging",
+        "children": [
+          {
+            "label": "Søvn og aktivitet"
+          },
+          {
+            "label": "Planlegging"
+          },
+          {
+            "label": "Snakke med noen"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Litt nervøsitet før en prøve kan gi bedre konsentrasjon.", "correct": true, "explain": "Moderat aktivering gir ofte best prestasjon." },
-      { "id": "m02", "type": "sant-usant", "text": "Resiliens er en medfødt egenskap som ikke kan endres.", "correct": false, "explain": "Resiliens er en prosess som kan styrkes." },
-      { "id": "m03", "type": "sant-usant", "text": "Daglige irritasjonsmomenter kan også være stressorer.", "correct": true, "explain": "Ikke bare store livshendelser." },
-      { "id": "m04", "type": "sant-usant", "text": "Unngåelse er den beste måten å redusere stress på over tid.", "correct": false, "explain": "Det gir ofte mer stress senere." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken strategi er emosjonsfokusert?", "options": ["Lage en leseplan", "Snakke med en venn om bekymringene", "Be læreren forklare oppgaven", "Dele opp oppgaven"], "correct": 1, "explain": "Demper følelsene." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken kjertel skiller ut kortisol?", "options": ["Binyrene", "Skjoldbruskkjertelen", "Epifysen", "Bukspyttkjertelen"], "correct": 0, "explain": "Etter signaler fra hypothalamus og hypofysen." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan kan samfunnet forebygge negative stressreaksjoner hos unge?", "options": ["Øke prestasjonspresset", "Fjerne fritidsaktiviteter", "Redusere prestasjonspress og bygge gode skolemiljøer", "Gi flere prøver"], "correct": 2, "explain": "Forebygging skjer også på samfunnsnivå." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Litt nervøsitet før en prøve kan gi bedre konsentrasjon.",
+        "correct": true,
+        "explain": "Moderat aktivering gir ofte best prestasjon."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Resiliens er en medfødt egenskap som ikke kan endres.",
+        "correct": false,
+        "explain": "Resiliens er en prosess som kan styrkes."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Daglige irritasjonsmomenter kan også være stressorer.",
+        "correct": true,
+        "explain": "Ikke bare store livshendelser."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Unngåelse er den beste måten å redusere stress på over tid.",
+        "correct": false,
+        "explain": "Det gir ofte mer stress senere."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken strategi er emosjonsfokusert?",
+        "options": [
+          "Lage en leseplan",
+          "Snakke med en venn om bekymringene",
+          "Be læreren forklare oppgaven",
+          "Dele opp oppgaven"
+        ],
+        "correct": 1,
+        "explain": "Demper følelsene."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken kjertel skiller ut kortisol?",
+        "options": [
+          "Binyrene",
+          "Skjoldbruskkjertelen",
+          "Epifysen",
+          "Bukspyttkjertelen"
+        ],
+        "correct": 0,
+        "explain": "Etter signaler fra hypothalamus og hypofysen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan kan samfunnet forebygge negative stressreaksjoner hos unge?",
+        "options": [
+          "Øke prestasjonspresset",
+          "Fjerne fritidsaktiviteter",
+          "Redusere prestasjonspress og bygge gode skolemiljøer",
+          "Gi flere prøver"
+        ],
+        "correct": 2,
+        "explain": "Forebygging skjer også på samfunnsnivå."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign hvordan adrenalin og kortisol virker i kroppens stressreaksjon. Ta med forskjell på hvor raskt de virker, og hva de gjør.",
+        "fasit": "Adrenalin gir en rask kamp-eller-flukt-reaksjon, der blant annet puls og pust øker. Kortisol skilles ut etter signaler via hypothalamus og hypofysen og gir kroppen energi over lengre tid.",
+        "kriterier": [
+          "Forklarer at adrenalin gir en rask reaksjon, mens kortisol virker over lengre tid.",
+          "Beskriver virkningen av hormonene, for eksempel kamp-eller-flukt-beredskap for adrenalin og energi for kortisol."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hvorfor litt nervøsitet før en prøve kan hjelpe en elev, mens svært sterk aktivering kan gjøre det vanskeligere å prestere.",
+        "fasit": "Moderat aktivering kan skjerpe konsentrasjonen og bidra til bedre prestasjon. Ved for høy aktivering kan prestasjonen bli dårligere.",
+        "kriterier": [
+          "Knytter moderat aktivering til skjerpet konsentrasjon eller bedre prestasjon.",
+          "Forklarer at for høy aktivering kan svekke prestasjonen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Mina utsetter å begynne på en oppgave hun gruer seg til. Hun føler seg roligere en stund, men blir mer stresset når fristen nærmer seg. Forklar hvordan dette viser virkningen av unngåelse.",
+        "fasit": "Å utsette oppgaven er unngåelse, som kan gi kortvarig lettelse. Når oppgaven fortsatt ikke er gjort og fristen nærmer seg, kan stresset øke.",
+        "kriterier": [
+          "Identifiserer utsettelsen som unngåelse eller flukt fra problemet.",
+          "Får fram både den kortvarige lettelsen og at unngåelse ofte gir mer stress senere."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev blir nervøs før en prøve. Sammenlign problemfokusert og emosjonsfokusert mestring ved å gi ett eksempel på hver strategi i denne situasjonen.",
+        "fasit": "Problemfokusert mestring kan være å lage en plan for hva eleven skal øve på. Emosjonsfokusert mestring kan være å snakke med en venn eller trene for å dempe følelsene.",
+        "kriterier": [
+          "Forklarer at problemfokusert mestring retter seg mot å gjøre noe med selve situasjonen, og gir et relevant eksempel.",
+          "Forklarer at emosjonsfokusert mestring retter seg mot følelsene, og gir et relevant eksempel."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "To personer opplever den samme belastningen. Den ene har høy sårbarhet, mens den andre har lav sårbarhet. Bruk sårbarhet-stress-modellen til å forklare hvorfor belastningen kan få ulik virkning på dem.",
+        "fasit": "Modellen forklarer psykiske lidelser som et samspill mellom sårbarhet og belastning. Den med høy sårbarhet kan bli syk av en mindre belastning enn personen med lav sårbarhet, som tåler mer.",
+        "kriterier": [
+          "Forklarer at virkningen av belastning må forstås i samspill med personens sårbarhet.",
+          "Får fram at høy sårbarhet kan gjøre at mindre belastning får større konsekvenser enn ved lav sårbarhet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et barn møter flere belastninger, men har en trygg voksen og gode venner. Forklar hvordan disse forholdene kan støtte barnet, og hva det viser om resiliens.",
+        "fasit": "En trygg voksen og gode venner kan gi varme, støtte og hjelp når barnet møter belastninger. Resiliens er evnen til å klare seg bra til tross for belastninger, og den kan styrkes gjennom beskyttende faktorer.",
+        "kriterier": [
+          "Forklarer hvordan en trygg voksen og/eller gode venner kan gi støtte som beskytter barnet.",
+          "Knytter situasjonen til resiliens som evne til å klare seg bra til tross for belastninger, og/eller at resiliens kan styrkes."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Jonas gruer seg til flere prøver, sover lite og tenker at alt må være perfekt. Foreslå én konkret handling som støtter kroppen, og én som kan hjelpe ham med stresset eller tankene. Forklar hvordan handlingene kan forebygge negative stressreaksjoner.",
+        "fasit": "Jonas kan prioritere søvn for å støtte kroppen og utfordre tanken om at alt må være perfekt. Søvn kan støtte kroppen, mens mer realistiske tanker kan dempe stresset.",
+        "kriterier": [
+          "Foreslår en relevant handling som støtter kroppen, for eksempel søvn, fysisk aktivitet eller regelmessige måltider.",
+          "Foreslår en relevant handling for stress eller tanker, for eksempel å utfordre negative tanker, planlegge realistisk eller snakke med noen, og forklarer hvordan den kan hjelpe."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En person opplever både kø på vei hjem og sykdom i familien over lang tid. Forklar hvilken type stressor hver situasjon er, og hva som skiller dem.",
+        "fasit": "Kø er et daglig irritasjonsmoment, mens sykdom i familien over lang tid er en langvarig belastning. De skiller seg ved at den ene er en hverdagslig irritasjon, mens den andre varer over tid.",
+        "kriterier": [
+          "Klassifiserer kø som et daglig irritasjonsmoment og sykdom over tid som en langvarig belastning.",
+          "Forklarer forskjellen mellom en hverdagslig irritasjon og en belastning som varer over tid."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

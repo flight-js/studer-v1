@@ -4,77 +4,421 @@
   "trinnId": "vg3",
   "name": "Merkevarestrategier og posisjonering",
   "intro": "Hvordan virksomheter utvikler merkevarestrategier – merkekapital, produsentmerker og egne merkevarer, paraply-, familie- og individuelle merker, merkeutvidelse og samarbeidsmerker – og hvordan de vurderer posisjonering med posisjoneringskart, likhets- og forskjellspunkter og reposisjonering.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Hva er en merkevare?\n\nEn **merkevare** er mer enn et navn og en logo. Den er summen av **forestillinger**, **følelser** og **erfaringer** kundene har med produktet. Sterke merkevarer gjør at kunder velger produktet **igjen**, betaler **mer** og **anbefaler** det.\n\n## Merkekapital\n\n**Merkekapital** – brand equity – er den **verdien** merket tilfører produktet. **David Aaker** peker på fire kilder:\n\n- **Merkekjennskap**: at kundene **kjenner** merket\n- **Kvalitetsoppfatning**: at merket forbindes med **kvalitet**\n- **Merkeassosiasjoner**: hva merket får folk til å **tenke** på\n- **Merkelojalitet**: at kundene **kjøper igjen**\n\n## Merkevarestrategier\n\n**Hvem eier merket?**\n\n- **Produsentmerker**: eies av produsenten, som Freia eller Tine.\n- **Egne merkevarer (EMV)**: eies av **kjeden**, som dagligvarekjedenes egne merker. EMV gir kjeden **høyere marginer** og mer **makt** overfor leverandørene.\n\n**Hvordan organiseres merkene?**\n\n- **Paraplymerke**: Alle produkter har **samme** navn – for eksempel et selskap som setter firmanavnet på alt. Det gir **lave** kostnader, men én skandale kan ramme **alt**.\n- **Familiemerke**: Én **produktlinje** har et felles navn.\n- **Individuelle merker**: Hvert produkt har **eget** navn og egen profil. Det gir **fleksibilitet** og spredning av **risiko**, men **høye** kostnader.\n\n**Hvordan vokse med merket?**\n\n- **Linjeutvidelse**: nye varianter i samme kategori – nye smaker eller størrelser.\n- **Merkeutvidelse**: merket brukes i en **ny** kategori. Det utnytter kjennskapen, men kan **svekke** merket hvis det ikke passer.\n- **Samarbeidsmerker** – co-branding: to merker samarbeider om et produkt.\n- **Ny merkevare**: når virksomheten går inn i et område som ikke passer eksisterende merker.\n\n## Posisjonering\n\n**Posisjonering** er hvordan virksomheten ønsker at målgruppen skal **oppfatte** merket **sammenlignet med konkurrentene**. God posisjonering er\n\n- **relevant** for målgruppen\n- **tydelig** og **enkel**\n- **troverdig** – merket må kunne **innfri** løftet\n- **unik** – forskjellig fra konkurrentene\n\n**Posisjoneringsgrunnlag** kan være **pris** og **kvalitet**, **bruksområde**, **brukergruppe**, **opprinnelse** – som «norsk» – eller **bærekraft**.\n\n## Likhets- og forskjellspunkter\n\n- **Likhetspunkter** – points of parity: egenskaper merket **må** ha for å være med i kategorien.\n- **Forskjellspunkter** – points of difference: egenskaper som gjør merket **unikt** og gir kundene en grunn til å velge det.\n\n## Posisjoneringskart\n\nEt **posisjoneringskart** viser hvordan kunder oppfatter merker langs to **dimensjoner**, for eksempel **pris** og **helse**. Kartet kan avsløre **ledige** posisjoner i markedet – men også om en posisjon er ledig fordi ingen **ønsker** den.\n\n## Reposisjonering\n\nNår markedet endrer seg eller merket har fått et **uønsket** image, kan virksomheten **reposisjonere** – endre hvordan merket oppfattes. Det tar **tid** og krever **konsistent** kommunikasjon og ofte endringer i **produktet**.\n\n## Vurdering\n\nNår du vurderer en merkevarestrategi, spør du: Passer den **målgruppen** og **ressursene**? Beskytter den merket mot **risiko**? Er posisjoneringen **troverdig**, og henger den sammen med **pris**, **distribusjon** og **kommunikasjon**?",
   "flashcards": [
-    { "term": "Merkevare", "def": "Summen av forestillinger, følelser og erfaringer kundene har med produktet." },
-    { "term": "Merkekapital", "def": "Verdien merket tilfører produktet." },
-    { "term": "Aakers fire kilder", "def": "Kjennskap, kvalitetsoppfatning, assosiasjoner og lojalitet." },
-    { "term": "Produsentmerke", "def": "Merke som eies av produsenten." },
-    { "term": "EMV", "def": "Egne merkevarer som eies av kjeden." },
-    { "term": "Paraplymerke", "def": "Samme navn på alle produkter." },
-    { "term": "Individuelle merker", "def": "Hvert produkt har eget navn og egen profil." },
-    { "term": "Linjeutvidelse", "def": "Nye varianter i samme kategori." },
-    { "term": "Merkeutvidelse", "def": "Merket brukes i en ny kategori." },
-    { "term": "Co-branding", "def": "To merker samarbeider om et produkt." },
-    { "term": "Posisjonering", "def": "Hvordan man ønsker å bli oppfattet sammenlignet med konkurrentene." },
-    { "term": "Likhetspunkter", "def": "Egenskaper merket må ha for å være med i kategorien." },
-    { "term": "Forskjellspunkter", "def": "Egenskaper som gjør merket unikt." },
-    { "term": "Posisjoneringskart", "def": "Viser merker langs to dimensjoner." },
-    { "term": "Reposisjonering", "def": "Å endre hvordan merket oppfattes." }
+    {
+      "term": "Merkevare",
+      "def": "Summen av forestillinger, følelser og erfaringer kundene har med produktet."
+    },
+    {
+      "term": "Merkekapital",
+      "def": "Verdien merket tilfører produktet."
+    },
+    {
+      "term": "Aakers fire kilder",
+      "def": "Kjennskap, kvalitetsoppfatning, assosiasjoner og lojalitet."
+    },
+    {
+      "term": "Produsentmerke",
+      "def": "Merke som eies av produsenten."
+    },
+    {
+      "term": "EMV",
+      "def": "Egne merkevarer som eies av kjeden."
+    },
+    {
+      "term": "Paraplymerke",
+      "def": "Samme navn på alle produkter."
+    },
+    {
+      "term": "Individuelle merker",
+      "def": "Hvert produkt har eget navn og egen profil."
+    },
+    {
+      "term": "Linjeutvidelse",
+      "def": "Nye varianter i samme kategori."
+    },
+    {
+      "term": "Merkeutvidelse",
+      "def": "Merket brukes i en ny kategori."
+    },
+    {
+      "term": "Co-branding",
+      "def": "To merker samarbeider om et produkt."
+    },
+    {
+      "term": "Posisjonering",
+      "def": "Hvordan man ønsker å bli oppfattet sammenlignet med konkurrentene."
+    },
+    {
+      "term": "Likhetspunkter",
+      "def": "Egenskaper merket må ha for å være med i kategorien."
+    },
+    {
+      "term": "Forskjellspunkter",
+      "def": "Egenskaper som gjør merket unikt."
+    },
+    {
+      "term": "Posisjoneringskart",
+      "def": "Viser merker langs to dimensjoner."
+    },
+    {
+      "term": "Reposisjonering",
+      "def": "Å endre hvordan merket oppfattes."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er merkekapital?", "options": ["Bedriftens egenkapital", "Verdien merket tilfører produktet", "Reklamebudsjettet", "Antall produkter"], "correct": 1, "explain": "Brand equity." },
-    { "id": "q02", "text": "Hva er EMV?", "options": ["Egne merkevarer som eies av kjeden", "En EU-regel", "En type reklame", "En produsents merke"], "correct": 0, "explain": "Gir kjeden høyere marginer." },
-    { "id": "q03", "text": "Hva er en ulempe ved paraplymerke?", "options": ["Høye kostnader", "Lite kjennskap", "At én skandale kan ramme alle produktene", "At produktene får ulike navn"], "correct": 2, "explain": "Risikoen samles." },
-    { "id": "q04", "text": "Hva er merkeutvidelse?", "options": ["Nye smaker i samme kategori", "Større logo", "Flere butikker", "Å bruke merket i en ny kategori"], "correct": 3, "explain": "Kan svekke merket hvis det ikke passer." },
-    { "id": "q05", "text": "Hva er forskjellspunkter?", "options": ["Egenskaper som gjør merket unikt", "Egenskaper alle i kategorien har", "Prisforskjeller", "Forskjeller mellom ansatte"], "correct": 0, "explain": "Gir kundene en grunn til å velge merket." },
-    { "id": "q06", "text": "Hva kjennetegner god posisjonering?", "options": ["At den er lik konkurrentenes", "At den er relevant, tydelig, troverdig og unik", "At den endres hver uke", "At den er hemmelig"], "correct": 1, "explain": "Må kunne innfris." },
-    { "id": "q07", "text": "Hva viser et posisjoneringskart?", "options": ["Butikkenes plassering", "Salgstall", "Hvordan kunder oppfatter merker langs to dimensjoner", "Organisasjonskartet"], "correct": 2, "explain": "Kan vise ledige posisjoner." },
-    { "id": "q08", "text": "Hva er en fordel med individuelle merker?", "options": ["Lave kostnader", "Én reklame for alle", "Samme navn på alt", "Spredning av risiko og fleksibilitet"], "correct": 3, "explain": "Men høye kostnader." },
-    { "id": "q09", "text": "Hvilken av Aakers kilder handler om at kundene kjøper igjen?", "options": ["Merkelojalitet", "Merkekjennskap", "Kvalitetsoppfatning", "Assosiasjoner"], "correct": 0, "explain": "Gjentatte kjøp." },
-    { "id": "q10", "text": "Hvorfor tar reposisjonering tid?", "options": ["Fordi det er forbudt", "Fordi kundenes oppfatninger endres sakte og krever konsistent kommunikasjon", "Fordi logoen må godkjennes av staten", "Fordi det er gratis"], "correct": 1, "explain": "Ofte også endringer i produktet." }
+    {
+      "id": "q01",
+      "text": "Hva er merkekapital?",
+      "options": [
+        "Bedriftens egenkapital",
+        "Verdien merket tilfører produktet",
+        "Reklamebudsjettet",
+        "Antall produkter"
+      ],
+      "correct": 1,
+      "explain": "Brand equity."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er EMV?",
+      "options": [
+        "Egne merkevarer som eies av kjeden",
+        "En EU-regel",
+        "En type reklame",
+        "En produsents merke"
+      ],
+      "correct": 0,
+      "explain": "Gir kjeden høyere marginer."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en ulempe ved paraplymerke?",
+      "options": [
+        "Høye kostnader",
+        "Lite kjennskap",
+        "At én skandale kan ramme alle produktene",
+        "At produktene får ulike navn"
+      ],
+      "correct": 2,
+      "explain": "Risikoen samles."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er merkeutvidelse?",
+      "options": [
+        "Nye smaker i samme kategori",
+        "Større logo",
+        "Flere butikker",
+        "Å bruke merket i en ny kategori"
+      ],
+      "correct": 3,
+      "explain": "Kan svekke merket hvis det ikke passer."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er forskjellspunkter?",
+      "options": [
+        "Egenskaper som gjør merket unikt",
+        "Egenskaper alle i kategorien har",
+        "Prisforskjeller",
+        "Forskjeller mellom ansatte"
+      ],
+      "correct": 0,
+      "explain": "Gir kundene en grunn til å velge merket."
+    },
+    {
+      "id": "q06",
+      "text": "Hva kjennetegner god posisjonering?",
+      "options": [
+        "At den er lik konkurrentenes",
+        "At den er relevant, tydelig, troverdig og unik",
+        "At den endres hver uke",
+        "At den er hemmelig"
+      ],
+      "correct": 1,
+      "explain": "Må kunne innfris."
+    },
+    {
+      "id": "q07",
+      "text": "Hva viser et posisjoneringskart?",
+      "options": [
+        "Butikkenes plassering",
+        "Salgstall",
+        "Hvordan kunder oppfatter merker langs to dimensjoner",
+        "Organisasjonskartet"
+      ],
+      "correct": 2,
+      "explain": "Kan vise ledige posisjoner."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en fordel med individuelle merker?",
+      "options": [
+        "Lave kostnader",
+        "Én reklame for alle",
+        "Samme navn på alt",
+        "Spredning av risiko og fleksibilitet"
+      ],
+      "correct": 3,
+      "explain": "Men høye kostnader."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken av Aakers kilder handler om at kundene kjøper igjen?",
+      "options": [
+        "Merkelojalitet",
+        "Merkekjennskap",
+        "Kvalitetsoppfatning",
+        "Assosiasjoner"
+      ],
+      "correct": 0,
+      "explain": "Gjentatte kjøp."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor tar reposisjonering tid?",
+      "options": [
+        "Fordi det er forbudt",
+        "Fordi kundenes oppfatninger endres sakte og krever konsistent kommunikasjon",
+        "Fordi logoen må godkjennes av staten",
+        "Fordi det er gratis"
+      ],
+      "correct": 1,
+      "explain": "Ofte også endringer i produktet."
+    }
   ],
   "mindmap": {
     "label": "Merkevare",
     "children": [
-      { "label": "Merkekapital", "children": [
-        { "label": "Kjennskap og kvalitet" },
-        { "label": "Assosiasjoner og lojalitet" }
-      ] },
-      { "label": "Eierskap", "children": [
-        { "label": "Produsentmerker" },
-        { "label": "EMV" }
-      ] },
-      { "label": "Struktur", "children": [
-        { "label": "Paraply" },
-        { "label": "Familie" },
-        { "label": "Individuelle" }
-      ] },
-      { "label": "Vekst", "children": [
-        { "label": "Linjeutvidelse" },
-        { "label": "Merkeutvidelse" },
-        { "label": "Co-branding" }
-      ] },
-      { "label": "Posisjonering", "children": [
-        { "label": "Likhets- og forskjellspunkter" },
-        { "label": "Posisjoneringskart" },
-        { "label": "Reposisjonering" }
-      ] }
+      {
+        "label": "Merkekapital",
+        "children": [
+          {
+            "label": "Kjennskap og kvalitet"
+          },
+          {
+            "label": "Assosiasjoner og lojalitet"
+          }
+        ]
+      },
+      {
+        "label": "Eierskap",
+        "children": [
+          {
+            "label": "Produsentmerker"
+          },
+          {
+            "label": "EMV"
+          }
+        ]
+      },
+      {
+        "label": "Struktur",
+        "children": [
+          {
+            "label": "Paraply"
+          },
+          {
+            "label": "Familie"
+          },
+          {
+            "label": "Individuelle"
+          }
+        ]
+      },
+      {
+        "label": "Vekst",
+        "children": [
+          {
+            "label": "Linjeutvidelse"
+          },
+          {
+            "label": "Merkeutvidelse"
+          },
+          {
+            "label": "Co-branding"
+          }
+        ]
+      },
+      {
+        "label": "Posisjonering",
+        "children": [
+          {
+            "label": "Likhets- og forskjellspunkter"
+          },
+          {
+            "label": "Posisjoneringskart"
+          },
+          {
+            "label": "Reposisjonering"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "EMV kan gi dagligvarekjedene mer makt overfor leverandørene.", "correct": true, "explain": "Kjeden eier merket og hylleplassen." },
-      { "id": "m02", "type": "sant-usant", "text": "En ledig posisjon i et posisjoneringskart er alltid lønnsom.", "correct": false, "explain": "Den kan være ledig fordi ingen ønsker den." },
-      { "id": "m03", "type": "sant-usant", "text": "Posisjoneringen må henge sammen med pris, distribusjon og kommunikasjon.", "correct": true, "explain": "Helhetlig markedsmiks." },
-      { "id": "m04", "type": "sant-usant", "text": "En merkevare er bare navnet og logoen.", "correct": false, "explain": "Den er summen av forestillinger og erfaringer." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er et eksempel på linjeutvidelse?", "options": ["En sjokoladeprodusent lanserer klær", "En ny smak av en eksisterende sjokolade", "En ny logo", "Et nytt firma"], "correct": 1, "explain": "Samme kategori." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er et posisjoneringsgrunnlag?", "options": ["Opprinnelse, som «norsk»", "Antall ansatte", "Kontortid", "Regnskapsår"], "correct": 0, "explain": "Også pris, kvalitet og bærekraft." },
-      { "id": "m07", "type": "flervalg", "text": "Hvem beskrev fire kilder til merkekapital?", "options": ["Michael Porter", "Igor Ansoff", "David Aaker", "Philip Kotler"], "correct": 2, "explain": "Brand equity-modellen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "EMV kan gi dagligvarekjedene mer makt overfor leverandørene.",
+        "correct": true,
+        "explain": "Kjeden eier merket og hylleplassen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En ledig posisjon i et posisjoneringskart er alltid lønnsom.",
+        "correct": false,
+        "explain": "Den kan være ledig fordi ingen ønsker den."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Posisjoneringen må henge sammen med pris, distribusjon og kommunikasjon.",
+        "correct": true,
+        "explain": "Helhetlig markedsmiks."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En merkevare er bare navnet og logoen.",
+        "correct": false,
+        "explain": "Den er summen av forestillinger og erfaringer."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på linjeutvidelse?",
+        "options": [
+          "En sjokoladeprodusent lanserer klær",
+          "En ny smak av en eksisterende sjokolade",
+          "En ny logo",
+          "Et nytt firma"
+        ],
+        "correct": 1,
+        "explain": "Samme kategori."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et posisjoneringsgrunnlag?",
+        "options": [
+          "Opprinnelse, som «norsk»",
+          "Antall ansatte",
+          "Kontortid",
+          "Regnskapsår"
+        ],
+        "correct": 0,
+        "explain": "Også pris, kvalitet og bærekraft."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvem beskrev fire kilder til merkekapital?",
+        "options": [
+          "Michael Porter",
+          "Igor Ansoff",
+          "David Aaker",
+          "Philip Kotler"
+        ],
+        "correct": 2,
+        "explain": "Brand equity-modellen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva en merkevare er, og nevn én måte en sterk merkevare kan påvirke kundenes valg på.",
+        "fasit": "En merkevare er summen av forestillingene, følelsene og erfaringene kundene har med produktet, ikke bare navnet og logoen. En sterk merkevare kan gjøre at kunder velger produktet igjen, betaler mer eller anbefaler det.",
+        "kriterier": [
+          "Forklarer at merkevaren består av kundenes forestillinger, følelser og erfaringer.",
+          "Nevner en relevant virkning, som gjenkjøp, høyere betalingsvilje eller anbefaling."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En produsent selger et produkt under sitt eget merke, mens en dagligvarekjede selger et lignende produkt under et merke kjeden eier. Sammenlign disse merkeformene, og nevn én strategisk fordel kjeden kan få med sitt eget merke.",
+        "fasit": "Produsentmerket eies av produsenten, mens kjedens egen merkevare (EMV) eies av kjeden. EMV kan gi kjeden høyere marginer og større makt overfor leverandørene.",
+        "kriterier": [
+          "Skiller riktig mellom hvem som eier produsentmerket og EMV.",
+          "Nevner en relevant fordel for kjeden: høyere marginer eller mer makt overfor leverandørene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et yoghurtmerke lanserer en ny smak under samme merkenavn. Senere bruker virksomheten merkenavnet på et produkt i en helt annen kategori. Forklar hvilken type merkeutvidelse hvert av de to tilfellene er.",
+        "fasit": "Den nye smaken er en linjeutvidelse fordi den er en ny variant i samme kategori. Bruk av merkenavnet på et produkt i en annen kategori er en merkeutvidelse.",
+        "kriterier": [
+          "Klassifiserer den nye smaken som linjeutvidelse og knytter det til samme kategori.",
+          "Klassifiserer bruk av merket i en annen kategori som merkeutvidelse."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "To ulike merkevarer utvikler og selger et produkt sammen. Hva kalles denne strategien, og hva kjennetegner den?",
+        "fasit": "Strategien kalles co-branding eller samarbeidsmerker. Den kjennetegnes av at to merker samarbeider om ett produkt.",
+        "kriterier": [
+          "Identifiserer strategien som co-branding eller samarbeidsmerker.",
+          "Forklarer at to merker samarbeider om et produkt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "På et posisjoneringskart viser den ene aksen pris og den andre helse. Et område øverst til høyre er tomt for merker. Hva kan virksomheten utlede av dette, og hvorfor bør den undersøke området før den velger det?",
+        "fasit": "Kartet viser at ingen av merkene er plassert i området med høy pris og høy helse. Området kan være en ledig posisjon, men det kan også være tomt fordi kundene ikke ønsker den.",
+        "kriterier": [
+          "Tolker det tomme området ut fra de to dimensjonene i kartet.",
+          "Forklarer at en tom posisjon ikke nødvendigvis er attraktiv, fordi kundene kanskje ikke ønsker den."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et nytt merke i en produktkategori må ha en egenskap kundene forventer av alle produkter i kategorien. I tillegg har merket en egenskap som konkurrentene ikke tilbyr, og som gir kundene en grunn til å velge det. Forklar forskjellen på disse egenskapene ved hjelp av begrepene likhetspunkter og forskjellspunkter.",
+        "fasit": "Egenskapen som merket må ha for å være med i kategorien, er et likhetspunkt. Egenskapen som skiller merket fra konkurrentene og gir kundene en grunn til å velge det, er et forskjellspunkt.",
+        "kriterier": [
+          "Knytter forventningen som kreves for å være med i kategorien, til likhetspunkter.",
+          "Knytter den unike egenskapen som gir en grunn til å velge merket, til forskjellspunkter."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En virksomhet vil at målgruppen skal oppfatte merket som bærekraftig, men produktet støtter ikke dette løftet. Vurder om posisjoneringen er troverdig, og forklar hva virksomheten bør gjøre for at løftet skal henge sammen med merket.",
+        "fasit": "Posisjoneringen er ikke troverdig når produktet ikke kan innfri løftet om bærekraft. Virksomheten må sørge for at produktet støtter løftet, og kommunisere på en måte som samsvarer med det.",
+        "kriterier": [
+          "Vurderer posisjoneringen som lite troverdig når produktet ikke kan innfri løftet.",
+          "Forklarer at produktet og kommunikasjonen må samsvare med posisjonen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et merke har fått et image virksomheten ikke ønsker. Beskriv to ulike grep virksomheten kan bruke for å reposisjonere merket.",
+        "fasit": "Virksomheten kan endre produktet og kommunisere konsekvent om den nye posisjonen. Reposisjonering handler om å endre hvordan målgruppen oppfatter merket.",
+        "kriterier": [
+          "Forklarer at målet er å endre målgruppens oppfatning av merket.",
+          "Nevner relevante grep, som endringer i produktet og konsistent kommunikasjon."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,79 +4,429 @@
   "trinnId": "vg2",
   "name": "Innovasjon og innovasjonsprosesser",
   "intro": "Hva innovasjon er, ulike typer innovasjon, designtenkning og smidig oppstartsmetodikk med prototyper og minimumsprodukt – og hvordan gründere kan beskytte ideene sine med patent, varemerke og design.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Hva er innovasjon?\n\n**Innovasjon** er en **ny** idé, et nytt produkt eller en ny måte å gjøre ting på som blir **tatt i bruk** og skaper **verdi**. En **oppfinnelse** er ikke en innovasjon før noen faktisk **bruker** den.\n\n## Typer innovasjon\n\n- **Produktinnovasjon**: nye eller forbedrede varer og tjenester, som en ny app.\n- **Prosessinnovasjon**: nye måter å **produsere** eller **levere** på, som selvbetjente kasser.\n- **Markedsinnovasjon**: nye måter å **selge** eller nå kunder på, som abonnement i stedet for engangskjøp.\n- **Organisasjonsinnovasjon**: nye måter å **organisere** arbeidet på.\n\nInnovasjon kan også være\n\n- **inkrementell** – små, gradvise forbedringer, som en ny versjon av en telefon\n- **radikal** – store endringer som skaper helt nye markeder\n- **disruptiv** – en løsning som starter enkel og billig, men etter hvert **utkonkurrerer** de etablerte, slik strømming utkonkurrerte DVD-utleie\n\n## Designtenkning\n\n**Designtenkning** er en **brukersentrert** innovasjonsprosess i fem steg:\n\n1. **Empati** – forstå brukerne gjennom intervjuer og observasjon\n2. **Definere** – formulere det egentlige **problemet**\n3. **Idéutvikling** – lage mange mulige løsninger\n4. **Prototyp** – lage en enkel **modell** av løsningen\n5. **Teste** – prøve prototypen på brukerne og lære\n\nProsessen går gjerne i **runder**: Testingen gir ny innsikt, og man går tilbake til tidligere steg.\n\n## Smidig oppstart\n\n**Smidig oppstart** – ofte kalt lean startup – bygger på at nye virksomheter bør **teste** antakelsene sine raskt og billig:\n\n- **Bygg**: Lag et **minimumsprodukt** – den enkleste versjonen som kan gi læring, for eksempel en enkel nettside der folk kan forhåndsbestille.\n- **Mål**: Se hvordan kundene faktisk **reagerer**.\n- **Lær**: Juster produktet – eller gjør en **snuoperasjon** og endre retning hvis antakelsene var feil.\n\nMålet er å unngå å bruke **år** og **mye penger** på noe ingen vil ha.\n\n## Innovasjon ved etablering\n\nFor en ny virksomhet kan en innovasjonsprosess se slik ut:\n\n1. Finn et **problem** som er verdt å løse.\n2. Snakk med **mulige kunder**.\n3. Lag en **prototyp** eller et minimumsprodukt.\n4. **Test**, lær og forbedre.\n5. Lanser – og fortsett å **utvikle**.\n\n## Beskyttelse av ideer\n\n- **Patent** gir enerett til å utnytte en **teknisk oppfinnelse** i inntil **20 år**. Oppfinnelsen må være **ny** og ha **oppfinnelseshøyde**, og den må ikke være vist offentlig før søknaden.\n- **Varemerke** beskytter **navn** og **logo**.\n- **Designregistrering** beskytter **utseendet** til et produkt.\n- **Opphavsrett** gjelder automatisk for åndsverk som tekst, musikk, bilder og dataprogrammer.\n\nSøknader om patent, varemerke og design sendes til **Patentstyret**. En **taushetserklæring** kan beskytte ideen når man diskuterer den med andre.\n\n## Innovasjon krever mot\n\nMange innovasjoner **mislykkes**. Innovative virksomheter har en kultur der det er lov å **prøve**, **feile** og **lære**.",
   "flashcards": [
-    { "term": "Innovasjon", "def": "Ny idé eller løsning som tas i bruk og skaper verdi." },
-    { "term": "Oppfinnelse", "def": "Ny løsning som ennå ikke er tatt i bruk." },
-    { "term": "Produktinnovasjon", "def": "Nye eller forbedrede varer og tjenester." },
-    { "term": "Prosessinnovasjon", "def": "Nye måter å produsere eller levere på." },
-    { "term": "Markedsinnovasjon", "def": "Nye måter å selge eller nå kunder på." },
-    { "term": "Inkrementell innovasjon", "def": "Små, gradvise forbedringer." },
-    { "term": "Disruptiv innovasjon", "def": "Enkel og billig løsning som etter hvert utkonkurrerer de etablerte." },
-    { "term": "Designtenkning", "def": "Empati, definere, idéutvikling, prototyp og testing." },
-    { "term": "Prototyp", "def": "Enkel modell av en løsning som kan testes." },
-    { "term": "Smidig oppstart", "def": "Bygg, mål og lær – test antakelser raskt og billig." },
-    { "term": "Minimumsprodukt", "def": "Den enkleste versjonen av et produkt som kan gi læring." },
-    { "term": "Snuoperasjon", "def": "Å endre retning når antakelsene viser seg å være feil." },
-    { "term": "Patent", "def": "Enerett til en teknisk oppfinnelse i inntil 20 år." },
-    { "term": "Varemerke", "def": "Beskytter navn og logo." },
-    { "term": "Patentstyret", "def": "Behandler søknader om patent, varemerke og design." },
-    { "term": "Taushetserklæring", "def": "Avtale om å ikke dele fortrolig informasjon." }
+    {
+      "term": "Innovasjon",
+      "def": "Ny idé eller løsning som tas i bruk og skaper verdi."
+    },
+    {
+      "term": "Oppfinnelse",
+      "def": "Ny løsning som ennå ikke er tatt i bruk."
+    },
+    {
+      "term": "Produktinnovasjon",
+      "def": "Nye eller forbedrede varer og tjenester."
+    },
+    {
+      "term": "Prosessinnovasjon",
+      "def": "Nye måter å produsere eller levere på."
+    },
+    {
+      "term": "Markedsinnovasjon",
+      "def": "Nye måter å selge eller nå kunder på."
+    },
+    {
+      "term": "Inkrementell innovasjon",
+      "def": "Små, gradvise forbedringer."
+    },
+    {
+      "term": "Disruptiv innovasjon",
+      "def": "Enkel og billig løsning som etter hvert utkonkurrerer de etablerte."
+    },
+    {
+      "term": "Designtenkning",
+      "def": "Empati, definere, idéutvikling, prototyp og testing."
+    },
+    {
+      "term": "Prototyp",
+      "def": "Enkel modell av en løsning som kan testes."
+    },
+    {
+      "term": "Smidig oppstart",
+      "def": "Bygg, mål og lær – test antakelser raskt og billig."
+    },
+    {
+      "term": "Minimumsprodukt",
+      "def": "Den enkleste versjonen av et produkt som kan gi læring."
+    },
+    {
+      "term": "Snuoperasjon",
+      "def": "Å endre retning når antakelsene viser seg å være feil."
+    },
+    {
+      "term": "Patent",
+      "def": "Enerett til en teknisk oppfinnelse i inntil 20 år."
+    },
+    {
+      "term": "Varemerke",
+      "def": "Beskytter navn og logo."
+    },
+    {
+      "term": "Patentstyret",
+      "def": "Behandler søknader om patent, varemerke og design."
+    },
+    {
+      "term": "Taushetserklæring",
+      "def": "Avtale om å ikke dele fortrolig informasjon."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Når blir en oppfinnelse en innovasjon?", "options": ["Når den blir patentert", "Når den blir tatt i bruk og skaper verdi", "Når den blir tegnet", "Aldri"], "correct": 1, "explain": "Innovasjon krever bruk." },
-    { "id": "q02", "text": "Selvbetjente kasser er et eksempel på", "options": ["prosessinnovasjon", "varemerke", "organisasjonsinnovasjon", "patent"], "correct": 0, "explain": "En ny måte å levere på." },
-    { "id": "q03", "text": "Hva er disruptiv innovasjon?", "options": ["En liten forbedring", "Et patent", "En enkel og billig løsning som etter hvert utkonkurrerer de etablerte", "En ny logo"], "correct": 2, "explain": "Som strømming mot DVD-utleie." },
-    { "id": "q04", "text": "Hva er første steg i designtenkning?", "options": ["Prototyp", "Teste", "Idéutvikling", "Empati – forstå brukerne"], "correct": 3, "explain": "Prosessen er brukersentrert." },
-    { "id": "q05", "text": "Hva er et minimumsprodukt?", "options": ["Den enkleste versjonen som kan gi læring", "Det billigste produktet i butikken", "Et ferdig produkt", "Et patent"], "correct": 0, "explain": "Brukes i smidig oppstart." },
-    { "id": "q06", "text": "Hva er en snuoperasjon i smidig oppstart?", "options": ["Å legge ned virksomheten", "Å endre retning når antakelsene var feil", "Å øke prisen", "Å ansette flere"], "correct": 1, "explain": "Basert på det man har lært." },
-    { "id": "q07", "text": "Hvor lenge kan et patent gi enerett?", "options": ["5 år", "Evig", "Inntil 20 år", "1 år"], "correct": 2, "explain": "For tekniske oppfinnelser." },
-    { "id": "q08", "text": "Hva beskytter et varemerke?", "options": ["En teknisk oppfinnelse", "Utseendet til et produkt", "En sang", "Navn og logo"], "correct": 3, "explain": "Registreres hos Patentstyret." },
-    { "id": "q09", "text": "Hva er målet med smidig oppstart?", "options": ["Å unngå å bruke år og mye penger på noe ingen vil ha", "Å lage en perfekt plan før man starter", "Å unngå kunder", "Å få patent først"], "correct": 0, "explain": "Test raskt og billig." },
-    { "id": "q10", "text": "Hva må til for at en oppfinnelse kan patenteres?", "options": ["At den er vist offentlig", "At den er ny og har oppfinnelseshøyde", "At den er dyr", "At den er populær"], "correct": 1, "explain": "Den må ikke være kjent fra før." }
+    {
+      "id": "q01",
+      "text": "Når blir en oppfinnelse en innovasjon?",
+      "options": [
+        "Når den blir patentert",
+        "Når den blir tatt i bruk og skaper verdi",
+        "Når den blir tegnet",
+        "Aldri"
+      ],
+      "correct": 1,
+      "explain": "Innovasjon krever bruk."
+    },
+    {
+      "id": "q02",
+      "text": "Selvbetjente kasser er et eksempel på",
+      "options": [
+        "prosessinnovasjon",
+        "varemerke",
+        "organisasjonsinnovasjon",
+        "patent"
+      ],
+      "correct": 0,
+      "explain": "En ny måte å levere på."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er disruptiv innovasjon?",
+      "options": [
+        "En liten forbedring",
+        "Et patent",
+        "En enkel og billig løsning som etter hvert utkonkurrerer de etablerte",
+        "En ny logo"
+      ],
+      "correct": 2,
+      "explain": "Som strømming mot DVD-utleie."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er første steg i designtenkning?",
+      "options": [
+        "Prototyp",
+        "Teste",
+        "Idéutvikling",
+        "Empati – forstå brukerne"
+      ],
+      "correct": 3,
+      "explain": "Prosessen er brukersentrert."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er et minimumsprodukt?",
+      "options": [
+        "Den enkleste versjonen som kan gi læring",
+        "Det billigste produktet i butikken",
+        "Et ferdig produkt",
+        "Et patent"
+      ],
+      "correct": 0,
+      "explain": "Brukes i smidig oppstart."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en snuoperasjon i smidig oppstart?",
+      "options": [
+        "Å legge ned virksomheten",
+        "Å endre retning når antakelsene var feil",
+        "Å øke prisen",
+        "Å ansette flere"
+      ],
+      "correct": 1,
+      "explain": "Basert på det man har lært."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor lenge kan et patent gi enerett?",
+      "options": [
+        "5 år",
+        "Evig",
+        "Inntil 20 år",
+        "1 år"
+      ],
+      "correct": 2,
+      "explain": "For tekniske oppfinnelser."
+    },
+    {
+      "id": "q08",
+      "text": "Hva beskytter et varemerke?",
+      "options": [
+        "En teknisk oppfinnelse",
+        "Utseendet til et produkt",
+        "En sang",
+        "Navn og logo"
+      ],
+      "correct": 3,
+      "explain": "Registreres hos Patentstyret."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er målet med smidig oppstart?",
+      "options": [
+        "Å unngå å bruke år og mye penger på noe ingen vil ha",
+        "Å lage en perfekt plan før man starter",
+        "Å unngå kunder",
+        "Å få patent først"
+      ],
+      "correct": 0,
+      "explain": "Test raskt og billig."
+    },
+    {
+      "id": "q10",
+      "text": "Hva må til for at en oppfinnelse kan patenteres?",
+      "options": [
+        "At den er vist offentlig",
+        "At den er ny og har oppfinnelseshøyde",
+        "At den er dyr",
+        "At den er populær"
+      ],
+      "correct": 1,
+      "explain": "Den må ikke være kjent fra før."
+    }
   ],
   "mindmap": {
     "label": "Innovasjon",
     "children": [
-      { "label": "Typer", "children": [
-        { "label": "Produkt og prosess" },
-        { "label": "Marked og organisasjon" }
-      ] },
-      { "label": "Grad", "children": [
-        { "label": "Inkrementell" },
-        { "label": "Radikal" },
-        { "label": "Disruptiv" }
-      ] },
-      { "label": "Designtenkning", "children": [
-        { "label": "Empati og definere" },
-        { "label": "Idéutvikling" },
-        { "label": "Prototyp og test" }
-      ] },
-      { "label": "Smidig oppstart", "children": [
-        { "label": "Bygg, mål, lær" },
-        { "label": "Minimumsprodukt" },
-        { "label": "Snuoperasjon" }
-      ] },
-      { "label": "Beskyttelse", "children": [
-        { "label": "Patent" },
-        { "label": "Varemerke og design" },
-        { "label": "Opphavsrett" }
-      ] }
+      {
+        "label": "Typer",
+        "children": [
+          {
+            "label": "Produkt og prosess"
+          },
+          {
+            "label": "Marked og organisasjon"
+          }
+        ]
+      },
+      {
+        "label": "Grad",
+        "children": [
+          {
+            "label": "Inkrementell"
+          },
+          {
+            "label": "Radikal"
+          },
+          {
+            "label": "Disruptiv"
+          }
+        ]
+      },
+      {
+        "label": "Designtenkning",
+        "children": [
+          {
+            "label": "Empati og definere"
+          },
+          {
+            "label": "Idéutvikling"
+          },
+          {
+            "label": "Prototyp og test"
+          }
+        ]
+      },
+      {
+        "label": "Smidig oppstart",
+        "children": [
+          {
+            "label": "Bygg, mål, lær"
+          },
+          {
+            "label": "Minimumsprodukt"
+          },
+          {
+            "label": "Snuoperasjon"
+          }
+        ]
+      },
+      {
+        "label": "Beskyttelse",
+        "children": [
+          {
+            "label": "Patent"
+          },
+          {
+            "label": "Varemerke og design"
+          },
+          {
+            "label": "Opphavsrett"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Opphavsrett gjelder automatisk for tekst, musikk og bilder.", "correct": true, "explain": "Den krever ingen registrering." },
-      { "id": "m02", "type": "sant-usant", "text": "En oppfinnelse som er vist offentlig, kan alltid patenteres senere.", "correct": false, "explain": "Den må være ny ved søknaden." },
-      { "id": "m03", "type": "sant-usant", "text": "Designtenkning går ofte i runder der man går tilbake til tidligere steg.", "correct": true, "explain": "Testingen gir ny innsikt." },
-      { "id": "m04", "type": "sant-usant", "text": "Innovative virksomheter straffer alle feil hardt.", "correct": false, "explain": "De har en kultur der det er lov å prøve og feile." },
-      { "id": "m05", "type": "flervalg", "text": "Å tilby abonnement i stedet for engangskjøp er et eksempel på", "options": ["prosessinnovasjon", "markedsinnovasjon", "patent", "organisasjonsinnovasjon"], "correct": 1, "explain": "En ny måte å selge på." },
-      { "id": "m06", "type": "flervalg", "text": "Hva beskytter designregistrering?", "options": ["Utseendet til et produkt", "Navnet", "En teknisk løsning", "En forretningsidé"], "correct": 0, "explain": "Form, farger og mønstre." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er et eksempel på et minimumsprodukt?", "options": ["En ferdig fabrikk", "Et stort lager av varer", "En enkel nettside der folk kan forhåndsbestille", "En TV-reklame"], "correct": 2, "explain": "Tester etterspørselen billig." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Opphavsrett gjelder automatisk for tekst, musikk og bilder.",
+        "correct": true,
+        "explain": "Den krever ingen registrering."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En oppfinnelse som er vist offentlig, kan alltid patenteres senere.",
+        "correct": false,
+        "explain": "Den må være ny ved søknaden."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Designtenkning går ofte i runder der man går tilbake til tidligere steg.",
+        "correct": true,
+        "explain": "Testingen gir ny innsikt."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Innovative virksomheter straffer alle feil hardt.",
+        "correct": false,
+        "explain": "De har en kultur der det er lov å prøve og feile."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Å tilby abonnement i stedet for engangskjøp er et eksempel på",
+        "options": [
+          "prosessinnovasjon",
+          "markedsinnovasjon",
+          "patent",
+          "organisasjonsinnovasjon"
+        ],
+        "correct": 1,
+        "explain": "En ny måte å selge på."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva beskytter designregistrering?",
+        "options": [
+          "Utseendet til et produkt",
+          "Navnet",
+          "En teknisk løsning",
+          "En forretningsidé"
+        ],
+        "correct": 0,
+        "explain": "Form, farger og mønstre."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på et minimumsprodukt?",
+        "options": [
+          "En ferdig fabrikk",
+          "Et stort lager av varer",
+          "En enkel nettside der folk kan forhåndsbestille",
+          "En TV-reklame"
+        ],
+        "correct": 2,
+        "explain": "Tester etterspørselen billig."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En kafé lanserer en ny suppe på menyen og innfører en ny måte å tilberede bestillingene på. Forklar hvilken endring som er produktinnovasjon, og hvilken som er prosessinnovasjon.",
+        "fasit": "Den nye suppen er en produktinnovasjon fordi det er en ny vare. Den nye måten å tilberede bestillingene på er en prosessinnovasjon fordi det er en ny måte å produsere eller levere på.",
+        "kriterier": [
+          "Knytter den nye suppen til en ny vare eller et nytt produkt.",
+          "Knytter den nye tilberedningsmåten til en ny måte å produsere eller levere på."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En sykkelprodusent gjør små forbedringer på en eksisterende modell. En annen bedrift utvikler en løsning som skaper et helt nytt marked. Sammenlign hvilken type innovasjon de to endringene er.",
+        "fasit": "Forbedringene på sykkelen er inkrementell innovasjon fordi de er små og gradvise. Løsningen som skaper et helt nytt marked, er radikal innovasjon fordi den innebærer en stor endring.",
+        "kriterier": [
+          "Klassifiserer små, gradvise forbedringer som inkrementell innovasjon.",
+          "Klassifiserer endringen som skaper et helt nytt marked, som radikal innovasjon."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Elever opplever lange køer i skolekantina. Forklar hvordan de kan bruke empati og definere-stegene i designtenkning for å forstå hva de bør løse.",
+        "fasit": "I empati-steget kan de observere elevene eller intervjue dem for å forstå opplevelsen deres. Deretter formulerer de det egentlige problemet, for eksempel hva som skaper køene.",
+        "kriterier": [
+          "Beskriver at empati handler om å forstå brukerne gjennom observasjon eller intervjuer.",
+          "Beskriver at definere-steget handler om å formulere det egentlige problemet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elevgruppe lager en enkel pappmodell av en ny selvbetjeningsløsning. Forklar hva modellen kan brukes til, og hva gruppen kan lære av å la brukere prøve den.",
+        "fasit": "Pappmodellen er en prototyp som gjør det mulig å prøve en enkel versjon av løsningen. Når brukere tester den, kan gruppen få ny innsikt og forbedre løsningen eller gå tilbake til tidligere steg.",
+        "kriterier": [
+          "Forklarer at en prototyp er en enkel modell som kan prøves ut.",
+          "Forklarer at brukertesting gir læring eller innsikt som kan brukes til å forbedre løsningen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En gründer er usikker på om kunder vil bestille en ny tjeneste for matlevering. Beskriv hvordan gründeren kan bruke bygg, mål og lær for å teste antakelsen, og hva hen bør gjøre hvis testen viser at antakelsen er feil.",
+        "fasit": "Gründeren kan bygge en enkel versjon av tjenesten som kan gi læring, måle hvordan kundene reagerer og lære av resultatet. Hvis antakelsen viser seg å være feil, bør gründeren justere tilbudet eller endre retning.",
+        "kriterier": [
+          "Beskriver en rask og enkel test av antakelsen, for eksempel med en enkel versjon av tjenesten.",
+          "Knytter måling til kundenes faktiske reaksjoner.",
+          "Beskriver justering eller endret retning hvis testen viser at antakelsen er feil."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En møbelbutikk begynner å selge gjennom direktesendte produktvisninger på nettet i tillegg til den vanlige butikken. Forklar hvilken type innovasjon dette er, og hvorfor.",
+        "fasit": "Dette er en markedsinnovasjon fordi butikken tar i bruk en ny måte å nå kunder og selge produktene på. Selve møblene trenger ikke å være nye eller forbedret.",
+        "kriterier": [
+          "Identifiserer endringen som markedsinnovasjon.",
+          "Forklarer at endringen gjelder en ny måte å selge til eller nå kunder på."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En oppstartsbedrift skal diskutere en hemmelig idé med en mulig samarbeidspartner. Hvilken avtale kan bedriften bruke for å beskytte informasjonen, og hva innebærer avtalen?",
+        "fasit": "Bedriften kan bruke en taushetserklæring. Det er en avtale om at den fortrolige informasjonen ikke skal deles med andre.",
+        "kriterier": [
+          "Foreslår en taushetserklæring.",
+          "Forklarer at avtalen innebærer at fortrolig informasjon ikke skal deles."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Mange innovasjoner mislykkes før de lykkes. Forklar hvorfor det kan være nyttig for en virksomhet å ha en kultur der ansatte får prøve, feile og lære.",
+        "fasit": "Når ansatte får prøve og feile, kan virksomheten lære av det som ikke fungerer og forbedre løsningene sine. Det støtter innovasjon fordi mange innovasjoner mislykkes underveis.",
+        "kriterier": [
+          "Knytter det å prøve og feile til læring eller forbedring.",
+          "Forklarer at læring underveis støtter innovasjon, som ofte innebærer at noe ikke lykkes."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

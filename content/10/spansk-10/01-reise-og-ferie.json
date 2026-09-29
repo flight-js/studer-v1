@@ -4,80 +4,431 @@
   "trinnId": "10",
   "name": "Reise og ferie",
   "intro": "Ord og uttrykk for reise, transport, overnatting og vær på spansk, værutrykk med hacer, og hvordan du forteller om en reise og skriver et feriekort.",
-  "kompetansemaal": [3, 5],
+  "kompetansemaal": [
+    3,
+    5
+  ],
   "sammendrag": "## På reise – de viaje\n\n**Las vacaciones** (ferien) står vanligvis i flertall. Å reise heter **viajar** eller **ir de vacaciones**.\n\n- **el avión** (flyet), **el tren** (toget), **el barco** (båten), **el coche** (bilen) og **el autobús**\n- **el aeropuerto** (flyplassen), **la estación** (stasjonen) og **el billete** (billetten; i Latin-Amerika **el boleto**)\n- **la maleta** (kofferten), **la mochila** (sekken) og **el pasaporte**\n\nSpania har et raskt togsystem, **el AVE**, som forbinder store byer som Madrid, Barcelona og Sevilla.\n\n## Hvor reiser du?\n\n- **a** + land og byer: *Voy **a** España / **a** México / **a** Madrid.*\n- **a la playa** (til stranda), **a la montaña** (til fjellet) og **al campo** (på landet)\n- **en** når du er et sted: *Estoy **en** Barcelona.*\n\n## Overnatting\n\n**el hotel**, **el albergue juvenil** (vandrerhjemmet), **el camping** og **una habitación individual / doble** (enkeltrom / dobbeltrom).\n\n- **Quisiera reservar una habitación doble para dos noches.** – Jeg vil gjerne bestille et dobbeltrom for to netter.\n- **¿El desayuno está incluido?** – Er frokosten inkludert?\n\n## Været – el tiempo\n\nSpansk bruker ofte verbet **hacer** om været:\n\n- **¿Qué tiempo hace?** – Hvordan er været?\n- **Hace sol / calor / frío / viento.** – Det er sol / varmt / kaldt / det blåser.\n- **Hace buen tiempo / mal tiempo.** – Det er fint / dårlig vær.\n- **Llueve.** – Det regner. **Nieva.** – Det snør. **Está nublado.** – Det er overskyet.\n- **Estamos a 25 grados.** – Det er 25 grader.\n\n## Hva gjør du i ferien?\n\n**tomar el sol** (sole seg), **bañarse** (bade), **hacer senderismo** (gå på fottur), **esquiar**, **visitar monumentos** (se på severdigheter), **ir a museos** og **comprar recuerdos** (kjøpe suvenirer).\n\n## Fortelle om en reise\n\nDu bruker **indefinido** om det du gjorde, og ofte **imperfecto** om hvordan det var:\n\n*El verano pasado **fui** a México con mi familia. **Visitamos** las pirámides y **comimos** tacos. **Hacía** mucho calor. ¡**Lo pasé** genial!*\n\nOm planer bruker du **ir a + infinitiv**: *El verano que viene **voy a ir** a Perú.*\n\n## Et feriekort\n\n- Begynn med **Querida abuela,** (til en kvinne) eller **Querido Pablo,** (til en mann).\n- Fortell hvor du er, hvordan været er, og hva du har gjort.\n- Avslutt med **Un abrazo** (en klem), **Besos** eller **Saludos**.\n\n## Spania som reisemål\n\nSpania er et av verdens mest besøkte land og et av nordmenns mest populære feriemål. Mange nordmenn har også ferieboliger på Costa del Sol, Costa Blanca eller Kanariøyene.",
   "flashcards": [
-    { "term": "las vacaciones", "def": "ferien (vanligvis i flertall)" },
-    { "term": "el viaje", "def": "reisen" },
-    { "term": "el avión", "def": "flyet" },
-    { "term": "el AVE", "def": "spanske høyhastighetstog" },
-    { "term": "el albergue juvenil", "def": "vandrerhjemmet" },
-    { "term": "una habitación doble", "def": "et dobbeltrom" },
-    { "term": "reservar", "def": "å bestille, reservere" },
-    { "term": "la maleta", "def": "kofferten" },
-    { "term": "Llueve.", "def": "Det regner." },
-    { "term": "Hace sol. / Hace calor.", "def": "Det er sol. / Det er varmt." },
-    { "term": "hacer senderismo", "def": "å gå på fottur" },
-    { "term": "visitar monumentos", "def": "å se på severdigheter" },
-    { "term": "ir a España", "def": "å reise til Spania" },
-    { "term": "a la playa", "def": "til stranda" },
-    { "term": "ir a + infinitiv", "def": "skal gjøre noe: Voy a viajar." },
-    { "term": "Un abrazo", "def": "En klem – avslutning på kort og e-post" }
+    {
+      "term": "las vacaciones",
+      "def": "ferien (vanligvis i flertall)"
+    },
+    {
+      "term": "el viaje",
+      "def": "reisen"
+    },
+    {
+      "term": "el avión",
+      "def": "flyet"
+    },
+    {
+      "term": "el AVE",
+      "def": "spanske høyhastighetstog"
+    },
+    {
+      "term": "el albergue juvenil",
+      "def": "vandrerhjemmet"
+    },
+    {
+      "term": "una habitación doble",
+      "def": "et dobbeltrom"
+    },
+    {
+      "term": "reservar",
+      "def": "å bestille, reservere"
+    },
+    {
+      "term": "la maleta",
+      "def": "kofferten"
+    },
+    {
+      "term": "Llueve.",
+      "def": "Det regner."
+    },
+    {
+      "term": "Hace sol. / Hace calor.",
+      "def": "Det er sol. / Det er varmt."
+    },
+    {
+      "term": "hacer senderismo",
+      "def": "å gå på fottur"
+    },
+    {
+      "term": "visitar monumentos",
+      "def": "å se på severdigheter"
+    },
+    {
+      "term": "ir a España",
+      "def": "å reise til Spania"
+    },
+    {
+      "term": "a la playa",
+      "def": "til stranda"
+    },
+    {
+      "term": "ir a + infinitiv",
+      "def": "skal gjøre noe: Voy a viajar."
+    },
+    {
+      "term": "Un abrazo",
+      "def": "En klem – avslutning på kort og e-post"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva betyr «las vacaciones»?", "options": ["Flyplassen", "Ferien", "Kofferten", "Været"], "correct": 1, "explain": "Ordet står vanligvis i flertall." },
-    { "id": "q02", "text": "Hva er «el albergue juvenil»?", "options": ["Et luksushotell", "En campingplass", "En togstasjon", "Et vandrerhjem"], "correct": 3, "explain": "«juvenil» betyr for ungdom." },
-    { "id": "q03", "text": "Hvordan sier du «Det regner»?", "options": ["Llueve.", "Nieva.", "Hace sol.", "Hace viento."], "correct": 0, "explain": "«la lluvia» betyr regnet." },
-    { "id": "q04", "text": "Hvordan sier du «Jeg reiser til Spania»?", "options": ["Voy en España.", "Voy de España.", "Voy a España.", "Voy por España."], "correct": 2, "explain": "Når du reiser til et sted, bruker du «a»." },
-    { "id": "q05", "text": "Hvilket verb bruker spansk om været i uttrykk som «… calor» og «… frío»?", "options": ["ser", "estar", "tener", "hacer"], "correct": 3, "explain": "«Hace calor» betyr det er varmt." },
-    { "id": "q06", "text": "Hva betyr «hacer senderismo»?", "options": ["Å gå på fottur", "Å bade", "Å fly", "Å handle"], "correct": 0, "explain": "«el sendero» betyr stien." },
-    { "id": "q07", "text": "Hvordan ber du om et dobbeltrom for to netter?", "options": ["Tengo dos habitaciones.", "¿Dónde está la habitación?", "Quisiera reservar una habitación doble para dos noches.", "La habitación es doble."], "correct": 2, "explain": "«Quisiera» er en høflig måte å si «jeg vil gjerne» på." },
-    { "id": "q08", "text": "Hva betyr «¿Qué tiempo hace?»?", "options": ["Hva er klokka?", "Hvordan er været?", "Hvor lenge varer det?", "Når går toget?"], "correct": 1, "explain": "«el tiempo» kan bety både tid og vær." },
-    { "id": "q09", "text": "Hvordan kan du avslutte et kort til en venn?", "options": ["Un abrazo", "Estimado señor", "Buenos días", "Por favor"], "correct": 0, "explain": "«Estimado señor» brukes i formelle brev." },
-    { "id": "q10", "text": "Hva er AVE?", "options": ["En fugl", "En spansk TV-kanal", "En båt", "Spanske høyhastighetstog"], "correct": 3, "explain": "Togene kjører i over 300 km/t." }
+    {
+      "id": "q01",
+      "text": "Hva betyr «las vacaciones»?",
+      "options": [
+        "Flyplassen",
+        "Ferien",
+        "Kofferten",
+        "Været"
+      ],
+      "correct": 1,
+      "explain": "Ordet står vanligvis i flertall."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er «el albergue juvenil»?",
+      "options": [
+        "Et luksushotell",
+        "En campingplass",
+        "En togstasjon",
+        "Et vandrerhjem"
+      ],
+      "correct": 3,
+      "explain": "«juvenil» betyr for ungdom."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan sier du «Det regner»?",
+      "options": [
+        "Llueve.",
+        "Nieva.",
+        "Hace sol.",
+        "Hace viento."
+      ],
+      "correct": 0,
+      "explain": "«la lluvia» betyr regnet."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan sier du «Jeg reiser til Spania»?",
+      "options": [
+        "Voy en España.",
+        "Voy de España.",
+        "Voy a España.",
+        "Voy por España."
+      ],
+      "correct": 2,
+      "explain": "Når du reiser til et sted, bruker du «a»."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilket verb bruker spansk om været i uttrykk som «… calor» og «… frío»?",
+      "options": [
+        "ser",
+        "estar",
+        "tener",
+        "hacer"
+      ],
+      "correct": 3,
+      "explain": "«Hace calor» betyr det er varmt."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr «hacer senderismo»?",
+      "options": [
+        "Å gå på fottur",
+        "Å bade",
+        "Å fly",
+        "Å handle"
+      ],
+      "correct": 0,
+      "explain": "«el sendero» betyr stien."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan ber du om et dobbeltrom for to netter?",
+      "options": [
+        "Tengo dos habitaciones.",
+        "¿Dónde está la habitación?",
+        "Quisiera reservar una habitación doble para dos noches.",
+        "La habitación es doble."
+      ],
+      "correct": 2,
+      "explain": "«Quisiera» er en høflig måte å si «jeg vil gjerne» på."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr «¿Qué tiempo hace?»?",
+      "options": [
+        "Hva er klokka?",
+        "Hvordan er været?",
+        "Hvor lenge varer det?",
+        "Når går toget?"
+      ],
+      "correct": 1,
+      "explain": "«el tiempo» kan bety både tid og vær."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan kan du avslutte et kort til en venn?",
+      "options": [
+        "Un abrazo",
+        "Estimado señor",
+        "Buenos días",
+        "Por favor"
+      ],
+      "correct": 0,
+      "explain": "«Estimado señor» brukes i formelle brev."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er AVE?",
+      "options": [
+        "En fugl",
+        "En spansk TV-kanal",
+        "En båt",
+        "Spanske høyhastighetstog"
+      ],
+      "correct": 3,
+      "explain": "Togene kjører i over 300 km/t."
+    }
   ],
   "mindmap": {
     "label": "Reise og ferie",
     "children": [
-      { "label": "Transport", "children": [
-        { "label": "avión, tren, AVE" },
-        { "label": "aeropuerto, estación" },
-        { "label": "billete, maleta" }
-      ] },
-      { "label": "Reisemål", "children": [
-        { "label": "a España, a México" },
-        { "label": "a la playa" },
-        { "label": "en Barcelona" }
-      ] },
-      { "label": "Overnatting", "children": [
-        { "label": "hotel, albergue juvenil" },
-        { "label": "reservar una habitación" },
-        { "label": "¿desayuno incluido?" }
-      ] },
-      { "label": "Været", "children": [
-        { "label": "Hace sol / calor / frío" },
-        { "label": "Llueve / Nieva" },
-        { "label": "25 grados" }
-      ] },
-      { "label": "Fortelle og skrive", "children": [
-        { "label": "Indefinido og imperfecto" },
-        { "label": "ir a + infinitiv" },
-        { "label": "Querida abuela … Un abrazo" }
-      ] }
+      {
+        "label": "Transport",
+        "children": [
+          {
+            "label": "avión, tren, AVE"
+          },
+          {
+            "label": "aeropuerto, estación"
+          },
+          {
+            "label": "billete, maleta"
+          }
+        ]
+      },
+      {
+        "label": "Reisemål",
+        "children": [
+          {
+            "label": "a España, a México"
+          },
+          {
+            "label": "a la playa"
+          },
+          {
+            "label": "en Barcelona"
+          }
+        ]
+      },
+      {
+        "label": "Overnatting",
+        "children": [
+          {
+            "label": "hotel, albergue juvenil"
+          },
+          {
+            "label": "reservar una habitación"
+          },
+          {
+            "label": "¿desayuno incluido?"
+          }
+        ]
+      },
+      {
+        "label": "Været",
+        "children": [
+          {
+            "label": "Hace sol / calor / frío"
+          },
+          {
+            "label": "Llueve / Nieva"
+          },
+          {
+            "label": "25 grados"
+          }
+        ]
+      },
+      {
+        "label": "Fortelle og skrive",
+        "children": [
+          {
+            "label": "Indefinido og imperfecto"
+          },
+          {
+            "label": "ir a + infinitiv"
+          },
+          {
+            "label": "Querida abuela … Un abrazo"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "«las vacaciones» står vanligvis i flertall.", "correct": true, "explain": "«¡Felices vacaciones!» betyr god ferie." },
-      { "id": "m02", "type": "sant-usant", "text": "«la maleta» betyr lommeboka.", "correct": false, "explain": "«la maleta» betyr kofferten." },
-      { "id": "m03", "type": "sant-usant", "text": "Spania er et av nordmenns mest populære feriemål.", "correct": true, "explain": "Særlig Kanariøyene og kysten ved Middelhavet." },
-      { "id": "m04", "type": "sant-usant", "text": "«Nieva» betyr det regner.", "correct": false, "explain": "«Nieva» betyr det snør." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr «¿El desayuno está incluido?»?", "options": ["Er frokosten inkludert?", "Når er frokosten?", "Hvor er frokosten?", "Liker du frokost?"], "correct": 0, "explain": "«incluido» betyr inkludert." },
-      { "id": "m06", "type": "flervalg", "text": "Hva heter billetten i Spania?", "options": ["la maleta", "el billete", "el pasaporte", "el coche"], "correct": 1, "explain": "I Latin-Amerika sier man ofte «el boleto»." },
-      { "id": "m07", "type": "flervalg", "text": "Hva betyr «El verano que viene voy a ir a Perú»?", "options": ["I fjor sommer dro jeg til Peru", "Jeg bor i Peru om sommeren", "Neste sommer skal jeg reise til Peru", "Peru er fint om sommeren"], "correct": 2, "explain": "«que viene» betyr som kommer, altså neste." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "«las vacaciones» står vanligvis i flertall.",
+        "correct": true,
+        "explain": "«¡Felices vacaciones!» betyr god ferie."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "«la maleta» betyr lommeboka.",
+        "correct": false,
+        "explain": "«la maleta» betyr kofferten."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Spania er et av nordmenns mest populære feriemål.",
+        "correct": true,
+        "explain": "Særlig Kanariøyene og kysten ved Middelhavet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "«Nieva» betyr det regner.",
+        "correct": false,
+        "explain": "«Nieva» betyr det snør."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr «¿El desayuno está incluido?»?",
+        "options": [
+          "Er frokosten inkludert?",
+          "Når er frokosten?",
+          "Hvor er frokosten?",
+          "Liker du frokost?"
+        ],
+        "correct": 0,
+        "explain": "«incluido» betyr inkludert."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva heter billetten i Spania?",
+        "options": [
+          "la maleta",
+          "el billete",
+          "el pasaporte",
+          "el coche"
+        ],
+        "correct": 1,
+        "explain": "I Latin-Amerika sier man ofte «el boleto»."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva betyr «El verano que viene voy a ir a Perú»?",
+        "options": [
+          "I fjor sommer dro jeg til Peru",
+          "Jeg bor i Peru om sommeren",
+          "Neste sommer skal jeg reise til Peru",
+          "Peru er fint om sommeren"
+        ],
+        "correct": 2,
+        "explain": "«que viene» betyr som kommer, altså neste."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen mellom «a» og «en» når du snakker om reise. Bruk Madrid som reisemål og Barcelona som stedet du allerede er.",
+        "fasit": "«A» brukes når du drar til en by eller et land, for eksempel «Voy a Madrid». «En» brukes om stedet du er, for eksempel «Estoy en Barcelona».",
+        "kriterier": [
+          "Forklarer at «a» brukes om reisemål og «en» om stedet man befinner seg.",
+          "Gir eksempler som viser riktig bruk av begge preposisjonene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "«El billete» og «el boleto» kan begge brukes om en billett. Forklar hvordan bruken av ordene varierer mellom Spania og Latin-Amerika.",
+        "fasit": "«El billete» betyr billetten. I Latin-Amerika brukes ofte «el boleto» om det samme.",
+        "kriterier": [
+          "Forklarer at begge ordene betyr billett.",
+          "Knytter «el boleto» til Latin-Amerika."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Du skal fortelle en venn på spansk at det er varmt, blåser og er overskyet. Skriv det på spansk.",
+        "fasit": "Hace calor, hace viento y está nublado.",
+        "kriterier": [
+          "Bruker uttrykk som formidler varmt vær, vind og overskyet vær på spansk."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En reisende vil ta tog raskt mellom Madrid og Barcelona. Hvilket tog passer, og hvorfor? Bruk opplysningen om at AVE er et raskt spansk tog som forbinder store byer.",
+        "fasit": "AVE passer fordi det er et raskt tog som forbinder store byer i Spania, som Madrid og Barcelona.",
+        "kriterier": [
+          "Velger AVE som et passende tog mellom byene.",
+          "Forklarer at AVE er raskt og forbinder store spanske byer."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Du planlegger neste sommerferie i Peru og vil besøke museer. Skriv på spansk at du skal besøke museer i Peru neste sommer.",
+        "fasit": "El verano que viene voy a visitar museos en Perú.",
+        "kriterier": [
+          "Bruker «ir a» sammen med et infinitiv for å uttrykke en plan.",
+          "Formidler at planen er å besøke museer i Peru neste sommer."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I en fortelling om en reise besøkte noen pyramidene og spiste tacos, og det var varmt. Forklar hvilket av tidene indefinido og imperfecto som passer til handlingene, og hvilket som passer til været. Begrunn kort.",
+        "fasit": "Indefinido brukes om handlingene som ble gjort, som å besøke pyramidene og spise tacos. Imperfecto brukes til å beskrive hvordan været var.",
+        "kriterier": [
+          "Knytter indefinido til avsluttede handlinger på reisen.",
+          "Knytter imperfecto til beskrivelse av været."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du er på vei til stranda og vil bade og sole deg. Skriv på spansk hvor du skal, og hva du vil gjøre der.",
+        "fasit": "Voy a la playa. Voy a bañarme y a tomar el sol.",
+        "kriterier": [
+          "Bruker «a la playa» for å uttrykke hvor du skal.",
+          "Sier på spansk at du skal bade og sole deg."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skriv et kort på spansk fra Barcelona til bestemoren din. Det er sol, og du har besøkt severdigheter. Begynn med «Querida abuela,» og avslutt med en passende avskjed fra et kort.",
+        "fasit": "Querida abuela, estoy en Barcelona. Hace sol y visité monumentos. Un abrazo.",
+        "kriterier": [
+          "Bruker riktig hilsen til bestemoren og en passende avslutning.",
+          "Forteller at du er i Barcelona, at det er sol, og at du har besøkt severdigheter."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

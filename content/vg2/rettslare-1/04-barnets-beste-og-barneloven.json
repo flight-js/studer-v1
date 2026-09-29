@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Barnets beste og barneloven",
   "intro": "Prinsippet om barnets beste i Grunnloven og barnekonvensjonen, og sentrale regler i barneloven om farskap og morskap, foreldreansvar, fast bosted, samvær, barnets rett til å bli hørt, forsørgelse og mekling.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Barnets beste\n\n**Barnets beste** er et grunnleggende prinsipp i norsk rett:\n\n- **Grunnloven § 104**: Ved handlinger og avgjørelser som berører barn, skal **barnets beste** være et **grunnleggende hensyn**.\n- **Barnekonvensjonen artikkel 3** sier det samme, og konvensjonen gjelder som norsk lov med **forrang**.\n- **Barneloven § 48**: Avgjørelser om foreldreansvar, bosted og samvær skal **først og fremst** rette seg etter hva som er **best for barnet**.\n\nHva som er barnets beste, må vurderes **konkret** i hver sak – for eksempel ut fra barnets **alder**, **tilknytning**, **stabilitet**, **meninger** og behov for **omsorg** og **trygghet**.\n\n## Hvem er foreldre?\n\n- **Morskap**: Kvinnen som **føder** barnet, er mor.\n- **Farskap**: Er mor **gift**, regnes **ektemannen** som far (**pater est-regelen**). Ellers kan faren **erkjenne** farskapet, eller det kan fastsettes ved **DNA-test** og dom.\n- **Medmorskap**: Ved **assistert befruktning** kan mors kvinnelige ektefelle eller samboer bli **medmor**.\n\n## Foreldreansvar\n\n**Foreldreansvar** er retten og plikten til å ta avgjørelser for barnet i **personlige forhold** – og å gi barnet **omsorg** og **omtanke**. Foreldrene skal ta stadig **mer hensyn** til barnets mening etter hvert som barnet blir eldre.\n\n- Gifte og samboende foreldre har **felles** foreldreansvar.\n- For barn født etter **1. januar 2020** har foreldre som **ikke** bor sammen, som hovedregel også **felles** foreldreansvar.\n- **Fysisk avstraffelse** og annen krenkende behandling av barn er **forbudt**.\n\n## Fast bosted og samvær\n\nNår foreldrene ikke bor sammen, må de avtale hvor barnet skal **bo fast** – hos én av dem eller hos begge (**delt fast bosted**). Den som har fast bosted, kan blant annet bestemme om barnet skal gå i **barnehage** og hvor i **Norge** barnet skal bo.\n\nDen andre forelderen har som hovedregel rett til **samvær**. Samvær er først og fremst **barnets rett**. **Vanlig samvær** er etter loven én ettermiddag i uka med overnatting, annenhver helg, 14 dager i sommerferien og annenhver jul eller påske.\n\n## Barnets rett til å bli hørt\n\nEtter **barneloven § 31** skal barn som er i stand til å danne seg egne synspunkter, få si sin **mening** før det tas avgjørelser om personlige forhold for dem. Barn fra **sju år** skal alltid få informasjon og anledning til å si meningen sin, og når barnet har fylt **tolv år**, skal meningen tillegges **stor vekt**. Fra **15 år** bestemmer barnet selv om valg av **utdanning** og om å melde seg inn i foreninger.\n\n## Forsørgelse\n\nForeldrene har **fostringsplikt**: De skal forsørge barnet til det fyller **18 år**, og lenger hvis barnet fortsatt går i **videregående**. Den forelderen som ikke bor fast med barnet, betaler vanligvis **barnebidrag**.\n\n## Mekling\n\nGifte og samboende foreldre med felles barn **under 16 år** må gå til **mekling** før de kan få separasjon eller skilsmisse, eller når samboere flytter fra hverandre. Formålet er å komme fram til en **avtale** om foreldreansvar, bosted og samvær som er **best for barnet**. Blir de ikke enige, kan saken bringes inn for **domstolen**.",
   "flashcards": [
-    { "term": "Barnets beste", "def": "Grunnleggende hensyn i alle avgjørelser som berører barn." },
-    { "term": "Grunnloven § 104", "def": "Barnets beste skal være et grunnleggende hensyn." },
-    { "term": "Barnekonvensjonen artikkel 3", "def": "Barnets beste i internasjonal rett." },
-    { "term": "Pater est-regelen", "def": "Mors ektemann regnes som far." },
-    { "term": "Medmor", "def": "Mors kvinnelige ektefelle eller samboer ved assistert befruktning." },
-    { "term": "Foreldreansvar", "def": "Rett og plikt til å ta avgjørelser for barnet i personlige forhold." },
-    { "term": "Felles foreldreansvar", "def": "Hovedregelen for gifte og samboende – og for de fleste barn født etter 2020." },
-    { "term": "Fast bosted", "def": "Hvor barnet bor fast når foreldrene ikke bor sammen." },
-    { "term": "Delt fast bosted", "def": "Barnet bor fast hos begge foreldrene." },
-    { "term": "Samvær", "def": "Barnets rett til å være sammen med forelderen det ikke bor fast hos." },
-    { "term": "Vanlig samvær", "def": "Ettermiddag i uka, annenhver helg, 14 dager om sommeren, jul eller påske." },
-    { "term": "Barneloven § 31", "def": "Barnets rett til å bli hørt; stor vekt fra 12 år." },
-    { "term": "15 år", "def": "Barnet bestemmer selv valg av utdanning." },
-    { "term": "Fostringsplikt", "def": "Forsørgelse til 18 år, eller lenger under videregående." },
-    { "term": "Mekling", "def": "Obligatorisk for foreldre med felles barn under 16 ved samlivsbrudd." }
+    {
+      "term": "Barnets beste",
+      "def": "Grunnleggende hensyn i alle avgjørelser som berører barn."
+    },
+    {
+      "term": "Grunnloven § 104",
+      "def": "Barnets beste skal være et grunnleggende hensyn."
+    },
+    {
+      "term": "Barnekonvensjonen artikkel 3",
+      "def": "Barnets beste i internasjonal rett."
+    },
+    {
+      "term": "Pater est-regelen",
+      "def": "Mors ektemann regnes som far."
+    },
+    {
+      "term": "Medmor",
+      "def": "Mors kvinnelige ektefelle eller samboer ved assistert befruktning."
+    },
+    {
+      "term": "Foreldreansvar",
+      "def": "Rett og plikt til å ta avgjørelser for barnet i personlige forhold."
+    },
+    {
+      "term": "Felles foreldreansvar",
+      "def": "Hovedregelen for gifte og samboende – og for de fleste barn født etter 2020."
+    },
+    {
+      "term": "Fast bosted",
+      "def": "Hvor barnet bor fast når foreldrene ikke bor sammen."
+    },
+    {
+      "term": "Delt fast bosted",
+      "def": "Barnet bor fast hos begge foreldrene."
+    },
+    {
+      "term": "Samvær",
+      "def": "Barnets rett til å være sammen med forelderen det ikke bor fast hos."
+    },
+    {
+      "term": "Vanlig samvær",
+      "def": "Ettermiddag i uka, annenhver helg, 14 dager om sommeren, jul eller påske."
+    },
+    {
+      "term": "Barneloven § 31",
+      "def": "Barnets rett til å bli hørt; stor vekt fra 12 år."
+    },
+    {
+      "term": "15 år",
+      "def": "Barnet bestemmer selv valg av utdanning."
+    },
+    {
+      "term": "Fostringsplikt",
+      "def": "Forsørgelse til 18 år, eller lenger under videregående."
+    },
+    {
+      "term": "Mekling",
+      "def": "Obligatorisk for foreldre med felles barn under 16 ved samlivsbrudd."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvor står det at barnets beste skal være et grunnleggende hensyn?", "options": ["Bare i barneloven", "I Grunnloven § 104 og barnekonvensjonen artikkel 3", "I straffeloven", "I arveloven"], "correct": 1, "explain": "Også i barneloven § 48." },
-    { "id": "q02", "text": "Hvem regnes som far når mor er gift?", "options": ["Ektemannen", "Den som betaler bidrag", "Den som bor med barnet", "Ingen før DNA-test"], "correct": 0, "explain": "Pater est-regelen." },
-    { "id": "q03", "text": "Når skal barnets mening tillegges stor vekt etter barneloven?", "options": ["Fra 3 år", "Fra 7 år", "Fra 12 år", "Fra 18 år"], "correct": 2, "explain": "Barn fra sju år skal alltid få si meningen sin." },
-    { "id": "q04", "text": "Hva er foreldreansvar?", "options": ["Plikt til å betale barnebidrag", "Retten til samvær", "Retten til barnetrygd", "Rett og plikt til å ta avgjørelser for barnet i personlige forhold"], "correct": 3, "explain": "Og å gi barnet omsorg." },
-    { "id": "q05", "text": "Hvem har rett til samvær først og fremst?", "options": ["Barnet", "Mor", "Far", "Besteforeldrene"], "correct": 0, "explain": "Samvær er barnets rett." },
-    { "id": "q06", "text": "Hvem må gå til mekling ved samlivsbrudd?", "options": ["Alle par", "Gifte og samboende foreldre med felles barn under 16 år", "Bare gifte uten barn", "Ingen"], "correct": 1, "explain": "For å avtale det som er best for barnet." },
-    { "id": "q07", "text": "Hva kan den som har fast bosted, bestemme?", "options": ["At barnet skal flytte til utlandet uten samtykke", "At barnet ikke skal ha samvær", "Blant annet om barnet skal gå i barnehage og hvor i Norge barnet skal bo", "Hvem som er barnets far"], "correct": 2, "explain": "Flytting til utlandet krever samtykke fra begge med foreldreansvar." },
-    { "id": "q08", "text": "Hvor lenge har foreldrene fostringsplikt?", "options": ["Til barnet fyller 15", "Til barnet fyller 16", "For alltid", "Til 18 år, eller lenger hvis barnet går i videregående"], "correct": 3, "explain": "Barneloven om forsørgelse." },
-    { "id": "q09", "text": "Er fysisk avstraffelse av barn lov i Norge?", "options": ["Nei, det er forbudt", "Ja, i små doser", "Ja, hvis foreldrene er enige", "Bare for barn over 12"], "correct": 0, "explain": "Barneloven forbyr det." },
-    { "id": "q10", "text": "Fra hvilken alder bestemmer barnet selv valg av utdanning?", "options": ["12 år", "15 år", "16 år", "18 år"], "correct": 1, "explain": "Og innmelding i foreninger." }
+    {
+      "id": "q01",
+      "text": "Hvor står det at barnets beste skal være et grunnleggende hensyn?",
+      "options": [
+        "Bare i barneloven",
+        "I Grunnloven § 104 og barnekonvensjonen artikkel 3",
+        "I straffeloven",
+        "I arveloven"
+      ],
+      "correct": 1,
+      "explain": "Også i barneloven § 48."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem regnes som far når mor er gift?",
+      "options": [
+        "Ektemannen",
+        "Den som betaler bidrag",
+        "Den som bor med barnet",
+        "Ingen før DNA-test"
+      ],
+      "correct": 0,
+      "explain": "Pater est-regelen."
+    },
+    {
+      "id": "q03",
+      "text": "Når skal barnets mening tillegges stor vekt etter barneloven?",
+      "options": [
+        "Fra 3 år",
+        "Fra 7 år",
+        "Fra 12 år",
+        "Fra 18 år"
+      ],
+      "correct": 2,
+      "explain": "Barn fra sju år skal alltid få si meningen sin."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er foreldreansvar?",
+      "options": [
+        "Plikt til å betale barnebidrag",
+        "Retten til samvær",
+        "Retten til barnetrygd",
+        "Rett og plikt til å ta avgjørelser for barnet i personlige forhold"
+      ],
+      "correct": 3,
+      "explain": "Og å gi barnet omsorg."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem har rett til samvær først og fremst?",
+      "options": [
+        "Barnet",
+        "Mor",
+        "Far",
+        "Besteforeldrene"
+      ],
+      "correct": 0,
+      "explain": "Samvær er barnets rett."
+    },
+    {
+      "id": "q06",
+      "text": "Hvem må gå til mekling ved samlivsbrudd?",
+      "options": [
+        "Alle par",
+        "Gifte og samboende foreldre med felles barn under 16 år",
+        "Bare gifte uten barn",
+        "Ingen"
+      ],
+      "correct": 1,
+      "explain": "For å avtale det som er best for barnet."
+    },
+    {
+      "id": "q07",
+      "text": "Hva kan den som har fast bosted, bestemme?",
+      "options": [
+        "At barnet skal flytte til utlandet uten samtykke",
+        "At barnet ikke skal ha samvær",
+        "Blant annet om barnet skal gå i barnehage og hvor i Norge barnet skal bo",
+        "Hvem som er barnets far"
+      ],
+      "correct": 2,
+      "explain": "Flytting til utlandet krever samtykke fra begge med foreldreansvar."
+    },
+    {
+      "id": "q08",
+      "text": "Hvor lenge har foreldrene fostringsplikt?",
+      "options": [
+        "Til barnet fyller 15",
+        "Til barnet fyller 16",
+        "For alltid",
+        "Til 18 år, eller lenger hvis barnet går i videregående"
+      ],
+      "correct": 3,
+      "explain": "Barneloven om forsørgelse."
+    },
+    {
+      "id": "q09",
+      "text": "Er fysisk avstraffelse av barn lov i Norge?",
+      "options": [
+        "Nei, det er forbudt",
+        "Ja, i små doser",
+        "Ja, hvis foreldrene er enige",
+        "Bare for barn over 12"
+      ],
+      "correct": 0,
+      "explain": "Barneloven forbyr det."
+    },
+    {
+      "id": "q10",
+      "text": "Fra hvilken alder bestemmer barnet selv valg av utdanning?",
+      "options": [
+        "12 år",
+        "15 år",
+        "16 år",
+        "18 år"
+      ],
+      "correct": 1,
+      "explain": "Og innmelding i foreninger."
+    }
   ],
   "mindmap": {
     "label": "Barnets beste og barneloven",
     "children": [
-      { "label": "Barnets beste", "children": [
-        { "label": "Grl. § 104" },
-        { "label": "Barnekonvensjonen" },
-        { "label": "Konkret vurdering" }
-      ] },
-      { "label": "Foreldre", "children": [
-        { "label": "Morskap" },
-        { "label": "Farskap" },
-        { "label": "Medmorskap" }
-      ] },
-      { "label": "Foreldreansvar", "children": [
-        { "label": "Felles som hovedregel" },
-        { "label": "Forbud mot vold" }
-      ] },
-      { "label": "Bosted og samvær", "children": [
-        { "label": "Fast bosted" },
-        { "label": "Vanlig samvær" },
-        { "label": "Mekling" }
-      ] },
-      { "label": "Barnets stemme", "children": [
-        { "label": "Hørt fra 7 år" },
-        { "label": "Stor vekt fra 12 år" },
-        { "label": "Utdanning fra 15 år" }
-      ] }
+      {
+        "label": "Barnets beste",
+        "children": [
+          {
+            "label": "Grl. § 104"
+          },
+          {
+            "label": "Barnekonvensjonen"
+          },
+          {
+            "label": "Konkret vurdering"
+          }
+        ]
+      },
+      {
+        "label": "Foreldre",
+        "children": [
+          {
+            "label": "Morskap"
+          },
+          {
+            "label": "Farskap"
+          },
+          {
+            "label": "Medmorskap"
+          }
+        ]
+      },
+      {
+        "label": "Foreldreansvar",
+        "children": [
+          {
+            "label": "Felles som hovedregel"
+          },
+          {
+            "label": "Forbud mot vold"
+          }
+        ]
+      },
+      {
+        "label": "Bosted og samvær",
+        "children": [
+          {
+            "label": "Fast bosted"
+          },
+          {
+            "label": "Vanlig samvær"
+          },
+          {
+            "label": "Mekling"
+          }
+        ]
+      },
+      {
+        "label": "Barnets stemme",
+        "children": [
+          {
+            "label": "Hørt fra 7 år"
+          },
+          {
+            "label": "Stor vekt fra 12 år"
+          },
+          {
+            "label": "Utdanning fra 15 år"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Hva som er barnets beste, må vurderes konkret i hver sak.", "correct": true, "explain": "Ut fra barnets situasjon og behov." },
-      { "id": "m02", "type": "sant-usant", "text": "Barn under sju år har aldri rett til å si sin mening.", "correct": false, "explain": "Også yngre barn som kan danne seg egne synspunkter, skal høres." },
-      { "id": "m03", "type": "sant-usant", "text": "Et barn kan ha delt fast bosted hos begge foreldrene.", "correct": true, "explain": "Hvis foreldrene avtaler det." },
-      { "id": "m04", "type": "sant-usant", "text": "Mekling er bare et tilbud og aldri obligatorisk.", "correct": false, "explain": "Den er obligatorisk for foreldre med felles barn under 16 ved samlivsbrudd." },
-      { "id": "m05", "type": "flervalg", "text": "Hvem kan bli medmor?", "options": ["Mors søster", "Mors kvinnelige ektefelle eller samboer ved assistert befruktning", "Farmor", "Barnets tante"], "correct": 1, "explain": "Etter barneloven." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betaler forelderen som ikke bor fast med barnet, vanligvis?", "options": ["Barnebidrag", "Barnetrygd", "Arveavgift", "Skolepenger"], "correct": 0, "explain": "Et bidrag til forsørgelsen." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken paragraf i barneloven gir barnet rett til å bli hørt?", "options": ["§ 1", "§ 48", "§ 31", "§ 104"], "correct": 2, "explain": "§ 48 handler om barnets beste." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Hva som er barnets beste, må vurderes konkret i hver sak.",
+        "correct": true,
+        "explain": "Ut fra barnets situasjon og behov."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Barn under sju år har aldri rett til å si sin mening.",
+        "correct": false,
+        "explain": "Også yngre barn som kan danne seg egne synspunkter, skal høres."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Et barn kan ha delt fast bosted hos begge foreldrene.",
+        "correct": true,
+        "explain": "Hvis foreldrene avtaler det."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Mekling er bare et tilbud og aldri obligatorisk.",
+        "correct": false,
+        "explain": "Den er obligatorisk for foreldre med felles barn under 16 ved samlivsbrudd."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem kan bli medmor?",
+        "options": [
+          "Mors søster",
+          "Mors kvinnelige ektefelle eller samboer ved assistert befruktning",
+          "Farmor",
+          "Barnets tante"
+        ],
+        "correct": 1,
+        "explain": "Etter barneloven."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betaler forelderen som ikke bor fast med barnet, vanligvis?",
+        "options": [
+          "Barnebidrag",
+          "Barnetrygd",
+          "Arveavgift",
+          "Skolepenger"
+        ],
+        "correct": 0,
+        "explain": "Et bidrag til forsørgelsen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken paragraf i barneloven gir barnet rett til å bli hørt?",
+        "options": [
+          "§ 1",
+          "§ 48",
+          "§ 31",
+          "§ 104"
+        ],
+        "correct": 2,
+        "explain": "§ 48 handler om barnets beste."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Foreldre er uenige om hvor barnet skal bo. Forklar hvordan prinsippet om barnets beste skal brukes når avgjørelsen tas.",
+        "fasit": "Barnets beste må vurderes konkret i saken, ikke etter en fast regel som passer for alle barn. Det kan blant annet legges vekt på barnets alder, tilknytning, stabilitet, mening og behov for omsorg og trygghet.",
+        "kriterier": [
+          "Forklarer at vurderingen må være konkret for det enkelte barnet.",
+          "Nevner relevante hensyn, for eksempel barnets tilknytning, stabilitet, mening eller behov for omsorg og trygghet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign Grunnloven § 104 og Barnekonvensjonen artikkel 3 når det gjelder barnets beste.",
+        "fasit": "Begge sier at barnets beste skal være et grunnleggende hensyn. Barnekonvensjonen artikkel 3 gjelder som norsk lov og har forrang.",
+        "kriterier": [
+          "Får fram at begge rettskildene slår fast barnets beste som et grunnleggende hensyn.",
+          "Får fram at Barnekonvensjonen gjelder som norsk lov med forrang."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En kvinne får barn uten å være gift. Forklar hvordan farskapet kan bli fastsatt.",
+        "fasit": "Faren kan erkjenne farskapet. Hvis farskapet ikke blir erkjent, kan det fastsettes ved DNA-test og dom.",
+        "kriterier": [
+          "Nevner at faren kan erkjenne farskapet.",
+          "Nevner DNA-test og dom som en måte farskapet kan fastsettes på."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et barn er født etter 1. januar 2020, og foreldrene bor ikke sammen. Hva er hovedregelen om foreldreansvar i denne situasjonen?",
+        "fasit": "Hovedregelen er at foreldrene har felles foreldreansvar, selv om de ikke bor sammen.",
+        "kriterier": [
+          "Slår fast at hovedregelen er felles foreldreansvar.",
+          "Knytter regelen til at barnet er født etter 1. januar 2020 og foreldrene ikke bor sammen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar forskjellen mellom fast bosted og delt fast bosted når foreldre ikke bor sammen.",
+        "fasit": "Fast bosted sier hvor barnet bor fast, enten hos én forelder eller hos begge. Delt fast bosted betyr at barnet bor fast hos begge foreldrene.",
+        "kriterier": [
+          "Forklarer at fast bosted handler om hvor barnet bor fast.",
+          "Forklarer at delt fast bosted innebærer at barnet bor fast hos begge foreldrene."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et lesbisk par får barn ved assistert befruktning. Forklar hvem som kan bli medmor.",
+        "fasit": "Mors kvinnelige ektefelle eller samboer kan bli medmor når barnet er født ved assistert befruktning.",
+        "kriterier": [
+          "Nevner at det gjelder mors kvinnelige ektefelle eller samboer.",
+          "Knytter medmorskap til assistert befruktning."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Foreldre med felles barn under 16 år går fra hverandre. Forklar formålet med mekling, og hva som kan skje hvis de ikke blir enige.",
+        "fasit": "Mekling skal hjelpe foreldrene med å lage en avtale om foreldreansvar, bosted og samvær som er best for barnet. Hvis de ikke blir enige, kan saken bringes inn for domstolen.",
+        "kriterier": [
+          "Forklarer at mekling skal bidra til en avtale om foreldreansvar, bosted og samvær som er best for barnet.",
+          "Nevner at saken kan bringes inn for domstolen dersom foreldrene ikke blir enige."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Beskriv hva som regnes som vanlig samvær etter loven.",
+        "fasit": "Vanlig samvær er én ettermiddag i uka med overnatting, annenhver helg, 14 dager i sommerferien og annenhver jul eller påske.",
+        "kriterier": [
+          "Nevner ettermiddag i uka med overnatting og annenhver helg.",
+          "Nevner 14 dager i sommerferien og annenhver jul eller påske."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

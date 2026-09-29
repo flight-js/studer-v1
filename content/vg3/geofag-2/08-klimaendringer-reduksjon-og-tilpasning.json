@@ -4,78 +4,424 @@
   "trinnId": "vg3",
   "name": "Konsekvenser av klimaendringer, utslippskutt og tilpasning",
   "intro": "Hvilke konsekvenser klimaendringer får for enkeltmennesker, samfunn og økosystemer i Norge og i verden, og hvordan vi kan redusere utslippene og tilpasse oss – fra Parisavtalen og klimapolitikk til bærekraftige valg i hverdagen.",
-  "kompetansemaal": [8],
+  "kompetansemaal": [
+    8
+  ],
   "sammendrag": "## Konsekvenser for økosystemer\n\n- **Arter flytter** mot polene og opp i høyden. Fjellarter og arktiske arter som **isbjørn** får mindre leveområde.\n- **Havforsuring**: Havet tar opp CO₂ og blir surere. Det gjør det vanskeligere for **koraller**, **skjell** og noen typer **plankton** å bygge kalkskall.\n- **Varmere hav** gir **korallbleking** og kan flytte **fiskebestander** nordover.\n- **Tidspunkter** i naturen forskyves, for eksempel når planter blomstrer og når trekkfugler kommer.\n\n## Konsekvenser for samfunn og mennesker\n\n- **Havnivåstigning** truer lavtliggende kyster og øystater.\n- **Tørke** og **hetebølger** gir svikt i matproduksjonen og helseproblemer.\n- **Ekstremnedbør** og **flom** skader hus, veier og jernbane.\n- **Klimamigrasjon**: Folk kan bli tvunget til å flytte.\n- Konsekvensene er **ujevnt fordelt**. Fattige land, som har sluppet ut **minst**, rammes ofte **hardest**. Dette er et spørsmål om **klimarettferdighet** – også mellom **generasjoner**.\n\n## I Norge\n\nNorge får mer **kraftig nedbør**, flere **regnflommer**, mer **overvann** i byene og flere **skred** i bratt terreng. Snøsesongen blir **kortere** i lavlandet, og havnivået stiger langs store deler av kysten. En lengre vekstsesong kan gi **fordeler** for landbruket, men også flere **skadedyr**.\n\n## To typer tiltak\n\n- **Utslippskutt** – ofte kalt **mitigasjon** – betyr å **redusere** utslippene av drivhusgasser for å **begrense** oppvarmingen.\n- **Tilpasning** betyr å **forberede** samfunnet på endringene som allerede kommer.\n\nBegge deler trengs: Jo mindre vi kutter, desto mer må vi tilpasse oss.\n\n## Utslippskutt\n\n**Parisavtalen** fra **2015** har som mål å holde oppvarmingen **godt under 2 °C** og å **tilstrebe 1,5 °C**. Hvert land melder inn egne **mål**, som skal skjerpes over tid.\n\nEksempler på tiltak:\n\n- **fornybar energi** i stedet for fossil\n- **elektrifisering** av transport og industri\n- **energieffektivisering**\n- **karbonfangst og lagring (CCS)**\n- **bevaring av skog** og myr\n- **karbonprising**, som **CO₂-avgift** og **kvotesystemer**\n\nEtter klimaloven skal Norge kutte utslippene med minst 55 % innen 2030 og 70–75 % innen 2035 sammenlignet med 1990, og bli et **lavutslippssamfunn** innen 2050.\n\n## Tilpasning\n\n- bygge **flomvern** og større **overvannssystemer**\n- **grønne tak** og **regnbed** som tar opp vann\n- unngå å bygge i **flomsoner** og **skredutsatte** områder\n- **varslingssystemer** for flom og skred\n- **tørketolerante** plantesorter i landbruket\n\n## Enkeltmennesket\n\nEnkeltpersoner kan påvirke gjennom **reisevaner**, **matvalg**, **forbruk** og **gjenbruk** – og gjennom å **stemme** og **engasjere** seg. Mange peker likevel på at de største kuttene krever **politiske** beslutninger og endringer i **systemene**.\n\n## Drøfting\n\nI en drøfting kan du vurdere tiltak etter **effekt**, **kostnad**, **rettferdighet** og **konsekvenser** for natur og mennesker. Et vindkraftverk kutter utslipp, men kan gi **naturinngrep**. Bærekraftige løsninger tar hensyn til både **miljø**, **økonomi** og **sosiale** forhold.",
   "flashcards": [
-    { "term": "Havforsuring", "def": "Havet tar opp CO₂ og blir surere." },
-    { "term": "Korallbleking", "def": "Koraller mister algene sine i for varmt vann." },
-    { "term": "Havnivåstigning", "def": "Økt havnivå på grunn av smeltende is og varmere hav." },
-    { "term": "Klimamigrasjon", "def": "Folk må flytte på grunn av klimaendringer." },
-    { "term": "Klimarettferdighet", "def": "At de som slipper ut minst, ofte rammes hardest." },
-    { "term": "Mitigasjon", "def": "Utslippskutt for å begrense oppvarmingen." },
-    { "term": "Klimatilpasning", "def": "Å forberede samfunnet på endringene som kommer." },
-    { "term": "Parisavtalen", "def": "Avtale fra 2015 om å holde oppvarmingen godt under 2 °C." },
-    { "term": "1,5-gradersmålet", "def": "Parisavtalens mål om å tilstrebe 1,5 °C." },
-    { "term": "CCS", "def": "Karbonfangst og lagring." },
-    { "term": "Karbonprising", "def": "CO₂-avgift og kvotesystemer som gjør utslipp dyrere." },
-    { "term": "Lavutslippssamfunn", "def": "Norges mål for 2050." },
-    { "term": "Overvann", "def": "Regnvann som renner på overflaten i byer." },
-    { "term": "Regnbed", "def": "Beplantet område som tar opp regnvann." },
-    { "term": "Flomvern", "def": "Tiltak som beskytter mot flom." }
+    {
+      "term": "Havforsuring",
+      "def": "Havet tar opp CO₂ og blir surere."
+    },
+    {
+      "term": "Korallbleking",
+      "def": "Koraller mister algene sine i for varmt vann."
+    },
+    {
+      "term": "Havnivåstigning",
+      "def": "Økt havnivå på grunn av smeltende is og varmere hav."
+    },
+    {
+      "term": "Klimamigrasjon",
+      "def": "Folk må flytte på grunn av klimaendringer."
+    },
+    {
+      "term": "Klimarettferdighet",
+      "def": "At de som slipper ut minst, ofte rammes hardest."
+    },
+    {
+      "term": "Mitigasjon",
+      "def": "Utslippskutt for å begrense oppvarmingen."
+    },
+    {
+      "term": "Klimatilpasning",
+      "def": "Å forberede samfunnet på endringene som kommer."
+    },
+    {
+      "term": "Parisavtalen",
+      "def": "Avtale fra 2015 om å holde oppvarmingen godt under 2 °C."
+    },
+    {
+      "term": "1,5-gradersmålet",
+      "def": "Parisavtalens mål om å tilstrebe 1,5 °C."
+    },
+    {
+      "term": "CCS",
+      "def": "Karbonfangst og lagring."
+    },
+    {
+      "term": "Karbonprising",
+      "def": "CO₂-avgift og kvotesystemer som gjør utslipp dyrere."
+    },
+    {
+      "term": "Lavutslippssamfunn",
+      "def": "Norges mål for 2050."
+    },
+    {
+      "term": "Overvann",
+      "def": "Regnvann som renner på overflaten i byer."
+    },
+    {
+      "term": "Regnbed",
+      "def": "Beplantet område som tar opp regnvann."
+    },
+    {
+      "term": "Flomvern",
+      "def": "Tiltak som beskytter mot flom."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er forskjellen på utslippskutt og tilpasning?", "options": ["Det er det samme", "Kutt begrenser oppvarmingen, tilpasning forbereder samfunnet på endringene", "Tilpasning kutter utslipp", "Kutt gjelder bare Norge"], "correct": 1, "explain": "Begge trengs." },
-    { "id": "q02", "text": "Hva er målet i Parisavtalen?", "options": ["Godt under 2 °C og tilstrebe 1,5 °C", "Under 5 °C", "Ingen oppvarming", "Under 3 °C"], "correct": 0, "explain": "Fra 2015." },
-    { "id": "q03", "text": "Hva er havforsuring?", "options": ["At havet blir saltere", "At havet blir varmere", "At havet tar opp CO₂ og blir surere", "At havet blir ferskere"], "correct": 2, "explain": "Rammer skjell og koraller." },
-    { "id": "q04", "text": "Hva er et eksempel på klimatilpasning?", "options": ["CO₂-avgift", "Elbil", "Karbonfangst", "Større overvannssystemer"], "correct": 3, "explain": "Forbereder på mer nedbør." },
-    { "id": "q05", "text": "Hvorfor snakker man om klimarettferdighet?", "options": ["Fordi de som slipper ut minst, ofte rammes hardest", "Fordi alle rammes likt", "Fordi rike land rammes mest", "Fordi klima ikke påvirker mennesker"], "correct": 0, "explain": "Også mellom generasjoner." },
-    { "id": "q06", "text": "Hva er CCS?", "options": ["En klimaavtale", "Karbonfangst og lagring", "En havstrøm", "Et kvotesystem"], "correct": 1, "explain": "Et tiltak for utslippskutt." },
-    { "id": "q07", "text": "Hvilken konsekvens er ventet i Norge?", "options": ["Lengre snøsesong i lavlandet", "Mindre nedbør", "Flere regnflommer og skred", "Lavere havnivå overalt"], "correct": 2, "explain": "Mer kraftig nedbør." },
-    { "id": "q08", "text": "Hvilket tiltak er karbonprising?", "options": ["Flomvern", "Regnbed", "Tørketolerante planter", "CO₂-avgift og kvotesystemer"], "correct": 3, "explain": "Gjør utslipp dyrere." },
-    { "id": "q09", "text": "Hvordan påvirker klimaendringer arter?", "options": ["Mange flytter mot polene og opp i høyden", "Ingen endring", "Alle arter får større leveområde", "Arter flytter mot ekvator"], "correct": 0, "explain": "Fjellarter får mindre plass." },
-    { "id": "q10", "text": "Hva kan være en konflikt ved et vindkraftverk?", "options": ["Det gir økte utslipp", "Det kutter utslipp, men kan gi naturinngrep", "Det gir havforsuring", "Det har ingen ulemper"], "correct": 1, "explain": "Bærekraft har flere sider." }
+    {
+      "id": "q01",
+      "text": "Hva er forskjellen på utslippskutt og tilpasning?",
+      "options": [
+        "Det er det samme",
+        "Kutt begrenser oppvarmingen, tilpasning forbereder samfunnet på endringene",
+        "Tilpasning kutter utslipp",
+        "Kutt gjelder bare Norge"
+      ],
+      "correct": 1,
+      "explain": "Begge trengs."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er målet i Parisavtalen?",
+      "options": [
+        "Godt under 2 °C og tilstrebe 1,5 °C",
+        "Under 5 °C",
+        "Ingen oppvarming",
+        "Under 3 °C"
+      ],
+      "correct": 0,
+      "explain": "Fra 2015."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er havforsuring?",
+      "options": [
+        "At havet blir saltere",
+        "At havet blir varmere",
+        "At havet tar opp CO₂ og blir surere",
+        "At havet blir ferskere"
+      ],
+      "correct": 2,
+      "explain": "Rammer skjell og koraller."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er et eksempel på klimatilpasning?",
+      "options": [
+        "CO₂-avgift",
+        "Elbil",
+        "Karbonfangst",
+        "Større overvannssystemer"
+      ],
+      "correct": 3,
+      "explain": "Forbereder på mer nedbør."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor snakker man om klimarettferdighet?",
+      "options": [
+        "Fordi de som slipper ut minst, ofte rammes hardest",
+        "Fordi alle rammes likt",
+        "Fordi rike land rammes mest",
+        "Fordi klima ikke påvirker mennesker"
+      ],
+      "correct": 0,
+      "explain": "Også mellom generasjoner."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er CCS?",
+      "options": [
+        "En klimaavtale",
+        "Karbonfangst og lagring",
+        "En havstrøm",
+        "Et kvotesystem"
+      ],
+      "correct": 1,
+      "explain": "Et tiltak for utslippskutt."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken konsekvens er ventet i Norge?",
+      "options": [
+        "Lengre snøsesong i lavlandet",
+        "Mindre nedbør",
+        "Flere regnflommer og skred",
+        "Lavere havnivå overalt"
+      ],
+      "correct": 2,
+      "explain": "Mer kraftig nedbør."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket tiltak er karbonprising?",
+      "options": [
+        "Flomvern",
+        "Regnbed",
+        "Tørketolerante planter",
+        "CO₂-avgift og kvotesystemer"
+      ],
+      "correct": 3,
+      "explain": "Gjør utslipp dyrere."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan påvirker klimaendringer arter?",
+      "options": [
+        "Mange flytter mot polene og opp i høyden",
+        "Ingen endring",
+        "Alle arter får større leveområde",
+        "Arter flytter mot ekvator"
+      ],
+      "correct": 0,
+      "explain": "Fjellarter får mindre plass."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kan være en konflikt ved et vindkraftverk?",
+      "options": [
+        "Det gir økte utslipp",
+        "Det kutter utslipp, men kan gi naturinngrep",
+        "Det gir havforsuring",
+        "Det har ingen ulemper"
+      ],
+      "correct": 1,
+      "explain": "Bærekraft har flere sider."
+    }
   ],
   "mindmap": {
     "label": "Konsekvenser og tiltak",
     "children": [
-      { "label": "Økosystemer", "children": [
-        { "label": "Arter flytter" },
-        { "label": "Havforsuring" },
-        { "label": "Korallbleking" }
-      ] },
-      { "label": "Samfunn", "children": [
-        { "label": "Havnivå og flom" },
-        { "label": "Tørke og migrasjon" },
-        { "label": "Klimarettferdighet" }
-      ] },
-      { "label": "Utslippskutt", "children": [
-        { "label": "Parisavtalen" },
-        { "label": "Fornybar energi og CCS" },
-        { "label": "Karbonprising" }
-      ] },
-      { "label": "Tilpasning", "children": [
-        { "label": "Flomvern og overvann" },
-        { "label": "Arealplanlegging" },
-        { "label": "Varsling" }
-      ] },
-      { "label": "Enkeltmennesket", "children": [
-        { "label": "Reiser, mat og forbruk" },
-        { "label": "Politisk engasjement" }
-      ] }
+      {
+        "label": "Økosystemer",
+        "children": [
+          {
+            "label": "Arter flytter"
+          },
+          {
+            "label": "Havforsuring"
+          },
+          {
+            "label": "Korallbleking"
+          }
+        ]
+      },
+      {
+        "label": "Samfunn",
+        "children": [
+          {
+            "label": "Havnivå og flom"
+          },
+          {
+            "label": "Tørke og migrasjon"
+          },
+          {
+            "label": "Klimarettferdighet"
+          }
+        ]
+      },
+      {
+        "label": "Utslippskutt",
+        "children": [
+          {
+            "label": "Parisavtalen"
+          },
+          {
+            "label": "Fornybar energi og CCS"
+          },
+          {
+            "label": "Karbonprising"
+          }
+        ]
+      },
+      {
+        "label": "Tilpasning",
+        "children": [
+          {
+            "label": "Flomvern og overvann"
+          },
+          {
+            "label": "Arealplanlegging"
+          },
+          {
+            "label": "Varsling"
+          }
+        ]
+      },
+      {
+        "label": "Enkeltmennesket",
+        "children": [
+          {
+            "label": "Reiser, mat og forbruk"
+          },
+          {
+            "label": "Politisk engasjement"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Varmere hav kan flytte fiskebestander nordover.", "correct": true, "explain": "Fisk følger temperaturen." },
-      { "id": "m02", "type": "sant-usant", "text": "Hvis vi kutter nok utslipp, trenger vi ingen tilpasning.", "correct": false, "explain": "Noen endringer kommer uansett." },
-      { "id": "m03", "type": "sant-usant", "text": "Norge har mål om å bli et lavutslippssamfunn innen 2050.", "correct": true, "explain": "Norsk klimapolitikk." },
-      { "id": "m04", "type": "sant-usant", "text": "Fattige land har sluppet ut mest og rammes minst.", "correct": false, "explain": "Det er ofte omvendt." },
-      { "id": "m05", "type": "flervalg", "text": "Hva gjør et regnbed?", "options": ["Produserer strøm", "Tar opp regnvann", "Fanger CO₂ fra fabrikker", "Varsler flom"], "correct": 1, "explain": "Tilpasning i byer." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilke kriterier kan brukes for å vurdere klimatiltak?", "options": ["Effekt, kostnad, rettferdighet og konsekvenser", "Bare pris", "Bare hvor populært det er", "Bare hvor raskt det går"], "correct": 0, "explain": "Bærekraft har flere dimensjoner." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilke organismer rammes særlig av havforsuring?", "options": ["Hvaler", "Sjøfugl", "Koraller og skjell", "Tang"], "correct": 2, "explain": "Kalkskall blir vanskeligere å bygge." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Varmere hav kan flytte fiskebestander nordover.",
+        "correct": true,
+        "explain": "Fisk følger temperaturen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Hvis vi kutter nok utslipp, trenger vi ingen tilpasning.",
+        "correct": false,
+        "explain": "Noen endringer kommer uansett."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Norge har mål om å bli et lavutslippssamfunn innen 2050.",
+        "correct": true,
+        "explain": "Norsk klimapolitikk."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Fattige land har sluppet ut mest og rammes minst.",
+        "correct": false,
+        "explain": "Det er ofte omvendt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva gjør et regnbed?",
+        "options": [
+          "Produserer strøm",
+          "Tar opp regnvann",
+          "Fanger CO₂ fra fabrikker",
+          "Varsler flom"
+        ],
+        "correct": 1,
+        "explain": "Tilpasning i byer."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilke kriterier kan brukes for å vurdere klimatiltak?",
+        "options": [
+          "Effekt, kostnad, rettferdighet og konsekvenser",
+          "Bare pris",
+          "Bare hvor populært det er",
+          "Bare hvor raskt det går"
+        ],
+        "correct": 0,
+        "explain": "Bærekraft har flere dimensjoner."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilke organismer rammes særlig av havforsuring?",
+        "options": [
+          "Hvaler",
+          "Sjøfugl",
+          "Koraller og skjell",
+          "Tang"
+        ],
+        "correct": 2,
+        "explain": "Kalkskall blir vanskeligere å bygge."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign hvordan tørke og hetebølger kan påvirke mennesker med hvordan ekstremnedbør og flom kan påvirke samfunnet.",
+        "fasit": "Tørke og hetebølger kan føre til svikt i matproduksjonen og helseproblemer. Ekstremnedbør og flom kan skade hus, veier og jernbane.",
+        "kriterier": [
+          "Knytter tørke eller hetebølger til matproduksjon eller helse.",
+          "Knytter ekstremnedbør eller flom til skader på bygninger eller infrastruktur."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I Norge kan en lengre vekstsesong gi fordeler for landbruket, men også flere skadedyr. Forklar hvorfor dette gjør virkningen på landbruket sammensatt.",
+        "fasit": "En lengre vekstsesong kan være en fordel fordi den gir bedre vekstmuligheter. Samtidig kan flere skadedyr skade avlingene, så virkningen er ikke bare positiv.",
+        "kriterier": [
+          "Forklarer at lengre vekstsesong kan være en fordel for landbruket.",
+          "Forklarer at flere skadedyr kan være en ulempe."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Havnivået stiger når is smelter og havet blir varmere. En lavtliggende øystat trues av stigende havnivå, og noen innbyggere må flytte. Forklar hvorfor dette kan kalles klimamigrasjon.",
+        "fasit": "Klimamigrasjon betyr at folk må flytte på grunn av klimaendringer. Her blir innbyggerne tvunget til å flytte fordi havnivåstigningen truer området de bor i.",
+        "kriterier": [
+          "Forklarer at klimamigrasjon innebærer å flytte på grunn av klimaendringer.",
+          "Knytter flyttingen i situasjonen til trusselen fra havnivåstigning."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En by opplever mer kraftig regn, og regnvann renner på overflaten som overvann. Forklar hvordan et regnbed kan bidra til å håndtere dette problemet.",
+        "fasit": "Et regnbed er et beplantet område som tar opp regnvann. Det kan dermed bidra til å håndtere overvannet i byen.",
+        "kriterier": [
+          "Forklarer at et regnbed tar opp regnvann.",
+          "Knytter dette til håndtering av overvann."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Varmere hav kan føre til korallbleking. Forklar hva som skjer med korallene ved korallbleking, og hva som utløser det.",
+        "fasit": "Ved korallbleking mister korallene algene sine. Det skjer når vannet blir for varmt.",
+        "kriterier": [
+          "Nevner at korallene mister algene sine.",
+          "Knytter blekingen til for varmt vann."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Norges utslipp i 1990 settes til indeks 100. Målet er å kutte utslippene med minst 55 % innen 2030 sammenlignet med 1990. Hva er den høyeste utslippsindeksen som er forenlig med et kutt på 55 %? Vis det viktigste regnestykket.",
+        "fasit": "Indeksen blir 45. Regnestykket er 100 − 55 = 45.",
+        "kriterier": [
+          "Viser at 55 trekkes fra 100.",
+          "Oppgir 45 som høyeste indeks ved et kutt på 55 %."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Norges utslipp i 1990 settes til indeks 100. Målet er å kutte utslippene med 70–75 % innen 2035 sammenlignet med 1990. Hvilket intervall kan utslippsindeksen ligge i etter kuttene? Vis det viktigste regnestykket.",
+        "fasit": "Indeksen kan ligge mellom 25 og 30. Et kutt på 70 % gir 100 − 70 = 30, mens et kutt på 75 % gir 100 − 75 = 25.",
+        "kriterier": [
+          "Regner ut at 70 % kutt gir indeks 30 og 75 % kutt gir indeks 25.",
+          "Oppgir intervallet 25–30."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En person endrer reisevaner, matvalg og forbruk for å redusere utslipp. Forklar hvorfor politiske beslutninger og endringer i samfunnet også er viktige for å få til de største utslippskuttene.",
+        "fasit": "Enkeltpersoner kan påvirke utslipp gjennom blant annet reisevaner, matvalg og forbruk. Likevel krever de største kuttene politiske beslutninger og endringer i systemene.",
+        "kriterier": [
+          "Nevner at enkeltpersoner kan påvirke gjennom egne valg.",
+          "Forklarer at de største kuttene krever politiske beslutninger eller endringer i systemene."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

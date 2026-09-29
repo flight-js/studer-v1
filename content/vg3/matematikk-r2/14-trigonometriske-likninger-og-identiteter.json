@@ -4,77 +4,423 @@
   "trinnId": "vg3",
   "name": "Trigonometriske identiteter og likninger",
   "intro": "De viktigste trigonometriske identitetene – Pytagoras, symmetri, summeformler og dobbel vinkel – hvordan du beviser identiteter, løser grunnlikninger og andregradslikninger i sinus og cosinus, skriver a sin x + b cos x som én sinusfunksjon og bruker dette i praktiske problemer.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Grunnleggende identiteter\n\nEn **identitet** er en likhet som gjelder for **alle** x der uttrykkene er definert.\n\n- **sin²x + cos²x = 1** – følger av Pytagoras i enhetssirkelen\n- **tan x = sin x / cos x**\n- **Symmetri**: sin(−x) = −sin x, cos(−x) = cos x, sin(π − x) = sin x\n\n## Summeformler og dobbel vinkel\n\n- **sin(u + v) = sin u cos v + cos u sin v**\n- **cos(u + v) = cos u cos v − sin u sin v**\n\nMed u = v får vi formlene for **dobbel vinkel**:\n\n- **sin 2x = 2 sin x cos x**\n- **cos 2x = cos²x − sin²x = 1 − 2sin²x = 2cos²x − 1**\n\n## Bevise identiteter\n\nStart med den **ene** siden og omform den til den andre. **Eksempel**:\n\n(sin x + cos x)² = sin²x + 2 sin x cos x + cos²x = 1 + sin 2x\n\n## Grunnlikninger\n\n**sin x = a** har vanligvis **to** løsninger per periode, fordi sin(π − x) = sin x:\n\nsin x = ½ gir **x = π/6 + n · 2π** eller **x = 5π/6 + n · 2π**\n\n**cos x = a** har løsningene **x = ±arccos a + n · 2π**. For eksempel gir cos x = ½ at x = ±π/3 + n · 2π.\n\n**tan x = a** har løsningene **x = arctan a + n · π**. tan x = 1 gir x = π/4 + nπ.\n\nHer er n et **helt tall**. Til slutt velger du løsningene som ligger i det oppgitte **intervallet**.\n\n## Likninger med kjerne\n\nsin 2x = √3/2 for x i [0, π]: 2x = π/3 eller 2x = 2π/3 (pluss n · 2π). Det gir **x = π/6** og **x = π/3**. Husk å **dele perioden** også: Løsningene gjentar seg med periode π.\n\n## Andregradslikninger\n\nSett u = sin x og løs som en vanlig andregradslikning:\n\n2sin²x − sin x − 1 = 0 gir (2 sin x + 1)(sin x − 1) = 0\n\nsin x = 1 gir x = π/2, og sin x = −½ gir x = 7π/6 og x = 11π/6 i [0, 2π).\n\nIdentitetene brukes for å få **én** trigonometrisk funksjon. Likningen cos 2x + sin x = 0 blir med cos 2x = 1 − 2sin²x akkurat likningen over.\n\n## a sin x + b cos x\n\nEn sum av sinus og cosinus med samme periode kan skrives som **én** sinusfunksjon:\n\n**a sin x + b cos x = A sin(x + φ)**, der **A = √(a² + b²)**, cos φ = a/A og sin φ = b/A.\n\n**Eksempel**: sin x + √3 cos x har A = √(1 + 3) = 2, cos φ = ½ og sin φ = √3/2, så φ = π/3:\n\nsin x + √3 cos x = **2 sin(x + π/3)**\n\nDa ser vi straks at største verdi er **2**.\n\n## Praktisk bruk\n\nMed tidevannsmodellen h(t) = 1,5 sin(0,506t) + 2 kan vi finne når vannstanden er over 3 m: Løs 1,5 sin(0,506t) + 2 = 3, altså sin(0,506t) = 2/3, og tolk løsningene i tid.\n\n## Tips\n\n- Tegn **enhetssirkelen** for å se hvor mange løsninger det er.\n- **Kontroller** løsningene ved innsetting eller grafisk.\n- Ikke **del** på sin x eller cos x uten å sjekke om de kan være 0 – da mister du løsninger. **Faktoriser** i stedet.",
   "flashcards": [
-    { "term": "Identitet", "def": "Likhet som gjelder for alle x der den er definert." },
-    { "term": "Enhetsformelen", "def": "sin²x + cos²x = 1" },
-    { "term": "tan x", "def": "sin x / cos x" },
-    { "term": "sin(π − x)", "def": "sin x" },
-    { "term": "cos(−x)", "def": "cos x" },
-    { "term": "sin(u + v)", "def": "sin u cos v + cos u sin v" },
-    { "term": "cos(u + v)", "def": "cos u cos v − sin u sin v" },
-    { "term": "sin 2x", "def": "2 sin x cos x" },
-    { "term": "cos 2x", "def": "cos²x − sin²x = 1 − 2sin²x = 2cos²x − 1" },
-    { "term": "sin x = a", "def": "To løsninger per periode: v og π − v." },
-    { "term": "cos x = a", "def": "x = ±arccos a + n · 2π" },
-    { "term": "tan x = a", "def": "x = arctan a + n · π" },
-    { "term": "a sin x + b cos x", "def": "A sin(x + φ) med A = √(a² + b²)." },
-    { "term": "Andregradslikning i sinus", "def": "Sett u = sin x og løs for u." },
-    { "term": "Ikke del på sin x", "def": "Du kan miste løsninger – faktoriser i stedet." }
+    {
+      "term": "Identitet",
+      "def": "Likhet som gjelder for alle x der den er definert."
+    },
+    {
+      "term": "Enhetsformelen",
+      "def": "sin²x + cos²x = 1"
+    },
+    {
+      "term": "tan x",
+      "def": "sin x / cos x"
+    },
+    {
+      "term": "sin(π − x)",
+      "def": "sin x"
+    },
+    {
+      "term": "cos(−x)",
+      "def": "cos x"
+    },
+    {
+      "term": "sin(u + v)",
+      "def": "sin u cos v + cos u sin v"
+    },
+    {
+      "term": "cos(u + v)",
+      "def": "cos u cos v − sin u sin v"
+    },
+    {
+      "term": "sin 2x",
+      "def": "2 sin x cos x"
+    },
+    {
+      "term": "cos 2x",
+      "def": "cos²x − sin²x = 1 − 2sin²x = 2cos²x − 1"
+    },
+    {
+      "term": "sin x = a",
+      "def": "To løsninger per periode: v og π − v."
+    },
+    {
+      "term": "cos x = a",
+      "def": "x = ±arccos a + n · 2π"
+    },
+    {
+      "term": "tan x = a",
+      "def": "x = arctan a + n · π"
+    },
+    {
+      "term": "a sin x + b cos x",
+      "def": "A sin(x + φ) med A = √(a² + b²)."
+    },
+    {
+      "term": "Andregradslikning i sinus",
+      "def": "Sett u = sin x og løs for u."
+    },
+    {
+      "term": "Ikke del på sin x",
+      "def": "Du kan miste løsninger – faktoriser i stedet."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er sin²x + cos²x?", "options": ["0", "1", "sin 2x", "tan x"], "correct": 1, "explain": "Pytagoras i enhetssirkelen." },
-    { "id": "q02", "text": "Hva er løsningene av sin x = ½ i [0, 2π)?", "options": ["π/6 og 5π/6", "π/3 og 2π/3", "π/6 og 7π/6", "π/6"], "correct": 0, "explain": "sin(π − x) = sin x." },
-    { "id": "q03", "text": "Hva er sin 2x?", "options": ["2 sin x", "sin²x", "2 sin x cos x", "cos²x − sin²x"], "correct": 2, "explain": "Formelen for dobbel vinkel." },
-    { "id": "q04", "text": "Hva er den generelle løsningen av tan x = 1?", "options": ["x = π/4 + n · 2π", "x = ±π/4 + n · 2π", "x = π/2 + nπ", "x = π/4 + nπ"], "correct": 3, "explain": "tan har periode π." },
-    { "id": "q05", "text": "Hvilken av disse er lik cos 2x?", "options": ["1 − 2sin²x", "2 sin x cos x", "1 + 2sin²x", "cos²x + sin²x"], "correct": 0, "explain": "cos²x − sin²x med cos²x = 1 − sin²x." },
-    { "id": "q06", "text": "Hva er største verdi til sin x + √3 cos x?", "options": ["1 + √3", "2", "√3", "4"], "correct": 1, "explain": "Det er 2 sin(x + π/3)." },
-    { "id": "q07", "text": "Hva er den generelle løsningen av cos x = ½?", "options": ["x = π/6 + n · 2π", "x = π/3 + nπ", "x = ±π/3 + n · 2π", "x = π/3"], "correct": 2, "explain": "cos(−x) = cos x." },
-    { "id": "q08", "text": "Hva er (sin x + cos x)²?", "options": ["1", "sin²x + cos²x", "1 + cos 2x", "1 + sin 2x"], "correct": 3, "explain": "Kvadratsetning og enhetsformelen." },
-    { "id": "q09", "text": "Hvilke verdier av sin x løser 2sin²x − sin x − 1 = 0?", "options": ["sin x = 1 eller sin x = −½", "sin x = 2", "sin x = ½ eller −1", "sin x = 0"], "correct": 0, "explain": "(2 sin x + 1)(sin x − 1) = 0." },
-    { "id": "q10", "text": "Hva er cos(−x)?", "options": ["−cos x", "cos x", "sin x", "−sin x"], "correct": 1, "explain": "Cosinus er symmetrisk om y-aksen." }
+    {
+      "id": "q01",
+      "text": "Hva er sin²x + cos²x?",
+      "options": [
+        "0",
+        "1",
+        "sin 2x",
+        "tan x"
+      ],
+      "correct": 1,
+      "explain": "Pytagoras i enhetssirkelen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er løsningene av sin x = ½ i [0, 2π)?",
+      "options": [
+        "π/6 og 5π/6",
+        "π/3 og 2π/3",
+        "π/6 og 7π/6",
+        "π/6"
+      ],
+      "correct": 0,
+      "explain": "sin(π − x) = sin x."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er sin 2x?",
+      "options": [
+        "2 sin x",
+        "sin²x",
+        "2 sin x cos x",
+        "cos²x − sin²x"
+      ],
+      "correct": 2,
+      "explain": "Formelen for dobbel vinkel."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er den generelle løsningen av tan x = 1?",
+      "options": [
+        "x = π/4 + n · 2π",
+        "x = ±π/4 + n · 2π",
+        "x = π/2 + nπ",
+        "x = π/4 + nπ"
+      ],
+      "correct": 3,
+      "explain": "tan har periode π."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken av disse er lik cos 2x?",
+      "options": [
+        "1 − 2sin²x",
+        "2 sin x cos x",
+        "1 + 2sin²x",
+        "cos²x + sin²x"
+      ],
+      "correct": 0,
+      "explain": "cos²x − sin²x med cos²x = 1 − sin²x."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er største verdi til sin x + √3 cos x?",
+      "options": [
+        "1 + √3",
+        "2",
+        "√3",
+        "4"
+      ],
+      "correct": 1,
+      "explain": "Det er 2 sin(x + π/3)."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er den generelle løsningen av cos x = ½?",
+      "options": [
+        "x = π/6 + n · 2π",
+        "x = π/3 + nπ",
+        "x = ±π/3 + n · 2π",
+        "x = π/3"
+      ],
+      "correct": 2,
+      "explain": "cos(−x) = cos x."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er (sin x + cos x)²?",
+      "options": [
+        "1",
+        "sin²x + cos²x",
+        "1 + cos 2x",
+        "1 + sin 2x"
+      ],
+      "correct": 3,
+      "explain": "Kvadratsetning og enhetsformelen."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilke verdier av sin x løser 2sin²x − sin x − 1 = 0?",
+      "options": [
+        "sin x = 1 eller sin x = −½",
+        "sin x = 2",
+        "sin x = ½ eller −1",
+        "sin x = 0"
+      ],
+      "correct": 0,
+      "explain": "(2 sin x + 1)(sin x − 1) = 0."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er cos(−x)?",
+      "options": [
+        "−cos x",
+        "cos x",
+        "sin x",
+        "−sin x"
+      ],
+      "correct": 1,
+      "explain": "Cosinus er symmetrisk om y-aksen."
+    }
   ],
   "mindmap": {
     "label": "Identiteter og likninger",
     "children": [
-      { "label": "Identiteter", "children": [
-        { "label": "sin² + cos² = 1" },
-        { "label": "Symmetri" },
-        { "label": "Summeformler" },
-        { "label": "Dobbel vinkel" }
-      ] },
-      { "label": "Grunnlikninger", "children": [
-        { "label": "sin x = a" },
-        { "label": "cos x = a" },
-        { "label": "tan x = a" }
-      ] },
-      { "label": "Mer avanserte", "children": [
-        { "label": "Kjerne som 2x" },
-        { "label": "Andregrad" }
-      ] },
-      { "label": "Omforming", "children": [
-        { "label": "a sin x + b cos x = A sin(x + φ)" }
-      ] },
-      { "label": "Tips", "children": [
-        { "label": "Enhetssirkelen" },
-        { "label": "Faktoriser, ikke del" },
-        { "label": "Kontroller løsninger" }
-      ] }
+      {
+        "label": "Identiteter",
+        "children": [
+          {
+            "label": "sin² + cos² = 1"
+          },
+          {
+            "label": "Symmetri"
+          },
+          {
+            "label": "Summeformler"
+          },
+          {
+            "label": "Dobbel vinkel"
+          }
+        ]
+      },
+      {
+        "label": "Grunnlikninger",
+        "children": [
+          {
+            "label": "sin x = a"
+          },
+          {
+            "label": "cos x = a"
+          },
+          {
+            "label": "tan x = a"
+          }
+        ]
+      },
+      {
+        "label": "Mer avanserte",
+        "children": [
+          {
+            "label": "Kjerne som 2x"
+          },
+          {
+            "label": "Andregrad"
+          }
+        ]
+      },
+      {
+        "label": "Omforming",
+        "children": [
+          {
+            "label": "a sin x + b cos x = A sin(x + φ)"
+          }
+        ]
+      },
+      {
+        "label": "Tips",
+        "children": [
+          {
+            "label": "Enhetssirkelen"
+          },
+          {
+            "label": "Faktoriser, ikke del"
+          },
+          {
+            "label": "Kontroller løsninger"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "sin(π − x) = sin x.", "correct": true, "explain": "Derfor har sin x = a to løsninger per periode." },
-      { "id": "m02", "type": "sant-usant", "text": "sin(u + v) = sin u + sin v.", "correct": false, "explain": "sin(u + v) = sin u cos v + cos u sin v." },
-      { "id": "m03", "type": "sant-usant", "text": "Løsningene av tan x = a gjentar seg med perioden π.", "correct": true, "explain": "Perioden til tangens." },
-      { "id": "m04", "type": "sant-usant", "text": "Likningen sin x = 2 har to løsninger per periode.", "correct": false, "explain": "Den har ingen løsning – sin x ≤ 1." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er cos(u + v)?", "options": ["cos u cos v + sin u sin v", "cos u cos v − sin u sin v", "cos u + cos v", "sin u cos v − cos u sin v"], "correct": 1, "explain": "Summeformelen for cosinus." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor mange løsninger har sin x = 0,3 i [0, 2π)?", "options": ["2", "1", "0", "4"], "correct": 0, "explain": "En i første og en i andre kvadrant." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er løsningene av sin 2x = √3/2 i [0, π]?", "options": ["π/3 og 2π/3", "π/6", "π/6 og π/3", "π/3"], "correct": 2, "explain": "2x = π/3 eller 2π/3." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "sin(π − x) = sin x.",
+        "correct": true,
+        "explain": "Derfor har sin x = a to løsninger per periode."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "sin(u + v) = sin u + sin v.",
+        "correct": false,
+        "explain": "sin(u + v) = sin u cos v + cos u sin v."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Løsningene av tan x = a gjentar seg med perioden π.",
+        "correct": true,
+        "explain": "Perioden til tangens."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Likningen sin x = 2 har to løsninger per periode.",
+        "correct": false,
+        "explain": "Den har ingen løsning – sin x ≤ 1."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er cos(u + v)?",
+        "options": [
+          "cos u cos v + sin u sin v",
+          "cos u cos v − sin u sin v",
+          "cos u + cos v",
+          "sin u cos v − cos u sin v"
+        ],
+        "correct": 1,
+        "explain": "Summeformelen for cosinus."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor mange løsninger har sin x = 0,3 i [0, 2π)?",
+        "options": [
+          "2",
+          "1",
+          "0",
+          "4"
+        ],
+        "correct": 0,
+        "explain": "En i første og en i andre kvadrant."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er løsningene av sin 2x = √3/2 i [0, π]?",
+        "options": [
+          "π/3 og 2π/3",
+          "π/6",
+          "π/6 og π/3",
+          "π/3"
+        ],
+        "correct": 2,
+        "explain": "2x = π/3 eller 2π/3."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva en trigonometrisk identitet er. Hvordan skiller en identitet seg fra en likning som bare gjelder for bestemte x-verdier?",
+        "fasit": "En identitet er en likhet som gjelder for alle x der uttrykkene er definert. En likning kan bare være sann for enkelte x-verdier.",
+        "kriterier": [
+          "Forklarer at en identitet gjelder for alle x der uttrykkene er definert.",
+          "Skiller mellom en identitet og en likning som bare har bestemte løsninger."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hvorfor har likningen sin x = a vanligvis to løsninger per periode? Beskriv sammenhengen mellom de to vinklene.",
+        "fasit": "Sinusverdien er den samme for vinklene v og π − v, siden sin(π − v) = sin v. Derfor får likningen vanligvis to løsninger per periode.",
+        "kriterier": [
+          "Knytter de to løsningene til symmetrien sin(π − v) = sin v.",
+          "Forklarer at dette gir to løsninger per periode."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign de generelle løsningene av cos x = a og tan x = a. Oppgi hvordan løsningene gjentas for hver av likningene.",
+        "fasit": "For cos x = a er løsningene x = ±arccos a + n · 2π, mens for tan x = a er løsningene x = arctan a + n · π. Her er n et helt tall, og tangentløsningene gjentas med halvparten så lang periode som cosinusløsningene.",
+        "kriterier": [
+          "Oppgir at cosinusløsningene gjentas med periode 2π.",
+          "Oppgir at tangentløsningene gjentas med periode π og skiller dette fra cosinus."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Når du løser en trigonometrisk likning, hvorfor kan det føre til at du mister løsninger hvis du deler begge sider på sin x? Hva bør du heller gjøre?",
+        "fasit": "sin x kan være 0, og da kan deling på sin x fjerne løsninger. Faktoriser heller likningen, slik at også tilfellene der sin x = 0 kan undersøkes.",
+        "kriterier": [
+          "Forklarer at sin x kan være 0, slik at deling kan utelate løsninger.",
+          "Nevner faktorisering som en framgangsmåte som bevarer mulige løsninger."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Løs sin 2x = √3/2 for x i intervallet [0, π]. Vis hvordan du tar hensyn til perioden når du går fra 2x til x.",
+        "fasit": "Siden 2x ligger i [0, 2π], får vi 2x = π/3 eller 2x = 2π/3. Når vi deler på 2, blir løsningene x = π/6 og x = π/3.",
+        "kriterier": [
+          "Finner begge verdiene 2x = π/3 og 2x = 2π/3 i det aktuelle intervallet.",
+          "Deler vinklene på 2 og oppgir x = π/6 og x = π/3."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Løs cos 2x + sin x = 0 for x i [0, 2π). Bruk cos 2x = 1 − 2sin²x, og oppgi alle løsningene for x.",
+        "fasit": "Innsetting gir 1 − 2sin²x + sin x = 0, altså (2sin x + 1)(sin x − 1) = 0. Dermed er sin x = 1 eller sin x = −1/2, som gir x = π/2, 7π/6 og 11π/6 i intervallet.",
+        "kriterier": [
+          "Bruker dobbelvinkelformelen og får likningen 2sin²x − sin x − 1 = 0, eller en ekvivalent likning.",
+          "Finner begge aktuelle sinusverdiene, sin x = 1 og sin x = −1/2.",
+          "Oppgir alle tre løsningene i intervallet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Vannstanden beskrives av h(t) = 1,5 sin(0,506t) + 2. Skriv likningen som må løses for å finne tidspunktene da vannstanden er 3 m, og forklar hva løsningene betyr.",
+        "fasit": "Vi setter 1,5 sin(0,506t) + 2 = 3, som kan skrives sin(0,506t) = 2/3. Løsningene for t er tidspunktene da vannstanden er 3 m.",
+        "kriterier": [
+          "Setter modelluttrykket lik 3.",
+          "Viser at likningen kan omformes til sin(0,506t) = 2/3.",
+          "Tolk­er løsningene som tidspunkter da vannstanden er 3 m."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En sum a sin x + b cos x kan skrives som A sin(x + φ), der A = √(a² + b²). Forklar hva A forteller om funksjonen.",
+        "fasit": "A er amplituden til sinusfunksjonen, siden sin(x + φ) varierer mellom −1 og 1. Derfor er største verdi av a sin x + b cos x lik A.",
+        "kriterier": [
+          "Knytter A til amplituden i omskrivingen A sin(x + φ).",
+          "Forklarer at største verdi er A fordi sinusfunksjonen har største verdi 1."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

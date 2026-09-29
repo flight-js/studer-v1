@@ -4,77 +4,422 @@
   "trinnId": "vg2",
   "name": "Migrasjon, identitet og mangfold",
   "intro": "Innvandring og mangfold i Tyskland – fra gjestearbeidere til flyktninger – identitet og flerspråklighet, og hvordan du forstår og gjengir andres utsagn med indirekte tale og konjunktiv I.",
-  "kompetansemaal": [8, 4],
+  "kompetansemaal": [
+    8,
+    4
+  ],
   "sammendrag": "## Tyskland som innvandringsland\n\nEtter andre verdenskrig trengte **Vest-Tyskland** arbeidskraft. Fra **1955** ble det inngått avtaler om **gjestearbeidere** (*Gastarbeiter*) – først med Italia, senere med blant annet **Tyrkia** (1961), Hellas og Jugoslavia. Mange ble værende, og i dag har millioner av mennesker i Tyskland **tyrkiske røtter**. **DDR** hadde kontraktarbeidere fra blant annet **Vietnam**.\n\nI **2015** kom svært mange **flyktninger**, særlig fra **Syria**. Forbundskansler **Angela Merkel** sa *«Wir schaffen das»* («Vi klarer det»). Uttrykket **Willkommenskultur** ble brukt om mottakelsen – men det kom også mye **motstand**. I **2022** kom mange flyktninger fra **Ukraina**.\n\nI dag har rundt **hver fjerde** person i Tyskland **innvandrerbakgrunn** (*Einwanderungsgeschichte*) – de har selv innvandret, eller begge foreldrene har det. Regner man med alle som har minst én innvandret forelder (*Migrationshintergrund*), er andelen nesten hver tredje.\n\n## Identitet og tilhørighet\n\n- *die Heimat* – hjemstedet, et ord med sterke følelser\n- *die Identität* – identiteten\n- *zweisprachig* – tospråklig\n- *sich zu Hause fühlen* – føle seg hjemme\n- *die Integration* – integreringen\n- *die Vielfalt* – mangfoldet\n\nMange **andre generasjons** innvandrere beskriver at de føler seg **både** tyske og for eksempel tyrkiske – eller at de ikke føler seg helt hjemme noen av stedene. Regissøren **Fatih Akin**, med tyrkiske foreldre, har laget prisbelønte filmer om nettopp dette.\n\n## Indirekte tale\n\nNår vi gjengir hva andre har **sagt**, bruker vi **indirekte tale**. I muntlig tysk bruker man ofte **dass** + vanlig verbform: *Er sagt, dass er müde ist.*\n\nI **nyheter** og **formelle tekster** brukes **konjunktiv I**, som viser at det er **andres** ord:\n\n| Infinitiv | er/sie/es (konjunktiv I) |\n| --- | --- |\n| sein | **sei** |\n| haben | **habe** |\n| können | **könne** |\n| kommen | **komme** |\n| müssen | **müsse** |\n\n- *Die Ministerin sagte, die Lage **sei** schwierig.* – Ministeren sa at situasjonen var vanskelig.\n- *Er erklärt, er **habe** keine Zeit.* – Han forklarer at han ikke har tid.\n\nKonjunktiv I er vanligst i **3. person entall**. Du trenger særlig å **kjenne den igjen** når du leser tyske nyheter.\n\n## Å diskutere\n\n- *Einerseits bringt Migration neue Ideen und Arbeitskräfte, andererseits gibt es Herausforderungen.*\n- *Es ist wichtig, dass alle die gleichen Chancen haben.*\n- *In Norwegen ist die Situation ähnlich / anders, weil …*",
   "flashcards": [
-    { "term": "der Gastarbeiter", "def": "gjestearbeideren" },
-    { "term": "der Flüchtling", "def": "flyktningen" },
-    { "term": "Wir schaffen das.", "def": "Vi klarer det. (Merkel, 2015)" },
-    { "term": "die Willkommenskultur", "def": "velkomstkulturen" },
-    { "term": "der Migrationshintergrund", "def": "innvandrerbakgrunnen" },
-    { "term": "die Heimat", "def": "hjemstedet" },
-    { "term": "zweisprachig", "def": "tospråklig" },
-    { "term": "die Integration", "def": "integreringen" },
-    { "term": "die Vielfalt", "def": "mangfoldet" },
-    { "term": "sich zu Hause fühlen", "def": "føle seg hjemme" },
-    { "term": "Er sagt, dass er müde ist.", "def": "Han sier at han er trøtt. (muntlig indirekte tale)" },
-    { "term": "er sei", "def": "han er (konjunktiv I av sein)" },
-    { "term": "er habe", "def": "han har (konjunktiv I av haben)" },
-    { "term": "Die Lage sei schwierig.", "def": "Situasjonen er (sies å være) vanskelig." },
-    { "term": "die Herausforderung", "def": "utfordringen" }
+    {
+      "term": "der Gastarbeiter",
+      "def": "gjestearbeideren"
+    },
+    {
+      "term": "der Flüchtling",
+      "def": "flyktningen"
+    },
+    {
+      "term": "Wir schaffen das.",
+      "def": "Vi klarer det. (Merkel, 2015)"
+    },
+    {
+      "term": "die Willkommenskultur",
+      "def": "velkomstkulturen"
+    },
+    {
+      "term": "der Migrationshintergrund",
+      "def": "innvandrerbakgrunnen"
+    },
+    {
+      "term": "die Heimat",
+      "def": "hjemstedet"
+    },
+    {
+      "term": "zweisprachig",
+      "def": "tospråklig"
+    },
+    {
+      "term": "die Integration",
+      "def": "integreringen"
+    },
+    {
+      "term": "die Vielfalt",
+      "def": "mangfoldet"
+    },
+    {
+      "term": "sich zu Hause fühlen",
+      "def": "føle seg hjemme"
+    },
+    {
+      "term": "Er sagt, dass er müde ist.",
+      "def": "Han sier at han er trøtt. (muntlig indirekte tale)"
+    },
+    {
+      "term": "er sei",
+      "def": "han er (konjunktiv I av sein)"
+    },
+    {
+      "term": "er habe",
+      "def": "han har (konjunktiv I av haben)"
+    },
+    {
+      "term": "Die Lage sei schwierig.",
+      "def": "Situasjonen er (sies å være) vanskelig."
+    },
+    {
+      "term": "die Herausforderung",
+      "def": "utfordringen"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva var gjestearbeidere (Gastarbeiter)?", "options": ["Turister", "Arbeidsinnvandrere som kom til Vest-Tyskland etter krigen", "Studenter", "Soldater"], "correct": 1, "explain": "Mange kom fra Tyrkia, Italia og Hellas." },
-    { "id": "q02", "text": "Hvem sa «Wir schaffen das» i 2015?", "options": ["Angela Merkel", "Fatih Akin", "Helmut Kohl", "Greta Thunberg"], "correct": 0, "explain": "Det handlet om mottakelsen av flyktninger." },
-    { "id": "q03", "text": "Hva er konjunktiv I av «sein» i er-form?", "options": ["ist", "wäre", "sei", "war"], "correct": 2, "explain": "Er sagt, er sei krank." },
-    { "id": "q04", "text": "Hvor brukes konjunktiv I mest?", "options": ["I sms-er til venner", "I barnebøker", "I sanger", "I nyheter og formelle tekster"], "correct": 3, "explain": "Den viser at det er andres ord." },
-    { "id": "q05", "text": "Hva betyr «zweisprachig»?", "options": ["tospråklig", "tosidig", "to ganger", "annenhver"], "correct": 0, "explain": "zwei = to, Sprache = språk." },
-    { "id": "q06", "text": "Hva betyr «Die Ministerin sagte, die Lage sei schwierig»?", "options": ["Ministeren er i en vanskelig situasjon.", "Ministeren sa at situasjonen var vanskelig.", "Situasjonen gjorde ministeren sint.", "Ministeren løste situasjonen."], "correct": 1, "explain": "Indirekte tale med konjunktiv I." },
-    { "id": "q07", "text": "Omtrent hvor stor andel av befolkningen i Tyskland har innvandrerbakgrunn?", "options": ["Hver hundrede", "Hver tiende", "Hver fjerde", "Halvparten"], "correct": 2, "explain": "Einwanderungsgeschichte – rundt 26 prosent i 2025." },
-    { "id": "q08", "text": "Hva betyr «die Heimat»?", "options": ["huset", "hjemmelekser", "himmelen", "hjemstedet"], "correct": 3, "explain": "Et ord med sterke følelser." },
-    { "id": "q09", "text": "Hva er konjunktiv I av «haben» i er-form?", "options": ["habe", "hat", "hätte", "hatte"], "correct": 0, "explain": "Er erklärt, er habe keine Zeit." },
-    { "id": "q10", "text": "Hvilket land kom mange flyktninger til Tyskland fra i 2022?", "options": ["Tyrkia", "Ukraina", "Italia", "Vietnam"], "correct": 1, "explain": "Etter Russlands angrep på Ukraina." }
+    {
+      "id": "q01",
+      "text": "Hva var gjestearbeidere (Gastarbeiter)?",
+      "options": [
+        "Turister",
+        "Arbeidsinnvandrere som kom til Vest-Tyskland etter krigen",
+        "Studenter",
+        "Soldater"
+      ],
+      "correct": 1,
+      "explain": "Mange kom fra Tyrkia, Italia og Hellas."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem sa «Wir schaffen das» i 2015?",
+      "options": [
+        "Angela Merkel",
+        "Fatih Akin",
+        "Helmut Kohl",
+        "Greta Thunberg"
+      ],
+      "correct": 0,
+      "explain": "Det handlet om mottakelsen av flyktninger."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er konjunktiv I av «sein» i er-form?",
+      "options": [
+        "ist",
+        "wäre",
+        "sei",
+        "war"
+      ],
+      "correct": 2,
+      "explain": "Er sagt, er sei krank."
+    },
+    {
+      "id": "q04",
+      "text": "Hvor brukes konjunktiv I mest?",
+      "options": [
+        "I sms-er til venner",
+        "I barnebøker",
+        "I sanger",
+        "I nyheter og formelle tekster"
+      ],
+      "correct": 3,
+      "explain": "Den viser at det er andres ord."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr «zweisprachig»?",
+      "options": [
+        "tospråklig",
+        "tosidig",
+        "to ganger",
+        "annenhver"
+      ],
+      "correct": 0,
+      "explain": "zwei = to, Sprache = språk."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr «Die Ministerin sagte, die Lage sei schwierig»?",
+      "options": [
+        "Ministeren er i en vanskelig situasjon.",
+        "Ministeren sa at situasjonen var vanskelig.",
+        "Situasjonen gjorde ministeren sint.",
+        "Ministeren løste situasjonen."
+      ],
+      "correct": 1,
+      "explain": "Indirekte tale med konjunktiv I."
+    },
+    {
+      "id": "q07",
+      "text": "Omtrent hvor stor andel av befolkningen i Tyskland har innvandrerbakgrunn?",
+      "options": [
+        "Hver hundrede",
+        "Hver tiende",
+        "Hver fjerde",
+        "Halvparten"
+      ],
+      "correct": 2,
+      "explain": "Einwanderungsgeschichte – rundt 26 prosent i 2025."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr «die Heimat»?",
+      "options": [
+        "huset",
+        "hjemmelekser",
+        "himmelen",
+        "hjemstedet"
+      ],
+      "correct": 3,
+      "explain": "Et ord med sterke følelser."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er konjunktiv I av «haben» i er-form?",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "hatte"
+      ],
+      "correct": 0,
+      "explain": "Er erklärt, er habe keine Zeit."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket land kom mange flyktninger til Tyskland fra i 2022?",
+      "options": [
+        "Tyrkia",
+        "Ukraina",
+        "Italia",
+        "Vietnam"
+      ],
+      "correct": 1,
+      "explain": "Etter Russlands angrep på Ukraina."
+    }
   ],
   "mindmap": {
     "label": "Migrasjon og mangfold",
     "children": [
-      { "label": "Historie", "children": [
-        { "label": "Gastarbeiter" },
-        { "label": "Tyrkia 1961" },
-        { "label": "Flyktninger 2015" }
-      ] },
-      { "label": "I dag", "children": [
-        { "label": "Migrationshintergrund" },
-        { "label": "Ukraina 2022" }
-      ] },
-      { "label": "Identitet", "children": [
-        { "label": "Heimat" },
-        { "label": "zweisprachig" },
-        { "label": "Fatih Akin" }
-      ] },
-      { "label": "Indirekte tale", "children": [
-        { "label": "dass + indikativ" },
-        { "label": "Konjunktiv I" },
-        { "label": "sei, habe" }
-      ] },
-      { "label": "Diskusjon", "children": [
-        { "label": "einerseits … andererseits" },
-        { "label": "Sammenligne med Norge" }
-      ] }
+      {
+        "label": "Historie",
+        "children": [
+          {
+            "label": "Gastarbeiter"
+          },
+          {
+            "label": "Tyrkia 1961"
+          },
+          {
+            "label": "Flyktninger 2015"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Migrationshintergrund"
+          },
+          {
+            "label": "Ukraina 2022"
+          }
+        ]
+      },
+      {
+        "label": "Identitet",
+        "children": [
+          {
+            "label": "Heimat"
+          },
+          {
+            "label": "zweisprachig"
+          },
+          {
+            "label": "Fatih Akin"
+          }
+        ]
+      },
+      {
+        "label": "Indirekte tale",
+        "children": [
+          {
+            "label": "dass + indikativ"
+          },
+          {
+            "label": "Konjunktiv I"
+          },
+          {
+            "label": "sei, habe"
+          }
+        ]
+      },
+      {
+        "label": "Diskusjon",
+        "children": [
+          {
+            "label": "einerseits … andererseits"
+          },
+          {
+            "label": "Sammenligne med Norge"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Millioner av mennesker i Tyskland har tyrkiske røtter.", "correct": true, "explain": "Mange kom som gjestearbeidere fra 1961." },
-      { "id": "m02", "type": "sant-usant", "text": "Konjunktiv I brukes mest i 1. person flertall.", "correct": false, "explain": "Den brukes mest i 3. person entall." },
-      { "id": "m03", "type": "sant-usant", "text": "«die Vielfalt» betyr mangfoldet.", "correct": true, "explain": "kulturelle Vielfalt = kulturelt mangfold." },
-      { "id": "m04", "type": "sant-usant", "text": "DDR hadde ingen arbeidsinnvandring.", "correct": false, "explain": "DDR hadde kontraktarbeidere fra blant annet Vietnam." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er konjunktiv I av «können» i er-form?", "options": ["kann", "könne", "könnte", "konnte"], "correct": 1, "explain": "Er sagt, er könne nicht kommen." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr «sich zu Hause fühlen»?", "options": ["føle seg hjemme", "være hjemme", "reise hjem", "savne hjemmet"], "correct": 0, "explain": "Ich fühle mich hier zu Hause." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan gjengir du muntlig «Hun sier at hun har tid»?", "options": ["Sie sagt, sie hätte Zeit hat.", "Sie sagt, dass sie hat Zeit.", "Sie sagt, dass sie Zeit hat.", "Sie sagt Zeit hat sie."], "correct": 2, "explain": "dass-setning med verbet sist." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Millioner av mennesker i Tyskland har tyrkiske røtter.",
+        "correct": true,
+        "explain": "Mange kom som gjestearbeidere fra 1961."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Konjunktiv I brukes mest i 1. person flertall.",
+        "correct": false,
+        "explain": "Den brukes mest i 3. person entall."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "«die Vielfalt» betyr mangfoldet.",
+        "correct": true,
+        "explain": "kulturelle Vielfalt = kulturelt mangfold."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "DDR hadde ingen arbeidsinnvandring.",
+        "correct": false,
+        "explain": "DDR hadde kontraktarbeidere fra blant annet Vietnam."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er konjunktiv I av «können» i er-form?",
+        "options": [
+          "kann",
+          "könne",
+          "könnte",
+          "konnte"
+        ],
+        "correct": 1,
+        "explain": "Er sagt, er könne nicht kommen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr «sich zu Hause fühlen»?",
+        "options": [
+          "føle seg hjemme",
+          "være hjemme",
+          "reise hjem",
+          "savne hjemmet"
+        ],
+        "correct": 0,
+        "explain": "Ich fühle mich hier zu Hause."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan gjengir du muntlig «Hun sier at hun har tid»?",
+        "options": [
+          "Sie sagt, sie hätte Zeit hat.",
+          "Sie sagt, dass sie hat Zeit.",
+          "Sie sagt, dass sie Zeit hat.",
+          "Sie sagt Zeit hat sie."
+        ],
+        "correct": 2,
+        "explain": "dass-setning med verbet sist."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan arbeidskraftbehovet i Vest-Tyskland etter andre verdenskrig henger sammen med at mange mennesker i Tyskland i dag har tyrkiske røtter.",
+        "fasit": "Vest-Tyskland trengte arbeidskraft og inngikk fra 1955 avtaler om gjestearbeidere, blant annet med Tyrkia. Mange av gjestearbeiderne ble værende, og derfor har mange i Tyskland tyrkiske røtter.",
+        "kriterier": [
+          "Knytter arbeidskraftbehovet til avtalene om gjestearbeidere.",
+          "Forklarer at mange ble værende, og kobler dette til tyrkiske røtter i Tyskland."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign arbeidsinnvandringen til Vest-Tyskland og DDR etter andre verdenskrig. Ta med hvilken type arbeidere som kom, og minst ett opprinnelsesland for hver del av Tyskland.",
+        "fasit": "Vest-Tyskland inngikk avtaler om gjestearbeidere, først med Italia og senere blant annet med Tyrkia. DDR hadde kontraktarbeidere, blant annet fra Vietnam.",
+        "kriterier": [
+          "Skiller mellom gjestearbeidere i Vest-Tyskland og kontraktarbeidere i DDR.",
+          "Nevner et riktig opprinnelsesland for hver del av Tyskland."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen mellom «Einwanderungsgeschichte» og «Migrationshintergrund» slik begrepene brukes om mennesker i Tyskland.",
+        "fasit": "«Einwanderungsgeschichte» gjelder personer som selv har innvandret, eller som har to foreldre som har innvandret. «Migrationshintergrund» omfatter også personer som har minst én innvandret forelder.",
+        "kriterier": [
+          "Forklarer hvem som regnes med i «Einwanderungsgeschichte».",
+          "Forklarer at «Migrationshintergrund» også omfatter personer med én innvandret forelder."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En ungdom har tyrkiske foreldre, men er selv vokst opp i Tyskland. Bruk kunnskapen om identitet og tilhørighet til å forklare hvorfor ungdommen kan føle seg både tysk og tyrkisk, eller ikke helt hjemme noen av stedene.",
+        "fasit": "Ungdommen kan ha tilknytning til både Tyskland og foreldrenes tyrkiske bakgrunn. Derfor kan identiteten romme begge deler, eller ungdommen kan oppleve at ingen av stedene føles helt som hjemme.",
+        "kriterier": [
+          "Knytter ungdommens identitet til både livet i Tyskland og den tyrkiske familiebakgrunnen.",
+          "Forklarer hvordan dette kan føre til en følelse av tilhørighet til begge steder eller til at ingen føles helt som hjemme."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Formuliere die Aussage in indirekter Rede mit Konjunktiv I: Die Frau sagt: „Ich kann Deutsch sprechen.“",
+        "fasit": "Die Frau sagt, sie könne Deutsch sprechen.",
+        "kriterier": [
+          "Bruker indirekte tale med «sie» i stedet for «ich».",
+          "Bruker konjunktiv I-formen «könne»."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Im Jahr 2015 kamen viele Flüchtlinge, besonders aus Syrien, nach Deutschland. Erkläre, was «Willkommenskultur» in diesem Zusammenhang bedeutet, und nenne einen Gegensatz dazu.",
+        "fasit": "«Willkommenskultur» beschreibt die Aufnahme der Flüchtlinge mit einer Haltung des Willkommens. Gleichzeitig gab es auch viel Widerstand gegen die Aufnahme.",
+        "kriterier": [
+          "Erklärt «Willkommenskultur» als positive Aufnahme oder Begrüßung der Flüchtlinge.",
+          "Nennt den Widerstand als Gegensatz."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Migration kann neue Ideen und Arbeitskräfte bringen, aber auch Herausforderungen mit sich bringen. Erkläre beide Seiten dieses Gegensatzes, ohne konkrete Herausforderungen zu erfinden.",
+        "fasit": "Migration kann neue Ideen und Arbeitskräfte in ein Land bringen. Zugleich kann sie Herausforderungen mit sich bringen.",
+        "kriterier": [
+          "Nennt neue Ideen als mögliche positive Folge.",
+          "Nennt Arbeitskräfte als positive Folge und erwähnt auch mögliche Herausforderungen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "In formellen deutschen Texten kann stehen: «Er erklärt, er habe keine Zeit.» Erkläre, wessen Aussage «er habe keine Zeit» wiedergibt, und warum hier Konjunktiv I verwendet wird.",
+        "fasit": "Der Satz gibt die Aussage des Mannes wieder, dass er keine Zeit hat. Der Konjunktiv I zeigt an, dass dies seine wiedergegebenen Worte sind und nicht einfach als Aussage des Verfassers erscheint.",
+        "kriterier": [
+          "Erkennt, dass der Satz die Aussage des Mannes wiedergibt.",
+          "Erklärt, dass Konjunktiv I die wiedergegebenen Worte als die eines anderen kennzeichnet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

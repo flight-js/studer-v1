@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Psykologi og bærekraftige valg",
   "intro": "Hvorfor vi tar – og unnlater å ta – bærekraftige valg: gapet mellom holdning og handling, kognitiv dissonans, psykologisk distanse, sosiale normer, vaner og dulting, og hvordan psykologisk kunnskap kan brukes til å fremme endring.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Gapet mellom holdning og handling\n\nMange mennesker er **bekymret** for klima og miljø, men endrer likevel lite i hverdagen. Dette kalles **gapet mellom holdning og handling**. Psykologien kan forklare hvorfor, og hva som kan få oss til å velge mer **bærekraftig**.\n\n## Individuelle faktorer\n\n- **Kunnskap**: Vi må vite **hva** som hjelper. Mange overvurderer effekten av små tiltak og undervurderer store, som **reiser** og **matvaner**.\n- **Verdier** og **holdninger**: Folk som er opptatt av **fellesskap** og **natur**, handler oftere miljøvennlig.\n- **Vaner**: Mye av det vi gjør, er **automatisk**. Vaner er vanskelige å endre, men lettere når vi **flytter**, begynner på ny skole eller får ny jobb.\n- **Mestringsforventning**: Tror vi at egne valg **nytter**, er vi mer villige til å handle.\n\n## Psykologiske faktorer\n\n- **Kognitiv dissonans**: **Leon Festinger** beskrev ubehaget vi kjenner når **handling** og **holdning** ikke stemmer. Ofte endrer vi **tankene** i stedet for handlingen: «Én flytur betyr ingenting.»\n- **Psykologisk distanse**: Klimaendringer kan oppleves som langt unna i **tid** og **rom** og som noe som rammer **andre**.\n- **Nåtidsskjevhet**: Vi legger mer vekt på **umiddelbare** fordeler, som en billig ferie nå, enn på **framtidige** kostnader.\n- **Ansvarspulverisering**: Når mange kunne gjort noe, føler hver enkelt mindre **ansvar** – «det er politikernes jobb».\n- **Bekreftelsesfellen**: Vi søker informasjon som passer det vi allerede mener.\n- **Klimabekymring**: Moderat bekymring kan gi **handling**, men sterk **angst** og **håpløshet** kan gi **passivitet**.\n\n## Sosiale faktorer\n\n- **Sosiale normer**: Vi gjør som **andre** gjør. I et kjent forsøk på et hotell gjenbrukte flere gjester håndklærne når et skilt fortalte at **de fleste** andre gjester gjorde det, enn når skiltet bare ba dem tenke på miljøet.\n- **Konformitet**: Ønsket om å **passe inn** kan både hemme og fremme bærekraftige valg.\n- **Identitet** og **grupper**: Miljøvalg kan bli en del av hvem vi er – men også et tema som **polariserer** mellom grupper.\n- **Rollemodeller** og **påvirkere** kan vise at endring er mulig.\n\n## Strukturelle forhold\n\nMange valg avhenger av **pris**, **tilgjengelighet** og **infrastruktur**. Det er lettere å sykle hvis det finnes **sykkelveier**. **Allmenningens tragedie** beskriver hvordan felles ressurser overbrukes når hver enkelt tjener på å ta litt mer.\n\n## Dulting\n\n**Dulting** (nudging) betyr å endre **valgomgivelsene** slik at det bærekraftige valget blir **lettere**, uten å forby noe:\n\n- **Standardvalg**: dobbeltsidig utskrift eller fornybar strøm som **forhåndsvalgt** alternativ\n- **Plassering**: vegetarretten **først** i kantinen\n- **Tilbakemelding**: strømmåler som viser forbruket ditt sammenlignet med naboenes\n\nEn nyttig huskeregel er å gjøre det ønskede valget **lett**, **attraktivt**, **sosialt** og **tidsnært**.\n\nDulting er kritisert for å være en form for **manipulasjon**, og for å flytte oppmerksomheten fra **politikk** og **næringsliv** til **enkeltpersoner**.\n\n## Vurdering\n\nPsykologien viser at **informasjon alene** sjelden er nok. Endring krever at vi kombinerer **kunnskap**, **mestringstro**, **sosiale normer**, **gode vaner** og **strukturer** som gjør det lett å velge bærekraftig.",
   "flashcards": [
-    { "term": "Gapet mellom holdning og handling", "def": "At vi mener noe, men ikke handler etter det." },
-    { "term": "Kognitiv dissonans", "def": "Ubehag når holdning og handling ikke stemmer." },
-    { "term": "Leon Festinger", "def": "Utviklet teorien om kognitiv dissonans." },
-    { "term": "Psykologisk distanse", "def": "At noe oppleves langt unna i tid, rom eller sosialt." },
-    { "term": "Nåtidsskjevhet", "def": "Å legge mer vekt på fordeler nå enn kostnader i framtiden." },
-    { "term": "Ansvarspulverisering", "def": "Når mange kunne handlet, føler hver enkelt mindre ansvar." },
-    { "term": "Klimabekymring", "def": "Moderat bekymring kan gi handling, sterk angst kan gi passivitet." },
-    { "term": "Sosiale normer", "def": "Uskrevne regler for hva andre gjør og forventer." },
-    { "term": "Hotellforsøket", "def": "Flere gjenbrukte håndklær når de fikk vite at de fleste andre gjorde det." },
-    { "term": "Konformitet", "def": "Å tilpasse seg gruppen for å passe inn." },
-    { "term": "Vaner", "def": "Automatiske handlinger som er vanskelige å endre." },
-    { "term": "Allmenningens tragedie", "def": "Felles ressurser overbrukes når hver enkelt tjener på å ta mer." },
-    { "term": "Dulting", "def": "Å endre valgomgivelsene slik at et valg blir lettere, uten forbud." },
-    { "term": "Standardvalg", "def": "Det forhåndsvalgte alternativet, som mange beholder." },
-    { "term": "Lett, attraktivt, sosialt, tidsnært", "def": "Huskeregel for å fremme ønsket atferd." }
+    {
+      "term": "Gapet mellom holdning og handling",
+      "def": "At vi mener noe, men ikke handler etter det."
+    },
+    {
+      "term": "Kognitiv dissonans",
+      "def": "Ubehag når holdning og handling ikke stemmer."
+    },
+    {
+      "term": "Leon Festinger",
+      "def": "Utviklet teorien om kognitiv dissonans."
+    },
+    {
+      "term": "Psykologisk distanse",
+      "def": "At noe oppleves langt unna i tid, rom eller sosialt."
+    },
+    {
+      "term": "Nåtidsskjevhet",
+      "def": "Å legge mer vekt på fordeler nå enn kostnader i framtiden."
+    },
+    {
+      "term": "Ansvarspulverisering",
+      "def": "Når mange kunne handlet, føler hver enkelt mindre ansvar."
+    },
+    {
+      "term": "Klimabekymring",
+      "def": "Moderat bekymring kan gi handling, sterk angst kan gi passivitet."
+    },
+    {
+      "term": "Sosiale normer",
+      "def": "Uskrevne regler for hva andre gjør og forventer."
+    },
+    {
+      "term": "Hotellforsøket",
+      "def": "Flere gjenbrukte håndklær når de fikk vite at de fleste andre gjorde det."
+    },
+    {
+      "term": "Konformitet",
+      "def": "Å tilpasse seg gruppen for å passe inn."
+    },
+    {
+      "term": "Vaner",
+      "def": "Automatiske handlinger som er vanskelige å endre."
+    },
+    {
+      "term": "Allmenningens tragedie",
+      "def": "Felles ressurser overbrukes når hver enkelt tjener på å ta mer."
+    },
+    {
+      "term": "Dulting",
+      "def": "Å endre valgomgivelsene slik at et valg blir lettere, uten forbud."
+    },
+    {
+      "term": "Standardvalg",
+      "def": "Det forhåndsvalgte alternativet, som mange beholder."
+    },
+    {
+      "term": "Lett, attraktivt, sosialt, tidsnært",
+      "def": "Huskeregel for å fremme ønsket atferd."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er gapet mellom holdning og handling?", "options": ["At vi handler mer enn vi mener", "At vi mener noe, men ikke handler etter det", "At holdninger aldri endres", "At alle er enige"], "correct": 1, "explain": "Mange er bekymret, men endrer lite." },
-    { "id": "q02", "text": "Hva er kognitiv dissonans?", "options": ["Ubehag når holdning og handling ikke stemmer", "En hukommelsesfeil", "En vane", "En sosial norm"], "correct": 0, "explain": "Beskrevet av Festinger." },
-    { "id": "q03", "text": "En person som flyr mye, sier «én flytur betyr ingenting». Hva gjør personen?", "options": ["Endrer atferden", "Viser konformitet", "Reduserer dissonans ved å endre tankene", "Bruker dulting"], "correct": 2, "explain": "Det er ofte lettere enn å endre handlingen." },
-    { "id": "q04", "text": "Hva er psykologisk distanse?", "options": ["Avstanden til skolen", "At vi føler oss ensomme", "At vi er uenige", "At klimaendringer oppleves langt unna i tid og rom"], "correct": 3, "explain": "Gjør det lettere å utsette handling." },
-    { "id": "q05", "text": "Hva viste hotellforsøket med håndklær?", "options": ["At sosiale normer påvirker atferd", "At folk ikke bryr seg om miljø", "At skilt ikke virker", "At pris er det eneste som teller"], "correct": 0, "explain": "Beskjeden om at de fleste gjorde det, virket best." },
-    { "id": "q06", "text": "Hva er dulting?", "options": ["Å forby miljøskadelige varer", "Å endre valgomgivelsene slik at et valg blir lettere", "Å skattlegge alt", "Å gi straff"], "correct": 1, "explain": "Uten å fjerne valgmuligheter." },
-    { "id": "q07", "text": "Hva er et eksempel på et standardvalg?", "options": ["En reklame for bil", "En skatt på bensin", "Dobbeltsidig utskrift som forhåndsvalgt", "Et forbud mot plast"], "correct": 2, "explain": "Mange beholder det forhåndsvalgte." },
-    { "id": "q08", "text": "Hva kan sterk klimaangst føre til?", "options": ["Alltid mer handling", "Bedre søvn", "Mer kunnskap", "Håpløshet og passivitet"], "correct": 3, "explain": "Moderat bekymring gir oftere handling." },
-    { "id": "q09", "text": "Hva er nåtidsskjevhet?", "options": ["Å legge mer vekt på fordeler nå enn kostnader i framtiden", "Å tenke mye på framtiden", "Å huske fortiden dårlig", "Å følge med i nyhetene"], "correct": 0, "explain": "En billig ferie nå veier tyngre enn klimaeffekten." },
-    { "id": "q10", "text": "Hvilken kritikk rettes mot dulting?", "options": ["At den er for dyr", "At den kan være manipulasjon og flytte ansvar til enkeltpersoner", "At den ikke har noen effekt", "At den er ulovlig"], "correct": 1, "explain": "Politikk og næringsliv har også ansvar." }
+    {
+      "id": "q01",
+      "text": "Hva er gapet mellom holdning og handling?",
+      "options": [
+        "At vi handler mer enn vi mener",
+        "At vi mener noe, men ikke handler etter det",
+        "At holdninger aldri endres",
+        "At alle er enige"
+      ],
+      "correct": 1,
+      "explain": "Mange er bekymret, men endrer lite."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er kognitiv dissonans?",
+      "options": [
+        "Ubehag når holdning og handling ikke stemmer",
+        "En hukommelsesfeil",
+        "En vane",
+        "En sosial norm"
+      ],
+      "correct": 0,
+      "explain": "Beskrevet av Festinger."
+    },
+    {
+      "id": "q03",
+      "text": "En person som flyr mye, sier «én flytur betyr ingenting». Hva gjør personen?",
+      "options": [
+        "Endrer atferden",
+        "Viser konformitet",
+        "Reduserer dissonans ved å endre tankene",
+        "Bruker dulting"
+      ],
+      "correct": 2,
+      "explain": "Det er ofte lettere enn å endre handlingen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er psykologisk distanse?",
+      "options": [
+        "Avstanden til skolen",
+        "At vi føler oss ensomme",
+        "At vi er uenige",
+        "At klimaendringer oppleves langt unna i tid og rom"
+      ],
+      "correct": 3,
+      "explain": "Gjør det lettere å utsette handling."
+    },
+    {
+      "id": "q05",
+      "text": "Hva viste hotellforsøket med håndklær?",
+      "options": [
+        "At sosiale normer påvirker atferd",
+        "At folk ikke bryr seg om miljø",
+        "At skilt ikke virker",
+        "At pris er det eneste som teller"
+      ],
+      "correct": 0,
+      "explain": "Beskjeden om at de fleste gjorde det, virket best."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er dulting?",
+      "options": [
+        "Å forby miljøskadelige varer",
+        "Å endre valgomgivelsene slik at et valg blir lettere",
+        "Å skattlegge alt",
+        "Å gi straff"
+      ],
+      "correct": 1,
+      "explain": "Uten å fjerne valgmuligheter."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er et eksempel på et standardvalg?",
+      "options": [
+        "En reklame for bil",
+        "En skatt på bensin",
+        "Dobbeltsidig utskrift som forhåndsvalgt",
+        "Et forbud mot plast"
+      ],
+      "correct": 2,
+      "explain": "Mange beholder det forhåndsvalgte."
+    },
+    {
+      "id": "q08",
+      "text": "Hva kan sterk klimaangst føre til?",
+      "options": [
+        "Alltid mer handling",
+        "Bedre søvn",
+        "Mer kunnskap",
+        "Håpløshet og passivitet"
+      ],
+      "correct": 3,
+      "explain": "Moderat bekymring gir oftere handling."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er nåtidsskjevhet?",
+      "options": [
+        "Å legge mer vekt på fordeler nå enn kostnader i framtiden",
+        "Å tenke mye på framtiden",
+        "Å huske fortiden dårlig",
+        "Å følge med i nyhetene"
+      ],
+      "correct": 0,
+      "explain": "En billig ferie nå veier tyngre enn klimaeffekten."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken kritikk rettes mot dulting?",
+      "options": [
+        "At den er for dyr",
+        "At den kan være manipulasjon og flytte ansvar til enkeltpersoner",
+        "At den ikke har noen effekt",
+        "At den er ulovlig"
+      ],
+      "correct": 1,
+      "explain": "Politikk og næringsliv har også ansvar."
+    }
   ],
   "mindmap": {
     "label": "Bærekraftige valg",
     "children": [
-      { "label": "Individ", "children": [
-        { "label": "Kunnskap og verdier" },
-        { "label": "Vaner" },
-        { "label": "Mestringstro" }
-      ] },
-      { "label": "Psykologiske mekanismer", "children": [
-        { "label": "Kognitiv dissonans" },
-        { "label": "Psykologisk distanse" },
-        { "label": "Nåtidsskjevhet" }
-      ] },
-      { "label": "Sosialt", "children": [
-        { "label": "Normer" },
-        { "label": "Konformitet" },
-        { "label": "Identitet" }
-      ] },
-      { "label": "Struktur", "children": [
-        { "label": "Pris og tilgang" },
-        { "label": "Allmenningens tragedie" }
-      ] },
-      { "label": "Tiltak", "children": [
-        { "label": "Dulting" },
-        { "label": "Standardvalg" },
-        { "label": "Kritikk" }
-      ] }
+      {
+        "label": "Individ",
+        "children": [
+          {
+            "label": "Kunnskap og verdier"
+          },
+          {
+            "label": "Vaner"
+          },
+          {
+            "label": "Mestringstro"
+          }
+        ]
+      },
+      {
+        "label": "Psykologiske mekanismer",
+        "children": [
+          {
+            "label": "Kognitiv dissonans"
+          },
+          {
+            "label": "Psykologisk distanse"
+          },
+          {
+            "label": "Nåtidsskjevhet"
+          }
+        ]
+      },
+      {
+        "label": "Sosialt",
+        "children": [
+          {
+            "label": "Normer"
+          },
+          {
+            "label": "Konformitet"
+          },
+          {
+            "label": "Identitet"
+          }
+        ]
+      },
+      {
+        "label": "Struktur",
+        "children": [
+          {
+            "label": "Pris og tilgang"
+          },
+          {
+            "label": "Allmenningens tragedie"
+          }
+        ]
+      },
+      {
+        "label": "Tiltak",
+        "children": [
+          {
+            "label": "Dulting"
+          },
+          {
+            "label": "Standardvalg"
+          },
+          {
+            "label": "Kritikk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Vaner er lettere å endre når livssituasjonen endrer seg, for eksempel ved flytting.", "correct": true, "explain": "Gamle signaler for vanene forsvinner." },
-      { "id": "m02", "type": "sant-usant", "text": "Informasjon alene er som regel nok til å endre atferd.", "correct": false, "explain": "Endring krever også normer, vaner og strukturer." },
-      { "id": "m03", "type": "sant-usant", "text": "Ansvarspulverisering kan gjøre at hver enkelt føler mindre ansvar for klimaet.", "correct": true, "explain": "«Det er politikernes jobb.»" },
-      { "id": "m04", "type": "sant-usant", "text": "Dulting betyr å forby det miljøskadelige valget.", "correct": false, "explain": "Dulting gjør et valg lettere uten forbud." },
-      { "id": "m05", "type": "flervalg", "text": "Hva beskriver allmenningens tragedie?", "options": ["At folk deler for mye", "At felles ressurser overbrukes når hver tjener på å ta mer", "At private eiendommer ødelegges", "At staten eier alt"], "correct": 1, "explain": "Et kollektivt handlingsproblem." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilket tiltak er et eksempel på dulting i en kantine?", "options": ["Å plassere vegetarretten først", "Å forby kjøtt", "Å heve prisen på alt", "Å stenge kantinen"], "correct": 0, "explain": "Endrer valgomgivelsene." },
-      { "id": "m07", "type": "flervalg", "text": "Hva øker sjansen for at noen handler bærekraftig?", "options": ["At de tror valgene ikke nytter", "At ingen andre gjør det", "At de tror egne valg nytter", "At det er vanskelig og dyrt"], "correct": 2, "explain": "Mestringsforventning." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Vaner er lettere å endre når livssituasjonen endrer seg, for eksempel ved flytting.",
+        "correct": true,
+        "explain": "Gamle signaler for vanene forsvinner."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Informasjon alene er som regel nok til å endre atferd.",
+        "correct": false,
+        "explain": "Endring krever også normer, vaner og strukturer."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Ansvarspulverisering kan gjøre at hver enkelt føler mindre ansvar for klimaet.",
+        "correct": true,
+        "explain": "«Det er politikernes jobb.»"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Dulting betyr å forby det miljøskadelige valget.",
+        "correct": false,
+        "explain": "Dulting gjør et valg lettere uten forbud."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva beskriver allmenningens tragedie?",
+        "options": [
+          "At folk deler for mye",
+          "At felles ressurser overbrukes når hver tjener på å ta mer",
+          "At private eiendommer ødelegges",
+          "At staten eier alt"
+        ],
+        "correct": 1,
+        "explain": "Et kollektivt handlingsproblem."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket tiltak er et eksempel på dulting i en kantine?",
+        "options": [
+          "Å plassere vegetarretten først",
+          "Å forby kjøtt",
+          "Å heve prisen på alt",
+          "Å stenge kantinen"
+        ],
+        "correct": 0,
+        "explain": "Endrer valgomgivelsene."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva øker sjansen for at noen handler bærekraftig?",
+        "options": [
+          "At de tror valgene ikke nytter",
+          "At ingen andre gjør det",
+          "At de tror egne valg nytter",
+          "At det er vanskelig og dyrt"
+        ],
+        "correct": 2,
+        "explain": "Mestringsforventning."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En elev bruker mye tid på små miljøtiltak, men tenker lite på reiser og matvaner. Forklar hvilken kunnskapsfeil dette kan vise, og hvorfor kunnskap om tiltakenes effekt kan påvirke valgene eleven tar.",
+        "fasit": "Eleven kan overvurdere effekten av små tiltak og undervurdere hvor mye reiser og matvaner betyr. Kunnskap om hva som faktisk hjelper, kan gjøre det lettere å velge tiltak med større effekt.",
+        "kriterier": [
+          "Forklarer at små tiltak kan bli overvurdert, mens reiser eller matvaner kan bli undervurdert.",
+          "Knytter kunnskap om effekt til muligheten for å ta mer bærekraftige valg."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Nora tror at egne miljøvalg ikke nytter, og fortsetter derfor som før. Forklar hvordan troen på at egne valg har betydning, kan påvirke om Nora endrer atferd.",
+        "fasit": "Når Nora har mestringsforventning og tror at egne valg nytter, blir hun mer villig til å handle. Hvis hun tror at valgene hennes ikke har noen effekt, kan det gjøre henne mindre motivert til å endre atferd.",
+        "kriterier": [
+          "Forklarer at tro på at egne valg nytter, kan øke viljen til å handle.",
+          "Knytter Noras lave tro på egen påvirkning til at hun fortsetter som før."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En person synes klimaendringer virker langt unna i tid og sted. Samtidig velger personen en billig ferie nå framfor å ta hensyn til mulige kostnader i framtiden. Sammenlign den psykologiske distansen og nåtidsskjevheten i situasjonen.",
+        "fasit": "Psykologisk distanse handler om at klimaendringene oppleves langt unna i tid eller rom. Nåtidsskjevhet handler om at personen legger mer vekt på fordelen ved den billige ferien nå enn på framtidige kostnader.",
+        "kriterier": [
+          "Knytter psykologisk distanse til opplevelsen av at klimaendringene er langt unna.",
+          "Knytter nåtidsskjevhet til at fordelen nå veier tyngre enn framtidige kostnader."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "De fleste elevene i en klasse tar med drikkeflaske hjemmefra. En ny elev gjør det samme fordi eleven vil passe inn. Forklar hvordan både sosiale normer og konformitet kan påvirke elevens valg.",
+        "fasit": "At de fleste tar med drikkeflaske, viser en sosial norm for hva elevene gjør. Når den nye eleven tilpasser seg for å passe inn, er det konformitet.",
+        "kriterier": [
+          "Forklarer at den vanlige atferden i klassen fungerer som en sosial norm.",
+          "Forklarer at eleven tilpasser seg gruppen for å passe inn, altså konformitet."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Etter at Amir begynner på en ny skole, vil han endre en automatisk hverdagsvane. Forklar hvorfor overgangen til en ny skole kan gjøre det lettere å endre vanen.",
+        "fasit": "Vaner er ofte automatiske og vanskelige å endre. Når Amir begynner på en ny skole, endres hverdagsrutinene, og det kan gjøre det lettere å etablere en ny vane.",
+        "kriterier": [
+          "Forklarer at vaner ofte skjer automatisk og kan være vanskelige å endre.",
+          "Knytter den nye skolen til endrede rutiner som kan gjøre vaneendring lettere."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I et felles naturområde tjener hver besøkende på å ta med seg litt ekstra ved, men hvis mange gjør det, blir det mindre ved igjen til alle. Forklar hvordan dette viser allmenningens tragedie.",
+        "fasit": "Dette viser allmenningens tragedie fordi hver enkelt har fordel av å ta litt mer, mens ressursen er felles. Når mange gjør det samme, kan den felles ressursen bli overbrukt.",
+        "kriterier": [
+          "Forklarer at enkeltpersoner kan tjene på å ta mer av en felles ressurs.",
+          "Forklarer at summen av valgene kan føre til at ressursen overbrukes."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Skolen vil gjøre det lettere for elever å velge vegetarisk i kantinen, men vil ikke forby andre retter. Foreslå én endring i valgomgivelsene og forklar hvorfor den er et eksempel på dulting.",
+        "fasit": "Skolen kan plassere vegetarretten først i kantinen. Det er dulting fordi valgomgivelsene endres slik at et bærekraftig valg blir lettere, uten at andre valg forbys.",
+        "kriterier": [
+          "Foreslår en konkret endring i valgomgivelsene som gjør det vegetariske valget lettere, for eksempel å plassere det først.",
+          "Forklarer at valget ikke forbys, men gjøres lettere gjennom utformingen av valgsituasjonen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Mina vil sykle til skolen, men det mangler sykkelveier på ruten. Forklar hvordan dette kan påvirke valget hennes, og nevn én strukturell endring som kan gjøre sykling lettere.",
+        "fasit": "Mangelen på sykkelveier er et strukturelt hinder som kan gjøre det vanskeligere for Mina å velge sykkel. En sykkelvei på ruten kan gjøre sykling lettere og mer tilgjengelig.",
+        "kriterier": [
+          "Knytter manglende sykkelvei til infrastruktur som påvirker hvilke valg Mina har lett tilgang til.",
+          "Nevner en relevant strukturell endring, som å bygge sykkelvei, og forklarer hvordan den kan lette valget."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

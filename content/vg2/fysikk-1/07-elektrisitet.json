@@ -4,78 +4,425 @@
   "trinnId": "vg2",
   "name": "Elektrisitet og kretser",
   "intro": "Ladning, strøm, spenning og resistans, Ohms lov, serie- og parallellkobling, Kirchhoffs lover, elektrisk effekt og energi – og hvordan du regner på enkle kretser.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Ladning\n\n**Elektrisk ladning** Q måles i **coulomb** (C). Elektronet har ladningen **−e**, der e = 1,60 · 10⁻¹⁹ C er **elementærladningen**. Like ladninger frastøter hverandre, ulike tiltrekker hverandre. Ladning er **bevart**: Den kan flyttes, men ikke skapes eller forsvinne.\n\n## Strøm, spenning og resistans\n\n- **Strøm** I er ladning som passerer per tid: **I = Q / t**, enhet **ampere** (A). Vi regner strømretningen fra **pluss til minus**, selv om elektronene går motsatt vei.\n- **Spenning** U er energi per ladning: **U = W / Q**, enhet **volt** (V = J/C). Spenningen fra et batteri «dytter» ladningene rundt i kretsen.\n- **Resistans** R er hvor mye en komponent hindrer strømmen, enhet **ohm** (Ω).\n\n## Ohms lov\n\nFor en **ohmsk** leder (for eksempel en resistor ved konstant temperatur) gjelder:\n\n**U = R · I**\n\n**Eksempel**: En resistor på 4,0 Ω kobles til 12 V. Strømmen blir I = 12 / 4,0 = **3,0 A**.\n\nResistansen i en ledning øker med **lengden** og minker med **tverrsnittsarealet**: R = ρL / A, der ρ er **resistiviteten** til materialet.\n\n## Serie- og parallellkobling\n\n- **Seriekobling**: Samme strøm gjennom alle komponentene. Resistansene legges sammen: **R = R₁ + R₂**. 2,0 Ω og 4,0 Ω i serie gir **6,0 Ω**.\n- **Parallellkobling**: Samme spenning over alle greinene. **1/R = 1/R₁ + 1/R₂**. 2,0 Ω og 4,0 Ω i parallell gir R ≈ **1,3 Ω** – mindre enn den minste.\n\nHusene våre har **parallellkobling**, slik at hvert apparat får full spenning og kan slås av og på uavhengig av de andre.\n\n## Kirchhoffs lover\n\n1. **Strømloven**: Summen av strømmene **inn** i et forgreningspunkt er lik summen av strømmene **ut**. (Ladning er bevart.)\n2. **Spenningsloven**: Rundt en lukket sløyfe er summen av spenningsøkninger lik summen av spenningsfall. (Energi er bevart.)\n\n## Effekt og energi\n\n**Elektrisk effekt** er energi per tid:\n\n**P = U · I** = R · I² = U² / R\n\nResistoren på 4,0 Ω ved 12 V har P = 12 · 3,0 = **36 W**.\n\n**Elektrisk energi** er **E = P · t**. Strømregningen oppgis i **kilowattimer**: 1 kWh = 1000 W · 3600 s = **3,6 MJ**. En vannkoker på 2,0 kW som står på i 3,0 minutter, bruker 2,0 kW · 0,050 t = **0,10 kWh**.\n\n## Måleinstrumenter\n\n- **Amperemeter** kobles i **serie** og skal ha svært liten resistans.\n- **Voltmeter** kobles i **parallell** over komponenten og skal ha svært stor resistans.\n\n## Sikkerhet\n\n**Sikringer** bryter kretsen når strømmen blir for stor, og **jordfeilbrytere** bryter når strøm lekker ut av kretsen. Det er **strømmen gjennom kroppen** som er farlig – selv noen titalls milliampere gjennom hjertet kan være livsfarlig.",
   "flashcards": [
-    { "term": "Elementærladning e", "def": "1,60 · 10⁻¹⁹ C" },
-    { "term": "Coulomb (C)", "def": "Enhet for elektrisk ladning." },
-    { "term": "Strøm", "def": "I = Q / t, målt i ampere." },
-    { "term": "Spenning", "def": "U = W / Q, energi per ladning, målt i volt." },
-    { "term": "Resistans", "def": "Hvor mye en komponent hindrer strømmen, målt i ohm." },
-    { "term": "Ohms lov", "def": "U = R · I" },
-    { "term": "Resistivitet", "def": "Materialegenskap i R = ρL / A." },
-    { "term": "Seriekobling", "def": "Samme strøm; R = R₁ + R₂." },
-    { "term": "Parallellkobling", "def": "Samme spenning; 1/R = 1/R₁ + 1/R₂." },
-    { "term": "Kirchhoffs strømlov", "def": "Strøm inn i et punkt = strøm ut." },
-    { "term": "Kirchhoffs spenningslov", "def": "Spenningsøkninger = spenningsfall rundt en sløyfe." },
-    { "term": "Elektrisk effekt", "def": "P = U · I" },
-    { "term": "Kilowattime", "def": "1 kWh = 3,6 MJ" },
-    { "term": "Amperemeter", "def": "Kobles i serie, liten resistans." },
-    { "term": "Voltmeter", "def": "Kobles i parallell, stor resistans." },
-    { "term": "Jordfeilbryter", "def": "Bryter kretsen når strøm lekker ut." }
+    {
+      "term": "Elementærladning e",
+      "def": "1,60 · 10⁻¹⁹ C"
+    },
+    {
+      "term": "Coulomb (C)",
+      "def": "Enhet for elektrisk ladning."
+    },
+    {
+      "term": "Strøm",
+      "def": "I = Q / t, målt i ampere."
+    },
+    {
+      "term": "Spenning",
+      "def": "U = W / Q, energi per ladning, målt i volt."
+    },
+    {
+      "term": "Resistans",
+      "def": "Hvor mye en komponent hindrer strømmen, målt i ohm."
+    },
+    {
+      "term": "Ohms lov",
+      "def": "U = R · I"
+    },
+    {
+      "term": "Resistivitet",
+      "def": "Materialegenskap i R = ρL / A."
+    },
+    {
+      "term": "Seriekobling",
+      "def": "Samme strøm; R = R₁ + R₂."
+    },
+    {
+      "term": "Parallellkobling",
+      "def": "Samme spenning; 1/R = 1/R₁ + 1/R₂."
+    },
+    {
+      "term": "Kirchhoffs strømlov",
+      "def": "Strøm inn i et punkt = strøm ut."
+    },
+    {
+      "term": "Kirchhoffs spenningslov",
+      "def": "Spenningsøkninger = spenningsfall rundt en sløyfe."
+    },
+    {
+      "term": "Elektrisk effekt",
+      "def": "P = U · I"
+    },
+    {
+      "term": "Kilowattime",
+      "def": "1 kWh = 3,6 MJ"
+    },
+    {
+      "term": "Amperemeter",
+      "def": "Kobles i serie, liten resistans."
+    },
+    {
+      "term": "Voltmeter",
+      "def": "Kobles i parallell, stor resistans."
+    },
+    {
+      "term": "Jordfeilbryter",
+      "def": "Bryter kretsen når strøm lekker ut."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "En resistor på 4,0 Ω kobles til 12 V. Hva blir strømmen?", "options": ["48 A", "3,0 A", "0,33 A", "16 A"], "correct": 1, "explain": "I = U/R." },
-    { "id": "q02", "text": "Hva er den samlede resistansen til 2,0 Ω og 4,0 Ω i serie?", "options": ["6,0 Ω", "1,3 Ω", "8,0 Ω", "2,0 Ω"], "correct": 0, "explain": "R = R₁ + R₂." },
-    { "id": "q03", "text": "Hva er den samlede resistansen til 2,0 Ω og 4,0 Ω i parallell?", "options": ["6,0 Ω", "3,0 Ω", "Omtrent 1,3 Ω", "8,0 Ω"], "correct": 2, "explain": "1/R = 1/2 + 1/4 = 3/4." },
-    { "id": "q04", "text": "Hva er spenning?", "options": ["Ladning per tid", "Motstand mot strøm", "Effekt per tid", "Energi per ladning"], "correct": 3, "explain": "U = W/Q, volt = J/C." },
-    { "id": "q05", "text": "Hvor mye energi bruker en vannkoker på 2,0 kW i 3,0 minutter?", "options": ["0,10 kWh", "6,0 kWh", "1,0 kWh", "0,033 kWh"], "correct": 0, "explain": "2,0 kW · 0,050 t." },
-    { "id": "q06", "text": "Hvordan skal et voltmeter kobles?", "options": ["I serie", "I parallell over komponenten", "Uten ledninger", "Mellom to batterier"], "correct": 1, "explain": "Det måler spenningsforskjellen over komponenten." },
-    { "id": "q07", "text": "Hva sier Kirchhoffs strømlov?", "options": ["U = RI", "Spenningen er lik overalt", "Strømmen inn i et forgreningspunkt er lik strømmen ut", "Strømmen øker i hvert punkt"], "correct": 2, "explain": "Ladning er bevart." },
-    { "id": "q08", "text": "Hva er effekten i en resistor når U = 12 V og I = 3,0 A?", "options": ["4,0 W", "15 W", "0,25 W", "36 W"], "correct": 3, "explain": "P = U · I." },
-    { "id": "q09", "text": "Hvorfor er husene våre koblet i parallell?", "options": ["Slik at hvert apparat får full spenning og kan styres for seg", "For å spare ledninger", "For å øke resistansen", "For å få samme strøm overalt"], "correct": 0, "explain": "Apparatene er uavhengige av hverandre." },
-    { "id": "q10", "text": "Hvor mange joule er 1 kWh?", "options": ["1000 J", "3,6 MJ", "3600 J", "60 kJ"], "correct": 1, "explain": "1000 W · 3600 s." }
+    {
+      "id": "q01",
+      "text": "En resistor på 4,0 Ω kobles til 12 V. Hva blir strømmen?",
+      "options": [
+        "48 A",
+        "3,0 A",
+        "0,33 A",
+        "16 A"
+      ],
+      "correct": 1,
+      "explain": "I = U/R."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er den samlede resistansen til 2,0 Ω og 4,0 Ω i serie?",
+      "options": [
+        "6,0 Ω",
+        "1,3 Ω",
+        "8,0 Ω",
+        "2,0 Ω"
+      ],
+      "correct": 0,
+      "explain": "R = R₁ + R₂."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er den samlede resistansen til 2,0 Ω og 4,0 Ω i parallell?",
+      "options": [
+        "6,0 Ω",
+        "3,0 Ω",
+        "Omtrent 1,3 Ω",
+        "8,0 Ω"
+      ],
+      "correct": 2,
+      "explain": "1/R = 1/2 + 1/4 = 3/4."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er spenning?",
+      "options": [
+        "Ladning per tid",
+        "Motstand mot strøm",
+        "Effekt per tid",
+        "Energi per ladning"
+      ],
+      "correct": 3,
+      "explain": "U = W/Q, volt = J/C."
+    },
+    {
+      "id": "q05",
+      "text": "Hvor mye energi bruker en vannkoker på 2,0 kW i 3,0 minutter?",
+      "options": [
+        "0,10 kWh",
+        "6,0 kWh",
+        "1,0 kWh",
+        "0,033 kWh"
+      ],
+      "correct": 0,
+      "explain": "2,0 kW · 0,050 t."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan skal et voltmeter kobles?",
+      "options": [
+        "I serie",
+        "I parallell over komponenten",
+        "Uten ledninger",
+        "Mellom to batterier"
+      ],
+      "correct": 1,
+      "explain": "Det måler spenningsforskjellen over komponenten."
+    },
+    {
+      "id": "q07",
+      "text": "Hva sier Kirchhoffs strømlov?",
+      "options": [
+        "U = RI",
+        "Spenningen er lik overalt",
+        "Strømmen inn i et forgreningspunkt er lik strømmen ut",
+        "Strømmen øker i hvert punkt"
+      ],
+      "correct": 2,
+      "explain": "Ladning er bevart."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er effekten i en resistor når U = 12 V og I = 3,0 A?",
+      "options": [
+        "4,0 W",
+        "15 W",
+        "0,25 W",
+        "36 W"
+      ],
+      "correct": 3,
+      "explain": "P = U · I."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er husene våre koblet i parallell?",
+      "options": [
+        "Slik at hvert apparat får full spenning og kan styres for seg",
+        "For å spare ledninger",
+        "For å øke resistansen",
+        "For å få samme strøm overalt"
+      ],
+      "correct": 0,
+      "explain": "Apparatene er uavhengige av hverandre."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor mange joule er 1 kWh?",
+      "options": [
+        "1000 J",
+        "3,6 MJ",
+        "3600 J",
+        "60 kJ"
+      ],
+      "correct": 1,
+      "explain": "1000 W · 3600 s."
+    }
   ],
   "mindmap": {
     "label": "Elektrisitet",
     "children": [
-      { "label": "Grunnbegreper", "children": [
-        { "label": "Ladning Q" },
-        { "label": "Strøm I = Q/t" },
-        { "label": "Spenning U = W/Q" }
-      ] },
-      { "label": "Resistans", "children": [
-        { "label": "Ohms lov U = RI" },
-        { "label": "R = ρL/A" }
-      ] },
-      { "label": "Kretser", "children": [
-        { "label": "Serie" },
-        { "label": "Parallell" },
-        { "label": "Kirchhoffs lover" }
-      ] },
-      { "label": "Effekt og energi", "children": [
-        { "label": "P = UI" },
-        { "label": "E = Pt" },
-        { "label": "kWh" }
-      ] },
-      { "label": "Praksis", "children": [
-        { "label": "Amperemeter og voltmeter" },
-        { "label": "Sikring og jordfeilbryter" }
-      ] }
+      {
+        "label": "Grunnbegreper",
+        "children": [
+          {
+            "label": "Ladning Q"
+          },
+          {
+            "label": "Strøm I = Q/t"
+          },
+          {
+            "label": "Spenning U = W/Q"
+          }
+        ]
+      },
+      {
+        "label": "Resistans",
+        "children": [
+          {
+            "label": "Ohms lov U = RI"
+          },
+          {
+            "label": "R = ρL/A"
+          }
+        ]
+      },
+      {
+        "label": "Kretser",
+        "children": [
+          {
+            "label": "Serie"
+          },
+          {
+            "label": "Parallell"
+          },
+          {
+            "label": "Kirchhoffs lover"
+          }
+        ]
+      },
+      {
+        "label": "Effekt og energi",
+        "children": [
+          {
+            "label": "P = UI"
+          },
+          {
+            "label": "E = Pt"
+          },
+          {
+            "label": "kWh"
+          }
+        ]
+      },
+      {
+        "label": "Praksis",
+        "children": [
+          {
+            "label": "Amperemeter og voltmeter"
+          },
+          {
+            "label": "Sikring og jordfeilbryter"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "I en seriekobling går samme strøm gjennom alle komponentene.", "correct": true, "explain": "Det finnes bare én vei for strømmen." },
-      { "id": "m02", "type": "sant-usant", "text": "Den samlede resistansen i en parallellkobling er større enn den største enkeltresistansen.", "correct": false, "explain": "Den er mindre enn den minste." },
-      { "id": "m03", "type": "sant-usant", "text": "Et amperemeter skal ha svært liten resistans.", "correct": true, "explain": "Ellers påvirker det strømmen det skal måle." },
-      { "id": "m04", "type": "sant-usant", "text": "Elektronene i en ledning beveger seg fra pluss til minus.", "correct": false, "explain": "Elektronene går fra minus til pluss; strømretningen er definert motsatt." },
-      { "id": "m05", "type": "flervalg", "text": "Hva skjer med resistansen i en ledning hvis lengden dobles?", "options": ["Den halveres", "Den dobles", "Den er uendret", "Den firedobles"], "correct": 1, "explain": "R = ρL/A." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er enheten for spenning?", "options": ["Volt", "Ampere", "Ohm", "Watt"], "correct": 0, "explain": "1 V = 1 J/C." },
-      { "id": "m07", "type": "flervalg", "text": "Hva gjør en sikring?", "options": ["Øker spenningen", "Lagrer energi", "Bryter kretsen når strømmen blir for stor", "Måler effekten"], "correct": 2, "explain": "Den hindrer overoppheting og brann." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "I en seriekobling går samme strøm gjennom alle komponentene.",
+        "correct": true,
+        "explain": "Det finnes bare én vei for strømmen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Den samlede resistansen i en parallellkobling er større enn den største enkeltresistansen.",
+        "correct": false,
+        "explain": "Den er mindre enn den minste."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Et amperemeter skal ha svært liten resistans.",
+        "correct": true,
+        "explain": "Ellers påvirker det strømmen det skal måle."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Elektronene i en ledning beveger seg fra pluss til minus.",
+        "correct": false,
+        "explain": "Elektronene går fra minus til pluss; strømretningen er definert motsatt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva skjer med resistansen i en ledning hvis lengden dobles?",
+        "options": [
+          "Den halveres",
+          "Den dobles",
+          "Den er uendret",
+          "Den firedobles"
+        ],
+        "correct": 1,
+        "explain": "R = ρL/A."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er enheten for spenning?",
+        "options": [
+          "Volt",
+          "Ampere",
+          "Ohm",
+          "Watt"
+        ],
+        "correct": 0,
+        "explain": "1 V = 1 J/C."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva gjør en sikring?",
+        "options": [
+          "Øker spenningen",
+          "Lagrer energi",
+          "Bryter kretsen når strømmen blir for stor",
+          "Måler effekten"
+        ],
+        "correct": 2,
+        "explain": "Den hindrer overoppheting og brann."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva det betyr at elektrisk ladning er bevart.",
+        "fasit": "Ladning kan flyttes fra ett sted til et annet, men den kan ikke skapes eller forsvinne.",
+        "kriterier": [
+          "Beskriver at ladning kan flyttes.",
+          "Forklarer at ladning ikke skapes eller forsvinner."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En strøm på 3,0 A går i 2,0 s. Hvor stor ladning passerer? Vis det viktigste regnetrinnet.",
+        "fasit": "Fra I = Q/t får vi Q = I · t = 3,0 A · 2,0 s = 6,0 C.",
+        "kriterier": [
+          "Bruker sammenhengen Q = I · t.",
+          "Får svaret 6,0 C."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign seriekobling og parallellkobling når det gjelder strømmen og spenningen over komponentene.",
+        "fasit": "I en seriekobling er strømmen den samme gjennom alle komponentene. I en parallellkobling er spenningen den samme over alle greinene.",
+        "kriterier": [
+          "Sier at strømmen er lik gjennom komponentene i en seriekobling.",
+          "Sier at spenningen er lik over greinene i en parallellkobling."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En resistor på 4,0 Ω har en strøm på 3,0 A. Finn spenningen over resist​​oren ved hjelp av Ohms lov.",
+        "fasit": "Ohms lov gir U = R · I = 4,0 Ω · 3,0 A = 12 V.",
+        "kriterier": [
+          "Bruker Ohms lov, U = R · I.",
+          "Får svaret 12 V."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar forskjellen på strøm og spenning, og oppgi hva hver av dem beskriver.",
+        "fasit": "Strøm beskriver hvor mye ladning som passerer per tid, og måles i ampere. Spenning beskriver energi per ladning og måles i volt.",
+        "kriterier": [
+          "Forklarer strøm som ladning per tid.",
+          "Forklarer spenning som energi per ladning."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "To ledninger er laget av samme materiale og har samme tverrsnittsareal, men den ene er lengre. Hvilken ledning har størst resistans, og hvorfor?",
+        "fasit": "Den lengre ledningen har størst resistans. For samme materiale og tverrsnittsareal øker resistansen med lengden.",
+        "kriterier": [
+          "Peker ut den lengre ledningen som den med størst resistans.",
+          "Begrunner svaret med at resistansen øker med lengden når materialet og tverrsnittsarealet er likt."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hvordan skal et amperemeter kobles i en krets, og hvilken resistans bør det ha?",
+        "fasit": "Amperemeteret kobles i serie med komponentene. Det bør ha svært liten resistans.",
+        "kriterier": [
+          "Sier at amperemeteret kobles i serie.",
+          "Sier at det skal ha svært liten resistans."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar forskjellen på hva en sikring og en jordfeilbryter reagerer på.",
+        "fasit": "En sikring bryter kretsen når strømmen blir for stor. En jordfeilbryter bryter når strøm lekker ut av kretsen.",
+        "kriterier": [
+          "Knytter sikringen til at strømmen blir for stor.",
+          "Knytter jordfeilbryteren til strømlekkasje ut av kretsen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

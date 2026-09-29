@@ -4,76 +4,418 @@
   "trinnId": "vg2",
   "name": "Funksjonsanalyse med derivasjon",
   "intro": "Hvordan du bruker fortegnslinje for den deriverte til å finne hvor en funksjon vokser og avtar, topp- og bunnpunkter, vendepunkter – og hvordan du tolker disse punktene i modeller av reelle data.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Den deriverte forteller hvordan grafen går\n\n- f′(x) > 0 ⇒ f **vokser**\n- f′(x) < 0 ⇒ f **avtar**\n- f′(x) = 0 ⇒ **vannrett tangent**\n\n## Fortegnslinje for f′\n\n1. Deriver f.\n2. **Faktoriser** f′.\n3. Tegn en fortegnslinje for hver faktor og for produktet.\n4. Les av hvor f′ er positiv og negativ.\n\n## Et fullstendig eksempel\n\nf(x) = x³ − 6x² + 9x + 1\n\nf′(x) = 3x² − 12x + 9 = 3(x² − 4x + 3) = **3(x − 1)(x − 3)**\n\n- For x < 1 er begge faktorene negative, så f′ > 0 → f **vokser**.\n- For 1 < x < 3 er f′ < 0 → f **avtar**.\n- For x > 3 er f′ > 0 → f **vokser**.\n\n**Toppunkt**: f′ skifter fra + til − i x = 1. f(1) = 1 − 6 + 9 + 1 = 5, så toppunktet er **(1, 5)**.\n\n**Bunnpunkt**: f′ skifter fra − til + i x = 3. f(3) = 27 − 54 + 27 + 1 = 1, så bunnpunktet er **(3, 1)**.\n\n## Vendepunkt\n\nDen **andrederiverte** f″ forteller om grafen krummer **opp** (f″ > 0) eller **ned** (f″ < 0). Der f″ **skifter fortegn**, har grafen et **vendepunkt**.\n\nf″(x) = 6x − 12, som er null i x = 2. f(2) = 8 − 24 + 18 + 1 = 3, så vendepunktet er **(2, 3)**. Der **avtar** funksjonen raskest.\n\n## Terrassepunkt\n\nHvis f′ = 0 **uten** fortegnsskifte, er punktet verken topp- eller bunnpunkt, men et **terrassepunkt**. Eksempel: f(x) = x³ i x = 0.\n\n## Lokale og globale ekstremalpunkter\n\nNår definisjonsmengden er et **lukket intervall**, kan den største eller minste verdien ligge i et **endepunkt**. Regn derfor alltid ut f i endepunktene også.\n\nFor f(x) = x³ − 6x² + 9x + 1 på [0, 5] er f(0) = 1 og f(5) = 125 − 150 + 45 + 1 = 21. Den **største verdien** er altså 21 i endepunktet x = 5, ikke 5 i toppunktet.\n\n## Tolke modeller\n\nFunksjonsanalyse gir svar på praktiske spørsmål:\n\n- **Når** var arbeidsledigheten høyest?\n- **Når** vokste salget raskest? (vendepunktet)\n- **Hvor stor** var den største verdien?\n\nNår modellen er laget fra **reelle data**, må du vurdere om punktene er **rimelige** – og om modellen gjelder utenfor perioden dataene dekker.\n\n## Digitale verktøy\n\nI GeoGebra finner du topp- og bunnpunkter med **Ekstremalpunkt(f)** og vendepunkter med **Vendepunkt(f)**. I CAS kan du løse **f′(x) = 0** direkte. Husk likevel å **begrunne** svaret, for eksempel med en fortegnslinje.",
   "flashcards": [
-    { "term": "f′(x) > 0", "def": "f vokser." },
-    { "term": "f′(x) < 0", "def": "f avtar." },
-    { "term": "Toppunkt", "def": "f′ skifter fra + til −." },
-    { "term": "Bunnpunkt", "def": "f′ skifter fra − til +." },
-    { "term": "Terrassepunkt", "def": "f′ = 0 uten fortegnsskifte." },
-    { "term": "Fortegnslinje", "def": "Viser hvor f′ er positiv og negativ." },
-    { "term": "f″(x) > 0", "def": "Grafen krummer opp." },
-    { "term": "f″(x) < 0", "def": "Grafen krummer ned." },
-    { "term": "Vendepunkt", "def": "Der f″ skifter fortegn – raskest økning eller nedgang." },
-    { "term": "f(x) = x³ − 6x² + 9x + 1", "def": "Topp (1, 5), bunn (3, 1), vendepunkt (2, 3)." },
-    { "term": "f′(x) = 3(x − 1)(x − 3)", "def": "Nullpunkter i x = 1 og x = 3." },
-    { "term": "Lukket intervall", "def": "Sjekk også endepunktene." },
-    { "term": "Globalt maksimum", "def": "Største verdi i hele definisjonsmengden." },
-    { "term": "Ekstremalpunkt(f)", "def": "GeoGebra-kommando for topp- og bunnpunkter." },
-    { "term": "Vendepunkt(f)", "def": "GeoGebra-kommando for vendepunkter." }
+    {
+      "term": "f′(x) > 0",
+      "def": "f vokser."
+    },
+    {
+      "term": "f′(x) < 0",
+      "def": "f avtar."
+    },
+    {
+      "term": "Toppunkt",
+      "def": "f′ skifter fra + til −."
+    },
+    {
+      "term": "Bunnpunkt",
+      "def": "f′ skifter fra − til +."
+    },
+    {
+      "term": "Terrassepunkt",
+      "def": "f′ = 0 uten fortegnsskifte."
+    },
+    {
+      "term": "Fortegnslinje",
+      "def": "Viser hvor f′ er positiv og negativ."
+    },
+    {
+      "term": "f″(x) > 0",
+      "def": "Grafen krummer opp."
+    },
+    {
+      "term": "f″(x) < 0",
+      "def": "Grafen krummer ned."
+    },
+    {
+      "term": "Vendepunkt",
+      "def": "Der f″ skifter fortegn – raskest økning eller nedgang."
+    },
+    {
+      "term": "f(x) = x³ − 6x² + 9x + 1",
+      "def": "Topp (1, 5), bunn (3, 1), vendepunkt (2, 3)."
+    },
+    {
+      "term": "f′(x) = 3(x − 1)(x − 3)",
+      "def": "Nullpunkter i x = 1 og x = 3."
+    },
+    {
+      "term": "Lukket intervall",
+      "def": "Sjekk også endepunktene."
+    },
+    {
+      "term": "Globalt maksimum",
+      "def": "Største verdi i hele definisjonsmengden."
+    },
+    {
+      "term": "Ekstremalpunkt(f)",
+      "def": "GeoGebra-kommando for topp- og bunnpunkter."
+    },
+    {
+      "term": "Vendepunkt(f)",
+      "def": "GeoGebra-kommando for vendepunkter."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvordan faktoriseres f′(x) = 3x² − 12x + 9?", "options": ["3(x + 1)(x + 3)", "3(x − 1)(x − 3)", "(3x − 1)(x − 9)", "3(x − 2)²"], "correct": 1, "explain": "x² − 4x + 3 = (x − 1)(x − 3)." },
-    { "id": "q02", "text": "f(x) = x³ − 6x² + 9x + 1. Hva er toppunktet?", "options": ["(1, 5)", "(3, 1)", "(2, 3)", "(0, 1)"], "correct": 0, "explain": "f′ skifter fra + til − i x = 1." },
-    { "id": "q03", "text": "Hva er vendepunktet til f(x) = x³ − 6x² + 9x + 1?", "options": ["(1, 5)", "(3, 1)", "(2, 3)", "(0, 1)"], "correct": 2, "explain": "f″(x) = 6x − 12 = 0 gir x = 2." },
-    { "id": "q04", "text": "Hva skjer i et vendepunkt?", "options": ["f′ = 0 alltid", "Funksjonen har sin største verdi", "Funksjonen skifter fortegn", "Krumningen endrer seg, og endringen er raskest eller langsomst"], "correct": 3, "explain": "f″ skifter fortegn." },
-    { "id": "q05", "text": "Hva er den største verdien til f(x) = x³ − 6x² + 9x + 1 på [0, 5]?", "options": ["21", "5", "1", "3"], "correct": 0, "explain": "f(5) = 21 er større enn toppunktets 5." },
-    { "id": "q06", "text": "Hva har f(x) = x³ i x = 0?", "options": ["Toppunkt", "Terrassepunkt", "Bunnpunkt", "Asymptote"], "correct": 1, "explain": "f′ = 0 uten fortegnsskifte." },
-    { "id": "q07", "text": "Hvor avtar f(x) = x³ − 6x² + 9x + 1?", "options": ["x < 1", "x > 3", "1 < x < 3", "Overalt"], "correct": 2, "explain": "f′ < 0 mellom nullpunktene." },
-    { "id": "q08", "text": "En modell viser salget av en vare. Hva forteller vendepunktet?", "options": ["Når salget var størst", "Når salget var minst", "Når varen ble lansert", "Når salget vokste eller sank raskest"], "correct": 3, "explain": "f′ har et ekstremalpunkt der." },
-    { "id": "q09", "text": "Hvorfor bør du begrunne svaret med fortegnslinje, selv om GeoGebra finner punktet?", "options": ["For å vise at det er et topp- eller bunnpunkt", "Fordi GeoGebra alltid tar feil", "Fordi fortegnslinjer er påbudt i alle oppgaver", "Det er ikke nødvendig"], "correct": 0, "explain": "Argumentasjonen er en del av løsningen." },
-    { "id": "q10", "text": "Hva betyr f″(x) > 0?", "options": ["f vokser", "Grafen krummer opp", "f er positiv", "f har toppunkt"], "correct": 1, "explain": "Stigningstallet øker." }
+    {
+      "id": "q01",
+      "text": "Hvordan faktoriseres f′(x) = 3x² − 12x + 9?",
+      "options": [
+        "3(x + 1)(x + 3)",
+        "3(x − 1)(x − 3)",
+        "(3x − 1)(x − 9)",
+        "3(x − 2)²"
+      ],
+      "correct": 1,
+      "explain": "x² − 4x + 3 = (x − 1)(x − 3)."
+    },
+    {
+      "id": "q02",
+      "text": "f(x) = x³ − 6x² + 9x + 1. Hva er toppunktet?",
+      "options": [
+        "(1, 5)",
+        "(3, 1)",
+        "(2, 3)",
+        "(0, 1)"
+      ],
+      "correct": 0,
+      "explain": "f′ skifter fra + til − i x = 1."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er vendepunktet til f(x) = x³ − 6x² + 9x + 1?",
+      "options": [
+        "(1, 5)",
+        "(3, 1)",
+        "(2, 3)",
+        "(0, 1)"
+      ],
+      "correct": 2,
+      "explain": "f″(x) = 6x − 12 = 0 gir x = 2."
+    },
+    {
+      "id": "q04",
+      "text": "Hva skjer i et vendepunkt?",
+      "options": [
+        "f′ = 0 alltid",
+        "Funksjonen har sin største verdi",
+        "Funksjonen skifter fortegn",
+        "Krumningen endrer seg, og endringen er raskest eller langsomst"
+      ],
+      "correct": 3,
+      "explain": "f″ skifter fortegn."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er den største verdien til f(x) = x³ − 6x² + 9x + 1 på [0, 5]?",
+      "options": [
+        "21",
+        "5",
+        "1",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "f(5) = 21 er større enn toppunktets 5."
+    },
+    {
+      "id": "q06",
+      "text": "Hva har f(x) = x³ i x = 0?",
+      "options": [
+        "Toppunkt",
+        "Terrassepunkt",
+        "Bunnpunkt",
+        "Asymptote"
+      ],
+      "correct": 1,
+      "explain": "f′ = 0 uten fortegnsskifte."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor avtar f(x) = x³ − 6x² + 9x + 1?",
+      "options": [
+        "x < 1",
+        "x > 3",
+        "1 < x < 3",
+        "Overalt"
+      ],
+      "correct": 2,
+      "explain": "f′ < 0 mellom nullpunktene."
+    },
+    {
+      "id": "q08",
+      "text": "En modell viser salget av en vare. Hva forteller vendepunktet?",
+      "options": [
+        "Når salget var størst",
+        "Når salget var minst",
+        "Når varen ble lansert",
+        "Når salget vokste eller sank raskest"
+      ],
+      "correct": 3,
+      "explain": "f′ har et ekstremalpunkt der."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor bør du begrunne svaret med fortegnslinje, selv om GeoGebra finner punktet?",
+      "options": [
+        "For å vise at det er et topp- eller bunnpunkt",
+        "Fordi GeoGebra alltid tar feil",
+        "Fordi fortegnslinjer er påbudt i alle oppgaver",
+        "Det er ikke nødvendig"
+      ],
+      "correct": 0,
+      "explain": "Argumentasjonen er en del av løsningen."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr f″(x) > 0?",
+      "options": [
+        "f vokser",
+        "Grafen krummer opp",
+        "f er positiv",
+        "f har toppunkt"
+      ],
+      "correct": 1,
+      "explain": "Stigningstallet øker."
+    }
   ],
   "mindmap": {
     "label": "Funksjonsanalyse",
     "children": [
-      { "label": "f′", "children": [
-        { "label": "Vokser og avtar" },
-        { "label": "Fortegnslinje" }
-      ] },
-      { "label": "Punkter", "children": [
-        { "label": "Toppunkt" },
-        { "label": "Bunnpunkt" },
-        { "label": "Terrassepunkt" }
-      ] },
-      { "label": "f″", "children": [
-        { "label": "Krumning" },
-        { "label": "Vendepunkt" }
-      ] },
-      { "label": "Globalt", "children": [
-        { "label": "Endepunkter" },
-        { "label": "Største og minste verdi" }
-      ] },
-      { "label": "Modeller", "children": [
-        { "label": "Tolke punktene" },
-        { "label": "Vurdere gyldighet" },
-        { "label": "GeoGebra" }
-      ] }
+      {
+        "label": "f′",
+        "children": [
+          {
+            "label": "Vokser og avtar"
+          },
+          {
+            "label": "Fortegnslinje"
+          }
+        ]
+      },
+      {
+        "label": "Punkter",
+        "children": [
+          {
+            "label": "Toppunkt"
+          },
+          {
+            "label": "Bunnpunkt"
+          },
+          {
+            "label": "Terrassepunkt"
+          }
+        ]
+      },
+      {
+        "label": "f″",
+        "children": [
+          {
+            "label": "Krumning"
+          },
+          {
+            "label": "Vendepunkt"
+          }
+        ]
+      },
+      {
+        "label": "Globalt",
+        "children": [
+          {
+            "label": "Endepunkter"
+          },
+          {
+            "label": "Største og minste verdi"
+          }
+        ]
+      },
+      {
+        "label": "Modeller",
+        "children": [
+          {
+            "label": "Tolke punktene"
+          },
+          {
+            "label": "Vurdere gyldighet"
+          },
+          {
+            "label": "GeoGebra"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Den største verdien på et lukket intervall kan ligge i et endepunkt.", "correct": true, "explain": "Derfor må endepunktene sjekkes." },
-      { "id": "m02", "type": "sant-usant", "text": "Alle punkter med f′(x) = 0 er toppunkter.", "correct": false, "explain": "De kan også være bunn- eller terrassepunkter." },
-      { "id": "m03", "type": "sant-usant", "text": "I vendepunktet til f har f′ et ekstremalpunkt.", "correct": true, "explain": "Vekstfarten er størst eller minst der." },
-      { "id": "m04", "type": "sant-usant", "text": "En modell laget fra data gjelder alltid langt utenfor dataperioden.", "correct": false, "explain": "Gyldigheten må vurderes." },
-      { "id": "m05", "type": "flervalg", "text": "f(x) = −x² + 8x − 7. Hva er toppunktet?", "options": ["(8, −7)", "(4, 9)", "(4, 23)", "(−4, −55)"], "correct": 1, "explain": "f′(x) = −2x + 8 = 0 gir x = 4, f(4) = 9." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor vokser f(x) = x² − 6x?", "options": ["x > 3", "x < 3", "x > 6", "Overalt"], "correct": 0, "explain": "f′(x) = 2x − 6 > 0 for x > 3." },
-      { "id": "m07", "type": "flervalg", "text": "Hva er f″(x) når f(x) = x³ − 6x² + 9x + 1?", "options": ["3x² − 12x + 9", "6x", "6x − 12", "6"], "correct": 2, "explain": "Deriver f′ én gang til." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Den største verdien på et lukket intervall kan ligge i et endepunkt.",
+        "correct": true,
+        "explain": "Derfor må endepunktene sjekkes."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle punkter med f′(x) = 0 er toppunkter.",
+        "correct": false,
+        "explain": "De kan også være bunn- eller terrassepunkter."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "I vendepunktet til f har f′ et ekstremalpunkt.",
+        "correct": true,
+        "explain": "Vekstfarten er størst eller minst der."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En modell laget fra data gjelder alltid langt utenfor dataperioden.",
+        "correct": false,
+        "explain": "Gyldigheten må vurderes."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "f(x) = −x² + 8x − 7. Hva er toppunktet?",
+        "options": [
+          "(8, −7)",
+          "(4, 9)",
+          "(4, 23)",
+          "(−4, −55)"
+        ],
+        "correct": 1,
+        "explain": "f′(x) = −2x + 8 = 0 gir x = 4, f(4) = 9."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor vokser f(x) = x² − 6x?",
+        "options": [
+          "x > 3",
+          "x < 3",
+          "x > 6",
+          "Overalt"
+        ],
+        "correct": 0,
+        "explain": "f′(x) = 2x − 6 > 0 for x > 3."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er f″(x) når f(x) = x³ − 6x² + 9x + 1?",
+        "options": [
+          "3x² − 12x + 9",
+          "6x",
+          "6x − 12",
+          "6"
+        ],
+        "correct": 2,
+        "explain": "Deriver f′ én gang til."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva forteller fortegnslinjen til f′ om hvor en funksjon vokser og avtar?",
+        "fasit": "Når f′ er positiv, vokser funksjonen, og når f′ er negativ, avtar den. Fortegnslinjen viser hvilke intervaller dette gjelder på.",
+        "kriterier": [
+          "Knytter positiv f′ til at funksjonen vokser og negativ f′ til at den avtar.",
+          "Forklarer at fortegnslinjen viser hvor fortegnene gjelder."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar forskjellen på hva f′ og f″ forteller om en graf.",
+        "fasit": "f′ forteller om funksjonen vokser eller avtar, mens f″ forteller om grafen krummer opp eller ned. Positiv f″ betyr at grafen krummer opp, og negativ f″ betyr at den krummer ned.",
+        "kriterier": [
+          "Skiller mellom f′ som beskriver vekst eller avtakning, og f″ som beskriver krumning.",
+          "Knytter fortegnet til f″ til om grafen krummer opp eller ned."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En funksjon er definert på et lukket intervall og har et toppunkt inne i intervallet. Hvorfor er ikke dette nok til å vite hvor funksjonen har sitt globale maksimum?",
+        "fasit": "Det globale maksimumet kan ligge i et endepunkt, selv om funksjonen har et toppunkt inne i intervallet. Derfor må funksjonsverdiene i begge endepunktene også undersøkes og sammenlignes.",
+        "kriterier": [
+          "Nevner at et endepunkt kan ha større funksjonsverdi enn toppunktet inne i intervallet.",
+          "Forklarer at funksjonsverdiene i endepunktene må sjekkes og sammenlignes."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "For en funksjon er f′(x) = 3(x − 1)(x − 3). Regn ut f′(2), og bruk svaret til å si om funksjonen vokser eller avtar ved x = 2.",
+        "fasit": "f′(2) = 3(2 − 1)(2 − 3) = −3. Siden f′(2) er negativ, avtar funksjonen ved x = 2.",
+        "kriterier": [
+          "Regner riktig ut at f′(2) = −3.",
+          "Slutter at funksjonen avtar fordi den deriverte er negativ."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "For f(x) = x³ − 6x² + 9x + 1 regn ut f(4). Vis det viktigste regnestykket.",
+        "fasit": "f(4) = 4³ − 6 · 4² + 9 · 4 + 1 = 64 − 96 + 36 + 1 = 5.",
+        "kriterier": [
+          "Setter x = 4 riktig inn i funksjonsuttrykket.",
+          "Regner riktig ut at f(4) = 5."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En modell for arbeidsledighet er laget fra data som bare dekker en bestemt periode. Modellen viser et maksimum etter denne perioden. Hva bør du vurdere før du stoler på denne prediksjonen?",
+        "fasit": "Du bør vurdere om punktet modellen viser, er rimelig. Du bør også være forsiktig med å stole på modellen utenfor perioden dataene dekker.",
+        "kriterier": [
+          "Nevner at det må vurderes om punktet eller prediksjonen er rimelig.",
+          "Nevner at modellen ikke nødvendigvis gjelder utenfor perioden dataene dekker."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I GeoGebra skal du finne topp- og bunnpunkter for f og vendepunktene til f. Hvilken kommando bruker du for hver av disse oppgavene?",
+        "fasit": "Bruk Ekstremalpunkt(f) for topp- og bunnpunkter og Vendepunkt(f) for vendepunktene.",
+        "kriterier": [
+          "Oppgir Ekstremalpunkt(f) for topp- og bunnpunkter.",
+          "Oppgir Vendepunkt(f) for vendepunktene."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En funksjonsderivert er positiv like før x = a og negativ like etter x = a. Hva forteller dette om grafen ved x = a, og hvorfor?",
+        "fasit": "Grafen har et toppunkt ved x = a. Funksjonen går fra å vokse til å avta fordi f′ skifter fra positiv til negativ.",
+        "kriterier": [
+          "Identifiserer punktet som et toppunkt.",
+          "Begrunner det med at f′ skifter fra positiv til negativ."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

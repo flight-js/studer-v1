@@ -4,76 +4,418 @@
   "trinnId": "vg2",
   "name": "Likninger, likningssett og ulikheter",
   "intro": "Strategier for å løse likninger, likningssett og ulikheter – algebraisk, grafisk, med tabell og med CAS – anvendt på praktiske problemer som sammenligning av abonnementer og billettpriser, og hvordan du argumenterer for framgangsmåten.",
-  "kompetansemaal": [3],
+  "kompetansemaal": [
+    3
+  ],
   "sammendrag": "## Likninger\n\nEn **likning** løses ved å gjøre **det samme på begge sider** til den ukjente står alene:\n\n3x − 5 = 16 → 3x = 21 → **x = 7**\n\nx/4 + 2 = 5 → x/4 = 3 → **x = 12**\n\n**Sett prøve**: 3 · 7 − 5 = 16. ✓\n\n## Praktisk eksempel: abonnement\n\nAbonnement A koster 99 kr i måneden pluss 0,50 kr per minutt. Abonnement B koster 199 kr i måneden uansett bruk. Når koster de like mye?\n\n99 + 0,5x = 199 → 0,5x = 100 → **x = 200**\n\nVed **200 minutter** koster de like mye.\n\n## Ulikheter\n\nEn **ulikhet** bruker tegnene **<**, **>**, **≤** eller **≥**. Når er abonnement A billigst?\n\n99 + 0,5x < 199 → **x < 200**\n\nA er billigst når du ringer **mindre enn 200 minutter**.\n\nUlikheter løses som likninger, med ett viktig unntak: Når du **ganger eller deler med et negativt tall**, må du **snu ulikhetstegnet**:\n\n−2x > 6 → **x < −3**\n\n## Likningssett\n\nEt **likningssett** har **to ukjente** og **to likninger**.\n\nEn klasse kjøper 30 billetter til en konsert. Elevbilletter koster 100 kr og voksenbilletter 150 kr. Til sammen betaler de 3500 kr. Hvor mange av hver?\n\nx + y = 30\n100x + 150y = 3500\n\n**Innsettingsmetoden**: Fra den første likningen er x = 30 − y. Sett inn:\n100(30 − y) + 150y = 3500 → 3000 + 50y = 3500 → **y = 10**, og **x = 20**.\n\nDet er altså **20 elevbilletter** og **10 voksenbilletter**.\n\n## Flere strategier\n\n- **Grafisk**: Tegn begge linjene i GeoGebra og finn **skjæringspunktet** med kommandoen **Skjæring**.\n- **Tabell**: Prøv ulike verdier systematisk – nyttig for å forstå problemet.\n- **CAS**: Bruk **Løs** i GeoGebra for likninger og likningssett.\n- **Prøving og feiling**: Kan gi et første inntrykk, men er ikke alltid effektivt.\n\n## Argumentere for tenkemåten\n\nNår du løser et praktisk problem, bør du\n\n1. **Definere** hva de ukjente står for (x = antall minutter).\n2. **Sette opp** likningen eller ulikheten og **forklare** hvorfor.\n3. **Løse** og **kontrollere**.\n4. **Svare** med ord og enheter: *Abonnement A er billigst hvis du ringer mindre enn 200 minutter i måneden.*\n5. **Vurdere** om svaret er rimelig.",
   "flashcards": [
-    { "term": "Likning", "def": "Likhet med en ukjent som skal finnes." },
-    { "term": "Samme på begge sider", "def": "Grunnregelen for å løse likninger." },
-    { "term": "Sette prøve", "def": "Å sette løsningen inn i likningen for å kontrollere." },
-    { "term": "Ulikhet", "def": "Sammenligning med <, >, ≤ eller ≥." },
-    { "term": "Snu ulikhetstegnet", "def": "Når man ganger eller deler med et negativt tall." },
-    { "term": "Likningssett", "def": "To likninger med to ukjente som skal være oppfylt samtidig." },
-    { "term": "Innsettingsmetoden", "def": "Løs én likning for en ukjent og sett inn i den andre." },
-    { "term": "Grafisk løsning", "def": "Skjæringspunktet mellom linjene." },
-    { "term": "Skjæring", "def": "GeoGebra-kommando for skjæringspunkt." },
-    { "term": "Løs", "def": "CAS-kommando i GeoGebra for likninger." },
-    { "term": "99 + 0,5x = 199", "def": "x = 200 – abonnementene koster like mye ved 200 minutter." },
-    { "term": "Definere ukjente", "def": "Å skrive hva x og y står for." },
-    { "term": "Svar med ord", "def": "Svar på spørsmålet i en hel setning med enhet." },
-    { "term": "Tabell som strategi", "def": "Prøve ulike verdier systematisk." },
-    { "term": "Rimelig svar", "def": "Et svar som gir mening i den praktiske situasjonen." }
+    {
+      "term": "Likning",
+      "def": "Likhet med en ukjent som skal finnes."
+    },
+    {
+      "term": "Samme på begge sider",
+      "def": "Grunnregelen for å løse likninger."
+    },
+    {
+      "term": "Sette prøve",
+      "def": "Å sette løsningen inn i likningen for å kontrollere."
+    },
+    {
+      "term": "Ulikhet",
+      "def": "Sammenligning med <, >, ≤ eller ≥."
+    },
+    {
+      "term": "Snu ulikhetstegnet",
+      "def": "Når man ganger eller deler med et negativt tall."
+    },
+    {
+      "term": "Likningssett",
+      "def": "To likninger med to ukjente som skal være oppfylt samtidig."
+    },
+    {
+      "term": "Innsettingsmetoden",
+      "def": "Løs én likning for en ukjent og sett inn i den andre."
+    },
+    {
+      "term": "Grafisk løsning",
+      "def": "Skjæringspunktet mellom linjene."
+    },
+    {
+      "term": "Skjæring",
+      "def": "GeoGebra-kommando for skjæringspunkt."
+    },
+    {
+      "term": "Løs",
+      "def": "CAS-kommando i GeoGebra for likninger."
+    },
+    {
+      "term": "99 + 0,5x = 199",
+      "def": "x = 200 – abonnementene koster like mye ved 200 minutter."
+    },
+    {
+      "term": "Definere ukjente",
+      "def": "Å skrive hva x og y står for."
+    },
+    {
+      "term": "Svar med ord",
+      "def": "Svar på spørsmålet i en hel setning med enhet."
+    },
+    {
+      "term": "Tabell som strategi",
+      "def": "Prøve ulike verdier systematisk."
+    },
+    {
+      "term": "Rimelig svar",
+      "def": "Et svar som gir mening i den praktiske situasjonen."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Løs likningen 3x − 5 = 16.", "options": ["x = 3", "x = 7", "x = 11/3", "x = 21"], "correct": 1, "explain": "3x = 21, så x = 7." },
-    { "id": "q02", "text": "Løs likningen x/4 + 2 = 5.", "options": ["x = 12", "x = 3", "x = 28", "x = 7"], "correct": 0, "explain": "x/4 = 3, så x = 12." },
-    { "id": "q03", "text": "Abonnement A koster 99 kr + 0,50 kr per minutt, B koster 199 kr fast. Ved hvor mange minutter koster de like mye?", "options": ["100", "50", "200", "400"], "correct": 2, "explain": "99 + 0,5x = 199 gir x = 200." },
-    { "id": "q04", "text": "Løs ulikheten −2x > 6.", "options": ["x > −3", "x > 3", "x < 3", "x < −3"], "correct": 3, "explain": "Deler vi på −2, må vi snu tegnet." },
-    { "id": "q05", "text": "Hvordan finner du løsningen av et likningssett grafisk?", "options": ["Skjæringspunktet mellom linjene", "Der linjene skjærer y-aksen", "Nullpunktet til den ene linjen", "Stigningstallet"], "correct": 0, "explain": "Skjæringspunktet oppfyller begge likningene." },
-    { "id": "q06", "text": "En klasse kjøper 30 billetter til 100 kr og 150 kr, til sammen 3500 kr. Hvor mange billetter til 150 kr?", "options": ["20", "10", "15", "5"], "correct": 1, "explain": "Innsetting gir y = 10." },
-    { "id": "q07", "text": "Når er abonnement A (99 + 0,5x) billigere enn B (199 kr)?", "options": ["Når x > 200", "Når x = 200", "Når x < 200", "Aldri"], "correct": 2, "explain": "99 + 0,5x < 199 gir x < 200." },
-    { "id": "q08", "text": "Hvilken GeoGebra-kommando løser likninger i CAS?", "options": ["Skjæring", "Nullpunkt", "RegLin", "Løs"], "correct": 3, "explain": "Løs kan også løse likningssett." },
-    { "id": "q09", "text": "Hvorfor bør du definere hva x står for?", "options": ["Så det er tydelig hva svaret betyr i praksis", "Fordi det gjør likningen lengre", "Fordi x alltid er minutter", "Det er ikke nødvendig"], "correct": 0, "explain": "Det gjør argumentasjonen klar." },
-    { "id": "q10", "text": "Løs ulikheten 2x + 3 ≤ 11.", "options": ["x ≥ 4", "x ≤ 4", "x ≤ 7", "x ≥ 7"], "correct": 1, "explain": "2x ≤ 8, så x ≤ 4." }
+    {
+      "id": "q01",
+      "text": "Løs likningen 3x − 5 = 16.",
+      "options": [
+        "x = 3",
+        "x = 7",
+        "x = 11/3",
+        "x = 21"
+      ],
+      "correct": 1,
+      "explain": "3x = 21, så x = 7."
+    },
+    {
+      "id": "q02",
+      "text": "Løs likningen x/4 + 2 = 5.",
+      "options": [
+        "x = 12",
+        "x = 3",
+        "x = 28",
+        "x = 7"
+      ],
+      "correct": 0,
+      "explain": "x/4 = 3, så x = 12."
+    },
+    {
+      "id": "q03",
+      "text": "Abonnement A koster 99 kr + 0,50 kr per minutt, B koster 199 kr fast. Ved hvor mange minutter koster de like mye?",
+      "options": [
+        "100",
+        "50",
+        "200",
+        "400"
+      ],
+      "correct": 2,
+      "explain": "99 + 0,5x = 199 gir x = 200."
+    },
+    {
+      "id": "q04",
+      "text": "Løs ulikheten −2x > 6.",
+      "options": [
+        "x > −3",
+        "x > 3",
+        "x < 3",
+        "x < −3"
+      ],
+      "correct": 3,
+      "explain": "Deler vi på −2, må vi snu tegnet."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan finner du løsningen av et likningssett grafisk?",
+      "options": [
+        "Skjæringspunktet mellom linjene",
+        "Der linjene skjærer y-aksen",
+        "Nullpunktet til den ene linjen",
+        "Stigningstallet"
+      ],
+      "correct": 0,
+      "explain": "Skjæringspunktet oppfyller begge likningene."
+    },
+    {
+      "id": "q06",
+      "text": "En klasse kjøper 30 billetter til 100 kr og 150 kr, til sammen 3500 kr. Hvor mange billetter til 150 kr?",
+      "options": [
+        "20",
+        "10",
+        "15",
+        "5"
+      ],
+      "correct": 1,
+      "explain": "Innsetting gir y = 10."
+    },
+    {
+      "id": "q07",
+      "text": "Når er abonnement A (99 + 0,5x) billigere enn B (199 kr)?",
+      "options": [
+        "Når x > 200",
+        "Når x = 200",
+        "Når x < 200",
+        "Aldri"
+      ],
+      "correct": 2,
+      "explain": "99 + 0,5x < 199 gir x < 200."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken GeoGebra-kommando løser likninger i CAS?",
+      "options": [
+        "Skjæring",
+        "Nullpunkt",
+        "RegLin",
+        "Løs"
+      ],
+      "correct": 3,
+      "explain": "Løs kan også løse likningssett."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor bør du definere hva x står for?",
+      "options": [
+        "Så det er tydelig hva svaret betyr i praksis",
+        "Fordi det gjør likningen lengre",
+        "Fordi x alltid er minutter",
+        "Det er ikke nødvendig"
+      ],
+      "correct": 0,
+      "explain": "Det gjør argumentasjonen klar."
+    },
+    {
+      "id": "q10",
+      "text": "Løs ulikheten 2x + 3 ≤ 11.",
+      "options": [
+        "x ≥ 4",
+        "x ≤ 4",
+        "x ≤ 7",
+        "x ≥ 7"
+      ],
+      "correct": 1,
+      "explain": "2x ≤ 8, så x ≤ 4."
+    }
   ],
   "mindmap": {
     "label": "Likninger og ulikheter",
     "children": [
-      { "label": "Likninger", "children": [
-        { "label": "Samme på begge sider" },
-        { "label": "Sette prøve" }
-      ] },
-      { "label": "Ulikheter", "children": [
-        { "label": "<, >, ≤, ≥" },
-        { "label": "Snu tegnet ved negativ faktor" }
-      ] },
-      { "label": "Likningssett", "children": [
-        { "label": "Innsetting" },
-        { "label": "Grafisk" },
-        { "label": "CAS" }
-      ] },
-      { "label": "Praktiske problemer", "children": [
-        { "label": "Abonnementer" },
-        { "label": "Billetter" }
-      ] },
-      { "label": "Argumentasjon", "children": [
-        { "label": "Definere ukjente" },
-        { "label": "Forklare oppsett" },
-        { "label": "Svare med ord" }
-      ] }
+      {
+        "label": "Likninger",
+        "children": [
+          {
+            "label": "Samme på begge sider"
+          },
+          {
+            "label": "Sette prøve"
+          }
+        ]
+      },
+      {
+        "label": "Ulikheter",
+        "children": [
+          {
+            "label": "<, >, ≤, ≥"
+          },
+          {
+            "label": "Snu tegnet ved negativ faktor"
+          }
+        ]
+      },
+      {
+        "label": "Likningssett",
+        "children": [
+          {
+            "label": "Innsetting"
+          },
+          {
+            "label": "Grafisk"
+          },
+          {
+            "label": "CAS"
+          }
+        ]
+      },
+      {
+        "label": "Praktiske problemer",
+        "children": [
+          {
+            "label": "Abonnementer"
+          },
+          {
+            "label": "Billetter"
+          }
+        ]
+      },
+      {
+        "label": "Argumentasjon",
+        "children": [
+          {
+            "label": "Definere ukjente"
+          },
+          {
+            "label": "Forklare oppsett"
+          },
+          {
+            "label": "Svare med ord"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Et likningssett med to ukjente trenger to likninger.", "correct": true, "explain": "Da kan begge de ukjente bestemmes." },
-      { "id": "m02", "type": "sant-usant", "text": "Når man deler begge sider av en ulikhet med et positivt tall, må man snu tegnet.", "correct": false, "explain": "Man snur bare ved negative tall." },
-      { "id": "m03", "type": "sant-usant", "text": "Å sette prøve betyr å kontrollere løsningen i den opprinnelige likningen.", "correct": true, "explain": "Venstre og høyre side skal bli like." },
-      { "id": "m04", "type": "sant-usant", "text": "Prøving og feiling er alltid den mest effektive strategien.", "correct": false, "explain": "Den kan gi innsikt, men er ofte ikke effektiv." },
-      { "id": "m05", "type": "flervalg", "text": "Løs likningen 5x + 10 = 35.", "options": ["x = 9", "x = 5", "x = 7", "x = 25"], "correct": 1, "explain": "5x = 25, så x = 5." },
-      { "id": "m06", "type": "flervalg", "text": "Fra x + y = 30 får du x = …", "options": ["30 − y", "30 + y", "y − 30", "30y"], "correct": 0, "explain": "Trekk y fra begge sider." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket svar er best formulert?", "options": ["200", "x = 200", "Abonnementene koster like mye ved 200 minutter i måneden.", "A"], "correct": 2, "explain": "Et godt svar har ord og enhet." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Et likningssett med to ukjente trenger to likninger.",
+        "correct": true,
+        "explain": "Da kan begge de ukjente bestemmes."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Når man deler begge sider av en ulikhet med et positivt tall, må man snu tegnet.",
+        "correct": false,
+        "explain": "Man snur bare ved negative tall."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Å sette prøve betyr å kontrollere løsningen i den opprinnelige likningen.",
+        "correct": true,
+        "explain": "Venstre og høyre side skal bli like."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Prøving og feiling er alltid den mest effektive strategien.",
+        "correct": false,
+        "explain": "Den kan gi innsikt, men er ofte ikke effektiv."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Løs likningen 5x + 10 = 35.",
+        "options": [
+          "x = 9",
+          "x = 5",
+          "x = 7",
+          "x = 25"
+        ],
+        "correct": 1,
+        "explain": "5x = 25, så x = 5."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Fra x + y = 30 får du x = …",
+        "options": [
+          "30 − y",
+          "30 + y",
+          "y − 30",
+          "30y"
+        ],
+        "correct": 0,
+        "explain": "Trekk y fra begge sider."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket svar er best formulert?",
+        "options": [
+          "200",
+          "x = 200",
+          "Abonnementene koster like mye ved 200 minutter i måneden.",
+          "A"
+        ],
+        "correct": 2,
+        "explain": "Et godt svar har ord og enhet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på en likning og en ulikhet. Ta med hvilke tegn som kan brukes i en ulikhet.",
+        "fasit": "En likning uttrykker at to sider er like, og har en ukjent som skal finnes. En ulikhet sammenligner størrelser med tegnene <, >, ≤ eller ≥.",
+        "kriterier": [
+          "Forklarer at en likning uttrykker likhet, mens en ulikhet sammenligner størrelser.",
+          "Nevner aktuelle ulikhetstegn."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Løs likningen 3x + 5 = 16. Vis det viktigste steget.",
+        "fasit": "Trekk fra 5 på begge sider: 3x = 11. Del på 3, så x = 11/3.",
+        "kriterier": [
+          "Trekker fra 5 på begge sider og får 3x = 11.",
+          "Deler på 3 og finner x = 11/3."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Løs likningen 100 + x = 150. Vis det viktigste steget.",
+        "fasit": "Trekk fra 100 på begge sider: x = 150 − 100. Derfor er x = 50.",
+        "kriterier": [
+          "Trekker fra 100 på begge sider.",
+          "Finner x = 50."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hva det betyr å sette prøve når du har løst en likning, og hva du undersøker.",
+        "fasit": "Å sette prøve betyr å sette løsningen inn i den opprinnelige likningen. Da undersøker du om venstre og høyre side blir like.",
+        "kriterier": [
+          "Forklarer at løsningen settes inn i den opprinnelige likningen.",
+          "Forklarer at sidene skal bli like dersom løsningen stemmer."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hva må du gjøre med ulikhetstegnet når du ganger eller deler begge sider av en ulikhet med et negativt tall? Forklar hvorfor dette er viktig.",
+        "fasit": "Du må snu ulikhetstegnet. Hvis du ikke gjør det, kan ulikheten vise feil sammenheng mellom sidene.",
+        "kriterier": [
+          "Sier at ulikhetstegnet må snus ved multiplikasjon eller divisjon med et negativt tall.",
+          "Forklarer at dette er nødvendig for at ulikheten fortsatt skal uttrykke riktig sammenheng."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et likningssett har to ukjente og to likninger. Forklar hva det vil si at et par verdier er en løsning av likningssettet.",
+        "fasit": "Verdiene må gjøre begge likningene sanne samtidig. Det holder ikke at de bare stemmer i én av likningene.",
+        "kriterier": [
+          "Forklarer at begge likningene må være oppfylt.",
+          "Får fram at de samme verdiene for de ukjente må brukes i begge likningene."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign tabell som strategi med prøving og feiling når du leter etter en løsning. Hva kjennetegner tabellmetoden?",
+        "fasit": "Med en tabell prøver du ulike verdier systematisk og kan sammenligne resultatene. Prøving og feiling kan gi et første inntrykk, men er ikke alltid effektivt.",
+        "kriterier": [
+          "Beskriver tabellmetoden som systematisk prøving av ulike verdier.",
+          "Får fram at prøving og feiling kan være mindre effektivt."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I et praktisk problem står x for antall minutter en person ringer. En utregning gir x = −3. Forklar hvorfor svaret ikke er rimelig, og hva det bør føre til at man undersøker.",
+        "fasit": "Et negativt antall ringeminutter gir ikke mening i situasjonen, så svaret er ikke rimelig. Du bør undersøke om likningen eller utregningen er satt opp og løst riktig.",
+        "kriterier": [
+          "Forklarer at et negativt antall minutter ikke gir mening i situasjonen.",
+          "Sier at oppsettet eller utregningen bør kontrolleres."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

@@ -4,76 +4,419 @@
   "trinnId": "vg3",
   "name": "Likevekt og massevirkningsloven",
   "intro": "Dynamisk likevekt, massevirkningsloven og likevektskonstanten, reaksjonskvotienten, beregninger med likevektstabeller og Le Châteliers prinsipp – med eksempler fra laboratoriet og industrien.",
-  "kompetansemaal": [5],
+  "kompetansemaal": [
+    5
+  ],
   "sammendrag": "## Dynamisk likevekt\n\nMange reaksjoner går **begge veier**. Når reaksjonen framover og bakover går like **fort**, er systemet i **likevekt**. Konsentrasjonene er da **konstante**, men reaksjonene har ikke stoppet – likevekten er **dynamisk**.\n\n## Massevirkningsloven\n\nFor reaksjonen aA + bB ⇌ cC + dD gjelder ved likevekt:\n\n**K = [C]ᶜ · [D]ᵈ / ([A]ᵃ · [B]ᵇ)**\n\n**K** er **likevektskonstanten**. Den er **konstant** ved en gitt **temperatur**.\n\n- Rene **faste stoffer** og **væsker**, som vann i vannløsninger, tas **ikke** med.\n- **Stor K** (mye større enn 1): likevekten ligger mot **produktene**.\n- **Liten K** (mye mindre enn 1): likevekten ligger mot **reaktantene**.\n\n## Reaksjonskvotienten\n\n**Q** regnes ut på samme måte som K, men med konsentrasjonene i et **vilkårlig** øyeblikk.\n\n- Q < K: reaksjonen går **mot høyre** (mot produktene).\n- Q > K: reaksjonen går **mot venstre**.\n- Q = K: systemet er i **likevekt**.\n\n## Beregninger med likevektstabell\n\nEn **likevektstabell** har tre rader: **start**, **endring** og **likevekt**.\n\n**Eksempel**: H₂(g) + I₂(g) ⇌ 2HI(g) har K = 49 ved en bestemt temperatur. Vi starter med 1,0 mol/L av både H₂ og I₂.\n\n| | H₂ | I₂ | HI |\n|---|---|---|---|\n| Start | 1,0 | 1,0 | 0 |\n| Endring | −x | −x | +2x |\n| Likevekt | 1,0 − x | 1,0 − x | 2x |\n\nK = (2x)² / (1,0 − x)² = 49. Vi tar kvadratroten: 2x / (1,0 − x) = 7, som gir x = 7/9 ≈ 0,78. Ved likevekt er [HI] ≈ **1,56 mol/L** og [H₂] = [I₂] ≈ **0,22 mol/L**.\n\n## Le Châteliers prinsipp\n\nNår et system i likevekt blir **forstyrret**, forskyves likevekten slik at forstyrrelsen **motvirkes**.\n\n- **Økt konsentrasjon** av en reaktant: likevekten forskyves mot **produktene**.\n- **Økt trykk** (mindre volum) for gasser: likevekten forskyves mot siden med **færrest gassmolekyler**.\n- **Økt temperatur**: likevekten forskyves i den **endoterme** retningen. Temperaturendring er det eneste som endrer **verdien av K**.\n- En **katalysator** gjør at likevekten nås **raskere**, men endrer **ikke** likevekten.\n\n## Industrielt eksempel: ammoniakk\n\nI **Haber–Bosch-prosessen** lages ammoniakk: N₂ + 3H₂ ⇌ 2NH₃, som er **eksoterm**.\n\n- **Høyt trykk** gir mer ammoniakk fordi produktsiden har færre gassmolekyler.\n- **Lav temperatur** gir mer ammoniakk ved likevekt, men reaksjonen går **langsomt**. Derfor brukes en **kompromisstemperatur** og en **jernkatalysator**.\n- Ammoniakken **fjernes** fortløpende, slik at mer dannes.\n\nAmmoniakk brukes til **kunstgjødsel** og er avgjørende for verdens matproduksjon.",
   "flashcards": [
-    { "term": "Dynamisk likevekt", "def": "Reaksjonen framover og bakover går like fort." },
-    { "term": "Massevirkningsloven", "def": "K = produktkonsentrasjoner delt på reaktantkonsentrasjoner, opphøyd i koeffisientene." },
-    { "term": "Likevektskonstant K", "def": "Konstant ved en gitt temperatur." },
-    { "term": "Stor K", "def": "Likevekten ligger mot produktene." },
-    { "term": "Reaksjonskvotient Q", "def": "Som K, men med konsentrasjonene i et vilkårlig øyeblikk." },
-    { "term": "Q < K", "def": "Reaksjonen går mot høyre." },
-    { "term": "Q > K", "def": "Reaksjonen går mot venstre." },
-    { "term": "Likevektstabell", "def": "Start, endring og likevekt for beregninger." },
-    { "term": "Le Châteliers prinsipp", "def": "Likevekten forskyves slik at forstyrrelsen motvirkes." },
-    { "term": "Trykkøkning", "def": "Forskyver likevekten mot siden med færrest gassmolekyler." },
-    { "term": "Temperaturøkning", "def": "Forskyver likevekten i endoterm retning og endrer K." },
-    { "term": "Katalysator og likevekt", "def": "Gir raskere likevekt, men endrer ikke likevekten." },
-    { "term": "Haber–Bosch-prosessen", "def": "Industriell produksjon av ammoniakk." },
-    { "term": "Kompromisstemperatur", "def": "Balanse mellom godt utbytte og rask reaksjon." },
-    { "term": "Rene faste stoffer i K", "def": "Tas ikke med i uttrykket for likevektskonstanten." }
+    {
+      "term": "Dynamisk likevekt",
+      "def": "Reaksjonen framover og bakover går like fort."
+    },
+    {
+      "term": "Massevirkningsloven",
+      "def": "K = produktkonsentrasjoner delt på reaktantkonsentrasjoner, opphøyd i koeffisientene."
+    },
+    {
+      "term": "Likevektskonstant K",
+      "def": "Konstant ved en gitt temperatur."
+    },
+    {
+      "term": "Stor K",
+      "def": "Likevekten ligger mot produktene."
+    },
+    {
+      "term": "Reaksjonskvotient Q",
+      "def": "Som K, men med konsentrasjonene i et vilkårlig øyeblikk."
+    },
+    {
+      "term": "Q < K",
+      "def": "Reaksjonen går mot høyre."
+    },
+    {
+      "term": "Q > K",
+      "def": "Reaksjonen går mot venstre."
+    },
+    {
+      "term": "Likevektstabell",
+      "def": "Start, endring og likevekt for beregninger."
+    },
+    {
+      "term": "Le Châteliers prinsipp",
+      "def": "Likevekten forskyves slik at forstyrrelsen motvirkes."
+    },
+    {
+      "term": "Trykkøkning",
+      "def": "Forskyver likevekten mot siden med færrest gassmolekyler."
+    },
+    {
+      "term": "Temperaturøkning",
+      "def": "Forskyver likevekten i endoterm retning og endrer K."
+    },
+    {
+      "term": "Katalysator og likevekt",
+      "def": "Gir raskere likevekt, men endrer ikke likevekten."
+    },
+    {
+      "term": "Haber–Bosch-prosessen",
+      "def": "Industriell produksjon av ammoniakk."
+    },
+    {
+      "term": "Kompromisstemperatur",
+      "def": "Balanse mellom godt utbytte og rask reaksjon."
+    },
+    {
+      "term": "Rene faste stoffer i K",
+      "def": "Tas ikke med i uttrykket for likevektskonstanten."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva kjennetegner dynamisk likevekt?", "options": ["Reaksjonene har stoppet", "Reaksjonen framover og bakover går like fort", "Bare produkter finnes", "Konsentrasjonene endrer seg hele tiden"], "correct": 1, "explain": "Konsentrasjonene er konstante." },
-    { "id": "q02", "text": "Hva betyr en svært stor K?", "options": ["Likevekten ligger mot produktene", "Likevekten ligger mot reaktantene", "Reaksjonen går ikke", "Reaksjonen er langsom"], "correct": 0, "explain": "Mye produkt ved likevekt." },
-    { "id": "q03", "text": "Q er mindre enn K. Hvilken vei går reaksjonen?", "options": ["Mot venstre", "Den står stille", "Mot høyre", "Den eksploderer"], "correct": 2, "explain": "Mot produktene til Q = K." },
-    { "id": "q04", "text": "Hva er det eneste som endrer verdien av K?", "options": ["Trykk", "Konsentrasjon", "Katalysator", "Temperatur"], "correct": 3, "explain": "Andre endringer forskyver likevekten uten å endre K." },
-    { "id": "q05", "text": "Hvordan påvirker en katalysator likevekten?", "options": ["Den gir raskere likevekt, men endrer ikke likevekten", "Den forskyver likevekten mot produktene", "Den øker K", "Den stopper reaksjonen"], "correct": 0, "explain": "Senker aktiveringsenergien begge veier." },
-    { "id": "q06", "text": "N₂ + 3H₂ ⇌ 2NH₃. Hva skjer ved økt trykk?", "options": ["Likevekten forskyves mot venstre", "Likevekten forskyves mot NH₃", "Ingen endring", "K øker"], "correct": 1, "explain": "Færre gassmolekyler på produktsiden." },
-    { "id": "q07", "text": "Hvilke stoffer tas ikke med i massevirkningsloven?", "options": ["Gasser", "Ioner i løsning", "Rene faste stoffer og væsker", "Produkter"], "correct": 2, "explain": "Konsentrasjonen deres er konstant." },
-    { "id": "q08", "text": "H₂ + I₂ ⇌ 2HI, K = 49, start 1,0 mol/L av H₂ og I₂. Hva er [HI] ved likevekt?", "options": ["0,78 mol/L", "0,22 mol/L", "2,0 mol/L", "Omtrent 1,56 mol/L"], "correct": 3, "explain": "2x med x ≈ 0,78." },
-    { "id": "q09", "text": "Hvilken retning forskyves likevekten ved økt temperatur?", "options": ["I den endoterme retningen", "I den eksoterme retningen", "Ingen retning", "Alltid mot produktene"], "correct": 0, "explain": "Systemet tar opp den tilførte varmen." },
-    { "id": "q10", "text": "Hvorfor brukes en kompromisstemperatur i Haber–Bosch-prosessen?", "options": ["Fordi høy temperatur gir mest ammoniakk", "Fordi lav temperatur gir godt utbytte, men går for langsomt", "Fordi temperaturen ikke betyr noe", "Fordi katalysatoren smelter"], "correct": 1, "explain": "Balanse mellom utbytte og fart." }
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner dynamisk likevekt?",
+      "options": [
+        "Reaksjonene har stoppet",
+        "Reaksjonen framover og bakover går like fort",
+        "Bare produkter finnes",
+        "Konsentrasjonene endrer seg hele tiden"
+      ],
+      "correct": 1,
+      "explain": "Konsentrasjonene er konstante."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr en svært stor K?",
+      "options": [
+        "Likevekten ligger mot produktene",
+        "Likevekten ligger mot reaktantene",
+        "Reaksjonen går ikke",
+        "Reaksjonen er langsom"
+      ],
+      "correct": 0,
+      "explain": "Mye produkt ved likevekt."
+    },
+    {
+      "id": "q03",
+      "text": "Q er mindre enn K. Hvilken vei går reaksjonen?",
+      "options": [
+        "Mot venstre",
+        "Den står stille",
+        "Mot høyre",
+        "Den eksploderer"
+      ],
+      "correct": 2,
+      "explain": "Mot produktene til Q = K."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er det eneste som endrer verdien av K?",
+      "options": [
+        "Trykk",
+        "Konsentrasjon",
+        "Katalysator",
+        "Temperatur"
+      ],
+      "correct": 3,
+      "explain": "Andre endringer forskyver likevekten uten å endre K."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan påvirker en katalysator likevekten?",
+      "options": [
+        "Den gir raskere likevekt, men endrer ikke likevekten",
+        "Den forskyver likevekten mot produktene",
+        "Den øker K",
+        "Den stopper reaksjonen"
+      ],
+      "correct": 0,
+      "explain": "Senker aktiveringsenergien begge veier."
+    },
+    {
+      "id": "q06",
+      "text": "N₂ + 3H₂ ⇌ 2NH₃. Hva skjer ved økt trykk?",
+      "options": [
+        "Likevekten forskyves mot venstre",
+        "Likevekten forskyves mot NH₃",
+        "Ingen endring",
+        "K øker"
+      ],
+      "correct": 1,
+      "explain": "Færre gassmolekyler på produktsiden."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilke stoffer tas ikke med i massevirkningsloven?",
+      "options": [
+        "Gasser",
+        "Ioner i løsning",
+        "Rene faste stoffer og væsker",
+        "Produkter"
+      ],
+      "correct": 2,
+      "explain": "Konsentrasjonen deres er konstant."
+    },
+    {
+      "id": "q08",
+      "text": "H₂ + I₂ ⇌ 2HI, K = 49, start 1,0 mol/L av H₂ og I₂. Hva er [HI] ved likevekt?",
+      "options": [
+        "0,78 mol/L",
+        "0,22 mol/L",
+        "2,0 mol/L",
+        "Omtrent 1,56 mol/L"
+      ],
+      "correct": 3,
+      "explain": "2x med x ≈ 0,78."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken retning forskyves likevekten ved økt temperatur?",
+      "options": [
+        "I den endoterme retningen",
+        "I den eksoterme retningen",
+        "Ingen retning",
+        "Alltid mot produktene"
+      ],
+      "correct": 0,
+      "explain": "Systemet tar opp den tilførte varmen."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor brukes en kompromisstemperatur i Haber–Bosch-prosessen?",
+      "options": [
+        "Fordi høy temperatur gir mest ammoniakk",
+        "Fordi lav temperatur gir godt utbytte, men går for langsomt",
+        "Fordi temperaturen ikke betyr noe",
+        "Fordi katalysatoren smelter"
+      ],
+      "correct": 1,
+      "explain": "Balanse mellom utbytte og fart."
+    }
   ],
   "mindmap": {
     "label": "Likevekt",
     "children": [
-      { "label": "Dynamisk likevekt", "children": [
-        { "label": "Like fort begge veier" },
-        { "label": "Konstante konsentrasjoner" }
-      ] },
-      { "label": "Massevirkningsloven", "children": [
-        { "label": "K-uttrykk" },
-        { "label": "Stor og liten K" },
-        { "label": "Q og K" }
-      ] },
-      { "label": "Beregninger", "children": [
-        { "label": "Start, endring, likevekt" },
-        { "label": "HI-eksempelet" }
-      ] },
-      { "label": "Le Chatelier", "children": [
-        { "label": "Konsentrasjon" },
-        { "label": "Trykk" },
-        { "label": "Temperatur" }
-      ] },
-      { "label": "Industri", "children": [
-        { "label": "Haber–Bosch" },
-        { "label": "Katalysator" }
-      ] }
+      {
+        "label": "Dynamisk likevekt",
+        "children": [
+          {
+            "label": "Like fort begge veier"
+          },
+          {
+            "label": "Konstante konsentrasjoner"
+          }
+        ]
+      },
+      {
+        "label": "Massevirkningsloven",
+        "children": [
+          {
+            "label": "K-uttrykk"
+          },
+          {
+            "label": "Stor og liten K"
+          },
+          {
+            "label": "Q og K"
+          }
+        ]
+      },
+      {
+        "label": "Beregninger",
+        "children": [
+          {
+            "label": "Start, endring, likevekt"
+          },
+          {
+            "label": "HI-eksempelet"
+          }
+        ]
+      },
+      {
+        "label": "Le Chatelier",
+        "children": [
+          {
+            "label": "Konsentrasjon"
+          },
+          {
+            "label": "Trykk"
+          },
+          {
+            "label": "Temperatur"
+          }
+        ]
+      },
+      {
+        "label": "Industri",
+        "children": [
+          {
+            "label": "Haber–Bosch"
+          },
+          {
+            "label": "Katalysator"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Ved likevekt har reaksjonene ikke stoppet.", "correct": true, "explain": "Likevekten er dynamisk." },
-      { "id": "m02", "type": "sant-usant", "text": "Økt konsentrasjon av en reaktant endrer verdien av K.", "correct": false, "explain": "Den forskyver likevekten, men K er uendret." },
-      { "id": "m03", "type": "sant-usant", "text": "Å fjerne produkt fortløpende gir mer produkt.", "correct": true, "explain": "Le Châteliers prinsipp." },
-      { "id": "m04", "type": "sant-usant", "text": "En liten K betyr at likevekten ligger mot produktene.", "correct": false, "explain": "Den ligger mot reaktantene." },
-      { "id": "m05", "type": "flervalg", "text": "Hva brukes ammoniakk mest til?", "options": ["Drivstoff", "Kunstgjødsel", "Plast", "Medisin"], "correct": 1, "explain": "Avgjørende for matproduksjonen." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er de tre radene i en likevektstabell?", "options": ["Start, endring og likevekt", "Før, under og etter", "Masse, volum og tetthet", "Reaktant, produkt og katalysator"], "correct": 0, "explain": "Brukes til å finne likevektskonsentrasjoner." },
-      { "id": "m07", "type": "flervalg", "text": "En reaksjon er eksoterm. Hva skjer med K når temperaturen øker?", "options": ["K øker", "K er uendret", "K minker", "K blir null"], "correct": 2, "explain": "Likevekten forskyves mot reaktantene." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ved likevekt har reaksjonene ikke stoppet.",
+        "correct": true,
+        "explain": "Likevekten er dynamisk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Økt konsentrasjon av en reaktant endrer verdien av K.",
+        "correct": false,
+        "explain": "Den forskyver likevekten, men K er uendret."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Å fjerne produkt fortløpende gir mer produkt.",
+        "correct": true,
+        "explain": "Le Châteliers prinsipp."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En liten K betyr at likevekten ligger mot produktene.",
+        "correct": false,
+        "explain": "Den ligger mot reaktantene."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva brukes ammoniakk mest til?",
+        "options": [
+          "Drivstoff",
+          "Kunstgjødsel",
+          "Plast",
+          "Medisin"
+        ],
+        "correct": 1,
+        "explain": "Avgjørende for matproduksjonen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er de tre radene i en likevektstabell?",
+        "options": [
+          "Start, endring og likevekt",
+          "Før, under og etter",
+          "Masse, volum og tetthet",
+          "Reaktant, produkt og katalysator"
+        ],
+        "correct": 0,
+        "explain": "Brukes til å finne likevektskonsentrasjoner."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "En reaksjon er eksoterm. Hva skjer med K når temperaturen øker?",
+        "options": [
+          "K øker",
+          "K er uendret",
+          "K minker",
+          "K blir null"
+        ],
+        "correct": 2,
+        "explain": "Likevekten forskyves mot reaktantene."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I en dynamisk likevekt er konsentrasjonene konstante, selv om reaksjonene ikke har stoppet. Forklar hvordan dette kan skje.",
+        "fasit": "Reaksjonen framover og reaksjonen bakover går like fort. Derfor dannes og forbrukes stoffene like raskt, slik at konsentrasjonene er konstante.",
+        "kriterier": [
+          "Reaksjonene framover og bakover går like fort.",
+          "Stoffene dannes og forbrukes like raskt, så konsentrasjonene holder seg konstante."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "For reaksjonen aA + bB ⇌ cC + dD kan likevektskonstanten skrives K = [C]ᶜ · [D]ᵈ / ([A]ᵃ · [B]ᵇ). Forklar hvordan koeffisientene i reaksjonslikningen brukes i uttrykket for K.",
+        "fasit": "Konsentrasjonen til hvert stoff opphøyes i koeffisienten foran stoffet i reaksjonslikningen. Produktkonsentrasjonene står i telleren, og reaktantkonsentrasjonene står i nevneren.",
+        "kriterier": [
+          "Koeffisientene brukes som eksponenter for konsentrasjonene.",
+          "Produktene står i telleren og reaktantene i nevneren."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva forteller en likevektskonstant K som er mye mindre enn 1 om hvor likevekten ligger?",
+        "fasit": "Likevekten ligger mot reaktantene. Det er relativt mer reaktanter enn produkter ved likevekt.",
+        "kriterier": [
+          "Likevekten ligger mot reaktantene.",
+          "Det er relativt lite produkter ved likevekt."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I Haber–Bosch-prosessen fjernes ammoniakk fortløpende fra systemet. Forklar hvorfor dette fører til at mer ammoniakk dannes.",
+        "fasit": "Når ammoniakk fjernes, minker mengden av et produkt. Likevekten forskyves mot produktene for å motvirke forstyrrelsen, og mer ammoniakk dannes.",
+        "kriterier": [
+          "Fjerning av ammoniakk reduserer mengden av et produkt.",
+          "Likevekten forskyves mot produktene, slik at mer ammoniakk dannes."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "For gassreaksjonen A(g) + B(g) ⇌ C(g) økes trykket ved å minske volumet. Forklar hvilken side likevekten forskyves mot, og begrunn svaret ut fra antall gassmolekyler.",
+        "fasit": "Likevekten forskyves mot høyre, mot C. Produktsiden har færrest gassmolekyler, og økt trykk forskyver likevekten mot siden med færrest gassmolekyler.",
+        "kriterier": [
+          "Likevekten forskyves mot C.",
+          "Begrunner dette med at produktsiden har færrest gassmolekyler."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "For H₂(g) + I₂(g) ⇌ 2HI(g) er K = 49. I et bestemt øyeblikk er [H₂] = 1,0 mol/L, [I₂] = 1,0 mol/L og [HI] = 0 mol/L. Regn ut Q og avgjør hvilken vei reaksjonen går.",
+        "fasit": "Q = [HI]²/([H₂][I₂]) = 0²/(1,0 · 1,0) = 0. Siden Q < K, går reaksjonen mot høyre, mot HI.",
+        "kriterier": [
+          "Regner ut Q = 0 ved å bruke konsentrasjonene i uttrykket.",
+          "Konkluderer med at reaksjonen går mot høyre fordi Q < K."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I en likevektstabell for H₂(g) + I₂(g) ⇌ 2HI(g) er [H₂] ved start 1,0 mol/L, og endringen for H₂ er −x. Hvis x = 7/9, regn ut [H₂] ved likevekt.",
+        "fasit": "[H₂] ved likevekt er 1,0 − x = 1 − 7/9 = 2/9 mol/L, som er omtrent 0,22 mol/L.",
+        "kriterier": [
+          "Bruker uttrykket [H₂] = 1,0 − x.",
+          "Får 2/9 mol/L eller omtrent 0,22 mol/L."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign hvordan økt trykk og økt temperatur påvirker en kjemisk likevekt. Ta med hva som bestemmer forskyvningen ved hver av endringene, og om K endres.",
+        "fasit": "Økt trykk forskyver likevekten mot siden med færrest gassmolekyler. Økt temperatur forskyver den i endoterm retning, og temperaturendring endrer verdien av K.",
+        "kriterier": [
+          "Knytter trykkøkning til siden med færrest gassmolekyler.",
+          "Knytter temperaturøkning til endoterm retning.",
+          "Nevner at temperaturendring endrer K."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

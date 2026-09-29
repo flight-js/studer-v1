@@ -4,77 +4,421 @@
   "trinnId": "vg2",
   "name": "Tilknytning",
   "intro": "Bowlbys tilknytningsteori, Harlows og Lorenz' forsøk, Ainsworths fremmedsituasjon og tilknytningsmønstrene – og hvordan arv, miljø og kultur påvirker tilknytning fra spedbarnsalder til voksne relasjoner.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Hva er tilknytning?\n\n**Tilknytning** er det **følelsesmessige båndet** mellom et barn og de nærmeste **omsorgspersonene**. Båndet gir barnet **trygghet** og er grunnlaget for senere **relasjoner**.\n\n## Bowlbys tilknytningsteori\n\nDen britiske psykiateren **John Bowlby** mente at barn har et **medfødt** behov for å knytte seg til en omsorgsperson. Behovet har utviklet seg fordi barn som holdt seg **nær** voksne, hadde større sjanse til å **overleve**. Atferd som å **gråte**, **smile** og **krype etter** omsorgspersonen er **tilknytningsatferd**.\n\n- Omsorgspersonen er en **trygg base** som barnet kan **utforske** verden fra,\n- og en **trygg havn** barnet kan vende tilbake til når det blir **redd** eller lei seg.\n\nGjennom erfaringene med omsorgspersonene danner barnet **indre arbeidsmodeller** – forventninger om seg selv og andre, som «jeg er verdt å bry seg om» og «andre er til å stole på».\n\n## Forsøk som påvirket teorien\n\n- **Konrad Lorenz** viste at gåsunger fulgte den første bevegelige skikkelsen de så etter klekking – også Lorenz selv. Dette kalles **preging**.\n- **Harry Harlow** lot apeunger velge mellom en «mor» av **ståltråd** med melk og en myk «mor» av **stoff** uten mat. Ungene søkte til den **myke** moren, særlig når de ble **redde**. Trøst og nærhet var altså viktigere enn mat. Forsøkene er i dag kritisert for å være **uetiske**.\n\n## Ainsworths fremmedsituasjon\n\n**Mary Ainsworth** observerte ettåringer i **fremmedsituasjonen**: Barnet er i et ukjent rom med omsorgspersonen, en fremmed kommer inn, omsorgspersonen går ut og kommer tilbake. Forskerne så særlig på hvordan barnet reagerte ved **gjenforeningen**.\n\n| Mønster | Kjennetegn |\n|---|---|\n| **Trygg** | Barnet blir lei seg når omsorgspersonen går, men søker trøst og roer seg raskt når hen kommer tilbake. |\n| **Utrygg-unnvikende** | Barnet viser lite reaksjon og unngår omsorgspersonen ved gjenforeningen. |\n| **Utrygg-ambivalent** | Barnet blir svært urolig, søker kontakt, men lar seg vanskelig trøste. |\n| **Desorganisert** | Barnet viser motstridende eller forvirret atferd – ofte knyttet til skremmende omsorg. |\n\n**Sensitiv omsorg** – at omsorgspersonen **ser** barnets signaler og **svarer** på dem – er den viktigste forutsetningen for **trygg** tilknytning.\n\n## Arv, miljø og kultur\n\n- Barnets **temperament** påvirker samspillet. Et barn som er vanskelig å roe, kan gjøre det mer krevende å gi sensitiv omsorg.\n- Tilknytning er likevel først og fremst formet av **samspillet** – altså **miljøet**.\n- Barn kan knytte seg til **flere** personer, som foreldre, besteforeldre og ansatte i barnehagen.\n- Forekomsten av de ulike mønstrene **varierer** mellom kulturer, og det som regnes som god omsorg, kan være ulikt.\n\n## Tilknytning senere i livet\n\nForskning tyder på at de **indre arbeidsmodellene** kan påvirke **vennskap** og **kjærlighetsforhold** i voksen alder. Men tilknytning er **ikke skjebne**. Nye, trygge relasjoner – med en partner, en lærer eller en terapeut – kan **endre** mønstrene.\n\nStudier av barn fra svært mangelfulle barnehjem viser at tidlig **omsorgssvikt** kan gi varige vansker, men også at mange tar **igjen** mye når de kommer til trygge familier, særlig hvis det skjer **tidlig**.\n\n## Betydning i praksis\n\nKunnskap om tilknytning brukes i **helsestasjoner**, **barnehager** og **barnevernet**, for eksempel i veiledningsprogrammer som hjelper foreldre å forstå barnets **behov** og signaler.",
   "flashcards": [
-    { "term": "Tilknytning", "def": "Det følelsesmessige båndet mellom barn og omsorgsperson." },
-    { "term": "John Bowlby", "def": "Utviklet tilknytningsteorien." },
-    { "term": "Tilknytningsatferd", "def": "Gråt, smil og å søke nærhet til omsorgspersonen." },
-    { "term": "Trygg base", "def": "Omsorgspersonen som barnet utforsker verden fra." },
-    { "term": "Trygg havn", "def": "Omsorgspersonen barnet vender tilbake til når det blir redd." },
-    { "term": "Indre arbeidsmodeller", "def": "Forventninger om seg selv og andre, formet av tidlige erfaringer." },
-    { "term": "Preging", "def": "Lorenz: gåsunger følger den første bevegelige skikkelsen de ser." },
-    { "term": "Harlows apeforsøk", "def": "Apeunger valgte myk «mor» framfor ståltråd-«mor» med melk." },
-    { "term": "Fremmedsituasjonen", "def": "Ainsworths observasjon av ettåringers reaksjon på atskillelse og gjenforening." },
-    { "term": "Trygg tilknytning", "def": "Barnet søker trøst og roer seg raskt ved gjenforening." },
-    { "term": "Utrygg-unnvikende", "def": "Barnet viser lite reaksjon og unngår omsorgspersonen." },
-    { "term": "Utrygg-ambivalent", "def": "Barnet er svært urolig og lar seg vanskelig trøste." },
-    { "term": "Desorganisert tilknytning", "def": "Motstridende atferd, ofte knyttet til skremmende omsorg." },
-    { "term": "Sensitiv omsorg", "def": "Å se og svare på barnets signaler." },
-    { "term": "Omsorgssvikt", "def": "Når barnet ikke får den omsorgen det trenger." }
+    {
+      "term": "Tilknytning",
+      "def": "Det følelsesmessige båndet mellom barn og omsorgsperson."
+    },
+    {
+      "term": "John Bowlby",
+      "def": "Utviklet tilknytningsteorien."
+    },
+    {
+      "term": "Tilknytningsatferd",
+      "def": "Gråt, smil og å søke nærhet til omsorgspersonen."
+    },
+    {
+      "term": "Trygg base",
+      "def": "Omsorgspersonen som barnet utforsker verden fra."
+    },
+    {
+      "term": "Trygg havn",
+      "def": "Omsorgspersonen barnet vender tilbake til når det blir redd."
+    },
+    {
+      "term": "Indre arbeidsmodeller",
+      "def": "Forventninger om seg selv og andre, formet av tidlige erfaringer."
+    },
+    {
+      "term": "Preging",
+      "def": "Lorenz: gåsunger følger den første bevegelige skikkelsen de ser."
+    },
+    {
+      "term": "Harlows apeforsøk",
+      "def": "Apeunger valgte myk «mor» framfor ståltråd-«mor» med melk."
+    },
+    {
+      "term": "Fremmedsituasjonen",
+      "def": "Ainsworths observasjon av ettåringers reaksjon på atskillelse og gjenforening."
+    },
+    {
+      "term": "Trygg tilknytning",
+      "def": "Barnet søker trøst og roer seg raskt ved gjenforening."
+    },
+    {
+      "term": "Utrygg-unnvikende",
+      "def": "Barnet viser lite reaksjon og unngår omsorgspersonen."
+    },
+    {
+      "term": "Utrygg-ambivalent",
+      "def": "Barnet er svært urolig og lar seg vanskelig trøste."
+    },
+    {
+      "term": "Desorganisert tilknytning",
+      "def": "Motstridende atferd, ofte knyttet til skremmende omsorg."
+    },
+    {
+      "term": "Sensitiv omsorg",
+      "def": "Å se og svare på barnets signaler."
+    },
+    {
+      "term": "Omsorgssvikt",
+      "def": "Når barnet ikke får den omsorgen det trenger."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvorfor mente Bowlby at tilknytning er medfødt?", "options": ["Fordi barn lærer det på skolen", "Fordi barn som holdt seg nær voksne, hadde større sjanse til å overleve", "Fordi foreldre krever det", "Fordi det skyldes mat"], "correct": 1, "explain": "Et evolusjonært argument." },
-    { "id": "q02", "text": "Hva viste Harlows forsøk med apeunger?", "options": ["At trøst og nærhet var viktigere enn mat", "At mat var det viktigste", "At aper ikke knytter seg", "At aper foretrekker ståltråd"], "correct": 0, "explain": "Ungene søkte til den myke «moren»." },
-    { "id": "q03", "text": "Hva er en trygg base?", "options": ["Et barnehjem", "En barnehage", "Omsorgspersonen som barnet utforsker verden fra", "Et leketøy"], "correct": 2, "explain": "Og en trygg havn å vende tilbake til." },
-    { "id": "q04", "text": "Hva så Ainsworth særlig på i fremmedsituasjonen?", "options": ["Hvor mye barnet spiste", "Hvor fort barnet krøp", "Hvor mange ord barnet kunne", "Hvordan barnet reagerte ved gjenforeningen"], "correct": 3, "explain": "Reaksjonen avslører tilknytningsmønsteret." },
-    { "id": "q05", "text": "Hva kjennetegner et trygt tilknyttet barn?", "options": ["Søker trøst og roer seg raskt ved gjenforening", "Unngår omsorgspersonen", "Lar seg ikke trøste", "Bryr seg ikke når omsorgspersonen går"], "correct": 0, "explain": "Omsorgspersonen er en trygg havn." },
-    { "id": "q06", "text": "Hva er den viktigste forutsetningen for trygg tilknytning?", "options": ["Mye leker", "Sensitiv omsorg", "Streng oppdragelse", "At barnet begynner tidlig i barnehage"], "correct": 1, "explain": "Å se og svare på barnets signaler." },
-    { "id": "q07", "text": "Hva er indre arbeidsmodeller?", "options": ["Planer for skolearbeid", "Modeller av hjernen", "Forventninger om seg selv og andre formet av tidlige erfaringer", "Arbeidsavtaler"], "correct": 2, "explain": "Kan påvirke senere relasjoner." },
-    { "id": "q08", "text": "Hva viste Lorenz med gåsunger?", "options": ["Tilknytningsmønstre", "Klassisk betinging", "Modellæring", "Preging"], "correct": 3, "explain": "De fulgte den første bevegelige skikkelsen." },
-    { "id": "q09", "text": "Kan tilknytningsmønstre endres senere i livet?", "options": ["Ja, gjennom nye trygge relasjoner", "Nei, aldri", "Bare med medisiner", "Bare hos barn under ett år"], "correct": 0, "explain": "Tilknytning er ikke skjebne." },
-    { "id": "q10", "text": "Hvordan kan barnets temperament påvirke tilknytningen?", "options": ["Det har ingen betydning", "Et barn som er vanskelig å roe, kan gjøre sensitiv omsorg mer krevende", "Temperament bestemmer alt", "Bare rolige barn blir trygge"], "correct": 1, "explain": "Arv og miljø virker sammen." }
+    {
+      "id": "q01",
+      "text": "Hvorfor mente Bowlby at tilknytning er medfødt?",
+      "options": [
+        "Fordi barn lærer det på skolen",
+        "Fordi barn som holdt seg nær voksne, hadde større sjanse til å overleve",
+        "Fordi foreldre krever det",
+        "Fordi det skyldes mat"
+      ],
+      "correct": 1,
+      "explain": "Et evolusjonært argument."
+    },
+    {
+      "id": "q02",
+      "text": "Hva viste Harlows forsøk med apeunger?",
+      "options": [
+        "At trøst og nærhet var viktigere enn mat",
+        "At mat var det viktigste",
+        "At aper ikke knytter seg",
+        "At aper foretrekker ståltråd"
+      ],
+      "correct": 0,
+      "explain": "Ungene søkte til den myke «moren»."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en trygg base?",
+      "options": [
+        "Et barnehjem",
+        "En barnehage",
+        "Omsorgspersonen som barnet utforsker verden fra",
+        "Et leketøy"
+      ],
+      "correct": 2,
+      "explain": "Og en trygg havn å vende tilbake til."
+    },
+    {
+      "id": "q04",
+      "text": "Hva så Ainsworth særlig på i fremmedsituasjonen?",
+      "options": [
+        "Hvor mye barnet spiste",
+        "Hvor fort barnet krøp",
+        "Hvor mange ord barnet kunne",
+        "Hvordan barnet reagerte ved gjenforeningen"
+      ],
+      "correct": 3,
+      "explain": "Reaksjonen avslører tilknytningsmønsteret."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner et trygt tilknyttet barn?",
+      "options": [
+        "Søker trøst og roer seg raskt ved gjenforening",
+        "Unngår omsorgspersonen",
+        "Lar seg ikke trøste",
+        "Bryr seg ikke når omsorgspersonen går"
+      ],
+      "correct": 0,
+      "explain": "Omsorgspersonen er en trygg havn."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den viktigste forutsetningen for trygg tilknytning?",
+      "options": [
+        "Mye leker",
+        "Sensitiv omsorg",
+        "Streng oppdragelse",
+        "At barnet begynner tidlig i barnehage"
+      ],
+      "correct": 1,
+      "explain": "Å se og svare på barnets signaler."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er indre arbeidsmodeller?",
+      "options": [
+        "Planer for skolearbeid",
+        "Modeller av hjernen",
+        "Forventninger om seg selv og andre formet av tidlige erfaringer",
+        "Arbeidsavtaler"
+      ],
+      "correct": 2,
+      "explain": "Kan påvirke senere relasjoner."
+    },
+    {
+      "id": "q08",
+      "text": "Hva viste Lorenz med gåsunger?",
+      "options": [
+        "Tilknytningsmønstre",
+        "Klassisk betinging",
+        "Modellæring",
+        "Preging"
+      ],
+      "correct": 3,
+      "explain": "De fulgte den første bevegelige skikkelsen."
+    },
+    {
+      "id": "q09",
+      "text": "Kan tilknytningsmønstre endres senere i livet?",
+      "options": [
+        "Ja, gjennom nye trygge relasjoner",
+        "Nei, aldri",
+        "Bare med medisiner",
+        "Bare hos barn under ett år"
+      ],
+      "correct": 0,
+      "explain": "Tilknytning er ikke skjebne."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan barnets temperament påvirke tilknytningen?",
+      "options": [
+        "Det har ingen betydning",
+        "Et barn som er vanskelig å roe, kan gjøre sensitiv omsorg mer krevende",
+        "Temperament bestemmer alt",
+        "Bare rolige barn blir trygge"
+      ],
+      "correct": 1,
+      "explain": "Arv og miljø virker sammen."
+    }
   ],
   "mindmap": {
     "label": "Tilknytning",
     "children": [
-      { "label": "Bowlby", "children": [
-        { "label": "Medfødt behov" },
-        { "label": "Trygg base og havn" },
-        { "label": "Indre arbeidsmodeller" }
-      ] },
-      { "label": "Forsøk", "children": [
-        { "label": "Lorenz: preging" },
-        { "label": "Harlow: trøst før mat" }
-      ] },
-      { "label": "Ainsworth", "children": [
-        { "label": "Fremmedsituasjonen" },
-        { "label": "Trygg og utrygg" },
-        { "label": "Desorganisert" }
-      ] },
-      { "label": "Arv og miljø", "children": [
-        { "label": "Temperament" },
-        { "label": "Sensitiv omsorg" },
-        { "label": "Kultur" }
-      ] },
-      { "label": "Senere i livet", "children": [
-        { "label": "Vennskap og kjærlighet" },
-        { "label": "Kan endres" }
-      ] }
+      {
+        "label": "Bowlby",
+        "children": [
+          {
+            "label": "Medfødt behov"
+          },
+          {
+            "label": "Trygg base og havn"
+          },
+          {
+            "label": "Indre arbeidsmodeller"
+          }
+        ]
+      },
+      {
+        "label": "Forsøk",
+        "children": [
+          {
+            "label": "Lorenz: preging"
+          },
+          {
+            "label": "Harlow: trøst før mat"
+          }
+        ]
+      },
+      {
+        "label": "Ainsworth",
+        "children": [
+          {
+            "label": "Fremmedsituasjonen"
+          },
+          {
+            "label": "Trygg og utrygg"
+          },
+          {
+            "label": "Desorganisert"
+          }
+        ]
+      },
+      {
+        "label": "Arv og miljø",
+        "children": [
+          {
+            "label": "Temperament"
+          },
+          {
+            "label": "Sensitiv omsorg"
+          },
+          {
+            "label": "Kultur"
+          }
+        ]
+      },
+      {
+        "label": "Senere i livet",
+        "children": [
+          {
+            "label": "Vennskap og kjærlighet"
+          },
+          {
+            "label": "Kan endres"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Barn kan knytte seg til flere omsorgspersoner.", "correct": true, "explain": "For eksempel foreldre, besteforeldre og barnehageansatte." },
-      { "id": "m02", "type": "sant-usant", "text": "Harlows forsøk regnes i dag som helt uproblematiske etisk.", "correct": false, "explain": "De er kritisert for å være uetiske." },
-      { "id": "m03", "type": "sant-usant", "text": "Desorganisert tilknytning er ofte knyttet til skremmende omsorg.", "correct": true, "explain": "Barnet blir redd for den som skal gi trygghet." },
-      { "id": "m04", "type": "sant-usant", "text": "Tidlig omsorgssvikt gir alltid vansker som aldri kan bedres.", "correct": false, "explain": "Mange tar igjen mye i trygge familier." },
-      { "id": "m05", "type": "flervalg", "text": "Et barn viser lite reaksjon når omsorgspersonen går, og unngår hen ved gjenforeningen. Hvilket mønster er dette?", "options": ["Trygg", "Utrygg-unnvikende", "Utrygg-ambivalent", "Desorganisert"], "correct": 1, "explain": "Barnet unngår kontakt." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor brukes kunnskap om tilknytning i praksis?", "options": ["I helsestasjoner, barnehager og barnevernet", "Bare i idretten", "Bare i markedsføring", "Ingen steder"], "correct": 0, "explain": "For eksempel i foreldreveiledning." },
-      { "id": "m07", "type": "flervalg", "text": "Hvorfor kan fordelingen av tilknytningsmønstre variere mellom land?", "options": ["Fordi gener er helt ulike", "Fordi forskerne er ulike", "Fordi omsorgspraksis og kultur varierer", "Fordi barn ikke knytter seg i noen land"], "correct": 2, "explain": "Det som regnes som god omsorg, kan være ulikt." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Barn kan knytte seg til flere omsorgspersoner.",
+        "correct": true,
+        "explain": "For eksempel foreldre, besteforeldre og barnehageansatte."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Harlows forsøk regnes i dag som helt uproblematiske etisk.",
+        "correct": false,
+        "explain": "De er kritisert for å være uetiske."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Desorganisert tilknytning er ofte knyttet til skremmende omsorg.",
+        "correct": true,
+        "explain": "Barnet blir redd for den som skal gi trygghet."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Tidlig omsorgssvikt gir alltid vansker som aldri kan bedres.",
+        "correct": false,
+        "explain": "Mange tar igjen mye i trygge familier."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Et barn viser lite reaksjon når omsorgspersonen går, og unngår hen ved gjenforeningen. Hvilket mønster er dette?",
+        "options": [
+          "Trygg",
+          "Utrygg-unnvikende",
+          "Utrygg-ambivalent",
+          "Desorganisert"
+        ],
+        "correct": 1,
+        "explain": "Barnet unngår kontakt."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor brukes kunnskap om tilknytning i praksis?",
+        "options": [
+          "I helsestasjoner, barnehager og barnevernet",
+          "Bare i idretten",
+          "Bare i markedsføring",
+          "Ingen steder"
+        ],
+        "correct": 0,
+        "explain": "For eksempel i foreldreveiledning."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor kan fordelingen av tilknytningsmønstre variere mellom land?",
+        "options": [
+          "Fordi gener er helt ulike",
+          "Fordi forskerne er ulike",
+          "Fordi omsorgspraksis og kultur varierer",
+          "Fordi barn ikke knytter seg i noen land"
+        ],
+        "correct": 2,
+        "explain": "Det som regnes som god omsorg, kan være ulikt."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva menes med tilknytning mellom et barn og en omsorgsperson, og hvilken betydning kan båndet ha for barnet?",
+        "fasit": "Tilknytning er det følelsesmessige båndet mellom barnet og omsorgspersonen. Båndet gir barnet trygghet og danner et grunnlag for senere relasjoner.",
+        "kriterier": [
+          "Forklarer at tilknytning er et følelsesmessig bånd mellom barn og omsorgsperson.",
+          "Får fram at båndet gir trygghet eller er et grunnlag for senere relasjoner."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et lite barn gråter når omsorgspersonen går, smiler når hen kommer tilbake og kryper etter hen. Hva kalles slike handlinger samlet, og hva bidrar de til?",
+        "fasit": "Dette er tilknytningsatferd. Handlingene søker nærhet til omsorgspersonen og bidrar til at barnet holder seg nær en person som gir trygghet.",
+        "kriterier": [
+          "Kaller handlingene tilknytningsatferd.",
+          "Forklarer at atferden søker eller opprettholder nærhet til omsorgspersonen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I en fremmedsituasjon blir et barn svært urolig når omsorgspersonen går. Når personen kommer tilbake, søker barnet kontakt, men lar seg vanskelig trøste. Hvilket tilknytningsmønster passer best, og hva i situasjonen viser det?",
+        "fasit": "Dette passer best med utrygg-ambivalent tilknytning. Barnet blir svært urolig, søker kontakt ved gjenforeningen og lar seg likevel vanskelig trøste.",
+        "kriterier": [
+          "Identifiserer mønsteret som utrygg-ambivalent.",
+          "Begrunner svaret med at barnet søker kontakt, men er vanskelig å trøste, eller blir svært urolig."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar forskjellen på utrygg-unnvikende og desorganisert tilknytning ved å beskrive hvordan barnet kan oppføre seg når omsorgspersonen kommer tilbake.",
+        "fasit": "Et barn med utrygg-unnvikende tilknytning viser lite reaksjon og unngår omsorgspersonen. Et barn med desorganisert tilknytning kan vise motstridende eller forvirret atferd.",
+        "kriterier": [
+          "Beskriver lite reaksjon eller unngåelse som typisk for utrygg-unnvikende tilknytning.",
+          "Beskriver motstridende eller forvirret atferd som typisk for desorganisert tilknytning."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et barn har nære omsorgspersoner hjemme og i barnehagen. Forklar hvordan barnet kan være knyttet til flere av dem.",
+        "fasit": "Barn kan knytte seg til flere personer, for eksempel foreldre og ansatte i barnehagen. Tilknytning trenger derfor ikke å være begrenset til én omsorgsperson.",
+        "kriterier": [
+          "Får fram at barn kan knytte seg til flere personer.",
+          "Knytter dette til omsorgspersoner i ulike deler av barnets hverdag, som hjem og barnehage."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hva kan variere mellom kulturer når det gjelder tilknytning og omsorg? Ta med to forhold i forklaringen.",
+        "fasit": "Forekomsten av ulike tilknytningsmønstre varierer mellom kulturer. Også hva som regnes som god omsorg, kan være ulikt.",
+        "kriterier": [
+          "Nevner at forekomsten av tilknytningsmønstre varierer mellom kulturer.",
+          "Nevner at oppfatninger om god omsorg kan variere mellom kulturer."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En helsestasjon veileder foreldre i å forstå barnets behov og signaler. Forklar hvordan kunnskap om tilknytning kan brukes i dette arbeidet.",
+        "fasit": "Kunnskap om tilknytning kan hjelpe foreldre med å forstå barnets signaler og behov. Da kan de lettere svare på dem på en sensitiv måte.",
+        "kriterier": [
+          "Forklarer at kunnskapen brukes til å forstå barnets behov eller signaler.",
+          "Knytter veiledningen til hvordan foreldrene kan møte eller svare på barnet."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Barn som har opplevd alvorlig omsorgssvikt tidlig i livet, kan få vansker senere. Forklar hva som kan påvirke muligheten for at barnet tar igjen noe av utviklingen.",
+        "fasit": "Tidlig omsorgssvikt kan gi varige vansker, men mange barn tar igjen mye når de kommer til en trygg familie. Muligheten for dette er særlig god hvis det skjer tidlig.",
+        "kriterier": [
+          "Får fram at omsorgssvikt kan gi varige vansker, men at utviklingen likevel kan bedres.",
+          "Nevner at en trygg familie og at endringen skjer tidlig, er viktig for å ta igjen mye."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

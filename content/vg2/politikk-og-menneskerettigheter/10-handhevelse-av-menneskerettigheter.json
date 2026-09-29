@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Overvåking og håndhevelse av menneskerettighetene",
   "intro": "Institusjoner og aktører som overvåker og håndhever menneskerettighetene – FN-systemet, Europarådet og Den europeiske menneskerettsdomstolen, nasjonale institusjoner og frivillige organisasjoner – og forholdet mellom statlig, mellomstatlig og overstatlig myndighet.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Hvem passer på?\n\nMenneskerettighetene er bare verdt noe hvis de blir **fulgt**. Hovedansvaret ligger hos **statene** selv, men mange **institusjoner** og **aktører** overvåker og presser på.\n\n## FN-systemet\n\n- **FNs menneskerettighetsråd** i Genève har **47** medlemsland. Gjennom **Universell periodisk gjennomgang (UPR)** blir **alle** FNs medlemsland jevnlig vurdert av de andre statene.\n- **Traktatorganer**: Hver menneskerettskonvensjon har en **komité** av uavhengige eksperter – for eksempel **FNs barnekomité**. Statene må **rapportere** jevnlig, og komiteen gir **anbefalinger**. Noen komiteer kan også behandle **individklager**.\n- **FNs høykommissær for menneskerettigheter** leder arbeidet og kan kritisere stater offentlig.\n- **Spesialrapportører** undersøker bestemte temaer eller land.\n\nFN-systemet bygger mest på **dialog**, **rapportering** og **offentlig press**. Avgjørelsene er i hovedsak **ikke juridisk bindende**.\n\n## Europarådet og EMD\n\n**Europarådet** (46 medlemsland) står bak **Den europeiske menneskerettskonvensjonen (EMK)**. **Den europeiske menneskerettsdomstolen (EMD)** i **Strasbourg** behandler klager fra **enkeltpersoner** som mener staten har krenket rettighetene deres – etter at de har prøvd saken i nasjonale domstoler. EMDs dommer er **bindende** for statene.\n\n**Norge** har tapt flere saker i EMD, blant annet en rekke saker om **barnevern**, der domstolen kom fram til at norske myndigheter ikke hadde tatt nok hensyn til familiens rett til familieliv. Dommene førte til endringer i norsk barnevernspraksis.\n\n## EU\n\n**EU** har sitt eget **charter** om grunnleggende rettigheter, og **EU-domstolen** kan håndheve det. Norge er ikke med i EU, men er bundet av mye EU-rett gjennom **EØS-avtalen**.\n\n## Internasjonal straffedomstol\n\n**ICC** i Haag kan straffe **enkeltpersoner** for de alvorligste forbrytelsene, som folkemord og krigsforbrytelser – også **statsledere**.\n\n## Nasjonale institusjoner\n\n- **Domstolene**, med **Høyesterett** på toppen.\n- **Norges institusjon for menneskerettigheter (NIM)** overvåker menneskerettighetene i Norge og gir råd til Stortinget og regjeringen.\n- **Sivilombudet** behandler klager på forvaltningen.\n- **Likestillings- og diskrimineringsombudet** og **Barneombudet**.\n\n## Frivillige organisasjoner og medier\n\nOrganisasjoner som **Amnesty International**, **Human Rights Watch** og **Redd Barna** dokumenterer brudd, driver **kampanjer** og legger **press** på regjeringer. **Journalister** og **varslere** avslører overgrep. Men i mange land blir menneskerettsforkjempere selv **forfulgt**.\n\n## Statlig, mellomstatlig og overstatlig\n\n- **Statlig** myndighet: Staten bestemmer selv innenfor sine grenser (**suverenitet**).\n- **Mellomstatlig** samarbeid: Statene samarbeider, men beholder **vetorett** og bestemmer selv om de vil følge anbefalinger – som i **FN**.\n- **Overstatlig** myndighet: Statene har gitt fra seg myndighet til et organ som kan fatte **bindende** vedtak – som **EMD** og deler av **EU**.\n\n**Drøfting**: Overstatlige organer kan gi **sterkere vern** av enkeltmennesker, men flytter makt bort fra **nasjonale** folkevalgte. Noen mener dette svekker **demokratiet**, andre at det er nødvendig for å beskytte **mindretall** mot flertall og stater mot seg selv.",
   "flashcards": [
-    { "term": "FNs menneskerettighetsråd", "def": "FN-organ i Genève med 47 medlemsland." },
-    { "term": "UPR", "def": "Universell periodisk gjennomgang der alle FN-land vurderes jevnlig." },
-    { "term": "Traktatorgan", "def": "Ekspertkomité som overvåker en menneskerettskonvensjon." },
-    { "term": "FNs barnekomité", "def": "Overvåker Barnekonvensjonen." },
-    { "term": "FNs høykommissær for menneskerettigheter", "def": "Leder FNs menneskerettsarbeid." },
-    { "term": "Europarådet", "def": "Europeisk organisasjon bak EMK med 46 medlemsland." },
-    { "term": "EMD", "def": "Den europeiske menneskerettsdomstolen i Strasbourg." },
-    { "term": "Individklage", "def": "Klage fra en enkeltperson om brudd på rettighetene." },
-    { "term": "Barnevernssakene i EMD", "def": "Norge tapte flere saker om retten til familieliv." },
-    { "term": "NIM", "def": "Norges institusjon for menneskerettigheter." },
-    { "term": "Sivilombudet", "def": "Behandler klager på forvaltningen." },
-    { "term": "Amnesty International", "def": "Frivillig organisasjon som dokumenterer menneskerettsbrudd." },
-    { "term": "Mellomstatlig samarbeid", "def": "Statene samarbeider, men beholder vetorett." },
-    { "term": "Overstatlig myndighet", "def": "Organ som kan fatte vedtak som binder statene." },
-    { "term": "Suverenitet", "def": "Staten bestemmer selv innenfor sine grenser." }
+    {
+      "term": "FNs menneskerettighetsråd",
+      "def": "FN-organ i Genève med 47 medlemsland."
+    },
+    {
+      "term": "UPR",
+      "def": "Universell periodisk gjennomgang der alle FN-land vurderes jevnlig."
+    },
+    {
+      "term": "Traktatorgan",
+      "def": "Ekspertkomité som overvåker en menneskerettskonvensjon."
+    },
+    {
+      "term": "FNs barnekomité",
+      "def": "Overvåker Barnekonvensjonen."
+    },
+    {
+      "term": "FNs høykommissær for menneskerettigheter",
+      "def": "Leder FNs menneskerettsarbeid."
+    },
+    {
+      "term": "Europarådet",
+      "def": "Europeisk organisasjon bak EMK med 46 medlemsland."
+    },
+    {
+      "term": "EMD",
+      "def": "Den europeiske menneskerettsdomstolen i Strasbourg."
+    },
+    {
+      "term": "Individklage",
+      "def": "Klage fra en enkeltperson om brudd på rettighetene."
+    },
+    {
+      "term": "Barnevernssakene i EMD",
+      "def": "Norge tapte flere saker om retten til familieliv."
+    },
+    {
+      "term": "NIM",
+      "def": "Norges institusjon for menneskerettigheter."
+    },
+    {
+      "term": "Sivilombudet",
+      "def": "Behandler klager på forvaltningen."
+    },
+    {
+      "term": "Amnesty International",
+      "def": "Frivillig organisasjon som dokumenterer menneskerettsbrudd."
+    },
+    {
+      "term": "Mellomstatlig samarbeid",
+      "def": "Statene samarbeider, men beholder vetorett."
+    },
+    {
+      "term": "Overstatlig myndighet",
+      "def": "Organ som kan fatte vedtak som binder statene."
+    },
+    {
+      "term": "Suverenitet",
+      "def": "Staten bestemmer selv innenfor sine grenser."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er UPR?", "options": ["En domstol", "En gjennomgang der alle FN-land vurderes jevnlig av de andre", "En hjelpeorganisasjon", "En traktat"], "correct": 1, "explain": "Universell periodisk gjennomgang." },
-    { "id": "q02", "text": "Hvor ligger Den europeiske menneskerettsdomstolen?", "options": ["Strasbourg", "Genève", "Haag", "Brussel"], "correct": 0, "explain": "Den hører til Europarådet." },
-    { "id": "q03", "text": "Hva kjennetegner overstatlig myndighet?", "options": ["At statene alltid har vetorett", "At bare stormakter bestemmer", "At et organ kan fatte vedtak som binder statene", "At statene bestemmer alt selv"], "correct": 2, "explain": "For eksempel EMD." },
-    { "id": "q04", "text": "Hvilke saker har Norge tapt flere av i EMD?", "options": ["Fiskerisaker", "Oljesaker", "Skattesaker", "Barnevernssaker"], "correct": 3, "explain": "Om retten til familieliv." },
-    { "id": "q05", "text": "Hva gjør FNs traktatorganer?", "options": ["Overvåker konvensjonene gjennom rapporter og anbefalinger", "Straffer statsledere", "Vedtar lover i Norge", "Leder FNs hær"], "correct": 0, "explain": "For eksempel FNs barnekomité." },
-    { "id": "q06", "text": "Er EMDs dommer bindende for statene?", "options": ["Nei, bare anbefalinger", "Ja", "Bare for EU-land", "Bare for stormakter"], "correct": 1, "explain": "Overstatlig myndighet." },
-    { "id": "q07", "text": "Hva er NIM?", "options": ["En FN-domstol", "En frivillig organisasjon", "Norges institusjon for menneskerettigheter", "Et politisk parti"], "correct": 2, "explain": "Overvåker og gir råd." },
-    { "id": "q08", "text": "Hva kjennetegner mellomstatlig samarbeid?", "options": ["At et organ fatter bindende vedtak", "At statene gir fra seg all makt", "At det ikke finnes avtaler", "At statene samarbeider, men beholder vetorett"], "correct": 3, "explain": "Som i FN." },
-    { "id": "q09", "text": "Hvilken rolle har organisasjoner som Amnesty?", "options": ["Dokumentere brudd og legge press på regjeringer", "Dømme i straffesaker", "Vedta lover", "Lede FN"], "correct": 0, "explain": "Gjennom rapporter og kampanjer." },
-    { "id": "q10", "text": "Hva er et argument mot overstatlige organer?", "options": ["At de gir sterkere vern", "At de flytter makt bort fra nasjonale folkevalgte", "At de beskytter mindretall", "At de er billige"], "correct": 1, "explain": "Spenning mellom rettigheter og demokrati." }
+    {
+      "id": "q01",
+      "text": "Hva er UPR?",
+      "options": [
+        "En domstol",
+        "En gjennomgang der alle FN-land vurderes jevnlig av de andre",
+        "En hjelpeorganisasjon",
+        "En traktat"
+      ],
+      "correct": 1,
+      "explain": "Universell periodisk gjennomgang."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor ligger Den europeiske menneskerettsdomstolen?",
+      "options": [
+        "Strasbourg",
+        "Genève",
+        "Haag",
+        "Brussel"
+      ],
+      "correct": 0,
+      "explain": "Den hører til Europarådet."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kjennetegner overstatlig myndighet?",
+      "options": [
+        "At statene alltid har vetorett",
+        "At bare stormakter bestemmer",
+        "At et organ kan fatte vedtak som binder statene",
+        "At statene bestemmer alt selv"
+      ],
+      "correct": 2,
+      "explain": "For eksempel EMD."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilke saker har Norge tapt flere av i EMD?",
+      "options": [
+        "Fiskerisaker",
+        "Oljesaker",
+        "Skattesaker",
+        "Barnevernssaker"
+      ],
+      "correct": 3,
+      "explain": "Om retten til familieliv."
+    },
+    {
+      "id": "q05",
+      "text": "Hva gjør FNs traktatorganer?",
+      "options": [
+        "Overvåker konvensjonene gjennom rapporter og anbefalinger",
+        "Straffer statsledere",
+        "Vedtar lover i Norge",
+        "Leder FNs hær"
+      ],
+      "correct": 0,
+      "explain": "For eksempel FNs barnekomité."
+    },
+    {
+      "id": "q06",
+      "text": "Er EMDs dommer bindende for statene?",
+      "options": [
+        "Nei, bare anbefalinger",
+        "Ja",
+        "Bare for EU-land",
+        "Bare for stormakter"
+      ],
+      "correct": 1,
+      "explain": "Overstatlig myndighet."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er NIM?",
+      "options": [
+        "En FN-domstol",
+        "En frivillig organisasjon",
+        "Norges institusjon for menneskerettigheter",
+        "Et politisk parti"
+      ],
+      "correct": 2,
+      "explain": "Overvåker og gir råd."
+    },
+    {
+      "id": "q08",
+      "text": "Hva kjennetegner mellomstatlig samarbeid?",
+      "options": [
+        "At et organ fatter bindende vedtak",
+        "At statene gir fra seg all makt",
+        "At det ikke finnes avtaler",
+        "At statene samarbeider, men beholder vetorett"
+      ],
+      "correct": 3,
+      "explain": "Som i FN."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken rolle har organisasjoner som Amnesty?",
+      "options": [
+        "Dokumentere brudd og legge press på regjeringer",
+        "Dømme i straffesaker",
+        "Vedta lover",
+        "Lede FN"
+      ],
+      "correct": 0,
+      "explain": "Gjennom rapporter og kampanjer."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er et argument mot overstatlige organer?",
+      "options": [
+        "At de gir sterkere vern",
+        "At de flytter makt bort fra nasjonale folkevalgte",
+        "At de beskytter mindretall",
+        "At de er billige"
+      ],
+      "correct": 1,
+      "explain": "Spenning mellom rettigheter og demokrati."
+    }
   ],
   "mindmap": {
     "label": "Håndhevelse av menneskerettigheter",
     "children": [
-      { "label": "FN", "children": [
-        { "label": "Menneskerettighetsrådet og UPR" },
-        { "label": "Traktatorganer" },
-        { "label": "Høykommissæren" }
-      ] },
-      { "label": "Europa", "children": [
-        { "label": "Europarådet og EMK" },
-        { "label": "EMD" },
-        { "label": "EU og EØS" }
-      ] },
-      { "label": "Nasjonalt", "children": [
-        { "label": "Domstolene" },
-        { "label": "NIM" },
-        { "label": "Ombudene" }
-      ] },
-      { "label": "Sivilsamfunn", "children": [
-        { "label": "Amnesty og HRW" },
-        { "label": "Journalister og varslere" }
-      ] },
-      { "label": "Myndighetsnivåer", "children": [
-        { "label": "Statlig" },
-        { "label": "Mellomstatlig" },
-        { "label": "Overstatlig" }
-      ] }
+      {
+        "label": "FN",
+        "children": [
+          {
+            "label": "Menneskerettighetsrådet og UPR"
+          },
+          {
+            "label": "Traktatorganer"
+          },
+          {
+            "label": "Høykommissæren"
+          }
+        ]
+      },
+      {
+        "label": "Europa",
+        "children": [
+          {
+            "label": "Europarådet og EMK"
+          },
+          {
+            "label": "EMD"
+          },
+          {
+            "label": "EU og EØS"
+          }
+        ]
+      },
+      {
+        "label": "Nasjonalt",
+        "children": [
+          {
+            "label": "Domstolene"
+          },
+          {
+            "label": "NIM"
+          },
+          {
+            "label": "Ombudene"
+          }
+        ]
+      },
+      {
+        "label": "Sivilsamfunn",
+        "children": [
+          {
+            "label": "Amnesty og HRW"
+          },
+          {
+            "label": "Journalister og varslere"
+          }
+        ]
+      },
+      {
+        "label": "Myndighetsnivåer",
+        "children": [
+          {
+            "label": "Statlig"
+          },
+          {
+            "label": "Mellomstatlig"
+          },
+          {
+            "label": "Overstatlig"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Man må som hovedregel prøve saken i nasjonale domstoler før man klager til EMD.", "correct": true, "explain": "Nasjonale rettsmidler må brukes først." },
-      { "id": "m02", "type": "sant-usant", "text": "FNs menneskerettighetsråd kan avsi bindende dommer mot stater.", "correct": false, "explain": "FN-systemet bygger mest på dialog og press." },
-      { "id": "m03", "type": "sant-usant", "text": "Norge er bundet av mye EU-rett gjennom EØS-avtalen.", "correct": true, "explain": "Selv om Norge ikke er EU-medlem." },
-      { "id": "m04", "type": "sant-usant", "text": "Menneskerettsforkjempere er trygge i alle land.", "correct": false, "explain": "I mange land blir de forfulgt." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilket organ behandler klager på den norske forvaltningen?", "options": ["EMD", "Sivilombudet", "ICC", "UPR"], "correct": 1, "explain": "Nasjonal klageordning." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor mange medlemsland har FNs menneskerettighetsråd?", "options": ["47", "15", "193", "5"], "correct": 0, "explain": "Valgt av FNs generalforsamling." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken institusjon kan straffe statsledere for krigsforbrytelser?", "options": ["Sivilombudet", "FNs barnekomité", "ICC", "Europarådet"], "correct": 2, "explain": "Den internasjonale straffedomstolen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Man må som hovedregel prøve saken i nasjonale domstoler før man klager til EMD.",
+        "correct": true,
+        "explain": "Nasjonale rettsmidler må brukes først."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "FNs menneskerettighetsråd kan avsi bindende dommer mot stater.",
+        "correct": false,
+        "explain": "FN-systemet bygger mest på dialog og press."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Norge er bundet av mye EU-rett gjennom EØS-avtalen.",
+        "correct": true,
+        "explain": "Selv om Norge ikke er EU-medlem."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Menneskerettsforkjempere er trygge i alle land.",
+        "correct": false,
+        "explain": "I mange land blir de forfulgt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilket organ behandler klager på den norske forvaltningen?",
+        "options": [
+          "EMD",
+          "Sivilombudet",
+          "ICC",
+          "UPR"
+        ],
+        "correct": 1,
+        "explain": "Nasjonal klageordning."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor mange medlemsland har FNs menneskerettighetsråd?",
+        "options": [
+          "47",
+          "15",
+          "193",
+          "5"
+        ],
+        "correct": 0,
+        "explain": "Valgt av FNs generalforsamling."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken institusjon kan straffe statsledere for krigsforbrytelser?",
+        "options": [
+          "Sivilombudet",
+          "FNs barnekomité",
+          "ICC",
+          "Europarådet"
+        ],
+        "correct": 2,
+        "explain": "Den internasjonale straffedomstolen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "FN-systemet bruker dialog, rapportering og offentlig press, og avgjørelsene er i hovedsak ikke juridisk bindende. EMDs dommer er bindende for statene. Forklar en viktig forskjell mellom hvordan FN-systemet og EMD kan påvirke statene.",
+        "fasit": "FN-systemet påvirker særlig gjennom anbefalinger og offentlig press, mens EMD kan avsi dommer som statene er juridisk bundet av.",
+        "kriterier": [
+          "Forklarer at FN i hovedsak bruker dialog, anbefalinger eller offentlig press, ikke bindende avgjørelser.",
+          "Forklarer at EMDs dommer er bindende for statene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En person mener at staten har krenket rettighetene sine etter Den europeiske menneskerettskonvensjonen. Personen har først prøvd saken i nasjonale domstoler. Hvilket organ kan personen klage til, og hva kan organet gjøre?",
+        "fasit": "Personen kan klage til Den europeiske menneskerettsdomstolen (EMD). EMD behandler klager fra enkeltpersoner og kan avsi dommer som er bindende for staten.",
+        "kriterier": [
+          "Identifiserer EMD som organet personen kan klage til etter å ha prøvd saken nasjonalt.",
+          "Forklarer at EMD behandler individklager om statlige krenkelser, og/eller at dommene er bindende."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign EMD og Den internasjonale straffedomstolen (ICC) ut fra hvem de kan rette avgjørelser mot, og hva slags saker de behandler.",
+        "fasit": "EMD behandler klager fra enkeltpersoner som mener en stat har krenket rettighetene deres. ICC kan straffe enkeltpersoner, også statsledere, for de alvorligste forbrytelsene, som folkemord og krigsforbrytelser.",
+        "kriterier": [
+          "Skiller mellom EMD-saker om staters ansvar for menneskerettighetsbrudd og ICC-saker mot enkeltpersoner.",
+          "Knytter ICC til alvorlige forbrytelser, for eksempel folkemord eller krigsforbrytelser."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person vil klage på hvordan en offentlig etat har behandlet saken deres. Samtidig ønsker en stortingsrepresentant råd om menneskerettighetssituasjonen i Norge. Hvilke to nasjonale institusjoner passer til disse oppgavene, og hva gjør de?",
+        "fasit": "Sivilombudet behandler klager på forvaltningen. NIM overvåker menneskerettighetene i Norge og gir råd til Stortinget og regjeringen.",
+        "kriterier": [
+          "Knytter klagen på den offentlige etaten til Sivilombudet og dets arbeid med klager på forvaltningen.",
+          "Knytter rådet om menneskerettighetssituasjonen til NIMs overvåking og rådgivning."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Norge tapte flere saker om barnevern i EMD. Domstolen mente at myndighetene ikke hadde tatt nok hensyn til familiens rett til familieliv. Forklar hvilken følge dommene fikk for norsk praksis.",
+        "fasit": "Dommene førte til endringer i norsk barnevernspraksis. De viste at myndighetene måtte ta tilstrekkelig hensyn til familiens rett til familieliv.",
+        "kriterier": [
+          "Nevner at dommene førte til endringer i norsk barnevernspraksis.",
+          "Knytter sakene til at familiens rett til familieliv ikke var godt nok ivaretatt."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En stat bestemmer som hovedregel selv innenfor sine grenser, men har også godtatt at EMD kan fatte bindende dommer. Forklar hvordan dette viser en spenning mellom suverenitet og overstatlig myndighet.",
+        "fasit": "Suverenitet betyr at staten bestemmer selv innenfor egne grenser. Når EMD kan fatte bindende dommer, har staten samtidig gitt et organ myndighet til å treffe avgjørelser den må følge.",
+        "kriterier": [
+          "Forklarer suverenitet som statens rett til å bestemme selv innenfor egne grenser.",
+          "Forklarer at bindende EMD-dommer innebærer at et organ utenfor staten kan fatte avgjørelser staten må følge."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Noen traktatorganer mottar jevnlige rapporter fra stater, og noen kan også behandle individklager. Forklar forskjellen på hvem som sender inn en rapport, og hvem som sender inn en individklage.",
+        "fasit": "Det er staten som sender jevnlige rapporter til traktatorganet om konvensjonen. En individklage sendes av en enkeltperson som mener at rettighetene deres er krenket.",
+        "kriterier": [
+          "Forklarer at staten sender rapporter til traktatorganet.",
+          "Forklarer at en individklage kommer fra en enkeltperson som mener rettighetene er krenket."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Frivillige organisasjoner dokumenterer menneskerettsbrudd og driver kampanjer, mens journalister og varslere kan avsløre overgrep. I mange land blir menneskerettsforkjempere forfulgt. Forklar hvordan slik forfølgelse kan gjøre det vanskeligere å følge med på og reagere på menneskerettsbrudd.",
+        "fasit": "Når menneskerettsforkjempere blir forfulgt, kan det bli vanskeligere å dokumentere og avsløre overgrep. Da blir det også vanskeligere for organisasjoner og medier å rette oppmerksomhet mot bruddene og legge press på regjeringer.",
+        "kriterier": [
+          "Knytter forfølgelse til at dokumentasjon eller avsløring av overgrep blir vanskeligere.",
+          "Forklarer at dette kan svekke oppmerksomhet eller press på myndighetene."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

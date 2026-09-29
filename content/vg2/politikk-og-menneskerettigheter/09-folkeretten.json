@@ -4,78 +4,424 @@
   "trinnId": "vg2",
   "name": "Folkeretten",
   "intro": "Hva folkeretten er og hvor den kommer fra – traktater, sedvanerett og FN-pakten – regler om maktbruk, krigens folkerett, havretten og internasjonale domstoler, og hvilken rolle folkeretten spiller nasjonalt og internasjonalt.",
-  "kompetansemaal": [10],
+  "kompetansemaal": [
+    10
+  ],
   "sammendrag": "## Hva er folkerett?\n\n**Folkeretten** er reglene som gjelder **mellom stater** – og i økende grad også for internasjonale organisasjoner og enkeltpersoner. Den regulerer blant annet **grenser**, **hav**, **krig**, **handel**, **miljø** og **menneskerettigheter**.\n\n## Kilder til folkeretten\n\n- **Traktater** (konvensjoner, avtaler): skriftlige avtaler mellom stater. De binder bare statene som har sluttet seg til dem – ved **ratifikasjon**.\n- **Sedvanerett**: regler som har blitt til gjennom fast **praksis** som statene oppfatter som **bindende**. Den gjelder for **alle** stater.\n- **Alminnelige rettsprinsipper**, som at avtaler skal holdes.\n\n## FN-pakten\n\n**FN-pakten** fra **1945** er folkerettens viktigste traktat.\n\n- **Voldsforbudet** (artikkel 2 nr. 4): Stater skal ikke bruke **makt** mot andre staters territorium eller uavhengighet.\n- **Unntak**: **selvforsvar** mot et væpnet angrep (artikkel 51) og maktbruk med **mandat fra Sikkerhetsrådet** (kapittel VII).\n- **Suverenitet**: Alle stater er **formelt like**, og andre stater skal ikke blande seg i deres **indre** anliggender.\n\n## Krigens folkerett\n\n**Den humanitære folkeretten** gjelder **under** væpnede konflikter. **Genèvekonvensjonene** (1949) beskytter **sivile**, **sårede** og **krigsfanger**. Viktige prinsipper er\n\n- **atskillelse**: angrep skal bare rettes mot **militære mål**, ikke sivile\n- **forholdsmessighet**: sivile tap skal ikke være **uforholdsmessige** sammenlignet med den militære fordelen\n- forbud mot **tortur** og visse **våpen**, som kjemiske våpen\n\n## Havretten\n\n**Havrettskonvensjonen** (1982) gir kyststater en **økonomisk sone** på inntil **200 nautiske mil**, der de har rett til fisk, olje og gass. Den har stor betydning for **Norge**.\n\n## Domstoler\n\n- **Den internasjonale domstolen (ICJ)** i Haag avgjør **tvister mellom stater**.\n- **Den internasjonale straffedomstolen (ICC)** i Haag, opprettet i **2002**, kan straffe **enkeltpersoner** for **folkemord**, **forbrytelser mot menneskeheten**, **krigsforbrytelser** og **aggresjon**. Stormakter som **USA**, **Russland** og **Kina** er ikke med.\n\n## Folkeretten i Norge\n\nNorge har et **dualistisk** system: Folkerettslige avtaler må som hovedregel gjøres til norsk lov før de kan brukes direkte i norske domstoler. Menneskerettighetene er gjennomført i **menneskerettsloven**, og **EØS-avtalen** er gjort til norsk lov. Norge har som **lite land** stor interesse av at **rett**, ikke **makt**, styrer internasjonal politikk.\n\n## Styrker og svakheter\n\n- **Styrker**: Folkeretten gir **forutsigbarhet**, beskytter **små stater**, gjør det mulig å løse konflikter **fredelig** og setter **normer** som stater og opinion kan vise til.\n- **Svakheter**: Det finnes ingen **verdenspoliti**. Håndhevelsen avhenger av statenes vilje. De fem faste medlemmene i **Sikkerhetsrådet** kan bruke **veto** og blokkere tiltak – også mot seg selv. Stormakter bryter noen ganger folkeretten uten at det får store følger, som da **Russland** angrep **Ukraina** i 2022.\n\n## Ansvaret for å beskytte\n\nPrinsippet om **ansvaret for å beskytte** (**R2P**, 2005) sier at stater har ansvar for å beskytte sin egen befolkning mot folkemord og massive overgrep. Svikter en stat, har det internasjonale samfunnet et **ansvar** – men bruk av makt krever fortsatt Sikkerhetsrådets godkjenning.",
   "flashcards": [
-    { "term": "Folkerett", "def": "Reglene som gjelder mellom stater." },
-    { "term": "Traktat", "def": "Skriftlig avtale mellom stater." },
-    { "term": "Ratifikasjon", "def": "At en stat formelt slutter seg til en traktat." },
-    { "term": "Sedvanerett", "def": "Regler fra fast praksis som oppfattes som bindende." },
-    { "term": "FN-pakten", "def": "Folkerettens viktigste traktat fra 1945." },
-    { "term": "Voldsforbudet", "def": "Stater skal ikke bruke makt mot andre stater (artikkel 2 nr. 4)." },
-    { "term": "Selvforsvar (artikkel 51)", "def": "Unntak fra voldsforbudet ved væpnet angrep." },
-    { "term": "Suverenitet", "def": "Stater er formelt like og bestemmer over egne forhold." },
-    { "term": "Humanitær folkerett", "def": "Regler som gjelder under væpnede konflikter." },
-    { "term": "Genèvekonvensjonene", "def": "Beskytter sivile, sårede og krigsfanger (1949)." },
-    { "term": "Forholdsmessighet", "def": "Sivile tap skal ikke være uforholdsmessige." },
-    { "term": "Havrettskonvensjonen", "def": "Gir kyststater økonomisk sone på inntil 200 nautiske mil." },
-    { "term": "ICJ", "def": "Den internasjonale domstolen – tvister mellom stater." },
-    { "term": "ICC", "def": "Den internasjonale straffedomstolen – straffer enkeltpersoner." },
-    { "term": "Dualisme", "def": "Folkerett må gjøres til norsk lov for å brukes direkte i domstolene." }
+    {
+      "term": "Folkerett",
+      "def": "Reglene som gjelder mellom stater."
+    },
+    {
+      "term": "Traktat",
+      "def": "Skriftlig avtale mellom stater."
+    },
+    {
+      "term": "Ratifikasjon",
+      "def": "At en stat formelt slutter seg til en traktat."
+    },
+    {
+      "term": "Sedvanerett",
+      "def": "Regler fra fast praksis som oppfattes som bindende."
+    },
+    {
+      "term": "FN-pakten",
+      "def": "Folkerettens viktigste traktat fra 1945."
+    },
+    {
+      "term": "Voldsforbudet",
+      "def": "Stater skal ikke bruke makt mot andre stater (artikkel 2 nr. 4)."
+    },
+    {
+      "term": "Selvforsvar (artikkel 51)",
+      "def": "Unntak fra voldsforbudet ved væpnet angrep."
+    },
+    {
+      "term": "Suverenitet",
+      "def": "Stater er formelt like og bestemmer over egne forhold."
+    },
+    {
+      "term": "Humanitær folkerett",
+      "def": "Regler som gjelder under væpnede konflikter."
+    },
+    {
+      "term": "Genèvekonvensjonene",
+      "def": "Beskytter sivile, sårede og krigsfanger (1949)."
+    },
+    {
+      "term": "Forholdsmessighet",
+      "def": "Sivile tap skal ikke være uforholdsmessige."
+    },
+    {
+      "term": "Havrettskonvensjonen",
+      "def": "Gir kyststater økonomisk sone på inntil 200 nautiske mil."
+    },
+    {
+      "term": "ICJ",
+      "def": "Den internasjonale domstolen – tvister mellom stater."
+    },
+    {
+      "term": "ICC",
+      "def": "Den internasjonale straffedomstolen – straffer enkeltpersoner."
+    },
+    {
+      "term": "Dualisme",
+      "def": "Folkerett må gjøres til norsk lov for å brukes direkte i domstolene."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er sedvanerett?", "options": ["Skriftlige avtaler", "Regler fra fast praksis som oppfattes som bindende", "Nasjonale lover", "Religiøse regler"], "correct": 1, "explain": "Gjelder for alle stater." },
-    { "id": "q02", "text": "Hva sier voldsforbudet i FN-pakten?", "options": ["At stater ikke skal bruke makt mot andre stater", "At alle kriger er lovlige", "At bare stormakter kan bruke makt", "At FN har egen hær"], "correct": 0, "explain": "Artikkel 2 nr. 4." },
-    { "id": "q03", "text": "Hva er unntakene fra voldsforbudet?", "options": ["Økonomiske interesser", "Religiøse grunner", "Selvforsvar og mandat fra Sikkerhetsrådet", "Grensetvister"], "correct": 2, "explain": "Artikkel 51 og kapittel VII." },
-    { "id": "q04", "text": "Hvem kan ICC straffe?", "options": ["Stater", "Selskaper", "FN", "Enkeltpersoner for folkemord, krigsforbrytelser og lignende"], "correct": 3, "explain": "Opprettet i 2002." },
-    { "id": "q05", "text": "Hva beskytter Genèvekonvensjonene?", "options": ["Sivile, sårede og krigsfanger", "Handelsavtaler", "Fiskekvoter", "Valg"], "correct": 0, "explain": "Humanitær folkerett." },
-    { "id": "q06", "text": "Hva er en svakhet ved folkeretten?", "options": ["Den har for mange domstoler", "Det finnes ingen verdenspoliti, og vetoretten kan blokkere tiltak", "Den gjelder bare små stater", "Den har ingen regler"], "correct": 1, "explain": "Håndhevelse avhenger av statene." },
-    { "id": "q07", "text": "Hva betyr det at Norge har et dualistisk system?", "options": ["At Norge har to regjeringer", "At Norge ikke følger folkeretten", "At folkerettslige avtaler må gjøres til norsk lov før de brukes direkte i domstolene", "At Norge har to språk"], "correct": 2, "explain": "For eksempel gjennom menneskerettsloven." },
-    { "id": "q08", "text": "Hvor stor økonomisk sone gir havrettskonvensjonen kyststater?", "options": ["12 nautiske mil", "50 nautiske mil", "1000 nautiske mil", "Inntil 200 nautiske mil"], "correct": 3, "explain": "Rett til fisk, olje og gass." },
-    { "id": "q09", "text": "Hvorfor har Norge stor interesse av en sterk folkerett?", "options": ["Fordi små land tjener på at rett, ikke makt, styrer", "Fordi Norge er en stormakt", "Fordi Norge ikke har grenser", "Fordi Norge ikke er med i FN"], "correct": 0, "explain": "Folkeretten beskytter små stater." },
-    { "id": "q10", "text": "Hva sier prinsippet om ansvaret for å beskytte (R2P)?", "options": ["At stater kan angripe hvem de vil", "At stater har ansvar for å beskytte egen befolkning, og verdenssamfunnet har ansvar hvis de svikter", "At FN skal styre alle land", "At krig er forbudt uten unntak"], "correct": 1, "explain": "Vedtatt i 2005." }
+    {
+      "id": "q01",
+      "text": "Hva er sedvanerett?",
+      "options": [
+        "Skriftlige avtaler",
+        "Regler fra fast praksis som oppfattes som bindende",
+        "Nasjonale lover",
+        "Religiøse regler"
+      ],
+      "correct": 1,
+      "explain": "Gjelder for alle stater."
+    },
+    {
+      "id": "q02",
+      "text": "Hva sier voldsforbudet i FN-pakten?",
+      "options": [
+        "At stater ikke skal bruke makt mot andre stater",
+        "At alle kriger er lovlige",
+        "At bare stormakter kan bruke makt",
+        "At FN har egen hær"
+      ],
+      "correct": 0,
+      "explain": "Artikkel 2 nr. 4."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er unntakene fra voldsforbudet?",
+      "options": [
+        "Økonomiske interesser",
+        "Religiøse grunner",
+        "Selvforsvar og mandat fra Sikkerhetsrådet",
+        "Grensetvister"
+      ],
+      "correct": 2,
+      "explain": "Artikkel 51 og kapittel VII."
+    },
+    {
+      "id": "q04",
+      "text": "Hvem kan ICC straffe?",
+      "options": [
+        "Stater",
+        "Selskaper",
+        "FN",
+        "Enkeltpersoner for folkemord, krigsforbrytelser og lignende"
+      ],
+      "correct": 3,
+      "explain": "Opprettet i 2002."
+    },
+    {
+      "id": "q05",
+      "text": "Hva beskytter Genèvekonvensjonene?",
+      "options": [
+        "Sivile, sårede og krigsfanger",
+        "Handelsavtaler",
+        "Fiskekvoter",
+        "Valg"
+      ],
+      "correct": 0,
+      "explain": "Humanitær folkerett."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en svakhet ved folkeretten?",
+      "options": [
+        "Den har for mange domstoler",
+        "Det finnes ingen verdenspoliti, og vetoretten kan blokkere tiltak",
+        "Den gjelder bare små stater",
+        "Den har ingen regler"
+      ],
+      "correct": 1,
+      "explain": "Håndhevelse avhenger av statene."
+    },
+    {
+      "id": "q07",
+      "text": "Hva betyr det at Norge har et dualistisk system?",
+      "options": [
+        "At Norge har to regjeringer",
+        "At Norge ikke følger folkeretten",
+        "At folkerettslige avtaler må gjøres til norsk lov før de brukes direkte i domstolene",
+        "At Norge har to språk"
+      ],
+      "correct": 2,
+      "explain": "For eksempel gjennom menneskerettsloven."
+    },
+    {
+      "id": "q08",
+      "text": "Hvor stor økonomisk sone gir havrettskonvensjonen kyststater?",
+      "options": [
+        "12 nautiske mil",
+        "50 nautiske mil",
+        "1000 nautiske mil",
+        "Inntil 200 nautiske mil"
+      ],
+      "correct": 3,
+      "explain": "Rett til fisk, olje og gass."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor har Norge stor interesse av en sterk folkerett?",
+      "options": [
+        "Fordi små land tjener på at rett, ikke makt, styrer",
+        "Fordi Norge er en stormakt",
+        "Fordi Norge ikke har grenser",
+        "Fordi Norge ikke er med i FN"
+      ],
+      "correct": 0,
+      "explain": "Folkeretten beskytter små stater."
+    },
+    {
+      "id": "q10",
+      "text": "Hva sier prinsippet om ansvaret for å beskytte (R2P)?",
+      "options": [
+        "At stater kan angripe hvem de vil",
+        "At stater har ansvar for å beskytte egen befolkning, og verdenssamfunnet har ansvar hvis de svikter",
+        "At FN skal styre alle land",
+        "At krig er forbudt uten unntak"
+      ],
+      "correct": 1,
+      "explain": "Vedtatt i 2005."
+    }
   ],
   "mindmap": {
     "label": "Folkeretten",
     "children": [
-      { "label": "Kilder", "children": [
-        { "label": "Traktater" },
-        { "label": "Sedvanerett" },
-        { "label": "Rettsprinsipper" }
-      ] },
-      { "label": "FN-pakten", "children": [
-        { "label": "Voldsforbudet" },
-        { "label": "Selvforsvar" },
-        { "label": "Suverenitet" }
-      ] },
-      { "label": "Områder", "children": [
-        { "label": "Krigens folkerett" },
-        { "label": "Havretten" },
-        { "label": "Menneskerettigheter" }
-      ] },
-      { "label": "Domstoler", "children": [
-        { "label": "ICJ" },
-        { "label": "ICC" }
-      ] },
-      { "label": "Vurdering", "children": [
-        { "label": "Norge og dualisme" },
-        { "label": "Styrker og svakheter" },
-        { "label": "R2P" }
-      ] }
+      {
+        "label": "Kilder",
+        "children": [
+          {
+            "label": "Traktater"
+          },
+          {
+            "label": "Sedvanerett"
+          },
+          {
+            "label": "Rettsprinsipper"
+          }
+        ]
+      },
+      {
+        "label": "FN-pakten",
+        "children": [
+          {
+            "label": "Voldsforbudet"
+          },
+          {
+            "label": "Selvforsvar"
+          },
+          {
+            "label": "Suverenitet"
+          }
+        ]
+      },
+      {
+        "label": "Områder",
+        "children": [
+          {
+            "label": "Krigens folkerett"
+          },
+          {
+            "label": "Havretten"
+          },
+          {
+            "label": "Menneskerettigheter"
+          }
+        ]
+      },
+      {
+        "label": "Domstoler",
+        "children": [
+          {
+            "label": "ICJ"
+          },
+          {
+            "label": "ICC"
+          }
+        ]
+      },
+      {
+        "label": "Vurdering",
+        "children": [
+          {
+            "label": "Norge og dualisme"
+          },
+          {
+            "label": "Styrker og svakheter"
+          },
+          {
+            "label": "R2P"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En traktat binder bare statene som har sluttet seg til den.", "correct": true, "explain": "Ved ratifikasjon." },
-      { "id": "m02", "type": "sant-usant", "text": "USA, Russland og Kina er medlemmer av ICC.", "correct": false, "explain": "Ingen av dem er med." },
-      { "id": "m03", "type": "sant-usant", "text": "Havrettskonvensjonen har stor betydning for Norge.", "correct": true, "explain": "På grunn av fisk, olje og gass." },
-      { "id": "m04", "type": "sant-usant", "text": "Under krig gjelder ingen regler.", "correct": false, "explain": "Den humanitære folkeretten gjelder." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken domstol avgjør tvister mellom stater?", "options": ["ICC", "ICJ", "EMD", "Høyesterett"], "correct": 1, "explain": "Den internasjonale domstolen i Haag." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr prinsippet om atskillelse i krig?", "options": ["At angrep bare skal rettes mot militære mål", "At stater skal skille lag", "At soldater skal skilles fra familien", "At krig skal skje langt unna"], "correct": 0, "explain": "Sivile skal skånes." },
-      { "id": "m07", "type": "flervalg", "text": "Når ble FN-pakten vedtatt?", "options": ["1919", "1949", "1945", "1989"], "correct": 2, "explain": "Etter andre verdenskrig." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En traktat binder bare statene som har sluttet seg til den.",
+        "correct": true,
+        "explain": "Ved ratifikasjon."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "USA, Russland og Kina er medlemmer av ICC.",
+        "correct": false,
+        "explain": "Ingen av dem er med."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Havrettskonvensjonen har stor betydning for Norge.",
+        "correct": true,
+        "explain": "På grunn av fisk, olje og gass."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Under krig gjelder ingen regler.",
+        "correct": false,
+        "explain": "Den humanitære folkeretten gjelder."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken domstol avgjør tvister mellom stater?",
+        "options": [
+          "ICC",
+          "ICJ",
+          "EMD",
+          "Høyesterett"
+        ],
+        "correct": 1,
+        "explain": "Den internasjonale domstolen i Haag."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr prinsippet om atskillelse i krig?",
+        "options": [
+          "At angrep bare skal rettes mot militære mål",
+          "At stater skal skille lag",
+          "At soldater skal skilles fra familien",
+          "At krig skal skje langt unna"
+        ],
+        "correct": 0,
+        "explain": "Sivile skal skånes."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Når ble FN-pakten vedtatt?",
+        "options": [
+          "1919",
+          "1949",
+          "1945",
+          "1989"
+        ],
+        "correct": 2,
+        "explain": "Etter andre verdenskrig."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva er folkerett, og nevn to områder den regulerer.",
+        "fasit": "Folkerett er regler som gjelder mellom stater, og i økende grad også for internasjonale organisasjoner og enkeltpersoner. Den regulerer blant annet grenser, krig, handel, miljø og menneskerettigheter.",
+        "kriterier": [
+          "Forklarer at folkerett er regler som gjelder mellom stater.",
+          "Nevner to relevante områder folkeretten regulerer."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En stat har sluttet seg formelt til en skriftlig avtale med andre stater. Forklar hva avtalen kalles, hva handlingen kalles, og hvilke stater avtalen binder.",
+        "fasit": "Avtalen kalles en traktat, og den formelle tilslutningen kalles ratifikasjon. Traktaten binder statene som har sluttet seg til den.",
+        "kriterier": [
+          "Identifiserer avtalen som en traktat.",
+          "Forklarer at ratifikasjon er formell tilslutning, og at traktaten binder statene som har sluttet seg til den."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En stat forsøker å bestemme hvilken politikk et annet land skal føre i sine indre anliggender. Forklar hvilket folkerettslig prinsipp dette utfordrer, og hva prinsippet innebærer.",
+        "fasit": "Dette utfordrer suverenitetsprinsippet. Statene er formelt like og bestemmer over egne forhold, og andre stater skal ikke blande seg inn i deres indre anliggender.",
+        "kriterier": [
+          "Knytter situasjonen til suverenitet.",
+          "Forklarer at stater bestemmer over egne indre forhold, og at andre stater ikke skal blande seg inn."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Under en væpnet konflikt planlegger en part å angripe en militær installasjon der sivile også oppholder seg. Hvilket prinsipp krever at partene skiller mellom militære mål og sivile, og hva krever det?",
+        "fasit": "Prinsippet om atskillelse krever at angrep bare rettes mot militære mål. Sivile skal ikke være mål for angrep.",
+        "kriterier": [
+          "Identifiserer prinsippet om atskillelse.",
+          "Forklarer at angrep skal rettes mot militære mål, ikke sivile."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I en væpnet konflikt vil et angrep gi en svært liten militær fordel, men forventes å føre til sivile tap som er klart uforholdsmessige i forhold til fordelen. Vurder angrepet ut fra forholdsmessighetsprinsippet.",
+        "fasit": "Angrepet strider mot forholdsmessighetsprinsippet. Sivile tap skal ikke være uforholdsmessige sammenlignet med den militære fordelen.",
+        "kriterier": [
+          "Konkluderer med at angrepet ikke er i tråd med forholdsmessighetsprinsippet.",
+          "Begrunner svaret med at sivile tap ikke skal være uforholdsmessige sammenlignet med den militære fordelen."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar forskjellen mellom ICJ og ICC ved å si hvem hver domstol behandler saker mot.",
+        "fasit": "ICJ avgjør tvister mellom stater. ICC kan straffe enkeltpersoner for bestemte alvorlige forbrytelser, blant annet krigsforbrytelser.",
+        "kriterier": [
+          "Forklarer at ICJ behandler tvister mellom stater.",
+          "Forklarer at ICC behandler saker mot enkeltpersoner."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En kyststat finner olje 150 nautiske mil fra kysten. Hvilken folkerettslig ordning gir staten rettigheter i dette området, og hvilken rettighet er relevant her?",
+        "fasit": "Havrettskonvensjonen gir kyststater en økonomisk sone på inntil 200 nautiske mil. I sonen har staten rett til olje og gass.",
+        "kriterier": [
+          "Knytter situasjonen til havrettskonvensjonens økonomiske sone.",
+          "Forklarer at kyststaten har rett til olje og gass i sonen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En soldat som er tatt til fange under en væpnet konflikt, blir torturert. Hvilket regelsett gjelder i situasjonen, og hva sier det om tortur?",
+        "fasit": "Den humanitære folkeretten gjelder under væpnede konflikter. Den forbyr tortur.",
+        "kriterier": [
+          "Identifiserer humanitær folkerett som regelsettet som gjelder under væpnet konflikt.",
+          "Forklarer at tortur er forbudt."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

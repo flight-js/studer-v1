@@ -4,81 +4,433 @@
   "trinnId": "vg1",
   "name": "Befolkning og levekår",
   "intro": "Årsaker til demografiske endringer – fødsler, dødsfall og migrasjon – den demografiske overgangsmodellen, befolkningspyramider, urbanisering, og hvordan levekår måles og varierer i ulike deler av verden.",
-  "kompetansemaal": [7],
+  "kompetansemaal": [
+    7
+  ],
   "sammendrag": "## Befolkningsutvikling\n\nJordas befolkning passerte **8 milliarder** i 2022. For 200 år siden var vi rundt én milliard. Befolkningen i et område endrer seg på grunn av\n\n- **fødsler** (fødselsrate)\n- **dødsfall** (dødsrate)\n- **migrasjon** – inn- og utvandring\n\n**Samlet fruktbarhet** er gjennomsnittlig antall barn per kvinne. For at befolkningen skal holde seg stabil uten innvandring, trengs omtrent **2,1** barn per kvinne. I Norge er fruktbarheten nå **godt under** dette, mens den er høy i mange land sør for Sahara.\n\n## Den demografiske overgangsmodellen\n\nModellen beskriver hvordan befolkningen endrer seg når et land utvikler seg:\n\n1. **Høy fødselsrate og høy dødsrate** – befolkningen vokser sakte.\n2. **Dødsraten faller** takket være bedre mat, rent vann og medisin, men fødselsraten er fortsatt høy – **rask vekst**.\n3. **Fødselsraten faller** fordi barnedødeligheten går ned, kvinner tar utdanning og jobber, og prevensjon blir vanlig.\n4. **Lav fødselsrate og lav dødsrate** – befolkningen er stabil.\n5. Noen land får **lavere fødselsrate enn dødsrate** – befolkningen **eldes** og kan synke uten innvandring.\n\nNorge har gått gjennom fasene siden 1800-tallet. Mange land i Afrika er i fase 2 eller 3, mens land som **Japan** og **Italia** har en aldrende befolkning.\n\n## Befolkningspyramider\n\nEn **befolkningspyramide** viser fordelingen av alder og kjønn:\n\n- **Bred bunn** (pyramideform): mange barn og unge, høy fødselsrate.\n- **Rett form** (bikube): stabil befolkning.\n- **Smal bunn** (urneform): få barn, mange eldre – en **aldrende** befolkning.\n\nEn aldrende befolkning gir færre i arbeid per pensjonist og større behov for helse- og omsorgstjenester. En svært ung befolkning trenger mange skoler og jobber.\n\n## Migrasjon og urbanisering\n\nMennesker flytter på grunn av **push-faktorer** (krig, forfølgelse, fattigdom, klimaendringer) og **pull-faktorer** (jobb, utdanning, trygghet, familie). **Urbanisering** betyr at en økende andel bor i **byer** – i dag bor over halvparten av verdens befolkning i byer. Rask byvekst kan gi **slumområder** med dårlige boforhold.\n\n## Levekår\n\n**Levekår** handler om hvordan folk har det materielt og sosialt: inntekt, helse, utdanning, bolig, trygghet og muligheter. Vanlige mål er\n\n- **BNI per innbygger** – gjennomsnittlig inntekt\n- **Forventet levealder**\n- **Barnedødelighet**\n- **Utdanningsnivå**\n- **HDI** (Human Development Index) fra FN, som kombinerer levealder, utdanning og inntekt. Norge ligger helt i toppen.\n- **Gini-koeffisienten**, som måler **ulikhet** i inntekt\n\nGjennomsnitt kan skjule store **forskjeller** – både mellom land og **innad** i et land, mellom by og land, kvinner og menn, og ulike grupper. Levekårene har forbedret seg mye globalt de siste tiårene, men krig, klimaendringer og ulikhet gjør at mange fortsatt lever i **ekstrem fattigdom**.\n\n## Hvorfor varierer levekårene?\n\nForklaringer kan være **naturgitte forhold**, **historie** (for eksempel kolonialisme), **politisk stabilitet**, **korrupsjon**, **utdanning**, **handel** og **konflikter**. Ofte virker mange faktorer sammen.",
   "flashcards": [
-    { "term": "8 milliarder", "def": "Verdens befolkning passerte dette i 2022." },
-    { "term": "Fødselsrate", "def": "Antall fødte per 1000 innbyggere per år." },
-    { "term": "Dødsrate", "def": "Antall døde per 1000 innbyggere per år." },
-    { "term": "Samlet fruktbarhet", "def": "Gjennomsnittlig antall barn per kvinne." },
-    { "term": "2,1 barn per kvinne", "def": "Omtrent det som trengs for stabil befolkning uten innvandring." },
-    { "term": "Demografisk overgangsmodell", "def": "Modell for hvordan fødsels- og dødsrater endres når et land utvikler seg." },
-    { "term": "Fase 2 i overgangsmodellen", "def": "Dødsraten faller, fødselsraten er høy – rask vekst." },
-    { "term": "Befolkningspyramide", "def": "Diagram som viser fordelingen av alder og kjønn." },
-    { "term": "Aldrende befolkning", "def": "Få barn og mange eldre – smal bunn i pyramiden." },
-    { "term": "Push-faktorer", "def": "Forhold som får folk til å flytte fra et sted, som krig." },
-    { "term": "Pull-faktorer", "def": "Forhold som trekker folk til et sted, som jobb." },
-    { "term": "Urbanisering", "def": "At en økende andel bor i byer." },
-    { "term": "HDI", "def": "FNs indeks som kombinerer levealder, utdanning og inntekt." },
-    { "term": "Gini-koeffisient", "def": "Mål på ulikhet i inntekt." },
-    { "term": "Levekår", "def": "Hvordan folk har det materielt og sosialt." }
+    {
+      "term": "8 milliarder",
+      "def": "Verdens befolkning passerte dette i 2022."
+    },
+    {
+      "term": "Fødselsrate",
+      "def": "Antall fødte per 1000 innbyggere per år."
+    },
+    {
+      "term": "Dødsrate",
+      "def": "Antall døde per 1000 innbyggere per år."
+    },
+    {
+      "term": "Samlet fruktbarhet",
+      "def": "Gjennomsnittlig antall barn per kvinne."
+    },
+    {
+      "term": "2,1 barn per kvinne",
+      "def": "Omtrent det som trengs for stabil befolkning uten innvandring."
+    },
+    {
+      "term": "Demografisk overgangsmodell",
+      "def": "Modell for hvordan fødsels- og dødsrater endres når et land utvikler seg."
+    },
+    {
+      "term": "Fase 2 i overgangsmodellen",
+      "def": "Dødsraten faller, fødselsraten er høy – rask vekst."
+    },
+    {
+      "term": "Befolkningspyramide",
+      "def": "Diagram som viser fordelingen av alder og kjønn."
+    },
+    {
+      "term": "Aldrende befolkning",
+      "def": "Få barn og mange eldre – smal bunn i pyramiden."
+    },
+    {
+      "term": "Push-faktorer",
+      "def": "Forhold som får folk til å flytte fra et sted, som krig."
+    },
+    {
+      "term": "Pull-faktorer",
+      "def": "Forhold som trekker folk til et sted, som jobb."
+    },
+    {
+      "term": "Urbanisering",
+      "def": "At en økende andel bor i byer."
+    },
+    {
+      "term": "HDI",
+      "def": "FNs indeks som kombinerer levealder, utdanning og inntekt."
+    },
+    {
+      "term": "Gini-koeffisient",
+      "def": "Mål på ulikhet i inntekt."
+    },
+    {
+      "term": "Levekår",
+      "def": "Hvordan folk har det materielt og sosialt."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilke tre faktorer endrer befolkningen i et område?", "options": ["Vær, klima og kultur", "Fødsler, dødsfall og migrasjon", "Inntekt, utdanning og helse", "Byer, veier og skoler"], "correct": 1, "explain": "Migrasjon er inn- og utflytting." },
-    { "id": "q02", "text": "Hva skjer i fase 2 av den demografiske overgangsmodellen?", "options": ["Dødsraten faller mens fødselsraten er høy, og befolkningen vokser raskt", "Både fødsels- og dødsrate er lave", "Befolkningen synker", "Fødselsraten faller"], "correct": 0, "explain": "Bedre mat, rent vann og medisin senker dødsraten." },
-    { "id": "q03", "text": "Hvor mange barn per kvinne trengs omtrent for stabil befolkning uten innvandring?", "options": ["1,0", "1,5", "2,1", "4,0"], "correct": 2, "explain": "Litt over to fordi ikke alle barn når voksen alder." },
-    { "id": "q04", "text": "Hva viser en befolkningspyramide med smal bunn?", "options": ["Mange barn", "Rask befolkningsvekst", "Høy dødsrate", "En aldrende befolkning"], "correct": 3, "explain": "Få barn og mange eldre." },
-    { "id": "q05", "text": "Hva er en pull-faktor for migrasjon?", "options": ["Muligheter for jobb og utdanning", "Krig", "Forfølgelse", "Tørke"], "correct": 0, "explain": "De andre er push-faktorer." },
-    { "id": "q06", "text": "Hva kombinerer HDI?", "options": ["Befolkning, areal og klima", "Levealder, utdanning og inntekt", "Eksport, import og skatt", "Fødsler, dødsfall og migrasjon"], "correct": 1, "explain": "HDI står for Human Development Index." },
-    { "id": "q07", "text": "Hva måler Gini-koeffisienten?", "options": ["Befolkningstetthet", "Forventet levealder", "Ulikhet i inntekt", "Fruktbarhet"], "correct": 2, "explain": "Høy verdi betyr stor ulikhet." },
-    { "id": "q08", "text": "Hva er urbanisering?", "options": ["At folk flytter fra byene", "At byer blir mindre", "At det bygges flere veier", "At en økende andel bor i byer"], "correct": 3, "explain": "Over halvparten av verdens befolkning bor nå i byer." },
-    { "id": "q09", "text": "Hvilken utfordring gir en aldrende befolkning?", "options": ["Færre i arbeid per pensjonist og større behov for omsorg", "For mange skoler", "For mange barnehager", "For høy fødselsrate"], "correct": 0, "explain": "Japan og Italia er eksempler på land med aldrende befolkning." },
-    { "id": "q10", "text": "Hvorfor kan gjennomsnittstall for et land gi et misvisende bilde av levekårene?", "options": ["Fordi tallene alltid er feil", "Fordi de kan skjule store forskjeller innad i landet", "Fordi de bare gjelder byene", "Fordi de bare gjelder menn"], "correct": 1, "explain": "Det kan være store forskjeller mellom grupper og regioner." }
+    {
+      "id": "q01",
+      "text": "Hvilke tre faktorer endrer befolkningen i et område?",
+      "options": [
+        "Vær, klima og kultur",
+        "Fødsler, dødsfall og migrasjon",
+        "Inntekt, utdanning og helse",
+        "Byer, veier og skoler"
+      ],
+      "correct": 1,
+      "explain": "Migrasjon er inn- og utflytting."
+    },
+    {
+      "id": "q02",
+      "text": "Hva skjer i fase 2 av den demografiske overgangsmodellen?",
+      "options": [
+        "Dødsraten faller mens fødselsraten er høy, og befolkningen vokser raskt",
+        "Både fødsels- og dødsrate er lave",
+        "Befolkningen synker",
+        "Fødselsraten faller"
+      ],
+      "correct": 0,
+      "explain": "Bedre mat, rent vann og medisin senker dødsraten."
+    },
+    {
+      "id": "q03",
+      "text": "Hvor mange barn per kvinne trengs omtrent for stabil befolkning uten innvandring?",
+      "options": [
+        "1,0",
+        "1,5",
+        "2,1",
+        "4,0"
+      ],
+      "correct": 2,
+      "explain": "Litt over to fordi ikke alle barn når voksen alder."
+    },
+    {
+      "id": "q04",
+      "text": "Hva viser en befolkningspyramide med smal bunn?",
+      "options": [
+        "Mange barn",
+        "Rask befolkningsvekst",
+        "Høy dødsrate",
+        "En aldrende befolkning"
+      ],
+      "correct": 3,
+      "explain": "Få barn og mange eldre."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er en pull-faktor for migrasjon?",
+      "options": [
+        "Muligheter for jobb og utdanning",
+        "Krig",
+        "Forfølgelse",
+        "Tørke"
+      ],
+      "correct": 0,
+      "explain": "De andre er push-faktorer."
+    },
+    {
+      "id": "q06",
+      "text": "Hva kombinerer HDI?",
+      "options": [
+        "Befolkning, areal og klima",
+        "Levealder, utdanning og inntekt",
+        "Eksport, import og skatt",
+        "Fødsler, dødsfall og migrasjon"
+      ],
+      "correct": 1,
+      "explain": "HDI står for Human Development Index."
+    },
+    {
+      "id": "q07",
+      "text": "Hva måler Gini-koeffisienten?",
+      "options": [
+        "Befolkningstetthet",
+        "Forventet levealder",
+        "Ulikhet i inntekt",
+        "Fruktbarhet"
+      ],
+      "correct": 2,
+      "explain": "Høy verdi betyr stor ulikhet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er urbanisering?",
+      "options": [
+        "At folk flytter fra byene",
+        "At byer blir mindre",
+        "At det bygges flere veier",
+        "At en økende andel bor i byer"
+      ],
+      "correct": 3,
+      "explain": "Over halvparten av verdens befolkning bor nå i byer."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken utfordring gir en aldrende befolkning?",
+      "options": [
+        "Færre i arbeid per pensjonist og større behov for omsorg",
+        "For mange skoler",
+        "For mange barnehager",
+        "For høy fødselsrate"
+      ],
+      "correct": 0,
+      "explain": "Japan og Italia er eksempler på land med aldrende befolkning."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan gjennomsnittstall for et land gi et misvisende bilde av levekårene?",
+      "options": [
+        "Fordi tallene alltid er feil",
+        "Fordi de kan skjule store forskjeller innad i landet",
+        "Fordi de bare gjelder byene",
+        "Fordi de bare gjelder menn"
+      ],
+      "correct": 1,
+      "explain": "Det kan være store forskjeller mellom grupper og regioner."
+    }
   ],
   "mindmap": {
     "label": "Befolkning og levekår",
     "children": [
-      { "label": "Endringer", "children": [
-        { "label": "Fødsler" },
-        { "label": "Dødsfall" },
-        { "label": "Migrasjon" },
-        { "label": "Fruktbarhet" }
-      ] },
-      { "label": "Overgangsmodellen", "children": [
-        { "label": "Fase 1–2" },
-        { "label": "Fase 3–4" },
-        { "label": "Fase 5: aldring" }
-      ] },
-      { "label": "Pyramider", "children": [
-        { "label": "Bred bunn" },
-        { "label": "Bikube" },
-        { "label": "Urne" }
-      ] },
-      { "label": "Flytting", "children": [
-        { "label": "Push og pull" },
-        { "label": "Urbanisering" },
-        { "label": "Slum" }
-      ] },
-      { "label": "Levekår", "children": [
-        { "label": "BNI og levealder" },
-        { "label": "HDI" },
-        { "label": "Gini" },
-        { "label": "Forskjeller" }
-      ] }
+      {
+        "label": "Endringer",
+        "children": [
+          {
+            "label": "Fødsler"
+          },
+          {
+            "label": "Dødsfall"
+          },
+          {
+            "label": "Migrasjon"
+          },
+          {
+            "label": "Fruktbarhet"
+          }
+        ]
+      },
+      {
+        "label": "Overgangsmodellen",
+        "children": [
+          {
+            "label": "Fase 1–2"
+          },
+          {
+            "label": "Fase 3–4"
+          },
+          {
+            "label": "Fase 5: aldring"
+          }
+        ]
+      },
+      {
+        "label": "Pyramider",
+        "children": [
+          {
+            "label": "Bred bunn"
+          },
+          {
+            "label": "Bikube"
+          },
+          {
+            "label": "Urne"
+          }
+        ]
+      },
+      {
+        "label": "Flytting",
+        "children": [
+          {
+            "label": "Push og pull"
+          },
+          {
+            "label": "Urbanisering"
+          },
+          {
+            "label": "Slum"
+          }
+        ]
+      },
+      {
+        "label": "Levekår",
+        "children": [
+          {
+            "label": "BNI og levealder"
+          },
+          {
+            "label": "HDI"
+          },
+          {
+            "label": "Gini"
+          },
+          {
+            "label": "Forskjeller"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Fruktbarheten i Norge er lavere enn 2,1 barn per kvinne.", "correct": true, "explain": "Den er godt under dette nivået." },
-      { "id": "m02", "type": "sant-usant", "text": "Alle land i verden er i samme fase av den demografiske overgangsmodellen.", "correct": false, "explain": "Landene er i ulike faser." },
-      { "id": "m03", "type": "sant-usant", "text": "Utdanning av kvinner bidrar ofte til lavere fødselsrate.", "correct": true, "explain": "Utdanning og arbeid gir flere valg." },
-      { "id": "m04", "type": "sant-usant", "text": "Verdens befolkning har vært omtrent 8 milliarder i flere hundre år.", "correct": false, "explain": "For 200 år siden var vi rundt én milliard." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken form har befolkningspyramiden i et land med høy fødselsrate?", "options": ["Urne", "Bikube", "Bred bunn", "Omvendt pyramide"], "correct": 2, "explain": "Mange barn gir bred bunn." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken er en push-faktor for migrasjon?", "options": ["Krig og forfølgelse", "Ledige jobber", "Gode skoler", "Familie i et annet land"], "correct": 0, "explain": "Push-faktorer får folk til å dra fra et sted." },
-      { "id": "m07", "type": "flervalg", "text": "Hva kan forklare forskjeller i levekår mellom land?", "options": ["Bare været", "Historie, politisk stabilitet, utdanning, handel og konflikter", "Bare antall innbyggere", "Bare størrelsen på landet"], "correct": 1, "explain": "Ofte virker mange faktorer sammen." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Fruktbarheten i Norge er lavere enn 2,1 barn per kvinne.",
+        "correct": true,
+        "explain": "Den er godt under dette nivået."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle land i verden er i samme fase av den demografiske overgangsmodellen.",
+        "correct": false,
+        "explain": "Landene er i ulike faser."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Utdanning av kvinner bidrar ofte til lavere fødselsrate.",
+        "correct": true,
+        "explain": "Utdanning og arbeid gir flere valg."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Verdens befolkning har vært omtrent 8 milliarder i flere hundre år.",
+        "correct": false,
+        "explain": "For 200 år siden var vi rundt én milliard."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken form har befolkningspyramiden i et land med høy fødselsrate?",
+        "options": [
+          "Urne",
+          "Bikube",
+          "Bred bunn",
+          "Omvendt pyramide"
+        ],
+        "correct": 2,
+        "explain": "Mange barn gir bred bunn."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken er en push-faktor for migrasjon?",
+        "options": [
+          "Krig og forfølgelse",
+          "Ledige jobber",
+          "Gode skoler",
+          "Familie i et annet land"
+        ],
+        "correct": 0,
+        "explain": "Push-faktorer får folk til å dra fra et sted."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan forklare forskjeller i levekår mellom land?",
+        "options": [
+          "Bare været",
+          "Historie, politisk stabilitet, utdanning, handel og konflikter",
+          "Bare antall innbyggere",
+          "Bare størrelsen på landet"
+        ],
+        "correct": 1,
+        "explain": "Ofte virker mange faktorer sammen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Samlet fruktbarhet er gjennomsnittlig antall barn per kvinne. Et land har fruktbarhet godt under omtrent 2,1 barn per kvinne. Forklar hvorfor befolkningen kan bli eldre og etter hvert synke dersom landet ikke har innvandring.",
+        "fasit": "Når kvinner i gjennomsnitt får færre barn enn det som trengs for å holde befolkningen stabil, blir det færre unge. Over tid kan fødselsraten bli lavere enn dødsraten, slik at befolkningen eldes og kan synke.",
+        "kriterier": [
+          "Knytter lav fruktbarhet til færre barn eller unge.",
+          "Forklarer at befolkningen kan eldes og synke uten innvandring."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign fase 2 og fase 3 i den demografiske overgangsmodellen. Hva skjer med fødsels- og dødsratene i fasene, og hva kan forklare endringene?",
+        "fasit": "I fase 2 faller dødsraten på grunn av bedre mat, rent vann og medisin, mens fødselsraten fortsatt er høy. I fase 3 faller fødselsraten blant annet fordi barnedødeligheten går ned, kvinner tar utdanning og jobber, og prevensjon blir vanlig.",
+        "kriterier": [
+          "Skiller mellom fallende dødsrate med fortsatt høy fødselsrate i fase 2 og fallende fødselsrate i fase 3.",
+          "Nevner relevante årsaker til endringene i fasene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En befolkningspyramide har bred bunn. Forklar hva formen forteller om befolkningen, og nevn ett behov samfunnet kan få når mange er barn og unge.",
+        "fasit": "En bred bunn viser at det er mange barn og unge, noe som henger sammen med høy fødselsrate. Samfunnet vil trenge mange skoler og etter hvert jobber til de unge.",
+        "kriterier": [
+          "Knytter bred bunn til mange barn og unge eller høy fødselsrate.",
+          "Nevner behov for mange skoler eller jobber."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En familie flytter fra et område der klimaendringer gjør det vanskelig å bo, til en by der det finnes jobb og utdanning. Forklar hvilken faktor som kan være en push-faktor, og hvilken som kan være en pull-faktor.",
+        "fasit": "Klimaendringene kan være en push-faktor fordi de bidrar til at familien flytter fra området. Jobb og utdanning kan være pull-faktorer fordi de trekker familien til byen.",
+        "kriterier": [
+          "Identifiserer klimaendringer som push-faktor.",
+          "Identifiserer jobb eller utdanning som pull-faktor og knytter det til at familien trekkes til byen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Over halvparten av verdens befolkning bor i byer, og rask byvekst kan føre til slumområder. Forklar sammenhengen mellom rask byvekst og at det kan oppstå slumområder med dårlige boforhold.",
+        "fasit": "Når byene vokser raskt, kan det oppstå slumområder med dårlige boforhold. Dette er en mulig følge av rask urbanisering.",
+        "kriterier": [
+          "Knytter rask vekst i byene til at slumområder kan oppstå.",
+          "Får fram at boforholdene i slumområdene kan være dårlige."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Levekår handler blant annet om inntekt, helse, utdanning, bolig og trygghet. Forklar hvorfor inntekt alene ikke gir et fullstendig bilde av levekårene, og nevn to andre sider ved levekår.",
+        "fasit": "Inntekt viser ikke alene hvordan folk har det på andre viktige områder. Helse og utdanning er for eksempel også sider ved levekårene.",
+        "kriterier": [
+          "Forklarer at inntekt alene ikke dekker alle sider ved hvordan folk har det.",
+          "Nevner to relevante sider ved levekår utenom inntekt."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Verdens befolkning var rundt én milliard for 200 år siden og passerte 8 milliarder i 2022. Omtrent hvor mange milliarder større er befolkningen blitt? Vis det viktigste regnestykket.",
+        "fasit": "Befolkningen har økt med omtrent 7 milliarder. Regnestykket er 8 − 1 = 7.",
+        "kriterier": [
+          "Setter opp eller viser regnestykket 8 − 1.",
+          "Oppgir omtrent 7 milliarder som økning."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I et tenkt område bor det 1000 personer. I løpet av ett år er fødselsraten 20 per 1000 innbyggere og dødsraten 8 per 1000. Hvor mange flere fødsler enn dødsfall blir det dette året, dersom migrasjon ikke regnes med? Vis det viktigste regnestykket.",
+        "fasit": "Det blir 20 fødsler og 8 dødsfall. Forskjellen er 20 − 8 = 12, altså 12 flere fødsler enn dødsfall.",
+        "kriterier": [
+          "Regner ut at det blir 20 fødsler og 8 dødsfall i området.",
+          "Viser at forskjellen er 12 flere fødsler enn dødsfall."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

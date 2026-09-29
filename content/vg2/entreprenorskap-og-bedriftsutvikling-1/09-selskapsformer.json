@@ -4,78 +4,425 @@
   "trinnId": "vg2",
   "name": "Selskapsformer, risiko og ansvar",
   "intro": "De vanligste selskapsformene i Norge – enkeltpersonforetak, aksjeselskap, ansvarlig selskap og samvirke – forskjeller i ansvar, risiko, kapital og krav, registrering i Brønnøysundregistrene og hvordan man velger selskapsform ved etablering.",
-  "kompetansemaal": [9],
+  "kompetansemaal": [
+    9
+  ],
   "sammendrag": "## Hvorfor er selskapsformen viktig?\n\nNår du starter en virksomhet, må du velge **selskapsform**. Valget avgjør blant annet\n\n- hvem som har **ansvaret** hvis virksomheten får **gjeld** den ikke kan betale\n- hvor mye **kapital** som kreves\n- hvilke **krav** som stilles til regnskap og styre\n- hvordan virksomheten **skattlegges**\n\n## Enkeltpersonforetak (ENK)\n\n- Eies av **én person**.\n- Det er **ingen krav** til startkapital, og det er **enkelt** og **billig** å starte.\n- Eieren har **personlig** og **ubegrenset** ansvar. Hvis virksomheten får gjeld, kan kreditorene kreve eierens **private** eiendeler, som bil og bolig.\n- Overskuddet skattlegges som eierens **personinntekt**.\n\nPasser for små virksomheter med **lav risiko**, som frilansere og håndverkere.\n\n## Aksjeselskap (AS)\n\n- Eies av én eller flere **aksjeeiere**.\n- Krever en **aksjekapital** på minst **30 000 kr**.\n- **Begrenset ansvar**: Aksjeeierne kan som hovedregel bare tape det de har **skutt inn** i selskapet.\n- Skal ha et **styre** og holde **generalforsamling**. Årsregnskapet sendes til **Regnskapsregisteret** og er **offentlig**. Små aksjeselskaper kan i mange tilfeller velge bort **revisjon**.\n- Selskapet er et eget **rettssubjekt** som skattlegges for overskuddet.\n\nPasser når risikoen er **høyere**, når flere skal eie sammen, eller når man vil hente **investorer**.\n\nMerk at **banker** ofte krever at eierne stiller **personlig garanti** for lån til et nytt AS. Da blir ansvaret i praksis **ikke** så begrenset for det lånet.\n\n## Ansvarlig selskap (ANS og DA)\n\n- Eies av **to eller flere** deltakere.\n- I et **ANS** har deltakerne **solidarisk** og **ubegrenset** ansvar: Kreditorene kan kreve **hele** gjelden fra **én** av deltakerne.\n- I et **DA** har hver deltaker ansvar for sin **andel** av gjelden.\n- Deltakerne bør lage en skriftlig **selskapsavtale**.\n\n## Andre former\n\n- **Samvirkeforetak (SA)** eies av **medlemmene** – for eksempel kunder eller produsenter – og skal fremme medlemmenes interesser. Kjente samvirker finnes i landbruket og dagligvarehandelen.\n- **Stiftelser** har **ingen eiere** og drives for et bestemt **formål**.\n\n## Registrering\n\nVirksomheter registreres i **Brønnøysundregistrene** og får et **organisasjonsnummer**. Aksjeselskaper og ansvarlige selskaper skal registreres i **Foretaksregisteret**. Registreringen skjer via **Altinn**. Virksomheter som selger varer og tjenester for mer enn **50 000 kr** i løpet av tolv måneder, må som hovedregel registreres i **Merverdiavgiftsregisteret**.\n\n## Hvordan velge?\n\n| | ENK | AS | ANS |\n|---|---|---|---|\n| Eiere | én | én eller flere | to eller flere |\n| Startkapital | ingen krav | minst 30 000 kr | ingen krav |\n| Ansvar | ubegrenset | begrenset | solidarisk, ubegrenset |\n| Krav | få | flere | middels |\n\nVurder **risikoen**, **antall eiere**, **kapitalbehovet**, **administrasjonen** og **troverdigheten** overfor kunder og investorer. En elevbedrift er ikke et vanlig selskap, men gir erfaring med de samme vurderingene.",
   "flashcards": [
-    { "term": "Selskapsform", "def": "Den juridiske formen en virksomhet organiseres i." },
-    { "term": "Enkeltpersonforetak (ENK)", "def": "Eies av én person med personlig og ubegrenset ansvar." },
-    { "term": "Ubegrenset ansvar", "def": "Kreditorene kan kreve eierens private eiendeler." },
-    { "term": "Aksjeselskap (AS)", "def": "Selskap med aksjekapital og begrenset ansvar." },
-    { "term": "Aksjekapital", "def": "Kapital eierne skyter inn i et AS – minst 30 000 kr." },
-    { "term": "Begrenset ansvar", "def": "Eierne kan som hovedregel bare tape det de har skutt inn." },
-    { "term": "Generalforsamling", "def": "Aksjeeiernes møte – øverste organ i et AS." },
-    { "term": "Personlig garanti", "def": "Eieren garanterer for et lån med egne midler." },
-    { "term": "ANS", "def": "Ansvarlig selskap med solidarisk og ubegrenset ansvar." },
-    { "term": "Solidarisk ansvar", "def": "Kreditorene kan kreve hele gjelden fra én av deltakerne." },
-    { "term": "DA", "def": "Ansvarlig selskap der hver har ansvar for sin andel av gjelden." },
-    { "term": "Samvirkeforetak (SA)", "def": "Eies av medlemmene og fremmer deres interesser." },
-    { "term": "Stiftelse", "def": "Har ingen eiere og drives for et bestemt formål." },
-    { "term": "Organisasjonsnummer", "def": "Nummeret en virksomhet får i Enhetsregisteret." },
-    { "term": "Merverdiavgiftsregisteret", "def": "Registrering kreves som hovedregel når omsetningen passerer 50 000 kr på tolv måneder." },
-    { "term": "Selskapsavtale", "def": "Skriftlig avtale mellom deltakerne i et ansvarlig selskap." }
+    {
+      "term": "Selskapsform",
+      "def": "Den juridiske formen en virksomhet organiseres i."
+    },
+    {
+      "term": "Enkeltpersonforetak (ENK)",
+      "def": "Eies av én person med personlig og ubegrenset ansvar."
+    },
+    {
+      "term": "Ubegrenset ansvar",
+      "def": "Kreditorene kan kreve eierens private eiendeler."
+    },
+    {
+      "term": "Aksjeselskap (AS)",
+      "def": "Selskap med aksjekapital og begrenset ansvar."
+    },
+    {
+      "term": "Aksjekapital",
+      "def": "Kapital eierne skyter inn i et AS – minst 30 000 kr."
+    },
+    {
+      "term": "Begrenset ansvar",
+      "def": "Eierne kan som hovedregel bare tape det de har skutt inn."
+    },
+    {
+      "term": "Generalforsamling",
+      "def": "Aksjeeiernes møte – øverste organ i et AS."
+    },
+    {
+      "term": "Personlig garanti",
+      "def": "Eieren garanterer for et lån med egne midler."
+    },
+    {
+      "term": "ANS",
+      "def": "Ansvarlig selskap med solidarisk og ubegrenset ansvar."
+    },
+    {
+      "term": "Solidarisk ansvar",
+      "def": "Kreditorene kan kreve hele gjelden fra én av deltakerne."
+    },
+    {
+      "term": "DA",
+      "def": "Ansvarlig selskap der hver har ansvar for sin andel av gjelden."
+    },
+    {
+      "term": "Samvirkeforetak (SA)",
+      "def": "Eies av medlemmene og fremmer deres interesser."
+    },
+    {
+      "term": "Stiftelse",
+      "def": "Har ingen eiere og drives for et bestemt formål."
+    },
+    {
+      "term": "Organisasjonsnummer",
+      "def": "Nummeret en virksomhet får i Enhetsregisteret."
+    },
+    {
+      "term": "Merverdiavgiftsregisteret",
+      "def": "Registrering kreves som hovedregel når omsetningen passerer 50 000 kr på tolv måneder."
+    },
+    {
+      "term": "Selskapsavtale",
+      "def": "Skriftlig avtale mellom deltakerne i et ansvarlig selskap."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvilket ansvar har eieren i et enkeltpersonforetak?", "options": ["Begrenset ansvar", "Personlig og ubegrenset ansvar", "Ingen ansvar", "Delt ansvar med staten"], "correct": 1, "explain": "Private eiendeler kan kreves." },
-    { "id": "q02", "text": "Hvor stor må aksjekapitalen minst være i et AS?", "options": ["30 000 kr", "1 000 kr", "100 000 kr", "1 million kr"], "correct": 0, "explain": "Minstekravet i aksjeloven." },
-    { "id": "q03", "text": "Hva betyr begrenset ansvar i et AS?", "options": ["At styret har alt ansvar", "At selskapet ikke betaler skatt", "At eierne som hovedregel bare kan tape det de har skutt inn", "At ingen har ansvar"], "correct": 2, "explain": "Selskapet er et eget rettssubjekt." },
-    { "id": "q04", "text": "Hva betyr solidarisk ansvar i et ANS?", "options": ["At ingen har ansvar", "At hver bare har ansvar for sin del", "At staten betaler", "At kreditorene kan kreve hele gjelden fra én deltaker"], "correct": 3, "explain": "Høy risiko for deltakerne." },
-    { "id": "q05", "text": "Hvorfor blir ansvaret i et nytt AS ofte mindre begrenset i praksis?", "options": ["Banker krever ofte personlig garanti for lån", "Aksjekapitalen er for høy", "Styret betaler gjelden", "Loven forbyr begrenset ansvar"], "correct": 0, "explain": "Eieren hefter da for lånet." },
-    { "id": "q06", "text": "Hvem eier et samvirkeforetak?", "options": ["Staten", "Medlemmene", "En investor", "Ingen"], "correct": 1, "explain": "Fremmer medlemmenes interesser." },
-    { "id": "q07", "text": "Hvor registreres norske virksomheter?", "options": ["Hos politiet", "Hos NAV", "I Brønnøysundregistrene", "Hos Forbrukertilsynet"], "correct": 2, "explain": "Via Altinn." },
-    { "id": "q08", "text": "Hvilken selskapsform passer best for en frilanser med lav risiko?", "options": ["Stiftelse", "Samvirke", "Aksjeselskap med mange eiere", "Enkeltpersonforetak"], "correct": 3, "explain": "Enkelt og billig å starte." },
-    { "id": "q09", "text": "Når må en virksomhet som hovedregel registreres i Merverdiavgiftsregisteret?", "options": ["Når omsetningen passerer 50 000 kr på tolv måneder", "Med en gang", "Aldri", "Når den har ti ansatte"], "correct": 0, "explain": "Da må den legge merverdiavgift på prisene." },
-    { "id": "q10", "text": "Hva har en stiftelse?", "options": ["Mange aksjeeiere", "Ingen eiere, men et bestemt formål", "Én eier med ubegrenset ansvar", "Medlemmer som eiere"], "correct": 1, "explain": "Formålet styrer driften." }
+    {
+      "id": "q01",
+      "text": "Hvilket ansvar har eieren i et enkeltpersonforetak?",
+      "options": [
+        "Begrenset ansvar",
+        "Personlig og ubegrenset ansvar",
+        "Ingen ansvar",
+        "Delt ansvar med staten"
+      ],
+      "correct": 1,
+      "explain": "Private eiendeler kan kreves."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor stor må aksjekapitalen minst være i et AS?",
+      "options": [
+        "30 000 kr",
+        "1 000 kr",
+        "100 000 kr",
+        "1 million kr"
+      ],
+      "correct": 0,
+      "explain": "Minstekravet i aksjeloven."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr begrenset ansvar i et AS?",
+      "options": [
+        "At styret har alt ansvar",
+        "At selskapet ikke betaler skatt",
+        "At eierne som hovedregel bare kan tape det de har skutt inn",
+        "At ingen har ansvar"
+      ],
+      "correct": 2,
+      "explain": "Selskapet er et eget rettssubjekt."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr solidarisk ansvar i et ANS?",
+      "options": [
+        "At ingen har ansvar",
+        "At hver bare har ansvar for sin del",
+        "At staten betaler",
+        "At kreditorene kan kreve hele gjelden fra én deltaker"
+      ],
+      "correct": 3,
+      "explain": "Høy risiko for deltakerne."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor blir ansvaret i et nytt AS ofte mindre begrenset i praksis?",
+      "options": [
+        "Banker krever ofte personlig garanti for lån",
+        "Aksjekapitalen er for høy",
+        "Styret betaler gjelden",
+        "Loven forbyr begrenset ansvar"
+      ],
+      "correct": 0,
+      "explain": "Eieren hefter da for lånet."
+    },
+    {
+      "id": "q06",
+      "text": "Hvem eier et samvirkeforetak?",
+      "options": [
+        "Staten",
+        "Medlemmene",
+        "En investor",
+        "Ingen"
+      ],
+      "correct": 1,
+      "explain": "Fremmer medlemmenes interesser."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor registreres norske virksomheter?",
+      "options": [
+        "Hos politiet",
+        "Hos NAV",
+        "I Brønnøysundregistrene",
+        "Hos Forbrukertilsynet"
+      ],
+      "correct": 2,
+      "explain": "Via Altinn."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilken selskapsform passer best for en frilanser med lav risiko?",
+      "options": [
+        "Stiftelse",
+        "Samvirke",
+        "Aksjeselskap med mange eiere",
+        "Enkeltpersonforetak"
+      ],
+      "correct": 3,
+      "explain": "Enkelt og billig å starte."
+    },
+    {
+      "id": "q09",
+      "text": "Når må en virksomhet som hovedregel registreres i Merverdiavgiftsregisteret?",
+      "options": [
+        "Når omsetningen passerer 50 000 kr på tolv måneder",
+        "Med en gang",
+        "Aldri",
+        "Når den har ti ansatte"
+      ],
+      "correct": 0,
+      "explain": "Da må den legge merverdiavgift på prisene."
+    },
+    {
+      "id": "q10",
+      "text": "Hva har en stiftelse?",
+      "options": [
+        "Mange aksjeeiere",
+        "Ingen eiere, men et bestemt formål",
+        "Én eier med ubegrenset ansvar",
+        "Medlemmer som eiere"
+      ],
+      "correct": 1,
+      "explain": "Formålet styrer driften."
+    }
   ],
   "mindmap": {
     "label": "Selskapsformer",
     "children": [
-      { "label": "ENK", "children": [
-        { "label": "Én eier" },
-        { "label": "Ubegrenset ansvar" },
-        { "label": "Enkelt å starte" }
-      ] },
-      { "label": "AS", "children": [
-        { "label": "Aksjekapital 30 000 kr" },
-        { "label": "Begrenset ansvar" },
-        { "label": "Styre og regnskap" }
-      ] },
-      { "label": "ANS og DA", "children": [
-        { "label": "Solidarisk ansvar" },
-        { "label": "Delt ansvar" }
-      ] },
-      { "label": "Andre", "children": [
-        { "label": "Samvirke" },
-        { "label": "Stiftelse" }
-      ] },
-      { "label": "Registrering og valg", "children": [
-        { "label": "Brønnøysund og Altinn" },
-        { "label": "Merverdiavgift" },
-        { "label": "Risiko og eiere" }
-      ] }
+      {
+        "label": "ENK",
+        "children": [
+          {
+            "label": "Én eier"
+          },
+          {
+            "label": "Ubegrenset ansvar"
+          },
+          {
+            "label": "Enkelt å starte"
+          }
+        ]
+      },
+      {
+        "label": "AS",
+        "children": [
+          {
+            "label": "Aksjekapital 30 000 kr"
+          },
+          {
+            "label": "Begrenset ansvar"
+          },
+          {
+            "label": "Styre og regnskap"
+          }
+        ]
+      },
+      {
+        "label": "ANS og DA",
+        "children": [
+          {
+            "label": "Solidarisk ansvar"
+          },
+          {
+            "label": "Delt ansvar"
+          }
+        ]
+      },
+      {
+        "label": "Andre",
+        "children": [
+          {
+            "label": "Samvirke"
+          },
+          {
+            "label": "Stiftelse"
+          }
+        ]
+      },
+      {
+        "label": "Registrering og valg",
+        "children": [
+          {
+            "label": "Brønnøysund og Altinn"
+          },
+          {
+            "label": "Merverdiavgift"
+          },
+          {
+            "label": "Risiko og eiere"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Årsregnskapet til et aksjeselskap er offentlig.", "correct": true, "explain": "Det sendes til Regnskapsregisteret." },
-      { "id": "m02", "type": "sant-usant", "text": "Et enkeltpersonforetak krever minst 30 000 kr i startkapital.", "correct": false, "explain": "Det er ingen krav til startkapital." },
-      { "id": "m03", "type": "sant-usant", "text": "Deltakerne i et ansvarlig selskap bør lage en skriftlig selskapsavtale.", "correct": true, "explain": "Den regulerer ansvar og fordeling." },
-      { "id": "m04", "type": "sant-usant", "text": "I et DA kan kreditorene alltid kreve hele gjelden fra én deltaker.", "correct": false, "explain": "Det gjelder ANS. I et DA har hver ansvar for sin andel." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er øverste organ i et aksjeselskap?", "options": ["Daglig leder", "Generalforsamlingen", "Revisoren", "Kundene"], "correct": 1, "explain": "Aksjeeiernes møte." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken selskapsform passer når risikoen er høy og flere skal eie sammen?", "options": ["Aksjeselskap", "Enkeltpersonforetak", "Ingen selskapsform", "ANS med solidarisk ansvar"], "correct": 0, "explain": "Begrenset ansvar og mulighet for investorer." },
-      { "id": "m07", "type": "flervalg", "text": "Hvordan skattlegges overskuddet i et enkeltpersonforetak?", "options": ["Som selskapsskatt i et AS", "Det skattlegges ikke", "Som eierens personinntekt", "Som arveavgift"], "correct": 2, "explain": "Eieren og foretaket er ikke adskilt." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Årsregnskapet til et aksjeselskap er offentlig.",
+        "correct": true,
+        "explain": "Det sendes til Regnskapsregisteret."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et enkeltpersonforetak krever minst 30 000 kr i startkapital.",
+        "correct": false,
+        "explain": "Det er ingen krav til startkapital."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Deltakerne i et ansvarlig selskap bør lage en skriftlig selskapsavtale.",
+        "correct": true,
+        "explain": "Den regulerer ansvar og fordeling."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "I et DA kan kreditorene alltid kreve hele gjelden fra én deltaker.",
+        "correct": false,
+        "explain": "Det gjelder ANS. I et DA har hver ansvar for sin andel."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er øverste organ i et aksjeselskap?",
+        "options": [
+          "Daglig leder",
+          "Generalforsamlingen",
+          "Revisoren",
+          "Kundene"
+        ],
+        "correct": 1,
+        "explain": "Aksjeeiernes møte."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken selskapsform passer når risikoen er høy og flere skal eie sammen?",
+        "options": [
+          "Aksjeselskap",
+          "Enkeltpersonforetak",
+          "Ingen selskapsform",
+          "ANS med solidarisk ansvar"
+        ],
+        "correct": 0,
+        "explain": "Begrenset ansvar og mulighet for investorer."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan skattlegges overskuddet i et enkeltpersonforetak?",
+        "options": [
+          "Som selskapsskatt i et AS",
+          "Det skattlegges ikke",
+          "Som eierens personinntekt",
+          "Som arveavgift"
+        ],
+        "correct": 2,
+        "explain": "Eieren og foretaket er ikke adskilt."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr «selskapsform», og nevn to forhold som valget av selskapsform påvirker.",
+        "fasit": "Selskapsform er den juridiske formen en virksomhet organiseres i. Valget påvirker blant annet ansvaret ved gjeld og kravene til kapital, regnskap og styre.",
+        "kriterier": [
+          "Forklarer at selskapsform er virksomhetens juridiske organisering.",
+          "Nevner minst to forhold valget påvirker, for eksempel ansvar, kapital, krav eller skattlegging."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign hvordan overskuddet skattlegges i et enkeltpersonforetak (ENK) og et aksjeselskap (AS).",
+        "fasit": "I et ENK skattlegges overskuddet som eierens personinntekt. I et AS skattlegges selskapet for overskuddet fordi det er et eget rettssubjekt.",
+        "kriterier": [
+          "Forklarer at overskuddet i ENK skattlegges som eierens personinntekt.",
+          "Forklarer at AS skattlegges for overskuddet som et eget rettssubjekt."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "To personer velger et ansvarlig selskap der hver deltaker bare skal ha ansvar for sin andel av gjelden. Hvilken type ansvarlig selskap passer, og hvordan fordeles ansvaret?",
+        "fasit": "Et DA passer. I et DA har hver deltaker ansvar for sin andel av selskapets gjeld.",
+        "kriterier": [
+          "Identifiserer DA som riktig selskapsform.",
+          "Forklarer at hver deltaker har ansvar for sin andel av gjelden."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et aksjeselskap skal følge de vanlige kravene til styre og møte for aksjeeierne. Hva må selskapet ha, og hva kalles aksjeeiernes møte?",
+        "fasit": "Et AS skal ha et styre. Aksjeeiernes møte, som er selskapets øverste organ, kalles generalforsamling.",
+        "kriterier": [
+          "Nevner at et AS skal ha et styre.",
+          "Nevner generalforsamlingen og at den er aksjeeiernes møte eller selskapets øverste organ."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En virksomhet har høy risiko, og eierne ønsker å hente investorer. Hvilken selskapsform passer godt, og gi to grunner til valget.",
+        "fasit": "Et AS passer godt fordi det er egnet når risikoen er høyere, og når eierne vil hente investorer. Aksjeeierne kan som hovedregel bare tape det de har skutt inn.",
+        "kriterier": [
+          "Velger AS.",
+          "Knytter valget til høyere risiko eller muligheten for å hente investorer, og forklarer begrenset ansvar."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En gruppe produsenter vil eie en virksomhet som skal fremme interessene deres som medlemmer. Hvilken selskapsform passer, og hvorfor?",
+        "fasit": "Et samvirkeforetak (SA) passer. Det eies av medlemmene og skal fremme medlemmenes interesser.",
+        "kriterier": [
+          "Identifiserer samvirkeforetak (SA).",
+          "Forklarer at medlemmene eier foretaket, og at det skal fremme deres interesser."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En person vurderer ENK og AS og ønsker å holde oppstarten enkel. Sammenlign de to formene når det gjelder administrative krav, og forklar hva forskjellen kan bety for valget.",
+        "fasit": "Et ENK har få krav og er enkelt å starte, mens et AS har flere krav, blant annet om styre og generalforsamling. Derfor kan ENK passe bedre for den som ønsker en enklere oppstart.",
+        "kriterier": [
+          "Sammenligner ENK som en form med få krav med AS som har flere krav.",
+          "Forklarer hvordan forskjellen kan gjøre ENK mer egnet for en enklere oppstart."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hva gjelder for et AS når det sender årsregnskapet sitt, og hva kan små aksjeselskaper i mange tilfeller velge bort?",
+        "fasit": "Et AS sender årsregnskapet til Regnskapsregisteret, og regnskapet er offentlig. Små aksjeselskaper kan i mange tilfeller velge bort revisjon.",
+        "kriterier": [
+          "Nevner at årsregnskapet sendes til Regnskapsregisteret og er offentlig.",
+          "Nevner at små aksjeselskaper i mange tilfeller kan velge bort revisjon."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

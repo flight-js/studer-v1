@@ -4,82 +4,436 @@
   "trinnId": "vg1",
   "name": "Den nordiske modellen, vekst og livskvalitet",
   "intro": "Hvordan samfunnet og arbeidslivet i Norge har endret seg, hva som kjennetegner den nordiske samfunnsmodellen, hvilke utfordringer den står overfor – og sammenhengen mellom økonomisk vekst, levestandard og livskvalitet.",
-  "kompetansemaal": [9, 16],
+  "kompetansemaal": [
+    9,
+    16
+  ],
   "sammendrag": "## Fra bondesamfunn til kunnskapssamfunn\n\nFor 150 år siden jobbet de fleste i Norge i **jordbruk**, **skogbruk** og **fiske**. Med **industrialiseringen** flyttet mange til byene for å jobbe i fabrikker. I dag jobber de aller fleste i **tjenesteytende næringer** – helse, utdanning, handel, IT og transport. Siden 1970-tallet har **olje og gass** gitt store inntekter. Samtidig har **kvinner** i stor grad kommet ut i arbeidslivet, og **utdanningsnivået** har økt kraftig.\n\n## Den nordiske modellen\n\nNorge, Sverige, Danmark, Finland og Island har mange likheter, som ofte kalles **den nordiske modellen**. Den bygger på tre søyler:\n\n1. **Økonomisk styring**: **markedsøkonomi** kombinert med en aktiv stat og ansvarlig finanspolitikk.\n2. **Organisert arbeidsliv**: **trepartssamarbeid** mellom **arbeidstakere**, **arbeidsgivere** og **staten**, høy **organisasjonsgrad** og **koordinerte lønnsoppgjør**.\n3. **Velferdsstat**: **universelle** ordninger som gjelder alle – gratis skole, helsetjenester, **folketrygden** (1967), barnetrygd og pensjon – finansiert gjennom **skatt**.\n\nKjennetegn er **høy sysselsetting**, **små lønnsforskjeller**, **høy tillit** til hverandre og til myndighetene og **høy produktivitet**.\n\n## Utfordringer\n\n- **Eldrebølgen**: Flere eldre og færre i arbeid per pensjonist gir økte utgifter til pensjon, helse og omsorg.\n- **Utenforskap**: Mange i arbeidsfør alder står utenfor arbeidslivet.\n- **Integrering** av innvandrere i arbeidslivet.\n- **Omstilling** fra olje og gass til nye næringer – og **klimaendringene**.\n- **Digitalisering** og **kunstig intelligens**, som endrer mange jobber.\n- **Økende ulikhet** og press på tilliten.\n\nModellen er avhengig av at **mange jobber og betaler skatt**. Mange mener derfor at **høy sysselsetting** er det viktigste for å bevare velferden.\n\n## Økonomisk vekst, levestandard og livskvalitet\n\n- **Økonomisk vekst** betyr at samfunnet produserer mer varer og tjenester. Den måles ofte med **BNP** (bruttonasjonalprodukt).\n- **Levestandard** handler om **materielle** forhold: inntekt, bolig og forbruk.\n- **Livskvalitet** handler om hvordan folk **har det**: helse, relasjoner, trygghet, mening og tilfredshet.\n\nVekst har gitt enorme forbedringer – lengre liv, bedre helse og mindre fattigdom. Men over et visst nivå ser mer penger ut til å gi **mindre økning** i livskvalitet. BNP måler heller ikke **fordeling**, **fritid**, **frivillig arbeid** eller **miljøødeleggelser**.\n\n## Et globalt og bærekraftig perspektiv\n\nVekst basert på stort forbruk av **fossil energi** og **naturressurser** gir **klimautslipp** og **tap av natur**. Mange fattige land trenger fortsatt vekst for å løfte folk ut av fattigdom, mens rike land diskuterer **grønn vekst** – eller om vi bør prioritere **livskvalitet** framfor stadig mer forbruk. Spørsmålet er hvordan vi kan sikre **gode liv** for alle – uten å ødelegge for **kommende generasjoner**.",
   "flashcards": [
-    { "term": "Industrialisering", "def": "Overgangen fra jordbrukssamfunn til industrisamfunn." },
-    { "term": "Tjenesteytende næringer", "def": "Næringer som helse, utdanning, handel og IT – der de fleste jobber i dag." },
-    { "term": "Den nordiske modellen", "def": "Samfunnsmodell med økonomisk styring, organisert arbeidsliv og velferdsstat." },
-    { "term": "Trepartssamarbeid", "def": "Samarbeid mellom arbeidstakere, arbeidsgivere og staten." },
-    { "term": "Organisasjonsgrad", "def": "Andelen arbeidstakere som er med i en fagforening." },
-    { "term": "Universelle ordninger", "def": "Velferdsordninger som gjelder alle." },
-    { "term": "Folketrygden", "def": "Norsk trygdeordning innført i 1967." },
-    { "term": "Tillit", "def": "Tro på at andre og myndighetene er til å stole på." },
-    { "term": "Eldrebølgen", "def": "At andelen eldre i befolkningen øker." },
-    { "term": "Sysselsetting", "def": "Andelen av befolkningen som er i arbeid." },
-    { "term": "Økonomisk vekst", "def": "At samfunnet produserer mer varer og tjenester." },
-    { "term": "BNP", "def": "Bruttonasjonalprodukt – verdien av alt som produseres i et land." },
-    { "term": "Levestandard", "def": "Materielle forhold som inntekt, bolig og forbruk." },
-    { "term": "Livskvalitet", "def": "Hvordan folk har det – helse, relasjoner, trygghet og tilfredshet." },
-    { "term": "Grønn vekst", "def": "Økonomisk vekst med lavere utslipp og ressursbruk." }
+    {
+      "term": "Industrialisering",
+      "def": "Overgangen fra jordbrukssamfunn til industrisamfunn."
+    },
+    {
+      "term": "Tjenesteytende næringer",
+      "def": "Næringer som helse, utdanning, handel og IT – der de fleste jobber i dag."
+    },
+    {
+      "term": "Den nordiske modellen",
+      "def": "Samfunnsmodell med økonomisk styring, organisert arbeidsliv og velferdsstat."
+    },
+    {
+      "term": "Trepartssamarbeid",
+      "def": "Samarbeid mellom arbeidstakere, arbeidsgivere og staten."
+    },
+    {
+      "term": "Organisasjonsgrad",
+      "def": "Andelen arbeidstakere som er med i en fagforening."
+    },
+    {
+      "term": "Universelle ordninger",
+      "def": "Velferdsordninger som gjelder alle."
+    },
+    {
+      "term": "Folketrygden",
+      "def": "Norsk trygdeordning innført i 1967."
+    },
+    {
+      "term": "Tillit",
+      "def": "Tro på at andre og myndighetene er til å stole på."
+    },
+    {
+      "term": "Eldrebølgen",
+      "def": "At andelen eldre i befolkningen øker."
+    },
+    {
+      "term": "Sysselsetting",
+      "def": "Andelen av befolkningen som er i arbeid."
+    },
+    {
+      "term": "Økonomisk vekst",
+      "def": "At samfunnet produserer mer varer og tjenester."
+    },
+    {
+      "term": "BNP",
+      "def": "Bruttonasjonalprodukt – verdien av alt som produseres i et land."
+    },
+    {
+      "term": "Levestandard",
+      "def": "Materielle forhold som inntekt, bolig og forbruk."
+    },
+    {
+      "term": "Livskvalitet",
+      "def": "Hvordan folk har det – helse, relasjoner, trygghet og tilfredshet."
+    },
+    {
+      "term": "Grønn vekst",
+      "def": "Økonomisk vekst med lavere utslipp og ressursbruk."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvor jobber de fleste i Norge i dag?", "options": ["I jordbruket", "I tjenesteytende næringer", "I fiskeriet", "I gruvedrift"], "correct": 1, "explain": "Helse, utdanning, handel og IT er eksempler." },
-    { "id": "q02", "text": "Hva er trepartssamarbeidet?", "options": ["Samarbeid mellom arbeidstakere, arbeidsgivere og staten", "Samarbeid mellom tre partier", "Samarbeid mellom tre land", "Samarbeid mellom kommune, fylke og stat"], "correct": 0, "explain": "Det er en av søylene i den nordiske modellen." },
-    { "id": "q03", "text": "Hva kjennetegner universelle velferdsordninger?", "options": ["De gjelder bare fattige", "De er private", "De gjelder alle", "De må betales av brukerne"], "correct": 2, "explain": "Gratis skole er et eksempel." },
-    { "id": "q04", "text": "Hva er eldrebølgen?", "options": ["En type bølge i havet", "At det fødes flere barn", "At eldre flytter til utlandet", "At andelen eldre i befolkningen øker"], "correct": 3, "explain": "Det gir økte utgifter til pensjon og omsorg." },
-    { "id": "q05", "text": "Hva måler BNP?", "options": ["Verdien av alt som produseres i et land", "Hvor lykkelige folk er", "Hvor mye natur et land har", "Hvor mange som bor i et land"], "correct": 0, "explain": "BNP måler ikke fordeling eller livskvalitet." },
-    { "id": "q06", "text": "Hva er forskjellen på levestandard og livskvalitet?", "options": ["Det er det samme", "Levestandard er materielle forhold, livskvalitet handler om hvordan folk har det", "Livskvalitet måles bare i penger", "Levestandard handler bare om helse"], "correct": 1, "explain": "Høy levestandard gir ikke automatisk høy livskvalitet." },
-    { "id": "q07", "text": "Hvorfor er høy sysselsetting viktig for den nordiske modellen?", "options": ["Fordi den gir færre skatteinntekter", "Fordi den gjør velferden unødvendig", "Fordi velferden finansieres av at mange jobber og betaler skatt", "Den er ikke viktig"], "correct": 2, "explain": "Velferdsstaten er avhengig av skatteinntekter." },
-    { "id": "q08", "text": "Hva er en svakhet ved BNP som mål på et godt samfunn?", "options": ["Det er vanskelig å regne ut", "Det måler for mye", "Det er bare norsk", "Det måler ikke fordeling, fritid eller miljøødeleggelser"], "correct": 3, "explain": "Derfor brukes også andre mål, som livskvalitetsundersøkelser." },
-    { "id": "q09", "text": "Når ble folketrygden innført?", "options": ["1967", "1814", "1905", "2001"], "correct": 0, "explain": "Folketrygden samlet mange trygdeordninger." },
-    { "id": "q10", "text": "Hva er grønn vekst?", "options": ["Vekst i jordbruket", "Økonomisk vekst med lavere utslipp og ressursbruk", "At skogene vokser", "At BNP synker"], "correct": 1, "explain": "Det er omdiskutert om grønn vekst er mulig i stor skala." }
+    {
+      "id": "q01",
+      "text": "Hvor jobber de fleste i Norge i dag?",
+      "options": [
+        "I jordbruket",
+        "I tjenesteytende næringer",
+        "I fiskeriet",
+        "I gruvedrift"
+      ],
+      "correct": 1,
+      "explain": "Helse, utdanning, handel og IT er eksempler."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er trepartssamarbeidet?",
+      "options": [
+        "Samarbeid mellom arbeidstakere, arbeidsgivere og staten",
+        "Samarbeid mellom tre partier",
+        "Samarbeid mellom tre land",
+        "Samarbeid mellom kommune, fylke og stat"
+      ],
+      "correct": 0,
+      "explain": "Det er en av søylene i den nordiske modellen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kjennetegner universelle velferdsordninger?",
+      "options": [
+        "De gjelder bare fattige",
+        "De er private",
+        "De gjelder alle",
+        "De må betales av brukerne"
+      ],
+      "correct": 2,
+      "explain": "Gratis skole er et eksempel."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er eldrebølgen?",
+      "options": [
+        "En type bølge i havet",
+        "At det fødes flere barn",
+        "At eldre flytter til utlandet",
+        "At andelen eldre i befolkningen øker"
+      ],
+      "correct": 3,
+      "explain": "Det gir økte utgifter til pensjon og omsorg."
+    },
+    {
+      "id": "q05",
+      "text": "Hva måler BNP?",
+      "options": [
+        "Verdien av alt som produseres i et land",
+        "Hvor lykkelige folk er",
+        "Hvor mye natur et land har",
+        "Hvor mange som bor i et land"
+      ],
+      "correct": 0,
+      "explain": "BNP måler ikke fordeling eller livskvalitet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er forskjellen på levestandard og livskvalitet?",
+      "options": [
+        "Det er det samme",
+        "Levestandard er materielle forhold, livskvalitet handler om hvordan folk har det",
+        "Livskvalitet måles bare i penger",
+        "Levestandard handler bare om helse"
+      ],
+      "correct": 1,
+      "explain": "Høy levestandard gir ikke automatisk høy livskvalitet."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er høy sysselsetting viktig for den nordiske modellen?",
+      "options": [
+        "Fordi den gir færre skatteinntekter",
+        "Fordi den gjør velferden unødvendig",
+        "Fordi velferden finansieres av at mange jobber og betaler skatt",
+        "Den er ikke viktig"
+      ],
+      "correct": 2,
+      "explain": "Velferdsstaten er avhengig av skatteinntekter."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en svakhet ved BNP som mål på et godt samfunn?",
+      "options": [
+        "Det er vanskelig å regne ut",
+        "Det måler for mye",
+        "Det er bare norsk",
+        "Det måler ikke fordeling, fritid eller miljøødeleggelser"
+      ],
+      "correct": 3,
+      "explain": "Derfor brukes også andre mål, som livskvalitetsundersøkelser."
+    },
+    {
+      "id": "q09",
+      "text": "Når ble folketrygden innført?",
+      "options": [
+        "1967",
+        "1814",
+        "1905",
+        "2001"
+      ],
+      "correct": 0,
+      "explain": "Folketrygden samlet mange trygdeordninger."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er grønn vekst?",
+      "options": [
+        "Vekst i jordbruket",
+        "Økonomisk vekst med lavere utslipp og ressursbruk",
+        "At skogene vokser",
+        "At BNP synker"
+      ],
+      "correct": 1,
+      "explain": "Det er omdiskutert om grønn vekst er mulig i stor skala."
+    }
   ],
   "mindmap": {
     "label": "Den nordiske modellen",
     "children": [
-      { "label": "Endringer", "children": [
-        { "label": "Bondesamfunn" },
-        { "label": "Industri" },
-        { "label": "Tjenester og kunnskap" },
-        { "label": "Olje og gass" }
-      ] },
-      { "label": "Tre søyler", "children": [
-        { "label": "Økonomisk styring" },
-        { "label": "Trepartssamarbeid" },
-        { "label": "Velferdsstat" }
-      ] },
-      { "label": "Kjennetegn", "children": [
-        { "label": "Høy sysselsetting" },
-        { "label": "Små forskjeller" },
-        { "label": "Høy tillit" }
-      ] },
-      { "label": "Utfordringer", "children": [
-        { "label": "Eldrebølgen" },
-        { "label": "Utenforskap" },
-        { "label": "Omstilling" },
-        { "label": "Digitalisering" }
-      ] },
-      { "label": "Vekst og livskvalitet", "children": [
-        { "label": "BNP" },
-        { "label": "Levestandard" },
-        { "label": "Livskvalitet" },
-        { "label": "Bærekraft" }
-      ] }
+      {
+        "label": "Endringer",
+        "children": [
+          {
+            "label": "Bondesamfunn"
+          },
+          {
+            "label": "Industri"
+          },
+          {
+            "label": "Tjenester og kunnskap"
+          },
+          {
+            "label": "Olje og gass"
+          }
+        ]
+      },
+      {
+        "label": "Tre søyler",
+        "children": [
+          {
+            "label": "Økonomisk styring"
+          },
+          {
+            "label": "Trepartssamarbeid"
+          },
+          {
+            "label": "Velferdsstat"
+          }
+        ]
+      },
+      {
+        "label": "Kjennetegn",
+        "children": [
+          {
+            "label": "Høy sysselsetting"
+          },
+          {
+            "label": "Små forskjeller"
+          },
+          {
+            "label": "Høy tillit"
+          }
+        ]
+      },
+      {
+        "label": "Utfordringer",
+        "children": [
+          {
+            "label": "Eldrebølgen"
+          },
+          {
+            "label": "Utenforskap"
+          },
+          {
+            "label": "Omstilling"
+          },
+          {
+            "label": "Digitalisering"
+          }
+        ]
+      },
+      {
+        "label": "Vekst og livskvalitet",
+        "children": [
+          {
+            "label": "BNP"
+          },
+          {
+            "label": "Levestandard"
+          },
+          {
+            "label": "Livskvalitet"
+          },
+          {
+            "label": "Bærekraft"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Den nordiske modellen kombinerer markedsøkonomi med en sterk velferdsstat.", "correct": true, "explain": "Det kalles ofte blandingsøkonomi." },
-      { "id": "m02", "type": "sant-usant", "text": "Mer penger gir alltid like mye mer livskvalitet.", "correct": false, "explain": "Over et visst nivå gir mer penger mindre økning i livskvalitet." },
-      { "id": "m03", "type": "sant-usant", "text": "Høy tillit er et kjennetegn ved de nordiske landene.", "correct": true, "explain": "Tillit gjør samarbeid og styring enklere." },
-      { "id": "m04", "type": "sant-usant", "text": "Fattige land har ikke behov for økonomisk vekst.", "correct": false, "explain": "Vekst er viktig for å løfte folk ut av fattigdom." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken utfordring henger sammen med at flere blir eldre?", "options": ["Økte utgifter til pensjon, helse og omsorg", "For mange barnehager", "For mange arbeidere", "Lavere skatt"], "correct": 0, "explain": "Det blir færre i arbeid per pensjonist." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er organisasjonsgrad?", "options": ["Hvor ryddig en arbeidsplass er", "Andelen arbeidstakere som er med i en fagforening", "Antall bedrifter i et land", "Andelen som stemmer ved valg"], "correct": 1, "explain": "Norge har høy organisasjonsgrad sammenlignet med mange land." },
-      { "id": "m07", "type": "flervalg", "text": "Hva finansierer velferdsstaten i Norge?", "options": ["Bare oljefondet", "Bare gebyrer", "Først og fremst skatter og avgifter", "Private donasjoner"], "correct": 2, "explain": "Oljeinntekter bidrar også, men skatten er grunnlaget." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Den nordiske modellen kombinerer markedsøkonomi med en sterk velferdsstat.",
+        "correct": true,
+        "explain": "Det kalles ofte blandingsøkonomi."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Mer penger gir alltid like mye mer livskvalitet.",
+        "correct": false,
+        "explain": "Over et visst nivå gir mer penger mindre økning i livskvalitet."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Høy tillit er et kjennetegn ved de nordiske landene.",
+        "correct": true,
+        "explain": "Tillit gjør samarbeid og styring enklere."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Fattige land har ikke behov for økonomisk vekst.",
+        "correct": false,
+        "explain": "Vekst er viktig for å løfte folk ut av fattigdom."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken utfordring henger sammen med at flere blir eldre?",
+        "options": [
+          "Økte utgifter til pensjon, helse og omsorg",
+          "For mange barnehager",
+          "For mange arbeidere",
+          "Lavere skatt"
+        ],
+        "correct": 0,
+        "explain": "Det blir færre i arbeid per pensjonist."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er organisasjonsgrad?",
+        "options": [
+          "Hvor ryddig en arbeidsplass er",
+          "Andelen arbeidstakere som er med i en fagforening",
+          "Antall bedrifter i et land",
+          "Andelen som stemmer ved valg"
+        ],
+        "correct": 1,
+        "explain": "Norge har høy organisasjonsgrad sammenlignet med mange land."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva finansierer velferdsstaten i Norge?",
+        "options": [
+          "Bare oljefondet",
+          "Bare gebyrer",
+          "Først og fremst skatter og avgifter",
+          "Private donasjoner"
+        ],
+        "correct": 2,
+        "explain": "Oljeinntekter bidrar også, men skatten er grunnlaget."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "For 150 år siden arbeidet de fleste i Norge i jordbruk, skogbruk og fiske. Senere flyttet mange til byene for å jobbe i fabrikker. Forklar hva industrialisering betyr i denne utviklingen.",
+        "fasit": "Industrialisering er overgangen fra et jordbrukssamfunn til et industrisamfunn. Mange flyttet til byene og begynte å arbeide i fabrikker.",
+        "kriterier": [
+          "Forklarer at industrialisering er en overgang fra jordbrukssamfunn til industrisamfunn.",
+          "Knytter overgangen til fabrikkarbeid og/eller flytting til byene."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign koordinerte lønnsoppgjør med universelle velferdsordninger. Hva handler hver av dem om?",
+        "fasit": "Koordinerte lønnsoppgjør handler om at lønnsoppgjørene blir samordnet. Universelle velferdsordninger, som skole og helsetjenester, gjelder alle.",
+        "kriterier": [
+          "Forklarer at koordinerte lønnsoppgjør handler om samordning av lønnsoppgjør.",
+          "Forklarer at universelle velferdsordninger gjelder alle."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva forteller organisasjonsgraden i arbeidslivet?",
+        "fasit": "Organisasjonsgraden forteller hvor stor andel av arbeidstakerne som er medlem i en fagforening.",
+        "kriterier": [
+          "Forklarer at organisasjonsgraden handler om andelen arbeidstakere som er med i en fagforening."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Når det blir flere eldre og færre i arbeid per pensjonist, hvilke to typer utgifter kan øke for velferdsstaten, og hvorfor?",
+        "fasit": "Utgiftene til pensjon og helse og omsorg kan øke. Det skyldes at flere eldre trenger pensjon og tjenester, samtidig som det er færre i arbeid per pensjonist.",
+        "kriterier": [
+          "Nevner økte utgifter til pensjon og/eller helse og omsorg.",
+          "Knytter utgiftsøkningen til flere eldre og færre i arbeid per pensjonist."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En arbeidsplass tar i bruk kunstig intelligens, og arbeidsoppgavene til de ansatte endrer seg. Forklar hvorfor dette er en utfordring knyttet til digitalisering og arbeidsliv.",
+        "fasit": "Digitalisering og kunstig intelligens endrer mange jobber. Når arbeidsoppgavene endrer seg, må arbeidslivet omstille seg.",
+        "kriterier": [
+          "Forklarer at digitalisering eller kunstig intelligens kan endre jobber eller arbeidsoppgaver.",
+          "Knytter endringene til behov for omstilling i arbeidslivet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et land får økonomisk vekst og produserer mer, men innbyggerne opplever ikke nødvendigvis en like stor økning i livskvalitet. Forklar hvorfor.",
+        "fasit": "Økonomisk vekst betyr at samfunnet produserer mer, men mer penger gir etter et visst nivå mindre økning i livskvalitet. Livskvalitet handler også om blant annet helse, relasjoner, trygghet og mening.",
+        "kriterier": [
+          "Forklarer at mer produksjon eller penger ikke nødvendigvis gir en like stor økning i livskvalitet.",
+          "Viser at livskvalitet også handler om forhold som helse, relasjoner, trygghet eller mening."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et land øker produksjonen ved å bruke mye fossil energi og naturressurser. Forklar to mulige følger av dette for miljøet og kommende generasjoner.",
+        "fasit": "Stort forbruk av fossil energi kan føre til klimautslipp, og stort forbruk av naturressurser kan føre til tap av natur. Dette kan gjøre det vanskeligere å sikre gode liv for kommende generasjoner.",
+        "kriterier": [
+          "Nevner klimautslipp og/eller tap av natur som følger av stort forbruk av fossil energi eller naturressurser.",
+          "Knytter miljøfølgene til hensynet til kommende generasjoner."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign hvorfor økonomisk vekst kan være viktig for fattige land, med hva rike land diskuterer når det gjelder vekst.",
+        "fasit": "Fattige land trenger fortsatt vekst for å løfte folk ut av fattigdom. I rike land diskuteres grønn vekst og om livskvalitet bør prioriteres framfor stadig mer forbruk.",
+        "kriterier": [
+          "Forklarer at vekst kan hjelpe fattige land med å løfte folk ut av fattigdom.",
+          "Nevner at rike land diskuterer grønn vekst og/eller å prioritere livskvalitet framfor økt forbruk."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

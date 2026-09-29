@@ -4,81 +4,434 @@
   "trinnId": "vg1",
   "name": "Kina: geografi, høytider og kultur",
   "intro": "Kinas geografi og byer, de viktigste høytidene – vårfestivalen, midthøstfestivalen og dragebåtfestivalen – dyrekretsen, mat og spisepinner, kalligrafi, te og opera, og hvordan kinesisk kultur kan sammenlignes med norsk.",
-  "kompetansemaal": [8, 9],
+  "kompetansemaal": [
+    8,
+    9
+  ],
   "sammendrag": "## Geografi\n\n**Kina** (中国 *Zhōngguó*) er et av verdens største land og har rundt **1,4 milliarder** innbyggere. Hovedstaden er **北京** *Běijīng*, og den største byen er **上海** *Shànghǎi*. Landet har store **fjellområder** i vest, med **Himalaya** og Tibet-platået, og tett befolkede sletter i øst. De viktigste elvene er **Chang Jiang** (Yangtze), Asias lengste elv, og **Huang He** (Den gule elv). **Den kinesiske mur** (长城 *Chángchéng*) er et av verdens mest kjente byggverk.\n\nMandarin snakkes også i **Taiwan** og **Singapore**, og det bor mange kinesere over hele verden.\n\n## Vårfestivalen – kinesisk nyttår\n\n**春节** *Chūnjié* er den viktigste høytiden. Den følger **månekalenderen** og faller mellom **slutten av januar** og **midten av februar**. Da reiser hundrevis av millioner hjem til familien – verdens største årlige folkevandring.\n\n- Man spiser **饺子** *jiǎozi* (dumplings), særlig i Nord-Kina.\n- Barn får **红包** *hóngbāo* – røde konvolutter med penger.\n- **Rødt** er lykkens farge, og det henges opp røde dekorasjoner.\n- Man sier **新年快乐！** *Xīnnián kuàilè!* – Godt nytt år!\n\n## Dyrekretsen\n\nHvert år er knyttet til ett av **12 dyr**: rotte, okse, tiger, hare, drage, slange, hest, sau, ape, hane, hund og gris. Mange mener dyret i fødselsåret sier noe om personligheten.\n\n## Andre høytider\n\n- **中秋节** *Zhōngqiūjié* – **midthøstfestivalen** ved fullmåne om høsten. Familien samles, ser på månen og spiser **月饼** *yuèbing* (månekaker).\n- **端午节** *Duānwǔjié* – **dragebåtfestivalen**, med kappløp i lange båter formet som drager.\n\n## Mat\n\nKinesisk mat varierer mye mellom regionene. I **sør** spiser man mye **ris**, i **nord** mer **hvete** – nudler og dumplings. Man spiser med **筷子** *kuàizi* (spisepinner), og rettene deles ofte av alle rundt bordet. Det er uhøflig å stikke spisepinnene loddrett ned i risen, fordi det minner om røkelse ved begravelser.\n\n## Kunst og tradisjoner\n\n- **书法** *shūfǎ* – **kalligrafi**, kunsten å skrive tegn vakkert med pensel og tusj\n- **Te-kultur** – Kina er tebladets hjemland\n- **京剧** *jīngjù* – **Beijing-opera**, med sang, akrobatikk og fargerike masker\n- **Kampsport** som kung fu og **taijiquan** (tai chi), som mange eldre trener i parkene om morgenen\n\n## Sammenligne med Norge\n\nTenk over likheter og forskjeller: Både jul og vårfestivalen handler om å **samles med familien** og spise **tradisjonsmat**. Men mens mange nordmenn bor langt fra besteforeldrene, bor flere generasjoner ofte tettere sammen i Kina. Hvilke av dine egne tradisjoner ville du fortalt om til en kinesisk venn?",
   "flashcards": [
-    { "term": "中国 Zhōngguó", "def": "Kina" },
-    { "term": "北京 Běijīng", "def": "Beijing – hovedstaden" },
-    { "term": "上海 Shànghǎi", "def": "Shanghai – den største byen" },
-    { "term": "长城 Chángchéng", "def": "Den kinesiske mur" },
-    { "term": "春节 Chūnjié", "def": "vårfestivalen – kinesisk nyttår" },
-    { "term": "红包 hóngbāo", "def": "rød konvolutt med penger" },
-    { "term": "饺子 jiǎozi", "def": "dumplings" },
-    { "term": "新年快乐！", "def": "Godt nytt år! (xīnnián kuàilè)" },
-    { "term": "Dyrekretsen", "def": "12 dyr knyttet til hvert sitt år" },
-    { "term": "中秋节 Zhōngqiūjié", "def": "midthøstfestivalen" },
-    { "term": "月饼 yuèbing", "def": "månekake" },
-    { "term": "端午节 Duānwǔjié", "def": "dragebåtfestivalen" },
-    { "term": "筷子 kuàizi", "def": "spisepinner" },
-    { "term": "书法 shūfǎ", "def": "kalligrafi" },
-    { "term": "京剧 jīngjù", "def": "Beijing-opera" }
+    {
+      "term": "中国 Zhōngguó",
+      "def": "Kina"
+    },
+    {
+      "term": "北京 Běijīng",
+      "def": "Beijing – hovedstaden"
+    },
+    {
+      "term": "上海 Shànghǎi",
+      "def": "Shanghai – den største byen"
+    },
+    {
+      "term": "长城 Chángchéng",
+      "def": "Den kinesiske mur"
+    },
+    {
+      "term": "春节 Chūnjié",
+      "def": "vårfestivalen – kinesisk nyttår"
+    },
+    {
+      "term": "红包 hóngbāo",
+      "def": "rød konvolutt med penger"
+    },
+    {
+      "term": "饺子 jiǎozi",
+      "def": "dumplings"
+    },
+    {
+      "term": "新年快乐！",
+      "def": "Godt nytt år! (xīnnián kuàilè)"
+    },
+    {
+      "term": "Dyrekretsen",
+      "def": "12 dyr knyttet til hvert sitt år"
+    },
+    {
+      "term": "中秋节 Zhōngqiūjié",
+      "def": "midthøstfestivalen"
+    },
+    {
+      "term": "月饼 yuèbing",
+      "def": "månekake"
+    },
+    {
+      "term": "端午节 Duānwǔjié",
+      "def": "dragebåtfestivalen"
+    },
+    {
+      "term": "筷子 kuàizi",
+      "def": "spisepinner"
+    },
+    {
+      "term": "书法 shūfǎ",
+      "def": "kalligrafi"
+    },
+    {
+      "term": "京剧 jīngjù",
+      "def": "Beijing-opera"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er hovedstaden i Kina?", "options": ["Shanghai", "Beijing", "Hongkong", "Taipei"], "correct": 1, "explain": "Shanghai er den største byen." },
-    { "id": "q02", "text": "Hva får barn ofte i gave til kinesisk nyttår?", "options": ["Røde konvolutter med penger", "Julestrømper", "Påskeegg", "Blomster"], "correct": 0, "explain": "红包 hóngbāo." },
-    { "id": "q03", "text": "Hva spiser man under midthøstfestivalen?", "options": ["Dumplings", "Nudler", "Månekaker", "Ris med fisk"], "correct": 2, "explain": "月饼 yuèbing." },
-    { "id": "q04", "text": "Hvor mange dyr har den kinesiske dyrekretsen?", "options": ["7", "10", "24", "12"], "correct": 3, "explain": "Ett dyr for hvert år i en tolvårssyklus." },
-    { "id": "q05", "text": "Hvilken farge regnes som lykkens farge i Kina?", "options": ["Rød", "Hvit", "Svart", "Blå"], "correct": 0, "explain": "Rødt brukes mye under høytider." },
-    { "id": "q06", "text": "Hva er 书法 shūfǎ?", "options": ["Kinesisk opera", "Kalligrafi", "Kampsport", "Te-seremoni"], "correct": 1, "explain": "Kunsten å skrive tegn vakkert med pensel." },
-    { "id": "q07", "text": "Hvorfor er det uhøflig å stikke spisepinnene loddrett ned i risen?", "options": ["Fordi pinnene kan knekke", "Fordi det er slurvete", "Fordi det minner om røkelse ved begravelser", "Fordi det er for høflig"], "correct": 2, "explain": "Det forbindes med død." },
-    { "id": "q08", "text": "Når feires vårfestivalen?", "options": ["1. januar", "I juli", "I desember", "Mellom slutten av januar og midten av februar"], "correct": 3, "explain": "Datoen følger månekalenderen." },
-    { "id": "q09", "text": "Hva heter Asias lengste elv?", "options": ["Chang Jiang (Yangtze)", "Huang He", "Mekong", "Ganges"], "correct": 0, "explain": "Chang Jiang renner gjennom Kina." },
-    { "id": "q10", "text": "Hva betyr 新年快乐？", "options": ["God jul!", "Godt nytt år!", "Gratulerer med dagen!", "God morgen!"], "correct": 1, "explain": "Xīnnián kuàilè!" }
+    {
+      "id": "q01",
+      "text": "Hva er hovedstaden i Kina?",
+      "options": [
+        "Shanghai",
+        "Beijing",
+        "Hongkong",
+        "Taipei"
+      ],
+      "correct": 1,
+      "explain": "Shanghai er den største byen."
+    },
+    {
+      "id": "q02",
+      "text": "Hva får barn ofte i gave til kinesisk nyttår?",
+      "options": [
+        "Røde konvolutter med penger",
+        "Julestrømper",
+        "Påskeegg",
+        "Blomster"
+      ],
+      "correct": 0,
+      "explain": "红包 hóngbāo."
+    },
+    {
+      "id": "q03",
+      "text": "Hva spiser man under midthøstfestivalen?",
+      "options": [
+        "Dumplings",
+        "Nudler",
+        "Månekaker",
+        "Ris med fisk"
+      ],
+      "correct": 2,
+      "explain": "月饼 yuèbing."
+    },
+    {
+      "id": "q04",
+      "text": "Hvor mange dyr har den kinesiske dyrekretsen?",
+      "options": [
+        "7",
+        "10",
+        "24",
+        "12"
+      ],
+      "correct": 3,
+      "explain": "Ett dyr for hvert år i en tolvårssyklus."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken farge regnes som lykkens farge i Kina?",
+      "options": [
+        "Rød",
+        "Hvit",
+        "Svart",
+        "Blå"
+      ],
+      "correct": 0,
+      "explain": "Rødt brukes mye under høytider."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er 书法 shūfǎ?",
+      "options": [
+        "Kinesisk opera",
+        "Kalligrafi",
+        "Kampsport",
+        "Te-seremoni"
+      ],
+      "correct": 1,
+      "explain": "Kunsten å skrive tegn vakkert med pensel."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er det uhøflig å stikke spisepinnene loddrett ned i risen?",
+      "options": [
+        "Fordi pinnene kan knekke",
+        "Fordi det er slurvete",
+        "Fordi det minner om røkelse ved begravelser",
+        "Fordi det er for høflig"
+      ],
+      "correct": 2,
+      "explain": "Det forbindes med død."
+    },
+    {
+      "id": "q08",
+      "text": "Når feires vårfestivalen?",
+      "options": [
+        "1. januar",
+        "I juli",
+        "I desember",
+        "Mellom slutten av januar og midten av februar"
+      ],
+      "correct": 3,
+      "explain": "Datoen følger månekalenderen."
+    },
+    {
+      "id": "q09",
+      "text": "Hva heter Asias lengste elv?",
+      "options": [
+        "Chang Jiang (Yangtze)",
+        "Huang He",
+        "Mekong",
+        "Ganges"
+      ],
+      "correct": 0,
+      "explain": "Chang Jiang renner gjennom Kina."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr 新年快乐？",
+      "options": [
+        "God jul!",
+        "Godt nytt år!",
+        "Gratulerer med dagen!",
+        "God morgen!"
+      ],
+      "correct": 1,
+      "explain": "Xīnnián kuàilè!"
+    }
   ],
   "mindmap": {
     "label": "Kina og kultur",
     "children": [
-      { "label": "Geografi", "children": [
-        { "label": "1,4 milliarder" },
-        { "label": "Beijing og Shanghai" },
-        { "label": "Chang Jiang og Huang He" },
-        { "label": "Den kinesiske mur" }
-      ] },
-      { "label": "Vårfestivalen", "children": [
-        { "label": "饺子" },
-        { "label": "红包" },
-        { "label": "Rødt" }
-      ] },
-      { "label": "Andre høytider", "children": [
-        { "label": "Midthøst: 月饼" },
-        { "label": "Dragebåtfestivalen" },
-        { "label": "Dyrekretsen" }
-      ] },
-      { "label": "Mat", "children": [
-        { "label": "Ris i sør" },
-        { "label": "Hvete i nord" },
-        { "label": "筷子" }
-      ] },
-      { "label": "Kunst", "children": [
-        { "label": "Kalligrafi" },
-        { "label": "Te" },
-        { "label": "Beijing-opera" },
-        { "label": "Tai chi" }
-      ] }
+      {
+        "label": "Geografi",
+        "children": [
+          {
+            "label": "1,4 milliarder"
+          },
+          {
+            "label": "Beijing og Shanghai"
+          },
+          {
+            "label": "Chang Jiang og Huang He"
+          },
+          {
+            "label": "Den kinesiske mur"
+          }
+        ]
+      },
+      {
+        "label": "Vårfestivalen",
+        "children": [
+          {
+            "label": "饺子"
+          },
+          {
+            "label": "红包"
+          },
+          {
+            "label": "Rødt"
+          }
+        ]
+      },
+      {
+        "label": "Andre høytider",
+        "children": [
+          {
+            "label": "Midthøst: 月饼"
+          },
+          {
+            "label": "Dragebåtfestivalen"
+          },
+          {
+            "label": "Dyrekretsen"
+          }
+        ]
+      },
+      {
+        "label": "Mat",
+        "children": [
+          {
+            "label": "Ris i sør"
+          },
+          {
+            "label": "Hvete i nord"
+          },
+          {
+            "label": "筷子"
+          }
+        ]
+      },
+      {
+        "label": "Kunst",
+        "children": [
+          {
+            "label": "Kalligrafi"
+          },
+          {
+            "label": "Te"
+          },
+          {
+            "label": "Beijing-opera"
+          },
+          {
+            "label": "Tai chi"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Kina har rundt 1,4 milliarder innbyggere.", "correct": true, "explain": "Kina er et av verdens mest folkerike land." },
-      { "id": "m02", "type": "sant-usant", "text": "Vårfestivalen feires alltid 1. januar.", "correct": false, "explain": "Datoen følger månekalenderen." },
-      { "id": "m03", "type": "sant-usant", "text": "I Nord-Kina spiser man mye hvete, som nudler og dumplings.", "correct": true, "explain": "I sør spiser man mer ris." },
-      { "id": "m04", "type": "sant-usant", "text": "Mandarin snakkes bare i Kina.", "correct": false, "explain": "Mandarin snakkes også i Taiwan og Singapore." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er 端午节?", "options": ["Midthøstfestivalen", "Dragebåtfestivalen", "Vårfestivalen", "Nasjonaldagen"], "correct": 1, "explain": "Duānwǔjié feires med båtløp." },
-      { "id": "m06", "type": "flervalg", "text": "Hva er 长城?", "options": ["Den kinesiske mur", "En elv", "Et fjell", "En by"], "correct": 0, "explain": "Chángchéng – «den lange muren»." },
-      { "id": "m07", "type": "flervalg", "text": "Hva har jul i Norge og vårfestivalen i Kina til felles?", "options": ["De feires samme dato", "Begge feires med røde konvolutter", "Begge handler om å samles med familien og spise tradisjonsmat", "Ingenting"], "correct": 2, "explain": "Familie og tradisjonsmat står sentralt i begge." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kina har rundt 1,4 milliarder innbyggere.",
+        "correct": true,
+        "explain": "Kina er et av verdens mest folkerike land."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Vårfestivalen feires alltid 1. januar.",
+        "correct": false,
+        "explain": "Datoen følger månekalenderen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "I Nord-Kina spiser man mye hvete, som nudler og dumplings.",
+        "correct": true,
+        "explain": "I sør spiser man mer ris."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Mandarin snakkes bare i Kina.",
+        "correct": false,
+        "explain": "Mandarin snakkes også i Taiwan og Singapore."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er 端午节?",
+        "options": [
+          "Midthøstfestivalen",
+          "Dragebåtfestivalen",
+          "Vårfestivalen",
+          "Nasjonaldagen"
+        ],
+        "correct": 1,
+        "explain": "Duānwǔjié feires med båtløp."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er 长城?",
+        "options": [
+          "Den kinesiske mur",
+          "En elv",
+          "Et fjell",
+          "En by"
+        ],
+        "correct": 0,
+        "explain": "Chángchéng – «den lange muren»."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva har jul i Norge og vårfestivalen i Kina til felles?",
+        "options": [
+          "De feires samme dato",
+          "Begge feires med røde konvolutter",
+          "Begge handler om å samles med familien og spise tradisjonsmat",
+          "Ingenting"
+        ],
+        "correct": 2,
+        "explain": "Familie og tradisjonsmat står sentralt i begge."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Beskriv en forskjell mellom landskapet i vest og øst i Kina.",
+        "fasit": "I vest finnes store fjellområder, blant annet Himalaya og Tibet-platået. I øst ligger tett befolkede sletter.",
+        "kriterier": [
+          "Nevner fjellområder i vest, gjerne Himalaya eller Tibet-platået.",
+          "Nevner at øst har tett befolkede sletter."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Under 春节 Chūnjié reiser svært mange mennesker hjem. Forklar hvorfor de reiser, og hva dette viser om høytiden.",
+        "fasit": "Mange reiser hjem for å være sammen med familien. Det viser at familiefellesskap er en viktig del av vårfestivalen.",
+        "kriterier": [
+          "Forklarer at folk reiser hjem for å samles med familien.",
+          "Knytter reisen til vårfestivalens betydning som en viktig familiehøytid."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Du spiser et kinesisk måltid der flere deler rettene rundt bordet. Hvilket redskap bruker man vanligvis, og hvordan serveres maten?",
+        "fasit": "Man bruker 筷子 kuàizi, altså spisepinner. Rett­ene deles ofte av alle rundt bordet.",
+        "kriterier": [
+          "Nevner spisepinner som redskap.",
+          "Forklarer at rettene ofte deles rundt bordet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign 中秋节 Zhōngqiūjié og 端午节 Duānwǔjié ved å beskrive en aktivitet som kjennetegner hver av dem.",
+        "fasit": "Under midthøstfestivalen samles familien, ser på månen og spiser månekaker. Dragebåtfestivalen kjennetegnes av kappløp i lange båter formet som drager.",
+        "kriterier": [
+          "Knytter midthøstfestivalen til månen, familiesamling eller månekaker.",
+          "Knytter dragebåtfestivalen til kappløp i drageformede båter."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En person vil prøve mat som er typisk for både Sør-Kina og Nord-Kina. Hvilken mat kan personen prøve i hver region?",
+        "fasit": "I Sør-Kina kan personen prøve retter med ris. I Nord-Kina er hvete vanlig, for eksempel i nudler og dumplings.",
+        "kriterier": [
+          "Knytter ris til Sør-Kina.",
+          "Knytter hvete, nudler eller dumplings til Nord-Kina."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En besøkende ser en forestilling med sang, akrobatikk og fargerike masker. Hvilken kinesisk kunstform er det sannsynligvis, og hvilke trekk viser det?",
+        "fasit": "Det er sannsynligvis 京剧 jīngjù, altså Beijing-opera. Sang, akrobatikk og fargerike masker er typiske trekk ved denne kunstformen.",
+        "kriterier": [
+          "Identifiserer kunstformen som Beijing-opera.",
+          "Nevner relevante kjennetegn, som sang, akrobatikk eller fargerike masker."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hva menes med at dyret i fødselsåret kan si noe om en persons personlighet?",
+        "fasit": "I den kinesiske dyrekretsen er hvert år knyttet til ett av tolv dyr. Mange mener at dyret som hører til fødselsåret, sier noe om personens personlighet.",
+        "kriterier": [
+          "Forklarer at et dyr er knyttet til fødselsåret.",
+          "Forklarer at mange mener dette dyret sier noe om personligheten."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign jul i Norge og 春节 Chūnjié i Kina. Nevn én likhet ved feiringen og én forskjell knyttet til familier.",
+        "fasit": "Begge høytidene handler om å samles med familien og spise tradisjonsmat. I Kina bor flere generasjoner ofte tettere sammen, mens mange nordmenn bor langt fra besteforeldrene.",
+        "kriterier": [
+          "Nevner en likhet: familiesamling eller tradisjonsmat.",
+          "Nevner forskjellen i hvor tett flere generasjoner ofte bor sammen."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

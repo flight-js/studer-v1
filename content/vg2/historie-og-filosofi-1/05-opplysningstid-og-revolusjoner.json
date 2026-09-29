@@ -4,78 +4,425 @@
   "trinnId": "vg2",
   "name": "Opplysningstid, revolusjoner og demokrati",
   "intro": "Samfunnskontraktfilosofene Hobbes, Locke, Montesquieu og Rousseau, opplysningstidens idealer, den amerikanske og den franske revolusjonen, Grunnloven av 1814 og veien mot allmenn stemmerett – og hva frihet og demokrati har betydd for ulike grupper.",
-  "kompetansemaal": [4, 5],
+  "kompetansemaal": [
+    4,
+    5
+  ],
   "sammendrag": "## Hvor kommer statens makt fra?\n\nPå 1600- og 1700-tallet begynte filosofer å spørre om statens makt kunne begrunnes uten å vise til **Gud** eller **tradisjon**. Svaret ble idéen om en **samfunnskontrakt**: Mennesker går sammen og gir staten makt for å få **trygghet** og **rettigheter**.\n\n## Samfunnskontraktfilosofene\n\n- **Thomas Hobbes** (*Leviathan*, 1651): I **naturtilstanden** uten stat ville livet være en «krig av alle mot alle». For å få fred gir folk makten til en **sterk suveren**. Hobbes forsvarte altså en sterk statsmakt.\n- **John Locke** (1689): Mennesker har **naturlige rettigheter** til **liv**, **frihet** og **eiendom**. Staten skal **beskytte** disse. Bryter staten kontrakten, har folket **rett til opprør**.\n- **Montesquieu** (1748): Makten må deles i **lovgivende**, **utøvende** og **dømmende** makt, som kontrollerer hverandre – **maktfordeling**.\n- **Jean-Jacques Rousseau** (*Samfunnspakten*, 1762): Staten skal bygge på **allmennviljen** – folkets felles vilje. Han la grunnlaget for idéen om **folkesuverenitet**.\n\n## Opplysningstiden\n\n**Opplysningstiden** på 1700-tallet satte **fornuften** i sentrum. **Immanuel Kant** oppfordret: «Ha mot til å bruke din egen forstand!» Opplysningsfilosofene kritiserte **kirkens** og **adelens** privilegier, krevde **ytringsfrihet** og **religionsfrihet**, og mente at vitenskap og utdanning kunne gi **framskritt**.\n\n## Revolusjonene\n\n**Den amerikanske revolusjonen**: I **uavhengighetserklæringen** av **1776** het det at alle mennesker er skapt **like** og har rett til liv, frihet og jakten på lykke – tydelig inspirert av Locke. **Grunnloven** av 1787 bygde på **maktfordeling**. Samtidig fortsatte **slaveriet**, og urfolk ble fordrevet.\n\n**Den franske revolusjonen** (fra **1789**) avskaffet adelens privilegier og vedtok **erklæringen om menneskets og borgerens rettigheter**. Slagordet var **frihet, likhet, brorskap**. Revolusjonen endte i terror og senere i Napoleons styre, men ideene spredte seg over hele Europa.\n\nAndre krevde at rettighetene skulle gjelde **flere**: **Olympe de Gouges** skrev en erklæring om **kvinnens** rettigheter i 1791, og slavene på **Haiti** gjorde opprør og vant selvstendighet i 1804.\n\n## Grunnloven av 1814\n\nPå **Eidsvoll** vedtok riksforsamlingen **17. mai 1814** Norges **grunnlov**. Den bygde på **folkesuverenitet**, **maktfordeling** og **individuelle rettigheter**, og var en av de mest radikale i Europa. Men stemmeretten gjaldt bare en del av **mennene** – embetsmenn, bønder med jord og borgere i byene.\n\n## Veien mot demokrati\n\n- **1884**: **Parlamentarismen** – regjeringen må ha Stortingets tillit.\n- **1898**: Allmenn stemmerett for **menn**.\n- **1913**: Allmenn stemmerett for **kvinner**.\n\n## Refleksjon: frihet for hvem?\n\nOpplysningstidens idealer var **universelle** i ordene, men **begrenset** i praksis. Kvinner, arbeidere, slaver, samer og kolonifolk ble i lang tid holdt utenfor. Demokratiets historie kan leses som en **kamp for å utvide** hvem som regnes som en del av folket. Samtidig er det en diskusjon om hvordan **flertallets makt** skal balanseres mot **mindretallets rettigheter** – et spørsmål både Locke og Montesquieu var opptatt av.",
   "flashcards": [
-    { "term": "Samfunnskontrakt", "def": "Idéen om at folk gir staten makt mot trygghet og rettigheter." },
-    { "term": "Thomas Hobbes", "def": "Leviathan (1651): sterk suveren mot «krig av alle mot alle»." },
-    { "term": "Naturtilstanden", "def": "Tenkt tilstand uten stat." },
-    { "term": "John Locke", "def": "Naturlige rettigheter til liv, frihet og eiendom; rett til opprør." },
-    { "term": "Montesquieu", "def": "Maktfordeling mellom lovgivende, utøvende og dømmende makt." },
-    { "term": "Jean-Jacques Rousseau", "def": "Samfunnspakten (1762) og allmennviljen." },
-    { "term": "Folkesuverenitet", "def": "At makten ligger hos folket." },
-    { "term": "Opplysningstiden", "def": "1700-tallets tro på fornuft, frihet og framskritt." },
-    { "term": "«Ha mot til å bruke din egen forstand»", "def": "Kants oppfordring om opplysning." },
-    { "term": "Uavhengighetserklæringen 1776", "def": "Alle mennesker er skapt like med rett til liv, frihet og lykke." },
-    { "term": "Den franske revolusjonen", "def": "Fra 1789 – frihet, likhet, brorskap." },
-    { "term": "Olympe de Gouges", "def": "Skrev erklæringen om kvinnens rettigheter i 1791." },
-    { "term": "Grunnloven 1814", "def": "Folkesuverenitet, maktfordeling og rettigheter." },
-    { "term": "Parlamentarismen", "def": "Fra 1884: regjeringen må ha Stortingets tillit." },
-    { "term": "Allmenn stemmerett i Norge", "def": "Menn 1898, kvinner 1913." }
+    {
+      "term": "Samfunnskontrakt",
+      "def": "Idéen om at folk gir staten makt mot trygghet og rettigheter."
+    },
+    {
+      "term": "Thomas Hobbes",
+      "def": "Leviathan (1651): sterk suveren mot «krig av alle mot alle»."
+    },
+    {
+      "term": "Naturtilstanden",
+      "def": "Tenkt tilstand uten stat."
+    },
+    {
+      "term": "John Locke",
+      "def": "Naturlige rettigheter til liv, frihet og eiendom; rett til opprør."
+    },
+    {
+      "term": "Montesquieu",
+      "def": "Maktfordeling mellom lovgivende, utøvende og dømmende makt."
+    },
+    {
+      "term": "Jean-Jacques Rousseau",
+      "def": "Samfunnspakten (1762) og allmennviljen."
+    },
+    {
+      "term": "Folkesuverenitet",
+      "def": "At makten ligger hos folket."
+    },
+    {
+      "term": "Opplysningstiden",
+      "def": "1700-tallets tro på fornuft, frihet og framskritt."
+    },
+    {
+      "term": "«Ha mot til å bruke din egen forstand»",
+      "def": "Kants oppfordring om opplysning."
+    },
+    {
+      "term": "Uavhengighetserklæringen 1776",
+      "def": "Alle mennesker er skapt like med rett til liv, frihet og lykke."
+    },
+    {
+      "term": "Den franske revolusjonen",
+      "def": "Fra 1789 – frihet, likhet, brorskap."
+    },
+    {
+      "term": "Olympe de Gouges",
+      "def": "Skrev erklæringen om kvinnens rettigheter i 1791."
+    },
+    {
+      "term": "Grunnloven 1814",
+      "def": "Folkesuverenitet, maktfordeling og rettigheter."
+    },
+    {
+      "term": "Parlamentarismen",
+      "def": "Fra 1884: regjeringen må ha Stortingets tillit."
+    },
+    {
+      "term": "Allmenn stemmerett i Norge",
+      "def": "Menn 1898, kvinner 1913."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva mente Hobbes om livet i naturtilstanden?", "options": ["At det var fredelig", "At det var en «krig av alle mot alle»", "At det var et paradis", "At det var demokratisk"], "correct": 1, "explain": "Derfor trengtes en sterk suveren." },
-    { "id": "q02", "text": "Hvilke naturlige rettigheter la Locke vekt på?", "options": ["Liv, frihet og eiendom", "Arbeid, bolig og helse", "Stemmerett og ytringsfrihet", "Religion og tradisjon"], "correct": 0, "explain": "Staten skal beskytte dem." },
-    { "id": "q03", "text": "Hva handler Montesquieus maktfordelingslære om?", "options": ["At kongen skal ha all makt", "At folket skal stemme om alt", "At makten deles i lovgivende, utøvende og dømmende makt", "At kirken skal styre"], "correct": 2, "explain": "Maktene kontrollerer hverandre." },
-    { "id": "q04", "text": "Når fikk kvinner allmenn stemmerett i Norge?", "options": ["1814", "1884", "1898", "1913"], "correct": 3, "explain": "Menn fikk det i 1898." },
-    { "id": "q05", "text": "Hva var slagordet under den franske revolusjonen?", "options": ["Frihet, likhet, brorskap", "Gud, konge, fedreland", "Fred, brød, jord", "Én for alle, alle for én"], "correct": 0, "explain": "Fra 1789." },
-    { "id": "q06", "text": "Hva er folkesuverenitet?", "options": ["At kongen er suveren", "At makten ligger hos folket", "At kirken har makten", "At adelen styrer"], "correct": 1, "explain": "Rousseau la grunnlaget." },
-    { "id": "q07", "text": "Hvorfor kan man si at opplysningstidens idealer var begrenset i praksis?", "options": ["Fordi de gjaldt alle", "Fordi ingen trodde på dem", "Fordi kvinner, slaver og mange andre ble holdt utenfor", "Fordi de bare gjaldt i Asia"], "correct": 2, "explain": "Universelle i ord, men ikke i praksis." },
-    { "id": "q08", "text": "Hva innebar parlamentarismen fra 1884?", "options": ["At kvinner fikk stemmerett", "At kongen fikk all makt", "At Stortinget ble oppløst", "At regjeringen må ha Stortingets tillit"], "correct": 3, "explain": "En viktig demokratisk reform." },
-    { "id": "q09", "text": "Hvem gjorde opprør og vant selvstendighet i 1804?", "options": ["Slavene på Haiti", "Bøndene i Norge", "Adelen i Frankrike", "Kolonistene i Canada"], "correct": 0, "explain": "Rettighetene ble krevd av flere." },
-    { "id": "q10", "text": "Hvem hadde stemmerett etter Grunnloven av 1814?", "options": ["Alle voksne", "En del av mennene – embetsmenn, bønder med jord og borgere", "Bare adelen", "Bare kvinner"], "correct": 1, "explain": "Allmenn stemmerett kom senere." }
+    {
+      "id": "q01",
+      "text": "Hva mente Hobbes om livet i naturtilstanden?",
+      "options": [
+        "At det var fredelig",
+        "At det var en «krig av alle mot alle»",
+        "At det var et paradis",
+        "At det var demokratisk"
+      ],
+      "correct": 1,
+      "explain": "Derfor trengtes en sterk suveren."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilke naturlige rettigheter la Locke vekt på?",
+      "options": [
+        "Liv, frihet og eiendom",
+        "Arbeid, bolig og helse",
+        "Stemmerett og ytringsfrihet",
+        "Religion og tradisjon"
+      ],
+      "correct": 0,
+      "explain": "Staten skal beskytte dem."
+    },
+    {
+      "id": "q03",
+      "text": "Hva handler Montesquieus maktfordelingslære om?",
+      "options": [
+        "At kongen skal ha all makt",
+        "At folket skal stemme om alt",
+        "At makten deles i lovgivende, utøvende og dømmende makt",
+        "At kirken skal styre"
+      ],
+      "correct": 2,
+      "explain": "Maktene kontrollerer hverandre."
+    },
+    {
+      "id": "q04",
+      "text": "Når fikk kvinner allmenn stemmerett i Norge?",
+      "options": [
+        "1814",
+        "1884",
+        "1898",
+        "1913"
+      ],
+      "correct": 3,
+      "explain": "Menn fikk det i 1898."
+    },
+    {
+      "id": "q05",
+      "text": "Hva var slagordet under den franske revolusjonen?",
+      "options": [
+        "Frihet, likhet, brorskap",
+        "Gud, konge, fedreland",
+        "Fred, brød, jord",
+        "Én for alle, alle for én"
+      ],
+      "correct": 0,
+      "explain": "Fra 1789."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er folkesuverenitet?",
+      "options": [
+        "At kongen er suveren",
+        "At makten ligger hos folket",
+        "At kirken har makten",
+        "At adelen styrer"
+      ],
+      "correct": 1,
+      "explain": "Rousseau la grunnlaget."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor kan man si at opplysningstidens idealer var begrenset i praksis?",
+      "options": [
+        "Fordi de gjaldt alle",
+        "Fordi ingen trodde på dem",
+        "Fordi kvinner, slaver og mange andre ble holdt utenfor",
+        "Fordi de bare gjaldt i Asia"
+      ],
+      "correct": 2,
+      "explain": "Universelle i ord, men ikke i praksis."
+    },
+    {
+      "id": "q08",
+      "text": "Hva innebar parlamentarismen fra 1884?",
+      "options": [
+        "At kvinner fikk stemmerett",
+        "At kongen fikk all makt",
+        "At Stortinget ble oppløst",
+        "At regjeringen må ha Stortingets tillit"
+      ],
+      "correct": 3,
+      "explain": "En viktig demokratisk reform."
+    },
+    {
+      "id": "q09",
+      "text": "Hvem gjorde opprør og vant selvstendighet i 1804?",
+      "options": [
+        "Slavene på Haiti",
+        "Bøndene i Norge",
+        "Adelen i Frankrike",
+        "Kolonistene i Canada"
+      ],
+      "correct": 0,
+      "explain": "Rettighetene ble krevd av flere."
+    },
+    {
+      "id": "q10",
+      "text": "Hvem hadde stemmerett etter Grunnloven av 1814?",
+      "options": [
+        "Alle voksne",
+        "En del av mennene – embetsmenn, bønder med jord og borgere",
+        "Bare adelen",
+        "Bare kvinner"
+      ],
+      "correct": 1,
+      "explain": "Allmenn stemmerett kom senere."
+    }
   ],
   "mindmap": {
     "label": "Opplysningstid og revolusjoner",
     "children": [
-      { "label": "Samfunnskontrakt", "children": [
-        { "label": "Hobbes" },
-        { "label": "Locke" },
-        { "label": "Rousseau" }
-      ] },
-      { "label": "Maktfordeling", "children": [
-        { "label": "Montesquieu" },
-        { "label": "Tre statsmakter" }
-      ] },
-      { "label": "Opplysningstiden", "children": [
-        { "label": "Fornuft" },
-        { "label": "Ytrings- og religionsfrihet" },
-        { "label": "Framskritt" }
-      ] },
-      { "label": "Revolusjoner", "children": [
-        { "label": "USA 1776" },
-        { "label": "Frankrike 1789" },
-        { "label": "Haiti 1804" }
-      ] },
-      { "label": "Norge", "children": [
-        { "label": "Grunnloven 1814" },
-        { "label": "Parlamentarisme 1884" },
-        { "label": "Stemmerett 1898 og 1913" }
-      ] }
+      {
+        "label": "Samfunnskontrakt",
+        "children": [
+          {
+            "label": "Hobbes"
+          },
+          {
+            "label": "Locke"
+          },
+          {
+            "label": "Rousseau"
+          }
+        ]
+      },
+      {
+        "label": "Maktfordeling",
+        "children": [
+          {
+            "label": "Montesquieu"
+          },
+          {
+            "label": "Tre statsmakter"
+          }
+        ]
+      },
+      {
+        "label": "Opplysningstiden",
+        "children": [
+          {
+            "label": "Fornuft"
+          },
+          {
+            "label": "Ytrings- og religionsfrihet"
+          },
+          {
+            "label": "Framskritt"
+          }
+        ]
+      },
+      {
+        "label": "Revolusjoner",
+        "children": [
+          {
+            "label": "USA 1776"
+          },
+          {
+            "label": "Frankrike 1789"
+          },
+          {
+            "label": "Haiti 1804"
+          }
+        ]
+      },
+      {
+        "label": "Norge",
+        "children": [
+          {
+            "label": "Grunnloven 1814"
+          },
+          {
+            "label": "Parlamentarisme 1884"
+          },
+          {
+            "label": "Stemmerett 1898 og 1913"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Den amerikanske uavhengighetserklæringen var inspirert av Locke.", "correct": true, "explain": "Liv, frihet og jakten på lykke." },
-      { "id": "m02", "type": "sant-usant", "text": "Hobbes forsvarte en svak stat med lite makt.", "correct": false, "explain": "Han forsvarte en sterk suveren." },
-      { "id": "m03", "type": "sant-usant", "text": "Grunnloven av 1814 var en av de mest radikale i Europa.", "correct": true, "explain": "Den bygde på folkesuverenitet og maktfordeling." },
-      { "id": "m04", "type": "sant-usant", "text": "Slaveriet ble avskaffet i USA samtidig med uavhengighetserklæringen i 1776.", "correct": false, "explain": "Slaveriet fortsatte lenge etter." },
-      { "id": "m05", "type": "flervalg", "text": "Hvem mente at folket har rett til opprør hvis staten bryter kontrakten?", "options": ["Hobbes", "Locke", "Ludvig 14.", "Platon"], "correct": 1, "explain": "Staten skal beskytte rettighetene." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken filosof skrev Samfunnspakten?", "options": ["Rousseau", "Montesquieu", "Kant", "Hobbes"], "correct": 0, "explain": "I 1762." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål er sentralt i demokratiets historie?", "options": ["Hvilken farge flagget skal ha", "Hvor slottet skal ligge", "Hvem som regnes som en del av folket", "Hvor mange dager det er i året"], "correct": 2, "explain": "Kampen for å utvide rettighetene." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Den amerikanske uavhengighetserklæringen var inspirert av Locke.",
+        "correct": true,
+        "explain": "Liv, frihet og jakten på lykke."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Hobbes forsvarte en svak stat med lite makt.",
+        "correct": false,
+        "explain": "Han forsvarte en sterk suveren."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Grunnloven av 1814 var en av de mest radikale i Europa.",
+        "correct": true,
+        "explain": "Den bygde på folkesuverenitet og maktfordeling."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Slaveriet ble avskaffet i USA samtidig med uavhengighetserklæringen i 1776.",
+        "correct": false,
+        "explain": "Slaveriet fortsatte lenge etter."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem mente at folket har rett til opprør hvis staten bryter kontrakten?",
+        "options": [
+          "Hobbes",
+          "Locke",
+          "Ludvig 14.",
+          "Platon"
+        ],
+        "correct": 1,
+        "explain": "Staten skal beskytte rettighetene."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken filosof skrev Samfunnspakten?",
+        "options": [
+          "Rousseau",
+          "Montesquieu",
+          "Kant",
+          "Hobbes"
+        ],
+        "correct": 0,
+        "explain": "I 1762."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket spørsmål er sentralt i demokratiets historie?",
+        "options": [
+          "Hvilken farge flagget skal ha",
+          "Hvor slottet skal ligge",
+          "Hvem som regnes som en del av folket",
+          "Hvor mange dager det er i året"
+        ],
+        "correct": 2,
+        "explain": "Kampen for å utvide rettighetene."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva går idéen om en samfunnskontrakt ut på? Forklar hva folket gir staten, og hva folket skal få tilbake.",
+        "fasit": "Folket gir staten makt for at den skal skape trygghet og beskytte rettigheter. Statens makt begrunnes dermed med en avtale mellom mennesker, ikke med Gud eller tradisjon.",
+        "kriterier": [
+          "Forklarer at folket gir staten makt.",
+          "Forklarer at staten skal gi trygghet og beskytte rettigheter."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign synet på staten hos Thomas Hobbes og John Locke. Hva skulle staten først og fremst gjøre ifølge hver av dem?",
+        "fasit": "Hobbes mente at en sterk statsmakt måtte skape fred. Locke mente at staten først og fremst skulle beskytte menneskenes naturlige rettigheter, og at folket kunne gjøre opprør hvis staten brøt kontrakten.",
+        "kriterier": [
+          "Får fram at Hobbes ønsket en sterk stat for å sikre fred.",
+          "Får fram at Locke ville beskytte rettigheter, og knytter det gjerne til folkets rett til opprør."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En gruppe mennesker skal lage regler for et samfunn. Ifølge Rousseaus idé om allmennviljen, hva bør reglene bygge på? Begrunn svaret.",
+        "fasit": "Reglene bør bygge på folkets felles vilje, ikke bare på interessene til enkelte personer eller grupper. Rousseau mente at staten skulle bygge på allmennviljen.",
+        "kriterier": [
+          "Forklarer allmennviljen som folkets felles vilje.",
+          "Knytter denne felles viljen til hvordan staten eller reglene bør styres."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Immanuel Kant oppfordret folk til å «ha mot til å bruke din egen forstand». Forklar hva oppfordringen betyr, og hvordan den passer med opplysningstiden.",
+        "fasit": "Oppfordringen betyr at mennesker selv bør tenke og bruke fornuften sin. Det passer med opplysningstiden, som satte fornuften i sentrum og la vekt på frihet og framskritt.",
+        "kriterier": [
+          "Forklarer at folk bør tenke selv og bruke egen fornuft.",
+          "Knytter dette til opplysningstidens vekt på fornuft, frihet eller framskritt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Uavhengighetserklæringen fra den amerikanske revolusjonen i 1776 sa at mennesker er skapt like og har rett til liv, frihet og jakten på lykke. Forklar hvordan dette viser påvirkning fra John Lockes tanker.",
+        "fasit": "Erklæringen bygger på Lockes idé om at mennesker har naturlige rettigheter. Retten til liv og frihet samsvarer direkte med rettighetene Locke la vekt på.",
+        "kriterier": [
+          "Knytter erklæringen til Lockes idé om naturlige rettigheter.",
+          "Nevner en relevant rettighet erklæringen og Locke har til felles, som liv eller frihet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Olympe de Gouges skrev en erklæring om kvinnens rettigheter i 1791. Forklar hva dette viser om hvem som krevde å få del i opplysningstidens rettighetsidealer.",
+        "fasit": "Det viser at kvinner også krevde at rettighetene skulle gjelde dem. De Gouges’ erklæring var et krav om å utvide hvem som ble regnet med i rettighetsidealene.",
+        "kriterier": [
+          "Får fram at kvinner krevde rettigheter.",
+          "Forklarer at kravet handlet om å utvide hvem rettighetsidealene skulle gjelde for."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Den franske revolusjonen fra 1789 avskaffet adelens privilegier og vedtok en erklæring om menneskets og borgerens rettigheter. Forklar hvordan dette endret forholdet mellom samfunnsgrupper og rettigheter.",
+        "fasit": "Da adelens privilegier ble avskaffet, ble adelens særstilling utfordret. Erklæringen uttrykte at rettigheter skulle gjelde mennesker og borgere, ikke bare være knyttet til adelens privilegier.",
+        "kriterier": [
+          "Forklarer at adelens særstilling eller privilegier ble utfordret eller fjernet.",
+          "Knytter rettighetserklæringen til en bredere forståelse av hvem som skulle ha rettigheter."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Tenk deg at et flertall vedtar en regel som begrenser religionsfriheten til en minoritet. Forklar hvorfor flertallets makt ifølge opplysningstidens politiske ideer bør ha grenser.",
+        "fasit": "Flertallets beslutning bør ikke sette individers eller minoriteters rettigheter til side, som religionsfrihet. Makten må balanseres mot slike rettigheter og fordeles slik at ulike deler av staten kan kontrollere hverandre.",
+        "kriterier": [
+          "Forklarer at flertallets makt må balanseres mot individers eller minoriteters rettigheter.",
+          "Knytter grensen til rettigheter som religionsfrihet eller til kontroll og maktfordeling."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

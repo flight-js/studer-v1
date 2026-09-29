@@ -4,77 +4,422 @@
   "trinnId": "vg1",
   "name": "Mandarin, pinyin og toner",
   "intro": "Hva mandarin er, hvordan lydskriften pinyin fungerer, de fire tonene og den nøytrale tonen, lyder som er vanskelige for nordmenn, tonesandhi og strategier for å lære uttale.",
-  "kompetansemaal": [6, 7, 1],
+  "kompetansemaal": [
+    6,
+    7,
+    1
+  ],
   "sammendrag": "## Mandarin\n\nDet vi kaller «kinesisk» i skolen, er **mandarin** – på kinesisk **普通话** (*Pǔtōnghuà*, «fellesspråket»). Det er offisielt språk i **Kina** og **Taiwan** og ett av de offisielle språkene i **Singapore**. Mandarin er morsmålet til flest mennesker i verden. I tillegg finnes mange andre kinesiske språk og dialekter, som **kantonesisk**.\n\n## Pinyin\n\n**Pinyin** er et system som skriver kinesisk uttale med **latinske bokstaver**. Det brukes når man lærer språket, og når man skriver kinesiske tegn på PC og mobil. En kinesisk stavelse består ofte av en **forlyd** (initial) og en **utlyd** (final), pluss en **tone**: *m + a + tone*.\n\n## De fire tonene\n\nMandarin er et **tonespråk**: Samme lyd kan ha helt ulik betydning avhengig av **tonen**.\n\n| Tone | Merke | Beskrivelse | Eksempel |\n| --- | --- | --- | --- |\n| 1. tone | mā | høy og jevn | 妈 mā – mor |\n| 2. tone | má | stigende, som et spørsmål | 麻 má – hamp |\n| 3. tone | mǎ | faller og stiger | 马 mǎ – hest |\n| 4. tone | mà | kort og fallende, som en ordre | 骂 mà – skjelle ut |\n| Nøytral | ma | kort og svak | 吗 ma – spørrepartikkel |\n\n*Māma mà mǎ ma?* – «Skjeller mamma ut hesten?» er en klassisk øvelse.\n\n## Tonesandhi\n\nNoen toner **endrer seg** i sammenheng med andre:\n\n- To **3. toner** etter hverandre: Den første uttales som **2. tone**. *nǐ hǎo* (hei) uttales *ní hǎo*.\n- **不 bù** (ikke) blir **bú** foran en 4. tone: *bú shì* (er ikke).\n\n## Lyder å øve på\n\n- **x** ligner en myk «sj»: *xièxie* (takk)\n- **q** ligner «tsj» med luft: *qī* (sju)\n- **j** ligner «dj»: *jiā* (hjem)\n- **zh, ch, sh** uttales med tungespissen bøyd bakover: *Zhōngguó* (Kina)\n- **c** uttales «ts»: *cài* (mat, rett)\n- **z** uttales «ds»: *zàijiàn* (ha det)\n- **r** ligner en blanding av norsk «r» og engelsk «s» i *measure*: *rén* (menneske)\n\n## Strategier\n\n- **Lytt og etterlign** – gjerne med lydopptak fra læreboka eller apper.\n- Bruk **håndbevegelser** som viser tonen når du øver.\n- **Ta opp deg selv** og sammenlign med en morsmålsbruker.\n- Lær ord **med tonen** fra starten – en feil tone kan gi et helt annet ord.\n- Bruk erfaringer fra andre språk: Du har allerede lært å høre forskjell på lyder i engelsk og kanskje andre språk.",
   "flashcards": [
-    { "term": "普通话 Pǔtōnghuà", "def": "mandarin – «fellesspråket»" },
-    { "term": "pinyin", "def": "lydskrift for kinesisk med latinske bokstaver" },
-    { "term": "mā (1. tone)", "def": "høy og jevn tone" },
-    { "term": "má (2. tone)", "def": "stigende tone" },
-    { "term": "mǎ (3. tone)", "def": "fallende og stigende tone" },
-    { "term": "mà (4. tone)", "def": "kort og fallende tone" },
-    { "term": "妈 mā", "def": "mor" },
-    { "term": "马 mǎ", "def": "hest" },
-    { "term": "吗 ma", "def": "spørrepartikkel (nøytral tone)" },
-    { "term": "nǐ hǎo → ní hǎo", "def": "tonesandhi: to 3. toner etter hverandre" },
-    { "term": "bù → bú", "def": "不 uttales bú foran en 4. tone" },
-    { "term": "谢谢 xièxie", "def": "takk" },
-    { "term": "中国 Zhōngguó", "def": "Kina" },
-    { "term": "人 rén", "def": "menneske" },
-    { "term": "再见 zàijiàn", "def": "ha det" }
+    {
+      "term": "普通话 Pǔtōnghuà",
+      "def": "mandarin – «fellesspråket»"
+    },
+    {
+      "term": "pinyin",
+      "def": "lydskrift for kinesisk med latinske bokstaver"
+    },
+    {
+      "term": "mā (1. tone)",
+      "def": "høy og jevn tone"
+    },
+    {
+      "term": "má (2. tone)",
+      "def": "stigende tone"
+    },
+    {
+      "term": "mǎ (3. tone)",
+      "def": "fallende og stigende tone"
+    },
+    {
+      "term": "mà (4. tone)",
+      "def": "kort og fallende tone"
+    },
+    {
+      "term": "妈 mā",
+      "def": "mor"
+    },
+    {
+      "term": "马 mǎ",
+      "def": "hest"
+    },
+    {
+      "term": "吗 ma",
+      "def": "spørrepartikkel (nøytral tone)"
+    },
+    {
+      "term": "nǐ hǎo → ní hǎo",
+      "def": "tonesandhi: to 3. toner etter hverandre"
+    },
+    {
+      "term": "bù → bú",
+      "def": "不 uttales bú foran en 4. tone"
+    },
+    {
+      "term": "谢谢 xièxie",
+      "def": "takk"
+    },
+    {
+      "term": "中国 Zhōngguó",
+      "def": "Kina"
+    },
+    {
+      "term": "人 rén",
+      "def": "menneske"
+    },
+    {
+      "term": "再见 zàijiàn",
+      "def": "ha det"
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er pinyin?", "options": ["Kinesiske tegn", "Lydskrift for kinesisk med latinske bokstaver", "En kinesisk dialekt", "En type tone"], "correct": 1, "explain": "Pinyin brukes også når man skriver tegn på PC og mobil." },
-    { "id": "q02", "text": "Hvordan beskrives 4. tone?", "options": ["Kort og fallende", "Høy og jevn", "Stigende", "Fallende og stigende"], "correct": 0, "explain": "Den høres ut som en bestemt ordre." },
-    { "id": "q03", "text": "Hva betyr 马 mǎ?", "options": ["mor", "hamp", "hest", "spørrepartikkel"], "correct": 2, "explain": "Tonen avgjør betydningen." },
-    { "id": "q04", "text": "Hvordan uttales «nǐ hǎo» i praksis?", "options": ["nì hào", "nǐ hǎo med to 3. toner", "nī hāo", "ní hǎo"], "correct": 3, "explain": "Når to 3. toner følger hverandre, blir den første en 2. tone." },
-    { "id": "q05", "text": "Hva kalles mandarin på kinesisk?", "options": ["普通话 Pǔtōnghuà", "汉字 hànzì", "北京 Běijīng", "中秋 Zhōngqiū"], "correct": 0, "explain": "Pǔtōnghuà betyr «fellesspråket»." },
-    { "id": "q06", "text": "Hvordan uttales «不 shì» (er ikke)?", "options": ["bù shì", "bú shì", "bǔ shì", "bū shì"], "correct": 1, "explain": "不 blir bú foran en 4. tone." },
-    { "id": "q07", "text": "Hvordan beskrives 2. tone?", "options": ["Høy og jevn", "Kort og fallende", "Stigende, som et spørsmål", "Svak og kort"], "correct": 2, "explain": "Eksempel: má." },
-    { "id": "q08", "text": "Hvordan uttales bokstaven «c» i pinyin?", "options": ["k", "s", "sj", "ts"], "correct": 3, "explain": "Eksempel: cài (rett, mat)." },
-    { "id": "q09", "text": "Hvorfor er det viktig å lære ord med riktig tone?", "options": ["Fordi feil tone kan gi et helt annet ord", "Fordi tonene bare brukes i sanger", "Fordi tonene er valgfrie", "Det er ikke viktig"], "correct": 0, "explain": "Mandarin er et tonespråk." },
-    { "id": "q10", "text": "Hva betyr 谢谢 xièxie?", "options": ["unnskyld", "takk", "hei", "ha det"], "correct": 1, "explain": "Svaret er ofte 不客气 bú kèqi – ingen årsak." }
+    {
+      "id": "q01",
+      "text": "Hva er pinyin?",
+      "options": [
+        "Kinesiske tegn",
+        "Lydskrift for kinesisk med latinske bokstaver",
+        "En kinesisk dialekt",
+        "En type tone"
+      ],
+      "correct": 1,
+      "explain": "Pinyin brukes også når man skriver tegn på PC og mobil."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan beskrives 4. tone?",
+      "options": [
+        "Kort og fallende",
+        "Høy og jevn",
+        "Stigende",
+        "Fallende og stigende"
+      ],
+      "correct": 0,
+      "explain": "Den høres ut som en bestemt ordre."
+    },
+    {
+      "id": "q03",
+      "text": "Hva betyr 马 mǎ?",
+      "options": [
+        "mor",
+        "hamp",
+        "hest",
+        "spørrepartikkel"
+      ],
+      "correct": 2,
+      "explain": "Tonen avgjør betydningen."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan uttales «nǐ hǎo» i praksis?",
+      "options": [
+        "nì hào",
+        "nǐ hǎo med to 3. toner",
+        "nī hāo",
+        "ní hǎo"
+      ],
+      "correct": 3,
+      "explain": "Når to 3. toner følger hverandre, blir den første en 2. tone."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kalles mandarin på kinesisk?",
+      "options": [
+        "普通话 Pǔtōnghuà",
+        "汉字 hànzì",
+        "北京 Běijīng",
+        "中秋 Zhōngqiū"
+      ],
+      "correct": 0,
+      "explain": "Pǔtōnghuà betyr «fellesspråket»."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan uttales «不 shì» (er ikke)?",
+      "options": [
+        "bù shì",
+        "bú shì",
+        "bǔ shì",
+        "bū shì"
+      ],
+      "correct": 1,
+      "explain": "不 blir bú foran en 4. tone."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan beskrives 2. tone?",
+      "options": [
+        "Høy og jevn",
+        "Kort og fallende",
+        "Stigende, som et spørsmål",
+        "Svak og kort"
+      ],
+      "correct": 2,
+      "explain": "Eksempel: má."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan uttales bokstaven «c» i pinyin?",
+      "options": [
+        "k",
+        "s",
+        "sj",
+        "ts"
+      ],
+      "correct": 3,
+      "explain": "Eksempel: cài (rett, mat)."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er det viktig å lære ord med riktig tone?",
+      "options": [
+        "Fordi feil tone kan gi et helt annet ord",
+        "Fordi tonene bare brukes i sanger",
+        "Fordi tonene er valgfrie",
+        "Det er ikke viktig"
+      ],
+      "correct": 0,
+      "explain": "Mandarin er et tonespråk."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr 谢谢 xièxie?",
+      "options": [
+        "unnskyld",
+        "takk",
+        "hei",
+        "ha det"
+      ],
+      "correct": 1,
+      "explain": "Svaret er ofte 不客气 bú kèqi – ingen årsak."
+    }
   ],
   "mindmap": {
     "label": "Uttale og toner",
     "children": [
-      { "label": "Mandarin", "children": [
-        { "label": "普通话" },
-        { "label": "Kina, Taiwan, Singapore" }
-      ] },
-      { "label": "Pinyin", "children": [
-        { "label": "Latinske bokstaver" },
-        { "label": "Forlyd + utlyd + tone" }
-      ] },
-      { "label": "Toner", "children": [
-        { "label": "1: høy" },
-        { "label": "2: stigende" },
-        { "label": "3: fallende-stigende" },
-        { "label": "4: fallende" }
-      ] },
-      { "label": "Tonesandhi", "children": [
-        { "label": "3 + 3 → 2 + 3" },
-        { "label": "bù → bú" }
-      ] },
-      { "label": "Lyder", "children": [
-        { "label": "x, q, j" },
-        { "label": "zh, ch, sh" },
-        { "label": "c, z, r" }
-      ] }
+      {
+        "label": "Mandarin",
+        "children": [
+          {
+            "label": "普通话"
+          },
+          {
+            "label": "Kina, Taiwan, Singapore"
+          }
+        ]
+      },
+      {
+        "label": "Pinyin",
+        "children": [
+          {
+            "label": "Latinske bokstaver"
+          },
+          {
+            "label": "Forlyd + utlyd + tone"
+          }
+        ]
+      },
+      {
+        "label": "Toner",
+        "children": [
+          {
+            "label": "1: høy"
+          },
+          {
+            "label": "2: stigende"
+          },
+          {
+            "label": "3: fallende-stigende"
+          },
+          {
+            "label": "4: fallende"
+          }
+        ]
+      },
+      {
+        "label": "Tonesandhi",
+        "children": [
+          {
+            "label": "3 + 3 → 2 + 3"
+          },
+          {
+            "label": "bù → bú"
+          }
+        ]
+      },
+      {
+        "label": "Lyder",
+        "children": [
+          {
+            "label": "x, q, j"
+          },
+          {
+            "label": "zh, ch, sh"
+          },
+          {
+            "label": "c, z, r"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Mandarin er et tonespråk.", "correct": true, "explain": "Tonen skiller mellom ord med samme lyd." },
-      { "id": "m02", "type": "sant-usant", "text": "Kantonesisk og mandarin er det samme språket.", "correct": false, "explain": "Kantonesisk er et eget kinesisk språk." },
-      { "id": "m03", "type": "sant-usant", "text": "吗 ma uttales med nøytral tone.", "correct": true, "explain": "Nøytral tone er kort og svak." },
-      { "id": "m04", "type": "sant-usant", "text": "Pinyin-bokstaven «x» uttales som norsk «ks».", "correct": false, "explain": "x ligner en myk «sj», som i xièxie." },
-      { "id": "m05", "type": "flervalg", "text": "Hva betyr 妈 mā?", "options": ["hest", "mor", "hamp", "skjelle ut"], "correct": 1, "explain": "1. tone: høy og jevn." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr 再见 zàijiàn?", "options": ["ha det", "god morgen", "takk", "unnskyld"], "correct": 0, "explain": "Bokstavelig: «se igjen»." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken strategi er nyttig når du øver på toner?", "options": ["Å se bort fra tonene", "Å bare lese pinyin stille", "Å ta opp seg selv og sammenligne med en morsmålsbruker", "Å lære tonene til slutt"], "correct": 2, "explain": "Lytting og etterligning er viktig." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mandarin er et tonespråk.",
+        "correct": true,
+        "explain": "Tonen skiller mellom ord med samme lyd."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kantonesisk og mandarin er det samme språket.",
+        "correct": false,
+        "explain": "Kantonesisk er et eget kinesisk språk."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "吗 ma uttales med nøytral tone.",
+        "correct": true,
+        "explain": "Nøytral tone er kort og svak."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Pinyin-bokstaven «x» uttales som norsk «ks».",
+        "correct": false,
+        "explain": "x ligner en myk «sj», som i xièxie."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr 妈 mā?",
+        "options": [
+          "hest",
+          "mor",
+          "hamp",
+          "skjelle ut"
+        ],
+        "correct": 1,
+        "explain": "1. tone: høy og jevn."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr 再见 zàijiàn?",
+        "options": [
+          "ha det",
+          "god morgen",
+          "takk",
+          "unnskyld"
+        ],
+        "correct": 0,
+        "explain": "Bokstavelig: «se igjen»."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken strategi er nyttig når du øver på toner?",
+        "options": [
+          "Å se bort fra tonene",
+          "Å bare lese pinyin stille",
+          "Å ta opp seg selv og sammenligne med en morsmålsbruker",
+          "Å lære tonene til slutt"
+        ],
+        "correct": 2,
+        "explain": "Lytting og etterligning er viktig."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Mandarin har ulik offisiell status i Kina, Taiwan og Singapore. Forklar forskjellen i status mellom disse stedene.",
+        "fasit": "Mandarin er offisielt språk i Kina og Taiwan. I Singapore er det ett av de offisielle språkene.",
+        "kriterier": [
+          "Skiller mellom offisielt språk i Kina og Taiwan og ett av de offisielle språkene i Singapore."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En pinyin-stavelse kan bygges opp som «m + a + tone». Forklar hva hver av de tre delene står for.",
+        "fasit": "«m» er forlyden, eller initialen, og «a» er utlyden, eller finalen. Tonen er den siste delen av stavelsen.",
+        "kriterier": [
+          "Forklarer at m er forlyd/initial og a er utlyd/final.",
+          "Forklarer at tonen også er en del av stavelsen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign mā og má. Beskriv hvordan tonen høres ut, og hva hvert ord betyr.",
+        "fasit": "Mā har en høy og jevn tone og betyr «mor». Má har en stigende tone og betyr «hamp».",
+        "kriterier": [
+          "Beskriver mā som høy og jevn og oppgir at det betyr mor.",
+          "Beskriver má som stigende og oppgir at det betyr hamp."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I uttrykket 吗 ma er ma uten tonemerke. Forklar hvordan denne tonen uttales og hva 吗 betyr. Skill det fra 妈 mā.",
+        "fasit": "Ma i 吗 uttales kort og svakt med nøytral tone, og 吗 er en spørrepartikkel. Mā i 妈 har høy og jevn tone og betyr «mor».",
+        "kriterier": [
+          "Forklarer at ma i 吗 har nøytral tone og er kort og svak, og at tegnet er en spørrepartikkel.",
+          "Skiller dette fra mā, som har høy og jevn tone og betyr mor."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En elev øver på xièxie og qī. Forklar hvordan x og q skal høres ut, og bruk ordene som eksempler.",
+        "fasit": "X i xièxie ligner en myk «sj»-lyd. Q i qī ligner «tsj» med luft.",
+        "kriterier": [
+          "Beskriver x som en myk sj-lyd og knytter det til xièxie.",
+          "Beskriver q som tsj med luft og knytter det til qī."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hvordan skal tungespissen plasseres når du uttaler zh, ch eller sh? Bruk 中国 Zhōngguó som eksempel.",
+        "fasit": "Når du uttaler zh, ch eller sh, bøyer du tungespissen bakover. Zhōngguó, som betyr Kina, begynner med zh.",
+        "kriterier": [
+          "Forklarer at tungespissen bøyes bakover ved zh, ch eller sh.",
+          "Knytter lyden zh til starten av Zhōngguó."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign uttalen av c og z i pinyin. Bruk cài og zàijiàn som eksempler.",
+        "fasit": "C uttales som «ts», slik som i cài. Z uttales som «ds», slik som i zàijiàn.",
+        "kriterier": [
+          "Beskriver c som «ts» og viser til cài.",
+          "Beskriver z som «ds» og viser til zàijiàn."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du vil bli bedre til å uttale mandarinens toner. Beskriv hvordan du kan bruke et lydopptak av deg selv og en morsmålsbruker når du øver, og hva du sammenligner.",
+        "fasit": "Jeg kan ta opp min egen uttale og sammenligne opptaket med uttalen til en morsmålsbruker. Da kan jeg lytte etter om jeg uttaler tonene på samme måte og øve på forskjellene.",
+        "kriterier": [
+          "Beskriver at eleven tar opp egen uttale og sammenligner den med en morsmålsbruker.",
+          "Forklarer at sammenligningen brukes til å høre forskjeller i toneuttalen og øve på dem."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

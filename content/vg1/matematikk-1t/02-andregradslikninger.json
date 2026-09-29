@@ -4,79 +4,427 @@
   "trinnId": "vg1",
   "name": "Andregradslikninger og -ulikheter",
   "intro": "Kvadratsetningene, fullstendige kvadrater, abc-formelen og diskriminanten, faktorisering av andregradsuttrykk, parabelen og andregradsulikheter med fortegnsskjema.",
-  "kompetansemaal": [6],
+  "kompetansemaal": [
+    6
+  ],
   "sammendrag": "## Kvadratsetningene\n\n- **Første kvadratsetning**: (a + b)² = a² + 2ab + b²\n- **Andre kvadratsetning**: (a − b)² = a² − 2ab + b²\n- **Konjugatsetningen** (tredje kvadratsetning): (a + b)(a − b) = a² − b²\n\nEksempler: (x + 3)² = x² + 6x + 9 og x² − 9 = (x + 3)(x − 3).\n\n## Andregradslikninger\n\nEn **andregradslikning** kan skrives som **ax² + bx + c = 0**, der a ≠ 0.\n\n**Spesialtilfeller**:\n\n- Uten x-ledd: x² = 16 → **x = ±4**\n- Uten konstantledd: x² − 5x = 0 → x(x − 5) = 0 → **x = 0 eller x = 5** (et produkt er null når en av faktorene er null)\n\n## abc-formelen\n\nx = (−b ± √(b² − 4ac)) / (2a)\n\nEksempel: x² − 5x + 6 = 0 gir a = 1, b = −5, c = 6.\n\nx = (5 ± √(25 − 24)) / 2 = (5 ± 1)/2 → **x = 3 eller x = 2**\n\n## Diskriminanten\n\nUttrykket **D = b² − 4ac** under rottegnet kalles **diskriminanten**:\n\n- D > 0: **to** løsninger\n- D = 0: **én** løsning (x² + 4x + 4 = 0 gir bare x = −2)\n- D < 0: **ingen** reelle løsninger\n\n## Fullstendige kvadrater\n\nVi kan skrive om et andregradsuttrykk ved å lage et **fullstendig kvadrat**:\n\nx² + 6x + 5 = (x + 3)² − 9 + 5 = **(x + 3)² − 4**\n\nMetoden viser hvor parabelen har bunnpunkt og er grunnlaget for å **bevise abc-formelen**.\n\n## Faktorisering\n\nHvis ax² + bx + c = 0 har løsningene x₁ og x₂, kan uttrykket faktoriseres:\n\n**ax² + bx + c = a(x − x₁)(x − x₂)**\n\nx² − 5x + 6 = (x − 2)(x − 3)\n\n## Andregradsfunksjonen\n\nGrafen til f(x) = ax² + bx + c er en **parabel**. Hvis **a > 0**, har den et **bunnpunkt** («smiler»). Hvis **a < 0**, har den et **toppunkt**. **Symmetrilinjen** er x = −b/(2a). Nullpunktene er løsningene av f(x) = 0.\n\n## Andregradsulikheter\n\nFor å løse x² − 5x + 6 < 0:\n\n1. Faktoriser: (x − 2)(x − 3) < 0.\n2. Lag et **fortegnsskjema** for hver faktor. (x − 2) er negativ for x < 2 og positiv for x > 2. (x − 3) skifter fortegn i 3.\n3. Produktet er negativt der faktorene har **ulike fortegn**: **2 < x < 3**.\n\nGrafisk ser vi det samme: Parabelen ligger **under x-aksen** mellom nullpunktene.",
   "flashcards": [
-    { "term": "Første kvadratsetning", "def": "(a + b)² = a² + 2ab + b²" },
-    { "term": "Andre kvadratsetning", "def": "(a − b)² = a² − 2ab + b²" },
-    { "term": "Konjugatsetningen", "def": "(a + b)(a − b) = a² − b²" },
-    { "term": "Andregradslikning", "def": "ax² + bx + c = 0 der a ≠ 0." },
-    { "term": "abc-formelen", "def": "x = (−b ± √(b² − 4ac)) / (2a)" },
-    { "term": "Diskriminant", "def": "D = b² − 4ac" },
-    { "term": "D > 0", "def": "To løsninger." },
-    { "term": "D = 0", "def": "Én løsning." },
-    { "term": "D < 0", "def": "Ingen reelle løsninger." },
-    { "term": "Produktregelen for null", "def": "Et produkt er null når minst én faktor er null." },
-    { "term": "Fullstendig kvadrat", "def": "Omskriving som x² + 6x + 5 = (x + 3)² − 4." },
-    { "term": "Faktorisering", "def": "ax² + bx + c = a(x − x₁)(x − x₂)" },
-    { "term": "Parabel", "def": "Grafen til en andregradsfunksjon." },
-    { "term": "Symmetrilinje", "def": "x = −b/(2a)" },
-    { "term": "Fortegnsskjema", "def": "Oversikt over hvor faktorer og produkt er positive og negative." }
+    {
+      "term": "Første kvadratsetning",
+      "def": "(a + b)² = a² + 2ab + b²"
+    },
+    {
+      "term": "Andre kvadratsetning",
+      "def": "(a − b)² = a² − 2ab + b²"
+    },
+    {
+      "term": "Konjugatsetningen",
+      "def": "(a + b)(a − b) = a² − b²"
+    },
+    {
+      "term": "Andregradslikning",
+      "def": "ax² + bx + c = 0 der a ≠ 0."
+    },
+    {
+      "term": "abc-formelen",
+      "def": "x = (−b ± √(b² − 4ac)) / (2a)"
+    },
+    {
+      "term": "Diskriminant",
+      "def": "D = b² − 4ac"
+    },
+    {
+      "term": "D > 0",
+      "def": "To løsninger."
+    },
+    {
+      "term": "D = 0",
+      "def": "Én løsning."
+    },
+    {
+      "term": "D < 0",
+      "def": "Ingen reelle løsninger."
+    },
+    {
+      "term": "Produktregelen for null",
+      "def": "Et produkt er null når minst én faktor er null."
+    },
+    {
+      "term": "Fullstendig kvadrat",
+      "def": "Omskriving som x² + 6x + 5 = (x + 3)² − 4."
+    },
+    {
+      "term": "Faktorisering",
+      "def": "ax² + bx + c = a(x − x₁)(x − x₂)"
+    },
+    {
+      "term": "Parabel",
+      "def": "Grafen til en andregradsfunksjon."
+    },
+    {
+      "term": "Symmetrilinje",
+      "def": "x = −b/(2a)"
+    },
+    {
+      "term": "Fortegnsskjema",
+      "def": "Oversikt over hvor faktorer og produkt er positive og negative."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er (x + 3)²?", "options": ["x² + 9", "x² + 6x + 9", "x² + 3x + 9", "2x + 6"], "correct": 1, "explain": "Første kvadratsetning: x² + 2 · 3 · x + 3²." },
-    { "id": "q02", "text": "Løs x² − 5x + 6 = 0.", "options": ["x = 2 eller x = 3", "x = −2 eller x = −3", "x = 1 eller x = 6", "x = 5 eller x = 6"], "correct": 0, "explain": "abc-formelen gir (5 ± 1)/2." },
-    { "id": "q03", "text": "Hva er diskriminanten?", "options": ["−b/(2a)", "b² + 4ac", "b² − 4ac", "√(b² − 4ac)/(2a)"], "correct": 2, "explain": "Diskriminanten er uttrykket under rottegnet." },
-    { "id": "q04", "text": "Hva betyr det at diskriminanten er negativ?", "options": ["To løsninger", "Én løsning", "Uendelig mange løsninger", "Ingen reelle løsninger"], "correct": 3, "explain": "Vi kan ikke ta kvadratroten av et negativt tall." },
-    { "id": "q05", "text": "Faktoriser x² − 9.", "options": ["(x − 3)(x + 3)", "(x − 3)²", "(x − 9)(x + 1)", "x(x − 9)"], "correct": 0, "explain": "Konjugatsetningen: a² − b² = (a + b)(a − b)." },
-    { "id": "q06", "text": "Løs x² − 5x = 0.", "options": ["x = 5", "x = 0 eller x = 5", "x = ±√5", "x = −5"], "correct": 1, "explain": "x(x − 5) = 0, så x = 0 eller x = 5." },
-    { "id": "q07", "text": "Løs ulikheten x² − 5x + 6 < 0.", "options": ["x < 2 eller x > 3", "x > 3", "2 < x < 3", "x < 2"], "correct": 2, "explain": "(x − 2)(x − 3) er negativ mellom nullpunktene." },
-    { "id": "q08", "text": "Hvordan ser grafen til f(x) = −x² + 4x ut?", "options": ["En rett linje", "En parabel med bunnpunkt", "En hyperbel", "En parabel med toppunkt"], "correct": 3, "explain": "a = −1 < 0 gir toppunkt." },
-    { "id": "q09", "text": "Hva er symmetrilinjen til f(x) = x² − 6x + 5?", "options": ["x = 3", "x = −3", "x = 6", "x = 5"], "correct": 0, "explain": "x = −b/(2a) = 6/2 = 3." },
-    { "id": "q10", "text": "Hvor mange løsninger har x² + 4x + 4 = 0?", "options": ["Ingen", "Én", "To", "Tre"], "correct": 1, "explain": "D = 16 − 16 = 0, og løsningen er x = −2." }
+    {
+      "id": "q01",
+      "text": "Hva er (x + 3)²?",
+      "options": [
+        "x² + 9",
+        "x² + 6x + 9",
+        "x² + 3x + 9",
+        "2x + 6"
+      ],
+      "correct": 1,
+      "explain": "Første kvadratsetning: x² + 2 · 3 · x + 3²."
+    },
+    {
+      "id": "q02",
+      "text": "Løs x² − 5x + 6 = 0.",
+      "options": [
+        "x = 2 eller x = 3",
+        "x = −2 eller x = −3",
+        "x = 1 eller x = 6",
+        "x = 5 eller x = 6"
+      ],
+      "correct": 0,
+      "explain": "abc-formelen gir (5 ± 1)/2."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er diskriminanten?",
+      "options": [
+        "−b/(2a)",
+        "b² + 4ac",
+        "b² − 4ac",
+        "√(b² − 4ac)/(2a)"
+      ],
+      "correct": 2,
+      "explain": "Diskriminanten er uttrykket under rottegnet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr det at diskriminanten er negativ?",
+      "options": [
+        "To løsninger",
+        "Én løsning",
+        "Uendelig mange løsninger",
+        "Ingen reelle løsninger"
+      ],
+      "correct": 3,
+      "explain": "Vi kan ikke ta kvadratroten av et negativt tall."
+    },
+    {
+      "id": "q05",
+      "text": "Faktoriser x² − 9.",
+      "options": [
+        "(x − 3)(x + 3)",
+        "(x − 3)²",
+        "(x − 9)(x + 1)",
+        "x(x − 9)"
+      ],
+      "correct": 0,
+      "explain": "Konjugatsetningen: a² − b² = (a + b)(a − b)."
+    },
+    {
+      "id": "q06",
+      "text": "Løs x² − 5x = 0.",
+      "options": [
+        "x = 5",
+        "x = 0 eller x = 5",
+        "x = ±√5",
+        "x = −5"
+      ],
+      "correct": 1,
+      "explain": "x(x − 5) = 0, så x = 0 eller x = 5."
+    },
+    {
+      "id": "q07",
+      "text": "Løs ulikheten x² − 5x + 6 < 0.",
+      "options": [
+        "x < 2 eller x > 3",
+        "x > 3",
+        "2 < x < 3",
+        "x < 2"
+      ],
+      "correct": 2,
+      "explain": "(x − 2)(x − 3) er negativ mellom nullpunktene."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan ser grafen til f(x) = −x² + 4x ut?",
+      "options": [
+        "En rett linje",
+        "En parabel med bunnpunkt",
+        "En hyperbel",
+        "En parabel med toppunkt"
+      ],
+      "correct": 3,
+      "explain": "a = −1 < 0 gir toppunkt."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er symmetrilinjen til f(x) = x² − 6x + 5?",
+      "options": [
+        "x = 3",
+        "x = −3",
+        "x = 6",
+        "x = 5"
+      ],
+      "correct": 0,
+      "explain": "x = −b/(2a) = 6/2 = 3."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor mange løsninger har x² + 4x + 4 = 0?",
+      "options": [
+        "Ingen",
+        "Én",
+        "To",
+        "Tre"
+      ],
+      "correct": 1,
+      "explain": "D = 16 − 16 = 0, og løsningen er x = −2."
+    }
   ],
   "mindmap": {
     "label": "Andregradslikninger",
     "children": [
-      { "label": "Kvadratsetningene", "children": [
-        { "label": "(a + b)²" },
-        { "label": "(a − b)²" },
-        { "label": "Konjugatsetningen" }
-      ] },
-      { "label": "Løse likninger", "children": [
-        { "label": "Spesialtilfeller" },
-        { "label": "abc-formelen" },
-        { "label": "Fullstendige kvadrater" }
-      ] },
-      { "label": "Diskriminanten", "children": [
-        { "label": "D > 0: to" },
-        { "label": "D = 0: én" },
-        { "label": "D < 0: ingen" }
-      ] },
-      { "label": "Parabelen", "children": [
-        { "label": "a > 0: bunnpunkt" },
-        { "label": "a < 0: toppunkt" },
-        { "label": "Symmetrilinje" }
-      ] },
-      { "label": "Ulikheter", "children": [
-        { "label": "Faktorisere" },
-        { "label": "Fortegnsskjema" },
-        { "label": "Grafisk" }
-      ] }
+      {
+        "label": "Kvadratsetningene",
+        "children": [
+          {
+            "label": "(a + b)²"
+          },
+          {
+            "label": "(a − b)²"
+          },
+          {
+            "label": "Konjugatsetningen"
+          }
+        ]
+      },
+      {
+        "label": "Løse likninger",
+        "children": [
+          {
+            "label": "Spesialtilfeller"
+          },
+          {
+            "label": "abc-formelen"
+          },
+          {
+            "label": "Fullstendige kvadrater"
+          }
+        ]
+      },
+      {
+        "label": "Diskriminanten",
+        "children": [
+          {
+            "label": "D > 0: to"
+          },
+          {
+            "label": "D = 0: én"
+          },
+          {
+            "label": "D < 0: ingen"
+          }
+        ]
+      },
+      {
+        "label": "Parabelen",
+        "children": [
+          {
+            "label": "a > 0: bunnpunkt"
+          },
+          {
+            "label": "a < 0: toppunkt"
+          },
+          {
+            "label": "Symmetrilinje"
+          }
+        ]
+      },
+      {
+        "label": "Ulikheter",
+        "children": [
+          {
+            "label": "Faktorisere"
+          },
+          {
+            "label": "Fortegnsskjema"
+          },
+          {
+            "label": "Grafisk"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "(a − b)² = a² − 2ab + b²", "correct": true, "explain": "Andre kvadratsetning." },
-      { "id": "m02", "type": "sant-usant", "text": "(a + b)² = a² + b²", "correct": false, "explain": "Det mangler leddet 2ab." },
-      { "id": "m03", "type": "sant-usant", "text": "En andregradslikning kan ha to løsninger.", "correct": true, "explain": "Det skjer når diskriminanten er positiv." },
-      { "id": "m04", "type": "sant-usant", "text": "Hvis a > 0 i f(x) = ax² + bx + c, har parabelen et toppunkt.", "correct": false, "explain": "Da har parabelen et bunnpunkt." },
-      { "id": "m05", "type": "flervalg", "text": "Løs x² = 16.", "options": ["x = 4", "x = 8", "x = ±4", "x = 256"], "correct": 2, "explain": "Både 4² og (−4)² er 16." },
-      { "id": "m06", "type": "flervalg", "text": "Hvordan skrives x² + 6x + 5 med fullstendig kvadrat?", "options": ["(x + 3)² − 4", "(x + 3)² + 5", "(x + 6)² − 31", "(x − 3)² + 4"], "correct": 0, "explain": "(x + 3)² = x² + 6x + 9, og 9 − 4 = 5." },
-      { "id": "m07", "type": "flervalg", "text": "Faktoriser x² − 5x + 6.", "options": ["(x + 2)(x + 3)", "(x − 1)(x − 6)", "(x + 1)(x − 6)", "(x − 2)(x − 3)"], "correct": 3, "explain": "Nullpunktene er 2 og 3." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "(a − b)² = a² − 2ab + b²",
+        "correct": true,
+        "explain": "Andre kvadratsetning."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "(a + b)² = a² + b²",
+        "correct": false,
+        "explain": "Det mangler leddet 2ab."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En andregradslikning kan ha to løsninger.",
+        "correct": true,
+        "explain": "Det skjer når diskriminanten er positiv."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Hvis a > 0 i f(x) = ax² + bx + c, har parabelen et toppunkt.",
+        "correct": false,
+        "explain": "Da har parabelen et bunnpunkt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Løs x² = 16.",
+        "options": [
+          "x = 4",
+          "x = 8",
+          "x = ±4",
+          "x = 256"
+        ],
+        "correct": 2,
+        "explain": "Både 4² og (−4)² er 16."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvordan skrives x² + 6x + 5 med fullstendig kvadrat?",
+        "options": [
+          "(x + 3)² − 4",
+          "(x + 3)² + 5",
+          "(x + 6)² − 31",
+          "(x − 3)² + 4"
+        ],
+        "correct": 0,
+        "explain": "(x + 3)² = x² + 6x + 9, og 9 − 4 = 5."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Faktoriser x² − 5x + 6.",
+        "options": [
+          "(x + 2)(x + 3)",
+          "(x − 1)(x − 6)",
+          "(x + 1)(x − 6)",
+          "(x − 2)(x − 3)"
+        ],
+        "correct": 3,
+        "explain": "Nullpunktene er 2 og 3."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva kjennetegner en andregradslikning? Forklar hvilken form den kan skrives på, og hvorfor koeffisienten foran x² ikke kan være null.",
+        "fasit": "En andregradslikning kan skrives som ax² + bx + c = 0. Koeffisienten a må være ulik null, ellers er det ikke et andregradsledd.",
+        "kriterier": [
+          "Oppgir formen ax² + bx + c = 0.",
+          "Forklarer at a ≠ 0 fordi x²-leddet må være med."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Utvid (x − 3)² ved hjelp av andre kvadratsetning.",
+        "fasit": "Andre kvadratsetning gir (x − 3)² = x² − 2 · x · 3 + 3² = x² − 6x + 9.",
+        "kriterier": [
+          "Får med mellomleddet −6x.",
+          "Får med x² og konstantleddet 9."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Løs likningen x² = 16. Vis det viktigste steget som gir løsningene.",
+        "fasit": "Når x² = 16, er x lik enten 4 eller −4. Derfor er løsningene x = ±4.",
+        "kriterier": [
+          "Får med begge løsningene, 4 og −4.",
+          "Viser at både positiv og negativ verdi gir kvadratet 16."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan diskriminanten D = b² − 4ac forteller hvor mange reelle løsninger en andregradslikning har.",
+        "fasit": "Når D > 0, har likningen to reelle løsninger. Når D = 0, har den én, og når D < 0, har den ingen reelle løsninger.",
+        "kriterier": [
+          "Knytter D > 0 til to løsninger og D = 0 til én løsning.",
+          "Knytter D < 0 til ingen reelle løsninger."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Skriv x² + 6x + 5 som et fullstendig kvadrat pluss eller minus et tall. Bruk omskrivingen til å finne bunnpunktet til parabelen.",
+        "fasit": "x² + 6x + 5 = (x + 3)² − 4. Siden kvadratet er minst null, er bunnpunktet (−3, −4).",
+        "kriterier": [
+          "Skriver uttrykket som (x + 3)² − 4.",
+          "Finner bunnpunktet (−3, −4)."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En andregradslikning har løsningene x₁ og x₂. Skriv hvordan uttrykket på venstre side kan faktoriseres, og forklar hvordan faktorene henger sammen med løsningene.",
+        "fasit": "Uttrykket kan faktoriseres som a(x − x₁)(x − x₂). Når x er lik x₁ eller x₂, blir en av faktorene null.",
+        "kriterier": [
+          "Oppgir faktoriseringen a(x − x₁)(x − x₂).",
+          "Forklarer at hver løsning gjør en av faktorene null."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "For en andregradsfunksjon f(x) forklarer du hva et nullpunkt er, og hvordan nullpunktene henger sammen med grafen og likningen f(x) = 0.",
+        "fasit": "Et nullpunkt er en x-verdi som gjør f(x) = 0. På grafen er nullpunktet der parabelen treffer x-aksen.",
+        "kriterier": [
+          "Forklarer at nullpunktet er en løsning av f(x) = 0.",
+          "Knytter nullpunktet til stedet der grafen treffer x-aksen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvordan et fortegnsskjema kan brukes til å løse en faktorisert andregradsulikhet, og hvordan løsningen kan leses av på grafen.",
+        "fasit": "I et fortegnsskjema finner vi hvor faktorene skifter fortegn, og avgjør deretter hvor produktet har fortegnet ulikheten krever. På grafen betyr en negativ verdi at parabelen ligger under x-aksen, og en positiv verdi at den ligger over.",
+        "kriterier": [
+          "Forklarer at faktorfortegnene brukes til å finne fortegnet til produktet i intervallene.",
+          "Knytter løsningene til hvor parabelen ligger over eller under x-aksen, etter ulikhetstegnet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

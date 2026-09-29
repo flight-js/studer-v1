@@ -4,79 +4,428 @@
   "trinnId": "vg1",
   "name": "Bevis, algoritmisk tenkning og programmering",
   "intro": "Hva et matematisk bevis er, direkte bevis og moteksempler, implikasjon og ekvivalens, algoritmisk tenkning og hvordan du bruker programmering i Python til å løse matematiske problemer.",
-  "kompetansemaal": [2, 1],
+  "kompetansemaal": [
+    2,
+    1
+  ],
   "sammendrag": "## Hva er et bevis?\n\nEt **matematisk bevis** er en logisk argumentasjon som viser at en påstand er sann i **alle** tilfeller. Å prøve mange eksempler er ikke nok – det kan finnes et tilfelle vi ikke har testet. Men **ett moteksempel** er nok til å vise at en påstand er **usann**.\n\n## Direkte bevis\n\n**Påstand**: Summen av to partall er et partall.\n\n**Bevis**: Et partall kan skrives 2m, der m er et helt tall. Da er 2m + 2n = 2(m + n), som er delelig med 2. ∎\n\n**Påstand**: Summen av tre påfølgende hele tall er delelig med 3.\n\n**Bevis**: Tallene er n, n + 1 og n + 2. Summen er 3n + 3 = 3(n + 1). ∎\n\n**Påstand**: (a + b)² = a² + 2ab + b².\n\n**Bevis**: (a + b)² = (a + b)(a + b) = a² + ab + ba + b² = a² + 2ab + b². ∎ Kvadratsetningen kan også bevises **geometrisk** ved å dele et kvadrat med side a + b i fire rektangler.\n\n## Moteksempel\n\n«Alle primtall er odde» er **usant**: 2 er et primtall og er et partall.\n\n«n² + n + 41 er et primtall for alle naturlige tall n» stemmer for mange n, men er usant for n = 40: 40² + 40 + 41 = 41².\n\n## Implikasjon og ekvivalens\n\n- **Implikasjon** (⇒): «Hvis A, så B.» x = 2 ⇒ x² = 4.\n- Det motsatte gjelder ikke nødvendigvis: x² = 4 ⇒ x = 2 eller x = −2.\n- **Ekvivalens** (⇔): A og B følger av hverandre. x + 3 = 5 ⇔ x = 2.\n\nNår vi løser likninger, må hvert steg helst være en ekvivalens, ellers kan vi miste eller få falske løsninger.\n\n## Algoritmisk tenkning\n\n**Algoritmisk tenkning** handler om å løse problemer på en systematisk måte:\n\n- **Dekomponering** – dele problemet i mindre deler\n- **Mønstergjenkjenning** – se likheter med kjente problemer\n- **Abstraksjon** – se bort fra unødvendige detaljer\n- **Algoritme** – en trinnvis oppskrift som alltid fører fram\n\n## Programmering i Python\n\nNyttige byggesteiner:\n\n- **Variabler**: belop = 10000\n- **while-løkke**: gjentar så lenge en betingelse er sann\n- **for-løkke**: for i in range(1, 11) gjentar for i = 1, …, 10\n- **if** – velger mellom handlinger\n- **def** – lager egne funksjoner\n\n**Eksempel – doblingstid**: Hvor mange år tar det før 10 000 kr blir 20 000 kr med 5 % rente? Programmet starter med belop = 10000 og ar = 0. Så lenge belop < 20000, ganger det belop med 1.05 og legger 1 til ar. Til slutt skrives ar ut: **15 år**.\n\n**Eksempel – halveringsmetoden**: For å finne et nullpunkt til f starter vi med et intervall [a, b] der f(a) og f(b) har **ulike fortegn**. Vi regner ut midtpunktet m. Har f(m) samme fortegn som f(a), erstatter vi a med m, ellers b med m. Gjentar vi dette, blir intervallet halvert hver gang, og vi nærmer oss nullpunktet så nøyaktig vi vil.\n\n## Problemløsningsstrategier\n\nTegn figur, prøv enklere tilfeller, let etter mønstre, arbeid baklengs, prøv systematisk – og bruk digitale verktøy når det er nyttig.",
   "flashcards": [
-    { "term": "Matematisk bevis", "def": "Logisk argumentasjon som viser at en påstand gjelder i alle tilfeller." },
-    { "term": "Moteksempel", "def": "Ett eksempel som viser at en påstand er usann." },
-    { "term": "Direkte bevis", "def": "Bevis som går fra kjente fakta til påstanden i logiske steg." },
-    { "term": "Partall", "def": "Tall som kan skrives 2m, der m er et helt tall." },
-    { "term": "Oddetall", "def": "Tall som kan skrives 2m + 1." },
-    { "term": "∎", "def": "Symbol som markerer at et bevis er ferdig." },
-    { "term": "Implikasjon ⇒", "def": "«Hvis A, så B.»" },
-    { "term": "Ekvivalens ⇔", "def": "A og B følger av hverandre." },
-    { "term": "Algoritme", "def": "Trinnvis oppskrift som løser et problem." },
-    { "term": "Dekomponering", "def": "Å dele et problem i mindre deler." },
-    { "term": "Abstraksjon", "def": "Å se bort fra unødvendige detaljer." },
-    { "term": "while-løkke", "def": "Gjentar kode så lenge en betingelse er sann." },
-    { "term": "for-løkke", "def": "Gjentar kode et bestemt antall ganger." },
-    { "term": "Halveringsmetoden", "def": "Finner nullpunkt ved å halvere et intervall med fortegnsskifte." },
-    { "term": "def i Python", "def": "Lager en egen funksjon." }
+    {
+      "term": "Matematisk bevis",
+      "def": "Logisk argumentasjon som viser at en påstand gjelder i alle tilfeller."
+    },
+    {
+      "term": "Moteksempel",
+      "def": "Ett eksempel som viser at en påstand er usann."
+    },
+    {
+      "term": "Direkte bevis",
+      "def": "Bevis som går fra kjente fakta til påstanden i logiske steg."
+    },
+    {
+      "term": "Partall",
+      "def": "Tall som kan skrives 2m, der m er et helt tall."
+    },
+    {
+      "term": "Oddetall",
+      "def": "Tall som kan skrives 2m + 1."
+    },
+    {
+      "term": "∎",
+      "def": "Symbol som markerer at et bevis er ferdig."
+    },
+    {
+      "term": "Implikasjon ⇒",
+      "def": "«Hvis A, så B.»"
+    },
+    {
+      "term": "Ekvivalens ⇔",
+      "def": "A og B følger av hverandre."
+    },
+    {
+      "term": "Algoritme",
+      "def": "Trinnvis oppskrift som løser et problem."
+    },
+    {
+      "term": "Dekomponering",
+      "def": "Å dele et problem i mindre deler."
+    },
+    {
+      "term": "Abstraksjon",
+      "def": "Å se bort fra unødvendige detaljer."
+    },
+    {
+      "term": "while-løkke",
+      "def": "Gjentar kode så lenge en betingelse er sann."
+    },
+    {
+      "term": "for-løkke",
+      "def": "Gjentar kode et bestemt antall ganger."
+    },
+    {
+      "term": "Halveringsmetoden",
+      "def": "Finner nullpunkt ved å halvere et intervall med fortegnsskifte."
+    },
+    {
+      "term": "def i Python",
+      "def": "Lager en egen funksjon."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvorfor er det ikke nok å teste mange eksempler for å bevise en påstand?", "options": ["Fordi eksempler alltid er feil", "Fordi det kan finnes et tilfelle vi ikke har testet", "Fordi det tar for lang tid", "Det er nok"], "correct": 1, "explain": "Et bevis må gjelde alle tilfeller." },
-    { "id": "q02", "text": "Hva er et moteksempel?", "options": ["Ett eksempel som viser at en påstand er usann", "Et eksempel som støtter påstanden", "Et bevis", "En definisjon"], "correct": 0, "explain": "Ett moteksempel er nok til å motbevise en generell påstand." },
-    { "id": "q03", "text": "Hvordan kan et partall skrives generelt?", "options": ["2m + 1", "m²", "2m", "m + 2"], "correct": 2, "explain": "m er et helt tall." },
-    { "id": "q04", "text": "Hvorfor er summen av tre påfølgende hele tall delelig med 3?", "options": ["Fordi tallene alltid er odde", "Fordi det stemmer for 1, 2, 3", "Fordi summen alltid er 6", "Fordi n + (n + 1) + (n + 2) = 3(n + 1)"], "correct": 3, "explain": "Summen har 3 som faktor." },
-    { "id": "q05", "text": "Hva er et moteksempel til påstanden «alle primtall er odde»?", "options": ["2", "3", "9", "15"], "correct": 0, "explain": "2 er et primtall og et partall." },
-    { "id": "q06", "text": "Hvilken påstand er en ekvivalens?", "options": ["x = 2 ⇔ x² = 4", "x + 3 = 5 ⇔ x = 2", "x > 0 ⇔ x = 1", "x² = 9 ⇔ x = 3"], "correct": 1, "explain": "De andre mangler løsninger eller er feil den ene veien." },
-    { "id": "q07", "text": "Hva gjør en while-løkke i Python?", "options": ["Kjører koden én gang", "Lager en funksjon", "Gjentar koden så lenge en betingelse er sann", "Skriver ut tekst"], "correct": 2, "explain": "Den passer når vi ikke vet hvor mange ganger koden skal kjøres." },
-    { "id": "q08", "text": "Hva er en algoritme?", "options": ["Et dataprogram", "Et bevis", "En type likning", "En trinnvis oppskrift som løser et problem"], "correct": 3, "explain": "Algoritmer kan følges av mennesker eller datamaskiner." },
-    { "id": "q09", "text": "Hvor mange år tar det før 10 000 kr blir minst 20 000 kr med 5 % årlig rente?", "options": ["15 år", "20 år", "10 år", "14 år"], "correct": 0, "explain": "1,05¹⁴ ≈ 1,98 og 1,05¹⁵ ≈ 2,08." },
-    { "id": "q10", "text": "Hva forutsetter halveringsmetoden?", "options": ["At funksjonen er lineær", "At f(a) og f(b) har ulike fortegn", "At nullpunktet er et helt tall", "At intervallet er lengre enn 10"], "correct": 1, "explain": "Da må grafen krysse x-aksen mellom a og b, når funksjonen er kontinuerlig." }
+    {
+      "id": "q01",
+      "text": "Hvorfor er det ikke nok å teste mange eksempler for å bevise en påstand?",
+      "options": [
+        "Fordi eksempler alltid er feil",
+        "Fordi det kan finnes et tilfelle vi ikke har testet",
+        "Fordi det tar for lang tid",
+        "Det er nok"
+      ],
+      "correct": 1,
+      "explain": "Et bevis må gjelde alle tilfeller."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er et moteksempel?",
+      "options": [
+        "Ett eksempel som viser at en påstand er usann",
+        "Et eksempel som støtter påstanden",
+        "Et bevis",
+        "En definisjon"
+      ],
+      "correct": 0,
+      "explain": "Ett moteksempel er nok til å motbevise en generell påstand."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan kan et partall skrives generelt?",
+      "options": [
+        "2m + 1",
+        "m²",
+        "2m",
+        "m + 2"
+      ],
+      "correct": 2,
+      "explain": "m er et helt tall."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor er summen av tre påfølgende hele tall delelig med 3?",
+      "options": [
+        "Fordi tallene alltid er odde",
+        "Fordi det stemmer for 1, 2, 3",
+        "Fordi summen alltid er 6",
+        "Fordi n + (n + 1) + (n + 2) = 3(n + 1)"
+      ],
+      "correct": 3,
+      "explain": "Summen har 3 som faktor."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er et moteksempel til påstanden «alle primtall er odde»?",
+      "options": [
+        "2",
+        "3",
+        "9",
+        "15"
+      ],
+      "correct": 0,
+      "explain": "2 er et primtall og et partall."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken påstand er en ekvivalens?",
+      "options": [
+        "x = 2 ⇔ x² = 4",
+        "x + 3 = 5 ⇔ x = 2",
+        "x > 0 ⇔ x = 1",
+        "x² = 9 ⇔ x = 3"
+      ],
+      "correct": 1,
+      "explain": "De andre mangler løsninger eller er feil den ene veien."
+    },
+    {
+      "id": "q07",
+      "text": "Hva gjør en while-løkke i Python?",
+      "options": [
+        "Kjører koden én gang",
+        "Lager en funksjon",
+        "Gjentar koden så lenge en betingelse er sann",
+        "Skriver ut tekst"
+      ],
+      "correct": 2,
+      "explain": "Den passer når vi ikke vet hvor mange ganger koden skal kjøres."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en algoritme?",
+      "options": [
+        "Et dataprogram",
+        "Et bevis",
+        "En type likning",
+        "En trinnvis oppskrift som løser et problem"
+      ],
+      "correct": 3,
+      "explain": "Algoritmer kan følges av mennesker eller datamaskiner."
+    },
+    {
+      "id": "q09",
+      "text": "Hvor mange år tar det før 10 000 kr blir minst 20 000 kr med 5 % årlig rente?",
+      "options": [
+        "15 år",
+        "20 år",
+        "10 år",
+        "14 år"
+      ],
+      "correct": 0,
+      "explain": "1,05¹⁴ ≈ 1,98 og 1,05¹⁵ ≈ 2,08."
+    },
+    {
+      "id": "q10",
+      "text": "Hva forutsetter halveringsmetoden?",
+      "options": [
+        "At funksjonen er lineær",
+        "At f(a) og f(b) har ulike fortegn",
+        "At nullpunktet er et helt tall",
+        "At intervallet er lengre enn 10"
+      ],
+      "correct": 1,
+      "explain": "Da må grafen krysse x-aksen mellom a og b, når funksjonen er kontinuerlig."
+    }
   ],
   "mindmap": {
     "label": "Bevis og programmering",
     "children": [
-      { "label": "Bevis", "children": [
-        { "label": "Gjelder alle tilfeller" },
-        { "label": "Direkte bevis" },
-        { "label": "Geometrisk bevis" }
-      ] },
-      { "label": "Motbevis", "children": [
-        { "label": "Moteksempel" },
-        { "label": "n² + n + 41" }
-      ] },
-      { "label": "Logikk", "children": [
-        { "label": "Implikasjon ⇒" },
-        { "label": "Ekvivalens ⇔" }
-      ] },
-      { "label": "Algoritmisk tenkning", "children": [
-        { "label": "Dekomponering" },
-        { "label": "Mønstre" },
-        { "label": "Abstraksjon" },
-        { "label": "Algoritme" }
-      ] },
-      { "label": "Python", "children": [
-        { "label": "while og for" },
-        { "label": "if og def" },
-        { "label": "Doblingstid" },
-        { "label": "Halveringsmetoden" }
-      ] }
+      {
+        "label": "Bevis",
+        "children": [
+          {
+            "label": "Gjelder alle tilfeller"
+          },
+          {
+            "label": "Direkte bevis"
+          },
+          {
+            "label": "Geometrisk bevis"
+          }
+        ]
+      },
+      {
+        "label": "Motbevis",
+        "children": [
+          {
+            "label": "Moteksempel"
+          },
+          {
+            "label": "n² + n + 41"
+          }
+        ]
+      },
+      {
+        "label": "Logikk",
+        "children": [
+          {
+            "label": "Implikasjon ⇒"
+          },
+          {
+            "label": "Ekvivalens ⇔"
+          }
+        ]
+      },
+      {
+        "label": "Algoritmisk tenkning",
+        "children": [
+          {
+            "label": "Dekomponering"
+          },
+          {
+            "label": "Mønstre"
+          },
+          {
+            "label": "Abstraksjon"
+          },
+          {
+            "label": "Algoritme"
+          }
+        ]
+      },
+      {
+        "label": "Python",
+        "children": [
+          {
+            "label": "while og for"
+          },
+          {
+            "label": "if og def"
+          },
+          {
+            "label": "Doblingstid"
+          },
+          {
+            "label": "Halveringsmetoden"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Summen av to partall er alltid et partall.", "correct": true, "explain": "2m + 2n = 2(m + n)." },
-      { "id": "m02", "type": "sant-usant", "text": "Hvis en påstand stemmer for de ti første tallene, er den bevist.", "correct": false, "explain": "Det kan finnes moteksempler senere." },
-      { "id": "m03", "type": "sant-usant", "text": "Et oddetall kan skrives 2m + 1.", "correct": true, "explain": "m er et helt tall." },
-      { "id": "m04", "type": "sant-usant", "text": "x² = 4 ⇒ x = 2 er en riktig implikasjon.", "correct": false, "explain": "x kan også være −2." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilke verdier får i i for i in range(1, 4)?", "options": ["1, 2, 3, 4", "1, 2, 3", "0, 1, 2, 3", "1 og 4"], "correct": 1, "explain": "Det siste tallet i range er ikke med." },
-      { "id": "m06", "type": "flervalg", "text": "Hva betyr dekomponering?", "options": ["Å dele et problem i mindre deler", "Å slette kode", "Å gjette et svar", "Å tegne en graf"], "correct": 0, "explain": "Mindre deler er lettere å løse hver for seg." },
-      { "id": "m07", "type": "flervalg", "text": "For hvilken n gir n² + n + 41 ikke et primtall?", "options": ["n = 1", "n = 10", "n = 40", "n = 5"], "correct": 2, "explain": "40² + 40 + 41 = 1681 = 41²." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Summen av to partall er alltid et partall.",
+        "correct": true,
+        "explain": "2m + 2n = 2(m + n)."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Hvis en påstand stemmer for de ti første tallene, er den bevist.",
+        "correct": false,
+        "explain": "Det kan finnes moteksempler senere."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Et oddetall kan skrives 2m + 1.",
+        "correct": true,
+        "explain": "m er et helt tall."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "x² = 4 ⇒ x = 2 er en riktig implikasjon.",
+        "correct": false,
+        "explain": "x kan også være −2."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilke verdier får i i for i in range(1, 4)?",
+        "options": [
+          "1, 2, 3, 4",
+          "1, 2, 3",
+          "0, 1, 2, 3",
+          "1 og 4"
+        ],
+        "correct": 1,
+        "explain": "Det siste tallet i range er ikke med."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr dekomponering?",
+        "options": [
+          "Å dele et problem i mindre deler",
+          "Å slette kode",
+          "Å gjette et svar",
+          "Å tegne en graf"
+        ],
+        "correct": 0,
+        "explain": "Mindre deler er lettere å løse hver for seg."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "For hvilken n gir n² + n + 41 ikke et primtall?",
+        "options": [
+          "n = 1",
+          "n = 10",
+          "n = 40",
+          "n = 5"
+        ],
+        "correct": 2,
+        "explain": "40² + 40 + 41 = 1681 = 41²."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "La to partall være skrevet som 2m og 2n, der m og n er heltall. Vis med et direkte bevis at summen deres er et partall.",
+        "fasit": "Summen er 2m + 2n = 2(m + n). Siden m + n er et helt tall, er summen delelig med 2 og dermed et partall.",
+        "kriterier": [
+          "Skriver summen som 2m + 2n = 2(m + n).",
+          "Forklarer at uttrykket er delelig med 2, eller at m + n er et helt tall."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Undersøk påstanden «n² + n + 41 er et primtall for alle naturlige tall n» ved å bruke n = 40. Regn ut uttrykket og forklar hvorfor resultatet viser at påstanden er usann.",
+        "fasit": "Når n = 40, får vi 40² + 40 + 41 = 1600 + 81 = 1681 = 41². Dette er ikke et primtall, så n = 40 er et moteksempel.",
+        "kriterier": [
+          "Regner ut uttrykket til 1681 eller 41².",
+          "Forklarer at resultatet ikke er et primtall, slik at n = 40 motbeviser påstanden."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Utvid (a + b)² ved å bruke distributiv lov. Vis de viktigste mellomstegene fram til uttrykket a² + 2ab + b².",
+        "fasit": "(a + b)² = (a + b)(a + b) = a² + ab + ba + b². Siden ab + ba = 2ab, blir uttrykket a² + 2ab + b².",
+        "kriterier": [
+          "Skriver (a + b)(a + b) og ganger leddene sammen.",
+          "Samler ab og ba til 2ab."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign et direkte algebraisk bevis av (a + b)² = a² + 2ab + b² med et geometrisk bevis av samme identitet. Hva gjør man i hver metode?",
+        "fasit": "I et direkte bevis utvider vi (a + b)(a + b) og samler leddene. I et geometrisk bevis deler vi et kvadrat med side a + b i fire rektangler.",
+        "kriterier": [
+          "Beskriver at det direkte beviset bruker algebraisk utvidelse og samling av ledd.",
+          "Beskriver at det geometriske beviset deler kvadratet i fire rektangler."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "For x = 2 gjelder x² = 4. Forklar hvorfor dette viser en implikasjon, men ikke en ekvivalens mellom x = 2 og x² = 4.",
+        "fasit": "Hvis x = 2, følger det at x² = 4. Men x² = 4 kan også bety at x = −2, så x² = 4 fører ikke alltid tilbake til x = 2.",
+        "kriterier": [
+          "Forklarer at x = 2 gir x² = 4.",
+          "Nevner at x = −2 også gir x² = 4, slik at påstandene ikke følger av hverandre begge veier."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En elev deler et problem i mindre deler og ser bort fra detaljer som ikke påvirker løsningen. Hvilken del av dette er dekomponering, og hvilken del er abstraksjon? Forklar forskjellen.",
+        "fasit": "Å dele problemet i mindre deler er dekomponering. Å se bort fra detaljer som ikke påvirker løsningen, er abstraksjon.",
+        "kriterier": [
+          "Knytter det å dele problemet i mindre deler til dekomponering.",
+          "Knytter det å se bort fra unødvendige detaljer til abstraksjon."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "I Python står det `for i in range(1, 11)`. Hvor mange ganger gjentas løkken, og hvilke verdier får i? Forklar hvordan du finner svaret.",
+        "fasit": "Løkken gjentas 10 ganger, og i får verdiene 1, 2, …, 10. `range(1, 11)` tar med 1, men ikke 11.",
+        "kriterier": [
+          "Oppgir at løkken gjentas 10 ganger.",
+          "Oppgir at i går fra 1 til 10, eller forklarer at 11 ikke tas med."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "I halveringsmetoden har f(a) og f(b) ulike fortegn. Midtpunktet m får samme fortegn som f(a). Hvilket intervall bruker metoden videre, og hvorfor?",
+        "fasit": "Metoden bruker intervallet [m, b], altså erstatter den a med m. Da har f(m) og f(b) fortsatt ulike fortegn.",
+        "kriterier": [
+          "Oppgir at a erstattes med m, slik at det nye intervallet er [m, b].",
+          "Forklarer at endepunktene i det nye intervallet fortsatt gir fortegnsskifte."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

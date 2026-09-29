@@ -4,76 +4,418 @@
   "trinnId": "vg3",
   "name": "Samspillet mellom biologi, psykologi og sosiale forhold",
   "intro": "Hvordan biologiske, psykologiske og sosiale faktorer virker sammen i utviklingen av god psykisk helse og av psykiske vansker – den biopsykososiale modellen, sårbarhet-stress-modellen, risiko- og beskyttende faktorer, negative barndomserfaringer og epigenetikk – med depresjon og søvn som eksempler.",
-  "kompetansemaal": [11],
+  "kompetansemaal": [
+    11
+  ],
   "sammendrag": "## Den biopsykososiale modellen\n\nDen amerikanske psykiateren **George Engel** lanserte i **1977** den **biopsykososiale modellen**. Den sier at helse og sykdom må forstås som et **samspill** mellom\n\n- **biologiske** faktorer: gener, hjerne, hormoner, søvn, kosthold, fysisk helse og rusmidler\n- **psykologiske** faktorer: tankemønstre, følelser, **mestringstro**, personlighet og tidligere erfaringer\n- **sosiale** faktorer: familie, venner, skole, arbeid, økonomi, kultur og diskriminering\n\nModellen var et svar på en ensidig **biomedisinsk** forståelse der sykdom bare ble sett som noe i kroppen.\n\n## Sårbarhet-stress-modellen\n\n**Sårbarhet-stress-modellen** forklarer hvorfor noen utvikler psykiske lidelser og andre ikke:\n\n- Alle har en viss **sårbarhet** – biologisk, psykologisk eller sosial.\n- Når **stressbelastningen** blir større enn det personen tåler, kan det utløse en **lidelse**.\n- En person med **høy** sårbarhet kan bli syk av **lite** stress, mens en med **lav** sårbarhet tåler mye.\n\n## Risikofaktorer og beskyttende faktorer\n\n| Nivå | Risiko | Beskyttelse |\n|---|---|---|\n| Biologisk | arvelig sårbarhet, kronisk sykdom, lite søvn, rus | god søvn, fysisk aktivitet |\n| Psykologisk | negative tankemønstre, lav selvfølelse | mestringstro, emosjonsregulering |\n| Sosialt | mobbing, ensomhet, fattigdom, vold | støttende familie, venner, trygg skole |\n\n**Beskyttende** faktorer gjør oss mer **motstandsdyktige** – vi snakker om **resiliens**.\n\n## Eksempel: depresjon\n\n- **Biologisk**: Noen har **arvelig** sårbarhet. Langvarig stress påvirker **stresshormoner** og hjernens signalstoffer.\n- **Psykologisk**: **Negative** tankemønstre – «jeg er mislykket» – og **grubling** kan forsterke nedstemthet.\n- **Sosialt**: **Ensomhet**, **mobbing** eller et **brudd** kan utløse depresjon.\n\nFaktorene **påvirker hverandre**: Ensomhet gir negative tanker, negative tanker gir tilbaketrekning, og tilbaketrekning gir mer ensomhet – samtidig som søvn og aktivitet svekkes.\n\n## Eksempel: søvn\n\nDårlig **søvn** (biologisk) gir dårligere **humør** og **konsentrasjon** (psykologisk), som kan gi **konflikter** og dårligere skoleresultater (sosialt). **Bekymringer** og **skjermbruk** om kvelden kan igjen gi dårligere søvn. Søvn er derfor et viktig **inngangspunkt** for bedre psykisk helse.\n\n## Barndomserfaringer og epigenetikk\n\nForskning på **negative barndomserfaringer** – som vold, omsorgssvikt og rus i familien – viser at slike erfaringer henger sammen med økt risiko for psykiske og fysiske helseplager senere i livet. Langvarig stress kan påvirke **hjernens utvikling** og **stressystemet**.\n\n**Epigenetikk** viser at **miljøet** kan påvirke hvordan **gener** slås av og på. Arv og miljø er altså ikke **atskilte** – de virker **sammen**.\n\n## God psykisk helse\n\nModellen gjelder også **positiv** psykisk helse. Faktorer som fremmer god psykisk helse, er blant annet\n\n- **søvn**, **fysisk aktivitet** og **kosthold**\n- **mestring** og følelsen av å ha **kontroll**\n- **mening** og **verdier**\n- **gode relasjoner** og **tilhørighet**\n- **trygge** oppvekstvilkår og **økonomisk** trygghet\n\n## Drøfting\n\nStyrken til modellen er at den er **helhetlig** og forklarer **forskjeller** mellom mennesker. Svakheten er at den kan bli **vag**: Det er vanskelig å vite hvor **mye** hver faktor betyr. Likevel gir den et viktig budskap: **Forebygging** og **behandling** bør rette seg mot **flere nivåer** samtidig.",
   "flashcards": [
-    { "term": "Biopsykososial modell", "def": "Helse forstås som samspill mellom biologiske, psykologiske og sosiale faktorer." },
-    { "term": "George Engel", "def": "Lanserte den biopsykososiale modellen i 1977." },
-    { "term": "Biomedisinsk modell", "def": "Sykdom forstås bare som noe i kroppen." },
-    { "term": "Sårbarhet-stress-modellen", "def": "Lidelse utløses når stress overstiger det personen tåler." },
-    { "term": "Sårbarhet", "def": "Biologisk, psykologisk eller sosial disposisjon for å utvikle plager." },
-    { "term": "Risikofaktor", "def": "Øker sannsynligheten for psykiske vansker." },
-    { "term": "Beskyttende faktor", "def": "Gjør oss mer motstandsdyktige." },
-    { "term": "Resiliens", "def": "Evnen til å klare seg godt til tross for belastninger." },
-    { "term": "Mestringstro", "def": "Troen på at man kan klare en oppgave." },
-    { "term": "Grubling", "def": "Gjentatte negative tanker som kan forsterke nedstemthet." },
-    { "term": "Negative barndomserfaringer", "def": "Vold, omsorgssvikt og rus i familien – økt risiko senere." },
-    { "term": "Epigenetikk", "def": "Miljøet påvirker hvordan gener slås av og på." },
-    { "term": "Søvn som inngangspunkt", "def": "Bedre søvn kan bedre humør, konsentrasjon og relasjoner." },
-    { "term": "Ond sirkel ved depresjon", "def": "Ensomhet, negative tanker og tilbaketrekning forsterker hverandre." },
-    { "term": "Tiltak på flere nivåer", "def": "Forebygging og behandling bør rette seg mot biologi, psykologi og sosiale forhold." }
+    {
+      "term": "Biopsykososial modell",
+      "def": "Helse forstås som samspill mellom biologiske, psykologiske og sosiale faktorer."
+    },
+    {
+      "term": "George Engel",
+      "def": "Lanserte den biopsykososiale modellen i 1977."
+    },
+    {
+      "term": "Biomedisinsk modell",
+      "def": "Sykdom forstås bare som noe i kroppen."
+    },
+    {
+      "term": "Sårbarhet-stress-modellen",
+      "def": "Lidelse utløses når stress overstiger det personen tåler."
+    },
+    {
+      "term": "Sårbarhet",
+      "def": "Biologisk, psykologisk eller sosial disposisjon for å utvikle plager."
+    },
+    {
+      "term": "Risikofaktor",
+      "def": "Øker sannsynligheten for psykiske vansker."
+    },
+    {
+      "term": "Beskyttende faktor",
+      "def": "Gjør oss mer motstandsdyktige."
+    },
+    {
+      "term": "Resiliens",
+      "def": "Evnen til å klare seg godt til tross for belastninger."
+    },
+    {
+      "term": "Mestringstro",
+      "def": "Troen på at man kan klare en oppgave."
+    },
+    {
+      "term": "Grubling",
+      "def": "Gjentatte negative tanker som kan forsterke nedstemthet."
+    },
+    {
+      "term": "Negative barndomserfaringer",
+      "def": "Vold, omsorgssvikt og rus i familien – økt risiko senere."
+    },
+    {
+      "term": "Epigenetikk",
+      "def": "Miljøet påvirker hvordan gener slås av og på."
+    },
+    {
+      "term": "Søvn som inngangspunkt",
+      "def": "Bedre søvn kan bedre humør, konsentrasjon og relasjoner."
+    },
+    {
+      "term": "Ond sirkel ved depresjon",
+      "def": "Ensomhet, negative tanker og tilbaketrekning forsterker hverandre."
+    },
+    {
+      "term": "Tiltak på flere nivåer",
+      "def": "Forebygging og behandling bør rette seg mot biologi, psykologi og sosiale forhold."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hvem lanserte den biopsykososiale modellen?", "options": ["Sigmund Freud", "George Engel", "Albert Bandura", "Corey Keyes"], "correct": 1, "explain": "I 1977." },
-    { "id": "q02", "text": "Hva sier sårbarhet-stress-modellen?", "options": ["At lidelse utløses når stress overstiger det personen tåler", "At alle blir syke av stress", "At sårbarhet ikke betyr noe", "At stress alltid er positivt"], "correct": 0, "explain": "Samspill mellom sårbarhet og belastning." },
-    { "id": "q03", "text": "Hvilken faktor er psykologisk?", "options": ["Gener", "Fattigdom", "Negative tankemønstre", "Søvn"], "correct": 2, "explain": "Tanker og følelser." },
-    { "id": "q04", "text": "Hvilken faktor er en beskyttende sosial faktor?", "options": ["Mobbing", "Ensomhet", "Fattigdom", "Støttende venner"], "correct": 3, "explain": "Gir tilhørighet." },
-    { "id": "q05", "text": "Hva er resiliens?", "options": ["Evnen til å klare seg godt til tross for belastninger", "En diagnose", "En medisin", "En risikofaktor"], "correct": 0, "explain": "Motstandsdyktighet." },
-    { "id": "q06", "text": "Hva viser epigenetikk?", "options": ["At gener aldri påvirkes", "At miljøet kan påvirke hvordan gener slås av og på", "At arv er alt", "At miljø er alt"], "correct": 1, "explain": "Arv og miljø samspiller." },
-    { "id": "q07", "text": "Hvordan kan dårlig søvn påvirke sosiale forhold?", "options": ["Den gir flere venner", "Den har ingen virkning", "Dårligere humør kan gi konflikter", "Den gir bedre skoleresultater"], "correct": 2, "explain": "Nivåene påvirker hverandre." },
-    { "id": "q08", "text": "Hva er en svakhet ved den biopsykososiale modellen?", "options": ["At den er for ensidig", "At den bare ser på gener", "At den ignorerer sosiale forhold", "At det er vanskelig å vite hvor mye hver faktor betyr"], "correct": 3, "explain": "Den kan bli vag." },
-    { "id": "q09", "text": "Hva henger negative barndomserfaringer sammen med?", "options": ["Økt risiko for helseplager senere i livet", "Bedre helse", "Høyere intelligens", "Ingen ting"], "correct": 0, "explain": "Påvirker stressystemet." },
-    { "id": "q10", "text": "Hva betyr modellen for behandling?", "options": ["At bare medisiner virker", "At tiltak bør rette seg mot flere nivåer", "At samtaleterapi er unødvendig", "At sosiale forhold er uviktige"], "correct": 1, "explain": "Helhetlig tilnærming." }
+    {
+      "id": "q01",
+      "text": "Hvem lanserte den biopsykososiale modellen?",
+      "options": [
+        "Sigmund Freud",
+        "George Engel",
+        "Albert Bandura",
+        "Corey Keyes"
+      ],
+      "correct": 1,
+      "explain": "I 1977."
+    },
+    {
+      "id": "q02",
+      "text": "Hva sier sårbarhet-stress-modellen?",
+      "options": [
+        "At lidelse utløses når stress overstiger det personen tåler",
+        "At alle blir syke av stress",
+        "At sårbarhet ikke betyr noe",
+        "At stress alltid er positivt"
+      ],
+      "correct": 0,
+      "explain": "Samspill mellom sårbarhet og belastning."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken faktor er psykologisk?",
+      "options": [
+        "Gener",
+        "Fattigdom",
+        "Negative tankemønstre",
+        "Søvn"
+      ],
+      "correct": 2,
+      "explain": "Tanker og følelser."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken faktor er en beskyttende sosial faktor?",
+      "options": [
+        "Mobbing",
+        "Ensomhet",
+        "Fattigdom",
+        "Støttende venner"
+      ],
+      "correct": 3,
+      "explain": "Gir tilhørighet."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er resiliens?",
+      "options": [
+        "Evnen til å klare seg godt til tross for belastninger",
+        "En diagnose",
+        "En medisin",
+        "En risikofaktor"
+      ],
+      "correct": 0,
+      "explain": "Motstandsdyktighet."
+    },
+    {
+      "id": "q06",
+      "text": "Hva viser epigenetikk?",
+      "options": [
+        "At gener aldri påvirkes",
+        "At miljøet kan påvirke hvordan gener slås av og på",
+        "At arv er alt",
+        "At miljø er alt"
+      ],
+      "correct": 1,
+      "explain": "Arv og miljø samspiller."
+    },
+    {
+      "id": "q07",
+      "text": "Hvordan kan dårlig søvn påvirke sosiale forhold?",
+      "options": [
+        "Den gir flere venner",
+        "Den har ingen virkning",
+        "Dårligere humør kan gi konflikter",
+        "Den gir bedre skoleresultater"
+      ],
+      "correct": 2,
+      "explain": "Nivåene påvirker hverandre."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en svakhet ved den biopsykososiale modellen?",
+      "options": [
+        "At den er for ensidig",
+        "At den bare ser på gener",
+        "At den ignorerer sosiale forhold",
+        "At det er vanskelig å vite hvor mye hver faktor betyr"
+      ],
+      "correct": 3,
+      "explain": "Den kan bli vag."
+    },
+    {
+      "id": "q09",
+      "text": "Hva henger negative barndomserfaringer sammen med?",
+      "options": [
+        "Økt risiko for helseplager senere i livet",
+        "Bedre helse",
+        "Høyere intelligens",
+        "Ingen ting"
+      ],
+      "correct": 0,
+      "explain": "Påvirker stressystemet."
+    },
+    {
+      "id": "q10",
+      "text": "Hva betyr modellen for behandling?",
+      "options": [
+        "At bare medisiner virker",
+        "At tiltak bør rette seg mot flere nivåer",
+        "At samtaleterapi er unødvendig",
+        "At sosiale forhold er uviktige"
+      ],
+      "correct": 1,
+      "explain": "Helhetlig tilnærming."
+    }
   ],
   "mindmap": {
     "label": "Biopsykososial modell",
     "children": [
-      { "label": "Tre nivåer", "children": [
-        { "label": "Biologisk" },
-        { "label": "Psykologisk" },
-        { "label": "Sosialt" }
-      ] },
-      { "label": "Sårbarhet og stress", "children": [
-        { "label": "Terskel" },
-        { "label": "Resiliens" }
-      ] },
-      { "label": "Faktorer", "children": [
-        { "label": "Risikofaktorer" },
-        { "label": "Beskyttende faktorer" }
-      ] },
-      { "label": "Eksempler", "children": [
-        { "label": "Depresjon" },
-        { "label": "Søvn" },
-        { "label": "Barndomserfaringer" }
-      ] },
-      { "label": "Konsekvenser", "children": [
-        { "label": "Epigenetikk" },
-        { "label": "Tiltak på flere nivåer" }
-      ] }
+      {
+        "label": "Tre nivåer",
+        "children": [
+          {
+            "label": "Biologisk"
+          },
+          {
+            "label": "Psykologisk"
+          },
+          {
+            "label": "Sosialt"
+          }
+        ]
+      },
+      {
+        "label": "Sårbarhet og stress",
+        "children": [
+          {
+            "label": "Terskel"
+          },
+          {
+            "label": "Resiliens"
+          }
+        ]
+      },
+      {
+        "label": "Faktorer",
+        "children": [
+          {
+            "label": "Risikofaktorer"
+          },
+          {
+            "label": "Beskyttende faktorer"
+          }
+        ]
+      },
+      {
+        "label": "Eksempler",
+        "children": [
+          {
+            "label": "Depresjon"
+          },
+          {
+            "label": "Søvn"
+          },
+          {
+            "label": "Barndomserfaringer"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Epigenetikk"
+          },
+          {
+            "label": "Tiltak på flere nivåer"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "En person med høy sårbarhet kan bli syk av lite stress.", "correct": true, "explain": "Terskelen er lavere." },
-      { "id": "m02", "type": "sant-usant", "text": "Den biopsykososiale modellen gjelder bare sykdom, ikke god helse.", "correct": false, "explain": "Den gjelder også faktorer som fremmer god psykisk helse." },
-      { "id": "m03", "type": "sant-usant", "text": "Ensomhet, negative tanker og tilbaketrekning kan forsterke hverandre.", "correct": true, "explain": "En ond sirkel." },
-      { "id": "m04", "type": "sant-usant", "text": "Arv og miljø virker helt uavhengig av hverandre.", "correct": false, "explain": "De virker sammen." },
-      { "id": "m05", "type": "flervalg", "text": "Hvilken faktor fremmer god psykisk helse?", "options": ["Mobbing", "Mening og gode relasjoner", "Kronisk stress", "Lite søvn"], "correct": 1, "explain": "Også mestring og fysisk aktivitet." },
-      { "id": "m06", "type": "flervalg", "text": "Hvilken modell kritiserte Engel?", "options": ["Den ensidig biomedisinske modellen", "Den kognitive modellen", "Den humanistiske modellen", "To-kontinua-modellen"], "correct": 0, "explain": "Sykdom som bare noe i kroppen." },
-      { "id": "m07", "type": "flervalg", "text": "Hvilken faktor er biologisk?", "options": ["Diskriminering", "Selvfølelse", "Søvn", "Venner"], "correct": 2, "explain": "Kroppslige prosesser." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En person med høy sårbarhet kan bli syk av lite stress.",
+        "correct": true,
+        "explain": "Terskelen er lavere."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Den biopsykososiale modellen gjelder bare sykdom, ikke god helse.",
+        "correct": false,
+        "explain": "Den gjelder også faktorer som fremmer god psykisk helse."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Ensomhet, negative tanker og tilbaketrekning kan forsterke hverandre.",
+        "correct": true,
+        "explain": "En ond sirkel."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Arv og miljø virker helt uavhengig av hverandre.",
+        "correct": false,
+        "explain": "De virker sammen."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken faktor fremmer god psykisk helse?",
+        "options": [
+          "Mobbing",
+          "Mening og gode relasjoner",
+          "Kronisk stress",
+          "Lite søvn"
+        ],
+        "correct": 1,
+        "explain": "Også mestring og fysisk aktivitet."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken modell kritiserte Engel?",
+        "options": [
+          "Den ensidig biomedisinske modellen",
+          "Den kognitive modellen",
+          "Den humanistiske modellen",
+          "To-kontinua-modellen"
+        ],
+        "correct": 0,
+        "explain": "Sykdom som bare noe i kroppen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken faktor er biologisk?",
+        "options": [
+          "Diskriminering",
+          "Selvfølelse",
+          "Søvn",
+          "Venner"
+        ],
+        "correct": 2,
+        "explain": "Kroppslige prosesser."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En lege forklarer en persons helseplager bare med forhold i kroppen. Sammenlign dette biomedisinske perspektivet med den biopsykososiale modellen. Hvilke andre forhold tar den biopsykososiale modellen med, og hvordan ser den på forholdet mellom faktorene?",
+        "fasit": "Den biomedisinske modellen ser sykdom som noe i kroppen. Den biopsykososiale modellen tar også med psykologiske og sosiale faktorer og forklarer helse som et samspill mellom alle tre nivåene.",
+        "kriterier": [
+          "Forklarer at det biomedisinske perspektivet begrenser forklaringen til kroppen.",
+          "Får fram at den biopsykososiale modellen inkluderer biologiske, psykologiske og sosiale faktorer som virker sammen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "To personer utsettes for like mye stress. Den ene har høy sårbarhet, mens den andre har lav sårbarhet. Bruk sårbarhet-stress-modellen til å forklare hvorfor belastningen kan føre til en lidelse hos den ene, men ikke hos den andre.",
+        "fasit": "Personen med høy sårbarhet kan bli syk av mindre stress fordi belastningen lettere overstiger det personen tåler. Personen med lav sårbarhet tåler gjerne mer stress før det kan utløse en lidelse.",
+        "kriterier": [
+          "Knytter høy sårbarhet til at mindre stress kan være nok til å utløse en lidelse.",
+          "Får fram at lav sårbarhet gjør at personen kan tåle mer stress."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En person føler seg ensom, får stadig mer negative tanker og begynner å trekke seg unna andre. Forklar hvordan disse forholdene kan forsterke hverandre i en ond sirkel ved depresjon.",
+        "fasit": "Ensomhet kan bidra til negative tanker, og de negative tankene kan føre til at personen trekker seg mer unna. Tilbaketrekningen kan igjen øke ensomheten og forsterke sirkelen.",
+        "kriterier": [
+          "Beskriver minst to ledd i en sirkel mellom ensomhet, negative tanker og tilbaketrekning.",
+          "Forklarer at konsekvensene kan føre tilbake til og forsterke utgangspunktet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev blir mobbet, men har en støttende familie og venner som stiller opp. Forklar hvordan en risikofaktor og beskyttende faktorer kan virke sammen, og bruk begrepet resiliens i svaret.",
+        "fasit": "Mobbing er en sosial risikofaktor, mens støtte fra familie og venner er beskyttende faktorer. Støtten kan gjøre eleven mer motstandsdyktig, altså bidra til resiliens til tross for belastningen.",
+        "kriterier": [
+          "Identifiserer mobbing som en risikofaktor og støtte fra familie eller venner som beskyttende.",
+          "Forklarer resiliens som evnen til å klare seg godt til tross for belastninger, og knytter det til støtten."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En elev bekymrer seg mye og bruker skjerm sent på kvelden. Forklar hvordan disse forholdene kan påvirke søvnen, og hvorfor søvn kan være et nyttig inngangspunkt for å bedre psykisk helse.",
+        "fasit": "Bekymringer og skjermbruk om kvelden kan føre til dårligere søvn. Bedre søvn kan være et inngangspunkt for bedre psykisk helse fordi søvn henger sammen med blant annet humør og konsentrasjon.",
+        "kriterier": [
+          "Knytter bekymringer og/eller skjermbruk om kvelden til dårligere søvn.",
+          "Forklarer at bedre søvn kan støtte psykisk helse, for eksempel gjennom bedre humør eller konsentrasjon."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Før en vanskelig skoleoppgave tenker Sander: «Jeg kommer ikke til å klare dette.» Forklar hva mestringstro betyr, og hvordan mer mestringstro kan virke beskyttende for Sander.",
+        "fasit": "Mestringstro er troen på at man kan klare en oppgave. Hvis Sander får større tro på at han kan håndtere oppgaven, kan dette være en psykologisk beskyttende faktor.",
+        "kriterier": [
+          "Forklarer mestringstro som troen på at man kan klare en oppgave.",
+          "Knytter mestringstro til at det kan virke beskyttende for Sander."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Mina sover godt, er fysisk aktiv, opplever at hun har kontroll i hverdagen og føler tilhørighet til venner. Forklar hvordan disse forholdene fordeler seg på biologiske, psykologiske og sosiale faktorer, og hvordan de kan støtte god psykisk helse.",
+        "fasit": "Søvn og fysisk aktivitet er biologiske faktorer, følelsen av kontroll er psykologisk, og tilhørighet til venner er sosialt. Slike faktorer kan sammen fremme god psykisk helse.",
+        "kriterier": [
+          "Plasserer minst én av faktorene riktig på hvert av de biologiske, psykologiske og sosiale nivåene.",
+          "Får fram at faktorene kan bidra til god psykisk helse sammen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En person opplever langvarig stress og grubler ofte på negative tanker. Forklar hvordan stresset kan påvirke kroppen biologisk, og hvordan grublingen kan bidra til psykiske plager.",
+        "fasit": "Langvarig stress kan påvirke stresshormoner og hjernens signalstoffer. Grubling innebærer gjentatte negative tanker som kan forsterke nedstemthet.",
+        "kriterier": [
+          "Knytter langvarig stress til påvirkning av stresshormoner eller hjernens signalstoffer.",
+          "Forklarer at grubling med gjentatte negative tanker kan forsterke nedstemthet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

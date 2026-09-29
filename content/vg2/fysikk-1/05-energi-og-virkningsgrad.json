@@ -4,77 +4,422 @@
   "trinnId": "vg2",
   "name": "Arbeid, energi, effekt og virkningsgrad",
   "intro": "Arbeid, kinetisk og potensiell energi, bevaring av mekanisk energi, arbeid–energi-setningen, effekt, energikvalitet og virkningsgrad – med regneeksempler.",
-  "kompetansemaal": [5, 8],
+  "kompetansemaal": [
+    5,
+    8
+  ],
   "sammendrag": "## Arbeid\n\nNår en kraft flytter et legeme, gjør kraften et **arbeid**:\n\n**W = F · s · cos α**\n\nher er α vinkelen mellom kraften og bevegelsesretningen. Enheten er **joule** (J). Drar du en kasse med 50 N i 10 m i bevegelsesretningen, er arbeidet 500 J. En kraft **vinkelrett** på bevegelsen gjør **ikke** noe arbeid, og friksjon gjør **negativt** arbeid.\n\n## Kinetisk og potensiell energi\n\n- **Kinetisk energi** (bevegelsesenergi): **Eₖ = ½mv²**. En ball på 0,50 kg med fart 12 m/s har Eₖ = ½ · 0,50 · 12² = **36 J**.\n- **Potensiell energi** (stillingsenergi) i tyngdefeltet: **Eₚ = mgh**. En kasse på 2,0 kg løftet 3,0 m får Eₚ = 2,0 · 9,81 · 3,0 ≈ **59 J**.\n\nHøyden h måles fra et **nullnivå** vi velger selv.\n\n## Bevaring av mekanisk energi\n\nDen **mekaniske energien** er E = Eₖ + Eₚ. Hvis bare **tyngdekraften** gjør arbeid (ingen friksjon eller luftmotstand), er den **bevart**:\n\n**½mv₀² + mgh₀ = ½mv² + mgh**\n\n**Eksempel**: En ball faller fra 5,0 m. Farten ved bakken: mgh = ½mv² → v = √(2gh) = √(2 · 9,81 · 5,0) ≈ **9,9 m/s**. Massen forsvinner fra likningen.\n\n## Arbeid–energi-setningen\n\nArbeidet som **summen av kreftene** gjør, er lik endringen i kinetisk energi: **W_ΣF = ΔEₖ**. Når friksjon virker, går mekanisk energi over til **indre energi** (varme) – den forsvinner ikke, men **omformes**.\n\n## Effekt\n\n**Effekt** er arbeid eller energi per tid:\n\n**P = W / t**, enhet **watt** (W = J/s).\n\nEn motor som gjør 600 J arbeid på 3,0 s, har effekten **200 W**. For et legeme med konstant fart gjelder også P = F · v.\n\n## Energiprinsippet og energikvalitet\n\nEnergi kan **verken skapes eller forsvinne**, bare **omformes**. Likevel sier vi at energi «brukes opp», fordi den går over til former med **lavere kvalitet**:\n\n- **Høy kvalitet**: elektrisk energi, mekanisk energi, kjemisk energi – lett å omforme til andre former.\n- **Lav kvalitet**: varme ved lav temperatur – vanskelig å utnytte.\n\nAll energiomforming ender til slutt som **spredt varme**.\n\n## Virkningsgrad\n\n**Virkningsgraden** η forteller hvor stor del av den tilførte energien som blir **nyttig**:\n\n**η = nyttig energi / tilført energi**\n\nEn motor som får 500 J og leverer 400 J mekanisk arbeid, har η = 400/500 = **0,80 = 80 %**. Resten blir varme. Typiske virkningsgrader:\n\n- elektromotor: ofte over 90 %\n- bensinmotor: rundt 25–35 %\n- vannkraftverk: rundt 90 %\n- glødepære: bare noen få prosent som lys\n\nVirkningsgraden kan **aldri** bli over 100 %.",
   "flashcards": [
-    { "term": "Arbeid", "def": "W = F · s · cos α, målt i joule." },
-    { "term": "Kinetisk energi", "def": "Eₖ = ½mv²" },
-    { "term": "Potensiell energi", "def": "Eₚ = mgh" },
-    { "term": "Nullnivå", "def": "Høyden vi velger at Eₚ = 0." },
-    { "term": "Mekanisk energi", "def": "E = Eₖ + Eₚ" },
-    { "term": "Bevaring av mekanisk energi", "def": "Gjelder når bare tyngdekraften gjør arbeid." },
-    { "term": "Arbeid–energi-setningen", "def": "Arbeidet til kraftsummen er lik ΔEₖ." },
-    { "term": "Indre energi", "def": "Energien til partiklene i et stoff – øker ved friksjon." },
-    { "term": "Effekt", "def": "P = W / t, målt i watt." },
-    { "term": "Watt", "def": "J/s" },
-    { "term": "Energiprinsippet", "def": "Energi kan verken skapes eller forsvinne, bare omformes." },
-    { "term": "Energikvalitet", "def": "Hvor lett energien kan omformes til andre former." },
-    { "term": "Virkningsgrad", "def": "η = nyttig energi / tilført energi" },
-    { "term": "Fart etter fall fra høyden h", "def": "v = √(2gh) uten luftmotstand." },
-    { "term": "Negativt arbeid", "def": "Når kraften virker mot bevegelsen, som friksjon." }
+    {
+      "term": "Arbeid",
+      "def": "W = F · s · cos α, målt i joule."
+    },
+    {
+      "term": "Kinetisk energi",
+      "def": "Eₖ = ½mv²"
+    },
+    {
+      "term": "Potensiell energi",
+      "def": "Eₚ = mgh"
+    },
+    {
+      "term": "Nullnivå",
+      "def": "Høyden vi velger at Eₚ = 0."
+    },
+    {
+      "term": "Mekanisk energi",
+      "def": "E = Eₖ + Eₚ"
+    },
+    {
+      "term": "Bevaring av mekanisk energi",
+      "def": "Gjelder når bare tyngdekraften gjør arbeid."
+    },
+    {
+      "term": "Arbeid–energi-setningen",
+      "def": "Arbeidet til kraftsummen er lik ΔEₖ."
+    },
+    {
+      "term": "Indre energi",
+      "def": "Energien til partiklene i et stoff – øker ved friksjon."
+    },
+    {
+      "term": "Effekt",
+      "def": "P = W / t, målt i watt."
+    },
+    {
+      "term": "Watt",
+      "def": "J/s"
+    },
+    {
+      "term": "Energiprinsippet",
+      "def": "Energi kan verken skapes eller forsvinne, bare omformes."
+    },
+    {
+      "term": "Energikvalitet",
+      "def": "Hvor lett energien kan omformes til andre former."
+    },
+    {
+      "term": "Virkningsgrad",
+      "def": "η = nyttig energi / tilført energi"
+    },
+    {
+      "term": "Fart etter fall fra høyden h",
+      "def": "v = √(2gh) uten luftmotstand."
+    },
+    {
+      "term": "Negativt arbeid",
+      "def": "Når kraften virker mot bevegelsen, som friksjon."
+    }
   ],
   "quiz": [
-    { "id": "q01", "text": "Hva er den kinetiske energien til en ball på 0,50 kg med fart 12 m/s?", "options": ["6,0 J", "36 J", "72 J", "3,0 J"], "correct": 1, "explain": "½ · 0,50 · 12² = 36 J." },
-    { "id": "q02", "text": "Når er den mekaniske energien bevart?", "options": ["Når bare tyngdekraften gjør arbeid", "Alltid", "Når friksjonen er stor", "Når farten er konstant"], "correct": 0, "explain": "Friksjon omformer mekanisk energi til varme." },
-    { "id": "q03", "text": "Omtrent hvor stor fart har en ball som har falt 5,0 m fra ro, uten luftmotstand?", "options": ["5,0 m/s", "49 m/s", "9,9 m/s", "98 m/s"], "correct": 2, "explain": "v = √(2 · 9,81 · 5,0)." },
-    { "id": "q04", "text": "En motor gjør 600 J arbeid på 3,0 s. Hva er effekten?", "options": ["1800 W", "600 W", "0,005 W", "200 W"], "correct": 3, "explain": "P = W/t." },
-    { "id": "q05", "text": "En motor får tilført 500 J og leverer 400 J nyttig arbeid. Hva er virkningsgraden?", "options": ["80 %", "125 %", "20 %", "100 %"], "correct": 0, "explain": "400/500 = 0,80." },
-    { "id": "q06", "text": "Hvilken energiform har lavest kvalitet?", "options": ["Elektrisk energi", "Varme ved lav temperatur", "Mekanisk energi", "Kjemisk energi"], "correct": 1, "explain": "Den er vanskeligst å utnytte." },
-    { "id": "q07", "text": "Hvor mye arbeid gjør en kraft som står vinkelrett på bevegelsen?", "options": ["F · s", "Negativt arbeid", "Null", "Dobbelt så mye"], "correct": 2, "explain": "cos 90° = 0." },
-    { "id": "q08", "text": "Hva sier arbeid–energi-setningen?", "options": ["Arbeid er alltid null", "Eₚ = mgh", "Energi kan skapes", "Arbeidet til kraftsummen er lik endringen i kinetisk energi"], "correct": 3, "explain": "W_ΣF = ΔEₖ." },
-    { "id": "q09", "text": "Hva er den potensielle energien til 2,0 kg løftet 3,0 m?", "options": ["Omtrent 59 J", "6,0 J", "Omtrent 29 J", "Omtrent 590 J"], "correct": 0, "explain": "2,0 · 9,81 · 3,0." },
-    { "id": "q10", "text": "Hva skjer med mekanisk energi når friksjon virker?", "options": ["Den forsvinner helt", "Den omformes til indre energi (varme)", "Den øker", "Den blir til masse"], "correct": 1, "explain": "Energiprinsippet gjelder fortsatt." }
+    {
+      "id": "q01",
+      "text": "Hva er den kinetiske energien til en ball på 0,50 kg med fart 12 m/s?",
+      "options": [
+        "6,0 J",
+        "36 J",
+        "72 J",
+        "3,0 J"
+      ],
+      "correct": 1,
+      "explain": "½ · 0,50 · 12² = 36 J."
+    },
+    {
+      "id": "q02",
+      "text": "Når er den mekaniske energien bevart?",
+      "options": [
+        "Når bare tyngdekraften gjør arbeid",
+        "Alltid",
+        "Når friksjonen er stor",
+        "Når farten er konstant"
+      ],
+      "correct": 0,
+      "explain": "Friksjon omformer mekanisk energi til varme."
+    },
+    {
+      "id": "q03",
+      "text": "Omtrent hvor stor fart har en ball som har falt 5,0 m fra ro, uten luftmotstand?",
+      "options": [
+        "5,0 m/s",
+        "49 m/s",
+        "9,9 m/s",
+        "98 m/s"
+      ],
+      "correct": 2,
+      "explain": "v = √(2 · 9,81 · 5,0)."
+    },
+    {
+      "id": "q04",
+      "text": "En motor gjør 600 J arbeid på 3,0 s. Hva er effekten?",
+      "options": [
+        "1800 W",
+        "600 W",
+        "0,005 W",
+        "200 W"
+      ],
+      "correct": 3,
+      "explain": "P = W/t."
+    },
+    {
+      "id": "q05",
+      "text": "En motor får tilført 500 J og leverer 400 J nyttig arbeid. Hva er virkningsgraden?",
+      "options": [
+        "80 %",
+        "125 %",
+        "20 %",
+        "100 %"
+      ],
+      "correct": 0,
+      "explain": "400/500 = 0,80."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken energiform har lavest kvalitet?",
+      "options": [
+        "Elektrisk energi",
+        "Varme ved lav temperatur",
+        "Mekanisk energi",
+        "Kjemisk energi"
+      ],
+      "correct": 1,
+      "explain": "Den er vanskeligst å utnytte."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor mye arbeid gjør en kraft som står vinkelrett på bevegelsen?",
+      "options": [
+        "F · s",
+        "Negativt arbeid",
+        "Null",
+        "Dobbelt så mye"
+      ],
+      "correct": 2,
+      "explain": "cos 90° = 0."
+    },
+    {
+      "id": "q08",
+      "text": "Hva sier arbeid–energi-setningen?",
+      "options": [
+        "Arbeid er alltid null",
+        "Eₚ = mgh",
+        "Energi kan skapes",
+        "Arbeidet til kraftsummen er lik endringen i kinetisk energi"
+      ],
+      "correct": 3,
+      "explain": "W_ΣF = ΔEₖ."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er den potensielle energien til 2,0 kg løftet 3,0 m?",
+      "options": [
+        "Omtrent 59 J",
+        "6,0 J",
+        "Omtrent 29 J",
+        "Omtrent 590 J"
+      ],
+      "correct": 0,
+      "explain": "2,0 · 9,81 · 3,0."
+    },
+    {
+      "id": "q10",
+      "text": "Hva skjer med mekanisk energi når friksjon virker?",
+      "options": [
+        "Den forsvinner helt",
+        "Den omformes til indre energi (varme)",
+        "Den øker",
+        "Den blir til masse"
+      ],
+      "correct": 1,
+      "explain": "Energiprinsippet gjelder fortsatt."
+    }
   ],
   "mindmap": {
     "label": "Energi og virkningsgrad",
     "children": [
-      { "label": "Arbeid", "children": [
-        { "label": "W = Fs cos α" },
-        { "label": "Negativt arbeid" }
-      ] },
-      { "label": "Energiformer", "children": [
-        { "label": "Eₖ = ½mv²" },
-        { "label": "Eₚ = mgh" },
-        { "label": "Indre energi" }
-      ] },
-      { "label": "Bevaring", "children": [
-        { "label": "Mekanisk energi" },
-        { "label": "Arbeid–energi-setningen" },
-        { "label": "Energiprinsippet" }
-      ] },
-      { "label": "Effekt", "children": [
-        { "label": "P = W/t" },
-        { "label": "Watt" }
-      ] },
-      { "label": "Kvalitet", "children": [
-        { "label": "Høy og lav kvalitet" },
-        { "label": "Virkningsgrad η" },
-        { "label": "Aldri over 100 %" }
-      ] }
+      {
+        "label": "Arbeid",
+        "children": [
+          {
+            "label": "W = Fs cos α"
+          },
+          {
+            "label": "Negativt arbeid"
+          }
+        ]
+      },
+      {
+        "label": "Energiformer",
+        "children": [
+          {
+            "label": "Eₖ = ½mv²"
+          },
+          {
+            "label": "Eₚ = mgh"
+          },
+          {
+            "label": "Indre energi"
+          }
+        ]
+      },
+      {
+        "label": "Bevaring",
+        "children": [
+          {
+            "label": "Mekanisk energi"
+          },
+          {
+            "label": "Arbeid–energi-setningen"
+          },
+          {
+            "label": "Energiprinsippet"
+          }
+        ]
+      },
+      {
+        "label": "Effekt",
+        "children": [
+          {
+            "label": "P = W/t"
+          },
+          {
+            "label": "Watt"
+          }
+        ]
+      },
+      {
+        "label": "Kvalitet",
+        "children": [
+          {
+            "label": "Høy og lav kvalitet"
+          },
+          {
+            "label": "Virkningsgrad η"
+          },
+          {
+            "label": "Aldri over 100 %"
+          }
+        ]
+      }
     ]
   },
   "miniprove": {
     "minutter": 15,
-    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
     "ekstra": [
-      { "id": "m01", "type": "sant-usant", "text": "Farten etter et fritt fall avhenger ikke av massen.", "correct": true, "explain": "Massen forsvinner fra mgh = ½mv²." },
-      { "id": "m02", "type": "sant-usant", "text": "En god motor kan ha virkningsgrad over 100 %.", "correct": false, "explain": "Da måtte energi blitt skapt." },
-      { "id": "m03", "type": "sant-usant", "text": "Friksjon gjør negativt arbeid.", "correct": true, "explain": "Den virker mot bevegelsen." },
-      { "id": "m04", "type": "sant-usant", "text": "En bensinmotor har høyere virkningsgrad enn en elektromotor.", "correct": false, "explain": "Elektromotorer har ofte over 90 %, bensinmotorer rundt 25–35 %." },
-      { "id": "m05", "type": "flervalg", "text": "Hva er enheten for effekt?", "options": ["Joule", "Watt", "Newton", "Kilogram"], "correct": 1, "explain": "1 W = 1 J/s." },
-      { "id": "m06", "type": "flervalg", "text": "Hvor mye arbeid gjør du når du drar en kasse 10 m med 50 N i bevegelsesretningen?", "options": ["500 J", "5 J", "60 J", "0,2 J"], "correct": 0, "explain": "W = 50 · 10." },
-      { "id": "m07", "type": "flervalg", "text": "Hva skjer med den kinetiske energien hvis farten dobles?", "options": ["Den dobles", "Den halveres", "Den blir fire ganger så stor", "Den er uendret"], "correct": 2, "explain": "Eₖ er proporsjonal med v²." }
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Farten etter et fritt fall avhenger ikke av massen.",
+        "correct": true,
+        "explain": "Massen forsvinner fra mgh = ½mv²."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "En god motor kan ha virkningsgrad over 100 %.",
+        "correct": false,
+        "explain": "Da måtte energi blitt skapt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Friksjon gjør negativt arbeid.",
+        "correct": true,
+        "explain": "Den virker mot bevegelsen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En bensinmotor har høyere virkningsgrad enn en elektromotor.",
+        "correct": false,
+        "explain": "Elektromotorer har ofte over 90 %, bensinmotorer rundt 25–35 %."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er enheten for effekt?",
+        "options": [
+          "Joule",
+          "Watt",
+          "Newton",
+          "Kilogram"
+        ],
+        "correct": 1,
+        "explain": "1 W = 1 J/s."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor mye arbeid gjør du når du drar en kasse 10 m med 50 N i bevegelsesretningen?",
+        "options": [
+          "500 J",
+          "5 J",
+          "60 J",
+          "0,2 J"
+        ],
+        "correct": 0,
+        "explain": "W = 50 · 10."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva skjer med den kinetiske energien hvis farten dobles?",
+        "options": [
+          "Den dobles",
+          "Den halveres",
+          "Den blir fire ganger så stor",
+          "Den er uendret"
+        ],
+        "correct": 2,
+        "explain": "Eₖ er proporsjonal med v²."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva er et nullnivå når vi beregner potensiell energi, og hvordan påvirker valget av nullnivå høyden h?",
+        "fasit": "Nullnivået er høyden vi velger at den potensielle energien skal være null. Høyden h måles fra dette nivået, så den beregnede potensielle energien avhenger av valget.",
+        "kriterier": [
+          "Forklarer at nullnivået er valgt som stedet der potensiell energi settes lik null.",
+          "Forklarer at h måles fra nullnivået, slik at valget påvirker verdien av potensiell energi."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign kinetisk energi og potensiell energi i tyngdefeltet. Hva forteller hver av dem om et legeme?",
+        "fasit": "Kinetisk energi er bevegelsesenergi og avhenger av massen og farten. Potensiell energi er stillingsenergi i tyngdefeltet og avhenger av massen og høyden over et valgt nullnivå.",
+        "kriterier": [
+          "Knytter kinetisk energi til bevegelse og massen og farten.",
+          "Knytter potensiell energi til plassering i tyngdefeltet og massen og høyden."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En kasse glir bortover et gulv mens friksjon virker mot bevegelsen. Forklar hvorfor friksjonen gjør negativt arbeid, og hva som skjer med energien.",
+        "fasit": "Friksjonen virker mot bevegelsesretningen og gjør derfor negativt arbeid. Mekanisk energi går over til indre energi, slik at stoffet blir varmere; energien forsvinner ikke.",
+        "kriterier": [
+          "Forklarer at friksjonen virker mot bevegelsen og derfor gjør negativt arbeid.",
+          "Beskriver at mekanisk energi omformes til indre energi eller varme, ikke forsvinner."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En kraft på 50 N virker i bevegelsesretningen og flytter en kasse 10 m. Hvor stort arbeid gjør kraften? Bruk W = F · s.",
+        "fasit": "W = 50 · 10 = 500 J. Kraften gjør 500 J arbeid.",
+        "kriterier": [
+          "Setter opp arbeidet som kraft ganger strekning, med verdiene 50 N og 10 m.",
+          "Får 500 J som svar."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En motor får tilført 500 J energi og leverer 400 J som nyttig mekanisk arbeid. Hvor mye energi blir ikke nyttig, og hvilken form går den over til?",
+        "fasit": "500 J − 400 J = 100 J blir ikke nyttig mekanisk arbeid. Denne energien går over til varme.",
+        "kriterier": [
+          "Regner ut at 100 J ikke blir nyttig mekanisk arbeid.",
+          "Angir at denne energien går over til varme."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Kraftsummen gjør positivt arbeid på et legeme. Bruk arbeid–energi-setningen til å forklare hva som skjer med legemets kinetiske energi.",
+        "fasit": "Arbeid–energi-setningen sier at arbeidet fra kraftsummen er lik endringen i kinetisk energi. Positivt arbeid betyr derfor at den kinetiske energien øker.",
+        "kriterier": [
+          "Knytter arbeidet fra kraftsummen til endringen i kinetisk energi.",
+          "Forklarer at positivt arbeid gir økt kinetisk energi."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Energi sies noen ganger å være «brukt opp», selv om energi ikke kan forsvinne. Forklar hvordan dette kan henge sammen med energikvalitet.",
+        "fasit": "Energi kan ikke forsvinne, men den kan omformes til former med lavere kvalitet. Spredt varme er vanskeligere å utnytte enn for eksempel elektrisk eller mekanisk energi, og derfor kan det virke som om energien er brukt opp.",
+        "kriterier": [
+          "Forklarer at energi omformes og ikke forsvinner.",
+          "Forklarer at energi med lavere kvalitet, som spredt varme, er vanskeligere å utnytte."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvorfor en virkningsgrad ikke kan være større enn 100 %, ved å bruke energiprinsippet.",
+        "fasit": "Virkningsgraden er nyttig energi delt på tilført energi. Hvis den var over 100 %, ville den nyttige energien vært større enn energien som ble tilført, i strid med energiprinsippet.",
+        "kriterier": [
+          "Knytter virkningsgraden til forholdet mellom nyttig og tilført energi.",
+          "Forklarer at virkningsgrad over 100 % ville bety at mer nyttig energi kom ut enn det som ble tilført, i strid med energiprinsippet."
+        ]
+      }
     ]
   },
-  "kvalitet": { "status": "utkast", "merknader": [] }
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
 }

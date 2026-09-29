@@ -357,6 +357,80 @@
         "correct": 1,
         "explain": "«Morgenmad» er frokost på dansk."
       }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Norsk, svensk og dansk ligner hverandre, og folk kan ofte forstå hverandre selv om de snakker hvert sitt språk. Forklar hva denne forståelsen kalles, og hva som gjør den mulig.",
+        "fasit": "Dette kalles nabospråkforståelse. Språkene ligner fordi de har utviklet seg fra det samme norrøne språket.",
+        "kriterier": [
+          "Forklarer at forståelsen mellom språkene kalles nabospråkforståelse.",
+          "Knytter forståelsen til at språkene ligner eller har utviklet seg fra samme språk."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Dansk skrift ligner ofte på bokmål, mens dansk uttale kan være vanskeligere for nordmenn. Forklar hvorfor det er slik, og nevn ett trekk ved dansk uttale.",
+        "fasit": "Bokmål har utviklet seg fra dansk skriftspråk, derfor ligner skriften. I dansk uttales mange konsonanter bløtt, eller språket har stød.",
+        "kriterier": [
+          "Forklarer likheten mellom dansk skrift og bokmål med bokmåls utvikling fra dansk skriftspråk.",
+          "Nevner et relevant uttaletrekk, som bløte konsonanter eller stød."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En svensk venn sier: «Filmen var rolig.» Hva mener vennen, og hvorfor kan en norsk lytter lett misforstå setningen?",
+        "fasit": "Vennen mener at filmen var morsom. En norsk lytter kan misforstå fordi svensk «rolig» ser ut som det norske ordet «rolig», men betyr noe annet.",
+        "kriterier": [
+          "Forklarer at svensk «rolig» betyr morsom.",
+          "Forklarer at ordet kan misforstås fordi det ligner et norsk ord med en annen betydning."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "På svensk kan «flicka» bety «jente», og svenske flertallsord kan ende på «-ar», «-er» eller «-or». Forklar hva disse opplysningene viser om svenske ord sammenlignet med norske.",
+        "fasit": "Svensk har ord som ser annerledes ut enn norske ord, for eksempel «flicka» for «jente». Svenske flertallsord kan også ha andre endelser, som «-or» i «flickor».",
+        "kriterier": [
+          "Bruker «flicka» som eksempel på at svenske ord kan være ulike norske ord.",
+          "Forklarer at svenske flertallsendelser kan skille seg fra norske, gjerne med et eksempel."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En norsk elev hører en dansk setning, men forstår ikke alle ordene. Forklar hvordan det kan hjelpe å se etter ord som ligner norsk og bruke sammenhengen rundt ordene.",
+        "fasit": "Ord som ligner norsk, kan gi eleven hint om hva setningen handler om. Sammenhengen rundt ordene kan hjelpe eleven med å forstå betydningen selv om noen ord er ukjente.",
+        "kriterier": [
+          "Forklarer at ord som ligner norsk, kan gi ledetråder til betydningen.",
+          "Forklarer hvordan sammenhengen kan hjelpe når enkelte ord er ukjente."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hva er stød i dansk uttale, og hvilken rolle kan det ha for ord?",
+        "fasit": "Stød er et lite brudd i stemmen i dansk uttale. Det kan skille ord fra hverandre.",
+        "kriterier": [
+          "Beskriver stød som et lite brudd i stemmen.",
+          "Forklarer at stød kan skille ord fra hverandre."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Ordet «rar» brukes både på dansk og svensk, men betydningen kan overraske en norsktalende. Hva betyr ordet på dansk og svensk, og hvilken forskjell gjelder bruken?",
+        "fasit": "På både dansk og svensk betyr «rar» snill eller søt. På dansk brukes det særlig om personer, mens det på svensk også kan brukes om ting.",
+        "kriterier": [
+          "Forklarer at «rar» betyr snill eller søt på både dansk og svensk.",
+          "Får fram forskjellen i bruk: særlig om personer på dansk, også om ting på svensk."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Norsk, svensk, dansk, islandsk og færøysk er nordgermanske språk som kommer fra norrønt. Hvorfor er islandsk og færøysk vanskeligere for nordmenn å forstå enn svensk og dansk?",
+        "fasit": "Islandsk og færøysk har holdt på mer av det gamle språket. Derfor er de vanskeligere for nordmenn å forstå enn svensk og dansk.",
+        "kriterier": [
+          "Forklarer at islandsk og færøysk har bevart mer av det gamle språket.",
+          "Knytter dette til at språkene er vanskeligere for nordmenn å forstå."
+        ]
+      }
     ]
   },
   "kvalitet": {
