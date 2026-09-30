@@ -1,18 +1,53 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
 import { FagOversikt, ForsideMeny, Startside } from "@/components/Forside";
 import { ArrowRight, Check } from "@/components/icons";
 import { ARLIG_SPARING, FORDELER, PRIS, PROVEDAGER, type Plan as Abonnement } from "@/lib/priser";
+import { BESKRIVELSE, DELING, NAVN, NETTSTED, TITTEL } from "@/lib/seo";
 import { oktNokkel } from "@/lib/supabase";
 
 
 const btnPrimary =
   "inline-flex items-center justify-center gap-2 bg-primary text-white rounded-xl font-semibold transition-[background-color,transform,box-shadow] duration-200 hover:bg-primary-dark hover:shadow-[0_10px_24px_-12px_rgba(44,75,212,0.7)] active:scale-[0.98]";
 
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+  openGraph: { ...DELING, title: TITTEL, description: BESKRIVELSE, url: "/" },
+};
+
+// Strukturerte data, så Google vet hva Studer er og viser riktig navn og logo.
+const strukturerteData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${NETTSTED}/#organisasjon`,
+      name: NAVN,
+      url: NETTSTED,
+      logo: `${NETTSTED}/apple-touch-icon.png`,
+      email: "kontakt@studer.no",
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${NETTSTED}/#nettsted`,
+      name: NAVN,
+      url: NETTSTED,
+      inLanguage: "nb-NO",
+      publisher: { "@id": `${NETTSTED}/#organisasjon` },
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        // Faste data fra koden, ingen brukerinnhold – trygt å sette inn som de er.
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(strukturerteData) }}
+      />
       <script
         dangerouslySetInnerHTML={{
           __html: `try{if(localStorage.getItem(${JSON.stringify(oktNokkel)}))document.documentElement.classList.add("har-okt")}catch(e){}`,

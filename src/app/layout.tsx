@@ -1,22 +1,34 @@
 import type { Metadata, Viewport } from "next";
+import { Fraunces, Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/lib/auth";
+import { BESKRIVELSE, DELING, NAVN, NETTSTED, TITTEL } from "@/lib/seo";
+
+// Skriftene lastes ned ved bygging og serveres fra studer.no, så siden ikke
+// venter på Google Fonts før den vises.
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+  axes: ["opsz"],
+  variable: "--font-fraunces",
+  display: "swap",
+});
+const instrumentSans = Instrument_Sans({
+  subsets: ["latin"],
+  variable: "--font-instrument-sans",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
+  metadataBase: new URL(NETTSTED),
+  applicationName: NAVN,
   title: {
-    default: "Studer – øv på hele pensum",
-    template: "%s · Studer",
+    default: TITTEL,
+    template: `%s · ${NAVN}`,
   },
-  description:
-    "Studer – flashcards, quiz og miniprøver for hele pensum, fra ungdomsskole til Vg3.",
-  openGraph: {
-    title: "Studer – øv på hele pensum",
-    description:
-      "Velg trinn, fag og tema. Flashcards, quiz og miniprøver ligger ferdig laget.",
-    locale: "nb_NO",
-    type: "website",
-    siteName: "Studer",
-  },
+  description: BESKRIVELSE,
+  openGraph: { ...DELING, title: TITTEL, description: BESKRIVELSE },
+  twitter: { card: "summary_large_image" },
 };
 
 export const viewport: Viewport = {
@@ -25,20 +37,11 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="nb" className="h-full antialiased" suppressHydrationWarning>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        {/* eslint-disable-next-line @next/next/no-page-custom-font -- this is the root layout, so the font applies app-wide, not to a single page */}
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Instrument+Sans:wght@400;500;600;700&display=swap"
-        />
-      </head>
+    <html
+      lang="nb"
+      className={`${fraunces.variable} ${instrumentSans.variable} h-full antialiased`}
+      suppressHydrationWarning
+    >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <a
           href="#innhold"
