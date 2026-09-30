@@ -6,7 +6,7 @@ import { Logo } from "@/components/Logo";
 import { FagOversikt, ForsideMeny, Startside } from "@/components/Forside";
 import { ArrowRight, Check } from "@/components/icons";
 import { ARLIG_SPARING, FORDELER, PRIS, PROVEDAGER, type Plan as Abonnement } from "@/lib/priser";
-import { BESKRIVELSE, DELING, NAVN, NETTSTED, TITTEL } from "@/lib/seo";
+import { BESKRIVELSE, DELING, NAVN, NETTSTED, SOSIALE_MEDIER, TITTEL } from "@/lib/seo";
 import { oktNokkel } from "@/lib/supabase";
 
 
@@ -29,6 +29,7 @@ const strukturerteData = {
       url: NETTSTED,
       logo: `${NETTSTED}/apple-touch-icon.png`,
       email: "kontakt@studer.no",
+      sameAs: SOSIALE_MEDIER.flatMap((p) => (p.url ? [p.url] : [])),
     },
     {
       "@type": "WebSite",

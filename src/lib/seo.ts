@@ -6,6 +6,13 @@ import type { Metadata } from "next";
 export const NETTSTED = "https://www.studer.no";
 export const NAVN = "Studer";
 
+// Profilene våre. Vises nederst på sidene og i de strukturerte dataene
+// (sameAs), så Google knytter dem til Studer. null = ikke laget ennå.
+export const SOSIALE_MEDIER: { navn: string; url: string | null }[] = [
+  { navn: "Instagram", url: "https://www.instagram.com/studer.no/" },
+  { navn: "TikTok", url: null },
+];
+
 export const TITTEL = "Studer – øv på hele pensum med flashcards, quiz og prøver";
 export const BESKRIVELSE =
   "Flashcards, quiz og miniprøver for hvert tema i hvert fag etter LK20, fra 8. trinn til Vg3. Med AI-hjelp og skriveoppgaver rettet av KI. Prøv gratis i 14 dager.";
