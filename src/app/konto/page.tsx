@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { AppBar } from "@/components/AppBar";
-import { Bunnlenker } from "@/components/Bunnlenker";
 import { ArrowRight, LogOut } from "@/components/icons";
 import { KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
@@ -98,8 +97,6 @@ export default function KontoPage() {
               {loggerUt ? "Logger ut …" : "Logg ut"}
             </button>
           </div>
-
-          <Bunnlenker />
 
           <SlettKonto medAbonnement={harAbonnement(profil)} onSlettet={() => setSlettet(true)} />
         </main>
