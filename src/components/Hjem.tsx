@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { ProfilKnapp } from "@/components/AppBar";
+import { Bunnlenker } from "@/components/Bunnlenker";
 import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
 import { ArrowRight, ChevronRight } from "@/components/icons";
@@ -205,6 +206,8 @@ export function Hjem() {
           Se alle fag og trinn
           <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
         </Link>
+
+        <Bunnlenker className="mt-6 pt-8 border-t border-border" />
       </main>
     </div>
   );

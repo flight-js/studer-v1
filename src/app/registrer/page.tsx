@@ -6,6 +6,7 @@ import { Suspense, useEffect, useState } from "react";
 import { AuthRamme, Felt, Knapp, Melding, useNeste } from "@/components/AuthRamme";
 import { Kodesteg } from "@/components/Kodesteg";
 import { feilmelding, useAuth } from "@/lib/auth";
+import { ALDERSGRENSE } from "@/lib/juridisk";
 import { supabase } from "@/lib/supabase";
 
 export default function RegistrerPage() {
@@ -99,6 +100,17 @@ function Registrer() {
           required
         />
         <Knapp laster={sender}>{sender ? "Lager konto …" : "Lag konto"}</Knapp>
+        <p className="text-xs text-muted leading-relaxed">
+          Ved å lage konto bekrefter du at du er minst {ALDERSGRENSE} år og godtar{" "}
+          <Link href="/vilkar" className="font-semibold text-foreground underline underline-offset-2">
+            bruksvilkårene
+          </Link>
+          . Les hvordan vi behandler opplysningene dine i{" "}
+          <Link href="/personvern" className="font-semibold text-foreground underline underline-offset-2">
+            personvernerklæringen
+          </Link>
+          .
+        </p>
       </form>
     </AuthRamme>
   );

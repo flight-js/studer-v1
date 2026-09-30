@@ -13,6 +13,7 @@
     "content:skriv": "node scripts/lag-skriveoppgaver.mjs",
     "content:niva": "node scripts/nivasjekk.mjs",
     "content:rapporter": "node scripts/rapporter.mjs",
+    "forslag": "node scripts/forslag.mjs",
     "ai:test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/ai-test.mjs",
     "ai:vurder-test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/vurder-test.mjs"
   },

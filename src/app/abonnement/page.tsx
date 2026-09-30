@@ -554,6 +554,14 @@ function Betalingsskjema({
             <Lock size={16} />
             {betaler ? "Behandler …" : knapp}
           </button>
+          <p className="text-xs text-muted leading-relaxed text-center">
+            Abonnementet fornyes automatisk til du avslutter det, og du kan avslutte når som helst under Min konto. Ved å
+            betale godtar du{" "}
+            <Link href="/vilkar" className="font-semibold text-foreground underline underline-offset-2">
+              bruksvilkårene
+            </Link>
+            .
+          </p>
         </div>
       )}
     </div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Bunnlenker } from "@/components/Bunnlenker";
 import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
 import { FagOversikt, ForsideMeny, Startside } from "@/components/Forside";
@@ -261,6 +262,9 @@ function Markedsside() {
             <Link href="/fag" className="hover:text-foreground transition-colors">Fag</Link>
           </nav>
           <div className="text-sm text-faint">© 2026 studer</div>
+        </div>
+        <div className="max-w-6xl mx-auto px-5 sm:px-8 pb-10">
+          <Bunnlenker />
         </div>
       </footer>
     </div>

@@ -165,6 +165,30 @@ export type Database = {
           },
         ]
       }
+      forslag: {
+        Row: {
+          bruker_id: string
+          id: number
+          opprettet: string
+          tekst: string
+          type: string
+        }
+        Insert: {
+          bruker_id?: string
+          id?: never
+          opprettet?: string
+          tekst: string
+          type: string
+        }
+        Update: {
+          bruker_id?: string
+          id?: never
+          opprettet?: string
+          tekst?: string
+          type?: string
+        }
+        Relationships: []
+      }
       fremdrift: {
         Row: {
           aktivitet: string

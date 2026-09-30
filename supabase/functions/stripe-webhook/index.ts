@@ -169,8 +169,16 @@ Deno.serve(async (req) => {
             console.error("Fant ingen bruker for Stripe-kunden", kunde);
             break;
           }
-          const { data } = await admin.auth.admin.getUserById(brukerId);
-          const epost = data.user?.email ?? null;
+          const { data, error: brukerfeil } = await admin.auth.admin.getUserById(brukerId);
+          // Kontoen er slettet (se «slett-konto»): ingenting å synkronisere, og
+          // et 500-svar ville bare fått Stripe til å prøve igjen i flere dager.
+          // Andre feil enn 404 er midlertidige og gir 500 som vanlig.
+          if (!data.user) {
+            if (brukerfeil && brukerfeil.status !== 404) throw new Error(brukerfeil.message);
+            console.log(JSON.stringify({ kunde, hoppetOver: "kontoen er slettet" }));
+            break;
+          }
+          const epost = data.user.email ?? null;
           // Først prøveperioden, så abonnementet – et avvist abonnement gir aldri tilgang.
           await sjekkProvetider(kunde, brukerId, epost);
           await synkroniser(kunde, brukerId, epost);
