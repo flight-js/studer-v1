@@ -21,6 +21,7 @@ const LIMITS = {
   quiz: [10, 15],
   miniprove: [15, 20],
   skriv: [6, 10],
+  skrivRepetisjon: [12, 20], // repetisjonsprøven trekker 10
   mindmapGreiner: 3,
 };
 
@@ -156,7 +157,8 @@ function checkTema(file, tema, fag) {
     if (!inRange(mpTotal, LIMITS.miniprove)) err(where, `miniprøven har ${mpTotal} spørsmål (krav ${LIMITS.miniprove.join("–")})`);
     // Skriveoppgavene er valgfrie til de er laget (npm run content:skriv).
     if (mp.skriv) {
-      if (!inRange(mp.skriv.length, LIMITS.skriv)) err(where, `${mp.skriv.length} skriveoppgaver (krav ${LIMITS.skriv.join("–")})`);
+      const skrivKrav = tema.id === "repetisjon" ? LIMITS.skrivRepetisjon : LIMITS.skriv;
+      if (!inRange(mp.skriv.length, skrivKrav)) err(where, `${mp.skriv.length} skriveoppgaver (krav ${skrivKrav.join("–")})`);
       for (const s of mp.skriv) {
         if (!nonEmpty(s.id) || !nonEmpty(s.text) || !nonEmpty(s.fasit)) err(where, `skriveoppgave ${s.id ?? "?"} mangler id, tekst eller fasit`);
         if (!Array.isArray(s.kriterier) || !inRange(s.kriterier.length, [1, 3]) || !s.kriterier.every(nonEmpty))

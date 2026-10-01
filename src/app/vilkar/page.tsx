@@ -6,6 +6,7 @@ import { sideMetadata } from "@/lib/seo";
 
 export const metadata = sideMetadata({
   tittel: "Bruksvilkår",
+  googleTittel: "Bruksvilkår for Studer",
   beskrivelse: "Vilkårene for å bruke Studer: konto, abonnement, prøveperiode, angrerett og regler for bruk.",
   sti: "/vilkar",
   indekser: true,

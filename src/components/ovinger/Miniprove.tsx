@@ -9,8 +9,7 @@ import { Ovingstopp } from "@/components/Ovingsramme";
 import { Rapporter } from "@/components/Rapporter";
 import { Laster } from "@/components/Tilstand";
 import {
-  ANTALL_RASKE,
-  ANTALL_SKRIV,
+  antallOppgaver,
   MAKS_SVAR,
   poengTekst,
   settSammen,
@@ -62,8 +61,9 @@ export function Miniprove({
   const forsok = useRef(0);
   const lagretForsok = useRef(0);
 
-  const antallSkriv = Math.min(ANTALL_SKRIV, skriv.length);
-  const antallRaske = Math.min(raske.length, ANTALL_RASKE + ANTALL_SKRIV - antallSkriv);
+  const antall = antallOppgaver(temaId);
+  const antallSkriv = Math.min(antall.skriv, skriv.length);
+  const antallRaske = Math.min(raske.length, antall.raske + antall.skriv - antallSkriv);
 
   const settRetting = useCallback((nokkel: string, r: Retting) => {
     rettingerRef.current = { ...rettingerRef.current, [nokkel]: r };
@@ -104,7 +104,7 @@ export function Miniprove({
     forsok.current += 1;
     rettingerRef.current = {};
     setRettinger({});
-    setUtvalg(settSammen(raske, skriv));
+    setUtvalg(settSammen(raske, skriv, antall));
     setValg({});
     setTekster({});
     setSlutt(Date.now() + minutter * 60_000);

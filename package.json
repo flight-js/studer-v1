@@ -12,6 +12,7 @@
     "content:import": "node scripts/check-content.mjs && node scripts/import-supabase.mjs",
     "content:skriv": "node scripts/lag-skriveoppgaver.mjs",
     "content:repetisjon": "node scripts/lag-repetisjon.mjs",
+    "content:alternativer": "node scripts/forbedre-alternativer.mjs",
     "content:niva": "node scripts/nivasjekk.mjs",
     "content:rapporter": "node scripts/rapporter.mjs",
     "forslag": "node scripts/forslag.mjs",

@@ -34,24 +34,31 @@ export const DELING = {
   ],
 };
 
+export const TITTELMAL = `%s – ${NAVN}`;
+
 // Metadata for én side. Sider som krever innlogging, eller som bare er et
 // steg i en flyt (glemt passord, betaling), skal ikke inn i Google.
+// googleTittel: hele tittelen i søkeresultatet for sider som skal i Google.
+// Den bør si hva siden er og nevne Studer, ellers skriver Google sin egen.
 export function sideMetadata({
   tittel,
+  googleTittel,
   beskrivelse,
   sti,
   indekser = false,
 }: {
   tittel: string;
+  googleTittel?: string;
   beskrivelse?: string;
   sti: string;
   indekser?: boolean;
 }): Metadata {
+  const full = googleTittel ?? TITTELMAL.replace("%s", tittel);
   return {
-    title: tittel,
+    title: googleTittel ? { absolute: googleTittel } : tittel,
     ...(beskrivelse && { description: beskrivelse }),
     alternates: { canonical: sti },
-    openGraph: { ...DELING, title: `${tittel} · ${NAVN}`, ...(beskrivelse && { description: beskrivelse }), url: sti },
+    openGraph: { ...DELING, title: full, ...(beskrivelse && { description: beskrivelse }), url: sti },
     robots: indekser ? undefined : { index: false, follow: true },
   };
 }

@@ -17,7 +17,7 @@ import { Abonnementskort } from "@/components/Las";
 import { Feil, KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth, useTilgang } from "@/lib/auth";
 import { abonnementHref } from "@/lib/betaling";
-import { ANTALL_RASKE, ANTALL_SKRIV, poengTekst } from "@/lib/miniprove";
+import { antallOppgaver, poengTekst } from "@/lib/miniprove";
 import {
   hentFremdrift,
   hentOmfang,
@@ -157,12 +157,12 @@ function Tema() {
                 text={
                   o?.skriv ? (
                     <>
-                      Skriveoppgaver rettet av KI<Dot />
+                      {antallOppgaver(id).raske + antallOppgaver(id).skriv} oppgaver rettet av KI<Dot />
                       {o.minutter} minutter
                     </>
                   ) : o ? (
                     <>
-                      {Math.min(o.miniprove, ANTALL_RASKE + ANTALL_SKRIV)} spørsmål<Dot />
+                      {Math.min(o.miniprove, antallOppgaver(id).raske + antallOppgaver(id).skriv)} spørsmål<Dot />
                       {o.minutter} minutter
                     </>
                   ) : (

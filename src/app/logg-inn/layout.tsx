@@ -2,8 +2,9 @@ import { sideMetadata } from "@/lib/seo";
 
 export const metadata = sideMetadata({
   tittel: "Logg inn",
+  googleTittel: "Logg inn på Studer – fortsett der du slapp",
   beskrivelse:
-    "Logg inn på Studer og fortsett å øve på flashcards, quiz og miniprøver.",
+    "Logg inn og fortsett å øve med flashcards, quiz og miniprøver for hele pensum, fra 8. trinn til Vg3.",
   sti: "/logg-inn",
   indekser: true,
 });

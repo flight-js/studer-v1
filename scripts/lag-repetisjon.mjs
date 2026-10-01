@@ -11,6 +11,8 @@
 //   npm run content:repetisjon -- kjemi-1 norsk-10 – bare disse fagene
 //   npm run content:repetisjon -- --antall 2       – bare 2 fag (se på kvaliteten først)
 //   npm run content:repetisjon -- --pa-nytt        – lag på nytt også der det finnes
+//   npm run content:repetisjon -- --flere-skriv    – fyll opp skriveoppgavene i eksisterende
+//                                                    repetisjonstemaer til 16, og sett tiden
 //
 // Leser AI_API_KEY (og ev. AI_BASE_URL, AI_MODELL_INNHOLD, AI_RESONNERING_INNHOLD)
 // fra .env.local. Etterpå: npm run content:niva, så npm run content:import -- --publiser-utkast
@@ -42,12 +44,12 @@ const REPETISJON = {
   id: "repetisjon",
   navn: "Repetisjon av hele faget",
   intro: "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
-  minutter: 20,
+  minutter: 45, // en lengre prøve, som en tentamen (se antallOppgaver i src/lib/miniprove.ts)
 };
 const KORT = [8, 25];
 const QUIZ = [10, 15];
 const PROVE = [15, 20]; // quizspørsmålene + egne prøvespørsmål
-const SKRIV = 8;
+const SKRIV = 16; // prøven trekker 10 av dem, så den blir litt annerledes hver gang
 const ORD = [450, 1600];
 
 if (!API_NOKKEL) {
@@ -58,6 +60,7 @@ if (!API_NOKKEL) {
 const args = process.argv.slice(2);
 const verdi = (flagg) => (args.includes(flagg) ? Number(args[args.indexOf(flagg) + 1]) : undefined);
 const paNytt = args.includes("--pa-nytt");
+const flereSkriv = args.includes("--flere-skriv");
 const maks = verdi("--antall") ?? Infinity;
 const parallelt = verdi("--parallelt") ?? 6;
 const MED_VERDI = ["--antall", "--parallelt"];
@@ -77,7 +80,8 @@ for (const trinn of dirs(ROOT)) {
     const dir = join(ROOT, trinn, fag);
     if (!existsSync(join(dir, "_fag.json")) || (bareFag.length && !bareFag.includes(fag))) continue;
     const meta = lesJson(join(dir, "_fag.json"));
-    if (!paNytt && meta.temaer.includes(REPETISJON.id)) continue;
+    const har = meta.temaer.includes(REPETISJON.id);
+    if (flereSkriv ? !har : !paNytt && har) continue;
     jobber.push({ dir, navn: `${trinn}/${fag}`, trinnNavn: TRINN[trinn] ?? trinn });
   }
 }
@@ -110,6 +114,29 @@ function lesFag(dir) {
   return { meta, temaer, fil };
 }
 
+const skrivRegler = (antall) => `${antall} skriveoppgaver som eksamensøving. Eleven skriver svaret selv, med 1–5 setninger, og en språkmodell retter det ut fra fasiten og kriteriene (0, ½ eller 1 poeng).
+   - Minst halvparten skal gå på tvers av temaer: sammenligne, forklare en sammenheng, eller bruke kunnskap fra flere temaer på en situasjon. Dekk så mange temaer som mulig. I matematikk og realfag: minst en firedel korte regneoppgaver som kan løses uten kalkulator.
+   - Hver oppgave må kunne forstås alene. Ikke vis til sammendraget, temaene eller annet eleven ikke ser.
+   - Ikke skriv hvor langt svaret skal være. Ikke ja/nei-spørsmål eller meningsspørsmål uten fasit.
+   - fasit: et fullgodt svar på elevens nivå, 1–4 setninger. kriterier: 1–3 korte punkter med det vesentlige faglige innholdet.
+   - Bygg bare på fakta i sammendragene, på samme språk og målform.`;
+
+// Gyldige skriveoppgaver uten gjentakelser, heller ikke av dem som finnes fra før.
+function rensSkriv(liste, finnes = []) {
+  const ut = [];
+  const tekster = new Set(finnes.map((s) => s.text.trim().toLowerCase()));
+  for (const o of liste ?? []) {
+    const text = o.text?.trim();
+    const fasit = o.fasit?.trim();
+    const kriterier = (o.kriterier ?? []).map((k) => k.trim()).filter(Boolean).slice(0, 3);
+    if (!text || !fasit || !kriterier.length || text.length > 500 || fasit.length > 900) continue;
+    if (tekster.has(text.toLowerCase())) continue;
+    tekster.add(text.toLowerCase());
+    ut.push({ text, fasit, kriterier });
+  }
+  return ut;
+}
+
 function lagPrompt({ meta, temaer }, trinnNavn) {
   const n = temaer.length;
   const system = `Du lager et repetisjonstema i øveappen Studer, for norske elever på ${trinnNavn} i faget ${meta.name}. Temaet heter «${REPETISJON.navn}» og er siste tema i faget. Eleven bruker det til å repetere før tentamen og eksamen. Faget har ${n} temaer (T1–T${n}). Under får du sammendraget, kjernebegrepene og kjernespørsmålene fra hvert tema.
@@ -129,12 +156,7 @@ Lag dette:
 
 4. prove: id-ene til 5–8 prøvespørsmål (som «T4-m02») fra så mange temaer som mulig, til miniprøven.
 
-5. skriv: ${SKRIV} skriveoppgaver som eksamensøving. Eleven skriver svaret selv, med 1–5 setninger, og en språkmodell retter det ut fra fasiten og kriteriene (0, ½ eller 1 poeng).
-   - Minst halvparten skal gå på tvers av temaer: sammenligne, forklare en sammenheng, eller bruke kunnskap fra flere temaer på en situasjon. I matematikk og realfag: minst to korte regneoppgaver som kan løses uten kalkulator.
-   - Hver oppgave må kunne forstås alene. Ikke vis til sammendraget, temaene eller annet eleven ikke ser.
-   - Ikke skriv hvor langt svaret skal være. Ikke ja/nei-spørsmål eller meningsspørsmål uten fasit.
-   - fasit: et fullgodt svar på elevens nivå, 1–4 setninger. kriterier: 1–3 korte punkter med det vesentlige faglige innholdet.
-   - Bygg bare på fakta i sammendragene, på samme språk og målform.`;
+5. skriv: ${skrivRegler(SKRIV)}`;
 
   const deler = temaer.map(({ nr, t, kort, quiz, prove }) => {
     const fasit = (q) =>
@@ -226,27 +248,17 @@ function kontroller(svar, fag) {
   while (quiz.length + prove.length < PROVE[0] && reserve.length) prove.push(reserve.shift());
   prove = prove.slice(0, Math.max(0, PROVE[1] - quiz.length));
 
-  const skriv = [];
-  const tekster = new Set();
-  for (const o of svar.skriv ?? []) {
-    const text = o.text?.trim();
-    const fasit = o.fasit?.trim();
-    const kriterier = (o.kriterier ?? []).map((k) => k.trim()).filter(Boolean).slice(0, 3);
-    if (!text || !fasit || !kriterier.length || text.length > 500 || fasit.length > 900) continue;
-    if (tekster.has(text.toLowerCase())) continue;
-    tekster.add(text.toLowerCase());
-    skriv.push({ text, fasit, kriterier });
-  }
+  const skriv = rensSkriv(svar.skriv);
 
   const sammendrag = (svar.sammendrag ?? "").trim();
   const feil = [];
   if (kort.length < KORT[0]) feil.push(`${kort.length} begreper`);
   if (quiz.length < QUIZ[0]) feil.push(`${quiz.length} quizspørsmål`);
   if (quiz.length + prove.length < PROVE[0]) feil.push(`${quiz.length + prove.length} i miniprøven`);
-  if (skriv.length < 6) feil.push(`${skriv.length} skriveoppgaver`);
+  if (skriv.length < SKRIV - 4) feil.push(`${skriv.length} skriveoppgaver`);
   if (ord(sammendrag) < ORD[0] || ord(sammendrag) > ORD[1]) feil.push(`${ord(sammendrag)} ord i sammendraget`);
   if (feil.length) return { feil: feil.join(", ") };
-  return { kort, quiz, prove, skriv: skriv.slice(0, 10), sammendrag };
+  return { kort, quiz, prove, skriv: skriv.slice(0, SKRIV), sammendrag };
 }
 
 // Tankekartet: faget i midten, ett grein per tema med de valgte begrepene.
@@ -297,22 +309,10 @@ function lagTema(fag, valg) {
   };
 }
 
-async function lag(jobb) {
-  const fag = lesFag(jobb.dir);
-  if (fag.temaer.length < 2) throw new Error("for få temaer");
-  const { system, bruker } = lagPrompt(fag, jobb.trinnNavn);
-  const body = {
-    model: MODELL,
-    messages: [
-      { role: "system", content: system },
-      { role: "user", content: bruker },
-    ],
-  };
-  if (ER_OPENAI) Object.assign(body, { response_format: FORMAT, store: false, reasoning_effort: RESONNERING });
-
+// Ett kall til modellen, med nye forsøk. godta(svar) gir resultatet, eller { feil }.
+async function kall(jobb, body, godta) {
   let ventet = 0;
   for (let forsok = 1; forsok <= 3; forsok++) {
-    const start = Date.now();
     try {
       const res = await fetch(`${BASE_URL}/chat/completions`, {
         method: "POST",
@@ -336,31 +336,109 @@ async function lag(jobb) {
       }
       const bruk = data.usage ?? {};
       const kostnad = ((bruk.prompt_tokens ?? 0) * PRIS.inn + (bruk.completion_tokens ?? 0) * PRIS.ut) / 1e6;
-      const valg = kontroller(JSON.parse(data.choices?.[0]?.message?.content ?? "{}"), fag);
-      if (valg.feil) {
-        console.log(`  … ${jobb.navn}: ${valg.feil}, prøver igjen`);
-        continue;
-      }
-
-      skrivJson(join(jobb.dir, fag.fil), lagTema(fag, valg));
-      // Leser _fag.json på nytt rett før skriving, i tilfelle den er endret imens.
-      const meta = lesJson(join(jobb.dir, "_fag.json"));
-      if (!meta.temaer.includes(REPETISJON.id)) {
-        meta.temaer.push(REPETISJON.id);
-        skrivJson(join(jobb.dir, "_fag.json"), meta);
-      }
-      console.log(
-        `✓ ${jobb.navn} · ${fag.temaer.length} temaer · ${ord(valg.sammendrag)} ord · ${valg.kort.length} kort · ` +
-          `${valg.quiz.length} quiz · ${valg.prove.length} prøve · ${valg.skriv.length} skriv · ` +
-          `${((Date.now() - start) / 1000).toFixed(1)} s · ${(kostnad * 100).toFixed(2)} cent`
-      );
-      return kostnad;
+      const resultat = godta(JSON.parse(data.choices?.[0]?.message?.content ?? "{}"));
+      if (!resultat.feil) return { resultat, kostnad };
+      console.log(`  … ${jobb.navn}: ${resultat.feil}, prøver igjen`);
     } catch (e) {
       if (forsok === 3) throw e;
       await vent(3000 * forsok);
     }
   }
   throw new Error("ga opp etter tre forsøk");
+}
+
+const FORMAT_SKRIV = {
+  type: "json_schema",
+  json_schema: {
+    name: "skriveoppgaver",
+    strict: true,
+    schema: {
+      type: "object",
+      properties: { skriv: FORMAT.json_schema.schema.properties.skriv },
+      required: ["skriv"],
+      additionalProperties: false,
+    },
+  },
+};
+
+// --flere-skriv: fyller opp skriveoppgavene i et eksisterende repetisjonstema og
+// setter tiden. Nivåsjekken fjernes, så content:niva sjekker temaet på nytt.
+async function lagFlere(jobb) {
+  const start = Date.now();
+  const fag = lesFag(jobb.dir);
+  const sti = join(jobb.dir, fag.fil);
+  const rep = lesJson(sti);
+  const finnes = rep.miniprove.skriv ?? [];
+  const mangler = SKRIV - finnes.length;
+  if (mangler <= 0 && rep.miniprove.minutter === REPETISJON.minutter) {
+    console.log(`· ${jobb.navn}: har allerede ${finnes.length} skriveoppgaver`);
+    return 0;
+  }
+  let nye = [];
+  let kostnad = 0;
+  if (mangler > 0) {
+    const system = `Du lager skriveoppgaver til repetisjonsprøven i øveappen Studer, for norske elever på ${jobb.trinnNavn} i faget ${fag.meta.name}. Prøven dekker hele faget og brukes før tentamen og eksamen. Under får du sammendraget fra hvert tema.
+
+Lag ${skrivRegler(mangler)}
+
+Disse oppgavene finnes allerede. Ikke lag like eller nesten like oppgaver:
+${finnes.map((s) => `- ${s.text}`).join("\n")}`;
+    const bruker = fag.temaer.map(({ t }) => `### ${t.name}\n${t.sammendrag}`).join("\n\n");
+    const body = {
+      model: MODELL,
+      messages: [
+        { role: "system", content: system },
+        { role: "user", content: bruker },
+      ],
+    };
+    if (ER_OPENAI) Object.assign(body, { response_format: FORMAT_SKRIV, store: false, reasoning_effort: RESONNERING });
+    const svar = await kall(jobb, body, (s) => {
+      const r = rensSkriv(s.skriv, finnes);
+      return r.length >= Math.min(mangler, 6) ? { skriv: r.slice(0, mangler) } : { feil: `${r.length} skriveoppgaver` };
+    });
+    nye = svar.resultat.skriv;
+    kostnad = svar.kostnad;
+  }
+  // Leser filen på nytt rett før skriving, i tilfelle den er endret imens.
+  const fersk = lesJson(sti);
+  const alle = [...(fersk.miniprove.skriv ?? []), ...nye];
+  fersk.miniprove.skriv = alle.map((s, i) => ({ ...s, id: `s${String(i + 1).padStart(2, "0")}` }));
+  fersk.miniprove.minutter = REPETISJON.minutter;
+  delete fersk.kvalitet.nivasjekk;
+  skrivJson(sti, fersk);
+  console.log(`✓ ${jobb.navn} · ${alle.length} skriveoppgaver (+${nye.length}) · ${((Date.now() - start) / 1000).toFixed(1)} s · ${(kostnad * 100).toFixed(2)} cent`);
+  return kostnad;
+}
+
+async function lag(jobb) {
+  const fag = lesFag(jobb.dir);
+  if (fag.temaer.length < 2) throw new Error("for få temaer");
+  const { system, bruker } = lagPrompt(fag, jobb.trinnNavn);
+  const body = {
+    model: MODELL,
+    messages: [
+      { role: "system", content: system },
+      { role: "user", content: bruker },
+    ],
+  };
+  if (ER_OPENAI) Object.assign(body, { response_format: FORMAT, store: false, reasoning_effort: RESONNERING });
+
+  const start = Date.now();
+  const { resultat: valg, kostnad } = await kall(jobb, body, (svar) => kontroller(svar, fag));
+
+  skrivJson(join(jobb.dir, fag.fil), lagTema(fag, valg));
+  // Leser _fag.json på nytt rett før skriving, i tilfelle den er endret imens.
+  const meta = lesJson(join(jobb.dir, "_fag.json"));
+  if (!meta.temaer.includes(REPETISJON.id)) {
+    meta.temaer.push(REPETISJON.id);
+    skrivJson(join(jobb.dir, "_fag.json"), meta);
+  }
+  console.log(
+    `✓ ${jobb.navn} · ${fag.temaer.length} temaer · ${ord(valg.sammendrag)} ord · ${valg.kort.length} kort · ` +
+      `${valg.quiz.length} quiz · ${valg.prove.length} prøve · ${valg.skriv.length} skriv · ` +
+      `${((Date.now() - start) / 1000).toFixed(1)} s · ${(kostnad * 100).toFixed(2)} cent`
+  );
+  return kostnad;
 }
 
 let sum = 0;
@@ -371,7 +449,7 @@ async function arbeider() {
   while (neste < valgte.length) {
     const jobb = valgte[neste++];
     try {
-      const kostnad = await lag(jobb);
+      const kostnad = await (flereSkriv ? lagFlere(jobb) : lag(jobb));
       sum += kostnad; // ikke «sum += await …»: da overskriver arbeiderne hverandres sum
       ferdig++;
     } catch (e) {

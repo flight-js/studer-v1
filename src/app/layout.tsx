@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Fraunces, Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/lib/auth";
-import { BESKRIVELSE, DELING, NAVN, NETTSTED, TITTEL } from "@/lib/seo";
+import { BESKRIVELSE, DELING, NAVN, NETTSTED, TITTEL, TITTELMAL } from "@/lib/seo";
 
 // Skriftene lastes ned ved bygging og serveres fra studer.no, så siden ikke
 // venter på Google Fonts før den vises.
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   applicationName: NAVN,
   title: {
     default: TITTEL,
-    template: `%s · ${NAVN}`,
+    template: TITTELMAL,
   },
   description: BESKRIVELSE,
   openGraph: { ...DELING, title: TITTEL, description: BESKRIVELSE },

@@ -35,6 +35,8 @@ const strukturerteData = {
       "@type": "WebSite",
       "@id": `${NETTSTED}/#nettsted`,
       name: NAVN,
+      // Google bruker dette som navnet på nettstedet i søkeresultatene.
+      alternateName: "studer.no",
       url: NETTSTED,
       inLanguage: "nb-NO",
       publisher: { "@id": `${NETTSTED}/#organisasjon` },

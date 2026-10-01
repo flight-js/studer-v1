@@ -6,6 +6,7 @@ import { sideMetadata } from "@/lib/seo";
 
 export const metadata = sideMetadata({
   tittel: "Personvernerklæring",
+  googleTittel: "Personvernerklæring for Studer",
   beskrivelse: "Hvilke opplysninger Studer behandler om deg, hvorfor, hvem vi deler dem med, og hvordan du sletter kontoen din.",
   sti: "/personvern",
   indekser: true,

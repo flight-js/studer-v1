@@ -90,6 +90,7 @@ export type Kvalitet = {
   status: "utkast" | "sjekkes" | "godkjent";
   merknader: string[];
   nivasjekk?: string; // dato for siste nivåsjekk, «2026-09-29»
+  alternativer?: string; // dato feilsvarene sist ble forbedret (npm run content:alternativer)
 };
 
 export type TemaContent = {
