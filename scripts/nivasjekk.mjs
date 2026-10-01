@@ -206,6 +206,10 @@ const FORMAT = {
 
 const vent = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Tom for kreditt hos OpenAI: å vente hjelper ikke, så hele kjøringen stopper.
+let tomForKreditt = false;
+const KREDITTFEIL = ["insufficient_quota", "credit_balance_exhausted"];
+
 // Hvor lenge vi skal vente etter 429: «retry-after» (sekunder) eller
 // «x-ratelimit-reset-tokens» («56.8s», «120ms», «1m2s»), ellers 20 s.
 function ventetid(headers) {
@@ -255,6 +259,10 @@ async function vurder(jobb, t, body) {
       if (!res.ok) {
         // Tokengrensen per minutt: vent så lenge leverandøren sier, uten å
         // bruke opp forsøkene (men gi opp etter ti ganger).
+        if (KREDITTFEIL.includes(data.error?.code)) {
+          tomForKreditt = true;
+          throw new Error("tom for kreditt hos OpenAI – fyll på og kjør skriptet igjen");
+        }
         if (res.status === 429 && ventet < 10) {
           ventet++;
           forsok--;
@@ -273,7 +281,7 @@ async function vurder(jobb, t, body) {
       if (svar) return { svar, kostnad };
       console.log(`  … ${jobb.navn}: ufullstendig svar, prøver igjen`);
     } catch (e) {
-      if (forsok === 3) throw e;
+      if (tomForKreditt || forsok === 3) throw e;
       await vent(3000 * forsok);
     }
   }
@@ -335,7 +343,7 @@ let ferdig = 0;
 const feil = [];
 let neste = 0;
 async function arbeider() {
-  while (neste < valgte.length) {
+  while (neste < valgte.length && !tomForKreditt) {
     const jobb = valgte[neste++];
     try {
       const kostnad = await sjekk(jobb);

@@ -180,6 +180,10 @@ const FORMAT_BLIND = {
 
 const vent = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Tom for kreditt hos OpenAI: å vente hjelper ikke, så hele kjøringen stopper.
+let tomForKreditt = false;
+const KREDITTFEIL = ["insufficient_quota", "credit_balance_exhausted"];
+
 function ventetid(headers) {
   const sek = Number(headers.get("retry-after"));
   if (sek > 0) return sek * 1000;
@@ -200,6 +204,10 @@ async function kall(jobb, body) {
       });
       const data = await res.json();
       if (!res.ok) {
+        if (KREDITTFEIL.includes(data.error?.code)) {
+          tomForKreditt = true;
+          throw new Error("tom for kreditt hos OpenAI – fyll på og kjør skriptet igjen");
+        }
         if (res.status === 429 && ventet < 10) {
           ventet++;
           forsok--;
@@ -216,7 +224,7 @@ async function kall(jobb, body) {
       const kostnad = ((bruk.prompt_tokens ?? 0) * PRIS.inn + (bruk.completion_tokens ?? 0) * PRIS.ut) / 1e6;
       return { svar: JSON.parse(data.choices?.[0]?.message?.content ?? "{}"), kostnad };
     } catch (e) {
-      if (forsok === 3) throw e;
+      if (tomForKreditt || forsok === 3) throw e;
       await vent(3000 * forsok);
     }
   }
@@ -382,7 +390,7 @@ let ferdig = 0;
 const feil = [];
 let neste = 0;
 async function arbeider() {
-  while (neste < valgte.length) {
+  while (neste < valgte.length && !tomForKreditt) {
     const jobb = valgte[neste++];
     try {
       const kostnad = await forbedre(jobb);
