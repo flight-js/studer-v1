@@ -1,0 +1,579 @@
+{
+  "id": "repetisjon",
+  "fagId": "engelsk-fordypning-10",
+  "trinnId": "10",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+  ],
+  "sammendrag": "English deepening helps you understand how English is used in games, digital products and different kinds of media. It also develops your ability to analyse persuasion and think critically about how you present yourself and others online. Across the subject, pay attention to audience, purpose, choices and the effects of communication.\n\n## Video games as texts\n\nGames are **texts**: they tell stories, create worlds and communicate messages. Their key difference from books and films is **interactivity**: players take part and influence what happens. A game’s **narrative** may have characters, conflict and themes, and a **branching narrative** lets choices lead to different endings. **World-building** creates a believable setting with its own history, rules and culture.\n\nTo analyse a game, consider both its content and its form. **Gameplay** is the rules and actions available to the player; **game mechanics** are the systems that make the game work, such as points, levels and health. Also notice the **perspective**, sound and music, and **cutscenes**. Games can entertain, tell stories, teach, train, invite reflection or make money. For example, free-to-play games may use in-game purchases and loot boxes. Games can create communities and help players practise English, but they also raise questions about representation, violence, screen time and health. Gaming language includes **jargon** such as “GG”, “lag” and “respawn”; online chat can also include toxic language.\n\n## Creating digital products\n\nA **digital product** combines media types such as text, pictures, video, sound, animation and interactive elements. Examples include podcasts, films, websites and digital stories. Begin by deciding the **purpose**, **audience** and **message**: what the product should achieve, who it is for and what the audience should remember. Choose a format that suits the purpose: podcasts suit sound-based interviews or stories, videos show actions and emotions, and websites can combine text, pictures and links.\n\nPlan before making the product. Brainstorm and research, write a **script** or outline, sketch a **storyboard**, gather material and create a timeline. Make the media types support one another: pictures and text should add meaning together, music should suit the mood without drowning out speech, and captions can improve accessibility. A **consistent design**, readable text, good contrast and clear sound help make the product usable. Record carefully and edit by cutting mistakes and long pauses and adjusting sound. Test the finished product with someone from its intended audience, use feedback to improve it, credit sources and get **consent** from people who appear in it before publishing.\n\n## Language in different media\n\nLanguage changes to fit its **medium**, purpose and audience. News aims to inform and often uses the **inverted pyramid**, putting the most important information first. Headlines are short and may leave out small words; tabloids tend to use more dramatic language than broadsheets. Social media is often informal and brief, using abbreviations, emojis, hashtags, memes and slang to encourage **engagement** such as likes, comments and shares.\n\nAdvertising aims to sell. It may use **imperatives** (“Buy now!”), positive adjectives, memorable **slogans**, wordplay and **direct address** such as “you”. Podcasts, radio and videos often sound conversational and may include fillers. Speeches can use rhetorical questions, repetition and the **rule of three**. Formal writing, such as reports and applications, uses complete sentences, precise vocabulary and little slang. When comparing texts, consider register, sentence structure, word choice, devices, visuals, audience and purpose. English also varies: British and American English differ in spelling and vocabulary, so use one variety consistently in your writing.\n\n## Persuasion and rhetoric\n\n**Rhetoric** is the effective use of language to persuade. The three main appeals are **ethos**, trust in the sender’s credibility; **pathos**, an appeal to emotions; and **logos**, an appeal to logic through facts, examples and reasoning. Strong arguments often combine them. Other techniques include rhetorical questions, repetition, inclusive language such as “we”, exaggeration, bandwagon claims, testimonials and fear appeals.\n\nAlways consider who sent a message, their point of view and what they may gain. Ask what the purpose is and which perspectives may be missing. Persuasion is not always manipulation, but warning signs include propaganda, statistics without context, straw-man arguments, personal attacks and deepfakes. As a critical receiver, separate facts from opinions, notice which appeals are used and check claims in other sources. As a responsible persuader, use honest facts and respectful language. Answering **counterarguments** can make an opinion piece more convincing.\n\n## Self-presentation online\n\nOnline, you may be a **consumer** who watches or reads, a participant who likes or shares, a creator who posts, or a bystander who sees something such as bullying without acting. Each role carries responsibility because likes and shares can help content spread. Your **online identity** is how you present yourself, and it can influence and be influenced by your real-life identity.\n\nPeople often curate profiles by choosing flattering pictures and sharing highlights. Filters and selected images can create **unrealistic ideals**, and comparison with them can affect **self-esteem**. Influencers may earn money promoting products and lifestyles; sponsored content must be clearly marked as advertising. Before posting pictures or videos of other people, ask for consent, and avoid sharing material that mocks people or spreads rumours. Stereotypes online can affect how people see groups in real life.\n\nAlgorithms shape what appears in a feed based on what you have clicked on. This can create a **filter bubble**, where you mostly see content that matches what you already like and think. Following different accounts, muting some and taking breaks can make a feed healthier. Online life can offer confidence and space to explore interests, but it can also involve pressure to be always available or cyberbullying.\n\n## Sammenhenger i faget\n\nThe themes all explore how communication is shaped by choices and by its audience and purpose. Games and digital products combine different forms of media, while language choices and persuasive techniques affect how messages are understood. Online, people both create and receive those messages: they should consider credibility, representation, consent and the effects of sharing. Analysing media critically and creating it responsibly are connected skills.\n\n## Huskeliste før prøven\n\n- Explain how interactivity shapes a game.\n- Distinguish narrative, gameplay and game mechanics.\n- Plan a digital product around purpose, audience and message.\n- Use a script or storyboard to plan content.\n- Explain how language changes with medium and audience.\n- Recognise ethos, pathos and logos.\n- Check the sender, purpose and evidence in persuasive messages.\n- Remember consent, source credit and accessibility when publishing.\n- Consider how curation and algorithms shape online identity and feeds.",
+  "flashcards": [
+    {
+      "term": "Interactivity",
+      "def": "The player takes part and influences what happens."
+    },
+    {
+      "term": "Narrative",
+      "def": "The story told in a game, with characters, conflict and themes."
+    },
+    {
+      "term": "Branching narrative",
+      "def": "A story where the player's choices lead to different endings.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Gameplay",
+      "def": "The rules and actions the player can take."
+    },
+    {
+      "term": "Game mechanics",
+      "def": "The systems that make a game work, like points, levels and health."
+    },
+    {
+      "term": "Digital product",
+      "def": "Something created with digital tools that combines different media types."
+    },
+    {
+      "term": "Purpose",
+      "def": "What you want to achieve: inform, explain, tell, persuade or entertain."
+    },
+    {
+      "term": "Audience",
+      "def": "The people your product is made for."
+    },
+    {
+      "term": "Storyboard",
+      "def": "Simple sketches of each scene or page.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Accessibility",
+      "def": "Making a product easy for as many people as possible to use.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Medium",
+      "def": "The channel used to communicate, like a newspaper, podcast or social media."
+    },
+    {
+      "term": "Inverted pyramid",
+      "def": "A news structure with the most important information first.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Imperative",
+      "def": "A command, like “Buy now!”"
+    },
+    {
+      "term": "British and American English",
+      "def": "Varieties with different spelling and words, like colour/color and flat/apartment."
+    },
+    {
+      "term": "Ethos",
+      "def": "An appeal to the sender's credibility."
+    },
+    {
+      "term": "Pathos",
+      "def": "An appeal to emotions."
+    },
+    {
+      "term": "Logos",
+      "def": "An appeal to logic, facts and reasoning."
+    },
+    {
+      "term": "Propaganda",
+      "def": "One-sided information spread to control what people think.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Online identity",
+      "def": "The way you present yourself online."
+    },
+    {
+      "term": "Curate",
+      "def": "To choose carefully what to show."
+    },
+    {
+      "term": "Sponsored content",
+      "def": "Paid advertising that must be clearly marked.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Filter bubble",
+      "def": "When you mostly see content that matches what you already like and think.",
+      "niva": "eksempel"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "What makes video games different from books and films?",
+      "options": [
+        "They have no stories",
+        "Interactivity – the player takes part and influences what happens",
+        "They have no sound",
+        "They are always short"
+      ],
+      "correct": 1,
+      "explain": "The player is not just watching, but acting."
+    },
+    {
+      "id": "q02",
+      "text": "What is a branching narrative?",
+      "options": [
+        "A story about trees",
+        "A game without a story",
+        "A cutscene",
+        "A story where the player's choices lead to different endings"
+      ],
+      "correct": 3,
+      "explain": "Branching narratives make choices meaningful.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q03",
+      "text": "What are game mechanics?",
+      "options": [
+        "The people who repair consoles",
+        "The story of a game",
+        "The systems that make the game work, like points, levels and health",
+        "The music"
+      ],
+      "correct": 2,
+      "explain": "Mechanics decide how the player interacts with the game."
+    },
+    {
+      "id": "q04",
+      "text": "What should you decide before choosing tools?",
+      "options": [
+        "Your purpose, audience and message",
+        "The price of the software",
+        "The colour of your laptop",
+        "The length of your name"
+      ],
+      "correct": 0,
+      "explain": "Purpose and audience decide which format fits best."
+    },
+    {
+      "id": "q05",
+      "text": "What is a storyboard?",
+      "options": [
+        "A finished film",
+        "Simple sketches of each scene or page",
+        "A list of sources",
+        "A music track"
+      ],
+      "correct": 1,
+      "explain": "Storyboards help you plan before you record.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q06",
+      "text": "What must you get from people who appear in your video?",
+      "options": [
+        "Money",
+        "Consent",
+        "Their passwords",
+        "Nothing"
+      ],
+      "correct": 1,
+      "explain": "Everyone has the right to decide over pictures and videos of themselves."
+    },
+    {
+      "id": "q07",
+      "text": "What is the inverted pyramid in news writing?",
+      "options": [
+        "A type of headline",
+        "A picture layout",
+        "A way to end an article",
+        "Putting the most important information first"
+      ],
+      "correct": 3,
+      "explain": "Readers get the key facts even if they stop early.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q08",
+      "text": "Which of these is an imperative?",
+      "options": [
+        "The shoes are new.",
+        "Buy now!",
+        "Do you like it?",
+        "It was amazing."
+      ],
+      "correct": 1,
+      "explain": "Imperatives tell the reader to do something."
+    },
+    {
+      "id": "q09",
+      "text": "Which features are typical of formal writing?",
+      "options": [
+        "Slang and emojis",
+        "Abbreviations like idk",
+        "Short posts for engagement",
+        "Complete sentences, precise vocabulary and no slang"
+      ],
+      "correct": 3,
+      "explain": "Formal writing is used in reports, essays and applications."
+    },
+    {
+      "id": "q10",
+      "text": "Which appeal uses facts and statistics?",
+      "options": [
+        "Ethos",
+        "Pathos",
+        "Logos",
+        "Bandwagon"
+      ],
+      "correct": 2,
+      "explain": "Logos appeals to reason."
+    },
+    {
+      "id": "q11",
+      "text": "“As a doctor with 20 years of experience, I recommend …” Which appeal is this?",
+      "options": [
+        "Pathos",
+        "Ethos",
+        "Logos",
+        "Hyperbole"
+      ],
+      "correct": 1,
+      "explain": "The sender's expertise makes the message credible."
+    },
+    {
+      "id": "q12",
+      "text": "What is propaganda?",
+      "options": [
+        "One-sided information spread to control what people think",
+        "A balanced news report",
+        "A school essay",
+        "A scientific study"
+      ],
+      "correct": 0,
+      "explain": "Propaganda hides other perspectives.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q13",
+      "text": "Why can edited images affect self-esteem?",
+      "options": [
+        "Because comparing yourself with unrealistic ideals can make you feel you are not good enough",
+        "Because they are always ugly",
+        "Because they are illegal",
+        "Because they are too small"
+      ],
+      "correct": 0,
+      "explain": "Edited pictures show a reality that does not exist."
+    },
+    {
+      "id": "q14",
+      "text": "What decides what appears in your feed?",
+      "options": [
+        "Your teacher",
+        "The government",
+        "Chance only",
+        "Algorithms based on what you have clicked on"
+      ],
+      "correct": 3,
+      "explain": "Algorithms learn from your behaviour.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q15",
+      "text": "What is a filter bubble?",
+      "options": [
+        "A soap bubble",
+        "When you mostly see content that matches what you already like and think",
+        "A photo filter",
+        "A privacy setting"
+      ],
+      "correct": 1,
+      "explain": "Filter bubbles can limit the perspectives you meet.",
+      "niva": "eksempel"
+    }
+  ],
+  "mindmap": {
+    "label": "Engelsk fordypning",
+    "children": [
+      {
+        "label": "Video games as texts",
+        "children": [
+          {
+            "label": "Interactivity",
+            "note": "The player takes part and influences what happens."
+          },
+          {
+            "label": "Narrative",
+            "note": "The story told in a game, with characters, conflict and themes."
+          },
+          {
+            "label": "Branching narrative",
+            "note": "A story where the player's choices lead to different endings."
+          },
+          {
+            "label": "Gameplay",
+            "note": "The rules and actions the player can take."
+          },
+          {
+            "label": "Game mechanics",
+            "note": "The systems that make a game work, like points, levels and health."
+          }
+        ]
+      },
+      {
+        "label": "Creating digital products",
+        "children": [
+          {
+            "label": "Digital product",
+            "note": "Something created with digital tools that combines different media types."
+          },
+          {
+            "label": "Purpose",
+            "note": "What you want to achieve: inform, explain, tell, persuade or entertain."
+          },
+          {
+            "label": "Audience",
+            "note": "The people your product is made for."
+          },
+          {
+            "label": "Storyboard",
+            "note": "Simple sketches of each scene or page."
+          },
+          {
+            "label": "Accessibility",
+            "note": "Making a product easy for as many people as possible to use."
+          }
+        ]
+      },
+      {
+        "label": "Language in different media",
+        "children": [
+          {
+            "label": "Medium",
+            "note": "The channel used to communicate, like a newspaper, podcast or social media."
+          },
+          {
+            "label": "Inverted pyramid",
+            "note": "A news structure with the most important information first."
+          },
+          {
+            "label": "Imperative",
+            "note": "A command, like “Buy now!”"
+          },
+          {
+            "label": "British and American English",
+            "note": "Varieties with different spelling and words, like colour/color and flat/apartment."
+          }
+        ]
+      },
+      {
+        "label": "Persuasion and rhetoric",
+        "children": [
+          {
+            "label": "Ethos",
+            "note": "An appeal to the sender's credibility."
+          },
+          {
+            "label": "Pathos",
+            "note": "An appeal to emotions."
+          },
+          {
+            "label": "Logos",
+            "note": "An appeal to logic, facts and reasoning."
+          },
+          {
+            "label": "Propaganda",
+            "note": "One-sided information spread to control what people think."
+          }
+        ]
+      },
+      {
+        "label": "Self-presentation online",
+        "children": [
+          {
+            "label": "Online identity",
+            "note": "The way you present yourself online."
+          },
+          {
+            "label": "Curate",
+            "note": "To choose carefully what to show."
+          },
+          {
+            "label": "Sponsored content",
+            "note": "Paid advertising that must be clearly marked."
+          },
+          {
+            "label": "Filter bubble",
+            "note": "When you mostly see content that matches what you already like and think."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "All games have exactly the same story for every player.",
+        "correct": false,
+        "explain": "In many games, the player's choices change the story."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "What is gameplay?",
+        "options": [
+          "The rules and actions the player can take",
+          "The game's price",
+          "The box cover",
+          "The credits"
+        ],
+        "correct": 0,
+        "explain": "Gameplay is what you actually do in the game."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "What is accessibility?",
+        "options": [
+          "Making a product easy for as many people as possible to use",
+          "Making it expensive",
+          "Hiding it",
+          "Making it very long"
+        ],
+        "correct": 0,
+        "explain": "Good contrast, captions and clear sound improve accessibility.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Which word describes how formal or informal language is?",
+        "options": [
+          "Headline",
+          "Register",
+          "Slogan",
+          "Hashtag"
+        ],
+        "correct": 1,
+        "explain": "We choose register based on the situation."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Strong arguments often combine ethos, pathos and logos.",
+        "correct": true,
+        "explain": "Credibility, feelings and facts support each other."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "A role-playing game lets players make choices that lead to different endings. Explain how this feature makes the game interactive and how it affects the narrative.",
+        "fasit": "The game is interactive because players take part and influence what happens. Its branching narrative changes according to their choices, so different players may reach different endings.",
+        "kriterier": [
+          "Explains that interactivity means the player influences events.",
+          "Explains that a branching narrative lets choices lead to different endings."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "You are making a short video for younger pupils about an unfamiliar topic. Explain two planning choices you should make before recording and one way to make the video accessible.",
+        "fasit": "I should decide the purpose, audience and main message before choosing tools. I could write a script and make a storyboard to plan what will be said and shown. Captions can make the video accessible to more people.",
+        "kriterier": [
+          "Names relevant planning choices, such as purpose, audience, message, script or storyboard.",
+          "Gives an accessibility measure such as adding captions."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s03",
+        "text": "A news article puts the main facts first, while an advert says, “Buy now—this is the best phone ever!” Explain how their language choices fit their different purposes.",
+        "fasit": "The news article uses the inverted pyramid, putting the most important information first to inform readers. The advert uses an imperative and a positive claim to persuade people to buy the phone.",
+        "kriterier": [
+          "Connects the news structure or language to informing.",
+          "Identifies an advertising technique and connects it to persuasion or selling."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "A company posts that “everyone is choosing our product” and includes a famous customer's recommendation. Identify the two persuasive techniques and explain how each may influence an audience.",
+        "fasit": "“Everyone is choosing our product” uses the bandwagon technique, suggesting that the audience should follow what others do. The famous customer's recommendation is a testimonial, which may influence people through the customer's endorsement.",
+        "kriterier": [
+          "Identifies bandwagon and explains the appeal of following others.",
+          "Identifies a testimonial as a recommendation."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s05",
+        "text": "A campaign uses a health expert, an emotional story and evidence to encourage people to change a habit. Name the three appeals and explain what each one relies on.",
+        "fasit": "The health expert uses ethos, which relies on credibility. The emotional story uses pathos, which appeals to feelings. The evidence uses logos, which relies on facts and reasoning.",
+        "kriterier": [
+          "Correctly matches the expert with ethos and credibility.",
+          "Correctly matches the emotional story with pathos and feelings.",
+          "Correctly matches evidence with logos and facts or reasoning."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "An influencer shares a carefully selected, edited picture while promoting a product. Explain one way the post could affect viewers and one question they should ask to judge the message critically.",
+        "fasit": "The edited picture may contribute to unrealistic ideals, which can affect viewers' self-esteem when they compare themselves with it. Viewers should ask whether the post is sponsored content and remember that it must be clearly marked as advertising.",
+        "kriterier": [
+          "Connects edited or selected images with unrealistic ideals or self-esteem.",
+          "Mentions checking whether the post is advertising or sponsored content."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "You are making a video that includes a friend and uses music from another creator. Explain what you should do before publishing to respect the people and material in it.",
+        "fasit": "I should get my friend's consent before including them in the video. I should use my own music or music I have permission to use, and credit the source.",
+        "kriterier": [
+          "Says to get consent from the person who appears.",
+          "Says to get permission to use material or use original material, and credit sources."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "A social media user sees a bullying post, shares it, and then notices that their feed mostly shows similar posts. Explain the user's role in sharing the post and how the feed may have become so narrow.",
+        "fasit": "By sharing the post, the user is a participant, and the share can help the content spread. Algorithms use previous clicks to shape a feed, which can create a filter bubble where similar content appears repeatedly.",
+        "kriterier": [
+          "Identifies sharing as the role of a participant and notes that shares can spread content.",
+          "Explains that algorithms use previous activity and can create a filter bubble."
+        ],
+        "niva": "eksempel"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "id": "repetisjon",
+  "fagId": "informasjonsteknologi-1",
+  "trinnId": "vg2",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sammendrag": "Informasjonsteknologi 1 handler om hvordan datamaskiner, nettverk og programmer fungerer, og hvordan vi utvikler digitale løsninger. Faget tar også opp hvordan data og teknologi påvirker mennesker, samfunnet og miljøet.\n\n## Informasjonsteknologi i samfunnet\nIT gir muligheter innen blant annet helse, arbeid og kommunikasjon, men skaper også utfordringer. **Kunstig intelligens (KI)** løser oppgaver vi forbinder med menneskelig intelligens, og **maskinlæring** lar systemer lære mønstre fra data. KI kan gi feil svar, gjenta skjevheter i treningsdata og brukes til deepfakes. I sosiale medier påvirker **algoritmer** hva vi ser, ofte ut fra engasjement; det kan skape ekkokamre og spre feilinformasjon. **Automatisering** endrer arbeidslivet og øker behovet for digital kompetanse. Digitalisering kan føre til utenforskap, så universell utforming og hjelp er viktig. Beskyttelse mot dataangrep omfatter blant annet sterke passord, tofaktorautentisering, oppdateringer og sikkerhetskopier. IT påvirker også miljøet gjennom strøm- og vannbruk i datasentre og elektronisk avfall. Når du drøfter et IT-spørsmål, forklarer du teknologien, vurderer argumenter og hvem som berøres, bruker kilder kritisk og begrunner konklusjonen.\n\n## Datamaskiner og nettverk\n**CPU** henter og utfører instruksjoner, **RAM** holder data og programmer som er i bruk, og mister innholdet når strømmen går. **SSD** lagrer filer permanent, mens hovedkortet kobler komponentene sammen. **GPU** kan utføre mange beregninger parallelt. I von Neumann-arkitekturen ligger program og data i samme minne. Et nettverk kobler sammen enheter; internett er et nettverk av nettverk. En svitsj kobler enheter i samme lokalnett, mens en ruter sender data mellom nettverk. **DNS** oversetter domenenavn til IP-adresser. Med **TCP/IP** deles data i pakker; IP hjelper dem fram, og TCP sørger for riktig rekkefølge og at de kommer fram uten feil. Når en nettside åpnes, finner DNS tjenerens adresse, klienten sender en forespørsel, og tjeneren sender tilbake blant annet HTML, CSS og JavaScript. **HTTPS** krypterer overføringen. Skytjenester lagrer data og kjører programmer i datasentre, slik at de kan nås fra ulike enheter, men krever nettforbindelse.\n\n## Digital representasjon og datalagring\nAll informasjon lagres som **biter** (0 eller 1). Åtte bit er én byte, som har 256 mulige verdier. Binære tall regnes ut med toerpotenser: 1011₂ = 8 + 2 + 1 = 11. Ett heksadesimalt siffer svarer til fire bit, og FF₁₆ = 255. Tegn lagres med tegnkoding: ASCII har 128 tegn, mens Unicode og UTF-8 støtter langt flere, blant annet æ, ø og å. Punktgrafikk består av piksler med farger, ofte kodet med **RGB**; vektorgrafikk lagrer former og kan skaleres uten å bli uskarp. Lyd digitaliseres ved målinger av lydbølgen, og samplingsfrekvensen angir antall målinger per sekund. **Tapsfri komprimering** gjenskaper originalen nøyaktig, mens tapsbasert komprimering fjerner detaljer. CSV passer til enkle tabeller, JSON til strukturerte data med nøkler og verdier, og databaser til store datamengder, mange brukere og søk. En primærnøkkel identifiserer en rad entydig.\n\n## Nettsider med HTML og CSS\n**HTML** beskriver innhold og struktur med elementer og tagger; **CSS** bestemmer utseendet. Head-delen inneholder informasjon om siden, mens body inneholder det som vises. Bruk overskrifter i riktig hierarki, lenker med href og bilder med alt-tekst. Semantiske elementer som nav og main beskriver innholdets rolle og hjelper skjermlesere og søkemotorer. I CSS treffer en klasseselektor flere elementer med samme klasse, mens en ID-selektor er ment for ett unikt element. Når regler konkurrerer, avgjør kaskaden spesifisitet eller hvilken regel som kommer sist. Boksmodellen består av content, padding innenfor kanten, border og margin utenfor. Flexbox organiserer elementer, og media queries kan tilpasse utseendet til skjermstørrelser.\n\n## Lagre, hente og presentere data på nettsider\nEn statisk side viser det samme innholdet hver gang; en dynamisk side kan hente og vise data som endres. **JavaScript** kan reagere på brukerhandlinger, endre siden og hente data med fetch fra et API. Data kan ligge i kode eller JSON-fil, i localStorage på brukerens enhet eller i en database på en tjener. Data i en tjenerdatabase kan deles mellom brukere; passord og personopplysninger skal aldri lagres åpent i nettleseren eller koden. Velg diagram etter formålet: søyler sammenligner kategorier, linjer viser utvikling over tid, og sektorer viser andeler. En avkortet y-akse kan overdrive forskjeller. Bruk tydelige aksetitler, enheter og kilde, og velg en framstilling som gir et ærlig inntrykk.\n\n## Brukervennlighet og universell utforming\nEn brukervennlig løsning hjelper brukeren å nå målet raskt og uten feil. Tydelig navigasjon, konsistens, enkelhet, tilbakemeldinger og nyttige feilmeldinger bidrar til dette. Brukersentrert design går fra å kartlegge brukere og skissere løsningen til prototyping, brukertesting og forbedring. **Universell utforming** gjør løsningen brukbar for flest mulig uten spesielle tilpasninger. WCAG bygger på at innhold skal være mulig å oppfatte, betjene og forstå, og være robust. Bruk blant annet god kontrast, alt-tekst, teksting, meningsfulle lenker, tydelige etiketter og synlig tastaturfokus. Test både med automatiske verktøy og manuelt, for eksempel med tastatur og skjermleser.\n\n## Programmering med funksjoner\nProgrammer består av instruksjoner, variabler, datatyper, betingelser og løkker. **Funksjoner** samler kode som kan gjenbrukes; parametere sender verdier inn, og **return** sender et resultat tilbake. Print viser tekst på skjermen, men gir ikke i seg selv en verdi videre til programmet. Lokale variabler finnes bare i funksjonen der de lages. Del programmet i små funksjoner med beskrivende navn, og unngå unødvendig gjentakelse. Syntaksfeil bryter språkreglene, kjøretidsfeil oppstår når programmet kjører, og logiske feil gir feil svar selv om programmet kjører. Les feilmeldinger, undersøk verdier, bruk debugger og test funksjoner med verdier der svaret er kjent.\n\n## Algoritmer og effektivitet\nEn **algoritme** er en presis, endelig oppskrift på en løsning. Lineært søk undersøker elementer ett etter ett og har ofte tidskompleksitet O(n). Binært søk krever en sortert liste og halverer søkeområdet for hvert steg, med O(log n). Boblesortering har O(n²), mens flettesortering deler, sorterer og fletter og har O(n log n). Tidskompleksitet beskriver hvordan kjøretiden vokser når datamengden øker; derfor betyr algoritmevalg mye for store lister. Én løkke over en liste gir ofte O(n), mens to nøstede løkker ofte gir O(n²). Vurder korrekthet, effektivitet og forståelighet, og mål gjerne kjøretiden for ulike datamengder.\n\n## Personvern og regelverk\nEn **personopplysning** er informasjon som kan knyttes til en person; helseopplysninger og flere andre særlige kategorier er ekstra sensitive. GDPR gjelder i Norge gjennom personopplysningsloven, og Datatilsynet fører tilsyn. Opplysninger skal behandles lovlig og åpent, brukes til bestemte formål, begrenses til det nødvendige, være korrekte, ikke lagres lenger enn nødvendig og sikres. Behandling trenger et lovlig grunnlag, for eksempel gyldig samtykke eller en avtale. Brukere har blant annet rett til informasjon, innsyn, retting og sletting. Utviklere bør bygge personvern inn fra starten, ha personvernvennlige standardvalg og samle inn minst mulig.\n\n## Innhenting, bruk og misbruk av data\nData kan komme fra det brukeren oppgir, registrerte handlinger, teknisk informasjon og sensorer. De kan brukes til nyttige formål, som helseforskning og trafikkplanlegging, eller kommersielt til profilering, målrettet reklame og automatiserte beslutninger. **Algoritmisk skjevhet** kan føre til diskriminering; overvåking kan gjøre at folk ikke tør å ytre seg fritt. Datalekkasjer kan føre til identitetstyveri og svindel. Anonymiserte data kan ikke knyttes til en person, mens pseudonymiserte data fortsatt kan kobles tilbake. Som bruker kan du avslå unødvendige informasjonskapsler og sjekke app-tillatelser. Som utvikler bør du samle inn minst mulig, sikre dataene og vurdere mulighet for misbruk. Ved drøfting vurderer du nytte, risiko, tilgang og mindre inngripende alternativer.\n\n## Algoritmisk tenkning og problemløsning\nAlgoritmisk tenkning består av **dekomponering** (dele opp problemet), mønstergjenkjenning, abstraksjon (fjerne uviktige detaljer) og algoritmedesign (lage steg-for-steg-løsningen). Arbeidet går fra tydelig problemstilling og plan med pseudokode eller flytdiagram til programmering, testing, analyse og presentasjon. Bygg løsningen stegvis, test med kjente svar og grensetilfeller, og vurder forenklinger og usikkerhet. Simulering gjentar tilfeldige forsøk mange ganger; resultatet kan sammenlignes med en beregning. En god presentasjon forklarer problem, metode og resultater, vurderer feilkilder og svarer på problemstillingen. Kode og tydelig metode gjør arbeidet etterprøvbart.\n\n## Sammenhenger i faget\nDatamaskiner, lagring og nettverk er grunnlaget for nettsider og tjenester. Programmering og algoritmer gjør det mulig å hente, behandle og vise data, mens valg av diagram og grensesnitt påvirker hvordan brukeren forstår resultatet. Brukervennlighet og universell utforming handler om hvem som kan bruke løsningen; personvern handler om hvordan opplysninger samles inn, lagres og brukes. Data og KI kan gi nytte, men også skjevhet, overvåking og misbruk. Derfor må tekniske valg vurderes sammen med sikkerhet, regelverk, etikk og miljø.\n\n## Huskeliste før prøven\n- Forklar hva CPU, RAM, lagring, ruter, DNS og TCP gjør.\n- Regn mellom binære tall og titallsystemet med toerpotenser.\n- Skill mellom HTML-struktur og CSS-utseende.\n- Velg lagringssted og diagram etter behov og formål.\n- Bruk semantisk HTML og tiltak for universell utforming.\n- Skill mellom parameter, print og returverdi i funksjoner.\n- Sammenlign algoritmer med O-notasjon, og husk at binært søk krever sortering.\n- Bruk dataminimering, lovlig grunnlag og sikre standardvalg.\n- Drøft både nytte og risiko, og begrunn konklusjonen din.",
+  "flashcards": [
+    {
+      "term": "Kunstig intelligens (KI)",
+      "def": "Systemer som løser oppgaver vi forbinder med menneskelig intelligens."
+    },
+    {
+      "term": "Phishing",
+      "def": "Forsøk på å lure til seg passord eller opplysninger.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "CPU",
+      "def": "Prosessoren som utfører instruksjoner."
+    },
+    {
+      "term": "DNS",
+      "def": "Oversetter domenenavn til IP-adresser."
+    },
+    {
+      "term": "Byte",
+      "def": "8 bit – 256 mulige verdier."
+    },
+    {
+      "term": "Primærnøkkel",
+      "def": "Identifiserer hver rad i en databasetabell entydig."
+    },
+    {
+      "term": "HTML",
+      "def": "Markeringsspråk som beskriver innhold og struktur."
+    },
+    {
+      "term": "Semantiske elementer",
+      "def": "header, nav, main, section, article, footer."
+    },
+    {
+      "term": "API",
+      "def": "Grensesnitt for å hente data fra en tjeneste.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Sensitive data",
+      "def": "Skal aldri lagres åpent i nettleseren eller koden."
+    },
+    {
+      "term": "Universell utforming",
+      "def": "Løsningen kan brukes av flest mulig uten spesielle tilpasninger."
+    },
+    {
+      "term": "WCAG-prinsippene",
+      "def": "Mulig å oppfatte, mulig å betjene, forståelig, robust."
+    },
+    {
+      "term": "Funksjon",
+      "def": "Navngitt kodeblokk som kan gjenbrukes."
+    },
+    {
+      "term": "print og return",
+      "def": "print viser, return gir verdien tilbake til programmet."
+    },
+    {
+      "term": "Binært søk",
+      "def": "Halverer søkeområdet i en sortert liste – O(log n)."
+    },
+    {
+      "term": "Tidskompleksitet",
+      "def": "Hvordan kjøretiden vokser med datamengden."
+    },
+    {
+      "term": "Personopplysning",
+      "def": "Opplysning som kan knyttes til en person."
+    },
+    {
+      "term": "Dataminimering",
+      "def": "Samle inn bare det som er nødvendig."
+    },
+    {
+      "term": "Profilering",
+      "def": "Algoritmer lager en profil av en person ut fra data."
+    },
+    {
+      "term": "Algoritmisk skjevhet",
+      "def": "Algoritmer forsterker skjevheter i dataene."
+    },
+    {
+      "term": "Dekomponering",
+      "def": "Å dele problemet i mindre delproblemer."
+    },
+    {
+      "term": "Abstraksjon",
+      "def": "Å fjerne uviktige detaljer."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvorfor kan KI gi urettferdige resultater?",
+      "options": [
+        "Fordi KI alltid er ond",
+        "Fordi KI ikke bruker data",
+        "Fordi den kan gjenta skjevheter i treningsdataene",
+        "Fordi KI er for treg"
+      ],
+      "correct": 2,
+      "explain": "Data fra fortiden kan inneholde skjevheter."
+    },
+    {
+      "id": "q02",
+      "text": "Hva gjør DNS?",
+      "options": [
+        "Oversetter domenenavn til IP-adresser",
+        "Krypterer data",
+        "Lagrer nettsider",
+        "Sender e-post"
+      ],
+      "correct": 0,
+      "explain": "Internettets telefonkatalog."
+    },
+    {
+      "id": "q03",
+      "text": "Hva gjør TCP?",
+      "options": [
+        "Gir enheter en fast adresse",
+        "Sørger for at pakkene kommer fram i riktig rekkefølge og uten feil",
+        "Krypterer passord",
+        "Tegner grafikk"
+      ],
+      "correct": 1,
+      "explain": "IP sørger for at pakkene finner fram."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er en primærnøkkel?",
+      "options": [
+        "Et passord",
+        "Den første kolonnen alltid",
+        "Et felt som identifiserer hver rad entydig",
+        "En krypteringsnøkkel"
+      ],
+      "correct": 2,
+      "explain": "For eksempel et elevnummer."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor bør du bruke semantiske elementer som nav og main?",
+      "options": [
+        "De gir penere farger",
+        "De gjør siden raskere",
+        "De forteller hva delene er, og hjelper skjermlesere og søkemotorer",
+        "De er påbudt i CSS"
+      ],
+      "correct": 2,
+      "explain": "Struktur med mening."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan kan en avkortet y-akse påvirke tolkningen?",
+      "options": [
+        "Den gjør diagrammet mer nøyaktig",
+        "Den har ingen betydning",
+        "Den skjuler alle data",
+        "Den kan få små forskjeller til å se store ut"
+      ],
+      "correct": 3,
+      "explain": "Aksen starter ikke på null."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor bør data som skal deles mellom alle brukere, lagres?",
+      "options": [
+        "I localStorage",
+        "I en database på en tjener",
+        "I brukerens utklippstavle",
+        "I CSS"
+      ],
+      "correct": 1,
+      "explain": "Da kan alle hente og oppdatere dem."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilke fire prinsipper bygger WCAG på?",
+      "options": [
+        "Mulig å oppfatte, mulig å betjene, forståelig, robust",
+        "Rask, billig, pen, trygg",
+        "Farge, form, font, funksjon",
+        "HTML, CSS, JavaScript, SQL"
+      ],
+      "correct": 0,
+      "explain": "Ofte forkortet POUR på engelsk."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er forskjellen på print og return i en funksjon?",
+      "options": [
+        "Det er det samme",
+        "print viser noe på skjermen, return gir verdien tilbake til programmet",
+        "return viser noe på skjermen",
+        "print avslutter programmet"
+      ],
+      "correct": 1,
+      "explain": "En returverdi kan brukes videre."
+    },
+    {
+      "id": "q10",
+      "text": "Hva krever binært søk?",
+      "options": [
+        "At listen er kort",
+        "At listen er sortert",
+        "At listen bare har tall under 100",
+        "At listen er usortert"
+      ],
+      "correct": 1,
+      "explain": "Ellers kan vi ikke vite hvilken halvdel vi skal lete i."
+    },
+    {
+      "id": "q11",
+      "text": "Hva betyr dataminimering?",
+      "options": [
+        "Å komprimere data",
+        "Å slette alle data",
+        "Å samle inn bare det som er nødvendig",
+        "Å lagre data i minst mulig filer"
+      ],
+      "correct": 2,
+      "explain": "Et av grunnprinsippene."
+    },
+    {
+      "id": "q12",
+      "text": "Hvordan kan algoritmer føre til diskriminering?",
+      "options": [
+        "De er alltid rettferdige",
+        "De bruker ikke data",
+        "De velger tilfeldig",
+        "De kan forsterke skjevheter i dataene de er trent på"
+      ],
+      "correct": 3,
+      "explain": "Historiske skjevheter videreføres."
+    },
+    {
+      "id": "q13",
+      "text": "Hvorfor tester vi programmet med tilfeller der vi vet svaret?",
+      "options": [
+        "For å gjøre det raskere",
+        "For å få flere linjer kode",
+        "For å slippe å skrive kommentarer",
+        "For å sjekke at programmet regner riktig"
+      ],
+      "correct": 3,
+      "explain": "Da kan feil oppdages."
+    }
+  ],
+  "mindmap": {
+    "label": "Informasjonsteknologi 1",
+    "children": [
+      {
+        "label": "Informasjonsteknologi i samfunnet",
+        "children": [
+          {
+            "label": "Kunstig intelligens (KI)",
+            "note": "Systemer som løser oppgaver vi forbinder med menneskelig intelligens."
+          },
+          {
+            "label": "Phishing",
+            "note": "Forsøk på å lure til seg passord eller opplysninger."
+          }
+        ]
+      },
+      {
+        "label": "Datamaskiner og nettverk",
+        "children": [
+          {
+            "label": "CPU",
+            "note": "Prosessoren som utfører instruksjoner."
+          },
+          {
+            "label": "DNS",
+            "note": "Oversetter domenenavn til IP-adresser."
+          }
+        ]
+      },
+      {
+        "label": "Digital representasjon og datalagring",
+        "children": [
+          {
+            "label": "Byte",
+            "note": "8 bit – 256 mulige verdier."
+          },
+          {
+            "label": "Primærnøkkel",
+            "note": "Identifiserer hver rad i en databasetabell entydig."
+          }
+        ]
+      },
+      {
+        "label": "Nettsider med HTML og CSS",
+        "children": [
+          {
+            "label": "HTML",
+            "note": "Markeringsspråk som beskriver innhold og struktur."
+          },
+          {
+            "label": "Semantiske elementer",
+            "note": "header, nav, main, section, article, footer."
+          }
+        ]
+      },
+      {
+        "label": "Lagre, hente og presentere data på nettsider",
+        "children": [
+          {
+            "label": "API",
+            "note": "Grensesnitt for å hente data fra en tjeneste."
+          },
+          {
+            "label": "Sensitive data",
+            "note": "Skal aldri lagres åpent i nettleseren eller koden."
+          }
+        ]
+      },
+      {
+        "label": "Brukervennlighet og universell utforming",
+        "children": [
+          {
+            "label": "Universell utforming",
+            "note": "Løsningen kan brukes av flest mulig uten spesielle tilpasninger."
+          },
+          {
+            "label": "WCAG-prinsippene",
+            "note": "Mulig å oppfatte, mulig å betjene, forståelig, robust."
+          }
+        ]
+      },
+      {
+        "label": "Programmering med funksjoner",
+        "children": [
+          {
+            "label": "Funksjon",
+            "note": "Navngitt kodeblokk som kan gjenbrukes."
+          },
+          {
+            "label": "print og return",
+            "note": "print viser, return gir verdien tilbake til programmet."
+          }
+        ]
+      },
+      {
+        "label": "Algoritmer og effektivitet",
+        "children": [
+          {
+            "label": "Binært søk",
+            "note": "Halverer søkeområdet i en sortert liste – O(log n)."
+          },
+          {
+            "label": "Tidskompleksitet",
+            "note": "Hvordan kjøretiden vokser med datamengden."
+          }
+        ]
+      },
+      {
+        "label": "Personvern og regelverk",
+        "children": [
+          {
+            "label": "Personopplysning",
+            "note": "Opplysning som kan knyttes til en person."
+          },
+          {
+            "label": "Dataminimering",
+            "note": "Samle inn bare det som er nødvendig."
+          }
+        ]
+      },
+      {
+        "label": "Innhenting, bruk og misbruk av data",
+        "children": [
+          {
+            "label": "Profilering",
+            "note": "Algoritmer lager en profil av en person ut fra data."
+          },
+          {
+            "label": "Algoritmisk skjevhet",
+            "note": "Algoritmer forsterker skjevheter i dataene."
+          }
+        ]
+      },
+      {
+        "label": "Algoritmisk tenkning og problemløsning",
+        "children": [
+          {
+            "label": "Dekomponering",
+            "note": "Å dele problemet i mindre delproblemer."
+          },
+          {
+            "label": "Abstraksjon",
+            "note": "Å fjerne uviktige detaljer."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Hvilket tiltak motvirker digitalt utenforskap?",
+        "options": [
+          "Fjerne alle skranker",
+          "Universell utforming og tilbud om hjelp",
+          "Kreve at alle bruker samme app",
+          "Høyere priser på internett"
+        ],
+        "correct": 1,
+        "explain": "Tjenestene må kunne brukes av flest mulig."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Data på internett sendes i små pakker.",
+        "correct": true,
+        "explain": "Pakkene settes sammen hos mottakeren."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hva er 13 i totallsystemet?",
+        "options": [
+          "1011",
+          "1101",
+          "1110",
+          "1001"
+        ],
+        "correct": 1,
+        "explain": "8 + 4 + 1."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Margin er luft utenfor kanten av et element.",
+        "correct": true,
+        "explain": "Padding er luft innenfor."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Automatiske verktøy finner alle tilgjengelighetsproblemer.",
+        "correct": false,
+        "explain": "Manuell testing trengs også."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva bør du spørre deg selv før du legger inn et nytt felt i et registreringsskjema?",
+        "options": [
+          "Er feltet pent?",
+          "Hvor mange felt har konkurrentene?",
+          "Trenger vi virkelig denne opplysningen?",
+          "Kan vi selge opplysningen?"
+        ],
+        "correct": 2,
+        "explain": "Dataminimering."
+      },
+      {
+        "id": "m07",
+        "type": "sant-usant",
+        "text": "Det er best å skrive hele programmet ferdig før du tester noe.",
+        "correct": false,
+        "explain": "Test hver del underveis."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan skjevheter i data som brukes til å trene en KI, kan påvirke automatiserte vurderinger av mennesker. Nevn også ett tiltak en utvikler kan bruke for å redusere risikoen for misbruk av data.",
+        "fasit": "En KI kan gjenta skjevheter i treningsdataene og derfor vurdere noen grupper urettferdig. En utvikler bør samle inn minst mulig data og sikre opplysningene.",
+        "kriterier": [
+          "Knytter skjevhet i treningsdata til urettferdige resultater eller diskriminering.",
+          "Nevner dataminimering eller sikring av data som tiltak."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Beskriv hvordan en nettside kan hente oppdaterte data som deles mellom brukerne, og forklar hvilken rolle et API og fetch kan ha.",
+        "fasit": "Dataene kan lagres i en database på en tjener, slik at de kan deles mellom brukerne. Nettsiden kan bruke fetch til å hente data via et API, ofte i JSON-format.",
+        "kriterier": [
+          "Plasserer delte, oppdaterbare data i en database på en tjener.",
+          "Forklarer at fetch henter data, og at et API er et grensesnitt til tjenesten."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s03",
+        "text": "Gjør om det binære tallet 1011₂ til et tall i titallsystemet, og vis hvordan du regner det ut.",
+        "fasit": "1011₂ = 1 · 8 + 0 · 4 + 1 · 2 + 1 · 1 = 11.",
+        "kriterier": [
+          "Bruker plassverdiene 8, 4, 2 og 1.",
+          "Oppgir 11 som svar."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan semantiske HTML-elementer og alt-tekst kan gjøre en nettside mer tilgjengelig.",
+        "fasit": "Semantiske elementer som nav og main forteller hva ulike deler av siden er, og hjelper skjermlesere å forstå strukturen. Alt-tekst beskriver bilder for personer som ikke ser dem.",
+        "kriterier": [
+          "Forklarer at semantiske elementer beskriver sidens struktur eller innhold.",
+          "Forklarer at alt-tekst beskriver bildet for personer som ikke ser det."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En nettside vil lagre en brukers passord og fødselsdato for å kunne bruke dem senere. Forklar hvor slike opplysninger ikke skal lagres åpent, og nevn to personvernprinsipper utvikleren bør følge.",
+        "fasit": "Passord og personopplysninger skal ikke lagres åpent i nettleseren eller i koden. Utvikleren bør samle inn bare opplysninger som er nødvendige, bruke dem til bestemte formål og sikre dem.",
+        "kriterier": [
+          "Sier at sensitive opplysninger ikke skal lagres åpent i nettleseren eller koden.",
+          "Nevner minst to relevante prinsipper, som dataminimering, formålsbegrensning og sikring."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Gjør om tallet 13 i titallsystemet til binærtall ved å bruke plassverdiene 8, 4, 2 og 1.",
+        "fasit": "13 = 8 + 4 + 1. Det gir bitene 1, 1, 0 og 1, altså 1101₂.",
+        "kriterier": [
+          "Viser at 13 = 8 + 4 + 1.",
+          "Oppgir 1101₂ som svar."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvorfor binært søk kan være raskere enn lineært søk på en stor liste, og nevn ett vilkår for at binært søk skal fungere.",
+        "fasit": "Binært søk halverer søkeområdet for hvert steg, mens lineært søk undersøker ett element om gangen. Binært søk krever at listen er sortert.",
+        "kriterier": [
+          "Sammenligner halvering av søkeområdet med å undersøke elementer ett etter ett.",
+          "Nevner at listen må være sortert."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Skolen vurderer å bruke elevenes aktivitet i en læringsplattform for å finne ut hvem som kan stå i fare for å stryke. Forklar én mulig nytte, én risiko og ett hensyn som kan begrense inngrepet i elevenes personvern.",
+        "fasit": "En mulig nytte er at skolen kan oppdage elever som trenger hjelp tidlig. Risikoen er feilvurdering, stempling eller overvåking. Skolen bør vurdere hvem som får tilgang, samle inn minst mulig og undersøke mindre inngripende alternativer.",
+        "kriterier": [
+          "Nevner tidlig hjelp som mulig nytte.",
+          "Nevner en risiko, for eksempel feilvurdering, stempling eller overvåking.",
+          "Nevner begrenset tilgang, dataminimering eller et mindre inngripende alternativ."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

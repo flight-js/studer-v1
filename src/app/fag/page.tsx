@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useRef } from "react";
 import { AppBar } from "@/components/AppBar";
 import { Logo } from "@/components/Logo";
-import { ArrowUp, ChevronRight } from "@/components/icons";
+import { ArrowUp, ChevronRight, Repeat } from "@/components/icons";
 import { Abonnementskort } from "@/components/Las";
 import { Feil, KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
@@ -14,6 +14,7 @@ import {
   hentKatalog,
   hentTemaer,
   prosentGjennomgatt,
+  REPETISJON,
   temaHref,
 } from "@/lib/pensum";
 import { useHent } from "@/lib/useHent";
@@ -212,17 +213,23 @@ function Fagvalg() {
                   <ol className="bg-surface border border-border rounded-2xl divide-y divide-border overflow-hidden">
                     {temaer.data.map((t, i) => {
                       const pst = prosentGjennomgatt(fremdrift.data?.[t.id]);
+                      const repetisjon = t.slug === REPETISJON;
                       return (
                         <li key={t.id}>
                           <Link
                             href={temaHref("/tema", t.id)}
-                            className="group flex items-center gap-4 px-5 sm:px-6 py-4.5 hover:bg-primary-tint/60 transition-colors duration-200"
+                            className={`group flex items-center gap-4 px-5 sm:px-6 py-4.5 hover:bg-primary-tint/60 transition-colors duration-200 ${
+                              repetisjon ? "bg-primary-tint/35" : ""
+                            }`}
                           >
                             <span className="w-6 shrink-0 text-sm font-semibold text-faint tabular-nums">
-                              {i + 1}
+                              {repetisjon ? <Repeat size={18} className="text-primary" /> : i + 1}
                             </span>
                             <span className="flex-1 min-w-0 flex flex-col gap-1.5">
                               <span className="font-semibold">{t.navn}</span>
+                              {repetisjon && (
+                                <span className="text-sm text-muted">Det viktigste fra alle temaene, før tentamen og eksamen</span>
+                              )}
                               {bruker && fremdrift.data && (
                                 <span className="flex items-center gap-3">
                                   <span className="h-1.5 w-24 bg-sunken rounded-full overflow-hidden">

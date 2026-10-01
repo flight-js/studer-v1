@@ -23,6 +23,7 @@ import {
   hentOmfang,
   hentTema,
   prosentGjennomgatt,
+  REPETISJON,
   sistOvd,
   temaHref,
   type Resultat,
@@ -102,7 +103,7 @@ function Tema() {
               <p className="text-sm font-medium text-muted">
                 {t.fagNavn}
                 <Dot />
-                Tema {t.nummer} av {t.antallTemaer}
+                {t.slug === REPETISJON ? `Alle ${t.antallTemaer - 1} temaene samlet` : `Tema ${t.nummer} av ${t.antallTemaer}`}
               </p>
               <h1 className="font-display text-4xl sm:text-6xl font-semibold tracking-[-0.025em] leading-[1.02] hyphens-auto" lang="nb">
                 {t.navn}

@@ -1,0 +1,511 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-s1",
+  "trinnId": "vg2",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "sammendrag": "Matematikk S1 handler om å bruke algebra, funksjoner, derivasjon, modeller og sannsynlighet til å løse problemer og begrunne svar. Viktig er både å velge riktig metode og å tolke svaret i sammenheng, med passende enheter og forbehold.\n\n## Algebra og matematiske resonnementer\nMatematikk er et **presist språk**: ⇒ betyr at ett utsagn medfører et annet, mens ⇔ betyr at utsagnene gjelder for nøyaktig de samme verdiene. I intervaller viser klammer om endepunktet er med. Ved **faktorisering** skriver vi uttrykk som produkter, for eksempel med felles faktor, kvadratsetninger eller nullpunkter i andregradsuttrykk. Rasjonale uttrykk forenkles ved å faktorisere og forkorte felles faktorer, men nevneren kan aldri være null, også etter forkorting. Likningssett løses med innsettings- eller addisjonsmetoden; grafisk er løsningen linjenes skjæringspunkt. For andregrads- og rasjonale ulikheter brukes **fortegnslinje** etter faktorisering. Ikke gang en ulikhet med et uttrykk med ukjent fortegn. Et **bevis** viser at en påstand gjelder alltid, mens ett **moteksempel** er nok til å vise at den er usann.\n\n## Grenseverdier og kontinuitet\n**Grenseverdien** beskriver hva funksjonsverdiene nærmer seg når x nærmer seg et punkt; funksjonen trenger ikke være definert i punktet. Grensen finnes bare dersom venstre- og høyregrensen er like. Ved ubestemt form 0/0 kan vi ofte faktorisere og forkorte før vi setter inn. Ved grense mot uendelig kan vi dele teller og nevner med høyeste potens av x. En funksjon er **kontinuerlig** i a når f(a) er definert, grensen finnes og er lik f(a). For delte funksjoner undersøkes skjøten, mens sprang oppstår når grensene fra sidene er ulike. I økonomi kan sprang følge av for eksempel priser per påbegynt time eller mengderabatt. Enhetskostnad er E(x)=K(x)/x; når produksjonen blir stor, kan faste kostnader bety stadig mindre per enhet.\n\n## Vekstfart og derivasjon\nGjennomsnittlig vekstfart fra a til b er (f(b)−f(a))/(b−a), altså stigningstallet til **sekanten**. Momentan vekstfart er tangentens stigningstall og defineres som f′(a)=limₕ→₀(f(a+h)−f(a))/h. For polynomer brukes blant annet (xⁿ)′=nxⁿ⁻¹, (k)′=0, (kf)′=kf′ og (f+g)′=f′+g′. Tangenten i x=a har likningen y−f(a)=f′(a)(x−a). Den deriverte beskriver endring, ikke funksjonsverdi, og enheten er y-enhet per x-enhet. I økonomi er K′ grensekostnad og I′ grenseinntekt; de sier omtrent hva én enhet til koster eller gir i inntekt.\n\n## Funksjonsanalyse med derivasjon\nNår f′>0, vokser f; når f′<0, avtar f. Nullpunkter for f′ undersøkes med **fortegnslinje**: fortegnsskifte fra pluss til minus gir toppunkt, og fra minus til pluss gir bunnpunkt. Hvis f′=0 uten fortegnsskifte, kan punktet være et terrassepunkt. Den andrederiverte beskriver krumning: f″>0 betyr krumming opp og f″<0 krumming ned. Et **vendepunkt** er der f″ skifter fortegn. På et lukket intervall må endepunktene også undersøkes når vi leter etter største eller minste verdi. I modeller må vi vurdere om resultatene er rimelige, særlig utenfor perioden dataene dekker.\n\n## Optimering i økonomi\nKostnadsfunksjonen K(x) omfatter faste og variable kostnader. Ved fast pris p er inntekten I(x)=px, og overskuddet er O(x)=I(x)−K(x). Største overskudd finnes ved å derivere O og undersøke kritiske punkter og endepunkter; ved maksimum er grensekostnaden lik grenseinntekten. **Enhetskostnaden** er E(x)=K(x)/x, og den er minst der grensekostnaden er lik enhetskostnaden. Største inntekt er ikke nødvendigvis størst overskudd, fordi kostnadene må tas med. Finn først funksjonen og den relevante definisjonsmengden, løs f′(x)=0, begrunn maksimum eller minimum og svar med enhet. Vurder om svaret er realistisk i situasjonen.\n\n## Potenser, logaritmer og anvendelser\nPotensregler brukes til å forenkle uttrykk, blant annet aᵐaⁿ=aᵐ⁺ⁿ, aᵐ/aⁿ=aᵐ⁻ⁿ og a⁻ⁿ=1/aⁿ. Eksponentiell prosentvis vekst kan modelleres med en startverdi multiplisert med en vekstfaktor opphøyd i tiden. **lg x** er eksponenten 10 må ha for å bli x, og er bare definert for x>0. Logaritmereglene lg(ab)=lg a+lg b, lg(a/b)=lg a−lg b og lg(aˣ)=x lg a gjør det mulig å løse eksponentiallikninger: isoler potensen, ta lg på begge sider og løs for eksponenten. Sjekk at løsninger i logaritmelikninger gir positive logaritmeargumenter. Logaritmer brukes blant annet på pH- og desibelskalaer; forskjeller på slike skalaer svarer til multiplikative forskjeller.\n\n## Modellering med samfunnsøkonomiske data\nBegynn med en tydelig problemstilling, finn pålitelige data og noter kilde, enheter og tidsperiode. Det kan være nyttig å la t være antall år etter et startår. Plott dataene før modellvalg: lineær modell passer omtrent jevn økning, eksponentiell omtrent jevn prosentvis økning, polynom kan beskrive utvikling som snur, og logistisk vekst som flater ut mot et tak. Regresjon og R² kan si noe om tilpasningen, men et høyt R² beviser ikke at modellen er riktig. Derivasjon tolkes med enheter og sammenheng. Vurder prognoser utenfor dataperioden, datakvalitet, endringer i forholdene og om data er i faste eller løpende priser. Korrelasjon viser at størrelser varierer sammen, ikke at den ene nødvendigvis forårsaker den andre. Grafer bør ha aksetitler, enheter og kilde, og arbeidet bør drøfte modellens styrker og svakheter.\n\n## Kombinatorikk\nKombinatorikk teller muligheter og er nyttig i sannsynlighet. Multiplikasjonsprinsippet sier at valg med m og n muligheter kan gjøres på mn måter. Avklar om rekkefølgen betyr noe, og om valg kan gjentas. Ordnet utvalg med tilbakelegging har nʳ muligheter; uten tilbakelegging er antallet n!/(n−r)!. Fakultet er n!=n(n−1)…1, og 0!=1. Når rekkefølgen ikke betyr noe og det ikke er tilbakelegging, brukes binomialkoeffisienten C(n,r)=n!/(r!(n−r)!). Hver gruppe telles da én gang, uansett rekkefølge, og C(n,r)=C(n,n−r).\n\n## Sannsynlighet, simulering og stokastiske variabler\nEt stokastisk forsøk har mulige utfall som ikke er kjent på forhånd. Utfallsrommet er alle utfall, og en hendelse er en samling av dem. Ved like sannsynlige utfall er P(A)=gunstige/mulige. Komplementsetningen er P(ikke A)=1−P(A), og addisjonssetningen trekker fra P(A og B) når hendelser overlapper. For uavhengige hendelser multipliseres sannsynlighetene; betinget sannsynlighet beskriver sannsynlighet gitt at noe allerede har skjedd. «Minst én»-oppgaver løses ofte enklest med komplementet. Simulering gjentar forsøk digitalt; ved mange forsøk nærmer relativ frekvens seg teoretisk sannsynlighet, men få forsøk kan avvike mye. En stokastisk variabel gir et tall til hvert utfall. Forventningsverdien er E(X)=ΣxP(X=x), altså gjennomsnittet på lang sikt.\n\n## Binomisk fordeling\nEn binomisk modell teller suksesser i n delforsøk med to utfall, samme sannsynlighet p hver gang og uavhengige forsøk. Da er P(X=k)=C(n,k)pᵏ(1−p)ⁿ⁻ᵏ og E(X)=np. Kumulative sannsynligheter finnes ved å summere enkeltverdier; for eksempel er P(X≥k)=1−P(X≤k−1). Binomisk modell passer ikke godt når sannsynligheten endres underveis, som ved trekking uten tilbakelegging fra en liten gruppe.\n\n## Hypergeometrisk fordeling\nNår vi trekker n elementer uten tilbakelegging fra en gruppe på N med M spesielle elementer, er X, antallet spesielle i utvalget, hypergeometrisk fordelt. Sannsynligheten er P(X=k)=C(M,k)C(N−M,n−k)/C(N,n): gunstige utvalg delt på alle mulige utvalg. Forventningsverdien er E(X)=nM/N. Fordi trekking uten tilbakelegging endrer sannsynligheten fra trekk til trekk, skiller modellen seg fra den binomiske. Hvis gruppen er mye større enn utvalget, endres sannsynligheten lite, og binomisk fordeling med p=M/N kan gi en god tilnærming.\n\n## Sammenhenger i faget\nAlgebra gir verktøyene for å forenkle uttrykk og løse likninger, ulikheter og sannsynlighetsformler. Grenseverdier ligger bak definisjonen av den deriverte, og derivasjon brukes videre til funksjonsanalyse, modellering og økonomisk optimering. Potenser beskriver eksponentiell utvikling, mens logaritmer hjelper oss å løse likninger om slik vekst. Kombinatorikk teller mulige utvalg og utfall; sannsynlighetsregning bruker tellingen til å beregne sjanser. Binomisk og hypergeometrisk fordeling er modeller for telling av suksesser i ulike typer forsøk.\n\n## Huskeliste før prøven\n- Sjekk definisjonsmengde og at nevneren ikke er null.\n- Velg riktig metode for faktorisering, ulikheter og likningssett.\n- Skill mellom grenseverdi, funksjonsverdi og derivert.\n- Bruk fortegnslinje for å begrunne topp- og bunnpunkter.\n- Undersøk endepunkter ved optimering på lukket intervall.\n- Tolk svar med enheter og i situasjonens sammenheng.\n- Kontroller at logaritmeargumenter er positive.\n- Avklar rekkefølge, tilbakelegging og uavhengighet før telling eller sannsynlighet.\n- Vurder om en modell og prognosene dens er rimelige.",
+  "flashcards": [
+    {
+      "term": "Faktorisering av ax² + bx + c",
+      "def": "a(x − x₁)(x − x₂), der x₁ og x₂ er nullpunktene."
+    },
+    {
+      "term": "Definisjonsmengde for brøkuttrykk",
+      "def": "Nevneren kan ikke være null."
+    },
+    {
+      "term": "Kontinuerlig i a",
+      "def": "f(a) definert, grensen finnes og er lik f(a)."
+    },
+    {
+      "term": "Gjennomsnittlig vekstfart",
+      "def": "(f(b) − f(a))/(b − a) – stigningstallet til sekanten."
+    },
+    {
+      "term": "(xⁿ)′",
+      "def": "n · xⁿ⁻¹"
+    },
+    {
+      "term": "Toppunkt",
+      "def": "f′ skifter fra + til −."
+    },
+    {
+      "term": "Vendepunkt",
+      "def": "Der f″ skifter fortegn – raskest økning eller nedgang."
+    },
+    {
+      "term": "Største overskudd",
+      "def": "Når K′(x) = I′(x)."
+    },
+    {
+      "term": "Enhetskostnad",
+      "def": "E(x) = K(x)/x"
+    },
+    {
+      "term": "Definisjonsmengde for lg x",
+      "def": "x > 0"
+    },
+    {
+      "term": "lg(aˣ)",
+      "def": "x · lg a"
+    },
+    {
+      "term": "R²",
+      "def": "Mål på hvor godt modellen følger dataene – ikke et bevis."
+    },
+    {
+      "term": "Uordnet uten tilbakelegging",
+      "def": "C(n, r) = n!/(r!(n − r)!)"
+    },
+    {
+      "term": "Komplementsetningen",
+      "def": "P(ikke A) = 1 − P(A)"
+    },
+    {
+      "term": "Binomisk sannsynlighet",
+      "def": "P(X = k) = C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ"
+    },
+    {
+      "term": "Forskjell fra binomisk",
+      "def": "p endres underveis fordi vi trekker uten tilbakelegging."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Løs x² − x − 6 < 0.",
+      "options": [
+        "−2 < x < 3",
+        "x < −2 eller x > 3",
+        "x > 3",
+        "−3 < x < 2"
+      ],
+      "correct": 0,
+      "explain": "(x − 3)(x + 2) er negativt mellom nullpunktene."
+    },
+    {
+      "id": "q02",
+      "text": "Når finnes lim ₓ→ₐ f(x)?",
+      "options": [
+        "Alltid",
+        "Bare når f(a) = 0",
+        "Bare for polynomer",
+        "Når venstre og høyre grense er like"
+      ],
+      "correct": 3,
+      "explain": "De ensidige grensene må stemme."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er f′(x) når f(x) = x² − 4x + 3?",
+      "options": [
+        "2x − 4",
+        "x − 4",
+        "2x + 3",
+        "2x² − 4"
+      ],
+      "correct": 0,
+      "explain": "Deriver ledd for ledd."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er den største verdien til f(x) = x³ − 6x² + 9x + 1 på [0, 5]?",
+      "options": [
+        "21",
+        "5",
+        "1",
+        "3"
+      ],
+      "correct": 0,
+      "explain": "f(5) = 21 er større enn toppunktets 5."
+    },
+    {
+      "id": "q05",
+      "text": "Når er overskuddet størst?",
+      "options": [
+        "Når K(x) = 0",
+        "Når I(x) er størst",
+        "Når x er størst mulig",
+        "Når grensekostnaden er lik grenseinntekten"
+      ],
+      "correct": 3,
+      "explain": "K′(x) = I′(x)."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken regel brukes til å flytte eksponenten ned?",
+      "options": [
+        "lg(a · b) = lg a + lg b",
+        "lg(a / b) = lg a − lg b",
+        "lg 1 = 0",
+        "lg(aˣ) = x · lg a"
+      ],
+      "correct": 3,
+      "explain": "Nøkkelen til eksponentiallikninger."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken modell passer når en størrelse øker med omtrent samme prosent hvert år?",
+      "options": [
+        "Lineær",
+        "Eksponentiell",
+        "Andregrads",
+        "Konstant"
+      ],
+      "correct": 1,
+      "explain": "Fast vekstfaktor."
+    },
+    {
+      "id": "q08",
+      "text": "På hvor mange måter kan en komité på 3 velges blant 10 elever?",
+      "options": [
+        "720",
+        "30",
+        "1000",
+        "120"
+      ],
+      "correct": 3,
+      "explain": "C(10, 3)."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er sannsynligheten for minst én sekser på fire terningkast?",
+      "options": [
+        "4/6",
+        "Omtrent 0,518",
+        "Omtrent 0,482",
+        "1/6"
+      ],
+      "correct": 1,
+      "explain": "1 − (5/6)⁴."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket krav gjelder for et binomisk forsøk?",
+      "options": [
+        "Sannsynligheten endres i hvert delforsøk",
+        "Delforsøkene er uavhengige med samme p",
+        "Det er tre utfall i hvert delforsøk",
+        "Antall delforsøk er ukjent"
+      ],
+      "correct": 1,
+      "explain": "Og to utfall i hvert delforsøk."
+    },
+    {
+      "id": "q11",
+      "text": "Når er X hypergeometrisk fordelt?",
+      "options": [
+        "Ved uavhengige forsøk med konstant p",
+        "Ved trekk uten tilbakelegging fra en gruppe med to typer",
+        "Når alle utfall er like",
+        "Når vi trekker med tilbakelegging"
+      ],
+      "correct": 1,
+      "explain": "Sannsynligheten endres underveis."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk S1",
+    "children": [
+      {
+        "label": "Algebra og matematiske resonnementer",
+        "children": [
+          {
+            "label": "Faktorisering av ax² + bx + c",
+            "note": "a(x − x₁)(x − x₂), der x₁ og x₂ er nullpunktene."
+          },
+          {
+            "label": "Definisjonsmengde for brøkuttrykk",
+            "note": "Nevneren kan ikke være null."
+          }
+        ]
+      },
+      {
+        "label": "Grenseverdier og kontinuitet",
+        "children": [
+          {
+            "label": "Kontinuerlig i a",
+            "note": "f(a) definert, grensen finnes og er lik f(a)."
+          }
+        ]
+      },
+      {
+        "label": "Vekstfart og derivasjon",
+        "children": [
+          {
+            "label": "Gjennomsnittlig vekstfart",
+            "note": "(f(b) − f(a))/(b − a) – stigningstallet til sekanten."
+          },
+          {
+            "label": "(xⁿ)′",
+            "note": "n · xⁿ⁻¹"
+          }
+        ]
+      },
+      {
+        "label": "Funksjonsanalyse med derivasjon",
+        "children": [
+          {
+            "label": "Toppunkt",
+            "note": "f′ skifter fra + til −."
+          },
+          {
+            "label": "Vendepunkt",
+            "note": "Der f″ skifter fortegn – raskest økning eller nedgang."
+          }
+        ]
+      },
+      {
+        "label": "Optimering i økonomi",
+        "children": [
+          {
+            "label": "Største overskudd",
+            "note": "Når K′(x) = I′(x)."
+          },
+          {
+            "label": "Enhetskostnad",
+            "note": "E(x) = K(x)/x"
+          }
+        ]
+      },
+      {
+        "label": "Potenser, logaritmer og anvendelser",
+        "children": [
+          {
+            "label": "Definisjonsmengde for lg x",
+            "note": "x > 0"
+          },
+          {
+            "label": "lg(aˣ)",
+            "note": "x · lg a"
+          }
+        ]
+      },
+      {
+        "label": "Modellering med samfunnsøkonomiske data",
+        "children": [
+          {
+            "label": "R²",
+            "note": "Mål på hvor godt modellen følger dataene – ikke et bevis."
+          }
+        ]
+      },
+      {
+        "label": "Kombinatorikk",
+        "children": [
+          {
+            "label": "Uordnet uten tilbakelegging",
+            "note": "C(n, r) = n!/(r!(n − r)!)"
+          }
+        ]
+      },
+      {
+        "label": "Sannsynlighet, simulering og stokastiske variabler",
+        "children": [
+          {
+            "label": "Komplementsetningen",
+            "note": "P(ikke A) = 1 − P(A)"
+          }
+        ]
+      },
+      {
+        "label": "Binomisk fordeling",
+        "children": [
+          {
+            "label": "Binomisk sannsynlighet",
+            "note": "P(X = k) = C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ"
+          }
+        ]
+      },
+      {
+        "label": "Hypergeometrisk fordeling",
+        "children": [
+          {
+            "label": "Forskjell fra binomisk",
+            "note": "p endres underveis fordi vi trekker uten tilbakelegging."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "(x² − 9)/(x² + 3x) er ikke definert for x = −3.",
+        "correct": true,
+        "explain": "Nevneren blir null."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hva er lim ₓ→₁ (x² − 1)/(x − 1)?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "Den finnes ikke"
+        ],
+        "correct": 2,
+        "explain": "Forkort til x + 1."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Alle punkter med f′(x) = 0 er toppunkter.",
+        "correct": false,
+        "explain": "De kan også være bunn- eller terrassepunkter."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "lg(a + b) = lg a + lg b.",
+        "correct": false,
+        "explain": "Regelen gjelder produktet a · b."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er C(5, 2)?",
+        "options": [
+          "10",
+          "20",
+          "5",
+          "25"
+        ],
+        "correct": 0,
+        "explain": "5 · 4 / 2."
+      },
+      {
+        "id": "m06",
+        "type": "sant-usant",
+        "text": "Å trekke 3 kort fra en kortstokk uten tilbakelegging er et binomisk forsøk.",
+        "correct": false,
+        "explain": "Sannsynligheten endres fordi gruppen er liten."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "En boks har 3 røde og 2 blå kuler. Du trekker 2 uten tilbakelegging. Hva er P(2 røde)?",
+        "options": [
+          "0,5",
+          "0,3",
+          "0,36",
+          "0,6"
+        ],
+        "correct": 1,
+        "explain": "C(3, 2)/C(5, 2) = 3/10."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Vis med et algebraisk bevis at summen av to oddetall alltid er et partall.",
+        "fasit": "Skriv oddetallene som 2m+1 og 2n+1, der m og n er hele tall. Summen er 2m+2n+2=2(m+n+1), som er delelig med 2.",
+        "kriterier": [
+          "Representerer oddetallene som 2m+1 og 2n+1.",
+          "Viser at summen kan skrives som 2 ganger et helt tall."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Beregn grenseverdien limₓ→₃ (x²−9)/(x−3), og forklar kort hvilken omskriving du bruker.",
+        "fasit": "Faktoriser telleren: x²−9=(x−3)(x+3). For x≠3 forkortes uttrykket til x+3, så grenseverdien er 6.",
+        "kriterier": [
+          "Faktoriserer x²−9 som (x−3)(x+3) og forkorter.",
+          "Oppgir grenseverdien 6."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "For f(x)=x², finn stigningstallet til tangenten ved x=2 og skriv tangentlikningen.",
+        "fasit": "f′(x)=2x, så stigningstallet ved x=2 er 4. Siden f(2)=4, er tangenten y−4=4(x−2), altså y=4x−4.",
+        "kriterier": [
+          "Finner f′(2)=4 og punktet (2,4).",
+          "Bruker tangentlikningen korrekt, for eksempel y=4x−4."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En bedrift har overskudd O(x)=I(x)−K(x). Forklar hvordan derivasjon kan brukes til å finne produksjonen som gir størst overskudd, og hvilken sammenheng grensekostnad og grenseinntekt har da.",
+        "fasit": "Deriver overskuddsfunksjonen og løs O′(x)=0; undersøk med fortegnslinje at punktet gir maksimum, og sjekk eventuelle endepunkter. Ved størst overskudd er grensekostnaden lik grenseinntekten, altså K′(x)=I′(x).",
+        "kriterier": [
+          "Beskriver å løse O′(x)=0 og undersøke at løsningen gir maksimum.",
+          "Knytter maksimum til K′(x)=I′(x)."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En serie består av tre uavhengige forsøk, hvert med sannsynlighet 1/2 for suksess. Beregn sannsynligheten for nøyaktig to suksesser.",
+        "fasit": "Det finnes C(3,2)=3 måter å plassere de to suksessene på. Hver rekkefølge har sannsynlighet (1/2)²(1/2)=1/8, så sannsynligheten blir 3/8.",
+        "kriterier": [
+          "Teller de mulige plasseringene med C(3,2)=3.",
+          "Finner samlet sannsynlighet 3/8."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar forskjellen på binomisk og hypergeometrisk fordeling, og velg hvilken som passer når man trekker kort fra en kortstokk uten tilbakelegging.",
+        "fasit": "Binomisk fordeling forutsetter samme suksessannsynlighet i hvert uavhengige forsøk. Ved hypergeometrisk fordeling trekkes det uten tilbakelegging fra en gruppe med to typer, slik at sannsynligheten endres underveis. Trekking av kort uten tilbakelegging passer derfor hypergeometrisk.",
+        "kriterier": [
+          "Knytter binomisk fordeling til konstant p og uavhengige forsøk.",
+          "Knytter hypergeometrisk fordeling til trekking uten tilbakelegging og velger den for korttrekking."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En modell viser salg S(t) i tusen enheter, der t er år etter et startår. Forklar hva S′(5)=7 betyr, og nevn én grunn til å være forsiktig med modellens prognoser utenfor dataperioden.",
+        "fasit": "Ved t=5 øker salget ifølge modellen med omtrent 7 tusen enheter per år. Prognoser utenfor dataperioden kan være urimelige fordi forhold som regler, avgifter, kriser eller teknologi kan endre utviklingen.",
+        "kriterier": [
+          "Tolker den deriverte som omtrent 7000 enheter per år ved t=5.",
+          "Nevner en relevant grunn til å vurdere prognoser utenfor dataperioden."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Løs likningen 10ˣ=1000 uten kalkulator, og forklar hvilken logaritme du bruker.",
+        "fasit": "Ta lg på begge sider: lg(10ˣ)=lg(1000). Siden lg(10ˣ)=x og lg(1000)=3, er x=3.",
+        "kriterier": [
+          "Bruker lg(10ˣ)=x og lg(1000)=3.",
+          "Oppgir løsningen x=3."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

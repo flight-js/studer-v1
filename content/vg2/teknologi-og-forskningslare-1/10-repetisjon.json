@@ -1,0 +1,547 @@
+{
+  "id": "repetisjon",
+  "fagId": "teknologi-og-forskningslare-1",
+  "trinnId": "vg2",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "sammendrag": "Teknologi og forskningslære handler om å utvikle og forstå teknologiske produkter, samle inn og analysere data og vurdere teknologiens betydning. Faget kombinerer praktiske metoder med naturvitenskapelig tenkning og etiske og bærekraftige vurderinger.\n\n## Kravspesifikasjon, arbeidstegninger og produktutvikling\nProduktutvikling går gjennom faser som ofte gjentas: behov og problem, krav, idéer, arbeidstegninger, prototype, testing og forbedring. Denne **iterative** arbeidsmåten gjør det mulig å oppdage feil tidlig. En **kravspesifikasjon** beskriver hva produktet skal gjøre og hvilke begrensninger det har. Skill mellom **funksjonelle krav** (hva produktet gjør) og **ikke-funksjonelle krav** (for eksempel pris, størrelse og sikkerhet), og mellom må-krav og bør-krav. Gode krav er konkrete og målbare, slik at de kan testes. En **arbeidstegning** skal gjøre det mulig å lage produktet nøyaktig. Den kan vise riss forfra, ovenfra og fra siden, mål i millimeter, målestokk og eventuelle snitt. En **prototype** brukes til å prøve ut form eller funksjon. Knytt testene til kravene, registrer resultatene og dokumenter valg, problemer og forbedringer.\n\n## Mikrokontrollere\nEn **mikrokontroller** er en liten datamaskin på én brikke, med prosessor, minne og innganger og utganger. Den behandler signaler fra innganger, for eksempel knapper og sensorer, og styrer utganger som lysdioder og motorer. I Arduino kjøres **setup()** én gang ved oppstart, mens **loop()** gjentas så lenge kortet har strøm. Sensorverdier kan leses, sammenlignes med en **terskelverdi** og brukes til å styre en utgang. Test én del om gangen, og bruk koblingsbrett for å prøve ut kretser uten lodding. En lysdiode trenger formotstand, og en motor må styres med transistor eller motorkort fordi den trekker for mye strøm til å kobles direkte til en pinne.\n\n## Sensorer, analoge og digitale signaler\nEn **sensor** gjør en fysisk størrelse om til et elektrisk signal. **Analoge signaler** kan ha alle verdier innenfor et område, mens **digitale signaler** har bestemte verdier, ofte HØY og LAV. En **AD-omformer** gjør analog spenning om til et tall. Arduino Unos 10-biters omformer gir verdier fra 0 til 1023 for 0–5 V; spenningen kan beregnes med U = verdi · 5,0 / 1023. En verdi på 512 tilsvarer omtrent 2,5 V. Flere bit gir finere oppløsning. For TMP36 gjelder T = (U − 0,5) · 100, der U måles i volt og T i grader Celsius. En ultralydsensor måler avstand med avstand = tid · lydfart / 2, fordi lyden går fram og tilbake. Vurder sensorens måleområde, **oppløsning**, nøyaktighet, responstid, pris og strømforbruk. **Kalibrering** betyr å sammenligne med en kjent referanse og justere.\n\n## Et produkt som samler inn data\nStart et måleprosjekt med et spørsmål: Det bestemmer hva som skal måles, hvor ofte og hvor lenge. En **datalogger** består vanligvis av sensor, mikrokontroller, lagring, klokke for tidsstempler, strømforsyning og et beskyttende kabinett. Velg målefrekvens etter hvor raskt fenomenet endrer seg. For høy frekvens gir store datamengder og bruker mer strøm. Før en større måling bør du gjøre en prøvelogging, kontrollere tidsstempler og sammenligne med et kalibrert instrument. Lagre gjerne data i CSV med overskrifter og enheter. Rydd i datasettet med varsomhet: Dokumenter feilmålinger som fjernes, og ikke fjern verdier bare fordi de er uventede. Vis gjerne tid på x-aksen i grafer, og vurder feilkilder og usikkerhet når funnene presenteres.\n\n## Dataanalyse og måleusikkerhet\nAlle målinger har **måleusikkerhet**. **Tilfeldige feil** varierer fra måling til måling og kan jevnes ut med flere målinger og gjennomsnitt. **Systematiske feil** gir samme skjevhet hver gang og forsvinner ikke ved å måle flere ganger; de kan oppdages ved kalibrering. Gjennomsnitt er summen delt på antallet, median er den midterste verdien, og variasjonsbredden er største minus minste verdi. **Standardavvik** beskriver typisk avvik fra gjennomsnittet. Relativ usikkerhet = usikkerhet / måleverdi. Undersøk en **uteligger** før du eventuelt fjerner den, og dokumenter valget. Du kan teste om et tiltak reduserer spredningen ved å sammenligne standardavvik før og etter. Punktdiagram, regresjon og feilstolper kan brukes til å undersøke data. Ikke forveksle støy med trend eller korrelasjon med årsak. Oppgi ikke flere gjeldende siffer enn målingene gir grunnlag for.\n\n## Kvantitativ metode og pålitelighet\n**Kvantitativ metode** bygger på tall og målinger, mens **kvalitativ metode** bygger på beskrivelser, intervjuer og observasjoner. Planlegg forsøk med problemstilling, testbar hypotese, måleutstyr og prosedyre. Den uavhengige variabelen er det du endrer, den avhengige er det du måler, og kontrollerte variabler holdes like. I et kontrollert forsøk endres bare én variabel om gangen; en kontrollgruppe eller referanse gir sammenligningsgrunnlag. Gjenta forsøk og bruk et stort nok, representativt utvalg. **Reliabilitet** handler om hvor stabile målingene er, mens **validitet** handler om du faktisk måler det du tror. Målinger kan være stabile, men systematisk feil. Vurder om forskjeller er større enn usikkerheten, og vær åpen om metode, data og feilkilder, slik at arbeidet er etterprøvbart.\n\n## Et teknologisk produkt: mobiltelefonen\nMobiltelefonen har utviklet seg fra store analoge telefoner til smarttelefoner med digitale nett, apper og mange funksjoner. Mobilnettet er delt i **celler** med basestasjoner. Telefonen sender og mottar radiobølger, og samtalen overleveres mellom celler når brukeren beveger seg. Stemmen digitaliseres, komprimeres og sendes som tall. SIM-kortet identifiserer abonnementet, og kapasitiv berøringsskjerm registrerer berøring. Sensorer som GPS, akselerometer og lyssensor gjør telefonen til et avansert måleinstrument. Telefonen gir kommunikasjon, sikkerhet, tjenester og tilgang til kunnskap, men reiser også spørsmål om skjermtid, personvern, avhengighet og miljøbelastning fra metallutvinning og elektronisk avfall.\n\n## Teknologi og etikk\nTeknologi er ikke nøytral: Den kan gi nytte, men også skade og fordele fordeler og ulemper urettferdig. **Konsekvensetikk** vurderer følgene for flest mulig, **pliktetikk** spør om handlinger er riktige eller gale i seg selv, og **dydsetikk** spør hva en god person ville gjort. Bruk flere perspektiver, siden de kan gi ulike svar. **Føre var-prinsippet** tilsier forsiktighet når mulig skade er alvorlig og kunnskapen usikker. Vurder også ansvar, rettferdighet og menneskers mulighet til å bestemme selv med god informasjon. En god drøfting beskriver teknologien, finner hvem som berøres, veier argumenter og ender i en begrunnet konklusjon. Collingridge-dilemmaet viser at teknologien kan være lett å endre før konsekvensene er kjent, men vanskelig å endre når den er utbredt.\n\n## Teknologi i en virksomhet – bærekraftsperspektiv\nVirksomheter bruker teknologi til blant annet forskning og utvikling, produksjon, digitalisering, logistikk og tjenester. **Bærekraftig utvikling** innebærer å dekke dagens behov uten å ødelegge framtidige generasjoners muligheter. Vurder virksomheten i tre dimensjoner: **miljø** (utslipp, energi, avfall og natur), **sosial** (arbeidsforhold, helse og menneskerettigheter) og **økonomi** (lønnsomhet og verdiskaping over tid). En **livsløpsanalyse (LCA)** kartlegger miljøbelastningen fra råvareutvinning til avfall. Klimaregnskap kan omfatte utslipp fra egen drift, innkjøpt energi og verdikjeden. **Sirkulær økonomi** holder ressursene i kretsløpet gjennom lang levetid, reparasjon, gjenbruk og gjenvinning. Teknologi kan spare energi og redusere svinn, men også gi elektronisk avfall, strømforbruk og rebound-effekter. Vær kildekritisk til virksomhetens egne rapporter, og vurder konkrete forbedringer og hindringer.\n\n## Sammenhenger i faget\nProduktutvikling starter med behov og krav, og fortsetter med prototyper, målinger og testing. Mikrokontrollere og sensorer gjør det mulig å samle inn data, mens måleplan, usikkerhetsanalyse og forsøksmetode avgjør hvor troverdige konklusjonene blir. Data kan brukes til å vurdere teknologiske produkter og virksomheter, men vurderingen bør også omfatte etikk, samfunnsvirkninger og alle bærekraftsdimensjonene.\n\n## Huskeliste før prøven\n- Skill mellom funksjonelle og ikke-funksjonelle krav.\n- Knytt tester til konkrete, målbare krav.\n- Forklar forskjellen på analoge og digitale signaler.\n- Velg målefrekvens etter hvor raskt målingen kan endre seg.\n- Skill mellom tilfeldig og systematisk feil.\n- Skill mellom reliabilitet og validitet.\n- Vurder usikkerhet før du konkluderer fra data.\n- Bruk etiske perspektiver og identifiser hvem som berøres.\n- Vurder bærekraft miljømessig, sosialt og økonomisk.",
+  "flashcards": [
+    {
+      "term": "Kravspesifikasjon",
+      "def": "Beskriver hva produktet skal gjøre og hvilke begrensninger det har."
+    },
+    {
+      "term": "Målbart krav",
+      "def": "Krav som kan sjekkes med en test, som «minst 300 lux»."
+    },
+    {
+      "term": "Mikrokontroller",
+      "def": "Liten datamaskin på én brikke som styrer noe."
+    },
+    {
+      "term": "loop()",
+      "def": "Gjentas så lenge kortet har strøm.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Sensor",
+      "def": "Gjør en fysisk størrelse om til et elektrisk signal."
+    },
+    {
+      "term": "AD-omformer",
+      "def": "Gjør analog spenning om til et heltall."
+    },
+    {
+      "term": "Datalogger",
+      "def": "Måler automatisk og lagrer målinger over tid."
+    },
+    {
+      "term": "Målefrekvens",
+      "def": "Hvor ofte det måles."
+    },
+    {
+      "term": "Tilfeldig feil",
+      "def": "Varierer fra måling til måling og jevner seg ut over mange målinger."
+    },
+    {
+      "term": "Systematisk feil",
+      "def": "Gir samme skjevhet hver gang – oppdages ved kalibrering."
+    },
+    {
+      "term": "Relativ usikkerhet",
+      "def": "Usikkerhet delt på måleverdien."
+    },
+    {
+      "term": "Kontrollert forsøk",
+      "def": "Bare én variabel endres om gangen."
+    },
+    {
+      "term": "Validitet",
+      "def": "Om vi faktisk måler det vi tror vi måler."
+    },
+    {
+      "term": "Basestasjon",
+      "def": "Mast som kommuniserer med telefonene via radiobølger.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Digitalisering av stemmen",
+      "def": "Lyden gjøres om til tall, komprimeres og sendes.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Konsekvensetikk",
+      "def": "Riktig handling gir de beste konsekvensene for flest."
+    },
+    {
+      "term": "Føre var-prinsippet",
+      "def": "Vær forsiktig ved mulig alvorlig skade og usikker kunnskap."
+    },
+    {
+      "term": "Bærekraftig utvikling",
+      "def": "Dekke dagens behov uten å ødelegge framtidige generasjoners muligheter."
+    },
+    {
+      "term": "Livsløpsanalyse (LCA)",
+      "def": "Miljøbelastning fra råvare til avfall."
+    },
+    {
+      "term": "Sirkulær økonomi",
+      "def": "Ressurser holdes i kretsløpet gjennom reparasjon, gjenbruk og gjenvinning."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvorfor jobber man iterativt i produktutvikling?",
+      "options": [
+        "For å bruke mer tid",
+        "For å oppdage feil tidlig mens de er billige å rette",
+        "Fordi det er påbudt",
+        "For å slippe testing"
+      ],
+      "correct": 1,
+      "explain": "Prototype, test og forbedring gjentas."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor trenger en lysdiode en formotstand?",
+      "options": [
+        "For å lyse sterkere",
+        "For å skifte farge",
+        "For å begrense strømmen så den ikke ødelegges",
+        "For å måle lys"
+      ],
+      "correct": 2,
+      "explain": "Ofte 220 Ω på 5 V."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er forskjellen på et analogt og et digitalt signal?",
+      "options": [
+        "Analoge er alltid raskere",
+        "Et analogt kan ha alle verdier i et område, et digitalt har bestemte verdier",
+        "Digitale signaler finnes bare i datamaskiner",
+        "Det er ingen forskjell"
+      ],
+      "correct": 1,
+      "explain": "For eksempel 0–5 V mot HØY/LAV."
+    },
+    {
+      "id": "q04",
+      "text": "Hva bestemmer hva som skal måles, hvor ofte og hvor lenge?",
+      "options": [
+        "Prisen på sensoren",
+        "Spørsmålet du vil ha svar på",
+        "Fargen på kabinettet",
+        "Hvor mange ledninger du har"
+      ],
+      "correct": 1,
+      "explain": "Start alltid med spørsmålet."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner en systematisk feil?",
+      "options": [
+        "Den varierer tilfeldig",
+        "Den gir samme skjevhet hver gang",
+        "Den forsvinner med flere målinger",
+        "Den skyldes alltid brukeren"
+      ],
+      "correct": 1,
+      "explain": "Oppdages ved kalibrering."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor endres bare én variabel om gangen i et kontrollert forsøk?",
+      "options": [
+        "For å kunne knytte endringen i resultatet til den variabelen",
+        "For å spare tid",
+        "Fordi det er påbudt",
+        "For å få flere variabler"
+      ],
+      "correct": 0,
+      "explain": "Ellers vet vi ikke hva som påvirket resultatet."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor var overgangen fra analoge til digitale mobilnett viktig?",
+      "options": [
+        "Telefonene ble større",
+        "Den fjernet behovet for master",
+        "Den gjorde samtaler gratis",
+        "Den ga bedre lyd og plass til flere brukere"
+      ],
+      "correct": 3,
+      "explain": "Stemmen sendes som komprimerte tall.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q08",
+      "text": "Hva sier føre var-prinsippet?",
+      "options": [
+        "Vær forsiktig når det kan bli alvorlig skade og kunnskapen er usikker",
+        "Innfør all ny teknologi raskt",
+        "Bare bevist skade skal tas hensyn til",
+        "Teknologi er alltid farlig"
+      ],
+      "correct": 0,
+      "explain": "Viktig ved uopprettelig skade."
+    },
+    {
+      "id": "q09",
+      "text": "Hva betyr det at teknologi ikke er nøytral?",
+      "options": [
+        "At den alltid er ond",
+        "At den ikke virker",
+        "At den påvirker og fordeler nytte, risiko og makt",
+        "At den er politisk styrt"
+      ],
+      "correct": 2,
+      "explain": "Valgene i utviklingen har konsekvenser."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er de tre dimensjonene av bærekraft?",
+      "options": [
+        "Teknologi, økonomi og politikk",
+        "Miljø, sosial og økonomi",
+        "Energi, vann og luft",
+        "Lokal, nasjonal og global"
+      ],
+      "correct": 1,
+      "explain": "Alle tre må ivaretas."
+    },
+    {
+      "id": "q11",
+      "text": "Hva er sirkulær økonomi?",
+      "options": [
+        "At penger sirkulerer raskt",
+        "At produkter kastes etter bruk",
+        "At ressurser holdes i kretsløpet gjennom reparasjon, gjenbruk og gjenvinning",
+        "At alt produseres lokalt"
+      ],
+      "correct": 2,
+      "explain": "Motsatt av bruk-og-kast."
+    }
+  ],
+  "mindmap": {
+    "label": "Teknologi og forskningslære 1",
+    "children": [
+      {
+        "label": "Kravspesifikasjon, arbeidstegninger og produktutvikling",
+        "children": [
+          {
+            "label": "Kravspesifikasjon",
+            "note": "Beskriver hva produktet skal gjøre og hvilke begrensninger det har."
+          },
+          {
+            "label": "Målbart krav",
+            "note": "Krav som kan sjekkes med en test, som «minst 300 lux»."
+          }
+        ]
+      },
+      {
+        "label": "Mikrokontrollere",
+        "children": [
+          {
+            "label": "Mikrokontroller",
+            "note": "Liten datamaskin på én brikke som styrer noe."
+          },
+          {
+            "label": "loop()",
+            "note": "Gjentas så lenge kortet har strøm."
+          }
+        ]
+      },
+      {
+        "label": "Sensorer, analoge og digitale signaler",
+        "children": [
+          {
+            "label": "Sensor",
+            "note": "Gjør en fysisk størrelse om til et elektrisk signal."
+          },
+          {
+            "label": "AD-omformer",
+            "note": "Gjør analog spenning om til et heltall."
+          }
+        ]
+      },
+      {
+        "label": "Et produkt som samler inn data",
+        "children": [
+          {
+            "label": "Datalogger",
+            "note": "Måler automatisk og lagrer målinger over tid."
+          },
+          {
+            "label": "Målefrekvens",
+            "note": "Hvor ofte det måles."
+          }
+        ]
+      },
+      {
+        "label": "Dataanalyse og måleusikkerhet",
+        "children": [
+          {
+            "label": "Tilfeldig feil",
+            "note": "Varierer fra måling til måling og jevner seg ut over mange målinger."
+          },
+          {
+            "label": "Systematisk feil",
+            "note": "Gir samme skjevhet hver gang – oppdages ved kalibrering."
+          },
+          {
+            "label": "Relativ usikkerhet",
+            "note": "Usikkerhet delt på måleverdien."
+          }
+        ]
+      },
+      {
+        "label": "Kvantitativ metode og pålitelighet",
+        "children": [
+          {
+            "label": "Kontrollert forsøk",
+            "note": "Bare én variabel endres om gangen."
+          },
+          {
+            "label": "Validitet",
+            "note": "Om vi faktisk måler det vi tror vi måler."
+          }
+        ]
+      },
+      {
+        "label": "Et teknologisk produkt: mobiltelefonen",
+        "children": [
+          {
+            "label": "Basestasjon",
+            "note": "Mast som kommuniserer med telefonene via radiobølger."
+          },
+          {
+            "label": "Digitalisering av stemmen",
+            "note": "Lyden gjøres om til tall, komprimeres og sendes."
+          }
+        ]
+      },
+      {
+        "label": "Teknologi og etikk",
+        "children": [
+          {
+            "label": "Konsekvensetikk",
+            "note": "Riktig handling gir de beste konsekvensene for flest."
+          },
+          {
+            "label": "Føre var-prinsippet",
+            "note": "Vær forsiktig ved mulig alvorlig skade og usikker kunnskap."
+          }
+        ]
+      },
+      {
+        "label": "Teknologi i en virksomhet – bærekraftsperspektiv",
+        "children": [
+          {
+            "label": "Bærekraftig utvikling",
+            "note": "Dekke dagens behov uten å ødelegge framtidige generasjoners muligheter."
+          },
+          {
+            "label": "Livsløpsanalyse (LCA)",
+            "note": "Miljøbelastning fra råvare til avfall."
+          },
+          {
+            "label": "Sirkulær økonomi",
+            "note": "Ressurser holdes i kretsløpet gjennom reparasjon, gjenbruk og gjenvinning."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Hvert krav i kravspesifikasjonen bør kunne sjekkes med en test.",
+        "correct": true,
+        "explain": "Ellers vet vi ikke om det er oppfylt."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hva gjør pinMode(13, OUTPUT)?",
+        "options": [
+          "Gjør pinne 13 til en utgang",
+          "Slår på pinne 13",
+          "Leser pinne 13",
+          "Sletter programmet"
+        ],
+        "correct": 0,
+        "explain": "Kjøres i setup().",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "En AD-omformer med flere bit gir grovere oppløsning.",
+        "correct": false,
+        "explain": "Flere bit gir finere oppløsning."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hva hører med i vurderingen av et datainnsamlingsprosjekt?",
+        "options": [
+          "Bare produktets farge",
+          "Bare hvor mye tid det tok",
+          "Usikkerhet, feilkilder og forslag til forbedringer",
+          "Bare hvem som var på gruppa"
+        ],
+        "correct": 2,
+        "explain": "Kritisk vurdering av resultatene."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Korrelasjon mellom to målinger beviser en årsakssammenheng.",
+        "correct": false,
+        "explain": "Korrelasjon er ikke årsak."
+      },
+      {
+        "id": "m06",
+        "type": "sant-usant",
+        "text": "Høy reliabilitet garanterer høy validitet.",
+        "correct": false,
+        "explain": "Stabile målinger kan være systematisk feil."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er det siste steget i en etisk drøfting?",
+        "options": [
+          "En begrunnet konklusjon",
+          "Å beskrive teknologien",
+          "Å liste opp perspektivene",
+          "Å telle argumentene"
+        ],
+        "correct": 0,
+        "explain": "Gjerne med forslag til tiltak."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "Teknologi kan både løse og skape bærekraftsproblemer.",
+        "correct": true,
+        "explain": "For eksempel elektrifisering og elektronisk avfall."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan en kravspesifikasjon, en prototype og testing kan brukes sammen når du utvikler et automatisk nattlys med mikrokontroller.",
+        "fasit": "Kravspesifikasjonen beskriver hva nattlyset skal gjøre, for eksempel at det slår på lysdioden når det er mørkt. En prototype kan brukes til å prøve ut sensoren, programmet og utgangen. Ved testing sammenlignes resultatet med kravene, og feil kan føre til forbedring og ny test.",
+        "kriterier": [
+          "Kravene beskriver ønsket funksjon og kan testes.",
+          "Prototypen brukes til å prøve ut produktet.",
+          "Testresultater brukes til forbedring."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Beskriv hvordan du ville undersøkt hvor mye temperaturen i et klasserom endrer seg gjennom en skoledag ved hjelp av en datalogger.",
+        "fasit": "Jeg ville brukt en temperatursensor koblet til en mikrokontroller som lagrer målingene med tidsstempler. Målefrekvensen må passe til hvor raskt temperaturen endrer seg, og en prøvelogging kan avdekke feil før målingen gjennomføres. Jeg ville lagret dataene i CSV og vist temperaturen mot tid i en graf.",
+        "kriterier": [
+          "Nevner sensor, mikrokontroller og lagring av målinger.",
+          "Forklarer at tidsstempler og passende målefrekvens er viktige.",
+          "Nevner prøvelogging eller graf med tid på x-aksen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En sensor viser hver gang 1,5 °C for mye, selv om målingene er stabile. Forklar hva slags feil dette er, hvordan den kan oppdages, og om målingene er valide.",
+        "fasit": "Dette er en systematisk feil fordi sensoren viser samme skjevhet hver gang. Feilen kan oppdages ved å kalibrere sensoren mot en kjent referanse. Målingene kan være reliable fordi de er stabile, men de er ikke valide dersom de ikke viser den temperaturen vi vil måle.",
+        "kriterier": [
+          "Identifiserer feilen som systematisk.",
+          "Nevner kalibrering mot en kjent referanse.",
+          "Skiller mellom reliabilitet og validitet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Du vil sammenligne hvor godt ull og bomull isolerer. Beskriv hvordan du kan lage et kontrollert forsøk og hva du må måle.",
+        "fasit": "Jeg ville endret isolasjonsmaterialet og målt temperaturfallet over en bestemt tid. Starttemperatur, vannmengde, romtemperatur og tykkelse bør holdes like, og et glass uten isolasjon kan brukes som referanse. Forsøkene bør gjentas flere ganger.",
+        "kriterier": [
+          "Identifiserer materialet som uavhengig variabel og temperaturfallet som avhengig variabel.",
+          "Nevner kontrollerte variabler og/eller referanse.",
+          "Nevner gjentak av forsøket."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En del er 40 mm lang i virkeligheten. Hvor lang skal den tegnes i målestokk 1 : 2? Vis hvordan du tenker.",
+        "fasit": "Målestokk 1 : 2 betyr at tegningen er halvparten så stor som virkeligheten. 40 mm delt på 2 er 20 mm, så delen skal tegnes 20 mm lang.",
+        "kriterier": [
+          "Forstår at 1 : 2 betyr halv størrelse.",
+          "Svar: 20 mm."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Fem målinger av en avstand er 50,2 cm, 49,8 cm, 50,4 cm, 50,0 cm og 49,6 cm. Regn ut gjennomsnittet.",
+        "fasit": "Summen av målingene er 250,0 cm. Jeg deler på fem målinger: 250,0 / 5 = 50,0 cm.",
+        "kriterier": [
+          "Bruker summen av målingene delt på antallet.",
+          "Svar: 50,0 cm."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En mobiltelefon gjør det mulig å kommunisere og betale, men produksjonen krever metaller og gamle telefoner blir elektronisk avfall. Forklar hvordan du kan drøfte dette ved hjelp av etisk perspektiv og bærekraft.",
+        "fasit": "Konsekvensetikk kan brukes til å veie nytten av kommunikasjon og betaling mot skade fra metallutvinning og elektronisk avfall. Bærekraftsvurderingen bør ta med miljø, sosiale forhold i leverandørkjeden og økonomi. Reparasjon og gjenvinning kan redusere miljøbelastningen.",
+        "kriterier": [
+          "Veier nytte og mulige skadevirkninger med et etisk perspektiv.",
+          "Nevner relevante bærekraftsdimensjoner.",
+          "Foreslår reparasjon eller gjenvinning som tiltak."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En virksomhet bruker sensorer og dataanalyse for å redusere energibruken i produksjonen. Forklar hvordan teknologien kan bidra til bærekraft, og nevn en mulig ulempe.",
+        "fasit": "Sensorer og dataanalyse kan overvåke produksjonen, forutsi vedlikehold og bidra til å spare energi. En livsløpsanalyse kan brukes til å vurdere miljøbelastningen fra råvarer til avfall, og bærekraft bør også vurderes sosialt og økonomisk. Effektivisering kan likevel føre til en rebound-effekt dersom lavere kostnader gjør at virksomheten bruker mer av produktet.",
+        "kriterier": [
+          "Forklarer hvordan data kan brukes til å overvåke produksjon eller spare energi.",
+          "Nevner vurdering av bærekraft utover bare energibruk.",
+          "Nevner rebound-effekt eller en annen relevant ulempe fra oppgaven."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

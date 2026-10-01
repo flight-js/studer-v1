@@ -1,0 +1,580 @@
+{
+  "id": "repetisjon",
+  "fagId": "samfunnsokonomi-1",
+  "trinnId": "vg2",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "sammendrag": "Samfunnsøkonomi handler om hvordan samfunnet bruker knappe ressurser for å dekke behov, og om valgene husholdninger, bedrifter og myndigheter tar. Faget undersøker hvordan markeder, politikk og økonomiske sammenhenger påvirker produksjon, arbeid, priser, fordeling og handel.\n\n## Samfunnsøkonomi, modeller og kilder\nRessursene **arbeidskraft**, **realkapital**, naturressurser, teknologi og kunnskap er begrenset. Derfor har valg en **alternativkostnad**: verdien av det beste alternativet vi velger bort. I en **blandingsøkonomi** som Norge påvirker både markedet og staten hva som produseres, hvordan og for hvem. **Mikroøkonomi** studerer enkeltaktører og markeder, mens **makroøkonomi** ser på hele økonomien. Modeller forenkler virkeligheten og bygger på forutsetninger, som «alt annet likt». Skill mellom **positive** påstander om hvordan noe er, og **normative** påstander om hvordan noe bør være. Bruk relevante kilder, og skill mellom nominelle tall og tall justert for prisstigning. En indeks sammenligner utvikling med et basisår satt til 100; prosentpoeng er forskjellen mellom prosenttall.\n\n## Tilbud, etterspørsel og markedslikevekt\n**Etterspørsel** viser hvor mye kjøpere vil kjøpe ved ulike priser, og kurven heller nedover. **Tilbud** viser hvor mye selgere vil selge, og kurven heller oppover. Når prisen på varen endres, beveger vi oss langs kurven; andre endringer, som inntekt, kostnader eller avgifter, forskyver kurven. Der kurvene krysser, finner vi **likevektspris** og -mengde. Pris over likevekt gir overskuddstilbud og press ned på prisen; pris under gir overskuddsetterspørsel og press opp. Erstatningsvarer og tilleggsvarer påvirker etterspørselen, og priselastisitet beskriver hvor mye etterspørselen reagerer på prisendringer.\n\n## Markedsformer\nMarkedsformer varierer etter antall tilbydere, hvor like produktene er, etableringshindringer og markedsmakt. Ved **fullkommen konkurranse** er det mange små aktører, like produkter og fri etablering; bedriftene er pristakere. I **monopolistisk konkurranse** tilbyr mange bedrifter ulike produkter. Et **oligopol** har få store, gjensidig avhengige aktører, mens et **monopol** har én tilbyder uten nære erstatninger. Monopol kan gi høyere pris og lavere produksjon enn konkurranse. Karteller er ulovlige, og Konkurransetilsynet håndhever konkurranseloven.\n\n## Realligningen\nRealligningen viser at tilgang er lik anvendelse: **BNP + import = privat konsum + offentlig konsum + realinvesteringer + eksport**. Dermed er **BNP = privat konsum + offentlig konsum + realinvesteringer + (eksport − import)**. Nettoeksport er eksport minus import. Realinvesteringer omfatter blant annet nye bygg, maskiner og lagerendringer. Pensjoner og andre overføringer er ikke offentlig konsum; de inngår i privat konsum når mottakerne bruker dem. Ligningen er en regnskapssammenheng, ikke en selvsagt forklaring på hvorfor tallene endres. Økt etterspørsel må møtes av mer produksjon, import eller mindre annen anvendelse.\n\n## Privat og offentlig sektor i Norge\nPrivat sektor består av private virksomheter, vanligvis finansiert gjennom salg, mens offentlig sektor består av stat, fylkeskommuner og kommuner og finansieres hovedsakelig av skatter og avgifter. Primærnæringer omfatter blant annet jordbruk og fiske, sekundærnæringer industri og utvinning, og tertiærnæringer tjenester. Kommunen har blant annet ansvar for barnehage og eldreomsorg; fylkeskommunen for videregående skole; staten for blant annet forsvar og sykehus. Statens oljeinntekter settes inn i **oljefondet**. **Handlingsregelen** sier at staten over tid bruker om lag forventet realavkastning. Eldrebølge, lavere oljeinntekter, omstilling og behov for arbeidskraft er utfordringer framover.\n\n## Økonomisk vekst og BNP\n**BNP** måler verdien av produksjonen i et land i en periode. Nominelt BNP måles i løpende priser; **reelt BNP** er justert for prisstigning. Økonomisk vekst er økning i reelt BNP. Vekst kan komme av mer arbeidskraft og realkapital, naturressurser, handel, bedre institusjoner og særlig teknologi og kunnskap som øker produktiviteten på lang sikt. Utdanning og helse bygger **humankapital**. BNP per innbygger hjelper ved sammenligning mellom land med ulik befolkning, men BNP viser ikke fordeling, ubetalt arbeid, miljøskader, fritid eller livskvalitet. HDI og livskvalitetsundersøkelser belyser andre sider av utviklingen.\n\n## Arbeidsledighet og sysselsettingstiltak\n**Arbeidsstyrken** består av sysselsatte og arbeidsledige. En arbeidsledig er uten arbeid, har søkt aktivt og kan begynne snart. Arbeidsledighetsrate = arbeidsledige ÷ arbeidsstyrken · 100. SSBs AKU spør et utvalg; NAV teller registrerte helt ledige. Friksjonsledighet oppstår mellom jobber, strukturledighet når kompetanse eller bosted ikke passer jobbene, konjunkturledighet når etterspørselen er for lav, og sesongledighet varierer med årstiden. Tiltak bør passe årsaken: ekspansiv politikk ved konjunkturledighet, omskolering ved strukturledighet og bedre jobbformidling ved friksjonsledighet. Ledighet gir tapt produksjon og kan skade inntekt og helse.\n\n## Prisstigning\n**Inflasjon** er en generell økning i prisnivået, ikke bare at én vare blir dyrere. SSB måler prisutviklingen med KPI, en varekurv der gruppene vektes etter hvor mye husholdningene bruker. Prisstigning i prosent = (KPI nå − KPI før) ÷ KPI før · 100. **Reallønn** viser lønnens kjøpekraft etter prisstigning. Inflasjon kan skyldes etterspørselspress, kostnadspress, dyrere import, forventninger eller rask vekst i pengemengden. Norges Banks mål er om lag 2 prosent over tid. Inflasjon svekker særlig kjøpekraften til personer med faste inntekter; deflasjon kan føre til utsatte kjøp, lavere etterspørsel og økt arbeidsledighet.\n\n## Pengepolitikk og finanspolitikk\nKonjunkturer er svingninger i aktiviteten. Stabiliseringspolitikken skal dempe dem og bidra til lav og stabil prisstigning og høy sysselsetting. Norges Bank bruker **styringsrenten**: høyere rente demper gjerne konsum og investeringer, mens lavere rente kan øke etterspørselen. Renteendringer påvirker også ofte kronekursen og virker med tidsetterslep. Regjeringen og Stortinget fører finanspolitikk gjennom skatter og offentlige utgifter. Ekspansiv politikk øker etterspørselen; kontraktiv politikk demper den. Dagpenger og skatteinntekter virker som automatiske stabilisatorer. Penge- og finanspolitikken bør ses i sammenheng.\n\n## Finansmarkeder\nBanker, aksje-, obligasjons- og valutamarkeder formidler penger og finansielle eiendeler. De kanaliserer sparing til investeringer, gjør betalinger mulig og fordeler risiko. Aksjer er eierandeler; obligasjoner er lån som gir renter. Finansmarkedene kan gi bedrifter kapital og bidra til vekst, men bobler, høy gjeld og problemer som sprer seg mellom banker kan skape ustabilitet. Regulering, egenkapital, likviditet og innskuddsgaranti skal bidra til et tryggere finanssystem.\n\n## Lønnsforskjeller, inntektsfordeling og ulikhet\nLønnsforskjeller henger blant annet sammen med utdanning, erfaring, bransje, tilbud og etterspørsel etter arbeidskraft og forhandlingsmakt. I **frontfagsmodellen** forhandler konkurranseutsatte næringer først og setter en norm; partene i arbeidslivet og staten samarbeider også. Lorenzkurven viser hvordan inntekt er fordelt, og **Gini-koeffisienten** måler ulikhet fra 0 (likhet) til 1 (én har all inntekten). Formue er skjevere fordelt enn inntekt. Progressiv skatt, overføringer, offentlige tjenester og utdanning kan påvirke fordelingen og sosial mobilitet. Ulikhet kan svekke tillit, men ulikhet kan også gi insentiver; hvor mye staten bør omfordele, handler både om effektivitet og verdier.\n\n## Miljø og bærekraftig vekst\nBærekraftig utvikling dekker dagens behov uten å ødelegge for framtidige generasjoner. En **ekstern virkning** påvirker andre uten å være med i prisen. Når forurensning ikke prises, kan markedet produsere for mye av det som skader miljøet. Avgifter etter prinsippet «forurenser betaler», omsettelige utslippskvoter, subsidier, reguleringer og forskning er mulige virkemidler. Avgifter og kvoter kan kutte utslipp der det er billigst, men kan ramme lavinntektsgrupper. Bærekraftig vekst krever at verdiskaping avkobles fra utslipp og ressursbruk, blant annet gjennom fornybar energi, sirkulær økonomi og energieffektivisering. Klima er et globalt problem, og land kan fristes til å være gratispassasjerer.\n\n## Valutakurser\nEn valutakurs er prisen på én valuta målt i en annen. Norge har flytende valutakurs, bestemt av tilbud og etterspørsel. Når eurokursen målt i kroner stiger, svekkes kronen. Høyere norsk rente eller oljepris kan øke etterspørselen etter kroner, mens uro kan svekke kronen når investorer søker mot større valutaer. Svak krone gjør import dyrere, kan øke prisstigningen og styrker ofte eksportbedriftenes konkurranseevne. Sterk krone gjør import billigere, men kan svekke eksport og reiseliv. Norges Bank styrer ikke kursen direkte, men renten påvirker den.\n\n## Internasjonal handel og globalisering\nLand handler på grunn av ulike ressurser, spesialisering, stordriftsfordeler, større vareutvalg og konkurranse. Et **komparativt fortrinn** betyr lavest alternativkostnad; land kan derfor tjene på handel selv om ett land kan produsere alt billigere. Toll og kvoter beskytter næringer, men kan gi høyere priser og mindre effektiv produksjon. WTO lager handelsregler, mens EØS-avtalen gir Norge tilgang til EUs indre marked. Globalisering knytter økonomier tettere sammen og kan spre teknologi og gi vekst, men skaper også utfordringer som utflytting av jobber, ulikhet, sårbare verdikjeder og miljøbelastning.\n\n## Sammenhenger i faget\nProduksjon, inntekt og forbruk henger sammen gjennom kretsløpet og realligningen. Markedspriser påvirkes av tilbud, etterspørsel og markedsmakt, mens politikk kan endre etterspørsel, kostnader og fordeling. Konjunkturer påvirker arbeidsledighet og prisstigning, og penge- og finanspolitikken brukes til å dempe svingningene. Renter påvirker både investeringer, husholdningenes forbruk og valutakursen; valutakursen påvirker igjen importpriser og konkurranseevne. Handel gir tilgang til markeder og ressurser, mens produksjon og forbruk også skaper miljøvirkninger. BNP måler økonomisk aktivitet, men må suppleres med kunnskap om fordeling, miljø og livskvalitet.\n\n## Huskeliste før prøven\n- Forklar alternativkostnad og skill mikroøkonomi fra makroøkonomi.\n- Skill mellom bevegelse langs en kurve og forskyvning av kurven.\n- Finn likevekt, og forklar hva overskuddstilbud eller overskuddsetterspørsel gjør med prisen.\n- Øv på realligningen og arbeidsledighetsraten.\n- Skill mellom nominelle og reelle tall, og regn med indekser og prosentpoeng.\n- Knytt tiltak mot arbeidsledighet og konjunkturer til årsaken.\n- Forklar hvordan rente og valutakurs kan påvirke etterspørsel og priser.\n- Vurder både gevinster og kostnader ved handel, omfordeling og miljøtiltak.",
+  "flashcards": [
+    {
+      "term": "Alternativkostnad",
+      "def": "Verdien av det beste alternativet man velger bort."
+    },
+    {
+      "term": "Blandingsøkonomi",
+      "def": "Marked og stat styrer økonomien sammen, som i Norge."
+    },
+    {
+      "term": "Likevektspris",
+      "def": "Prisen der tilbudt og etterspurt mengde er like store."
+    },
+    {
+      "term": "Forskyvning av kurven",
+      "def": "Skjer når andre forhold enn prisen endres."
+    },
+    {
+      "term": "Oligopol",
+      "def": "Få, store tilbydere som er gjensidig avhengige."
+    },
+    {
+      "term": "Realligningen",
+      "def": "BNP + import = privat konsum + offentlig konsum + realinvesteringer + eksport."
+    },
+    {
+      "term": "Handlingsregelen",
+      "def": "Staten bruker om lag den forventede realavkastningen av fondet."
+    },
+    {
+      "term": "Reelt BNP",
+      "def": "BNP justert for prisstigning."
+    },
+    {
+      "term": "Økonomisk vekst",
+      "def": "En økning i reelt BNP."
+    },
+    {
+      "term": "Strukturledighet",
+      "def": "De ledige har ikke kompetansen eller bostedet som trengs."
+    },
+    {
+      "term": "Reallønn",
+      "def": "Lønn justert for prisstigning – viser kjøpekraften."
+    },
+    {
+      "term": "Styringsrenten",
+      "def": "Renten bankene får på innskudd i Norges Bank."
+    },
+    {
+      "term": "Kanalisere sparing",
+      "def": "Finansmarkedene flytter sparing til investeringer."
+    },
+    {
+      "term": "Gini-koeffisient",
+      "def": "Mål på ulikhet fra 0 (full likhet) til 1 (én har alt)."
+    },
+    {
+      "term": "Ekstern virkning",
+      "def": "En aktivitet påvirker andre uten at det gjenspeiles i prisen."
+    },
+    {
+      "term": "Utslippskvote",
+      "def": "Rett til å slippe ut en viss mengde, som kan kjøpes og selges."
+    },
+    {
+      "term": "Svekket krone",
+      "def": "Man betaler flere kroner for en utenlandsk valuta."
+    },
+    {
+      "term": "Komparativt fortrinn",
+      "def": "Å ha lavest alternativkostnad for en vare."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er alternativkostnad?",
+      "options": [
+        "Prisen på en vare",
+        "Verdien av det beste alternativet man velger bort",
+        "Skatten på en vare",
+        "Kostnaden for staten"
+      ],
+      "correct": 1,
+      "explain": "Alle valg har en alternativkostnad."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er likevektsprisen?",
+      "options": [
+        "Den høyeste prisen",
+        "Prisen staten bestemmer",
+        "Den laveste prisen",
+        "Prisen der tilbudt og etterspurt mengde er like"
+      ],
+      "correct": 3,
+      "explain": "Der kurvene krysser."
+    },
+    {
+      "id": "q03",
+      "text": "Hva kjennetegner et oligopol?",
+      "options": [
+        "Mange små aktører",
+        "Én aktør",
+        "Få, store aktører som er gjensidig avhengige",
+        "Ingen etableringshindringer"
+      ],
+      "correct": 2,
+      "explain": "Som dagligvarehandelen i Norge."
+    },
+    {
+      "id": "q04",
+      "text": "Hva må skje hvis privat konsum øker og alt annet er likt?",
+      "options": [
+        "Eksporten må øke",
+        "Offentlig konsum må øke",
+        "Produksjonen eller importen må øke",
+        "Ingenting"
+      ],
+      "correct": 2,
+      "explain": "Tilgang og anvendelse må være like."
+    },
+    {
+      "id": "q05",
+      "text": "Hva sier handlingsregelen?",
+      "options": [
+        "At staten skal bruke hele oljefondet",
+        "At oljefondet skal investeres i Norge",
+        "At staten aldri kan bruke av fondet",
+        "At staten over tid skal bruke om lag den forventede realavkastningen"
+      ],
+      "correct": 3,
+      "explain": "Rundt 3 prosent av verdien."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor bruker vi reelt BNP for å måle vekst?",
+      "options": [
+        "Fordi det er justert for prisstigning",
+        "Fordi det er høyere",
+        "Fordi det inkluderer ubetalt arbeid",
+        "Fordi det er i dollar"
+      ],
+      "correct": 0,
+      "explain": "Nominelt BNP kan øke bare fordi prisene stiger."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket tiltak passer best mot strukturledighet?",
+      "options": [
+        "Utdanning og omskolering",
+        "Lavere rente",
+        "Skattelette",
+        "Økt offentlig forbruk"
+      ],
+      "correct": 0,
+      "explain": "De ledige må passe til jobbene."
+    },
+    {
+      "id": "q08",
+      "text": "Lønnen stiger med 5 % og prisene med 3 %. Hva skjer med reallønnen?",
+      "options": [
+        "Den faller med 2 %",
+        "Den er uendret",
+        "Den stiger med 8 %",
+        "Den stiger med omtrent 2 %"
+      ],
+      "correct": 3,
+      "explain": "Kjøpekraften øker."
+    },
+    {
+      "id": "q09",
+      "text": "Hva skjer vanligvis når renten settes opp?",
+      "options": [
+        "Konsumet og investeringene faller",
+        "Konsumet øker",
+        "Kronen svekkes",
+        "Det blir billigere å låne"
+      ],
+      "correct": 0,
+      "explain": "Kontraktiv pengepolitikk."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er en viktig oppgave for finansmarkedene?",
+      "options": [
+        "Å fastsette skattene",
+        "Å produsere varer",
+        "Å kanalisere sparing til investeringer",
+        "Å bestemme lønningene"
+      ],
+      "correct": 2,
+      "explain": "Sparing blir til lån og investeringer."
+    },
+    {
+      "id": "q11",
+      "text": "Hva betyr en Gini-koeffisient på 0?",
+      "options": [
+        "At alle har like stor inntekt",
+        "At én person har all inntekt",
+        "At ingen har inntekt",
+        "At ulikheten er svært stor"
+      ],
+      "correct": 0,
+      "explain": "1 betyr at én har alt."
+    },
+    {
+      "id": "q12",
+      "text": "Hvordan fungerer et kvotesystem?",
+      "options": [
+        "Et tak på samlede utslipp med kvoter som kan omsettes",
+        "Et forbud mot all produksjon",
+        "En subsidie til forurensere",
+        "En skatt på inntekt"
+      ],
+      "correct": 0,
+      "explain": "Norge er med i EUs kvotesystem."
+    },
+    {
+      "id": "q13",
+      "text": "Hvordan kan en svak krone påvirke prisstigningen?",
+      "options": [
+        "Den senker den alltid",
+        "Den kan øke den fordi importvarer blir dyrere",
+        "Den har ingen effekt",
+        "Den gir deflasjon"
+      ],
+      "correct": 1,
+      "explain": "Importert inflasjon."
+    },
+    {
+      "id": "q14",
+      "text": "Hva er et komparativt fortrinn?",
+      "options": [
+        "Å produsere alt billigst",
+        "Å ha lavest alternativkostnad for en vare",
+        "Å ha mest olje",
+        "Å ha høyest toll"
+      ],
+      "correct": 1,
+      "explain": "Beskrevet av David Ricardo."
+    }
+  ],
+  "mindmap": {
+    "label": "Samfunnsøkonomi 1",
+    "children": [
+      {
+        "label": "Samfunnsøkonomi, modeller og kilder",
+        "children": [
+          {
+            "label": "Alternativkostnad",
+            "note": "Verdien av det beste alternativet man velger bort."
+          },
+          {
+            "label": "Blandingsøkonomi",
+            "note": "Marked og stat styrer økonomien sammen, som i Norge."
+          }
+        ]
+      },
+      {
+        "label": "Tilbud, etterspørsel og markedslikevekt",
+        "children": [
+          {
+            "label": "Likevektspris",
+            "note": "Prisen der tilbudt og etterspurt mengde er like store."
+          },
+          {
+            "label": "Forskyvning av kurven",
+            "note": "Skjer når andre forhold enn prisen endres."
+          }
+        ]
+      },
+      {
+        "label": "Markedsformer",
+        "children": [
+          {
+            "label": "Oligopol",
+            "note": "Få, store tilbydere som er gjensidig avhengige."
+          }
+        ]
+      },
+      {
+        "label": "Realligningen",
+        "children": [
+          {
+            "label": "Realligningen",
+            "note": "BNP + import = privat konsum + offentlig konsum + realinvesteringer + eksport."
+          }
+        ]
+      },
+      {
+        "label": "Privat og offentlig sektor i Norge",
+        "children": [
+          {
+            "label": "Handlingsregelen",
+            "note": "Staten bruker om lag den forventede realavkastningen av fondet."
+          }
+        ]
+      },
+      {
+        "label": "Økonomisk vekst og BNP",
+        "children": [
+          {
+            "label": "Reelt BNP",
+            "note": "BNP justert for prisstigning."
+          },
+          {
+            "label": "Økonomisk vekst",
+            "note": "En økning i reelt BNP."
+          }
+        ]
+      },
+      {
+        "label": "Arbeidsledighet og sysselsettingstiltak",
+        "children": [
+          {
+            "label": "Strukturledighet",
+            "note": "De ledige har ikke kompetansen eller bostedet som trengs."
+          }
+        ]
+      },
+      {
+        "label": "Prisstigning",
+        "children": [
+          {
+            "label": "Reallønn",
+            "note": "Lønn justert for prisstigning – viser kjøpekraften."
+          }
+        ]
+      },
+      {
+        "label": "Pengepolitikk og finanspolitikk",
+        "children": [
+          {
+            "label": "Styringsrenten",
+            "note": "Renten bankene får på innskudd i Norges Bank."
+          }
+        ]
+      },
+      {
+        "label": "Finansmarkeder",
+        "children": [
+          {
+            "label": "Kanalisere sparing",
+            "note": "Finansmarkedene flytter sparing til investeringer."
+          }
+        ]
+      },
+      {
+        "label": "Lønnsforskjeller, inntektsfordeling og ulikhet",
+        "children": [
+          {
+            "label": "Gini-koeffisient",
+            "note": "Mål på ulikhet fra 0 (full likhet) til 1 (én har alt)."
+          }
+        ]
+      },
+      {
+        "label": "Miljø og bærekraftig vekst",
+        "children": [
+          {
+            "label": "Ekstern virkning",
+            "note": "En aktivitet påvirker andre uten at det gjenspeiles i prisen."
+          },
+          {
+            "label": "Utslippskvote",
+            "note": "Rett til å slippe ut en viss mengde, som kan kjøpes og selges."
+          }
+        ]
+      },
+      {
+        "label": "Valutakurser",
+        "children": [
+          {
+            "label": "Svekket krone",
+            "note": "Man betaler flere kroner for en utenlandsk valuta."
+          }
+        ]
+      },
+      {
+        "label": "Internasjonal handel og globalisering",
+        "children": [
+          {
+            "label": "Komparativt fortrinn",
+            "note": "Å ha lavest alternativkostnad for en vare."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En positiv påstand handler om hvordan noe bør være.",
+        "correct": false,
+        "explain": "Den handler om hvordan noe er."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "I et oligopol trenger ikke bedriftene å bry seg om hva konkurrentene gjør.",
+        "correct": false,
+        "explain": "De er gjensidig avhengige."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hvorfor skal bare en liten del av oljefondet brukes hvert år?",
+        "options": [
+          "For at pengene også skal komme framtidige generasjoner til gode",
+          "Fordi fondet er lite",
+          "Fordi loven forbyr all bruk",
+          "Fordi pengene tilhører utlandet"
+        ],
+        "correct": 0,
+        "explain": "Handlingsregelen."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "En fabrikk legges ned, og arbeiderne mangler kompetanse til de ledige jobbene i IT. Hvilken ledighet er dette?",
+        "options": [
+          "Strukturledighet",
+          "Friksjonsledighet",
+          "Sesongledighet",
+          "Konjunkturledighet"
+        ],
+        "correct": 0,
+        "explain": "Mismatch mellom kompetanse og jobber."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken politikk passer i en lavkonjunktur?",
+        "options": [
+          "Høyere rente",
+          "Ekspansiv politikk",
+          "Kutt i offentlige utgifter",
+          "Høyere skatter"
+        ],
+        "correct": 1,
+        "explain": "Øker etterspørselen."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket virkemiddel setter et tak på samlede utslipp?",
+        "options": [
+          "Subsidier",
+          "Kvotesystem",
+          "Informasjon",
+          "Merking"
+        ],
+        "correct": 1,
+        "explain": "Kvotene kan kjøpes og selges."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan en økning i styringsrenten kan dempe prisstigningen, og ta med én måte valutakursen kan bidra på.",
+        "fasit": "Høyere rente gjør lån dyrere og kan få husholdninger til å redusere forbruket og bedrifter til å redusere investeringene. Kronen blir ofte sterkere, slik at importvarer blir billigere og prisstigningen dempes.",
+        "kriterier": [
+          "Knytter høyere rente til lavere konsum eller investeringer.",
+          "Forklarer at sterkere krone kan gjøre import billigere og dempe prisstigningen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En arbeidsstyrke består av 500 000 personer, og 20 000 av dem er arbeidsledige. Hva er arbeidsledighetsraten? Vis hvordan du regner.",
+        "fasit": "Arbeidsledighetsraten er arbeidsledige delt på arbeidsstyrken, ganger 100. 20 000 ÷ 500 000 · 100 = 4 prosent.",
+        "kriterier": [
+          "Bruker arbeidsledige delt på arbeidsstyrken, multiplisert med 100.",
+          "Får svaret 4 prosent."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En fabrikk legges ned, og de ansatte mangler kompetansen som kreves i jobbene som finnes. Hvilken type arbeidsledighet er dette, og nevn et passende tiltak.",
+        "fasit": "Dette er strukturledighet, fordi kompetansen til de arbeidsledige ikke passer til jobbene som finnes. Utdanning eller omskolering kan gi dem kompetansen de trenger.",
+        "kriterier": [
+          "Identifiserer strukturledighet og forklarer at kompetansen ikke passer.",
+          "Nevner utdanning eller omskolering som tiltak."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En euro koster først 11 kroner og senere 12 kroner. Forklar hva som har skjedd med kronen, og nevn én mulig virkning for norske eksportbedrifter og én for importprisene.",
+        "fasit": "Kronen er svekket fordi det nå trengs flere kroner for å kjøpe en euro. Norske eksportbedrifter kan bli mer konkurransedyktige, mens importvarer blir dyrere.",
+        "kriterier": [
+          "Forklarer at kronen er svekket når eurokursen målt i kroner stiger.",
+          "Knytter svakere krone til bedre konkurranseevne for eksportbedrifter og dyrere import."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Lønnen øker med 5 prosent, mens prisene øker med 3 prosent. Omtrent hvor mye øker reallønnen, og hva forteller reallønnen?",
+        "fasit": "Reallønnen øker med omtrent 2 prosent, fordi lønnsøkningen er 2 prosentpoeng større enn prisstigningen. Reallønnen viser lønnens kjøpekraft når det er justert for prisstigning.",
+        "kriterier": [
+          "Regner ut omtrent 2 prosent økning i reallønn.",
+          "Forklarer at reallønn viser lønnens kjøpekraft justert for prisstigning."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvorfor en CO₂-avgift kan redusere utslipp, og nevn én ulempe ved avgiften.",
+        "fasit": "En CO₂-avgift gjør det dyrere å forurense og gir dermed et insentiv til å kutte utslipp der det er billigst. En ulempe er at avgiften kan ramme personer med lav inntekt hardest.",
+        "kriterier": [
+          "Forklarer at avgiften gjør forurensning dyrere og kan gi insentiv til utslippskutt.",
+          "Nevner at avgiften kan ramme lavinntektsgrupper hardest."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvordan et land kan tjene på handel med et annet land selv om det andre landet kan produsere alle varer billigere.",
+        "fasit": "Landene kan ha ulike alternativkostnader. Hvis hvert land spesialiserer seg på varene der det har komparativt fortrinn, altså lavest alternativkostnad, og handler med hverandre, kan begge få mer.",
+        "kriterier": [
+          "Forklarer komparativt fortrinn som lavest alternativkostnad.",
+          "Knytter spesialisering og handel til at begge land kan få mer."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En kommune øker kjøpene sine av varer og tjenester. Bruk realligningen til å forklare hva som må skje dersom importen og de andre anvendelsene ikke endres.",
+        "fasit": "Offentlig konsum er en del av anvendelsen i realligningen. Hvis det øker mens import og de andre anvendelsene ikke endres, må BNP øke for at realligningen fortsatt skal gå opp.",
+        "kriterier": [
+          "Plasserer kommunens kjøp av tjenester som offentlig konsum i realligningen.",
+          "Forklarer at BNP må øke når import og de andre anvendelsene holdes uendret."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

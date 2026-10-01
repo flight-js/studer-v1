@@ -1,0 +1,569 @@
+{
+  "id": "repetisjon",
+  "fagId": "biologi-1",
+  "trinnId": "vg2",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "sammendrag": "Biologi handler om levende organismer, hvordan de er bygd opp og fungerer, og hvordan de samspiller med hverandre og miljøet. Faget undersøker også hvordan kunnskap om liv kan brukes til å forstå helse, sykdom og naturforvaltning.\n\n## Biologisk metode og undersøkelser\nBiologer bruker observasjoner og undersøkelser for å teste forklaringer. I den **hypotetisk-deduktive metoden** lager man en testbar **hypotese**, utleder en **prediksjon**, undersøker den og vurderer resultatet. En hypotese kan styrkes eller forkastes, men aldri bevises helt. I et forsøk endrer man den **uavhengige variabelen**, måler den **avhengige variabelen** og holder andre variabler like. En **kontrollgruppe** gir noe å sammenligne med, og **replikater** gjør resultatene mer pålitelige når organismer varierer. I felt brukes blant annet tilfeldig plasserte ruter og transekter. Data presenteres i passende grafer, og gjennomsnitt, spredning, usikkerhet og feilkilder vurderes. **Korrelasjon** viser at størrelser varierer sammen, men ikke nødvendigvis årsakssammenheng. Resultater beskrives nøkternt, mens tolkning hører hjemme i diskusjonen. Undersøkelser må også ta hensyn til etikk og personvern.\n\n## Systematikk og klassifisering\n**Systematikk** navngir og ordner organismer og undersøker slektskap; taksonomi handler om å beskrive og navngi arter. **Binomial nomenklatur** gir hvert vitenskapelig navn to deler: slekt og artsepitet. Nivåene går fra domene til art, og organismer på lavere nivå er nærmere beslektet. Etter det **biologiske artsbegrepet** kan individer i samme art få fruktbart avkom sammen, men dette passer dårlig for blant annet ukjønnet formering. Livet deles i domenene bakterier, arker og eukaryoter; prokaryote celler mangler cellekjerne, mens eukaryote celler har cellekjerne og organeller. **Fylogenetiske trær** viser slektskap og felles stamformer. Homologe trekk har felles opphav, mens analoge trekk har lik funksjon, men kan ha utviklet seg uavhengig ved konvergent evolusjon.\n\n## Anatomi, fysiologi og livsprosesser\n**Anatomi** handler om oppbygning, **fysiologi** om funksjon. Organismers form henger sammen med oppgavene de utfører. **Fotosyntesen** bygger glukose i kloroplaster: 6 CO₂ + 6 H₂O + lysenergi → C₆H₁₂O₆ + 6 O₂. **Celleåndingen** foregår i mitokondriene og frigjør energi fra glukose: C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + energi, som blant annet lagres i ATP. Planter utfører begge prosessene. Fordi volum øker raskere enn overflate når organismer blir større, gir lungeblærer, tarmtotter og andre indre overflater effektiv utveksling. Gasser beveger seg ved **diffusjon**, fra høy til lav konsentrasjon. Fisk tar opp oksygen gjennom gjeller med motstrømsstrømning, insekter bruker trakéer, og planter regulerer gassutveksling gjennom spalteåpninger. Blodårer transporterer stoffer hos mennesker; hos planter frakter vedvev vann og mineraler, mens silvev frakter sukker. Enzymer bryter ned næringsstoffer til små molekyler som tas opp hovedsakelig i tynntarmen.\n\n## Homeostase og regulering\n**Homeostase** er kroppens regulering av det indre miljøet innenfor snevre grenser. Ved **negativ tilbakekobling** registrerer en sensor et avvik, kontrollsenteret sammenligner med et settpunkt, og en effektor motvirker avviket. Nervesystemet bruker raske, kortvarige signaler; hormonsystemet bruker langsommere, mer langvarige signaler i blodet. Hypothalamus knytter systemene sammen og bidrar til temperaturregulering. Ved høyt blodsukker skiller betaceller i bukspyttkjertelen ut **insulin**, som fremmer opptak av glukose og lagring som glykogen. Ved lavt blodsukker skiller alfaceller ut **glukagon**, som får leveren til å bryte ned glykogen. **ADH** får nyrene til å holde tilbake vann. Diabetes type 1 skyldes at immunforsvaret ødelegger betacellene, mens diabetes type 2 innebærer at cellene reagerer dårligere på insulin. Søvn, kosthold, aktivitet og langvarig stress kan påvirke kroppens regulering.\n\n## Cellen, membraner og cellekommunikasjon\nEukaryote celler har organeller med ulike oppgaver: ribosomer lager proteiner, ru ER bidrar til proteinproduksjon, Golgiapparatet bearbeider og pakker proteiner, og mitokondrier utfører celleånding. Planteceller har også cellevegg, kloroplaster og stor vakuole. Cellemembranen består av et **fosfolipid-dobbeltlag** med proteiner og er selektivt permeabel. Små, upolare molekyler kan passere lett. **Diffusjon** krever ikke energi, og **osmose** er diffusjon av vann. Fasilitert diffusjon bruker kanal- eller bærerproteiner uten ATP, mens aktiv transport bruker ATP til å flytte stoffer mot konsentrasjonsforskjellen. Celler kommuniserer når signalmolekyler binder seg til passende reseptorer og setter i gang en respons. Vannløselige hormoner binder seg til reseptorer i membranen, mens fettløselige hormoner kan binde seg inne i cellen.\n\n## Celledeling og cellesyklus\nBakterier formerer seg ved **todeling**. Hos eukaryoter består cellesyklusen av interfase, mitose og cytokinese. DNA kopieres i interfasen. **Mitose** fordeler kromosomene og gir to genetisk like datterceller; den brukes til vekst, reparasjon og ukjønnet formering. I mitosen følger profase, metafase, anafase og telofase. **Meiose** består av to delinger og gir fire haploide kjønnsceller. Overkrysning og tilfeldig fordeling av kromosomer skaper genetisk variasjon. Kontrollpunkter undersøker om delingen kan fortsette. Ved DNA-skade kan p53 stoppe cellesyklusen eller sette i gang apoptose. Mutasjoner i gener som fremmer eller bremser deling, kan bidra til ukontrollert celledeling og kreft.\n\n## Smittsomme sykdommer og immunforsvaret\n**Patogener** omfatter bakterier, virus, sopp og parasitter. Bakterier er celler som kan formere seg selv; virus består av arvestoff i en proteinkapsel og formerer seg bare inne i vertsceller. Smitte kan spres blant annet gjennom luft, kontakt, mat og vann, blod eller vektorer. Hud, slimhinner og magesyre inngår i førstelinjeforsvaret. Det medfødte immunforsvaret reagerer raskt og uspesifikt, blant annet med betennelse og fagocytter. Det ervervede immunforsvaret gjenkjenner bestemte antigener. B-celler kan bli plasmaceller som lager antistoffer, mens T-hjelpeceller koordinerer og drepende T-celler tar livet av infiserte kroppsceller. **Hukommelsesceller** gir en raskere sekundærrespons ved nytt møte med samme patogen.\n\n## Vaksiner – vern for individ og samfunn\nEn **vaksine** trener immunforsvaret med antigener eller en oppskrift på dem, slik at det dannes hukommelsesceller uten at man må gjennomgå sykdommen. Senere kan sekundærresponsen hindre sykdom eller gjøre den mildere. Vaksiner kan inneholde levende, svekkede eller inaktiverte patogener, deler av et patogen, ufarliggjort toksin eller en mRNA-oppskrift på et virusprotein. Noen vaksiner trenger oppfriskningsdoser. Når nok personer er immune, blir smittespredning vanskeligere; dette kalles **flokkimmunitet** og beskytter også personer som ikke kan vaksineres. Hvor stor dekning som trengs, avhenger av smittsomheten. Vaksiner testes i kliniske studier og overvåkes etter godkjenning. Vanlige bivirkninger er milde og kortvarige, mens alvorlige bivirkninger er sjeldne.\n\n## Antibiotika og antibiotikaresistens\n**Antibiotika** dreper bakterier eller hemmer veksten deres ved å angripe strukturer bakterier har, som cellevegg eller ribosomer. De virker ikke mot virus. Resistens kan oppstå ved mutasjoner eller ved at bakterier deler gener, blant annet på plasmider. Når antibiotika brukes, kan følsomme bakterier dø mens resistente bakterier overlever og formerer seg: dette er naturlig seleksjon. Bakteriers raske formering kan spre resistens raskt. Smalspektrede antibiotika rammer færre bakterietyper enn bredspektrede. For å begrense resistens bør antibiotika brukes bare når det trengs, etter legens anvisning, og smittevern og vaksinasjon kan forebygge infeksjoner og antibiotikabruk.\n\n## Økosystemer og biologisk mangfold\nEt **økosystem** omfatter organismer og det fysiske miljøet de lever i. Abiotiske faktorer er ikke-levende forhold, mens biotiske faktorer er påvirkning fra andre organismer. Arter har toleranseområder, og en begrensende faktor kan være i underskudd. Arter har ulike nisjer og samspiller gjennom konkurranse, predasjon og symbiose. Produsenter fanger energi, konsumenter spiser organismer, og nedbrytere frigjør næringsstoffer fra dødt materiale. Næringskjeder og næringsnett viser trofiske nivåer. Omtrent 10 % av energien går videre mellom nivåer, mens stoffer går i kretsløp. Biologisk mangfold omfatter gener, arter og økosystemer. Nøkkelarter kan påvirke mange andre arter. Naturen gir økosystemtjenester som pollinering og rent vann, og kan også ha egenverdi uavhengig av nytten for mennesker.\n\n## Klima, arealbruk og truet mangfold\nBiologisk mangfold trues særlig av arealendringer, men også av direkte utnytting, klimaendringer, forurensning og fremmede arter. **Nedbygging** fjerner leveområder, og **fragmentering** deler natur opp i små, isolerte områder. Små bestander er mer sårbare for tilfeldigheter og innavl. Myr har spesialiserte arter og lagrer mye karbon. Klimaendringer kan flytte arters utbredelse nordover og oppover, forskyve tidspunkt for blomstring og klekking og gjøre havet varmere og surere. Klimaendringer og oppstykket natur kan forsterke hverandre når arter ikke kan flytte mellom leveområder. Tiltak omfatter vern, restaurering, bedre arealplanlegging, grønne korridorer, bekjempelse av fremmede arter og bærekraftig høsting.\n\n## Sammenhenger i faget\nBiologisk metode gir verktøy til å undersøke celler, organismer og økosystemer. Cellers struktur og funksjon gjør livsprosesser og regulering mulig, mens celledeling både sørger for vekst og skaper kjønnsceller med variasjon. Immunforsvaret gjenkjenner patogener, vaksiner bygger immunologisk hukommelse, og antibiotikabruk påvirker hvilke bakterier som overlever. På økosystemnivå påvirker organismer hverandre og miljøet; klima og arealbruk kan endre leveområder og biologisk mangfold. Kunnskap om disse sammenhengene brukes til å forstå helse og til å begrunne tiltak for naturen.\n\n## Huskeliste før prøven\n- Skill mellom hypotese, prediksjon og konklusjon.\n- Finn uavhengig og avhengig variabel, kontrollgruppe og kontrollerte variabler.\n- Skill mellom prokaryote og eukaryote celler og mellom homologe og analoge trekk.\n- Kunne fotosyntese- og celleåndingslikningene.\n- Forklar negativ tilbakekobling og insulinets og glukagons virkning.\n- Skill mellom diffusjon, osmose, fasilitert diffusjon og aktiv transport.\n- Sammenlign mitose og meiose.\n- Forklar forskjellen på medfødt og ervervet immunforsvar.\n- Forklar hvordan vaksiner gir hukommelsesceller, og hvordan antibiotikaresistens selekteres.\n- Skill mellom energistrøm og stoffkretsløp, og knytt artsmangfold til leveområder og påvirkning.",
+  "flashcards": [
+    {
+      "term": "Hypotetisk-deduktiv metode",
+      "def": "Observasjon, hypotese, prediksjon, forsøk og konklusjon."
+    },
+    {
+      "term": "Uavhengig variabel",
+      "def": "Det du endrer i forsøket."
+    },
+    {
+      "term": "Fylogenetisk tre",
+      "def": "Slektstre som viser evolusjonært slektskap."
+    },
+    {
+      "term": "Homologe trekk",
+      "def": "Trekk med felles opphav, som menneskearm og hvalluffe."
+    },
+    {
+      "term": "Fotosyntese",
+      "def": "6 CO₂ + 6 H₂O + lys → C₆H₁₂O₆ + 6 O₂, i kloroplastene."
+    },
+    {
+      "term": "Celleånding",
+      "def": "Glukose + oksygen → CO₂ + vann + energi (ATP), i mitokondriene."
+    },
+    {
+      "term": "Negativ tilbakekobling",
+      "def": "Responsen motvirker avviket fra settpunktet."
+    },
+    {
+      "term": "Insulin",
+      "def": "Hormon fra betacellene som senker blodsukkeret."
+    },
+    {
+      "term": "Osmose",
+      "def": "Diffusjon av vann gjennom en membran."
+    },
+    {
+      "term": "Aktiv transport",
+      "def": "Transport mot konsentrasjonsforskjellen med energi fra ATP."
+    },
+    {
+      "term": "Mitose",
+      "def": "Kjernedeling som gir to genetisk like celler."
+    },
+    {
+      "term": "Meiose",
+      "def": "To delinger som gir fire haploide kjønnsceller."
+    },
+    {
+      "term": "Virus",
+      "def": "Arvestoff i en proteinkapsel som bare formerer seg i vertsceller."
+    },
+    {
+      "term": "Hukommelsescelle",
+      "def": "Husker patogenet og gir rask respons neste gang."
+    },
+    {
+      "term": "Vaksine",
+      "def": "Øver immunforsvaret med antigener uten at du blir syk."
+    },
+    {
+      "term": "Flokkimmunitet",
+      "def": "Nok immune til at smitten får vanskelig for å spre seg."
+    },
+    {
+      "term": "Antibiotikaresistens",
+      "def": "Bakterier tåler antibiotikumet."
+    },
+    {
+      "term": "Seleksjon",
+      "def": "Resistente bakterier overlever og formerer seg når antibiotika brukes."
+    },
+    {
+      "term": "10 %-regelen",
+      "def": "Omtrent 10 % av energien går videre til neste trofiske nivå."
+    },
+    {
+      "term": "Biologisk mangfold",
+      "def": "Mangfold av gener, arter og økosystemer."
+    },
+    {
+      "term": "Fragmentering",
+      "def": "At natur deles opp i små, isolerte biter."
+    },
+    {
+      "term": "Utbredelse flytter seg",
+      "def": "Arter flytter nordover og oppover når klimaet blir varmere."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvorfor bruker vi replikater?",
+      "options": [
+        "Fordi levende organismer varierer",
+        "For å spare tid",
+        "For å slippe kontrollgruppe",
+        "For å bevise hypotesen"
+      ],
+      "correct": 0,
+      "explain": "Flere gjentak gir mer pålitelige resultater."
+    },
+    {
+      "id": "q02",
+      "text": "Hva viser et fylogenetisk tre?",
+      "options": [
+        "Hvor artene lever",
+        "Evolusjonært slektskap",
+        "Næringskjeder",
+        "Hvor store artene er"
+      ],
+      "correct": 1,
+      "explain": "Forgreningspunktene er felles stamformer."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor har store organismer store indre overflater?",
+      "options": [
+        "For å bli tyngre",
+        "For å se større ut",
+        "Fordi volumet vokser raskere enn overflaten",
+        "Fordi de har færre celler"
+      ],
+      "correct": 2,
+      "explain": "Stoffutvekslingen må skje gjennom overflater."
+    },
+    {
+      "id": "q04",
+      "text": "Hva kjennetegner negativ tilbakekobling?",
+      "options": [
+        "Responsen motvirker avviket",
+        "Responsen forsterker endringen",
+        "Det skjer ingen respons",
+        "Settpunktet endres hele tiden"
+      ],
+      "correct": 0,
+      "explain": "Som en termostat."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner aktiv transport?",
+      "options": [
+        "Den skjer fra høy til lav konsentrasjon uten energi",
+        "Den gjelder bare vann",
+        "Den skjer mot konsentrasjonsforskjellen og krever ATP",
+        "Den skjer bare i planter"
+      ],
+      "correct": 2,
+      "explain": "For eksempel natrium-kalium-pumpen."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er resultatet av meiose?",
+      "options": [
+        "Fire haploide kjønnsceller",
+        "To like kroppsceller",
+        "Én diploid celle",
+        "Åtte celler"
+      ],
+      "correct": 0,
+      "explain": "Kromosomtallet halveres."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor blir du ofte ikke syk andre gang du møter samme patogen?",
+      "options": [
+        "Hukommelsescellene gir en rask og kraftig respons",
+        "Patogenet er svakere",
+        "Huden er tykkere",
+        "Du har feber"
+      ],
+      "correct": 0,
+      "explain": "Sekundærresponsen."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er flokkimmunitet?",
+      "options": [
+        "At nok personer er immune til at smitten får vanskelig for å spre seg",
+        "At alle er syke samtidig",
+        "At dyr er vaksinert",
+        "At én person er immun"
+      ],
+      "correct": 0,
+      "explain": "Den beskytter også dem som ikke kan vaksineres."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor fører mye bruk av antibiotika til mer resistens?",
+      "options": [
+        "Antibiotika lager nye bakterier",
+        "Antibiotika gjør bakteriene større",
+        "Antibiotika skader immunforsvaret",
+        "De følsomme bakteriene dør, og de resistente overlever og formerer seg"
+      ],
+      "correct": 3,
+      "explain": "Naturlig seleksjon."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er forskjellen på energi og stoffer i et økosystem?",
+      "options": [
+        "Energien strømmer gjennom, mens stoffene går i kretsløp",
+        "Begge går i kretsløp",
+        "Energien går i kretsløp, stoffene forsvinner",
+        "Det er ingen forskjell"
+      ],
+      "correct": 0,
+      "explain": "Energien tapes som varme."
+    },
+    {
+      "id": "q11",
+      "text": "Hvorfor forsterker klimaendringer og arealbruk hverandre?",
+      "options": [
+        "De gjør det ikke",
+        "Arealbruk gir alltid kaldere klima",
+        "Klimaendringer stopper nedbygging",
+        "Arter som må flytte, kommer ikke langt i et oppstykket landskap"
+      ],
+      "correct": 3,
+      "explain": "Grønne korridorer kan hjelpe."
+    }
+  ],
+  "mindmap": {
+    "label": "Biologi 1",
+    "children": [
+      {
+        "label": "Biologisk metode og undersøkelser",
+        "children": [
+          {
+            "label": "Hypotetisk-deduktiv metode",
+            "note": "Observasjon, hypotese, prediksjon, forsøk og konklusjon."
+          },
+          {
+            "label": "Uavhengig variabel",
+            "note": "Det du endrer i forsøket."
+          }
+        ]
+      },
+      {
+        "label": "Systematikk og klassifisering",
+        "children": [
+          {
+            "label": "Fylogenetisk tre",
+            "note": "Slektstre som viser evolusjonært slektskap."
+          },
+          {
+            "label": "Homologe trekk",
+            "note": "Trekk med felles opphav, som menneskearm og hvalluffe."
+          }
+        ]
+      },
+      {
+        "label": "Anatomi, fysiologi og livsprosesser",
+        "children": [
+          {
+            "label": "Fotosyntese",
+            "note": "6 CO₂ + 6 H₂O + lys → C₆H₁₂O₆ + 6 O₂, i kloroplastene."
+          },
+          {
+            "label": "Celleånding",
+            "note": "Glukose + oksygen → CO₂ + vann + energi (ATP), i mitokondriene."
+          }
+        ]
+      },
+      {
+        "label": "Homeostase og regulering",
+        "children": [
+          {
+            "label": "Negativ tilbakekobling",
+            "note": "Responsen motvirker avviket fra settpunktet."
+          },
+          {
+            "label": "Insulin",
+            "note": "Hormon fra betacellene som senker blodsukkeret."
+          }
+        ]
+      },
+      {
+        "label": "Cellen, membraner og cellekommunikasjon",
+        "children": [
+          {
+            "label": "Osmose",
+            "note": "Diffusjon av vann gjennom en membran."
+          },
+          {
+            "label": "Aktiv transport",
+            "note": "Transport mot konsentrasjonsforskjellen med energi fra ATP."
+          }
+        ]
+      },
+      {
+        "label": "Celledeling og cellesyklus",
+        "children": [
+          {
+            "label": "Mitose",
+            "note": "Kjernedeling som gir to genetisk like celler."
+          },
+          {
+            "label": "Meiose",
+            "note": "To delinger som gir fire haploide kjønnsceller."
+          }
+        ]
+      },
+      {
+        "label": "Smittsomme sykdommer og immunforsvaret",
+        "children": [
+          {
+            "label": "Virus",
+            "note": "Arvestoff i en proteinkapsel som bare formerer seg i vertsceller."
+          },
+          {
+            "label": "Hukommelsescelle",
+            "note": "Husker patogenet og gir rask respons neste gang."
+          }
+        ]
+      },
+      {
+        "label": "Vaksiner – vern for individ og samfunn",
+        "children": [
+          {
+            "label": "Vaksine",
+            "note": "Øver immunforsvaret med antigener uten at du blir syk."
+          },
+          {
+            "label": "Flokkimmunitet",
+            "note": "Nok immune til at smitten får vanskelig for å spre seg."
+          }
+        ]
+      },
+      {
+        "label": "Antibiotika og antibiotikaresistens",
+        "children": [
+          {
+            "label": "Antibiotikaresistens",
+            "note": "Bakterier tåler antibiotikumet."
+          },
+          {
+            "label": "Seleksjon",
+            "note": "Resistente bakterier overlever og formerer seg når antibiotika brukes."
+          }
+        ]
+      },
+      {
+        "label": "Økosystemer og biologisk mangfold",
+        "children": [
+          {
+            "label": "10 %-regelen",
+            "note": "Omtrent 10 % av energien går videre til neste trofiske nivå."
+          },
+          {
+            "label": "Biologisk mangfold",
+            "note": "Mangfold av gener, arter og økosystemer."
+          }
+        ]
+      },
+      {
+        "label": "Klima, arealbruk og truet mangfold",
+        "children": [
+          {
+            "label": "Fragmentering",
+            "note": "At natur deles opp i små, isolerte biter."
+          },
+          {
+            "label": "Utbredelse flytter seg",
+            "note": "Arter flytter nordover og oppover når klimaet blir varmere."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Hva er en kontrollert variabel?",
+        "options": [
+          "Noe som holdes likt i alle forsøkene",
+          "Det du måler",
+          "Det du endrer",
+          "Resultatet"
+        ],
+        "correct": 0,
+        "explain": "Ellers kan den påvirke resultatet."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hva er homologe trekk?",
+        "options": [
+          "Trekk med felles evolusjonært opphav",
+          "Trekk med lik funksjon, men ulikt opphav",
+          "Trekk som bare finnes hos planter",
+          "Ervervede egenskaper"
+        ],
+        "correct": 0,
+        "explain": "For eksempel skjelettet i menneskearm og hvalluffe."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Gasser går inn og ut av celler ved diffusjon.",
+        "correct": true,
+        "explain": "Fra høy til lav konsentrasjon."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Vanligvis må flere mutasjoner samles før en celle blir en kreftcelle.",
+        "correct": true,
+        "explain": "Derfor øker risikoen med alderen.",
+        "niva": "over-niva"
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Vaksiner overvåkes også etter at de er godkjent.",
+        "correct": true,
+        "explain": "Slik oppdages sjeldne bivirkninger.",
+        "niva": "over-niva"
+      },
+      {
+        "id": "m06",
+        "type": "sant-usant",
+        "text": "Resistensgener kan overføres mellom ulike bakteriearter.",
+        "correct": true,
+        "explain": "Gjennom horisontal genoverføring.",
+        "niva": "over-niva"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor er det få topprovdyr i et økosystem?",
+        "options": [
+          "De formerer seg ikke",
+          "Det er lite energi igjen på de øverste trofiske nivåene",
+          "De spiser hverandre",
+          "De trenger ikke mat"
+        ],
+        "correct": 1,
+        "explain": "Bare omtrent 10 % går videre per nivå."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "Tidligere vår kan gi mangel på mat når fugleungene trenger den.",
+        "correct": true,
+        "explain": "Insektene kan klekkes før ungene.",
+        "niva": "eksempel"
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Du undersøker hvordan temperatur påvirker hvor mye oksygen katalase danner fra hydrogenperoksid. Beskriv hva som bør være den uavhengige og den avhengige variabelen, og nevn to ting du bør gjøre for å få pålitelige resultater.",
+        "fasit": "Temperaturen er den uavhengige variabelen, og mengden oksygen som dannes, er den avhengige variabelen. Jeg bør holde andre forhold like og bruke flere replikater ved hver temperatur. En kontrollgruppe kan også gi et sammenligningsgrunnlag.",
+        "kriterier": [
+          "Identifiserer temperatur som uavhengig variabel og oksygenmengde som avhengig variabel.",
+          "Nevner minst ett relevant tiltak for pålitelighet, som kontrollerte variabler, replikater eller kontrollgruppe."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign homologe og analoge trekk, og forklar hva slags informasjon de gir om slektskap mellom organismer.",
+        "fasit": "Homologe trekk har felles evolusjonært opphav, selv om funksjonen kan være forskjellig, slik som menneskearm og hvalluffe. Analoge trekk har lik funksjon, men har utviklet seg uavhengig, slik som vinger hos insekter og flaggermus. Homologe trekk kan derfor vise felles slektskap, mens analoge trekk ikke nødvendigvis gjør det.",
+        "kriterier": [
+          "Forklarer at homologe trekk har felles opphav.",
+          "Forklarer at analoge trekk har lik funksjon, men uavhengig opphav, og at de ikke nødvendigvis viser nært slektskap."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar hvordan fotosyntese og celleånding henger sammen, og hvor i plantecellen prosessene foregår.",
+        "fasit": "Fotosyntesen foregår i kloroplastene og bruker karbondioksid, vann og lys til å lage glukose og oksygen. Celleåndingen foregår i mitokondriene og bruker glukose og oksygen til å frigjøre energi, samtidig som karbondioksid og vann dannes. Produktene fra den ene prosessen inngår dermed som utgangsstoffer i den andre.",
+        "kriterier": [
+          "Beskriver riktig hvor fotosyntese og celleånding foregår og hva prosessene bruker og danner.",
+          "Forklarer sammenhengen mellom produktene i den ene prosessen og utgangsstoffene i den andre."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Etter et måltid stiger blodsukkeret. Forklar hvordan kroppen kan få blodsukkeret ned igjen, og hvordan insulin får celler til å ta opp glukose.",
+        "fasit": "Betacellene i bukspyttkjertelen skiller ut insulin når blodsukkeret stiger. Insulin binder seg til reseptorer på målceller og bidrar til at flere glukosetransportører kommer til cellemembranen, slik at cellene tar opp mer glukose. Leveren kan også lagre glukose som glykogen, og blodsukkeret synker.",
+        "kriterier": [
+          "Forklarer at betaceller skiller ut insulin ved høyt blodsukker, og at insulin bidrar til å senke det.",
+          "Knytter insulin til reseptorer og økt glukoseopptak og/eller lagring som glykogen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign mitose og meiose med hensyn til hva slags celler de danner, og hvilken betydning de har for genetisk likhet eller variasjon.",
+        "fasit": "Mitose gir to genetisk like celler med samme kromosomtall som morcellen og brukes blant annet til vekst og reparasjon. Meiose gir fire haploide kjønnsceller med halvt kromosomtall. Overkrysning og tilfeldig fordeling av kromosomer gjør at kjønnscellene blir genetisk forskjellige.",
+        "kriterier": [
+          "Beskriver riktig resultat av mitose og at mitose gir genetisk like celler.",
+          "Beskriver riktig resultat av meiose og knytter meiosen til genetisk variasjon."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I et næringsnett har produsentene 1000 energienheter tilgjengelig. Omtrent 10 % av energien går videre til hvert neste trofiske nivå. Hvor mye energi går omtrent videre til konsumentene på første nivå og deretter til konsumentene på nivået over?",
+        "fasit": "Omtrent 100 energienheter går videre til konsumentene på første nivå. Omtrent 10 av disse, altså 10 energienheter, går videre til nivået over.",
+        "kriterier": [
+          "Beregner omtrent 100 energienheter til første konsumentnivå.",
+          "Beregner omtrent 10 energienheter videre til neste nivå."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En sykdom har et basalt reproduksjonstall R₀ på 2. Bruk formelen for terskelen for flokkimmunitet, 1 − 1/R₀, til å beregne terskelen og oppgi den som prosent.",
+        "fasit": "Terskelen blir 1 − 1/2 = 1/2. Det tilsvarer 50 %.",
+        "kriterier": [
+          "Setter inn R₀ = 2 og regner ut 1 − 1/2 = 1/2.",
+          "Oppgir resultatet som 50 %."
+        ],
+        "niva": "over-niva"
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvordan bruk av antibiotika kan føre til flere resistente bakterier, og hvordan vaksiner kan bidra til å begrense dette problemet.",
+        "fasit": "Antibiotika dreper eller hemmer følsomme bakterier, mens resistente bakterier kan overleve og formere seg. Slik seleksjon gjør at andelen resistente bakterier kan øke, og bakterier kan også dele resistensgener. Vaksiner forebygger infeksjoner og kan dermed redusere behovet for antibiotika.",
+        "kriterier": [
+          "Forklarer seleksjon: følsomme bakterier dør, mens resistente overlever og formerer seg.",
+          "Forklarer at vaksiner kan forebygge infeksjoner og dermed redusere antibiotikabruk."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

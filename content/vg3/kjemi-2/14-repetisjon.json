@@ -1,0 +1,577 @@
+{
+  "id": "repetisjon",
+  "fagId": "kjemi-2",
+  "trinnId": "vg3",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "sammendrag": "Kjemi handler om stoffenes oppbygning, egenskaper og reaksjoner. Vi bruker modeller, forsøk og beregninger til å forklare og forutsi hvordan stoffer reagerer, og til å vurdere hvordan kjemi kan brukes trygt og bærekraftig.\n\n## Forsøk, modeller og kunnskapsutvikling i kjemi\nBruk presist **fagspråk**, riktige enheter og gjeldende sifre. Planlegg forsøk med problemstilling, hypotese, uavhengig variabel (det du endrer), avhengig variabel (det du måler) og variabler som holdes konstante. Gjør en risikovurdering, les sikkerhetsdatablad og bruk verneutstyr og avtrekk når det trengs. **Tilfeldige feil** gir spredning og kan reduseres ved gjentakelser og gjennomsnitt; **systematiske feil** trekker resultatene i én retning. Skill mellom nøyaktighet og presisjon. Modeller forenkler virkeligheten og endres når forsøk viser at de ikke forklarer observasjoner. Vitenskapelige teorier er godt underbygde og gir testbare prediksjoner.\n\n## Redoksreaksjoner og elektrokjemi\nVed **oksidasjon** avgis elektroner og oksidasjonstallet øker; ved **reduksjon** tas elektroner opp og oksidasjonstallet minker. Et oksidasjonsmiddel blir redusert, mens et reduksjonsmiddel blir oksidert. Balanser redoksligninger ved å utligne elektroner, gjerne med halvreaksjoner. I en galvanisk celle skjer oksidasjon ved anoden og reduksjon ved katoden; den spontane redoksreaksjonen gir strøm. **E°celle = E°katode − E°anode**, og **ΔG° = −zFE°**. Elektrolyse bruker elektrisk energi til å drive en ikke-spontan reaksjon. Bruk **Q = I·t**, **n(e⁻) = Q/F** og **n = n(e⁻)/z** i beregninger. Korrosjon er oksidasjon av metaller; maling, galvanisering og offeranoder kan beskytte.\n\n## Likevekt og massevirkningsloven\nI **dynamisk likevekt** går reaksjonen framover og bakover like fort, slik at konsentrasjonene er konstante. For aA + bB ⇌ cC + dD er **K = [C]ᶜ[D]ᵈ/([A]ᵃ[B]ᵇ)**; rene faste stoffer og væsker tas ikke med. Stor K betyr at likevekten ligger mot produktene. Sammenlign reaksjonskvotienten Q med K: Q < K gir reaksjon mot høyre, Q > K mot venstre. Bruk start–endring–likevekt-tabell ved beregninger. Ifølge **Le Châteliers prinsipp** motvirker systemet en forstyrrelse. Økt trykk favoriserer siden med færrest gassmolekyler; bare temperaturendring endrer K. En katalysator gjør at likevekt nås raskere, men flytter den ikke.\n\n## Entropi, entalpi og spontanitet\n**ΔH** viser varmeendringen ved konstant trykk: negativ verdi er eksoterm, positiv endoterm. **Entropi** beskriver hvor mange måter partikler og energi kan fordeles på. Den øker blant annet ved smelting, fordamping, oppløsning og flere gassmolekyler. Bruk **ΔG = ΔH − TΔS**, med T i kelvin: ΔG < 0 betyr spontan reaksjon, ΔG > 0 ikke-spontan og ΔG = 0 likevekt. Spontanitet sier ikke hvor raskt reaksjonen går; det bestemmes av kinetikk og aktiveringsenergi. Sammenhengen **ΔG° = −RT ln K** knytter fri energi til likevekten: negativ ΔG° gir K > 1.\n\n## Syrer, baser og pH-beregninger\nEn Brønsted-syre gir fra seg protoner, og en base tar opp protoner. Ved 25 °C er **Kw = [H₃O⁺][OH⁻] = 1,0·10⁻¹⁴**, og **pH = −log[H₃O⁺]**, **pOH = −log[OH⁻]** og pH + pOH = 14. Sterke syrer protolyseres fullstendig; svake syrer bare delvis. For svake syrer gjelder **Ka = [A⁻][H₃O⁺]/[HA]** og ofte **[H₃O⁺] ≈ √(Ka·c)**. Større Ka eller mindre pKa betyr sterkere syre. For korresponderende syre-base-par gjelder Ka·Kb = Kw. Salter kan gi sure eller basiske løsninger. Ved titrering tilsettes en kjent løsning til ekvivalenspunktet; for en svak syre er pH = pKa ved halvtitrerpunktet.\n\n## Buffere\nEn **buffer** består av en svak syre og dens korresponderende base og motvirker pH-endringer. Basen reagerer med tilsatt syre, og syren med tilsatt base. Bufferligningen er **pH = pKa + log([A⁻]/[HA])**; når mengdene er like, er pH = pKa. Bufferkapasiteten er størst når komponentene er i omtrent like mengder og konsentrasjonene er høye. Buffere virker best omtrent innenfor pKa ± 1. Blodets karbonsyre–hydrogenkarbonat-system reguleres blant annet gjennom CO₂-utskillelse i lungene og hydrogenkarbonat i nyrene. Havets opptak av CO₂ kan senke pH og gjøre det vanskeligere for organismer å bygge kalkskall.\n\n## Løselighet og løselighetsprodukt\n**Løselighet** avhenger blant annet av temperatur, polaritet, pH og andre ioner. I en mettet løsning av et tungt løselig salt gjelder likevekt mellom fast stoff og ioner. For AgCl er **Ksp = [Ag⁺][Cl⁻]**; det faste stoffet tas ikke med. Uttrykk ionekonsentrasjonene ved molar løselighet s, med riktig forholdstall fra reaksjonsligningen. Sammenlign ionproduktet Q med Ksp: Q > Ksp gir bunnfall, Q < Ksp betyr at stoffet løses, og Q = Ksp betyr mettet løsning. Et felles ion senker løseligheten etter Le Châteliers prinsipp.\n\n## Katalyse\nEn **katalysator** øker reaksjonsfarten uten å bli forbrukt ved å gi en alternativ reaksjonsvei med lavere aktiveringsenergi. Den endrer ikke ΔH eller likevekten, men likevekt nås raskere. I homogen katalyse er katalysator og reaktanter i samme fase; i heterogen katalyse er de i ulike faser, og reaktanter kan adsorberes på en fast overflate. Enzymer er spesifikke biologiske katalysatorer: substratet bindes til enzymets aktive sete. Feil pH eller høy temperatur kan denaturere enzymet og endre formen slik at det slutter å virke.\n\n## Organiske reaksjonstyper og reaksjonsmekanismer\nI polare bindinger får karbon ofte delvis positiv ladning. En **nukleofil**, som er elektronrik, angriper en elektronfattig **elektrofil**; buede piler viser elektronparenes bevegelse. Ved addisjon brytes en dobbeltbinding og atomer legges til. Ved eliminasjon fjernes et lite molekyl og en dobbeltbinding dannes. Ved substitusjon byttes en gruppe ut. Kondensasjon slår sammen molekyler og spalter ofte av vann; hydrolyse spalter et molekyl ved hjelp av vann. Esterdannelse er en kondensasjonsreaksjon mellom karboksylsyre og alkohol.\n\n## Synteser, utbytte og renhet\nEn **syntese** framstiller et nytt stoff fra enklere stoffer. Den omfatter reaksjon, opparbeiding, rensing og analyse. Den begrensende reaktanten tar slutt først og bestemmer teoretisk utbytte. **Prosentvis utbytte = faktisk utbytte / teoretisk utbytte · 100**. Utbyttet kan påvirkes av likevekt, sidereaksjoner, ufullstendig reaksjon og produkttap ved rensing. Filtrering skiller fast stoff fra væske; omkrystallisering utnytter løselighet ved varm og kald temperatur; destillasjon skiller væsker med ulike kokepunkter, og ekstraksjon flytter stoff mellom løsemidler. Et rent stoff har skarpt smeltepunkt, mens urenheter senker og utvider smelteområdet. Rensing kan øke renheten, men redusere utbyttet.\n\n## Kromatografi\nKromatografi skiller stoffer etter hvordan de fordeler seg mellom en **stasjonær fase** og en **mobil fase**. Sterk binding til den stasjonære fasen gir langsom vandring; god løselighet i mobilfasen gir raskere vandring. På en polar silikaplate vandrer polare stoffer ofte kortere. I TLC beregnes **Rf = stoffets vandring / løsemiddelfrontens vandring**; Rf er mellom 0 og 1. Referansestoffer kan brukes til identifisering, og én flekk tyder på et rent stoff. Kolonnekromatografi kan rense større mengder, mens gasskromatografi passer for flyktige stoffer og HPLC bruker væske under høyt trykk.\n\n## Biologiske makromolekyler\nMakromolekyler er store molekyler, ofte polymerer av monomerer. Monomerer bindes sammen ved kondensasjon og polymerer kan brytes ned ved hydrolyse. Karbohydrater omfatter monosakkarider, disakkarider og polysakkarider: stivelse og glykogen er energilagre, mens cellulose gir struktur og blir kostfiber for mennesker. Proteiner består av aminosyrer med peptidbindinger; rekkefølgen og proteinets videre folding bestemmer formen og funksjonen. Lipider omfatter triglyserider av glyserol og tre fettsyrer, og fosfolipider med polart hode og upolare haler danner cellemembraner. DNA og RNA er polymerer av nukleotider. I DNA parer A med T og C med G. Denaturering ødelegger vanligvis proteinets tredimensjonale struktur, men lar peptidbindingene være intakte.\n\n## Metaller, plast og grønn kjemi\nMetaller utvinnes fra malm ved reduksjon. Jern lages i masovn med karbon, noe som gir CO₂; aluminium framstilles ved elektrolyse av aluminiumoksid i smeltet kryolitt og krever mye elektrisk energi. Gjenvinning kan spare ressurser og energi, mens tungmetaller fra deponier kan lekke til miljøet. Plast er polymerer: addisjonspolymerer dannes fra monomerer med dobbeltbinding, mens kondensasjonspolymerer dannes når et lite molekyl, ofte vann, spaltes av. Termoplast kan formes på nytt; herdeplast kan ikke smeltes om. Plast kan bli til mikroplast, og bioplast er ikke nødvendigvis nedbrytbar i naturen. **Grønn kjemi** vektlegger blant annet avfallsforebygging, atomøkonomi, mindre farlige stoffer, energieffektivitet og fornybare råstoffer. Vurder tiltak gjennom hele livsløpet, og tenk på å redusere, gjenbruke og gjenvinne.\n\n## Sammenhenger i faget\nForsøk og målinger gir grunnlag for modeller og teorier, og forståelse av reaksjoner bygges videre gjennom elektronoverføring, likevekt, energi og reaksjonsfart. Likevekt forklarer både pH-systemer, løselighet og begrenset utbytte i synteser; katalysatorer påvirker hvor raskt likevekt nås, ikke selve likevekten. Organiske reaksjoner bygger opp og bryter ned polymerer og biologiske makromolekyler. Kromatografi og andre rensemetoder brukes til å analysere og kontrollere synteseprodukter. Elektrokjemi, katalyse, materialkunnskap og livsløpsvurdering bidrar til å forstå industri og grønn kjemi.\n\n## Huskeliste før prøven\n- Skill mellom stoffmengde, masse, konsentrasjon og løselighet, og bruk riktige enheter.\n- Hold orden på oksidasjon og reduksjon, anode og katode.\n- Skriv likevektsuttrykk med koeffisienter som eksponenter; utelat rene faste stoffer og væsker.\n- Bruk kelvin i Gibbs-ligningen, og skill spontanitet fra reaksjonsfart.\n- Velg riktig metode for sterk og svak syre, buffer eller titrering.\n- Sammenlign Q med K eller Ksp før du avgjør reaksjonsretning eller felling.\n- Skill mellom addisjon, eliminasjon, substitusjon, kondensasjon og hydrolyse.\n- Kontroller begrensende reaktant, teoretisk utbytte og renhet.\n- Forklar resultater med feilkilder, likevekt og relevante modeller.\n- Vurder materialer og tiltak gjennom hele livsløpet.",
+  "flashcards": [
+    {
+      "term": "Nøyaktighet",
+      "def": "Hvor nær det sanne svaret resultatet er."
+    },
+    {
+      "term": "Oksidasjon",
+      "def": "Avgivelse av elektroner – oksidasjonstallet øker."
+    },
+    {
+      "term": "E°celle",
+      "def": "E°katode − E°anode."
+    },
+    {
+      "term": "Le Châteliers prinsipp",
+      "def": "Likevekten forskyves slik at forstyrrelsen motvirkes."
+    },
+    {
+      "term": "Gibbs fri energi",
+      "def": "ΔG = ΔH − TΔS."
+    },
+    {
+      "term": "pH",
+      "def": "−log[H₃O⁺]."
+    },
+    {
+      "term": "Ka",
+      "def": "Syrekonstanten – større Ka gir sterkere syre."
+    },
+    {
+      "term": "Bufferligningen",
+      "def": "pH = pKa + log([A⁻]/[HA])."
+    },
+    {
+      "term": "Løselighetsprodukt Ksp",
+      "def": "Likevektskonstanten for oppløsning av et tungt løselig salt."
+    },
+    {
+      "term": "Katalysator",
+      "def": "Stoff som øker reaksjonsfarten uten å bli forbrukt."
+    },
+    {
+      "term": "Nukleofil",
+      "def": "Elektronrik partikkel som angriper elektronfattige atomer."
+    },
+    {
+      "term": "Kondensasjon",
+      "def": "To molekyler slås sammen, og vann spaltes av."
+    },
+    {
+      "term": "Prosentvis utbytte",
+      "def": "Faktisk / teoretisk utbytte · 100."
+    },
+    {
+      "term": "Rf-verdi",
+      "def": "Stoffets vandring delt på løsemiddelfrontens vandring."
+    },
+    {
+      "term": "Tertiærstruktur",
+      "def": "Proteinets tredimensjonale form."
+    },
+    {
+      "term": "Denaturering",
+      "def": "Proteinets tredimensjonale struktur ødelegges."
+    },
+    {
+      "term": "Grønn kjemi",
+      "def": "Kjemi som reduserer eller fjerner farlige stoffer i produkter og prosesser."
+    },
+    {
+      "term": "Livsløpsvurdering",
+      "def": "Vurdering av miljøbelastning fra råvare til avfall."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "En vekt viser alltid 0,05 g for mye. Hva slags feil er det?",
+      "options": [
+        "Systematisk feil",
+        "Tilfeldig feil",
+        "Ingen feil",
+        "Presisjonsfeil"
+      ],
+      "correct": 0,
+      "explain": "Den trekker resultatet i én retning."
+    },
+    {
+      "id": "q02",
+      "text": "E°(Cu²⁺/Cu) = +0,34 V og E°(Zn²⁺/Zn) = −0,76 V. Hva er E°celle?",
+      "options": [
+        "0,42 V",
+        "−1,10 V",
+        "1,10 V",
+        "0,34 V"
+      ],
+      "correct": 2,
+      "explain": "0,34 − (−0,76) = 1,10 V."
+    },
+    {
+      "id": "q03",
+      "text": "Q er mindre enn K. Hvilken vei går reaksjonen?",
+      "options": [
+        "Mot venstre",
+        "Den står stille",
+        "Mot høyre",
+        "Den eksploderer"
+      ],
+      "correct": 2,
+      "explain": "Mot produktene til Q = K."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken formel gir Gibbs fri energi?",
+      "options": [
+        "ΔG = ΔH − TΔS",
+        "ΔG = ΔH + TΔS",
+        "ΔG = −zF",
+        "ΔG = m · c · ΔT"
+      ],
+      "correct": 0,
+      "explain": "T i kelvin."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr en liten pKa?",
+      "options": [
+        "Svak syre",
+        "Sterk base",
+        "Nøytral løsning",
+        "Sterk syre"
+      ],
+      "correct": 3,
+      "explain": "Stor Ka gir liten pKa."
+    },
+    {
+      "id": "q06",
+      "text": "Hva består en buffer av?",
+      "options": [
+        "En sterk syre og en sterk base",
+        "En svak syre og dens korresponderende base",
+        "Bare vann",
+        "Et salt og vann"
+      ],
+      "correct": 1,
+      "explain": "I omtrent like store mengder."
+    },
+    {
+      "id": "q07",
+      "text": "Hva skjer når Q > Ksp?",
+      "options": [
+        "Alt løses",
+        "Løsningen er umettet",
+        "Ingenting",
+        "Det felles ut fast stoff"
+      ],
+      "correct": 3,
+      "explain": "Løsningen er overmettet."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan øker en katalysator reaksjonsfarten?",
+      "options": [
+        "Ved å øke temperaturen",
+        "Ved å gi en vei med lavere aktiveringsenergi",
+        "Ved å endre ΔH",
+        "Ved å bli forbrukt"
+      ],
+      "correct": 1,
+      "explain": "Flere kollisjoner har nok energi."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er kondensasjon?",
+      "options": [
+        "To molekyler slås sammen og vann spaltes av",
+        "Et molekyl spaltes med vann",
+        "En dobbeltbinding brytes",
+        "En gruppe byttes ut"
+      ],
+      "correct": 0,
+      "explain": "For eksempel esterdannelse."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan regnes prosentvis utbytte ut?",
+      "options": [
+        "Faktisk / teoretisk utbytte · 100",
+        "Teoretisk / faktisk · 100",
+        "Faktisk − teoretisk",
+        "Masse / molar masse"
+      ],
+      "correct": 0,
+      "explain": "Gir utbyttet i prosent."
+    },
+    {
+      "id": "q11",
+      "text": "Et stoff har vandret 3,0 cm og løsemiddelfronten 6,0 cm. Hva er Rf?",
+      "options": [
+        "0,50",
+        "2,0",
+        "3,0",
+        "0,33"
+      ],
+      "correct": 0,
+      "explain": "3,0 / 6,0."
+    },
+    {
+      "id": "q12",
+      "text": "Hva er et proteins primærstruktur?",
+      "options": [
+        "Den tredimensjonale formen",
+        "Heliks og flak",
+        "Rekkefølgen av aminosyrer",
+        "Flere proteinkjeder sammen"
+      ],
+      "correct": 2,
+      "explain": "Bestemt av genene."
+    },
+    {
+      "id": "q13",
+      "text": "Hva må du vurdere når du sammenligner plastpose og papirpose?",
+      "options": [
+        "Bare fargen",
+        "Hele livsløpet fra råvare til avfall",
+        "Bare prisen",
+        "Bare vekten"
+      ],
+      "correct": 1,
+      "explain": "Livsløpsvurdering."
+    }
+  ],
+  "mindmap": {
+    "label": "Kjemi 2",
+    "children": [
+      {
+        "label": "Forsøk, modeller og kunnskapsutvikling i kjemi",
+        "children": [
+          {
+            "label": "Nøyaktighet",
+            "note": "Hvor nær det sanne svaret resultatet er."
+          }
+        ]
+      },
+      {
+        "label": "Redoksreaksjoner og elektrokjemi",
+        "children": [
+          {
+            "label": "Oksidasjon",
+            "note": "Avgivelse av elektroner – oksidasjonstallet øker."
+          },
+          {
+            "label": "E°celle",
+            "note": "E°katode − E°anode."
+          }
+        ]
+      },
+      {
+        "label": "Likevekt og massevirkningsloven",
+        "children": [
+          {
+            "label": "Le Châteliers prinsipp",
+            "note": "Likevekten forskyves slik at forstyrrelsen motvirkes."
+          }
+        ]
+      },
+      {
+        "label": "Entropi, entalpi og spontanitet",
+        "children": [
+          {
+            "label": "Gibbs fri energi",
+            "note": "ΔG = ΔH − TΔS."
+          }
+        ]
+      },
+      {
+        "label": "Syrer, baser og pH-beregninger",
+        "children": [
+          {
+            "label": "pH",
+            "note": "−log[H₃O⁺]."
+          },
+          {
+            "label": "Ka",
+            "note": "Syrekonstanten – større Ka gir sterkere syre."
+          }
+        ]
+      },
+      {
+        "label": "Buffere",
+        "children": [
+          {
+            "label": "Bufferligningen",
+            "note": "pH = pKa + log([A⁻]/[HA])."
+          }
+        ]
+      },
+      {
+        "label": "Løselighet og løselighetsprodukt",
+        "children": [
+          {
+            "label": "Løselighetsprodukt Ksp",
+            "note": "Likevektskonstanten for oppløsning av et tungt løselig salt."
+          }
+        ]
+      },
+      {
+        "label": "Katalyse",
+        "children": [
+          {
+            "label": "Katalysator",
+            "note": "Stoff som øker reaksjonsfarten uten å bli forbrukt."
+          }
+        ]
+      },
+      {
+        "label": "Organiske reaksjonstyper og reaksjonsmekanismer",
+        "children": [
+          {
+            "label": "Nukleofil",
+            "note": "Elektronrik partikkel som angriper elektronfattige atomer."
+          },
+          {
+            "label": "Kondensasjon",
+            "note": "To molekyler slås sammen, og vann spaltes av."
+          }
+        ]
+      },
+      {
+        "label": "Synteser, utbytte og renhet",
+        "children": [
+          {
+            "label": "Prosentvis utbytte",
+            "note": "Faktisk / teoretisk utbytte · 100."
+          }
+        ]
+      },
+      {
+        "label": "Kromatografi",
+        "children": [
+          {
+            "label": "Rf-verdi",
+            "note": "Stoffets vandring delt på løsemiddelfrontens vandring."
+          }
+        ]
+      },
+      {
+        "label": "Biologiske makromolekyler",
+        "children": [
+          {
+            "label": "Tertiærstruktur",
+            "note": "Proteinets tredimensjonale form."
+          },
+          {
+            "label": "Denaturering",
+            "note": "Proteinets tredimensjonale struktur ødelegges."
+          }
+        ]
+      },
+      {
+        "label": "Metaller, plast og grønn kjemi",
+        "children": [
+          {
+            "label": "Grønn kjemi",
+            "note": "Kjemi som reduserer eller fjerner farlige stoffer i produkter og prosesser."
+          },
+          {
+            "label": "Livsløpsvurdering",
+            "note": "Vurdering av miljøbelastning fra råvare til avfall."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Høy presisjon betyr alltid høy nøyaktighet.",
+        "correct": false,
+        "explain": "Resultatene kan være like, men feil."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hvilken formel gir ladningen i elektrolyse?",
+        "options": [
+          "Q = I · t",
+          "Q = m / M",
+          "Q = c · V",
+          "Q = F / z"
+        ],
+        "correct": 0,
+        "explain": "Strøm ganger tid."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "En reaksjon er eksoterm. Hva skjer med K når temperaturen øker?",
+        "options": [
+          "K øker",
+          "K er uendret",
+          "K minker",
+          "K blir null"
+        ],
+        "correct": 2,
+        "explain": "Likevekten forskyves mot reaktantene."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En spontan reaksjon kan likevel gå svært langsomt.",
+        "correct": true,
+        "explain": "For eksempel diamant til grafitt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er [H₃O⁺] når pH = 3?",
+        "options": [
+          "3 mol/L",
+          "1,0 · 10⁻³ mol/L",
+          "1,0 · 10³ mol/L",
+          "0,3 mol/L"
+        ],
+        "correct": 1,
+        "explain": "[H₃O⁺] = 10⁻ᵖᴴ."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket prinsipp forklarer fellesioneffekten?",
+        "options": [
+          "Le Châteliers prinsipp",
+          "Faradays lov",
+          "Hess' lov",
+          "Avogadros lov"
+        ],
+        "correct": 0,
+        "explain": "Likevekten forskyves."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Faktisk utbytte 2,10 g og teoretisk utbytte 2,61 g. Hva er prosentvis utbytte?",
+        "options": [
+          "Omtrent 80 %",
+          "Omtrent 124 %",
+          "Omtrent 50 %",
+          "Omtrent 95 %"
+        ],
+        "correct": 0,
+        "explain": "2,10 / 2,61 · 100."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En elev gjentar en måling og får svært like resultater, men alle ligger et stykke fra den kjente verdien. Forklar hvordan presisjon og nøyaktighet beskriver resultatene, og hvilken type feil som kan gi et slikt mønster.",
+        "fasit": "Målingene har høy presisjon fordi resultatene er like, men lav nøyaktighet fordi de ligger langt fra den kjente verdien. En systematisk feil kan trekke alle resultatene i samme retning.",
+        "kriterier": [
+          "Skiller riktig mellom presisjon og nøyaktighet.",
+          "Knytter systematisk feil til at resultatene trekkes i én retning."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "I en galvanisk celle har katoden standard reduksjonspotensial +0,34 V og anoden −0,76 V. Beregn E°celle med formelen E°celle = E°katode − E°anode.",
+        "fasit": "E°celle = 0,34 − (−0,76) = 1,10 V.",
+        "kriterier": [
+          "Setter katode- og anodepotensial inn i riktig rekkefølge.",
+          "Får E°celle = 1,10 V."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En løsning inneholder 0,010 mol/L HCl. HCl er en sterk syre. Beregn pH i løsningen.",
+        "fasit": "[H₃O⁺] = 0,010 mol/L fordi HCl protolyseres fullstendig. pH = −log(0,010) = 2,0.",
+        "kriterier": [
+          "Bruker syrekonsentrasjonen som [H₃O⁺] for en sterk syre.",
+          "Får pH = 2,0."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan en katalysator påvirker reaksjonsfarten og likevekten i en reversibel reaksjon.",
+        "fasit": "Katalysatoren gir en alternativ reaksjonsvei med lavere aktiveringsenergi, slik at reaksjonen går raskere. Den virker begge veier og gjør at likevekt nås raskere, men endrer ikke likevekten.",
+        "kriterier": [
+          "Forklarer at aktiveringsenergien senkes og reaksjonsfarten øker.",
+          "Forklarer at likevekten ikke endres, men nås raskere."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En spontan reaksjon går svært langsomt. Forklar hvordan dette kan henge sammen med Gibbs fri energi og aktiveringsenergi.",
+        "fasit": "At reaksjonen er spontan betyr at ΔG < 0, men det sier ikke hvor raskt den går. En høy aktiveringsenergi kan gjøre at reaksjonen går svært langsomt.",
+        "kriterier": [
+          "Knytter spontanitet til ΔG < 0.",
+          "Skiller spontanitet fra reaksjonsfart og knytter lav fart til aktiveringsenergi."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvordan en offeranode kan beskytte en metallkonstruksjon mot korrosjon, og hvilken type kjemisk reaksjon korrosjon er.",
+        "fasit": "Korrosjon er en redoksreaksjon der metallet oksideres. En offeranode av et mer uedelt metall korroderer i stedet for konstruksjonen.",
+        "kriterier": [
+          "Beskriver korrosjon som oksidasjon i en redoksreaksjon.",
+          "Forklarer at offeranoden korroderer i stedet for konstruksjonen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "På en TLC-plate vandrer et stoff 2,0 cm, mens løsemiddelfronten vandrer 4,0 cm. Beregn Rf-verdien.",
+        "fasit": "Rf = avstand stoffet har vandret / avstand løsemiddelfronten har vandret = 2,0 / 4,0 = 0,50.",
+        "kriterier": [
+          "Bruker forholdet mellom stoffets vandring og løsemiddelfrontens vandring.",
+          "Får Rf = 0,50."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign kondensasjon og hydrolyse, og forklar hvordan de henger sammen med oppbygging og nedbryting av polymerer.",
+        "fasit": "Ved kondensasjon slås molekyler sammen, og ofte spaltes vann av; slik kan monomerer bindes sammen til polymerer. Ved hydrolyse spaltes et molekyl ved hjelp av vann, slik at polymerer kan brytes ned.",
+        "kriterier": [
+          "Beskriver kondensasjon som sammenkobling der ofte vann spaltes av.",
+          "Beskriver hydrolyse som spalting ved hjelp av vann."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

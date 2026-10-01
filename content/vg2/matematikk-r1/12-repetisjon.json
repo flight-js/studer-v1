@@ -1,0 +1,577 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-r1",
+  "trinnId": "vg2",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sammendrag": "R1 handler om funksjoner, endring og modeller, og om hvordan derivasjon kan brukes til å undersøke og optimalisere dem. Faget omfatter også logaritmer, vektorer og parameterframstillinger, som gir metoder for å beskrive sammenhenger og bevegelse.\n\n## Grenseverdier\nEn **grenseverdi** beskriver hva f(x) nærmer seg når x nærmer seg a, og funksjonen trenger ikke være definert i a. Grenseverdien finnes bare når **venstre og høyre grenseverdi er like**. Ved innsetting får vi ofte svaret direkte; gir det 0/0, må uttrykket omformes, for eksempel ved **faktorisering og forkorting**. Ved grense mot uendelig kan teller og nevner deles på høyeste potens av x i nevneren. En tabell eller graf kan gi en antakelse, men ikke et bevis. **Vannrett asymptote** y = L betyr at f(x) nærmer seg L når x går mot ±∞; **loddrett asymptote** x = a oppstår når f(x) går mot ±∞ nær a. Den deriverte er selv definert ved en grenseverdi, og (1 + 1/n)ⁿ nærmer seg **e**.\n\n## Kontinuitet\nf er **kontinuerlig** i a når f(a) er definert, grenseverdien i a finnes, og grenseverdien er lik f(a). Et sprang eller hull betyr **diskontinuitet**. Polynomer, eksponentialfunksjoner og logaritmefunksjoner er kontinuerlige i definisjonsmengden sin; rasjonale funksjoner er kontinuerlige der de er definert. For delte funksjoner må kontinuiteten sjekkes i **skjøtene**, der uttrykkene må møtes. Deriverbarhet medfører kontinuitet, men ikke omvendt: |x| er kontinuerlig, men har en knekk i 0. **Skjæringssetningen** sier at en kontinuerlig funksjon med fortegnsskifte på et intervall har minst ett nullpunkt der.\n\n## Den deriverte – definisjon og tolkning\nGjennomsnittlig vekstfart er sekantens stigningstall, (f(a+h) − f(a))/h. Når h nærmer seg 0, får vi **momentan vekstfart**, altså den deriverte: f′(a) = limₕ→₀ (f(a+h) − f(a))/h. Geometrisk er f′(a) stigningstallet til tangenten. Den kan finnes geometrisk, ved definisjonen eller numerisk med liten h; numeriske metoder er nyttige med måledata. Tangenten har likningen **y − f(a) = f′(a)(x − a)**. Den deriverte har enhet «y-enhet per x-enhet», for eksempel m/s når posisjonen måles i meter og tiden i sekunder. Knekk, sprang og loddrett tangent er tilfeller der funksjonen ikke er deriverbar.\n\n## Derivasjonsregler\nBruk potensregelen **(xⁿ)′ = nxⁿ⁻¹**, konstantregelen og reglene for sum og differanse. Videre er (eˣ)′ = eˣ, (aˣ)′ = aˣ ln a og (ln x)′ = 1/x. For produkter brukes **produktregelen** (uv)′ = u′v + uv′, og for brøker **kvotientregelen** (u/v)′ = (u′v − uv′)/v². For sammensatte funksjoner deriveres den ytre funksjonen, og svaret ganges med den deriverte av kjernen: **kjerneregelen**. Skriv gjerne røtter og brøker som potenser før derivasjon, og forenkle svaret etterpå.\n\n## Funksjonsdrøfting med derivasjon\nNår f′ > 0, vokser f; når f′ < 0, avtar den. Fortegnsskifte fra + til − gir **toppunkt**, og fra − til + gir **bunnpunkt**. f′ = 0 uten fortegnsskifte kan gi et terrassepunkt. Den andrederiverte beskriver hvordan stigningstallet endrer seg: f″ > 0 betyr krumming oppover, f″ < 0 krumming nedover, og fortegnsskifte i f″ gir et **vendepunkt**. Dersom f′(a) = 0, gir f″(a) < 0 toppunkt og f″(a) > 0 bunnpunkt. Ved drøfting undersøkes blant annet definisjonsmengde, nullpunkter, asymptoter, fortegn til f′ og f″, og grafskisse. På et lukket intervall må endepunktene også sjekkes. I modeller kan toppunkt og vendepunkt fortelle når en størrelse er størst eller når den endres raskest.\n\n## Potenser, logaritmer og likninger\nPotensreglene omfatter blant annet aᵐaⁿ = aᵐ⁺ⁿ, (aᵐ)ⁿ = aᵐⁿ, a⁻ⁿ = 1/aⁿ og a^(1/n) = ⁿ√a. En **logaritme** forteller hvilken eksponent grunntallet må opphøyes i: lg x = y betyr 10ʸ = x, mens ln x = y betyr eʸ = x. Logaritmen er bare definert for x > 0. Logaritmer og eksponentialfunksjoner med samme grunntall opphever hverandre. Produkt, kvotient og potens blir henholdsvis sum, differanse og faktor foran logaritmen. I eksponentiallikninger kan du samle potenser med samme grunntall eller ta logaritmen på begge sider. I logaritmelikninger må løsninger kontrolleres mot kravet om positive argumenter.\n\n## Eksponentiell og logistisk vekst\nVed fast prosentvis endring brukes **f(t) = abᵗ**, der a er startverdien og b vekstfaktoren. Vekst på p gir b = 1 + p, og nedgang gir b = 1 − p. Modellen kan skrives abᵗ = aeᵏᵗ, der k = ln b; da er f′(t) = kf(t), så vekstfarten er proporsjonal med størrelsen. Doblingstid finnes fra T = ln 2/ln b. Når vekst begrenses av ressurser, kan en **logistisk modell** passe: N(t) = K/(1 + ae⁻ᵏᵗ), der K er bæreevnen. Grafen er S-formet, nærmer seg K, og vekstfarten er størst ved vendepunktet N = K/2. Vurder alltid modelltilpasning og vær forsiktig med ekstrapolering utenfor dataområdet.\n\n## Omvendte funksjoner\nEn **omvendt funksjon** går fra resultatet tilbake til utgangspunktet: f(a) = b betyr f⁻¹(b) = a. f⁻¹ er ikke det samme som 1/f. En funksjon må være én-entydig for å ha en omvendt funksjon; strengt voksende eller avtakende funksjoner har denne egenskapen. Definisjonsmengde og verdimengde bytter plass, og grafene speiles om y = x. For å finne f⁻¹ løses y = f(x) med hensyn på x, før variablene bytter navn. eˣ og ln x er omvendte funksjoner. Hvis y₀ = f(x₀) og f′(x₀) ≠ 0, er **(f⁻¹)′(y₀) = 1/f′(x₀)**.\n\n## Modellering, datasett og optimering\nEt dataarbeid starter med en problemstilling og pålitelige data med oppgitte kilder og enheter. Plott dataene, velg en modelltype ut fra formen og fenomenet, og bruk regresjon til å finne parametere. **Residualer** er avvik mellom data og modell; mønster i residualene kan tyde på at modelltypen passer dårlig. Bruk den deriverte til å tolke vekstfart, ekstremalpunkter og vendepunkter, og vurder forutsetninger, feilkilder og modellens gyldighetsområde. Ved **optimering** skrives størrelsen som skal maksimeres eller minimeres som en funksjon av én variabel. Bestem definisjonsmengden, løs f′(x) = 0, undersøk om løsningen gir maksimum eller minimum, og sjekk endepunktene. Oppgi svaret med enheter.\n\n## Vektorer i planet\nEn **vektor** har lengde og retning, mens en skalar bare har størrelse. Vektoren fra A til B finnes som sluttpunkt minus startpunkt. Vektorer adderes koordinatvis, og |[a,b]| = √(a² + b²). To vektorer er parallelle når den ene er et tall multiplisert med den andre. **Skalarproduktet** er [a,b]·[c,d] = ac + bd, og gir et tall. For vektorer som ikke er nullvektorer betyr skalarprodukt lik null at de står vinkelrett. Skalarproduktet kan også brukes til å finne vinkelen mellom vektorer og til å regne arbeid: W = F⃗·s⃗.\n\n## Parameterframstillinger\nEn linje gjennom P(x₀,y₀) med retningsvektor [a,b] kan skrives **x = x₀ + at, y = y₀ + bt**. Punktet ligger på linja dersom samme t passer i begge koordinatlikningene. For å finne skjæringspunkt mellom linjer bruker du ulike parametere og setter koordinatene like. Parallelle retningsvektorer gir parallelle linjer. I bevegelse beskriver r⃗(t) = [x(t),y(t)] posisjonen, v⃗(t) = r⃗′(t) fartsvektoren og |v⃗(t)| banefarten. Akselerasjonen er den deriverte av fartsvektoren. Parameterframstillinger beskriver også kast og kurver som sirkler; ved kollisjon må objektene være på samme sted ved samme tid.\n\n## Sammenhenger i faget\nGrenseverdier ligger bak definisjonene av både kontinuitet og den deriverte. Derivasjonsreglene gjør det mulig å undersøke vekst, ekstremalpunkter og vendepunkter, og disse verktøyene brukes videre i modellering og optimering. Logaritmer gjør det mulig å løse eksponentiallikninger og beskrive vekst, mens omvendte funksjoner lar oss gå fra et resultat tilbake til inngangsverdien. Vektorer og parameterframstillinger bruker koordinater og derivasjon til å beskrive geometri og bevegelse.\n\n## Huskeliste før prøven\n- Sjekk venstre og høyre grenseverdi når det trengs.\n- Ved 0/0: omform uttrykket før du konkluderer.\n- Kontroller alle tre kravene for kontinuitet.\n- Velg riktig derivasjonsregel ut fra uttrykkets struktur.\n- Bruk fortegnsskifte til å klassifisere ekstremalpunkter.\n- Husk at logaritmens argument må være positivt.\n- Tolk modellens parametere og den deriverte med riktige enheter.\n- Sjekk endepunkter i optimering på et lukket intervall.\n- Regn vektorer koordinatvis, og bruk samme parameter for begge koordinatene.\n- Vurder om en modell er rimelig utenfor dataområdet.",
+  "flashcards": [
+    {
+      "term": "Når eksisterer grenseverdien?",
+      "def": "Når venstre og høyre grenseverdi er like."
+    },
+    {
+      "term": "Faktorisering og forkorting",
+      "def": "Strategi når innsetting gir 0/0."
+    },
+    {
+      "term": "Krav 3 for kontinuitet i a",
+      "def": "lim ₓ→ₐ f(x) = f(a)."
+    },
+    {
+      "term": "Skjæringssetningen",
+      "def": "Kontinuerlig f med fortegnsskifte på [a, b] har et nullpunkt der."
+    },
+    {
+      "term": "Definisjonen av f′(a)",
+      "def": "lim ₕ→₀ (f(a + h) − f(a))/h"
+    },
+    {
+      "term": "Tangentlikningen",
+      "def": "y − f(a) = f′(a)(x − a)"
+    },
+    {
+      "term": "(xⁿ)′",
+      "def": "n · xⁿ⁻¹"
+    },
+    {
+      "term": "Kjerneregelen",
+      "def": "(g(u))′ = g′(u) · u′"
+    },
+    {
+      "term": "Toppunkt",
+      "def": "f′ skifter fra + til −."
+    },
+    {
+      "term": "Vendepunkt",
+      "def": "Der f″ skifter fortegn."
+    },
+    {
+      "term": "ln x = y",
+      "def": "eʸ = x"
+    },
+    {
+      "term": "Logaritmens definisjonsmengde",
+      "def": "x > 0"
+    },
+    {
+      "term": "Eksponentiell modell",
+      "def": "f(t) = a · bᵗ"
+    },
+    {
+      "term": "Logistisk modell",
+      "def": "N(t) = K / (1 + a · e⁻ᵏᵗ)"
+    },
+    {
+      "term": "Én-entydig funksjon",
+      "def": "Hver y-verdi kommer fra nøyaktig én x-verdi."
+    },
+    {
+      "term": "(f⁻¹)′(y₀)",
+      "def": "1 / f′(x₀), der y₀ = f(x₀)"
+    },
+    {
+      "term": "Residual",
+      "def": "Avviket mellom datapunkt og modell."
+    },
+    {
+      "term": "Optimering",
+      "def": "Å finne størst eller minst verdi, ofte med derivasjon."
+    },
+    {
+      "term": "Lengden av [a, b]",
+      "def": "√(a² + b²)"
+    },
+    {
+      "term": "Skalarprodukt på koordinatform",
+      "def": "[a, b] · [c, d] = ac + bd"
+    },
+    {
+      "term": "Parameterframstilling av linje",
+      "def": "x = x₀ + at, y = y₀ + bt"
+    },
+    {
+      "term": "Fartsvektor",
+      "def": "v⃗(t) = r⃗′(t)"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Når eksisterer lim ₓ→ₐ f(x)?",
+      "options": [
+        "Alltid",
+        "Når f(a) er definert",
+        "Når venstre og høyre grenseverdi er like",
+        "Når f(a) = 0"
+      ],
+      "correct": 2,
+      "explain": "De ensidige grenseverdiene må stemme overens."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilke tre krav må være oppfylt for at f skal være kontinuerlig i a?",
+      "options": [
+        "f(a) = 0, f′(a) = 0 og f″(a) = 0",
+        "f(a) definert, lim ₓ→ₐ f(x) finnes og lim ₓ→ₐ f(x) = f(a)",
+        "f er et polynom",
+        "f er voksende rundt a"
+      ],
+      "correct": 1,
+      "explain": "Alle tre må gjelde."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er den geometriske tolkningen av f′(a)?",
+      "options": [
+        "Arealet under grafen",
+        "Funksjonsverdien i a",
+        "Stigningstallet til sekanten",
+        "Stigningstallet til tangenten i (a, f(a))"
+      ],
+      "correct": 3,
+      "explain": "Den momentane vekstfarten."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er den deriverte av (2x + 1)⁵?",
+      "options": [
+        "5(2x + 1)⁴",
+        "(2x + 1)⁴",
+        "2(2x + 1)⁵",
+        "10(2x + 1)⁴"
+      ],
+      "correct": 3,
+      "explain": "Kjerneregelen: gang med kjernens deriverte, 2."
+    },
+    {
+      "id": "q05",
+      "text": "f′(a) = 0 og f″(a) > 0. Hva har f i x = a?",
+      "options": [
+        "Et toppunkt",
+        "Et vendepunkt",
+        "Et terrassepunkt",
+        "Et bunnpunkt"
+      ],
+      "correct": 3,
+      "explain": "Grafen krummer oppover."
+    },
+    {
+      "id": "q06",
+      "text": "Løs lg x + lg(x + 3) = 1.",
+      "options": [
+        "x = 2",
+        "x = −5",
+        "x = 2 eller x = −5",
+        "x = 10"
+      ],
+      "correct": 0,
+      "explain": "x = −5 er ikke gyldig, fordi logaritmen krever positive tall."
+    },
+    {
+      "id": "q07",
+      "text": "Hvor er vekstfarten størst i logistisk vekst?",
+      "options": [
+        "Når N = K/2",
+        "Når N = 0",
+        "Når N = K",
+        "I starten"
+      ],
+      "correct": 0,
+      "explain": "Vendepunktet."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan henger grafene til f og f⁻¹ sammen?",
+      "options": [
+        "De er speilbilder om linjen y = x",
+        "De er speilbilder om x-aksen",
+        "De er like",
+        "De er parallelle"
+      ],
+      "correct": 0,
+      "explain": "(a, b) blir til (b, a)."
+    },
+    {
+      "id": "q09",
+      "text": "Hva forteller et tydelig mønster i residualene?",
+      "options": [
+        "At modellen er perfekt",
+        "At modelltypen kanskje passer dårlig",
+        "At dataene er feil",
+        "At regresjonen er ugyldig"
+      ],
+      "correct": 1,
+      "explain": "Tilfeldige residualer tyder på god modelltype."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er [3, 4] · [4, −3]?",
+      "options": [
+        "[12, −12]",
+        "25",
+        "0",
+        "24"
+      ],
+      "correct": 2,
+      "explain": "12 − 12 = 0 – vektorene er vinkelrette."
+    },
+    {
+      "id": "q11",
+      "text": "Hvorfor bruker vi ulike parametere når vi finner skjæringspunktet mellom to linjer?",
+      "options": [
+        "For at regningen skal bli kortere",
+        "Fordi linjene er parallelle",
+        "Fordi t alltid er tid",
+        "Fordi punktet kan nås ved ulike parameterverdier på de to linjene"
+      ],
+      "correct": 3,
+      "explain": "t og s er uavhengige."
+    },
+    {
+      "id": "q12",
+      "text": "Hvordan finner du fartsvektoren når posisjonen er r⃗(t) = [x(t), y(t)]?",
+      "options": [
+        "Deriver hver koordinat",
+        "Integrer",
+        "Del på t",
+        "Ta lengden"
+      ],
+      "correct": 0,
+      "explain": "v⃗(t) = [x′(t), y′(t)]."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk R1",
+    "children": [
+      {
+        "label": "Grenseverdier",
+        "children": [
+          {
+            "label": "Når eksisterer grenseverdien?",
+            "note": "Når venstre og høyre grenseverdi er like."
+          },
+          {
+            "label": "Faktorisering og forkorting",
+            "note": "Strategi når innsetting gir 0/0."
+          }
+        ]
+      },
+      {
+        "label": "Kontinuitet",
+        "children": [
+          {
+            "label": "Krav 3 for kontinuitet i a",
+            "note": "lim ₓ→ₐ f(x) = f(a)."
+          },
+          {
+            "label": "Skjæringssetningen",
+            "note": "Kontinuerlig f med fortegnsskifte på [a, b] har et nullpunkt der."
+          }
+        ]
+      },
+      {
+        "label": "Den deriverte – definisjon og tolkning",
+        "children": [
+          {
+            "label": "Definisjonen av f′(a)",
+            "note": "lim ₕ→₀ (f(a + h) − f(a))/h"
+          },
+          {
+            "label": "Tangentlikningen",
+            "note": "y − f(a) = f′(a)(x − a)"
+          }
+        ]
+      },
+      {
+        "label": "Derivasjonsregler",
+        "children": [
+          {
+            "label": "(xⁿ)′",
+            "note": "n · xⁿ⁻¹"
+          },
+          {
+            "label": "Kjerneregelen",
+            "note": "(g(u))′ = g′(u) · u′"
+          }
+        ]
+      },
+      {
+        "label": "Funksjonsdrøfting med derivasjon",
+        "children": [
+          {
+            "label": "Toppunkt",
+            "note": "f′ skifter fra + til −."
+          },
+          {
+            "label": "Vendepunkt",
+            "note": "Der f″ skifter fortegn."
+          }
+        ]
+      },
+      {
+        "label": "Potenser, logaritmer og likninger",
+        "children": [
+          {
+            "label": "ln x = y",
+            "note": "eʸ = x"
+          },
+          {
+            "label": "Logaritmens definisjonsmengde",
+            "note": "x > 0"
+          }
+        ]
+      },
+      {
+        "label": "Eksponentiell og logistisk vekst",
+        "children": [
+          {
+            "label": "Eksponentiell modell",
+            "note": "f(t) = a · bᵗ"
+          },
+          {
+            "label": "Logistisk modell",
+            "note": "N(t) = K / (1 + a · e⁻ᵏᵗ)"
+          }
+        ]
+      },
+      {
+        "label": "Omvendte funksjoner",
+        "children": [
+          {
+            "label": "Én-entydig funksjon",
+            "note": "Hver y-verdi kommer fra nøyaktig én x-verdi."
+          },
+          {
+            "label": "(f⁻¹)′(y₀)",
+            "note": "1 / f′(x₀), der y₀ = f(x₀)"
+          }
+        ]
+      },
+      {
+        "label": "Modellering, datasett og optimering",
+        "children": [
+          {
+            "label": "Residual",
+            "note": "Avviket mellom datapunkt og modell."
+          },
+          {
+            "label": "Optimering",
+            "note": "Å finne størst eller minst verdi, ofte med derivasjon."
+          }
+        ]
+      },
+      {
+        "label": "Vektorer i planet",
+        "children": [
+          {
+            "label": "Lengden av [a, b]",
+            "note": "√(a² + b²)"
+          },
+          {
+            "label": "Skalarprodukt på koordinatform",
+            "note": "[a, b] · [c, d] = ac + bd"
+          }
+        ]
+      },
+      {
+        "label": "Parameterframstillinger",
+        "children": [
+          {
+            "label": "Parameterframstilling av linje",
+            "note": "x = x₀ + at, y = y₀ + bt"
+          },
+          {
+            "label": "Fartsvektor",
+            "note": "v⃗(t) = r⃗′(t)"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Hva er lim ₓ→₁ (x² − 1)/(x − 1)?",
+        "options": [
+          "0",
+          "2",
+          "1",
+          "Den finnes ikke"
+        ],
+        "correct": 1,
+        "explain": "(x − 1)(x + 1)/(x − 1) = x + 1 → 2."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "f(x) = 2x for x < 1 og x + k for x ≥ 1. Hvilken k gjør f kontinuerlig?",
+        "options": [
+          "k = 2",
+          "k = 1",
+          "k = 0",
+          "k = −1"
+        ],
+        "correct": 1,
+        "explain": "2 · 1 = 1 + k."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Den deriverte av et produkt er produktet av de deriverte.",
+        "correct": false,
+        "explain": "Bruk produktregelen: u′v + uv′."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "f(x) = x² − 4x. Hvor har f bunnpunkt?",
+        "options": [
+          "(4, 0)",
+          "(2, −4)",
+          "(0, 0)",
+          "(−2, 12)"
+        ],
+        "correct": 1,
+        "explain": "f′(x) = 2x − 4 = 0 gir x = 2, f(2) = −4."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "En modell som passer godt på dataene, gir alltid gode prognoser langt fram i tid.",
+        "correct": false,
+        "explain": "Ekstrapolering kan gi feil."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "For hvilken t er [t, 2] vinkelrett på [4, −2]?",
+        "options": [
+          "t = 1",
+          "t = −1",
+          "t = 4",
+          "t = 0"
+        ],
+        "correct": 0,
+        "explain": "4t − 4 = 0."
+      },
+      {
+        "id": "m07",
+        "type": "sant-usant",
+        "text": "To båter kolliderer hvis banene deres krysser hverandre.",
+        "correct": false,
+        "explain": "De må være på samme sted ved samme tid."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan grenseverdier henger sammen med kontinuitet og med definisjonen av den deriverte.",
+        "fasit": "En funksjon er kontinuerlig i et punkt når grenseverdien finnes og er lik funksjonsverdien der. Den deriverte er grenseverdien av den gjennomsnittlige vekstfarten når intervallet blir stadig mindre.",
+        "kriterier": [
+          "Knytter kontinuitet til at grenseverdien finnes og er lik f(a).",
+          "Forklarer at den deriverte defineres som en grenseverdi av differansekvotienten."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "For f(x) = x² − 4x, finn den deriverte og avgjør om punktet der f′(x) = 0 er et toppunkt eller bunnpunkt.",
+        "fasit": "f′(x) = 2x − 4, så f′(x) = 0 når x = 2. Siden f″(x) = 2 > 0, er dette et bunnpunkt, og f(2) = −4.",
+        "kriterier": [
+          "Finner f′(x) = 2x − 4 og x = 2.",
+          "Bruker f″(x) > 0 til å konkludere med bunnpunkt; koordinatene er (2, −4)."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Løs 2ˣ = 8 uten kalkulator, og forklar kort hvordan logaritmer kan brukes til å løse eksponentiallikninger.",
+        "fasit": "Siden 8 = 2³, er x = 3. Hvis likningen ikke enkelt kan skrives med samme grunntall på begge sider, kan vi ta logaritmen på begge sider og løse for eksponenten.",
+        "kriterier": [
+          "Finner x = 3 ved å skrive 8 som 2³.",
+          "Forklarer at logaritmer kan brukes på begge sider for å isolere eksponenten."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign eksponentiell og logistisk vekst når en populasjon først vokser raskt, men møter begrensede ressurser.",
+        "fasit": "Eksponentiell vekst beskriver fast prosentvis endring, og vekstfarten er proporsjonal med størrelsen. Når ressurser begrenser veksten, passer en logistisk modell bedre: veksten flater ut mot bæreevnen, og den er størst ved vendepunktet der N = K/2.",
+        "kriterier": [
+          "Beskriver eksponentiell vekst som fast prosentvis endring.",
+          "Knytter logistisk vekst til begrensninger, bæreevne og størst vekstfart ved N = K/2."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Du skal modellere et datasett over tid. Forklar hvordan du kan undersøke om modellen passer, og nevn én grunn til å være forsiktig med å bruke den langt fram i tid.",
+        "fasit": "Jeg kan plotte dataene, velge modell ut fra formen og undersøke residualene. Et mønster i residualene kan tyde på at modelltypen passer dårlig. Ekstrapolering kan gi urimelige svar utenfor dataområdet.",
+        "kriterier": [
+          "Nevner residualer som avvik mellom data og modell, og at mønster kan tyde på dårlig tilpasning.",
+          "Forklarer at ekstrapolering utenfor dataområdet kan gi urimelige svar."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Vektorene u = [3, 4] og v = [4, −3] beskriver retninger. Finn lengden av u og bruk skalarproduktet til å forklare forholdet mellom retningene.",
+        "fasit": "|u| = √(3² + 4²) = 5. Skalarproduktet er 3 · 4 + 4 · (−3) = 0, så vektorene står vinkelrett på hverandre.",
+        "kriterier": [
+          "Finner lengden |u| = 5.",
+          "Viser at skalarproduktet er null og konkluderer med at vektorene er vinkelrette."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En linje har parameterframstillingen x = 1 + 3t, y = 2 + 4t. Finn punktet når t = 1, og forklar hvordan du kan finne fartsvektoren fra en posisjonsvektor r⃗(t) = [x(t), y(t)].",
+        "fasit": "Når t = 1, er punktet (4, 6). Fartsvektoren finnes ved å derivere hver av koordinatfunksjonene, altså r⃗′(t) = [x′(t), y′(t)].",
+        "kriterier": [
+          "Setter t = 1 inn i begge likningene og finner (4, 6).",
+          "Forklarer at hver koordinatfunksjon deriveres for å finne fartsvektoren."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En funksjon f er strengt voksende, f(1) = 2 og f′(1) = 4. Finn den deriverte til den omvendte funksjonen i x = 2, og forklar sammenhengen du bruker.",
+        "fasit": "Siden f(1) = 2, er f⁻¹(2) = 1. Den deriverte til den omvendte funksjonen er (f⁻¹)′(2) = 1/f′(1) = 1/4.",
+        "kriterier": [
+          "Knytter f(1) = 2 til at f⁻¹(2) = 1.",
+          "Bruker regelen for den deriverte av en omvendt funksjon og får 1/4."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

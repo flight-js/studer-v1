@@ -1,0 +1,560 @@
+{
+  "id": "repetisjon",
+  "fagId": "naturfag-8",
+  "trinnId": "8",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    14,
+    15,
+    18,
+    19
+  ],
+  "sammendrag": "Naturfag handler om å undersøke naturen og forstå hvordan levende organismer, stoffer og jorda fungerer. Vi bruker observasjoner, forsøk og modeller for å finne forklaringer og se sammenhenger.\n\n## Naturvitenskapelig metode\n\nNaturvitenskapelig metode begynner ofte med en **observasjon** og et spørsmål. En **hypotese** er en mulig forklaring som kan testes. I et forsøk endrer du den **uavhengige variabelen** og måler den **avhengige variabelen**. Andre forhold, de **kontrollerte variablene**, skal holdes like, slik at du kan finne ut hva som påvirket resultatet. En **kontrollgruppe** kan brukes til sammenligning.\n\nSamle målinger og observasjoner som **data**, gjerne i en tabell. Analyser resultatene og vurder om de støtter hypotesen. Hvis de ikke gjør det, kan hypotesen endres eller forkastes. Gjentatte forsøk og nøyaktig rapportering gjør resultatene mer **pålitelige**. Vurder også **usikkerhet** og mulige **feilkilder**. Før forsøk gjør du en **risikovurdering**, leser faresymboler og bruker nødvendig verneutstyr.\n\n## Celler\n\nAlle levende organismer består av **celler**, og nye celler dannes ved celledeling. De fleste celler må studeres med mikroskop. **Cellemembranen** regulerer hva som slipper inn og ut, **cytoplasmaet** er stedet for mange prosesser, og **cellekjernen** inneholder DNA, arvestoffet. I **mitokondriene** frigjøres energi fra næring ved celleånding.\n\nPlanteceller har også **cellevegg**, **kloroplaster** der fotosyntesen skjer, og en stor **vakuole** som lagrer vann. Bakterier har ikke cellekjerne, mens dyre- og planteceller har det. I flercellede organismer er celler ofte **spesialiserte** for bestemte oppgaver. Like celler samarbeider i **vev**, vev danner **organer**, og organer samarbeider i **organsystemer**.\n\n## Fotosyntese, celleånding og karbonkretsløpet\n\nI **fotosyntesen** bruker planter, alger og noen bakterier lysenergi til å lage glukose og oksygen av karbondioksid og vann. Prosessen skjer i kloroplastene:\n\n6CO₂ + 6H₂O + lysenergi → C₆H₁₂O₆ + 6O₂\n\n**Glukose** lagrer energi og kan også brukes som byggemateriale. Planter kan lagre glukose som **stivelse**. I **celleåndingen**, som skjer i mitokondriene i nesten alle celler, reagerer glukose med oksygen. Da frigjøres energi, og det dannes karbondioksid og vann:\n\nC₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energi\n\nProsessene er på mange måter motsatte: Produktene i den ene brukes i den andre. Planter driver med celleånding hele døgnet, men fotosyntese bare når det er lys. I **karbonkretsløpet** tar fotosyntesen CO₂ ut av lufta, mens celleånding og nedbryting frigjør CO₂. Havet tar også opp og avgir CO₂. Forbrenning av fossile brensler frigjør raskt karbon som har vært lagret lenge, og øker mengden CO₂ i atmosfæren.\n\n## Økosystemer\n\nEt **økosystem** er et område der organismer og omgivelsene påvirker hverandre. Levende deler er **biotiske faktorer**, mens ikke-levende forhold som lys, temperatur, vann og jord er **abiotiske faktorer**. Alle individer av samme art i et område utgjør en populasjon.\n\n**Produsenter**, som planter og alger, lager næring ved fotosyntese. **Konsumenter** spiser andre organismer, og **nedbrytere** bryter ned døde organismer og avfall slik at næringsstoffer kan brukes igjen. En **næringskjede** viser hvem som spiser hvem; flere sammenvevde kjeder danner et næringsnett.\n\n**Energi** går én vei fra sola gjennom produsenter og konsumenter, og mye brukes til livsprosesser eller forsvinner som varme. Omtrent en tidel går videre til neste ledd, derfor er det færre rovdyr enn planteetere. **Materie** går derimot i kretsløp. Endringer som tørke, forurensning eller at rovdyr forsvinner, kan påvirke balansen i økosystemet.\n\n## Atomer og periodesystemet\n\nAll materie er bygd opp av **atomer**. Atomkjernen inneholder positivt ladde **protoner** og nøytrale **nøytroner**. Negative **elektroner** beveger seg i skall rundt kjernen. Atomet er nøytralt når det har like mange protoner som elektroner. Antall protoner, **atomnummeret**, bestemmer hvilket grunnstoff atomet er.\n\nEt **grunnstoff** består av én type atomer. Atomer fra ulike grunnstoffer kan bindes sammen i en **kjemisk forbindelse**, som vann (H₂O). Et molekyl er en gruppe bundne atomer. I **periodesystemet** er grunnstoffene ordnet etter atomnummer. Vannrette rader kalles perioder og viser antall elektronskall. Loddrette kolonner kalles grupper; grunnstoffene i samme gruppe har like mange elektroner i ytterste skall og ligner ofte kjemisk. Edelgassene har fullt ytterste skall og reagerer nesten ikke.\n\n## Kjemiske reaksjoner og forbrenning\n\nVed en **fysisk endring** endres formen eller tilstanden, men stoffet er det samme. Ved en **kjemisk reaksjon** dannes nye stoffer fordi atomene omorganiseres. Gassbobler, fargeendring, varme eller lys og bunnfall kan være tegn på reaksjon. Stoffene vi starter med, er **reaktanter**, og stoffene som dannes, er **produkter**.\n\nEn reaksjonslikning viser reaksjonen. Den må være **balansert**, med like mange atomer av hvert grunnstoff på begge sider. Atomer forsvinner ikke; derfor er massen av produktene lik massen av reaktantene. Når en reaksjon skjer i et åpent system, kan gasser slippe ut og få det til å se ut som om masse har forsvunnet.\n\n**Forbrenning** er en reaksjon med oksygen som avgir varme og lys. **Branntrekanten** består av brensel, oksygen og høy nok temperatur. Fjerner du én av disse, slokner brannen. Fullstendig forbrenning av stoffer med karbon og hydrogen danner CO₂ og vann. Ved for lite oksygen kan ufullstendig forbrenning danne sot og giftig karbonmonoksid.\n\n## Platetektonikk og jordas utvikling\n\nJorda består av jordskorpe, mantel og kjerne. Jordskorpa og den øverste stive delen av mantelen utgjør **litosfæren**, som er delt i plater. Platene beveger seg noen få centimeter i året. Bevegelsene drives blant annet av **konveksjonsstrømmer** i mantelen, der varm stein stiger og kaldere stein synker.\n\nVed **divergerende plategrenser** går platene fra hverandre, og ny havbunn kan dannes. Ved **konvergerende grenser** går de mot hverandre; det kan dannes fjellkjeder, dyphavsgroper og vulkaner. Ved **transformgrenser** glir platene sidelengs forbi hverandre, noe som ofte gir jordskjelv. De fleste jordskjelv og vulkaner finnes langs plategrensene.\n\nTeorien om kontinentaldrift sier at kontinentene en gang var samlet i superkontinentet Pangea. At kystlinjer passer sammen, at like fossiler finnes på kontinenter langt fra hverandre, og målinger av havbunnen og platene, er bevis som støtter platetektonikken.\n\n## Sammenhenger i faget\n\nCeller og organismer trenger energi. Fotosyntesen lagrer solenergi i glukose, og celleåndingen frigjør energien; begge prosessene påvirker karbonkretsløpet. I økosystemer går energi fra produsenter til konsumenter, mens karbon og andre stoffer sirkulerer. Atomer omorganiseres i kjemiske reaksjoner, men forsvinner ikke. Naturvitenskapelig metode hjelper oss å teste forklaringer på slike prosesser, og modeller hjelper oss å forstå både atomer og jordas bevegelser.\n\n## Huskeliste før prøven\n\n- Skill mellom hypotese, variabler, data og konklusjon.\n- Husk hva cellekjernen, cellemembranen og mitokondriene gjør.\n- Kunne forklare fotosyntese og celleånding med ord og likninger.\n- Forklar hvordan karbon går mellom luft og levende organismer.\n- Skill mellom energiflyt og kretsløp av materie.\n- Vit hvordan atomnummer, perioder og grupper brukes.\n- Skill mellom fysisk endring og kjemisk reaksjon.\n- Balanser reaksjonslikninger ved å telle atomer på begge sider.\n- Husk branntrekanten og hva som skjer ved ufullstendig forbrenning.\n- Kjenne forskjellen på de tre typene plategrenser.",
+  "flashcards": [
+    {
+      "term": "Naturvitenskapelig metode",
+      "def": "Måten forskere undersøker naturen på: spørsmål, hypotese, forsøk, analyse og konklusjon."
+    },
+    {
+      "term": "Uavhengig variabel",
+      "def": "Det du selv endrer i et forsøk."
+    },
+    {
+      "term": "Avhengig variabel",
+      "def": "Det du måler for å se virkningen av endringen."
+    },
+    {
+      "term": "Celle",
+      "def": "Den minste enheten som kan leve selvstendig. Alle organismer er bygd av celler."
+    },
+    {
+      "term": "Cellekjerne",
+      "def": "Inneholder DNA og styrer cellens aktiviteter."
+    },
+    {
+      "term": "Celle → vev → organ → organsystem",
+      "def": "Organiseringen i flercellede organismer."
+    },
+    {
+      "term": "Fotosyntese",
+      "def": "Prosessen der planter bruker lysenergi til å lage glukose og oksygen av CO₂ og vann."
+    },
+    {
+      "term": "Celleånding",
+      "def": "Prosessen der glukose og oksygen gir energi, CO₂ og vann."
+    },
+    {
+      "term": "Karbonkretsløpet",
+      "def": "Karbonets vandring mellom luft, levende organismer, jord og hav."
+    },
+    {
+      "term": "Økosystem",
+      "def": "Et område der organismer og omgivelsene påvirker hverandre, som en skog eller en innsjø."
+    },
+    {
+      "term": "Næringsnett",
+      "def": "Mange sammenvevde næringskjeder."
+    },
+    {
+      "term": "Energiflyt",
+      "def": "Energi går én vei fra sola via produsenter til konsumenter, og tapes som varme."
+    },
+    {
+      "term": "Atomnummer",
+      "def": "Antall protoner i kjernen. Bestemmer hvilket grunnstoff atomet er."
+    },
+    {
+      "term": "Kjemisk forbindelse",
+      "def": "Stoff dannet av atomer fra ulike grunnstoffer, som vann (H₂O)."
+    },
+    {
+      "term": "Periodesystemet",
+      "def": "Oversikt over grunnstoffene ordnet etter atomnummer."
+    },
+    {
+      "term": "Kjemisk reaksjon",
+      "def": "Nye stoffer med nye egenskaper dannes ved at atomene omorganiseres."
+    },
+    {
+      "term": "Loven om massebevaring",
+      "def": "Massen av produktene er lik massen av reaktantene."
+    },
+    {
+      "term": "Branntrekanten",
+      "def": "Brensel, oksygen og høy nok temperatur. Fjernes én, slokner brannen."
+    },
+    {
+      "term": "Platetektonikk",
+      "def": "Teorien om at litosfæreplatene beveger seg og former jordoverflaten."
+    },
+    {
+      "term": "Konveksjonsstrømmer",
+      "def": "Strømmer i mantelen der varm stein stiger og kald synker. Driver platene."
+    },
+    {
+      "term": "Konvergerende grense",
+      "def": "Platene beveger seg mot hverandre. Gir fjellkjeder, dyphavsgroper og vulkaner."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Du undersøker om mengden lys påvirker hvor mye en plante vokser. Hva er den uavhengige variabelen?",
+      "options": [
+        "Hvor mye planten vokser",
+        "Mengden vann",
+        "Mengden lys",
+        "Typen jord"
+      ],
+      "correct": 2,
+      "explain": "Den uavhengige variabelen er det du selv endrer, her lysmengden."
+    },
+    {
+      "id": "q02",
+      "text": "Hvorfor skal du bare endre én ting om gangen i et forsøk?",
+      "options": [
+        "For at forsøket skal gå raskere",
+        "Fordi det er billigere",
+        "Fordi det er en regel uten grunn",
+        "For å vite hva som forårsaket resultatet"
+      ],
+      "correct": 3,
+      "explain": "Endrer du flere ting samtidig, kan du ikke vite hvilken av dem som ga virkningen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva finnes i planteceller, men ikke i dyreceller?",
+      "options": [
+        "Cellemembran og cytoplasma",
+        "Mitokondrier",
+        "Cellevegg og kloroplaster",
+        "Cellekjerne"
+      ],
+      "correct": 2,
+      "explain": "Planteceller har cellevegg, kloroplaster og en stor vakuole i tillegg."
+    },
+    {
+      "id": "q04",
+      "text": "Hva gjør mitokondriene?",
+      "options": [
+        "Lagrer vann",
+        "Lager proteiner fra lys",
+        "Beskytter cellen",
+        "Frigjør energi fra næring ved celleånding"
+      ],
+      "correct": 3,
+      "explain": "Mitokondriene kalles ofte cellens kraftverk."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor kalles celleånding fotosyntesen «baklengs»?",
+      "options": [
+        "Fordi den skjer om natta",
+        "Fordi utgangsstoffene i den ene er produktene i den andre",
+        "Fordi den går saktere",
+        "Fordi den skjer i røttene"
+      ],
+      "correct": 1,
+      "explain": "Fotosyntesen lager glukose og oksygen, som celleåndingen bruker til å lage CO₂ og vann."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor forstyrrer bruk av fossile brensler karbonkretsløpet?",
+      "options": [
+        "Fordi de frigjør karbon som har vært lagret i millioner av år, svært raskt",
+        "Fordi de lager oksygen",
+        "Fordi de fjerner CO₂",
+        "De påvirker ikke kretsløpet"
+      ],
+      "correct": 0,
+      "explain": "Utslippene øker CO₂-mengden i lufta raskere enn naturen klarer å binde den."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor finnes det færre rovdyr enn planteetere?",
+      "options": [
+        "Fordi rovdyr lever lenger",
+        "Fordi det bare går videre omtrent en tidel av energien til hvert nytt trinn",
+        "Fordi rovdyr ikke trenger mat",
+        "Fordi planteetere er større"
+      ],
+      "correct": 1,
+      "explain": "Energitapet på hvert trinn gjør at det er mindre energi tilgjengelig høyere opp."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er forskjellen på energi og materie i et økosystem?",
+      "options": [
+        "Begge går i kretsløp",
+        "Begge går én vei",
+        "Energi går én vei, materie går i kretsløp",
+        "Materie går én vei, energi går i kretsløp"
+      ],
+      "correct": 2,
+      "explain": "Energien kommer fra sola og tapes som varme, mens stoffene brukes om og om igjen."
+    },
+    {
+      "id": "q09",
+      "text": "Hva bestemmer hvilket grunnstoff et atom er?",
+      "options": [
+        "Antall nøytroner",
+        "Antall elektronskall",
+        "Antall protoner",
+        "Størrelsen"
+      ],
+      "correct": 2,
+      "explain": "Atomnummeret, altså antall protoner, bestemmer grunnstoffet."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor reagerer edelgassene nesten ikke med andre stoffer?",
+      "options": [
+        "Fordi de er metaller",
+        "Fordi de har fullt ytterste elektronskall",
+        "Fordi de er tunge",
+        "Fordi de er faste stoffer"
+      ],
+      "correct": 1,
+      "explain": "Et fullt ytterskall gjør atomene stabile, så de har lite behov for å reagere."
+    },
+    {
+      "id": "q11",
+      "text": "Hva sier loven om massebevaring?",
+      "options": [
+        "Massen av produktene er lik massen av reaktantene",
+        "Massen øker i alle reaksjoner",
+        "Gasser har ingen masse",
+        "Massen forsvinner ved forbrenning"
+      ],
+      "correct": 0,
+      "explain": "Atomene omorganiseres, men ingen forsvinner eller oppstår."
+    },
+    {
+      "id": "q12",
+      "text": "Hvilke tre ting trengs for at noe skal brenne?",
+      "options": [
+        "Vann, lys og luft",
+        "Brensel, oksygen og høy nok temperatur",
+        "Karbon, nitrogen og vann",
+        "Metall, salt og varme"
+      ],
+      "correct": 1,
+      "explain": "Dette er branntrekanten."
+    },
+    {
+      "id": "q13",
+      "text": "Hva skjer ved en divergerende plategrense?",
+      "options": [
+        "Platene beveger seg fra hverandre",
+        "Platene kolliderer",
+        "Platene glir forbi hverandre",
+        "Platene står stille"
+      ],
+      "correct": 0,
+      "explain": "Magma strømmer opp og danner ny havbunn, som ved Midtatlanterhavsryggen."
+    },
+    {
+      "id": "q14",
+      "text": "Hva driver platebevegelsene?",
+      "options": [
+        "Tidevannet",
+        "Konveksjonsstrømmer i mantelen",
+        "Vinden",
+        "Månens bevegelse"
+      ],
+      "correct": 1,
+      "explain": "Varm stein stiger og kaldere synker i mantelen, og dette drar med seg platene."
+    }
+  ],
+  "mindmap": {
+    "label": "Naturfag",
+    "children": [
+      {
+        "label": "Naturvitenskapelig metode",
+        "children": [
+          {
+            "label": "Naturvitenskapelig metode",
+            "note": "Måten forskere undersøker naturen på: spørsmål, hypotese, forsøk, analyse og konklusjon."
+          },
+          {
+            "label": "Uavhengig variabel",
+            "note": "Det du selv endrer i et forsøk."
+          },
+          {
+            "label": "Avhengig variabel",
+            "note": "Det du måler for å se virkningen av endringen."
+          }
+        ]
+      },
+      {
+        "label": "Celler",
+        "children": [
+          {
+            "label": "Celle",
+            "note": "Den minste enheten som kan leve selvstendig. Alle organismer er bygd av celler."
+          },
+          {
+            "label": "Cellekjerne",
+            "note": "Inneholder DNA og styrer cellens aktiviteter."
+          },
+          {
+            "label": "Celle → vev → organ → organsystem",
+            "note": "Organiseringen i flercellede organismer."
+          }
+        ]
+      },
+      {
+        "label": "Fotosyntese, celleånding og karbonkretsløpet",
+        "children": [
+          {
+            "label": "Fotosyntese",
+            "note": "Prosessen der planter bruker lysenergi til å lage glukose og oksygen av CO₂ og vann."
+          },
+          {
+            "label": "Celleånding",
+            "note": "Prosessen der glukose og oksygen gir energi, CO₂ og vann."
+          },
+          {
+            "label": "Karbonkretsløpet",
+            "note": "Karbonets vandring mellom luft, levende organismer, jord og hav."
+          }
+        ]
+      },
+      {
+        "label": "Økosystemer",
+        "children": [
+          {
+            "label": "Økosystem",
+            "note": "Et område der organismer og omgivelsene påvirker hverandre, som en skog eller en innsjø."
+          },
+          {
+            "label": "Næringsnett",
+            "note": "Mange sammenvevde næringskjeder."
+          },
+          {
+            "label": "Energiflyt",
+            "note": "Energi går én vei fra sola via produsenter til konsumenter, og tapes som varme."
+          }
+        ]
+      },
+      {
+        "label": "Atomer og periodesystemet",
+        "children": [
+          {
+            "label": "Atomnummer",
+            "note": "Antall protoner i kjernen. Bestemmer hvilket grunnstoff atomet er."
+          },
+          {
+            "label": "Kjemisk forbindelse",
+            "note": "Stoff dannet av atomer fra ulike grunnstoffer, som vann (H₂O)."
+          },
+          {
+            "label": "Periodesystemet",
+            "note": "Oversikt over grunnstoffene ordnet etter atomnummer."
+          }
+        ]
+      },
+      {
+        "label": "Kjemiske reaksjoner og forbrenning",
+        "children": [
+          {
+            "label": "Kjemisk reaksjon",
+            "note": "Nye stoffer med nye egenskaper dannes ved at atomene omorganiseres."
+          },
+          {
+            "label": "Loven om massebevaring",
+            "note": "Massen av produktene er lik massen av reaktantene."
+          },
+          {
+            "label": "Branntrekanten",
+            "note": "Brensel, oksygen og høy nok temperatur. Fjernes én, slokner brannen."
+          }
+        ]
+      },
+      {
+        "label": "Platetektonikk og jordas utvikling",
+        "children": [
+          {
+            "label": "Platetektonikk",
+            "note": "Teorien om at litosfæreplatene beveger seg og former jordoverflaten."
+          },
+          {
+            "label": "Konveksjonsstrømmer",
+            "note": "Strømmer i mantelen der varm stein stiger og kald synker. Driver platene."
+          },
+          {
+            "label": "Konvergerende grense",
+            "note": "Platene beveger seg mot hverandre. Gir fjellkjeder, dyphavsgroper og vulkaner."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kontrollerte variabler skal holdes like gjennom hele forsøket.",
+        "correct": true,
+        "explain": "Da vet du at endringen i resultatet skyldes den uavhengige variabelen."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hva kalles et hjerte, som består av flere typer vev?",
+        "options": [
+          "En celle",
+          "Et organ",
+          "Et vev",
+          "En organisme"
+        ],
+        "correct": 1,
+        "explain": "Et organ består av ulike vev som samarbeider."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hva slipper celleåndingen ut?",
+        "options": [
+          "Oksygen",
+          "Glukose",
+          "Karbondioksid og vann",
+          "Klorofyll"
+        ],
+        "correct": 2,
+        "explain": "Når glukose brytes ned med oksygen, dannes CO₂ og vann."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Energi går i kretsløp akkurat som karbon.",
+        "correct": false,
+        "explain": "Energi går én vei og tapes som varme. Stoffer som karbon går i kretsløp."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva forteller periodenummeret?",
+        "options": [
+          "Antall protoner",
+          "Antall elektronskall",
+          "Om stoffet er fast",
+          "Atomets masse"
+        ],
+        "correct": 1,
+        "explain": "Atomer i periode 3 har for eksempel tre elektronskall."
+      },
+      {
+        "id": "m06",
+        "type": "sant-usant",
+        "text": "I en kjemisk reaksjon kan atomer forsvinne.",
+        "correct": false,
+        "explain": "Atomene bevares. De bare kobles sammen på nye måter."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Du vil undersøke om mengden lys påvirker hvor mye en plante vokser. Beskriv hvordan du kan lage et forsøk som gir et pålitelig svar.",
+        "fasit": "Jeg endrer mengden lys og måler hvor mye plantene vokser. Jeg holder vannmengde, jord og temperatur like, og sammenligner gjerne med en kontrollgruppe. Jeg gjentar forsøket og noterer resultatene nøyaktig.",
+        "kriterier": [
+          "Mengden lys er uavhengig variabel, og veksten er avhengig variabel.",
+          "Andre forhold holdes like; gjentakelser eller kontrollgruppe styrker sammenligningen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hvordan fotosyntese og celleånding henger sammen, og nevn hvor i plantecellen hver prosess skjer.",
+        "fasit": "Fotosyntesen skjer i kloroplastene og bruker karbondioksid, vann og lys til å lage glukose og oksygen. Celleåndingen skjer i mitokondriene og bruker glukose og oksygen til å frigjøre energi, samtidig som karbondioksid og vann dannes. Produktene i den ene prosessen brukes i den andre.",
+        "kriterier": [
+          "Fotosyntesen lager glukose og oksygen i kloroplastene.",
+          "Celleåndingen frigjør energi i mitokondriene, og prosessene bruker hverandres produkter."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar forskjellen på energiflyt og materiens kretsløp i et økosystem. Ta med hvilken rolle nedbryterne har.",
+        "fasit": "Energi går én vei fra sola via produsenter til konsumenter, og mye forsvinner som varme underveis. Materie går i kretsløp mellom organismer og omgivelsene. Nedbrytere bryter ned døde organismer og gjør næringsstoffer tilgjengelige igjen.",
+        "kriterier": [
+          "Energi går én vei og tapes som varme, mens materie sirkulerer.",
+          "Nedbrytere bryter ned døde organismer og bidrar til at næringsstoffer går tilbake i kretsløpet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan forbrenning av fossile brensler påvirker karbonkretsløpet og mengden karbondioksid i atmosfæren.",
+        "fasit": "Fossile brensler inneholder karbon som har vært lagret i millioner av år. Når de brennes, frigjøres karbonet raskt som karbondioksid. Det forstyrrer karbonkretsløpet og øker mengden CO₂ i atmosfæren.",
+        "kriterier": [
+          "Forbrenning frigjør raskt karbon som har vært lagret i fossile brensler.",
+          "Karbonet slippes ut som CO₂ og øker mengden i atmosfæren."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Bruk reaksjonslikningen 2H₂ + O₂ → 2H₂O. Hvor mange hydrogenatomer og oksygenatomer er det på hver side? Forklar hvorfor likningen er balansert.",
+        "fasit": "På hver side er det fire hydrogenatomer og to oksygenatomer. På venstre side gir 2H₂ fire hydrogenatomer, mens O₂ har to oksygenatomer. På høyre side har de to H₂O-molekylene til sammen fire hydrogenatomer og to oksygenatomer, så likningen er balansert.",
+        "kriterier": [
+          "Teller riktig: fire hydrogenatomer og to oksygenatomer på hver side.",
+          "Forklarer at samme antall atomer av hvert grunnstoff finnes på begge sider."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I en næringskjede går energien fra produsent til planteeter og videre til rovdyr. Hvis produsenten har 100 energienheter, omtrent hvor mange når planteeteren, og omtrent hvor mange når rovdyret?",
+        "fasit": "Omtrent en tidel går videre ved hvert trinn. Planteeteren får derfor omtrent 10 energienheter, og rovdyret får omtrent 1 energienhet.",
+        "kriterier": [
+          "Bruker at omtrent en tidel av energien går videre ved hvert trinn.",
+          "Regner riktig: omtrent 10 enheter til planteeteren og 1 til rovdyret."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Nevn to observasjoner som støtter teorien om platetektonikk, og forklar kort hvorfor de er bevis.",
+        "fasit": "Kystlinjene til Sør-Amerika og Afrika passer sammen, og like fossiler er funnet på kontinenter som nå ligger langt fra hverandre. Dette støtter at kontinentene en gang var samlet og senere har beveget seg fra hverandre.",
+        "kriterier": [
+          "Nevner to relevante bevis, for eksempel kystlinjer som passer eller like fossiler på fjerne kontinenter.",
+          "Knytter bevisene til at kontinenter eller plater har beveget seg."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar forskjellen på at vann fryser til is og at et stearinlys brenner. Hva skjer med atomene i en kjemisk reaksjon?",
+        "fasit": "Når vann fryser, endres formen, men stoffet er fortsatt vann. Når stearinlys brenner, skjer en kjemisk reaksjon der nye stoffer dannes. Atomene forsvinner ikke, men omorganiseres.",
+        "kriterier": [
+          "Frysing er en fysisk endring der stoffet fortsatt er det samme.",
+          "Brenning er en kjemisk reaksjon; atomene omorganiseres og danner nye stoffer."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

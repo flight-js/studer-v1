@@ -1,0 +1,571 @@
+{
+  "id": "repetisjon",
+  "fagId": "fysikk-1",
+  "trinnId": "vg2",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "sammendrag": "Fysikk beskriver hvordan naturen virker, fra bevegelse og krefter til elektrisitet, varme, stråling og atomer. Vi bruker målinger, modeller og matematiske sammenhenger for å forklare observasjoner og forutsi hva som vil skje.\n\n## Forsøk, målinger og modeller i fysikk\nEt forsøk starter med en **problemstilling** og en plan: Velg **uavhengig variabel** som skal endres, **avhengig variabel** som skal måles, og variabler som skal holdes konstante. Målinger har alltid **måleusikkerhet**. **Tilfeldige feil** kan reduseres ved å ta gjennomsnitt av flere målinger, mens **systematiske feil** påvirker målingene på samme måte og kan oppdages ved å kontrollere utstyret. Oppgi passende **gjeldende siffer**, bruk **SI-enheter** og sjekk at enhetene stemmer. I grafer står den uavhengige variabelen på x-aksen. **Regresjon** finner en funksjon som passer dataene; ved å **linearisere** kan en sammenheng bli en rett linje. En **modell** forenkler virkeligheten, men har et avgrenset **gyldighetsområde** og bør stemme med målinger og gi testbare forutsigelser.\n\n## Rettlinjet bevegelse\n**Forflytning** er endring i posisjon, Δs, og kan være negativ. Gjennomsnittsfart er Δs/Δt, mens **akselerasjon** er a = Δv/Δt. Fart og akselerasjon har retning, så fortegn avhenger av valgt positiv retning. I en **s-t-graf** er stigningstallet farten. I en **v-t-graf** er stigningstallet akselerasjonen og arealet under grafen forflytningen; arealet under en a-t-graf er endringen i fart. Ved konstant akselerasjon gjelder v = v₀ + at, s = v₀t + ½at², v² − v₀² = 2as og s = ½(v₀ + v)t. Nær jordoverflaten er tyngdeakselerasjonen g ≈ 9,81 m/s². På toppen av et loddrett kast er farten null, men akselerasjonen peker fortsatt nedover og er −g når oppover er positiv retning.\n\n## Krefter og Newtons lover\nKraft er en vektor som kan endre bevegelse eller form. **Newtons 1. lov** sier at når kraftsummen er null, er legemet i ro eller beveger seg med konstant fart i rett linje. **Newtons 2. lov** er ΣF = ma. Ifølge **Newtons 3. lov** er kraft og motkraft like store og motsatt rettet, men virker på hvert sitt legeme. Tyngdekraften er G = mg, normalkraften står vinkelrett på underlaget, og friksjonen kan beregnes som R = μN. Tegn et **kraftdiagram** med alle kreftene på legemet før du setter opp kraftsummen. På et skråplan er tyngdekraftskomponenten langs planet G sin α og komponenten vinkelrett på planet G cos α. I en heis som akselererer oppover er normalkraften større enn tyngden; i fritt fall er normalkraften null.\n\n## Numeriske metoder og programmering\nBevegelseslikningene krever konstant akselerasjon. Når kreftene endres underveis, kan **numeriske metoder** beregne bevegelsen steg for steg. I **Eulers metode** finner vi først kraftsummen og bruker a = ΣF/m. Deretter oppdaterer vi farten med v_ny = v + aΔt, posisjonen med s_ny = s + vΔt og tiden med t_ny = t + Δt. For fall med luftmotstand kv² og positiv retning nedover er ΣF = mg − kv². Farten nærmer seg **terminalfart**, når luftmotstanden er like stor som tyngden: vₜ = √(mg/k). Et mindre tidssteg gir vanligvis et mer nøyaktig resultat, men krever flere beregninger. Test gjerne ved å halvere tidssteget, eller ved å sette k = 0 og sammenligne med bevegelseslikningene.\n\n## Arbeid, energi, effekt og virkningsgrad\nArbeid er W = Fs cos α. En kraft vinkelrett på bevegelsen gjør ikke arbeid, mens friksjon gjør negativt arbeid. **Kinetisk energi** er Eₖ = ½mv², og **potensiell energi** i tyngdefeltet er Eₚ = mgh. Mekanisk energi er summen Eₖ + Eₚ og er bevart når bare tyngdekraften gjør arbeid. **Arbeid–energi-setningen** sier at arbeidet fra kraftsummen er lik endringen i kinetisk energi. Friksjon omformer mekanisk energi til indre energi, som varme. Energi kan ikke skapes eller forsvinne, bare omformes, og energikvaliteten kan bli lavere. **Effekt** er energi eller arbeid per tid, P = W/t; ved konstant fart gjelder også P = Fv. **Virkningsgrad** er nyttig energi delt på tilført energi og kan ikke være over 100 %.\n\n## Bevegelsesmengde, impuls og støt\n**Bevegelsesmengde** er p = mv og har samme retning som farten. **Impuls** er I = FΔt = Δp. For samme endring i bevegelsesmengde gir lengre tid mindre kraft, slik kollisjonsputer og kollisjonssoner utnytter. I et isolert system er samlet bevegelsesmengde bevart, noe som følger av Newtons 3. lov. I et **elastisk støt** bevares både bevegelsesmengde og kinetisk energi. I et **uelastisk støt** bevares bevegelsesmengden, men noe kinetisk energi omformes til blant annet varme, lyd og deformasjon. Ved et fullstendig uelastisk støt henger legemene sammen etterpå. Bevaring av bevegelsesmengde forklarer også rekyl.\n\n## Elektrisitet og kretser\nLadning måles i coulomb og er bevart. **Strøm** er ladning per tid, I = Q/t, mens **spenning** er energi per ladning, U = W/Q. Resistans måles i ohm. For en ohmsk leder gjelder **Ohms lov** U = RI. I en seriekobling er strømmen den samme gjennom komponentene og resistansene summeres. I en parallellkobling er spenningen den samme over greinene, og 1/R = 1/R₁ + 1/R₂. Kirchhoffs strømlov uttrykker at strøm inn i et forgreningspunkt er lik strøm ut; spenningsloven sier at spenningsøkninger og spenningsfall balanserer rundt en lukket sløyfe. Elektrisk effekt er P = UI, og energi er E = Pt. Amperemeter kobles i serie, voltmeter i parallell. Sikringer og jordfeilbrytere bidrar til sikkerhet.\n\n## Varme, temperatur og indre energi\nTemperatur måler partiklenes gjennomsnittlige kinetiske energi. Kelvin fås fra celsius ved T = t + 273,15. **Indre energi** er den samlede energien til partiklene, mens **varme** er energi som overføres på grunn av temperaturforskjell. Termodynamikkens første lov er ΔU = Q + W, der W er arbeid gjort på systemet. Oppvarming beregnes med Q = cmΔT. Ved smelting og fordamping går energi med til faseovergangen, og temperaturen holder seg konstant. Varme kan transporteres ved **ledning**, **konveksjon** eller **stråling**. Termodynamikkens andre lov sier at varme av seg selv går fra varmt til kaldt; å flytte varme motsatt vei krever arbeid.\n\n## Stråling, strålingsbalanse og klima\nAlle legemer over det absolutte nullpunktet sender ut elektromagnetisk stråling. **Wiens forskyvningslov**, λ_maksT = 2,90 · 10⁻³ m·K, viser at varmere legemer har kortere bølgelengde ved strålingstoppen. **Stefan–Boltzmanns lov** er I = σT⁴, så dobling av absolutt temperatur gir 16 ganger større utstrålt effekt per areal. Jorda reflekterer en del av sollyset; denne andelen kalles **albedo**. I strålingsbalanse må jorda stråle ut like mye energi som den absorberer. Drivhusgasser slipper det meste av sollyset gjennom, men absorberer infrarød stråling fra bakken og sender noe tilbake. Økt CO₂ forsterker drivhuseffekten, og tilbakekoblinger som smeltende is kan påvirke oppvarmingen. Skill mellom vær på kort sikt og klima, som er gjennomsnitt over minst 30 år.\n\n## Atommodeller, spektre og fusjon\nAtommodeller er blitt endret når nye forsøk har gitt nye resultater. Rutherfords gullfolieforsøk viste at atomet for det meste er tomrom med en liten, tung, positiv kjerne. Bohr beskrev bestemte energinivåer, mens den kvantemekaniske modellen beskriver elektroner som sannsynlighetsskyer. Lys består av **fotoner** med energi E = hf = hc/λ. Når et elektron faller til et lavere energinivå, sendes et foton ut; bestemte overganger gir lyse linjer i et emisjonsspekter. En kald gass kan absorbere de samme bølgelengdene og lage mørke linjer. Spektrallinjer gir grunnstoffenes fingeravtrykk. I sola fusjonerer hydrogen til helium, og massedifferansen blir til energi etter E = mc². Fusjon i stjerner bygger tyngre grunnstoffer opp til jern; tyngre grunnstoffer dannes blant annet i supernovaer og ved kollisjoner mellom nøytronstjerner.\n\n## Sammenhenger i faget\nMålinger og modeller gir grunnlaget for å undersøke bevegelse, krefter, energi og stråling. Newtons lover forklarer hvordan krefter endrer bevegelsen, mens arbeid, energi og bevegelsesmengde gir andre måter å beskrive og løse bevegelsesproblemer på. Numeriske metoder bruker kraftlover stegvis når akselerasjonen ikke er konstant. Elektriske kretser og varmeoverføring handler også om energi og bevaring, mens strålingsbalanse kobler temperatur til energi inn og ut av jorda. Atommodeller, fotoner og spekter viser hvordan fysikk kan forklare både stoff og stråling.\n\n## Huskeliste før prøven\n- Velg positiv retning, og bruk fortegn konsekvent.\n- Tegn kraftdiagram før du bruker ΣF = ma.\n- Sjekk at bevegelseslikningene brukes ved konstant akselerasjon.\n- Skill mellom arbeid, energi, effekt og virkningsgrad.\n- Bruk bevaring av bevegelsesmengde for isolerte systemer.\n- Kjenn forskjellen på serie- og parallellkobling.\n- Skill mellom varmeoverføring og indre energi.\n- Bruk kelvin i strålingslovene.\n- Sjekk enheter, gjeldende siffer og om svaret er rimelig.",
+  "flashcards": [
+    {
+      "term": "Måleusikkerhet",
+      "def": "Hvor nøyaktig en måling er, angitt med ±."
+    },
+    {
+      "term": "Modell",
+      "def": "Forenklet beskrivelse som kan forklare og forutsi."
+    },
+    {
+      "term": "Areal under v-t-graf",
+      "def": "Forflytningen."
+    },
+    {
+      "term": "v = v₀ + at",
+      "def": "Første bevegelseslikning."
+    },
+    {
+      "term": "Newtons 2. lov",
+      "def": "ΣF = m · a"
+    },
+    {
+      "term": "Newtons 3. lov",
+      "def": "Kraft og motkraft er like store, motsatt rettet og virker på hvert sitt legeme."
+    },
+    {
+      "term": "Eulers metode",
+      "def": "Oppdaterer fart og posisjon med v + aΔt og s + vΔt."
+    },
+    {
+      "term": "Terminalfart",
+      "def": "Konstant fart når luftmotstanden er like stor som tyngden."
+    },
+    {
+      "term": "Kinetisk energi",
+      "def": "Eₖ = ½mv²"
+    },
+    {
+      "term": "Bevaring av mekanisk energi",
+      "def": "Gjelder når bare tyngdekraften gjør arbeid."
+    },
+    {
+      "term": "Impulsloven",
+      "def": "Impulsen er lik endringen i bevegelsesmengde."
+    },
+    {
+      "term": "Bevaring av bevegelsesmengde",
+      "def": "Samlet p er lik før og etter i et isolert system."
+    },
+    {
+      "term": "Ohms lov",
+      "def": "U = R · I"
+    },
+    {
+      "term": "Parallellkobling",
+      "def": "Samme spenning; 1/R = 1/R₁ + 1/R₂."
+    },
+    {
+      "term": "Spesifikk varmekapasitet",
+      "def": "Energi for å varme 1 kg med 1 K; Q = cmΔT."
+    },
+    {
+      "term": "Termodynamikkens 2. lov",
+      "def": "Varme går av seg selv bare fra varmt til kaldt."
+    },
+    {
+      "term": "Wiens forskyvningslov",
+      "def": "λ_maks · T = 2,90 · 10⁻³ m·K"
+    },
+    {
+      "term": "Drivhuseffekten",
+      "def": "Drivhusgasser absorberer infrarød stråling og sender noe tilbake mot bakken."
+    },
+    {
+      "term": "Foton",
+      "def": "Energipakke av lys med E = hf."
+    },
+    {
+      "term": "Fusjon",
+      "def": "Lette kjerner smelter sammen til tyngre og frigjør energi."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Du vil undersøke sammenhengen s = ½at². Hva bør du plotte for å få en rett linje?",
+      "options": [
+        "s mot t²",
+        "s mot t",
+        "t mot a",
+        "s mot 1/t"
+      ],
+      "correct": 0,
+      "explain": "Stigningstallet blir a/2."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er arealet under en v-t-graf?",
+      "options": [
+        "Forflytningen",
+        "Akselerasjonen",
+        "Farten",
+        "Massen"
+      ],
+      "correct": 0,
+      "explain": "Fart ganger tid gir strekning."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er farten og akselerasjonen på toppen av et loddrett kast?",
+      "options": [
+        "Begge er null",
+        "Farten er null, akselerasjonen er −g",
+        "Farten er størst, akselerasjonen null",
+        "Begge er størst"
+      ],
+      "correct": 1,
+      "explain": "Tyngdekraften virker hele tiden."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor opphever ikke kraft og motkraft (Newtons 3. lov) hverandre?",
+      "options": [
+        "Fordi de er ulike store",
+        "Fordi de har samme retning",
+        "Fordi de virker på hvert sitt legeme",
+        "Fordi de er fiktive"
+      ],
+      "correct": 2,
+      "explain": "Bare krefter på samme legeme kan summeres."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er terminalfart?",
+      "options": [
+        "Den største akselerasjonen",
+        "Farten i starten",
+        "Konstant fart når luftmotstand og tyngde er like store",
+        "Farten uten luftmotstand"
+      ],
+      "correct": 2,
+      "explain": "Da er ΣF = 0."
+    },
+    {
+      "id": "q06",
+      "text": "Når er den mekaniske energien bevart?",
+      "options": [
+        "Når bare tyngdekraften gjør arbeid",
+        "Alltid",
+        "Når friksjonen er stor",
+        "Når farten er konstant"
+      ],
+      "correct": 0,
+      "explain": "Friksjon omformer mekanisk energi til varme."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor reduserer en kollisjonspute skadene?",
+      "options": [
+        "Den øker tiden for stansen, slik at kraften blir mindre",
+        "Den øker farten",
+        "Den fjerner bevegelsesmengden",
+        "Den øker massen"
+      ],
+      "correct": 0,
+      "explain": "F = Δp / Δt."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor er husene våre koblet i parallell?",
+      "options": [
+        "Slik at hvert apparat får full spenning og kan styres for seg",
+        "For å spare ledninger",
+        "For å øke resistansen",
+        "For å få samme strøm overalt"
+      ],
+      "correct": 0,
+      "explain": "Apparatene er uavhengige av hverandre."
+    },
+    {
+      "id": "q09",
+      "text": "Hva sier termodynamikkens første lov?",
+      "options": [
+        "ΔU = Q + W",
+        "Varme går fra kaldt til varmt",
+        "Q = cmΔT",
+        "Temperaturen er alltid konstant"
+      ],
+      "correct": 0,
+      "explain": "Energiprinsippet brukt på varme."
+    },
+    {
+      "id": "q10",
+      "text": "Hva gjør drivhusgassene?",
+      "options": [
+        "Stopper sollyset",
+        "Reflekterer alt lys",
+        "Absorberer infrarød stråling og sender noe tilbake mot bakken",
+        "Lager ozon"
+      ],
+      "correct": 2,
+      "explain": "De er nesten gjennomsiktige for sollys."
+    },
+    {
+      "id": "q11",
+      "text": "Hvorfor kan smeltende is forsterke oppvarmingen?",
+      "options": [
+        "Is lager CO₂",
+        "Is er varm",
+        "Vann reflekterer mer enn is",
+        "Albedoen synker, så mer sollys absorberes"
+      ],
+      "correct": 3,
+      "explain": "En positiv tilbakekobling."
+    },
+    {
+      "id": "q12",
+      "text": "Hva skjer når et elektron faller til et lavere energinivå?",
+      "options": [
+        "Det absorberer et foton",
+        "Atomet blir alltid ionisert",
+        "Det sendes ut et foton med energi lik forskjellen mellom nivåene",
+        "Kjernen deler seg"
+      ],
+      "correct": 2,
+      "explain": "Slik oppstår emisjonsspekteret."
+    }
+  ],
+  "mindmap": {
+    "label": "Fysikk 1",
+    "children": [
+      {
+        "label": "Forsøk, målinger og modeller i fysikk",
+        "children": [
+          {
+            "label": "Måleusikkerhet",
+            "note": "Hvor nøyaktig en måling er, angitt med ±."
+          },
+          {
+            "label": "Modell",
+            "note": "Forenklet beskrivelse som kan forklare og forutsi."
+          }
+        ]
+      },
+      {
+        "label": "Rettlinjet bevegelse",
+        "children": [
+          {
+            "label": "Areal under v-t-graf",
+            "note": "Forflytningen."
+          },
+          {
+            "label": "v = v₀ + at",
+            "note": "Første bevegelseslikning."
+          }
+        ]
+      },
+      {
+        "label": "Krefter og Newtons lover",
+        "children": [
+          {
+            "label": "Newtons 2. lov",
+            "note": "ΣF = m · a"
+          },
+          {
+            "label": "Newtons 3. lov",
+            "note": "Kraft og motkraft er like store, motsatt rettet og virker på hvert sitt legeme."
+          }
+        ]
+      },
+      {
+        "label": "Numeriske metoder og programmering",
+        "children": [
+          {
+            "label": "Eulers metode",
+            "note": "Oppdaterer fart og posisjon med v + aΔt og s + vΔt."
+          },
+          {
+            "label": "Terminalfart",
+            "note": "Konstant fart når luftmotstanden er like stor som tyngden."
+          }
+        ]
+      },
+      {
+        "label": "Arbeid, energi, effekt og virkningsgrad",
+        "children": [
+          {
+            "label": "Kinetisk energi",
+            "note": "Eₖ = ½mv²"
+          },
+          {
+            "label": "Bevaring av mekanisk energi",
+            "note": "Gjelder når bare tyngdekraften gjør arbeid."
+          }
+        ]
+      },
+      {
+        "label": "Bevegelsesmengde, impuls og støt",
+        "children": [
+          {
+            "label": "Impulsloven",
+            "note": "Impulsen er lik endringen i bevegelsesmengde."
+          },
+          {
+            "label": "Bevaring av bevegelsesmengde",
+            "note": "Samlet p er lik før og etter i et isolert system."
+          }
+        ]
+      },
+      {
+        "label": "Elektrisitet og kretser",
+        "children": [
+          {
+            "label": "Ohms lov",
+            "note": "U = R · I"
+          },
+          {
+            "label": "Parallellkobling",
+            "note": "Samme spenning; 1/R = 1/R₁ + 1/R₂."
+          }
+        ]
+      },
+      {
+        "label": "Varme, temperatur og indre energi",
+        "children": [
+          {
+            "label": "Spesifikk varmekapasitet",
+            "note": "Energi for å varme 1 kg med 1 K; Q = cmΔT."
+          },
+          {
+            "label": "Termodynamikkens 2. lov",
+            "note": "Varme går av seg selv bare fra varmt til kaldt."
+          }
+        ]
+      },
+      {
+        "label": "Stråling, strålingsbalanse og klima",
+        "children": [
+          {
+            "label": "Wiens forskyvningslov",
+            "note": "λ_maks · T = 2,90 · 10⁻³ m·K"
+          },
+          {
+            "label": "Drivhuseffekten",
+            "note": "Drivhusgasser absorberer infrarød stråling og sender noe tilbake mot bakken."
+          }
+        ]
+      },
+      {
+        "label": "Atommodeller, spektre og fusjon",
+        "children": [
+          {
+            "label": "Foton",
+            "note": "Energipakke av lys med E = hf."
+          },
+          {
+            "label": "Fusjon",
+            "note": "Lette kjerner smelter sammen til tyngre og frigjør energi."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Hva bør du gjøre når målingene ikke stemmer med modellen?",
+        "options": [
+          "Slette målingene",
+          "Endre konklusjonen uten å undersøke",
+          "Vurdere om det skyldes målefeil eller om modellen må forbedres",
+          "Ignorere avviket"
+        ],
+        "correct": 2,
+        "explain": "Slik utvikler fysikken seg."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Negativ akselerasjon betyr alltid at legemet bremser.",
+        "correct": false,
+        "explain": "Det avhenger av fartens retning."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "En bil på 1200 kg akselererer med 3,0 m/s². Hva er kraftsummen?",
+        "options": [
+          "400 N",
+          "3600 N",
+          "1203 N",
+          "36 000 N"
+        ],
+        "correct": 1,
+        "explain": "ΣF = 1200 · 3,0."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hva skjer med terminalfarten hvis k blir større, for eksempel når fallskjermen åpnes?",
+        "options": [
+          "Den blir mindre",
+          "Den blir større",
+          "Den er uendret",
+          "Den blir lik g"
+        ],
+        "correct": 0,
+        "explain": "v_t = √(mg/k)."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva skjer med den kinetiske energien hvis farten dobles?",
+        "options": [
+          "Den dobles",
+          "Den halveres",
+          "Den blir fire ganger så stor",
+          "Den er uendret"
+        ],
+        "correct": 2,
+        "explain": "Eₖ er proporsjonal med v²."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvorfor bøyer du knærne når du lander etter et hopp?",
+        "options": [
+          "For å øke tiden stansen tar og redusere kraften",
+          "For å øke farten",
+          "For å øke bevegelsesmengden",
+          "For å hoppe høyere"
+        ],
+        "correct": 0,
+        "explain": "F = Δp / Δt."
+      },
+      {
+        "id": "m07",
+        "type": "sant-usant",
+        "text": "I en seriekobling går samme strøm gjennom alle komponentene.",
+        "correct": true,
+        "explain": "Det finnes bare én vei for strømmen."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "En kald vinter i Norge viser at global oppvarming ikke skjer.",
+        "correct": false,
+        "explain": "Én vinter er vær; klima er gjennomsnitt over lang tid og hele kloden."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En ball beveger seg med konstant fart langs en rett vei. Forklar hva en v-t-graf viser om bevegelsen, og hvordan ballens kinetiske energi endres dersom farten blir dobbelt så stor.",
+        "fasit": "Ved konstant fart er v-t-grafen en vannrett linje, og arealet under grafen gir forflytningen. Kinetisk energi er Eₖ = ½mv², så når farten dobles, blir energien fire ganger så stor.",
+        "kriterier": [
+          "Beskriver v-t-grafen ved konstant fart og/eller arealet som forflytning.",
+          "Knytter kinetisk energi til farten i andre potens og oppgir firedobling."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En person drar en kasse 3,0 m i bevegelsesretningen med en konstant kraft på 20 N. Beregn arbeidet kraften gjør.",
+        "fasit": "Arbeidet er W = Fs cos α. Kraften er parallell med bevegelsen, så α = 0° og W = 20 · 3,0 = 60 J.",
+        "kriterier": [
+          "Bruker W = Fs cos α eller W = Fs når kraften er i bevegelsesretningen.",
+          "Får 60 J."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En bil kolliderer og skal stanse. Forklar hvordan en kollisjonspute reduserer kraften på personen, og knytt forklaringen til impuls og bevegelsesmengde.",
+        "fasit": "Impulsen er lik endringen i bevegelsesmengde, og I = FΔt. Kollisjonsputen forlenger tiden det tar å stanse; for samme endring i bevegelsesmengde blir kraften derfor mindre.",
+        "kriterier": [
+          "Knytter impuls til endring i bevegelsesmengde.",
+          "Forklarer at lengre stanstid gir mindre kraft."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En resistor på 3,0 Ω kobles til en spenningskilde på 6,0 V. Beregn strømmen gjennom resistoren.",
+        "fasit": "Ohms lov er U = RI, så I = U/R = 6,0/3,0 = 2,0 A.",
+        "kriterier": [
+          "Bruker Ohms lov og løser for strømmen.",
+          "Får 2,0 A."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hvorfor drivhusgasser påvirker jordas strålingsbalanse, og hvordan smeltende is kan forsterke oppvarmingen.",
+        "fasit": "Drivhusgasser absorberer infrarød stråling fra bakken og sender noe tilbake mot bakken, slik at drivhuseffekten forsterkes. Når is smelter, synker albedoen, og jorda absorberer mer sollys.",
+        "kriterier": [
+          "Beskriver absorpsjon og tilbakesending av infrarød stråling.",
+          "Knytter mindre is til lavere albedo og større absorpsjon av sollys."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En varm gjenstand sender ut stråling med kortere bølgelengde ved strålingstoppen enn en kaldere gjenstand. Forklar dette med Wiens forskyvningslov, og si hvordan energien per foton påvirkes.",
+        "fasit": "Wiens forskyvningslov sier at λ_maksT er konstant, så høyere temperatur gir kortere bølgelengde ved toppen. Siden fotonenergien er E = hc/λ, har fotoner med kortere bølgelengde større energi.",
+        "kriterier": [
+          "Forklarer sammenhengen mellom høyere temperatur og kortere bølgelengde.",
+          "Bruker E = hc/λ til å forklare at fotonenergien øker."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En fallskjermhopper faller raskt, og luftmotstanden øker med farten. Forklar hvorfor akselerasjonen endrer seg, og hvordan Eulers metode kan beregne bevegelsen.",
+        "fasit": "Når farten øker, øker luftmotstanden og kraftsummen nedover blir mindre, så akselerasjonen avtar. Eulers metode finner kraftsummen og akselerasjonen i hvert tidssteg og oppdaterer deretter fart og posisjon steg for steg.",
+        "kriterier": [
+          "Knytter økende luftmotstand til mindre kraftsum og avtakende akselerasjon.",
+          "Beskriver beregning steg for steg med oppdatering av fart og posisjon."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En stein slippes fra ro fra 5,0 m høyde. Se bort fra luftmotstand. Beregn farten like før steinen treffer bakken ved å bruke bevaring av mekanisk energi.",
+        "fasit": "Når bare tyngdekraften gjør arbeid, er mekanisk energi bevart. Dermed er mgh = ½mv², og v = √(2gh) = √(2 · 9,81 · 5,0) ≈ 9,9 m/s.",
+        "kriterier": [
+          "Setter potensiell energi lik kinetisk energi og bruker bevaring av mekanisk energi.",
+          "Får omtrent 9,9 m/s."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

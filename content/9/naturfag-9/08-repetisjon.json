@@ -1,0 +1,586 @@
+{
+  "id": "repetisjon",
+  "fagId": "naturfag-9",
+  "trinnId": "9",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    16,
+    17
+  ],
+  "sammendrag": "Naturfag handler om å undersøke hvordan naturen og teknologien fungerer, og om å bruke kunnskap til å forstå endringer og ta valg. I faget lærer vi å se sammenhenger, samle inn og vurdere data og forklare fenomener med naturvitenskapelige begreper.\n\n## Evolusjon\n**Evolusjon** er at arter endrer seg gradvis over mange generasjoner. Individer i en art har **variasjon**, og mange egenskaper går i arv gjennom gener i DNA. Tilfeldige **mutasjoner** og blanding av gener ved kjønnet formering gir variasjon. Ved **naturlig utvalg** overlever individer med egenskaper som passer godt til miljøet oftere og får flere avkom. Slik kan egenskapene bli vanligere, og arten blir tilpasset miljøet. Når grupper blir skilt fra hverandre og utvikler seg hver for seg over lang tid, kan det oppstå nye arter. Fossiler, likheter i organers grunnstruktur og DNA gir bevis for evolusjon. Antibiotikaresistente bakterier viser at evolusjon også skjer i dag.\n\n## Biologisk mangfold og naturressurser\n**Biologisk mangfold** omfatter mangfold av arter, genetisk variasjon innen arter og mangfold av økosystemer. Genetisk mangfold gjør det lettere for en art å tilpasse seg endringer. Naturen gir oss **økosystemtjenester**, blant annet mat, rent vann, pollinering og karbonlagring. Viktige trusler er **arealendringer**, overbeskatning, forurensning, klimaendringer og fremmede arter. Arealendringer regnes som den største trusselen mot naturmangfoldet i Norge. Arter som står i fare for å dø ut, føres på Rødlista.\n\nNaturbruk kan innebære dilemmaer der ulike hensyn står mot hverandre. Samisk tradisjonell kunnskap om blant annet vær, snø og beite kan utfylle naturvitenskapelige målinger. Prinsippet om å ikke ta mer enn naturen tåler henger sammen med **bærekraftig forvaltning**: å dekke dagens behov uten å ødelegge mulighetene for framtidige generasjoner. Verneområder, fiskekvoter, restaurering og bygging i allerede utbygde områder er mulige tiltak.\n\n## Energi: former, bevaring og kvalitet\n**Energi** er evnen til å utføre arbeid eller skape endring. Den måles i joule (J), og energi til strømbruk måles ofte i kilowattimer: 1 kWh = 3,6 millioner J. **Effekt** er hvor mye energi som omdannes per sekund, og måles i watt (W). Energiformer omfatter blant annet bevegelsesenergi, stillingsenergi, kjemisk energi, elektrisk energi, varmeenergi og strålingsenergi.\n\nIfølge **loven om energibevaring** kan energi ikke skapes eller forsvinne, bare omdannes. I et vannkraftverk blir vannets stillingsenergi til bevegelsesenergi og deretter elektrisk energi. Energiens kvalitet sier hvor nyttig den er: elektrisk energi har høy kvalitet, mens varme ved lav temperatur har lav kvalitet. Når energi «brukes», omdannes energi med høy kvalitet til energi med lavere kvalitet. **Virkningsgrad = nyttig energi / tilført energi**. Energi kan lagres i vannmagasiner, batterier, drivstoff og varmtvannstanker.\n\n## Energiproduksjon og miljø\n**Ikke-fornybare** energikilder, som kull, olje, naturgass og uran, brukes opp og fornyes ikke i menneskelig tidsperspektiv. Fornybare kilder omfatter blant annet vann, vind, sol og bioenergi. Mesteparten av verdens energi kommer fortsatt fra fossile brensler, mens nesten all strøm i Norge kommer fra vannkraft, supplert av vindkraft.\n\nForbrenning av fossile brensler slipper ut CO₂, som forsterker drivhuseffekten. Forbrenning kan også føre til luftforurensning og sur nedbør. Fornybare energikilder har også miljøkostnader: vannkraft kan endre elver og skade fisk, og vindkraft kan beslaglegge naturområder og forstyrre fugler og reinbeite. Energieffektivisering betyr å få samme nytte med mindre energi, for eksempel ved å isolere hus bedre eller bruke varmepumper. En overgang til fornybar energi må også ta hensyn til naturmangfoldet. Lagring og smartere strømnett blir viktigere når sol- og vindkraft varierer med vær og tid.\n\n## Drivhuseffekten og klimaendringer\n**Vær** beskriver forholdene i atmosfæren på et bestemt sted og tidspunkt, mens **klima** er gjennomsnittsværet over lang tid, vanligvis 30 år. Sollys varmer jordoverflaten, som sender energi ut igjen som varmestråling. Drivhusgasser tar opp noe av strålingen og sender den tilbake mot jorda. Den naturlige drivhuseffekten gjør jorda varm nok for livet slik vi kjenner det.\n\nMenneskeskapte utslipp, særlig fra kull, olje og gass, og avskoging og landbruk, har økt mengden drivhusgasser. Dette forsterker drivhuseffekten og øker jordas gjennomsnittstemperatur. Smeltende is gir en **tilbakekobling**: mørkere hav og land reflekterer mindre sollys enn is og tar opp mer varme. Følger av klimaendringer omfatter høyere havnivå, mer ekstremvær, havforsuring og endrede levevilkår for arter. Havnivået stiger både fordi isbreer smelter og fordi varmere havvann utvider seg. Utslippskutt, fornybar energi, energieffektivisering og vern av skog og myr er tiltak for å begrense oppvarmingen.\n\n## Teknologi: sender og mottaker\nTeknologiske systemer overfører informasjon ved hjelp av et **signal** fra en sender til en mottaker gjennom en kanal. Signaler kan være lyd, lys, infrarødt lys eller radiobølger. Analoge signaler varierer jevnt; digitale signaler uttrykker informasjon med ett-tall og null-tall og er mindre utsatt for støy. En sensor måler noe i omgivelsene, og en mikrokontroller kan behandle målingene og bestemme hva som skal skje. Når et teknologisk produkt utvikles, går man fra behov og plan til prototype, testing og forbedring.\n\n## Programmering i naturfag\nProgrammering brukes til å samle inn data, regne ut sammenhenger og simulere prosesser. Sensorer kan gjøre automatiske målinger som lagres i lister og vises i grafer. Sensoren må kontrolleres ved å sammenligne verdiene med et kjent måleinstrument. I programmer brukes **variabler** til å lagre størrelser, løkker til å gjenta beregninger for hvert tidssteg og betingelser til å utløse handlinger.\n\nEn **simulering** etterligner en prosess etter bestemte regler og bygger på en forenklet modell. Den kan brukes til å undersøke for eksempel populasjonsvekst eller smittespredning. Modellen har styrker og begrensninger, så resultatene bør sammenlignes med virkelige data. Ved å endre én variabel om gangen kan vi stille hva-om-spørsmål og undersøke hvordan systemet reagerer.\n\n## Sammenhenger i faget\nArv og variasjon gir grunnlag for evolusjon, som over tid former biologisk mangfold. Naturmangfoldet gir mennesker viktige økosystemtjenester, men naturbruk og energiproduksjon kan true det. Forbrenning av fossile brensler gir klimagassutslipp, mens klimaendringer påvirker levevilkårene for arter. Derfor henger energivalg, utslippskutt og bærekraftig forvaltning sammen. Teknologi, sensorer og programmering hjelper oss med å samle inn data og undersøke naturfenomener, men målinger og modeller må vurderes kritisk.\n\n## Huskeliste før prøven\n- Forklar hvordan variasjon, arv og naturlig utvalg henger sammen.\n- Kunne de tre nivåene av biologisk mangfold og viktige trusler mot naturen.\n- Skille mellom energiformer, effekt og energimengde.\n- Bruke formelen virkningsgrad = nyttig energi / tilført energi.\n- Forklare forskjellen på fornybare og ikke-fornybare energikilder.\n- Beskrive hvordan drivhuseffekten virker, og skille vær fra klima.\n- Forklare sender, kanal, signal og mottaker i et teknologisk system.\n- Vurdere hvordan sensorer, modeller og simuleringer brukes, og hvilke begrensninger de har.",
+  "flashcards": [
+    {
+      "term": "Evolusjon",
+      "def": "At arter endrer seg gradvis over mange generasjoner."
+    },
+    {
+      "term": "Naturlig utvalg",
+      "def": "Individer med gunstige egenskaper overlever og får flere avkom."
+    },
+    {
+      "term": "Mutasjon",
+      "def": "En tilfeldig endring i DNA-et."
+    },
+    {
+      "term": "Biologisk mangfold",
+      "def": "Variasjonen av liv: arter, genetisk variasjon og økosystemer."
+    },
+    {
+      "term": "Økosystemtjenester",
+      "def": "Goder naturen gir oss, som mat, rent vann, pollinering og karbonlagring."
+    },
+    {
+      "term": "Arealendringer",
+      "def": "At natur bygges ned eller endres. Den største trusselen mot naturmangfoldet i Norge."
+    },
+    {
+      "term": "Bærekraftig forvaltning",
+      "def": "Å bruke naturen slik at også framtidige generasjoner kan dekke sine behov."
+    },
+    {
+      "term": "Stillingsenergi",
+      "def": "Potensiell energi – energi lagret fordi noe er høyt oppe."
+    },
+    {
+      "term": "Loven om energibevaring",
+      "def": "Energi kan ikke skapes eller forsvinne, bare omdannes."
+    },
+    {
+      "term": "Virkningsgrad",
+      "def": "Nyttig energi delt på tilført energi."
+    },
+    {
+      "term": "Fornybar energikilde",
+      "def": "Fornyes hele tiden: vann, vind, sol, bioenergi, bølger og jordvarme."
+    },
+    {
+      "term": "Fossile brensler",
+      "def": "Kull, olje og gass. Gir CO₂-utslipp når de brennes."
+    },
+    {
+      "term": "Energieffektivisering",
+      "def": "Å få samme nytte med mindre energi."
+    },
+    {
+      "term": "Klima",
+      "def": "Gjennomsnittsværet over lang tid, vanligvis 30 år."
+    },
+    {
+      "term": "Forsterket drivhuseffekt",
+      "def": "Økt drivhuseffekt på grunn av menneskeskapte utslipp."
+    },
+    {
+      "term": "Albedo",
+      "def": "Hvor mye sollys en flate reflekterer. Snø og is har høy albedo.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Signal",
+      "def": "Noe som bærer informasjon fra en sender til en mottaker, som lys, lyd eller radiobølger."
+    },
+    {
+      "term": "Sensor",
+      "def": "En komponent som måler noe i omgivelsene, som lys eller temperatur."
+    },
+    {
+      "term": "Utviklingsprosess",
+      "def": "Behov → plan → prototype → test → forbedring."
+    },
+    {
+      "term": "Simulering",
+      "def": "Et program som etterligner en naturfaglig prosess etter bestemte regler."
+    },
+    {
+      "term": "Modell",
+      "def": "En forenklet beskrivelse av virkeligheten som simuleringer bygger på."
+    },
+    {
+      "term": "Kontrollere sensoren",
+      "def": "Sammenligne sensorens verdier med et kjent måleinstrument.",
+      "niva": "over-niva"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er naturlig utvalg?",
+      "options": [
+        "At mennesker velger ut dyr",
+        "At alle individer overlever",
+        "At de sterkeste alltid vinner slåsskamper",
+        "At individer med gunstige egenskaper overlever og får flere avkom"
+      ],
+      "correct": 3,
+      "explain": "Egenskapene som gir flest levedyktige avkom, blir vanligere over tid."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan kan en ny art oppstå?",
+      "options": [
+        "Ved at et individ bestemmer seg",
+        "Over én natt",
+        "Ved at dyr lærer nye triks",
+        "Ved at grupper blir skilt og utvikler seg hver for seg over lang tid"
+      ],
+      "correct": 3,
+      "explain": "Isolasjon gjør at gruppene utvikler seg ulikt til de ikke lenger kan få felles avkom."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilke tre nivåer omfatter biologisk mangfold?",
+      "options": [
+        "Planter, dyr og sopp",
+        "Arter, genetisk variasjon og økosystemer",
+        "Land, luft og vann",
+        "Fjell, skog og hav"
+      ],
+      "correct": 1,
+      "explain": "Biologisk mangfold handler om artsmangfold, genetisk mangfold og mangfold av økosystemer."
+    },
+    {
+      "id": "q04",
+      "text": "Hva regnes som den største trusselen mot naturmangfoldet i Norge?",
+      "options": [
+        "Vulkanutbrudd",
+        "Meteorer",
+        "Arealendringer",
+        "For mye regn"
+      ],
+      "correct": 2,
+      "explain": "Nedbygging av natur til veier, hytter og industri fjerner leveområder for mange arter."
+    },
+    {
+      "id": "q05",
+      "text": "Hva sier loven om energibevaring?",
+      "options": [
+        "Energi kan skapes av ingenting",
+        "Energi kan ikke skapes eller forsvinne, bare omdannes",
+        "Energi forsvinner når vi bruker den",
+        "Energi finnes bare i strøm"
+      ],
+      "correct": 1,
+      "explain": "Den totale mengden energi er konstant. Den bare skifter form."
+    },
+    {
+      "id": "q06",
+      "text": "En lyspære får 100 J og gir 20 J lys. Hva er virkningsgraden?",
+      "options": [
+        "80 %",
+        "5 %",
+        "100 %",
+        "20 %"
+      ],
+      "correct": 3,
+      "explain": "Virkningsgrad = nyttig / tilført = 20 / 100 = 0,20 = 20 %."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken gass slippes ut når fossile brensler brennes, og forsterker drivhuseffekten?",
+      "options": [
+        "Oksygen",
+        "Nitrogen",
+        "Helium",
+        "Karbondioksid"
+      ],
+      "correct": 3,
+      "explain": "CO₂ er den viktigste klimagassen fra menneskelig aktivitet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva betyr energieffektivisering?",
+      "options": [
+        "Å få samme nytte med mindre energi",
+        "Å bruke mer energi",
+        "Å bygge flere kraftverk",
+        "Å skru av alt strøm"
+      ],
+      "correct": 0,
+      "explain": "Eksempler er etterisolering, LED-lys og varmepumper."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er forskjellen på vær og klima?",
+      "options": [
+        "Det er det samme",
+        "Vær er hvordan det er nå, klima er gjennomsnittet over lang tid",
+        "Klima er været i morgen",
+        "Vær gjelder hele jorda, klima ett sted"
+      ],
+      "correct": 1,
+      "explain": "Klima er gjennomsnittsværet over rundt 30 år."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er hovedårsaken til den forsterkede drivhuseffekten?",
+      "options": [
+        "Flere vulkanutbrudd",
+        "At sola har blitt mye sterkere",
+        "Endringer i jordbanen",
+        "Menneskeskapte utslipp av drivhusgasser"
+      ],
+      "correct": 3,
+      "explain": "Forbrenning av fossile brensler og avskoging har økt mengden drivhusgasser."
+    },
+    {
+      "id": "q11",
+      "text": "Hva gjør senderen i et teknologisk system?",
+      "options": [
+        "Fanger opp signalet",
+        "Gjør informasjon om til et signal",
+        "Lagrer strøm",
+        "Måler temperatur"
+      ],
+      "correct": 1,
+      "explain": "Senderen omformer informasjon til et signal som kan overføres."
+    },
+    {
+      "id": "q12",
+      "text": "Hva er et digitalt signal?",
+      "options": [
+        "Et signal som varierer jevnt",
+        "Et lydsignal",
+        "Et signal i en fiber",
+        "Informasjon gjort om til ett-tall og null-tall"
+      ],
+      "correct": 3,
+      "explain": "Digitale signaler består av binære verdier og er mindre utsatt for støy.",
+      "niva": "over-niva"
+    },
+    {
+      "id": "q13",
+      "text": "Hva er en simulering?",
+      "options": [
+        "Et program som etterligner en prosess etter bestemte regler",
+        "Et vanlig forsøk på lab",
+        "En type sensor",
+        "Et regneark uten data"
+      ],
+      "correct": 0,
+      "explain": "Simuleringer lar oss utforske prosesser som er vanskelige å undersøke direkte."
+    },
+    {
+      "id": "q14",
+      "text": "Hvorfor må vi sammenligne en simulering med virkelige data?",
+      "options": [
+        "Fordi datamaskiner alltid regner feil",
+        "Fordi det er gøy",
+        "For å gjøre programmet raskere",
+        "Fordi simuleringen bygger på forenklinger som kan være feil"
+      ],
+      "correct": 3,
+      "explain": "En modell er bare så god som reglene og tallene den bygger på."
+    }
+  ],
+  "mindmap": {
+    "label": "Naturfag",
+    "children": [
+      {
+        "label": "Evolusjon",
+        "children": [
+          {
+            "label": "Evolusjon",
+            "note": "At arter endrer seg gradvis over mange generasjoner."
+          },
+          {
+            "label": "Naturlig utvalg",
+            "note": "Individer med gunstige egenskaper overlever og får flere avkom."
+          },
+          {
+            "label": "Mutasjon",
+            "note": "En tilfeldig endring i DNA-et."
+          }
+        ]
+      },
+      {
+        "label": "Biologisk mangfold og naturressurser",
+        "children": [
+          {
+            "label": "Biologisk mangfold",
+            "note": "Variasjonen av liv: arter, genetisk variasjon og økosystemer."
+          },
+          {
+            "label": "Økosystemtjenester",
+            "note": "Goder naturen gir oss, som mat, rent vann, pollinering og karbonlagring."
+          },
+          {
+            "label": "Arealendringer",
+            "note": "At natur bygges ned eller endres. Den største trusselen mot naturmangfoldet i Norge."
+          },
+          {
+            "label": "Bærekraftig forvaltning",
+            "note": "Å bruke naturen slik at også framtidige generasjoner kan dekke sine behov."
+          }
+        ]
+      },
+      {
+        "label": "Energi: former, bevaring og kvalitet",
+        "children": [
+          {
+            "label": "Stillingsenergi",
+            "note": "Potensiell energi – energi lagret fordi noe er høyt oppe."
+          },
+          {
+            "label": "Loven om energibevaring",
+            "note": "Energi kan ikke skapes eller forsvinne, bare omdannes."
+          },
+          {
+            "label": "Virkningsgrad",
+            "note": "Nyttig energi delt på tilført energi."
+          }
+        ]
+      },
+      {
+        "label": "Energiproduksjon og miljø",
+        "children": [
+          {
+            "label": "Fornybar energikilde",
+            "note": "Fornyes hele tiden: vann, vind, sol, bioenergi, bølger og jordvarme."
+          },
+          {
+            "label": "Fossile brensler",
+            "note": "Kull, olje og gass. Gir CO₂-utslipp når de brennes."
+          },
+          {
+            "label": "Energieffektivisering",
+            "note": "Å få samme nytte med mindre energi."
+          }
+        ]
+      },
+      {
+        "label": "Drivhuseffekten og klimaendringer",
+        "children": [
+          {
+            "label": "Klima",
+            "note": "Gjennomsnittsværet over lang tid, vanligvis 30 år."
+          },
+          {
+            "label": "Forsterket drivhuseffekt",
+            "note": "Økt drivhuseffekt på grunn av menneskeskapte utslipp."
+          },
+          {
+            "label": "Albedo",
+            "note": "Hvor mye sollys en flate reflekterer. Snø og is har høy albedo."
+          }
+        ]
+      },
+      {
+        "label": "Teknologi: sender og mottaker",
+        "children": [
+          {
+            "label": "Signal",
+            "note": "Noe som bærer informasjon fra en sender til en mottaker, som lys, lyd eller radiobølger."
+          },
+          {
+            "label": "Sensor",
+            "note": "En komponent som måler noe i omgivelsene, som lys eller temperatur."
+          },
+          {
+            "label": "Utviklingsprosess",
+            "note": "Behov → plan → prototype → test → forbedring."
+          }
+        ]
+      },
+      {
+        "label": "Programmering i naturfag",
+        "children": [
+          {
+            "label": "Simulering",
+            "note": "Et program som etterligner en naturfaglig prosess etter bestemte regler."
+          },
+          {
+            "label": "Modell",
+            "note": "En forenklet beskrivelse av virkeligheten som simuleringer bygger på."
+          },
+          {
+            "label": "Kontrollere sensoren",
+            "note": "Sammenligne sensorens verdier med et kjent måleinstrument."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Hva gir variasjonen som naturlig utvalg virker på?",
+        "options": [
+          "Mutasjoner og blanding av gener ved kjønnet formering",
+          "At dyr trener",
+          "Klimaet alene",
+          "Mat"
+        ],
+        "correct": 0,
+        "explain": "Nye genvarianter og nye kombinasjoner gir forskjeller mellom individer."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hva betyr bærekraftig bruk av naturen?",
+        "options": [
+          "Å bruke opp ressursene raskt",
+          "Å aldri bruke naturen",
+          "Å dekke dagens behov uten å ødelegge for framtidige generasjoner",
+          "Å bare bygge i naturen"
+        ],
+        "correct": 2,
+        "explain": "Bærekraft handler om å tenke langsiktig."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hva er virkningsgraden hvis 900 J av 1000 J blir nyttig energi?",
+        "options": [
+          "10 %",
+          "90 %",
+          "9 %",
+          "100 %"
+        ],
+        "correct": 1,
+        "explain": "900 / 1000 = 0,90 = 90 %."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hvilket tiltak er energieffektivisering?",
+        "options": [
+          "Å bygge et nytt kullkraftverk",
+          "Å etterisolere et hus",
+          "Å kjøre mer bil",
+          "Å bruke glødepærer"
+        ],
+        "correct": 1,
+        "explain": "Bedre isolasjon gir samme varme med mindre energi."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva slags stråling holder drivhusgassene igjen?",
+        "options": [
+          "Radiobølger",
+          "Varmestråling (infrarød)",
+          "Røntgenstråling",
+          "Lydbølger"
+        ],
+        "correct": 1,
+        "explain": "Jorda sender ut infrarød varmestråling, som drivhusgassene tar opp."
+      },
+      {
+        "id": "m06",
+        "type": "sant-usant",
+        "text": "Å teste og forbedre er en viktig del av å lage et teknologisk system.",
+        "correct": true,
+        "explain": "Testing avslører svakheter som kan rettes i neste versjon."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan variasjon og arv kan føre til at en art blir tilpasset miljøet gjennom naturlig utvalg.",
+        "fasit": "Individer i en art har ulike egenskaper, og mange av egenskapene arves. Individer med egenskaper som passer godt til miljøet, overlever og får flere avkom. Over mange generasjoner blir disse egenskapene vanligere.",
+        "kriterier": [
+          "Nevner variasjon mellom individer og at egenskaper kan arves.",
+          "Forklarer at gunstige egenskaper gir flere avkom og blir vanligere over generasjoner."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar hvordan arealendringer kan true biologisk mangfold, og hvorfor genetisk mangfold er viktig for arter.",
+        "fasit": "Arealendringer kan ødelegge eller endre leveområder og er den største trusselen mot naturmangfoldet i Norge. Genetisk mangfold gjør at en art har variasjon som kan hjelpe den med å tilpasse seg endringer.",
+        "kriterier": [
+          "Knytter arealendringer til tap eller endring av natur.",
+          "Forklarer at genetisk variasjon bidrar til tilpasning."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En ovn med effekt på 1000 W står på i 2 timer. Hvor mange kilowattimer energi bruker den? Vis kort hvordan du finner svaret.",
+        "fasit": "Ovnen bruker 2 kWh. En ovn på 1000 W bruker 1 kWh på én time, så på to timer bruker den 2 kWh.",
+        "kriterier": [
+          "Svar 2 kWh.",
+          "Viser eller forklarer at 1000 W i én time tilsvarer 1 kWh."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign en miljøvirkning fra fossile brensler med en mulig lokal miljøvirkning fra en fornybar energikilde.",
+        "fasit": "Når fossile brensler brennes, slippes CO₂ ut, og det forsterker drivhuseffekten. Vannkraft er fornybar, men dammer og regulerte elver kan endre landskapet og skade fisk.",
+        "kriterier": [
+          "Nevner CO₂-utslipp fra fossile brensler og kobler dem til drivhuseffekten.",
+          "Nevner en lokal miljøvirkning fra en fornybar energikilde."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hvorfor smelting av is kan forsterke oppvarmingen, og nevn én annen følge av klimaendringer.",
+        "fasit": "Når is smelter, blir mørkere hav og land synlig og tar opp mer sollys enn den hvite isen. Det forsterker oppvarmingen. En annen følge er for eksempel høyere havnivå, mer ekstremvær eller havforsuring.",
+        "kriterier": [
+          "Forklarer sammenhengen mellom mindre is, lavere refleksjon og mer varmeopptak.",
+          "Nevner én følge av klimaendringer."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Bakterier dobles i antall hvert 20. minutt. Hvor mange bakterier blir det etter én time hvis du starter med én? Vis kort hvordan du regner.",
+        "fasit": "Det blir 8 bakterier. På én time er det tre perioder på 20 minutter, så antallet dobles tre ganger: 1, 2, 4, 8.",
+        "kriterier": [
+          "Svar 8 bakterier.",
+          "Viser at det skjer tre doblinger på én time."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Beskriv hvordan en sensor og en mikrokontroller kan brukes til å måle temperaturen og styre en vifte når det blir for varmt.",
+        "fasit": "Sensoren måler temperaturen, og mikrokontrolleren leser målingen. En betingelse i programmet kan skru på vifta når temperaturen er over en valgt grense. Sensoren kan kontrolleres ved å sammenligne den med et vanlig termometer.",
+        "kriterier": [
+          "Forklarer at sensoren måler, og at mikrokontrolleren leser eller behandler verdien.",
+          "Nevner en betingelse som styrer vifta.",
+          "Nevner at sensoren kan kontrolleres mot et kjent måleinstrument."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvordan en modell og virkelige målinger kan brukes sammen når forskere undersøker en naturfaglig prosess.",
+        "fasit": "En modell er en forenklet beskrivelse av virkeligheten som kan brukes i en simulering. Resultatene bør sammenlignes med virkelige data fordi modellens regler og forenklinger kan være unøyaktige. Målinger kan også samles inn automatisk med sensorer.",
+        "kriterier": [
+          "Forklarer at en modell er en forenkling og brukes i simulering.",
+          "Forklarer hvorfor resultater bør vurderes mot virkelige data."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

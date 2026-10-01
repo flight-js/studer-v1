@@ -1,0 +1,620 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-1t",
+  "trinnId": "vg1",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "sammendrag": "Matematikk 1T handler om å beskrive sammenhenger med algebra, likninger, funksjoner og modeller. Du lærer både å regne, tolke grafer og resultater, og begrunne hvorfor metoder og påstander stemmer.\n\n## Algebra, likninger og ulikheter\nEt **algebraisk uttrykk** inneholder tall og variabler uten likhetstegn. En **likning** gjelder for bestemte verdier, mens en **identitet** gjelder for alle verdier. Når du løser likninger, gjør du det samme på begge sider og setter gjerne prøve ved å sette svaret inn i den opprinnelige likningen. I **brøklikninger** ganger du alle ledd med fellesnevneren. Et **likningssett** skal være oppfylt samtidig; løs det med addisjonsmetoden, innsettingsmetoden eller grafisk, der løsningen er linjenes skjæringspunkt. Linjene kan gi én, ingen eller uendelig mange løsninger. Ved løsning av **ulikheter** snur du tegnet når du ganger eller deler med et negativt tall.\n\n## Andregradslikninger og -ulikheter\nKvadratsetningene brukes til å utvide og faktorisere uttrykk, blant annet konjugatsetningen (a + b)(a − b) = a² − b². En andregradslikning har formen ax² + bx + c = 0, med a ≠ 0. Du kan løse den ved faktorisering, produktregelen for null eller **abc-formelen**: x = (−b ± √(b² − 4ac))/(2a). **Diskriminanten** D = b² − 4ac viser om det finnes to reelle løsninger (D > 0), én (D = 0) eller ingen (D < 0). Andregradsfunksjonens graf er en parabel. Den har bunnpunkt når a > 0 og toppunkt når a < 0, og symmetrilinjen er x = −b/(2a). Ved andregradsulikheter kan du faktorisere og bruke **fortegnsskjema** for å finne hvor uttrykket er positivt eller negativt.\n\n## Polynomdivisjon\nEt **polynom** har ledd der eksponenten til x er et ikke-negativt heltall. Den høyeste eksponenten er graden, og et polynom av grad n har høyst n nullpunkter. I polynomdivisjon deler du, ganger tilbake og trekker fra; divisjonen kan gi en rest. **Faktorsetningen** sier at P(a) = 0 hvis og bare hvis (x − a) er en faktor i P(x). Derfor kan du prøve mulige heltallige nullpunkter blant divisorene i konstantleddet, dele polynomet på faktoren og løse polynomet som står igjen. Når du forkorter et rasjonalt uttrykk, faktoriserer du først og stryker felles faktorer. Husk at uttrykket fortsatt ikke er definert der den opprinnelige nevneren er null.\n\n## Funksjonstyper og egenskaper\nNår du drøfter en funksjon, undersøker du **definisjonsmengde**, **verdimengde**, nullpunkter, ekstremalpunkter, intervaller der funksjonen vokser eller avtar, og eventuelle asymptoter. Polynomfunksjoner av grad 1, 2 og 3 har henholdsvis rett linje, parabel og en mulig tredjegradsgraf; en funksjon av grad n har høyst n nullpunkter og n − 1 ekstremalpunkter. En **rasjonal funksjon** er en brøk med polynomer, og den er ikke definert der nevneren er null. Der kan det være en vertikal asymptote dersom telleren ikke er null. Når teller og nevner har samme grad, er den horisontale asymptoten forholdet mellom koeffisientene til de høyeste potensene. I en **eksponentialfunksjon** f(x) = b · aˣ står x i eksponenten: for a > 1 er funksjonen voksende, og for 0 < a < 1 er den avtagende. I en **potensfunksjon** f(x) = a · xᵇ står x i grunntallet; for eksempel er √x = x^(1/2) og 1/x = x⁻¹.\n\n## Vekstfart og den deriverte\nGjennomsnittlig vekstfart fra a til b er (f(b) − f(a))/(b − a), altså stigningstallet til **sekanten** mellom punktene. **Momentan vekstfart** i et punkt er tangentens stigningstall og kalles den deriverte, f′(x). Du bruker blant annet reglene (xⁿ)′ = n · xⁿ⁻¹, (k)′ = 0, (k · f)′ = k · f′ og (f + g)′ = f′ + g′. Tangenten i (a, f(a)) har likningen y − f(a) = f′(a)(x − a). Når f′(x) > 0, vokser funksjonen; når f′(x) < 0, avtar den. Når f′(x) = 0, er tangenten vannrett, og punktet kan være et topp- eller bunnpunkt. En fortegnslinje for f′ viser endringene. Hvis s(t) er strekning, er s′(t) fart.\n\n## Sinus, cosinus og tangens\nI en rettvinklet trekant er hypotenusen motstående den rette vinkelen. For en spiss vinkel v er sin v = motstående katet/hypotenus, cos v = hosliggende katet/hypotenus og tan v = motstående katet/hosliggende katet. Bruk de omvendte funksjonene på kalkulatoren for å finne en vinkel fra sider. På **enhetssirkelen** har punktet for vinkelen koordinatene (cos v, sin v), og tan v = sin v/cos v når cos v ≠ 0. For vinkler mellom 90° og 180° er sinus positiv og cosinus negativ. Identiteten sin²v + cos²v = 1 gjelder for alle vinkler. Husk at samme sinusverdi kan passe til to vinkler mellom 0° og 180°.\n\n## Arealsetningen, sinussetningen og cosinussetningen\nI trekant ABC ligger side a overfor vinkel A, og tilsvarende for b og B, c og C. Vinkelsummen er 180°. Arealsetningen er T = ½ · a · b · sin C, der C er vinkelen mellom sidene. **Sinussetningen** sin A/a = sin B/b = sin C/c passer blant annet når du kjenner to vinkler og én side. Når du finner en vinkel med den, kan det finnes to muligheter; kontroller vinkelsummen. **Cosinussetningen** a² = b² + c² − 2bc · cos A brukes med to sider og vinkelen mellom dem, eller med tre sider for å finne en vinkel. Når A = 90°, blir den Pytagoras’ setning. Lag en skisse i sammensatte oppgaver, og velg setning ut fra hvilke mål du kjenner.\n\n## Bevis, algoritmisk tenkning og programmering\nEt **bevis** er en logisk argumentasjon som viser at en påstand gjelder i alle tilfeller. Eksempler alene beviser ikke en påstand, men ett **moteksempel** kan vise at den er usann. I et direkte bevis går du fra kjente fakta til påstanden. En implikasjon A ⇒ B betyr «hvis A, så B», mens en ekvivalens A ⇔ B betyr at de følger av hverandre. Ved likningsløsing er det viktig at stegene ikke gir eller fjerner løsninger. **Algoritmisk tenkning** omfatter dekomponering, mønstergjenkjenning og abstraksjon. En algoritme er en trinnvis oppskrift. I Python kan variabler lagre verdier, if velge handling, for gjenta et bestemt antall ganger, while gjenta så lenge en betingelse er sann, og def lage en funksjon. Halveringsmetoden finner et nullpunkt ved gjentatte ganger å halvere et intervall der funksjonsverdiene i endepunktene har ulike fortegn.\n\n## Modellering og matematikk i tekster\nEn **matematisk modell** beskriver en situasjon med en funksjon. Den deriverte kan for eksempel beskrive fart eller brukes til å finne et maksimum ved å løse f′(x) = 0 og undersøke punktet. Velg regresjonstype ut fra dataenes form og kunnskap om situasjonen: lineær, andregrads-, eksponentiell eller potensregresjon kan passe i ulike tilfeller. Oppgi premisser, framgangsmåte, resultater med enheter og **gyldighetsområde**, og vurder styrker og svakheter. En modell som passer data, kan likevel gi urimelige prognoser utenfor området. Når du leser matematikk i tekster, undersøk blant annet om y-aksen starter på null, om det skilles mellom prosent og prosentpoeng, hva gjennomsnitt eller median viser, om utvalget er representativt, og om en sammenheng feilaktig framstilles som årsak.\n\n## Sammenhenger i faget\nAlgebra gir metodene for å løse likninger og faktorisere uttrykk. Faktorisering kobler andregradslikninger og polynomdivisjon til nullpunkter og fortegn. Funksjonsgrafer viser de samme egenskapene som algebraiske beregninger, mens den deriverte beskriver vekst og finner mulige ekstremalpunkter. Trigonometri gir metoder for å regne på trekanter, og bevis forklarer hvorfor reglene virker. I modellering brukes funksjoner, likninger, derivasjon og digitale verktøy til å beskrive situasjoner; resultatene må tolkes innenfor modellens gyldighetsområde.\n\n## Huskeliste før prøven\n- Vis regnesteg, og gjør samme operasjon på begge sider av en likning.\n- Snu ulikhetstegnet når du ganger eller deler med et negativt tall.\n- Kontroller likningsløsninger ved å sette dem inn.\n- Bruk diskriminanten til å finne antall reelle løsninger.\n- Husk at en brøk ikke er definert når nevneren er null.\n- Skill mellom gjennomsnittlig og momentan vekstfart.\n- Velg trigonometrisk setning ut fra hva du kjenner.\n- Oppgi enheter og vurder om en modell gir mening i situasjonen.",
+  "flashcards": [
+    {
+      "term": "Likningssett",
+      "def": "To eller flere likninger som skal være oppfylt samtidig."
+    },
+    {
+      "term": "Snu ulikhetstegnet",
+      "def": "Når man ganger eller deler med et negativt tall."
+    },
+    {
+      "term": "abc-formelen",
+      "def": "x = (−b ± √(b² − 4ac)) / (2a)"
+    },
+    {
+      "term": "Diskriminant",
+      "def": "D = b² − 4ac"
+    },
+    {
+      "term": "Fortegnsskjema",
+      "def": "Oversikt over hvor faktorer og produkt er positive og negative."
+    },
+    {
+      "term": "Polynomdivisjon",
+      "def": "Oppstilt divisjon av polynomer: del, gang tilbake, trekk fra."
+    },
+    {
+      "term": "Faktorsetningen",
+      "def": "P(a) = 0 ⇔ (x − a) er en faktor i P(x)."
+    },
+    {
+      "term": "Definisjonsmengde for brøk",
+      "def": "Nevneren kan ikke være null."
+    },
+    {
+      "term": "Definisjonsmengde",
+      "def": "x-verdiene funksjonen er definert for."
+    },
+    {
+      "term": "Vertikal asymptote",
+      "def": "Der nevneren er null og telleren ikke er null."
+    },
+    {
+      "term": "Eksponentialfunksjon",
+      "def": "f(x) = b · aˣ med x i eksponenten."
+    },
+    {
+      "term": "Gjennomsnittlig vekstfart",
+      "def": "(f(b) − f(a))/(b − a), stigningstallet til sekanten."
+    },
+    {
+      "term": "Den deriverte",
+      "def": "f′(x), den momentane vekstfarten."
+    },
+    {
+      "term": "Tangentlikning",
+      "def": "y − f(a) = f′(a)(x − a)"
+    },
+    {
+      "term": "sin v",
+      "def": "Motstående katet / hypotenus."
+    },
+    {
+      "term": "Enhetssirkelen",
+      "def": "Sirkel med radius 1 og sentrum i origo.",
+      "niva": "over-niva"
+    },
+    {
+      "term": "Arealsetningen",
+      "def": "T = ½ · a · b · sin C"
+    },
+    {
+      "term": "Sinussetningen",
+      "def": "sin A / a = sin B / b = sin C / c"
+    },
+    {
+      "term": "Cosinussetningen",
+      "def": "a² = b² + c² − 2bc · cos A"
+    },
+    {
+      "term": "Matematisk bevis",
+      "def": "Logisk argumentasjon som viser at en påstand gjelder i alle tilfeller."
+    },
+    {
+      "term": "Moteksempel",
+      "def": "Ett eksempel som viser at en påstand er usann."
+    },
+    {
+      "term": "Algoritme",
+      "def": "Trinnvis oppskrift som løser et problem."
+    },
+    {
+      "term": "Gyldighetsområde",
+      "def": "Verdiene der modellen gir mening."
+    },
+    {
+      "term": "Drøfte en modell",
+      "def": "Vurdere premisser, gyldighet, styrker og svakheter."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Løs ulikheten −3x < 12.",
+      "options": [
+        "x < −4",
+        "x > 4",
+        "x < 4",
+        "x > −4"
+      ],
+      "correct": 3,
+      "explain": "Vi deler på −3 og må snu ulikhetstegnet."
+    },
+    {
+      "id": "q02",
+      "text": "Løs likningssettet x + y = 10 og 2x − y = 5.",
+      "options": [
+        "x = 5, y = 5",
+        "x = 3, y = 7",
+        "x = 4, y = 6",
+        "x = 10, y = 0"
+      ],
+      "correct": 0,
+      "explain": "Addisjon gir 3x = 15, så x = 5 og y = 5."
+    },
+    {
+      "id": "q03",
+      "text": "Løs x² − 5x + 6 = 0.",
+      "options": [
+        "x = 2 eller x = 3",
+        "x = −2 eller x = −3",
+        "x = 1 eller x = 6",
+        "x = 5 eller x = 6"
+      ],
+      "correct": 0,
+      "explain": "abc-formelen gir (5 ± 1)/2."
+    },
+    {
+      "id": "q04",
+      "text": "Når går polynomdivisjonen P(x) : (x − a) opp?",
+      "options": [
+        "Når P(0) = a",
+        "Når a = 0",
+        "Alltid",
+        "Når P(a) = 0"
+      ],
+      "correct": 3,
+      "explain": "Da er (x − a) en faktor."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er den vertikale asymptoten til f(x) = (2x + 1)/(x − 3)?",
+      "options": [
+        "x = 3",
+        "x = −3",
+        "y = 2",
+        "x = −1/2"
+      ],
+      "correct": 0,
+      "explain": "Nevneren er null for x = 3."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den deriverte av x⁴?",
+      "options": [
+        "4x³",
+        "x³",
+        "4x⁴",
+        "3x⁴"
+      ],
+      "correct": 0,
+      "explain": "(xⁿ)′ = n · xⁿ⁻¹."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilke vinkler mellom 0° og 180° har sin v = 0,5?",
+      "options": [
+        "30° og 150°",
+        "30° og 60°",
+        "Bare 30°",
+        "60° og 120°"
+      ],
+      "correct": 0,
+      "explain": "sin(180° − v) = sin v."
+    },
+    {
+      "id": "q08",
+      "text": "Du kjenner alle tre sidene i en trekant. Hvilken setning bruker du for å finne en vinkel?",
+      "options": [
+        "Sinussetningen",
+        "Cosinussetningen",
+        "Arealsetningen",
+        "Ingen av dem"
+      ],
+      "correct": 1,
+      "explain": "cos A = (b² + c² − a²)/(2bc)."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er det ikke nok å teste mange eksempler for å bevise en påstand?",
+      "options": [
+        "Fordi eksempler alltid er feil",
+        "Fordi det kan finnes et tilfelle vi ikke har testet",
+        "Fordi det tar for lang tid",
+        "Det er nok"
+      ],
+      "correct": 1,
+      "explain": "Et bevis må gjelde alle tilfeller."
+    },
+    {
+      "id": "q10",
+      "text": "Hva gjør en while-løkke i Python?",
+      "options": [
+        "Kjører koden én gang",
+        "Lager en funksjon",
+        "Gjentar koden så lenge en betingelse er sann",
+        "Skriver ut tekst"
+      ],
+      "correct": 2,
+      "explain": "Den passer når vi ikke vet hvor mange ganger koden skal kjøres.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q11",
+      "text": "Hvordan bør du velge modelltype?",
+      "options": [
+        "Alltid lineær",
+        "Den med flest ledd",
+        "Tilfeldig",
+        "Ut fra formen på dataene og kunnskap om situasjonen"
+      ],
+      "correct": 3,
+      "explain": "En god modell passer både data og teori."
+    },
+    {
+      "id": "q12",
+      "text": "Hva betyr det å drøfte en modell?",
+      "options": [
+        "Å vurdere premisser, gyldighet, styrker og svakheter",
+        "Å tegne grafen",
+        "Å regne ut ett svar",
+        "Å skrive formelen på nytt"
+      ],
+      "correct": 0,
+      "explain": "Drøftingen viser hvor mye vi kan stole på modellen."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk 1T",
+    "children": [
+      {
+        "label": "Algebra, likninger og ulikheter",
+        "children": [
+          {
+            "label": "Likningssett",
+            "note": "To eller flere likninger som skal være oppfylt samtidig."
+          },
+          {
+            "label": "Snu ulikhetstegnet",
+            "note": "Når man ganger eller deler med et negativt tall."
+          }
+        ]
+      },
+      {
+        "label": "Andregradslikninger og -ulikheter",
+        "children": [
+          {
+            "label": "abc-formelen",
+            "note": "x = (−b ± √(b² − 4ac)) / (2a)"
+          },
+          {
+            "label": "Diskriminant",
+            "note": "D = b² − 4ac"
+          },
+          {
+            "label": "Fortegnsskjema",
+            "note": "Oversikt over hvor faktorer og produkt er positive og negative."
+          }
+        ]
+      },
+      {
+        "label": "Polynomdivisjon",
+        "children": [
+          {
+            "label": "Polynomdivisjon",
+            "note": "Oppstilt divisjon av polynomer: del, gang tilbake, trekk fra."
+          },
+          {
+            "label": "Faktorsetningen",
+            "note": "P(a) = 0 ⇔ (x − a) er en faktor i P(x)."
+          },
+          {
+            "label": "Definisjonsmengde for brøk",
+            "note": "Nevneren kan ikke være null."
+          }
+        ]
+      },
+      {
+        "label": "Funksjonstyper og egenskaper",
+        "children": [
+          {
+            "label": "Definisjonsmengde",
+            "note": "x-verdiene funksjonen er definert for."
+          },
+          {
+            "label": "Vertikal asymptote",
+            "note": "Der nevneren er null og telleren ikke er null."
+          },
+          {
+            "label": "Eksponentialfunksjon",
+            "note": "f(x) = b · aˣ med x i eksponenten."
+          }
+        ]
+      },
+      {
+        "label": "Vekstfart og den deriverte",
+        "children": [
+          {
+            "label": "Gjennomsnittlig vekstfart",
+            "note": "(f(b) − f(a))/(b − a), stigningstallet til sekanten."
+          },
+          {
+            "label": "Den deriverte",
+            "note": "f′(x), den momentane vekstfarten."
+          },
+          {
+            "label": "Tangentlikning",
+            "note": "y − f(a) = f′(a)(x − a)"
+          }
+        ]
+      },
+      {
+        "label": "Sinus, cosinus og tangens",
+        "children": [
+          {
+            "label": "sin v",
+            "note": "Motstående katet / hypotenus."
+          },
+          {
+            "label": "Enhetssirkelen",
+            "note": "Sirkel med radius 1 og sentrum i origo."
+          }
+        ]
+      },
+      {
+        "label": "Arealsetningen, sinussetningen og cosinussetningen",
+        "children": [
+          {
+            "label": "Arealsetningen",
+            "note": "T = ½ · a · b · sin C"
+          },
+          {
+            "label": "Sinussetningen",
+            "note": "sin A / a = sin B / b = sin C / c"
+          },
+          {
+            "label": "Cosinussetningen",
+            "note": "a² = b² + c² − 2bc · cos A"
+          }
+        ]
+      },
+      {
+        "label": "Bevis, algoritmisk tenkning og programmering",
+        "children": [
+          {
+            "label": "Matematisk bevis",
+            "note": "Logisk argumentasjon som viser at en påstand gjelder i alle tilfeller."
+          },
+          {
+            "label": "Moteksempel",
+            "note": "Ett eksempel som viser at en påstand er usann."
+          },
+          {
+            "label": "Algoritme",
+            "note": "Trinnvis oppskrift som løser et problem."
+          }
+        ]
+      },
+      {
+        "label": "Modellering og matematikk i tekster",
+        "children": [
+          {
+            "label": "Gyldighetsområde",
+            "note": "Verdiene der modellen gir mening."
+          },
+          {
+            "label": "Drøfte en modell",
+            "note": "Vurdere premisser, gyldighet, styrker og svakheter."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Løs likningen 5 − 2x = x − 4.",
+        "options": [
+          "x = 3",
+          "x = −3",
+          "x = 1/3",
+          "x = 9"
+        ],
+        "correct": 0,
+        "explain": "9 = 3x, så x = 3."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Faktoriser x² − 5x + 6.",
+        "options": [
+          "(x + 2)(x + 3)",
+          "(x − 1)(x − 6)",
+          "(x + 1)(x − 6)",
+          "(x − 2)(x − 3)"
+        ],
+        "correct": 3,
+        "explain": "Nullpunktene er 2 og 3."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hva er (x² + x − 6) : (x − 2)?",
+        "options": [
+          "x − 3",
+          "x + 2",
+          "x + 3",
+          "x − 2"
+        ],
+        "correct": 2,
+        "explain": "(x − 2)(x + 3) = x² + x − 6."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hva er den vertikale asymptoten til f(x) = 3/(x − 1) + 2?",
+        "options": [
+          "x = 2",
+          "x = 1",
+          "y = 1",
+          "x = 3"
+        ],
+        "correct": 1,
+        "explain": "Nevneren er null for x = 1. Den horisontale asymptoten er y = 2."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Deriver f(x) = 2x³ + 4x − 7.",
+        "options": [
+          "6x² + 4",
+          "6x³ + 4",
+          "2x² + 4",
+          "6x² + 4x"
+        ],
+        "correct": 0,
+        "explain": "2 · 3x² + 4 + 0."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hosliggende katet er 4 og v = 60°. Hvor lang er hypotenusen?",
+        "options": [
+          "2",
+          "8",
+          "4√3",
+          "6,9"
+        ],
+        "correct": 1,
+        "explain": "4 / cos 60° = 4 / 0,5 = 8."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Du kjenner to vinkler og én side. Hvilken setning passer for å finne de andre sidene?",
+        "options": [
+          "Cosinussetningen",
+          "Arealsetningen",
+          "Sinussetningen",
+          "Pytagoras"
+        ],
+        "correct": 2,
+        "explain": "Den tredje vinkelen finner du med vinkelsummen."
+      },
+      {
+        "id": "m08",
+        "type": "flervalg",
+        "text": "Hva bør en presentasjon av en modell inneholde?",
+        "options": [
+          "Bare svaret",
+          "Bare grafen",
+          "Premisser, modell, resultater og vurdering",
+          "Bare formelen"
+        ],
+        "correct": 2,
+        "explain": "Da kan andre vurdere hvor god modellen er."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen på en likning og en identitet. Bruk (a + b)² = a² + 2ab + b² som eksempel på en identitet.",
+        "fasit": "En likning er sann bare for bestemte verdier av variablene, mens en identitet er sann for alle verdier. Kvadratsetningen (a + b)² = a² + 2ab + b² er en identitet fordi den gjelder for alle a og b.",
+        "kriterier": [
+          "Skiller mellom bestemte verdier og alle verdier.",
+          "Knytter kvadratsetningen til identitet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Løs ulikheten −2x < 6, og forklar hvorfor ulikhetstegnet endres.",
+        "fasit": "Når vi deler begge sider på −2, må vi snu ulikhetstegnet. Løsningen er x > −3.",
+        "kriterier": [
+          "Deler begge sider på −2 og snur tegnet.",
+          "Oppgir løsningen x > −3."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et objekt har høyde h(t) = −4,9t² + 20t + 1,5 meter. Forklar hva den deriverte beskriver, og hvordan du kan finne tidspunktet for objektets høyeste punkt.",
+        "fasit": "Den deriverte h′(t) beskriver farten i meter per sekund. Ved høyeste punkt er tangenten vannrett, så vi finner tidspunktet ved å løse h′(t) = 0. Modellen gjelder bare fra objektet kastes til det treffer bakken.",
+        "kriterier": [
+          "Forklarer at den deriverte beskriver fart.",
+          "Bruker h′(t) = 0 for å finne mulig maksimum.",
+          "Nevner at modellen har et gyldighetsområde."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I en trekant kjenner du alle tre sidene og skal finne en vinkel. Hvilken setning bruker du, og hva gjør du hvis du i stedet kjenner to vinkler og én side?",
+        "fasit": "Når alle tre sidene er kjent, bruker jeg cosinussetningen for å finne en vinkel. Når to vinkler og én side er kjent, bruker jeg sinussetningen for å finne de andre sidene.",
+        "kriterier": [
+          "Velger cosinussetningen for tre kjente sider.",
+          "Velger sinussetningen for to vinkler og én side."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Utfør polynomdivisjonen (x² − 5x + 6) : (x − 2), og forklar hva svaret forteller om polynomet.",
+        "fasit": "Kvotienten er x − 3, og divisjonen går opp uten rest. Derfor kan polynomet skrives som (x − 2)(x − 3), og det har nullpunktene x = 2 og x = 3.",
+        "kriterier": [
+          "Oppgir kvotienten x − 3 og at resten er null.",
+          "Knytter faktoriseringen til nullpunktene."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En avisgraf viser en liten forskjell mellom to verdier, men y-aksen starter på 95 i stedet for 0. Forklar hvordan grafen kan påvirke tolkningen, og nevn én annen ting du bør undersøke når du vurderer en matematisk tekst.",
+        "fasit": "Når y-aksen ikke starter på null, kan forskjellene se større ut enn de er. Jeg bør også undersøke for eksempel om teksten blander sammenheng og årsak, eller om utvalget er representativt.",
+        "kriterier": [
+          "Forklarer at avkortet y-akse kan overdrive synlige forskjeller.",
+          "Nevner et relevant punkt å undersøke, som årsakssammenheng eller utvalg."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Finn den deriverte av f(x) = 3x² − 2x, og beregn f′(2). Forklar kort hva f′(2) betyr geometrisk.",
+        "fasit": "f′(x) = 6x − 2, så f′(2) = 10. Geometrisk er 10 stigningstallet til tangenten til grafen når x = 2.",
+        "kriterier": [
+          "Deriverer riktig til 6x − 2 og finner f′(2) = 10.",
+          "Tolker verdien som tangentens stigningstall."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvordan halveringsmetoden kan brukes til å nærme seg et nullpunkt for en funksjon.",
+        "fasit": "Start med et intervall der funksjonsverdiene i endepunktene har ulike fortegn. Finn midtpunktet, og behold den halvdelen der endepunktene fortsatt har ulike fortegn. Gjenta halveringen for å nærme deg nullpunktet.",
+        "kriterier": [
+          "Nevner et startintervall med ulike fortegn i endepunktene.",
+          "Forklarer at intervallet halveres gjentatte ganger for å nærme seg nullpunktet."
+        ],
+        "niva": "eksempel"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

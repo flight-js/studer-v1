@@ -1,0 +1,568 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-9",
+  "trinnId": "9",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "sammendrag": "Matematikk handler om å beskrive mengder, former, data og tilfeldige hendelser med begreper, beregninger og modeller. I faget lærer du også å velge passende metoder, kontrollere om svar er rimelige og vurdere hvordan tall blir presentert.\n\n## Sammensatte måleenheter\n\nEn **sammensatt måleenhet** består av to enheter, ofte med «per» mellom; «per» betyr delt på. Fart er strekning delt på tid: **v = s / t**. Formlene kan snus til **s = v · t** og **t = s / v**. Gjør om tiden til timer når du regner i km/h. Mellom m/s og km/h bruker du at **1 m/s = 3,6 km/h**: gang med 3,6 fra m/s, og del på 3,6 fra km/h.\n\n**Tetthet** er masse delt på volum, mens **enhetspris** er pris delt på mengde. Enhetspris, som kr/kg eller kr/L, gjør tilbud med ulik mengde sammenlignbare. Skriv enhetene gjennom utregningen, og kontroller at svaret får riktig enhet. Andre sammensatte enheter er innbyggere per km² og liter per mil.\n\n## Formlikhet og kongruens\n\nEn trekant har vinkelsum **180°**, og en firkant **360°**. Figurer er **kongruente** når de har samme form og størrelse; samsvarende sider og vinkler er like. Trekanter er sikkert kongruente ved SSS (tre par like sider), SVS (to sider og vinkelen mellom) eller VSV (to vinkler og siden mellom).\n\n**Formlike** figurer har samme form, men kan ha ulik størrelse. Samsvarende vinkler er like, og forholdet mellom samsvarende sider er det samme. To trekanter er formlike når to vinkler er parvis like. Forholdet mellom sidene er **forstørrelsesfaktoren**. Bruk det forholdet til å finne ukjente lengder, for eksempel ved skygger eller målestokk. Målestokk 1 : 50 000 betyr at 1 cm på kartet tilsvarer 50 000 cm, altså 500 m, i virkeligheten. Når lengdene ganges med en faktor k, ganges arealet med **k²**.\n\n## Pytagoras' setning\n\nI en **rettvinklet trekant** er én vinkel 90°. De to sidene som møtes ved den rette vinkelen, er **kateter**, og den lengste siden, rett overfor vinkelen, er **hypotenusen**. Pytagoras' setning er **a² + b² = c²**, der a og b er katetene og c er hypotenusen. Finn hypotenusen med **c = √(a² + b²)**. Kjenner du hypotenusen og én katet, finner du den andre med **a = √(c² − b²)**. Tegn en skisse og marker hypotenusen før du regner. Kontroller at hypotenusen er lengst. Den omvendte setningen lar deg sjekke om en trekant er rettvinklet: Hvis a² + b² = c², er den det. En diagonal i et rektangel kan regnes med Pytagoras.\n\n## Overflate og volum\n\n**Volum** er plassen en romfigur tar, og måles i kubikkenheter. **Overflateareal** er summen av arealet av alle flatene, og måles i kvadratenheter. Tenk på en **utbretting** når du skal finne overflaten. Et prisme har volum **V = G · h**, der G er grunnflaten og h er høyden. For et rett firkantet prisme er det **V = l · b · h**. En sylinder har **V = πr² · h** og overflate **O = 2πr² + 2πrh**. Pyramider og kjegler har en tredjedel av volumet til et prisme eller en sylinder med samme grunnflate og høyde: **V = G · h / 3** for pyramide og **V = πr² · h / 3** for kjegle. For en kule er **V = 4πr³/3** og **O = 4πr²**.\n\nHusk enhetene: **1 dm³ = 1 L = 1000 cm³**, og **1 m³ = 1000 L**. Det er en faktor på 1000 per steg mellom volumenheter, men en faktor på 100 per steg mellom arealenheter. Avgjør om en praktisk oppgave spør etter volum, for eksempel hvor mye et basseng rommer, eller overflate, for eksempel hvor mye som skal males.\n\n## Sentralmål og spredningsmål\n\nEt **datasett** er en samling observasjoner. Sorter verdiene eller bruk en frekvenstabell før du regner. **Gjennomsnitt** er summen delt på antall verdier. **Median** er den midterste verdien i sortert rekkefølge; med et partall verdier tar du gjennomsnittet av de to midterste. **Typetall** er verdien som forekommer oftest.\n\nEt **spredningsmål** viser hvor mye verdiene varierer. **Variasjonsbredden** er største verdi minus minste verdi. Nedre og øvre kvartil er medianene i henholdsvis den nedre og øvre halvdelen av de sorterte dataene. **Kvartilbredden** er øvre kvartil minus nedre kvartil, og viser spredningen til de midterste 50 %. Ekstremverdier påvirker gjennomsnittet mer enn medianen. Velg derfor mål etter dataene: median kan passe ved ekstremverdier, typetall for kategorier og gjennomsnitt når dataene er jevne. Beskriv gjerne både sentralmål og spredning.\n\n## Statistikk i media\n\nVelg diagram etter dataene: **stolpediagram** sammenligner kategorier, **linjediagram** viser utvikling over tid, **sektordiagram** viser prosentandeler av en helhet, og **histogram** viser tallverdier fordelt i intervaller. Sektorene i et sektordiagram utgjør til sammen 100 % eller 360°.\n\nEt diagram kan gi et skjevt inntrykk selv om tallene er riktige. En **avkuttet akse**, ujevn skala, tredimensjonale effekter eller utvalgte tidsperioder kan få forskjeller til å se annerledes ut. Skill mellom absolutt endring i antall og relativ endring i prosent av startverdien. For undersøkelser må du vurdere **populasjonen**, **utvalget** og om utvalget er representativt. Et selvselektert utvalg, som en nettavstemning der alle kan svare, kan bli skjevt. Undersøk også hvem som står bak statistikken, og om de kan ha interesse av et bestemt resultat. Tall per innbygger kan gjøre det lettere å sammenligne steder av ulik størrelse.\n\n## Sannsynlighet\n\n**Sannsynlighet** er et tall fra 0 til 1: 0 betyr umulig, og 1 betyr sikkert. I et tilfeldig forsøk er et **utfall** et mulig resultat, **utfallsrommet** er alle mulige utfall, og en **hendelse** består av ett eller flere utfall. Når alle utfall er like sannsynlige, er **P(hendelse) = antall gunstige utfall / antall mulige utfall**. Sannsynlighet kan skrives som brøk, desimaltall eller prosent.\n\nFor den komplementære hendelsen gjelder **P(ikke A) = 1 − P(A)**. Når sannsynligheten er vanskelig å regne direkte, kan du gjøre mange forsøk og finne **relativ frekvens**: antall ganger hendelsen skjedde delt på antall forsøk. Med mange forsøk nærmer relativ frekvens seg den egentlige sannsynligheten. Ved uavhengige forsøk kan sannsynlighetene ganges. Bruk tabell eller valgtre til å få oversikt over flere forsøk. Tidligere terningkast påvirker ikke neste kast.\n\n## Simulering med programmering\n\nEn **simulering** etterligner et virkelig forsøk mange ganger. I Python gir `randint(1, 6)` et tilfeldig heltall fra 1 til 6, mens `random()` gir et desimaltall mellom 0 og 1. Betingelsen `random() < 0,3` simulerer en hendelse med sannsynlighet omtrent 30 %.\n\nEn typisk simulering har en teller som starter på 0, en løkke som gjentar forsøket, en betingelse som sjekker om hendelsen skjedde og øker telleren, og til slutt en beregning av telleren delt på antall forsøk. Dette gir en **relativ frekvens** og dermed et anslag, ikke et eksakt svar. Resultatene varierer mellom kjøringer, men variasjonen blir vanligvis mindre når antall forsøk øker. Sammenlign gjerne med teoretisk sannsynlighet, og sjekk programmet hvis resultatene avviker mye. Kontroller blant annet grensene i tilfeldige tall.\n\n## Sammenhenger i faget\n\nFormler og enheter hjelper deg å løse praktiske måleoppgaver, mens formlikhet og Pytagoras gir metoder for å finne ukjente lengder. Volum, areal og målestokk krever at du følger med på hvordan enheter og størrelser endres. Statistikk beskriver data med sentralmål og spredning, og diagrammer viser data på ulike måter. Sannsynlighet gir en teoretisk modell for tilfeldige hendelser; simulering og relativ frekvens kan undersøke den gjennom mange forsøk. Kildekritikk og kontroll av svar er nyttig på tvers av alle temaene.\n\n## Huskeliste før prøven\n\n- Skriv enheter i utregningen, og gjør om når det trengs.\n- Velg riktig formel og skriv hva symbolene betyr.\n- Tegn en skisse og marker hypotenusen før du bruker Pytagoras.\n- Skill mellom formlike figurer og kongruente figurer.\n- Skill mellom volum og overflateareal, og bruk riktig enhet.\n- Sorter datasett før du finner median og kvartiler.\n- Vurder både sentralmål og spredning, særlig ved ekstremverdier.\n- Se kritisk på akser, utvalg, diagramtype og kilde.\n- I sannsynlighet: finn utfallsrommet og tell gunstige utfall.\n- Husk at simulering gir anslag, og at mange forsøk gir mer stabile resultater.",
+  "flashcards": [
+    {
+      "term": "Fart",
+      "def": "Strekning delt på tid: v = s / t."
+    },
+    {
+      "term": "Tetthet",
+      "def": "Masse delt på volum, ofte i g/cm³.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Enhetspris",
+      "def": "Pris delt på mengde, for eksempel kr/kg eller kr/L. Brukes til å sammenligne tilbud."
+    },
+    {
+      "term": "Kongruente figurer",
+      "def": "Figurer med nøyaktig samme form og størrelse. De dekker hverandre helt."
+    },
+    {
+      "term": "Formlike figurer",
+      "def": "Figurer med samme form, men ulik størrelse. Vinklene er like og sidene har samme forhold."
+    },
+    {
+      "term": "Forstørrelsesfaktor",
+      "def": "Forholdet mellom samsvarende sider i formlike figurer."
+    },
+    {
+      "term": "Pytagoras' setning",
+      "def": "a² + b² = c², der a og b er katetene og c er hypotenusen."
+    },
+    {
+      "term": "Finne en katet",
+      "def": "a = √(c² − b²). Hypotenus 13 og katet 5 gir a = √144 = 12."
+    },
+    {
+      "term": "Prisme",
+      "def": "Romfigur med to like, parallelle grunnflater og rette sideflater. V = G · h."
+    },
+    {
+      "term": "En tredjedel",
+      "def": "En pyramide eller kjegle har en tredjedel av volumet til et prisme eller en sylinder med samme G og h."
+    },
+    {
+      "term": "Gjennomsnitt",
+      "def": "Summen av alle verdiene delt på antall verdier."
+    },
+    {
+      "term": "Median",
+      "def": "Den midterste verdien når dataene er sortert. Ved partall antall: snittet av de to midterste."
+    },
+    {
+      "term": "Kvartilbredde",
+      "def": "Øvre kvartil minus nedre kvartil. Viser spredningen til de midterste 50 %."
+    },
+    {
+      "term": "Avkuttet akse",
+      "def": "En y-akse som ikke starter på 0. Kan få små forskjeller til å se store ut."
+    },
+    {
+      "term": "Representativt utvalg",
+      "def": "Et utvalg som ligner populasjonen, slik at resultatet kan overføres."
+    },
+    {
+      "term": "Gunstige / mulige",
+      "def": "P = antall gunstige utfall / antall mulige utfall, når alle utfall er like sannsynlige."
+    },
+    {
+      "term": "Komplementær hendelse",
+      "def": "At hendelsen ikke skjer. P(ikke A) = 1 − P(A)."
+    },
+    {
+      "term": "Uavhengige forsøk",
+      "def": "Forsøk der utfallet i det ene ikke påvirker det andre. Da kan sannsynlighetene ganges."
+    },
+    {
+      "term": "Simulering",
+      "def": "En etterligning av et virkelig forsøk, ofte gjentatt mange ganger ved hjelp av en datamaskin."
+    },
+    {
+      "term": "Relativ frekvens i simulering",
+      "def": "Telleren delt på antall forsøk."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "En syklist sykler 36 km på 2 timer. Hva er farten?",
+      "options": [
+        "72 km/h",
+        "18 km/h",
+        "34 km/h",
+        "38 km/h"
+      ],
+      "correct": 1,
+      "explain": "Fart = strekning / tid = 36 km / 2 h = 18 km/h."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er 20 m/s i km/h?",
+      "options": [
+        "72 km/h",
+        "5,6 km/h",
+        "200 km/h",
+        "20 km/h"
+      ],
+      "correct": 0,
+      "explain": "Fra m/s til km/h ganger vi med 3,6: 20 · 3,6 = 72 km/h."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er nok for å vite at to trekanter er formlike?",
+      "options": [
+        "At én side er lik",
+        "At arealet er likt",
+        "At to vinkler er parvis like store",
+        "At de er rettvinklede"
+      ],
+      "correct": 2,
+      "explain": "Er to vinkler like, blir også den tredje lik fordi summen er 180°. Da har trekantene samme form."
+    },
+    {
+      "id": "q04",
+      "text": "En pinne på 2 m kaster en skygge på 3 m. Et tre kaster samtidig en skygge på 18 m. Hvor høyt er treet?",
+      "options": [
+        "27 m",
+        "9 m",
+        "12 m",
+        "36 m"
+      ],
+      "correct": 2,
+      "explain": "Forholdet høyde/skygge er det samme: 2/3 = h/18. Da er h = 2 · 18/3 = 12 m."
+    },
+    {
+      "id": "q05",
+      "text": "Katetene er 6 cm og 8 cm. Hvor lang er hypotenusen?",
+      "options": [
+        "14 cm",
+        "10 cm",
+        "48 cm",
+        "100 cm"
+      ],
+      "correct": 1,
+      "explain": "c² = 36 + 64 = 100, og c = √100 = 10 cm. 100 er c², ikke c."
+    },
+    {
+      "id": "q06",
+      "text": "En pyramide har grunnflate 36 cm² og høyde 10 cm. Hva er volumet?",
+      "options": [
+        "120 cm³",
+        "360 cm³",
+        "180 cm³",
+        "46 cm³"
+      ],
+      "correct": 0,
+      "explain": "V = G · h / 3 = 36 · 10 / 3 = 120 cm³."
+    },
+    {
+      "id": "q07",
+      "text": "Ni personer tjener 40 000 kr og én tjener 400 000 kr i måneden. Hvilket sentralmål beskriver det typiske best?",
+      "options": [
+        "Gjennomsnittet",
+        "Medianen",
+        "Variasjonsbredden",
+        "Summen"
+      ],
+      "correct": 1,
+      "explain": "Gjennomsnittet (76 000 kr) trekkes opp av én ekstremverdi. Medianen (40 000 kr) viser hva de fleste tjener."
+    },
+    {
+      "id": "q08",
+      "text": "Y-aksen i et diagram starter på 95. Hva kan det føre til?",
+      "options": [
+        "At små forskjeller ser store ut",
+        "At diagrammet blir mer nøyaktig",
+        "At dataene endres",
+        "At gjennomsnittet blir feil"
+      ],
+      "correct": 0,
+      "explain": "Når aksen er kuttet, blir forskjellene mellom stolpene overdrevet visuelt, selv om tallene er riktige."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor er en nettavstemning der alle kan stemme, lite pålitelig?",
+      "options": [
+        "Fordi den har for mange svar",
+        "Fordi utvalget ikke er representativt",
+        "Fordi nettet regner feil",
+        "Fordi den bare gir prosent"
+      ],
+      "correct": 1,
+      "explain": "De som velger å svare, er ofte de som er mest engasjert i saken. Da ligner ikke utvalget befolkningen."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er sannsynligheten for summen 7 med to terninger?",
+      "options": [
+        "1/36",
+        "7/36",
+        "1/12",
+        "1/6"
+      ],
+      "correct": 3,
+      "explain": "Summen 7 får du med (1,6), (2,5), (3,4), (4,3), (5,2) og (6,1): 6 av 36 = 1/6."
+    },
+    {
+      "id": "q11",
+      "text": "Hvorfor gjør vi mange forsøk i en simulering?",
+      "options": [
+        "For at relativ frekvens skal komme nær sannsynligheten",
+        "For at programmet skal gå saktere",
+        "Fordi Python krever det",
+        "For å få et eksakt svar"
+      ],
+      "correct": 0,
+      "explain": "Etter de store talls lov blir den relative frekvensen mer stabil og nærmere sannsynligheten jo flere forsøk vi gjør."
+    },
+    {
+      "id": "q12",
+      "text": "En simulering av summen 7 med to terninger gir 0,25. Den teoretiske sannsynligheten er 1/6. Hva bør du gjøre?",
+      "options": [
+        "Stole på simuleringen",
+        "Sjekke programmet for feil",
+        "Senke antall forsøk",
+        "Endre den teoretiske verdien"
+      ],
+      "correct": 1,
+      "explain": "0,25 er langt unna 1/6 ≈ 0,167. Med mange forsøk tyder et så stort avvik på en feil i programmet."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk",
+    "children": [
+      {
+        "label": "Sammensatte måleenheter",
+        "children": [
+          {
+            "label": "Fart",
+            "note": "Strekning delt på tid: v = s / t."
+          },
+          {
+            "label": "Tetthet",
+            "note": "Masse delt på volum, ofte i g/cm³."
+          },
+          {
+            "label": "Enhetspris",
+            "note": "Pris delt på mengde, for eksempel kr/kg eller kr/L. Brukes til å sammenligne tilbud."
+          }
+        ]
+      },
+      {
+        "label": "Formlikhet og kongruens",
+        "children": [
+          {
+            "label": "Kongruente figurer",
+            "note": "Figurer med nøyaktig samme form og størrelse. De dekker hverandre helt."
+          },
+          {
+            "label": "Formlike figurer",
+            "note": "Figurer med samme form, men ulik størrelse. Vinklene er like og sidene har samme forhold."
+          },
+          {
+            "label": "Forstørrelsesfaktor",
+            "note": "Forholdet mellom samsvarende sider i formlike figurer."
+          }
+        ]
+      },
+      {
+        "label": "Pytagoras' setning",
+        "children": [
+          {
+            "label": "Pytagoras' setning",
+            "note": "a² + b² = c², der a og b er katetene og c er hypotenusen."
+          },
+          {
+            "label": "Finne en katet",
+            "note": "a = √(c² − b²). Hypotenus 13 og katet 5 gir a = √144 = 12."
+          }
+        ]
+      },
+      {
+        "label": "Overflate og volum",
+        "children": [
+          {
+            "label": "Prisme",
+            "note": "Romfigur med to like, parallelle grunnflater og rette sideflater. V = G · h."
+          },
+          {
+            "label": "En tredjedel",
+            "note": "En pyramide eller kjegle har en tredjedel av volumet til et prisme eller en sylinder med samme G og h."
+          }
+        ]
+      },
+      {
+        "label": "Sentralmål og spredningsmål",
+        "children": [
+          {
+            "label": "Gjennomsnitt",
+            "note": "Summen av alle verdiene delt på antall verdier."
+          },
+          {
+            "label": "Median",
+            "note": "Den midterste verdien når dataene er sortert. Ved partall antall: snittet av de to midterste."
+          },
+          {
+            "label": "Kvartilbredde",
+            "note": "Øvre kvartil minus nedre kvartil. Viser spredningen til de midterste 50 %."
+          }
+        ]
+      },
+      {
+        "label": "Statistikk i media",
+        "children": [
+          {
+            "label": "Avkuttet akse",
+            "note": "En y-akse som ikke starter på 0. Kan få små forskjeller til å se store ut."
+          },
+          {
+            "label": "Representativt utvalg",
+            "note": "Et utvalg som ligner populasjonen, slik at resultatet kan overføres."
+          }
+        ]
+      },
+      {
+        "label": "Sannsynlighet",
+        "children": [
+          {
+            "label": "Gunstige / mulige",
+            "note": "P = antall gunstige utfall / antall mulige utfall, når alle utfall er like sannsynlige."
+          },
+          {
+            "label": "Komplementær hendelse",
+            "note": "At hendelsen ikke skjer. P(ikke A) = 1 − P(A)."
+          },
+          {
+            "label": "Uavhengige forsøk",
+            "note": "Forsøk der utfallet i det ene ikke påvirker det andre. Da kan sannsynlighetene ganges."
+          }
+        ]
+      },
+      {
+        "label": "Simulering med programmering",
+        "children": [
+          {
+            "label": "Simulering",
+            "note": "En etterligning av et virkelig forsøk, ofte gjentatt mange ganger ved hjelp av en datamaskin."
+          },
+          {
+            "label": "Relativ frekvens i simulering",
+            "note": "Telleren delt på antall forsøk."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Et tog kjører 240 km på 3 timer. Hva er gjennomsnittsfarten?",
+        "options": [
+          "720 km/h",
+          "80 km/h",
+          "60 km/h",
+          "243 km/h"
+        ],
+        "correct": 1,
+        "explain": "240 km / 3 h = 80 km/h."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "En trekant har sidene 3, 4 og 5 cm. En formlik trekant har korteste side 9 cm. Hvor lang er lengste side?",
+        "options": [
+          "11 cm",
+          "15 cm",
+          "12 cm",
+          "25 cm"
+        ],
+        "correct": 1,
+        "explain": "Forstørrelsesfaktoren er 9/3 = 3. Lengste side blir 5 · 3 = 15 cm."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "En TV har bredde 80 cm og høyde 60 cm. Hvor lang er diagonalen?",
+        "options": [
+          "140 cm",
+          "100 cm",
+          "70 cm",
+          "120 cm"
+        ],
+        "correct": 1,
+        "explain": "d² = 80² + 60² = 6400 + 3600 = 10 000, og d = 100 cm."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Et basseng er 10 m langt, 5 m bredt og 2 m dypt. Hvor mange liter rommer det?",
+        "options": [
+          "100 L",
+          "10 000 L",
+          "1000 L",
+          "100 000 L"
+        ],
+        "correct": 3,
+        "explain": "V = 10 · 5 · 2 = 100 m³, og 100 m³ = 100 · 1000 L = 100 000 L."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Medianen påvirkes mindre av ekstremverdier enn gjennomsnittet.",
+        "correct": true,
+        "explain": "Medianen avhenger bare av plasseringen i det sorterte datasettet, ikke av hvor ekstrem den største verdien er."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et representativt utvalg?",
+        "options": [
+          "Et utvalg der alle har samme mening",
+          "Et utvalg som ligner populasjonen",
+          "Et utvalg med bare eksperter",
+          "Et utvalg som velger seg selv"
+        ],
+        "correct": 1,
+        "explain": "Et representativt utvalg har omtrent samme sammensetning som populasjonen, for eksempel når det gjelder alder og bosted."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er sannsynligheten for to seksere med to terninger?",
+        "options": [
+          "1/36",
+          "2/6",
+          "1/12",
+          "1/6"
+        ],
+        "correct": 0,
+        "explain": "Terningene er uavhengige: 1/6 · 1/6 = 1/36."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "Med 100 000 forsøk varierer resultatet vanligvis mindre enn med 100 forsøk.",
+        "correct": true,
+        "explain": "Flere forsøk gir mer stabile relative frekvenser."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et kart har målestokk 1 : 50 000. En avstand på kartet er 4 cm. Hvor langt er det i virkeligheten, og hvor lang tid tar det å gå avstanden med farten 5 km/h?",
+        "fasit": "4 cm på kartet tilsvarer 200 000 cm, altså 2 km. Tiden blir 2 km / 5 km/h = 0,4 timer, som er 24 minutter.",
+        "kriterier": [
+          "Regner målestokken om til 2 km.",
+          "Bruker t = s / v og får 0,4 timer eller 24 minutter."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et rektangel er 9 cm langt og 12 cm bredt. Hvor lang er diagonalen, og hvorfor kan du bruke Pytagoras' setning?",
+        "fasit": "Diagonalen er √(9² + 12²) = √225 = 15 cm. Diagonalen deler rektangelet i rettvinklede trekanter, så sidene 9 cm og 12 cm er kateter.",
+        "kriterier": [
+          "Bruker Pytagoras og får diagonalen 15 cm.",
+          "Forklarer at diagonalen danner en rettvinklet trekant med rektangelets sider som kateter."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En rett firkantet vanntank er 2 m lang, 1 m bred og 0,5 m høy. Hvor mange liter rommer den? Hva må du finne hvis du i stedet skal male utsiden?",
+        "fasit": "Volumet er 2 · 1 · 0,5 = 1 m³, altså 1000 liter. For å finne hvor mye maling som trengs, må jeg finne overflatearealet.",
+        "kriterier": [
+          "Beregner volumet til 1 m³ og gjør det om til 1000 L.",
+          "Skiller volum fra overflateareal og velger overflateareal for maling."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "To terninger kastes. Hva er sannsynligheten for at summen blir 7? Beskriv også hvordan du kan undersøke dette med en simulering, og hvorfor resultatet ikke blir nøyaktig det samme hver gang.",
+        "fasit": "Det finnes 36 mulige utfall, og summen 7 kan komme på 6 måter, så sannsynligheten er 6/36 = 1/6. I en simulering lager programmet to terningkast mange ganger og finner andelen runder der summen er 7. Tilfeldige resultater varierer mellom kjøringer.",
+        "kriterier": [
+          "Finner teoretisk sannsynlighet 1/6 ved 6 gunstige av 36 mulige utfall.",
+          "Beskriver gjentatte tilfeldige forsøk og relativ frekvens.",
+          "Forklarer at simuleringen gir variasjon og et anslag."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En graf viser temperaturen måned for måned, men y-aksen starter på 95 i stedet for 0. Hvilken diagramtype passer til utviklingen, og hvordan kan aksen påvirke inntrykket?",
+        "fasit": "Et linjediagram passer til å vise temperatur gjennom tid. Når y-aksen er avkuttet, kan små temperaturforskjeller se store ut.",
+        "kriterier": [
+          "Velger linjediagram for utvikling over tid.",
+          "Forklarer at en avkuttet akse kan overdrive inntrykket av forskjeller."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "To klasser har samme gjennomsnitt på en prøve. Forklar hvorfor det ikke nødvendigvis betyr at resultatene i klassene er like, og nevn et mål som kan beskrive spredningen.",
+        "fasit": "Samme gjennomsnitt betyr ikke at resultatene ligger like nær gjennomsnittet; én klasse kan ha større variasjon enn den andre. Variasjonsbredde eller kvartilbredde kan beskrive spredningen.",
+        "kriterier": [
+          "Forklarer at klassene kan ha ulik spredning selv om gjennomsnittet er likt.",
+          "Nevner variasjonsbredde eller kvartilbredde som spredningsmål."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En kjegle og en sylinder har samme grunnflate og høyde. Kjeglen har volum 40 cm³. Hva er volumet av sylinderen, og hvilket forhold mellom figurene bruker du?",
+        "fasit": "Sylinderen har volum 120 cm³. En kjegle har en tredjedel av volumet til en sylinder med samme grunnflate og høyde.",
+        "kriterier": [
+          "Finner sylinderens volum som tre ganger kjeglens, altså 120 cm³.",
+          "Bruker at kjeglen har en tredjedel av sylinderens volum ved samme grunnflate og høyde."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Et program skal simulere terningkast og undersøke hvor ofte summen av to terninger blir 7. Programmet bruker randint(0, 6). Hva er feilen, hva skal det bruke i stedet, og hvordan kan du kontrollere om resultatet er rimelig?",
+        "fasit": "randint(0, 6) kan gi 0 og gir derfor ikke en vanlig terning med utfall fra 1 til 6. Programmet skal bruke randint(1, 6) for hver terning. Sammenlign den simulerte relative frekvensen med den teoretiske sannsynligheten 1/6.",
+        "kriterier": [
+          "Forklarer at randint(0, 6) inkluderer 0 og har feil grenser.",
+          "Angir randint(1, 6) for begge terningene.",
+          "Sammenligner relativ frekvens med teoretisk sannsynlighet 1/6."
+        ],
+        "niva": "eksempel"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

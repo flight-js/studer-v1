@@ -1,0 +1,553 @@
+{
+  "id": "repetisjon",
+  "fagId": "geofag-2",
+  "trinnId": "vg3",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "sammendrag": "Geofag 2 handler om hvordan atmosfæren, havet, isen, landjorda og livet påvirker hverandre. Faget undersøker også vær og klima, menneskelig klimapåvirkning, energiressurser, feltarbeid og naturfarer.\n\n## T1: Vekselvirkninger mellom jordsystemene\nDe fem jordsystemene er **atmosfæren**, **hydrosfæren**, **kryosfæren**, **litosfæren** og **biosfæren**. De utveksler energi, vann og stoffer, slik at endringer i ett system påvirker andre. Havet tar opp varme og CO₂, men CO₂ fører også til **havforsuring**. Is og snø har høy **albedo**; når is smelter, blottlegges mørkere hav som tar opp mer varme. Dette er en **positiv tilbakekobling**. Negative tilbakekoblinger demper endringer, mens positive forsterker dem. Tining av permafrost kan frigjøre metan og CO₂. Vulkanske partikler kan reflektere sollys og gi kortvarig avkjøling. Fotosyntese tar opp CO₂, mens menneskelige utslipp og arealbruk påvirker systemene. Et **vippepunkt** er en terskel der endringen blir selvforsterkende.\n\n## T2: Strålingsbalanse og global sirkulasjon\nJorda mottar **kortbølget** stråling fra sola og sender ut **langbølget** varmestråling. Over tid er innstråling og utstråling omtrent like store når klimaet er stabilt. **Albedo** er andelen sollys som reflekteres. Drivhusgasser tar opp langbølget stråling og sender energi i alle retninger; den naturlige **drivhuseffekten** gjør jorda langt varmere enn den ellers ville vært. **Strålingspådriv** måles i W/m²: positivt pådriv gir oppvarming, negativt gir avkjøling. Ekvator får energioverskudd og polene underskudd. Atmosfæren og havet frakter varme mellom dem. I **Hadleycellen** stiger luft ved ekvator og synker rundt 30°, der tørre forhold kan gi ørkener. Norge ligger i **vestavindsbeltet** i Ferrelcellen. Ved polarfronten dannes mange lavtrykk. **Jetstrømmer** i høyden styrer lavtrykkenes bane.\n\n## T3: Jordrotasjon, trykk og tetthet i hav og atmosfære\nLuft strømmer fra høyt mot lavt trykk på grunn av **trykkgradientkraften**. Tette isobarer betyr sterk vind. **Corioliseffekten** avbøyer bevegelse mot høyre på nordlige halvkule og mot venstre på sørlige; den er null ved ekvator. Høyt over bakken kan trykkgradientkraft og corioliseffekt være i balanse, slik at **geostrofisk vind** blåser parallelt med isobarene. På nordlige halvkule blåser vinden mot klokka inn mot lavtrykk og med klokka ut fra høytrykk. Vind driver overflatestrømmer; **Ekman-transport** går omtrent 90° til høyre for vinden. Ved kyster kan dette gi **oppstrømning** av kaldt, næringsrikt vann. Kaldt og salt vann er tettest. Når det synker i Nord-Atlanteren og rundt Antarktis, bidrar det til **termohalin sirkulasjon**. Golfstrømmen og Den nordatlantiske strømmen, sammen med vestavindene, gir Norge et mildere klima.\n\n## T4: Værsystemer og værkart\nEn **luftmasse** har omtrent lik temperatur og fuktighet; maritim luft er fuktig, mens kontinental luft er tørr. En **kaldfront** løfter varm luft bratt og gir ofte kraftige byger og temperaturfall. En **varmfront** gir ofte lagdelte skyer og langvarig, jevn nedbør. **Okklusjon** oppstår når kaldfronten tar igjen varmfronten. Ekstratropiske lavtrykk utvikles langs polarfronten og svekkes etter okklusjon. **Tropiske sykloner** dannes over varmt hav, får energi fra fordamping og svekkes over land eller kaldere hav. **Monsun** skifter retning med årstidene. Sjøbris blåser fra sjø mot land om dagen; fønvind er varm og tørr på lesiden av fjell. På værkart viser tette isobarer sterk vind, H og L høy- og lavtrykk, trekanter kaldfront og halvsirkler varmfront. Radar viser nedbør.\n\n## T5: Numeriske modeller i værvarsling, havmodellering og klimaforskning\n**Numeriske modeller** bruker fysikkens lover og tallberegninger til å beregne atmosfære, hav eller klima. De deler området inn i et tredimensjonalt **gitter** og regner framover i **tidssteg**. Finere oppløsning gir mer detaljer, men krever mer regnekraft. Små prosesser som enkeltskyer beskrives med **parametrisering**, som bidrar til usikkerhet. Værmodeller trenger startverdier fra observasjoner; **dataassimilering** kombinerer målinger med tidligere modellberegninger. Atmosfæren er kaotisk, så små feil kan vokse. **Ensemblevarsler** sammenligner mange kjøringer med ulike startverdier; stor spredning betyr større usikkerhet. Klimamodeller beregner klimastatistikk over mange år og avhenger særlig av pådriv og utslippsscenarioer. De testes mot fortidens klima.\n\n## T6: Klimasystemet og menneskeskapt klimapåvirkning\n**Vær** er atmosfæren på et bestemt sted og tidspunkt; **klima** er gjennomsnitt og variasjon over lang tid, vanligvis en 30-års normalperiode. Klimaet varierer fra lokalt til globalt og fra år til år til geologiske tidsskalaer. Naturlige variasjoner omfatter El Niño, NAO, vulkanutbrudd, solaktivitet og jordbanens endringer. Siden industrialiseringen har utslipp av CO₂, metan og lystgass økt. IPCC vurderer forskningen, som viser at menneskelig påvirkning har varmet opp atmosfæren, havet og landjorda. Oppvarmingen støttes blant annet av temperaturmønsteret i atmosfæren, isotoper og modeller. **Attribusjonsforskning** undersøker hvordan klimaendringer påvirker sannsynligheten eller styrken til ekstremhendelser. I Norge ventes blant annet mer kraftig nedbør og flere regnflommer.\n\n## T7: Forhistorisk klima\n**Paleoklimatologi** undersøker klima før direkte målinger ved hjelp av klimaarkiver og **proksydata**. Iskjerner inneholder luftbobler med fortidens atmosfære; isotoper, sedimenter, pollen, årringer og morener gir også klimainformasjon. Arkivene dateres blant annet ved å telle årlag eller bruke radioaktive metoder. Jordas istider og mellomistider de siste 2,6 millioner årene henger sammen med **Milanković-syklusene**: endringer i eksentrisitet, aksehelning og presesjon påvirker når og hvor sollyset treffer. CO₂ og temperatur har fulgt hverandre tett, og tilbakekoblinger har forsterket endringer. Paleoklima brukes til å teste klimamodeller og forstå klimafølsomhet og tilbakekoblinger. Dagens CO₂-nivå er høyere enn noen gang de siste 800 000 årene, og endringen skjer raskt.\n\n## T8: Konsekvenser av klimaendringer, utslippskutt og tilpasning\nKlimaendringer påvirker arter, økosystemer og mennesker. Arter flytter mot polene og oppover i høyden. Havforsuring gjør det vanskeligere for koraller, skjell og enkelte planktonarter å bygge kalkskall. Havnivåstigning, hete, tørke, flom og ekstremnedbør kan skade samfunn og matproduksjon. Konsekvensene rammer ulikt; **klimarettferdighet** handler blant annet om at land som har sluppet ut minst ofte rammes hardest. **Mitigasjon** er utslippskutt for å begrense oppvarmingen, mens **tilpasning** forbereder samfunnet på endringene. Eksempler er fornybar energi og energieffektivisering, samt flomvern, større overvannssystemer og å unngå bygging i fareområder. Tiltak kan vurderes etter effekt, kostnad, rettferdighet og konsekvenser for natur og mennesker.\n\n## T9: Energi fra hav og atmosfære\nSola driver de fleste energiressursene i hav og atmosfære: ujevn oppvarming gir vind, som lager bølger og driver havstrømmer. Tidevannet skyldes hovedsakelig månens og solas tiltrekning. Vindkraft omdanner vindens bevegelsesenergi til strøm. Effekten øker omtrent med vindfarten i tredje potens, så dobbel vindfart gir omtrent åtte ganger effekten. Vindkraft er uregelmessig og trenger lagring eller reguleringskraft. Havvind har sterkere og jevnere vind, og flytende turbiner kan brukes på dypt vann. Bølge-, tidevanns-, havstrøm- og osmotisk kraft utnytter ulike bevegelser eller egenskaper ved vann. Solceller omdanner sollys til strøm. Fornybar energi har lave utslipp i drift, men kan gi naturinngrep, kreve mineraler og påvirke lokalsamfunn. Bærekraftige løsninger må balansere miljø, økonomi og sosiale forhold.\n\n## T10: Geofaglig feltarbeid i hav, atmosfære og kryosfære\nFeltarbeid starter med en **problemstilling**, en testbar hypotese og en plan for målinger, utstyr, registrering og sikkerhet. I atmosfæren måles blant annet temperatur, lufttrykk, luftfuktighet, vind og nedbør. En **CTD-sonde** måler saltholdighet, temperatur og dybde i havet; en secchiskive måler siktedyp. Snøprofiler viser lag, svake lag og mulige skredfarer. Data ordnes i tabeller og grafer, og gjennomsnitt, variasjon og trender kan beregnes. Usikkerhet kan komme av instrumenter, avlesning, få målinger eller måleforhold. Gjentak og sammenligning med offisielle data øker påliteligheten. En rapport presenterer problemstilling, metode, resultater, drøfting og konklusjon.\n\n## T11: Naturfarer i atmosfære, hav og kryosfære\nEn **naturfare** kan skade mennesker eller infrastruktur. **Risiko = sannsynlighet × konsekvens**, og sårbarhet påvirker hvor store konsekvensene blir. Storm, ekstremnedbør, tørke, stormflo, flom og skred er eksempler på farer. Stormflo blir ekstra høy når lavt lufttrykk, pålandsvind og springflo faller sammen. Svake lag i snø kan utløse snøskred; intens nedbør i bratt terreng kan utløse jord- og flomskred. NVE og Meteorologisk institutt samarbeider om farevarsler: gult betyr moderat fare, oransje betydelig fare og rødt ekstrem fare. Risiko kan reduseres med arealplanlegging, fysisk sikring, overvåking, beredskap og evakuering. Klimaendringer kan blant annet gi flere regnflommer og skred, farligere stormflo, ustabile fjellsider ved tining av permafrost og økt skogbrannfare ved tørke.\n\n## Sammenhenger i faget\nUlik soloppvarming skaper trykkforskjeller, vind og havstrømmer, som flytter varme og påvirker været. Hav, is, atmosfære, land og biosfære utveksler samtidig vann, energi og karbon; tilbakekoblinger kan forsterke eller dempe klimaendringer. Målinger og klimaarkiver gir kunnskap som modeller bruker til å undersøke vær, klima og framtidige endringer. Klimaendringer påvirker økosystemer, samfunn og naturfarer, og kunnskapen brukes til utslippskutt, klimatilpasning og planlegging av energiløsninger.\n\n## Huskeliste før prøven\n- Skill mellom vær og klima.\n- Forklar positiv og negativ tilbakekobling.\n- Knytt trykkforskjeller til vind og corioliseffekt.\n- Kjenn forskjellen på kaldfront og varmfront.\n- Forklar hvordan værvarsler og klimamodeller brukes.\n- Beskriv hvordan klimaarkiver viser fortidens klima.\n- Skill mellom mitigasjon og tilpasning.\n- Bruk risiko = sannsynlighet × konsekvens.\n- Vurder måleusikkerhet og bærekraftige valg.",
+  "flashcards": [
+    {
+      "term": "Is–albedo-effekten",
+      "def": "Smeltende is gir mørkere overflate og mer oppvarming."
+    },
+    {
+      "term": "Vippepunkt",
+      "def": "Terskel der endringen blir selvforsterkende."
+    },
+    {
+      "term": "Strålingsbalanse",
+      "def": "Innstråling og utstråling er omtrent like store over tid."
+    },
+    {
+      "term": "Drivhuseffekt",
+      "def": "Drivhusgasser tar opp langbølget stråling og varmer jorda."
+    },
+    {
+      "term": "Corioliseffekten",
+      "def": "Avbøyning mot høyre på nordlige og venstre på sørlige halvkule."
+    },
+    {
+      "term": "Termohalin sirkulasjon",
+      "def": "Global havsirkulasjon drevet av tetthetsforskjeller."
+    },
+    {
+      "term": "Kaldfront",
+      "def": "Kald luft løfter varm luft bratt – byger og temperaturfall."
+    },
+    {
+      "term": "Okklusjon",
+      "def": "Kaldfronten tar igjen varmfronten."
+    },
+    {
+      "term": "Dataassimilering",
+      "def": "Målinger og modell kombineres til best mulige startverdier."
+    },
+    {
+      "term": "Ensemblevarsel",
+      "def": "Mange kjøringer med litt ulike startverdier."
+    },
+    {
+      "term": "Klima",
+      "def": "Gjennomsnittet og variasjonen i været over lang tid."
+    },
+    {
+      "term": "IPCC",
+      "def": "FNs klimapanel som vurderer klimaforskningen."
+    },
+    {
+      "term": "Iskjerner",
+      "def": "Borekjerner fra isbreer med luftbobler fra fortiden."
+    },
+    {
+      "term": "Milanković-sykluser",
+      "def": "Regelmessige endringer i jordbanen som styrer istider."
+    },
+    {
+      "term": "Mitigasjon",
+      "def": "Utslippskutt for å begrense oppvarmingen."
+    },
+    {
+      "term": "Klimatilpasning",
+      "def": "Å forberede samfunnet på endringene som kommer."
+    },
+    {
+      "term": "Vindfart og effekt",
+      "def": "Effekten øker omtrent med vindfarten i tredje potens."
+    },
+    {
+      "term": "Tidevannskraft",
+      "def": "Utnytter tidevannsstrømmer – forutsigbar.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "CTD-sonde",
+      "def": "Måler saltholdighet, temperatur og dybde i havet.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Feilkilde",
+      "def": "Forhold som kan gi feil i målingene."
+    },
+    {
+      "term": "Risiko",
+      "def": "Sannsynlighet × konsekvens."
+    },
+    {
+      "term": "Stormflo",
+      "def": "Ekstra høy vannstand ved lavt trykk, pålandsvind og springflo."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er is–albedo-effekten?",
+      "options": [
+        "Smeltende is gir mørkere overflate som tar opp mer varme",
+        "Is reflekterer mindre enn hav",
+        "Is smelter aldri",
+        "Is lager vind"
+      ],
+      "correct": 0,
+      "explain": "En positiv tilbakekobling."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr et positivt strålingspådriv?",
+      "options": [
+        "Avkjøling",
+        "Ingen endring",
+        "Mer is",
+        "Oppvarming"
+      ],
+      "correct": 3,
+      "explain": "For eksempel økt CO₂."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor er oppstrømningsområder rike fiskeområder?",
+      "options": [
+        "Fordi kaldt, næringsrikt vann strømmer opp",
+        "Fordi vannet er varmt",
+        "Fordi det er lite strøm",
+        "Fordi det er lite lys"
+      ],
+      "correct": 0,
+      "explain": "Gir mye plankton."
+    },
+    {
+      "id": "q04",
+      "text": "Hva slags vær gir en kaldfront ofte?",
+      "options": [
+        "Langvarig, jevn nedbør",
+        "Kraftige byger og temperaturfall",
+        "Tåke",
+        "Varmt og tørt vær"
+      ],
+      "correct": 1,
+      "explain": "Varm luft løftes bratt."
+    },
+    {
+      "id": "q05",
+      "text": "Hvorfor er værvarsler mest pålitelige for de nærmeste dagene?",
+      "options": [
+        "Fordi modellene er gamle",
+        "Fordi det er færre målinger",
+        "Fordi atmosfæren er kaotisk og små feil vokser",
+        "Fordi været aldri endres"
+      ],
+      "correct": 2,
+      "explain": "Sommerfugleffekten."
+    },
+    {
+      "id": "q06",
+      "text": "Hva viser iskjernene om CO₂ og temperatur?",
+      "options": [
+        "At de ikke henger sammen",
+        "At CO₂ alltid har vært konstant",
+        "At de har fulgt hverandre tett",
+        "At temperaturen alltid har vært lik"
+      ],
+      "correct": 2,
+      "explain": "CO₂ har forsterket endringene."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er forskjellen på utslippskutt og tilpasning?",
+      "options": [
+        "Det er det samme",
+        "Kutt begrenser oppvarmingen, tilpasning forbereder samfunnet på endringene",
+        "Tilpasning kutter utslipp",
+        "Kutt gjelder bare Norge"
+      ],
+      "correct": 1,
+      "explain": "Begge trengs."
+    },
+    {
+      "id": "q08",
+      "text": "Hvor mye øker effekten omtrent når vindfarten dobles?",
+      "options": [
+        "Åtte ganger",
+        "To ganger",
+        "Fire ganger",
+        "Ingen endring"
+      ],
+      "correct": 0,
+      "explain": "Effekten følger vindfarten i tredje potens."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan kan du øke påliteligheten i feltarbeidet?",
+      "options": [
+        "Gjøre færre målinger",
+        "Unngå å kalibrere",
+        "Gjenta målinger og sammenligne med offisielle data",
+        "Bare måle én gang"
+      ],
+      "correct": 2,
+      "explain": "For eksempel fra Meteorologisk institutt."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan kan risiko beskrives?",
+      "options": [
+        "Bare sannsynlighet",
+        "Sannsynlighet × konsekvens",
+        "Bare konsekvens",
+        "Antall hendelser per år"
+      ],
+      "correct": 1,
+      "explain": "Begge deler må med."
+    }
+  ],
+  "mindmap": {
+    "label": "Geofag 2",
+    "children": [
+      {
+        "label": "Vekselvirkninger mellom jordsystemene",
+        "children": [
+          {
+            "label": "Is–albedo-effekten",
+            "note": "Smeltende is gir mørkere overflate og mer oppvarming."
+          },
+          {
+            "label": "Vippepunkt",
+            "note": "Terskel der endringen blir selvforsterkende."
+          }
+        ]
+      },
+      {
+        "label": "Strålingsbalanse og global sirkulasjon",
+        "children": [
+          {
+            "label": "Strålingsbalanse",
+            "note": "Innstråling og utstråling er omtrent like store over tid."
+          },
+          {
+            "label": "Drivhuseffekt",
+            "note": "Drivhusgasser tar opp langbølget stråling og varmer jorda."
+          }
+        ]
+      },
+      {
+        "label": "Jordrotasjon, trykk og tetthet i hav og atmosfære",
+        "children": [
+          {
+            "label": "Corioliseffekten",
+            "note": "Avbøyning mot høyre på nordlige og venstre på sørlige halvkule."
+          },
+          {
+            "label": "Termohalin sirkulasjon",
+            "note": "Global havsirkulasjon drevet av tetthetsforskjeller."
+          }
+        ]
+      },
+      {
+        "label": "Værsystemer og værkart",
+        "children": [
+          {
+            "label": "Kaldfront",
+            "note": "Kald luft løfter varm luft bratt – byger og temperaturfall."
+          },
+          {
+            "label": "Okklusjon",
+            "note": "Kaldfronten tar igjen varmfronten."
+          }
+        ]
+      },
+      {
+        "label": "Numeriske modeller i værvarsling, havmodellering og klimaforskning",
+        "children": [
+          {
+            "label": "Dataassimilering",
+            "note": "Målinger og modell kombineres til best mulige startverdier."
+          },
+          {
+            "label": "Ensemblevarsel",
+            "note": "Mange kjøringer med litt ulike startverdier."
+          }
+        ]
+      },
+      {
+        "label": "Klimasystemet og menneskeskapt klimapåvirkning",
+        "children": [
+          {
+            "label": "Klima",
+            "note": "Gjennomsnittet og variasjonen i været over lang tid."
+          },
+          {
+            "label": "IPCC",
+            "note": "FNs klimapanel som vurderer klimaforskningen."
+          }
+        ]
+      },
+      {
+        "label": "Forhistorisk klima",
+        "children": [
+          {
+            "label": "Iskjerner",
+            "note": "Borekjerner fra isbreer med luftbobler fra fortiden."
+          },
+          {
+            "label": "Milanković-sykluser",
+            "note": "Regelmessige endringer i jordbanen som styrer istider."
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser av klimaendringer, utslippskutt og tilpasning",
+        "children": [
+          {
+            "label": "Mitigasjon",
+            "note": "Utslippskutt for å begrense oppvarmingen."
+          },
+          {
+            "label": "Klimatilpasning",
+            "note": "Å forberede samfunnet på endringene som kommer."
+          }
+        ]
+      },
+      {
+        "label": "Energi fra hav og atmosfære",
+        "children": [
+          {
+            "label": "Vindfart og effekt",
+            "note": "Effekten øker omtrent med vindfarten i tredje potens."
+          },
+          {
+            "label": "Tidevannskraft",
+            "note": "Utnytter tidevannsstrømmer – forutsigbar."
+          }
+        ]
+      },
+      {
+        "label": "Geofaglig feltarbeid i hav, atmosfære og kryosfære",
+        "children": [
+          {
+            "label": "CTD-sonde",
+            "note": "Måler saltholdighet, temperatur og dybde i havet."
+          },
+          {
+            "label": "Feilkilde",
+            "note": "Forhold som kan gi feil i målingene."
+          }
+        ]
+      },
+      {
+        "label": "Naturfarer i atmosfære, hav og kryosfære",
+        "children": [
+          {
+            "label": "Risiko",
+            "note": "Sannsynlighet × konsekvens."
+          },
+          {
+            "label": "Stormflo",
+            "note": "Ekstra høy vannstand ved lavt trykk, pålandsvind og springflo."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Jordsystemene er uavhengige av hverandre.",
+        "correct": false,
+        "explain": "De utveksler energi, vann og stoffer."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Atmosfæren og havet frakter varme fra ekvator mot polene.",
+        "correct": true,
+        "explain": "Det jevner ut forskjellene."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hvor dannes dypvann som driver den termohaline sirkulasjonen?",
+        "options": [
+          "Ved ekvator",
+          "I Nord-Atlanteren og rundt Antarktis",
+          "I Middelhavet",
+          "I Stillehavet ved Peru"
+        ],
+        "correct": 1,
+        "explain": "Kaldt, salt vann synker."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "En varmfront gir vanligvis korte, kraftige byger.",
+        "correct": false,
+        "explain": "Den gir jevn, langvarig nedbør."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva sier IPCC om menneskelig påvirkning?",
+        "options": [
+          "At den er usannsynlig",
+          "At den er ukjent",
+          "At det er utvetydig at mennesker har varmet opp klimaet",
+          "At den bare gjelder lokalt"
+        ],
+        "correct": 2,
+        "explain": "Atmosfære, hav og land."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilke kriterier kan brukes for å vurdere klimatiltak?",
+        "options": [
+          "Effekt, kostnad, rettferdighet og konsekvenser",
+          "Bare pris",
+          "Bare hvor populært det er",
+          "Bare hvor raskt det går"
+        ],
+        "correct": 0,
+        "explain": "Bærekraft har flere dimensjoner."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva utløser ofte jordskred og flomskred?",
+        "options": [
+          "Intens nedbør i bratt terreng",
+          "Høytrykk",
+          "Kulde",
+          "Vindstille"
+        ],
+        "correct": 0,
+        "explain": "Løsmassene blir vannmettet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hvordan smelting av havis kan forsterke oppvarmingen, og beskriv en annen positiv tilbakekobling knyttet til kryosfæren.",
+        "fasit": "Når havis smelter, blir mørkt hav blottlagt og tar opp mer varme, slik at mer is smelter. Når permafrost tiner, kan metan og CO₂ slippes ut og bidra til ytterligere oppvarming.",
+        "kriterier": [
+          "Forklarer sammenhengen mellom mindre is, lavere albedo og mer varmeopptak.",
+          "Nevner utslipp av metan og/eller CO₂ fra tinende permafrost som forsterkende tilbakekobling."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s02",
+        "text": "Forklar forskjellen på vær og klima, og hvordan dette henger sammen med forskjellen mellom værvarsler og klimamodeller.",
+        "fasit": "Vær er atmosfærens tilstand på et bestemt sted og tidspunkt, mens klima er gjennomsnittet og variasjonen i været over lang tid. Værvarsler beregner utviklingen fra aktuelle startverdier, mens klimamodeller beregner klimastatistikk over mange år og avhenger særlig av pådriv.",
+        "kriterier": [
+          "Skiller mellom vær her og nå og klima over lang tid.",
+          "Skiller mellom værvarsling fra startverdier og klimamodeller som beregner statistikk over mange år."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Beskriv hvordan klimaendringer kan påvirke naturfarer i Norge, og gi ett eksempel på et tiltak som kan redusere risikoen.",
+        "fasit": "Mer ekstremnedbør kan gi flere regnflommer og jordskred, mens havnivåstigning kan gjøre stormflo farligere. Risiko kan reduseres ved å unngå bygging i flomsoner eller ved å bruke fysisk sikring.",
+        "kriterier": [
+          "Knytter en klimaendring til en konkret naturfare i Norge.",
+          "Nevner et relevant risikoreduserende tiltak, som arealplanlegging eller fysisk sikring."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan både global sirkulasjon og havstrømmer bidrar til at Norge har et mildere klima enn andre områder på samme breddegrad.",
+        "fasit": "Atmosfæren og havet frakter varme fra ekvator mot polene. Golfstrømmen og Den nordatlantiske strømmen fører varmt vann nordover, og vestavindene bidrar til Norges milde klima.",
+        "kriterier": [
+          "Forklarer at atmosfæren og havet transporterer varme fra ekvator mot polene.",
+          "Nevner Golfstrømmen/Den nordatlantiske strømmen og vestavindene som viktige for Norges klima."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En vindturbin får dobbelt så høy vindfart. Omtrent hvor mange ganger så stor blir effekten, og hvilken sammenheng bruker du?",
+        "fasit": "Effekten blir omtrent åtte ganger så stor. Det følger av at effekten øker omtrent med vindfarten i tredje potens: 2³ = 8.",
+        "kriterier": [
+          "Oppgir omtrent åtte ganger så stor effekt.",
+          "Bruker sammenhengen med vindfarten i tredje potens, for eksempel 2³ = 8."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Vindfarten ved en vindturbin blir tredoblet. Omtrent hvor mange ganger så stor blir effekten? Vis beregningen.",
+        "fasit": "Effekten blir omtrent 27 ganger så stor, fordi 3³ = 27 når effekten øker med vindfarten i tredje potens.",
+        "kriterier": [
+          "Oppgir omtrent 27 ganger så stor effekt.",
+          "Viser beregningen 3³ = 27 eller tilsvarende."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Du skal undersøke hvordan temperatur og saltholdighet varierer med dybden i en fjord. Beskriv måleutstyret du vil bruke, og hvordan du kan gjøre resultatene mer pålitelige.",
+        "fasit": "Jeg vil bruke en CTD-sonde, som måler temperatur, saltholdighet og dybde. Jeg kan gjenta målingene og sammenligne dem med offisielle data for å øke påliteligheten.",
+        "kriterier": [
+          "Velger CTD-sonde og knytter den til måling av temperatur, saltholdighet og dybde.",
+          "Nevner gjentatte målinger og/eller sammenligning med offisielle data som måte å øke påliteligheten på."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Vurder hvordan et vindkraftprosjekt kan bidra til bærekraft, og forklar en mulig konflikt eller ulempe ved utbyggingen.",
+        "fasit": "Vindkraft kan bidra til å kutte utslipp fordi vinden er en fornybar energiressurs med lave utslipp i drift. Utbyggingen kan likevel gi naturinngrep eller konflikter om arealbruk, og bør vurderes ut fra miljømessige, økonomiske og sosiale forhold.",
+        "kriterier": [
+          "Knytter vindkraft til fornybar energi og/eller utslippskutt.",
+          "Nevner en relevant ulempe eller konflikt og viser til vurdering av bærekraftens dimensjoner."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

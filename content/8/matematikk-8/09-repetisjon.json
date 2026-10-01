@@ -1,0 +1,538 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-8",
+  "trinnId": "8",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "sammendrag": "Matematikk handler om å beskrive tall og sammenhenger, regne på dem og forklare framgangsmåter. Du bruker regler, uttrykk, likninger, ulikheter, funksjoner og algoritmer til å løse både matematiske oppgaver og problemer fra praktiske situasjoner.\n\n## Potenser og kvadratrøtter\nEn **potens** skriver gjentatt multiplikasjon kort: I 2⁵ er 2 **grunntallet** og 5 **eksponenten**. Et tall opphøyd i andre er et **kvadrattall**, og et tall opphøyd i tredje er et **kubikktall**. Når potenser har samme grunntall, legger du sammen eksponentene ved multiplikasjon og trekker dem fra ved divisjon. Når en potens opphøyes i en ny potens, ganger du eksponentene. Alle tall unntatt 0 opphøyd i null er 1. Parentesen påvirker fortegnet: (−3)² = 9, mens −3² = −9. **Standardform** skriver store tall som et tall mellom 1 og 10 ganget med en tierpotens. **Kvadratroten** er det positive tallet som ganget med seg selv gir tallet under rottegnet. For å anslå en rot finner du kvadrattallene nærmest tallet. Følg regnerekkefølgen: parenteser, potenser og røtter, multiplikasjon og divisjon, addisjon og subtraksjon.\n\n## Regnestrategier og regneregler\nDen **kommutative loven** lar deg bytte rekkefølge ved addisjon og multiplikasjon, og den **assosiative loven** lar deg velge hvilke tall du regner sammen først. De gjelder ikke for subtraksjon og divisjon. Den **distributive loven** sier at a · (b + c) = a · b + a · c. Bruk reglene til å velge en enkel strategi: del opp tall, **kompenser** med et rundt tall og juster, eller doble én faktor og halvere den andre. Ved oppstilling må sifrene stå etter **plassverdi**. Et **overslag** med runde tall hjelper deg å kontrollere om svaret virker rimelig.\n\n## Faktorisering og brøk\nÅ **faktorisere** er å skrive et tall som et produkt. **Primtall** er heltall større enn 1 som bare er delelige med 1 og seg selv; tall som ikke er primtall, kalles sammensatte. En **primtallsfaktorisering** skriver tallet som produkt av primtall. Delelighet kan ofte sjekkes raskt: Et tall er delelig med 2 hvis det slutter på et partall, med 3 hvis tverrsummen er delelig med 3, med 5 hvis det slutter på 0 eller 5, og med 10 hvis det slutter på 0. I en brøk er **telleren** over brøkstreken og **nevneren** under. Du **forkorter** ved å dele teller og nevner på samme tall, og **utvider** ved å gange dem med samme tall; brøkens verdi endres ikke. For addisjon og subtraksjon trenger brøkene **fellesnevner**. Ved multiplikasjon ganger du tellerne sammen og nevnerne sammen. Ved divisjon ganger du med den omvendte brøken.\n\n## Mønstre og algebraiske uttrykk\nEt **mønster** følger en fast regel. En formel med **figurnummeret** n kan beskrive hvert ledd, for eksempel gir 4n − 1 tallfølgen 3, 7, 11, 15. En **variabel** står for en verdi som kan variere, mens en **konstant** ikke endrer seg. Tallet foran variabelen er **koeffisienten**. I et **algebraisk uttrykk** som 15x + 60 er 15x den delen som avhenger av x, og 60 er fast. Du kan sette inn en verdi for variabelen og regne ut. **Like ledd** har samme variabel i samme potens og kan slås sammen; ulike ledd kan ikke. Når du ganger ut en parentes, ganger du faktoren med hvert ledd inni.\n\n## Likninger\nEn **likning** sier at to uttrykk er like, og inneholder en **ukjent**. Løsningen er verdien som gjør sidene like. Bruk **balansemetoden**: Gjør det samme på begge sider, slik at likheten bevares, og få den ukjente alene. Samle ukjente ledd på én side og tall på den andre. Gang ut parenteser først; ved brøker kan du gange alle ledd med fellesnevneren. Ikke del på 0. **Sett prøve** ved å sette løsningen inn i den opprinnelige likningen og kontrollere at sidene blir like. I tekstoppgaver må du også vurdere om løsningen gir mening i situasjonen.\n\n## Ulikheter\nEn **ulikhet** sammenligner uttrykk med <, >, ≤ eller ≥. Løsningen er ofte en **løsningsmengde**, altså mange tall. Du kan legge til eller trekke fra samme tall på begge sider. Når du ganger eller deler begge sider med et negativt tall, må du **snu ulikhetstegnet**. På tallinja viser en åpen ring at endepunktet ikke er med, mens en fylt prikk viser at det er med; pila viser hvilken vei løsningene fortsetter. Test tall for å kontrollere løsningen, og vurder om den passer situasjonen, for eksempel om et antall må være helt og positivt.\n\n## Funksjoner\nEn **funksjon** gir nøyaktig én utgangsverdi for hver inngangsverdi. Den **uavhengige variabelen**, ofte x, velges og står på x-aksen; den **avhengige variabelen**, ofte y, bestemmes av x. En funksjon kan vises som en situasjon, et uttrykk, en verditabell eller en graf. I et koordinatsystem skrives punktet (x, y), og aksene møtes i **origo** (0, 0). En lineær funksjon har rett linje som graf: I y = 2x + 100 er 2 **stigningstallet**, som viser endringen i y når x øker med 1, og 100 **konstantleddet**, altså verdien når x = 0. Sjekk akser, enheter og skala når du leser grafer, og vurder hvilke x-verdier som gir mening.\n\n## Algoritmer og programmering\nEn **algoritme** er en tydelig oppskrift som løser et problem trinn for trinn og stopper etter et endelig antall steg. Et **program** er en algoritme skrevet i et språk en datamaskin kan utføre. Programmer kan ha variabler som lagrer verdier, **sekvenser** av kommandoer, **løkker** som gjentar kommandoer, og betingelser som lar programmet velge. Planlegg, test med verdier der du kjenner svaret, og **feilsøk** ved å undersøke kommandoer og mellomverdier. En løkke som aldri stopper, kalles en evig løkke. En algoritme kan forbedres slik at den for eksempel blir raskere eller gjelder flere tilfeller.\n\n## Sammenhenger i faget\nRegnereglene brukes til å regne effektivt med tall, brøker og algebraiske uttrykk. Faktorisering kan hjelpe deg med å finne fellesnevner når du regner med brøker. Formler beskriver mønstre og praktiske sammenhenger; når du setter en verdi inn, kan du lage verditabeller og grafer. Likninger finner verdier som gir likhet, mens ulikheter beskriver et helt område av mulige verdier. Algoritmer kan følge matematiske metoder, og matematikk kan brukes til å gjøre programmer mer effektive.\n\n## Huskeliste før prøven\n- Vis framgangsmåten og bruk regnerekkefølgen.\n- Sjekk fortegn og parenteser i potenser.\n- Forkort brøker, og bruk fellesnevner ved addisjon og subtraksjon.\n- Slå bare sammen like ledd.\n- Gjør det samme på begge sider når du løser en likning.\n- Snu ulikhetstegnet når du ganger eller deler med et negativt tall.\n- Les av koordinater i rekkefølgen x, y, og sjekk akseskalaen.\n- Kontroller at svar i praktiske oppgaver gir mening.\n- Test algoritmer og sjekk mellomverdier når du leter etter feil.",
+  "flashcards": [
+    {
+      "term": "aᵐ · aⁿ",
+      "def": "Ved multiplikasjon av potenser med samme grunntall legges eksponentene sammen: aᵐ · aⁿ = aᵐ⁺ⁿ."
+    },
+    {
+      "term": "Kvadratrot",
+      "def": "Det positive tallet som ganget med seg selv gir tallet. √36 = 6 fordi 6 · 6 = 36."
+    },
+    {
+      "term": "Distributiv lov",
+      "def": "En faktor kan ganges inn i en parentes: a · (b + c) = a · b + a · c."
+    },
+    {
+      "term": "Overslag",
+      "def": "Et grovt anslag med runde tall for å sjekke om svaret er rimelig."
+    },
+    {
+      "term": "Primtall",
+      "def": "Et helt tall større enn 1 som bare er delelig med 1 og seg selv: 2, 3, 5, 7, 11, 13 …"
+    },
+    {
+      "term": "Fellesnevner",
+      "def": "En nevner som alle brøkene i et regnestykke kan utvides til. Trengs ved addisjon og subtraksjon."
+    },
+    {
+      "term": "Formel for et mønster",
+      "def": "Et uttrykk som gir tallet på plass n. For 3, 7, 11, 15 er formelen 4n − 1."
+    },
+    {
+      "term": "Like ledd",
+      "def": "Ledd med samme variabel i samme potens. 4a og 2a kan slås sammen til 6a."
+    },
+    {
+      "term": "Balansemetoden",
+      "def": "Gjør alltid det samme på begge sider av likhetstegnet, slik at likningen holder seg i balanse."
+    },
+    {
+      "term": "Sette prøve",
+      "def": "Sette løsningen inn i den opprinnelige likningen for å sjekke at begge sider blir like."
+    },
+    {
+      "term": "Løsningsmengde",
+      "def": "Alle tallene som gjør ulikheten sann. For x > 2 er det alle tall større enn 2."
+    },
+    {
+      "term": "Snu tegnet",
+      "def": "Når du ganger eller deler begge sider med et negativt tall, må ulikhetstegnet snus."
+    },
+    {
+      "term": "Funksjon",
+      "def": "En sammenheng der hver inngangsverdi (x) gir nøyaktig én utgangsverdi (y)."
+    },
+    {
+      "term": "Stigningstall",
+      "def": "Hvor mye y endrer seg når x øker med 1. I y = 2x + 100 er det 2."
+    },
+    {
+      "term": "Algoritme",
+      "def": "En nøyaktig oppskrift som løser et problem steg for steg og stopper etter et endelig antall steg."
+    },
+    {
+      "term": "Løkke",
+      "def": "En del av programmet som gjentas flere ganger."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Forenkle 2³ · 2⁴.",
+      "options": [
+        "2¹²",
+        "4⁷",
+        "2⁷",
+        "2¹"
+      ],
+      "correct": 2,
+      "explain": "Potensene har samme grunntall, så eksponentene legges sammen: 3 + 4 = 7. Grunntallet endres ikke."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan skrives 4 700 000 på standardform?",
+      "options": [
+        "47 · 10⁵",
+        "4,7 · 10⁶",
+        "0,47 · 10⁷",
+        "4,7 · 10⁵"
+      ],
+      "correct": 1,
+      "explain": "På standardform skal tallet foran tierpotensen være mellom 1 og 10. Kommaet flyttes seks plasser: 4 700 000 = 4,7 · 10⁶.",
+      "niva": "over-niva"
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken strategi passer best for å regne 99 · 8 i hodet?",
+      "options": [
+        "100 · 8 − 8",
+        "99 · 10 − 2",
+        "90 · 8 + 99",
+        "9 · 9 · 8 − 1"
+      ],
+      "correct": 0,
+      "explain": "99 er én mindre enn 100. Regn 100 · 8 = 800 og trekk fra én åtter: 800 − 8 = 792."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er 16 · 25 hvis du dobler og halverer?",
+      "options": [
+        "8 · 50 = 400",
+        "32 · 50 = 1600",
+        "8 · 12,5 = 100",
+        "4 · 25 = 100"
+      ],
+      "correct": 0,
+      "explain": "Halver 16 og doble 25: 8 · 50. Én gang til: 4 · 100 = 400. Produktet er det samme hele veien."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er 1/6 + 3/8?",
+      "options": [
+        "4/14",
+        "13/24",
+        "4/48",
+        "1/2"
+      ],
+      "correct": 1,
+      "explain": "Fellesnevner 24: 1/6 = 4/24 og 3/8 = 9/24. Summen er 13/24. Tellere og nevnere kan ikke legges sammen hver for seg."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er 3/4 : 1/2?",
+      "options": [
+        "3/8",
+        "1/2",
+        "3/4",
+        "3/2"
+      ],
+      "correct": 3,
+      "explain": "Å dele på 1/2 er det samme som å gange med 2: 3/4 · 2 = 6/4 = 3/2."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken formel passer til følgen 3, 7, 11, 15, …?",
+      "options": [
+        "4n − 1",
+        "3n + 4",
+        "n + 4",
+        "4n + 3"
+      ],
+      "correct": 0,
+      "explain": "Følgen øker med 4, så formelen har 4n. For n = 1 skal svaret bli 3: 4 · 1 − 1 = 3. Sjekk n = 2: 4 · 2 − 1 = 7."
+    },
+    {
+      "id": "q08",
+      "text": "En taxi koster 60 kr i start og 15 kr per km. Hvilket uttrykk gir prisen for x km?",
+      "options": [
+        "60x + 15",
+        "75x",
+        "15 + 60 + x",
+        "15x + 60"
+      ],
+      "correct": 3,
+      "explain": "Kilometerprisen ganges med antall kilometer (15x), og startprisen legges til én gang (60)."
+    },
+    {
+      "id": "q09",
+      "text": "Løs likningen 5x − 4 = 2x + 11.",
+      "options": [
+        "x = 3",
+        "x = 7/3",
+        "x = 15",
+        "x = 5"
+      ],
+      "correct": 3,
+      "explain": "Samle x-ledd: 5x − 2x = 3x. Samle tall: 11 + 4 = 15. Da er 3x = 15 og x = 5."
+    },
+    {
+      "id": "q10",
+      "text": "Løs ulikheten −3x ≤ 12.",
+      "options": [
+        "x ≤ −4",
+        "x ≥ −4",
+        "x ≥ 4",
+        "x ≤ 4"
+      ],
+      "correct": 1,
+      "explain": "Del på −3 og snu tegnet: x ≥ −4. Test x = 0: −3 · 0 = 0 ≤ 12, stemmer."
+    },
+    {
+      "id": "q11",
+      "text": "Et abonnement koster 100 kr per måned pluss 2 kr per minutt. Hvilket uttrykk passer?",
+      "options": [
+        "y = 100x + 2",
+        "y = 102x",
+        "y = 2x + 100",
+        "y = 2 + 100"
+      ],
+      "correct": 2,
+      "explain": "Minuttprisen ganges med antall minutter (2x), og den faste månedsprisen legges til (100)."
+    },
+    {
+      "id": "q12",
+      "text": "Hvorfor tester vi et program med tall der vi kjenner svaret?",
+      "options": [
+        "For å se om programmet gir riktig resultat",
+        "For å gjøre programmet raskere",
+        "Fordi datamaskinen krever det",
+        "For å slippe å bruke variabler"
+      ],
+      "correct": 0,
+      "explain": "Kjenner du svaret på forhånd, kan du sammenligne og oppdage om programmet regner feil."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk",
+    "children": [
+      {
+        "label": "Potenser og kvadratrøtter",
+        "children": [
+          {
+            "label": "aᵐ · aⁿ",
+            "note": "Ved multiplikasjon av potenser med samme grunntall legges eksponentene sammen: aᵐ · aⁿ = aᵐ⁺ⁿ."
+          },
+          {
+            "label": "Kvadratrot",
+            "note": "Det positive tallet som ganget med seg selv gir tallet. √36 = 6 fordi 6 · 6 = 36."
+          }
+        ]
+      },
+      {
+        "label": "Regnestrategier og regneregler",
+        "children": [
+          {
+            "label": "Distributiv lov",
+            "note": "En faktor kan ganges inn i en parentes: a · (b + c) = a · b + a · c."
+          },
+          {
+            "label": "Overslag",
+            "note": "Et grovt anslag med runde tall for å sjekke om svaret er rimelig."
+          }
+        ]
+      },
+      {
+        "label": "Faktorisering og brøk",
+        "children": [
+          {
+            "label": "Primtall",
+            "note": "Et helt tall større enn 1 som bare er delelig med 1 og seg selv: 2, 3, 5, 7, 11, 13 …"
+          },
+          {
+            "label": "Fellesnevner",
+            "note": "En nevner som alle brøkene i et regnestykke kan utvides til. Trengs ved addisjon og subtraksjon."
+          }
+        ]
+      },
+      {
+        "label": "Mønstre og algebraiske uttrykk",
+        "children": [
+          {
+            "label": "Formel for et mønster",
+            "note": "Et uttrykk som gir tallet på plass n. For 3, 7, 11, 15 er formelen 4n − 1."
+          },
+          {
+            "label": "Like ledd",
+            "note": "Ledd med samme variabel i samme potens. 4a og 2a kan slås sammen til 6a."
+          }
+        ]
+      },
+      {
+        "label": "Likninger",
+        "children": [
+          {
+            "label": "Balansemetoden",
+            "note": "Gjør alltid det samme på begge sider av likhetstegnet, slik at likningen holder seg i balanse."
+          },
+          {
+            "label": "Sette prøve",
+            "note": "Sette løsningen inn i den opprinnelige likningen for å sjekke at begge sider blir like."
+          }
+        ]
+      },
+      {
+        "label": "Ulikheter",
+        "children": [
+          {
+            "label": "Løsningsmengde",
+            "note": "Alle tallene som gjør ulikheten sann. For x > 2 er det alle tall større enn 2."
+          },
+          {
+            "label": "Snu tegnet",
+            "note": "Når du ganger eller deler begge sider med et negativt tall, må ulikhetstegnet snus."
+          }
+        ]
+      },
+      {
+        "label": "Funksjoner",
+        "children": [
+          {
+            "label": "Funksjon",
+            "note": "En sammenheng der hver inngangsverdi (x) gir nøyaktig én utgangsverdi (y)."
+          },
+          {
+            "label": "Stigningstall",
+            "note": "Hvor mye y endrer seg når x øker med 1. I y = 2x + 100 er det 2."
+          }
+        ]
+      },
+      {
+        "label": "Algoritmer og programmering",
+        "children": [
+          {
+            "label": "Algoritme",
+            "note": "En nøyaktig oppskrift som løser et problem steg for steg og stopper etter et endelig antall steg."
+          },
+          {
+            "label": "Løkke",
+            "note": "En del av programmet som gjentas flere ganger."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Forenkle (3²)³.",
+        "options": [
+          "3⁵",
+          "3⁶",
+          "9⁵",
+          "3⁸"
+        ],
+        "correct": 1,
+        "explain": "Når en potens opphøyes i en ny eksponent, ganges eksponentene: 2 · 3 = 6. Svaret er 3⁶."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Når du dobler én faktor og halverer den andre, blir produktet det samme.",
+        "correct": true,
+        "explain": "Å gange med 2 og dele på 2 opphever hverandre, så produktet endres ikke."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hva er 5/6 − 1/3?",
+        "options": [
+          "4/3",
+          "1/2",
+          "4/6",
+          "1/3"
+        ],
+        "correct": 1,
+        "explain": "1/3 = 2/6. Da blir 5/6 − 2/6 = 3/6, som forkortes til 1/2."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Forenkle 2(x + 4) + 3x.",
+        "options": [
+          "5x + 4",
+          "5x + 8",
+          "6x + 4",
+          "2x + 11"
+        ],
+        "correct": 1,
+        "explain": "Gang ut parentesen: 2x + 8. Legg til 3x: 2x + 3x + 8 = 5x + 8."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Løs likningen x/4 + 2 = 5.",
+        "options": [
+          "x = 28",
+          "x = 12",
+          "x = 3",
+          "x = 7"
+        ],
+        "correct": 1,
+        "explain": "Trekk fra 2: x/4 = 3. Gang med 4: x = 12. Prøve: 12/4 + 2 = 5."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Løs ulikheten 3x − 4 ≥ 2x + 1.",
+        "options": [
+          "x ≥ 5",
+          "x ≥ −3",
+          "x ≤ 5",
+          "x ≥ 1"
+        ],
+        "correct": 0,
+        "explain": "Trekk fra 2x: x − 4 ≥ 1. Legg til 4: x ≥ 5."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilket punkt ligger på grafen til y = 2x − 1?",
+        "options": [
+          "(1, 2)",
+          "(2, 3)",
+          "(3, 4)",
+          "(0, 1)"
+        ],
+        "correct": 1,
+        "explain": "Med x = 2 blir y = 2 · 2 − 1 = 3. Punktet (2, 3) ligger derfor på grafen."
+      },
+      {
+        "id": "m08",
+        "type": "flervalg",
+        "text": "Hva gjør en if-setning?",
+        "options": [
+          "Gjentar kode",
+          "Lagrer en verdi",
+          "Skriver ut tekst",
+          "Lar programmet velge ut fra om noe er sant"
+        ],
+        "correct": 3,
+        "explain": "En if-setning sjekker en betingelse og utfører kode bare hvis betingelsen er sann."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Regn ut 16 · 25 ved å doble og halvere faktorene. Forklar kort hvorfor produktet ikke endres.",
+        "fasit": "Jeg kan halvere 16 og doble 25: 16 · 25 = 8 · 50 = 4 · 100 = 400. Produktet endres ikke når den ene faktoren halveres og den andre dobles.",
+        "kriterier": [
+          "Får produktet 400.",
+          "Forklarer at dobling av én faktor og halvering av den andre bevarer produktet."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En tallfølge starter 3, 7, 11, 15. Skriv en formel for tallet på plass n, og finn tallet på plass 5.",
+        "fasit": "Tallene øker med 4, så formelen er 4n − 1. På plass 5 blir tallet 4 · 5 − 1 = 19.",
+        "kriterier": [
+          "Oppgir formelen 4n − 1.",
+          "Finner 19 på plass 5."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En taxi tar 60 kr i startpris og 15 kr per kilometer. Skriv et uttrykk for prisen etter x kilometer, og forklar hva x, 15 og 60 betyr.",
+        "fasit": "Prisen er 15x + 60. x er antall kilometer, 15 er prisen per kilometer, og 60 er den faste startprisen.",
+        "kriterier": [
+          "Skriver uttrykket 15x + 60.",
+          "Forklarer hva variabelen, koeffisienten og konstanten står for."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En busstur koster 1200 kr pluss 150 kr per elev, og totalsummen er 5250 kr. Sett opp en likning, finn antall elever, og kontroller svaret.",
+        "fasit": "Lar vi x være antall elever, får vi 150x + 1200 = 5250. Da er 150x = 4050, så x = 27. Kontroll: 150 · 27 + 1200 = 5250.",
+        "kriterier": [
+          "Setter opp en passende likning med x som antall elever.",
+          "Finner 27 elever og kontrollerer at summen stemmer."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar forskjellen på løsningen til likningen x + 3 = 7 og ulikheten x + 3 < 7. Finn løsningene.",
+        "fasit": "Likningen har én løsning: x = 4. Ulikheten har mange løsninger: x < 4, fordi alle tall mindre enn 4 gjør venstresiden mindre enn 7.",
+        "kriterier": [
+          "Finner x = 4 for likningen.",
+          "Finner x < 4 for ulikheten og forklarer at ulikheten har flere løsninger."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et abonnement koster 100 kr pluss 2 kr per minutt. Skriv funksjonsuttrykket, finn prisen for 50 minutter, og forklar hva stigningstallet og konstantleddet betyr.",
+        "fasit": "Funksjonen er y = 2x + 100. For 50 minutter blir prisen 2 · 50 + 100 = 200 kr. Stigningstallet 2 er prisen per minutt, og konstantleddet 100 er prisen når x = 0.",
+        "kriterier": [
+          "Skriver y = 2x + 100 og finner 200 kr for 50 minutter.",
+          "Forklarer betydningen av stigningstallet og konstantleddet."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En algoritme skal finne tallet på plass n i tallfølgen 3, 7, 11, 15. Skriv en formel algoritmen kan bruke, og forklar hvorfor testing er nyttig.",
+        "fasit": "Formelen er 4n − 1, så algoritmen kan sette inn figurnummeret n og regne ut tallet. Testing med en plass der svaret er kjent, kan vise om algoritmen gir riktig resultat.",
+        "kriterier": [
+          "Oppgir formelen 4n − 1.",
+          "Forklarer at testing med kjent svar kontrollerer om algoritmen virker."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forkort brøken 18/24 fullstendig, og forklar hvordan primtallsfaktorisering kan hjelpe deg med å forkorte en brøk.",
+        "fasit": "18/24 = 3/4. Primtallsfaktorisering viser felles faktorer i teller og nevner, som kan deles bort når brøken forkortes.",
+        "kriterier": [
+          "Forkorter brøken til 3/4.",
+          "Forklarer at felles primtallsfaktorer i teller og nevner kan forkortes bort."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

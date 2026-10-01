@@ -51,6 +51,10 @@ function sjekk<R extends { data: unknown; error: { message: string } | null }>(s
 
 // Tema-ID-er er «<fag>:<slug>». I adresser brukes ?fag=…&tema=… i stedet.
 export const temaId = (fagId: string, slug: string) => `${fagId}:${slug}`;
+
+// Siste tema i hvert fag samler det viktigste fra hele faget, til tentamen og
+// eksamen (npm run content:repetisjon).
+export const REPETISJON = "repetisjon";
 export const temaHref = (side: string, id: string) => {
   const [fag, tema] = id.split(":");
   return `${side}?fag=${encodeURIComponent(fag)}&tema=${encodeURIComponent(tema)}`;

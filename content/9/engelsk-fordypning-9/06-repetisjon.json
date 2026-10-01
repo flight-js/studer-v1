@@ -1,0 +1,513 @@
+{
+  "id": "repetisjon",
+  "fagId": "engelsk-fordypning-9",
+  "trinnId": "9",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11
+  ],
+  "sammendrag": "English is used to tell stories, share ideas and communicate across different media and cultures. In this subject, you learn to analyse how messages are made, who they are for, and whether they are fair and reliable. You also practise communicating clearly and using other people’s ideas honestly.\n\n## Film language\n\nA film creates meaning through **pictures**, **sound** and **editing**, not only through words. To analyse one, consider its **content** (what it is about), **form** (how it is made) and **purpose** (why it was made). A wide **establishing shot** shows where a scene takes place; a **long shot** shows a whole person and their surroundings; a **medium shot** shows a person from the waist up; and a **close-up** shows a face and its emotions. An **extreme close-up** draws attention to a small detail. Camera angles also affect how we see characters: a **low angle** can make someone seem powerful, while a **high angle** can make them seem small or weak. A **point-of-view shot** shows what a character sees.\n\nSound can be dialogue, music, sound effects or silence. **Diegetic sound** can be heard by characters, while **non-diegetic sound** is heard only by the audience. **Editing** is how shots are put together: fast cuts create speed and tension, while slow cuts give a calmer effect. A **flashback** shows past events. Lighting helps create mood. Films have genres and often follow a narrative structure: an introduction, a **conflict**, rising action, a **climax** and a resolution. A film may entertain, inform, persuade or make us reflect, and its techniques suit its **target audience**. When writing about a film, name it, summarise the plot, analyse techniques with examples and explain your evaluation.\n\n## Storytelling across media\n\nA **medium** is a way of communicating a story, such as a book, film, podcast or game. A text may present information, **narrate** a story or explain how or why something happens. Stories often have a **protagonist** who wants something, a **setting** (where and when the story takes place), a **plot** and a **conflict**. A narrator may tell the story in the **first person** using “I” or in the **third person** using “he”, “she” or “they”. **Show, don’t tell** means conveying feelings through actions and details rather than simply naming them.\n\nA **multimodal text** combines modes such as writing, speech, pictures, sound, movement and **layout**. The modes can work together: pictures show settings or feelings, sound creates mood, writing adds detail, and layout guides the reader’s eye. Different media use different techniques. Comics use panels, speech bubbles and captions; podcasts use voices and sounds; short videos benefit from a strong **hook** at the start; blogs combine writing with pictures and links; and video games let players make choices. To plan a digital product, decide its purpose and audience, choose a suitable medium, make a **storyboard**, create and improve it using feedback, and respect copyright.\n\n## Point of view, sender and bias\n\nEvery message has a **sender** and a purpose. The sender’s background, interests and **point of view** can affect what is said and how it is presented. In fiction, a first-person narrator may be **unreliable**; a third-person limited narrator follows one character, while an **omniscient narrator** knows what everyone thinks and feels. The same event can seem different from another character’s perspective.\n\nNon-fiction messages, including news, adverts and social media posts, also have points of view. Ask who made the message, who it is for, what the sender wants, what is included or left out, and what words and images are used. **Bias** is presenting something in a one-sided or unfair way. It can appear through selective facts, **loaded words**, pictures, headlines or the order of information. **Framing** is how a story is presented and affects how we understand it. A **fact** can be checked and proved true or false; an **opinion** is what someone thinks or feels. Looking for different perspectives can give a fuller picture.\n\n## Cultures of communication\n\nCommunication is shaped by **culture**, including language, values, traditions and experiences. English often serves as a **lingua franca**, a shared language between people with different first languages. Communication may be **direct**, saying exactly what is meant, or **indirect**, hinting to avoid a direct refusal and protect relationships. A phrase such as “That might be difficult” can mean no. In many English-speaking countries, **small talk** helps build relationships, and “How are you?” is usually a greeting. Polite expressions such as “please” and “could you” can help communication.\n\nBody language, eye contact, gestures and **personal space** vary across cultures; emojis can also be interpreted differently. **Online communities** have their own **norms**, slang and rules, and online and offline communication influence one another. People may also differ in their views of time, hierarchy, individualism and collectivism. These differences are not simply right or wrong. To communicate well, be open-minded, ask when unsure, adapt your language and avoid **stereotypes**, which are simplified ideas about groups.\n\n## Reliable sources and honest use\n\nNot all online information is trustworthy. **Misinformation** is false information often shared by people who believe it; **disinformation** is false information spread on purpose. Evaluate a source by asking who made it and why, whether it is up to date, what evidence it gives and whether other reliable sources agree. A source’s expertise, evidence and purpose help you judge its reliability. **Lateral reading** means checking other sources and information about the sender instead of relying on one website. Reverse image searches and fact-checking websites can help check claims or pictures. Be careful with content designed to make you angry or excited.\n\nAI chatbots can help with ideas and explanations, but may give wrong facts or invent sources, so check important information. A **quote** uses exact words in quotation marks and names the source. A **paraphrase** explains an idea in your own words but still credits the source. Keep a **bibliography** with source details. Using words or ideas without credit is **plagiarism**. Respect privacy and copyright: do not share other people’s personal information or pictures without consent, and use material you are allowed to use.\n\n## Sammenhenger i faget\n\nStories and messages are shaped by their medium, their audience and the choices made by their creators. Film techniques and multimodal modes affect what an audience notices and feels. Point of view, framing and culture influence how a message is understood, so critical readers ask who created it, what is included and how it is presented. Evaluating sources and using them honestly helps make your own communication more trustworthy.\n\n## Huskeliste før prøven\n\n- Identify a film’s shots, angles, sound, editing and lighting, and explain their effects.\n- Recognise a story’s protagonist, setting, plot, conflict and climax.\n- Distinguish first-person, third-person limited and omniscient narration.\n- Explain how modes work together in a multimodal text.\n- Ask who sent a message, its purpose and its target audience.\n- Distinguish facts from opinions and recognise bias, loaded words and framing.\n- Be aware that communication norms and interpretations vary across cultures.\n- Check a source’s author, purpose, date, evidence and agreement with other sources.\n- Credit quoted and paraphrased ideas, and respect privacy and copyright.",
+  "flashcards": [
+    {
+      "term": "Establishing shot",
+      "def": "A wide shot that shows where a scene takes place.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Diegetic sound",
+      "def": "Sound the characters can hear, like dialogue or footsteps.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Editing",
+      "def": "How the shots are put together."
+    },
+    {
+      "term": "Protagonist",
+      "def": "The main character, who usually wants something."
+    },
+    {
+      "term": "Conflict",
+      "def": "The main problem or struggle in a story."
+    },
+    {
+      "term": "Multimodal text",
+      "def": "A text that combines modes like words, pictures and sound."
+    },
+    {
+      "term": "Bias",
+      "def": "Presenting something in a one-sided or unfair way."
+    },
+    {
+      "term": "Framing",
+      "def": "How a story is presented, which affects how we understand it."
+    },
+    {
+      "term": "Fact",
+      "def": "Something that can be checked and proved true or false."
+    },
+    {
+      "term": "Direct communication",
+      "def": "Saying exactly what you mean."
+    },
+    {
+      "term": "Indirect communication",
+      "def": "Hinting and avoiding a direct no to protect relationships."
+    },
+    {
+      "term": "Online community",
+      "def": "A group of people who meet and interact online."
+    },
+    {
+      "term": "Reliable source",
+      "def": "A source you can trust because of its expertise, evidence and purpose."
+    },
+    {
+      "term": "Disinformation",
+      "def": "False information spread on purpose to deceive."
+    },
+    {
+      "term": "Plagiarism",
+      "def": "Using someone's words or ideas without giving credit."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Which shot shows a character's face and emotions?",
+      "options": [
+        "Long shot",
+        "Extreme long shot",
+        "Close-up",
+        "Establishing shot"
+      ],
+      "correct": 2,
+      "explain": "Close-ups bring us near the character's feelings.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q02",
+      "text": "What is non-diegetic sound?",
+      "options": [
+        "Dialogue between characters",
+        "Footsteps in the scene",
+        "A door slamming in the scene",
+        "Sound only the audience hears, like background music"
+      ],
+      "correct": 3,
+      "explain": "The characters cannot hear the background music.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q03",
+      "text": "What do fast cuts usually create?",
+      "options": [
+        "Calm",
+        "Speed and tension",
+        "Silence",
+        "A happy ending"
+      ],
+      "correct": 1,
+      "explain": "Fast cuts are common in action scenes.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q04",
+      "text": "What is a multimodal text?",
+      "options": [
+        "A text with many chapters",
+        "A text that combines modes like words, pictures and sound",
+        "A text in many languages",
+        "A very long novel"
+      ],
+      "correct": 1,
+      "explain": "Comics and videos are typical multimodal texts."
+    },
+    {
+      "id": "q05",
+      "text": "What is a protagonist?",
+      "options": [
+        "The main character, who usually wants something",
+        "The villain",
+        "The narrator of a podcast",
+        "The setting"
+      ],
+      "correct": 0,
+      "explain": "The protagonist's goal drives the story forward."
+    },
+    {
+      "id": "q06",
+      "text": "What is a storyboard?",
+      "options": [
+        "A plan with sketches of what the audience will see and hear",
+        "A board game",
+        "A list of characters",
+        "The final version of a film"
+      ],
+      "correct": 0,
+      "explain": "Storyboards help you plan videos and comics.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q07",
+      "text": "What is bias?",
+      "options": [
+        "Presenting something in a one-sided or unfair way",
+        "A type of narrator",
+        "A fact that can be checked",
+        "A news headline"
+      ],
+      "correct": 0,
+      "explain": "Bias can be both conscious and unconscious."
+    },
+    {
+      "id": "q08",
+      "text": "Which sentence is an opinion?",
+      "options": [
+        "London is the capital of the UK.",
+        "London is the best city in the world.",
+        "London has millions of inhabitants.",
+        "The Thames flows through London."
+      ],
+      "correct": 1,
+      "explain": "“The best” is a judgement that cannot be proved."
+    },
+    {
+      "id": "q09",
+      "text": "Which question helps you think critically about a message?",
+      "options": [
+        "How many words does it have?",
+        "What font is used?",
+        "Is it printed or digital?",
+        "What is included, and what is left out?"
+      ],
+      "correct": 3,
+      "explain": "What is missing can be as important as what is there."
+    },
+    {
+      "id": "q10",
+      "text": "What might “That might be difficult” mean in an indirect culture?",
+      "options": [
+        "Yes, definitely",
+        "No",
+        "I don't understand",
+        "Let's start now"
+      ],
+      "correct": 1,
+      "explain": "Indirect speakers often avoid saying no directly."
+    },
+    {
+      "id": "q11",
+      "text": "What is a good way to avoid misunderstandings across cultures?",
+      "options": [
+        "Always assume you are right",
+        "Ask if you are unsure what someone means",
+        "Rely on stereotypes",
+        "Avoid talking to people"
+      ],
+      "correct": 1,
+      "explain": "Asking shows interest and prevents mistakes."
+    },
+    {
+      "id": "q12",
+      "text": "What is disinformation?",
+      "options": [
+        "Information that is out of date",
+        "Information in another language",
+        "False information spread on purpose",
+        "Information from a university"
+      ],
+      "correct": 2,
+      "explain": "Disinformation is meant to deceive."
+    },
+    {
+      "id": "q13",
+      "text": "What is a paraphrase?",
+      "options": [
+        "An exact quote",
+        "Explaining an idea in your own words",
+        "A list of sources",
+        "A picture"
+      ],
+      "correct": 1,
+      "explain": "You must still name the source when you paraphrase."
+    },
+    {
+      "id": "q14",
+      "text": "What should you remember about AI chatbots?",
+      "options": [
+        "They are always correct",
+        "They never make mistakes about sources",
+        "They should replace all other sources",
+        "They can make things up and invent sources"
+      ],
+      "correct": 3,
+      "explain": "Always check important facts in reliable sources.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q15",
+      "text": "What must you do when you quote someone's exact words?",
+      "options": [
+        "Change some words",
+        "Hide the source",
+        "Translate them into Norwegian",
+        "Use quotation marks and name the source"
+      ],
+      "correct": 3,
+      "explain": "This shows clearly which words are not your own."
+    }
+  ],
+  "mindmap": {
+    "label": "Engelsk fordypning",
+    "children": [
+      {
+        "label": "Film language",
+        "children": [
+          {
+            "label": "Establishing shot",
+            "note": "A wide shot that shows where a scene takes place."
+          },
+          {
+            "label": "Diegetic sound",
+            "note": "Sound the characters can hear, like dialogue or footsteps."
+          },
+          {
+            "label": "Editing",
+            "note": "How the shots are put together."
+          }
+        ]
+      },
+      {
+        "label": "Storytelling across media",
+        "children": [
+          {
+            "label": "Protagonist",
+            "note": "The main character, who usually wants something."
+          },
+          {
+            "label": "Conflict",
+            "note": "The main problem or struggle in a story."
+          },
+          {
+            "label": "Multimodal text",
+            "note": "A text that combines modes like words, pictures and sound."
+          }
+        ]
+      },
+      {
+        "label": "Point of view, sender and bias",
+        "children": [
+          {
+            "label": "Bias",
+            "note": "Presenting something in a one-sided or unfair way."
+          },
+          {
+            "label": "Framing",
+            "note": "How a story is presented, which affects how we understand it."
+          },
+          {
+            "label": "Fact",
+            "note": "Something that can be checked and proved true or false."
+          }
+        ]
+      },
+      {
+        "label": "Cultures of communication",
+        "children": [
+          {
+            "label": "Direct communication",
+            "note": "Saying exactly what you mean."
+          },
+          {
+            "label": "Indirect communication",
+            "note": "Hinting and avoiding a direct no to protect relationships."
+          },
+          {
+            "label": "Online community",
+            "note": "A group of people who meet and interact online."
+          }
+        ]
+      },
+      {
+        "label": "Reliable sources and honest use",
+        "children": [
+          {
+            "label": "Reliable source",
+            "note": "A source you can trust because of its expertise, evidence and purpose."
+          },
+          {
+            "label": "Disinformation",
+            "note": "False information spread on purpose to deceive."
+          },
+          {
+            "label": "Plagiarism",
+            "note": "Using someone's words or ideas without giving credit."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Silence can never be used as an effect in films.",
+        "correct": false,
+        "explain": "Sudden silence can create strong tension.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Which of these is diegetic sound?",
+        "options": [
+          "A character's voice in a conversation",
+          "Background music added later",
+          "A narrator nobody in the film hears",
+          "The theme song over the credits"
+        ],
+        "correct": 0,
+        "explain": "The other characters in the scene can hear the voice.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "What is the conflict in a story?",
+        "options": [
+          "The main problem or struggle",
+          "The title",
+          "The setting",
+          "The last page"
+        ],
+        "correct": 0,
+        "explain": "Without a conflict, there is little to drive the story."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Photos and camera angles can frame a news story.",
+        "correct": true,
+        "explain": "The choice of picture affects how we understand the story."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Online communities often have their own norms and slang.",
+        "correct": true,
+        "explain": "New members learn these unwritten rules over time."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "A film shows a character’s face in a close-up while non-diegetic music plays. Explain what each technique can add to the scene.",
+        "fasit": "A close-up shows the character’s emotions. Non-diegetic music is heard only by the audience and can help create a mood or feeling.",
+        "kriterier": [
+          "Explains that a close-up shows facial emotion.",
+          "Identifies non-diegetic music as sound only the audience hears and explains that sound can create mood."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s02",
+        "text": "Explain the difference between a first-person narrator and an omniscient narrator.",
+        "fasit": "A first-person narrator is a character who tells the story using “I” and may only know their own thoughts. An omniscient narrator knows what everyone thinks and feels.",
+        "kriterier": [
+          "Identifies first-person narration with “I” and a narrator who is a character.",
+          "Explains that an omniscient narrator knows what everyone thinks and feels."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Two news headlines describe the same statistics in different ways. Explain how this can affect readers and name one other way a news story can be framed.",
+        "fasit": "Different headlines can create different impressions of the same information. Photos, camera angles or the order of information can also frame a story.",
+        "kriterier": [
+          "Explains that framing affects how readers understand information.",
+          "Gives a valid example, such as photos, camera angles or the order of information."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "You are planning a short video for a particular audience. Explain how you could use a hook and a storyboard to plan it, and name one other mode that could help communicate its message.",
+        "fasit": "I would plan a hook that catches the audience’s attention in the first seconds. A storyboard would plan what the audience will see and hear. I could also use written words, pictures, sound or music to help communicate the message.",
+        "kriterier": [
+          "Explains that a hook catches attention at the beginning.",
+          "Explains that a storyboard plans what the audience will see and hear.",
+          "Names a suitable mode, such as writing, pictures, sound or music."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s05",
+        "text": "You see a social media post with an emotional claim and no references. Explain two ways to check whether its information is reliable.",
+        "fasit": "I would check who made the post and what evidence it gives. I would use lateral reading to see what other reliable sources say, and I could check the claim on a fact-checking website.",
+        "kriterier": [
+          "Names a relevant source check, such as checking the sender, purpose, evidence or date.",
+          "Names lateral reading, comparison with reliable sources or a fact-checking website."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "A person says “That might be difficult” when asked to do something. Explain how this phrase may be understood in an indirect culture and how asking a question could help.",
+        "fasit": "In an indirect culture, “That might be difficult” may be a way of saying no without saying it directly. Asking what the person means can help avoid a misunderstanding.",
+        "kriterier": [
+          "Explains that the phrase may mean no in indirect communication.",
+          "Explains that asking for clarification can prevent misunderstanding."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Explain the difference between misinformation and disinformation, and name one way to check a claim.",
+        "fasit": "Misinformation is false information often shared by people who believe it is true. Disinformation is false information spread on purpose. A claim can be checked by comparing it with reliable sources or using a fact-checking website.",
+        "kriterier": [
+          "Distinguishes false information shared by someone who believes it from false information spread deliberately.",
+          "Names a valid checking method, such as comparing reliable sources or fact-checking."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s08",
+        "text": "You use an idea from a website in a school presentation and include a picture of another person. Explain how to use the idea honestly and what to consider before using the picture.",
+        "fasit": "I should name the source whether I quote its exact words or paraphrase the idea in my own words. Before using the picture, I should make sure I am allowed to use it and have consent to share it.",
+        "kriterier": [
+          "Explains that both quotes and paraphrases need a named source; a quote uses quotation marks.",
+          "Mentions permission or copyright and consent before sharing another person’s picture."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

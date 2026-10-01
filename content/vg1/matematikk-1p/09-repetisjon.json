@@ -1,0 +1,600 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-1p",
+  "trinnId": "vg1",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sammendrag": "Matematikk 1P handler om å bruke matematikk til å beskrive og løse praktiske situasjoner. Du øver på å regne, lage og tolke formler og grafer, og vurdere om svar og modeller er rimelige.\n\n## Potenser, røtter og standardform\n\nEn **potens** er gjentatt multiplikasjon: I 2⁵ er 2 grunntallet og 5 eksponenten. Ved multiplikasjon av potenser med samme grunntall legges eksponentene sammen, aᵐ · aⁿ = aᵐ⁺ⁿ; ved divisjon trekkes de fra, aᵐ : aⁿ = aᵐ⁻ⁿ. En potens opphøyd i en ny potens gir aᵐⁿ. Videre er a⁰ = 1 og a⁻ⁿ = 1/aⁿ, altså en brøk – ikke et negativt tall. **Kvadratroten** er det positive tallet som ganget med seg selv gir tallet, og √(ab) = √a · √b. Kvadratrot av en sum kan ikke splittes på samme måte. **Standardform** er a · 10ⁿ, der 1 ≤ a < 10. Ved multiplikasjon og divisjon regner du tall og tierpotenser hver for seg, og justerer resultatet til standardform ved behov.\n\n## Prosent, prosentpoeng og promille\n\n**Prosent** betyr hundredeler, så prosentregning gjøres ofte ved å skrive prosenten som desimaltall. For å finne prosentdelen ganger du det hele med desimaltallet; for å finne prosenten deler du delen på det hele; for å finne det hele deler du delen på prosenten som desimaltall. Prosentvis endring er (ny verdi − gammel verdi) / gammel verdi · 100 %, altså deler du på den gamle verdien. **Prosentpoeng** er differansen mellom to prosenttall, mens prosentvis endring sammenligner differansen med den opprinnelige prosenten. **Promille** betyr tusendeler, og 1 % = 10 ‰. For å legge til 25 % moms ganger du prisen uten moms med 1,25; for å finne pris uten moms deler du prisen med moms på 1,25. En rabatt på 30 % betyr at 70 % av prisen står igjen.\n\n## Vekstfaktor, rente og lån\n\nEn **vekstfaktor** gjør prosentvis endring om til multiplikasjon: Ved økning på p % er den 1 + p/100, og ved nedgang er den 1 − p/100. Ny verdi = gammel verdi · vekstfaktor; gammel verdi = ny verdi / vekstfaktor. Flere endringer etter hverandre beregnes ved å gange vekstfaktorene. Med **renters rente** legges rentene til beløpet, slik at de også gir rente: Beløp = K · aⁿ. Samme type beregning beskriver gjentatt verdifall, med vekstfaktor under 1. På lån består **terminbeløpet** av renter og avdrag. I serielån er avdragene like og terminbeløpene synker; i annuitetslån er terminbeløpene like. **Effektiv rente** inkluderer gebyrer og andre kostnader og brukes når lån sammenlignes. Beregninger avhenger av premisser, blant annet rente og tid.\n\n## Proporsjonalitet og omvendt proporsjonalitet\n\nStørrelser er **proporsjonale** hvis forholdet y/x er konstant: y = kx. Grafen er en rett linje gjennom origo, og når x dobles, dobles y. Størrelser er **omvendt proporsjonale** hvis produktet xy er konstant: y = k/x. Når x dobles, halveres y, og grafen er en hyperbel. Sjekk en tabell ved å undersøke om forholdet eller produktet er konstant. En lineær sammenheng som y = 3x + 2 er ikke proporsjonal fordi grafen ikke går gjennom origo. **Forhold** sammenligner størrelser ved divisjon; målestokk og blandingsforhold er praktiske eksempler. Vurder om den aktuelle situasjonen faktisk følger sammenhengen.\n\n## Sammensatte måleenheter\n\nEn **sammensatt måleenhet** som km/h, kr/kg eller g/cm³ viser hvor mye det er per enhet. Fart = strekning / tid, v = s/t; dermed er s = vt og t = s/v. 1 m/s = 3,6 km/h: del på 3,6 for å gjøre km/h om til m/s, og gang med 3,6 motsatt vei. **Tetthet** = masse / volum, og **enhetspris** er pris per enhet. Energi i kWh = effekt i kW · tid i timer. Husk at 1 kW = 1000 W og 1 mil = 10 km; drivstofforbruk oppgis ofte i liter per mil. Gjør enhetene passende før du regner, skriv enhet i svaret, og kontroller at svaret er rimelig.\n\n## Formler, variabler og tekstoppgaver\n\nEn **variabel** kan endre seg, mens en **konstant** er fast i situasjonen. En formel viser sammenhengen mellom størrelser, som taxiuttrykket P = 50 + 15x eller fartformelen s = vt. Finn ut hva bokstavene og enhetene betyr før du setter inn verdier. Når du skal finne en annen størrelse, kan du **snu formelen** ved å gjøre det samme på begge sider, for eksempel s = vt blir t = s/v. Å generalisere er å lage en formel som gjelder alle tilfeller, for eksempel K = 150n + 50 for en pris med stykkpris og fast gebyr. I tekstoppgaver: Finn spørsmålet og relevante tall, sett opp formel eller regnestykke, regn ut, vurder svaret og presenter det med enhet og forklaring.\n\n## Funksjoner og grafer\n\nEn **funksjon** gir nøyaktig én y-verdi for hver x-verdi. Den kan vises med formel, tabell, graf eller ord, og **definisjonsmengden** angir hvilke x-verdier som er aktuelle. En lineær funksjon f(x) = ax + b har rett linje som graf. **Stigningstallet** a viser endringen i y når x øker med 1; **konstantleddet** b er verdien når x = 0 og grafens skjæring med y-aksen. Eksponentialfunksjonen f(x) = b · aˣ beskriver fast prosentvis endring: Lineær vekst er en fast økning med et tall, mens eksponentiell vekst er en fast prosent. Omvendt proporsjonale funksjoner gir hyperbel, og andregradsfunksjoner gir parabel. Et **nullpunkt** ligger der grafen skjærer x-aksen; et skjæringspunkt er der to grafer møtes. Digitale verktøy kan finne slike punkter, men du må tolke hva resultatet betyr.\n\n## Matematisk modellering\n\nEn **matematisk modell** er en forenklet beskrivelse av en del av virkeligheten, ofte en funksjon, som kan brukes til å forstå sammenhenger og lage prognoser. Modelleringsarbeidet går fra å forstå problemet og velge premisser til å lage og bruke modellen, tolke resultatet, vurdere det og presentere det. **Regresjon** finner en funksjon som passer best til data: Bruk ofte lineær modell når data endrer seg med omtrent samme antall per periode, og eksponentiell modell når de endrer seg med omtrent samme prosent. Sjekk om punktene ligger nær grafen. En modell har et **gyldighetsområde**; utenfor dette området er ekstrapolering usikker. Endrede premisser kan påvirke prognosen, så vis antakelsene og vurder modellens svakheter og samsvar med virkeligheten.\n\n## Sammenhenger i faget\n\nProsentvis endring blir til vekstfaktor, og gjentatte vekstfaktorer brukes i renter, verdifall og eksponentialfunksjoner. Funksjoner kan beskrive proporsjonale sammenhenger, praktiske formler og modeller som er laget fra data. Måleenheter og forhold hjelper deg å tolke størrelsene i slike sammenhenger. Gjennom hele faget må du velge framgangsmåte, oppgi premisser og enheter, og undersøke om svaret gir mening i situasjonen.\n\n## Huskeliste før prøven\n\n- Skriv prosent som desimaltall før du regner.\n- Skill mellom prosent og prosentpoeng.\n- Bruk riktig vekstfaktor for økning eller nedgang.\n- Sjekk om forhold eller produkt er konstant.\n- Pass på at enhetene passer sammen.\n- Forklar hva variablene i en formel betyr.\n- Skill mellom fast økning og fast prosentvis endring.\n- Vurder modellens premisser og gyldighetsområde.\n- Skriv enhet og vurder om svaret er rimelig.",
+  "flashcards": [
+    {
+      "term": "a^m · a^n",
+      "def": "a^(m+n) – eksponentene legges sammen."
+    },
+    {
+      "term": "a⁻ⁿ",
+      "def": "1/aⁿ, for eksempel 2⁻³ = 1/8."
+    },
+    {
+      "term": "Standardform",
+      "def": "a · 10ⁿ der 1 ≤ a < 10."
+    },
+    {
+      "term": "Prosentvis endring",
+      "def": "(ny − gammel) / gammel · 100 %."
+    },
+    {
+      "term": "Prosentpoeng",
+      "def": "Differansen mellom to prosenttall: fra 20 % til 25 % er 5 prosentpoeng."
+    },
+    {
+      "term": "Legge til 25 % moms",
+      "def": "Gang prisen med 1,25."
+    },
+    {
+      "term": "Vekstfaktor ved økning",
+      "def": "1 + p/100, for eksempel 1,08 ved 8 % økning."
+    },
+    {
+      "term": "Renters rente",
+      "def": "At rentene legges til beløpet og også gir rente."
+    },
+    {
+      "term": "Serielån",
+      "def": "Lån med likt avdrag og synkende terminbeløp."
+    },
+    {
+      "term": "Effektiv rente",
+      "def": "Rente inkludert gebyrer og andre kostnader."
+    },
+    {
+      "term": "Proporsjonale størrelser",
+      "def": "Størrelser der forholdet y/x er konstant."
+    },
+    {
+      "term": "Omvendt proporsjonale størrelser",
+      "def": "Størrelser der produktet x · y er konstant."
+    },
+    {
+      "term": "Målestokk",
+      "def": "Forholdet mellom avstand på kart eller tegning og virkeligheten."
+    },
+    {
+      "term": "Fart",
+      "def": "Strekning / tid, v = s/t."
+    },
+    {
+      "term": "Tetthet",
+      "def": "Masse / volum, for eksempel g/cm³."
+    },
+    {
+      "term": "Enhetspris",
+      "def": "Pris per enhet, som kr/kg eller kr/L."
+    },
+    {
+      "term": "kWh",
+      "def": "Energienhet: effekt i kW ganger tid i timer."
+    },
+    {
+      "term": "Variabel",
+      "def": "En størrelse som kan endre seg."
+    },
+    {
+      "term": "Snu en formel",
+      "def": "Å løse formelen med hensyn på en annen størrelse."
+    },
+    {
+      "term": "Generalisere",
+      "def": "Å finne en formel som gjelder alle tilfeller."
+    },
+    {
+      "term": "Lineær funksjon",
+      "def": "f(x) = ax + b, grafen er en rett linje."
+    },
+    {
+      "term": "Eksponentialfunksjon",
+      "def": "f(x) = b · aˣ, fast prosentvis endring."
+    },
+    {
+      "term": "Nullpunkt",
+      "def": "Der grafen skjærer x-aksen."
+    },
+    {
+      "term": "Matematisk modell",
+      "def": "Forenklet matematisk beskrivelse av en del av virkeligheten."
+    },
+    {
+      "term": "Regresjon",
+      "def": "Å finne funksjonen som passer best til data."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvordan skrives 0,00073 på standardform?",
+      "options": [
+        "7,3 · 10⁻⁴",
+        "7,3 · 10⁴",
+        "73 · 10⁻⁵",
+        "7,3 · 10⁻³"
+      ],
+      "correct": 0,
+      "explain": "Kommaet flyttes 4 plasser til høyre, så eksponenten blir −4."
+    },
+    {
+      "id": "q02",
+      "text": "Et parti går fra 20 % til 25 % oppslutning. Hvor mange prosentpoeng økte det?",
+      "options": [
+        "5 prosentpoeng",
+        "25 prosentpoeng",
+        "20 prosentpoeng",
+        "45 prosentpoeng"
+      ],
+      "correct": 0,
+      "explain": "25 − 20 = 5 prosentpoeng."
+    },
+    {
+      "id": "q03",
+      "text": "En vare koster 500 kr med 25 % moms. Hva koster den uten moms?",
+      "options": [
+        "375 kr",
+        "475 kr",
+        "125 kr",
+        "400 kr"
+      ],
+      "correct": 3,
+      "explain": "500 / 1,25 = 400. Momsen er 25 % av prisen uten moms."
+    },
+    {
+      "id": "q04",
+      "text": "Etter en prisøkning på 25 % koster en vare 750 kr. Hva kostet den før?",
+      "options": [
+        "562,50 kr",
+        "600 kr",
+        "725 kr",
+        "937,50 kr"
+      ],
+      "correct": 1,
+      "explain": "750 / 1,25 = 600."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er renters rente?",
+      "options": [
+        "At banken tar dobbel rente",
+        "At rentene legges til beløpet og også gir rente senere",
+        "At renten er fast",
+        "At man betaler rente to ganger i året"
+      ],
+      "correct": 1,
+      "explain": "Derfor vokser sparepenger raskere og raskere."
+    },
+    {
+      "id": "q06",
+      "text": "4 personer bruker 6 timer på en jobb. Hvor lang tid bruker 8 personer som jobber like raskt?",
+      "options": [
+        "3 timer",
+        "12 timer",
+        "2 timer",
+        "6 timer"
+      ],
+      "correct": 0,
+      "explain": "Jobben tar 24 arbeidstimer, og 24/8 = 3."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er 72 km/h i m/s?",
+      "options": [
+        "7,2 m/s",
+        "20 m/s",
+        "259,2 m/s",
+        "72 m/s"
+      ],
+      "correct": 1,
+      "explain": "72 / 3,6 = 20."
+    },
+    {
+      "id": "q08",
+      "text": "En ovn på 2000 W står på i 3 timer. Hvor mye energi bruker den?",
+      "options": [
+        "6 kWh",
+        "6000 kWh",
+        "0,6 kWh",
+        "667 kWh"
+      ],
+      "correct": 0,
+      "explain": "2 kW · 3 h = 6 kWh."
+    },
+    {
+      "id": "q09",
+      "text": "Billetter koster 150 kr stykket pluss 50 kr i gebyr per bestilling. Hvilken formel gir prisen K for n billetter?",
+      "options": [
+        "K = 150n + 50",
+        "K = 200n",
+        "K = 50n + 150",
+        "K = 150 + 50 + n"
+      ],
+      "correct": 0,
+      "explain": "150 per billett og et fast gebyr på 50."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er forskjellen på lineær og eksponentiell vekst?",
+      "options": [
+        "Lineær vekst øker med et fast tall, eksponentiell med en fast prosent",
+        "Det er ingen forskjell",
+        "Lineær vekst går alltid raskest",
+        "Eksponentiell vekst øker med et fast tall"
+      ],
+      "correct": 0,
+      "explain": "Eksponentiell vekst blir etter hvert mye raskere."
+    },
+    {
+      "id": "q11",
+      "text": "Hva er gyldighetsområdet til en modell?",
+      "options": [
+        "Verdiene der modellen gir rimelige svar",
+        "Alle tall",
+        "Bare x = 0",
+        "Området på kartet"
+      ],
+      "correct": 0,
+      "explain": "Utenfor gyldighetsområdet kan modellen gi urimelige svar."
+    },
+    {
+      "id": "q12",
+      "text": "Hva er regresjon?",
+      "options": [
+        "Å tegne en figur",
+        "Å løse en likning",
+        "Å regne prosent",
+        "Å finne funksjonen som passer best til data"
+      ],
+      "correct": 3,
+      "explain": "GeoGebra har kommandoer som RegLin og RegEksp."
+    },
+    {
+      "id": "q13",
+      "text": "Data øker med omtrent samme prosent hvert år. Hvilken modell passer best?",
+      "options": [
+        "Eksponentiell",
+        "Lineær",
+        "Omvendt proporsjonal",
+        "Konstant"
+      ],
+      "correct": 0,
+      "explain": "Fast prosentvis vekst er eksponentiell."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk 1P",
+    "children": [
+      {
+        "label": "Potenser, røtter og standardform",
+        "children": [
+          {
+            "label": "a^m · a^n",
+            "note": "a^(m+n) – eksponentene legges sammen."
+          },
+          {
+            "label": "a⁻ⁿ",
+            "note": "1/aⁿ, for eksempel 2⁻³ = 1/8."
+          },
+          {
+            "label": "Standardform",
+            "note": "a · 10ⁿ der 1 ≤ a < 10."
+          }
+        ]
+      },
+      {
+        "label": "Prosent, prosentpoeng og promille",
+        "children": [
+          {
+            "label": "Prosentvis endring",
+            "note": "(ny − gammel) / gammel · 100 %."
+          },
+          {
+            "label": "Prosentpoeng",
+            "note": "Differansen mellom to prosenttall: fra 20 % til 25 % er 5 prosentpoeng."
+          },
+          {
+            "label": "Legge til 25 % moms",
+            "note": "Gang prisen med 1,25."
+          }
+        ]
+      },
+      {
+        "label": "Vekstfaktor, rente og lån",
+        "children": [
+          {
+            "label": "Vekstfaktor ved økning",
+            "note": "1 + p/100, for eksempel 1,08 ved 8 % økning."
+          },
+          {
+            "label": "Renters rente",
+            "note": "At rentene legges til beløpet og også gir rente."
+          },
+          {
+            "label": "Serielån",
+            "note": "Lån med likt avdrag og synkende terminbeløp."
+          },
+          {
+            "label": "Effektiv rente",
+            "note": "Rente inkludert gebyrer og andre kostnader."
+          }
+        ]
+      },
+      {
+        "label": "Proporsjonalitet og omvendt proporsjonalitet",
+        "children": [
+          {
+            "label": "Proporsjonale størrelser",
+            "note": "Størrelser der forholdet y/x er konstant."
+          },
+          {
+            "label": "Omvendt proporsjonale størrelser",
+            "note": "Størrelser der produktet x · y er konstant."
+          },
+          {
+            "label": "Målestokk",
+            "note": "Forholdet mellom avstand på kart eller tegning og virkeligheten."
+          }
+        ]
+      },
+      {
+        "label": "Sammensatte måleenheter",
+        "children": [
+          {
+            "label": "Fart",
+            "note": "Strekning / tid, v = s/t."
+          },
+          {
+            "label": "Tetthet",
+            "note": "Masse / volum, for eksempel g/cm³."
+          },
+          {
+            "label": "Enhetspris",
+            "note": "Pris per enhet, som kr/kg eller kr/L."
+          },
+          {
+            "label": "kWh",
+            "note": "Energienhet: effekt i kW ganger tid i timer."
+          }
+        ]
+      },
+      {
+        "label": "Formler, variabler og tekstoppgaver",
+        "children": [
+          {
+            "label": "Variabel",
+            "note": "En størrelse som kan endre seg."
+          },
+          {
+            "label": "Snu en formel",
+            "note": "Å løse formelen med hensyn på en annen størrelse."
+          },
+          {
+            "label": "Generalisere",
+            "note": "Å finne en formel som gjelder alle tilfeller."
+          }
+        ]
+      },
+      {
+        "label": "Funksjoner og grafer",
+        "children": [
+          {
+            "label": "Lineær funksjon",
+            "note": "f(x) = ax + b, grafen er en rett linje."
+          },
+          {
+            "label": "Eksponentialfunksjon",
+            "note": "f(x) = b · aˣ, fast prosentvis endring."
+          },
+          {
+            "label": "Nullpunkt",
+            "note": "Der grafen skjærer x-aksen."
+          }
+        ]
+      },
+      {
+        "label": "Matematisk modellering",
+        "children": [
+          {
+            "label": "Matematisk modell",
+            "note": "Forenklet matematisk beskrivelse av en del av virkeligheten."
+          },
+          {
+            "label": "Regresjon",
+            "note": "Å finne funksjonen som passer best til data."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "12 · 10³ er skrevet på standardform.",
+        "correct": false,
+        "explain": "Tallet foran må være mindre enn 10. Riktig er 1,2 · 10⁴."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Hvis en pris først økes med 10 % og så senkes med 10 %, blir den som før.",
+        "correct": false,
+        "explain": "1,10 · 0,90 = 0,99, så prisen blir 1 % lavere."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hva kjennetegner et annuitetslån?",
+        "options": [
+          "Lånet har ingen rente",
+          "Avdraget er likt hver gang",
+          "Terminbeløpet er likt hver gang",
+          "Lånet betales tilbake på én gang"
+        ],
+        "correct": 2,
+        "explain": "De fleste boliglån er annuitetslån."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Hvis y halveres når x dobles, er x og y proporsjonale.",
+        "correct": false,
+        "explain": "Da er de omvendt proporsjonale."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "En kloss har masse 200 g og volum 25 cm³. Hva er tettheten?",
+        "options": [
+          "0,125 g/cm³",
+          "8 g/cm³",
+          "5000 g/cm³",
+          "225 g/cm³"
+        ],
+        "correct": 1,
+        "explain": "200/25 = 8."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Et abonnement koster 199 kr per måned pluss 0,50 kr per SMS. Hva koster en måned med 60 SMS?",
+        "options": [
+          "229 kr",
+          "259 kr",
+          "199,50 kr",
+          "30 kr"
+        ],
+        "correct": 0,
+        "explain": "199 + 0,50 · 60 = 199 + 30 = 229."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er nullpunktet til f(x) = −2x + 10?",
+        "options": [
+          "x = −5",
+          "x = 10",
+          "x = 5",
+          "x = 2"
+        ],
+        "correct": 2,
+        "explain": "−2x + 10 = 0 gir x = 5."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Regn ut 2³ · 2², og forklar hvilken potensregel du bruker.",
+        "fasit": "2³ · 2² = 2⁵ = 32. Når potenser med samme grunntall multipliseres, legges eksponentene sammen.",
+        "kriterier": [
+          "Får 2⁵ = 32.",
+          "Forklarer at eksponentene legges sammen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En jakke koster 400 kr og har 25 % rabatt. Hva blir prisen etter rabatten, og hvordan regner du det ut?",
+        "fasit": "Etter 25 % rabatt betaler du 75 % av prisen. 400 · 0,75 = 300, så jakken koster 300 kr.",
+        "kriterier": [
+          "Bruker 0,75 som faktor eller trekker 25 % fra prisen.",
+          "Oppgir 300 kr."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et parti går fra 20 % til 25 % oppslutning. Hvor stor er endringen i prosentpoeng, og hvor stor er den prosentvise økningen?",
+        "fasit": "Endringen er 5 prosentpoeng. Den prosentvise økningen er 5/20 · 100 % = 25 %.",
+        "kriterier": [
+          "Oppgir 5 prosentpoeng.",
+          "Oppgir 25 % prosentvis økning, regnet fra den gamle prosenten."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En pris øker først med 10 % og synker deretter med 10 %. Finn den samlede endringen, og forklar hvorfor prisen ikke går tilbake til utgangspunktet.",
+        "fasit": "Vekstfaktorene er 1,10 og 0,90, og 1,10 · 0,90 = 0,99. Prisen ender derfor 1 % lavere enn utgangspunktet, fordi nedgangen regnes av den allerede økte prisen.",
+        "kriterier": [
+          "Ganger vekstfaktorene 1,10 og 0,90.",
+          "Konkluderer med 1 % nedgang og forklarer at endringene regnes av ulike beløp."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En strekning er 120 km. Hvor lang tid tar turen med 60 km/h og med 80 km/h? Forklar hva slags sammenheng det er mellom fart og tid når strekningen er fast.",
+        "fasit": "Med 60 km/h tar turen 120/60 = 2 timer. Med 80 km/h tar den 120/80 = 1,5 timer. Når strekningen er fast, er fart og tid omvendt proporsjonale.",
+        "kriterier": [
+          "Finner 2 timer ved 60 km/h og 1,5 timer ved 80 km/h.",
+          "Forklarer at fart og tid er omvendt proporsjonale for fast strekning."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En ovn har effekt 2 kW og står på i 3 timer. Hvor mye energi bruker den, og hva koster det hvis strømprisen er 1,20 kr/kWh?",
+        "fasit": "Energien er 2 · 3 = 6 kWh. Kostnaden blir 6 · 1,20 = 7,20 kr.",
+        "kriterier": [
+          "Regner energibruken til 6 kWh.",
+          "Regner kostnaden til 7,20 kr."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En taxitur koster 50 kr i fast gebyr og 15 kr per kilometer. Skriv en formel for prisen P når turen er x kilometer, og forklar hva tallene i formelen betyr.",
+        "fasit": "Formelen er P = 50 + 15x. Tallet 50 er det faste gebyret, og 15 er prisen per kilometer.",
+        "kriterier": [
+          "Skriver formelen P = 50 + 15x.",
+          "Forklarer betydningen av det faste gebyret og kilometerprisen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En kommune har 5 000 innbyggere og en modell for 2 % vekst per år. Forklar hvilken modell som passer, hva vekstfaktoren betyr, og hvorfor prognosen bør vurderes før den brukes langt fram i tid.",
+        "fasit": "En passende modell er B(x) = 5000 · 1,02ˣ, der x er antall år. Vekstfaktoren 1,02 betyr 2 % vekst per år. Prognosen bygger på et premiss om veksten, og modellen kan gi mindre rimelige svar utenfor gyldighetsområdet.",
+        "kriterier": [
+          "Oppgir modellen B(x) = 5000 · 1,02ˣ eller forklarer at den er eksponentiell.",
+          "Forklarer at 1,02 svarer til 2 % vekst per år.",
+          "Nevner at premisser eller gyldighetsområde påvirker hvor pålitelig prognosen er."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

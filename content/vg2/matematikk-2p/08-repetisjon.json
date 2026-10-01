@@ -1,0 +1,598 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-2p",
+  "trinnId": "vg2",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "sammendrag": "Matematikk 2P handler om å bruke matematikk til å forstå praktiske situasjoner, økonomi, data og geometri. Du må kunne regne, velge passende metoder og verktøy og forklare hva resultatene betyr.\n\n## Prosent, vekstfaktor og modellering i regneark\n\nVed en økning på p prosent er **vekstfaktoren** 1 + p/100, og ved en nedgang er den 1 − p/100. Ny verdi = gammel verdi · vekstfaktor. Etter n perioder med samme vekstfaktor a blir verdien K · aⁿ. Skil mellom **prosent** og **prosentpoeng**: fra 4 % til 5 % er én prosentpoengs økning, men 25 % økning.\n\n**Renters rente** betyr at renter legges til beløpet og selv gir rente. Vekstfaktorer kan også modellere priser, befolkningsvekst og verdifall. Et **regneark** lar deg beregne mange perioder og endre forutsetninger. Formler starter med =. En **relativ referanse** endres når formelen kopieres, mens en **absolutt referanse**, for eksempel $E$1, står fast. Bruk fyllhåndtaket til å kopiere formler og diagram til å vise utvikling. Når du lager en modell, må du forklare premissene, tolke resultatene og vurdere modellens **gyldighet**.\n\n## Prisindeks, kroneverdi og reallønn\n\nEn **indeks** sammenligner utvikling med et **basisår**, som settes til 100. **Konsumprisindeksen (KPI)** måler prisutviklingen for varer og tjenester husholdningene kjøper. Når KPI er 125, er prisene i gjennomsnitt 25 % høyere enn i basisåret. Prisforholdet følger indeksforholdet: pris₂/pris₁ = indeks₂/indeks₁.\n\n**Kroneverdi** = 100/KPI. **Nominell lønn** er beløpet i kroner, mens **reallønn** er lønnen justert for prisstigning: reallønn = nominell lønn · 100/KPI. Hvis prisene øker mer enn lønnen, synker reallønnen selv om den nominelle lønnen går opp. **Bruttoinntekt** er før skatt, og **nettoinntekt** er etter skatt og andre trekk. Indekser gjør det mulig å sammenligne priser og lønn fra ulike år uten at prisstigning gir et misvisende bilde.\n\n## Personlig økonomi, lån og kredittkort\n\nEt **budsjett** gir oversikt over inntekter og utgifter, og bør gi rom for sparing og en **buffer**. På lån er **renter** betaling for å låne penger, **avdrag** nedbetaling av selve lånet og **terminbeløp** summen av renter og avdrag.\n\nI et **serielån** er avdraget likt hver gang, rentene blir mindre og terminbeløpet synker. I et **annuitetslån** er terminbeløpet likt; i starten går mer til renter og senere mer til avdrag. Annuitetslån har lavere terminbeløp i starten, men gir mer renter totalt enn serielån med samme rente og løpetid. **Effektiv rente** inkluderer gebyrer og hvor ofte renten legges til, og viser den faktiske kostnaden. Bruk den når du sammenligner lån. Kredittkort kan ha en rentefri periode, men ubetalt regning kan få svært høy rente. Forbrukslån er lån uten sikkerhet med høy rente. Vurder total kostnad, budsjett og om du kan spare først.\n\n## Likninger, likningssett og ulikheter\n\nEn **likning** løses ved å gjøre det samme på begge sider til den ukjente står alene. Sett gjerne prøve ved å sette løsningen inn i den opprinnelige likningen. En **ulikhet** løses tilsvarende, men tegnet må snus når du ganger eller deler med et negativt tall.\n\nEt **likningssett** har to ukjente og to likninger som må være oppfylt samtidig. Med **innsettingsmetoden** løser du én likning for en ukjent og setter uttrykket inn i den andre. Grafisk er løsningen linjenes skjæringspunkt. I praktiske oppgaver må du definere hva de ukjente står for, sette opp og løse en passende likning eller ulikhet, kontrollere svaret og skrive en konklusjon med enhet. Vurder om svaret er rimelig i situasjonen.\n\n## Sentralmål og spredningsmål\n\n**Gjennomsnitt** er summen delt på antallet, **median** er den midterste verdien i sorterte data, og **typetall** er verdien som forekommer oftest. Medianen påvirkes mindre enn gjennomsnittet av ekstreme verdier, mens typetall passer for kategoriske data.\n\n**Spredningsmål** beskriver variasjon. **Variasjonsbredden** er største minus minste verdi. **Kvartilbredden** er Q3 − Q1 og viser spredningen i den midterste halvdelen; den påvirkes lite av ekstreme verdier. **Standardavvik** beskriver hvor langt verdiene i gjennomsnitt ligger fra gjennomsnittet. Det beregnes ved å kvadrere avvikene fra gjennomsnittet, finne gjennomsnittet av kvadratene (variansen) og ta kvadratroten. For grupperte data anslås gjennomsnittet med klassemidtpunkter ganget med frekvenser. Regneark har blant annet funksjonene GJENNOMSNITT, MEDIAN, MODUS og STDAV.P.\n\n## Analysere og presentere datasett\n\nEt **datasett** er en samling observasjoner. **Frekvens** er hvor mange ganger en verdi forekommer, **relativ frekvens** er andelen av totalen, og **kumulativ frekvens** er frekvensene lagt sammen fortløpende. Velg diagram etter formålet: stolpediagram for kategorier, sektordiagram for andeler, linjediagram for utvikling over tid og histogram for grupperte tallverdier. Diagram bør ha tittel, aksetitler, enheter og kilde.\n\nEt **utvalg** bør være stort nok og **representativt** for **populasjonen**. Resultater fra utvalg har en **feilmargin**, så små forskjeller er ikke nødvendigvis reelle. Vær kritisk til diagrammer med akser som ikke starter på null, 3D-effekter, utvalgte tidsperioder og små utvalg. **Korrelasjon** betyr at størrelser henger sammen, ikke nødvendigvis at den ene forårsaker den andre; en tredje faktor kan forklare sammenhengen. En god presentasjon beskriver problemstilling, datagrunnlag og metode, viser passende analyser og drøfter funn, usikkerhet og feilkilder før konklusjon og kildehenvisninger.\n\n## Formlikhet, målestokk og geometri i praksis\n\n**Formlike figurer** har like vinkler og proporsjonale samsvarende sider. **Skaleringsfaktoren** k beskriver forholdet mellom lengdene. Når lengdene ganges med k, ganges arealet med k² og volumet med k³. Formlikhet kan brukes til å finne høyder ved hjelp av skygger.\n\n**Målestokk** er forholdet mellom avstand på tegning eller kart og avstand i virkeligheten. Bruk samme enhet før du regner om. I en rettvinklet trekant gjelder **Pytagoras**: a² + b² = c², der c er hypotenusen. 3-4-5-metoden bruker dette til å kontrollere rette hjørner. Husk formlene: rektangel A = l · b, trekant A = g · h/2, trapes A = (a + b) · h/2, sirkel O = 2πr og A = πr², og prisme eller sylinder V = grunnflate · høyde. Kontroller enhetene og om svaret er rimelig.\n\n## Sammenhenger i faget\n\nProsentregning og vekstfaktorer brukes til å modellere økonomisk utvikling, mens KPI og kroneverdi viser hvordan prisstigning påvirker kjøpekraft og reallønn. Budsjett og låneberegninger bruker prosent, regneark og tolkning av modeller. Likninger og ulikheter hjelper med å finne når alternativer koster like mye eller hvilket valg er billigst. Statistiske mål beskriver datasett, og diagrammer gjør funn synlige; vurdering av utvalg og feilkilder avgjør hvor sikre konklusjonene er. Formlikhet, målestokk, areal, volum og Pytagoras brukes til å regne på tegninger og praktiske situasjoner.\n\n## Huskeliste før prøven\n\n- Velg riktig vekstfaktor for økning eller nedgang.\n- Skill mellom prosent og prosentpoeng.\n- Juster lønn og priser for KPI når du sammenligner år.\n- Sammenlign lån med effektiv rente og vurder total kostnad.\n- Gjør samme operasjon på begge sider i en likning.\n- Snu ulikhetstegnet ved gange eller deling med negativt tall.\n- Sorter data før du finner median og kvartiler.\n- Velg diagram etter datatypen, og vurder utvalg og feilmargin.\n- Ved målestokk: bruk samme enhet; ved skalering endres areal med k² og volum med k³.\n- Vis metode, bruk enheter og forklar hva svaret betyr.",
+  "flashcards": [
+    {
+      "term": "Vekstfaktor ved økning",
+      "def": "1 + p/100"
+    },
+    {
+      "term": "K · aⁿ",
+      "def": "Verdien etter n perioder med vekstfaktor a."
+    },
+    {
+      "term": "Absolutt referanse",
+      "def": "Celleadresse med $ som står fast, for eksempel $E$1.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Renters rente",
+      "def": "At rentene legges til beløpet og også gir rente."
+    },
+    {
+      "term": "KPI",
+      "def": "Konsumprisindeksen – måler prisutviklingen for husholdningene."
+    },
+    {
+      "term": "Kroneverdi",
+      "def": "100 / KPI"
+    },
+    {
+      "term": "Reallønn",
+      "def": "Lønn justert for prisstigning."
+    },
+    {
+      "term": "Budsjett",
+      "def": "Oversikt over inntekter og utgifter."
+    },
+    {
+      "term": "Terminbeløp",
+      "def": "Renter + avdrag i en periode."
+    },
+    {
+      "term": "Serielån",
+      "def": "Likt avdrag hver gang; terminbeløpet synker."
+    },
+    {
+      "term": "Annuitetslån",
+      "def": "Likt terminbeløp hver gang."
+    },
+    {
+      "term": "Effektiv rente",
+      "def": "Renten inkludert gebyrer – den faktiske kostnaden."
+    },
+    {
+      "term": "Likning",
+      "def": "Likhet med en ukjent som skal finnes."
+    },
+    {
+      "term": "Snu ulikhetstegnet",
+      "def": "Når man ganger eller deler med et negativt tall."
+    },
+    {
+      "term": "Likningssett",
+      "def": "To likninger med to ukjente som skal være oppfylt samtidig."
+    },
+    {
+      "term": "Gjennomsnitt",
+      "def": "Summen av verdiene delt på antallet."
+    },
+    {
+      "term": "Median",
+      "def": "Den midterste verdien når dataene er sortert."
+    },
+    {
+      "term": "Kvartilbredde",
+      "def": "Q3 − Q1 – spredningen til den midterste halvdelen."
+    },
+    {
+      "term": "Standardavvik",
+      "def": "Hvor langt verdiene i gjennomsnitt ligger fra gjennomsnittet."
+    },
+    {
+      "term": "Relativ frekvens",
+      "def": "Frekvens delt på totalen – en andel."
+    },
+    {
+      "term": "Histogram",
+      "def": "Viser grupperte tallverdier."
+    },
+    {
+      "term": "Representativt utvalg",
+      "def": "Utvalg som ligner populasjonen."
+    },
+    {
+      "term": "Korrelasjon",
+      "def": "At to størrelser henger sammen."
+    },
+    {
+      "term": "Formlike figurer",
+      "def": "Figurer med like vinkler og proporsjonale sider."
+    },
+    {
+      "term": "Areal ved skalering",
+      "def": "Blir k² ganger så stort."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er vekstfaktoren for en økning på 6 %?",
+      "options": [
+        "0,06",
+        "1,06",
+        "1,6",
+        "0,94"
+      ],
+      "correct": 1,
+      "explain": "1 + 6/100 = 1,06."
+    },
+    {
+      "id": "q02",
+      "text": "Renten går fra 4 % til 5 %. Hvor mange prosent har renten økt?",
+      "options": [
+        "1 %",
+        "5 %",
+        "4 %",
+        "25 %"
+      ],
+      "correct": 3,
+      "explain": "Økningen er 1 prosentpoeng, som er 25 % av 4."
+    },
+    {
+      "id": "q03",
+      "text": "Lønn 500 000 kr, KPI 125. Hva er reallønnen i basisårets kroner?",
+      "options": [
+        "400 000 kr",
+        "625 000 kr",
+        "500 000 kr",
+        "375 000 kr"
+      ],
+      "correct": 0,
+      "explain": "500 000 · 100/125 = 400 000."
+    },
+    {
+      "id": "q04",
+      "text": "Lønnen øker med 4 %, prisene med 3 %. Omtrent hvor mye øker reallønnen?",
+      "options": [
+        "7 %",
+        "1 %",
+        "4 %",
+        "3 %"
+      ],
+      "correct": 1,
+      "explain": "1,04/1,03 ≈ 1,0097."
+    },
+    {
+      "id": "q05",
+      "text": "Hva kjennetegner et serielån?",
+      "options": [
+        "Likt avdrag hver gang, og terminbeløpet synker",
+        "Likt terminbeløp hver gang",
+        "Ingen renter",
+        "Betales på én gang"
+      ],
+      "correct": 0,
+      "explain": "Rentene blir mindre etter hvert."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken rente bør du bruke når du sammenligner lån?",
+      "options": [
+        "Effektiv rente",
+        "Nominell rente",
+        "Den laveste renten i reklamen",
+        "Styringsrenten"
+      ],
+      "correct": 0,
+      "explain": "Effektiv rente tar med gebyrer."
+    },
+    {
+      "id": "q07",
+      "text": "Løs ulikheten −2x > 6.",
+      "options": [
+        "x > −3",
+        "x > 3",
+        "x < 3",
+        "x < −3"
+      ],
+      "correct": 3,
+      "explain": "Deler vi på −2, må vi snu tegnet."
+    },
+    {
+      "id": "q08",
+      "text": "En klasse kjøper 30 billetter til 100 kr og 150 kr, til sammen 3500 kr. Hvor mange billetter til 150 kr?",
+      "options": [
+        "20",
+        "10",
+        "15",
+        "5"
+      ],
+      "correct": 1,
+      "explain": "Innsetting gir y = 10."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor oppgir SSB ofte medianinntekt i stedet for gjennomsnittsinntekt?",
+      "options": [
+        "Fordi medianen er lettere å regne ut",
+        "Fordi gjennomsnittet alltid er feil",
+        "Fordi medianen påvirkes lite av noen få svært høye inntekter",
+        "Fordi medianen alltid er høyest"
+      ],
+      "correct": 2,
+      "explain": "Ekstreme verdier drar gjennomsnittet opp."
+    },
+    {
+      "id": "q10",
+      "text": "Hva forteller et stort standardavvik?",
+      "options": [
+        "At gjennomsnittet er høyt",
+        "At medianen er lav",
+        "At dataene har stor spredning",
+        "At det er få verdier"
+      ],
+      "correct": 2,
+      "explain": "Verdiene ligger langt fra gjennomsnittet."
+    },
+    {
+      "id": "q11",
+      "text": "Hva er et representativt utvalg?",
+      "options": [
+        "Et stort utvalg",
+        "Et utvalg av venner",
+        "Et utvalg som ligner populasjonen",
+        "Et tilfeldig tall"
+      ],
+      "correct": 2,
+      "explain": "Da kan resultatene overføres til hele gruppen."
+    },
+    {
+      "id": "q12",
+      "text": "Is-salg og drukningsulykker øker begge om sommeren. Hva er forklaringen?",
+      "options": [
+        "En tredje faktor – varmt vær",
+        "Is forårsaker drukning",
+        "Drukning forårsaker is-salg",
+        "Tilfeldighet"
+      ],
+      "correct": 0,
+      "explain": "Sammenheng er ikke det samme som årsak."
+    },
+    {
+      "id": "q13",
+      "text": "Sidene i en figur dobles. Hvor mange ganger større blir arealet?",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "6"
+      ],
+      "correct": 0,
+      "explain": "Arealet blir k² = 4 ganger større."
+    },
+    {
+      "id": "q14",
+      "text": "Kart 1 : 50 000. Hvor langt er 3 cm på kartet i virkeligheten?",
+      "options": [
+        "150 m",
+        "15 km",
+        "3 km",
+        "1,5 km"
+      ],
+      "correct": 3,
+      "explain": "3 · 50 000 cm = 150 000 cm = 1,5 km."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk 2P",
+    "children": [
+      {
+        "label": "Prosent, vekstfaktor og modellering i regneark",
+        "children": [
+          {
+            "label": "Vekstfaktor ved økning",
+            "note": "1 + p/100"
+          },
+          {
+            "label": "K · aⁿ",
+            "note": "Verdien etter n perioder med vekstfaktor a."
+          },
+          {
+            "label": "Absolutt referanse",
+            "note": "Celleadresse med $ som står fast, for eksempel $E$1."
+          },
+          {
+            "label": "Renters rente",
+            "note": "At rentene legges til beløpet og også gir rente."
+          }
+        ]
+      },
+      {
+        "label": "Prisindeks, kroneverdi og reallønn",
+        "children": [
+          {
+            "label": "KPI",
+            "note": "Konsumprisindeksen – måler prisutviklingen for husholdningene."
+          },
+          {
+            "label": "Kroneverdi",
+            "note": "100 / KPI"
+          },
+          {
+            "label": "Reallønn",
+            "note": "Lønn justert for prisstigning."
+          }
+        ]
+      },
+      {
+        "label": "Personlig økonomi, lån og kredittkort",
+        "children": [
+          {
+            "label": "Budsjett",
+            "note": "Oversikt over inntekter og utgifter."
+          },
+          {
+            "label": "Terminbeløp",
+            "note": "Renter + avdrag i en periode."
+          },
+          {
+            "label": "Serielån",
+            "note": "Likt avdrag hver gang; terminbeløpet synker."
+          },
+          {
+            "label": "Annuitetslån",
+            "note": "Likt terminbeløp hver gang."
+          },
+          {
+            "label": "Effektiv rente",
+            "note": "Renten inkludert gebyrer – den faktiske kostnaden."
+          }
+        ]
+      },
+      {
+        "label": "Likninger, likningssett og ulikheter",
+        "children": [
+          {
+            "label": "Likning",
+            "note": "Likhet med en ukjent som skal finnes."
+          },
+          {
+            "label": "Snu ulikhetstegnet",
+            "note": "Når man ganger eller deler med et negativt tall."
+          },
+          {
+            "label": "Likningssett",
+            "note": "To likninger med to ukjente som skal være oppfylt samtidig."
+          }
+        ]
+      },
+      {
+        "label": "Sentralmål og spredningsmål",
+        "children": [
+          {
+            "label": "Gjennomsnitt",
+            "note": "Summen av verdiene delt på antallet."
+          },
+          {
+            "label": "Median",
+            "note": "Den midterste verdien når dataene er sortert."
+          },
+          {
+            "label": "Kvartilbredde",
+            "note": "Q3 − Q1 – spredningen til den midterste halvdelen."
+          },
+          {
+            "label": "Standardavvik",
+            "note": "Hvor langt verdiene i gjennomsnitt ligger fra gjennomsnittet."
+          }
+        ]
+      },
+      {
+        "label": "Analysere og presentere datasett",
+        "children": [
+          {
+            "label": "Relativ frekvens",
+            "note": "Frekvens delt på totalen – en andel."
+          },
+          {
+            "label": "Histogram",
+            "note": "Viser grupperte tallverdier."
+          },
+          {
+            "label": "Representativt utvalg",
+            "note": "Utvalg som ligner populasjonen."
+          },
+          {
+            "label": "Korrelasjon",
+            "note": "At to størrelser henger sammen."
+          }
+        ]
+      },
+      {
+        "label": "Formlikhet, målestokk og geometri i praksis",
+        "children": [
+          {
+            "label": "Formlike figurer",
+            "note": "Figurer med like vinkler og proporsjonale sider."
+          },
+          {
+            "label": "Areal ved skalering",
+            "note": "Blir k² ganger så stort."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Hvilken formel legger til et fast innskudd i E2 hvert år?",
+        "options": [
+          "=B2*$E$1+$E$2",
+          "=B2+$E$1",
+          "=B2*E2",
+          "=$E$1*$E$2"
+        ],
+        "correct": 0,
+        "explain": "Beløpet vokser med renten og får et nytt innskudd.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "En vare kostet 300 kr da KPI var 120. Hva koster den når KPI er 132, hvis den fulgte prisutviklingen?",
+        "options": [
+          "312 kr",
+          "320 kr",
+          "330 kr",
+          "360 kr"
+        ],
+        "correct": 2,
+        "explain": "300 · 132/120 = 330."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "I et serielån på 120 000 kr over 4 år – hvor stort er hvert årlige avdrag?",
+        "options": [
+          "30 000 kr",
+          "36 000 kr",
+          "24 000 kr",
+          "40 000 kr"
+        ],
+        "correct": 0,
+        "explain": "120 000 / 4 = 30 000."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Løs likningen 5x + 10 = 35.",
+        "options": [
+          "x = 9",
+          "x = 5",
+          "x = 7",
+          "x = 25"
+        ],
+        "correct": 1,
+        "explain": "5x = 25, så x = 5."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Medianen påvirkes like mye av ekstreme verdier som gjennomsnittet.",
+        "correct": false,
+        "explain": "Medianen påvirkes mye mindre."
+      },
+      {
+        "id": "m06",
+        "type": "sant-usant",
+        "text": "Korrelasjon betyr ikke nødvendigvis årsakssammenheng.",
+        "correct": true,
+        "explain": "Det kan finnes en tredje faktor."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En lønn øker med 4 %, mens prisene øker med 3 %. Forklar hva som skjer med reallønnen, og vis sammenhengen med vekstfaktorene.",
+        "fasit": "Lønnen får vekstfaktoren 1,04, mens prisene får vekstfaktoren 1,03. Reallønnen øker omtrent 1 %, fordi 1,04/1,03 ≈ 1,0097.",
+        "kriterier": [
+          "Bruker vekstfaktorene 1,04 og 1,03 eller forklarer at lønnen stiger mer enn prisene.",
+          "Konkluderer med at reallønnen øker omtrent 1 %."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et datasett over inntektene til en gruppe har noen få svært høye verdier. Forklar hvilket sentralmål som best beskriver en typisk inntekt, og hvordan et spredningsmål kan utfylle det.",
+        "fasit": "Medianen beskriver typisk inntekt best fordi den påvirkes lite av noen få svært høye verdier. Kvartilbredden kan utfylle medianen ved å vise spredningen til den midterste halvdelen av dataene.",
+        "kriterier": [
+          "Velger median og begrunner valget med at ekstreme verdier påvirker den lite.",
+          "Nevner et relevant spredningsmål og hva det beskriver."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Du skal undersøke om elevenes reisevei til skolen har endret seg over tid. Beskriv et passende diagram og to forhold du bør vurdere før du trekker en konklusjon.",
+        "fasit": "Et linjediagram passer for å vise utvikling over tid. Jeg bør undersøke om utvalget er representativt og stort nok, og ta hensyn til feilmarginen. Diagrammet bør også ha tittel, aksetitler, enheter og kilde.",
+        "kriterier": [
+          "Velger linjediagram fordi undersøkelsen gjelder utvikling over tid.",
+          "Nevner relevante hensyn som representativt/stort utvalg eller feilmargin.",
+          "Nevner minst ett nødvendig diagramkjennetegn, som tittel, aksetitler, enheter eller kilde."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et abonnement A koster 99 kr pluss 0,50 kr per minutt. Abonnement B koster 199 kr fast. Sett opp og løs en likning for når abonnementene koster like mye, og tolk svaret.",
+        "fasit": "La x være antall minutter. Da får vi 99 + 0,5x = 199, så 0,5x = 100 og x = 200. Abonnementene koster like mye ved 200 minutter.",
+        "kriterier": [
+          "Setter opp en likning som representerer de to prisene.",
+          "Finner x = 200 og tolker det som 200 minutter."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En rettvinklet trekant har kateter med lengdene 5 og 12. Regn ut hypotenusen, og forklar hvilken regel du bruker.",
+        "fasit": "Pytagoras gir 5² + 12² = c². Da er c² = 25 + 144 = 169, så hypotenusen er c = 13.",
+        "kriterier": [
+          "Bruker Pytagoras riktig: 5² + 12² = c².",
+          "Finner hypotenusen 13."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Du låner penger og vurderer et annuitetslån eller et serielån med samme rente og løpetid. Sammenlign hvordan terminbeløpene utvikler seg, og hvilken lånetype som gir mest renter totalt.",
+        "fasit": "I et serielån er avdragene like, og terminbeløpene synker etter hvert. I et annuitetslån er terminbeløpet likt hver gang. Annuitetslånet gir mer renter totalt enn serielånet når renten og løpetiden er den samme.",
+        "kriterier": [
+          "Beskriver riktig utvikling i terminbeløp for begge lånetypene.",
+          "Sier at annuitetslånet gir mer renter totalt."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Løs ulikheten −2x > 6. Forklar hva du må gjøre med ulikhetstegnet, og oppgi løsningen.",
+        "fasit": "Jeg deler begge sider på −2 og snur ulikhetstegnet fordi jeg deler med et negativt tall. Løsningen er x < −3.",
+        "kriterier": [
+          "Snu ulikhetstegnet når det deles med et negativt tall.",
+          "Oppgir løsningen x < −3."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En modell av en gjenstand er laget i målestokk 1 : 10. Forklar hvordan modellens lengder, areal og volum forholder seg til originalen.",
+        "fasit": "Modellens lengder er en tidel av originalens. Arealet er 10² = 100 ganger mindre, og volumet er 10³ = 1000 ganger mindre enn originalens.",
+        "kriterier": [
+          "Tolker målestokk 1 : 10 som lengder som er en tidel av originalens.",
+          "Sier at arealet er 100 ganger mindre og volumet 1000 ganger mindre."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

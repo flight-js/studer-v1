@@ -1,0 +1,560 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-10",
+  "trinnId": "10",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "sammendrag": "Matematikk handler om å beskrive tall og sammenhenger, løse problemer og begrunne svar. Du bruker regning, algebra, funksjoner, modeller og programmering både i praktiske situasjoner og til å undersøke generelle mønstre.\n\n## Regneregler og algebra\n\nI **algebra** står bokstaver for tall. Du kan bare samle **like ledd**, som 3x + 5x = 8x, ikke x-ledd og x²-ledd. Når en parentes har minus foran seg, skifter alle fortegn inni parentesen. En faktor foran en parentes ganges med hvert ledd, og ved multiplikasjon av to parenteser ganges hvert ledd i den ene med hvert ledd i den andre. **Faktorisering** er å skrive et uttrykk som et produkt ved å sette en felles faktor utenfor parentesen. I brøker med bokstaver kan du forkorte felles faktorer, men ikke stryke ledd. Potensreglene gjelder også for bokstaver: a² · a³ = a⁵ og (ab)² = a²b². Algebra kan brukes til å **generalisere** og bevise at en påstand gjelder for alle tall; ett moteksempel er nok til å vise at en påstand ikke alltid stemmer.\n\n## Kvadratsetningene\n\nDe tre **kvadratsetningene** er (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b² og (a + b)(a − b) = a² − b². Husk midtleddet 2ab i de to første. Den tredje kalles også konjugatsetningen og kan brukes til å faktorisere differansen av to kvadrater, for eksempel x² − 16 = (x + 4)(x − 4). Du kan kjenne igjen et **fullstendig kvadrat** ved at første og siste ledd er kvadrater, og midtleddet er dobbelt produktet av røttene deres. Setningene kan også gjøre hoderegning enklere, for eksempel ved å skrive 31 · 29 som (30 + 1)(30 − 1).\n\n## Likningssett\n\nEt **likningssett** har flere likninger med flere ukjente, og løsningen må passe i alle likningene samtidig. Med **innsettingsmetoden** løser du én likning for en ukjent og setter uttrykket inn i den andre. Med **addisjonsmetoden** legger du sammen eller trekker fra likningene slik at én ukjent forsvinner; noen ganger må du først gange en likning for å få motsatte koeffisienter. Grafisk er løsningen **skjæringspunktet** mellom linjene. Parallelle linjer gir ingen løsning, mens like linjer gir uendelig mange. I praktiske oppgaver må du definere variablene, lage likninger fra opplysningene og kontrollere at svaret passer både i likningene og i situasjonen.\n\n## Ulike typer funksjoner\n\nEn **lineær funksjon** har formen f(x) = ax + b og grafen er en rett linje. En **andregradsfunksjon** har formen f(x) = ax² + bx + c, der a ≠ 0, og grafen er en symmetrisk parabel med topp- eller bunnpunkt. En **eksponentialfunksjon** har formen f(x) = a · bˣ og endrer seg med samme prosent per enhet. Når b > 1, er det vekst; når 0 < b < 1, er det nedgang. En **omvendt proporsjonal funksjon** har formen f(x) = k/x: produktet x · f(x) er konstant, og når x dobles, halveres funksjonsverdien. Grafen er en hyperbel. Grafenes nullpunkter, skjæringspunkter og topp- eller bunnpunkter kan undersøkes digitalt.\n\n## Stigningstall og lineære funksjoner\n\nI f(x) = ax + b er **stigningstallet** a endringen i y når x øker med 1. Fra to punkter finner du det med a = (y₂ − y₁)/(x₂ − x₁). Positivt stigningstall betyr at linjen stiger, negativt at den synker, og stigningstall 0 gir en vannrett linje. **Konstantleddet** b er funksjonsverdien når x = 0, altså der linjen krysser y-aksen. I praktiske situasjoner kan a og b beskrive henholdsvis pris per enhet og en startkostnad. En lineær sammenheng er **proporsjonal** når b = 0; da går linjen gjennom origo, og dobbel x gir dobbel y.\n\n## Prosentvis endring og vekstfaktor\n\nProsent betyr hundredeler. Ved en økning på p prosent er **vekstfaktoren** 1 + p/100, og ved en nedgang er den 1 − p/100. Ny verdi = gammel verdi · vekstfaktor; for å finne gammel verdi deler du ny verdi på vekstfaktoren. Prosentvis endring regnes som (ny − gammel)/gammel · 100 %. Forskjellen mellom to prosenttall måles i **prosentpoeng**. Ved gjentatt prosentvis endring ganger du med vekstfaktoren én gang per periode. Dette gir **renters rente**, fordi renten også beregnes av renter fra tidligere perioder. Konstant prosentvis endring kan beskrives med en eksponentialfunksjon, mens lik endring i antall er lineær.\n\n## Personlig økonomi\n\nEt **budsjett** planlegger inntekter og utgifter; et regnskap viser hva som faktisk skjedde. Større utgifter enn inntekter gir underskudd, mens inntekter til overs gir overskudd. Fortjeneste er salgspris minus innkjøpspris, og ved sammenligning av tilbud må du ta med hva du faktisk betaler. Sparing vokser med rente, og renters rente gjør at tidligere opptjente renter også gir rente. På lån er **avdrag** nedbetaling av selve lånet, mens renter er prisen for å låne. Terminbeløpet er summen av renter og avdrag. Serielån har like avdrag og synkende terminbeløp; annuitetslån har like terminbeløp, med mest renter i starten. Bruk **effektiv rente**, som inkluderer kostnader og gebyrer, når du sammenligner lån. Kredittkjøp kan koste mer enn kontantbetaling.\n\n## Matematisk modellering\n\nEn **matematisk modell** er en forenklet beskrivelse av en virkelig situasjon, laget med for eksempel en funksjon eller likning. Modellering innebærer å forstå situasjonen, gjøre antakelser, lage en modell, regne, tolke svaret og vurdere om det er rimelig. Lik endring i antall tyder på en lineær modell, mens lik endring i prosent tyder på en eksponentiell modell. En modell har et **gyldighetsområde**: verdier der den gir fornuftige svar. Å bruke modellen utenfor området med data kalles å ekstrapolere og kan gi urimelige svar. Vurder også forutsetningene og begrensningene, og presenter data, modell og resultat sammen med hvor sikkert svaret er.\n\n## Python i matematikken\n\nNår du leser kode, følger du linjene og holder oversikt over variablene; en **sporingstabell** kan hjelpe. Tilordning med = lagrer en verdi, mens == sammenligner verdier. Python bruker ** for potens, // for heltallsdivisjon og % for rest. En for-løkke gjentar kode for verdier i en rekke; range(1, 6) gir 1 til 5. En while-løkke gjentar så lenge en betingelse er sann, og if/elif/else velger handling ut fra betingelser. def lager en funksjon, return sender en verdi tilbake, og innrykk viser hvilke linjer som hører sammen. Python bruker punktum i desimaltall. Programmer kan undersøke mange tilfeller og vise mønstre, men de beviser ikke alene at noe gjelder for alle tall; matematisk argumentasjon kan forklare hvorfor.\n\n## Sammenhenger i faget\n\nAlgebra og kvadratsetninger gir metoder for å omforme uttrykk og faktorisere, mens likningssett bruker likninger til å finne ukjente størrelser. Funksjoner beskriver hvordan størrelser endrer seg; stigningstall beskriver lineær endring, og vekstfaktor knytter prosentvis endring til eksponentialfunksjoner. Disse funksjonene kan brukes i personlig økonomi og som matematiske modeller. Modellering handler også om å vurdere om funksjonen passer til situasjonen og om svaret ligger innenfor gyldighetsområdet. Python kan utforske funksjoner, økonomi og mønstre, men resultatene må tolkes og begrunnes.\n\n## Huskeliste før prøven\n\n- Samle bare like ledd, og vær nøye med fortegn foran parenteser.\n- Husk midtleddet 2ab i kvadratsetningene.\n- Kontroller at en løsning av et likningssett passer i begge likningene.\n- Skill mellom lineær endring i antall og eksponentiell endring i prosent.\n- Bruk a = (y₂ − y₁)/(x₂ − x₁) for stigningstallet.\n- Gjør prosentendring om til vekstfaktor før du regner.\n- Sammenlign lån med effektiv rente.\n- Vurder modellens forutsetninger og gyldighetsområde.\n- Husk at et program kan vise et mønster, men ikke bevise at det alltid gjelder.",
+  "flashcards": [
+    {
+      "term": "Like ledd",
+      "def": "Ledd med samme variabel i samme potens. 3x og 5x er like ledd, men x og x² er ikke det."
+    },
+    {
+      "term": "Faktorisere",
+      "def": "Skrive et uttrykk som et produkt, ofte ved å sette en felles faktor utenfor: 6x + 9 = 3(2x + 3)."
+    },
+    {
+      "term": "Første kvadratsetning",
+      "def": "(a + b)² = a² + 2ab + b²"
+    },
+    {
+      "term": "Tredje kvadratsetning",
+      "def": "(a + b)(a − b) = a² − b². Kalles også konjugatsetningen."
+    },
+    {
+      "term": "Innsettingsmetoden",
+      "def": "Løs én likning for én ukjent, og sett uttrykket inn i den andre likningen."
+    },
+    {
+      "term": "Addisjonsmetoden",
+      "def": "Legg sammen eller trekk fra likningene slik at én ukjent forsvinner."
+    },
+    {
+      "term": "Lineær funksjon",
+      "def": "f(x) = ax + b. Grafen er en rett linje, og funksjonen endrer seg med like mye per enhet."
+    },
+    {
+      "term": "Eksponentialfunksjon",
+      "def": "f(x) = a · bˣ. Endrer seg med samme prosent per enhet."
+    },
+    {
+      "term": "Stigningstall (a)",
+      "def": "Hvor mye y endrer seg når x øker med 1. Tallet foran x i f(x) = ax + b."
+    },
+    {
+      "term": "Konstantledd (b)",
+      "def": "Verdien når x = 0. Der linjen krysser y-aksen."
+    },
+    {
+      "term": "Vekstfaktor ved økning",
+      "def": "1 + p/100. En økning på 15 % gir vekstfaktor 1,15."
+    },
+    {
+      "term": "Prosentvis endring",
+      "def": "(ny − gammel) / gammel · 100 %."
+    },
+    {
+      "term": "Serielån",
+      "def": "Like store avdrag. Terminbeløpet blir mindre etter hvert.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Effektiv rente",
+      "def": "Renten inkludert alle kostnader. Brukes til å sammenligne lån."
+    },
+    {
+      "term": "Matematisk modell",
+      "def": "En forenklet beskrivelse av en virkelig situasjon med matematikk, for eksempel en funksjon."
+    },
+    {
+      "term": "Gyldighetsområde",
+      "def": "De x-verdiene der modellen gir fornuftige svar."
+    },
+    {
+      "term": "range(1, 6)",
+      "def": "Tallene 1, 2, 3, 4, 5. Det siste tallet er ikke med."
+    },
+    {
+      "term": "Program vs. bevis",
+      "def": "Et program kan vise et mønster i mange tilfeller, men beviser ikke at det gjelder for alle tall."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Forenkle 7 − (x − 3).",
+      "options": [
+        "4 − x",
+        "10 − x",
+        "4 + x",
+        "10 + x"
+      ],
+      "correct": 1,
+      "explain": "Minus foran parentesen gjør at alle fortegn inni skifter: 7 − x + 3 = 10 − x."
+    },
+    {
+      "id": "q02",
+      "text": "Faktoriser 6x + 9.",
+      "options": [
+        "3(2x + 3)",
+        "6(x + 9)",
+        "3(2x + 9)",
+        "9(x + 1)"
+      ],
+      "correct": 0,
+      "explain": "3 er felles faktor: 6x = 3 · 2x og 9 = 3 · 3. Sjekk ved å gange ut: 3(2x + 3) = 6x + 9."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er (x + 3)²?",
+      "options": [
+        "x² + 9",
+        "x² + 6x + 9",
+        "x² + 3x + 9",
+        "2x + 6"
+      ],
+      "correct": 1,
+      "explain": "Første kvadratsetning: x² + 2 · x · 3 + 3² = x² + 6x + 9."
+    },
+    {
+      "id": "q04",
+      "text": "Faktoriser x² − 16.",
+      "options": [
+        "(x − 4)²",
+        "(x + 4)(x − 4)",
+        "(x − 8)(x + 2)",
+        "(x + 16)(x − 1)"
+      ],
+      "correct": 1,
+      "explain": "Differansen av to kvadrater: x² − 4² = (x + 4)(x − 4)."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er løsningen av likningssettet x + y = 10 og x − y = 4?",
+      "options": [
+        "x = 6, y = 4",
+        "x = 7, y = 3",
+        "x = 3, y = 7",
+        "x = 5, y = 5"
+      ],
+      "correct": 1,
+      "explain": "Legg sammen likningene: 2x = 14, så x = 7. Da er y = 10 − 7 = 3. Sjekk: 7 − 3 = 4."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr skjæringspunktet mellom to linjer i et grafisk likningssett?",
+      "options": [
+        "At likningssettet ikke har løsning",
+        "Stigningstallet",
+        "Konstantleddet",
+        "Løsningen av likningssettet"
+      ],
+      "correct": 3,
+      "explain": "Skjæringspunktet ligger på begge linjene, så koordinatene passer i begge likningene."
+    },
+    {
+      "id": "q07",
+      "text": "En funksjon øker med 20 hver gang x øker med 1. Hvilken type er den?",
+      "options": [
+        "Eksponentiell",
+        "Andregrads",
+        "Omvendt proporsjonal",
+        "Lineær"
+      ],
+      "correct": 3,
+      "explain": "Lik endring i antall per enhet er kjennetegnet på en lineær funksjon."
+    },
+    {
+      "id": "q08",
+      "text": "Tiden for å kjøre 120 km er t = 120/v. Hva skjer med t når farten v dobles?",
+      "options": [
+        "t dobles",
+        "t halveres",
+        "t er uendret",
+        "t blir fire ganger så stor"
+      ],
+      "correct": 1,
+      "explain": "Funksjonen er omvendt proporsjonal. Dobbelt så stor v gir halvparten så stor t."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er stigningstallet til linjen gjennom (1, 5) og (4, 11)?",
+      "options": [
+        "2",
+        "6",
+        "3",
+        "0,5"
+      ],
+      "correct": 0,
+      "explain": "a = (11 − 5) / (4 − 1) = 6 / 3 = 2."
+    },
+    {
+      "id": "q10",
+      "text": "En jakke til 800 kr settes ned 25 %. Hva er den nye prisen?",
+      "options": [
+        "775 kr",
+        "600 kr",
+        "200 kr",
+        "625 kr"
+      ],
+      "correct": 1,
+      "explain": "Vekstfaktor ved 25 % nedgang er 0,75. 800 · 0,75 = 600 kr."
+    },
+    {
+      "id": "q11",
+      "text": "En pris øker med 20 % og synker så med 20 %. Hvor ender den?",
+      "options": [
+        "Tilbake på startprisen",
+        "4 % over startprisen",
+        "40 % under startprisen",
+        "4 % under startprisen"
+      ],
+      "correct": 3,
+      "explain": "1,20 · 0,80 = 0,96. Nedgangen tas av en høyere pris, så du ender 4 % under start."
+    },
+    {
+      "id": "q12",
+      "text": "Hvilken rente bør du bruke når du sammenligner to lån?",
+      "options": [
+        "Nominell rente",
+        "Den laveste renten i reklamen",
+        "Effektiv rente",
+        "Styringsrenten"
+      ],
+      "correct": 2,
+      "explain": "Effektiv rente tar med gebyrer og andre kostnader og viser hva lånet egentlig koster."
+    },
+    {
+      "id": "q13",
+      "text": "Hva betyr det å ekstrapolere?",
+      "options": [
+        "Å bruke modellen utenfor området der vi har data",
+        "Å finne den beste modellen",
+        "Å regne mellom to målinger",
+        "Å tegne en graf"
+      ],
+      "correct": 0,
+      "explain": "Ekstrapolering er å forutsi langt utenfor dataene. Det er risikabelt fordi sammenhengen kan endre seg."
+    },
+    {
+      "id": "q14",
+      "text": "Hva er forskjellen på = og == i Python?",
+      "options": [
+        "Ingen forskjell",
+        "== gir verdi, = sammenligner",
+        "= brukes bare i løkker",
+        "= gir en variabel verdi, == sjekker om to verdier er like"
+      ],
+      "correct": 3,
+      "explain": "x = 5 lagrer 5 i x. x == 5 spør om x er lik 5 og gir True eller False."
+    },
+    {
+      "id": "q15",
+      "text": "Et program viser at summen av de n første oddetallene er n² for n = 1 til 1000. Hva kan vi konkludere?",
+      "options": [
+        "At det er bevist for alle n",
+        "At det er feil",
+        "At det gjelder bare for n ≤ 1000",
+        "At mønsteret er sannsynlig, men må forklares for å være bevist"
+      ],
+      "correct": 3,
+      "explain": "Programmet gir sterk støtte, men et bevis krever et argument som gjelder for alle n, for eksempel med algebra eller en figur."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk",
+    "children": [
+      {
+        "label": "Regneregler og algebra",
+        "children": [
+          {
+            "label": "Like ledd",
+            "note": "Ledd med samme variabel i samme potens. 3x og 5x er like ledd, men x og x² er ikke det."
+          },
+          {
+            "label": "Faktorisere",
+            "note": "Skrive et uttrykk som et produkt, ofte ved å sette en felles faktor utenfor: 6x + 9 = 3(2x + 3)."
+          }
+        ]
+      },
+      {
+        "label": "Kvadratsetningene",
+        "children": [
+          {
+            "label": "Første kvadratsetning",
+            "note": "(a + b)² = a² + 2ab + b²"
+          },
+          {
+            "label": "Tredje kvadratsetning",
+            "note": "(a + b)(a − b) = a² − b². Kalles også konjugatsetningen."
+          }
+        ]
+      },
+      {
+        "label": "Likningssett",
+        "children": [
+          {
+            "label": "Innsettingsmetoden",
+            "note": "Løs én likning for én ukjent, og sett uttrykket inn i den andre likningen."
+          },
+          {
+            "label": "Addisjonsmetoden",
+            "note": "Legg sammen eller trekk fra likningene slik at én ukjent forsvinner."
+          }
+        ]
+      },
+      {
+        "label": "Ulike typer funksjoner",
+        "children": [
+          {
+            "label": "Lineær funksjon",
+            "note": "f(x) = ax + b. Grafen er en rett linje, og funksjonen endrer seg med like mye per enhet."
+          },
+          {
+            "label": "Eksponentialfunksjon",
+            "note": "f(x) = a · bˣ. Endrer seg med samme prosent per enhet."
+          }
+        ]
+      },
+      {
+        "label": "Stigningstall og lineære funksjoner",
+        "children": [
+          {
+            "label": "Stigningstall (a)",
+            "note": "Hvor mye y endrer seg når x øker med 1. Tallet foran x i f(x) = ax + b."
+          },
+          {
+            "label": "Konstantledd (b)",
+            "note": "Verdien når x = 0. Der linjen krysser y-aksen."
+          }
+        ]
+      },
+      {
+        "label": "Prosentvis endring og vekstfaktor",
+        "children": [
+          {
+            "label": "Vekstfaktor ved økning",
+            "note": "1 + p/100. En økning på 15 % gir vekstfaktor 1,15."
+          },
+          {
+            "label": "Prosentvis endring",
+            "note": "(ny − gammel) / gammel · 100 %."
+          }
+        ]
+      },
+      {
+        "label": "Personlig økonomi",
+        "children": [
+          {
+            "label": "Serielån",
+            "note": "Like store avdrag. Terminbeløpet blir mindre etter hvert."
+          },
+          {
+            "label": "Effektiv rente",
+            "note": "Renten inkludert alle kostnader. Brukes til å sammenligne lån."
+          }
+        ]
+      },
+      {
+        "label": "Matematisk modellering",
+        "children": [
+          {
+            "label": "Matematisk modell",
+            "note": "En forenklet beskrivelse av en virkelig situasjon med matematikk, for eksempel en funksjon."
+          },
+          {
+            "label": "Gyldighetsområde",
+            "note": "De x-verdiene der modellen gir fornuftige svar."
+          }
+        ]
+      },
+      {
+        "label": "Python i matematikken",
+        "children": [
+          {
+            "label": "range(1, 6)",
+            "note": "Tallene 1, 2, 3, 4, 5. Det siste tallet er ikke med."
+          },
+          {
+            "label": "Program vs. bevis",
+            "note": "Et program kan vise et mønster i mange tilfeller, men beviser ikke at det gjelder for alle tall."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Faktoriser x² − 4x.",
+        "options": [
+          "x(x − 4)",
+          "4(x − x²)",
+          "x²(1 − 4)",
+          "(x − 2)²"
+        ],
+        "correct": 0,
+        "explain": "x er felles faktor: x · x − x · 4 = x(x − 4)."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Faktoriser x² − 10x + 25.",
+        "options": [
+          "(x + 5)²",
+          "(x − 5)(x + 5)",
+          "(x − 25)(x − 1)",
+          "(x − 5)²"
+        ],
+        "correct": 3,
+        "explain": "25 = 5² og −10x = −2 · x · 5. Det er andre kvadratsetning baklengs: (x − 5)²."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Løs x + 2y = 8 og x − 2y = 0.",
+        "options": [
+          "x = 4, y = 2",
+          "x = 2, y = 4",
+          "x = 8, y = 0",
+          "x = 0, y = 4"
+        ],
+        "correct": 0,
+        "explain": "Legg sammen: 2x = 8, så x = 4. Da er 4 − 2y = 0, altså y = 2."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "I f(x) = 100 · 0,9ˣ vokser funksjonen.",
+        "correct": false,
+        "explain": "Vekstfaktoren 0,9 er mindre enn 1, så funksjonen avtar med 10 % per enhet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er stigningstallet til linjen gjennom (2, 9) og (6, 1)?",
+        "options": [
+          "2",
+          "−2",
+          "−0,5",
+          "4"
+        ],
+        "correct": 1,
+        "explain": "a = (1 − 9) / (6 − 2) = −8 / 4 = −2."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forenkle uttrykket 3x + 2(x − 4), og forklar hvorfor x-leddene kan samles.",
+        "fasit": "3x + 2(x − 4) = 3x + 2x − 8 = 5x − 8. x-leddene er like ledd fordi de har samme variabel i samme potens.",
+        "kriterier": [
+          "Ganger 2 med begge leddene i parentesen.",
+          "Samler 3x og 2x til 5x."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En pris øker med 20 % og går deretter ned med 20 %. Forklar ved hjelp av vekstfaktorer hvorfor prisen ikke går tilbake til startverdien.",
+        "fasit": "Økningen gir vekstfaktoren 1,20, og nedgangen gir 0,80. Samlet faktor er 1,20 · 0,80 = 0,96, så sluttverdien er 4 % under startverdien.",
+        "kriterier": [
+          "Bruker faktorene 1,20 og 0,80.",
+          "Får samlet faktor 0,96 eller forklarer at sluttverdien er 4 % lavere."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Du får 3500 kr i inntekt og har 3100 kr i utgifter hver måned. Hvor mye kan du spare på ett år dersom inntektene og utgiftene er like hver måned?",
+        "fasit": "Du har 3500 − 3100 = 400 kr til overs hver måned. På ett år kan du spare 12 · 400 = 4800 kr.",
+        "kriterier": [
+          "Finner et månedlig overskudd på 400 kr.",
+          "Regner ut årlig sparing på 4800 kr."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar forskjellen på en lineær og en eksponentiell sammenheng, og gi ett kjennetegn på hver.",
+        "fasit": "En lineær sammenheng har lik endring i antall for hver enhet, og grafen er en rett linje. En eksponentiell sammenheng har lik endring i prosent for hver enhet og kan beskrives med f(x) = a · bˣ.",
+        "kriterier": [
+          "Knytter lineær sammenheng til lik endring i antall.",
+          "Knytter eksponentiell sammenheng til lik endring i prosent."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et eple og en banan koster til sammen 12 kr. To epler og en banan koster til sammen 17 kr. Sett opp et likningssett og finn prisen på ett eple.",
+        "fasit": "La e være prisen på et eple og b prisen på en banan. Da er e + b = 12 og 2e + b = 17. Når den første likningen trekkes fra den andre, får vi e = 5, så eplet koster 5 kr.",
+        "kriterier": [
+          "Setter opp to likninger som passer til opplysningene.",
+          "Finner at ett eple koster 5 kr."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En modell beskriver høyden til barn fra 2 til 10 år. Forklar hvorfor det kan være risikabelt å bruke modellen til å beregne høyden til en person som er 40 år.",
+        "fasit": "Modellen er laget for et gyldighetsområde fra 2 til 10 år. Å bruke den ved 40 år er å ekstrapolere langt utenfor dataområdet, og modellen kan da gi et urimelig svar.",
+        "kriterier": [
+          "Nevner at 40 år ligger utenfor modellens gyldighetsområde.",
+          "Forklarer at ekstrapolering kan gi urimelige svar."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Hva skriver dette Python-programmet ut, og hvorfor? s = 0; for i in range(1, 4): s = s + i; print(s)",
+        "fasit": "Programmet skriver ut 6. Løkken legger sammen 1, 2 og 3, fordi range(1, 4) ikke tar med det siste tallet 4.",
+        "kriterier": [
+          "Oppgir utskriften 6.",
+          "Forklarer at range(1, 4) gir verdiene 1, 2 og 3."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Du skal sammenligne to lån med ulike gebyrer. Forklar hvilken rente du bør sammenligne, og hva som skiller den fra nominell rente.",
+        "fasit": "Jeg bør sammenligne effektiv rente, fordi den inkluderer alle kostnader og gebyrer. Nominell rente viser renten uten gebyrer og andre kostnader.",
+        "kriterier": [
+          "Velger effektiv rente for å sammenligne lån.",
+          "Forklarer at effektiv rente inkluderer kostnader, mens nominell rente ikke gjør det."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

@@ -167,9 +167,10 @@ Slik vurderer du:
     q.type === "sant-usant" ? `(påstand, ${q.correct ? "sann" : "usann"})` : `(riktig svar: ${q.options[q.correct]})`;
   const sporsmal = [...t.quiz, ...t.miniprove.ekstra].map((q) => `${q.id}. ${q.text} ${fasit(q)}`).join("\n");
   const skriv = (t.miniprove.skriv ?? []).map((s) => `${s.id}. ${s.text}`).join("\n");
+  const antall = { sporsmal: t.quiz.length + t.miniprove.ekstra.length, skriv: (t.miniprove.skriv ?? []).length };
   const bruker = `Begreper (nr. begrep: forklaring):\n${begreper}\n\nSpørsmål (id. spørsmål):\n${sporsmal}${
     skriv ? `\n\nSkriveoppgaver (id. oppgave):\n${skriv}` : ""
-  }`;
+  }\n\nGi nivå til alle: ${t.flashcards.length} begreper, ${antall.sporsmal} spørsmål og ${antall.skriv} skriveoppgaver.`;
   return { system, bruker };
 }
 
@@ -215,15 +216,18 @@ function ventetid(headers) {
   return 20_000;
 }
 
-// Hvert begrep og hver id må ha fått nøyaktig ett gyldig nivå.
+// Hvert begrep og hver id skal ha fått ett gyldig nivå. Ukjente id-er og
+// gjentakelser hoppes over. Mangler noen få (under 10 %), regnes de som kjerne
+// – det trygge valget. Mangler flere, er svaret ubrukelig.
 function kontroller(svar, t) {
   const kart = (liste, nokkel, ider) => {
     const m = new Map();
     for (const x of liste ?? []) {
-      if (!ider.includes(x[nokkel]) || !NIVAER.includes(x.niva) || m.has(x[nokkel])) return null;
-      m.set(x[nokkel], x.niva);
+      if (ider.includes(x[nokkel]) && NIVAER.includes(x.niva) && !m.has(x[nokkel])) m.set(x[nokkel], x.niva);
     }
-    return m.size === ider.length ? m : null;
+    if (m.size < ider.length * 0.9) return null;
+    for (const id of ider) if (!m.has(id)) m.set(id, "kjerne");
+    return m;
   };
   const begreper = kart(svar.begreper, "nr", t.flashcards.map((_, i) => i + 1));
   const sporsmal = kart(svar.sporsmal, "id", [...t.quiz, ...t.miniprove.ekstra].map((q) => q.id));

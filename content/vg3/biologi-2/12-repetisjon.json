@@ -1,0 +1,564 @@
+{
+  "id": "repetisjon",
+  "fagId": "biologi-2",
+  "trinnId": "vg3",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "sammendrag": "Biologi 2 handler om hvordan levende organismer fungerer, samspiller og endrer seg, og hvordan vi kan undersøke biologiske spørsmål. Faget kobler sammen økologi, energiomsetning, arv, evolusjon og bruk av genteknologi.\n\n## Biologisk forskning og metode\n\nStart med en undersøkbar **problemstilling** og lag en testbar **hypotese**. Den **uavhengige variabelen** endres, den **avhengige variabelen** måles, og andre relevante forhold holdes konstante. En **kontrollgruppe** viser hva som skjer uten behandling. Bruk **replikater** og tilfeldig fordeling for å gjøre resultatene mer pålitelige og redusere skjevheter. Laboratorieforsøk gir god kontroll, mens feltarbeid gir mer realistiske forhold; observasjonsstudier brukes når forsøk ikke passer. Presenter data med tabeller og passende grafer, og vurder gjennomsnitt, spredning og feilkilder. I drøftingen må du skille **korrelasjon** fra årsakssammenheng. Beskriv metoden så andre kan gjenta undersøkelsen, og følg forskningsetiske regler.\n\n## Populasjoner og forvaltning\n\nEn **populasjon** er alle individer av én art i et område. Fødsler og innvandring øker den, mens dødsfall og utvandring reduserer den. Rikelige ressurser kan gi **eksponentiell vekst** med J-formet kurve. Begrensede ressurser bremser veksten mot **bæreevnen K**, som gir **logistisk vekst** med S-formet kurve. Konkurranse, predasjon og sykdom er tetthetsavhengige faktorer; vær og katastrofer er tetthetsuavhengige. **r-strategister** får mange avkom og lite omsorg, mens **K-strategister** får få avkom og mer omsorg. Predator- og byttedyrbestander kan svinge i takt. Bærekraftig høsting krever at uttaket er mindre enn tilveksten. Forvaltning bygger på kunnskap, overvåking og dialog, samtidig som ulike interesser må veies mot hverandre.\n\n## Artsmangfold og feltarbeid\n\n**Artsmangfold** omfatter både **artsrikdom** og **jevnhet** i fordelingen av individer. I felt kan **ruteanalyse** registrere arter i avgrensede ruter, mens **transekt** viser hvordan artssammensetningen endres langs en miljøgradient. **Fangst–gjenfangst** anslår en bestandsstørrelse med formelen **N = M · C / R**. Planlegg prøver, mål miljøfaktorer og vurder feilkilder som få prøver og feilbestemte arter. Arters morfologiske, fysiologiske og atferdsmessige tilpasninger henger sammen med deres **økologiske nisje**. Høyt artsmangfold gir mer robuste økosystemer og økosystemtjenester som pollinering og rent vann, men trues blant annet av arealendringer, forurensning og fremmede arter.\n\n## Energistrøm og stoffkretsløp\n\n**Energi strømmer** gjennom økosystemet fra sola og ender som varme, mens stoffer brukes om igjen i **kretsløp**. Produsenter bygger organisk stoff ved fotosyntese, konsumenter spiser andre organismer, og nedbrytere bryter ned dødt materiale. Omtrent **10 %** av energien går videre til neste trofiske nivå, så energien avtar oppover i en energipyramide. **Nettoproduksjon** er energien som er igjen etter produsentenes celleånding. I karbonkretsløpet tar fotosyntesen opp CO₂, mens celleånding og nedbrytning frigjør den. Nitrogenfiksering gjør N₂ om til ammonium, nitrifikasjon gjør ammonium om til nitrat, og denitrifikasjon gjør nitrat om til N₂. Fosforkretsløpet har ingen gassfase, og fosfor er ofte begrensende. Fordamping, nedbør, avrenning og transpirasjon inngår i vannets kretsløp.\n\n## Menneskelig påvirkning på kretsløpene\n\nForbrenning av fossile brensler og inngrep som avskoging og drenering av myr frigjør karbon. Mer CO₂ forsterker drivhuseffekten, og CO₂-opptak i havet gir **havforsuring**, som gjør det vanskeligere for koraller og skjell å bygge kalkskall. Kunstgjødsel, husdyrgjødsel og avløp tilfører nitrogen og fosfor. **Eutrofiering** kan gi algeoppblomstring; når algene brytes ned, brukes oksygen opp og døde soner kan oppstå. Nitrogenoksider bidrar til sur nedbør, og lystgass fra gjødslet jord er en drivhusgass. Tiltak omfatter å bevare myr og skog, gjødsle presist, bruke kantsoner og rense avløpsvann. Drøft tiltak ut fra effekt, kostnad og rettferdighet.\n\n## Enzymer og metabolisme\n\n**Metabolisme** er alle kjemiske reaksjoner i organismen. **Katabolisme** bryter ned molekyler og frigjør energi, mens **anabolisme** bygger opp molekyler og krever energi. ATP overfører energi mellom prosesser. **Enzymer** senker aktiveringsenergien og er spesifikke for substratene sine; substratet bindes til enzymets aktive sete. Temperatur og pH påvirker aktiviteten, og høy temperatur eller feil pH kan denaturere enzymet. Når alle aktive seter er opptatt, er enzymet mettet. Kompetitive hemmere konkurrerer om det aktive setet, mens ikke-kompetitive hemmere binder et annet sted og endrer enzymets form. I en metabolsk vei kan sluttproduktet hemme et tidlig enzym gjennom tilbakekoblingshemming.\n\n## Fotosyntese og celleånding\n\nFotosyntesen lagrer lysenergi som kjemisk energi: **6CO₂ + 6H₂O + lysenergi → C₆H₁₂O₆ + 6O₂**. Lysreaksjonene i tylakoidmembranene lager ATP og NADPH, mens Calvin-syklusen i stroma binder CO₂ og bygger sukker. Celleåndingen frigjør energi fra glukose: **C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energi**. Glykolysen foregår i cytoplasma og gir 2 ATP netto; videre trinn i mitokondriene gir mesteparten av ATP-en, omtrent 30–32 per glukose. Uten oksygen kan glykolysen fortsette ved hjelp av gjæring, som gir 2 ATP per glukose. Planter har både fotosyntese og celleånding. Lys, CO₂, temperatur, vann og næring kan begrense fotosyntesen.\n\n## Genetisk kode, genuttrykk og genteknologi\n\nEt **gen** inneholder oppskrift på et protein eller funksjonelt RNA. Ved **transkripsjon** lager RNA-polymerase en mRNA-kopi; hos eukaryoter kan introner fjernes og eksoner skjøtes sammen. Ved **translasjon** leser ribosomet mRNA i kodoner på tre baser, og tRNA bringer aminosyrer som settes sammen til protein. Genuttrykk reguleres ulikt mellom celler, blant annet av transkripsjonsfaktorer og epigenetiske endringer. **PCR** kopierer et DNA-stykke, mens **CRISPR-Cas9** kan klippe DNA på et bestemt sted. Genteknologi omfatter også genterapi og mRNA-vaksiner.\n\n## Arv og variasjon\n\nEt gen kan ha ulike **alleler**. Genotypen er allelene individet har, mens fenotypen er egenskapene som vises. Et dominant allel vises med én kopi; et recessivt trekk vises vanligvis bare hos homozygote individer. Ved krysningen **Aa × Aa** er genotypeforholdet 1 AA : 2 Aa : 1 aa og fenotypeforholdet 3 dominante : 1 recessiv. Arvemønstre omfatter blant annet kodominans, kjønnsbundet arv og polygen arv. Mutasjoner er den eneste kilden til nye alleler; meiosen og tilfeldig befruktning gir nye kombinasjoner. Fenotypen påvirkes også av miljøet. Genetisk variasjon er råmateriale for evolusjon.\n\n## Evolusjon og artsdannelse\n\n**Evolusjon** er endring i allelfrekvenser i en populasjon over generasjoner. Ved Hardy–Weinberg-likevekt gjelder **p + q = 1** og **p² + 2pq + q² = 1**; likevekten krever blant annet ingen seleksjon, mutasjoner eller genflyt. Naturlig seleksjon kan være retningsbestemt, stabiliserende eller splittende. Genetisk drift endrer allelfrekvenser tilfeldig, særlig i små populasjoner, mens genflyt flytter alleler mellom populasjoner. Etter det biologiske artsbegrepet kan individer av samme art få fruktbart avkom. Geografisk isolasjon kan gi allopatrisk artsdannelse; sympatrisk artsdannelse kan skje i samme område. Reproduktive barrierer kan virke før eller etter befruktning. Antibiotikaresistens er et eksempel på evolusjon i vår egen tid.\n\n## Kommersiell bruk av genteknologi og etikk\n\nGenmodifiserte bakterier kan lage legemidler som insulin, og gentester kan bidra til persontilpasset medisin. **GMO** har fått gener fra andre arter, mens genredigering endrer organismens egne gener. Genteknologi brukes også i matproduksjon og havbruk. I Norge regulerer genteknologiloven bruk av GMO, og bioteknologiloven medisinsk bruk på mennesker. Etiske vurderinger omfatter mulig nytte og risiko for helse og miljø, rettferdighet, dyrevelferd og genetisk personvern. **Føre var-prinsippet** innebærer forsiktighet når langsiktige virkninger er usikre. I en drøfting bør du også vurdere hvem som får nytten, hvem som tar risikoen, og hvilke alternativer som finnes.\n\n## Sammenhenger i faget\n\nMetoder fra T1 brukes til å undersøke populasjoner og artsmangfold i T2 og T3. Energi og stoffer går gjennom økosystemene i T4, mens menneskelig aktivitet påvirker disse kretsløpene i T5. Fotosyntese, celleånding og enzymer forklarer hvordan organismer omsetter energi. Gener og genuttrykk påvirker egenskaper; arv og variasjon gir grunnlag for evolusjon og artsdannelse. Genteknologi bygger på kunnskap om DNA og genuttrykk, og bruken må vurderes ut fra biologisk kunnskap og etikk.\n\n## Huskeliste før prøven\n\n- Skill mellom uavhengig, avhengig og kontrollert variabel.\n- Forklar forskjellen på eksponentiell og logistisk vekst.\n- Bruk **N = M · C / R** ved fangst–gjenfangst.\n- Husk at energi strømmer, mens stoffer går i kretsløp.\n- Forklar hvordan eutrofiering kan føre til oksygenmangel.\n- Skill mellom katabolisme og anabolisme.\n- Sammenlign fotosyntese og celleånding.\n- Skill mellom genotype, fenotype og allelfrekvens.\n- Forklar hvordan variasjon og seleksjon kan endre populasjoner.\n- Vurder både nytte, risiko og etikk ved genteknologi.",
+  "flashcards": [
+    {
+      "term": "Hypotese",
+      "def": "Testbar påstand."
+    },
+    {
+      "term": "Korrelasjon",
+      "def": "Samvariasjon – ikke nødvendigvis årsak."
+    },
+    {
+      "term": "Logistisk vekst",
+      "def": "Veksten avtar mot bæreevnen – S-formet kurve."
+    },
+    {
+      "term": "Bærekraftig høsting",
+      "def": "Uttaket er mindre enn tilveksten."
+    },
+    {
+      "term": "Artsmangfold",
+      "def": "Hvor mange arter det finnes og hvor jevnt individene er fordelt."
+    },
+    {
+      "term": "Fangst–gjenfangst",
+      "def": "Metode for å anslå bestandsstørrelse: N = M · C / R."
+    },
+    {
+      "term": "10 %-regelen",
+      "def": "Omtrent 10 % av energien går videre til neste trofiske nivå."
+    },
+    {
+      "term": "Nitrogenfiksering",
+      "def": "Bakterier gjør N₂ om til ammonium."
+    },
+    {
+      "term": "Havforsuring",
+      "def": "Havets pH synker når det tar opp mye CO₂."
+    },
+    {
+      "term": "Eutrofiering",
+      "def": "Overgjødsling av vann som gir algeoppblomstring."
+    },
+    {
+      "term": "Enzym",
+      "def": "Biologisk katalysator, som regel et protein."
+    },
+    {
+      "term": "Tilbakekoblingshemming",
+      "def": "Sluttproduktet hemmer et tidlig enzym i veien."
+    },
+    {
+      "term": "Calvin-syklusen",
+      "def": "Skjer i stroma – CO₂ bindes og sukker bygges opp."
+    },
+    {
+      "term": "Elektrontransportkjeden",
+      "def": "Gir mesteparten av ATP-en i den indre mitokondriemembranen."
+    },
+    {
+      "term": "Transkripsjon",
+      "def": "RNA-polymerase lager en mRNA-kopi av genet."
+    },
+    {
+      "term": "CRISPR-Cas9",
+      "def": "Gensaks som klipper DNA på et bestemt sted.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Dominant allel",
+      "def": "Vises selv om det bare finnes ett av det."
+    },
+    {
+      "term": "Mutasjon",
+      "def": "Endring i DNA – den eneste kilden til nye alleler."
+    },
+    {
+      "term": "Evolusjon",
+      "def": "Endring i allelfrekvenser over generasjoner."
+    },
+    {
+      "term": "p² + 2pq + q² = 1",
+      "def": "Genotypefrekvensene i Hardy–Weinberg-likevekt."
+    },
+    {
+      "term": "GMO",
+      "def": "Genmodifisert organisme med gener fra andre arter."
+    },
+    {
+      "term": "Føre var-prinsippet",
+      "def": "Forsiktighet når langsiktige virkninger er usikre."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva må du skille mellom i drøftingen?",
+      "options": [
+        "Tabeller og grafer",
+        "Planter og dyr",
+        "Korrelasjon og årsakssammenheng",
+        "Innledning og konklusjon"
+      ],
+      "correct": 2,
+      "explain": "Samvariasjon er ikke nødvendigvis årsak."
+    },
+    {
+      "id": "q02",
+      "text": "Når er høsting av en bestand bærekraftig?",
+      "options": [
+        "Når uttaket er større enn tilveksten",
+        "Når uttaket er mindre enn tilveksten",
+        "Når alle dyrene høstes",
+        "Aldri"
+      ],
+      "correct": 1,
+      "explain": "Da kan bestanden opprettholdes."
+    },
+    {
+      "id": "q03",
+      "text": "M = 50 merkede, C = 60 fanget senere og R = 12 merkede i andre fangst. Hva er bestanden?",
+      "options": [
+        "250",
+        "120",
+        "600",
+        "72"
+      ],
+      "correct": 0,
+      "explain": "N = M · C / R."
+    },
+    {
+      "id": "q04",
+      "text": "Produsentene har 10 000 kJ. Omtrent hvor mye når sekundærkonsumentene?",
+      "options": [
+        "1000 kJ",
+        "5000 kJ",
+        "100 kJ",
+        "10 kJ"
+      ],
+      "correct": 2,
+      "explain": "To ledd med 10 %."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er eutrofiering?",
+      "options": [
+        "Overgjødsling av vann som gir algeoppblomstring",
+        "Forsuring av jord",
+        "Avskoging",
+        "Tørke"
+      ],
+      "correct": 0,
+      "explain": "Kan gi døde soner."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er tilbakekoblingshemming?",
+      "options": [
+        "At enzymet stopper for alltid",
+        "At sluttproduktet hemmer et tidlig enzym i veien",
+        "At substratet hemmer enzymet",
+        "At temperaturen senkes"
+      ],
+      "correct": 1,
+      "explain": "Sparer energi og ressurser."
+    },
+    {
+      "id": "q07",
+      "text": "Hva har fotosyntesen og celleåndingen til felles?",
+      "options": [
+        "Begge bruker en elektrontransportkjede og ATP-syntase",
+        "Begge skjer i kloroplasten",
+        "Begge tar opp CO₂",
+        "Begge lager oksygen"
+      ],
+      "correct": 0,
+      "explain": "I en membran."
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor gjør den universelle koden genteknologi mulig?",
+      "options": [
+        "Fordi et gen fra én art kan leses av en annen art",
+        "Fordi alle arter har samme gener",
+        "Fordi DNA ikke kan endres",
+        "Fordi proteiner er like"
+      ],
+      "correct": 0,
+      "explain": "For eksempel menneskelig insulin i bakterier."
+    },
+    {
+      "id": "q09",
+      "text": "Hva blir fenotypeforholdet ved krysningen Aa × Aa?",
+      "options": [
+        "3 dominante : 1 recessiv",
+        "1 : 1",
+        "1 : 2 : 1 i fenotype",
+        "Alle dominante"
+      ],
+      "correct": 0,
+      "explain": "Genotypeforholdet er 1 : 2 : 1."
+    },
+    {
+      "id": "q10",
+      "text": "q² = 0,04. Hva er andelen bærere (Aa)?",
+      "options": [
+        "32 %",
+        "4 %",
+        "16 %",
+        "64 %"
+      ],
+      "correct": 0,
+      "explain": "q = 0,2, p = 0,8, 2pq = 0,32."
+    },
+    {
+      "id": "q11",
+      "text": "Hva er forskjellen på GMO og genredigering?",
+      "options": [
+        "Det er det samme",
+        "GMO har gener fra andre arter, genredigering endrer organismens egne gener",
+        "Genredigering bruker alltid fremmede gener",
+        "GMO finnes ikke i mat"
+      ],
+      "correct": 1,
+      "explain": "Genredigering bruker for eksempel CRISPR."
+    }
+  ],
+  "mindmap": {
+    "label": "Biologi 2",
+    "children": [
+      {
+        "label": "Biologisk forskning og metode",
+        "children": [
+          {
+            "label": "Hypotese",
+            "note": "Testbar påstand."
+          },
+          {
+            "label": "Korrelasjon",
+            "note": "Samvariasjon – ikke nødvendigvis årsak."
+          }
+        ]
+      },
+      {
+        "label": "Populasjoner og forvaltning",
+        "children": [
+          {
+            "label": "Logistisk vekst",
+            "note": "Veksten avtar mot bæreevnen – S-formet kurve."
+          },
+          {
+            "label": "Bærekraftig høsting",
+            "note": "Uttaket er mindre enn tilveksten."
+          }
+        ]
+      },
+      {
+        "label": "Artsmangfold og feltarbeid",
+        "children": [
+          {
+            "label": "Artsmangfold",
+            "note": "Hvor mange arter det finnes og hvor jevnt individene er fordelt."
+          },
+          {
+            "label": "Fangst–gjenfangst",
+            "note": "Metode for å anslå bestandsstørrelse: N = M · C / R."
+          }
+        ]
+      },
+      {
+        "label": "Energistrøm og stoffkretsløp",
+        "children": [
+          {
+            "label": "10 %-regelen",
+            "note": "Omtrent 10 % av energien går videre til neste trofiske nivå."
+          },
+          {
+            "label": "Nitrogenfiksering",
+            "note": "Bakterier gjør N₂ om til ammonium."
+          }
+        ]
+      },
+      {
+        "label": "Menneskelig påvirkning på kretsløpene",
+        "children": [
+          {
+            "label": "Havforsuring",
+            "note": "Havets pH synker når det tar opp mye CO₂."
+          },
+          {
+            "label": "Eutrofiering",
+            "note": "Overgjødsling av vann som gir algeoppblomstring."
+          }
+        ]
+      },
+      {
+        "label": "Enzymer og metabolisme",
+        "children": [
+          {
+            "label": "Enzym",
+            "note": "Biologisk katalysator, som regel et protein."
+          },
+          {
+            "label": "Tilbakekoblingshemming",
+            "note": "Sluttproduktet hemmer et tidlig enzym i veien."
+          }
+        ]
+      },
+      {
+        "label": "Fotosyntese og celleånding",
+        "children": [
+          {
+            "label": "Calvin-syklusen",
+            "note": "Skjer i stroma – CO₂ bindes og sukker bygges opp."
+          },
+          {
+            "label": "Elektrontransportkjeden",
+            "note": "Gir mesteparten av ATP-en i den indre mitokondriemembranen."
+          }
+        ]
+      },
+      {
+        "label": "Genetisk kode, genuttrykk og genteknologi",
+        "children": [
+          {
+            "label": "Transkripsjon",
+            "note": "RNA-polymerase lager en mRNA-kopi av genet."
+          },
+          {
+            "label": "CRISPR-Cas9",
+            "note": "Gensaks som klipper DNA på et bestemt sted."
+          }
+        ]
+      },
+      {
+        "label": "Arv og variasjon",
+        "children": [
+          {
+            "label": "Dominant allel",
+            "note": "Vises selv om det bare finnes ett av det."
+          },
+          {
+            "label": "Mutasjon",
+            "note": "Endring i DNA – den eneste kilden til nye alleler."
+          }
+        ]
+      },
+      {
+        "label": "Evolusjon og artsdannelse",
+        "children": [
+          {
+            "label": "Evolusjon",
+            "note": "Endring i allelfrekvenser over generasjoner."
+          },
+          {
+            "label": "p² + 2pq + q² = 1",
+            "note": "Genotypefrekvensene i Hardy–Weinberg-likevekt."
+          }
+        ]
+      },
+      {
+        "label": "Kommersiell bruk av genteknologi og etikk",
+        "children": [
+          {
+            "label": "GMO",
+            "note": "Genmodifisert organisme med gener fra andre arter."
+          },
+          {
+            "label": "Føre var-prinsippet",
+            "note": "Forsiktighet når langsiktige virkninger er usikre."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Hvorfor fordeler vi forsøksobjekter tilfeldig?",
+        "options": [
+          "For å spare plass",
+          "For å få færre data",
+          "For å redusere skjevheter",
+          "For å øke variasjonen bevisst"
+        ],
+        "correct": 2,
+        "explain": "Gruppene blir mer like."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hva bør god forvaltning bygge på?",
+        "options": [
+          "Bare økonomiske hensyn",
+          "Bare tradisjon",
+          "Kunnskap, overvåking og dialog mellom partene",
+          "Tilfeldige vedtak"
+        ],
+        "correct": 2,
+        "explain": "Ulike interesser må veies."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Fremmede arter kan true det lokale artsmangfoldet.",
+        "correct": true,
+        "explain": "De kan utkonkurrere stedegne arter."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Hva gjør nitrifiserende bakterier?",
+        "options": [
+          "Gjør ammonium om til nitrat",
+          "Gjør nitrat om til N₂",
+          "Fikserer N₂",
+          "Bryter ned fosfor"
+        ],
+        "correct": 0,
+        "explain": "Nitrat tas opp av plantene."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Overgjødsling kan redusere artsmangfoldet.",
+        "correct": true,
+        "explain": "Næringskrevende arter fortrenger andre."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken prosess er anabolsk?",
+        "options": [
+          "Celleånding",
+          "Proteinsyntese",
+          "Fordøyelse",
+          "Glykolyse"
+        ],
+        "correct": 1,
+        "explain": "Bygger opp store molekyler."
+      },
+      {
+        "id": "m07",
+        "type": "sant-usant",
+        "text": "Planter har både fotosyntese og celleånding.",
+        "correct": true,
+        "explain": "De trenger ATP hele døgnet."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I et feltforsøk sammenligner du plantearter i skogkanten og inne i skogen. Forklar hvordan du kan undersøke forskjellen på en etterprøvbar måte, og nevn én mulig feilkilde.",
+        "fasit": "Jeg kan legge ut flere ruter tilfeldig eller systematisk på begge lokalitetene og registrere artene med samme metode. Jeg bør beskrive framgangsmåten tydelig og måle relevante miljøfaktorer. Feilbestemte arter eller for få ruter kan være feilkilder.",
+        "kriterier": [
+          "Beskriver sammenlignbare ruter/prøver på begge lokalitetene.",
+          "Nevner etterprøvbar metode og en relevant feilkilde."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En bestand får 20 individer fanget og merket. Senere fanges 30 individer, og 10 av dem er merket. Bruk fangst–gjenfangst-formelen til å anslå bestandens størrelse.",
+        "fasit": "N = M · C / R = 20 · 30 / 10 = 60. Bestanden anslås til 60 individer.",
+        "kriterier": [
+          "Setter inn verdiene riktig i N = M · C / R.",
+          "Får svaret 60 individer."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En innsjø får tilført mye nitrogen og fosfor. Forklar hvordan dette kan føre til oksygenmangel og påvirke artsmangfoldet.",
+        "fasit": "Den ekstra næringen kan gi eutrofiering og algeoppblomstring. Når algene dør og brytes ned, brukes oksygen opp, og det kan dannes oksygenfattige eller døde soner. Arter som tåler mye næring, kan fortrenge andre, slik at artsmangfoldet går ned.",
+        "kriterier": [
+          "Knytter tilført næring til eutrofiering og algeoppblomstring.",
+          "Forklarer oksygenforbruk ved nedbrytning og mulig reduksjon i artsmangfold."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Produsentene i et næringsnett binder 5000 kJ. Omtrent 10 % av energien går videre for hvert trofisk nivå. Hvor mye energi når primærkonsumentene og sekundærkonsumentene?",
+        "fasit": "Primærkonsumentene får omtrent 500 kJ, fordi 10 % av 5000 kJ er 500 kJ. Sekundærkonsumentene får omtrent 50 kJ, altså 10 % av 500 kJ.",
+        "kriterier": [
+          "Regner ut omtrent 500 kJ til primærkonsumentene.",
+          "Regner ut omtrent 50 kJ til sekundærkonsumentene."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hvordan fotosyntese og celleånding henger sammen med karbonkretsløpet.",
+        "fasit": "Fotosyntesen tar opp CO₂ og binder karbon i organisk stoff, blant annet sukker. Celleånding bryter ned glukose og frigjør CO₂ igjen. Slik flyttes karbon mellom atmosfæren og levende organismer.",
+        "kriterier": [
+          "Forklarer at fotosyntese tar opp CO₂ og binder karbon.",
+          "Forklarer at celleånding frigjør CO₂."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I en populasjon viser 25 % et recessivt trekk. Hvis populasjonen er i Hardy–Weinberg-likevekt, hvor stor andel er heterozygote bærere?",
+        "fasit": "Andelen recessive individer er q² = 0,25, så q = 0,5 og p = 0,5. Andelen heterozygote bærere er 2pq = 2 · 0,5 · 0,5 = 0,5, altså 50 %.",
+        "kriterier": [
+          "Finner q = 0,5 og p = 0,5 fra q² = 0,25.",
+          "Bruker 2pq og får 50 % bærere."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvordan genetisk variasjon kan føre til at antibiotikaresistens blir vanligere i en bakteriepopulasjon.",
+        "fasit": "Mutasjoner kan gi nye alleler og variasjon, slik at noen bakterier tåler antibiotika bedre. Disse bakteriene kan overleve og få avkom, og allelene deres blir dermed vanligere i populasjonen gjennom naturlig seleksjon.",
+        "kriterier": [
+          "Knytter mutasjon eller variasjon til forskjeller i resistens.",
+          "Forklarer at seleksjon gjør resistensallelene vanligere gjennom overlevelse og avkom."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar forskjellen på GMO og genredigering, og nevn én etisk vurdering som bør inngå når genredigerte planter brukes.",
+        "fasit": "GMO har fått gener fra andre arter, mens genredigering endrer organismens egne gener. En etisk vurdering er om endrede gener kan spre seg til ville slektninger, eller om mulige miljøvirkninger er usikre.",
+        "kriterier": [
+          "Skiller mellom gener fra andre arter og endring av organismens egne gener.",
+          "Nevner en relevant etisk vurdering, for eksempel risiko for miljøet eller spredning til ville slektninger."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

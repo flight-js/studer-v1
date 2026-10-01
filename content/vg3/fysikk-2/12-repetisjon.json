@@ -1,0 +1,558 @@
+{
+  "id": "repetisjon",
+  "fagId": "fysikk-2",
+  "trinnId": "vg3",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sammendrag": "Fysikk 2 undersøker bevegelse, krefter, felt, energi og naturens grunnleggende lover. Vi bruker matematiske modeller, forsøk og målinger for å beskrive og teste hvordan verden virker.\n\n## T1: Forsøk, usikkerhet og internasjonalt forskningssamarbeid\nEt godt forsøk har en tydelig **problemstilling** og en testbar **hypotese**. Bestem hva som endres, måles og holdes konstant. Gjentatte målinger gir et **gjennomsnitt** som beste verdi; **standardavvik** eller halve variasjonsbredden beskriver spredningen. **Absolutt usikkerhet** har samme enhet som målingen, mens **relativ usikkerhet** er absolutt usikkerhet delt på målt verdi. Ved addisjon og subtraksjon summeres absolutte usikkerheter; ved multiplikasjon og divisjon summeres relative usikkerheter. For en potens ganges den relative usikkerheten med eksponenten. Vurder om resultatet stemmer med teori innenfor usikkerheten, og se etter **systematiske feil**. **Linearisering** kan gjøre det enklere å teste en modell. Internasjonalt samarbeid deler kostnader og kompetanse og gjør det mulig å kontrollere resultater.\n\n## T2: Numeriske metoder og modellering\nNår en enkel formel ikke strekker til, kan vi bruke **numeriske metoder** og regne steg for steg. I **Eulers metode** finner vi først akselerasjonen fra a = ΣF/m, og oppdaterer så farten med v_ny = v + a · Δt og posisjonen med x_ny = x + v · Δt. Metoden antar konstant akselerasjon i hvert lite **tidssteg**. Et mindre tidssteg gir vanligvis større nøyaktighet, men krever flere beregninger; halver tidssteget for å teste om resultatet endres lite. Ved fall med luftmotstand L = kv² blir a = g − (k/m)v², og terminalfarten er v_t = √(mg/k). I to dimensjoner beregnes x- og y-komponentene hver for seg. En simulering er en **modell**, ikke en perfekt kopi av virkeligheten: Sammenlign den med målinger, og juster parametere eller modell ved behov.\n\n## T3: Bevegelse i to dimensjoner\nPosisjon, fart og akselerasjon er **vektorer** med størrelse og retning. En fart v₀ i vinkelen α deles i v₀ₓ = v₀ cos α og v₀ᵧ = v₀ sin α; samlet fart finnes med v = √(vₓ² + vᵧ²). Uten luftmotstand er bevegelsen horisontalt jevn og vertikalt akselerert av tyngden: x = v₀ₓt, vᵧ = v₀ᵧ − gt og y = v₀ᵧt − ½gt². Banen blir en **parabel**. I toppunktet er vᵧ = 0, maksimal høyde er h = v₀ᵧ²/(2g), og for kast som starter og slutter i samme høyde er rekkevidden R = v₀² sin(2α)/g, størst ved 45°. I et horisontalt kast avhenger falltiden bare av høyden. Luftmotstand gir en kortere, lavere og usymmetrisk bane.\n\n## T4: Krumlinjet bevegelse og sirkelbevegelse\nEn kraftkomponent vinkelrett på farten endrer bevegelsesretningen. Ved **jevn sirkelbevegelse** er farten konstant, men retningen endres, så akselerasjonen peker mot sentrum: a = v²/r. Banefarten er v = 2πr/T, der T er perioden. **Sentripetalkraft** er ikke en egen kraft, men summen av kreftene inn mot sentrum: ΣF = mv²/r. Den kan for eksempel komme fra friksjon, snordrag, gravitasjon eller normalkraft. I toppen av en loop gjelder mg + N = mv²/r; minimumsfarten fås når N = 0, altså v = √(gr). I bunnen er N − mg = mv²/r, så normalkraften er større enn tyngden. «Sentrifugalkraften» er ikke en ekte kraft fra omgivelsene, men opplevelsen av treghet.\n\n## T5: Gravitasjon og energi i sentralfelt\nNewtons gravitasjonslov er F = γm₁m₂/r², og feltstyrken rundt en masse M er g = γM/r². Kraften avtar med kvadratet av avstanden. Potensiell energi i et sentralfelt er Eₚ = −γMm/r, med nullpunkt uendelig langt unna; energien øker når avstanden øker. Når bare gravitasjonen virker, er ½mv² − γMm/r konstant. Unnslipningsfarten er v = √(2γM/r), mens banefarten i sirkelbane er v = √(γM/r), uavhengig av satellittens masse. Keplers lover beskriver ellipsebaner, like arealer på like tider og forholdet T²/r³. Astronauter i bane føler seg vektløse fordi de og romstasjonen er i fritt fall.\n\n## T6: Elektriske felt\nCoulombs lov er F = k|q₁q₂|/r²: Like ladninger frastøter og ulike tiltrekker. Elektrisk feltstyrke er kraft per ladning, E = F/q; rundt en punktladning er E = kQ/r². Feltlinjer viser kraftretningen på en positiv ladning. Mellom parallelle plater er feltet tilnærmet homogent, med E = U/d. En ladning får kraft F = qE; positive ladninger virker med feltet, negative mot. Arbeidet ved spenningen U er W = qU. For en partikkel som starter i ro, gir energiomforming v = √(2qU/m). Elektrisk og gravitasjonskraft avtar begge med 1/r², men elektrisk kraft kan både tiltrekke og frastøte.\n\n## T7: Magnetiske felt\nMagneter og elektrisk strøm lager **magnetfelt**. Feltlinjene går ut fra nordpolen og inn mot sørpolen utenfor en magnet; rundt en rett leder går de i sirkler. Magnetisk flukstetthet B måles i tesla. En strømførende leder vinkelrett på feltet får kraft F = BIl, og en ladning som beveger seg vinkelrett på feltet får F = qvB. Kraften står vinkelrett på farten, gjør ikke arbeid og endrer derfor retningen, ikke banefarten. Partikkelen går i sirkel med radius r = mv/(qB), eller i spiral dersom den også har fart langs feltet. Dette brukes blant annet i elektromotorer og massespektrometre.\n\n## T8: Elektromagnetisk induksjon\nEndring i magnetisk fluks gjennom en sløyfe gir **indusert spenning**. Fluksen er Φ = BA cos θ, og Faradays induksjonslov er ε = −NΔΦ/Δt. Fluksen kan endres ved å endre feltstyrke, areal eller vinkel. **Lenz’ regel** sier at den induserte strømmen motvirker endringen som skapte den; dette henger sammen med energibevaring. For en leder som beveger seg vinkelrett på feltet er ε = Blv. En stillestående magnet gir ingen indusert spenning. Induserte virvelstrømmer kan motvirke bevegelse.\n\n## T9: Induksjon i energiproduksjon og hverdagen\nEn **generator** omdanner mekanisk energi til elektrisk energi ved induksjon. Når fluksen varierer sinusformet, får vi vekselspenning. Vann, vind, bølger, tidevann eller damp kan drive turbiner og generatorer; solceller omdanner lys direkte til strøm. En transformator har to spoler rundt en jernkjerne og følger U₁/U₂ = N₁/N₂. Den trenger vekselstrøm, slik at fluksen endres. Strøm overføres ved høy spenning og lav strøm for å redusere varmetapet P_tap = RI². Induksjon brukes også i induksjonstopper, trådløs lading og regenerativ bremsing.\n\n## T10: Den spesielle og generelle relativitetsteorien\nDen spesielle relativitetsteorien bygger på at fysikkens lover er de samme i alle inertialsystemer, og at lysfarten i vakuum er lik for alle observatører. Dermed er ikke tid og rom absolutte: Bevegelige klokker går langsommere, t = γt₀, og lengder forkortes i fartsretningen, L = L₀/γ. Masse og energi er ekvivalente: E = mc². Den generelle relativitetsteorien knytter gravitasjon til krumning av romtiden, og gravitasjon og akselerasjon kan ikke skilles i et lukket rom. Klokker går langsommere i sterkere gravitasjonsfelt. Newtons fysikk er fortsatt en god tilnærming ved lave farter og svake felt.\n\n## T11: Kvantefysikk\nKvanteobjekter har **kvantisert** energi, viser både bølge- og partikkelegenskaper og beskrives med sannsynligheter. Et foton har energi E = hf = hc/λ. I den fotoelektriske effekten slår lys elektroner løs når frekvensen er høy nok; sterkere lys gir flere elektroner, ikke raskere elektroner. Sammenhengen er Eₖ = hf − W. Dobbeltspalteforsøket viser interferens selv når partikler sendes én om gangen, men måling av hvilken spalte de passerer, fjerner mønsteret. De Broglie-bølgelengden er λ = h/p. Heisenbergs uskarphetsrelasjon sier at posisjon og bevegelsesmengde ikke kan kjennes nøyaktig samtidig. Kvantefenomener brukes blant annet i lasere, LED, solceller og tunnelmikroskoper.\n\n## Sammenhenger i faget\nForsøk og usikkerhetsanalyse brukes til å teste modeller, mens numeriske metoder gjør det mulig å undersøke bevegelse når en enkel formel ikke er nok. Vektorer og Newtons lover beskriver kast og sirkelbevegelse; gravitasjon kan gi sentripetalkraften i en bane. Elektriske og magnetiske felt påvirker ladninger, og endringer i magnetisk fluks kobler magnetisme til generatorer, transformatorer og energibruk. Relativitets- og kvantefysikken utvider den klassiske beskrivelsen til sterke gravitasjonsfelt, høye farter og svært små objekter.\n\n## Huskeliste før prøven\n- Skill mellom absolutt og relativ usikkerhet.\n- Sjekk enheter og regn med usikkerhet etter regneoperasjonen.\n- Del vektorer i komponenter før du løser bevegelsesoppgaver.\n- Tegn kreftene, og finn summen inn mot sentrum ved sirkelbevegelse.\n- Bruk gravitasjonsenergi og energibevaring for baner.\n- Skill mellom elektrisk felt, magnetfelt og induksjon.\n- Husk at Lenz’ regel motvirker fluksendringen.\n- Vurder modellens antakelser og sammenlign med målinger.\n- Skill klassisk fysikk fra relativitets- og kvantefysiske beskrivelser.",
+  "flashcards": [
+    {
+      "term": "Absolutt usikkerhet",
+      "def": "Usikkerheten i samme enhet som målingen."
+    },
+    {
+      "term": "Usikkerhet ved multiplikasjon",
+      "def": "De relative usikkerhetene legges sammen."
+    },
+    {
+      "term": "Eulers metode",
+      "def": "Oppdaterer fart og posisjon med a · Δt og v · Δt."
+    },
+    {
+      "term": "Terminalfart",
+      "def": "Fart der luftmotstanden er like stor som tyngden."
+    },
+    {
+      "term": "Dekomponering",
+      "def": "Å dele en vektor i x- og y-komponenter."
+    },
+    {
+      "term": "Rekkevidde",
+      "def": "R = v₀² · sin(2α) / g på flat mark."
+    },
+    {
+      "term": "Sentripetalakselerasjon",
+      "def": "a = v² / r, rettet mot sentrum."
+    },
+    {
+      "term": "Sentripetalkraft",
+      "def": "Summen av kreftene mot sentrum: mv² / r."
+    },
+    {
+      "term": "Newtons gravitasjonslov",
+      "def": "F = γ · m₁ · m₂ / r²."
+    },
+    {
+      "term": "Energibevaring i bane",
+      "def": "½mv² − γMm/r er konstant når bare gravitasjonen virker."
+    },
+    {
+      "term": "Elektrisk feltstyrke",
+      "def": "E = F / q – kraft per ladning."
+    },
+    {
+      "term": "Kraft i elektrisk felt",
+      "def": "F = qE."
+    },
+    {
+      "term": "F = qvB",
+      "def": "Kraft på ladning som beveger seg vinkelrett på feltet."
+    },
+    {
+      "term": "Magnetfelt og arbeid",
+      "def": "Kraften står vinkelrett på farten og gjør ikke arbeid."
+    },
+    {
+      "term": "Faradays induksjonslov",
+      "def": "ε = −N · ΔΦ / Δt."
+    },
+    {
+      "term": "Lenz' regel",
+      "def": "Indusert strøm motvirker endringen som skapte den."
+    },
+    {
+      "term": "Generator",
+      "def": "Gjør mekanisk energi om til elektrisk energi ved induksjon."
+    },
+    {
+      "term": "U₁/U₂ = N₁/N₂",
+      "def": "Transformatorligningen."
+    },
+    {
+      "term": "Tidsforlengelse",
+      "def": "t = γ · t₀ – klokker i bevegelse går langsommere."
+    },
+    {
+      "term": "Krum romtid",
+      "def": "Masse og energi krummer romtiden – det er gravitasjon."
+    },
+    {
+      "term": "Fotonenergi",
+      "def": "E = hf = hc/λ."
+    },
+    {
+      "term": "Bølge–partikkel-dualitet",
+      "def": "Kvanteobjekter oppfører seg både som bølger og partikler."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvordan finner du usikkerheten i et produkt av to målte størrelser?",
+      "options": [
+        "Legger sammen de relative usikkerhetene",
+        "Legger sammen de absolutte usikkerhetene",
+        "Multipliserer usikkerhetene",
+        "Tar den største"
+      ],
+      "correct": 0,
+      "explain": "Gjelder også divisjon."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan kan du teste om tidssteget er lite nok?",
+      "options": [
+        "Halvere det og se om resultatet endres lite",
+        "Doble det",
+        "Fjerne løkken",
+        "Endre massen"
+      ],
+      "correct": 0,
+      "explain": "Liten endring tyder på god nøyaktighet."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken vinkel gir størst rekkevidde uten luftmotstand på flat mark?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "45°"
+      ],
+      "correct": 3,
+      "explain": "sin(2α) er størst når α = 45°."
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor har et legeme i jevn sirkelbevegelse akselerasjon?",
+      "options": [
+        "Fordi banefarten øker",
+        "Fordi retningen på farten endres hele tiden",
+        "Fordi det ikke virker krefter",
+        "Det har ikke akselerasjon"
+      ],
+      "correct": 1,
+      "explain": "Akselerasjonen peker mot sentrum."
+    },
+    {
+      "id": "q05",
+      "text": "Hva avhenger banefarten til en satellitt i sirkelbane av?",
+      "options": [
+        "Satellittens masse",
+        "Satellittens form",
+        "Satellittens farge",
+        "Planetens masse og avstanden"
+      ],
+      "correct": 3,
+      "explain": "v = √(γM / r)."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er feltstyrken mellom to plater med U = 100 V og d = 2,0 cm?",
+      "options": [
+        "50 V/m",
+        "200 V/m",
+        "5000 V/m",
+        "2 V/m"
+      ],
+      "correct": 2,
+      "explain": "E = U / d."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor gjør magnetfeltet ikke arbeid på en ladd partikkel?",
+      "options": [
+        "Fordi kraften er null",
+        "Fordi partikkelen står stille",
+        "Fordi kraften står vinkelrett på farten",
+        "Fordi feltet er svakt"
+      ],
+      "correct": 2,
+      "explain": "Bare retningen endres."
+    },
+    {
+      "id": "q08",
+      "text": "Hva sier Lenz' regel?",
+      "options": [
+        "Strømmen forsterker endringen",
+        "Strømmen er alltid null",
+        "Spenningen er konstant",
+        "Den induserte strømmen motvirker endringen som skapte den"
+      ],
+      "correct": 3,
+      "explain": "Følger av energibevaring."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor overføres strøm med svært høy spenning?",
+      "options": [
+        "Fordi det er tryggere",
+        "Fordi det gir mer strøm",
+        "Fordi ledningene blir kortere",
+        "Fordi lav strøm gir mye mindre varmetap"
+      ],
+      "correct": 3,
+      "explain": "P_tap = R · I²."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan beskriver den generelle relativitetsteorien gravitasjon?",
+      "options": [
+        "Som en elektrisk kraft",
+        "Som en magnetisk kraft",
+        "Som krumning av romtiden",
+        "Som luftmotstand"
+      ],
+      "correct": 2,
+      "explain": "Masse og energi krummer romtiden."
+    },
+    {
+      "id": "q11",
+      "text": "Hva sier Heisenbergs uskarphetsrelasjon?",
+      "options": [
+        "At måleutstyret er dårlig",
+        "At posisjon og bevegelsesmengde ikke kan kjennes nøyaktig samtidig",
+        "At energi er bevart",
+        "At lys er en partikkel"
+      ],
+      "correct": 1,
+      "explain": "En grunnleggende egenskap ved naturen."
+    }
+  ],
+  "mindmap": {
+    "label": "Fysikk 2",
+    "children": [
+      {
+        "label": "Forsøk, usikkerhet og internasjonalt forskningssamarbeid",
+        "children": [
+          {
+            "label": "Absolutt usikkerhet",
+            "note": "Usikkerheten i samme enhet som målingen."
+          },
+          {
+            "label": "Usikkerhet ved multiplikasjon",
+            "note": "De relative usikkerhetene legges sammen."
+          }
+        ]
+      },
+      {
+        "label": "Numeriske metoder og modellering",
+        "children": [
+          {
+            "label": "Eulers metode",
+            "note": "Oppdaterer fart og posisjon med a · Δt og v · Δt."
+          },
+          {
+            "label": "Terminalfart",
+            "note": "Fart der luftmotstanden er like stor som tyngden."
+          }
+        ]
+      },
+      {
+        "label": "Bevegelse i to dimensjoner",
+        "children": [
+          {
+            "label": "Dekomponering",
+            "note": "Å dele en vektor i x- og y-komponenter."
+          },
+          {
+            "label": "Rekkevidde",
+            "note": "R = v₀² · sin(2α) / g på flat mark."
+          }
+        ]
+      },
+      {
+        "label": "Krumlinjet bevegelse og sirkelbevegelse",
+        "children": [
+          {
+            "label": "Sentripetalakselerasjon",
+            "note": "a = v² / r, rettet mot sentrum."
+          },
+          {
+            "label": "Sentripetalkraft",
+            "note": "Summen av kreftene mot sentrum: mv² / r."
+          }
+        ]
+      },
+      {
+        "label": "Gravitasjon og energi i sentralfelt",
+        "children": [
+          {
+            "label": "Newtons gravitasjonslov",
+            "note": "F = γ · m₁ · m₂ / r²."
+          },
+          {
+            "label": "Energibevaring i bane",
+            "note": "½mv² − γMm/r er konstant når bare gravitasjonen virker."
+          }
+        ]
+      },
+      {
+        "label": "Elektriske felt",
+        "children": [
+          {
+            "label": "Elektrisk feltstyrke",
+            "note": "E = F / q – kraft per ladning."
+          },
+          {
+            "label": "Kraft i elektrisk felt",
+            "note": "F = qE."
+          }
+        ]
+      },
+      {
+        "label": "Magnetiske felt",
+        "children": [
+          {
+            "label": "F = qvB",
+            "note": "Kraft på ladning som beveger seg vinkelrett på feltet."
+          },
+          {
+            "label": "Magnetfelt og arbeid",
+            "note": "Kraften står vinkelrett på farten og gjør ikke arbeid."
+          }
+        ]
+      },
+      {
+        "label": "Elektromagnetisk induksjon",
+        "children": [
+          {
+            "label": "Faradays induksjonslov",
+            "note": "ε = −N · ΔΦ / Δt."
+          },
+          {
+            "label": "Lenz' regel",
+            "note": "Indusert strøm motvirker endringen som skapte den."
+          }
+        ]
+      },
+      {
+        "label": "Induksjon i energiproduksjon og hverdagen",
+        "children": [
+          {
+            "label": "Generator",
+            "note": "Gjør mekanisk energi om til elektrisk energi ved induksjon."
+          },
+          {
+            "label": "U₁/U₂ = N₁/N₂",
+            "note": "Transformatorligningen."
+          }
+        ]
+      },
+      {
+        "label": "Den spesielle og generelle relativitetsteorien",
+        "children": [
+          {
+            "label": "Tidsforlengelse",
+            "note": "t = γ · t₀ – klokker i bevegelse går langsommere."
+          },
+          {
+            "label": "Krum romtid",
+            "note": "Masse og energi krummer romtiden – det er gravitasjon."
+          }
+        ]
+      },
+      {
+        "label": "Kvantefysikk",
+        "children": [
+          {
+            "label": "Fotonenergi",
+            "note": "E = hf = hc/λ."
+          },
+          {
+            "label": "Bølge–partikkel-dualitet",
+            "note": "Kvanteobjekter oppfører seg både som bølger og partikler."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Ved potens legges usikkerhetene bare sammen uten å ta hensyn til eksponenten.",
+        "correct": false,
+        "explain": "Relativ usikkerhet multipliseres med eksponenten."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hvilket uttrykk gir terminalfarten når L = kv²?",
+        "options": [
+          "v_t = mg/k",
+          "v_t = √(mg/k)",
+          "v_t = k/mg",
+          "v_t = g · t"
+        ],
+        "correct": 1,
+        "explain": "Når mg = kv²."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hvilken formel gir rekkevidden på flat mark?",
+        "options": [
+          "R = v₀² · sin(2α) / g",
+          "R = v₀ · t",
+          "R = ½gt²",
+          "R = v₀² / g alltid"
+        ],
+        "correct": 0,
+        "explain": "Uten luftmotstand."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Sentripetalkraften er ikke en egen kraft, men summen av kreftene mot sentrum.",
+        "correct": true,
+        "explain": "Den kan være friksjon, snordrag eller gravitasjon."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "En tyngre satellitt må ha større banefart i samme bane.",
+        "correct": false,
+        "explain": "Banefarten er uavhengig av satellittens masse."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvor mye arbeid gjør feltet når en ladning q flyttes gjennom spenningen U?",
+        "options": [
+          "W = qU",
+          "W = q/U",
+          "W = U/q",
+          "W = q + U"
+        ],
+        "correct": 0,
+        "explain": "Omformes til kinetisk energi."
+      },
+      {
+        "id": "m07",
+        "type": "sant-usant",
+        "text": "Arealet under en ε–t-graf er omtrent likt for rask og langsom bevegelse av samme magnet.",
+        "correct": true,
+        "explain": "Den totale fluksendringen er den samme."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En elev måler en lengde som (2,50 ± 0,02) m. Hva er den relative usikkerheten i prosent, og hva forteller den?",
+        "fasit": "Den relative usikkerheten er 0,02/2,50 = 0,008, altså 0,8 %. Den viser den absolutte usikkerheten som andel av måleverdien.",
+        "kriterier": [
+          "Beregner 0,8 %.",
+          "Forklarer at relativ usikkerhet er absolutt usikkerhet delt på målt verdi."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En ball kastes med farten 20 m/s i 30° over horisontalen. Finn den vertikale startfarten når sin 30° = 0,5.",
+        "fasit": "Den vertikale startfarten er v₀ᵧ = v₀ sin 30° = 20 · 0,5 = 10 m/s.",
+        "kriterier": [
+          "Bruker v₀ᵧ = v₀ sin α.",
+          "Får 10 m/s."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Forklar hvorfor en bil trenger en kraft inn mot sentrum når den kjører gjennom en sving, og hva som kan skje hvis friksjonen er for liten.",
+        "fasit": "Kraften inn mot sentrum endrer retningen på bilens fart og gir sentripetalakselerasjonen. Friksjonen mellom dekk og vei kan gi denne kraften; hvis den er for liten, fortsetter bilen rett fram og ut av svingen.",
+        "kriterier": [
+          "Knytter kraften inn mot sentrum til endring av fartsretningen.",
+          "Nevner friksjon som kraftkilde og følger av for liten friksjon."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En satellitt går i sirkelbane rundt en planet. Forklar hvordan gravitasjonen kan holde satellitten i banen, og om satellittens masse bestemmer banefarten.",
+        "fasit": "Gravitasjonskraften virker inn mot planeten og er sentripetalkraften som holder satellitten i sirkelbane. Banefarten er v = √(γM/r), så den avhenger av planetens masse og avstanden, ikke satellittens masse.",
+        "kriterier": [
+          "Forklarer at gravitasjonen gir sentripetalkraften.",
+          "Sier at banefarten ikke avhenger av satellittens masse."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En leder med lengde 0,20 m beveger seg med 3,0 m/s vinkelrett på et magnetfelt på 0,50 T. Regn ut den induserte spenningen.",
+        "fasit": "ε = Blv = 0,50 · 0,20 · 3,0 = 0,30 V.",
+        "kriterier": [
+          "Bruker ε = Blv.",
+          "Får 0,30 V."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign hvordan en generator og en transformator bruker elektromagnetisk induksjon.",
+        "fasit": "I en generator endres fluksen når en spole eller magnet roterer, slik at mekanisk energi omdannes til elektrisk energi. I en transformator gir vekselstrøm i primærspolen et varierende magnetfelt som induserer spenning i sekundærspolen.",
+        "kriterier": [
+          "Knytter generatoren til roterende spole eller magnet og energiomforming.",
+          "Forklarer at transformatoren bruker et varierende magnetfelt til å indusere spenning i sekundærspolen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Et lukket romskip akselererer. Forklar ekvivalensprinsippet, og beskriv hvordan den generelle relativitetsteorien forklarer gravitasjon.",
+        "fasit": "Ekvivalensprinsippet sier at det er umulig å skille mellom virkningen av gravitasjon og akselerasjon i et lukket rom. Den generelle relativitetsteorien beskriver gravitasjon som krumning av romtiden forårsaket av masse og energi.",
+        "kriterier": [
+          "Forklarer at gravitasjon og akselerasjon ikke kan skilles i et lukket rom.",
+          "Beskriver gravitasjon som krumning av romtiden."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Rødt lys og blått lys treffer hver sin metallflate. Forklar hvilket lys som har størst energi per foton, og hva som skjer dersom lysintensiteten økes uten at frekvensen endres.",
+        "fasit": "Blått lys har større energi per foton fordi fotonenergien øker med frekvensen. Økt lysintensitet gir flere elektroner som slås løs, men ikke raskere elektroner.",
+        "kriterier": [
+          "Sier at blått lys har størst energi per foton.",
+          "Forklarer at større intensitet gir flere, ikke raskere, elektroner."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

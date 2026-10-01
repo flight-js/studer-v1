@@ -1,0 +1,579 @@
+{
+  "id": "repetisjon",
+  "fagId": "naturfag-vg1",
+  "trinnId": "vg1",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "sammendrag": "Naturfag undersøker hvordan naturen fungerer, fra bølger og atomer til levende organismer og universet. Vi bruker observasjoner, forsøk og modeller til å skaffe kunnskap, og vurderer hvordan kunnskapen kan brukes og hvilke følger den får.\n\n## Naturvitenskapelig metode og forsøk\nNaturvitenskapen bruker **observasjoner** og **forsøk** for å undersøke testbare spørsmål. En **hypotese** er en mulig forklaring eller forutsigelse. I et godt forsøk endrer vi én **uavhengig variabel**, måler en **avhengig variabel** og holder andre variabler kontrollert. En **kontrollgruppe** gir noe å sammenligne med. Gjentakelser gjør resultater mer pålitelige, mens **feilkilder** kan skape usikkerhet. Funn bør presenteres slik at andre kan vurdere og etterprøve dem. En **modell** forenkler virkeligheten; en **teori** er en godt underbygd forklaring. Naturvitenskapelig kunnskap kan endres når nye data kommer. Før forsøk vurderer vi risiko, bruker nødvendig verneutstyr og håndterer avfallet forsvarlig.\n\n## Programmering og modellering i naturfag\nEn **datamodell** simulerer et fenomen som kan være vanskelig å undersøke direkte. Python-programmer kan bruke variabler, løkker, betingelser og lister, og vise data i grafer. I **Eulers metode** regner programmet i tidssteg: ny fart = fart + akselerasjon · dt, og ny posisjon = posisjon + fart · dt. Mindre tidssteg gir ofte mer nøyaktige simuleringer, men krever lengre kjøretid. Radioaktiv nedbrytning kan modelleres med N = N₀ · (1/2)^(t/T), der T er halveringstiden. Populasjoner kan vokse logistisk og flate ut mot miljøets **bæreevne**. Et fallende legeme med luftmotstand når **terminalfart** når motstanden balanserer tyngdekraften. Modeller må vurderes mot målinger, forenklinger og gyldighetsområde.\n\n## Bølger og trådløs kommunikasjon\nEn **bølge** transporterer energi. I en transversal bølge står svingningen vinkelrett på bevegelsesretningen, mens den i en longitudinal bølge går langs retningen, som i lyd. **Bølgefarten** finnes med v = λ · f, der λ er bølgelengde og f frekvens. Lyd er en longitudinal bølge; elektromagnetiske bølger kan også bre seg gjennom tomt rom. Bølger kan reflekteres, brytes, bøyes rundt hindringer (**diffraksjon**) og forsterke eller slukke hverandre (**interferens**). Dopplereffekten endrer oppfattet frekvens når en kilde beveger seg. Trådløs kommunikasjon bruker radiobølger: informasjon legges på en bærebølge ved **modulasjon**, sendes fra en antenne og mottas av en annen. Digitale signaler koder informasjon som enere og nuller.\n\n## Elektromagnetisk og ioniserende stråling\nDet elektromagnetiske spekteret går fra radiobølger og mikrobølger via infrarødt og synlig lys til UV, røntgen og gamma. Kortere bølgelengde betyr høyere energi. **Ioniserende stråling** kan rive løs elektroner og skade DNA; røntgen, gamma og partikkelstråling er eksempler. UV kan også skade DNA i hudceller. Ustabile atomkjerner sender ut stråling ved **radioaktivitet**. Alfa er heliumkjerner, beta er elektroner og gamma er elektromagnetisk stråling; de trenger ulik skjerming. **Halveringstid** er tiden før halvparten av kjernene er omdannet. Becquerel måler omdannelser per sekund, mens sievert måler stråledose og biologisk virkning. Radon fra berggrunnen kan samle seg i hus. Stråling brukes også i medisin, og fordeler må veies mot risiko.\n\n## Big bang og universets utvikling\n**Big bang-teorien** beskriver et univers som var svært varmt og tett og siden har utvidet seg og kjølt seg ned. Det var ikke en eksplosjon i et rom, men en utvidelse av selve rommet. I de første minuttene ble hovedsakelig hydrogen- og heliumkjerner dannet. Senere ble nøytrale atomer til, og lyset fra den tiden observeres nå som **kosmisk bakgrunnsstråling**. Tyngdekraften samlet gass til stjerner og galakser. **Rødforskyvning** fra fjerne galakser viser at lyset strekkes mot lengre bølgelengder og støtter at universet utvider seg. I stjerner smelter lette kjerner sammen ved **fusjon**; større stjerner og supernovaer bidrar til dannelsen og spredningen av tyngre grunnstoffer. Grunnstoffene i kroppen vår er derfor dannet gjennom tidligere stjerner.\n\n## Kjemiske bindinger og stoffers egenskaper\nAtomer kan gi fra seg, ta opp eller dele elektroner for å bli mer stabile. I en **ionebinding** gir et metall elektroner til et ikke-metall; motsatt ladde ioner holdes sammen i et iongitter. Ionforbindelser leder strøm når de er smeltet eller løst i vann, fordi ionene da kan bevege seg. I en **kovalent binding** deler ikke-metaller elektronpar. Ujevn deling kan gi polare bindinger, og molekylets form avgjør om hele molekylet er polart. Hydrogenbindinger mellom vannmolekyler bidrar til vannets høye kokepunkt. Metaller leder strøm og varme fordi elektroner kan bevege seg i en elektronsjø. **Likt løser likt**: polare stoffer løses ofte i polare løsemidler, og upolare i upolare.\n\n## Karbonforbindelser\nKarbon danner fire kovalente bindinger og kan lage kjeder, forgreninger og ringer. **Hydrokarboner** består bare av karbon og hydrogen: alkaner har enkeltbindinger, mens alkener har minst én dobbeltbinding. Ved fullstendig forbrenning av metan dannes karbondioksid og vann: CH₄ + 2O₂ → CO₂ + 2H₂O. Funksjonelle grupper kjennetegner blant annet alkoholer (–OH) og karboksylsyrer (–COOH). **Polymerer** består av mange monomerer; plast er en type polymer, og mikroplast er et miljøproblem. I **karbonets kretsløp** tar fotosyntesen opp CO₂ og lagrer energi i glukose, mens celleånding og nedbrytning frigjør CO₂. Forbrenning av fossile brensler frigjør karbon som har vært lagret lenge og øker CO₂ i atmosfæren. Havet tar opp CO₂, men blir da surere.\n\n## Miljøgifter i næringskjeder\n**Miljøgifter** er giftige stoffer som brytes sakte ned og kan hope seg opp i organismer. Fettløselige miljøgifter lagres i fettvev. Ved **bioakkumulering** øker mengden i én organisme over tid; ved **biomagnifisering** øker konsentrasjonen oppover i næringskjeden. Derfor kan toppredatorer få høye konsentrasjoner. Miljøgifter kan skade blant annet nervesystemet, immunforsvaret og forplantningsevnen. Mennesker kan få dem gjennom maten, og myndighetene gir kostråd for enkelte matvarer. Tiltak omfatter forbud, overvåking, rensing og riktig levering av farlig avfall. Stoffer som allerede er spredt, kan være vanskelige å fjerne.\n\n## Kosthold, helse og livsstil\nKroppen bruker næringsstoffer til energi, bygging og regulering. **Karbohydrater** er kroppens viktigste energikilde, og kostfiber er viktig for tarmen. Fett er energilager og byggestein i cellemembraner; det trengs også for opptak av vitamin A, D, E og K. Proteiner består av aminosyrer og bygger blant annet muskler og enzymer; essensielle aminosyrer må komme fra maten. Vann transporterer stoffer og regulerer kroppstemperaturen. Et variert kosthold med mye mat fra planteriket, fullkorn, frukt og grønnsaker anbefales. Mer plantebasert mat og mindre rødt kjøtt gir vanligvis lavere klimagassutslipp, og mindre matsvinn er et tiltak. Fysisk aktivitet, søvn og å vurdere helsepåstander kritisk er også viktig for helse.\n\n## DNA, arv og evolusjon\n**DNA** er arvestoffet og består av basene A, T, C og G; A parer med T og C med G. Et gen er en DNA-bit med oppskrift på et protein. Mennesker har 46 kromosomer i nesten alle kroppsceller. Mitose lager to like celler, mens meiose lager kjønnsceller med halvt antall kromosomer. Ved befruktning kombineres arv fra to foreldre. Et dominant allel vises med én kopi, mens et recessivt allel må finnes i to kopier. **Mutasjoner** skaper ny genetisk variasjon. Ved **naturlig utvalg** får individer med arvelige egenskaper som passer miljøet, ofte flere avkom; over generasjoner blir egenskapene vanligere. Klimaendringer kan føre til at arter flytter, tilpasser seg eller risikerer å dø ut. Biologisk mangfold omfatter gener, arter og økosystemer.\n\n## Bioteknologi og etikk\n**Bioteknologi** bruker organismer, celler eller biologiske prosesser til å lage produkter eller løse problemer. Tradisjonelle eksempler er gjær til brød og avl; moderne genteknologi leser eller endrer DNA direkte. Genmodifiserte bakterier kan produsere insulin, og gentester kan vise anlegg for sykdommer. DNA-profiler brukes til å identifisere personer. **CRISPR-Cas9** er en presis metode for å endre DNA. Endringer i kjønnsceller og fostre er særlig omstridte fordi de kan arves videre. Konsekvensetikk vurderer fordeler og ulemper, pliktetikk vurderer om handlinger er gale i seg selv, og føre-var-prinsippet tilsier forsiktighet ved usikker risiko. En god drøfting bruker fagkunnskap, presenterer flere sider og begrunner konklusjonen.\n\n## Sammenhenger i faget\nNaturvitenskapelig metode brukes til å teste både forsøk og modeller; programmering kan simulere fenomener som bølger, radioaktiv nedbrytning og populasjonsvekst. Atomer og molekyler forklarer egenskapene til stoffer, mens karbonforbindelser inngår i levende organismer og karbonets kretsløp. Stråling og kjemikalier kan påvirke helse og miljø, og kunnskap om næringskjeder forklarer hvordan miljøgifter samles opp. DNA-variasjon er grunnlag for evolusjon, mens bioteknologi gjør det mulig å påvirke DNA direkte og reiser etiske spørsmål.\n\n## Huskeliste før prøven\n- Skill mellom hypotese, modell og teori.\n- Identifiser uavhengig, avhengig og kontrollerte variabler.\n- Bruk v = λ · f og forklar hva symbolene betyr.\n- Husk at kort bølgelengde betyr høyere energi.\n- Regn halveringstid ved å halvere mengden for hver periode.\n- Knytt bindingstype til stoffets egenskaper.\n- Forklar hvordan fotosyntese og forbrenning påvirker CO₂.\n- Skill mellom bioakkumulering og biomagnifisering.\n- Forklar hvordan arv og variasjon gjør naturlig utvalg mulig.\n- Bruk flere perspektiver når du drøfter bioteknologi.",
+  "flashcards": [
+    {
+      "term": "Hypotese",
+      "def": "En mulig, testbar forklaring eller forutsigelse."
+    },
+    {
+      "term": "Uavhengig variabel",
+      "def": "Det vi endrer i et forsøk."
+    },
+    {
+      "term": "Eulers metode",
+      "def": "Oppdaterer fart og posisjon steg for steg: v = v + a · dt.",
+      "niva": "over-niva"
+    },
+    {
+      "term": "Logistisk vekst",
+      "def": "Vekst som flater ut mot bæreevnen.",
+      "niva": "over-niva"
+    },
+    {
+      "term": "v = λ · f",
+      "def": "Bølgefart er bølgelengde ganger frekvens."
+    },
+    {
+      "term": "Modulasjon",
+      "def": "Å legge informasjon på en bærebølge."
+    },
+    {
+      "term": "Ioniserende stråling",
+      "def": "Stråling som kan rive løs elektroner og skade DNA."
+    },
+    {
+      "term": "Halveringstid",
+      "def": "Tiden før halvparten av de radioaktive kjernene er omdannet."
+    },
+    {
+      "term": "Big bang-teorien",
+      "def": "Universet var for 13,8 milliarder år siden svært varmt og tett og har siden utvidet seg."
+    },
+    {
+      "term": "Rødforskyvning",
+      "def": "Lys fra fjerne galakser er strukket mot lengre, rødere bølgelengder."
+    },
+    {
+      "term": "Ionebinding",
+      "def": "Binding mellom positive og negative ioner, typisk metall og ikke-metall."
+    },
+    {
+      "term": "Likt løser likt",
+      "def": "Polare stoffer løses i polare løsemidler, upolare i upolare."
+    },
+    {
+      "term": "Hydrokarbon",
+      "def": "Forbindelse av bare karbon og hydrogen."
+    },
+    {
+      "term": "Fotosyntese",
+      "def": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
+    },
+    {
+      "term": "Bioakkumulering",
+      "def": "Mengden miljøgift i en organisme øker over tid."
+    },
+    {
+      "term": "Biomagnifisering",
+      "def": "Konsentrasjonen øker for hvert ledd oppover i næringskjeden."
+    },
+    {
+      "term": "Karbohydrater",
+      "def": "Kroppens viktigste energikilde, som stivelse og sukker."
+    },
+    {
+      "term": "Proteiner",
+      "def": "Byggesteiner i muskler, enzymer og hormoner."
+    },
+    {
+      "term": "Mutasjon",
+      "def": "Endring i DNA – den opprinnelige kilden til ny variasjon."
+    },
+    {
+      "term": "Naturlig utvalg",
+      "def": "Individer som passer best til miljøet, får flest avkom."
+    },
+    {
+      "term": "Genteknologi",
+      "def": "Metoder for å lese og endre DNA direkte."
+    },
+    {
+      "term": "CRISPR-Cas9",
+      "def": "«Gensaks» som endrer DNA presist, raskt og billig.",
+      "niva": "eksempel"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner en god hypotese?",
+      "options": [
+        "Den er sann",
+        "Den kan testes",
+        "Den er lang",
+        "Den er basert på en mening"
+      ],
+      "correct": 1,
+      "explain": "En hypotese må kunne styrkes eller svekkes av forsøk."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan oppdateres farten i Eulers metode?",
+      "options": [
+        "v = v + a · dt",
+        "v = a · t²",
+        "v = v · dt",
+        "v = s / a"
+      ],
+      "correct": 0,
+      "explain": "Farten endres med akselerasjonen ganger tidssteget.",
+      "niva": "over-niva"
+    },
+    {
+      "id": "q03",
+      "text": "Hva er formelen for bølgefart?",
+      "options": [
+        "v = λ / f",
+        "v = λ · f",
+        "v = f / λ",
+        "v = λ + f"
+      ],
+      "correct": 1,
+      "explain": "Bølgefart = bølgelengde · frekvens."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er halveringstid?",
+      "options": [
+        "Tiden før halvparten av de radioaktive kjernene er omdannet",
+        "Tiden før alt er borte",
+        "Halve levetiden til et menneske",
+        "Tiden det tar å måle stråling"
+      ],
+      "correct": 0,
+      "explain": "Halveringstiden er fast for hvert stoff."
+    },
+    {
+      "id": "q05",
+      "text": "Hva viser rødforskyvningen i lyset fra fjerne galakser?",
+      "options": [
+        "At galaksene fjerner seg fra oss",
+        "At galaksene er varme",
+        "At galaksene er røde",
+        "At galaksene nærmer seg oss"
+      ],
+      "correct": 0,
+      "explain": "Bølgelengden strekkes når rommet utvider seg."
+    },
+    {
+      "id": "q06",
+      "text": "Når leder salt strøm?",
+      "options": [
+        "Alltid",
+        "Aldri",
+        "Når det er smeltet eller løst i vann",
+        "Bare i fast form"
+      ],
+      "correct": 2,
+      "explain": "Da kan ionene bevege seg."
+    },
+    {
+      "id": "q07",
+      "text": "Hvilken prosess tar opp CO₂ fra atmosfæren?",
+      "options": [
+        "Celleånding",
+        "Forbrenning",
+        "Fotosyntese",
+        "Nedbrytning"
+      ],
+      "correct": 2,
+      "explain": "Plantene bruker CO₂ til å lage glukose."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er biomagnifisering?",
+      "options": [
+        "At konsentrasjonen av miljøgifter øker oppover i næringskjeden",
+        "At en organisme vokser raskt",
+        "At miljøgifter brytes ned",
+        "At en art blir større"
+      ],
+      "correct": 0,
+      "explain": "Toppredatorer får derfor mest."
+    },
+    {
+      "id": "q09",
+      "text": "En influencer sier at et kosttilskudd kurerte trettheten hennes. Hva er det største problemet med påstanden?",
+      "options": [
+        "Den bygger på en enkelthistorie, og hun kan tjene på salget",
+        "Den er for kort",
+        "Den er skrevet på norsk",
+        "Det finnes ingen problemer"
+      ],
+      "correct": 0,
+      "explain": "En enkelthistorie er ikke forskning."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor er arv en forutsetning for evolusjon?",
+      "options": [
+        "Fordi alle individer er like",
+        "Fordi miljøet aldri endrer seg",
+        "Fordi naturlig utvalg bare kan virke på egenskaper som går videre til avkommet",
+        "Fordi evolusjon skjer i løpet av ett liv"
+      ],
+      "correct": 2,
+      "explain": "Uten arvelig variasjon skjer ingen evolusjon."
+    },
+    {
+      "id": "q11",
+      "text": "Hvorfor er genendringer i kjønnsceller og fostre ekstra omstridt?",
+      "options": [
+        "Fordi de er for dyre",
+        "Fordi de er ulovlige i alle land",
+        "Fordi endringene arves videre til nye generasjoner",
+        "Fordi de ikke virker"
+      ],
+      "correct": 2,
+      "explain": "Konsekvensene kan vare i mange generasjoner."
+    }
+  ],
+  "mindmap": {
+    "label": "Naturfag",
+    "children": [
+      {
+        "label": "Naturvitenskapelig metode og forsøk",
+        "children": [
+          {
+            "label": "Hypotese",
+            "note": "En mulig, testbar forklaring eller forutsigelse."
+          },
+          {
+            "label": "Uavhengig variabel",
+            "note": "Det vi endrer i et forsøk."
+          }
+        ]
+      },
+      {
+        "label": "Programmering og modellering i naturfag",
+        "children": [
+          {
+            "label": "Eulers metode",
+            "note": "Oppdaterer fart og posisjon steg for steg: v = v + a · dt."
+          },
+          {
+            "label": "Logistisk vekst",
+            "note": "Vekst som flater ut mot bæreevnen."
+          }
+        ]
+      },
+      {
+        "label": "Bølger og trådløs kommunikasjon",
+        "children": [
+          {
+            "label": "v = λ · f",
+            "note": "Bølgefart er bølgelengde ganger frekvens."
+          },
+          {
+            "label": "Modulasjon",
+            "note": "Å legge informasjon på en bærebølge."
+          }
+        ]
+      },
+      {
+        "label": "Elektromagnetisk og ioniserende stråling",
+        "children": [
+          {
+            "label": "Ioniserende stråling",
+            "note": "Stråling som kan rive løs elektroner og skade DNA."
+          },
+          {
+            "label": "Halveringstid",
+            "note": "Tiden før halvparten av de radioaktive kjernene er omdannet."
+          }
+        ]
+      },
+      {
+        "label": "Big bang og universets utvikling",
+        "children": [
+          {
+            "label": "Big bang-teorien",
+            "note": "Universet var for 13,8 milliarder år siden svært varmt og tett og har siden utvidet seg."
+          },
+          {
+            "label": "Rødforskyvning",
+            "note": "Lys fra fjerne galakser er strukket mot lengre, rødere bølgelengder."
+          }
+        ]
+      },
+      {
+        "label": "Kjemiske bindinger og stoffers egenskaper",
+        "children": [
+          {
+            "label": "Ionebinding",
+            "note": "Binding mellom positive og negative ioner, typisk metall og ikke-metall."
+          },
+          {
+            "label": "Likt løser likt",
+            "note": "Polare stoffer løses i polare løsemidler, upolare i upolare."
+          }
+        ]
+      },
+      {
+        "label": "Karbonforbindelser",
+        "children": [
+          {
+            "label": "Hydrokarbon",
+            "note": "Forbindelse av bare karbon og hydrogen."
+          },
+          {
+            "label": "Fotosyntese",
+            "note": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂"
+          }
+        ]
+      },
+      {
+        "label": "Miljøgifter i næringskjeder",
+        "children": [
+          {
+            "label": "Bioakkumulering",
+            "note": "Mengden miljøgift i en organisme øker over tid."
+          },
+          {
+            "label": "Biomagnifisering",
+            "note": "Konsentrasjonen øker for hvert ledd oppover i næringskjeden."
+          }
+        ]
+      },
+      {
+        "label": "Kosthold, helse og livsstil",
+        "children": [
+          {
+            "label": "Karbohydrater",
+            "note": "Kroppens viktigste energikilde, som stivelse og sukker."
+          },
+          {
+            "label": "Proteiner",
+            "note": "Byggesteiner i muskler, enzymer og hormoner."
+          }
+        ]
+      },
+      {
+        "label": "DNA, arv og evolusjon",
+        "children": [
+          {
+            "label": "Mutasjon",
+            "note": "Endring i DNA – den opprinnelige kilden til ny variasjon."
+          },
+          {
+            "label": "Naturlig utvalg",
+            "note": "Individer som passer best til miljøet, får flest avkom."
+          }
+        ]
+      },
+      {
+        "label": "Bioteknologi og etikk",
+        "children": [
+          {
+            "label": "Genteknologi",
+            "note": "Metoder for å lese og endre DNA direkte."
+          },
+          {
+            "label": "CRISPR-Cas9",
+            "note": "«Gensaks» som endrer DNA presist, raskt og billig."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Hva må du gjøre når du presenterer et eget forsøk?",
+        "options": [
+          "Begrunne metodevalgene og drøfte usikkerhet",
+          "Bare vise det beste resultatet",
+          "Skjule feilkildene",
+          "Bare fortelle konklusjonen"
+        ],
+        "correct": 0,
+        "explain": "Åpenhet om metode og usikkerhet gjør resultatene troverdige."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hvor stor andel av et radioaktivt stoff er igjen etter to halveringstider?",
+        "options": [
+          "1/2",
+          "1/8",
+          "1/4",
+          "0"
+        ],
+        "correct": 2,
+        "explain": "(1/2)² = 1/4."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Et stoff har halveringstid 8 dager. Hvor mye av 80 g er igjen etter 16 dager?",
+        "options": [
+          "40 g",
+          "10 g",
+          "20 g",
+          "0 g"
+        ],
+        "correct": 2,
+        "explain": "To halveringstider: 80 → 40 → 20 g."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Sukker løses godt i vann fordi begge er polare.",
+        "correct": true,
+        "explain": "Likt løser likt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken næringskjede viser biomagnifisering riktig fra lav til høy konsentrasjon?",
+        "options": [
+          "Isbjørn → sel → fisk → plankton",
+          "Plankton → krill → fisk → sel → isbjørn",
+          "Fisk → plankton → isbjørn → sel",
+          "Sel → krill → plankton → fisk"
+        ],
+        "correct": 1,
+        "explain": "Konsentrasjonen øker for hvert ledd oppover."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva betyr det at et individ er heterozygot?",
+        "options": [
+          "Det har to like alleler",
+          "Det har to ulike alleler",
+          "Det har ingen alleler",
+          "Det har tre alleler"
+        ],
+        "correct": 1,
+        "explain": "For eksempel Aa."
+      },
+      {
+        "id": "m07",
+        "type": "sant-usant",
+        "text": "Avl av husdyr er ikke en form for bioteknologi.",
+        "correct": false,
+        "explain": "Avl regnes som tradisjonell bioteknologi."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Du undersøker hvordan temperaturen påvirker hvor raskt et stoff løses opp, og lager også en datamodell av prosessen. Forklar hvordan du kan gjøre forsøket pålitelig, og nevn én ting du bør undersøke når du vurderer modellen.",
+        "fasit": "Jeg endrer temperaturen og måler hvor raskt stoffet løses opp, mens andre forhold holdes like. Jeg gjentar forsøket og vurderer feilkilder. Modellen bør sammenlignes med målinger, og jeg bør undersøke hvilke forenklinger den bruker.",
+        "kriterier": [
+          "Skiller mellom det som endres, det som måles, og forhold som holdes like.",
+          "Nevner gjentakelser eller feilkilder og vurdering av modellen mot målinger eller forenklinger."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Radiobølger brukes til trådløs kommunikasjon, mens røntgenstråling brukes til å lage bilder i medisin. Forklar hvordan de skiller seg når det gjelder energi og mulig skade på celler.",
+        "fasit": "Radiobølger har lang bølgelengde og lav energi og er ikke-ioniserende. Røntgenstråling har kortere bølgelengde og høyere energi, er ioniserende og kan skade DNA i celler.",
+        "kriterier": [
+          "Knytter kortere bølgelengde til høyere energi.",
+          "Skiller mellom ikke-ioniserende radiobølger og ioniserende røntgenstråling, som kan skade DNA."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En bølge har bølgelengde 2 meter og frekvens 100 hertz. Regn ut bølgefarten og vis hvilken formel du bruker.",
+        "fasit": "Bølgefarten er v = λ · f = 2 m · 100 Hz = 200 m/s.",
+        "kriterier": [
+          "Bruker formelen v = λ · f.",
+          "Får bølgefarten 200 m/s."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et radioaktivt stoff har en masse på 64 gram og en halveringstid på 8 dager. Hvor mye er igjen etter 16 dager? Vis kort hvordan du finner svaret.",
+        "fasit": "16 dager er to halveringstider. Etter 8 dager er 32 gram igjen, og etter 16 dager er 16 gram igjen.",
+        "kriterier": [
+          "Finner at 16 dager tilsvarer to halveringstider.",
+          "Oppgir 16 gram som gjenværende mengde."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hvordan forbrenning av fossile brensler påvirker karbonets kretsløp og mengden karbondioksid i atmosfæren.",
+        "fasit": "Fossile brensler inneholder karbon som har vært lagret i millioner av år. Når de forbrennes, frigjøres karbonet som CO₂, slik at CO₂-innholdet i atmosfæren øker.",
+        "kriterier": [
+          "Forklarer at fossile brensler inneholder lagret karbon.",
+          "Knytter forbrenning til utslipp av CO₂ og økt mengde i atmosfæren."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvordan miljøgifter kan hope seg opp i en næringskjede, og hvorfor dette kan være viktig når myndighetene gir kostråd.",
+        "fasit": "Miljøgifter kan hope seg opp i én organisme over tid, og konsentrasjonen kan øke for hvert ledd oppover i næringskjeden. Derfor kan mennesker få i seg miljøgifter gjennom mat, og myndighetene gir råd om å begrense enkelte matvarer.",
+        "kriterier": [
+          "Forklarer bioakkumulering eller biomagnifisering riktig.",
+          "Knytter miljøgifter i mat til kostråd for mennesker."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar hvordan arvelig variasjon kan føre til at en art tilpasser seg miljøet, og nevn én måte klimaendringer kan påvirke arten på.",
+        "fasit": "Individer varierer, og hvis forskjellene er arvelige, kan individer med egenskaper som passer miljøet få flere avkom. Over generasjoner blir slike egenskaper vanligere. Klimaendringer kan føre til at arten flytter, tilpasser seg eller risikerer å dø ut.",
+        "kriterier": [
+          "Knytter arvelig variasjon og ulik reproduksjon til naturlig utvalg over generasjoner.",
+          "Nevner en mulig følge av klimaendringer for arten."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "CRISPR kan brukes til å endre DNA. Forklar hvorfor endringer i kjønnsceller eller fostre er særlig omstridte, og hvordan føre-var-prinsippet kan brukes i vurderingen.",
+        "fasit": "Endringer i kjønnsceller eller fostre kan arves videre til nye generasjoner. Føre-var-prinsippet tilsier at vi bør være forsiktige når risikoen er usikker.",
+        "kriterier": [
+          "Forklarer at slike endringer kan arves videre.",
+          "Knytter føre-var-prinsippet til forsiktighet ved usikker risiko."
+        ],
+        "niva": "eksempel"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

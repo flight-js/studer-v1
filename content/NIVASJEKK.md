@@ -1,7 +1,7 @@
 # Nivåsjekk
 
 Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne.
-716 av 716 temaer er sjekket. 1627 av 10934 begreper og 3229 spørsmål/oppgaver er merket.
+799 av 799 temaer er sjekket. 1820 av 12636 begreper og 3518 spørsmål/oppgaver er merket.
 
 
 - **eksempel** – ett av flere mulige eksempler; mange klasser lærer temaet uten det
@@ -45,6 +45,28 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s03: Hva betyr det at lærlinglønn øker gradvis, og når får en lærling slik lønn?
 - eksempel · s05: Samir har fagbrev og ønsker å bli ingeniør. Forklar hvilken vei han kan undersøke, og hvorfor den kan passe for ham.
 - eksempel · s06: En ungdom liker å bake og ønsker å utdanne seg til baker. Hvilket yrkesfaglig utdanningsprogram passer best, og hvordan henger det sammen med yrket?
+
+## 10/arbeidslivsfag-10/05-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: SMART-mål
+- eksempel · begrep: Gantt-diagram
+- eksempel · begrep: Sluttrapport
+- eksempel · begrep: Tariffavtale
+- eksempel · begrep: Trepartssamarbeidet
+- eksempel · begrep: De fire P-ene
+- eksempel · begrep: Nullpunkt
+- eksempel · begrep: Fagskole
+- eksempel · q03: Hva gjør man på et statusmøte?
+- eksempel · q07: Hvem samarbeider i trepartssamarbeidet?
+- eksempel · q08: Hvilke tre spørsmål svarer en forretningsidé på?
+- eksempel · q09: Hva står de fire P-ene for?
+- eksempel · q13: Hva er påbygging?
+- eksempel · q14: Hvorfor er livslang læring viktig for fagarbeidere?
+- eksempel · m02: Hvem har ansvar for å fordele ressursene i et prosjekt?
+- eksempel · m03: Den som jobber svart, mister retten til blant annet sykepenger.
+- eksempel · s01: En elevbedrift skal lage og selge handlenett. Forklar hvordan dere kan bruke prosjektfasene til å planlegge arbeidet, og nevn et SMART mål for bedriften.
+- eksempel · s02: En elevbedrift vurderer å selge et nytt produkt. Forklar hvordan en markedsundersøkelse og de fire P-ene kan hjelpe bedriften før salget starter.
+- eksempel · s05: En elev vurderer å velge yrkesfag og håper å starte egen bedrift senere. Forklar hvordan fagbrev kan være en del av veien dit, og nevn én mulighet for videre utdanning etter fagbrev.
 
 ## 10/engelsk-10/02-argumentative-writing – Argumentative essays
 
@@ -117,6 +139,21 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s07: A student says that Canada has thirteen provinces and became self-governing in 1867. Correct the student’s statement.
 - eksempel · s08: Colonisation in Australia led to loss of land and the tragedy of the Stolen Generations for Aboriginal and Torres Strait Islander peoples. Explain how this history connects to reconciliation today.
 
+## 10/engelsk-10/08-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Who, what, when, where, why
+- eksempel · begrep: Coming-of-age story
+- eksempel · begrep: Close-up
+- eksempel · begrep: Chorus
+- eksempel · begrep: Commonwealth
+- eksempel · begrep: Aboriginal and Torres Strait Islander peoples
+- eksempel · begrep: Treaty of Waitangi
+- eksempel · begrep: Bilingual Canada
+- eksempel · q11: What is a coming-of-age story?
+- eksempel · q13: What effect does a low camera angle often have?
+- eksempel · q15: What do Australia, New Zealand and Canada have in common?
+- eksempel · s07: Compare Australia, New Zealand and Canada by naming one feature they share and one difference between them.
+
 ## 10/engelsk-fordypning-10/01-video-games – Video games as texts
 
 - eksempel · begrep: RPG
@@ -155,6 +192,26 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - over nivå · begrep: Straw man
 - over nivå · q07: What is a straw man argument?
 - eksempel · m02: Aristotle described ethos, pathos and logos.
+
+## 10/engelsk-fordypning-10/06-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Branching narrative
+- eksempel · begrep: Storyboard
+- eksempel · begrep: Accessibility
+- eksempel · begrep: Inverted pyramid
+- eksempel · begrep: Propaganda
+- eksempel · begrep: Sponsored content
+- eksempel · begrep: Filter bubble
+- eksempel · q02: What is a branching narrative?
+- eksempel · q05: What is a storyboard?
+- eksempel · q07: What is the inverted pyramid in news writing?
+- eksempel · q12: What is propaganda?
+- eksempel · q14: What decides what appears in your feed?
+- eksempel · q15: What is a filter bubble?
+- eksempel · m03: What is accessibility?
+- eksempel · s02: You are making a short video for younger pupils about an unfamiliar topic. Explain two planning choices you should make before recording and one way to make the video accessible.
+- eksempel · s04: A company posts that “everyone is choosing our product” and includes a famous customer's recommendation. Identify the two persuasive techniques and explain how each may influence an audience.
+- eksempel · s08: A social media user sees a bullying post, shares it, and then notices that their feed mostly shows similar posts. Explain the user's role in sharing the post and how the feed may have become so narrow.
 
 ## 10/fransk-10/01-reise-og-ferie – Reise og ferie
 
@@ -247,6 +304,22 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s04: En elev vil reise rundt i Paris uten å bruke bil. Beskriv to transportmuligheter mange bruker der, og nevn ett tiltak byen har gjort for syklister.
 - eksempel · s06: Beskriv hvordan presidenten i Frankrike velges, hvor lenge perioden varer, og hva nasjonalforsamlingen heter.
 - eksempel · s07: Frankrike er et mangfoldig land. Nevn to områder som mange innbyggere har røtter i, og forklar hvordan dette viser mangfold.
+
+## 10/fransk-10/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: le cyberharcèlement
+- eksempel · begrep: la bande dessinée
+- eksempel · begrep: le réchauffement climatique
+- eksempel · begrep: les énergies renouvelables
+- eksempel · begrep: la laïcité
+- eksempel · q09: Hva kalles den fransk-belgiske tegneserietradisjonen?
+- eksempel · q12: Hva er «la laïcité»?
+- eksempel · q13: Hvilken energikilde gir mesteparten av strømmen i Frankrike?
+- eksempel · m06: Demonstrasjoner og streiker er en kjent del av fransk politisk kultur.
+- eksempel · s04: Écris un message en français qui encourage tes amis à trier les déchets. Dis comment tu peux partager ce message sur les réseaux sociaux et pourquoi il est important de protéger la planète.
+- eksempel · s05: Compare en français l'énergie utilisée en France et en Norvège. Propose aussi une action pour réduire l'impact sur l'environnement.
+- eksempel · s06: Tu prépares une visite à Paris. En français, dis où tu vas, ce que tu veux voir au Louvre et ce que tu penses d'une œuvre ou d'un livre.
+- eksempel · s08: Tu prépares un voyage en France pour l'année prochaine. Explique en français comment tu vas voyager, ce que tu vas faire et comment tu peux limiter la pollution.
 
 ## 10/krle-10/01-sikhisme-og-andre-tradisjoner – Sikhisme og andre religiøse tradisjoner
 
@@ -385,6 +458,25 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s04: Sammenlign Ludwig Feuerbachs syn med Luthers kritikk av kirken. Hva mente Feuerbach, og hva var målet for Luthers kritikk?
 - eksempel · s05: En elev undersøker fortellinger, høytider og bønn, og bygninger og symboler i en religion. Knytt områdene til tre av Ninian Smarts dimensjoner.
 
+## 10/krle-10/08-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Sikhisme
+- eksempel · begrep: Khalsa
+- eksempel · begrep: Guru Granth Sahib
+- eksempel · begrep: Langar
+- eksempel · begrep: Dao
+- eksempel · begrep: Kjønnsnøytral ekteskapslov
+- eksempel · begrep: Eksistensialisme
+- over nivå · begrep: Stråmann
+- eksempel · q01: Hva er langar?
+- eksempel · q02: Hva mente guruene om kastesystemet?
+- eksempel · q04: Hvordan har ekteskapsloven vært siden 2009?
+- over nivå · q08: Hva er et stråmannsargument?
+- eksempel · q10: Hvilken etisk utfordring knyttes til kunstig intelligens?
+- eksempel · m01: Sikhismen er monoteistisk.
+- eksempel · s01: Sammenlign hvordan sikhismen og bahá'í beskriver Gud og hva de lærer om menneskers fellesskap.
+- eksempel · s04: Forklar hvordan Peter Singers syn kan begrunne at mennesker bør hjelpe fattige, og nevn én annen begrunnelse fra et livssyn eller en religion.
+
 ## 10/matematikk-10/01-regneregler-og-algebra – Regneregler og algebra
 
 - over nivå · begrep: Negativ eksponent
@@ -416,6 +508,10 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 ## 10/matematikk-10/09-python-i-matematikk – Python i matematikken
 
 - eksempel · s07: Et program skal finne primtall under 100. Forklar hva programmet bør undersøke for hvert tall, og hvordan undersøkelsen hjelper med å finne primtallene.
+
+## 10/matematikk-10/10-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Serielån
 
 ## 10/naturfag-10/01-nervesystemet-og-hormoner – Nervesystemet og hormonsystemet
 
@@ -475,6 +571,11 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s07: Nobelprisen i kjemi for CRISPR kom i 2020, og Nobelprisen i medisin for forskningen bak mRNA-vaksiner kom i 2023. Hvor mange år skiller årstallene? Vis det viktigste regnestykket.
 - eksempel · s08: James Webb-romteleskopet ble skutt opp i 2021. Nobelprisen i medisin for forskningen bak mRNA-vaksiner ble delt ut i 2023. Hvor mange år skiller årstallene? Vis det viktigste regnestykket.
 
+## 10/naturfag-10/07-repetisjon – Repetisjon av hele faget
+
+- over nivå · s07: En syklist holder farten 3 meter per sekund i 4 sekunder. Bruk formelen s = v · t til å regne ut hvor langt syklisten beveger seg.
+- over nivå · s08: En modellberegning viser at en gjenstand beveger seg 20 meter på 5 sekunder med jevn fart. Bruk formelen s = v · t til å finne farten.
+
 ## 10/norsk-10/02-romanen – Romanen og romananalyse
 
 - eksempel · begrep: Samfunnsroman
@@ -512,6 +613,16 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · q05: Hva kjennetegner et essay?
 - eksempel · m05: Hvilken tekst skal typisk undre seg og utforske et tema uten fast konklusjon?
 - eksempel · s08: Sammenlign et essay og et debattinnlegg. Hva prøver hver teksttype å gjøre, og hvordan kan dette påvirke avslutningen?
+
+## 10/norsk-10/08-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Språkloven
+- eksempel · begrep: Ekkokammer
+- eksempel · begrep: Samtykke
+- eksempel · q05: Hva sier språkloven om bokmål og nynorsk?
+- eksempel · q10: Hva bør du gjøre før du deler et bilde av en venn?
+- eksempel · m05: En filterboble kan gjøre at du ser en begrenset del av virkeligheten.
+- eksempel · s02: En roman forteller historien om en hovedperson fra ungdom til voksenliv, og bruker tilbakeblikk. Forklar hvilken romantype og hvilket komposisjonsgrep som er brukt.
 
 ## 10/samfunnsfag-10/01-den-kalde-krigen – Den kalde krigen
 
@@ -586,6 +697,14 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · m05: Hvor kan du klage hvis en avis bryter god presseskikk?
 - eksempel · s06: En leser mener at en avis har brutt presseetiske regler. Forklar hvilken rolle Vær Varsom-plakaten og PFU har i en slik sak.
 - eksempel · s07: Regler som er vedtatt i EU, kan også få betydning i Norge gjennom EØS-avtalen. Forklar hva dette sier om hvordan beslutninger utenfor Norge kan påvirke landet.
+
+## 10/samfunnsfag-10/08-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Etos
+- eksempel · q02: Hva var Cubakrisen i 1962?
+- eksempel · m01: Norge tillot faste utenlandske militærbaser i fredstid under den kalde krigen.
+- eksempel · m02: Hvem har vetorett i FNs sikkerhetsråd?
+- eksempel · s02: Russlands krig mot Ukraina handler blant annet om territorium, sikkerhetspolitikk og identitet. Forklar hvordan en konfliktanalyse kan hjelpe oss å forstå konflikten, og nevn én mulig konsekvens av krig.
 
 ## 10/spansk-10/01-reise-og-ferie – Reise og ferie
 
@@ -673,6 +792,11 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s06: Sammenlign Spanias styre under Franco med styret etter hans død. Svar på spansk, og ta med hva slags styre landet har i dag.
 - eksempel · s08: Mange land i Latin-Amerika har store økonomiske forskjeller, og mange flytter til USA eller Spania for å finne arbeid. Forklar dette med egne ord på spansk.
 
+## 10/spansk-10/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · s01: Escribe una postal en español a una persona de tu familia. Cuenta que estás en México, que hace calor, que has visitado las pirámides y que has comido tacos. Termina la postal con una despedida.
+- eksempel · s06: Presenta en español un aspecto de la cultura hispanohablante y di que te parece emocionante. Puedes hablar de flamenco, de una obra de arte o de un libro.
+
 ## 10/tysk-10/01-reise-og-ferie – Reise og ferie
 
 - eksempel · s08: Vergleiche auf Deutsch, was viele deutsche Touristen in Norwegen erleben möchten und was viele Norweger in Deutschland erleben möchten.
@@ -748,6 +872,12 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s06: Tyske skoler legger stor vekt på bestemte deler av landets historie. Hvilke temaer lærer elevene om, og hvordan henger dette sammen med at historien fortsatt preger samfunnet?
 - eksempel · s07: Forklar forskjellen på rollene til der Bundestag og der Bundeskanzler eller die Bundeskanzlerin i Tyskland.
 
+## 10/tysk-10/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: das Cybermobbing
+- eksempel · s04: Skriv på tysk om én fordel og én ulempe ved sosiale medier. Bruk «Einerseits … andererseits …» og nevn personvern eller mobbing på nett.
+- eksempel · s05: Skriv på tysk om «Ode an die Freude»: Fortell hvem som laget melodien, hvilket verk den kommer fra, og hva den brukes som i dag.
+
 ## 10/utdanningsvalg-10/01-soke-videregaende – Å søke videregående
 
 - eksempel · begrep: Vigo.no
@@ -786,6 +916,14 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s03: En elev trenger hjelp til å velge utdanning, mens en annen har lærevansker og trenger tilrettelegging. Hvem kan hjelpe hver elev, og hva er forskjellen på rollene deres?
 - eksempel · s06: En elev strever med å lære skolefagene og trenger tilrettelegging. Hvilken tjeneste kan eleven kontakte, og hva kan den hjelpe med?
 
+## 10/utdanningsvalg-10/05-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Fortrinnsrett
+- eksempel · begrep: Digitalt fotavtrykk
+- eksempel · begrep: Robusthet
+- eksempel · q15: Hva er robusthet?
+- eksempel · m04: Foreldre er gode referanser i en jobbsøknad.
+
 ## 8/arbeidslivsfag-8/01-arbeidsoppdrag-og-planlegging – Arbeidsoppdrag og planlegging
 
 - eksempel · begrep: Budsjett
@@ -821,6 +959,16 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · q03: Hva bør mat merkes med?
 - over nivå · m07: Hva er moms?
 - eksempel · s04: Hvorfor er det viktig å merke mat med allergener?
+
+## 8/arbeidslivsfag-8/05-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Verneombud
+- eksempel · begrep: Konsensus
+- eksempel · begrep: Reklamasjon
+- eksempel · begrep: Kalkulasjon
+- eksempel · q12: Hva hører med i en priskalkulasjon?
+- eksempel · m05: Hva er et jeg-budskap?
+- eksempel · s06: En gruppe skal levere mat til en kunde. Forklar hva gruppa må passe på når den kontrollerer og merker maten, og hvordan gruppa kan organisere arbeidet.
 
 ## 8/engelsk-8/01-word-classes-and-sentences – Word classes and sentence structure
 
@@ -879,6 +1027,12 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s01: A student says, “The Republic of Ireland is part of the UK because it is in the British Isles.” Explain what is wrong with this statement.
 - eksempel · s07: A classmate says English is the only language used in the UK. Correct them by comparing English with other languages mentioned and where they are used.
 - over nivå · s08: A question about education or health comes up in Scotland, Wales or Northern Ireland. Explain which bodies may make decisions about it and how this differs from decisions made in London.
+
+## 8/engelsk-8/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · q13: What type of government does the UK have?
+- eksempel · m06: The Republic of Ireland is part of the UK.
+- eksempel · s04: Explain the difference between Great Britain, the United Kingdom and the Republic of Ireland.
 
 ## 8/engelsk-fordypning-8/01-online-communication – Communicating online
 
@@ -964,6 +1118,13 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s07: Frankrike har områder langt unna Europa, blant annet Martinique og Réunion. Forklar hvor de ligger, og hvordan plasseringen deres viser at Frankrike har områder i ulike deler av verden.
 - eksempel · s08: En turist i Oslo spør hvorfor en gate heter Karl Johans gate. Forklar hvem Karl Johan var, og hvordan han fikk dette navnet.
 
+## 8/fransk-8/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Liberté, égalité, fraternité
+- eksempel · q11: Hva feirer franskmennene 14. juli?
+- eksempel · s05: Skriv på fransk at fransk snakkes i Frankrike, Belgia og Senegal, og at fellesskapet av fransktalende land og mennesker kalles la francophonie.
+- eksempel · s07: Skriv på fransk hvilken dato La Chandeleur er, og hva man spiser da.
+
 ## 8/krle-8/01-kristendommen – Kristendommen
 
 - eksempel · q06: Hvilken kristen retning er størst i verden?
@@ -1017,6 +1178,17 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · m01: Kant mente at det aldri er riktig å lyve.
 - eksempel · m07: Hvilken etisk teori knyttes til Jeremy Bentham og John Stuart Mill?
 
+## 8/krle-8/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Sieidi
+- eksempel · begrep: Noaidi
+- eksempel · q11: Hva var en noaidi?
+- eksempel · q13: Hva sier utilitarismen?
+- over nivå · q14: Hva betyr det å behandle mennesker som et mål i seg selv?
+- eksempel · m03: Hva skjedde med tempelet i Jerusalem i år 70?
+- eksempel · m05: Hva er goavddis?
+- eksempel · s06: Hva er en sieidi, og hvilken rolle kunne den ha i førkristen samisk religion?
+
 ## 8/matematikk-8/04-monstre-og-algebra – Mønstre og algebraiske uttrykk
 
 - eksempel · begrep: Trekanttall
@@ -1051,6 +1223,10 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s06: Et program skriver ut «partall» hvis tall % 2 == 0, og ellers skriver det ut «oddetall». Hva skriver programmet ut for tallene 18 og 19, og hvorfor?
 - eksempel · s07: I en while-løkke er betingelsen «n < 5», og n starter på 1. Inne i løkka skrives n ut, men verdien til n endres aldri. Hvorfor kan programmet fortsette for alltid, og hva kan endres for at det skal stoppe?
 - over nivå · s08: Du skal finne summen 1 + 2 + 3 + 4 + 5 + 6. Bruk formelen n(n + 1)/2 til å regne ut summen, og vis det viktigste regnestykket.
+
+## 8/matematikk-8/09-repetisjon – Repetisjon av hele faget
+
+- over nivå · q02: Hvordan skrives 4 700 000 på standardform?
 
 ## 8/naturfag-8/02-celler – Celler
 
@@ -1177,6 +1353,15 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - over nivå · s03: Du har sagt ja til at en app behandler opplysninger om deg, men ombestemmer deg. Hvilken rett etter GDPR kan du bruke da?
 - eksempel · s07: Du vil bruke et bilde laget av noen andre i et innlegg du publiserer. Forklar hvorfor du ikke automatisk kan bruke bildet, og hvordan en Creative Commons-lisens kan gjøre bruk mulig.
 
+## 8/samfunnsfag-8/08-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Demografisk overgang
+- eksempel · begrep: HDI
+- eksempel · q11: Hva skjer i fase 2 i den demografiske overgangen?
+- eksempel · q12: Hva måler HDI?
+- eksempel · m04: Barn under 15 år kan ikke straffes i Norge.
+- eksempel · m05: Hva kan skje hvis du ikke betaler en regning?
+
 ## 8/spansk-8/01-hilsener-og-presentasjon – Hilsener og presentasjon
 
 - eksempel · m01: Spansk er offisielt språk i over 20 land.
@@ -1238,6 +1423,11 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s07: Et museum vil vise fram en kjent kunstner fra Mexico. Hvem fra kunstverdenen kan museet presentere, og hvilken nasjonalitet har kunstneren?
 - eksempel · s08: En besøkende er i byen Buñol i august og ser folk kaste tomater på hverandre. Hva heter tradisjonen, og hva skjer under den?
 
+## 8/spansk-8/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: las tapas
+- eksempel · m07: Brasil er et spansktalende land.
+
 ## 8/tysk-8/01-hilsener-og-presentasjon – Hilsener og presentasjon
 
 - over nivå · m02: Tysk snakkes bare i Tyskland.
@@ -1290,6 +1480,11 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s07: En elev sier at tysk bare er offisielt språk i Tyskland. Rett påstanden ved å nevne ett annet land der tysk er offisielt, og ett sted der tysk snakkes i deler av området.
 - eksempel · s08: En klasse vil ta med en tysk oppfinnelse i en presentasjon om tysk kultur. Forklar hvorfor en Adventskalender passer som eksempel.
 
+## 8/tysk-8/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · q14: Hvor mange offisielle språk har Sveits?
+- eksempel · s08: Forklar på norsk hvordan tysk og norsk henger sammen, og gi ett eksempel på et norsk ord som er lånt fra tysk.
+
 ## 9/arbeidslivsfag-9/01-verktoy-materialer-og-tegninger – Verktøy, materialer og tegninger
 
 - eksempel · begrep: Høvel
@@ -1341,6 +1536,41 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s04: En elev lager en ny pose av et gammelt stoffstykke. Hvilket begrep beskriver dette, og hva betyr begrepet?
 - eksempel · s05: En kunde ser at et produkt har Svanemerket. Hva forteller merket om produktet?
 - eksempel · s07: Hvordan kan en jobb med reparasjon bidra til et mer bærekraftig samfunn, og hva kalles slike jobber?
+
+## 9/arbeidslivsfag-9/05-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Elektroverktøy
+- eksempel · begrep: Målestokk
+- eksempel · begrep: Arbeidstegning
+- eksempel · begrep: Mattrygghet
+- eksempel · begrep: Krysskontaminering
+- eksempel · begrep: Farlig temperatursone
+- eksempel · begrep: Best før
+- eksempel · begrep: Allergener
+- eksempel · begrep: Skalere en oppskrift
+- eksempel · begrep: Medbestemmelse
+- eksempel · begrep: Taushetsplikt
+- eksempel · begrep: Smittevern
+- eksempel · q01: Hva betyr målestokk 1:10?
+- eksempel · q02: Hva bør du gjøre før du bytter blad på en stikksag?
+- eksempel · q04: Hvorfor bør man bruke egne skjærefjøler til rått kjøtt og grønnsaker?
+- eksempel · q05: Hvilken temperatur skal et kjøleskap holde?
+- eksempel · q06: Ved hvilke temperaturer formerer bakterier seg raskest?
+- eksempel · q07: En oppskrift er for 4 personer. Hvordan lager du mat til 20?
+- eksempel · q08: Hva er taushetsplikt?
+- eksempel · q11: Hva er viktig når du leker med barn i en barnehage?
+- eksempel · q14: Hva gjør du med rester av maling fra et arbeidsoppdrag?
+- eksempel · m01: Elektroverktøy krever opplæring før bruk.
+- eksempel · m02: Hvilken enhet brukes ofte på arbeidstegninger?
+- eksempel · m03: En fryser skal holde –18 °C eller lavere.
+- eksempel · m04: Allergener trenger ikke merkes når maten serveres på skolen.
+- eksempel · m05: Taushetsplikten gjelder også etter at man har sluttet i jobben.
+- eksempel · s02: Du lager mat med rå kylling og grønnsaker på et kjøkken. Forklar hvordan du kan hindre at bakterier overføres, og hvordan kyllingen skal tilberedes.
+- eksempel · s03: Du skal lede en aktivitet for barn i en barnehage. Beskriv hvordan du kan gjøre aktiviteten trygg og inkluderende, og forklar én måte du kan være en god rollemodell på.
+- eksempel · s05: En oppskrift er for 4 personer. Du skal lage samme rett til 20 personer. Hvor mange ganger må du gange hver mengde, og hvordan kan planlegging bidra til mindre matsvinn?
+- eksempel · s06: Du møter en eldre person som hører dårlig og ønsker å bestemme mest mulig selv. Forklar hvordan du kan kommunisere tydelig og samtidig vise respekt for personens medbestemmelse.
+- eksempel · s07: Du skal lage en del etter en arbeidstegning. Forklar hvordan nøye måling og valg av gjenbruksmateriale kan bidra til et godt og mer bærekraftig resultat.
+- eksempel · s08: Du hjelper til med servering på et arrangement og får vite at en gjest har allergi mot nøtter. Forklar hvordan du bør ta hensyn til allergien og hvordan du kan gi gjesten god service.
 
 ## 9/engelsk-9/01-pronunciation – Pronunciation
 
@@ -1421,6 +1651,19 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s05: A student says that Inuit and Métis people are not Indigenous because the term “First Nations” is used for Indigenous peoples in Canada. Use what you know about Canada to correct the student.
 - eksempel · s08: Compare the UN Declaration on the Rights of Indigenous Peoples with the Treaty of Waitangi. Who is connected to each one, and how are they different in scope?
 
+## 9/engelsk-9/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Declaration of Independence
+- eksempel · begrep: Civil rights movement
+- eksempel · begrep: Federal republic
+- eksempel · begrep: Checks and balances
+- eksempel · begrep: Norwegianisation
+- eksempel · q09: What happened in 1776?
+- eksempel · q10: What does “checks and balances” mean?
+- eksempel · m05: What does the Supreme Court do?
+- eksempel · s06: Explain how the American system divides power and how checks and balances work. Include the roles of Congress and the Supreme Court.
+- eksempel · s08: Compare assimilation in Canada and Norway. Explain what happened to Indigenous languages and how the policies affected culture.
+
 ## 9/engelsk-fordypning-9/01-film-language – Film language
 
 - eksempel · begrep: Hero's journey
@@ -1470,6 +1713,21 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · q09: Why should you be careful with content that makes you very angry?
 - eksempel · m07: Which of these can you usually use in your project?
 - eksempel · s08: You find a picture online and want to use it in a school presentation. Explain what you need to check and give one kind of picture you are allowed to use.
+
+## 9/engelsk-fordypning-9/06-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Establishing shot
+- eksempel · begrep: Diegetic sound
+- eksempel · q01: Which shot shows a character's face and emotions?
+- eksempel · q02: What is non-diegetic sound?
+- eksempel · q03: What do fast cuts usually create?
+- eksempel · q06: What is a storyboard?
+- eksempel · q14: What should you remember about AI chatbots?
+- eksempel · m01: Silence can never be used as an effect in films.
+- eksempel · m02: Which of these is diegetic sound?
+- eksempel · s01: A film shows a character’s face in a close-up while non-diegetic music plays. Explain what each technique can add to the scene.
+- eksempel · s04: You are planning a short video for a particular audience. Explain how you could use a hook and a storyboard to plan it, and name one other mode that could help communicate its message.
+- eksempel · s07: Explain the difference between misinformation and disinformation, and name one way to check a claim.
 
 ## 9/fransk-9/01-mat-og-drikke – Mat og drikke
 
@@ -1525,6 +1783,16 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s06: En reisebrosjyre vil trekke fram et av verdens mest kjente karnevaler og nevner blomsterparader. Hvilken fransk by handler det om, og hva gjør karnevalet kjent?
 - eksempel · s07: Sammenlign «la Fête de la musique» 21. juni med «le 14 juillet», Frankrikes nasjonaldag. Hvordan markeres de to dagene?
 - eksempel · s08: Hva minnes man i Frankrike den 11. november?
+
+## 9/fransk-9/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: le réveillon
+- eksempel · begrep: la Saint-Sylvestre
+- eksempel · begrep: le 14 juillet
+- eksempel · q11: Hva er «le réveillon»?
+- eksempel · q12: Hvilken dag er Frankrikes nasjonaldag?
+- eksempel · m06: Hva heter nyttårsaften på fransk?
+- eksempel · s07: Sammenlign på fransk én tradisjon i Québec med én tradisjon i Belgia. Si hva som skjer hvert sted.
 
 ## 9/krle-9/01-hinduismen – Hinduismen
 
@@ -1631,6 +1899,16 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s03: Sammenlign rådet fra Jesus om hvordan vi skal behandle andre med rådet fra Hillel. Hva er likt ved rådene?
 - eksempel · s04: Muhammad la vekt på omsorg for fattige, enker og foreldreløse. Forklar hvordan zakat henger sammen med denne omsorgen.
 
+## 9/krle-9/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Islams gullalder
+- over nivå · begrep: Privatreligiøsitet
+- over nivå · begrep: Sivilreligion
+- eksempel · begrep: Barmhjertighet i islam
+- eksempel · m05: Hatefulle ytringer mot mennesker på grunn av religion er forbudt i Norge.
+- eksempel · s04: Forklar én måte kristningen endret samfunnet i Norge på, og én måte religion har inspirert arbeid for rettferdighet på.
+- eksempel · s08: Sammenlign Gandhis og Martin Luther Kings bruk av religiøse ideer i kampen for endring.
+
 ## 9/matematikk-9/01-sammensatte-maleenheter – Sammensatte måleenheter
 
 - eksempel · begrep: Tettheten til vann
@@ -1674,6 +1952,11 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 
 - eksempel · begrep: Bursdagsproblemet
 - eksempel · s03: Beskriv hvordan du kan lage én runde av en simulering av bursdagsproblemet for en klasse på 25 elever. Forklar også hva du må telle når simuleringen gjentas mange ganger.
+
+## 9/matematikk-9/09-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Tetthet
+- eksempel · s08: Et program skal simulere terningkast og undersøke hvor ofte summen av to terninger blir 7. Programmet bruker randint(0, 6). Hva er feilen, hva skal det bruke i stedet, og hvordan kan du kontrollere om resultatet er rimelig?
 
 ## 9/naturfag-9/01-evolusjon – Evolusjon
 
@@ -1765,6 +2048,13 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s06: Sammenlign en simulering av populasjonsvekst med en rovdyr–byttedyr-modell. Hva undersøker de hver for seg?
 - eksempel · s07: Forklar hva halveringstid betyr for mengden av et radioaktivt stoff.
 
+## 9/naturfag-9/08-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Albedo
+- over nivå · begrep: Kontrollere sensoren
+- over nivå · q12: Hva er et digitalt signal?
+- eksempel · s04: Sammenlign en miljøvirkning fra fossile brensler med en mulig lokal miljøvirkning fra en fornybar energikilde.
+
 ## 9/norsk-9/01-lyrikk – Lyrikk og språklige virkemidler
 
 - eksempel · begrep: Haiku
@@ -1817,6 +2107,13 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 
 - eksempel · begrep: SKAM
 - eksempel · q07: Hva var spesielt med serien SKAM?
+
+## 9/norsk-9/08-repetisjon – Repetisjon av hele faget
+
+- over nivå · begrep: Inversjon
+- eksempel · begrep: Utviklingsfortelling
+- eksempel · q13: Hva er en utviklingsfortelling?
+- over nivå · s03: I setningen «Fordi det regnet, ble vi inne» finn leddsetningen, forklar hva inversjon betyr her, og si hvorfor «Fordi det regnet» ikke kan stå alene som en helsetning.
 
 ## 9/samfunnsfag-9/01-industrialisering-og-teknologi – Industrialisering og teknologi
 
@@ -1927,6 +2224,11 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s06: EMK er en europeisk menneskerettighetsavtale, og Den europeiske menneskerettsdomstolen holder til i Strasbourg. Forklar hvilken rolle hver av dem har når en sak gjelder brudd på menneskerettighetene.
 - eksempel · s08: Amnesty International vil gjøre andre oppmerksomme på et brudd på menneskerettighetene. Forklar to måter organisasjonen kan bidra på, og hvordan det kan hjelpe.
 
+## 9/samfunnsfag-9/08-repetisjon – Repetisjon av hele faget
+
+- eksempel · s02: Hvordan kunne arbeidere bruke organisering og streik for å få bedre rettigheter? Ta med ett eksempel på en forbedring arbeiderne fikk.
+- eksempel · s07: En kommune planlegger en utbygging i et område som brukes til reindrift. Forklar hvilken rett samiske reindriftsutøvere har til å bli involvert, og hva Fosen-saken viste.
+
 ## 9/spansk-9/01-mat-og-drikke – Mat og drikke
 
 - eksempel · q09: Hva heter poteter i Latin-Amerika?
@@ -1984,6 +2286,19 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s07: En spansk familie setter fram en liten scene med figurer til jul. Hva kalles scenen på spansk, og hva forestiller den?
 - eksempel · s08: Den 22. desember følger mange spanjoler med på la Lotería de Navidad. Forklar hva slags tradisjon dette er, og når den skjer.
 
+## 9/spansk-9/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: el menú del día
+- eksempel · begrep: la Nochebuena
+- eksempel · begrep: las doce uvas
+- eksempel · begrep: los Reyes Magos
+- eksempel · q11: Hva er «la Nochebuena»?
+- eksempel · q12: Når får mange spanske barn gavene sine?
+- over nivå · m03: Hva betyr «Tome la segunda calle a la izquierda»?
+- eksempel · m06: I Spania spiser mange tolv druer ved midnatt på nyttårsaften.
+- eksempel · s05: Skriv på spansk om julaften i Spania. Ta med familiemiddagen og når mange barn får gaver.
+- eksempel · s08: Skriv på spansk om nyttårsaften i Spania. Nevn hva mange spiser ved midnatt, og bruk et ord som viser tidspunktet.
+
 ## 9/tysk-9/01-mat-og-drikke – Mat og drikke
 
 - eksempel · begrep: das Abendbrot
@@ -2028,6 +2343,17 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s05: Forklar hvordan Rosenmontag hører sammen med Fasching eller Karneval. Ta med når karnevalet feires, og hva som skjer på Rosenmontag.
 - eksempel · s06: En venn tror at Oktoberfest i München bare foregår i oktober. Rett opp misforståelsen og fortell én annen opplysning om festivalen.
 - eksempel · s08: Sammenlign hva barn gjør på Sankt Martin og i påsken i tyskspråklige land.
+
+## 9/tysk-9/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: der Adventskranz
+- eksempel · begrep: der Nikolaustag
+- eksempel · begrep: Fasching / Karneval
+- eksempel · q11: Hva skjer på Nikolaustag 6. desember?
+- eksempel · q12: Hva betyr «Guten Rutsch!»?
+- eksempel · m06: Hva er «der Adventskranz»?
+- eksempel · s07: På et tysk julemarked vil du bestille pepperkaker høflig. Skriv på tysk hvilken tradisjonell mat du ønsker, og bruk en høflig bestillingsfrase.
+- eksempel · s08: Fortell på tysk hva barn gjør på Nikolaustag: De setter fram skoene om kvelden og finner godteri i dem om morgenen. Bruk fortidsform.
 
 ## 9/utdanningsvalg-9/01-meg-selv-og-mine-valg – Meg selv og mine valg
 
@@ -2076,6 +2402,11 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · m05: Hvem behandler klager om diskriminering?
 - eksempel · s02: En person vil først få veiledning om diskriminering og vurderer senere å klage. Hvilket organ gir veiledning, og hvilket behandler klager?
 - over nivå · s08: En arbeidsgiver mener at det er nok å la være å diskriminere, og at arbeidsgiveren ikke trenger å gjøre noe mer for likestilling. Rett påstanden ved å forklare aktivitetsplikten.
+
+## 9/utdanningsvalg-9/05-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Fagskole
+- eksempel · s06: Forklar forskjellen mellom primærnæringer og sekundærnæringer, og gi ett eksempel på hver.
 
 ## vg1/engelsk-vg1/01-english-as-a-world-language – English as a world language
 
@@ -2200,6 +2531,16 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s05: Bob Dylan's “Blowin' in the Wind” is linked to the civil rights era, and Kendrick Lamar's “Alright” became an anthem for Black Lives Matter protests. Explain how these examples show the connection between protest songs and social movements.
 - over nivå · s08: A game has characters and a story, as well as a detailed fictional world. Explain what world-building means and how it differs from the story and characters.
 
+## vg1/engelsk-vg1/10-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Framing
+- over nivå · begrep: Diegetic sound
+- over nivå · begrep: Player agency
+- over nivå · q11: What is diegetic sound?
+- eksempel · m07: Apartheid ended in 1948.
+- over nivå · m08: Background music added to a film is non-diegetic sound.
+- eksempel · s01: Explain why English is used as a lingua franca and give one example of how its history has shaped the language.
+
 ## vg1/fransk-vg1/02-skole-og-arbeid – Skole, utdanning og framtid
 
 - eksempel · q07: Hvilken karakterskala brukes i franske skoler?
@@ -2263,6 +2604,25 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s06: Hva har «Les Misérables» og «Notre-Dame de Paris» til felles når det gjelder tema og tid?
 - eksempel · s07: I «Le Petit Prince» er et kjent poeng at det viktigste er usynlig for øynene. Hva sier dette poenget om hvordan man ser godt?
 - eksempel · s08: Skriv på fransk én setning som forklarer hva «Intouchables» handler om. Bruk starten «Ce film parle de…».
+
+## vg1/fransk-vg1/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: le bac
+- eksempel · begrep: la laïcité
+- eksempel · begrep: la prise de la Bastille
+- eksempel · begrep: la Déclaration des droits de l'homme
+- eksempel · begrep: la Résistance
+- eksempel · begrep: le Débarquement
+- eksempel · begrep: la bande dessinée (BD)
+- eksempel · q07: Hva betyr laïcité?
+- eksempel · q09: Hva slo menneskerettighetserklæringen fra 1789 fast?
+- eksempel · q10: Hva skjedde i Normandie 6. juni 1944?
+- over nivå · m05: Passé simple brukes mest i skriftlige, historiske tekster.
+- eksempel · s02: Skriv på fransk at du skal ta bac neste år, og at hvis du består, skal du gå på universitetet.
+- eksempel · s04: Forklar på fransk hvordan kolonihistorien henger sammen med at fransk snakkes i Afrika i dag.
+- eksempel · s05: Skriv på fransk om Frankrike før revolusjonen og hva som skjedde med Bastillen 14. juli 1789.
+- eksempel · s06: Sammenlign på fransk hva menneskerettighetserklæringen fra 1789 slo fast, med hva laïcité betyr.
+- eksempel · s07: Forklar på fransk hva filmen Intouchables handler om, og nevn hva slags relasjon som står sentralt.
 
 ## vg1/geografi-vg1/01-kart-og-feltarbeid – Kart, geografiske kilder og feltarbeid
 
@@ -2349,6 +2709,11 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · m01: Fruktbarheten i Norge er lavere enn 2,1 barn per kvinne.
 - eksempel · m04: Verdens befolkning har vært omtrent 8 milliarder i flere hundre år.
 
+## vg1/geografi-vg1/08-repetisjon – Repetisjon av hele faget
+
+- eksempel · q02: Hva er en svakhet ved Mercatorprojeksjonen?
+- eksempel · s03: Et planlagt vindkraftverk ligger i et område som brukes til reindrift. Forklar hvorfor dette kan bli en arealkonflikt, og hvordan Fosen-saken viser at flere hensyn må vurderes.
+
 ## vg1/kinesisk-vg1/01-uttale-og-toner – Mandarin, pinyin og toner
 
 - eksempel · begrep: 妈 mā
@@ -2407,6 +2772,15 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · m01: Kina har rundt 1,4 milliarder innbyggere.
 - eksempel · m04: Mandarin snakkes bare i Kina.
 - eksempel · s06: En besøkende ser en forestilling med sang, akrobatikk og fargerike masker. Hvilken kinesisk kunstform er det sannsynligvis, og hvilke trekk viser det?
+
+## vg1/kinesisk-vg1/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: 中秋节 Zhōngqiūjié
+- eksempel · q09: Hvilken radikal finner du i 河 (elv) og 海 (hav)?
+- eksempel · q11: Hva får barn ofte i gave til kinesisk nyttår?
+- eksempel · s06: Forklar hva pinyin og en radikal kan fortelle deg om tegnet 妈, og bruk delene i tegnet som eksempel.
+- eksempel · s07: Forklar hvordan kinesisk skiller mellom søsken etter alder, og knytt dette til en tradisjonell familieverdi i Kina.
+- eksempel · s08: Beskriv hva man kan spise i Sør- og Nord-Kina, og forklar én skikk ved måltider som deles rundt bordet.
 
 ## vg1/matematikk-1p/01-potenser-og-standardform – Potenser, røtter og standardform
 
@@ -2493,6 +2867,12 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - over nivå · begrep: RegEksp
 - over nivå · begrep: RegPot
 - over nivå · q03: Hvilken GeoGebra-kommando gir andregradsregresjon?
+
+## vg1/matematikk-1t/10-repetisjon – Repetisjon av hele faget
+
+- over nivå · begrep: Enhetssirkelen
+- eksempel · q10: Hva gjør en while-løkke i Python?
+- eksempel · s08: Forklar hvordan halveringsmetoden kan brukes til å nærme seg et nullpunkt for en funksjon.
 
 ## vg1/naturfag-vg1/01-naturvitenskapelig-metode – Naturvitenskapelig metode og forsøk
 
@@ -2612,6 +2992,14 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s07: Dolly ble født i 1996, og Charpentier og Doudna fikk Nobelprisen i kjemi i 2020. Hvor mange år er det mellom årstallene? Vis det viktigste regnestykket.
 - eksempel · s08: Dolly ble født i 1996, og Charpentier og Doudna fikk Nobelprisen i kjemi i 2020. Hvilket år ligger midt mellom årstallene? Vis det viktigste regnestykket.
 
+## vg1/naturfag-vg1/12-repetisjon – Repetisjon av hele faget
+
+- over nivå · begrep: Eulers metode
+- over nivå · begrep: Logistisk vekst
+- eksempel · begrep: CRISPR-Cas9
+- over nivå · q02: Hvordan oppdateres farten i Eulers metode?
+- eksempel · s08: CRISPR kan brukes til å endre DNA. Forklar hvorfor endringer i kjønnsceller eller fostre er særlig omstridte, og hvordan føre-var-prinsippet kan brukes i vurderingen.
+
 ## vg1/norsk-vg1/01-nyere-skjonnlitteratur – Nyere skjønnlitteratur
 
 - eksempel · begrep: Autofiksjon
@@ -2697,6 +3085,14 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · m06: Hvilket år la Sannhets- og forsoningskommisjonen fram rapporten sin?
 - eksempel · s02: Sammenlign Finnefondet og Jordsalgsloven fra 1902. Hvordan skulle hvert av dem bidra til at norsk språk fikk en sterkere stilling?
 - over nivå · s08: En kommune lager et nytt kart og setter opp skilt med stedsnavn. Hva skal kommunen gjøre med samiske stedsnavn, og hvor skal de brukes?
+
+## vg1/norsk-vg1/10-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Hjemmel
+- eksempel · q15: Hva sier Grunnloven § 108?
+- eksempel · s02: En roman skildrer ungdommer med ulik kulturell bakgrunn og bruker multietnolekt og kodeveksling. Forklar hvordan språkbruken kan vise identitet og tilhørighet, og hvorfor det er viktig å undersøke hvem som får fortelle.
+- eksempel · s04: I en diskusjon sier en person: «Du vil altså at ingen elever skal lære noe», selv om motparten ikke har sagt det. Forklar hva slags argumentasjonsgrep dette er, og hvordan man bør svare saklig.
+- eksempel · s08: En oversetter må velge ord som passer til både innhold, stemning og rytme. Forklar hvorfor oversettelse kan være en tolkning, og hvordan dette kan påvirke leserens møte med en annen kultur.
 
 ## vg1/samfunnskunnskap-vg1/01-metode-og-ideologi – Samfunnsfaglig metode, kilder og ideologier
 
@@ -2827,6 +3223,12 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · q09: Hva er sanksjoner?
 - eksempel · q10: Hvorfor er klimaendringene en vanskelig global utfordring å løse?
 
+## vg1/samfunnskunnskap-vg1/13-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: GDPR
+- eksempel · begrep: Strukturell rasisme
+- eksempel · q05: Hvilken rettighet gir GDPR deg?
+
 ## vg1/spansk-vg1/01-identitet-og-relasjoner – Identitet, vennskap og følelser
 
 - eksempel · s06: Sammenlign hvordan unge i Spania og Mexico kan bruke ordene tío/tía og güey om venner.
@@ -2895,6 +3297,30 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s05: Forklar hva flamenco kombinerer, og hvilken type kulturarv flamenco står på UNESCOs liste over.
 - eksempel · s06: Sammenlign Pedro Almodóvar med Guillermo del Toro og Alfonso Cuarón ved å beskrive hvilket land de forbindes med, og hva som er kjent om filmene eller prisene deres.
 
+## vg1/spansk-vg1/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: la ESO
+- eksempel · begrep: la carta de presentación
+- over nivå · begrep: había salido
+- eksempel · begrep: las comunidades autónomas
+- over nivå · begrep: Quiero que vengas.
+- eksempel · begrep: la Transición
+- over nivå · begrep: fue conquistada
+- eksempel · q03: Hva er ESO?
+- over nivå · q06: Hva uttrykker «había salido»?
+- eksempel · q07: Hvilket land har flest spansktalende?
+- over nivå · q08: Velg riktig: «No creo que ___ verdad.»
+- eksempel · q09: Hvorfor døde millioner av urfolk etter erobringen?
+- eksempel · q10: Hva var «la Transición»?
+- over nivå · q12: Hva er condicional av «poder» i usted-form?
+- over nivå · m04: «Espero que» etterfølges av subjuntivo.
+- eksempel · m05: Hvem var de katolske kongene?
+- over nivå · m06: Condicional og futuro har de samme uregelmessige stammene.
+- eksempel · s04: Skriv på spansk om utdanning og språk i Spania. Ta med hva elever kan velge etter ESO, hvor mange autonome regioner landet har, og ett regionalt språk med regionen det snakkes i.
+- over nivå · s05: Fortell på spansk hva som skjedde i 1492. Bruk indefinido om Columbus og en passiv form om Granada.
+- eksempel · s06: Forklar på spansk forbindelsen mellom den spanske borgerkrigen og Picassos maleri Guernica.
+- eksempel · s08: Skriv på spansk om Latin-Amerikas mangfold og uavhengighet. Ta med en gruppe urfolk og perioden da de fleste latinamerikanske land ble selvstendige.
+
 ## vg1/tysk-vg1/02-skole-og-arbeid – Skole, utdanning og arbeid
 
 - eksempel · q09: Hva betyr «das Vorstellungsgespräch»?
@@ -2951,6 +3377,24 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s04: En designer lager en stol med enkle former og rette linjer, og stolen skal være praktisk å bruke. Forklar hvorfor designet passer med Bauhaus-idealet.
 - eksempel · s05: Sammenlign handlingen i «Good Bye, Lenin!» og «Das Leben der Anderen». Hva er den sentrale situasjonen i hver film?
 - eksempel · s06: Sammenlign Mozart og Beethoven ved å nevne et verk eller en musikalsk prestasjon fra hver av dem.
+
+## vg1/tysk-vg1/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: das duale System
+- over nivå · begrep: Plusquamperfektum
+- eksempel · begrep: die Schweiz
+- eksempel · begrep: die Energiewende
+- eksempel · begrep: die Weimarer Republik
+- over nivå · begrep: wurde gebaut
+- eksempel · q06: Hva kjennetegner «das duale System»?
+- over nivå · q09: Hva uttrykker plusquamperfektum?
+- eksempel · q10: Hvilket land er kjent for direkte demokrati med mange folkeavstemninger?
+- over nivå · q14: Hvordan dannes passiv på tysk?
+- over nivå · m05: Hvordan sier du «Tyskland ble gjenforent i 1990»?
+- eksempel · s04: Sammenlign Sveits og DDR på tysk. Bruk opplysningene at Sveits er kjent for direkte demokrati med folkeavstemninger, mens DDR var en kommunistisk ettpartistat.
+- over nivå · s05: Fortell på tysk at Berlinmuren ble bygd i 1961, at den falt i 1989, og at Tyskland ble gjenforent i 1990. Bruk passiv om at muren ble bygd.
+- eksempel · s06: Beskriv på tysk handlingen i filmen Good Bye, Lenin! og knytt den til DDRs oppløsning.
+- eksempel · s08: Beskriv på tysk en venn som er pålitelig og interessert i film. Skriv også at du gjerne ville sett Good Bye, Lenin!, en komedie om en ung mann i Øst-Berlin.
 
 ## vg2/biologi-1/01-biologisk-metode – Biologisk metode og undersøkelser
 
@@ -3060,6 +3504,14 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s05: Sammenlign vern og restaurering som tiltak for naturmangfold. Ta med ett eksempel på hvert tiltak.
 - eksempel · s07: Naturavtalen har et mål om å bevare 30 % av land- og havområdene. Hvis hele arealet regnes som 100 %, hvor mange prosentpoeng gjenstår fra 30 % til 100 %? Vis regnestykket.
 - eksempel · s08: Norsk rødliste vurderte rundt 2750 arter som truet i 2021. Hvor mange arter ville det tilsvare hvis antallet hypotetisk ble doblet? Vis det viktigste regnestykket.
+
+## vg2/biologi-1/12-repetisjon – Repetisjon av hele faget
+
+- over nivå · m04: Vanligvis må flere mutasjoner samles før en celle blir en kreftcelle.
+- over nivå · m05: Vaksiner overvåkes også etter at de er godkjent.
+- over nivå · m06: Resistensgener kan overføres mellom ulike bakteriearter.
+- eksempel · m08: Tidligere vår kan gi mangel på mat når fugleungene trenger den.
+- over nivå · s07: En sykdom har et basalt reproduksjonstall R₀ på 2. Bruk formelen for terskelen for flokkimmunitet, 1 − 1/R₀, til å beregne terskelen og oppgi den som prosent.
 
 ## vg2/entreprenorskap-og-bedriftsutvikling-1/01-entreprenorskap-og-entreprenoriell-kompetanse – Entreprenørskap og entreprenøriell kompetanse
 
@@ -3187,6 +3639,18 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · m01: Regnskapene til aksjeselskaper er offentlige.
 - eksempel · s08: En person vil undersøke regnskapet til et aksjeselskap. Hvor kan personen finne regnskapet, og hvorfor er det tilgjengelig der?
 
+## vg2/entreprenorskap-og-bedriftsutvikling-1/13-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Smidig oppstart
+- eksempel · begrep: Forretningsmodellkanvas
+- eksempel · begrep: Åpen innovasjon
+- eksempel · begrep: Ansoffs vekstmatrise
+- eksempel · begrep: Tuckmans faser
+- eksempel · q05: Hva er åpen innovasjon?
+- eksempel · q07: Hvilken strategi i Ansoffs matrise har høyest risiko?
+- eksempel · q10: Hvilken fase i Tuckmans modell kjennetegnes av uenigheter?
+- eksempel · m02: Designtenkning går ofte i runder der man går tilbake til tidligere steg.
+
 ## vg2/fransk-vg2/01-miljo-og-barekraft – Klima, miljø og bærekraft
 
 - eksempel · begrep: l'Accord de Paris
@@ -3271,6 +3735,28 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s03: Ordet *verlan* kommer fra *l'envers*. Forklar hvordan navnet henger sammen med måten verlan dannes på.
 - eksempel · s06: Skriv på fransk at du liker fransk rap, og bruk slangverbet *kiffer*.
 - eksempel · s08: Nevn hvor mange unge ofte møtes i Frankrike, og hvilke to typer lesestoff som er svært populære.
+
+## vg2/fransk-vg2/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: le développement durable
+- eksempel · begrep: le nucléaire
+- eksempel · begrep: l'intelligence artificielle (IA)
+- eksempel · begrep: le Maghreb
+- eksempel · begrep: les banlieues
+- eksempel · begrep: l'identité
+- eksempel · begrep: la discrimination
+- eksempel · begrep: une famille d'accueil
+- eksempel · begrep: la lettre de motivation
+- eksempel · begrep: la chute
+- eksempel · begrep: le verlan
+- eksempel · q01: Hva betyr «le développement durable»?
+- eksempel · q10: Hva er «la chute» i en novelle?
+- eksempel · m01: Kjernekraft gir lave CO₂-utslipp, men skaper atomavfall.
+- eksempel · m05: Hva betyr «une fin ouverte»?
+- eksempel · s01: Skriv på fransk at det er nødvendig at vi gjenvinner avfallet, og at du kan dele informasjon om dette på sosiale medier.
+- eksempel · s02: Skriv på fransk at det er viktig at Frankrike beskytter miljøet. Bruk subjonctif av «être» til å uttrykke at dette er viktig.
+- eksempel · s05: Forklar på fransk at mennesker i forstedene kan møte utfordringer, men at forstedene også er viktige for fransk rap, dans eller fotball.
+- eksempel · s07: Skriv en kort litterær analyse på fransk av en novelle der få personer er med og slutten er overraskende. Bruk minst to analyseord.
 
 ## vg2/fysikk-1/01-forsok-og-modeller – Forsøk, målinger og modeller i fysikk
 
@@ -3414,6 +3900,11 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · q06: Hvorfor overvåkes Åknes?
 - eksempel · q07: Hvor finner du daglige varsler om snøskred og flom i Norge?
 - eksempel · s08: I Tafjord i 1934 omkom 40 mennesker i en flodbølge, og i Gjerdrum i 2020 krevde et kvikkleireskred 11 liv. Hvor mange flere omkom i Tafjord? Vis regnestykket.
+
+## vg2/geofag-1/11-repetisjon – Repetisjon av hele faget
+
+- eksempel · m05: Hvilken metode brukes for å finne kornfordelingen i en prøve?
+- eksempel · m07: Hva betyr oppredning?
 
 ## vg2/historie-og-filosofi-1/01-filosofisk-samtale-og-argumentasjon – Filosofisk samtale og argumentasjon
 
@@ -3563,6 +4054,11 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s07: FNs menneskerettighetserklæring fra 1948 slo fast at alle mennesker har lik verdi. Forklar hvordan denne ideen utfordrer at noen grupper tidligere ble verdsatt høyere enn andre.
 - eksempel · s08: Jegere og sankere var avhengige av naturens rytmer, men kan også ha bidratt til at store dyr som mammuter døde ut. Forklar hvordan disse to forholdene kan være sanne samtidig.
 
+## vg2/historie-og-filosofi-1/13-repetisjon – Repetisjon av hele faget
+
+- eksempel · s02: Sammenlign hvordan Magna Carta og John Locke begrenset eller begrunnet statsmakt.
+- eksempel · s05: Forklar hvordan religion både kan legitimere makt og brukes til å kritisere makt. Bruk ett eksempel på hver rolle.
+
 ## vg2/historie-vg2/01-historie-som-fag – Historie som fag: kilder og periodisering
 
 - eksempel · begrep: Taus kilde
@@ -3705,6 +4201,16 @@ Generert av `npm run content:niva`. Alt som ikke står her, er merket som kjerne
 - eksempel · s07: Religion har inspirert arbeid for fred og rettferdighet. Martin Luther King Jr., som var prest, ledet borgerrettighetsbevegelsen i USA. Forklar hvordan dette eksemplet viser at religion kan påvirke samfunnet på en positiv måte.
 - eksempel · s08: Antisemittisme betyr hat og fordommer mot jøder. Forklar hvordan Holocaust viser at antisemittisme kan få alvorlige følger.
 
+## vg2/historie-vg2/10-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Den grønne revolusjon
+- eksempel · begrep: Trekanthandelen
+- eksempel · q05: Hva er en bakside ved den grønne revolusjon?
+- eksempel · q08: Hva ble fraktet fra Afrika til Amerika i trekanthandelen?
+- eksempel · s04: Forklar hvordan boktrykkerkunsten påvirket spredningen av ideer, og gi et eksempel på en bevegelse som ble spredd raskt.
+- eksempel · s06: Forklar hvordan minnekultur kan vise hvem som har makt i samfunnet, og gi et eksempel på en gruppe som ofte har blitt oversett.
+- eksempel · s07: Sammenlign hanseatenes handel i Bergen med trekanthandelen når det gjelder varer og makt.
+
 ## vg2/informasjonsteknologi-1/01-it-i-samfunnet – Informasjonsteknologi i samfunnet
 
 - eksempel · begrep: Deepfake
@@ -3824,6 +4330,12 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · q10: Hva gjør løkken while sannsynlighet_felles(n) < 0.5?
 - eksempel · m06: Hvilket Python-bibliotek brukes ofte til å lage grafer?
 
+## vg2/informasjonsteknologi-1/12-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Phishing
+- eksempel · begrep: API
+- eksempel · s02: Beskriv hvordan en nettside kan hente oppdaterte data som deles mellom brukerne, og forklar hvilken rolle et API og fetch kan ha.
+
 ## vg2/kinesisk-vg2/01-mat-og-restaurant – Mat og restaurant
 
 - eksempel · begrep: 北京烤鸭 Běijīng kǎoyā
@@ -3872,6 +4384,19 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · s02: Shenzhen gikk på noen tiår fra å være en liten by til å bli en teknologimetropol. Forklar hva dette eksemplet viser om utviklingen i det moderne Kina.
 - eksempel · s04: En elev prøver å åpne en vestlig nettside eller app i Kina, men får ikke tilgang. Forklar hvordan sensur og uttrykket «den store brannmuren» henger sammen med situasjonen.
 - eksempel · s06: Ettbarnspolitikken er blant årsakene til eldrebølgen i Kina. Forklar hvordan det kan være en sammenheng mellom en politikk som begrenser antall barn og en større andel eldre.
+
+## vg2/kinesisk-vg2/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: 高考 gāokǎo
+- eksempel · begrep: 1978
+- eksempel · begrep: 污染 wūrǎn
+- eksempel · begrep: Ettpartistat
+- eksempel · begrep: Taiwan
+- eksempel · q11: Hvem startet de økonomiske reformene i Kina i 1978?
+- eksempel · q12: Hva er Kinas politiske system?
+- eksempel · m06: Kina har frie valg med mange partier.
+- eksempel · s06: Forklar hvordan mobilteknologi gjør det lettere å reise og handle i Kina. Ta med minst én måte mobilen brukes på reise og én måte den brukes i betaling eller handel.
+- eksempel · s07: Forklar hvordan skole og framtidsmuligheter kan skape press for unge i Kina. Ta med hva 高考 er, og én annen opplysning om press på unge.
 
 ## vg2/kjemi-1/01-atomet-og-periodesystemet – Atomet og periodesystemet
 
@@ -3922,6 +4447,11 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - over nivå · begrep: Superkritisk CO₂
 - eksempel · begrep: Livsløpsanalyse
 - eksempel · q02: Hvem formulerte de tolv prinsippene for grønn kjemi?
+
+## vg2/kjemi-1/12-repetisjon – Repetisjon av hele faget
+
+- over nivå · begrep: E-faktor
+- over nivå · s08: En kjemisk prosess har 95 % utbytte, men lav atomøkonomi. Forklar hvorfor den likevel kan gi mye avfall, og hvordan E-faktoren brukes til å vurdere dette.
 
 ## vg2/markedsforing-og-ledelse-1/01-markedsforing-og-teorier – Markedsføring, ledelse og fagets modeller
 
@@ -4003,6 +4533,14 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · s06: Da fabrikkbygningen Rana Plaza i Bangladesh kollapset i 2013, døde over 1100 mennesker. Forklar hva hendelsen viste om merkers leverandørkjeder, og hvorfor det er et spørsmål om sosial bærekraft.
 - eksempel · s08: En kunde ser Svanemerket på ett produkt og Ø-merket på et annet. Forklar hva hvert merke forteller kunden, og hvordan informasjonen fra merkene er forskjellig.
 
+## vg2/markedsforing-og-ledelse-1/15-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Omnikanal
+- eksempel · begrep: Situasjonsbestemt ledelse
+- eksempel · q07: Hva er omnikanal?
+- eksempel · q12: Hva er situasjonsbestemt ledelse?
+- eksempel · q13: Hva må en påvirker gjøre ved et betalt samarbeid?
+
 ## vg2/matematikk-2p/01-prosent-vekstfaktor-og-regneark – Prosent, vekstfaktor og modellering i regneark
 
 - eksempel · begrep: 20 000 · 1,04¹⁰
@@ -4038,6 +4576,11 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 ## vg2/matematikk-2p/06-statistikk-analyse-og-presentasjon – Analysere og presentere datasett
 
 - eksempel · m05: Hvor kan du finne statistikk om din egen kommune?
+
+## vg2/matematikk-2p/08-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Absolutt referanse
+- eksempel · m01: Hvilken formel legger til et fast innskudd i E2 hvert år?
 
 ## vg2/matematikk-r1/01-grenseverdier – Grenseverdier
 
@@ -4238,6 +4781,14 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · m06: Hvem vedtar rettskrivningen i norsk i dag?
 - eksempel · s04: Reformene i 1917 og 1938 skulle føre bokmål og nynorsk nærmere hverandre. Forklar hvordan dette kom til uttrykk, og gi ett eksempel på en folkelig form som ble tillatt i bokmål.
 - over nivå · s07: Forklar forskjellen på den språklige statusen til samisk og til kvensk, romani, romanes og norsk tegnspråk i Norge.
+
+## vg2/norsk-vg2/09-repetisjon – Repetisjon av hele faget
+
+- over nivå · begrep: Inventio
+- eksempel · begrep: Språkloven
+- eksempel · q11: Hvorfor er dansk ofte vanskeligere å forstå muntlig enn skriftlig for nordmenn?
+- eksempel · q13: Hva sier språkloven fra 2022 om bokmål og nynorsk?
+- eksempel · s01: Sammenlign sagaenes saklige stil og korte replikker med moderne krimlitteratur og minimalistisk prosa.
 
 ## vg2/politikk-og-menneskerettigheter/01-statsvitenskapelige-teorier-og-kilder – Statsvitenskapelige teorier, modeller og kilder
 
@@ -4499,6 +5050,14 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 
 - eksempel · begrep: Kauai-studien
 - eksempel · begrep: Oppmerksomt nærvær
+
+## vg2/psykologi-1/16-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Dulting
+- over nivå · q11: Hva er den naturalistiske feilslutningen?
+- eksempel · q12: Hva er dulting?
+- eksempel · m05: Diffus identitet betyr at ungdommen har utforsket mye og tatt et klart valg.
+- eksempel · s06: En skole vil få flere elever til å velge vegetarretten. Forklar hvordan skolen kan bruke dulting, og hvordan vaner og sosiale normer kan påvirke elevenes valg.
 
 ## vg2/rettslare-1/01-rettsstaten – Norge som rettsstat
 
@@ -4825,6 +5384,15 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · q10: Hva hevdet Wilkinson og Pickett?
 - eksempel · m06: Når utga John Rawls sin rettferdighetsteori?
 
+## vg2/sosiologi-og-sosialantropologi/14-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Skjult makt
+- eksempel · begrep: Organisk solidaritet
+- eksempel · begrep: Uvitenhetens slør
+- eksempel · q07: Hva er skjult makt ifølge Lukes?
+- eksempel · q13: Hva sier forskjellsprinsippet?
+- eksempel · s02: Forklar hvordan sosialisering og inntrykksstyring kan påvirke hvordan unge presenterer seg på sosiale medier.
+
 ## vg2/spansk-vg2/01-miljo-og-barekraft – Klima, miljø og bærekraft
 
 - eksempel · q10: Hvorfor er smeltende isbreer i Andes et problem?
@@ -4899,6 +5467,21 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · s05: En klassekamerat tror at Bad Bunny er fra Spania, og at Rosalía er fra Puerto Rico. Rett opp misforståelsen ved å oppgi hvor hver artist kommer fra.
 - eksempel · s07: Du lærer spansk og finner en språkpartner som snakker spansk og ønsker å lære norsk eller engelsk. Forklar hvordan et intercambio kan være nyttig for begge.
 - eksempel · s08: Du besøker venner i Spania og foreslår å starte kvelden klokka 20. Mange unge der går ut sent, og kvelden starter ofte etter klokka 22. Forklar hvordan forslaget ditt kan oppfattes i lys av denne vanen.
+
+## vg2/spansk-vg2/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: la inteligencia artificial (IA)
+- eksempel · begrep: el spanglish
+- eksempel · begrep: el voluntariado
+- eksempel · begrep: la carta de presentación
+- eksempel · begrep: el realismo mágico
+- eksempel · begrep: el Día de Muertos
+- eksempel · q06: Hva betyr «ni de aquí, ni de allá»?
+- eksempel · q09: Hva er magisk realisme?
+- eksempel · s05: Lag en kort presentasjon på spansk om at du ønsker å gjøre frivillig arbeid i Latin-Amerika og lærer spansk for å lære språket. Begynn med «Hoy voy a hablar de …».
+- eksempel · s06: Sammenlign på spansk energikilder og miljøutfordringer i Norge og Spania.
+- eksempel · s07: Sammenlign på spansk ordene for «mobil» i Spania og i store deler av Latin-Amerika. Ta også med hvilket pronomen som brukes blant venner i Latin-Amerika og Spania.
+- eksempel · s08: Presenter Julio Cortázar på spansk. Si at han er fra Argentina og kjent for korte fortellinger der virkelighet og fantasi glir over i hverandre. Begynn med «Hoy voy a hablar de …».
 
 ## vg2/teknologi-og-forskningslare-1/01-kravspesifikasjon-og-arbeidstegninger – Kravspesifikasjon, arbeidstegninger og produktutvikling
 
@@ -5030,6 +5613,14 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · q10: Hva er Miljøfyrtårn?
 - eksempel · s02: Sammenlign et klimaregnskap med en livsløpsanalyse (LCA). Hva undersøker hvert verktøy?
 
+## vg2/teknologi-og-forskningslare-1/10-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: loop()
+- eksempel · begrep: Basestasjon
+- eksempel · begrep: Digitalisering av stemmen
+- eksempel · q07: Hvorfor var overgangen fra analoge til digitale mobilnett viktig?
+- eksempel · m02: Hva gjør pinMode(13, OUTPUT)?
+
 ## vg2/tysk-vg2/01-miljo-og-barekraft – Klima, miljø og bærekraft
 
 - eksempel · begrep: das Tempolimit
@@ -5092,6 +5683,19 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · s03: Sammenlign en Verein og en festival som deler av fritidskulturen i Tyskland. Ta med én konkret opplysning om hver.
 - eksempel · s04: Forklar hvordan engelsk henger sammen med tysk ungdomsspråk, og ta med én opplysning om «Jugendwort des Jahres».
 - eksempel · s08: Beskriv hvordan fotball og tysk rap eller pop inngår i fritidskulturen i Tyskland. Ta med én konkret opplysning om hver.
+
+## vg2/tysk-vg2/07-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: der Gastarbeiter
+- over nivå · begrep: er sei
+- eksempel · begrep: Erasmus+
+- over nivå · begrep: der Verfremdungseffekt
+- eksempel · q05: Hva var gjestearbeidere (Gastarbeiter)?
+- over nivå · q06: Hva er konjunktiv I av «sein» i er-form?
+- over nivå · q10: Hva ville Brecht oppnå med fremmedgjøringseffekten?
+- over nivå · m03: Hva er konjunktiv I av «können» i er-form?
+- eksempel · s03: Skriv på tysk hva mannen gjør i novellen «Das Brot», og hva kona gjør for å skåne ham.
+- eksempel · s08: Skriv på tysk to setninger som sammenligner strømproduksjonen eller energibruken i Norge og Tyskland.
 
 ## vg3/biologi-2/01-biologisk-forskning-og-metode – Biologisk forskning og metode
 
@@ -5188,6 +5792,10 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · s04: Mais er genmodifisert slik at den produserer et stoff som dreper skadeinsekter. Beskriv den genetiske egenskapen maisen har fått, og hva den gjør.
 - eksempel · s06: Genene til to tvillingjenter ble redigert i 2018. EU vedtok nye regler i 2026. Regn ut hvor mange år det er mellom de to årstallene, og vis regnestykket.
 - eksempel · s07: I en sak ble genene til to tvillingjenter redigert. Regn ut hvor mange tvillingpar de to jentene utgjør, og vis regnestykket.
+
+## vg3/biologi-2/12-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: CRISPR-Cas9
 
 ## vg3/fysikk-2/01-forsok-usikkerhet-og-forskningssamarbeid – Forsøk, usikkerhet og internasjonalt forskningssamarbeid
 
@@ -5395,6 +6003,12 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · q05: Hvilken nettside publiserer NVEs skred- og flomvarsler?
 - eksempel · q07: Hva er et jøkulhlaup?
 
+## vg3/geofag-2/12-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Tidevannskraft
+- eksempel · begrep: CTD-sonde
+- eksempel · s01: Forklar hvordan smelting av havis kan forsterke oppvarmingen, og beskriv en annen positiv tilbakekobling knyttet til kryosfæren.
+
 ## vg3/historie-og-filosofi-2/01-argumentasjon-og-kildearbeid – Filosofisk samtale, argumentasjon og kildearbeid
 
 - eksempel · begrep: Sirkelargument
@@ -5551,6 +6165,18 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · s03: Et husholdningsapparat slutter å fungere, og eieren vurderer å kjøpe et nytt. Forklar hvordan sirkulær økonomi kan påvirke hva eieren gjør med apparatet.
 - eksempel · s05: Sammenlign hva utilitarister og kapabilitetstilnærmingen vil undersøke når de vurderer om et tiltak gjør samfunnet bedre.
 - eksempel · s08: Forklar forskjellen mellom grønn vekst og nedvekst som svar på spørsmålet om hvordan økonomien kan bli mer bærekraftig.
+
+## vg3/historie-og-filosofi-2/14-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Ondskapens banalitet
+- eksempel · begrep: John Maynard Keynes
+- eksempel · q04: Hva kritiserte Frankfurterskolen?
+- eksempel · q07: Hvilket etisk spørsmål reiste pandemien?
+- eksempel · q08: Hva mente Keynes staten skulle gjøre i krisetider?
+- eksempel · q11: Hva gir ILO-konvensjon nr. 169 urfolk rett til?
+- eksempel · s03: Hvordan kan hensynet til individets frihet komme i konflikt med hensynet til fellesskapet under en pandemi?
+- eksempel · s06: Hvordan skiller Rawls’ og Nozicks syn på rettferdig fordeling seg fra hverandre?
+- eksempel · s07: Hvordan viser Fosen-saken at grønn omstilling kan komme i konflikt med urfolksrettigheter?
 
 ## vg3/historie-vg3/01-historiebruk-og-fortolkning – Historiebruk og fortolkninger av fortiden
 
@@ -5760,6 +6386,12 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · m07: Hvilket perspektiv kan tradisjonell samisk kunnskap gi?
 - eksempel · s02: Sammenlign hvordan jegere og sankere og samisk reindrift forholdt seg til naturens ressurser.
 - eksempel · s04: Fiske har vært grunnlaget for bosetting langs kysten i tusen år. Bruk Lofotfisket som eksempel og forklar hvordan fiske kunne påvirke hvor mennesker bodde.
+
+## vg3/historie-vg3/15-repetisjon – Repetisjon av hele faget
+
+- eksempel · q06: Hva gjorde samlebåndet mulig?
+- eksempel · q14: Hva lærer vi av overbeskatningen av hval, sild og skog?
+- eksempel · s08: Den norske vårgytende silda nesten kollapset på grunn av overfiske, men bestanden kom tilbake etter strenge reguleringer. Forklar hva dette viser om bruk og forvaltning av naturressurser.
 
 ## vg3/kjemi-2/01-forsok-modeller-og-kunnskapsutvikling – Forsøk, modeller og kunnskapsutvikling i kjemi
 
@@ -5974,6 +6606,13 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · s05: Sammenlign hva Svanemerket og Fairtrade særlig forteller om et produkt.
 - over nivå · s06: En virksomhet vil sette en pris som dekker produktets reelle kostnader, også miljø- og samfunnskostnader. Forklar hvorfor dette kan gjøre prisen høyere, og hvordan det henger sammen med bærekraftige valg.
 
+## vg3/markedsforing-og-ledelse-2/14-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Omnikanal
+- eksempel · begrep: A/B-testing
+- eksempel · q06: Hva er omnikanal?
+- eksempel · q11: Hva er A/B-testing?
+
 ## vg3/matematikk-r2/01-rekker – Rekker – aritmetiske, geometriske og uendelige
 
 - over nivå · begrep: Harmonisk rekke
@@ -6064,6 +6703,11 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · s06: Bruk identiteten 1 + 3 + 5 + … + (2n − 1) = n² til å regne ut 1 + 3 + 5 + 7. Vis det viktigste regnestykket.
 - eksempel · s08: I motsigelsesbeviset for at √2 er irrasjonal antar man at √2 = p/q, der brøken er forkortet så langt som mulig. Forklar hvilken motsigelse beviset leder til.
 
+## vg3/matematikk-r2/16-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Simpsons metode
+- eksempel · q06: Hva krever Simpsons metode?
+
 ## vg3/matematikk-s2/03-det-bestemte-integralet – Det bestemte integralet
 
 - eksempel · begrep: Integral av grenseinntekt
@@ -6123,6 +6767,15 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 ## vg3/matematikk-s2/13-gjennomsnitt-og-konfidensintervall – Test av gjennomsnitt og konfidensintervall
 
 - eksempel · begrep: ttest_1samp
+
+## vg3/matematikk-s2/14-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Nåverdi
+- eksempel · begrep: Terminbeløp i annuitetslån
+- eksempel · begrep: Poissonfordeling
+- eksempel · q01: Hva er nåverdien av 10 000 kr om 2 år ved 5 % rente?
+- eksempel · m01: Hva er nåverdien av 1000 kr om 1 år ved 25 % rente?
+- eksempel · s08: En undersøkelse trekker et utvalg uten tilbakelegging fra en liten gruppe. Forklar hvilken av binomisk og hypergeometrisk fordeling som passer best, og hvorfor.
 
 ## vg3/norsk-vg3/01-realismen – Realismen og det moderne gjennombruddet
 
@@ -6232,6 +6885,16 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · s03: Hva er skarre-r, og i hvilken retning har denne uttalen spredd seg i Norge?
 - eksempel · s07: Hvilke fire språk regnes som nasjonale minoritetsspråk i Norge?
 
+## vg3/norsk-vg3/13-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Arbeiderlitteratur
+- eksempel · begrep: Metafiksjon
+- eksempel · begrep: Autofiksjon
+- eksempel · begrep: Forsterkende samspill
+- eksempel · q05: Hva er autofiksjon?
+- eksempel · m03: Janteloven beskriver hvordan et lite samfunn kan knuse den som skiller seg ut.
+- eksempel · s02: Sammenlign hvordan Nora i Et dukkehjem og Alberte i Alberte-trilogien kjemper for frihet.
+
 ## vg3/psykologi-2/01-kilder-og-informasjon – Å finne og vurdere psykologisk kunnskap
 
 - over nivå · begrep: Publiseringsskjevhet
@@ -6331,6 +6994,21 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · m05: Hvilken terapiform involverer hele familien?
 - over nivå · s05: En person har en psykoselidelse, og en annen har bipolar lidelse. Hvilke medikamentgrupper brukes ved de to lidelsene?
 - eksempel · s08: En person er i akutt fare for liv og helse. Hvilket nummer skal personen eller noen rundt ringe, og hva slags situasjon er nummeret beregnet for?
+
+## vg3/psykologi-2/13-repetisjon – Repetisjon av hele faget
+
+- over nivå · begrep: Metaanalyse
+- eksempel · begrep: Avinstitusjonalisering
+- eksempel · begrep: To-kontinua-modellen
+- eksempel · q06: Hvilken foreldrestil henger ofte sammen med god sosial kompetanse?
+- eksempel · q09: Hva er avinstitusjonalisering?
+- eksempel · q10: Hva sier to-kontinua-modellen?
+- eksempel · q11: Hva betyr modellen for behandling?
+- over nivå · m01: Statistisk signifikans betyr alltid at effekten er stor og viktig.
+- eksempel · m03: Milgram-studien er kritisert for å ha påført deltakerne stress.
+- eksempel · m04: Jo høyere opp i konflikttrappa, desto større behov for hjelp utenfra.
+- eksempel · m06: Kombinasjonen av medisiner og terapi gir ofte best effekt ved alvorlige lidelser.
+- eksempel · s06: En person sørger etter et dødsfall og spør om reaksjonen betyr at hen har en psykisk lidelse. Forklar hvorfor sorg ikke automatisk betyr en diagnose, og hvordan to-kontinua-modellen beskriver psykisk helse og lidelse.
 
 ## vg3/religion-og-etikk/02-kristendommen – Kristendommen
 
@@ -6508,6 +7186,10 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · m05: Hvem gir veiledning om diskriminering i Norge?
 - eksempel · s07: En elev utsettes for hatefulle ytringer på grunn av religion. Hvilken rolle har Straffeloven i en slik situasjon, og hva kan Likestillings- og diskrimineringsombudet bidra med?
 
+## vg3/religion-og-etikk/17-repetisjon – Repetisjon av hele faget
+
+- eksempel · q10: Hva mente Sartre med at eksistensen går forut for essensen?
+
 ## vg3/rettslare-2/01-rett-og-rettferd – Rett og rettferd i en rettsstat
 
 - eksempel · begrep: Nürnbergprosessen
@@ -6638,6 +7320,12 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - over nivå · s04: Sammenlign Høyesteretts avgjørelse i klimasøksmålet i 2020 med uttalelsene fra EFTA-domstolen og EMD i 2025 om nye oljefelt.
 - eksempel · s06: Hva er forskjellen på rettighetene Aarhus-konvensjonen handler om, og rettighetene miljøinformasjonsloven gir?
 - eksempel · s08: En virksomhet handler ulovlig med truede arter. Forklar hvorfor dette regnes som miljøkriminalitet, og hva som kan bli den rettslige følgen.
+
+## vg3/rettslare-2/13-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Fosen-dommen
+- eksempel · q05: Hva kom Høyesterett fram til i Fosen-saken?
+- eksempel · s08: Før en myndighet godkjenner et stort tiltak som kan skade naturen, må den vurdere både miljøvirkninger og andre samfunnshensyn. Forklar hvilken rolle konsekvensutredning, føre-var-prinsippet og samlet belastning kan ha.
 
 ## vg3/sosialkunnskap/01-kilder-og-informasjon – Kilder og informasjon i sosialkunnskap
 
@@ -6795,3 +7483,10 @@ En SQL-spørring er `SELECT poeng FROM elever WHERE klasse = '2STB'`. Hvilken ve
 - eksempel · q09: Hvilken hendelse rammet regjeringskvartalet og Utøya?
 - eksempel · m05: Hvilken hendelse i 2022 ga flyktningstrøm og høyere energipriser?
 - eksempel · s02: Sammenlign en krise som rammer én person med en krise som rammer hele samfunnet. Bruk ett eksempel på hver type.
+
+## vg3/sosialkunnskap/14-repetisjon – Repetisjon av hele faget
+
+- eksempel · begrep: Selvbestemmelsesteorien
+- over nivå · q10: Hvorfor er velferdspolitikk fortsatt politikk selv med menneskerettigheter?
+- eksempel · q11: Hva er de tre behovene i selvbestemmelsesteorien?
+- eksempel · s08: Et folkehelsetiltak skal bedre helse både i områder med store levekårsutfordringer og ellers i befolkningen. Forklar hvordan proporsjonal universalisme kan brukes, og hvorfor tiltaket bør evalueres.

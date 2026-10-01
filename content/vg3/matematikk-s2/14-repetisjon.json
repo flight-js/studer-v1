@@ -1,0 +1,629 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-s2",
+  "trinnId": "vg3",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "sammendrag": "Matematikk S2 handler om å beskrive mønstre og utvikling, bruke derivasjon og integrasjon til å analysere funksjoner og beregne samlede mengder, og modellere usikkerhet med sannsynlighet og statistikk. Gjennom faget er det viktig å velge en passende metode, tolke resultatet i situasjonen og vurdere om modellens forutsetninger holder.\n\n## Rekker og økonomiske anvendelser\nEn **følge** er en liste med tall, mens en **rekke** er summen av leddene. I en aritmetisk rekke er differansen fast; i en geometrisk rekke er kvotienten fast. For en uendelig geometrisk rekke med −1 < k < 1 er summen a₁/(1 − k). Dette ligger bak modeller for prosentvis endring, sparing og multiplikatoreffekt. **Nåverdi** K/(1 + r)ⁿ gjør et framtidig beløp om til verdi i dag. I et **annuitetslån** er terminbeløpene like, og lånet er summen av nåverdiene av betalingene. Tegn gjerne en tidslinje og regn beløp om til samme tidspunkt før du summerer.\n\n## Rekursive sammenhenger og programmering\nEn **rekursiv formel** beregner neste ledd fra det forrige og må ha en startverdi; en eksplisitt formel gir leddet direkte ut fra n. Rekursive modeller beskriver blant annet sparing, lån og bestander. En **likevektsverdi** endres ikke fra steg til steg, og likevekten kan være stabil eller ustabil. Python-løkker og regneark kan regne mange steg, lagre verdier og vise dem i tabell eller graf. Forklar variablene og startverdien, vis formel og framgangsmåte, og vurder forutsetningene.\n\n## Det bestemte integralet\nDet bestemte integralet er grenseverdien av summene av rektangler når bredden Δx blir stadig mindre. Venstre- og høyresummer gir tilnærminger. Integralet er et **areal med fortegn**: bidrag under x-aksen er negative. For samlet areal deler vi ved nullpunktene og summerer tallverdiene. Integralet av en rate gir en samlet mengde, for eksempel strekning fra fart; enheten blir y-enhet ganger x-enhet.\n\n## Analysens fundamentalteorem og integrasjonsregler\nEn **antiderivert** F til f oppfyller F′(x) = f(x). Ubestemte integraler har med en konstant C, fordi den deriverte av en konstant er null. Bruk reglene for potenser, 1/x og eksponentialfunksjoner, og kontroller svaret ved å derivere. Fundamentalteoremet gir ∫ₐᵇ f(x) dx = F(b) − F(a). Dermed kan integraler regnes eksakt, og integralet av en vekstfart gir total endring.\n\n## Funksjonsanalyse med derivasjon og integrasjon\nFortegnet til f′ viser om funksjonen vokser eller avtar. Når f′ = 0, kan det være toppunkt, bunnpunkt eller terrassepunkt; undersøk fortegnet på begge sider. f″ beskriver krumning, og et vendepunkt er der f″ skifter fortegn. Arealet mellom grafer finnes ved å integrere øverste funksjon minus nederste mellom grensene, ofte skjæringspunktene. Gjennomsnittsverdien er integralet delt på intervallbredden. På et lukket intervall må endepunktene også undersøkes når største eller minste verdi skal finnes.\n\n## Eksponentiell og logistisk vekst\nEksponentiell vekst har fast prosentvis endring og kan skrives f(t) = a·bᵗ eller a·e^(kt), der k = ln b. Vekstfarten er proporsjonal med størrelsen, og for k > 0 er doblingstiden ln 2/k. Eksponentiell vekst passer ikke ubegrenset på lang sikt. En **logistisk modell** har bæreevne K som størrelsen nærmer seg; veksten bremses etter hvert og er raskest ved N = K/2. Ved regresjon må vi vurdere både tilpasning til dataene, rimeligheten av parameterne og hvor langt det er forsvarlig å ekstrapolere.\n\n## Grensekostnad og grenseinntekt\nKostnaden K(x), inntekten I(x) og overskuddet O(x) = I(x) − K(x) beskriver en bedrifts økonomi. K′(x) er omtrent kostnaden for én enhet til, og I′(x) er omtrent inntekten fra én enhet til. Størst overskudd finnes når I′(x) = K′(x); dersom I′ > K′, lønner det seg å øke produksjonen. Enhetskostnaden er A(x) = K(x)/x og er lavest når A(x) = K′(x). Integral av grensekostnaden gir kostnadsøkningen mellom to produksjonsnivåer.\n\n## Forventningsverdi, varians og standardavvik\nEn **stokastisk variabel** får verdier ut fra et tilfeldig forsøk; sannsynlighetene i fordelingen summerer til 1. Forventningsverdien E(X) er det langsiktige gjennomsnittet. Variansen måler spredning rundt forventningen, og standardavviket er kvadratroten av variansen, med samme enhet som X. Stort standardavvik betyr større usikkerhet. For uavhengige variabler summeres forventningene og variansene. Gjennomsnittet av n uavhengige målinger har standardavvik σ/√n.\n\n## Diskrete fordelinger og simulering\nVelg fordeling ut fra situasjonen: uniform når utfall er like sannsynlige, binomisk for n uavhengige forsøk med samme sannsynlighet p, hypergeometrisk ved trekk uten tilbakelegging fra en liten populasjon, og Poisson for tilfeldige hendelser med fast gjennomsnittlig rate. For binomisk fordeling er E(X) = np og Var(X) = np(1 − p); for Poisson er begge lik λ. Simulering gjentar et forsøk mange ganger; store talls lov sier at relativ frekvens nærmer seg sannsynligheten. Kontroller at forutsetningene for modellen passer.\n\n## Normalfordelingen\nEn normalfordeling er symmetrisk og bestemmes av forventningen μ og standardavviket σ. Sannsynlighet i en kontinuerlig fordeling er areal under tetthetskurven, og sannsynligheten for én bestemt verdi er null. Standardiser med Z = (X − μ)/σ for å bruke standardnormalfordelingen. Omtrent 68 %, 95 % og 99,7 % ligger innenfor henholdsvis én, to og tre standardavvik fra μ. Bruk tabell eller verktøy for sannsynligheter, og vurder om dataene faktisk kan modelleres normalfordelt.\n\n## Sentralgrensesetningen\nFor mange uavhengige variabler med samme fordeling blir sum og gjennomsnitt tilnærmet normalfordelt når n er stor. Summen har forventning nμ og standardavvik σ√n; gjennomsnittet har forventning μ og standardavvik σ/√n. En binomisk fordeling kan ofte tilnærmes med en normalfordeling når både np og n(1 − p) er minst 5. Heltallskorreksjon kan forbedre tilnærmingen. Uavhengighet er viktig, og tilnærmingen kan være dårlig ved små utvalg og svært skjeve fordelinger.\n\n## Hypotesetesting\nEn hypotesetest sammenligner data med en nullhypotese H₀, som antas sann i utgangspunktet, mot en alternativ hypotese H₁. Velg signifikansnivå α før dataene vurderes. **p-verdien** er sannsynligheten for et minst like ekstremt resultat dersom H₀ er sann; forkast H₀ når p-verdien ≤ α. En tosidig test undersøker avvik i begge retninger. Å beholde H₀ beviser ikke at den er sann, og å forkaste den beviser ikke H₁. Vurder også type I- og type II-feil og om utvalget er representativt.\n\n## Test av gjennomsnitt og konfidensintervall\nFor et utvalg er standardfeilen til gjennomsnittet σ/√n. Når σ er kjent, kan vi teste et gjennomsnitt med Z = (x̄ − μ₀)/(σ/√n); når σ er ukjent, brukes utvalgets standardavvik og ofte t-fordelingen. Et 95 % konfidensintervall for μ er x̄ ± 1,96·σ/√n, og for en andel brukes p̂ ± 1,96·√(p̂(1 − p̂)/n). Større utvalg gir smalere intervall, mens høyere konfidensnivå gir bredere. En tosidig test på 5 % forkaster når μ₀ ligger utenfor 95 %‑intervallet. Gyldige konklusjoner krever et representativt utvalg.\n\n## Sammenhenger i faget\nRekker gir formler for summer og økonomiske betalingsstrømmer, mens rekursive modeller beskriver utvikling trinn for trinn. Derivasjon beskriver endringsfart; integrasjon summerer små bidrag og gir total endring. Dette knytter funksjonsanalyse til blant annet kostnader, inntekter og vekst. Sannsynlighetsfordelinger beskriver tilfeldig variasjon, og sentralgrensesetningen forklarer hvorfor normalfordelingen kan brukes på summer og gjennomsnitt. Hypotesetester og konfidensintervaller bruker disse ideene til å trekke konklusjoner fra utvalg.\n\n## Huskeliste før prøven\n- Definer variablene og vis hvilken modell du bruker.\n- Kontroller forutsetningene og at sannsynlighetene summerer til 1.\n- I finansoppgaver: tegn tidslinje og regn om til samme tidspunkt.\n- Sjekk fortegn og hvilken funksjon som ligger øverst i arealoppgaver.\n- Kontroller integraler ved å derivere antideriverten.\n- Oppgi enheter og vurder om svaret er rimelig.\n- Skill mellom å forkaste og å beholde nullhypotesen.\n- Tolk intervaller og p-verdier i situasjonen.",
+  "flashcards": [
+    {
+      "term": "Nåverdi",
+      "def": "K/(1 + r)ⁿ – hva et framtidig beløp er verdt i dag.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Terminbeløp i annuitetslån",
+      "def": "b = L · r/(1 − (1 + r)⁻ⁿ)",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Rekursiv formel",
+      "def": "Gir neste ledd ut fra forrige ledd."
+    },
+    {
+      "term": "Likevektsverdi",
+      "def": "Verdi som ikke endrer seg fra steg til steg."
+    },
+    {
+      "term": "Bestemt integral",
+      "def": "Grenseverdien av summene når n → ∞."
+    },
+    {
+      "term": "Areal med fortegn",
+      "def": "Areal under x-aksen teller negativt."
+    },
+    {
+      "term": "Antiderivert",
+      "def": "F med F′(x) = f(x)."
+    },
+    {
+      "term": "Fundamentalteoremet",
+      "def": "∫ₐᵇ f(x) dx = F(b) − F(a)"
+    },
+    {
+      "term": "Vendepunkt",
+      "def": "Der f″ skifter fortegn – størst eller minst stigning."
+    },
+    {
+      "term": "Areal mellom grafer",
+      "def": "∫ₐᵇ (f(x) − g(x)) dx når f ≥ g."
+    },
+    {
+      "term": "Eksponentiell vekst",
+      "def": "Økning med fast prosent per tidsenhet."
+    },
+    {
+      "term": "Bæreevne K",
+      "def": "Øvre grense som N nærmer seg."
+    },
+    {
+      "term": "Størst overskudd",
+      "def": "Når I′(x) = K′(x)."
+    },
+    {
+      "term": "Lavest enhetskostnad",
+      "def": "Når A(x) = K′(x)."
+    },
+    {
+      "term": "Forventningsverdi",
+      "def": "E(X) = Σ x · P(X = x) – gjennomsnittet i det lange løp."
+    },
+    {
+      "term": "Standardavvik",
+      "def": "σ = √Var(X) – samme enhet som X."
+    },
+    {
+      "term": "Binomisk fordeling",
+      "def": "n uavhengige forsøk med fast sannsynlighet p."
+    },
+    {
+      "term": "Poissonfordeling",
+      "def": "Antall tilfeldige hendelser per tid eller område.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Normalfordeling",
+      "def": "Symmetrisk klokkeform bestemt av μ og σ."
+    },
+    {
+      "term": "Standardisering",
+      "def": "Z = (X − μ)/σ"
+    },
+    {
+      "term": "Sentralgrensesetningen",
+      "def": "Summer og gjennomsnitt av mange uavhengige variabler er tilnærmet normalfordelte."
+    },
+    {
+      "term": "Gjennomsnitt av n variabler",
+      "def": "Forventning μ, standardavvik σ/√n."
+    },
+    {
+      "term": "p-verdi",
+      "def": "Sannsynligheten for et minst like ekstremt resultat dersom H₀ er sann."
+    },
+    {
+      "term": "Forkaste H₀",
+      "def": "Når p-verdien ≤ α."
+    },
+    {
+      "term": "95 % konfidensintervall for μ",
+      "def": "x̄ ± 1,96 · σ/√n"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er nåverdien av 10 000 kr om 2 år ved 5 % rente?",
+      "options": [
+        "9500 kr",
+        "11 025 kr",
+        "10 000 kr",
+        "Omtrent 9070 kr"
+      ],
+      "correct": 3,
+      "explain": "10 000/1,05².",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q02",
+      "text": "Hva er likevektsverdien for Pₙ = 1,1 · Pₙ₋₁ − 500?",
+      "options": [
+        "5000",
+        "500",
+        "550",
+        "6000"
+      ],
+      "correct": 0,
+      "explain": "P = 1,1P − 500 gir 0,1P = 500."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan defineres det bestemte integralet?",
+      "options": [
+        "Som den deriverte",
+        "Som venstresummen med n = 4",
+        "Som f(b) − f(a)",
+        "Som grenseverdien av summene når n → ∞"
+      ],
+      "correct": 3,
+      "explain": "Rektanglene blir uendelig smale."
+    },
+    {
+      "id": "q04",
+      "text": "Hva gir ∫ₐᵇ f′(x) dx?",
+      "options": [
+        "f′(b) − f′(a)",
+        "Gjennomsnittet av f",
+        "f(b) − f(a)",
+        "0"
+      ],
+      "correct": 2,
+      "explain": "Total endring."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er arealet mellom y = 2x og y = x² fra 0 til 2?",
+      "options": [
+        "4",
+        "8/3",
+        "2",
+        "4/3"
+      ],
+      "correct": 3,
+      "explain": "4 − 8/3."
+    },
+    {
+      "id": "q06",
+      "text": "Når vokser en logistisk modell raskest?",
+      "options": [
+        "Ved start",
+        "Når N = K/2",
+        "Når N = K",
+        "Aldri"
+      ],
+      "correct": 1,
+      "explain": "I vendepunktet."
+    },
+    {
+      "id": "q07",
+      "text": "Når er overskuddet størst?",
+      "options": [
+        "Når I′(x) = K′(x)",
+        "Når K(x) = 0",
+        "Når I(x) = 0",
+        "Når x er størst mulig"
+      ],
+      "correct": 0,
+      "explain": "O′(x) = 0."
+    },
+    {
+      "id": "q08",
+      "text": "Hva måler standardavviket?",
+      "options": [
+        "Gjennomsnittet",
+        "Den største verdien",
+        "Spredningen rundt forventningsverdien",
+        "Sannsynligheten for 0"
+      ],
+      "correct": 2,
+      "explain": "Kvadratroten av variansen."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken forutsetning gjelder for binomisk fordeling?",
+      "options": [
+        "Trekk uten tilbakelegging",
+        "p endres for hvert forsøk",
+        "Uendelig mange utfall",
+        "Uavhengige forsøk med samme p"
+      ],
+      "correct": 3,
+      "explain": "Og to utfall per forsøk."
+    },
+    {
+      "id": "q10",
+      "text": "Hva er Z når X = 730, μ = 750 og σ = 10?",
+      "options": [
+        "−2",
+        "2",
+        "−20",
+        "0,2"
+      ],
+      "correct": 0,
+      "explain": "(730 − 750)/10."
+    },
+    {
+      "id": "q11",
+      "text": "Hvilken forutsetning er nødvendig for sentralgrensesetningen?",
+      "options": [
+        "At variablene er normalfordelte",
+        "At variablene er uavhengige",
+        "At n = 2",
+        "At σ = 1"
+      ],
+      "correct": 1,
+      "explain": "Avhengighet kan gi en annen fordeling."
+    },
+    {
+      "id": "q12",
+      "text": "Når forkaster vi H₀?",
+      "options": [
+        "Når p-verdien ≤ α",
+        "Når p-verdien > α",
+        "Alltid",
+        "Når n er stor"
+      ],
+      "correct": 0,
+      "explain": "Resultatet er for usannsynlig under H₀."
+    },
+    {
+      "id": "q13",
+      "text": "Når forkaster en tosidig test på 5 % nivå H₀: μ = μ₀?",
+      "options": [
+        "Når μ₀ ligger midt i intervallet",
+        "Når intervallet er bredt",
+        "Når x̄ = μ₀",
+        "Når μ₀ ligger utenfor 95 % konfidensintervallet"
+      ],
+      "correct": 3,
+      "explain": "Test og intervall henger sammen."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk S2",
+    "children": [
+      {
+        "label": "Rekker og økonomiske anvendelser",
+        "children": [
+          {
+            "label": "Nåverdi",
+            "note": "K/(1 + r)ⁿ – hva et framtidig beløp er verdt i dag."
+          },
+          {
+            "label": "Terminbeløp i annuitetslån",
+            "note": "b = L · r/(1 − (1 + r)⁻ⁿ)"
+          }
+        ]
+      },
+      {
+        "label": "Rekursive sammenhenger og programmering",
+        "children": [
+          {
+            "label": "Rekursiv formel",
+            "note": "Gir neste ledd ut fra forrige ledd."
+          },
+          {
+            "label": "Likevektsverdi",
+            "note": "Verdi som ikke endrer seg fra steg til steg."
+          }
+        ]
+      },
+      {
+        "label": "Det bestemte integralet",
+        "children": [
+          {
+            "label": "Bestemt integral",
+            "note": "Grenseverdien av summene når n → ∞."
+          },
+          {
+            "label": "Areal med fortegn",
+            "note": "Areal under x-aksen teller negativt."
+          }
+        ]
+      },
+      {
+        "label": "Analysens fundamentalteorem og integrasjonsregler",
+        "children": [
+          {
+            "label": "Antiderivert",
+            "note": "F med F′(x) = f(x)."
+          },
+          {
+            "label": "Fundamentalteoremet",
+            "note": "∫ₐᵇ f(x) dx = F(b) − F(a)"
+          }
+        ]
+      },
+      {
+        "label": "Funksjonsanalyse med derivasjon og integrasjon",
+        "children": [
+          {
+            "label": "Vendepunkt",
+            "note": "Der f″ skifter fortegn – størst eller minst stigning."
+          },
+          {
+            "label": "Areal mellom grafer",
+            "note": "∫ₐᵇ (f(x) − g(x)) dx når f ≥ g."
+          }
+        ]
+      },
+      {
+        "label": "Eksponentiell og logistisk vekst",
+        "children": [
+          {
+            "label": "Eksponentiell vekst",
+            "note": "Økning med fast prosent per tidsenhet."
+          },
+          {
+            "label": "Bæreevne K",
+            "note": "Øvre grense som N nærmer seg."
+          }
+        ]
+      },
+      {
+        "label": "Grensekostnad og grenseinntekt",
+        "children": [
+          {
+            "label": "Størst overskudd",
+            "note": "Når I′(x) = K′(x)."
+          },
+          {
+            "label": "Lavest enhetskostnad",
+            "note": "Når A(x) = K′(x)."
+          }
+        ]
+      },
+      {
+        "label": "Forventningsverdi, varians og standardavvik",
+        "children": [
+          {
+            "label": "Forventningsverdi",
+            "note": "E(X) = Σ x · P(X = x) – gjennomsnittet i det lange løp."
+          },
+          {
+            "label": "Standardavvik",
+            "note": "σ = √Var(X) – samme enhet som X."
+          }
+        ]
+      },
+      {
+        "label": "Diskrete fordelinger og simulering",
+        "children": [
+          {
+            "label": "Binomisk fordeling",
+            "note": "n uavhengige forsøk med fast sannsynlighet p."
+          },
+          {
+            "label": "Poissonfordeling",
+            "note": "Antall tilfeldige hendelser per tid eller område."
+          }
+        ]
+      },
+      {
+        "label": "Normalfordelingen",
+        "children": [
+          {
+            "label": "Normalfordeling",
+            "note": "Symmetrisk klokkeform bestemt av μ og σ."
+          },
+          {
+            "label": "Standardisering",
+            "note": "Z = (X − μ)/σ"
+          }
+        ]
+      },
+      {
+        "label": "Sentralgrensesetningen",
+        "children": [
+          {
+            "label": "Sentralgrensesetningen",
+            "note": "Summer og gjennomsnitt av mange uavhengige variabler er tilnærmet normalfordelte."
+          },
+          {
+            "label": "Gjennomsnitt av n variabler",
+            "note": "Forventning μ, standardavvik σ/√n."
+          }
+        ]
+      },
+      {
+        "label": "Hypotesetesting",
+        "children": [
+          {
+            "label": "p-verdi",
+            "note": "Sannsynligheten for et minst like ekstremt resultat dersom H₀ er sann."
+          },
+          {
+            "label": "Forkaste H₀",
+            "note": "Når p-verdien ≤ α."
+          }
+        ]
+      },
+      {
+        "label": "Test av gjennomsnitt og konfidensintervall",
+        "children": [
+          {
+            "label": "95 % konfidensintervall for μ",
+            "note": "x̄ ± 1,96 · σ/√n"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Hva er nåverdien av 1000 kr om 1 år ved 25 % rente?",
+        "options": [
+          "750 kr",
+          "800 kr",
+          "1250 kr",
+          "975 kr"
+        ],
+        "correct": 1,
+        "explain": "1000/1,25.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Et bestemt integral kan aldri være negativt.",
+        "correct": false,
+        "explain": "Areal under x-aksen teller negativt."
+      },
+      {
+        "id": "m03",
+        "type": "flervalg",
+        "text": "Hvor skjærer y = 2x og y = x² hverandre?",
+        "options": [
+          "x = 1 og x = 2",
+          "x = 0 og x = 2",
+          "x = 0 og x = 1",
+          "x = −2 og x = 2"
+        ],
+        "correct": 1,
+        "explain": "x² = 2x."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "X er 0 med sannsynlighet 0,5 og 2 med sannsynlighet 0,5. Hva er Var(X)?",
+        "options": [
+          "2",
+          "1",
+          "0,5",
+          "4"
+        ],
+        "correct": 1,
+        "explain": "(0 − 1)² · 0,5 + (2 − 1)² · 0,5."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Z forteller hvor mange standardavvik en verdi ligger fra forventningen.",
+        "correct": true,
+        "explain": "Z = (X − μ)/σ."
+      },
+      {
+        "id": "m06",
+        "type": "sant-usant",
+        "text": "Å forkaste H₀ beviser at H₁ er sann.",
+        "correct": false,
+        "explain": "Det gir et statistisk grunnlag, ikke et bevis."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er 95 % konfidensintervallet for pakkene med x̄ = 497,5 og standardfeil 1?",
+        "options": [
+          "[496,5, 498,5]",
+          "Omtrent [495,5, 499,5]",
+          "[490, 505]",
+          "[497,5, 500]"
+        ],
+        "correct": 1,
+        "explain": "497,5 ± 1,96."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Du setter inn samme beløp ved slutten av hvert år, og innskuddene får rente fram til et bestemt sluttidspunkt. Forklar hvorfor sluttverdien kan regnes som en geometrisk rekke, og hva en tidslinje hjelper deg med.",
+        "fasit": "Hvert innskudd forrentes ulikt lenge, slik at beløpene ved sluttidspunktet danner en geometrisk rekke med rentevekst som kvotient. En tidslinje viser når betalingene skjer, slik at alle beløp kan regnes om til samme tidspunkt før de summeres.",
+        "kriterier": [
+          "Knytter forrentede innskudd til en geometrisk rekke.",
+          "Forklarer at tidslinjen viser betalingstidspunkt og støtter omregning til samme tidspunkt."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Finn verdien av det bestemte integralet ∫₀² 2x dx ved å bruke en antiderivert.",
+        "fasit": "En antiderivert til 2x er x². Dermed er integralet [x²]₀² = 4.",
+        "kriterier": [
+          "Oppgir en antiderivert, x².",
+          "Regner ut F(2) − F(0) = 4."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En stokastisk variabel X er 0 med sannsynlighet 0,5 og 2 med sannsynlighet 0,5. Finn forventningsverdien og variansen.",
+        "fasit": "E(X) = 0·0,5 + 2·0,5 = 1. Variansen er (0 − 1)²·0,5 + (2 − 1)²·0,5 = 1.",
+        "kriterier": [
+          "Finner forventningsverdien 1.",
+          "Finner variansen 1 ved å bruke avvikene fra forventningsverdien."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan derivasjon og integrasjon henger sammen, og bruk grensekostnad som eksempel på hva et integral kan fortelle.",
+        "fasit": "Derivasjon beskriver endringsfart, mens integrasjon summerer endringen over et intervall. Siden grensekostnaden er K′(x), gir integralet av K′ fra a til b kostnadsøkningen K(b) − K(a).",
+        "kriterier": [
+          "Forklarer at derivasjon og integrasjon er motsatte operasjoner.",
+          "Knytter integralet av grensekostnaden til samlet kostnadsøkning."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hvorfor gjennomsnittet av mange uavhengige målinger blir mer presist, og hvordan dette henger sammen med sentralgrensesetningen og normalfordelingen.",
+        "fasit": "Standardavviket til gjennomsnittet av n uavhengige målinger er σ/√n, så spredningen blir mindre når n øker. Sentralgrensesetningen sier at gjennomsnittet blir tilnærmet normalfordelt når n er stort, selv om de enkelte målingene ikke er normalfordelte.",
+        "kriterier": [
+          "Nevner at standardavviket til gjennomsnittet er σ/√n og blir mindre når n øker.",
+          "Knytter sentralgrensesetningen til tilnærmet normalfordeling."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En undersøkelse gir et 95 % konfidensintervall for et gjennomsnitt som ikke inneholder verdien μ₀. Hva blir konklusjonen i en tilsvarende tosidig test på 5 % nivå, og hva betyr den?",
+        "fasit": "Testen forkaster nullhypotesen om at gjennomsnittet er μ₀, fordi μ₀ ligger utenfor 95 %‑intervallet. Dette gir statistisk grunnlag for at gjennomsnittet er forskjellig fra μ₀, men er ikke et bevis.",
+        "kriterier": [
+          "Konkluderer med at nullhypotesen forkastes.",
+          "Tolker konklusjonen som statistisk grunnlag, ikke bevis."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En bedrift har kostnadsfunksjonen K(x) og inntektsfunksjonen I(x). Forklar hvordan grensekostnad og grenseinntekt brukes til å finne produksjonsnivået som gir størst overskudd.",
+        "fasit": "Overskuddet er O(x) = I(x) − K(x), så O′(x) = I′(x) − K′(x). Et mulig produksjonsnivå med størst overskudd finnes når I′(x) = K′(x); dersom grenseinntekten er større enn grensekostnaden, lønner det seg å øke produksjonen.",
+        "kriterier": [
+          "Knytter endringen i overskudd til I′(x) − K′(x).",
+          "Oppgir likhet mellom grenseinntekt og grensekostnad som betingelse for størst overskudd."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En undersøkelse trekker et utvalg uten tilbakelegging fra en liten gruppe. Forklar hvilken av binomisk og hypergeometrisk fordeling som passer best, og hvorfor.",
+        "fasit": "Hypergeometrisk fordeling passer best fordi utvalget trekkes uten tilbakelegging fra en liten populasjon. Da endres sannsynligheten fra trekk til trekk, i motsetning til forutsetningen om fast sannsynlighet i en binomisk modell.",
+        "kriterier": [
+          "Velger hypergeometrisk fordeling.",
+          "Begrunner valget med trekk uten tilbakelegging og endret sannsynlighet."
+        ],
+        "niva": "eksempel"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}

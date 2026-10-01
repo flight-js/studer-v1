@@ -15,6 +15,7 @@ const filter = process.argv[2] ?? "";
 
 const LIMITS = {
   sammendragOrd: [300, 600],
+  sammendragOrdRepetisjon: [450, 1600], // repetisjonstemaet samler hele faget (npm run content:repetisjon)
   flashcards: [8, 25],
   kjernebegreper: 8, // advarsel under dette (se nivåsjekken)
   quiz: [10, 15],
@@ -101,7 +102,8 @@ function checkTema(file, tema, fag) {
   else for (const nr of tema.kompetansemaal) if (!kmNr.has(nr)) err(where, `ukjent kompetansemål ${nr}`);
 
   const ord = words(tema.sammendrag ?? "");
-  if (!inRange(ord, LIMITS.sammendragOrd)) err(where, `sammendraget har ${ord} ord (krav ${LIMITS.sammendragOrd.join("–")})`);
+  const ordKrav = tema.id === "repetisjon" ? LIMITS.sammendragOrdRepetisjon : LIMITS.sammendragOrd;
+  if (!inRange(ord, ordKrav)) err(where, `sammendraget har ${ord} ord (krav ${ordKrav.join("–")})`);
 
   const cards = tema.flashcards ?? [];
   if (!inRange(cards.length, LIMITS.flashcards)) err(where, `${cards.length} flashcards (krav ${LIMITS.flashcards.join("–")})`);

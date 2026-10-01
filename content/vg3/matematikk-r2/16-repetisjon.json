@@ -1,0 +1,559 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-r2",
+  "trinnId": "vg3",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "sammendrag": "Matematikk R2 handler om å beskrive mønstre og endring med matematiske modeller, funksjoner, rekker, integraler og vektorer. Faget kombinerer algebraiske metoder, analyse, geometri, programmering og logisk argumentasjon.\n\n## Rekker – aritmetiske, geometriske og uendelige\nEn **følge** er en ordnet liste, mens en **rekke** er summen av leddene. I en aritmetisk rekke er differansen d konstant: aₙ = a₁ + (n − 1)d, og Sₙ = n(a₁ + aₙ)/2. I en geometrisk rekke er kvotienten k konstant: aₙ = a₁kⁿ⁻¹ og Sₙ = a₁(kⁿ − 1)/(k − 1), når k ≠ 1. En uendelig geometrisk rekke konvergerer når |k| < 1, og da er summen a₁/(1 − k). At leddene går mot null, er ikke alene nok til å sikre konvergens. Rekker modellerer blant annet sparing, lån og gjentatte doser.\n\n## Rekursive sammenhenger og programmering\nEn **rekursiv formel** finner et ledd fra tidligere ledd og trenger en startverdi; en eksplisitt formel regner leddet direkte fra n. Fibonacci-følgen bruker Fₙ = Fₙ₋₁ + Fₙ₋₂. Rekursive modeller kan beskrive restgjeld og logistisk vekst, der veksten bremses mot bæreevnen K. Bruk **for-løkke** når antall steg er kjent og **while-løkke** når gjentakelsen varer til et vilkår er oppfylt. Rekursive funksjoner må ha et grunntilfelle. Presenter modeller med variabler, startverdi, formel, kode, resultater og tolkning.\n\n## Integral som grenseverdi av summer\nDel intervallet [a,b] i n deler med Δx = (b − a)/n. En **Riemann-sum** legger sammen rektangelarealene f(xᵢ)Δx. Når breddene går mot null og undersummer og oversummer nærmer seg samme verdi, får vi det bestemte integralet ∫ₐᵇ f(x) dx. For en voksende funksjon er venstresummen en undersum og høyresummen en oversum. Integralet er et **areal med fortegn**: bidrag under x-aksen er negative. Enheten blir y-enhet ganger x-enhet; for eksempel gir integralet av fart over tid forflytning.\n\n## Analysens fundamentalteorem\nEn **antiderivert** F av f oppfyller F′ = f, og ∫f(x)dx = F(x) + C. Den bestemte integrasjonen regnes med ∫ₐᵇ f(x)dx = F(b) − F(a). Dermed er derivasjon og integrasjon motsatte operasjoner, og integralet av en endringsrate gir total endring. Kontroller et integral ved å derivere svaret. Arealet mellom grafer når f ≥ g, er ∫ₐᵇ(f − g)dx.\n\n## Integrasjonsmetoder\nVelg metode etter integrandens form. **Substitusjon** er kjerneregelen baklengs og passer når en kjerne og den deriverte av kjernen inngår. I bestemte integraler byttes grensene til u-verdier. **Delvis integrasjon**, ∫u′v dx = uv − ∫uv′ dx, passer for produkter der en faktor forenkles ved derivasjon. **Delbrøkoppspalting** deler en rasjonal funksjon med faktoriserbar nevner i enklere brøker; bruk polynomdivisjon først hvis telleren har minst like høy grad som nevneren. Deriver svaret for å kontrollere det.\n\n## Numerisk integrasjon med algoritmer\nNår en antiderivert ikke kan uttrykkes med kjente funksjoner, eller vi bare har måledata, tilnærmes integralet numerisk. **Midtpunktmetoden** bruker høyden midt i delintervallet, **trapesmetoden** erstatter grafen med rette linjer, og **Simpsons metode** bruker parabelbuer og krever partall n. For glatte funksjoner er Simpson ofte mer nøyaktig med samme n. Test algoritmer på integraler med kjent svar, og se om resultatet stabiliserer seg når n økes.\n\n## Modellering med ulike funksjoner og reelle datasett\nEn **modell** er en forenklet matematisk beskrivelse og har alltid begrensninger. Velg funksjonstype ut fra dataenes form og kunnskap om situasjonen: lineær for konstant endring, eksponentiell for konstant prosentvis endring, logistisk for vekst mot en øvre grense, trigonometrisk for perioder og polynom for blant annet topp- og bunnpunkter. **Regresjon** tilpasser parametere, ofte ved å minimere kvadrerte avvik. Residualer bør være små og tilfeldig fordelt; mønster kan tyde på feil modell. Høy R² er ikke tilstrekkelig alene. Interpolasjon innenfor dataområdet er vanligvis sikrere enn ekstrapolasjon utenfor det, og modeller med for høy grad kan overtilpasses.\n\n## Derivasjon og integrasjon i egne modeller\nDen deriverte f′ beskriver momentan vekstfart med enhet y per x; den andrederiverte viser om vekstfarten øker eller avtar. Et vendepunkt er der f″ skifter fortegn. Integralet av en rate gir samlet mengde, for eksempel energi fra effekt over tid. Gjennomsnittsverdien er (1/(b − a))∫ₐᵇf(x)dx. Differensiallikninger beskriver en ukjent funksjon og dens deriverte; for eksempel gir y′ = ky løsningen y = Ceᵏˣ. Tolk svar med enheter, vurder om de er rimelige, og husk at analyser utenfor dataområdet er usikre.\n\n## Omdreiningslegemer og volum\nSkivemetoden bygger volum som en sum av tynne tverrsnitt: V = ∫ₐᵇA(x)dx. Når f roteres om x-aksen, er skivene sirkler med areal πf(x)², så V = π∫ₐᵇf(x)²dx. For et hulrom mellom f og g trekkes kvadratene fra: π∫ₐᵇ(f² − g²)dx. Ved rotasjon om y-aksen integreres πx(y)² med hensyn på y. Volum har enhet i tredje potens; 1 dm³ er 1 liter.\n\n## Parameterframstillinger, fart og akselerasjon\nEn kurve kan beskrives med posisjonsvektoren r(t) = [x(t), y(t)]. Fartsvektoren v = r′ er tangent til banen, banefarten er |v| = √(x′² + y′²), og akselerasjonen er a = v′ = r″. I et skrått kast uten luftmotstand er akselerasjonen [0, −g]. I jevn sirkelbevegelse er banefarten Rω og akselerasjonen peker inn mot sentrum. Buelengden er ∫ₐᵇ|v(t)|dt. Integrasjon av akselerasjon gir fart og posisjon, med startverdiene som bestemmer integrasjonskonstantene.\n\n## Vektorer i rommet\nVektorer i rommet har tre koordinater, og lengden av [a,b,c] er √(a² + b² + c²). **Skalarproduktet** u·v = |u||v|cosθ er et tall; u·v = 0 betyr at vektorene står vinkelrett. **Vektorproduktet** u×v står vinkelrett på begge, og lengden er arealet av parallellogrammet de spenner ut. Rekkefølgen betyr noe: v×u = −(u×v). Vektorprodukt og skalarprodukt brukes også til å regne ut areal og volum, blant annet med skalartrippelproduktet.\n\n## Linjer, plan og kuler i rommet\nEn linje beskrives med et punkt og en retningsvektor; linjer kan være parallelle, skjære hverandre eller være vindskjeve. Et plan har en **normalvektor** og likning ax + by + cz + d = 0. Plan gjennom tre punkter kan finnes med AB×AC. Skjæring linje–plan finnes ved å sette linjens parameterframstilling inn i planlikningen. Kuleflaten har likning (x − x₀)² + (y − y₀)² + (z − z₀)² = r². Fullstendige kvadrater gir sentrum og radius. Avstand fra punkt til plan regnes med |ax₁ + by₁ + cz₁ + d|/√(a²+b²+c²).\n\n## Radianer og trigonometriske funksjoner\nI radianer er vinkelen buelengde delt på radius, og π radianer er 180°. På enhetssirkelen er koordinatene (cos v, sin v). Sinus og cosinus har periode 2π, mens tangens har periode π. For A sin(cx + φ) + d er amplituden |A|, likevektslinjen y = d og perioden 2π/c. Derivasjonsformlene for trigonometriske funksjoner forutsetter radianer: (sin x)′ = cos x og (cos x)′ = −sin x. Buelengde og sektorareal er henholdsvis rθ og ½r²θ.\n\n## Trigonometriske identiteter og likninger\nViktige identiteter er sin²x + cos²x = 1, tan x = sin x/cos x og dobbelvinkelformlene sin 2x = 2sin x cos x og cos 2x = 1 − 2sin²x. Bruk identitetene til å omforme og løse likninger. Sinuslikninger har vanligvis to løsninger per periode, mens tangens har periode π. Husk å ta med alle løsninger i det oppgitte intervallet. I andregradslikninger i sin x kan du sette u = sin x. Ikke del på sin x eller cos x uten å undersøke om de kan være null, siden løsninger ellers kan gå tapt.\n\n## Matematiske bevis og induksjon\nEt **bevis** er en logisk argumentasjon som viser at en påstand gjelder i alle tilfeller; eksempler alene er ikke nok. Implikasjonen P ⇒ Q går ikke automatisk motsatt vei. Direkte bevis går fra antakelse til konklusjon, kontrapositivt bevis viser ikke Q ⇒ ikke P, og motsigelsesbevis antar det motsatte. Ett moteksempel er nok til å motbevise en generell påstand. Induksjonsbevis krever en basis og et induksjonstrinn der P(k) brukes til å vise P(k + 1).\n\n## Sammenhenger i faget\nRekker og rekursive formler beskriver gjentatt utvikling, mens modeller knytter matematikk til data og virkelige situasjoner. Derivasjon beskriver momentan endring, og integrasjon samler små bidrag til total endring, areal eller volum. Numeriske metoder beregner tilnærminger når eksakte metoder ikke er tilgjengelige. Parameterframstillinger og vektorer beskriver bevegelse og romgeometri, mens trigonometriske funksjoner modellerer perioder. Bevis gir grunnlag for å begrunne formler og konklusjoner.\n\n## Huskeliste før prøven\n- Velg riktig sumformel, integrasjonsmetode eller modelltype.\n- Sjekk konvergensbetingelsen for uendelige geometriske rekker.\n- Bruk startverdi og grunntilfelle i rekursive framstillinger.\n- Husk fortegn, grenser og integrasjonskonstant i integraler.\n- Tolk deriverte og integraler med riktige enheter.\n- Kontroller integral ved derivasjon og algoritmer mot kjente svar.\n- Skill mellom interpolasjon og usikker ekstrapolasjon.\n- Sjekk alle trigonometriske løsninger i intervallet.\n- Kontroller vektorprodukter med skalarprodukt.\n- Skriv bevis med tydelige antakelser og logiske steg.",
+  "flashcards": [
+    {
+      "term": "Konvergensbetingelse",
+      "def": "|k| < 1 for en uendelig geometrisk rekke."
+    },
+    {
+      "term": "Rekursiv formel",
+      "def": "Beskriver et ledd ved hjelp av tidligere ledd."
+    },
+    {
+      "term": "Bestemt integral",
+      "def": "Grenseverdien av Riemann-summene når n → ∞."
+    },
+    {
+      "term": "Fundamentalteoremet, del 2",
+      "def": "∫ₐᵇ f(x) dx = F(b) − F(a)"
+    },
+    {
+      "term": "Substitusjon",
+      "def": "Variabelskifte – kjerneregelen baklengs."
+    },
+    {
+      "term": "Simpsons metode",
+      "def": "Parabelbuer – krever partall n.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Residual",
+      "def": "Avviket mellom målt og beregnet verdi."
+    },
+    {
+      "term": "Integral av en rate",
+      "def": "Samlet mengde."
+    },
+    {
+      "term": "Volum rundt x-aksen",
+      "def": "V = π · ∫ₐᵇ (f(x))² dx"
+    },
+    {
+      "term": "Banefart",
+      "def": "|v(t)| = √(x′(t)² + y′(t)²)"
+    },
+    {
+      "term": "Skalarprodukt",
+      "def": "u₁v₁ + u₂v₂ + u₃v₃ = |u| · |v| · cos θ"
+    },
+    {
+      "term": "Planlikning",
+      "def": "ax + by + cz + d = 0 med n = [a, b, c]."
+    },
+    {
+      "term": "Periode til A sin(cx + φ) + d",
+      "def": "2π/c"
+    },
+    {
+      "term": "Enhetsformelen",
+      "def": "sin²x + cos²x = 1"
+    },
+    {
+      "term": "Induksjonsbevis",
+      "def": "Basis og induksjonstrinn for alle naturlige tall."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Når konvergerer en uendelig geometrisk rekke?",
+      "options": [
+        "Når k > 1",
+        "Når k = 1",
+        "Når |k| < 1",
+        "Alltid"
+      ],
+      "correct": 2,
+      "explain": "Da går kⁿ mot 0."
+    },
+    {
+      "id": "q02",
+      "text": "Hva må en rekursiv funksjon ha for å stoppe?",
+      "options": [
+        "En while-løkke",
+        "En liste",
+        "Et grunntilfelle",
+        "En print-kommando"
+      ],
+      "correct": 2,
+      "explain": "Ellers kaller den seg selv i det uendelige."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan defineres det bestemte integralet?",
+      "options": [
+        "Som grenseverdien av Riemann-summer når n → ∞",
+        "Som den deriverte",
+        "Som en venstresum med n = 4",
+        "Som f(b) · b"
+      ],
+      "correct": 0,
+      "explain": "Rektanglene blir uendelig smale."
+    },
+    {
+      "id": "q04",
+      "text": "Hva sier andre del av fundamentalteoremet?",
+      "options": [
+        "∫ₐᵇ f(x) dx = F(b) − F(a)",
+        "F′(x) = 0",
+        "∫ₐᵇ f(x) dx = f(b) − f(a)",
+        "Alle funksjoner er deriverbare"
+      ],
+      "correct": 0,
+      "explain": "F er en antiderivert til f."
+    },
+    {
+      "id": "q05",
+      "text": "Når passer substitusjon?",
+      "options": [
+        "Alltid ved brøker",
+        "Bare ved polynomer",
+        "Ved produkter av to polynomer",
+        "Når integranden inneholder en kjerne og kjernens deriverte"
+      ],
+      "correct": 3,
+      "explain": "Kjerneregelen baklengs."
+    },
+    {
+      "id": "q06",
+      "text": "Hva krever Simpsons metode?",
+      "options": [
+        "At f er lineær",
+        "At n er et oddetall",
+        "At a = 0",
+        "At n er et partall"
+      ],
+      "correct": 3,
+      "explain": "Parabelbuer over to og to delintervaller.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q07",
+      "text": "Hva tyder et tydelig mønster i residualene på?",
+      "options": [
+        "Perfekt modell",
+        "For mange data",
+        "At R² er 1",
+        "Feil modelltype"
+      ],
+      "correct": 3,
+      "explain": "Modellen fanger ikke formen."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan regnes gjennomsnittsverdien av f på [a, b] ut?",
+      "options": [
+        "(f(a) + f(b))/2",
+        "f′(b) − f′(a)",
+        "∫ₐᵇ f(x) dx",
+        "(1/(b − a)) · ∫ₐᵇ f(x) dx"
+      ],
+      "correct": 3,
+      "explain": "Rektangel med samme areal."
+    },
+    {
+      "id": "q09",
+      "text": "Hvordan regnes volumet av et legeme med hulrom mellom f og g?",
+      "options": [
+        "π · ∫ₐᵇ ((f(x))² − (g(x))²) dx",
+        "π · ∫ₐᵇ (f(x) − g(x))² dx",
+        "∫ₐᵇ (f(x) − g(x)) dx",
+        "π · ∫ₐᵇ f(x)g(x) dx"
+      ],
+      "correct": 0,
+      "explain": "Trekk fra kvadratene."
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan regnes buelengden ut?",
+      "options": [
+        "s = |r(b) − r(a)|",
+        "s = ∫ₐᵇ |v(t)| dt",
+        "s = x(b) − x(a)",
+        "s = ∫ₐᵇ r(t) dt"
+      ],
+      "correct": 1,
+      "explain": "Integralet av banefarten."
+    },
+    {
+      "id": "q11",
+      "text": "Hva betyr u · v = 0?",
+      "options": [
+        "At vektorene står vinkelrett på hverandre",
+        "At vektorene er parallelle",
+        "At vektorene er like",
+        "At en av dem er lengre"
+      ],
+      "correct": 0,
+      "explain": "cos 90° = 0."
+    },
+    {
+      "id": "q12",
+      "text": "Hvordan finner du skjæringspunktet mellom en linje og et plan?",
+      "options": [
+        "Ta vektorproduktet",
+        "Sett parameterframstillingen inn i planlikningen og løs for t",
+        "Finn avstanden",
+        "Legg sammen likningene"
+      ],
+      "correct": 1,
+      "explain": "t gir punktet."
+    },
+    {
+      "id": "q13",
+      "text": "Hva er perioden til f(x) = 3 sin(2x) + 1?",
+      "options": [
+        "π",
+        "2π",
+        "3",
+        "π/2"
+      ],
+      "correct": 0,
+      "explain": "2π/2."
+    },
+    {
+      "id": "q14",
+      "text": "Hva er løsningene av sin x = ½ i [0, 2π)?",
+      "options": [
+        "π/6 og 5π/6",
+        "π/3 og 2π/3",
+        "π/6 og 7π/6",
+        "π/6"
+      ],
+      "correct": 0,
+      "explain": "sin(π − x) = sin x."
+    },
+    {
+      "id": "q15",
+      "text": "Hva gjør du i induksjonstrinnet?",
+      "options": [
+        "Viser P(1)",
+        "Sjekker mange tall",
+        "Antar P(k) og viser P(k + 1)",
+        "Antar P(k + 1) og viser P(k)"
+      ],
+      "correct": 2,
+      "explain": "Som dominobrikker."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk R2",
+    "children": [
+      {
+        "label": "Rekker – aritmetiske, geometriske og uendelige",
+        "children": [
+          {
+            "label": "Konvergensbetingelse",
+            "note": "|k| < 1 for en uendelig geometrisk rekke."
+          }
+        ]
+      },
+      {
+        "label": "Rekursive sammenhenger og programmering",
+        "children": [
+          {
+            "label": "Rekursiv formel",
+            "note": "Beskriver et ledd ved hjelp av tidligere ledd."
+          }
+        ]
+      },
+      {
+        "label": "Integral som grenseverdi av summer",
+        "children": [
+          {
+            "label": "Bestemt integral",
+            "note": "Grenseverdien av Riemann-summene når n → ∞."
+          }
+        ]
+      },
+      {
+        "label": "Analysens fundamentalteorem",
+        "children": [
+          {
+            "label": "Fundamentalteoremet, del 2",
+            "note": "∫ₐᵇ f(x) dx = F(b) − F(a)"
+          }
+        ]
+      },
+      {
+        "label": "Integrasjonsmetoder",
+        "children": [
+          {
+            "label": "Substitusjon",
+            "note": "Variabelskifte – kjerneregelen baklengs."
+          }
+        ]
+      },
+      {
+        "label": "Numerisk integrasjon med algoritmer",
+        "children": [
+          {
+            "label": "Simpsons metode",
+            "note": "Parabelbuer – krever partall n."
+          }
+        ]
+      },
+      {
+        "label": "Modellering med ulike funksjoner og reelle datasett",
+        "children": [
+          {
+            "label": "Residual",
+            "note": "Avviket mellom målt og beregnet verdi."
+          }
+        ]
+      },
+      {
+        "label": "Derivasjon og integrasjon i egne modeller",
+        "children": [
+          {
+            "label": "Integral av en rate",
+            "note": "Samlet mengde."
+          }
+        ]
+      },
+      {
+        "label": "Omdreiningslegemer og volum",
+        "children": [
+          {
+            "label": "Volum rundt x-aksen",
+            "note": "V = π · ∫ₐᵇ (f(x))² dx"
+          }
+        ]
+      },
+      {
+        "label": "Parameterframstillinger, fart og akselerasjon",
+        "children": [
+          {
+            "label": "Banefart",
+            "note": "|v(t)| = √(x′(t)² + y′(t)²)"
+          }
+        ]
+      },
+      {
+        "label": "Vektorer i rommet",
+        "children": [
+          {
+            "label": "Skalarprodukt",
+            "note": "u₁v₁ + u₂v₂ + u₃v₃ = |u| · |v| · cos θ"
+          }
+        ]
+      },
+      {
+        "label": "Linjer, plan og kuler i rommet",
+        "children": [
+          {
+            "label": "Planlikning",
+            "note": "ax + by + cz + d = 0 med n = [a, b, c]."
+          }
+        ]
+      },
+      {
+        "label": "Radianer og trigonometriske funksjoner",
+        "children": [
+          {
+            "label": "Periode til A sin(cx + φ) + d",
+            "note": "2π/c"
+          }
+        ]
+      },
+      {
+        "label": "Trigonometriske identiteter og likninger",
+        "children": [
+          {
+            "label": "Enhetsformelen",
+            "note": "sin²x + cos²x = 1"
+          }
+        ]
+      },
+      {
+        "label": "Matematiske bevis og induksjon",
+        "children": [
+          {
+            "label": "Induksjonsbevis",
+            "note": "Basis og induksjonstrinn for alle naturlige tall."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 20,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "For hvilke x konvergerer 1 + x + x² + …?",
+        "options": [
+          "x > 1",
+          "−1 < x < 1",
+          "Alle x",
+          "x < −1"
+        ],
+        "correct": 1,
+        "explain": "Kvotienten er x."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hva er ∫₀¹ x² dx?",
+        "options": [
+          "1",
+          "1/2",
+          "1/3",
+          "2/3"
+        ],
+        "correct": 2,
+        "explain": "[x³/3]₀¹."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Numerisk integrasjon gir alltid det eksakte svaret.",
+        "correct": false,
+        "explain": "Det er en tilnærming."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Interpolasjon er vanligvis mer pålitelig enn ekstrapolasjon.",
+        "correct": true,
+        "explain": "Vi har data i området."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Fartsvektoren er tangent til banen.",
+        "correct": true,
+        "explain": "Den peker i bevegelsesretningen."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En følge er definert ved a₁ = 8 og aₙ = 0,5aₙ₋₁ for n ≥ 2. Forklar hvorfor følgen danner en konvergent geometrisk rekke når leddene summeres, og finn summen av den uendelige rekken.",
+        "fasit": "Følgen har konstant kvotient k = 0,5, og |k| < 1, så den uendelige geometriske rekken konvergerer. Summen er 8/(1 − 0,5) = 16.",
+        "kriterier": [
+          "Identifiserer rekken som geometrisk med a₁ = 8 og k = 0,5.",
+          "Begrunner konvergens med |k| < 1.",
+          "Finner summen 16."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En bolig har effekt P(t) målt i kW, der t er tid i timer. Forklar hva integralet ∫₀²⁴ P(t) dt beskriver, og hvilken enhet svaret får.",
+        "fasit": "Integral av en rate eller effekt over tid gir en samlet mengde. Her beskriver integralet energien som brukes i løpet av døgnet, målt i kWh.",
+        "kriterier": [
+          "Forklarer at integralet gir samlet energi over tidsintervallet.",
+          "Oppgir enheten kWh."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et datasett tilpasses en modell med R² nær 1, men residualene viser et tydelig mønster. Forklar hva mønsteret kan tyde på, og hvorfor høy R² ikke alene avgjør om modellen er god.",
+        "fasit": "Et tydelig mønster i residualene kan tyde på at modelltypen er feil. Selv om R² er nær 1, må modellen også vurderes ut fra teori og om den gir mening i situasjonen.",
+        "kriterier": [
+          "Knytter mønster i residualene til mulig feil modelltype.",
+          "Forklarer at høy R² ikke er tilstrekkelig alene; modellen må også gi mening ut fra situasjonen eller teori."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Området mellom y = f(x) og y = g(x), der f(x) ≥ g(x) ≥ 0 på [a,b], roteres om x-aksen. Skriv opp volumformelen, og forklar hvorfor det bestemte integralet inngår.",
+        "fasit": "Volumet er V = π∫ₐᵇ(f(x)² − g(x)²)dx. Hvert tverrsnitt er en ring med areal π(f(x)² − g(x)²), og integralet summerer tverrsnittsarealene langs intervallet.",
+        "kriterier": [
+          "Skriver formelen π∫ₐᵇ(f² − g²)dx, ikke kvadratet av differansen.",
+          "Forklarer at integralet summerer tverrsnittsarealene."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Tre punkter A, B og C bestemmer et plan. Forklar hvordan vektorene AB og AC kan brukes til å finne en normalvektor til planet, og hva en normalvektor kjennetegnes ved.",
+        "fasit": "En normalvektor kan finnes som n = AB × AC. Vektorproduktet står vinkelrett på både AB og AC, og dermed vinkelrett på planet de ligger i.",
+        "kriterier": [
+          "Oppgir n = AB × AC.",
+          "Forklarer at normalvektoren står vinkelrett på planet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Vannstanden modelleres ved h(t) = 1,5 sin(0,506t) + 2, der h måles i meter og t i timer. Forklar hva perioden beskriver, og hva den deriverte h′(t) forteller om vannstanden.",
+        "fasit": "Perioden 2π/0,506 beskriver tiden før vannstandsmønsteret gjentar seg. Den deriverte h′(t) er den momentane endringsfarten i meter per time; vannstanden stiger raskest når den passerer likevektslinjen.",
+        "kriterier": [
+          "Forklarer perioden som tiden for én gjentakelse av mønsteret.",
+          "Tolker h′ som momentan endringsfart med enhet meter per time.",
+          "Kjenner igjen at vannstanden stiger raskest når den passerer likevektslinjen."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Regn ut ∫₀² 3x² dx ved hjelp av en antiderivert, og vis hvordan du bruker grensene.",
+        "fasit": "En antiderivert av 3x² er x³. Dermed er ∫₀² 3x² dx = [x³]₀² = 2³ − 0³ = 8.",
+        "kriterier": [
+          "Finner en riktig antiderivert, x³.",
+          "Setter inn øvre og nedre grense i riktig rekkefølge.",
+          "Får svaret 8."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Løs likningen sin x = 1/2 for x i intervallet [0, 2π).",
+        "fasit": "Sinus er 1/2 ved x = π/6 og x = 5π/6 i intervallet [0, 2π).",
+        "kriterier": [
+          "Oppgir begge løsningene π/6 og 5π/6.",
+          "Oppgir ingen løsninger utenfor intervallet."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-10-01"
+  }
+}
