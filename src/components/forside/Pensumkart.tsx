@@ -34,7 +34,7 @@ const PRIKKER: Prikk[] = KATALOG.flatMap((t, blokk) =>
 const STEG = [
   {
     tittel: "Velg trinn",
-    tekst: "Fra 8. trinn til Vg3 – ungdomsskolen og studiespesialiserende på videregående.",
+    tekst: "Fra 8. trinn til Vg3 og påbygg – ungdomsskolen, studiespesialiserende og påbygging til generell studiekompetanse.",
   },
   {
     tittel: "Velg fag",
@@ -90,6 +90,30 @@ const ETIKETT = 22;
 const RADGAP = 18;
 const KOLGAP = 2; // i prikker
 
+// Oppsett: ungdomsskolen i øverste rad og videregående i den nederste, tre
+// kolonner. Påbygg er på Vg3-nivå og står under Vg3. Kolonnebredden følger
+// faget med flest temaer.
+const PLASS: [number, number][] = KATALOG.map((t, b) => (t.id === "pabygg" ? [2, 1] : [b % 3, Math.floor(b / 3)]));
+const KOLONNER = Math.max(...PLASS.map(([k]) => k)) + 1;
+const RADER = Math.max(...PLASS.map(([, r]) => r)) + 1;
+const BLOKK_BREDDE = KATALOG.map((t) => Math.max(...t.fag.map((f) => f.temaer.length)));
+const KOL_BREDDE = Array.from({ length: KOLONNER }, (_, k) =>
+  Math.max(...BLOKK_BREDDE.map((bredde, b) => (PLASS[b][0] === k ? bredde : 0))),
+);
+const ENHETER_BREDDE = KOL_BREDDE.reduce((s, v) => s + v, 0) + KOLGAP * (KOLONNER - 1);
+// Blokkene i en celle, ovenfra og ned.
+const celle = (k: number, r: number) =>
+  KATALOG.map((_, b) => b).filter((b) => PLASS[b][0] === k && PLASS[b][1] === r);
+// Høyden på en rad og hele kartet i piksler, for en gitt prikkavstand.
+const radHoyde = (r: number, pitch: number) =>
+  Math.max(
+    ...Array.from({ length: KOLONNER }, (_, k) =>
+      celle(k, r).reduce((s, b, i) => s + (i > 0 ? RADGAP : 0) + ETIKETT + KATALOG[b].fag.length * pitch, 0),
+    ),
+  );
+const totalHoyde = (pitch: number) =>
+  Array.from({ length: RADER }, (_, r) => radHoyde(r, pitch)).reduce((s, v) => s + v, 0) + RADGAP * (RADER - 1);
+
 export function Pensumkart() {
   const rot = useRef<HTMLDivElement>(null);
   const flate = useRef<HTMLDivElement>(null);
@@ -110,14 +134,6 @@ export function Pensumkart() {
     const rolig = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     setKlar(true);
 
-    // Oppsett: blokkene står i to rader (ungdomsskole og videregående) med
-    // tre trinn i hver. Kolonnebredden følger faget med flest temaer.
-    const kolBredde = [0, 1, 2].map((c) =>
-      Math.max(...KATALOG.filter((_, b) => b % 3 === c).map((t) => Math.max(...t.fag.map((f) => f.temaer.length)))),
-    );
-    const radHoyde = [0, 1].map((r) => Math.max(...KATALOG.slice(r * 3, r * 3 + 3).map((t) => t.fag.length)));
-    const enheterBredde = kolBredde.reduce((s, v) => s + v, 0) + KOLGAP * 2;
-    const enheterHoyde = radHoyde[0] + radHoyde[1];
 
     let steg = 0;
     let hoverIndeks = -1;
@@ -148,14 +164,12 @@ export function Pensumkart() {
 
     const oppsett = () => {
       const tilgjengelig = flateEl.getBoundingClientRect();
-      pitch = Math.min(
-        16,
-        tilgjengelig.width / enheterBredde,
-        (tilgjengelig.height - ETIKETT * 2 - RADGAP) / enheterHoyde,
-      );
-      pitch = Math.max(pitch, 4);
-      w = Math.ceil(enheterBredde * pitch);
-      h = Math.ceil(enheterHoyde * pitch + ETIKETT * 2 + RADGAP);
+      // Største prikkavstand som får plass i både bredden og høyden.
+      let p = Math.min(16, tilgjengelig.width / ENHETER_BREDDE);
+      while (p > 4 && totalHoyde(p) > tilgjengelig.height) p -= 0.25;
+      pitch = Math.max(p, 4);
+      w = Math.ceil(ENHETER_BREDDE * pitch);
+      h = Math.ceil(totalHoyde(pitch));
       const dpr = Math.min(window.devicePixelRatio || 1, 2);
       canvas.width = Math.round(w * dpr);
       canvas.height = Math.round(h * dpr);
@@ -164,13 +178,19 @@ export function Pensumkart() {
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       skrift = `500 12px ${getComputedStyle(document.body).fontFamily}`;
 
-      blokkPos = KATALOG.map((_, b) => {
-        const c = b % 3;
-        const r = Math.floor(b / 3);
-        const x = (kolBredde.slice(0, c).reduce((s, v) => s + v, 0) + c * KOLGAP) * pitch;
-        const y = r === 0 ? 0 : ETIKETT + radHoyde[0] * pitch + RADGAP;
-        return { x, y };
-      });
+      blokkPos = KATALOG.map(() => ({ x: 0, y: 0 }));
+      let radTopp = 0;
+      for (let r = 0; r < RADER; r++) {
+        for (let k = 0; k < KOLONNER; k++) {
+          const x = (KOL_BREDDE.slice(0, k).reduce((s, v) => s + v, 0) + k * KOLGAP) * pitch;
+          let y = radTopp;
+          for (const b of celle(k, r)) {
+            blokkPos[b] = { x, y };
+            y += ETIKETT + KATALOG[b].fag.length * pitch + RADGAP;
+          }
+        }
+        radTopp += radHoyde(r, pitch) + RADGAP;
+      }
       xs = new Float32Array(PRIKKER.length);
       ys = new Float32Array(PRIKKER.length);
       PRIKKER.forEach((p, i) => {

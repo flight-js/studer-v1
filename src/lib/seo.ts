@@ -15,7 +15,7 @@ export const SOSIALE_MEDIER: { navn: string; url: string | null }[] = [
 
 export const TITTEL = "Studer – øv på hele pensum med flashcards, quiz og prøver";
 export const BESKRIVELSE =
-  "Flashcards, quiz og miniprøver for hvert tema i hvert fag etter LK20, fra 8. trinn til Vg3. Med AI-hjelp og skriveoppgaver rettet av KI. Prøv gratis i 14 dager.";
+  "Flashcards, quiz og miniprøver for hvert tema i hvert fag etter LK20, fra 8. trinn til Vg3 og påbygg. Med AI-hjelp og skriveoppgaver rettet av KI. Prøv gratis i 14 dager.";
 
 // Felles for delingskortet (Facebook, Snapchat, iMessage, X …). Bildet ligger i
 // public/ og settes på hver side: Next arver ikke et opengraph-image.png til
@@ -29,7 +29,7 @@ export const DELING = {
       url: "/delingsbilde.png",
       width: 1200,
       height: 630,
-      alt: "Studer – alt pensum, ett sted å øve. Flashcards, quiz og miniprøver for hvert tema i hvert fag, fra 8. trinn til Vg3.",
+      alt: "Studer – alt pensum, ett sted å øve. Flashcards, quiz og miniprøver for hvert tema i hvert fag, fra 8. trinn til Vg3 og påbygg.",
     },
   ],
 };

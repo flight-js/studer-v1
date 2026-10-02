@@ -1,0 +1,23 @@
+{
+ "kode": "MAT06-04",
+ "tittel": "Læreplan i matematikk fellesfag 2P-Y – Vg3 påbygging til generell studiekompetanse",
+ "url": "https://www.udir.no/lk20/mat06-04",
+ "sett": [
+  {
+   "kode": "KV47",
+   "tittel": "Kompetansemål og vurdering matematikk 2P-Y",
+   "maal": [
+    "utforske korleis ulike premissar vil kunne påverke korleis matematiske problem frå samfunnsliv og arbeidsliv blir løyste",
+    "analysere og presentere funn i datasett frå lokalsamfunn og media",
+    "bruke og vurdere val av formålstenlege sentralmål og spreiingsmål for statistisk datamateriale",
+    "lese, hente ut og vurdere matematikk i tekstar om samfunnsfaglege tema og tema frå lokalmiljøet, gjere berekningar knytte til dette og presentere og argumentere for resultata",
+    "utforske, beskrive og bruke omgrepa proporsjonalitet og omvend proporsjonalitet",
+    "identifisere variable storleikar i ulike situasjonar og bruke dei til utforsking og generalisering",
+    "forklare og bruke prosent, prosentpoeng og vekstfaktor til modellering av praktiske situasjonar med digitale verktøy",
+    "tolke og rekne med rotuttrykk, potensar og tal på standardform",
+    "planleggje, utføre og presentere sjølvstendig arbeid knytt til modellering og funksjonar innanfor samfunnsfaglege tema",
+    "bruke digitale verktøy i utforsking og problemløysing knytt til eigenskapar ved funksjonar, og diskutere løysingane"
+   ]
+  }
+ ]
+}

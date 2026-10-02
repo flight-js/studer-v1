@@ -1,0 +1,435 @@
+{
+  "id": "potenser-og-standardform",
+  "fagId": "matematikk-2py",
+  "trinnId": "pabygg",
+  "name": "Potenser, røtter og standardform",
+  "intro": "Potensregler, negative eksponenter, kvadratrot og tredjerot, tall på standardform og regning med svært store og svært små tall, som i naturfag, teknologi og økonomi.",
+  "kompetansemaal": [
+    8
+  ],
+  "sammendrag": "## Potenser\n\nEn **potens** er en kort måte å skrive gjentatt multiplikasjon på: 2⁵ = 2 · 2 · 2 · 2 · 2 = 32. Tallet 2 er **grunntallet**, og 5 er **eksponenten**.\n\n## Potensreglene\n\n- a^m · a^n = a^(m+n): a³ · a⁴ = a⁷\n- a^m : a^n = a^(m−n): a⁸ : a² = a⁶\n- (a^m)^n = a^(m·n): (a²)³ = a⁶\n- (a · b)^n = a^n · b^n: (2x)³ = 8x³\n- a⁰ = 1: 5⁰ = 1\n- a⁻ⁿ = 1/aⁿ: 2⁻³ = 1/2³ = 1/8 = 0,125\n\nEn **negativ eksponent** gir altså ikke et negativt tall, men en **brøk**. 10⁻² = 1/100 = 0,01.\n\n## Røtter\n\n**Kvadratroten** av et tall er det positive tallet som ganget med seg selv gir tallet: √49 = 7, fordi 7 · 7 = 49. **Tredjeroten** er tallet som opphøyd i tredje gir tallet: ∛27 = 3, fordi 3³ = 27.\n\nNyttige regler:\n\n- √(a · b) = √a · √b: √(4 · 9) = 2 · 3 = 6\n- √(a/b) = √a / √b\n- √a kan også skrives som en potens med eksponent 1/2.\n\nObs: √(a + b) er **ikke** lik √a + √b. √(9 + 16) = √25 = 5, men √9 + √16 = 7.\n\n## Standardform\n\nSvært store og svært små tall skrives ofte på **standardform**: a · 10ⁿ, der **1 ≤ a < 10** og n er et helt tall.\n\n- 4 500 000 = 4,5 · 10⁶ (kommaet flyttes 6 plasser til venstre)\n- 0,00073 = 7,3 · 10⁻⁴ (kommaet flyttes 4 plasser til høyre)\n- 12 · 10³ er **ikke** på standardform, fordi 12 er større enn 10. Riktig er 1,2 · 10⁴.\n\n## Regne med standardform\n\nVed multiplikasjon ganger vi tallene for seg og tierpotensene for seg:\n\n(3 · 10⁴) · (2 · 10⁵) = 6 · 10⁹\n\nVed divisjon deler vi tallene og trekker fra eksponentene:\n\n(8 · 10⁶) : (2 · 10²) = 4 · 10⁴\n\nHvis resultatet ikke er på standardform, justerer vi: 5 · 10³ · 4 · 10² = 20 · 10⁵ = 2,0 · 10⁶.\n\n## Prefikser\n\nMange enheter bruker **prefikser** som står for tierpotenser:\n\n| Prefiks | Verdi |\n| --- | --- |\n| giga (G) | 10⁹ |\n| mega (M) | 10⁶ |\n| kilo (k) | 10³ |\n| milli (m) | 10⁻³ |\n| mikro (µ) | 10⁻⁶ |\n| nano (n) | 10⁻⁹ |\n\nAvstanden fra jorda til sola er omtrent 1,5 · 10⁸ km, og et virus kan være rundt 10⁻⁷ m. Standardform gjør slike tall lettere å lese, sammenligne og regne med – også på kalkulatoren, der 1,5E8 betyr 1,5 · 10⁸.",
+  "flashcards": [
+    {
+      "term": "Potens",
+      "def": "Kort skrivemåte for gjentatt multiplikasjon, som 2⁵."
+    },
+    {
+      "term": "Grunntall og eksponent",
+      "def": "I 2⁵ er 2 grunntallet og 5 eksponenten."
+    },
+    {
+      "term": "a^m · a^n",
+      "def": "a^(m+n) – eksponentene legges sammen."
+    },
+    {
+      "term": "a^m : a^n",
+      "def": "a^(m−n) – eksponentene trekkes fra hverandre."
+    },
+    {
+      "term": "(a^m)^n",
+      "def": "a^(m·n) – eksponentene ganges."
+    },
+    {
+      "term": "a⁰",
+      "def": "1 (når a ikke er 0)."
+    },
+    {
+      "term": "a⁻ⁿ",
+      "def": "1/aⁿ, for eksempel 2⁻³ = 1/8."
+    },
+    {
+      "term": "Kvadratrot",
+      "def": "Det positive tallet som ganget med seg selv gir tallet: √49 = 7."
+    },
+    {
+      "term": "Tredjerot",
+      "def": "Tallet som opphøyd i tredje gir tallet: ∛27 = 3."
+    },
+    {
+      "term": "√(a · b)",
+      "def": "√a · √b"
+    },
+    {
+      "term": "Standardform",
+      "def": "a · 10ⁿ der 1 ≤ a < 10."
+    },
+    {
+      "term": "Multiplikasjon på standardform",
+      "def": "Gang tallene for seg og legg sammen eksponentene."
+    },
+    {
+      "term": "Kilo, mega, giga",
+      "def": "10³, 10⁶ og 10⁹.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Milli, mikro, nano",
+      "def": "10⁻³, 10⁻⁶ og 10⁻⁹.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "1,5E8 på kalkulatoren",
+      "def": "1,5 · 10⁸",
+      "niva": "eksempel"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er 2⁵?",
+      "options": [
+        "10",
+        "16",
+        "32",
+        "64"
+      ],
+      "correct": 2,
+      "explain": "2 · 2 · 2 · 2 · 2 = 32."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan skrives 4 500 000 på standardform?",
+      "options": [
+        "45 · 10⁵",
+        "4,5 · 10⁶",
+        "4,5 · 10⁵",
+        "4,5 · 10⁷"
+      ],
+      "correct": 1,
+      "explain": "Tallet foran må være mellom 1 og 10, og kommaet flyttes 6 plasser."
+    },
+    {
+      "id": "q03",
+      "text": "Hvordan skrives 0,00073 på standardform?",
+      "options": [
+        "7,3 · 10⁻⁴",
+        "7,3 · 10⁴",
+        "7,3 · 10⁻³",
+        "7,3 · 10⁻⁵"
+      ],
+      "correct": 0,
+      "explain": "Kommaet flyttes 4 plasser til høyre, så eksponenten blir −4."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er a³ · a⁴?",
+      "options": [
+        "a¹²",
+        "a³",
+        "a⁴",
+        "a⁷"
+      ],
+      "correct": 3,
+      "explain": "Ved multiplikasjon legges eksponentene sammen: 3 + 4 = 7."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er √49?",
+      "options": [
+        "7",
+        "14",
+        "24,5",
+        "2401"
+      ],
+      "correct": 0,
+      "explain": "7 · 7 = 49."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er (3 · 10⁴) · (2 · 10⁵)?",
+      "options": [
+        "5 · 10⁹",
+        "6 · 10²⁰",
+        "6 · 10⁹",
+        "6 · 10⁻¹"
+      ],
+      "correct": 2,
+      "explain": "3 · 2 = 6 og 10⁴ · 10⁵ = 10⁹."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er 5⁰?",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "Ikke definert"
+      ],
+      "correct": 1,
+      "explain": "Alle tall unntatt 0 opphøyd i null er 1."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er 2⁻³?",
+      "options": [
+        "1/8",
+        "−8",
+        "−1/8",
+        "8"
+      ],
+      "correct": 0,
+      "explain": "2⁻³ = 1/2³ = 1/8. Negativ eksponent gir en brøk."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er (8 · 10⁶) : (2 · 10²)?",
+      "options": [
+        "4 · 10³",
+        "6 · 10⁴",
+        "4 · 10⁸",
+        "4 · 10⁴"
+      ],
+      "correct": 3,
+      "explain": "8 : 2 = 4 og 6 − 2 = 4, så svaret er 4 · 10⁴."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor mye er 1 mikrometer?",
+      "options": [
+        "10⁻³ m",
+        "10⁻⁶ m",
+        "10⁻⁹ m",
+        "10⁶ m"
+      ],
+      "correct": 1,
+      "explain": "Mikro betyr 10⁻⁶.",
+      "niva": "eksempel"
+    }
+  ],
+  "mindmap": {
+    "label": "Potenser og standardform",
+    "children": [
+      {
+        "label": "Potenser",
+        "children": [
+          {
+            "label": "Grunntall og eksponent"
+          },
+          {
+            "label": "a⁰ = 1"
+          },
+          {
+            "label": "Negative eksponenter"
+          }
+        ]
+      },
+      {
+        "label": "Potensregler",
+        "children": [
+          {
+            "label": "Gange: legg sammen"
+          },
+          {
+            "label": "Dele: trekk fra"
+          },
+          {
+            "label": "Potens av potens: gang"
+          }
+        ]
+      },
+      {
+        "label": "Røtter",
+        "children": [
+          {
+            "label": "Kvadratrot"
+          },
+          {
+            "label": "Tredjerot"
+          },
+          {
+            "label": "√(ab) = √a · √b"
+          }
+        ]
+      },
+      {
+        "label": "Standardform",
+        "children": [
+          {
+            "label": "a · 10ⁿ"
+          },
+          {
+            "label": "1 ≤ a < 10"
+          },
+          {
+            "label": "Regne med standardform"
+          }
+        ]
+      },
+      {
+        "label": "Prefikser",
+        "children": [
+          {
+            "label": "Kilo, mega, giga"
+          },
+          {
+            "label": "Milli, mikro, nano"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "(a²)³ = a⁶",
+        "correct": true,
+        "explain": "Eksponentene ganges: 2 · 3 = 6."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "10⁻² = −100",
+        "correct": false,
+        "explain": "10⁻² = 1/100 = 0,01."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "√(4 · 9) = 6",
+        "correct": true,
+        "explain": "√4 · √9 = 2 · 3 = 6."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "12 · 10³ er skrevet på standardform.",
+        "correct": false,
+        "explain": "Tallet foran må være mindre enn 10. Riktig er 1,2 · 10⁴."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er ∛27?",
+        "options": [
+          "9",
+          "3",
+          "27",
+          "81"
+        ],
+        "correct": 1,
+        "explain": "3 · 3 · 3 = 27."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Avstanden fra jorda til sola er omtrent 1,5 · 10⁸ km. Hvor mange km er det?",
+        "options": [
+          "150 000 000 km",
+          "15 000 000 km",
+          "1 500 000 000 km",
+          "150 000 km"
+        ],
+        "correct": 0,
+        "explain": "Kommaet flyttes 8 plasser til høyre."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er a⁸ : a²?",
+        "options": [
+          "a⁴",
+          "a¹⁰",
+          "a⁶",
+          "a¹⁶"
+        ],
+        "correct": 2,
+        "explain": "Ved divisjon trekkes eksponentene fra hverandre: 8 − 2 = 6."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva grunntallet og eksponenten betyr i potensen 4³.",
+        "fasit": "Grunntallet er 4, og det er tallet som multipliseres med seg selv. Eksponenten 3 viser at 4 skal brukes som faktor tre ganger: 4 · 4 · 4.",
+        "kriterier": [
+          "Forklarer at grunntallet er tallet som gjentas som faktor.",
+          "Forklarer at eksponenten viser hvor mange ganger grunntallet brukes som faktor."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Regn ut (3²)². Vis det viktigste steget med eksponentene.",
+        "fasit": "(3²)² = 3⁴ fordi eksponentene ganges: 2 · 2 = 4. Dermed er svaret 81.",
+        "kriterier": [
+          "Ganger eksponentene og får 3⁴.",
+          "Oppgir riktig svar, 81."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Skriv 4⁻² som en brøk, og forklar kort hvorfor verdien ikke er negativ.",
+        "fasit": "4⁻² = 1/4² = 1/16. En negativ eksponent betyr at vi tar den omvendte verdien, ikke at tallet blir negativt.",
+        "kriterier": [
+          "Skriver 4⁻² som 1/16.",
+          "Forklarer at negativ eksponent gir en brøk eller omvendt verdi, ikke et negativt tall."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Regn ut både √(36 + 64) og √36 + √64. Bruk svarene til å vise om kvadratroten kan fordeles over addisjon.",
+        "fasit": "√(36 + 64) = √100 = 10, mens √36 + √64 = 6 + 8 = 14. Siden svarene er ulike, kan kvadratroten ikke fordeles over addisjon.",
+        "kriterier": [
+          "Får √(36 + 64) = 10 og √36 + √64 = 14.",
+          "Konkluderer med at kvadratroten ikke kan fordeles over addisjon."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Tallet 24 · 10² er ikke skrevet på standardform. Skriv det på standardform, og forklar hva som må gjelde for tallet foran tierpotensen.",
+        "fasit": "24 · 10² = 2,4 · 10³. På standardform må tallet foran tierpotensen være minst 1 og mindre enn 10.",
+        "kriterier": [
+          "Skriver 24 · 10² som 2,4 · 10³.",
+          "Oppgir at tallet foran tierpotensen må være minst 1 og mindre enn 10."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Regn ut (2 · 10³) · (4 · 10²) på standardform. Vis hvordan du behandler tallene og tierpotensene.",
+        "fasit": "Vi ganger tallene og legger sammen eksponentene: (2 · 4) · 10³⁺² = 8 · 10⁵.",
+        "kriterier": [
+          "Ganger 2 og 4 og får 8.",
+          "Legger sammen eksponentene og får svaret 8 · 10⁵."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En avstand er 5 km. Skriv avstanden i meter ved å bruke at kilo betyr 10³.",
+        "fasit": "Kilo betyr 10³, så 5 km = 5 · 10³ m = 5000 m.",
+        "kriterier": [
+          "Bruker at kilo tilsvarer 10³.",
+          "Oppgir riktig avstand som 5000 m eller 5 · 10³ m."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign 1 giga-enhet og 1 nano-enhet av samme type. Hvor mange ganger større er giga-enheten? Begrunn med tierpotensene.",
+        "fasit": "Giga er 10⁹ og nano er 10⁻⁹. Forholdet er 10⁹ : 10⁻⁹ = 10¹⁸, så 1 giga-enhet er 10¹⁸ ganger større.",
+        "kriterier": [
+          "Kjenner igjen giga som 10⁹ og nano som 10⁻⁹.",
+          "Finner at forholdet er 10¹⁸, altså 10¹⁸ ganger større."
+        ],
+        "niva": "eksempel"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

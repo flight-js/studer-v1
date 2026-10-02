@@ -1,0 +1,435 @@
+{
+  "id": "muntlig-framforing",
+  "fagId": "norsk-pabygg",
+  "trinnId": "pabygg",
+  "name": "Retoriske ferdigheter i presentasjoner og diskusjoner",
+  "intro": "Hvordan du bruker fagkunnskap og retoriske ferdigheter i norskfaglige presentasjoner og diskusjoner – retorikkens fem arbeidsoppgaver, appellformer, stemme og kroppsspråk, og hvordan du forbereder deg til muntlig eksamen.",
+  "kompetansemaal": [
+    7
+  ],
+  "sammendrag": "## Retorikkens fem arbeidsoppgaver\n\nAllerede i antikken delte retorikerne arbeidet med en tale inn i **fem trinn**. De er like nyttige i dag:\n\n1. **Inventio** – å **finne stoff**: Hva vet du om emnet? Hvilke argumenter, eksempler og kilder kan du bruke?\n2. **Dispositio** – å **ordne stoffet**: En klassisk disposisjon har **innledning** (fang interessen og presenter problemstillingen), **hoveddel** (redegjørelse og drøfting) og **avslutning** (oppsummering og konklusjon).\n3. **Elocutio** – å **formulere** seg: Velg ord, bilder og virkemidler som passer til publikum og situasjonen.\n4. **Memoria** – å **huske**: Øv så godt at du kan snakke **fritt** ut fra stikkord.\n5. **Actio** – å **framføre**: stemme, kroppsspråk, blikkontakt og tempo.\n\n## Appellformene i muntlig framføring\n\n- **Etos**: Vis at du er **forberedt**, bruk **fagbegreper** riktig og henvis til **kilder**. Troverdigheten styrkes også av **trygg** framtoning.\n- **Logos**: Bruk en **logisk** struktur, gode **argumenter** og konkrete **eksempler** fra tekstene.\n- **Patos**: Engasjer publikum med en god **åpning**, et **sitat**, en **anekdote** eller et **spørsmål**.\n\n## Stemme og kropp\n\n- **Varier** tempo, styrke og tonefall – og bruk **pauser** for å understreke viktige poenger.\n- Hold **blikkontakt** med hele publikummet.\n- Stå **stødig**, og bruk hendene naturlig.\n- La **presentasjonsverktøy** støtte deg – ikke erstatte deg. Få ord og gode bilder på lysbildene.\n\n## Norskfaglige diskusjoner\n\nI en faglig diskusjon skal du **bruke fagkunnskap**, **lytte**, **svare saklig** og **bygge videre** på andres innspill:\n\n- *Jeg vil utdype det du sa om …*\n- *Jeg ser det litt annerledes, fordi …*\n- *Et eksempel fra teksten som støtter dette, er …*\n\nUnngå **hersketeknikker** og **usaklige** argumenter, og vær åpen for å **justere** synspunktet ditt.\n\n## Muntlig eksamen\n\nPå muntlig eksamen i norsk får du ofte et **tema** eller en **problemstilling** i forberedelsestiden, og skal holde en **presentasjon** etterfulgt av en **faglig samtale**.\n\n- Lag en **tydelig problemstilling** og en ryddig **disposisjon**.\n- Knytt presentasjonen til **konkrete tekster** og **fagbegreper**.\n- Øv på å **ta tiden**.\n- I samtalen: Lytt til spørsmålene, **tenk høyt** og **begrunn** svarene. Det er lov å si: *Det har jeg ikke tenkt på før, men …*\n\n## Nervøsitet\n\nDet er **normalt** å være nervøs. God **forberedelse**, å **øve** høyt – gjerne for noen – og å **puste rolig** før du starter, hjelper. Husk at publikum ønsker at du skal lykkes.",
+  "flashcards": [
+    {
+      "term": "Inventio",
+      "def": "Å finne stoff: argumenter, eksempler og kilder."
+    },
+    {
+      "term": "Dispositio",
+      "def": "Å ordne stoffet: innledning, hoveddel og avslutning."
+    },
+    {
+      "term": "Elocutio",
+      "def": "Å formulere seg med passende ord og virkemidler."
+    },
+    {
+      "term": "Memoria",
+      "def": "Å huske – å kunne snakke fritt ut fra stikkord."
+    },
+    {
+      "term": "Actio",
+      "def": "Framføringen: stemme, kroppsspråk og blikkontakt."
+    },
+    {
+      "term": "Etos i muntlig framføring",
+      "def": "Troverdighet gjennom forberedelse, fagbegreper og kilder."
+    },
+    {
+      "term": "Logos i muntlig framføring",
+      "def": "Logisk struktur, argumenter og eksempler."
+    },
+    {
+      "term": "Patos i muntlig framføring",
+      "def": "Engasjement gjennom åpning, anekdote eller spørsmål."
+    },
+    {
+      "term": "Pause",
+      "def": "Virkemiddel for å understreke viktige poenger."
+    },
+    {
+      "term": "Blikkontakt",
+      "def": "Å se på hele publikummet."
+    },
+    {
+      "term": "Faglig samtale",
+      "def": "Samtale med sensor og lærer etter presentasjonen på muntlig eksamen."
+    },
+    {
+      "term": "Å bygge videre",
+      "def": "Å knytte eget innspill til det andre har sagt."
+    },
+    {
+      "term": "Stikkord",
+      "def": "Korte notater som støtter fri tale."
+    },
+    {
+      "term": "Anekdote",
+      "def": "Kort fortelling som illustrerer et poeng."
+    },
+    {
+      "term": "Å tenke høyt",
+      "def": "Å resonnere åpent i samtalen."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er inventio?",
+      "options": [
+        "Å ordne stoffet i talen",
+        "Å finne stoff til talen",
+        "Å velge språk i talen",
+        "Å øve på å huske talen"
+      ],
+      "correct": 1,
+      "explain": "Inventio er det første av de fem trinnene."
+    },
+    {
+      "id": "q02",
+      "text": "Hva handler dispositio om?",
+      "options": [
+        "Å ordne stoffet",
+        "Å finne stoff til talen",
+        "Å velge passende språk",
+        "Å øve på å huske talen"
+      ],
+      "correct": 0,
+      "explain": "Innledning, hoveddel og avslutning."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken av de fem arbeidsoppgavene handler om stemme og kroppsspråk?",
+      "options": [
+        "Inventio",
+        "Memoria",
+        "Actio",
+        "Elocutio"
+      ],
+      "correct": 2,
+      "explain": "Actio er selve framføringen."
+    },
+    {
+      "id": "q04",
+      "text": "Hvordan kan du styrke etos i en presentasjon?",
+      "options": [
+        "Ved å bruke mange fagbegreper uten å forklare dem",
+        "Ved å sitere kilder uten å knytte dem til temaet",
+        "Ved å snakke sikkert uten å vise fagkunnskap",
+        "Ved å være forberedt og bruke fagbegreper riktig"
+      ],
+      "correct": 3,
+      "explain": "Troverdighet bygger på kunnskap og trygghet."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan bør du bruke lysbilder?",
+      "options": [
+        "Som støtte med få ord og gode bilder",
+        "Som en ordrett gjengivelse av talen på hvert lysbilde",
+        "Som en samling bilder uten sammenheng med temaet",
+        "Som en liste med detaljer og lange forklaringer"
+      ],
+      "correct": 0,
+      "explain": "Publikum skal lytte til deg."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken setning passer når du vil bygge videre på et innspill?",
+      "options": [
+        "Jeg vil heller presentere mitt eget poeng om …",
+        "Jeg vil utdype det du sa om …",
+        "Jeg vil gjenta poenget mitt om …",
+        "La oss gå videre til et annet spørsmål."
+      ],
+      "correct": 1,
+      "explain": "Det viser at du lytter og bidrar."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er memoria?",
+      "options": [
+        "Å finne og velge stoff til talen",
+        "Å ordne stoffet i en tydelig rekkefølge",
+        "Å huske og kunne snakke fritt",
+        "Å formulere talen med passende språk"
+      ],
+      "correct": 2,
+      "explain": "Øv så godt at du trenger bare stikkord."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan kan du bruke patos i en åpning?",
+      "options": [
+        "Med en faglig definisjon, en kilde eller et tall",
+        "Med en oversikt over tema, problemstilling og metode",
+        "Med en påstand, en forklaring eller en begrunnelse",
+        "Med en anekdote, et sitat eller et spørsmål"
+      ],
+      "correct": 3,
+      "explain": "Det engasjerer publikum."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er et godt råd for den faglige samtalen på muntlig eksamen?",
+      "options": [
+        "Lytte til spørsmålene og begrunne svarene",
+        "Gjenta hovedpoengene fra presentasjonen i hvert svar",
+        "Gi korte svar uten å forklare tankegangen",
+        "Vente på fasiten før du svarer på spørsmålene"
+      ],
+      "correct": 0,
+      "explain": "Det er lov å resonnere seg fram."
+    },
+    {
+      "id": "q10",
+      "text": "Hvorfor kan pauser være et virkemiddel?",
+      "options": [
+        "De får talen til å virke raskere",
+        "De gir viktige poenger ekstra vekt",
+        "De reduserer tiden publikum får til å tenke",
+        "De erstatter forklaringen av et poeng"
+      ],
+      "correct": 1,
+      "explain": "En pause gir publikum tid til å tenke."
+    }
+  ],
+  "mindmap": {
+    "label": "Muntlig framføring",
+    "children": [
+      {
+        "label": "Fem arbeidsoppgaver",
+        "children": [
+          {
+            "label": "Inventio"
+          },
+          {
+            "label": "Dispositio"
+          },
+          {
+            "label": "Elocutio"
+          },
+          {
+            "label": "Memoria og actio"
+          }
+        ]
+      },
+      {
+        "label": "Appellformer",
+        "children": [
+          {
+            "label": "Etos"
+          },
+          {
+            "label": "Logos"
+          },
+          {
+            "label": "Patos"
+          }
+        ]
+      },
+      {
+        "label": "Framføring",
+        "children": [
+          {
+            "label": "Stemme og pauser"
+          },
+          {
+            "label": "Blikkontakt"
+          },
+          {
+            "label": "Lysbilder som støtte"
+          }
+        ]
+      },
+      {
+        "label": "Diskusjon",
+        "children": [
+          {
+            "label": "Lytte"
+          },
+          {
+            "label": "Bygge videre"
+          },
+          {
+            "label": "Saklighet"
+          }
+        ]
+      },
+      {
+        "label": "Eksamen",
+        "children": [
+          {
+            "label": "Problemstilling"
+          },
+          {
+            "label": "Faglig samtale"
+          },
+          {
+            "label": "Nervøsitet"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Retorikkens fem arbeidsoppgaver stammer fra antikken.",
+        "correct": true,
+        "explain": "De brukes fortsatt i dag."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Nervøsitet før en presentasjon betyr at man ikke er godt forberedt.",
+        "correct": false,
+        "explain": "Nervøsitet er normalt, også for godt forberedte."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Konkrete eksempler fra tekstene styrker en norskfaglig presentasjon.",
+        "correct": true,
+        "explain": "De gir logos og etos."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "I en faglig diskusjon bør man aldri endre mening.",
+        "correct": false,
+        "explain": "Det kan være et tegn på god refleksjon å justere synspunktet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er elocutio?",
+        "options": [
+          "Å formulere seg med passende ord og virkemidler",
+          "Å framføre talen med tydelig stemme og kroppsspråk",
+          "Å huske talens innhold og snakke uten manus",
+          "Å ordne stoffet i en logisk og tydelig rekkefølge"
+        ],
+        "correct": 0,
+        "explain": "Elocutio handler om språk og stil."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva kan hjelpe mot nervøsitet?",
+        "options": [
+          "Å begynne uten forberedelse og improvisere innholdet",
+          "Å øve høyt og puste rolig",
+          "Å snakke raskt for å komme raskere gjennom talen",
+          "Å unngå å øve foran andre og lese fra manus"
+        ],
+        "correct": 1,
+        "explain": "God forberedelse gir trygghet."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva bør en presentasjon på muntlig eksamen knyttes til?",
+        "options": [
+          "Generelle meninger uten teksteksempler",
+          "Personlige erfaringer uten faglig begrunnelse",
+          "Konkrete tekster og fagbegreper",
+          "Handlingsreferat uten fagbegreper"
+        ],
+        "correct": 2,
+        "explain": "Fagkunnskap er grunnlaget."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "En presentasjon har gode argumenter og eksempler, men innholdet kommer i en uklar rekkefølge. Forklar hvordan en tydelig innledning, hoveddel og avslutning kan gjøre argumentasjonen lettere å følge.",
+        "fasit": "Innledningen presenterer problemstillingen, hoveddelen redegjør og drøfter, og avslutningen oppsummerer og konkluderer. En slik struktur gjør det lettere for publikum å følge resonnementet.",
+        "kriterier": [
+          "Forklarer hvilken funksjon innledning, hoveddel og avslutning har.",
+          "Knytter tydelig struktur til at resonnementet blir lettere å følge."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En taler viser til kilder og bruker fagbegreper riktig, men presentasjonen mangler en logisk rekkefølge og tydelige argumenter. Forklar forskjellen på etos og logos i denne situasjonen.",
+        "fasit": "Kilder og riktig bruk av fagbegreper styrker etos fordi taleren virker troverdig. Logisk rekkefølge og tydelige argumenter hører til logos, som handler om at framstillingen virker fornuftig.",
+        "kriterier": [
+          "Knytter kilder og fagbegreper til troverdighet og etos.",
+          "Knytter struktur og argumenter til logos."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En elev skal presentere for yngre elever. Hun bruker mange vanskelige ord og uttrykk som ikke passer til publikum. Hvilken del av arbeidet med talen bør hun endre, og hva bør hun gjøre annerledes?",
+        "fasit": "Hun bør arbeide med elocutio, altså måten hun formulerer seg på. Hun bør velge ord og virkemidler som passer til publikum og situasjonen.",
+        "kriterier": [
+          "Identifiserer at formuleringen bør endres.",
+          "Forklarer at ordvalg og virkemidler bør tilpasses publikum eller situasjonen."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Under en presentasjon snakker en elev med samme tempo og tone hele tiden, ser mest på lysbildene og står urolig. Foreslå to konkrete endringer som kan gjøre framføringen bedre.",
+        "fasit": "Eleven kan variere tempo og tonefall og ha blikkontakt med hele publikum. Hun kan også stå stødig og bruke hendene naturlig.",
+        "kriterier": [
+          "Foreslår en relevant endring knyttet til stemmebruk eller blikkontakt.",
+          "Foreslår en relevant endring knyttet til kroppsspråk."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I en faglig diskusjon får du høre et argument som utfordrer synspunktet ditt. Beskriv hvordan du kan svare saklig og samtidig vise at du er åpen for å justere synet ditt.",
+        "fasit": "Jeg kan forklare hvorfor jeg ser saken annerledes og begrunne svaret med fagkunnskap eller et eksempel fra en tekst. Jeg kan også lytte til argumentet og justere synspunktet mitt hvis det gir grunn til det.",
+        "kriterier": [
+          "Beskriver et saklig svar som begrunnes med fagkunnskap eller et eksempel.",
+          "Viser at man lytter og kan være åpen for å justere synspunktet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "På muntlig eksamen skal en elev holde en presentasjon om et norskfaglig tema og deretter delta i en faglig samtale. Nevn to ting eleven bør planlegge eller øve på før eksamen, og forklar kort hvorfor de er nyttige.",
+        "fasit": "Eleven bør lage en tydelig problemstilling og en ryddig disposisjon, slik at presentasjonen får en klar retning. Hun bør også øve på å ta tiden og på å begrunne svar i samtalen.",
+        "kriterier": [
+          "Nevner et relevant forberedelsespunkt for presentasjonen, som problemstilling eller disposisjon.",
+          "Nevner et relevant øvingspunkt for presentasjonen eller samtalen og forklarer nytten."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En elev er nervøs før en presentasjon. Velg to råd som kan hjelpe, og forklar kort hvordan de kan brukes før eleven starter.",
+        "fasit": "Eleven kan øve høyt, gjerne for noen, og puste rolig før hun begynner. Øvingen gir forberedelse, mens rolig pusting kan hjelpe henne før framføringen.",
+        "kriterier": [
+          "Nevner to råd fra stoffet, for eksempel å øve høyt, øve for noen eller puste rolig.",
+          "Forklarer kort hvordan rådene brukes før framføringen eller hva de bidrar med."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En elev skal holde en presentasjon om hvorfor det er nyttig å øve. Skriv en kort anekdote hun kan bruke for å illustrere poenget, og forklar hvorfor den passer som anekdote.",
+        "fasit": "En elev øvde på presentasjonen sin høyt før framføringen og opplevde at hun kunne snakke friere. Dette passer som en anekdote fordi det er en kort fortelling som illustrerer et poeng.",
+        "kriterier": [
+          "Gir en kort fortelling som illustrerer nytten av å øve.",
+          "Forklarer at anekdoten er en kort fortelling som støtter et poeng."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

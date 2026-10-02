@@ -19,7 +19,7 @@ export default function Vilkar() {
       tittel="Bruksvilkår"
       oppdatert={VILKAR_OPPDATERT}
       kortFortalt={[
-        "Studer er en øvingstjeneste for elever fra 8. trinn til Vg3.",
+        "Studer er en øvingstjeneste for elever fra 8. trinn til Vg3, også påbygging til generell studiekompetanse.",
         `Du må være minst ${ALDERSGRENSE} år. Er du under 18, trenger du lov fra en forelder for å kjøpe abonnement.`,
         `De første ${PROVEDAGER} dagene er gratis. Avslutter du før prøveperioden er over, betaler du ingenting.`,
         "Du kan avslutte abonnementet når som helst under Min konto.",

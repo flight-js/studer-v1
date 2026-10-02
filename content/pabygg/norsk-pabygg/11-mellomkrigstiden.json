@@ -1,0 +1,432 @@
+{
+  "id": "mellomkrigstiden",
+  "fagId": "norsk-pabygg",
+  "trinnId": "pabygg",
+  "name": "Litteratur fra 1900 til 1945",
+  "intro": "Norsk litteratur i første halvdel av 1900-tallet: nyrealismen med Sigrid Undset og Olav Duun, psykologisk realisme hos Cora Sandel og Aksel Sandemose, arbeiderlitteratur, tidlig modernisme og den politiske lyrikken i møte med fascismen og krigen.",
+  "kompetansemaal": [
+    10,
+    11
+  ],
+  "sammendrag": "## Et urolig halvt århundre\n\nNorge ble **selvstendig** i **1905**. Deretter fulgte **første verdenskrig**, sterk **industrialisering**, **arbeiderbevegelsens** framvekst, **krisen** på 1930-tallet, **fascisme** i Europa og til slutt **andre verdenskrig** og okkupasjonen av Norge. Litteraturen speiler denne uroen.\n\n## Nyrealismen\n\nEtter nyromantikken vendte mange forfattere tilbake til en **realistisk** fortellemåte – ofte i store **romanverk**.\n\n- **Sigrid Undset** skrev **Kristin Lavransdatter** (1920–22), en trilogi fra **middelalderen** om en kvinne som velger kjærligheten mot farens vilje og må leve med konsekvensene. Undset fikk **Nobelprisen** i **1928**.\n- **Olav Duun** skrev på **nynorsk**. Romanserien **Juvikfolke** følger en slekt i Trøndelag gjennom flere hundre år og viser hvordan mennesket kan vokse fra **makt** til **godhet**.\n- **Knut Hamsun** skrev **Markens grøde** (1917) om nybyggeren Isak, som rydder jord i villmarka – en hyllest til **bondelivet** og en kritikk av det moderne.\n\n## Psykologisk realisme\n\n- **Cora Sandel** skrev **Alberte-trilogien** om en ung kvinne som kjemper for å bli **forfatter** og frigjøre seg – i en tid da kvinner hadde få muligheter.\n- **Aksel Sandemose** skrev **En flyktning krysser sitt spor** (1933). Her formulerer han **Janteloven** – «Du skal ikke tro at du er noe» – som beskriver hvordan et lite samfunn **knuser** den som skiller seg ut.\n\n## Arbeiderlitteratur\n\nMed arbeiderbevegelsen kom litteratur **om** og **for** arbeiderne.\n\n- **Kristofer Uppdal** skrev om **anleggsarbeidere** og industriarbeidere.\n- **Rudolf Nilsen** skrev kampdikt fra **Oslos østkant** og drømte om et nytt, rettferdig samfunn.\n\nLitteraturen skildret **klasseforskjeller**, harde arbeidsforhold og **solidaritet**.\n\n## Tidlig modernisme\n\n**Rolf Jacobsen** debuterte med **Jord og jern** (1933). Han skrev på **frie vers** uten rim og fast rytme og skildret **teknologi**, **byer** og **maskiner** – et nytt motiv i norsk lyrikk. Han regnes som en pioner for den **modernistiske** lyrikken i Norge.\n\n## Lyrikk mot fascismen\n\nPå 1930-tallet ble mange forfattere **politisk engasjert**.\n\n- **Arnulf Øverland** advarte mot nazismen i diktet «**Du må ikke sove**» (1937).\n- **Nordahl Grieg** skrev «**Til ungdommen**» (1936) med oppfordringen om å kjempe mot krig med **menneskeverd** som våpen. Grieg døde som krigskorrespondent i **1943**.\n\nUnder **okkupasjonen** ble dikt spredt i hemmelighet og ble en del av **motstandskampen**.\n\n## Menneske, natur og samfunn\n\n- Hos **Undset** og **Duun** står **moral**, **ansvar** og **tro** sentralt.\n- Hos **Hamsun** er **naturen** og **jorda** et motbilde til det moderne samfunnet.\n- Hos **arbeiderdikterne** og de **politiske** lyrikerne er **samfunnet** og **urett** i sentrum.\n- Hos **Sandel** og **Sandemose** handler det om **individets** kamp for frihet i et trangt miljø.\n\n## Refleksjon\n\nHamsun støttet **nazismen** under krigen og ble etter krigen dømt til å betale en stor erstatning. Saken reiser spørsmålet om vi kan **skille** et forfatterskap fra forfatterens **holdninger** – et spørsmål som fortsatt diskuteres.",
+  "flashcards": [
+    {
+      "term": "Nyrealismen",
+      "def": "Tilbakevending til realistisk fortellemåte etter 1900."
+    },
+    {
+      "term": "Sigrid Undset",
+      "def": "Skrev Kristin Lavransdatter og fikk Nobelprisen i 1928."
+    },
+    {
+      "term": "Kristin Lavransdatter",
+      "def": "Trilogi fra middelalderen utgitt 1920–22."
+    },
+    {
+      "term": "Olav Duun",
+      "def": "Nynorskforfatter som skrev romanserien Juvikfolke."
+    },
+    {
+      "term": "Markens grøde",
+      "def": "Hamsuns roman fra 1917 om nybyggeren Isak.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Cora Sandel",
+      "def": "Skrev Alberte-trilogien om en kvinne som vil bli forfatter."
+    },
+    {
+      "term": "Aksel Sandemose",
+      "def": "Formulerte Janteloven i En flyktning krysser sitt spor."
+    },
+    {
+      "term": "Janteloven",
+      "def": "«Du skal ikke tro at du er noe» – det trange samfunnets regler."
+    },
+    {
+      "term": "Arbeiderlitteratur",
+      "def": "Litteratur om og for arbeiderklassen."
+    },
+    {
+      "term": "Rudolf Nilsen",
+      "def": "Arbeiderdikter fra Oslos østkant.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Kristofer Uppdal",
+      "def": "Skrev om anleggs- og industriarbeidere.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Rolf Jacobsen",
+      "def": "Modernistisk pioner, debuterte med Jord og jern i 1933."
+    },
+    {
+      "term": "Frie vers",
+      "def": "Lyrikk uten fast rim og rytme."
+    },
+    {
+      "term": "Du må ikke sove",
+      "def": "Øverlands advarsel mot nazismen fra 1937."
+    },
+    {
+      "term": "Til ungdommen",
+      "def": "Nordahl Griegs dikt fra 1936 mot krig."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvem skrev Kristin Lavransdatter?",
+      "options": [
+        "Nini Roll Anker",
+        "Sigrid Undset",
+        "Ragnhild Jølsen",
+        "Barbra Ring"
+      ],
+      "correct": 1,
+      "explain": "Undset fikk Nobelprisen i 1928."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er Janteloven?",
+      "options": [
+        "Uskrevne regler som sier at du ikke skal tro du er noe",
+        "Uskrevne regler som sier hvordan folk skal kle seg offentlig",
+        "Politiske regler som bestemmer hvem som får eie jord",
+        "Formelle lover som regulerer arbeid og lønn i bygda"
+      ],
+      "correct": 0,
+      "explain": "Formulert av Aksel Sandemose."
+    },
+    {
+      "id": "q03",
+      "text": "Hvilken forfatter skrev Juvikfolke på nynorsk?",
+      "options": [
+        "Johan Falkberget",
+        "Kristofer Uppdal",
+        "Olav Duun",
+        "Olav Aukrust"
+      ],
+      "correct": 2,
+      "explain": "En slektsroman fra Trøndelag."
+    },
+    {
+      "id": "q04",
+      "text": "Hva var nytt i Rolf Jacobsens lyrikk?",
+      "options": [
+        "Faste rim og motiver fra sagaer og bygdeliv",
+        "Tradisjonelle strofer og temaer fra kirke og middelalder",
+        "Regelmessig rytme og motiver fra bondegårder og folkeliv",
+        "Frie vers og motiver fra teknologi og byer"
+      ],
+      "correct": 3,
+      "explain": "En pioner for modernismen."
+    },
+    {
+      "id": "q05",
+      "text": "Hva advarte Arnulf Øverland mot i «Du må ikke sove»?",
+      "options": [
+        "Nazismen",
+        "Kommunismen",
+        "Imperialismen",
+        "Militarismen"
+      ],
+      "correct": 0,
+      "explain": "Diktet er fra 1937."
+    },
+    {
+      "id": "q06",
+      "text": "Hva handler Markens grøde om?",
+      "options": [
+        "Fiskeren som slår seg ned ved kysten",
+        "Nybyggeren Isak som rydder jord",
+        "Bonden som flytter fra bygda til byen",
+        "Embetsmannen som vender tilbake til Kristiania"
+      ],
+      "correct": 1,
+      "explain": "En hyllest til bondelivet.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q07",
+      "text": "Hva kjennetegner arbeiderlitteraturen?",
+      "options": [
+        "Naturidyll, gårdsliv og tradisjonelle familieverdier",
+        "Byliv, maskiner og teknologisk utvikling",
+        "Klasseforskjeller og solidaritet blant arbeidere",
+        "Fortid, kongesagaer og middelalderske heltedåder"
+      ],
+      "correct": 2,
+      "explain": "Om og for arbeiderne."
+    },
+    {
+      "id": "q08",
+      "text": "Hva handler Alberte-trilogien om?",
+      "options": [
+        "En ung mann som prøver å finne arbeid i byen",
+        "En bonde som forsøker å skape seg et liv på gården",
+        "En familie som prøver å overleve under krigen",
+        "En ung kvinne som kjemper for å bli forfatter"
+      ],
+      "correct": 3,
+      "explain": "Skrevet av Cora Sandel."
+    },
+    {
+      "id": "q09",
+      "text": "Hvem skrev «Til ungdommen»?",
+      "options": [
+        "Nordahl Grieg",
+        "Inger Hagerup",
+        "Johan Borgen",
+        "Sigurd Hoel"
+      ],
+      "correct": 0,
+      "explain": "Fra 1936."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket spørsmål reiser Hamsuns støtte til nazismen?",
+      "options": [
+        "Om han skrev romanene sine på nynorsk eller bokmål",
+        "Om vi kan skille forfatterskapet fra forfatterens holdninger",
+        "Om romanene hans ble skrevet før eller etter Nobelprisen",
+        "Om han først ble kjent som poet eller romanforfatter"
+      ],
+      "correct": 1,
+      "explain": "Diskuteres fortsatt.",
+      "niva": "eksempel"
+    }
+  ],
+  "mindmap": {
+    "label": "Litteratur 1900–1945",
+    "children": [
+      {
+        "label": "Nyrealisme",
+        "children": [
+          {
+            "label": "Undset"
+          },
+          {
+            "label": "Duun"
+          },
+          {
+            "label": "Hamsun: Markens grøde"
+          }
+        ]
+      },
+      {
+        "label": "Psykologisk realisme",
+        "children": [
+          {
+            "label": "Cora Sandel"
+          },
+          {
+            "label": "Sandemose og Janteloven"
+          }
+        ]
+      },
+      {
+        "label": "Arbeiderlitteratur",
+        "children": [
+          {
+            "label": "Uppdal"
+          },
+          {
+            "label": "Rudolf Nilsen"
+          }
+        ]
+      },
+      {
+        "label": "Modernisme",
+        "children": [
+          {
+            "label": "Rolf Jacobsen"
+          },
+          {
+            "label": "Frie vers"
+          }
+        ]
+      },
+      {
+        "label": "Politisk lyrikk",
+        "children": [
+          {
+            "label": "Øverland"
+          },
+          {
+            "label": "Nordahl Grieg"
+          },
+          {
+            "label": "Motstandskamp"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Under okkupasjonen ble dikt spredt i hemmelighet.",
+        "correct": true,
+        "explain": "De ble en del av motstandskampen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Kristin Lavransdatter foregår i samtiden på 1920-tallet.",
+        "correct": false,
+        "explain": "Den foregår i middelalderen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Janteloven beskriver hvordan et lite samfunn kan knuse den som skiller seg ut.",
+        "correct": true,
+        "explain": "Sandemose, 1933."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Nordahl Grieg overlevde krigen.",
+        "correct": false,
+        "explain": "Han døde som krigskorrespondent i 1943.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva heter Rolf Jacobsens debutsamling?",
+        "options": [
+          "Den store hunger",
+          "Jord og jern",
+          "På gjengrodde stier",
+          "Den siste glæde"
+        ],
+        "correct": 1,
+        "explain": "Fra 1933."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilket tema står sentralt hos Undset og Duun?",
+        "options": [
+          "Moral, ansvar og tro",
+          "Klassekamp, lønn og fagforeninger",
+          "Nasjon, språk og selvstendighet",
+          "Byliv, maskiner og framtidstro"
+        ],
+        "correct": 0,
+        "explain": "Store romanverk om menneskelig utvikling."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Når ble Norge selvstendig?",
+        "options": [
+          "1900",
+          "1907",
+          "1905",
+          "1914"
+        ],
+        "correct": 2,
+        "explain": "Unionen med Sverige ble oppløst.",
+        "niva": "over-niva"
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva kjennetegner nyrealismen, og hvilken type verk skrev mange nyrealistiske forfattere?",
+        "fasit": "Nyrealismen var en tilbakevending til en realistisk fortellemåte etter nyromantikken. Mange forfattere skrev store romanverk.",
+        "kriterier": [
+          "Forklarer at nyrealismen vendte tilbake til en realistisk fortellemåte.",
+          "Nevner at mange skrev store romanverk."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign Kristin Lavransdatter og Juvikfolke ut fra hva slags fortellinger de er, og hva de skildrer.",
+        "fasit": "Kristin Lavransdatter er en trilogi fra middelalderen om en kvinne som velger kjærligheten mot farens vilje og må leve med konsekvensene. Juvikfolke følger en slekt i Trøndelag gjennom flere hundre år og viser hvordan mennesket kan vokse fra makt til godhet.",
+        "kriterier": [
+          "Beskriver Kristin Lavransdatter som en middelaldertrilogi om en kvinnes valg og konsekvensene av dem.",
+          "Beskriver Juvikfolke som en slektsserie over flere hundre år med utviklingen fra makt til godhet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Arbeiderbevegelsen vokste fram samtidig som industrialiseringen endret arbeidslivet. Forklar hvordan arbeiderlitteraturen knyttet seg til denne utviklingen.",
+        "fasit": "Arbeiderlitteraturen kom med arbeiderbevegelsen og ble skrevet om og for arbeiderne. Den skildret blant annet klasseforskjeller, harde arbeidsforhold og solidaritet.",
+        "kriterier": [
+          "Knytter arbeiderlitteraturens framvekst til arbeiderbevegelsen og arbeidernes liv.",
+          "Nevner hvordan litteraturen tok opp sosiale forhold som klasseforskjeller eller harde arbeidsforhold, gjerne også solidaritet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En diktsamling bruker frie vers og skildrer teknologi, byer og maskiner. Hvilken retning innen norsk lyrikk passer dette med, og hvilken forfatter er knyttet til den? Begrunn svaret.",
+        "fasit": "Dette passer med tidlig modernistisk lyrikk. Rolf Jacobsen regnes som en pioner for denne lyrikken, og han skrev frie vers om blant annet teknologi, byer og maskiner.",
+        "kriterier": [
+          "Kjenner igjen tidlig modernisme eller modernistisk lyrikk.",
+          "Knytter trekkene til Rolf Jacobsen og begrunner svaret med frie vers eller motiver som teknologi, byer og maskiner."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign hvordan Cora Sandel og Aksel Sandemose skildrer individets kamp for frihet i et trangt miljø.",
+        "fasit": "Sandel skildrer en ung kvinne som kjemper for å bli forfatter og frigjøre seg i en tid da kvinner hadde få muligheter. Sandemose viser hvordan et lite samfunn kan knuse den som skiller seg ut.",
+        "kriterier": [
+          "Knytter Sandels skildring til en kvinnes kamp for å bli forfatter og frigjøre seg.",
+          "Knytter Sandemoses skildring til et lite samfunn som motarbeider den som skiller seg ut."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "I et lite samfunn blir en person stadig holdt tilbake når hen prøver å skille seg ut. Bruk begrepet Janteloven til å forklare hva som skjer med personen.",
+        "fasit": "Situasjonen uttrykker Janteloven: den som skiller seg ut, blir møtt med budskapet om at hen ikke skal tro at hen er noe. Slike regler kan begrense personens frihet og mulighet til å utvikle seg.",
+        "kriterier": [
+          "Forklarer at Janteloven handler om at et lite samfunn holder tilbake den som skiller seg ut.",
+          "Viser hvordan dette kan begrense individets frihet eller mulighet til å utvikle seg."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Under okkupasjonen ble dikt spredt i hemmelighet. Forklar hvordan dette kunne gjøre lyrikk til en del av motstandskampen.",
+        "fasit": "Politisk engasjerte dikt kunne uttrykke motstand mot fascisme og krig. Når diktene ble spredt i hemmelighet under okkupasjonen, ble de en del av motstandskampen.",
+        "kriterier": [
+          "Knytter diktene til politisk motstand mot fascisme eller krig.",
+          "Forklarer at hemmelig spredning under okkupasjonen gjorde diktene til en del av motstandskampen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Sammenlign hva som står i sentrum hos Hamsun på den ene siden og arbeiderdikterne og de politiske lyrikerne på den andre.",
+        "fasit": "Hos Hamsun blir naturen og jorda et motbilde til det moderne samfunnet. Arbeiderdikterne og de politiske lyrikerne retter oppmerksomheten mot samfunnet og urett.",
+        "kriterier": [
+          "Forklarer at Hamsun framhever naturen og jorda som et motbilde til det moderne.",
+          "Forklarer at arbeiderdikterne og de politiske lyrikerne retter søkelyset mot samfunnet og urett."
+        ],
+        "niva": "eksempel"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

@@ -108,7 +108,7 @@ function Fagvalg() {
         <div
           role="radiogroup"
           aria-labelledby="trinn-label"
-          className="grid grid-cols-3 sm:flex gap-1 p-1 bg-sunken rounded-2xl w-full sm:w-fit"
+          className="grid grid-cols-4 sm:flex gap-1 p-1 bg-sunken rounded-2xl w-full sm:w-fit"
         >
           {alleTrinn.map((t) => {
             const active = t.id === trinn?.id;
@@ -118,7 +118,7 @@ function Fagvalg() {
                 role="radio"
                 aria-checked={active}
                 onClick={() => velg(t.id)}
-                className={`px-3 sm:px-5 py-2.5 rounded-xl text-sm font-semibold transition-[background-color,color,box-shadow] duration-200 ${
+                className={`px-1.5 sm:px-5 py-2.5 rounded-xl text-sm font-semibold whitespace-nowrap transition-[background-color,color,box-shadow] duration-200 ${
                   active
                     ? "bg-surface text-foreground shadow-[0_1px_3px_rgba(60,48,30,0.12)]"
                     : "text-muted hover:text-foreground"

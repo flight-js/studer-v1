@@ -124,6 +124,17 @@
         { "id": "sosialkunnskap", "navn": "Sosialkunnskap" },
         { "id": "markedsforing-og-ledelse-2", "navn": "Markedsføring og ledelse 2" }
       ]
+    },
+    {
+      "id": "pabygg",
+      "navn": "Påbygg",
+      "skoleniva": "vgs",
+      "fag": [
+        { "id": "norsk-pabygg", "navn": "Norsk" },
+        { "id": "historie-pabygg", "navn": "Historie" },
+        { "id": "matematikk-2py", "navn": "Matematikk 2P-Y" },
+        { "id": "naturfag-pabygg", "navn": "Naturfag" }
+      ]
     }
   ]
 }

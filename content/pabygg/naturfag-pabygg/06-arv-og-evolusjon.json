@@ -1,0 +1,434 @@
+{
+  "id": "arv-og-evolusjon",
+  "fagId": "naturfag-pabygg",
+  "trinnId": "pabygg",
+  "name": "DNA, arv og evolusjon",
+  "intro": "Hva DNA og gener er, hvordan egenskaper arves gjennom meiose og kjønnet formering, dominante og recessive alleler, mutasjoner og variasjon, naturlig utvalg – og hvordan klimaendringer påvirker evolusjon, utbredelse og biologisk mangfold.",
+  "kompetansemaal": [
+    7,
+    8
+  ],
+  "sammendrag": "## DNA og gener\n\n**DNA** er arvestoffet vårt. Det er formet som en **dobbel spiral** (dobbeltheliks) av **nukleotider** med fire baser: **A, T, C og G**. A parer seg alltid med T, og C med G. Rekkefølgen av basene er en **kode**.\n\nEt **gen** er en bit av DNA som inneholder oppskriften på et **protein**. Proteinene bestemmer mange av egenskapene våre. DNA-et er pakket i **kromosomer**. Mennesker har **46 kromosomer** – **23 par** – i nesten alle celler, ett sett fra mor og ett fra far.\n\n## Celledeling\n\n- **Mitose**: gir to **like** celler med samme antall kromosomer. Brukes til vekst og reparasjon.\n- **Meiose**: gir **kjønnsceller** (egg og sædceller) med **halvt** antall kromosomer. Kromosomene blandes, slik at alle kjønnsceller blir **ulike**.\n\nVed befruktning smelter en eggcelle og en sædcelle sammen, og det nye individet får en **ny kombinasjon** av gener. Derfor gir **kjønnet formering** stor **variasjon**.\n\n## Arv av egenskaper\n\nVi har to utgaver – **alleler** – av hvert gen.\n\n- Et **dominant** allel (A) viser seg selv om det bare finnes én kopi.\n- Et **recessivt** allel (a) viser seg bare når individet har **to** kopier (aa).\n- **Genotype**: kombinasjonen av alleler, for eksempel Aa.\n- **Fenotype**: egenskapen som vises.\n- **Homozygot**: to like alleler (AA eller aa). **Heterozygot**: to ulike (Aa).\n\nTo heterozygote foreldre (Aa × Aa) kan få barn med genotypene AA, Aa og aa i forholdet **1 : 2 : 1**. Da vil omtrent **3 av 4** vise den dominante egenskapen.\n\n## Mutasjoner\n\n**Mutasjoner** er endringer i DNA. De fleste er nøytrale eller skadelige, men noen kan gi en **fordel**. Mutasjoner er den **opprinnelige kilden** til ny variasjon.\n\n## Evolusjon\n\n**Charles Darwin** beskrev evolusjon ved **naturlig utvalg** i boka *Artenes opprinnelse* (1859):\n\n1. Individer i en art **varierer**.\n2. Mye av variasjonen er **arvelig**.\n3. Det fødes flere individer enn det miljøet har plass til.\n4. Individer med egenskaper som passer godt til miljøet, **overlever og får flere avkom**.\n5. Over mange generasjoner blir disse egenskapene vanligere – arten **tilpasser seg**.\n\n**Arv er altså en forutsetning for evolusjon**: Uten arvelig variasjon har det naturlige utvalget ingenting å virke på.\n\n## Klimaendringer og evolusjon\n\nNår klimaet endrer seg raskt, må arter enten **flytte**, **tilpasse seg** eller risikere å **dø ut**.\n\n- Mange arter flytter **nordover** og **høyere opp i fjellet**.\n- Våren kommer tidligere, og planter og dyr kan komme **i utakt** – for eksempel når insektene klekkes før fuglene får unger.\n- Arter med **stor genetisk variasjon** og **kort generasjonstid** har større sjanse til å tilpasse seg.\n- Fjellarter, som **fjellrev**, kan få mindre leveområde og mer konkurranse fra arter som rødrev.\n\n**Biologisk mangfold** omfatter mangfoldet av **gener**, **arter** og **økosystemer**. Mange klimaendringer skjer raskere enn evolusjonen klarer å følge, og det truer mangfoldet.",
+  "flashcards": [
+    {
+      "term": "DNA",
+      "def": "Arvestoffet, en dobbel spiral av nukleotider."
+    },
+    {
+      "term": "Baseparing",
+      "def": "A parer med T, og C parer med G."
+    },
+    {
+      "term": "Gen",
+      "def": "En bit av DNA med oppskriften på et protein."
+    },
+    {
+      "term": "Kromosom",
+      "def": "Pakket DNA; mennesker har 46, i 23 par."
+    },
+    {
+      "term": "Mitose",
+      "def": "Celledeling som gir to like celler."
+    },
+    {
+      "term": "Meiose",
+      "def": "Celledeling som gir kjønnsceller med halvt antall kromosomer."
+    },
+    {
+      "term": "Allel",
+      "def": "En utgave av et gen."
+    },
+    {
+      "term": "Dominant allel",
+      "def": "Viser seg selv med bare én kopi."
+    },
+    {
+      "term": "Recessivt allel",
+      "def": "Viser seg bare med to kopier."
+    },
+    {
+      "term": "Genotype og fenotype",
+      "def": "Kombinasjonen av alleler og egenskapen som vises."
+    },
+    {
+      "term": "Aa × Aa",
+      "def": "Gir AA, Aa og aa i forholdet 1 : 2 : 1."
+    },
+    {
+      "term": "Mutasjon",
+      "def": "Endring i DNA – den opprinnelige kilden til ny variasjon."
+    },
+    {
+      "term": "Naturlig utvalg",
+      "def": "Individer som passer best til miljøet, får flest avkom."
+    },
+    {
+      "term": "Charles Darwin",
+      "def": "Beskrev evolusjon ved naturlig utvalg i 1859."
+    },
+    {
+      "term": "Biologisk mangfold",
+      "def": "Mangfoldet av gener, arter og økosystemer."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvilken base parer seg med A i DNA?",
+      "options": [
+        "C",
+        "T",
+        "G",
+        "A"
+      ],
+      "correct": 1,
+      "explain": "I DNA pares A med T, og C med G."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor mange kromosomer har en vanlig kroppscelle hos mennesker?",
+      "options": [
+        "46",
+        "23",
+        "44",
+        "48"
+      ],
+      "correct": 0,
+      "explain": "Menneskers kroppsceller har 46 kromosomer, ordnet i 23 par."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er resultatet av meiose?",
+      "options": [
+        "Kroppsceller med halvparten så mange kromosomer",
+        "Kjønnsceller med like mange kromosomer som kroppsceller",
+        "Kjønnsceller med halvparten så mange kromosomer",
+        "To genetisk like celler med fullt kromosomtall"
+      ],
+      "correct": 2,
+      "explain": "Meiose gir variasjon i kjønnscellene."
+    },
+    {
+      "id": "q04",
+      "text": "Når viser et recessivt allel seg?",
+      "options": [
+        "Når individet har to ulike alleler",
+        "Når individet har minst én dominant variant",
+        "Når individet har tre kopier av allelet",
+        "Når individet har to kopier av allelet"
+      ],
+      "correct": 3,
+      "explain": "Genotypen må være aa."
+    },
+    {
+      "id": "q05",
+      "text": "To foreldre er heterozygote (Aa). Hvor stor er sjansen for at et barn får genotypen aa?",
+      "options": [
+        "1 av 4",
+        "1 av 3",
+        "2 av 3",
+        "2 av 4"
+      ],
+      "correct": 0,
+      "explain": "Aa × Aa gir AA, Aa, Aa og aa. Én av de fire mulige kombinasjonene er aa."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den opprinnelige kilden til ny genetisk variasjon?",
+      "options": [
+        "Kjønnet formering",
+        "Mutasjoner",
+        "Naturlig utvalg",
+        "Genetisk drift"
+      ],
+      "correct": 1,
+      "explain": "Kjønnet formering blander variasjonen på nye måter."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er arv en forutsetning for evolusjon?",
+      "options": [
+        "Fordi naturlig utvalg virker på egenskaper som læres gjennom livet",
+        "Fordi naturlig utvalg endrer egenskaper hos hvert individ gjennom livet",
+        "Fordi naturlig utvalg virker på egenskaper som arves av avkommet",
+        "Fordi arvelige egenskaper hindrer miljøet i å påvirke individer"
+      ],
+      "correct": 2,
+      "explain": "Uten arvelig variasjon skjer ingen evolusjon."
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan reagerer mange arter på et varmere klima?",
+      "options": [
+        "De flytter sørover og lavere ned i fjellet",
+        "De flytter mot ekvator og lavere ned i fjellet",
+        "De blir på samme sted og endrer genene sine i løpet av livet",
+        "De flytter nordover og høyere opp i fjellet"
+      ],
+      "correct": 3,
+      "explain": "De følger temperaturen de er tilpasset."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er forskjellen på genotype og fenotype?",
+      "options": [
+        "Genotypen er allelkombinasjonen, fenotypen er egenskapen som vises",
+        "Genotypen er egenskapen som vises, fenotypen er allelkombinasjonen",
+        "Genotypen er miljøet rundt individet, fenotypen er genene det arver",
+        "Genotypen er kromosomantallet, fenotypen er genenes rekkefølge"
+      ],
+      "correct": 0,
+      "explain": "Aa og AA kan gi samme fenotype."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilke arter har størst sjanse til å tilpasse seg raske klimaendringer?",
+      "options": [
+        "Arter med liten genetisk variasjon og lang tid mellom generasjoner",
+        "Arter med stor genetisk variasjon og kort generasjonstid",
+        "Arter med få avkom og lang tid mellom generasjoner",
+        "Arter med ensartede egenskaper og sen kjønnsmodning"
+      ],
+      "correct": 1,
+      "explain": "Mye variasjon og raske generasjoner gir raskere tilpasning."
+    }
+  ],
+  "mindmap": {
+    "label": "Arv og evolusjon",
+    "children": [
+      {
+        "label": "DNA",
+        "children": [
+          {
+            "label": "Dobbel spiral"
+          },
+          {
+            "label": "A–T og C–G"
+          },
+          {
+            "label": "Gener og kromosomer"
+          }
+        ]
+      },
+      {
+        "label": "Celledeling",
+        "children": [
+          {
+            "label": "Mitose"
+          },
+          {
+            "label": "Meiose"
+          },
+          {
+            "label": "Befruktning"
+          }
+        ]
+      },
+      {
+        "label": "Arv",
+        "children": [
+          {
+            "label": "Dominant og recessiv"
+          },
+          {
+            "label": "Genotype og fenotype"
+          },
+          {
+            "label": "Krysningsskjema"
+          }
+        ]
+      },
+      {
+        "label": "Evolusjon",
+        "children": [
+          {
+            "label": "Variasjon og mutasjoner"
+          },
+          {
+            "label": "Naturlig utvalg"
+          },
+          {
+            "label": "Darwin"
+          }
+        ]
+      },
+      {
+        "label": "Klima",
+        "children": [
+          {
+            "label": "Arter flytter"
+          },
+          {
+            "label": "Utakt i naturen"
+          },
+          {
+            "label": "Biologisk mangfold"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kjønnet formering gir stor genetisk variasjon.",
+        "correct": true,
+        "explain": "Hvert avkom får en ny kombinasjon av gener."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle mutasjoner er skadelige.",
+        "correct": false,
+        "explain": "De fleste er nøytrale eller skadelige, men noen gir en fordel."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Biologisk mangfold omfatter både gener, arter og økosystemer.",
+        "correct": true,
+        "explain": "Alle tre nivåene er viktige."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Mitose gir kjønnsceller.",
+        "correct": false,
+        "explain": "Meiose gir kjønnsceller. Mitose gir like kroppsceller."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva betyr det at et individ er heterozygot?",
+        "options": [
+          "Det har to like alleler for samme gen",
+          "Det har to ulike alleler for samme gen",
+          "Det har ett allel for hvert gen i cellene",
+          "Det har tre ulike alleler for samme gen"
+        ],
+        "correct": 1,
+        "explain": "For eksempel Aa."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken bok ga Darwin ut i 1859?",
+        "options": [
+          "Artenes opprinnelse",
+          "Menneskets avstamning",
+          "Reisen med Beagle",
+          "Dyr og planter under domestisering"
+        ],
+        "correct": 0,
+        "explain": "Boka beskrev evolusjon ved naturlig utvalg.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva kan skje når våren kommer tidligere?",
+        "options": [
+          "Planter og dyr kan endre genene sine når våren kommer tidligere",
+          "Planter og dyr kan arve egenskaper de har fått i løpet av livet",
+          "Planter og dyr kan komme i utakt når årstidene endres",
+          "Planter og dyr kan tilpasse arveanleggene sine etter behov"
+        ],
+        "correct": 2,
+        "explain": "For eksempel kan insektene klekkes før fugleungene trenger mat."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et gen er en del av DNA. Forklar hva et gen inneholder en oppskrift på, og hvordan dette kan påvirke egenskaper.",
+        "fasit": "Et gen inneholder en oppskrift på et protein. Proteinene bestemmer mange av egenskapene våre.",
+        "kriterier": [
+          "Forklarer at et gen inneholder oppskriften på et protein.",
+          "Knytter proteiner til egenskaper."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign mitose og meiose ved å forklare hva slags celler de lager, og hvordan kromosomtallet i cellene skiller seg fra hverandre.",
+        "fasit": "Mitose lager to like celler med samme antall kromosomer som utgangscellen. Meiose lager kjønnsceller med halvt antall kromosomer.",
+        "kriterier": [
+          "Sier at mitose gir like celler med samme kromosomtall.",
+          "Sier at meiose gir kjønnsceller med halvt kromosomtall."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En menneskelig kroppscelle har 46 kromosomer. Kjønnsceller har halvparten så mange. Hvor mange kromosomer har en kjønnscelle? Vis regnestykket.",
+        "fasit": "En kjønnscelle har 23 kromosomer. Regnestykket er 46 ÷ 2 = 23.",
+        "kriterier": [
+          "Viser at 46 deles på 2.",
+          "Oppgir 23 kromosomer."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "To heterozygote foreldre får 12 barn. Bruk forholdet AA : Aa : aa = 1 : 2 : 1 til å regne ut hvor mange barn som forventes i hver gruppe.",
+        "fasit": "Forholdet har til sammen 4 deler, så hver del tilsvarer 12 ÷ 4 = 3 barn. Det forventes 3 med AA, 6 med Aa og 3 med aa.",
+        "kriterier": [
+          "Finner at én del tilsvarer 3 barn.",
+          "Oppgir forventet fordeling: 3 AA, 6 Aa og 3 aa."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "I en art finnes det individer med ulike, arvelige egenskaper. En av egenskapene passer særlig godt til miljøet. Forklar hvordan naturlig utvalg kan gjøre denne egenskapen vanligere over mange generasjoner.",
+        "fasit": "Individer med egenskapen som passer godt til miljøet, overlever og får flere avkom. Hvis egenskapen er arvelig, blir den vanligere i arten over mange generasjoner.",
+        "kriterier": [
+          "Forklarer at individer med en fordelaktig egenskap overlever og får flere avkom.",
+          "Knytter økningen i egenskapen til at den er arvelig og føres videre over generasjoner."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En mutasjon gir et individ en egenskap som er en fordel i miljøet det lever i. Forklar hvordan mutasjonen kan bidra til evolusjon.",
+        "fasit": "Mutasjonen er en endring i DNA som gir ny variasjon. Hvis egenskapen er en fordel, kan individet få flere avkom, og egenskapen kan bli vanligere over generasjoner.",
+        "kriterier": [
+          "Knytter mutasjonen til en endring i DNA og ny variasjon.",
+          "Forklarer at en fordelaktig egenskap kan bli vanligere gjennom flere avkom og generasjoner."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Når våren kommer tidligere, klekkes insektene før fuglene får unger. Forklar hva det betyr at insektene og fuglene kan komme i utakt.",
+        "fasit": "Det betyr at tidspunktet for når insektene klekkes, ikke lenger passer med tidspunktet fuglene får unger. Insektene klekkes tidligere enn fuglene får unger.",
+        "kriterier": [
+          "Forklarer at tidspunktet for to hendelser ikke lenger passer sammen.",
+          "Bruker situasjonen riktig: insektene klekkes før fuglene får unger."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Fjellreven kan få mindre leveområde når klimaet endrer seg, samtidig som rødreven kan konkurrere med den. Forklar hvorfor dette kan bli en utfordring for fjellreven.",
+        "fasit": "Et mindre leveområde gir fjellreven mindre plass å leve på. Konkurranse fra rødreven kan gjøre det vanskeligere for fjellreven å klare seg.",
+        "kriterier": [
+          "Forklarer at mindre leveområde betyr mindre plass eller færre steder å leve.",
+          "Forklarer at konkurranse fra rødreven er en ekstra utfordring for fjellreven."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "id": "norron-litteratur",
+  "fagId": "norsk-pabygg",
+  "trinnId": "pabygg",
+  "name": "Norrøn litteratur",
+  "intro": "Eddadikt, skaldedikt, islendingesagaer og kongesagaer: hvordan norrøne tekster er bygd opp, hvilke verdier de uttrykker – ære, hevn og skjebne – og hvordan de kan sammenlignes med tekster fra nyere tid.",
+  "kompetansemaal": [
+    1
+  ],
+  "sammendrag": "## Den norrøne perioden\n\n**Norrøn tid** regnes omtrent fra **800 til 1350**. Mye av det vi kjenner av norrøn litteratur, ble skrevet ned på **Island** på **1200-tallet**, men mange av tekstene bygger på eldre **muntlig tradisjon**. Språket var **norrønt**, som ble snakket i Norge og på Island.\n\n## Eddadikt\n\n**Eddadiktene** er anonyme dikt om **guder** og **helter**.\n\n- **Voluspå** (Vølvas spådom) forteller om verdens skapelse og undergang – **Ragnarok** – og om en ny verden som reiser seg.\n- **Håvamål** (Den Høyes tale) er en samling **leveregler** om vennskap, gjestfrihet, måtehold og ettermæle. Et kjent vers sier at fe og frender dør, men at et godt **ettermæle** aldri dør.\n\n## Skaldedikt\n\n**Skaldene** var diktere ved kongens hoff. De hyllet konger og krigere i dikt med strenge regler for rytme og rim, og med **kenninger** – omskrivninger som «havets hest» for skip og «sverdenes regn» for kamp.\n\n## Islendingesagaene\n\n**Islendingesagaene** ble skrevet på 1200-tallet om hendelser på Island omkring **900–1050**. Kjente sagaer er **Njåls saga**, **Egils saga** og **Laksdøla saga**. Typiske trekk:\n\n- **Saklig og kortfattet stil** – fortelleren kommenterer sjelden.\n- **Indirekte personkarakteristikk** – personene vises gjennom handlinger og **replikker**, ofte korte og lakoniske.\n- **Ætt**, **ære** og **hevn** står sentralt: En fornærmelse mot én person var en fornærmelse mot hele ætta.\n- **Skjebnetro**: **Drømmer** og **varsler** peker fram mot det som skal skje (**frampek**).\n- **Kronologisk** komposisjon med mange personer og slektsopplysninger.\n\n## Kongesagaene\n\n**Snorre Sturlason** (1179–1241) skrev **Heimskringla**, historien om de norske kongene fra sagntiden til 1177. Sagaene om **Olav Tryggvason** og **Olav den hellige** skildrer kristningen av Norge. Heimskringla har hatt stor betydning for norsk **nasjonal identitet**, særlig på 1800-tallet.\n\n## Å lese norrøne tekster i dag\n\nVi leser tekstene i **oversettelse**. Når du tolker dem, er det viktig å forstå **konteksten**: et samfunn uten stat og politi, der ætta måtte beskytte seg selv, og der **ettermælet** – hva andre sa om deg etter døden – var avgjørende.\n\n## Sammenligning med nyere tekster\n\n- Den **saklige stilen** og de **korte replikkene** i sagaene minner om moderne **krimlitteratur** og **minimalistisk** prosa.\n- **Æresbegrepet** finnes fortsatt – i noen miljøer og i fortellinger om **hevn** i film og serier.\n- Mange **fantasyverk**, filmer og spill henter figurer og motiver fra norrøn mytologi.\n\nSpør: Hva er likt, og hva er annerledes i synet på individ, familie, ære og skjebne?",
+  "flashcards": [
+    {
+      "term": "Norrøn tid",
+      "def": "Omtrent 800–1350."
+    },
+    {
+      "term": "Eddadikt",
+      "def": "Anonyme dikt om guder og helter."
+    },
+    {
+      "term": "Voluspå",
+      "def": "Eddadikt om verdens skapelse og undergang."
+    },
+    {
+      "term": "Ragnarok",
+      "def": "Verdens undergang i norrøn mytologi."
+    },
+    {
+      "term": "Håvamål",
+      "def": "Eddadikt med leveregler om vennskap, måtehold og ettermæle."
+    },
+    {
+      "term": "Ettermæle",
+      "def": "Det andre sier om deg etter at du er død."
+    },
+    {
+      "term": "Skald",
+      "def": "Dikter ved kongens hoff."
+    },
+    {
+      "term": "Kenning",
+      "def": "Omskrivning, som «havets hest» for skip."
+    },
+    {
+      "term": "Islendingesagaer",
+      "def": "Sagaer skrevet på 1200-tallet om islandske ætter omkring 900–1050."
+    },
+    {
+      "term": "Njåls saga",
+      "def": "En av de mest kjente islendingesagaene."
+    },
+    {
+      "term": "Lakonisk replikk",
+      "def": "Kort, underdrevet utsagn – typisk i sagaene."
+    },
+    {
+      "term": "Ære og hevn",
+      "def": "Sentrale verdier i sagasamfunnet."
+    },
+    {
+      "term": "Snorre Sturlason",
+      "def": "Skrev Heimskringla, sagaene om de norske kongene."
+    },
+    {
+      "term": "Heimskringla",
+      "def": "Kongesagaene, som fikk stor betydning for norsk nasjonal identitet."
+    },
+    {
+      "term": "Frampek i sagaene",
+      "def": "Drømmer og varsler som peker fram mot det som skal skje."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva handler Voluspå om?",
+      "options": [
+        "Ættenes strid og hevnoppgjør",
+        "Verdens skapelse og undergang",
+        "Norske konger og maktkamper",
+        "Heltenes reiser og bragder"
+      ],
+      "correct": 1,
+      "explain": "Den forteller også om en ny verden etter Ragnarok."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er Håvamål?",
+      "options": [
+        "En samling med leveregler",
+        "En saga om norske konger",
+        "En saga om islandske høvdinger",
+        "Et kvad om norrøne guder"
+      ],
+      "correct": 0,
+      "explain": "Den handler om vennskap, gjestfrihet og ettermæle."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er en kenning?",
+      "options": [
+        "Et versmål, som bestemmer rytmen i et dikt",
+        "Et rimskjema, som bestemmer lydene sist i vers",
+        "En omskrivning, som «havets hest» for skip",
+        "Et tilnavn, som brukes om en norrøn gud"
+      ],
+      "correct": 2,
+      "explain": "Kenninger er typiske for skaldedikt."
+    },
+    {
+      "id": "q04",
+      "text": "Hvem skrev Heimskringla?",
+      "options": [
+        "Egil Skallagrimsson",
+        "Ari Þorgilsson",
+        "Sæmund Frode",
+        "Snorre Sturlason"
+      ],
+      "correct": 3,
+      "explain": "Heimskringla er sagaene om de norske kongene."
+    },
+    {
+      "id": "q05",
+      "text": "Hvordan skildres personene vanligvis i islendingesagaene?",
+      "options": [
+        "Indirekte, gjennom handlinger og replikker",
+        "Direkte, gjennom fortellerens vurderinger og forklaringer",
+        "Utførlig, gjennom personenes indre tanker og følelser",
+        "Symbolsk, gjennom drømmer og varsler om framtiden"
+      ],
+      "correct": 0,
+      "explain": "Stilen er saklig og kortfattet."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor var ære og hevn så viktig i sagasamfunnet?",
+      "options": [
+        "Fordi kongen krevde at ættene selv hevnet fornærmelser",
+        "Fordi ætta selv måtte beskytte seg uten stat og politi",
+        "Fordi kirken krevde at slekten forsvarte sin ære",
+        "Fordi hevn var en måte å vinne status ved hoffet"
+      ],
+      "correct": 1,
+      "explain": "En fornærmelse mot én var en fornærmelse mot hele ætta."
+    },
+    {
+      "id": "q07",
+      "text": "Når ble de fleste islendingesagaene skrevet ned?",
+      "options": [
+        "På 1100-tallet",
+        "På 1300-tallet",
+        "På 1200-tallet",
+        "På 1400-tallet"
+      ],
+      "correct": 2,
+      "explain": "De handler om hendelser rundt 900–1050."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er ettermæle?",
+      "options": [
+        "En tekst hugget på en gravstein",
+        "Et dikt framført under en gravferd",
+        "En fordeling av arv etter et dødsfall",
+        "Det folk sier om deg etter din død"
+      ],
+      "correct": 3,
+      "explain": "Ifølge Håvamål dør aldri et godt ettermæle."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken funksjon har drømmer og varsler i sagaene?",
+      "options": [
+        "De peker fram mot det som skal skje",
+        "De oppsummerer hendelser som allerede har skjedd",
+        "De forklarer slektsforhold mellom sagaens sentrale personer",
+        "De viser hvilke lover sagaens personer må følge"
+      ],
+      "correct": 0,
+      "explain": "Det uttrykker skjebnetro."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken moderne sjanger minner sagastilen ofte om?",
+      "options": [
+        "Historiske romaner og romantiske dikt",
+        "Krimlitteratur og minimalistisk prosa",
+        "Eventyrfortellinger og fantasyromaner",
+        "Reiseskildringer og biografisk prosa"
+      ],
+      "correct": 1,
+      "explain": "Saklig stil og korte replikker.",
+      "niva": "eksempel"
+    }
+  ],
+  "mindmap": {
+    "label": "Norrøn litteratur",
+    "children": [
+      {
+        "label": "Eddadikt",
+        "children": [
+          {
+            "label": "Voluspå"
+          },
+          {
+            "label": "Håvamål"
+          },
+          {
+            "label": "Guder og helter"
+          }
+        ]
+      },
+      {
+        "label": "Skaldedikt",
+        "children": [
+          {
+            "label": "Hoffdiktere"
+          },
+          {
+            "label": "Kenninger"
+          }
+        ]
+      },
+      {
+        "label": "Islendingesagaer",
+        "children": [
+          {
+            "label": "Saklig stil"
+          },
+          {
+            "label": "Indirekte karakteristikk"
+          },
+          {
+            "label": "Ære og hevn"
+          },
+          {
+            "label": "Skjebne og frampek"
+          }
+        ]
+      },
+      {
+        "label": "Kongesagaer",
+        "children": [
+          {
+            "label": "Snorre"
+          },
+          {
+            "label": "Heimskringla"
+          },
+          {
+            "label": "Nasjonal identitet"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Oversettelser"
+          },
+          {
+            "label": "Krim og fantasy"
+          },
+          {
+            "label": "Sammenligning"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mye av den norrøne litteraturen ble skrevet ned på Island.",
+        "correct": true,
+        "explain": "Særlig på 1200-tallet."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Fortelleren i sagaene kommenterer ofte personenes følelser.",
+        "correct": false,
+        "explain": "Stilen er saklig, og fortelleren kommenterer sjelden."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Eddadiktene er anonyme.",
+        "correct": true,
+        "explain": "Vi vet ikke hvem som diktet dem."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Heimskringla handler om islandske bønder.",
+        "correct": false,
+        "explain": "Heimskringla handler om de norske kongene."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken av disse er en islendingesaga?",
+        "options": [
+          "Fagrskinna",
+          "Njåls saga",
+          "Morkinskinna",
+          "Ynglinga saga"
+        ],
+        "correct": 1,
+        "explain": "Egils saga og Laksdøla saga er andre eksempler."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en lakonisk replikk?",
+        "options": [
+          "En kort, underdrevet replikk i en samtale",
+          "En lang tale med mange forklarende detaljer",
+          "Et dikt med enderim i hver verselinje",
+          "Et spørsmål som ber om et utfyllende svar"
+        ],
+        "correct": 0,
+        "explain": "Typisk for sagastilen."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor fikk Heimskringla stor betydning på 1800-tallet?",
+        "options": [
+          "Fordi den innførte moderne norsk som skriftspråk",
+          "Fordi den framstilte danske konger som Norges herskere",
+          "Fordi den styrket norsk nasjonal identitet",
+          "Fordi den gjorde kristen tro til norsk statsreligion"
+        ],
+        "correct": 2,
+        "explain": "Den viste at Norge hadde en stor fortid som eget kongerike.",
+        "niva": "eksempel"
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Norrøn tid regnes omtrent fra 800 til 1350. Hvilket språk ble snakket i Norge og på Island i denne perioden?",
+        "fasit": "Språket var norrønt, som ble snakket både i Norge og på Island.",
+        "kriterier": [
+          "Slår fast at språket var norrønt.",
+          "Knytter språket til både Norge og Island."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Mye norrøn litteratur ble skrevet ned på Island på 1200-tallet, men tekstene bygger ofte på eldre muntlig tradisjon. Forklar hvordan dette henger sammen.",
+        "fasit": "Fortellingene kunne bli overlevert muntlig før de ble skrevet ned. Derfor kan en tekst være skrevet på 1200-tallet, selv om innholdet bygger på eldre fortellinger.",
+        "kriterier": [
+          "Skiller mellom tidspunktet tekstene ble skrevet ned og den eldre muntlige overleveringen.",
+          "Forklarer at muntlig tradisjon kan ha blitt bevart fram til nedskrivingen."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign eddadikt og skaldedikt: Hva handler de typisk om, og hvem laget dem?",
+        "fasit": "Eddadiktene er anonyme dikt om guder og helter. Skaldedikt ble laget av skalder ved kongens hoff og hyllet ofte konger og krigere.",
+        "kriterier": [
+          "Beskriver eddadikt som anonyme dikt om guder og helter.",
+          "Beskriver skaldene som hoffdiktere som ofte hyllet konger og krigere."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En dikter ved kongens hoff hyller en kriger og bruker uttrykket «sverdenes regn». Hva kalles dikteren, og hva viser uttrykket til?",
+        "fasit": "Dikteren er en skald. «Sverdenes regn» er en kenning som viser til kamp.",
+        "kriterier": [
+          "Identifiserer dikteren som en skald.",
+          "Forklarer at uttrykket er en omskrivning for kamp."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Islendingesagaene ble skrevet på 1200-tallet, men handler om hendelser på Island omkring 900–1050. Forklar forskjellen mellom disse tidspunktene.",
+        "fasit": "1200-tallet viser til når sagaene ble skrevet. Tidsrommet 900–1050 viser til når hendelsene de forteller om, skal ha funnet sted.",
+        "kriterier": [
+          "Skiller mellom tidspunktet sagaene ble skrevet og tiden handlingen foregår.",
+          "Knytter tidsrommet 900–1050 til hendelsene på Island."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Heimskringla forteller om norske konger fra sagntiden til 1177. Hvilken betydning fikk verket for norsk nasjonal identitet, og når var denne betydningen særlig stor?",
+        "fasit": "Heimskringla fikk stor betydning for norsk nasjonal identitet, særlig på 1800-tallet.",
+        "kriterier": [
+          "Forklarer at Heimskringla fikk betydning for norsk nasjonal identitet.",
+          "Nevner at betydningen var særlig stor på 1800-tallet."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s07",
+        "text": "En saga forteller hendelsene i kronologisk rekkefølge, men lar også en drøm varsle noe som skjer senere. Forklar hvilken funksjon kronologien og drømmen har.",
+        "fasit": "Kronologien gjør at hendelsene blir fortalt i tidsrekkefølge. Drømmen fungerer som et frampek fordi den varsler noe som skal skje senere.",
+        "kriterier": [
+          "Forklarer at kronologisk komposisjon forteller hendelsene i tidsrekkefølge.",
+          "Forklarer at drømmen peker fram mot en senere hendelse."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En moderne fantasyfilm bruker figurer og motiver fra norrøn mytologi. Hva viser dette om hvordan norrøn mytologi brukes i dag?",
+        "fasit": "Det viser at norrøn mytologi fortsatt inspirerer moderne kultur. Figurer og motiver fra mytologien brukes også i fantasyfilmer, spill og andre fantasyverk.",
+        "kriterier": [
+          "Knytter filmens figurer eller motiver til norrøn mytologi.",
+          "Forklarer at norrøne motiver fortsatt brukes i moderne fantasy eller populærkultur."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

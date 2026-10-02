@@ -1,0 +1,444 @@
+{
+  "id": "bioteknologi",
+  "fagId": "naturfag-pabygg",
+  "trinnId": "pabygg",
+  "name": "Bioteknologi og etikk",
+  "intro": "Hva bioteknologi er, eksempler fra medisin, landbruk og rettsvesen – genmodifisering, CRISPR, genterapi, gentester og kloning – norsk regulering og hvordan du drøfter etiske spørsmål knyttet til bioteknologi.",
+  "kompetansemaal": [
+    9
+  ],
+  "sammendrag": "## Hva er bioteknologi?\n\n**Bioteknologi** er bruk av levende organismer, celler eller biologiske prosesser til å lage produkter eller løse problemer. **Tradisjonell** bioteknologi er flere tusen år gammel: bruk av **gjær** til brød og øl, og **avl** av husdyr og planter. **Moderne** bioteknologi bruker **genteknologi** – metoder for å lese og endre DNA direkte.\n\n## Eksempler\n\n**Medisin**\n- **Insulin** til diabetikere produseres av **genmodifiserte bakterier** som har fått det menneskelige insulingenet.\n- **Genterapi** forsøker å behandle sykdom ved å reparere eller erstatte feil i gener.\n- **Gentester** kan vise om en person har anlegg for visse sykdommer.\n- **Fosterdiagnostikk** kan avdekke genetiske tilstander før fødselen.\n\n**Landbruk og mat**\n- **Genmodifiserte organismer (GMO)**, for eksempel mais og soya som tåler insekter eller sprøytemidler.\n- Planter som tåler **tørke** eller har mer **næringsstoffer**.\n\n**Rettsvesen**\n- **DNA-profiler** fra hår, blod eller spytt brukes til å identifisere personer.\n\n## CRISPR\n\n**CRISPR-Cas9** er en «gensaks» som gjør det mulig å endre DNA svært **presist**, **raskt** og **billig**. Emmanuelle Charpentier og Jennifer Doudna fikk **Nobelprisen i kjemi i 2020** for metoden. CRISPR gir store muligheter i medisin og landbruk, men reiser også vanskelige spørsmål – særlig om endringer i **kjønnsceller og fostre**, som arves videre til nye generasjoner.\n\n## Kloning\n\n**Kloning** betyr å lage en genetisk **kopi** av en organisme. Sauen **Dolly** (født 1996) var det første pattedyret klonet fra en voksen celle. Kloning av mennesker er forbudt i Norge.\n\n## Regulering i Norge\n\n- **Genteknologiloven** regulerer framstilling og bruk av **genmodifiserte organismer**, blant annet i landbruk og mat.\n- **Bioteknologiloven** regulerer medisinsk bruk av bioteknologi på **mennesker**, som gentester, fosterdiagnostikk og assistert befruktning.\n- **Bioteknologirådet** gir råd og skaper debatt om etiske spørsmål.\n\n## Etiske spørsmål\n\nNår vi drøfter bioteknologi, kan vi bruke ulike **etiske perspektiver**:\n\n- **Konsekvensetikk**: Hvilke **fordeler** og **ulemper** gir teknologien – for mennesker, dyr og miljø?\n- **Pliktetikk**: Finnes det handlinger som er **gale i seg selv**, uansett konsekvenser – for eksempel å endre menneskets arvestoff?\n- **Føre-var-prinsippet**: Når vi er usikre på risikoen, bør vi være **forsiktige**.\n\nTypiske spørsmål er: Bør vi kunne velge egenskaper hos barn («**designerbabyer**»)? Hvem skal ha tilgang til **gendataene** dine? Er GMO trygt for **miljøet**? Er det riktig å endre dyr for menneskers skyld? Og blir teknologien **rettferdig fordelt**, eller bare tilgjengelig for de rike?\n\nEn god drøfting presenterer **flere sider**, bruker **fagkunnskap** og ender med en **begrunnet** konklusjon.",
+  "flashcards": [
+    {
+      "term": "Bioteknologi",
+      "def": "Bruk av levende organismer eller biologiske prosesser til å lage produkter eller løse problemer."
+    },
+    {
+      "term": "Tradisjonell bioteknologi",
+      "def": "For eksempel gjær til brød og avl av husdyr."
+    },
+    {
+      "term": "Genteknologi",
+      "def": "Metoder for å lese og endre DNA direkte."
+    },
+    {
+      "term": "GMO",
+      "def": "Genmodifisert organisme."
+    },
+    {
+      "term": "Insulin fra bakterier",
+      "def": "Genmodifiserte bakterier med menneskelig insulingen lager insulin."
+    },
+    {
+      "term": "Genterapi",
+      "def": "Behandling ved å reparere eller erstatte feil i gener."
+    },
+    {
+      "term": "Gentest",
+      "def": "Undersøkelse av om en person har anlegg for visse sykdommer."
+    },
+    {
+      "term": "DNA-profil",
+      "def": "Brukes til å identifisere personer i rettsvesenet."
+    },
+    {
+      "term": "CRISPR-Cas9",
+      "def": "«Gensaks» som endrer DNA presist, raskt og billig."
+    },
+    {
+      "term": "Nobelprisen i kjemi 2020",
+      "def": "Gikk til Charpentier og Doudna for CRISPR.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Dolly",
+      "def": "Sau født 1996, første pattedyr klonet fra en voksen celle.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Genteknologiloven",
+      "def": "Norsk lov som regulerer genmodifiserte organismer.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Bioteknologiloven",
+      "def": "Norsk lov som regulerer medisinsk bruk av bioteknologi på mennesker.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Føre-var-prinsippet",
+      "def": "Når risikoen er usikker, bør vi være forsiktige."
+    },
+    {
+      "term": "Designerbaby",
+      "def": "Barn der egenskaper er valgt ved genteknologi.",
+      "niva": "eksempel"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er et eksempel på tradisjonell bioteknologi?",
+      "options": [
+        "Bruk av bakterier til å produsere insulin",
+        "Bruk av gjær til å bake brød",
+        "Bruk av CRISPR til å endre DNA",
+        "Bruk av DNA-profiler i kriminalsaker"
+      ],
+      "correct": 1,
+      "explain": "Tradisjonell bioteknologi er tusenvis av år gammel."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan produseres mye av insulinet diabetikere bruker i dag?",
+      "options": [
+        "Fra genmodifiserte bakterier",
+        "Fra genmodifiserte planter",
+        "Fra menneskeceller dyrket i laboratoriet",
+        "Fra bukspyttkjertler fra griser"
+      ],
+      "correct": 0,
+      "explain": "Bakteriene har fått det menneskelige insulingenet."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er CRISPR-Cas9?",
+      "options": [
+        "Et enzym som kopierer DNA i cellen",
+        "En metode som lager kopier av hele organismer",
+        "En gensaks som kan endre DNA presist",
+        "En vaksine som beskytter mot arvelige sykdommer"
+      ],
+      "correct": 2,
+      "explain": "Metoden ga Nobelprisen i kjemi i 2020."
+    },
+    {
+      "id": "q04",
+      "text": "Hva var spesielt med sauen Dolly?",
+      "options": [
+        "Det første pattedyret klonet fra en embryocelle",
+        "Det første pattedyret født etter kunstig befruktning",
+        "Det første pattedyret genmodifisert til å lage medisin",
+        "Det første pattedyret klonet fra en voksen celle"
+      ],
+      "correct": 3,
+      "explain": "Dolly ble født i 1996.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken norsk lov regulerer genmodifiserte organismer?",
+      "options": [
+        "Genteknologiloven",
+        "Bioteknologiloven",
+        "Naturmangfoldloven",
+        "Helseforskningsloven"
+      ],
+      "correct": 0,
+      "explain": "Genteknologiloven regulerer genmodifiserte organismer, mens Bioteknologiloven regulerer medisinsk bruk av bioteknologi på mennesker.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q06",
+      "text": "Hva sier føre-var-prinsippet?",
+      "options": [
+        "At vi bør godkjenne teknologi når nytten er dokumentert",
+        "At vi bør være forsiktige når risikoen er usikker",
+        "At vi bør følge flertallets syn når risikoen er usikker",
+        "At vi bør vurdere ny teknologi ut fra økonomisk gevinst"
+      ],
+      "correct": 1,
+      "explain": "Prinsippet er viktig i debatten om GMO."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor er genendringer i kjønnsceller og fostre ekstra omstridt?",
+      "options": [
+        "Fordi endringene ikke påvirker barnets arvestoff",
+        "Fordi genendringer i fostre først virker etter fødselen",
+        "Fordi endringene arves videre til nye generasjoner",
+        "Fordi kjønnsceller ikke overfører gener til avkom"
+      ],
+      "correct": 2,
+      "explain": "Konsekvensene kan vare i mange generasjoner."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket etisk perspektiv vurderer fordeler og ulemper ved en handling?",
+      "options": [
+        "Pliktetikk",
+        "Dydsetikk",
+        "Sinnelagsetikk",
+        "Konsekvensetikk"
+      ],
+      "correct": 3,
+      "explain": "Konsekvensetikk vurderer handlinger ut fra følgene de får.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q09",
+      "text": "Hva brukes DNA-profiler til i rettsvesenet?",
+      "options": [
+        "Å identifisere personer fra spor som hår, blod eller spytt",
+        "Å undersøke om en person har en arvelig sykdom",
+        "Å finne ut hvilken behandling som passer for en pasient",
+        "Å kartlegge hvilke egenskaper en plante kan arve"
+      ],
+      "correct": 0,
+      "explain": "DNA-profiler har løst mange kriminalsaker."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kjennetegner en god drøfting av et bioteknologisk spørsmål?",
+      "options": [
+        "Én side presenteres med fagkunnskap og en tydelig konklusjon",
+        "Flere sider presenteres med fagkunnskap og en begrunnet konklusjon",
+        "Flere sider presenteres med personlige meninger og en konklusjon",
+        "Argumenter listes opp uten en begrunnet konklusjon"
+      ],
+      "correct": 1,
+      "explain": "Fagkunnskap og argumenter fra flere sider gir en god drøfting."
+    }
+  ],
+  "mindmap": {
+    "label": "Bioteknologi",
+    "children": [
+      {
+        "label": "Hva er det?",
+        "children": [
+          {
+            "label": "Tradisjonell"
+          },
+          {
+            "label": "Moderne genteknologi"
+          }
+        ]
+      },
+      {
+        "label": "Medisin",
+        "children": [
+          {
+            "label": "Insulin"
+          },
+          {
+            "label": "Genterapi"
+          },
+          {
+            "label": "Gentester"
+          }
+        ]
+      },
+      {
+        "label": "Mat og rettsvesen",
+        "children": [
+          {
+            "label": "GMO"
+          },
+          {
+            "label": "DNA-profiler"
+          }
+        ]
+      },
+      {
+        "label": "Nye metoder",
+        "children": [
+          {
+            "label": "CRISPR"
+          },
+          {
+            "label": "Kloning og Dolly"
+          }
+        ]
+      },
+      {
+        "label": "Etikk og regulering",
+        "children": [
+          {
+            "label": "Genteknologiloven"
+          },
+          {
+            "label": "Bioteknologiloven"
+          },
+          {
+            "label": "Konsekvens- og pliktetikk"
+          },
+          {
+            "label": "Føre-var"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Kloning av mennesker er forbudt i Norge.",
+        "correct": true,
+        "explain": "Bioteknologiloven setter grenser for bruk på mennesker.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Avl av husdyr er ikke en form for bioteknologi.",
+        "correct": false,
+        "explain": "Avl regnes som tradisjonell bioteknologi."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Bioteknologirådet gir råd om etiske spørsmål knyttet til bioteknologi.",
+        "correct": true,
+        "explain": "Rådet skaper også offentlig debatt.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "CRISPR er en gammel metode fra 1800-tallet.",
+        "correct": false,
+        "explain": "CRISPR-Cas9 ble utviklet som genverktøy på 2010-tallet."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken lov regulerer gentester og fosterdiagnostikk i Norge?",
+        "options": [
+          "Genteknologiloven",
+          "Helseforskningsloven",
+          "Bioteknologiloven",
+          "Naturmangfoldloven"
+        ],
+        "correct": 2,
+        "explain": "Bioteknologiloven gjelder medisinsk bruk på mennesker.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et argument mot å tillate «designerbabyer»?",
+        "options": [
+          "Det kan føre til urettferdighet og press om å velge bestemte egenskaper",
+          "Det kan føre til at valgte genendringer ikke overføres til barnet",
+          "Det kan hindre foreldre i å påvirke barnets arvelige egenskaper",
+          "Det kan føre til at egenskaper velges etter at barnet er født"
+        ],
+        "correct": 0,
+        "explain": "Mange mener det kan endre synet på menneskeverd.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva spør pliktetikken om?",
+        "options": [
+          "Om handlingen gir best resultat for flest berørte personer",
+          "Om en handling er riktig eller gal i seg selv",
+          "Om personen viser gode egenskaper gjennom valget sitt",
+          "Om handlingen bruker minst mulig tid og ressurser"
+        ],
+        "correct": 1,
+        "explain": "Pliktetikken vurderer om handlingen er riktig eller gal i seg selv, mens konsekvensetikken ser på følgene.",
+        "niva": "eksempel"
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Tradisjonell bioteknologi kan bruke gjær, mens moderne bioteknologi kan bruke genteknologi. Forklar forskjellen på hvordan disse to formene bruker levende organismer eller biologiske prosesser.",
+        "fasit": "Tradisjonell bioteknologi bruker for eksempel gjær eller avl. Moderne bioteknologi bruker genteknologi til å lese eller endre DNA direkte.",
+        "kriterier": [
+          "Skiller mellom tradisjonell bruk, som gjær eller avl, og genteknologi.",
+          "Forklarer at genteknologi handler om å lese eller endre DNA direkte."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En person får behandling som forsøker å rette en feil i et gen. En annen person tar en undersøkelse for å finne ut om hen har anlegg for en sykdom. Forklar forskjellen på genterapi og gentest.",
+        "fasit": "Genterapi forsøker å behandle sykdom ved å reparere eller erstatte feil i gener. En gentest undersøker om en person har anlegg for visse sykdommer.",
+        "kriterier": [
+          "Forklarer at genterapi forsøker å behandle ved å reparere eller erstatte genfeil.",
+          "Forklarer at en gentest undersøker sykdomsanlegg, ikke behandler dem."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Et firma lager genmodifiserte planter til landbruk, mens en klinikk tilbyr gentester til mennesker. Hvilken norsk lov regulerer hver av disse aktivitetene?",
+        "fasit": "Genteknologiloven regulerer framstilling og bruk av genmodifiserte organismer. Bioteknologiloven regulerer medisinsk bruk av bioteknologi på mennesker, som gentester.",
+        "kriterier": [
+          "Knytter genteknologiloven til genmodifiserte organismer.",
+          "Knytter bioteknologiloven til medisinsk bioteknologi på mennesker."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s04",
+        "text": "Forklar forskjellen på konsekvensetikk og pliktetikk når man vurderer en ny bioteknologisk metode.",
+        "fasit": "Konsekvensetikk vurderer hvilke fordeler og ulemper metoden kan gi. Pliktetikk spør om en handling er gal i seg selv, uavhengig av konsekvensene.",
+        "kriterier": [
+          "Forklarer at konsekvensetikk vurderer fordeler og ulemper eller følger.",
+          "Forklarer at pliktetikk vurderer om handlingen er gal i seg selv, uavhengig av følgene."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s05",
+        "text": "En bonde vurderer å dyrke genmodifiserte planter som tåler tørke. Bruk konsekvensetikk til å forklare hva bonden bør undersøke før hen bestemmer seg.",
+        "fasit": "Bonden bør vurdere mulige fordeler og ulemper ved teknologien. Det innebærer å undersøke konsekvenser for mennesker, dyr og miljø, ikke bare om plantene tåler tørke.",
+        "kriterier": [
+          "Viser at konsekvensetikk innebærer å vurdere fordeler og ulemper.",
+          "Trekker inn mulige konsekvenser for mennesker, dyr eller miljø."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s06",
+        "text": "Det er usikkert hvilken risiko genmodifiserte planter kan ha for miljøet. Forklar hvordan føre-var-prinsippet kan brukes når man vurderer om plantene skal tas i bruk.",
+        "fasit": "Føre-var-prinsippet tilsier at man bør være forsiktig når risikoen er usikker. Man bør derfor ikke ta teknologien i bruk uten å ta usikkerheten om miljøet på alvor.",
+        "kriterier": [
+          "Forklarer at usikker risiko tilsier forsiktighet.",
+          "Knytter forsiktigheten til vurderingen av å ta plantene i bruk."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Dolly ble født i 1996, og Charpentier og Doudna fikk Nobelprisen i kjemi i 2020. Hvor mange år er det mellom årstallene? Vis det viktigste regnestykket.",
+        "fasit": "Det er 24 år mellom årstallene: 2020 − 1996 = 24.",
+        "kriterier": [
+          "Viser regnestykket 2020 − 1996.",
+          "Oppgir 24 år."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s08",
+        "text": "Dolly ble født i 1996, og Charpentier og Doudna fikk Nobelprisen i kjemi i 2020. Hvilket år ligger midt mellom årstallene? Vis det viktigste regnestykket.",
+        "fasit": "Året midt mellom dem er 2008: (1996 + 2020) ÷ 2 = 2008.",
+        "kriterier": [
+          "Bruker et regnestykke som finner midtpunktet mellom årstallene.",
+          "Oppgir 2008."
+        ],
+        "niva": "eksempel"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

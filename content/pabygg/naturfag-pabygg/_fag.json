@@ -1,0 +1,62 @@
+{
+  "id": "naturfag-pabygg",
+  "trinnId": "pabygg",
+  "name": "Naturfag",
+  "lareplan": {
+    "kode": "NAT01-05",
+    "url": "https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1090",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "drøfte hvordan utvikling av naturvitenskapelige hypoteser, modeller og teorier bidrar til at vi kan forstå og forklare verden"
+      },
+      {
+        "nr": 2,
+        "tekst": "vurdere og lage programmer som modellerer naturfaglige fenomener"
+      },
+      {
+        "nr": 3,
+        "tekst": "beskrive big bang-teorien om hvordan universet har oppstått og utviklet seg, og gjøre rede for observasjoner som støtter denne teorien"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske og beskrive elektromagnetisk og ioniserende stråling, og vurdere informasjon om stråling og helseeffekter av ulike strålingstyper"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske og beskrive noen sentrale bølgefenomener"
+      },
+      {
+        "nr": 6,
+        "tekst": "forklare hovedprinsippene for trådløs kommunikasjon og gi eksempler på hva slik teknologi brukes til"
+      },
+      {
+        "nr": 7,
+        "tekst": "beskrive DNA og hvordan egenskaper arves, og gjøre rede for hvordan arv er en forutsetning for evolusjon"
+      },
+      {
+        "nr": 8,
+        "tekst": "gjøre rede for hvordan klimaendringer påvirker evolusjon, utbredelse av arter og biologisk mangfold"
+      },
+      {
+        "nr": 9,
+        "tekst": "gi eksempler på bruk av bioteknologi og drøfte etiske spørsmål knyttet til bioteknologi"
+      },
+      {
+        "nr": 10,
+        "tekst": "gjøre rede for hvordan noen miljøgifter kan akkumuleres i næringskjeder, og vurdere tiltak for å ta vare på helse og miljø"
+      }
+    ]
+  },
+  "temaer": [
+    "hypoteser-modeller-og-teorier",
+    "programmering-og-modellering",
+    "universets-opprinnelse",
+    "straling",
+    "bolger-og-tradlos-kommunikasjon",
+    "arv-og-evolusjon",
+    "bioteknologi",
+    "miljogifter",
+    "repetisjon"
+  ]
+}

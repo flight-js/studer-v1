@@ -1,0 +1,433 @@
+{
+  "id": "kolonialisme-og-imperialisme",
+  "fagId": "historie-pabygg",
+  "trinnId": "pabygg",
+  "name": "Kolonialisme og imperialisme",
+  "intro": "Hvorfor europeiske og andre makter la under seg landområder – økonomiske, politiske og ideologiske årsaker – kappløpet om Afrika og Berlinkonferansen, eksempler som Kongo og India, avkoloniseringen og konsekvensene for mennesker og samfunn i de koloniserte områdene.",
+  "kompetansemaal": [
+    15
+  ],
+  "sammendrag": "## Begreper\n\n- **Kolonialisme**: at en stat erobrer og **styrer** et annet område – en **koloni** – og ofte sender **bosettere** dit.\n- **Imperialisme**: at en stat utvider sin **makt** og **innflytelse** over andre land, direkte eller indirekte.\n\nEuropeisk kolonialisme startet med **oppdagelsesreisene** på **1400- og 1500-tallet**, da Spania og Portugal erobret store deler av Amerika. Den nådde sitt høydepunkt i **høyimperialismen** fra ca. **1870 til 1914**.\n\n## Årsaker\n\n**Økonomiske**:\n\n- **Råvarer** til industrien: bomull, gummi, metaller og olje\n- **Nye markeder** for industrivarer\n- **Billig arbeidskraft** – og tidlig også **slavearbeid** på plantasjer\n\n**Politiske og strategiske**:\n\n- **Konkurranse** mellom stormaktene om makt og prestisje\n- Behov for **havner** og kontroll over handelsruter\n- **Nasjonalisme** – kolonier ble et symbol på nasjonal storhet\n\n**Ideologiske og religiøse**:\n\n- **Rasisme** og **sosialdarwinisme** – troen på at europeere var **overlegne**\n- Ideen om et **sivilisasjonsoppdrag** – «den hvite manns byrde»\n- **Misjon** – ønsket om å spre kristendommen\n\n**Teknologi** – dampskip, telegraf, moderne våpen og medisiner mot malaria – gjorde erobringene **mulige**.\n\n## Kappløpet om Afrika\n\nPå **Berlinkonferansen** i **1884–85** ble europeiske stormakter enige om regler for å dele **Afrika** mellom seg. **Ingen afrikanere** var med. Grensene ble ofte trukket med **linjal** på kartet og tok ikke hensyn til folkegrupper, språk og tradisjonelle riker. Rundt **1914** var nesten hele Afrika under europeisk kontroll.\n\n## Eksempler\n\n**Kongo**: Den belgiske kongen **Leopold II** styrte **Kongofristaten** som sin **private** eiendom fra 1885. Befolkningen ble tvunget til å samle **gummi**, og de som ikke leverte nok, ble straffet med vold og lemlestelse. Millioner døde. Kritikk fra blant andre misjonærer og journalister førte til at Belgia overtok kolonien i 1908.\n\n**India**: Storbritannia kontrollerte India gjennom **Det britiske ostindiske kompani** og fra **1858** direkte. Britene bygde jernbaner og innførte engelsk utdanning, men India ble samtidig **tappet** for ressurser, og lokal industri tapte for britiske varer. India ble **selvstendig** i **1947** etter en lang frigjøringskamp ledet blant andre av **Gandhi**.\n\n## Avkoloniseringen\n\nEtter **andre verdenskrig** ble de europeiske kolonimaktene **svekket**, og frigjøringsbevegelser vokste. **FN** og ideen om **menneskerettigheter** ga også støtte. Fra **1945** til **1970-tallet** ble de fleste koloniene **selvstendige** – noen fredelig, andre etter **blodige kriger**, som i **Algerie** og **Vietnam**.\n\n## Konsekvenser for de koloniserte\n\n- **Vold**, tvangsarbeid og tap av liv\n- **Tap av land** og ressurser\n- **Kunstige grenser** som har bidratt til **konflikter** etter selvstendigheten\n- **Økonomier** innrettet mot eksport av **råvarer** i stedet for egen industri\n- **Kulturell undertrykkelse** – lokale språk, tradisjoner og religioner ble nedvurdert\n- **Rasisme** som har satt dype spor\n\nNoen peker på at kolonimaktene også bygde **infrastruktur**, skoler og sykehus. Kritikere svarer at dette først og fremst tjente **kolonimakten**, og at den **samlede** effekten var svært skadelig.\n\n## Arven i dag\n\nKolonialismen påvirker fortsatt **grenser**, **språk**, **handelsmønstre** og **forholdet** mellom tidligere kolonimakter og kolonier. Debatter om **unnskyldninger**, **erstatning** og **tilbakeføring** av kunstgjenstander fra europeiske museer viser at historien fortsatt er **aktuell**.",
+  "flashcards": [
+    {
+      "term": "Kolonialisme",
+      "def": "En stat erobrer og styrer et annet område."
+    },
+    {
+      "term": "Imperialisme",
+      "def": "En stat utvider sin makt over andre land, direkte eller indirekte."
+    },
+    {
+      "term": "Koloni",
+      "def": "Område som styres av en annen stat."
+    },
+    {
+      "term": "Høyimperialismen",
+      "def": "Perioden ca. 1870–1914 da kolonialismen nådde toppen."
+    },
+    {
+      "term": "Sosialdarwinisme",
+      "def": "Troen på at de sterkeste folkene skal herske over andre."
+    },
+    {
+      "term": "Sivilisasjonsoppdrag",
+      "def": "Ideen om at europeerne skulle «sivilisere» andre folk."
+    },
+    {
+      "term": "Berlinkonferansen",
+      "def": "Møtet i 1884–85 der europeiske stormakter delte Afrika."
+    },
+    {
+      "term": "Kappløpet om Afrika",
+      "def": "Stormaktenes konkurranse om afrikanske kolonier."
+    },
+    {
+      "term": "Kongofristaten",
+      "def": "Leopold IIs private koloni fra 1885 med brutalt tvangsarbeid.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Det britiske ostindiske kompani",
+      "def": "Handelskompani som kontrollerte India før 1858.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Gandhi",
+      "def": "Ledet Indias ikkevoldelige frigjøringskamp.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Avkolonisering",
+      "def": "Koloniene ble selvstendige, særlig 1945–1970-tallet."
+    },
+    {
+      "term": "Kunstige grenser",
+      "def": "Grenser trukket uten hensyn til folkegrupper."
+    },
+    {
+      "term": "Misjon",
+      "def": "Arbeid for å spre kristendommen."
+    },
+    {
+      "term": "Tilbakeføring",
+      "def": "At kunstgjenstander leveres tilbake til opprinnelseslandet.",
+      "niva": "eksempel"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er kolonialisme?",
+      "options": [
+        "At en stat handler med et annet område uten å styre det",
+        "At en stat erobrer og styrer et annet område",
+        "At en stat inngår en forsvarsavtale med et annet land",
+        "At mennesker flytter fra ett land til et annet for å bosette seg"
+      ],
+      "correct": 1,
+      "explain": "Ofte med bosettere."
+    },
+    {
+      "id": "q02",
+      "text": "Hva var en økonomisk årsak til kolonialismen?",
+      "options": [
+        "Behov for råvarer og nye markeder",
+        "Ønske om å spre europeisk språk og utdanning",
+        "Behov for å sikre fred mellom europeiske stater",
+        "Ønske om å beskytte naturen og begrense industriproduksjon"
+      ],
+      "correct": 0,
+      "explain": "Industrien trengte råvarer."
+    },
+    {
+      "id": "q03",
+      "text": "Hva skjedde på Berlinkonferansen i 1884–85?",
+      "options": [
+        "Europeiske stormakter vedtok å avskaffe slavehandelen i Afrika",
+        "Afrikanske ledere møttes for å fastsette grensene mellom koloniene",
+        "Europeiske stormakter ble enige om regler for å dele Afrika",
+        "Europeiske land opprettet en organisasjon for å styre Afrika i fellesskap"
+      ],
+      "correct": 2,
+      "explain": "Ingen afrikanere var med."
+    },
+    {
+      "id": "q04",
+      "text": "Hva var sosialdarwinisme?",
+      "options": [
+        "Troen på at alle folkegrupper skal ha samme politiske makt",
+        "En teori om at samfunn utvikler seg gjennom økonomisk samarbeid",
+        "En religiøs lære om at mennesker skal spre kristendommen",
+        "Troen på at de sterkeste folkene skal herske over andre"
+      ],
+      "correct": 3,
+      "explain": "Brukt til å rettferdiggjøre kolonialismen."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem styrte Kongofristaten som sin private eiendom?",
+      "options": [
+        "Leopold II",
+        "Wilhelm II",
+        "Otto von Bismarck",
+        "Cecil Rhodes"
+      ],
+      "correct": 0,
+      "explain": "Fra 1885 til 1908.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q06",
+      "text": "Når ble India selvstendig?",
+      "options": [
+        "1858",
+        "1947",
+        "1919",
+        "1950"
+      ],
+      "correct": 1,
+      "explain": "Etter en lang frigjøringskamp.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor har kunstige grenser skapt problemer?",
+      "options": [
+        "De fulgte gamle statsgrenser og gjorde koloniene politisk stabile",
+        "De ble trukket etter naturgrenser og gjorde handel mellom grupper vanskelig",
+        "De tok ikke hensyn til folkegrupper og har bidratt til konflikter",
+        "De ble laget for å gi hver folkegruppe sitt eget selvstendige land"
+      ],
+      "correct": 2,
+      "explain": "Grensene ble ofte trukket med linjal."
+    },
+    {
+      "id": "q08",
+      "text": "Hva gjorde erobringene teknisk mulig?",
+      "options": [
+        "Seilskip, trykkpresser, kompass og kruttvåpen",
+        "Hestevogner, brevduer, sverd og urtemedisin",
+        "Radio, fly, tanks og antibiotika",
+        "Dampskip, telegraf, moderne våpen og malariamedisin"
+      ],
+      "correct": 3,
+      "explain": "Teknologisk overlegenhet."
+    },
+    {
+      "id": "q09",
+      "text": "Hva bidro til avkoloniseringen etter 1945?",
+      "options": [
+        "Svekkede kolonimakter og sterke frigjøringsbevegelser",
+        "En styrket økonomi hos kolonimaktene og mindre motstand i koloniene",
+        "At Berlinkonferansen ble fulgt opp med nye avtaler om Afrika",
+        "Større militær støtte fra kolonimaktene til styrene i koloniene"
+      ],
+      "correct": 0,
+      "explain": "Også FN og menneskerettighetene."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken debatt viser at kolonihistorien fortsatt er aktuell?",
+      "options": [
+        "Debatten om regulering av sosiale medier i Europa",
+        "Debatten om tilbakeføring av kunstgjenstander fra europeiske museer",
+        "Debatten om skatt på utslippsfrie biler i Europa",
+        "Debatten om lengden på skoledagen i europeiske land"
+      ],
+      "correct": 1,
+      "explain": "Også unnskyldninger og erstatning.",
+      "niva": "eksempel"
+    }
+  ],
+  "mindmap": {
+    "label": "Kolonialisme og imperialisme",
+    "children": [
+      {
+        "label": "Årsaker",
+        "children": [
+          {
+            "label": "Økonomiske"
+          },
+          {
+            "label": "Politiske"
+          },
+          {
+            "label": "Ideologiske og religiøse"
+          }
+        ]
+      },
+      {
+        "label": "Afrika",
+        "children": [
+          {
+            "label": "Berlinkonferansen"
+          },
+          {
+            "label": "Kongo under Leopold II"
+          }
+        ]
+      },
+      {
+        "label": "Asia",
+        "children": [
+          {
+            "label": "India"
+          },
+          {
+            "label": "Ostindisk kompani"
+          }
+        ]
+      },
+      {
+        "label": "Avkolonisering",
+        "children": [
+          {
+            "label": "Etter 1945"
+          },
+          {
+            "label": "Fredelig og voldelig"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Vold og tap av land"
+          },
+          {
+            "label": "Kunstige grenser"
+          },
+          {
+            "label": "Arven i dag"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Rundt 1914 var nesten hele Afrika under europeisk kontroll.",
+        "correct": true,
+        "explain": "Etter kappløpet om Afrika."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Afrikanske ledere deltok på Berlinkonferansen.",
+        "correct": false,
+        "explain": "Ingen afrikanere var med."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Noen kolonier ble selvstendige etter blodige kriger.",
+        "correct": true,
+        "explain": "For eksempel Algerie og Vietnam."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Kolonimaktene tok stort hensyn til lokale språk og tradisjoner.",
+        "correct": false,
+        "explain": "De ble ofte nedvurdert."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva ble befolkningen i Kongo tvunget til å samle?",
+        "options": [
+          "Te",
+          "Gummi",
+          "Sukker",
+          "Kakao"
+        ],
+        "correct": 1,
+        "explain": "Under brutalt tvangsarbeid.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er imperialisme?",
+        "options": [
+          "At en stat utvider sin makt over andre land",
+          "At et land får selvstyre etter kolonistyre fra en stormakt",
+          "At folk flytter fra hjemlandet for å bosette seg i kolonier",
+          "At stater handler med hverandre uten politisk innblanding"
+        ],
+        "correct": 0,
+        "explain": "Direkte eller indirekte."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken økonomisk følge fikk kolonialismen for mange kolonier?",
+        "options": [
+          "Økonomier innrettet mot produksjon for lokalt forbruk",
+          "Økonomier bygget på en sterk lokal industri og eksport av ferdigvarer",
+          "Økonomier innrettet mot eksport av råvarer",
+          "Økonomier preget av stor teknologisk selvstendighet og lokal foredling"
+        ],
+        "correct": 2,
+        "explain": "Hemmet egen utvikling."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar forskjellen mellom kolonialisme og imperialisme.",
+        "fasit": "Kolonialisme betyr at en stat erobrer og styrer et annet område som koloni. Imperialisme er et bredere begrep for at en stat utvider makten og innflytelsen sin over andre land, direkte eller indirekte.",
+        "kriterier": [
+          "Kolonialisme innebærer erobring og styring av et område.",
+          "Imperialisme handler om å utvide makt og innflytelse, og kan også skje indirekte."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Kolonier ble sett på som symboler på nasjonal storhet. Forklar hvordan nasjonalisme og konkurranse mellom stormaktene kunne føre til at de skaffet seg kolonier.",
+        "fasit": "Stormakter konkurrerte om makt og prestisje. Nasjonalisme gjorde at kolonier kunne bli sett på som tegn på at en nasjon var mektig og stor.",
+        "kriterier": [
+          "Kobler kolonier til konkurranse om makt eller prestisje.",
+          "Forklarer at kolonier kunne styrke følelsen av nasjonal storhet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Europeiske kolonimakter viste noen ganger til et «sivilisasjonsoppdrag». Forklar hva denne ideen gikk ut på, og hvordan den kunne brukes til å begrunne kolonistyre.",
+        "fasit": "Ideen gikk ut på at europeerne mente de skulle «sivilisere» andre folk. Den kunne brukes til å framstille kolonistyret som et oppdrag eller en hjelp, selv om de koloniserte ble utsatt for undertrykking og utnytting.",
+        "kriterier": [
+          "Forklarer at europeerne mente de skulle sivilisere andre folk.",
+          "Viser hvordan ideen kunne legitimere europeisk kontroll eller skjule undertrykking."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign hvordan Leopold II styrte Kongofristaten, og hvordan britene kontrollerte India. Ta med ett trekk ved styret i hvert område.",
+        "fasit": "Leopold II styrte Kongofristaten som sin private eiendom og tvang befolkningen til å samle gummi. Britene kontrollerte India gjennom Det britiske ostindiske kompani og tok direkte kontroll fra 1858.",
+        "kriterier": [
+          "Beskriver Kongofristaten som Leopold IIs private eiendom og nevner tvangsarbeidet med gummi.",
+          "Nevner kompaniets rolle i India og at Storbritannia tok direkte kontroll fra 1858."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s05",
+        "text": "En stat utvider makten sin over et annet land gjennom indirekte kontroll, uten å erobre og styre området som en koloni. Hvilket begrep beskriver dette best? Begrunn svaret.",
+        "fasit": "Dette beskrives best som imperialisme. Imperialisme kan innebære at en stat utvider makten og innflytelsen sin indirekte, mens kolonialisme innebærer at den erobrer og styrer et område.",
+        "kriterier": [
+          "Identifiserer imperialisme som det mest treffende begrepet.",
+          "Begrunner svaret med at maktutvidelsen skjer indirekte, uten direkte kolonistyre."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hvordan kunne kolonistyret påvirke økonomien i et koloniområde? Bruk Indias industri som eksempel.",
+        "fasit": "India ble tappet for ressurser, og økonomien ble innrettet mot kolonimaktens behov. Lokal industri tapte for britiske varer.",
+        "kriterier": [
+          "Forklarer at ressurser ble tatt ut eller at økonomien ble innrettet mot kolonimaktens behov.",
+          "Nevner at lokal industri i India tapte for britiske varer."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s07",
+        "text": "Kolonimakter bygde blant annet jernbaner, skoler og sykehus. Forklar hvorfor dette alene ikke viser at kolonistyret først og fremst var til fordel for de koloniserte.",
+        "fasit": "Slike tiltak kunne også tjene kolonimaktens interesser. Kolonistyret førte samtidig til blant annet vold, tap av ressurser og kulturell undertrykking, og den samlede virkningen var svært skadelig.",
+        "kriterier": [
+          "Forklarer at infrastruktur og andre tiltak først og fremst kunne tjene kolonimakten.",
+          "Viser til alvorlige skadevirkninger for de koloniserte."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hva menes med høyimperialismen, og hvilken periode var den knyttet til?",
+        "fasit": "Høyimperialismen var perioden da kolonialismen nådde sitt høydepunkt. Den varte fra omtrent 1870 til 1914.",
+        "kriterier": [
+          "Forklarer at høyimperialismen var kolonialismens høydepunkt.",
+          "Plasserer perioden fra omtrent 1870 til 1914."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

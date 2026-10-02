@@ -202,7 +202,7 @@ export function Hjem() {
                 <div
                   role="radiogroup"
                   aria-labelledby="fag-label"
-                  className="grid grid-cols-3 sm:flex gap-1 p-1 bg-sunken rounded-2xl w-full sm:w-fit"
+                  className="grid grid-cols-4 sm:flex gap-1 p-1 bg-sunken rounded-2xl w-full sm:w-fit"
                 >
                   {katalog.data?.map((t) => (
                     <button
@@ -211,7 +211,7 @@ export function Hjem() {
                       role="radio"
                       aria-checked={t.id === trinnId}
                       onClick={() => velgTrinn(t.id)}
-                      className={`px-3 sm:px-5 py-2.5 rounded-xl text-sm font-semibold transition-[background-color,color,box-shadow] duration-200 ${
+                      className={`px-1.5 sm:px-5 py-2.5 rounded-xl text-sm font-semibold whitespace-nowrap transition-[background-color,color,box-shadow] duration-200 ${
                         t.id === trinnId
                           ? "bg-surface text-foreground shadow-[0_1px_3px_rgba(60,48,30,0.12)]"
                           : "text-muted hover:text-foreground"

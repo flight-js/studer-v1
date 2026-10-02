@@ -1,0 +1,443 @@
+{
+  "id": "demografiske-endringer",
+  "fagId": "historie-pabygg",
+  "trinnId": "pabygg",
+  "name": "Demografiske endringer",
+  "intro": "Viktige endringer i befolkningen i Norge og verden – Svartedauden, befolkningsveksten på 1800-tallet, utvandringen til Amerika, urbanisering, fallende fødselstall, innvandring og eldrebølge – og årsakene til og virkningene av dem.",
+  "kompetansemaal": [
+    8
+  ],
+  "sammendrag": "## Demografi\n\n**Demografi** er læren om **befolkningen**: hvor mange vi er, hvor vi bor, alder, kjønn, fødsler, dødsfall og **flytting**. Endringer i befolkningen påvirker **økonomi**, **politikk** og **hverdagsliv**.\n\n## Svartedauden\n\n**Svartedauden** – en **pestepidemi** – kom til Norge i **1349**. Forskere mener at **en tredjedel til halvparten** av befolkningen døde. Konsekvensene var store: Mange gårder ble **øde** (ødegårder), **skatteinntektene** falt, og både **adelen** og **kirken** mistet makt og inntekter. Mange historikere mener pesten var en viktig årsak til at Norge ble svekket og havnet i **union** med andre land.\n\n## Befolkningsveksten på 1800-tallet\n\nNorge hadde rundt **880 000** innbyggere i **1801**, og over **to millioner** i **1900**. Veksten skyldtes at **dødeligheten falt**, mens **fødselstallet** fortsatt var høyt. Den svenske dikteren Esaias Tegnér forklarte veksten med **«freden, vaksinen og poteten»**:\n\n- **fred** etter Napoleonskrigene\n- **vaksine** mot kopper, som ble påbudt i Norge fra 1810\n- **poteter**, som ga mer mat\n\nI tillegg bidro bedre **hygiene** og **medisin**.\n\n## Utvandringen til Amerika\n\nFra **1825**, da skipet **Restauration** seilte fra Stavanger, til rundt **1930** utvandret om lag **800 000** nordmenn, de fleste til **USA**. Bare Irland hadde en større utvandring i forhold til folketallet. Årsakene var blant annet **befolkningspress**, mangel på **jord** og **arbeid**, **fattigdom** og **religiøs** misnøye – og **lokkende** muligheter i Amerika, som billig jord. Utvandringen lettet presset i Norge og skapte store norsk-amerikanske miljøer i Midtvesten.\n\n## Urbanisering og færre barn\n\nMed **industrialiseringen** flyttet mange fra **landet** til **byene**. På **1900-tallet** falt **fødselstallet** fordi barnedødeligheten gikk ned, flere tok **utdanning**, **kvinner** kom ut i arbeidslivet og **prevensjon** ble vanlig. I dag får norske kvinner i gjennomsnitt **under to barn**.\n\n## Innvandring og eldrebølge\n\nFra **1970-tallet** kom **arbeidsinnvandrere**, blant annet fra **Pakistan**, og senere **flyktninger** fra mange land. Etter **EU-utvidelsen i 2004** kom mange arbeidsinnvandrere fra **Polen** og **Litauen**. Samtidig lever vi **lenger**, og andelen **eldre** øker – en **eldrebølge** som gir flere pensjonister per arbeidstaker og større behov for helse- og omsorgstjenester.\n\n## Globalt\n\nVerdens befolkning var rundt **én milliard** omkring 1800 og passerte **åtte milliarder** i **2022**. Mange land har gått gjennom en **demografisk overgang** fra høye til lave fødsels- og dødsrater.\n\n## Å vurdere årsaker og virkninger\n\nDemografiske endringer har ofte **flere årsaker** – økonomiske, teknologiske, politiske og kulturelle – og får **virkninger** for både **enkeltmennesker** (familieliv, arbeid, helse) og **samfunnet** (velferd, bosetting, politikk).",
+  "flashcards": [
+    {
+      "term": "Demografi",
+      "def": "Læren om befolkningen: antall, alder, fødsler, dødsfall og flytting."
+    },
+    {
+      "term": "Svartedauden",
+      "def": "Pestepidemi som kom til Norge i 1349."
+    },
+    {
+      "term": "Ødegårder",
+      "def": "Gårder som ble forlatt etter Svartedauden."
+    },
+    {
+      "term": "1801",
+      "def": "Norge hadde rundt 880 000 innbyggere.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "«Freden, vaksinen og poteten»",
+      "def": "Tegnérs forklaring på befolkningsveksten på 1800-tallet.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Koppevaksine",
+      "def": "Påbudt i Norge fra 1810.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Restauration",
+      "def": "Skipet som i 1825 startet den organiserte utvandringen til Amerika.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "800 000",
+      "def": "Omtrent så mange nordmenn utvandret til Amerika 1825–1930.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Push- og pull-faktorer",
+      "def": "Forhold som presser folk ut og trekker dem til et nytt sted."
+    },
+    {
+      "term": "Urbanisering",
+      "def": "At en større andel bor i byer."
+    },
+    {
+      "term": "Fallende fødselstall",
+      "def": "Følge av lavere barnedødelighet, utdanning, kvinner i arbeid og prevensjon."
+    },
+    {
+      "term": "Arbeidsinnvandring",
+      "def": "Innvandring for å arbeide, for eksempel fra Pakistan på 1970-tallet."
+    },
+    {
+      "term": "EU-utvidelsen 2004",
+      "def": "Ga mye arbeidsinnvandring fra Polen og Litauen.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Eldrebølgen",
+      "def": "At andelen eldre i befolkningen øker."
+    },
+    {
+      "term": "Demografisk overgang",
+      "def": "Overgang fra høye til lave fødsels- og dødsrater."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Når kom Svartedauden til Norge?",
+      "options": [
+        "1348",
+        "1349",
+        "1350",
+        "1397"
+      ],
+      "correct": 1,
+      "explain": "Kanskje halvparten av befolkningen døde."
+    },
+    {
+      "id": "q02",
+      "text": "Hva forklarer Tegnérs uttrykk «freden, vaksinen og poteten»?",
+      "options": [
+        "Befolkningsveksten på 1800-tallet",
+        "Utvandringen fra Norge på 1800-tallet",
+        "Urbaniseringen i Norge på 1800-tallet",
+        "Industrialiseringen i Norge på 1800-tallet"
+      ],
+      "correct": 0,
+      "explain": "Dødeligheten falt, mens fødselstallet var høyt.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q03",
+      "text": "Omtrent hvor mange nordmenn utvandret til Amerika fra 1825 til 1930?",
+      "options": [
+        "600 000",
+        "1 200 000",
+        "800 000",
+        "2 000 000"
+      ],
+      "correct": 2,
+      "explain": "De fleste dro til USA.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q04",
+      "text": "Hva var en viktig årsak til utvandringen?",
+      "options": [
+        "Befolkningspress og mangel på jord og arbeid i USA",
+        "Befolkningspress og mangel på jord og arbeid i Sverige",
+        "Befolkningspress og mangel på jord og arbeid i Danmark",
+        "Befolkningspress og mangel på jord og arbeid i Norge"
+      ],
+      "correct": 3,
+      "explain": "Billig jord i Amerika lokket også."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken konsekvens fikk Svartedauden?",
+      "options": [
+        "Mange gårder ble øde, og adel og kirke mistet makt.",
+        "Mange gårder ble tatt i bruk, og adel og kirke fikk makt.",
+        "Folketallet økte raskt, og adel og kirke fikk større makt.",
+        "Byene vokste raskt, og adel og kirke fikk større makt."
+      ],
+      "correct": 0,
+      "explain": "Skatteinntektene falt også."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor falt fødselstallet på 1900-tallet?",
+      "options": [
+        "Høyere barnedødelighet, kortere utdanning, færre kvinner i arbeid og mindre prevensjon",
+        "Lavere barnedødelighet, utdanning, kvinner i arbeid og prevensjon",
+        "Høyere barnedødelighet, mindre utdanning, færre kvinner i arbeid og mindre prevensjon",
+        "Lengre levealder, mindre utdanning, færre kvinner i arbeid og mindre prevensjon"
+      ],
+      "correct": 1,
+      "explain": "Flere faktorer virket sammen."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er eldrebølgen?",
+      "options": [
+        "At andelen unge i befolkningen øker",
+        "At andelen eldre i befolkningen synker",
+        "At andelen eldre i befolkningen øker",
+        "At antallet fødsler i befolkningen øker"
+      ],
+      "correct": 2,
+      "explain": "Det gir flere pensjonister per arbeidstaker."
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket land kom mange arbeidsinnvandrere fra etter EU-utvidelsen i 2004?",
+      "options": [
+        "USA",
+        "Pakistan",
+        "Kina",
+        "Polen"
+      ],
+      "correct": 3,
+      "explain": "Også Litauen.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q09",
+      "text": "Hva er demografi?",
+      "options": [
+        "Læren om befolkningen",
+        "Læren om samfunnsstyring",
+        "Læren om jordas landskap",
+        "Læren om produksjon og handel"
+      ],
+      "correct": 0,
+      "explain": "Antall, alder, fødsler, dødsfall og flytting."
+    },
+    {
+      "id": "q10",
+      "text": "Når passerte verdens befolkning åtte milliarder?",
+      "options": [
+        "2018",
+        "2022",
+        "2020",
+        "2025"
+      ],
+      "correct": 1,
+      "explain": "Rundt 1800 var vi om lag én milliard.",
+      "niva": "eksempel"
+    }
+  ],
+  "mindmap": {
+    "label": "Demografiske endringer",
+    "children": [
+      {
+        "label": "Svartedauden",
+        "children": [
+          {
+            "label": "1349"
+          },
+          {
+            "label": "Ødegårder"
+          },
+          {
+            "label": "Svekket Norge"
+          }
+        ]
+      },
+      {
+        "label": "1800-tallet",
+        "children": [
+          {
+            "label": "Befolkningsvekst"
+          },
+          {
+            "label": "Freden, vaksinen og poteten"
+          }
+        ]
+      },
+      {
+        "label": "Utvandring",
+        "children": [
+          {
+            "label": "Restauration 1825"
+          },
+          {
+            "label": "800 000 til Amerika"
+          },
+          {
+            "label": "Push og pull"
+          }
+        ]
+      },
+      {
+        "label": "1900-tallet",
+        "children": [
+          {
+            "label": "Urbanisering"
+          },
+          {
+            "label": "Færre barn"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Innvandring"
+          },
+          {
+            "label": "Eldrebølge"
+          },
+          {
+            "label": "8 milliarder"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Bare Irland hadde større utvandring enn Norge i forhold til folketallet.",
+        "correct": true,
+        "explain": "Utvandringen var svært stor fra Norge.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Befolkningsveksten på 1800-tallet skyldtes først og fremst at fødselstallet steg kraftig.",
+        "correct": false,
+        "explain": "Den skyldtes først og fremst at dødeligheten falt."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Arbeidsinnvandrere fra Pakistan kom til Norge på 1970-tallet.",
+        "correct": true,
+        "explain": "Senere kom flyktninger fra mange land.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Norge hadde over fem millioner innbyggere i 1900.",
+        "correct": false,
+        "explain": "Norge hadde litt over to millioner i 1900.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvor bosatte mange norske utvandrere seg?",
+        "options": [
+          "I Midtvesten i USA",
+          "I det sørlige Argentina",
+          "I det østlige Australia",
+          "I det sørlige Afrika"
+        ],
+        "correct": 0,
+        "explain": "Det oppsto store norsk-amerikanske miljøer der.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Fra hvilket år ble koppevaksine påbudt i Norge?",
+        "options": [
+          "1801",
+          "1810",
+          "1814",
+          "1830"
+        ],
+        "correct": 1,
+        "explain": "Vaksinen bidro til at dødeligheten falt.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er en virkning av eldrebølgen for samfunnet?",
+        "options": [
+          "Mindre behov for helse- og omsorgstjenester",
+          "Større behov for barnehage- og skoletjenester i samfunnet",
+          "Større behov for helse- og omsorgstjenester",
+          "Flere arbeidstakere per pensjonist i samfunnet"
+        ],
+        "correct": 2,
+        "explain": "Det blir også færre arbeidstakere per pensjonist."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva betyr urbanisering, og hvordan hang urbaniseringen i Norge sammen med industrialiseringen?",
+        "fasit": "Urbanisering betyr at en større andel av befolkningen bor i byer. I Norge flyttet mange fra landet til byene i forbindelse med industrialiseringen.",
+        "kriterier": [
+          "Forklarer at urbanisering betyr at en større andel bor i byer.",
+          "Knytter utviklingen til at folk flyttet fra landet til byene under industrialiseringen."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign folketallet i Norge i 1801 og 1900. Hva viser tallene om befolkningsutviklingen?",
+        "fasit": "Norge hadde rundt 880 000 innbyggere i 1801 og over to millioner i 1900. Folketallet økte altså kraftig og mer enn doblet seg.",
+        "kriterier": [
+          "Oppgir omtrent 880 000 innbyggere i 1801 og over to millioner i 1900.",
+          "Beskriver at tallene viser en kraftig økning, mer enn en dobling."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s03",
+        "text": "En norsk familie mangler jord og arbeid, men hører at det finnes billig jord i Amerika. Forklar hvordan situasjonen viser både push- og pull-faktorer ved utvandring.",
+        "fasit": "Mangelen på jord og arbeid er push-faktorer fordi de presser familien ut av Norge. Billig jord i Amerika er en pull-faktor fordi den trekker familien dit.",
+        "kriterier": [
+          "Forklarer at mangel på jord og arbeid presser familien ut.",
+          "Forklarer at billig jord i Amerika trekker familien dit."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Svartedauden førte til at mange gårder ble forlatt. Forklar hvordan dette kunne bidra til at adelen og kirken mistet inntekter og makt.",
+        "fasit": "Da mange gårder ble øde, falt skatteinntektene. Adelen og kirken mistet dermed inntekter og makt, og Norge ble svekket.",
+        "kriterier": [
+          "Knytter ødegårdene til lavere skatteinntekter.",
+          "Forklarer at adelen og kirken mistet inntekter og makt."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Hva var to virkninger av utvandringen til Amerika for henholdsvis Norge og norsk-amerikanere?",
+        "fasit": "Utvandringen lettet befolkningspresset i Norge. Den førte også til store norsk-amerikanske miljøer i Midtvesten.",
+        "kriterier": [
+          "Nevner at utvandringen lettet presset i Norge.",
+          "Nevner at det ble dannet store norsk-amerikanske miljøer i Midtvesten."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Sammenlign arbeidsinnvandringen fra 1970-tallet med arbeidsinnvandringen etter EU-utvidelsen i 2004. Ta med hvor mange kom fra.",
+        "fasit": "Fra 1970-tallet kom det arbeidsinnvandrere blant annet fra Pakistan. Etter EU-utvidelsen i 2004 kom mange arbeidsinnvandrere fra Polen og Litauen.",
+        "kriterier": [
+          "Nevner Pakistan som et eksempel på opprinnelsesland fra 1970-tallet.",
+          "Nevner Polen og Litauen som opprinnelsesland etter EU-utvidelsen i 2004."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s07",
+        "text": "Når andelen eldre øker, blir det flere pensjonister per arbeidstaker. Forklar én utfordring dette kan gi for samfunnet.",
+        "fasit": "Flere pensjonister per arbeidstaker kan gi større behov for helse- og omsorgstjenester. Det kan dermed bli mer krevende å dekke behovene til de eldre.",
+        "kriterier": [
+          "Knytter flere eldre til større behov for helse- og omsorgstjenester.",
+          "Forklarer utfordringen med at flere pensjonister skal følges opp per arbeidstaker."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Hva menes med en demografisk overgang, og hvilke to befolkningsrater går fra høye til lave?",
+        "fasit": "En demografisk overgang er en utvikling fra høye til lave fødsels- og dødsrater. Den beskriver altså endringer i både fødselstall og dødelighet.",
+        "kriterier": [
+          "Forklarer at det er en overgang fra høye til lave rater.",
+          "Nevner både fødselsrater og dødsrater."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

@@ -14,7 +14,7 @@ export function Fagkatalog() {
       <div
         role="group"
         aria-label="Velg trinn"
-        className="lg:hidden mt-12 grid grid-cols-3 gap-1 p-1 rounded-2xl bg-background border border-border"
+        className="lg:hidden mt-12 grid grid-cols-4 gap-1 p-1 rounded-2xl bg-background border border-border"
       >
         {KATALOG.map((t, i) => (
           <button
@@ -30,7 +30,7 @@ export function Fagkatalog() {
           </button>
         ))}
       </div>
-      <div data-vis-gruppe className="mt-8 lg:mt-20 grid lg:grid-cols-6 gap-x-6 gap-y-12">
+      <div data-vis-gruppe className="mt-8 lg:mt-20 grid lg:grid-cols-7 gap-x-6 gap-y-12">
         {KATALOG.map((t, i) => (
           <div key={t.id} data-vis className={i === valgt ? undefined : "hidden lg:block"}>
             <h3 className="text-xl font-semibold pb-3 mb-4 border-b border-border-strong">{t.navn}</h3>

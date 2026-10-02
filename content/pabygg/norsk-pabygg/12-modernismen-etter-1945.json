@@ -1,0 +1,439 @@
+{
+  "id": "modernismen-etter-1945",
+  "fagId": "norsk-pabygg",
+  "trinnId": "pabygg",
+  "name": "Modernismen og litteraturen 1945–1980",
+  "intro": "Modernismens kjennetegn og gjennombrudd i norsk litteratur etter andre verdenskrig: lyrikkmodernismen og tungetaledebatten, Tarjei Vesaas' symbolske prosa, Olav H. Hauge, Jens Bjørneboe, Profil-generasjonen og den politiske og feministiske litteraturen på 1970-tallet.",
+  "kompetansemaal": [
+    10,
+    11
+  ],
+  "sammendrag": "## Hva er modernisme?\n\n**Modernismen** er en fellesbetegnelse på kunst og litteratur som **bryter** med tradisjonelle former. Den oppstod i Europa tidlig på 1900-tallet med forfattere som **Franz Kafka**, **James Joyce** og **T.S. Eliot**, men slo for alvor gjennom i Norge **etter 1945**.\n\nKjennetegn:\n\n- **Brudd** med rim, fast rytme og kronologisk handling\n- **Fragmentering** – teksten består av biter som leseren selv må sette sammen\n- **Sterke bilder**, symboler og **uklarhet**\n- **Indre monolog** og **bevissthetsstrøm**\n- Temaer som **fremmedgjøring**, **ensomhet**, **angst** og meningsløshet\n\n## Etter krigen\n\nKrigen, **atombomben** og den **kalde krigen** gjorde at mange mistet troen på at verden var ordnet og god. Samtidig bygde Norge opp **velferdsstaten**.\n\n**Gunvor Hofmo** skrev om **ensomhet** og tap i samlingen **Jeg vil hjem til menneskene** (1946).\n\n## Lyrikkmodernismen og tungetaledebatten\n\n**Paal Brekke** oversatte T.S. Eliots **Det golde landet** og skrev selv modernistisk lyrikk. Mange lesere syntes den nye lyrikken var **uforståelig**. I **1953** kritiserte **André Bjerke** den som «**tungetale fra Parnasset**». Den påfølgende **tungetaledebatten** handlet om hva lyrikk skal være: **tilgjengelig** og tradisjonell, eller **fri** og eksperimenterende.\n\n## Tarjei Vesaas\n\n**Tarjei Vesaas** skrev **lyrisk** og **symbolsk** prosa på **nynorsk**.\n\n- **Fuglane** (1957) handler om **Mattis**, en utviklingshemmet mann som ser verden annerledes. Romanen stiller spørsmål om hvem som er **annerledes**, og hvordan samfunnet møter dem.\n- **Is-slottet** (1963) handler om vennskapet mellom **Siss** og **Unn**. Is-slottet blir et **symbol** på noe vakkert og farlig på samme tid.\n\nHos Vesaas er **naturen** tett knyttet til **menneskets indre**.\n\n## Olav H. Hauge og Jens Bjørneboe\n\n**Olav H. Hauge** skrev korte, konsentrerte dikt, blant annet «**Det er den draumen**». Han kombinerte **naturbilder** fra Hardanger med påvirkning fra kinesisk og engelsk lyrikk.\n\n**Jens Bjørneboe** var en kraftig **samfunnskritiker**. **Jonas** (1955) kritiserer en skole som knuser barn som ikke passer inn, og **Frihetens øyeblikk** (1966) skildrer menneskets **grusomhet** gjennom historien.\n\n## 1960- og 1970-tallet\n\nPå **1960-tallet** samlet unge forfattere seg rundt tidsskriftet **Profil**, blant dem **Dag Solstad** og **Jan Erik Vold**. De eksperimenterte med **form** og ville fornye litteraturen.\n\nPå **1970-tallet** ble litteraturen sterkt **politisk**. Mange forfattere skrev **sosialrealistisk** om arbeidsliv og klassekamp, og noen var knyttet til den **marxistisk-leninistiske** bevegelsen. **Kjartan Fløgstad** skrev **Dalen Portland** (1977) om industrisamfunnet.\n\n**Kvinnebevegelsen** satte også spor. **Bjørg Vik** skrev om kvinners hverdagsliv, og **Gerd Brantenberg** snudde kjønnsrollene i den satiriske romanen **Egalias døtre** (1977).\n\n## Menneske, natur og samfunn\n\n- **Mennesket**: ofte **fremmedgjort**, ensomt og splittet\n- **Naturen**: et speil for sjelen eller et **symbol**\n- **Samfunnet**: kritisert for å undertrykke **individet** eller for **urettferdighet**\n\n## Å lese modernistiske tekster\n\nModernistiske tekster krever **aktive** lesere. Se etter **bilder**, **gjentakelser**, **brudd** og **symboler**, og godta at teksten kan ha **flere** tolkninger.",
+  "flashcards": [
+    {
+      "term": "Modernisme",
+      "def": "Kunst og litteratur som bryter med tradisjonelle former."
+    },
+    {
+      "term": "Fragmentering",
+      "def": "Teksten består av biter som leseren må sette sammen."
+    },
+    {
+      "term": "Bevissthetsstrøm",
+      "def": "Tankene gjengis slik de strømmer, uten orden."
+    },
+    {
+      "term": "Fremmedgjøring",
+      "def": "Følelsen av ikke å høre hjemme i verden."
+    },
+    {
+      "term": "Gunvor Hofmo",
+      "def": "Modernistisk lyriker, skrev Jeg vil hjem til menneskene."
+    },
+    {
+      "term": "Paal Brekke",
+      "def": "Oversatte T.S. Eliot og skrev modernistisk lyrikk."
+    },
+    {
+      "term": "Tungetaledebatten",
+      "def": "Debatt i 1953 om den modernistiske lyrikken var uforståelig."
+    },
+    {
+      "term": "André Bjerke",
+      "def": "Kritiserte modernismen som «tungetale fra Parnasset».",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Tarjei Vesaas",
+      "def": "Skrev symbolsk og lyrisk prosa på nynorsk."
+    },
+    {
+      "term": "Fuglane",
+      "def": "Vesaas' roman fra 1957 om Mattis."
+    },
+    {
+      "term": "Is-slottet",
+      "def": "Vesaas' roman fra 1963 om Siss og Unn."
+    },
+    {
+      "term": "Olav H. Hauge",
+      "def": "Lyriker fra Hardanger med korte, konsentrerte dikt."
+    },
+    {
+      "term": "Jens Bjørneboe",
+      "def": "Samfunnskritisk forfatter, skrev Jonas og Frihetens øyeblikk."
+    },
+    {
+      "term": "Profil-generasjonen",
+      "def": "Unge forfattere på 1960-tallet som fornyet litteraturen."
+    },
+    {
+      "term": "Egalias døtre",
+      "def": "Brantenbergs satiriske roman fra 1977 med snudde kjønnsroller.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Dalen Portland",
+      "def": "Fløgstads roman fra 1977 om industrisamfunnet.",
+      "niva": "eksempel"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva kjennetegner modernismen?",
+      "options": [
+        "Videreføring av tradisjonelle former og lineære fortellinger",
+        "Brudd med tradisjonelle former og fragmentering",
+        "Idealiserte skildringer av bygdeliv og nasjonale verdier",
+        "Nøktern framstilling av samfunn og hverdagsliv"
+      ],
+      "correct": 1,
+      "explain": "Også sterke bilder og uklarhet."
+    },
+    {
+      "id": "q02",
+      "text": "Hva handlet tungetaledebatten om?",
+      "options": [
+        "Om modernistisk lyrikk var uforståelig",
+        "Om lyrikken skulle følge faste rim og rytmer",
+        "Om diktene burde ta opp politiske konflikter",
+        "Om modernismen skulle bruke nynorsk eller bokmål"
+      ],
+      "correct": 0,
+      "explain": "André Bjerke startet debatten i 1953."
+    },
+    {
+      "id": "q03",
+      "text": "Hvem skrev Fuglane og Is-slottet?",
+      "options": [
+        "Jens Bjørneboe",
+        "Olav H. Hauge",
+        "Tarjei Vesaas",
+        "Dag Solstad"
+      ],
+      "correct": 2,
+      "explain": "Symbolsk prosa på nynorsk."
+    },
+    {
+      "id": "q04",
+      "text": "Hva kritiserer Bjørneboes Jonas?",
+      "options": [
+        "En kirke som avviser mennesker som tviler på troen",
+        "En industri som utnytter arbeidere som krever bedre vilkår",
+        "En stat som straffer ungdommer som protesterer mot krig",
+        "En skole som knuser barn som ikke passer inn"
+      ],
+      "correct": 3,
+      "explain": "Fra 1955."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er typisk for 1970-tallets litteratur?",
+      "options": [
+        "Sterk politisering og sosialrealisme",
+        "Nyromantikk og idealisert naturskildring",
+        "Historiske sagaer og norrøne heltemotiver",
+        "Barokk formspråk og religiøs symbolbruk"
+      ],
+      "correct": 0,
+      "explain": "Også kvinnelitteratur."
+    },
+    {
+      "id": "q06",
+      "text": "Hva gjør Gerd Brantenberg i Egalias døtre?",
+      "options": [
+        "Bytter om på klasseskillene i samfunnet",
+        "Bytter om på de vante kjønnsrollene",
+        "Flytter handlingen til middelalderens Norge",
+        "Lar religiøse ledere styre hele samfunnet"
+      ],
+      "correct": 1,
+      "explain": "En satire over kjønnsroller.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q07",
+      "text": "Hvilket symbol står sentralt i Is-slottet?",
+      "options": [
+        "Et fyrtårn på en øde og steinete kyst",
+        "Et speil som viser et ukjent ansikt",
+        "Et islagt fossefall formet som et slott",
+        "En bru av stein over en stri elv"
+      ],
+      "correct": 2,
+      "explain": "Vakkert og farlig på samme tid.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q08",
+      "text": "Hva forventes av leseren i en modernistisk tekst?",
+      "options": [
+        "At hen finner én skjult fasit bak tekstens bilder",
+        "At hen følger handlingen og overser tekstens symboler",
+        "At hen får alle bildene forklart av fortelleren",
+        "At hen leser aktivt og godtar flere tolkninger"
+      ],
+      "correct": 3,
+      "explain": "Teksten har ofte åpne bilder."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken tidsskriftgruppe samlet unge forfattere på 1960-tallet?",
+      "options": [
+        "Profil",
+        "Syn og Segn",
+        "Samtiden",
+        "Vinduet"
+      ],
+      "correct": 0,
+      "explain": "Blant dem Dag Solstad og Jan Erik Vold."
+    },
+    {
+      "id": "q10",
+      "text": "Hva kjennetegner Olav H. Hauges dikt?",
+      "options": [
+        "Lange episke fortellinger med mange personer",
+        "Korte, konsentrerte dikt med naturbilder",
+        "Regelmessige sonetter med fast rim og rytme",
+        "Politiske kampsanger med tydelige slagord"
+      ],
+      "correct": 1,
+      "explain": "For eksempel «Det er den draumen»."
+    }
+  ],
+  "mindmap": {
+    "label": "Modernismen 1945–1980",
+    "children": [
+      {
+        "label": "Kjennetegn",
+        "children": [
+          {
+            "label": "Formbrudd"
+          },
+          {
+            "label": "Fragmentering"
+          },
+          {
+            "label": "Fremmedgjøring"
+          }
+        ]
+      },
+      {
+        "label": "Lyrikken",
+        "children": [
+          {
+            "label": "Hofmo og Brekke"
+          },
+          {
+            "label": "Tungetaledebatten"
+          },
+          {
+            "label": "Olav H. Hauge"
+          }
+        ]
+      },
+      {
+        "label": "Prosa",
+        "children": [
+          {
+            "label": "Vesaas"
+          },
+          {
+            "label": "Bjørneboe"
+          }
+        ]
+      },
+      {
+        "label": "1960–70-tallet",
+        "children": [
+          {
+            "label": "Profil"
+          },
+          {
+            "label": "Politisering"
+          },
+          {
+            "label": "Kvinnelitteratur"
+          }
+        ]
+      },
+      {
+        "label": "Menneske og samfunn",
+        "children": [
+          {
+            "label": "Ensomhet"
+          },
+          {
+            "label": "Samfunnskritikk"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Krigen og atombomben bidro til at mange mistet troen på en ordnet verden.",
+        "correct": true,
+        "explain": "En bakgrunn for modernismen."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Tarjei Vesaas skrev på bokmål.",
+        "correct": false,
+        "explain": "Han skrev på nynorsk."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Kjartan Fløgstad skrev om industrisamfunnet i Dalen Portland.",
+        "correct": true,
+        "explain": "Fra 1977.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Modernistisk lyrikk bruker alltid faste rim.",
+        "correct": false,
+        "explain": "Den bryter ofte med rim og rytme."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem handler Fuglane om?",
+        "options": [
+          "Siss",
+          "Mattis",
+          "Jonas",
+          "Nora"
+        ],
+        "correct": 1,
+        "explain": "En mann som ser verden annerledes."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem oversatte T.S. Eliots Det golde landet?",
+        "options": [
+          "Paal Brekke",
+          "André Bjerke",
+          "Rolf Jacobsen",
+          "Olav H. Hauge"
+        ],
+        "correct": 0,
+        "explain": "Han skrev selv modernistisk lyrikk.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvordan brukes naturen ofte i modernistiske tekster?",
+        "options": [
+          "Som realistisk skildring av norsk landbruk",
+          "Som idyllisk bakgrunn for menneskelig handling",
+          "Som speil for sjelen eller symbol",
+          "Som naturfaglig forklaring på menneskets liv"
+        ],
+        "correct": 2,
+        "explain": "For eksempel hos Vesaas."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I en modernistisk tekst kan handlingen være satt sammen av korte, løsrevne deler. Hva kalles dette trekket, og hva må leseren gjøre for å forstå teksten?",
+        "fasit": "Dette kalles fragmentering. Leseren må selv sette sammen delene for å skape sammenheng.",
+        "kriterier": [
+          "Identifiserer fragmentering som tekstdeler eller handling i biter.",
+          "Forklarer at leseren selv må sette delene sammen eller skape sammenheng."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Etter 1945 mistet mange troen på at verden var ordnet og god. Forklar hvordan erfaringer fra krigen og situasjonen etter krigen bidro til dette.",
+        "fasit": "Krigen, atombomben og den kalde krigen gjorde at mange opplevde verden som utrygg og vanskelig å forstå. Det svekket troen på at verden var ordnet og god.",
+        "kriterier": [
+          "Knytter krigen, atombomben eller den kalde krigen til en opplevelse av utrygghet eller uro.",
+          "Forklarer sammenhengen med svekket tro på en ordnet og god verden."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva betyr bevissthetsstrøm i litteraturen? Forklar hvordan tankene blir framstilt.",
+        "fasit": "Bevissthetsstrøm betyr at tankene gjengis slik de strømmer, uten fast orden. Tankene kan derfor komme i sprang eller virke usammenhengende.",
+        "kriterier": [
+          "Forklarer at teksten gjengir tankestrømmen direkte.",
+          "Får fram at tankene ikke nødvendigvis følger en ordnet rekkefølge."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En person føler at hen ikke hører hjemme i verden og opplever avstand til omgivelsene. Hvilket modernistisk begrep passer til denne opplevelsen, og hva betyr begrepet?",
+        "fasit": "Begrepet er fremmedgjøring. Det betyr en følelse av ikke å høre hjemme i verden.",
+        "kriterier": [
+          "Bruker begrepet fremmedgjøring.",
+          "Forklarer at det handler om å føle at man ikke hører hjemme i verden."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Gunvor Hofmo skrev samlingen *Jeg vil hjem til menneskene*. Hvilke to temaer forbindes med diktene hennes?",
+        "fasit": "Hofmo skrev om ensomhet og tap.",
+        "kriterier": [
+          "Nevner ensomhet.",
+          "Nevner tap."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Tarjei Vesaas skrev lyrisk og symbolsk prosa, og naturen er tett knyttet til menneskets indre i tekstene hans. Forklar hva denne forbindelsen mellom natur og indre liv kan innebære.",
+        "fasit": "Naturen kan speile menneskets følelser eller fungere som et symbol på noe i menneskets indre. Den er dermed mer enn bare en beskrivelse av omgivelsene.",
+        "kriterier": [
+          "Forklarer at naturen kan speile menneskets indre eller følelser.",
+          "Får fram at naturen kan ha symbolsk betydning."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign uttrykksformen hos Tarjei Vesaas og Olav H. Hauge. Hva slags tekster skrev de, og hva kjennetegner formen deres?",
+        "fasit": "Vesaas skrev lyrisk og symbolsk prosa på nynorsk. Hauge skrev korte, konsentrerte dikt og brukte blant annet naturbilder fra Hardanger.",
+        "kriterier": [
+          "Beskriver Vesaas som en som skrev lyrisk og symbolsk prosa, gjerne med nynorsk nevnt.",
+          "Beskriver Hauges dikt som korte og konsentrerte eller trekker fram naturbildene fra Hardanger."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "På 1970-tallet skrev mange forfattere sosialrealistisk om arbeidsliv og klassekamp. Kjartan Fløgstads *Dalen Portland* handler om industrisamfunnet. Forklar hvordan romanen passer inn i denne litterære sammenhengen.",
+        "fasit": "Romanen handler om industrisamfunnet og passer derfor inn i en litteratur som var opptatt av arbeidsliv og samfunnsforhold. Den kan knyttes til 1970-tallets sosialrealistiske og politiske litteratur.",
+        "kriterier": [
+          "Knytter romanens industrisamfunn til arbeidsliv eller samfunnsforhold.",
+          "Plasserer romanen i 1970-tallets sosialrealistiske eller politiske litteratur."
+        ],
+        "niva": "eksempel"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

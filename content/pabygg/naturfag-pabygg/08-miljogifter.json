@@ -1,0 +1,453 @@
+{
+  "id": "miljogifter",
+  "fagId": "naturfag-pabygg",
+  "trinnId": "pabygg",
+  "name": "Miljøgifter i næringskjeder",
+  "intro": "Hva miljøgifter er, eksempler som PCB, DDT, kvikksølv og PFAS, hvordan de hoper seg opp i organismer og øker oppover i næringskjeden, og hvilke tiltak som kan beskytte helse og miljø.",
+  "kompetansemaal": [
+    10
+  ],
+  "sammendrag": "## Hva er miljøgifter?\n\n**Miljøgifter** er stoffer som kan skade levende organismer selv i **små mengder**. De fleste har tre egenskaper:\n\n- De er **giftige**.\n- De er **lite nedbrytbare** – de blir værende i naturen i lang tid.\n- De **hoper seg opp** i levende organismer, ofte fordi de er **fettløselige**.\n\n## Eksempler\n\n- **PCB**: brukt i elektrisk utstyr, maling og fugemasse. Forbudt i Norge siden 1980, men finnes fortsatt i gamle bygninger og i naturen.\n- **DDT**: et insektmiddel som ble brukt mye etter andre verdenskrig. Det gjorde eggeskallene til rovfugler tynne. Forbudt i Norge siden 1970.\n- **Kvikksølv** (Hg): et tungmetall som kan skade nervesystemet, særlig hos fostre og små barn. Kommer blant annet fra kullkraft og gruvedrift.\n- **Bly** og **kadmium**: tungmetaller fra blant annet gammel maling, batterier og industri.\n- **PFAS**: en stor gruppe stoffer brukt i vannavstøtende klær, stekepanner med slippbelegg og brannskum. De brytes nesten ikke ned og kalles ofte **«evighetskjemikalier»**.\n- **Bromerte flammehemmere**: brukt for å gjøre elektronikk og tekstiler mindre brennbare.\n\n## Bioakkumulering og biomagnifisering\n\n- **Bioakkumulering**: En organisme tar opp miljøgifter raskere enn den skiller dem ut, slik at mengden i kroppen **øker over tid**. Fettløselige stoffer lagres i fettvevet.\n- **Biomagnifisering**: Konsentrasjonen **øker for hvert ledd** oppover i **næringskjeden**. Et dyr spiser mange byttedyr og får i seg miljøgiftene fra alle.\n\nEksempel fra havet: plankton → krill → fisk → sel → **isbjørn**. Toppredatorer som isbjørn, sel, spekkhogger og rovfugler kan få svært høye konsentrasjoner. Miljøgifter fraktes også med havstrømmer og vind til **Arktis**, langt fra der de ble brukt.\n\n## Konsekvenser\n\nMiljøgifter kan gi **nedsatt forplantningsevne**, **svekket immunforsvar**, **hormonforstyrrelser**, **skader på nervesystemet** og **kreft**. Mennesker står også høyt i næringskjeden. Derfor gir myndighetene **kostråd**, for eksempel om å begrense inntaket av enkelte typer stor rovfisk og fiskelever – særlig for **gravide**.\n\n## Tiltak\n\n- **Forbud og regulering**: Nasjonale forbud og internasjonale avtaler, som **Stockholmkonvensjonen** om persistente organiske miljøgifter (2001).\n- **Riktig avfallshåndtering**: Elektronikk, batterier og maling leveres som **farlig avfall**.\n- **Opprydding** av forurenset grunn og sjøbunn.\n- **Rensing** av utslipp fra industri.\n- **Forbrukervalg**: Velge produkter uten unødvendige skadelige stoffer, for eksempel med **miljømerker**.\n- **Overvåking** av miljøgifter i natur og mat.\n\nMange tiltak har virket: Nivåene av PCB og DDT har gått ned siden forbudene. Men nye stoffer kommer stadig til, og det er vanskelig å fjerne stoffer som allerede er spredt i naturen.",
+  "flashcards": [
+    {
+      "term": "Miljøgift",
+      "def": "Giftig, lite nedbrytbart stoff som hoper seg opp i organismer."
+    },
+    {
+      "term": "Fettløselig",
+      "def": "Løses i fett og lagres derfor i fettvevet."
+    },
+    {
+      "term": "PCB",
+      "def": "Miljøgift fra elektrisk utstyr og bygninger, forbudt i Norge siden 1980."
+    },
+    {
+      "term": "DDT",
+      "def": "Insektmiddel som ga tynne eggeskall hos rovfugler, forbudt i Norge siden 1970."
+    },
+    {
+      "term": "Kvikksølv",
+      "def": "Tungmetall som kan skade nervesystemet."
+    },
+    {
+      "term": "PFAS",
+      "def": "«Evighetskjemikalier» i vannavstøtende klær, slippbelegg og brannskum."
+    },
+    {
+      "term": "Bromerte flammehemmere",
+      "def": "Stoffer som gjør elektronikk og tekstiler mindre brennbare.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Bioakkumulering",
+      "def": "Mengden miljøgift i en organisme øker over tid."
+    },
+    {
+      "term": "Biomagnifisering",
+      "def": "Konsentrasjonen øker for hvert ledd oppover i næringskjeden."
+    },
+    {
+      "term": "Toppredator",
+      "def": "Dyr øverst i næringskjeden, som isbjørn og spekkhogger."
+    },
+    {
+      "term": "Arktis og miljøgifter",
+      "def": "Miljøgifter fraktes med havstrømmer og vind til Arktis.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Hormonforstyrrelser",
+      "def": "En mulig konsekvens av miljøgifter.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Stockholmkonvensjonen",
+      "def": "Internasjonal avtale fra 2001 om persistente organiske miljøgifter.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Farlig avfall",
+      "def": "Avfall som elektronikk, batterier og maling som må leveres til mottak."
+    },
+    {
+      "term": "Kostråd",
+      "def": "Råd fra myndighetene om hva man bør begrense, særlig for gravide."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvilke tre egenskaper har de fleste miljøgifter?",
+      "options": [
+        "Giftige, lett nedbrytbare og hoper seg opp i organismer",
+        "Giftige, lite nedbrytbare og hoper seg opp i organismer",
+        "Giftige, lite nedbrytbare og skilles raskt ut fra organismer",
+        "Lite giftige, lite nedbrytbare og hoper seg opp i organismer"
+      ],
+      "correct": 1,
+      "explain": "Det er derfor de er så problematiske."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er biomagnifisering?",
+      "options": [
+        "At konsentrasjonen av miljøgifter øker oppover i næringskjeden",
+        "At konsentrasjonen av miljøgifter avtar oppover i næringskjeden",
+        "At miljøgifter hoper seg opp i én organisme over tid",
+        "At miljøgifter blir sterkere når de brytes ned i naturen"
+      ],
+      "correct": 0,
+      "explain": "Toppredatorer får derfor mest."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor lagres mange miljøgifter i fettvev?",
+      "options": [
+        "Fordi de er vannløselige",
+        "Fordi de samler seg i beinvev",
+        "Fordi de er fettløselige",
+        "Fordi de løses lett opp i blodet"
+      ],
+      "correct": 2,
+      "explain": "Fettløselige stoffer skilles dårlig ut av kroppen."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilket dyr får vanligvis høyest konsentrasjon av miljøgifter?",
+      "options": [
+        "Ringsel",
+        "Arktisk torsk",
+        "Krill",
+        "Isbjørn"
+      ],
+      "correct": 3,
+      "explain": "Isbjørnen er toppredator."
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken miljøgift gjorde eggeskallene til rovfugler tynne?",
+      "options": [
+        "DDT",
+        "PCB",
+        "Bly",
+        "PFAS"
+      ],
+      "correct": 0,
+      "explain": "DDT ble forbudt i Norge i 1970."
+    },
+    {
+      "id": "q06",
+      "text": "Hvorfor kalles PFAS «evighetskjemikalier»?",
+      "options": [
+        "Fordi de brukes i produkter med lang levetid",
+        "Fordi de nesten ikke brytes ned",
+        "Fordi de fraktes langt med luft og vann",
+        "Fordi de inneholder tungmetaller"
+      ],
+      "correct": 1,
+      "explain": "De blir værende i naturen i svært lang tid."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor finnes det miljøgifter i Arktis, langt fra industri?",
+      "options": [
+        "Fordi de dannes naturlig i det kalde klimaet",
+        "Fordi de lekker fra lokale gruver og fabrikker",
+        "Fordi de fraktes med havstrømmer og vind",
+        "Fordi de kommer fra vulkanske gasser i Arktis"
+      ],
+      "correct": 2,
+      "explain": "Miljøgifter spres over store avstander.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q08",
+      "text": "Hvordan bør du kvitte deg med gamle batterier?",
+      "options": [
+        "Kaste dem i restavfallsbeholderen",
+        "Levere dem sammen med plastemballasjen",
+        "Legge dem i glass- og metallavfallet",
+        "Levere dem som farlig avfall"
+      ],
+      "correct": 3,
+      "explain": "Da kan de gjenvinnes og håndteres trygt."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er bioakkumulering?",
+      "options": [
+        "At mengden miljøgift i en organisme øker over tid",
+        "At mengden miljøgift i vannet øker over tid",
+        "At miljøgiften brytes ned og forsvinner fra organismen",
+        "At organismen skiller ut miljøgiften raskere enn den tar den opp"
+      ],
+      "correct": 0,
+      "explain": "Organismen tar opp stoffet raskere enn den skiller det ut."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken internasjonal avtale regulerer persistente organiske miljøgifter?",
+      "options": [
+        "Minamatakonvensjonen",
+        "Stockholmkonvensjonen",
+        "Rotterdamkonvensjonen",
+        "Baselkonvensjonen"
+      ],
+      "correct": 1,
+      "explain": "Stockholmkonvensjonen er fra 2001.",
+      "niva": "eksempel"
+    }
+  ],
+  "mindmap": {
+    "label": "Miljøgifter",
+    "children": [
+      {
+        "label": "Egenskaper",
+        "children": [
+          {
+            "label": "Giftige"
+          },
+          {
+            "label": "Lite nedbrytbare"
+          },
+          {
+            "label": "Fettløselige"
+          }
+        ]
+      },
+      {
+        "label": "Eksempler",
+        "children": [
+          {
+            "label": "PCB"
+          },
+          {
+            "label": "DDT"
+          },
+          {
+            "label": "Kvikksølv"
+          },
+          {
+            "label": "PFAS"
+          }
+        ]
+      },
+      {
+        "label": "Næringskjeden",
+        "children": [
+          {
+            "label": "Bioakkumulering"
+          },
+          {
+            "label": "Biomagnifisering"
+          },
+          {
+            "label": "Toppredatorer"
+          },
+          {
+            "label": "Arktis"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Forplantning"
+          },
+          {
+            "label": "Immunforsvar"
+          },
+          {
+            "label": "Hormoner"
+          }
+        ]
+      },
+      {
+        "label": "Tiltak",
+        "children": [
+          {
+            "label": "Forbud og avtaler"
+          },
+          {
+            "label": "Farlig avfall"
+          },
+          {
+            "label": "Kostråd"
+          },
+          {
+            "label": "Overvåking"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mennesker kan også få i seg miljøgifter gjennom maten.",
+        "correct": true,
+        "explain": "Mennesker står høyt i næringskjeden."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "PCB finnes ikke lenger noe sted i Norge.",
+        "correct": false,
+        "explain": "PCB finnes fortsatt i gamle bygninger og i naturen."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Nivåene av enkelte miljøgifter har gått ned etter at de ble forbudt.",
+        "correct": true,
+        "explain": "Forbud har hatt effekt for blant annet PCB og DDT."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Miljøgifter er bare farlige i store mengder.",
+        "correct": false,
+        "explain": "Mange miljøgifter er skadelige selv i små mengder."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvor kan PFAS finnes?",
+        "options": [
+          "I vannavstøtende klær og stekepanner med slippbelegg",
+          "I ubehandlet ull og stekepanner av støpejern",
+          "I vanlige glassflasker og keramiske kopper",
+          "I fersk frukt og ubehandlet treverk"
+        ],
+        "correct": 0,
+        "explain": "PFAS brukes også i brannskum.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva kan kvikksølv skade?",
+        "options": [
+          "Blodtypen",
+          "Øyenfargen",
+          "Nervesystemet",
+          "Fingeravtrykkene"
+        ],
+        "correct": 2,
+        "explain": "Fostre og små barn er særlig sårbare."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken næringskjede viser biomagnifisering riktig fra lav til høy konsentrasjon?",
+        "options": [
+          "Krill → plankton → fisk → sel → isbjørn",
+          "Plankton → krill → fisk → sel → isbjørn",
+          "Plankton → fisk → krill → sel → isbjørn",
+          "Plankton → krill → sel → fisk → isbjørn"
+        ],
+        "correct": 1,
+        "explain": "Konsentrasjonen øker for hvert ledd oppover."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "PCB og DDT er forbudt i Norge, men miljøgifter finnes fortsatt i naturen. Forklar hvorfor et forbud ikke fjerner stoffene som allerede er spredt.",
+        "fasit": "PCB og DDT brytes sakte ned og kan derfor bli værende lenge i naturen. Forbud kan redusere nivåene, men det er vanskelig å fjerne miljøgifter som allerede er spredt.",
+        "kriterier": [
+          "Forklarer at stoffene brytes sakte ned eller blir værende lenge i naturen.",
+          "Forklarer at et forbud ikke fjerner stoff som allerede er spredt."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Et utslipp av kvikksølv bekymrer en helsestasjon. Nevn én kilde til kvikksølv og forklar hvilken helseskade det kan gi, og hvem som er særlig utsatt.",
+        "fasit": "Kvikksølv kan blant annet komme fra kullkraft eller gruvedrift. Det kan skade nervesystemet, særlig hos fostre og små barn.",
+        "kriterier": [
+          "Nevner kullkraft eller gruvedrift som en kilde til kvikksølv.",
+          "Knytter kvikksølv til skade på nervesystemet og nevner fostre eller små barn som særlig utsatt."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign bruken av PFAS og bromerte flammehemmere. Hva brukes hver av stoffgruppene til?",
+        "fasit": "PFAS brukes blant annet i vannavstøtende klær, slippbelegg i stekepanner og brannskum. Bromerte flammehemmere brukes i elektronikk og tekstiler for å gjøre dem mindre brennbare.",
+        "kriterier": [
+          "Nevner minst én bruk av PFAS.",
+          "Forklarer at bromerte flammehemmere brukes i elektronikk eller tekstiler for å gjøre dem mindre brennbare."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s04",
+        "text": "Myndighetene gir råd om å begrense enkelte typer stor rovfisk og fiskelever, særlig for gravide. Forklar hvorfor mennesker kan få i seg miljøgifter gjennom mat, og hvorfor gravide er nevnt særskilt.",
+        "fasit": "Mennesker står høyt i næringskjeden og kan få i seg miljøgifter gjennom maten. Gravide nevnes særskilt fordi kvikksølv kan skade nervesystemet hos fostre.",
+        "kriterier": [
+          "Forklarer at mennesker kan få i seg miljøgifter gjennom mat fordi de står høyt i næringskjeden.",
+          "Knytter rådet for gravide til at kvikksølv kan skade fostres nervesystem."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En skole skal kvitte seg med gamle batterier og elektronisk utstyr. Forklar hvordan skolen skal håndtere avfallet, og hva slags avfall det regnes som.",
+        "fasit": "Batteriene og det elektroniske utstyret skal leveres til mottak for farlig avfall. Det skal ikke kastes som vanlig avfall.",
+        "kriterier": [
+          "Sier at avfallet skal leveres til et mottak.",
+          "Identifiserer det som farlig avfall."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Et industriområde har både utslipp som fortsatt må behandles, og forurenset sjøbunn fra tidligere aktivitet. Hvilket tiltak kan brukes for utslippene, og hvilket for den forurensede sjøbunnen?",
+        "fasit": "Utslipp fra industrien kan renses. Den forurensede sjøbunnen kan ryddes opp.",
+        "kriterier": [
+          "Knytter rensing til utslipp fra industrien.",
+          "Knytter opprydding til forurenset sjøbunn."
+        ],
+        "niva": "over-niva"
+      },
+      {
+        "id": "s07",
+        "text": "DDT ble forbudt i Norge i 1970, og PCB ble forbudt i 1980. Hvor mange år tidligere ble DDT forbudt? Vis regnestykket.",
+        "fasit": "DDT ble forbudt 10 år tidligere. 1980 − 1970 = 10 år.",
+        "kriterier": [
+          "Viser riktig differanse på 10 år.",
+          "Viser et regnestykke som bygger på årstallene i oppgaven."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s08",
+        "text": "PCB ble forbudt i Norge i 1980. Stockholmkonvensjonen om persistente organiske miljøgifter kom i 2001. Hvor mange år etter PCB-forbudet kom konvensjonen? Vis regnestykket.",
+        "fasit": "Konvensjonen kom 21 år etter PCB-forbudet. 2001 − 1980 = 21 år.",
+        "kriterier": [
+          "Viser riktig differanse på 21 år.",
+          "Viser et regnestykke som bygger på årstallene i oppgaven."
+        ],
+        "niva": "eksempel"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

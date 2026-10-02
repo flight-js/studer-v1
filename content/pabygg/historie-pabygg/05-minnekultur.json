@@ -1,0 +1,447 @@
+{
+  "id": "minnekultur",
+  "fagId": "historie-pabygg",
+  "trinnId": "pabygg",
+  "name": "Minnekultur – hvordan fortiden minnes",
+  "intro": "Hvordan fortiden minnes lokalt og nasjonalt – gjennom minnesmerker, merkedager, museer, navn og ritualer – hvem som bestemmer hva som huskes, og hvorfor minnekultur ofte skaper debatt.",
+  "kompetansemaal": [
+    3
+  ],
+  "sammendrag": "## Hva er minnekultur?\n\n**Minnekultur** er måtene et samfunn **husker** og **markerer** fortiden på. Den viser hva vi mener er **viktig**, hvem vi er, og hvilke **verdier** vi vil bygge på. Minnekultur sier derfor ofte like mye om **samtiden** som om fortiden.\n\n## Former for minnekultur\n\n- **Minnesmerker og statuer** – for eksempel bautaer over falne i andre verdenskrig i mange bygder\n- **Merkedager** – **17. mai** (Grunnloven 1814), **8. mai** (frigjøringsdagen 1945), **6. februar** (samenes nasjonaldag)\n- **Museer** og **minnesteder** – som **Holocaust-senteret** i Oslo og **Falstadsenteret**\n- **Gatenavn** og **stedsnavn**\n- **Ritualer** – kransenedleggelser, minneord og stillhet\n- **Lærebøker**, **filmer**, **serier** og **bøker**\n\n## Nasjonal minnekultur\n\nEtter 1814 og særlig etter **1905** var minnekulturen i Norge preget av **nasjonsbygging**: vikingtid, Grunnloven og bondekultur ble løftet fram. Etter **andre verdenskrig** sto **motstandskampen** sentralt, og fortellingen om en samlet nasjon mot okkupanten var sterk. Senere har historikere vist at bildet var mer **sammensatt**: Mange **samarbeidet** med okkupantene, og **norske jøder** ble arrestert og deportert med hjelp fra norsk politi.\n\n## 22. juli\n\nEtter terrorangrepet **22. juli 2011** har det vært lange diskusjoner om hvordan hendelsen skal minnes. Det nasjonale minnestedet ved **Utøya** ble utsatt etter protester fra naboer som ikke ønsket å bli minnet om terroren hver dag. Debatten viser at minnekultur handler om **ulike behov** – for dem som ble rammet, for lokalsamfunnet og for nasjonen – og om hvordan man skal snakke om det **politiske** målet med terroren.\n\n## Lokal minnekultur\n\nLokalt kan minnekultur være **bygdetun**, **lokalmuseer**, **historielag**, **minnetavler** over ulykker eller skipsforlis og **navn på skoler og gater**. **Snublesteiner** (*Stolpersteine*) – små messingplater i fortauet – er lagt ned utenfor hjemmene til **norske jøder** som ble drept under Holocaust.\n\n## Hvem bestemmer hva som huskes?\n\nMinnekultur handler om **makt**: Hvem får en statue, og hvem blir **glemt**? Lenge var det mest **menn**, **konger** og **krigshelter** som ble minnet. Grupper som **samer**, **kvener**, **romanifolk**, **kvinner** og **arbeidere** har ofte vært usynlige. **Sannhets- og forsoningskommisjonen** (2023) er et eksempel på et forsøk på å gi plass til historier som ble fortiet.\n\n## Når minner blir omstridt\n\nI mange land har det vært debatt om **statuer** av personer knyttet til **slavehandel** og **kolonialisme**. I **Bristol** i England rev demonstranter i **2020** ned statuen av slavehandleren **Edward Colston**. Noen mener slike statuer bør **fjernes**, andre at de bør bli stående med **forklarende skilt**, eller flyttes til **museer**. Debatten handler om hvordan vi forholder oss til **vanskelig fortid**.",
+  "flashcards": [
+    {
+      "term": "Minnekultur",
+      "def": "Måtene et samfunn husker og markerer fortiden på."
+    },
+    {
+      "term": "8. mai",
+      "def": "Frigjøringsdagen – markerer slutten på okkupasjonen i 1945."
+    },
+    {
+      "term": "17. mai",
+      "def": "Grunnlovsdagen – til minne om Grunnloven i 1814."
+    },
+    {
+      "term": "Minnesmerke",
+      "def": "Monument til minne om en person eller hendelse."
+    },
+    {
+      "term": "Nasjonsbygging",
+      "def": "Å skape felles identitet og historie for en nasjon."
+    },
+    {
+      "term": "Motstandskampen",
+      "def": "Kampen mot okkupantene under andre verdenskrig, sentral i norsk minnekultur."
+    },
+    {
+      "term": "Sammensatt historie",
+      "def": "At fortiden har flere sider enn den enkle fortellingen."
+    },
+    {
+      "term": "22. juli 2011",
+      "def": "Terrorangrepene i regjeringskvartalet og på Utøya.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Snublesteiner",
+      "def": "Messingplater i fortauet til minne om ofre for Holocaust.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Holocaust-senteret",
+      "def": "Senter i Oslo for studier av Holocaust og minoriteter.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Glemte grupper",
+      "def": "Grupper som sjelden har blitt minnet, som kvinner, arbeidere og minoriteter."
+    },
+    {
+      "term": "Sannhets- og forsoningskommisjonen",
+      "def": "Kommisjon som i 2023 la fram rapport om fornorskingen.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Edward Colston",
+      "def": "Slavehandler hvis statue i Bristol ble revet ned i 2020.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Vanskelig fortid",
+      "def": "Deler av historien som er smertefulle eller skamfulle."
+    },
+    {
+      "term": "Lokal minnekultur",
+      "def": "Bygdetun, lokalmuseer, minnetavler og stedsnavn."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er minnekultur?",
+      "options": [
+        "Måtene et samfunn bevarer gamle bygninger og gjenstander på",
+        "Måtene et samfunn husker og markerer fortiden på",
+        "Måtene et samfunn forsker på historiske hendelser og personer",
+        "Måtene et samfunn samler historiske gjenstander i museer på"
+      ],
+      "correct": 1,
+      "explain": "Den sier også mye om samtiden."
+    },
+    {
+      "id": "q02",
+      "text": "Hva markerer 8. mai i Norge?",
+      "options": [
+        "Frigjøringen i 1945",
+        "Grunnlovsdagen i 1814",
+        "Unionsoppløsningen i 1905",
+        "Samenes nasjonaldag i 1917"
+      ],
+      "correct": 0,
+      "explain": "8. mai er frigjøringsdagen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er snublesteiner?",
+      "options": [
+        "Messingplater på husvegger til minne om motstandsfolk under krigen",
+        "Små plaketter i fortauet til minne om soldater fra første verdenskrig",
+        "Messingplater i fortauet til minne om ofre for Holocaust",
+        "Messingplater i fortauet til minne om jøder som overlevde Holocaust"
+      ],
+      "correct": 2,
+      "explain": "De ligger utenfor der ofrene bodde.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q04",
+      "text": "Hvorfor sier man at minnekultur handler om makt?",
+      "options": [
+        "Fordi minnekultur først og fremst handler om hvem som eier museene",
+        "Fordi minnekultur gir enkelte grupper rett til å eie historiske steder",
+        "Fordi minnekultur bestemmer hvem som får stemme ved valg",
+        "Fordi noen avgjør hvem som huskes og hvem som glemmes"
+      ],
+      "correct": 3,
+      "explain": "Lenge var det mest menn og krigshelter som ble minnet."
+    },
+    {
+      "id": "q05",
+      "text": "Hva skjedde med statuen av Edward Colston i Bristol i 2020?",
+      "options": [
+        "Den ble revet ned av demonstranter",
+        "Den ble fjernet av politiet under protesten",
+        "Den ble flyttet av byrådet til en park",
+        "Den ble erstattet av en ny statue"
+      ],
+      "correct": 0,
+      "explain": "Colston var slavehandler.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan har synet på norsk historie under andre verdenskrig endret seg?",
+      "options": [
+        "Bildet har blitt mer sammensatt, med samarbeid og frivillig utvandring av jøder",
+        "Bildet har blitt mer sammensatt, med samarbeid og deportasjon av jøder",
+        "Bildet har blitt mer sammensatt, med motstand og deportasjon av tyske soldater",
+        "Bildet har blitt enklere, med motstand som hovedfortelling og uten vekt på samarbeid"
+      ],
+      "correct": 1,
+      "explain": "Historikere har vist flere sider av okkupasjonstiden."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor ble minnestedet for 22. juli ved Utøya omstridt?",
+      "options": [
+        "Fordi naboene mente minnestedet burde ligge inne på Utøya",
+        "Fordi overlevende ønsket at minnestedet skulle bygges i Oslo sentrum",
+        "Fordi naboer ikke ønsket å bli minnet om terroren hver dag",
+        "Fordi lokale myndigheter ville bruke området til et krigsmuseum"
+      ],
+      "correct": 2,
+      "explain": "Minnekultur handler om ulike behov.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q08",
+      "text": "Hvilket er et eksempel på lokal minnekultur?",
+      "options": [
+        "Et internasjonalt minnested for Holocaust ved Auschwitz i Polen",
+        "Et landsdekkende minnesmerke over frigjøringen i hovedstaden",
+        "Et globalt museum om menneskerettigheter i Genève",
+        "En minnetavle over et skipsforlis i bygda"
+      ],
+      "correct": 3,
+      "explain": "Også bygdetun og lokalmuseer."
+    },
+    {
+      "id": "q09",
+      "text": "Hva preget norsk minnekultur etter 1905?",
+      "options": [
+        "Nasjonsbygging",
+        "Industrialisering",
+        "Demokratisering",
+        "Internasjonalisering"
+      ],
+      "correct": 0,
+      "explain": "Vikingtid, Grunnloven og bondekultur ble løftet fram."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket forslag er vanlig i debatten om omstridte statuer?",
+      "options": [
+        "Å bevare dem uten forklaring, dekke dem til eller fjerne informasjonsskiltene",
+        "Å fjerne dem, forklare dem med skilt eller flytte dem til museer",
+        "Å restaurere dem, sette opp vakter eller begrense adgangen til plassene",
+        "Å erstatte dem med kopier, bygge inn soklene eller flytte dem til private samlinger"
+      ],
+      "correct": 1,
+      "explain": "Debatten handler om vanskelig fortid."
+    }
+  ],
+  "mindmap": {
+    "label": "Minnekultur",
+    "children": [
+      {
+        "label": "Former",
+        "children": [
+          {
+            "label": "Minnesmerker"
+          },
+          {
+            "label": "Merkedager"
+          },
+          {
+            "label": "Museer"
+          },
+          {
+            "label": "Navn"
+          }
+        ]
+      },
+      {
+        "label": "Nasjonalt",
+        "children": [
+          {
+            "label": "Nasjonsbygging"
+          },
+          {
+            "label": "Motstandskampen"
+          },
+          {
+            "label": "Sammensatt historie"
+          }
+        ]
+      },
+      {
+        "label": "22. juli",
+        "children": [
+          {
+            "label": "Minnested ved Utøya"
+          },
+          {
+            "label": "Ulike behov"
+          }
+        ]
+      },
+      {
+        "label": "Lokalt",
+        "children": [
+          {
+            "label": "Bygdetun"
+          },
+          {
+            "label": "Snublesteiner"
+          },
+          {
+            "label": "Minnetavler"
+          }
+        ]
+      },
+      {
+        "label": "Makt og debatt",
+        "children": [
+          {
+            "label": "Hvem huskes?"
+          },
+          {
+            "label": "Glemte grupper"
+          },
+          {
+            "label": "Omstridte statuer"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Minnekultur kan si like mye om samtiden som om fortiden.",
+        "correct": true,
+        "explain": "Den viser hva vi mener er viktig i dag."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Alle grupper i samfunnet har alltid fått like stor plass i minnekulturen.",
+        "correct": false,
+        "explain": "Mange grupper har vært usynlige."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Norsk politi hjalp til med å arrestere norske jøder under krigen.",
+        "correct": true,
+        "explain": "Dette har fått større plass i nyere minnekultur.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Gatenavn kan aldri være en del av minnekulturen.",
+        "correct": false,
+        "explain": "Gatenavn hedrer ofte personer og hendelser."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken dag er samenes nasjonaldag?",
+        "options": [
+          "17. mai",
+          "6. februar",
+          "8. mai",
+          "7. juni"
+        ],
+        "correct": 1,
+        "explain": "Til minne om det første samiske landsmøtet i 1917.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er et eksempel på vanskelig fortid?",
+        "options": [
+          "Slavehandel og kolonialisme",
+          "Industrialisering og urbanisering",
+          "Innføring av stemmerett og skolegang",
+          "Utbygging av jernbane og elektrisitet"
+        ],
+        "correct": 0,
+        "explain": "Vanskelig fortid er smertefull eller skamfull.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva gjorde Sannhets- og forsoningskommisjonen?",
+        "options": [
+          "Undersøkte fornorskingen og ga erstatning til samer, kvener og skogfinner",
+          "Undersøkte fornorskingen og opprettet egne skoler for samer og kvener",
+          "Undersøkte fornorskingen og urett mot samer, kvener/norskfinner og skogfinner",
+          "Undersøkte fornorskingen og urett mot norske krigsfanger"
+        ],
+        "correct": 2,
+        "explain": "Rapporten kom i 2023.",
+        "niva": "eksempel"
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva markerer 17. mai, og hvordan er dagen en måte å minnes fortiden på?",
+        "fasit": "17. mai markerer Grunnloven fra 1814. Når dagen feires, blir denne delen av fortiden markert og holdt levende i samfunnet.",
+        "kriterier": [
+          "Knytter 17. mai til Grunnloven i 1814.",
+          "Forklarer at feiringen markerer eller holder denne fortiden levende."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar begrepet nasjonsbygging. Hvordan kan felles fortellinger om fortiden bidra til dette?",
+        "fasit": "Nasjonsbygging handler om å skape en felles identitet og historie for en nasjon. Når samfunnet løfter fram bestemte deler av fortiden, kan de bidra til en opplevelse av fellesskap.",
+        "kriterier": [
+          "Forklarer at nasjonsbygging handler om felles identitet og historie.",
+          "Viser hvordan fortellinger om fortiden kan bidra til fellesskap eller nasjonal identitet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hvorfor kan minnekultur si noe om samtiden, ikke bare om fortiden?",
+        "fasit": "Samfunnet velger hva og hvem det vil minnes. Disse valgene viser hva mennesker i samtiden mener er viktig, og hvilke verdier de ønsker å bygge på.",
+        "kriterier": [
+          "Forklarer at samfunnet velger hva eller hvem som blir husket.",
+          "Knytter valgene til samtidens prioriteringer, verdier eller identitet."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Sammenlign en kransenedleggelse med en statue som måter å minnes fortiden på. Hva er én viktig forskjell, og hva har de til felles?",
+        "fasit": "En kransenedleggelse er en handling eller et ritual som utføres, mens en statue er et varig minnesmerke. Begge kan brukes til å markere og minnes en person eller en hendelse.",
+        "kriterier": [
+          "Skiller mellom kransenedleggelse som ritual og statue som varig minnesmerke.",
+          "Forklarer at begge kan markere eller minnes fortiden."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sannhets- og forsoningskommisjonen la fram en rapport om fornorskingen i 2023. Hvorfor kan dette ses som et forsøk på å endre minnekulturen?",
+        "fasit": "Kommisjonen forsøkte å gi plass til historier om fornorskingen som tidligere hadde blitt fortiet. Slik kan grupper som ofte har vært usynlige i minnekulturen, bli bedre representert.",
+        "kriterier": [
+          "Knytter kommisjonens arbeid til historier om fornorskingen som har blitt fortiet.",
+          "Forklarer at arbeidet gir plass til grupper eller historier som tidligere har vært lite synlige."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s06",
+        "text": "Hva menes med «vanskelig fortid», og hvorfor kan statuer av personer knyttet til slavehandel være knyttet til dette begrepet?",
+        "fasit": "Vanskelig fortid er deler av historien som oppleves som smertefulle eller skamfulle. Slavehandel er et eksempel på en slik fortid, og derfor kan statuer av slavehandlere skape debatt om hvordan historien bør minnes.",
+        "kriterier": [
+          "Forklarer at vanskelig fortid er smertefulle eller skamfulle deler av historien.",
+          "Knytter slavehandel og statuer av slavehandlere til debatt om minnet av fortiden."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s07",
+        "text": "En lærer vil ta med klassen til Holocaust-senteret i Oslo for å arbeide med temaet Holocaust og minoriteter. Forklar hvorfor senteret passer til dette formålet.",
+        "fasit": "Holocaust-senteret er et senter i Oslo for studier av Holocaust og minoriteter. Det kan derfor brukes til å lære om og rette oppmerksomhet mot disse temaene.",
+        "kriterier": [
+          "Oppgir at Holocaust-senteret arbeider med studier av Holocaust.",
+          "Oppgir at senteret også arbeider med minoriteter og knytter dette til undervisningens tema."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s08",
+        "text": "Et lokalsamfunn holder hvert år en minnemarkering med kransenedleggelse og stillhet for mennesker som mistet livet i en ulykke. Forklar hvordan dette er en form for minnekultur.",
+        "fasit": "Kransenedleggelse og stillhet er ritualer som markerer at lokalsamfunnet minnes de døde og ulykken. Når slike ritualer brukes til å markere fortiden, er de en form for minnekultur.",
+        "kriterier": [
+          "Identifiserer kransenedleggelse og stillhet som ritualer.",
+          "Forklarer at ritualene markerer minnet om de døde eller ulykken."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

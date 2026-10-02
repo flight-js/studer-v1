@@ -1,0 +1,439 @@
+{
+  "id": "handel-og-okonomi",
+  "fagId": "historie-pabygg",
+  "trinnId": "pabygg",
+  "name": "Handel, økonomiske systemer og makt",
+  "intro": "Hvordan handel og økonomiske systemer har påvirket maktforhold og menneskers liv – hanseatene i Bergen, trekanthandelen og slaveriet, merkantilisme, kapitalisme og planøkonomi, og globaliseringen i vår tid.",
+  "kompetansemaal": [
+    9
+  ],
+  "sammendrag": "## Handel gir makt\n\nGjennom hele historien har **handel** skapt **rikdom** – og **makt** for dem som kontrollerer den. Samtidig har handel spredt **varer**, **ideer**, **teknologi** og **sykdommer**.\n\n## Hanseatene i Bergen\n\n**Hansaen** var et forbund av **nordtyske handelsbyer**. Fra midten av 1300-tallet hadde hanseatene et stort **kontor** på **Bryggen** i **Bergen**. De kjøpte **tørrfisk** fra Nord-Norge og solgte **korn**, som Norge trengte. Hanseatene fikk **handelsprivilegier** og stor makt over den norske økonomien, og mange nordlendinger ble **avhengige** av dem gjennom gjeld. Hansaens makt i Bergen avtok på 1500-tallet.\n\n## Trekanthandelen og slaveriet\n\nFra **1500-tallet** til **1800-tallet** gikk den atlantiske **trekanthandelen**:\n\n1. **Europeiske** varer, som våpen og tekstiler, ble fraktet til **Vest-Afrika**.\n2. **Slavegjorte afrikanere** ble fraktet over Atlanterhavet til **Amerika** – rundt **12 millioner** mennesker, og mange døde underveis.\n3. **Sukker**, **bomull** og **tobakk** fra plantasjene ble fraktet til **Europa**.\n\n**Danmark-Norge** deltok også, med kolonier i **Vestindia** (blant annet St. Croix) og handelsstasjoner i Vest-Afrika. Slavehandelen skapte enorm rikdom i Europa og ødeleggende konsekvenser i Afrika, og **rasismen** som ble brukt til å rettferdiggjøre den, har preget verden lenge etterpå.\n\n## Merkantilisme\n\nPå **1600- og 1700-tallet** mente mange stater at landets rikdom var avhengig av å **eksportere mer enn man importerte** og samle **gull og sølv**. Denne politikken kalles **merkantilisme**. Staten ga **privilegier** til handelskompanier, og **kolonier** skulle levere råvarer og kjøpe ferdigvarer fra moderlandet.\n\n## Kapitalisme\n\n**Adam Smith** argumenterte i **Nasjonenes velstand** (**1776**) for **frihandel** og **markedsøkonomi**: Når hver enkelt følger sin egeninteresse, vil markedets «**usynlige hånd**» gi velstand for alle. **Kapitalismen** – privat eierskap, konkurranse og profitt – ble grunnlaget for **industrialiseringen**, men ga også store **forskjeller** og harde kår for arbeiderne.\n\n## Sosialisme og planøkonomi\n\n**Karl Marx** og **Friedrich Engels** kritiserte kapitalismen i **Det kommunistiske manifest** (**1848**). I **Sovjetunionen** ble det innført **planøkonomi**: Staten eide produksjonen og bestemte hva som skulle produseres, blant annet gjennom **femårsplaner** fra **1928**. Planøkonomien ga rask industrialisering, men også **mangel på varer**, **ineffektivitet** og **undertrykkelse**.\n\n## Blandingsøkonomi og globalisering\n\nEtter **1945** utviklet Norge og andre vestlige land en **blandingsøkonomi** med marked og sterk stat. Fra **1980-tallet** økte **globaliseringen**: frihandel, **multinasjonale selskaper**, internasjonale **verdikjeder** og **Kinas** raske vekst. Globaliseringen har løftet hundrevis av millioner ut av fattigdom, men også gitt **ulikhet**, **utflagging** av arbeidsplasser og store **miljøkostnader**. Store selskaper og handelsmakter har i dag stor **økonomisk makt**.",
+  "flashcards": [
+    {
+      "term": "Hansaen",
+      "def": "Forbund av nordtyske handelsbyer."
+    },
+    {
+      "term": "Bryggen i Bergen",
+      "def": "Hanseatenes kontor fra midten av 1300-tallet."
+    },
+    {
+      "term": "Tørrfisk mot korn",
+      "def": "Hovedhandelen mellom Nord-Norge og hanseatene."
+    },
+    {
+      "term": "Handelsprivilegier",
+      "def": "Særrettigheter til å drive handel."
+    },
+    {
+      "term": "Trekanthandelen",
+      "def": "Varer til Afrika, slaver til Amerika, råvarer til Europa."
+    },
+    {
+      "term": "12 millioner",
+      "def": "Omtrent så mange afrikanere ble fraktet over Atlanterhavet som slaver.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Dansk Vestindia",
+      "def": "Danmark-Norges kolonier i Karibia, blant annet St. Croix.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Merkantilisme",
+      "def": "Politikk om å eksportere mer enn man importerer og samle gull og sølv."
+    },
+    {
+      "term": "Adam Smith",
+      "def": "Skrev Nasjonenes velstand (1776) om frihandel og markedsøkonomi."
+    },
+    {
+      "term": "Den usynlige hånd",
+      "def": "Smiths bilde på hvordan markedet gir velstand."
+    },
+    {
+      "term": "Kapitalisme",
+      "def": "Privat eierskap, konkurranse og profitt."
+    },
+    {
+      "term": "Det kommunistiske manifest",
+      "def": "Skrift av Marx og Engels fra 1848.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Planøkonomi",
+      "def": "Staten eier produksjonen og bestemmer hva som produseres."
+    },
+    {
+      "term": "Blandingsøkonomi",
+      "def": "Kombinasjon av marked og sterk stat."
+    },
+    {
+      "term": "Globalisering",
+      "def": "At verden knyttes tettere sammen gjennom handel og kommunikasjon."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva handlet hanseatene i Bergen først og fremst med?",
+      "options": [
+        "Tømmer og vin",
+        "Tørrfisk og korn",
+        "Salt og ull",
+        "Jern og krydder"
+      ],
+      "correct": 1,
+      "explain": "De kjøpte tørrfisk og solgte korn."
+    },
+    {
+      "id": "q02",
+      "text": "Hvordan fikk hanseatene makt over mange nordlendinger?",
+      "options": [
+        "Gjennom gjeld og handelsprivilegier",
+        "Gjennom kongelig støtte og militær kontroll",
+        "Gjennom kirkens innflytelse og lokale skatter",
+        "Gjennom politiske verv og allianser med bønder"
+      ],
+      "correct": 0,
+      "explain": "Mange ble avhengige av hanseatene."
+    },
+    {
+      "id": "q03",
+      "text": "Hva ble fraktet fra Afrika til Amerika i trekanthandelen?",
+      "options": [
+        "Våpen og tekstiler",
+        "Gull og elfenbein",
+        "Slavegjorte mennesker",
+        "Kaffe og kakao"
+      ],
+      "correct": 2,
+      "explain": "Rundt 12 millioner mennesker."
+    },
+    {
+      "id": "q04",
+      "text": "Hva var merkantilisme?",
+      "options": [
+        "Statlig politikk for frihandel uten toll og innblanding",
+        "Statlig politikk for importoverskudd og bruk av gull og sølv",
+        "Statlig politikk for selvforsyning gjennom produksjonsstyring",
+        "Statlig politikk for eksportoverskudd og oppsamling av gull og sølv"
+      ],
+      "correct": 3,
+      "explain": "Kolonier skulle levere råvarer."
+    },
+    {
+      "id": "q05",
+      "text": "Hvem skrev «Nasjonenes velstand»?",
+      "options": [
+        "Adam Smith",
+        "Karl Marx",
+        "Friedrich Engels",
+        "John Locke"
+      ],
+      "correct": 0,
+      "explain": "Boka kom i 1776.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q06",
+      "text": "Hva kjennetegner planøkonomi?",
+      "options": [
+        "Private bedrifter eier produksjonen og bestemmer hva som produseres",
+        "Staten eier produksjonen og bestemmer hva som produseres",
+        "Staten eier bedriftene, men markedet bestemmer produksjonen",
+        "Forbrukerne eier produksjonen og bestemmer hva som produseres"
+      ],
+      "correct": 1,
+      "explain": "Sovjetunionen er det mest kjente eksempelet."
+    },
+    {
+      "id": "q07",
+      "text": "Deltok Danmark-Norge i slavehandelen?",
+      "options": [
+        "Ja, med kolonier i Øst-Afrika og handelsstasjoner i Vestindia",
+        "Ja, med kolonier i Sør-Amerika og handelsstasjoner i Vest-Afrika",
+        "Ja, med kolonier i Vestindia og handelsstasjoner i Vest-Afrika",
+        "Ja, med kolonier i Vestindia og handelsstasjoner i Sør-Amerika"
+      ],
+      "correct": 2,
+      "explain": "St. Croix var en av koloniene.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en bakside ved globaliseringen?",
+      "options": [
+        "Lavere priser, større vareutvalg og raskere varetransport",
+        "Større markeder, flere handelsavtaler og økt produktivitet",
+        "Nye arbeidsplasser, mer eksport og teknologispredning",
+        "Ulikhet, utflagging av arbeidsplasser og miljøkostnader"
+      ],
+      "correct": 3,
+      "explain": "Globaliseringen har både vinnere og tapere."
+    },
+    {
+      "id": "q09",
+      "text": "Når ble Det kommunistiske manifest utgitt?",
+      "options": [
+        "1848",
+        "1776",
+        "1917",
+        "1936"
+      ],
+      "correct": 0,
+      "explain": "Det kritiserte kapitalismen.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q10",
+      "text": "Hva er blandingsøkonomi?",
+      "options": [
+        "Kombinasjon av statlig eierskap og sentral planlegging",
+        "Kombinasjon av marked og sterk stat",
+        "Kombinasjon av frihandel og privat selvregulering",
+        "Kombinasjon av naturalhusholdning og lokal byttehandel"
+      ],
+      "correct": 1,
+      "explain": "Norge fikk blandingsøkonomi etter 1945."
+    }
+  ],
+  "mindmap": {
+    "label": "Handel og økonomi",
+    "children": [
+      {
+        "label": "Hansaen",
+        "children": [
+          {
+            "label": "Bryggen i Bergen"
+          },
+          {
+            "label": "Tørrfisk mot korn"
+          },
+          {
+            "label": "Avhengighet"
+          }
+        ]
+      },
+      {
+        "label": "Trekanthandelen",
+        "children": [
+          {
+            "label": "Europa – Afrika – Amerika"
+          },
+          {
+            "label": "12 millioner slaver"
+          },
+          {
+            "label": "Danmark-Norge"
+          }
+        ]
+      },
+      {
+        "label": "Merkantilisme",
+        "children": [
+          {
+            "label": "Eksportoverskudd"
+          },
+          {
+            "label": "Kolonier"
+          }
+        ]
+      },
+      {
+        "label": "Kapitalisme og sosialisme",
+        "children": [
+          {
+            "label": "Adam Smith"
+          },
+          {
+            "label": "Marx og Engels"
+          },
+          {
+            "label": "Planøkonomi"
+          }
+        ]
+      },
+      {
+        "label": "Vår tid",
+        "children": [
+          {
+            "label": "Blandingsøkonomi"
+          },
+          {
+            "label": "Globalisering"
+          },
+          {
+            "label": "Økonomisk makt"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Hanseatenes makt i Bergen avtok på 1500-tallet.",
+        "correct": true,
+        "explain": "Norske og danske handelsmenn tok gradvis over.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Planøkonomien i Sovjetunionen ga god tilgang på alle varer.",
+        "correct": false,
+        "explain": "Den ga ofte mangel på varer og ineffektivitet.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Rasismen som ble brukt til å rettferdiggjøre slaveriet, har preget verden lenge etterpå.",
+        "correct": true,
+        "explain": "Slaveriets ettervirkninger er fortsatt merkbare."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Adam Smith var tilhenger av planøkonomi.",
+        "correct": false,
+        "explain": "Smith argumenterte for frihandel og markedsøkonomi."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilke varer ble fraktet fra Amerika til Europa i trekanthandelen?",
+        "options": [
+          "Våpen, tekstiler og metallvarer",
+          "Sukker, bomull og tobakk",
+          "Te, silke og porselen",
+          "Tørrfisk, tømmer og jern"
+        ],
+        "correct": 1,
+        "explain": "Varene ble produsert på plantasjer med slavearbeid."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er «den usynlige hånd»?",
+        "options": [
+          "Smiths bilde på hvordan markedet gir velstand",
+          "Smiths bilde på hvordan staten styrer markedet",
+          "Smiths bilde på hvordan kongen fastsetter prisene",
+          "Smiths bilde på hvordan handelen fordeles mellom land"
+        ],
+        "correct": 0,
+        "explain": "Egeninteresse kan gi velstand for alle, mente Smith."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Fra når ble femårsplaner brukt i Sovjetunionen?",
+        "options": [
+          "1917",
+          "1936",
+          "1928",
+          "1953"
+        ],
+        "correct": 2,
+        "explain": "Planene skulle gi rask industrialisering.",
+        "niva": "eksempel"
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hanseatene hadde handelsprivilegier i Bergen og fikk stor makt over norsk økonomi. Forklar hvordan dette viser en sammenheng mellom kontroll over handel og makt.",
+        "fasit": "Handelsprivilegier ga hanseatene særrettigheter til å drive handel. Fordi de hadde en viktig posisjon i handelen, kunne de også få stor innflytelse over norsk økonomi.",
+        "kriterier": [
+          "Forklarer at handelsprivilegier ga hanseatene særrettigheter eller fordeler.",
+          "Knytter posisjonen deres i handelen til innflytelse eller makt over økonomien."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Beskriv rekkefølgen på de tre delene av trekanthandelen, og nevn hva som ble fraktet mellom Europa, Vest-Afrika og Amerika.",
+        "fasit": "Europeiske varer, som våpen og tekstiler, ble fraktet til Vest-Afrika. Slavegjorte afrikanere ble fraktet til Amerika, og sukker, bomull og tobakk ble fraktet fra Amerika til Europa.",
+        "kriterier": [
+          "Får med rekkefølgen Europa–Vest-Afrika–Amerika–Europa.",
+          "Får med de sentrale varene eller menneskene som ble fraktet på de ulike etappene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign merkantilisme og kapitalisme. Hva var viktig for statens økonomiske politikk i merkantilismen, og hva kjennetegner kapitalismen?",
+        "fasit": "I merkantilismen prøvde staten å eksportere mer enn den importerte og å samle gull og sølv. Kapitalisme kjennetegnes av privat eierskap, konkurranse og profitt.",
+        "kriterier": [
+          "Beskriver merkantilismens mål om større eksport enn import og/eller å samle gull og sølv.",
+          "Får med sentrale trekk ved kapitalismen: privat eierskap, konkurranse og profitt."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Adam Smith brukte uttrykket «den usynlige hånd» om markedet. Forklar hva uttrykket skulle beskrive, og hvordan det hang sammen med egeninteresse.",
+        "fasit": "Smith mente at når enkeltpersoner følger sin egeninteresse i en markedsøkonomi, kan markedet likevel bidra til velstand for alle. Dette kalte han den usynlige hånd.",
+        "kriterier": [
+          "Knytter den usynlige hånd til at mennesker følger sin egeninteresse.",
+          "Får med at markedet ifølge Smith kan føre til velstand for alle."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Kapitalismen ble grunnlag for industrialisering, men ga også store forskjeller og harde kår for arbeidere. Forklar hvordan kapitalismen både kunne henge sammen med økonomisk utvikling og ha sosiale kostnader.",
+        "fasit": "Kapitalismen, med privat eierskap, konkurranse og profitt, ble grunnlaget for industrialiseringen. Samtidig førte utviklingen til store forskjeller og harde kår for arbeiderne.",
+        "kriterier": [
+          "Knytter kapitalismen til industrialiseringen.",
+          "Får med minst én sosial kostnad: store forskjeller eller harde arbeidskår."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Planøkonomien i Sovjetunionen ga rask industrialisering, men hadde også alvorlige problemer. Nevn ett resultat som regnes som positivt, og to problemer ved systemet.",
+        "fasit": "Planøkonomien førte til rask industrialisering. Samtidig førte den til mangel på varer, ineffektivitet og undertrykkelse.",
+        "kriterier": [
+          "Nevner rask industrialisering som et positivt resultat.",
+          "Nevner minst to av problemene mangel på varer, ineffektivitet og undertrykkelse."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s07",
+        "text": "Globaliseringen har både positive og negative følger. Beskriv én positiv og én negativ følge som er knyttet til globaliseringen.",
+        "fasit": "Globaliseringen har løftet hundrevis av millioner ut av fattigdom. Den har også ført til ulikhet, utflagging av arbeidsplasser og store miljøkostnader.",
+        "kriterier": [
+          "Nevner en positiv følge, for eksempel at mange er løftet ut av fattigdom.",
+          "Nevner en negativ følge, for eksempel ulikhet, utflagging eller miljøkostnader."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Handel kan spre mer enn varer. Nevn to andre ting handel kan spre, og forklar kort hva dette viser om virkningen handel kan ha på samfunn.",
+        "fasit": "Handel kan spre ideer, teknologi og sykdommer. Det viser at handel kan påvirke samfunn på flere måter enn ved å skape rikdom og flytte varer.",
+        "kriterier": [
+          "Nevner minst to av ideer, teknologi og sykdommer.",
+          "Får fram at handel kan påvirke samfunn utover varebytte eller økonomi."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

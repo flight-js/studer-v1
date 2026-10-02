@@ -1,0 +1,602 @@
+{
+  "id": "repetisjon",
+  "fagId": "naturfag-pabygg",
+  "trinnId": "pabygg",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "sammendrag": "Naturfag undersøker naturen og hvordan den fungerer, fra universet og stråling til levende organismer og miljø. Vi bruker observasjoner, forsøk og modeller for å utvikle og vurdere kunnskap.\n\n## Hypoteser, modeller og teorier\nNaturvitenskapelig arbeid starter ofte med en **problemstilling** og en **hypotese** – en mulig forklaring som kan testes. I et forsøk endrer vi den **uavhengige variabelen**, måler den **avhengige variabelen** og holder andre forhold kontrollert. En **kontrollgruppe**, gjentatte forsøk og vurdering av **feilkilder** bidrar til mer pålitelige resultater. Funn presenteres slik at andre kan vurdere dem og forsøke å gjenta arbeidet; dette kalles **etterprøvbarhet**. En **modell** forenkler virkeligheten, mens en **teori** er en godt underbygd forklaring støttet av mange observasjoner. Kunnskap kan endres når nye data kommer. Modeller kan forklare og forutsi, men har begrensninger: Vi må vurdere hva de viser, hva de utelater og når de gjelder.\n\n## Programmering og modellering i naturfag\nEn **datamodell** simulerer et fenomen som kan være vanskelig å undersøke direkte. I Python brukes **variabler** til å lagre verdier, **løkker** til å gjenta beregninger og **lister** til å lagre målinger. Grafer kan vise resultatene. I **Eulers metode** oppdateres størrelser i små **tidssteg**: ny fart = fart + akselerasjon · dt, ny posisjon = posisjon + fart · dt og ny tid = tid + dt. Mindre tidssteg gir vanligvis mer nøyaktige resultater, men simuleringen tar lengre tid. Radioaktiv nedbrytning kan beskrives med N = N₀ · (1/2)^(t/T), der T er halveringstiden. I populasjoner kan **logistisk vekst** flate ut mot miljøets **bæreevne**. Ved fall med luftmotstand kan et legeme nå **terminalfart** når kreftene blir like store. Vurder alltid forenklinger, gyldighetsområde, tidssteg og om resultatene stemmer med målinger.\n\n## Big bang og universets utvikling\n**Big bang-teorien** beskriver et univers som for omtrent 13,8 milliarder år siden var svært varmt og tett, og som siden har utvidet seg og kjølt seg ned. Det var en utvidelse av selve rommet. De letteste atomkjernene, hovedsakelig **hydrogen** og **helium**, ble dannet tidlig. Da nøytrale atomer oppsto, kunne lys bevege seg fritt; dette lyset ser vi som **kosmisk bakgrunnsstråling**. Senere samlet tyngdekraften gass til stjerner og galakser. **Rødforskyvning** i lys fra fjerne galakser viser at de fjerner seg, og støtter at universet utvider seg. Mengden hydrogen og helium er også i samsvar med teorien. I stjerner smelter kjerner sammen ved **fusjon** og danner tyngre grunnstoffer. Supernovaer sprer grunnstoffer ut i rommet, som senere kan bli byggesteiner i nye stjerner og planeter.\n\n## Elektromagnetisk og ioniserende stråling\nDet **elektromagnetiske spekteret** går fra radiobølger, mikrobølger, infrarød stråling og synlig lys til UV, røntgen og gamma. Kortere bølgelengde betyr høyere energi. **Ioniserende stråling** kan rive løs elektroner og skade DNA; røntgen, gamma og partikkelstråling er eksempler. UV regnes som ikke-ioniserende, men kan likevel skade DNA i hudceller. Radioaktivitet er stråling fra ustabile atomkjerner. **Alfa** er heliumkjerner, **beta** er elektroner, og **gamma** er elektromagnetisk stråling; de trenger ulik skjerming. Alfa er særlig farlig hvis stoffet kommer inn i kroppen. **Halveringstid** er tiden før halvparten av kjernene er omdannet. **Becquerel (Bq)** måler omdannelser per sekund, mens **sievert (Sv)** måler stråledose og biologisk virkning. Radon fra berggrunnen kan samle seg i hus. Stråling brukes også i medisin, der nytte veies mot risiko.\n\n## Bølger og trådløs kommunikasjon\nEn **bølge** brer seg og transporterer energi. I transversale bølger står svingningen på tvers av bevegelsen; i longitudinale bølger, som lyd, går den langs bevegelsen. **Bølgelengde** er avstanden mellom bølgetopper, **frekvens** er antall svingninger per sekund, og **amplitude** henger sammen med lyd- eller lysstyrke. Bølgefarten er **v = λ · f**. Lyd trenger et stoff å gå gjennom, mens elektromagnetiske bølger kan gå gjennom tomt rom. Bølger kan reflekteres, brytes, bøyes rundt hindringer (**diffraksjon**) og forsterke eller slukke hverandre (**interferens**). Dopplereffekten endrer oppfattet frekvens når kilden beveger seg. Trådløs kommunikasjon sender informasjon på radiobølger ved **modulasjon**. Antenner sender og mottar signaler; digitale signaler koder informasjon som enere og nuller.\n\n## DNA, arv og evolusjon\n**DNA** er arvestoffet, bygd opp av basene A, T, C og G, der A parer med T og C med G. Et **gen** inneholder oppskriften på et protein, og DNA er pakket i kromosomer. Mennesker har 46 kromosomer i nesten alle kroppsceller. **Mitose** lager to like celler, mens **meiose** lager kjønnsceller med halvparten så mange kromosomer. Ved befruktning blandes arvematerialet. Et **allel** er en utgave av et gen; et dominant allel vises med én kopi, mens et recessivt allel vises med to. **Genotype** er allelkombinasjonen, og **fenotype** er egenskapen som vises. **Mutasjoner** er endringer i DNA og den opprinnelige kilden til ny genetisk variasjon. Ved **naturlig utvalg** får individer med arvelige egenskaper som passer miljøet, oftere avkom, slik at egenskapene blir vanligere over generasjoner. Biologisk mangfold omfatter gener, arter og økosystemer. Klimaendringer kan føre til at arter flytter, tilpasser seg eller risikerer å dø ut.\n\n## Bioteknologi og etikk\n**Bioteknologi** bruker organismer, celler eller biologiske prosesser til å lage produkter eller løse problemer. Gjær til brød og avl er tradisjonelle eksempler; **genteknologi** leser eller endrer DNA direkte. Genmodifiserte bakterier kan produsere insulin, og genterapi forsøker å reparere eller erstatte feil i gener. **CRISPR-Cas9** er en presis gensaks. Gentester, fosterdiagnostikk og DNA-profiler er andre bruksområder. Kloning lager genetiske kopier. I Norge regulerer genteknologiloven GMO, mens bioteknologiloven regulerer medisinsk bioteknologi på mennesker. Etiske drøftinger kan bruke **konsekvensetikk**, **pliktetikk** og **føre-var-prinsippet**. En god drøfting viser flere sider, bruker fagkunnskap og begrunner konklusjonen. Endringer i kjønnsceller og fostre er særlig omstridt fordi de kan arves videre.\n\n## Miljøgifter i næringskjeder\n**Miljøgifter** er giftige, lite nedbrytbare stoffer som hoper seg opp i organismer, ofte fordi de er fettløselige. Ved **bioakkumulering** øker mengden i en organisme over tid. Ved **biomagnifisering** øker konsentrasjonen oppover i næringskjeden, slik at toppredatorer som isbjørn kan få høye nivåer. PCB, DDT, kvikksølv og PFAS er eksempler. Miljøgifter kan skade blant annet forplantning, immunforsvar og nervesystem. Mennesker kan få dem gjennom mat, og myndighetene gir kostråd, særlig til gravide. Tiltak omfatter forbud og regulering, riktig levering av farlig avfall, opprydding, rensing, miljømerker og overvåking. Forbud har bidratt til lavere nivåer av enkelte miljøgifter, men stoffer som allerede er spredt, er vanskelige å fjerne.\n\n## Sammenhenger i faget\nNaturvitenskapelig metode brukes til å teste ideer og vurdere modeller, også datamodeller av naturfenomener. Bølger og stråling er viktige for kommunikasjon og for å undersøke universet, mens radioaktivitet også beskriver nedbrytning og stråledose. DNA og mutasjoner gir variasjon som naturlig utvalg virker på; genteknologi bruker kunnskap om DNA, men reiser etiske spørsmål. Miljøgifter påvirker organismer og næringskjeder, og kunnskap om naturen kan brukes til å vurdere risiko og tiltak.\n\n## Huskeliste før prøven\n- Skill mellom hypotese, modell og teori.\n- Finn uavhengig, avhengig og kontrollerte variabler i et forsøk.\n- Kunne forklare tidssteg og Eulers metode.\n- Husk at kortere elektromagnetisk bølgelengde betyr høyere energi.\n- Bruk v = λ · f når du regner med bølger.\n- Skill mellom mitose, meiose, genotype og fenotype.\n- Forklar naturlig utvalg med arvelig variasjon og miljø.\n- Bruk etiske perspektiver når du drøfter bioteknologi.\n- Skill mellom bioakkumulering og biomagnifisering.",
+  "flashcards": [
+    {
+      "term": "Hypotese",
+      "def": "En mulig, testbar forklaring eller forutsigelse."
+    },
+    {
+      "term": "Teori",
+      "def": "En godt underbygd forklaring støttet av mange observasjoner."
+    },
+    {
+      "term": "Eulers metode",
+      "def": "Oppdaterer fart og posisjon steg for steg: v = v + a · dt."
+    },
+    {
+      "term": "Logistisk vekst",
+      "def": "Vekst som flater ut mot bæreevnen."
+    },
+    {
+      "term": "Rødforskyvning",
+      "def": "Lys fra fjerne galakser er strukket mot lengre, rødere bølgelengder."
+    },
+    {
+      "term": "Kosmisk bakgrunnsstråling",
+      "def": "Svak mikrobølgestråling fra alle retninger, ettergløden fra det unge universet."
+    },
+    {
+      "term": "Ioniserende stråling",
+      "def": "Stråling som kan rive løs elektroner og skade DNA."
+    },
+    {
+      "term": "Halveringstid",
+      "def": "Tiden før halvparten av de radioaktive kjernene er omdannet."
+    },
+    {
+      "term": "v = λ · f",
+      "def": "Bølgefart er bølgelengde ganger frekvens."
+    },
+    {
+      "term": "Interferens",
+      "def": "Bølger som møtes, forsterker eller slukker hverandre."
+    },
+    {
+      "term": "Mutasjon",
+      "def": "Endring i DNA – den opprinnelige kilden til ny variasjon."
+    },
+    {
+      "term": "Naturlig utvalg",
+      "def": "Individer som passer best til miljøet, får flest avkom."
+    },
+    {
+      "term": "Genteknologi",
+      "def": "Metoder for å lese og endre DNA direkte."
+    },
+    {
+      "term": "CRISPR-Cas9",
+      "def": "«Gensaks» som endrer DNA presist, raskt og billig."
+    },
+    {
+      "term": "Bioakkumulering",
+      "def": "Mengden miljøgift i en organisme øker over tid."
+    },
+    {
+      "term": "Biomagnifisering",
+      "def": "Konsentrasjonen øker for hvert ledd oppover i næringskjeden."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvorfor gjentar vi et forsøk flere ganger?",
+      "options": [
+        "For å få flere ulike resultater",
+        "For å bruke flere måleinstrumenter",
+        "For å undersøke en ny hypotese",
+        "For å få mer pålitelige resultater"
+      ],
+      "correct": 3,
+      "explain": "Gjentakelser avslører tilfeldige feil."
+    },
+    {
+      "id": "q02",
+      "text": "Hva betyr etterprøvbarhet?",
+      "options": [
+        "At andre kan lese forsøksrapporten og forstå den",
+        "At andre kan gjenta forsøket og få samme resultat",
+        "At læreren kan kontrollere utstyret før forsøket",
+        "At forsøket kan utføres uten måleutstyr"
+      ],
+      "correct": 1,
+      "explain": "Etterprøvbarhet er et grunnleggende krav i naturvitenskapen."
+    },
+    {
+      "id": "q03",
+      "text": "Hva skjer vanligvis når du gjør tidssteget i en simulering mindre?",
+      "options": [
+        "Simuleringen blir mindre nøyaktig, men tar kortere tid",
+        "Simuleringen blir mer nøyaktig, men tar lengre tid",
+        "Simuleringen beholder samme nøyaktighet, men tar lengre tid",
+        "Simuleringen blir mer nøyaktig og tar kortere tid"
+      ],
+      "correct": 1,
+      "explain": "Små steg følger endringene tettere."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er bæreevnen i en populasjonsmodell?",
+      "options": [
+        "Populasjonens veksthastighet per tidsenhet",
+        "Antallet individer i starten av modellen",
+        "Levetiden til et individ i populasjonen",
+        "Den største populasjonen miljøet kan opprettholde"
+      ],
+      "correct": 3,
+      "explain": "Logistisk vekst flater ut mot bæreevnen."
+    },
+    {
+      "id": "q05",
+      "text": "Hva viser rødforskyvningen i lyset fra fjerne galakser?",
+      "options": [
+        "At galaksene fjerner seg fra oss",
+        "At de fjerne galaksene nærmer seg oss",
+        "At galaksene sender ut rødt lys",
+        "At galaksene blir varmere over tid"
+      ],
+      "correct": 0,
+      "explain": "Bølgelengden strekkes når rommet utvider seg."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er den kosmiske bakgrunnsstrålingen?",
+      "options": [
+        "Lyset fra de første stjernene",
+        "Strålingen fra vår egen galakse",
+        "Ettergløden fra det unge universet",
+        "Varmen fra den tidlige sola"
+      ],
+      "correct": 2,
+      "explain": "Den kommer fra alle retninger og har en temperatur på omtrent 2,7 K."
+    },
+    {
+      "id": "q07",
+      "text": "Hva kjennetegner ioniserende stråling?",
+      "options": [
+        "Den kan rive løs elektroner og skade DNA",
+        "Den kan skade celler, men ikke rive løs elektroner",
+        "Den kan rive løs elektroner, men ikke skade celler",
+        "Den kan varme opp vev, men ikke rive løs elektroner"
+      ],
+      "correct": 0,
+      "explain": "Derfor kan den øke risikoen for kreft."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er halveringstid?",
+      "options": [
+        "Tiden før halvparten av de radioaktive kjernene er omdannet",
+        "Tiden før alle de radioaktive kjernene er omdannet",
+        "Tiden før strålingen fra stoffet er helt borte",
+        "Tiden det tar for én radioaktiv kjerne å bli omdannet"
+      ],
+      "correct": 0,
+      "explain": "Halveringstiden er fast for hvert stoff."
+    },
+    {
+      "id": "q09",
+      "text": "Hva er formelen for bølgefart?",
+      "options": [
+        "v = λ / f²",
+        "v = λ · f",
+        "v = λ² · f",
+        "v = λ − f"
+      ],
+      "correct": 1,
+      "explain": "Bølgefart = bølgelengde · frekvens."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket fenomen bruker støydempende hodetelefoner?",
+      "options": [
+        "Resonans",
+        "Diffraksjon",
+        "Interferens",
+        "Absorpsjon"
+      ],
+      "correct": 2,
+      "explain": "De lager en motsatt lydbølge som slukker støyen."
+    },
+    {
+      "id": "q11",
+      "text": "Hvorfor er arv en forutsetning for evolusjon?",
+      "options": [
+        "Fordi naturlig utvalg virker på egenskaper som læres gjennom livet",
+        "Fordi naturlig utvalg endrer egenskaper hos hvert individ gjennom livet",
+        "Fordi naturlig utvalg virker på egenskaper som arves av avkommet",
+        "Fordi arvelige egenskaper hindrer miljøet i å påvirke individer"
+      ],
+      "correct": 2,
+      "explain": "Uten arvelig variasjon skjer ingen evolusjon."
+    },
+    {
+      "id": "q12",
+      "text": "Hva er forskjellen på genotype og fenotype?",
+      "options": [
+        "Genotypen er allelkombinasjonen, fenotypen er egenskapen som vises",
+        "Genotypen er egenskapen som vises, fenotypen er allelkombinasjonen",
+        "Genotypen er miljøet rundt individet, fenotypen er genene det arver",
+        "Genotypen er kromosomantallet, fenotypen er genenes rekkefølge"
+      ],
+      "correct": 0,
+      "explain": "Aa og AA kan gi samme fenotype."
+    },
+    {
+      "id": "q13",
+      "text": "Hva er CRISPR-Cas9?",
+      "options": [
+        "Et enzym som kopierer DNA i cellen",
+        "En metode som lager kopier av hele organismer",
+        "En gensaks som kan endre DNA presist",
+        "En vaksine som beskytter mot arvelige sykdommer"
+      ],
+      "correct": 2,
+      "explain": "Metoden ga Nobelprisen i kjemi i 2020."
+    },
+    {
+      "id": "q14",
+      "text": "Hva sier føre-var-prinsippet?",
+      "options": [
+        "At vi bør godkjenne teknologi når nytten er dokumentert",
+        "At vi bør være forsiktige når risikoen er usikker",
+        "At vi bør følge flertallets syn når risikoen er usikker",
+        "At vi bør vurdere ny teknologi ut fra økonomisk gevinst"
+      ],
+      "correct": 1,
+      "explain": "Prinsippet er viktig i debatten om GMO."
+    },
+    {
+      "id": "q15",
+      "text": "Hva er biomagnifisering?",
+      "options": [
+        "At konsentrasjonen av miljøgifter øker oppover i næringskjeden",
+        "At konsentrasjonen av miljøgifter avtar oppover i næringskjeden",
+        "At miljøgifter hoper seg opp i én organisme over tid",
+        "At miljøgifter blir sterkere når de brytes ned i naturen"
+      ],
+      "correct": 0,
+      "explain": "Toppredatorer får derfor mest."
+    }
+  ],
+  "mindmap": {
+    "label": "Naturfag",
+    "children": [
+      {
+        "label": "Hypoteser, modeller og teorier",
+        "children": [
+          {
+            "label": "Hypotese",
+            "note": "En mulig, testbar forklaring eller forutsigelse."
+          },
+          {
+            "label": "Teori",
+            "note": "En godt underbygd forklaring støttet av mange observasjoner."
+          }
+        ]
+      },
+      {
+        "label": "Programmering og modellering i naturfag",
+        "children": [
+          {
+            "label": "Eulers metode",
+            "note": "Oppdaterer fart og posisjon steg for steg: v = v + a · dt."
+          },
+          {
+            "label": "Logistisk vekst",
+            "note": "Vekst som flater ut mot bæreevnen."
+          }
+        ]
+      },
+      {
+        "label": "Big bang og universets utvikling",
+        "children": [
+          {
+            "label": "Rødforskyvning",
+            "note": "Lys fra fjerne galakser er strukket mot lengre, rødere bølgelengder."
+          },
+          {
+            "label": "Kosmisk bakgrunnsstråling",
+            "note": "Svak mikrobølgestråling fra alle retninger, ettergløden fra det unge universet."
+          }
+        ]
+      },
+      {
+        "label": "Elektromagnetisk og ioniserende stråling",
+        "children": [
+          {
+            "label": "Ioniserende stråling",
+            "note": "Stråling som kan rive løs elektroner og skade DNA."
+          },
+          {
+            "label": "Halveringstid",
+            "note": "Tiden før halvparten av de radioaktive kjernene er omdannet."
+          }
+        ]
+      },
+      {
+        "label": "Bølger og trådløs kommunikasjon",
+        "children": [
+          {
+            "label": "v = λ · f",
+            "note": "Bølgefart er bølgelengde ganger frekvens."
+          },
+          {
+            "label": "Interferens",
+            "note": "Bølger som møtes, forsterker eller slukker hverandre."
+          }
+        ]
+      },
+      {
+        "label": "DNA, arv og evolusjon",
+        "children": [
+          {
+            "label": "Mutasjon",
+            "note": "Endring i DNA – den opprinnelige kilden til ny variasjon."
+          },
+          {
+            "label": "Naturlig utvalg",
+            "note": "Individer som passer best til miljøet, får flest avkom."
+          }
+        ]
+      },
+      {
+        "label": "Bioteknologi og etikk",
+        "children": [
+          {
+            "label": "Genteknologi",
+            "note": "Metoder for å lese og endre DNA direkte."
+          },
+          {
+            "label": "CRISPR-Cas9",
+            "note": "«Gensaks» som endrer DNA presist, raskt og billig."
+          }
+        ]
+      },
+      {
+        "label": "Miljøgifter i næringskjeder",
+        "children": [
+          {
+            "label": "Bioakkumulering",
+            "note": "Mengden miljøgift i en organisme øker over tid."
+          },
+          {
+            "label": "Biomagnifisering",
+            "note": "Konsentrasjonen øker for hvert ledd oppover i næringskjeden."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 45,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "flervalg",
+        "text": "Du måler hvor høyt planter vokser med ulike mengder gjødsel. Hva er den avhengige variabelen?",
+        "options": [
+          "Mengden av gjødsel",
+          "Høyden på plantene",
+          "Mengden av vann",
+          "Typen av plante"
+        ],
+        "correct": 1,
+        "explain": "Det du måler er den avhengige variabelen."
+      },
+      {
+        "id": "m02",
+        "type": "flervalg",
+        "text": "Hvor stor andel av et radioaktivt stoff er igjen etter to halveringstider?",
+        "options": [
+          "1/8",
+          "1/3",
+          "1/4",
+          "3/4"
+        ],
+        "correct": 2,
+        "explain": "(1/2)² = 1/4."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Sola omdanner hydrogen til helium ved fusjon.",
+        "correct": true,
+        "explain": "Fusjonen frigjør energien som gjør at sola lyser."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Et stoff har halveringstid 8 dager. Hvor mye av 80 g er igjen etter 16 dager?",
+        "options": [
+          "40 g",
+          "10 g",
+          "20 g",
+          "0 g"
+        ],
+        "correct": 2,
+        "explain": "To halveringstider: 80 → 40 → 20 g."
+      },
+      {
+        "id": "m05",
+        "type": "sant-usant",
+        "text": "Elektromagnetiske bølger kan bre seg gjennom tomt rom.",
+        "correct": true,
+        "explain": "Derfor når sollyset fram til jorda."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "I et forsøk undersøker en elev hvordan temperaturen påvirker hvor raskt sukker løses opp i vann. Hva er den uavhengige variabelen, hva er den avhengige variabelen, og nevn én ting som bør holdes lik.",
+        "fasit": "Temperaturen er den uavhengige variabelen, og hvor raskt sukkeret løses opp, er den avhengige variabelen. Mengden vann eller sukker bør holdes lik.",
+        "kriterier": [
+          "Temperaturen er det som endres, og oppløsningshastigheten er det som måles.",
+          "Nevner en relevant kontrollert variabel, for eksempel mengde vann eller sukker."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Forklar forskjellen på en hypotese, en modell og en teori i naturvitenskapen.",
+        "fasit": "En hypotese er en mulig forklaring som kan testes. En modell er en forenklet framstilling av virkeligheten, mens en teori er en godt underbygd forklaring som støttes av mange observasjoner.",
+        "kriterier": [
+          "Hypotese beskrives som testbar.",
+          "Modell beskrives som en forenkling, og teori som godt underbygd av observasjoner."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I en simulering er farten 3 m/s, akselerasjonen 2 m/s² og tidssteget 2 s. Bruk Eulers metode til å finne den nye farten.",
+        "fasit": "Eulers metode gir ny fart = fart + akselerasjon · tidssteg. Den nye farten blir 3 + 2 · 2 = 7 m/s.",
+        "kriterier": [
+          "Bruker formelen ny fart = fart + akselerasjon · tidssteg.",
+          "Regner riktig ut 7 m/s."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Et radioaktivt stoff har halveringstid på 8 dager. Hvor stor masse er igjen av 64 g etter 24 dager? Vis kort hvordan du finner svaret.",
+        "fasit": "24 dager er tre halveringstider. Massen halveres fra 64 g til 32 g, så til 16 g og til slutt 8 g.",
+        "kriterier": [
+          "Finner at 24 dager er tre halveringstider.",
+          "Oppgir riktig restmasse: 8 g."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Forklar hvordan rødforskyvning i lys fra fjerne galakser støtter tanken om at universet utvider seg.",
+        "fasit": "Rødforskyvning betyr at lysets bølgelengde er strukket mot den røde delen av spekteret. Observasjonen viser at fjerne galakser fjerner seg fra oss, noe som støtter at universet utvider seg.",
+        "kriterier": [
+          "Forklarer at rødforskyvning innebærer lengre bølgelengde.",
+          "Knytter observasjonen til at galakser fjerner seg og universet utvider seg."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Den kosmiske bakgrunnsstrålingen er elektromagnetisk stråling fra alle retninger. Forklar hvorfor den både er et spor etter det unge universet og en type elektromagnetisk bølge.",
+        "fasit": "Bakgrunnsstrålingen er ettergløden fra det unge universet, fra tiden da lys kunne bevege seg fritt. Den er mikrobølgestråling, som er en del av det elektromagnetiske spekteret.",
+        "kriterier": [
+          "Knytter bakgrunnsstrålingen til ettergløden fra det unge universet.",
+          "Identifiserer den som mikrobølger/elektromagnetisk stråling."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Wi-Fi bruker radiobølger. Forklar hva slags bølger radiobølger er, og hvordan informasjon kan sendes med dem.",
+        "fasit": "Radiobølger er elektromagnetiske bølger. Informasjon legges på en bærebølge ved modulasjon, og en antenne sender bølgen til en mottaker.",
+        "kriterier": [
+          "Radiobølger identifiseres som elektromagnetiske bølger.",
+          "Forklarer at informasjon sendes ved modulasjon på en bærebølge."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En lydbølge har bølgelengde 0,34 m og fart 340 m/s. Bruk formelen v = λ · f til å finne frekvensen.",
+        "fasit": "Frekvensen er f = v/λ = 340/0,34 = 1000 Hz.",
+        "kriterier": [
+          "Omformer formelen riktig til f = v/λ.",
+          "Oppgir riktig frekvens: 1000 Hz."
+        ]
+      },
+      {
+        "id": "s09",
+        "text": "Sammenlign alfastråling og UV-stråling med hensyn til hva slags stråling de er, og hvordan de kan skade kroppen.",
+        "fasit": "Alfastråling består av heliumkjerner og stoppes av papir eller hud, men kan være svært farlig hvis stoffet kommer inn i kroppen. UV-stråling er elektromagnetisk stråling som kan skade DNA i hudcellene og øke risikoen for hudkreft.",
+        "kriterier": [
+          "Beskriver alfa som heliumkjerner og nevner faren ved at stoffet kommer inn i kroppen.",
+          "Forklarer at UV kan skade DNA i hudceller."
+        ]
+      },
+      {
+        "id": "s10",
+        "text": "Forklar hvordan DNA-basene pares, og hvordan et gen kan påvirke en egenskap.",
+        "fasit": "A parer med T, og C parer med G. Et gen er en del av DNA med oppskriften på et protein, og proteiner bestemmer mange av egenskapene våre.",
+        "kriterier": [
+          "Oppgir riktig baseparing: A–T og C–G.",
+          "Knytter genets oppskrift på protein til egenskaper."
+        ]
+      },
+      {
+        "id": "s11",
+        "text": "To foreldre har genotypen Aa for et gen. Hvilken andel av barna deres forventes å få genotypen aa?",
+        "fasit": "Krysningen Aa × Aa gir genotypene AA, Aa og aa i forholdet 1 : 2 : 1. En av fire, altså en firedel, forventes å få aa.",
+        "kriterier": [
+          "Bruker forholdet 1 : 2 : 1 for Aa × Aa.",
+          "Oppgir at en firedel får genotypen aa."
+        ]
+      },
+      {
+        "id": "s12",
+        "text": "Sammenlign mitose og meiose med hensyn til hvilke celler de lager, og antallet kromosomer i de nye cellene.",
+        "fasit": "Mitose lager to like celler med samme antall kromosomer som utgangspunktet. Meiose lager kjønnsceller med halvparten så mange kromosomer, og kjønnscellene blir ulike.",
+        "kriterier": [
+          "Mitose gir to like celler med samme kromosomtall.",
+          "Meiose gir ulike kjønnsceller med halvt kromosomtall."
+        ]
+      },
+      {
+        "id": "s13",
+        "text": "Forklar hvordan naturlig utvalg kan føre til at bakterier blir resistente mot antibiotika, og hvorfor arv er viktig i denne prosessen.",
+        "fasit": "Bakterier som tåler antibiotika, kan overleve og få flere avkom enn bakterier som ikke tåler det. Når egenskapen er arvelig, kan den bli vanligere i populasjonen over generasjoner.",
+        "kriterier": [
+          "Forklarer at bakterier som tåler antibiotika, overlever og formerer seg.",
+          "Knytter arvelighet til at egenskapen blir vanligere over generasjoner."
+        ]
+      },
+      {
+        "id": "s14",
+        "text": "Forklar forskjellen på en mutasjon og en genendring gjort med CRISPR-Cas9, og nevn én grunn til at genendringer i kjønnsceller er omstridt.",
+        "fasit": "En mutasjon er en endring i DNA, mens CRISPR-Cas9 er en metode som kan endre DNA presist. Genendringer i kjønnsceller er omstridt fordi endringene kan arves videre til nye generasjoner.",
+        "kriterier": [
+          "Beskriver mutasjon som en endring i DNA og CRISPR som en metode for å endre DNA.",
+          "Nevner at endringer i kjønnsceller kan arves videre."
+        ]
+      },
+      {
+        "id": "s15",
+        "text": "En vurdering av genendringer i fostre viser mulige helsefordeler, men det er usikkerhet om risikoen og om hvem som får tilgang til teknologien. Bruk konsekvensetikk og føre-var-prinsippet til å beskrive to sider av vurderingen.",
+        "fasit": "Konsekvensetikk innebærer å veie mulige helsefordeler mot risiko og andre ulemper. Føre-var-prinsippet tilsier forsiktighet når risikoen er usikker, og en vurdering kan også ta opp om tilgangen blir rettferdig.",
+        "kriterier": [
+          "Veier fordeler og ulemper med konsekvensetikk.",
+          "Forklarer forsiktighet ved usikker risiko og/eller tar opp rettferdig tilgang."
+        ]
+      },
+      {
+        "id": "s16",
+        "text": "I næringskjeden plankton → krill → fisk → sel → isbjørn kan miljøgifter hope seg opp. Forklar hvorfor konsentrasjonen kan bli høy hos isbjørnen, og nevn ett tiltak som kan redusere miljøgifter i naturen.",
+        "fasit": "Konsentrasjonen kan øke oppover i næringskjeden fordi hvert dyr får i seg miljøgifter fra mange byttedyr. Forbud og regulering, rensing av utslipp eller riktig levering av farlig avfall er tiltak som kan redusere forurensning.",
+        "kriterier": [
+          "Forklarer biomagnifisering gjennom at dyr spiser mange byttedyr.",
+          "Nevner ett relevant tiltak, som regulering, rensing eller riktig avfallshåndtering."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

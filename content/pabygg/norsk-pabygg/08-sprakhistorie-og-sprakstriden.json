@@ -1,0 +1,440 @@
+{
+  "id": "sprakhistorie-og-sprakstriden",
+  "fagId": "norsk-pabygg",
+  "trinnId": "pabygg",
+  "name": "Språksituasjonen i Norge og språkstriden",
+  "intro": "Den historiske bakgrunnen for språksituasjonen i Norge i dag – fra norrønt og dansketiden via Knud Knudsen og Ivar Aasen til bokmål og nynorsk, språkstriden, rettskrivningsreformene, samnorsk og språkloven.",
+  "kompetansemaal": [
+    9
+  ],
+  "sammendrag": "## Fra norrønt til dansk skriftspråk\n\nI **norrøn tid** (ca. 800–1350) hadde Norge et eget skriftspråk. Etter **Svartedauden** (1349–1350) og unionene med Sverige og Danmark forsvant det norske skriftspråket gradvis. I **dansketiden** (1380–1814) ble **dansk** skriftspråket i Norge, mens folk fortsatte å snakke norske **dialekter**. Embetsmennene snakket etter hvert en **dansk-norsk** «dannet dagligtale».\n\n## 1814 – hva slags språk skulle Norge ha?\n\nEtter **1814** ble spørsmålet om et **norsk skriftspråk** en del av nasjonsbyggingen. To svar vokste fram:\n\n- **Knud Knudsen** (1812–1895) ville **fornorske** det danske skriftspråket **gradvis**, ut fra den dannede dagligtalen. Linjen hans ble til **riksmål**, senere **bokmål**.\n- **Ivar Aasen** (1813–1896) reiste rundt i landet og samlet **dialekter**. Han laget et nytt skriftspråk bygd på dialektene, **landsmålet**, med en grammatikk (**1848**) og en ordbok (**1850**). Landsmålet ble senere til **nynorsk**.\n\n## Jamstillingsvedtaket\n\n**12. mai 1885** vedtok Stortinget **jamstillingsvedtaket**: Landsmålet skulle være **likestilt** med det dansk-norske skriftspråket. Siden har Norge hatt **to offisielle skriftspråk**.\n\n## Reformer og språkstrid\n\nPå 1900-tallet kom flere **rettskrivningsreformer**:\n\n- **1907**: Riksmålet ble mer norsk, blant annet med **harde konsonanter** (p, t, k i stedet for b, d, g: *gate*, ikke *gade*).\n- **1917** og **1938**: Myndighetene ville føre de to målformene nærmere hverandre mot et felles **samnorsk**. Mange folkelige former ble tillatt i bokmål, som *boka* og *sola*.\n- I **1929** fikk målformene navnene **bokmål** og **nynorsk**.\n\n**Samnorskpolitikken** førte til en bitter **språkstrid**. Riksmålsfolk protesterte mot «tvangsformer» – blant annet med **foreldreaksjonen** mot samnorsk på 1950-tallet, da foreldre rettet lærebøkene til barna. Samnorsktanken ble gradvis **oppgitt**, og i **2002** ble den formelt forlatt.\n\n## Språksituasjonen i dag\n\n- **Bokmål** er hovedmål for de fleste, mens rundt **en av ti** elever har **nynorsk** som hovedmål, særlig på Vestlandet.\n- **Dialektene** står sterkt – nordmenn snakker dialekt i nesten alle sammenhenger, også i Stortinget og på TV.\n- **Samisk** er likestilt med norsk, og **kvensk**, **romani**, **romanes** og **norsk tegnspråk** har særskilt vern.\n- **Språkloven** (i kraft fra **2022**) slår fast at **norsk** er hovedspråket, og at **bokmål og nynorsk** er likestilte skriftspråk. Den sier også at det offentlige har et særlig ansvar for **nynorsk**.\n- **Språkrådet** gir råd om språk og vedtar rettskrivningen.\n- **Engelsk** påvirker norsk sterkt, og mange diskuterer faren for **domenetap**.\n\n## Hvorfor er språksituasjonen spesiell?\n\nFå land har **to likestilte skriftformer** av samme språk og så **stor aksept for dialekter**. Språksituasjonen er et resultat av **historien** – unionen med Danmark, nasjonsbyggingen etter 1814 og en lang politisk strid om hva som er «ekte» norsk.",
+  "flashcards": [
+    {
+      "term": "Dansketiden",
+      "def": "1380–1814 – dansk var skriftspråket i Norge."
+    },
+    {
+      "term": "Dannet dagligtale",
+      "def": "Embetsmennenes dansk-norske talespråk."
+    },
+    {
+      "term": "Knud Knudsen",
+      "def": "Ville fornorske dansk gradvis – grunnlaget for riksmål og bokmål."
+    },
+    {
+      "term": "Ivar Aasen",
+      "def": "Laget landsmålet bygd på dialektene – grunnlaget for nynorsk."
+    },
+    {
+      "term": "Landsmålet",
+      "def": "Aasens skriftspråk, senere kalt nynorsk."
+    },
+    {
+      "term": "Jamstillingsvedtaket",
+      "def": "12. mai 1885 – landsmålet likestilt med det dansk-norske skriftspråket."
+    },
+    {
+      "term": "Rettskrivningsreformen 1907",
+      "def": "Riksmålet ble mer norsk, med harde konsonanter."
+    },
+    {
+      "term": "1929",
+      "def": "Målformene fikk navnene bokmål og nynorsk."
+    },
+    {
+      "term": "Samnorsk",
+      "def": "Målet om å slå sammen bokmål og nynorsk til ett skriftspråk."
+    },
+    {
+      "term": "Foreldreaksjonen",
+      "def": "Protest mot samnorsk på 1950-tallet der foreldre rettet lærebøker.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Språkstriden",
+      "def": "Den politiske striden om norsk skriftspråk."
+    },
+    {
+      "term": "Språkloven",
+      "def": "Lov fra 2022 som likestiller bokmål og nynorsk."
+    },
+    {
+      "term": "Språkrådet",
+      "def": "Statens fagorgan for norsk språk.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Hovedmål",
+      "def": "Den målformen en elev bruker mest i skolen."
+    },
+    {
+      "term": "Dialektaksept",
+      "def": "At dialekter brukes i nesten alle sammenhenger i Norge."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvilket skriftspråk ble brukt i Norge i dansketiden?",
+      "options": [
+        "Norrønt",
+        "Dansk",
+        "Svensk",
+        "Landsmål"
+      ],
+      "correct": 1,
+      "explain": "Folk snakket likevel norske dialekter."
+    },
+    {
+      "id": "q02",
+      "text": "Hvem ville fornorske dansk gradvis?",
+      "options": [
+        "Knud Knudsen",
+        "Ivar Aasen",
+        "Henrik Wergeland",
+        "P.A. Munch"
+      ],
+      "correct": 0,
+      "explain": "Linjen hans ble til riksmål og bokmål."
+    },
+    {
+      "id": "q03",
+      "text": "Hva bygde Ivar Aasen landsmålet på?",
+      "options": [
+        "Dansk skriftspråk",
+        "Embetsmennenes talemål",
+        "Dialektene",
+        "Norrøne tekster"
+      ],
+      "correct": 2,
+      "explain": "Han reiste rundt og samlet dialekter."
+    },
+    {
+      "id": "q04",
+      "text": "Hva ble vedtatt 12. mai 1885?",
+      "options": [
+        "Grunnloven",
+        "Rettskrivningsreformen",
+        "Språkloven",
+        "Jamstillingsvedtaket"
+      ],
+      "correct": 3,
+      "explain": "Landsmålet ble likestilt med det dansk-norske skriftspråket."
+    },
+    {
+      "id": "q05",
+      "text": "Når fikk målformene navnene bokmål og nynorsk?",
+      "options": [
+        "1929",
+        "1885",
+        "1907",
+        "1917"
+      ],
+      "correct": 0,
+      "explain": "Før het de riksmål og landsmål."
+    },
+    {
+      "id": "q06",
+      "text": "Hva var samnorskpolitikken?",
+      "options": [
+        "Å gjøre nynorsk til hovedmål i hele landet",
+        "Å føre bokmål og nynorsk sammen til ett skriftspråk",
+        "Å erstatte bokmål og nynorsk med svensk skriftspråk",
+        "Å gjøre dialekter til felles skriftspråk i skolen"
+      ],
+      "correct": 1,
+      "explain": "Den førte til bitter språkstrid."
+    },
+    {
+      "id": "q07",
+      "text": "Hva var foreldreaksjonen på 1950-tallet?",
+      "options": [
+        "En protest mot nynorsk der foreldre rettet lærebøker",
+        "En protest mot samnorsk der lærere rettet lærebøker",
+        "En protest mot samnorsk der foreldre rettet lærebøker",
+        "En kampanje for samnorsk der foreldre rettet lærebøker"
+      ],
+      "correct": 2,
+      "explain": "Riksmålsfolk protesterte mot «tvangsformer».",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q08",
+      "text": "Hva sier språkloven fra 2022 om bokmål og nynorsk?",
+      "options": [
+        "At bokmål har høyere status",
+        "At nynorsk skal avvikles",
+        "At målformene skal slås sammen",
+        "At de er likestilte skriftspråk"
+      ],
+      "correct": 3,
+      "explain": "Det offentlige har et særlig ansvar for nynorsk."
+    },
+    {
+      "id": "q09",
+      "text": "Hva innebar rettskrivningsreformen i 1907?",
+      "options": [
+        "Riksmålet ble mer norsk, blant annet med harde konsonanter",
+        "Riksmålet ble mer dansk, blant annet med bløte konsonanter",
+        "Landsmålet ble mer norsk, blant annet med harde konsonanter",
+        "Riksmålet tok opp svenske former, blant annet i substantivbøyningen"
+      ],
+      "correct": 0,
+      "explain": "For eksempel gate i stedet for gade."
+    },
+    {
+      "id": "q10",
+      "text": "Hvor stor andel av elevene har omtrent nynorsk som hovedmål?",
+      "options": [
+        "Rundt to av ti",
+        "Rundt én av ti",
+        "Rundt tre av ti",
+        "Rundt fem av ti"
+      ],
+      "correct": 1,
+      "explain": "De fleste bor på Vestlandet.",
+      "niva": "eksempel"
+    }
+  ],
+  "mindmap": {
+    "label": "Språkhistorie",
+    "children": [
+      {
+        "label": "Før 1814",
+        "children": [
+          {
+            "label": "Norrønt"
+          },
+          {
+            "label": "Dansketiden"
+          },
+          {
+            "label": "Dialekter"
+          }
+        ]
+      },
+      {
+        "label": "To linjer",
+        "children": [
+          {
+            "label": "Knud Knudsen → bokmål"
+          },
+          {
+            "label": "Ivar Aasen → nynorsk"
+          }
+        ]
+      },
+      {
+        "label": "Vedtak og reformer",
+        "children": [
+          {
+            "label": "Jamstilling 1885"
+          },
+          {
+            "label": "1907, 1917, 1938"
+          },
+          {
+            "label": "1929: nye navn"
+          }
+        ]
+      },
+      {
+        "label": "Språkstriden",
+        "children": [
+          {
+            "label": "Samnorsk"
+          },
+          {
+            "label": "Foreldreaksjonen"
+          },
+          {
+            "label": "Oppgitt 2002"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Språkloven 2022"
+          },
+          {
+            "label": "Dialektaksept"
+          },
+          {
+            "label": "Samisk og minoritetsspråk"
+          },
+          {
+            "label": "Engelsk påvirkning"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Norge har to offisielle skriftformer av norsk.",
+        "correct": true,
+        "explain": "Bokmål og nynorsk."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Ivar Aasen ville fornorske dansk gradvis.",
+        "correct": false,
+        "explain": "Det var Knud Knudsen. Aasen laget et nytt skriftspråk fra dialektene."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Norsk tegnspråk har særskilt vern i språkloven.",
+        "correct": true,
+        "explain": "Også samisk, kvensk, romani og romanes har vern.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Samnorsk er i dag det offisielle skriftspråket i Norge.",
+        "correct": false,
+        "explain": "Samnorsktanken ble oppgitt."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvilken hendelse bidro til at det norrøne skriftspråket forsvant?",
+        "options": [
+          "Svartedauden og unionene",
+          "Vikingtida og kristningen",
+          "Grunnloven og parlamentarismen",
+          "Industrialiseringen og urbaniseringen"
+        ],
+        "correct": 0,
+        "explain": "Etter Svartedauden kom unionene med Sverige og Danmark."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvem vedtar rettskrivningen i norsk i dag?",
+        "options": [
+          "Stortinget",
+          "Språkrådet",
+          "Kulturdepartementet",
+          "Norsk språknemnd"
+        ],
+        "correct": 1,
+        "explain": "Språkrådet er statens fagorgan for norsk språk.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er spesielt med språksituasjonen i Norge?",
+        "options": [
+          "Ett likestilt skriftspråk og stor aksept for dialekter",
+          "To likestilte talemålsformer og stor aksept for dialekter",
+          "To likestilte skriftformer og stor aksept for dialekter",
+          "To likestilte skriftformer og liten aksept for dialekter"
+        ],
+        "correct": 2,
+        "explain": "Det er et resultat av historien."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hva var dannet dagligtale, og hvordan skilte den seg fra skriftspråket og talespråket til folk flest i dansketiden?",
+        "fasit": "Dannet dagligtale var embetsmennenes dansk-norske talespråk. Dansk var skriftspråket, mens folk flest fortsatte å snakke norske dialekter.",
+        "kriterier": [
+          "Forklarer at dannet dagligtale var embetsmennenes dansk-norske talespråk.",
+          "Skiller dette fra dansk skriftspråk og norske dialekter hos folk flest."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign hvordan Knud Knudsen og Ivar Aasen ville utvikle et norsk skriftspråk.",
+        "fasit": "Knudsen ville fornorske dansk gradvis med utgangspunkt i dannet dagligtale. Aasen laget landsmålet med utgangspunkt i norske dialekter.",
+        "kriterier": [
+          "Forklarer Knudsens gradvise fornorsking av dansk med utgangspunkt i dannet dagligtale.",
+          "Forklarer at Aasen bygde landsmålet på dialekter."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hvordan kunne dansk bli skriftspråk i Norge samtidig som norske dialekter fortsatte å være i bruk?",
+        "fasit": "I dansketiden ble dansk brukt som skriftspråk i Norge. Folk fortsatte likevel å snakke norske dialekter.",
+        "kriterier": [
+          "Knytter dansk skriftspråk til dansketiden.",
+          "Får fram at norske dialekter fortsatt ble snakket."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "Reformene i 1917 og 1938 skulle føre bokmål og nynorsk nærmere hverandre. Forklar hvordan dette kom til uttrykk, og gi ett eksempel på en folkelig form som ble tillatt i bokmål.",
+        "fasit": "Reformene skulle føre målformene nærmere hverandre mot et felles samnorsk. Folkelige former som «boka» eller «sola» ble tillatt i bokmål.",
+        "kriterier": [
+          "Forklarer at reformene skulle føre målformene sammen mot samnorsk.",
+          "Gir et riktig eksempel på en folkelig bokmålsform, som «boka» eller «sola»."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s05",
+        "text": "En offentlig virksomhet skal ta hensyn til bokmål og nynorsk. Hvilken rolle har språkloven i dette, og hvilket særlig ansvar har det offentlige?",
+        "fasit": "Språkloven slår fast at bokmål og nynorsk er likestilte skriftspråk. Den sier også at det offentlige har et særlig ansvar for nynorsk.",
+        "kriterier": [
+          "Får fram at språkloven likestiller bokmål og nynorsk.",
+          "Nevner det offentliges særlige ansvar for nynorsk."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "En politiker bruker dialekt i Stortinget, og en programleder bruker dialekt på TV. Hvilket trekk ved norsk språksituasjon viser dette? Begrunn svaret med opplysningene i situasjonen.",
+        "fasit": "Situasjonen viser at dialektene står sterkt i Norge. Det er stor aksept for å bruke dialekt også i formelle sammenhenger og på TV.",
+        "kriterier": [
+          "Identifiserer at situasjonen viser sterk dialektbruk eller dialektaksept.",
+          "Forklarer at dialekter brukes også i slike offentlige sammenhenger."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Forklar forskjellen på den språklige statusen til samisk og til kvensk, romani, romanes og norsk tegnspråk i Norge.",
+        "fasit": "Samisk er likestilt med norsk. Kvensk, romani, romanes og norsk tegnspråk har særskilt vern.",
+        "kriterier": [
+          "Får fram at samisk er likestilt med norsk.",
+          "Får fram at de andre nevnte språkene har særskilt vern."
+        ],
+        "niva": "over-niva"
+      },
+      {
+        "id": "s08",
+        "text": "Norge har to likestilte skriftspråk og stor aksept for dialekter. Forklar hvordan historiske forhold har bidratt til denne spesielle språksituasjonen.",
+        "fasit": "Unionen med Danmark bidro til at dansk ble skriftspråk, mens norske dialekter fortsatte å bli brukt. Etter 1814 førte nasjonsbygging og strid om skriftspråket til utviklingen av to likestilte skriftformer.",
+        "kriterier": [
+          "Knytter unionen med Danmark til at dansk ble skriftspråk, samtidig som dialekter besto.",
+          "Knytter utviklingen av de to skriftformene til nasjonsbyggingen etter 1814 og språkstriden."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

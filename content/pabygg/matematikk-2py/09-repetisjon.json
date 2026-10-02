@@ -1,0 +1,585 @@
+{
+  "id": "repetisjon",
+  "fagId": "matematikk-2py",
+  "trinnId": "pabygg",
+  "name": "Repetisjon av hele faget",
+  "intro": "Det viktigste fra alle temaene samlet – fint å gå gjennom før tentamen og eksamen.",
+  "kompetansemaal": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "sammendrag": "Matematikk 2P-Y handler om å bruke matematikk til å beskrive, regne på og vurdere sammenhenger i praktiske situasjoner. Du arbeider med tall, formler, funksjoner, modeller og statistikk, og må kunne tolke hva svarene betyr.\n\n## Potenser, røtter og standardform\nEn **potens** skriver gjentatt multiplikasjon kort: grunntallet ganges med seg selv så mange ganger som eksponenten viser. Ved multiplikasjon av potenser med samme grunntall legges eksponentene sammen, ved divisjon trekkes de fra, og når en potens opphøyes i en ny potens, ganges eksponentene. En potens med eksponent 0 er 1, og en **negativ eksponent** betyr at du tar den omvendte brøken: a⁻ⁿ = 1/aⁿ. **Kvadratroten** er det positive tallet som ganget med seg selv gir tallet, mens **tredjeroten** er tallet som opphøyd i tredje gir tallet. Kvadratroten av et produkt kan deles opp i røtter av faktorene, men √(a + b) er ikke √a + √b. **Standardform** er a · 10ⁿ, der 1 ≤ a < 10. Ved multiplikasjon på standardform ganger du tallene og legger sammen tierpotenseksponentene; juster svaret dersom talldelen ikke er mellom 1 og 10. Prefikser som kilo, milli og mikro viser til tierpotenser.\n\n## Prosent, vekstfaktor og modellering i regneark\nVed en økning på p prosent er **vekstfaktoren** 1 + p/100; ved en nedgang er den 1 − p/100. Ny verdi er gammel verdi multiplisert med vekstfaktoren, og etter n perioder med samme vekstfaktor a er verdien K · aⁿ. **Prosentpoeng** er differansen mellom to prosenttall, og er ikke det samme som prosentvis endring. I et **regneark** starter en formel med =. En relativ cellereferanse flyttes når formelen kopieres, mens en absolutt referanse med dollartegn, som $E$1, står fast. Fyllhåndtaket kan kopiere formler til flere perioder, og diagrammer kan vise utvikling. Regneark er nyttige når du vil regne mange perioder eller endre forutsetninger. Vurder alltid modellens premisser og **gyldighet**: fast rente over lang tid er for eksempel en antakelse.\n\n## Proporsjonalitet og omvendt proporsjonalitet\nTo størrelser er **proporsjonale** når forholdet y/x er konstant, slik at y = k · x. Grafen er en rett linje gjennom origo; dobles x, dobles y. De er **omvendt proporsjonale** når produktet x · y er konstant, slik at y = k/x. Dobles x, halveres y, og grafen er en hyperbel. Sjekk en tabell ved å undersøke om forholdet eller produktet er konstant. En rett linje er ikke nødvendigvis proporsjonal: y = ax + b med b ulik 0 går ikke gjennom origo. **Forhold** brukes blant annet i blandinger og **målestokk**, der kartavstand sammenlignes med virkelig avstand. Vurder om den proporsjonale sammenhengen faktisk passer situasjonen.\n\n## Formler, variabler og tekstoppgaver\nEn **variabel** kan endre seg, mens en **konstant** er fast i situasjonen. En formel viser sammenhengen mellom størrelser, og bokstaver og enheter må tolkes riktig. Eksempler er s = v · t for strekning, fart og tid, og A = πr² for sirkelareal. Du kan **snu en formel** ved å gjøre samme regneoperasjon på begge sider; fra s = v · t får du t = s/v. Å generalisere er å lage en formel som gjelder alle tilfeller, for eksempel pris per enhet pluss et fast gebyr. I tekstoppgaver finner du det relevante, setter opp formel eller regnestykke, regner ut og vurderer om svaret er rimelig. Presenter svaret med enhet og kort forklaring. Bruttolønn er lønn før skatt, mens nettolønn er det som utbetales etter skattetrekk.\n\n## Funksjoner og grafer\nEn **funksjon** gir nøyaktig én y-verdi for hver x-verdi. Den kan vises med formel, tabell, graf eller ord; **definisjonsmengden** er x-verdiene funksjonen gjelder for. En lineær funksjon f(x) = ax + b har rett linje som graf. **Stigningstallet** a viser endring i y når x øker med 1, og **konstantleddet** b er verdien når x = 0. Stigningstall mellom to punkter er (y₂ − y₁)/(x₂ − x₁). En eksponentialfunksjon f(x) = b · aˣ beskriver fast prosentvis endring: lineær vekst endres med et fast tall, eksponentiell vekst med en fast prosent. Omvendt proporsjonale funksjoner har form k/x og graf som hyperbel; andregradsfunksjoner gir parabel. Et **nullpunkt** ligger der grafen møter x-aksen. Et skjæringspunkt er der to grafer møtes, og toppunkt eller bunnpunkt er ekstremalpunkter. Digitale verktøy kan finne punktene, men du må tolke dem i situasjonen.\n\n## Matematisk modellering\nEn **matematisk modell** er en forenklet beskrivelse av virkeligheten, ofte en funksjon, som kan brukes til å forstå sammenhenger og lage prognoser. Arbeid med modellen ved å avklare problemet, velge premisser, lage modellen fra sammenhengen eller data, bruke den, tolke og vurdere svaret og presentere resultatet. Regresjon finner en funksjon som passer best til data: omtrent samme økning i antall peker mot en lineær modell, mens omtrent samme prosentvise økning peker mot en eksponentiell modell. Vurder om modellen passer dataene. **Gyldighetsområdet** er verdiene der modellen gir rimelige svar. Å bruke modellen utenfor området dataene dekker, kalles ekstrapolering og krever forsiktighet. Endrede premisser kan endre prognosen.\n\n## Sentralmål og spredningsmål\n**Gjennomsnitt** er summen delt på antallet, **median** er midterste verdi i sorterte data, og **typetall** er verdien som forekommer oftest. Medianen påvirkes mindre enn gjennomsnittet av ekstreme verdier; typetall passer også for kategorier. **Variasjonsbredde** er største minus minste verdi. Kvartilene deler sorterte data i fire deler, og kvartilbredden Q3 − Q1 viser spredningen til den midterste halvdelen og påvirkes lite av ekstremverdier. **Standardavvik** beskriver hvor langt verdiene i gjennomsnitt ligger fra gjennomsnittet. Det finnes ved å finne avvikene fra gjennomsnittet, kvadrere dem, finne gjennomsnittet av kvadratene og ta kvadratroten. For grupperte data kan klassemidtpunkt ganget med frekvens brukes til å anslå gjennomsnittet.\n\n## Analysere og presentere datasett\nEt **datasett** består av observasjoner. Frekvens er antall forekomster, relativ frekvens er frekvens delt på totalen, og kumulativ frekvens er frekvensene lagt sammen fortløpende. Velg diagram etter formålet: stolpediagram for kategorier, sektordiagram for andeler, linjediagram for utvikling over tid og histogram for grupperte tallverdier. Diagrammer bør ha tittel, aksetitler, enheter og kilde. Undersøkelser bygger ofte på et **utvalg** av en populasjon. Utvalget bør være stort nok og representativt; resultatene har usikkerhet som beskrives med feilmargin. Se etter misvisende akser, bilder, tidsperioder, uklare prosenttall og små utvalg. **Korrelasjon** betyr at størrelser henger sammen, ikke nødvendigvis at den ene forårsaker den andre; en tredje faktor kan påvirke begge. En god presentasjon beskriver problemstilling, datagrunnlag og metode, viser passende tabeller og diagrammer, drøfter funn og usikkerhet og avslutter med konklusjon og kilder.\n\n## Sammenhenger i faget\nPotenser og vekstfaktorer brukes i eksponentialfunksjoner og modeller for gjentatt prosentvis endring. Proporsjonalitet og formler beskriver praktiske sammenhenger, som kan vises som funksjoner og grafer. Regneark og digitale verktøy hjelper med beregninger, modeller og statistikk, men resultatene må tolkes og vurderes. Sentralmål og spredningsmål oppsummerer datasett, mens diagrammer og kunnskap om utvalg og usikkerhet hjelper deg å presentere og vurdere statistiske påstander.\n\n## Huskeliste før prøven\n- Bruk potensreglene riktig, særlig ved negative eksponenter.\n- Kontroller at talldelen i standardform er minst 1 og mindre enn 10.\n- Gjør prosent om til riktig vekstfaktor, og skill prosent fra prosentpoeng.\n- Sjekk om forholdet eller produktet er konstant før du avgjør proporsjonalitet.\n- Forklar hva variablene og enhetene i en formel betyr.\n- Skill mellom lineær vekst med fast tall og eksponentiell vekst med fast prosent.\n- Oppgi modellens premisser og vurder gyldighetsområdet.\n- Velg sentralmål og diagram som passer til dataene.\n- Vurder usikkerhet, feilkilder og om en sammenheng faktisk viser årsak.",
+  "flashcards": [
+    {
+      "term": "a⁻ⁿ",
+      "def": "1/aⁿ, for eksempel 2⁻³ = 1/8."
+    },
+    {
+      "term": "Standardform",
+      "def": "a · 10ⁿ der 1 ≤ a < 10."
+    },
+    {
+      "term": "Vekstfaktor ved økning",
+      "def": "1 + p/100"
+    },
+    {
+      "term": "Absolutt referanse",
+      "def": "Celleadresse med $ som står fast, for eksempel $E$1."
+    },
+    {
+      "term": "Proporsjonale størrelser",
+      "def": "Størrelser der forholdet y/x er konstant."
+    },
+    {
+      "term": "Omvendt proporsjonale størrelser",
+      "def": "Størrelser der produktet x · y er konstant."
+    },
+    {
+      "term": "Variabel",
+      "def": "En størrelse som kan endre seg."
+    },
+    {
+      "term": "Snu en formel",
+      "def": "Å løse formelen med hensyn på en annen størrelse."
+    },
+    {
+      "term": "Lineær funksjon",
+      "def": "f(x) = ax + b, grafen er en rett linje."
+    },
+    {
+      "term": "Eksponentialfunksjon",
+      "def": "f(x) = b · aˣ, fast prosentvis endring."
+    },
+    {
+      "term": "Regresjon",
+      "def": "Å finne funksjonen som passer best til data."
+    },
+    {
+      "term": "Gyldighetsområde",
+      "def": "Verdiene der modellen gir rimelige svar."
+    },
+    {
+      "term": "Median",
+      "def": "Den midterste verdien når dataene er sortert."
+    },
+    {
+      "term": "Standardavvik",
+      "def": "Hvor langt verdiene i gjennomsnitt ligger fra gjennomsnittet."
+    },
+    {
+      "term": "Representativt utvalg",
+      "def": "Utvalg som ligner populasjonen."
+    },
+    {
+      "term": "Korrelasjon",
+      "def": "At to størrelser henger sammen."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva er a³ · a⁴?",
+      "options": [
+        "a¹²",
+        "a³",
+        "a⁴",
+        "a⁷"
+      ],
+      "correct": 3,
+      "explain": "Ved multiplikasjon legges eksponentene sammen: 3 + 4 = 7."
+    },
+    {
+      "id": "q02",
+      "text": "Hva er vekstfaktoren for en økning på 6 %?",
+      "options": [
+        "1,006",
+        "1,06",
+        "0,6",
+        "7"
+      ],
+      "correct": 1,
+      "explain": "1 + 6/100 = 1,06."
+    },
+    {
+      "id": "q03",
+      "text": "Hvorfor bør du vurdere gyldigheten til en rentemodell over 30 år?",
+      "options": [
+        "Fordi beløpet i modellen blir mindre når antall år øker",
+        "Fordi renten sannsynligvis ikke holder seg på samme nivå gjennom hele perioden",
+        "Fordi renten må oppgis som et kronebeløp etter 30 år",
+        "Fordi regnearket endrer vekstfaktoren automatisk etter noen år"
+      ],
+      "correct": 1,
+      "explain": "Premissene kan endre seg."
+    },
+    {
+      "id": "q04",
+      "text": "Hva kjennetegner proporsjonale størrelser?",
+      "options": [
+        "Produktet x · y er konstant",
+        "Forholdet y/x er konstant",
+        "Differansen y − x er konstant",
+        "Summen x + y er konstant"
+      ],
+      "correct": 1,
+      "explain": "y = kx, og grafen er en rett linje gjennom origo."
+    },
+    {
+      "id": "q05",
+      "text": "4 personer bruker 6 timer på en jobb. Hvor lang tid bruker 8 personer som jobber like raskt?",
+      "options": [
+        "3 timer",
+        "12 timer",
+        "2 timer",
+        "6 timer"
+      ],
+      "correct": 0,
+      "explain": "Jobben tar 24 arbeidstimer, og 24/8 = 3."
+    },
+    {
+      "id": "q06",
+      "text": "Hva blir s = v · t når du snur den for å finne t?",
+      "options": [
+        "t = s · v",
+        "t = v/s",
+        "t = s − v",
+        "t = s/v"
+      ],
+      "correct": 3,
+      "explain": "Del begge sider på v."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er forskjellen på lineær og eksponentiell vekst?",
+      "options": [
+        "Lineær vekst øker med et fast tall, eksponentiell med en fast prosent",
+        "Lineær vekst øker med en fast prosent, eksponentiell med et fast tall",
+        "Begge veksttypene øker med et fast tall per enhet",
+        "Begge veksttypene øker med en fast prosent per enhet"
+      ],
+      "correct": 0,
+      "explain": "Eksponentiell vekst blir etter hvert mye raskere."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er regresjon?",
+      "options": [
+        "Å finne gjennomsnittet av verdiene i datasettet",
+        "Å finne en funksjon som går gjennom hvert datapunkt",
+        "Å finne skjæringspunktet mellom to grafer",
+        "Å finne funksjonen som passer best til data"
+      ],
+      "correct": 3,
+      "explain": "Regresjon brukes til å finne en funksjon som passer best til datapunktene."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor oppgir SSB ofte medianinntekt i stedet for gjennomsnittsinntekt?",
+      "options": [
+        "Fordi gjennomsnittet påvirkes lite av noen få svært høye inntekter",
+        "Fordi medianen påvirkes mest av noen få svært høye inntekter",
+        "Fordi medianen påvirkes lite av noen få svært høye inntekter",
+        "Fordi medianen viser inntekten til den som tjener mest"
+      ],
+      "correct": 2,
+      "explain": "Ekstreme verdier drar gjennomsnittet opp."
+    },
+    {
+      "id": "q10",
+      "text": "Hva forteller et stort standardavvik?",
+      "options": [
+        "At dataene har høye verdier",
+        "At gjennomsnittet er høyt",
+        "At dataene har stor spredning",
+        "At medianen er høy"
+      ],
+      "correct": 2,
+      "explain": "Verdiene ligger langt fra gjennomsnittet."
+    },
+    {
+      "id": "q11",
+      "text": "Hva er et representativt utvalg?",
+      "options": [
+        "Et utvalg som er like stort som populasjonen",
+        "Et utvalg som bare består av frivillige",
+        "Et utvalg som ligner populasjonen",
+        "Et utvalg som er valgt helt tilfeldig"
+      ],
+      "correct": 2,
+      "explain": "Da kan resultatene overføres til hele gruppen."
+    },
+    {
+      "id": "q12",
+      "text": "Is-salg og drukningsulykker øker begge om sommeren. Hva er forklaringen?",
+      "options": [
+        "Varmt vær påvirker begge tallene.",
+        "Is-salg fører til flere drukningsulykker.",
+        "Drukningsulykker fører til mer is-salg.",
+        "Begge tallene øker fordi de måler samme hendelse."
+      ],
+      "correct": 0,
+      "explain": "Sammenheng er ikke det samme som årsak."
+    }
+  ],
+  "mindmap": {
+    "label": "Matematikk 2P-Y",
+    "children": [
+      {
+        "label": "Potenser, røtter og standardform",
+        "children": [
+          {
+            "label": "a⁻ⁿ",
+            "note": "1/aⁿ, for eksempel 2⁻³ = 1/8."
+          },
+          {
+            "label": "Standardform",
+            "note": "a · 10ⁿ der 1 ≤ a < 10."
+          }
+        ]
+      },
+      {
+        "label": "Prosent, vekstfaktor og modellering i regneark",
+        "children": [
+          {
+            "label": "Vekstfaktor ved økning",
+            "note": "1 + p/100"
+          },
+          {
+            "label": "Absolutt referanse",
+            "note": "Celleadresse med $ som står fast, for eksempel $E$1."
+          }
+        ]
+      },
+      {
+        "label": "Proporsjonalitet og omvendt proporsjonalitet",
+        "children": [
+          {
+            "label": "Proporsjonale størrelser",
+            "note": "Størrelser der forholdet y/x er konstant."
+          },
+          {
+            "label": "Omvendt proporsjonale størrelser",
+            "note": "Størrelser der produktet x · y er konstant."
+          }
+        ]
+      },
+      {
+        "label": "Formler, variabler og tekstoppgaver",
+        "children": [
+          {
+            "label": "Variabel",
+            "note": "En størrelse som kan endre seg."
+          },
+          {
+            "label": "Snu en formel",
+            "note": "Å løse formelen med hensyn på en annen størrelse."
+          }
+        ]
+      },
+      {
+        "label": "Funksjoner og grafer",
+        "children": [
+          {
+            "label": "Lineær funksjon",
+            "note": "f(x) = ax + b, grafen er en rett linje."
+          },
+          {
+            "label": "Eksponentialfunksjon",
+            "note": "f(x) = b · aˣ, fast prosentvis endring."
+          }
+        ]
+      },
+      {
+        "label": "Matematisk modellering",
+        "children": [
+          {
+            "label": "Regresjon",
+            "note": "Å finne funksjonen som passer best til data."
+          },
+          {
+            "label": "Gyldighetsområde",
+            "note": "Verdiene der modellen gir rimelige svar."
+          }
+        ]
+      },
+      {
+        "label": "Sentralmål og spredningsmål",
+        "children": [
+          {
+            "label": "Median",
+            "note": "Den midterste verdien når dataene er sortert."
+          },
+          {
+            "label": "Standardavvik",
+            "note": "Hvor langt verdiene i gjennomsnitt ligger fra gjennomsnittet."
+          }
+        ]
+      },
+      {
+        "label": "Analysere og presentere datasett",
+        "children": [
+          {
+            "label": "Representativt utvalg",
+            "note": "Utvalg som ligner populasjonen."
+          },
+          {
+            "label": "Korrelasjon",
+            "note": "At to størrelser henger sammen."
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 45,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "(a²)³ = a⁶",
+        "correct": true,
+        "explain": "Eksponentene ganges: 2 · 3 = 6."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Vekstfaktoren for en nedgang på 20 % er 0,80.",
+        "correct": true,
+        "explain": "1 − 0,20 = 0,80."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Grafen til to proporsjonale størrelser går gjennom origo.",
+        "correct": true,
+        "explain": "Når x = 0, er y = k · 0 = 0."
+      },
+      {
+        "id": "m04",
+        "type": "flervalg",
+        "text": "Et abonnement koster 199 kr per måned pluss 0,50 kr per SMS. Hva koster en måned med 60 SMS?",
+        "options": [
+          "229 kr",
+          "239 kr",
+          "249 kr",
+          "269 kr"
+        ],
+        "correct": 0,
+        "explain": "199 + 0,50 · 60 = 199 + 30 = 229."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er nullpunktet til f(x) = −2x + 10?",
+        "options": [
+          "x = −5",
+          "x = 10",
+          "x = 5",
+          "x = 2"
+        ],
+        "correct": 2,
+        "explain": "−2x + 10 = 0 gir x = 5."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er ekstrapolering?",
+        "options": [
+          "Å bruke modellen utenfor området dataene dekker",
+          "Å bruke modellen innenfor området dataene dekker",
+          "Å lage modellen ut fra alle innsamlede data",
+          "Å bruke modellen mellom målepunktene i datasettet"
+        ],
+        "correct": 0,
+        "explain": "Ekstrapolering kan gi urimelige svar."
+      },
+      {
+        "id": "m07",
+        "type": "sant-usant",
+        "text": "Kvartilbredden påvirkes lite av ekstreme verdier.",
+        "correct": true,
+        "explain": "Den gjelder bare den midterste halvdelen."
+      },
+      {
+        "id": "m08",
+        "type": "sant-usant",
+        "text": "Korrelasjon betyr ikke nødvendigvis årsakssammenheng.",
+        "correct": true,
+        "explain": "Det kan finnes en tredje faktor."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Skriv 2⁻³ som en brøk, og forklar kort hva den negative eksponenten betyr.",
+        "fasit": "2⁻³ = 1/2³ = 1/8. En negativ eksponent betyr at vi tar den omvendte brøken, ikke at tallet blir negativt.",
+        "kriterier": [
+          "Oppgir 1/8.",
+          "Forklarer at negativ eksponent gir den omvendte brøken."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En pris øker med 6 %. Finn vekstfaktoren, og skriv hvordan du finner prisen etter n perioder fra startverdien K.",
+        "fasit": "Vekstfaktoren er 1,06. Etter n perioder er prisen K · 1,06ⁿ.",
+        "kriterier": [
+          "Oppgir vekstfaktoren 1,06.",
+          "Bruker K · 1,06ⁿ for n perioder."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Tre kilo epler koster 90 kr. Finn kiloprisen og prisen for fem kilo dersom prisen er proporsjonal med mengden.",
+        "fasit": "Kiloprisen er 90/3 = 30 kr. Fem kilo koster 30 · 5 = 150 kr.",
+        "kriterier": [
+          "Finner kiloprisen 30 kr per kilo.",
+          "Finner prisen 150 kr."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En taxitur koster P = 50 + 15x kroner, der x er antall kilometer. Finn prisen for en tur på 2 km, og forklar hva 50 og 15 betyr.",
+        "fasit": "Prisen blir 50 + 15 · 2 = 80 kr. 50 kr er startbeløpet, og 15 kr er prisen per kilometer.",
+        "kriterier": [
+          "Regner ut 80 kr.",
+          "Tolker 50 som fast beløp og 15 som pris per kilometer."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "En sirkel har radius 3 cm. Bruk A = πr² til å finne arealet omtrent, og oppgi enheten.",
+        "fasit": "A = π · 3² ≈ 3,14 · 9 ≈ 28,3. Arealet er omtrent 28,3 cm².",
+        "kriterier": [
+          "Bruker radiusen i formelen og får omtrent 28,3.",
+          "Oppgir enheten cm²."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Forklar forskjellen på lineær vekst og eksponentiell vekst, og gi ett eksempel på hva slags endring hver beskriver.",
+        "fasit": "Lineær vekst endres med et fast tall per enhet, mens eksponentiell vekst endres med en fast prosent per enhet. En fast økning i antall er lineær, mens en fast årlig prosentvis befolkningsvekst er eksponentiell.",
+        "kriterier": [
+          "Knytter lineær vekst til fast tall per enhet.",
+          "Knytter eksponentiell vekst til fast prosent per enhet.",
+          "Gir eksempler som passer til hver veksttype."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En modell for innbyggertall bruker B(x) = 5000 · 1,02ˣ. Forklar hva startverdien og vekstfaktoren forteller, og hvorfor modellen likevel må vurderes.",
+        "fasit": "Startverdien er 5000 innbyggere, og 1,02 betyr 2 % vekst per år. Modellen bygger på premisser, og vi må vurdere om de fortsatt passer og hvor modellen gir rimelige svar.",
+        "kriterier": [
+          "Tolker 5000 som startverdi og 1,02 som 2 % vekst.",
+          "Nevner at premisser og gyldighetsområde må vurderes."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Forklar hvordan du kan avgjøre fra en tabell om to størrelser er proporsjonale eller omvendt proporsjonale.",
+        "fasit": "For proporsjonale størrelser undersøker jeg om forholdet y/x er konstant. For omvendt proporsjonale størrelser undersøker jeg om produktet x · y er konstant.",
+        "kriterier": [
+          "Knytter proporsjonalitet til konstant forhold y/x.",
+          "Knytter omvendt proporsjonalitet til konstant produkt x · y."
+        ]
+      },
+      {
+        "id": "s09",
+        "text": "Et regneark regner ut sparing for mange år med en rente som står i én celle. Forklar hvorfor en absolutt cellereferanse er nyttig når formelen kopieres nedover.",
+        "fasit": "En absolutt referanse med dollartegn, som $E$1, står fast når formelen kopieres. Da kan flere års beregninger bruke vekstfaktoren som ligger i samme celle.",
+        "kriterier": [
+          "Forklarer at absolutt referanse står fast ved kopiering.",
+          "Knytter dette til at samme vekstfaktor kan brukes videre."
+        ]
+      },
+      {
+        "id": "s10",
+        "text": "Hva forteller stigningstallet og konstantleddet i en lineær funksjon f(x) = ax + b? Forklar også hvor grafen møter y-aksen.",
+        "fasit": "Stigningstallet a viser hvor mye y endrer seg når x øker med 1. Konstantleddet b er verdien når x = 0, så grafen møter y-aksen i (0, b).",
+        "kriterier": [
+          "Tolker a som endring per enhet i x.",
+          "Tolker b som funksjonsverdien når x = 0 og y-akseskjæringen."
+        ]
+      },
+      {
+        "id": "s11",
+        "text": "To datasett har samme gjennomsnitt, men det ene har større standardavvik. Forklar hva dette sier om spredningen, og hvorfor gjennomsnittet alene ikke beskriver begge datasettene godt.",
+        "fasit": "Det større standardavviket betyr at verdiene i det datasettet ligger mer spredt rundt gjennomsnittet. Gjennomsnittet viser et sentralmål, men forteller ikke hvor mye verdiene varierer.",
+        "kriterier": [
+          "Knytter større standardavvik til større spredning.",
+          "Skiller mellom sentralmål og spredningsmål."
+        ]
+      },
+      {
+        "id": "s12",
+        "text": "En undersøkelse spør 30 elever, og 12 sykler til skolen. Finn den relative frekvensen som prosent, og forklar hva den betyr.",
+        "fasit": "Den relative frekvensen er 12/30 = 0,40 = 40 %. Det betyr at 40 % av de spurte elevene sykler til skolen.",
+        "kriterier": [
+          "Regner ut 40 %.",
+          "Tolker prosenten som andelen av de spurte elevene."
+        ]
+      },
+      {
+        "id": "s13",
+        "text": "En meningsmåling bruker et utvalg for å si noe om en større populasjon. Forklar hvorfor utvalget bør være representativt, og hva feilmarginen forteller.",
+        "fasit": "Et representativt utvalg ligner populasjonen, slik at det bedre kan si noe om hele gruppen. Feilmarginen beskriver usikkerheten i en undersøkelse som bygger på et utvalg.",
+        "kriterier": [
+          "Forklarer at representativt utvalg ligner populasjonen.",
+          "Forklarer at feilmargin beskriver usikkerhet."
+        ]
+      },
+      {
+        "id": "s14",
+        "text": "Is-salg og drukningsulykker øker begge om sommeren. Forklar hvorfor dette ikke alene viser at is-salg forårsaker drukningsulykker.",
+        "fasit": "At to forhold øker samtidig, viser korrelasjon, men ikke nødvendigvis årsakssammenheng. Varmt vær kan være en tredje faktor som påvirker begge.",
+        "kriterier": [
+          "Skiller mellom korrelasjon og årsakssammenheng.",
+          "Nevner varmt vær som en mulig tredje faktor."
+        ]
+      },
+      {
+        "id": "s15",
+        "text": "En funksjon beskriver hvor høyt barn vokser, og er laget ut fra data for barn fra 2 til 12 år. Forklar hvorfor det kan være uforsiktig å bruke modellen for en 40-åring.",
+        "fasit": "Modellen har et gyldighetsområde knyttet til dataene for barn fra 2 til 12 år. Bruk for en 40-åring er ekstrapolering, og kan gi urimelige svar fordi voksne slutter å vokse.",
+        "kriterier": [
+          "Knytter modellen til et begrenset gyldighetsområde.",
+          "Forklarer ekstrapolering og hvorfor svaret kan bli urimelig."
+        ]
+      },
+      {
+        "id": "s16",
+        "text": "Du skal vise hvordan valg av transportmiddel fordeler seg på ulike kategorier. Velg et passende diagram og forklar én ting et diagram bør inneholde for å kunne tolkes.",
+        "fasit": "Et stolpediagram passer for å sammenligne kategorier. Diagrammet bør blant annet ha en tittel, aksetitler, enheter eller kilde.",
+        "kriterier": [
+          "Velger stolpediagram for kategorier.",
+          "Nevner minst ett nødvendig element, som tittel, aksetitler, enheter eller kilde."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": []
+  }
+}

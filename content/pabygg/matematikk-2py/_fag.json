@@ -1,0 +1,62 @@
+{
+  "id": "matematikk-2py",
+  "trinnId": "pabygg",
+  "name": "Matematikk 2P-Y",
+  "lareplan": {
+    "kode": "MAT06-04",
+    "url": "https://www.udir.no/lk20/mat06-04/kompetansemaal-og-vurdering/kv47",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "utforske korleis ulike premissar vil kunne påverke korleis matematiske problem frå samfunnsliv og arbeidsliv blir løyste"
+      },
+      {
+        "nr": 2,
+        "tekst": "analysere og presentere funn i datasett frå lokalsamfunn og media"
+      },
+      {
+        "nr": 3,
+        "tekst": "bruke og vurdere val av formålstenlege sentralmål og spreiingsmål for statistisk datamateriale"
+      },
+      {
+        "nr": 4,
+        "tekst": "lese, hente ut og vurdere matematikk i tekstar om samfunnsfaglege tema og tema frå lokalmiljøet, gjere berekningar knytte til dette og presentere og argumentere for resultata"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske, beskrive og bruke omgrepa proporsjonalitet og omvend proporsjonalitet"
+      },
+      {
+        "nr": 6,
+        "tekst": "identifisere variable storleikar i ulike situasjonar og bruke dei til utforsking og generalisering"
+      },
+      {
+        "nr": 7,
+        "tekst": "forklare og bruke prosent, prosentpoeng og vekstfaktor til modellering av praktiske situasjonar med digitale verktøy"
+      },
+      {
+        "nr": 8,
+        "tekst": "tolke og rekne med rotuttrykk, potensar og tal på standardform"
+      },
+      {
+        "nr": 9,
+        "tekst": "planleggje, utføre og presentere sjølvstendig arbeid knytt til modellering og funksjonar innanfor samfunnsfaglege tema"
+      },
+      {
+        "nr": 10,
+        "tekst": "bruke digitale verktøy i utforsking og problemløysing knytt til eigenskapar ved funksjonar, og diskutere løysingane"
+      }
+    ]
+  },
+  "temaer": [
+    "potenser-og-standardform",
+    "prosent-vekstfaktor-og-regneark",
+    "proporsjonalitet",
+    "formler-og-variabler",
+    "funksjoner-og-grafer",
+    "matematisk-modellering",
+    "sentralmal-og-spredningsmal",
+    "statistikk-analyse-og-presentasjon",
+    "repetisjon"
+  ]
+}

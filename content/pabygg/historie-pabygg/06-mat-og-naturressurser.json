@@ -1,0 +1,438 @@
+{
+  "id": "mat-og-naturressurser",
+  "fagId": "historie-pabygg",
+  "trinnId": "pabygg",
+  "name": "Mat og naturressurser gjennom historien",
+  "intro": "Viktige endringer i hvordan mennesker har skaffet seg mat og brukt naturressurser – fra jegere og sankere via jordbruksrevolusjonen og industrialiseringen til den grønne revolusjon – og hva endringene betyr for mennesker og et bærekraftig samfunn.",
+  "kompetansemaal": [
+    7
+  ],
+  "sammendrag": "## Jegere og sankere\n\nI det meste av menneskets historie levde vi som **jegere**, **fangstfolk** og **sankere**. Folk flyttet etter **dyrene** og **årstidene**, og gruppene var små. I Norge kom de første menneskene etter **istiden**, for over 11 000 år siden, og levde av fiske, fangst og jakt langs kysten.\n\n## Den neolittiske revolusjon\n\nFor rundt **10 000 år siden** begynte mennesker i **Midtøsten** – i området som kalles **Den fruktbare halvmåne** – å dyrke **korn** og temme **husdyr**. Dette kalles den **neolittiske revolusjon** eller jordbruksrevolusjonen. Jordbruk oppsto også uavhengig andre steder, som i Kina og Mellom-Amerika. I Norge kom jordbruket for rundt **6000 år siden**.\n\nKonsekvenser:\n\n- Folk ble **bofaste**, og befolkningen **økte**.\n- Det oppsto **overskudd**, **handel**, **arbeidsdeling** og etter hvert **byer** og **stater**.\n- **Eiendom** og **ulikhet** ble viktigere.\n- Mange fikk et mer **ensidig kosthold** og **tungt arbeid**, og sykdommer spredte seg lettere.\n\n## Middelalderen og tidlig nytid\n\nI middelalderen levde de fleste i Norge av **jordbruk**, **fiske** og **husdyrhold**. **Tørrfisk** fra Lofoten var en viktig eksportvare. Mat var usikkert: **Uår** med dårlige avlinger kunne gi **hungersnød**. **Potetene** kom til Norge på 1700-tallet og bidro til å redusere sult.\n\n## Landbruksrevolusjonen og industrialiseringen\n\nPå **1700- og 1800-tallet** ga nye **redskaper**, **vekselbruk**, **gjødsel** og etter hvert **maskiner** mye større avlinger. Færre trengtes i jordbruket, og mange flyttet til byene for å jobbe i **industrien**. **Kull** og senere **olje** ble grunnlaget for industrisamfunnet – og for store **klimautslipp**.\n\n## Den grønne revolusjon\n\nFra **1960-tallet** ga nye **høytytende sorter** av hvete og ris, **kunstgjødsel**, **sprøytemidler** og **vanning** mye større avlinger i blant annet **India** og **Mexico**. Hundrevis av millioner slapp **sult**. Men revolusjonen hadde også **baksider**: forurensning, tap av **biologisk mangfold**, avhengighet av dyre innsatsmidler og sterkere press på **vann** og **jord**.\n\n## Moderne matproduksjon\n\nI dag produserer verden mer mat enn noen gang, men mange sulter fortsatt, samtidig som mye mat **kastes**. **Industrielt landbruk**, **globale verdikjeder** og **kjøttproduksjon** bruker store ressurser og gir mye utslipp. **Havbruk** har blitt en stor næring i Norge.\n\n## Bærekraft\n\nHistorien viser at ny teknologi har løst mange **matproblemer**, men også skapt nye **miljøproblemer**. Viktige spørsmål i dag er hvordan vi kan produsere nok mat til en **voksende befolkning** uten å ødelegge **klima**, **jord**, **vann** og **natur** – for eksempel gjennom mer **plantebasert kost**, mindre **matsvinn**, **presisjonslandbruk** og å ta vare på **matjorda**.",
+  "flashcards": [
+    {
+      "term": "Jegere og sankere",
+      "def": "Mennesker som levde av jakt, fangst, fiske og sanking."
+    },
+    {
+      "term": "Den neolittiske revolusjon",
+      "def": "Overgangen til jordbruk for rundt 10 000 år siden."
+    },
+    {
+      "term": "Den fruktbare halvmåne",
+      "def": "Område i Midtøsten der jordbruket først oppsto.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Bofast",
+      "def": "Å bo fast på ett sted."
+    },
+    {
+      "term": "Overskudd",
+      "def": "Mer mat enn man trenger selv – grunnlag for handel og arbeidsdeling."
+    },
+    {
+      "term": "Arbeidsdeling",
+      "def": "At ulike mennesker har ulike oppgaver."
+    },
+    {
+      "term": "Jordbruk i Norge",
+      "def": "Kom for rundt 6000 år siden.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Tørrfisk",
+      "def": "Viktig eksportvare fra Lofoten i middelalderen.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Uår",
+      "def": "År med dårlige avlinger som kunne gi hungersnød."
+    },
+    {
+      "term": "Poteten",
+      "def": "Kom til Norge på 1700-tallet og reduserte sult.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Landbruksrevolusjonen",
+      "def": "Store økninger i avlingene på 1700- og 1800-tallet."
+    },
+    {
+      "term": "Den grønne revolusjon",
+      "def": "Nye sorter, kunstgjødsel og vanning fra 1960-tallet."
+    },
+    {
+      "term": "Kunstgjødsel",
+      "def": "Industrielt produsert gjødsel som øker avlingene."
+    },
+    {
+      "term": "Matsvinn",
+      "def": "Spiselig mat som kastes."
+    },
+    {
+      "term": "Matjord",
+      "def": "Det øverste jordlaget som er egnet til dyrking."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Når begynte den neolittiske revolusjon?",
+      "options": [
+        "For rundt 2 000 år siden",
+        "For rundt 10 000 år siden",
+        "For rundt 5 000 år siden",
+        "For rundt 20 000 år siden"
+      ],
+      "correct": 1,
+      "explain": "Den begynte i Midtøsten."
+    },
+    {
+      "id": "q02",
+      "text": "Hvor oppsto jordbruket først?",
+      "options": [
+        "I Den fruktbare halvmåne i Midtøsten",
+        "I Nildalen i det nordøstlige Afrika",
+        "I Indusdalen i Sør-Asia",
+        "I Yangtze-dalen i det østlige Kina"
+      ],
+      "correct": 0,
+      "explain": "Jordbruk oppsto også uavhengig andre steder.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q03",
+      "text": "Hva var en konsekvens av overgangen til jordbruk?",
+      "options": [
+        "Folk fortsatte å flytte etter jakt og ville planter",
+        "Befolkningen sank fordi mattilgangen ble mindre",
+        "Folk ble bofaste, og byer og stater vokste fram",
+        "Handelen ble mindre fordi folk produserte alt selv"
+      ],
+      "correct": 2,
+      "explain": "Overskudd ga grunnlag for handel og arbeidsdeling."
+    },
+    {
+      "id": "q04",
+      "text": "Hvilken vare var en viktig eksportvare fra Norge i middelalderen?",
+      "options": [
+        "Silke",
+        "Krydder",
+        "Sukker",
+        "Tørrfisk"
+      ],
+      "correct": 3,
+      "explain": "Tørrfisken kom fra Lofoten.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q05",
+      "text": "Hva var den grønne revolusjon?",
+      "options": [
+        "Større avlinger fra 1960-tallet med nye sorter, kunstgjødsel og vanning",
+        "En miljøkampanje fra 1960-tallet mot kunstgjødsel og sprøytemidler",
+        "Overgangen fra jakt og sanking til fast jordbruk i oldtiden",
+        "En politisk omveltning i land som innførte nye jordbruksmaskiner"
+      ],
+      "correct": 0,
+      "explain": "Den reduserte sult i blant annet India og Mexico."
+    },
+    {
+      "id": "q06",
+      "text": "Hva er en bakside ved den grønne revolusjon?",
+      "options": [
+        "Økt matmangel blant bønder og lavere avlinger",
+        "Forurensning fra innsatsmidler og tap av biologisk mangfold",
+        "Færre dyrkede sorter og mindre bruk av gjødsel",
+        "Redusert mathandel og færre områder med matproduksjon"
+      ],
+      "correct": 1,
+      "explain": "Den økte også presset på vann og jord."
+    },
+    {
+      "id": "q07",
+      "text": "Når kom jordbruket til Norge?",
+      "options": [
+        "For rundt 20 000 år siden",
+        "For rundt 2 000 år siden",
+        "For rundt 6 000 år siden",
+        "For rundt 500 år siden"
+      ],
+      "correct": 2,
+      "explain": "Før det levde folk av jakt, fangst og fiske.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q08",
+      "text": "Hvorfor flyttet mange til byene på 1800-tallet?",
+      "options": [
+        "Fordi byene hadde mer dyrkbar jord enn bygdene rundt",
+        "Fordi myndighetene begrenset bosetting på landsbygda gjennom nye lover",
+        "Fordi flere uår gjorde det vanskeligere å skaffe mat på bygdene",
+        "Fordi færre trengtes i jordbruket, mens industrien trengte arbeidere"
+      ],
+      "correct": 3,
+      "explain": "Maskiner og nye metoder økte produktiviteten."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken matvare bidro til å redusere sult i Norge fra 1700-tallet?",
+      "options": [
+        "Poteten",
+        "Kålrota",
+        "Havren",
+        "Rugen"
+      ],
+      "correct": 0,
+      "explain": "Poteten ga stor avling på liten plass.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q10",
+      "text": "Hvilket tiltak kan gjøre matproduksjonen mer bærekraftig?",
+      "options": [
+        "Større matsvinn og mer kjøttbasert kost",
+        "Mindre matsvinn og mer plantebasert kost",
+        "Nedbygging av matjord og større kjøttforbruk",
+        "Mer bruk av sprøytemidler og økt matsvinn"
+      ],
+      "correct": 1,
+      "explain": "Også å ta vare på matjorda er viktig."
+    }
+  ],
+  "mindmap": {
+    "label": "Mat og naturressurser",
+    "children": [
+      {
+        "label": "Jegere og sankere",
+        "children": [
+          {
+            "label": "Små grupper"
+          },
+          {
+            "label": "Flytting etter dyr"
+          }
+        ]
+      },
+      {
+        "label": "Jordbruk",
+        "children": [
+          {
+            "label": "Neolittisk revolusjon"
+          },
+          {
+            "label": "Bofasthet"
+          },
+          {
+            "label": "Overskudd og byer"
+          }
+        ]
+      },
+      {
+        "label": "Før industrien",
+        "children": [
+          {
+            "label": "Tørrfisk"
+          },
+          {
+            "label": "Uår og sult"
+          },
+          {
+            "label": "Poteten"
+          }
+        ]
+      },
+      {
+        "label": "Moderne tid",
+        "children": [
+          {
+            "label": "Landbruksrevolusjonen"
+          },
+          {
+            "label": "Industrialisering"
+          },
+          {
+            "label": "Grønn revolusjon"
+          }
+        ]
+      },
+      {
+        "label": "Bærekraft",
+        "children": [
+          {
+            "label": "Klima og natur"
+          },
+          {
+            "label": "Matsvinn"
+          },
+          {
+            "label": "Matjord"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Jordbruk oppsto uavhengig flere steder i verden.",
+        "correct": true,
+        "explain": "For eksempel i Midtøsten, Kina og Mellom-Amerika."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Overgangen til jordbruk ga alle mennesker bedre helse.",
+        "correct": false,
+        "explain": "Mange fikk et mer ensidig kosthold og tungt arbeid."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Kull og olje ble grunnlaget for industrisamfunnet.",
+        "correct": true,
+        "explain": "Det ga også store klimautslipp."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "I dag er det ingen som sulter i verden.",
+        "correct": false,
+        "explain": "Mange sulter fortsatt, samtidig som mye mat kastes."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er arbeidsdeling?",
+        "options": [
+          "At ulike mennesker har ulike oppgaver",
+          "At mennesker bytter oppgaver med hverandre",
+          "At en gruppe deler maten likt mellom seg",
+          "At mennesker utfører færre oppgaver sammen"
+        ],
+        "correct": 0,
+        "explain": "Overskudd gjorde arbeidsdeling mulig."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilke land fikk særlig store avlinger gjennom den grønne revolusjon?",
+        "options": [
+          "Norge og Sverige",
+          "India og Mexico",
+          "Egypt og Marokko",
+          "Canada og Australia"
+        ],
+        "correct": 1,
+        "explain": "Hundrevis av millioner slapp sult.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er matjord?",
+        "options": [
+          "Det nederste jordlaget som ligger under matjorda",
+          "Jord som er blandet med kompost i en blomsterpotte",
+          "Det øverste jordlaget som egner seg for dyrking",
+          "Jord som er gravd opp ved bygging av veier"
+        ],
+        "correct": 2,
+        "explain": "Matjord tar svært lang tid å danne."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Hvordan skaffet jegere og sankere seg mat, og hvorfor flyttet de etter dyrene og årstidene?",
+        "fasit": "Jegere og sankere levde av jakt, fangst, fiske og sanking. De flyttet etter dyrene og årstidene for å finne mat.",
+        "kriterier": [
+          "Forklarer at maten kom fra jakt, fangst, fiske eller sanking.",
+          "Knytter flyttingen til tilgang på mat, dyr eller årstider."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign hvordan mennesker skaffet mat som jegere og sankere, og etter at jordbruket ble innført.",
+        "fasit": "Jegere og sankere skaffet mat gjennom jakt, fangst, fiske og sanking. Med jordbruk dyrket mennesker korn og holdt husdyr, og de ble bofaste.",
+        "kriterier": [
+          "Beskriver matanskaffelse gjennom jakt, fangst, fiske eller sanking.",
+          "Forklarer at jordbruk innebar dyrking eller husdyrhold, gjerne sammen med bofasthet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hvordan kunne et matoverskudd føre til handel og arbeidsdeling?",
+        "fasit": "Når folk hadde mer mat enn de trengte selv, kunne noe av maten byttes eller selges. Da kunne noen bruke tiden på andre oppgaver enn matproduksjon, slik at arbeidsdelingen økte.",
+        "kriterier": [
+          "Forklarer at overskudd betyr mer mat enn man trenger selv.",
+          "Viser hvordan overskudd kunne gi grunnlag for handel og at folk fikk ulike oppgaver."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "I middelalderen kunne dårlige avlinger føre til hungersnød. Forklar hva et uår er, og hvordan det kunne føre til hungersnød.",
+        "fasit": "Et uår er et år med dårlige avlinger. Da ble det mindre mat tilgjengelig, og det kunne føre til hungersnød.",
+        "kriterier": [
+          "Forklarer at uår innebærer dårlige avlinger.",
+          "Knytter avlingssvikten til matmangel eller hungersnød."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Sammenlign landbruksrevolusjonen på 1700- og 1800-tallet med den grønne revolusjonen fra 1960-tallet. Nevn hva som bidro til større avlinger i hver av dem.",
+        "fasit": "Under landbruksrevolusjonen bidro nye redskaper, vekselbruk, gjødsel og etter hvert maskiner til større avlinger. I den grønne revolusjonen bidro høytytende sorter, kunstgjødsel og vanning til større avlinger.",
+        "kriterier": [
+          "Knytter landbruksrevolusjonen til tiltak som nye redskaper, vekselbruk, gjødsel eller maskiner.",
+          "Knytter den grønne revolusjonen til høytytende sorter, kunstgjødsel eller vanning."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Kull og senere olje ble grunnlaget for industrisamfunnet. Forklar hvilken miljøkonsekvens dette hadde.",
+        "fasit": "Bruken av kull og senere olje var knyttet til store klimautslipp. Dermed bidro industrisamfunnet til å skape klimaproblemer.",
+        "kriterier": [
+          "Nevner at kull og olje var grunnlag for industrisamfunnet.",
+          "Knytter bruken av disse energikildene til store klimautslipp."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "En butikk kaster spiselig mat som ikke er solgt. Hva kalles dette, og hvilket tiltak for mer bærekraftig matproduksjon passer til situasjonen?",
+        "fasit": "Dette er matsvinn, altså spiselig mat som blir kastet. Butikken kan bidra til mer bærekraft ved å redusere matsvinnet.",
+        "kriterier": [
+          "Identifiserer kastet, spiselig mat som matsvinn.",
+          "Foreslår å redusere matsvinn som et bærekraftig tiltak."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En bonde vil sikre at jorda fortsatt kan brukes til å dyrke mat. Hva er matjord, og hvorfor er det viktig å ta vare på den?",
+        "fasit": "Matjord er det øverste jordlaget som egner seg til dyrking. Det er viktig å ta vare på matjorda fordi den trengs for å kunne dyrke mat.",
+        "kriterier": [
+          "Forklarer at matjord er det øverste jordlaget som egner seg til dyrking.",
+          "Knytter bevaring av matjord til muligheten for å dyrke mat."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

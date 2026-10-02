@@ -1,0 +1,443 @@
+{
+  "id": "velferdsstaten",
+  "fagId": "historie-pabygg",
+  "trinnId": "pabygg",
+  "name": "Velferdsutviklingen i Norge på 1900-tallet",
+  "intro": "Hvordan den norske velferdsstaten vokste fram – fra fattigvesenet og de første trygdene via kriseforliket i 1935 til gjenreisningen, folketrygden i 1967 og utbyggingen av skole, helse og barnehager – og hvilke konsekvenser utviklingen har hatt for menneskers liv.",
+  "kompetansemaal": [
+    21
+  ],
+  "sammendrag": "## Før velferdsstaten\n\nPå 1800-tallet var **familien**, **arbeidsgiveren** og **fattigvesenet** det eneste sikkerhetsnettet. Den som ble syk, gammel eller arbeidsløs, kunne ende i **fattigdom**. Hjelpen fra fattigvesenet var ofte **nedverdigende**, og mottakerne mistet i en periode **stemmeretten**.\n\n## De første trygdene\n\nMed industrialiseringen kom de første **sosialforsikringene**:\n\n- **Ulykkestrygd** for fabrikkarbeidere i **1894**\n- **Syketrygd** for lavtlønte i **1909**\n\nTrygdene var **begrensede** og gjaldt bare noen grupper.\n\n## Krise og kompromiss på 1930-tallet\n\nDen økonomiske **krisen** etter 1929 ga høy **arbeidsløshet**. I **1935** inngikk **Arbeiderpartiet** og **Bondepartiet** **kriseforliket**, og Arbeiderpartiet dannet regjering. Samme år kom **Hovedavtalen** mellom **LO** og **arbeidsgiverne**, som la grunnlaget for **samarbeid** i arbeidslivet.\n\nRegjeringen innførte blant annet **alderstrygd** i **1936** og **arbeidsledighetstrygd** i **1938**.\n\n## Gjenreisningen etter 1945\n\nEtter krigen var partiene enige om et **fellesprogram** for **gjenreisning**. Arbeiderpartiet med **Einar Gerhardsen** styrte i mange år og bygde ut velferdsstaten:\n\n- **Barnetrygd** fra **1946**\n- **Statens lånekasse for utdanning** fra **1947**\n- **Niårig skole** fra slutten av **1960-tallet**\n- **Utbygging** av sykehus og helsetjenester\n\n## Folketrygden\n\n**Folketrygden** fra **1967** samlet mange ordninger i **én** trygd for **alle**. Den ga rett til **alderspensjon**, **uførepensjon** og andre ytelser. Senere kom blant annet **full sykelønn** fra første dag og lengre **foreldrepermisjon**.\n\n## Kjennetegn ved den norske modellen\n\n- **Universelle** ytelser – de gjelder **alle**, ikke bare de fattigste\n- **Høye skatter** som finansierer tjenestene\n- **Offentlige** skoler, sykehus og eldreomsorg\n- **Trepartssamarbeid** mellom arbeidsgivere, arbeidstakere og staten\n- Mål om **høy sysselsetting**\n\n## Konsekvenser for menneskers liv\n\n**Positive**:\n\n- **Trygghet** ved sykdom, alderdom og arbeidsløshet\n- Høyere **levealder** og bedre **helse**\n- Mindre **fattigdom** og mindre **forskjeller**\n- Større **sosial mobilitet** – flere fikk **utdanning** uavhengig av foreldrenes økonomi\n- **Kvinner** kunne i større grad ta **lønnsarbeid**, særlig etter utbyggingen av **barnehager**\n\n**Utfordringer og kritikk**:\n\n- **Høye skatter** og store offentlige **utgifter**\n- **Byråkrati** og mindre **valgfrihet**\n- Fare for at noen blir **stående utenfor** arbeidslivet\n- **Eldrebølgen** og lavere oljeinntekter gjør det krevende å finansiere velferden i framtiden\n\n## Drøfting\n\nVelferdsstaten er et resultat av både **arbeiderbevegelsens** krav, **politiske kompromisser**, **økonomisk vekst** og senere **oljeinntekter**. Et viktig spørsmål i dag er hvordan velferden kan **videreføres** når befolkningen blir eldre – og hvem som skal ha **ansvaret**: staten, familien, markedet eller den enkelte.",
+  "flashcards": [
+    {
+      "term": "Fattigvesenet",
+      "def": "Offentlig hjelp til fattige før velferdsstaten."
+    },
+    {
+      "term": "Sosialforsikring",
+      "def": "Trygd som sikrer mot tap av inntekt."
+    },
+    {
+      "term": "Ulykkestrygden 1894",
+      "def": "Første trygd for fabrikkarbeidere i Norge.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Syketrygden 1909",
+      "def": "Trygd ved sykdom for lavtlønte.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Kriseforliket 1935",
+      "def": "Avtale mellom Arbeiderpartiet og Bondepartiet."
+    },
+    {
+      "term": "Hovedavtalen 1935",
+      "def": "Avtale mellom LO og arbeidsgiverne om samarbeid.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Alderstrygden 1936",
+      "def": "Tidlig pensjonsordning for eldre.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Fellesprogrammet",
+      "def": "Partienes felles plan for gjenreisning etter krigen.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Einar Gerhardsen",
+      "def": "Arbeiderparti-statsminister under gjenreisningen.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Barnetrygd",
+      "def": "Innført i 1946."
+    },
+    {
+      "term": "Folketrygden",
+      "def": "Én felles trygd for alle fra 1967."
+    },
+    {
+      "term": "Universelle ytelser",
+      "def": "Ytelser som gjelder alle, ikke bare de fattigste."
+    },
+    {
+      "term": "Trepartssamarbeid",
+      "def": "Samarbeid mellom arbeidsgivere, arbeidstakere og staten."
+    },
+    {
+      "term": "Sosial mobilitet",
+      "def": "Mulighet til å få et annet liv enn foreldrene."
+    },
+    {
+      "term": "Eldrebølgen",
+      "def": "Økende andel eldre som gjør velferden dyrere."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva var det viktigste sikkerhetsnettet før velferdsstaten?",
+      "options": [
+        "Folketrygden, barnetrygden og alderstrygden",
+        "Familien, arbeidsgiveren og fattigvesenet",
+        "NAV, sykepengene og arbeidsledighetstrygden",
+        "Pensjonskassene, barnetrygden og folketrygden"
+      ],
+      "correct": 1,
+      "explain": "Hjelpen var ofte nedverdigende."
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken trygd kom i 1894?",
+      "options": [
+        "Ulykkestrygd for fabrikkarbeidere",
+        "Syketrygd for fabrikkarbeidere",
+        "Alderspensjon for fabrikkarbeidere",
+        "Arbeidsledighetstrygd for industriarbeidere"
+      ],
+      "correct": 0,
+      "explain": "Den første sosialforsikringen.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q03",
+      "text": "Hva var kriseforliket i 1935?",
+      "options": [
+        "En avtale mellom Høyre og Bondepartiet",
+        "En avtale mellom Arbeiderpartiet og Høyre",
+        "En avtale mellom Arbeiderpartiet og Bondepartiet",
+        "En avtale mellom LO og Bondepartiet"
+      ],
+      "correct": 2,
+      "explain": "Arbeiderpartiet dannet deretter regjering."
+    },
+    {
+      "id": "q04",
+      "text": "Når kom folketrygden?",
+      "options": [
+        "1936",
+        "1946",
+        "1978",
+        "1967"
+      ],
+      "correct": 3,
+      "explain": "Én trygd for alle."
+    },
+    {
+      "id": "q05",
+      "text": "Hva betyr at ytelsene er universelle?",
+      "options": [
+        "At de gjelder alle",
+        "At de gjelder lavinntektsgrupper",
+        "At de gjelder yrkesaktive personer",
+        "At de gis etter behovsprøving"
+      ],
+      "correct": 0,
+      "explain": "Kjennetegn ved den norske modellen."
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan bidro barnehageutbyggingen til endring?",
+      "options": [
+        "Barnehageutbyggingen gjorde at færre kvinner kunne ta lønnsarbeid",
+        "Barnehageutbyggingen gjorde at flere kvinner kunne ta lønnsarbeid",
+        "Barnehageutbyggingen gjorde at flere barn kunne begynne tidligere på skolen",
+        "Barnehageutbyggingen gjorde at flere menn kunne ta lønnsarbeid"
+      ],
+      "correct": 1,
+      "explain": "Viktig for likestillingen."
+    },
+    {
+      "id": "q07",
+      "text": "Hvem ledet Arbeiderpartiet under gjenreisningen?",
+      "options": [
+        "Oscar Torp",
+        "Trygve Bratteli",
+        "Einar Gerhardsen",
+        "Haakon Lie"
+      ],
+      "correct": 2,
+      "explain": "Statsminister i mange år etter krigen.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q08",
+      "text": "Hva er en utfordring for velferdsstaten i framtiden?",
+      "options": [
+        "Flere yrkesaktive og høyere oljeinntekter",
+        "Flere barnehager og høyere sysselsetting",
+        "Lavere levealder og færre pensjonister",
+        "Eldrebølgen og lavere oljeinntekter"
+      ],
+      "correct": 3,
+      "explain": "Gjør det dyrere å finansiere velferden.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q09",
+      "text": "Hva la Hovedavtalen i 1935 grunnlaget for?",
+      "options": [
+        "Samarbeid mellom partene i arbeidslivet",
+        "Samarbeid mellom kommuner og staten",
+        "Utbygging av offentlige trygdeordninger",
+        "Innføring av niårig grunnskole"
+      ],
+      "correct": 0,
+      "explain": "Mellom LO og arbeidsgiverne.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q10",
+      "text": "Hvordan har velferdsstaten påvirket sosial mobilitet?",
+      "options": [
+        "Velferdsstaten har gjort utdanning mer avhengig av foreldrenes økonomi",
+        "Velferdsstaten har gjort utdanning mindre avhengig av foreldrenes økonomi",
+        "Velferdsstaten har økt utdanningen først og fremst for velstående familier",
+        "Velferdsstaten har hatt liten betydning for barns tilgang til utdanning"
+      ],
+      "correct": 1,
+      "explain": "For eksempel gjennom Lånekassen."
+    }
+  ],
+  "mindmap": {
+    "label": "Velferdsstaten",
+    "children": [
+      {
+        "label": "Før",
+        "children": [
+          {
+            "label": "Fattigvesenet"
+          },
+          {
+            "label": "Familie og arbeidsgiver"
+          }
+        ]
+      },
+      {
+        "label": "Første trygder",
+        "children": [
+          {
+            "label": "Ulykkestrygd 1894"
+          },
+          {
+            "label": "Syketrygd 1909"
+          }
+        ]
+      },
+      {
+        "label": "1930-tallet",
+        "children": [
+          {
+            "label": "Kriseforliket"
+          },
+          {
+            "label": "Hovedavtalen"
+          },
+          {
+            "label": "Alderstrygd"
+          }
+        ]
+      },
+      {
+        "label": "Etter 1945",
+        "children": [
+          {
+            "label": "Gjenreisning"
+          },
+          {
+            "label": "Barnetrygd og Lånekassen"
+          },
+          {
+            "label": "Folketrygden 1967"
+          }
+        ]
+      },
+      {
+        "label": "Konsekvenser",
+        "children": [
+          {
+            "label": "Trygghet og helse"
+          },
+          {
+            "label": "Mobilitet og likestilling"
+          },
+          {
+            "label": "Kostnader og eldrebølge"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mottakere av fattighjelp kunne i en periode miste stemmeretten.",
+        "correct": true,
+        "explain": "Hjelpen var nedverdigende.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "De første trygdene gjaldt alle innbyggere.",
+        "correct": false,
+        "explain": "De var begrensede og gjaldt bare noen grupper."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Høye skatter finansierer den norske velferdsmodellen.",
+        "correct": true,
+        "explain": "Et kjennetegn ved modellen."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Velferdsstaten ble bygd opp av ett parti alene uten kompromisser.",
+        "correct": false,
+        "explain": "Den bygger på kompromisser og brede avtaler."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Når ble barnetrygden innført?",
+        "options": [
+          "1936",
+          "1946",
+          "1967",
+          "1978"
+        ],
+        "correct": 1,
+        "explain": "Rett etter krigen.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva er en kritikk mot velferdsstaten?",
+        "options": [
+          "Byråkrati og mindre valgfrihet",
+          "Større trygghet og bedre offentlige tjenester",
+          "Lavere skatter og enklere søknadsordninger",
+          "Flere rettigheter og større valgfrihet"
+        ],
+        "correct": 0,
+        "explain": "Også høye kostnader.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva har gjort det mulig å bygge ut velferden etter 1970-tallet?",
+        "options": [
+          "Skatteøkninger og utenlandske lån",
+          "Økt fiskeeksport og krigserstatninger",
+          "Økonomisk vekst og oljeinntekter",
+          "Privatisering av tjenester og lavere lønninger"
+        ],
+        "correct": 2,
+        "explain": "Sammen med politiske kompromisser."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Før velferdsstaten kunne fattigvesenet gi offentlig hjelp til fattige, men hjelpen kunne være nedverdigende og mottakerne kunne miste stemmeretten en periode. Sammenlign dette med universelle ytelser i velferdsstaten.",
+        "fasit": "Fattigvesenet hjalp mennesker som var fattige, og hjelpen kunne føre til tap av verdighet og stemmerett. Universelle ytelser gjelder alle, ikke bare de fattigste.",
+        "kriterier": [
+          "Forklarer at fattigvesenet var hjelp rettet mot fattige, og at hjelpen kunne ha negative følger for mottakerne.",
+          "Forklarer at universelle ytelser gjelder alle, ikke bare de fattigste."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s02",
+        "text": "Industrialiseringen førte til de første sosialforsikringene i Norge. Forklar hva en sosialforsikring skulle sikre mot, og hvordan dette hang sammen med behovet for trygghet ved inntektstap.",
+        "fasit": "En sosialforsikring er en trygd som sikrer mot tap av inntekt. Den ga økonomisk trygghet dersom noen for eksempel ble syke eller utsatt for en ulykke.",
+        "kriterier": [
+          "Forklarer at sosialforsikring sikrer mot inntektstap.",
+          "Knytter ordningen til økonomisk trygghet ved en situasjon som sykdom eller ulykke."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "En lavtlønnet person blir syk i Norge i 1909. Hvilken trygd kunne gi personen støtte, og hvilken begrensning hadde de tidlige trygdeordningene?",
+        "fasit": "Syketrygden, som kom i 1909, kunne gi støtte ved sykdom til lavtlønte. De tidlige trygdene var begrensede og gjaldt bare bestemte grupper.",
+        "kriterier": [
+          "Identifiserer syketrygden som ordningen ved sykdom for lavtlønte.",
+          "Forklarer at tidlige trygder bare gjaldt bestemte grupper."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s04",
+        "text": "Etter krigen ble utdanning bygget ut, blant annet gjennom Statens lånekasse for utdanning fra 1947 og niårig skole fra slutten av 1960-tallet. Forklar hvordan slike tiltak kunne gi flere mulighet til å få utdanning uavhengig av foreldrenes økonomi.",
+        "fasit": "Lånekassen kunne gjøre det lettere å finansiere utdanning, og niårig skole ga flere en lengre skolegang. Slik kunne flere få utdanning og mulighet til et annet liv enn foreldrene sine.",
+        "kriterier": [
+          "Knytter minst ett av tiltakene til at flere fikk tilgang til eller kunne finansiere utdanning.",
+          "Forklarer sammenhengen mellom utdanning og muligheten til å få et annet liv enn foreldrene."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s05",
+        "text": "To avtaler ble inngått i 1935: Kriseforliket mellom Arbeiderpartiet og Bondepartiet, og Hovedavtalen mellom LO og arbeidsgiverne. Sammenlign hvem som inngikk avtalene, og hva slags samarbeid de la til rette for.",
+        "fasit": "Kriseforliket var en politisk avtale mellom Arbeiderpartiet og Bondepartiet, og etter den dannet Arbeiderpartiet regjering. Hovedavtalen var mellom LO og arbeidsgiverne og la grunnlaget for samarbeid i arbeidslivet.",
+        "kriterier": [
+          "Skiller riktig mellom partene i kriseforliket og partene i Hovedavtalen.",
+          "Forklarer at kriseforliket var politisk, mens Hovedavtalen la grunnlag for samarbeid i arbeidslivet."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s06",
+        "text": "I den norske modellen samarbeider arbeidsgivere, arbeidstakere og staten. Bruk en arbeidslivssituasjon der disse tre partene møtes, og forklar hvorfor samarbeidet kalles trepartssamarbeid.",
+        "fasit": "Hvis arbeidsgivere, arbeidstakere og staten samarbeider om spørsmål i arbeidslivet, er alle de tre partene med. Derfor kalles det trepartssamarbeid.",
+        "kriterier": [
+          "Identifiserer arbeidsgivere, arbeidstakere og staten som de tre partene.",
+          "Forklarer at betegnelsen viser til samarbeid mellom nettopp disse tre partene."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Den norske modellen bruker høye skatter til å finansiere offentlige tjenester. Forklar både hvordan skattene bidrar til velferd, og hvorfor høye skatter samtidig kan bli kritisert.",
+        "fasit": "Skatteinntektene kan finansiere offentlige tjenester som skoler, sykehus og eldreomsorg. Høye skatter kan kritiseres fordi de innebærer en stor kostnad for innbyggerne.",
+        "kriterier": [
+          "Forklarer at skatter finansierer offentlige velferdstjenester.",
+          "Forklarer at skattenivået også kan oppfattes som en belastning eller kritiseres."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Folketrygden gir blant annet pensjoner og andre ytelser, mens skoler og sykehus er offentlige tjenester. Forklar forskjellen mellom en trygdeytelse og en offentlig tjeneste, og gi ett eksempel på hver.",
+        "fasit": "En trygdeytelse er økonomisk støtte, for eksempel alderspensjon. En offentlig tjeneste er et tilbud det offentlige driver, for eksempel skole eller sykehus.",
+        "kriterier": [
+          "Forklarer at en trygdeytelse er økonomisk støtte, og gir et relevant eksempel.",
+          "Forklarer at en offentlig tjeneste er et tilbud det offentlige driver, og gir et relevant eksempel."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

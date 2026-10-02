@@ -1,0 +1,439 @@
+{
+  "id": "straling",
+  "fagId": "naturfag-pabygg",
+  "trinnId": "pabygg",
+  "name": "Elektromagnetisk og ioniserende stråling",
+  "intro": "Det elektromagnetiske spekteret, forskjellen på ioniserende og ikke-ioniserende stråling, radioaktivitet med alfa-, beta- og gammastråling, halveringstid, stråledoser og helseeffekter – og hvordan du vurderer informasjon om stråling.",
+  "kompetansemaal": [
+    4
+  ],
+  "sammendrag": "## Det elektromagnetiske spekteret\n\n**Elektromagnetisk stråling** er bølger av elektriske og magnetiske felt som går med lysfarten. Sortert fra **lang bølgelengde og lav energi** til **kort bølgelengde og høy energi**:\n\n**radiobølger → mikrobølger → infrarød stråling → synlig lys → UV-stråling → røntgenstråling → gammastråling**\n\nSynlig lys har bølgelengder fra omtrent 400 til 700 nanometer. Jo **kortere** bølgelengde, desto **mer energi** har strålingen.\n\n## Ioniserende og ikke-ioniserende stråling\n\n**Ioniserende stråling** har så mye energi at den kan rive løs elektroner fra atomer og molekyler. Den kan skade **DNA** i cellene og øke risikoen for **kreft**. Eksempler er **røntgenstråling**, **gammastråling** og **partikkelstråling** fra radioaktive stoffer.\n\n**Ikke-ioniserende stråling** har for lite energi til dette. Radiobølger, mikrobølger, infrarød stråling og synlig lys er ikke-ioniserende. **UV-stråling** regnes også som ikke-ioniserende, men har likevel nok energi til å skade DNA i hudcellene – derfor gir for mye sol økt risiko for **hudkreft**.\n\n## Radioaktivitet\n\nNoen atomkjerner er **ustabile** og sender ut stråling når de omdannes. Dette kalles **radioaktivitet**.\n\n| Type | Hva det er | Stoppes av |\n| --- | --- | --- |\n| **Alfa** (α) | heliumkjerne (2 protoner og 2 nøytroner) | et papirark eller huden |\n| **Beta** (β) | elektron | noen millimeter aluminium |\n| **Gamma** (γ) | elektromagnetisk stråling | tykt bly eller betong (svekkes) |\n\nAlfastråling er likevel **svært farlig** hvis stoffet kommer **inn i kroppen**, for eksempel ved innånding.\n\n## Halveringstid\n\n**Halveringstiden** er tiden det tar før **halvparten** av de radioaktive kjernene er omdannet. Den varierer enormt: **jod-131** har omtrent 8 dager, **karbon-14** omtrent 5730 år. Karbon-14 brukes til å **datere** gamle organiske materialer.\n\n## Enheter\n\n- **Becquerel (Bq)**: aktivitet – antall omdannelser per sekund.\n- **Sievert (Sv)**: stråledose – mål for den biologiske virkningen. Ofte bruker vi millisievert (mSv).\n\n## Stråling i hverdagen\n\nVi utsettes hele tiden for **bakgrunnsstråling** fra verdensrommet, bakken, maten og **radon** – en radioaktiv gass som kommer fra berggrunnen og kan samle seg i hus. Radon i inneluft er den største kilden til stråledose i Norge – omtrent halvparten av dosen vi får i gjennomsnitt – og er en viktig årsak til lungekreft etter røyking. I **medisin** brukes stråling til røntgenbilder, CT og kreftbehandling. Fordelene veies opp mot risikoen.\n\n## Vurdere informasjon om stråling\n\nDet sprer seg mye usikker informasjon om for eksempel **mobilstråling** og **5G**. Mobiltelefoner bruker **radiobølger**, som er ikke-ioniserende, og myndighetene setter **grenseverdier** for eksponering. Når du vurderer påstander, spør: Hvem står bak? Hvilken type stråling gjelder det? Hva sier **forskningen samlet**, og hva sier fagmyndigheten **DSA** (Direktoratet for strålevern og atomsikkerhet)?",
+  "flashcards": [
+    {
+      "term": "Elektromagnetisk stråling",
+      "def": "Bølger av elektriske og magnetiske felt som går med lysfarten."
+    },
+    {
+      "term": "Det elektromagnetiske spekteret",
+      "def": "Radio, mikrobølger, infrarødt, synlig lys, UV, røntgen, gamma."
+    },
+    {
+      "term": "Kort bølgelengde",
+      "def": "Gir høy energi."
+    },
+    {
+      "term": "Ioniserende stråling",
+      "def": "Stråling som kan rive løs elektroner og skade DNA."
+    },
+    {
+      "term": "Ikke-ioniserende stråling",
+      "def": "Stråling med for lite energi til å ionisere, som radiobølger."
+    },
+    {
+      "term": "UV-stråling",
+      "def": "Kan skade DNA i hudcellene og gi hudkreft."
+    },
+    {
+      "term": "Radioaktivitet",
+      "def": "Ustabile atomkjerner som sender ut stråling."
+    },
+    {
+      "term": "Alfastråling",
+      "def": "Heliumkjerner som stoppes av papir, men er farlige inne i kroppen."
+    },
+    {
+      "term": "Betastråling",
+      "def": "Elektroner som stoppes av noen millimeter aluminium."
+    },
+    {
+      "term": "Gammastråling",
+      "def": "Energirik elektromagnetisk stråling som svekkes av bly eller betong."
+    },
+    {
+      "term": "Halveringstid",
+      "def": "Tiden før halvparten av de radioaktive kjernene er omdannet."
+    },
+    {
+      "term": "Karbon-14",
+      "def": "Brukes til datering, halveringstid omtrent 5730 år.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Becquerel (Bq)",
+      "def": "Antall radioaktive omdannelser per sekund."
+    },
+    {
+      "term": "Sievert (Sv)",
+      "def": "Enhet for stråledose og biologisk virkning."
+    },
+    {
+      "term": "Radon",
+      "def": "Radioaktiv gass fra berggrunnen som kan samle seg i hus."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvilken stråling har høyest energi?",
+      "options": [
+        "Røntgenstråling",
+        "Ultrafiolett stråling",
+        "Gammastråling",
+        "Synlig lys"
+      ],
+      "correct": 2,
+      "explain": "Gammastråling har kortest bølgelengde og høyest energi."
+    },
+    {
+      "id": "q02",
+      "text": "Hva kjennetegner ioniserende stråling?",
+      "options": [
+        "Den kan rive løs elektroner og skade DNA",
+        "Den kan skade celler, men ikke rive løs elektroner",
+        "Den kan rive løs elektroner, men ikke skade celler",
+        "Den kan varme opp vev, men ikke rive løs elektroner"
+      ],
+      "correct": 0,
+      "explain": "Derfor kan den øke risikoen for kreft."
+    },
+    {
+      "id": "q03",
+      "text": "Hva stopper alfastråling?",
+      "options": [
+        "Et papirark stopper gammastråling",
+        "Et papirark stopper røntgenstråling",
+        "Et papirark stopper høyenergetisk betastråling",
+        "Et papirark stopper alfastråling"
+      ],
+      "correct": 3,
+      "explain": "Men alfastrålende stoffer er farlige hvis de kommer inn i kroppen."
+    },
+    {
+      "id": "q04",
+      "text": "Hva er betastråling?",
+      "options": [
+        "Protoner",
+        "Elektroner",
+        "Nøytroner",
+        "Heliumkjerner"
+      ],
+      "correct": 1,
+      "explain": "Betastråling stoppes av noen millimeter aluminium."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er halveringstid?",
+      "options": [
+        "Tiden før halvparten av de radioaktive kjernene er omdannet",
+        "Tiden før alle de radioaktive kjernene er omdannet",
+        "Tiden før strålingen fra stoffet er helt borte",
+        "Tiden det tar for én radioaktiv kjerne å bli omdannet"
+      ],
+      "correct": 0,
+      "explain": "Halveringstiden er fast for hvert stoff."
+    },
+    {
+      "id": "q06",
+      "text": "Hvilken type stråling bruker mobiltelefoner?",
+      "options": [
+        "Gammastråling",
+        "Røntgenstråling",
+        "Alfastråling",
+        "Radiobølger"
+      ],
+      "correct": 3,
+      "explain": "Radiobølger er ikke-ioniserende."
+    },
+    {
+      "id": "q07",
+      "text": "Hva måler enheten sievert?",
+      "options": [
+        "Radioaktive omdannelser per sekund",
+        "Strålingens energi og bølgelengde",
+        "Stråledose og biologisk virkning",
+        "Temperatur i bestrålt vev"
+      ],
+      "correct": 2,
+      "explain": "Becquerel måler aktivitet."
+    },
+    {
+      "id": "q08",
+      "text": "Hva er radon?",
+      "options": [
+        "En radioaktiv væske fra berggrunnen",
+        "En radioaktiv gass fra berggrunnen",
+        "Et radioaktivt mineral fra berggrunnen",
+        "En ikke-radioaktiv gass fra berggrunnen"
+      ],
+      "correct": 1,
+      "explain": "Radon kan samle seg i hus og øker risikoen for lungekreft."
+    },
+    {
+      "id": "q09",
+      "text": "Hvorfor kan for mye sol gi hudkreft?",
+      "options": [
+        "UV-stråling kan skade DNA i hudcellene",
+        "UV-stråling kan skade DNA ved å varme opp hudcellene",
+        "UV-stråling kan skade DNA ved å gjøre cellene radioaktive",
+        "Synlig lys kan skade DNA ved å ionisere hudcellene"
+      ],
+      "correct": 0,
+      "explain": "Bruk solkrem og unngå solbrenthet."
+    },
+    {
+      "id": "q10",
+      "text": "Hvilken kilde er best for pålitelig informasjon om strålevern i Norge?",
+      "options": [
+        "En anonym blogg om stråling",
+        "En nettbutikk som selger strålevern",
+        "DSA, Norges fagmyndighet for strålevern",
+        "Et innlegg fra en ukjent bruker"
+      ],
+      "correct": 2,
+      "explain": "DSA er fagmyndigheten på området.",
+      "niva": "eksempel"
+    }
+  ],
+  "mindmap": {
+    "label": "Stråling",
+    "children": [
+      {
+        "label": "Spekteret",
+        "children": [
+          {
+            "label": "Radio og mikrobølger"
+          },
+          {
+            "label": "Infrarødt og synlig lys"
+          },
+          {
+            "label": "UV, røntgen, gamma"
+          }
+        ]
+      },
+      {
+        "label": "Ioniserende?",
+        "children": [
+          {
+            "label": "Ioniserende: skader DNA"
+          },
+          {
+            "label": "Ikke-ioniserende"
+          },
+          {
+            "label": "UV og hudkreft"
+          }
+        ]
+      },
+      {
+        "label": "Radioaktivitet",
+        "children": [
+          {
+            "label": "Alfa"
+          },
+          {
+            "label": "Beta"
+          },
+          {
+            "label": "Gamma"
+          },
+          {
+            "label": "Halveringstid"
+          }
+        ]
+      },
+      {
+        "label": "Måling",
+        "children": [
+          {
+            "label": "Becquerel"
+          },
+          {
+            "label": "Sievert"
+          }
+        ]
+      },
+      {
+        "label": "Hverdag og helse",
+        "children": [
+          {
+            "label": "Radon"
+          },
+          {
+            "label": "Medisin"
+          },
+          {
+            "label": "Mobilstråling"
+          },
+          {
+            "label": "Kildekritikk"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Røntgenstråling er ioniserende.",
+        "correct": true,
+        "explain": "Derfor begrenses antall røntgenbilder."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Radiobølger har kortere bølgelengde enn gammastråling.",
+        "correct": false,
+        "explain": "Radiobølger har den lengste bølgelengden i spekteret."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Karbon-14 kan brukes til å datere gamle organiske materialer.",
+        "correct": true,
+        "explain": "Halveringstiden er omtrent 5730 år.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Alle radioaktive stoffer har samme halveringstid.",
+        "correct": false,
+        "explain": "Halveringstiden varierer fra brøkdeler av sekunder til milliarder av år."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva måler enheten becquerel?",
+        "options": [
+          "Stråledose mottatt per kilogram vev",
+          "Antall radioaktive omdannelser per sekund",
+          "Bølgelengde på stråling målt i meter",
+          "Energi fra stråling målt i joule"
+        ],
+        "correct": 1,
+        "explain": "Sievert måler stråledose."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Et stoff har halveringstid 8 dager. Hvor mye av 80 g er igjen etter 16 dager?",
+        "options": [
+          "40 g",
+          "10 g",
+          "20 g",
+          "0 g"
+        ],
+        "correct": 2,
+        "explain": "To halveringstider: 80 → 40 → 20 g."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken rekkefølge går fra lav til høy energi?",
+        "options": [
+          "Radio, synlig lys, røntgen",
+          "Radio, røntgen, synlig lys",
+          "Synlig lys, radio, røntgen",
+          "Røntgen, radio, synlig lys"
+        ],
+        "correct": 0,
+        "explain": "Energien øker når bølgelengden blir kortere."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Sammenlign radiobølger og gammastråling når det gjelder bølgelengde og energi. Forklar sammenhengen mellom bølgelengde og energi.",
+        "fasit": "Radiobølger har lengre bølgelengde og lavere energi enn gammastråling. Jo kortere bølgelengde, desto høyere energi.",
+        "kriterier": [
+          "Sier at radiobølger har lengre bølgelengde enn gammastråling.",
+          "Sier at kortere bølgelengde betyr høyere energi."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Sammenlign alfa-, beta- og gammastråling ut fra hva slags stråling de er, og hva som kan skjerme mot dem.",
+        "fasit": "Alfastråling består av heliumkjerner og stoppes av papir eller hud, mens betastråling består av elektroner og stoppes av noen millimeter aluminium. Gammastråling er elektromagnetisk stråling og svekkes av tykt bly eller betong.",
+        "kriterier": [
+          "Skiller mellom alfa- og betastråling ved å beskrive hva de består av.",
+          "Beskriver skjerming for minst to av strålingstypene, inkludert at gamma svekkes av bly eller betong."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Hva er forskjellen på becquerel og sievert når vi beskriver stråling?",
+        "fasit": "Becquerel måler aktiviteten, altså antall radioaktive omdannelser per sekund. Sievert måler stråledosen og den biologiske virkningen på kroppen.",
+        "kriterier": [
+          "Forklarer at becquerel handler om antall omdannelser per sekund.",
+          "Forklarer at sievert handler om stråledose eller biologisk virkning."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En atomkjerne er ustabil. Forklar hva som skjer med den ved radioaktivitet.",
+        "fasit": "En ustabil atomkjerne sender ut stråling når den omdannes. Dette kalles radioaktivitet.",
+        "kriterier": [
+          "Sier at ustabile atomkjerner sender ut stråling.",
+          "Knytter utsendingen av stråling til at kjernen omdannes."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Radon kan komme fra berggrunnen og samle seg i hus. Forklar hvorfor radon i inneluft er et helseproblem.",
+        "fasit": "Radon er en radioaktiv gass som kan gi stråledose når den finnes i inneluft. Den er en viktig årsak til lungekreft etter røyking og står for omtrent halvparten av den gjennomsnittlige stråledosen i Norge.",
+        "kriterier": [
+          "Knytter radon i inneluft til stråledose eller eksponering.",
+          "Nevner sammenhengen med økt risiko for lungekreft."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Gi ett eksempel på bruk av stråling i medisin, og forklar hvorfor fordelene ved slik bruk må veies mot risikoen.",
+        "fasit": "Røntgenstråling kan brukes til å lage røntgenbilder, og stråling kan også brukes i kreftbehandling. Stråling kan skade celler, så nytten ved undersøkelsen eller behandlingen må veies mot risikoen.",
+        "kriterier": [
+          "Gir et eksempel fra medisinsk bruk, som røntgen, CT eller kreftbehandling.",
+          "Forklarer at nytten må vurderes opp mot risikoen ved stråling."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s07",
+        "text": "Karbon-14 har en halveringstid på omtrent 5730 år. Et materiale har gjennomgått 11 460 år. Hvor stor andel av de opprinnelige karbon-14-kjernene er igjen? Vis det viktigste regnestykket.",
+        "fasit": "11 460 år er to halveringstider, siden 11 460 ÷ 5730 = 2. Etter første halvering er halvparten igjen, og etter den andre er en fjerdedel igjen.",
+        "kriterier": [
+          "Viser at 11 460 år tilsvarer to halveringstider.",
+          "Svarar at en fjerdedel, eller 25 prosent, av kjernene er igjen."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "En radioaktiv kilde har en aktivitet på 3 Bq. Hvis aktiviteten er konstant, hvor mange radioaktive omdannelser skjer på 4 sekunder? Vis det viktigste regnestykket.",
+        "fasit": "3 Bq betyr 3 omdannelser per sekund. På 4 sekunder skjer 3 × 4 = 12 omdannelser.",
+        "kriterier": [
+          "Bruker at 3 Bq tilsvarer 3 omdannelser per sekund.",
+          "Regner ut at det skjer 12 omdannelser på 4 sekunder."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

@@ -106,7 +106,7 @@ function Markedsside() {
               til lampa, så teksten aldri går lenger opp enn 46 % av skjermen. */}
           <div className="relative z-10 max-w-7xl mx-auto min-h-[max(100svh,640px)] px-5 sm:px-8 pt-[max(46svh,300px)] lg:pt-0 flex flex-col justify-end pb-12 sm:pb-16 lg:pb-20">
             <div data-fokus-unnta className="max-w-[48rem] flex flex-col gap-5 sm:gap-6">
-              <p className="text-sm font-medium text-background/65">For 8.&nbsp;trinn til Vg3 · etter LK20</p>
+              <p className="text-sm font-medium text-background/65">For 8.&nbsp;trinn til Vg3 og påbygg · etter LK20</p>
               <h1
                 id="hero-tittel"
                 className="font-semibold text-[46px] leading-[0.96] sm:text-7xl lg:text-[96px] tracking-[-0.035em]"
@@ -173,10 +173,10 @@ function Markedsside() {
             <div className="max-w-7xl mx-auto px-5 sm:px-8 py-24 lg:py-32">
               <div className="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-x-16 gap-y-6 items-end">
                 <Ordtittel id="fag-tittel" className={tittel}>
-                  {`${TELLING.fag} fag, fra 8. trinn til Vg3.`}
+                  {`${TELLING.fag} fag, fra 8. trinn til Vg3 og påbygg.`}
                 </Ordtittel>
                 <p className="text-lg leading-relaxed text-ink-soft max-w-[42ch]">
-                  Fellesfag og studieforberedende programfag. Mangler faget ditt?{" "}
+                  Fellesfag og studieforberedende programfag, og fellesfagene på påbygg. Mangler faget ditt?{" "}
                   <Link
                     href="/forslag"
                     className="font-semibold text-foreground underline decoration-border-strong decoration-2 underline-offset-4 hover:decoration-foreground"

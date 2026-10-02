@@ -1,0 +1,435 @@
+{
+  "id": "retorisk-situasjon",
+  "fagId": "norsk-pabygg",
+  "trinnId": "pabygg",
+  "name": "Den retoriske situasjonen og sakprosa",
+  "intro": "Hvordan du reflekterer over sakprosatekster ved å gjøre rede for den retoriske situasjonen de er blitt til i – det påtrengende problemet, publikum og begrensningene – og begreper som kairos og decorum.",
+  "kompetansemaal": [
+    4
+  ],
+  "sammendrag": "## Tekster oppstår i situasjoner\n\nEn sakprosatekst – en tale, en kronikk, et leserinnlegg eller en kampanje – blir til **fordi noe har skjedd**. Retorikeren **Lloyd Bitzer** beskrev i 1968 hva han kalte **den retoriske situasjonen**. Den består av tre elementer:\n\n1. **Det påtrengende problemet** (*exigence*) – en utfordring eller et behov som kan endres gjennom ord. En ulykke, et lovforslag, en urettferdighet eller en krise.\n2. **Publikum** – de som kan **påvirkes** og som har **mulighet til å gjøre noe** med problemet. Det retoriske publikummet er altså ikke nødvendigvis alle som leser, men de som kan handle.\n3. **Begrensningene** (*constraints*) – forhold som påvirker hva taleren kan si og gjøre: talerens rolle og troverdighet, publikums holdninger, tid, sjanger, medium, lover og normer.\n\nEn god tekst er et **passende svar** på situasjonen.\n\n## Kairos og decorum\n\n- **Kairos** – det **rette øyeblikket**. En tale får gjennomslag når den kommer til riktig tid.\n- **Decorum** – det **passende**. Språk, tone og innhold må passe til situasjonen, publikum og sjangeren. En minnetale krever en annen tone enn en valgkamptale.\n\n## Eksempel: taler etter en krise\n\nNår en statsminister holder tale etter en **nasjonal tragedie**, er det påtrengende problemet **sorg**, **frykt** og behov for **samhold**. Publikum er hele befolkningen. Begrensningene er blant annet rollen som landets leder og kravet om **verdighet**. Talen må **trøste**, **samle** og vise **retning** – og vil ofte bruke **patos**, inkluderende **«vi»** og **verdiord** som *demokrati*, *åpenhet* og *fellesskap*.\n\n## Eksempel: et leserinnlegg\n\nEn elev skriver et leserinnlegg i lokalavisa om at skolebussen skal legges ned. Det påtrengende problemet er **nedleggelsen**. Publikum er **politikerne** som kan endre vedtaket – og innbyggerne som kan presse dem. Begrensningene er blant annet elevens alder, plassen i avisa og at argumentene må være **saklige**.\n\n## Å gjøre rede for den retoriske situasjonen\n\nNår du analyserer en sakprosatekst, kan du spørre:\n\n- **Hva har skjedd**? Hvorfor ble teksten skrevet **akkurat da**?\n- **Hvem** skriver, og hvilken **rolle** og **troverdighet** har avsenderen?\n- Hvem er det **retoriske publikummet** – hvem kan handle?\n- Hvilke **begrensninger** og muligheter påvirker teksten?\n- Er teksten et **passende svar** på situasjonen? Hvorfor – eller hvorfor ikke?\n\n## Historiske og nyere tekster\n\nDen retoriske situasjonen gjør det mulig å forstå **eldre** sakprosa, som Wergelands skrifter mot **jødeparagrafen**, og **nyere** tekster, som klimaaktivisters taler eller debattinnlegg om skjermbruk. Å kjenne **konteksten** er avgjørende for å vurdere både **innhold** og **effekt**.",
+  "flashcards": [
+    {
+      "term": "Den retoriske situasjonen",
+      "def": "Situasjonen en tekst oppstår i: problem, publikum og begrensninger."
+    },
+    {
+      "term": "Lloyd Bitzer",
+      "def": "Retoriker som beskrev den retoriske situasjonen i 1968.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Det påtrengende problemet",
+      "def": "En utfordring som kan endres gjennom ord (exigence)."
+    },
+    {
+      "term": "Det retoriske publikummet",
+      "def": "De som kan påvirkes og har mulighet til å handle."
+    },
+    {
+      "term": "Begrensninger",
+      "def": "Forhold som påvirker hva taleren kan si og gjøre (constraints)."
+    },
+    {
+      "term": "Passende svar",
+      "def": "En tekst som svarer godt på situasjonen."
+    },
+    {
+      "term": "Kairos",
+      "def": "Det rette øyeblikket."
+    },
+    {
+      "term": "Decorum",
+      "def": "Det passende – språk og tone tilpasset situasjonen."
+    },
+    {
+      "term": "Minnetale",
+      "def": "Tale til minne om noen, som krever verdig tone.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Inkluderende «vi»",
+      "def": "Skaper fellesskap mellom taler og publikum."
+    },
+    {
+      "term": "Verdiord",
+      "def": "Ord som demokrati og fellesskap med sterke positive assosiasjoner."
+    },
+    {
+      "term": "Talerens rolle",
+      "def": "Avsenderens posisjon, som påvirker troverdighet og muligheter."
+    },
+    {
+      "term": "Kontekst",
+      "def": "Tiden, stedet og situasjonen en tekst blir til i."
+    },
+    {
+      "term": "Leserinnlegg",
+      "def": "Kort meningstekst fra en leser i en avis.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Effekt",
+      "def": "Hvordan teksten virker på publikum."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvem beskrev den retoriske situasjonen?",
+      "options": [
+        "Aristoteles",
+        "Lloyd Bitzer",
+        "Kenneth Burke",
+        "Wayne Booth"
+      ],
+      "correct": 1,
+      "explain": "Artikkelen kom i 1968.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q02",
+      "text": "Hva er det påtrengende problemet i en retorisk situasjon?",
+      "options": [
+        "En utfordring som kan endres gjennom ord",
+        "Et språklig problem som står i selve teksten",
+        "En utfordring som skyldes talerens usikkerhet",
+        "En feil i teksten som må rettes før publisering"
+      ],
+      "correct": 0,
+      "explain": "Det er grunnen til at teksten blir til."
+    },
+    {
+      "id": "q03",
+      "text": "Hvem er det retoriske publikummet?",
+      "options": [
+        "De som leser teksten, men ikke kan påvirke saken",
+        "De som skrev innlegget og valgte argumentene",
+        "De som kan påvirkes og har mulighet til å handle",
+        "De som omtales i saken, uten mulighet til å handle"
+      ],
+      "correct": 2,
+      "explain": "Publikum må kunne gjøre noe med problemet."
+    },
+    {
+      "id": "q04",
+      "text": "Hva betyr decorum?",
+      "options": [
+        "Det som virker troverdig for publikum",
+        "Det som vekker følelser hos publikum",
+        "Det rette tidspunktet for å tale",
+        "Det som passer til situasjonen"
+      ],
+      "correct": 3,
+      "explain": "Språk og tone må passe til situasjonen."
+    },
+    {
+      "id": "q05",
+      "text": "Hva er et eksempel på en begrensning i en retorisk situasjon?",
+      "options": [
+        "Talerens rolle og publikums holdninger",
+        "Tekstens skrifttype og sidens marger",
+        "Talerens klær og rommets temperatur",
+        "Tekstens avsnitt og overskriftenes utforming"
+      ],
+      "correct": 0,
+      "explain": "Begrensninger påvirker hva som kan sies."
+    },
+    {
+      "id": "q06",
+      "text": "Hva betyr det at en tekst er et «passende svar»?",
+      "options": [
+        "At teksten følger sjangerens vanlige oppbygning",
+        "At teksten svarer godt på situasjonen",
+        "At teksten unngår sterke følelsesuttrykk",
+        "At teksten presenterer flere argumenter for saken"
+      ],
+      "correct": 1,
+      "explain": "Innhold, tone og tid må passe."
+    },
+    {
+      "id": "q07",
+      "text": "Hva er kairos?",
+      "options": [
+        "Det passende svaret",
+        "Talerens troverdighet",
+        "Det rette øyeblikket",
+        "Publikums følelser"
+      ],
+      "correct": 2,
+      "explain": "Timing er avgjørende for gjennomslag."
+    },
+    {
+      "id": "q08",
+      "text": "En statsminister holder tale etter en nasjonal tragedie. Hva er et typisk mål med talen?",
+      "options": [
+        "Å informere om praktiske hjelpetiltak",
+        "Å forklare hendelsesforløpet for publikum",
+        "Å presentere regjeringens politiske prioriteringer",
+        "Å trøste, samle og vise retning"
+      ],
+      "correct": 3,
+      "explain": "Situasjonen krever verdighet og samhold."
+    },
+    {
+      "id": "q09",
+      "text": "Hvilket spørsmål er nyttig når du gjør rede for den retoriske situasjonen?",
+      "options": [
+        "Hvorfor ble teksten skrevet akkurat da?",
+        "Hvilke ordklasser forekommer oftest i teksten?",
+        "Hvordan er tekstens avsnitt og overskrifter satt opp?",
+        "Hvilke virkemidler skaper rytme og klang?"
+      ],
+      "correct": 0,
+      "explain": "Konteksten forklarer mye av teksten."
+    },
+    {
+      "id": "q10",
+      "text": "En elev skriver et leserinnlegg mot nedleggelse av skolebussen. Hvem er det retoriske publikummet?",
+      "options": [
+        "Bussjåføren på ruta og korrekturleseren i avisa, uten innflytelse på vedtaket",
+        "Politikerne som kan endre vedtaket, og innbyggere som kan påvirke dem",
+        "Elevens venner og familiemedlemmer, uten mulighet til å påvirke beslutningen",
+        "Avisens lesere og ansatte, uten innflytelse på kommunens vedtak"
+      ],
+      "correct": 1,
+      "explain": "Publikum må kunne handle."
+    }
+  ],
+  "mindmap": {
+    "label": "Den retoriske situasjonen",
+    "children": [
+      {
+        "label": "Bitzer",
+        "children": [
+          {
+            "label": "Påtrengende problem"
+          },
+          {
+            "label": "Publikum"
+          },
+          {
+            "label": "Begrensninger"
+          }
+        ]
+      },
+      {
+        "label": "Begreper",
+        "children": [
+          {
+            "label": "Kairos"
+          },
+          {
+            "label": "Decorum"
+          },
+          {
+            "label": "Passende svar"
+          }
+        ]
+      },
+      {
+        "label": "Eksempler",
+        "children": [
+          {
+            "label": "Tale etter krise"
+          },
+          {
+            "label": "Leserinnlegg"
+          }
+        ]
+      },
+      {
+        "label": "Analysespørsmål",
+        "children": [
+          {
+            "label": "Hva har skjedd?"
+          },
+          {
+            "label": "Hvem skriver?"
+          },
+          {
+            "label": "Hvem kan handle?"
+          }
+        ]
+      },
+      {
+        "label": "Kontekst",
+        "children": [
+          {
+            "label": "Eldre sakprosa"
+          },
+          {
+            "label": "Nyere sakprosa"
+          },
+          {
+            "label": "Effekt"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "En minnetale krever en annen tone enn en valgkamptale.",
+        "correct": true,
+        "explain": "Det handler om decorum."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Det retoriske publikummet er alltid alle som leser teksten.",
+        "correct": false,
+        "explain": "Det er de som kan påvirkes og handle."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Den retoriske situasjonen kan brukes til å analysere både eldre og nyere tekster.",
+        "correct": true,
+        "explain": "Den hjelper oss å forstå konteksten."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Begrensninger i den retoriske situasjonen gjelder bare hvor lang teksten kan være.",
+        "correct": false,
+        "explain": "De gjelder også rolle, publikums holdninger, sjanger og normer."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hva er et verdiord?",
+        "options": [
+          "Et ord med sterke positive assosiasjoner, som fellesskap",
+          "Et ord om pengebeløp, som prisnivå",
+          "Et fagord fra grammatikken, som leddsetning",
+          "Et fremmedord uten norsk opprinnelse, som déjà vu"
+        ],
+        "correct": 0,
+        "explain": "Verdiord brukes mye i taler."
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken engelsk betegnelse brukte Bitzer om det påtrengende problemet?",
+        "options": [
+          "Audience",
+          "Constraints",
+          "Exigence",
+          "Kairos"
+        ],
+        "correct": 2,
+        "explain": "Exigence betyr noe som krever handling.",
+        "niva": "over-niva"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvorfor bruker taler etter kriser ofte et inkluderende «vi»?",
+        "options": [
+          "For å skape samhold",
+          "For å skape avstand fra publikum",
+          "For å understreke individuelle forskjeller",
+          "For å framheve talerens personlige erfaring"
+        ],
+        "correct": 0,
+        "explain": "Det skaper fellesskap mellom taler og publikum."
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Et kommunestyre skal snart stemme over et forslag, og en taler vil påvirke avgjørelsen. Hvorfor har talen bedre kairos før avstemningen enn etterpå?",
+        "fasit": "Før avstemningen er det fortsatt mulig å påvirke avgjørelsen, så talen kommer på et tidspunkt der den kan få betydning. Etterpå kan muligheten til å endre vedtaket være mindre.",
+        "kriterier": [
+          "Forklarer at tidspunktet før avstemningen gir mulighet til å påvirke saken.",
+          "Knytter kairos til at teksten kommer på et rett tidspunkt for å virke."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "En minnetale skal holdes til minne om en person. Forklar hvordan decorum påvirker tonen i talen, og hvorfor tonen bør være slik.",
+        "fasit": "Decorum betyr at språk og tone skal passe til situasjonen. En minnetale bør ha en verdig tone fordi den holdes til minne om noen.",
+        "kriterier": [
+          "Forklarer at språk eller tone må tilpasses situasjonen.",
+          "Begrunner at en minnetale krever en verdig tone."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "I en tale etter en nasjonal tragedie bruker taleren inkluderende «vi». Forklar hvordan dette kan virke på publikum.",
+        "fasit": "Et inkluderende «vi» får taleren og publikum til å framstå som del av et fellesskap. Det kan bidra til å samle publikum i en vanskelig situasjon.",
+        "kriterier": [
+          "Forklarer at «vi» inkluderer både taleren og publikum.",
+          "Knytter virkemåten til å skape fellesskap eller samhold."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En tekst blir lest av mange, men bare kommunestyret kan endre saken teksten handler om, mens innbyggerne kan presse politikerne. Hvem regnes som det retoriske publikummet, og hvorfor er ikke alle leserne automatisk en del av det?",
+        "fasit": "Kommunestyret og innbyggerne regnes som det retoriske publikummet fordi de kan påvirke saken eller handle for å endre den. Andre lesere er ikke automatisk del av publikummet dersom de ikke kan påvirke eller handle.",
+        "kriterier": [
+          "Peker ut dem som kan påvirke saken eller handle som det retoriske publikummet.",
+          "Skiller mellom dette publikummet og personer som bare leser teksten."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Etter en nasjonal tragedie holder statsministeren en tale. Forklar hvordan statsministerens rolle kan begrense hva taleren bør si og gjøre.",
+        "fasit": "Som landets leder forventes statsministeren å opptre med verdighet. Rollen påvirker derfor hvilke ord og handlinger som passer i talen, og har betydning for talerens troverdighet.",
+        "kriterier": [
+          "Knytter rollen som landets leder til forventninger om hvordan taleren bør opptre.",
+          "Forklarer at rollen påvirker hva taleren kan si eller gjøre, eller talerens troverdighet."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Etter en nasjonal tragedie er sorg og behov for samhold et påtrengende problem. I samme situasjon må landets leder opptre verdig. Forklar forskjellen på problemet og begrensningen i dette eksempelet.",
+        "fasit": "Sorg og behov for samhold er problemet teksten skal svare på. Kravet om at lederen skal opptre verdig, er en begrensning som påvirker hvordan talen kan utformes.",
+        "kriterier": [
+          "Skiller mellom situasjonen teksten skal forsøke å påvirke, og forhold som påvirker utformingen av teksten.",
+          "Plasserer sorg eller behov for samhold som problemet og verdighetskravet som en begrensning."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Wergeland skrev mot jødeparagrafen. Forklar hvorfor kunnskap om konteksten er viktig når vi vurderer innholdet og effekten av slike eldre skrifter.",
+        "fasit": "Konteksten viser hvilken tid og situasjon skriftene ble til i. Uten den kan det være vanskeligere å forstå hvorfor de ble skrevet og hvilken effekt de kunne ha.",
+        "kriterier": [
+          "Knytter kontekst til tiden eller situasjonen teksten ble til i.",
+          "Forklarer hvordan konteksten hjelper oss å vurdere innhold eller effekt."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s08",
+        "text": "I en tale etter en nasjonal tragedie bruker taleren ordet «fellesskap». Forklar hvorfor dette er et verdiord, og hvordan det kan virke på publikum.",
+        "fasit": "«Fellesskap» er et verdiord fordi det har sterke positive assosiasjoner. Ordet kan understreke verdier publikum kan samles om og bidra til å skape samhold.",
+        "kriterier": [
+          "Forklarer at verdiord har sterke positive assosiasjoner.",
+          "Knytter ordet til en mulig virkning, som å samle publikum om felles verdier."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

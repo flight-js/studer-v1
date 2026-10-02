@@ -1,0 +1,442 @@
+{
+  "id": "nasjonal-identitet",
+  "fagId": "historie-pabygg",
+  "trinnId": "pabygg",
+  "name": "Historiebruk og nasjonal identitet i Norge",
+  "intro": "Hvordan framstillinger av fortiden har blitt brukt til å skape nasjonal identitet i Norge – fra nasjonalromantikken og 17. mai til bildet av okkupasjonstiden og oljenasjonen – og hvilke virkninger nasjonsbyggingen har hatt for samer, kvener, skogfinner, romanifolket og jøder.",
+  "kompetansemaal": [
+    19
+  ],
+  "sammendrag": "## Nasjonsbygging\n\nEn **nasjon** er et **fellesskap** av mennesker som opplever at de hører sammen gjennom **historie**, **språk**, **kultur** og ofte et **territorium**. Nasjoner blir ikke bare født – de **bygges**. Historikeren **Benedict Anderson** kalte dem «**forestilte fellesskap**».\n\n## Nasjonalromantikken\n\nEtter **1814** hadde Norge fått egen grunnlov, men manglet en tydelig **nasjonal identitet**. På **1800-tallet** lette kunstnere og forskere etter det «**ekte norske**»:\n\n- **Historikere** som **P.A. Munch** skrev om **sagatiden** og middelalderen som en **storhetstid**. Dansketiden ble omtalt som en mørk «**firehundreårsnatt**».\n- **Asbjørnsen og Moe** samlet **folkeeventyr**, og **Landstad** samlet folkeviser.\n- **Ivar Aasen** samlet **dialekter** og lagde **landsmålet**, dagens nynorsk.\n- Malerne **Tidemand og Gude** malte **Brudeferden i Hardanger** – et idealisert bilde av bonde og natur.\n\n**Bonden** og **naturen** ble symboler på det norske.\n\n## Symboler og ritualer\n\n**17. mai** utviklet seg til en folkefest med **barnetog**, flagg og taler. Ski, friluftsliv, **dugnad** og vikingskip ble etter hvert en del av bildet av «det norske». Slike **symboler** og **ritualer** skaper **fellesskap**.\n\n## Okkupasjonstiden\n\nEtter **1945** ble **motstandskampen** en viktig del av den nasjonale fortellingen – bildet av et samlet folk som sto imot okkupantene. Senere forskning har **nyansert** bildet og vist at de fleste **tilpasset** seg, at mange **samarbeidet**, og at norske myndigheter deltok i **deportasjonen** av jøder.\n\n## Oljenasjonen\n\nEtter oljefunnene fra **1969** har fortellingen om Norge som et **rikt**, **likestilt** og **fredelig** land blitt viktig. **Fredsnasjonen** og **velferdsstaten** er sentrale deler av selvbildet.\n\n## Hvem ble holdt utenfor?\n\nNasjonsbyggingen bygde på en idé om **ett folk**, **ett språk** og **én kultur**. Det fikk alvorlige konsekvenser for grupper som ikke passet inn:\n\n- **Samene** ble utsatt for **fornorskingspolitikk**. Samisk språk ble fortrengt i skolen, mange barn ble sendt på **internatskoler**, og en lov fra **1902** gjorde det vanskelig for folk som ikke kunne **norsk**, å kjøpe **jord** i Finnmark.\n- **Kvener** og **skogfinner** ble også utsatt for fornorsking.\n- **Romanifolket**, også kalt **tatere**, ble utsatt for **tvangsassimilering** – barn ble tatt fra foreldrene, og mange ble utsatt for **tvangssterilisering**.\n- **Jøder** var utestengt fra riket gjennom **Grunnloven** fram til **1851**, og ble senere rammet av **antisemittisme** og holocaust.\n\n**Sannhets- og forsoningskommisjonen** la i **2023** fram en rapport om fornorskingspolitikken og uretten mot samer, kvener og skogfinner.\n\n## Nasjonal identitet i dag\n\nNorge er i dag et **mangfoldig** samfunn med **urfolk**, **nasjonale minoriteter** og mange med **innvandrerbakgrunn**. Det diskuteres hva «**norsk**» betyr, og om nasjonal identitet bør bygge på **felles verdier** som demokrati og likeverd, eller på **felles historie** og kultur.\n\n## Drøfting\n\nNasjonal identitet kan skape **samhold**, **tillit** og **fellesskap**. Men når fortellingen om nasjonen blir **for snever**, kan den **utelukke** og **undertrykke** dem som ikke passer inn. Å kjenne historien bak de nasjonale symbolene gjør det lettere å se **både** samholdet og **prisen** noen har betalt.",
+  "flashcards": [
+    {
+      "term": "Nasjon",
+      "def": "Fellesskap som opplever tilhørighet gjennom historie, språk og kultur."
+    },
+    {
+      "term": "Forestilte fellesskap",
+      "def": "Benedict Andersons betegnelse på nasjoner.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Nasjonalromantikken",
+      "def": "1800-tallets søken etter det «ekte norske»."
+    },
+    {
+      "term": "P.A. Munch",
+      "def": "Historiker som framstilte sagatiden som en storhetstid.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Firehundreårsnatten",
+      "def": "Negativ betegnelse på dansketiden."
+    },
+    {
+      "term": "Asbjørnsen og Moe",
+      "def": "Samlet norske folkeeventyr.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Ivar Aasen",
+      "def": "Laget landsmålet, dagens nynorsk.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Brudeferden i Hardanger",
+      "def": "Tidemand og Gudes idealiserte maleri av bonde og natur.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Fornorskingspolitikk",
+      "def": "Politikk for å gjøre samer, kvener og skogfinner norske."
+    },
+    {
+      "term": "Internatskoler",
+      "def": "Skoler der mange samiske barn bodde borte fra familien."
+    },
+    {
+      "term": "Jordsalgsloven 1902",
+      "def": "Gjorde det vanskelig for folk som ikke kunne norsk, å kjøpe jord i Finnmark.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Romanifolket",
+      "def": "Nasjonal minoritet, også kalt tatere, utsatt for tvangsassimilering."
+    },
+    {
+      "term": "Tvangsassimilering",
+      "def": "Å tvinge en gruppe til å gi opp sin kultur."
+    },
+    {
+      "term": "Nasjonale minoriteter",
+      "def": "Kvener, skogfinner, romanifolket, rom og jøder."
+    },
+    {
+      "term": "Fredsnasjonen",
+      "def": "Del av Norges selvbilde etter 1945."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hva mente Benedict Anderson med «forestilte fellesskap»?",
+      "options": [
+        "At nasjoner bygger på felles avstamning og slektskap",
+        "At nasjoner bygger på forestillinger om felles tilhørighet",
+        "At nasjoner bygger på direkte kontakt mellom alle innbyggere",
+        "At nasjoner bygger på felles politiske grenser og lover"
+      ],
+      "correct": 1,
+      "explain": "Nasjoner bygges.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q02",
+      "text": "Hvilken periode framstilte nasjonalromantikerne som en storhetstid?",
+      "options": [
+        "Sagatiden og middelalderen",
+        "Dansketiden og eneveldet",
+        "Svenskeunionen og industrialiseringen",
+        "Reformasjonen og opplysningstiden"
+      ],
+      "correct": 0,
+      "explain": "Nasjonalromantikerne framhevet sagatiden og middelalderen som norsk storhetstid."
+    },
+    {
+      "id": "q03",
+      "text": "Hva ble symboler på det norske under nasjonalromantikken?",
+      "options": [
+        "Arbeideren og industrien",
+        "Kongen og embetsstanden",
+        "Bonden og naturen",
+        "Byborgeren og handelen"
+      ],
+      "correct": 2,
+      "explain": "For eksempel i Brudeferden i Hardanger."
+    },
+    {
+      "id": "q04",
+      "text": "Hva gjorde jordsalgsloven fra 1902?",
+      "options": [
+        "Ga samiske innbyggere fortrinnsrett ved kjøp av jord i Finnmark",
+        "Fjernet kravet om norsk språk ved kjøp av jord i Finnmark",
+        "Overførte statens jord i Finnmark til kommunalt eie",
+        "Gjorde det vanskelig for personer uten norskkunnskaper å kjøpe jord i Finnmark"
+      ],
+      "correct": 3,
+      "explain": "Et virkemiddel i fornorskingen.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q05",
+      "text": "Hvilken gruppe ble utsatt for tvangssterilisering og at barn ble tatt fra foreldrene?",
+      "options": [
+        "Romanifolket",
+        "Samene",
+        "Kvenene",
+        "Skogfinnene"
+      ],
+      "correct": 0,
+      "explain": "Også kalt tatere.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q06",
+      "text": "Hvordan har forskningen nyansert bildet av okkupasjonstiden?",
+      "options": [
+        "Den har vist at de fleste deltok aktivt i motstandsarbeidet",
+        "Den har vist at de fleste tilpasset seg, og at mange samarbeidet",
+        "Den har vist at de fleste støttet okkupasjonsmakten politisk",
+        "Den har vist at norske myndigheter beholdt kontrollen over landet"
+      ],
+      "correct": 1,
+      "explain": "Også norsk deltakelse i deportasjonen av jøder."
+    },
+    {
+      "id": "q07",
+      "text": "Hvem laget landsmålet?",
+      "options": [
+        "Knud Knudsen",
+        "P.A. Munch",
+        "Ivar Aasen",
+        "Henrik Wergeland"
+      ],
+      "correct": 2,
+      "explain": "Dagens nynorsk.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q08",
+      "text": "Hva la Sannhets- og forsoningskommisjonen fram i 2023?",
+      "options": [
+        "En rapport om fornorskingen av samer, kvener og svensker",
+        "En rapport om fornorskingen av samer, svensker og skogfinner",
+        "En rapport om fornorskingen av kvener, svensker og skogfinner",
+        "En rapport om fornorskingen av samer, kvener og skogfinner"
+      ],
+      "correct": 3,
+      "explain": "Om uretten som ble begått.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q09",
+      "text": "Hva kan være en negativ virkning av en snever nasjonal fortelling?",
+      "options": [
+        "At den utelukker og undertrykker dem som ikke passer inn",
+        "At den styrker tilhørigheten til dem som allerede passer inn",
+        "At den gir flere grupper en felles forståelse av fortiden",
+        "At den øker tilliten mellom ulike grupper i samfunnet"
+      ],
+      "correct": 0,
+      "explain": "Nasjonsbyggingen hadde en pris."
+    },
+    {
+      "id": "q10",
+      "text": "Når ble Grunnlovens forbud mot jøder opphevet?",
+      "options": [
+        "1814",
+        "1851",
+        "1905",
+        "1945"
+      ],
+      "correct": 1,
+      "explain": "Etter blant annet Wergelands kamp.",
+      "niva": "eksempel"
+    }
+  ],
+  "mindmap": {
+    "label": "Nasjonal identitet",
+    "children": [
+      {
+        "label": "Nasjonsbygging",
+        "children": [
+          {
+            "label": "Forestilte fellesskap"
+          },
+          {
+            "label": "Symboler og ritualer"
+          }
+        ]
+      },
+      {
+        "label": "Nasjonalromantikk",
+        "children": [
+          {
+            "label": "Sagatiden"
+          },
+          {
+            "label": "Eventyr og dialekter"
+          },
+          {
+            "label": "Bonde og natur"
+          }
+        ]
+      },
+      {
+        "label": "Nyere fortellinger",
+        "children": [
+          {
+            "label": "Motstandskampen"
+          },
+          {
+            "label": "Oljenasjonen"
+          },
+          {
+            "label": "Fredsnasjonen"
+          }
+        ]
+      },
+      {
+        "label": "Holdt utenfor",
+        "children": [
+          {
+            "label": "Samer, kvener, skogfinner"
+          },
+          {
+            "label": "Romanifolket"
+          },
+          {
+            "label": "Jøder"
+          }
+        ]
+      },
+      {
+        "label": "I dag",
+        "children": [
+          {
+            "label": "Mangfold"
+          },
+          {
+            "label": "Forsoning"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Mange samiske barn ble sendt på internatskoler.",
+        "correct": true,
+        "explain": "En del av fornorskingspolitikken."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Nasjonal identitet oppstår av seg selv uten at noen bygger den.",
+        "correct": false,
+        "explain": "Nasjoner bygges."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Nasjonal identitet kan skape både samhold og utenforskap.",
+        "correct": true,
+        "explain": "Derfor må den drøftes."
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Fornorskingspolitikken rammet bare samene.",
+        "correct": false,
+        "explain": "Også kvener og skogfinner."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem samlet norske folkeeventyr?",
+        "options": [
+          "Tidemand og Gude",
+          "Asbjørnsen og Moe",
+          "Ibsen og Bjørnson",
+          "Munch og Aasen"
+        ],
+        "correct": 1,
+        "explain": "På 1840-tallet.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hva ble dansketiden omtalt som?",
+        "options": [
+          "Firehundreårsnatten",
+          "Gullalderen",
+          "Storhetstiden",
+          "Frihetstiden"
+        ],
+        "correct": 0,
+        "explain": "Et negativt bilde fra nasjonalromantikken."
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hvilken debatt handler om nasjonal identitet i dag?",
+        "options": [
+          "Om norsk identitet bør vises gjennom bunadstradisjoner eller nasjonaldagens feiring",
+          "Om norsk identitet bør knyttes til bokmål eller nynorsk i skolen",
+          "Om «norsk» bør bygge på felles verdier eller felles historie og kultur",
+          "Om norsk identitet bør formes av kongehuset eller folkevalgte institusjoner"
+        ],
+        "correct": 2,
+        "explain": "Norge er et mangfoldig samfunn.",
+        "niva": "eksempel"
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Forklar hva en nasjon er, og hvorfor en nasjon kan sies å være bygd framfor bare å være født.",
+        "fasit": "En nasjon er et fellesskap der mennesker opplever tilhørighet gjennom blant annet historie, språk og kultur. Nasjoner bygges gjennom fortellinger, symboler og andre uttrykk som skaper en følelse av fellesskap.",
+        "kriterier": [
+          "Forklarer at nasjoner bygger på opplevd tilhørighet gjennom flere felles kjennetegn.",
+          "Forklarer at nasjonal tilhørighet blir skapt eller styrket, ikke bare oppstår av seg selv."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Etter 1814 hadde Norge fått egen grunnlov, men manglet en tydelig nasjonal identitet. Forklar hvorfor dette førte til at kunstnere og forskere lette etter det «ekte norske».",
+        "fasit": "Grunnloven ga Norge en egen politisk ramme, men sa ikke alene hva som skulle gjøre landet til et eget nasjonalt fellesskap. Kunstnere og forskere lette derfor etter historie, språk og kultur som kunne uttrykke det norske.",
+        "kriterier": [
+          "Knytter letingen etter det norske til behovet for en tydelig nasjonal identitet etter 1814.",
+          "Forklarer at historie, språk eller kultur kunne brukes til å uttrykke norsk tilhørighet."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sammenlign arbeidet til Asbjørnsen og Moe med arbeidet til Ivar Aasen. Hva samlet de inn, og hvordan bidro arbeidet deres til norsk kultur?",
+        "fasit": "Asbjørnsen og Moe samlet folkeeventyr, mens Ivar Aasen samlet dialekter og laget landsmålet, dagens nynorsk. Begge bidro til å løfte fram kulturuttrykk som ble knyttet til Norge.",
+        "kriterier": [
+          "Skiller riktig mellom folkeeventyrene til Asbjørnsen og Moe og dialektarbeidet til Aasen.",
+          "Forklarer hvordan arbeidet deres bidro til å løfte fram norsk kultur eller identitet."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s04",
+        "text": "Forklar hvordan barnetog, flagg og taler på 17. mai kan skape fellesskap mellom mennesker.",
+        "fasit": "Når mennesker deltar i de samme ritualene og bruker felles symboler, kan de oppleve at de hører sammen. 17. mai-feiringen gjør dette gjennom blant annet barnetog, flagg og taler.",
+        "kriterier": [
+          "Forklarer at felles ritualer eller symboler kan gi mennesker en opplevelse av tilhørighet.",
+          "Knytter forklaringen til minst ett element ved 17. mai-feiringen."
+        ]
+      },
+      {
+        "id": "s05",
+        "text": "Et museum viser Tidemand og Gudes maleri «Brudeferden i Hardanger» som et bilde på Norge. Forklar hva slags Norge bildet formidler, og hvorfor det kan beskrives som idealisert.",
+        "fasit": "Bildet framstiller bonden og naturen som sentrale uttrykk for det norske. Det er idealisert fordi det viser et ønsket eller opphøyd bilde av Norge, ikke nødvendigvis hele virkeligheten.",
+        "kriterier": [
+          "Knytter bildet til bonden og naturen som uttrykk for det norske.",
+          "Forklarer at idealiseringen innebærer at bildet framstiller et utvalgt eller opphøyd bilde av Norge."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s06",
+        "text": "Forklar hvordan ideen om «ett folk, ett språk og én kultur» kunne ramme samer. Ta med to konkrete følger av fornorskingspolitikken.",
+        "fasit": "Ideen om ett språk og én kultur gjorde at samisk språk og kultur ble presset tilbake. Samisk språk ble fortrengt i skolen, og mange samiske barn ble sendt på internatskoler borte fra familien.",
+        "kriterier": [
+          "Knytter fornorskingspolitikken til press om å tilpasse seg norsk språk eller kultur.",
+          "Nevner to relevante følger for samer, for eksempel at samisk ble fortrengt i skolen og at barn ble sendt på internatskoler."
+        ]
+      },
+      {
+        "id": "s07",
+        "text": "Sammenlign hvordan fornorskingspolitikken rammet samer med hvordan romanifolket ble utsatt for tvangsassimilering. Vis én forskjell mellom erfaringene deres.",
+        "fasit": "Samer ble blant annet utsatt for at samisk språk ble fortrengt i skolen, og mange barn måtte bo på internatskoler. Romanifolket ble utsatt for tvangsassimilering, blant annet ved at barn ble tatt fra foreldrene og mange ble tvangssterilisert.",
+        "kriterier": [
+          "Beskriver en relevant følge av fornorskingspolitikken for samer.",
+          "Beskriver en relevant følge av tvangsassimileringen av romanifolket og viser en forskjell mellom gruppenes erfaringer."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Etter oljefunnene fra 1969 ble fortellingen om Norge som et rikt, likestilt og fredelig land viktig. Forklar hvordan denne fortellingen henger sammen med selvbildet som oljenasjon, fredsnasjon og velferdsstat.",
+        "fasit": "Oljefunnene bidro til en fortelling om Norge som et rikt land, mens fredsnasjonen og velferdsstaten ble sentrale deler av selvbildet. Fortellingen knytter dermed velstand sammen med likestilling, fred og velferd.",
+        "kriterier": [
+          "Knytter oljefunnene til fortellingen om Norge som et rikt land.",
+          "Forklarer at fredsnasjonen og velferdsstaten er deler av Norges nasjonale selvbilde."
+        ]
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}

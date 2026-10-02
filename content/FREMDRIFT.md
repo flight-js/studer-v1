@@ -137,7 +137,22 @@ Kompetansemålene ligger i `scripts/innhold/lk20/` (hent flere med `lk20-hent.mj
 | matematikk-2p | MAT05-04 | KV46 |
 | geofag-1 / geofag-2 | GFG01-03 | KV972 / KV973 |
 | historie-og-filosofi-1 / -2 | HIF01-04 | KV895 / KV896 |
+| norsk-pabygg | NOR01-08 | KV1115 |
+| historie-pabygg | HIS01-03 | KV86 |
+| matematikk-2py | MAT06-04 | KV47 |
+| naturfag-pabygg | NAT01-05 | KV1090 |
 
+
+## Påbygg (oktober 2026)
+
+Trinnet «Påbygg» (Vg3 påbygging til generell studiekompetanse) har de fire fellesfagene norsk, historie, matematikk 2P-Y og naturfag (kroppsøving er ikke med). Temaene er bygd av eksisterende temaer med `node scripts/innhold/lag-pabygg.mjs`, som har én linje per tema med hvilke påbyggmål det dekker, og stopper hvis et kompetansemål mangler tema:
+
+- Norsk: påbyggmålene er Vg2- og Vg3-målene ordrett, så alle 20 temaene er med.
+- Historie: 20 av 25 temaer fra Vg2/Vg3. Utelatt fordi målene ikke er i påbygg: «Historie som fag: kilder og periodisering», «Kommunikasjon og kulturmøter», «Mennesket, naturen og ressursene».
+- Matematikk 2P-Y: målene er hentet ordrett fra 1P og 2P – 5 temaer fra 1P og 3 fra 2P.
+- Naturfag: 10 av 16 Vg1-mål. Metodetemaet er kortet ned (eget forsøk, risikovurdering og avfall er ikke med) og heter «Hypoteser, modeller og teorier».
+
+Repetisjonstemaene er laget med `content:repetisjon`. Endres et kildetema, kjør lag-pabygg på nytt, så `content:repetisjon -- <fag> --pa-nytt` og import.
 
 ## Gjenstår
 

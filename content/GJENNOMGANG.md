@@ -434,6 +434,86 @@ Læreplan: [UTV01-03](https://www.udir.no/lk20/utv01-03/kompetansemaal-og-vurder
 - 🟡 **Kjønn og karrierevalg** – utkast (370 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Repetisjon av hele faget** – utkast (909 ord · 22 kort (21 kjerne) · 12 quiz · 19 i miniprøve · 25 noder i tankekart)
 
+## Historie (pabygg) – 21 av 21 temaer ferdig
+
+Læreplan: [HIS01-03](https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurdering/kv86)
+
+- 🟡 **Historiebruk og fortolkninger av fortiden** – utkast (437 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Historisk metode og ulike framstillinger** – utkast (441 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Historiske personer og handlingsrom** – utkast (445 ord · 15 kort (9 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Brudd, kontinuitet og historisk betydning** – utkast (434 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Minnekultur – hvordan fortiden minnes** – utkast (417 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Mat og naturressurser gjennom historien** – utkast (417 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Demografiske endringer** – utkast (404 ord · 15 kort (9 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Handel, økonomiske systemer og makt** – utkast (417 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Demokrati i antikken og i vår tid** – utkast (402 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Makt og legitimitet fra middelalder til tidlig nytid** – utkast (420 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Religion, makt og identitet** – utkast (435 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Ideologier og politiske omveltninger** – utkast (444 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Teknologiske omveltninger** – utkast (428 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Migrasjon og kulturmøter** – utkast (442 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Kolonialisme og imperialisme** – utkast (482 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Verdenskrigene, andre konflikter og fredsslutninger** – utkast (471 ord · 16 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Ideologier, undertrykkelse, terror og folkemord** – utkast (443 ord · 16 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Historiebruk og nasjonal identitet i Norge** – utkast (481 ord · 15 kort (9 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Myndiggjøring og frigjøring i norsk og samisk historie** – utkast (426 ord · 15 kort (5 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Velferdsutviklingen i Norge på 1900-tallet** – utkast (369 ord · 15 kort (9 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1581 ord · 25 kort (25 kjerne) · 15 quiz · 20 i miniprøve · 46 noder i tankekart)
+
+## Matematikk 2P-Y (pabygg) – 9 av 9 temaer ferdig
+
+Læreplan: [MAT06-04](https://www.udir.no/lk20/mat06-04/kompetansemaal-og-vurdering/kv47)
+
+- 🟡 **Potenser, røtter og standardform** – utkast (433 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Prosent, vekstfaktor og modellering i regneark** – utkast (385 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Proporsjonalitet og omvendt proporsjonalitet** – utkast (430 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Formler, variabler og tekstoppgaver** – utkast (445 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Funksjoner og grafer** – utkast (414 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Matematisk modellering** – utkast (405 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Sentralmål og spredningsmål** – utkast (369 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Analysere og presentere datasett** – utkast (338 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1196 ord · 16 kort (16 kjerne) · 12 quiz · 20 i miniprøve · 25 noder i tankekart)
+
+## Naturfag (pabygg) – 9 av 9 temaer ferdig
+
+Læreplan: [NAT01-05](https://www.udir.no/lk20/nat01-05/kompetansemaal-og-vurdering/kv1090)
+
+- 🟡 **Hypoteser, modeller og teorier** – utkast (349 ord · 12 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Programmering og modellering i naturfag** – utkast (395 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Big bang og universets utvikling** – utkast (432 ord · 15 kort (9 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Elektromagnetisk og ioniserende stråling** – utkast (434 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Bølger og trådløs kommunikasjon** – utkast (427 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **DNA, arv og evolusjon** – utkast (468 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Bioteknologi og etikk** – utkast (397 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Miljøgifter i næringskjeder** – utkast (402 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1161 ord · 16 kort (16 kjerne) · 15 quiz · 20 i miniprøve · 25 noder i tankekart)
+
+## Norsk (pabygg) – 21 av 21 temaer ferdig
+
+Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1115)
+
+- 🟡 **Norrøn litteratur** – utkast (393 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Fra reformasjon til opplysningstid (1500–1800)** – utkast (422 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Romantikken og nasjonalromantikken** – utkast (387 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Den retoriske situasjonen og sakprosa** – utkast (408 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Fagartikkel om tekster i kontekst** – utkast (369 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Retoriske ferdigheter i presentasjoner og diskusjoner** – utkast (382 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Norsk, svensk, dansk og norrønt** – utkast (442 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Språksituasjonen i Norge og språkstriden** – utkast (430 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Realismen og det moderne gjennombruddet** – utkast (400 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Naturalismen og nyromantikken** – utkast (457 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Litteratur fra 1900 til 1945** – utkast (443 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Modernismen og litteraturen 1945–1980** – utkast (459 ord · 16 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Samtidslitteratur fra 1980 til i dag** – utkast (448 ord · 15 kort (6 kjerne) · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Essay** – utkast (493 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Litterære tolkninger og sammenligninger** – utkast (468 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Retorisk analyse og tolkning av sakprosa** – utkast (438 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Sammensatte tekster i ulike medier** – utkast (429 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Fagartikkel, kildebruk og språklige formkrav** – utkast (446 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Muntlige presentasjoner, samtaler og fordypning** – utkast (428 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Talespråk i endring** – utkast (483 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1419 ord · 20 kort (20 kjerne) · 15 quiz · 20 i miniprøve · 41 noder i tankekart)
+
 ## Engelsk (vg1) – 10 av 10 temaer ferdig
 
 Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurdering/kv1035)

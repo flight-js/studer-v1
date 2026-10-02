@@ -1,0 +1,118 @@
+{
+  "id": "historie-pabygg",
+  "trinnId": "pabygg",
+  "name": "Historie",
+  "lareplan": {
+    "kode": "HIS01-03",
+    "url": "https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurdering/kv86",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "reflektere over hvordan fortiden former oss som mennesker, og hvordan våre fortolkninger av fortiden er preget av nåtidsforståelse og forventninger til framtiden"
+      },
+      {
+        "nr": 2,
+        "tekst": "drøfte i hvilken grad utviklingen i ulike perioder har vært preget av brudd eller kontinuitet, og vurdere hva som gjør en hendelse i fortiden betydningsfull"
+      },
+      {
+        "nr": 3,
+        "tekst": "reflektere over hvordan fortiden brukes i lokalmiljøet og av ulike aktører, og drøfte hensikten med denne historiebruken"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske fortiden ved å formulere problemstillinger, finne, vurdere og bruke ulikt materiale og presentere egne slutninger"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske en historisk person og diskutere hans eller hennes tenkning, handlingsrom og valg i lys av samtiden han eller hun levde i"
+      },
+      {
+        "nr": 6,
+        "tekst": "sammenligne ulike framstillinger av en hendelse og reflektere over at historiske framstillinger preges av opphavspersonens ståsted og kontekst"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjøre rede for viktige endringer i hvordan mennesker har skaffet seg mat og brukt naturressurser, og vurdere betydningen av dette for mennesker og et bærekraftig samfunn"
+      },
+      {
+        "nr": 8,
+        "tekst": "presentere viktige demografiske endringer og vurdere årsakene til disse endringene og virkninger av dem for mennesker og samfunn"
+      },
+      {
+        "nr": 9,
+        "tekst": "gjøre rede for hvordan handel og økonomiske systemer har påvirket maktforhold og menneskers liv"
+      },
+      {
+        "nr": 10,
+        "tekst": "beskrive samfunnsendringer fra antikken til tidlig nytid og vurdere betydningen for fordeling og legitimering av makt og menneskers muligheter til demokratisk deltakelse"
+      },
+      {
+        "nr": 11,
+        "tekst": "beskrive religionens plass i samfunnet fra middelalderen til vår tid, og vurdere hvilken betydning den har hatt for hvordan mennesker har oppfattet seg selv og andre"
+      },
+      {
+        "nr": 12,
+        "tekst": "gjøre rede for tanker og ideologier som har ligget til grunn for politiske omveltninger fra opplysningstiden til i dag og vurdere betydningen av disse for utviklingen av det moderne demokratiet"
+      },
+      {
+        "nr": 13,
+        "tekst": "reflektere over hvordan teknologiske omveltninger fra den industrielle revolusjonen til i dag har endret menneskers liv og formet forventninger til framtiden"
+      },
+      {
+        "nr": 14,
+        "tekst": "gjøre rede for årsaker til at mennesker har migrert, og diskutere kulturmøtene sett fra ulike perspektiver"
+      },
+      {
+        "nr": 15,
+        "tekst": "gjøre rede for årsaker til at kolonimakter underla seg landområder, og vurdere hvilke konsekvenser dette fikk"
+      },
+      {
+        "nr": 16,
+        "tekst": "beskrive bakgrunnen for verdenskrigene og et utvalg andre sentrale kriger eller konflikter på 1900-tallet og reflektere over om fredsslutningene bidro til å skape fred og forsoning"
+      },
+      {
+        "nr": 17,
+        "tekst": "utforske en persons handlingsrom og valgmuligheter i en konfliktsituasjon og vurdere konsekvenser av valgene personen har tatt"
+      },
+      {
+        "nr": 18,
+        "tekst": "reflektere over hvordan ideologier og tankesett på 1900-tallet og fram til i dag har bidratt til undertrykkelse, terror og folkemord som holocaust"
+      },
+      {
+        "nr": 19,
+        "tekst": "analysere hvordan framstillinger av fortiden har blitt brukt i Norge for å skape nasjonal identitet og drøfte hvilke virkninger dette har hatt for ulike grupper"
+      },
+      {
+        "nr": 20,
+        "tekst": "utforske hvordan mennesker har arbeidet for myndiggjøring og frigjøring i norsk og samisk historie, og gjøre rede for hvordan de samtidig har bidratt til utviklingen av demokratiet"
+      },
+      {
+        "nr": 21,
+        "tekst": "gjøre rede for velferdsutviklingen i Norge på 1900-tallet og drøfte konsekvenser for menneskers liv"
+      }
+    ]
+  },
+  "temaer": [
+    "historiebruk-og-fortolkning",
+    "historisk-metode-og-framstillinger",
+    "personer-og-handlingsrom",
+    "brudd-og-kontinuitet",
+    "minnekultur",
+    "mat-og-naturressurser",
+    "demografiske-endringer",
+    "handel-og-okonomi",
+    "demokrati-for-og-na",
+    "makt-og-legitimitet",
+    "religion-og-makt",
+    "ideologier-og-politiske-omveltninger",
+    "teknologiske-omveltninger",
+    "migrasjon-og-kulturmoter",
+    "kolonialisme-og-imperialisme",
+    "verdenskrigene-og-fred",
+    "undertrykkelse-og-folkemord",
+    "nasjonal-identitet",
+    "myndiggjoring-og-frigjoring",
+    "velferdsstaten",
+    "repetisjon"
+  ]
+}

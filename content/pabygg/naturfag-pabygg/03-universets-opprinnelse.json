@@ -1,0 +1,447 @@
+{
+  "id": "universets-opprinnelse",
+  "fagId": "naturfag-pabygg",
+  "trinnId": "pabygg",
+  "name": "Big bang og universets utvikling",
+  "intro": "Big bang-teorien om hvordan universet oppsto og utviklet seg, og observasjonene som støtter den: rødforskyvning og ekspansjon, kosmisk bakgrunnsstråling og mengden hydrogen og helium – samt hvordan stjerner og grunnstoffer dannes.",
+  "kompetansemaal": [
+    3
+  ],
+  "sammendrag": "## Big bang-teorien\n\n**Big bang-teorien** sier at universet for omtrent **13,8 milliarder år** siden var ekstremt **varmt** og **tett**, og at det siden har **utvidet seg** og **kjølt seg ned**. Big bang var ikke en eksplosjon i et rom, men en utvidelse av **selve rommet**.\n\n## Universets utvikling\n\n1. **De første brøkdelene av et sekund**: Universet utvider seg ekstremt raskt. Energi blir til elementærpartikler.\n2. **De første minuttene**: Protoner og nøytroner danner de letteste atomkjernene – hovedsakelig **hydrogen** og **helium**.\n3. **Omtrent 380 000 år etter big bang**: Universet er kaldt nok til at elektroner binder seg til kjernene, og det dannes nøytrale **atomer**. Lyset kan nå bevege seg fritt – dette lyset ser vi i dag som **kosmisk bakgrunnsstråling**.\n4. **Hundrevis av millioner år senere**: Tyngdekraften trekker gass sammen til de første **stjernene** og **galaksene**.\n5. **I dag**: Universet fortsetter å utvide seg – og utvidelsen ser ut til å gå **stadig raskere**.\n\n## Observasjoner som støtter teorien\n\n**1. Rødforskyvning og ekspansjon**\nLys fra fjerne galakser er **rødforskjøvet** – bølgelengden er strukket mot den røde delen av spekteret. Astronomen **Edwin Hubble** viste i **1929** at jo **lenger unna** en galakse er, desto **raskere** fjerner den seg fra oss. Det tyder på at hele universet utvider seg. Spoler vi tiden bakover, var alt samlet i en svært tett tilstand.\n\n**2. Kosmisk bakgrunnsstråling**\nI **1965** oppdaget **Arno Penzias** og **Robert Wilson** en svak mikrobølgestråling som kommer fra **alle retninger**. Den har en temperatur på omtrent **2,7 K** (–270 °C) og er «ettergløden» fra det unge universet – akkurat som big bang-teorien forutså.\n\n**3. Mengden lette grunnstoffer**\nTeorien forutsier at det tidlige universet besto av omtrent **tre fjerdedeler hydrogen** og **en fjerdedel helium** (målt i masse). Dette stemmer godt med observasjonene.\n\n## Hvordan dannes grunnstoffene?\n\nI **stjernene** smelter lette atomkjerner sammen til tyngre i **fusjon**. Sola omdanner hydrogen til helium og frigjør enorme mengder energi. I store stjerner dannes grunnstoffer som **karbon**, **oksygen** og **jern**. Enda tyngre grunnstoffer dannes blant annet når store stjerner eksploderer som **supernovaer** og når nøytronstjerner kolliderer. Stoffene spres ut i rommet og blir byggesteiner i nye stjerner og planeter – og i oss. Vi er bokstavelig talt laget av **stjernestøv**.\n\n## En teori i utvikling\n\nBig bang-teorien er svært godt underbygd, men det finnes fortsatt **åpne spørsmål**: Hva er **mørk materie** og **mørk energi**, som ser ut til å utgjøre det meste av universet? Og hva skjedde helt i begynnelsen? Slik utvikler naturvitenskapen seg – nye observasjoner reiser nye spørsmål.",
+  "flashcards": [
+    {
+      "term": "Big bang-teorien",
+      "def": "Universet var for 13,8 milliarder år siden svært varmt og tett og har siden utvidet seg."
+    },
+    {
+      "term": "13,8 milliarder år",
+      "def": "Universets omtrentlige alder."
+    },
+    {
+      "term": "Ekspansjon",
+      "def": "At selve rommet i universet utvider seg."
+    },
+    {
+      "term": "Rødforskyvning",
+      "def": "Lys fra fjerne galakser er strukket mot lengre, rødere bølgelengder."
+    },
+    {
+      "term": "Edwin Hubble",
+      "def": "Viste i 1929 at fjerne galakser fjerner seg raskere enn nære.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "Kosmisk bakgrunnsstråling",
+      "def": "Svak mikrobølgestråling fra alle retninger, ettergløden fra det unge universet."
+    },
+    {
+      "term": "Penzias og Wilson",
+      "def": "Oppdaget den kosmiske bakgrunnsstrålingen i 1965.",
+      "niva": "eksempel"
+    },
+    {
+      "term": "2,7 K",
+      "def": "Temperaturen til den kosmiske bakgrunnsstrålingen.",
+      "niva": "over-niva"
+    },
+    {
+      "term": "380 000 år",
+      "def": "Omtrent da de første nøytrale atomene ble dannet.",
+      "niva": "over-niva"
+    },
+    {
+      "term": "Hydrogen og helium",
+      "def": "De letteste grunnstoffene, dannet i de første minuttene."
+    },
+    {
+      "term": "Fusjon",
+      "def": "Lette atomkjerner smelter sammen til tyngre og frigjør energi."
+    },
+    {
+      "term": "Supernova",
+      "def": "Eksplosjon av en stor stjerne som sprer grunnstoffer."
+    },
+    {
+      "term": "Stjernestøv",
+      "def": "Grunnstoffene i kroppen vår er dannet i stjerner."
+    },
+    {
+      "term": "Mørk materie",
+      "def": "Usynlig materie som påvirker galakser med tyngdekraften.",
+      "niva": "over-niva"
+    },
+    {
+      "term": "Mørk energi",
+      "def": "Ukjent energi som ser ut til å få universet til å utvide seg stadig raskere.",
+      "niva": "over-niva"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q01",
+      "text": "Hvor gammelt er universet ifølge big bang-teorien?",
+      "options": [
+        "Omtrent 4,6 milliarder år",
+        "Omtrent 13,8 milliarder år",
+        "Omtrent 10 milliarder år",
+        "Omtrent 20 milliarder år"
+      ],
+      "correct": 1,
+      "explain": "Universet er mye eldre enn solsystemet, som er omtrent 4,6 milliarder år gammelt."
+    },
+    {
+      "id": "q02",
+      "text": "Hva viser rødforskyvningen i lyset fra fjerne galakser?",
+      "options": [
+        "At galaksene fjerner seg fra oss",
+        "At de fjerne galaksene nærmer seg oss",
+        "At galaksene sender ut rødt lys",
+        "At galaksene blir varmere over tid"
+      ],
+      "correct": 0,
+      "explain": "Bølgelengden strekkes når rommet utvider seg."
+    },
+    {
+      "id": "q03",
+      "text": "Hva er den kosmiske bakgrunnsstrålingen?",
+      "options": [
+        "Lyset fra de første stjernene",
+        "Strålingen fra vår egen galakse",
+        "Ettergløden fra det unge universet",
+        "Varmen fra den tidlige sola"
+      ],
+      "correct": 2,
+      "explain": "Den kommer fra alle retninger og har en temperatur på omtrent 2,7 K."
+    },
+    {
+      "id": "q04",
+      "text": "Hvem viste i 1929 at universet utvider seg?",
+      "options": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Edwin Hubble"
+      ],
+      "correct": 3,
+      "explain": "Hubble fant at fjerne galakser fjerner seg raskere enn nære.",
+      "niva": "eksempel"
+    },
+    {
+      "id": "q05",
+      "text": "Hvilke grunnstoffer ble hovedsakelig dannet i de første minuttene etter big bang?",
+      "options": [
+        "Hydrogen og helium",
+        "Karbon og oksygen",
+        "Jern og nikkel",
+        "Silisium og svovel"
+      ],
+      "correct": 0,
+      "explain": "Tyngre grunnstoffer ble dannet senere i stjerner."
+    },
+    {
+      "id": "q06",
+      "text": "Hvor dannes grunnstoffer som karbon og oksygen?",
+      "options": [
+        "I jordas indre ved vulkanisme",
+        "I stjerner ved fusjon",
+        "I havet gjennom kjemiske reaksjoner",
+        "I det tidlige universet ved big bang"
+      ],
+      "correct": 1,
+      "explain": "Store stjerner lager tyngre grunnstoffer."
+    },
+    {
+      "id": "q07",
+      "text": "Hvorfor kalles vi noen ganger «stjernestøv»?",
+      "options": [
+        "Fordi stoffene i kroppen vår kommer fra meteoritter",
+        "Fordi kroppen vår er laget av støv fra kometer",
+        "Fordi grunnstoffene i kroppen vår er dannet i stjerner",
+        "Fordi stoffene i kroppen vår ble laget på jorda"
+      ],
+      "correct": 2,
+      "explain": "Karbon, oksygen og jern er dannet i stjerner."
+    },
+    {
+      "id": "q08",
+      "text": "Hva skjedde omtrent 380 000 år etter big bang?",
+      "options": [
+        "De første stjernene ble dannet, og galaksene begynte å samle seg rundt dem",
+        "De første planetene ble dannet, og lyset begynte å bevege seg gjennom rommet",
+        "Universet ble gjennomsiktig, og de første galaksene begynte å sende ut lys",
+        "De første nøytrale atomene ble dannet, og lyset kunne bevege seg fritt"
+      ],
+      "correct": 3,
+      "explain": "Dette lyset ser vi i dag som bakgrunnsstråling.",
+      "niva": "over-niva"
+    },
+    {
+      "id": "q09",
+      "text": "Hvilken observasjon støtter big bang-teorien?",
+      "options": [
+        "Mengden hydrogen og helium i universet",
+        "Jordas innhold av jern og oksygen",
+        "Antallet stjerner i Melkeveien",
+        "Planetbanene i solsystemet"
+      ],
+      "correct": 0,
+      "explain": "Teorien forutsier omtrent 75 % hydrogen og 25 % helium."
+    },
+    {
+      "id": "q10",
+      "text": "Hva var big bang?",
+      "options": [
+        "En eksplosjon av en stor mengde stoff utover i et tomt rom",
+        "En utvidelse av selve rommet fra en svært tett og varm tilstand",
+        "En kollisjon mellom to store galakser som skapte nye stjerner",
+        "En supernova som spredte materie utover i det tidlige universet"
+      ],
+      "correct": 1,
+      "explain": "Rommet selv har utvidet seg siden da."
+    }
+  ],
+  "mindmap": {
+    "label": "Big bang",
+    "children": [
+      {
+        "label": "Teorien",
+        "children": [
+          {
+            "label": "13,8 milliarder år"
+          },
+          {
+            "label": "Varmt og tett"
+          },
+          {
+            "label": "Rommet utvider seg"
+          }
+        ]
+      },
+      {
+        "label": "Utvikling",
+        "children": [
+          {
+            "label": "Partikler"
+          },
+          {
+            "label": "Hydrogen og helium"
+          },
+          {
+            "label": "Atomer etter 380 000 år"
+          },
+          {
+            "label": "Stjerner og galakser"
+          }
+        ]
+      },
+      {
+        "label": "Bevis",
+        "children": [
+          {
+            "label": "Rødforskyvning (Hubble)"
+          },
+          {
+            "label": "Bakgrunnsstråling"
+          },
+          {
+            "label": "Lette grunnstoffer"
+          }
+        ]
+      },
+      {
+        "label": "Grunnstoffer",
+        "children": [
+          {
+            "label": "Fusjon i stjerner"
+          },
+          {
+            "label": "Supernovaer"
+          },
+          {
+            "label": "Stjernestøv"
+          }
+        ]
+      },
+      {
+        "label": "Åpne spørsmål",
+        "children": [
+          {
+            "label": "Mørk materie"
+          },
+          {
+            "label": "Mørk energi"
+          }
+        ]
+      }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08"
+    ],
+    "ekstra": [
+      {
+        "id": "m01",
+        "type": "sant-usant",
+        "text": "Sola omdanner hydrogen til helium ved fusjon.",
+        "correct": true,
+        "explain": "Fusjonen frigjør energien som gjør at sola lyser."
+      },
+      {
+        "id": "m02",
+        "type": "sant-usant",
+        "text": "Den kosmiske bakgrunnsstrålingen kommer bare fra én retning.",
+        "correct": false,
+        "explain": "Den kommer fra alle retninger."
+      },
+      {
+        "id": "m03",
+        "type": "sant-usant",
+        "text": "Universets utvidelse ser ut til å gå stadig raskere.",
+        "correct": true,
+        "explain": "Dette forklares med mørk energi.",
+        "niva": "over-niva"
+      },
+      {
+        "id": "m04",
+        "type": "sant-usant",
+        "text": "Jern ble dannet i de første minuttene etter big bang.",
+        "correct": false,
+        "explain": "Jern dannes i store stjerner."
+      },
+      {
+        "id": "m05",
+        "type": "flervalg",
+        "text": "Hvem oppdaget den kosmiske bakgrunnsstrålingen?",
+        "options": [
+          "Penzias og Wilson",
+          "Hubble og Slipher",
+          "Alpher og Herman",
+          "Einstein og Lemaître"
+        ],
+        "correct": 0,
+        "explain": "Oppdagelsen ble gjort i 1965.",
+        "niva": "eksempel"
+      },
+      {
+        "id": "m06",
+        "type": "flervalg",
+        "text": "Hvilken temperatur har den kosmiske bakgrunnsstrålingen?",
+        "options": [
+          "Omtrent 0 K",
+          "Omtrent 27 K",
+          "Omtrent 2,7 K",
+          "Omtrent 270 K"
+        ],
+        "correct": 2,
+        "explain": "Det er bare litt over det absolutte nullpunkt.",
+        "niva": "over-niva"
+      },
+      {
+        "id": "m07",
+        "type": "flervalg",
+        "text": "Hva er mørk materie?",
+        "options": [
+          "Støv i rommet som skjuler lyset fra fjerne stjerner",
+          "Usynlig materie som påvirker galakser med tyngdekraften",
+          "Gass rundt galakser som sender ut røntgenstråling",
+          "Materie i sorte hull som danner skivene rundt dem"
+        ],
+        "correct": 1,
+        "explain": "Vi vet ennå ikke hva mørk materie består av.",
+        "niva": "over-niva"
+      }
+    ],
+    "skriv": [
+      {
+        "id": "s01",
+        "text": "Big bang var ikke en eksplosjon inne i et rom. Forklar hva som utvidet seg, og hvordan dette skiller seg fra en vanlig eksplosjon.",
+        "fasit": "Det var selve rommet som utvidet seg. Big bang var derfor ikke en eksplosjon av stoff ut i et rom som allerede fantes.",
+        "kriterier": [
+          "Forklarer at det var selve rommet som utvidet seg.",
+          "Skiller dette fra en eksplosjon inne i et eksisterende rom."
+        ]
+      },
+      {
+        "id": "s02",
+        "text": "Hundrevis av millioner år etter big bang trakk tyngdekraften gass sammen. Forklar hva dette førte til, og hvilken rolle tyngdekraften hadde.",
+        "fasit": "Tyngdekraften samlet gassen, slik at de første stjernene og galaksene ble dannet.",
+        "kriterier": [
+          "Forklarer at tyngdekraften trakk eller samlet gass sammen.",
+          "Knytter dette til dannelsen av de første stjernene og galaksene."
+        ]
+      },
+      {
+        "id": "s03",
+        "text": "Sola omdanner hydrogen til helium og frigjør energi. Hva kalles prosessen, og hva skjer med atomkjernene?",
+        "fasit": "Prosessen kalles fusjon. Lette atomkjerner smelter sammen til tyngre kjerner, og det frigjør energi.",
+        "kriterier": [
+          "Navngir prosessen som fusjon.",
+          "Forklarer at lette atomkjerner smelter sammen til tyngre kjerner og frigjør energi."
+        ]
+      },
+      {
+        "id": "s04",
+        "text": "En elev tror at mørk materie og mørk energi betyr det samme. Forklar en viktig forskjell på hvordan de påvirker universet.",
+        "fasit": "Mørk materie påvirker galakser gjennom tyngdekraften. Mørk energi ser ut til å få universets utvidelse til å gå stadig raskere.",
+        "kriterier": [
+          "Knytter mørk materie til tyngdekraftens påvirkning på galakser.",
+          "Knytter mørk energi til at universets utvidelse ser ut til å gå stadig raskere."
+        ],
+        "niva": "over-niva"
+      },
+      {
+        "id": "s05",
+        "text": "Det tidlige universet besto omtrent av tre fjerdedeler hydrogen og en fjerdedel helium, målt i masse. Hvor mange kilogram av hvert grunnstoff tilsvarer dette i en prøve på 100 kg? Vis det viktigste regnestykket.",
+        "fasit": "Hydrogen: ¾ × 100 kg = 75 kg. Helium: ¼ × 100 kg = 25 kg.",
+        "kriterier": [
+          "Finner 75 kg hydrogen ved å bruke tre fjerdedeler av 100 kg.",
+          "Finner 25 kg helium ved å bruke en fjerdedel av 100 kg."
+        ]
+      },
+      {
+        "id": "s06",
+        "text": "Hubble viste sammenhengen mellom galaksers avstand og hvor raskt de fjerner seg fra oss i 1929. Penzias og Wilson oppdaget kosmisk bakgrunnsstråling i 1965. Hvor mange år var det mellom disse hendelsene? Vis regnestykket.",
+        "fasit": "1965 − 1929 = 36. Det var 36 år mellom hendelsene.",
+        "kriterier": [
+          "Setter opp eller bruker differansen 1965 − 1929.",
+          "Oppgir svaret 36 år."
+        ],
+        "niva": "eksempel"
+      },
+      {
+        "id": "s07",
+        "text": "En planet inneholder jern. Bruk kunnskap om hvordan grunnstoffer dannes og spres, til å forklare hvordan jernet kan ha blitt en del av planeten.",
+        "fasit": "Jern kan ha blitt dannet i store stjerner. Grunnstoffer fra stjerner spres ut i rommet og kan bli byggesteiner i nye planeter.",
+        "kriterier": [
+          "Forklarer at jern dannes i store stjerner.",
+          "Knytter spredning av stoff i rommet til dannelsen av nye planeter."
+        ]
+      },
+      {
+        "id": "s08",
+        "text": "Big bang-teorien støttes godt av observasjoner, men det finnes fortsatt åpne spørsmål. Forklar hvordan begge deler kan være sant, og nevn ett slikt åpent spørsmål.",
+        "fasit": "Observasjoner støtter teorien, men de forklarer ikke alt om universet. For eksempel vet vi fortsatt ikke hva mørk materie eller mørk energi er, eller hva som skjedde helt i begynnelsen.",
+        "kriterier": [
+          "Forklarer at observasjoner kan støtte teorien selv om ikke alle spørsmål er besvart.",
+          "Nevner mørk materie, mørk energi eller hva som skjedde helt i begynnelsen som et åpent spørsmål."
+        ],
+        "niva": "over-niva"
+      }
+    ]
+  },
+  "kvalitet": {
+    "status": "utkast",
+    "merknader": [],
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
+  }
+}
