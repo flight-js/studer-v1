@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva betyr universalitet i velferdsstaten?",
       "options": [
-        "At bare de fattigste får hjelp",
+        "At ytelser gis etter individuell behovsprøving",
         "At ytelser gjelder alle som fyller vilkårene",
-        "At alt er gratis",
-        "At staten eier alt"
+        "At ytelser avhenger av tidligere innbetalinger",
+        "At ytelser gis uavhengig av vilkårene"
       ],
       "correct": 1,
       "explain": "For eksempel barnetrygd."
@@ -90,9 +90,9 @@
       "text": "Når ble folketrygden innført?",
       "options": [
         "1967",
-        "1814",
-        "1945",
-        "2006"
+        "1936",
+        "1957",
+        "1992"
       ],
       "correct": 0,
       "explain": "Samler mange ordninger.",
@@ -105,7 +105,7 @@
         "Kommunen",
         "Staten",
         "Fylkeskommunen",
-        "NAV"
+        "Utdanningsdirektoratet"
       ],
       "correct": 2,
       "explain": "Tre forvaltningsnivåer."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er arbeidslinja?",
       "options": [
-        "At alle må jobbe i staten",
-        "At pensjonsalderen er 50",
-        "At trygd skal være høyere enn lønn",
+        "At det skal lønne seg å motta trygd",
+        "At arbeid skal fordeles likt mellom ansatte",
+        "At staten skal fastsette lønnen for arbeid",
         "At det skal lønne seg å arbeide"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva kjennetegner den nordiske velferdsmodellen?",
       "options": [
         "Universelle ordninger og stor offentlig sektor",
-        "Bare private forsikringer",
-        "Ingen skatt",
-        "Ytelser bare gjennom kirken"
+        "Behovsprøvde ordninger og liten offentlig sektor",
+        "Yrkesbaserte ordninger og stor offentlig sektor",
+        "Private forsikringer og liten offentlig sektor"
       ],
       "correct": 0,
       "explain": "Esping-Andersen."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er eldrebølgen?",
       "options": [
-        "Flere barn",
+        "En synkende andel eldre i befolkningen",
         "En økende andel eldre i befolkningen",
-        "Flere innvandrere",
-        "Lavere levealder"
+        "En økende andel barn i befolkningen",
+        "En økende andel yrkesaktive i befolkningen"
       ],
       "correct": 1,
       "explain": "Gir økte utgifter."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva regulerer handlingsregelen?",
       "options": [
-        "Skattesatsene",
-        "Pensjonsalderen",
+        "Hvor stor del av statsbudsjettet som går til kommunene",
+        "Hvor mye staten kan låne fra Norges Bank",
         "Hvor mye av oljefondet som kan brukes",
-        "Lønningene"
+        "Hvor stor del av skatteinntektene staten kan bruke"
       ],
       "correct": 2,
       "explain": "Bruk av avkastningen.",
@@ -176,9 +176,9 @@
       "text": "Hvorfor er tillit viktig for velferdsstaten?",
       "options": [
         "Fordi folk da betaler skatt og støtter ordningene",
-        "Fordi det gir lavere skatt",
-        "Fordi det erstatter lover",
-        "Fordi det ikke har betydning"
+        "Fordi folk da betaler mindre skatt og bruker private ordninger",
+        "Fordi folk da kan erstatte offentlige regler med avtaler",
+        "Fordi folk da forventer færre offentlige tjenester"
       ],
       "correct": 0,
       "explain": "Modellen bygger på tillit."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er et foreslått tiltak for en bærekraftig velferdsstat?",
       "options": [
-        "Færre i arbeid",
+        "Færre i arbeid og kortere yrkeskarrierer",
         "Flere i arbeid og lengre yrkeskarrierer",
-        "Lavere pensjonsalder for alle",
-        "Nedleggelse av NAV"
+        "Høyere trygdeytelser og kortere yrkeskarrierer",
+        "Lavere pensjonsalder og kortere yrkeskarrierer"
       ],
       "correct": 1,
       "explain": "Øker inntektene og reduserer utgiftene."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hvilken ytelse gir folketrygden?",
         "options": [
-          "Studielån",
+          "Bostøtte",
           "Sykepenger",
-          "Boliglån",
-          "Aksjeutbytte"
+          "Sosialhjelp",
+          "Studielån"
         ],
         "correct": 1,
         "explain": "Også pensjon og foreldrepenger."
@@ -328,9 +328,9 @@
         "text": "Hvilket argument brukes for universelle ordninger?",
         "options": [
           "De gir bred oppslutning og tillit",
-          "De er billigst",
-          "De gir mindre skatt",
-          "De krever ingen administrasjon"
+          "De retter hjelpen mot dem med lavest inntekt",
+          "De gir lavere skatt gjennom færre ytelser",
+          "De reduserer utgiftene ved å avgrense målgruppen"
         ],
         "correct": 0,
         "explain": "Alle har nytte av dem."
@@ -341,9 +341,9 @@
         "text": "Hvem vedtar statsbudsjettet?",
         "options": [
           "Regjeringen",
-          "Kongen",
+          "Finansdepartementet",
           "Stortinget",
-          "NAV"
+          "Kongen"
         ],
         "correct": 2,
         "explain": "Etter forslag fra regjeringen."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

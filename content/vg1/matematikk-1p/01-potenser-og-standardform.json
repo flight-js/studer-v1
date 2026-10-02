@@ -79,9 +79,9 @@
       "text": "Hva er 2⁵?",
       "options": [
         "10",
-        "25",
+        "16",
         "32",
-        "7"
+        "64"
       ],
       "correct": 2,
       "explain": "2 · 2 · 2 · 2 · 2 = 32."
@@ -93,7 +93,7 @@
         "45 · 10⁵",
         "4,5 · 10⁶",
         "4,5 · 10⁵",
-        "0,45 · 10⁷"
+        "4,5 · 10⁷"
       ],
       "correct": 1,
       "explain": "Tallet foran må være mellom 1 og 10, og kommaet flyttes 6 plasser."
@@ -104,8 +104,8 @@
       "options": [
         "7,3 · 10⁻⁴",
         "7,3 · 10⁴",
-        "73 · 10⁻⁵",
-        "7,3 · 10⁻³"
+        "7,3 · 10⁻³",
+        "7,3 · 10⁻⁵"
       ],
       "correct": 0,
       "explain": "Kommaet flyttes 4 plasser til høyre, så eksponenten blir −4."
@@ -115,8 +115,8 @@
       "text": "Hva er a³ · a⁴?",
       "options": [
         "a¹²",
-        "a",
-        "2a⁷",
+        "a³",
+        "a⁴",
         "a⁷"
       ],
       "correct": 3,
@@ -127,8 +127,8 @@
       "text": "Hva er √49?",
       "options": [
         "7",
-        "24,5",
         "14",
+        "24,5",
         "2401"
       ],
       "correct": 0,
@@ -141,7 +141,7 @@
         "5 · 10⁹",
         "6 · 10²⁰",
         "6 · 10⁹",
-        "6 · 10¹"
+        "6 · 10⁻¹"
       ],
       "correct": 2,
       "explain": "3 · 2 = 6 og 10⁴ · 10⁵ = 10⁹."
@@ -164,7 +164,7 @@
       "options": [
         "1/8",
         "−8",
-        "−6",
+        "−1/8",
         "8"
       ],
       "correct": 0,
@@ -316,7 +316,7 @@
         "options": [
           "9",
           "3",
-          "13,5",
+          "27",
           "81"
         ],
         "correct": 1,
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

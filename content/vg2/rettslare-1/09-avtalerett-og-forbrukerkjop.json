@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvordan blir en avtale til?",
       "options": [
-        "Bare ved signatur",
-        "Ved tilbud og aksept",
-        "Bare ved betaling",
-        "Bare hos advokat"
+        "Når et tilbud blir sendt uten å bli akseptert",
+        "Når et tilbud blir akseptert",
+        "Når partene bare diskuterer mulige avtalevilkår",
+        "Når én part skriver et forslag uten å få svar"
       ],
       "correct": 1,
       "explain": "Muntlige avtaler er også bindende."
@@ -89,9 +89,9 @@
       "text": "Hva er et forbrukerkjøp?",
       "options": [
         "Når en forbruker kjøper fra en næringsdrivende",
-        "Kjøp mellom to privatpersoner",
-        "Kjøp mellom to bedrifter",
-        "Kjøp av bolig"
+        "Når en privatperson kjøper fra en annen privatperson",
+        "Når en næringsdrivende kjøper fra en annen næringsdrivende",
+        "Når en forbruker kjøper fra en privatperson"
       ],
       "correct": 0,
       "explain": "Da gjelder forbrukerkjøpsloven."
@@ -100,7 +100,7 @@
       "id": "q03",
       "text": "Hvor lang er reklamasjonsfristen for en mobiltelefon kjøpt i butikk?",
       "options": [
-        "14 dager",
+        "To år",
         "Seks måneder",
         "Fem år",
         "Ett år"
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Har du lovfestet angrerett når du kjøper en genser i en vanlig butikk?",
       "options": [
-        "Ja, 14 dager",
-        "Ja, 30 dager",
-        "Ja, alltid",
-        "Nei, men mange butikker gir bytterett frivillig"
+        "Ja, dersom du beholder kvitteringen fra kjøpet",
+        "Ja, dersom genseren er ubrukt og har merkelappen på",
+        "Ja, butikken må gi deg 14 dagers angrerett",
+        "Nei, men butikken kan frivillig tilby bytterett"
       ],
       "correct": 3,
       "explain": "Angrerett gjelder fjernsalg og salg utenfor faste lokaler."
@@ -127,7 +127,7 @@
         "Kjøpsloven",
         "Forbrukerkjøpsloven",
         "Angrerettloven",
-        "Arbeidsmiljøloven"
+        "Avtaleloven"
       ],
       "correct": 0,
       "explain": "Reglene kan i stor grad avtales bort."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er heving?",
       "options": [
-        "Å reparere varen",
-        "Å gå fra kjøpet",
-        "Å få prisavslag",
-        "Å reklamere"
+        "Å få varen reparert uten ekstra kostnader",
+        "Å avslutte kjøpet og få pengene tilbake",
+        "Å få redusert prisen på den kjøpte varen",
+        "Å få en ny vare i stedet for den mangelfulle"
       ],
       "correct": 1,
       "explain": "Krever at mangelen ikke er uvesentlig."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Når er reklamasjon alltid i tide i et forbrukerkjøp?",
       "options": [
-        "Innen to år",
-        "Innen fem år",
+        "Innen tre måneder etter at mangelen ble oppdaget",
+        "Innen seks måneder etter at mangelen ble oppdaget",
         "Innen to måneder etter at mangelen ble oppdaget",
-        "Innen én uke"
+        "Innen ett år etter at mangelen ble oppdaget"
       ],
       "correct": 2,
       "explain": "Ellers «innen rimelig tid»."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva kan gjøre en avtale ugyldig?",
       "options": [
-        "At den er muntlig",
-        "At den er kort",
-        "At den er dyr",
-        "Tvang, svik eller utnytting"
+        "At avtalen er muntlig, kort eller inngått raskt",
+        "At avtalen gjelder en dyr vare eller tjeneste",
+        "At partene ikke har brukt vitner eller skriftlig signatur",
+        "At avtalen er inngått ved tvang, svik eller utnytting"
       ],
       "correct": 3,
       "explain": "Også urimelighet etter § 36."
@@ -175,7 +175,7 @@
         "14 dager",
         "7 dager",
         "30 dager",
-        "Ingen angrerett"
+        "10 dager"
       ],
       "correct": 0,
       "explain": "Etter angrerettloven."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva er avtalefrihet?",
       "options": [
-        "At avtaler aldri er bindende",
+        "Retten til å endre en avtale uten at den andre parten samtykker",
         "Retten til å velge om, med hvem og på hvilke vilkår man inngår avtaler",
-        "At alle avtaler er gratis",
-        "At staten bestemmer alle avtaler"
+        "Retten til å bestemme vilkårene for den andre parten uten samtykke",
+        "Retten til å velge om avtalen skal være skriftlig, men ikke hvem man avtaler med"
       ],
       "correct": 1,
       "explain": "Et grunnprinsipp i avtaleretten."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hvilket krav kan forbrukeren ha ved en mangel?",
         "options": [
-          "Straff for selgeren",
-          "Prisavslag",
-          "Gratis varer for alltid",
-          "Å få selgeren sparket"
+          "En bot som selgeren må betale til staten på grunn av mangelen",
+          "En reduksjon av kjøpesummen på grunn av mangelen",
+          "En erstatning uten at kjøperen har lidt et økonomisk tap",
+          "En gratis ekstravare som selgeren må gi kjøperen ved mangelen"
         ],
         "correct": 1,
         "explain": "Også retting, omlevering, heving og erstatning."
@@ -330,7 +330,7 @@
           "Forbrukerrådet",
           "Datatilsynet",
           "Arbeidstilsynet",
-          "Sametinget"
+          "Finanstilsynet"
         ],
         "correct": 0,
         "explain": "Forbrukerklageutvalget kan avgjøre saker.",
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva betyr det at en vare selges «som den er» mellom privatpersoner?",
         "options": [
-          "At kjøperen har sterkere vern",
-          "At selgeren må gi fem års garanti",
-          "At kjøperen har svakere vern mot mangler",
-          "At kjøpet er ugyldig"
+          "Kjøperen får sterkere vern mot mangler enn ved vanlig salg",
+          "Selgeren slipper ansvar for opplysninger som er holdt tilbake",
+          "Kjøperen får svakere vern mot mangler enn ved vanlig salg",
+          "Kjøperen får fem års reklamasjonsfrist som ved forbrukerkjøp"
         ],
         "correct": 2,
         "explain": "Men selgeren må fortsatt ikke holde tilbake viktig informasjon."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

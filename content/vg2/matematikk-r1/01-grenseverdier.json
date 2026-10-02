@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er lim ₓ→₂ (x² − 4)/(x − 2)?",
       "options": [
-        "0",
-        "4",
         "2",
-        "Den finnes ikke"
+        "4",
+        "−4",
+        "0"
       ],
       "correct": 1,
       "explain": "Faktoriser og forkort: lim (x + 2) = 4."
@@ -91,7 +91,7 @@
         "3",
         "0",
         "−1/5",
-        "∞"
+        "5"
       ],
       "correct": 0,
       "explain": "Del med x²."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Når eksisterer lim ₓ→ₐ f(x)?",
       "options": [
-        "Alltid",
-        "Når f(a) er definert",
-        "Når venstre og høyre grenseverdi er like",
-        "Når f(a) = 0"
+        "Når funksjonsverdien f(a) er definert",
+        "Når venstregrenseverdien er lik f(a)",
+        "Når venstre- og høyregrenseverdien er like",
+        "Når funksjonsverdien f(a) er lik null"
       ],
       "correct": 2,
       "explain": "De ensidige grenseverdiene må stemme overens."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva betyr det når innsetting gir «0/0»?",
       "options": [
-        "Grenseverdien er 0",
-        "Grenseverdien finnes ikke",
-        "Grenseverdien er 1",
+        "Grenseverdien er lik null etter innsetting",
+        "Grenseverdien finnes ikke fordi nevneren er null",
+        "Grenseverdien er lik én etter forkorting",
         "Uttrykket må omformes før vi kan konkludere"
       ],
       "correct": 3,
@@ -127,7 +127,7 @@
         "y = 2",
         "y = 3",
         "y = −1/3",
-        "Ingen"
+        "y = 1/2"
       ],
       "correct": 0,
       "explain": "Forholdet mellom koeffisientene foran x."
@@ -139,7 +139,7 @@
         "x = 2",
         "x = 3",
         "x = −1/2",
-        "Ingen"
+        "x = −3"
       ],
       "correct": 1,
       "explain": "Nevneren er null for x = 3, men ikke telleren."
@@ -149,9 +149,9 @@
       "text": "Hva nærmer (1 + 1/n)ⁿ seg når n → ∞?",
       "options": [
         "1",
-        "∞",
+        "2",
         "e ≈ 2,718",
-        "0"
+        "3"
       ],
       "correct": 2,
       "explain": "Slik kan tallet e defineres."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvorfor finnes ikke lim ₓ→₀ 1/x?",
       "options": [
-        "Fordi 1/0 = 0",
-        "Fordi funksjonen er konstant",
-        "Fordi grenseverdien er 1",
+        "Fordi venstre og høyre grense begge går mot +∞",
+        "Fordi funksjonen ikke er definert i x = 0, så grensen mangler",
+        "Fordi venstre grense er 0 og høyre grense er 1",
         "Fordi venstre grense er −∞ og høyre grense er +∞"
       ],
       "correct": 3,
@@ -175,7 +175,7 @@
         "10",
         "9",
         "4",
-        "Den finnes ikke"
+        "3"
       ],
       "correct": 0,
       "explain": "Innsetting: 9 + 1."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvilken grenseverdi definerer den deriverte f′(a)?",
       "options": [
-        "lim ₓ→∞ f(x)",
+        "lim ₕ→₀ (f(a + h) − f(a))/h²",
         "lim ₕ→₀ (f(a + h) − f(a))/h",
-        "lim ₕ→₀ f(h)",
-        "lim ₓ→ₐ f(x) · x"
+        "lim ₕ→₀ (f(a + h) − f(a − h))/h",
+        "lim ₕ→₀ (f(a + h) − f(a))/a"
       ],
       "correct": 1,
       "explain": "Momentan vekstfart som grense av gjennomsnittlig vekstfart."
@@ -311,7 +311,7 @@
           "0",
           "2",
           "1",
-          "Den finnes ikke"
+          "−2"
         ],
         "correct": 1,
         "explain": "(x − 1)(x + 1)/(x − 1) = x + 1 → 2."
@@ -324,7 +324,7 @@
           "5",
           "2/7",
           "0",
-          "∞"
+          "1"
         ],
         "correct": 0,
         "explain": "Del med x."
@@ -335,7 +335,7 @@
         "text": "En logistisk modell har bæreevne K. Hva er grenseverdien til populasjonen når t → ∞?",
         "options": [
           "0",
-          "∞",
+          "2K",
           "K",
           "K/2"
         ],
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

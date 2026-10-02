@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hva sier Grunnloven § 92?",
       "options": [
-        "At staten skal respektere og sikre menneskerettighetene",
-        "At Kongen har all makt",
-        "At det skal være valg hvert fjerde år",
-        "At Norge er med i EU"
+        "At myndighetene skal respektere og sikre menneskerettighetene",
+        "At myndighetene skal beskytte eiendom ved offentlige inngrep",
+        "At domstolene skal vedta hvilke menneskerettigheter som gjelder",
+        "At menneskerettighetene gjelder norske statsborgere etter norsk lov"
       ],
       "correct": 0,
       "explain": "Innledningen til menneskerettighetskapitlet."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvilken rettighet i EMK verner retten til å demonstrere fredelig?",
       "options": [
-        "Artikkel 3",
-        "Artikkel 6",
+        "Artikkel 8",
+        "Artikkel 9",
         "Artikkel 11",
-        "Artikkel 2"
+        "Artikkel 10"
       ],
       "correct": 2,
       "explain": "Forsamlingsfrihet."
@@ -115,8 +115,8 @@
       "id": "q04",
       "text": "Hvilken rettighet er absolutt?",
       "options": [
-        "Ytringsfrihet",
-        "Forsamlingsfrihet",
+        "Retten til ytringsfrihet",
+        "Retten til forsamlingsfrihet",
         "Retten til privatliv",
         "Forbudet mot tortur"
       ],
@@ -128,9 +128,9 @@
       "text": "Hva er prøvingsretten?",
       "options": [
         "Domstolenes rett til å sette til side lover som strider mot Grunnloven",
-        "Stortingets rett til å prøve regjeringen",
-        "Retten til å anke",
-        "Retten til å stemme"
+        "Stortingets rett til å kontrollere om regjeringen følger bestemmelsene i Grunnloven",
+        "Domstolenes rett til å endre lover som de mener er urimelige",
+        "Regjeringens rett til å stanse lover som domstolene har vedtatt"
       ],
       "correct": 0,
       "explain": "Nå i Grunnloven § 89.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva gjør menneskerettsloven?",
       "options": [
-        "Opphever Grunnloven",
-        "Gjør flere menneskerettskonvensjoner til norsk lov",
-        "Gir Kongen makt",
-        "Innfører dødsstraff"
+        "Gjør menneskerettskonvensjonene viktigere enn Grunnloven",
+        "Gjør flere menneskerettskonvensjoner til en del av norsk lov",
+        "Gjør EMDs avgjørelser direkte til norske lovbestemmelser",
+        "Gjør alle internasjonale avtaler til en del av norsk lov"
       ],
       "correct": 1,
       "explain": "Med forrang ved motstrid."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvilke vilkår må vanligvis være oppfylt for et lovlig inngrep i en rettighet?",
       "options": [
-        "At flertallet ønsker det",
-        "At politiet ber om det",
-        "Lovhjemmel, legitimt formål, nødvendig og forholdsmessig",
-        "At inngrepet er gratis"
+        "Lovhjemmel, flertallsstøtte, kort varighet og økonomisk gevinst",
+        "Folkeavstemning, legitimt formål, nødvendighet og forholdsmessighet",
+        "Lovhjemmel, legitimt formål, nødvendighet og forholdsmessighet",
+        "Lovhjemmel, legitimt formål, offentlig støtte og kostnadsfri gjennomføring"
       ],
       "correct": 2,
       "explain": "Tre-trinns-test."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hvorfor kalles pressen en vaktbikkje?",
       "options": [
-        "Fordi den eies av staten",
-        "Fordi den skriver om dyr",
-        "Fordi den bestemmer lovene",
+        "Fordi den kontrollerer at domstolene følger Stortingets ordre",
+        "Fordi den kan straffe politikere som bryter loven",
+        "Fordi den vedtar regler for regjeringens arbeid",
         "Fordi den avslører maktmisbruk"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hvor kan man klage hvis man mener Norge har krenket EMK?",
       "options": [
         "EMD i Strasbourg",
-        "FN i New York",
-        "Stortinget",
-        "Kongen"
+        "EU-domstolen i Luxembourg",
+        "FNs menneskerettskomité i Genève",
+        "Den internasjonale straffedomstolen i Haag"
       ],
       "correct": 0,
       "explain": "Etter å ha prøvd saken nasjonalt."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvorfor er demokrati mer enn flertallsstyre?",
       "options": [
-        "Fordi mindretallet alltid bestemmer",
+        "Fordi mindretallet får vetorett i alle politiske saker",
         "Fordi menneskerettighetene verner mindretall",
-        "Fordi det ikke er valg",
-        "Fordi Kongen bestemmer"
+        "Fordi menneskerettighetene gir domstolene siste ord i alle saker",
+        "Fordi valgresultatet må godkjennes av monarken"
       ],
       "correct": 1,
       "explain": "Flertallet kan ikke overkjøre grunnleggende rettigheter."
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hvilken artikkel i EMK gjelder rettferdig rettergang?",
         "options": [
-          "Artikkel 10",
+          "Artikkel 5",
           "Artikkel 6",
           "Artikkel 8",
-          "Artikkel 11"
+          "Artikkel 13"
         ],
         "correct": 1,
         "explain": "Uavhengige domstoler."
@@ -327,9 +327,9 @@
         "text": "Hva betyr rettsliggjøring?",
         "options": [
           "At makt flyttes fra folkevalgte til domstoler",
-          "At alle lover skrives om",
-          "At domstolene legges ned",
-          "At Stortinget blir domstol"
+          "At makt flyttes fra domstolene til regjeringen",
+          "At flere politiske saker avgjøres gjennom folkeavstemninger",
+          "At Stortinget overtar domstolenes behandling av enkeltsaker"
         ],
         "correct": 0,
         "explain": "En demokratisk debatt.",
@@ -343,7 +343,7 @@
           "Regjeringen",
           "Høyesterett",
           "Stortinget",
-          "Kongen alene"
+          "Kongen"
         ],
         "correct": 2,
         "explain": "Maktfordelingen."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

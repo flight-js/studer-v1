@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva studerer psykologien?",
       "options": [
-        "Bare hjernen",
+        "Hjernens områder, hormoner og nerveceller",
         "Tanker, følelser og atferd",
-        "Bare psykiske lidelser",
-        "Bare dyr"
+        "Drømmer, ubevisste drifter og barndom",
+        "Synlige handlinger, belønning og læring"
       ],
       "correct": 1,
       "explain": "Fra nerveceller til grupper."
@@ -94,9 +94,9 @@
       "id": "q02",
       "text": "Hvilket perspektiv legger vekt på ubevisste krefter og barndommen?",
       "options": [
-        "Det psykodynamiske",
-        "Det kognitive",
-        "Det humanistiske",
+        "Det psykodynamiske perspektivet",
+        "Det kognitive perspektivet",
+        "Det humanistiske perspektivet",
         "Atferdsperspektivet"
       ],
       "correct": 0,
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva mente behavioristene at psykologien skulle studere?",
       "options": [
-        "Drømmer",
-        "Følelser",
+        "Ubevisste drifter",
+        "Mentale tankeprosesser",
         "Observerbar atferd",
-        "Sjelen"
+        "Sosiale normer"
       ],
       "correct": 2,
       "explain": "Det som kan observeres og måles."
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "Hvilket perspektiv sammenligner hjernen med en informasjonsbehandler?",
       "options": [
-        "Det humanistiske",
-        "Det psykodynamiske",
-        "Det sosiokulturelle",
-        "Det kognitive"
+        "Det humanistiske perspektivet",
+        "Det psykodynamiske perspektivet",
+        "Det sosiokulturelle perspektivet",
+        "Det kognitive perspektivet"
       ],
       "correct": 3,
       "explain": "Studerer tankeprosesser."
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hva er den biopsykososiale modellen?",
       "options": [
-        "En modell av hjernen",
+        "En samlet forklaring som kobler hjernens områder til atferd",
         "En samlet forklaring med biologiske, psykologiske og sosiale faktorer",
-        "En test av intelligens",
-        "En teori om drømmer"
+        "En standardisert test som måler generell intelligens hos personer",
+        "En teori som forklarer atferd ut fra ubevisste drømmer"
       ],
       "correct": 1,
       "explain": "Gir en mer helhetlig forklaring."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "En elev tenker «alle vil synes jeg er dum» før et foredrag. Hvilket perspektiv legger mest vekt på dette?",
       "options": [
-        "Det biologiske",
+        "Det biologiske perspektivet",
         "Atferdsperspektivet",
-        "Det kognitive",
-        "Det psykodynamiske"
+        "Det kognitive perspektivet",
+        "Det psykodynamiske perspektivet"
       ],
       "correct": 2,
       "explain": "Tolkninger og tanker påvirker følelser."
@@ -167,10 +167,10 @@
       "id": "q08",
       "text": "Hva betyr det at en forklaring er reduksjonistisk?",
       "options": [
-        "At den er for lang",
-        "At den bygger på mange studier",
-        "At den tar hensyn til kultur",
-        "At den forenkler et sammensatt fenomen til én årsak"
+        "At den forklarer et enkelt fenomen med flere årsaker",
+        "At den beskriver et fenomen med mange konkrete eksempler",
+        "At den undersøker et fenomen gjennom ulike kulturelle forhold",
+        "At den forklarer et sammensatt fenomen med én årsak"
       ],
       "correct": 3,
       "explain": "Et vanlig kritikkpunkt."
@@ -180,9 +180,9 @@
       "text": "Hvilken kritikk rettes ofte mot Freuds teorier?",
       "options": [
         "At de er vanskelige å teste",
-        "At de bare handler om dyr",
-        "At de overser barndommen",
-        "At de bygger på hjernescanning"
+        "At de mangler forklaringer om menneskets barndom",
+        "At de bygger på studier av store befolkningsgrupper",
+        "At de forklarer tanker gjennom hjernens elektriske aktivitet"
       ],
       "correct": 0,
       "explain": "Ubevisste prosesser er vanskelige å måle."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva la Vygotskij vekt på?",
       "options": [
-        "Belønning og straff",
+        "Læring gjennom belønning og straff",
         "Læring gjennom samhandling med andre",
-        "Ubevisste drifter",
-        "Gener"
+        "Læring gjennom ubevisste drifter",
+        "Læring gjennom genetisk arv"
       ],
       "correct": 1,
       "explain": "Et sosiokulturelt syn på læring.",
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hvilket perspektiv vil forklare angst med aktivitet i amygdala?",
         "options": [
-          "Det humanistiske",
-          "Det biologiske",
-          "Det sosiokulturelle",
-          "Det psykodynamiske"
+          "Det humanistiske perspektivet",
+          "Det biologiske perspektivet",
+          "Det sosiokulturelle perspektivet",
+          "Det psykodynamiske perspektivet"
         ],
         "correct": 1,
         "explain": "Hjernen og stresshormonene.",
@@ -340,7 +340,7 @@
         "options": [
           "En forsvarsmekanisme",
           "En læringsstrategi",
-          "En hjernedel",
+          "En del av hjernen",
           "En forskningsmetode"
         ],
         "correct": 0,
@@ -351,9 +351,9 @@
         "type": "flervalg",
         "text": "Hvilket perspektiv legger størst vekt på kultur og gruppe?",
         "options": [
-          "Det kognitive",
-          "Det biologiske",
-          "Det sosiokulturelle",
+          "Det kognitive perspektivet",
+          "Det biologiske perspektivet",
+          "Det sosiokulturelle perspektivet",
           "Atferdsperspektivet"
         ],
         "correct": 2,
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

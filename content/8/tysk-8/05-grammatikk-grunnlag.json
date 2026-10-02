@@ -83,7 +83,7 @@
         "der",
         "das",
         "die",
-        "den"
+        "dem"
       ],
       "correct": 2,
       "explain": "For eksempel «die Katze» og «die Schule»."
@@ -106,7 +106,7 @@
       "options": [
         "wir bist",
         "wir ist",
-        "wir seid",
+        "wir bin",
         "wir sind"
       ],
       "correct": 3,
@@ -118,8 +118,8 @@
       "options": [
         "er hat",
         "er habt",
-        "er habe",
-        "er hast"
+        "er hast",
+        "er haben"
       ],
       "correct": 0,
       "explain": "«haben» er uregelrett i entall."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hvordan lager du et ja/nei-spørsmål på tysk?",
       "options": [
-        "Du legger til «nicht»",
-        "Du setter subjektet først",
-        "Du setter verbet først",
-        "Du endrer artikkelen"
+        "Subjektet står først i setningen.",
+        "Verbet står sist i setningen.",
+        "Verbet står først i setningen.",
+        "Verbet står etter subjektet."
       ],
       "correct": 2,
       "explain": "For eksempel: «Spielst du Fußball?»"
@@ -154,9 +154,9 @@
       "text": "Hvordan sier du «Jeg har ikke noen hund»?",
       "options": [
         "Ich habe keinen Hund.",
-        "Ich habe nicht Hund.",
-        "Ich nicht habe Hund.",
-        "Ich habe kein Hund nicht."
+        "Ich habe kein Hund.",
+        "Ich habe keine Hund.",
+        "Ich bin keinen Hund."
       ],
       "correct": 0,
       "explain": "«kein» nekter substantiver og får samme ending som «ein».",
@@ -178,9 +178,9 @@
       "id": "q09",
       "text": "Hvordan bør du lære nye substantiver?",
       "options": [
-        "Uten artikkel",
+        "Uten tysk artikkel",
         "Sammen med artikkelen",
-        "Bare i flertall",
+        "Med norsk artikkel",
         "Med liten forbokstav"
       ],
       "correct": 1,
@@ -354,7 +354,7 @@
           "Jeg",
           "Han",
           "Dere",
-          "De (høflig)"
+          "Hun"
         ],
         "correct": 2,
         "explain": "«ihr» brukes når du snakker til flere personer du er dus med."
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

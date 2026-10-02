@@ -77,8 +77,8 @@
       "options": [
         "En horisontal kraft",
         "Bare tyngden",
-        "Ingen krefter",
-        "Tyngden og en fremoverkraft"
+        "Ingen kraft virker",
+        "Tyngden og en framoverkraft"
       ],
       "correct": 1,
       "explain": "Derfor er vₓ konstant."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er vᵧ i toppunktet?",
       "options": [
-        "Lik v₀",
-        "Lik g",
-        "Null",
-        "Negativ"
+        "Samme som v₀ᵧ",
+        "9,8 m/s nedover",
+        "0 m/s",
+        "Samme som vₓ"
       ],
       "correct": 2,
       "explain": "Ballen snur i vertikal retning."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "En kule slippes, og en annen skytes horisontalt fra samme høyde. Hvilken lander først?",
       "options": [
-        "Den som slippes",
+        "Kula som slippes lander først",
         "De lander samtidig",
-        "Den som skytes",
-        "Det avhenger av massen"
+        "Kula som skytes horisontalt lander først",
+        "Kula med størst masse lander først"
       ],
       "correct": 1,
       "explain": "Falltiden avhenger bare av høyden."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er farten i toppunktet av et skrått kast?",
       "options": [
-        "Null",
-        "Lik v₀",
-        "Lik vₓ",
-        "Lik g"
+        "Farten er lik null",
+        "Farten er lik v₀",
+        "Farten er lik vₓ",
+        "Farten er lik v₀ᵧ"
       ],
       "correct": 2,
       "explain": "Bare den horisontale komponenten gjenstår."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hvordan påvirker luftmotstand banen?",
       "options": [
-        "Den blir lengre",
-        "Den blir symmetrisk",
-        "Den blir høyere",
-        "Den blir kortere, lavere og usymmetrisk"
+        "Lengre, lavere og asymmetrisk",
+        "Kortere, lavere og symmetrisk",
+        "Kortere, høyere og asymmetrisk",
+        "Kortere, lavere og asymmetrisk"
       ],
       "correct": 3,
       "explain": "Kraften virker mot fartsretningen."
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hvilken form har banen uten luftmotstand?",
       "options": [
-        "Parabel",
-        "Sirkel",
-        "Rett linje",
-        "Ellipse"
+        "En parabel",
+        "En sirkel",
+        "En rett linje",
+        "En ellipse"
       ],
       "correct": 0,
       "explain": "y er en andregradsfunksjon av x."
@@ -319,9 +319,9 @@
         "text": "Hvilken formel gir rekkevidden på flat mark?",
         "options": [
           "R = v₀² · sin(2α) / g",
-          "R = v₀ · t",
-          "R = ½gt²",
-          "R = v₀² / g alltid"
+          "R = v₀ · sin(2α) / g",
+          "R = v₀² · sin(α) / g",
+          "R = v₀² · cos(2α) / g"
         ],
         "correct": 0,
         "explain": "Uten luftmotstand."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hvilke faktorer påvirker kast i idrett i tillegg til vinkel og fart?",
         "options": [
-          "Bare fargen på ballen",
-          "Ingen andre",
+          "Utøverens alder, kroppsmasse og muskelstyrke",
+          "Utøverens masse, høyde og alder",
           "Utgangshøyde, spinn og vind",
-          "Bare massen"
+          "Utøverens styrke, høyde og kroppsmasse"
         ],
         "correct": 2,
         "explain": "Virkelige kast er mer komplekse.",
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

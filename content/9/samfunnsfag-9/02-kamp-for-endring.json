@@ -85,10 +85,10 @@
       "id": "q01",
       "text": "Når fikk norske kvinner allmenn stemmerett?",
       "options": [
-        "1884",
-        "1945",
+        "1907",
+        "1910",
         "1913",
-        "1978"
+        "1920"
       ],
       "correct": 2,
       "explain": "Norge var blant de første landene i verden."
@@ -98,9 +98,9 @@
       "text": "Hvem samlet husmenn og arbeidere i foreninger rundt 1850?",
       "options": [
         "Marcus Thrane",
-        "Henrik Ibsen",
-        "Christian Michelsen",
-        "Nelson Mandela"
+        "Eilert Sundt",
+        "Johan Sverdrup",
+        "Ole Gabriel Ueland"
       ],
       "correct": 0,
       "explain": "Thranebevegelsen var Norges første store arbeiderbevegelse.",
@@ -110,10 +110,10 @@
       "id": "q03",
       "text": "Hva er sivil ulydighet?",
       "options": [
-        "Å stemme blankt",
-        "Å skrive leserbrev",
+        "Å bryte loven i protest ved å bruke vold",
+        "Å protestere åpent og ikkevoldelig uten å bryte loven",
         "Å bryte loven åpent og ikkevoldelig i protest",
-        "Å flytte til et annet land"
+        "Å nekte å følge en lov i hemmelighet for egen vinning"
       ],
       "correct": 2,
       "explain": "Deltakerne tar bevisst straffen for å vise hvor viktig saken er."
@@ -122,9 +122,9 @@
       "id": "q04",
       "text": "Hva var apartheid?",
       "options": [
-        "Et fotballag i Sør-Afrika",
-        "En fredsavtale",
-        "En type valgordning",
+        "Et system med klasseskille i Sør-Afrika",
+        "Et system med religiøst skille i Sør-Afrika",
+        "Et system med maktdeling mellom folkegrupper i Sør-Afrika",
         "Et system med raseskille i Sør-Afrika"
       ],
       "correct": 3,
@@ -135,10 +135,10 @@
       "id": "q05",
       "text": "Hva ble opprettet i 1989, blant annet som en følge av Alta-saken?",
       "options": [
-        "Stortinget",
+        "Svenske Sametinget",
         "Sametinget",
-        "LO",
-        "FN"
+        "Finske Sametinget",
+        "Samisk råd"
       ],
       "correct": 1,
       "explain": "Alta-saken satte samiske rettigheter på dagsordenen.",
@@ -149,9 +149,9 @@
       "text": "Hva gjorde Rosa Parks i 1955?",
       "options": [
         "Nektet å gi fra seg setet sitt på bussen",
-        "Ble president i USA",
-        "Startet en fagforening",
-        "Vant Nobels fredspris"
+        "Nektet å gå av bussen da sjåføren ba henne",
+        "Nektet å betale for bussbilletten sin i protest",
+        "Nektet å bruke bussene under protestaksjonen"
       ],
       "correct": 0,
       "explain": "Protesten hennes utløste en stor bussboikott i Montgomery.",
@@ -162,8 +162,8 @@
       "text": "Hvilket virkemiddel bruker arbeidere når de legger ned arbeidet for å presse fram krav?",
       "options": [
         "Boikott",
+        "Demonstrasjon",
         "Underskriftskampanje",
-        "Lobbyvirksomhet",
         "Streik"
       ],
       "correct": 3,
@@ -173,10 +173,10 @@
       "id": "q08",
       "text": "Hvorfor var Altaelva viktig for mange samer?",
       "options": [
-        "Fordi den var en turistattraksjon",
+        "Fordi den var viktig for turisme og friluftsliv",
         "Fordi den var viktig for reindrift og laksefiske",
-        "Fordi den var grense mot Sverige",
-        "Fordi det fantes olje der"
+        "Fordi den var viktig for jordbruk og tømmerfløting",
+        "Fordi den var viktig for gruvedrift og kraftproduksjon"
       ],
       "correct": 1,
       "explain": "Geografiske forhold påvirket hvorfor utbyggingen ble så omstridt.",
@@ -187,9 +187,9 @@
       "text": "Hva betyr det at kamp for endring er preget av historisk kontekst?",
       "options": [
         "At ideer, teknologi og maktforhold i tiden påvirker hva som er mulig",
-        "At kampene alltid foregår på samme måte",
-        "At historien ikke betyr noe",
-        "At bare historikere kan endre samfunnet"
+        "At ideer, teknologi og maktforhold i tiden ikke påvirker hva som er mulig",
+        "At kamp for endring først og fremst bestemmes av enkeltpersoners vilje, ikke forholdene i tiden",
+        "At historisk kontekst handler om hva som skjedde etter kampen for endring"
       ],
       "correct": 0,
       "explain": "For eksempel gjør sosiale medier det mulig å mobilisere mye raskere i dag enn før."
@@ -198,10 +198,10 @@
       "id": "q10",
       "text": "Hva startet Greta Thunberg i 2018?",
       "options": [
-        "Et politisk parti",
-        "En miljøorganisasjon i Norge",
+        "Miljøkampanje for resirkulering",
+        "Underskriftskampanje mot plast",
         "Skolestreik for klima",
-        "En avis"
+        "Demonstrasjon for dyrevern"
       ],
       "correct": 2,
       "explain": "Skolestreiken spredte seg til millioner av unge over hele verden.",
@@ -349,9 +349,9 @@
         "text": "Hva er en boikott?",
         "options": [
           "Å nekte å kjøpe noe eller delta i noe for å protestere",
-          "En type streik blant lærere",
-          "En valgordning",
-          "En sang"
+          "Å nekte å arbeide eller møte på jobb for å presse fram krav",
+          "Å skrive under på et krav for å vise støtte til en sak",
+          "Å kontakte politikere for å få dem til å endre en beslutning"
         ],
         "correct": 0,
         "explain": "Bussboikotten i Montgomery er et kjent eksempel."
@@ -361,10 +361,10 @@
         "type": "flervalg",
         "text": "Hvilken organisasjon ble stiftet i 1884 for å kjempe for kvinners rettigheter?",
         "options": [
-          "LO",
-          "Arbeiderpartiet",
+          "Landskvinnestemmerettsforeningen",
+          "Norske Kvinners Sanitetsforening",
           "Norsk Kvinnesaksforening",
-          "Sametinget"
+          "Norsk Fredsforening"
         ],
         "correct": 2,
         "explain": "Foreningen kjempet for utdanning, eiendomsrett og stemmerett.",
@@ -375,10 +375,10 @@
         "type": "flervalg",
         "text": "Hvordan har sosiale medier endret kampen for endring?",
         "options": [
-          "Det er blitt forbudt å demonstrere",
+          "Budskap spres langsommere, og folk mobiliseres tregere",
           "Budskap kan spres og folk mobiliseres raskere",
-          "Ingen engasjerer seg lenger",
-          "Bare politikere kan delta"
+          "Budskap når færre mennesker, og mobilisering skjer saktere",
+          "Budskap blir mindre synlige, og mobilisering tar lengre tid"
         ],
         "correct": 1,
         "explain": "#MeToo og klimastreikene spredte seg raskt over hele verden via sosiale medier."
@@ -467,6 +467,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

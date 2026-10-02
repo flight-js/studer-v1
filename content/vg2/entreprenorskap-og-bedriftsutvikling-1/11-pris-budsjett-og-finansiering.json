@@ -92,8 +92,8 @@
       "text": "Hva er en fast kostnad?",
       "options": [
         "Husleie",
-        "Råvarer",
-        "Emballasje",
+        "Råvarer på lager",
+        "Emballasje per produkt",
         "Frakt per pakke"
       ],
       "correct": 0,
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva viser likviditetsbudsjettet?",
       "options": [
-        "Bare overskuddet",
-        "Bare eiendelene",
+        "Inntekter og kostnader måned for måned",
+        "Eiendeler og gjeld ved årets slutt",
         "Innbetalinger og utbetalinger måned for måned",
-        "Antall ansatte"
+        "Lønninger og stillinger gjennom året"
       ],
       "correct": 2,
       "explain": "Om man har nok penger på konto."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hvordan kan en virksomhet gå med overskudd og likevel gå tom for penger?",
       "options": [
-        "Det er umulig",
-        "Fordi overskudd alltid er penger på konto",
-        "Fordi den har for få kostnader",
-        "Fordi kundene betaler seint eller den har bundet penger i varelager"
+        "Overskuddet betyr at alle inntektene allerede er kommet inn.",
+        "Overskuddet viser hvor mye penger virksomheten har på konto.",
+        "Overskuddet sikrer at regningene kan betales ved forfall.",
+        "Kundene betaler sent, eller penger er bundet i varelager."
       ],
       "correct": 3,
       "explain": "Resultat og likviditet er ikke det samme."
@@ -128,9 +128,9 @@
       "text": "Hva er fremmedkapital?",
       "options": [
         "Lån som skal betales tilbake",
-        "Penger eierne skyter inn",
-        "Tilskudd",
-        "Overskudd"
+        "Egenkapital fra virksomhetens eiere",
+        "Tilskudd fra en offentlig støtteordning",
+        "Opptjent overskudd i virksomheten"
       ],
       "correct": 0,
       "explain": "For eksempel banklån."
@@ -141,8 +141,8 @@
       "options": [
         "Renter og avdrag",
         "En eierandel",
-        "Ingenting",
-        "Et tilskudd"
+        "Et offentlig tilskudd",
+        "En fast månedslønn"
       ],
       "correct": 1,
       "explain": "Og innflytelse."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvilken aktør kan gi tilskudd til gründere?",
       "options": [
+        "Brønnøysundregistrene",
         "Forbrukertilsynet",
-        "Arbeidstilsynet",
         "Innovasjon Norge",
-        "Politiet"
+        "Arbeidstilsynet"
       ],
       "correct": 2,
       "explain": "Også kommunale næringsfond.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva hører til anleggsmidlene?",
       "options": [
-        "Varelager",
-        "Kontanter",
-        "Kundefordringer",
+        "Varer og råvarer på lager",
+        "Kontanter og bankinnskudd",
+        "Kundefordringer og utestående fakturaer",
         "Utstyr og maskiner"
       ],
       "correct": 3,
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hvorfor bør man legge inn en buffer i kapitalbehovet?",
       "options": [
-        "Fordi det meste tar lengre tid og koster mer enn planlagt",
-        "Fordi banken krever det alltid",
-        "For å betale mindre skatt",
-        "For å få flere kunder"
+        "Fordi oppstarten kan ta lengre tid og koste mer enn planlagt",
+        "Fordi en reserve automatisk gir lavere rente på lån",
+        "Fordi reserver i budsjettet gir større skattefradrag",
+        "Fordi långivere krever at alle utgifter budsjetteres høyere"
       ],
       "correct": 0,
       "explain": "Likviditetsreserve."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er en risiko ved personlig garanti?",
       "options": [
-        "Man får lavere rente",
+        "Gründeren kan miste en del av eierskapet",
         "Gründeren kan tape private eiendeler",
-        "Man mister eierskap",
-        "Ingen risiko"
+        "Gründeren kan få ansvar for den daglige driften",
+        "Gründeren kan miste retten til å ta ut lønn"
       ],
       "correct": 1,
       "explain": "Ansvaret blir personlig.",
@@ -333,9 +333,9 @@
         "text": "Hva er folkefinansiering?",
         "options": [
           "Mange privatpersoner bidrar med små beløp",
-          "Et banklån",
-          "Et statlig tilskudd",
-          "Leverandørkreditt"
+          "En bank låner ut penger mot renter og avdrag",
+          "En offentlig etat gir penger til en virksomhet",
+          "En leverandør lar virksomheten betale senere"
         ],
         "correct": 0,
         "explain": "Ofte i bytte mot produkt, belønning eller eierandel."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva viser etableringsbudsjettet?",
         "options": [
-          "Lønn per måned",
-          "Salget per dag",
+          "Lønnskostnader og andre utgifter per måned",
+          "Forventet omsetning fordelt på hver salgsdag",
           "Kapitalbehov og hvordan det finansieres",
-          "Antall kunder"
+          "Antall kunder virksomheten forventer å nå"
         ],
         "correct": 2,
         "explain": "Grunnlaget for finansieringsplanen."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva kjennetegner konsekvensetikk?",
       "options": [
-        "Handlinger er gale i seg selv",
+        "Riktig handling følger regler uavhengig av resultatet",
         "Riktig handling gir de beste konsekvensene for flest",
-        "Man spør hva en god person ville gjort",
-        "Alle handlinger er like gode"
+        "Riktig handling viser gode karaktertrekk hos personen",
+        "Riktig handling ivaretar rettighetene til den enkelte"
       ],
       "correct": 1,
       "explain": "Nytte og skade veies."
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "Hva sier føre var-prinsippet?",
       "options": [
-        "Vær forsiktig når det kan bli alvorlig skade og kunnskapen er usikker",
-        "Innfør all ny teknologi raskt",
-        "Bare bevist skade skal tas hensyn til",
-        "Teknologi er alltid farlig"
+        "Vær forsiktig når alvorlig skade kan oppstå og kunnskapen er usikker",
+        "Vent med tiltak til alvorlig skade er dokumentert",
+        "Vurder sannsynligheten for skade, men ikke hvor alvorlig den kan bli",
+        "Velg løsningen med størst forventet nytte når kunnskapen er usikker"
       ],
       "correct": 0,
       "explain": "Viktig ved uopprettelig skade."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva er Collingridge-dilemmaet?",
       "options": [
-        "At teknologi alltid er dyr",
-        "At ingen vil ha ny teknologi",
-        "At teknologien er lett å endre tidlig, men da vet vi lite om konsekvensene",
-        "At etikk og teknologi ikke henger sammen"
+        "Teknologi er lett å endre sent, men da vet vi lite om konsekvensene",
+        "Teknologi er vanskelig å endre tidlig, men da vet vi lite om konsekvensene",
+        "Teknologi er lett å endre tidlig, men da vet vi lite om konsekvensene",
+        "Teknologi er lett å endre tidlig, og da vet vi mye om konsekvensene"
       ],
       "correct": 2,
       "explain": "Når vi vet mer, er den vanskelig å endre.",
@@ -131,9 +131,9 @@
       "text": "Hvilket etisk spørsmål reiser selvkjørende biler?",
       "options": [
         "Hvem har ansvaret ved en kollisjon?",
-        "Hvilken farge skal de ha?",
-        "Hvor mange seter skal de ha?",
-        "Hvor raskt kan de lades?"
+        "Hvor mange passasjerer får plass i bilen?",
+        "Hvor raskt kan bilen kjøre på motorveien?",
+        "Hvilket merke skal produsere bilen?"
       ],
       "correct": 0,
       "explain": "Også hvordan de skal velge i ulykker."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvem gir råd til Stortinget om ny teknologi i Norge?",
       "options": [
-        "Datatilsynet",
+        "Norges forskningsråd",
         "Teknologirådet",
-        "Forbrukerrådet",
-        "NRK"
+        "Datatilsynet",
+        "Nasjonal kommunikasjonsmyndighet"
       ],
       "correct": 1,
       "explain": "Et uavhengig råd.",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva betyr det at teknologi ikke er nøytral?",
       "options": [
-        "At den alltid er ond",
-        "At den ikke virker",
-        "At den påvirker og fordeler nytte, risiko og makt",
-        "At den er politisk styrt"
+        "Teknologi utvikles og brukes uten å påvirke samfunnet",
+        "Teknologi fordeler nytte, men ikke risiko eller makt",
+        "Teknologi påvirker og fordeler nytte, risiko og makt",
+        "Teknologi påvirker risiko, men ikke nytte eller makt"
       ],
       "correct": 2,
       "explain": "Valgene i utviklingen har konsekvenser."
@@ -167,10 +167,10 @@
       "id": "q08",
       "text": "Hvilket etisk spørsmål reiser genredigering med CRISPR?",
       "options": [
-        "Om fargen på plantene",
-        "Om prisen på laboratorieutstyr",
-        "Om hvor raskt det går",
-        "Om naturlighet, risiko og endringer som arves"
+        "Om endringer i kroppsceller som går i arv",
+        "Om CRISPR som endrer DNA uten å påvirke gener",
+        "Om genredigering som bare brukes til å endre hårfarge",
+        "Om risiko, naturlighet og arvelige endringer"
       ],
       "correct": 3,
       "explain": "Særlig ved endringer i kjønnsceller.",
@@ -180,10 +180,10 @@
       "id": "q09",
       "text": "Hvem bør identifiseres som berørte i en etisk drøfting?",
       "options": [
-        "Alle som påvirkes – også dyr, natur og framtidige generasjoner",
-        "Bare produsenten",
-        "Bare kjøperne",
-        "Bare myndighetene"
+        "Alle som påvirkes, også dyr, natur og framtidige generasjoner",
+        "De som utvikler teknologien, og de som selger den",
+        "De som kjøper teknologien, og de som bruker den",
+        "De som regulerer teknologien, og de som finansierer den"
       ],
       "correct": 0,
       "explain": "Bredt perspektiv."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva handler pliktetikk om?",
       "options": [
-        "Bare konsekvensene",
+        "At handlinger vurderes ut fra resultatene de gir",
         "At noen handlinger er riktige eller gale i seg selv",
-        "Å maksimere profitt",
-        "Å følge flertallet"
+        "At handlinger velges ut fra hvor stor profitt de gir",
+        "At handlinger vurderes ut fra hvor mange som støtter dem"
       ],
       "correct": 1,
       "explain": "For eksempel å ikke lyve."
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Hvilken risiko er knyttet til tingenes internett?",
         "options": [
-          "At tingene blir tyngre",
-          "Innbrudd i systemer og innsamling av data",
-          "At strømmen blir billigere",
-          "At tingene slutter å virke uten internett alltid"
+          "Automatiske oppdateringer av systemer og deling av data",
+          "Uautorisert tilgang til systemer og innsamling av data",
+          "Lavere strømforbruk i enheter og mindre datatrafikk",
+          "Bedre tilgangskontroll i systemer og mindre datainnsamling"
         ],
         "correct": 1,
         "explain": "Flere tilkoblede enheter gir flere angrepspunkter.",
@@ -338,9 +338,9 @@
         "text": "Hva er det siste steget i en etisk drøfting?",
         "options": [
           "En begrunnet konklusjon",
-          "Å beskrive teknologien",
-          "Å liste opp perspektivene",
-          "Å telle argumentene"
+          "En beskrivelse av teknologien",
+          "En oversikt over de etiske perspektivene",
+          "En opptelling av argumentene for og imot"
         ],
         "correct": 0,
         "explain": "Gjerne med forslag til tiltak."
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hvilket argument for selvkjørende biler bygger på konsekvensetikk?",
         "options": [
-          "At det er galt å overlate valg til maskiner",
-          "At en god sjåfør alltid kjører selv",
+          "At mennesker bør ta avgjørelser i trafikken",
+          "At ansvarlige sjåfører bør vise god dømmekraft",
           "At de kan redusere antall ulykker",
-          "At bilene er pene"
+          "At det er viktig å beholde kontrollen hos føreren"
         ],
         "correct": 2,
         "explain": "Fokus på gode konsekvenser."
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

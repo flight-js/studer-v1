@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er taushetsplikt?",
       "options": [
-        "Plikt til å være stille på jobb",
+        "Plikt til å følge reglene for oppførsel på arbeidsplassen",
         "Plikt til ikke å fortelle videre personlige opplysninger man får gjennom jobben",
-        "Plikt til å svare på alle spørsmål",
-        "Plikt til å skrive logg"
+        "Plikt til å svare ærlig på spørsmål fra brukere",
+        "Plikt til å skrive ned viktige hendelser fra arbeidsdagen"
       ],
       "correct": 1,
       "explain": "Taushetsplikten gjelder også etter at man har sluttet."
@@ -91,9 +91,9 @@
       "text": "Hva er nonverbal kommunikasjon?",
       "options": [
         "Kroppsspråk, blikk, tonefall og mimikk",
-        "Å skrive brev",
-        "Å snakke et fremmedspråk",
-        "Å sende SMS"
+        "Ord, setninger, spørsmål og forklaringer",
+        "Brev, e-post, skjema og tekstmeldinger",
+        "Språkvalg, uttale, ord og setningsbygning"
       ],
       "correct": 0,
       "explain": "Kroppsspråket sier ofte like mye som ordene."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvordan bør du snakke med en person som har demens?",
       "options": [
-        "Fort og med mange detaljer",
-        "Høyt og utålmodig",
-        "Tydelig, rolig og med korte setninger",
-        "Helst ikke i det hele tatt"
+        "Snakk langsomt, men bruk lange setninger med mange detaljer.",
+        "Snakk høyt og gi flere beskjeder på én gang.",
+        "Snakk tydelig, rolig og bruk korte setninger.",
+        "Bruk kompliserte ord og forklar alt i detalj."
       ],
       "correct": 2,
       "explain": "Det gjør det lettere for personen å forstå.",
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er empati?",
       "options": [
-        "Å være sint",
-        "Å bestemme over andre",
-        "Å være flink til å snakke",
+        "Evnen til å overtale andre til å gjøre det du ønsker",
+        "Evnen til å forstå regler og følge beskjeder fra andre",
+        "Evnen til å snakke tydelig og forklare egne meninger",
         "Evnen til å sette seg inn i hvordan andre har det"
       ],
       "correct": 3,
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva er det viktigste tiltaket mot smitte?",
       "options": [
-        "Håndvask",
-        "Å bruke parfyme",
-        "Å drikke kaffe",
-        "Å gå med lue"
+        "Håndvask med såpe og vann",
+        "Bruk av hansker framfor håndvask",
+        "Bruk av munnbind framfor håndvask",
+        "Rengjøring av gulv framfor håndvask"
       ],
       "correct": 0,
       "explain": "Håndsprit er også effektivt."
@@ -141,8 +141,8 @@
       "options": [
         "Kokk",
         "Helsefagarbeider",
-        "Rørlegger",
-        "Elektriker"
+        "Elektriker",
+        "Frisør"
       ],
       "correct": 1,
       "explain": "Også barne- og ungdomsarbeidere utdannes her.",
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva betyr det å behandle noen med verdighet?",
       "options": [
-        "Å bestemme alt for dem",
-        "Å behandle dem som barn",
+        "Å la personalet ta valg uten å spørre personen",
+        "Å snakke til personen som om hen var et lite barn",
         "Å behandle dem med respekt som et menneske med verdi",
-        "Å ignorere ønskene deres"
+        "Å overse personens ønsker når hjelpen skal planlegges"
       ],
       "correct": 2,
       "explain": "Alle mennesker har lik verdi."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Du har vært på sykehjem i arbeidslivsfag. Hva kan du legge ut på sosiale medier?",
       "options": [
-        "Bilder av beboerne",
-        "Navn og diagnoser",
-        "Historier om beboerne",
+        "Bilder der beboerne kan gjenkjennes",
+        "Navn og diagnoser på beboerne",
+        "Historier fra beboernes hverdag",
         "Ingen personlige opplysninger om beboerne"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hva er viktig når du leker med barn i en barnehage?",
       "options": [
         "At alle får være med og at det er trygt",
-        "At du vinner",
-        "At det går fort",
-        "At barna sitter stille"
+        "At de eldste barna bestemmer hvem som får delta",
+        "At barna konkurrerer om å vinne mens de andre venter",
+        "At leken går etter planen selv om noen blir holdt utenfor"
       ],
       "correct": 0,
       "explain": "Tilpass aktiviteten til alder og ferdigheter."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva betyr vertskap?",
       "options": [
-        "Å eie et hus",
+        "Å sørge for at gjestene kjøper varer eller tjenester",
         "Å få gjestene til å føle seg velkomne",
-        "Å selge mest mulig",
-        "Å rydde etter gjestene"
+        "Å ta imot betaling fra gjestene ved inngangen",
+        "Å rydde lokalene etter at gjestene har gått hjem"
       ],
       "correct": 1,
       "explain": "Godt vertskap er viktig i reiseliv og service."
@@ -318,9 +318,9 @@
         "type": "flervalg",
         "text": "Hva er medbestemmelse i omsorgsarbeid?",
         "options": [
-          "At personalet bestemmer alt",
-          "At pårørende bestemmer alt",
-          "At kommunen bestemmer alt",
+          "At personalet bestemmer hvordan hjelpen skal gis, ut fra arbeidsplassens rutiner",
+          "At pårørende bestemmer personens hverdag uten å spørre om personens egne ønsker",
+          "At kommunen bestemmer hvilke valg personen får ta i sin hverdag",
           "At den som får hjelp, får bestemme over sitt eget liv så mye som mulig"
         ],
         "correct": 3,
@@ -332,9 +332,9 @@
         "text": "Hva er demens?",
         "options": [
           "En sykdom som gir svekket hukommelse",
-          "En type forkjølelse",
-          "En allergi",
-          "En skade i beinet"
+          "En sykdom som gir svekket syn",
+          "En sykdom som gir betennelse i luftveiene",
+          "En sykdom som gir smerter i leddene"
         ],
         "correct": 0,
         "explain": "Demens er vanligst hos eldre.",
@@ -346,9 +346,9 @@
         "text": "Hvilket utdanningsprogram fører til jobb i butikk eller resepsjon?",
         "options": [
           "Bygg- og anleggsteknikk",
-          "Elektro og datateknologi",
+          "Elektro- og datateknologi",
           "Salg, service og reiseliv",
-          "Naturbruk"
+          "Teknologi- og industrifag"
         ],
         "correct": 2,
         "explain": "Her lærer man om service, salg og vertskap.",
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

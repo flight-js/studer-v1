@@ -79,7 +79,7 @@
         "Sektordiagram",
         "Linjediagram",
         "Histogram",
-        "Stolpediagram med kategorier"
+        "Stolpediagram"
       ],
       "correct": 1,
       "explain": "Et linjediagram viser utvikling over tid og gjør det lett å se hvordan temperaturen stiger og synker."
@@ -88,9 +88,9 @@
       "id": "q02",
       "text": "Hva må sektorene i et sektordiagram til sammen utgjøre?",
       "options": [
-        "180°",
-        "100°",
-        "Antallet svar",
+        "50 %, altså 180°",
+        "25 %, altså 90°",
+        "75 %, altså 270°",
         "100 %, altså 360°"
       ],
       "correct": 3,
@@ -101,9 +101,9 @@
       "text": "Y-aksen i et diagram starter på 95. Hva kan det føre til?",
       "options": [
         "At små forskjeller ser store ut",
-        "At diagrammet blir mer nøyaktig",
-        "At dataene endres",
-        "At gjennomsnittet blir feil"
+        "At små forskjeller ser mindre ut",
+        "At målingene blir mer nøyaktige",
+        "At gjennomsnittet ser høyere ut"
       ],
       "correct": 0,
       "explain": "Når aksen er kuttet, blir forskjellene mellom stolpene overdrevet visuelt, selv om tallene er riktige."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvorfor er en nettavstemning der alle kan stemme, lite pålitelig?",
       "options": [
-        "Fordi den har for mange svar",
+        "Fordi svarene ikke kan telles automatisk",
         "Fordi utvalget ikke er representativt",
-        "Fordi nettet regner feil",
-        "Fordi den bare gir prosent"
+        "Fordi prosentene ikke viser noen fordeling",
+        "Fordi avstemningen ikke oppgir gjennomsnittet"
       ],
       "correct": 1,
       "explain": "De som velger å svare, er ofte de som er mest engasjert i saken. Da ligner ikke utvalget befolkningen."
@@ -148,9 +148,9 @@
       "id": "q07",
       "text": "En kommunes inntekter økte, men befolkningen økte mer. Hva kan da ha skjedd med inntektene per innbygger?",
       "options": [
-        "De må ha økt",
-        "De er uendret",
-        "Det kan ikke regnes ut",
+        "De må ha økt per innbygger",
+        "De må ha vært uendret per innbygger",
+        "De kan ikke sammenlignes per innbygger",
         "De kan ha gått ned"
       ],
       "correct": 3,
@@ -163,7 +163,7 @@
         "Histogram",
         "Sektordiagram",
         "Linjediagram",
-        "Punktdiagram over tid"
+        "Punktdiagram"
       ],
       "correct": 0,
       "explain": "Et histogram viser hvor mange verdier som havner i hvert intervall av en tallskala."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "En undersøkelse om en brusmerkes smak er betalt av produsenten. Hva bør du tenke?",
       "options": [
-        "At den er ekstra pålitelig",
-        "At avsenderen kan ha interesse av et bestemt resultat",
-        "At den må være feil",
-        "At utvalget er stort"
+        "At betalingen beviser at resultatet er feil",
+        "At produsenten kan ønske et bestemt resultat",
+        "At resultatet gjelder alle som drikker brus",
+        "At betalingen gjør utvalget representativt"
       ],
       "correct": 1,
       "explain": "Avsenderens interesser betyr ikke at tallene er feil, men du bør være ekstra kritisk til utvalg, spørsmål og presentasjon."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvilket av disse er et eksempel på å bruke utvalgte perioder?",
       "options": [
-        "Å vise alle år fra 2000 til i dag",
-        "Å bruke et histogram",
+        "Å vise alle årene fra 2000 til i dag",
+        "Å vise salget for hvert kvartal i året",
         "Å bare vise de tre årene der salget økte",
-        "Å oppgi både antall og prosent"
+        "Å vise hele tidsserien fra start til slutt"
       ],
       "correct": 2,
       "explain": "Å plukke ut bare de årene som passer argumentet, kan gi et helt annet inntrykk enn hele tidsserien."
@@ -316,9 +316,9 @@
         "text": "30 % av 200 elever sykler til skolen. Hvor mange grader utgjør syklistene i et sektordiagram?",
         "options": [
           "30°",
-          "60°",
+          "90°",
           "108°",
-          "90°"
+          "120°"
         ],
         "correct": 2,
         "explain": "30 % av 360° = 0,3 · 360° = 108°."
@@ -329,9 +329,9 @@
         "text": "Hvilket tall er best for å sammenligne kriminalitet i en storby og en liten kommune?",
         "options": [
           "Antall lovbrudd per 1000 innbyggere",
-          "Totalt antall lovbrudd",
-          "Antall politifolk",
-          "Kommunens areal"
+          "Totalt antall lovbrudd i kommunen",
+          "Antall innbyggere per 1000 lovbrudd",
+          "Antall politifolk per 1000 innbyggere"
         ],
         "correct": 0,
         "explain": "Et tall per innbygger tar hensyn til at storbyen har langt flere innbyggere."
@@ -341,9 +341,9 @@
         "type": "flervalg",
         "text": "Hva er et representativt utvalg?",
         "options": [
-          "Et utvalg der alle har samme mening",
+          "Et utvalg med personer fra samme klasse",
           "Et utvalg som ligner populasjonen",
-          "Et utvalg med bare eksperter",
+          "Et utvalg som består av eksperter",
           "Et utvalg som velger seg selv"
         ],
         "correct": 1,
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

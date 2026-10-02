@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva betyr u · v = 0?",
       "options": [
-        "At vektorene står vinkelrett på hverandre",
-        "At vektorene er parallelle",
-        "At vektorene er like",
-        "At en av dem er lengre"
+        "At vinkelen mellom vektorene er 90°",
+        "At vinkelen mellom vektorene er 0°",
+        "At vinkelen mellom vektorene er 45°",
+        "At vinkelen mellom vektorene er 180°"
       ],
       "correct": 0,
       "explain": "cos 90° = 0."
@@ -113,8 +113,8 @@
       "text": "Hva er arealet av trekant ABC?",
       "options": [
         "|AB × AC|",
-        "AB · AC",
-        "½ · AB · AC",
+        "½ · |AB · AC|",
+        "½ · |AB| · |AC|",
         "½ · |AB × AC|"
       ],
       "correct": 3,
@@ -138,8 +138,8 @@
       "options": [
         "u × v",
         "−(u × v)",
-        "0",
-        "2(u × v)"
+        "2(u × v)",
+        "(u × v)/2"
       ],
       "correct": 1,
       "explain": "Rekkefølgen betyr noe."
@@ -154,7 +154,7 @@
         "En kjegle"
       ],
       "correct": 2,
-      "explain": "Tetraederet er en sjettedel."
+      "explain": "Absoluttverdien av skalartrippelproduktet er volumet av et parallellepiped."
     },
     {
       "id": "q08",
@@ -174,8 +174,8 @@
       "options": [
         "[0, 0, 1]",
         "[0, 0, −1]",
-        "[1, 1, 0]",
-        "0"
+        "[0, 1, 0]",
+        "[1, 0, 0]"
       ],
       "correct": 0,
       "explain": "x × y = z etter høyrehåndsregelen."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva betyr det at (u × v) · w = 0?",
       "options": [
-        "At u og v er like",
+        "At u, v og w er parallelle",
         "At u, v og w ligger i samme plan",
-        "At w er lengst",
-        "At u står vinkelrett på v"
+        "At u, v og w har samme lengde",
+        "At u, v og w står parvis vinkelrett"
       ],
       "correct": 1,
       "explain": "Volumet er null."
@@ -307,8 +307,8 @@
         "options": [
           "11",
           "7",
-          "√11",
-          "49"
+          "49",
+          "13"
         ],
         "correct": 1,
         "explain": "√(4 + 9 + 36) = √49."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hvordan kontrollerer du et utregnet vektorprodukt?",
         "options": [
-          "Sjekk at skalarproduktet med begge vektorene er 0",
-          "Sjekk at det er positivt",
-          "Legg sammen koordinatene",
-          "Sjekk at lengden er 1"
+          "Sjekk at skalarproduktet med hver av vektorene er 0",
+          "Sjekk at skalarproduktet med hver av vektorene er 1",
+          "Sjekk at vektorproduktet er parallelt med begge vektorene",
+          "Sjekk at lengden av vektorproduktet er 1"
         ],
         "correct": 0,
         "explain": "Det skal stå vinkelrett på begge."
@@ -332,9 +332,9 @@
         "text": "Hvilken fysisk størrelse beregnes med vektorproduktet?",
         "options": [
           "Arbeid",
-          "Masse",
+          "Effekt",
           "Dreiemoment",
-          "Temperatur"
+          "Impuls"
         ],
         "correct": 2,
         "explain": "Arbeid bruker skalarproduktet.",
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -119,10 +119,10 @@
       "id": "q01",
       "text": "Hvorfor har grunnstoffene i samme gruppe lignende kjemiske egenskaper?",
       "options": [
-        "De har samme atommasse",
-        "De har like mange skall",
+        "De har samme antall elektronskall",
+        "De har like mange protoner",
         "De har like mange valenselektroner",
-        "De har like mange nøytroner"
+        "De har samme antall nøytroner"
       ],
       "correct": 2,
       "explain": "Valenselektronene avgjør hvordan et atom reagerer, og grunnstoffene i samme gruppe har like mange av dem."
@@ -132,21 +132,21 @@
       "text": "CO₂ har polare bindinger. Hvorfor er molekylet likevel upolart?",
       "options": [
         "Molekylet er lineært, så dipolene opphever hverandre",
-        "Karbon og oksygen har lik elektronegativitet",
-        "Bindingene i CO₂ er ioniske",
-        "CO₂ er en gass ved romtemperatur"
+        "Karbon og oksygen har lik elektronegativitet, så bindingene er upolare",
+        "Molekylet er vinklet, så dipolene opphever hverandre",
+        "Bindingene er upolare, men molekylet får en positiv og negativ ende"
       ],
       "correct": 0,
-      "explain": "Begge C=O-bindingene er polare, men de peker i motsatt retning med 180° mellom seg. Da opphever dipolene hverandre, og molekylet får ingen positiv og negativ ende."
+      "explain": "C=O-bindingene i CO₂ er polare. Siden molekylet er lineært, peker dipolene i motsatt retning og opphever hverandre."
     },
     {
       "id": "q03",
       "text": "Hva er den empiriske formelen for glukose, C₆H₁₂O₆?",
       "options": [
-        "C₆H₁₂O₆",
+        "C₃H₆O₃",
         "CH₂O",
         "C₂H₄O₂",
-        "CHO"
+        "C₆H₁₂O₃"
       ],
       "correct": 1,
       "explain": "Alle tallene i C₆H₁₂O₆ kan deles på 6. Det enkleste heltallsforholdet er 1 : 2 : 1, altså CH₂O."
@@ -155,13 +155,13 @@
       "id": "q04",
       "text": "Hvilke koeffisienter balanserer likningen __ Al + __ O₂ → __ Al₂O₃?",
       "options": [
-        "2, 3, 1",
         "2, 1, 1",
-        "4, 6, 2",
+        "2, 3, 2",
+        "4, 2, 2",
         "4, 3, 2"
       ],
       "correct": 3,
-      "explain": "4Al + 3O₂ → 2Al₂O₃ gir 4 aluminiumatomer og 6 oksygenatomer på hver side. Med 2, 3, 1 blir det 6 oksygenatomer til venstre, men bare 3 til høyre."
+      "explain": "4Al + 3O₂ → 2Al₂O₃ gir 4 aluminiumatomer og 6 oksygenatomer på hver side."
     },
     {
       "id": "q05",
@@ -169,8 +169,8 @@
       "options": [
         "At et stoff tar opp elektroner",
         "At et stoff avgir elektroner",
-        "At et stoff tar opp protoner",
-        "At et stoff avgir protoner"
+        "At et stoff avgir protoner",
+        "At et stoff tar opp protoner"
       ],
       "correct": 1,
       "explain": "Oksidasjon er avgivelse av elektroner, og da øker oksidasjonstallet. Overføring av protoner hører til syre-base-reaksjoner."
@@ -180,9 +180,9 @@
       "text": "50,0 mL 2,00 mol/L saltsyre fortynnes til 500 mL. Hva blir konsentrasjonen?",
       "options": [
         "0,200 mol/L",
-        "0,0200 mol/L",
-        "20,0 mol/L",
-        "1,00 mol/L"
+        "2,00 mol/L",
+        "0,100 mol/L",
+        "0,400 mol/L"
       ],
       "correct": 0,
       "explain": "c₂ = c₁ · V₁ / V₂ = 2,00 mol/L · 50,0 mL / 500 mL = 0,200 mol/L. Volumet ble ti ganger så stort, så konsentrasjonen ble en tidel."
@@ -191,8 +191,8 @@
       "id": "q07",
       "text": "Løsning A har pH 3 og løsning B har pH 5. Hvor mange ganger større er [H₃O⁺] i A enn i B?",
       "options": [
+        "10",
         "2",
-        "15",
         "20",
         "100"
       ],
@@ -215,37 +215,37 @@
       "id": "q09",
       "text": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g). Hva skjer med likevekten hvis trykket økes?",
       "options": [
-        "Den forskyves mot venstre",
-        "Ingenting skjer",
-        "Den forskyves mot høyre",
-        "Reaksjonen stopper"
+        "Likevekten forskyves mot venstre, der det er flere gassmolekyler",
+        "Likevekten forblir på samme sted, fordi trykk ikke påvirker gasser",
+        "Likevekten forskyves mot høyre, der det er færre gassmolekyler",
+        "Likevekten stopper, fordi partiklene presses for tett sammen"
       ],
       "correct": 2,
-      "explain": "Til venstre er det 4 gassmolekyler, til høyre 2. Økt trykk forskyver likevekten mot siden med færrest gassmolekyler, altså mot NH₃."
+      "explain": "Til venstre er det fire gassmolekyler, til høyre to. Økt trykk forskyver likevekten mot siden med færrest gassmolekyler, altså mot NH₃."
     },
     {
       "id": "q10",
       "text": "Hva sier Beer–Lamberts lov?",
       "options": [
-        "Absorbansen er omvendt proporsjonal med konsentrasjonen",
+        "Transmisjonen er proporsjonal med konsentrasjonen",
         "Absorbansen er proporsjonal med konsentrasjonen",
-        "Lys med kort bølgelengde har lav energi",
-        "Fargen på en løsning avhenger av temperaturen"
+        "Absorbansen er proporsjonal med bølgelengden",
+        "Absorbansen er proporsjonal med temperaturen"
       ],
       "correct": 1,
-      "explain": "Dobbelt så høy konsentrasjon gir dobbelt så høy absorbans. Det gjør at vi kan bruke en rett standardkurve for å finne ukjente konsentrasjoner."
+      "explain": "Ifølge Beer–Lamberts lov øker absorbansen proporsjonalt med konsentrasjonen når de andre forholdene er like. En standardkurve kan brukes til å finne en ukjent konsentrasjon."
     },
     {
       "id": "q11",
       "text": "Hva er et fornybart råstoff?",
       "options": [
-        "Råolje",
-        "Kull",
+        "Råstoff som dannes over millioner av år, for eksempel råolje",
+        "Råstoff som dannes av gamle planter over millioner av år, for eksempel kull",
         "Råstoff som fornyes i naturen, for eksempel fra planter",
-        "Metallmalm fra gruver"
+        "Råstoff som hentes fra bergarter i gruver, for eksempel jernmalm"
       ],
       "correct": 2,
-      "explain": "Fornybare råstoffer, som stivelse og cellulose fra planter, dannes på nytt i løpet av kort tid. Olje, kull og malm tar millioner av år å danne."
+      "explain": "Fornybare råstoffer, som stivelse og cellulose fra planter, dannes på nytt i løpet av kort tid."
     }
   ],
   "mindmap": {
@@ -397,7 +397,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -417,10 +417,10 @@
         "type": "flervalg",
         "text": "Hvor mange valenselektroner har et atom i gruppe 16, for eksempel oksygen?",
         "options": [
-          "2",
-          "4",
+          "5",
+          "7",
           "6",
-          "8"
+          "3"
         ],
         "correct": 2,
         "explain": "For hovedgruppene 13–18 er antall valenselektroner gruppenummeret minus 10. Gruppe 16 gir seks valenselektroner."
@@ -471,13 +471,13 @@
         "type": "flervalg",
         "text": "Hvorfor er en syntese med færre reaksjonstrinn ofte grønnere?",
         "options": [
-          "Den gir mer avfall",
-          "Den gir mindre tap, avfall og energibruk",
-          "Den gir høyere E-faktor",
-          "Den krever flere løsemidler"
+          "Den øker stofftapet fordi flere reaksjonstrinn må gjennomføres",
+          "Den gir mindre tap, avfall og energibruk i prosessen",
+          "Den øker E-faktoren når syntesen har færre reaksjonstrinn",
+          "Den øker løsemiddelbruken ved å korte ned syntesen"
         ],
         "correct": 1,
-        "explain": "Hvert trinn gir tap av stoff, bruk av løsemiddel og energi. Færre trinn betyr derfor som regel mindre avfall og lavere E-faktor."
+        "explain": "Når syntesen har færre trinn, trengs det mindre stoff, løsemiddel og energi, og mindre avfall kan oppstå."
       }
     ],
     "skriv": [
@@ -555,12 +555,88 @@
           "Definerer E-faktor som masse avfall per masse produkt."
         ],
         "niva": "over-niva"
+      },
+      {
+        "text": "Et atom har atomnummer 17 og massetall 37. Det tar opp ett elektron. Hvor mange protoner, nøytroner og elektroner har ionet? Forklar hva atomnummeret og massetallet forteller.",
+        "fasit": "Ionet har 17 protoner, 20 nøytroner og 18 elektroner. Atomnummeret angir antall protoner, mens massetallet er summen av protoner og nøytroner.",
+        "kriterier": [
+          "Oppgir 17 protoner og 20 nøytroner.",
+          "Oppgir 18 elektroner etter at atomet har tatt opp ett elektron.",
+          "Forklarer hva atomnummer og massetall angir."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Kalsiumioner har ladning 2+ og fosfationer har ladning 3−. Skriv formelen og navnet på forbindelsen de danner. Forklar hvorfor forbindelsen leder elektrisk strøm når den er løst i vann, men ikke som fast stoff.",
+        "fasit": "Formelen er Ca₃(PO₄)₂, og stoffet heter kalsiumfosfat. Tre Ca²⁺-ioner og to PO₄³⁻-ioner gir samlet ladning null. I fast stoff sitter ionene fast i ionegitteret, mens de kan bevege seg og lede strøm når stoffet er løst i vann.",
+        "kriterier": [
+          "Oppgir Ca₃(PO₄)₂ og navnet kalsiumfosfat.",
+          "Viser at forholdet mellom ionene gir samlet ladning null.",
+          "Forklarer at ionene er bundet i gitteret som fast stoff, men bevegelige i løsning."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En prøve på 200 mL har konsentrasjonen 0,10 mol/L CaCl₂. Beregn stoffmengden kloridioner i prøven, og forklar hvordan formelen til saltet brukes i beregningen.",
+        "fasit": "200 mL er 0,200 L, så stoffmengden CaCl₂ er 0,10 mol/L · 0,200 L = 0,020 mol. Hver formelenhet CaCl₂ gir to Cl⁻-ioner, så prøven inneholder 0,040 mol Cl⁻.",
+        "kriterier": [
+          "Regner ut 0,020 mol CaCl₂ i prøven.",
+          "Bruker at hvert CaCl₂ gir to kloridioner, og oppgir 0,040 mol Cl⁻."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En sinkbit legges i en løsning med Cu²⁺-ioner, og det dannes fast kobber og Zn²⁺-ioner. Forklar hvilken partikkel som avgir elektroner, hvilken som tar dem opp, og hvilken rolle sink og kobberionene har i redoksreaksjonen.",
+        "fasit": "Sinkatomene avgir elektroner og oksideres til Zn²⁺, mens Cu²⁺-ionene tar opp elektronene og reduseres til kobber. Sink er reduksjonsmiddel, og Cu²⁺-ionene er oksidasjonsmiddel.",
+        "kriterier": [
+          "Forklarer at sink avgir elektroner og oksideres, mens Cu²⁺ tar opp elektroner og reduseres.",
+          "Identifiserer sink som reduksjonsmiddel og Cu²⁺ som oksidasjonsmiddel."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Når natriumatomer får tilført energi, kan de sende ut lys når elektronene faller tilbake til lavere energinivåer. Forklar hvorfor lyset får bestemte bølgelengder, og hvordan et absorpsjonsspekter oppstår når hvitt lys sendes gjennom en gass.",
+        "fasit": "Elektronene kan bare ha bestemte energier, så overgangene mellom energinivåene gir lys med bestemte energier og bølgelengder. Når hvitt lys går gjennom en gass, absorberer atomene bestemte bølgelengder, som viser seg som mørke linjer i absorpsjonsspekteret.",
+        "kriterier": [
+          "Knytter bestemte energinivåer til bestemte energier eller bølgelengder i lyset.",
+          "Forklarer at gassen absorberer bestemte bølgelengder, som blir mørke linjer."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "I likevekten N₂(g) + 3H₂(g) ⇌ 2NH₃(g) økes trykket, og en katalysator tilsettes. Forklar hvordan trykkøkningen påvirker likevekten, og hva katalysatoren gjør med reaksjonene.",
+        "fasit": "Trykkøkningen forskyver likevekten mot høyre, fordi produktsiden har færre gassmolekyler. Katalysatoren øker farten på reaksjonene begge veier slik at likevekten nås raskere, men den forskyver ikke likevekten.",
+        "kriterier": [
+          "Forklarer at trykkøkningen forskyver likevekten mot NH₃-siden, som har færrest gassmolekyler.",
+          "Forklarer at katalysatoren gjør at likevekten nås raskere, uten å forskyve den."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Eddiksyre, som er en svak syre, titreres med en sterk base. Forklar hvorfor pH ved ekvivalenspunktet er over 7, og velg en indikator som passer til titreringen.",
+        "fasit": "Ved ekvivalenspunktet er eddiksyren nøytralisert, og acetationene som dannes, gjør løsningen basisk. Fenolftalein passer fordi den skifter farge i basisk område.",
+        "kriterier": [
+          "Knytter pH over 7 ved ekvivalenspunktet til at eddiksyre er en svak syre som titreres med sterk base, eller til de basiske acetationene.",
+          "Velger fenolftalein fordi ekvivalenspunktet er i basisk område."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Et firma bytter til råstoff fra planter, men dyrkingen krever mye vann og gjødsel. Firmaet vurderer også å erstatte et skadelig organisk løsemiddel med vann. Forklar hvilke prinsipper for grønn kjemi valgene kan støtte, og hvorfor man trenger en livsløpsanalyse før man konkluderer om bærekraft.",
+        "fasit": "Plantemateriale kan støtte prinsippet om å bruke fornybare råstoffer, og vann kan være et tryggere løsemiddel enn et skadelig organisk løsemiddel. Dyrkingen kan likevel kreve mye vann og gjødsel, så en livsløpsanalyse må vurdere produktet fra råstoff til avfall før man kan konkludere om bærekraft.",
+        "kriterier": [
+          "Knytter planteråstoff til fornybare råstoffer og vann til bruk av tryggere løsemidler.",
+          "Forklarer at ressursbruken i dyrkingen må vurderes gjennom hele livsløpet før man konkluderer om bærekraft."
+        ],
+        "id": "s16",
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

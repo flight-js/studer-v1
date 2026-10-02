@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvilken funksjon er en eksponentialfunksjon?",
       "options": [
-        "f(x) = 3x + 2",
+        "f(x) = 500 · 1,05x",
         "f(x) = 500 · 1,05ˣ",
-        "f(x) = x² − 4",
-        "f(x) = 12/x"
+        "f(x) = 500 · x²",
+        "f(x) = 500 · 1,05/x"
       ],
       "correct": 1,
       "explain": "I en eksponentialfunksjon står x i eksponenten. 500 · 1,05ˣ vokser med 5 % per enhet."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hvordan ser grafen til en andregradsfunksjon ut?",
       "options": [
-        "En rett linje",
-        "En hyperbel",
-        "En parabel",
-        "En sirkel"
+        "En rett linje med konstant stigning",
+        "En hyperbel med to adskilte grener",
+        "En parabel som åpner oppover eller nedover",
+        "En sirkel med jevn krumning"
       ],
       "correct": 2,
       "explain": "Grafen til f(x) = ax² + bx + c er en parabel, som enten smiler eller er sur."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "f(x) = −x² + 4x. Har grafen et toppunkt eller bunnpunkt?",
       "options": [
-        "Toppunkt, fordi a er negativ",
-        "Bunnpunkt, fordi a er negativ",
-        "Bunnpunkt, fordi 4 er positiv",
-        "Ingen av delene"
+        "Toppunkt, fordi koeffisienten foran x² er negativ",
+        "Bunnpunkt, fordi koeffisienten foran x² er negativ",
+        "Bunnpunkt, fordi koeffisienten foran x er positiv",
+        "Ingen ekstremalpunkt, fordi konstantleddet mangler"
       ],
       "correct": 0,
       "explain": "Tallet foran x² er −1. Når det er negativt, er parabelen sur og har et toppunkt."
@@ -125,7 +125,7 @@
       "options": [
         "t dobles",
         "t halveres",
-        "t er uendret",
+        "t forblir uendret",
         "t blir fire ganger så stor"
       ],
       "correct": 1,
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "En bil taper 15 % av verdien hvert år. Hvilken funksjonstype passer?",
       "options": [
-        "Lineær",
-        "Andregrads",
+        "Lineær nedgang",
+        "Andregradsfunksjon",
         "Eksponentiell nedgang",
-        "Omvendt proporsjonal"
+        "Omvendt proporsjonal funksjon"
       ],
       "correct": 2,
       "explain": "Verdien synker med samme prosent hvert år, så V(x) = startverdi · 0,85ˣ, en eksponentiell nedgang."
@@ -149,8 +149,8 @@
       "options": [
         "Der grafen krysser x-aksen",
         "Der grafen krysser y-aksen",
-        "Toppunktet",
-        "Origo"
+        "Der grafen har et topp- eller bunnpunkt",
+        "Der grafen passerer origo"
       ],
       "correct": 0,
       "explain": "Et nullpunkt er en x-verdi der funksjonsverdien er 0, altså der grafen skjærer x-aksen."
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hvilket kjennetegn har f(x) = 2 · 3ˣ?",
       "options": [
-        "Den øker med 3 per enhet",
-        "Den tredobles for hver enhet x øker",
-        "Den er en rett linje",
-        "Den har et toppunkt"
+        "Funksjonsverdien øker med 3 for hver enhet x øker",
+        "Funksjonsverdien tredobles for hver enhet x øker",
+        "Grafen stiger med samme beløp for hver enhet x øker",
+        "Funksjonsverdien dobles for hver enhet x øker"
       ],
       "correct": 1,
       "explain": "Vekstfaktoren er 3, så funksjonsverdien ganges med 3 hver gang x øker med 1: 2, 6, 18, 54 …"
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Kan en eksponentialfunksjon med nedgang bli null?",
       "options": [
-        "Ja, etter lang nok tid",
-        "Ja, når x = 0",
-        "Ja, når x = 1",
-        "Nei, den nærmer seg null, men blir aldri null"
+        "Ja, den blir null når x er stor nok",
+        "Ja, den blir null når x = 0",
+        "Ja, den blir null når x = 1",
+        "Nei, den nærmer seg null uten å bli null"
       ],
       "correct": 3,
       "explain": "Hver gang ganges verdien med et tall mellom 0 og 1. Den blir mindre og mindre, men aldri nøyaktig 0."
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hvilken situasjon passer best med en andregradsfunksjon?",
         "options": [
-          "Fast månedspris pluss pris per SMS",
+          "Kostnaden når fast månedspris legges til pris per SMS",
           "Høyden til en ball som kastes opp og faller ned",
-          "Penger med fast rente",
-          "Tid for en fast strekning ved ulik fart"
+          "Pengesummen som vokser med fast prosentvis rente hvert år",
+          "Tiden for å kjøre en fast strekning ved ulik fart"
         ],
         "correct": 1,
         "explain": "Ballens bane stiger, når et toppunkt og faller igjen, som en sur parabel."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

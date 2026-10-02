@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på analyse og tolkning?",
       "options": [
-        "Det er det samme",
-        "Analyse undersøker oppbygningen, tolkning finner betydningen",
-        "Tolkning handler om rim",
-        "Analyse er alltid muntlig"
+        "Analyse finner betydningen, mens tolkning undersøker oppbygningen.",
+        "Analyse undersøker oppbygningen, mens tolkning finner betydningen.",
+        "Analyse oppsummerer handlingen, mens tolkning beskriver forfatterens liv.",
+        "Analyse og tolkning betegner samme arbeid med teksten."
       ],
       "correct": 1,
       "explain": "Analysen er grunnlaget for tolkningen."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hva er forskjellen på motiv og tema?",
       "options": [
-        "Motiv er den konkrete situasjonen, tema det overordnede emnet",
-        "Tema er konkret, motiv er abstrakt",
-        "De betyr det samme",
-        "Motiv gjelder bare lyrikk"
+        "Motiv er den konkrete situasjonen, mens tema er det overordnede emnet.",
+        "Motiv er det overordnede emnet, mens tema er den konkrete situasjonen.",
+        "Motiv viser hvem som forteller, mens tema viser når handlingen skjer.",
+        "Motiv betegner tekstens sjanger, mens tema betegner fortellerperspektivet."
       ],
       "correct": 0,
       "explain": "For eksempel: forlater hjemmet – frihet."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er en kontekstuell lesning?",
       "options": [
-        "En lesning som bare ser på rim",
-        "En lesning som bare ser på forfatterens liv",
-        "En lesning i lys av tiden og epoken teksten ble skrevet i",
-        "En lesning uten tekst"
+        "En lesning som undersøker tekstens rim, rytme og strofeform.",
+        "En lesning som tolker teksten ut fra leserens egne erfaringer.",
+        "En lesning som ser teksten i lys av tiden den ble skrevet i.",
+        "En lesning som undersøker tekstens forteller og synsvinkel."
       ],
       "correct": 2,
       "explain": "Knytter teksten til epoken."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva trenger du for å sammenligne to tekster?",
       "options": [
-        "Samme forfatter",
-        "Samme lengde",
-        "Samme årstall",
+        "En felles forfatter",
+        "En tilsvarende lengde",
+        "Et nært utgivelsesår",
         "Et sammenligningsgrunnlag"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva er en fordel med å sammenligne punkt for punkt?",
       "options": [
-        "Den gir en tettere sammenligning",
-        "Den er alltid kortest",
-        "Den krever ingen sitater",
-        "Den gir to separate analyser"
+        "Den setter tekstene opp mot hverandre underveis og gir en tettere sammenligning.",
+        "Den gjør det naturlig å analysere tekstene hver for seg før sammenligningen.",
+        "Den lar deg vektlegge oppsummering framfor sammenligning mellom tekstene.",
+        "Den gjør at sammenligningen kan baseres på handlingen i én tekst."
       ],
       "correct": 0,
       "explain": "Tekstene ses opp mot hverandre hele veien."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva hører hjemme i innledningen til en litterær tolkning?",
       "options": [
-        "Kildelisten",
-        "Konklusjonen",
-        "Tekst, forfatter, årstall og en problemstilling",
-        "Alle sitatene"
+        "En kildeliste, fullstendige referanser og vedlegg.",
+        "En avsluttende konklusjon, vurdering og oppsummering.",
+        "Tekst, forfatter, årstall og en problemstilling.",
+        "En detaljert drøfting, sitatanalyse og tekstbelegg."
       ],
       "correct": 2,
       "explain": "Gi leseren oversikt."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva er besjeling?",
       "options": [
-        "Rim på slutten av linjen",
-        "Gjentakelse av lyd",
-        "En type forteller",
-        "At ting eller natur får menneskelige egenskaper"
+        "Besjeling er når ord på slutten av verselinjer rimer.",
+        "Besjeling er når bestemte språklyder gjentas i teksten.",
+        "Besjeling er en fortellerstemme som bruker første person.",
+        "Besjeling er når ting eller natur får menneskelige egenskaper."
       ],
       "correct": 3,
       "explain": "Et språklig bilde."
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hvorfor bør du kommentere sitatene du bruker?",
       "options": [
-        "For å vise hvordan de støtter tolkningen",
-        "For å gjøre teksten lengre",
-        "Fordi sitater er ulovlige uten kommentar",
-        "For å referere handlingen"
+        "Du kommenterer sitatene for å vise hvordan de støtter tolkningen.",
+        "Du kommenterer sitatene for å gjøre avsnittet mer omfattende.",
+        "Du kommenterer sitatene for å gjenfortelle handlingen i teksten.",
+        "Du kommenterer sitatene for å vise at de er gjengitt ordrett."
       ],
       "correct": 0,
       "explain": "Sitater alene forklarer ingenting."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvilket ord passer godt i en sammenligning?",
       "options": [
-        "«Derfor»",
+        "«Som et resultat»",
         "«I motsetning til»",
-        "«Først»",
-        "«Til slutt»"
+        "«I første omgang»",
+        "«Til slutt i teksten»"
       ],
       "correct": 1,
       "explain": "Viser forskjeller."
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva er indirekte karakteristikk?",
         "options": [
-          "Fortelleren sier rett ut hvordan personen er",
-          "Personen beskrives gjennom handlinger og replikker",
-          "Personen har ingen replikker",
-          "Personen er fortelleren"
+          "Fortelleren oppgir direkte hvilke egenskaper personen har.",
+          "Personens egenskaper kommer fram gjennom handlinger og replikker.",
+          "En utenforstående forteller skildrer hendelsene i tredje person.",
+          "Personen forteller om hendelsene med jeg-form."
         ],
         "correct": 1,
         "explain": "Leseren må slutte seg til egenskapene."
@@ -327,9 +327,9 @@
         "text": "Hva er et lyrisk jeg?",
         "options": [
           "Stemmen som taler i et dikt",
-          "Forfatteren selv alltid",
-          "Leseren",
-          "Hovedpersonen i en roman"
+          "Personen som skrev diktet",
+          "Personen som leser diktet høyt",
+          "Hovedpersonen som styrer handlingen i en roman"
         ],
         "correct": 0,
         "explain": "Ikke nødvendigvis det samme som forfatteren."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva kan være sammenligningsgrunnlaget for Et dukkehjem og en samtidsroman om samlivsbrudd?",
         "options": [
-          "Antall sider",
-          "Forlaget",
+          "Fortellerperspektiv og synsvinkel i begge romanene",
+          "Rim og strofeform i begge prosadiktene",
           "Frihet og roller i parforholdet",
-          "Forfatterens fødested"
+          "Verserytme og strofeinndeling i tekstene"
         ],
         "correct": 2,
         "explain": "Et felles tema."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

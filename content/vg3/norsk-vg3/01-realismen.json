@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva krevde Georg Brandes i 1871?",
       "options": [
-        "At litteraturen skulle idealisere naturen",
+        "At litteraturen skulle skildre idealiserte landskap",
         "At litteraturen skulle sette problemer under debatt",
-        "At litteraturen skulle skrives på nynorsk",
-        "At litteraturen skulle handle om fortiden"
+        "At litteraturen skulle bruke norsk folkemål",
+        "At litteraturen skulle hente stoff fra middelalderen"
       ],
       "correct": 1,
       "explain": "Startskuddet for det moderne gjennombruddet."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hva kjennetegner realismen?",
       "options": [
-        "Hverdagslige personer og samfunnskritikk",
-        "Drømmer og mystikk",
-        "Helter fra sagatiden",
-        "Bare naturskildringer"
+        "Hverdagslige mennesker og kritikk av samfunnet",
+        "Drømmerike skikkelser og uforklarlige hendelser",
+        "Sagnhelter og gamle nasjonale fortellinger",
+        "Naturbilder og følelsesladde landskap"
       ],
       "correct": 0,
       "explain": "Litteraturen skulle skildre virkeligheten."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva skjer på slutten av Et dukkehjem?",
       "options": [
-        "Nora dør",
-        "Helmer forlater Nora",
-        "Familien flytter",
-        "Nora forlater mann og barn"
+        "Nora dør før hun rekker å forlate familien",
+        "Helmer forlater Nora og barna etter en krangel",
+        "Familien flytter sammen til et nytt hjem",
+        "Nora forlater Helmer og barna og går hjemmefra"
       ],
       "correct": 3,
       "explain": "Slutten skapte skandale i Europa."
@@ -127,9 +127,9 @@
       "text": "Hva handler Bjørnsons En hanske om?",
       "options": [
         "Lik seksualmoral for kvinner og menn",
-        "Et slag i middelalderen",
-        "Arvelig sykdom",
-        "Industrialisering"
+        "Ulik seksualmoral for kvinner og menn",
+        "Lik arverett for kvinner og menn",
+        "Kvinners rett til stemmerett og politisk deltakelse"
       ],
       "correct": 0,
       "explain": "En del av sedelighetsdebatten.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva står i sentrum i realismen?",
       "options": [
-        "Naturen",
-        "Guds plan",
+        "Mennesket i naturens vold",
+        "Helter fra nasjonens fortid",
         "Mennesket i samfunnet",
-        "Nasjonens storhet"
+        "Mennesket under Guds ledelse"
       ],
       "correct": 2,
       "explain": "Naturen spiller en mindre rolle enn i romantikken."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvilken samfunnsendring påvirket realismen?",
       "options": [
-        "Reformasjonen",
-        "Svartedauden",
-        "Vikingtiden",
+        "Reformasjonen og kirkens maktstrid",
+        "Vikingferder og framvekst av kongemakten",
+        "Nasjonalromantikk og interesse for folkekultur",
         "Industrialisering og ny naturvitenskap"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva handler En folkefiende om?",
       "options": [
         "En lege som blir stemplet som fiende fordi han forteller sannheten",
-        "En kvinne som forlater familien",
-        "En bonde som arver en gård",
-        "En prest som mister troen"
+        "En kvinne forlater familien etter en alvorlig konflikt med ektemannen",
+        "En embetsmann skjuler økonomisk svindel for familien og lokalsamfunnet",
+        "En ung mann rammes av en sykdom han har arvet fra faren"
       ],
       "correct": 0,
       "explain": "Om sannhet mot flertallets interesser.",
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hvem skrev Familjen paa Gilje?",
         "options": [
-          "Kielland",
+          "Alexander Kielland",
           "Jonas Lie",
-          "Ibsen",
-          "Collett"
+          "Henrik Ibsen",
+          "Camilla Collett"
         ],
         "correct": 1,
         "explain": "Om familieliv og ekteskap.",
@@ -332,9 +332,9 @@
         "text": "Hva handler Gengangere om?",
         "options": [
           "Arvelig sykdom og dobbeltmoral",
-          "En lege og et kurbad",
-          "Kvinners stemmerett",
-          "En reise til Amerika"
+          "Forurenset kurbad og lokalpolitisk konflikt",
+          "Kvinners stemmerett og politisk organisering",
+          "Utvandring og tilpasning til amerikansk samfunn"
         ],
         "correct": 0,
         "explain": "Ibsen, 1881."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva kalles litteratur som tar opp samfunnsproblemer til debatt?",
         "options": [
-          "Heltedikt",
-          "Eventyr",
+          "Heltediktning",
+          "Folkeeventyr",
           "Problemlitteratur",
-          "Nyromantikk"
+          "Naturlyrikk"
         ],
         "correct": 2,
         "explain": "Typisk for det moderne gjennombruddet."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -80,8 +80,8 @@
       "options": [
         "Aristoteles",
         "Lloyd Bitzer",
-        "Stephen Toulmin",
-        "Berit Ås"
+        "Kenneth Burke",
+        "Wayne Booth"
       ],
       "correct": 1,
       "explain": "Artikkelen kom i 1968.",
@@ -92,9 +92,9 @@
       "text": "Hva er det påtrengende problemet i en retorisk situasjon?",
       "options": [
         "En utfordring som kan endres gjennom ord",
-        "Et problem med teksten",
-        "En skrivefeil",
-        "Talerens nervøsitet"
+        "Et språklig problem som står i selve teksten",
+        "En utfordring som skyldes talerens usikkerhet",
+        "En feil i teksten som må rettes før publisering"
       ],
       "correct": 0,
       "explain": "Det er grunnen til at teksten blir til."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvem er det retoriske publikummet?",
       "options": [
-        "Alle som leser teksten",
-        "Bare journalister",
+        "De som leser teksten, men ikke kan påvirke saken",
+        "De som skrev innlegget og valgte argumentene",
         "De som kan påvirkes og har mulighet til å handle",
-        "Talerens familie"
+        "De som omtales i saken, uten mulighet til å handle"
       ],
       "correct": 2,
       "explain": "Publikum må kunne gjøre noe med problemet."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva betyr decorum?",
       "options": [
-        "Det rette øyeblikket",
-        "Troverdighet",
-        "Følelser",
-        "Det passende"
+        "Det som virker troverdig for publikum",
+        "Det som vekker følelser hos publikum",
+        "Det rette tidspunktet for å tale",
+        "Det som passer til situasjonen"
       ],
       "correct": 3,
       "explain": "Språk og tone må passe til situasjonen."
@@ -128,9 +128,9 @@
       "text": "Hva er et eksempel på en begrensning i en retorisk situasjon?",
       "options": [
         "Talerens rolle og publikums holdninger",
-        "Teksten er for kort",
-        "Teksten har bilder",
-        "Publikum er stort"
+        "Tekstens skrifttype og sidens marger",
+        "Talerens klær og rommets temperatur",
+        "Tekstens avsnitt og overskriftenes utforming"
       ],
       "correct": 0,
       "explain": "Begrensninger påvirker hva som kan sies."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva betyr det at en tekst er et «passende svar»?",
       "options": [
-        "At den er kort",
-        "At den svarer godt på situasjonen",
-        "At den er høflig",
-        "At den har mange argumenter"
+        "At teksten følger sjangerens vanlige oppbygning",
+        "At teksten svarer godt på situasjonen",
+        "At teksten unngår sterke følelsesuttrykk",
+        "At teksten presenterer flere argumenter for saken"
       ],
       "correct": 1,
       "explain": "Innhold, tone og tid må passe."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er kairos?",
       "options": [
-        "Det passende",
-        "En type argument",
+        "Det passende svaret",
+        "Talerens troverdighet",
         "Det rette øyeblikket",
-        "Talerens troverdighet"
+        "Publikums følelser"
       ],
       "correct": 2,
       "explain": "Timing er avgjørende for gjennomslag."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "En statsminister holder tale etter en nasjonal tragedie. Hva er et typisk mål med talen?",
       "options": [
-        "Å selge et produkt",
-        "Å kritisere opposisjonen",
-        "Å fortelle vitser",
+        "Å informere om praktiske hjelpetiltak",
+        "Å forklare hendelsesforløpet for publikum",
+        "Å presentere regjeringens politiske prioriteringer",
         "Å trøste, samle og vise retning"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvilket spørsmål er nyttig når du gjør rede for den retoriske situasjonen?",
       "options": [
         "Hvorfor ble teksten skrevet akkurat da?",
-        "Hvor mange ord har teksten?",
-        "Hvilken skrifttype er brukt?",
-        "Hva er forfatterens favorittfarge?"
+        "Hvilke ordklasser forekommer oftest i teksten?",
+        "Hvordan er tekstens avsnitt og overskrifter satt opp?",
+        "Hvilke virkemidler skaper rytme og klang?"
       ],
       "correct": 0,
       "explain": "Konteksten forklarer mye av teksten."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "En elev skriver et leserinnlegg mot nedleggelse av skolebussen. Hvem er det retoriske publikummet?",
       "options": [
-        "Bussjåføren",
-        "Politikerne som kan endre vedtaket, og innbyggerne som kan presse dem",
-        "Elevens venner",
-        "Avisens redaktør"
+        "Bussjåføren på ruta og korrekturleseren i avisa, uten innflytelse på vedtaket",
+        "Politikerne som kan endre vedtaket, og innbyggere som kan påvirke dem",
+        "Elevens venner og familiemedlemmer, uten mulighet til å påvirke beslutningen",
+        "Avisens lesere og ansatte, uten innflytelse på kommunens vedtak"
       ],
       "correct": 1,
       "explain": "Publikum må kunne handle."
@@ -315,9 +315,9 @@
         "text": "Hva er et verdiord?",
         "options": [
           "Et ord med sterke positive assosiasjoner, som fellesskap",
-          "Et ord om penger",
-          "Et fagord",
-          "Et fremmedord"
+          "Et ord om pengebeløp, som prisnivå",
+          "Et fagord fra grammatikken, som leddsetning",
+          "Et fremmedord uten norsk opprinnelse, som déjà vu"
         ],
         "correct": 0,
         "explain": "Verdiord brukes mye i taler."
@@ -342,9 +342,9 @@
         "text": "Hvorfor bruker taler etter kriser ofte et inkluderende «vi»?",
         "options": [
           "For å skape samhold",
-          "For å gjøre talen lengre",
-          "For å skjule taleren",
-          "For å være uformell"
+          "For å skape avstand fra publikum",
+          "For å understreke individuelle forskjeller",
+          "For å framheve talerens personlige erfaring"
         ],
         "correct": 0,
         "explain": "Det skaper fellesskap mellom taler og publikum."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

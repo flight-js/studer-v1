@@ -126,10 +126,10 @@
       "id": "q01",
       "text": "How do you make the th-sound in “think”?",
       "options": [
-        "Like a t",
+        "With the tongue tip behind the teeth",
         "With the tongue between the teeth",
-        "With rounded lips",
-        "Like an f"
+        "With the lower lip against the teeth",
+        "With rounded lips and a closed mouth"
       ],
       "correct": 1,
       "explain": "The tongue tip goes between the teeth. Saying “tink” is a common mistake."
@@ -138,9 +138,9 @@
       "id": "q02",
       "text": "What is most important in pronunciation?",
       "options": [
-        "Sounding exactly like the King",
-        "Speaking as fast as possible",
-        "Using only American accent",
+        "Sounding like a native speaker",
+        "Speaking with a British accent",
+        "Using a regional English accent",
         "Being easy to understand"
       ],
       "correct": 3,
@@ -150,34 +150,34 @@
       "id": "q03",
       "text": "Choose the correct sentence.",
       "options": [
-        "She play the guitar.",
-        "She plays the guitar.",
-        "She playing the guitar.",
-        "She are playing the guitar."
+        "Everybody are here.",
+        "Everybody were here.",
+        "Everybody is here.",
+        "Everybody have arrived."
       ],
-      "correct": 1,
-      "explain": "With “she” in the present simple, the verb needs -s: she plays."
+      "correct": 2,
+      "explain": "“Everybody” is grammatically singular: Everybody is here."
     },
     {
       "id": "q04",
       "text": "Which sentence is correct?",
       "options": [
-        "Can you give me an advice?",
-        "Can you give me some advices?",
-        "Can you give me a advice?",
-        "Can you give me some advice?"
+        "She is an doctor.",
+        "She is a doctor.",
+        "She are a doctor.",
+        "She is a doctors."
       ],
-      "correct": 3,
-      "explain": "“Advice” is uncountable in English. Say “some advice” or “a piece of advice”."
+      "correct": 1,
+      "explain": "English uses a/an before jobs: She is a doctor."
     },
     {
       "id": "q05",
       "text": "What is a theme?",
       "options": [
-        "The title",
-        "The place where the story happens",
+        "The central problem in the story",
+        "The sequence of events in the story",
         "The main idea or message of the story",
-        "The first sentence"
+        "The narrator's point of view in the story"
       ],
       "correct": 2,
       "explain": "The theme is what the story is really about on a deeper level, like loneliness or courage."
@@ -186,10 +186,10 @@
       "id": "q06",
       "text": "What should a good body paragraph in an analysis contain?",
       "options": [
-        "Only a long quotation",
-        "A retelling of the whole plot",
-        "A topic sentence, evidence from the text and your own explanation",
-        "Only your personal opinion"
+        "A plot summary, personal opinions and character descriptions",
+        "A topic sentence, a plot retelling and a personal opinion",
+        "A topic sentence, textual evidence and your explanation",
+        "A quotation, a setting description and a plot summary"
       ],
       "correct": 2,
       "explain": "A clear point, evidence and explanation show that your interpretation is based on the text."
@@ -198,22 +198,23 @@
       "id": "q07",
       "text": "Which greeting is best in an email to a company when you do not know the name?",
       "options": [
-        "Hey guys!",
+        "Dear Mr Brown,",
         "Dear Sir or Madam,",
-        "Hi there,",
-        "Yo,"
+        "Dear Ms Jones,",
+        "Hello there,"
       ],
       "correct": 1,
-      "explain": "“Dear Sir or Madam” is the standard formal greeting when you do not know the receiver's name."
+      "explain": "“Dear Sir or Madam” is the standard formal greeting when you do not know the receiver's name.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
       "text": "What is register?",
       "options": [
         "How formal or informal language is",
-        "A list of names",
-        "The length of a text",
-        "A spelling rule"
+        "How a text is organised into sections",
+        "The number of words in a text",
+        "The rules for spelling words correctly"
       ],
       "correct": 0,
       "explain": "Register is about adapting language to purpose, receiver and situation."
@@ -222,10 +223,10 @@
       "id": "q09",
       "text": "What happened in 1776?",
       "options": [
-        "The Civil War ended",
+        "The colonies signed the US Constitution",
         "The colonies declared independence from Britain",
-        "Slavery was abolished",
-        "The first president was elected"
+        "The Civil War ended between the North and South",
+        "Slavery was abolished across the United States"
       ],
       "correct": 1,
       "explain": "The Declaration of Independence was adopted on 4 July 1776.",
@@ -235,10 +236,10 @@
       "id": "q10",
       "text": "What does “checks and balances” mean?",
       "options": [
-        "The three branches of government control each other",
-        "The president decides everything",
-        "A way of paying taxes",
-        "A type of bank account"
+        "Each branch of government can limit the power of the others",
+        "Each branch of government has the same role and powers",
+        "Each branch of government is controlled by the president",
+        "Each branch of government makes decisions without review"
       ],
       "correct": 0,
       "explain": "The system prevents any one branch from getting too much power.",
@@ -248,10 +249,10 @@
       "id": "q11",
       "text": "What is assimilation?",
       "options": [
-        "Forcing a minority to give up its culture and adopt the majority culture",
-        "Learning several languages",
-        "Moving to another country",
-        "Building new schools"
+        "Forcing a minority to give up its culture for the majority culture",
+        "Supporting a minority as it preserves its culture and language",
+        "Helping minority groups learn the majority language while keeping their customs",
+        "Allowing cultural groups to maintain separate schools and traditions"
       ],
       "correct": 0,
       "explain": "Assimilation policies tried to make indigenous peoples abandon their languages and traditions."
@@ -261,9 +262,9 @@
       "text": "What does reconciliation mean in this context?",
       "options": [
         "Recognising past injustice and working for a fairer future",
-        "Forgetting history",
-        "Moving people to new areas",
-        "Building more roads"
+        "Discussing past injustice without changing unfair policies",
+        "Moving affected communities to new areas to prevent conflict",
+        "Building shared projects without addressing past harms"
       ],
       "correct": 0,
       "explain": "Reconciliation involves truth, recognition and concrete steps to improve the situation."
@@ -401,7 +402,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -450,10 +451,10 @@
         "type": "flervalg",
         "text": "What does the Supreme Court do?",
         "options": [
-          "Leads the army",
+          "Decides how federal laws should be written",
           "Decides whether laws follow the Constitution",
-          "Elects the president",
-          "Collects taxes"
+          "Decides how federal laws should be enforced",
+          "Decides how federal taxes should be spent"
         ],
         "correct": 1,
         "explain": "The Supreme Court is the highest court and interprets the Constitution.",
@@ -545,12 +546,90 @@
           "Identifies the shared pressure to give up language or culture."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "The word “record” has two common meanings, and “present” can also be a noun or a verb. Show where the stress falls in each word when it is a noun and when it is a verb, using capital letters for the stressed syllable.",
+        "fasit": "As a noun, it is REcord and PREsent. As a verb, it is reCORD and preSENT.",
+        "kriterier": [
+          "Shows that the stress is on the first syllable for both nouns.",
+          "Shows that the stress is on the second syllable for both verbs."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "A student means that they own many books and may visit London one day. Correct this sentence and explain the two language mistakes: “I have much books and two advices. Eventually, I might visit London.”",
+        "fasit": "I have many books and two pieces of advice. I might possibly visit London one day. “Books” can be counted, but “advice” is uncountable, and “eventually” means “in the end”.",
+        "kriterier": [
+          "Uses “many books” and “two pieces of advice”.",
+          "Explains that “eventually” means “in the end”, not “possibly”."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "In a short story, Leo says he is not afraid of the storm. He grips the railing, but then goes back into the flooded garden to rescue his sister’s dog. Explain what Leo’s actions suggest about his character and identify one kind of conflict in the story.",
+        "fasit": "Leo’s actions indirectly show that he is brave and cares about others, even though he is frightened. The storm is an external conflict because it creates danger outside him.",
+        "kriterier": [
+          "Uses Leo’s actions as evidence of a character trait.",
+          "Identifies an external conflict, such as Leo facing the storm."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "A short story is set in the southern United States in 1955. A Black passenger refuses to give up a seat on a bus where rules separate Black and white passengers. Explain how the setting helps create the story’s conflict and connect it to a historical fact.",
+        "fasit": "The setting shows the segregation and discrimination that African Americans faced in the South. The passenger’s conflict is with the unfair rules, and the event recalls Rosa Parks refusing to give up her bus seat in 1955.",
+        "kriterier": [
+          "Connects the setting to segregation or discrimination in the South.",
+          "Connects the story to Rosa Parks or the civil rights movement."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "The United States is sometimes called a “nation of immigrants”. Explain why this description does not tell the whole story of the country’s peoples, and include one fact about Native Americans during westward expansion.",
+        "fasit": "Native American peoples lived in the land before Europeans arrived, so they were not immigrants to it. During westward expansion, the country grew at their expense, and many lost land or were forced onto reservations.",
+        "kriterier": [
+          "Explains that Native American peoples lived there before European arrival.",
+          "Mentions land loss, reservations, or another stated consequence of westward expansion."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "In a short story, a Sámi child is punished at school for speaking Sámi. The child feels torn between obeying the teacher and using their language with a friend. Explain the child’s conflict and connect it to a historical policy in Norway.",
+        "fasit": "The child has an internal conflict because they feel torn between two choices. The situation reflects Norwegianisation, when Sámi people were pressured to give up their language and children were often not allowed to speak Sámi at school.",
+        "kriterier": [
+          "Identifies the child’s internal conflict.",
+          "Connects the situation to Norwegianisation and pressure to give up Sámi language or culture."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Write a headline and opening for a neutral, informative article about the American civil rights movement. Include one person or event from the movement and explain what it helped bring about.",
+        "fasit": "**The Fight for Equal Rights**\nIn the 1950s and 1960s, the civil rights movement used peaceful protests to fight discrimination against African Americans. Rosa Parks’s refusal to give up her bus seat in 1955 became an important event, and new laws in the 1960s banned discrimination.",
+        "kriterier": [
+          "Uses a headline and an informative, neutral style.",
+          "Includes a relevant person or event and links the movement to laws banning discrimination or the fight for equal rights."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Explain how the stress differs in “REcord” and “reCORD”. What difference in meaning or word class can the stress show?",
+        "fasit": "In REcord, the stress is on the first syllable, and the word is a noun. In reCORD, the stress is on the second syllable, and the word is a verb.",
+        "kriterier": [
+          "Identifies the first-syllable stress in the noun and second-syllable stress in the verb.",
+          "Correctly links the stress pattern to the word class."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

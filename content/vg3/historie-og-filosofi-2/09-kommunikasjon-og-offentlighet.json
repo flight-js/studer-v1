@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva var Habermas' ideal for offentligheten?",
       "options": [
-        "At de mektigste bestemmer",
+        "At argumentene vurderes etter talernes status",
         "At det beste argumentet skal vinne",
-        "At bare eksperter snakker",
-        "At staten styrer debatten"
+        "At fagpersonenes vurderinger skal veie tyngst",
+        "At myndighetenes syn skal styre debatten"
       ],
       "correct": 1,
       "explain": "Uavhengig av hvem som sier det."
@@ -89,9 +89,9 @@
       "text": "Hvilken betydning hadde trykkekunsten?",
       "options": [
         "Den gjorde bøker billigere og spredte kunnskap",
-        "Den stoppet reformasjonen",
-        "Den gjorde bøker dyrere",
-        "Den hadde ingen betydning"
+        "Den gjorde bøker dyrere og begrenset kunnskapsspredningen",
+        "Den gjorde bøker billigere, men stanset spredningen av kunnskap",
+        "Den gjorde bøker dyrere og samlet kunnskap hos lærde"
       ],
       "correct": 0,
       "explain": "Viktig for reformasjonen og opplysningstiden."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er en filterboble?",
       "options": [
-        "En type avis",
-        "En algoritme for skatt",
+        "At vi mest får se innhold som utfordrer våre synspunkter",
+        "At vi mest får se innhold som redaktører velger for alle",
         "At vi mest får se innhold som passer våre synspunkter",
-        "En samtale"
+        "At vi mest får se innhold i publiseringsrekkefølge"
       ],
       "correct": 2,
       "explain": "Kan forsterke polarisering."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er oppmerksomhetsøkonomien?",
       "options": [
-        "At aviser er gratis",
-        "At staten betaler for medier",
-        "At folk sparer tid",
+        "At plattformer tjener penger på abonnementer framfor oppmerksomhet",
+        "At plattformer tjener penger på statlig støtte framfor brukerdata",
+        "At plattformer tjener penger på papiraviser framfor annonser",
         "At plattformer tjener penger på tiden og dataene våre"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er en deepfake?",
       "options": [
         "En falsk video eller lyd laget med KI",
-        "En type avis",
-        "En faktasjekk",
-        "En dyp debatt"
+        "En ekte video eller lyd forbedret med KI",
+        "En falsk tekst eller artikkel laget med KI",
+        "En redigert video eller lyd laget uten KI"
       ],
       "correct": 0,
       "explain": "Kan påvirke valg.",
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva betyr post-truth?",
       "options": [
-        "Tiden etter sannhetskommisjoner",
+        "At fakta og dokumentasjon betyr mer enn følelser i debatten",
         "At følelser og identitet betyr mer enn fakta i debatten",
-        "At alt er sant",
-        "At fakta er viktigere enn før"
+        "At personlige meninger erstatter politiske partier i debatten",
+        "At sannhet avgjøres av flertallet framfor kilder i debatten"
       ],
       "correct": 1,
       "explain": "Årets ord i 2016."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er en mulighet sosiale medier gir?",
       "options": [
-        "Mer overvåking",
-        "Mer netthets",
+        "At sosiale medier gir etablerte medier enerett på offentlig debatt",
+        "At sosiale medier gjør det vanskeligere å organisere protester",
         "At grupper som ikke ble hørt, kan organisere og mobilisere",
-        "Mer desinformasjon"
+        "At sosiale medier begrenser grupper til lokale samtaler"
       ],
       "correct": 2,
       "explain": "For eksempel under den arabiske våren."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvorfor viser algoritmer ofte innhold som skaper sinne?",
       "options": [
-        "Fordi det er sant",
-        "Fordi det er lovpålagt",
-        "Fordi det er kort",
+        "Fordi det øker sakligheten i debatten",
+        "Fordi det fremmer balansert nyhetsdekning",
+        "Fordi det styrker brukernes kildekritikk",
         "Fordi det skaper engasjement"
       ],
       "correct": 3,
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hvordan ble radio brukt i Nazi-Tyskland?",
       "options": [
-        "Til propaganda",
-        "Til faktasjekk",
-        "Til fri debatt",
-        "Den ble forbudt"
+        "Som redskap for politisk propaganda",
+        "Som redskap for uavhengig journalistikk",
+        "Som redskap for fri politisk debatt",
+        "Som redskap for kritikk av regimet"
       ],
       "correct": 0,
       "explain": "Massemedier kan misbrukes.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva kan være et mottiltak mot desinformasjon?",
       "options": [
-        "Flere anonyme kontoer",
+        "Anonyme kontoer og ukontrollerte delinger",
         "Faktasjekk og redaktørstyrte medier",
-        "Mindre kildekritikk",
-        "Flere algoritmer som viser sinne"
+        "Personlige meninger og rask videreformidling",
+        "Algoritmer som fremmer følelsesladet innhold"
       ],
       "correct": 1,
       "explain": "Også regulering av plattformer."
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hvor vokste den borgerlige offentligheten fram?",
         "options": [
-          "I kirkene",
+          "I kirker, klostre og universiteter",
           "I kaffehus, salonger og aviser",
-          "I kongens slott",
-          "I fabrikkene"
+          "I kongelige hoff, råd og ministerier",
+          "I verksteder, fabrikker og handelsboder"
         ],
         "correct": 1,
         "explain": "På 1700-tallet.",
@@ -325,9 +325,9 @@
         "text": "Hvilket år ble post-truth årets ord hos Oxford?",
         "options": [
           "2016",
-          "2001",
-          "2010",
-          "2020"
+          "2015",
+          "2017",
+          "2018"
         ],
         "correct": 0,
         "explain": "Etter blant annet valget i USA.",
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva er et kjennetegn ved redaktørstyrte medier?",
         "options": [
-          "Ingen har ansvar",
-          "Anonyme innlegg",
-          "En redaktør har ansvar og etiske regler følges",
-          "De er alltid gratis"
+          "En redaktør velges av leserne, og presseetiske regler følges",
+          "En redaktør utpekes av staten, og presseetiske regler følges",
+          "En redaktør har ansvar, og presseetiske regler følges",
+          "En redaktør har ansvar, og statlige regler styrer innholdet"
         ],
         "correct": 2,
         "explain": "Viktig for sannhetssøken."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

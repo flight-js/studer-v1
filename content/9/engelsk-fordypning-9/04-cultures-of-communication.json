@@ -80,9 +80,9 @@
       "id": "q01",
       "text": "What is a lingua franca?",
       "options": [
-        "A French dialect",
-        "A type of slang",
-        "An online community",
+        "A language used mainly by people who share the same first language",
+        "A language created by combining parts of several different languages",
+        "A language spoken by most people within one country",
         "A shared language used by people with different first languages"
       ],
       "correct": 3,
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "What might “That might be difficult” mean in an indirect culture?",
       "options": [
-        "Yes, definitely",
-        "No",
-        "I don't understand",
-        "Let's start now"
+        "Yes, that sounds easy.",
+        "No.",
+        "I need more details first.",
+        "Let's try it right away."
       ],
       "correct": 1,
       "explain": "Indirect speakers often avoid saying no directly."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "What is small talk?",
       "options": [
-        "A talk about a small topic in class",
-        "Speaking very quietly",
+        "A short conversation about a difficult personal problem",
+        "A planned discussion about news and current events",
         "Short, friendly conversation about everyday topics",
-        "An argument"
+        "A formal talk about work or school problems"
       ],
       "correct": 2,
       "explain": "Small talk builds relationships."
@@ -118,9 +118,9 @@
       "text": "How should you usually answer “How are you?” in English?",
       "options": [
         "“Fine, thanks. And you?”",
-        "With a long story about your problems",
-        "By ignoring it",
-        "“Why do you ask?”"
+        "“I have had a difficult week.”",
+        "“What do you mean by that?”",
+        "“I’m not ready to talk.”"
       ],
       "correct": 0,
       "explain": "The question is usually a friendly greeting."
@@ -129,10 +129,10 @@
       "id": "q05",
       "text": "Why might Norwegians sometimes sound rude in English?",
       "options": [
-        "Because they speak too quietly",
-        "Because they sometimes skip polite words like please and could you",
-        "Because they use too much small talk",
-        "Because they are very indirect"
+        "Because they may speak too quietly for English speakers to hear them",
+        "Because they may leave out polite phrases like “please” and “could you”",
+        "Because they may use too much small talk before making a request",
+        "Because they may use indirect phrases that sound unclear to English speakers"
       ],
       "correct": 1,
       "explain": "Norwegian is often more direct than English.",
@@ -142,9 +142,9 @@
       "id": "q06",
       "text": "What is an online community?",
       "options": [
-        "A town with good internet",
-        "A news website",
-        "A single computer game",
+        "A website where people post messages about shared interests",
+        "A group of people who play one game together offline",
+        "A place where people buy and sell things online",
         "A group of people who meet and interact online"
       ],
       "correct": 3,
@@ -155,9 +155,9 @@
       "text": "What is toxic behaviour online?",
       "options": [
         "Harassment and rude behaviour towards others",
-        "Sharing helpful tips",
-        "Winning a game",
-        "Using emojis"
+        "Sharing personal opinions and helpful advice with other users",
+        "Disagreeing politely with another player in a discussion",
+        "Using strong language to complain about a game's rules"
       ],
       "correct": 0,
       "explain": "Anonymity can make toxic behaviour more common.",
@@ -167,10 +167,10 @@
       "id": "q08",
       "text": "What is collectivism?",
       "options": [
-        "A focus on the individual",
-        "Collecting things",
+        "A focus on personal success and individual choices",
+        "A focus on collecting shared objects in a group",
         "A focus on the group and “us”",
-        "A political party"
+        "A focus on competition between members of a group"
       ],
       "correct": 2,
       "explain": "In collectivist cultures, family and group needs often come first.",
@@ -180,9 +180,9 @@
       "id": "q09",
       "text": "What can a thumbs-up mean in different cultures?",
       "options": [
-        "It means the same everywhere",
-        "It is always rude",
-        "It means stop",
+        "It is offensive in many countries, but positive in some",
+        "It means approval in many countries, but asks someone to stop in some",
+        "It is a greeting in many countries, but a warning in some",
         "It is positive in many countries, but offensive in some"
       ],
       "correct": 3,
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "What is a good way to avoid misunderstandings across cultures?",
       "options": [
-        "Always assume you are right",
+        "Assume the person shares your customs and communication style",
         "Ask if you are unsure what someone means",
-        "Rely on stereotypes",
-        "Avoid talking to people"
+        "Use stereotypes to predict how the person will respond",
+        "Keep the conversation short to reduce chances of confusion"
       ],
       "correct": 1,
       "explain": "Asking shows interest and prevents mistakes."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "What is personal space?",
         "options": [
-          "Your bedroom",
+          "The area someone uses for sleeping and getting dressed",
           "The distance people like to keep between themselves and others",
-          "Your online profile",
-          "A place in outer space"
+          "The space someone controls on their online profile",
+          "The distance people stand from objects in a public place"
         ],
         "correct": 1,
         "explain": "The comfortable distance varies between cultures."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Which phrase is a polite way to disagree in British English?",
         "options": [
-          "You're wrong.",
-          "No way!",
+          "I disagree; your suggestion is completely wrong.",
+          "No, that is a terrible suggestion.",
           "I'm not sure that's a good idea.",
-          "That's stupid."
+          "You have misunderstood the whole situation."
         ],
         "correct": 2,
         "explain": "Polite phrases soften disagreement."
@@ -356,9 +356,9 @@
         "text": "What is a stereotype?",
         "options": [
           "A simplified idea about a group of people",
-          "A type of music player",
-          "A friendly greeting",
-          "A cultural festival"
+          "A negative judgment about one person based on their actions",
+          "A shared custom practiced by members of a group",
+          "A positive belief about one individual’s personality"
         ],
         "correct": 0,
         "explain": "Stereotypes ignore that people are individuals."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

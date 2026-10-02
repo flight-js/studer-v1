@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Når er et argument gyldig?",
       "options": [
-        "Når premissene er sanne",
-        "Når konklusjonen følger logisk av premissene",
-        "Når mange er enige",
-        "Når det er langt"
+        "Når konklusjonen stemmer med virkeligheten, uavhengig av premissene",
+        "Når konklusjonen følger logisk av premissene i argumentet",
+        "Når premissene er sanne og konklusjonen virker rimelig",
+        "Når argumentet overbeviser de fleste som hører det"
       ],
       "correct": 1,
       "explain": "Gyldighet handler om logikken."
@@ -88,9 +88,9 @@
       "text": "Når er et argument holdbart?",
       "options": [
         "Når det er gyldig og premissene er sanne",
-        "Når det er gyldig",
-        "Når konklusjonen er sann",
-        "Når det bruker eksempler"
+        "Når det er gyldig, selv om ett premiss er usant",
+        "Når konklusjonen er sann og premissene virker troverdige",
+        "Når premissene er sanne og eksemplene passer til saken"
       ],
       "correct": 0,
       "explain": "Begge kravene må oppfylles."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "«Alle katter er dyr. Pusi er et dyr. Altså er Pusi en katt.» Hva er feil?",
       "options": [
-        "Premissene er usanne",
-        "Det er et sirkelargument",
-        "Konklusjonen følger ikke logisk av premissene",
-        "Ingenting"
+        "Feilen er at premissene motsier hverandre",
+        "Feilen er at argumentet gjentar konklusjonen som et premiss",
+        "Feilen er at konklusjonen ikke følger logisk av premissene",
+        "Feilen er at konklusjonen motsier den første premissen"
       ],
       "correct": 2,
       "explain": "Pusi kunne vært et annet dyr."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er en stråmann?",
       "options": [
-        "Å angripe personen",
-        "Å vise til en autoritet",
-        "Å trekke konklusjon av få tilfeller",
+        "Å avvise motpartens syn ved å kritisere personen",
+        "Å støtte et syn ved å vise til en fagperson",
+        "Å trekke en generell konklusjon fra noen få eksempler",
         "Å angripe en forvrengt versjon av motpartens syn"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hva kjennetegner et induktivt argument?",
       "options": [
         "Det går fra enkelttilfeller til en generell, sannsynlig konklusjon",
-        "Det gir alltid sikker konklusjon",
-        "Det går fra generelt til spesielt",
-        "Det har ingen premisser"
+        "Det går fra en generell regel til en konklusjon om enkelttilfeller",
+        "Det gir en sikker konklusjon når flere enkelttilfeller ligner hverandre",
+        "Det bygger konklusjonen på én generell regel uten enkelttilfeller"
       ],
       "correct": 0,
       "explain": "Kan motbevises av ett moteksempel."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er målet med en filosofisk samtale?",
       "options": [
-        "Å vinne diskusjonen",
+        "Å forsvare egne oppfatninger og få andre til å godta dem",
         "Å tenke bedre sammen og undersøke oppfatninger",
-        "Å bli enige så raskt som mulig",
-        "Å pugge svar"
+        "Å finne et felles standpunkt før samtalen avsluttes",
+        "Å lære ferdige svar utenat for å samle kunnskap"
       ],
       "correct": 1,
       "explain": "Det er lov å endre mening."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "«Du kan ikke mene noe om skatt, du er jo bare 17.» Hvilken feil er dette?",
       "options": [
+        "Stråmann",
         "Glidebane",
-        "Falskt dilemma",
         "Personangrep (ad hominem)",
-        "Sirkelargument"
+        "Falskt dilemma"
       ],
       "correct": 2,
       "explain": "Angriper personen, ikke argumentet."
@@ -161,7 +161,7 @@
       "options": [
         "Aristoteles",
         "Platon",
-        "Descartes",
+        "Epikur",
         "Sokrates"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "«Enten er du med oss, eller så er du mot oss.» Hvilken feil er dette?",
       "options": [
         "Falskt dilemma",
-        "Stråmann",
-        "Induksjon",
-        "Holdbart argument"
+        "Personangrep",
+        "Sirkelargument",
+        "Forhastet generalisering"
       ],
       "correct": 0,
       "explain": "Det finnes flere alternativer."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva er et moteksempel?",
       "options": [
-        "Et eksempel som støtter påstanden",
+        "Et eksempel som viser at en påstand gjelder i mange tilfeller",
         "Et eksempel som viser at en påstand ikke alltid gjelder",
-        "En konklusjon",
-        "Et premiss"
+        "En grunn som brukes til å støtte en påstand",
+        "En påstand som oppsummerer grunnene i et argument"
       ],
       "correct": 1,
       "explain": "Én svart svane motbeviser «alle svaner er hvite»."
@@ -308,7 +308,7 @@
         "type": "flervalg",
         "text": "«Tillater vi mobil i friminuttene, vil snart ingen lære noe på skolen.» Hvilken feil er dette?",
         "options": [
-          "Stråmann",
+          "Falskt dilemma",
           "Glidebane",
           "Sirkelargument",
           "Personangrep"
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva betyr ordet filosofi?",
         "options": [
-          "Kjærlighet til visdom",
-          "Læren om tall",
-          "Kunsten å tale",
-          "Studiet av stjerner"
+          "Det betyr å elske visdom",
+          "Det betyr å søke sikker kunnskap",
+          "Det betyr å undersøke menneskets tanker",
+          "Det betyr å studere naturens lover"
         ],
         "correct": 0,
         "explain": "Fra gresk."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål er typisk filosofisk?",
         "options": [
-          "Hvor høyt er Galdhøpiggen?",
-          "Hva koster en bussbillett?",
-          "Hva er rettferdighet?",
-          "Når går toget?"
+          "Hvilket parti fikk flest stemmer?",
+          "Når åpner biblioteket etter ferien?",
+          "Hva menes med rettferdighet?",
+          "Hvor langt er skoleveien hjemmefra?"
         ],
         "correct": 2,
         "explain": "Kan ikke løses bare med oppslag."
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

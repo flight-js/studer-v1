@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er en sammensatt tekst?",
       "options": [
-        "En tekst med mange avsnitt",
-        "En tekst som bruker flere uttrykksformer samtidig",
-        "En tekst skrevet av flere",
-        "En lang roman"
+        "En tekst som kombinerer flere litterære sjangre samtidig",
+        "En tekst som kombinerer flere uttrykksformer samtidig",
+        "En tekst som er skrevet av flere forfattere samtidig",
+        "En tekst som bruker flere språk i samme avsnitt"
       ],
       "correct": 1,
       "explain": "Også kalt multimodal tekst."
@@ -89,9 +89,9 @@
       "text": "Hvordan virker et bilde tatt i froskeperspektiv?",
       "options": [
         "Motivet virker mektig",
-        "Motivet virker lite",
-        "Motivet virker uskarpt",
-        "Motivet forsvinner"
+        "Motivet virker mindre",
+        "Motivet virker fjernere",
+        "Motivet virker mer oversiktlig"
       ],
       "correct": 0,
       "explain": "Tatt nedenfra."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva betyr at bilde og tekst er motstridende?",
       "options": [
-        "De sier det samme",
-        "Teksten mangler",
-        "De sier noe ulikt, noe som kan gi ironi",
-        "Bildet er svart-hvitt"
+        "Bildet og teksten formidler samme budskap på ulike måter.",
+        "Teksten forklarer det som vises i bildet med flere detaljer.",
+        "Bildet og teksten formidler ulike budskap, noe som kan skape ironi.",
+        "Bildet og teksten handler om ulike temaer uten å motsi hverandre."
       ],
       "correct": 2,
       "explain": "Kan skape humor eller undring."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva skaper et nærbilde ofte?",
       "options": [
-        "Avstand",
-        "Oversikt",
-        "Kulde",
-        "Nærhet og følelser"
+        "Et nærbilde skaper avstand og viser omgivelsene tydelig.",
+        "Et nærbilde skaper oversikt og viser hele situasjonen.",
+        "Et nærbilde skaper ro og gjør handlingen mindre tydelig.",
+        "Et nærbilde skaper nærhet og gjør følelser tydelige."
       ],
       "correct": 3,
       "explain": "Vi ser ansiktsuttrykk tydelig."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva kjennetegner dataspill som tekst?",
       "options": [
-        "De er interaktive",
-        "De har bare skrift",
-        "De har ingen fortelling",
-        "De er alltid reklame"
+        "Dataspill lar spilleren påvirke handlingen underveis.",
+        "Dataspill lar spilleren følge en fast handling uten valg.",
+        "Dataspill formidler handlingen hovedsakelig gjennom skrift på skjermen.",
+        "Dataspill lar spilleren se en fortelling uten å styre den."
       ],
       "correct": 0,
       "explain": "Spilleren påvirker fortellingen."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er det viktigste i analysen av en sammensatt tekst?",
       "options": [
-        "Å telle ord",
-        "Samspillet mellom uttrykksformene",
-        "Å beskrive skrifttypen",
-        "Å finne forfatteren"
+        "Å undersøke hvordan teksten er delt inn i avsnitt.",
+        "Å undersøke hvordan uttrykksformene virker sammen.",
+        "Å undersøke hvordan skrifttypen påvirker lesingen.",
+        "Å undersøke hvem som har laget teksten."
       ],
       "correct": 1,
       "explain": "Hvordan de virker sammen."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvorfor bør du lese bilder og video kritisk?",
       "options": [
-        "Fordi de alltid er falske",
-        "Fordi de er kjedelige",
-        "Fordi de kan redigeres og manipuleres",
-        "Fordi de er ulovlige"
+        "Fordi bilder og videoer ikke har en tydelig avsender.",
+        "Fordi bilder og videoer ikke formidler noe budskap.",
+        "Fordi bilder og videoer kan redigeres og manipuleres.",
+        "Fordi bilder og videoer ikke påvirker hvordan saken tolkes."
       ],
       "correct": 2,
       "explain": "KI gjør manipulasjon lettere."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er en ingress?",
       "options": [
-        "Et bilde",
-        "Et slagord",
-        "En logo",
+        "En kort, avsluttende tekst under artikkelen",
+        "En kort bildetekst ved siden av fotografiet",
+        "En kort faktaboks med tall fra saken",
         "En kort, innledende tekst under tittelen"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva kan musikk gjøre i en film?",
       "options": [
-        "Skape stemning og spenning",
-        "Erstatte bildene",
-        "Fjerne handlingen",
-        "Ingenting"
+        "Musikk kan bygge opp stemning og spenning.",
+        "Musikk kan formidle dialogen mellom personene.",
+        "Musikk kan vise hvor scenen finner sted.",
+        "Musikk kan beskrive personenes utseende."
       ],
       "correct": 0,
       "explain": "Lyd er en viktig uttrykksform."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Et bilde av en frodig skog og slagordet «Kjør med god samvittighet» i en bilreklame – hvordan virker samspillet?",
       "options": [
-        "Motstridende",
+        "Utdypende",
         "Forsterkende",
-        "Utdypende uten sammenheng",
-        "Tilfeldig"
+        "Motstridende",
+        "Uavhengig"
       ],
       "correct": 1,
       "explain": "Begge knytter produktet til natur og ansvar."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva er et blikkfang?",
         "options": [
-          "En logo alltid",
+          "Det som forklarer produktets egenskaper",
           "Det som først fanger oppmerksomheten",
-          "En kameravinkel",
-          "En lydeffekt"
+          "Det som viser hvem som står bak reklamen",
+          "Det som bestemmer rekkefølgen i teksten"
         ],
         "correct": 1,
         "explain": "Viktig i reklame."
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hva skaper en person som ser rett mot oss i et bilde?",
         "options": [
-          "Kontakt",
-          "Avstand",
-          "Uskarphet",
-          "Forvirring"
+          "En direkte henvendelse til betrakteren",
+          "En indirekte henvendelse til betrakteren",
+          "En framstilling av personens omgivelser",
+          "En markering av personens bevegelse"
         ],
         "correct": 0,
         "explain": "Blikket henvender seg til betrakteren."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva er utdypende samspill?",
         "options": [
-          "Uttrykksformene sier det samme",
-          "Uttrykksformene sier noe motsatt",
-          "Den ene uttrykksformen gir mer informasjon enn den andre",
-          "Det finnes bare én uttrykksform"
+          "Den ene uttrykksformen gjentar informasjonen i den andre.",
+          "De to uttrykksformene formidler motstridende informasjon.",
+          "Den ene uttrykksformen gir mer informasjon enn den andre.",
+          "Den ene uttrykksformen erstatter informasjonen i den andre."
         ],
         "correct": 2,
         "explain": "For eksempel et bilde med forklarende bildetekst."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

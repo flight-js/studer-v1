@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Når spiser mange spanjoler «la cena»?",
       "options": [
-        "Om morgenen",
-        "Rundt klokka tolv",
+        "Tidlig om morgenen, rundt klokka sju eller åtte",
+        "Midt på dagen, rundt klokka tolv eller ett",
         "Sent om kvelden, rundt klokka ni eller ti",
-        "Klokka fire"
+        "Tidlig på kvelden, rundt klokka seks eller sju"
       ],
       "correct": 2,
       "explain": "Spanjoler spiser både lunsj og kveldsmat sent."
@@ -97,9 +97,9 @@
       "text": "Hvordan sier du «Jeg er tørst»?",
       "options": [
         "Tengo sed.",
-        "Soy sed.",
         "Tengo hambre.",
-        "Estoy sed."
+        "Tengo frío.",
+        "Tengo sueño."
       ],
       "correct": 0,
       "explain": "På spansk «har» man tørst."
@@ -108,9 +108,9 @@
       "id": "q03",
       "text": "Hva er riktig form av «querer» med «yo»?",
       "options": [
-        "quero",
-        "querro",
+        "quieres",
         "quiere",
+        "queremos",
         "quiero"
       ],
       "correct": 3,
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hvordan bestiller du høflig?",
       "options": [
-        "¡Dame agua!",
+        "Dame agua ahora.",
         "Para mí, un agua, por favor.",
-        "Agua, ya.",
-        "Quiero agua ahora mismo."
+        "Tráeme un agua enseguida.",
+        "Quiero un agua ahora mismo."
       ],
       "correct": 1,
       "explain": "«Para mí …, por favor» er høflig."
@@ -132,8 +132,8 @@
       "id": "q05",
       "text": "Hvordan ber du om regningen?",
       "options": [
-        "¡Buen provecho!",
-        "¡Salud!",
+        "La mesa, por favor.",
+        "El menú, por favor.",
         "La carta, por favor.",
         "La cuenta, por favor."
       ],
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hva er «el menú del día»?",
       "options": [
-        "Hele menyen",
-        "Barnemenyen",
+        "En liste over alle rettene på restauranten",
+        "En egen meny med retter for barn",
         "Dagens meny til fast pris",
-        "Drikkemenyen"
+        "En meny med drikke til fast pris"
       ],
       "correct": 2,
       "explain": "Den består ofte av to retter, dessert og drikke."
@@ -159,7 +159,7 @@
         "Me gustan las fresas.",
         "Me gusta las fresas.",
         "Me gusto las fresas.",
-        "Yo gustan las fresas."
+        "Me gustan la fresa."
       ],
       "correct": 0,
       "explain": "«las fresas» er flertall, derfor «gustan»."
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "Hva er «la merienda»?",
       "options": [
-        "Frokost",
+        "Et måltid tidlig om morgenen",
         "Et mellommåltid på ettermiddagen",
-        "Middag",
-        "Nattmat"
+        "Et måltid midt på dagen",
+        "Et måltid sent om kvelden"
       ],
       "correct": 1,
       "explain": "Barn spiser ofte merienda etter skolen."
@@ -180,10 +180,10 @@
       "id": "q09",
       "text": "Hva heter poteter i Latin-Amerika?",
       "options": [
-        "las patatas",
-        "las pastas",
+        "las batatas",
+        "los frijoles",
         "las papas",
-        "las piñas"
+        "las zanahorias"
       ],
       "correct": 2,
       "explain": "I Spania heter det «las patatas».",
@@ -195,7 +195,7 @@
       "options": [
         "Frukt",
         "Kjøtt",
-        "Brød",
+        "Belgfrukter",
         "Grønnsaker"
       ],
       "correct": 3,
@@ -334,8 +334,8 @@
         "options": [
           "Skål!",
           "God appetitt!",
-          "Ha det!",
-          "Takk for maten!"
+          "Takk for maten!",
+          "Ha det bra!"
         ],
         "correct": 1,
         "explain": "I Spania sier man også «¡Que aproveche!»."
@@ -346,9 +346,9 @@
         "text": "Hva betyr «De postre, quiero un helado»?",
         "options": [
           "Til dessert vil jeg ha en is",
-          "Til forrett vil jeg ha suppe",
-          "Jeg vil ikke ha is",
-          "Isen er god"
+          "Til forrett vil jeg ha en is",
+          "Til dessert vil jeg ha en kake",
+          "Til dessert vil jeg ha en kaffe"
         ],
         "correct": 0,
         "explain": "«el postre» betyr desserten."
@@ -361,7 +361,7 @@
           "Kylling",
           "Svinekjøtt",
           "Fisk",
-          "Egg"
+          "Skalldyr"
         ],
         "correct": 2,
         "explain": "Levende fisk i vannet heter «el pez»."
@@ -448,6 +448,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

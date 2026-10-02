@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvorfor mente Bowlby at tilknytning er medfødt?",
       "options": [
-        "Fordi barn lærer det på skolen",
+        "Fordi barn som ble selvstendige tidlig, hadde større sjanse til å overleve",
         "Fordi barn som holdt seg nær voksne, hadde større sjanse til å overleve",
-        "Fordi foreldre krever det",
-        "Fordi det skyldes mat"
+        "Fordi voksne belønnet barna når de holdt seg i nærheten",
+        "Fordi barn som fulgte voksne, lærte raskere å skaffe seg mat"
       ],
       "correct": 1,
       "explain": "Et evolusjonært argument."
@@ -88,9 +88,9 @@
       "text": "Hva viste Harlows forsøk med apeunger?",
       "options": [
         "At trøst og nærhet var viktigere enn mat",
-        "At mat var det viktigste",
-        "At aper ikke knytter seg",
-        "At aper foretrekker ståltråd"
+        "At apeungene søkte mest til modellen som ga dem mat",
+        "At kontakt med den myke modellen ikke ga ungene trygghet",
+        "At ungene foretrakk ståltrådmodellen fordi den var kjent"
       ],
       "correct": 0,
       "explain": "Ungene søkte til den myke «moren»."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er en trygg base?",
       "options": [
-        "Et barnehjem",
-        "En barnehage",
-        "Omsorgspersonen som barnet utforsker verden fra",
-        "Et leketøy"
+        "Omsorgspersonen som bestemmer hvilke steder barnet får utforske",
+        "Et fast rom der barnet leker mens omsorgspersonen følger med",
+        "Omsorgspersonen barnet bruker som utgangspunkt for utforsking",
+        "En leke som hjelper barnet å utforske omgivelsene"
       ],
       "correct": 2,
       "explain": "Og en trygg havn å vende tilbake til."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hva så Ainsworth særlig på i fremmedsituasjonen?",
       "options": [
-        "Hvor mye barnet spiste",
-        "Hvor fort barnet krøp",
-        "Hvor mange ord barnet kunne",
-        "Hvordan barnet reagerte ved gjenforeningen"
+        "Hvordan barnet lekte mens omsorgspersonen var ute av rommet",
+        "Hvordan barnet reagerte da det møtte en ukjent voksen",
+        "Hvordan barnet brukte lekene før omsorgspersonen gikk",
+        "Hvordan barnet reagerte da omsorgspersonen kom tilbake"
       ],
       "correct": 3,
       "explain": "Reaksjonen avslører tilknytningsmønsteret."
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva kjennetegner et trygt tilknyttet barn?",
       "options": [
-        "Søker trøst og roer seg raskt ved gjenforening",
-        "Unngår omsorgspersonen",
-        "Lar seg ikke trøste",
-        "Bryr seg ikke når omsorgspersonen går"
+        "Søker trøst og roer seg raskt når omsorgspersonen kommer tilbake",
+        "Søker kontakt, men holder seg urolig etter gjenforeningen",
+        "Unngår kontakt og viser lite reaksjon ved gjenforening",
+        "Fortsetter å leke og søker ikke trøst ved gjenforeningen"
       ],
       "correct": 0,
       "explain": "Omsorgspersonen er en trygg havn."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er den viktigste forutsetningen for trygg tilknytning?",
       "options": [
-        "Mye leker",
-        "Sensitiv omsorg",
-        "Streng oppdragelse",
-        "At barnet begynner tidlig i barnehage"
+        "At barnet får tilgang til mange leker og aktiviteter",
+        "At omsorgspersonen oppfatter og svarer på barnets signaler",
+        "At omsorgspersonen setter tydelige regler og grenser",
+        "At barnet starter tidlig i barnehage og møter jevnaldrende"
       ],
       "correct": 1,
       "explain": "Å se og svare på barnets signaler."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er indre arbeidsmodeller?",
       "options": [
-        "Planer for skolearbeid",
-        "Modeller av hjernen",
+        "Forventninger om skoleprestasjoner formet av undervisning og øving",
+        "Beskrivelser av hjernen som formes gjennom tidlige erfaringer",
         "Forventninger om seg selv og andre formet av tidlige erfaringer",
-        "Arbeidsavtaler"
+        "Planer for hvordan barnet bør oppføre seg på arbeidsplassen"
       ],
       "correct": 2,
       "explain": "Kan påvirke senere relasjoner."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva viste Lorenz med gåsunger?",
       "options": [
-        "Tilknytningsmønstre",
         "Klassisk betinging",
         "Modellæring",
+        "Habituering",
         "Preging"
       ],
       "correct": 3,
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Kan tilknytningsmønstre endres senere i livet?",
       "options": [
-        "Ja, gjennom nye trygge relasjoner",
-        "Nei, aldri",
-        "Bare med medisiner",
-        "Bare hos barn under ett år"
+        "Ja, gjennom erfaringer med nye, trygge relasjoner",
+        "Nei, fordi tidlige relasjoner former mønsteret ferdig i spedbarnsalderen",
+        "Ja, når barnet utvikler større selvstendighet med alderen",
+        "Ja, ved at barnet lærer om tilknytning gjennom undervisning på skolen"
       ],
       "correct": 0,
       "explain": "Tilknytning er ikke skjebne."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvordan kan barnets temperament påvirke tilknytningen?",
       "options": [
-        "Det har ingen betydning",
+        "Barnets temperament avgjør hvilket tilknytningsmønster det utvikler",
         "Et barn som er vanskelig å roe, kan gjøre sensitiv omsorg mer krevende",
-        "Temperament bestemmer alt",
-        "Bare rolige barn blir trygge"
+        "Temperament og tilknytning er to navn på samme egenskap",
+        "Temperament beskriver omsorgspersonens evne til å svare på signaler"
       ],
       "correct": 1,
       "explain": "Arv og miljø virker sammen."
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Et barn viser lite reaksjon når omsorgspersonen går, og unngår hen ved gjenforeningen. Hvilket mønster er dette?",
         "options": [
-          "Trygg",
-          "Utrygg-unnvikende",
-          "Utrygg-ambivalent",
-          "Desorganisert"
+          "Trygg tilknytning",
+          "Utrygg-unnvikende tilknytning",
+          "Utrygg-ambivalent tilknytning",
+          "Desorganisert tilknytning"
         ],
         "correct": 1,
         "explain": "Barnet unngår kontakt."
@@ -322,9 +322,9 @@
         "text": "Hvor brukes kunnskap om tilknytning i praksis?",
         "options": [
           "I helsestasjoner, barnehager og barnevernet",
-          "Bare i idretten",
-          "Bare i markedsføring",
-          "Ingen steder"
+          "I tannklinikker, synsundersøkelser og laboratoriearbeid",
+          "I regnskap, byggteknikk og bedriftsrevisjon",
+          "I meteorologi, geologi og astronomisk forskning"
         ],
         "correct": 0,
         "explain": "For eksempel i foreldreveiledning.",
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hvorfor kan fordelingen av tilknytningsmønstre variere mellom land?",
         "options": [
-          "Fordi gener er helt ulike",
-          "Fordi forskerne er ulike",
-          "Fordi omsorgspraksis og kultur varierer",
-          "Fordi barn ikke knytter seg i noen land"
+          "Fordi genene til barn i ulike land gir ulike tilknytningsmønstre",
+          "Fordi barns alder ved skolestart avgjør tilknytningsmønsteret",
+          "Fordi omsorgspraksis og kultur varierer mellom land",
+          "Fordi barn lærer tilknytningsmønstre gjennom undervisning"
         ],
         "correct": 2,
         "explain": "Det som regnes som god omsorg, kan være ulikt."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

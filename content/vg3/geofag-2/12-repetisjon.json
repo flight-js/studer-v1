@@ -116,9 +116,9 @@
       "text": "Hva er is–albedo-effekten?",
       "options": [
         "Smeltende is gir mørkere overflate som tar opp mer varme",
-        "Is reflekterer mindre enn hav",
-        "Is smelter aldri",
-        "Is lager vind"
+        "Smeltende is gir lysere overflate som reflekterer mer sollys",
+        "Smeltende is gir mørkere overflate som sender mer varme ut",
+        "Smeltende is gir mørkere overflate som tar opp mindre varme"
       ],
       "correct": 0,
       "explain": "En positiv tilbakekobling."
@@ -128,8 +128,8 @@
       "text": "Hva betyr et positivt strålingspådriv?",
       "options": [
         "Avkjøling",
-        "Ingen endring",
-        "Mer is",
+        "Temperaturstabilitet",
+        "Økt skydekke",
         "Oppvarming"
       ],
       "correct": 3,
@@ -140,9 +140,9 @@
       "text": "Hvorfor er oppstrømningsområder rike fiskeområder?",
       "options": [
         "Fordi kaldt, næringsrikt vann strømmer opp",
-        "Fordi vannet er varmt",
-        "Fordi det er lite strøm",
-        "Fordi det er lite lys"
+        "Fordi varmt, næringsfattig vann strømmer opp",
+        "Fordi kaldt, næringsfattig vann strømmer opp",
+        "Fordi næringsrikt vann synker ned"
       ],
       "correct": 0,
       "explain": "Gir mye plankton."
@@ -151,10 +151,10 @@
       "id": "q04",
       "text": "Hva slags vær gir en kaldfront ofte?",
       "options": [
-        "Langvarig, jevn nedbør",
+        "Langvarig, jevn nedbør og temperaturstigning",
         "Kraftige byger og temperaturfall",
-        "Tåke",
-        "Varmt og tørt vær"
+        "Tåke og svak vind uten temperaturendring",
+        "Oppholdsvær, svak vind og temperaturstigning"
       ],
       "correct": 1,
       "explain": "Varm luft løftes bratt."
@@ -163,10 +163,10 @@
       "id": "q05",
       "text": "Hvorfor er værvarsler mest pålitelige for de nærmeste dagene?",
       "options": [
-        "Fordi modellene er gamle",
-        "Fordi det er færre målinger",
-        "Fordi atmosfæren er kaotisk og små feil vokser",
-        "Fordi været aldri endres"
+        "Fordi modellene bruker færre målinger jo lenger fram varselet går",
+        "Fordi atmosfæren endrer seg mindre jo lenger fram i tid",
+        "Fordi atmosfæren er kaotisk, og små startfeil vokser over tid",
+        "Fordi beregningene blir mer detaljerte for de nærmeste dagene"
       ],
       "correct": 2,
       "explain": "Sommerfugleffekten."
@@ -175,10 +175,10 @@
       "id": "q06",
       "text": "Hva viser iskjernene om CO₂ og temperatur?",
       "options": [
-        "At de ikke henger sammen",
-        "At CO₂ alltid har vært konstant",
+        "At de har utviklet seg uavhengig av hverandre",
+        "At CO₂ har vært stabil mens temperaturen har variert",
         "At de har fulgt hverandre tett",
-        "At temperaturen alltid har vært lik"
+        "At temperaturen har vært stabil mens CO₂ har variert"
       ],
       "correct": 2,
       "explain": "CO₂ har forsterket endringene."
@@ -187,10 +187,10 @@
       "id": "q07",
       "text": "Hva er forskjellen på utslippskutt og tilpasning?",
       "options": [
-        "Det er det samme",
-        "Kutt begrenser oppvarmingen, tilpasning forbereder samfunnet på endringene",
-        "Tilpasning kutter utslipp",
-        "Kutt gjelder bare Norge"
+        "Utslippskutt forbereder samfunnet på endringene, mens tilpasning begrenser oppvarmingen.",
+        "Utslippskutt begrenser oppvarmingen, mens tilpasning forbereder samfunnet på endringene.",
+        "Utslippskutt reduserer klimaskader lokalt, mens tilpasning senker mengden klimagasser.",
+        "Utslippskutt og tilpasning reduserer begge mengden klimagasser, men på ulike måter."
       ],
       "correct": 1,
       "explain": "Begge trengs."
@@ -202,7 +202,7 @@
         "Åtte ganger",
         "To ganger",
         "Fire ganger",
-        "Ingen endring"
+        "Seks ganger"
       ],
       "correct": 0,
       "explain": "Effekten følger vindfarten i tredje potens."
@@ -211,10 +211,10 @@
       "id": "q09",
       "text": "Hvordan kan du øke påliteligheten i feltarbeidet?",
       "options": [
-        "Gjøre færre målinger",
-        "Unngå å kalibrere",
+        "Gjøre færre målinger og bruke bare egne observasjoner",
+        "Bytte målemetode underveis uten å notere endringene",
         "Gjenta målinger og sammenligne med offisielle data",
-        "Bare måle én gang"
+        "Måle én gang og sammenligne med egne forventninger"
       ],
       "correct": 2,
       "explain": "For eksempel fra Meteorologisk institutt."
@@ -223,13 +223,13 @@
       "id": "q10",
       "text": "Hvordan kan risiko beskrives?",
       "options": [
-        "Bare sannsynlighet",
+        "Sannsynlighet + konsekvens",
         "Sannsynlighet × konsekvens",
-        "Bare konsekvens",
-        "Antall hendelser per år"
+        "Sannsynlighet ÷ konsekvens",
+        "Konsekvens − sannsynlighet"
       ],
       "correct": 1,
-      "explain": "Begge deler må med."
+      "explain": "Risiko vurderes ut fra både sannsynlighet og konsekvens."
     }
   ],
   "mindmap": {
@@ -381,7 +381,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -414,10 +414,10 @@
         "type": "flervalg",
         "text": "Hvor dannes dypvann som driver den termohaline sirkulasjonen?",
         "options": [
-          "Ved ekvator",
+          "I det nordlige Stillehavet",
           "I Nord-Atlanteren og rundt Antarktis",
-          "I Middelhavet",
-          "I Stillehavet ved Peru"
+          "I havområdene ved ekvator",
+          "I Middelhavet og Karibia"
         ],
         "correct": 1,
         "explain": "Kaldt, salt vann synker."
@@ -434,10 +434,10 @@
         "type": "flervalg",
         "text": "Hva sier IPCC om menneskelig påvirkning?",
         "options": [
-          "At den er usannsynlig",
-          "At den er ukjent",
+          "At det er utvetydig at mennesker har avkjølt klimaet",
+          "At menneskelig påvirkning på klimaet ikke kan fastslås med sikkerhet",
           "At det er utvetydig at mennesker har varmet opp klimaet",
-          "At den bare gjelder lokalt"
+          "At menneskelig påvirkning gjelder temperaturen, men ikke havet"
         ],
         "correct": 2,
         "explain": "Atmosfære, hav og land."
@@ -448,9 +448,9 @@
         "text": "Hvilke kriterier kan brukes for å vurdere klimatiltak?",
         "options": [
           "Effekt, kostnad, rettferdighet og konsekvenser",
-          "Bare pris",
-          "Bare hvor populært det er",
-          "Bare hvor raskt det går"
+          "Temperatur, nedbør, havnivå og vindstyrke",
+          "Flom, skred, tørke og hetebølger",
+          "CO₂, metan, lystgass og ozon"
         ],
         "correct": 0,
         "explain": "Bærekraft har flere dimensjoner."
@@ -461,9 +461,9 @@
         "text": "Hva utløser ofte jordskred og flomskred?",
         "options": [
           "Intens nedbør i bratt terreng",
-          "Høytrykk",
-          "Kulde",
-          "Vindstille"
+          "Høytrykk og tørrvær i bratt terreng",
+          "Lett snøfall i slakt terreng",
+          "Kulde og vindstille i dalbunner"
         ],
         "correct": 0,
         "explain": "Løsmassene blir vannmettet."
@@ -542,12 +542,84 @@
           "Knytter vindkraft til fornybar energi og/eller utslippskutt.",
           "Nevner en relevant ulempe eller konflikt og viser til vurdering av bærekraftens dimensjoner."
         ]
+      },
+      {
+        "text": "Et stort vulkanutbrudd sender svovelgasser høyt opp i atmosfæren. Forklar hvordan dette kan påvirke jordas temperatur, og sammenlign virkningen med økte CO₂-utslipp.",
+        "fasit": "Svovelgassene danner partikler som reflekterer sollys og kan gi avkjøling i et par år. Økte CO₂-utslipp forsterker drivhuseffekten og gir oppvarming.",
+        "kriterier": [
+          "Partikler fra vulkanutbrudd reflekterer sollys og gir midlertidig avkjøling.",
+          "Økt CO₂ forsterker drivhuseffekten og gir oppvarming."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Utenfor Peru fører vinden til at overflatevann beveger seg bort fra kysten. Forklar hva som da skjer med vannet fra dypet, og hvordan dette kan påvirke fiskeriene.",
+        "fasit": "Når overflatevannet føres bort fra kysten, stiger kaldt og næringsrikt vann opp fra dypet. Næringstilførselen gir gode forhold for livet i havet og gjør området til et rikt fiskeområde.",
+        "kriterier": [
+          "Oppstrømning fører kaldt, næringsrikt vann opp fra dypet.",
+          "Næringstilførselen bidrar til rike fiskerier."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Et værvarsel blir kjørt mange ganger med litt ulike startverdier. Etter noen dager spriker resultatene mye. Hva forteller dette om usikkerheten i varselet, og hvordan kan observasjoner bidra til bedre startverdier?",
+        "fasit": "Stor spredning mellom kjøringene betyr at varselet er usikkert, fordi små forskjeller i startverdiene kan vokse i et kaotisk system. Målinger fra blant annet værstasjoner og satellitter kombineres med tidligere modellberegninger i dataassimilering for å lage best mulige startverdier.",
+        "kriterier": [
+          "Stor spredning i ensemblet betyr større usikkerhet i varselet.",
+          "Observasjoner kombineres med modellberegninger gjennom dataassimilering for å lage startverdier."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En forsker finner pollen i lag fra ulike tider i en innsjøbunn. Forklar hva pollen kan fortelle om klimaet før temperaturmålinger fantes, og hvorfor lagene må dateres.",
+        "fasit": "Pollen viser hvilke planter som vokste i området, og gir dermed indirekte informasjon om temperatur og nedbør. Datering viser når pollenlagene ble avsatt, slik at klimaopplysningene kan knyttes til bestemte tidsperioder.",
+        "kriterier": [
+          "Pollen viser tidligere plantevegetasjon og kan brukes som proksydata for temperatur og nedbør.",
+          "Datering fastslår når lagene ble avsatt."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En modell regner med at 100 energienheter kortbølget solstråling treffer jorda. Hvis 30 prosent reflekteres tilbake til verdensrommet, hvor mange energienheter blir tatt opp?",
+        "fasit": "70 energienheter blir tatt opp. Regnestykket er 100 − 30 = 70.",
+        "kriterier": [
+          "Riktig svar: 70 energienheter.",
+          "Viser at 30 enheter reflekteres fra 100, eller oppgir riktig regning."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "To områder har hver sin flomfare. I område A er sannsynligheten 1/2 og konsekvensskåren 4. I område B er sannsynligheten 1/4 og konsekvensskåren 6. Bruk risikoskår = sannsynlighet × konsekvensskår til å beregne skåren for hvert område og sammenligne dem.",
+        "fasit": "Område A får risikoskår 1/2 × 4 = 2. Område B får 1/4 × 6 = 1,5, så skåren er høyest i område A.",
+        "kriterier": [
+          "Område A: risikoskår 2.",
+          "Område B: risikoskår 1,5, altså lavere enn i område A."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Mer smeltevann fra Grønland blandes inn i overflatevannet i Nord-Atlanteren. Forklar hvordan dette kan påvirke vannets tetthet og den termohaline sirkulasjonen.",
+        "fasit": "Smeltevannet gjør overflatevannet ferskere og lettere. Da kan mindre vann synke i Nord-Atlanteren, noe som kan svekke den termohaline sirkulasjonen.",
+        "kriterier": [
+          "Ferskere overflatevann er lettere og har lavere tetthet.",
+          "Mindre synking kan svekke den termohaline sirkulasjonen."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Sammenlign hvordan en tropisk syklon og et ekstratropisk lavtrykk får energi og dannes.",
+        "fasit": "En tropisk syklon dannes over varmt hav, vanligvis minst omtrent 26 °C, og får energi når vanndamp kondenserer. Et ekstratropisk lavtrykk dannes langs polarfronten når en bølge utvikler seg mellom kald og varm luft, og får fronter.",
+        "kriterier": [
+          "Tropiske sykloner dannes over varmt hav og får energi fra kondensering av vanndamp.",
+          "Ekstratropiske lavtrykk dannes langs polarfronten gjennom en bølge mellom kald og varm luft."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

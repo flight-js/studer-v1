@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hva kjennetegner postmodernismen?",
       "options": [
-        "Tro på én sannhet",
+        "Tro på én felles sannhet og stabile verdier",
         "Lek med sjangre, fortellere og virkelighet",
-        "Nøkterne skildringer av arbeidslivet",
-        "Nasjonalromantikk"
+        "Nøktern skildring av arbeid og hverdagsliv",
+        "Bruk av nasjonale motiver og historiske idealer"
       ],
       "correct": 1,
       "explain": "Også metafiksjon."
@@ -97,9 +97,9 @@
       "text": "Hva er autofiksjon?",
       "options": [
         "Litteratur der grensen mellom eget liv og fiksjon viskes ut",
-        "Science fiction",
-        "Litteratur om biler",
-        "Rene biografier uten fiksjon"
+        "Litteratur der framtidsteknologi og romreiser står sentralt",
+        "Litteratur der en annen person forteller om forfatterens liv",
+        "Litteratur der handlingen bygger på historiske hendelser"
       ],
       "correct": 0,
       "explain": "For eksempel Knausgårds Min kamp."
@@ -121,9 +121,9 @@
       "id": "q04",
       "text": "Hva kjennetegner Jon Fosses stil?",
       "options": [
-        "Lange, kompliserte setninger",
-        "Mye humor og ironi",
-        "Mange fremmedord",
+        "Lange setninger, mange sidespor og detaljer",
+        "Humor, ironi og raske sceneskifter",
+        "Rim, fast rytme og tydelige strofer",
         "Korte setninger, gjentakelser og pauser"
       ],
       "correct": 3,
@@ -134,9 +134,9 @@
       "text": "Hvilken debatt skapte Min kamp?",
       "options": [
         "Om hva det er lov å skrive om virkelige personer",
-        "Om nynorsk",
-        "Om klima",
-        "Om rim i lyrikken"
+        "Om hvorvidt romaner bør skrives på nynorsk eller bokmål",
+        "Om hvordan klimaendringer bør skildres i skjønnlitteraturen",
+        "Om hvorvidt lyrikk bør bruke rim og fast rytme"
       ],
       "correct": 0,
       "explain": "Knausgård skrev om egen familie.",
@@ -146,10 +146,10 @@
       "id": "q06",
       "text": "Hva tar Tante Ulrikkes vei opp?",
       "options": [
-        "Livet i middelalderen",
+        "Familie og arv blant voksne på en gård",
         "Identitet og klasse blant unge i en drabantby",
-        "Biene som forsvinner",
-        "En konflikt på en øy"
+        "Ungdom og rus blant elever på en internatskole",
+        "Kjærlighet og sorg mellom søsken i en småby"
       ],
       "correct": 1,
       "explain": "Zeshan Shakar, 2017.",
@@ -172,9 +172,9 @@
       "id": "q08",
       "text": "Hva er metafiksjon?",
       "options": [
-        "En sann historie",
-        "En type dikt",
-        "En film",
+        "En tekst som bygger handlingen på historiske hendelser",
+        "En tekst som følger hendelser i kronologisk rekkefølge",
+        "En tekst som forteller om forfatterens liv i jeg-form",
         "En tekst som kommenterer seg selv som tekst"
       ],
       "correct": 3,
@@ -184,10 +184,10 @@
       "id": "q09",
       "text": "Hvilket språk bruker Maria Navarro Skaranger i Alle utlendinger har lukka gardiner?",
       "options": [
-        "Et språk nær ungdomsspråket i Groruddalen",
-        "Gammelnorsk",
-        "Høytidelig riksmål",
-        "Engelsk"
+        "Et språk som ligger nær ungdomsspråket i Groruddalen",
+        "Et språk som ligger nær normert bokmål i formelle tekster",
+        "Et språk som ligger nær eldre riksmål i høytidelige taler",
+        "Et språk som ligger nær engelsk ungdomsspråk i amerikanske medier"
       ],
       "correct": 0,
       "explain": "Nær muntlig ungdomsspråk.",
@@ -197,10 +197,10 @@
       "id": "q10",
       "text": "Hvorfor er det vanskelig å dele samtidslitteraturen inn i retninger?",
       "options": [
-        "Fordi det skrives lite",
+        "Fordi mange forfattere bruker samme fortellerform",
         "Fordi mange stiler lever side om side",
-        "Fordi all litteratur er lik",
-        "Fordi bare lyrikk skrives"
+        "Fordi litteraturen i perioden hovedsakelig består av lyrikk",
+        "Fordi sjangrene har tydelige og faste grenser"
       ],
       "correct": 1,
       "explain": "Mangfold preger samtiden."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva er et godt spørsmål når du leser en samtidstekst?",
         "options": [
-          "Hvor mange sider har den?",
-          "Hva kostet den?",
+          "Hvordan viser teksten at dagens samfunn er bedre enn tidligere samfunn?",
+          "På hvilken måte bekrefter teksten at unge deler samme syn på samfunnet?",
           "Hvordan kan teksten forstås i lys av min egen samtid?",
-          "Hvilken farge har omslaget?"
+          "Hvordan beviser teksten at litterære sjangre har faste grenser?"
         ],
         "correct": 2,
         "explain": "Knytt teksten til samtiden."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -80,8 +80,8 @@
       "options": [
         "K(x) − I(x)",
         "I(x) − K(x)",
-        "I(x) · K(x)",
-        "K(x)/x"
+        "I(x) + K(x)",
+        "I(x) · K(x)"
       ],
       "correct": 1,
       "explain": "Inntekt minus kostnad."
@@ -108,15 +108,15 @@
         "800 kr"
       ],
       "correct": 2,
-      "explain": "O(80) = −3200 + 6400 − 800."
+      "explain": "Setter x = 80 inn i overskuddsfunksjonen og får 2400 kr."
     },
     {
       "id": "q04",
       "text": "Når er overskuddet størst?",
       "options": [
-        "Når K(x) = 0",
-        "Når I(x) er størst",
-        "Når x er størst mulig",
+        "Når grenseinntekten er lik totalkostnaden",
+        "Når grensekostnaden er lik totalinntekten",
+        "Når kostnaden er lik inntekten",
         "Når grensekostnaden er lik grenseinntekten"
       ],
       "correct": 3,
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er grensekostnaden?",
       "options": [
-        "De faste kostnadene",
-        "Den totale kostnaden",
-        "Gjennomsnittskostnaden",
+        "Omtrent den faste kostnaden ved produksjonen",
+        "Omtrent den totale kostnaden ved produksjonen",
+        "Omtrent gjennomsnittskostnaden per enhet",
         "Omtrent kostnaden for å lage én enhet til"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvorfor er største inntekt ikke alltid det samme som største overskudd?",
       "options": [
         "Fordi kostnadene også påvirker overskuddet",
-        "Fordi inntekten alltid er null",
-        "Fordi prisen er fast",
-        "Det er alltid det samme"
+        "Fordi overskuddet bestemmes av prisen alene",
+        "Fordi inntekten allerede inkluderer kostnadene",
+        "Fordi overskuddet beregnes som inntekt pluss kostnader"
       ],
       "correct": 0,
       "explain": "O = I − K."
@@ -326,7 +326,7 @@
           "200x − 2x²",
           "200 − 2x",
           "200x − 2x",
-          "(200 − 2x)²"
+          "200x + 2x²"
         ],
         "correct": 0,
         "explain": "Pris ganger antall."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

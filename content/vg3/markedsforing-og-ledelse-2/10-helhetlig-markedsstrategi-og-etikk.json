@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva betyr at en markedsstrategi er helhetlig?",
       "options": [
-        "At den er lang",
+        "At delene styres hver for seg etter egne mål",
         "At alle delene henger sammen og støtter hverandre",
-        "At den bare handler om pris",
-        "At den gjelder hele verden"
+        "At markedsføringen først og fremst bygger på pris",
+        "At strategien retter seg mot flere land samtidig"
       ],
       "correct": 1,
       "explain": "Konsistens i markedsmiksen."
@@ -91,9 +91,9 @@
       "text": "Hva er pliktetikk?",
       "options": [
         "At noen handlinger er rette eller gale uansett følger",
-        "At bare følgene teller",
-        "At loven er alt",
-        "At alle plikter å kjøpe"
+        "At handlinger vurderes ut fra konsekvensene de får",
+        "At handlinger er rette når de følger loven",
+        "At moralske valg bygger på hva flertallet mener"
       ],
       "correct": 0,
       "explain": "For eksempel å ikke lyve."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er grønnvasking?",
       "options": [
-        "Miljøvennlig vask",
-        "En type sertifisering",
+        "Å dokumentere miljøpåstander med en godkjent sertifisering",
+        "Å bruke miljømerker for å vise dokumenterte forbedringer",
         "Å framstille seg som mer miljøvennlig enn man er",
-        "Å bruke grønn logo"
+        "Å redusere utslipp gjennom endringer i produksjonen"
       ],
       "correct": 2,
       "explain": "Villedende markedsføring."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hvilken markedsmiks passer et premiumprodukt?",
       "options": [
-        "Lav pris og intensiv distribusjon",
-        "Prisfokusert kommunikasjon",
-        "Tilbudsaviser",
+        "Lav pris, intensiv distribusjon og bred massekommunikasjon",
+        "Middels pris, intensiv distribusjon og eksklusiv kommunikasjon",
+        "Høy pris, intensiv distribusjon og generell massekommunikasjon",
         "Høy pris, selektiv distribusjon og eksklusiv kommunikasjon"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva krever markedsføringsloven?",
       "options": [
         "God markedsføringsskikk",
-        "At all reklame er på TV",
-        "At prisene er lave",
-        "At alle produkter er norske"
+        "Saklig produktinformasjon",
+        "Rimelig prissetting",
+        "Norskproduserte varer"
       ],
       "correct": 0,
       "explain": "Forbyr villedende og aggressiv markedsføring."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er manipulerende design?",
       "options": [
-        "Pent design",
+        "Design som gjør nettsiden mer oversiktlig, for eksempel ved kjøp",
         "Design som lurer brukerne, for eksempel ved oppsigelse",
-        "Et designprogram",
-        "En logo"
+        "Design som tilpasser fargene til virksomhetens profil",
+        "Design som viser produktinformasjon tydelig før kjøp"
       ],
       "correct": 1,
       "explain": "Ofte kalt dark patterns.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva skjer når elementene i markedsmiksen spriker?",
       "options": [
-        "Posisjoneringen styrkes",
-        "Salget øker alltid",
+        "Kundene får et tydeligere inntrykk og posisjoneringen styrkes",
+        "Kundene blir mer lojale og posisjoneringen styrkes",
         "Kundene blir forvirret og posisjoneringen svekkes",
-        "Ingenting"
+        "Virksomheten når flere målgrupper og posisjoneringen styrkes"
       ],
       "correct": 2,
       "explain": "Konsistens er viktig."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvorfor kan uetisk markedsføring skade virksomheten?",
       "options": [
-        "Fordi den er dyr",
-        "Fordi den er treg",
-        "Fordi den er ukjent",
+        "Fordi den kan øke kostnadene uten å påvirke tilliten",
+        "Fordi den kan forsinke kampanjen og redusere rekkevidden",
+        "Fordi den kan gjøre virksomheten mindre synlig i markedet",
         "Fordi den kan skade tillit og omdømme når den blir kjent"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva er første del av en markedsplan?",
       "options": [
         "Situasjonsanalyse",
-        "Budsjett",
-        "Kontroll",
-        "Kampanje"
+        "Målformulering",
+        "Strategivalg",
+        "Tiltaksplan"
       ],
       "correct": 0,
       "explain": "Grunnlaget for alt annet."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er et etisk dilemma knyttet til distribusjon?",
       "options": [
-        "Kroppspress",
+        "Villedende prismerking i reklamekampanjer",
         "Dårlige arbeidsforhold i leverandørkjeden",
-        "Falske førpriser",
-        "Planlagt foreldelse"
+        "Kroppspress i produktannonser for ungdom",
+        "Kort levetid på produkter etter lansering"
       ],
       "correct": 1,
       "explain": "Ansvar for hele kjeden.",
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hvilken markedsmiks passer et lavpriskonsept?",
         "options": [
-          "Eksklusiv distribusjon",
+          "Effektive prosesser og selektiv distribusjon",
           "Effektive prosesser og intensiv distribusjon",
-          "Prestisjepris",
-          "Luksuriøse butikker"
+          "Høye kostnader og intensiv distribusjon",
+          "Eksklusiv service og selektiv distribusjon"
         ],
         "correct": 1,
         "explain": "Lave kostnader gjennom hele kjeden."
@@ -324,9 +324,9 @@
         "text": "Hvem kan ilegge overtredelsesgebyr for brudd på markedsføringsloven?",
         "options": [
           "Forbrukertilsynet",
-          "Datatilsynet alene",
-          "Stortinget",
-          "Kundene"
+          "Datatilsynet",
+          "Konkurransetilsynet",
+          "Forbrukerrådet"
         ],
         "correct": 0,
         "explain": "Tilsynsmyndigheten.",
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål hører med i en etisk vurdering av strategien?",
         "options": [
-          "Er logoen pen?",
-          "Er kontoret stort?",
+          "Er strategien lønnsom og hvordan påvirker den markedsandelen?",
+          "Er strategien lovlig og hvordan påvirker den salget?",
           "Er strategien anstendig og hvordan påvirker den omdømmet?",
-          "Hvor mange ansatte har vi?"
+          "Er kampanjen attraktiv og hvordan påvirker den synligheten?"
         ],
         "correct": 2,
         "explain": "I tillegg til lønnsomhet og lovlighet."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

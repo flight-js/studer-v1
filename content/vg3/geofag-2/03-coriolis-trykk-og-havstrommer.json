@@ -78,8 +78,8 @@
       "options": [
         "Mot venstre",
         "Mot høyre",
-        "Rett fram",
-        "Oppover"
+        "Mot lavtrykket",
+        "Mot trykkgradienten"
       ],
       "correct": 1,
       "explain": "Corioliseffekten."
@@ -89,9 +89,9 @@
       "text": "Hvordan blåser vinden rundt et lavtrykk på den nordlige halvkule?",
       "options": [
         "Mot klokka og inn mot sentrum",
-        "Med klokka og ut fra sentrum",
-        "Rett inn",
-        "Rett ut"
+        "Med klokka og inn mot sentrum",
+        "Mot klokka og ut fra sentrum",
+        "Med klokka og ut fra sentrum"
       ],
       "correct": 0,
       "explain": "Luften stiger og gir nedbør."
@@ -101,9 +101,9 @@
       "text": "Hva betyr tette isobarer på et værkart?",
       "options": [
         "Svak vind",
-        "Mye sol",
+        "Høyt lufttrykk",
         "Sterk vind",
-        "Høy temperatur"
+        "Høy lufttemperatur"
       ],
       "correct": 2,
       "explain": "Stor trykkgradient."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er Ekman-transport?",
       "options": [
-        "Transport av skip",
-        "Tidevann",
-        "Vind i høyden",
+        "Netto vanntransport omtrent 90° til venstre for vinden på nordlige halvkule",
+        "Netto vanntransport omtrent 90° til høyre for vinden på sørlige halvkule",
+        "Netto vanntransport parallelt med vinden på nordlige halvkule",
         "Netto vanntransport omtrent 90° til høyre for vinden på nordlige halvkule"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hvorfor er oppstrømningsområder rike fiskeområder?",
       "options": [
         "Fordi kaldt, næringsrikt vann strømmer opp",
-        "Fordi vannet er varmt",
-        "Fordi det er lite strøm",
-        "Fordi det er lite lys"
+        "Fordi varmt, næringsfattig vann strømmer opp",
+        "Fordi kaldt, næringsfattig vann strømmer opp",
+        "Fordi næringsrikt vann synker ned"
       ],
       "correct": 0,
       "explain": "Gir mye plankton."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvilket vann er tyngst?",
       "options": [
-        "Varmt og ferskt",
+        "Varmt og brakt",
         "Kaldt og salt",
-        "Varmt og salt",
-        "Kaldt og ferskt"
+        "Lunkent og ferskt",
+        "Kjølig og ferskt"
       ],
       "correct": 1,
       "explain": "Synker og driver dypvannssirkulasjon."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er geostrofisk vind?",
       "options": [
-        "Vind nær bakken",
-        "Vind mot lavtrykket alltid",
+        "Vind vinkelrett på isobarene i høyden",
+        "Vind parallelt med isobarene ved bakken",
         "Vind parallelt med isobarene i høyden",
-        "Sjøbris"
+        "Vind mot lavere trykk i høyden"
       ],
       "correct": 2,
       "explain": "Balanse mellom trykkgradient og coriolis."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvorfor har Norge mildere klima enn andre steder på samme breddegrad?",
       "options": [
-        "Fordi Norge ligger nær ekvator",
-        "På grunn av fjellene",
-        "På grunn av permafrost",
+        "På grunn av fjellene og innlandsklimaet",
+        "På grunn av havisen og polarvindene",
+        "På grunn av permafrosten og høy breddegrad",
         "På grunn av Golfstrømmen og vestavindene"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hvor er corioliseffekten null?",
       "options": [
         "Ved ekvator",
-        "Ved polene",
-        "Ved 45°",
-        "Overalt"
+        "Ved 30° bredde",
+        "Ved vendekretsene",
+        "Ved polarsirklene"
       ],
       "correct": 0,
       "explain": "Størst ved polene."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva kan mer smeltevann fra Grønland gjøre med havsirkulasjonen?",
       "options": [
-        "Styrke den",
+        "Styrke den fordi overflatevannet blir lettere",
         "Svekke den fordi overflatevannet blir lettere",
-        "Ingenting",
-        "Stoppe tidevannet"
+        "Svekke den fordi overflatevannet blir saltere",
+        "Svekke den fordi dypvannet blir varmere"
       ],
       "correct": 1,
       "explain": "Mindre dypvannsdannelse.",
@@ -307,10 +307,10 @@
         "type": "flervalg",
         "text": "Hvor dannes dypvann som driver den termohaline sirkulasjonen?",
         "options": [
-          "Ved ekvator",
+          "I det nordlige Stillehavet",
           "I Nord-Atlanteren og rundt Antarktis",
-          "I Middelhavet",
-          "I Stillehavet ved Peru"
+          "I havområdene ved ekvator",
+          "I Middelhavet og Karibia"
         ],
         "correct": 1,
         "explain": "Kaldt, salt vann synker."
@@ -321,9 +321,9 @@
         "text": "Hvorfor er kysten av Norge isfri om vinteren?",
         "options": [
           "Golfstrømmen og Den nordatlantiske strømmen",
-          "Høyt saltinnhold alene",
-          "Tidevannet",
-          "Vulkaner"
+          "Den kalde Labradorstrømmen og Øst-Grønlandsstrømmen",
+          "Den varme Kuroshiostrømmen og Agulhasstrømmen",
+          "Den kalde Perustrømmen og Benguelastrømmen"
         ],
         "correct": 0,
         "explain": "Varmt vann fra sør."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hvor finner vi et kjent oppstrømningsområde?",
         "options": [
-          "I Nordsjøen",
-          "I Østersjøen",
+          "I Karibia",
+          "Ved Hawaii",
           "Utenfor Peru",
-          "I Mjøsa"
+          "Utenfor Florida"
         ],
         "correct": 2,
         "explain": "Rike fiskeområder.",
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

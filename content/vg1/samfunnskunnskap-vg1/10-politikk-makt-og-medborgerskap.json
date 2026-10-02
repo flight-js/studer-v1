@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva betyr parlamentarisme?",
       "options": [
-        "At kongen bestemmer",
+        "At regjeringen må ha kongens støtte",
         "At regjeringen må ha Stortingets tillit",
-        "At presidenten velges direkte",
-        "At domstolene lager lover"
+        "At Stortinget må ha regjeringens støtte",
+        "At regjeringen må ha Høyesteretts støtte"
       ],
       "correct": 1,
       "explain": "Parlamentarismen ble innført i Norge i 1884."
@@ -93,9 +93,9 @@
       "text": "Hvem leder den utøvende makten i USA?",
       "options": [
         "Presidenten",
-        "Kongressen",
-        "Høyesterett",
-        "Senatet"
+        "Kongressens president",
+        "Utenriksministeren",
+        "Høyesterettsjustitiarius"
       ],
       "correct": 0,
       "explain": "Presidenten velges for fire år."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva kjennetegner Kina politisk?",
       "options": [
-        "Flerpartisystem med frie valg",
-        "Konstitusjonelt monarki",
+        "Ettpartistat der presidenten deler makten med flere partier",
+        "Flerpartistat der kommunistpartiet konkurrerer i frie valg",
         "Ettpartistat der kommunistpartiet har all makt",
-        "Presidentstyre som i USA"
+        "Militærstyre der hæren utpeker landets politiske ledere"
       ],
       "correct": 2,
       "explain": "Det er streng sensur og overvåking."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvordan definerte Max Weber makt?",
       "options": [
-        "Evnen til å tjene penger",
-        "Evnen til å vinne valg",
-        "Evnen til å skrive lover",
+        "Evnen til å få gjennomslag for egne meninger ved å vinne et valg",
+        "Evnen til å få andre til å følge regler fordi man har en formell rolle",
+        "Evnen til å påvirke samfunnsutviklingen ved å skrive nye lover",
         "Evnen til å få gjennomført sin vilje, også mot andres motstand"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva er et teokrati?",
       "options": [
         "Styre der religiøse ledere har øverste makt",
-        "Styre av militæret",
-        "Styre av folket",
-        "Styre av en konge uten makt"
+        "Styre der militære ledere har øverste makt",
+        "Styre der folket har øverste makt gjennom valg",
+        "Styre der kongen har øverste makt etter arvelov"
       ],
       "correct": 0,
       "explain": "Iran er et eksempel.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva er formålet med «checks and balances» i USA?",
       "options": [
-        "Å gi presidenten all makt",
+        "Å sikre at presidenten får kontroll over alle statsmaktene",
         "Å hindre at noen får for mye makt",
-        "Å redusere antall valg",
-        "Å avskaffe domstolene"
+        "Å la Kongressen bestemme uten innblanding fra presidenten",
+        "Å gi domstolene ansvar for å vedta landets lover"
       ],
       "correct": 1,
       "explain": "Maktene kontrollerer hverandre.",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva er mediemakt?",
       "options": [
-        "Makt til å vedta lover",
-        "Makt over militæret",
+        "Makt til å bestemme hvilke lover Stortinget skal vedta",
+        "Makt til å bestemme hvordan offentlige penger skal fordeles",
         "Makt til å bestemme hva folk får vite og snakker om",
-        "Makt over økonomien"
+        "Makt til å bestemme hvem som skal lede politiske partier"
       ],
       "correct": 2,
       "explain": "Mediene kalles ofte den fjerde statsmakt."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvilken av disse er en måte å være aktiv medborger på?",
       "options": [
-        "Å aldri følge med på nyheter",
-        "Å ignorere valg",
-        "Å bare tenke på seg selv",
+        "Å la andre ta alle beslutninger i lokalsamfunnet",
+        "Å vente på at politikere løser lokale problemer",
+        "Å unngå å delta i møter om saker i nærmiljøet",
         "Å engasjere seg i elevråd eller organisasjoner"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva er legitim makt?",
       "options": [
         "Makt som folk godtar som rettmessig",
-        "Makt tatt med vold",
-        "Makt uten ansvar",
-        "Makt over naturen"
+        "Makt som tas med vold uten godkjenning fra folk",
+        "Makt som brukes uten lovlig rett til å bestemme",
+        "Makt som gir myndigheter kontroll over naturressurser"
       ],
       "correct": 0,
       "explain": "En valgt regjering har legitim makt."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvilket tiltak begrenser maktmisbruk?",
       "options": [
-        "Sensur",
+        "Sensur av medier",
         "Frie medier og åpenhet",
-        "At én person får all makt",
-        "Å avskaffe valg"
+        "Ubegrenset myndighet for regjeringen",
+        "Hemmelig saksbehandling uten innsyn"
       ],
       "correct": 1,
       "explain": "Maktfordeling og rettssikkerhet er også viktige."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hvilke to kamre har Kongressen i USA?",
         "options": [
-          "Stortinget og Lagtinget",
+          "Senatet og Høyesterett",
           "Representantenes hus og Senatet",
-          "Overhuset og Underhuset",
-          "Rådet og Parlamentet"
+          "Representantenes hus og presidentens kabinett",
+          "Senatet og presidentens kabinett"
         ],
         "correct": 1,
         "explain": "Sammen vedtar de lover.",
@@ -344,9 +344,9 @@
         "text": "Hva er avmakt?",
         "options": [
           "Følelsen av å ikke ha innflytelse",
-          "Mye makt",
-          "En type valg",
-          "Et politisk parti"
+          "Følelsen av å ha stor innflytelse på politiske valg",
+          "Følelsen av å ikke forstå politiske beslutninger",
+          "Følelsen av å ha tillit til folkevalgte"
         ],
         "correct": 0,
         "explain": "Avmakt kan føre til lav deltakelse."
@@ -356,10 +356,10 @@
         "type": "flervalg",
         "text": "Hva måler organisasjoner som Freedom House og V-Dem?",
         "options": [
-          "Økonomisk vekst",
-          "Befolkningsvekst",
+          "Hvor velstående land er",
+          "Hvor store befolkninger land har",
           "Hvor demokratiske land er",
-          "Klimautslipp"
+          "Hvor mye utslipp land slipper ut"
         ],
         "correct": 2,
         "explain": "Mange land ligger mellom demokrati og diktatur.",
@@ -446,6 +446,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

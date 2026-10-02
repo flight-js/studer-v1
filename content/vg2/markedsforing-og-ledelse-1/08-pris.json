@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hvorfor er prisen et spesielt konkurransemiddel?",
       "options": [
-        "Den er alltid lav",
-        "Den er det eneste som gir inntekter",
-        "Den er ulovlig å endre",
-        "Den påvirker ikke salget"
+        "Den er konkurransemiddelet som påvirker produktets kvalitet",
+        "Den er det eneste konkurransemiddelet som gir inntekter",
+        "Den er konkurransemiddelet som bestemmer distribusjonen",
+        "Den er konkurransemiddelet som skaper reklamebudskapet"
       ],
       "correct": 1,
       "explain": "De andre konkurransemidlene koster penger."
@@ -97,9 +97,9 @@
       "text": "En vare koster 160 kr uten merverdiavgift. Hva blir prisen med 25 % merverdiavgift?",
       "options": [
         "200 kr",
-        "185 kr",
-        "160 kr",
-        "240 kr"
+        "180 kr",
+        "190 kr",
+        "220 kr"
       ],
       "correct": 0,
       "explain": "160 · 1,25 = 200."
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hva er dekningsbidrag per enhet?",
       "options": [
-        "Pris minus faste kostnader",
-        "Faste kostnader delt på pris",
+        "Pris minus faste kostnader per enhet",
+        "Variable kostnader per enhet minus pris",
         "Pris minus variable kostnader per enhet",
-        "Omsetning minus skatt"
+        "Salgsinntekt per enhet minus faste kostnader"
       ],
       "correct": 2,
       "explain": "Skal dekke faste kostnader og gi overskudd."
@@ -134,8 +134,8 @@
       "options": [
         "Skumming",
         "Penetrasjon",
-        "Lavpris",
-        "Lokkevare"
+        "Kostnadsbasert prising",
+        "Psykologisk prising"
       ],
       "correct": 0,
       "explain": "Prisen senkes etter hvert."
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hva er penetrasjonsprising?",
       "options": [
-        "Høy pris for å vise status",
+        "Høy lanseringspris for å tjene på betalingsvillige kunder",
         "Lav lanseringspris for å ta markedsandeler raskt",
-        "Ulike priser for ulike kunder",
-        "Pris satt ut fra kostnader"
+        "Ulike priser for å tilpasse seg ulike kundegrupper",
+        "Pris satt ut fra kostnader for å sikre fortjeneste"
       ],
       "correct": 1,
       "explain": "Kundene lokkes til å prøve produktet."
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hva betyr det at etterspørselen er elastisk?",
       "options": [
-        "Kundene reagerer lite på prisen",
-        "Prisen er fast",
+        "Kundene endrer kjøpsmengden lite ved prisendringer",
+        "Kundene reagerer mest på endringer i inntekten",
         "Kundene reagerer mye på prisendringer",
-        "Varen er nødvendig"
+        "Kundene reagerer mest på endringer i produktets kvalitet"
       ],
       "correct": 2,
       "explain": "Ofte fordi det finnes mange alternativer."
@@ -170,7 +170,7 @@
       "options": [
         "skumming",
         "psykologisk prising",
-        "lokkevare",
+        "dynamisk prising",
         "prisdifferensiering"
       ],
       "correct": 3,
@@ -180,10 +180,10 @@
       "id": "q09",
       "text": "Hvorfor setter mange 199 kr i stedet for 200 kr?",
       "options": [
-        "Prisen oppleves lavere",
-        "Det er lovpålagt",
-        "Det gir mer merverdiavgift",
-        "Det er lettere å regne med"
+        "Prisen oppleves lavere for kunden",
+        "Prisen blir lettere å regne ut for kunden",
+        "Prisen signaliserer høyere kvalitet til kunden",
+        "Prisen gjør varen billigere å produsere"
       ],
       "correct": 0,
       "explain": "Psykologisk prising."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva er ulovlig ved prisreklame?",
       "options": [
-        "Å gi rabatt",
+        "Å annonsere en reell rabatt på varen",
         "Å oppgi en falsk førpris",
-        "Å ha salg",
-        "Å bruke psykologisk prising"
+        "Å vise ordinær pris sammen med tilbudspris",
+        "Å oppgi en tidsbegrenset introduksjonspris"
       ],
       "correct": 1,
       "explain": "Tilbudet må ikke framstå bedre enn det er.",
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Hva er dynamisk prising?",
         "options": [
-          "Samme pris hele året",
+          "Prisen holdes fast gjennom hele året",
           "Prisen endres fortløpende etter etterspørselen",
-          "Pris satt av staten",
-          "Gratis produkter"
+          "Prisen fastsettes ut fra produksjonskostnadene",
+          "Prisen settes lik konkurrentenes priser"
         ],
         "correct": 1,
         "explain": "Vanlig for flybilletter og hotell.",
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hva er en lokkevare?",
         "options": [
-          "En luksusvare",
-          "En vare med høy pris",
+          "En vare med høy pris som skal signalisere kvalitet",
+          "En vare på tilbud som skal tømme butikkens lager",
           "En svært billig vare som skal trekke kunder inn",
-          "En vare som ikke selges"
+          "En vare til ordinær pris som skal dekke faste kostnader"
         ],
         "correct": 2,
         "explain": "Kundene handler ofte mer når de først er i butikken.",
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva betyr det at arbeidsmarkedet er kjønnsdelt?",
       "options": [
-        "At kvinner og menn jobber på ulike dager",
+        "At kvinner og menn oftere jobber i samme typer yrker",
         "At mange yrker domineres av ett kjønn",
-        "At lønna er lik for alle",
-        "At menn og kvinner ikke får jobbe sammen"
+        "At mange yrker har omtrent like mange kvinner og menn",
+        "At kvinner og menn får ulik lønn i mange av de samme yrkene"
       ],
       "correct": 1,
       "explain": "Norge har et av de mest kjønnsdelte arbeidsmarkedene i Europa, selv om landet regnes som likestilt."
@@ -106,9 +106,9 @@
       "text": "Hva er et utradisjonelt valg?",
       "options": [
         "Å velge et yrke der det er få av ditt kjønn",
-        "Å velge det samme som foreldrene",
-        "Å ikke velge noe",
-        "Å velge den korteste utdanningen"
+        "Å velge et yrke der det er mange av ditt kjønn",
+        "Å velge et yrke som passer til interessene dine",
+        "Å velge et yrke med kortere utdanning enn andre"
       ],
       "correct": 0,
       "explain": "For eksempel en gutt som blir helsefagarbeider."
@@ -117,7 +117,7 @@
       "id": "q04",
       "text": "Hvilken lov forbyr diskriminering på grunn av kjønn?",
       "options": [
-        "Opplæringsloven",
+        "Forvaltningsloven",
         "Ferieloven",
         "Likestillings- og diskrimineringsloven",
         "Vegtrafikkloven"
@@ -130,10 +130,10 @@
       "id": "q05",
       "text": "Hvorfor tjener kvinner i gjennomsnitt mindre enn menn?",
       "options": [
-        "Fordi de er dårligere",
-        "Blant annet fordi mange kvinnedominerte yrker har lavere lønn og flere kvinner jobber deltid",
-        "Fordi loven sier det",
-        "Det gjør de ikke"
+        "Blant annet fordi kvinner oftere jobber i yrker med høyere lønn, og flere menn jobber deltid",
+        "Blant annet fordi mange kvinnedominerte yrker har lavere lønn, og flere kvinner jobber deltid",
+        "Blant annet fordi menn oftere tar kortere utdanning, og kvinner jobber mer heltid",
+        "Blant annet fordi lønna i kvinnedominerte yrker vanligvis er høyere enn i mannsdominerte yrker"
       ],
       "correct": 1,
       "explain": "Lønnsforskjellene har flere årsaker."
@@ -143,9 +143,9 @@
       "text": "Hva er en kjønnsstereotypi?",
       "options": [
         "En forestilling om hva som er typisk for jenter og gutter",
-        "En type musikkanlegg",
-        "En lov",
-        "Et yrke"
+        "En regel om hvilke yrker jenter og gutter kan velge",
+        "En forskjell i lønn mellom kvinner og menn",
+        "En vurdering av hvor flinke jenter og gutter er på skolen"
       ],
       "correct": 0,
       "explain": "Stereotypier kan begrense valgene våre."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvordan kan rollemodeller påvirke yrkesvalg?",
       "options": [
-        "De har ingen betydning",
-        "De bestemmer valget for deg",
+        "De gjør det lettere å velge et yrke som vennene dine allerede har valgt",
+        "De gjør det lettere å velge et yrke med kortere utdanning enn andre",
         "De gjør det lettere å se for seg et yrke man ellers ikke ville vurdert",
-        "De gjør alle yrker like"
+        "De viser hvilke yrker som passer best til alle med samme kjønn"
       ],
       "correct": 2,
       "explain": "Det er lettere å velge noe når man ser at andre som ligner en, har gjort det."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hvorfor er det et problem for samfunnet at arbeidsmarkedet er kjønnsdelt?",
       "options": [
-        "Det er ikke et problem",
-        "Det gir for mange arbeidere",
-        "Det gjør alle yrker like",
+        "Samfunnet får bedre løsninger og mindre mangel på ansatte i noen yrker",
+        "Samfunnet får flere søkere og mindre behov for arbeidskraft i noen yrker",
+        "Samfunnet får flere ansatte og mindre behov for talenter i noen yrker",
         "Samfunnet går glipp av talenter og får mangel på arbeidskraft i noen yrker"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hva er kjønnspoeng?",
       "options": [
         "Ekstra poeng til det underrepresenterte kjønnet ved opptak til enkelte studier",
-        "Poeng i gym",
-        "Poeng for å være gutt",
-        "En karakter"
+        "Ekstra poeng til alle søkere ved opptak til enkelte studier",
+        "Ekstra poeng til det best representerte kjønnet ved opptak til enkelte studier",
+        "Ekstra poeng til søkere med høyest karakter ved opptak til enkelte studier"
       ],
       "correct": 0,
       "explain": "Tiltaket skal gi en jevnere kjønnsbalanse.",
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva er et godt spørsmål å stille seg når man velger utdanning?",
       "options": [
-        "Hva velger alle vennene mine?",
+        "Hadde jeg valgt annerledes hvis vennene mine hadde valgt noe annet?",
         "Hadde jeg valgt annerledes hvis jeg hadde vært av et annet kjønn?",
-        "Hva er mest populært på sosiale medier?",
-        "Hva er den korteste utdanningen?"
+        "Hadde jeg valgt annerledes hvis utdanningen var kortere enn de andre?",
+        "Hadde jeg valgt annerledes hvis yrket var mer populært på sosiale medier?"
       ],
       "correct": 1,
       "explain": "Spørsmålet kan avsløre om stereotypier styrer valget."
@@ -323,9 +323,9 @@
         "text": "Hvem behandler klager om diskriminering?",
         "options": [
           "Politiet",
-          "Rådgiveren",
+          "Likestillings- og diskrimineringsombudet",
           "Diskrimineringsnemnda",
-          "Kommunestyret"
+          "Arbeidstilsynet"
         ],
         "correct": 2,
         "explain": "Ombudet gir veiledning, og nemnda behandler klager.",
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "Hva er en fordel med mangfold på arbeidsplassen?",
         "options": [
-          "Det gir ofte bedre løsninger og arbeidsmiljø",
-          "Det gir lavere lønn",
-          "Det gjør alle like",
-          "Det gir færre ansatte"
+          "Det kan gi bedre løsninger og arbeidsmiljø",
+          "Det kan gi lavere lønn og større forskjeller på arbeidsplassen",
+          "Det kan gjøre at ansatte får likere erfaringer og synspunkter",
+          "Det kan føre til færre ulike perspektiver og løsninger på jobb"
         ],
         "correct": 0,
         "explain": "Ulike perspektiver kan gi bedre løsninger."
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

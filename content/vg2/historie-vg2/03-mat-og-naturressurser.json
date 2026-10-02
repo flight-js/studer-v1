@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Når begynte den neolittiske revolusjon?",
       "options": [
-        "For rundt 2000 år siden",
+        "For rundt 2 000 år siden",
         "For rundt 10 000 år siden",
-        "For rundt 500 år siden",
-        "For rundt 100 000 år siden"
+        "For rundt 5 000 år siden",
+        "For rundt 20 000 år siden"
       ],
       "correct": 1,
       "explain": "Den begynte i Midtøsten."
@@ -92,9 +92,9 @@
       "text": "Hvor oppsto jordbruket først?",
       "options": [
         "I Den fruktbare halvmåne i Midtøsten",
-        "I Norge",
-        "I Nord-Amerika",
-        "I Australia"
+        "I Nildalen i det nordøstlige Afrika",
+        "I Indusdalen i Sør-Asia",
+        "I Yangtze-dalen i det østlige Kina"
       ],
       "correct": 0,
       "explain": "Jordbruk oppsto også uavhengig andre steder.",
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva var en konsekvens av overgangen til jordbruk?",
       "options": [
-        "Folk ble mer nomadiske",
-        "Befolkningen sank",
-        "Folk ble bofaste, og det oppsto byer og stater",
-        "Handel forsvant"
+        "Folk fortsatte å flytte etter jakt og ville planter",
+        "Befolkningen sank fordi mattilgangen ble mindre",
+        "Folk ble bofaste, og byer og stater vokste fram",
+        "Handelen ble mindre fordi folk produserte alt selv"
       ],
       "correct": 2,
       "explain": "Overskudd ga grunnlag for handel og arbeidsdeling."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvilken vare var en viktig eksportvare fra Norge i middelalderen?",
       "options": [
-        "Kaffe",
-        "Olje",
-        "Laks fra oppdrett",
+        "Silke",
+        "Krydder",
+        "Sukker",
         "Tørrfisk"
       ],
       "correct": 3,
@@ -129,10 +129,10 @@
       "id": "q05",
       "text": "Hva var den grønne revolusjon?",
       "options": [
-        "Økte avlinger fra 1960-tallet gjennom nye sorter, kunstgjødsel og vanning",
-        "En miljøbevegelse",
-        "Overgangen til jordbruk",
-        "En politisk revolusjon"
+        "Større avlinger fra 1960-tallet med nye sorter, kunstgjødsel og vanning",
+        "En miljøkampanje fra 1960-tallet mot kunstgjødsel og sprøytemidler",
+        "Overgangen fra jakt og sanking til fast jordbruk i oldtiden",
+        "En politisk omveltning i land som innførte nye jordbruksmaskiner"
       ],
       "correct": 0,
       "explain": "Den reduserte sult i blant annet India og Mexico."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er en bakside ved den grønne revolusjon?",
       "options": [
-        "Mindre mat",
-        "Forurensning og tap av biologisk mangfold",
-        "Færre mennesker",
-        "Mindre handel"
+        "Økt matmangel blant bønder og lavere avlinger",
+        "Forurensning fra innsatsmidler og tap av biologisk mangfold",
+        "Færre dyrkede sorter og mindre bruk av gjødsel",
+        "Redusert mathandel og færre områder med matproduksjon"
       ],
       "correct": 1,
       "explain": "Den økte også presset på vann og jord."
@@ -154,9 +154,9 @@
       "text": "Når kom jordbruket til Norge?",
       "options": [
         "For rundt 20 000 år siden",
-        "I vikingtiden",
-        "For rundt 6000 år siden",
-        "På 1700-tallet"
+        "For rundt 2 000 år siden",
+        "For rundt 6 000 år siden",
+        "For rundt 500 år siden"
       ],
       "correct": 2,
       "explain": "Før det levde folk av jakt, fangst og fiske.",
@@ -166,10 +166,10 @@
       "id": "q08",
       "text": "Hvorfor flyttet mange til byene på 1800-tallet?",
       "options": [
-        "Fordi byene hadde mer jord",
-        "Fordi det ble forbudt å bo på landet",
-        "Fordi det kom flere uår",
-        "Fordi færre trengtes i jordbruket og industrien trengte arbeidere"
+        "Fordi byene hadde mer dyrkbar jord enn bygdene rundt",
+        "Fordi myndighetene begrenset bosetting på landsbygda gjennom nye lover",
+        "Fordi flere uår gjorde det vanskeligere å skaffe mat på bygdene",
+        "Fordi færre trengtes i jordbruket, mens industrien trengte arbeidere"
       ],
       "correct": 3,
       "explain": "Maskiner og nye metoder økte produktiviteten."
@@ -179,9 +179,9 @@
       "text": "Hvilken matvare bidro til å redusere sult i Norge fra 1700-tallet?",
       "options": [
         "Poteten",
-        "Risen",
-        "Maisen",
-        "Bananen"
+        "Kålrota",
+        "Havren",
+        "Rugen"
       ],
       "correct": 0,
       "explain": "Poteten ga stor avling på liten plass.",
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvilket tiltak kan gjøre matproduksjonen mer bærekraftig?",
       "options": [
-        "Mer matsvinn",
+        "Større matsvinn og mer kjøttbasert kost",
         "Mindre matsvinn og mer plantebasert kost",
-        "Å bygge ned matjord",
-        "Mer bruk av sprøytemidler"
+        "Nedbygging av matjord og større kjøttforbruk",
+        "Mer bruk av sprøytemidler og økt matsvinn"
       ],
       "correct": 1,
       "explain": "Også å ta vare på matjorda er viktig."
@@ -319,9 +319,9 @@
         "text": "Hva er arbeidsdeling?",
         "options": [
           "At ulike mennesker har ulike oppgaver",
-          "At alle gjør det samme",
-          "At man deler maten",
-          "At man jobber mindre"
+          "At mennesker bytter oppgaver med hverandre",
+          "At en gruppe deler maten likt mellom seg",
+          "At mennesker utfører færre oppgaver sammen"
         ],
         "correct": 0,
         "explain": "Overskudd gjorde arbeidsdeling mulig."
@@ -333,8 +333,8 @@
         "options": [
           "Norge og Sverige",
           "India og Mexico",
-          "Island og Grønland",
-          "Japan og Korea"
+          "Egypt og Marokko",
+          "Canada og Australia"
         ],
         "correct": 1,
         "explain": "Hundrevis av millioner slapp sult.",
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva er matjord?",
         "options": [
-          "Jord i en blomsterpotte",
-          "Jord brukt til bygging",
-          "Det øverste jordlaget som er egnet til dyrking",
-          "Jord fra havet"
+          "Det nederste jordlaget som ligger under matjorda",
+          "Jord som er blandet med kompost i en blomsterpotte",
+          "Det øverste jordlaget som egner seg for dyrking",
+          "Jord som er gravd opp ved bygging av veier"
         ],
         "correct": 2,
         "explain": "Matjord tar svært lang tid å danne."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

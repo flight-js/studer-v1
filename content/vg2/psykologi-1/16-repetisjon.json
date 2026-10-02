@@ -109,10 +109,10 @@
       "id": "q01",
       "text": "Hva er den biopsykososiale modellen?",
       "options": [
-        "En modell av hjernen",
+        "En samlet forklaring som kobler hjernens områder til atferd",
         "En samlet forklaring med biologiske, psykologiske og sosiale faktorer",
-        "En test av intelligens",
-        "En teori om drømmer"
+        "En standardisert test som måler generell intelligens hos personer",
+        "En teori som forklarer atferd ut fra ubevisste drømmer"
       ],
       "correct": 1,
       "explain": "Gir en mer helhetlig forklaring."
@@ -121,22 +121,22 @@
       "id": "q02",
       "text": "En studie finner at elever med mye skjermtid sover mindre. Hva kan vi konkludere?",
       "options": [
-        "Skjermtid gir alltid dårlig søvn",
-        "Dårlig søvn gir skjermtid",
+        "Mer skjermtid fører til mindre søvn hos elevene",
+        "Lite søvn fører til mer skjermtid hos elevene",
         "Det er en sammenheng, men ikke nødvendigvis årsak",
-        "Studien er ugyldig"
+        "Skjermtid påvirker søvnlengden direkte hos elevene"
       ],
       "correct": 2,
-      "explain": "Korrelasjon er ikke kausalitet."
+      "explain": "En sammenheng viser at variablene varierer sammen, men ikke hvilken som påvirker den andre."
     },
     {
       "id": "q03",
       "text": "Hva er forskjellen på en psykolog og en psykiater?",
       "options": [
         "En psykiater er lege og kan skrive ut medisiner",
-        "Det er det samme",
-        "En psykolog kan skrive ut medisiner",
-        "En psykiater jobber bare i skolen"
+        "En psykolog er lege og kan skrive ut medisiner",
+        "En psykiater er psykolog og kan skrive ut medisiner",
+        "En psykiater er lege og skriver ut medisiner etter psykologens godkjenning"
       ],
       "correct": 0,
       "explain": "Begge kan behandle psykiske lidelser."
@@ -145,10 +145,10 @@
       "id": "q04",
       "text": "Hvilken del av nervesystemet gjør kroppen klar til kamp eller flukt?",
       "options": [
-        "Den parasympatiske",
-        "Den somatiske",
-        "Lillehjernen",
-        "Den sympatiske"
+        "Den parasympatiske delen",
+        "Den somatiske delen",
+        "Den sensoriske delen",
+        "Den sympatiske delen"
       ],
       "correct": 3,
       "explain": "Pulsen og pusten øker."
@@ -157,10 +157,10 @@
       "id": "q05",
       "text": "Hva er forskjellen på sansning og persepsjon?",
       "options": [
-        "Det er det samme",
-        "Sansning fanger opp stimuli, persepsjon tolker dem",
-        "Persepsjon skjer i øyet",
-        "Sansning er bare syn"
+        "Sansning tolker stimuli, mens persepsjon fanger dem opp.",
+        "Sansning fanger opp stimuli, mens persepsjon tolker dem.",
+        "Sansning lagrer stimuli, mens persepsjon henter dem fram.",
+        "Sansning vurderer stimuli, mens persepsjon registrerer dem."
       ],
       "correct": 1,
       "explain": "Persepsjonen er det vi opplever."
@@ -169,10 +169,10 @@
       "id": "q06",
       "text": "Hva gjør søvn for hukommelsen?",
       "options": [
-        "Sletter minner",
-        "Konsoliderer og styrker minnene",
-        "Ingenting",
-        "Lager falske minner"
+        "Bryter ned og svekker minner etter læring",
+        "Konsoliderer og styrker minner etter læring",
+        "Flytter minner fra langtidsminnet til korttidsminnet",
+        "Skaper nye minner uten at noe er blitt lært"
       ],
       "correct": 1,
       "explain": "Derfor er søvn viktig før prøver."
@@ -181,9 +181,9 @@
       "id": "q07",
       "text": "Hvilken strategi har best forskningsstøtte?",
       "options": [
-        "Lese om igjen mange ganger",
-        "Streke under alt",
-        "Tilpasse seg én læringsstil",
+        "Lese teksten om igjen flere ganger",
+        "Streke under de fleste setningene",
+        "Velge strategi ut fra egen læringsstil",
         "Teste seg selv og spre repetisjonen"
       ],
       "correct": 3,
@@ -193,10 +193,10 @@
       "id": "q08",
       "text": "Hva er den viktigste kilden til mestringsforventning?",
       "options": [
-        "Belønninger",
-        "Karakterer",
-        "Oppmuntring fra lærer",
-        "Egne mestringserfaringer"
+        "Å se andre lykkes med lignende oppgaver",
+        "Oppmuntring fra lærer før en vanskelig oppgave",
+        "Å tolke uro som tegn på manglende evner",
+        "Egne erfaringer med å mestre lignende oppgaver"
       ],
       "correct": 3,
       "explain": "Ifølge Bandura."
@@ -205,10 +205,10 @@
       "id": "q09",
       "text": "Hva mener de fleste psykologer i dag om arv og miljø?",
       "options": [
-        "Bare arv betyr noe",
+        "Arv og miljø virker uavhengig av hverandre",
         "Arv og miljø virker sammen",
-        "Bare miljø betyr noe",
-        "Ingen av delene betyr noe"
+        "Arv former personlighet uten påvirkning fra miljø",
+        "Miljø former personlighet uten påvirkning fra arv"
       ],
       "correct": 1,
       "explain": "Spørsmålet «arv eller miljø» er feil stilt."
@@ -217,10 +217,10 @@
       "id": "q10",
       "text": "Hva er den viktigste forutsetningen for trygg tilknytning?",
       "options": [
-        "Mye leker",
-        "Sensitiv omsorg",
-        "Streng oppdragelse",
-        "At barnet begynner tidlig i barnehage"
+        "At barnet får tilgang til mange leker og aktiviteter",
+        "At omsorgspersonen oppfatter og svarer på barnets signaler",
+        "At omsorgspersonen setter tydelige regler og grenser",
+        "At barnet starter tidlig i barnehage og møter jevnaldrende"
       ],
       "correct": 1,
       "explain": "Å se og svare på barnets signaler."
@@ -242,10 +242,10 @@
       "id": "q12",
       "text": "Hva er dulting?",
       "options": [
-        "Å forby miljøskadelige varer",
+        "Å forby varer som gir store utslipp gjennom offentlige regler",
         "Å endre valgomgivelsene slik at et valg blir lettere",
-        "Å skattlegge alt",
-        "Å gi straff"
+        "Å legge avgifter på miljøskadelige valg for å endre atferd",
+        "Å straffe personer som velger miljøskadelig transport eller produkter"
       ],
       "correct": 1,
       "explain": "Uten å fjerne valgmuligheter.",
@@ -255,10 +255,10 @@
       "id": "q13",
       "text": "Hva er en av de viktigste beskyttende faktorene i en krise?",
       "options": [
-        "Sosial støtte",
-        "Å være alene",
-        "Å unngå å snakke om det",
-        "Mye skjermtid"
+        "Støtte fra familie, venner og andre nærpersoner",
+        "Avstand fra familie, venner og andre nærpersoner",
+        "Følelsesmessig tilbakeholdenhet overfor familie og venner",
+        "Unngåelse av kontakt med familie og venner"
       ],
       "correct": 0,
       "explain": "Familie og venner som er til stede."
@@ -267,10 +267,10 @@
       "id": "q14",
       "text": "Hvorfor er ungdom mer sårbare for rusmidler?",
       "options": [
-        "De har større hjerne",
-        "De har mindre dopamin",
-        "Hjernen er fortsatt i utvikling",
-        "De tåler mer"
+        "Fordi ungdom har større hjernevolum enn voksne",
+        "Fordi ungdom bryter ned rusmidler raskere enn voksne",
+        "Fordi hjernen fortsatt er under utvikling",
+        "Fordi ungdom har mindre behov for søvn enn voksne"
       ],
       "correct": 2,
       "explain": "Tidlig debut gir større risiko."
@@ -279,13 +279,13 @@
       "id": "q15",
       "text": "Hva sier sårbarhet-stress-modellen?",
       "options": [
-        "At bare stress gir sykdom",
-        "At psykiske lidelser oppstår i samspill mellom sårbarhet og belastning",
-        "At sårbarhet ikke betyr noe",
-        "At alle blir like syke"
+        "At psykiske lidelser kan oppstå når belastningen virker alene",
+        "At psykiske lidelser kan oppstå når sårbarhet og belastning virker sammen",
+        "At psykiske lidelser kan oppstå når sårbarheten virker alene",
+        "At psykiske lidelser utvikles uavhengig av personens sårbarhet"
       ],
       "correct": 1,
-      "explain": "Høy sårbarhet gir lavere terskel."
+      "explain": "Sårbarhet og belastning virker sammen, og høy sårbarhet kan senke terskelen."
     }
   ],
   "mindmap": {
@@ -449,7 +449,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -586,12 +586,86 @@
           "Gir et problemfokusert tiltak rettet mot situasjonen.",
           "Gir et emosjonsfokusert tiltak rettet mot følelsene."
         ]
+      },
+      {
+        "text": "En elev prøver å skrive en oppgave mens mobilvarsler stadig dukker opp. Forklar hvordan atferdsperspektivet og det kognitive perspektivet kan belyse hvorfor eleven sjekker mobilen, og hvordan varslingene kan påvirke arbeidet.",
+        "fasit": "Atferdsperspektivet kan forklare mobilsjekkingen med at varsler fungerer som belønninger, og at atferden derfor gjentas. Kognitivt må eleven flytte oppmerksomheten mellom oppgaven og mobilen, og slik multitasking kan føre til flere feil og dårligere konsentrasjon.",
+        "kriterier": [
+          "Knytter sjekking til læring gjennom belønning eller konsekvenser.",
+          "Knytter varsler til oppmerksomhet, oppgaveveksling eller økt feilrisiko."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Et vitne får etter en trafikkulykke spørsmål om hvor fort bilene kjørte da de «smalt inn i hverandre». Forklar hvordan spørsmålsformuleringen kan påvirke vitnets minne, og hvordan en forsker kan undersøke dette på en etisk forsvarlig måte.",
+        "fasit": "Hukommelsen rekonstruerer hendelser, og ordet «smalt» kan påvirke hvordan vitnet husker ulykken eller hvor fort bilene kjørte. En forsker kan la ulike grupper se samme ulykkesfilm og få ulike, nøytrale eller ledende spørsmål, men må innhente informert samtykke, beskytte deltakerne og forklare forsøket etterpå dersom de er blitt villedet.",
+        "kriterier": [
+          "Forklarer at hukommelsen rekonstrueres, og at ledende ord kan påvirke gjenhenting eller falske minner.",
+          "Foreslår en sammenligning av grupper og nevner relevante forskningsetiske hensyn."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En fotballspiller kjenner hjertebank og rask pust før en viktig kamp. Forklar hvordan nervesystemet og hormoner kan bidra til reaksjonene, og hvordan spillerens vurdering av situasjonen kan påvirke opplevelsen av stress.",
+        "fasit": "Det sympatiske nervesystemet og adrenalin øker blant annet puls og pust og gjør kroppen klar til handling. Binyrene skiller også ut kortisol ved stress. Hvis spilleren vurderer kampen som en trussel og tror ressursene ikke strekker til, kan stresset bli sterkere enn hvis kampen oppleves som en håndterbar utfordring.",
+        "kriterier": [
+          "Beskriver kroppens stressreaksjon med sympatisk nervesystem og/eller adrenalin og kortisol.",
+          "Viser at vurdering av krav og egne ressurser påvirker stressopplevelsen."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En ungdom vurderer å velge en utdanning som familien ikke kjenner så godt, og prøver ut ulike interesser før hen bestemmer seg. Forklar hvordan dette kan forstås med Marcias identitetsstatuser, og hvordan arv og miljø kan virke sammen i utviklingen av personlighet.",
+        "fasit": "Når ungdommen utforsker alternativer uten å ha forpliktet seg, kan det beskrives som moratorium. Personlighet utvikles i samspill mellom medfødte anlegg og miljø, blant annet erfaringer og relasjoner; miljøet kan påvirke hvordan anlegg kommer til uttrykk.",
+        "kriterier": [
+          "Kjenner igjen utforsking uten forpliktelse som moratorium.",
+          "Forklarer personlighet som et samspill mellom arv/anlegg og miljø/erfaringer."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En app sender belønninger på uforutsigbare tidspunkter, og brukerne åpner den ofte for å se om noe nytt har skjedd. Forklar hvordan operant betinging kan bidra til å opprettholde denne atferden, og nevn et etisk spørsmål apputviklerne bør vurdere.",
+        "fasit": "Uforutsigbare belønninger kan gjøre atferd svært vedvarende, så brukerne fortsetter å åpne appen selv om belønningen ikke alltid kommer. Utviklerne bør vurdere om designet utnytter brukerne eller manipulerer oppmerksomheten deres uten at de har gitt et informert samtykke.",
+        "kriterier": [
+          "Forklarer at uforutsigbare belønninger kan opprettholde atferd.",
+          "Nevner etisk ansvar, for eksempel manipulering, samtykke eller brukerens interesse."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Etter en plutselig brann må en familie flytte fra hjemmet sitt. Beskriv hvordan reaksjonene kan endre seg gjennom faser i en traumatisk krise, og forklar hvordan støtte fra andre kan påvirke utfallet.",
+        "fasit": "I sjokkfasen kan hendelsen oppleves uvirkelig, før reaksjonsfasen kan innebære sterk tristhet, angst eller sinne. Senere kan familien begynne å ta opp igjen hverdagsaktiviteter i bearbeidingsfasen og etter hvert innarbeide hendelsen i livshistorien. Støtte fra familie, venner eller andre trygge personer er en viktig beskyttende faktor.",
+        "kriterier": [
+          "Beskriver minst to relevante krisefaser eller hvordan reaksjonene kan utvikle seg over tid.",
+          "Forklarer at sosial støtte kan beskytte eller bidra til mestring."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Mange trekkes mot søt og fet mat selv om slik mat er lett tilgjengelig og et høyt inntak kan være skadelig. Forklar hvordan evolusjonspsykologi kan forstå denne tilbøyeligheten, og hvorfor forklaringen ikke betyr at atferden er uunngåelig.",
+        "fasit": "Evolusjonspsykologer kan forklare lysten på søt og fet mat som en tilpasning fra en tid da energirik mat var knapp og nyttig for overlevelse. I dagens miljø kan denne tilbøyeligheten bli en mismatch, men evolusjonære forklaringer gjør ikke at atferden er uunngåelig; mennesker kan reflektere og endre vaner.",
+        "kriterier": [
+          "Knytter preferansen til energirik mat og mulig overlevelsesfordel i tidligere miljøer.",
+          "Nevner mismatch eller at mennesker kan reflektere og endre atferd."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En person ønsker hjelp for vedvarende angst og vil undersøke behandlingsmuligheter. Forklar hva en psykolog og en psykiater kan bidra med, og hvordan kognitiv atferdsterapi kan hjelpe personen.",
+        "fasit": "En psykolog kan utrede og gi psykoterapi, mens en psykiater er lege med spesialisering i psykiatri og kan skrive ut medisiner. Kognitiv atferdsterapi kan hjelpe personen med å endre uhensiktsmessige tankemønstre og atferd.",
+        "kriterier": [
+          "Skiller mellom psykologens utredning/psykoterapi og psykiaterens legeutdanning/medisinering.",
+          "Forklarer at KAT arbeider med å endre tanker og atferd."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

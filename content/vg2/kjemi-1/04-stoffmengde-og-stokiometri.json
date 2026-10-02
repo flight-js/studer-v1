@@ -114,7 +114,7 @@
         "60,01 g/mol"
       ],
       "correct": 1,
-      "explain": "M(CO₂) = 12,01 + 2 · 16,00 = 44,01 g/mol. 28,01 g/mol er molar masse til CO."
+      "explain": "M(CO₂) = 12,01 + 2 · 16,00 = 44,01 g/mol."
     },
     {
       "id": "q03",
@@ -126,27 +126,27 @@
         "3,0 · 10²²"
       ],
       "correct": 0,
-      "explain": "N = n · N_A = 0,50 mol · 6,022 · 10²³ mol⁻¹ = 3,0 · 10²³ molekyler. (Antall oksygenatomer er dobbelt så stort.)"
+      "explain": "N = n · N_A = 0,50 mol · 6,022 · 10²³ mol⁻¹ = 3,0 · 10²³ molekyler."
     },
     {
       "id": "q04",
       "text": "Hvilke koeffisienter balanserer likningen __ Al + __ O₂ → __ Al₂O₃?",
       "options": [
-        "2, 3, 1",
         "2, 1, 1",
-        "4, 6, 2",
+        "2, 3, 2",
+        "4, 2, 2",
         "4, 3, 2"
       ],
       "correct": 3,
-      "explain": "4Al + 3O₂ → 2Al₂O₃ gir 4 aluminiumatomer og 6 oksygenatomer på hver side. Med 2, 3, 1 blir det 6 oksygenatomer til venstre, men bare 3 til høyre."
+      "explain": "4Al + 3O₂ → 2Al₂O₃ gir 4 aluminiumatomer og 6 oksygenatomer på hver side."
     },
     {
       "id": "q05",
       "text": "I reaksjonen 2H₂ + O₂ → 2H₂O: Hvor mange mol O₂ trengs for å reagere med 6 mol H₂?",
       "options": [
-        "2 mol",
-        "3 mol",
         "6 mol",
+        "3 mol",
+        "1,5 mol",
         "12 mol"
       ],
       "correct": 1,
@@ -156,13 +156,13 @@
       "id": "q06",
       "text": "2 mol H₂ blandes med 2 mol O₂ og reagerer etter 2H₂ + O₂ → 2H₂O. Hva er den begrensende reaktanten?",
       "options": [
-        "O₂",
-        "Begge brukes opp samtidig",
-        "H₂",
-        "Vann"
+        "O₂ (oksygen)",
+        "H₂ og O₂ samtidig",
+        "H₂ (hydrogen)",
+        "H₂O (vann)"
       ],
       "correct": 2,
-      "explain": "2 mol H₂ trenger bare 1 mol O₂. Hydrogenet brukes opp først og er begrensende, mens 1 mol O₂ blir til overs."
+      "explain": "2 mol H₂ trenger 1 mol O₂. Hydrogenet brukes opp først, mens 1 mol O₂ blir til overs."
     },
     {
       "id": "q07",
@@ -174,7 +174,7 @@
         "15,0 %"
       ],
       "correct": 0,
-      "explain": "Utbytte = 15,0 g / 20,0 g · 100 % = 75,0 %. Et utbytte over 100 % betyr at produktet er urent, for eksempel fuktig."
+      "explain": "Utbytte = 15,0 g / 20,0 g · 100 % = 75,0 %."
     },
     {
       "id": "q08",
@@ -193,12 +193,12 @@
       "text": "Hva sier loven om massebevaring?",
       "options": [
         "Den samlede massen er den samme før og etter reaksjonen",
-        "Antall molekyler er det samme før og etter reaksjonen",
-        "Antall mol er det samme før og etter reaksjonen",
-        "Gasser som dannes, har ingen masse"
+        "Det samlede antallet molekyler er det samme før og etter reaksjonen",
+        "Den samlede stoffmengden er den samme før og etter reaksjonen",
+        "Den samlede massen minker når det dannes gass i reaksjonen"
       ],
       "correct": 0,
-      "explain": "Atomene omorganiseres, men forsvinner ikke. Antall molekyler og antall mol kan derimot endre seg, som i 2H₂ + O₂ → 2H₂O, der 3 mol blir til 2 mol."
+      "explain": "Atomene omorganiseres i en kjemisk reaksjon, men den samlede massen bevares."
     },
     {
       "id": "q10",
@@ -210,7 +210,7 @@
         "50,0 %"
       ],
       "correct": 1,
-      "explain": "12,01 g / 44,01 g · 100 % = 27,3 %. 33,3 % er andelen karbonatomer (1 av 3), men atomene har ulik masse."
+      "explain": "Karbonandelen er 12,01 g / 44,01 g · 100 % = 27,3 %."
     },
     {
       "id": "q11",
@@ -222,7 +222,7 @@
         "49,0 L"
       ],
       "correct": 2,
-      "explain": "Ved 0 °C og 1 atm er molvolumet 22,4 L/mol. V = 2,00 mol · 22,4 L/mol = 44,8 L. 49,0 L ville vært svaret ved 25 °C."
+      "explain": "Ved 0 °C og 1 atm er molvolumet 22,4 L/mol. V = 2,00 mol · 22,4 L/mol = 44,8 L."
     },
     {
       "id": "q12",
@@ -440,7 +440,7 @@
         "options": [
           "0,100 mol",
           "1,00 mol",
-          "10,0 mol",
+          "0,0100 mol",
           "1001 mol"
         ],
         "correct": 0,
@@ -535,6 +535,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

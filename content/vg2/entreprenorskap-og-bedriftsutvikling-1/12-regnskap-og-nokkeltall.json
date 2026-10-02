@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva viser resultatregnskapet?",
       "options": [
-        "Hva virksomheten eier",
-        "Inntekter, kostnader og resultat for året",
-        "Antall ansatte",
-        "Aksjekursen"
+        "Eiendeler, egenkapital og gjeld",
+        "Inntekter, kostnader og årsresultat",
+        "Innbetalinger, utbetalinger og kontantbeholdning",
+        "Budsjetterte inntekter, kostnader og avvik"
       ],
       "correct": 1,
       "explain": "Balansen viser eiendeler og finansiering."
@@ -94,8 +94,8 @@
       "options": [
         "10 %",
         "1 %",
-        "90 %",
-        "100 %"
+        "9 %",
+        "90 %"
       ],
       "correct": 0,
       "explain": "100 000 ÷ 1 000 000 · 100."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er en avskrivning?",
       "options": [
-        "Et banklån",
-        "En skatt",
-        "Fordeling av kostnaden for varige eiendeler over levetiden",
-        "Et salg"
+        "Beregning av markedsverdien til en eiendel ved årets slutt",
+        "Føring av hele kjøpesummen som kostnad i kjøpsåret",
+        "Fordeling av kostnaden for en varig eiendel over levetiden",
+        "Nedbetaling av lånet som ble brukt til å kjøpe eiendelen"
       ],
       "correct": 2,
       "explain": "En maskin til 100 000 kr over fem år gir 20 000 kr per år."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva gjelder alltid i balansen?",
       "options": [
-        "Gjeld = inntekter",
-        "Egenkapital = kostnader",
-        "Resultat = eiendeler",
+        "Eiendeler = egenkapital − gjeld",
+        "Eiendeler = inntekter + kostnader",
+        "Egenkapital = eiendeler + gjeld",
         "Eiendeler = egenkapital + gjeld"
       ],
       "correct": 3,
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Egenkapitalen er 200 000 kr og totalkapitalen 500 000 kr. Hva er egenkapitalandelen?",
       "options": [
-        "25 %",
+        "20 %",
         "40 %",
-        "60 %",
-        "250 %"
+        "30 %",
+        "50 %"
       ],
       "correct": 1,
       "explain": "200 000 ÷ 500 000 · 100."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva hører til omløpsmidlene?",
       "options": [
-        "Bygninger",
-        "Maskiner",
+        "Bygninger og tomter",
+        "Maskiner og inventar",
         "Varelager og bankinnskudd",
-        "Banklån"
+        "Langsiktige lån og obligasjoner"
       ],
       "correct": 2,
       "explain": "Eiendeler som skifter raskt."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva viser egenkapitalrentabiliteten?",
       "options": [
-        "Hvor mye gjeld virksomheten har",
-        "Hvor mange kunder den har",
-        "Hvor mye den eier",
-        "Avkastningen til eierne"
+        "Hvor stor del av eiendelene som er lånefinansiert",
+        "Hvor godt virksomheten kan betale kortsiktig gjeld",
+        "Hvor mye virksomheten tjener per krone i omsetning",
+        "Hvor stor avkastning egenkapitalen gir eierne"
       ],
       "correct": 3,
       "explain": "Resultat før skatt delt på egenkapital."
@@ -177,9 +177,9 @@
       "text": "Hva bør totalkapitalrentabiliteten sammenlignes med?",
       "options": [
         "Lånerenten",
-        "Antall ansatte",
-        "Aksjekapitalen",
-        "Merverdiavgiften"
+        "Inflasjonen",
+        "Resultatgraden",
+        "Egenkapitalandelen"
       ],
       "correct": 0,
       "explain": "Den bør være høyere enn lånerenten."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er viktigst for en ny virksomhet med underskudd de første årene?",
       "options": [
-        "At den betaler utbytte",
-        "At likviditeten holder og utviklingen går riktig vei",
-        "At den har høy egenkapitalrentabilitet",
-        "At den ikke har kostnader"
+        "At virksomheten når overskudd innen det første året",
+        "At likviditeten er forsvarlig og utviklingen positiv",
+        "At virksomheten øker omsetningen hvert kvartal",
+        "At virksomheten har høy egenkapitalrentabilitet fra oppstart"
       ],
       "correct": 1,
       "explain": "Underskudd er vanlig i starten."
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på kortsiktig gjeld?",
         "options": [
-          "Et banklån over 20 år",
-          "Leverandørgjeld",
-          "Aksjekapital",
-          "Bygninger"
+          "Et banklån med lang løpetid",
+          "Ubetalte regninger fra leverandører",
+          "Innskutt kapital fra eierne",
+          "Maskiner som brukes i produksjonen"
         ],
         "correct": 1,
         "explain": "Forfaller innen ett år."
@@ -328,8 +328,8 @@
         "options": [
           "20 %",
           "18 %",
-          "2 %",
-          "45 %"
+          "16 %",
+          "2 %"
         ],
         "correct": 0,
         "explain": "(90 000 + 10 000) ÷ 500 000 · 100."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva bør likviditetsgrad 1 være ifølge en vanlig tommelfingerregel?",
         "options": [
-          "Under 0,5",
+          "Under 1",
           "Nøyaktig 1",
           "Over 2",
-          "Over 10"
+          "Mellom 1 og 1,5"
         ],
         "correct": 2,
         "explain": "Omløpsmidlene bør være dobbelt så store som den kortsiktige gjelden."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

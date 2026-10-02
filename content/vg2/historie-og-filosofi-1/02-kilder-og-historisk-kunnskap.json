@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på primær- og sekundærkilder?",
       "options": [
-        "Primærkilder er alltid sanne",
+        "Primærkilder er skrevet av historikere lenge etter hendelsene",
         "Primærkilder stammer fra tiden de handler om, sekundærkilder er senere framstillinger",
-        "Sekundærkilder er eldre",
-        "Det er ingen forskjell"
+        "Sekundærkilder er laget av personer som opplevde hendelsene selv",
+        "Primær- og sekundærkilder skilles etter om kildene er skriftlige eller muntlige"
       ],
       "correct": 1,
       "explain": "Lærebøker er sekundærkilder."
@@ -91,9 +91,9 @@
       "text": "Hva betyr det å bruke en kilde som levning?",
       "options": [
         "Å se hva kilden avslører om tiden og opphavspersonen",
-        "Å se hva kilden forteller om hendelsene",
-        "Å kaste kilden",
-        "Å kopiere kilden"
+        "Å undersøke hva kilden forteller om hendelsene den beskriver",
+        "Å vurdere om kilden gir en nøyaktig beskrivelse av hendelsene",
+        "Å finne ut hvem som senere har brukt eller tolket kilden"
       ],
       "correct": 0,
       "explain": "For eksempel en propagandaplakat."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvorfor vet vi lite om vanlige folks liv i middelalderen fra skriftlige kilder?",
       "options": [
-        "De levde ikke interessante liv",
-        "Alt er bevart",
-        "Bare en liten elite kunne skrive",
-        "Kildene er hemmelige"
+        "Vanlige bønder fikk undervisning i skriving ved lokale skoler",
+        "De fleste vanlige folk skrev ned hverdagslivet sitt i personlige dagbøker",
+        "Skriftkyndighet var begrenset til en liten del av befolkningen",
+        "Kirken sørget for at mange bønders egne tekster ble bevart"
       ],
       "correct": 2,
       "explain": "Tilgangen på kilder er ujevn."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er tendens i en kilde?",
       "options": [
-        "At kilden er gammel",
-        "At kilden er lang",
-        "At kilden er på et annet språk",
+        "At kilden er skrevet kort tid etter hendelsen den beskriver",
+        "At opphavspersonen selv var til stede under hendelsen den beskriver",
+        "At kildens opplysninger kan kontrolleres mot andre kilder",
         "At opphavspersonen har interesse i å framstille noe på en bestemt måte"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hvor lang tid etter hendelsene ble sagaene skrevet ned?",
       "options": [
         "200–300 år",
-        "Samme år",
-        "10 år",
-        "1000 år"
+        "100–150 år",
+        "400–500 år",
+        "700–800 år"
       ],
       "correct": 0,
       "explain": "Det gjør dem usikre som beretninger.",
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva menes med taushet i kildene?",
       "options": [
-        "At kildene er skrevet i stillhet",
+        "At det som ikke nevnes i en kilde, ikke fantes",
         "At noe ikke nevnes, uten at det betyr at det ikke fantes",
-        "At kildene er ulovlige",
-        "At alle kilder er like"
+        "At kilden motsier en annen kilde om en hendelse",
+        "At en kilde er taus når den er skrevet på et ukjent språk"
       ],
       "correct": 1,
       "explain": "Fravær av kilder er ikke bevis."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvilket materiale har størst sjanse til å bli bevart i tusenvis av år?",
       "options": [
-        "Tekstil",
-        "Papir",
+        "Lær",
+        "Bambus",
         "Stein",
-        "Tre"
+        "Papyrus"
       ],
       "correct": 2,
       "explain": "Organiske materialer råtner lettere."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvorfor kan ulike historikere lage ulike fortellinger av de samme kildene?",
       "options": [
-        "Fordi kildene endrer seg",
-        "Fordi noen historikere lyver",
-        "Fordi fortiden forandrer seg",
+        "Fordi kildene endrer innhold når ulike historikere leser dem",
+        "Fordi historikere må velge en fortelling før de undersøker kildene",
+        "Fordi fortiden blir annerledes når nye kilder blir funnet",
         "Fordi fortellingen er en tolkning, og de stiller ulike spørsmål"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvilken ny metode har gitt kunnskap om vikingers slektskap og reiser?",
       "options": [
         "DNA-analyser",
-        "Horoskoper",
-        "Meningsmålinger",
-        "Telefonintervjuer"
+        "Karbon-14-datering",
+        "Pollenanalyser",
+        "Runetolkning"
       ],
       "correct": 0,
       "explain": "Naturvitenskapelige metoder.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvorfor er det viktig at kilder er uavhengige av hverandre?",
       "options": [
-        "Fordi da er de lengre",
+        "Fordi kilder som bygger på hverandre, gir en ekstra bekreftelse",
         "Fordi to uavhengige kilder som stemmer overens, styrker troverdigheten",
-        "Fordi avhengige kilder er ulovlige",
-        "Det er ikke viktig"
+        "Fordi kilder fra ulike tidsperioder er enklere å forstå sammen",
+        "Fordi en kilde blir troverdig når den inneholder mange detaljer"
       ],
       "correct": 1,
       "explain": "Kilder som bygger på hverandre, gir ingen ekstra bekreftelse."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva er en materiell kilde?",
         "options": [
-          "Et brev",
+          "En saga om en vikingkonge",
           "Et sverd funnet i en grav",
-          "Et intervju",
-          "En dagbok"
+          "Et intervju med en arkeolog",
+          "En historikers tekst om et sverd"
         ],
         "correct": 1,
         "explain": "En gjenstand."
@@ -332,9 +332,9 @@
         "text": "Når skrev Snorre Sturlason kongesagaene?",
         "options": [
           "Rundt 1230",
-          "Rundt 800",
-          "Rundt 1500",
-          "Rundt 1814"
+          "Rundt 1030",
+          "Rundt 1130",
+          "Rundt 1330"
         ],
         "correct": 0,
         "explain": "Lenge etter vikingtiden.",
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva er det første steget når historikeren skal lage en fortelling?",
         "options": [
-          "Å skrive konklusjonen",
-          "Å velge bilder",
-          "Å formulere en problemstilling",
-          "Å trykke boka"
+          "Å skrive fortellingen før kildene er undersøkt",
+          "Å velge en konklusjon før spørsmålet er formulert",
+          "Å formulere en problemstilling for undersøkelsen",
+          "Å velge kilder som bekrefter en bestemt konklusjon"
         ],
         "correct": 2,
         "explain": "Problemstillingen styrer valg av kilder."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

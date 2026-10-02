@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva kjennetegner det beskrivende kulturbegrepet?",
       "options": [
-        "Kultur er bare kunst og musikk",
+        "Kultur består av kunst, musikk, litteratur og andre kreative uttrykk",
         "Alle mennesker har kultur – kunnskap, tro, skikker og vaner",
-        "Bare noen har kultur",
-        "Kultur er medfødt"
+        "Kultur er en medfødt samling av egenskaper, tro, skikker og vaner",
+        "Kultur oppstår først når mennesker deler språk, tro, skikker og vaner"
       ],
       "correct": 1,
       "explain": "Tylors definisjon fra 1871."
@@ -94,9 +94,9 @@
       "text": "Hva er etnosentrisme?",
       "options": [
         "Å vurdere andre kulturer ut fra egen kultur som målestokk",
-        "Å studere etnisitet",
-        "Å respektere alle kulturer",
-        "Å reise mye"
+        "Å forstå andre kulturer ut fra deres egne normer og verdier",
+        "Å sammenligne ulike kulturer for å beskrive likheter og forskjeller",
+        "Å undersøke hvordan etniske grupper skiller seg fra hverandre"
       ],
       "correct": 0,
       "explain": "Egen kultur fremstår som den rette."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva viste Marcel Mauss om gaver?",
       "options": [
-        "At gaver er gratis",
-        "At gaver bare finnes i Norge",
-        "At gaver skaper forpliktelser og relasjoner",
-        "At gaver er uviktige"
+        "Gaver er uttrykk for personlig omtanke",
+        "Gaver fungerer som betaling for en tjeneste",
+        "Gaver skaper forpliktelser og relasjoner",
+        "Gaver avslutter forbindelsen mellom giver og mottaker"
       ],
       "correct": 2,
       "explain": "Å gi, ta imot og gi tilbake.",
@@ -118,9 +118,9 @@
       "id": "q04",
       "text": "Hvilke tre faser har en overgangsrite ifølge van Gennep?",
       "options": [
-        "Fødsel, liv og død",
-        "Barn, ungdom og voksen",
-        "Start, midt og slutt",
+        "Forberedelse, gjennomføring og avslutning",
+        "Barndom, ungdom og voksenliv",
+        "Fødsel, oppvekst og alderdom",
         "Atskillelse, overgang og innlemmelse"
       ],
       "correct": 3,
@@ -132,9 +132,9 @@
       "text": "Hvordan så Clifford Geertz på kultur?",
       "options": [
         "Som et nett av meninger som må tolkes",
-        "Som biologi",
-        "Som økonomi",
-        "Som bare kunst"
+        "Som et system av biologiske egenskaper som arves",
+        "Som et mønster av økonomiske forhold som styrer samfunnet",
+        "Som en samling kunstuttrykk som speiler samfunnets smak"
       ],
       "correct": 0,
       "explain": "Han la vekt på tolkning.",
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hva er kulturrelativisme som metode?",
       "options": [
-        "At alle kulturer er like",
+        "Å vurdere handlinger etter normene i sin egen kultur",
         "Å forsøke å forstå handlinger ut fra kulturen de hører til i",
-        "Å dømme andre kulturer",
-        "Å kopiere andre kulturer"
+        "Å sammenligne handlinger på tvers av kulturer uten å tolke dem",
+        "Å forklare handlinger gjennom biologi framfor kulturell sammenheng"
       ],
       "correct": 1,
       "explain": "Som moralsk standpunkt er det omstridt."
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hvilket er et eksempel på en overgangsrite i Norge?",
       "options": [
-        "Å handle mat",
-        "Å se på TV",
+        "Julefeiring",
+        "17. mai-feiring",
         "Konfirmasjon",
-        "Å ta bussen"
+        "Sankthansfeiring"
       ],
       "correct": 2,
       "explain": "Markerer overgang fra barn til ungdom."
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "Hvorfor kan et fast kulturbegrep føre til stereotypier?",
       "options": [
-        "Fordi det er for åpent",
-        "Fordi det bare handler om kunst",
-        "Fordi det er vitenskapelig",
-        "Fordi det kan få det til å se ut som om alle i en gruppe tenker likt"
+        "Fordi det kan få grupper til å framstå som mer ulike enn de er",
+        "Fordi det kan få kultur til å framstå som tilfeldig og personlig",
+        "Fordi det kan gjøre forskjeller mellom grupper mindre synlige",
+        "Fordi det kan framstille gruppemedlemmer som om de tenker likt"
       ],
       "correct": 3,
       "explain": "Det skjuler variasjon og endring."
@@ -181,9 +181,9 @@
       "text": "Hva er en subkultur?",
       "options": [
         "En gruppe med egne normer og stil innenfor en større kultur",
-        "En kultur under vann",
-        "En mindre verdifull kultur",
-        "En utdødd kultur"
+        "En gruppe med felles normer og stil som preger hele samfunnet",
+        "En gruppe med egne normer og stil i motstand mot majoritetskulturen",
+        "En gruppe med egne normer og stil som står utenfor storsamfunnet"
       ],
       "correct": 0,
       "explain": "For eksempel i musikk eller gaming."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva betyr det at kultur er lært?",
       "options": [
-        "At den er arvelig",
+        "At vi arver den biologisk fra foreldrene våre",
         "At vi tilegner oss den gjennom sosialisering",
-        "At den bare læres på skolen",
-        "At den aldri endres"
+        "At vi overtar den uendret fra eldre generasjoner",
+        "At vi lærer den gjennom formelle regler i lovverket"
       ],
       "correct": 1,
       "explain": "Kultur er lært, delt og overført."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hvilken fase i en overgangsrite er «mellom» to statuser?",
         "options": [
-          "Atskillelse",
+          "Atskillelsesfasen",
           "Den liminale fasen",
-          "Innlemmelse",
-          "Forberedelse"
+          "Innlemmelsesfasen",
+          "Forberedelsesfasen"
         ],
         "correct": 1,
         "explain": "Russetiden kan tolkes slik.",
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvorfor sammenligner antropologer kulturer?",
         "options": [
-          "For å rangere dem",
-          "For å bevise at én er best",
+          "For å plassere kulturer på en skala fra enkle til avanserte",
+          "For å vise at kulturforskjeller skyldes biologiske forskjeller mellom folk",
           "For å finne likheter og forskjeller og se egen kultur med nye øyne",
-          "For å gjøre alle like"
+          "For å avgjøre hvilke samfunn som har de mest moderne normene"
         ],
         "correct": 2,
         "explain": "Sammenligning gir innsikt."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

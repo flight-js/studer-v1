@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er vekstfaktoren for en økning på 6 %?",
       "options": [
-        "0,06",
+        "1,006",
         "1,06",
-        "1,6",
-        "0,94"
+        "0,6",
+        "7"
       ],
       "correct": 1,
       "explain": "1 + 6/100 = 1,06."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva betyr $E$1 i en regnearksformel?",
       "options": [
-        "En absolutt referanse som står fast når formelen kopieres",
-        "En sum",
-        "Et diagram",
-        "En tekst"
+        "En celleadresse som står fast når formelen kopieres",
+        "En celleadresse som flyttes når formelen kopieres",
+        "En celleadresse der bare kolonnen står fast når formelen kopieres",
+        "En celleadresse der bare raden står fast når formelen kopieres"
       ],
       "correct": 0,
       "explain": "Nyttig for renter og vekstfaktorer."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Du setter inn 20 000 kr med 4 % rente. Omtrent hvor mye har du etter 10 år?",
       "options": [
-        "28 000 kr",
-        "24 000 kr",
+        "20 800 kr",
+        "26 000 kr",
         "29 605 kr",
-        "80 000 kr"
+        "40 000 kr"
       ],
       "correct": 2,
       "explain": "20 000 · 1,04¹⁰ ≈ 29 605."
@@ -125,9 +125,9 @@
       "text": "Hva må en formel i regneark starte med?",
       "options": [
         "=",
-        "$",
-        "#",
-        "+"
+        "fx",
+        ":",
+        "@"
       ],
       "correct": 0,
       "explain": "For eksempel =B2*1,04."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "En elsykkel til 30 000 kr taper 15 % i verdi hvert år. Hvilken vekstfaktor brukes?",
       "options": [
-        "1,15",
+        "0,95",
         "0,85",
-        "0,15",
-        "15"
+        "1,05",
+        "0,015"
       ],
       "correct": 1,
       "explain": "1 − 15/100 = 0,85."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva skjer med en relativ referanse når du kopierer formelen én rad ned?",
       "options": [
-        "Den står fast",
-        "Den blir slettet",
-        "Den endrer seg én rad ned",
-        "Den blir absolutt"
+        "Den flyttes én rad opp i referansen",
+        "Den flyttes én kolonne til høyre i referansen",
+        "Den flyttes én rad ned i referansen",
+        "Den beholdes på samme celle i referansen"
       ],
       "correct": 2,
       "explain": "B2 blir B3 osv."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hvorfor er regneark nyttig i modellering?",
       "options": [
-        "Det gir alltid riktige svar",
-        "Det erstatter matematikken",
-        "Det kan ikke brukes til vekst",
-        "Man kan regne mange perioder og enkelt endre forutsetningene"
+        "Regnearket bestemmer renten ut fra hvor mange perioder du velger",
+        "Regnearket viser samme beløp for hver periode selv om renten endres",
+        "Regnearket lager en modell uten at du legger inn forutsetninger",
+        "Regnearket gjør det mulig å regne mange perioder og endre forutsetningene enkelt"
       ],
       "correct": 3,
       "explain": "Endrer du renten i én celle, oppdateres hele modellen."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvorfor bør du vurdere gyldigheten til en rentemodell over 30 år?",
       "options": [
-        "Fordi regnearket kan bli fullt",
-        "Fordi renten sannsynligvis ikke er den samme i 30 år",
-        "Fordi 30 er et partall",
-        "Det trenger du ikke"
+        "Fordi beløpet i modellen blir mindre når antall år øker",
+        "Fordi renten sannsynligvis ikke holder seg på samme nivå gjennom hele perioden",
+        "Fordi renten må oppgis som et kronebeløp etter 30 år",
+        "Fordi regnearket endrer vekstfaktoren automatisk etter noen år"
       ],
       "correct": 1,
       "explain": "Premissene kan endre seg."
@@ -315,9 +315,9 @@
         "text": "Hvilken formel legger til et fast innskudd i E2 hvert år?",
         "options": [
           "=B2*$E$1+$E$2",
-          "=B2+$E$1",
-          "=B2*E2",
-          "=$E$1*$E$2"
+          "=B2*$E$1+E2",
+          "=B2+$E$1*$E$2",
+          "=B2*$E$2+$E$1"
         ],
         "correct": 0,
         "explain": "Beløpet vokser med renten og får et nytt innskudd."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hvilken funksjon beskriver sparing av 20 000 kr med 4 % årlig rente?",
         "options": [
-          "f(x) = 20 000 + 4x",
+          "f(x) = 20 000 · 1,04 + x",
           "f(x) = 20 000 · 1,04ˣ",
-          "f(x) = 20 000 · 0,04ˣ",
-          "f(x) = 1,04 · x"
+          "f(x) = 20 000 · 1,4ˣ",
+          "f(x) = 20 000 · 1,004ˣ"
         ],
         "correct": 1,
         "explain": "Eksponentiell vekst med vekstfaktor 1,04."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva er en celle i et regneark?",
         "options": [
-          "En hel kolonne",
-          "Et diagram",
+          "En rad med adresse som A1",
+          "En kolonne med adresse som A1",
           "En rute med adresse som A1",
-          "En formel"
+          "Et regneark med adresse som A1"
         ],
         "correct": 2,
         "explain": "Hver celle har en kolonnebokstav og et radnummer."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

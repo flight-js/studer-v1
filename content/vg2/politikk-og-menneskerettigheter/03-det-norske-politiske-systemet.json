@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvor mange representanter har Stortinget?",
       "options": [
-        "150",
+        "165",
         "169",
-        "200",
-        "100"
+        "175",
+        "181"
       ],
       "correct": 1,
       "explain": "Valgt for fire år."
@@ -88,9 +88,9 @@
       "text": "Hva betyr parlamentarisme i Norge?",
       "options": [
         "At regjeringen må ha Stortingets tillit",
-        "At kongen styrer",
-        "At domstolene lager lover",
-        "At folket stemmer over alle lover"
+        "At Stortinget må ha regjeringens tillit",
+        "At regjeringen må ha kongens tillit",
+        "At regjeringen må ha domstolenes tillit"
       ],
       "correct": 0,
       "explain": "Innført i 1884."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvilken statsmakt er regjeringen?",
       "options": [
-        "Den lovgivende",
-        "Den dømmende",
-        "Den utøvende",
-        "Ingen"
+        "Den lovgivende statsmakten",
+        "Den dømmende statsmakten",
+        "Den utøvende statsmakten",
+        "Den kommunale statsmakten"
       ],
       "correct": 2,
       "explain": "Den gjennomfører vedtakene."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er et kabinettsspørsmål?",
       "options": [
-        "Et spørsmål i spørretimen",
-        "Et lovforslag",
-        "Et budsjett",
+        "At regjeringen ber Stortinget utsette en avstemning til neste møte",
+        "At Stortinget krever at regjeringen bytter ut en statsråd før votering",
+        "At regjeringen fremmer et lovforslag som må få to tredels flertall",
         "At regjeringen truer med å gå av hvis den ikke får flertall"
       ],
       "correct": 3,
@@ -125,20 +125,20 @@
       "options": [
         "Fylkeskommunene",
         "Kommunene",
-        "Staten alene",
-        "Private"
+        "Statsforvalteren",
+        "Stortinget"
       ],
       "correct": 0,
-      "explain": "Kommunene har grunnskolen."
+      "explain": "Fylkeskommunene har ansvar for videregående opplæring."
     },
     {
       "id": "q06",
       "text": "Hva er prøvingsretten?",
       "options": [
-        "Retten til å stemme",
+        "Stortingets rett til å prøve om dommer strider mot Grunnloven",
         "Domstolenes rett til å prøve om lover strider mot Grunnloven",
-        "Stortingets rett til å felle regjeringen",
-        "Kongens rett til å oppløse Stortinget"
+        "Regjeringens rett til å prøve om kommunale vedtak strider mot lover",
+        "Domstolenes rett til å prøve om regjeringens vedtak strider mot budsjettet"
       ],
       "correct": 1,
       "explain": "Også mot menneskerettighetene."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er en mindretallsregjering?",
       "options": [
-        "En regjering med flertall",
-        "En regjering av ett parti med alle mandatene",
+        "En regjering valgt direkte av velgerne",
+        "En regjering utpekt av domstolene etter et valg",
         "En regjering uten flertall på Stortinget",
-        "En regjering uten statsminister"
+        "En regjering som må godkjennes i folkeavstemning"
       ],
       "correct": 2,
       "explain": "Må søke støtte sak for sak."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva er Stortingets viktigste oppgaver?",
       "options": [
-        "Å dømme i straffesaker",
-        "Å lede departementene",
-        "Å velge kongen",
+        "Å behandle klager på dommer og avgjøre straffesaker",
+        "Å lede departementene og gjennomføre vedtak fra Stortinget",
+        "Å utnevne statsråder og lede departementenes arbeid",
         "Å vedta lover og budsjett og kontrollere regjeringen"
       ],
       "correct": 3,
@@ -174,7 +174,7 @@
         "Ordføreren",
         "Statsministeren",
         "Statsforvalteren",
-        "Kongen"
+        "Kommunedirektøren"
       ],
       "correct": 0,
       "explain": "Kommunestyret er kommunens øverste organ."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvordan styrer staten kommunene?",
       "options": [
-        "Den gjør ikke det",
-        "Gjennom lover, rammetilskudd og øremerkede midler",
-        "Bare gjennom kongen",
-        "Bare gjennom domstolene"
+        "Gjennom kommunale skatter, lokale folkeavstemninger og kommunestyrets vedtak",
+        "Gjennom lover, rammetilskudd og øremerkede statlige midler",
+        "Ved å utnevne ordførere og vedta kommunenes årsbudsjetter",
+        "Ved å organisere lokale valg og fastsette kommunale skatter"
       ],
       "correct": 1,
       "explain": "Lokalt selvstyre har grenser."
@@ -327,7 +327,7 @@
           "Høyesterett",
           "Lagmannsretten",
           "Tingretten",
-          "Stortinget"
+          "Jordskifteretten"
         ],
         "correct": 0,
         "explain": "Øverste ankeinstans."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hvilken oppgave har kommunene?",
         "options": [
-          "Forsvaret",
-          "Utenrikspolitikken",
+          "Videregående skoler og universiteter",
+          "Forsvar og utenrikspolitikk",
           "Grunnskole og barnehager",
-          "Høyesterett"
+          "Politi og domstolsbehandling"
         ],
         "correct": 2,
         "explain": "Også helse- og omsorgstjenester."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

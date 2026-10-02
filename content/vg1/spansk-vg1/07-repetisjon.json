@@ -79,11 +79,13 @@
     },
     {
       "term": "1492",
-      "def": "Granada erobret, jødene utvist, Columbus kom til Amerika"
+      "def": "Granada erobret, jødene utvist, Columbus kom til Amerika",
+      "niva": "eksempel"
     },
     {
       "term": "la Guerra Civil",
-      "def": "den spanske borgerkrigen 1936–1939"
+      "def": "den spanske borgerkrigen 1936–1939",
+      "niva": "eksempel"
     },
     {
       "term": "la Transición",
@@ -107,8 +109,8 @@
       "options": [
         "soy",
         "estoy",
-        "es",
-        "tengo"
+        "tengo",
+        "hago"
       ],
       "correct": 1,
       "explain": "Tilstand: estar."
@@ -117,10 +119,10 @@
       "id": "q02",
       "text": "Velg riktig: «Me ___ los gatos.»",
       "options": [
-        "gusta",
-        "gusto",
+        "gustas",
+        "gustamos",
         "gustan",
-        "gustas"
+        "gustáis"
       ],
       "correct": 2,
       "explain": "Los gatos er flertall: gustan."
@@ -129,10 +131,10 @@
       "id": "q03",
       "text": "Hva er ESO?",
       "options": [
-        "Universitetet",
-        "Obligatorisk ungdomsskole i Spania",
-        "Barneskolen",
-        "Yrkesskolen"
+        "Obligatorisk barneskole for 6–12-åringer i Spania",
+        "Obligatorisk ungdomsskole for 12–16-åringer i Spania",
+        "Frivillig videregående skole for 16–18-åringer i Spania",
+        "Obligatorisk førskole for 3–6-åringer i Spania"
       ],
       "correct": 1,
       "explain": "ESO er for elever fra 12 til 16 år.",
@@ -156,8 +158,8 @@
       "options": [
         "Indefinido",
         "Imperfecto",
-        "Futuro",
-        "Presens"
+        "Presens",
+        "Futuro"
       ],
       "correct": 1,
       "explain": "Iba a la playa todos los veranos."
@@ -166,10 +168,10 @@
       "id": "q06",
       "text": "Hva uttrykker «había salido»?",
       "options": [
-        "Noe som skjer nå",
-        "En vane i fortiden",
+        "Noe som skjedde etter noe annet i fortiden",
+        "En vane som gjentok seg flere ganger i fortiden",
         "Noe som skjedde før noe annet i fortiden",
-        "Noe i framtiden"
+        "Noe som skjer samtidig med en annen hendelse nå"
       ],
       "correct": 2,
       "explain": "Pluskvamperfektum.",
@@ -179,10 +181,10 @@
       "id": "q07",
       "text": "Hvilket land har flest spansktalende?",
       "options": [
-        "Spania",
+        "Colombia",
         "Mexico",
         "Argentina",
-        "USA"
+        "Spania"
       ],
       "correct": 1,
       "explain": "Mexico har over 100 millioner innbyggere.",
@@ -205,10 +207,10 @@
       "id": "q09",
       "text": "Hvorfor døde millioner av urfolk etter erobringen?",
       "options": [
-        "Av tørke alene",
-        "Av jordskjelv",
+        "Av tørke, avlingssvikt og store naturkatastrofer",
+        "Av jordskjelv, flom og flere vulkanutbrudd",
         "Av krig, tvangsarbeid og europeiske sykdommer",
-        "Av vulkanutbrudd"
+        "Av kulde, snøstormer og omfattende oversvømmelser"
       ],
       "correct": 2,
       "explain": "Sykdommer som kopper var særlig dødelige.",
@@ -218,10 +220,10 @@
       "id": "q10",
       "text": "Hva var «la Transición»?",
       "options": [
-        "Erobringen av Amerika",
-        "Borgerkrigen",
-        "Overgangen til demokrati etter Francos død",
-        "Uavhengigheten i Latin-Amerika"
+        "Den spanske erobringen av Amerika",
+        "Den spanske borgerkrigen fra 1936 til 1939",
+        "Demokratisk overgang etter Francos død",
+        "Latinamerikanske lands uavhengighet fra Spania"
       ],
       "correct": 2,
       "explain": "Den nye grunnloven kom i 1978.",
@@ -232,9 +234,9 @@
       "text": "Hva betyr «Me gustaría visitar México»?",
       "options": [
         "Jeg skulle gjerne besøkt Mexico.",
-        "Jeg besøkte Mexico.",
-        "Jeg liker Mexico.",
-        "Jeg skal besøke Mexico."
+        "Jeg besøkte Mexico forrige sommer.",
+        "Jeg liker å besøke Mexico.",
+        "Jeg skal besøke Mexico neste år."
       ],
       "correct": 0,
       "explain": "Condicional uttrykker ønske."
@@ -244,13 +246,12 @@
       "text": "Hva er condicional av «poder» i usted-form?",
       "options": [
         "puede",
-        "pudo",
+        "podía",
         "podría",
-        "poderá"
+        "podrá"
       ],
       "correct": 2,
-      "explain": "poder har stammen podr- + -ía.",
-      "niva": "over-niva"
+      "explain": "poder har stammen podr- + -ía."
     }
   ],
   "mindmap": {
@@ -365,7 +366,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -415,9 +416,9 @@
         "type": "flervalg",
         "text": "Hvem var de katolske kongene?",
         "options": [
-          "Carlos og Felipe",
+          "Carlos og Juana",
           "Isabel og Fernando",
-          "Franco og Juan Carlos",
+          "Juana og Felipe",
           "Cortés og Pizarro"
         ],
         "correct": 1,
@@ -429,8 +430,7 @@
         "type": "sant-usant",
         "text": "Condicional og futuro har de samme uregelmessige stammene.",
         "correct": true,
-        "explain": "tendré – tendría, haré – haría.",
-        "niva": "over-niva"
+        "explain": "tendré – tendría, haré – haría."
       }
     ],
     "skriv": [
@@ -512,12 +512,93 @@
           "Formidler mangfold eller ulike bakgrunner."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Forklar på spansk for en norsk utvekslingselev hvordan en vanlig skoledag i Spania kan skille seg fra en i Norge. Ta også med en opplysning om unges arbeidssituasjon i Spania.",
+        "fasit": "En España, las clases pueden durar hasta media tarde y se almuerza más tarde que en Noruega. Como hay mucho desempleo juvenil, algunos jóvenes se mudan a otros países o trabajan a tiempo parcial en turismo y servicios.",
+        "kriterier": [
+          "Nevner at skoledagen kan vare til midt på ettermiddagen, og at lunsjen ofte spises senere enn i Norge.",
+          "Nevner høy arbeidsledighet blant unge og en følge eller et eksempel, som å flytte utenlands eller jobbe deltid i turisme og service."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Fortell på spansk om en situasjon der du kom for sent til stasjonen sammen med søsteren din, og toget allerede hadde gått. Beskriv bakgrunnen eller forholdet mellom dere, hva som skjedde etterpå, og hvordan du følte deg.",
+        "fasit": "Era una tarde lluviosa y me llevaba bien con mi hermana. Cuando llegamos a la estación, el tren ya había salido. Llamamos a nuestros padres y me sentí nerviosa.",
+        "kriterier": [
+          "Bruker imperfecto til bakgrunn eller en vane/tilstand og pluskvamperfektum om toget som hadde gått før dere kom.",
+          "Forteller en avsluttet hendelse med indefinido og tar med en følelse."
+        ],
+        "id": "s10",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En skoleklasse lager en presentasjon om hvor spansk snakkes. Skriv på spansk hvor mange land som har spansk som offisielt språk, hvilket land som har flest spansktalende, og nevn to andre steder eller land der spansk brukes.",
+        "fasit": "El español es lengua oficial en 21 países, contando Puerto Rico. México es el país con más hispanohablantes; el español también se habla en Guinea Ecuatorial y se usa mucho en Estados Unidos.",
+        "kriterier": [
+          "Oppgir 21 land når Puerto Rico regnes med, og at Mexico har flest spansktalende.",
+          "Nevner to andre steder eller land der spansk brukes, for eksempel Puerto Rico, Ekvatorial-Guinea eller USA."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Sammenlign på spansk Don Quijote og Cien años de soledad. Ta med forfatter og utgivelsesår for hvert verk, og én opplysning om handlingen eller litterær stil.",
+        "fasit": "Miguel de Cervantes publicó Don Quijote en 1605; trata de un hidalgo que sale como caballero con Sancho Panza. Gabriel García Márquez publicó Cien años de soledad en 1967, y es una obra de realismo mágico.",
+        "kriterier": [
+          "Knytter Cervantes til Don Quijote og 1605, og gir en riktig opplysning om handlingen.",
+          "Knytter García Márquez til Cien años de soledad og 1967, og nevner magisk realisme."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Du skal presentere spansk og latinamerikansk musikk på spansk. Forklar hva flamenco kombinerer og hvor tango oppsto. Avslutt med å si at du liker salsa og cumbia, og bruk gustar riktig.",
+        "fasit": "El flamenco combina el cante, la guitarra y el baile. El tango nació en Buenos Aires y Montevideo. A mí me gustan la salsa y la cumbia.",
+        "kriterier": [
+          "Nevner at flamenco kombinerer sang, gitar og dans, og at tango oppsto i Buenos Aires og Montevideo.",
+          "Bruker gustar riktig med salsa og cumbia som subjekt i flertall."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En venn skal ta en viktig eksamen. Skriv på spansk at du håper vennen har flaks, og fortell hva du skal gjøre hvis du består eksamen.",
+        "fasit": "Espero que tengas suerte. Si apruebo el examen, iré a la universidad.",
+        "kriterier": [
+          "Bruker subjuntivo etter espero que.",
+          "Bruker presens etter si og futuro simple for det som skal skje dersom eksamen bestås."
+        ],
+        "id": "s14",
+        "niva": "over-niva"
+      },
+      {
+        "text": "Du har sett en utlysning for en sommerjobb innen turisme. Skriv en kort, formell melding på spansk der du sier at du gjerne vil ha jobben fordi du er interessert i turisme, og ber høflig om et jobbintervju.",
+        "fasit": "Estimado señor: Me gustaría trabajar en su empresa durante el verano porque me interesa el turismo. ¿Podría ofrecerme una entrevista de trabajo? Atentamente,",
+        "kriterier": [
+          "Bruker en passende formell hilsen med kolon og en høflig avslutning.",
+          "Uttrykker interesse for sommerjobben med condicional og ber høflig om et jobbintervju."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En besøkende spør hvorfor katalansk og baskisk ble undertrykt i Spania, og hva som skjedde etter Francos død. Forklar dette på spansk, og ta med årstallet for den nye grunnloven.",
+        "fasit": "Durante la dictadura de Franco, se reprimieron lenguas regionales como el catalán y el euskera. Después de su muerte en 1975 comenzó la transición a la democracia, y en 1978 se aprobó una nueva Constitución.",
+        "kriterier": [
+          "Knytter undertrykkelsen av katalansk og baskisk til Francos diktatur.",
+          "Nevner Francos død i 1975, overgangen til demokrati og grunnloven fra 1978."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

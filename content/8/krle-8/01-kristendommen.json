@@ -77,9 +77,9 @@
       "text": "Hva betyr «Kristus»?",
       "options": [
         "Den salvede",
-        "Den hellige",
-        "Profeten",
-        "Kongen av Roma"
+        "Den døpte",
+        "Den utvalgte",
+        "Den forkynte"
       ],
       "correct": 0,
       "explain": "Tittelen viser til at kristne tror Jesus er den lovede frelseren."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva er treenigheten?",
       "options": [
-        "Tre ulike guder",
-        "Tre store høytider",
+        "At Gud er Fader, Sønn og Den hellige ånd – tre guder med hver sin vilje",
+        "At Gud er Fader, Sønn og Den hellige ånd – én Gud som skifter mellom tre roller",
         "At Gud er Fader, Sønn og Den hellige ånd – én Gud i tre personer",
-        "Tre kristne retninger"
+        "At Gud er Fader, Sønn og Den hellige ånd – én Gud med tre ulike deler"
       ],
       "correct": 2,
       "explain": "Kristne tror på én Gud som viser seg på tre måter."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva feirer kristne i påsken?",
       "options": [
-        "Jesu fødsel",
+        "Jesu fødsel og oppvekst",
         "Jesu død og oppstandelse",
-        "At Den hellige ånd kom",
-        "At Jesus ble døpt"
+        "Jesu dåp og forkynnelse",
+        "Jesu himmelfart og gjenkomst"
       ],
       "correct": 1,
       "explain": "Påsken er kirkeårets viktigste høytid."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvem satte i gang reformasjonen i 1517?",
       "options": [
-        "Paven",
-        "Paulus",
-        "Olav den hellige",
+        "Jan Hus",
+        "John Calvin",
+        "Henrik VIII",
         "Martin Luther"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvilke to sakramenter har de fleste kirker?",
       "options": [
-        "Konfirmasjon og bryllup",
         "Bønn og faste",
+        "Konfirmasjon og bønn",
         "Dåp og nattverd",
-        "Jul og påske"
+        "Bryllup og pilegrimsreise"
       ],
       "correct": 2,
       "explain": "Den katolske og den ortodokse kirken har i tillegg flere sakramenter."
@@ -138,8 +138,8 @@
       "options": [
         "Den katolske kirke",
         "Den ortodokse kirke",
-        "Den lutherske kirke",
-        "Pinsebevegelsen"
+        "Den anglikanske kirke",
+        "Den baptistiske kirke"
       ],
       "correct": 0,
       "explain": "Rundt halvparten av verdens kristne er katolikker.",
@@ -149,9 +149,9 @@
       "id": "q07",
       "text": "Hva forteller evangeliene om?",
       "options": [
-        "Skapelsen av verden",
-        "Moses og utgangen fra Egypt",
-        "Reformasjonen",
+        "Skapelsen, Adam og Eva",
+        "Moses, utgangen og lovene",
+        "Paulus, brevene og misjonsreisene",
         "Jesu liv, død og oppstandelse"
       ],
       "correct": 3,
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hvor bor flest kristne i dag?",
       "options": [
-        "I Nord-Europa",
+        "I Europa og Nord-Amerika og Oseania",
         "I Latin-Amerika og Afrika sør for Sahara",
-        "I Øst-Asia",
-        "I Midtøsten"
+        "I Øst-Asia og Sør-Asia og Oseania",
+        "I Midtøsten og Nord-Afrika og Sentral-Asia"
       ],
       "correct": 1,
       "explain": "Tyngdepunktet i kristendommen har flyttet seg sørover.",
@@ -175,9 +175,9 @@
       "text": "Hva betyr inkarnasjonen?",
       "options": [
         "At Gud ble menneske i Jesus",
-        "At man blir født på nytt i et annet liv",
+        "At Jesus ble Guds sønn ved dåpen",
         "At Jesus sto opp fra de døde",
-        "At kirken ble grunnlagt"
+        "At Jesus grunnla den første kirken"
       ],
       "correct": 0,
       "explain": "Inkarnasjon betyr «å bli kjød», altså å bli menneske."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva feires i pinsen?",
       "options": [
-        "Jesu fødsel",
-        "At Jesus døde",
+        "At Jesus ble født i Betlehem",
+        "At Jesus døde på korset",
         "At Den hellige ånd kom til disiplene",
-        "At kirkeåret begynner"
+        "At Jesus fór opp til himmelen"
       ],
       "correct": 2,
       "explain": "Pinsen regnes ofte som kirkens fødselsdag."
@@ -322,9 +322,9 @@
         "type": "flervalg",
         "text": "Hva er monoteisme?",
         "options": [
-          "Troen på mange guder",
+          "Troen på flere guder",
           "Troen på én Gud",
-          "Troen på at det ikke finnes noen gud",
+          "Troen på ingen guder",
           "Troen på gjenfødelse"
         ],
         "correct": 1,
@@ -336,9 +336,9 @@
         "text": "Hvilken bønn lærte Jesus disiplene ifølge Bibelen?",
         "options": [
           "Fadervår",
-          "Trosbekjennelsen",
-          "Shahada",
-          "Shema"
+          "Ave Maria",
+          "Ære være Faderen",
+          "Hill deg, Maria"
         ],
         "correct": 0,
         "explain": "Fadervår er den mest kjente kristne bønnen."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva betyr nestekjærlighet?",
         "options": [
-          "Å bare elske familien sin",
-          "Å gi penger til kirken",
+          "Å be til Gud og lese Bibelen hver dag",
+          "Å delta i gudstjenester og følge kirkens regler",
           "Å bry seg om og hjelpe andre mennesker",
-          "Å gå i kirken hver søndag"
+          "Å lære kirkens regler og kunne Bibelens fortellinger"
         ],
         "correct": 2,
         "explain": "Lignelsen om den barmhjertige samaritan er et kjent eksempel."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

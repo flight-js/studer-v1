@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på en norm og en lov?",
       "options": [
-        "Normer er uskrevne, lover er vedtatt av Stortinget",
-        "Det er ingen forskjell",
-        "Normer gjelder bare voksne",
-        "Lover er uskrevne"
+        "Normer er uskrevne, lover vedtas av Stortinget",
+        "Normer vedtas av Stortinget, lover er uskrevne",
+        "Normer er uskrevne, lover vedtas av domstolene",
+        "Normer vedtas av kommunen, lover er uskrevne"
       ],
       "correct": 0,
       "explain": "Bare lovbrudd kan straffes av staten."
@@ -95,7 +95,7 @@
       "id": "q02",
       "text": "Hva er den kriminelle lavalderen i Norge?",
       "options": [
-        "12 år",
+        "14 år",
         "15 år",
         "16 år",
         "18 år"
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "Hva er konfliktrådet?",
       "options": [
-        "En domstol for voksne",
-        "Et fengsel for unge",
+        "En domstol der en dommer avgjør hvem som har skyld i saken",
+        "Et møte der politiet bestemmer hvilken straff lovbryteren skal få i saken",
         "Et tilbud der partene i en sak møtes for å finne en løsning",
-        "En komité på Stortinget"
+        "En komité der politikere møtes for å avgjøre hvordan loven skal endres"
       ],
       "correct": 2,
       "explain": "I konfliktrådet kan gjerningspersonen gjøre opp for seg overfor den som er rammet.",
@@ -120,9 +120,9 @@
       "id": "q04",
       "text": "Hva betyr allmennprevensjon?",
       "options": [
-        "At straff skal gjøre offeret glad",
-        "At alle får samme straff",
-        "At straff hindrer den dømte i å gjøre det igjen",
+        "At straff skal hindre den dømte i å begå nye lovbrudd",
+        "At straff skal få den dømte til å angre på lovbruddet",
+        "At straff skal sikre at offeret får erstatning for tapet",
         "At straff skal avskrekke andre fra å begå lovbrudd"
       ],
       "correct": 3,
@@ -133,10 +133,10 @@
       "id": "q05",
       "text": "Hva betyr det at alle er like for loven?",
       "options": [
-        "At alle får samme lønn",
+        "At alle får samme straff for samme lovbrudd",
         "At lovene gjelder alle, uansett hvem de er",
-        "At alle er like sterke",
-        "At alle må være enige"
+        "At alle har de samme rettighetene uansett alder",
+        "At politikere kan følge andre lover enn resten av befolkningen"
       ],
       "correct": 1,
       "explain": "Også politikere, rike og kjente må følge loven."
@@ -148,7 +148,7 @@
         "Høyesterett",
         "Tingretten",
         "Lagmannsretten",
-        "Konfliktrådet"
+        "Jordskifteretten"
       ],
       "correct": 0,
       "explain": "Høyesterett er siste instans, og dommene der kan ikke ankes.",
@@ -158,10 +158,10 @@
       "id": "q07",
       "text": "Hvorfor kan et lovbrudd i ungdommen få konsekvenser mange år senere?",
       "options": [
-        "Fordi det kan stå på politiattesten",
-        "Fordi man mister stemmeretten for alltid",
-        "Fordi man må flytte fra kommunen",
-        "Det kan det ikke"
+        "Fordi lovbruddet kan stå på politiattesten senere",
+        "Fordi lovbruddet kan bli registrert i folkeregisteret senere",
+        "Fordi lovbruddet kan bli skrevet på vitnemålet senere",
+        "Fordi lovbruddet kan føre til tap av stemmeretten senere"
       ],
       "correct": 0,
       "explain": "Politiattest kreves blant annet for jobber med barn og unge.",
@@ -171,10 +171,10 @@
       "id": "q08",
       "text": "Hva er et eksempel på en regel som ikke er en lov?",
       "options": [
-        "Forbudet mot tyveri",
-        "Fartsgrensen",
-        "Skolens ordensreglement",
-        "Skatteplikten"
+        "Loven mot tyveri",
+        "Loven om skatt",
+        "Skolens skriftlige ordensreglement",
+        "Loven om fartsgrenser"
       ],
       "correct": 2,
       "explain": "Ordensreglementet gjelder bare på skolen."
@@ -183,10 +183,10 @@
       "id": "q09",
       "text": "Hvilket prinsipp hører til en rettsstat?",
       "options": [
-        "Politiet kan straffe uten rettssak",
+        "Politiet kan fastsette straffen før saken behandles i retten",
         "Man er uskyldig til det motsatte er bevist",
-        "Regjeringen dømmer i straffesaker",
-        "Lover gjelder bare for noen"
+        "En tiltalt må bevise at vedkommende er uskyldig",
+        "Regjeringen avgjør om en person er skyldig i lovbrudd"
       ],
       "correct": 1,
       "explain": "Det er påtalemyndigheten som må bevise skyld, ikke den tiltalte som må bevise uskyld."
@@ -195,10 +195,10 @@
       "id": "q10",
       "text": "Hva er en konsekvens av kriminalitet for samfunnet?",
       "options": [
-        "Større trygghet",
-        "Lavere kostnader",
-        "Mer tillit",
-        "Utrygghet og store kostnader"
+        "Økt trygghet og lavere kostnader",
+        "Mindre utrygghet og større tillit",
+        "Lavere kostnader og sterkere tillit",
+        "Utrygghet og høye samfunnskostnader"
       ],
       "correct": 3,
       "explain": "Kriminalitet koster samfunnet penger og svekker tilliten mellom folk."
@@ -340,7 +340,7 @@
           "Domstolene",
           "Politiet",
           "Stortinget",
-          "Konfliktrådet"
+          "Kriminalomsorgen"
         ],
         "correct": 1,
         "explain": "Politiet samler bevis, og påtalemyndigheten avgjør om det blir tiltale."
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hva er målet med rehabilitering?",
         "options": [
-          "Å gjøre straffen hardere",
-          "Å skremme andre",
+          "Å sørge for at den dømte får en strengere straff",
+          "Å hindre andre i å begå lignende lovbrudd",
           "Å hjelpe den dømte tilbake til et liv uten kriminalitet",
-          "Å gi offeret erstatning"
+          "Å gi den som ble rammet økonomisk erstatning"
         ],
         "correct": 2,
         "explain": "Norsk kriminalomsorg legger stor vekt på utdanning og arbeid under soning."
@@ -365,8 +365,8 @@
         "options": [
           "Ungdomsstraff",
           "Forvaring",
-          "Livstidsfengsel",
-          "Bot"
+          "Samfunnsstraff",
+          "Betinget fengsel"
         ],
         "correct": 0,
         "explain": "Ungdomsstraff gjennomføres med tett oppfølging, ofte gjennom konfliktrådet.",
@@ -455,6 +455,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

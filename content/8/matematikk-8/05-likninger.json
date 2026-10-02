@@ -90,7 +90,7 @@
         "x = 5",
         "x = 25/3",
         "x = 15",
-        "x = 8"
+        "x = 5/3"
       ],
       "correct": 0,
       "explain": "Trekk fra 5: 3x = 15. Del på 3: x = 5. Prøve: 3 · 5 + 5 = 20."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er det første lurt å gjøre i likningen 4x − 3 = 21?",
       "options": [
-        "Dele begge sider på 4",
         "Trekke fra 3 på begge sider",
+        "Legge til 4 på begge sider",
         "Legge til 3 på begge sider",
-        "Gange begge sider med 3"
+        "Dele begge sider på 3"
       ],
       "correct": 2,
       "explain": "Minus 3 fjernes ved å legge til 3 på begge sider: 4x = 24. Så deler du på 4 og får x = 6."
@@ -138,7 +138,7 @@
         "x = 4",
         "x = 5,5",
         "x = 8",
-        "x = 10"
+        "x = 5"
       ],
       "correct": 0,
       "explain": "Gang ut: 2x + 6 = 14. Trekk fra 6: 2x = 8. Del på 2: x = 4."
@@ -148,9 +148,9 @@
       "text": "Hvilken likning passer? «Buss 1200 kr pluss 150 kr per elev, totalt 5250 kr.»",
       "options": [
         "1200x + 150 = 5250",
-        "150 + 1200 = 5250x",
+        "150x = 5250 + 1200",
         "150x + 1200 = 5250",
-        "150x = 5250 + 1200"
+        "150(x + 1200) = 5250"
       ],
       "correct": 2,
       "explain": "Prisen per elev ganges med antall elever (150x), og bussen legges til én gang (1200). Summen skal bli 5250."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Du har løst en likning og fått x = 6. Hvordan setter du prøve?",
       "options": [
-        "Løser likningen på nytt med en annen metode",
+        "Setter x = 6 inn i en ny likning og sjekker at sidene blir like",
         "Setter x = 6 inn i den opprinnelige likningen og sjekker at sidene blir like",
-        "Ganger svaret med 2 og ser om det blir partall",
-        "Deler begge sider på 6"
+        "Løser den opprinnelige likningen på nytt med motsatt regnerekkefølge",
+        "Setter x = 6 inn i den opprinnelige likningen og sjekker at sidene blir ulike"
       ],
       "correct": 1,
       "explain": "En prøve betyr å sette løsningen inn i den opprinnelige likningen. Blir venstre og høyre side like, er løsningen riktig."
@@ -171,9 +171,9 @@
       "id": "q09",
       "text": "En likning om antall elever gir x = 26,4. Hva bør du tenke?",
       "options": [
-        "At det var 26,4 elever",
-        "At svaret skal rundes opp til 27 uten videre",
-        "At svaret skal rundes ned til 26 uten videre",
+        "At det trolig er riktig, fordi antall elever kan oppgis med desimaltall",
+        "At svaret bør rundes opp til 27 for å få et helt antall elever",
+        "At svaret bør rundes ned til 26 for å få et helt antall elever",
         "At det trolig er en feil, fordi antall elever må være et helt tall"
       ],
       "correct": 3,
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

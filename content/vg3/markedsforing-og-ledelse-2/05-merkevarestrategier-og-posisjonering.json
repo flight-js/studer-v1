@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er merkekapital?",
       "options": [
-        "Bedriftens egenkapital",
+        "Kjennskapen kundene har til produktnavnet",
         "Verdien merket tilfører produktet",
-        "Reklamebudsjettet",
-        "Antall produkter"
+        "Summen bedriften bruker på merkevarebygging",
+        "Produktets produksjonskostnad før markedsføring"
       ],
       "correct": 1,
       "explain": "Brand equity."
@@ -89,9 +89,9 @@
       "text": "Hva er EMV?",
       "options": [
         "Egne merkevarer som eies av kjeden",
-        "En EU-regel",
-        "En type reklame",
-        "En produsents merke"
+        "Produsentens merkevarer som selges av kjeden",
+        "Kjedens reklamekampanjer for produsentmerker",
+        "Europeisk sertifisering av varer med miljømerking"
       ],
       "correct": 0,
       "explain": "Gir kjeden høyere marginer."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er en ulempe ved paraplymerke?",
       "options": [
-        "Høye kostnader",
-        "Lite kjennskap",
+        "At hvert produkt må bygge opp kjennskap separat",
+        "At hvert produkt må få et eget merkenavn",
         "At én skandale kan ramme alle produktene",
-        "At produktene får ulike navn"
+        "At kundene ikke kobler produktene til samme bedrift"
       ],
       "correct": 2,
       "explain": "Risikoen samles."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er merkeutvidelse?",
       "options": [
-        "Nye smaker i samme kategori",
-        "Større logo",
-        "Flere butikker",
+        "Å lansere en variant i samme produktkategori",
+        "Å endre logoen uten å endre produktkategorien",
+        "Å selge merket gjennom en ny salgskanal",
         "Å bruke merket i en ny kategori"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er forskjellspunkter?",
       "options": [
         "Egenskaper som gjør merket unikt",
-        "Egenskaper alle i kategorien har",
-        "Prisforskjeller",
-        "Forskjeller mellom ansatte"
+        "Egenskaper som alle merker i kategorien tilbyr",
+        "Egenskaper som kundene forventer av kategorien",
+        "Egenskaper som beskriver målgruppen for merket"
       ],
       "correct": 0,
       "explain": "Gir kundene en grunn til å velge merket."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva kjennetegner god posisjonering?",
       "options": [
-        "At den er lik konkurrentenes",
+        "At den er relevant, tydelig, rimelig og enkel å endre",
         "At den er relevant, tydelig, troverdig og unik",
-        "At den endres hver uke",
-        "At den er hemmelig"
+        "At den er bred, synlig, troverdig og lik konkurrentenes",
+        "At den er relevant, populær, generell og lett å kopiere"
       ],
       "correct": 1,
       "explain": "Må kunne innfris."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva viser et posisjoneringskart?",
       "options": [
-        "Butikkenes plassering",
-        "Salgstall",
+        "Hvordan butikker ligger geografisk langs to dimensjoner",
+        "Hvordan merker presterer på salgstall langs to dimensjoner",
         "Hvordan kunder oppfatter merker langs to dimensjoner",
-        "Organisasjonskartet"
+        "Hvordan avdelinger fordeles etter mål langs to dimensjoner"
       ],
       "correct": 2,
       "explain": "Kan vise ledige posisjoner."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er en fordel med individuelle merker?",
       "options": [
-        "Lave kostnader",
-        "Én reklame for alle",
-        "Samme navn på alt",
-        "Spredning av risiko og fleksibilitet"
+        "Felles reklame og sterkere samlet kjennskap på tvers av produkter",
+        "Lavere kostnader ved å bruke samme merke på flere produkter",
+        "En enklere lansering av nye produkter under ett felles merkenavn",
+        "Spredning av risiko og større fleksibilitet i merkevarebyggingen"
       ],
       "correct": 3,
       "explain": "Men høye kostnader."
@@ -175,7 +175,7 @@
         "Merkelojalitet",
         "Merkekjennskap",
         "Kvalitetsoppfatning",
-        "Assosiasjoner"
+        "Merkeassosiasjoner"
       ],
       "correct": 0,
       "explain": "Gjentatte kjøp.",
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor tar reposisjonering tid?",
       "options": [
-        "Fordi det er forbudt",
+        "Fordi bedriften må vente på at konkurrentene endrer sin kommunikasjon",
         "Fordi kundenes oppfatninger endres sakte og krever konsistent kommunikasjon",
-        "Fordi logoen må godkjennes av staten",
-        "Fordi det er gratis"
+        "Fordi nye produkter må utvikles før kundene kan møte merket",
+        "Fordi konkurrentenes priser må endres før markedet kan reagere"
       ],
       "correct": 1,
       "explain": "Ofte også endringer i produktet."
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på linjeutvidelse?",
         "options": [
-          "En sjokoladeprodusent lanserer klær",
+          "En ny drikke fra samme sjokoladeprodusent",
           "En ny smak av en eksisterende sjokolade",
-          "En ny logo",
-          "Et nytt firma"
+          "En ny emballasjefarge på den eksisterende sjokoladen",
+          "Et nytt merke for en eksisterende sjokoladevariant"
         ],
         "correct": 1,
         "explain": "Samme kategori."
@@ -323,9 +323,9 @@
         "text": "Hva er et posisjoneringsgrunnlag?",
         "options": [
           "Opprinnelse, som «norsk»",
-          "Antall ansatte",
-          "Kontortid",
-          "Regnskapsår"
+          "Markedssegment, som «unge voksne»",
+          "Salgskanal, som «nettbutikk»",
+          "Produksjonsvolum, som «stort»"
         ],
         "correct": 0,
         "explain": "Også pris, kvalitet og bærekraft.",
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,8 +77,8 @@
       "options": [
         "0",
         "1",
-        "sin 2x",
-        "tan x"
+        "2",
+        "sin 2x"
       ],
       "correct": 1,
       "explain": "Pytagoras i enhetssirkelen."
@@ -90,7 +90,7 @@
         "π/6 og 5π/6",
         "π/3 og 2π/3",
         "π/6 og 7π/6",
-        "π/6"
+        "π/3 og 5π/3"
       ],
       "correct": 0,
       "explain": "sin(π − x) = sin x."
@@ -111,8 +111,8 @@
       "id": "q04",
       "text": "Hva er den generelle løsningen av tan x = 1?",
       "options": [
-        "x = π/4 + n · 2π",
-        "x = ±π/4 + n · 2π",
+        "x = π/4 + 2nπ",
+        "x = −π/4 + nπ",
         "x = π/2 + nπ",
         "x = π/4 + nπ"
       ],
@@ -124,9 +124,9 @@
       "text": "Hvilken av disse er lik cos 2x?",
       "options": [
         "1 − 2sin²x",
-        "2 sin x cos x",
         "1 + 2sin²x",
-        "cos²x + sin²x"
+        "2 sin x cos x",
+        "1 − 2cos²x"
       ],
       "correct": 0,
       "explain": "cos²x − sin²x med cos²x = 1 − sin²x."
@@ -138,7 +138,7 @@
         "1 + √3",
         "2",
         "√3",
-        "4"
+        "1"
       ],
       "correct": 1,
       "explain": "Det er 2 sin(x + π/3)."
@@ -150,7 +150,7 @@
         "x = π/6 + n · 2π",
         "x = π/3 + nπ",
         "x = ±π/3 + n · 2π",
-        "x = π/3"
+        "x = ±π/3 + nπ"
       ],
       "correct": 2,
       "explain": "cos(−x) = cos x."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva er (sin x + cos x)²?",
       "options": [
-        "1",
-        "sin²x + cos²x",
         "1 + cos 2x",
+        "1 − sin 2x",
+        "1",
         "1 + sin 2x"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hvilke verdier av sin x løser 2sin²x − sin x − 1 = 0?",
       "options": [
         "sin x = 1 eller sin x = −½",
-        "sin x = 2",
-        "sin x = ½ eller −1",
-        "sin x = 0"
+        "sin x = ½ eller sin x = −1",
+        "sin x = 1 eller sin x = ½",
+        "sin x = −½"
       ],
       "correct": 0,
       "explain": "(2 sin x + 1)(sin x − 1) = 0."
@@ -309,8 +309,8 @@
         "options": [
           "cos u cos v + sin u sin v",
           "cos u cos v − sin u sin v",
-          "cos u + cos v",
-          "sin u cos v − cos u sin v"
+          "sin u cos v + cos u sin v",
+          "cos u cos v − sin u cos v"
         ],
         "correct": 1,
         "explain": "Summeformelen for cosinus."
@@ -322,7 +322,7 @@
         "options": [
           "2",
           "1",
-          "0",
+          "3",
           "4"
         ],
         "correct": 0,
@@ -334,9 +334,9 @@
         "text": "Hva er løsningene av sin 2x = √3/2 i [0, π]?",
         "options": [
           "π/3 og 2π/3",
-          "π/6",
+          "π/6 og 5π/6",
           "π/6 og π/3",
-          "π/3"
+          "π/6"
         ],
         "correct": 2,
         "explain": "2x = π/3 eller 2π/3."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

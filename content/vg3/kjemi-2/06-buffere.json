@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva består en buffer av?",
       "options": [
-        "En sterk syre og en sterk base",
+        "En sterk syre og dens korresponderende base",
         "En svak syre og dens korresponderende base",
-        "Bare vann",
-        "Et salt og vann"
+        "En sterk base og dens korresponderende syre",
+        "En svak syre og en annen svak syre"
       ],
       "correct": 1,
       "explain": "I omtrent like store mengder."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "[A⁻]/[HA] = 2 og pKa = 4,74. Hva er pH?",
       "options": [
-        "4,44",
-        "4,74",
+        "Omtrent 4,44",
+        "Omtrent 4,74",
         "Omtrent 5,04",
-        "6,74"
+        "Omtrent 6,74"
       ],
       "correct": 2,
       "explain": "4,74 + log 2 ≈ 5,04."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Når er bufferkapasiteten størst?",
       "options": [
-        "Når konsentrasjonene er lave",
-        "Når bare syren finnes",
-        "Når bare basen finnes",
+        "Når [A⁻] = [HA] og konsentrasjonene er lave",
+        "Når [A⁻] er mye større enn [HA] og konsentrasjonene er høye",
+        "Når [HA] er mye større enn [A⁻] og konsentrasjonene er høye",
         "Når [A⁻] = [HA] og konsentrasjonene er høye"
       ],
       "correct": 3,
@@ -129,7 +129,7 @@
       "options": [
         "Karbonsyre og hydrogenkarbonat",
         "Eddiksyre og acetat",
-        "Saltsyre og klorid",
+        "Fosforsyre og dihydrogenfosfat",
         "Ammoniakk og ammonium"
       ],
       "correct": 0,
@@ -141,8 +141,8 @@
       "options": [
         "Den synker",
         "Den stiger",
-        "Den er uendret",
-        "Den blir 7,0"
+        "Den holder seg omtrent uendret",
+        "Den synker mot 7,0"
       ],
       "correct": 1,
       "explain": "Mer CO₂ fjernes."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er havforsuring?",
       "options": [
-        "At havet blir saltere",
-        "At havet blir varmere",
+        "At havets pH stiger når det tar opp mye CO₂",
+        "At havets saltkonsentrasjon øker når det tar opp mye CO₂",
         "At havets pH synker når det tar opp mye CO₂",
-        "At havet blir basisk"
+        "At havets temperatur stiger når det tar opp mye CO₂"
       ],
       "correct": 2,
       "explain": "Rammer kalkskall hos koraller og skjell."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvordan velger du syre når du skal lage en buffer med en bestemt pH?",
       "options": [
-        "Med størst mulig Ka",
-        "Med minst mulig Ka",
-        "Tilfeldig",
+        "Med størst mulig Ka for syren",
+        "Med minst mulig Ka for syren",
+        "Med pKa langt fra ønsket pH",
         "Med pKa nær ønsket pH"
       ],
       "correct": 3,
@@ -189,8 +189,8 @@
       "options": [
         "For å senke pH",
         "For å heve pH",
-        "For å gjøre vannet salt",
-        "For å fjerne fisk"
+        "For å øke saltinnholdet",
+        "For å øke oksygeninnholdet"
       ],
       "correct": 1,
       "explain": "Kalk nøytraliserer syre.",
@@ -321,9 +321,9 @@
         "text": "Hva brukes bufferløsninger til i laboratoriet?",
         "options": [
           "Kalibrering av pH-metre",
-          "Veiing",
-          "Destillasjon",
-          "Oppvarming"
+          "Kalibrering av termometre",
+          "Bestemmelse av prøvemasse",
+          "Separering av stoffblandinger"
         ],
         "correct": 0,
         "explain": "De har kjent og stabil pH.",
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hvorfor bufres øyedråper?",
         "options": [
-          "For å gjøre dem søte",
-          "For å gjøre dem billigere",
+          "Slik at dråpene virker raskere",
+          "Slik at øyedråpene blir sterile",
           "Slik at pH passer kroppen",
-          "For å gi farge"
+          "Slik at virkestoffet blir mer konsentrert"
         ],
         "correct": 2,
         "explain": "Unngår irritasjon.",
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er inventio?",
       "options": [
-        "Å framføre talen",
+        "Å ordne stoffet i talen",
         "Å finne stoff til talen",
-        "Å huske talen",
-        "Å formulere seg"
+        "Å velge språk i talen",
+        "Å øve på å huske talen"
       ],
       "correct": 1,
       "explain": "Inventio er det første av de fem trinnene."
@@ -88,9 +88,9 @@
       "text": "Hva handler dispositio om?",
       "options": [
         "Å ordne stoffet",
-        "Å velge klær",
-        "Å bruke stemmen",
-        "Å finne kilder"
+        "Å finne stoff til talen",
+        "Å velge passende språk",
+        "Å øve på å huske talen"
       ],
       "correct": 0,
       "explain": "Innledning, hoveddel og avslutning."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hvordan kan du styrke etos i en presentasjon?",
       "options": [
-        "Ved å snakke fort",
-        "Ved å lese fra manus",
-        "Ved å unngå fagbegreper",
-        "Ved å være godt forberedt og bruke fagbegreper riktig"
+        "Ved å bruke mange fagbegreper uten å forklare dem",
+        "Ved å sitere kilder uten å knytte dem til temaet",
+        "Ved å snakke sikkert uten å vise fagkunnskap",
+        "Ved å være forberedt og bruke fagbegreper riktig"
       ],
       "correct": 3,
       "explain": "Troverdighet bygger på kunnskap og trygghet."
@@ -124,9 +124,9 @@
       "text": "Hvordan bør du bruke lysbilder?",
       "options": [
         "Som støtte med få ord og gode bilder",
-        "Som manus du leser fra",
-        "Med så mye tekst som mulig",
-        "Ikke i det hele tatt"
+        "Som en ordrett gjengivelse av talen på hvert lysbilde",
+        "Som en samling bilder uten sammenheng med temaet",
+        "Som en liste med detaljer og lange forklaringer"
       ],
       "correct": 0,
       "explain": "Publikum skal lytte til deg."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvilken setning passer når du vil bygge videre på et innspill?",
       "options": [
-        "Det er feil.",
+        "Jeg vil heller presentere mitt eget poeng om …",
         "Jeg vil utdype det du sa om …",
-        "Du vet ikke hva du snakker om.",
-        "La oss snakke om noe annet."
+        "Jeg vil gjenta poenget mitt om …",
+        "La oss gå videre til et annet spørsmål."
       ],
       "correct": 1,
       "explain": "Det viser at du lytter og bidrar."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er memoria?",
       "options": [
-        "Å finne stoff",
-        "Å formulere seg",
+        "Å finne og velge stoff til talen",
+        "Å ordne stoffet i en tydelig rekkefølge",
         "Å huske og kunne snakke fritt",
-        "Å framføre"
+        "Å formulere talen med passende språk"
       ],
       "correct": 2,
       "explain": "Øv så godt at du trenger bare stikkord."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvordan kan du bruke patos i en åpning?",
       "options": [
-        "Med en lang definisjon",
-        "Med en liste over kilder",
-        "Med en tabell",
+        "Med en faglig definisjon, en kilde eller et tall",
+        "Med en oversikt over tema, problemstilling og metode",
+        "Med en påstand, en forklaring eller en begrunnelse",
         "Med en anekdote, et sitat eller et spørsmål"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hva er et godt råd for den faglige samtalen på muntlig eksamen?",
       "options": [
         "Lytte til spørsmålene og begrunne svarene",
-        "Svare så kort som mulig",
-        "Unngå å tenke høyt",
-        "Bare gjenta presentasjonen"
+        "Gjenta hovedpoengene fra presentasjonen i hvert svar",
+        "Gi korte svar uten å forklare tankegangen",
+        "Vente på fasiten før du svarer på spørsmålene"
       ],
       "correct": 0,
       "explain": "Det er lov å resonnere seg fram."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvorfor kan pauser være et virkemiddel?",
       "options": [
-        "De gir taleren tid til å lese",
-        "De understreker viktige poenger",
-        "De gjør talen kortere",
-        "De er alltid et tegn på usikkerhet"
+        "De får talen til å virke raskere",
+        "De gir viktige poenger ekstra vekt",
+        "De reduserer tiden publikum får til å tenke",
+        "De erstatter forklaringen av et poeng"
       ],
       "correct": 1,
       "explain": "En pause gir publikum tid til å tenke."
@@ -317,9 +317,9 @@
         "text": "Hva er elocutio?",
         "options": [
           "Å formulere seg med passende ord og virkemidler",
-          "Å framføre",
-          "Å huske",
-          "Å ordne stoffet"
+          "Å framføre talen med tydelig stemme og kroppsspråk",
+          "Å huske talens innhold og snakke uten manus",
+          "Å ordne stoffet i en logisk og tydelig rekkefølge"
         ],
         "correct": 0,
         "explain": "Elocutio handler om språk og stil."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hva kan hjelpe mot nervøsitet?",
         "options": [
-          "Å øve minst mulig",
+          "Å begynne uten forberedelse og improvisere innholdet",
           "Å øve høyt og puste rolig",
-          "Å snakke fortere",
-          "Å unngå blikkontakt"
+          "Å snakke raskt for å komme raskere gjennom talen",
+          "Å unngå å øve foran andre og lese fra manus"
         ],
         "correct": 1,
         "explain": "God forberedelse gir trygghet."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva bør en presentasjon på muntlig eksamen knyttes til?",
         "options": [
-          "Bare egne meninger",
-          "Filmer du har sett",
+          "Generelle meninger uten teksteksempler",
+          "Personlige erfaringer uten faglig begrunnelse",
           "Konkrete tekster og fagbegreper",
-          "Lærerens favoritter"
+          "Handlingsreferat uten fagbegreper"
         ],
         "correct": 2,
         "explain": "Fagkunnskap er grunnlaget."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

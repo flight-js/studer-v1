@@ -77,9 +77,9 @@
       "text": "Hvilken tekst er en sammensatt tekst?",
       "options": [
         "En reklameplakat med bilde og slagord",
-        "En lydløs tanke",
-        "En tom side",
-        "Et enkelt ord"
+        "En muntlig beskjed uten bilder eller skrift",
+        "Et lydopptak med tale uten bilder eller tekst",
+        "En skrevet setning uten bilder eller lyd"
       ],
       "correct": 0,
       "explain": "Reklameplakaten kombinerer bilde, skrift og layout, altså flere uttrykksformer."
@@ -91,7 +91,7 @@
         "Fugleperspektiv",
         "Normalperspektiv",
         "Froskeperspektiv",
-        "Nærbilde"
+        "Skråperspektiv"
       ],
       "correct": 2,
       "explain": "Froskeperspektiv er sett nedenfra og gir inntrykk av styrke og makt."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva viser et nærbilde best?",
       "options": [
-        "Hele landskapet",
-        "Følelser og detaljer",
-        "Hvor mange personer som er til stede",
-        "Været"
+        "Hele stedet og omgivelsene",
+        "Følelser og små detaljer",
+        "Antall personer og plassering",
+        "Værforhold og landskapets utstrekning"
       ],
       "correct": 1,
       "explain": "Et nærbilde av et ansikt får fram følelser som ellers lett forsvinner."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Bildet viser et øsende regnvær, mens teksten sier «Perfekt dag for piknik!». Hvordan spiller bilde og tekst sammen?",
       "options": [
-        "De forsterker hverandre",
-        "De utfyller hverandre",
-        "De er like",
+        "De gjentar hverandre og gjør budskapet tydeligere",
+        "De utfyller hverandre og gir mer informasjon",
+        "De støtter samme stemning og budskap",
         "De står i kontrast og skaper ironi"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva er layout?",
       "options": [
-        "Valg av farger i et maleri",
-        "Hvordan elementene er plassert på en side",
-        "Et reklameslagord",
-        "En type skrift"
+        "Hvordan fargene er valgt og fordelt på en side",
+        "Hvordan tekst og bilder er plassert på en side",
+        "Hvordan bokstavene ser ut og kan leses på en side",
+        "Hvordan reklamebudskapet formuleres i en kort setning"
       ],
       "correct": 1,
       "explain": "Layout handler om plassering av tekst, bilder og luft, og styrer hvordan vi leser siden."
@@ -137,9 +137,9 @@
       "text": "Hva er typografi?",
       "options": [
         "Valg av skrifttype, størrelse og stil",
-        "Et fotografi",
-        "En logo",
-        "En bildetekst"
+        "Valg av tekst, bilder og rekkefølge",
+        "Valg av farger, motiv og kontrast",
+        "Valg av bildeutsnitt, vinkel og avstand"
       ],
       "correct": 0,
       "explain": "Typografi er alt som har med utseendet til bokstavene å gjøre."
@@ -151,7 +151,7 @@
         "Logos",
         "Etos",
         "Patos",
-        "Ingen"
+        "Kairos"
       ],
       "correct": 2,
       "explain": "Reklame spiller ofte på følelser, som glede, lengsel eller frykt for å gå glipp av noe."
@@ -161,8 +161,8 @@
       "text": "Hva er et godt råd når du lager en lysbildepresentasjon?",
       "options": [
         "Skriv hele manuset på lysbildene",
-        "Bruk så mange skrifttyper som mulig",
-        "Unngå bilder",
+        "Fyll lysbildene med lange tekstblokker",
+        "La lysbildene erstatte forklaringen din",
         "Bruk lite tekst og bilder som støtter det du sier"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva kalles det som først fanger oppmerksomheten på en plakat?",
       "options": [
         "Blikkfang",
-        "Slagord",
-        "Utsnitt",
-        "Kildehenvisning"
+        "Avsender",
+        "Målgruppe",
+        "Budskap"
       ],
       "correct": 0,
       "explain": "Blikkfanget kan være et stort bilde, en sterk farge eller en stor overskrift."
@@ -185,9 +185,9 @@
       "text": "Hvorfor bør du kunne begrunne valgene i en sammensatt tekst?",
       "options": [
         "For å vise at du forstår hvordan valgene støtter budskapet",
-        "Fordi det gjør teksten lengre",
-        "Fordi bilder alltid er viktigst",
-        "For å slippe å oppgi kilder"
+        "For å vise at du har brukt mange ulike virkemidler",
+        "For å forklare hvorfor teksten trenger flere bilder enn ord",
+        "For å vise at du fulgte en fast oppskrift på teksttypen"
       ],
       "correct": 0,
       "explain": "Begrunnelser viser at du har tenkt bevisst over formål, mottaker og virkemidler."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva gjør et totalbilde?",
         "options": [
-          "Viser et ansikt tett på",
+          "Viser ansiktet og uttrykket på nært hold",
           "Viser hele miljøet og sammenhengen",
-          "Viser bare en detalj",
-          "Viser motivet ovenfra"
+          "Viser en liten detalj fra motivet",
+          "Viser motivet sett ovenfra"
         ],
         "correct": 1,
         "explain": "Totalbildet gir oversikt over stedet og situasjonen."
@@ -348,9 +348,9 @@
         "text": "Hva er et slagord?",
         "options": [
           "En kort, fengende setning i reklame",
-          "En lang fagtekst",
-          "En bildetekst med kilde",
-          "En overskrift i en nyhetssak"
+          "En kort, forklarende tekst under et bilde",
+          "En tydelig overskrift øverst i en artikkel",
+          "En lengre beskrivelse av et produkt"
         ],
         "correct": 0,
         "explain": "Slagordet skal være lett å huske og knytte seg til produktet."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

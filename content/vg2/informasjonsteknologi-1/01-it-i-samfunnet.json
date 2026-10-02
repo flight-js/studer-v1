@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er maskinlæring?",
       "options": [
-        "At en maskin blir reparert",
+        "At systemet følger regler som programmereren har skrevet",
         "At et system lærer mønstre fra data",
-        "At en programmerer skriver alle regler",
-        "At en datamaskin blir raskere"
+        "At systemet lagrer store mengder data for senere bruk",
+        "At systemet utfører oppgaver raskere ved hjelp av maskinvare"
       ],
       "correct": 1,
       "explain": "Grunnlaget for mye moderne KI."
@@ -89,9 +89,9 @@
       "text": "Hva er en deepfake?",
       "options": [
         "Falskt bilde, video eller lyd laget med KI",
-        "En type virus",
-        "En dyp database",
-        "Et sikkert passord"
+        "Falskt bilde, video eller lyd endret manuelt uten KI",
+        "Falskt bilde, video eller lyd tatt opp med vanlig kamera",
+        "Ekte bilde, video eller lyd merket som KI-generert"
       ],
       "correct": 0,
       "explain": "Kan brukes til å spre feilinformasjon.",
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor kan KI gi urettferdige resultater?",
       "options": [
-        "Fordi KI alltid er ond",
-        "Fordi KI ikke bruker data",
+        "Fordi den henter informasjon direkte fra internett",
+        "Fordi den ikke har tilgang til treningsdata når den svarer",
         "Fordi den kan gjenta skjevheter i treningsdataene",
-        "Fordi KI er for treg"
+        "Fordi den behandler alle treningsdata som feilfrie og oppdaterte"
       ],
       "correct": 2,
       "explain": "Data fra fortiden kan inneholde skjevheter."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hvem rammes ofte av digitalt utenforskap?",
       "options": [
-        "Bare unge",
-        "Bare IT-eksperter",
-        "Ingen",
-        "Eldre, personer med funksjonsnedsettelser og personer som ikke behersker språket"
+        "Personer med høy digital kompetanse og god nettilgang",
+        "Unge med mye erfaring fra digitale tjenester",
+        "IT-fagfolk med tilgang til moderne utstyr",
+        "Eldre, personer med funksjonsnedsettelser og personer med språkbarrierer"
       ],
       "correct": 3,
       "explain": "Når tjenester bare finnes digitalt."
@@ -126,9 +126,9 @@
       "text": "Hva er tofaktorautentisering?",
       "options": [
         "Innlogging som krever to ulike bevis",
-        "To passord som er like",
-        "Et virus",
-        "Innlogging uten passord"
+        "Innlogging som krever to passord fra samme konto",
+        "Innlogging som bruker passord og brukernavn",
+        "Innlogging som krever to sikkerhetsprogrammer samtidig"
       ],
       "correct": 0,
       "explain": "For eksempel passord og kode på mobilen."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva styrer ofte hva du ser i sosiale medier?",
       "options": [
-        "Tilfeldigheter",
-        "Algoritmer som prioriterer engasjement",
-        "Staten",
-        "Bare vennene dine"
+        "Algoritmer som sorterer innlegg etter publiseringstidspunkt",
+        "Algoritmer som prioriterer engasjement i innleggene",
+        "Vennene dine som påvirker hvilke innlegg du ser",
+        "Redaktører som velger hvilke innlegg som vises"
       ],
       "correct": 1,
       "explain": "Det kan gi ekkokamre."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvilken miljøutfordring er knyttet til IT?",
       "options": [
-        "IT bruker ingen energi",
-        "Datamaskiner lages av tre",
+        "Datasentre bruker lite strøm, og elektronikk gir lite avfall",
+        "IT-utstyr lages av fornybare materialer og gir lite avfall",
         "Datasentre bruker mye strøm, og elektronikk gir avfall",
-        "IT reduserer alltid utslipp"
+        "Digitale tjenester fjerner utslipp fra produksjon og transport"
       ],
       "correct": 2,
       "explain": "Lengre levetid for utstyr hjelper."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva hører med i en god drøfting av et IT-tema?",
       "options": [
-        "Bare egen mening",
-        "Bare fakta om teknologien",
-        "Bare argumenter for",
+        "Egen mening, personlige erfaringer og en konklusjon uten begrunnelse",
+        "Tekniske fakta, begrepsforklaringer og en kort oppsummering",
+        "Argumenter for, positive eksempler og en konklusjon uten motargumenter",
         "Argumenter for og mot, eksempler, kilder og begrunnet konklusjon"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva er phishing?",
       "options": [
         "Forsøk på å lure til seg passord eller opplysninger",
-        "En type fiskespill",
-        "En sikkerhetsoppdatering",
-        "En måte å lagre data på"
+        "Forsøk på å sende reklame til mange e-postadresser",
+        "Metode for å kryptere passord før de lagres",
+        "Varsel om at kontoens passord bør byttes"
       ],
       "correct": 0,
       "explain": "Ofte via falske e-poster eller SMS."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvordan påvirker automatisering arbeidslivet?",
       "options": [
-        "Ingen yrker endres",
-        "Noen oppgaver forsvinner, nye oppstår, og behovet for digital kompetanse øker",
-        "Alle mister jobben",
-        "Bare IT-yrker påvirkes"
+        "De fleste oppgaver blir uendret, og digital kompetanse får samme betydning",
+        "Noen oppgaver forsvinner, nye oppstår og digital kompetanse blir viktigere",
+        "Oppgaver blir raskere utført, men yrker endres lite og digital kompetanse blir mindre viktig",
+        "Arbeidsplasser endres, men nye oppgaver oppstår sjelden og digital kompetanse får mindre betydning"
       ],
       "correct": 1,
       "explain": "Livslang læring blir viktigere."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak motvirker digitalt utenforskap?",
         "options": [
-          "Fjerne alle skranker",
+          "Krav om digitale løsninger og selvbetjening i alle tjenester",
           "Universell utforming og tilbud om hjelp",
-          "Kreve at alle bruker samme app",
-          "Høyere priser på internett"
+          "Flere funksjoner og avanserte valg i tjenestene",
+          "Redusert tilgang til hjelp og færre alternative løsninger"
         ],
         "correct": 1,
         "explain": "Tjenestene må kunne brukes av flest mulig."
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på kritisk infrastruktur?",
         "options": [
-          "Strømnettet",
-          "Et dataspill",
-          "En privat blogg",
-          "En musikkstrømmetjeneste"
+          "Det nasjonale strømnettet",
+          "En privat nettside",
+          "En spillplattform på nett",
+          "En musikkapp på mobilen"
         ],
         "correct": 0,
         "explain": "Også sykehus og vannforsyning.",
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvordan kan du redusere miljøbelastningen fra elektronikk?",
         "options": [
-          "Kjøpe ny mobil hvert år",
-          "Kaste utstyr i restavfallet",
-          "Reparere og bruke utstyret lenger",
-          "Lade mobilen oftere"
+          "Bytte ut utstyret før det blir gammelt",
+          "Kaste ødelagt utstyr i vanlig restavfall",
+          "Reparere utstyret og bruke det over lengre tid",
+          "La utstyr stå påslått når det ikke brukes"
         ],
         "correct": 2,
         "explain": "Produksjon krever mye ressurser."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

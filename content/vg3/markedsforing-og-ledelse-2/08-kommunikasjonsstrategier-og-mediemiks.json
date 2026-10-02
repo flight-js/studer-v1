@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er et affektivt kommunikasjonsmål?",
       "options": [
-        "Å skape kjennskap",
+        "Å øke kjennskapen til merkevaren",
         "Å skape positive holdninger og preferanse",
-        "Å få kunden til å kjøpe",
-        "Å øke prisen"
+        "Å få målgruppen til å kjøpe produktet",
+        "Å formidle produktinformasjon til målgruppen"
       ],
       "correct": 1,
       "explain": "Følelser og holdninger."
@@ -88,9 +88,9 @@
       "text": "Hva står E-en i PESO for?",
       "options": [
         "Earned – fortjente medier",
-        "Email",
-        "Event",
-        "Export"
+        "Email – e-postmarkedsføring",
+        "Events – arrangementer",
+        "Engagement – brukerengasjement"
       ],
       "correct": 0,
       "explain": "Omtale og deling."
@@ -99,22 +99,22 @@
       "id": "q03",
       "text": "Hva er dekning i mediemiksen?",
       "options": [
-        "Hvor mye kampanjen koster",
-        "Hvor mange ganger en person nås",
+        "Andelen av målgruppen som nås flere ganger i kampanjeperioden",
+        "Antallet personer i målgruppen som husker budskapet etter kampanjen",
         "Andelen av målgruppen som nås minst én gang",
-        "Hvor lenge kampanjen varer"
+        "Andelen av kampanjebudsjettet som brukes på det valgte mediet"
       ],
       "correct": 2,
-      "explain": "Frekvens er antall ganger."
+      "explain": "Dekning handler om hvor stor del av målgruppen som nås. Frekvens handler om hvor mange ganger de nås."
     },
     {
       "id": "q04",
       "text": "Hva er integrert markedskommunikasjon?",
       "options": [
-        "Kommunikasjon bare på TV",
-        "Ulike budskap i hver kanal",
-        "Kommunikasjon bare internt",
-        "Konsistent budskap og uttrykk i alle kanaler"
+        "Samme budskap og uttrykk i én enkelt kanal",
+        "Samordnet budskap, men motstridende uttrykk på tvers av kanaler",
+        "Ulike hovedbudskap og uttrykk i hver kanal",
+        "Konsistent budskap og uttrykk på tvers av kanaler"
       ],
       "correct": 3,
       "explain": "Kanalene forsterker hverandre."
@@ -124,9 +124,9 @@
       "text": "Hva måler CPM?",
       "options": [
         "Kostnad per tusen kontakter",
-        "Antall klikk",
-        "Antall salg",
-        "Kundetilfredshet"
+        "Kostnad per tusen klikk",
+        "Kostnad per tusen salg",
+        "Kostnad per tusen konverteringer"
       ],
       "correct": 0,
       "explain": "Kontaktpris."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er et konativt mål?",
       "options": [
-        "Kjennskap",
+        "Å øke kundens kjennskap til produktet",
         "Å få kunden til å handle",
-        "Holdningsendring",
-        "Preferanse"
+        "Å endre kundens holdning til merkevaren",
+        "Å styrke kundens preferanse for produktet"
       ],
       "correct": 1,
       "explain": "Kjøpe, laste ned eller melde seg på."
@@ -147,21 +147,21 @@
       "id": "q07",
       "text": "Hva må påvirkere gjøre med betalt innhold?",
       "options": [
-        "Skjule det",
-        "Slette det",
-        "Merke det tydelig som reklame",
-        "Sende det til Stortinget"
+        "Merke innholdet som et personlig tips",
+        "Merke innholdet som redaksjonell omtale",
+        "Merke innholdet tydelig som reklame",
+        "Opplyse om reklamen i en separat melding"
       ],
       "correct": 2,
-      "explain": "Skjult reklame er forbudt."
+      "explain": "Reklame skal være tydelig identifiserbar som reklame."
     },
     {
       "id": "q08",
       "text": "Hva er owned media?",
       "options": [
-        "Betalte annonser",
-        "Omtale i avisen",
-        "Delinger fra brukere",
+        "Kjøpte kanaler som bannerannonser og søkeannonser",
+        "Fortjente kanaler som presseomtale og anmeldelser",
+        "Delte kanaler som brukernes innlegg og anbefalinger",
         "Egne kanaler som nettside og nyhetsbrev"
       ],
       "correct": 3,
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hva er programmatisk annonsering?",
       "options": [
-        "Automatisk kjøp av annonseplass rettet mot profiler",
-        "TV-reklame",
-        "Plakater",
-        "Radioreklame"
+        "Automatisk kjøp av annonseplass målrettet mot brukerprofiler",
+        "Manuelt kjøp av annonseplass direkte fra mediehus",
+        "Automatisk produksjon av reklameinnhold til ulike målgrupper",
+        "Automatisk utsending av e-post til kundelister"
       ],
       "correct": 0,
       "explain": "Datadrevet."
@@ -183,13 +183,13 @@
       "id": "q10",
       "text": "Hvilket valg må man ofte ta innenfor et gitt budsjett?",
       "options": [
-        "Mellom logo og farge",
+        "Mellom annonsefarger og skrifttyper",
         "Mellom høy dekning og høy frekvens",
-        "Mellom pris og produkt",
-        "Mellom leder og ansatt"
+        "Mellom produktnavn og slagord",
+        "Mellom kampanjens logo og bildebruk"
       ],
       "correct": 1,
-      "explain": "Begge koster penger."
+      "explain": "Et gitt budsjett setter grenser for hvor bredt og hvor ofte målgruppen kan nås."
     }
   ],
   "mindmap": {
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hva er en emosjonell appell?",
         "options": [
-          "En tabell med fakta",
+          "Produktdata eller egenskaper i reklamen",
           "Humor eller glede i reklamen",
-          "En pris",
-          "En garanti"
+          "Prisopplysninger eller tilbud i reklamen",
+          "Bruksanvisning eller vilkår i reklamen"
         ],
         "correct": 1,
         "explain": "Spiller på følelser."
@@ -324,22 +324,22 @@
         "text": "Hva er frekvens?",
         "options": [
           "Hvor mange ganger hver person i snitt nås",
-          "Hvor mange som nås",
-          "Hva kampanjen koster",
-          "Når kampanjen går"
+          "Hvor stor andel av målgruppen som nås minst én gang",
+          "Hvor mange personer i målgruppen som ser kampanjen",
+          "Hvor stor del av budsjettet som brukes per kontakt"
         ],
         "correct": 0,
-        "explain": "Gjentakelse."
+        "explain": "Frekvens handler om gjentakelse."
       },
       {
         "id": "m07",
         "type": "flervalg",
         "text": "Hva bør siste steg i en kampanjeplan være?",
         "options": [
-          "Velge logo",
-          "Ansette flere",
-          "Måling og evaluering",
-          "Endre visjonen"
+          "Valg av målgruppe og kommunikasjonsbudskap",
+          "Utforming av mediemiks og kanalplan",
+          "Måling av resultater og evaluering av måloppnåelse",
+          "Produksjon av annonser og kampanjemateriell"
         ],
         "correct": 2,
         "explain": "Nådde vi målene?"
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

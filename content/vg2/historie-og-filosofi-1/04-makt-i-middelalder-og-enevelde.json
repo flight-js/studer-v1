@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva var føydalisme?",
       "options": [
-        "Et demokratisk system",
-        "Et system der jord (len) ble gitt mot troskap og militær hjelp",
-        "Et handelssystem",
-        "En religion"
+        "Et system der varer ble byttet mot penger og handelsrettigheter",
+        "Et system der jord ble gitt mot troskap og militær hjelp",
+        "Et system der konger ble valgt av folket gjennom regelmessige valg",
+        "Et system der prester styrte samfunnet etter kirkens religiøse regler"
       ],
       "correct": 1,
       "explain": "Kongen, vasaller og bønder."
@@ -92,9 +92,9 @@
       "text": "Hva slo Magna Carta fast i 1215?",
       "options": [
         "At også kongen måtte følge loven",
-        "At alle fikk stemmerett",
-        "At kirken skulle avskaffes",
-        "At Norge ble selvstendig"
+        "At kongen skulle velges av landets innbyggere",
+        "At kirken skulle styres av kongen i stedet for paven",
+        "At adelen skulle bestemme landets lover uten kongen"
       ],
       "correct": 0,
       "explain": "Et symbol på rettsstat."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hvordan ble eneveldet begrunnet?",
       "options": [
-        "Med folkets vilje",
-        "Med økonomisk vekst",
-        "Med valg",
+        "Med at kongen hadde makten fra folket",
+        "Med at kongen hadde makten fra adelen",
+        "Med at kongen hadde makten gjennom valg",
         "Med at kongen hadde makten fra Gud"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva blir den westfalske freden i 1648 ofte regnet som starten på?",
       "options": [
         "Et system av suverene stater",
-        "Demokratiet",
-        "Føydalismen",
-        "Kalmarunionen"
+        "Et system av føydale len",
+        "Et system av selvstyrte byer",
+        "Et system av kristne riker"
       ],
       "correct": 0,
       "explain": "Stater bestemmer innenfor egne grenser.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva handlet investiturstriden om?",
       "options": [
-        "Skatt på korn",
+        "Retten til å kreve inn kirkeskatt",
         "Retten til å utnevne biskoper",
-        "Grensen mellom Norge og Sverige",
-        "Handel med silke"
+        "Retten til å krone keiseren",
+        "Retten til å eie kirkens jord"
       ],
       "correct": 1,
       "explain": "Strid mellom pave og keiser.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva skjedde på Stiklestad i 1030?",
       "options": [
-        "Norge fikk grunnlov",
-        "Kalmarunionen startet",
-        "Olav Haraldsson falt og ble senere helgen",
-        "Magna Carta ble undertegnet"
+        "I 1030 falt Olav Tryggvason ved Stiklestad og ble senere helgen",
+        "I 1030 falt Harald Hardråde ved Stiklestad og ble senere helgen",
+        "I 1030 falt Olav Haraldsson ved Stiklestad og ble senere helgen",
+        "I 1030 falt Olav Haraldsson ved Stamford Bridge og ble senere helgen"
       ],
       "correct": 2,
       "explain": "Styrket kristendommen og kongemakten."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva er statsdanning?",
       "options": [
-        "Å lage et flagg",
-        "Å bygge et slott",
-        "Å skrive en bok",
+        "At en lokal makt får kontroll over et territorium",
+        "At en sentral makt får kontroll over en handelsrute",
+        "At et folk utvikler en felles identitet innenfor et territorium",
         "At en sentral makt får kontroll over et territorium"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hvilken endring i maktstrukturene skjedde fra middelalder til enevelde?",
       "options": [
         "Makten gikk fra å være spredt til å bli samlet i staten",
-        "Makten ble spredt på flere",
-        "Kirken fikk all makt",
-        "Bøndene fikk makten"
+        "Makten gikk fra å være samlet til å bli spredt mellom lokale herrer",
+        "Makten gikk fra å være spredt mellom lokale herrer til å bli samlet i kirken",
+        "Makten gikk fra å være samlet i staten til å bli delt mellom kirken og adelen"
       ],
       "correct": 0,
       "explain": "Byråkrati, skatter og stående hærer."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hvilke tre stender beskrev middelaldersamfunnet?",
       "options": [
-        "Konger, prester og kjøpmenn",
+        "De som styrer, de som handler og de som dyrker jorda",
         "De som ber, de som kjemper og de som arbeider",
-        "Adel, borgere og slaver",
-        "Bønder, fiskere og håndverkere"
+        "De som eier jord, de som driver handel og de som betaler skatt",
+        "De som bygger byer, de som styrer kirken og de som fører krig"
       ],
       "correct": 1,
       "explain": "Ordningen ble begrunnet som gudgitt."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hvilken fransk konge er kjent som et symbol på eneveldet?",
         "options": [
-          "Karl den store",
+          "Ludvig 13.",
           "Ludvig 14.",
-          "Napoleon",
-          "Frans 1."
+          "Ludvig 15.",
+          "Filip 4."
         ],
         "correct": 1,
         "explain": "Styrte fra Versailles.",
@@ -334,9 +334,9 @@
         "text": "Hva ga Magnus Lagabøte Norge i 1274?",
         "options": [
           "En felles landslov",
-          "En grunnlov",
-          "En ny religion",
-          "Et parlament"
+          "En felles grunnlov",
+          "En felles skattelov",
+          "En felles arvelov"
         ],
         "correct": 0,
         "explain": "Derav tilnavnet Lagabøte.",
@@ -347,8 +347,8 @@
         "type": "flervalg",
         "text": "Hvilken union gikk Norge inn i i 1397?",
         "options": [
-          "EU",
-          "Unionen med Sverige",
+          "Unionen mellom Danmark og Norge",
+          "Unionen mellom Sverige og Norge",
           "Kalmarunionen",
           "Hansaforbundet"
         ],
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

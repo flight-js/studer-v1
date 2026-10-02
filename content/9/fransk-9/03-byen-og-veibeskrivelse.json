@@ -80,9 +80,9 @@
       "id": "q01",
       "text": "Hva er «la gare»?",
       "options": [
-        "Flyplassen",
+        "Busstasjonen",
         "Jernbanestasjonen",
-        "Garasjen",
+        "Flyplassen",
         "Havnen"
       ],
       "correct": 1,
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hvordan spør du om veien til museet?",
       "options": [
-        "Tu habites où ?",
-        "Le musée est beau ?",
+        "Pour aller à la musée, s'il vous plaît ?",
+        "Pour aller à le musée, s'il vous plaît ?",
         "Pour aller au musée, s'il vous plaît ?",
-        "Combien coûte le musée ?"
+        "Pour aller aux musée, s'il vous plaît ?"
       ],
       "correct": 2,
       "explain": "Dette er en vanlig og høflig måte å spørre på."
@@ -117,7 +117,7 @@
       "text": "Hva er «la pharmacie»?",
       "options": [
         "Apoteket",
-        "Gården",
+        "Bakeriet",
         "Biblioteket",
         "Banken"
       ],
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hvorfor heter det «au musée», men «à la gare»?",
       "options": [
-        "Fordi museet er større",
-        "Fordi «musée» er hankjønn og «gare» hunkjønn",
-        "Fordi gare er et sted",
-        "Det er tilfeldig"
+        "Fordi «musée» er hunkjønn, mens «gare» er hankjønn",
+        "Fordi «musée» er hankjønn, mens «gare» er hunkjønn",
+        "Fordi «musée» og «gare» er hankjønn",
+        "Fordi «musée» og «gare» er hunkjønn"
       ],
       "correct": 1,
       "explain": "à + le blir au, mens à + la ikke endres."
@@ -140,9 +140,9 @@
       "id": "q06",
       "text": "Hva betyr «Tournez à droite au feu»?",
       "options": [
-        "Gå rett fram ved lyskrysset",
-        "Stopp ved lyskrysset",
-        "Snu ved brua",
+        "Ta til venstre ved lyskrysset",
+        "Ta til høyre ved rundkjøringen",
+        "Ta til venstre ved brua",
         "Ta til høyre ved lyskrysset"
       ],
       "correct": 3,
@@ -155,7 +155,7 @@
         "Til fots",
         "Med bil",
         "Med sykkel",
-        "Med tog"
+        "Med buss"
       ],
       "correct": 0,
       "explain": "«le pied» betyr foten."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva betyr «en face de»?",
       "options": [
-        "Bak",
-        "Under",
+        "Ved siden av",
+        "Foran",
         "Overfor",
-        "Ved siden av"
+        "Bak"
       ],
       "correct": 2,
       "explain": "Ved siden av heter «à côté de»."
@@ -176,9 +176,9 @@
       "id": "q09",
       "text": "Hva sier du hvis du ikke forstod veibeskrivelsen?",
       "options": [
-        "Au revoir !",
-        "Bon appétit !",
-        "Merci beaucoup !",
+        "Vous pouvez expliquer, s'il vous plaît ?",
+        "Vous pouvez traduire, s'il vous plaît ?",
+        "Vous pouvez attendre, s'il vous plaît ?",
         "Vous pouvez répéter, s'il vous plaît ?"
       ],
       "correct": 3,
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er «la mairie»?",
       "options": [
-        "Havet",
+        "Politistasjonen",
         "Rådhuset",
-        "Kirken",
-        "Markedet"
+        "Biblioteket",
+        "Postkontoret"
       ],
       "correct": 1,
       "explain": "«le maire» betyr ordføreren."
@@ -329,8 +329,8 @@
         "options": [
           "C'est loin ?",
           "C'est où ?",
-          "C'est quoi ?",
-          "C'est ici ?"
+          "C'est ouvert ?",
+          "C'est à gauche ?"
         ],
         "correct": 0,
         "explain": "«loin» betyr langt unna."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva er «l'arrêt de bus»?",
         "options": [
-          "Bussjåføren",
+          "Bussterminalen",
           "Bussholdeplassen",
-          "Busskortet",
-          "Bussen"
+          "Bussjåføren",
+          "Bussbilletten"
         ],
         "correct": 1,
         "explain": "«arrêter» betyr å stoppe."
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Prenez la deuxième rue à gauche»?",
         "options": [
-          "Ta den første gata til høyre",
-          "Gå to kvartaler rett fram",
+          "Ta den andre gata til høyre",
+          "Ta den første gata til venstre",
           "Ta den andre gata til venstre",
-          "Kryss gata to ganger"
+          "Ta den tredje gata til venstre"
         ],
         "correct": 2,
         "explain": "«deuxième» betyr andre."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

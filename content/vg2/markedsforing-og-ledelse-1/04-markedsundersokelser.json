@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er sekundærdata?",
       "options": [
-        "Data man samler inn selv",
+        "Informasjon hentet direkte fra kunder",
         "Informasjon som allerede finnes",
-        "Data fra fokusgrupper",
-        "Data fra eksperimenter"
+        "Informasjon samlet inn gjennom eksperimenter",
+        "Informasjon innhentet fra fokusgrupper"
       ],
       "correct": 1,
       "explain": "For eksempel statistikk fra SSB."
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "Hvilken metode er kvalitativ?",
       "options": [
-        "Fokusgruppe",
-        "Spørreundersøkelse med 1000 svar",
-        "A/B-testing",
-        "Salgsstatistikk"
+        "Samtale i en liten gruppe",
+        "Spørreundersøkelse med mange deltakere",
+        "Test av to reklamevarianter",
+        "Oversikt over registrert salg"
       ],
       "correct": 0,
       "explain": "Gir dybde og forståelse."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva er A/B-testing?",
       "options": [
-        "Et dybdeintervju",
-        "En prisstrategi",
+        "At kunder intervjues om sine valg",
+        "At prisen settes ut fra kostnadene",
         "At to versjoner testes mot hverandre",
-        "En type segmentering"
+        "At kunder deles inn etter behov"
       ],
       "correct": 2,
       "explain": "Et eksperiment.",
@@ -118,9 +118,9 @@
       "id": "q04",
       "text": "Hva er et representativt utvalg?",
       "options": [
-        "Bare venner",
-        "Bare de som vil svare",
-        "Alle i populasjonen",
+        "Et utvalg av frivillige deltakere",
+        "Et utvalg fra én bestemt aldersgruppe",
+        "Et utvalg av lett tilgjengelige kunder",
         "Et utvalg som ligner populasjonen"
       ],
       "correct": 3,
@@ -130,10 +130,10 @@
       "id": "q05",
       "text": "Hva er galt med spørsmålet «Er ikke produktet vårt bra?»?",
       "options": [
-        "Det er ledende",
-        "Det er for kort",
-        "Det er kvalitativt",
-        "Det har svaralternativer"
+        "Det er et ledende spørsmål",
+        "Det er et åpent spørsmål",
+        "Det er et nøytralt spørsmål",
+        "Det er et dobbelt spørsmål"
       ],
       "correct": 0,
       "explain": "Det styrer mot et bestemt svar."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva er en fordel med primærdata?",
       "options": [
-        "De er alltid billige",
-        "De er tilpasset problemstillingen",
-        "De finnes allerede",
-        "De krever ingen planlegging"
+        "De er hentet fra tidligere undersøkelser",
+        "De er innsamlet spesielt for problemstillingen",
+        "De er tilgjengelige i publiserte rapporter",
+        "De er samlet inn av andre virksomheter"
       ],
       "correct": 1,
       "explain": "Men de tar mer tid og koster mer."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hva er frafall?",
       "options": [
-        "At prisen faller",
-        "At produktet går ut av salg",
-        "At noen ikke svarer",
-        "At utvalget er for stort"
+        "At noen i utvalget svarer flere ganger",
+        "At noen i utvalget velger feil svaralternativ",
+        "At noen i utvalget lar være å svare",
+        "At noen i utvalget blir byttet ut med andre"
       ],
       "correct": 2,
       "explain": "Kan gi skjeve resultater."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hvilket regelverk gjelder ved innsamling av personopplysninger?",
       "options": [
-        "Arbeidsmiljøloven",
-        "Arveloven",
-        "Barneloven",
+        "Markedsføringsloven",
+        "Forbrukerkjøpsloven",
+        "Åndsverkloven",
         "Personvernregelverket (GDPR)"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva er en svakhet ved digitale kundedata?",
       "options": [
         "De viser hva kundene gjør, men ikke alltid hvorfor",
-        "De er alltid feil",
-        "De er ulovlige",
-        "De er for få"
+        "De viser hva kundene mener, men ikke hva de gjør",
+        "De forklarer hvorfor kundene handler, men viser ikke handlingene deres",
+        "De viser hva kundene kjøper, men ikke hvor de handler"
       ],
       "correct": 0,
       "explain": "Kvalitative metoder kan gi forklaringene."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva bør du gjøre før du sender ut et spørreskjema?",
       "options": [
-        "Gjøre det så langt som mulig",
+        "Legge inn flest mulig spørsmål i skjemaet",
         "Teste det på noen få",
-        "Bruke ledende spørsmål",
-        "Sende det bare til venner"
+        "Sende det ut uten å prøve spørsmålene først",
+        "Velge spørsmål som gir ønskede svar"
       ],
       "correct": 1,
       "explain": "Da oppdager du uklare spørsmål."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hvilken metode passer best for å forstå hvorfor kunder velger bort et produkt?",
         "options": [
-          "Salgsstatistikk",
-          "Dybdeintervjuer",
-          "Nettstatistikk",
-          "Befolkningsstatistikk"
+          "Oversikt over registrert salg i butikk",
+          "Grundige intervjuer med enkeltkunder",
+          "Måling av besøk på bedriftens nettside",
+          "Statistikk over befolkningens alder og bosted"
         ],
         "correct": 1,
         "explain": "Kvalitative metoder gir forklaringer."
@@ -335,9 +335,9 @@
         "text": "Hva er en populasjon i en markedsundersøkelse?",
         "options": [
           "Alle i gruppen man vil vite noe om",
-          "De som svarer",
-          "Konkurrentene",
-          "De ansatte"
+          "Personene i utvalget som svarer på undersøkelsen",
+          "Bedriftene som tilbyr lignende produkter i markedet",
+          "Personene som arbeider i virksomheten som undersøkes"
         ],
         "correct": 0,
         "explain": "Utvalget er de som faktisk blir spurt."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva er sosial ønskverdighet?",
         "options": [
-          "At kunder er sosiale",
-          "At produkter er populære",
+          "At folk svarer ut fra det de husker om kjøpet",
+          "At folk misforstår spørsmålet på grunn av uklare ord",
           "At folk svarer det som virker riktig eller akseptert",
-          "At utvalget er stort"
+          "At folk endrer mening etter å ha sett andres svar"
         ],
         "correct": 2,
         "explain": "En feilkilde.",
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

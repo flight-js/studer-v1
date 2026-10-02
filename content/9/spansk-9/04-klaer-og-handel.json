@@ -85,9 +85,9 @@
       "text": "Hva betyr «la falda»?",
       "options": [
         "Skjørtet",
-        "Buksa",
-        "Jakka",
-        "Sokkene"
+        "Kjolen",
+        "Genseren",
+        "Blusen"
       ],
       "correct": 0,
       "explain": "Buksa heter «los pantalones»."
@@ -96,10 +96,10 @@
       "id": "q02",
       "text": "Hvordan spør du hva noe koster?",
       "options": [
-        "¿Dónde está?",
-        "¿Qué es?",
+        "¿Qué talla tiene?",
+        "¿De qué color es?",
         "¿Cuánto cuesta?",
-        "¿Quién es?"
+        "¿Dónde está la caja?"
       ],
       "correct": 2,
       "explain": "«cuánto» betyr hvor mye."
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hva betyr «¿Puedo probármelo?»?",
       "options": [
-        "Kan jeg kjøpe den?",
+        "Kan jeg kjøpe den nå?",
         "Kan jeg prøve den på?",
-        "Kan jeg levere den tilbake?",
-        "Kan jeg få rabatt?"
+        "Kan jeg bytte den senere?",
+        "Kan jeg få rabatt på den?"
       ],
       "correct": 1,
       "explain": "«probarse» betyr å prøve på seg."
@@ -122,7 +122,7 @@
       "options": [
         "Det er for stort",
         "Det er for lite",
-        "Det er for billig",
+        "Det er for langt",
         "Det er for dyrt"
       ],
       "correct": 3,
@@ -145,9 +145,9 @@
       "text": "Hva betyr «¿Qué talla usa?»?",
       "options": [
         "Hvilken størrelse bruker De?",
-        "Hvilken farge liker De?",
-        "Hvor mye penger har De?",
-        "Hvor høy er De?"
+        "Hvilken farge ønsker De?",
+        "Hvilken størrelse liker De?",
+        "Hvilken type sko bruker De?"
       ],
       "correct": 0,
       "explain": "«la talla» betyr størrelsen."
@@ -157,8 +157,8 @@
       "text": "Du vil kjøpe skjørtet (la falda). Hva sier du?",
       "options": [
         "Me lo llevo.",
+        "Me las llevo.",
         "Me los llevo.",
-        "Me le llevo.",
         "Me la llevo."
       ],
       "correct": 3,
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "Hva er «las rebajas»?",
       "options": [
-        "Kassene",
-        "Utsalget",
         "Prøverommet",
-        "Skoene"
+        "Utsalget",
+        "Klesbutikken",
+        "Kassaapparatet"
       ],
       "correct": 1,
       "explain": "Store utsalg er vanlig i januar og juli."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva betyr «barato»?",
       "options": [
-        "Dyr",
-        "Pen",
+        "Dyrt",
+        "Pent",
         "Billig",
-        "Stor"
+        "Stort"
       ],
       "correct": 2,
       "explain": "Dyr heter «caro»."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hva heter prøverommet på spansk?",
         "options": [
-          "la caja",
+          "el mostrador",
           "el probador",
-          "la talla",
-          "el escaparate"
+          "el escaparate",
+          "el almacén"
         ],
         "correct": 1,
         "explain": "«probar» betyr å prøve."
@@ -343,9 +343,9 @@
         "text": "Hva betyr «¡Te queda muy bien!»?",
         "options": [
           "Det kler deg veldig godt!",
-          "Den er for liten!",
-          "Den er dyr!",
-          "Den er min!"
+          "Den er litt for stor for deg!",
+          "Den er litt for liten for deg!",
+          "Den passer ikke så godt!"
         ],
         "correct": 0,
         "explain": "Du sier det når noe passer noen godt."
@@ -355,10 +355,10 @@
         "type": "flervalg",
         "text": "Hvordan leser du prisen 29,99 €?",
         "options": [
-          "dos nueve nueve nueve euros",
-          "veintinueve coma nueve nueve",
-          "veintinueve euros con noventa y nueve",
-          "treinta euros"
+          "veintinueve euros con noventa y ocho céntimos",
+          "veintinueve euros con noventa céntimos",
+          "veintinueve euros con noventa y nueve céntimos",
+          "veintinueve euros con nueve céntimos"
         ],
         "correct": 2,
         "explain": "Først eurobeløpet, så «con» og centene."
@@ -446,6 +446,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

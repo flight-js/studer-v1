@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er diffusjon?",
       "options": [
-        "At kultur forsvinner",
+        "Overføring av kulturelle tradisjoner mellom generasjoner",
         "Spredning av kulturelle elementer mellom kulturer",
-        "At kultur blir arvelig",
-        "At et land lukker grensene"
+        "Utbredelse av kulturelle skikker innenfor ett samfunn",
+        "Tilpasning av kulturelle skikker til nye omgivelser"
       ],
       "correct": 1,
       "explain": "For eksempel musikk og mat."
@@ -90,9 +90,9 @@
       "text": "Hva er hybridisering?",
       "options": [
         "Blanding av kulturelle elementer til noe nytt",
-        "At alle kulturer blir like",
-        "At en kultur dør ut",
-        "At en kultur holdes uendret"
+        "Spredning av kulturelle elementer mellom samfunn",
+        "Gradvis reduksjon av kulturelle forskjeller mellom samfunn",
+        "Videreføring av kulturelle tradisjoner uten endring"
       ],
       "correct": 0,
       "explain": "For eksempel K-pop."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva var fornorskningen?",
       "options": [
-        "Norsk språkopplæring for turister",
-        "En integreringspolitikk",
+        "Norsk integreringspolitikk overfor samer og kvener",
+        "Norsk opplæringspolitikk for samer og kvener",
         "Norsk assimileringspolitikk overfor samer og kvener",
-        "En kulturfestival"
+        "Norsk kulturvernpolitikk for samer og kvener"
       ],
       "correct": 2,
       "explain": "Minoritetene skulle bli lik majoriteten."
@@ -113,22 +113,22 @@
       "id": "q04",
       "text": "Hva er forskjellen på integrering og assimilering?",
       "options": [
-        "Det er det samme",
-        "Assimilering betyr å leve atskilt",
-        "Integrering betyr å gi opp egen kultur",
-        "Integrering innebærer deltakelse mens man beholder deler av egen kultur"
+        "Integrering og assimilering gir deltakelse uten krav om kulturell endring.",
+        "Integrering innebærer å leve atskilt, mens assimilering gir deltakelse i samfunnet.",
+        "Integrering krever at egen kultur oppgis, mens assimilering åpner for å bevare den.",
+        "Integrering gir deltakelse samtidig som deler av egen kultur beholdes."
       ],
       "correct": 3,
-      "explain": "Assimilering betyr å bli lik majoriteten."
+      "explain": "Assimilering innebærer tilpasning til majoritetskulturen, mens integrering gir rom for å beholde deler av egen kultur."
     },
     {
       "id": "q05",
       "text": "Hva er interkulturell kompetanse?",
       "options": [
-        "Evnen til god samhandling med mennesker med annen bakgrunn",
-        "Å kunne mange språk",
-        "Å ha reist mye",
-        "Å kjenne alle kulturer"
+        "Evne til å samhandle godt med mennesker med annen bakgrunn",
+        "Evne til å kommunisere godt på flere språk",
+        "Evne til å kjenne mange ulike kulturer",
+        "Evne til å reise og møte mennesker fra andre land"
       ],
       "correct": 0,
       "explain": "Kunnskap, holdninger og ferdigheter."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva hevder de som snakker om homogenisering?",
       "options": [
-        "At kulturer blandes til noe nytt",
+        "At verden får større kulturelt mangfold gjennom globalisering",
         "At verden blir likere, ofte etter vestlig mønster",
-        "At kulturer aldri endres",
-        "At lokale tradisjoner blir sterkere"
+        "At kulturelle uttrykk blandes og skaper nye former",
+        "At lokale kulturer blir mer selvstendige fra vestlig påvirkning"
       ],
       "correct": 1,
       "explain": "Et syn på globaliseringens virkninger."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvilken er en mulighet ved kulturelt mangfold?",
       "options": [
-        "Mer diskriminering",
-        "Språkbarrierer",
-        "Nye perspektiver, ideer og kompetanse",
-        "Segregering"
+        "Større avstand mellom grupper og mindre kontakt",
+        "Flere misforståelser mellom mennesker med ulik bakgrunn",
+        "Tilgang til nye perspektiver, ideer og relevant kompetanse",
+        "Økt konkurranse mellom ulike språk og tradisjoner"
       ],
       "correct": 2,
       "explain": "Mangfold kan gi innovasjon."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvorfor er kulturforståelse viktig i et demokrati?",
       "options": [
-        "Fordi alle må mene det samme",
-        "Fordi det gjør valg unødvendige",
-        "Fordi det fjerner all uenighet",
+        "Fordi felles verdier gjør samtaler mellom ulike grupper mindre nødvendige",
+        "Fordi kulturell enighet gjør det lettere å ta beslutninger uten debatt",
+        "Fordi kjennskap til andre kulturer gir representanter samme politiske syn",
         "Fordi innbyggere med ulike verdier må kunne snakke sammen og finne felles løsninger"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva sikrer at kulturer er stabile?",
       "options": [
         "Sosialisering, tradisjoner og institusjoner",
-        "Globalisering",
-        "Migrasjon",
-        "Internett"
+        "Migrasjon, urbanisering og kulturell utveksling",
+        "Individuelle valg, nye trender og mediebruk",
+        "Turisme, handel og teknologisk utvikling"
       ],
       "correct": 0,
       "explain": "Kultur overføres mellom generasjoner."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er glokalisering?",
       "options": [
-        "At alt blir lokalt",
+        "At lokale produkter tilpasses globale markeder",
         "At globale produkter tilpasses lokale forhold",
-        "At lokale produkter forbys",
-        "At verden blir mindre"
+        "At globale produkter selges likt i mange land",
+        "At lokale tradisjoner erstatter internasjonale produkter"
       ],
       "correct": 1,
       "explain": "For eksempel menyer tilpasset hvert land.",
@@ -313,13 +313,13 @@
         "type": "flervalg",
         "text": "Hvilken er en nasjonal minoritet i Norge?",
         "options": [
-          "Samer",
+          "Islendinger",
           "Kvener",
-          "Svensker",
-          "Dansker"
+          "Polakker",
+          "Somaliere"
         ],
         "correct": 1,
-        "explain": "Samer er urfolk, ikke nasjonal minoritet.",
+        "explain": "Kvener er en av Norges fem nasjonale minoriteter; samer er urfolk.",
         "niva": "eksempel"
       },
       {
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva innebærer segregering?",
         "options": [
-          "At grupper lever atskilt",
-          "At alle blandes",
-          "At minoriteten blir lik majoriteten",
-          "At alle deltar likt"
+          "At ulike grupper i samfunnet lever atskilt fra hverandre",
+          "At ulike grupper i samfunnet deltar på like vilkår",
+          "At minoritetsgrupper i samfunnet tilpasser seg majoriteten",
+          "At ulike grupper i samfunnet blander kulturelle tradisjoner"
         ],
         "correct": 0,
         "explain": "Kan gi lite kontakt og mer fordommer."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvilken holdning hører til interkulturell kompetanse?",
         "options": [
-          "Likegyldighet",
-          "Mistenksomhet",
+          "Forsiktighet, avstand og tilbakeholdenhet",
+          "Mistenksomhet, skepsis og avvisning",
           "Nysgjerrighet, åpenhet og respekt",
-          "Overlegenhet"
+          "Likegyldighet, usikkerhet og uengasjement"
         ],
         "correct": 2,
         "explain": "Grunnlag for god samhandling."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,8 +78,8 @@
       "options": [
         "Masse ganger akselerasjon",
         "Masse ganger fart",
-        "Kraft ganger vei",
-        "Fart delt på tid"
+        "Kraft ganger tid",
+        "Kraft delt på fart"
       ],
       "correct": 1,
       "explain": "p = m · v."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva kjennetegner et fullstendig elastisk støt?",
       "options": [
-        "Legemene henger sammen",
-        "Bare energien er bevart",
-        "Ingenting er bevart",
+        "Bevegelsesmengden er bevart, men kinetisk energi går tapt",
+        "Kinetisk energi er bevart, men bevegelsesmengden går tapt",
+        "Legemene henger sammen etter støtet",
         "Både bevegelsesmengde og kinetisk energi er bevart"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvorfor reduserer en kollisjonspute skadene?",
       "options": [
-        "Den øker tiden for stansen, slik at kraften blir mindre",
-        "Den øker farten",
-        "Den fjerner bevegelsesmengden",
-        "Den øker massen"
+        "Den øker stanstiden og reduserer kraften",
+        "Den reduserer stanstiden og reduserer kraften",
+        "Den øker stanstiden og øker kraften",
+        "Den reduserer bevegelsesmengdeendringen og kraften"
       ],
       "correct": 0,
       "explain": "F = Δp / Δt."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Når er bevegelsesmengden bevart?",
       "options": [
-        "Alltid for hvert legeme",
+        "I et system med netto ytre kraft",
         "I et isolert system",
-        "Bare i elastiske støt",
-        "Bare når farten er null"
+        "Når systemet består av legemer i ro",
+        "Når farten til ett legeme er null"
       ],
       "correct": 1,
       "explain": "Ytre krefter må kunne ses bort fra."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "En kule på 0,010 kg skytes ut med 400 m/s fra et gevær på 4,0 kg. Hva blir rekylfarten?",
       "options": [
-        "4,0 m/s",
-        "0,10 m/s",
+        "4,0 m/s motsatt vei",
+        "0,10 m/s motsatt vei",
         "1,0 m/s motsatt vei",
-        "400 m/s"
+        "400 m/s motsatt vei"
       ],
       "correct": 2,
       "explain": "0,010 · 400 / 4,0."
@@ -173,9 +173,9 @@
       "text": "Hvilken lov ligger bak bevaring av bevegelsesmengde?",
       "options": [
         "Newtons 3. lov",
-        "Ohms lov",
-        "Wiens lov",
-        "Hookes lov"
+        "Newtons 1. lov",
+        "Newtons 2. lov",
+        "Energibevaringsloven"
       ],
       "correct": 0,
       "explain": "Like store, motsatt rettede krefter."
@@ -186,8 +186,8 @@
       "options": [
         "kg·m/s²",
         "kg·m/s",
-        "J",
-        "W"
+        "kg·m²/s",
+        "N·m"
       ],
       "correct": 1,
       "explain": "Samme som N·s."
@@ -306,10 +306,10 @@
         "type": "flervalg",
         "text": "Hva er bevegelsesmengden til en bil på 1000 kg med fart 20 m/s?",
         "options": [
-          "50 kg·m/s",
+          "2 000 kg·m/s",
           "20 000 kg·m/s",
-          "200 000 kg·m/s",
-          "1020 kg·m/s"
+          "0,020 kg·m/s",
+          "1 000 kg·m/s"
         ],
         "correct": 1,
         "explain": "p = 1000 · 20."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hvorfor bøyer du knærne når du lander etter et hopp?",
         "options": [
-          "For å øke tiden stansen tar og redusere kraften",
-          "For å øke farten",
-          "For å øke bevegelsesmengden",
-          "For å hoppe høyere"
+          "For å øke stanstiden og redusere kraften",
+          "For å redusere stanstiden og redusere kraften",
+          "For å øke stanstiden og øke kraften",
+          "For å redusere bevegelsesmengdeendringen og kraften"
         ],
         "correct": 0,
         "explain": "F = Δp / Δt."
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hva er samlet bevegelsesmengde før et gevær avfyres?",
         "options": [
-          "Lik kulens",
-          "Lik geværets",
-          "Null",
-          "Uendelig"
+          "Den samlede bevegelsesmengden er lik kulens etter skuddet",
+          "Den samlede bevegelsesmengden er lik geværets etter skuddet",
+          "Den samlede bevegelsesmengden er null før skuddet",
+          "Den samlede bevegelsesmengden er lik summen av massene"
         ],
         "correct": 2,
         "explain": "Alt er i ro før skuddet."
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

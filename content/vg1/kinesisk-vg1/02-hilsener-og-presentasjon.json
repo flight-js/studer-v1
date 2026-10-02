@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hvordan sier du «Jeg heter Anna» på kinesisk?",
       "options": [
-        "我是叫安娜。",
+        "我姓安娜。",
         "我叫安娜。",
-        "你叫安娜。",
-        "我安娜叫。"
+        "我叫安妮。",
+        "你叫安娜。"
       ],
       "correct": 1,
       "explain": "我叫 + navn."
@@ -90,9 +90,9 @@
       "text": "Hva svarer du på 谢谢?",
       "options": [
         "不客气 bú kèqi",
-        "对不起 duìbuqǐ",
-        "再见 zàijiàn",
-        "你好 nǐ hǎo"
+        "早上好 zǎoshang hǎo",
+        "晚上好 wǎnshàng hǎo",
+        "再会 zàihuì"
       ],
       "correct": 0,
       "explain": "不客气 betyr ingen årsak."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvordan lager du et ja/nei-spørsmål på kinesisk?",
       "options": [
-        "Ved å bytte om på ordene",
-        "Ved å bøye verbet",
+        "Ved å sette 谁 til slutt",
+        "Ved å sette 哪儿 til slutt",
         "Ved å sette 吗 til slutt",
-        "Ved å sette 什么 først"
+        "Ved å sette 什么 til slutt"
       ],
       "correct": 2,
       "explain": "你是学生吗？ – Er du elev?"
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva betyr 我是挪威人?",
       "options": [
-        "Jeg bor i Norge.",
-        "Jeg liker Norge.",
-        "Jeg snakker norsk.",
+        "Jeg er svensk.",
+        "Jeg er dansk.",
+        "Jeg er kinesisk.",
         "Jeg er norsk."
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvilken hilsen er mest høflig til en eldre person?",
       "options": [
         "您好 nín hǎo",
-        "你好 nǐ hǎo",
-        "再见 zàijiàn",
-        "谢谢 xièxie"
+        "早上好 zǎoshang hǎo",
+        "晚上好 wǎnshàng hǎo",
+        "你们好 nǐmen hǎo"
       ],
       "correct": 0,
       "explain": "您 er den høflige formen av du."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "I navnet 王明 Wáng Míng – hva er etternavnet?",
       "options": [
-        "Míng",
-        "Begge",
+        "Lǐ",
+        "Zhāng",
         "Wáng",
-        "Ingen av dem"
+        "Zhào"
       ],
       "correct": 2,
       "explain": "Etternavnet står først på kinesisk."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva betyr 你呢？",
       "options": [
-        "Hva heter du?",
-        "Hvor bor du?",
-        "Hvor gammel er du?",
+        "Og han?",
+        "Og hun?",
+        "Og dere?",
         "Og du?"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hvordan spør du «Hva heter du?»",
       "options": [
         "你叫什么名字？",
-        "你是哪国人？",
-        "你几岁？",
-        "你好吗？"
+        "你住在哪里？",
+        "你来自哪里？",
+        "你家在哪儿？"
       ],
       "correct": 0,
       "explain": "Nǐ jiào shénme míngzi?"
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor bøyer man ikke verbet «是» etter person?",
       "options": [
-        "Fordi det er uregelmessig",
+        "Fordi kinesiske verb bøyes etter tid",
         "Fordi kinesiske verb ikke bøyes etter person",
-        "Fordi det bare brukes med 我",
-        "Det bøyes alltid"
+        "Fordi 是 får en egen form i spørsmål",
+        "Fordi 是 endres etter hvem du snakker med"
       ],
       "correct": 1,
       "explain": "我是, 你是 og 他是 har samme verbform."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvordan sier du «Jeg er seksten år»?",
         "options": [
-          "我十六是。",
+          "我今年十五岁。",
           "我今年十六岁。",
-          "我有十六。",
-          "我是十六岁人。"
+          "我今年十七岁。",
+          "我今年十八岁。"
         ],
         "correct": 1,
         "explain": "Wǒ jīnnián shíliù suì."
@@ -326,9 +326,9 @@
         "text": "Hva betyr 老师 lǎoshī?",
         "options": [
           "lærer",
-          "elev",
-          "venn",
-          "far"
+          "rektor",
+          "trener",
+          "forelder"
         ],
         "correct": 0,
         "explain": "老师好！ – Hei, lærer!"
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvordan spør du «Hvilket land er du fra?»",
         "options": [
-          "你叫什么？",
-          "你好吗？",
+          "你来自哪里？",
+          "你住在哪儿？",
           "你是哪国人？",
-          "你是学生吗？"
+          "你叫什么名字？"
         ],
         "correct": 2,
         "explain": "Nǐ shì nǎ guó rén?"
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

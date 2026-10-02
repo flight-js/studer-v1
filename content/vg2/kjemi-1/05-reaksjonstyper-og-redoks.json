@@ -102,7 +102,7 @@
         "Fellingsreaksjon",
         "Redoksreaksjon",
         "Syre-base-reaksjon",
-        "Forbrenning"
+        "Nøytraliseringsreaksjon"
       ],
       "correct": 0,
       "explain": "Sølvioner og kloridioner danner det tungtløselige saltet sølvklorid, som felles ut som bunnfall."
@@ -125,8 +125,8 @@
       "options": [
         "At et stoff tar opp elektroner",
         "At et stoff avgir elektroner",
-        "At et stoff tar opp protoner",
-        "At et stoff avgir protoner"
+        "At et stoff avgir protoner",
+        "At et stoff tar opp protoner"
       ],
       "correct": 1,
       "explain": "Oksidasjon er avgivelse av elektroner, og da øker oksidasjonstallet. Overføring av protoner hører til syre-base-reaksjoner."
@@ -161,8 +161,8 @@
       "options": [
         "0",
         "+1",
-        "−2",
-        "Det avhenger av grunnstoffet"
+        "−1",
+        "+2"
       ],
       "correct": 0,
       "explain": "Atomer i et grunnstoff i fri form er bare bundet til like atomer, så ingen trekker elektronene mer til seg. Oksidasjonstallet er alltid 0."
@@ -171,9 +171,9 @@
       "id": "q07",
       "text": "Hvilken ionelikning viser nøytralisering mellom en sterk syre og en sterk base?",
       "options": [
-        "Na⁺ + Cl⁻ → NaCl",
-        "2H₂ + O₂ → 2H₂O",
-        "Ag⁺ + Cl⁻ → AgCl",
+        "Na⁺ + Cl⁻ → NaCl(s)",
+        "H₃O⁺ + Cl⁻ → HCl + H₂O",
+        "H₃O⁺ + NO₃⁻ → HNO₃ + H₂O",
         "H₃O⁺ + OH⁻ → 2H₂O"
       ],
       "correct": 3,
@@ -186,7 +186,7 @@
         "Det øker",
         "Det er uendret",
         "Det minker",
-        "Det blir alltid 0"
+        "Det blir null"
       ],
       "correct": 2,
       "explain": "Reduksjon er opptak av negativt ladde elektroner. Da blir oksidasjonstallet lavere."
@@ -195,10 +195,10 @@
       "id": "q09",
       "text": "Hvilket av disse saltene er tungtløselig i vann?",
       "options": [
-        "NaNO₃",
-        "KCl",
+        "NaCl",
+        "KNO₃",
         "BaSO₄",
-        "NH₄Cl"
+        "(NH₄)₂SO₄"
       ],
       "correct": 2,
       "explain": "Bariumsulfat er tungtløselig. Nitrater og salter med alkalimetallioner eller ammonium er løselige."
@@ -207,10 +207,10 @@
       "id": "q10",
       "text": "En jernspiker legges i en løsning av kobber(II)sulfat og blir dekket av kobber. Hva har skjedd?",
       "options": [
-        "Kobber er oksidert",
+        "Jern er redusert og kobberioner oksidert",
         "Jern er oksidert og kobberioner redusert",
-        "Det er en fellingsreaksjon",
-        "Jern er redusert"
+        "Jern og kobberioner er begge oksidert",
+        "Jern og kobberioner er begge redusert"
       ],
       "correct": 1,
       "explain": "Jern er mindre edelt enn kobber og gir elektroner til Cu²⁺: Fe + Cu²⁺ → Fe²⁺ + Cu. Jern oksideres og kobberionene reduseres til kobbermetall."
@@ -231,9 +231,9 @@
       "id": "q12",
       "text": "Hvorfor er forbrenning av metan (CH₄ + 2O₂ → CO₂ + 2H₂O) en redoksreaksjon?",
       "options": [
-        "Det dannes vann",
-        "Det frigjøres varme",
-        "Metan er en gass",
+        "Karbon reduseres og oksygen oksideres",
+        "Karbon og oksygen beholder oksidasjonstallene sine",
+        "Karbon oksideres og hydrogen reduseres",
         "Karbon oksideres og oksygen reduseres"
       ],
       "correct": 3,
@@ -416,10 +416,10 @@
         "type": "flervalg",
         "text": "Hvilken observasjon tyder mest på en fellingsreaksjon?",
         "options": [
-          "Løsningen blir varm",
-          "Det dannes gassbobler",
+          "Løsningen blir varmere når stoffene blandes",
+          "Det dannes gassbobler når stoffene blandes",
           "Det dannes et fast stoff i løsningen",
-          "Løsningen lukter sterkt"
+          "Løsningen skifter farge når stoffene blandes"
         ],
         "correct": 2,
         "explain": "I en fellingsreaksjon dannes et tungtløselig salt som blir synlig som et fast stoff, ofte uklart eller farget, i løsningen."
@@ -452,7 +452,7 @@
           "Cu²⁺ + 2e⁻ → Cu",
           "Cl₂ + 2e⁻ → 2Cl⁻",
           "Fe → Fe²⁺ + 2e⁻",
-          "O₂ + 4e⁻ → 2O²⁻"
+          "Ag⁺ + e⁻ → Ag"
         ],
         "correct": 2,
         "explain": "Ved oksidasjon avgis elektroner, så elektronene står på høyre side. Jern går fra 0 til +2."
@@ -546,6 +546,7 @@
       "Elektrokjemi (galvaniske celler og elektrolyse) er holdt utenfor, fordi det ikke nevnes i kompetansemålene for Kjemi 1. Sjekk mot læreboka om det likevel bør være med.",
       "Løselighetsreglene er forenklede tommelfingerregler."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

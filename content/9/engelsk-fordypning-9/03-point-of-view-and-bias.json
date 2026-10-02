@@ -78,9 +78,9 @@
       "text": "What is bias?",
       "options": [
         "Presenting something in a one-sided or unfair way",
-        "A type of narrator",
-        "A fact that can be checked",
-        "A news headline"
+        "A narrator's view of events in a story",
+        "A message's main purpose or intended effect",
+        "A detail that can be checked against evidence"
       ],
       "correct": 0,
       "explain": "Bias can be both conscious and unconscious."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Which narrator knows what all the characters think and feel?",
       "options": [
-        "First-person narrator",
-        "Unreliable narrator",
+        "Third-person objective narrator",
+        "Second-person narrator",
         "Omniscient narrator",
-        "Third-person limited narrator"
+        "First-person plural narrator"
       ],
       "correct": 2,
       "explain": "Omniscient means all-knowing."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Which sentence is an opinion?",
       "options": [
-        "London is the capital of the UK.",
+        "London is located in the south-east of England.",
         "London is the best city in the world.",
-        "London has millions of inhabitants.",
-        "The Thames flows through London."
+        "The River Thames flows through central London.",
+        "London has several major railway stations."
       ],
       "correct": 1,
       "explain": "“The best” is a judgement that cannot be proved."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "What are loaded words?",
       "options": [
-        "Very long words",
-        "Words from another language",
-        "Technical terms",
+        "Words that describe something in a neutral way",
+        "Words that give exact names to objects",
+        "Words used mainly in a particular subject",
         "Words with strong positive or negative feelings"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "What is framing?",
       "options": [
-        "Putting a picture in a frame",
-        "Writing a story in the first person",
+        "The process of checking whether claims have reliable evidence",
+        "The choice to tell a story using one character's own voice",
         "How a story is presented, which affects how we understand it",
-        "Checking facts"
+        "The arrangement of events by when they happened, from first to last"
       ],
       "correct": 2,
       "explain": "The same facts can be framed in positive or negative ways."
@@ -138,9 +138,9 @@
       "text": "Why can a first-person narrator be unreliable?",
       "options": [
         "Because they can misunderstand or even lie",
-        "Because they know everything",
-        "Because they never speak",
-        "Because they are always the villain"
+        "Because they can know what every character thinks",
+        "Because they tell the story from outside the events",
+        "Because they report facts checked by other people"
       ],
       "correct": 0,
       "explain": "We only see the story through one person's eyes.",
@@ -150,9 +150,9 @@
       "id": "q07",
       "text": "Which question helps you think critically about a message?",
       "options": [
-        "How many words does it have?",
-        "What font is used?",
-        "Is it printed or digital?",
+        "How many letters are in the message's first word?",
+        "What colour is the background behind the message?",
+        "How large is the title compared with the text?",
         "What is included, and what is left out?"
       ],
       "correct": 3,
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Why should you look for different perspectives?",
       "options": [
-        "To make your text longer",
+        "To make the message easier to memorise",
         "To get a fuller and fairer picture",
-        "Because one source is always wrong",
-        "To confuse the reader"
+        "To choose the source with the nicest design",
+        "To avoid checking whether claims are accurate"
       ],
       "correct": 1,
       "explain": "Different voices show different sides of an issue."
@@ -175,9 +175,9 @@
       "text": "What is a sender?",
       "options": [
         "The person or organisation behind a message",
-        "The reader",
-        "The postman",
-        "The headline"
+        "The intended reader or group of readers",
+        "The reason a message is created or shared",
+        "The main idea that a message communicates"
       ],
       "correct": 0,
       "explain": "Knowing the sender helps you understand the purpose."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Two headlines describe the same statistics very differently. What does this show?",
       "options": [
-        "That one of them is lying",
-        "That statistics are useless",
+        "That each headline uses a different set of statistics",
+        "That the headlines report statistics from different studies",
         "That framing affects how we understand information",
-        "That headlines are always neutral"
+        "That one headline must contain a false statistic"
       ],
       "correct": 2,
       "explain": "Both headlines can be true, but they create different impressions."
@@ -320,9 +320,9 @@
         "text": "What does third-person limited mean?",
         "options": [
           "The narrator follows one character closely",
-          "The narrator knows everything",
-          "The narrator is “I”",
-          "There is no narrator"
+          "The narrator follows every character equally closely",
+          "The narrator tells the story using “I”",
+          "The narrator tells events without revealing thoughts"
         ],
         "correct": 0,
         "explain": "We know the thoughts of one character, but not the others."
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "“Freedom fighters” and “rebels” can describe the same group. What does this show?",
         "options": [
-          "Words are always neutral",
+          "Word choice can show that both terms are neutral",
           "Word choice can create different impressions",
-          "Both words mean soldiers",
-          "One word is a spelling mistake"
+          "Word choice can identify the group's official name",
+          "Word choice can confirm that both terms mean the same thing"
         ],
         "correct": 1,
         "explain": "Loaded words reveal the sender's point of view."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "What is the target audience?",
         "options": [
-          "The sender",
-          "The purpose",
+          "The person or organisation that creates a message",
+          "The reason a message is created or shared",
           "The group a message is made for",
-          "The headline"
+          "The main idea that a message communicates"
         ],
         "correct": 2,
         "explain": "Messages are adapted to the audience they want to reach."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

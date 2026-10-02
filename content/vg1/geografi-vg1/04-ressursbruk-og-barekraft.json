@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hvilken ressurs er ikke-fornybar?",
       "options": [
-        "Vind",
-        "Olje",
         "Solenergi",
-        "Rennende vann"
+        "Olje",
+        "Vindkraft",
+        "Skog"
       ],
       "correct": 1,
       "explain": "Olje dannes ikke på nytt i menneskelig tidsperspektiv."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hvorfor kalles fisk en betinget fornybar ressurs?",
       "options": [
-        "Fordi den bare fornyes hvis den forvaltes godt",
-        "Fordi den aldri tar slutt",
-        "Fordi den ikke kan fornyes",
-        "Fordi den er en mineral"
+        "Fordi fiskebestanden fornyes bare ved god forvaltning",
+        "Fordi fiskebestander vokser uavhengig av hvor mye som fiskes",
+        "Fordi fisk formerer seg raskere enn den blir fisket",
+        "Fordi fisk dannes over svært lang geologisk tid"
       ],
       "correct": 0,
       "explain": "Overfiske kan få en bestand til å bryte sammen."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er det økologiske fotavtrykket?",
       "options": [
-        "Et fotspor i naturen",
-        "Antall skritt man går per dag",
+        "Området som er vernet for å bevare natur og dyrearter",
+        "Arealet som trengs for å bygge boliger, veier og infrastruktur",
         "Arealet som trengs for å dekke forbruket og ta hånd om avfall og utslipp",
-        "Størrelsen på et land"
+        "Mengden energi som brukes til å dekke forbruk og behandle avfall"
       ],
       "correct": 2,
       "explain": "Rike land har ofte store fotavtrykk."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvilken rapport gjorde begrepet bærekraftig utvikling kjent i 1987?",
       "options": [
+        "Kyoto-protokollen",
+        "Rio-erklæringen",
         "Parisavtalen",
-        "FNs klimarapport",
-        "Kyotoprotokollen",
         "Brundtland-rapporten"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hvor kommer nesten all strøm i Norge fra?",
       "options": [
         "Vannkraft",
-        "Kullkraft",
-        "Kjernekraft",
-        "Gasskraft"
+        "Vindkraft",
+        "Gasskraft",
+        "Kjernekraft"
       ],
       "correct": 0,
       "explain": "Bratte fjell og mye nedbør gir gode forhold for vannkraft."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hvor skjer det meste av utslippene fra norsk olje og gass?",
       "options": [
-        "På norske oljeplattformer",
-        "I andre land, der oljen og gassen brennes",
-        "I oljefondet",
-        "I Nordsjøen"
+        "På norske plattformer, under utvinning av olje og gass",
+        "I andre land, når olje og gass blir brent",
+        "I Norge, under transport av olje og gass til land",
+        "I Nordsjøen, under lagring av olje og gass før eksport"
       ],
       "correct": 1,
       "explain": "Produksjonen gir også utslipp i Norge, men forbrenningen skjer mest i andre land."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er en utfordring for oppdrettsnæringen?",
       "options": [
-        "For lite hav",
-        "For kaldt vann",
-        "Lakselus og rømming",
-        "For få kunder"
+        "God vanngjennomstrømming og stabile temperaturer",
+        "Rask vekst hos fisken og godt fôropptak",
+        "Lakselus i merdene og fisk som rømmer",
+        "Jevn tilgang på fôr og høy overlevelse hos fisken"
       ],
       "correct": 2,
       "explain": "Lakselus kan også skade villaksen.",
@@ -166,10 +166,10 @@
       "id": "q08",
       "text": "Hva markerer jordas overforbruksdag?",
       "options": [
-        "Årets varmeste dag",
-        "Dagen da oljen tar slutt",
-        "Dagen med mest handel",
-        "Datoen da menneskeheten har brukt opp det naturen fornyer på et år"
+        "Datoen da verdens samlede energiforbruk når årets høyeste nivå",
+        "Datoen da årets oljeproduksjon ikke lenger dekker verdens behov",
+        "Datoen da verdens matlager for ett år er brukt opp av befolkningen",
+        "Datoen da menneskeheten har brukt opp det naturen fornyer på ett år"
       ],
       "correct": 3,
       "explain": "Etter denne datoen lever vi på «kreditt» fra naturen.",
@@ -180,9 +180,9 @@
       "text": "Hvilket tiltak reduserer eget ressursforbruk?",
       "options": [
         "Å reparere og kjøpe brukt",
-        "Å kjøpe ny mobil hvert år",
-        "Å kaste mat",
-        "Å fly oftere"
+        "Å bytte ut ting som fortsatt fungerer med nye",
+        "Å velge engangsprodukter framfor produkter som kan brukes igjen",
+        "Å kjøpe produkter med kortere levetid"
       ],
       "correct": 0,
       "explain": "Gjenbruk forlenger levetiden til produktene."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvorfor bør en refleksjon over ressursbruk også se på samfunnets ansvar?",
       "options": [
-        "Fordi enkeltpersoner ikke har noe ansvar",
+        "Fordi husholdninger bestemmer alene hvilke varer bedrifter produserer",
         "Fordi mange tiltak krever politiske beslutninger og endringer i næringslivet",
-        "Fordi det er enklere",
-        "Fordi bare staten forbruker"
+        "Fordi ressursbruken i næringslivet har liten betydning for samfunnet",
+        "Fordi politiske vedtak har liten påvirkning på produksjon og forbruk"
       ],
       "correct": 1,
       "explain": "Både egne valg og samfunnets beslutninger betyr noe."
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hva er oljefondet?",
         "options": [
-          "Et fond for oljearbeidere",
+          "Et statlig fond som finansierer leting etter nye oljefelt",
           "Statens pensjonsfond utland, der oljeinntektene plasseres",
-          "Et selskap som borer etter olje",
-          "En miljøorganisasjon"
+          "Et norsk selskap som utvinner olje på sokkelen",
+          "En offentlig ordning som gir støtte til oljearbeidere"
         ],
         "correct": 1,
         "explain": "Fondet skal komme både dagens og framtidens generasjoner til gode.",
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hvilken av disse er en fornybar ressurs?",
         "options": [
-          "Kull",
-          "Naturgass",
+          "Kullkraft",
+          "Gasskraft",
           "Vindkraft",
-          "Kobber"
+          "Kjernekraft"
         ],
         "correct": 2,
         "explain": "Vinden fornyes hele tiden."
@@ -350,9 +350,9 @@
         "text": "Hvilket spørsmål er nyttig når du vurderer eget forbruk?",
         "options": [
           "Trenger jeg dette, eller kan jeg låne eller kjøpe brukt?",
-          "Hva er billigst akkurat nå?",
-          "Hva har vennene mine?",
-          "Hva er mest populært?"
+          "Er den nyeste modellen tilgjengelig til en lavere pris?",
+          "Hvilket nytt produkt har flest funksjoner og best ytelse?",
+          "Når bør jeg bytte til neste modell som kommer ut?"
         ],
         "correct": 0,
         "explain": "Det reduserer forbruket av nye ressurser."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -82,7 +82,7 @@
         "9",
         "24",
         "12",
-        "6"
+        "8"
       ],
       "correct": 1,
       "explain": "3 · 4 · 2."
@@ -92,9 +92,9 @@
       "text": "Hvor mange firesifrede PIN-koder finnes?",
       "options": [
         "10 000",
-        "5040",
-        "40",
-        "9999"
+        "5 040",
+        "9 000",
+        "9 999"
       ],
       "correct": 0,
       "explain": "10⁴ – ordnet med tilbakelegging."
@@ -104,7 +104,7 @@
       "text": "På hvor mange måter kan gull, sølv og bronse deles ut blant 10 løpere?",
       "options": [
         "120",
-        "1000",
+        "90",
         "720",
         "30"
       ],
@@ -116,8 +116,8 @@
       "text": "På hvor mange måter kan en komité på 3 velges blant 10 elever?",
       "options": [
         "720",
+        "45",
         "30",
-        "1000",
         "120"
       ],
       "correct": 3,
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvorfor deler vi på 3! når vi går fra ordnede til uordnede utvalg av 3?",
       "options": [
-        "Fordi det er 3 personer",
-        "Fordi vi har tilbakelegging",
+        "Fordi hver gruppe på tre er talt 3 ganger",
+        "Fordi hver gruppe på tre er talt 9 ganger",
         "Fordi hver gruppe på tre er talt 3! = 6 ganger",
-        "Fordi 3! = 3"
+        "Fordi hver gruppe på tre er talt 3³ ganger"
       ],
       "correct": 2,
       "explain": "Tre personer kan ordnes på 6 måter."
@@ -164,7 +164,7 @@
       "id": "q08",
       "text": "Hvor mange måter kan fem personer stille seg i kø på?",
       "options": [
-        "5",
+        "60",
         "25",
         "3125",
         "120"
@@ -178,8 +178,8 @@
       "options": [
         "1",
         "0",
-        "Ikke definert",
-        "−1"
+        "−1",
+        "2"
       ],
       "correct": 0,
       "explain": "Etter definisjon."
@@ -188,9 +188,9 @@
       "id": "q10",
       "text": "Hvilken sammenheng gjelder alltid?",
       "options": [
-        "C(n, r) = n!",
+        "C(n, r) = C(n, r − 1)",
         "C(n, r) = C(n, n − r)",
-        "C(n, r) = nʳ",
+        "C(n, r) = C(n − 1, r)",
         "C(n, r) = r!"
       ],
       "correct": 1,
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Et skilt har to bokstaver (av 26) fulgt av tre siffer. Hvor mange skilt er mulige?",
         "options": [
-          "26 · 10",
-          "26 + 26 + 10 + 10 + 10",
+          "26 · 25 · 10³",
+          "26² · 10 · 9",
           "26² · 10³",
-          "C(26, 2) · C(10, 3)"
+          "C(26, 2) · 10³"
         ],
         "correct": 2,
         "explain": "676 000 – ordnet med tilbakelegging."
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

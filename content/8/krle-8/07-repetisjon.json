@@ -105,8 +105,7 @@
     },
     {
       "term": "Noaidi",
-      "def": "Samisk religiøs spesialist som i transe kunne reise til åndeverdenen.",
-      "niva": "eksempel"
+      "def": "Samisk religiøs spesialist som i transe kunne reise til åndeverdenen."
     },
     {
       "term": "Muntlig tradisjon",
@@ -122,10 +121,10 @@
       "id": "q01",
       "text": "Hva er treenigheten?",
       "options": [
-        "Tre ulike guder",
-        "Tre store høytider",
+        "At Gud er Fader, Sønn og Den hellige ånd – tre guder med hver sin vilje",
+        "At Gud er Fader, Sønn og Den hellige ånd – én Gud som skifter mellom tre roller",
         "At Gud er Fader, Sønn og Den hellige ånd – én Gud i tre personer",
-        "Tre kristne retninger"
+        "At Gud er Fader, Sønn og Den hellige ånd – én Gud med tre ulike deler"
       ],
       "correct": 2,
       "explain": "Kristne tror på én Gud som viser seg på tre måter."
@@ -134,10 +133,10 @@
       "id": "q02",
       "text": "Hva feirer kristne i påsken?",
       "options": [
-        "Jesu fødsel",
+        "Jesu fødsel og oppvekst",
         "Jesu død og oppstandelse",
-        "At Den hellige ånd kom",
-        "At Jesus ble døpt"
+        "Jesu dåp og forkynnelse",
+        "Jesu himmelfart og gjenkomst"
       ],
       "correct": 1,
       "explain": "Påsken er kirkeårets viktigste høytid."
@@ -146,10 +145,10 @@
       "id": "q03",
       "text": "Hva er Koranen for muslimer?",
       "options": [
-        "En samling fortellinger om Muhammad",
-        "Guds ord slik det ble åpenbart for Muhammad",
-        "En lovbok skrevet av kalifene",
-        "En bønnebok for høytidene"
+        "Fortellinger om Muhammads liv og ord",
+        "Guds ord åpenbart for Muhammad",
+        "Regler skrevet av de første kalifene",
+        "Bønner brukt ved islamske høytider"
       ],
       "correct": 1,
       "explain": "Fortellingene om Muhammad kalles hadith og er ikke en del av Koranen."
@@ -170,10 +169,10 @@
       "id": "q05",
       "text": "Hva var den opprinnelige uenigheten mellom sunni- og sjiamuslimer?",
       "options": [
-        "Hvilket språk Koranen skal leses på",
-        "Om man skal be tre eller fem ganger",
+        "Hvilken by som skulle bli muslimenes nye hovedstad",
+        "Hvem som skulle samle Koranen etter Muhammad",
         "Hvem som skulle lede muslimene etter Muhammad",
-        "Om det finnes én Gud"
+        "Hvordan muslimene skulle vende seg under bønn"
       ],
       "correct": 2,
       "explain": "Sjiamuslimene mente at Ali og etterkommerne hans skulle lede."
@@ -194,9 +193,9 @@
       "id": "q07",
       "text": "Hva er Toraen?",
       "options": [
-        "En bønn",
-        "En høytid",
-        "En synagoge",
+        "De ti budene",
+        "Profetenes bøker",
+        "Bønnene i synagogen",
         "De fem Mosebøkene"
       ],
       "correct": 3,
@@ -206,10 +205,10 @@
       "id": "q08",
       "text": "Hva er diasporaen?",
       "options": [
-        "En jødisk høytid",
-        "Den jødiske kalenderen",
+        "At jødene dro ut fra Egypt med Moses",
+        "At jødene mottok Toraen på Sinai",
         "At jødene har levd spredt over hele verden",
-        "Et jødisk skrift"
+        "At jødene bygde tempelet i Jerusalem"
       ],
       "correct": 2,
       "explain": "Etter år 70 bodde de fleste jøder utenfor Israel."
@@ -218,10 +217,10 @@
       "id": "q09",
       "text": "Hva bygger humanister etikken sin på?",
       "options": [
-        "Hellige skrifter",
-        "Kongens befalinger",
+        "Hellige tekster, religiøse regler og religiøse ledere",
+        "Lover, straffer og påbud fra myndighetene",
         "Empati, fornuft og konsekvenser for andre",
-        "Tradisjon alene"
+        "Familietradisjoner, gamle skikker og vaner"
       ],
       "correct": 2,
       "explain": "Humanister mener at vi kan vite hva som er godt uten å vise til en gud."
@@ -230,10 +229,10 @@
       "id": "q10",
       "text": "Hva er agnostisisme?",
       "options": [
-        "Troen på én Gud",
-        "Troen på at alt er forutbestemt",
-        "Synet at vi ikke kan vite om det finnes en gud",
-        "Motstand mot all religion"
+        "Troen på at én gud har skapt verden og styrer den",
+        "Synet at menneskers valg er bestemt på forhånd",
+        "Synet at det er umulig å vite om en gud finnes",
+        "Synet at religion bør holdes utenfor samfunnet"
       ],
       "correct": 2,
       "explain": "Ordet kommer fra gresk og betyr «uten kunnskap»."
@@ -242,23 +241,22 @@
       "id": "q11",
       "text": "Hva var en noaidi?",
       "options": [
-        "En reineier",
+        "En erfaren reineier som ledet flytting mellom beiteområder",
         "En religiøs spesialist som kunne reise til åndeverdenen i transe",
-        "En misjonær",
-        "En samisk høvding"
+        "En kristen forkynner som lærte samene om kirkens tro",
+        "En samisk leder som styrte bygder og fordelte beiteområder"
       ],
       "correct": 1,
-      "explain": "Noaiden kunne helbrede, hjelpe og hente kunnskap fra åndeverdenen.",
-      "niva": "eksempel"
+      "explain": "Noaiden kunne helbrede, hjelpe og hente kunnskap fra åndeverdenen."
     },
     {
       "id": "q12",
       "text": "Hva er et vanlig trekk ved mange urfolksreligioner?",
       "options": [
-        "Én hellig bok",
-        "At alle har prester",
-        "Tro på at verden snart går under",
-        "At naturen er hellig og forfedrene viktige"
+        "At hellige skrifter og faste gudshus står sentralt i troen",
+        "At livet etter døden er hovedmålet for religiøse ritualer",
+        "At egne prester leder gudstjenester i religiøse bygninger",
+        "At naturen regnes som hellig, og forfedrene har betydning"
       ],
       "correct": 3,
       "explain": "Urfolksreligioner er ofte tett knyttet til landet folket lever på."
@@ -267,10 +265,10 @@
       "id": "q13",
       "text": "Hva sier utilitarismen?",
       "options": [
-        "At man alltid skal følge pliktene sine",
-        "At hensikten er det viktigste",
+        "At den rette handlingen følger plikter, uavhengig av følgene",
+        "At handlingen er rett når hensikten bak den er god",
         "At den rette handlingen gir størst mulig lykke for flest mulig",
-        "At man skal utvikle gode dyder"
+        "At den rette handlingen viser gode karaktertrekk hos den som handler"
       ],
       "correct": 2,
       "explain": "Utilitarismen er den mest kjente formen for konsekvensetikk.",
@@ -280,10 +278,10 @@
       "id": "q14",
       "text": "Hva betyr det å behandle mennesker som et mål i seg selv?",
       "options": [
-        "Å konkurrere med dem",
+        "At menneskers verdi bestemmes av hvor nyttige de er for andre",
         "At mennesker har verdi i seg selv og ikke bare skal brukes",
-        "Å sette mål for dem",
-        "Å bruke dem for å nå egne mål"
+        "At man skal vurdere mennesker etter hvor godt de når målene sine",
+        "At man skal få mennesker til å arbeide mot mål andre har satt"
       ],
       "correct": 1,
       "explain": "Dette er en av Kants formuleringer av det kategoriske imperativ.",
@@ -293,10 +291,10 @@
       "id": "q15",
       "text": "Hva er et etisk dilemma?",
       "options": [
-        "En enkel regel",
+        "En situasjon der én handling er riktig, og de andre er tydelig gale",
         "Et valg mellom handlinger som alle har gode og dårlige sider",
-        "En lov",
-        "En etisk teori"
+        "Et spørsmål der en etisk teori gir ett tydelig svar på hva man bør gjøre",
+        "En uenighet der to personer har ulike meninger om hva som er rett"
       ],
       "correct": 1,
       "explain": "I et dilemma finnes det ingen løsning som er helt uten ulemper."
@@ -438,7 +436,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -462,9 +460,9 @@
         "type": "flervalg",
         "text": "Hva er monoteisme?",
         "options": [
-          "Troen på mange guder",
+          "Troen på flere guder",
           "Troen på én Gud",
-          "Troen på at det ikke finnes noen gud",
+          "Troen på ingen guder",
           "Troen på gjenfødelse"
         ],
         "correct": 1,
@@ -483,9 +481,9 @@
         "text": "Hva skjedde med tempelet i Jerusalem i år 70?",
         "options": [
           "Det ble ødelagt av romerne",
-          "Det ble bygd",
-          "Det ble flyttet til Roma",
-          "Det ble solgt"
+          "Det ble ødelagt av babylonerne",
+          "Det ble bygd av romerne",
+          "Det ble ødelagt av grekerne"
         ],
         "correct": 0,
         "explain": "Klagemuren i Jerusalem er en rest av tempelområdet.",
@@ -497,9 +495,9 @@
         "text": "Hva sier den gylne regel?",
         "options": [
           "Gjør mot andre det du vil at de skal gjøre mot deg",
-          "Tenk alltid på deg selv først",
-          "Følg alltid loven",
-          "Gi bort alt du eier"
+          "Følg lovene i landet når du skal avgjøre hva som er rett",
+          "Ta hensyn til hva flertallet mener før du handler mot andre",
+          "La religiøse regler bestemme hvordan du behandler mennesker rundt deg"
         ],
         "correct": 0,
         "explain": "Varianter av regelen finnes i mange religioner og livssyn."
@@ -509,10 +507,10 @@
         "type": "flervalg",
         "text": "Hva er goavddis?",
         "options": [
-          "En hellig stein",
+          "En samisk kappe som noaiden brukte under ritualer",
           "En runebomme som noaiden brukte",
-          "En samisk kofte",
-          "En reinflokk"
+          "Et samisk smykke som noaiden bar for å beskytte seg",
+          "En samisk beholder for offergaver ved hellige steder"
         ],
         "correct": 1,
         "explain": "Tegningene på trommen viste guder, mennesker og dyr.",
@@ -592,12 +590,86 @@
           "Skiller riktig mellom ateisme og agnostisisme.",
           "Forklarer minst ett sentralt trekk ved livssynshumanisme."
         ]
+      },
+      {
+        "text": "Kristne feirer påske, mens muslimer feirer id al-fitr. Forklar hva påsken handler om, og hva id al-fitr markerer.",
+        "fasit": "Påsken markerer Jesu død og oppstandelse, slik kristne tror. Id al-fitr feirer at fastemåneden ramadan er avsluttet.",
+        "kriterier": [
+          "Knytter påsken til Jesu død og oppstandelse.",
+          "Forklarer at id al-fitr avslutter ramadan."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Sammenlign fasten i ramadan med fasten på jom kippur. Hva går fasten i ramadan ut på, og hva kjennetegner jom kippur?",
+        "fasit": "Under ramadan faster muslimer fra soloppgang til solnedgang gjennom måneden. Jom kippur er jødedommens forsoningsdag og årets helligste dag, med faste og bønn.",
+        "kriterier": [
+          "Beskriver fasten under ramadan som faste fra soloppgang til solnedgang i en måned.",
+          "Knytter jom kippur til forsoning og faste og bønn."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En jødisk person sier at det er viktig å følge Toraens lov, mens en livssynshumanist sier at moral bør bygge på fornuft og empati. Forklar én forskjell og ett fellestrekk mellom disse synene på hvordan man bør leve.",
+        "fasit": "Jødedommen knytter det å følge loven til pakten med Gud, mens livssynshumanismen bygger moral på menneskelige erfaringer, fornuft og empati uten tro på Gud. Begge gir veiledning om hvordan mennesker bør leve.",
+        "kriterier": [
+          "Forklarer forskjellen mellom loven i pakten med Gud og humanistisk moral uten gudstro.",
+          "Nevner at begge gir veiledning for hvordan man bør leve."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Førkristen samisk religion og flere andre urfolksreligioner legger vekt på naturen og muntlig tradisjon. Forklar ett likhetstrekk mellom dem, og hvordan retten til å praktisere religion kan bidra til å føre tradisjoner videre.",
+        "fasit": "Begge kan se naturen som hellig og alt levende som forbundet, og kunnskap kan føres videre muntlig gjennom fortellinger, sang og ritualer. Retten til å praktisere religion gjør det mulig for urfolk å videreføre slike tradisjoner.",
+        "kriterier": [
+          "Nevner et relevant likhetstrekk, som naturens betydning eller muntlig overføring.",
+          "Forklarer at religionsfrihet eller retten til å praktisere religion kan støtte videreføring av tradisjoner."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Misjon og kristning fikk følger for samisk religion. Forklar én følge av misjonsarbeidet fra 1600- eller 1700-tallet, og gi ett eksempel på et samisk uttrykk for kristendom i dag.",
+        "fasit": "Under misjonsarbeidet ble blant annet runebommer tatt og brent, og hellige steder ødelagt. I dag finnes det for eksempel gudstjenester og salmer på samisk.",
+        "kriterier": [
+          "Nevner en følge av misjonen, som at runebommer ble brent eller hellige steder ødelagt.",
+          "Gir et eksempel på kristendom med samiske uttrykk i dag."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En elev foreslår at en ny klassekamerat skal få være med i en gruppe, selv om gruppa da må endre planene sine. Forklar hvordan livssynshumanistisk menneskeverd og konsekvensetikk kan støtte forslaget.",
+        "fasit": "Livssynshumanismen sier at alle mennesker har like stor verdi og har rett til respekt. En konsekvensetiker vil vurdere hvordan valget påvirker alle, og kan støtte forslaget hvis det gir best følger samlet sett.",
+        "kriterier": [
+          "Knytter menneskeverd til at alle har lik verdi og rett til respekt.",
+          "Forklarer at konsekvensetikken vurderer følgene for dem som blir påvirket."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Islam, jødedommen og kristendommen kalles ofte abrahamittiske religioner. Forklar hvorfor de har fått dette navnet, og nevn én person som regnes som profet i islam og som også er sentral i jødedommen eller kristendommen.",
+        "fasit": "Religionene kalles abrahamittiske fordi Abraham, som kalles Ibrahim i islam, er en viktig skikkelse i dem. I islam regnes også Moses, som kalles Musa, som profet, og han er sentral i jødedommen.",
+        "kriterier": [
+          "Knytter navnet til Abraham/Ibrahim som en viktig skikkelse i religionene.",
+          "Nevner en profet i islam som også er sentral i jødedommen eller kristendommen, for eksempel Moses/Musa eller Jesus/Isa."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Sammenlign dåp i kristendommen med navnefest i livssynshumanismen. Hva slags seremoni er hver av dem, og hva sier de om praksis i de to livssynene?",
+        "fasit": "Dåp er et sakrament i de fleste kristne kirker. Human-Etisk Forbund tilbyr navnefest som en humanistisk seremoni ved en viktig overgang i livet, uten at livssynet bygger på tro på Gud.",
+        "kriterier": [
+          "Beskriver dåp som et sakrament i de fleste kristne kirker.",
+          "Beskriver navnefest som en humanistisk seremoni ved en viktig overgang i livet."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

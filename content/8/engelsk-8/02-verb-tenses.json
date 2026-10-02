@@ -79,7 +79,7 @@
       "options": [
         "walk",
         "walks",
-        "walking",
+        "walked",
         "is walk"
       ],
       "correct": 1,
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Choose the correct form: “Be quiet! The baby …”",
       "options": [
-        "sleeps",
-        "slept",
+        "was sleeping",
+        "has slept",
         "is sleeping",
-        "has slept"
+        "is sleep"
       ],
       "correct": 2,
       "explain": "Something happening right now uses the present continuous: is sleeping."
@@ -115,8 +115,8 @@
       "options": [
         "I saw him yesterday.",
         "I have seen him yesterday.",
-        "I have see him yesterday.",
-        "I seen him yesterday."
+        "I have saw him yesterday.",
+        "I did saw him yesterday."
       ],
       "correct": 0,
       "explain": "“Yesterday” is a finished time, so we need the past simple: I saw him yesterday."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Choose the correct form: “We … here since 2020.”",
       "options": [
-        "live",
-        "lived",
+        "have live",
+        "has lived",
         "have lived",
-        "are live"
+        "are living"
       ],
       "correct": 2,
       "explain": "An action that started in the past and continues now, with “since”, uses the present perfect."
@@ -138,9 +138,9 @@
       "text": "Which future form fits best? “Look at those dark clouds! It … rain.”",
       "options": [
         "is going to",
-        "rains",
-        "has rained",
-        "rained"
+        "was going to",
+        "does going to",
+        "has going to"
       ],
       "correct": 0,
       "explain": "When we can see something coming, we use “be going to”."
@@ -164,7 +164,7 @@
         "I am knowing the answer.",
         "I know the answer.",
         "I knowing the answer.",
-        "I am know the answer."
+        "I knows the answer."
       ],
       "correct": 1,
       "explain": "“Know” is a stative verb and is not normally used in the continuous form.",
@@ -311,8 +311,8 @@
         "options": [
           "thinked",
           "thought",
-          "thank",
-          "thunk"
+          "thinking",
+          "thinks"
         ],
         "correct": 1,
         "explain": "think – thought – thought."
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Choose the correct form: “I … my keys. I can't find them anywhere.”",
         "options": [
-          "lose",
-          "am losing",
+          "has lost",
+          "have lose",
           "have lost",
-          "lost yesterday"
+          "am lost"
         ],
         "correct": 2,
         "explain": "The present perfect shows a past action with a result now: the keys are still lost."
@@ -336,9 +336,9 @@
         "text": "Choose the correct form: “Every summer we … to the mountains.”",
         "options": [
           "go",
-          "are going now",
-          "gone",
-          "has gone"
+          "goes",
+          "went",
+          "going"
         ],
         "correct": 0,
         "explain": "“Every summer” shows a habit, so we use the present simple."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

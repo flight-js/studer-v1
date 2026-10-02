@@ -79,8 +79,8 @@
       "options": [
         "flommen",
         "tørken",
-        "stormen",
-        "skogen"
+        "hetebølgen",
+        "regntiden"
       ],
       "correct": 1,
       "explain": "Tørke er et stort problem i Spania."
@@ -92,7 +92,7 @@
         "apaga",
         "apague",
         "apagas",
-        "apagues"
+        "apagáis"
       ],
       "correct": 0,
       "explain": "Samme form som 3. person entall i presens."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvordan sier du «Ikke bruk plastposer!» til en venn?",
       "options": [
-        "¡No usa bolsas de plástico!",
+        "¡No usas bolsas de plástico!",
         "¡No usar bolsas de plástico!",
         "¡No uses bolsas de plástico!",
-        "¡Usa no bolsas de plástico!"
+        "¡Usa bolsas de plástico!"
       ],
       "correct": 2,
       "explain": "Nektende imperativ bruker subjuntivo."
@@ -115,7 +115,7 @@
       "options": [
         "hace",
         "haga",
-        "hacé",
+        "haces",
         "haz"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvilken miljøutfordring er stor i Latin-Amerika?",
       "options": [
         "Avskogingen av Amazonas",
-        "Mangel på snø i Norge",
-        "Kjernekraftulykker",
-        "Havis som vokser"
+        "Forurensningen av Østersjøen",
+        "Avskogingen av Sibir",
+        "Smeltingen av isbreene i Alpene"
       ],
       "correct": 0,
       "explain": "Regnskogen er viktig for klimaet og for urfolk."
@@ -139,8 +139,8 @@
       "options": [
         "reducimos",
         "reduzcamos",
-        "reduciremos",
-        "reducir"
+        "reduzcan",
+        "reduzcáis"
       ],
       "correct": 1,
       "explain": "Etter es necesario que brukes subjuntivo."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva betyr «el medio ambiente»?",
       "options": [
-        "middelhavet",
-        "halvparten",
+        "klimaet",
+        "naturen",
         "miljøet",
-        "gjennomsnittet"
+        "landskapet"
       ],
       "correct": 2,
       "explain": "proteger el medio ambiente = beskytte miljøet."
@@ -162,8 +162,8 @@
       "text": "Hva er imperativ i usted-form av «reciclar»?",
       "options": [
         "recicla",
+        "reciclen",
         "reciclas",
-        "reciclar",
         "recicle"
       ],
       "correct": 3,
@@ -176,7 +176,7 @@
         "Man burde gjenvinne mer.",
         "Vi gjenvinner mer.",
         "Man gjenvant mer.",
-        "Det er forbudt å gjenvinne."
+        "Man gjenvinner mindre."
       ],
       "correct": 0,
       "explain": "Habría que = man burde."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor er smeltende isbreer i Andes et problem?",
       "options": [
-        "Fordi det blir for mye snø",
+        "Fordi de sikrer vannforsyningen til millioner av mennesker",
         "Fordi de truer vannforsyningen til millioner av mennesker",
-        "Fordi det blir færre turister",
-        "Det er ikke noe problem"
+        "Fordi de øker vanntilgangen for millioner på lang sikt",
+        "Fordi de senker havnivået langs kysten i Andesfjellene"
       ],
       "correct": 1,
       "explain": "Mange er avhengige av smeltevann.",
@@ -318,9 +318,9 @@
         "text": "Hva betyr «los incendios forestales»?",
         "options": [
           "skogbrannene",
-          "skogarbeiderne",
-          "fyrverkeriet",
-          "skogsdyrene"
+          "skogområdene",
+          "skogplantasjene",
+          "skogdyrene"
         ],
         "correct": 0,
         "explain": "Skogbranner rammer Spania ofte om sommeren."
@@ -330,23 +330,23 @@
         "type": "flervalg",
         "text": "Hvordan sier du «Kom hit!» til en venn?",
         "options": [
-          "¡Viene aquí!",
+          "¡Vienes aquí!",
           "¡Ven aquí!",
-          "¡Venga aquí!",
-          "¡Venir aquí!"
+          "¡Venid aquí!",
+          "¡Venga aquí!"
         ],
         "correct": 1,
-        "explain": "venir → ven."
+        "explain": "For tú-imperativet av venir brukes den uregelmessige formen ven."
       },
       {
         "id": "m07",
         "type": "flervalg",
         "text": "Velg riktig: «Quiero que los gobiernos ___ más.» (hacer)",
         "options": [
-          "hacen",
+          "hago",
           "harán",
           "hagan",
-          "hacer"
+          "hagas"
         ],
         "correct": 2,
         "explain": "Etter quiero que brukes subjuntivo."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

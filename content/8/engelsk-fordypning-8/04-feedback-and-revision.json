@@ -76,9 +76,9 @@
       "id": "q01",
       "text": "What happens in the drafting stage?",
       "options": [
-        "You publish your text",
-        "You correct spelling only",
-        "You brainstorm ideas",
+        "You plan your main ideas",
+        "You check the final spelling",
+        "You publish your finished text",
         "You write a first version"
       ],
       "correct": 3,
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Which comment is the most useful feedback?",
       "options": [
-        "Good job!",
+        "Your introduction is good because I like the whole text",
         "Your introduction works well because you start with a question",
-        "I didn't like it",
-        "Bad ending"
+        "Your introduction is bad because I dislike the whole text",
+        "Your introduction is okay because the text seems nice"
       ],
       "correct": 1,
       "explain": "Specific feedback explains what works and why."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "What is the difference between revising and editing?",
       "options": [
-        "Revising means bigger changes to content and structure, editing means checking details",
-        "They mean the same",
-        "Editing is done before writing",
-        "Revising is only about spelling"
+        "Revising changes content and structure; editing checks details",
+        "Revising checks spelling; editing changes content and structure",
+        "Revising fixes punctuation; editing changes the paragraph order",
+        "Revising changes font and colour; editing checks the ideas"
       ],
       "correct": 0,
       "explain": "Revise first, then edit the details."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "What is “two stars and a wish”?",
       "options": [
-        "A grading system",
-        "A type of poem",
+        "One positive comment and two suggestions",
+        "Two grades and one written comment",
         "Two positive comments and one suggestion",
-        "A way to start an essay"
+        "Two corrections and one question"
       ],
       "correct": 2,
       "explain": "The method keeps feedback both kind and useful.",
@@ -126,9 +126,9 @@
       "text": "Which sentence is correct?",
       "options": [
         "She go to school every day.",
-        "She going to school every day.",
+        "She does goes to school every day.",
         "She goes to school every day.",
-        "She gone to school every day."
+        "She goes to school yesterday."
       ],
       "correct": 2,
       "explain": "With he, she and it, the verb gets an -s in the present simple."
@@ -137,9 +137,9 @@
       "id": "q06",
       "text": "Which sentence uses “their” correctly?",
       "options": [
-        "Their going home.",
-        "Put it over their.",
-        "Their is a problem.",
+        "The students forgot there books.",
+        "The students forgot they're books.",
+        "The students forgot they books.",
         "The students forgot their books."
       ],
       "correct": 3,
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "What is a topic sentence?",
       "options": [
-        "The title of a text",
+        "A sentence that adds a supporting detail to the main idea",
         "A sentence that presents the main idea of a paragraph",
-        "The last sentence of a text",
-        "A quotation"
+        "A sentence that sums up the paragraph's main points",
+        "A sentence that gives a quotation from another writer"
       ],
       "correct": 1,
       "explain": "It is often the first sentence of the paragraph."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Why is reading your text aloud useful?",
       "options": [
-        "It helps you discover mistakes",
-        "It makes the text longer",
-        "It replaces feedback",
-        "It is required by the teacher"
+        "It helps you notice mistakes in your text",
+        "It helps you add new ideas to your text",
+        "It helps you check the length of your text",
+        "It helps you replace comments from a reader"
       ],
       "correct": 0,
       "explain": "You often hear mistakes that you do not see."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "How should you react to feedback?",
       "options": [
-        "Ignore it",
-        "Get angry",
-        "Delete your text",
-        "Listen carefully, ask questions and think about why the reader reacted that way"
+        "Defend your choices, explain your ideas, and reject suggestions",
+        "Feel upset, stop writing, and avoid asking questions",
+        "Accept suggestions, change the text, and avoid discussion",
+        "Listen carefully, ask questions, and consider the reader's reaction"
       ],
       "correct": 3,
       "explain": "Feedback is about the text, not about you as a person."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "What should you remember when using AI tools to improve a text?",
       "options": [
-        "That AI is always right",
-        "That you must decide what to change and make sure the text is your own",
-        "That AI can write everything for you",
-        "That school rules don't apply"
+        "Trust AI suggestions and use them to improve your text",
+        "Choose what to change and keep the text your own",
+        "Let AI choose the changes and submit its rewrite",
+        "Use AI feedback instead of checking your own text"
       ],
       "correct": 1,
       "explain": "You are responsible for your own text.",
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Which of these words must start with a capital letter in English?",
         "options": [
-          "school",
-          "friend",
+          "winter",
+          "history",
           "Norwegian",
-          "apple"
+          "summer"
         ],
         "correct": 2,
         "explain": "Nationalities and languages always have a capital letter in English."
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

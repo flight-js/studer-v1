@@ -90,9 +90,9 @@
       "text": "Hva betyr 我坐地铁去学校?",
       "options": [
         "Jeg tar t-banen til skolen.",
-        "Jeg går til skolen.",
-        "Jeg sykler til skolen.",
-        "Skolen ligger ved t-banen."
+        "Jeg tar bussen til skolen.",
+        "Jeg tar t-banen fra skolen.",
+        "Jeg går fra skolen til t-banen."
       ],
       "correct": 0,
       "explain": "Transportmiddel før stedet."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvordan spør du «Hvor lang tid tar det?»",
       "options": [
-        "多少钱？",
-        "几点？",
+        "要多少钱？",
+        "要走多远？",
         "要多长时间？",
-        "在哪儿？"
+        "几点到？"
       ],
       "correct": 2,
       "explain": "Yào duō cháng shíjiān?"
@@ -113,13 +113,13 @@
       "id": "q04",
       "text": "Hva betyr 往右拐?",
       "options": [
-        "gå rett fram",
         "ta til venstre",
-        "snu",
+        "gå rett fram",
+        "gå tilbake",
         "ta til høyre"
       ],
       "correct": 3,
-      "explain": "右 yòu = høyre, 左 zuǒ = venstre."
+      "explain": "往右拐 betyr å svinge mot høyre."
     },
     {
       "id": "q05",
@@ -127,20 +127,20 @@
       "options": [
         "Hjemmet mitt ligger nær skolen.",
         "Hjemmet mitt ligger langt fra skolen.",
-        "Jeg går til skolen.",
-        "Skolen er stor."
+        "Hjemmet mitt ligger nær jernbanestasjonen.",
+        "Skolen ligger langt fra hjemmet mitt."
       ],
       "correct": 0,
-      "explain": "离 + sted + 近/远."
+      "explain": "近 beskriver kort avstand mellom hjemmet og skolen."
     },
     {
       "id": "q06",
       "text": "Hva er 高铁?",
       "options": [
-        "Et fly",
+        "Vanlig tog",
         "Høyhastighetstog",
-        "En buss",
-        "En t-bane"
+        "Nattog",
+        "T-bane"
       ],
       "correct": 1,
       "explain": "Kina har verdens største høyhastighetsnett."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvordan sier du «Banken er ved siden av skolen»?",
       "options": [
-        "银行旁边学校。",
-        "学校在银行。",
+        "银行在学校里面。",
+        "银行在学校对面。",
         "银行在学校旁边。",
-        "银行是学校。"
+        "银行在学校后面。"
       ],
       "correct": 2,
       "explain": "A 在 B 旁边."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva betyr 从北京到上海?",
       "options": [
-        "Beijing er i Shanghai",
-        "Beijing og Shanghai",
         "Fra Shanghai til Beijing",
+        "Fra Beijing til Guangzhou",
+        "Fra Guangzhou til Shanghai",
         "Fra Beijing til Shanghai"
       ],
       "correct": 3,
@@ -187,11 +187,11 @@
       "options": [
         "nær",
         "langt",
-        "rett fram",
-        "høyre"
+        "ved siden av",
+        "overfor"
       ],
       "correct": 1,
-      "explain": "近 = nær."
+      "explain": "远 beskriver stor avstand mellom steder."
     }
   ],
   "mindmap": {
@@ -319,7 +319,7 @@
           "bak",
           "overfor",
           "inni",
-          "over"
+          "ved siden av"
         ],
         "correct": 1,
         "explain": "Stedsord."
@@ -330,9 +330,9 @@
         "text": "Hva betyr 坐高铁要五个小时?",
         "options": [
           "Det tar fem timer med høyhastighetstog.",
-          "Høyhastighetstoget går klokka fem.",
-          "Det koster fem kroner.",
-          "Toget har fem vogner."
+          "Det tar fem timer med vanlig tog.",
+          "Det tar fire timer med høyhastighetstog.",
+          "Det tar fem timer med buss."
         ],
         "correct": 0,
         "explain": "要 + tid = det tar."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

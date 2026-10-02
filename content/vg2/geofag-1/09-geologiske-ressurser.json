@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er malm?",
       "options": [
-        "All stein i en gruve",
-        "Bergart med nok metall til at det lønner seg å utvinne",
-        "Et industrimineral",
-        "Olje i berggrunnen"
+        "Bergart med nok olje til lønnsom utvinning",
+        "Bergart med nok metall til lønnsom utvinning",
+        "Bergart med nok kull til lønnsom utvinning",
+        "Bergart med nok vann til lønnsom utvinning"
       ],
       "correct": 1,
       "explain": "Om noe er malm, avhenger også av prisen."
@@ -90,9 +90,9 @@
       "text": "Hvilken geologisk ressurs brukes mest målt i tonn?",
       "options": [
         "Sand, grus og pukk",
-        "Gull",
-        "Kobber",
-        "Uran"
+        "Kalkstein, dolomitt og marmor",
+        "Jernmalm, kobbermalm og sinkmalm",
+        "Gull, sølv og platinamalmer"
       ],
       "correct": 0,
       "explain": "Til veier, betong og bygg."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvor samles olje og gass?",
       "options": [
-        "I takbergarten",
-        "I granitt",
+        "I en tett reservoarbergart under en porøs takbergart",
+        "I porøse bergarter uten et tett lag over",
         "I en porøs reservoarbergart under en tett takbergart",
-        "I morene"
+        "I sprekker i grunnfjellet under løsmassene"
       ],
       "correct": 2,
       "explain": "Fanget i en felle."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvilken metode er viktigst i leting etter olje og gass?",
       "options": [
-        "Syretest",
-        "Skuringsstriper",
-        "Radiometrisk datering",
+        "Gravimetri",
+        "Magnetometri",
+        "Elektrisk resistivitetsmåling",
         "Seismikk"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva dannes olje av?",
       "options": [
         "Organisk materiale som plankton",
-        "Magma",
-        "Kalkstein",
-        "Vulkansk aske"
+        "Uorganisk materiale fra magma",
+        "Vulkansk aske fra havbunnen",
+        "Nedbrutt granitt fra jordskorpa"
       ],
       "correct": 0,
       "explain": "Det omdannes ved 60–120 °C."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvorfor er Fensfeltet i Telemark interessant?",
       "options": [
-        "Det har mye olje",
+        "Det har store forekomster av kobber og sink",
         "Det har store forekomster av sjeldne jordartsmetaller",
-        "Det er Norges største grusforekomst",
-        "Det har mye gull"
+        "Det har store forekomster av olje og gass",
+        "Det har store forekomster av gull og sølv"
       ],
       "correct": 1,
       "explain": "Viktig for det grønne skiftet.",
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er en miljøulempe ved gamle gruver?",
       "options": [
-        "De gir for mye grunnvann",
-        "De hindrer skred",
+        "Naturlig rensing av surt gruvevann",
+        "Binding av tungmetaller i gruvevannet",
         "Avrenning av tungmetaller og syre",
-        "De gir mer skog"
+        "Tilførsel av næring til vannmiljøet"
       ],
       "correct": 2,
       "explain": "Som ved enkelte gamle kobbergruver."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hvorfor trengs mer mineralutvinning i det grønne skiftet?",
       "options": [
-        "For å brenne mer kull",
-        "For å lage mer plast",
-        "For å bygge flere oljeplattformer",
+        "Batterier, vindturbiner og strømnett lages hovedsakelig av plast",
+        "Batterier, vindturbiner og strømnett krever mest trevirke",
+        "Batterier, vindturbiner og strømnett drives hovedsakelig av kull",
         "Batterier, vindturbiner og strømnett krever mange metaller"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva er en kjerneprøve?",
       "options": [
         "En borekjerne som viser hva som finnes i dypet",
-        "En prøve fra jordas kjerne",
-        "En seismisk måling",
-        "En vannprøve"
+        "En seismisk profil som viser lagene under bakken",
+        "En løs steinprøve som viser bergarter nær overflaten",
+        "En vannprøve som viser grunnvannets sammensetning"
       ],
       "correct": 0,
       "explain": "Den bekrefter tolkningene."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er et tiltak for mer bærekraftig bruk av metaller?",
       "options": [
-        "Mer engangsbruk",
+        "Engangsbruk og rask utskifting",
         "Gjenvinning og sirkulærøkonomi",
-        "Flere sjødeponier",
-        "Mindre miljøkrav"
+        "Deponering av brukte metallprodukter",
+        "Mer uttak av nye metaller"
       ],
       "correct": 1,
       "explain": "Metaller kan brukes om igjen mange ganger."
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Hva betyr oppredning?",
         "options": [
-          "Å bore etter olje",
+          "Å smelte malmen for å hente ut metallet",
           "Å skille verdifulle mineraler fra resten av malmen",
-          "Å lage kart",
-          "Å deponere avfall"
+          "Å frakte malmen fra gruva til et anlegg",
+          "Å lagre gruveavfall i et deponi etter utvinning"
         ],
         "correct": 1,
         "explain": "Etter knusing."
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "Hva er sjødeponi?",
         "options": [
-          "En oljeplattform",
-          "En havn for malmskip",
+          "Lagring av olje og gass under havbunnen",
+          "Lossing av malm fra skip ved kai",
           "Plassering av gruveavfall i sjøen",
-          "Et havbunnsanlegg for gass"
+          "Plassering av gråberg på land ved gruva"
         ],
         "correct": 2,
         "explain": "Det er ofte omstridt.",
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -92,7 +92,7 @@ export function Hjem() {
                   <Link
                     key={t.id}
                     href={temaHref("/tema", t.id)}
-                    className="group flex flex-col gap-3 rounded-2xl p-5 sm:p-6 bg-surface border border-border hover:border-primary/50 hover:shadow-card transition-[border-color,box-shadow,transform] duration-200 active:scale-[0.99]"
+                    className="group flex flex-col gap-3 rounded-2xl p-5 sm:p-6 bg-surface border border-border hover:border-primary/50 hover:shadow-card transition-[border-color,box-shadow,translate,scale] duration-200 active:scale-[0.99]"
                   >
                     <span className="text-xs font-medium text-muted">
                       {t.trinnNavn}
@@ -105,7 +105,7 @@ export function Hjem() {
                       </span>
                       <ChevronRight
                         size={20}
-                        className="shrink-0 mt-1 text-faint transition-[transform,color] duration-200 group-hover:translate-x-0.5 group-hover:text-primary"
+                        className="shrink-0 mt-1 text-faint transition-[translate,scale,color] duration-200 group-hover:translate-x-0.5 group-hover:text-primary"
                       />
                     </span>
                     <span className="mt-auto flex items-center gap-3">
@@ -127,7 +127,7 @@ export function Hjem() {
               </span>
               <Link
                 href="/fag"
-                className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98] shrink-0 w-fit"
+                className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98] shrink-0 w-fit"
               >
                 Finn et tema
                 <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
@@ -184,7 +184,7 @@ export function Hjem() {
                   <Link
                     key={f.id}
                     href={`/fag?trinn=${trinn.id}&fag=${f.id}`}
-                    className="group flex flex-col gap-3 rounded-2xl p-4.5 sm:p-5 bg-surface border border-border hover:border-primary/50 hover:shadow-card transition-[border-color,box-shadow,transform] duration-200 active:scale-[0.99]"
+                    className="group flex flex-col gap-3 rounded-2xl p-4.5 sm:p-5 bg-surface border border-border hover:border-primary/50 hover:shadow-card transition-[border-color,box-shadow,translate,scale] duration-200 active:scale-[0.99]"
                   >
                     <span className="text-base font-semibold leading-snug hyphens-auto" lang="nb">
                       {f.navn}

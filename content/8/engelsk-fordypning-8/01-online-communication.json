@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "What does register mean?",
       "options": [
-        "The list of students in a class",
+        "How polite your message sounds",
         "How formal or informal your language is",
-        "A type of email",
-        "The subject line"
+        "How quickly you answer an online message",
+        "How clearly you explain the main idea"
       ],
       "correct": 1,
       "explain": "You choose your register depending on who you are talking to."
@@ -105,9 +105,9 @@
       "text": "What is netiquette?",
       "options": [
         "Good manners online",
-        "A type of computer virus",
-        "A social media app",
-        "A formal letter"
+        "A computer program",
+        "Online privacy settings",
+        "An email writing style"
       ],
       "correct": 0,
       "explain": "The word combines “net” and “etiquette”."
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Which is an example of informal language?",
       "options": [
-        "I would be grateful if you could reply.",
-        "Kind regards",
+        "I would appreciate a quick reply.",
+        "Please let me know your decision.",
         "lol brb, gonna grab food",
-        "Dear Sir or Madam"
+        "I look forward to your response."
       ],
       "correct": 2,
       "explain": "Abbreviations and slang are typical of informal chat."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Why can jokes easily be misunderstood online?",
       "options": [
-        "Because the internet is slow",
-        "Because nobody reads them",
+        "Because online messages are usually sent in another language",
+        "Because websites change jokes into formal language",
         "Because tone of voice and body language are missing",
-        "Because jokes are not allowed"
+        "Because jokes are usually shared through email"
       ],
       "correct": 2,
       "explain": "Without non-verbal cues, irony can be taken seriously."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "What is asynchronous communication?",
       "options": [
-        "Communication where people answer when it suits them, like email",
-        "A live video call",
-        "Talking face to face",
-        "A phone call"
+        "People reply at a time that works for them, like email",
+        "People talk at the same time during a live video call",
+        "People speak together during a face-to-face conversation",
+        "People answer at once during a phone conversation"
       ],
       "correct": 0,
       "explain": "The other options happen in real time.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Why should you avoid writing only in capital letters?",
       "options": [
-        "It is against the law",
-        "It uses more data",
-        "It is hard to type",
-        "It looks like shouting"
+        "People read it as a spelling mistake",
+        "People read it as an email address",
+        "People read it as a password",
+        "People read it as shouting"
       ],
       "correct": 3,
       "explain": "Capital letters are read as a raised voice online."
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "Which phrase is a polite way to ask for something in English?",
       "options": [
-        "Give me that.",
+        "Send me the file right now.",
         "Could you help me, please?",
-        "Do it now.",
-        "I want it."
+        "You need to help me today.",
+        "I expect you to reply soon."
       ],
       "correct": 1,
       "explain": "“Could you” and “please” make a request polite."
@@ -178,9 +178,9 @@
       "text": "Why should you think before you post?",
       "options": [
         "Because messages can be saved and shared and last a long time",
-        "Because posting is expensive",
-        "Because only teachers can post",
-        "Because posts disappear immediately"
+        "Because every post is checked by teachers before it appears",
+        "Because deleting a post removes every saved copy",
+        "Because only friends can see what you post online"
       ],
       "correct": 0,
       "explain": "Screenshots can spread even if you delete a post."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "What is the difference between direct and indirect communication?",
       "options": [
-        "Direct is written, indirect is spoken",
-        "Direct is formal, indirect is informal",
-        "There is no difference",
-        "Direct means saying exactly what you mean, indirect means being more careful and polite"
+        "Direct communication uses spoken words; indirect communication uses written words",
+        "Direct communication is formal and polite; indirect communication is informal and casual",
+        "Direct communication is for close friends; indirect communication is for teachers",
+        "Direct means saying exactly what you mean; indirect means expressing yourself more carefully and politely"
       ],
       "correct": 3,
       "explain": "Cultures often differ in how direct people are.",
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Which closing fits a formal email?",
         "options": [
-          "Cya!",
+          "See you,",
           "Kind regards,",
-          "XOXO",
-          "Later!"
+          "Talk soon,",
+          "Bye then,"
         ],
         "correct": 1,
         "explain": "“Kind regards” and “Best wishes” are polite closings."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "What is the purpose of a text?",
         "options": [
-          "Why the text is written",
-          "How long the text is",
-          "Who wrote the text",
-          "Where the text is published"
+          "The reason the text was written",
+          "The main idea in the text",
+          "The person who reads the text",
+          "The place where the text appears"
         ],
         "correct": 0,
         "explain": "Purpose, receiver and situation decide how you write."
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Which of these is a contraction?",
         "options": [
-          "do not",
-          "cannot",
+          "doesnt",
+          "didnt",
           "don't",
-          "will not"
+          "wouldnt"
         ],
         "correct": 2,
         "explain": "A contraction combines two words with an apostrophe."
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

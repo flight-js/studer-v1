@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva kjennetegner fullkommen konkurranse?",
       "options": [
-        "Én tilbyder",
+        "Få store aktører, like produkter og fri etablering",
         "Mange små aktører, like produkter og fri etablering",
-        "Få store aktører",
-        "Ulike produkter og få aktører"
+        "Mange små aktører, ulike produkter og fri etablering",
+        "Mange små aktører, like produkter og strenge etableringskrav"
       ],
       "correct": 1,
       "explain": "Ingen kan påvirke prisen."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva kjennetegner et oligopol?",
       "options": [
-        "Mange små aktører",
-        "Én aktør",
+        "Mange små aktører som følger markedsprisen",
+        "Én stor aktør som styrer markedets tilbud",
         "Få, store aktører som er gjensidig avhengige",
-        "Ingen etableringshindringer"
+        "Få store aktører som tar beslutninger uavhengig av hverandre"
       ],
       "correct": 2,
       "explain": "Som dagligvarehandelen i Norge."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er et kartell?",
       "options": [
-        "En type monopol",
-        "En statlig bedrift",
-        "En kjede",
+        "Lovlig avtale mellom bedrifter om felles priser",
+        "Ulovlig sammenslåing av flere bedrifter til én aktør",
+        "Offentlig fastsettelse av priser i en bestemt bransje",
         "Ulovlig samarbeid om priser eller markedsdeling"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvorfor er strømnettet et naturlig monopol?",
       "options": [
         "Det er billigst med én aktør",
-        "Staten har forbudt konkurranse av alkoholhensyn",
-        "Det har patent",
-        "Det er mange aktører"
+        "Det er billigst med flere parallelle strømnett",
+        "Det skyldes at strømnettet er beskyttet av patent",
+        "Det er pålagt at staten driver hele strømnettet"
       ],
       "correct": 0,
       "explain": "Det lønner seg ikke å bygge flere parallelle nett."
@@ -139,8 +139,8 @@
       "options": [
         "Setter lavere pris og produserer mer",
         "Setter høyere pris og produserer mindre",
-        "Setter samme pris",
-        "Produserer ingenting"
+        "Setter samme pris og produserer like mye",
+        "Setter høyere pris og produserer mer"
       ],
       "correct": 1,
       "explain": "Gir et samfunnsøkonomisk tap."
@@ -150,9 +150,9 @@
       "text": "Hvem håndhever konkurranseloven?",
       "options": [
         "Forbrukertilsynet",
-        "Norges Bank",
+        "Finansdepartementet",
         "Konkurransetilsynet",
-        "SSB"
+        "Økokrim"
       ],
       "correct": 2,
       "explain": "Kan også stoppe oppkjøp."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er en pristaker?",
       "options": [
-        "En monopolist",
-        "En kunde",
-        "Staten",
+        "En bedrift som selv bestemmer markedsprisen",
+        "En bedrift som følger prisen til markedslederen",
+        "En bedrift som påvirker markedsprisen gjennom egne valg",
         "En bedrift som ikke kan påvirke prisen"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hvorfor unngår oligopolister ofte priskonkurranse?",
       "options": [
         "Fordi en priskrig kan gi lavere fortjeneste for alle",
-        "Fordi det er ulovlig å endre priser",
-        "Fordi de har ingen konkurrenter",
-        "Fordi kundene ikke bryr seg om pris"
+        "Fordi en priskrig kan øke fortjenesten for alle",
+        "Fordi bedriftene følger prisene som myndighetene fastsetter",
+        "Fordi kundene legger mest vekt på service framfor pris"
       ],
       "correct": 0,
       "explain": "De konkurrerer heller med reklame og produkter."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor har Norge et statlig monopol på salg av vin og brennevin?",
       "options": [
-        "For å gi staten mest mulig inntekter",
+        "For å øke statens skatteinntekter",
         "For å begrense alkoholskadene",
-        "Fordi det er billigst",
-        "Fordi det er et patent"
+        "For å beskytte vinprodusenter mot konkurranse",
+        "For å gjøre alkoholsalget mer effektivt"
       ],
       "correct": 1,
       "explain": "Et helsepolitisk formål.",
@@ -320,10 +320,10 @@
         "type": "flervalg",
         "text": "Hva kan Konkurransetilsynet gjøre ved et oppkjøp som svekker konkurransen?",
         "options": [
-          "Stoppe det",
-          "Ingenting",
-          "Kjøpe selskapet selv",
-          "Øke skatten"
+          "Stanse det planlagte oppkjøpet",
+          "Finansiere det planlagte oppkjøpet",
+          "Overta det oppkjøpte selskapet selv",
+          "Fastsette selskapets framtidige markedspris"
         ],
         "correct": 0,
         "explain": "Fusjonskontroll."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hvordan konkurrerer bedrifter ofte i monopolistisk konkurranse?",
         "options": [
-          "Bare med pris",
-          "Med kartellavtaler",
-          "Med markedsføring og service",
-          "De konkurrerer ikke"
+          "Gjennom ensartede produkter og felles prissetting",
+          "Gjennom avtaler om markedsdeling og prissetting",
+          "Gjennom markedsføring og god kundeservice",
+          "Gjennom stordrift og standardiserte produkter"
         ],
         "correct": 2,
         "explain": "Produktene er ulike."
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

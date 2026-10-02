@@ -17,7 +17,7 @@
     {
       "term": "Fortrinnsrett",
       "def": "Rett til et bestemt tilbud for søkere med særlige behov.",
-      "niva": "eksempel"
+      "niva": "over-niva"
     },
     {
       "term": "Prioriterte ønsker",
@@ -57,8 +57,7 @@
     },
     {
       "term": "Digitalt fotavtrykk",
-      "def": "Sporene du etterlater deg på nettet.",
-      "niva": "eksempel"
+      "def": "Sporene du etterlater deg på nettet."
     },
     {
       "term": "Jobbintervju",
@@ -119,10 +118,10 @@
       "id": "q01",
       "text": "Når er den ordinære søknadsfristen til videregående?",
       "options": [
-        "1. januar",
+        "1. februar",
         "1. mars",
-        "1. mai",
-        "1. august"
+        "1. april",
+        "1. juni"
       ],
       "correct": 1,
       "explain": "Søkere som ber om fortrinnsrett eller individuell behandling, har vanligvis frist 1. februar."
@@ -131,10 +130,10 @@
       "id": "q02",
       "text": "Hvordan regnes grunnskolepoeng ut?",
       "options": [
-        "Summen av alle karakterene",
-        "Antall fag ganget med ti",
+        "Gjennomsnittet av karakterene ganget med hundre",
+        "Medianen av karakterene ganget med ti",
         "Gjennomsnittet av karakterene ganget med ti",
-        "Beste karakter ganget med ti"
+        "Gjennomsnittet av eksamenskarakterene ganget med ti"
       ],
       "correct": 2,
       "explain": "Et snitt på 4,5 gir 45 poeng."
@@ -143,9 +142,9 @@
       "id": "q03",
       "text": "Hva skjer hvis du ikke svarer på tilbudet om skoleplass innen fristen?",
       "options": [
-        "Du får automatisk førsteønsket",
-        "Ingenting",
-        "Du får en ny sjanse neste dag",
+        "Tilbudet registreres automatisk som ja",
+        "Du blir automatisk satt på venteliste",
+        "Du beholder plassen uten å svare",
         "Du kan miste plassen"
       ],
       "correct": 3,
@@ -155,10 +154,10 @@
       "id": "q04",
       "text": "Hva betyr retten til videregående opplæring?",
       "options": [
-        "At du alltid kommer inn på førsteønsket",
-        "At du skal få tilbud om plass på et av programmene du har søkt på",
-        "At videregående er obligatorisk",
-        "At du kan velge skole fritt"
+        "At du får tilbud om plass på førsteønsket ditt",
+        "At du får tilbud om plass på et program du har søkt på",
+        "At du får tilbud om plass på alle programmene du har søkt på",
+        "At du kan begynne på videregående uten å søke"
       ],
       "correct": 1,
       "explain": "Retten gjelder alle som har fullført grunnskolen."
@@ -167,10 +166,10 @@
       "id": "q05",
       "text": "Hva er en CV?",
       "options": [
-        "Et søknadsbrev",
+        "En oversikt over interesser og fritidsaktiviteter",
         "En kort oversikt over utdanning, erfaring og ferdigheter",
-        "En stillingsannonse",
-        "En arbeidsavtale"
+        "En beskrivelse av en ledig stilling hos en bedrift",
+        "En avtale om lønn, arbeidstid og arbeidsoppgaver"
       ],
       "correct": 1,
       "explain": "CV-en er vanligvis på én side."
@@ -179,9 +178,9 @@
       "id": "q06",
       "text": "Hva bør et søknadsbrev inneholde?",
       "options": [
-        "Hele livshistorien din",
-        "Bare navnet ditt",
-        "En kopi av CV-en",
+        "En oversikt over utdanning og tidligere jobber",
+        "En beskrivelse av bedriften og varene den selger",
+        "En liste over arbeidstid, lønn og ferie du ønsker",
         "Hvorfor du søker og hva du kan bidra med"
       ],
       "correct": 3,
@@ -192,9 +191,9 @@
       "text": "Hva er forskjellen på krav og ønsker i en stillingsannonse?",
       "options": [
         "Krav må du ha, ønsker er en fordel",
-        "Det er det samme",
-        "Ønsker er viktigere enn krav",
-        "Krav gjelder bare lønn"
+        "Ønsker må du ha, krav er en fordel",
+        "Krav handler om lønn, ønsker om arbeidstid",
+        "Krav og ønsker beskriver bedriftens arbeidsoppgaver"
       ],
       "correct": 0,
       "explain": "Du kan søke selv om du ikke oppfyller alle ønskene."
@@ -203,10 +202,10 @@
       "id": "q08",
       "text": "Hvordan bør du forberede deg til et jobbintervju?",
       "options": [
-        "Ikke forberede deg i det hele tatt",
-        "Pugge svar ord for ord",
+        "Finne på erfaringer som passer til spørsmålene",
+        "Gi samme innøvde svar på alle spørsmålene",
         "Lese om bedriften og tenke gjennom vanlige spørsmål",
-        "Komme sent for å virke avslappet"
+        "Unngå å lese om bedriften før intervjuet"
       ],
       "correct": 2,
       "explain": "God forberedelse gir tryggere svar."
@@ -215,10 +214,10 @@
       "id": "q09",
       "text": "Hva betyr utenforskap?",
       "options": [
-        "Å bo i utlandet",
+        "Å være arbeidsledig mens man fortsatt deltar i utdanning",
         "Å stå utenfor viktige fellesskap som utdanning og arbeid",
-        "Å jobbe ute",
-        "Å være på ferie"
+        "Å bo langt fra familie mens man har jobb og skole",
+        "Å slutte i utdanning for å begynne i en jobb"
       ],
       "correct": 1,
       "explain": "Utenforskap har konsekvenser både for den enkelte og samfunnet."
@@ -227,10 +226,10 @@
       "id": "q10",
       "text": "Hvorfor er velferdsstaten avhengig av at mange er i arbeid?",
       "options": [
-        "Fordi skatteinntektene finansierer velferden",
-        "Fordi staten eier alle bedrifter",
-        "Fordi det er påbudt",
-        "Det er den ikke"
+        "Fordi skatten fra arbeid betaler for velferden",
+        "Fordi bedriftene eier tjenestene staten tilbyr",
+        "Fordi flere ansatte gir staten lavere utgifter",
+        "Fordi arbeid gjør at familier ikke trenger offentlige tjenester"
       ],
       "correct": 0,
       "explain": "Skatt fra arbeid betaler for skoler, sykehus og trygder."
@@ -239,10 +238,10 @@
       "id": "q11",
       "text": "Hva er en konsekvens av utenforskap for samfunnet?",
       "options": [
-        "Flere skatteinntekter",
-        "Mindre behov for trygd",
+        "Økte skatteinntekter og større tilgang på arbeidskraft",
+        "Lavere utgifter til velferd og større skatteinntekter",
         "Tapte skatteinntekter og mangel på arbeidskraft",
-        "Ingen konsekvenser"
+        "Flere ledige jobber og mindre behov for opplæring"
       ],
       "correct": 2,
       "explain": "Utenforskap koster både den enkelte og samfunnet."
@@ -251,9 +250,9 @@
       "id": "q12",
       "text": "Hvordan kan arbeidsgivere bidra mot utenforskap?",
       "options": [
-        "Ved å bare ansette folk med lang erfaring",
-        "Ved å legge ned bedriften",
-        "Ved å kreve perfekt CV",
+        "Ved å prioritere søkere med lang erfaring og høy utdanning",
+        "Ved å redusere opplæring og fjerne støtte på arbeidsplassen",
+        "Ved å kreve at søkere har jobbet i samme bransje før",
         "Ved å tilby lærlingplasser, sommerjobber og tilrettelegging"
       ],
       "correct": 3,
@@ -263,9 +262,9 @@
       "id": "q13",
       "text": "Hva er en overgang?",
       "options": [
-        "Et fotgjengerfelt",
-        "En eksamen",
-        "En ferie",
+        "Når man bytter aktivitet i løpet av en vanlig dag",
+        "Når man lærer en ny ferdighet i en kjent situasjon",
+        "Når man møter nye personer i en kjent hverdag",
         "Når man går fra én fase i livet til en annen"
       ],
       "correct": 3,
@@ -276,9 +275,9 @@
       "text": "Hva er en mestringsstrategi?",
       "options": [
         "En måte å håndtere utfordringer og stress på",
-        "En plan for å vinne en kamp",
-        "En type prøve",
-        "En regel på skolen"
+        "En måte å vise kunnskap på en prøve",
+        "En plan for å velge fag på videregående",
+        "En regel for å løse oppgaver i et fag"
       ],
       "correct": 0,
       "explain": "For eksempel å planlegge og be om hjelp."
@@ -288,9 +287,9 @@
       "text": "Hva er robusthet?",
       "options": [
         "Evnen til å komme seg gjennom motgang",
-        "Å være sterk i armene",
-        "Å aldri være lei seg",
-        "Å ha mange venner"
+        "Evnen til å holde ut fysisk krevende arbeid",
+        "Evnen til å unngå feil i skolearbeidet",
+        "Evnen til å få gode resultater uten støtte"
       ],
       "correct": 0,
       "explain": "Robusthet kan trenes.",
@@ -403,7 +402,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -434,10 +433,10 @@
         "type": "flervalg",
         "text": "Et karaktersnitt på 4,2 gir hvor mange grunnskolepoeng?",
         "options": [
-          "4,2",
+          "40",
           "42",
           "420",
-          "24"
+          "8,4"
         ],
         "correct": 1,
         "explain": "4,2 ganget med 10 er 42."
@@ -537,12 +536,86 @@
           "1 p: Nevner et relevant tiltak fra arbeidsgivere og forklarer sammenhengen mellom erfaring og muligheten for å få første jobb.",
           "½ p: Nevner bare et tiltak eller forklarer bare betydningen av arbeidserfaring."
         ]
+      },
+      {
+        "text": "En elev søker videregående opplæring. Forklar hvilken søknadsfrist som vanligvis gjelder, og hvem som vanligvis har en tidligere frist.",
+        "fasit": "Den ordinære søknadsfristen er 1. mars. Søkere som ber om fortrinnsrett eller individuell behandling, har vanligvis frist 1. februar.",
+        "kriterier": [
+          "Oppgir 1. mars som ordinær frist.",
+          "Oppgir 1. februar for søkere som ber om fortrinnsrett eller individuell behandling."
+        ],
+        "id": "s09",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En søker får tilbud om plass på et utdanningsprogram som ikke er førsteønsket. Forklar hvilke svarmuligheter søkeren har, og hva som kan skje hvis søkeren ikke svarer innen fristen.",
+        "fasit": "Søkeren kan takke ja, takke ja og stå på venteliste for et høyere ønske, eller takke nei. Hvis søkeren ikke svarer innen fristen, kan plassen gå tapt. Alle som har fullført grunnskolen, har rett til tilbud om plass på et av utdanningsprogrammene de har søkt på, men ikke nødvendigvis førsteønsket.",
+        "kriterier": [
+          "Nevner relevante svarmuligheter, inkludert venteliste for et høyere ønske.",
+          "Forklarer at manglende svar kan føre til at plassen går tapt, eller at retten ikke garanterer førsteønsket."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En elev ønsker å ta fagbrev i framtiden og vurderer flere utdanningsprogrammer. Forklar hva eleven bør undersøke om veiene videre fra programmene, og hvordan reisevei kan inngå i vurderingen.",
+        "fasit": "Eleven bør undersøke om programmene gir vei til fagbrev, studiekompetanse eller begge deler, og se hvilke skoler som tilbyr dem. Reiseveien kan også påvirke hvilket tilbud som passer best i hverdagen.",
+        "kriterier": [
+          "Nevner at eleven bør undersøke om programmene gir fagbrev, studiekompetanse eller begge deler.",
+          "Knytter reisevei eller hvilke skoler som tilbyr programmene til vurderingen."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Du leser en stillingsannonse for en jobb. Forklar forskjellen på et krav og et ønske i annonsen, og hva du kan bruke kontaktpersonen til.",
+        "fasit": "Et krav er noe arbeidsgiveren må ha, mens et ønske er en fordel, men ikke nødvendigvis nødvendig. Kontaktpersonen kan svare på spørsmål om stillingen, og det kan vise at du er interessert.",
+        "kriterier": [
+          "Skiller mellom krav («må ha») og ønske («en fordel»).",
+          "Forklarer at kontaktpersonen kan svare på spørsmål om stillingen, eller at det å ta kontakt kan vise interesse."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Du skal på jobbintervju og vil være godt forberedt. Beskriv hva du kan gjøre før intervjuet, og hvordan du kan svare på spørsmål under intervjuet.",
+        "fasit": "Før intervjuet kan jeg lese om bedriften og gå gjennom stillingsannonsen på nytt. Under intervjuet bør jeg lytte godt og svare ærlig med konkrete eksempler.",
+        "kriterier": [
+          "Nevner forberedelse ved å lese om bedriften eller annonsen.",
+          "Nevner ærlige svar med konkrete eksempler, eller å lytte godt."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En arbeidsgiver kan undersøke en jobbsøkers digitale fotavtrykk og kontakte referanser. Forklar én ting søkeren bør gjøre med det som finnes på nettet, og én ting søkeren bør gjøre før hen oppgir en referanse.",
+        "fasit": "Søkeren bør tenke gjennom hva hen deler i sosiale medier og sjekke hva som kommer fram når hen søker på navnet sitt. Søkeren må spørre en mulig referanse først om det er greit å oppgi personen.",
+        "kriterier": [
+          "Nevner å tenke over deling i sosiale medier eller å undersøke hva som finnes på nettet.",
+          "Nevner at man må spørre en mulig referanse om lov før personen oppgis."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En ungdom deltar frivillig i en fritidsklubb og vil senere søke jobb. Forklar hvordan den frivillige aktiviteten både kan gi ungdommen tilhørighet og være relevant i en CV.",
+        "fasit": "Fritidsklubben kan gi ungdommen et sosialt fellesskap og bidra til at hen får et større nettverk. Frivillig arbeid kan også føres opp på CV-en og vise erfaring eller ferdigheter som kan være relevante for en jobb.",
+        "kriterier": [
+          "Knytter frivillig aktivitet til fellesskap, tilhørighet eller nettverk.",
+          "Forklarer at frivillig arbeid kan stå på CV-en og vise erfaring eller ferdigheter."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En ungdom har helseplager, blir mobbet og begynner å være mye borte fra skolen. Forklar hvordan dette kan øke risikoen for utenforskap, og nevn to ulike former for støtte som kan hjelpe.",
+        "fasit": "Helseplager og mobbing kan føre til fravær og mindre kontakt med skolefellesskapet, noe som kan gjøre veien videre til utdanning eller arbeid vanskeligere. Skolen kan følge opp med tilrettelegging og et bedre skolemiljø, mens en fritidsklubb eller frivillig organisasjon kan gi ungdommen et fellesskap.",
+        "kriterier": [
+          "Forklarer en sammenheng mellom helseplager eller mobbing, fravær og risiko for utenforskap.",
+          "Nevner to former for støtte, for eksempel oppfølging eller tilrettelegging på skolen og et fellesskap gjennom en fritidsklubb eller frivillig organisasjon."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

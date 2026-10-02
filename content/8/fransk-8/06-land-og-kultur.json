@@ -82,9 +82,9 @@
       "text": "Hvilken elv renner gjennom Paris?",
       "options": [
         "Loire",
-        "Rhône",
+        "Garonne",
         "Seinen",
-        "Rhinen"
+        "Rhône"
       ],
       "correct": 2,
       "explain": "Loire er kjent for slottene langs elvebredden."
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "Hva feirer franskmennene 14. juli?",
       "options": [
-        "Nasjonaldagen, til minne om stormingen av Bastillen i 1789",
-        "Jul",
-        "Nyttår",
-        "Påske"
+        "Nasjonaldagen til minne om stormingen av Bastillen i 1789",
+        "Våpenhviledagen til minne om slutten på første verdenskrig i 1918",
+        "Seiersdagen til minne om slutten på andre verdenskrig i 1945",
+        "Arbeidernes dag til minne om arbeiderbevegelsen 1. mai"
       ],
       "correct": 0,
       "explain": "Dagen feires med parade og fyrverkeri."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva betyr «la francophonie»?",
       "options": [
-        "Fransk musikk",
+        "Fellesskapet av spansktalende land og mennesker",
         "Fellesskapet av fransktalende land og mennesker",
-        "En fransk telefon",
-        "Den franske revolusjonen"
+        "Fellesskapet av fransktalende land i Europa",
+        "Samarbeidet mellom fransktalende land om handel"
       ],
       "correct": 1,
       "explain": "Fransk snakkes på fem kontinenter."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hva er «une boulangerie»?",
       "options": [
-        "En restaurant",
+        "En kafé",
         "En ostebutikk",
-        "En slakter",
+        "En slakterbutikk",
         "Et bakeri"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva er Frankrikes motto?",
       "options": [
         "Liberté, égalité, fraternité",
-        "Tout pour la France",
-        "Vive le roi",
-        "Un pour tous"
+        "Liberté, unité, fraternité",
+        "Égalité, paix, fraternité",
+        "Liberté, justice, solidarité"
       ],
       "correct": 0,
       "explain": "Mottoet stammer fra den franske revolusjonen."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva spiser man på la Chandeleur 2. februar?",
       "options": [
-        "Baguetter",
-        "Snegler",
+        "Quicher",
+        "Madeleiner",
         "Crêpes",
-        "Ost"
+        "Croissanter"
       ],
       "correct": 2,
       "explain": "De runde, gylne pannekakene minner om sola.",
@@ -154,9 +154,9 @@
       "id": "q07",
       "text": "Hvilket land er ikke fransktalende?",
       "options": [
-        "Belgia",
-        "Senegal",
-        "Canada (Québec)",
+        "Sveits",
+        "Haiti",
+        "Luxembourg",
         "Portugal"
       ],
       "correct": 3,
@@ -167,10 +167,10 @@
       "id": "q08",
       "text": "Hvilken franskmann ble konge av Sverige og Norge i 1818?",
       "options": [
-        "Napoléon",
+        "Napoléon Bonaparte (Napoléon I)",
         "Jean-Baptiste Bernadotte (Karl Johan)",
-        "Louis XIV",
-        "Charles de Gaulle"
+        "Louis-Philippe d'Orléans (Louis-Philippe I)",
+        "Louis-Auguste de Bourbon (Ludvig XVI)"
       ],
       "correct": 1,
       "explain": "Karl Johans gate i Oslo er oppkalt etter ham.",
@@ -181,9 +181,9 @@
       "text": "Hva er Mont Blanc?",
       "options": [
         "Det høyeste fjellet i Alpene",
-        "En by",
-        "En ost",
-        "Et slott"
+        "Den største innsjøen i Alpene",
+        "Den lengste elva i Alpene",
+        "En gammel by i Alpene"
       ],
       "correct": 0,
       "explain": "Mont Blanc ligger på grensen mellom Frankrike og Italia.",
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "Hva er Tour de France?",
       "options": [
-        "En fotballturnering",
-        "En musikkfestival",
+        "Et stort skirenn",
+        "En stor løpekonkurranse",
         "Et stort sykkelritt",
-        "En togtur"
+        "En stor motorsykkelkonkurranse"
       ],
       "correct": 2,
       "explain": "Rittet arrangeres hver sommer og avsluttes i Paris.",
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva heter hovedstaden i Frankrike?",
         "options": [
-          "Lyon",
+          "Toulouse",
           "Paris",
-          "Marseille",
-          "Bordeaux"
+          "Lille",
+          "Nice"
         ],
         "correct": 1,
         "explain": "Paris er også landets største by."
@@ -352,9 +352,9 @@
         "text": "Hvilket berømt maleri henger i Louvre?",
         "options": [
           "Mona Lisa",
-          "Skrik",
-          "Solsikker",
-          "Nattevakten"
+          "Stjernenatt",
+          "Guernica",
+          "Piken med perleøredobben"
         ],
         "correct": 0,
         "explain": "Mona Lisa er malt av Leonardo da Vinci.",
@@ -365,10 +365,10 @@
         "type": "flervalg",
         "text": "Hvilken kjent tegneserie er fransk?",
         "options": [
-          "Donald Duck",
-          "Peanuts",
+          "Mikke Mus",
+          "Spider-Man",
           "Astérix",
-          "Garfield"
+          "Tom og Jerry"
         ],
         "correct": 2,
         "explain": "Astérix handler om en landsby i Gallia som kjemper mot romerne.",
@@ -460,6 +460,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

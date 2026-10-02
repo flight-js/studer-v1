@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva bestemmer klasse ifølge Marx?",
       "options": [
-        "Status og livsstil",
+        "Statusen i lokalsamfunnet",
         "Forholdet til produksjonsmidlene",
-        "Politisk makt",
-        "Utdanning"
+        "Nivået på utdanning og inntekt",
+        "Yrket og den politiske støtten"
       ],
       "correct": 1,
       "explain": "Borgerskap og arbeiderklasse."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er habitus?",
       "options": [
-        "En bolig",
-        "En type skatt",
+        "Økonomiske ressurser familien gir videre",
+        "Sosial status personen har i samfunnet",
         "Vaner, smak og tenkemåter fra oppveksten",
-        "Et politisk parti"
+        "Formelle regler for riktig oppførsel"
       ],
       "correct": 2,
       "explain": "Bourdieus begrep."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva viser Great Gatsby-kurven?",
       "options": [
-        "At rike land har høy mobilitet",
-        "At mobilitet er lik overalt",
-        "At ulikhet ikke har betydning",
+        "At land med liten ulikhet ofte har lav sosial mobilitet",
+        "At land med stor ulikhet ofte har høy sosial mobilitet",
+        "At land med stor ulikhet ofte har samme sosiale mobilitet",
         "At land med stor ulikhet ofte har lav sosial mobilitet"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva er intergenerasjonell mobilitet?",
       "options": [
         "Forskjell mellom foreldres og barns sosiale posisjon",
-        "Endring i løpet av ett liv",
-        "Flytting mellom land",
-        "Bytte av jobb på samme nivå"
+        "Endring i en persons sosiale posisjon gjennom livet",
+        "Flytting mellom ulike steder i samme land",
+        "Bytte mellom yrker med omtrent samme status"
       ],
       "correct": 0,
       "explain": "Mellom generasjoner."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva måler Gini-koeffisienten?",
       "options": [
-        "Befolkningsvekst",
+        "Veksten i befolkningens samlede inntekt",
         "Ulikhet i fordelingen av inntekt eller formue",
-        "Utdanningsnivå",
-        "Arbeidsledighet"
+        "Gjennomsnittlig inntekt eller formue i befolkningen",
+        "Omfanget av arbeidsledighet i befolkningen"
       ],
       "correct": 1,
       "explain": "Fra 0 til 1."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvilken er en forutsetning for høy sosial mobilitet?",
       "options": [
-        "Dyr privatskole",
-        "Store lønnsforskjeller",
+        "Høye opptakskrav til videregående utdanning",
+        "Store forskjeller i familiers økonomiske ressurser",
         "Gratis og god utdanning for alle",
-        "Arv av yrke"
+        "Tidlig valg av yrke etter foreldrenes klasse"
       ],
       "correct": 2,
       "explain": "Gir like muligheter."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er en mulig ulempe ved høy mobilitet i et meritokratisk samfunn?",
       "options": [
-        "Talent går tapt",
-        "Privilegier går i arv",
-        "Lav tillit",
+        "At familiens bakgrunn kan veie tyngre enn egne prestasjoner ved jobbsøking",
+        "At økonomiske privilegier kan bli videreført fra foreldre til barn",
+        "At utdanning kan få mindre betydning enn familieforbindelser for jobbmuligheter",
         "At de som faller nedover, kan føle at det er deres egen skyld"
       ],
       "correct": 3,
@@ -177,7 +177,7 @@
         "Kastesystemet i India",
         "Det norske utdanningssystemet",
         "Et åpent arbeidsmarked",
-        "Et demokrati"
+        "Et moderne demokrati"
       ],
       "correct": 0,
       "explain": "Posisjonen bestemmes ved fødselen."
@@ -188,8 +188,8 @@
       "options": [
         "Inntektsulikheten",
         "Formuesulikheten",
-        "De er like",
-        "Det finnes ingen ulikhet"
+        "Lønnsulikheten",
+        "Forbruksulikheten"
       ],
       "correct": 1,
       "explain": "Formue er mye skjevere fordelt.",
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvilken type mobilitet er det når en person går fra butikkmedarbeider til leder i samme bedrift?",
         "options": [
-          "Intergenerasjonell",
-          "Intragenerasjonell",
-          "Horisontal",
-          "Ingen mobilitet"
+          "Intergenerasjonell mobilitet",
+          "Intragenerasjonell mobilitet",
+          "Horisontal mobilitet",
+          "Geografisk mobilitet"
         ],
         "correct": 1,
         "explain": "Endring i løpet av ett liv."
@@ -326,9 +326,9 @@
         "text": "Hvordan kan skolen reprodusere ulikhet ifølge Bourdieu?",
         "options": [
           "Ved å belønne den kulturelle kapitalen barn fra høyere klasser har med seg",
-          "Ved å være gratis",
-          "Ved å gi alle like karakterer",
-          "Ved å ha mange lærere"
+          "Ved å belønne elevenes økonomiske ressurser framfor kunnskapen de viser i timene",
+          "Ved å vurdere elevenes skolearbeid uavhengig av språk og vaner fra hjemmet",
+          "Ved å legge mest vekt på foreldrenes politiske syn når elevenes karakterer settes"
         ],
         "correct": 0,
         "explain": "Habitus og kulturell kapital."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva er en konsekvens av lav sosial mobilitet?",
         "options": [
-          "Bedre utnyttelse av talent",
-          "Høyere tillit",
+          "At talent blir bedre utnyttet og ulikheten blir mindre",
+          "At flere får høyere tillit til samfunnets institusjoner",
           "At privilegier går i arv og talent går tapt",
-          "Mindre ulikhet"
+          "At sosial bakgrunn får mindre betydning for barns muligheter"
         ],
         "correct": 2,
         "explain": "Kan gi frustrasjon og konflikt."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva mente Hobbes om livet i naturtilstanden?",
       "options": [
-        "At det var fredelig",
-        "At det var en «krig av alle mot alle»",
-        "At det var et paradis",
-        "At det var demokratisk"
+        "En fredelig tilstand med samarbeid mellom mennesker",
+        "En «krig av alle mot alle»",
+        "Et samfunn styrt gjennom felles lover og domstoler",
+        "En tilstand der mennesker lever i politisk likhet"
       ],
       "correct": 1,
       "explain": "Derfor trengtes en sterk suveren."
@@ -91,9 +91,9 @@
       "text": "Hvilke naturlige rettigheter la Locke vekt på?",
       "options": [
         "Liv, frihet og eiendom",
-        "Arbeid, bolig og helse",
-        "Stemmerett og ytringsfrihet",
-        "Religion og tradisjon"
+        "Trygghet, likhet og stemmerett",
+        "Arbeid, religion og politisk deltakelse",
+        "Utdanning, helse og ytringsfrihet"
       ],
       "correct": 0,
       "explain": "Staten skal beskytte dem."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva handler Montesquieus maktfordelingslære om?",
       "options": [
-        "At kongen skal ha all makt",
-        "At folket skal stemme om alt",
-        "At makten deles i lovgivende, utøvende og dømmende makt",
-        "At kirken skal styre"
+        "At makten samles hos kongen og regjeringen",
+        "At makten deles mellom kirken, hæren og domstolene",
+        "At makten deles mellom lovgivende, utøvende og dømmende myndigheter",
+        "At makten legges hos folket gjennom direkte avstemninger"
       ],
       "correct": 2,
       "explain": "Maktene kontrollerer hverandre."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Når fikk kvinner allmenn stemmerett i Norge?",
       "options": [
-        "1814",
-        "1884",
-        "1898",
+        "1907",
+        "1910",
+        "1911",
         "1913"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva var slagordet under den franske revolusjonen?",
       "options": [
         "Frihet, likhet, brorskap",
-        "Gud, konge, fedreland",
-        "Fred, brød, jord",
-        "Én for alle, alle for én"
+        "Frihet, orden, fellesskap",
+        "Likhet, eiendom, sikkerhet",
+        "Fred, frihet, folkestyre"
       ],
       "correct": 0,
       "explain": "Fra 1789."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er folkesuverenitet?",
       "options": [
-        "At kongen er suveren",
+        "At makten ligger hos kongen",
         "At makten ligger hos folket",
-        "At kirken har makten",
-        "At adelen styrer"
+        "At makten ligger hos kirken",
+        "At makten ligger hos adelen"
       ],
       "correct": 1,
       "explain": "Rousseau la grunnlaget."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvorfor kan man si at opplysningstidens idealer var begrenset i praksis?",
       "options": [
-        "Fordi de gjaldt alle",
-        "Fordi ingen trodde på dem",
+        "Fordi idealene først ble formulert etter at demokratiet var innført",
+        "Fordi opplysningstenkerne ønsket å bevare eneveldet",
         "Fordi kvinner, slaver og mange andre ble holdt utenfor",
-        "Fordi de bare gjaldt i Asia"
+        "Fordi rettighetene i praksis først ble gitt til innbyggerne i koloniene"
       ],
       "correct": 2,
       "explain": "Universelle i ord, men ikke i praksis."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva innebar parlamentarismen fra 1884?",
       "options": [
-        "At kvinner fikk stemmerett",
-        "At kongen fikk all makt",
-        "At Stortinget ble oppløst",
+        "At regjeringen må ha kongens tillit",
+        "At regjeringen må ha Høyesteretts tillit",
+        "At regjeringen må ha embetsmennenes tillit",
         "At regjeringen må ha Stortingets tillit"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvem gjorde opprør og vant selvstendighet i 1804?",
       "options": [
         "Slavene på Haiti",
-        "Bøndene i Norge",
-        "Adelen i Frankrike",
-        "Kolonistene i Canada"
+        "Kolonistene i USA",
+        "Slavene på Jamaica",
+        "Uavhengighetsforkjemperne i Mexico"
       ],
       "correct": 0,
       "explain": "Rettighetene ble krevd av flere.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvem hadde stemmerett etter Grunnloven av 1814?",
       "options": [
-        "Alle voksne",
-        "En del av mennene – embetsmenn, bønder med jord og borgere",
-        "Bare adelen",
-        "Bare kvinner"
+        "Alle menn over 18 år",
+        "Embetsmenn, bønder med jord og borgere",
+        "Embetsmenn, husmenn og tjenestefolk",
+        "Adelsmenn, kvinner og jordløse bønder"
       ],
       "correct": 1,
       "explain": "Allmenn stemmerett kom senere."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hvem mente at folket har rett til opprør hvis staten bryter kontrakten?",
         "options": [
-          "Hobbes",
+          "Rousseau",
           "Locke",
-          "Ludvig 14.",
-          "Platon"
+          "Montesquieu",
+          "Voltaire"
         ],
         "correct": 1,
         "explain": "Staten skal beskytte rettighetene."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål er sentralt i demokratiets historie?",
         "options": [
-          "Hvilken farge flagget skal ha",
-          "Hvor slottet skal ligge",
+          "Hvilke symboler som brukes ved politiske valg",
+          "Hvor ofte partiene skifter navn og ledere",
           "Hvem som regnes som en del av folket",
-          "Hvor mange dager det er i året"
+          "Hvordan grensene mellom land blir fastsatt"
         ],
         "correct": 2,
         "explain": "Kampen for å utvide rettighetene."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

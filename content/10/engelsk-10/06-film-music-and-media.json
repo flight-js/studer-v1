@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "What does a close-up usually show?",
       "options": [
-        "The whole landscape",
+        "A distant view of the whole setting and characters",
         "A character's emotions or an important detail",
-        "The credits",
-        "The audience"
+        "A view of the film title and production details",
+        "A wide view of the entire scene and landscape"
       ],
       "correct": 1,
       "explain": "Close-ups bring us near a face or object so we notice feelings and details."
@@ -91,9 +91,9 @@
       "text": "What effect does a low camera angle often have?",
       "options": [
         "The character looks powerful",
-        "The character looks weak",
-        "The scene looks funny",
-        "The scene becomes silent"
+        "The character looks smaller and weaker",
+        "The character looks distant and unimportant",
+        "The character looks confused and amused"
       ],
       "correct": 0,
       "explain": "Looking up at someone makes them seem bigger and more powerful."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "What is the chorus of a song?",
       "options": [
-        "The first line",
-        "The instruments",
+        "The opening part that introduces the song's melody",
+        "The changing part that tells the story in detail",
         "The repeated part that often carries the main message",
-        "The singer's name"
+        "The instrumental part played between the sung sections"
       ],
       "correct": 2,
       "explain": "The chorus is repeated, which makes its message stick."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "What should a review include at the end?",
       "options": [
-        "A spoiler",
-        "A list of all actors",
-        "The whole plot",
+        "A summary of every event in the plot",
+        "A list of the actors and their roles",
+        "A description of how the film was produced",
         "A conclusion with a recommendation"
       ],
       "correct": 3,
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "What does the soundtrack do in a film?",
       "options": [
-        "Shows the setting",
+        "Displays the time and place",
         "Creates mood and tension",
-        "Lists the actors",
-        "Translates the dialogue"
+        "Lists the actors and director",
+        "Translates spoken dialogue into text"
       ],
       "correct": 1,
       "explain": "Music strongly affects how we feel during a scene."
@@ -141,7 +141,7 @@
         "predictable",
         "breathtaking",
         "gripping",
-        "moving"
+        "confusing"
       ],
       "correct": 0,
       "explain": "A predictable plot has no surprises."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "What is a protest song?",
       "options": [
-        "A love song",
-        "A song for children",
+        "A song that celebrates romance between two people",
+        "A song that teaches children about a topic",
         "A song that criticises injustice or supports a cause",
-        "A song without lyrics"
+        "A song that tells a fictional story about a hero"
       ],
       "correct": 2,
       "explain": "Protest songs have been important in movements for civil rights and peace.",
@@ -165,8 +165,8 @@
       "options": [
         "Close-up",
         "Long shot",
-        "Point-of-view shot",
-        "Extreme close-up"
+        "Medium shot",
+        "Over-the-shoulder shot"
       ],
       "correct": 1,
       "explain": "A long shot shows characters in their surroundings."
@@ -175,9 +175,9 @@
       "id": "q09",
       "text": "Why is context important when analysing a song?",
       "options": [
-        "It is not important",
-        "It tells you the song's length",
-        "It changes the lyrics",
+        "It helps identify the rhyme pattern in each verse",
+        "It helps describe the instruments heard in the recording",
+        "It helps explain how the singer's voice was recorded",
         "It helps explain what the song is reacting to"
       ],
       "correct": 3,
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "What can fast editing create in a film?",
       "options": [
-        "Calm and peace",
-        "Silence",
+        "A slower pace and calmer mood",
+        "A clearer view of the setting",
         "Energy and tension",
-        "Longer scenes"
+        "A longer sense of time passing"
       ],
       "correct": 2,
       "explain": "Quick cuts make action scenes feel intense and exciting."
@@ -326,7 +326,7 @@
           "moving",
           "predictable",
           "clichéd",
-          "boring"
+          "confusing"
         ],
         "correct": 0,
         "explain": "“Moving” means that it touched your emotions."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "What is a point-of-view shot?",
         "options": [
-          "A shot of the audience",
+          "A shot showing the audience watching the film",
           "A shot showing what a character sees",
-          "A shot from above",
-          "A shot of the credits"
+          "A shot showing the scene from high above",
+          "A shot showing names at the film's end"
         ],
         "correct": 1,
         "explain": "It lets the viewer see through a character's eyes."
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "What makes many video games different from films as storytelling?",
         "options": [
-          "They have no characters",
-          "They never have music",
+          "The player watches a story without influencing events",
+          "The player follows a story told only through written dialogue",
           "The player can make choices that change the story",
-          "They are always silent"
+          "The player controls a character but makes no story choices"
         ],
         "correct": 2,
         "explain": "Interactivity lets the player influence what happens."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

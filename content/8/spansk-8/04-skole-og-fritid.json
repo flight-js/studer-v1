@@ -87,7 +87,7 @@
         "Yo gusto leer.",
         "Me gusta leer.",
         "Me gustan leer.",
-        "Gusto leer."
+        "Me gusta leyendo."
       ],
       "correct": 1,
       "explain": "Med «gustar» sier man «me gusta» + infinitiv."
@@ -97,8 +97,8 @@
       "text": "Hvilken setning er riktig?",
       "options": [
         "Me gusta las matemáticas.",
-        "Me gusto las matemáticas.",
-        "Yo gustan las matemáticas.",
+        "Me gusta el matemáticas.",
+        "Me gustan los matemáticos.",
         "Me gustan las matemáticas."
       ],
       "correct": 3,
@@ -109,9 +109,9 @@
       "text": "Hva betyr «aburrido»?",
       "options": [
         "Kjedelig",
-        "Morsom",
-        "Lett",
-        "Vanskelig"
+        "Vanskelig",
+        "Trist",
+        "Interessant"
       ],
       "correct": 0,
       "explain": "Morsom heter «divertido»."
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hvordan sier du «spille gitar»?",
       "options": [
-        "jugar la guitarra",
         "jugar a la guitarra",
+        "tocar el piano",
         "tocar la guitarra",
-        "hacer la guitarra"
+        "hacer música"
       ],
       "correct": 2,
       "explain": "Med instrumenter bruker man «tocar»."
@@ -133,9 +133,9 @@
       "text": "Hvordan sier du «spille fotball»?",
       "options": [
         "jugar al fútbol",
-        "tocar el fútbol",
-        "hacer fútbol",
-        "jugar el fútbol a"
+        "tocar al fútbol",
+        "practicar el fútbol",
+        "jugar con el fútbol"
       ],
       "correct": 0,
       "explain": "Med sport bruker man «jugar a», og «a + el» blir «al»."
@@ -144,9 +144,9 @@
       "id": "q06",
       "text": "Hva betyr «Me encanta la música»?",
       "options": [
-        "Jeg liker ikke musikk",
-        "Musikk er kjedelig",
         "Jeg spiller musikk",
+        "Jeg hører på musikk",
+        "Jeg lager musikk",
         "Jeg elsker musikk"
       ],
       "correct": 3,
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hva heter faget kroppsøving på spansk?",
       "options": [
-        "la plástica",
+        "la educación artística",
         "la educación física",
-        "la música",
-        "la historia"
+        "la lengua extranjera",
+        "las ciencias naturales"
       ],
       "correct": 1,
       "explain": "«la plástica» er kunst og håndverk."
@@ -168,10 +168,10 @@
       "id": "q08",
       "text": "Hva betyr «a veces»?",
       "options": [
-        "Alltid",
-        "Aldri",
+        "Ofte",
+        "Sjelden",
         "Noen ganger",
-        "Ofte"
+        "Hver dag"
       ],
       "correct": 2,
       "explain": "«siempre» betyr alltid, og «nunca» betyr aldri."
@@ -181,7 +181,7 @@
       "text": "Hvilken karakterskala brukes ofte i spanske skoler?",
       "options": [
         "1 til 6",
-        "A til F",
+        "1 til 10",
         "0 til 20",
         "0 til 10"
       ],
@@ -194,8 +194,8 @@
       "text": "Hva betyr «los fines de semana»?",
       "options": [
         "I helgene",
-        "På mandager",
-        "I ferien",
+        "På ukedagene",
+        "I skoleferiene",
         "Om kveldene"
       ],
       "correct": 0,
@@ -341,8 +341,8 @@
         "options": [
           "Liker du engelsk?",
           "Snakker du engelsk?",
-          "Er du engelsk?",
-          "Har du engelsk i dag?"
+          "Har du engelsk i dag?",
+          "Liker du spansk?"
         ],
         "correct": 0,
         "explain": "«te gusta» betyr «du liker»."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva kjennetegner en systematisk feil?",
       "options": [
-        "Den varierer tilfeldig",
+        "Den gir en ny skjevhet fra måling til måling",
         "Den gir samme skjevhet hver gang",
-        "Den forsvinner med flere målinger",
-        "Den skyldes alltid brukeren"
+        "Den blir mindre når flere målinger tas",
+        "Den skyldes endringer i avlesningen fra gang til gang"
       ],
       "correct": 1,
       "explain": "Oppdages ved kalibrering."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hvordan kan du redusere tilfeldige feil?",
       "options": [
-        "Ta flere målinger og bruke gjennomsnittet",
-        "Bruke færre målinger",
-        "Runde av mer",
-        "Endre enheten"
+        "Å ta flere målinger og beregne gjennomsnittet",
+        "Å ta færre målinger og beregne gjennomsnittet",
+        "Å avrunde målingene før beregning av gjennomsnittet",
+        "Å velge målingen som ligger nærmest forventet verdi"
       ],
       "correct": 0,
       "explain": "Tilfeldige variasjoner jevner seg ut."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvordan kan du teste om et tiltak har redusert usikkerheten?",
       "options": [
-        "Sammenligne standardavviket før og etter",
-        "Se om gjennomsnittet ble høyere",
-        "Telle målingene",
-        "Endre grafens farge"
+        "Sammenligne standardavviket før og etter tiltaket",
+        "Sammenligne gjennomsnittene før og etter tiltaket",
+        "Sammenligne største måleverdi før og etter tiltaket",
+        "Sammenligne antall målinger før og etter tiltaket"
       ],
       "correct": 0,
       "explain": "Mindre spredning betyr mindre tilfeldig usikkerhet."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva bør du gjøre med en uteligger?",
       "options": [
-        "Alltid slette den",
+        "Slette målingen og dokumentere at den avviker",
         "Undersøke årsaken og dokumentere valget",
-        "Gange den med to",
-        "Ignorere alle andre målinger"
+        "Erstatte målingen med gjennomsnittet og dokumentere endringen",
+        "Beholde målingen uten å undersøke måleserien"
       ],
       "correct": 1,
       "explain": "Den kan være en feil eller et ekte fenomen."
@@ -152,7 +152,7 @@
         "Gjennomsnitt",
         "Variasjonsbredde",
         "Median",
-        "Sum"
+        "Standardavvik"
       ],
       "correct": 2,
       "explain": "Den midterste verdien."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvordan oppdages en sensor som alltid viser 1,5 °C for mye?",
       "options": [
-        "Ved å ta flere målinger",
-        "Ved å bruke median",
-        "Ved å runde av",
+        "Ved å ta flere målinger med samme sensor",
+        "Ved å sammenligne med en sensor uten kjent nøyaktighet",
+        "Ved å undersøke sensorens måleområde",
         "Ved kalibrering mot en kjent referanse"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva viser feilstolper i en graf?",
       "options": [
         "Usikkerheten i hvert punkt",
-        "Feil i programmet",
-        "Gjennomsnittet",
-        "Tidspunktet"
+        "Avviket mellom punktene og en trendlinje",
+        "Antallet målinger som ligger bak hvert punkt",
+        "Gjennomsnittsverdien for hele datasettet"
       ],
       "correct": 0,
       "explain": "Viser hvor sikre punktene er."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor bør du ikke oppgi 21,237 °C når sensoren er nøyaktig til 0,5 °C?",
       "options": [
-        "Fordi det er for høyt",
+        "Fordi 0,5 °C er sensorens registrerte temperatur, ikke måleusikkerhet",
         "Fordi svaret da later som det er mer nøyaktig enn det er",
-        "Fordi temperatur ikke har desimaler",
-        "Det er helt greit"
+        "Fordi usikkerheten skal legges til og gir måleverdien 21,737 °C",
+        "Fordi måleverdien må være 21,5 °C når usikkerheten oppgis som 0,5 °C"
       ],
       "correct": 1,
       "explain": "Gjeldende siffer."
@@ -326,9 +326,9 @@
         "text": "Hvilket tiltak reduserer systematiske feil?",
         "options": [
           "Kalibrering",
-          "Flere målinger",
-          "Glidende gjennomsnitt",
-          "Større graf"
+          "Gjentatte målinger",
+          "Beregning av gjennomsnitt",
+          "Bruk av median"
         ],
         "correct": 0,
         "explain": "Sammenlign med kjent referanse."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva er en fare når du tolker grafer med mye støy?",
         "options": [
-          "At aksene forsvinner",
-          "At grafen blir for pen",
+          "At du antar at støyen skyldes feil enhet på måleverdiene",
+          "At du tror støyen betyr at gjennomsnittet øker over tid",
           "At du tolker tilfeldig støy som en trend",
-          "At dataene blir færre"
+          "At du antar at flere målinger gjør hver enkelt måling mer presis"
         ],
         "correct": 2,
         "explain": "Se etter tydelige mønstre over tid."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

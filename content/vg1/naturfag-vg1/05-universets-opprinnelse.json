@@ -81,22 +81,22 @@
       "id": "q01",
       "text": "Hvor gammelt er universet ifølge big bang-teorien?",
       "options": [
-        "4,6 milliarder år",
+        "Omtrent 4,6 milliarder år",
         "Omtrent 13,8 milliarder år",
-        "6000 år",
-        "1 million år"
+        "Omtrent 10 milliarder år",
+        "Omtrent 20 milliarder år"
       ],
       "correct": 1,
-      "explain": "4,6 milliarder år er alderen til solsystemet."
+      "explain": "Universet er mye eldre enn solsystemet, som er omtrent 4,6 milliarder år gammelt."
     },
     {
       "id": "q02",
       "text": "Hva viser rødforskyvningen i lyset fra fjerne galakser?",
       "options": [
         "At galaksene fjerner seg fra oss",
-        "At galaksene er varme",
-        "At galaksene er røde",
-        "At galaksene nærmer seg oss"
+        "At de fjerne galaksene nærmer seg oss",
+        "At galaksene sender ut rødt lys",
+        "At galaksene blir varmere over tid"
       ],
       "correct": 0,
       "explain": "Bølgelengden strekkes når rommet utvider seg."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva er den kosmiske bakgrunnsstrålingen?",
       "options": [
-        "Stråling fra sola",
-        "Radiosignaler fra satellitter",
+        "Lyset fra de første stjernene",
+        "Strålingen fra vår egen galakse",
         "Ettergløden fra det unge universet",
-        "Stråling fra radon"
+        "Varmen fra den tidlige sola"
       ],
       "correct": 2,
       "explain": "Den kommer fra alle retninger og har en temperatur på omtrent 2,7 K."
@@ -132,8 +132,8 @@
       "options": [
         "Hydrogen og helium",
         "Karbon og oksygen",
-        "Jern og gull",
-        "Uran og bly"
+        "Jern og nikkel",
+        "Silisium og svovel"
       ],
       "correct": 0,
       "explain": "Tyngre grunnstoffer ble dannet senere i stjerner."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvor dannes grunnstoffer som karbon og oksygen?",
       "options": [
-        "I havet",
+        "I jordas indre ved vulkanisme",
         "I stjerner ved fusjon",
-        "I jordas kjerne",
-        "Ved big bang"
+        "I havet gjennom kjemiske reaksjoner",
+        "I det tidlige universet ved big bang"
       ],
       "correct": 1,
       "explain": "Store stjerner lager tyngre grunnstoffer."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvorfor kalles vi noen ganger «stjernestøv»?",
       "options": [
-        "Fordi vi lyser i mørket",
-        "Fordi vi kommer fra Mars",
+        "Fordi stoffene i kroppen vår kommer fra meteoritter",
+        "Fordi kroppen vår er laget av støv fra kometer",
         "Fordi grunnstoffene i kroppen vår er dannet i stjerner",
-        "Fordi vi er laget av støv fra månen"
+        "Fordi stoffene i kroppen vår ble laget på jorda"
       ],
       "correct": 2,
       "explain": "Karbon, oksygen og jern er dannet i stjerner."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hva skjedde omtrent 380 000 år etter big bang?",
       "options": [
-        "De første stjernene ble dannet",
-        "Jorda ble dannet",
-        "Universet sluttet å utvide seg",
+        "De første stjernene ble dannet, og galaksene begynte å samle seg rundt dem",
+        "De første planetene ble dannet, og lyset begynte å bevege seg gjennom rommet",
+        "Universet ble gjennomsiktig, og de første galaksene begynte å sende ut lys",
         "De første nøytrale atomene ble dannet, og lyset kunne bevege seg fritt"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hvilken observasjon støtter big bang-teorien?",
       "options": [
         "Mengden hydrogen og helium i universet",
-        "At jorda er rund",
-        "At månen har krater",
-        "At sola går ned om kvelden"
+        "Jordas innhold av jern og oksygen",
+        "Antallet stjerner i Melkeveien",
+        "Planetbanene i solsystemet"
       ],
       "correct": 0,
       "explain": "Teorien forutsier omtrent 75 % hydrogen og 25 % helium."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva var big bang?",
       "options": [
-        "En eksplosjon i et tomt rom",
+        "En eksplosjon av en stor mengde stoff utover i et tomt rom",
         "En utvidelse av selve rommet fra en svært tett og varm tilstand",
-        "En kollisjon mellom to galakser",
-        "En supernova"
+        "En kollisjon mellom to store galakser som skapte nye stjerner",
+        "En supernova som spredte materie utover i det tidlige universet"
       ],
       "correct": 1,
       "explain": "Rommet selv har utvidet seg siden da."
@@ -323,9 +323,9 @@
         "text": "Hvem oppdaget den kosmiske bakgrunnsstrålingen?",
         "options": [
           "Penzias og Wilson",
-          "Hubble og Einstein",
-          "Newton og Galilei",
-          "Darwin og Wallace"
+          "Hubble og Slipher",
+          "Alpher og Herman",
+          "Einstein og Lemaître"
         ],
         "correct": 0,
         "explain": "Oppdagelsen ble gjort i 1965.",
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hvilken temperatur har den kosmiske bakgrunnsstrålingen?",
         "options": [
-          "0 °C",
-          "100 K",
+          "Omtrent 0 K",
+          "Omtrent 27 K",
           "Omtrent 2,7 K",
-          "Omtrent 5500 °C"
+          "Omtrent 270 K"
         ],
         "correct": 2,
         "explain": "Det er bare litt over det absolutte nullpunkt.",
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hva er mørk materie?",
         "options": [
-          "Svart støv i rommet",
+          "Støv i rommet som skjuler lyset fra fjerne stjerner",
           "Usynlig materie som påvirker galakser med tyngdekraften",
-          "Materie i sorte hull bare",
-          "Materie fra supernovaer"
+          "Gass rundt galakser som sender ut røntgenstråling",
+          "Materie i sorte hull som danner skivene rundt dem"
         ],
         "correct": 1,
         "explain": "Vi vet ennå ikke hva mørk materie består av.",
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

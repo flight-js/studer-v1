@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er en utviklingsfortelling?",
       "options": [
-        "En fortelling om teknologi",
+        "En fortelling der hovedpersonen møter en utfordring, men lærer ingenting av den",
         "En fortelling der hovedpersonen forandrer seg gjennom en utfordring",
-        "En fortelling uten handling",
-        "En fagtekst om ungdom"
+        "En fortelling der hovedpersonen møter en utfordring, men forblir den samme",
+        "En fortelling der miljøet forandres, mens hovedpersonen forblir uendret"
       ],
       "correct": 1,
       "explain": "I en utviklingsfortelling har hovedpersonen lært noe eller endret seg når historien er slutt."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hvorfor er mange ungdomsromaner skrevet i førsteperson?",
       "options": [
-        "For å gjøre dem kortere",
-        "Fordi det er påbudt",
+        "For at leseren skal få mer kunnskap om miljøet enn om personene",
+        "For at leseren skal følge handlingen uten å kjenne hovedpersonens tanker",
         "For at leseren skal komme tett på hovedpersonens tanker og følelser",
-        "For å skjule hovedpersonen"
+        "For at leseren skal se hovedpersonen utenfra og få større avstand"
       ],
       "correct": 2,
       "explain": "Førsteperson gir nærhet og gjør det lettere å identifisere seg med hovedpersonen."
@@ -103,9 +103,9 @@
       "text": "Hva er en stereotypi?",
       "options": [
         "En forenklet og fastlåst framstilling av en gruppe",
-        "En sammensatt person",
-        "En type rim",
-        "En sann historie"
+        "En sammensatt framstilling av en gruppe med ulike egenskaper",
+        "En fast mening om én person, uten å beskrive en gruppe",
+        "En framstilling av en person som utvikler seg gjennom handlingen"
       ],
       "correct": 0,
       "explain": "Stereotypier som «nerden» eller «den populære» gir et forenklet bilde av mennesker."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva betyr autentisitet i en tekst?",
       "options": [
-        "At teksten er lang",
-        "At teksten har mange bilder",
-        "At teksten er skrevet av en kjent forfatter",
+        "At teksten bygger på forfatterens eget liv",
+        "At teksten forteller om virkelige hendelser og personer",
+        "At teksten gir riktige fakta om ungdommers hverdag",
         "At teksten virker ekte og troverdig"
       ],
       "correct": 3,
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hvilket tema er typisk i tekster om unge?",
       "options": [
-        "Pensjon",
+        "Pensjon og arbeidsliv",
         "Identitet og vennskap",
-        "Skattereglene",
-        "Gamle krigsminner"
+        "Skatteregler og boligmarked",
+        "Krigshistorie og gamle minner"
       ],
       "correct": 1,
       "explain": "Spørsmål om hvem man er, og hvem man hører til, går igjen i mange tekster om unge."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvilket spørsmål hjelper deg å vurdere hvordan unge framstilles?",
       "options": [
-        "Hvor mange sider har boka?",
-        "Hvilken farge har omslaget?",
+        "Er handlingen spennende eller langsom?",
+        "Er fortelleren med i handlingen eller utenfor?",
         "Er personene sammensatte eller stereotype?",
-        "Hvor mye kostet boka?"
+        "Hvilket miljø og hvilken tid skildres i teksten?"
       ],
       "correct": 2,
       "explain": "Om personene virker menneskelige og nyanserte, sier mye om hvor troverdig framstillingen er."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva var spesielt med serien SKAM?",
       "options": [
-        "Den var en tegnefilm",
+        "Den brukte papirbrev som en del av fortellingen",
         "Den brukte sosiale medier som en del av fortellingen",
-        "Den handlet om voksne",
-        "Den var på svensk"
+        "Den brukte radioinnslag som en del av fortellingen",
+        "Den brukte avisartikler som en del av fortellingen"
       ],
       "correct": 1,
       "explain": "Klipp, meldinger og innlegg ble publisert på nett i sanntid, som om personene fantes.",
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hva kan en eldre tekst om ungdom fortelle oss?",
       "options": [
-        "Ingenting, fordi den er gammel",
-        "Bare hvordan man snakket før",
-        "Hvordan ungdom levde i en annen tid, og hva som er likt og ulikt i dag",
-        "Hvordan ungdom lever i dag"
+        "Hvordan ungdom lever i dag, uten sammenligning med fortiden",
+        "Hvordan voksne levde før, og hva som ligner eller er ulikt i dag",
+        "Hvordan ungdom levde før, og hva som ligner eller er ulikt i dag",
+        "Hvordan ungdom levde før, og hvorfor alt er likt i dag"
       ],
       "correct": 2,
       "explain": "Sammenligning med eldre tekster viser både det tidløse og det som har endret seg."
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hva betyr representasjon i litteratur?",
       "options": [
-        "Hvem og hvilke erfaringer som er med i tekstene, og hvordan de framstilles",
-        "At boka har mange kapitler",
-        "At forfatteren representerer et forlag",
-        "At teksten er oversatt"
+        "Hvem som får plass i tekstene, og hvordan de framstilles",
+        "Hvem som har skrevet tekstene, og hvordan de blir utgitt",
+        "Hvilke temaer tekstene tar opp, og hvordan de blir ordnet",
+        "Hvilke lesere som kjøper tekstene, og hvor de finner dem"
       ],
       "correct": 0,
       "explain": "Representasjon handler om hvem som får plass i fortellingene, og om ulike lesere kjenner seg igjen."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva bør du ha med når du skriver om hvordan en tekst framstiller unge?",
       "options": [
-        "Bare din egen mening",
-        "Bare et sammendrag av handlingen",
-        "Beskrivelse, konkrete eksempler og en refleksjon over framstillingen",
-        "Bare sitater"
+        "Et sammendrag, et handlingsreferat og en vurdering av språket",
+        "Egne meninger, personlige erfaringer og en anbefaling av boka",
+        "Beskrivelse, konkrete eksempler og refleksjon over framstillingen",
+        "Sitater, personskildringer og en gjenfortelling av slutten"
       ],
       "correct": 2,
       "explain": "En god tekst beskriver, viser til eksempler og reflekterer over hvorfor framstillingen er som den er."
@@ -323,9 +323,9 @@
         "text": "Hvilket begrep beskriver å bli selvstendig og finne sin egen vei?",
         "options": [
           "Løsrivelse",
-          "Stereotypi",
-          "Autentisitet",
-          "Målgruppe"
+          "Tilhørighet",
+          "Vennskap",
+          "Forelskelse"
         ],
         "correct": 0,
         "explain": "Løsrivelse fra foreldre og barndom er et klassisk tema i tekster om unge."
@@ -338,7 +338,7 @@
           "Avsender",
           "Forteller",
           "Målgruppe",
-          "Kontekst"
+          "Budskap"
         ],
         "correct": 2,
         "explain": "Ungdomslitteratur har unge lesere som målgruppe."
@@ -349,9 +349,9 @@
         "text": "Hvorfor kan det være viktig å spørre hvem som har laget en tekst om unge?",
         "options": [
           "Fordi voksne og unge kan ha ulikt blikk på ungdomstiden",
-          "Fordi bare unge kan skrive",
-          "Fordi det avgjør hvor lang teksten er",
-          "Det har ingen betydning"
+          "Fordi forfatterens alder avgjør om teksten er realistisk",
+          "Fordi forfatterens alder viser hvilken forteller teksten bruker",
+          "Fordi den som skriver, bestemmer hvor boka blir solgt"
         ],
         "correct": 0,
         "explain": "Avsenderens ståsted kan farge framstillingen av ungdom."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

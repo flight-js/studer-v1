@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvorfor feiler mange nye virksomheter?",
       "options": [
-        "De har for mange kunder",
+        "De lager noe markedet allerede etterspør",
         "De lager noe ingen vil kjøpe",
-        "De har for lave kostnader",
-        "De har for mye markedsinformasjon"
+        "De tilbyr produkter med tydelig kundeverdi",
+        "De har testet betalingsviljen før oppstart"
       ],
       "correct": 1,
       "explain": "Markedsinformasjon reduserer risikoen."
@@ -89,9 +89,9 @@
       "text": "Hva kjennetegner bedriftsmarkedet?",
       "options": [
         "Færre kunder, større kjøp og mer rasjonelle beslutninger",
-        "Mange små kjøp",
-        "Bare impulskjøp",
-        "Bare privatpersoner"
+        "Flere kunder, mindre kjøp og mer personlige beslutninger",
+        "Færre kunder, større kjøp og mer spontane beslutninger",
+        "Mange kunder, store kjøp og beslutninger tatt av enkeltpersoner"
       ],
       "correct": 0,
       "explain": "Ofte tar flere personer beslutningen."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "1000 elever, 20 % interessert og en av fire blir faste kunder. Hvor stort er det realistiske markedet?",
       "options": [
-        "1000",
-        "200",
+        "20",
+        "80",
         "50",
-        "250"
+        "400"
       ],
       "correct": 2,
       "explain": "1000 · 0,2 · 0,25 = 50."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er en nisje?",
       "options": [
-        "Hele markedet",
-        "En type lån",
-        "En konkurrent",
+        "En kundegruppe valgt ut etter alder, bosted og inntekt",
+        "Et geografisk område der virksomheter konkurrerer om de samme kundene",
+        "Et særskilt produkt som selges til hele markedet",
         "Et smalt segment der en liten virksomhet kan bli best"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er validering?",
       "options": [
         "Å teste om antakelsene holder før man satser stort",
-        "Å registrere selskapet",
-        "Å lage logo",
-        "Å betale skatt"
+        "Å teste om produktet fungerer teknisk før produksjon",
+        "Å fastsette målgruppen ut fra alder og bosted",
+        "Å måle hvor lønnsomt selskapet blir etter oppstart"
       ],
       "correct": 0,
       "explain": "Reduserer risikoen."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvorfor er «vil du kjøpe dette?» et svakt spørsmål i et kundeintervju?",
       "options": [
-        "Det er for langt",
+        "Kunden kan ikke forstå spørsmålet uten å se en prototype",
         "Folk er ofte høflige og sier ja uten å mene det",
-        "Det er ulovlig",
-        "Det gir for mye informasjon"
+        "Spørsmålet handler om kundens tidligere erfaringer, ikke framtidige planer",
+        "Spørsmålet bør være lukket for å få detaljerte svar"
       ],
       "correct": 1,
       "explain": "Spør heller om problemer og dagens løsninger."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilket bevis på etterspørsel er sterkest?",
       "options": [
-        "At venner sier ideen er bra",
-        "At man selv liker ideen",
+        "Positive svar i kundeintervjuer",
+        "Mange besøk på nettsiden",
         "Forhåndsbestillinger fra kunder",
-        "At ideen er original"
+        "Gode omtaler fra eksperter"
       ],
       "correct": 2,
       "explain": "Det kundene gjør, teller mest.",
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er et eksempel på sekundærdata?",
       "options": [
-        "Egne kundeintervjuer",
-        "En egen spørreundersøkelse",
-        "Observasjon i butikk",
+        "Intervjuer med bransjeeksperter",
+        "Kundefeedback samlet inn selv",
+        "Egne observasjoner av kjøpsatferd",
         "Statistikk fra SSB"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva bør du spørre deg når du sammenligner informasjon fra flere kilder?",
       "options": [
         "Om kildene peker i samme retning og er oppdaterte",
-        "Om kildene er lange",
-        "Om kildene har bilder",
-        "Om kildene er gratis"
+        "Om kildene er enige med egne antakelser og planer",
+        "Om kildene kommer fra samme kanal og bruker samme metode",
+        "Om kildene er skrevet av personer med samme utdanning"
       ],
       "correct": 0,
       "explain": "Og om kilden har egeninteresse."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvorfor er det viktig å forstå hva som får kunder til å bytte?",
       "options": [
-        "Fordi kunder aldri bytter",
+        "Fordi nye virksomheter må sikre patent før de selger",
         "Fordi nye virksomheter må vinne kunder fra det de bruker i dag",
-        "Fordi det er lovpålagt",
-        "Fordi det gir patent"
+        "Fordi kundebytte først og fremst bestemmes av offentlige regler",
+        "Fordi nye virksomheter må kjenne konkurrentenes kostnader før salg"
       ],
       "correct": 1,
       "explain": "Konkurransen er ofte dagens løsning."
@@ -307,10 +307,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål passer best i et kundeintervju?",
         "options": [
-          "«Vil du kjøpe dette?»",
+          "«Hvor gammel er du, og hvor bor du?»",
           "«Hvordan løser du dette problemet i dag?»",
-          "«Synes du ideen er bra?»",
-          "«Kan du anbefale oss?»"
+          "«Hvilken pris synes du virker rimelig?»",
+          "«Hva synes du om løsningen vi har laget?»"
         ],
         "correct": 1,
         "explain": "Åpne spørsmål om kundens problemer."
@@ -321,9 +321,9 @@
         "text": "Hva kjennetegner forbrukermarkedet?",
         "options": [
           "Mange kunder og mye påvirkning fra følelser og trender",
-          "Få, store kunder",
-          "Bare offentlige innkjøp",
-          "Bare rasjonelle beslutninger"
+          "Få kunder, store kjøp og beslutninger styrt av innkjøpsrutiner",
+          "Mange kunder og beslutninger som primært følger formelle krav",
+          "Få kunder og etterspørsel styrt av bedrifters produksjonsbehov"
         ],
         "correct": 0,
         "explain": "Salg til privatpersoner."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hva kan en gründer gjøre hvis markedsinformasjonen viser lite interesse?",
         "options": [
-          "Ignorere den",
-          "Låne mer penger",
+          "Beholde produktet uendret og satse på samme segment",
+          "Utsette beslutningen og unngå flere kundetester",
           "Velge et annet segment eller endre produktet",
-          "Heve prisen kraftig"
+          "Utvikle produktet videre uten å undersøke årsaken"
         ],
         "correct": 2,
         "explain": "Informasjonen skal brukes til beslutninger."
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

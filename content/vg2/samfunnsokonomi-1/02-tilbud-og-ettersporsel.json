@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvorfor heller etterspørselskurven nedover?",
       "options": [
-        "Fordi selgerne vil selge mer ved høy pris",
-        "Fordi kjøperne vil kjøpe mer når prisen er lav",
-        "Fordi staten bestemmer det",
-        "Fordi tilbudet er stort"
+        "Selgerne tilbyr større mengde når prisen er lavere.",
+        "Kjøperne etterspør større mengde når prisen er lavere.",
+        "Kjøperne etterspør mindre mengde når prisen er lavere.",
+        "Kjøperne etterspør større mengde når prisen er høyere."
       ],
       "correct": 1,
       "explain": "Lavere pris gir større etterspurt mengde."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hva skjer ved en pris over likevekt?",
       "options": [
-        "Overskuddstilbud, og prisen faller",
-        "Overskuddsetterspørsel, og prisen stiger",
-        "Ingenting",
-        "Varene blir utsolgt"
+        "Det oppstår overskuddstilbud, og prisen faller.",
+        "Det oppstår overskuddsetterspørsel, og prisen stiger.",
+        "Tilbudt og etterspurt mengde blir like store, og prisen står stille.",
+        "Etterspurt mengde blir større enn tilbudt mengde, og prisen stiger."
       ],
       "correct": 0,
       "explain": "Selgerne sitter igjen med varer."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Prisen på smør stiger kraftig. Hva skjer med etterspørselen etter margarin?",
       "options": [
-        "Den synker",
-        "Den er uendret",
-        "Den øker",
-        "Den forsvinner"
+        "Etterspørselen etter margarin synker når smør blir dyrere.",
+        "Tilbudet av margarin øker når smør blir dyrere.",
+        "Etterspørselen etter margarin øker når smør blir dyrere.",
+        "Etterspørselen etter margarin øker når smør blir billigere."
       ],
       "correct": 2,
       "explain": "Margarin er en erstatningsvare."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hva forskyver tilbudskurven?",
       "options": [
-        "En endring i prisen på varen",
-        "Kjøpernes inntekt",
-        "Nye trender",
-        "Endrede produksjonskostnader"
+        "En endring i varens pris forskyver tilbudskurven.",
+        "Endrede kjøperinntekter forskyver tilbudskurven.",
+        "Nye trender blant kjøperne forskyver tilbudskurven.",
+        "Endrede produksjonskostnader forskyver tilbudskurven."
       ],
       "correct": 3,
       "explain": "Prisendringer gir bevegelse langs kurven."
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hvorfor steg strømprisen i en kald og tørr vinter?",
       "options": [
-        "Økt etterspørsel og mindre tilbud",
-        "Mindre etterspørsel",
-        "Mer tilbud",
-        "Lavere kostnader"
+        "Kulden økte etterspørselen, og tørrværet reduserte tilbudet.",
+        "Kulden reduserte etterspørselen, og tørrværet økte tilbudet.",
+        "Kulden økte tilbudet, og tørrværet økte etterspørselen.",
+        "Kulden reduserte tilbudet, og tørrværet reduserte etterspørselen."
       ],
       "correct": 0,
       "explain": "Begge kurvene trakk prisen opp."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva skjer når en avgift legges på sukkerholdige varer?",
       "options": [
-        "Prisen faller og mengden øker",
-        "Prisen stiger og mengden synker",
-        "Ingenting",
-        "Etterspørselen øker"
+        "Prisen faller, og den omsatte mengden øker.",
+        "Prisen stiger, og den omsatte mengden synker.",
+        "Prisen står stille, og den omsatte mengden er uendret.",
+        "Prisen stiger, og etterspørselen øker."
       ],
       "correct": 1,
       "explain": "Tilbudskurven forskyves oppover."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Bensin blir mye dyrere. Hva skjer trolig med etterspørselen etter store bensinbiler?",
       "options": [
-        "Den øker",
-        "Den er uendret",
-        "Den synker",
-        "Den dobles"
+        "Etterspørselen etter store bensinbiler øker når bensin blir dyrere.",
+        "Etterspørselen etter store bensinbiler er uendret når bensin blir dyrere.",
+        "Etterspørselen etter store bensinbiler synker når bensin blir dyrere.",
+        "Etterspørselen etter store bensinbiler synker når bensin blir billigere."
       ],
       "correct": 2,
       "explain": "Bensin er en tilleggsvare til bil."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva er likevektsprisen?",
       "options": [
-        "Den høyeste prisen",
-        "Prisen staten bestemmer",
-        "Den laveste prisen",
-        "Prisen der tilbudt og etterspurt mengde er like"
+        "Prisen der tilbudt mengde er større enn etterspurt mengde.",
+        "Prisen der etterspurt mengde er større enn tilbudt mengde.",
+        "Prisen der samlet omsetning er størst.",
+        "Prisen der tilbudt og etterspurt mengde er like store."
       ],
       "correct": 3,
       "explain": "Der kurvene krysser."
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hva skjer når ny teknologi gjør solcellepaneler billigere å lage?",
       "options": [
-        "Tilbudet forskyves utover, prisen faller og mengden øker",
-        "Etterspørselen synker",
-        "Prisen stiger",
-        "Mengden synker"
+        "Tilbudet øker, slik at prisen faller og omsatt mengde øker.",
+        "Etterspørselen øker, slik at prisen stiger og omsatt mengde øker.",
+        "Tilbudet synker, slik at prisen stiger og omsatt mengde synker.",
+        "Tilbudet øker, slik at prisen faller og omsatt mengde synker."
       ],
       "correct": 0,
       "explain": "Lavere kostnader gir mer tilbud."
@@ -184,9 +184,9 @@
       "text": "Hvilken vare har trolig lavest priselastisitet?",
       "options": [
         "Et bestemt brusmerke",
-        "Strøm",
-        "En kinobillett",
-        "En bestemt sjokolade"
+        "Strøm til husholdninger",
+        "En kinobillett i helgen",
+        "En bestemt sjokoladeplate"
       ],
       "correct": 1,
       "explain": "Få alternativer."
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hva skjer med tilbudet etter en dårlig avling?",
         "options": [
-          "Det øker",
-          "Det synker",
-          "Det er uendret",
-          "Det blir uendelig"
+          "Tilbudet øker etter en dårlig avling.",
+          "Tilbudet synker etter en dårlig avling.",
+          "Tilbudet er uendret etter en dårlig avling.",
+          "Tilbudet forskyves utover etter en dårlig avling."
         ],
         "correct": 1,
         "explain": "Tilbudskurven forskyves innover."
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Hva er en subsidie?",
         "options": [
-          "Et tilskudd som senker produsentens kostnader",
-          "En avgift",
-          "En toll",
-          "En rente"
+          "Et tilskudd som senker produsentens kostnader.",
+          "En avgift som øker produsentens kostnader.",
+          "En toll som øker prisen på importerte varer.",
+          "Et lån som produsenten må betale tilbake."
         ],
         "correct": 0,
         "explain": "Gir økt tilbud."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "En ny trend gjør en vare populær. Hva skjer?",
         "options": [
-          "Tilbudet synker",
-          "Prisen faller",
-          "Etterspørselen forskyves utover og prisen stiger",
-          "Ingenting"
+          "Tilbudet forskyves utover, og prisen faller.",
+          "Etterspørselen forskyves innover, og prisen faller.",
+          "Etterspørselen forskyves utover, og prisen stiger.",
+          "Etterspørselen forskyves utover, og prisen faller."
         ],
         "correct": 2,
         "explain": "Smak og trender påvirker etterspørselen."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

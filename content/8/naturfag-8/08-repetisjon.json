@@ -111,7 +111,7 @@
         "Hvor mye planten vokser",
         "Mengden vann",
         "Mengden lys",
-        "Typen jord"
+        "Temperaturen i rommet"
       ],
       "correct": 2,
       "explain": "Den uavhengige variabelen er det du selv endrer, her lysmengden."
@@ -120,9 +120,9 @@
       "id": "q02",
       "text": "Hvorfor skal du bare endre én ting om gangen i et forsøk?",
       "options": [
-        "For at forsøket skal gå raskere",
-        "Fordi det er billigere",
-        "Fordi det er en regel uten grunn",
+        "For å få et resultat som passer hypotesen",
+        "For å gjøre målingene mer nøyaktige",
+        "For å få flere resultater på kortere tid",
         "For å vite hva som forårsaket resultatet"
       ],
       "correct": 3,
@@ -132,10 +132,10 @@
       "id": "q03",
       "text": "Hva finnes i planteceller, men ikke i dyreceller?",
       "options": [
-        "Cellemembran og cytoplasma",
-        "Mitokondrier",
+        "Cellekjerne og ribosomer",
+        "Mitokondrier og cellemembran",
         "Cellevegg og kloroplaster",
-        "Cellekjerne"
+        "Cytoplasma og ribosomer"
       ],
       "correct": 2,
       "explain": "Planteceller har cellevegg, kloroplaster og en stor vakuole i tillegg."
@@ -144,10 +144,10 @@
       "id": "q04",
       "text": "Hva gjør mitokondriene?",
       "options": [
-        "Lagrer vann",
-        "Lager proteiner fra lys",
-        "Beskytter cellen",
-        "Frigjør energi fra næring ved celleånding"
+        "Lager proteiner ved proteinsyntese",
+        "Lagrer vann ved osmose",
+        "Bryter ned avfall ved fordøyelse",
+        "Frigjør energi ved celleånding"
       ],
       "correct": 3,
       "explain": "Mitokondriene kalles ofte cellens kraftverk."
@@ -156,10 +156,10 @@
       "id": "q05",
       "text": "Hvorfor kalles celleånding fotosyntesen «baklengs»?",
       "options": [
-        "Fordi den skjer om natta",
+        "Fordi celleånding skjer når fotosyntesen stanser om natta",
         "Fordi utgangsstoffene i den ene er produktene i den andre",
-        "Fordi den går saktere",
-        "Fordi den skjer i røttene"
+        "Fordi de foregår i ulike deler av cellen og bruker ulik energi",
+        "Fordi celleånding lager lys som fotosyntesen bruker"
       ],
       "correct": 1,
       "explain": "Fotosyntesen lager glukose og oksygen, som celleåndingen bruker til å lage CO₂ og vann."
@@ -168,10 +168,10 @@
       "id": "q06",
       "text": "Hvorfor forstyrrer bruk av fossile brensler karbonkretsløpet?",
       "options": [
-        "Fordi de frigjør karbon som har vært lagret i millioner av år, svært raskt",
-        "Fordi de lager oksygen",
-        "Fordi de fjerner CO₂",
-        "De påvirker ikke kretsløpet"
+        "De frigjør karbon som har vært lagret i millioner av år, svært raskt",
+        "De fjerner karbon fra lufta og lagrer det i bakken svært raskt",
+        "De omdanner CO₂ i lufta til oksygen under forbrenning",
+        "De flytter karbon mellom organismer uten å øke CO₂-mengden i lufta"
       ],
       "correct": 0,
       "explain": "Utslippene øker CO₂-mengden i lufta raskere enn naturen klarer å binde den."
@@ -180,22 +180,23 @@
       "id": "q07",
       "text": "Hvorfor finnes det færre rovdyr enn planteetere?",
       "options": [
-        "Fordi rovdyr lever lenger",
-        "Fordi det bare går videre omtrent en tidel av energien til hvert nytt trinn",
-        "Fordi rovdyr ikke trenger mat",
-        "Fordi planteetere er større"
+        "Fordi omtrent halvparten av energien går videre til neste trinn",
+        "Fordi omtrent en tidel av energien går videre til neste trinn",
+        "Fordi nesten all energien går videre til neste trinn",
+        "Fordi energimengden øker for hvert trinn i næringskjeden"
       ],
       "correct": 1,
-      "explain": "Energitapet på hvert trinn gjør at det er mindre energi tilgjengelig høyere opp."
+      "explain": "Energitapet på hvert trinn gjør at det er mindre energi tilgjengelig høyere opp.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
       "text": "Hva er forskjellen på energi og materie i et økosystem?",
       "options": [
-        "Begge går i kretsløp",
-        "Begge går én vei",
+        "Energi går i kretsløp, materie går én vei",
+        "Energi og materie går begge i kretsløp",
         "Energi går én vei, materie går i kretsløp",
-        "Materie går én vei, energi går i kretsløp"
+        "Energi og materie går begge én vei"
       ],
       "correct": 2,
       "explain": "Energien kommer fra sola og tapes som varme, mens stoffene brukes om og om igjen."
@@ -205,9 +206,9 @@
       "text": "Hva bestemmer hvilket grunnstoff et atom er?",
       "options": [
         "Antall nøytroner",
-        "Antall elektronskall",
+        "Antall elektroner",
         "Antall protoner",
-        "Størrelsen"
+        "Antall elektronskall"
       ],
       "correct": 2,
       "explain": "Atomnummeret, altså antall protoner, bestemmer grunnstoffet."
@@ -216,10 +217,10 @@
       "id": "q10",
       "text": "Hvorfor reagerer edelgassene nesten ikke med andre stoffer?",
       "options": [
-        "Fordi de er metaller",
+        "Fordi de har ett elektron i ytterste skall",
         "Fordi de har fullt ytterste elektronskall",
-        "Fordi de er tunge",
-        "Fordi de er faste stoffer"
+        "Fordi de mangler elektroner i ytterste skall",
+        "Fordi de har mange protoner i kjernen"
       ],
       "correct": 1,
       "explain": "Et fullt ytterskall gjør atomene stabile, så de har lite behov for å reagere."
@@ -229,9 +230,9 @@
       "text": "Hva sier loven om massebevaring?",
       "options": [
         "Massen av produktene er lik massen av reaktantene",
-        "Massen øker i alle reaksjoner",
-        "Gasser har ingen masse",
-        "Massen forsvinner ved forbrenning"
+        "Massen av produktene er større enn massen av reaktantene",
+        "Massen av produktene er mindre enn massen av reaktantene",
+        "Massen av produktene avhenger av hvor raskt reaksjonen går"
       ],
       "correct": 0,
       "explain": "Atomene omorganiseres, men ingen forsvinner eller oppstår."
@@ -240,10 +241,10 @@
       "id": "q12",
       "text": "Hvilke tre ting trengs for at noe skal brenne?",
       "options": [
-        "Vann, lys og luft",
+        "Brensel, nitrogen og høy nok temperatur",
         "Brensel, oksygen og høy nok temperatur",
-        "Karbon, nitrogen og vann",
-        "Metall, salt og varme"
+        "Oksygen, karbondioksid og høy nok temperatur",
+        "Vann, oksygen og høy nok temperatur"
       ],
       "correct": 1,
       "explain": "Dette er branntrekanten."
@@ -253,9 +254,9 @@
       "text": "Hva skjer ved en divergerende plategrense?",
       "options": [
         "Platene beveger seg fra hverandre",
-        "Platene kolliderer",
-        "Platene glir forbi hverandre",
-        "Platene står stille"
+        "Platene beveger seg mot hverandre",
+        "Platene glir sidelengs forbi hverandre",
+        "En plate synker under den andre"
       ],
       "correct": 0,
       "explain": "Magma strømmer opp og danner ny havbunn, som ved Midtatlanterhavsryggen."
@@ -264,10 +265,10 @@
       "id": "q14",
       "text": "Hva driver platebevegelsene?",
       "options": [
-        "Tidevannet",
+        "Tidevannskrefter fra månen",
         "Konveksjonsstrømmer i mantelen",
-        "Vinden",
-        "Månens bevegelse"
+        "Vindstrømmer i atmosfæren",
+        "Magnetfeltet i kjernen"
       ],
       "correct": 1,
       "explain": "Varm stein stiger og kaldere synker i mantelen, og dette drar med seg platene."
@@ -398,7 +399,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -428,10 +429,10 @@
         "type": "flervalg",
         "text": "Hva kalles et hjerte, som består av flere typer vev?",
         "options": [
-          "En celle",
-          "Et organ",
-          "Et vev",
-          "En organisme"
+          "Organell",
+          "Organ",
+          "Organsystem",
+          "Organisme"
         ],
         "correct": 1,
         "explain": "Et organ består av ulike vev som samarbeider."
@@ -441,10 +442,10 @@
         "type": "flervalg",
         "text": "Hva slipper celleåndingen ut?",
         "options": [
-          "Oksygen",
-          "Glukose",
+          "Oksygen og glukose",
+          "Karbondioksid og oksygen",
           "Karbondioksid og vann",
-          "Klorofyll"
+          "Vann og klorofyll"
         ],
         "correct": 2,
         "explain": "Når glukose brytes ned med oksygen, dannes CO₂ og vann."
@@ -463,8 +464,8 @@
         "options": [
           "Antall protoner",
           "Antall elektronskall",
-          "Om stoffet er fast",
-          "Atomets masse"
+          "Atomets massetall",
+          "Antall nøytroner"
         ],
         "correct": 1,
         "explain": "Atomer i periode 3 har for eksempel tre elektronskall."
@@ -521,7 +522,8 @@
         "kriterier": [
           "Teller riktig: fire hydrogenatomer og to oksygenatomer på hver side.",
           "Forklarer at samme antall atomer av hvert grunnstoff finnes på begge sider."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -530,7 +532,8 @@
         "kriterier": [
           "Bruker at omtrent en tidel av energien går videre ved hvert trinn.",
           "Regner riktig: omtrent 10 enheter til planteeteren og 1 til rovdyret."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -549,12 +552,86 @@
           "Frysing er en fysisk endring der stoffet fortsatt er det samme.",
           "Brenning er en kjemisk reaksjon; atomene omorganiseres og danner nye stoffer."
         ]
+      },
+      {
+        "text": "En celle du ser i et mikroskop, har cellemembran, cellekjerne, cellevegg, kloroplaster og en stor vakuole. Hvilken type celle er dette, og hvilke deler gjør at du kan skille den fra en dyrecelle?",
+        "fasit": "Det er en plantecelle. Celleveggen, kloroplastene og den store vakuolen er deler som dyreceller ikke har.",
+        "kriterier": [
+          "Identifiserer cellen som en plantecelle.",
+          "Nevner minst én av delene som skiller planteceller fra dyreceller."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Etter en lang tørkeperiode får planter i et område lite vann. Forklar hvordan det kan påvirke fotosyntesen og tilgangen på mat for planteetere.",
+        "fasit": "Vann er nødvendig for fotosyntesen, så lite vann kan føre til mindre fotosyntese. Plantene kan da lage mindre sukker og bli en mindre tilgjengelig matkilde for planteetere.",
+        "kriterier": [
+          "Kobler vannmangel til redusert fotosyntese.",
+          "Forklarer at dette kan gi mindre mat for planteetere."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Muskelceller trenger oksygen til celleånding. Forklar hvordan formen på røde blodceller hjelper med å frakte oksygen til muskelcellene.",
+        "fasit": "Røde blodceller er små og flate og mangler cellekjerne, så de har plass til mye oksygen. Den lille formen gjør det også mulig for dem å presse seg gjennom smale blodårer.",
+        "kriterier": [
+          "Forklarer at røde blodceller har plass til mye oksygen.",
+          "Kobler formen til at de kan passere gjennom smale årer."
+        ],
+        "id": "s11",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En klasse skal undersøke hvordan et stoff brenner. Forklar hvordan elevene kan vurdere og redusere risikoen, og nevn hva som må være til stede for at stoffet skal brenne.",
+        "fasit": "Elevene bør vurdere hva som kan gå galt, følge lærerens instruksjoner og bruke vernebriller. De bør vite hvor brannslukningsutstyr og førstehjelpsutstyr er. For at noe skal brenne, trengs brensel, oksygen og høy nok temperatur.",
+        "kriterier": [
+          "Nevner risikovurdering og minst ett relevant sikkerhetstiltak.",
+          "Nevner brensel, oksygen og høy nok temperatur."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Natrium og klor har andre egenskaper enn bordsalt. Forklar hvordan bordsalt kan få andre egenskaper enn grunnstoffene det er laget av.",
+        "fasit": "Bordsalt er en kjemisk forbindelse av natrium- og kloratomer som er bundet sammen. Når ulike grunnstoffer bindes sammen, kan det dannes et stoff med helt nye egenskaper.",
+        "kriterier": [
+          "Forklarer at bordsalt er en kjemisk forbindelse av natrium og klor.",
+          "Forklarer at forbindelsen kan ha andre egenskaper enn grunnstoffene."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Et forsøk gir ulike måleresultater hver gang det gjentas. Hva bør forskeren gjøre før hen trekker en konklusjon, og hva bør rapporten fortelle?",
+        "fasit": "Forskeren bør gjenta forsøket, analysere resultatene og vurdere usikkerhet og mulige feilkilder. Rapporten bør beskrive framgangsmåten og resultatene slik at andre kan kontrollere og gjenta forsøket.",
+        "kriterier": [
+          "Nevner gjentakelse og vurdering av resultatene.",
+          "Nevner usikkerhet eller feilkilder.",
+          "Forklarer at rapporten bør gjøre det mulig for andre å kontrollere eller gjenta forsøket."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En plate beveger seg 3 cm i året. Hvor langt beveger den seg på 4 år?",
+        "fasit": "Den beveger seg 12 cm på 4 år.",
+        "kriterier": [
+          "Regner ut 3 cm × 4 år = 12 cm."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "I et lukket kar har reaktantene samlet masse på 42 g før en kjemisk reaksjon. Hva er den samlede massen av produktene etter reaksjonen, og hvorfor?",
+        "fasit": "Produktene har samlet masse på 42 g. I en kjemisk reaksjon blir ingen atomer borte eller til, så massen bevares i et lukket system.",
+        "kriterier": [
+          "Oppgir 42 g.",
+          "Begrunner svaret med at massen bevares fordi atomene bare omorganiseres."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

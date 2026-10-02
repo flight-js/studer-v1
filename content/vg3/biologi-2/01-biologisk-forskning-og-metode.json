@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er den avhengige variabelen i et enzymforsøk der temperaturen endres?",
       "options": [
-        "Temperaturen",
+        "Mengden enzym i blandingen",
         "Mengden produkt som dannes",
-        "pH",
-        "Tiden"
+        "Temperaturen i reaksjonsblandingen",
+        "pH-verdien i reaksjonsblandingen"
       ],
       "correct": 1,
       "explain": "Det du måler."
@@ -90,9 +90,9 @@
       "text": "Hvorfor har vi en kontrollgruppe?",
       "options": [
         "For å vise hva som skjer uten behandlingen",
-        "For å få flere data",
-        "For å gjøre forsøket lengre",
-        "For å øke usikkerheten"
+        "For å øke antallet målinger i forsøket",
+        "For å kontrollere at måleutstyret fungerer",
+        "For å undersøke om forsøksobjektene er like"
       ],
       "correct": 0,
       "explain": "Gir et sammenligningsgrunnlag."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor trengs replikater i biologiske forsøk?",
       "options": [
-        "For å spare tid",
-        "For å fjerne kontrollgruppen",
-        "Fordi biologiske systemer varierer",
-        "Fordi loven krever det"
+        "Fordi hvert replikat undersøker en ny variabel",
+        "Fordi replikater erstatter en kontrollgruppe",
+        "Fordi biologiske systemer varierer mellom målinger",
+        "Fordi replikater gjør hypotesen mer presis"
       ],
       "correct": 2,
       "explain": "Gjør resultatene mer pålitelige."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er en fordel med feltarbeid?",
       "options": [
-        "Full kontroll over alle variabler",
-        "Ingen variasjon",
-        "Lave kostnader alltid",
+        "Bedre kontroll over miljøforholdene",
+        "Mindre variasjon mellom forsøksobjektene",
+        "Enklere måling av miljøfaktorer",
         "Realistiske data fra naturlige forhold"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva viser feilstolper som overlapper mye?",
       "options": [
-        "At forskjellen kanskje ikke er reell",
-        "At forskjellen er stor",
-        "At forsøket er perfekt",
-        "At det ikke finnes data"
+        "At forskjellen ikke kan skilles tydelig fra usikkerheten",
+        "At forskjellen er tydelig større enn usikkerheten",
+        "At resultatene viser en sikker behandlingseffekt",
+        "At målingene har svært liten spredning"
       ],
       "correct": 0,
       "explain": "Usikkerheten er stor i forhold til forskjellen.",
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvilken graf passer best for å vise en sammenheng mellom to målte størrelser?",
       "options": [
-        "Kakediagram",
+        "Søylediagram",
         "Punktdiagram",
-        "Tabell uten tall",
-        "Bilde"
+        "Linjediagram",
+        "Kakediagram"
       ],
       "correct": 1,
       "explain": "Viser mønsteret."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hvorfor skal metoden beskrives tydelig?",
       "options": [
-        "For at rapporten skal bli lang",
-        "For å skjule feil",
-        "For å imponere",
+        "For at resultatene skal bli enklere å tolke",
+        "For at hypotesen skal framstå som bekreftet",
+        "For at forsøket skal gi mindre biologisk variasjon",
         "For at andre skal kunne gjenta undersøkelsen"
       ],
       "correct": 3,
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hva er en hypotese?",
       "options": [
-        "En testbar påstand",
-        "En konklusjon",
-        "Et resultat",
-        "En tabell"
+        "En påstand som kan testes",
+        "En konklusjon som trekkes etter forsøket",
+        "En måling som registreres under forsøket",
+        "En tabell som viser forsøksresultatene"
       ],
       "correct": 0,
       "explain": "Testes gjennom forsøk."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Når brukes observasjonsstudier?",
       "options": [
-        "Når vi har full kontroll",
-        "Når vi ikke kan eller bør gjøre forsøk",
-        "Bare i laboratoriet",
-        "Aldri"
+        "Når variablene kan kontrolleres i laboratoriet",
+        "Når forsøk ikke kan eller bør gjennomføres",
+        "Når vi vil undersøke effekten av en behandling",
+        "Når vi trenger å endre én variabel kontrollert"
       ],
       "correct": 1,
       "explain": "For eksempel på ville dyr."
@@ -312,8 +312,8 @@
         "options": [
           "Punktdiagram",
           "Søylediagram",
-          "Linjediagram alltid",
-          "Ingen graf"
+          "Linjediagram",
+          "Histogram"
         ],
         "correct": 1,
         "explain": "For eksempel ulike behandlinger."
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Hva hører til drøftingen i en rapport?",
         "options": [
-          "Sammenligning med hypotese og teori",
-          "Utstyrslisten",
-          "Problemstillingen alene",
-          "Tittelen"
+          "Sammenligning av resultater med hypotese og teori",
+          "Beskrivelse av utstyr og materialer",
+          "Gjengivelse av problemstillingen og tittelen",
+          "Opplisting av måleresultater og tabeller"
         ],
         "correct": 0,
         "explain": "Og vurdering av feilkilder."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hvorfor fordeler vi forsøksobjekter tilfeldig?",
         "options": [
-          "For å spare plass",
-          "For å få færre data",
-          "For å redusere skjevheter",
-          "For å øke variasjonen bevisst"
+          "For å gjøre gruppestørrelsene mer like",
+          "For å øke variasjonen mellom gruppene",
+          "For å redusere systematiske skjevheter",
+          "For å gjøre behandlingseffekten tydeligere"
         ],
         "correct": 2,
         "explain": "Gruppene blir mer like."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

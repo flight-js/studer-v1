@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva er alternativkostnad?",
       "options": [
-        "Prisen på en vare",
+        "Prisen man betaler for alternativet man faktisk velger",
         "Verdien av det beste alternativet man velger bort",
-        "Skatten på en vare",
-        "Kostnaden for staten"
+        "Verdien av alle alternativene man vurderer før valget",
+        "Kostnaden ved å gjennomføre alternativet man faktisk velger"
       ],
       "correct": 1,
       "explain": "Alle valg har en alternativkostnad."
@@ -96,8 +96,8 @@
       "text": "Hvilken økonomisk modell har Norge?",
       "options": [
         "Blandingsøkonomi",
-        "Ren planøkonomi",
-        "Ren markedsøkonomi",
+        "Planøkonomi",
+        "Markedsøkonomi",
         "Naturalhusholdning"
       ],
       "correct": 0,
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "Hva studerer makroøkonomi?",
       "options": [
-        "Én bedrift",
-        "Én husholdning",
-        "Hele økonomien",
-        "Ett marked"
+        "Husholdninger og enkeltbedrifter",
+        "Priser og mengder i enkeltmarkeder",
+        "Hele økonomien i et land",
+        "Enkeltaktørers økonomiske valg"
       ],
       "correct": 2,
       "explain": "For eksempel arbeidsledighet og prisstigning."
@@ -119,9 +119,9 @@
       "id": "q04",
       "text": "Hvilken påstand er normativ?",
       "options": [
-        "Arbeidsledigheten økte i fjor",
-        "Renten er 4 %",
-        "BNP vokste med 2 %",
+        "Arbeidsledigheten økte med ett prosentpoeng i fjor",
+        "Norges Banks styringsrente ligger på fire prosent",
+        "BNP vokste med to prosent sammenlignet med året før",
         "Staten bør bruke mer penger på skole"
       ],
       "correct": 3,
@@ -132,9 +132,9 @@
       "text": "Renten stiger fra 4 % til 5 %. Hvor mye har den økt?",
       "options": [
         "Ett prosentpoeng, eller 25 prosent",
-        "Ett prosent",
-        "Fem prosentpoeng",
-        "20 prosent"
+        "Ett prosentpoeng, eller 20 prosent",
+        "Fem prosentpoeng, eller 125 prosent",
+        "Ett prosentpoeng, eller 5 prosent"
       ],
       "correct": 0,
       "explain": "(5 − 4) ÷ 4 = 25 %."
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hva viser kretsløpsmodellen?",
       "options": [
-        "Hvordan været påvirker økonomien",
-        "Strømmene av varer, arbeid og penger mellom husholdninger og bedrifter",
-        "Hvordan en bedrift lager budsjett",
-        "Hvordan aksjer handles"
+        "Hvordan en bedrift fordeler inntekter og utgifter gjennom året",
+        "Hvordan varer, arbeid og penger strømmer mellom husholdninger og bedrifter",
+        "Hvordan tilbud og etterspørsel bestemmer prisen i ett marked",
+        "Hvordan investorer kjøper og selger aksjer på børsen"
       ],
       "correct": 1,
       "explain": "Kan utvides med staten, banker og utlandet."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva er realkapital?",
       "options": [
-        "Penger i banken",
-        "Aksjer",
-        "Maskiner, bygninger og utstyr",
-        "Arbeidskraft"
+        "Penger, bankinnskudd og verdipapirer",
+        "Arbeidskraft, kunnskap og arbeidserfaring",
+        "Maskiner, bygninger og produksjonsutstyr",
+        "Råvarer, energi og naturressurser"
       ],
       "correct": 2,
       "explain": "En produksjonsfaktor."
@@ -167,10 +167,10 @@
       "id": "q08",
       "text": "Hvilken kilde gir offisiell statistikk om økonomien i Norge?",
       "options": [
-        "En interesseorganisasjon",
-        "En blogg",
-        "En bank sin reklame",
-        "SSB"
+        "Norges Bank",
+        "Finanstilsynet",
+        "Finans Norge",
+        "Statistisk sentralbyrå"
       ],
       "correct": 3,
       "explain": "Statistisk sentralbyrå.",
@@ -181,9 +181,9 @@
       "text": "Hva betyr forutsetningen «alt annet likt»?",
       "options": [
         "At vi ser på effekten av én endring mens alt annet holdes fast",
-        "At alle er like",
-        "At prisene aldri endres",
-        "At modellen alltid stemmer"
+        "At vi ser på effekten av én endring mens andre forhold får variere",
+        "At vi sammenligner to situasjoner der alle forhold endres samtidig",
+        "At vi holder alle forhold fast og undersøker ingen enkeltendring"
       ],
       "correct": 0,
       "explain": "En vanlig forenkling i modeller."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva er reelle tall?",
       "options": [
-        "Tall i løpende kroner",
+        "Tall oppgitt i løpende kroner",
         "Tall justert for prisstigning",
-        "Tall fra utlandet",
-        "Avrundede tall"
+        "Tall omregnet fra utenlandsk valuta",
+        "Tall avrundet til nærmeste hele krone"
       ],
       "correct": 1,
       "explain": "Nominelle tall er ikke justert."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva studerer mikroøkonomi?",
         "options": [
-          "Hele økonomien",
+          "Hele økonomien i et land",
           "Husholdninger, bedrifter og enkeltmarkeder",
-          "Bare staten",
-          "Bare utlandet"
+          "Statlige budsjetter og offentlige utgifter",
+          "Handel mellom Norge og andre land"
         ],
         "correct": 1,
         "explain": "Enkeltaktører."
@@ -333,9 +333,9 @@
         "text": "Hva er et basisår i en indeks?",
         "options": [
           "Året som settes til 100",
-          "Det siste året",
-          "Året med høyest pris",
-          "Et tilfeldig år"
+          "Året som ligger sist i tidsserien",
+          "Året som sammenlignes med basisåret",
+          "Året med den laveste prisstigningen"
         ],
         "correct": 0,
         "explain": "Andre år sammenlignes med det."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hvilken aktør har ansvar for renter og pengepolitikk?",
         "options": [
-          "NAV",
-          "SSB",
+          "Statistisk sentralbyrå",
+          "Konkurransetilsynet",
           "Norges Bank",
-          "Konkurransetilsynet"
+          "Finanstilsynet"
         ],
         "correct": 2,
         "explain": "Sentralbanken.",
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

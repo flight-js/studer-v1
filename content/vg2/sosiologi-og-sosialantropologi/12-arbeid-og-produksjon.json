@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva fant Marie Jahoda om arbeid?",
       "options": [
-        "At arbeid bare gir inntekt",
+        "At arbeid hovedsakelig dekker økonomiske behov som lønn og forbruk",
         "At arbeid også dekker behov som tidsstruktur, sosial kontakt og mening",
-        "At arbeidsledige er lykkeligere",
-        "At arbeid er skadelig"
+        "At arbeid dekker inntektsbehov, mens tidsstruktur kommer fra fritiden",
+        "At arbeid gir sosial kontakt, mens mening først og fremst skapes hjemme"
       ],
       "correct": 1,
       "explain": "Studien i Marienthal.",
@@ -92,9 +92,9 @@
       "text": "Hva er organisk solidaritet?",
       "options": [
         "Samhold fordi folk er avhengige av hverandre",
-        "Samhold fordi folk er like",
-        "Økologisk jordbruk",
-        "En fagforening"
+        "Samhold fordi folk er like og utfører lignende oppgaver",
+        "Samhold fordi folk følger felles regler og tradisjoner",
+        "Samhold fordi folk konkurrerer om de samme ressursene"
       ],
       "correct": 0,
       "explain": "Typisk for moderne samfunn."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva innførte Henry Ford i 1913?",
       "options": [
-        "Fagforeninger",
-        "Datamaskiner",
+        "Tidsstudier av arbeidsoppgaver",
+        "Akkordlønn i bilfabrikkene",
         "Samlebåndet",
-        "Plattformarbeid"
+        "Elektrisk motorproduksjon"
       ],
       "correct": 2,
       "explain": "Masseproduksjon av biler.",
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva mente Marx med fremmedgjøring?",
       "options": [
-        "Å flytte til utlandet",
-        "Å lære et nytt språk",
-        "Å bytte jobb",
+        "At arbeideren får større kontroll over produktet, arbeidet og seg selv",
+        "At arbeideren får en rettferdig andel av produktet og styrer arbeidet selv",
+        "At arbeideren får lønn ut fra verdien av produktet han har laget",
         "At arbeideren blir fremmed for produktet, arbeidet og seg selv"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hva kjennetegner den norske modellen?",
       "options": [
         "Trepartssamarbeid, høy organisasjonsgrad og medbestemmelse",
-        "Ingen fagforeninger",
-        "Store lønnsforskjeller",
-        "Ingen arbeidsmiljølov"
+        "Topartssamarbeid, høy organisasjonsgrad og individuell lønnsfastsettelse",
+        "Trepartssamarbeid, lav organisasjonsgrad og svak medbestemmelse",
+        "Trepartssamarbeid, store lønnsforskjeller og begrenset medbestemmelse"
       ],
       "correct": 0,
       "explain": "Gir trygghet og små lønnsforskjeller."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva er en ulempe ved plattformarbeid?",
       "options": [
-        "For lite fleksibilitet",
-        "Ofte ingen fast lønn, sykelønn og pensjon",
-        "For mange faste stillinger",
-        "For høy lønn"
+        "Mindre fleksibilitet i valg av arbeidstid og oppdrag",
+        "Usikkerhet om fast lønn, sykelønn og pensjon",
+        "Begrenset tilgang til digitale verktøy og kundevurderinger",
+        "Færre muligheter til å velge mellom ulike oppdrag"
       ],
       "correct": 1,
       "explain": "Arbeidstakeren bærer mye av risikoen."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva viste Adam Smiths knappenålsfabrikk?",
       "options": [
-        "At maskiner er farlige",
-        "At små fabrikker er best",
+        "At arbeidsdeling senker produktiviteten fordi oppgavene gjentas",
+        "At arbeidsdeling gjør at hver arbeider lager hele produktet",
         "At arbeidsdeling øker produktiviteten kraftig",
-        "At alle bør gjøre alt"
+        "At arbeidsdeling først og fremst øker kvaliteten på varene"
       ],
       "correct": 2,
       "explain": "Fra 1776."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva skjedde ved Rana Plaza i 2013?",
       "options": [
-        "En stor streik i Norge",
-        "Innføringen av samlebåndet",
-        "En ny handelsavtale",
+        "En fabrikkbygning raste sammen, og rundt 200 tekstilarbeidere omkom",
+        "En tekstilfabrikk brant, og over 1100 arbeidere omkom",
+        "En fabrikkbygning raste sammen, og over 1100 arbeidere ble skadet",
         "En fabrikkbygning raste sammen, og over 1100 tekstilarbeidere omkom"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva er postfordisme?",
       "options": [
         "Fleksibel og kunnskapsbasert produksjon",
-        "Masseproduksjon ved samlebånd",
-        "Håndverksproduksjon i hjemmet",
-        "Jordbruk"
+        "Standardisert og samlebåndsbasert masseproduksjon",
+        "Håndverksbasert produksjon i små verksteder",
+        "Råvarebasert produksjon i jordbruket"
       ],
       "correct": 0,
       "explain": "Fra 1970-tallet."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hvor mange i Norge arbeider i tjenesteytende næringer?",
       "options": [
-        "Under en av ti",
+        "Under én av fire",
         "Over tre av fire",
-        "Omtrent halvparten",
-        "Nesten ingen"
+        "Omtrent én av to",
+        "Rundt én av fire"
       ],
       "correct": 1,
       "explain": "Tertiærnæringene dominerer.",
@@ -331,9 +331,9 @@
         "text": "Hva er et trepartssamarbeid?",
         "options": [
           "Samarbeid mellom arbeidstakere, arbeidsgivere og staten",
-          "Tre bedrifter som slår seg sammen",
-          "Tre fagforeninger",
-          "Tre land i en handelsavtale"
+          "Samarbeid mellom arbeidstakere, arbeidsgivere og forbrukere",
+          "Samarbeid mellom staten, bedrifter og forbrukere",
+          "Samarbeid mellom tre arbeidsgiverorganisasjoner og staten"
         ],
         "correct": 0,
         "explain": "Kjernen i den norske modellen."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva er en fordel ved globale verdikjeder for forbrukere?",
         "options": [
-          "Bedre arbeidsforhold overalt",
-          "Mindre transport",
-          "Billigere varer",
-          "Flere lokale arbeidsplasser alltid"
+          "Bedre arbeidsvilkår hos produsentene",
+          "Kortere transport av varene",
+          "Lavere priser på varer",
+          "Flere lokale arbeidsplasser i produksjonen"
         ],
         "correct": 2,
         "explain": "Men de kan gi dårlige arbeidsforhold."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

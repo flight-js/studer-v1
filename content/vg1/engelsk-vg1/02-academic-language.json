@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Which sentence is most suitable for an academic essay?",
       "options": [
-        "Kids use their phones way too much.",
+        "I reckon that young people spend far too much time on their phones.",
         "It could be argued that young people spend a considerable amount of time on their phones.",
-        "Honestly, phones are super bad.",
-        "I think phones are, like, a problem."
+        "Young people use their phones loads, and this is a really serious issue.",
+        "I think young people are on their phones way too much these days."
       ],
       "correct": 1,
       "explain": "The sentence uses formal vocabulary and hedging."
@@ -94,9 +94,9 @@
       "text": "What is hedging?",
       "options": [
         "Careful language that avoids claiming too much",
-        "Using many idioms",
-        "Writing in the passive voice",
-        "Repeating the same word"
+        "Language that makes a claim sound more certain",
+        "Language that replaces verbs with noun forms",
+        "Language that adds examples to support a claim"
       ],
       "correct": 0,
       "explain": "Words like may, might and suggests are typical hedging."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Which is a nominalisation of “The school decided to ban phones”?",
       "options": [
-        "The school is deciding to ban phones.",
-        "Phones were banned by the school.",
+        "The school's discussion of banning phones",
+        "The school's plan to ban phones",
         "The school's decision to ban phones",
-        "The school decides phones."
+        "The school's rule about banning phones"
       ],
       "correct": 2,
       "explain": "The verb decided becomes the noun decision."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Which formal word can replace find out?",
       "options": [
-        "get",
-        "look",
-        "grab",
+        "describe",
+        "predict",
+        "consider",
         "discover"
       ],
       "correct": 3,
@@ -131,9 +131,9 @@
       "text": "Why should you avoid contractions in academic writing?",
       "options": [
         "Because they are too informal",
-        "Because they are grammatically wrong",
-        "Because they make texts longer",
-        "Because they are American"
+        "Because they make sentences grammatically incorrect",
+        "Because they make written arguments less logical",
+        "Because they are difficult to punctuate correctly"
       ],
       "correct": 0,
       "explain": "Contractions are fine in speech and informal writing."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "What does “a double-edged sword” mean?",
       "options": [
-        "A dangerous weapon",
+        "A choice between two equally difficult options",
         "Something with both advantages and disadvantages",
-        "A difficult decision",
-        "A strong argument"
+        "An argument with two opposing sides",
+        "A problem with two possible solutions"
       ],
       "correct": 1,
       "explain": "It is an idiom used about things that can both help and harm.",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Which sentence is a complex sentence?",
       "options": [
-        "Emissions are rising.",
-        "Emissions are rising, and temperatures are increasing.",
-        "Although many countries have signed agreements, emissions continue to rise.",
-        "Rising emissions."
+        "Emissions continue to rise despite the agreements signed by countries.",
+        "Countries signed agreements, and emissions continued to rise.",
+        "Although countries signed agreements, emissions continue to rise.",
+        "International agreements were signed by countries around the world."
       ],
       "correct": 2,
       "explain": "It has a subordinate clause starting with although."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Which phrase is an example of signposting?",
       "options": [
-        "stuff like that",
-        "kind of",
-        "you know",
+        "The central argument",
+        "Several important points",
+        "A possible explanation",
         "In conclusion"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "What is register?",
       "options": [
         "The level of formality in language",
-        "A list of students",
-        "A type of dictionary",
-        "The pronunciation of a word"
+        "The structure used to organise a text",
+        "The accent used when speaking a language",
+        "The number of words in a sentence"
       ],
       "correct": 0,
       "explain": "Choosing the right register depends on the situation."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Which sentence uses the passive voice?",
       "options": [
-        "We conducted the survey in 2024.",
+        "Researchers conducted the survey in 2024.",
         "The survey was conducted in 2024.",
-        "They are conducting a survey.",
-        "Conduct the survey!"
+        "The team completed the survey in 2024.",
+        "The researchers analysed the survey in 2024."
       ],
       "correct": 1,
       "explain": "The passive focuses on the action rather than who did it."
@@ -322,9 +322,9 @@
         "text": "Which word is a synonym for show in academic writing?",
         "options": [
           "demonstrate",
-          "grab",
-          "stuff",
-          "reckon"
+          "investigate",
+          "summarise",
+          "consider"
         ],
         "correct": 0,
         "explain": "Illustrate and indicate are other options.",
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "What does “the tip of the iceberg” mean?",
         "options": [
-          "Something very cold",
+          "The most important part of a larger situation",
           "A small part of a much bigger problem",
-          "The best part of something",
-          "The end of a discussion"
+          "The final stage of a difficult situation",
+          "A hidden cause behind a visible problem"
         ],
         "correct": 1,
         "explain": "Most of an iceberg is hidden under water.",
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "Which sentence uses hedging?",
         "options": [
-          "Social media causes depression.",
-          "Social media is always harmful.",
+          "Research confirms that heavy social media use harms mental health.",
+          "Studies show that heavy social media use causes mental health problems.",
           "Research suggests that heavy social media use may affect mental health.",
-          "Everyone knows social media is bad."
+          "Experts agree that heavy social media use damages mental health."
         ],
         "correct": 2,
         "explain": "Suggests and may show caution."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

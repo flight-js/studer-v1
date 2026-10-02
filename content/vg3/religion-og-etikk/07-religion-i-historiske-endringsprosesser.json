@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hvilken rolle spilte kristendommen i middelalderens Norge?",
       "options": [
-        "Den svekket kongemakten",
+        "Den svekket kongemakten og innførte nye lover",
         "Den styrket kongemakten og ga nye lover",
-        "Den hadde ingen betydning",
-        "Den førte til demokrati"
+        "Den styrket høvdingmakten og innførte nye lover",
+        "Den styrket kongemakten og videreførte norrøne lover"
       ],
       "correct": 1,
       "explain": "Knyttet Norge til den europeiske kirken."
@@ -93,9 +93,9 @@
       "text": "Når ble lutherdommen innført i Norge?",
       "options": [
         "1537",
-        "1030",
-        "1814",
-        "1905"
+        "1536",
+        "1529",
+        "1814"
       ],
       "correct": 0,
       "explain": "Av den dansk-norske kongen."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva protesterte Luther mot?",
       "options": [
-        "Bibelen på folkespråket",
-        "Salmer",
+        "Helgendyrkelsen og klostrenes makt",
+        "Bibelen på folkespråket og kirkesang",
         "Avlatshandelen og pavens makt",
-        "Nattverden"
+        "Pilegrimsvandringer og kirkens høytider"
       ],
       "correct": 2,
       "explain": "Startet reformasjonen."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva skjedde i Iran i 1979?",
       "options": [
-        "Landet ble sekulært",
-        "Landet ble kristent",
-        "Landet ble en koloni",
+        "Landet ble en sekulær republikk",
+        "Landet ble et kristent monarki",
+        "Landet ble et kommunistisk styre",
         "Landet ble en islamsk republikk"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva bygde Martin Luther King borgerrettighetskampen på?",
       "options": [
         "Kristen tro og ikkevold",
-        "Vold",
-        "Kommunisme",
-        "Nasjonalisme"
+        "Kristen tro og væpnet motstand",
+        "Kommunistisk ideologi og ikkevold",
+        "Nasjonalisme og væpnet motstand"
       ],
       "correct": 0,
       "explain": "Religion som frigjørende kraft.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva skjedde med statskirkeordningen i 2012?",
       "options": [
-        "Den ble innført",
+        "Den ble videreført i Grunnloven",
         "Den ble avviklet i Grunnloven",
-        "Den ble utvidet",
-        "Den ble flyttet til Sverige"
+        "Den ble utvidet gjennom en grunnlovsendring",
+        "Den ble avviklet gjennom en folkeavstemning"
       ],
       "correct": 1,
       "explain": "Kirken ble eget rettssubjekt i 2017."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hva var en positiv side ved reformasjonen?",
       "options": [
-        "Religionskriger",
-        "Mer avlat",
+        "Bibler på latin og færre kunne lese selv",
+        "Mer avlatshandel og sterkere makt for paven",
         "Bibler og salmer på folkespråket og økt leseferdighet",
-        "Større pavemakt"
+        "Flere klostre og større innflytelse for paven"
       ],
       "correct": 2,
       "explain": "Folk kunne lese selv."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hva er frigjøringsteologi?",
       "options": [
-        "Teologi om kongemakt",
-        "Teologi om misjon i Norge",
-        "Teologi om avlat",
+        "Teologi om lydighet mot kongemakten",
+        "Teologi om omvendelse gjennom misjon",
+        "Teologi om tilgivelse gjennom avlat",
         "Teologi om rettferdighet for de fattige"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva betyr religionens tilbakekomst?",
       "options": [
         "At religion igjen får større plass i offentligheten",
-        "At religioner forsvinner",
-        "At kirker rives",
-        "At alle blir ateister"
+        "At religion igjen får mindre plass i offentligheten",
+        "At religiøse ledere igjen får kontroll over staten",
+        "At religion igjen blir en privatsak for den enkelte"
       ],
       "correct": 0,
       "explain": "En motstrøm til sekulariseringen."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva tillot dissenterloven fra 1845?",
       "options": [
-        "Islam",
+        "Jødiske trossamfunn",
         "Andre kristne trossamfunn",
-        "Ateisme",
-        "Jødedom"
+        "Muslimske trossamfunn",
+        "Buddhistiske trossamfunn"
       ],
       "correct": 1,
       "explain": "Jøder fikk adgang i 1851.",
@@ -320,10 +320,10 @@
         "type": "flervalg",
         "text": "Hvem kjempet mot apartheid i Sør-Afrika ut fra kristen tro?",
         "options": [
-          "Martin Luther",
+          "Martin Luther King",
           "Desmond Tutu",
-          "Olav Tryggvason",
-          "Paulus"
+          "F.W. de Klerk",
+          "Steve Biko"
         ],
         "correct": 1,
         "explain": "Erkebiskop i Sør-Afrika.",
@@ -335,9 +335,9 @@
         "text": "Hvilket spørsmål er nyttig når du drøfter religionens rolle i en endring?",
         "options": [
           "Var religionen årsak, redskap eller følge?",
-          "Hvor mange kirker finnes?",
-          "Hvilken farge hadde kirkene?",
-          "Hvor gammel var kongen?"
+          "Hvor mange religiøse bygg fantes i området?",
+          "Hvilket år ble endringen gjennomført?",
+          "Hvilken religion hadde flest tilhengere?"
         ],
         "correct": 0,
         "explain": "Og hvem brukte religionen."
@@ -347,7 +347,7 @@
         "type": "flervalg",
         "text": "Hvor bor de fleste kristne i dag?",
         "options": [
-          "I Norden",
+          "I Nord-Amerika",
           "I Vest-Europa",
           "I det globale sør",
           "I Midtøsten"
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

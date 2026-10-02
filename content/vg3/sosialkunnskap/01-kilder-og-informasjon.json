@@ -83,9 +83,9 @@
       "text": "Hvem lager offisiell statistikk i Norge?",
       "options": [
         "NRK",
-        "Statistisk sentralbyrå",
-        "Stortinget",
-        "Faktisk.no"
+        "SSB",
+        "NHO",
+        "LO"
       ],
       "correct": 1,
       "explain": "SSB.",
@@ -95,10 +95,10 @@
       "id": "q02",
       "text": "Hvorfor er medianinntekt ofte bedre enn gjennomsnittsinntekt?",
       "options": [
-        "Fordi den ikke påvirkes så mye av noen få svært høye inntekter",
-        "Fordi den alltid er høyere",
-        "Fordi den er lettere å regne ut",
-        "Fordi den er nyere"
+        "Fordi noen få svært høye inntekter påvirker den mindre",
+        "Fordi den regnes ut ved å dele samlet inntekt på antall personer",
+        "Fordi den bygger på inntekten til den største gruppen",
+        "Fordi den gir mest vekt til de høyeste inntektene"
       ],
       "correct": 0,
       "explain": "Viser den typiske inntekten."
@@ -107,21 +107,21 @@
       "id": "q03",
       "text": "Andelen øker fra 10 % til 15 %. Hvor mange prosentpoeng er det?",
       "options": [
-        "50",
-        "15",
-        "5",
-        "1,5"
+        "50 prosentpoeng",
+        "15 prosentpoeng",
+        "5 prosentpoeng",
+        "1,5 prosentpoeng"
       ],
       "correct": 2,
-      "explain": "Men en økning på 50 prosent."
+      "explain": "Forskjellen mellom 10 % og 15 % er fem prosentpoeng."
     },
     {
       "id": "q04",
       "text": "Hva er en NOU?",
       "options": [
-        "En nyhetsartikkel",
-        "En lov",
-        "En statistikkbank",
+        "En offentlig melding fra Stortinget",
+        "Et vedtatt forslag til lov",
+        "En oversikt over offisiell statistikk",
         "En grundig offentlig utredning"
       ],
       "correct": 3,
@@ -133,45 +133,45 @@
       "text": "Hva er desinformasjon?",
       "options": [
         "Bevisst falsk eller villedende informasjon",
-        "Feil uten vilje til å villede",
-        "Offentlig statistikk",
-        "Satire"
+        "Feil informasjon som deles uten å villede",
+        "Påstander som ikke er kontrollert mot kilder",
+        "Satirisk innhold som kritiserer en offentlig sak"
       ],
       "correct": 0,
-      "explain": "Feilinformasjon er utilsiktet."
+      "explain": "Det sentrale er at avsenderen bevisst prøver å villede."
     },
     {
       "id": "q06",
       "text": "Hvilke etiske regler følger redaktørstyrte medier?",
       "options": [
-        "Straffeloven alene",
+        "Åndsverkloven",
         "Vær Varsom-plakaten",
-        "Ingen regler",
-        "Reglene til sosiale medier"
+        "Medieansvarsloven",
+        "Markedsføringsloven"
       ],
       "correct": 1,
-      "explain": "Klager går til PFU.",
+      "explain": "Brudd på plakaten kan klages inn for PFU.",
       "niva": "eksempel"
     },
     {
       "id": "q07",
       "text": "Hvorfor er en nettavstemning ofte ikke representativ?",
       "options": [
-        "Fordi den er digital",
-        "Fordi den er gratis",
+        "Fordi avstemningen gjennomføres på internett",
+        "Fordi svarene samles inn uten intervjuer",
         "Fordi hvem som helst kan svare",
-        "Fordi den er for stor"
+        "Fordi deltakerne får svare anonymt"
       ],
       "correct": 2,
-      "explain": "Utvalget er selvvalgt."
+      "explain": "Deltakerne velger selv å svare, så utvalget blir selvvalgt."
     },
     {
       "id": "q08",
       "text": "Hvilket kildekritisk spørsmål handler om interesser?",
       "options": [
-        "Når ble den laget?",
-        "Hvor lang er den?",
-        "Hvilken font brukes?",
+        "Når ble kilden laget, og hvor lenge er den?",
+        "Hvordan ble opplysningene samlet inn, og hvem deltok?",
+        "Hvilke kilder viser kilden til, og hvor finner vi dem?",
         "Hvem står bak, og hva vil de oppnå?"
       ],
       "correct": 3,
@@ -182,9 +182,9 @@
       "text": "Hva kartlegger Ungdata?",
       "options": [
         "Hvordan ungdom har det",
-        "Boligpriser",
-        "Valgresultater",
-        "Været"
+        "Hvordan voksne har det",
+        "Hvordan eldre har det",
+        "Hvordan barnehagebarn har det"
       ],
       "correct": 0,
       "explain": "Venner, skole, fritid og helse.",
@@ -194,13 +194,13 @@
       "id": "q10",
       "text": "Hvordan kan en graf villede?",
       "options": [
-        "Ved å ha farger",
+        "Ved at grafen har en tydelig overskrift",
         "Ved at aksen ikke starter på null",
-        "Ved å ha tittel",
-        "Ved å vise tall"
+        "Ved at alle verdier vises med samme enhet",
+        "Ved at aksene har navn og målestokk"
       ],
       "correct": 1,
-      "explain": "Små forskjeller ser store ut."
+      "explain": "Da kan små forskjeller se store ut."
     }
   ],
   "mindmap": {
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva gjør Faktisk.no?",
         "options": [
-          "Lager statistikk",
-          "Sjekker påstander i offentligheten",
-          "Skriver lover",
-          "Driver meningsmålinger"
+          "Samler statistikk om samfunnsutviklingen fra registre",
+          "Kontrollerer faktapåstander som blir spredt offentlig",
+          "Undersøker holdninger i befolkningen med meningsmålinger",
+          "Kontrollerer om lover er vedtatt av Stortinget"
         ],
         "correct": 1,
         "explain": "Faktasjekk.",
@@ -333,25 +333,25 @@
         "text": "Hva bør en god analyse av et samfunnsspørsmål inneholde?",
         "options": [
           "Fakta, teori, drøfting og begrunnet konklusjon",
-          "Bare egne meninger",
-          "Bare én kilde",
-          "Bare statistikk"
+          "Fakta, egne meninger, sammendrag og personlig konklusjon",
+          "Teori, eksempler, beskrivelse og en kort oppsummering",
+          "Statistikk, eksempler, beskrivelse og ubearbeidede sitater"
         ],
         "correct": 0,
-        "explain": "Med tydelige kildehenvisninger."
+        "explain": "Bruk tydelige kildehenvisninger."
       },
       {
         "id": "m07",
         "type": "flervalg",
         "text": "Hvilket spørsmål handler om metode?",
         "options": [
-          "Hvem står bak?",
-          "Når ble den laget?",
+          "Hvem har samlet inn kunnskapen?",
+          "Når ble kunnskapen publisert?",
           "Hvordan er kunnskapen framskaffet?",
-          "Hvem liker den?"
+          "Hvilke interesser har avsenderen?"
         ],
         "correct": 2,
-        "explain": "Utvalg og framgangsmåte."
+        "explain": "Handler blant annet om utvalg og framgangsmåte."
       }
     ],
     "skriv": [
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

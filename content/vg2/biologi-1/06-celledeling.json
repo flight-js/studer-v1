@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er resultatet av mitose?",
       "options": [
-        "Fire haploide celler",
+        "To genetisk ulike celler",
         "To genetisk like celler",
-        "To celler med halvt kromosomtall",
-        "Én stor celle"
+        "Fire genetisk like celler",
+        "To haploide datterceller"
       ],
       "correct": 1,
       "explain": "Brukes til vekst og reparasjon."
@@ -92,9 +92,9 @@
       "text": "Hva er resultatet av meiose?",
       "options": [
         "Fire haploide kjønnsceller",
-        "To like kroppsceller",
-        "Én diploid celle",
-        "Åtte celler"
+        "To haploide kjønnsceller",
+        "Fire diploide kroppsceller",
+        "To genetisk like celler"
       ],
       "correct": 0,
       "explain": "Kromosomtallet halveres."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Når kopieres DNA-et i cellesyklusen?",
       "options": [
-        "I metafasen",
-        "I cytokinesen",
-        "I interfasen (S-fasen)",
-        "I telofasen"
+        "I G1-fasen i interfasen",
+        "I G2-fasen i interfasen",
+        "I S-fasen i interfasen",
+        "I metafasen i mitosen"
       ],
       "correct": 2,
       "explain": "Før selve delingen."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva skjer i anafasen?",
       "options": [
-        "Kjernemembranen dannes",
-        "Kromosomene kveiles opp",
-        "Cellen vokser",
-        "Søsterkromatidene trekkes mot hver sin pol"
+        "Kjernemembranen brytes ned før kromosomene skilles.",
+        "Kromosomene stiller seg langs cellens midtplan.",
+        "Nye kjernemembraner dannes rundt kromosomene.",
+        "Søsterkromatidene trekkes mot hver sin pol."
       ],
       "correct": 3,
       "explain": "Hver dattercelle får en kopi."
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hvordan deler bakterier seg?",
       "options": [
-        "Ved todeling",
-        "Ved meiose",
-        "Ved mitose med kjernemembran",
-        "Ved sporedannelse alltid"
+        "Ved todeling av cellen",
+        "Ved mitotisk deling av cellen",
+        "Ved meiotisk deling av cellen",
+        "Ved dannelse av kjønnsceller"
       ],
       "correct": 0,
       "explain": "Det ringformede DNA-et kopieres først."
@@ -141,8 +141,8 @@
       "options": [
         "Ukontrollert celledeling",
         "Programmert celledød",
-        "Kopiering av DNA",
-        "Overkrysning"
+        "Planlagt DNA-kopiering",
+        "Utveksling av kromosomdeler"
       ],
       "correct": 1,
       "explain": "Skadde celler kan fjerne seg selv."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva gjør p53?",
       "options": [
-        "Driver celledelingen fram",
-        "Lager nye kromosomer",
+        "Driver celledelingen fram ved DNA-skade",
+        "Lager nye kromosomer før celledeling",
         "Stopper delingen ved DNA-skade",
-        "Bryter ned cellemembranen"
+        "Bryter ned cellemembranen ved skade"
       ],
       "correct": 2,
       "explain": "Det er et tumorsuppressorprotein.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva er et onkogen?",
       "options": [
-        "Et gen som bremser deling",
-        "Et gen for kjønnsceller",
-        "Et virus",
+        "Et gen som bremser ukontrollert celledeling",
+        "Et gen som styrer dannelsen av kjønnsceller",
+        "Et gen som reparerer DNA før celledeling",
         "Et mutert gen som driver ukontrollert deling"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hvilke to prosesser i meiosen gir genetisk variasjon?",
       "options": [
         "Overkrysning og tilfeldig fordeling av kromosomer",
-        "Todeling og cytokinese",
-        "Apoptose og mitose",
-        "Interfase og telofase"
+        "Todeling og fordeling av kromosomer",
+        "Apoptose og celledeling i kroppen",
+        "DNA-kopiering og cytokinese i meiosen"
       ],
       "correct": 0,
       "explain": "Derfor er søsken forskjellige."
@@ -191,7 +191,7 @@
         "46",
         "23",
         "92",
-        "12"
+        "22"
       ],
       "correct": 1,
       "explain": "Halvparten av 46."
@@ -317,8 +317,8 @@
         "options": [
           "Ved polene",
           "På midtplanet",
-          "Utenfor cellen",
-          "I kjernemembranen"
+          "I kjernemembranen",
+          "Langs cellemembranen"
         ],
         "correct": 1,
         "explain": "Derfra trekkes de fra hverandre."
@@ -329,9 +329,9 @@
         "text": "Hvilken faktor øker risikoen for mutasjoner i hudceller?",
         "options": [
           "UV-stråling",
+          "Kroppstemperatur",
           "Mosjon",
-          "Søvn",
-          "Vann"
+          "Søvn"
         ],
         "correct": 0,
         "explain": "UV kan skade DNA.",
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva brukes mitose til?",
         "options": [
-          "Bare til å lage kjønnsceller",
-          "Bare hos bakterier",
+          "Kjønnscelledannelse, kromosomhalvering og variasjon",
+          "DNA-kopiering, overkrysning og kjønnscelledannelse",
           "Vekst, reparasjon og ukjønnet formering",
-          "Å halvere kromosomtallet"
+          "Befruktning, kromosomhalvering og variasjon"
         ],
         "correct": 2,
         "explain": "Kjønnsceller lages ved meiose."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

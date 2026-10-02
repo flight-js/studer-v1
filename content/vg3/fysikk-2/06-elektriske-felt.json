@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva skjer mellom to like ladninger?",
       "options": [
-        "De tiltrekker hverandre",
-        "De frastøter hverandre",
-        "Ingenting",
-        "De nøytraliserer hverandre"
+        "Like ladninger tiltrekker hverandre",
+        "Like ladninger frastøter hverandre",
+        "Like ladninger nøytraliserer hverandre",
+        "Like ladninger påvirker ikke hverandre"
       ],
       "correct": 1,
       "explain": "Ulike ladninger tiltrekker hverandre."
@@ -91,7 +91,7 @@
       "options": [
         "Omtrent 0,90 N",
         "Omtrent 9,0 N",
-        "Omtrent 0,09 N",
+        "Omtrent 0,090 N",
         "Omtrent 90 N"
       ],
       "correct": 0,
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hvilken retning har kraften på et elektron i et elektrisk felt?",
       "options": [
-        "Med feltet",
-        "Vinkelrett på feltet",
-        "Ingen kraft",
-        "Mot feltet"
+        "Kraften peker i feltretningen",
+        "Kraften peker vinkelrett på feltretningen",
+        "Elektronet påvirkes ikke av feltet",
+        "Kraften peker motsatt feltretningen"
       ],
       "correct": 3,
       "explain": "Elektronet er negativt."
@@ -126,9 +126,9 @@
       "text": "Hvor mye er 1 eV?",
       "options": [
         "1,60 · 10⁻¹⁹ J",
-        "1 J",
-        "9,11 · 10⁻³¹ J",
-        "6,02 · 10²³ J"
+        "1,60 · 10⁻¹⁸ J",
+        "1,60 · 10⁻²⁰ J",
+        "9,11 · 10⁻³¹ J"
       ],
       "correct": 0,
       "explain": "Energien ved akselerasjon gjennom 1 V."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Et elektron akselereres fra ro gjennom 100 V. Hva blir farten omtrent?",
       "options": [
-        "3,0 · 10⁸ m/s",
+        "1,9 · 10⁶ m/s",
         "5,9 · 10⁶ m/s",
-        "100 m/s",
-        "1,6 · 10⁻¹⁷ m/s"
+        "1,9 · 10⁷ m/s",
+        "5,9 · 10⁵ m/s"
       ],
       "correct": 1,
       "explain": "v = √(2eU / m)."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvilken bane følger en ladning som sendes vinkelrett inn i et homogent felt?",
       "options": [
-        "Sirkel",
-        "Rett linje",
-        "Parabel",
-        "Spiral"
+        "En sirkel",
+        "En rett linje",
+        "En parabel",
+        "En spiral"
       ],
       "correct": 2,
       "explain": "Konstant kraft, som i et skrått kast."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hva viser tette feltlinjer?",
       "options": [
-        "Svakt felt",
-        "Ingen ladning",
-        "Nøytralt område",
-        "Sterkt felt"
+        "Et svakt elektrisk felt",
+        "Et homogent elektrisk felt",
+        "Et elektrisk felt med lav spenning",
+        "Et sterkt elektrisk felt"
       ],
       "correct": 3,
       "explain": "Feltlinjetettheten viser styrken."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hvordan skiller elektrisk kraft seg fra gravitasjon?",
       "options": [
-        "Den kan være både tiltrekning og frastøtning",
-        "Den avtar ikke med avstanden",
-        "Den er alltid svakere",
-        "Den virker bare på masse"
+        "Den kan både tiltrekke og frastøte ladninger.",
+        "Den avtar når avstanden mellom ladningene blir mindre.",
+        "Den virker bare mellom ladninger med ulikt fortegn.",
+        "Den virker bare på legemer som har masse."
       ],
       "correct": 0,
       "explain": "Gravitasjonen er alltid tiltrekning."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva lagrer en kondensator?",
       "options": [
-        "Magnetisk energi",
-        "Energi i det elektriske feltet mellom plater",
-        "Kjemisk energi",
-        "Kjerneenergi"
+        "Magnetisk energi i feltet mellom platene",
+        "Elektrisk energi i feltet mellom platene",
+        "Kjemisk energi i stoffet mellom platene",
+        "Kjerneenergi i atomene i platene"
       ],
       "correct": 1,
       "explain": "Brukes i elektronikk.",
@@ -310,8 +310,8 @@
         "options": [
           "N/kg",
           "V/m",
-          "J",
-          "C"
+          "J/C",
+          "C/m"
         ],
         "correct": 1,
         "explain": "Også N/C."
@@ -324,7 +324,7 @@
           "W = qU",
           "W = q/U",
           "W = U/q",
-          "W = q + U"
+          "W = qE"
         ],
         "correct": 0,
         "explain": "Omformes til kinetisk energi."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva skjer når feltet mellom en sky og bakken blir veldig sterkt?",
         "options": [
-          "Det blir regn",
-          "Det blir magnetfelt",
-          "Det kan oppstå lyn",
-          "Ingenting"
+          "Luften kan bli mer elektrisk isolerende.",
+          "Tyngdekraften mellom skyen og bakken kan øke.",
+          "Det kan oppstå lyn mellom skyen og bakken.",
+          "Skyen kan få større elektrisk motstand."
         ],
         "correct": 2,
         "explain": "Luften begynner å lede strøm.",
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

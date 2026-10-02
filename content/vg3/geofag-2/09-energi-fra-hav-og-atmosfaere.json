@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva driver de fleste energiressursene i hav og atmosfære?",
       "options": [
-        "Jordas indre varme",
-        "Sola",
-        "Månen alene",
-        "Vulkaner"
+        "Energi fra jordas indre varme",
+        "Energi fra sola",
+        "Energi fra månens tyngdekraft",
+        "Energi fra jordas rotasjon"
       ],
       "correct": 1,
       "explain": "Tidevann er unntaket."
@@ -91,7 +91,7 @@
         "Åtte ganger",
         "To ganger",
         "Fire ganger",
-        "Ingen endring"
+        "Seks ganger"
       ],
       "correct": 0,
       "explain": "Effekten følger vindfarten i tredje potens."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvilken fordel har tidevannskraft?",
       "options": [
-        "Den er billigst",
-        "Den finnes overalt",
-        "Den er forutsigbar",
-        "Den krever ingen utstyr"
+        "Produksjonen fra tidevann er jevn gjennom døgnet.",
+        "Anlegg for tidevannskraft kan plasseres langt fra kysten.",
+        "Produksjonen fra tidevann er forutsigbar.",
+        "Tidevannskraft produserer mest når vinden er sterk."
       ],
       "correct": 2,
       "explain": "Vi vet når tidevannet kommer."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva skyldes tidevannet hovedsakelig?",
       "options": [
-        "Vinden",
-        "Sola alene",
-        "Havstrømmene",
-        "Månens og solas tiltrekning"
+        "Vindens påvirkning på havoverflaten",
+        "Jordas rotasjon og havstrømmer",
+        "Solas oppvarming av havvannet",
+        "Månens og solas gravitasjonstrekk"
       ],
       "correct": 3,
       "explain": "Gravitasjon."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvorfor er flytende havvind viktig for Norge?",
       "options": [
-        "Fordi det kan brukes på dypt vann",
-        "Fordi det er billigst",
-        "Fordi det ikke trenger vind",
-        "Fordi det står på land"
+        "Flytende turbiner kan brukes på dypt vann.",
+        "Flytende turbiner kan brukes uten å være forankret.",
+        "Flytende turbiner kan plasseres på land nær kysten.",
+        "Flytende turbiner trenger ikke kabler for strømoverføring."
       ],
       "correct": 0,
       "explain": "Mye dypt hav langs kysten."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er en utfordring med bølgekraft?",
       "options": [
-        "For lite energi",
-        "Utstyret må tåle stormer og saltvann",
-        "Den er for forutsigbar",
-        "Den gir store utslipp"
+        "Anlegget må tåle skiftende sollys og saltvann.",
+        "Utstyret må tåle stormer og saltvann.",
+        "Utstyret må tåle sterk vind, men ikke bølger.",
+        "Utstyret må tåle ferskvann og rolige bølger."
       ],
       "correct": 1,
       "explain": "Teknologien er umoden."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er osmotisk kraft?",
       "options": [
-        "Kraft fra vind",
-        "Kraft fra sola",
+        "Kraft fra vind over havoverflaten",
+        "Kraft fra sollys på havoverflaten",
         "Kraft fra møtet mellom ferskvann og saltvann",
-        "Kraft fra kull"
+        "Kraft fra tidevannsbevegelse i havet"
       ],
       "correct": 2,
       "explain": "Gjennom en membran."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hvorfor trenger vindkraft reguleringskraft?",
       "options": [
-        "Fordi vinden alltid er lik",
-        "Fordi turbinene er små",
-        "Fordi vindkraft gir utslipp",
-        "Fordi vinden er uregelmessig"
+        "Fordi vinden har jevn styrke, og kraftproduksjonen er stabil.",
+        "Fordi vindturbinene bruker strøm når vinden øker.",
+        "Fordi vindkraftverk gir lav spenning til strømnettet.",
+        "Fordi vinden varierer, og kraftproduksjonen endres."
       ],
       "correct": 3,
       "explain": "I Norge ofte vannkraft."
@@ -173,9 +173,9 @@
       "text": "Hvilken konflikt kan landbasert vindkraft gi?",
       "options": [
         "Naturinngrep og konflikt med reindrift",
-        "Havforsuring",
-        "Mer tidevann",
-        "Høyere havnivå"
+        "Havforsuring og konflikt med fiskeri",
+        "Tidevannsendringer og konflikt med skipsfart",
+        "Endrede havstrømmer og konflikt med sjøfugl"
       ],
       "correct": 0,
       "explain": "Arealbruk er et viktig tema.",
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvilken energiressurs vokser raskest i verden?",
       "options": [
-        "Bølgekraft",
+        "Vindenergi",
         "Solenergi",
-        "Osmotisk kraft",
-        "Tidevannskraft"
+        "Bølgeenergi",
+        "Tidevannsenergi"
       ],
       "correct": 1,
       "explain": "Solceller er blitt mye billigere.",
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva kan havvind påvirke negativt?",
         "options": [
-          "Tidevannet",
+          "Solinnstråling og tidevann",
           "Fiskeri og sjøfugl",
-          "Solinnstrålingen",
-          "Månen"
+          "Jordas indre varme og månefaser",
+          "Skydekke og nedbørsmengde"
         ],
         "correct": 1,
         "explain": "Må vurderes ved utbygging."
@@ -325,9 +325,9 @@
         "text": "Hvorfor er utbygging av fornybar energi særlig viktig globalt?",
         "options": [
           "For å erstatte kull og kutte utslipp",
-          "For å øke utslippene",
-          "For å stoppe tidevannet",
-          "Fordi fossil energi er fornybar"
+          "For å utvide kullkraft og redusere utslipp",
+          "For å erstatte fornybar kraft med kull",
+          "For å gjøre fossil energi fornybar uten å endre utslipp"
         ],
         "correct": 0,
         "explain": "Kull gir store utslipp."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva er de tre dimensjonene i bærekraft?",
         "options": [
-          "Vind, sol og hav",
-          "Pris, fart og størrelse",
+          "Produksjon, transport og energilagring",
+          "Vind, sol og vannkraft",
           "Miljø, økonomi og sosiale forhold",
-          "Land, hav og luft"
+          "Lokalt, nasjonalt og internasjonalt"
         ],
         "correct": 2,
         "explain": "Brukes i drøftinger."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -87,7 +87,7 @@
     {
       "term": "Stråmann",
       "def": "Å forvrenge motpartens syn og så angripe den forvrengte versjonen.",
-      "niva": "over-niva"
+      "niva": "eksempel"
     },
     {
       "term": "Å drøfte",
@@ -123,10 +123,10 @@
       "id": "q01",
       "text": "Hva er langar?",
       "options": [
-        "Et gratis kjøkken i gurdwaraen der alle får mat",
-        "En hellig bok",
-        "En turban",
-        "En høytid"
+        "Et gratis måltid i gurdwaraen som alle kan delta i",
+        "En felles bønn i gurdwaraen som alle kan delta i",
+        "En religiøs undervisning i gurdwaraen som alle kan delta i",
+        "En høytidelig seremoni i gurdwaraen som alle kan delta i"
       ],
       "correct": 0,
       "explain": "Langar er et uttrykk for likeverd og deling.",
@@ -136,10 +136,10 @@
       "id": "q02",
       "text": "Hva mente guruene om kastesystemet?",
       "options": [
-        "At det var gitt av Gud",
-        "At det skulle avvises fordi alle er likeverdige",
-        "At det bare gjaldt i Punjab",
-        "At det var nødvendig"
+        "At kastesystemet skulle beholdes fordi det var en del av tradisjonen",
+        "At kastesystemet skulle avvises fordi alle mennesker er likeverdige",
+        "At kastesystemet skulle endres fordi yrker skulle følge familiebakgrunn",
+        "At kastesystemet skulle brukes fordi det skapte orden i samfunnet"
       ],
       "correct": 1,
       "explain": "Likeverd er et grunnleggende prinsipp i sikhismen.",
@@ -149,10 +149,10 @@
       "id": "q03",
       "text": "Hva handler uenigheten om kjønn og seksualitet i religioner ofte om?",
       "options": [
-        "Hvilke høytider man feirer",
+        "Når religiøse høytider skal feires",
         "Hvordan hellige tekster skal tolkes",
-        "Hvilket språk man ber på",
-        "Hvor gudshusene ligger"
+        "Hvor religiøse seremonier skal holdes",
+        "Hvilke klær troende bruker i gudshus"
       ],
       "correct": 1,
       "explain": "Samme tekst kan tolkes svært ulikt av ulike troende."
@@ -161,8 +161,8 @@
       "id": "q04",
       "text": "Hvordan har ekteskapsloven vært siden 2009?",
       "options": [
-        "Bare for mann og kvinne",
-        "Bare for kristne",
+        "Kjønnsbestemt",
+        "Religionsbestemt",
         "Kjønnsnøytral",
         "Avskaffet"
       ],
@@ -174,10 +174,10 @@
       "id": "q05",
       "text": "Hva er et eksistensielt spørsmål?",
       "options": [
-        "Hva er klokka?",
-        "Hva koster en bussbillett?",
+        "Hvordan kan mennesker måle tid?",
+        "Hvor gammel er planeten vår?",
         "Hva er meningen med livet?",
-        "Hvilken dag er det i dag?"
+        "Hvordan fungerer menneskets hukommelse?"
       ],
       "correct": 2,
       "explain": "Eksistensielle spørsmål handler om de store sidene ved det å være menneske."
@@ -186,10 +186,10 @@
       "id": "q06",
       "text": "Hva kan du gjøre hvis du går gjennom en livskrise?",
       "options": [
-        "Holde alt for deg selv",
-        "Unngå alle andre",
+        "Prøve å løse alt alene uten å fortelle noen",
+        "Unngå støtte fra familie, venner og fagpersoner",
         "Snakke med noen du stoler på eller ringe en hjelpetelefon",
-        "Late som ingenting"
+        "Vente til krisen går over før du søker hjelp"
       ],
       "correct": 2,
       "explain": "Det hjelper ofte å dele tankene med noen."
@@ -198,10 +198,10 @@
       "id": "q07",
       "text": "Hva er forskjellen på dialog og debatt?",
       "options": [
-        "Det er ingen forskjell",
-        "Debatt er alltid bedre",
-        "Dialog handler om å forstå, debatt ofte om å vinne",
-        "Dialog er bare skriftlig"
+        "Dialog handler om å vinne, debatt handler ofte om å forstå",
+        "Dialog handler om å bli enig, debatt handler om å lytte",
+        "Dialog handler om å forstå, debatt handler ofte om å vinne",
+        "Dialog handler om å stille spørsmål, debatt handler om å fortelle"
       ],
       "correct": 2,
       "explain": "Begge formene kan være nyttige i ulike situasjoner."
@@ -210,23 +210,23 @@
       "id": "q08",
       "text": "Hva er et stråmannsargument?",
       "options": [
-        "Et argument med mange fakta",
-        "Et argument om landbruk",
-        "Et spørsmål til motparten",
+        "Å angripe personen i stedet for argumentet",
+        "Å bruke påstander som ikke støttes av fakta",
+        "Å gjenta sin egen påstand som bevis for at den stemmer",
         "Å forvrenge motpartens syn og så angripe det"
       ],
       "correct": 3,
       "explain": "Det er lettere å angripe en forenklet versjon av det motparten mener.",
-      "niva": "over-niva"
+      "niva": "eksempel"
     },
     {
       "id": "q09",
       "text": "Hva betyr det å drøfte et spørsmål?",
       "options": [
-        "Å gi et kort svar",
-        "Å gjenta det læreren sier",
+        "Å presentere argumenter fra én side og støtte en konklusjon",
+        "Å beskrive spørsmålet grundig uten å vurdere mulige svar",
         "Å veie argumenter fra flere sider og komme fram til en begrunnet konklusjon",
-        "Å bare si sin egen mening"
+        "Å samle fakta om temaet og gjenta dem i en konklusjon"
       ],
       "correct": 2,
       "explain": "Drøfting krever at man tar motargumenter på alvor."
@@ -235,10 +235,10 @@
       "id": "q10",
       "text": "Hvilken etisk utfordring knyttes til kunstig intelligens?",
       "options": [
-        "At den ikke kan regne",
+        "At KI ikke kan brukes til å vurdere søknader",
         "Hvem som har ansvaret når den gjør feil",
-        "At den er for treg",
-        "At den bare virker på engelsk"
+        "At KI ikke kan lære av eksempler den får",
+        "At KI må kobles til internett for å fungere"
       ],
       "correct": 1,
       "explain": "Ansvar er vanskelig å plassere når en maskin tar avgjørelser.",
@@ -248,10 +248,10 @@
       "id": "q11",
       "text": "Hva er absolutt fattigdom?",
       "options": [
-        "Å ha mindre enn naboen",
-        "Å mangle nok til grunnleggende behov som mat, vann og bolig",
-        "Å ikke ha bil",
-        "Å ha lav lønn i Norge"
+        "Å ha mindre penger enn de fleste i landet man bor i",
+        "Å mangle mat, vann og bolig til grunnleggende behov",
+        "Å ikke kunne kjøpe klær av merket man ønsker seg",
+        "Å være uten fast jobb, selv om man har mat og bolig"
       ],
       "correct": 1,
       "explain": "Relativ fattigdom handler derimot om å ha mye mindre enn andre."
@@ -260,10 +260,10 @@
       "id": "q12",
       "text": "Hva er klimarettferdighet?",
       "options": [
-        "Hvordan byrdene ved klimaendringer og kutt skal fordeles rettferdig",
-        "At alle land skal ha samme temperatur",
-        "En domstol for klima",
-        "En type fornybar energi"
+        "Hvordan byrdene ved klimaendringer og utslippskutt fordeles rettferdig",
+        "Hvordan alle land kan få samme temperatur gjennom klimatiltak",
+        "Hvordan kostnadene ved klimatiltak fordeles likt mellom alle land",
+        "Hvordan land kan bruke fornybar energi for å hindre klimaendringer"
       ],
       "correct": 0,
       "explain": "De som har sluppet ut minst, rammes ofte hardest."
@@ -272,9 +272,9 @@
       "id": "q13",
       "text": "Hvorfor bør man være forsiktig med å si «muslimer mener» eller «kristne mener»?",
       "options": [
-        "Fordi det er forbudt",
-        "Fordi religioner ikke har meninger",
-        "Fordi alle mener det samme",
+        "Fordi religiøse ledere tolker læren på samme måte",
+        "Fordi hellige tekster gir tydelige svar på alle spørsmål",
+        "Fordi religiøse regler er like i ulike land",
         "Fordi det er stort mangfold innenfor hver religion"
       ],
       "correct": 3,
@@ -284,10 +284,10 @@
       "id": "q14",
       "text": "Hvilket spørsmål hører til kildekritikk?",
       "options": [
-        "Hvor mange sider har kilden?",
+        "Hvor mange sider og kapitler har boka?",
         "Hvem er avsenderen, og hva er formålet?",
-        "Hvilken farge har forsiden?",
-        "Hvor mye koster boka?"
+        "Hvilken skrifttype og skriftstørrelse bruker teksten?",
+        "Hvor mye kostet boka da den ble utgitt?"
       ],
       "correct": 1,
       "explain": "Avsender og formål påvirker hvilket bilde kilden gir."
@@ -426,7 +426,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -458,9 +458,9 @@
         "text": "Hva er samtykke?",
         "options": [
           "Et frivillig og tydelig ja",
-          "En religiøs regel",
-          "En type ekteskap",
-          "Et løfte i kirken"
+          "Et formelt og tydelig ja",
+          "Et høflig og tydelig ja",
+          "Et forventet og tydelig ja"
         ],
         "correct": 0,
         "explain": "Samtykke er grunnleggende for all seksuell kontakt."
@@ -477,10 +477,10 @@
         "type": "flervalg",
         "text": "Hva er perspektivtaking?",
         "options": [
-          "Å ta bilder fra ulike vinkler",
+          "Å prøve å overbevise den andre om at ens eget syn er riktig",
           "Å prøve å forstå hvordan den andre tenker og opplever saken",
-          "Å alltid være enig",
-          "Å bytte mening ofte"
+          "Å gjette hva den andre mener uten å spørre",
+          "Å vurdere saken ut fra egne erfaringer alene"
         ],
         "correct": 1,
         "explain": "Perspektivtaking gjør det lettere å håndtere uenighet."
@@ -565,12 +565,100 @@
           "Skiller mellom innenfra- og utenfraperspektiv og viser hvordan begge kan brukes.",
           "Nevner minst ett relevant kildekritisk spørsmål, som avsender, formål, ensidighet eller representativitet."
         ]
+      },
+      {
+        "text": "I en gurdwara får alle spise sammen i langar, uansett religion og bakgrunn. Forklar hvordan denne praksisen viser et syn på likeverd, og knytt det til Kants tanke om hvordan vi skal behandle mennesker.",
+        "fasit": "I langar sitter alle sammen og får mat, uansett bakgrunn, og det viser at mennesker er like mye verdt. Det passer med Kants tanke om at mennesker skal behandles som mål i seg selv, ikke bare som middel.",
+        "kriterier": [
+          "Forklarer at langar samler mennesker på like vilkår og uttrykker likeverd.",
+          "Knytter dette til Kants tanke om at mennesker skal behandles som mål i seg selv."
+        ],
+        "id": "s08",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En venn forteller deg i fortrolighet at hen blir utsatt for vold, men ber deg love å ikke si det til noen. Forklar hvorfor det kan være riktig å bryte løftet, og knytt det til Løgstrups etiske fordring.",
+        "fasit": "Når en venn blir utsatt for vold, kan plikten til å hjelpe veie tyngre enn løftet om taushet. Løgstrups etiske fordring handler om at vi har noe av et annet menneskes liv i våre hender og må ta ansvar.",
+        "kriterier": [
+          "Forklarer at man bør si fra til en trygg voksen når noen utsettes for vold, selv om man har lovet taushet.",
+          "Knytter ansvaret til Løgstrups etiske fordring."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En ungdom synes det er vanskelig å velge hvem hen vil være, og blir urolig av alle mulighetene. Forklar hvordan Sartres syn på frihet kan belyse uroen, og hvordan livssynshumanismen kan forstå meningen med livet.",
+        "fasit": "Sartre mente at vi ikke er født med en ferdig mening, men skaper oss selv gjennom valgene våre. Friheten innebærer ansvar og kan skape uro. I livssynshumanismen skaper vi mening i det ene livet vi har, for eksempel gjennom relasjoner og det vi gjør for andre.",
+        "kriterier": [
+          "Forklarer at Sartre knytter frihet til valg og ansvar, og at dette kan skape uro eller angst.",
+          "Forklarer at livssynshumanismen ser mening som noe mennesker skaper i livet."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Et likekjønnet par kan gifte seg etter norsk lov, men en religiøs menighet vil ikke vie dem. Forklar hvordan begge deler kan være mulig i Norge, og hvorfor mennesker innen samme religion kan mene ulikt om likekjønnet ekteskap.",
+        "fasit": "Norsk ekteskapslov har vært kjønnsnøytral siden 2009, men trossamfunn kan selv bestemme hvem de vil vie. Mennesker innen samme religion kan tolke tradisjoner ulikt og legge ulik vekt på menneskerettigheter og andre hensyn.",
+        "kriterier": [
+          "Nevner at norsk lov tillater likekjønnet ekteskap, samtidig som trossamfunn kan bestemme hvem de vier.",
+          "Forklarer at det finnes ulike tolkninger og syn innad i religioner."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En skole vurderer å bruke KI til å samle inn elevdata og forutsi hvem som trenger oppfølging. Forklar én bekymring med Kants menneskesyn, og bruk Mills skadeprinsipp til å si hva skolen bør vurdere.",
+        "fasit": "Med Kant kan man være bekymret for at elever bare behandles som data eller middel for et mål, i stedet for som mennesker med egen verdi. Med Mills skadeprinsipp bør skolen vurdere om bruken kan skade andre, og om eventuelle begrensninger hindrer slik skade.",
+        "kriterier": [
+          "Knytter Kant til at mennesker ikke bare skal behandles som data eller middel.",
+          "Forklarer at Mills skadeprinsipp handler om å hindre skade på andre."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En elev får vite at det forekommer barnearbeid i produksjonen av kakao, og vurderer å velge Fairtrade-merket sjokolade. Forklar hva merkeordningen skal bidra til, og hvordan valget kan knyttes til ansvar for menneskerettigheter i handel.",
+        "fasit": "Fairtrade skal bidra til bedre lønn og arbeidsforhold. Å velge slike varer kan være en måte å ta hensyn til forholdene varene produseres under, men ansvaret for menneskerettigheter gjelder også bedrifter og stater.",
+        "kriterier": [
+          "Forklarer at Fairtrade skal bidra til bedre lønn og arbeidsforhold.",
+          "Knytter valget til etisk ansvar for menneskerettigheter i produksjon og handel."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En besøkende ser en rød torii-port ved en shintohelligdom og hører om kami. Sammenlign hvordan shinto og daoismen knytter det guddommelige eller hellige til naturen.",
+        "fasit": "I shinto viser kami til ånder og guddommelige krefter i naturen, forfedrene og hellige steder. I daoismen er Dao den naturlige orden i alt, og mennesker bør leve i harmoni med naturen og finne balanse mellom yin og yang.",
+        "kriterier": [
+          "Forklarer at shinto knytter kami til naturen eller hellige steder.",
+          "Forklarer at daoismen legger vekt på Dao, naturens orden og harmoni eller balanse."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "I en nettdebatt kritiserer noen en religions lære, og en annen person svarer med å håne alle som tilhører religionen. Forklar forskjellen på religionskritikk og hets av mennesker, og nevn én måte å svare mer saklig på.",
+        "fasit": "Det er religionskritikk å stille kritiske spørsmål ved religionens påstander eller praksis. Å håne alle troende retter angrepet mot mennesker. Man kan svare saklig ved å bruke argumenter om saken, lytte aktivt eller skille mellom sak og person.",
+        "kriterier": [
+          "Skiller mellom kritikk av religiøse ideer eller praksiser og angrep på troende mennesker.",
+          "Nevner en saklig måte å håndtere uenigheten på."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En elev spør om islam og hinduismen eller buddhismen forklarer livet etter døden på samme måte. Sammenlign hvordan islam og hinduismen eller buddhismen beskriver livet og det som skjer etter døden.",
+        "fasit": "I islam er livet en prøve fra Gud, og på dommens dag avgjøres det som skjer etter døden. I hinduismen og buddhismen er livet del av et kretsløp av gjenfødelser, og målet er frigjøring fra dette kretsløpet.",
+        "kriterier": [
+          "Forklarer islams syn på livet som en prøve og dommens dag.",
+          "Forklarer at hinduismen og buddhismen knytter livet til gjenfødelser og har frigjøring som mål."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

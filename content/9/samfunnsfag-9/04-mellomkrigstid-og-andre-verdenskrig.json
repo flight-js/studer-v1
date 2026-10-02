@@ -77,9 +77,9 @@
       "text": "Hva utløste den store depresjonen?",
       "options": [
         "Børskrakket i New York i 1929",
-        "Første verdenskrig",
-        "Angrepet på Polen",
-        "Den russiske revolusjonen"
+        "Bankkrisen i Tyskland i 1931",
+        "Hyperinflasjonen i Tyskland i 1923",
+        "Børskrakket i London i 1929"
       ],
       "correct": 0,
       "explain": "Krakket spredte seg til økonomien i store deler av verden."
@@ -88,9 +88,9 @@
       "id": "q02",
       "text": "Når ble Hitler rikskansler i Tyskland?",
       "options": [
-        "1919",
-        "1929",
-        "1939",
+        "1932",
+        "1934",
+        "1938",
         "1933"
       ],
       "correct": 3,
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva var ettergivenhetspolitikken?",
       "options": [
-        "At Tyskland ga fra seg land",
+        "At Storbritannia og Frankrike avviste Hitlers krav for å unngå krig",
         "At Storbritannia og Frankrike ga etter for Hitlers krav for å unngå krig",
-        "At USA gikk inn i krigen",
-        "At Norge var nøytralt"
+        "At Storbritannia og Frankrike godtok Stalins krav for å unngå krig",
+        "At Tyskland ga etter for britiske krav for å unngå krig"
       ],
       "correct": 1,
       "explain": "Håpet var at Hitler ville bli fornøyd, men han krevde stadig mer."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hvilken hendelse regnes som starten på andre verdenskrig?",
       "options": [
-        "Angrepet på Pearl Harbor",
-        "D-dagen",
+        "Japans angrep på Pearl Harbor 7. desember 1941",
+        "Tysklands angrep på Sovjetunionen 22. juni 1941",
         "Tysklands angrep på Polen 1. september 1939",
-        "Børskrakket"
+        "Italias angrep på Hellas 28. oktober 1940"
       ],
       "correct": 2,
       "explain": "To dager senere erklærte Storbritannia og Frankrike krig mot Tyskland."
@@ -127,7 +127,7 @@
         "9. april 1940",
         "8. mai 1945",
         "1. september 1939",
-        "17. mai 1940"
+        "10. juni 1940"
       ],
       "correct": 0,
       "explain": "Etter to måneder med kamper var hele landet okkupert."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvorfor fikk ekstreme ideologier oppslutning i mellomkrigstiden?",
       "options": [
-        "Fordi alle var fornøyde",
+        "Fordi økonomisk vekst og politisk ro fikk mange til å søke sterke ledere",
         "Fordi økonomisk krise og misnøye fikk mange til å søke sterke ledere",
-        "Fordi demokratiet var forbudt i hele Europa",
-        "Fordi Folkeforbundet støttet dem"
+        "Fordi økonomisk krise og misnøye fikk mange til å støtte moderate partier",
+        "Fordi demokratiet fungerte godt og ga mange tillit til ekstreme partier"
       ],
       "correct": 1,
       "explain": "Arbeidsløshet og nasjonal bitterhet ga grobunn for ekstreme løsninger."
@@ -148,9 +148,9 @@
       "id": "q07",
       "text": "Hvilket slag regnes som et vendepunkt på østfronten?",
       "options": [
-        "Slaget ved Verdun",
+        "Slaget ved El Alamein",
         "Slaget om Storbritannia",
-        "D-dagen",
+        "Slaget ved Midway",
         "Slaget om Stalingrad"
       ],
       "correct": 3,
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva var sabotasjen på Vemork rettet mot?",
       "options": [
-        "En våpenfabrikk i Oslo",
+        "Produksjonen av kunstgjødsel",
         "Produksjonen av tungtvann",
-        "En tysk ubåt",
-        "Bergensbanen"
+        "Produksjonen av aluminium",
+        "Produksjonen av sprengstoff"
       ],
       "correct": 1,
       "explain": "Tungtvann kunne brukes i tysk atomforskning.",
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hva skjedde 8. mai 1945?",
       "options": [
-        "Japan angrep USA",
-        "Hitler kom til makten",
+        "Japan kapitulerte, og krigen i Europa tok slutt",
+        "Tyskland kapitulerte, og Norge ble okkupert",
         "Tyskland kapitulerte, og Norge ble fritt",
-        "FN ble opprettet"
+        "FN ble opprettet, og krigen i Europa tok slutt"
       ],
       "correct": 2,
       "explain": "Dagen er i dag frigjøringsdag i Norge."
@@ -187,8 +187,8 @@
       "options": [
         "FN",
         "Folkeforbundet",
-        "EU",
-        "LO"
+        "NATO",
+        "Europarådet"
       ],
       "correct": 0,
       "explain": "FN erstattet Folkeforbundet, som ikke hadde klart å hindre krigen."
@@ -335,9 +335,9 @@
         "text": "Hva er antisemittisme?",
         "options": [
           "Hat og fordommer mot jøder",
-          "Motstand mot krig",
-          "Støtte til demokrati",
-          "En type økonomi"
+          "Hat og fordommer mot muslimer",
+          "Hat og fordommer mot romer",
+          "Hat og fordommer mot kristne"
         ],
         "correct": 0,
         "explain": "Antisemittisme var en kjerne i nazismen."
@@ -348,9 +348,9 @@
         "text": "Hvem styrte Sovjetunionen under andre verdenskrig?",
         "options": [
           "Lenin",
-          "Mussolini",
+          "Trotskij",
           "Stalin",
-          "Churchill"
+          "Molotov"
         ],
         "correct": 2,
         "explain": "Stalin styrte Sovjetunionen fra slutten av 1920-tallet til han døde i 1953."
@@ -360,10 +360,10 @@
         "type": "flervalg",
         "text": "Hva skjedde på D-dagen?",
         "options": [
-          "Tyskland angrep Norge",
+          "De allierte gikk i land på Sicilia",
           "De allierte gikk i land i Normandie",
-          "Krigen sluttet",
-          "Den første atombomben ble sluppet"
+          "De allierte gikk i land i Nord-Afrika",
+          "De allierte gikk i land i Calais"
         ],
         "correct": 1,
         "explain": "Landgangen 6. juni 1944 åpnet en ny front i vest."
@@ -448,6 +448,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvordan er f′(a) definert?",
       "options": [
-        "(f(b) − f(a))/(b − a)",
+        "lim ₕ→₀ (f(a + h) − f(a))/h²",
         "lim ₕ→₀ (f(a + h) − f(a))/h",
-        "f(a)/a",
-        "lim ₓ→∞ f(x)"
+        "lim ₕ→₀ (f(a + h) − f(a))/a",
+        "lim ₕ→₀ (f(a + h) − f(h))/h"
       ],
       "correct": 1,
       "explain": "Grenseverdien av sekantens stigningstall."
@@ -94,7 +94,7 @@
         "6",
         "9",
         "3",
-        "2"
+        "12"
       ],
       "correct": 0,
       "explain": "f′(a) = 2a."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er tangenten til f(x) = x² i x = 3?",
       "options": [
+        "y = 6x + 9",
         "y = 3x",
-        "y = 6x",
         "y = 6x − 9",
-        "y = 2x + 3"
+        "y = 9x − 18"
       ],
       "correct": 2,
       "explain": "y − 9 = 6(x − 3)."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva er den geometriske tolkningen av f′(a)?",
       "options": [
-        "Arealet under grafen",
-        "Funksjonsverdien i a",
-        "Stigningstallet til sekanten",
-        "Stigningstallet til tangenten i (a, f(a))"
+        "Stigningstallet til sekanten ved punktet (a, f(a))",
+        "Funksjonsverdien til grafen i punktet (a, f(a))",
+        "Gjennomsnittlig stigningstall mellom to punkter på grafen",
+        "Stigningstallet til tangenten i punktet (a, f(a))"
       ],
       "correct": 3,
       "explain": "Den momentane vekstfarten."
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hvorfor er ikke f(x) = |x| deriverbar i x = 0?",
       "options": [
-        "Grafen har en knekk, og stigningstallet er −1 fra venstre og 1 fra høyre",
-        "f(0) er ikke definert",
-        "Funksjonen er ikke kontinuerlig",
-        "Tangenten er vannrett"
+        "Grafen har en knekk, og stigningstallet er −1 fra venstre og 1 fra høyre.",
+        "Grafen har et sprang i null, så funksjonsverdiene fra hver side er ulike.",
+        "Grafen har en knekk, og stigningstallet er 1 fra begge sider.",
+        "Grafen har en spiss, og stigningstallet er 0 fra begge sider."
       ],
       "correct": 0,
       "explain": "Grenseverdien finnes ikke."
@@ -141,7 +141,7 @@
       "options": [
         "6",
         "6,001",
-        "9",
+        "6,01",
         "5,999"
       ],
       "correct": 1,
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "s(t) er posisjonen i meter etter t sekunder. Hva er s′(t)?",
       "options": [
-        "Akselerasjonen",
-        "Strekningen",
+        "Akselerasjonen i m/s²",
+        "Gjennomsnittsfarten i m/s",
         "Farten i m/s",
-        "Tiden"
+        "Posisjonen i meter"
       ],
       "correct": 2,
       "explain": "Endring i posisjon per sekund."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "T(t) er temperaturen i °C etter t timer, og T′(2) = −1,5. Hva betyr det?",
       "options": [
-        "Temperaturen er −1,5 °C",
-        "Temperaturen er 2 °C",
-        "Temperaturen stiger med 1,5 °C per time",
-        "Temperaturen synker med omtrent 1,5 °C per time ved t = 2"
+        "Temperaturen er −1,5 °C ved t = 2, og endringen per time er ukjent.",
+        "Temperaturen er 2 °C ved t = 2 og synker med 1,5 °C per time.",
+        "Temperaturen stiger med omtrent 1,5 °C per time ved t = 2.",
+        "Temperaturen synker med omtrent 1,5 °C per time ved t = 2."
       ],
       "correct": 3,
       "explain": "Negativ derivert betyr synkende."
@@ -177,8 +177,8 @@
       "options": [
         "Tangenten er loddrett",
         "Funksjonen har et sprang",
-        "f(0) er ikke definert",
-        "Funksjonen er konstant"
+        "Funksjonen er ikke definert",
+        "Tangenten er vannrett"
       ],
       "correct": 0,
       "explain": "Stigningstallet blir uendelig.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Når er numerisk derivasjon særlig nyttig?",
       "options": [
-        "Når vi har et enkelt polynom",
+        "Når funksjonen er et enkelt polynom",
         "Når vi bare har måledata",
-        "Aldri",
-        "Når f er konstant"
+        "Når funksjonen er konstant",
+        "Når vi kjenner en lineær funksjon"
       ],
       "correct": 1,
       "explain": "Da har vi ikke noe funksjonsuttrykk å derivere."
@@ -325,8 +325,8 @@
         "options": [
           "5",
           "2",
-          "5a",
-          "7"
+          "7",
+          "10"
         ],
         "correct": 0,
         "explain": "(5(a + h) + 2 − 5a − 2)/h = 5."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "K(x) er kostnaden ved å lage x enheter. Hva forteller K′(100) = 40?",
         "options": [
-          "At 100 enheter koster 40 kr",
-          "At kostnaden er 100 kr",
-          "At enhet nummer 101 koster omtrent 40 kr ekstra",
-          "At kostnaden synker"
+          "De 100 enhetene koster til sammen omtrent 40 kr.",
+          "Enhet nummer 100 koster omtrent 40 kr å lage.",
+          "Enhet nummer 101 koster omtrent 40 kr ekstra.",
+          "Kostnaden synker med omtrent 40 kr per ekstra enhet."
         ],
         "correct": 2,
         "explain": "Grensekostnaden.",
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

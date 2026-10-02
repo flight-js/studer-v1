@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva heter «jeg» på nynorsk?",
       "options": [
-        "je",
+        "du",
         "eg",
-        "ek",
-        "jeg"
+        "ho",
+        "vi"
       ],
       "correct": 1,
       "explain": "«Eg» er nynorsk for «jeg»."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva heter «hvordan» på nynorsk?",
       "options": [
-        "kvordan",
-        "korleis",
         "kvifor",
-        "kven"
+        "korleis",
+        "kven",
+        "kvar"
       ],
       "correct": 1,
       "explain": "«Korleis» betyr hvordan. «Kvifor» er hvorfor, og «kven» er hvem."
@@ -103,7 +103,7 @@
         "gutene",
         "gutar",
         "gutane",
-        "gutter"
+        "guten"
       ],
       "correct": 2,
       "explain": "Hankjønn: ein gut – guten – gutar – gutane."
@@ -113,9 +113,9 @@
       "text": "Hva er presens av a-verbet «å kaste» på nynorsk?",
       "options": [
         "kastar",
-        "kaster",
+        "kastet",
         "kasta",
-        "kast"
+        "kaste"
       ],
       "correct": 0,
       "explain": "a-verb får -ar i presens: eg kastar."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva heter «hun» på nynorsk?",
       "options": [
-        "hu",
-        "hon",
+        "han",
+        "dei",
         "ho",
-        "hun"
+        "me"
       ],
       "correct": 2,
       "explain": "«Ho» er nynorsk for «hun»."
@@ -138,7 +138,7 @@
       "options": [
         "husene",
         "husa",
-        "husane",
+        "huset",
         "hus"
       ],
       "correct": 1,
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilken setning er skrevet på nynorsk?",
       "options": [
-        "Jeg vet ikke hva hun heter.",
+        "Jeg veit ikkje kva ho heiter.",
         "Eg veit ikkje kva ho heiter.",
-        "Eg vet ikke hva ho heter.",
-        "Jeg veit ikkje kva hun heiter."
+        "Eg vet ikkje kva ho heiter.",
+        "Eg veit ikkje kva hun heiter."
       ],
       "correct": 1,
       "explain": "Alle ordene er på nynorsk: eg, veit, ikkje, kva, ho, heiter."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er preteritum av e-verbet «å kjøpe»?",
       "options": [
-        "kjøpa",
-        "kjøpar",
-        "kjøpet",
+        "kjøper",
+        "kjøpt",
+        "kjøpe",
         "kjøpte"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva betyr «dei» på nynorsk?",
       "options": [
-        "de/dem i tredje person flertall",
-        "deg",
-        "denne",
-        "det"
+        "de eller dem (tredje person flertall)",
+        "jeg eller meg (første person entall)",
+        "du eller deg (andre person entall)",
+        "vi eller oss (første person flertall)"
       ],
       "correct": 0,
       "explain": "«Dei» brukes både som subjekt og objekt: Dei kom. Eg såg dei."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva heter «bare» på nynorsk?",
         "options": [
-          "bara",
+          "ikkje",
           "berre",
-          "bere",
-          "bære"
+          "gjerne",
+          "snart"
         ],
         "correct": 1,
         "explain": "«Berre» er nynorsk for bare."
@@ -343,7 +343,7 @@
           "ein",
           "eit",
           "ei",
-          "en"
+          "den"
         ],
         "correct": 2,
         "explain": "Hokjønn har artikkelen «ei»: ei jente."
@@ -354,9 +354,9 @@
         "text": "Hva er presens av «å skrive» på nynorsk?",
         "options": [
           "skriv",
-          "skrivar",
           "skriver",
-          "skreiv"
+          "skreiv",
+          "skrive"
         ],
         "correct": 0,
         "explain": "Sterke verb har ofte ingen ending i presens på nynorsk: eg skriv."
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva skjedde i Danmark-Norge i 1537?",
       "options": [
-        "Unionen ble oppløst",
-        "Reformasjonen – landet ble luthersk",
-        "Holberg ble født",
-        "Grunnloven ble vedtatt"
+        "Unionen mellom Danmark og Norge ble oppløst",
+        "Danmark-Norge gikk over til luthersk kristendom",
+        "Christian III gjeninnførte katolisismen i Danmark-Norge",
+        "Danmark-Norge vedtok en felles grunnlov"
       ],
       "correct": 1,
       "explain": "Reformasjonen endret kirken og religionen."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva satte opplysningstiden i sentrum?",
       "options": [
-        "Følelser og natur",
-        "Kirken og kongen",
-        "Fornuften",
-        "Fortiden"
+        "Følelser og personlig erfaring",
+        "Kirkelig autoritet og tradisjon",
+        "Fornuft og kritisk tenkning",
+        "Fortidens skikker og idealer"
       ],
       "correct": 2,
       "explain": "Kunnskap og kritisk tenkning skulle forbedre samfunnet."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva handler «Jeppe paa Bierget» om?",
       "options": [
-        "En student som kommer hjem fra universitetet",
-        "En prest i Nordland",
-        "En konge som mister makten",
+        "En student som kommer hjem og vil vise hvor lærd han er",
+        "En prest som skildrer naturen og livet blant fiskerne i Nordland",
+        "En konge som blir narret til å gi fra seg makten",
         "En fattig bonde som blir lurt til å tro at han er baron"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva kjennetegner barokken?",
       "options": [
         "Kontraster og en pyntet, ordrik stil",
-        "Saklig og kort stil",
-        "Fornuft og vitenskap",
-        "Enkle naturdikt"
+        "Saklighet og en kort, nøktern stil",
+        "Fornuft og vitenskap i en klar stil",
+        "Naturskildringer og et enkelt språk"
       ],
       "correct": 0,
       "explain": "Forgjengelighet var et sentralt tema."
@@ -138,8 +138,8 @@
       "options": [
         "Heimskringla",
         "Nordlands Trompet",
-        "Jeppe paa Bierget",
-        "Siælens Sang-Offer"
+        "Peder Paars",
+        "Erasmus Montanus"
       ],
       "correct": 1,
       "explain": "Det skildrer natur og folk i Nord-Norge."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilket virkemiddel brukte Holberg for å opplyse publikum?",
       "options": [
-        "Tragedie",
-        "Salmer",
+        "Tragedie og alvor",
+        "Salmer og religiøs forkynnelse",
         "Satire og latter",
-        "Lange avhandlinger"
+        "Avhandlinger og faglige forelesninger"
       ],
       "correct": 2,
       "explain": "Komediene gjør narr av menneskelige svakheter."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvilket tema i «Erasmus Montanus» er relevant i dag?",
       "options": [
-        "Hvordan man bygger båter",
-        "Fiske i Nordland",
-        "Kongens makt",
+        "Makt, rikdom og sosial rang",
+        "Religion, skyld og frelse",
+        "Natur, arbeid og bygdeliv",
         "Kunnskap, arroganse og uvitenhet"
       ],
       "correct": 3,
@@ -175,7 +175,7 @@
         "Gjenfødelse",
         "Fornuft",
         "Forgjengelighet",
-        "Opplysning"
+        "Reformasjon"
       ],
       "correct": 0,
       "explain": "Gjenfødelse av interessen for antikken."
@@ -190,7 +190,7 @@
         "Oslo"
       ],
       "correct": 1,
-      "explain": "Han levde senere i København.",
+      "explain": "Holberg ble født i Bergen i 1684 og virket senere som forfatter.",
       "niva": "eksempel"
     }
   ],
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva er humanisme?",
         "options": [
-          "Tenkning som setter mennesket i sentrum",
-          "En religion",
-          "En type dikt",
-          "En barokkstil"
+          "En tankeretning som setter mennesket i sentrum",
+          "En religiøs lære som bygger på kristen tro",
+          "En litterær sjanger med faste vers og rim",
+          "En barokk stil med sterke kontraster og utsmykning"
         ],
         "correct": 0,
         "explain": "Humanismen hørte til renessansen."
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hva handler «Erasmus Montanus» om?",
         "options": [
-          "En bonde som blir baron",
+          "En bonde som blir lurt til å tro at han er baron",
           "En student som vil vise hvor lærd han er",
-          "En prest i Nordland",
-          "En konge i Norge"
+          "En prest som skildrer naturen og livet blant fiskerne i Nordland",
+          "En konge som blir narret til å gi fra seg makten"
         ],
         "correct": 1,
         "explain": "Han insisterer blant annet på at jorda er rund."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvorfor bør du kjenne konteksten når du tolker eldre tekster?",
         "options": [
-          "Fordi eldre tekster er lettere",
-          "Fordi konteksten er uviktig",
+          "Fordi eldre tekster gjerne bruker enklere språk enn moderne tekster",
+          "Fordi konteksten har liten betydning for tolkningen av teksten",
           "Fordi tid, samfunn og ideer påvirker hva teksten betyr",
-          "Fordi tekstene alltid handler om religion"
+          "Fordi eldre tekster kan tolkes uavhengig av tiden de ble skrevet i"
         ],
         "correct": 2,
         "explain": "Samtidig kan du spørre hva teksten sier oss i dag."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

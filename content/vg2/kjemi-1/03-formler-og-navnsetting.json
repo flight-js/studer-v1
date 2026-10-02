@@ -106,10 +106,10 @@
       "id": "q01",
       "text": "Hva er formelen for kalsiumklorid?",
       "options": [
-        "CaCl",
+        "Ca₂Cl₃",
         "CaCl₂",
-        "Ca₂Cl",
-        "CaCl₃"
+        "Ca₃Cl₂",
+        "CaCl₄"
       ],
       "correct": 1,
       "explain": "Kalsium danner Ca²⁺ og klor danner Cl⁻. For at ladningene skal gå opp i null, trengs to kloridioner per kalsiumion."
@@ -118,22 +118,22 @@
       "id": "q02",
       "text": "Hva heter Fe₂O₃?",
       "options": [
-        "Jernoksid(II)",
-        "Dijerntrioksid",
         "Jern(II)oksid",
+        "Jern(IV)oksid",
+        "Jern(III)sulfid",
         "Jern(III)oksid"
       ],
       "correct": 3,
-      "explain": "Tre oksidioner gir ladningen 3 · (−2) = −6. Den må balanseres av to jernioner med +3 hver, så det er jern(III). Greske prefikser brukes ikke for ioneforbindelser."
+      "explain": "Oksidioner har ladningen −2. I Fe₂O₃ balanseres den samlede ladningen fra tre oksidioner av to jernioner med ladning +3 hver, så jern har oksidasjonstall III. For ioneforbindelser brukes ikke greske prefikser i navnet."
     },
     {
       "id": "q03",
       "text": "Hva er formelen for aluminiumoksid?",
       "options": [
         "Al₂O₃",
-        "AlO",
-        "Al₃O₂",
-        "AlO₃"
+        "AlO₂",
+        "Al₃O",
+        "Al₂O"
       ],
       "correct": 0,
       "explain": "Aluminium danner Al³⁺ og oksygen O²⁻. Minste felles multiplum av 3 og 2 er 6: to Al³⁺ gir +6 og tre O²⁻ gir −6."
@@ -143,33 +143,33 @@
       "text": "Hvilket ion er sulfat?",
       "options": [
         "SO₃²⁻",
-        "S²⁻",
+        "S₂O₃²⁻",
         "SO₄²⁻",
         "HSO₄⁻"
       ],
       "correct": 2,
-      "explain": "Sulfat er SO₄²⁻. SO₃²⁻ heter sulfitt, S²⁻ er sulfid og HSO₄⁻ er hydrogensulfat."
+      "explain": "Sulfationet har formelen SO₄²⁻. Ionene med formlene SO₃²⁻, S₂O₃²⁻ og HSO₄⁻ har andre navn og sammensetninger."
     },
     {
       "id": "q05",
       "text": "Hva heter SO₃?",
       "options": [
-        "Svovelsulfitt",
-        "Monosvoveltrioksid",
-        "Svoveloksid",
+        "Svoveldioksid",
+        "Svovelmonoksid",
+        "Svoveltetraoksid",
         "Svoveltrioksid"
       ],
       "correct": 3,
-      "explain": "SO₃ er en molekylforbindelse mellom to ikke-metaller, så vi bruker greske prefikser. Tre oksygenatomer gir «trioksid», og «mono» sløyfes foran det første grunnstoffet."
+      "explain": "SO₃ er en molekylforbindelse av to ikke-metaller. Prefikset «tri-» viser at molekylet har tre oksygenatomer, og «mono-» sløyfes foran det første grunnstoffet."
     },
     {
       "id": "q06",
       "text": "Hva er formelen for ammoniumkarbonat?",
       "options": [
-        "NH₄CO₃",
+        "(NH₄)₃CO₃",
         "(NH₄)₂CO₃",
-        "NH₄(CO₃)₂",
-        "NH₃CO₃"
+        "(NH₄)₂(CO₃)₂",
+        "NH₄(CO₃)₃"
       ],
       "correct": 1,
       "explain": "Ammonium er NH₄⁺ og karbonat er CO₃²⁻. Det trengs to ammoniumioner for å balansere ladningen, og de settes i parentes."
@@ -178,13 +178,13 @@
       "id": "q07",
       "text": "Hvorfor står det romertall i navnet kobber(II)oksid, men ikke i natriumoksid?",
       "options": [
-        "Kobber er et ikke-metall",
-        "Natrium er mer reaktivt enn kobber",
+        "Natrium kan danne ioner med ulik ladning",
+        "Kobber kan danne molekyler med ulik ladning",
         "Kobber kan danne ioner med ulik ladning",
-        "Romertallet viser antall oksygenatomer"
+        "Romertallet viser antall kobberatomer"
       ],
       "correct": 2,
-      "explain": "Kobber kan danne både Cu⁺ og Cu²⁺, så navnet må vise hvilket ion det er. Natrium danner bare Na⁺, så det trengs ikke."
+      "explain": "Kobber kan danne både Cu⁺- og Cu²⁺-ioner, så romertallet viser hvilket ion navnet viser til. Natrium danner Na⁺-ioner, og ladningen trenger derfor ikke angis med romertall."
     },
     {
       "id": "q08",
@@ -192,8 +192,8 @@
       "options": [
         "Løst i vann",
         "Fast stoff",
-        "Gass",
-        "Væske"
+        "Gassformig stoff",
+        "Flytende stoff"
       ],
       "correct": 0,
       "explain": "(aq) kommer av latin «aqua», vann. Stoffet er løst i vann, for eksempel NaCl(aq)."
@@ -203,20 +203,20 @@
       "text": "Hva er formelen for natriumhydrogenkarbonat (natron)?",
       "options": [
         "NaHCO₃",
-        "Na₂CO₃",
+        "Na₂SO₄",
         "NaHCO₂",
-        "Na(OH)CO₃"
+        "Na₂HCO₃"
       ],
       "correct": 0,
-      "explain": "Hydrogenkarbonat er HCO₃⁻ med ladning −1, så det trengs bare ett natriumion. Na₂CO₃ er natriumkarbonat."
+      "explain": "Hydrogenkarbonationet er HCO₃⁻ med ladning −1, og natriumionet har ladning +1. Derfor trengs ett natriumion per hydrogenkarbonation."
     },
     {
       "id": "q10",
       "text": "Hva heter CCl₄?",
       "options": [
-        "Karbonklorid",
-        "Klorkarbon",
+        "Karbonmonoklorid",
         "Karbontriklorid",
+        "Karbontetrafluorid",
         "Karbontetraklorid"
       ],
       "correct": 3,
@@ -226,10 +226,10 @@
       "id": "q11",
       "text": "Hva er den empiriske formelen for glukose, C₆H₁₂O₆?",
       "options": [
-        "C₆H₁₂O₆",
+        "C₃H₆O₃",
         "CH₂O",
         "C₂H₄O₂",
-        "CHO"
+        "C₆H₁₂O₃"
       ],
       "correct": 1,
       "explain": "Alle tallene i C₆H₁₂O₆ kan deles på 6. Det enkleste heltallsforholdet er 1 : 2 : 1, altså CH₂O."
@@ -414,13 +414,13 @@
         "type": "flervalg",
         "text": "Hva heter HNO₃ løst i vann?",
         "options": [
-          "Saltsyre",
-          "Svovelsyre",
+          "Salpetersyrling",
+          "Svovelsyrling",
           "Salpetersyre",
-          "Fosforsyre"
+          "Kullsyre"
         ],
         "correct": 2,
-        "explain": "HNO₃ er salpetersyre. Saltsyre er HCl, svovelsyre H₂SO₄ og fosforsyre H₃PO₄."
+        "explain": "HNO₃ heter salpetersyre. Salpetersyrling har formelen HNO₂, svovelsyrling H₂SO₃ og kullsyre H₂CO₃."
       },
       {
         "id": "m02",
@@ -435,9 +435,9 @@
         "text": "Hva er formelen for kaliumpermanganat?",
         "options": [
           "KMnO₄",
-          "K₂MnO₄",
-          "KMn₂O₄",
-          "KMnO₃"
+          "K₃MnO₄",
+          "KMnO₂",
+          "K₂MnO₃"
         ],
         "correct": 0,
         "explain": "Permanganat er MnO₄⁻ med ladning −1, og kalium danner K⁺. Da trengs ett av hvert.",
@@ -455,10 +455,10 @@
         "type": "flervalg",
         "text": "Hvilken formel og ladning har fosfationet?",
         "options": [
-          "PO₄⁻",
           "PO₄²⁻",
+          "PO₃³⁻",
           "PO₄³⁻",
-          "PO₃³⁻"
+          "HPO₄²⁻"
         ],
         "correct": 2,
         "explain": "Fosfat er PO₄³⁻. Det er anionet i fosforsyre, H₃PO₄, som kan avgi tre protoner."
@@ -477,8 +477,8 @@
         "options": [
           "Kobber(II)oksid",
           "Kobber(I)oksid",
-          "Dikobberoksid",
-          "Kobberoksid(II)"
+          "Kobber(III)oksid",
+          "Kobber(I)sulfid"
         ],
         "correct": 1,
         "explain": "Oksid har ladning −2, og den balanseres av to kobberioner. Hvert av dem må da ha ladning +1, altså kobber(I)."
@@ -488,13 +488,13 @@
         "type": "flervalg",
         "text": "Hva er formelen for jern(II)sulfat?",
         "options": [
-          "Fe₂SO₄",
-          "Fe(SO₄)₂",
+          "Fe₃(SO₄)₂",
+          "FeSO₃",
           "FeSO₄",
-          "Fe₂(SO₄)₃"
+          "Fe₂(SO₃)₃"
         ],
         "correct": 2,
-        "explain": "Jern(II) er Fe²⁺ og sulfat er SO₄²⁻. Ladningene er like store, så det trengs ett av hvert. Fe₂(SO₄)₃ er jern(III)sulfat."
+        "explain": "Jern(II) har ladning +2, og sulfat har ladning −2. De balanserer hverandre i forholdet 1:1, så formelen inneholder ett jernion og ett sulfation."
       }
     ],
     "skriv": [
@@ -579,6 +579,7 @@
       "Læreplanen sier ikke direkte om enkel organisk navnsetting (alkaner, alkoholer osv.) hører til Kjemi 1. Vurder om det trengs et eget tema for det.",
       "Skrivemåten for sammensatte navn varierer litt mellom læreverk (for eksempel «kobber(II)sulfatpentahydrat» med eller uten bindestrek)."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

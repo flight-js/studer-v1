@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er en CV?",
       "options": [
-        "Et søknadsbrev",
+        "En oversikt over interesser og fritidsaktiviteter",
         "En kort oversikt over utdanning, erfaring og ferdigheter",
-        "En stillingsannonse",
-        "En arbeidsavtale"
+        "En beskrivelse av en ledig stilling hos en bedrift",
+        "En avtale om lønn, arbeidstid og arbeidsoppgaver"
       ],
       "correct": 1,
       "explain": "CV-en er vanligvis på én side."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "I hvilken rekkefølge bør erfaringene stå i en CV?",
       "options": [
-        "Tilfeldig",
         "Det eldste øverst",
+        "Det lengste øverst",
         "Det nyeste øverst",
-        "Alfabetisk"
+        "Alfabetisk etter navn"
       ],
       "correct": 2,
       "explain": "Arbeidsgiveren er mest interessert i det du har gjort nylig."
@@ -100,9 +100,9 @@
       "text": "Hva bør du gjøre før du oppgir noen som referanse?",
       "options": [
         "Spørre personen om lov",
-        "Ingenting",
-        "Sende dem en gave",
-        "Skrive hva de skal si"
+        "Sende personen kontaktinformasjonen sin",
+        "Oppgi personen uten å spørre",
+        "Skrive referansen inn i CV-en"
       ],
       "correct": 0,
       "explain": "Referansen må vite at arbeidsgiveren kan ringe."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva bør et søknadsbrev inneholde?",
       "options": [
-        "Hele livshistorien din",
-        "Bare navnet ditt",
-        "En kopi av CV-en",
+        "En oversikt over utdanning og tidligere jobber",
+        "En beskrivelse av bedriften og varene den selger",
+        "En liste over arbeidstid, lønn og ferie du ønsker",
         "Hvorfor du søker og hva du kan bidra med"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hva er forskjellen på krav og ønsker i en stillingsannonse?",
       "options": [
         "Krav må du ha, ønsker er en fordel",
-        "Det er det samme",
-        "Ønsker er viktigere enn krav",
-        "Krav gjelder bare lønn"
+        "Ønsker må du ha, krav er en fordel",
+        "Krav handler om lønn, ønsker om arbeidstid",
+        "Krav og ønsker beskriver bedriftens arbeidsoppgaver"
       ],
       "correct": 0,
       "explain": "Du kan søke selv om du ikke oppfyller alle ønskene."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er et digitalt fotavtrykk?",
       "options": [
-        "Et fingeravtrykk på skjermen",
+        "En sikkerhetskode til kontoene dine på nettet",
         "Sporene du etterlater deg på nettet",
-        "En type CV",
-        "Et passord"
+        "En mappe med bilder lagret på datamaskinen",
+        "En liste over brukernavn og passord på nettet"
       ],
       "correct": 1,
       "explain": "Mange arbeidsgivere søker opp søkere på nettet."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hvordan bør du forberede deg til et jobbintervju?",
       "options": [
-        "Ikke forberede deg i det hele tatt",
-        "Pugge svar ord for ord",
+        "Finne på erfaringer som passer til spørsmålene",
+        "Gi samme innøvde svar på alle spørsmålene",
         "Lese om bedriften og tenke gjennom vanlige spørsmål",
-        "Komme sent for å virke avslappet"
+        "Unngå å lese om bedriften før intervjuet"
       ],
       "correct": 2,
       "explain": "God forberedelse gir tryggere svar."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvilken erfaring kan du ta med i CV-en som 15-åring?",
       "options": [
-        "Bare fulltidsjobber",
-        "Ingenting",
-        "Bare utdanning",
+        "Jobber du ønsker å få, som butikkjobb eller kaféjobb",
+        "Fag du har hatt på skolen og lærebøker du har lest",
+        "Arbeidsplasser du har besøkt, men ikke jobbet på",
         "Avislevering, barnevakt og verv som trener eller i elevrådet"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hvorfor bør du stille egne spørsmål på et jobbintervju?",
       "options": [
         "For å vise interesse og lære mer om jobben",
-        "For å forlenge intervjuet",
-        "For å teste intervjueren",
-        "Det bør du ikke"
+        "For å få intervjueren til å fortelle om privatlivet sitt",
+        "For å vise at du kjenner svarene på forhånd",
+        "For å forhandle om lønn før du får tilbud"
       ],
       "correct": 0,
       "explain": "Du kan for eksempel spørre om opplæringen."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvorfor bør du skrive en ny søknad til hver jobb?",
       "options": [
-        "Fordi det er påbudt",
+        "Fordi arbeidsgivere krever ulik utforming i hvert brev",
         "Fordi søknaden bør tilpasses stillingen og bedriften",
-        "Fordi gamle søknader blir slettet",
-        "Det trenger du ikke"
+        "Fordi søknader ikke kan lagres etter at de er sendt",
+        "Fordi CV-en må skrives på nytt for hver stilling"
       ],
       "correct": 1,
       "explain": "En målrettet søknad skiller seg ut."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva er et verv?",
         "options": [
-          "En type lønn",
+          "En betalt arbeidsoppgave, som å jobbe i butikk",
           "Et tillitsoppdrag, som å sitte i elevrådet",
-          "En jobbsøknad",
-          "En referanse"
+          "En skriftlig presentasjon, som et brev til arbeidsgiver",
+          "En person som kan anbefale deg, som en tidligere sjef"
         ],
         "correct": 1,
         "explain": "Verv viser at du tar ansvar."
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hva er et vanlig spørsmål på jobbintervju?",
         "options": [
-          "Hva er favorittmaten din?",
-          "Hvor bor bestemoren din?",
+          "Hvilken skrifttype brukte du i jobbsøknaden?",
+          "Hvilken rekkefølge har erfaringene i CV-en din?",
           "Hvorfor søker du på denne jobben?",
-          "Hvilken bil har du?"
+          "Hvor mange sider bør søknadsbrevet ditt ha?"
         ],
         "correct": 2,
         "explain": "Forbered et ærlig og konkret svar."
@@ -345,9 +345,9 @@
         "type": "flervalg",
         "text": "Hvilken e-postadresse passer best i en CV?",
         "options": [
-          "kulgutt2010@…",
-          "partyjenta@…",
-          "xXgamerXx@…",
+          "fornavn.fotball@…",
+          "fornavn.gaming@…",
+          "fornavn.sommerferie@…",
           "fornavn.etternavn@…"
         ],
         "correct": 3,
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

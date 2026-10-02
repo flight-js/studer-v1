@@ -85,10 +85,10 @@
       "id": "q01",
       "text": "Hva skjedde da mennesker begynte med jordbruk?",
       "options": [
-        "De sluttet å påvirke naturen",
+        "De begynte å dyrke jorda uten å endre landskapet",
         "De begynte å forme naturen ved å rydde skog og temme dyr",
-        "De ble jegere",
-        "De flyttet oftere"
+        "De fortsatte å leve av jakt og sanking",
+        "De flyttet oftere for å finne nye jaktområder"
       ],
       "correct": 1,
       "explain": "Landskapet endret seg."
@@ -97,10 +97,10 @@
       "id": "q02",
       "text": "Hva skjedde med den norske vårgytende silda på slutten av 1960-tallet?",
       "options": [
-        "Den nesten kollapset på grunn av overfiske",
-        "Den ble dobbelt så stor",
-        "Den flyttet til Afrika",
-        "Den ble fredet for alltid"
+        "Bestanden nesten kollapset på grunn av overfiske",
+        "Bestanden sank på grunn av forurensning fra industrien",
+        "Bestanden vokste kraftig etter flere år med vern",
+        "Bestanden flyttet seg til varmere havområder"
       ],
       "correct": 0,
       "explain": "Kom tilbake etter strenge reguleringer.",
@@ -110,10 +110,10 @@
       "id": "q03",
       "text": "Hva førte sur nedbør til på Sørlandet?",
       "options": [
-        "Flere fisk",
-        "Mer skog",
+        "Skogdød i fjellområdene på Sørlandet",
+        "Større avlinger på gårdene i området",
         "Fiskedød i elver og innsjøer",
-        "Bedre avlinger"
+        "Økt fiskebestand i elver og innsjøer"
       ],
       "correct": 2,
       "explain": "Utslipp fra industri i andre land.",
@@ -123,9 +123,9 @@
       "id": "q04",
       "text": "Når ble Ekofisk funnet?",
       "options": [
-        "1945",
+        "1967",
+        "1970",
         "1972",
-        "1987",
         "1969"
       ],
       "correct": 3,
@@ -137,9 +137,9 @@
       "text": "Hva forbød Montrealprotokollen?",
       "options": [
         "Stoffer som ødela ozonlaget",
-        "Hvalfangst",
-        "Oljeboring",
-        "Kullkraft"
+        "Gasser som bidro til sur nedbør",
+        "Utslipp fra oljeproduksjon til havet",
+        "Stoffer som forurenset drikkevannet"
       ],
       "correct": 0,
       "explain": "Et eksempel på vellykket samarbeid.",
@@ -149,10 +149,10 @@
       "id": "q06",
       "text": "Hva handlet Mardøla-aksjonen i 1970 om?",
       "options": [
-        "Hvalfangst",
-        "Utbygging av en foss",
-        "Oljeboring",
-        "Gruvedrift"
+        "Utbygging av Altaelva til vannkraft",
+        "Utbygging av Mardøla til vannkraft",
+        "Utvinning av kobber i et fjellområde",
+        "Utbygging av et oljefelt i Nordsjøen"
       ],
       "correct": 1,
       "explain": "En av de første store miljøaksjonene.",
@@ -162,10 +162,10 @@
       "id": "q07",
       "text": "Hva definerte Brundtland-kommisjonen i 1987?",
       "options": [
-        "Parlamentarismen",
-        "Velferdsstaten",
-        "Bærekraftig utvikling",
-        "Oljefondet"
+        "Begrepet økonomisk vekst",
+        "Begrepet fornybar energi",
+        "Begrepet bærekraftig utvikling",
+        "Begrepet naturvern"
       ],
       "correct": 2,
       "explain": "I rapporten Vår felles framtid.",
@@ -175,10 +175,10 @@
       "id": "q08",
       "text": "Hva lærer vi av overbeskatningen av hval, sild og skog?",
       "options": [
-        "At ressurser aldri tar slutt",
-        "At teknologi alltid løser problemer",
-        "At reguleringer er unødvendige",
-        "Hva som skjer når ingen tar ansvar for felles ressurser"
+        "At tekniske løsninger kan sikre ressursene alene",
+        "At privat eierskap løser alle konflikter om ressurser",
+        "At økt produksjon gir bedre vern av felles ressurser",
+        "At felles ressurser trenger ansvarlig forvaltning"
       ],
       "correct": 3,
       "explain": "Allmenningens tragedie."
@@ -187,10 +187,10 @@
       "id": "q09",
       "text": "Hvorfor er klimaendringene vanskeligere å løse enn ozonproblemet?",
       "options": [
-        "Fordi utslippene er knyttet til nesten all økonomisk aktivitet",
-        "Fordi ingen bryr seg",
-        "Fordi klimaet ikke endrer seg",
-        "Fordi det ikke finnes avtaler"
+        "Fordi utslippene kommer fra mange deler av økonomien",
+        "Fordi utslippene hovedsakelig kommer fra vulkaner",
+        "Fordi klimaavtaler ikke omfatter utslipp fra energibruk",
+        "Fordi utslippene kommer fra noen få lett regulerte fabrikker"
       ],
       "correct": 0,
       "explain": "Omstillingen er mye større."
@@ -199,10 +199,10 @@
       "id": "q10",
       "text": "Hva handlet Alta-saken om?",
       "options": [
-        "Bare olje",
-        "Både natur og samiske rettigheter",
-        "Hvalfangst",
-        "Sur nedbør"
+        "Hensynet til oljeutvinning og fiskerettigheter",
+        "Hensynet til naturen og samiske rettigheter",
+        "Hensynet til gruvedrift og arbeidsplasser i Finnmark",
+        "Hensynet til skogvern og jordbruk i Nord-Norge"
       ],
       "correct": 1,
       "explain": "1979–1981.",
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hvilken hvalart ble dramatisk redusert av overbeskatning?",
         "options": [
-          "Nise",
+          "Vågehval",
           "Blåhval",
           "Spekkhogger",
-          "Vågehval"
+          "Grindhval"
         ],
         "correct": 1,
         "explain": "Hvalfangsten på 1900-tallet.",
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva viste Bravo-utblåsningen i 1977?",
         "options": [
-          "Risikoen for oljeutslipp",
-          "At oljen var tom",
-          "At fisket økte",
-          "At olje ikke forurenser"
+          "Risikoen for store oljeutslipp",
+          "Faren for at oljefeltene i Nordsjøen skulle tømmes",
+          "Betydningen av å sikre oljetransporten til land",
+          "Faren for sammenstøt mellom skip og oljeplattformer"
         ],
         "correct": 0,
         "explain": "En ulykke i Nordsjøen.",
@@ -360,10 +360,10 @@
         "type": "flervalg",
         "text": "Hvilket perspektiv kan tradisjonell samisk kunnskap gi?",
         "options": [
-          "At naturen er uten verdi",
-          "At ressurser er uendelige",
-          "Erfaring med å bruke naturen over lang tid uten å tømme den",
-          "At reindrift er ny"
+          "Lang erfaring med å holde naturen helt urørt",
+          "Lang erfaring med å bruke naturen til reindrift alene",
+          "Lang erfaring med naturbruk uten å tømme ressursene",
+          "Lang erfaring med å erstatte lokalkunnskap med målinger"
         ],
         "correct": 2,
         "explain": "Viktig i samtaler om bærekraft.",
@@ -450,6 +450,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

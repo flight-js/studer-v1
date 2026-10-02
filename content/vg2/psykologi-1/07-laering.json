@@ -86,8 +86,8 @@
       "options": [
         "Operant betinging",
         "Klassisk betinging",
-        "Modellæring",
-        "Proksimal utviklingssone"
+        "Observasjonslæring",
+        "Latent læring"
       ],
       "correct": 1,
       "explain": "Hundene siklet av en lyd."
@@ -98,7 +98,7 @@
       "options": [
         "Positiv forsterkning",
         "Negativ forsterkning",
-        "Straff",
+        "Positiv straff",
         "Utslukking"
       ],
       "correct": 0,
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hva er negativ forsterkning?",
       "options": [
-        "Å straffe uønsket atferd",
-        "Å ignorere atferd",
+        "Å legge til noe ubehagelig slik at atferden reduseres",
+        "Å fjerne noe behagelig slik at atferden reduseres",
         "Å fjerne noe ubehagelig slik at atferden øker",
-        "Å gi ros"
+        "Å legge til noe behagelig slik at atferden øker"
       ],
       "correct": 2,
       "explain": "Forsterkning øker alltid atferden."
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hva viste Bobo-dukke-forsøket?",
       "options": [
-        "At barn lærer bare av belønning",
-        "At aggresjon er medfødt",
-        "At barn glemmer raskt",
-        "At barn lærer ved å observere voksne"
+        "Barn lærer ved å få belønning etter egne handlinger",
+        "Barns aggresjon skyldes medfødte egenskaper",
+        "Barn lærer best ved å øve uten å se voksne",
+        "Barn lærer ved å observere voksne"
       ],
       "correct": 3,
       "explain": "Modellæring.",
@@ -134,9 +134,9 @@
       "text": "Hva er akkommodasjon hos Piaget?",
       "options": [
         "At skjemaene endres for å passe ny informasjon",
-        "At ny informasjon passer rett inn",
-        "At barnet sover",
-        "At læreren hjelper"
+        "At ny informasjon tilpasses skjemaene barnet allerede har",
+        "At skjemaene beholdes uendret når barnet møter ny informasjon",
+        "At barnet lærer nye handlinger ved å observere voksne"
       ],
       "correct": 0,
       "explain": "Assimilasjon er når informasjonen passer inn."
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Hva er den proksimale utviklingssonen?",
       "options": [
-        "Det eleven allerede kan",
+        "Det eleven klarer på egen hånd uten hjelp",
         "Det eleven klarer med hjelp, men ikke alene ennå",
-        "Et klasserom",
-        "Det eleven aldri kan lære"
+        "Det eleven ennå ikke klarer, selv med veiledning",
+        "Det eleven lærer ved å observere andre elever"
       ],
       "correct": 1,
       "explain": "Vygotskijs begrep."
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hva er metakognisjon?",
       "options": [
-        "Å puge",
-        "Å lese fort",
+        "Å pugge fagstoff uten å vurdere det",
+        "Å lese fagstoff raskt for å bli ferdig",
         "Å tenke over egen læring",
-        "Å lære av andre"
+        "Å lære ved å observere andre"
       ],
       "correct": 2,
       "explain": "Hjelper deg å velge riktig strategi."
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hvilken strategi har best forskningsstøtte?",
       "options": [
-        "Lese om igjen mange ganger",
-        "Streke under alt",
-        "Tilpasse seg én læringsstil",
+        "Lese teksten om igjen flere ganger",
+        "Streke under de fleste setningene",
+        "Velge strategi ut fra egen læringsstil",
         "Teste seg selv og spre repetisjonen"
       ],
       "correct": 3,
@@ -181,10 +181,10 @@
       "id": "q09",
       "text": "Hvorfor gir uforutsigbare belønninger vedvarende atferd?",
       "options": [
-        "Man vet aldri når neste belønning kommer",
-        "De er alltid store",
-        "De er straff",
-        "De gir søvn"
+        "Tidspunktet for neste belønning er uforutsigbart",
+        "Belønningen kommer etter et fast antall handlinger",
+        "Belønningen blir større etter hver handling",
+        "Belønningen kommer etter en fast tidsperiode"
       ],
       "correct": 0,
       "explain": "Brukes i pengespill og apper.",
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Hva kan hemme læring?",
       "options": [
-        "Gode relasjoner",
+        "Gode relasjoner og støtte",
         "Søvnmangel og stress",
-        "Tydelige mål",
-        "Mestringsopplevelser"
+        "Tydelige mål og struktur",
+        "Mestringsopplevelser og motivasjon"
       ],
       "correct": 1,
       "explain": "Også forstyrrelser og prestasjonsangst."
@@ -330,9 +330,9 @@
         "text": "Hva er et eksempel på en elaboreringsstrategi?",
         "options": [
           "Å forklare stoffet med egne ord",
-          "Å lese samme tekst fem ganger",
-          "Å skrive av læreboka",
-          "Å høre musikk"
+          "Å gjenta fagbegreper høyt flere ganger",
+          "Å markere sentrale setninger i teksten",
+          "Å teste seg selv med spørsmål om stoffet"
         ],
         "correct": 0,
         "explain": "Koble nytt stoff til det du kan."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva er stillas i undervisning?",
         "options": [
-          "Et klasserom",
-          "En prøve",
-          "Støtte som gradvis trekkes bort",
-          "Straff for feil"
+          "Støtte som økes etter hvert som eleven mestrer",
+          "Støtte som gis først når eleven mestrer oppgaven",
+          "Støtte til eleven som gradvis trekkes bort",
+          "Instruksjon som ikke endres mens eleven arbeider"
         ],
         "correct": 2,
         "explain": "Hjelper eleven gjennom den proksimale sonen."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

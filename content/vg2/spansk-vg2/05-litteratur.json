@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva pålegger Bernarda døtrene sine i «La casa de Bernarda Alba»?",
       "options": [
-        "Å gifte seg",
-        "Åtte års sorg innestengt i huset",
-        "Å flytte til Madrid",
-        "Å bli nonner"
+        "Å sørge i fem år innestengt i huset",
+        "Å sørge i åtte år innestengt i huset",
+        "Å sørge i åtte måneder innestengt i huset",
+        "Å sørge i åtte år uten å forlate landsbyen"
       ],
       "correct": 1,
       "explain": "Stykket handler om undertrykkelse og ære.",
@@ -98,8 +98,8 @@
       "options": [
         "Gabriela Mistral",
         "Pablo Neruda",
-        "Julio Cortázar",
-        "García Lorca"
+        "Miguel Ángel Asturias",
+        "Octavio Paz"
       ],
       "correct": 0,
       "explain": "Hun fikk prisen i 1945.",
@@ -109,10 +109,10 @@
       "id": "q03",
       "text": "Hva skjer i «Continuidad de los parques»?",
       "options": [
-        "En mann reiser til en park",
-        "To elskende gifter seg",
-        "Leseren av en roman viser seg å være offeret i romanen",
-        "En gutt mister sin hund"
+        "En romanleser oppdager at historien bygger på livet hans",
+        "En romanfigur blir klar over at hun lever inne i en bok",
+        "En romanleser viser seg å være offeret i romanen",
+        "En forfatter leser sin egen roman og møter hovedpersonen"
       ],
       "correct": 2,
       "explain": "Fortellingen leker med fiksjon og virkelighet.",
@@ -122,9 +122,9 @@
       "id": "q04",
       "text": "Hva er magisk realisme?",
       "options": [
-        "Fantasy med drager",
-        "Realistiske krimromaner",
-        "Dikt om magikere",
+        "Overnaturlige hendelser forklart som drømmer eller hallusinasjoner",
+        "Historiske hendelser fortalt med overdrivelser og fantastiske innslag",
+        "Vanlige hendelser forklart gjennom gamle myter og folketro",
         "Overnaturlige hendelser beskrevet som en naturlig del av hverdagen"
       ],
       "correct": 3,
@@ -147,10 +147,10 @@
       "id": "q06",
       "text": "Hvordan døde García Lorca?",
       "options": [
-        "Av sykdom i eksil",
+        "Han døde av sykdom etter å ha forlatt Spania",
         "Han ble drept tidlig i borgerkrigen",
-        "I en ulykke i New York",
-        "Av alderdom"
+        "Han omkom under et bombeangrep i Madrid",
+        "Han døde i fengsel etter borgerkrigens slutt"
       ],
       "correct": 1,
       "explain": "Han ble drept av nasjonalistene i 1936.",
@@ -160,10 +160,10 @@
       "id": "q07",
       "text": "Hva betyr «la trama»?",
       "options": [
-        "tragedien",
-        "trærne",
+        "fortelleren",
+        "miljøet",
         "handlingen",
-        "temaet"
+        "avslutningen"
       ],
       "correct": 2,
       "explain": "la trama de la novela = romanens handling."
@@ -172,9 +172,9 @@
       "id": "q08",
       "text": "Hvilket land kom Julio Cortázar fra?",
       "options": [
-        "Spania",
-        "Chile",
-        "Mexico",
+        "Peru",
+        "Colombia",
+        "Uruguay",
         "Argentina"
       ],
       "correct": 3,
@@ -186,9 +186,9 @@
       "text": "Hvordan sier du «Teksten handler om ensomhet»?",
       "options": [
         "El texto trata de la soledad.",
-        "El texto es soledad.",
-        "La soledad trata el texto.",
-        "El texto hace soledad."
+        "El texto trata de la alegría.",
+        "El texto trata de la amistad.",
+        "El texto trata de la familia."
       ],
       "correct": 0,
       "explain": "tratar de = handle om."
@@ -199,8 +199,8 @@
       "options": [
         "Indefinido",
         "Imperfecto",
-        "Futuro",
-        "Imperativ"
+        "Presente",
+        "Pretérito perfecto"
       ],
       "correct": 1,
       "explain": "Indefinido brukes for handlinger."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva betyr «el cuento»?",
         "options": [
-          "regnskapet",
+          "den økonomiske kontoen",
           "den korte fortellingen",
-          "kontoen",
-          "hjørnet"
+          "den lange romanen",
+          "den journalistiske reportasjen"
         ],
         "correct": 1,
         "explain": "Cortázar er kjent for cuentos."
@@ -341,9 +341,9 @@
         "text": "Hva betyr «Me identifico con la protagonista»?",
         "options": [
           "Jeg kjenner meg igjen i hovedpersonen.",
-          "Jeg liker ikke hovedpersonen.",
-          "Jeg er hovedpersonen.",
-          "Jeg har møtt hovedpersonen."
+          "Jeg er enig med hovedpersonen i teksten.",
+          "Jeg blir kjent med hovedpersonen i teksten.",
+          "Jeg forteller om hovedpersonen i teksten."
         ],
         "correct": 0,
         "explain": "identificarse con = kjenne seg igjen i."
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Hvilken forfatter forbindes særlig med magisk realisme?",
         "options": [
-          "Cervantes",
-          "García Lorca",
+          "Mario Vargas Llosa",
+          "Jorge Luis Borges",
           "Gabriel García Márquez",
-          "Gabriela Mistral"
+          "Julio Cortázar"
         ],
         "correct": 2,
         "explain": "Hundre års ensomhet er et hovedverk.",
@@ -446,6 +446,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

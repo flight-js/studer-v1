@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er den mobile fasen i kromatografi?",
       "options": [
-        "Fasen som står stille",
+        "Fasen som blir igjen på platen",
         "Fasen som beveger seg",
-        "Prøven",
-        "Platen"
+        "Fasen som holder stoffene fast",
+        "Fasen som danner flekkene"
       ],
       "correct": 1,
       "explain": "En væske eller gass."
@@ -102,9 +102,9 @@
       "text": "Hvilke stoffer vandrer kortest på en polar silikaplate?",
       "options": [
         "Upolare stoffer",
-        "Gasser",
+        "Stoffer som binder svakt til silika",
         "Polare stoffer",
-        "Alle vandrer like langt"
+        "Stoffer med størst affinitet til mobilfasen"
       ],
       "correct": 2,
       "explain": "De bindes sterkt til silika."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva tyder det på at en prøve gir én flekk på TLC?",
       "options": [
-        "At det er mange stoffer",
-        "At forsøket mislyktes",
-        "At løsemiddelet var feil",
+        "At prøven inneholder flere stoffer",
+        "At stoffet har reagert med silika",
+        "At løsemiddelet har løst opp platen",
         "At stoffet er rent"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvilken type kromatografi bruker gass som mobil fase?",
       "options": [
         "Gasskromatografi",
-        "HPLC",
-        "Papirkromatografi",
-        "TLC"
+        "Væskekromatografi (HPLC)",
+        "Tynnsjiktskromatografi (TLC)",
+        "Papirkromatografi"
       ],
       "correct": 0,
       "explain": "Egnet for flyktige stoffer."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvordan kan du identifisere et stoff med TLC?",
       "options": [
-        "Ved å se på fargen alene",
+        "Ved å sammenligne flekkens farge med en fargetabell",
         "Ved å sammenligne Rf med kjente referansestoffer",
-        "Ved å veie platen",
-        "Ved å lukte"
+        "Ved å sammenligne prøvens masse med referansestoffer",
+        "Ved å sammenligne kokepunktet med referansestoffer"
       ],
       "correct": 1,
       "explain": "Samme Rf under samme forhold."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva kjennetegner HPLC?",
       "options": [
-        "Gass som mobil fase",
-        "Papir som stasjonær fase",
+        "Gass presses under høyt trykk gjennom en kolonne",
+        "Væske presses under høyt trykk gjennom papir",
         "Væske presses under høyt trykk gjennom en kolonne",
-        "Ingen kolonne"
+        "Væske renner ved lavt trykk gjennom en kolonne"
       ],
       "correct": 2,
       "explain": "Svært nøyaktig."
@@ -174,9 +174,9 @@
       "text": "Hva kan kolonnekromatografi brukes til?",
       "options": [
         "Å rense større mengder stoff",
-        "Å måle temperatur",
-        "Å veie stoffer",
-        "Å lage gass"
+        "Å måle temperaturen i en løsning",
+        "Å bestemme massen til et stoff",
+        "Å øke reaksjonsfarten i en blanding"
       ],
       "correct": 0,
       "explain": "Stoffene samles opp etter tur."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er Rf-verdien alltid?",
       "options": [
-        "Større enn 1",
+        "Større enn 1,2",
         "Mellom 0 og 1",
-        "Negativ",
-        "Lik 1"
+        "Lavere enn −0,2",
+        "Lik 1,2"
       ],
       "correct": 1,
       "explain": "Stoffet kan ikke vandre lenger enn fronten."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hva er papirkromatografi godt egnet til?",
         "options": [
-          "Flyktige gasser",
+          "Å skille flyktige stoffer i en gassblanding",
           "Å skille fargestoffer i tusj",
-          "Store mengder stoff",
-          "Metaller"
+          "Å rense store mengder stoff fra en blanding",
+          "Å bestemme molmassen til et rent stoff"
         ],
         "correct": 1,
         "explain": "Enkel og billig metode."
@@ -326,9 +326,9 @@
         "text": "Hvilket instrument kobles ofte til GC og HPLC for å identifisere stoffer?",
         "options": [
           "Massespektrometer",
-          "pH-meter",
-          "Vekt",
-          "Termometer"
+          "UV-Vis-detektor",
+          "Flammeionisasjonsdetektor",
+          "Brytningsindeksdetektor"
         ],
         "correct": 0,
         "explain": "Gir molekylenes masse og struktur.",
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvordan kan kromatografi brukes i en syntese?",
         "options": [
-          "Til å varme opp",
-          "Til å veie produktet",
+          "Til å varme reaksjonsblandingen jevnt",
+          "Til å bestemme produktets masse",
           "Til å følge med på om reaksjonen er ferdig",
-          "Til å lage katalysator"
+          "Til å måle reaksjonens temperatur"
         ],
         "correct": 2,
         "explain": "Utgangsstoffet forsvinner, produktet dukker opp."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

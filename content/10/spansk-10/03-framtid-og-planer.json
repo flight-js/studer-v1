@@ -80,9 +80,9 @@
       "id": "q01",
       "text": "Hvordan lager du nær framtid med «ir»?",
       "options": [
-        "haber + partisipp",
         "estar + gerundium",
-        "ser + infinitiv",
+        "haber + partisipp",
+        "tener que + infinitiv",
         "ir a + infinitiv"
       ],
       "correct": 3,
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hvordan sier en jente «Jeg vil bli sykepleier»?",
       "options": [
-        "Quiero ser una enfermera.",
+        "Quiero estar enfermera.",
         "Quiero ser enfermera.",
-        "Quiero enfermera.",
-        "Soy quiero enfermera."
+        "Quiero ser enfermero.",
+        "Quiero ser médica."
       ],
       "correct": 1,
       "explain": "Man bruker ikke artikkel foran yrket."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er futurum av «tener» med «yo»?",
       "options": [
-        "teneré",
-        "tenderé",
+        "tendría",
+        "tendrá",
         "tendré",
-        "tengo"
+        "tenía"
       ],
       "correct": 2,
       "explain": "«tener» har stammen tendr- i futurum."
@@ -117,9 +117,9 @@
       "text": "Hvilken setning er riktig?",
       "options": [
         "Quiero ser profesor porque me gustan los niños.",
-        "Quiero ser profesor porque los niños me gustan porque.",
-        "Quiero porque ser profesor me gustan los niños.",
-        "Porque quiero ser profesor me gustan."
+        "Quiero ser profesor porque me gusta los niños.",
+        "Quiero ser profesor porque me gustan el niño.",
+        "Quiero ser profesor porque los niños me gusta."
       ],
       "correct": 0,
       "explain": "Etter «porque» brukes vanlig ordstilling."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hva er «las prácticas»?",
       "options": [
-        "Øvelser i matte",
-        "En eksamen",
-        "En praksisperiode i en bedrift",
-        "Et skolefag"
+        "En prøve for å avslutte et kurs",
+        "Et fag som studeres i klassen",
+        "Praksisperiode i en bedrift",
+        "Et intervju for å få en jobb"
       ],
       "correct": 2,
       "explain": "Mange studenter har praksis i en bedrift."
@@ -141,9 +141,9 @@
       "text": "Hva betyr «el año que viene»?",
       "options": [
         "Neste år",
-        "I fjor",
-        "Hvert år",
-        "Dette året"
+        "I år",
+        "Forrige år",
+        "Hvert år"
       ],
       "correct": 0,
       "explain": "I fjor heter «el año pasado»."
@@ -152,9 +152,9 @@
       "id": "q07",
       "text": "Hva er «la Formación Profesional (FP)»?",
       "options": [
-        "Et universitet",
-        "En skoleuniform",
-        "En eksamen",
+        "Universitetsutdanning",
+        "Allmennfaglig utdanning",
+        "Grunnskoleutdanning",
         "Yrkesfaglig utdanning"
       ],
       "correct": 3,
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er hunkjønnsformen av «ingeniero»?",
       "options": [
-        "ingeniere",
+        "ingeniero",
         "ingeniera",
-        "ingenieresa",
-        "ingeniería"
+        "ingeniería",
+        "mecánica"
       ],
       "correct": 1,
       "explain": "-o blir -a i hunkjønn."
@@ -176,9 +176,9 @@
       "id": "q09",
       "text": "Hva betyr «Si saco buenas notas, iré a la universidad»?",
       "options": [
-        "Jeg har gode karakterer på universitetet",
-        "Jeg gikk på universitetet",
-        "Universitetet er bra",
+        "Hvis jeg får dårlige karakterer, skal jeg gå på universitetet",
+        "Hvis jeg fikk gode karakterer, skal jeg gå på universitetet",
+        "Hvis jeg får gode karakterer, skal jeg gå på videregående skole",
         "Hvis jeg får gode karakterer, skal jeg gå på universitetet"
       ],
       "correct": 3,
@@ -189,9 +189,9 @@
       "text": "Hva betyr «Me gustaría vivir en el campo»?",
       "options": [
         "Jeg ville gjerne bodd på landet",
-        "Jeg bor på landet",
-        "Jeg liker ikke landet",
-        "Jeg bodde på landet"
+        "Jeg ville gjerne bodd i byen",
+        "Jeg liker å bo på landet",
+        "Jeg ønsket å bo på landet"
       ],
       "correct": 0,
       "explain": "«me gustaría» er en høflig måte å uttrykke ønsker på."
@@ -329,9 +329,9 @@
         "text": "Hva er futurum av «poder» med «yo»?",
         "options": [
           "podré",
-          "poderé",
-          "puedo",
-          "pudo"
+          "podría",
+          "podrá",
+          "puedo"
         ],
         "correct": 0,
         "explain": "«poder» har stammen podr- i futurum."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Sueño con ser piloto»?",
         "options": [
-          "Jeg drømte om fly",
-          "Jeg er pilot",
+          "Jeg ønsker å bli pilot",
+          "Jeg drømmer om å bli lege",
           "Jeg drømmer om å bli pilot",
-          "Jeg liker piloter"
+          "Jeg drømmer om å møte en pilot"
         ],
         "correct": 2,
         "explain": "«soñar con» betyr å drømme om."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

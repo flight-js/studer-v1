@@ -78,9 +78,9 @@
       "text": "What is rhetoric?",
       "options": [
         "The art of using language effectively to persuade",
-        "A type of poem",
-        "A grammar rule",
-        "A news headline"
+        "The study of how grammar rules shape clear sentences",
+        "A form of writing that tells a story through verse",
+        "A short report that presents facts about a recent event"
       ],
       "correct": 0,
       "explain": "Rhetoric has been studied since ancient Greece."
@@ -104,7 +104,7 @@
         "Pathos",
         "Ethos",
         "Logos",
-        "Hyperbole"
+        "Bandwagon"
       ],
       "correct": 1,
       "explain": "The sender's expertise makes the message credible."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "What is the bandwagon technique?",
       "options": [
-        "Using facts",
-        "Showing a doctor",
-        "Using a rhetorical question",
+        "Using statistics to show that a product works better",
+        "Quoting an expert to make a product seem trustworthy",
+        "Asking a question that makes the audience consider an idea",
         "Saying that everyone is doing it, so you should too"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Which of these appeals mostly to emotions?",
       "options": [
-        "A table of statistics",
-        "A list of sources",
+        "A chart showing the results of a recent survey",
+        "A list naming the studies behind a claim",
         "A picture of a sad, hungry animal",
-        "A doctor's title"
+        "A doctor's title displayed beside a health claim"
       ],
       "correct": 2,
       "explain": "Pictures that make us feel pity are typical pathos."
@@ -138,9 +138,9 @@
       "text": "What is propaganda?",
       "options": [
         "One-sided information spread to control what people think",
-        "A balanced news report",
-        "A school essay",
-        "A scientific study"
+        "A report presenting opposing views to help readers compare them",
+        "A school essay explaining one topic using classroom research",
+        "A scientific study testing a claim through controlled experiments"
       ],
       "correct": 0,
       "explain": "Propaganda hides other perspectives."
@@ -149,9 +149,9 @@
       "id": "q07",
       "text": "What is a straw man argument?",
       "options": [
-        "A strong argument with facts",
-        "A question to the audience",
-        "A famous quotation",
+        "Supporting your own claim with facts from reliable sources",
+        "Attacking the speaker instead of answering their argument",
+        "Repeating a famous person's words to support your claim",
         "Twisting the other side's argument and attacking that version"
       ],
       "correct": 3,
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Why should you answer counterarguments in a persuasive text?",
       "options": [
-        "To make the text longer",
+        "To add more examples",
         "To be more convincing",
-        "To confuse the reader",
-        "Because it is a grammar rule"
+        "To introduce a new topic",
+        "To repeat the main claim"
       ],
       "correct": 1,
       "explain": "It shows that you have thought about other views."
@@ -175,9 +175,9 @@
       "text": "Why is it important to know the sender of a persuasive message?",
       "options": [
         "Because the sender's interests shape the message",
-        "Because senders are always honest",
-        "To know their age",
-        "It is not important"
+        "Because the sender's age determines whether claims are reliable",
+        "Because the sender's address identifies the intended audience",
+        "Because the sender's title guarantees that claims are accurate"
       ],
       "correct": 0,
       "explain": "Ask what the sender gains."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Which is an example of inclusive language?",
       "options": [
-        "You must obey.",
-        "They are wrong.",
+        "You should follow the rules and cooperate.",
+        "They can solve this problem without help.",
         "Together we can make a difference.",
-        "I know best."
+        "I can make the decision for everyone."
       ],
       "correct": 2,
       "explain": "“We” and “together” create a sense of community."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "What is hyperbole?",
         "options": [
-          "A fact",
+          "A comparison",
           "A question",
           "An exaggeration",
-          "A quotation"
+          "A repeated phrase"
         ],
         "correct": 2,
         "explain": "“The best phone ever made” is hyperbole."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "What is a testimonial?",
         "options": [
-          "A law",
+          "A product description written by the company that sells it",
           "A recommendation from a famous person or satisfied customer",
-          "A news report",
-          "A rhetorical question"
+          "A report about a product written by an independent journalist",
+          "A product rating based on results from a laboratory test"
         ],
         "correct": 1,
         "explain": "Testimonials borrow credibility from others."
@@ -355,10 +355,10 @@
         "type": "flervalg",
         "text": "What should you do as a critical receiver?",
         "options": [
-          "Check claims in other sources",
-          "Believe the first source you find",
-          "Share without reading",
-          "Ignore facts"
+          "Check claims against information from other sources",
+          "Trust a message because it sounds confident",
+          "Share a claim before checking its source",
+          "Judge a claim by its emotional effect"
         ],
         "correct": 0,
         "explain": "Checking claims protects you from manipulation."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

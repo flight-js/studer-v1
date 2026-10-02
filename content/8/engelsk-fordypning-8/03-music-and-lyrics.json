@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "What is the chorus of a song?",
       "options": [
-        "The first line",
-        "The instrumental part",
+        "The verse that develops the story with new details each time",
+        "The bridge that links two different sections of the song",
         "The part that repeats the main message and is often the catchiest",
-        "The last word"
+        "The introduction that sets the mood before the lyrics begin"
       ],
       "correct": 2,
       "explain": "The chorus is usually what people remember and sing along to."
@@ -91,9 +91,9 @@
       "text": "Which line contains a simile?",
       "options": [
         "She runs like the wind",
-        "The city never sleeps",
-        "Big, bright balloons",
-        "I'm on top of the world"
+        "She runs through the crowded streets",
+        "The city wakes before the sun",
+        "Bright lights shine across the town"
       ],
       "correct": 0,
       "explain": "A simile uses “like” or “as” to compare."
@@ -102,9 +102,9 @@
       "id": "q03",
       "text": "What is alliteration?",
       "options": [
-        "Words that rhyme at the end of lines",
-        "A comparison using like or as",
-        "A repeated chorus",
+        "Repeating similar sounds at line endings",
+        "Comparing two things using like or as",
+        "Repeating a phrase at the end of each verse",
         "Repeating the first sound in several words"
       ],
       "correct": 3,
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "What is a protest song?",
       "options": [
-        "A song about love",
+        "A song that helps children fall asleep",
         "A song that criticises something in society",
-        "A song for children",
-        "A song without lyrics"
+        "A song that tells a story about romance",
+        "A song that people dance to at a party"
       ],
       "correct": 1,
       "explain": "Protest songs were important in the civil rights movement.",
@@ -128,9 +128,9 @@
       "text": "Why do songwriters use repetition?",
       "options": [
         "To make lines memorable and emphasise the message",
-        "Because they run out of ideas",
-        "To make the song shorter",
-        "To avoid rhyme"
+        "To make each repeated line tell a different story",
+        "To add new information every time a line returns",
+        "To make the main idea less clear to listeners"
       ],
       "correct": 0,
       "explain": "Repetition makes the message stick."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "What is a metaphor?",
       "options": [
-        "A comparison with like or as",
-        "A song genre",
+        "Comparing two things using like or as",
+        "Repeating similar sounds at line endings",
         "Saying something is something else",
-        "A long verse"
+        "Giving human actions to animals or objects"
       ],
       "correct": 2,
       "explain": "“You are my sunshine” describes a person as the sun."
@@ -151,9 +151,9 @@
       "id": "q07",
       "text": "Which genre is known for rhythm, rhyme and wordplay about life and society?",
       "options": [
-        "Country",
+        "Reggae",
         "Hip hop",
-        "Classical",
+        "Jazz",
         "Opera"
       ],
       "correct": 1,
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "What is the speaker in a song?",
       "options": [
-        "The loudspeaker",
-        "The producer",
-        "The person who buys the song",
+        "The person who plays the instruments during a song",
+        "The person who records and mixes the finished track",
+        "The person who writes the lyrics and melody",
         "The voice or character that talks in the lyrics"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "How is music often used in films and games?",
       "options": [
-        "To replace the dialogue completely",
-        "To make the film shorter",
-        "To build mood and tension",
-        "To show the credits"
+        "To explain the story instead of using dialogue",
+        "To make each scene move at a faster pace",
+        "To create a mood and build tension",
+        "To introduce the actors and show their names"
       ],
       "correct": 2,
       "explain": "Music tells us how to feel about what we see."
@@ -188,9 +188,9 @@
       "text": "What is the first step when analysing a song?",
       "options": [
         "Listen several times and read the lyrics",
-        "Write your opinion",
-        "Look up the singer's age",
-        "Count the words"
+        "Choose the song's genre before reading the lyrics",
+        "Search for the meaning of unfamiliar words first",
+        "Write a conclusion before hearing the whole song"
       ],
       "correct": 0,
       "explain": "You need to know the song well before you can analyse it."
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "What does imagery mean?",
         "options": [
-          "Pictures in a music video",
+          "Images shown during a song's music video",
           "Words that create pictures in your mind",
-          "The album cover",
-          "A photo of the band"
+          "Artwork printed on the front of an album",
+          "Photographs used to promote a music group"
         ],
         "correct": 1,
         "explain": "Imagery appeals to our senses through words."
@@ -340,9 +340,9 @@
         "text": "Which of these is a typical theme in songs?",
         "options": [
           "Heartbreak",
-          "Tax law",
-          "Plumbing",
-          "Algebra"
+          "Homework",
+          "Traffic",
+          "Gardening"
         ],
         "correct": 0,
         "explain": "Love and heartbreak are among the most common themes."
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "What does a music video add to a song?",
         "options": [
-          "More verses",
-          "A longer running time",
-          "Pictures and often a story",
-          "A new chorus"
+          "A longer version of the original song recording",
+          "Extra lyrics added between the song's verses",
+          "Pictures and often a story shown alongside the song",
+          "A new melody played with different instruments"
         ],
         "correct": 2,
         "explain": "The video can strengthen or change how we understand the song.",
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

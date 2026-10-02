@@ -85,7 +85,7 @@
         "27"
       ],
       "correct": 1,
-      "explain": "3⁴ = 3 · 3 · 3 · 3 = 81. Svaret 12 får du hvis du ganger grunntallet med eksponenten, og det er en vanlig feil."
+      "explain": "3⁴ = 3 · 3 · 3 · 3 = 81. Eksponenten forteller hvor mange ganger grunntallet skal ganges med seg selv."
     },
     {
       "id": "q02",
@@ -93,8 +93,8 @@
       "options": [
         "5³",
         "3⁵",
-        "15",
-        "5 · 3"
+        "5²",
+        "5⁴"
       ],
       "correct": 0,
       "explain": "Grunntallet 5 ganges med seg selv tre ganger, så eksponenten er 3: 5 · 5 · 5 = 5³ = 125."
@@ -104,9 +104,9 @@
       "text": "Forenkle 2³ · 2⁴.",
       "options": [
         "2¹²",
-        "4⁷",
+        "2⁴",
         "2⁷",
-        "2¹"
+        "2³"
       ],
       "correct": 2,
       "explain": "Potensene har samme grunntall, så eksponentene legges sammen: 3 + 4 = 7. Grunntallet endres ikke."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er 10⁶?",
       "options": [
-        "60",
         "100 000",
         "10 000 000",
+        "1 000 000 000",
         "1 000 000"
       ],
       "correct": 3,
@@ -133,7 +133,7 @@
         "4"
       ],
       "correct": 1,
-      "explain": "8 · 8 = 64, så kvadratroten av 64 er 8. Å halvere tallet (32) gir ikke kvadratroten."
+      "explain": "8 · 8 = 64, så kvadratroten av 64 er 8. Kvadratroten er tallet som ganget med seg selv gir 64."
     },
     {
       "id": "q06",
@@ -142,7 +142,7 @@
         "0",
         "9",
         "1",
-        "Det er ikke definert"
+        "81"
       ],
       "correct": 2,
       "explain": "Alle tall unntatt 0 opphøyd i null er 1. Det følger av divisjonsregelen: 9² : 9² = 9⁰, og et tall delt på seg selv er 1."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hvordan skrives 4 700 000 på standardform?",
       "options": [
-        "47 · 10⁵",
+        "4,7 · 10⁵",
         "4,7 · 10⁶",
-        "0,47 · 10⁷",
-        "4,7 · 10⁵"
+        "4,7 · 10⁷",
+        "7,4 · 10⁶"
       ],
       "correct": 1,
       "explain": "På standardform skal tallet foran tierpotensen være mellom 1 og 10. Kommaet flyttes seks plasser: 4 700 000 = 4,7 · 10⁶."
@@ -189,7 +189,7 @@
       "options": [
         "80",
         "196",
-        "146",
+        "26",
         "50"
       ],
       "correct": 3,
@@ -361,7 +361,7 @@
           "6200",
           "620",
           "62 000",
-          "6,2000"
+          "6,2"
         ],
         "correct": 0,
         "explain": "Å gange med 10³ = 1000 flytter kommaet tre plasser mot høyre: 6,2 · 1000 = 6200."
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

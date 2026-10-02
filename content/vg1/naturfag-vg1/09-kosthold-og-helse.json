@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er kroppens viktigste energikilde?",
       "options": [
-        "Vitaminer",
+        "Fett",
         "Karbohydrater",
-        "Mineraler",
-        "Vann"
+        "Proteiner",
+        "Vitaminer"
       ],
       "correct": 1,
       "explain": "Stivelse og sukker brytes ned til glukose."
@@ -90,8 +90,8 @@
       "options": [
         "A, D, E og K",
         "B og C",
-        "Bare C",
-        "Alle vitaminer"
+        "A og C",
+        "B og D"
       ],
       "correct": 0,
       "explain": "Kroppen trenger fett for å ta dem opp."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvorfor får mange i Norge for lite D-vitamin om vinteren?",
       "options": [
-        "Fordi det er lite sollys",
-        "Fordi de spiser for mye fisk",
-        "Fordi de drikker for mye vann",
-        "Fordi D-vitamin bare finnes i frukt"
+        "Fordi huden får lite UVB-lys om vinteren",
+        "Fordi kulde hindrer opptak av D-vitamin i tarmen",
+        "Fordi kroppen bruker opp D-vitamin raskere om vinteren",
+        "Fordi kroppen trenger mindre D-vitamin når det er kaldt"
       ],
       "correct": 0,
       "explain": "D-vitamin dannes i huden med sollys."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva trenger kroppen jern til?",
       "options": [
-        "Å bygge tenner",
-        "Å frakte oksygen i blodet",
-        "Å fordøye fett",
-        "Å regulere temperaturen"
+        "Å frakte fett rundt i kroppen",
+        "Å frakte oksygen rundt i kroppen",
+        "Å regulere sukkerinnholdet i blodet",
+        "Å bygge opp skjelett og tenner"
       ],
       "correct": 1,
       "explain": "Jernmangel kan gi blodmangel."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilket kosthold gir vanligvis lavest klimagassutslipp?",
       "options": [
-        "Mye rødt kjøtt",
-        "Mye importert ferskvare med fly",
+        "Mindre plantebasert mat og mer rødt kjøtt",
+        "Mer flyfraktet mat og mer matsvinn",
         "Mer plantebasert mat og mindre rødt kjøtt",
-        "Mye bearbeidet kjøtt"
+        "Mer rødt kjøtt og flere meieriprodukter"
       ],
       "correct": 2,
       "explain": "Å redusere matsvinn hjelper også."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvor mye fysisk aktivitet anbefales for barn og unge?",
       "options": [
-        "10 minutter i uka",
-        "1 time i uka",
-        "30 minutter i måneden",
+        "Minst 30 minutter hver dag",
+        "Minst 2 timer hver uke",
+        "Minst 30 minutter hver uke",
         "Minst 60 minutter hver dag"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "En influencer sier at et kosttilskudd kurerte trettheten hennes. Hva er det største problemet med påstanden?",
       "options": [
-        "Den bygger på en enkelthistorie, og hun kan tjene på salget",
-        "Den er for kort",
-        "Den er skrevet på norsk",
-        "Det finnes ingen problemer"
+        "Den bygger på én erfaring, og hun kan tjene på salget",
+        "Den bygger på egne symptomer, som viser at produktet virker",
+        "Den har mange visninger, så effekten er godt dokumentert",
+        "Den beskriver rask bedring, så produktet passer for de fleste"
       ],
       "correct": 0,
       "explain": "En enkelthistorie er ikke forskning."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva er kostfiber?",
       "options": [
-        "Et vitamin",
+        "Fettstoffer vi ikke fordøyer, som er viktige for tarmen",
         "Karbohydrater vi ikke fordøyer, som er viktige for tarmen",
-        "En type fett",
-        "Et protein"
+        "Proteiner vi ikke fordøyer, som er viktige for tarmen",
+        "Vitaminer vi ikke fordøyer, som er viktige for tarmen"
       ],
       "correct": 1,
       "explain": "Fiber finnes i fullkorn, grønnsaker og belgvekster."
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hvilken kilde er mest pålitelig for kostråd i Norge?",
         "options": [
-          "En butikk som selger kosttilskudd",
+          "Norges Bondelag",
           "Helsedirektoratet",
-          "En anonym video",
-          "En reklame for et slankeprodukt"
+          "Norsk Vegetarforening",
+          "Kosttilskuddsforeningen"
         ],
         "correct": 1,
         "explain": "Helsedirektoratet bygger rådene på samlet forskning.",
@@ -330,9 +330,9 @@
         "text": "Hva er kalsium viktig for?",
         "options": [
           "Skjelett og tenner",
-          "Synet",
-          "Oksygentransport",
-          "Fordøyelse av fett"
+          "Syn og hud",
+          "Oksygentransport og energiomsetning",
+          "Fordøyelse og væskebalanse"
         ],
         "correct": 0,
         "explain": "Melkeprodukter er en viktig kilde."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva anbefales som tørstedrikk?",
         "options": [
-          "Brus",
-          "Energidrikk",
+          "Melk",
+          "Juice",
           "Vann",
-          "Juice"
+          "Brus"
         ],
         "correct": 2,
         "explain": "Vann gir ingen tilsatt sukker."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

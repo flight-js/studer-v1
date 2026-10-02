@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hvordan lages futurum på tysk?",
       "options": [
-        "haben + partisipp",
-        "sein + infinitiv",
-        "möchten + partisipp",
-        "werden + infinitiv"
+        "haben + Partizip II",
+        "sein + Partizip II",
+        "würden + Infinitiv",
+        "werden + Infinitiv"
       ],
       "correct": 3,
       "explain": "For eksempel «Ich werde reisen»."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hvordan sier en jente «Jeg vil bli lege»?",
       "options": [
-        "Ich möchte eine Ärztin werden.",
+        "Ich möchte Lehrerin werden.",
         "Ich möchte Ärztin werden.",
-        "Ich möchte Arzt sein werden.",
-        "Ich werde die Ärztin."
+        "Ich möchte Ärztin sein.",
+        "Ich möchte Arzt werden."
       ],
       "correct": 1,
       "explain": "Man bruker ikke artikkel foran yrket."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hvor står verbet i en leddsetning med «weil»?",
       "options": [
-        "Først",
-        "På andre plass",
-        "Sist",
-        "Rett etter weil"
+        "Helt først i setningen",
+        "På andre plass i setningen",
+        "Helt sist i setningen",
+        "Rett etter «weil» i setningen"
       ],
       "correct": 2,
       "explain": "«…, weil ich gern mit Kindern arbeite.»"
@@ -117,8 +117,8 @@
       "text": "Hvilken setning er riktig?",
       "options": [
         "Ich lerne Deutsch, weil ich in Berlin studieren will.",
+        "Ich lerne Deutsch, weil ich in Berlin will studieren.",
         "Ich lerne Deutsch, weil ich will in Berlin studieren.",
-        "Ich lerne Deutsch, weil will ich in Berlin studieren.",
         "Ich lerne Deutsch, weil ich studieren in Berlin will."
       ],
       "correct": 0,
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hva er «die Ausbildung»?",
       "options": [
-        "Universitetet",
-        "En ferie",
+        "En universitetsutdanning",
+        "En videregående skole",
         "En yrkesutdanning",
-        "Et klasserom"
+        "En skoleeksamen"
       ],
       "correct": 2,
       "explain": "Mange tar Ausbildung i et dualt system med bedrift og skole."
@@ -141,7 +141,7 @@
       "text": "Hva betyr «nächstes Jahr»?",
       "options": [
         "Neste år",
-        "I fjor",
+        "Forrige år",
         "Hvert år",
         "Dette året"
       ],
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva er «das Abitur»?",
       "options": [
-        "En yrkestittel",
-        "En skoletype",
-        "En praksisplass",
-        "Eksamen som avslutter Gymnasium og gir adgang til universitetet"
+        "Avsluttende eksamen etter Realschule som gir adgang til universitetet",
+        "Opptaksprøve til Gymnasium som gir adgang til universitetet",
+        "Avsluttende eksamen etter Gymnasium som gir yrkeskompetanse",
+        "Avsluttende eksamen etter Gymnasium som gir adgang til universitetet"
       ],
       "correct": 3,
       "explain": "Abitur tilsvarer omtrent studiekompetanse."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er hunkjønnsformen av «der Lehrer»?",
       "options": [
-        "die Lehrer",
+        "der Lehrer",
         "die Lehrerin",
-        "die Lehrerinne",
-        "die Lehrin"
+        "die Lehrer",
+        "die Lehrkräfte"
       ],
       "correct": 1,
       "explain": "Endelsen -in brukes om kvinner."
@@ -176,9 +176,9 @@
       "id": "q09",
       "text": "Hva betyr «Ich habe vor, ein Jahr zu reisen»?",
       "options": [
-        "Jeg har reist i et år",
-        "Jeg reiste i fjor",
-        "Jeg liker å reise",
+        "Jeg hadde planer om å reise i et år",
+        "Jeg har reist rundt i Europa i et år",
+        "Jeg drømmer om å reise i Europa i et år",
         "Jeg har planer om å reise i et år"
       ],
       "correct": 3,
@@ -189,9 +189,9 @@
       "text": "Hva er «das Praktikum»?",
       "options": [
         "En praksisperiode i en bedrift",
-        "En eksamen",
-        "Et skolefag",
-        "En lærer"
+        "En prøveperiode i en bedrift",
+        "En opplæringsperiode på en skole",
+        "En eksamensperiode på en skole"
       ],
       "correct": 0,
       "explain": "Mange tyske elever har praksis i en bedrift."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Ich träume davon, Pilotin zu werden»?",
         "options": [
-          "Jeg drømte om fly",
-          "Jeg er pilot",
+          "Jeg planlegger å bli pilot",
+          "Jeg drømmer om å bli lege",
           "Jeg drømmer om å bli pilot",
-          "Jeg liker piloter"
+          "Jeg drømmer om å bli flyvertinne"
         ],
         "correct": 2,
         "explain": "«träumen» betyr å drømme."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,7 +77,7 @@
       "options": [
         "Fortelling",
         "Forsøk",
-        "Artikkel",
+        "Rapport",
         "Dikt"
       ],
       "correct": 1,
@@ -90,7 +90,7 @@
         "Michel de Montaigne",
         "Henrik Ibsen",
         "Georg Brandes",
-        "Aristoteles"
+        "Francis Bacon"
       ],
       "correct": 0,
       "explain": "Essais kom ut i 1580."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva kjennetegner et essay?",
       "options": [
-        "Saklig stil uten jeg",
-        "Fast oppsett med metode og resultater",
-        "Personlig stemme og utforskende tankegang",
-        "Bare humor"
+        "Upersonlig språk og fast argumentasjon",
+        "Saklig framstilling og tydelig metode",
+        "Personlig stemme og åpne tanker",
+        "Humoristisk tone og klar moral"
       ],
       "correct": 2,
       "explain": "Skriveren undrer seg."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hvordan avsluttes et essay ofte?",
       "options": [
-        "Med en kildeliste alene",
-        "Med en fast konklusjon",
-        "Med en reklame",
-        "Åpent eller ettertenksomt"
+        "Med en tydelig konklusjon som avgjør spørsmålet",
+        "Med en faktaliste som gjentar tekstens viktigste opplysninger",
+        "Med en oppsummering av argumentene og motargumentene",
+        "Med en åpen eller ettertenksom avslutning"
       ],
       "correct": 3,
       "explain": "Fagartikkelen har konklusjon."
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva er forskjellen på et essay og en fagartikkel?",
       "options": [
-        "Essayet utforsker personlig, fagartikkelen greier ut saklig",
-        "Det er ingen forskjell",
-        "Fagartikkelen er alltid morsom",
-        "Essayet har alltid tabeller"
+        "Essayet utforsker personlig; fagartikkelen greier ut saklig.",
+        "Essayet greier ut saklig; fagartikkelen utforsker personlig.",
+        "Essayet følger en fast metode; fagartikkelen deler skribentens undring.",
+        "Essayet formidler forskningsresultater; fagartikkelen skildrer personlige opplevelser."
       ],
       "correct": 0,
       "explain": "Ulike formål og stemmer."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva bør du unngå i et essay om en tekst?",
       "options": [
-        "Å bruke sitater",
-        "Å bare referere handlingen",
-        "Å stille spørsmål",
-        "Å bruke jeg"
+        "Å knytte teksten til egne tanker og spørsmål",
+        "Å nøye seg med å gjenfortelle tekstens handling",
+        "Å undersøke tekstens tema og virkemidler",
+        "Å vise hvordan teksten påvirker leseren"
       ],
       "correct": 1,
       "explain": "Essayet skal handle om det teksten får deg til å tenke."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hvordan kan et essay starte?",
       "options": [
-        "Med en innholdsfortegnelse",
-        "Med en definisjon fra en ordbok alltid",
-        "Konkret, med en situasjon, et bilde eller et spørsmål",
-        "Med konklusjonen"
+        "Med en kort presentasjon av forfatterens liv",
+        "Med et sammendrag av hele teksten",
+        "Med en konkret situasjon, et bilde eller et spørsmål",
+        "Med en forklaring av essayets hovedkonklusjon"
       ],
       "correct": 2,
       "explain": "Vekk leserens nysgjerrighet."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva betyr at essayet beveger seg mellom det konkrete og det allmenne?",
       "options": [
-        "At det bare handler om detaljer",
-        "At det bare handler om store spørsmål",
-        "At det bytter sjanger",
-        "At det går fra en opplevelse eller tekst til store spørsmål og tilbake"
+        "At teksten går fra ett konkret detaljnivå til flere detaljer.",
+        "At teksten går fra ett stort spørsmål til et annet stort spørsmål.",
+        "At teksten går mellom ulike sjangre i samme tekst.",
+        "At teksten går fra en konkret opplevelse til større spørsmål og tilbake."
       ],
       "correct": 3,
       "explain": "Et typisk kjennetegn."
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hva er en rød tråd?",
       "options": [
-        "Sammenhengen leseren kan følge gjennom teksten",
-        "En type sitat",
-        "En tittel",
-        "En kildehenvisning"
+        "En sammenheng leseren kan følge gjennom hele teksten",
+        "Et sitat som gjentas flere ganger i teksten",
+        "En overskrift som oppsummerer tekstens hovedtema",
+        "En kildeopplysning som viser hvor fakta kommer fra"
       ],
       "correct": 0,
       "explain": "Viktig også i et assosiativt essay."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvorfor bør du utforske sider som går imot det du selv mente?",
       "options": [
-        "For å gjøre teksten lengre",
+        "For å gjøre teksten mer omfattende med flere eksempler",
         "For å vise refleksjon og flere perspektiver",
-        "Fordi det er et krav i kåseri",
-        "For å slippe å konkludere"
+        "For å holde seg til én tydelig tolkning",
+        "For å oppfylle kravene til en fagartikkel"
       ],
       "correct": 1,
       "explain": "Et essay prøver ut tanker."
@@ -307,10 +307,10 @@
         "type": "flervalg",
         "text": "Hvilket tema kan passe for et essay om Et dukkehjem?",
         "options": [
-          "Hvor mange sider stykket har",
-          "Hva det vil si å være fri",
-          "Når Ibsen ble født",
-          "Hvor stykket ble trykket"
+          "Hvor mange akter stykket er delt inn i",
+          "Hva det innebærer for et menneske å være fri",
+          "Hvilket år Ibsen skrev stykket ferdig",
+          "Hvilket teater satte opp stykket aller først"
         ],
         "correct": 1,
         "explain": "Et åpent spørsmål som kan utforskes."
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hva viser et godt essay?",
         "options": [
-          "At du kan mange årstall",
-          "At du har lest mange sider",
+          "At du gjengir handlingen uten egne tanker",
+          "At du ramser opp fakta om forfatterens liv",
           "At du tenker, reflekterer og er språklig bevisst",
-          "At du kan referere handlingen"
+          "At du følger en fast metode med tydelige resultater"
         ],
         "correct": 2,
         "explain": "Refleksjon og nysgjerrighet."
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

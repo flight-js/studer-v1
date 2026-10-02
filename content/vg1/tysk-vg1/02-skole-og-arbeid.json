@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er preteritum av «ich bin»?",
       "options": [
-        "ich bin gewesen",
+        "ich hatte",
         "ich war",
         "ich wurde",
-        "ich hatte"
+        "ich blieb"
       ],
       "correct": 1,
       "explain": "sein → war."
@@ -91,8 +91,8 @@
       "options": [
         "Universitetet",
         "Grundschule",
-        "Førerkort",
-        "Militæret"
+        "Berufsschule",
+        "Volkshochschule"
       ],
       "correct": 0,
       "explain": "Abitur tas vanligvis på Gymnasium."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva kjennetegner «das duale System»?",
       "options": [
-        "To skoler samtidig",
-        "To språk i undervisningen",
-        "Skole bare om kvelden",
-        "Utdanning både i bedrift og på yrkesskole"
+        "Utdanning bare i bedrift",
+        "Utdanning bare på yrkesskole",
+        "Utdanning på to yrkesskoler",
+        "Utdanning i bedrift og på yrkesskole"
       ],
       "correct": 3,
       "explain": "Lærlingene kalles Azubis."
@@ -126,9 +126,9 @@
       "text": "Hva betyr «der Lebenslauf»?",
       "options": [
         "CV-en",
-        "lønnen",
-        "timeplanen",
-        "karakteren"
+        "søknaden",
+        "arbeidsattesten",
+        "stillingsannonsen"
       ],
       "correct": 0,
       "explain": "Lebenslauf legges ved en Bewerbung."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvordan sier du «Da jeg var liten, ville jeg bli pilot»?",
       "options": [
-        "Wenn ich klein bin, will ich Pilot werden.",
+        "Wenn ich klein war, wollte ich Pilot werden.",
         "Als ich klein war, wollte ich Pilot werden.",
-        "Als ich klein bin, wollte ich Pilot.",
-        "Ich war klein und will Pilot."
+        "Als ich klein bin, wollte ich Pilot werden.",
+        "Als ich klein war, konnte ich Pilot werden."
       ],
       "correct": 1,
       "explain": "Als + preteritum om én periode i fortiden."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvilken hilsen passer i et formelt brev når du ikke vet navnet?",
       "options": [
-        "Hallo Leute,",
-        "Liebe Anna,",
+        "Sehr geehrte Frau Müller,",
+        "Sehr geehrter Herr Müller,",
         "Sehr geehrte Damen und Herren,",
-        "Hi,"
+        "Hallo Frau Müller,"
       ],
       "correct": 2,
       "explain": "Avslutt med Mit freundlichen Grüßen."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er preteritum av «wir haben»?",
       "options": [
+        "wir haben",
+        "wir waren",
         "wir habten",
-        "wir hatte",
-        "wir gehabt",
         "wir hatten"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva betyr «das Vorstellungsgespräch»?",
       "options": [
         "jobbintervjuet",
-        "presentasjonen i klassen",
-        "samtalen med foreldre",
-        "telefonsamtalen"
+        "jobbsøknaden",
+        "jobbannonsen",
+        "arbeidsattesten"
       ],
       "correct": 0,
       "explain": "Man blir invitert til et Vorstellungsgespräch etter søknaden.",
@@ -188,8 +188,8 @@
       "options": [
         "Fordi det er et substantiv",
         "Fordi det er høflig tiltale",
-        "Fordi det står først",
-        "Det er en feil"
+        "Fordi det står først i setningen",
+        "Fordi det viser eierskap"
       ],
       "correct": 1,
       "explain": "Sie, Ihr og Ihre skrives med stor forbokstav i høflig tiltale."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva er preteritum av «du kannst»?",
         "options": [
-          "du kanntest",
+          "du kannst",
           "du konntest",
-          "du konnte",
-          "du gekonnt"
+          "du könntest",
+          "du konnte"
         ],
         "correct": 1,
         "explain": "können → konnte, du konntest."
@@ -325,9 +325,9 @@
         "text": "Hva betyr «die Note»?",
         "options": [
           "karakteren",
-          "notatet",
-          "noten i musikk",
-          "timeplanen"
+          "vitnemålet",
+          "fraværet",
+          "skolefaget"
         ],
         "correct": 0,
         "explain": "In Deutschland ist 1 die beste Note."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva heter en lærling på tysk?",
         "options": [
-          "der Lehrer",
-          "der Schüler",
+          "der/die Lehrende",
+          "der/die Studierende",
           "der/die Auszubildende",
-          "der Student"
+          "der/die Praktikant/in"
         ],
         "correct": 2,
         "explain": "Forkortes ofte Azubi."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

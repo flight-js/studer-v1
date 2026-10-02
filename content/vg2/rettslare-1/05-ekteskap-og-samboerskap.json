@@ -78,20 +78,20 @@
       "options": [
         "16 år",
         "18 år",
-        "20 år",
-        "18 år med unntak for 16-åringer"
+        "17 år",
+        "20 år"
       ],
       "correct": 1,
-      "explain": "Uten unntak."
+      "explain": "Man må ha fylt 18 år for å gifte seg."
     },
     {
       "id": "q02",
       "text": "Hva betyr felleseie?",
       "options": [
-        "At verdiene skal deles når ekteskapet oppløses",
-        "At alt eies i fellesskap under ekteskapet",
-        "At bare mannen eier",
-        "At ingen eier noe"
+        "At verdiene deles når ekteskapet oppløses",
+        "At eiendelene eies sammen under hele ekteskapet",
+        "At ektefellene bare deler gjeld når ekteskapet oppløses",
+        "At hver ektefelle beholder egne verdier når ekteskapet oppløses"
       ],
       "correct": 0,
       "explain": "Hver råder over sitt under ekteskapet."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er skjevdeling?",
       "options": [
-        "At alt deles likt",
-        "At bare gjeld deles",
+        "At alle verdier deles likt når ekteskapet oppløses",
+        "At gjeld fra før ekteskapet holdes utenfor delingen",
         "At verdier fra før ekteskapet eller arv og gave holdes utenfor delingen",
-        "At særeie deles"
+        "At verdier som er særeie, tas med i delingen"
       ],
       "correct": 2,
       "explain": "Må dokumenteres."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Når kan man kreve skilsmisse etter separasjon?",
       "options": [
-        "Etter én måned",
-        "Etter fem år",
-        "Aldri",
-        "Etter ett år"
+        "Etter seks måneder med formell separasjon",
+        "Etter to år som samboere",
+        "Etter ett år med ekteskap",
+        "Etter ett år med formell separasjon"
       ],
       "correct": 3,
       "explain": "Etter to års samlivsbrudd kan man få direkte skilsmisse."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Kan en ektefelle selge felles bolig uten den andres samtykke?",
       "options": [
-        "Nei",
-        "Ja, alltid",
-        "Ja, hvis den ene eier den",
-        "Bare om sommeren"
+        "Nei, den andres samtykke kreves.",
+        "Ja, dersom boligen står i selgerens navn.",
+        "Ja, dersom ektefellene har felleseie.",
+        "Ja, dersom selgeren har betalt for boligen."
       ],
       "correct": 0,
       "explain": "Samtykke kreves."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Arver samboere uten felles barn hverandre etter loven?",
       "options": [
-        "Ja, alt",
-        "Nei",
-        "Ja, halvparten",
-        "Bare boligen"
+        "Ja, de arver automatisk hverandre etter ett års samboerskap.",
+        "Nei, de arver ikke automatisk hverandre etter loven.",
+        "Ja, hver samboer arver halvparten av den andres formue etter loven.",
+        "Ja, den gjenlevende arver boligen etter loven når de bodde sammen."
       ],
       "correct": 1,
       "explain": "De må skrive testament."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvordan avtales særeie?",
       "options": [
-        "Muntlig",
-        "På sosiale medier",
+        "I en muntlig avtale mellom ektefellene",
+        "I et testament skrevet av ektefellene",
         "I en skriftlig ektepakt",
-        "Det skjer automatisk"
+        "I en samboerkontrakt mellom ektefellene"
       ],
       "correct": 2,
       "explain": "Formkrav."
@@ -160,22 +160,22 @@
       "id": "q08",
       "text": "Ali hadde 200 000 kr før ekteskapet, har 500 000 kr nå, og Sara har 300 000 kr. Hvor mye får Ali etter skjevdeling og likedeling?",
       "options": [
+        "450 000 kr",
+        "300 000 kr",
         "400 000 kr",
-        "250 000 kr",
-        "600 000 kr",
         "500 000 kr"
       ],
       "correct": 3,
-      "explain": "200 000 skjevdeles, 600 000 deles likt."
+      "explain": "Ali beholder 200 000 kr i skjevdeling og får halvparten av de resterende 600 000 kr."
     },
     {
       "id": "q09",
       "text": "Når kan man få skilsmisse med en gang?",
       "options": [
         "Ved vold eller mishandling",
-        "Når man har kranglet",
-        "Når man flytter",
-        "Når man får barn"
+        "Ved gjentatte krangler om økonomi",
+        "Etter noen måneders samlivsbrudd",
+        "Når ektefellene får barn sammen"
       ],
       "correct": 0,
       "explain": "Uten separasjon."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva avgjør som hovedregel hvem som eier hva mellom samboere?",
       "options": [
-        "Hvem som tjener mest",
+        "Hvem som har høyest inntekt",
         "Hvem som har betalt eller står som eier",
-        "Hvem som har bodd lengst",
-        "Loven deler alt likt"
+        "Hvor lenge de har bodd sammen",
+        "Hvordan eiendelene brukes i hverdagen"
       ],
       "correct": 1,
       "explain": "Det finnes ingen samboerlov om deling."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva anbefales for samboere som vil sikre hverandre?",
         "options": [
-          "Ingenting",
+          "Ektepakt og separasjonsavtale",
           "Samboerkontrakt og testament",
-          "Ektepakt",
-          "Separasjon"
+          "Felles adresse og felles bankkonto",
+          "Felles lån og delt forsikring"
         ],
         "correct": 1,
         "explain": "Loven gir dem svakt vern."
@@ -325,9 +325,9 @@
         "text": "Hva deles likt ved likedeling?",
         "options": [
           "Nettoverdiene i felleseiet",
-          "Bare gjelden",
-          "Bare boligen",
-          "Særeiet"
+          "Bruttoverdiene i felleseiet",
+          "Nettoverdiene i særeiet",
+          "Bruttoverdiene i særeiet"
         ],
         "correct": 0,
         "explain": "Eiendeler minus gjeld."
@@ -337,8 +337,8 @@
         "type": "flervalg",
         "text": "Siden når har par av samme kjønn kunnet gifte seg i Norge?",
         "options": [
-          "1991",
-          "1814",
+          "1993",
+          "2008",
           "2009",
           "2020"
         ],
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

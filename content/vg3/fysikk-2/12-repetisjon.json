@@ -116,8 +116,8 @@
       "options": [
         "Legger sammen de relative usikkerhetene",
         "Legger sammen de absolutte usikkerhetene",
-        "Multipliserer usikkerhetene",
-        "Tar den største"
+        "Multipliserer de relative usikkerhetene",
+        "Velger den største relative usikkerheten"
       ],
       "correct": 0,
       "explain": "Gjelder også divisjon."
@@ -126,10 +126,10 @@
       "id": "q02",
       "text": "Hvordan kan du teste om tidssteget er lite nok?",
       "options": [
-        "Halvere det og se om resultatet endres lite",
-        "Doble det",
-        "Fjerne løkken",
-        "Endre massen"
+        "Halver tidssteget og se om resultatet endres lite",
+        "Doble tidssteget og se om resultatet endres lite",
+        "Halver massen og se om resultatet endres lite",
+        "Øk antall desimaler og se om resultatet endres lite"
       ],
       "correct": 0,
       "explain": "Liten endring tyder på god nøyaktighet."
@@ -150,10 +150,10 @@
       "id": "q04",
       "text": "Hvorfor har et legeme i jevn sirkelbevegelse akselerasjon?",
       "options": [
-        "Fordi banefarten øker",
+        "Fordi banefarten øker gjennom svingen",
         "Fordi retningen på farten endres hele tiden",
-        "Fordi det ikke virker krefter",
-        "Det har ikke akselerasjon"
+        "Fordi retningen på farten er konstant",
+        "Fordi farten peker inn mot sentrum"
       ],
       "correct": 1,
       "explain": "Akselerasjonen peker mot sentrum."
@@ -162,9 +162,9 @@
       "id": "q05",
       "text": "Hva avhenger banefarten til en satellitt i sirkelbane av?",
       "options": [
-        "Satellittens masse",
-        "Satellittens form",
-        "Satellittens farge",
+        "Satellittens masse og avstanden",
+        "Planetens masse og satellittens radius",
+        "Planetens radius og avstanden",
         "Planetens masse og avstanden"
       ],
       "correct": 3,
@@ -186,10 +186,10 @@
       "id": "q07",
       "text": "Hvorfor gjør magnetfeltet ikke arbeid på en ladd partikkel?",
       "options": [
-        "Fordi kraften er null",
-        "Fordi partikkelen står stille",
+        "Fordi kraften virker parallelt med farten",
+        "Fordi magnetfeltet har konstant styrke",
         "Fordi kraften står vinkelrett på farten",
-        "Fordi feltet er svakt"
+        "Fordi kraften peker samme vei som feltet"
       ],
       "correct": 2,
       "explain": "Bare retningen endres."
@@ -198,9 +198,9 @@
       "id": "q08",
       "text": "Hva sier Lenz' regel?",
       "options": [
-        "Strømmen forsterker endringen",
-        "Strømmen er alltid null",
-        "Spenningen er konstant",
+        "Den induserte strømmen forsterker endringen som skapte den",
+        "Den induserte spenningen motvirker strømmen i kretsen",
+        "Den induserte strømmen følger magnetfeltet uten å påvirke det",
         "Den induserte strømmen motvirker endringen som skapte den"
       ],
       "correct": 3,
@@ -210,9 +210,9 @@
       "id": "q09",
       "text": "Hvorfor overføres strøm med svært høy spenning?",
       "options": [
-        "Fordi det er tryggere",
-        "Fordi det gir mer strøm",
-        "Fordi ledningene blir kortere",
+        "Fordi høy spenning gjør overføringen tryggere",
+        "Fordi høy spenning øker strømmen til forbrukerne",
+        "Fordi høy spenning reduserer motstanden i ledningene",
         "Fordi lav strøm gir mye mindre varmetap"
       ],
       "correct": 3,
@@ -222,10 +222,10 @@
       "id": "q10",
       "text": "Hvordan beskriver den generelle relativitetsteorien gravitasjon?",
       "options": [
-        "Som en elektrisk kraft",
-        "Som en magnetisk kraft",
+        "Som en kraft mellom alle masser",
+        "Som en krumning av bare rommet",
         "Som krumning av romtiden",
-        "Som luftmotstand"
+        "Som en endring i lysets fart nær masser"
       ],
       "correct": 2,
       "explain": "Masse og energi krummer romtiden."
@@ -234,10 +234,10 @@
       "id": "q11",
       "text": "Hva sier Heisenbergs uskarphetsrelasjon?",
       "options": [
-        "At måleutstyret er dårlig",
+        "At posisjon og bevegelsesmengde kan bestemmes nøyaktig samtidig",
         "At posisjon og bevegelsesmengde ikke kan kjennes nøyaktig samtidig",
-        "At energi er bevart",
-        "At lys er en partikkel"
+        "At måleutstyret alene begrenser nøyaktigheten til posisjon og bevegelsesmengde",
+        "At usikkerheten i posisjon og bevegelsesmengde skyldes målingens varighet"
       ],
       "correct": 1,
       "explain": "En grunnleggende egenskap ved naturen."
@@ -392,7 +392,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -421,8 +421,8 @@
         "options": [
           "v_t = mg/k",
           "v_t = √(mg/k)",
-          "v_t = k/mg",
-          "v_t = g · t"
+          "v_t = √(mgk)",
+          "v_t = √(gk/m)"
         ],
         "correct": 1,
         "explain": "Når mg = kv²."
@@ -433,9 +433,9 @@
         "text": "Hvilken formel gir rekkevidden på flat mark?",
         "options": [
           "R = v₀² · sin(2α) / g",
-          "R = v₀ · t",
-          "R = ½gt²",
-          "R = v₀² / g alltid"
+          "R = v₀ · sin(2α) / g",
+          "R = v₀² · sin(α) / g",
+          "R = v₀² · cos(2α) / g"
         ],
         "correct": 0,
         "explain": "Uten luftmotstand."
@@ -462,7 +462,7 @@
           "W = qU",
           "W = q/U",
           "W = U/q",
-          "W = q + U"
+          "W = qE"
         ],
         "correct": 0,
         "explain": "Omformes til kinetisk energi."
@@ -547,12 +547,86 @@
           "Sier at blått lys har størst energi per foton.",
           "Forklarer at større intensitet gir flere, ikke raskere, elektroner."
         ]
+      },
+      {
+        "text": "En elev måler to delstrekninger: (1,20 ± 0,02) m og (0,80 ± 0,03) m. Finn den samlede lengden og den absolutte usikkerheten når delstrekningene legges sammen.",
+        "fasit": "Den samlede lengden er (2,00 ± 0,05) m. Ved addisjon legges de absolutte usikkerhetene sammen.",
+        "kriterier": [
+          "Riktig samlet lengde: 2,00 m.",
+          "Riktig absolutt usikkerhet: 0,05 m."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Et legeme har posisjon x = 4,0 m og fart v = 3,0 m/s. Nettokraften på legemet er 6,0 N, massen er 2,0 kg, og tidssteget er 0,50 s. Bruk ett steg med Eulers metode til å finne den nye farten og posisjonen. Bruk farten før steget når du oppdaterer posisjonen.",
+        "fasit": "Akselerasjonen er 6,0 N / 2,0 kg = 3,0 m/s². Den nye farten blir 3,0 + 3,0 · 0,50 = 4,5 m/s, og den nye posisjonen blir 4,0 + 3,0 · 0,50 = 5,5 m.",
+        "kriterier": [
+          "Finner akselerasjonen 3,0 m/s² og ny fart 4,5 m/s.",
+          "Finner ny posisjon 5,5 m ved å bruke farten før steget."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Sammenlign kreftene som påvirker en ball som kastes skrått uten luftmotstand, og en ladd partikkel som beveger seg vinkelrett på et magnetfelt. Forklar hva kreftene gjør med bevegelsene.",
+        "fasit": "På ballen virker tyngden loddrett nedover, slik at den vertikale farten endres mens den horisontale farten er konstant. Magnetkraften på partikkelen står vinkelrett på farten og endrer derfor retningen, men ikke banefarten; partikkelen går i sirkel.",
+        "kriterier": [
+          "Beskriver tyngdekraften og at den endrer den vertikale bevegelsen, mens horisontalfarten er konstant.",
+          "Beskriver at magnetkraften endrer retningen, ikke farten, og gir sirkelbane når farten står vinkelrett på feltet."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "GPS-satellitter beveger seg raskt og befinner seg i et svakere gravitasjonsfelt enn bakken. Forklar hvorfor klokkene deres må korrigeres ved hjelp av både den spesielle og den generelle relativitetsteorien.",
+        "fasit": "Ifølge den spesielle relativitetsteorien går en klokke som beveger seg, langsommere sett fra bakken. Ifølge den generelle relativitetsteorien går klokker raskere i et svakere gravitasjonsfelt. Begge virkningene må tas med for at GPS-posisjoner skal bli riktige.",
+        "kriterier": [
+          "Knytter bevegelsen til tidsforlengelse i den spesielle relativitetsteorien.",
+          "Knytter det svakere gravitasjonsfeltet til raskere klokker, og sier at begge virkningene korrigeres for."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En ladd partikkel sendes vinkelrett inn i et homogent elektrisk felt, og en annen ladd partikkel sendes vinkelrett inn i et magnetfelt. Sammenlign hvordan feltene påvirker farten og banen til partiklene.",
+        "fasit": "I det elektriske feltet virker en konstant kraft på ladningen, slik at farten kan endres og banen blir parabolsk. I magnetfeltet står kraften vinkelrett på farten, så den endrer retningen uten å endre banefarten; banen blir sirkelrund.",
+        "kriterier": [
+          "Beskriver at elektrisk kraft kan endre farten, og at banen i et homogent felt blir parabolsk.",
+          "Beskriver at magnetkraften bare endrer retningen og gir sirkelbane."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Sammenlign usikkerheten i gjentatte målinger av en lengde med uskarphetsrelasjonen for en kvantepartikkel. Forklar om begge usikkerhetene skyldes begrensninger ved måleutstyret.",
+        "fasit": "Usikkerhet i lengdemålinger kan vurderes ut fra spredningen i gjentatte målinger, og bedre utstyr eller flere målinger kan gjøre resultatet sikrere. Uskarphetsrelasjonen er derimot en grunnleggende egenskap ved naturen: Posisjon og bevegelsesmengde kan ikke begge være nøyaktig bestemt samtidig.",
+        "kriterier": [
+          "Knytter måleusikkerhet til gjentatte målinger og/eller målemetode og utstyr.",
+          "Forklarer at kvanteusikkerheten er grunnleggende, ikke bare en begrensning ved måleutstyret."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "CERN påviste Higgs-partikkelen i 2012, mens LIGO og Virgo målte gravitasjonsbølger fra sammensmeltende sorte hull i 2015. Forklar hva de to funnene bekreftet, og nevn én grunn til at slike forskningsprosjekter samarbeider internasjonalt.",
+        "fasit": "Påvisningen av Higgs-partikkelen bekreftet hvordan partikler får masse. Målingen av gravitasjonsbølger bekreftet en forutsigelse fra Einsteins generelle relativitetsteori. Internasjonalt samarbeid gjør det mulig å dele kostnader og kompetanse mellom mange grupper.",
+        "kriterier": [
+          "Knytter Higgs-partikkelen til forklaringen på hvordan partikler får masse.",
+          "Knytter gravitasjonsbølgene til en bekreftelse av generell relativitetsteori.",
+          "Nevner en fordel ved internasjonalt samarbeid, for eksempel deling av kostnader eller kompetanse."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Elektrisk kraft overføres over lange avstander med høy spenning og transformeres ned før den brukes i hjemmene. Forklar hvordan høy spenning reduserer energitapet i ledningene, og hvilken rolle transformatorer spiller.",
+        "fasit": "For en gitt effekt gir høy spenning lav strøm, siden P = U · I. Varmetapet i ledningene er P_tap = R · I², så lavere strøm gir mindre tap. Transformatorer øker spenningen etter kraftverket og senker den igjen før strømmen når hjemmene.",
+        "kriterier": [
+          "Forklarer at høy spenning gir lav strøm for samme effekt.",
+          "Knytter mindre strøm til lavere varmetap gjennom P_tap = R · I².",
+          "Beskriver at transformatorer øker spenningen for overføring og senker den før forbruk."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

@@ -80,9 +80,9 @@
       "id": "q01",
       "text": "Hvor mange yrkesfaglige utdanningsprogram finnes det i videregående?",
       "options": [
-        "Fem",
-        "Tolv",
-        "Tre",
+        "Åtte",
+        "Elleve",
+        "Tretten",
         "Ti"
       ],
       "correct": 3,
@@ -93,9 +93,9 @@
       "text": "Hva er 2 + 2-modellen?",
       "options": [
         "To år i skole og to år som lærling",
-        "To år på ungdomsskolen og to år på videregående",
-        "To fag og to prøver",
-        "To lærere og to elever"
+        "Ett år i skole og tre år som lærling",
+        "Tre år i skole og ett år som lærling",
+        "To år på ungdomsskolen og to år i lære"
       ],
       "correct": 0,
       "explain": "De fleste yrkesfag følger denne modellen."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva får du når du har bestått fagprøven?",
       "options": [
-        "Vitnemål fra ungdomsskolen",
+        "Kompetansebevis",
         "Fagbrev",
-        "Førerkort",
-        "Mastergrad"
+        "Mesterbrev",
+        "Vitnemål"
       ],
       "correct": 1,
       "explain": "I håndverksfag kalles det svennebrev."
@@ -117,9 +117,9 @@
       "text": "Hvilket utdanningsprogram fører til yrket elektriker?",
       "options": [
         "Bygg- og anleggsteknikk",
-        "Naturbruk",
+        "Teknologi- og industrifag",
         "Elektro og datateknologi",
-        "Restaurant- og matfag"
+        "Informasjonsteknologi og medieproduksjon"
       ],
       "correct": 2,
       "explain": "Automatiker og dataelektroniker hører også hit.",
@@ -130,9 +130,9 @@
       "text": "Hva er påbygging?",
       "options": [
         "Et år som gir generell studiekompetanse etter yrkesfag",
-        "Å bygge et hus",
-        "En lærlingplass",
-        "En del av ungdomsskolen"
+        "Et år som gir fagbrev etter yrkesfaglig skole",
+        "Et år som gir spesialisering på fagskole etter fagbrev",
+        "Et år med læretid som gir studiekompetanse etter yrkesfag"
       ],
       "correct": 0,
       "explain": "Påbygging gjør det mulig å søke høyere utdanning."
@@ -141,9 +141,9 @@
       "id": "q06",
       "text": "Hva er en fagskole?",
       "options": [
-        "En ungdomsskole",
-        "Et universitet",
-        "En barneskole",
+        "Høyere akademisk utdanning som bygger på generell studiekompetanse",
+        "Yrkesfaglig opplæring på videregående som leder fram til fagbrev",
+        "Kortere kursopplæring for ufaglærte uten formelle opptakskrav",
         "Høyere yrkesfaglig utdanning som bygger på fagbrev"
       ],
       "correct": 3,
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er en lærekontrakt?",
       "options": [
-        "En arbeidsavtale for lærere",
+        "En arbeidsavtale mellom arbeidsgiver og ansatt om lønn og arbeidstid",
         "En avtale mellom lærling og lærebedrift om opplæringen",
-        "En kontrakt om å kjøpe verktøy",
-        "En skoleavtale"
+        "En avtale mellom skole og lærebedrift om elevenes praksisopplæring",
+        "En avtale mellom lærling og skole om undervisning og vurdering"
       ],
       "correct": 1,
       "explain": "Lærekontrakten gir lærlingen rettigheter og plikter."
@@ -178,10 +178,10 @@
       "id": "q09",
       "text": "Hvorfor er livslang læring viktig for fagarbeidere?",
       "options": [
-        "Fordi yrkene ikke endrer seg",
+        "Fordi ny teknologi og det grønne skiftet gjelder mest nye yrker",
         "Fordi ny teknologi og det grønne skiftet endrer mange yrker",
-        "Fordi det er påbudt å gå på skole hele livet",
-        "Det er ikke viktig"
+        "Fordi nye krav i arbeidslivet gjør fagbrev mindre nyttige",
+        "Fordi videreutdanning mest handler om å bytte til et annet yrke"
       ],
       "correct": 1,
       "explain": "Fagarbeidere må stadig lære nye metoder og verktøy."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva kan du gjøre for å finne ut hvilket utdanningsprogram som passer deg?",
       "options": [
-        "Velge det vennene dine velger",
-        "Kaste mynt",
-        "Snakke med rådgiveren og hospitere",
-        "Velge det første på lista"
+        "Velge ut fra venners valg og unngå å undersøke egne interesser",
+        "Velge ut fra programmets navn og søke uten å lese om fagene",
+        "Snakke med rådgiveren og hospitere på en videregående skole",
+        "Velge ut fra antall søkere og anta at programmet passer best"
       ],
       "correct": 2,
       "explain": "Erfaringer fra arbeidslivsfag er også nyttige.",
@@ -343,9 +343,9 @@
         "text": "Hva er Y-veien?",
         "options": [
           "En vei til ingeniørutdanning for søkere med fagbrev",
-          "En motorvei",
-          "En type lærekontrakt",
-          "Et utdanningsprogram på ungdomsskolen"
+          "En vei til fagskoleutdanning for søkere med generell studiekompetanse",
+          "En vei til mesterbrev for søkere med fagbrev og arbeidserfaring",
+          "En vei til yrkesfaglig opplæring for søkere med grunnskolevitnemål"
         ],
         "correct": 0,
         "explain": "Y-veien bygger på fagbrevet.",
@@ -356,10 +356,10 @@
         "type": "flervalg",
         "text": "Hvilket nettsted har informasjon om utdanningsprogram i videregående?",
         "options": [
-          "Arbeidstilsynet.no",
+          "Lånekassen.no",
           "Vilbli.no",
-          "Mattilsynet.no",
-          "Yr.no"
+          "Samordnaopptak.no",
+          "Arbeidsplassen.nav.no"
         ],
         "correct": 1,
         "explain": "Også utdanning.no har mye informasjon om yrker.",
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

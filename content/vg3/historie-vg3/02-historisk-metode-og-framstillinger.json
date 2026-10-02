@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvilken problemstilling er best?",
       "options": [
-        "Hva er utvandring?",
+        "Hvorfor utvandret folk fra Norge?",
         "Hvorfor utvandret så mange fra Vestlandet på 1880-tallet?",
-        "Utvandring",
-        "Når var 1880?"
+        "Hvor mange dro fra Vestlandet til Amerika?",
+        "Hvordan reiste folk fra Vestlandet til Amerika?"
       ],
       "correct": 1,
       "explain": "Åpen og avgrenset."
@@ -91,9 +91,9 @@
       "text": "Hva er en primærkilde?",
       "options": [
         "En kilde fra den tiden som undersøkes",
-        "En moderne historiebok",
-        "En dokumentar",
-        "Et leksikon"
+        "En framstilling skrevet etter tiden som undersøkes",
+        "En kilde som handler om tiden som undersøkes",
+        "En kilde laget av en historiker etter hendelsen"
       ],
       "correct": 0,
       "explain": "For eksempel et brev."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva betyr det å bruke en kilde som levning?",
       "options": [
-        "Å se hva den forteller om en hendelse",
-        "Å kaste den",
+        "Å se hva den forteller om hendelsen den beskriver",
+        "Å se hvem som senere har brukt og tolket kilden",
         "Å se hva den avslører om tiden og menneskene som laget den",
-        "Å bare lese tittelen"
+        "Å se om opplysningene stemmer med andre kilder"
       ],
       "correct": 2,
       "explain": "En propagandaplakat er en god levning."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er tendens i en kilde?",
       "options": [
-        "At den er gammel",
-        "At den er kort",
-        "At den er muntlig",
+        "At den er skrevet i en bestemt historisk periode",
+        "At den gir opplysninger om en bestemt historisk hendelse",
+        "At den er formidlet muntlig fra én person til en annen",
         "At den har interesse i å framstille noe på en bestemt måte"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hvordan ble 1814 framstilt i 1800-tallets nasjonale historieskrivning?",
       "options": [
         "Som en heroisk gjenfødelse av Norge",
-        "Som en katastrofe",
-        "Som uviktig",
-        "Som en svensk seier"
+        "Som et nederlag for norsk selvstendighet",
+        "Som en seier for svensk nasjonal enhet",
+        "Som en videreføring av dansk enevelde"
       ],
       "correct": 0,
       "explain": "Senere historikere har nyansert bildet.",
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva ble 1492 lenge omtalt som i europeiske framstillinger?",
       "options": [
-        "Erobringen",
+        "Oppdagelsen av India",
         "Oppdagelsen av Amerika",
-        "Starten på undertrykkelse",
-        "En handelsreise"
+        "Koloniseringen av Afrika",
+        "Grunnleggelsen av USA"
       ],
       "correct": 1,
       "explain": "Urfolkenes perspektiv er annerledes.",
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva preger en historisk framstilling?",
       "options": [
-        "Bare kildene",
-        "Ingenting",
+        "Framstillingens lengde og illustrasjoner",
+        "Kildenes antall og bevaringstilstand",
         "Opphavspersonens ståsted og kontekst",
-        "Bare lengden"
+        "Bokas sidetall og utgivelsesformat"
       ],
       "correct": 2,
       "explain": "Også formålet."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Betyr ulike framstillinger at alt er like sant?",
       "options": [
-        "Ja, alt er like sant",
-        "Ja, historie er bare meninger",
-        "Nei, historie kan ikke vites",
+        "Ja, fordi ulike tolkninger bygger på ulike kilder",
+        "Nei, fordi historikere kan fastslå én felles tolkning",
+        "Ja, fordi historiske kilder gir like sterke bevis",
         "Nei, noen bygger på bedre kilder og argumenter"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hvordan bør du formulere en usikker slutning?",
       "options": [
         "«Kildene tyder på at …»",
-        "«Det er helt sikkert at …»",
-        "«Alle vet at …»",
-        "«Det er umulig at …»"
+        "«Kildene viser med sikkerhet at …»",
+        "«Kildene beviser at …»",
+        "«Kildene utelukker at …»"
       ],
       "correct": 0,
       "explain": "Vær ærlig om usikkerhet."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva ble jøder utsatt for i Grunnloven av 1814?",
       "options": [
-        "De fikk stemmerett",
+        "De fikk adgang til riket etter søknad",
         "De ble utestengt fra riket",
-        "De ble statsråder",
-        "De fikk egne skoler"
+        "De fikk stemmerett ved stortingsvalg",
+        "De fikk plass i statens embeter"
       ],
       "correct": 1,
       "explain": "Paragraf 2.",
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva spør du om når du vurderer nærhet i en kilde?",
         "options": [
-          "Hvor lang kilden er",
-          "Om opphavspersonen var til stede",
-          "Hvilken farge papiret har",
-          "Hvem som eier kilden i dag"
+          "Om opphavspersonen hadde egeninteresse i saken",
+          "Om opphavspersonen selv var til stede",
+          "Om kilden er bevart i opprinnelig form",
+          "Om opplysningene støttes av andre kilder"
         ],
         "correct": 1,
         "explain": "Førstehånds eller andrehånds."
@@ -327,9 +327,9 @@
         "text": "Hva er en sekundærkilde?",
         "options": [
           "En historiebok skrevet senere",
-          "Et brev fra 1880",
-          "En dagbok fra krigen",
-          "En lov fra 1814"
+          "Et brev fra samme periode",
+          "En dagbok fra krigsårene",
+          "En lov fra samme periode"
         ],
         "correct": 0,
         "explain": "En framstilling."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvorfor kan to historikere framstille samme hendelse ulikt?",
         "options": [
-          "Fordi den ene lyver alltid",
-          "Fordi fortiden endrer seg",
+          "Fordi den historiske hendelsen endrer seg over tid",
+          "Fordi historikerne bygger på identiske kilder og metoder",
           "Fordi de har ulikt ståsted, ulike kilder og ulik kontekst",
-          "Fordi de har lest samme bok"
+          "Fordi de har lest samme lærebok og fulgt samme tolkning"
         ],
         "correct": 2,
         "explain": "Framstillinger preges av mange faktorer."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

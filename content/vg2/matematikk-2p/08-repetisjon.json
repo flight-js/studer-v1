@@ -122,10 +122,10 @@
       "id": "q01",
       "text": "Hva er vekstfaktoren for en økning på 6 %?",
       "options": [
-        "0,06",
+        "1,006",
         "1,06",
-        "1,6",
-        "0,94"
+        "0,6",
+        "7"
       ],
       "correct": 1,
       "explain": "1 + 6/100 = 1,06."
@@ -170,10 +170,10 @@
       "id": "q05",
       "text": "Hva kjennetegner et serielån?",
       "options": [
-        "Likt avdrag hver gang, og terminbeløpet synker",
-        "Likt terminbeløp hver gang",
-        "Ingen renter",
-        "Betales på én gang"
+        "Avdragene er like store, og terminbeløpet blir mindre over tid.",
+        "Terminbeløpene er like store, og avdragene blir større over tid.",
+        "Avdragene blir mindre, mens terminbeløpet holder seg likt over tid.",
+        "Lånet betales med like store terminbeløp og fast rente gjennom perioden."
       ],
       "correct": 0,
       "explain": "Rentene blir mindre etter hvert."
@@ -184,8 +184,8 @@
       "options": [
         "Effektiv rente",
         "Nominell rente",
-        "Den laveste renten i reklamen",
-        "Styringsrenten"
+        "Styringsrente",
+        "Månedsrente før gebyrer"
       ],
       "correct": 0,
       "explain": "Effektiv rente tar med gebyrer."
@@ -195,8 +195,8 @@
       "text": "Løs ulikheten −2x > 6.",
       "options": [
         "x > −3",
-        "x > 3",
         "x < 3",
+        "x > 3",
         "x < −3"
       ],
       "correct": 3,
@@ -206,10 +206,10 @@
       "id": "q08",
       "text": "En klasse kjøper 30 billetter til 100 kr og 150 kr, til sammen 3500 kr. Hvor mange billetter til 150 kr?",
       "options": [
-        "20",
-        "10",
-        "15",
-        "5"
+        "25 billetter",
+        "10 billetter",
+        "12 billetter",
+        "8 billetter"
       ],
       "correct": 1,
       "explain": "Innsetting gir y = 10."
@@ -218,10 +218,10 @@
       "id": "q09",
       "text": "Hvorfor oppgir SSB ofte medianinntekt i stedet for gjennomsnittsinntekt?",
       "options": [
-        "Fordi medianen er lettere å regne ut",
-        "Fordi gjennomsnittet alltid er feil",
+        "Fordi gjennomsnittet påvirkes lite av noen få svært høye inntekter",
+        "Fordi medianen påvirkes mest av noen få svært høye inntekter",
         "Fordi medianen påvirkes lite av noen få svært høye inntekter",
-        "Fordi medianen alltid er høyest"
+        "Fordi medianen viser inntekten til den som tjener mest"
       ],
       "correct": 2,
       "explain": "Ekstreme verdier drar gjennomsnittet opp."
@@ -230,10 +230,10 @@
       "id": "q10",
       "text": "Hva forteller et stort standardavvik?",
       "options": [
+        "At dataene har høye verdier",
         "At gjennomsnittet er høyt",
-        "At medianen er lav",
         "At dataene har stor spredning",
-        "At det er få verdier"
+        "At medianen er høy"
       ],
       "correct": 2,
       "explain": "Verdiene ligger langt fra gjennomsnittet."
@@ -242,10 +242,10 @@
       "id": "q11",
       "text": "Hva er et representativt utvalg?",
       "options": [
-        "Et stort utvalg",
-        "Et utvalg av venner",
+        "Et utvalg som er like stort som populasjonen",
+        "Et utvalg som bare består av frivillige",
         "Et utvalg som ligner populasjonen",
-        "Et tilfeldig tall"
+        "Et utvalg som er valgt helt tilfeldig"
       ],
       "correct": 2,
       "explain": "Da kan resultatene overføres til hele gruppen."
@@ -254,10 +254,10 @@
       "id": "q12",
       "text": "Is-salg og drukningsulykker øker begge om sommeren. Hva er forklaringen?",
       "options": [
-        "En tredje faktor – varmt vær",
-        "Is forårsaker drukning",
-        "Drukning forårsaker is-salg",
-        "Tilfeldighet"
+        "Varmt vær påvirker begge tallene.",
+        "Is-salg fører til flere drukningsulykker.",
+        "Drukningsulykker fører til mer is-salg.",
+        "Begge tallene øker fordi de måler samme hendelse."
       ],
       "correct": 0,
       "explain": "Sammenheng er ikke det samme som årsak."
@@ -267,7 +267,7 @@
       "text": "Sidene i en figur dobles. Hvor mange ganger større blir arealet?",
       "options": [
         "4",
-        "2",
+        "3",
         "8",
         "6"
       ],
@@ -278,7 +278,7 @@
       "id": "q14",
       "text": "Kart 1 : 50 000. Hvor langt er 3 cm på kartet i virkeligheten?",
       "options": [
-        "150 m",
+        "0,15 km",
         "15 km",
         "3 km",
         "1,5 km"
@@ -428,7 +428,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -452,9 +452,9 @@
         "text": "Hvilken formel legger til et fast innskudd i E2 hvert år?",
         "options": [
           "=B2*$E$1+$E$2",
-          "=B2+$E$1",
-          "=B2*E2",
-          "=$E$1*$E$2"
+          "=B2*$E$1+E2",
+          "=B2+$E$1*$E$2",
+          "=B2*$E$2+$E$1"
         ],
         "correct": 0,
         "explain": "Beløpet vokser med renten og får et nytt innskudd.",
@@ -491,9 +491,9 @@
         "type": "flervalg",
         "text": "Løs likningen 5x + 10 = 35.",
         "options": [
-          "x = 9",
-          "x = 5",
           "x = 7",
+          "x = 5",
+          "x = 9",
           "x = 25"
         ],
         "correct": 1,
@@ -587,12 +587,91 @@
           "Tolker målestokk 1 : 10 som lengder som er en tidel av originalens.",
           "Sier at arealet er 100 ganger mindre og volumet 1000 ganger mindre."
         ]
+      },
+      {
+        "text": "En sparekonto har 5 000 kr ved starten av året. Renten er 2 % per år. I et regneark står beløpet for første år i B2, og vekstfaktoren 1,02 står i E1. Skriv en formel for beløpet neste år i B3, forklar hvorfor det er nyttig å bruke en absolutt referanse til E1 når formelen kopieres nedover, og nevn én forutsetning modellen bygger på.",
+        "fasit": "Formelen i B3 er =B2*$E$1. Den absolutte referansen gjør at E1 står fast når formelen kopieres nedover, mens B2 endres til cellen over. Modellen forutsetter blant annet at renten er den samme hvert år.",
+        "kriterier": [
+          "Oppgir en formel som ganger beløpet i B2 med vekstfaktoren i E1.",
+          "Forklarer at $E$1 står fast når formelen kopieres.",
+          "Nevner en relevant forutsetning, for eksempel fast rente."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En vare kostet 250 kr i et basisår da KPI var 100. Senere er KPI 120. Hva koster varen dersom den har fulgt prisutviklingen, og hva er kroneverdien når KPI er 120? Forklar kort hva kroneverdien forteller.",
+        "fasit": "Varen koster 250 · 120/100 = 300 kr. Kroneverdien er 100/120, altså omtrent 0,83. Det betyr at én krone da kjøper omtrent det samme som 83 øre kjøpte i basisåret.",
+        "kriterier": [
+          "Regner ut vareprisen til 300 kr ved å bruke forholdet mellom indekstallene.",
+          "Regner kroneverdien som 100/120, omtrent 0,83.",
+          "Forklarer at kroneverdien viser kjøpekraft sammenlignet med basisåret."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Du har 32 000 kr i bruttolønn i måneden og får 25 % skattetrekk. De månedlige utgiftene dine er 20 000 kr. Regn ut nettoinntekten og hvor mye du har igjen etter utgiftene. Forklar hvordan et budsjett kan bruke beløpet som er igjen.",
+        "fasit": "Skattetrekket er 0,25 · 32 000 = 8 000 kr, så nettoinntekten er 24 000 kr. Etter utgiftene har du 4 000 kr igjen. Budsjettet kan sette av noe av dette til sparing og en buffer for uforutsette utgifter.",
+        "kriterier": [
+          "Regner ut nettoinntekten til 24 000 kr.",
+          "Regner ut at 4 000 kr er igjen etter utgiftene.",
+          "Knytter beløpet som er igjen til sparing eller buffer i et budsjett."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "To lån har samme lånebeløp og løpetid. Lån A har nominell rente 5,0 % og effektiv rente 5,4 %, mens lån B har nominell rente 5,2 % og effektiv rente 5,3 %. Hvilket lån har lavest faktisk kostnad ut fra renteopplysningene, og hvorfor er det riktig å sammenligne effektiv rente?",
+        "fasit": "Lån B har lavest effektiv rente, 5,3 %, og har derfor lavest faktisk kostnad ut fra renteopplysningene. Effektiv rente tar med gebyrer og hvor ofte renten legges til, mens nominell rente ikke viser disse forholdene på samme måte.",
+        "kriterier": [
+          "Velger lån B fordi effektiv rente er lavest.",
+          "Forklarer at effektiv rente inkluderer gebyrer og hvor ofte renten legges til."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En oversikt over reisetider er gruppert slik: [0, 10) minutter har frekvens 2, [10, 20) har frekvens 4, og [20, 30) har frekvens 2. Bruk klassemidtpunktene til å anslå gjennomsnittlig reisetid, og forklar hvorfor svaret er et anslag.",
+        "fasit": "Klassemidtpunktene er 5, 15 og 25 minutter. Anslaget blir (5 · 2 + 15 · 4 + 25 · 2)/8 = 15 minutter. Det er et anslag fordi vi ikke kjenner de nøyaktige reisetidene til personene i hver klasse.",
+        "kriterier": [
+          "Bruker klassemidtpunktene 5, 15 og 25 minutter.",
+          "Regner ut anslått gjennomsnitt til 15 minutter.",
+          "Forklarer at klassene ikke viser de nøyaktige observasjonene."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "I en spørreundersøkelse oppgir 60 av 150 elever at de vanligvis går til skolen. Undersøkelsen spør også om andre transportmåter. Regn ut andelen som går, foreslå et diagram som kan sammenligne transportkategoriene, og forklar hva du bør undersøke før resultatet brukes til å si noe om alle elevene ved skolen.",
+        "fasit": "Andelen som går, er 60/150 = 0,40 = 40 %. Et stolpediagram passer for å sammenligne transportkategoriene. Før resultatet generaliseres, bør man undersøke om utvalget er representativt og stort nok.",
+        "kriterier": [
+          "Regner ut andelen til 40 %.",
+          "Velger et stolpediagram for å sammenligne kategorier.",
+          "Nevner at utvalget bør være representativt og stort nok."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Et rektangel har omkrets 34 cm, og lengden er 3 cm større enn bredden. Sett opp en likning og finn lengden og bredden.",
+        "fasit": "Lar vi bredden være x cm, er lengden x + 3 cm. Likningen blir 2x + 2(x + 3) = 34, som gir x = 7. Bredden er 7 cm og lengden er 10 cm.",
+        "kriterier": [
+          "Setter opp en likning som uttrykker at omkretsen er 34 cm.",
+          "Finner bredden 7 cm og lengden 10 cm."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En loddrett stav på 1,2 m kaster en skygge på 0,8 m. Samtidig kaster et tre en skygge på 10 m. Bruk formlikhet til å finne høyden på treet, og forklar hvorfor du kan sammenligne trekantene.",
+        "fasit": "Trekantene er formlike fordi solstrålene gir samme vinkel, og begge har en rett vinkel. Forholdet mellom høyde og skyggelengde er derfor det samme: treets høyde er 10 · 1,2/0,8 = 15 m.",
+        "kriterier": [
+          "Bruker proporsjonale høyder og skyggelengder til å finne 15 m.",
+          "Forklarer at trekantene er formlike fordi de har like vinkler."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

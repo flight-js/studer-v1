@@ -98,10 +98,10 @@
       "id": "q01",
       "text": "Forenkle 7 − (x − 3).",
       "options": [
-        "4 − x",
+        "7 − x",
         "10 − x",
-        "4 + x",
-        "10 + x"
+        "x + 4",
+        "x − 4"
       ],
       "correct": 1,
       "explain": "Minus foran parentesen gjør at alle fortegn inni skifter: 7 − x + 3 = 10 − x."
@@ -111,9 +111,9 @@
       "text": "Faktoriser 6x + 9.",
       "options": [
         "3(2x + 3)",
-        "6(x + 9)",
-        "3(2x + 9)",
-        "9(x + 1)"
+        "6(x + 3)",
+        "3(2x + 1)",
+        "2(3x + 3)"
       ],
       "correct": 0,
       "explain": "3 er felles faktor: 6x = 3 · 2x og 9 = 3 · 3. Sjekk ved å gange ut: 3(2x + 3) = 6x + 9."
@@ -122,10 +122,10 @@
       "id": "q03",
       "text": "Hva er (x + 3)²?",
       "options": [
-        "x² + 9",
-        "x² + 6x + 9",
         "x² + 3x + 9",
-        "2x + 6"
+        "x² + 6x + 9",
+        "x² + 9",
+        "x² + 6x + 6"
       ],
       "correct": 1,
       "explain": "Første kvadratsetning: x² + 2 · x · 3 + 3² = x² + 6x + 9."
@@ -136,7 +136,7 @@
       "options": [
         "(x − 4)²",
         "(x + 4)(x − 4)",
-        "(x − 8)(x + 2)",
+        "(x + 8)(x − 2)",
         "(x + 16)(x − 1)"
       ],
       "correct": 1,
@@ -148,8 +148,8 @@
       "options": [
         "x = 6, y = 4",
         "x = 7, y = 3",
-        "x = 3, y = 7",
-        "x = 5, y = 5"
+        "x = 8, y = 2",
+        "x = 3, y = 7"
       ],
       "correct": 1,
       "explain": "Legg sammen likningene: 2x = 14, så x = 7. Da er y = 10 − 7 = 3. Sjekk: 7 − 3 = 4."
@@ -158,10 +158,10 @@
       "id": "q06",
       "text": "Hva betyr skjæringspunktet mellom to linjer i et grafisk likningssett?",
       "options": [
-        "At likningssettet ikke har løsning",
-        "Stigningstallet",
-        "Konstantleddet",
-        "Løsningen av likningssettet"
+        "Stigningstallet til begge linjene",
+        "Konstantleddet i begge likningene",
+        "Nullpunktet til begge linjene",
+        "Punktet som oppfyller begge likningene"
       ],
       "correct": 3,
       "explain": "Skjæringspunktet ligger på begge linjene, så koordinatene passer i begge likningene."
@@ -184,7 +184,7 @@
       "options": [
         "t dobles",
         "t halveres",
-        "t er uendret",
+        "t forblir uendret",
         "t blir fire ganger så stor"
       ],
       "correct": 1,
@@ -206,10 +206,10 @@
       "id": "q10",
       "text": "En jakke til 800 kr settes ned 25 %. Hva er den nye prisen?",
       "options": [
-        "775 kr",
+        "640 kr",
         "600 kr",
-        "200 kr",
-        "625 kr"
+        "700 kr",
+        "750 kr"
       ],
       "correct": 1,
       "explain": "Vekstfaktor ved 25 % nedgang er 0,75. 800 · 0,75 = 600 kr."
@@ -218,10 +218,10 @@
       "id": "q11",
       "text": "En pris øker med 20 % og synker så med 20 %. Hvor ender den?",
       "options": [
-        "Tilbake på startprisen",
-        "4 % over startprisen",
-        "40 % under startprisen",
-        "4 % under startprisen"
+        "Ender 20 % under startprisen",
+        "Ender 20 % over startprisen",
+        "Ender 2 % under startprisen",
+        "Ender 4 % under startprisen"
       ],
       "correct": 3,
       "explain": "1,20 · 0,80 = 0,96. Nedgangen tas av en høyere pris, så du ender 4 % under start."
@@ -231,9 +231,9 @@
       "text": "Hvilken rente bør du bruke når du sammenligner to lån?",
       "options": [
         "Nominell rente",
-        "Den laveste renten i reklamen",
+        "Styringsrente",
         "Effektiv rente",
-        "Styringsrenten"
+        "Flytende rente"
       ],
       "correct": 2,
       "explain": "Effektiv rente tar med gebyrer og andre kostnader og viser hva lånet egentlig koster."
@@ -242,10 +242,10 @@
       "id": "q13",
       "text": "Hva betyr det å ekstrapolere?",
       "options": [
-        "Å bruke modellen utenfor området der vi har data",
-        "Å finne den beste modellen",
-        "Å regne mellom to målinger",
-        "Å tegne en graf"
+        "Å bruke modellen utenfor området der dataene er samlet",
+        "Å finne funksjonen som passer best til målingene",
+        "Å beregne verdier mellom målepunktene i datasettet",
+        "Å tegne datapunktene inn i et koordinatsystem"
       ],
       "correct": 0,
       "explain": "Ekstrapolering er å forutsi langt utenfor dataene. Det er risikabelt fordi sammenhengen kan endre seg."
@@ -254,10 +254,10 @@
       "id": "q14",
       "text": "Hva er forskjellen på = og == i Python?",
       "options": [
-        "Ingen forskjell",
-        "== gir verdi, = sammenligner",
-        "= brukes bare i løkker",
-        "= gir en variabel verdi, == sjekker om to verdier er like"
+        "= sjekker om verdier er like; == lagrer en verdi i en variabel",
+        "= sammenligner to verdier; == gir en variabel en ny verdi",
+        "= sjekker om to verdier er like; == lagrer en verdi i en variabel",
+        "= lagrer en verdi i en variabel; == sjekker om to verdier er like"
       ],
       "correct": 3,
       "explain": "x = 5 lagrer 5 i x. x == 5 spør om x er lik 5 og gir True eller False."
@@ -266,10 +266,10 @@
       "id": "q15",
       "text": "Et program viser at summen av de n første oddetallene er n² for n = 1 til 1000. Hva kan vi konkludere?",
       "options": [
-        "At det er bevist for alle n",
-        "At det er feil",
-        "At det gjelder bare for n ≤ 1000",
-        "At mønsteret er sannsynlig, men må forklares for å være bevist"
+        "At formelen er bevist for alle positive heltall",
+        "At mønsteret er feil, siden programmet bare tester noen verdier",
+        "At regelen gjelder for n fra 1 til 1000, men ikke videre",
+        "At mønsteret virker sannsynlig, men må bevises for alle n"
       ],
       "correct": 3,
       "explain": "Programmet gir sterk støtte, men et bevis krever et argument som gjelder for alle n, for eksempel med algebra eller en figur."
@@ -398,7 +398,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -423,9 +423,9 @@
         "text": "Faktoriser x² − 4x.",
         "options": [
           "x(x − 4)",
-          "4(x − x²)",
-          "x²(1 − 4)",
-          "(x − 2)²"
+          "x(x + 4)",
+          "x²(x − 4)",
+          "x(x − 2)"
         ],
         "correct": 0,
         "explain": "x er felles faktor: x · x − x · 4 = x(x − 4)."
@@ -437,7 +437,7 @@
         "options": [
           "(x + 5)²",
           "(x − 5)(x + 5)",
-          "(x − 25)(x − 1)",
+          "(x − 1)(x − 25)",
           "(x − 5)²"
         ],
         "correct": 3,
@@ -449,9 +449,9 @@
         "text": "Løs x + 2y = 8 og x − 2y = 0.",
         "options": [
           "x = 4, y = 2",
-          "x = 2, y = 4",
-          "x = 8, y = 0",
-          "x = 0, y = 4"
+          "x = 2, y = 3",
+          "x = 6, y = 1",
+          "x = 8, y = 0"
         ],
         "correct": 0,
         "explain": "Legg sammen: 2x = 8, så x = 4. Da er 4 − 2y = 0, altså y = 2."
@@ -549,12 +549,86 @@
           "Velger effektiv rente for å sammenligne lån.",
           "Forklarer at effektiv rente inkluderer kostnader, mens nominell rente ikke gjør det."
         ]
+      },
+      {
+        "text": "Et kvadrat har sidelengde x + 5. Skriv et uttrykk for arealet når det er delt opp i mindre kvadrater og rektangler, og forklar hvor leddet i midten kommer fra.",
+        "fasit": "Arealet er (x + 5)² = x² + 10x + 25. Oppdelingen gir et kvadrat med areal x², et kvadrat med areal 25 og to rektangler med areal 5x hver.",
+        "kriterier": [
+          "Uttrykket blir x² + 10x + 25.",
+          "Forklarer at de to rektanglene gir midtleddet 10x."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Forenkle 2³ · 2⁻² uten kalkulator, og forklar hvilken potensregel du bruker.",
+        "fasit": "Når potenser med samme grunntall multipliseres, legger vi sammen eksponentene: 2³ · 2⁻² = 2¹ = 2.",
+        "kriterier": [
+          "Legger sammen eksponentene og får 2¹.",
+          "Oppgir svaret 2."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "På en gård er det høner og kaniner. Til sammen er det 20 dyr og 56 bein. Sett opp et likningssett, og finn hvor mange kaniner det er.",
+        "fasit": "La h være antall høner og k antall kaniner. Da er h + k = 20 og 2h + 4k = 56. Løsningen er h = 12 og k = 8, så det er 8 kaniner.",
+        "kriterier": [
+          "Setter opp likninger som uttrykker antall dyr og antall bein.",
+          "Finner 8 kaniner og får verdier som passer i begge likningene."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "To budtjenester tar betalt etter avstanden x i kilometer. Tjeneste A koster 40 kr pluss 8 kr per kilometer, og tjeneste B koster 12 kr pluss 12 kr per kilometer. Finn hvilken tjeneste som er billigst ved 5 km, og ved hvilken avstand de koster like mye.",
+        "fasit": "Prisene er A(x) = 40 + 8x og B(x) = 12 + 12x. Ved 5 km koster A 80 kr og B 72 kr, så B er billigst. De koster like mye når 40 + 8x = 12 + 12x, altså ved 7 km.",
+        "kriterier": [
+          "Finner at tjeneste B er billigst ved 5 km.",
+          "Finner skjæringspunktet i avstand ved x = 7 km."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "To sparealternativer starter begge med 1000 kr. På konto A vokser beløpet med 10 % hvert år. På konto B øker beløpet med 100 kr hvert år. Sammenlign beløpene etter to år, og forklar hvilken konto som følger en eksponentiell sammenheng.",
+        "fasit": "Etter to år har konto A 1000 · 1,1² = 1210 kr, mens konto B har 1000 + 2 · 100 = 1200 kr. Konto A følger en eksponentiell sammenheng fordi beløpet øker med samme prosent av den nye saldoen hvert år. Konto B øker med et fast beløp og følger en lineær sammenheng.",
+        "kriterier": [
+          "Finner 1210 kr på konto A og 1200 kr på konto B.",
+          "Skiller mellom fast prosentvis vekst og fast økning i kroner."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Forklar forskjellen på et serielån og et annuitetslån når det gjelder avdrag og terminbeløp.",
+        "fasit": "I et serielån er avdragene like store, og terminbeløpet blir mindre etter hvert fordi rentene synker når restlånet blir lavere. I et annuitetslån er terminbeløpene like store, men i starten går en større del til renter og mot slutten en større del til avdrag.",
+        "kriterier": [
+          "Beskriver like store avdrag og synkende terminbeløp i serielån.",
+          "Beskriver like store terminbeløp og endret fordeling mellom renter og avdrag i annuitetslån."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En plante vokser 3 cm hver uke i målingene de første seks ukene. En bakteriekultur øker med 5 % hver time. Hvilken funksjonstype passer best til hver utvikling, og hvorfor bør du være forsiktig med å bruke plantemodellen til å forutsi høyden langt fram i tid?",
+        "fasit": "Planteveksten passer med en lineær funksjon fordi høyden øker med samme antall centimeter per uke. Bakterieveksten passer med en eksponentialfunksjon fordi den øker med samme prosent hver time. Plantemodellen bygger på målinger fra en begrenset periode og kan derfor gi urimelige svar langt utenfor denne perioden.",
+        "kriterier": [
+          "Knytter fast økning i antall til lineær funksjon og fast prosentvis økning til eksponentialfunksjon.",
+          "Forklarer at plantemodellen har et begrenset gyldighetsområde."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Hva skriver dette Python-programmet ut? Forklar hvordan funksjonen og betingelsen avgjør hva som blir skrevet ut.\n```python\ndef f(x):\n    return 2*x + 1\n\nfor x in range(1, 4):\n    if f(x) > 5:\n        print(x)\n```",
+        "fasit": "Programmet skriver ut 3. Løkken prøver x-verdiene 1, 2 og 3, og bare for x = 3 er f(x) = 2x + 1 større enn 5.",
+        "kriterier": [
+          "Oppgir at programmet skriver ut 3.",
+          "Forklarer at range(1, 4) gir 1, 2 og 3, og at bare f(3) er større enn 5."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

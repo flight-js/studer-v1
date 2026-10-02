@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor oppgir SSB ofte medianinntekt i stedet for gjennomsnittsinntekt?",
       "options": [
-        "Fordi medianen er lettere å regne ut",
-        "Fordi gjennomsnittet alltid er feil",
+        "Fordi gjennomsnittet påvirkes lite av noen få svært høye inntekter",
+        "Fordi medianen påvirkes mest av noen få svært høye inntekter",
         "Fordi medianen påvirkes lite av noen få svært høye inntekter",
-        "Fordi medianen alltid er høyest"
+        "Fordi medianen viser inntekten til den som tjener mest"
       ],
       "correct": 2,
       "explain": "Ekstreme verdier drar gjennomsnittet opp."
@@ -128,7 +128,7 @@
         "Typetall",
         "Gjennomsnitt",
         "Median",
-        "Standardavvik"
+        "Variasjonsbredde"
       ],
       "correct": 0,
       "explain": "Farger er kategoriske data."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva forteller et stort standardavvik?",
       "options": [
+        "At dataene har høye verdier",
         "At gjennomsnittet er høyt",
-        "At medianen er lav",
         "At dataene har stor spredning",
-        "At det er få verdier"
+        "At medianen er høy"
       ],
       "correct": 2,
       "explain": "Verdiene ligger langt fra gjennomsnittet."
@@ -174,9 +174,9 @@
       "text": "Hvordan anslår du gjennomsnittet for grupperte data?",
       "options": [
         "Med klassemidtpunktene ganget med frekvensene",
-        "Med den største klassen",
-        "Med antall klasser",
-        "Med medianen"
+        "Med klassegrensene ganget med frekvensene",
+        "Med klassemidtpunktene delt på frekvensene",
+        "Med klassemidtpunktene ganget med antall klasser"
       ],
       "correct": 0,
       "explain": "Summen deles på antall observasjoner."
@@ -331,7 +331,7 @@
           "3",
           "2",
           "5",
-          "3,7"
+          "4"
         ],
         "correct": 0,
         "explain": "3 forekommer oftest."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva er variansen?",
         "options": [
-          "Største minus minste verdi",
-          "Den midterste verdien",
+          "Forskjellen mellom største og minste verdi",
+          "Den midterste verdien i datasettet",
           "Gjennomsnittet av de kvadrerte avvikene",
-          "Q3 − Q1"
+          "Forskjellen mellom tredje- og førstekvartil"
         ],
         "correct": 2,
         "explain": "Standardavviket er kvadratroten av variansen.",
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

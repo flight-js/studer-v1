@@ -85,10 +85,10 @@
       "id": "q01",
       "text": "Hva betyr «der Bauch»?",
       "options": [
-        "Ryggen",
-        "Hodet",
+        "Armen",
+        "Halsen",
         "Magen",
-        "Beinet"
+        "Foten"
       ],
       "correct": 2,
       "explain": "Ryggen heter «der Rücken»."
@@ -98,9 +98,9 @@
       "text": "Hvordan sier du «Jeg har hodepine»?",
       "options": [
         "Ich habe Kopfschmerzen.",
-        "Ich bin Kopf.",
-        "Mein Kopf ist krank.",
-        "Ich habe Kopf."
+        "Ich habe Bauchschmerzen.",
+        "Ich habe Zahnschmerzen.",
+        "Ich habe Halsschmerzen."
       ],
       "correct": 0,
       "explain": "«Kopf» + «Schmerzen» = hodesmerter."
@@ -109,9 +109,9 @@
       "id": "q03",
       "text": "Hva sier du til noen som er syke?",
       "options": [
-        "Guten Appetit!",
-        "Prost!",
-        "Viel Spaß!",
+        "Gute Reise!",
+        "Guten Morgen!",
+        "Gute Nacht!",
         "Gute Besserung!"
       ],
       "correct": 3,
@@ -121,10 +121,10 @@
       "id": "q04",
       "text": "Hva betyr «Mein Bein tut weh»?",
       "options": [
-        "Jeg har brukket beinet",
+        "Armen min gjør vondt",
         "Beinet mitt gjør vondt",
-        "Beinet mitt er langt",
-        "Jeg står på beina"
+        "Beinet mitt er brukket",
+        "Beinet mitt er numment"
       ],
       "correct": 1,
       "explain": "«weh tun» betyr å gjøre vondt."
@@ -133,9 +133,9 @@
       "id": "q05",
       "text": "Hva betyr «Ich bin erkältet»?",
       "options": [
-        "Jeg fryser",
-        "Jeg er sulten",
-        "Jeg er trøtt",
+        "Jeg har influensa",
+        "Jeg har feber",
+        "Jeg har allergi",
         "Jeg er forkjølet"
       ],
       "correct": 3,
@@ -158,9 +158,9 @@
       "text": "Hva er «das Rezept» hos legen?",
       "options": [
         "Resepten på medisin",
-        "En kakeoppskrift",
-        "Regningen",
-        "Timen"
+        "Henvisningen til sykehuset",
+        "Timeavtalen hos legen",
+        "Regningen fra legen"
       ],
       "correct": 0,
       "explain": "Ordet kan også bety oppskrift på mat."
@@ -169,10 +169,10 @@
       "id": "q08",
       "text": "Hvilket nummer ringer du for ambulanse i Tyskland?",
       "options": [
-        "113",
+        "110",
         "112",
-        "911",
-        "110"
+        "116117",
+        "115"
       ],
       "correct": 1,
       "explain": "110 er nummeret til politiet.",
@@ -182,9 +182,9 @@
       "id": "q09",
       "text": "Hva betyr «Du darfst keinen Sport machen»?",
       "options": [
-        "Du må trene",
-        "Du bør trene",
-        "Du kan trene",
+        "Du må drive med sport",
+        "Du bør drive med sport",
+        "Du kan drive med sport",
         "Du får ikke drive med sport"
       ],
       "correct": 3,
@@ -195,9 +195,9 @@
       "text": "Hvilket råd hører til et sunt liv?",
       "options": [
         "Genug schlafen und sich bewegen",
-        "Viel rauchen",
-        "Nie Obst essen",
-        "Immer Fast Food essen"
+        "Wenig schlafen und lange fernsehen",
+        "Viel Süßes essen und wenig trinken",
+        "Sport treiben und Mahlzeiten auslassen"
       ],
       "correct": 0,
       "explain": "Søvn og bevegelse er viktig for helsa."
@@ -335,9 +335,9 @@
         "text": "Hva betyr «Seit wann haben Sie Fieber?»?",
         "options": [
           "Hvor lenge har De hatt feber?",
-          "Har De feber?",
-          "Hvorfor har De feber?",
-          "Hvor høy feber har De?"
+          "Hvor lenge har De hatt hoste?",
+          "Hvor lenge har De vært forkjølet?",
+          "Hvor lenge har De hatt smerter?"
         ],
         "correct": 0,
         "explain": "«seit» betyr siden."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva er «die Ärztin»?",
         "options": [
-          "Sykepleieren",
+          "Sykepleieren (kvinne)",
           "Legen (kvinne)",
-          "Apoteket",
-          "Pasienten"
+          "Pasienten (kvinne)",
+          "Apotekeren (kvinne)"
         ],
         "correct": 1,
         "explain": "«der Arzt» er en mannlig lege."
@@ -360,10 +360,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Ich bin gestresst»?",
         "options": [
-          "Jeg er glad",
-          "Jeg er sint",
+          "Jeg er avslappet",
+          "Jeg er fornøyd",
           "Jeg er stresset",
-          "Jeg er syk"
+          "Jeg er forvirret"
         ],
         "correct": 2,
         "explain": "Sint heter «wütend»."
@@ -448,6 +448,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på bakterier og virus?",
       "options": [
-        "Det finnes ingen forskjell",
-        "Bakterier er levende celler, virus må inn i celler for å formere seg",
-        "Virus er større enn bakterier",
-        "Bakterier kan bare leve i vann"
+        "Virus er levende celler, mens bakterier trenger kroppens celler for å formere seg.",
+        "Bakterier er levende celler, mens virus trenger celler for å formere seg.",
+        "Bakterier og virus er begge levende celler som formerer seg på samme måte.",
+        "Bakterier trenger kroppens celler, mens virus formerer seg uten vertsceller."
       ],
       "correct": 1,
       "explain": "Virus mangler egne celleprosesser og bruker kroppens celler til å lage nye virus."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvorfor blir du sjelden syk av samme sykdom to ganger?",
       "options": [
-        "Fordi smittestoffet dør ut",
-        "Fordi du får feber",
-        "Fordi huden blir tykkere",
+        "Fordi smittestoffet forsvinner fra miljøet etter første smitte.",
+        "Fordi feber gjør at kroppen husker sykdommen ved neste møte.",
+        "Fordi kroppen lager mer hud etter at sykdommen er over.",
         "Fordi hukommelsesceller gjør at kroppen reagerer raskt neste gang"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvordan virker en vaksine?",
       "options": [
-        "Den lærer immunforsvaret å kjenne igjen et smittestoff uten at du blir syk",
-        "Den dreper alle bakterier i kroppen",
-        "Den erstatter immunforsvaret",
-        "Den virker som antibiotika"
+        "Den lærer immunforsvaret å kjenne igjen et smittestoff uten at du blir syk.",
+        "Den dreper bakteriene som finnes i kroppen før immunforsvaret reagerer.",
+        "Den gir kroppen ferdige antistoffer som beskytter mot flere ulike sykdommer.",
+        "Den bruker antibiotika til å stoppe virus før de kommer inn i cellene."
       ],
       "correct": 0,
       "explain": "Vaksinen gir kroppen antistoffer og hukommelsesceller mot smittestoffet."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er flokkimmunitet?",
       "options": [
-        "At dyr er immune",
-        "At bare voksne er beskyttet",
+        "At smitte sprer seg raskere når mange er immune, slik at uvaksinerte også beskyttes.",
+        "At flokkimmunitet oppstår når mange får vaksine samtidig, uavhengig av smittespredning.",
         "At smitte sprer seg dårlig når mange er immune, slik at også uvaksinerte beskyttes",
-        "At man blir immun av å være i en gruppe"
+        "At en gruppe blir immun fordi medlemmene oppholder seg sammen uten å bli syke."
       ],
       "correct": 2,
       "explain": "Når få kan bli smittet, finner smittestoffet få nye verter."
@@ -174,9 +174,9 @@
       "text": "Hva er et antigen?",
       "options": [
         "Et kjennetegn på overflaten av et smittestoff",
-        "En type vaksine",
-        "Et legemiddel",
-        "En hvit blodcelle"
+        "Et protein som frakter oksygen i blodet",
+        "En type celle som angriper smittestoffer",
+        "Et legemiddel som hindrer smitte i å spre seg"
       ],
       "correct": 0,
       "explain": "Immunforsvaret kjenner igjen smittestoffer på antigenene deres."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva kan skje hvis vaksinasjonsdekningen synker?",
       "options": [
-        "Ingenting",
-        "Sykdommene blir farligere for vaksinerte",
+        "Smitten fortsetter på samme nivå selv om færre er vaksinert.",
+        "Sykdommene blir mildere når færre mennesker får vaksiner.",
         "Sykdommer som har vært sjeldne, kan komme tilbake",
-        "Alle blir immune automatisk"
+        "Flokkimmuniteten styrkes når færre mennesker blir vaksinert."
       ],
       "correct": 2,
       "explain": "Flokkimmuniteten svekkes, og smitte kan spre seg igjen, som ved meslingutbrudd."
@@ -320,9 +320,9 @@
         "text": "Hva slags vaksine gir cellene en oppskrift på et ufarlig protein fra viruset?",
         "options": [
           "mRNA-vaksine",
-          "Antibiotika",
-          "Levende bakterier",
-          "Serum"
+          "Levende vaksine",
+          "Inaktivert vaksine",
+          "Proteinvaksine"
         ],
         "correct": 0,
         "explain": "mRNA-vaksiner får cellene til å lage et protein som immunforsvaret lærer å kjenne igjen.",
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hvilke celler dreper kroppsceller som er infisert av virus?",
         "options": [
-          "Røde blodceller",
-          "Noen typer T-celler",
-          "Nerveceller",
-          "Hudceller"
+          "B-celler",
+          "Drepe-T-celler",
+          "Fagocytter",
+          "Røde blodceller"
         ],
         "correct": 1,
         "explain": "Såkalte drepe-T-celler fjerner infiserte celler."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva er tegn på betennelse?",
         "options": [
-          "Kulde og blekhet",
-          "Kløe og nysing alltid",
+          "Blekhet, kulde og nummenhet",
+          "Nummenhet, tørste og søvnighet",
           "Rødme, varme og hevelse",
-          "Nummenhet"
+          "Svimmelhet, blekhet og kulde"
         ],
         "correct": 2,
         "explain": "Mer blod strømmer til området for å bekjempe smittestoffene."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

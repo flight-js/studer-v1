@@ -93,7 +93,8 @@
     },
     {
       "term": "Bløte konsonanter",
-      "def": "Dansk uttale der for eksempel d i «mad» uttales mykt."
+      "def": "Dansk uttale der for eksempel d i «mad» uttales mykt.",
+      "niva": "eksempel"
     },
     {
       "term": "Falske venner",
@@ -105,8 +106,7 @@
     },
     {
       "term": "Utviklingsfortelling",
-      "def": "En fortelling der hovedpersonen forandrer seg gjennom en utfordring.",
-      "niva": "eksempel"
+      "def": "En fortelling der hovedpersonen forandrer seg gjennom en utfordring."
     },
     {
       "term": "Stereotypi",
@@ -119,9 +119,9 @@
       "text": "Hva er forskjellen på en metafor og en sammenligning?",
       "options": [
         "Sammenligningen bruker «som» eller «lik», metaforen gjør det ikke",
-        "Metaforen rimer, sammenligningen ikke",
-        "De er det samme",
-        "Metaforen er alltid lengre"
+        "Metaforen bruker «som» eller «lik», sammenligningen gjør det ikke",
+        "Begge bruker «som» eller «lik», men bare metaforen har rim",
+        "En metafor sammenligner med «som», mens en sammenligning beskriver lyd"
       ],
       "correct": 0,
       "explain": "«Sterk som en bjørn» er sammenligning. «Han er en bjørn» er metafor."
@@ -130,10 +130,10 @@
       "id": "q02",
       "text": "Hva er det viktigste å gjøre når du har funnet et virkemiddel i en analyse?",
       "options": [
-        "Tell hvor mange det er",
-        "Skriv det med store bokstaver",
+        "Skriv navnet på virkemiddelet uten å forklare det",
+        "Tell hvor mange virkemidler diktet inneholder",
         "Forklar hvilken effekt det har",
-        "Bytt det ut med et annet ord"
+        "Finn ut hvilken sjanger diktet tilhører"
       ],
       "correct": 2,
       "explain": "En analyse blir god når du forklarer hva virkemidlet gjør med diktet, ikke bare at det finnes."
@@ -145,7 +145,7 @@
         "Patos",
         "Logos",
         "Etos",
-        "Ironi"
+        "Kairos"
       ],
       "correct": 2,
       "explain": "Legen bygger troverdighet gjennom fagkunnskap og erfaring. Det er etos."
@@ -154,9 +154,9 @@
       "id": "q04",
       "text": "Hvorfor kan det lønne seg å ta med motargumenter i en argumenterende tekst?",
       "options": [
-        "For å bytte side",
-        "For å gjøre teksten lengre",
-        "For å forvirre leseren",
+        "Fordi det lar deg trekke påstanden og støtte motpartens syn",
+        "Fordi flere motargumenter gjør teksten lengre og mer detaljert",
+        "Fordi leseren da blir usikker på hva du selv mener",
         "Fordi det viser at du kjenner saken, og styrker troverdigheten"
       ],
       "correct": 3,
@@ -166,10 +166,10 @@
       "id": "q05",
       "text": "Hvilken av disse er en leddsetning?",
       "options": [
-        "Jeg var syk.",
-        "fordi jeg var syk",
-        "Kom hit!",
-        "Det regnet i går."
+        "Jeg ble hjemme i dag.",
+        "Fordi jeg var syk",
+        "Hun dro hjem etter skolen.",
+        "Vi spiste middag sammen i går."
       ],
       "correct": 1,
       "explain": "«Fordi jeg var syk» innledes av en subjunksjon og kan ikke stå alene som en fullstendig setning."
@@ -178,10 +178,10 @@
       "id": "q06",
       "text": "Hvorfor er setningsanalyse nyttig når du skriver?",
       "options": [
-        "Den hjelper deg å sette komma riktig og unngå ufullstendige setninger",
-        "Den gjør teksten lengre",
-        "Den erstatter rettskriving",
-        "Den er bare nyttig i matematikk"
+        "Den hjelper med komma og med å unngå ufullstendige setninger",
+        "Den hjelper deg å finne verbtider og skrive dem riktig",
+        "Den viser hvilke ord som bør skrives med stor bokstav",
+        "Den hjelper deg å finne subjektet, men ikke med tegnsettingen"
       ],
       "correct": 0,
       "explain": "Når du ser hvor helsetninger og leddsetninger begynner og slutter, blir tegnsettingen riktigere."
@@ -190,10 +190,10 @@
       "id": "q07",
       "text": "Hva er en rød tråd i en tekst?",
       "options": [
-        "En tråd i tekstilfaget",
-        "At teksten har rød skrift",
+        "At alle avsnittene handler om nøyaktig samme detalj",
+        "At teksten har en tydelig innledning, hoveddel og avslutning",
         "At leseren kan følge sammenhengen gjennom hele teksten",
-        "At teksten har mange avsnitt"
+        "At hvert avsnitt begynner med et bindeord som viser sammenheng"
       ],
       "correct": 2,
       "explain": "Rød tråd betyr at tankene henger logisk sammen fra start til slutt."
@@ -202,10 +202,10 @@
       "id": "q08",
       "text": "Hva er galt med «Lise sa til Maria at hun hadde vunnet»?",
       "options": [
-        "Setningen mangler verbal",
+        "Det er uklart hvem «Maria» snakker med",
         "Det er uklart hvem «hun» viser til",
-        "Det skal være komma før «at»",
-        "Ingenting"
+        "Det er nødvendig med komma før «at»",
+        "Det er feil å bruke «at» etter verbet «sa»"
       ],
       "correct": 1,
       "explain": "«Hun» kan vise til både Lise og Maria. Uklare henvisninger bør omskrives."
@@ -214,10 +214,10 @@
       "id": "q09",
       "text": "Hva betyr kildekritikk?",
       "options": [
-        "Å kritisere forfatteren",
+        "Å kontrollere om kilden bruker korrekt rettskriving",
         "Å vurdere hvor pålitelig en kilde er",
-        "Å bruke så få kilder som mulig",
-        "Å slette kilder man er uenig i"
+        "Å finne tekster som støtter det du mener",
+        "Å finne ut om teksten er lett å forstå"
       ],
       "correct": 1,
       "explain": "Kildekritikk handler om å vurdere hvem som står bak, hvorfor, når og hvor noe er publisert."
@@ -226,9 +226,9 @@
       "id": "q10",
       "text": "Trenger en parafrase kildehenvisning?",
       "options": [
-        "Nei, fordi du har brukt egne ord",
-        "Bare hvis den er lang",
-        "Bare i nettartikler",
+        "Nei, fordi egne formuleringer gjør innholdet til ditt eget",
+        "Nei, fordi du ikke har kopiert ordlyden fra kilden",
+        "Ja, fordi parafrasen må ha anførselstegn rundt seg",
         "Ja, fordi ideen er hentet fra noen andre"
       ],
       "correct": 3,
@@ -238,10 +238,10 @@
       "id": "q11",
       "text": "Hvorfor ligner dansk skrift på bokmål?",
       "options": [
-        "Fordi dansk har lånt fra bokmål",
+        "Fordi dansk har utviklet seg fra norsk skriftspråk",
         "Fordi bokmål har utviklet seg fra dansk skriftspråk",
-        "Fordi det er tilfeldig",
-        "Fordi dansk og bokmål er samme språk"
+        "Fordi bokmål har utviklet seg fra svensk skriftspråk",
+        "Fordi bokmål har utviklet seg fra islandsk skriftspråk"
       ],
       "correct": 1,
       "explain": "Norge brukte dansk skriftspråk i flere hundre år, og bokmål er en videreutvikling av det."
@@ -251,9 +251,9 @@
       "text": "Hva er falske venner?",
       "options": [
         "Ord som ser like ut i to språk, men betyr noe annet",
-        "Ord som er helt like i alle språk",
-        "Venner som lyver",
-        "Lånord fra engelsk"
+        "Ord som ser like ut i to språk, men betyr det samme",
+        "Ord som høres like ut i to språk, men betyr det samme",
+        "Ord som ser ulike ut i to språk, men betyr noe annet"
       ],
       "correct": 0,
       "explain": "Falske venner kan skape misforståelser fordi vi tror vi forstår dem."
@@ -262,23 +262,22 @@
       "id": "q13",
       "text": "Hva er en utviklingsfortelling?",
       "options": [
-        "En fortelling om teknologi",
+        "En fortelling der hovedpersonen møter en utfordring, men lærer ingenting av den",
         "En fortelling der hovedpersonen forandrer seg gjennom en utfordring",
-        "En fortelling uten handling",
-        "En fagtekst om ungdom"
+        "En fortelling der hovedpersonen møter en utfordring, men forblir den samme",
+        "En fortelling der miljøet forandres, mens hovedpersonen forblir uendret"
       ],
       "correct": 1,
-      "explain": "I en utviklingsfortelling har hovedpersonen lært noe eller endret seg når historien er slutt.",
-      "niva": "eksempel"
+      "explain": "I en utviklingsfortelling har hovedpersonen lært noe eller endret seg når historien er slutt."
     },
     {
       "id": "q14",
       "text": "Hva betyr representasjon i litteratur?",
       "options": [
-        "Hvem og hvilke erfaringer som er med i tekstene, og hvordan de framstilles",
-        "At boka har mange kapitler",
-        "At forfatteren representerer et forlag",
-        "At teksten er oversatt"
+        "Hvem som får plass i tekstene, og hvordan de framstilles",
+        "Hvem som har skrevet tekstene, og hvordan de blir utgitt",
+        "Hvilke temaer tekstene tar opp, og hvordan de blir ordnet",
+        "Hvilke lesere som kjøper tekstene, og hvor de finner dem"
       ],
       "correct": 0,
       "explain": "Representasjon handler om hvem som får plass i fortellingene, og om ulike lesere kjenner seg igjen."
@@ -417,7 +416,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -468,9 +467,9 @@
         "text": "Hvilket bindeord passer? «Mange liker sommeren. Jeg, …, foretrekker vinteren.»",
         "options": [
           "derfor",
-          "altså",
+          "dessuten",
           "derimot",
-          "fordi"
+          "deretter"
         ],
         "correct": 2,
         "explain": "Setningen står i motsetning til den forrige, og «derimot» markerer kontrasten."
@@ -539,7 +538,8 @@
           "Oversetter «och» og «inte» riktig.",
           "Forklarer den historiske sammenhengen mellom dansk skriftspråk og bokmål.",
           "Nevner bløte konsonanter eller stød."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -570,12 +570,88 @@
           "Nevner kildeliste eller annen korrekt kildeoppføring.",
           "Beskriver avsnitt med temasetning og utdypende kommentarer."
         ]
+      },
+      {
+        "text": "I et dikt står det: «Regnet banker på ruta, og vinden roper gjennom gata.» Hvilket språklig virkemiddel brukes når regnet og vinden får menneskelige handlinger, og hvilken stemning kan det skape?",
+        "fasit": "Her brukes besjeling, fordi regnet banker og vinden roper som om de var mennesker. Det kan gjøre været levende og skape en urolig eller dramatisk stemning.",
+        "kriterier": [
+          "Identifiserer besjeling/personifikasjon.",
+          "Forklarer at virkemiddelet gir været menneskelige egenskaper og kan skape en bestemt stemning."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "I en tale sier en helsesykepleier med lang erfaring: «Åtte av ti elever i undersøkelsen vår sover for lite. Jeg møtte også en elev som var så trøtt at det var vanskelig å følge med i timene.» Forklar hvordan taleren bruker etos, logos og patos.",
+        "fasit": "Helsesykepleierens erfaring bygger etos fordi den gjør henne troverdig. Tallet fra undersøkelsen er logos, mens historien om den trøtte eleven appellerer til følelser og er patos.",
+        "kriterier": [
+          "Knytter helsesykepleierens erfaring til etos og troverdighet.",
+          "Knytter tallet/undersøkelsen til logos og elevhistorien til patos."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Setningen «Lina sendte Nora en melding etter prøven fordi hun var bekymret» er uklar. Det er Lina som er bekymret. Skriv setningen om så det blir tydelig hvem pronomenet viser til, og forklar hva som var uklart.",
+        "fasit": "Lina sendte Nora en melding etter prøven fordi Lina var bekymret. I den første setningen var det uklart om «hun» viste til Lina eller Nora.",
+        "kriterier": [
+          "Skriver om setningen slik at Lina tydelig er den bekymrede.",
+          "Forklarer at pronomenet «hun» kunne vise til både Lina og Nora."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En elev sier: «Vi bør avlyse alle friminutt fordi én elev ble skadet i skolegården.» Hva slags usaklig argumentasjonsgrep bruker eleven, og hvorfor er begrunnelsen for svak?",
+        "fasit": "Eleven generaliserer fra ett eksempel. At én elev ble skadet, er ikke nok til å konkludere med at alle friminutt bør avlyses.",
+        "kriterier": [
+          "Identifiserer generalisering.",
+          "Forklarer at én hendelse ikke er nok grunnlag for en så omfattende konklusjon."
+        ],
+        "id": "s12",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En nettside omtaler en undersøkelse om ungdommers søvn, men nettsiden har ikke selv utført undersøkelsen. Forklar om nettsiden er en primær- eller sekundærkilde, hva slags kilde undersøkelsen er, og hvordan du kan bruke opplysningen uten å gjøre deg skyldig i plagiat.",
+        "fasit": "Nettsiden er en sekundærkilde fordi den omtaler andres undersøkelse, mens den opprinnelige undersøkelsen er en primærkilde. Jeg kan gjengi opplysningen med egne ord, men må vise til kilden.",
+        "kriterier": [
+          "Klassifiserer nettsiden som sekundærkilde og den opprinnelige undersøkelsen som primærkilde.",
+          "Forklarer at opplysningen må gjengis med egne ord og kildehenvisning."
+        ],
+        "id": "s13",
+        "niva": "over-niva"
+      },
+      {
+        "text": "På en svensk kafémeny står det «glass», og etter at noen forteller en vits, sier en svensk venn «Det var roligt». Hva betyr de svenske ordene her, og hvordan kan sammenhengen hjelpe deg å forstå dem?",
+        "fasit": "Svensk «glass» betyr iskrem, og «rolig» betyr morsom. Menyen viser at «glass» er noe du kan spise, og sammenhengen med en vits viser at «roligt» handler om noe morsomt.",
+        "kriterier": [
+          "Forklarer at svensk «glass» betyr iskrem og «rolig» betyr morsom.",
+          "Viser hvordan sammenhengen rundt ordene hjelper med å forstå betydningen."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "I en fortelling begynner Noah på en ny skole og føler seg utenfor. Senere tar han selv initiativ til å bli kjent med en medelev. Hvilke temaer fra ungdomslitteratur kommer fram, og hvorfor kan fortellingen kalles en utviklingsfortelling?",
+        "fasit": "Fortellingen tar opp utenforskap og vennskap. Den kan kalles en utviklingsfortelling fordi Noah forandrer seg og går fra å føle seg utenfor til å ta initiativ til kontakt.",
+        "kriterier": [
+          "Nevner relevante temaer, for eksempel utenforskap og vennskap.",
+          "Forklarer at Noah forandrer seg gjennom utfordringen."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Les diktet: «Vårsol over jord / små bekker våkner i natt / snøen går til ro». Hvilken diktform har diktet, og hva forteller bildene om årstiden?",
+        "fasit": "Diktet er et haiku, som har tre linjer med 5, 7 og 5 stavelser. Bildene av vårsol og bekker som våkner, mens snøen går til ro, viser overgangen fra vinter til vår.",
+        "kriterier": [
+          "Identifiserer diktet som haiku og knytter formen til tre linjer med 5–7–5 stavelser.",
+          "Forklarer at bildene viser overgangen fra vinter til vår."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

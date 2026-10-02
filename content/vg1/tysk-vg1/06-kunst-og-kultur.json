@@ -125,9 +125,9 @@
       "id": "q04",
       "text": "Hva handler «Die Verwandlung» av Kafka om?",
       "options": [
-        "En reise til Berlin",
-        "En kjærlighetshistorie",
-        "Et eventyr med hekser",
+        "En mann som prøver å nå et slott",
+        "En mann som blir anklaget for en forbrytelse uten forklaring",
+        "En reisende som havner i en fjern straffekoloni",
         "En mann som våkner forvandlet til et insekt"
       ],
       "correct": 3,
@@ -139,9 +139,9 @@
       "text": "Hvordan sier du høflig «Jeg vil gjerne ha en kaffe»?",
       "options": [
         "Ich hätte gern einen Kaffee.",
-        "Ich habe Kaffee.",
-        "Gib mir Kaffee.",
-        "Ich will Kaffee haben jetzt."
+        "Ich trinke gern einen Kaffee.",
+        "Ich bestelle gern einen Kaffee.",
+        "Ich kaufe gern einen Kaffee."
       ],
       "correct": 0,
       "explain": "hätte gern er høflig."
@@ -150,7 +150,7 @@
       "id": "q06",
       "text": "Hvor ble Bauhaus grunnlagt i 1919?",
       "options": [
-        "Berlin",
+        "Dessau",
         "Weimar",
         "München",
         "Wien"
@@ -163,10 +163,10 @@
       "id": "q07",
       "text": "Hva handler «Good Bye, Lenin!» om?",
       "options": [
-        "Russisk revolusjon",
-        "En fotballkamp",
+        "En familie som flykter fra DDR før muren faller",
+        "En journalist som avslører Stasis overvåking av en forfatter",
         "En sønn som skjuler DDRs oppløsning for moren",
-        "Livet i Wien"
+        "En ung mann som protesterer mot Berlinmurens bygging"
       ],
       "correct": 2,
       "explain": "Filmen kom i 2003.",
@@ -189,9 +189,9 @@
       "text": "Hvor var Mozart fra?",
       "options": [
         "Salzburg",
+        "Wien",
         "Bonn",
-        "Berlin",
-        "Zürich"
+        "Leipzig"
       ],
       "correct": 0,
       "explain": "Salzburg ligger i Østerrike.",
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Ich würde gern nach Wien fahren»?",
         "options": [
-          "Jeg reiste til Wien.",
+          "Jeg reiste nylig til Wien.",
           "Jeg ville gjerne reist til Wien.",
-          "Jeg skal reise til Wien.",
-          "Jeg har reist til Wien."
+          "Jeg skal snart reise til Wien.",
+          "Jeg har allerede reist til Wien."
         ],
         "correct": 1,
         "explain": "würde + infinitiv uttrykker ønske."
@@ -343,8 +343,8 @@
         "options": [
           "Das Leben der Anderen",
           "Good Bye, Lenin!",
-          "Faust",
-          "Die Zauberflöte"
+          "Der Untergang",
+          "Lola rennt"
         ],
         "correct": 0,
         "explain": "Filmen handler om Stasi-overvåking.",
@@ -356,9 +356,9 @@
         "text": "Hva betyr «Das Lied erinnert mich an den Sommer»?",
         "options": [
           "Sangen handler om sommeren.",
-          "Jeg liker sangen om sommeren.",
+          "Sangen minner meg om våren.",
           "Sangen minner meg om sommeren.",
-          "Jeg hørte sangen i sommer."
+          "Sangen minner meg om vinteren."
         ],
         "correct": 2,
         "explain": "erinnern an = minne om."
@@ -448,6 +448,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

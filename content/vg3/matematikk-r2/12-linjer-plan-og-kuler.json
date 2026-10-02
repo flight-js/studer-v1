@@ -77,8 +77,8 @@
       "options": [
         "[2, 1, 3]",
         "[2, −1, 3]",
-        "[−5, 2, 3]",
-        "[1, 1, 1]"
+        "[2, −1, −3]",
+        "[2, −1, −5]"
       ],
       "correct": 1,
       "explain": "Koeffisientene foran x, y og z."
@@ -90,7 +90,7 @@
         "n = AB × AC",
         "n = AB · AC",
         "n = AB + AC",
-        "n = A + B + C"
+        "n = AB − AC"
       ],
       "correct": 0,
       "explain": "Vektorproduktet står vinkelrett på begge."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er vindskjeve linjer?",
       "options": [
-        "Linjer som skjærer hverandre",
-        "Parallelle linjer",
-        "Linjer i samme plan",
+        "Linjer som er parallelle eller skjærer hverandre",
+        "Linjer som skjærer hverandre og ligger i samme plan",
+        "Linjer som er parallelle og ligger i samme plan",
         "Linjer som verken er parallelle eller skjærer hverandre"
       ],
       "correct": 3,
@@ -126,7 +126,7 @@
         "(1, −2, 0) og 3",
         "(−1, 2, 0) og 3",
         "(1, −2, 0) og 9",
-        "(2, −4, 0) og 4"
+        "(1, 2, 0) og 3"
       ],
       "correct": 0,
       "explain": "(x − 1)² + (y + 2)² + z² = 9."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvordan finner du vinkelen mellom to plan?",
       "options": [
-        "Vinkelen mellom to punkter",
-        "Vinkelen mellom normalvektorene",
-        "Summen av d-verdiene",
-        "Alltid 90°"
+        "Den minste vinkelen mellom retningsvektorene i planene",
+        "Den minste vinkelen mellom normalvektorene",
+        "Vinkelen mellom en normalvektor og det andre planet",
+        "Vinkelen mellom skjæringslinjen og normalvektorene"
       ],
       "correct": 1,
       "explain": "Normalvektorene bestemmer planets helning."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvilken normalvektor har tangentplanet i punktet T på en kule med sentrum S?",
       "options": [
-        "[1, 0, 0]",
-        "Retningsvektoren til x-aksen",
-        "Summen av S og T",
+        "OS",
+        "OT",
+        "OS + OT",
         "ST"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Når skjærer et plan en kule?",
       "options": [
         "Når avstanden fra sentrum til planet er mindre enn radien",
-        "Alltid",
-        "Når planet går gjennom origo",
-        "Når d = 0"
+        "Når avstanden fra sentrum til planet er større enn radien",
+        "Når avstanden fra sentrum til planet er lik radien",
+        "Når avstanden fra sentrum til planet er lik diameteren"
       ],
       "correct": 0,
       "explain": "Skjæringen er en sirkel."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvordan finner du skjæringspunktet mellom en linje og et plan?",
       "options": [
-        "Ta vektorproduktet",
+        "Sett retningsvektoren inn i planlikningen og løs for t",
         "Sett parameterframstillingen inn i planlikningen og løs for t",
-        "Finn avstanden",
-        "Legg sammen likningene"
+        "Sett parameterframstillingen inn i kulelikningen og løs for t",
+        "Sett normalvektoren inn i planlikningen og løs for t"
       ],
       "correct": 1,
       "explain": "t gir punktet."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hva er vinkelen mellom en linje og et plan?",
         "options": [
-          "Vinkelen mellom retningsvektor og normalvektor",
-          "Alltid 0°",
-          "90° minus vinkelen mellom retningsvektor og normalvektor",
-          "Summen av vinklene"
+          "Den spisse vinkelen mellom retningsvektoren og normalvektoren",
+          "90° pluss den spisse vinkelen mellom retningsvektoren og normalvektoren",
+          "90° minus den spisse vinkelen mellom retningsvektoren og normalvektoren",
+          "90° minus vinkelen mellom retningsvektoren og en vektor i planet"
         ],
         "correct": 2,
         "explain": "Normalvektoren står vinkelrett på planet."
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

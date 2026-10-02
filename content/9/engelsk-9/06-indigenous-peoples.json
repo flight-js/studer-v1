@@ -85,10 +85,10 @@
       "id": "q01",
       "text": "What does “indigenous” mean?",
       "options": [
-        "Newly arrived",
-        "Descended from the original inhabitants of an area",
-        "Living in cities",
-        "Speaking English"
+        "People who moved into an area later",
+        "People descended from an area's first inhabitants",
+        "People who share one language and culture",
+        "People who live in rural areas today"
       ],
       "correct": 1,
       "explain": "Indigenous peoples descend from those who lived in an area before colonisation or modern borders."
@@ -100,7 +100,7 @@
         "The indigenous people of Australia",
         "The indigenous people of Canada",
         "The indigenous people of New Zealand",
-        "A people in Scotland"
+        "The indigenous people of Hawaii"
       ],
       "correct": 2,
       "explain": "The Māori are the indigenous people of New Zealand.",
@@ -110,10 +110,10 @@
       "id": "q03",
       "text": "What is assimilation?",
       "options": [
-        "Forcing a minority to give up its culture and adopt the majority culture",
-        "Learning several languages",
-        "Moving to another country",
-        "Building new schools"
+        "Forcing a minority to give up its culture for the majority culture",
+        "Supporting a minority as it preserves its culture and language",
+        "Helping minority groups learn the majority language while keeping their customs",
+        "Allowing cultural groups to maintain separate schools and traditions"
       ],
       "correct": 0,
       "explain": "Assimilation policies tried to make indigenous peoples abandon their languages and traditions."
@@ -122,9 +122,9 @@
       "id": "q04",
       "text": "What are the “Stolen Generations”?",
       "options": [
-        "Soldiers in the Civil War",
-        "British colonists",
-        "Sámi reindeer herders",
+        "Aboriginal children sent to boarding schools in Canada",
+        "Māori children separated from their families in New Zealand",
+        "Sámi children taken from their families in Norway",
         "Aboriginal children taken from their families in Australia"
       ],
       "correct": 3,
@@ -135,10 +135,10 @@
       "id": "q05",
       "text": "What was Norwegianisation?",
       "options": [
-        "A policy that pressured the Sámi and Kven to give up language and culture",
-        "A Norwegian sports event",
-        "A law about fishing",
-        "The Norwegian constitution"
+        "A policy pressuring Sámi and Kven to abandon their languages and culture",
+        "A policy requiring Norwegian children to learn Sámi and Kven",
+        "A policy protecting Sámi and Kven language use in schools",
+        "A policy encouraging Sámi and Kven families to move south"
       ],
       "correct": 0,
       "explain": "Norwegianisation (fornorskning) lasted from the 1800s well into the 1900s."
@@ -147,10 +147,10 @@
       "id": "q06",
       "text": "When did the Sámi Parliament in Norway open?",
       "options": [
-        "1814",
-        "1905",
+        "1988",
+        "1990",
         "1989",
-        "2023"
+        "1992"
       ],
       "correct": 2,
       "explain": "The Sámediggi opened in 1989.",
@@ -160,10 +160,10 @@
       "id": "q07",
       "text": "What were residential schools in Canada?",
       "options": [
-        "Holiday camps",
-        "Universities for indigenous leaders",
-        "Schools where indigenous children were forbidden to use their own languages",
-        "Schools only for adults"
+        "Schools where Indigenous children were taught in their own languages",
+        "Schools where Indigenous children learned English while living with their families",
+        "Schools where Indigenous children were forbidden to use their own languages",
+        "Schools where Indigenous children studied traditional culture at home"
       ],
       "correct": 2,
       "explain": "The residential school system tried to separate children from their culture and language.",
@@ -173,10 +173,10 @@
       "id": "q08",
       "text": "What did the UN adopt in 2007?",
       "options": [
-        "A ban on reservations",
+        "The Convention on the Rights of the Child",
         "The Declaration on the Rights of Indigenous Peoples",
-        "A new flag",
-        "The Treaty of Waitangi"
+        "The Universal Declaration of Human Rights",
+        "The Convention on Biological Diversity"
       ],
       "correct": 1,
       "explain": "The declaration sets out rights to land, culture, language and self-determination.",
@@ -186,9 +186,9 @@
       "id": "q09",
       "text": "What is the Treaty of Waitangi?",
       "options": [
-        "A 1776 American document",
-        "A Canadian school law",
-        "A Sámi song",
+        "An 1840 agreement between the French government and Māori chiefs",
+        "An 1840 agreement between the US government and Māori chiefs",
+        "An 1840 agreement between the British Crown and Sámi leaders",
         "An 1840 agreement between the British Crown and Māori chiefs"
       ],
       "correct": 3,
@@ -200,9 +200,9 @@
       "text": "What does reconciliation mean in this context?",
       "options": [
         "Recognising past injustice and working for a fairer future",
-        "Forgetting history",
-        "Moving people to new areas",
-        "Building more roads"
+        "Discussing past injustice without changing unfair policies",
+        "Moving affected communities to new areas to prevent conflict",
+        "Building shared projects without addressing past harms"
       ],
       "correct": 0,
       "explain": "Reconciliation involves truth, recognition and concrete steps to improve the situation."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "What did the Truth and Reconciliation Commission in Norway present in 2023?",
         "options": [
-          "A new flag",
-          "A report on injustice done to the Sámi and Kven/Norwegian Finns",
-          "A sports law",
-          "A new constitution"
+          "A report on language loss among Māori and Aboriginal peoples",
+          "A report on injustices against the Sámi and Kven/Norwegian Finns",
+          "A report on land disputes involving Sámi and Norwegian farmers",
+          "A report on schooling rights for Sámi and Kven communities"
         ],
         "correct": 1,
         "explain": "The commission examined the consequences of Norwegianisation policy.",
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "What is a reservation in the USA?",
         "options": [
-          "A hotel booking",
-          "A national park",
+          "An area set aside for a national park",
+          "An area set aside for a military base",
           "An area set aside for Native Americans",
-          "A military base"
+          "An area set aside for a new town"
         ],
         "correct": 2,
         "explain": "Many Native Americans were moved to reservations after losing their lands.",
@@ -460,6 +460,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -90,8 +90,8 @@
       "options": [
         "(x + 1) er en faktor",
         "(x − 1) er en faktor",
-        "P har ingen nullpunkter",
-        "P(x) = 1 for alle x"
+        "(x − 6) er en faktor",
+        "(x + 6) er en faktor"
       ],
       "correct": 1,
       "explain": "P(a) = 0 betyr at (x − a) er en faktor."
@@ -113,8 +113,8 @@
       "text": "Faktoriser x³ − 6x² + 11x − 6 fullstendig.",
       "options": [
         "(x + 1)(x + 2)(x + 3)",
-        "(x − 1)(x² + 6)",
-        "(x − 6)(x² + 1)",
+        "(x − 1)(x − 2)(x + 3)",
+        "(x − 1)(x + 2)(x − 3)",
         "(x − 1)(x − 2)(x − 3)"
       ],
       "correct": 3,
@@ -139,7 +139,7 @@
         "x − 2",
         "x + 2",
         "x² − 2",
-        "2"
+        "x + 4"
       ],
       "correct": 1,
       "explain": "x² − 4 = (x + 2)(x − 2)."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilke tall kan være heltallige nullpunkter i x³ − 6x² + 11x − 6?",
       "options": [
-        "Bare 0",
-        "Divisorer i 11",
+        "Divisorer i 11: ±1, ±11",
+        "Divisorer i 5: ±1, ±5",
         "Divisorer i 6: ±1, ±2, ±3, ±6",
-        "Alle tall mellom −10 og 10"
+        "Divisorer i 6: ±1, ±2, ±3"
       ],
       "correct": 2,
       "explain": "Heltallige nullpunkter må gå opp i konstantleddet."
@@ -161,8 +161,8 @@
       "text": "Når går polynomdivisjonen P(x) : (x − a) opp?",
       "options": [
         "Når P(0) = a",
-        "Når a = 0",
-        "Alltid",
+        "Når P(a) = 1",
+        "Når P(−a) = 0",
         "Når P(a) = 0"
       ],
       "correct": 3,
@@ -174,8 +174,8 @@
       "options": [
         "x = 1, x = 2 eller x = 3",
         "x = −1, x = −2 eller x = −3",
-        "x = 6",
-        "x = 0"
+        "x = 1, x = 2 eller x = 6",
+        "x = 0, x = 2 eller x = 3"
       ],
       "correct": 0,
       "explain": "Faktoriseringen (x − 1)(x − 2)(x − 3) gir løsningene."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvorfor er polynomdivisjon nyttig?",
       "options": [
-        "For å regne prosent",
-        "For å faktorisere og løse likninger av høyere grad",
-        "For å finne arealet av trekanter",
-        "For å regne om enheter"
+        "For å finne verdien av polynomet for en bestemt x-verdi",
+        "For å faktorisere polynomer og løse likninger av høyere grad",
+        "For å finne graden ved å legge sammen eksponentene i leddene",
+        "For å finne nullpunktene ved å sette koeffisientene lik null"
       ],
       "correct": 1,
       "explain": "Den reduserer graden slik at vi kan bruke kjente metoder."
@@ -310,8 +310,8 @@
         "options": [
           "(x + 2)",
           "(x − 2)",
-          "(x − 6)",
-          "(x + 6)"
+          "(x − 3)",
+          "(x − 6)"
         ],
         "correct": 1,
         "explain": "P(2) = 0 betyr at (x − 2) er en faktor."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva er et polynom?",
         "options": [
-          "En sum av ledd der x har ikke-negative hele tall som eksponenter",
-          "En brøk med x i nevneren",
-          "En funksjon med x i eksponenten",
-          "En rotfunksjon"
+          "En sum av ledd der x har ikke-negative heltallige eksponenter",
+          "En sum av ledd der x kan ha negative heltallige eksponenter",
+          "En sum av ledd der x kan ha brøk som eksponent",
+          "En sum av ledd der x kan stå i nevneren"
         ],
         "correct": 0,
         "explain": "For eksempel 4x³ − 2x + 7."
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

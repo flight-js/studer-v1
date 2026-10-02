@@ -84,8 +84,8 @@
       "id": "q01",
       "text": "Hva er partisippet av «manger»?",
       "options": [
-        "mangi",
-        "mangu",
+        "manger",
+        "mange",
         "mangé",
         "mangeait"
       ],
@@ -109,8 +109,8 @@
       "text": "Hvilken setning er riktig?",
       "options": [
         "J'ai allé au cinéma.",
-        "Je suis allé cinéma au.",
-        "Je allé suis au cinéma.",
+        "Je suis aller au cinéma.",
+        "Je suis allé en cinéma.",
         "Je suis allé au cinéma."
       ],
       "correct": 3,
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hva er partisippet av «faire»?",
       "options": [
-        "faisé",
+        "faire",
         "fait",
-        "fairu",
-        "faité"
+        "fais",
+        "faisait"
       ],
       "correct": 1,
       "explain": "«faire» er uregelrett: «j'ai fait»."
@@ -133,8 +133,8 @@
       "text": "Hvordan sier du «Hun dro til Paris»?",
       "options": [
         "Elle a allé à Paris.",
-        "Elle est allé à Paris.",
-        "Elle va allée à Paris.",
+        "Elle allait à Paris.",
+        "Elle est allée de Paris.",
         "Elle est allée à Paris."
       ],
       "correct": 3,
@@ -144,9 +144,9 @@
       "id": "q06",
       "text": "Hva betyr «C'était génial !»?",
       "options": [
-        "Det er genialt!",
+        "Det er kjempebra!",
         "Det var kjempebra!",
-        "Det blir fint!",
+        "Det blir kjempebra!",
         "Det var kjedelig!"
       ],
       "correct": 1,
@@ -158,8 +158,8 @@
       "options": [
         "Forrige helg",
         "Neste helg",
-        "Hver helg",
-        "Siste dag i helgen"
+        "Denne helgen",
+        "Hver helg"
       ],
       "correct": 0,
       "explain": "«dernier» betyr forrige eller siste."
@@ -180,9 +180,9 @@
       "id": "q09",
       "text": "Hva er partisippet av «voir»?",
       "options": [
-        "voiré",
-        "voit",
-        "vuit",
+        "voir",
+        "vois",
+        "voyait",
         "vu"
       ],
       "correct": 3,
@@ -193,9 +193,9 @@
       "text": "Hva består passé composé av?",
       "options": [
         "avoir eller être + partisipp",
-        "verb + -ait",
-        "aller + infinitiv",
-        "infinitiv alene"
+        "avoir eller être + infinitiv",
+        "avoir eller être + presens",
+        "avoir eller être + imperfektum"
       ],
       "correct": 0,
       "explain": "For eksempel «j'ai parlé» og «je suis allé»."
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hva er partisippet av «prendre»?",
         "options": [
-          "prendu",
+          "prendre",
           "pris",
-          "prené",
-          "prit"
+          "prend",
+          "prenait"
         ],
         "correct": 1,
         "explain": "«J'ai pris le bus» betyr jeg tok bussen."
@@ -339,8 +339,8 @@
         "text": "Hva betyr «il y a deux jours»?",
         "options": [
           "For to dager siden",
-          "Om to dager",
-          "I to dager",
+          "Om cirka to dager",
+          "I omtrent to dager",
           "Det er to dager"
         ],
         "correct": 0,
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

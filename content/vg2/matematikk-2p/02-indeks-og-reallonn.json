@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva betyr det at KPI er 125?",
       "options": [
-        "Prisene er 125 % lavere enn i basisåret",
+        "Prisene er i gjennomsnitt 25 % lavere enn i basisåret",
         "Prisene er i gjennomsnitt 25 % høyere enn i basisåret",
-        "Lønnen er 125 kr",
-        "Kroneverdien er 125"
+        "Prisene er i gjennomsnitt 125 % høyere enn i basisåret",
+        "Kroneverdien er i gjennomsnitt 25 % høyere enn i basisåret"
       ],
       "correct": 1,
       "explain": "Basisåret har indeks 100."
@@ -91,7 +91,7 @@
         "250 kr",
         "225 kr",
         "160 kr",
-        "325 kr"
+        "300 kr"
       ],
       "correct": 0,
       "explain": "200 · 125/100 = 250."
@@ -103,7 +103,7 @@
         "1,25",
         "0,25",
         "0,80",
-        "125"
+        "0,125"
       ],
       "correct": 2,
       "explain": "100/125 = 0,80."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er reallønn?",
       "options": [
-        "Lønn før skatt",
-        "Lønn etter skatt",
-        "Lønn per time",
+        "Lønn før skatt og andre trekk",
+        "Lønn etter skatt og andre trekk",
+        "Lønn beregnet per arbeidstime",
         "Lønn justert for prisstigning"
       ],
       "correct": 3,
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er nettoinntekt?",
       "options": [
-        "Inntekt før skatt",
-        "Inntekt fra nettbutikk",
+        "Inntekt før skatt og andre trekk",
+        "Inntekt etter skatt, før andre trekk",
         "Inntekt etter skatt og andre trekk",
-        "Inntekt i utlandet"
+        "Inntekt før skatt, justert for prisstigning"
       ],
       "correct": 2,
       "explain": "Bruttoinntekt er før skatt."
@@ -161,8 +161,8 @@
       "text": "Hva skjer med reallønnen hvis prisene stiger mer enn lønnen?",
       "options": [
         "Den øker",
-        "Den er uendret",
-        "Den dobles",
+        "Den holder seg uendret",
+        "Den blir dobbelt så stor",
         "Den synker"
       ],
       "correct": 3,
@@ -188,7 +188,7 @@
         "12 000 kr",
         "28 000 kr",
         "30 000 kr",
-        "39 700 kr"
+        "37 000 kr"
       ],
       "correct": 1,
       "explain": "Trekket er 12 000 kr."
@@ -314,8 +314,8 @@
         "options": [
           "0,80",
           "1,25",
-          "80",
-          "0,20"
+          "0,20",
+          "1,80"
         ],
         "correct": 1,
         "explain": "100/80 = 1,25."
@@ -326,9 +326,9 @@
         "text": "Hva er inflasjon?",
         "options": [
           "At prisene stiger",
-          "At lønnen stiger",
-          "At skatten stiger",
-          "At renten synker"
+          "At lønningene stiger",
+          "At prisene synker",
+          "At kroneverdien stiger"
         ],
         "correct": 0,
         "explain": "KPI brukes til å måle inflasjonen."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

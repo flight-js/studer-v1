@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Når vokste forbrukersamfunnet fram i den rike delen av verden?",
       "options": [
-        "I middelalderen",
+        "På 1700-tallet",
         "Etter andre verdenskrig",
-        "På 1600-tallet",
-        "I steinalderen"
+        "På 1800-tallet",
+        "Før første verdenskrig"
       ],
       "correct": 1,
       "explain": "Med velstand, masseproduksjon og reklame."
@@ -91,9 +91,9 @@
       "text": "Hva er planlagt foreldelse?",
       "options": [
         "At produkter lages for å ha kort levetid",
-        "At produkter lages for å vare evig",
-        "En type reklame",
-        "En miljølov"
+        "At produkter lages for å kunne repareres enkelt",
+        "At produkter lages for å bruke mindre energi",
+        "At produkter lages for å kunne oppgraderes senere"
       ],
       "correct": 0,
       "explain": "Øker forbruket.",
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er uvitenhetens slør hos Rawls?",
       "options": [
-        "En type klesplagg",
-        "At vi aldri kan vite noe",
+        "Å velge samfunnsprinsipper ut fra hvilken plass man selv får",
+        "Å velge samfunnsprinsipper uten å vite hvilke ressurser samfunnet har",
         "Å velge samfunnsprinsipper uten å vite hvilken plass man selv får",
-        "At rike skal bestemme"
+        "Å velge samfunnsprinsipper etter hvilken gruppe man selv tilhører"
       ],
       "correct": 2,
       "explain": "Fra 1971."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva mente Nozick om omfordeling?",
       "options": [
-        "At staten bør omfordele alt",
-        "At alle skal ha likt",
-        "At eiendom ikke finnes",
+        "At rettferdig ervervet eiendom bør omfordeles for å sikre likhet",
+        "At all eiendom bør fordeles etter menneskers samlede behov",
+        "At staten bør eie eiendom før den fordeles til innbyggerne",
         "At rettferdig ervervet eiendom ikke bør omfordeles mer enn nødvendig"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva spør kapabilitetstilnærmingen om?",
       "options": [
         "Hva mennesker faktisk er i stand til å gjøre og være",
-        "Hvor mye folk eier",
-        "Hvor mye de forbruker",
-        "Hvor gamle de er"
+        "Hva mennesker faktisk eier og har tilgang til",
+        "Hva mennesker faktisk bruker pengene sine på",
+        "Hva mennesker faktisk får utbetalt i lønn og støtte"
       ],
       "correct": 0,
       "explain": "Sen og Nussbaum."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er antropocen?",
       "options": [
-        "En steinalderkultur",
+        "En ny geologisk epoke der naturlige prosesser er den viktigste kraften som endrer jorda",
         "En ny geologisk epoke der mennesket er den viktigste kraften som endrer jorda",
-        "En type forbruk",
-        "En filosofisk skole"
+        "En ny geologisk epoke der livet i havet er den viktigste kraften som endrer jorda",
+        "En ny geologisk epoke der istider er den viktigste kraften som endrer jorda"
       ],
       "correct": 1,
       "explain": "Klimaendringer, arealbruk og artstap."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er dypøkologi?",
       "options": [
-        "Studiet av havbunnen",
-        "Synet at naturen bare er en ressurs",
+        "Synet at naturens verdi måles ut fra nytten den har for mennesker",
+        "Synet at mennesket står utenfor naturen og bør styre den",
         "Synet at alt liv har egenverdi og mennesket er en del av naturen",
-        "En type landbruk"
+        "Synet at naturen først og fremst har verdi som kilde til råvarer"
       ],
       "correct": 2,
       "explain": "Arne Næss."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva er global rettferdighet i klimaspørsmålet?",
       "options": [
-        "At alle land har sluppet ut like mye",
-        "At fattige land har sluppet ut mest",
-        "At klimaendringer rammer alle likt",
+        "At fattige land har sluppet ut mest, mens rike ofte rammes hardest",
+        "At alle land har like stort ansvar, selv om konsekvensene varierer",
+        "At rike land har sluppet ut minst, mens fattige ofte rammes hardest",
         "At rike land har sluppet ut mest, mens fattige ofte rammes hardest"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva er det økologiske fotavtrykket?",
       "options": [
         "Hvor mye natur som trengs for å dekke forbruket",
-        "Et fotspor i skogen",
-        "En type avgift",
-        "Antall trær i et land"
+        "Hvor mye energi som trengs for å produsere varene et samfunn bruker",
+        "Hvor store utslipp et land har fra transport og industri",
+        "Hvor mange naturressurser et land har tilgjengelig for framtidig bruk"
       ],
       "correct": 0,
       "explain": "Nordmenn har et stort fotavtrykk."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er nøysomhet?",
       "options": [
-        "Å kjøpe mest mulig",
+        "Å kjøpe billigere varer og prioritere pris framfor kvalitet",
         "Å forbruke mindre og prioritere tid, relasjoner og opplevelser",
-        "Å spare til luksus",
-        "Å reise mye"
+        "Å spare penger til større kjøp og prioritere materielle goder",
+        "Å bruke tid på arbeid og prioritere høyere inntekt framfor fritid"
       ],
       "correct": 1,
       "explain": "Et alternativ til forbrukersamfunnet.",
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hvem utviklet kapabilitetstilnærmingen?",
         "options": [
-          "Rawls og Nozick",
+          "John Rawls og Robert Nozick",
           "Amartya Sen og Martha Nussbaum",
-          "Næss og Kant",
-          "Smith og Marx"
+          "Arne Næss og Immanuel Kant",
+          "Adam Smith og Karl Marx"
         ],
         "correct": 1,
         "explain": "Hva mennesker er i stand til."
@@ -330,9 +330,9 @@
         "text": "Hva er nedvekst?",
         "options": [
           "Ideen om at rike land må redusere produksjon og forbruk",
-          "Økonomisk vekst uten grenser",
-          "En type reklame",
-          "Et forbruksmønster"
+          "Ideen om at rike land må øke produksjon og forbruk for å sikre velstand",
+          "Ideen om at økonomien kan vokse uten å øke ressursbruken",
+          "Ideen om at forbruket bør bli mer miljøvennlig uten å endres i omfang"
         ],
         "correct": 0,
         "explain": "Et alternativ til grønn vekst.",
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva legger urfolks perspektiver ofte vekt på?",
         "options": [
-          "Maksimalt forbruk",
-          "Naturen som ren ressurs",
+          "Eierskap og kontroll over naturressursene",
+          "Økonomisk vekst gjennom bruk av naturressurser",
           "Gjensidighet og ansvar overfor naturen",
-          "Planlagt foreldelse"
+          "Teknologisk styring og effektiv utnyttelse av naturen"
         ],
         "correct": 2,
         "explain": "Et alternativt natursyn.",
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

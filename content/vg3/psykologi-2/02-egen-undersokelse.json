@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er en hypotese?",
       "options": [
-        "En konklusjon",
+        "En endelig forklaring på resultatene etter at de er undersøkt",
         "Et begrunnet forslag til svar som kan testes",
-        "Et spørreskjema",
-        "En tabell"
+        "En fast plan for å samle inn svar fra deltakerne",
+        "En oversikt over dataene som er samlet inn i studien"
       ],
       "correct": 1,
       "explain": "Testes i undersøkelsen."
@@ -88,9 +88,9 @@
       "text": "Hva er validitet?",
       "options": [
         "At man måler det man faktisk vil måle",
-        "At målingen gir samme resultat hver gang",
-        "At utvalget er stort",
-        "At svarene er anonyme"
+        "At målingen gir samme resultat når den gjentas",
+        "At utvalget gjenspeiler gruppen man ønsker å undersøke",
+        "At deltakerne svarer uten å oppgi navn i skjemaet"
       ],
       "correct": 0,
       "explain": "Gyldighet."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvilken metode passer best for å forstå opplevelser i dybden?",
       "options": [
-        "Spørreskjema med avkrysning",
-        "Eksperiment",
-        "Intervju",
-        "Statistikk fra SSB"
+        "Spørreskjema med faste svaralternativer",
+        "Eksperiment med kontrollert påvirkning",
+        "Intervju med åpne spørsmål",
+        "Registeranalyse av statistiske data"
       ],
       "correct": 2,
       "explain": "Kvalitativ metode."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hva er den uavhengige variabelen i et eksperiment?",
       "options": [
-        "Det som måles",
-        "Deltakerne",
-        "Resultatet",
-        "Faktoren forskeren endrer"
+        "Faktoren forskeren måler som resultat",
+        "Gruppen forskeren velger som utvalg",
+        "Resultatet forskeren bruker som hypotese",
+        "Faktoren forskeren endrer med vilje"
       ],
       "correct": 3,
       "explain": "Den avhengige variabelen måles."
@@ -124,9 +124,9 @@
       "text": "Hva innebærer informert samtykke?",
       "options": [
         "At deltakerne vet hva de er med på og kan trekke seg",
-        "At læreren bestemmer",
-        "At svarene publiseres med navn",
-        "At deltakerne får betalt"
+        "At deltakerne får vite formålet, men ikke kan trekke seg",
+        "At deltakerne kan trekke seg, men ikke får vite formålet",
+        "At deltakerne får vite resultatene før de samtykker"
       ],
       "correct": 0,
       "explain": "Et grunnleggende etisk krav."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er reliabilitet?",
       "options": [
-        "Gyldighet",
+        "Gyldighet – måler det man ønsker å måle",
         "Pålitelighet – samme resultat ved gjentakelse",
-        "Antall deltakere",
-        "Hvor interessant temaet er"
+        "Representativitet – utvalget speiler målgruppen godt",
+        "Objektivitet – forskerens vurderinger påvirker ikke resultatet"
       ],
       "correct": 1,
       "explain": "Svekkes av uklare spørsmål."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hvorfor bør du være forsiktig med å generalisere fra egen klasse?",
       "options": [
-        "Fordi klassen er for smart",
-        "Fordi det er ulovlig",
-        "Fordi det er et bekvemmelighetsutvalg som kanskje ikke er representativt",
-        "Fordi klassen er for stor"
+        "Fordi klassens størrelse alene avgjør om utvalget er representativt",
+        "Fordi en bekvemmelighetsgruppe regnes som et tilfeldig utvalg",
+        "Fordi egen klasse er et bekvemmelighetsutvalg som ikke nødvendigvis er representativt",
+        "Fordi resultater fra én klasse gjelder for alle elever på trinnet"
       ],
       "correct": 2,
       "explain": "Kan ikke uten videre overføres til alle."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva er sosial ønskverdighet?",
       "options": [
-        "At alle ønsker å delta",
-        "At forskeren ønsker et bestemt resultat",
-        "At man ønsker venner",
-        "At deltakere svarer det de tror er akseptert"
+        "At deltakere svarer slik forskeren forventer av dem",
+        "At deltakere husker hendelser annerledes enn de skjedde",
+        "At deltakere velger svar tilfeldig uten å lese spørsmålene",
+        "At deltakere svarer slik de tror er sosialt akseptert"
       ],
       "correct": 3,
       "explain": "En vanlig feilkilde."
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hva er en pilotundersøkelse?",
       "options": [
-        "En test av skjemaet på noen få personer",
-        "Hele undersøkelsen",
-        "En undersøkelse av piloter",
-        "Den endelige rapporten"
+        "En utprøving av spørreskjemaet på et lite utvalg",
+        "En gjennomføring av hovedundersøkelsen med hele utvalget",
+        "En analyse av resultatene etter at datainnsamlingen er ferdig",
+        "En undersøkelse av en bestemt yrkesgruppe i et utvalg"
       ],
       "correct": 0,
       "explain": "Avdekker uklare spørsmål."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvilken type undersøkelse kan gi sterkest holdepunkt for årsak og virkning?",
       "options": [
-        "Intervju",
+        "Intervju med åpne spørsmål",
         "Eksperiment med kontrollgruppe",
-        "Observasjon",
-        "Spørreskjema"
+        "Observasjon uten kontrollgruppe",
+        "Spørreskjema med tilfeldig utvalg"
       ],
       "correct": 1,
       "explain": "Man endrer én faktor og sammenligner."
@@ -313,7 +313,7 @@
           "Søvn",
           "Konsentrasjon",
           "Alder",
-          "Skole"
+          "Kjønn"
         ],
         "correct": 1,
         "explain": "Det som måles som mulig effekt."
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Hva må ofte til når deltakerne er under 16 år?",
         "options": [
-          "Foresattes samtykke",
-          "Politiattest",
-          "Betaling",
-          "Rektors signatur alene"
+          "Samtykke fra deltakerens foresatte",
+          "Samtykke fra deltakerens lærer alene",
+          "Samtykke fra skolens rektor alene",
+          "Samtykke fra forskningsgruppens leder"
         ],
         "correct": 0,
         "explain": "Etiske krav.",
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva hører hjemme i drøftingen?",
         "options": [
-          "Bare tabeller",
-          "Bare problemstillingen",
+          "Metodevalg, beskrivelse av utvalg og datainnsamling",
+          "Problemstilling, formål og planlagt framgangsmåte",
           "Tolking, sammenligning med teori og feilkilder",
-          "Kun takk til deltakerne"
+          "Resultater, tabeller og rådata uten tolkning"
         ],
         "correct": 2,
         "explain": "Også alternative forklaringer."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

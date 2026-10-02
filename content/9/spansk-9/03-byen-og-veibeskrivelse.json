@@ -80,9 +80,9 @@
       "id": "q01",
       "text": "Hva er «la estación de tren»?",
       "options": [
+        "T-banestasjonen",
+        "Busstasjonen",
         "Flyplassen",
-        "Bussholdeplassen",
-        "Havnen",
         "Jernbanestasjonen"
       ],
       "correct": 3,
@@ -95,7 +95,7 @@
         "Til venstre",
         "Rett fram",
         "Til høyre",
-        "Tilbake"
+        "Bakover"
       ],
       "correct": 1,
       "explain": "Man kan også si «todo derecho» i Latin-Amerika."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hvordan spør du om veien til museet?",
       "options": [
-        "¿Dónde vives?",
-        "¿Cuánto cuesta el museo?",
+        "¿Cómo se va a la plaza?",
+        "¿Cómo se va a la estación?",
         "¿Cómo se va al museo?",
-        "¿Es bonito el museo?"
+        "¿Cómo se va al parque?"
       ],
       "correct": 2,
       "explain": "«¿Cómo se va a …?» brukes når du spør om veien."
@@ -117,7 +117,7 @@
       "text": "Hva er «la farmacia»?",
       "options": [
         "Apoteket",
-        "Gården",
+        "Sykehuset",
         "Biblioteket",
         "Banken"
       ],
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hvorfor heter det «al museo», men «a la plaza»?",
       "options": [
-        "Fordi museet er større",
+        "Fordi «museo» er hunkjønn og a + el blir al",
         "Fordi «museo» er hankjønn og a + el blir al",
-        "Fordi plaza er et torg",
-        "Det er tilfeldig"
+        "Fordi «museo» er hankjønn og a + el blir a el",
+        "Fordi «plaza» er hankjønn og a + el blir al"
       ],
       "correct": 1,
       "explain": "Bare a + el trekkes sammen."
@@ -140,9 +140,9 @@
       "id": "q06",
       "text": "Hva betyr «Gire a la derecha en el semáforo»?",
       "options": [
+        "Ta til venstre ved lyskrysset",
         "Gå rett fram ved lyskrysset",
-        "Stopp ved lyskrysset",
-        "Snu ved brua",
+        "Sving til høyre etter lyskrysset",
         "Ta til høyre ved lyskrysset"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "id": "q09",
       "text": "Hva sier du hvis du ikke forstod veibeskrivelsen?",
       "options": [
-        "¡Adiós!",
-        "¡Buen provecho!",
-        "¡Muchas gracias!",
+        "¿Puede ayudarme, por favor?",
+        "¿Puede esperar, por favor?",
+        "¿Puede acompañarme, por favor?",
         "¿Puede repetir, por favor?"
       ],
       "correct": 3,
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er «el ayuntamiento»?",
       "options": [
-        "Havet",
+        "Biblioteket",
         "Rådhuset",
-        "Kirken",
-        "Markedet"
+        "Postkontoret",
+        "Politistasjonen"
       ],
       "correct": 1,
       "explain": "Rådhuset ligger ofte ved Plaza Mayor."
@@ -325,9 +325,9 @@
         "text": "Hvordan sier du «Er det langt?»?",
         "options": [
           "¿Está lejos?",
-          "¿Dónde está?",
-          "¿Qué es?",
-          "¿Está aquí?"
+          "¿Está cerca?",
+          "¿Está aquí?",
+          "¿Está allí?"
         ],
         "correct": 0,
         "explain": "«lejos» betyr langt unna."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva er «la parada de autobús»?",
         "options": [
-          "Bussjåføren",
+          "T-banestasjonen",
           "Bussholdeplassen",
-          "Busskortet",
-          "Bussen"
+          "Togstasjonen",
+          "Taxiholdeplassen"
         ],
         "correct": 1,
         "explain": "«parar» betyr å stoppe."
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Tome la segunda calle a la izquierda»?",
         "options": [
-          "Ta den første gata til høyre",
-          "Gå to kvartaler rett fram",
+          "Ta den første gata til venstre",
+          "Ta den andre gata til høyre",
           "Ta den andre gata til venstre",
-          "Kryss gata to ganger"
+          "Ta den tredje gata til venstre"
         ],
         "correct": 2,
         "explain": "«segunda» betyr andre."
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

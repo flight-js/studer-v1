@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er hydrosfæren?",
       "options": [
-        "Lufta rundt jorda",
+        "Alle gassene rundt jorda",
         "Alt vannet på jorda",
-        "Alt liv",
-        "Jordas kjerne"
+        "Alle levende organismer på jorda",
+        "Alt fast materiale på jorda"
       ],
       "correct": 1,
       "explain": "Hav, innsjøer, elver og grunnvann."
@@ -89,9 +89,9 @@
       "text": "Hva driver platebevegelser og vulkanisme?",
       "options": [
         "Jordas indre varme",
-        "Solenergi",
-        "Vind",
-        "Tidevann"
+        "Varmen fra sola",
+        "Energien fra tidevann",
+        "Varme fra havstrømmer"
       ],
       "correct": 0,
       "explain": "Fra radioaktiv nedbrytning og restvarme."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er frostsprengning?",
       "options": [
-        "At isbreer smelter",
-        "At lava fryser",
+        "At vann renner gjennom sprekker og løser opp fjellet",
+        "At isbreer beveger seg over fjell og sliper dem ned",
         "At vann fryser i sprekker og sprenger fjellet",
-        "At snø blir til is"
+        "At røtter vokser i sprekker og sprenger fjellet"
       ],
       "correct": 2,
       "explain": "En form for mekanisk forvitring."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hvorfor kan store vulkanutbrudd kjøle ned klimaet?",
       "options": [
-        "Lava er kald",
-        "De stopper vinden",
-        "De slukker sola",
-        "Svovelpartikler i atmosfæren reflekterer sollys"
+        "Karbondioksid reflekterer sollys i atmosfæren",
+        "Vulkanutbrudd stanser vindene i atmosfæren",
+        "Lava trekker varme ut av atmosfæren",
+        "Svovelpartikler reflekterer sollys i atmosfæren"
       ],
       "correct": 3,
       "explain": "Effekten varer gjerne noen år.",
@@ -126,9 +126,9 @@
       "text": "Hvorfor stiger landet i deler av Norge?",
       "options": [
         "Isostatisk landheving etter istida",
-        "Vulkanisme",
-        "Havet synker på grunn av fordampning",
-        "Jordskjelv"
+        "Tektonisk heving når jordplater presses sammen",
+        "Vulkanisk heving når magma samler seg",
+        "Jordskjelvheving langs aktive forkastninger"
       ],
       "correct": 0,
       "explain": "Skorpa hever seg etter at vekten av isen forsvant."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvordan kan karbon havne i geosfæren?",
       "options": [
-        "Gjennom vulkanutbrudd",
+        "Ved at kalkstein forvitrer og frigir karbon til lufta",
         "Ved at skall av organismer blir til kalkstein",
-        "Ved frostsprengning",
-        "Gjennom landheving"
+        "Ved at døde organismer brytes ned og frigir karbon til lufta",
+        "Ved at havvann fordamper og etterlater karbon i berggrunnen"
       ],
       "correct": 1,
       "explain": "Kalkstein er et langsiktig karbonlager.",
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva hører til kryosfæren?",
       "options": [
-        "Elver og innsjøer",
-        "Skyer",
+        "Hav, innsjøer og elver",
+        "Skyer, tåke og vanndamp",
         "Isbreer, snø og permafrost",
-        "Grunnvann"
+        "Grunnvann, regn og havstrømmer"
       ],
       "correct": 2,
       "explain": "Vann i fast form."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hvorfor forsterker smelting av snø og is oppvarmingen?",
       "options": [
-        "Smeltevann er varmt",
-        "Is lager CO₂",
-        "Isen gir fra seg varme",
+        "Lysere overflate tar opp mer solenergi",
+        "Smeltevann reflekterer mer sollys enn snø",
+        "Mindre is øker havets refleksjon av sollys",
         "Mørkere overflate tar opp mer solenergi"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvor dannes jordsmonn?",
       "options": [
         "Der geosfæren og biosfæren møtes",
-        "I jordas kjerne",
-        "I atmosfæren",
-        "På havbunnen i dyphavet"
+        "Der atmosfæren og hydrosfæren møtes",
+        "Der kryosfæren og atmosfæren møtes",
+        "Der hydrosfæren og kryosfæren møtes"
       ],
       "correct": 0,
       "explain": "Forvitring og organisk materiale samvirker."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva betyr antropocen?",
       "options": [
-        "Istiden",
+        "Pleistocen – den geologiske epoken med gjentatte istider",
         "Menneskets tid – en foreslått geologisk epoke",
-        "Dinosaurenes tid",
-        "En type bergart"
+        "Mesozoikum – den geologiske epoken da dinosaurene levde",
+        "Paleogen – den geologiske epoken etter dinosaurenes utdøing"
       ],
       "correct": 1,
       "explain": "Mennesket er blitt en geologisk kraft.",
@@ -321,7 +321,7 @@
         "type": "flervalg",
         "text": "Hva får vann til å renne nedover og skred til å gå?",
         "options": [
-          "Solenergi",
+          "Solstråling",
           "Tyngdekraften",
           "Magnetfeltet",
           "Jordrotasjonen"
@@ -335,9 +335,9 @@
         "text": "Hvilket eksempel viser samspill mellom hydrosfæren og geosfæren?",
         "options": [
           "En elv som graver ut en dal",
-          "Vind over havet",
-          "Fotosyntese",
-          "Nordlys"
+          "En vind som sliter på en fjellside",
+          "Røtter som vokser gjennom sprekker i fjell",
+          "Skyer som dannes over et varmt hav"
         ],
         "correct": 0,
         "explain": "Erosjon og avsetning."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hvor kommer jordas indre varme fra?",
         "options": [
-          "Fra sola",
-          "Fra vulkaner alene",
+          "Fra solvarme og energi fra havstrømmer",
+          "Fra varmen som frigjøres når vulkaner bryter ut",
           "Fra radioaktiv nedbrytning og restvarme fra dannelsen",
-          "Fra havstrømmer"
+          "Fra tidevannskrefter og bevegelser i verdenshavene"
         ],
         "correct": 2,
         "explain": "Den driver prosessene i geosfæren."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

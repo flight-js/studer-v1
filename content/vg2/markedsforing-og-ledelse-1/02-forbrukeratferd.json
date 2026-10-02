@@ -81,8 +81,8 @@
       "options": [
         "Informasjonssøk",
         "Behovserkjennelse",
-        "Kjøpsbeslutning",
-        "Etterkjøpsatferd"
+        "Alternativvurdering",
+        "Etterkjøpsvurdering"
       ],
       "correct": 1,
       "explain": "Kunden merker et behov."
@@ -92,9 +92,9 @@
       "text": "Hva er kognitiv dissonans etter kjøp?",
       "options": [
         "Tvil om kjøpet var riktig",
-        "Glede over kjøpet",
-        "Et impulskjøp",
-        "En rabatt"
+        "Tilfredshet med kjøpet",
+        "Usikkerhet om produktets bruksmåte",
+        "Skuffelse over butikkens service"
       ],
       "correct": 0,
       "explain": "Vanlig etter dyre kjøp."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvilket kjøp er typisk omfattende problemløsning?",
       "options": [
-        "Melk",
-        "Tyggegummi",
+        "En vanlig tannkrem",
+        "En flaske brus",
         "En ny bil",
-        "Brød"
+        "En pakke havregryn"
       ],
       "correct": 2,
       "explain": "Dyrt og viktig kjøp."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er en referansegruppe?",
       "options": [
-        "En gruppe forskere",
-        "En kundeklubb",
-        "En butikkjede",
+        "En gruppe fagpersoner som undersøker markedet for en virksomhet",
+        "En gruppe kunder som får medlemsfordeler fra samme butikk",
+        "En gruppe butikker som eies av samme virksomhet",
         "En gruppe vi sammenligner oss med eller ønsker å tilhøre"
       ],
       "correct": 3,
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er en opinionsleder?",
       "options": [
-        "En politiker",
+        "En person som har ansvar for butikkens daglige drift",
         "En person som andre lytter til og lar seg påvirke av",
-        "En butikksjef",
-        "En journalist alltid"
+        "En person som velger hvilke produkter en butikk skal føre",
+        "En person som skriver reklame for en virksomhets produkter"
       ],
       "correct": 1,
       "explain": "For eksempel en influenser."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvilken faktor er kulturell?",
       "options": [
-        "Alder",
-        "Holdninger",
+        "Livsfase",
+        "Persepsjon",
         "Subkultur",
-        "Økonomi"
+        "Referansegruppe"
       ],
       "correct": 2,
       "explain": "Grupper med egne verdier og stil."
@@ -164,8 +164,8 @@
       "text": "Hva er et impulskjøp?",
       "options": [
         "Et planlagt kjøp",
-        "Et kjøp av bil",
-        "Et kjøp med mye informasjonssøk",
+        "Et rutinepreget kjøp",
+        "Et kjøp etter sammenligning",
         "Et uplanlagt kjøp"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hvordan kan en virksomhet dempe kundens tvil etter et dyrt kjøp?",
       "options": [
-        "Med god oppfølging og garanti",
-        "Ved å heve prisen",
-        "Ved å ignorere kunden",
-        "Ved å slutte å selge produktet"
+        "Med god oppfølging og en tydelig garanti",
+        "Med reklame for andre varer etter kjøpet",
+        "Ved å begrense kundens kontakt med virksomheten",
+        "Ved å sende tilbud før kunden har valgt produktet"
       ],
       "correct": 0,
       "explain": "Bekrefter at valget var riktig."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor gjør netthandel det lettere å kjøpe noe vi ikke trenger?",
       "options": [
-        "Fordi varene er dårligere",
-        "Fordi anbefalinger, tidsbegrensede tilbud og enkel betaling gjør kjøpet raskt",
-        "Fordi det er dyrere",
-        "Fordi det er ulovlig"
+        "Fordi netthandel gir lengre betenkningstid og flere krav før betaling",
+        "Fordi netthandel, tidsbegrensede tilbud og enkel betaling gjør kjøpet raskt",
+        "Fordi netthandel reduserer utvalget og gjør søket mer tidkrevende",
+        "Fordi netthandel krever mer planlegging og flere betalingssteg"
       ],
       "correct": 1,
       "explain": "Terskelen for å kjøpe blir lavere."
@@ -328,9 +328,9 @@
         "text": "Hvordan kan plassering i butikken påvirke kjøp?",
         "options": [
           "Gjennom persepsjon – det vi legger merke til",
-          "Den har ingen effekt",
-          "Den endrer prisen",
-          "Den gjør varen ulovlig"
+          "Gjennom sosial påvirkning – hva venner anbefaler",
+          "Gjennom livsfase – hvor gammel kunden er",
+          "Gjennom kjøpslojalitet – hvor ofte kunden handler"
         ],
         "correct": 0,
         "explain": "Varer i øyehøyde blir sett oftere."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvilket etisk spørsmål reiser kunnskap om forbrukeratferd?",
         "options": [
-          "Om varene er tunge",
-          "Om butikken er stor",
-          "Når påvirkning blir til manipulasjon",
-          "Om kunden har bil"
+          "Om emballasjen passer til produktets målgruppe",
+          "Om butikkens åpningstider passer kundenes handlevaner",
+          "Om påvirkning blir til manipulasjon",
+          "Om betalingsløsningen fungerer på mobiltelefoner"
         ],
         "correct": 2,
         "explain": "Og hvordan markedsføring påvirker overforbruk."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

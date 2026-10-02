@@ -100,9 +100,9 @@
       "id": "q01",
       "text": "Hvorfor heter det «au Canada», men «en Norvège»?",
       "options": [
-        "Fordi Canada er større",
-        "Fordi Canada er lenger unna",
-        "Det er tilfeldig",
+        "Fordi «Canada» er hunkjønn og «Norvège» hankjønn",
+        "Fordi «Canada» er flertall og «Norvège» entall",
+        "Fordi «Canada» begynner med vokal og «Norvège» med konsonant",
         "Fordi «Canada» er hankjønn og «Norvège» hunkjønn"
       ],
       "correct": 3,
@@ -112,10 +112,10 @@
       "id": "q02",
       "text": "Hvordan ber du om et dobbeltrom for to netter?",
       "options": [
-        "J'ai deux chambres.",
-        "Où est la chambre ?",
+        "Je voudrais réserver une chambre simple pour deux nuits.",
+        "Je voudrais réserver une chambre double pour trois nuits.",
         "Je voudrais réserver une chambre double pour deux nuits.",
-        "La chambre est double."
+        "Je voudrais réserver deux chambres pour une nuit."
       ],
       "correct": 2,
       "explain": "«une nuit» – flertall «deux nuits»."
@@ -125,9 +125,9 @@
       "text": "Hvordan sier du «Jeg har hodepine»?",
       "options": [
         "J'ai mal à la tête.",
-        "Je suis tête.",
-        "Ma tête est malade.",
-        "J'ai la tête mal."
+        "J'ai mal au ventre.",
+        "J'ai mal au dos.",
+        "J'ai mal à l'oreille."
       ],
       "correct": 0,
       "explain": "«avoir mal à» + kroppsdel."
@@ -136,10 +136,10 @@
       "id": "q04",
       "text": "Hva er riktig form av «devoir» med «je»?",
       "options": [
-        "je devoir",
+        "je doit",
         "je devons",
         "je dois",
-        "je doit"
+        "je devez"
       ],
       "correct": 2,
       "explain": "«je dois», «tu dois», «il doit»."
@@ -148,9 +148,9 @@
       "id": "q05",
       "text": "Hvordan lager du futur proche?",
       "options": [
-        "avoir + partisipp",
-        "être + infinitiv",
-        "infinitiv + -ait",
+        "avoir + infinitiv",
+        "être + participe passé",
+        "faire + infinitiv",
         "aller + infinitiv"
       ],
       "correct": 3,
@@ -160,9 +160,9 @@
       "id": "q06",
       "text": "Hva betyr «Si j'ai de bonnes notes, j'irai à l'université»?",
       "options": [
-        "Jeg har gode karakterer på universitetet",
-        "Jeg gikk på universitetet",
-        "Universitetet er bra",
+        "Hvis jeg får dårlige karakterer, skal jeg gå på universitetet",
+        "Fordi jeg får gode karakterer, skal jeg gå på universitetet",
+        "Selv om jeg får gode karakterer, skal jeg gå på universitetet",
         "Hvis jeg får gode karakterer, skal jeg gå på universitetet"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q07",
       "text": "Hva betyr «D'un côté … de l'autre côté …»?",
       "options": [
-        "Først … til slutt …",
+        "Først kommer én ting … til slutt kommer en annen …",
         "På den ene siden … på den andre siden …",
-        "Både … og …",
-        "Enten … eller …"
+        "Både den ene tingen … og den andre tingen …",
+        "Enten velger man én ting … eller man velger den andre …"
       ],
       "correct": 1,
       "explain": "Nyttig når du drøfter fordeler og ulemper."
@@ -184,10 +184,10 @@
       "id": "q08",
       "text": "Hva er «faux amis»?",
       "options": [
-        "Uvenner",
-        "Falske profiler",
-        "Ord som ligner et ord på et annet språk, men betyr noe annet",
-        "Venner på nett"
+        "Ord som ligner på et ord på et annet språk og betyr det samme",
+        "Ord som uttales likt på to språk, men skrives på ulike måter",
+        "Ord som ligner på et ord på et annet språk, men betyr noe annet",
+        "Ord som skrives likt på to språk, men uttales på ulike måter"
       ],
       "correct": 2,
       "explain": "For eksempel betyr «une librairie» en bokhandel."
@@ -196,10 +196,10 @@
       "id": "q09",
       "text": "Hva kalles den fransk-belgiske tegneserietradisjonen?",
       "options": [
-        "le manga",
+        "le dessin animé",
         "la bande dessinée",
-        "le roman",
-        "le comic"
+        "la peinture classique",
+        "le théâtre musical"
       ],
       "correct": 1,
       "explain": "Den kalles ofte «BD» (bédé).",
@@ -209,9 +209,9 @@
       "id": "q10",
       "text": "Hva betyr «Ça me plaît»?",
       "options": [
-        "Det er dyrt",
-        "Det gjør vondt",
-        "Jeg forstår ikke",
+        "Jeg kjøper det",
+        "Jeg forstår det",
+        "Jeg trenger det",
         "Jeg liker det"
       ],
       "correct": 3,
@@ -221,10 +221,10 @@
       "id": "q11",
       "text": "Hva betyr «On devrait moins prendre la voiture»?",
       "options": [
-        "Man må kjøre mer bil",
-        "Man kjører bil hver dag",
+        "Man burde ta bilen oftere",
+        "Man burde kjøpe en mindre bil",
         "Man burde kjøre mindre bil",
-        "Bilen er ødelagt"
+        "Man burde bruke mindre bensin"
       ],
       "correct": 2,
       "explain": "«on devrait» betyr man burde."
@@ -234,9 +234,9 @@
       "text": "Hva er «la laïcité»?",
       "options": [
         "Skillet mellom religion og stat i Frankrike",
-        "En fransk høytid",
-        "En type skole",
-        "Et politisk parti"
+        "Skillet mellom president og parlament i Frankrike",
+        "Skillet mellom regioner og kommuner i Frankrike",
+        "Skillet mellom regjering og domstoler i Frankrike"
       ],
       "correct": 0,
       "explain": "Prinsippet ble slått fast i en lov fra 1905.",
@@ -248,8 +248,8 @@
       "options": [
         "Vindkraft",
         "Atomkraft",
-        "Kull",
-        "Vannkraft"
+        "Solkraft",
+        "Gasskraft"
       ],
       "correct": 1,
       "explain": "Norge får derimot mesteparten av strømmen fra vannkraft.",
@@ -364,7 +364,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -401,9 +401,9 @@
         "text": "Hva er futur simple av «avoir» med «je»?",
         "options": [
           "j'aurai",
-          "j'avrai",
-          "j'avoirai",
-          "j'ai"
+          "j'avais",
+          "j'ai",
+          "je serai"
         ],
         "correct": 0,
         "explain": "«avoir» har stammen aur- i futur simple."
@@ -421,9 +421,9 @@
         "text": "Hva betyr «Le livre parle d'une fille»?",
         "options": [
           "Boka handler om en jente",
-          "En jente leser boka",
-          "Boka er skrevet av en jente",
-          "Jenta snakker"
+          "Une fille lit le livre",
+          "Une fille écrit un livre",
+          "Une fille parle du livre"
         ],
         "correct": 0,
         "explain": "«parler de» betyr å handle om."
@@ -513,12 +513,91 @@
           "Foreslår kollektivtransport eller mindre bilbruk som miljøtiltak."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Un élève vient de terminer le collège et s’intéresse à une formation professionnelle. Explique deux parcours de formation possibles en France et indique comment fonctionne l’apprentissage.",
+        "fasit": "Après le collège, on peut aller au lycée, par exemple au lycée professionnel, et passer le bac. On peut aussi suivre un apprentissage, où l’on apprend un métier dans une entreprise. Après le bac, on peut continuer à l’université ou dans une grande école.",
+        "kriterier": [
+          "Indiquer une voie par le lycée après le collège et mentionner le bac.",
+          "Expliquer que l’apprentissage permet d’apprendre dans une entreprise."
+        ],
+        "id": "s09",
+        "niva": "over-niva"
+      },
+      {
+        "text": "Un ami lit un article en français et ne comprend pas le mot « librairie ». Un outil de traduction lui dit que cela signifie « bibliothèque ». Explique ce que le mot veut dire et comment ton ami peut vérifier le sens sans faire confiance aveuglément à la traduction automatique.",
+        "fasit": "Une librairie est un magasin où l’on vend des livres, pas une bibliothèque. Ton ami peut regarder les mots autour pour comprendre le contexte ou chercher le mot dans un dictionnaire. La traduction automatique peut faire des erreurs.",
+        "kriterier": [
+          "Expliquer que « librairie » signifie une bokhandel, pas une bibliothèque.",
+          "Mentionner le contexte ou le dictionnaire comme moyen de vérifier le sens.",
+          "Dire que la traduction automatique peut se tromper."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Un supermarché en France veut jeter les aliments invendus et distribuer des sacs en plastique à usage unique. Explique quelles règles françaises concernent ces deux pratiques et comment elles limitent les déchets.",
+        "fasit": "Les grands supermarchés doivent donner les aliments qu’ils n’ont pas vendus au lieu de les jeter. Les sacs en plastique à usage unique sont interdits dans les magasins français. Ces règles aident à réduire le gaspillage et les déchets.",
+        "kriterier": [
+          "Indiquer que les grands magasins doivent donner les aliments invendus plutôt que les jeter.",
+          "Indiquer que les sacs en plastique à usage unique sont interdits dans les magasins."
+        ],
+        "id": "s11",
+        "niva": "over-niva"
+      },
+      {
+        "text": "Un adolescent passe beaucoup de temps devant les écrans et se sent fatigué. Écris des conseils qui relient la réduction du temps d’écran à d’autres habitudes saines.",
+        "fasit": "Il faut limiter les écrans et dormir assez. Il devrait aussi faire du sport et manger équilibré pour avoir une vie plus saine.",
+        "kriterier": [
+          "Conseiller de limiter le temps d’écran.",
+          "Relier les conseils à au moins une autre habitude saine, comme dormir assez, faire du sport ou manger équilibré."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Explique le lien entre les débuts du cinéma et un événement cinématographique connu en France. Donne l’année de la première projection publique des frères Lumière et nomme le prix principal du Festival de Cannes.",
+        "fasit": "Les frères Lumière ont montré un film à un public payant pour la première fois à Paris en 1895. Aujourd’hui, le Festival de Cannes est un événement célèbre du cinéma, et son prix principal s’appelle la Palme d’or.",
+        "kriterier": [
+          "Indiquer Paris et l’année 1895 pour la première projection des frères Lumière à un public payant.",
+          "Nommer la Palme d’or comme prix principal du Festival de Cannes."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Compare Stromae et Céline Dion en indiquant d’où ils viennent. Ajoute un fait sur la carrière de l’un des deux artistes.",
+        "fasit": "Stromae vient de Belgique et mélange la musique électronique et le rap. Céline Dion vient du Québec, au Canada, et elle a gagné l’Eurovision pour la Suisse en 1988.",
+        "kriterier": [
+          "Associer Stromae à la Belgique et Céline Dion au Québec, au Canada.",
+          "Donner un fait exact sur leur musique ou la carrière de l’un d’eux."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Explique deux règles appliquées dans les écoles publiques en France : l’une liée à la laïcité et l’autre à l’usage des téléphones portables.",
+        "fasit": "En France, les élèves ne peuvent pas porter de signes religieux ostensibles dans les écoles publiques, en lien avec la laïcité. Depuis 2018, l’utilisation du téléphone portable est interdite dans les écoles et les collèges.",
+        "kriterier": [
+          "Relier la laïcité à l’interdiction des signes religieux ostensibles dans les écoles publiques.",
+          "Indiquer que l’usage du téléphone est interdit dans les écoles et les collèges depuis 2018."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "À la réception d’un hôtel, demande une chambre double pour deux nuits et demande si le petit-déjeuner est compris.",
+        "fasit": "Je voudrais réserver une chambre double pour deux nuits. Le petit-déjeuner est compris ?",
+        "kriterier": [
+          "Demander une chambre double pour deux nuits.",
+          "Demander si le petit-déjeuner est compris."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

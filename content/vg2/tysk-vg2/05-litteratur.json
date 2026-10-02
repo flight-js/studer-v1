@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva kjennetegner en Kurzgeschichte?",
       "options": [
-        "Lang tekst med mange personer",
-        "Kort tekst, åpen begynnelse og slutt og et vendepunkt",
-        "Rimet dikt",
-        "Historisk roman"
+        "Lang tekst med flere handlinger og mange personer",
+        "Kort tekst med åpen start, åpen slutt og vendepunkt",
+        "Kort tekst med fast rim, strofer og regelmessig rytme",
+        "Lang tekst med historisk miljø og flere generasjoner"
       ],
       "correct": 1,
       "explain": "Sjangeren ble viktig etter andre verdenskrig."
@@ -93,9 +93,9 @@
       "text": "Hva gjør kona i «Das Brot» neste kveld?",
       "options": [
         "Hun gir mannen en av sine egne brødskiver",
-        "Hun kaster mannen ut",
-        "Hun forteller naboene alt",
-        "Hun kjøper mer brød"
+        "Hun deler den siste brødskiven med naboen",
+        "Hun gjemmer brødet bort til neste morgen",
+        "Hun ber mannen kjøpe et ekstra brød dagen etter"
       ],
       "correct": 0,
       "explain": "Handlingen viser kjærlighet og omsorg.",
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva ville Brecht oppnå med fremmedgjøringseffekten?",
       "options": [
-        "At publikum skulle gråte",
-        "At publikum skulle sovne",
-        "At publikum skulle tenke kritisk",
-        "At skuespillerne skulle gjemme seg"
+        "At publikum skulle leve seg inn i handlingen",
+        "At publikum skulle føle med hovedpersonen underveis",
+        "At publikum skulle tenke kritisk under forestillingen",
+        "At publikum skulle glemme at det var teater"
       ],
       "correct": 2,
       "explain": "Publikum skulle ikke bare leve seg inn i handlingen."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hva betyr «der Wendepunkt»?",
       "options": [
-        "begynnelsen",
-        "slutten",
-        "fortelleren",
+        "høydepunktet",
+        "utgangspunktet",
+        "avslutningen",
         "vendepunktet"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Når ble «Das Brot» skrevet?",
       "options": [
         "1946",
-        "1914",
-        "1989",
-        "1812"
+        "1945",
+        "1947",
+        "1949"
       ],
       "correct": 0,
       "explain": "Etterkrigstiden var preget av matmangel.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvordan sier du «Fortellingen handler om fattigdom»?",
       "options": [
-        "Die Geschichte ist Armut.",
+        "In der Geschichte geht es um Reichtum.",
         "In der Geschichte geht es um Armut.",
-        "Die Geschichte macht Armut.",
-        "Armut handelt die Geschichte."
+        "In der Geschichte geht es um Arbeit.",
+        "In der Geschichte geht es um Freundschaft."
       ],
       "correct": 1,
       "explain": "es geht um = det handler om."
@@ -154,13 +154,13 @@
       "id": "q07",
       "text": "Hva er en god lesestrategi for vanskelige tekster?",
       "options": [
-        "Slå opp hvert eneste ord",
-        "Hoppe over tittelen",
+        "Slå opp ukjente ord før du leser hele teksten",
+        "Lese teksten ord for ord uten å bruke sammenhengen",
         "Skumlese først og gjette ord ut fra sammenhengen",
-        "Lese baklengs"
+        "Begynne med å oversette hvert ord til norsk"
       ],
       "correct": 2,
-      "explain": "Slå bare opp de viktigste ordene."
+      "explain": "Skumlesing gir oversikt, og sammenhengen kan hjelpe med ukjente ord."
     },
     {
       "id": "q08",
@@ -180,9 +180,9 @@
       "text": "Hva betyr «die Stimmung»?",
       "options": [
         "stemningen",
-        "stemmen",
+        "fortellerstemmen",
         "stillheten",
-        "stedet"
+        "situasjonen"
       ],
       "correct": 0,
       "explain": "Die Stimmung ist traurig."
@@ -197,7 +197,7 @@
         "Die Verwandlung"
       ],
       "correct": 1,
-      "explain": "Faust er av Goethe, Die Verwandlung av Kafka.",
+      "explain": "Brecht skrev dramaer som «Mutter Courage und ihre Kinder».",
       "niva": "eksempel"
     }
   ],
@@ -326,8 +326,8 @@
         "options": [
           "bipersonen",
           "hovedpersonen",
-          "forfatteren",
-          "fortelleren"
+          "fortelleren",
+          "motstanderen"
         ],
         "correct": 1,
         "explain": "Haupt = hoved."
@@ -338,9 +338,9 @@
         "text": "Hva betyr «Die Geschichte hat mich berührt»?",
         "options": [
           "Fortellingen rørte meg.",
-          "Fortellingen kjedet meg.",
-          "Fortellingen var lang.",
-          "Fortellingen var morsom."
+          "Fortellingen skremte meg.",
+          "Fortellingen overrasket meg.",
+          "Fortellingen forvirret meg."
         ],
         "correct": 0,
         "explain": "berühren = røre."
@@ -351,9 +351,9 @@
         "text": "Hva betyr «das offene Ende»?",
         "options": [
           "den lykkelige slutten",
-          "det åpne vinduet",
+          "den tragiske slutten",
           "den åpne slutten",
-          "den åpne døra"
+          "den overraskende slutten"
         ],
         "correct": 2,
         "explain": "Leseren må tolke hva som skjer videre."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

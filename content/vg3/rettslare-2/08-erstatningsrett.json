@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvilke tre grunnvilkår må være oppfylt for erstatning?",
       "options": [
-        "Skyld, straff og dom",
+        "Skyld, økonomisk tap og årsakssammenheng",
         "Ansvarsgrunnlag, økonomisk tap og årsakssammenheng",
-        "Forsikring, avtale og kvittering",
-        "Politianmeldelse, vitner og bevis"
+        "Ansvarsgrunnlag, forsikringsdekning og årsakssammenheng",
+        "Ansvarsgrunnlag, økonomisk tap og straffedom"
       ],
       "correct": 1,
       "explain": "Alle tre må være oppfylt."
@@ -89,9 +89,9 @@
       "text": "Hva er culpa?",
       "options": [
         "Skyldansvar ved uaktsomhet eller forsett",
-        "Ansvar uten skyld",
-        "En type straff",
-        "En forsikring"
+        "Ansvar uten krav om skyld",
+        "Straffansvar ved uaktsomhet eller forsett",
+        "Forsikringsansvar ved skade på eiendom"
       ],
       "correct": 0,
       "explain": "Det vanligste ansvarsgrunnlaget."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er objektivt ansvar?",
       "options": [
-        "Ansvar bare ved forsett",
-        "Ansvar for barn",
+        "Ansvar ved uaktsomhet eller forsett",
+        "Ansvar for skade voldt av barn",
         "Ansvar uten skyld",
-        "Ansvar bare for staten"
+        "Arbeidsgivers ansvar for ansattes handlinger"
       ],
       "correct": 2,
       "explain": "For eksempel etter bilansvarsloven."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva betyr adekvat årsakssammenheng?",
       "options": [
-        "At skaden var tilfeldig",
-        "At skadevolderen er rik",
-        "At skaden skjedde i tjenesten",
+        "At tapet er en uvanlig følge av handlingen",
+        "At tapet er en direkte følge av handlingen",
+        "At skadevolderen ønsket at tapet skulle oppstå",
         "At tapet er en påregnelig følge av handlingen"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvem svarer for skade en ansatt volder uaktsomt i tjenesten?",
       "options": [
-        "Arbeidsgiveren",
-        "Bare den ansatte",
-        "Staten",
-        "Ingen"
+        "Arbeidsgiveren til den ansatte",
+        "Forsikringsselskapet til den ansatte",
+        "Fagforeningen til den ansatte",
+        "Kommunen der skaden skjedde"
       ],
       "correct": 0,
       "explain": "Skadeserstatningsloven § 2-1."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva kan skje hvis skadelidte selv har vært uaktsom?",
       "options": [
-        "Erstatningen dobles",
+        "Erstatningen kan økes fordi skadelidte har medvirket",
         "Erstatningen kan reduseres eller falle bort",
-        "Skadevolderen straffes",
-        "Ingenting"
+        "Skadelidte må betale erstatning til skadevolderen",
+        "Skadevolderen kan få redusert straff for skadelidtes medvirkning"
       ],
       "correct": 1,
       "explain": "Medvirkning etter § 5-1."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er oppreisning?",
       "options": [
-        "Erstatning for tapt inntekt",
-        "En type forsikring",
+        "Erstatning for økonomisk tap",
+        "Dekning av utgifter etter en skade",
         "Kompensasjon for ikke-økonomisk skade",
-        "En bot"
+        "En bot som betales til staten"
       ],
       "correct": 2,
       "explain": "Krever som hovedregel forsett eller grov uaktsomhet."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er formålet med prevensjon i erstatningsretten?",
       "options": [
-        "At skadelidte blir rik",
-        "At staten får inntekter",
-        "At forsikringsselskaper tjener penger",
+        "At erstatning gjør skadelidte økonomisk bedre stilt",
+        "At skadevolderen blir straffet for handlingen",
+        "At forsikringsselskapene får dekket sine utgifter",
         "At risikoen for å betale gjør folk forsiktige"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva er lemping?",
       "options": [
         "At erstatningen settes ned fordi den ville virke urimelig tungt",
-        "At erstatningen økes",
-        "At saken henlegges",
-        "At forsikringen betaler"
+        "At erstatningen settes opp fordi skadelidte har stort tap",
+        "At erstatningssaken avsluttes uten at ansvar vurderes",
+        "At forsikringsselskapet overtar betalingsansvaret for skadevolderen"
       ],
       "correct": 0,
       "explain": "Skadeserstatningsloven § 5-2."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Kan barn under 18 år bli erstatningsansvarlige?",
       "options": [
-        "Nei, aldri",
+        "Nei, fordi foreldre har ansvaret for skader barn volder",
         "Ja, så langt det er rimelig ut fra blant annet alder og modenhet",
-        "Bare hvis de er over 15",
-        "Bare foreldrene kan bli ansvarlige"
+        "Ja, når barnet har fylt 15 år, etter reglene om straffansvar",
+        "Ja, når foreldrene har samtykket til erstatningskravet"
       ],
       "correct": 1,
       "explain": "Skadeserstatningsloven § 1-1."
@@ -312,7 +312,7 @@
           "Straffeloven",
           "Skadeserstatningsloven",
           "Forvaltningsloven",
-          "Arbeidsmiljøloven"
+          "Bilansvarsloven"
         ],
         "correct": 1,
         "explain": "Fra 1969."
@@ -323,9 +323,9 @@
         "text": "Hvilket spørsmål stilles i culpavurderingen?",
         "options": [
           "Ville en fornuftig person ha handlet annerledes?",
-          "Er skadevolderen rik?",
-          "Har skadelidte forsikring?",
-          "Skjedde skaden om natten?"
+          "Hadde skadevolderen råd til å erstatte skaden?",
+          "Var skadelidte forsikret da skaden oppsto?",
+          "Var handlingen forbudt etter straffeloven?"
         ],
         "correct": 0,
         "explain": "Standarden for aktsomhet."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva kalles det når forsikringsselskapet krever pengene tilbake fra skadevolderen?",
         "options": [
-          "Lemping",
-          "Medvirkning",
+          "Avkortning",
+          "Egenandel",
           "Regress",
-          "Oppreisning"
+          "Medvirkning"
         ],
         "correct": 2,
         "explain": "Gjelder i noen tilfeller.",
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

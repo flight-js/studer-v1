@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva er «das Handy» på tysk?",
       "options": [
-        "En hanske",
-        "Et verktøy",
+        "Nettbrettet",
+        "Datamaskinen",
         "Mobiltelefonen",
-        "Et håndkle"
+        "Fjernkontrollen"
       ],
       "correct": 2,
       "explain": "Ordet ser engelsk ut, men brukes bare slik på tysk."
@@ -95,9 +95,9 @@
       "text": "Hva betyr «teilen» på sosiale medier?",
       "options": [
         "Å dele",
-        "Å slette",
-        "Å like",
-        "Å kommentere"
+        "Å publisere",
+        "Å laste ned",
+        "Å abonnere"
       ],
       "correct": 0,
       "explain": "«teilen» betyr egentlig å dele opp."
@@ -106,9 +106,9 @@
       "id": "q03",
       "text": "Hvordan innleder du en mening på tysk?",
       "options": [
-        "Guten Tag, …",
-        "Viele Grüße, …",
-        "Es war einmal …",
+        "Zum Beispiel …",
+        "Am Anfang …",
+        "Auf der anderen Seite …",
         "Meiner Meinung nach …"
       ],
       "correct": 3,
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "Hva betyr «Einerseits … andererseits …»?",
       "options": [
-        "Først … til slutt …",
+        "Først den ene … til slutt den andre …",
         "På den ene siden … på den andre siden …",
-        "Både … og …",
-        "Enten … eller …"
+        "Både det ene … og det andre …",
+        "Enten det ene … eller det andre …"
       ],
       "correct": 1,
       "explain": "Uttrykket er nyttig når du drøfter fordeler og ulemper."
@@ -130,10 +130,10 @@
       "id": "q05",
       "text": "Hvordan kan du forstå et langt sammensatt ord som «Handybildschirm»?",
       "options": [
-        "Dele det opp i kjente deler: Handy + Bildschirm",
-        "Hoppe over det",
-        "Slå opp hver bokstav",
-        "Gjette tilfeldig"
+        "Del det i kjente deler: Handy + Bildschirm",
+        "Slå opp hele ordet uten å dele det",
+        "Del det i stavelser i stedet for ord",
+        "Bruk bare første delen til å gjette"
       ],
       "correct": 0,
       "explain": "Tysk har mange lange sammensatte ord."
@@ -142,9 +142,9 @@
       "id": "q06",
       "text": "Hva er «der Datenschutz»?",
       "options": [
-        "Datamaskinen",
-        "Et dataspill",
-        "En app",
+        "Datatilgang",
+        "Datamaskin",
+        "Dataprogram",
         "Personvern"
       ],
       "correct": 3,
@@ -155,9 +155,9 @@
       "text": "Hva kalles det når du leser raskt gjennom en tekst for å få oversikt?",
       "options": [
         "Nærlesing",
-        "Oversetting",
+        "Detaljlesing",
         "Skumlesing",
-        "Diktat"
+        "Søkelesing"
       ],
       "correct": 2,
       "explain": "Skumlesing er et godt første steg med autentiske tekster."
@@ -166,10 +166,10 @@
       "id": "q08",
       "text": "Hva er «Jugendwort des Jahres»?",
       "options": [
-        "En ungdomsavis",
+        "En tysk ungdomsavis som utgis hvert år",
         "Årets ungdomsord, som kåres hvert år",
-        "En ungdomsklubb",
-        "En skoleprøve"
+        "En ungdomspris som deles ut hvert år",
+        "Et nytt ungdomsspråk som brukes hvert år"
       ],
       "correct": 1,
       "explain": "Mange av ordene er lånt fra engelsk.",
@@ -180,9 +180,9 @@
       "text": "Hvorfor kan engelsk hjelpe deg når du lærer tysk?",
       "options": [
         "Fordi mange ord ligner, som Haus og house",
-        "Fordi språkene er helt like",
-        "Fordi tysk ikke har egne ord",
-        "Det hjelper ikke"
+        "Fordi tysk og engelsk har samme grammatikk og uttale",
+        "Fordi engelske ord kan oversettes direkte til tysk",
+        "Fordi tysk bruker engelske ord i de fleste setninger"
       ],
       "correct": 0,
       "explain": "Tysk, engelsk og norsk er i slekt."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva bør du tenke på når du bruker maskinoversettelse?",
       "options": [
-        "At den alltid er riktig",
-        "At den kan erstatte læring",
+        "At den gjengir ord for ord, så resultatet passer til sammenhengen",
+        "At den finner riktig oversettelse, så du slipper å kontrollere teksten",
         "At den kan gjøre feil, så du må vurdere resultatet kritisk",
-        "At den bare virker på engelsk"
+        "At den forklarer grammatikken, så du trenger ikke lære reglene selv"
       ],
       "correct": 2,
       "explain": "Maskinoversettelse kan misforstå sammenhengen."
@@ -342,9 +342,9 @@
         "text": "Hva betyr «Ich verbringe zwei Stunden pro Tag am Handy»?",
         "options": [
           "Jeg bruker to timer om dagen på mobilen",
-          "Jeg har to mobiler",
-          "Mobilen koster to euro",
-          "Jeg ringer to ganger om dagen"
+          "Jeg ringer fra mobilen i to timer hver dag",
+          "Jeg bruker mobilen i to timer hver uke",
+          "Jeg har brukt mobilen i to timer i dag"
         ],
         "correct": 0,
         "explain": "«verbringen» betyr å tilbringe."
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hva er «Cybermobbing»?",
         "options": [
-          "Et dataspill",
-          "En nettbutikk",
+          "Svindel på internett",
+          "Et virus på mobilen",
           "Mobbing på nett",
-          "Et virus"
+          "Salg av varer på nett"
         ],
         "correct": 2,
         "explain": "Ordet brukes på samme måte som på norsk."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

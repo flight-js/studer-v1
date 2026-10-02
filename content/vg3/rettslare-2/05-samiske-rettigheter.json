@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva sier Grunnloven § 108?",
       "options": [
-        "At samisk er eneste offisielle språk",
+        "At staten skal innføre samisk som hovedspråk i offentlige tjenester",
         "At staten skal legge til rette for samisk språk, kultur og samfunnsliv",
-        "At samer ikke kan stemme",
-        "At Sametinget er lovgivende"
+        "At Sametinget skal få myndighet til å vedta lover om samisk kultur",
+        "At samisk skal være felles arbeidsspråk i norske kommuner"
       ],
       "correct": 1,
       "explain": "Innført i 1988 som § 110 a."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva verner SP artikkel 27?",
       "options": [
-        "Retten til utdanning",
-        "Retten til eiendom",
-        "Minoriteters rett til å utøve sin kultur",
-        "Ytringsfriheten"
+        "Retten til å få utdanning på eget språk",
+        "Retten til å eie privat eiendom",
+        "Minoriteteters rett til å utøve sin kultur",
+        "Retten til å ytre politiske meninger"
       ],
       "correct": 2,
       "explain": "Omfatter reindrift."
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva kom Høyesterett fram til i Fosen-saken?",
       "options": [
-        "At vindkraftkonsesjonene var ugyldige fordi de krenket SP artikkel 27",
-        "At reindrift ikke er kultur",
-        "At staten skulle betale bøter til EU",
-        "At turbinene var lovlige"
+        "At vindkraftvedtakene var ugyldige fordi de krenket SP artikkel 27",
+        "At reindrift ikke regnes som en del av samisk kultur",
+        "At vindkraftvedtakene var gyldige fordi konsesjonene var gitt",
+        "At Høyesterett godkjente vindkraften etter at reindriften fikk erstatning"
       ],
       "correct": 0,
       "explain": "Storkammer i 2021."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva gjør Finnmarksloven?",
       "options": [
-        "Innfører samisk som skolespråk",
+        "Overfører det meste av grunnen i Troms til Finnmarkseiendommen",
         "Overfører det meste av grunnen i Finnmark til Finnmarkseiendommen",
-        "Oppretter Sametinget",
-        "Forbyr reindrift"
+        "Gir Sametinget eiendomsrett til all grunn i Finnmark",
+        "Fastsetter at reindrift skal være tillatt i hele Finnmark"
       ],
       "correct": 1,
       "explain": "Fra 2005."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvem er en nasjonal minoritet, men ikke urfolk?",
       "options": [
-        "Samene",
+        "Samer",
         "Nordmenn",
         "Kvener/norskfinner",
-        "Inuitter på Grønland"
+        "Grønlendere"
       ],
       "correct": 2,
       "explain": "Også skogfinner, jøder, rom og romanifolk/tatere.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva innebærer konsultasjonsplikten?",
       "options": [
-        "At samer må betale skatt",
-        "At Sametinget kan nedlegge veto",
-        "At bare staten kan bestemme",
+        "At Sametinget kan stanse vedtak som berører samiske interesser direkte",
+        "At myndighetene må følge Sametingets råd dersom partene er uenige",
+        "At konsultasjon skjer etter at myndighetene har bestemt sakens utfall",
         "At myndighetene skal konsultere samiske interesser i saker som berører dem direkte"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hva må man gjøre for å stemme ved sametingsvalg?",
       "options": [
         "Stå i samemanntallet",
-        "Bo i Finnmark",
-        "Snakke flytende samisk",
-        "Eie reinsdyr"
+        "Være bosatt i Finnmark",
+        "Beherske samisk muntlig",
+        "Være registrert som reindriftsutøver"
       ],
       "correct": 0,
       "explain": "Manntallet har egne kriterier.",
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hva gjør Utmarksdomstolen?",
         "options": [
-          "Dømmer i straffesaker",
+          "Behandler straffesaker om lovbrudd begått i Finnmark",
           "Avgjør tvister om bruks- og eierrettigheter i Finnmark",
-          "Velger Sametinget",
-          "Gir vindkraftkonsesjoner"
+          "Fastsetter hvem som velges inn i Sametinget",
+          "Behandler søknader om vindkraftkonsesjoner i Finnmark"
         ],
         "correct": 1,
         "explain": "Etter Finnmarksloven.",
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hvilke hensyn veies ofte mot hverandre i samiske rettighetssaker?",
         "options": [
-          "Grønn energi og mineraler mot reindrift og kultur",
-          "Skatt mot toll",
-          "Skole mot helse",
-          "Sport mot kultur"
+          "Grønn energi og mineralutvinning mot reindrift og samisk kultur",
+          "Skolebygg og helsetjenester mot idrettsanlegg og kulturtilbud",
+          "Turisme og samferdsel mot skatter og tollavgifter",
+          "Boligbygging og næringsliv mot skolegang og helsetilbud"
         ],
         "correct": 0,
         "explain": "Både juridisk og politisk."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

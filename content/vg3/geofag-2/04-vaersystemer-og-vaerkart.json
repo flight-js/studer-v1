@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva slags vær gir en kaldfront ofte?",
       "options": [
-        "Langvarig, jevn nedbør",
+        "Langvarig, jevn nedbør og temperaturstigning",
         "Kraftige byger og temperaturfall",
-        "Tåke",
-        "Varmt og tørt vær"
+        "Tåke og svak vind uten temperaturendring",
+        "Oppholdsvær, svak vind og temperaturstigning"
       ],
       "correct": 1,
       "explain": "Varm luft løftes bratt."
@@ -90,9 +90,9 @@
       "text": "Hvem utviklet polarfrontteorien?",
       "options": [
         "Bergensskolen med Vilhelm Bjerknes",
-        "Isaac Newton",
-        "Charles Darwin",
-        "Albert Einstein"
+        "Stockholmskolen med Carl-Gustaf Rossby",
+        "Wienerskolen med Alfred Wegener",
+        "Bergensskolen med Fridtjof Nansen"
       ],
       "correct": 0,
       "explain": "Tidlig på 1900-tallet.",
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva kreves for at en tropisk syklon skal dannes?",
       "options": [
-        "Kaldt hav",
-        "Tørr luft",
+        "Kaldt hav på omtrent 20 °C eller mindre",
+        "Tørr luft over et hav på omtrent 26 °C",
         "Varmt hav på omtrent 26 °C eller mer",
-        "Høytrykk"
+        "Høyt lufttrykk over et hav på omtrent 26 °C"
       ],
       "correct": 2,
       "explain": "Energien kommer fra fordamping."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er fønvind?",
       "options": [
-        "Kald vind fra havet",
-        "Vind i en orkan",
-        "Vind rundt høytrykk",
+        "Kald og fuktig vind på lesiden av fjell",
+        "Varm og tørr vind på vindsiden av fjell",
+        "Kald og tørr vind på vindsiden av fjell",
         "Varm og tørr vind på lesiden av fjell"
       ],
       "correct": 3,
@@ -128,32 +128,32 @@
       "options": [
         "Med halvsirkler",
         "Med trekanter",
-        "Med stjerner",
-        "Med piler"
+        "Med halvsirkler og trekanter",
+        "Med røde trekanter"
       ],
       "correct": 0,
-      "explain": "Kaldfronter har trekanter."
+      "explain": "Varmfronten markeres med halvsirkler som viser frontens bevegelsesretning."
     },
     {
       "id": "q06",
       "text": "Når blåser sjøbris?",
       "options": [
-        "Om natta",
+        "Om natta når land er varmere enn sjøen",
         "Om dagen når land er varmere enn sjøen",
-        "Bare om vinteren",
-        "Aldri"
+        "Om dagen når sjøen er varmere enn land",
+        "Om natta når sjøen er varmere enn land"
       ],
       "correct": 1,
-      "explain": "Om natta kan det bli landbris."
+      "explain": "Om dagen varmes land raskere opp enn sjøen, og luft strømmer fra sjøen mot land."
     },
     {
       "id": "q07",
       "text": "Hva er okklusjon?",
       "options": [
-        "Et høytrykk",
-        "En orkan",
+        "At varmfronten tar igjen kaldfronten",
+        "At to kaldfronter møtes ved et lavtrykk",
         "At kaldfronten tar igjen varmfronten",
-        "En type sky"
+        "At en varmfront stanser over et høytrykk"
       ],
       "correct": 2,
       "explain": "Lavtrykket svekkes."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er monsun?",
       "options": [
-        "En type orkan",
-        "En lokal vind",
-        "En havstrøm",
+        "Vinder som skifter styrke gjennom døgnet",
+        "Vinder som blåser fra hav mot land hver dag",
+        "Vinder som holder samme retning gjennom året",
         "Vinder som skifter retning med årstidene"
       ],
       "correct": 3,
@@ -175,21 +175,21 @@
       "text": "Hva slags luft er maritim luft?",
       "options": [
         "Fuktig luft dannet over hav",
-        "Tørr luft over land",
-        "Luft i høyden",
-        "Luft ved polene alltid"
+        "Tørr luft dannet over land",
+        "Kald luft dannet over polområder",
+        "Varm luft dannet over ørkenområder"
       ],
       "correct": 0,
-      "explain": "Kontinental luft er tørr."
+      "explain": "Maritim luft får fuktighet fra havet."
     },
     {
       "id": "q10",
       "text": "Hvorfor svekkes tropiske sykloner over land?",
       "options": [
-        "Fordi de treffer fjell alene",
+        "Fordi de får tilført mer energi fra oppvarmet land",
         "Fordi de mister tilgangen på energi fra varmt hav",
-        "Fordi det blir mørkt",
-        "Fordi det er for mye vann"
+        "Fordi kald luft over land gir dem mer varme",
+        "Fordi høyere lufttrykk over land øker vindstyrken"
       ],
       "correct": 1,
       "explain": "Fordamping driver dem."
@@ -304,13 +304,13 @@
         "type": "flervalg",
         "text": "Hva kalles tropiske sykloner i Stillehavet?",
         "options": [
-          "Orkaner",
-          "Tyfoner",
           "Tornadoer",
-          "Monsuner"
+          "Tyfoner",
+          "Monsuner",
+          "Høytrykk"
         ],
         "correct": 1,
-        "explain": "I Atlanterhavet kalles de orkaner.",
+        "explain": "I Atlanterhavet kalles tropiske sykloner orkaner; i det nordvestlige Stillehavet kalles de tyfoner.",
         "niva": "eksempel"
       },
       {
@@ -319,9 +319,9 @@
         "text": "Hva er fallvinder?",
         "options": [
           "Kald, tung luft som renner ned fjellsider",
-          "Varm luft som stiger",
-          "Vind fra havet",
-          "Vind i orkaner"
+          "Varm, lett luft som stiger opp fjellsider",
+          "Kald, lett luft som blåser opp fjellsider",
+          "Varm, tung luft som renner ned fjellsider"
         ],
         "correct": 0,
         "explain": "Vanlig i fjorder og daler.",
@@ -335,7 +335,7 @@
           "Lufttrykk",
           "Temperatur",
           "Nedbør",
-          "Havstrømmer"
+          "Luftfuktighet"
         ],
         "correct": 2,
         "explain": "Brukes i værvarsling."
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -80,8 +80,8 @@
       "options": [
         "Sammenligning",
         "Besjeling",
-        "Enderim",
-        "Bokstavrim"
+        "Kontrast",
+        "Symbol"
       ],
       "correct": 1,
       "explain": "Vinden får en menneskelig egenskap, å hviske. Det er besjeling."
@@ -91,9 +91,9 @@
       "text": "Hva er forskjellen på en metafor og en sammenligning?",
       "options": [
         "Sammenligningen bruker «som» eller «lik», metaforen gjør det ikke",
-        "Metaforen rimer, sammenligningen ikke",
-        "De er det samme",
-        "Metaforen er alltid lengre"
+        "Metaforen bruker «som» eller «lik», sammenligningen gjør det ikke",
+        "Begge bruker «som» eller «lik», men bare metaforen har rim",
+        "En metafor sammenligner med «som», mens en sammenligning beskriver lyd"
       ],
       "correct": 0,
       "explain": "«Sterk som en bjørn» er sammenligning. «Han er en bjørn» er metafor."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvor mange stavelser har en haiku til sammen?",
       "options": [
-        "14",
-        "12",
+        "15",
+        "16",
         "17",
-        "20"
+        "18"
       ],
       "correct": 2,
       "explain": "En haiku har 5 + 7 + 5 = 17 stavelser.",
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva kalles den som snakker i et dikt?",
       "options": [
-        "Forfatteren",
-        "Fortelleren",
-        "Hovedpersonen",
+        "Den som skrev diktet",
+        "Den som leser diktet",
+        "Hovedpersonen i diktet",
         "Det lyriske jeget"
       ],
       "correct": 3,
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "«Store, stille stjerner» er et eksempel på",
       "options": [
-        "enderim",
+        "kontrast",
         "bokstavrim",
-        "metafor",
-        "ironi"
+        "symbol",
+        "sammenligning"
       ],
       "correct": 1,
       "explain": "Ordene begynner på samme lyd, s. Det kalles bokstavrim eller allitterasjon."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er frie vers?",
       "options": [
-        "Dikt som alle kan lese gratis",
+        "Dikt med fast rytme, men uten rim",
         "Dikt uten fast rim og rytme",
-        "Dikt med 14 linjer",
-        "Dikt skrevet på dialekt"
+        "Dikt med like mange stavelser i hver verselinje",
+        "Dikt der verselinjene ender med samme lyd"
       ],
       "correct": 1,
       "explain": "Frie vers er vanlig i moderne lyrikk og har ingen faste regler for rim og rytme."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er det viktigste å gjøre når du har funnet et virkemiddel i en analyse?",
       "options": [
-        "Tell hvor mange det er",
-        "Skriv det med store bokstaver",
+        "Skriv navnet på virkemiddelet uten å forklare det",
+        "Tell hvor mange virkemidler diktet inneholder",
         "Forklar hvilken effekt det har",
-        "Bytt det ut med et annet ord"
+        "Finn ut hvilken sjanger diktet tilhører"
       ],
       "correct": 2,
       "explain": "En analyse blir god når du forklarer hva virkemidlet gjør med diktet, ikke bare at det finnes."
@@ -165,8 +165,8 @@
       "options": [
         "Symbol",
         "Kontrast",
-        "Rim",
-        "Lydmaling"
+        "Sammenligning",
+        "Bokstavrim"
       ],
       "correct": 0,
       "explain": "Et symbol er et konkret bilde som peker mot noe større og abstrakt."
@@ -175,9 +175,9 @@
       "id": "q09",
       "text": "Hvilket ord er lydmalende?",
       "options": [
-        "stille",
-        "hus",
-        "blå",
+        "gul",
+        "skog",
+        "fin",
         "plask"
       ],
       "correct": 3,
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor kan det være nyttig å kjenne den historiske konteksten til et dikt?",
       "options": [
-        "Fordi dikt aldri kan forstås uten den",
-        "Fordi den kan forklare hvorfor diktet handler om det det gjør",
-        "Fordi alle gamle dikt handler om det samme",
-        "Fordi konteksten bestemmer rimmønsteret"
+        "Fordi tiden bestemmer diktets rim og antall verselinjer",
+        "Fordi tiden kan gi bakgrunn for diktets tema og bilder",
+        "Fordi dikt fra samme tid har likt tema og budskap",
+        "Fordi den avgjør hvilken sjanger diktet må følge"
       ],
       "correct": 1,
       "explain": "Tiden diktet ble skrevet i, kan gi bakgrunn for tema og bilder, selv om diktet også kan leses i lys av vår egen tid."
@@ -341,9 +341,9 @@
         "text": "Hva er en strofe?",
         "options": [
           "En gruppe verselinjer",
-          "Et rimord",
-          "En diktsamling",
-          "Tittelen på et dikt"
+          "En enkelt verselinje",
+          "Et rim mellom verselinjer",
+          "En diktsamling med dikt"
         ],
         "correct": 0,
         "explain": "En strofe er en samling verselinjer, omtrent som et avsnitt i prosa."
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Lys og mørke i samme dikt er et eksempel på",
         "options": [
-          "rim",
+          "Enderim",
           "kontrast",
-          "besjeling",
-          "haiku"
+          "Besjeling",
+          "Lydmaling"
         ],
         "correct": 1,
         "explain": "Motsetninger som settes opp mot hverandre, kalles kontrast."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

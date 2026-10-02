@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "What does the Windrush generation refer to?",
       "options": [
-        "Vikings who settled in England",
+        "Caribbean migrants who arrived in Britain before 1948",
         "Caribbean migrants who came to Britain after 1948",
-        "British people who moved to Australia",
-        "Irish emigrants to the USA"
+        "South Asian migrants who came to Britain after 1948",
+        "African migrants who came to Britain after 1948"
       ],
       "correct": 1,
       "explain": "The ship Empire Windrush arrived in 1948.",
@@ -96,10 +96,10 @@
       "id": "q02",
       "text": "Which law from 1964 banned discrimination in the USA?",
       "options": [
-        "The Civil Rights Act",
-        "The Voting Rights Act",
-        "The Treaty of Waitangi",
-        "The Emancipation Proclamation"
+        "The Civil Rights Act of 1964",
+        "The Voting Rights Act of 1965",
+        "The Fair Housing Act of 1968",
+        "The Immigration and Nationality Act of 1965"
       ],
       "correct": 0,
       "explain": "The Voting Rights Act followed in 1965.",
@@ -109,10 +109,10 @@
       "id": "q03",
       "text": "What was apartheid?",
       "options": [
-        "A British trade system",
-        "An Indian independence movement",
+        "A system of racial segregation in the United States",
+        "A system of racial segregation in colonial India",
         "A system of racial segregation in South Africa",
-        "A Canadian school system"
+        "A system of racial segregation in colonial Kenya"
       ],
       "correct": 2,
       "explain": "It lasted from 1948 to 1994."
@@ -121,9 +121,9 @@
       "id": "q04",
       "text": "What are the Stolen Generations?",
       "options": [
-        "Soldiers in the First World War",
-        "Victims of the slave trade in the USA",
-        "British children sent to Canada",
+        "Aboriginal children taken from their families in Canada",
+        "Māori children taken from their families in Australia",
+        "Aboriginal adults taken from their families in Australia",
         "Aboriginal children taken from their families in Australia"
       ],
       "correct": 3,
@@ -135,9 +135,9 @@
       "text": "Which document is seen as New Zealand's founding document?",
       "options": [
         "The Treaty of Waitangi",
-        "The Magna Carta",
-        "The Declaration of Independence",
-        "The Civil Rights Act"
+        "The Treaty of Versailles",
+        "The Treaty of Paris",
+        "The Treaty of Tordesillas"
       ],
       "correct": 0,
       "explain": "It was signed in 1840 by the British Crown and Māori chiefs.",
@@ -147,10 +147,10 @@
       "id": "q06",
       "text": "When did India become independent?",
       "options": [
-        "1914",
+        "1945",
         "1947",
-        "1965",
-        "1994"
+        "1950",
+        "1962"
       ],
       "correct": 1,
       "explain": "English is still widely used in India today."
@@ -159,10 +159,10 @@
       "id": "q07",
       "text": "What does “the danger of a single story” mean?",
       "options": [
-        "That short stories are dangerous",
-        "That you should only read one book",
+        "That one story about a people gives a complete account of them",
+        "That one story about a people should be treated as historical fact",
         "That one story about a people creates an incomplete picture",
-        "That history is boring"
+        "That one story about a people represents every group equally"
       ],
       "correct": 2,
       "explain": "The phrase comes from Chimamanda Ngozi Adichie.",
@@ -172,9 +172,9 @@
       "id": "q08",
       "text": "Which Indigenous peoples live in Canada?",
       "options": [
-        "Māori",
-        "Aboriginal peoples",
-        "Sámi",
+        "Māori, Aboriginal peoples and Sámi",
+        "Sámi, Māori and Ainu",
+        "Aboriginal peoples, Māori and Ainu",
         "First Nations, Inuit and Métis"
       ],
       "correct": 3,
@@ -186,9 +186,9 @@
       "text": "Who became South Africa's first democratically elected president in 1994?",
       "options": [
         "Nelson Mandela",
-        "Martin Luther King Jr.",
-        "Desmond Tutu",
-        "Mahatma Gandhi"
+        "F. W. de Klerk",
+        "Thabo Mbeki",
+        "Oliver Tambo"
       ],
       "correct": 0,
       "explain": "He had spent 27 years in prison."
@@ -197,10 +197,10 @@
       "id": "q10",
       "text": "Why is it important to include different perspectives when discussing diversity?",
       "options": [
-        "To make the text longer",
+        "To compare cultures and decide which is more successful",
         "To avoid stereotypes and give a more complete picture",
-        "Because teachers require it",
-        "It is not important"
+        "To focus on one viewpoint and make the argument clearer",
+        "To present opposing views without checking their accuracy"
       ],
       "correct": 1,
       "explain": "The voices of the people concerned are especially important."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "In which year did Martin Luther King Jr. give his “I Have a Dream” speech?",
         "options": [
-          "1948",
-          "1955",
+          "1954",
+          "1964",
           "1963",
-          "1994"
+          "1968"
         ],
         "correct": 2,
         "explain": "The speech was given during the March on Washington.",
@@ -346,9 +346,9 @@
         "text": "What were residential schools in Canada?",
         "options": [
           "Boarding schools that tried to assimilate Indigenous children",
-          "Universities for adults",
-          "Schools for British immigrants",
-          "Private schools for the rich"
+          "Day schools that tried to assimilate Indigenous children",
+          "Boarding schools that prepared Indigenous children for university",
+          "Boarding schools that educated children of British immigrants"
         ],
         "correct": 0,
         "explain": "A Truth and Reconciliation Commission reported on them in 2015.",
@@ -361,8 +361,8 @@
         "options": [
           "On Scottish independence",
           "On EU membership",
-          "On the monarchy",
-          "On voting age"
+          "On electoral reform",
+          "On the UK monarchy"
         ],
         "correct": 1,
         "explain": "A majority voted to leave the EU.",
@@ -452,6 +452,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

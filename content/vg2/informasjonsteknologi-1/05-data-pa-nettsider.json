@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva kjennetegner en dynamisk nettside?",
       "options": [
-        "Den har mye animasjon",
+        "Den viser data som er skrevet fast inn i HTML-filen",
         "Den henter og viser data som kan endre seg",
-        "Den er skrevet bare i CSS",
-        "Den har ingen lenker"
+        "Den viser innhold som ikke oppdateres når data endres",
+        "Den henter sidens innhold fra CSS-reglene i stilarket"
       ],
       "correct": 1,
       "explain": "For eksempel værdata eller resultater."
@@ -89,9 +89,9 @@
       "text": "Hvor lagres data i localStorage?",
       "options": [
         "I brukerens nettleser",
-        "På tjeneren",
-        "I en felles database",
-        "I CSS-filen"
+        "I en database på nettsidens tjener",
+        "I en JSON-fil på nettsidens tjener",
+        "I en CSS-fil som lastes ned til nettleseren"
       ],
       "correct": 0,
       "explain": "Andre brukere ser dem ikke."
@@ -101,9 +101,9 @@
       "text": "Hvilken diagramtype passer best for utvikling over tid?",
       "options": [
         "Sektordiagram",
-        "Tabell",
+        "Søylediagram",
         "Linjediagram",
-        "Punktdiagram uten akser"
+        "Histogram"
       ],
       "correct": 2,
       "explain": "Tiden på x-aksen."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvordan kan en avkortet y-akse påvirke tolkningen?",
       "options": [
-        "Den gjør diagrammet mer nøyaktig",
-        "Den har ingen betydning",
-        "Den skjuler alle data",
+        "Den kan få store forskjeller til å se små ut",
+        "Den gjør målingene mer presise ved å fjerne tomrom",
+        "Den flytter datapunktene slik at verdiene blir høyere",
         "Den kan få små forskjeller til å se store ut"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva gjør fetch(\"data.json\")?",
       "options": [
         "Henter data fra en adresse",
-        "Sletter en fil",
-        "Lager en tabell",
-        "Endrer fargen på siden"
+        "Sender data til en adresse",
+        "Sletter data fra en adresse",
+        "Lagrer data i en fil på nettsiden"
       ],
       "correct": 0,
       "explain": "Svaret kan gjøres om til JavaScript-objekter."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvor bør data som skal deles mellom alle brukere, lagres?",
       "options": [
-        "I localStorage",
+        "I localStorage i hver brukers nettleser",
         "I en database på en tjener",
-        "I brukerens utklippstavle",
-        "I CSS"
+        "I en fil på hver brukers datamaskin",
+        "I CSS-filen som lastes ned av brukerne"
       ],
       "correct": 1,
       "explain": "Da kan alle hente og oppdatere dem."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilken diagramtype passer for å sammenligne kategorier?",
       "options": [
-        "Linjediagram",
-        "Sektordiagram med 3D",
-        "Søylediagram",
-        "Ingen"
+        "Linjediagram for å vise utvikling over tid",
+        "Punktdiagram for å vise sammenheng mellom tallverdier",
+        "Søylediagram for å sammenligne kategorier",
+        "Histogram for å vise fordeling av måleverdier"
       ],
       "correct": 2,
       "explain": "Søylene er lette å sammenligne."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva bør du aldri lagre åpent i nettleseren eller i koden?",
       "options": [
-        "Farger",
-        "Overskrifter",
-        "Offentlige tall",
+        "Farger og skrifttyper",
+        "Overskrifter og lenketekster",
+        "Offentlige tall og værdata",
         "Passord og personopplysninger"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva er et API?",
       "options": [
         "Et grensesnitt for å hente data fra en tjeneste",
-        "En type diagram",
-        "En CSS-regel",
-        "Et HTML-element"
+        "Et diagram for å vise data fra en tjeneste",
+        "En CSS-regel for å hente data fra en tjeneste",
+        "Et HTML-element for å vise data fra en tjeneste"
       ],
       "correct": 0,
       "explain": "Ofte med data i JSON."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva gjør koden som går gjennom elevlisten og lager tr-elementer?",
       "options": [
-        "Sletter tabellen",
+        "Fjerner én tabellrad for hver elev",
         "Lager én tabellrad per elev",
-        "Lagrer data i en database",
-        "Sorterer elevene"
+        "Lagrer én elev i databasen for hver tabellrad",
+        "Sorterer elevlisten alfabetisk før tabellradene lages"
       ],
       "correct": 1,
       "explain": "Data vises dynamisk."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hvilket diagram viser best sammenhengen mellom treningstid og kondisjon?",
         "options": [
-          "Sektordiagram",
-          "Punktdiagram",
-          "Tabell uten tall",
-          "Søylediagram med én søyle"
+          "Sektordiagram for å vise andeler av ulike treningsøkter",
+          "Punktdiagram for å vise sammenhengen mellom to måleverdier",
+          "Histogram for å vise fordelingen av kondisjonspoeng",
+          "Søylediagram for å vise antall treningsøkter per uke"
         ],
         "correct": 1,
         "explain": "Punktdiagram viser sammenhenger.",
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva bør alltid være med i et diagram på en nettside?",
         "options": [
-          "3D-effekter",
-          "Så mange farger som mulig",
+          "3D-effekter, skygger og dekorative farger",
+          "Animasjoner, overganger og lydeffekter",
           "Aksetitler, enheter og kilde",
-          "Animasjon"
+          "Bakgrunnsbilde, logo og dekorativ ramme"
         ],
         "correct": 2,
         "explain": "Det gjør framstillingen ærlig og forståelig."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

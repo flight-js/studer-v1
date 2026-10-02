@@ -79,9 +79,9 @@
       "text": "Hvor mange kovalente bindinger danner et karbonatom?",
       "options": [
         "Fire",
-        "To",
-        "Tre",
-        "Seks"
+        "Én",
+        "Fem",
+        "Åtte"
       ],
       "correct": 0,
       "explain": "Derfor kan karbon danne kjeder, forgreninger og ringer."
@@ -91,9 +91,9 @@
       "text": "Hva kjennetegner en alken?",
       "options": [
         "Bare enkeltbindinger",
-        "En –OH-gruppe",
+        "Minst én trippelbinding",
         "Minst én dobbeltbinding",
-        "En –COOH-gruppe"
+        "En karbonylbinding"
       ],
       "correct": 2,
       "explain": "Eten er den enkleste alkenen."
@@ -102,9 +102,9 @@
       "id": "q03",
       "text": "Hva dannes ved fullstendig forbrenning av metan?",
       "options": [
-        "CO og H₂",
+        "CO og H₂O",
         "C og H₂O",
-        "CH₃OH",
+        "CO₂ og H₂",
         "CO₂ og H₂O"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva er en polymer?",
       "options": [
         "Et langt molekyl bygd av mange like enheter",
-        "Et grunnstoff",
-        "En type syre",
-        "Et metall"
+        "Et langt molekyl bygd av mange ubundne enheter",
+        "Et langt molekyl bygd av én enkelt stor enhet",
+        "Et kort molekyl bygd av noen få like enheter"
       ],
       "correct": 0,
       "explain": "Plast, stivelse og DNA er polymerer."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvorfor er karbonmonoksid farlig?",
       "options": [
-        "Det er en syre",
-        "Det er radioaktivt",
-        "Det er eksplosivt i alle mengder",
-        "Det er svært giftig"
+        "Det er en svak syre for mennesker",
+        "Det tilfører kroppen oksygen ved innånding",
+        "Det brytes raskt ned i blodet",
+        "Det er svært giftig for mennesker"
       ],
       "correct": 3,
       "explain": "CO hindrer blodet i å transportere oksygen."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva skjer når kalkstein reagerer med saltsyre?",
       "options": [
-        "Det dannes oksygen",
+        "Det dannes CO",
         "Det dannes CO₂",
-        "Det dannes metan",
-        "Ingenting"
+        "Det dannes H₂",
+        "Det dannes O₂"
       ],
       "correct": 1,
       "explain": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂."
@@ -175,9 +175,9 @@
       "text": "Hvilket stoff gir eddik den sure smaken?",
       "options": [
         "Eddiksyre",
-        "Etanol",
-        "Metan",
-        "Eten"
+        "Sitronsyre",
+        "Maursyre",
+        "Melkesyre"
       ],
       "correct": 0,
       "explain": "Eddiksyre er en karboksylsyre."
@@ -189,7 +189,7 @@
         "Det blir varmere",
         "Det blir surere",
         "Det blir saltere",
-        "Det blir basisk"
+        "Det blir mer basisk"
       ],
       "correct": 1,
       "explain": "Havforsuring skader blant annet koraller og skjell.",
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva er den kjemiske formelen for propan?",
         "options": [
-          "CH₄",
-          "C₂H₆",
+          "C₃H₆",
+          "C₃H₄",
           "C₃H₈",
-          "C₄H₁₀"
+          "C₄H₈"
         ],
         "correct": 2,
         "explain": "Alkaner følger CₙH₂ₙ₊₂: n = 3 gir C₃H₈."
@@ -335,9 +335,9 @@
         "text": "Hva dannes når en alkohol reagerer med en karboksylsyre?",
         "options": [
           "En ester",
-          "En alkan",
-          "Et salt",
-          "En polymer"
+          "En eter",
+          "Et alkan",
+          "Et aldehyd"
         ],
         "correct": 0,
         "explain": "Reaksjonen kalles forestring.",
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hvorfor øker CO₂-innholdet i atmosfæren når vi brenner fossile brensler?",
         "options": [
-          "Fordi forbrenning lager oksygen",
-          "Fordi karbon som har vært lagret i millioner av år, frigjøres",
-          "Fordi plantene slutter med fotosyntese",
-          "Fordi havet slipper ut CO₂"
+          "Fordi oksygen lagret i millioner av år frigjøres",
+          "Fordi karbon lagret i millioner av år frigjøres",
+          "Fordi karbon i atmosfæren omdannes til CO₂",
+          "Fordi nitrogen i fossile brensler omdannes til CO₂"
         ],
         "correct": 1,
         "explain": "Dette forsterker drivhuseffekten."
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

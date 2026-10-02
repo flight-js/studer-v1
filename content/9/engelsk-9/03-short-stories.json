@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "What is the protagonist?",
       "options": [
-        "The villain",
+        "The opposing character",
         "The main character",
-        "The narrator's friend",
-        "The setting"
+        "A supporting character",
+        "The story's setting"
       ],
       "correct": 1,
       "explain": "The protagonist is the main character, the one the story is mostly about."
@@ -92,9 +92,9 @@
       "text": "A girl struggles to decide whether to tell the truth. What kind of conflict is this?",
       "options": [
         "Internal conflict",
-        "External conflict with nature",
-        "External conflict with society",
-        "No conflict"
+        "Person-versus-person conflict",
+        "Person-versus-nature conflict",
+        "Person-versus-society conflict"
       ],
       "correct": 0,
       "explain": "The struggle happens inside her mind, so it is an internal conflict."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "What is a theme?",
       "options": [
-        "The title",
-        "The place where the story happens",
+        "The central problem in the story",
+        "The sequence of events in the story",
         "The main idea or message of the story",
-        "The first sentence"
+        "The narrator's point of view in the story"
       ],
       "correct": 2,
       "explain": "The theme is what the story is really about on a deeper level, like loneliness or courage."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "A fire station burns down. What literary device is this an example of?",
       "options": [
-        "Foreshadowing",
-        "Symbol",
-        "Flat character",
+        "Simile",
+        "Metaphor",
+        "Personification",
         "Irony"
       ],
       "correct": 3,
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "What is foreshadowing?",
       "options": [
-        "A description of shadows",
+        "A scene that recalls an earlier event",
         "Hints about what will happen later",
-        "The ending of the story",
-        "A flashback"
+        "Details that describe the story's setting",
+        "A detail that describes a character's thoughts"
       ],
       "correct": 1,
       "explain": "Foreshadowing builds suspense by hinting at future events."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "What is indirect characterisation?",
       "options": [
-        "The narrator tells us what a character is like",
+        "The narrator directly tells us what a character is like",
         "We learn about a character through actions, words and thoughts",
-        "The character is not important",
-        "The character is described in a list"
+        "The story gives a list of a character's personality traits",
+        "The narrator describes a character's traits instead of showing them"
       ],
       "correct": 1,
       "explain": "Indirect characterisation lets the reader draw conclusions from what the character does and says.",
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "What should a good body paragraph in an analysis contain?",
       "options": [
-        "Only a long quotation",
-        "A retelling of the whole plot",
-        "A topic sentence, evidence from the text and your own explanation",
-        "Only your personal opinion"
+        "A plot summary, personal opinions and character descriptions",
+        "A topic sentence, a plot retelling and a personal opinion",
+        "A topic sentence, textual evidence and your explanation",
+        "A quotation, a setting description and a plot summary"
       ],
       "correct": 2,
       "explain": "A clear point, evidence and explanation show that your interpretation is based on the text."
@@ -190,9 +190,9 @@
       "text": "What is an open ending?",
       "options": [
         "An ending that leaves questions unanswered",
-        "A happy ending",
-        "An ending where everyone dies",
-        "The first chapter"
+        "An ending that gives the reader a clear resolution",
+        "An ending that shows how the main conflict is resolved",
+        "An ending that explains the story's central mystery"
       ],
       "correct": 0,
       "explain": "An open ending invites the reader to think and interpret for themselves."
@@ -326,9 +326,9 @@
         "text": "A locked door appears several times in a story about a lonely boy. What might it be?",
         "options": [
           "A symbol of isolation",
-          "An antagonist",
-          "The narrator",
-          "Foreshadowing of a party"
+          "A symbol of the boy's popularity",
+          "A symbol of the boy's confidence",
+          "A symbol of the boy's freedom"
         ],
         "correct": 0,
         "explain": "The locked door can stand for the boy being shut out or shutting others out."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Which phrase is useful when you explain a quotation?",
         "options": [
-          "Once upon a time…",
+          "At the end…",
           "This suggests that…",
-          "The end.",
-          "Dear Sir or Madam,"
+          "The story is called…",
+          "In the next paragraph…"
         ],
         "correct": 1,
         "explain": "“This suggests that…” helps you explain what the quotation shows."
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "What is atmosphere?",
         "options": [
-          "The weather only",
-          "The title",
+          "The weather or climate of a story",
+          "The place or location of a story",
           "The mood or feeling of a story",
-          "The main character's name"
+          "The main character or narrator of a story"
         ],
         "correct": 2,
         "explain": "Atmosphere is the overall mood, created by setting, language and events."
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

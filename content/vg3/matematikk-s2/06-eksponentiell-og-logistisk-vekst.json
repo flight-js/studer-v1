@@ -79,8 +79,8 @@
       "options": [
         "0,2",
         "1,2",
-        "20",
-        "0,8"
+        "0,8",
+        "1,02"
       ],
       "correct": 1,
       "explain": "1 + 0,20."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva kjennetegner vekstfarten ved eksponentiell vekst?",
       "options": [
-        "Den er konstant",
-        "Den er null",
-        "Den er proporsjonal med størrelsen",
-        "Den synker alltid"
+        "Vekstfarten er proporsjonal med tiden.",
+        "Vekstfarten øker med et fast beløp.",
+        "Vekstfarten er proporsjonal med størrelsen.",
+        "Vekstfarten er uavhengig av størrelsen."
       ],
       "correct": 2,
       "explain": "f′ = k · f."
@@ -115,7 +115,7 @@
       "options": [
         "Startverdien",
         "Vekstfaktoren",
-        "Tiden",
+        "Vekstparameteren",
         "Bæreevnen"
       ],
       "correct": 3,
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Når vokser en logistisk modell raskest?",
       "options": [
-        "Ved start",
+        "Når N = K/4",
         "Når N = K/2",
-        "Når N = K",
-        "Aldri"
+        "Når N = 3K/4",
+        "Når N = K"
       ],
       "correct": 1,
       "explain": "I vendepunktet."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hvorfor passer ikke eksponentiell vekst på lang sikt?",
       "options": [
-        "Fordi den synker",
-        "Fordi den er lineær",
-        "Fordi den er periodisk",
-        "Fordi ingenting kan vokse med fast prosent for alltid"
+        "Vekstfarten blir konstant når tiden går.",
+        "Størrelsen avtar etter en viss tid.",
+        "Veksten gjentar seg i faste perioder.",
+        "Fast prosentvis vekst kan ikke fortsette ubegrenset."
       ],
       "correct": 3,
       "explain": "Ressursene tar slutt."
@@ -175,7 +175,7 @@
       "options": [
         "ln 2",
         "2",
-        "e²",
+        "ln(1/2)",
         "1/2"
       ],
       "correct": 0,
@@ -191,7 +191,7 @@
         "RegLin"
       ],
       "correct": 1,
-      "explain": "RegEksp er for eksponentiell.",
+      "explain": "RegLogistisk brukes for å tilpasse en logistisk modell.",
       "niva": "eksempel"
     }
   ],
@@ -328,8 +328,8 @@
         "options": [
           "b · N(1 − N/K)",
           "k · N",
-          "K − N",
-          "b/N"
+          "b · (1 − N/K)",
+          "b · N/K"
         ],
         "correct": 0,
         "explain": "Bremses når N nærmer seg K."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

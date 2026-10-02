@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er homeostase?",
       "options": [
-        "At kroppen vokser",
+        "At kroppen tilpasser seg det ytre miljøet",
         "At kroppen holder det indre miljøet stabilt",
-        "At hjertet slår",
-        "At kroppen bekjemper sykdom"
+        "At kroppen bygger opp muskler etter aktivitet",
+        "At kroppen utvikler forsvar mot smittestoffer"
       ],
       "correct": 1,
       "explain": "For eksempel temperatur og blodsukker."
@@ -90,9 +90,9 @@
       "text": "Hva kjennetegner negativ tilbakekobling?",
       "options": [
         "Responsen motvirker avviket",
-        "Responsen forsterker endringen",
-        "Det skjer ingen respons",
-        "Settpunktet endres hele tiden"
+        "Responsen forsterker avviket",
+        "Responsen følger avviket videre",
+        "Responsen endrer settpunktet"
       ],
       "correct": 0,
       "explain": "Som en termostat."
@@ -104,7 +104,7 @@
         "Glukagon",
         "Adrenalin",
         "Insulin",
-        "ADH"
+        "Kortisol"
       ],
       "correct": 2,
       "explain": "Det skilles ut fra betacellene."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva skjer når kroppen blir for varm?",
       "options": [
-        "Vi skjelver",
-        "Blodårene i huden trekker seg sammen",
-        "Vi får gåsehud",
-        "Vi svetter og blodårene i huden utvider seg"
+        "Vi skjelver, og blodårene i huden trekker seg sammen.",
+        "Vi får gåsehud, og blodårene i huden trekker seg sammen.",
+        "Vi skjelver, og svettekjertlene reduserer svetteproduksjonen.",
+        "Vi svetter, og blodårene i huden utvider seg."
       ],
       "correct": 3,
       "explain": "Mer varme avgis."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er forskjellen på nervesystemet og hormonsystemet?",
       "options": [
-        "Nervesystemet er raskt og kortvarig, hormonsystemet langsommere og langvarig",
-        "Hormonsystemet er alltid raskest",
-        "De virker på samme måte",
-        "Nervesystemet bruker blodet"
+        "Nervesystemet virker raskt og kortvarig, hormonsystemet langsommere og mer langvarig.",
+        "Nervesystemet virker langsomt og langvarig, hormonsystemet raskt og kortvarig.",
+        "Begge systemene virker raskt og kortvarig, men bruker ulike signalstoffer.",
+        "Nervesystemet bruker hormoner i blodet, mens hormonsystemet sender nervesignaler."
       ],
       "correct": 0,
       "explain": "De samarbeider gjennom hypothalamus."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvorfor tisser man mer når man drikker alkohol?",
       "options": [
-        "Alkohol øker blodsukkeret",
+        "Alkohol øker ADH-frigjøringen",
         "Alkohol hemmer ADH",
-        "Alkohol er vann",
-        "Alkohol stimulerer insulin"
+        "Alkohol øker nyrenes vannopptak",
+        "Alkohol reduserer urinproduksjonen"
       ],
       "correct": 1,
       "explain": "Nyrene holder tilbake mindre vann.",
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva skyldes diabetes type 1?",
       "options": [
-        "For mye sukker",
-        "Lite mosjon",
+        "At sukkerinntak skader betacellene",
+        "At lite mosjon gir insulinresistens",
         "At immunforsvaret ødelegger betacellene",
-        "For mye insulin"
+        "At immunforsvaret ødelegger alfacellene"
       ],
       "correct": 2,
       "explain": "Den er autoimmun og skyldes ikke livsstil."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hvordan kan mosjon påvirke blodsukkerreguleringen?",
       "options": [
-        "Den ødelegger betacellene",
-        "Den stopper glukagon",
-        "Den hemmer ADH",
-        "Den gjør cellene mer følsomme for insulin"
+        "Den gjør cellene mindre følsomme for insulin.",
+        "Den får leveren til å frigjøre mindre glukose.",
+        "Den hemmer ADH-frigjøringen fra hypofysen.",
+        "Den gjør cellene mer følsomme for insulin."
       ],
       "correct": 3,
       "explain": "Det reduserer risikoen for type 2-diabetes."
@@ -175,9 +175,9 @@
       "text": "Hva er et eksempel på positiv tilbakekobling?",
       "options": [
         "Oksytocin under fødsel",
-        "Svetting",
+        "Svetting ved høy kroppstemperatur",
         "Insulin etter et måltid",
-        "Skjelving"
+        "Skjelving ved lav kroppstemperatur"
       ],
       "correct": 0,
       "explain": "Endringen forsterkes til fødselen er over.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva gjør glukagon?",
       "options": [
-        "Senker blodsukkeret",
+        "Får leveren til å bryte ned glykogen, slik at blodsukkeret synker",
         "Får leveren til å bryte ned glykogen, slik at blodsukkeret stiger",
-        "Holder tilbake vann",
-        "Øker kroppstemperaturen"
+        "Får nyrene til å holde tilbake vann, slik at urinmengden synker",
+        "Får musklene til å ta opp glukose, slik at blodsukkeret synker"
       ],
       "correct": 1,
       "explain": "Skilles ut fra alfacellene."
@@ -331,9 +331,9 @@
         "text": "Hva gjør ADH?",
         "options": [
           "Får nyrene til å holde tilbake vann",
-          "Senker blodsukkeret",
-          "Øker hjerterytmen",
-          "Starter fødselen"
+          "Får nyrene til å skille ut mer vann",
+          "Får leveren til å holde tilbake vann",
+          "Får nyrene til å holde tilbake glukose"
         ],
         "correct": 0,
         "explain": "Antidiuretisk hormon."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hvilket stresshormon kan påvirke søvn og blodsukker ved langvarig stress?",
         "options": [
+          "Adrenalin",
           "Insulin",
-          "Oksytocin",
           "Kortisol",
-          "ADH"
+          "Glukagon"
         ],
         "correct": 2,
         "explain": "Det skilles ut fra binyrene.",
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -91,7 +91,7 @@
         "Etos",
         "Logos",
         "Patos",
-        "Ironi"
+        "Kairos"
       ],
       "correct": 1,
       "explain": "Fakta og tall appellerer til fornuften."
@@ -101,9 +101,9 @@
       "text": "Hva er kairos?",
       "options": [
         "Det rette øyeblikket",
-        "En type metafor",
         "Avsenderens troverdighet",
-        "En gresk tekst"
+        "Bruken av følelser",
+        "Bruken av fakta og fornuft"
       ],
       "correct": 0,
       "explain": "Timing påvirker hvor stort gjennomslag en tekst får."
@@ -112,7 +112,7 @@
       "id": "q04",
       "text": "«Vi vil ha rent vann. Vi vil ha ren luft. Vi vil ha en framtid.» Hvilket virkemiddel er brukt?",
       "options": [
-        "Ironi",
+        "Epifor",
         "Besjeling",
         "Hyperbol",
         "Anafor"
@@ -125,9 +125,9 @@
       "text": "En kronikk forteller om en jente som ikke fikk hjelp i tide. Hvilken appellform brukes mest?",
       "options": [
         "Logos",
-        "Kairos",
+        "Etos",
         "Patos",
-        "Etos"
+        "Kairos"
       ],
       "correct": 2,
       "explain": "Personlige historier vekker følelser."
@@ -137,9 +137,9 @@
       "text": "Hva er det første du bør gjøre i en retorisk analyse?",
       "options": [
         "Presentere teksten og kommunikasjonssituasjonen",
-        "Liste opp alle virkemidler",
-        "Skrive din egen mening om saken",
-        "Oversette teksten"
+        "Forklare tekstens viktigste virkemidler",
+        "Vurdere avsenderens argumenter og påstander",
+        "Beskrive tekstens språk og oppbygning"
       ],
       "correct": 0,
       "explain": "Konteksten er grunnlaget for resten av analysen."
@@ -148,9 +148,9 @@
       "id": "q07",
       "text": "Hva er et retorisk spørsmål?",
       "options": [
-        "Et spørsmål i en quiz",
-        "Et spørsmål til læreren",
-        "Et spørsmål uten svar",
+        "Et spørsmål som ber om et bestemt faktasvar",
+        "Et spørsmål der svaret gis av en annen person",
+        "Et spørsmål som presenterer flere mulige svar",
         "Et spørsmål der svaret er underforstått"
       ],
       "correct": 3,
@@ -161,9 +161,9 @@
       "text": "Hvorfor er det viktig å forklare effekten av virkemidlene?",
       "options": [
         "Fordi analysen skal vise hvordan teksten prøver å overbevise",
-        "Fordi det gjør teksten lengre",
-        "Fordi det er lettere enn å finne dem",
-        "Det er ikke viktig"
+        "Fordi analysen skal beskrive hvordan teksten er satt sammen",
+        "Fordi analysen skal vise hvor mange virkemidler teksten bruker",
+        "Fordi analysen skal gjengi hvilke temaer teksten tar opp"
       ],
       "correct": 0,
       "explain": "En liste over virkemidler uten effekt er ikke en analyse."
@@ -185,9 +185,9 @@
       "text": "Hva er ladede ord?",
       "options": [
         "Ord med sterke positive eller negative assosiasjoner",
-        "Ord som er lange",
-        "Ord fra andre språk",
-        "Fagord"
+        "Ord som brukes mest i formelle tekster",
+        "Ord som beskriver faglige begreper presist",
+        "Ord som rimer eller har lik lyd i en tekst"
       ],
       "correct": 0,
       "explain": "«Frihet» og «kaos» er eksempler."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva hører til kommunikasjonssituasjonen?",
         "options": [
-          "Rimmønster",
-          "Antall avsnitt",
+          "Rim, rytme, gjentakelse og metaforer",
+          "Tittel, ingress, mellomtitler og bildetekst",
           "Avsender, mottaker, formål og kontekst",
-          "Skrifttype"
+          "Skrifttype, marger, linjeavstand og sidetall"
         ],
         "correct": 2,
         "explain": "Kommunikasjonssituasjonen forklarer hvorfor teksten er som den er."
@@ -350,9 +350,9 @@
         "type": "flervalg",
         "text": "Hva er et tretall?",
         "options": [
-          "Tre setninger med samme ord",
-          "Tre avsnitt",
-          "Et tall i en statistikk",
+          "Tre avsnitt med omtrent lik lengde i teksten",
+          "Tre tall som står ved siden av hverandre i statistikken",
+          "Tre ord som rimer og står sist i verselinjer",
           "Tre ledd etter hverandre som gir rytme"
         ],
         "correct": 3,
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

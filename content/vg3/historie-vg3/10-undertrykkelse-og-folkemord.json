@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hvordan defineres folkemord i FNs konvensjon?",
       "options": [
-        "Alle drap i krig",
+        "Handlinger med hensikt å fordrive en nasjonal, etnisk, rasemessig eller religiøs gruppe",
         "Handlinger med hensikt å ødelegge en nasjonal, etnisk, rasemessig eller religiøs gruppe",
-        "Terrorangrep",
-        "Politisk undertrykkelse generelt"
+        "Handlinger med hensikt å ødelegge en politisk, økonomisk eller sosial gruppe",
+        "Handlinger uten hensikt å ødelegge en gruppe, men med mange sivile ofre"
       ],
       "correct": 1,
       "explain": "Hensikten er avgjørende."
@@ -96,10 +96,10 @@
       "id": "q02",
       "text": "Hva gjorde Nürnberglovene i 1935?",
       "options": [
-        "Fratok jøder statsborgerrettigheter",
-        "Opprettet FN",
-        "Straffet nazister",
-        "Ga jøder stemmerett"
+        "Fratok jøder i Tyskland statsborgerrettigheter",
+        "Ga jøder i Tyskland fulle statsborgerrettigheter",
+        "Fratok kommunister i Tyskland fulle statsborgerrettigheter",
+        "Fratok jøder i Tyskland retten til å praktisere religionen sin"
       ],
       "correct": 0,
       "explain": "Et tidlig trinn i forfølgelsen."
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hva skjedde på Wannsee-konferansen i 1942?",
       "options": [
-        "Krigen ble avsluttet",
-        "Krystallnatten ble planlagt",
+        "Utryddelsen av jødene ble stanset",
+        "Deportasjonen av tyske krigsfanger ble koordinert",
         "Utryddelsen av jødene ble koordinert",
-        "Folkeforbundet ble opprettet"
+        "Opprettelsen av staten Israel ble planlagt"
       ],
       "correct": 2,
       "explain": "Planleggingen av «den endelige løsningen»."
@@ -121,8 +121,8 @@
       "text": "Hvor mange jøder ble drept i holocaust?",
       "options": [
         "Om lag 600 000",
-        "Om lag 60 000",
-        "Om lag 60 millioner",
+        "Om lag én million",
+        "Om lag tolv millioner",
         "Om lag seks millioner"
       ],
       "correct": 3,
@@ -133,9 +133,9 @@
       "text": "Hva var Donau?",
       "options": [
         "Skipet som fraktet jøder fra Oslo i november 1942",
-        "En utryddelsesleir",
-        "En tysk general",
-        "En motstandsgruppe"
+        "Skipet som fraktet jøder fra Oslo til Sverige i november 1942",
+        "Skipet som fraktet norske motstandsfolk fra Oslo i november 1942",
+        "Skipet som fraktet norske soldater fra Oslo til Tyskland i 1942"
       ],
       "correct": 0,
       "explain": "Norske politifolk deltok i arrestasjonene.",
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Hva er dehumanisering?",
       "options": [
-        "Å gi mennesker rettigheter",
+        "Å framstille mennesker som likeverdige borgere med rettigheter",
         "Å framstille mennesker som dyr eller noe umenneskelig",
-        "Å straffe krigsforbrytere",
-        "Å lære om fortiden"
+        "Å straffe mennesker for brudd på internasjonal lov",
+        "Å framstille mennesker som politiske motstandere med ulike meninger"
       ],
       "correct": 1,
       "explain": "I Rwanda ble tutsiene kalt «kakerlakker»."
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hva skjedde i Rwanda i 1994?",
       "options": [
-        "En fredsavtale",
-        "Et valg",
+        "Rundt 800 000 hutuer og moderate tutsier ble drept på omtrent 100 dager",
+        "Rundt 80 000 tutsier og moderate hutuer ble drept på omtrent 100 dager",
         "Rundt 800 000 tutsier og moderate hutuer ble drept på omtrent 100 dager",
-        "En hungersnød"
+        "Rundt 800 000 tutsier og moderate hutuer ble drept på omtrent 100 uker"
       ],
       "correct": 2,
       "explain": "Et av de raskeste folkemordene i historien."
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hva mente Hannah Arendt med «ondskapens banalitet»?",
       "options": [
-        "At ondskap er sjelden",
-        "At bare monstre begår ondskap",
-        "At ondskap er morsomt",
+        "At ondskap hovedsakelig skyldes mennesker med onde personligheter",
+        "At ondskap oppstår når mennesker tenker kritisk og nekter å følge ordre",
+        "At ondskap vanligvis oppstår av politiske konflikter mellom grupper",
         "At vanlige mennesker kan delta i ondskap ved å følge ordre"
       ],
       "correct": 3,
@@ -183,9 +183,9 @@
       "text": "Hva skjedde i Norge 22. juli 2011?",
       "options": [
         "Et høyreekstremt terrorangrep som drepte 77 mennesker",
-        "En naturkatastrofe",
-        "Et islamistisk angrep",
-        "En krigserklæring"
+        "Et islamistisk terrorangrep som drepte 77 mennesker",
+        "Et høyreekstremt terrorangrep som drepte 78 mennesker",
+        "Et høyreekstremt terrorangrep som skjedde i 2012 og drepte 77 mennesker"
       ],
       "correct": 0,
       "explain": "I Regjeringskvartalet og på Utøya.",
@@ -195,10 +195,10 @@
       "id": "q10",
       "text": "Hva kan bidra til å forebygge folkemord?",
       "options": [
-        "Propaganda",
+        "Menneskerettigheter, diktatur og kunnskap om fortiden",
         "Menneskerettigheter, rettsstat og kunnskap om fortiden",
-        "Polarisering",
-        "Å være tilskuer"
+        "Sensur, rettsstat og kunnskap om fortiden",
+        "Menneskerettigheter, rettsstat og historisk glemsel"
       ],
       "correct": 1,
       "explain": "Også å si fra mot hatretorikk."
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hvem ville skape et klasseløst bondesamfunn i Kambodsja?",
         "options": [
-          "Nazistene",
+          "Viet Minh",
           "De røde khmerene",
-          "Stalin",
-          "Hutu-militser"
+          "Pathet Lao",
+          "Khmer Issarak"
         ],
         "correct": 1,
         "explain": "1975–1979."
@@ -340,9 +340,9 @@
         "text": "Hva skjedde i Srebrenica i 1995?",
         "options": [
           "Rundt 8000 bosniakiske menn og gutter ble drept",
-          "En fredsavtale ble undertegnet",
-          "FN ble opprettet",
-          "Et valg ble holdt"
+          "Rundt 8000 serbiske menn og gutter ble drept",
+          "Rundt 800 bosniakiske menn og gutter ble drept",
+          "Rundt 8000 bosniakiske kvinner og barn ble drept"
         ],
         "correct": 0,
         "explain": "Regnet som folkemord."
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Hva var Holodomor?",
         "options": [
-          "En utryddelsesleir",
-          "En terroraksjon",
+          "Hungersnøden i Ukraina 1921–22",
+          "Hungersnøden i Kasakhstan 1932–33",
           "Hungersnøden i Ukraina 1932–33",
-          "En fredsavtale"
+          "Hungersnøden i Russland 1921–22"
         ],
         "correct": 2,
         "explain": "Under Stalins styre.",
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

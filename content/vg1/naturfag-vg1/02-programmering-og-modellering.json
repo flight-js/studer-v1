@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva skjer vanligvis når du gjør tidssteget i en simulering mindre?",
       "options": [
-        "Simuleringen blir mindre nøyaktig",
+        "Simuleringen blir mindre nøyaktig, men tar kortere tid",
         "Simuleringen blir mer nøyaktig, men tar lengre tid",
-        "Ingenting",
-        "Programmet slutter å virke"
+        "Simuleringen beholder samme nøyaktighet, men tar lengre tid",
+        "Simuleringen blir mer nøyaktig og tar kortere tid"
       ],
       "correct": 1,
       "explain": "Små steg følger endringene tettere."
@@ -89,9 +89,9 @@
       "text": "Hvordan oppdateres farten i Eulers metode?",
       "options": [
         "v = v + a · dt",
-        "v = a · t²",
-        "v = v · dt",
-        "v = s / a"
+        "v = v + a · t",
+        "v = v + a / dt",
+        "v = v + v · dt"
       ],
       "correct": 0,
       "explain": "Farten endres med akselerasjonen ganger tidssteget."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Et stoff har halveringstid 8 dager. Hvor stor andel er igjen etter 24 dager?",
       "options": [
-        "1/2",
-        "1/3",
+        "1/4",
+        "1/16",
         "1/8",
-        "1/24"
+        "3/8"
       ],
       "correct": 2,
       "explain": "24 dager er tre halveringstider: (1/2)³ = 1/8."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er bæreevnen i en populasjonsmodell?",
       "options": [
-        "Hvor fort populasjonen vokser",
-        "Antall individer ved start",
-        "Hvor lenge individene lever",
+        "Populasjonens veksthastighet per tidsenhet",
+        "Antallet individer i starten av modellen",
+        "Levetiden til et individ i populasjonen",
         "Den største populasjonen miljøet kan opprettholde"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva er terminalfart?",
       "options": [
-        "Den konstante farten et fallende legeme når når luftmotstand og tyngdekraft er like store",
-        "Farten ved start",
-        "Farten uten luftmotstand",
-        "Farten på en flyplass"
+        "Den konstante farten når luftmotstand og tyngdekraft er like store",
+        "Farten et fallende legeme har ved starten av fallet",
+        "Farten et fallende legeme får uten luftmotstand",
+        "Farten et fallende legeme har når tyngdekraften er større enn luftmotstanden"
       ],
       "correct": 0,
       "explain": "Da er summen av kreftene null."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvorfor ser en simulering av radioaktiv nedbrytning med få kjerner ujevn ut?",
       "options": [
-        "Fordi programmet har feil",
-        "Fordi nedbrytning er tilfeldig, og tilfeldige variasjoner synes godt med få kjerner",
-        "Fordi halveringstiden endrer seg",
-        "Fordi tidssteget er for lite"
+        "Fordi hver kjerne får kortere halveringstid når det er få kjerner",
+        "Fordi nedbrytningen er tilfeldig, og variasjonene synes tydelig med få kjerner",
+        "Fordi få kjerner øker sannsynligheten for nedbrytning av hver kjerne",
+        "Fordi programmet deler få kjerner i større grupper per tidssteg"
       ],
       "correct": 1,
       "explain": "Med mange kjerner jevner tilfeldighetene seg ut."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva brukes matplotlib til?",
       "options": [
-        "Å regne med brøk",
-        "Å lagre filer",
+        "Å skrive nettsider",
+        "Å styre sensorer",
         "Å lage grafer",
-        "Å lage nettsider"
+        "Å sortere måledata"
       ],
       "correct": 2,
       "explain": "Grafer gjør det lett å tolke resultatene.",
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvilket spørsmål er viktig når du vurderer en modell?",
       "options": [
-        "Hvor mange linjer har koden?",
-        "Hvilken farge har grafen?",
-        "Hvem skrev programmet?",
+        "Hvor mange linjer inneholder programmet?",
+        "Hvilken farge brukes på grafen?",
+        "Hvem skrev koden til programmet?",
         "Stemmer resultatene med målinger?"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva gjør en while-løkke?",
       "options": [
         "Gjentar kode så lenge en betingelse er sann",
-        "Kjører koden én gang",
-        "Lager en graf",
-        "Lagrer en verdi"
+        "Kjører kode én gang når en betingelse er sann",
+        "Gjentar kode én gang for hver verdi i en liste",
+        "Lagrer en verdi så lenge en betingelse er sann"
       ],
       "correct": 0,
       "explain": "For eksempel while t < 10."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor er en modell alltid en forenkling?",
       "options": [
-        "Fordi datamaskiner er trege",
-        "Fordi den bare tar med de viktigste faktorene",
-        "Fordi naturen er enkel",
-        "Fordi programmering er vanskelig"
+        "Fordi naturfenomener følger enkle regler uten særlig variasjon",
+        "Fordi modellen tar med de viktigste faktorene, men ikke alle detaljer",
+        "Fordi datamaskiner ikke kan bruke måledata i beregninger",
+        "Fordi modellen bruker én formel på alle faktorene"
       ],
       "correct": 1,
       "explain": "Alle detaljer i naturen kan ikke tas med."
@@ -316,9 +316,9 @@
         "text": "Hvordan oppdateres posisjonen i en simulering med tidssteg?",
         "options": [
           "s = s + v · dt",
-          "s = v / dt",
-          "s = a · v",
-          "s = s − dt"
+          "s = s + v / dt",
+          "s = s + a · dt",
+          "s = s + v · t"
         ],
         "correct": 0,
         "explain": "Posisjonen endres med farten ganger tidssteget."
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hvor stor andel av et radioaktivt stoff er igjen etter to halveringstider?",
         "options": [
-          "1/2",
           "1/8",
+          "1/3",
           "1/4",
-          "0"
+          "3/4"
         ],
         "correct": 2,
         "explain": "(1/2)² = 1/4."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva gjør koden lesbar?",
         "options": [
-          "Korte, kryptiske navn",
+          "Korte navn og mange forkortelser",
           "Gode variabelnavn og kommentarer",
-          "Så få linjer som mulig uansett",
-          "Ingen innrykk"
+          "Færrest mulige linjer i programmet",
+          "Variabler uten forklaring eller kommentarer"
         ],
         "correct": 1,
         "explain": "Lesbar kode er lettere å kontrollere og forbedre."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

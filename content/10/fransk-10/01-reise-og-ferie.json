@@ -86,10 +86,10 @@
       "id": "q01",
       "text": "Hva betyr «les vacances»?",
       "options": [
-        "Flyplassen",
+        "Helgen",
         "Ferien",
-        "Kofferten",
-        "Været"
+        "Reisen",
+        "Bagasjen"
       ],
       "correct": 1,
       "explain": "Ordet står alltid i flertall."
@@ -99,8 +99,8 @@
       "text": "Hva er «l'auberge de jeunesse»?",
       "options": [
         "Et luksushotell",
+        "Et pensjonat",
         "En campingplass",
-        "En togstasjon",
         "Et vandrerhjem"
       ],
       "correct": 3,
@@ -113,7 +113,7 @@
         "Il pleut.",
         "Il neige.",
         "Il fait beau.",
-        "Il y a du vent."
+        "Il fait froid."
       ],
       "correct": 0,
       "explain": "«la pluie» betyr regnet."
@@ -134,9 +134,9 @@
       "id": "q05",
       "text": "Hvorfor heter det «au Canada», men «en Norvège»?",
       "options": [
-        "Fordi Canada er større",
-        "Fordi Canada er lenger unna",
-        "Det er tilfeldig",
+        "Fordi «Canada» er hunkjønn og «Norvège» hankjønn",
+        "Fordi «Canada» er flertall og «Norvège» entall",
+        "Fordi «Canada» begynner med vokal og «Norvège» med konsonant",
         "Fordi «Canada» er hankjønn og «Norvège» hunkjønn"
       ],
       "correct": 3,
@@ -147,9 +147,9 @@
       "text": "Hva betyr «faire de la randonnée»?",
       "options": [
         "Å gå på fottur",
-        "Å bade",
-        "Å fly",
-        "Å handle"
+        "Å gå på ski",
+        "Å dra på camping",
+        "Å besøke et museum"
       ],
       "correct": 0,
       "explain": "Fotturer er populært i Alpene og Pyreneene."
@@ -158,10 +158,10 @@
       "id": "q07",
       "text": "Hvordan ber du om et dobbeltrom for to netter?",
       "options": [
-        "J'ai deux chambres.",
-        "Où est la chambre ?",
+        "Je voudrais réserver une chambre simple pour deux nuits.",
+        "Je voudrais réserver une chambre double pour trois nuits.",
         "Je voudrais réserver une chambre double pour deux nuits.",
-        "La chambre est double."
+        "Je voudrais réserver deux chambres pour une nuit."
       ],
       "correct": 2,
       "explain": "«une nuit» – flertall «deux nuits»."
@@ -195,9 +195,9 @@
       "id": "q10",
       "text": "Hva er TGV?",
       "options": [
-        "En type fly",
-        "En fransk TV-kanal",
-        "En båt",
+        "Franske lokaltog",
+        "Franske nattog",
+        "Franske godstog",
         "Franske høyhastighetstog"
       ],
       "correct": 3,
@@ -331,9 +331,9 @@
         "text": "Hva betyr «Le petit-déjeuner est compris ?»?",
         "options": [
           "Er frokosten inkludert?",
-          "Når er frokosten?",
-          "Hvor er frokosten?",
-          "Liker du frokost?"
+          "Når serveres frokosten?",
+          "Hvor serveres frokosten?",
+          "Er frokosten varm?"
         ],
         "correct": 0,
         "explain": "«compris» betyr inkludert."
@@ -346,7 +346,7 @@
           "Kartet",
           "Billetten",
           "Passet",
-          "Bilen"
+          "Kofferten"
         ],
         "correct": 1,
         "explain": "«le billet» kan også bety en pengeseddel."
@@ -446,6 +446,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hvilke tre faktorer endrer befolkningen i et område?",
       "options": [
-        "Vær, klima og kultur",
+        "Fødsler, befolkningstetthet og aldersfordeling",
         "Fødsler, dødsfall og migrasjon",
-        "Inntekt, utdanning og helse",
-        "Byer, veier og skoler"
+        "Dødsfall, levealder og befolkningstetthet",
+        "Innvandring, befolkningstetthet og aldersfordeling"
       ],
       "correct": 1,
       "explain": "Migrasjon er inn- og utflytting."
@@ -90,9 +90,9 @@
       "text": "Hva skjer i fase 2 av den demografiske overgangsmodellen?",
       "options": [
         "Dødsraten faller mens fødselsraten er høy, og befolkningen vokser raskt",
-        "Både fødsels- og dødsrate er lave",
-        "Befolkningen synker",
-        "Fødselsraten faller"
+        "Fødselsraten faller mens dødsraten er høy, og befolkningen vokser sakte",
+        "Både fødselsraten og dødsraten faller, og befolkningen vokser sakte",
+        "Fødselsraten er lav mens dødsraten er høy, og befolkningen synker"
       ],
       "correct": 0,
       "explain": "Bedre mat, rent vann og medisin senker dødsraten."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvor mange barn per kvinne trengs omtrent for stabil befolkning uten innvandring?",
       "options": [
-        "1,0",
-        "1,5",
+        "1,8",
+        "2,5",
         "2,1",
-        "4,0"
+        "3,5"
       ],
       "correct": 2,
       "explain": "Litt over to fordi ikke alle barn når voksen alder."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva viser en befolkningspyramide med smal bunn?",
       "options": [
-        "Mange barn",
-        "Rask befolkningsvekst",
-        "Høy dødsrate",
+        "En ung befolkning",
+        "En raskt voksende befolkning",
+        "En befolkning med høy dødelighet",
         "En aldrende befolkning"
       ],
       "correct": 3,
@@ -126,21 +126,21 @@
       "text": "Hva er en pull-faktor for migrasjon?",
       "options": [
         "Muligheter for jobb og utdanning",
-        "Krig",
-        "Forfølgelse",
-        "Tørke"
+        "Dårlige levekår og lav lønn",
+        "Mangel på arbeid og utdanning",
+        "Utrygghet og politisk uro"
       ],
       "correct": 0,
-      "explain": "De andre er push-faktorer."
+      "explain": "Pull-faktorer er forhold som gjør et sted attraktivt å flytte til."
     },
     {
       "id": "q06",
       "text": "Hva kombinerer HDI?",
       "options": [
-        "Befolkning, areal og klima",
+        "Areal, folketall og befolkningstetthet",
         "Levealder, utdanning og inntekt",
-        "Eksport, import og skatt",
-        "Fødsler, dødsfall og migrasjon"
+        "Fødselsrate, dødsrate og migrasjon",
+        "Arbeidsledighet, skatt og prisnivå"
       ],
       "correct": 1,
       "explain": "HDI står for Human Development Index."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva måler Gini-koeffisienten?",
       "options": [
-        "Befolkningstetthet",
-        "Forventet levealder",
+        "Forskjeller i levealder",
+        "Ulikhet i utdanningsnivå",
         "Ulikhet i inntekt",
-        "Fruktbarhet"
+        "Forskjeller i befolkningstetthet"
       ],
       "correct": 2,
       "explain": "Høy verdi betyr stor ulikhet.",
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er urbanisering?",
       "options": [
-        "At folk flytter fra byene",
-        "At byer blir mindre",
-        "At det bygges flere veier",
+        "At byene får høyere bygninger og tettere bebyggelse",
+        "At et land får flere byer med formell status",
+        "At byområdene sprer seg utover jordbruksområder",
         "At en økende andel bor i byer"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvilken utfordring gir en aldrende befolkning?",
       "options": [
         "Færre i arbeid per pensjonist og større behov for omsorg",
-        "For mange skoler",
-        "For mange barnehager",
-        "For høy fødselsrate"
+        "Flere i arbeid per pensjonist og mindre behov for omsorg",
+        "Flere skolebarn og større behov for barnehager",
+        "Høyere fødselsrate og raskere vekst i arbeidsstyrken"
       ],
       "correct": 0,
       "explain": "Japan og Italia er eksempler på land med aldrende befolkning."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvorfor kan gjennomsnittstall for et land gi et misvisende bilde av levekårene?",
       "options": [
-        "Fordi tallene alltid er feil",
+        "Fordi gjennomsnittet viser den vanligste levekårssituasjonen i landet",
         "Fordi de kan skjule store forskjeller innad i landet",
-        "Fordi de bare gjelder byene",
-        "Fordi de bare gjelder menn"
+        "Fordi gjennomsnittet viser verdien til den midterste personen i landet",
+        "Fordi gjennomsnittet måler endringer fra ett år til det neste"
       ],
       "correct": 1,
       "explain": "Det kan være store forskjeller mellom grupper og regioner."
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hvilken form har befolkningspyramiden i et land med høy fødselsrate?",
         "options": [
-          "Urne",
-          "Bikube",
+          "Smal bunn",
+          "Jevn bredde",
           "Bred bunn",
-          "Omvendt pyramide"
+          "Bred topp"
         ],
         "correct": 2,
         "explain": "Mange barn gir bred bunn."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på moral og etikk?",
       "options": [
-        "Det er ingen forskjell",
+        "Etikk er oppfatninger om rett og galt, moral er systematisk tenkning om etikk",
         "Moral er oppfatninger om rett og galt, etikk er systematisk tenkning om moralen",
-        "Etikk gjelder bare religion",
-        "Moral er lover, etikk er regler"
+        "Moral er samfunnets lover, mens etikk er personlige meninger om rett og galt",
+        "Etikk er regler for hva religionen sier er rett, moral er regler for hva loven sier"
       ],
       "correct": 1,
       "explain": "Etikk kalles også moralfilosofi."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva sier utilitarismen?",
       "options": [
-        "At man alltid skal følge pliktene sine",
-        "At hensikten er det viktigste",
+        "At den rette handlingen følger plikter, uavhengig av følgene",
+        "At handlingen er rett når hensikten bak den er god",
         "At den rette handlingen gir størst mulig lykke for flest mulig",
-        "At man skal utvikle gode dyder"
+        "At den rette handlingen viser gode karaktertrekk hos den som handler"
       ],
       "correct": 2,
       "explain": "Utilitarismen er den mest kjente formen for konsekvensetikk."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er en svakhet ved konsekvensetikk?",
       "options": [
-        "Den tar ikke hensyn til følger",
-        "Den er for enkel å bruke",
-        "Den handler bare om plikter",
+        "Den vurderer handlingen ut fra faste plikter, selv når følgene er gode",
+        "Den vurderer handlingen ut fra hensikten og overser hva resultatet blir for andre",
+        "Den legger mest vekt på karaktertrekk og lite vekt på handlingens følger",
         "Den kan forsvare urett mot noen få hvis flertallet tjener på det"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva betyr det å behandle mennesker som et mål i seg selv?",
       "options": [
-        "Å konkurrere med dem",
+        "At menneskers verdi bestemmes av hvor nyttige de er for andre",
         "At mennesker har verdi i seg selv og ikke bare skal brukes",
-        "Å sette mål for dem",
-        "Å bruke dem for å nå egne mål"
+        "At man skal vurdere mennesker etter hvor godt de når målene sine",
+        "At man skal få mennesker til å arbeide mot mål andre har satt"
       ],
       "correct": 1,
       "explain": "Dette er en av Kants formuleringer av det kategoriske imperativ."
@@ -137,9 +137,9 @@
       "id": "q06",
       "text": "Hva spør dydsetikken først og fremst om?",
       "options": [
-        "Hva gir best resultat?",
-        "Hva sier loven?",
-        "Hva mener flertallet?",
+        "Hvilket resultat vil handlingen gi?",
+        "Hvilken plikt bør jeg følge?",
+        "Hva synes flertallet er riktig?",
         "Hva slags menneske vil jeg være?"
       ],
       "correct": 3,
@@ -150,9 +150,9 @@
       "text": "Hva er den gylne middelvei hos Aristoteles?",
       "options": [
         "En dyd som ligger mellom to ytterpunkter",
-        "En regel om å dele likt",
-        "En vei til lykke gjennom rikdom",
-        "En plikt til å si sannheten"
+        "En regel om å velge det som gir størst lykke for flest",
+        "En plikt til å følge regler uavhengig av følgene",
+        "En regel om å velge det andre mennesker mener er best"
       ],
       "correct": 0,
       "explain": "Mot ligger for eksempel mellom feighet og dumdristighet."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hva legger sinnelagsetikken vekt på?",
       "options": [
-        "Resultatet",
-        "Loven",
+        "Følgene av handlingen",
+        "Reglene for handlingen",
         "Hensikten bak handlingen",
-        "Flertallets mening"
+        "Karakteren til den som handler"
       ],
       "correct": 2,
       "explain": "En handling gjort i god mening regnes som god, selv om den går galt."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hva er et etisk dilemma?",
       "options": [
-        "En enkel regel",
+        "En situasjon der én handling er riktig, og de andre er tydelig gale",
         "Et valg mellom handlinger som alle har gode og dårlige sider",
-        "En lov",
-        "En etisk teori"
+        "Et spørsmål der en etisk teori gir ett tydelig svar på hva man bør gjøre",
+        "En uenighet der to personer har ulike meninger om hva som er rett"
       ],
       "correct": 1,
       "explain": "I et dilemma finnes det ingen løsning som er helt uten ulemper."
@@ -185,9 +185,9 @@
       "id": "q10",
       "text": "Hva er lurt når man er uenig i en etisk diskusjon?",
       "options": [
-        "Å avbryte den andre",
-        "Å angripe personen",
-        "Å gi seg med en gang",
+        "Å forsvare egne standpunkter uten å høre på motargumenter",
+        "Å kritisere argumentene ved å angripe personen som sier dem",
+        "Å unngå å begrunne meningene for å holde diskusjonen rolig",
         "Å lytte aktivt og begrunne standpunktene sine"
       ],
       "correct": 3,
@@ -336,9 +336,9 @@
         "text": "Hva er en dyd?",
         "options": [
           "Et godt karaktertrekk, som mot eller ærlighet",
-          "En lov",
-          "En konsekvens",
-          "En plikt"
+          "En regel for handlinger, som å følge loven",
+          "Et resultat av en handling, som glede eller sorg",
+          "En plikt overfor andre, som å holde et løfte"
         ],
         "correct": 0,
         "explain": "Ifølge Aristoteles utvikler vi dyder gjennom øvelse."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

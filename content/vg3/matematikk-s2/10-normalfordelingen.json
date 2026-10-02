@@ -82,7 +82,7 @@
         "50 %"
       ],
       "correct": 1,
-      "explain": "68–95–99,7-regelen."
+      "explain": "For en normalfordeling ligger omtrent 95 % innenfor to standardavvik fra gjennomsnittet."
     },
     {
       "id": "q02",
@@ -91,7 +91,7 @@
         "−2",
         "2",
         "−20",
-        "0,2"
+        "−0,2"
       ],
       "correct": 0,
       "explain": "(730 − 750)/10."
@@ -113,8 +113,8 @@
       "text": "Hva bestemmer σ i en normalfordeling?",
       "options": [
         "Hvor toppen ligger",
-        "Arealet under kurven",
-        "Om kurven er symmetrisk",
+        "Hvor høy toppen er",
+        "Hvor kurven er symmetrisk",
         "Hvor bred kurven er"
       ],
       "correct": 3,
@@ -130,19 +130,19 @@
         "Omtrent 0,34"
       ],
       "correct": 0,
-      "explain": "μ ± σ."
+      "explain": "Intervallet går fra μ − σ til μ + σ."
     },
     {
       "id": "q06",
       "text": "Hvordan finnes sannsynligheten i en kontinuerlig fordeling?",
       "options": [
-        "Som høyden på grafen",
+        "Som grafens høyde ved x-verdien",
         "Som arealet under grafen",
-        "Som stigningstallet",
-        "Som μ"
+        "Som grafens stigning ved x-verdien",
+        "Som avstanden fra x til gjennomsnittet"
       ],
       "correct": 1,
-      "explain": "Et integral av tettheten."
+      "explain": "Sannsynligheten finnes som arealet under tetthetskurven mellom grensene."
     },
     {
       "id": "q07",
@@ -160,21 +160,21 @@
       "id": "q08",
       "text": "Hvorfor er normalfordelingen så vanlig?",
       "options": [
-        "Fordi alle data er symmetriske",
-        "Fordi den er lett å tegne",
-        "Fordi den har bare én parameter",
-        "Fordi summer av mange små uavhengige bidrag blir tilnærmet normalfordelt"
+        "Fordi enkeltmålinger i store datasett følger en normalfordeling.",
+        "Fordi symmetri i dataene i seg selv gir en normalfordeling.",
+        "Fordi normalfordelingen bestemmes av gjennomsnittet alene.",
+        "Fordi summer av mange små, uavhengige bidrag blir tilnærmet normalfordelte."
       ],
       "correct": 3,
-      "explain": "Sentralgrensesetningen."
+      "explain": "Dette beskrives av sentralgrensesetningen."
     },
     {
       "id": "q09",
       "text": "Hvilken vekt har de 5 % letteste brødposene under når μ = 750 g og σ = 10 g?",
       "options": [
         "Omtrent 733,6 g",
-        "740 g",
-        "730 g",
+        "Omtrent 740 g",
+        "Omtrent 730 g",
         "Omtrent 766,4 g"
       ],
       "correct": 0,
@@ -190,7 +190,7 @@
         "Høyde"
       ],
       "correct": 1,
-      "explain": "Skjevfordelt med lang hale.",
+      "explain": "Inntekter er ofte skjevfordelte med en lang hale.",
       "niva": "eksempel"
     }
   ],
@@ -313,7 +313,7 @@
           "0,15 %"
         ],
         "correct": 1,
-        "explain": "Halvparten av de 5 % utenfor μ ± 2σ."
+        "explain": "Den øvre halen etter 2σ er omtrent 1 − Φ(2) ≈ 0,023."
       },
       {
         "id": "m06",
@@ -322,11 +322,11 @@
         "options": [
           "norm.cdf",
           "norm.ppf",
-          "random.randint",
-          "print"
+          "norm.pdf",
+          "norm.sf"
         ],
         "correct": 0,
-        "explain": "norm.ppf gir x fra en sannsynlighet."
+        "explain": "norm.cdf gir den kumulative sannsynligheten fram til x."
       },
       {
         "id": "m07",
@@ -334,12 +334,12 @@
         "text": "Hvor ligger toppen på normalfordelingskurven?",
         "options": [
           "Ved μ + σ",
-          "Ved 0 alltid",
+          "Ved μ − σ",
           "Ved μ",
           "Ved μ − 2σ"
         ],
         "correct": 2,
-        "explain": "Kurven er symmetrisk om μ."
+        "explain": "Normalfordelingskurven er symmetrisk om μ."
       }
     ],
     "skriv": [
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

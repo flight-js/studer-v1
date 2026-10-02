@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på utslippskutt og tilpasning?",
       "options": [
-        "Det er det samme",
-        "Kutt begrenser oppvarmingen, tilpasning forbereder samfunnet på endringene",
-        "Tilpasning kutter utslipp",
-        "Kutt gjelder bare Norge"
+        "Utslippskutt forbereder samfunnet på endringene, mens tilpasning begrenser oppvarmingen.",
+        "Utslippskutt begrenser oppvarmingen, mens tilpasning forbereder samfunnet på endringene.",
+        "Utslippskutt reduserer klimaskader lokalt, mens tilpasning senker mengden klimagasser.",
+        "Utslippskutt og tilpasning reduserer begge mengden klimagasser, men på ulike måter."
       ],
       "correct": 1,
       "explain": "Begge trengs."
@@ -94,9 +94,9 @@
       "text": "Hva er målet i Parisavtalen?",
       "options": [
         "Godt under 2 °C og tilstrebe 1,5 °C",
-        "Under 5 °C",
-        "Ingen oppvarming",
-        "Under 3 °C"
+        "Godt under 3 °C og tilstrebe 2 °C",
+        "Godt under 2 °C og tilstrebe 1 °C",
+        "Godt under 1,5 °C og tilstrebe 1 °C"
       ],
       "correct": 0,
       "explain": "Fra 2015."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva er havforsuring?",
       "options": [
-        "At havet blir saltere",
-        "At havet blir varmere",
-        "At havet tar opp CO₂ og blir surere",
-        "At havet blir ferskere"
+        "Havet tar opp salt, noe som gjør vannet saltere.",
+        "Havet tar opp varme, noe som gjør vannet varmere.",
+        "Havet tar opp CO₂, noe som gjør vannet surere.",
+        "Havet tar opp ferskvann, noe som gjør vannet mindre salt."
       ],
       "correct": 2,
       "explain": "Rammer skjell og koraller."
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hva er et eksempel på klimatilpasning?",
       "options": [
-        "CO₂-avgift",
-        "Elbil",
-        "Karbonfangst",
-        "Større overvannssystemer"
+        "Innføring av en CO₂-avgift",
+        "Utbygging av solkraftverk",
+        "Fangst og lagring av CO₂",
+        "Utbygging av større overvannssystemer"
       ],
       "correct": 3,
       "explain": "Forbereder på mer nedbør."
@@ -129,10 +129,10 @@
       "id": "q05",
       "text": "Hvorfor snakker man om klimarettferdighet?",
       "options": [
-        "Fordi de som slipper ut minst, ofte rammes hardest",
-        "Fordi alle rammes likt",
-        "Fordi rike land rammes mest",
-        "Fordi klima ikke påvirker mennesker"
+        "Fordi de som slipper ut minst, ofte rammes hardest.",
+        "Fordi alle land har bidratt omtrent like mye til klimaendringene.",
+        "Fordi klimatiltak fordeler kostnadene likt mellom alle land.",
+        "Fordi land med størst utslipp har færrest ressurser til klimatilpasning."
       ],
       "correct": 0,
       "explain": "Også mellom generasjoner."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er CCS?",
       "options": [
-        "En klimaavtale",
+        "Karbonprising og utslippskvoter",
         "Karbonfangst og lagring",
-        "En havstrøm",
-        "Et kvotesystem"
+        "Klimatilpasning og beredskap",
+        "Karbonlagring i skog og jord"
       ],
       "correct": 1,
       "explain": "Et tiltak for utslippskutt.",
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvilken konsekvens er ventet i Norge?",
       "options": [
-        "Lengre snøsesong i lavlandet",
-        "Mindre nedbør",
+        "Færre perioder med kraftig nedbør",
+        "Mindre fare for jord- og flomskred",
         "Flere regnflommer og skred",
-        "Lavere havnivå overalt"
+        "Lavere gjennomsnittstemperatur gjennom året"
       ],
       "correct": 2,
       "explain": "Mer kraftig nedbør."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hvilket tiltak er karbonprising?",
       "options": [
-        "Flomvern",
-        "Regnbed",
-        "Tørketolerante planter",
+        "Flomvern og oppgraderte avløpssystemer",
+        "Regnbed og grønne tak i byer",
+        "Tørketolerante planter i landbruket",
         "CO₂-avgift og kvotesystemer"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hvordan påvirker klimaendringer arter?",
       "options": [
-        "Mange flytter mot polene og opp i høyden",
-        "Ingen endring",
-        "Alle arter får større leveområde",
-        "Arter flytter mot ekvator"
+        "Mange arter flytter mot polene og oppover i høyden.",
+        "Mange arter flytter mot ekvator og oppover i høyden.",
+        "Mange arter flytter mot polene og nedover i høyden.",
+        "Mange arter blir værende i samme område når klimaet varmes."
       ],
       "correct": 0,
       "explain": "Fjellarter får mindre plass."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva kan være en konflikt ved et vindkraftverk?",
       "options": [
-        "Det gir økte utslipp",
-        "Det kutter utslipp, men kan gi naturinngrep",
-        "Det gir havforsuring",
-        "Det har ingen ulemper"
+        "Det kutter utslipp, men kan føre til havforsuring.",
+        "Det kutter utslipp, men kan gi naturinngrep.",
+        "Det kutter utslipp, men kan føre til høyere global temperatur.",
+        "Det kutter utslipp, men kan redusere nedbøren i Norge."
       ],
       "correct": 1,
       "explain": "Bærekraft har flere sider."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva gjør et regnbed?",
         "options": [
-          "Produserer strøm",
+          "Produserer elektrisk strøm",
           "Tar opp regnvann",
           "Fanger CO₂ fra fabrikker",
-          "Varsler flom"
+          "Måler nedbør og varsler flom"
         ],
         "correct": 1,
         "explain": "Tilpasning i byer.",
@@ -334,9 +334,9 @@
         "text": "Hvilke kriterier kan brukes for å vurdere klimatiltak?",
         "options": [
           "Effekt, kostnad, rettferdighet og konsekvenser",
-          "Bare pris",
-          "Bare hvor populært det er",
-          "Bare hvor raskt det går"
+          "Temperatur, nedbør, havnivå og vindstyrke",
+          "Flom, skred, tørke og hetebølger",
+          "CO₂, metan, lystgass og ozon"
         ],
         "correct": 0,
         "explain": "Bærekraft har flere dimensjoner."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvilke organismer rammes særlig av havforsuring?",
         "options": [
-          "Hvaler",
-          "Sjøfugl",
+          "Sjøfugl og sel",
+          "Hvaler og delfiner",
           "Koraller og skjell",
-          "Tang"
+          "Tang og sjøgress"
         ],
         "correct": 2,
         "explain": "Kalkskall blir vanskeligere å bygge.",
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

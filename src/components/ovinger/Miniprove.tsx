@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { AltRiktig } from "@/components/AltRiktig";
 import { Dot } from "@/components/Dot";
 import { Ekstramerke } from "@/components/Ekstramerke";
 import { ArrowRight, Check, Close, Pen, Repeat, Timer } from "@/components/icons";
@@ -205,7 +206,7 @@ export function Miniprove({
             )}
             <button
               onClick={start}
-              className="group mt-2 inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+              className="group mt-2 inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
             >
               Start prøven
               <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />
@@ -371,6 +372,7 @@ export function Miniprove({
         <main id="innhold" className="flex-1 px-5 sm:px-8 py-10 sm:py-16">
           <div className="w-full max-w-2xl mx-auto flex flex-col gap-10">
             <div className="flex flex-col items-center text-center gap-5 rise">
+              {poeng === total && <AltRiktig />}
               <p className="text-sm font-medium text-muted">Miniprøve levert{tidenUte ? " – tiden var ute" : ""}</p>
               <div className="font-display text-7xl sm:text-8xl font-semibold tracking-[-0.03em] tabular-nums">
                 {poengTekst(poeng)}
@@ -402,14 +404,14 @@ export function Miniprove({
               <div className="flex flex-wrap justify-center gap-3 mt-1">
                 <button
                   onClick={start}
-                  className="inline-flex items-center gap-2 border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+                  className="inline-flex items-center gap-2 border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
                 >
                   <Repeat size={16} />
                   Ta prøven igjen
                 </button>
                 <Link
                   href={poeng === total ? tilbake : temaHref("/sammendrag", temaId)}
-                  className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+                  className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
                 >
                   {poeng === total ? "Tilbake til temaet" : "Les sammendraget"}
                   <ArrowRight size={16} />

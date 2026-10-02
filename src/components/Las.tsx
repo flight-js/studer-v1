@@ -28,7 +28,7 @@ export function KreverAbonnement({ tilbake }: { tilbake?: string }) {
       <div className="flex flex-wrap justify-center gap-3 mt-1">
         <Link
           href={abonnementHref(neste)}
-          className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+          className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
         >
           {kanProve ? `Prøv gratis i ${PROVEDAGER} dager` : "Se abonnement"}
           <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
@@ -36,7 +36,7 @@ export function KreverAbonnement({ tilbake }: { tilbake?: string }) {
         {tilbake && (
           <Link
             href={tilbake}
-            className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+            className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
           >
             Tilbake til temaet
           </Link>
@@ -70,7 +70,7 @@ export function Abonnementskort({ neste }: { neste?: string }) {
       </span>
       <Link
         href={abonnementHref(neste)}
-        className="group shrink-0 w-fit inline-flex items-center gap-2 bg-background text-foreground px-5 py-3 rounded-xl text-sm font-semibold hover:bg-white transition-colors active:scale-[0.98]"
+        className="group shrink-0 w-fit inline-flex items-center gap-2 bg-background text-foreground px-5 py-3 rounded-xl text-sm font-semibold hover:bg-white transition-[color,background-color,border-color,scale] active:scale-[0.98]"
       >
         {kanProve ? "Start prøveperioden" : "Se abonnement"}
         <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />

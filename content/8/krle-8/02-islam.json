@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva betyr ordet islam?",
       "options": [
-        "Fred på jorden",
-        "Den rette vei",
+        "Fred og trygghet mellom mennesker",
+        "Troen på profetene og englene",
         "Underkastelse eller hengivelse til Gud",
-        "Profetens lære"
+        "Profetens lære og levemåte"
       ],
       "correct": 2,
       "explain": "En muslim er en som hengir seg til Gud."
@@ -91,7 +91,7 @@
         "Mekka",
         "Medina",
         "Jerusalem",
-        "Kairo"
+        "Taif"
       ],
       "correct": 0,
       "explain": "Mekka er i dag islams helligste by."
@@ -100,9 +100,9 @@
       "id": "q03",
       "text": "Hva er hijra?",
       "options": [
-        "Pilegrimsreisen til Mekka",
-        "Fasten i ramadan",
-        "Bønnen fem ganger om dagen",
+        "Muhammads pilegrimsreise fra Medina til Mekka i 622",
+        "Muhammads flukt fra Mekka til Jerusalem i 622",
+        "Muhammads utvandring fra Mekka til Taif i 622",
         "Muhammads utvandring fra Mekka til Medina i 622"
       ],
       "correct": 3,
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er Koranen for muslimer?",
       "options": [
-        "En samling fortellinger om Muhammad",
-        "Guds ord slik det ble åpenbart for Muhammad",
-        "En lovbok skrevet av kalifene",
-        "En bønnebok for høytidene"
+        "Fortellinger om Muhammads liv og ord",
+        "Guds ord åpenbart for Muhammad",
+        "Regler skrevet av de første kalifene",
+        "Bønner brukt ved islamske høytider"
       ],
       "correct": 1,
       "explain": "Fortellingene om Muhammad kalles hadith og er ikke en del av Koranen."
@@ -149,9 +149,9 @@
       "text": "Hva er tawhid?",
       "options": [
         "Troen på Guds enhet",
-        "Den islamske kalenderen",
-        "En type moské",
-        "Et høytidsmåltid"
+        "Troen på livet etter døden",
+        "Troen på Guds sendebud",
+        "Troen på englene og åpenbaringen"
       ],
       "correct": 0,
       "explain": "Tawhid er kjernen i islamsk tro."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva var den opprinnelige uenigheten mellom sunni- og sjiamuslimer?",
       "options": [
-        "Hvilket språk Koranen skal leses på",
-        "Om man skal be tre eller fem ganger",
+        "Hvilken by som skulle bli muslimenes nye hovedstad",
+        "Hvem som skulle samle Koranen etter Muhammad",
         "Hvem som skulle lede muslimene etter Muhammad",
-        "Om det finnes én Gud"
+        "Hvordan muslimene skulle vende seg under bønn"
       ],
       "correct": 2,
       "explain": "Sjiamuslimene mente at Ali og etterkommerne hans skulle lede."
@@ -172,9 +172,9 @@
       "id": "q09",
       "text": "Hvilket land har flest muslimer?",
       "options": [
-        "Saudi-Arabia",
-        "Egypt",
-        "Tyrkia",
+        "Pakistan",
+        "India",
+        "Bangladesh",
         "Indonesia"
       ],
       "correct": 3,
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor kalles islam en abrahamittisk religion?",
       "options": [
-        "Fordi Abraham regnes som profet, slik som i jødedom og kristendom",
-        "Fordi Abraham skrev Koranen",
-        "Fordi Abraham var den siste profeten",
-        "Fordi Abraham grunnla Mekka"
+        "Fordi Abraham regnes som profet i islam, jødedom og kristendom",
+        "Fordi Abraham regnes som den siste profeten i islam, jødedom og kristendom",
+        "Fordi Abraham regnes som profet i islam, men ikke i jødedom eller kristendom",
+        "Fordi Abraham regnes som profet i kristendommen, men ikke i islam eller jødedom"
       ],
       "correct": 0,
       "explain": "De tre religionene har felles røtter og deler mange profeter."
@@ -353,9 +353,9 @@
         "type": "flervalg",
         "text": "Hva er sufisme?",
         "options": [
-          "En lovskole",
-          "En type moské",
-          "En tidsregning",
+          "En islamsk lovskole som tolker religiøse regler",
+          "En islamsk kalender som teller år fra hijra",
+          "En høytid til minne om Muhammads fødsel",
           "En mystisk retning som søker nærhet til Gud"
         ],
         "correct": 3,
@@ -444,6 +444,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

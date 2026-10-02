@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva er en variabel?",
       "options": [
-        "Et fast tall",
+        "En størrelse med en fast verdi",
         "En størrelse som kan endre seg",
-        "En måleenhet",
-        "En formel"
+        "En enhet som måler en størrelse",
+        "En regel som viser en sammenheng"
       ],
       "correct": 1,
       "explain": "Antall timer eller kilometer er typiske variabler."
@@ -96,8 +96,8 @@
       "options": [
         "230 kr",
         "180 kr",
-        "650 kr",
-        "77 kr"
+        "615 kr",
+        "780 kr"
       ],
       "correct": 0,
       "explain": "50 + 15 · 12 = 50 + 180 = 230."
@@ -107,9 +107,9 @@
       "text": "Hva er KMI for en person som veier 70 kg og er 1,75 m høy?",
       "options": [
         "40,0",
-        "12,2",
+        "3,1",
         "22,9",
-        "122,5"
+        "20,0"
       ],
       "correct": 2,
       "explain": "70 / 1,75² = 70 / 3,0625 ≈ 22,9.",
@@ -131,10 +131,10 @@
       "id": "q05",
       "text": "Bruk F = 1,8C + 32. Hva er 25 °C i fahrenheit?",
       "options": [
-        "45 °F",
+        "67 °F",
         "77 °F",
-        "57 °F",
-        "102 °F"
+        "70 °F",
+        "87 °F"
       ],
       "correct": 1,
       "explain": "1,8 · 25 + 32 = 45 + 32 = 77."
@@ -144,9 +144,9 @@
       "text": "Billetter koster 150 kr stykket pluss 50 kr i gebyr per bestilling. Hvilken formel gir prisen K for n billetter?",
       "options": [
         "K = 150n + 50",
-        "K = 200n",
         "K = 50n + 150",
-        "K = 150 + 50 + n"
+        "K = 150(n + 50)",
+        "K = 150n + 50n"
       ],
       "correct": 0,
       "explain": "150 per billett og et fast gebyr på 50."
@@ -155,9 +155,9 @@
       "id": "q07",
       "text": "Bruttolønnen er 20 000 kr med 30 % prosenttrekk. Hva blir utbetalt?",
       "options": [
-        "6 000 kr",
-        "26 000 kr",
-        "19 970 kr",
+        "12 000 kr",
+        "15 000 kr",
+        "17 000 kr",
         "14 000 kr"
       ],
       "correct": 3,
@@ -167,10 +167,10 @@
       "id": "q08",
       "text": "Hvorfor bør du vurdere om svaret på en tekstoppgave er rimelig?",
       "options": [
-        "For å oppdage regnefeil og feil i enheter",
-        "For å få flere desimaler",
-        "Fordi formler alltid er feil",
-        "Det er unødvendig"
+        "For å oppdage regnefeil og enhetsfeil",
+        "For å kontrollere at svaret blir et helt tall",
+        "For å få flere desimaler i svaret",
+        "For å velge formelen som gir lavest svar"
       ],
       "correct": 0,
       "explain": "Et urimelig svar er ofte et tegn på en feil."
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hva er arealet av en sirkel med radius 3 cm?",
       "options": [
-        "9,4 cm²",
-        "18,8 cm²",
+        "9 cm²",
+        "7,1 cm²",
         "28,3 cm²",
-        "113 cm²"
+        "18 cm²"
       ],
       "correct": 2,
       "explain": "π · 3² ≈ 3,14 · 9 ≈ 28,3."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva blir F = 1,8C + 32 når du snur den for å finne C?",
       "options": [
-        "C = 1,8F + 32",
+        "C = (F + 32)/1,8",
         "C = (F − 32)/1,8",
-        "C = F/1,8 − 32",
-        "C = 1,8(F − 32)"
+        "C = F − 32/1,8",
+        "C = F/1,8 − 32"
       ],
       "correct": 1,
       "explain": "Trekk først fra 32, del så på 1,8."
@@ -319,9 +319,9 @@
         "text": "Et abonnement koster 199 kr per måned pluss 0,50 kr per SMS. Hva koster en måned med 60 SMS?",
         "options": [
           "229 kr",
-          "259 kr",
-          "199,50 kr",
-          "30 kr"
+          "239 kr",
+          "249 kr",
+          "269 kr"
         ],
         "correct": 0,
         "explain": "199 + 0,50 · 60 = 199 + 30 = 229."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hvilken enhet har KMI?",
         "options": [
-          "kg · m",
+          "kg²/m",
           "kg/m²",
-          "m/kg",
-          "kg/m"
+          "m/kg²",
+          "kg/m³"
         ],
         "correct": 1,
         "explain": "Vekt i kg delt på høyde i m opphøyd i andre.",
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva står 50 for i formelen K = 150n + 50?",
         "options": [
-          "Prisen per billett",
-          "Antall billetter",
+          "Prisen for én billett",
+          "Antall billetter i bestillingen",
           "Et fast gebyr",
-          "Totalprisen"
+          "Prisen for alle billettene"
         ],
         "correct": 2,
         "explain": "Gebyret betales uansett hvor mange billetter du kjøper."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

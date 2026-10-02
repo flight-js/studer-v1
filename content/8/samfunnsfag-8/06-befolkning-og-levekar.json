@@ -77,9 +77,9 @@
       "text": "Hva er demografi?",
       "options": [
         "Læren om befolkningen",
-        "Læren om fjell og elver",
-        "Læren om demokrati",
-        "Læren om økonomi"
+        "Læren om landskapet",
+        "Læren om styresett",
+        "Læren om penger"
       ],
       "correct": 0,
       "explain": "Demografi handler om befolkningens størrelse, sammensetning og endring."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hva skjer i fase 2 i den demografiske overgangen?",
       "options": [
-        "Både fødselsraten og dødsraten er høye",
+        "Fødselsraten og dødsraten er høye",
         "Dødsraten synker, og befolkningen vokser raskt",
-        "Fødselsraten synker kraftig",
-        "Befolkningen går ned"
+        "Fødselsraten synker, og folketallet vokser sakte",
+        "Dødsraten stiger, og folketallet synker"
       ],
       "correct": 1,
       "explain": "Bedre mat, rent vann og medisin gjør at færre dør, mens det fortsatt fødes mange."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva viser en befolkningspyramide med bred bunn?",
       "options": [
-        "En aldrende befolkning",
-        "At mange flytter ut",
+        "En befolkning med mange eldre og få unge",
+        "En befolkning med like mange i alle aldersgrupper",
         "En befolkning med mange barn og unge",
-        "At levealderen er høy"
+        "En befolkning med få barn og høy levealder"
       ],
       "correct": 2,
       "explain": "Bred bunn betyr at det fødes mange barn."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvorfor bor få mennesker i Sahara?",
       "options": [
-        "Fordi det er forbudt",
-        "Fordi det er for mange byer der",
-        "Fordi det er for kaldt",
+        "Fordi det er kaldt og snør store deler av året",
+        "Fordi det regner mye og elvene ofte flommer",
+        "Fordi tett skog dekker store deler av området",
         "Fordi det er tørt og lite vann"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva er urbanisering?",
       "options": [
         "At en økende andel bor i byer",
-        "At byer blir mindre",
-        "At skogen vokser",
-        "At folk flytter til fjells"
+        "At en mindre andel av befolkningen bor i byer",
+        "At en økende andel av befolkningen bor på landet",
+        "At byenes befolkning synker når flere flytter ut"
       ],
       "correct": 0,
       "explain": "Over halvparten av verdens befolkning bor nå i byer."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva måler HDI?",
       "options": [
-        "Bare inntekt",
+        "Fødselsrate, dødsrate og folketall",
         "Levealder, utdanning og inntekt",
-        "Antall byer i et land",
-        "Hvor mange som stemmer ved valg"
+        "Sysselsetting, arbeidsledighet og boligpriser",
+        "Naturressurser, eksport og statsgjeld"
       ],
       "correct": 1,
       "explain": "HDI gir et bredere bilde av utvikling enn inntekt alene."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvorfor synker fødselsraten når et land utvikler seg?",
       "options": [
-        "Fordi det blir færre sykehus",
-        "Fordi alle flytter ut",
+        "Fordi kvinner får mindre utdanning og dårligere tilgang til prevensjon",
+        "Fordi flere familier bor på landsbygda og arbeider i jordbruket",
         "Fordi kvinner får mer utdanning og tilgang til prevensjon",
-        "Fordi dødsraten øker"
+        "Fordi barnedødeligheten øker og flere barn dør tidlig"
       ],
       "correct": 2,
       "explain": "Utdanning, arbeid og byliv gjør at mange velger å få færre barn."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hva er et eksempel på en skyvefaktor for migrasjon?",
       "options": [
-        "Godt betalt arbeid i et annet land",
-        "Gode skoler i et annet land",
-        "Familie som bor i et annet land",
-        "Krig i hjemlandet"
+        "Godt arbeid i utlandet",
+        "Trygge forhold i utlandet",
+        "Familie som bor i utlandet",
+        "Krig og utrygghet i hjemlandet"
       ],
       "correct": 3,
       "explain": "Skyvefaktorer får folk til å forlate et sted."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hvordan kan historiske forhold påvirke levekår i dag?",
       "options": [
-        "Kolonitiden kan ha gitt økonomier som bygger på eksport av råvarer",
-        "Historie påvirker aldri levekår",
-        "Bare klimaet betyr noe",
-        "Gamle kriger har ingen betydning"
+        "Kolonitiden formet økonomier som eksporterer råvarer",
+        "Kolonitiden formet økonomier som importerer råvarer",
+        "Kolonitiden formet økonomier som eksporterer ferdigvarer",
+        "Kolonitiden formet økonomier som selger tjenester til utlandet"
       ],
       "correct": 0,
       "explain": "Grenser og økonomiske strukturer fra kolonitiden preger fortsatt mange land.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er sentralisering i Norge?",
       "options": [
-        "At folk flytter fra byer til bygder",
+        "At folk flytter fra byer og tettsteder til distriktene",
         "At folk flytter fra distriktene til byer og tettsteder",
-        "At Oslo blir mindre",
-        "At alle kommuner slås sammen"
+        "At folk flytter mellom tettsteder i samme distrikt",
+        "At arbeidsplasser flyttes fra byene til distriktene"
       ],
       "correct": 1,
       "explain": "Mange flytter dit arbeidsplassene og utdanningstilbudene er."
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hvilken er en trekkfaktor?",
         "options": [
-          "Arbeidsløshet",
-          "Naturkatastrofe",
-          "Gode jobbmuligheter",
-          "Forfølgelse"
+          "Dårlige muligheter for å få jobb",
+          "Utrygghet på grunn av krig",
+          "Gode muligheter for å få jobb",
+          "Forfølgelse på grunn av religion"
         ],
         "correct": 2,
         "explain": "Trekkfaktorer gjør et sted attraktivt å flytte til."
@@ -346,9 +346,9 @@
         "text": "Hva er forventet levealder?",
         "options": [
           "Hvor mange år en nyfødt i gjennomsnitt kan forvente å leve",
-          "Alderen da man blir pensjonist",
-          "Den høyeste alderen i et land",
-          "Alderen da man får stemmerett"
+          "Hvor gammel en person vanligvis er når pensjonisttilværelsen begynner",
+          "Hvor mange år den eldste personen i landet har levd",
+          "Hvor gammel en person må være for å stemme ved valg"
         ],
         "correct": 0,
         "explain": "Forventet levealder er et viktig mål på helse og levekår."
@@ -358,10 +358,10 @@
         "type": "flervalg",
         "text": "Hva var ettbarnspolitikken?",
         "options": [
-          "En norsk lov om barnetrygd",
+          "En regel i India som begrenset antall barn per familie",
           "En regel i Kina som begrenset antall barn per familie",
-          "En FN-avtale om barns rettigheter",
-          "En skoleordning i Afrika"
+          "En regel i Kina som satte en grense for antall barn i hver by",
+          "En regel i Kina som krevde at familier fikk minst to barn"
         ],
         "correct": 1,
         "explain": "Politikken varte fra 1980 til 2015 og har gitt Kina en raskt aldrende befolkning.",
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

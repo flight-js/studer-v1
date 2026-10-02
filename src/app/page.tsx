@@ -68,11 +68,11 @@ export default function Home() {
 }
 
 const ctaGul =
-  "group inline-flex items-center justify-center gap-2 rounded-xl bg-merke text-foreground font-semibold transition-[background-color,transform,box-shadow] duration-200 hover:bg-merke-dark hover:shadow-[0_14px_36px_-14px_rgba(246,224,94,0.6)] active:scale-[0.98]";
+  "group inline-flex items-center justify-center gap-2 rounded-xl bg-merke text-foreground font-semibold transition-[background-color,translate,scale,box-shadow] duration-200 hover:bg-merke-dark hover:shadow-[0_14px_36px_-14px_rgba(246,224,94,0.6)] active:scale-[0.98]";
 const menyLenke =
   "fs-menylenke px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-colors duration-200";
 const menyKnapp =
-  "fs-menyknapp inline-flex items-center justify-center gap-2 rounded-xl font-semibold whitespace-nowrap transition-[background-color,transform] duration-200 active:scale-[0.98]";
+  "fs-menyknapp inline-flex items-center justify-center gap-2 rounded-xl font-semibold whitespace-nowrap transition-[background-color,translate,scale] duration-200 active:scale-[0.98]";
 const tittel = "font-semibold tracking-[-0.03em] leading-[0.98] text-5xl sm:text-6xl lg:text-7xl";
 
 function Markedsside() {
@@ -352,7 +352,7 @@ function Plan({
       </ul>
       <Link
         href={`/abonnement?plan=${plan}`}
-        className={`mt-auto text-center px-4 py-3.5 rounded-xl text-sm font-semibold transition-[background-color,transform,border-color] duration-200 active:scale-[0.98] ${
+        className={`mt-auto text-center px-4 py-3.5 rounded-xl text-sm font-semibold transition-[background-color,translate,scale,border-color] duration-200 active:scale-[0.98] ${
           featured
             ? "bg-merke text-foreground hover:bg-merke-dark"
             : "bg-foreground text-background hover:bg-black"

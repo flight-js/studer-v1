@@ -59,8 +59,7 @@
     },
     {
       "term": "das Cybermobbing",
-      "def": "mobbing på nett",
-      "niva": "eksempel"
+      "def": "mobbing på nett"
     },
     {
       "term": "Skumlesing",
@@ -99,7 +98,7 @@
         "Wir fahren in Deutschland.",
         "Wir fahren zu Deutschland.",
         "Wir fahren nach Deutschland.",
-        "Wir fahren an Deutschland."
+        "Wir fahren nach Österreich."
       ],
       "correct": 2,
       "explain": "De fleste land og byer får «nach»."
@@ -108,9 +107,9 @@
       "id": "q02",
       "text": "Hvorfor heter det «in die Schweiz», men «nach Österreich»?",
       "options": [
-        "Fordi Sveits er et fjell",
-        "Fordi Sveits er lengre unna",
-        "Det er tilfeldig",
+        "Fordi «die Schweiz» er flertall",
+        "Fordi «die Schweiz» er en by",
+        "Fordi «Österreich» har artikkel",
         "Fordi «die Schweiz» har artikkel"
       ],
       "correct": 3,
@@ -121,9 +120,9 @@
       "text": "Hvordan sier du «Jeg har hodepine»?",
       "options": [
         "Ich habe Kopfschmerzen.",
-        "Ich bin Kopf.",
-        "Mein Kopf ist krank.",
-        "Ich habe Kopf."
+        "Ich habe Bauchschmerzen.",
+        "Ich habe Zahnschmerzen.",
+        "Ich habe Halsschmerzen."
       ],
       "correct": 0,
       "explain": "«Kopf» + «Schmerzen» = hodesmerter."
@@ -144,10 +143,10 @@
       "id": "q05",
       "text": "Hvordan lages futurum på tysk?",
       "options": [
-        "haben + partisipp",
-        "sein + infinitiv",
-        "möchten + partisipp",
-        "werden + infinitiv"
+        "haben + Partizip II",
+        "sein + Partizip II",
+        "würden + Infinitiv",
+        "werden + Infinitiv"
       ],
       "correct": 3,
       "explain": "For eksempel «Ich werde reisen»."
@@ -156,10 +155,10 @@
       "id": "q06",
       "text": "Hvor står verbet i en leddsetning med «weil»?",
       "options": [
-        "Først",
-        "På andre plass",
-        "Sist",
-        "Rett etter weil"
+        "Helt først i setningen",
+        "På andre plass i setningen",
+        "Helt sist i setningen",
+        "Rett etter «weil» i setningen"
       ],
       "correct": 2,
       "explain": "«…, weil ich gern mit Kindern arbeite.»"
@@ -168,10 +167,10 @@
       "id": "q07",
       "text": "Hva betyr «Einerseits … andererseits …»?",
       "options": [
-        "Først … til slutt …",
+        "Først den ene … til slutt den andre …",
         "På den ene siden … på den andre siden …",
-        "Både … og …",
-        "Enten … eller …"
+        "Både det ene … og det andre …",
+        "Enten det ene … eller det andre …"
       ],
       "correct": 1,
       "explain": "Uttrykket er nyttig når du drøfter fordeler og ulemper."
@@ -180,10 +179,10 @@
       "id": "q08",
       "text": "Hva bør du tenke på når du bruker maskinoversettelse?",
       "options": [
-        "At den alltid er riktig",
-        "At den kan erstatte læring",
+        "At den gjengir ord for ord, så resultatet passer til sammenhengen",
+        "At den finner riktig oversettelse, så du slipper å kontrollere teksten",
         "At den kan gjøre feil, så du må vurdere resultatet kritisk",
-        "At den bare virker på engelsk"
+        "At den forklarer grammatikken, så du trenger ikke lære reglene selv"
       ],
       "correct": 2,
       "explain": "Maskinoversettelse kan misforstå sammenhengen."
@@ -193,9 +192,9 @@
       "text": "Hvordan sier du «Jeg liker det» om en sang eller en bok?",
       "options": [
         "Das gefällt mir.",
-        "Das mag mich.",
-        "Ich gefalle das.",
-        "Das liebt mich."
+        "Das gefällt ich.",
+        "Ich gefällt das.",
+        "Das gefallen mir."
       ],
       "correct": 0,
       "explain": "«gefallen» betyr egentlig å falle i smak."
@@ -205,8 +204,8 @@
       "text": "Hva betyr «Das Buch handelt von einem Jungen»?",
       "options": [
         "Boka er skrevet av en gutt",
-        "Boka ble solgt av en gutt",
-        "Gutten leser boka",
+        "Boka er fortalt av en gutt",
+        "Boka er lest av en gutt",
         "Boka handler om en gutt"
       ],
       "correct": 3,
@@ -216,10 +215,10 @@
       "id": "q11",
       "text": "Hva er «die Mülltrennung»?",
       "options": [
-        "Kildesortering av avfall",
-        "En søppelbil",
-        "Et søppelbrett",
-        "Å kaste søppel i naturen"
+        "Sortering av avfall",
+        "Innsamling av avfall",
+        "Gjenbruk av avfall",
+        "Brenning av avfall"
       ],
       "correct": 0,
       "explain": "«trennen» betyr å skille."
@@ -228,9 +227,9 @@
       "id": "q12",
       "text": "Hva er eksempler på «erneuerbare Energie»?",
       "options": [
-        "Kull og olje",
-        "Gass og kull",
-        "Atomkraft og olje",
+        "Kull- og oljeenergi",
+        "Gass- og oljeenergi",
+        "Bensin- og dieselenergi",
         "Vind- og solenergi"
       ],
       "correct": 3,
@@ -345,7 +344,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -374,9 +373,9 @@
         "text": "Hva betyr «Seit wann haben Sie Fieber?»?",
         "options": [
           "Hvor lenge har De hatt feber?",
-          "Har De feber?",
-          "Hvorfor har De feber?",
-          "Hvor høy feber har De?"
+          "Hvor lenge har De hatt hoste?",
+          "Hvor lenge har De vært forkjølet?",
+          "Hvor lenge har De hatt smerter?"
         ],
         "correct": 0,
         "explain": "«seit» betyr siden."
@@ -413,10 +412,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Wir müssen die Umwelt schützen»?",
         "options": [
-          "Vi liker miljøet",
-          "Miljøet er fint",
+          "Vi må undersøke miljøet",
+          "Vi må forurense miljøet",
           "Vi må beskytte miljøet",
-          "Vi bor i miljøet"
+          "Vi kan beskytte miljøet"
         ],
         "correct": 2,
         "explain": "«schützen» betyr å beskytte."
@@ -457,8 +456,7 @@
         "kriterier": [
           "Nevner en fordel og en ulempe ved sosiale medier.",
           "Bruker uttrykket «Einerseits … andererseits …» og viser forståelse av personvern eller mobbing på nett."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s05",
@@ -496,12 +494,92 @@
           "Nevner en kulturressurs, for eksempel tysk musikk, film eller en serie.",
           "Nevner en læringsstrategi, for eksempel skumlesing eller å dele opp sammensatte ord."
         ]
+      },
+      {
+        "text": "En elevavis vil forklare hvordan Tyskland og Norge henger sammen i energi- og miljøspørsmål. Skriv på tysk hva begge land satser på, og nevn én forbindelse mellom landene.",
+        "fasit": "Beide Länder setzen auf erneuerbare Energie. Deutschland nutzt besonders Windkraft und Solarenergie. Norwegen exportiert Gas und Strom nach Deutschland.",
+        "kriterier": [
+          "Nevner at både Tyskland og Norge satser på fornybar energi.",
+          "Nevner tysk vindkraft eller solenergi og at Norge eksporterer gass eller strøm til Tyskland."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En elev vurderer to utdanningsveier i Tyskland: Gymnasium og yrkesutdanning. Forklar på tysk hva Gymnasium fører fram til, og hvordan yrkesutdanning i det duale systemet fungerer.",
+        "fasit": "Das Gymnasium endet mit dem Abitur, das den Zugang zur Universität ermöglicht. Im dualen System arbeitet man in einem Betrieb und besucht gleichzeitig eine Berufsschule.",
+        "kriterier": [
+          "Forklarer at Gymnasium avsluttes med Abitur, som gir adgang til universitetet.",
+          "Forklarer at man i det duale systemet jobber i en bedrift og går på yrkesskole samtidig."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Du lager en faktaboks for ungdom som føler seg stresset og sover for lite. Skriv på tysk om to vaner som kan støtte et sunt liv, og hva man kan gjøre når man ikke har det bra.",
+        "fasit": "Man sollte genug schlafen und regelmäßig Sport treiben. Obst und Gemüse sind auch gut für ein gesundes Leben. Wenn man sich nicht gut fühlt, kann man mit jemandem reden.",
+        "kriterier": [
+          "Nevner to sunne vaner, for eksempel nok søvn, fysisk aktivitet eller å spise frukt og grønnsaker.",
+          "Nevner at det kan hjelpe å snakke med noen når man ikke har det bra."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Du skal forklare kildesortering i Tyskland for en norsk venn. Skriv på tysk hvor plast- og metallemballasje, papir og matavfall skal kastes, og hva man gjør med flasker og bokser med pant.",
+        "fasit": "Verpackungen aus Plastik und Metall kommen in die gelbe Tonne. Papier und Pappe kommen in die blaue Tonne, und Essensreste kommen in die Biotonne. Für Flaschen und Dosen gibt es Pfand.",
+        "kriterier": [
+          "Plasserer plast- og metallemballasje i den gule dunken, papir og papp i den blå og matavfall i bioavfallet.",
+          "Nevner pant på flasker og bokser."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Sammenlign på tysk to litterære bidrag fra Tyskland: Goethes «Faust» og eventyrene til brødrene Grimm. Fortell kort hva «Faust» handler om, og hva brødrene Grimm er kjent for.",
+        "fasit": "Goethes Schauspiel „Faust“ handelt von einem Mann, der einen Pakt mit dem Teufel schließt. Die Brüder Grimm sammelten Märchen wie „Schneewittchen“ und „Rotkäppchen“.",
+        "kriterier": [
+          "Forteller at «Faust» handler om en mann som inngår en pakt med djevelen.",
+          "Forteller at brødrene Grimm samlet eventyr, gjerne med et eksempel."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En tysk ungdomsorganisasjon lager en plakat om ungdomsspråk. Forklar på tysk hva «Jugendwort des Jahres» er, og nevn to kjennetegn ved tysk ungdomsspråk.",
+        "fasit": "Jedes Jahr wird in Deutschland das „Jugendwort des Jahres“ gewählt. Viele Jugendwörter kommen aus dem Englischen. Die Jugendsprache verändert sich schnell.",
+        "kriterier": [
+          "Forklarer at årets ungdomsord kåres hvert år i Tyskland.",
+          "Nevner at mange ungdomsord er lånt fra engelsk, og at ungdomsspråk endrer seg raskt."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En nordmann skal reise i Tyskland og vil vite hvordan hen får hjelp i en nødsituasjon. Skriv på tysk hvilket nummer man ringer etter ambulanse eller brannvesen, hvilket nummer som er til politiet, og hvilket helsekort nordmenn bør ha med på reise i Europa.",
+        "fasit": "Für einen Krankenwagen oder die Feuerwehr ruft man in Deutschland die 112. Die Polizei erreicht man unter 110. Norweger sollten auf Reisen in Europa die Europäische Krankenversicherungskarte dabeihaben.",
+        "kriterier": [
+          "Oppgir 112 for ambulanse eller brannvesen og 110 for politiet i Tyskland.",
+          "Nevner Europeisk helsetrygdkort som kort nordmenn bør ha med på reise i Europa."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En skoleklasse ser den tyske filmen «Das Leben der Anderen». Skriv på tysk hva filmen handler om, og nevn et tema fra tysk historie som skoler legger stor vekt på.",
+        "fasit": "„Das Leben der Anderen“ handelt von Überwachung in der DDR. Deutsche Schulen legen großen Wert darauf, die Teilung Deutschlands zu behandeln.",
+        "kriterier": [
+          "Forteller at filmen handler om overvåking i Øst-Tyskland.",
+          "Nevner et tema fra tysk historie som skolene legger stor vekt på, for eksempel delingen av Tyskland, andre verdenskrig eller Holocaust."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

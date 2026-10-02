@@ -128,9 +128,9 @@
       "id": "q01",
       "text": "Hva er nåverdien av 10 000 kr om 2 år ved 5 % rente?",
       "options": [
-        "9500 kr",
-        "11 025 kr",
-        "10 000 kr",
+        "Omtrent 9500 kr",
+        "Omtrent 11 025 kr",
+        "Omtrent 10 000 kr",
         "Omtrent 9070 kr"
       ],
       "correct": 3,
@@ -142,8 +142,8 @@
       "text": "Hva er likevektsverdien for Pₙ = 1,1 · Pₙ₋₁ − 500?",
       "options": [
         "5000",
-        "500",
-        "550",
+        "4500",
+        "5500",
         "6000"
       ],
       "correct": 0,
@@ -153,9 +153,9 @@
       "id": "q03",
       "text": "Hvordan defineres det bestemte integralet?",
       "options": [
-        "Som den deriverte",
-        "Som venstresummen med n = 4",
-        "Som f(b) − f(a)",
+        "Som summen av rektanglenes arealer for et fast n",
+        "Som grenseverdien av funksjonsverdiene når x nærmer seg b",
+        "Som differansen mellom funksjonsverdiene i endepunktene",
         "Som grenseverdien av summene når n → ∞"
       ],
       "correct": 3,
@@ -165,10 +165,10 @@
       "id": "q04",
       "text": "Hva gir ∫ₐᵇ f′(x) dx?",
       "options": [
-        "f′(b) − f′(a)",
-        "Gjennomsnittet av f",
+        "f(a) − f(b)",
+        "f(b) + f(a)",
         "f(b) − f(a)",
-        "0"
+        "f′(b) + f′(a)"
       ],
       "correct": 2,
       "explain": "Total endring."
@@ -189,10 +189,10 @@
       "id": "q06",
       "text": "Når vokser en logistisk modell raskest?",
       "options": [
-        "Ved start",
+        "Når N = K/4",
         "Når N = K/2",
-        "Når N = K",
-        "Aldri"
+        "Når N = 3K/4",
+        "Når N = K"
       ],
       "correct": 1,
       "explain": "I vendepunktet."
@@ -201,10 +201,10 @@
       "id": "q07",
       "text": "Når er overskuddet størst?",
       "options": [
-        "Når I′(x) = K′(x)",
-        "Når K(x) = 0",
-        "Når I(x) = 0",
-        "Når x er størst mulig"
+        "Når grenseinntekten I′(x) er lik grensekostnaden K′(x).",
+        "Når totalkostnaden K(x) er lik null.",
+        "Når totalinntekten I(x) er lik null.",
+        "Når produksjonen x er størst mulig."
       ],
       "correct": 0,
       "explain": "O′(x) = 0."
@@ -213,10 +213,10 @@
       "id": "q08",
       "text": "Hva måler standardavviket?",
       "options": [
-        "Gjennomsnittet",
-        "Den største verdien",
+        "Variansen rundt forventningsverdien",
+        "Avstanden mellom største og minste verdi",
         "Spredningen rundt forventningsverdien",
-        "Sannsynligheten for 0"
+        "Gjennomsnittet av mulige verdier"
       ],
       "correct": 2,
       "explain": "Kvadratroten av variansen."
@@ -225,9 +225,9 @@
       "id": "q09",
       "text": "Hvilken forutsetning gjelder for binomisk fordeling?",
       "options": [
-        "Trekk uten tilbakelegging",
-        "p endres for hvert forsøk",
-        "Uendelig mange utfall",
+        "Uavhengige forsøk med ulik p",
+        "Avhengige forsøk med samme p",
+        "Tre mulige utfall per forsøk",
         "Uavhengige forsøk med samme p"
       ],
       "correct": 3,
@@ -240,7 +240,7 @@
         "−2",
         "2",
         "−20",
-        "0,2"
+        "−0,2"
       ],
       "correct": 0,
       "explain": "(730 − 750)/10."
@@ -249,10 +249,10 @@
       "id": "q11",
       "text": "Hvilken forutsetning er nødvendig for sentralgrensesetningen?",
       "options": [
-        "At variablene er normalfordelte",
-        "At variablene er uavhengige",
-        "At n = 2",
-        "At σ = 1"
+        "Variablene må være normalfordelte.",
+        "Variablene må være uavhengige.",
+        "Variablene må ha samme forventning.",
+        "Standardavviket må være lik 1."
       ],
       "correct": 1,
       "explain": "Avhengighet kan gi en annen fordeling."
@@ -262,9 +262,9 @@
       "text": "Når forkaster vi H₀?",
       "options": [
         "Når p-verdien ≤ α",
-        "Når p-verdien > α",
-        "Alltid",
-        "Når n er stor"
+        "Når p-verdien er større enn α",
+        "Når testobservatoren er mindre enn α",
+        "Når utvalget er stort, selv om p-verdien er høy"
       ],
       "correct": 0,
       "explain": "Resultatet er for usannsynlig under H₀."
@@ -273,9 +273,9 @@
       "id": "q13",
       "text": "Når forkaster en tosidig test på 5 % nivå H₀: μ = μ₀?",
       "options": [
-        "Når μ₀ ligger midt i intervallet",
-        "Når intervallet er bredt",
-        "Når x̄ = μ₀",
+        "Når μ₀ ligger innenfor 95 % konfidensintervallet",
+        "Når testobservatoren ligger mellom −1,96 og 1,96",
+        "Når p-verdien er større enn 0,05",
         "Når μ₀ ligger utenfor 95 % konfidensintervallet"
       ],
       "correct": 3,
@@ -453,7 +453,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -511,7 +511,7 @@
         "options": [
           "2",
           "1",
-          "0,5",
+          "0,25",
           "4"
         ],
         "correct": 1,
@@ -536,10 +536,10 @@
         "type": "flervalg",
         "text": "Hva er 95 % konfidensintervallet for pakkene med x̄ = 497,5 og standardfeil 1?",
         "options": [
-          "[496,5, 498,5]",
+          "Omtrent [496,5, 498,5]",
           "Omtrent [495,5, 499,5]",
-          "[490, 505]",
-          "[497,5, 500]"
+          "Omtrent [496, 499]",
+          "Omtrent [495, 500]"
         ],
         "correct": 1,
         "explain": "497,5 ± 1,96."
@@ -618,12 +618,83 @@
           "Begrunner valget med trekk uten tilbakelegging og endret sannsynlighet."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "En følge har første ledd 4, og hvert ledd etter det er 3 større enn det forrige. Hva er summen av de seks første leddene?",
+        "fasit": "De seks leddene er 4, 7, 10, 13, 16 og 19. Summen er 69.",
+        "kriterier": [
+          "Oppgir summen 69."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En funksjon q(t) beskriver netto vannstrøm i liter per minutt gjennom et rør. Integralet av q fra t = 0 til t = 10 er −12 liter. Hva forteller dette om vannstrømmen, og hvorfor trenger ikke 12 liter være den totale mengden vann som har passert?",
+        "fasit": "Netto har 12 liter strømmet i den negative retningen. Hvis vannet har strømmet begge veier, trekker integralet bidragene fra hverandre, så den totale mengden som har passert, kan være større enn 12 liter.",
+        "kriterier": [
+          "Tolk­er det negative integralet som netto strøm i negativ retning.",
+          "Forklarer at integralet er en fortegnet sum, slik at strøm i motsatt retning trekkes fra."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En fiskebestand modelleres med Pₙ = 0,8 · Pₙ₋₁ + 200 og starter på 1500 fisk. Finn likevektsverdien og beskriv hvordan bestanden utvikler seg mot den.",
+        "fasit": "Likevekten finnes ved å sette P = 0,8P + 200, som gir P = 1000. Siden bestanden starter over likevekten og avviket fra 1000 blir multiplisert med 0,8 for hvert steg, minker bestanden mot 1000.",
+        "kriterier": [
+          "Finner likevektsverdien 1000.",
+          "Beskriver at bestanden minker mot likevekten fra startverdien 1500."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En bestand øker først raskt, men veksten bremser etter hvert og bestanden nærmer seg en øvre grense på 800. Hvilken av modellene, eksponentiell eller logistisk vekst, passer best? Når er veksten raskest ifølge modellen?",
+        "fasit": "Logistisk vekst passer best fordi bestanden nærmer seg en bæreevne i stedet for å vokse uten øvre grense. Veksten er raskest når bestanden er halvparten av bæreevnen, altså 400.",
+        "kriterier": [
+          "Velger logistisk vekst fordi modellen har en øvre grense.",
+          "Oppgir at veksten er raskest ved 400, halvparten av bæreevnen."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Ved et bestemt produksjonsnivå er grensekostnaden lavere enn enhetskostnaden. Hva skjer med enhetskostnaden når produksjonen økes litt? Hva kjennetegner produksjonsnivået der enhetskostnaden er minst?",
+        "fasit": "Når grensekostnaden er lavere enn enhetskostnaden, trekker den neste enheten gjennomsnittet ned. Enhetskostnaden er minst der grensekostnaden er lik enhetskostnaden.",
+        "kriterier": [
+          "Forklarer at enhetskostnaden synker når grensekostnaden er lavere enn den.",
+          "Oppgir at minimum oppstår når grensekostnad og enhetskostnad er like."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Et kundesenter får telefoner tilfeldig og uavhengig, med et gjennomsnitt på 3 telefoner per ti minutter. Hvilken sannsynlighetsfordeling passer for antallet telefoner i et slikt tidsrom, og hva er forventningsverdien og variansen?",
+        "fasit": "Poissonfordelingen passer fordi den beskriver et antall tilfeldige, uavhengige hendelser med fast gjennomsnittlig rate. Her er λ = 3, så både forventningsverdien og variansen er 3.",
+        "kriterier": [
+          "Velger Poissonfordelingen og knytter valget til tilfeldig, uavhengig hendelsesrate.",
+          "Oppgir forventningsverdi 3 og varians 3."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Vekten av en vare er normalfordelt med forventning 50 gram og standardavvik 4 gram. Omtrent hvor stor andel veier mellom 46 og 54 gram?",
+        "fasit": "Grensene 46 og 54 gram ligger én standardavvik under og over forventningen. Omtrent 68 % av verdiene ligger derfor mellom dem.",
+        "kriterier": [
+          "Gjenkjenner at intervallet er μ ± σ.",
+          "Oppgir omtrent 68 %."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En forsker vurderer å senke signifikansnivået i en hypotesetest. Forklar hvordan dette påvirker risikoen for type I- og type II-feil, og hvordan et større utvalg kan være til hjelp.",
+        "fasit": "Et lavere signifikansnivå reduserer risikoen for type I-feil, men øker risikoen for type II-feil. Et større utvalg kan redusere risikoen for type II-feil.",
+        "kriterier": [
+          "Forklarer at lavere signifikansnivå gir mindre risiko for type I-feil, men større risiko for type II-feil.",
+          "Nevner at et større utvalg reduserer risikoen for type II-feil."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

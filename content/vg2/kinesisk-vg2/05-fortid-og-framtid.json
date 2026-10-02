@@ -77,45 +77,45 @@
       "id": "q01",
       "text": "Hvordan viser kinesisk at noe skjedde i fortiden?",
       "options": [
-        "Ved å bøye verbet",
-        "Med tidsuttrykk og partikler som 了",
-        "Med en egen fortidsendelse",
-        "Ved å endre tonen"
+        "Med bøying av verbet i en fortidsform",
+        "Med tidsord og partikkelen 了",
+        "Med en egen fortidsendelse på verbet",
+        "Med endret tone på verbet"
       ],
       "correct": 1,
-      "explain": "Verbene bøyes ikke."
+      "explain": "Kinesisk markerer fortid med tidsuttrykk eller partikler, ikke ved å bøye verbet."
     },
     {
       "id": "q02",
       "text": "Hva betyr 我去过中国?",
       "options": [
         "Jeg har vært i Kina.",
-        "Jeg skal til Kina.",
-        "Jeg er i Kina nå.",
-        "Jeg liker Kina."
+        "Jeg skal reise til Kina.",
+        "Jeg reiser til Kina nå.",
+        "Jeg bor i Kina nå."
       ],
       "correct": 0,
-      "explain": "过 viser erfaring."
+      "explain": "过 viser at man har erfaring med å ha vært et sted."
     },
     {
       "id": "q03",
       "text": "Hvordan nekter du «Jeg kjøpte en bok»?",
       "options": [
-        "我不买了书。",
-        "我买没了书。",
+        "我不买书。",
+        "我买了书吗？",
         "我没买书。",
-        "我没有了书。"
+        "我买书了。"
       ],
       "correct": 2,
-      "explain": "没 + verb, og 了 forsvinner."
+      "explain": "Fortidsnektelse dannes med 没 foran verbet; 了 brukes ikke her."
     },
     {
       "id": "q04",
       "text": "Hva betyr 已经?",
       "options": [
         "ennå ikke",
-        "aldri",
         "senere",
+        "tidligere",
         "allerede"
       ],
       "correct": 3,
@@ -126,24 +126,24 @@
       "text": "Hva betyr 明年我要去中国?",
       "options": [
         "Neste år skal jeg til Kina.",
-        "I fjor var jeg i Kina.",
-        "Jeg bor i Kina.",
-        "Jeg har aldri vært i Kina."
+        "I år skal jeg til Kina.",
+        "Neste år bor jeg i Kina.",
+        "I fjor dro jeg til Kina."
       ],
       "correct": 0,
-      "explain": "要 om planer."
+      "explain": "要 brukes her om en plan eller hensikt."
     },
     {
       "id": "q06",
       "text": "Hva betyr 你吃过饺子吗？",
       "options": [
-        "Spiser du dumplings nå?",
+        "Spiser du dumplings akkurat nå?",
         "Har du noen gang spist dumplings?",
-        "Vil du ha dumplings?",
-        "Liker du dumplings?"
+        "Skal du spise dumplings senere?",
+        "Liker du å spise dumplings?"
       ],
       "correct": 1,
-      "explain": "过 + 吗 spør om erfaring."
+      "explain": "过 sammen med 吗 spør om en erfaring."
     },
     {
       "id": "q07",
@@ -162,21 +162,21 @@
       "text": "Hva betyr 我还没做作业?",
       "options": [
         "Jeg har allerede gjort leksene.",
-        "Jeg skal gjøre leksene.",
-        "Jeg gjør aldri lekser.",
+        "Jeg skal gjøre leksene senere.",
+        "Jeg gjør leksene akkurat nå.",
         "Jeg har ikke gjort leksene ennå."
       ],
       "correct": 3,
-      "explain": "还没 = ennå ikke."
+      "explain": "还没 betyr «ennå ikke»."
     },
     {
       "id": "q09",
       "text": "Hva betyr 打算?",
       "options": [
         "planlegge",
-        "slå",
-        "regne",
-        "kjøpe"
+        "ønske",
+        "forberede",
+        "bestille"
       ],
       "correct": 0,
       "explain": "我打算学中文。"
@@ -188,10 +188,10 @@
         "neste år",
         "i fjor",
         "i år",
-        "for lenge siden"
+        "forrige måned"
       ],
       "correct": 1,
-      "explain": "明年 = neste år."
+      "explain": "明年 betyr «neste år»."
     }
   ],
   "mindmap": {
@@ -309,13 +309,13 @@
         "type": "flervalg",
         "text": "Hva betyr 我没去过日本?",
         "options": [
-          "Jeg skal til Japan.",
+          "Jeg har vært i Japan før.",
           "Jeg har aldri vært i Japan.",
-          "Jeg var i Japan i går.",
-          "Jeg liker ikke Japan."
+          "Jeg skal ikke til Japan.",
+          "Jeg dro til Japan i går."
         ],
         "correct": 1,
-        "explain": "没 + verb + 过."
+        "explain": "没 + verb + 过 uttrykker at man ikke har hatt en erfaring."
       },
       {
         "id": "m06",
@@ -323,25 +323,25 @@
         "text": "Hva betyr 以后我想当老师?",
         "options": [
           "Senere vil jeg bli lærer.",
-          "Før var jeg lærer.",
-          "Læreren min er snill.",
-          "Jeg er lærer nå."
+          "Tidligere ville jeg bli lærer.",
+          "Senere vil jeg bli lege.",
+          "Senere vil jeg møte en lærer."
         ],
         "correct": 0,
-        "explain": "以后 = senere."
+        "explain": "以后 betyr «senere» eller «i framtiden»."
       },
       {
         "id": "m07",
         "type": "flervalg",
         "text": "Hva betyr 明天会下雨?",
         "options": [
-          "Det regnet i går.",
-          "Det regner nå.",
-          "Det kommer til å regne i morgen.",
-          "Det regner aldri."
+          "Det kom regn i går.",
+          "Det regner akkurat nå.",
+          "Det kommer regn i morgen.",
+          "Det kommer regn neste uke."
         ],
         "correct": 2,
-        "explain": "会 om sannsynlighet."
+        "explain": "会 uttrykker her at det sannsynligvis vil regne."
       }
     ],
     "skriv": [
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

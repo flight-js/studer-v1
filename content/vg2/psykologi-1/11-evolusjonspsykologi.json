@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er naturlig seleksjon?",
       "options": [
-        "At de sterkeste alltid vinner",
+        "At egenskaper som brukes mest, blir vanligere i bestanden",
         "At egenskaper som gir overlevelse og reproduksjon, blir vanligere",
-        "At arter aldri endres",
-        "At mennesker velger egenskaper"
+        "At egenskaper oppstår fordi individene trenger dem for å overleve",
+        "At individer endrer arvelige egenskaper i løpet av livet"
       ],
       "correct": 1,
       "explain": "Beskrevet av Darwin i 1859."
@@ -89,9 +89,9 @@
       "text": "Hva mener evolusjonspsykologien?",
       "options": [
         "At psyken er formet av naturlig seleksjon",
-        "At alt skyldes oppdragelse",
-        "At følelser er uten funksjon",
-        "At mennesket ikke har utviklet seg"
+        "At psyken utvikles gjennom oppdragelse, ikke biologisk arv",
+        "At menneskets psyke har forblitt uendret gjennom evolusjonen",
+        "At følelser mangler funksjon og ikke påvirker atferd"
       ],
       "correct": 0,
       "explain": "Mange tilbøyeligheter er tilpasninger."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvorfor blir mange lettere redde for slanger enn for biler?",
       "options": [
-        "Slanger er farligere i dag",
-        "Biler er ukjente",
-        "Vi er forberedt på å lære frykt for farer som truet forfedrene",
-        "Frykt er alltid lært fra foreldre"
+        "Slanger utgjør større fare enn biler i dagens samfunn",
+        "Biler er for nye til at hjernen kan oppfatte dem som farlige",
+        "Vi lærer lettere frykt for farer som truet forfedrene",
+        "Frykt for slanger læres gjennom foreldres advarsler"
       ],
       "correct": 2,
       "explain": "Forberedt frykt."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva fant Paul Ekman?",
       "options": [
-        "At emosjoner er forskjellige i alle kulturer",
-        "At bare mennesker har emosjoner",
-        "At emosjoner er lært på skolen",
+        "At grunnemosjoner gjenkjennes ulikt fra kultur til kultur",
+        "At grunnemosjoner læres gjennom undervisning i ulike kulturer",
+        "At hvilke grunnemosjoner mennesker opplever, bestemmes av kulturen",
         "At grunnemosjoner gjenkjennes på tvers av kulturer"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva er slektsseleksjon?",
       "options": [
         "Å hjelpe slektninger fordi de deler gener med oss",
-        "Å velge partner i familien",
-        "Å hjelpe fremmede",
-        "Å konkurrere med søsken"
+        "Å hjelpe slektninger fordi de bor nærmere enn andre",
+        "Å velge partnere blant personer som ligner på familien",
+        "Å konkurrere med slektninger om tilgang til ressurser"
       ],
       "correct": 0,
       "explain": "En forklaring på altruisme."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er et eksempel på mismatch?",
       "options": [
-        "Tilknytning hos spedbarn",
+        "Tilknytning hos spedbarn som hjelper dem nær omsorgspersoner",
         "Lysten på søtt og fett som bidrar til overvekt i dag",
-        "Frykt for høyder",
-        "Vennskap"
+        "Frykt for høyder som beskytter mot farer i naturen",
+        "Vennskap som gjør samarbeid lettere i små grupper"
       ],
       "correct": 1,
       "explain": "Nyttig når mat var knapp.",
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hvorfor kritiseres evolusjonspsykologien for å være vanskelig å teste?",
       "options": [
-        "Fordi den ikke bruker data",
-        "Fordi den bare handler om dyr",
-        "Fordi den er for ny",
+        "Fordi psykologiske teorier ikke kan undersøkes med forskning",
+        "Fordi evolusjonspsykologien undersøker dyr, ikke mennesker",
+        "Fordi menneskelig atferd ikke kan sammenlignes mellom samfunn",
         "Fordi vi vet lite om hvordan forfedrene levde"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvilken funksjon kan avsky ha hatt?",
       "options": [
         "Å beskytte mot smitte og bedervet mat",
-        "Å gjøre oss glade",
-        "Å skape vennskap",
-        "Å øke appetitten"
+        "Å gjøre det lettere å oppdage potensielle partnere",
+        "Å øke lysten på mat som gir mye energi",
+        "Å styrke samarbeid og tillit mellom gruppemedlemmer"
       ],
       "correct": 0,
       "explain": "Emosjoner som adaptive signaler."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvorfor kan avvisning gjøre så vondt ifølge evolusjonspsykologien?",
       "options": [
-        "Fordi det gir fysisk skade",
+        "Fordi avvisning førte til fysisk skade i fortiden",
         "Fordi det var farlig å bli utstøtt fra gruppen",
-        "Fordi mennesker levde alene",
-        "Fordi det skyldes sosiale medier alene"
+        "Fordi mennesker utviklet seg til å leve uavhengig av grupper",
+        "Fordi avvisning først oppstod med sosiale medier"
       ],
       "correct": 1,
       "explain": "Vi er tilpasset et liv i små grupper.",
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hva er gjensidig altruisme?",
         "options": [
-          "Å hjelpe bare seg selv",
+          "Å hjelpe andre fordi de deler gener med oss",
           "Å hjelpe andre som hjelper tilbake",
-          "Å hjelpe bare slektninger",
-          "Å konkurrere om ressurser"
+          "Å hjelpe andre fordi de tilhører samme gruppe",
+          "Å hjelpe andre for å få tilgang til ressurser"
         ],
         "correct": 1,
         "explain": "Gir fordeler over tid."
@@ -330,7 +330,7 @@
         "options": [
           "Frykt",
           "Sjalusi",
-          "Skyld",
+          "Skyldfølelse",
           "Stolthet"
         ],
         "correct": 0,
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva er seksuell seleksjon?",
         "options": [
-          "Seleksjon av mat",
-          "Seleksjon av bosted",
+          "Utvalg av egenskaper som gjør det lettere å finne mat",
+          "Utvalg av egenskaper som gjør det lettere å unngå rovdyr",
           "Utvalg av egenskaper som gjør det lettere å få en partner",
-          "Seleksjon mot sykdom"
+          "Utvalg av egenskaper som gjør det lettere å tåle sykdom"
         ],
         "correct": 2,
         "explain": "En del av Darwins teori."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

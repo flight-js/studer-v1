@@ -92,10 +92,10 @@
       "id": "q01",
       "text": "Hvorfor kan én troende ikke snakke for alle?",
       "options": [
-        "Fordi troende lyver",
-        "Fordi religioner ikke har medlemmer",
+        "Fordi læren gir troende en felles forståelse av religionen",
+        "Fordi religiøse tekster gir samme svar på sentrale spørsmål",
         "Fordi religioner er mangfoldige og tolkes ulikt",
-        "Fordi bare prester vet"
+        "Fordi religiøse ledere formidler læren på vegne av troende"
       ],
       "correct": 2,
       "explain": "Det finnes ikke én ekte versjon."
@@ -105,9 +105,9 @@
       "text": "Hva er treenigheten?",
       "options": [
         "Én Gud i tre personer",
-        "Tre ulike guder",
-        "Tre hellige bøker",
-        "Tre høytider"
+        "Tre guder i én guddom",
+        "Én Gud med tre hellige bøker",
+        "Én Gud med tre høytider"
       ],
       "correct": 0,
       "explain": "Far, Sønn og Hellig Ånd."
@@ -116,10 +116,10 @@
       "id": "q03",
       "text": "Hva sier den andre edle sannheten?",
       "options": [
-        "Livet er bare lykke",
-        "Lidelse finnes ikke",
-        "Veien er meditasjon alene",
-        "Lidelsen skyldes begjær og tilknytning"
+        "Lidelsen opphører når begjæret blir borte",
+        "Lidelsen overvinnes ved å følge den åttedelte veien",
+        "Lidelsen skyldes at mennesket mangler et fast selv",
+        "Lidelsen oppstår på grunn av begjær og tilknytning"
       ],
       "correct": 3,
       "explain": "Buddhas lære."
@@ -128,10 +128,10 @@
       "id": "q04",
       "text": "Hvordan begrunner humanister moralen?",
       "options": [
-        "I guddommelige bud",
+        "I religiøse bud som formidles gjennom hellige tekster og tradisjoner",
         "I hva som gir gode liv for mennesker og andre levende vesener",
-        "I kongens vilje",
-        "I tilfeldigheter"
+        "I samfunnets tradisjoner og nedarvede skikker fra tidligere generasjoner",
+        "I lover og regler som myndighetene vedtar for samfunnet som helhet"
       ],
       "correct": 1,
       "explain": "Også i menneskerettigheter og empati."
@@ -141,9 +141,9 @@
       "text": "Hva betyr religionens tilbakekomst?",
       "options": [
         "At religion igjen får større plass i offentligheten",
-        "At religioner forsvinner",
-        "At kirker rives",
-        "At alle blir ateister"
+        "At religion igjen får mindre plass i offentligheten",
+        "At religiøse ledere igjen får kontroll over staten",
+        "At religion igjen blir en privatsak for den enkelte"
       ],
       "correct": 0,
       "explain": "En motstrøm til sekulariseringen."
@@ -152,10 +152,10 @@
       "id": "q06",
       "text": "Hvilken rolle hadde kirken i fornorskingspolitikken?",
       "options": [
-        "Den motarbeidet den",
-        "Den hadde ingen rolle",
+        "Den var en motkraft mot fornorskingen",
+        "Den sto utenfor arbeidet med fornorskingen",
         "Den var et redskap for fornorskingen",
-        "Den styrket samisk språk"
+        "Den fremmet samisk språk i norske skoler"
       ],
       "correct": 2,
       "explain": "Kirken har senere beklaget."
@@ -164,10 +164,10 @@
       "id": "q07",
       "text": "Hva mener forskere ofte om religion som årsak til konflikt?",
       "options": [
-        "At religion er eneste årsak",
+        "At religion vanligvis er hovedårsaken, mens politikk spiller mindre rolle",
         "At religion sjelden er eneste årsak, men kan forsterke konflikter",
-        "At religion aldri har betydning",
-        "At religion alltid gir fred"
+        "At religion påvirker konflikter mest gjennom ulik tro mellom grupper",
+        "At religion kan forklare konflikter uten at maktforhold spiller inn"
       ],
       "correct": 1,
       "explain": "Land, makt og nasjonalisme spiller også inn."
@@ -177,9 +177,9 @@
       "text": "Hva er en stereotypi?",
       "options": [
         "Et forenklet bilde av en hel gruppe",
-        "En nyhetsartikkel",
-        "En religiøs tekst",
-        "En type film"
+        "En generell vurdering av en enkelt persons handlinger",
+        "En detaljert beskrivelse av en bestemt religiøs tradisjon",
+        "En personlig mening om en aktuell samfunnssak"
       ],
       "correct": 0,
       "explain": "Kan skape fordommer."
@@ -188,10 +188,10 @@
       "id": "q09",
       "text": "Hva skiller religionskritikk fra hets?",
       "options": [
-        "Kritikk er alltid ulovlig",
+        "Kritikk vurderer religiøse ideer, mens hets vurderer religiøse handlinger",
         "Kritikk retter seg mot ideer og handlinger, ikke mot mennesker som gruppe",
-        "Det er ingen forskjell",
-        "Hets er mer saklig"
+        "Kritikk retter seg mot religiøse handlinger, mens hets mot religiøse læresetninger",
+        "Kritikk diskuterer religiøse regler, mens hets vurderer religiøse tradisjoner"
       ],
       "correct": 1,
       "explain": "God kritikk er saklig og informert."
@@ -200,10 +200,10 @@
       "id": "q10",
       "text": "Hva mente Sartre med at eksistensen går forut for essensen?",
       "options": [
-        "At Gud skapte vår natur",
-        "At vi er født med en fast natur",
+        "At vi har en fast natur som bestemmer valgene våre",
+        "At vi blir det vi velger, men valgene styres av Gud",
         "At vi ikke har en fast natur, men blir det vi velger",
-        "At livet er meningsløst"
+        "At vi først må finne vår medfødte natur før vi velger"
       ],
       "correct": 2,
       "explain": "Vi er dømt til å være frie.",
@@ -213,10 +213,10 @@
       "id": "q11",
       "text": "Hva mente Kant om hvordan mennesker skal behandles?",
       "options": [
-        "Som middel for andre",
-        "Som dyr",
-        "Som mål i seg selv, aldri bare som middel",
-        "Som eiendom"
+        "Som et middel for samfunnets mål, ikke som mål i seg selv",
+        "Som et mål når det gagner fellesskapet, ellers som middel",
+        "Som et mål i seg selv, ikke kun som middel",
+        "Som et middel for andres mål, ikke som mål i seg selv"
       ],
       "correct": 2,
       "explain": "Fordi mennesket har autonomi."
@@ -226,9 +226,9 @@
       "text": "Hva kjennetegner samtykke?",
       "options": [
         "Det er frivillig, informert og kan trekkes tilbake",
-        "Det gjelder for alltid",
-        "Det kan gis av andre på dine vegne",
-        "Det trengs ikke"
+        "Det er frivillig, informert og gjelder også i senere situasjoner",
+        "Det kan gis uten at personen vet hva det gjelder",
+        "Det kan gis under press dersom personen sier ja"
       ],
       "correct": 0,
       "explain": "Grunnleggende i relasjoner."
@@ -237,9 +237,9 @@
       "id": "q13",
       "text": "Hva sier føre var-prinsippet?",
       "options": [
-        "At vi alltid skal ta risiko",
-        "At teknologi alltid er trygg",
-        "At vi skal vente på bevis før vi handler",
+        "At vi bør kreve full sikkerhet før ny teknologi tas i bruk",
+        "At vi bør vektlegge forventet nytte framfor usikre skadevirkninger",
+        "At vi bør vente med tiltak til konsekvensene er fullt dokumentert",
         "At vi bør være forsiktige når konsekvensene er usikre og alvorlige"
       ],
       "correct": 3,
@@ -249,9 +249,9 @@
       "id": "q14",
       "text": "Hva er indirekte diskriminering?",
       "options": [
-        "Bevisst avvisning",
-        "Trakassering",
-        "Hets på nett",
+        "En bevisst beslutning om å avvise en person fra en gruppe",
+        "Gjentatte krenkende kommentarer rettet mot en person på jobb",
+        "En offentlig ytring som oppfordrer til hat mot en gruppe",
         "En tilsynelatende nøytral regel som rammer noen grupper hardere"
       ],
       "correct": 3,
@@ -408,7 +408,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -452,10 +452,10 @@
         "type": "flervalg",
         "text": "Hvorfor er samiske hellige steder viktige i dag?",
         "options": [
-          "De er turistmål alene",
-          "De har ingen betydning",
-          "De er sentrale i urfolksrettigheter og konflikter om arealbruk",
-          "De skal flyttes"
+          "De er først og fremst kulturminner uten tilknytning til arealbruk",
+          "De er sentrale i kirkens arbeid med å bevare eldre kirkebygg",
+          "De står sentralt i urfolksrettigheter og arealkonflikter",
+          "De er sentrale i samiske språkkrav og opplæring i skolene"
         ],
         "correct": 2,
         "explain": "For eksempel vindkraft og gruvedrift."
@@ -547,12 +547,84 @@
           "Identifiserer indirekte diskriminering og forklarer hvorfor.",
           "Nevner relevante verdier eller grupper som berøres."
         ]
+      },
+      {
+        "text": "En elev mener at religion må innebære tro på guder eller noe overnaturlig. En annen mener at fotball kan fungere som religion fordi det gir mennesker fellesskap og mening. Forklar hvilke to religionsdefinisjoner elevene bruker, og hvorfor de kan trekke ulike grenser for hva som regnes som religion.",
+        "fasit": "Den første bruker en substansiell definisjon, som beskriver hva religion er, for eksempel tro på noe overnaturlig. Den andre bruker en funksjonell definisjon, som beskriver hva religion gjør, for eksempel å gi mening og fellesskap. Derfor kan en funksjonell definisjon også omfatte fotball, mens en substansiell definisjon vanligvis ikke gjør det.",
+        "kriterier": [
+          "Skiller mellom substansiell definisjon (hva religion er) og funksjonell definisjon (hva religion gjør).",
+          "Forklarer at definisjonene derfor kan inkludere ulike fenomener."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Jødedommen og islam er begge monoteistiske religioner der religiøse tekster og praksiser påvirker hvordan troende lever. Forklar én viktig likhet og én forskjell mellom dem når det gjelder religiøse kilder eller praksis.",
+        "fasit": "Begge religionene tror på én Gud og legger vekt på å leve etter religiøse bud og veiledning. I jødedommen står Toraen sentralt, sammen med Talmuds diskusjoner og tolkninger av loven. I islam er Koranen og sunna de viktigste kildene, og de fem søylene er sentrale religiøse plikter.",
+        "kriterier": [
+          "Nevner en relevant likhet, for eksempel troen på én Gud eller betydningen av religiøs praksis.",
+          "Nevner en faglig riktig forskjell i kilder eller praksis, for eksempel Tora/Talmud og Koran/sunna eller de fem søylene."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Da lutherdommen ble innført i Norge i 1537, fikk det følger både for forholdet mellom politisk makt og kirken og for folks tilgang til religiøse tekster. Forklar disse følgene.",
+        "fasit": "Den dansk-norske kongen innførte lutherdommen og ble kirkens overhode, slik at kongemakten fikk kontroll over kirken. Reformasjonen bidro også til at bibler og salmer ble tilgjengelige på folkespråket, noe som støttet leseferdighet.",
+        "kriterier": [
+          "Forklarer at kongen innførte lutherdommen og ble kirkens overhode.",
+          "Nevner bibler eller salmer på folkespråket og kobler dette til økt leseferdighet."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En artist har en svært hengiven fanskare som møtes årlig og synger sammen. Et trossamfunn bruker samtidig videoer og strømming for å nå flere. Bruk to ulike måter religion og populærkultur kan henge sammen på, og forklar hvordan de passer til eksemplene.",
+        "fasit": "Fansens samlinger og hengivenhet kan ligne religiøse ritualer, noe som kan beskrives som populærkultur som religion. Når trossamfunnet bruker videoer og strømming, er det religion som bruker populærkulturelle former for å nå ut.",
+        "kriterier": [
+          "Knytter fansens samlinger eller hengivenhet til populærkultur som religion.",
+          "Knytter trossamfunnets bruk av video eller strømming til religion som bruker populærkultur."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En elev deler et bilde av en venn uten å spørre om lov. Vennen blir lei seg og bildet sprer seg videre. Forklar hvordan en pliktetiker og en konsekvensetiker kan vurdere handlingen forskjellig.",
+        "fasit": "En pliktetiker som følger Kant, vil mene at eleven ikke bør dele bildet uten samtykke, blant annet fordi mennesker ikke skal brukes bare som middel. En konsekvensetiker vurderer følgene og vil legge vekt på at delingen sårer vennen og kan spre bildet videre. Begge perspektivene kan derfor tale mot delingen, men begrunner det på ulike måter.",
+        "kriterier": [
+          "Forklarer at pliktetikken vurderer handlingen ut fra plikter eller regler, for eksempel respekt for personen.",
+          "Forklarer at konsekvensetikken vurderer følgene, for eksempel krenkelse eller videre spredning."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Et rekrutteringsprogram avviser systematisk søkere med bestemte etniske bakgrunner ut fra navnene deres, selv om ingen har laget programmet for å diskriminere. Forklar hva slags diskriminering dette kan være, og hvorfor menneskeverd er relevant når virksomheten vurderer bruken av programmet.",
+        "fasit": "Dette kan være strukturell diskriminering fordi et system gir noen grupper dårligere behandling, selv om diskrimineringen ikke var tilsiktet. Det kan også være indirekte diskriminering dersom en tilsynelatende nøytral regel rammer enkelte grupper særlig hardt. Menneskeverd innebærer at mennesker ikke skal vurderes som mindre verdifulle eller bare som data, og virksomheten bør undersøke og rette opp skjevhetene.",
+        "kriterier": [
+          "Kjenner igjen strukturell diskriminering eller indirekte diskriminering og forklarer hvorfor.",
+          "Knytter menneskeverd til lik verdi og behovet for å undersøke eller rette opp skjev behandling."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En person uten religiøs tro ønsker å delta i et fellesskap og markere viktige overganger i livet. Sammenlign hva et måltid i en sikhisk gurdwara og en humanistisk konfirmasjon kan tilby.",
+        "fasit": "I gurdwaraen kan personen delta i langar, et gratis fellesmåltid der alle kan spise sammen. Det uttrykker fellesskap og likeverd. Humanistisk konfirmasjon er et kurs om blant annet etikk, livssyn og menneskerettigheter, og gir en ikke-religiøs markering og et fellesskap.",
+        "kriterier": [
+          "Beskriver langar som et gratis fellesmåltid der alle kan delta, og knytter det til fellesskap eller likeverd.",
+          "Beskriver humanistisk konfirmasjon som en ikke-religiøs markering med kurs om etikk, livssyn eller menneskerettigheter."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Samiske religiøse spesialister ble forfulgt under kristningen, og mange samer ble presset til å oppgi sin tradisjonelle religion. I dag arbeider noen med å gjenopplive samisk kultur og spiritualitet. Forklar hva denne utviklingen viser om forholdet mellom majoritet, urfolk og religion.",
+        "fasit": "Kristningen viser hvordan majoriteten kunne bruke makt til å undertrykke samisk religion og kultur, blant annet ved å beslaglegge runebommer og forfølge noaider. Revitaliseringen viser hvordan samer i dag søker å gjenvinne og videreføre sin kultur og spiritualitet. Et urfolksperspektiv synliggjør derfor maktforhold som kan være mindre tydelige fra majoritetens ståsted.",
+        "kriterier": [
+          "Knytter kristningen til press eller makt fra majoriteten mot samisk religion eller kultur.",
+          "Forklarer at revitalisering handler om å gjenopplive eller videreføre samisk kultur og spiritualitet."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

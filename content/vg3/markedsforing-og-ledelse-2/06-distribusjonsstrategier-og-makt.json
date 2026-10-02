@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvilken distribusjonsintensitet passer for tyggegummi?",
       "options": [
-        "Eksklusiv",
-        "Intensiv",
         "Selektiv",
-        "Ingen"
+        "Intensiv",
+        "Eksklusiv",
+        "Indirekte"
       ],
       "correct": 1,
       "explain": "Skal være tilgjengelig overalt."
@@ -89,32 +89,32 @@
       "text": "Hva er en fordel med direkte distribusjon?",
       "options": [
         "Mer kontroll og bedre kundedata",
-        "Større dekning uten kostnader",
-        "Ingen ansvar",
-        "Lavere ressursbehov"
+        "Større dekning uten ekstra distribusjonskostnader",
+        "Mindre kontroll og svakere kundedata",
+        "Lavere behov for egne salgsressurser"
       ],
       "correct": 0,
-      "explain": "Men krever mer ressurser."
+      "explain": "Direkte distribusjon gir større kontroll og bedre kundedata, men krever mer ressurser."
     },
     {
       "id": "q03",
       "text": "Hva er omnikanal?",
       "options": [
-        "Bare netthandel",
-        "Bare fysiske butikker",
+        "Uavhengig bruk av flere salgskanaler",
+        "Salg gjennom både nettbutikk og butikk",
         "Sømløs bevegelse mellom kanaler",
-        "En type reklame"
+        "Samordnet reklame i flere kanaler"
       ],
       "correct": 2,
-      "explain": "Se på nett, prøve i butikk."
+      "explain": "Omnikanal betyr at kanalene er integrert, slik at kunden kan fortsette sømløst fra én kanal til en annen."
     },
     {
       "id": "q04",
       "text": "Hva er vertikal integrasjon?",
       "options": [
-        "Samarbeid mellom konkurrenter",
-        "En type reklame",
-        "Salg til utlandet",
+        "At flere aktører samarbeider på samme ledd i verdikjeden",
+        "At én aktør markedsfører varer på flere markeder",
+        "At én aktør selger produkter gjennom flere kanaler",
         "At én aktør eier flere ledd i verdikjeden"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva gir dagligvarekjedene stor makt?",
       "options": [
         "Store markedsandeler, eierskap til grossistleddet og hylleplass",
-        "At de er små",
-        "At de har få kunder",
-        "At leverandørene har mange alternativer"
+        "Små markedsandeler, eksterne grossister og lite hylleplass",
+        "Mange kjeder, lave innkjøpsvolumer og leverandørstyrte priser",
+        "Uavhengige grossister, få butikker og begrenset hylleplass"
       ],
       "correct": 0,
       "explain": "Få kjeder dominerer."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er en pull-strategi?",
       "options": [
-        "Rabatter til forhandlerne",
+        "Å gi salgsinsentiver til forhandlerne",
         "Å skape etterspørsel hos sluttkunden",
-        "Å selge direkte",
-        "Å kutte priser"
+        "Å selge varen direkte til sluttkunden",
+        "Å sikre bred tilgjengelighet hos forhandlerne"
       ],
       "correct": 1,
       "explain": "Kunden trekker produktet gjennom kjeden."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvorfor kan et luksusmerke tape på intensiv distribusjon?",
       "options": [
-        "Fordi det blir for dyrt",
-        "Fordi det blir for lite solgt",
-        "Fordi det kan miste eksklusiviteten",
-        "Fordi det er ulovlig"
+        "Fordi produksjonen blir dyrere ved flere utsalgssteder",
+        "Fordi kundene får mindre tilgang til produktet",
+        "Fordi merket kan miste sin eksklusivitet",
+        "Fordi butikkene får færre kunder enn før"
       ],
       "correct": 2,
       "explain": "Distribusjonen må passe posisjoneringen."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hvilke leverandører har mest makt overfor kjedene?",
       "options": [
-        "De uten merkevare",
-        "De minste",
-        "De nyeste",
-        "De med sterke merkevarer kundene etterspør"
+        "De med lave priser som kundene sjelden etterspør",
+        "De med stort sortiment, men ukjente merkevarer",
+        "De med få produkter og begrenset kundelojalitet",
+        "De med sterke merkevarer som kundene etterspør"
       ],
       "correct": 3,
       "explain": "Kjedene må ha produktene."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva er en push-strategi?",
       "options": [
-        "Tiltak rettet mot forhandlerne",
-        "Reklame mot sluttkunden",
-        "Direktesalg",
-        "Omnikanal"
+        "Tiltak som påvirker forhandlernes salg",
+        "Tiltak som påvirker sluttkundens kjøpsvalg",
+        "Salg via produsentens egen nettbutikk",
+        "Samordning av nettbutikk og fysiske butikker"
       ],
       "correct": 0,
       "explain": "For eksempel rabatter."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvorfor ble det innført en lov om god handelsskikk i dagligvarekjeden?",
       "options": [
-        "For å øke prisene",
-        "For å sikre mer balanserte forhold mellom partene",
-        "For å forby EMV",
-        "For å stenge butikker"
+        "Å fastsette prisnivået i dagligvaremarkedet",
+        "Å balansere maktforholdet mellom handelspartene",
+        "Å begrense kjedenes butikketableringer",
+        "Å regulere plasseringen av dagligvarebutikker"
       ],
       "correct": 1,
       "explain": "Med et eget tilsyn.",
@@ -311,8 +311,8 @@
         "options": [
           "Intensiv",
           "Eksklusiv",
-          "Selektiv til alle butikker",
-          "Automater"
+          "Selektiv",
+          "Indirekte"
         ],
         "correct": 1,
         "explain": "Få forhandlere per område."
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hva er et mellomledd i indirekte distribusjon?",
         "options": [
-          "Grossist",
-          "Sluttkunde",
-          "Produsent",
-          "Råvare"
+          "En grossist som kjøper varer inn for videresalg til forhandlere",
+          "En produsent som lager varer for salg til grossister",
+          "En sluttkunde som kjøper varer til eget bruk",
+          "Et reklamebyrå som lager kampanjer for varemerker"
         ],
         "correct": 0,
         "explain": "Også detaljist."
@@ -335,13 +335,13 @@
         "type": "flervalg",
         "text": "Hva kan være en ulempe ved vertikal integrasjon for samfunnet?",
         "options": [
-          "Lavere kostnader",
-          "Bedre kontroll",
+          "Økt produktutvalg",
+          "Lavere distribusjonskostnader",
           "Redusert konkurranse",
-          "Flere leverandører"
+          "Sterkere priskonkurranse"
         ],
         "correct": 2,
-        "explain": "Kan gi høyere priser."
+        "explain": "Når færre uavhengige aktører konkurrerer, kan konkurransen bli svakere og prisene høyere."
       }
     ],
     "skriv": [
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -95,10 +95,10 @@
       "id": "q01",
       "text": "Hva skjer i synapsen?",
       "options": [
-        "Blodet renses",
+        "Elektriske signaler passerer direkte mellom nevronene",
         "Signalstoffer frigjøres og påvirker neste nevron",
-        "Hormoner lages",
-        "Minner lagres permanent"
+        "Signalstoffer brytes ned før de når neste nevron",
+        "Signalstoffer fraktes med blodet til neste nevron"
       ],
       "correct": 1,
       "explain": "Signalet går kjemisk over spalten."
@@ -119,10 +119,10 @@
       "id": "q03",
       "text": "Hva består sentralnervesystemet av?",
       "options": [
-        "Nervene i armer og bein",
-        "Hormonkjertlene",
+        "Hjernen og kranienervene",
+        "Ryggmargen og spinalnervene",
         "Hjernen og ryggmargen",
-        "Hjertet og lungene"
+        "Hjernen og hormonkjertlene"
       ],
       "correct": 2,
       "explain": "Resten er det perifere nervesystemet."
@@ -131,10 +131,10 @@
       "id": "q04",
       "text": "Hvilken del av nervesystemet gjør kroppen klar til kamp eller flukt?",
       "options": [
-        "Den parasympatiske",
-        "Den somatiske",
-        "Lillehjernen",
-        "Den sympatiske"
+        "Den parasympatiske delen",
+        "Den somatiske delen",
+        "Den sensoriske delen",
+        "Den sympatiske delen"
       ],
       "correct": 3,
       "explain": "Pulsen og pusten øker."
@@ -145,8 +145,8 @@
       "options": [
         "Amygdala",
         "Lillehjernen",
-        "Bakhodelappen",
-        "Hjernebjelken"
+        "Hippocampus",
+        "Hypothalamus"
       ],
       "correct": 0,
       "explain": "En del av det limbiske systemet."
@@ -155,10 +155,10 @@
       "id": "q06",
       "text": "Hva styrer pannelappen?",
       "options": [
-        "Syn",
+        "Synsinntrykk, fargeoppfatning og dybdesyn",
         "Planlegging, impulskontroll og beslutninger",
-        "Balanse",
-        "Pust og hjerterytme"
+        "Balanse, koordinasjon og kroppsholdning",
+        "Pust, puls og blodtrykk"
       ],
       "correct": 1,
       "explain": "Den modnes sist i hjernen."
@@ -167,10 +167,10 @@
       "id": "q07",
       "text": "Hvordan skiller hormoner seg fra nervesignaler?",
       "options": [
-        "De er raskere",
-        "De går bare i hjernen",
+        "De fraktes med blodet og virker raskere og kortere",
+        "De går gjennom nervene og virker raskere og kortere",
         "De fraktes med blodet og virker langsommere og lenger",
-        "De er elektriske"
+        "De fraktes med blodet og virker raskt og kortvarig"
       ],
       "correct": 2,
       "explain": "Nervesignaler er raske og kortvarige."
@@ -203,10 +203,10 @@
       "id": "q10",
       "text": "Hva er nevroplastisitet?",
       "options": [
-        "At hjernen er ferdig utviklet ved fødselen",
+        "En egenskap som gjør hjernen ferdig utviklet ved fødselen",
         "Hjernens evne til å endre seg gjennom livet",
-        "En sykdom i nervene",
-        "Et hormon"
+        "En sykdom som skader nervecellene i hjernen",
+        "Et hormon som styrer hjernens utvikling gjennom livet"
       ],
       "correct": 1,
       "explain": "Grunnlaget for læring."
@@ -346,7 +346,7 @@
           "GABA",
           "Dopamin",
           "Noradrenalin",
-          "Adrenalin"
+          "Glutamat"
         ],
         "correct": 0,
         "explain": "Virker beroligende.",
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

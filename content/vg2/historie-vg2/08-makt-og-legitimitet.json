@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva betyr at makt er legitim?",
       "options": [
-        "At makten er stor",
+        "At makten bygger på militær styrke",
         "At makten blir sett på som rettmessig",
-        "At makten er arvet",
-        "At makten er ulovlig"
+        "At makten er samlet hos én leder",
+        "At makten blir kontrollert av domstolene"
       ],
       "correct": 1,
       "explain": "Makthavere trenger begrunnelser for makten."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hva var føydalisme?",
       "options": [
-        "System der kongen ga jord til adelsmenn mot lojalitet og militær støtte",
-        "Et demokrati",
-        "En type kirke",
-        "En handelsavtale"
+        "Kongen ga adelsmenn jord mot lojalitet og militær støtte",
+        "Bøndene ga kongen jord mot skatt og arbeidsplikt",
+        "Kongen ansatte embetsmenn mot skatt og lydighet",
+        "Byene styrte handel gjennom laug og avtaler"
       ],
       "correct": 0,
       "explain": "Makten var spredt på mange hender."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hvorfor var føydalismen svak i Norge?",
       "options": [
-        "Fordi det ikke fantes konger",
-        "Fordi kirken var svak",
+        "Fordi Norge hadde en sterk og tallrik adel",
+        "Fordi norske bønder var bundet til godseiernes jord",
         "Fordi mange bønder eide sin egen jord",
-        "Fordi Norge var et demokrati"
+        "Fordi kongemakten kontrollerte all jord gjennom len"
       ],
       "correct": 2,
       "explain": "Norge hadde mange selveiende bønder."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva innførte Magnus Lagabøte i 1274?",
       "options": [
-        "Eneveldet",
-        "Reformasjonen",
-        "Grunnloven",
+        "En felles skattelov for hele riket",
+        "Et felles system for valg av konger",
+        "En felles kirkelov for hele riket",
         "En felles landslov for hele riket"
       ],
       "correct": 3,
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva mente Montesquieu?",
       "options": [
-        "At kongen skal ha all makt",
+        "At kongen bør samle lovgivende, utøvende og dømmende makt",
         "At makten bør deles mellom lovgivende, utøvende og dømmende makt",
-        "At kirken skal styre",
-        "At det ikke trengs lover"
+        "At kirken bør kontrollere lovgivende, utøvende og dømmende makt",
+        "At folket bør utøve lovgivende, utøvende og dømmende makt direkte"
       ],
       "correct": 1,
       "explain": "Maktfordelingsprinsippet ble viktig for Grunnloven.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvordan ble kongens makt legitimert i middelalderen?",
       "options": [
-        "Gjennom valg",
-        "Gjennom folkeavstemninger",
-        "Gjennom Gud, arv og tradisjon",
-        "Gjennom menneskerettigheter"
+        "Gjennom valg av kongen i folkeavstemninger",
+        "Gjennom lover vedtatt av folkevalgte representanter",
+        "Gjennom troen på Gud, arv og tradisjon",
+        "Gjennom militære seire og avtaler med handelsbyer"
       ],
       "correct": 2,
       "explain": "Kongen styrte «av Guds nåde»."
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "Hva mente John Locke?",
       "options": [
-        "At mennesker trenger en eneveldig konge",
-        "At kirken skal ha all makt",
-        "At bare adelen har rettigheter",
-        "At mennesker har naturlige rettigheter, og at makten bygger på en samfunnskontrakt"
+        "Mennesker får rettigheter fra kongen, og makten bygger på arverett",
+        "Mennesker får rettigheter fra kirken, og makten bygger på religiøse regler",
+        "Mennesker får rettigheter fra adelen, og makten bygger på kongens avtale med adelen",
+        "Mennesker har naturlige rettigheter, og politisk makt bygger på en samfunnskontrakt"
       ],
       "correct": 3,
       "explain": "Folket kan avsette en hersker som bryter kontrakten.",
@@ -180,7 +180,7 @@
       "options": [
         "Thomas Hobbes",
         "John Locke",
-        "Rousseau",
+        "Jean-Jacques Rousseau",
         "Montesquieu"
       ],
       "correct": 0,
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvordan endret opplysningstidens ideer grunnlaget for legitim makt?",
       "options": [
-        "Makten skulle komme fra kirken",
+        "Legitimiteten flyttet seg fra folket og lovene til kirken",
         "Legitimiteten flyttet seg fra Gud og arv til folket",
-        "Kongen fikk mer makt",
-        "Adelen fikk all makt"
+        "Legitimiteten flyttet seg fra folket til kongen og adelen",
+        "Legitimiteten flyttet seg fra tradisjon og kirke til kongens embetsverk"
       ],
       "correct": 1,
       "explain": "Det preget Grunnloven i 1814."
@@ -327,9 +327,9 @@
         "text": "Hva var tiende?",
         "options": [
           "En skatt til kirken",
-          "En type len",
-          "En lov",
-          "En hær"
+          "En avgift til kongen",
+          "En ytelse til godseieren",
+          "En betaling til byens laug"
         ],
         "correct": 0,
         "explain": "En tidel av avlingen."
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Hvorfor var eneveldet effektivt, ifølge mange historikere?",
         "options": [
-          "Fordi kongen gjorde alt selv",
-          "Fordi det ikke fantes lover",
+          "Fordi et arvelig adelssjikt styrte gjennom personlige bånd og lojalitet",
+          "Fordi kongen styrte gjennom lokale stormenn uten faste regler",
           "Fordi et profesjonelt embetsverk styrte etter lover og regler",
-          "Fordi folket stemte ofte"
+          "Fordi folkevalgte representanter vedtok lover og kontrollerte embetsverket"
         ],
         "correct": 2,
         "explain": "Eneveldet var ikke vilkårlig styre.",
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

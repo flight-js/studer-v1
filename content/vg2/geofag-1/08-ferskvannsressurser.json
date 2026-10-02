@@ -86,7 +86,7 @@
         "Husholdninger",
         "Jordbruk",
         "Industri",
-        "Svømmebassenger"
+        "Kraftproduksjon"
       ],
       "correct": 1,
       "explain": "Rundt 70 %, mest vanning."
@@ -96,9 +96,9 @@
       "text": "Hvor får de fleste i Norge drikkevannet sitt fra?",
       "options": [
         "Overflatevann fra innsjøer og elver",
-        "Avsalting",
-        "Grunnvann alene",
-        "Regnvann fra taket"
+        "Grunnvann fra brønner og borehull",
+        "Oppsamlet regnvann fra tak og sisterner",
+        "Avsaltet sjøvann fra kystnære anlegg"
       ],
       "correct": 0,
       "explain": "Rundt 90 % fra overflatevann."
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "Hvorfor krympet Aralsjøen?",
       "options": [
-        "Et jordskjelv",
-        "Økt nedbør",
+        "Elvene ble ledet bort for å forsyne byer med drikkevann",
+        "Elvene ble demmet opp for å hindre vårflommer",
         "Elvene ble brukt til å vanne bomullsåkre",
-        "Isbreer smeltet"
+        "Elvene ble ledet bort for å drive vannkraftverk"
       ],
       "correct": 2,
       "explain": "Fra 1960-tallet.",
@@ -120,9 +120,9 @@
       "id": "q04",
       "text": "Hva er virtuelt vann?",
       "options": [
-        "Vann i dataspill",
-        "Grunnvann",
-        "Vann i atmosfæren",
+        "Vannet som finnes naturlig i selve varen før bruk",
+        "Vannet som trengs for å transportere en vare til butikken",
+        "Vannet som renses etter bruk i vareproduksjonen",
         "Vannet som er brukt til å lage en vare"
       ],
       "correct": 3,
@@ -133,9 +133,9 @@
       "text": "Hva kan skje når grunnvann pumpes opp raskere enn det fornyes?",
       "options": [
         "Grunnvannsspeilet synker og bakken kan synke",
-        "Det blir mer grunnvann",
-        "Havet synker",
-        "Ingenting"
+        "Grunnvannsspeilet stiger og bakken kan heve seg",
+        "Grunnvannsspeilet synker og brønnene kan få mer vann",
+        "Grunnvannsspeilet holder seg stabilt og bakken kan bli våtere"
       ],
       "correct": 0,
       "explain": "Brønner kan tørke ut."
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hvorfor kan demninger skape konflikter mellom land?",
       "options": [
-        "De lager støy",
+        "Land nedstrøms kan få mer nedbør",
         "Land nedstrøms kan få mindre vann",
-        "De øker nedbøren",
-        "De gir for mye fisk"
+        "Land nedstrøms kan få flere fisk",
+        "Land nedstrøms kan få renere luft"
       ],
       "correct": 1,
       "explain": "For eksempel langs Nilen."
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "Hva er en ulempe med avsalting?",
       "options": [
-        "Vannet blir salt",
-        "Det gir for mye vann",
+        "Det krever mye ferskvann",
+        "Det gjør drikkevannet for salt",
         "Det krever mye energi",
-        "Det virker bare i Norge"
+        "Det krever mye nedbør"
       ],
       "correct": 2,
       "explain": "Og saltlaken må tas hånd om.",
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hvilket tiltak gir mer effektiv vanning?",
       "options": [
-        "Å vanne midt på dagen i sola",
-        "Oversvømmelse av åkrene",
-        "Å bruke mer vann",
+        "Flomvanning",
+        "Overflatevanning",
+        "Spredevanning",
         "Dryppvanning"
       ],
       "correct": 3,
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Hva handler FNs bærekraftsmål 6 om?",
       "options": [
-        "Fornybar energi",
+        "Ren energi og moderne energiforsyning",
         "Rent vann og gode sanitærforhold",
-        "Livet i havet",
-        "Klima"
+        "Livet i havet og bærekraftig fiske",
+        "Tiltak mot klimaendringer og utslipp"
       ],
       "correct": 1,
       "explain": "Tilgang for alle.",
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hvilket av disse gir vannstress?",
         "options": [
-          "Våtere klima",
+          "Befolkningsnedgang og mindre vannforbruk",
           "Befolkningsvekst og storstilt vanning",
-          "Færre mennesker",
-          "Bedre rensing"
+          "Mer nedbør og bedre vannlagring",
+          "Bedre vannrensing og mindre lekkasje"
         ],
         "correct": 1,
         "explain": "Etterspørselen øker."
@@ -340,9 +340,9 @@
         "text": "Hva skal vannforskriften i Norge sørge for?",
         "options": [
           "God økologisk og kjemisk tilstand i vann",
-          "Lavere strømpris",
-          "Mer vannkraft",
-          "Flere demninger"
+          "God økologisk tilstand og høyere vannkraftproduksjon",
+          "God kjemisk tilstand og lavere strømpriser for husholdninger",
+          "God økologisk tilstand og flere demninger i vassdrag"
         ],
         "correct": 0,
         "explain": "Helhetlig forvaltning av vannet.",
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Hvilken elv har vært kilde til uenighet mellom Etiopia og Egypt?",
         "options": [
-          "Mekong",
-          "Donau",
+          "Eufrat",
+          "Tigris",
           "Nilen",
-          "Amazonas"
+          "Mekong"
         ],
         "correct": 2,
         "explain": "På grunn av en stor demning på Den blå Nilen.",
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

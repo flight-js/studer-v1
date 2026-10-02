@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "What is a thesis statement?",
       "options": [
-        "The title of the essay",
-        "One clear sentence that states your position",
-        "A list of sources",
-        "The last paragraph"
+        "A clear sentence that introduces the essay topic",
+        "A clear sentence that states your position",
+        "A short sentence that names the essay's main source",
+        "A final sentence that repeats the essay title"
       ],
       "correct": 1,
       "explain": "The thesis statement tells the reader exactly what you are going to argue."
@@ -93,9 +93,9 @@
       "text": "What does the first “E” in PEEL stand for?",
       "options": [
         "Evidence",
-        "Ending",
-        "Example sentence",
-        "Essay"
+        "Explanation",
+        "Example",
+        "Evaluation"
       ],
       "correct": 0,
       "explain": "PEEL = Point, Evidence, Explanation, Link.",
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Why should you include a counterargument?",
       "options": [
-        "To change your opinion",
-        "To make the essay longer",
+        "To show that the opposing view matters more than your own position",
+        "To persuade readers to accept the opposing view instead of yours",
         "To show that you have considered other views and can refute them",
-        "Because the teacher says so"
+        "To avoid explaining your reasons for supporting your own position"
       ],
       "correct": 2,
       "explain": "Answering a counterargument makes your own position more convincing."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Which linking word shows contrast?",
       "options": [
-        "furthermore",
         "therefore",
-        "for example",
+        "furthermore",
+        "consequently",
         "however"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "id": "q05",
       "text": "What should the conclusion NOT do?",
       "options": [
-        "Sum up the main points",
-        "Restate the thesis",
-        "Introduce new arguments",
+        "Summarise the main points",
+        "Restate the writer's thesis",
+        "Introduce arguments not discussed earlier",
         "End with a final thought"
       ],
       "correct": 2,
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Which is the best hook for an essay about school phones?",
       "options": [
-        "This essay is about phones.",
-        "Did you know that many students check their phones over a hundred times a day?",
-        "Phones.",
-        "I will now write an essay."
+        "This essay will explain how phones can affect students during the school day.",
+        "Did you know many students check their phones over a hundred times daily?",
+        "Students use phones for messages, games, and schoolwork throughout the school day.",
+        "Phones are common at school and students use them between lessons each day."
       ],
       "correct": 1,
       "explain": "A question with a surprising fact catches the reader's interest."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Which sentence is an example of hedging?",
       "options": [
-        "This proves everything.",
-        "Everybody knows this is true.",
+        "Research proves that this improves concentration for many students.",
+        "The study confirms that this improves concentration among students.",
         "Studies suggest that this may improve concentration.",
-        "This is 100 % certain."
+        "Evidence shows that this improves concentration for most students."
       ],
       "correct": 2,
       "explain": "“Suggest” and “may” show careful, fair language.",
@@ -167,9 +167,9 @@
       "text": "What register is usually best for an argumentative essay?",
       "options": [
         "Formal",
-        "Very informal with slang",
-        "Text-message style",
-        "Poetic"
+        "Informal",
+        "Casual",
+        "Chatty"
       ],
       "correct": 0,
       "explain": "Essays use formal language without slang and contractions."
@@ -178,9 +178,9 @@
       "id": "q09",
       "text": "How many main arguments should a body paragraph contain?",
       "options": [
-        "None",
-        "As many as possible",
+        "Two",
         "Three",
+        "Four",
         "One"
       ],
       "correct": 3,
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Which phrase introduces a source?",
       "options": [
-        "Everybody knows that…",
+        "I think the main reason is…",
         "According to a report from…",
-        "I think maybe…",
-        "Whatever…"
+        "A useful example of this is…",
+        "It seems clear that the answer is…"
       ],
       "correct": 1,
       "explain": "“According to…” shows where your information comes from."
@@ -320,8 +320,8 @@
         "options": [
           "however",
           "moreover",
-          "although",
-          "nevertheless"
+          "consequently",
+          "otherwise"
         ],
         "correct": 1,
         "explain": "“Moreover” adds another point in the same direction."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "What does “refute” mean?",
         "options": [
-          "To agree completely",
-          "To repeat",
+          "To show that an argument is supported by evidence",
+          "To explain why an argument is relevant to the topic",
           "To show that an argument is wrong or weaker",
-          "To summarise"
+          "To present an argument again in different words"
         ],
         "correct": 2,
         "explain": "Refuting a counterargument strengthens your own position."
@@ -345,9 +345,9 @@
         "text": "What is a call to action?",
         "options": [
           "An ending that encourages the reader to do or think something",
-          "A phone call",
-          "A source",
-          "A topic sentence"
+          "An ending that repeats the writer's main position",
+          "An ending that summarises the reasons in the essay",
+          "An ending that introduces evidence from a named source"
         ],
         "correct": 0,
         "explain": "For example: “It is time for schools to act.”",
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

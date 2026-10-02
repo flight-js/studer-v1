@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvilken stråling har høyest energi?",
       "options": [
-        "Radiobølger",
-        "Synlig lys",
+        "Røntgenstråling",
+        "Ultrafiolett stråling",
         "Gammastråling",
-        "Infrarød stråling"
+        "Synlig lys"
       ],
       "correct": 2,
       "explain": "Gammastråling har kortest bølgelengde og høyest energi."
@@ -89,9 +89,9 @@
       "text": "Hva kjennetegner ioniserende stråling?",
       "options": [
         "Den kan rive løs elektroner og skade DNA",
-        "Den varmer bare opp",
-        "Den er alltid synlig",
-        "Den finnes bare i laboratorier"
+        "Den kan skade celler, men ikke rive løs elektroner",
+        "Den kan rive løs elektroner, men ikke skade celler",
+        "Den kan varme opp vev, men ikke rive løs elektroner"
       ],
       "correct": 0,
       "explain": "Derfor kan den øke risikoen for kreft."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva stopper alfastråling?",
       "options": [
-        "Bare tykk betong",
-        "Ingenting",
-        "Noen meter vann",
-        "Et papirark"
+        "Et papirark stopper gammastråling",
+        "Et papirark stopper røntgenstråling",
+        "Et papirark stopper høyenergetisk betastråling",
+        "Et papirark stopper alfastråling"
       ],
       "correct": 3,
       "explain": "Men alfastrålende stoffer er farlige hvis de kommer inn i kroppen."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er betastråling?",
       "options": [
-        "Heliumkjerner",
+        "Protoner",
         "Elektroner",
-        "Lys",
-        "Nøytroner"
+        "Nøytroner",
+        "Heliumkjerner"
       ],
       "correct": 1,
       "explain": "Betastråling stoppes av noen millimeter aluminium."
@@ -125,9 +125,9 @@
       "text": "Hva er halveringstid?",
       "options": [
         "Tiden før halvparten av de radioaktive kjernene er omdannet",
-        "Tiden før alt er borte",
-        "Halve levetiden til et menneske",
-        "Tiden det tar å måle stråling"
+        "Tiden før alle de radioaktive kjernene er omdannet",
+        "Tiden før strålingen fra stoffet er helt borte",
+        "Tiden det tar for én radioaktiv kjerne å bli omdannet"
       ],
       "correct": 0,
       "explain": "Halveringstiden er fast for hvert stoff."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva måler enheten sievert?",
       "options": [
-        "Antall omdannelser per sekund",
-        "Bølgelengde",
+        "Radioaktive omdannelser per sekund",
+        "Strålingens energi og bølgelengde",
         "Stråledose og biologisk virkning",
-        "Temperatur"
+        "Temperatur i bestrålt vev"
       ],
       "correct": 2,
       "explain": "Becquerel måler aktivitet."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er radon?",
       "options": [
-        "En type UV-stråling",
+        "En radioaktiv væske fra berggrunnen",
         "En radioaktiv gass fra berggrunnen",
-        "Et mineral i mat",
-        "En type mobilsignal"
+        "Et radioaktivt mineral fra berggrunnen",
+        "En ikke-radioaktiv gass fra berggrunnen"
       ],
       "correct": 1,
       "explain": "Radon kan samle seg i hus og øker risikoen for lungekreft."
@@ -173,9 +173,9 @@
       "text": "Hvorfor kan for mye sol gi hudkreft?",
       "options": [
         "UV-stråling kan skade DNA i hudcellene",
-        "Solen sender ut alfastråling",
-        "Varmen brenner cellene",
-        "Synlig lys er ioniserende"
+        "UV-stråling kan skade DNA ved å varme opp hudcellene",
+        "UV-stråling kan skade DNA ved å gjøre cellene radioaktive",
+        "Synlig lys kan skade DNA ved å ionisere hudcellene"
       ],
       "correct": 0,
       "explain": "Bruk solkrem og unngå solbrenthet."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvilken kilde er best for pålitelig informasjon om strålevern i Norge?",
       "options": [
-        "En anonym blogg",
-        "En reklame for strålebeskyttende produkter",
-        "Direktoratet for strålevern og atomsikkerhet (DSA)",
-        "En kommentar på sosiale medier"
+        "En anonym blogg om stråling",
+        "En nettbutikk som selger strålevern",
+        "DSA, Norges fagmyndighet for strålevern",
+        "Et innlegg fra en ukjent bruker"
       ],
       "correct": 2,
       "explain": "DSA er fagmyndigheten på området.",
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva måler enheten becquerel?",
         "options": [
-          "Stråledose",
+          "Stråledose mottatt per kilogram vev",
           "Antall radioaktive omdannelser per sekund",
-          "Bølgelengde",
-          "Energi i joule"
+          "Bølgelengde på stråling målt i meter",
+          "Energi fra stråling målt i joule"
         ],
         "correct": 1,
         "explain": "Sievert måler stråledose."
@@ -346,9 +346,9 @@
         "text": "Hvilken rekkefølge går fra lav til høy energi?",
         "options": [
           "Radio, synlig lys, røntgen",
-          "Røntgen, synlig lys, radio",
+          "Radio, røntgen, synlig lys",
           "Synlig lys, radio, røntgen",
-          "Gamma, UV, infrarødt"
+          "Røntgen, radio, synlig lys"
         ],
         "correct": 0,
         "explain": "Energien øker når bølgelengden blir kortere."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

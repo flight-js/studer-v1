@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er en datalogger?",
       "options": [
-        "En person som skriver ned tall",
+        "Et produkt som registrerer målinger, men ikke lagrer dem",
         "Et produkt som måler automatisk og lagrer målinger over tid",
-        "Et regneark",
-        "En type sensor"
+        "Et produkt som lagrer målinger tastet inn av brukeren",
+        "Et produkt som viser målinger fra en sensor uten tidslagring"
       ],
       "correct": 1,
       "explain": "Med sensor, mikrokontroller og lagring."
@@ -93,9 +93,9 @@
       "text": "Hvorfor trenger hver måling et tidsstempel?",
       "options": [
         "For å vite når målingen ble gjort",
-        "For å spare strøm",
-        "For å gjøre filen mindre",
-        "For å kalibrere sensoren"
+        "For å vite hvilken sensor som målte verdien",
+        "For å vise hvilken enhet målingen bruker",
+        "For å kontrollere om sensoren er riktig kalibrert"
       ],
       "correct": 0,
       "explain": "Nødvendig for å se endringer over tid."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hvilken målefrekvens passer for romtemperatur?",
       "options": [
-        "1000 målinger per sekund",
-        "Én måling per år",
+        "Omtrent én måling per sekund",
+        "Omtrent én måling per dag",
         "Omtrent én måling per minutt",
-        "Én måling per uke"
+        "Omtrent én måling per uke"
       ],
       "correct": 2,
       "explain": "Temperaturen endrer seg sakte.",
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hvorfor bør en temperatursensor ikke ligge inntil varm elektronikk?",
       "options": [
-        "Den blir ødelagt",
-        "Den bruker mer strøm",
-        "Den blir for kald",
-        "Varmen påvirker målingen"
+        "Fordi sensoren da måler temperaturen raskere",
+        "Fordi sensoren da bruker mer strøm",
+        "Fordi varmen gjør sensoren tregere til å starte",
+        "Fordi varmen påvirker målingen"
       ],
       "correct": 3,
       "explain": "Kabinettet må ikke påvirke målingen."
@@ -130,9 +130,9 @@
       "text": "Hvorfor bør første rad i CSV-filen inneholde enheter?",
       "options": [
         "Så det er tydelig hva tallene betyr",
-        "Fordi regneark krever det",
-        "For å gjøre filen større",
-        "Det er ikke nødvendig"
+        "Fordi CSV-filen ellers ikke kan åpnes i regneark",
+        "For at regnearket skal finne måleverdiene automatisk",
+        "For at sensoren skal vite hvilken enhet den måler"
       ],
       "correct": 0,
       "explain": "For eksempel temperatur_C."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva bør du gjøre før en stor måleserie?",
       "options": [
-        "Ingenting",
+        "En kontroll av filnavnet",
         "En kort prøvelogging",
-        "Slette programmet",
-        "Bytte sensor"
+        "En sjekk av datakabelen",
+        "En visuell sensorsjekk"
       ],
       "correct": 1,
       "explain": "Da oppdager du feil tidlig."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er en ulempe med svært høy målefrekvens?",
       "options": [
-        "Dårligere oppløsning",
-        "Færre data",
-        "Enorme datamengder og høyt strømforbruk",
-        "Ingen ulemper"
+        "Det gir færre målinger og lavere strømforbruk",
+        "Det gir større måleusikkerhet og færre tidsstempler",
+        "Det gir enorme datamengder og høyt strømforbruk",
+        "Det gir lengre intervaller mellom lagrede målinger"
       ],
       "correct": 2,
       "explain": "Velg frekvens etter hva du vil fange opp."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Når kan du fjerne en måling fra datasettet?",
       "options": [
-        "Når den er uventet",
-        "Når den ødelegger grafen",
-        "Aldri",
+        "Når den avviker fra de andre målingene, uten å undersøke hvorfor",
+        "Når den gjør grafen mindre oversiktlig, selv om den er gyldig",
+        "Når den er uventet, selv om måleverdien er kontrollert",
         "Når den er en åpenbar feilmåling, og du dokumenterer det"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva forteller det at CO₂-nivået faller raskt når vinduene åpnes?",
       "options": [
         "At ventilasjonen i rommet kan være for dårlig",
-        "At sensoren er ødelagt",
-        "At det er for kaldt",
-        "At det er for mange vinduer"
+        "At temperaturen i rommet kan være for lav",
+        "At luftfuktigheten i rommet kan være for høy",
+        "At sensoren kan være plassert for nær døra"
       ],
       "correct": 0,
       "explain": "Frisk luft senker CO₂-nivået.",
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva bestemmer hva som skal måles, hvor ofte og hvor lenge?",
       "options": [
-        "Prisen på sensoren",
+        "Lagringskapasiteten i dataloggeren",
         "Spørsmålet du vil ha svar på",
-        "Fargen på kabinettet",
-        "Hvor mange ledninger du har"
+        "Måleområdet til sensoren",
+        "Oppløsningen i måleinstrumentet"
       ],
       "correct": 1,
       "explain": "Start alltid med spørsmålet."
@@ -320,8 +320,8 @@
         "options": [
           "y-aksen",
           "x-aksen",
-          "Ingen av dem",
-          "Begge"
+          "diagramtittelen",
+          "forklaringen"
         ],
         "correct": 1,
         "explain": "Tiden er den uavhengige variabelen."
@@ -332,9 +332,9 @@
         "text": "Hvilket format kan åpnes direkte i regneark?",
         "options": [
           "CSV",
-          "MP3",
-          "JPEG",
-          "EXE"
+          "DOCX",
+          "PDF",
+          "PPTX"
         ],
         "correct": 0,
         "explain": "Kommaseparerte verdier."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva hører med i vurderingen av et datainnsamlingsprosjekt?",
         "options": [
-          "Bare produktets farge",
-          "Bare hvor mye tid det tok",
+          "Sensorens merke, modell og innkjøpspris",
+          "Måleverdienes gjennomsnitt, median og typetall",
           "Usikkerhet, feilkilder og forslag til forbedringer",
-          "Bare hvem som var på gruppa"
+          "Prosjektets tidsbruk, gruppestørrelse og arbeidsfordeling"
         ],
         "correct": 2,
         "explain": "Kritisk vurdering av resultatene."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

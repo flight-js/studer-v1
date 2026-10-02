@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hvem grunnla hinduismen?",
       "options": [
-        "Buddha",
-        "Den har ingen grunnlegger",
-        "Guru Nanak",
-        "Konfucius"
+        "Buddha grunnla den",
+        "Ingen enkeltperson grunnla den",
+        "Guru Nanak grunnla den",
+        "Konfucius grunnla den"
       ],
       "correct": 1,
       "explain": "Den har vokst fram over flere tusen år."
@@ -95,9 +95,9 @@
       "text": "Hva er samsara?",
       "options": [
         "Kretsløpet av fødsel, død og gjenfødelse",
-        "En gud",
-        "En hellig bok",
-        "Et tempel"
+        "Frigjøringen fra fødsel, død og gjenfødelse",
+        "Læren om at selvet gjenfødes etter døden",
+        "Veien til åndelig innsikt gjennom meditasjon"
       ],
       "correct": 0,
       "explain": "Målet er å bli fri fra det."
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva er karma?",
       "options": [
-        "En type meditasjon",
-        "En gud",
-        "Loven om at handlinger får konsekvenser for det neste livet",
-        "Et måltid"
+        "Læren om at selvet gjenfødes etter døden",
+        "En meditasjonsøvelse som roer kropp og sinn",
+        "Loven om at handlinger påvirker framtidige liv",
+        "En hinduistisk gud som beskytter verdensordenen"
       ],
       "correct": 2,
       "explain": "Sentralt i både hinduisme og buddhisme."
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "Hva sier den andre edle sannheten?",
       "options": [
-        "Livet er bare lykke",
-        "Lidelse finnes ikke",
-        "Veien er meditasjon alene",
-        "Lidelsen skyldes begjær og tilknytning"
+        "Lidelsen opphører når begjæret blir borte",
+        "Lidelsen overvinnes ved å følge den åttedelte veien",
+        "Lidelsen skyldes at mennesket mangler et fast selv",
+        "Lidelsen oppstår på grunn av begjær og tilknytning"
       ],
       "correct": 3,
       "explain": "Buddhas lære."
@@ -131,9 +131,9 @@
       "text": "Hva er anatta?",
       "options": [
         "Læren om at det ikke finnes et fast selv",
-        "Den høyeste guden",
-        "Et ritual",
-        "En hellig elv"
+        "Læren om at alt er forgjengelig",
+        "Læren om at handlinger påvirker framtidige liv",
+        "Læren om frigjøring fra kretsløpet av gjenfødelse"
       ],
       "correct": 0,
       "explain": "Alt er forgjengelig."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva er langar?",
       "options": [
-        "En bønn",
+        "En fellesbønn i sikhenes tempel",
         "Et gratis fellesmåltid i sikhenes tempel",
-        "En pilegrimsreise",
-        "En fest"
+        "Et sangritual i sikhenes tempel",
+        "En pilegrimsreise til sikhenes tempel"
       ],
       "correct": 1,
       "explain": "Uttrykk for likeverd.",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva legger konfutsianismen vekt på?",
       "options": [
-        "Gjenfødelse",
-        "Frelse",
-        "Harmoni, plikt og riktige relasjoner",
-        "Én personlig gud"
+        "Gjenfødelse, karma og frigjøring fra samsara",
+        "Meditasjon, nirvana og munkeordenens regler",
+        "Harmoni, plikt og gode relasjoner mellom mennesker",
+        "Tilbedelse, offer og frelse gjennom en gud"
       ],
       "correct": 2,
       "explain": "Respekt for foreldre er viktig."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvordan skiller østlige tradisjoner seg ofte fra vestlige i synet på tid?",
       "options": [
-        "De ser tiden som lineær",
-        "De har ingen tid",
-        "De ser tiden som slutt",
+        "De ser tiden som lineær og uten gjentakelse",
+        "De ser tiden som en rett linje med fast sluttpunkt",
+        "De ser tiden som en stadig utvikling mot framtiden",
         "De ser tiden som syklisk"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hva er moksha?",
       "options": [
-        "Frigjøring fra kretsløpet",
-        "En gud",
-        "En kaste",
-        "En fest"
+        "Frigjøring fra kretsløpet av gjenfødelse",
+        "Tilbedelse av en guddom gjennom bønn og ritualer",
+        "Tilhørighet til en arvelig samfunnsgruppe",
+        "Feiring av en guddom med musikk og mat"
       ],
       "correct": 0,
       "explain": "Målet i hinduismen."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva betyr ordet Buddha?",
       "options": [
-        "Den hellige",
+        "Den vise",
         "Den oppvåknede",
-        "Den første",
-        "Den rike"
+        "Den hellige",
+        "Den mediterende"
       ],
       "correct": 1,
       "explain": "Siddharta Gautama fikk oppvåkning."
@@ -315,8 +315,8 @@
         "options": [
           "Theravada",
           "Vajrayana",
-          "Sunni",
-          "Reform"
+          "Zen",
+          "Nichiren"
         ],
         "correct": 1,
         "explain": "Med Dalai Lama.",
@@ -328,9 +328,9 @@
         "text": "Hva betyr dao?",
         "options": [
           "Veien",
-          "Guden",
-          "Kongen",
-          "Tempelet"
+          "Loven",
+          "Naturkraften",
+          "Livsenergien"
         ],
         "correct": 0,
         "explain": "Å leve i pakt med naturens rytme."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvilke tre guder er blant de mest kjente i hinduismen?",
         "options": [
-          "Zevs, Hera og Apollon",
-          "Odin, Tor og Frøy",
+          "Mahavira, Parshvanatha og Rishabhanatha",
+          "Amitabha, Avalokiteshvara og Manjushri",
           "Brahma, Vishnu og Shiva",
-          "Beaivi, Máttaráhkká og Uksáhkká"
+          "Guru Nanak, Guru Angad og Guru Amar Das"
         ],
         "correct": 2,
         "explain": "Mange andre guder dyrkes også.",
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

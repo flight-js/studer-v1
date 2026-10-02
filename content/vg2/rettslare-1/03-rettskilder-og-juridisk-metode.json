@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er forarbeider?",
       "options": [
-        "Dokumenter fra lovens tilblivelse, som NOU og proposisjon",
-        "Tidligere dommer",
-        "Skikk og bruk",
-        "Fagbøker"
+        "Dokumenter fra lovarbeidet, som NOU-er og lovproposisjoner",
+        "Rettsavgjørelser fra domstolene, som tingrettsdommer og høyesterettsdommer",
+        "Juridiske fagbøker og artikler, skrevet av jurister og forskere",
+        "Regler vedtatt av Stortinget, som lover og stortingsvedtak"
       ],
       "correct": 0,
       "explain": "De forklarer hensikten med loven."
@@ -101,21 +101,21 @@
       "id": "q03",
       "text": "Hva er et prejudikat?",
       "options": [
-        "En lov",
-        "En forskrift",
-        "En Høyesterettsdom som legger føringer for senere saker",
-        "En avtale"
+        "En tingrettsdom som gir føringer for senere saker",
+        "En forskrift som gir føringer for senere saker",
+        "En Høyesterettsdom som gir føringer for senere saker",
+        "En lovbestemmelse som gir føringer for senere saker"
       ],
       "correct": 2,
-      "explain": "Rettspraksis."
+      "explain": "Et prejudikat er en Høyesterettsdom som gir føringer for senere saker."
     },
     {
       "id": "q04",
       "text": "Hva er subsumsjon?",
       "options": [
-        "Å finne partene",
-        "Å skrive konklusjonen",
-        "Å lese forarbeidene",
+        "Å finne de relevante fakta i saken",
+        "Å tolke lovens ordlyd ut fra formålet",
+        "Å vurdere hvilke rettskilder som veier tyngst",
         "Å anvende rettsregelen på faktum"
       ],
       "correct": 3,
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvor starter man når en lov skal tolkes?",
       "options": [
-        "Med reelle hensyn",
+        "Med formålet",
         "Med ordlyden",
-        "Med juridisk teori",
-        "Med konklusjonen"
+        "Med forarbeidene",
+        "Med rettspraksis"
       ],
       "correct": 1,
       "explain": "Deretter formål, forarbeider og praksis."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er en forskrift?",
       "options": [
-        "En lov vedtatt av Stortinget",
-        "En dom",
-        "En regel gitt av regjeringen eller departement med hjemmel i lov",
-        "En avtale mellom privatpersoner"
+        "En lov vedtatt av Stortinget etter behandling og votering",
+        "En dom avsagt av en domstol etter en rettssak",
+        "En regel fra regjeringen eller et departement, med hjemmel i lov",
+        "En avtale inngått mellom privatpersoner om rettigheter og plikter"
       ],
       "correct": 2,
       "explain": "Utfyller lovene."
@@ -174,9 +174,9 @@
       "text": "Hva er reelle hensyn?",
       "options": [
         "Vurderinger av hva som er rimelig og rettferdig",
-        "Paragrafer i Grunnloven",
-        "Tidligere dommer",
-        "Stortingets vedtak"
+        "Bestemmelser i lover som fastsetter rettigheter og plikter",
+        "Avgjørelser fra domstoler i tidligere rettssaker",
+        "Vedtak fra Stortinget om nye lover og regler"
       ],
       "correct": 0,
       "explain": "En rettskilde med lavere vekt."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvor finner du norske lover og forskrifter?",
       "options": [
-        "Wikipedia",
+        "Domstol.no",
         "Lovdata",
-        "Facebook",
-        "Aviser"
+        "Brønnøysundregistrene",
+        "Altinn"
       ],
       "correct": 1,
       "explain": "Den offisielle databasen.",
@@ -335,9 +335,9 @@
         "text": "Hvilken dokumenttype er et forarbeid?",
         "options": [
           "NOU",
-          "Dom fra tingretten",
-          "Lovdata",
-          "Leserinnlegg"
+          "Høyesterettsdom",
+          "Forskrift",
+          "Lovtekst"
         ],
         "correct": 0,
         "explain": "Norges offentlige utredninger.",
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva bør en konklusjon i en juridisk oppgave være?",
         "options": [
-          "Lang og uklar",
-          "Uten begrunnelse",
+          "En drøfting av relevante rettskilder",
+          "En oppsummering av sakens faktum",
           "Et klart svar på problemstillingen",
-          "En ny problemstilling"
+          "En vurdering av partenes forklaringer"
         ],
         "correct": 2,
         "explain": "Bygd på drøftingen."
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

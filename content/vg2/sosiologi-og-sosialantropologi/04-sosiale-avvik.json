@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva betyr det at avvik er relativt?",
       "options": [
-        "At avvik alltid er kriminelt",
+        "At avvik viser til handlinger som bryter med landets lover",
         "At hva som regnes som avvik, varierer med tid og sted",
-        "At alle avvik er like alvorlige",
-        "At avvik ikke finnes"
+        "At avvik viser til handlinger som skader andre mennesker",
+        "At avvik bestemmes av hvor alvorlig et normbrudd er"
       ],
       "correct": 1,
       "explain": "For eksempel tatoveringer og samboerskap."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er innovasjon i Mertons pressteori?",
       "options": [
-        "Å gi opp både mål og midler",
-        "Å følge reglene uten mål",
+        "Å godta både målet og de godkjente midlene",
+        "Å avvise målet, men følge de godkjente midlene",
         "Å godta målet, men bruke ulovlige midler",
-        "Å finne nye mål og midler"
+        "Å avvise målene og midlene og trekke seg unna"
       ],
       "correct": 2,
       "explain": "For eksempel svindel for å bli rik."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er anomi?",
       "options": [
-        "En type straff",
-        "En sykdom",
-        "Et lovbrudd",
+        "En tilstand der straffereglene håndheves strengere enn før",
+        "En tilstand der normene blir tydeligere og sterkere",
+        "En tilstand der lovbrudd får sosial anerkjennelse",
         "En tilstand med uklare eller svekkede normer"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva sier sosial kontroll-teori?",
       "options": [
-        "Bånd til familie, skole og venner hindrer de fleste i å bryte normer",
-        "Alle bryter normer",
-        "Straff er eneste løsning",
-        "Avvik er arvelig"
+        "Teorien sier at bånd til familie, skole og venner hindrer de fleste i å bryte normer",
+        "Teorien sier at straff fra politi og domstoler hindrer de fleste i å bryte normer",
+        "Teorien sier at medfødte egenskaper hindrer de fleste i å bryte normer",
+        "Teorien sier at grupper lærer de fleste å bryte normer gjennom samvær"
       ],
       "correct": 0,
       "explain": "Vi har noe å tape.",
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er moralsk panikk?",
       "options": [
-        "Frykt for å bli straffet",
+        "En kraftig reaksjon på en dokumentert trussel fra en gruppe",
         "En overdreven reaksjon på en oppfattet trussel fra en gruppe",
-        "En type psykisk lidelse",
-        "Et politisk parti"
+        "En overdreven reaksjon på et lovbrudd begått av én person",
+        "En planlagt reaksjon fra myndighetene på en kjent samfunnstrussel"
       ],
       "correct": 1,
       "explain": "Beskrevet av Stanley Cohen."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er et sekundæravvik?",
       "options": [
-        "Det første normbruddet",
-        "Et lite avvik",
-        "Avvik som følge av stemplingen",
-        "Et positivt avvik"
+        "Det første normbruddet før personen blir stemplet",
+        "Avvik som skyldes personlige egenskaper",
+        "Avvik som oppstår som følge av stempling",
+        "Avvik som får positiv anerkjennelse i samfunnet"
       ],
       "correct": 2,
       "explain": "Personen tar på seg avviksrollen."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hvilket er et eksempel på uformell sosial kontroll?",
       "options": [
-        "En dom i retten",
-        "En bot fra politiet",
-        "En regel i skolereglementet",
-        "Et misbilligende blikk fra venner"
+        "En formell advarsel fra skolens ledelse etter normbrudd",
+        "En bot fra politiet etter et normbrudd",
+        "En dom fra retten etter et normbrudd",
+        "Et misbilligende blikk fra venner etter normbrudd"
       ],
       "correct": 3,
       "explain": "Reaksjoner fra folk rundt oss."
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hvilken teori legger vekt på at avvik læres i grupper?",
       "options": [
-        "Sosialt lært avvik",
-        "Anomi",
-        "Funksjonalisme",
-        "Pressteori"
+        "Teorien om sosialt lært avvik",
+        "Teorien om sosial kontroll av avvik",
+        "Teorien om stempling av avvik",
+        "Teorien om anomi og avvik"
       ],
       "correct": 0,
       "explain": "Hvem du omgås, betyr noe."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvorfor kan strenge reaksjoner noen ganger gi mer avvik?",
       "options": [
-        "Fordi straff alltid virker",
+        "Fordi strenge reaksjoner viser at samfunnet godtar normbruddet som normalt",
         "Fordi stempling kan føre til at personen tar på seg avviksrollen",
-        "Fordi alle blir redde",
-        "Det kan de ikke"
+        "Fordi strenge reaksjoner gjør at lovbruddet ikke får juridiske følger",
+        "Fordi strenge reaksjoner lærer personen at normene ikke gjelder for andre"
       ],
       "correct": 1,
       "explain": "Stemplingsteorien."
@@ -320,7 +320,7 @@
           "Konformitet",
           "Tilbaketrekning",
           "Innovasjon",
-          "Opprør"
+          "Ritualisme"
         ],
         "correct": 1,
         "explain": "For eksempel rusmisbruk og isolasjon."
@@ -331,9 +331,9 @@
         "text": "Hvilket tiltak er forebyggende?",
         "options": [
           "Gode fritidstilbud for unge",
-          "Lengre fengselsstraffer",
-          "Offentlig uthenging",
-          "Flere bøter"
+          "Rettsmøte etter at lovbrudd er begått",
+          "Bot etter at normbrudd er registrert",
+          "Fengselsstraff etter dom for lovbrudd"
         ],
         "correct": 0,
         "explain": "Det styrker bånd og gir alternativer."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

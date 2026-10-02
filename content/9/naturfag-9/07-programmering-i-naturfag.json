@@ -83,9 +83,9 @@
       "text": "Hva er en simulering?",
       "options": [
         "Et program som etterligner en prosess etter bestemte regler",
-        "Et vanlig forsøk på lab",
-        "En type sensor",
-        "Et regneark uten data"
+        "Et forsøk som undersøker en prosess under bestemte forhold",
+        "En måler som registrerer en prosess med faste mellomrom",
+        "Et diagram som viser målinger fra en prosess over tid"
       ],
       "correct": 0,
       "explain": "Simuleringer lar oss utforske prosesser som er vanskelige å undersøke direkte."
@@ -94,10 +94,10 @@
       "id": "q02",
       "text": "Hva er en fordel med automatisk måling med sensor?",
       "options": [
-        "Man trenger aldri å kontrollere resultatene",
+        "Den gjør målingene mer nøyaktige enn sensoren kan være",
         "Den gir mange og jevne målinger over lang tid",
-        "Den er alltid helt nøyaktig",
-        "Den krever ingen strøm"
+        "Den fjerner behovet for å kontrollere sensorens målinger",
+        "Den gjør at sensoren ikke trenger å kalibreres"
       ],
       "correct": 1,
       "explain": "Programmet kan måle for eksempel hvert minutt i et helt døgn."
@@ -107,9 +107,9 @@
       "text": "Bakterier dobles hvert 20. minutt. Hvor mange blir én bakterie til etter 1 time?",
       "options": [
         "3",
-        "6",
+        "4",
         "8",
-        "20"
+        "6"
       ],
       "correct": 2,
       "explain": "På én time er det tre doblinger: 1 → 2 → 4 → 8."
@@ -118,9 +118,9 @@
       "id": "q04",
       "text": "Hvorfor må vi sammenligne en simulering med virkelige data?",
       "options": [
-        "Fordi datamaskiner alltid regner feil",
-        "Fordi det er gøy",
-        "For å gjøre programmet raskere",
+        "Fordi simuleringen bruker tilfeldige tall i alle beregninger",
+        "Fordi virkelige data er enklere å samle inn enn å beregne",
+        "Fordi sammenligningen får programmet til å regne raskere",
         "Fordi simuleringen bygger på forenklinger som kan være feil"
       ],
       "correct": 3,
@@ -131,9 +131,9 @@
       "text": "Hva brukes en løkke til i en simulering?",
       "options": [
         "Å gjenta beregningen for hvert tidssteg",
-        "Å lagre en enkelt verdi",
-        "Å koble til sensoren",
-        "Å skrive ut en tittel"
+        "Å lagre en ny verdi for hvert tidssteg",
+        "Å hente en måling fra sensoren for hvert tidssteg",
+        "Å skrive ut en overskrift for hvert tidssteg"
       ],
       "correct": 0,
       "explain": "Løkka regner ut ett tidssteg om gangen, for eksempel ett minutt eller én generasjon."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Et program skal skru på en vifte når det blir for varmt. Hva trengs?",
       "options": [
-        "Bare en løkke",
-        "Bare en liste",
+        "En løkke, som gjentar «skru på vifta» hvert sekund",
+        "En variabel, som lagrer «vifta er på» i programmet",
         "En betingelse, som «hvis temperaturen er over 25 °C»",
-        "Ingen programmering"
+        "En utskrift, som viser «temperaturen er over 25 °C»"
       ],
       "correct": 2,
       "explain": "Betingelsen avgjør når vifta skal gå."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvorfor kan tilfeldige tall være nyttige i simuleringer?",
       "options": [
-        "For å gjøre programmet feilfritt",
+        "For å gjøre resultatene mer nøyaktige enn målingene",
         "For å etterligne tilfeldige hendelser, som radioaktivt henfall",
-        "For å erstatte alle målinger",
-        "De er aldri nyttige"
+        "For å erstatte målinger som programmet mangler",
+        "For å få samme resultat hver gang programmet kjøres"
       ],
       "correct": 1,
       "explain": "Mange prosesser i naturen har et tilfeldig element som kan etterlignes med tilfeldige tall.",
@@ -168,9 +168,9 @@
       "text": "Hva gjør du når du kontrollerer en temperatursensor?",
       "options": [
         "Sammenligner verdiene med et vanlig termometer",
-        "Sletter programmet",
-        "Bytter batteri",
-        "Legger den i fryseren for alltid"
+        "Sammenligner verdiene med sensorens tidligere målinger",
+        "Sammenligner verdiene med rommets vanlige temperatur",
+        "Sammenligner verdiene med temperaturen i værmeldingen"
       ],
       "correct": 0,
       "explain": "Da ser du om sensoren viser riktige verdier."
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hva er et hva-om-spørsmål i en simulering?",
       "options": [
-        "Et spørsmål om programmets navn",
+        "Å endre én måleverdi for å rette feil i dataene",
         "Å endre én variabel for å se hvordan systemet reagerer",
-        "Å slette data",
-        "Å skrive rapport"
+        "Å starte programmet på nytt for å få samme resultat",
+        "Å endre programmets navn før kjøringen starter"
       ],
       "correct": 1,
       "explain": "Eksempel: Hva skjer med smittespredningen hvis flere er vaksinert?"
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvilket fenomen egner seg godt for simulering fordi det tar lang tid i virkeligheten?",
       "options": [
-        "Å veie et eple",
-        "Å måle romtemperaturen nå",
+        "Temperaturendringer i et rom gjennom én time",
+        "Vann som koker i en kjele på noen få minutter",
         "Radioaktiv nedbrytning over tusenvis av år",
-        "Å telle elevene i klassen"
+        "En ball som faller fra et bord på noen sekunder"
       ],
       "correct": 2,
       "explain": "Simuleringer kan vise prosesser som tar altfor lang tid å observere direkte.",
@@ -320,9 +320,9 @@
         "type": "flervalg",
         "text": "Hvor mye er igjen av et radioaktivt stoff etter to halveringstider?",
         "options": [
-          "Halvparten",
+          "Tre firedeler",
           "En firedel",
-          "Ingenting",
+          "En åttedel",
           "En tredel"
         ],
         "correct": 1,
@@ -335,9 +335,9 @@
         "text": "Hvilken byggestein lagrer størrelser som tid og temperatur i et program?",
         "options": [
           "Variabler",
-          "Kommentarer",
-          "Tabeller på papir",
-          "Skrifttyper"
+          "Løkker",
+          "Betingelser",
+          "Funksjoner"
         ],
         "correct": 0,
         "explain": "Variabler holder på verdiene programmet regner med."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva er en modell i naturfag?",
         "options": [
-          "En person som poserer",
-          "En nøyaktig kopi av virkeligheten",
+          "En nøyaktig gjengivelse som viser mange detaljer fra naturen",
+          "En samling målinger som viser resultatene fra et forsøk",
           "En forenklet beskrivelse som hjelper oss å forstå og forutsi",
-          "Et forsøk"
+          "En praktisk undersøkelse der naturen blir studert direkte"
         ],
         "correct": 2,
         "explain": "Modeller forenkler virkeligheten slik at vi kan regne på den og forstå den."
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

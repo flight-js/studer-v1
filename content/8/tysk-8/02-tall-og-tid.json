@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hvordan skriver du 21 på tysk?",
       "options": [
-        "zwanzigeins",
-        "zweiundeins",
+        "zweiundzwanzig",
+        "einunddreißig",
         "einundzwanzig",
-        "zwanzig und eins"
+        "zweiunddreißig"
       ],
       "correct": 2,
       "explain": "Enerne kommer først: «en-og-tjue»."
@@ -94,8 +94,8 @@
       "options": [
         "Halv fire (3.30)",
         "Halv tre (2.30)",
-        "Kvart over fire",
-        "Fire timer"
+        "Kvart over tre (3.15)",
+        "Kvart på fire (3.45)"
       ],
       "correct": 0,
       "explain": "Som på norsk betyr «halb vier» en halv time før fire."
@@ -119,7 +119,7 @@
         "Wie alt bist du?",
         "Wie spät ist es?",
         "Wo wohnst du?",
-        "Wie geht's?"
+        "Wann kommst du?"
       ],
       "correct": 1,
       "explain": "Du kan også si «Wie viel Uhr ist es?»."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hvordan skrives tallet 30 på tysk?",
       "options": [
-        "dreizig",
         "dreizehn",
+        "dreiundzwanzig",
         "dreißig",
-        "dreisig"
+        "vierzig"
       ],
       "correct": 2,
       "explain": "30 skrives med ß, i motsetning til de andre tierne som slutter på -zig."
@@ -143,7 +143,7 @@
         "Kvart på fire",
         "Kvart over fire",
         "Halv fire",
-        "Fire og et kvarter"
+        "Kvart på tre"
       ],
       "correct": 0,
       "explain": "«vor» betyr «før» eller «på»."
@@ -153,8 +153,8 @@
       "text": "Hvordan sier du «i mai» på tysk?",
       "options": [
         "am Mai",
-        "um Mai",
         "in Mai",
+        "auf Mai",
         "im Mai"
       ],
       "correct": 3,
@@ -166,7 +166,7 @@
       "options": [
         "16",
         "60",
-        "6",
+        "70",
         "600"
       ],
       "correct": 1,
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Ich habe am dritten März Geburtstag»?",
         "options": [
-          "Jeg er tre år gammel",
+          "Jeg har bursdag 3. mai",
           "Jeg har bursdag 3. mars",
-          "Jeg har tre bursdager",
-          "Det er tre dager til mars"
+          "Jeg har bursdag 13. mars",
+          "Jeg har bursdag 2. mars"
         ],
         "correct": 1,
         "explain": "«am dritten März» betyr «den tredje mars»."
@@ -347,8 +347,8 @@
         "options": [
           "Kvart over tre",
           "Kvart på tre",
-          "Halv tre",
-          "Tre kvarter"
+          "Halv fire",
+          "Kvart på fire"
         ],
         "correct": 0,
         "explain": "«nach» betyr «etter» eller «over»."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

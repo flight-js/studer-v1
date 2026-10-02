@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er en hypotese?",
       "options": [
-        "Et bevist faktum",
+        "Et måleresultat fra forsøket",
         "En mulig, testbar forklaring",
-        "Et måleresultat",
-        "En konklusjon"
+        "En konklusjon etter målingene",
+        "En etablert teori om et fenomen"
       ],
       "correct": 1,
       "explain": "Hypotesen testes gjennom prediksjoner."
@@ -92,9 +92,9 @@
       "text": "Hvorfor bruker vi replikater?",
       "options": [
         "Fordi levende organismer varierer",
-        "For å spare tid",
-        "For å slippe kontrollgruppe",
-        "For å bevise hypotesen"
+        "Fordi forsøket ellers mangler en kontrollgruppe",
+        "Fordi hypotesen ellers ikke kan testes",
+        "Fordi færre målinger gir raskere forsøk"
       ],
       "correct": 0,
       "explain": "Flere gjentak gir mer pålitelige resultater."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er en kontrollgruppe?",
       "options": [
-        "Gruppen med størst effekt",
-        "Gruppen som kontrollerer forsøket",
+        "En gruppe som får en annen behandling",
+        "En gruppe som viser forsøksresultatet tydeligst",
         "En gruppe som ikke får behandlingen",
-        "En gruppe med flere variabler"
+        "En gruppe der flere faktorer blir endret"
       ],
       "correct": 2,
       "explain": "Den gir et sammenligningsgrunnlag."
@@ -116,8 +116,8 @@
       "text": "Du undersøker hvordan temperaturen påvirker katalase. Hva er den uavhengige variabelen?",
       "options": [
         "Oksygenmengden",
-        "Mengden enzym",
-        "Tiden",
+        "Mengden katalase",
+        "Reaksjonstiden",
         "Temperaturen"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva er et transekt?",
       "options": [
         "En linje der du registrerer hvordan arter og miljø endrer seg",
-        "En type mikroskop",
-        "En statistisk test",
-        "En rute på 1 m²"
+        "En fast rute der du teller arter innenfor et avgrenset område",
+        "En tilfeldig flate der du registrerer arter på ett tidspunkt",
+        "En metode der du sammenligner artsantall mellom ulike områder"
       ],
       "correct": 0,
       "explain": "For eksempel fra fjæra og opp."
@@ -139,22 +139,22 @@
       "id": "q06",
       "text": "Hva betyr det at to variabler er korrelert?",
       "options": [
-        "At den ene forårsaker den andre",
+        "At den ene påvirker den andre",
         "At de varierer sammen",
-        "At de er like store",
-        "At forsøket er feil"
+        "At de har omtrent samme måleverdier",
+        "At begge måles med samme metode"
       ],
       "correct": 1,
-      "explain": "Korrelasjon er ikke det samme som årsak."
+      "explain": "Variablene kan samvariere uten at det viser hva som påvirker hva."
     },
     {
       "id": "q07",
       "text": "Hvorfor bør ruter i en ruteanalyse plasseres tilfeldig?",
       "options": [
-        "Fordi det går raskere",
-        "For å finne flest arter",
+        "For å undersøke området med flest ulike arter",
+        "For å få like mange ruter i hvert miljø",
         "For å unngå at du velger de «beste» stedene",
-        "Fordi det er påbudt"
+        "For å plassere rutene nærmest mulig hverandre"
       ],
       "correct": 2,
       "explain": "Tilfeldig plassering gir mer representative data."
@@ -169,16 +169,16 @@
         "Diskusjon"
       ],
       "correct": 3,
-      "explain": "Resultatdelen skal være nøktern."
+      "explain": "Diskusjonen setter resultatene i sammenheng og tolker dem."
     },
     {
       "id": "q09",
       "text": "Kan en hypotese bevises helt?",
       "options": [
         "Nei, men den kan styrkes eller forkastes",
-        "Ja, med ett forsøk",
-        "Ja, hvis læreren er enig",
-        "Nei, hypoteser kan ikke testes"
+        "Ja, dersom samme resultat kommer i flere forsøk",
+        "Ja, dersom resultatene støtter hypotesen tydelig",
+        "Nei, fordi vurderingen bygger på forskernes enighet"
       ],
       "correct": 0,
       "explain": "Nye data kan alltid endre bildet."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva måler standardavviket?",
       "options": [
-        "Gjennomsnittet",
+        "Gjennomsnittet av målingene",
         "Spredningen i dataene",
-        "Den største verdien",
-        "Antall målinger"
+        "Forskjellen mellom største og minste måling",
+        "Antallet målinger i datasettet"
       ],
       "correct": 1,
       "explain": "Stort standardavvik betyr stor variasjon.",
@@ -323,7 +323,7 @@
           "Linjediagram",
           "Søylediagram",
           "Punktdiagram",
-          "Sektordiagram med tid"
+          "Sektordiagram"
         ],
         "correct": 1,
         "explain": "Artene er kategorier."
@@ -334,9 +334,9 @@
         "text": "Hva er en kontrollert variabel?",
         "options": [
           "Noe som holdes likt i alle forsøkene",
-          "Det du måler",
-          "Det du endrer",
-          "Resultatet"
+          "Noe som måles i hvert av forsøkene",
+          "Noe som endres mellom forsøkene",
+          "Noe som beskriver resultatet av forsøket"
         ],
         "correct": 0,
         "explain": "Ellers kan den påvirke resultatet."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva er fagfellevurdering?",
         "options": [
-          "At elever retter hverandres prøver",
-          "At forskeren vurderer seg selv",
+          "At andre forskere gjentar forsøket før publisering",
+          "At forskeren selv vurderer arbeidet før publisering",
           "At andre forskere vurderer arbeidet før publisering",
-          "At en avis omtaler forskningen"
+          "At en redaktør vurderer arbeidet før publisering"
         ],
         "correct": 2,
         "explain": "Det sikrer kvaliteten.",
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

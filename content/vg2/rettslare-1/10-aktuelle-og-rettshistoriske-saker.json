@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva var Magnus Lagabøtes landslov fra 1274?",
       "options": [
-        "Norges første grunnlov",
+        "En felles lov for hele Danmark",
         "En felles lov for hele Norge",
-        "En lov om arv bare",
-        "En handelsavtale"
+        "En felles lov for hele Sverige",
+        "En felles lov for hele Norden"
       ],
       "correct": 1,
       "explain": "Noe av det første i Europa."
@@ -95,9 +95,9 @@
       "text": "Når fikk kvinner stemmerett i Norge?",
       "options": [
         "1913",
-        "1814",
-        "1884",
-        "1945"
+        "1901",
+        "1907",
+        "1898"
       ],
       "correct": 0,
       "explain": "Menn fikk allmenn stemmerett i 1898.",
@@ -120,21 +120,21 @@
       "id": "q04",
       "text": "Hva betyr de lege ferenda?",
       "options": [
-        "Det som er gjeldende rett",
-        "En type dom",
-        "En lov fra middelalderen",
+        "Det som tidligere var gjeldende rett",
+        "Det som skal avgjøres i en konkret sak",
+        "Det som fastslås i en rettskraftig dom",
         "Det som bør være gjeldende rett"
       ],
       "correct": 3,
-      "explain": "De lege lata er gjeldende rett."
+      "explain": "Uttrykket handler om hva retten bør bli, ikke hva den er."
     },
     {
       "id": "q05",
       "text": "Hvilken paragraf i Grunnloven handler om retten til et sunt miljø?",
       "options": [
         "§ 112",
-        "§ 1",
-        "§ 96",
+        "§ 100",
+        "§ 102",
         "§ 104"
       ],
       "correct": 0,
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Hvilket juridisk spørsmål reiser kunstig intelligens?",
       "options": [
-        "Hvem som skal betale arveavgift",
+        "Om KI-systemer skal få egne stemmerettigheter",
         "Hvem som har ansvaret og opphavsretten",
-        "Hvor mange dommere Høyesterett skal ha",
-        "Hvor gammel man må være for å gifte seg"
+        "Om KI-systemer skal få arverett etter mennesker",
+        "Om KI-systemer skal kunne få norsk statsborgerskap"
       ],
       "correct": 1,
       "explain": "Et dagsaktuelt spørsmål.",
@@ -158,8 +158,8 @@
       "id": "q07",
       "text": "Når ble homofili avkriminalisert i Norge?",
       "options": [
-        "1814",
-        "1945",
+        "1981",
+        "1993",
         "1972",
         "2009"
       ],
@@ -184,9 +184,9 @@
       "text": "Hvor bør du finne lover og dommer når du drøfter en juridisk sak?",
       "options": [
         "Lovdata",
-        "Sosiale medier",
-        "Reklame",
-        "Et partiprogram"
+        "Stortinget.no",
+        "Regjeringen.no",
+        "Store norske leksikon"
       ],
       "correct": 0,
       "explain": "Den offisielle kilden."
@@ -195,10 +195,10 @@
       "id": "q10",
       "text": "Hva viser rettshistorien om forholdet mellom rett og samfunn?",
       "options": [
-        "At retten aldri endres",
+        "At retten speiler samfunnets verdier, men ikke påvirker dem",
         "At retten både speiler og former samfunnets verdier",
-        "At retten ikke har med verdier å gjøre",
-        "At bare dommere bestemmer"
+        "At samfunnets verdier former retten, men ikke påvirkes av den",
+        "At retten og samfunnets verdier utvikler seg uavhengig av hverandre"
       ],
       "correct": 1,
       "explain": "Mange rettigheter er resultat av kamp."
@@ -338,9 +338,9 @@
         "text": "Hvilket hensyn er sentralt i barnevernssaker?",
         "options": [
           "Barnets beste",
-          "Effektivitet alene",
-          "Kostnader alene",
-          "Ingen hensyn"
+          "Foreldrenes interesser",
+          "Kommunens kostnader",
+          "Saksbehandlingens tempo"
         ],
         "correct": 0,
         "explain": "Veid mot retten til familieliv.",
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hvorfor bør du være kildekritisk til innlegg fra parter i en sak?",
         "options": [
-          "Fordi de alltid lyver",
-          "Fordi de er for korte",
+          "Fordi de kan bygge forklaringen på rykter fra saken",
+          "Fordi de kan mangle henvisninger til lovparagrafer",
           "Fordi de kan ha egeninteresse i saken",
-          "Fordi de ikke er på Lovdata"
+          "Fordi de kan gjengi regler fra et annet rettsområde"
         ],
         "correct": 2,
         "explain": "Sjekk mot flere kilder."
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

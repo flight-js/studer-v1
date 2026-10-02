@@ -81,8 +81,8 @@
       "options": [
         "1949",
         "1961",
-        "1989",
-        "1945"
+        "1953",
+        "1989"
       ],
       "correct": 1,
       "explain": "13. august 1961."
@@ -92,21 +92,21 @@
       "text": "Når ble Tyskland gjenforent?",
       "options": [
         "3. oktober 1990",
-        "9. november 1989",
-        "8. mai 1945",
-        "1. januar 2000"
+        "23. mai 1949",
+        "7. oktober 1949",
+        "9. november 1989"
       ],
       "correct": 0,
-      "explain": "Muren falt allerede 9. november 1989."
+      "explain": "Gjenforeningen trådte formelt i kraft 3. oktober 1990."
     },
     {
       "id": "q03",
       "text": "Hva var Stasi?",
       "options": [
-        "Et parti i Vest-Tyskland",
-        "En fotballklubb",
-        "Det hemmelige politiet i DDR",
-        "En avis"
+        "Det regjerende partiet i Øst-Tyskland",
+        "Hæren i Øst-Tyskland",
+        "Det hemmelige politiet i Øst-Tyskland",
+        "Parlamentet i Vest-Tyskland"
       ],
       "correct": 2,
       "explain": "Stasi overvåket innbyggerne i Øst-Tyskland.",
@@ -116,58 +116,58 @@
       "id": "q04",
       "text": "Hvordan sier du «I 1989 falt muren» på tysk?",
       "options": [
-        "In 1989 fiel die Mauer.",
-        "Im 1989 fiel die Mauer.",
-        "Auf 1989 fiel die Mauer.",
+        "1989 fiel der Mauer.",
+        "1989 fallte die Mauer.",
+        "1989 fielen die Mauer.",
         "1989 fiel die Mauer."
       ],
       "correct": 3,
-      "explain": "Årstall uten preposisjon – eller «im Jahr 1989»."
+      "explain": "Årstallet står først uten preposisjon, og verbet «fiel» står på andre plass."
     },
     {
       "id": "q05",
       "text": "Hva betyr «Die Mauer wurde 1961 gebaut»?",
       "options": [
         "Muren ble bygd i 1961.",
-        "Muren falt i 1961.",
-        "Muren blir bygd i 1961.",
-        "Muren skal bygges i 1961."
+        "Muren ble revet i 1961.",
+        "Muren ble bygd i 1989.",
+        "Muren blir bygd i 1961."
       ],
       "correct": 0,
-      "explain": "wurde + partisipp = passiv i fortid."
+      "explain": "«Wurde» + partisipp danner passiv i fortid."
     },
     {
       "id": "q06",
       "text": "Hva var Weimarrepublikken?",
       "options": [
-        "Et keiserrike",
-        "Tysklands første demokrati",
-        "Et kommunistisk diktatur",
-        "Et område i Sveits"
+        "Tysklands keiserrike før første verdenskrig",
+        "Tysklands demokrati mellom keiserriket og nazistene",
+        "Tysklands nazistiske diktatur under Hitler",
+        "Tysklands delstat etter gjenforeningen"
       ],
       "correct": 1,
-      "explain": "Den varte fra 1919 til 1933."
+      "explain": "Weimarrepublikken varte fra 1919 til 1933."
     },
     {
       "id": "q07",
       "text": "Hva er Stolpersteine?",
       "options": [
-        "Steiner fra Berlinmuren",
-        "Et fjellområde",
+        "Små minneplater på husvegger for ofre for nazismen",
+        "Små minneplater i fortauet for ofre for delingen",
         "Små minneplater i fortauet for ofre for nazismen",
-        "En type brostein fra keisertiden"
+        "Store minnesmerker i parker for ofre for nazismen"
       ],
       "correct": 2,
-      "explain": "De ligger utenfor der ofrene bodde.",
+      "explain": "De ligger utenfor steder der ofrene bodde.",
       "niva": "eksempel"
     },
     {
       "id": "q08",
       "text": "Hvilket år kom nazistene til makten i Tyskland?",
       "options": [
-        "1918",
-        "1923",
-        "1939",
+        "1932",
+        "1934",
+        "1938",
         "1933"
       ],
       "correct": 3,
@@ -178,21 +178,21 @@
       "text": "Hvordan dannes passiv på tysk?",
       "options": [
         "werden + partisipp",
-        "haben + infinitiv",
-        "sein + infinitiv",
-        "würde + infinitiv"
+        "sein + partisipp",
+        "haben + partisipp",
+        "werden + infinitiv"
       ],
       "correct": 0,
-      "explain": "I fortid: wurde + partisipp."
+      "explain": "I fortid brukes «wurde» + partisipp."
     },
     {
       "id": "q10",
       "text": "Hva var DDR?",
       "options": [
-        "Vest-Tyskland",
+        "Den demokratiske staten i Øst-Tyskland",
         "Den kommunistiske staten i Øst-Tyskland",
-        "Et parti i Weimarrepublikken",
-        "Den tyske hæren"
+        "Den kommunistiske staten i Vest-Tyskland",
+        "Den demokratiske staten i Vest-Tyskland"
       ],
       "correct": 1,
       "explain": "DDR eksisterte fra 1949 til 1990."
@@ -333,10 +333,10 @@
           "Deutschland wurde 1990 wiedervereinigt.",
           "Deutschland hat 1990 wiedervereinigt.",
           "Deutschland wird 1990 wiedervereinigt.",
-          "Deutschland war 1990 wiedervereinigen."
+          "Deutschland wurde 1990 wiedervereinigen."
         ],
         "correct": 0,
-        "explain": "Passiv i fortid: wurde + partisipp."
+        "explain": "Passiv i fortid dannes med «wurde» + partisipp."
       },
       {
         "id": "m07",
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

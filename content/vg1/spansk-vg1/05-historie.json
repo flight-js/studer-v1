@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hvilket år kom Columbus til Amerika?",
       "options": [
-        "1066",
+        "1498",
         "1492",
-        "1521",
-        "1789"
+        "1502",
+        "1519"
       ],
       "correct": 1,
       "explain": "Samme år ble Granada erobret."
@@ -95,7 +95,7 @@
         "Hernán Cortés",
         "Francisco Pizarro",
         "Simón Bolívar",
-        "Columbus"
+        "Cristóbal Colón"
       ],
       "correct": 0,
       "explain": "Aztekerriket lå i dagens Mexico.",
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hvorfor døde millioner av urfolk etter erobringen?",
       "options": [
-        "Av tørke alene",
-        "Av jordskjelv",
+        "Av tørke, avlingssvikt og store naturkatastrofer",
+        "Av jordskjelv, flom og flere vulkanutbrudd",
         "Av krig, tvangsarbeid og europeiske sykdommer",
-        "Av vulkanutbrudd"
+        "Av kulde, snøstormer og omfattende oversvømmelser"
       ],
       "correct": 2,
       "explain": "Sykdommer som kopper var særlig dødelige."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hvem kalles «El Libertador»?",
       "options": [
-        "Franco",
-        "Cortés",
-        "Columbus",
+        "Francisco Franco",
+        "Hernán Cortés",
+        "Cristóbal Colón",
         "Simón Bolívar"
       ],
       "correct": 3,
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva skjedde med regionale språk under Franco?",
       "options": [
-        "De ble offisielle",
-        "De ble undertrykt",
-        "De ble obligatoriske i skolen",
-        "De ble eksportert"
+        "De ble anerkjent som offisielle språk",
+        "De ble utsatt for undertrykking",
+        "De ble innført som skolespråk",
+        "De ble brukt i statsadministrasjonen"
       ],
       "correct": 1,
       "explain": "Katalansk og baskisk ble undertrykt.",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva var «la Transición»?",
       "options": [
-        "Erobringen av Amerika",
-        "Borgerkrigen",
-        "Overgangen til demokrati etter Francos død",
-        "Uavhengigheten i Latin-Amerika"
+        "Den spanske erobringen av Amerika",
+        "Den spanske borgerkrigen fra 1936 til 1939",
+        "Demokratisk overgang etter Francos død",
+        "Latinamerikanske lands uavhengighet fra Spania"
       ],
       "correct": 2,
       "explain": "Den nye grunnloven kom i 1978."
@@ -168,8 +168,8 @@
       "text": "Hvordan sier du «Columbus kom til Amerika i 1492»?",
       "options": [
         "Colón llegaba a América en 1492.",
-        "Colón llega a América en 1492.",
-        "Colón ha llegado a América 1492.",
+        "Colón llegará a América en 1492.",
+        "Colón ha llegado a América en 1492.",
         "Colón llegó a América en 1492."
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva betyr «Granada fue conquistada en 1492»?",
       "options": [
         "Granada ble erobret i 1492.",
-        "Granada erobret i 1492.",
-        "Granada var erobrer i 1492.",
-        "Granada skal erobres i 1492."
+        "Granada ble grunnlagt i 1492.",
+        "Granada ble oppdaget i 1492.",
+        "Granada ble ødelagt i 1492."
       ],
       "correct": 0,
       "explain": "Passiv: ser + partisipp."
@@ -326,8 +326,8 @@
         "options": [
           "Franco døde i 1975.",
           "Franco ble født i 1975.",
-          "Franco styrte i 1975.",
-          "Franco flyktet i 1975."
+          "Franco ble avsatt i 1975.",
+          "Franco ble drept i 1975."
         ],
         "correct": 0,
         "explain": "morir → murió i indefinido."
@@ -337,9 +337,9 @@
         "type": "flervalg",
         "text": "Hvem var de katolske kongene?",
         "options": [
-          "Carlos og Felipe",
+          "Carlos og Juana",
           "Isabel og Fernando",
-          "Franco og Juan Carlos",
+          "Juana og Felipe",
           "Cortés og Pizarro"
         ],
         "correct": 1,
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

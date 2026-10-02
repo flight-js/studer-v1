@@ -84,9 +84,9 @@
       "text": "Når er et argument gyldig?",
       "options": [
         "Når konklusjonen følger logisk av premissene",
-        "Når premissene er sanne",
-        "Når mange er enige",
-        "Når det er kort"
+        "Når premissene stemmer med virkeligheten",
+        "Når konklusjonen stemmer med virkeligheten",
+        "Når argumentet overbeviser de fleste leserne"
       ],
       "correct": 0,
       "explain": "Gyldighet handler om form."
@@ -95,10 +95,10 @@
       "id": "q02",
       "text": "Hva mente Popper kjennetegner en vitenskapelig teori?",
       "options": [
-        "At den er falsifiserbar",
-        "At den kan forklare alt",
-        "At den er bevist for alltid",
-        "At mange tror på den"
+        "At den kan testes og i prinsippet vise seg å være feil",
+        "At den kan bekreftes gjennom gjentatte observasjoner og målinger",
+        "At den gir forklaringer som passer med kjente observasjoner",
+        "At den bygger på resultater andre forskere kan gjenta"
       ],
       "correct": 0,
       "explain": "Den må kunne vise seg å være feil."
@@ -107,10 +107,10 @@
       "id": "q03",
       "text": "Hva er et paradigme ifølge Kuhn?",
       "options": [
-        "Et enkelt eksperiment",
-        "En type kilde",
+        "En enkelt teori som forklarer et bestemt fenomen innen et fag",
+        "Et enkelt eksperiment som undersøker en avgrenset hypotese i et fag",
         "Felles teorier, metoder og syn på viktige spørsmål i et fag",
-        "En konspirasjonsteori"
+        "En kilde som gir forskere informasjon om et bestemt tema"
       ],
       "correct": 2,
       "explain": "Skifter ved vitenskapelige revolusjoner."
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hva kritiserte Frankfurterskolen?",
       "options": [
-        "For lite fornuft",
-        "Romantikken",
+        "At samfunnet mangler vitenskapelig tenkning og rasjonell planlegging",
+        "At romantiske følelser får for stor plass i politikken",
         "At fornuften kan bli et redskap for kontroll og undertrykkelse",
-        "Religion"
+        "At religion blir brukt som redskap for politisk kontroll"
       ],
       "correct": 2,
       "explain": "I Opplysningens dialektikk.",
@@ -132,10 +132,10 @@
       "id": "q05",
       "text": "Hva er skadeprinsippet hos Mill?",
       "options": [
-        "At staten kan begrense alt",
-        "At friheten er uten grenser",
-        "At bare kongen kan bestemme",
-        "At friheten bare kan begrenses for å hindre skade på andre"
+        "Friheten kan begrenses for å beskytte folk mot egne valg",
+        "Friheten kan begrenses for å sikre statens moralske normer",
+        "Friheten kan begrenses når flertallet misliker andres handlinger",
+        "Friheten kan begrenses for å hindre skade på andre"
       ],
       "correct": 3,
       "explain": "Fra Om friheten, 1859."
@@ -145,9 +145,9 @@
       "text": "En person har lov til å studere, men har ikke råd. Hva mangler hen?",
       "options": [
         "Negativ frihet",
-        "Autonomi alltid",
+        "Personlig autonomi",
         "Positiv frihet",
-        "Ansvar"
+        "Juridisk rettighet"
       ],
       "correct": 2,
       "explain": "Reelle muligheter."
@@ -156,9 +156,9 @@
       "id": "q07",
       "text": "Hvilket etisk spørsmål reiste pandemien?",
       "options": [
-        "Om skoler trenger bøker",
-        "Om biler er raske",
-        "Om mat er dyrt",
+        "Hvor lenge smitteverntiltak bør vare etter at smitten har avtatt",
+        "Hvor store økonomiske tap bedrifter bør få dekket av staten",
+        "Hvor mye undervisning bør foregå digitalt etter at skolene åpner",
         "Hvor mye individets frihet kan begrenses for fellesskapet"
       ],
       "correct": 3,
@@ -169,10 +169,10 @@
       "id": "q08",
       "text": "Hva mente Keynes staten skulle gjøre i krisetider?",
       "options": [
-        "Kutte alle utgifter",
-        "Ikke gripe inn",
+        "Dempe forbruket gjennom høyere skatter",
+        "Redusere etterspørselen gjennom lavere offentlige utgifter",
         "Øke etterspørselen gjennom offentlige utgifter",
-        "Innføre planøkonomi"
+        "Styre produksjonen gjennom statlige femårsplaner"
       ],
       "correct": 2,
       "explain": "Markedet retter seg ikke alltid selv.",
@@ -182,10 +182,10 @@
       "id": "q09",
       "text": "Hva er en filterboble?",
       "options": [
-        "En type avis",
-        "En algoritme for skatt",
+        "At vi mest får se innhold som utfordrer våre synspunkter",
+        "At vi mest får se innhold som redaktører velger for alle",
         "At vi mest får se innhold som passer våre synspunkter",
-        "En samtale"
+        "At vi mest får se innhold i publiseringsrekkefølge"
       ],
       "correct": 2,
       "explain": "Kan forsterke polarisering."
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Hva er historiebevissthet?",
       "options": [
-        "Å kunne mange årstall",
-        "Å lese historiebøker",
-        "Å like historie",
-        "Forbindelsen mellom fortolkning av fortiden, nåtiden og framtiden"
+        "Kunnskapen om viktige hendelser i fortid og nåtid",
+        "Evnen til å skille historiske kilder fra fortellinger",
+        "Interessen for hvordan fortiden påvirker samfunnet i dag",
+        "Sammenhengen mellom fortolkninger av fortid, nåtid og framtid"
       ],
       "correct": 3,
       "explain": "Den virker begge veier."
@@ -206,10 +206,10 @@
       "id": "q11",
       "text": "Hva gir ILO-konvensjon nr. 169 urfolk rett til?",
       "options": [
-        "Å styre hele staten",
-        "Å slippe skatt",
+        "Å få bestemme over alle statlige saker som angår dem",
+        "Å få fritak fra skatt i områdene der de tradisjonelt bor",
         "Å bevare kultur og bli konsultert i saker som angår dem",
-        "Å eie all jord"
+        "Å få eierskap til all jord og alle ressurser i områdene sine"
       ],
       "correct": 2,
       "explain": "Norge ratifiserte den først i 1990.",
@@ -219,10 +219,10 @@
       "id": "q12",
       "text": "Hva mener de fleste forskere om forholdet mellom teknologi og samfunn?",
       "options": [
-        "At det er et samspill",
-        "At teknologien alltid styrer",
-        "At samfunnet alltid styrer",
-        "At de ikke påvirker hverandre"
+        "At teknologi og samfunn påvirker hverandre",
+        "At teknologien påvirker samfunnet, men ikke omvendt",
+        "At samfunnet påvirker teknologien, men ikke omvendt",
+        "At teknologi og samfunn utvikles uavhengig av hverandre"
       ],
       "correct": 0,
       "explain": "De former hverandre."
@@ -231,10 +231,10 @@
       "id": "q13",
       "text": "Hva er uvitenhetens slør hos Rawls?",
       "options": [
-        "En type klesplagg",
-        "At vi aldri kan vite noe",
+        "Å velge samfunnsprinsipper ut fra hvilken plass man selv får",
+        "Å velge samfunnsprinsipper uten å vite hvilke ressurser samfunnet har",
         "Å velge samfunnsprinsipper uten å vite hvilken plass man selv får",
-        "At rike skal bestemme"
+        "Å velge samfunnsprinsipper etter hvilken gruppe man selv tilhører"
       ],
       "correct": 2,
       "explain": "Fra 1971."
@@ -363,7 +363,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -399,10 +399,10 @@
         "type": "flervalg",
         "text": "Hva skjer i den hermeneutiske sirkelen?",
         "options": [
-          "Vi veksler mellom deler og helhet",
-          "Vi måler og veier",
-          "Vi falsifiserer teorier",
-          "Vi teller kilder"
+          "Vi veksler mellom å forstå delene og helheten",
+          "Vi tester en teori mot flere observasjoner",
+          "Vi sammenligner ulike kilder og teller fellestrekk",
+          "Vi går fra hypotesen til en endelig bekreftelse"
         ],
         "correct": 0,
         "explain": "Forforståelsen endres underveis."
@@ -412,10 +412,10 @@
         "type": "flervalg",
         "text": "Hvem foreslo maktfordeling?",
         "options": [
-          "Locke",
+          "Rousseau",
           "Montesquieu",
-          "Mill",
-          "Tocqueville"
+          "Hobbes",
+          "Voltaire"
         ],
         "correct": 1,
         "explain": "Lovgivende, utøvende og dømmende makt."
@@ -517,12 +517,84 @@
           "Gir et eksempel på frigjørende historiebruk eller på at grupper får stemme.",
           "Forklarer at historie også kan brukes til å rettferdiggjøre makt eller overgrep."
         ]
+      },
+      {
+        "text": "I en klassedebatt om klima sier en elev: «Du kan ikke ha rett om klima, du er altfor ung.» Forklar hva slags feilslutning dette er, og hvordan deltakerne kan undersøke påstanden mer saklig.",
+        "fasit": "Dette er et personangrep: Eleven angriper personen i stedet for å vurdere argumentet. Deltakerne kan be om begrunnelser og undersøke hvilke kilder og argumenter som støtter påstanden.",
+        "kriterier": [
+          "Identifiserer personangrep og forklarer at argumentet, ikke personen, bør vurderes.",
+          "Nevner en saklig samtalemåte, for eksempel å be om begrunnelser eller undersøke kilder."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En historiker vil undersøke hvordan vanlige arbeidere opplevde industrialiseringen, men arkivene inneholder mest brev og rapporter fra fabrikkeiere og myndigheter. Forklar hvordan dette kan påvirke framstillingen, og hvordan intervjuer eller andre kvalitative kilder kan bidra uten å fjerne all usikkerhet.",
+        "fasit": "Når arkivene hovedsakelig viser makthavernes perspektiv, kan arbeidernes erfaringer bli lite synlige. Intervjuer kan gi dybde og få fram flere stemmer, men funnene er vanskelige å generalisere fra, og historikeren bør sammenligne kilder.",
+        "kriterier": [
+          "Forklarer at arkivenes innhold og kildevalg påvirker hvilke perspektiver som kommer fram.",
+          "Viser at kvalitative kilder kan gi dybde, men har begrensninger, for eksempel svakere grunnlag for generalisering."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "I et land begynner regjeringen å svekke domstolenes uavhengighet og begrense frie medier. Forklar hvordan maktfordeling kan motvirke maktmisbruk, og hvorfor utviklingen kan være et tegn på demokratisk tilbakegang.",
+        "fasit": "Montesquieus idé om å dele makten mellom lovgivende, utøvende og dømmende organer skal hindre at makten samles og misbrukes. Uavhengige domstoler og frie medier er viktige deler av et demokrati, så svekkelse av dem kan være demokratisk tilbakegang.",
+        "kriterier": [
+          "Forklarer at maktfordeling skal hindre maktmisbruk.",
+          "Knytter svekkede domstoler eller medier til demokratisk tilbakegang."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En person har lov til å studere, men har ikke råd til å dekke utgiftene ved å gjøre det. Bruk Berlins skille mellom negativ og positiv frihet til å forklare personens situasjon, og hva som kan gi personen større reell frihet.",
+        "fasit": "Personen har negativ frihet fordi ingen forbyr hen å studere, men mangler positiv frihet fordi hen ikke har reelle muligheter til å gjøre det. Økonomisk støtte eller velferdsordninger kan gjøre utdanningen mer tilgjengelig.",
+        "kriterier": [
+          "Skiller mellom frihet fra tvang og reelle muligheter til å handle.",
+          "Forklarer hvordan støtte eller velferd kan øke positiv frihet."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Et firma bruker kunstig intelligens til å velge hvem som innkalles til jobbintervju. Systemet velger bort kvinner oftere enn menn. Forklar hvorfor dette reiser et etisk problem, og nevn hva firmaet bør vurdere når systemet brukes.",
+        "fasit": "Systemet kan videreføre skjevheter fra dataene det er trent på og dermed diskriminere søkere. Firmaet må ta ansvar for hvordan KI brukes, undersøke skjevhetene og vurdere menneskelig kontroll og regulering.",
+        "kriterier": [
+          "Knytter skjevheten til mulige skjevheter i data eller systemet.",
+          "Viser at ansvar for bruk, kontroll eller regulering må vurderes."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Et selskap vil utvinne mineraler til forbruksvarer i et naturområde. Forklar hvordan et antroposentrisk syn og dypøkologi kan vurdere inngrepet forskjellig, og knytt vurderingen til ansvar for framtidige generasjoner.",
+        "fasit": "Et antroposentrisk syn kan vurdere naturen ut fra nytten den har for mennesker, mens dypøkologi legger vekt på at alt liv har egenverdi. Utvinning kan gi ressurser nå, men også skade naturen som framtidige generasjoner trenger.",
+        "kriterier": [
+          "Skiller mellom menneskets nytte av naturen og naturens egenverdi.",
+          "Knytter inngrepet til miljøhensyn eller ansvar for framtidige generasjoner."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Synet på Grunnloven av 1814 har endret seg fra en heroisk fortelling om nasjonal gjenfødelse til en framstilling som også tar opp stemmerettsbegrensninger og jødeparagrafen. Forklar hva denne endringen viser om forholdet mellom fortiden og samtiden.",
+        "fasit": "Samtidens verdier og spørsmål påvirker hvilke sider ved fortiden vi undersøker og framhever. Endringen viser at historiebevissthet knytter fortolkningen av fortiden til forståelsen av nåtiden, og at denne forståelsen kan påvirke identitet og forventninger til framtiden.",
+        "kriterier": [
+          "Forklarer at samtidens verdier eller spørsmål påvirker fortolkningen av fortiden.",
+          "Viser at historiebevissthet knytter fortid, nåtid og eventuelt framtid sammen."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Under en økonomisk krise øker arbeidsledigheten. Forklar hvordan Keynes og Hayek ville ha begrunnet ulike roller for staten i møte med krisen, og hvilken bekymring som ligger bak Hayeks syn.",
+        "fasit": "Keynes mente at staten bør øke etterspørselen gjennom offentlige utgifter i krisetider. Hayek advarte mot omfattende statlig styring fordi den kan føre til ufrihet.",
+        "kriterier": [
+          "Forklarer Keynes’ støtte til økte offentlige utgifter i krisetider.",
+          "Forklarer Hayeks advarsel om at statlig styring kan true friheten."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

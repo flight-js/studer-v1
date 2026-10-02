@@ -79,7 +79,7 @@
         "12",
         "10",
         "8",
-        "14"
+        "2"
       ],
       "correct": 1,
       "explain": "[x² + x]₁³ = 12 − 2."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er ∫ 1/x dx?",
       "options": [
-        "x⁰/0 + C",
-        "−1/x² + C",
-        "1/x² + C",
+        "−ln|x| + C",
+        "1/x + C",
+        "−1/x + C",
         "ln|x| + C"
       ],
       "correct": 3,
@@ -138,7 +138,7 @@
       "options": [
         "0",
         "2",
-        "1",
+        "−2",
         "π"
       ],
       "correct": 1,
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvorfor legger vi til + C i et ubestemt integral?",
       "options": [
-        "For å få riktig enhet",
-        "For å gjøre svaret positivt",
+        "Fordi integralet av funksjonen må bli positivt",
+        "Fordi en konstant gir antideriverten riktig stigningstall",
         "Fordi den deriverte av en konstant er 0",
-        "Fordi integralet alltid er 1"
+        "Fordi antideriverten skal ha verdien null ved x=0"
       ],
       "correct": 2,
       "explain": "Det finnes mange antideriverte."
@@ -174,8 +174,8 @@
       "options": [
         "f(b) − f(a)",
         "f′(b) − f′(a)",
-        "0",
-        "f(a) − f(b)"
+        "f(a) − f(b)",
+        "f(b) + f(a)"
       ],
       "correct": 0,
       "explain": "Total endring."
@@ -321,8 +321,8 @@
         "options": [
           "2ˣ/ln 2 + C",
           "2ˣ · ln 2 + C",
-          "x · 2ˣ⁻¹ + C",
-          "2ˣ⁺¹/(x + 1) + C"
+          "2ˣ + C",
+          "2ˣ/(2 ln 2) + C"
         ],
         "correct": 0,
         "explain": "∫ aˣ dx = aˣ/ln a + C."
@@ -420,6 +420,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

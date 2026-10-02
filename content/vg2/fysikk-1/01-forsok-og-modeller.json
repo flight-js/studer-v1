@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er en systematisk feil?",
       "options": [
-        "En feil som varierer tilfeldig",
+        "En feil som varierer mellom gjentatte målinger",
         "En feil som påvirker alle målinger likt",
-        "En regnefeil",
-        "En feil i rapporten"
+        "En feil som oppstår når måleverdiene regnes sammen",
+        "En feil som oppstår når resultater føres feil i rapporten"
       ],
       "correct": 1,
       "explain": "For eksempel en vekt som ikke er nullstilt."
@@ -89,9 +89,9 @@
       "text": "Hvordan reduserer du tilfeldige feil?",
       "options": [
         "Ved å ta gjennomsnittet av mange målinger",
-        "Ved å bruke færre målinger",
-        "Ved å runde av mer",
-        "Ved å endre enheten"
+        "Ved å velge målingen som ligger nærmest forventet verdi",
+        "Ved å ta den største av målingene",
+        "Ved å bruke samme måleverdi flere ganger"
       ],
       "correct": 0,
       "explain": "Tilfeldige variasjoner jevner seg ut."
@@ -103,7 +103,7 @@
         "1,951 m/s",
         "1,95 m/s",
         "2,0 m/s",
-        "2 m/s"
+        "1,9 m/s"
       ],
       "correct": 2,
       "explain": "2,4 har to gjeldende siffer."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvordan kan newton skrives med grunnenheter?",
       "options": [
-        "kg·m",
-        "kg/s",
-        "m/s²",
+        "kg·m/s",
+        "kg·m²/s²",
+        "kg/s²",
         "kg·m/s²"
       ],
       "correct": 3,
@@ -126,8 +126,8 @@
       "options": [
         "s mot t²",
         "s mot t",
-        "t mot a",
-        "s mot 1/t"
+        "a mot t²",
+        "s mot 1/t²"
       ],
       "correct": 0,
       "explain": "Stigningstallet blir a/2."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva kjennetegner en god modell?",
       "options": [
-        "Den er alltid helt nøyaktig",
+        "Den bruker mange variabler og beskriver målingene svært detaljert",
         "Den stemmer med målinger og gir testbare forutsigelser",
-        "Den er komplisert",
-        "Den kan ikke testes"
+        "Den passer til målingene, men gir forklaringer som ikke kan testes",
+        "Den gir testbare forutsigelser, men stemmer ikke med målingene"
       ],
       "correct": 1,
       "explain": "Den har også et tydelig gyldighetsområde."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er relativ usikkerhet?",
       "options": [
-        "Usikkerheten i meter",
-        "Den største målingen",
+        "Måleverdien delt på usikkerheten",
+        "Usikkerheten uttrykt i måleenheten",
         "Usikkerheten delt på måleverdien",
-        "Gjennomsnittet"
+        "Forskjellen mellom største og minste måleverdi"
       ],
       "correct": 2,
       "explain": "Ofte oppgitt i prosent."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvorfor passer ikke modellen for fritt fall uten luftmotstand for en fallskjerm?",
       "options": [
-        "Fordi tyngdekraften er annerledes",
-        "Fordi fallskjermen er for tung",
-        "Fordi modellen er feil for alle ting",
+        "Fordi fallskjermen gjør at tyngdekraften blir svakere",
+        "Fordi modellen gjelder gjenstander som slippes fra lave høyder",
+        "Fordi fallskjermen gjør at massen til personen øker",
         "Fordi luftmotstanden er stor og ikke kan ses bort fra"
       ],
       "correct": 3,
@@ -174,8 +174,8 @@
       "options": [
         "x-aksen",
         "y-aksen",
-        "Begge",
-        "Den skal ikke i grafen"
+        "begge aksene",
+        "ingen av aksene"
       ],
       "correct": 0,
       "explain": "Den avhengige variabelen står på y-aksen."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvordan skrives 0,000 45 på standardform?",
       "options": [
-        "45 · 10⁻⁵",
+        "4,5 · 10⁻³",
         "4,5 · 10⁻⁴",
         "4,5 · 10⁴",
-        "0,45 · 10⁻³"
+        "0,45 · 10⁻⁴"
       ],
       "correct": 1,
       "explain": "Tallet foran skal være mellom 1 og 10."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hva er en typisk tilfeldig feil?",
         "options": [
-          "En linjal som mangler de første millimeterne",
+          "Nullpunktsfeil på en vekt",
           "Reaksjonstid ved bruk av stoppeklokke",
-          "En vekt som viser 5 g for mye",
-          "Feil enhet"
+          "Feil skala på en linjal",
+          "Kalibreringsfeil i et måleinstrument"
         ],
         "correct": 1,
         "explain": "Den varierer fra gang til gang."
@@ -329,8 +329,8 @@
         "options": [
           "N·m",
           "N/m",
-          "kg/s",
-          "W/s"
+          "kg·m/s²",
+          "N/s"
         ],
         "correct": 0,
         "explain": "Arbeid er kraft ganger vei."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva bør du gjøre når målingene ikke stemmer med modellen?",
         "options": [
-          "Slette målingene",
-          "Endre konklusjonen uten å undersøke",
+          "Gjenta forsøket og forkaste målingene som avviker fra modellens forutsigelser",
+          "Endre modellen slik at den passer målingene uten å undersøke årsaken",
           "Vurdere om det skyldes målefeil eller om modellen må forbedres",
-          "Ignorere avviket"
+          "Justere måleverdiene slik at de stemmer med modellen"
         ],
         "correct": 2,
         "explain": "Slik utvikler fysikken seg."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

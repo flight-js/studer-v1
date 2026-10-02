@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva handler Voluspå om?",
       "options": [
-        "Leveregler",
+        "Ættenes strid og hevnoppgjør",
         "Verdens skapelse og undergang",
-        "De norske kongene",
-        "Kjærlighet"
+        "Norske konger og maktkamper",
+        "Heltenes reiser og bragder"
       ],
       "correct": 1,
       "explain": "Den forteller også om en ny verden etter Ragnarok."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hva er Håvamål?",
       "options": [
-        "En samling leveregler",
-        "En kongesaga",
-        "En islendingesaga",
-        "Et skaldedikt til en konge"
+        "En samling med leveregler",
+        "En saga om norske konger",
+        "En saga om islandske høvdinger",
+        "Et kvad om norrøne guder"
       ],
       "correct": 0,
       "explain": "Den handler om vennskap, gjestfrihet og ettermæle."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er en kenning?",
       "options": [
-        "En type saga",
-        "En norrøn gud",
+        "Et versmål, som bestemmer rytmen i et dikt",
+        "Et rimskjema, som bestemmer lydene sist i vers",
         "En omskrivning, som «havets hest» for skip",
-        "En regel for rim"
+        "Et tilnavn, som brukes om en norrøn gud"
       ],
       "correct": 2,
       "explain": "Kenninger er typiske for skaldedikt."
@@ -112,8 +112,8 @@
       "text": "Hvem skrev Heimskringla?",
       "options": [
         "Egil Skallagrimsson",
-        "Njål",
-        "Henrik Wergeland",
+        "Ari Þorgilsson",
+        "Sæmund Frode",
         "Snorre Sturlason"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hvordan skildres personene vanligvis i islendingesagaene?",
       "options": [
         "Indirekte, gjennom handlinger og replikker",
-        "Med lange beskrivelser av følelser",
-        "Gjennom indre monolog",
-        "Gjennom fortellerens kommentarer"
+        "Direkte, gjennom fortellerens vurderinger og forklaringer",
+        "Utførlig, gjennom personenes indre tanker og følelser",
+        "Symbolsk, gjennom drømmer og varsler om framtiden"
       ],
       "correct": 0,
       "explain": "Stilen er saklig og kortfattet."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvorfor var ære og hevn så viktig i sagasamfunnet?",
       "options": [
-        "Fordi kongen krevde det",
-        "Fordi det ikke fantes stat og politi, og ætta måtte beskytte seg selv",
-        "Fordi kirken bestemte det",
-        "Fordi det var en sport"
+        "Fordi kongen krevde at ættene selv hevnet fornærmelser",
+        "Fordi ætta selv måtte beskytte seg uten stat og politi",
+        "Fordi kirken krevde at slekten forsvarte sin ære",
+        "Fordi hevn var en måte å vinne status ved hoffet"
       ],
       "correct": 1,
       "explain": "En fornærmelse mot én var en fornærmelse mot hele ætta."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Når ble de fleste islendingesagaene skrevet ned?",
       "options": [
-        "På 800-tallet",
-        "På 1800-tallet",
+        "På 1100-tallet",
+        "På 1300-tallet",
         "På 1200-tallet",
-        "På 1500-tallet"
+        "På 1400-tallet"
       ],
       "correct": 2,
       "explain": "De handler om hendelser rundt 900–1050."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva er ettermæle?",
       "options": [
-        "En gravstein",
-        "En type dikt",
-        "Et arveoppgjør",
-        "Det andre sier om deg etter at du er død"
+        "En tekst hugget på en gravstein",
+        "Et dikt framført under en gravferd",
+        "En fordeling av arv etter et dødsfall",
+        "Det folk sier om deg etter din død"
       ],
       "correct": 3,
       "explain": "Ifølge Håvamål dør aldri et godt ettermæle."
@@ -172,9 +172,9 @@
       "text": "Hvilken funksjon har drømmer og varsler i sagaene?",
       "options": [
         "De peker fram mot det som skal skje",
-        "De er bare pynt",
-        "De avslutter sagaen",
-        "De forklarer ordene"
+        "De oppsummerer hendelser som allerede har skjedd",
+        "De forklarer slektsforhold mellom sagaens sentrale personer",
+        "De viser hvilke lover sagaens personer må følge"
       ],
       "correct": 0,
       "explain": "Det uttrykker skjebnetro."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvilken moderne sjanger minner sagastilen ofte om?",
       "options": [
-        "Romantiske dikt",
+        "Historiske romaner og romantiske dikt",
         "Krimlitteratur og minimalistisk prosa",
-        "Eventyr",
-        "Reiseskildringer"
+        "Eventyrfortellinger og fantasyromaner",
+        "Reiseskildringer og biografisk prosa"
       ],
       "correct": 1,
       "explain": "Saklig stil og korte replikker.",
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hvilken av disse er en islendingesaga?",
         "options": [
-          "Heimskringla",
+          "Fagrskinna",
           "Njåls saga",
-          "Voluspå",
-          "Håvamål"
+          "Morkinskinna",
+          "Ynglinga saga"
         ],
         "correct": 1,
         "explain": "Egils saga og Laksdøla saga er andre eksempler."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva er en lakonisk replikk?",
         "options": [
-          "En kort, underdrevet replikk",
-          "En lang tale",
-          "Et dikt",
-          "Et spørsmål"
+          "En kort, underdrevet replikk i en samtale",
+          "En lang tale med mange forklarende detaljer",
+          "Et dikt med enderim i hver verselinje",
+          "Et spørsmål som ber om et utfyllende svar"
         ],
         "correct": 0,
         "explain": "Typisk for sagastilen."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvorfor fikk Heimskringla stor betydning på 1800-tallet?",
         "options": [
-          "Fordi den var ny",
-          "Fordi den var skrevet på dansk",
+          "Fordi den innførte moderne norsk som skriftspråk",
+          "Fordi den framstilte danske konger som Norges herskere",
           "Fordi den styrket norsk nasjonal identitet",
-          "Fordi den handlet om Danmark"
+          "Fordi den gjorde kristen tro til norsk statsreligion"
         ],
         "correct": 2,
         "explain": "Den viste at Norge hadde en stor fortid som eget kongerike.",
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

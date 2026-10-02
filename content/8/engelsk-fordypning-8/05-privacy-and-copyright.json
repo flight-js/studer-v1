@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "What is a digital footprint?",
       "options": [
-        "A shoe print in the snow",
+        "The details stored in your account",
         "The traces you leave online",
-        "A type of password",
-        "A computer virus"
+        "The messages sent to your inbox",
+        "The settings saved on your device"
       ],
       "correct": 1,
       "explain": "Posts, likes and searches all become part of your footprint."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Which of these is personal data?",
       "options": [
-        "The weather forecast",
-        "A famous painting",
+        "A public weather forecast",
+        "A common cooking recipe",
         "Your phone number",
-        "A recipe"
+        "A famous painting"
       ],
       "correct": 2,
       "explain": "Personal data can be linked to you as a person."
@@ -102,9 +102,9 @@
       "id": "q03",
       "text": "What does the GDPR give you the right to?",
       "options": [
-        "Free internet",
-        "Unlimited downloads",
-        "Use any picture online",
+        "Have a website remove a post you dislike",
+        "Get compensation for every data leak",
+        "Choose which pictures others post online",
         "Have your personal data deleted"
       ],
       "correct": 3,
@@ -116,9 +116,9 @@
       "text": "What should you do before posting a picture of a friend?",
       "options": [
         "Ask for their consent",
-        "Add a filter",
-        "Tag everyone",
-        "Nothing"
+        "Check whether the photo looks flattering",
+        "Tag them after you post it",
+        "Choose a filter that suits the picture"
       ],
       "correct": 0,
       "explain": "Everyone has the right to decide over pictures of themselves."
@@ -127,9 +127,9 @@
       "id": "q05",
       "text": "How long does copyright last in Norway?",
       "options": [
-        "5 years",
-        "Until the work is posted online",
-        "Forever",
+        "Until 50 years after the creator's death",
+        "Until 70 years after the work is published",
+        "Until 100 years after the creator's death",
         "Until 70 years after the creator's death"
       ],
       "correct": 3,
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "What is plagiarism?",
       "options": [
-        "Using a spell checker",
-        "Using someone else's words or ideas without saying where they come from",
-        "Writing a long text",
-        "Quoting with a source"
+        "Using a spell checker to fix your writing",
+        "Using others' words or ideas without naming the source",
+        "Writing a long text in your own words",
+        "Quoting someone and naming the source"
       ],
       "correct": 1,
       "explain": "Plagiarism is a form of cheating."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "What is a Creative Commons licence?",
       "options": [
-        "A ban on sharing",
-        "A password",
-        "A licence that allows others to use a work on certain conditions",
-        "A type of camera"
+        "A licence that transfers ownership to every user",
+        "A label that means the work has no copyright",
+        "A licence letting others use work under certain conditions",
+        "A rule that prevents people from sharing a work"
       ],
       "correct": 2,
       "explain": "For example, you may have to credit the creator."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Why should you think before posting?",
       "options": [
-        "Because your digital footprint can be seen by others for a long time",
-        "Because posting costs money",
-        "Because nobody reads posts",
-        "Because posts disappear after one day"
+        "Your digital footprint may remain visible to others for years",
+        "Websites charge a fee for each post you make",
+        "Posts disappear from other people's phones when deleted",
+        "Posts use more mobile data than videos do"
       ],
       "correct": 0,
       "explain": "Future schools and employers may see what you post."
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Which is a good way to protect your privacy?",
       "options": [
-        "Sharing your password with friends",
-        "Using strong, different passwords and two-step verification",
-        "Posting your address",
-        "Using the same password everywhere"
+        "Use one memorable password for all your accounts",
+        "Use strong, different passwords and two-step verification",
+        "Save your password in a public profile",
+        "Share your login details with trusted friends"
       ],
       "correct": 1,
       "explain": "Strong passwords make it harder for others to access your accounts.",
@@ -189,9 +189,9 @@
       "id": "q10",
       "text": "What is a passive digital footprint?",
       "options": [
-        "A photo you post",
-        "A comment you write",
-        "A like you give",
+        "Information you choose to share, like a profile photo",
+        "A comment you write and publish on a website",
+        "A like you give to another person's post",
         "Data collected about you, like your location"
       ],
       "correct": 3,
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "What does it mean to credit a source?",
         "options": [
-          "To pay for it",
+          "To pay the creator for using their work",
           "To say who made it and where it comes from",
-          "To delete it",
-          "To copy it"
+          "To remove the creator's name from a work",
+          "To copy a work into your own project"
         ],
         "correct": 1,
         "explain": "Crediting is fair to the creator and honest to the reader."
@@ -333,9 +333,9 @@
         "text": "Which of these is protected by copyright?",
         "options": [
           "A song someone wrote",
-          "The alphabet",
-          "The weather",
-          "A mathematical fact"
+          "A music style such as pop",
+          "A singer's birthday date",
+          "A fact about a famous musician"
         ],
         "correct": 0,
         "explain": "Copyright protects original creative works."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "What is your online identity?",
         "options": [
-          "Your passport",
-          "Your bank account",
+          "The password you use to enter a website",
+          "The account balance shown by your bank",
           "The way you present yourself online",
-          "Your home address"
+          "The home address written on your mail"
         ],
         "correct": 2,
         "explain": "Your posts, profile and comments build your online identity."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

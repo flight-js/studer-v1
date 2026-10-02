@@ -80,9 +80,9 @@
       "id": "q01",
       "text": "Hva er «der Bahnhof»?",
       "options": [
-        "Flyplassen",
-        "Bussholdeplassen",
-        "Havnen",
+        "Busstasjonen",
+        "Trikkeholdeplassen",
+        "Fergeterminalen",
         "Jernbanestasjonen"
       ],
       "correct": 3,
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hva betyr «geradeaus»?",
       "options": [
-        "Til venstre",
+        "Skrått fram",
         "Rett fram",
-        "Til høyre",
-        "Tilbake"
+        "Rett tilbake",
+        "Rundt hjørnet"
       ],
       "correct": 1,
       "explain": "«gerade» betyr rett."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hvordan spør du hvordan du kommer til museet?",
       "options": [
-        "Wo wohnst du?",
-        "Was kostet das Museum?",
+        "Wie heißt das Museum?",
+        "Wie teuer ist das Museum?",
         "Wie komme ich zum Museum?",
-        "Ist das Museum schön?"
+        "Was gibt es im Museum?"
       ],
       "correct": 2,
       "explain": "«Wie komme ich zum …?» brukes når du spør om veien."
@@ -117,9 +117,9 @@
       "text": "Hva er «die Apotheke»?",
       "options": [
         "Apoteket",
-        "Biblioteket",
-        "Banken",
-        "Postkontoret"
+        "Bokhandelen",
+        "Kaféet",
+        "Sykehuset"
       ],
       "correct": 0,
       "explain": "Biblioteket heter «die Bibliothek»."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hvorfor heter det «zur Post», men «zum Bahnhof»?",
       "options": [
-        "Fordi Post er et sted",
+        "Fordi «Post» er hankjønn og «Bahnhof» intetkjønn",
         "Fordi «Post» er hunkjønn og «Bahnhof» hankjønn",
-        "Fordi Bahnhof er større",
-        "Det er tilfeldig"
+        "Fordi «Post» er intetkjønn og «Bahnhof» hunkjønn",
+        "Fordi «Post» er hankjønn og «Bahnhof» hunkjønn"
       ],
       "correct": 1,
       "explain": "zu + der blir zur, og zu + dem blir zum."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva betyr «Biegen Sie an der Ampel rechts ab»?",
       "options": [
-        "Gå rett fram forbi lyskrysset",
-        "Stopp ved lyskrysset",
-        "Snu ved lyskrysset",
-        "Ta til høyre ved lyskrysset"
+        "Sving til venstre ved lyskrysset",
+        "Kjør rett fram ved lyskrysset",
+        "Sving til høyre etter lyskrysset",
+        "Sving til høyre ved lyskrysset"
       ],
       "correct": 3,
       "explain": "«abbiegen» betyr å svinge."
@@ -153,9 +153,9 @@
       "text": "Hva betyr «zu Fuß»?",
       "options": [
         "Til fots",
-        "Med bil",
-        "Med sykkel",
-        "Med tog"
+        "Med buss",
+        "Med trikk",
+        "Med T-bane"
       ],
       "correct": 0,
       "explain": "«der Fuß» betyr foten."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva betyr «gegenüber»?",
       "options": [
-        "Bak",
-        "Under",
+        "Mellom",
+        "Foran",
         "Overfor",
-        "Ved siden av"
+        "Bak"
       ],
       "correct": 2,
       "explain": "Ved siden av heter «neben»."
@@ -176,9 +176,9 @@
       "id": "q09",
       "text": "Hva er en nyttig strategi hvis du ikke forstår en veibeskrivelse?",
       "options": [
-        "Å gå hjem",
-        "Å late som du forstår",
-        "Å snakke norsk",
+        "Å nikke og fortsette uten å be om hjelp",
+        "Å gjette hvilken gate personen mener",
+        "Å gå i retningen du tror er riktig",
         "Å be om at det gjentas langsommere"
       ],
       "correct": 3,
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er «das Rathaus»?",
       "options": [
-        "Et hus for rotter",
+        "Tinghuset",
         "Rådhuset",
-        "Et bibliotek",
-        "En restaurant"
+        "Kulturhuset",
+        "Brannstasjonen"
       ],
       "correct": 1,
       "explain": "«der Rat» betyr rådet."
@@ -328,9 +328,9 @@
         "text": "Hvordan sier du «Er det langt?»?",
         "options": [
           "Ist das weit?",
-          "Ist das hier?",
-          "Wo ist das?",
-          "Was ist das?"
+          "Ist das nah?",
+          "Ist das dort?",
+          "Ist das offen?"
         ],
         "correct": 0,
         "explain": "«weit» betyr langt unna."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva er «die U-Bahn»?",
         "options": [
-          "Et fly",
-          "Undergrunnsbanen, T-banen",
-          "En båt",
-          "En buss"
+          "Trikken",
+          "T-banen",
+          "Pendeltoget",
+          "Bybussen"
         ],
         "correct": 1,
         "explain": "U står for «Untergrund»."
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Nehmen Sie die zweite Straße links»?",
         "options": [
-          "Ta den første gata til høyre",
-          "Gå to kvartaler rett fram",
+          "Ta den første gata til venstre",
+          "Ta den andre gata til høyre",
           "Ta den andre gata til venstre",
-          "Kryss gata to ganger"
+          "Ta den tredje gata til venstre"
         ],
         "correct": 2,
         "explain": "«zweite» betyr andre."
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

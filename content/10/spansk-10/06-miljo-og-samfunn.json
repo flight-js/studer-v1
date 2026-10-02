@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva betyr «el medio ambiente»?",
       "options": [
-        "Verden",
-        "Byen",
+        "Klimaet",
+        "Naturen",
         "Miljøet",
-        "Været"
+        "Landskapet"
       ],
       "correct": 2,
       "explain": "Verden heter «el mundo»."
@@ -96,8 +96,8 @@
       "options": [
         "Tørke",
         "Flom",
-        "Snø",
-        "Storm"
+        "Hetebølge",
+        "Frost"
       ],
       "correct": 0,
       "explain": "«seco» betyr tørr."
@@ -119,22 +119,22 @@
       "id": "q04",
       "text": "Hva betyr «reciclar»?",
       "options": [
-        "Å sykle",
+        "Å redusere",
         "Å gjenvinne",
-        "Å kaste",
-        "Å kjøpe"
+        "Å sortere",
+        "Å reparere"
       ],
       "correct": 1,
-      "explain": "Å sykle heter «montar en bici»."
+      "explain": "«reciclar» betyr å gjenvinne; «montar en bici» betyr å sykle."
     },
     {
       "id": "q05",
       "text": "Hva er «la deforestación» i Amazonas?",
       "options": [
-        "Planting av trær",
-        "En ny nasjonalpark",
-        "Et turistområde",
-        "Avskoging, at regnskogen hogges ned"
+        "At nye trær plantes i regnskogen",
+        "At regnskogen vernes mot hogst",
+        "At regnskogen brukes til turisme",
+        "At regnskogen hogges ned"
       ],
       "correct": 3,
       "explain": "Avskoging truer både dyreliv, urfolk og klimaet."
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hva betyr «Deberíamos usar más el transporte público»?",
       "options": [
-        "Vi bruker aldri kollektivtransport",
-        "Kollektivtransport er dyrt",
+        "Vi burde bruke privatbil mer",
+        "Vi burde bruke kollektivtransport mindre",
         "Vi burde bruke kollektivtransport mer",
-        "Vi må kjøre bil"
+        "Vi burde betale mer for kollektivtransport"
       ],
       "correct": 2,
       "explain": "«deberíamos» betyr vi burde."
@@ -156,9 +156,9 @@
       "text": "Når fikk Spania sin demokratiske grunnlov etter Franco-diktaturet?",
       "options": [
         "1978",
-        "1939",
-        "1992",
-        "2004"
+        "1931",
+        "1975",
+        "1982"
       ],
       "correct": 0,
       "explain": "Franco døde i 1975, og overgangen til demokrati fulgte.",
@@ -170,8 +170,8 @@
       "options": [
         "Jeg er for …",
         "Jeg er mot …",
-        "Jeg vet ikke om …",
-        "Jeg liker …"
+        "Jeg er enig i …",
+        "Jeg er redd for …"
       ],
       "correct": 1,
       "explain": "«a favor de» betyr for."
@@ -180,9 +180,9 @@
       "id": "q09",
       "text": "Hva er et stort miljøproblem i Spania om sommeren?",
       "options": [
-        "Snøskred",
-        "Isbreer",
-        "Orkaner",
+        "Snøskred og frost",
+        "Isbreer og snøfall",
+        "Orkaner og kulde",
         "Skogbranner og tørke"
       ],
       "correct": 3,
@@ -193,9 +193,9 @@
       "text": "Hva betyr «el transporte público»?",
       "options": [
         "Kollektivtransport",
-        "Privatbil",
-        "Fly",
-        "Sykkel"
+        "Privattransport",
+        "Godstransport",
+        "Flytransport"
       ],
       "correct": 0,
       "explain": "«público» betyr offentlig."
@@ -329,8 +329,8 @@
         "options": [
           "Å spare vann",
           "Å selge vann",
-          "Å drikke vann",
-          "Å rense vann"
+          "Å rense vann",
+          "Å spare strøm"
         ],
         "correct": 0,
         "explain": "«ahorrar» betyr å spare."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvem styrte Spania som diktator fra 1939 til 1975?",
         "options": [
-          "Kong Felipe",
+          "Adolfo Suárez",
           "Francisco Franco",
-          "Pablo Picasso",
-          "Simón Bolívar"
+          "Miguel Primo de Rivera",
+          "Juan Carlos I"
         ],
         "correct": 1,
         "explain": "Franco kom til makten etter den spanske borgerkrigen.",
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Es importante reciclar»?",
         "options": [
-          "Gjenvinning er dyrt",
-          "Jeg liker ikke å gjenvinne",
+          "Det er dyrt å gjenvinne",
+          "Det er vanskelig å gjenvinne",
           "Det er viktig å gjenvinne",
-          "Man kan ikke gjenvinne"
+          "Det er ulovlig å gjenvinne"
         ],
         "correct": 2,
         "explain": "«Es importante» + infinitiv betyr det er viktig å …"
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på GMO og genredigering?",
       "options": [
-        "Det er det samme",
+        "GMO endrer organismens egne gener, mens genredigering tilfører gener fra andre arter",
         "GMO har gener fra andre arter, genredigering endrer organismens egne gener",
-        "Genredigering bruker alltid fremmede gener",
-        "GMO finnes ikke i mat"
+        "GMO tilfører gener fra andre arter, mens genredigering endrer gener hos en annen art",
+        "GMO endrer genenes aktivitet, mens genredigering flytter gener mellom arter"
       ],
       "correct": 1,
       "explain": "Genredigering bruker for eksempel CRISPR."
@@ -91,9 +91,9 @@
       "text": "Hva lages med genmodifiserte bakterier i medisin?",
       "options": [
         "Insulin",
-        "Vitamin C fra frukt",
-        "Penicillin fra sopp alene",
-        "Blod"
+        "Adrenalin",
+        "Kortisol",
+        "Morfin"
       ],
       "correct": 0,
       "explain": "Også veksthormon og antistoffer."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er gyllen ris?",
       "options": [
-        "Ris som tåler sprøytemidler",
-        "Vanlig ris med gyllen farge",
+        "Genmodifisert ris som tåler sprøytemidler",
+        "Vanlig ris med naturlig gyllen farge",
         "Genmodifisert ris med vitamin A",
-        "Ris fra Norge"
+        "Genmodifisert ris med ekstra jern"
       ],
       "correct": 2,
       "explain": "Skal motvirke vitamin A-mangel.",
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hvorfor ble redigeringen av tvillingenes gener i 2018 fordømt?",
       "options": [
-        "Fordi den mislyktes",
-        "Fordi den var lovlig",
-        "Fordi den var billig",
-        "Fordi endringer i embryoer arves videre og er forbudt i de fleste land"
+        "Fordi endringer i embryoers gener ikke kan arves videre, selv om inngrepet var forbudt i de fleste land",
+        "Fordi endringer i embryoers gener kunne arves videre, men inngrepet var godkjent i de fleste land",
+        "Fordi endringene påvirket kroppsceller, ikke kjønnsceller, og inngrepet var forbudt i de fleste land",
+        "Fordi endringer i embryoers gener kan arves videre og var forbudt i de fleste land"
       ],
       "correct": 3,
       "explain": "Et spørsmål om menneskeverd og sikkerhet.",
@@ -129,9 +129,9 @@
       "text": "Hva er føre var-prinsippet?",
       "options": [
         "Forsiktighet når langsiktige virkninger er usikre",
-        "Å alltid ta risiko",
-        "Å bruke mest mulig teknologi",
-        "Å forby all forskning"
+        "Godkjenning når kortsiktige virkninger er godt dokumentert",
+        "Utsettelse av forskning når mulige virkninger er usikre",
+        "Prioritering av økonomisk nytte når miljøvirkninger er usikre"
       ],
       "correct": 0,
       "explain": "Sentralt i norsk regelverk."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvilket etisk problem kan patenter på frø skape?",
       "options": [
-        "Billigere frø",
+        "At bønder i fattige land blir mindre avhengige av store selskaper",
         "At bønder i fattige land blir avhengige av store selskaper",
-        "Mer biologisk mangfold",
-        "Ingen problemer"
+        "At bønder i fattige land får eierskap til frøpatenter fra store selskaper",
+        "At patenter hindrer selskaper i å selge frø til bønder i fattige land"
       ],
       "correct": 1,
       "explain": "Et spørsmål om rettferdighet."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva er CAR-T-behandling?",
       "options": [
-        "En vaksine",
-        "En type GMO-plante",
-        "En gentest",
+        "Genmodifisering av pasientens kreftceller for å stanse immunforsvaret",
+        "Behandling med pasientens immunceller uten genetisk endring",
+        "Testing av pasientens immunceller for å finne arvelig kreft",
         "Genmodifisering av pasientens immunceller mot kreft"
       ],
       "correct": 3,
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Hvilket spørsmål om personvern reiser gentester?",
       "options": [
-        "Hvem skal ha tilgang til genetiske data",
-        "Hvor mye testen koster",
-        "Hvor raskt svaret kommer",
-        "Hvilken farge prøveglasset har"
+        "Hvem får tilgang til personens genetiske data",
+        "Hvor mye genetiske tester koster for pasienten",
+        "Hvor raskt pasienten får svar på gentesten",
+        "Hvilken sykdom gentesten kan oppdage hos pasienten"
       ],
       "correct": 0,
       "explain": "Data sier også noe om familien."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva er et argument mot at genteknologi er «unaturlig»?",
       "options": [
-        "At naturen er farlig",
+        "At mennesker har brukt genteknologi i tusenvis av år gjennom tradisjonell foredling",
         "At mennesker har foredlet planter og dyr i tusenvis av år",
-        "At genteknologi er gammel",
-        "At GMO ikke finnes"
+        "At genteknologi forekommer naturlig og lager de samme endringene som foredling",
+        "At GMO-planter har vært dyrket og foredlet i flere tusen år"
       ],
       "correct": 1,
       "explain": "Grensen for det naturlige er uklar."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hva kan persontilpasset medisin gjøre?",
         "options": [
-          "Gi alle samme medisin",
+          "Velge medisiner som virker best ut fra pasientens blodtype",
           "Velge medisiner som virker best ut fra pasientens gener",
-          "Erstatte leger",
-          "Fjerne alle sykdommer"
+          "Velge medisiner som endrer pasientens gener for å behandle sykdom",
+          "Velge medisiner som virker best ut fra sykdommens arvelighet i familien"
         ],
         "correct": 1,
         "explain": "Basert på gentester."
@@ -331,9 +331,9 @@
         "text": "Hvilken bekymring gjelder genmodifiserte planter i naturen?",
         "options": [
           "At gener kan spres til ville slektninger",
-          "At plantene blir for små",
-          "At de ikke kan dyrkes",
-          "At de mangler farge"
+          "At genene spres til insekter som spiser planten",
+          "At endrede gener forsvinner når planten formerer seg",
+          "At genmodifiserte planter ikke kan pollineres av ville slektninger"
         ],
         "correct": 0,
         "explain": "Føre var-prinsippet."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål bør du stille når du drøfter genteknologi?",
         "options": [
-          "Hvor gammel teknologien er",
-          "Hvem som oppfant den",
+          "Hvor gammel teknologien er, og hvem som utviklet den",
+          "Hvilken metode den bruker, og hvor lang tid behandlingen tar",
           "Hvilken nytte og risiko den gir, og for hvem",
-          "Hvor mange som liker den"
+          "Hvor mange som bruker teknologien, og hvor mye den koster"
         ],
         "correct": 2,
         "explain": "Og hvilke verdier som står mot hverandre."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

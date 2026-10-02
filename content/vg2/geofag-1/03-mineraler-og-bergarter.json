@@ -83,7 +83,7 @@
         "Karbonater",
         "Silikater",
         "Sulfider",
-        "Halogenider"
+        "Oksider"
       ],
       "correct": 1,
       "explain": "Kvarts og feltspat er silikater."
@@ -93,9 +93,9 @@
       "text": "Hvorfor har granitt store krystaller?",
       "options": [
         "Den størknet langsomt dypt i jorda",
-        "Den størknet raskt på overflaten",
-        "Den er dannet av sedimenter",
-        "Den er omdannet av trykk"
+        "Den størknet raskt nær jordoverflaten",
+        "Den ble dannet da sedimenter ble presset sammen",
+        "Den ble omdannet av trykk og varme"
       ],
       "correct": 0,
       "explain": "Krystallene fikk tid til å vokse."
@@ -107,7 +107,7 @@
         "Gneis",
         "Kvartsitt",
         "Marmor",
-        "Basalt"
+        "Skifer"
       ],
       "correct": 2,
       "explain": "Kalkspaten krystalliserer om."
@@ -131,7 +131,7 @@
         "Sedimentære bergarter",
         "Dypbergarter",
         "Dagbergarter",
-        "Ingen"
+        "Metamorfe bergarter"
       ],
       "correct": 0,
       "explain": "Organismer blir begravd i sedimentene."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva er kornstørrelsen til sand?",
       "options": [
-        "Under 0,002 mm",
+        "0,002–0,06 mm",
         "0,06–2 mm",
         "2–64 mm",
-        "Over 64 mm"
+        "64–256 mm"
       ],
       "correct": 1,
       "explain": "Mindre korn er silt og leire."
@@ -155,7 +155,7 @@
         "At de er avsatt i rolig vann",
         "At de er avsatt av vind",
         "At de er avsatt av is",
-        "At de er magmatiske"
+        "At de er størknet fra magma"
       ],
       "correct": 2,
       "explain": "Isen avsetter alle størrelser om hverandre."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hvilken hardhet har kvarts på Mohs skala?",
       "options": [
-        "1",
-        "3",
-        "10",
+        "6",
+        "8",
+        "9",
         "7"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hva er gneis?",
       "options": [
         "En båndet metamorf bergart",
-        "En finkornet dagbergart",
-        "En sedimentær bergart",
-        "Et mineral"
+        "En grovkornet dypbergart",
+        "En lagdelt sedimentær bergart",
+        "En finkornet vulkansk bergart"
       ],
       "correct": 0,
       "explain": "Svært vanlig i Norge."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva skjer i bergartssyklusen når en bergart smelter?",
       "options": [
-        "Den blir til sediment",
+        "Den blir sedimenter som senere kan presses sammen til en sedimentær bergart",
         "Den blir magma som senere kan størkne til en magmatisk bergart",
-        "Den blir marmor",
-        "Den forsvinner"
+        "Den blir magma som senere kan størkne til en sedimentær bergart",
+        "Den blir lava som senere kan størkne til en sedimentær bergart"
       ],
       "correct": 1,
       "explain": "Syklusen starter på nytt."
@@ -317,8 +317,8 @@
         "options": [
           "Gneis",
           "Larvikitt",
-          "Marmor",
-          "Sandstein"
+          "Anortositt",
+          "Eclogitt"
         ],
         "correct": 1,
         "explain": "En dypbergart fra Vestfold.",
@@ -331,8 +331,8 @@
         "options": [
           "Glimmer",
           "Kvarts",
-          "Kalkspat",
-          "Magnetitt"
+          "Feltspat",
+          "Amfibol"
         ],
         "correct": 0,
         "explain": "Det har god spaltning i én retning."
@@ -345,7 +345,7 @@
           "Marmor",
           "Gneis",
           "Kvartsitt",
-          "Granitt"
+          "Skifer"
         ],
         "correct": 2,
         "explain": "Kvartskornene vokser sammen."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

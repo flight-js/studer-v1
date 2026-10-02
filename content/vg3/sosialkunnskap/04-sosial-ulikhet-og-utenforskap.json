@@ -90,9 +90,9 @@
       "text": "Hvordan måles relativ fattigdom ofte?",
       "options": [
         "Under 60 % av medianinntekten",
-        "Mindre enn 1000 kr i måneden",
-        "Ingen bolig",
-        "Arbeidsledig i ett år"
+        "Under 60 % av gjennomsnittsinntekten",
+        "Under 60 % av medianformuen",
+        "Under 60 % av minstelønnen"
       ],
       "correct": 0,
       "explain": "EU-definisjonen."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er marginalisering?",
       "options": [
-        "Et resultat",
-        "En type skatt",
+        "En tilstand der noen står utenfor arbeids- og samfunnslivet",
+        "En ordning som gir økonomisk støtte til personer med lav inntekt",
         "En prosess der noen skyves ut mot kanten av samfunnet",
-        "En velferdsordning"
+        "Et tiltak som fordeler offentlige tjenester mellom ulike grupper"
       ],
       "correct": 2,
       "explain": "Utenforskap er resultatet."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er sosial arv?",
       "options": [
-        "Arv av penger alene",
-        "Gener",
-        "Lover",
+        "At penger og eiendom overføres fra foreldre til barn",
+        "At personlighet og evner går i arv gjennom gener",
+        "At foreldrenes yrke ofte blir barnas yrke",
         "At levekår og muligheter overføres fra foreldre til barn"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvilken faktor er en av de viktigste for å komme i arbeid?",
       "options": [
-        "Å fullføre videregående",
-        "Å bo i by",
-        "Å ha mange følgere",
-        "Å være født om sommeren"
+        "Å fullføre videregående opplæring",
+        "Å bo i en storby",
+        "Å ha et stort kontaktnett",
+        "Å ta flere fritidskurs"
       ],
       "correct": 0,
       "explain": "Frafall øker risikoen for utenforskap."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvilken konsekvens har utenforskap for samfunnet?",
       "options": [
-        "Økte skatteinntekter",
+        "Økt arbeidskraft og styrket tillit",
         "Tapt arbeidskraft og svekket tillit",
-        "Mer samhold",
-        "Lavere trygdeutgifter"
+        "Større samhold og høyere skatteinntekter",
+        "Lavere trygdeutgifter og mindre polarisering"
       ],
       "correct": 1,
       "explain": "Også polarisering."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva mener Wilkinson og Pickett?",
       "options": [
-        "At ulikhet ikke betyr noe",
-        "At bare fattige rammes",
+        "At samfunn med små forskjeller har flere sosiale problemer",
+        "At samfunn med store forskjeller gir sterkere tillit mellom innbyggerne",
         "At samfunn med store forskjeller har flere sosiale problemer",
-        "At rike land alltid er lykkeligst"
+        "At samfunn med store forskjeller reduserer helseforskjeller mellom gruppene"
       ],
       "correct": 2,
       "explain": "Også for de rike.",
@@ -164,7 +164,7 @@
       "options": [
         "Likhet i formue",
         "Absolutt fattigdom",
-        "Andelen uten skolegang",
+        "Andelen uten fullført skolegang",
         "Forskjeller i formue"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvordan kan automatisering bidra til utenforskap?",
       "options": [
         "Ved at det blir færre jobber for dem uten formell kompetanse",
-        "Ved å gi flere jobber til alle",
-        "Ved å senke skatten",
-        "Ved å øke lønningene"
+        "Ved at det blir flere jobber for dem uten formell kompetanse",
+        "Ved at det blir lavere krav til formell kompetanse i arbeidslivet",
+        "Ved at det fører til høyere lønn for ufaglærte arbeidstakere"
       ],
       "correct": 0,
       "explain": "Kravene i arbeidslivet øker.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva mener de fleste samfunnsforskere om årsakene til ulikhet?",
       "options": [
-        "At det bare skyldes valg",
+        "At individuelle valg veier tyngre enn samfunnsstrukturer",
         "At både individuelle valg og strukturer spiller inn",
-        "At det bare skyldes flaks",
-        "At det bare skyldes gener"
+        "At årsakene til ulikhet hovedsakelig ligger i biologiske forskjeller",
+        "At årsakene til ulikhet hovedsakelig ligger i tilfeldigheter"
       ],
       "correct": 1,
       "explain": "Aktør og struktur."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hva betyr en Gini-koeffisient på 0?",
         "options": [
-          "At én person har alt",
-          "At alle har like mye",
-          "At ingen har inntekt",
-          "At ulikheten er stor"
+          "At én person mottar nesten all inntekten",
+          "At alle har like store inntekter",
+          "At inntektene er svært ulike mellom personer",
+          "At ingen i befolkningen har inntekt"
         ],
         "correct": 1,
         "explain": "Fullstendig likhet."
@@ -326,9 +326,9 @@
         "text": "Hvilket tiltak kan motvirke at utenforskap går i arv?",
         "options": [
           "Gratis eller rimelige fritidstilbud for barn",
-          "Høyere egenandeler",
-          "Færre barnehager",
-          "Kutt i skolehelsetjenesten"
+          "Økte egenandeler for barns fritidsaktiviteter",
+          "Færre barnehageplasser i utsatte områder",
+          "Redusert tilgang til skolehelsetjenester for barn"
         ],
         "correct": 0,
         "explain": "Gir alle barn mulighet til å delta.",
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvilken gruppe kan møte diskriminering i jobbsøking?",
         "options": [
-          "Bare eldre",
-          "Ingen",
+          "Personer med høy utdanning eller lang arbeidserfaring",
+          "Personer med gode referanser eller etterspurt kompetanse",
           "Personer med minoritetsbakgrunn eller funksjonsnedsettelse",
-          "Bare de med høy utdanning"
+          "Personer med høy inntekt eller stabil arbeidssituasjon"
         ],
         "correct": 2,
         "explain": "Diskriminering er en årsak til utenforskap."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

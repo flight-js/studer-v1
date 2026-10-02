@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvor stor er pliktdelsarven til barn?",
       "options": [
-        "Halvparten av formuen",
+        "Halvparten av formuen, høyst 10 G per barn",
         "To tredeler av formuen, høyst 15 G per barn",
-        "Alt",
-        "En firedel"
+        "Hele formuen, høyst 15 G per barn",
+        "En firedel av formuen, høyst 15 G per barn"
       ],
       "correct": 1,
       "explain": "Kan ikke tas bort ved testament."
@@ -89,9 +89,9 @@
       "text": "Hvor mye arver en ektefelle når det finnes livsarvinger?",
       "options": [
         "En firedel, minst 4 G",
-        "Alt",
-        "Ingenting",
-        "Halvparten"
+        "En firedel, minst 6 G",
+        "Halvparten, minst 4 G",
+        "En åttedel, minst 4 G"
       ],
       "correct": 0,
       "explain": "Minstearven går foran pliktdelen."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Arver fettere og kusiner etter loven?",
       "options": [
-        "Ja, i første klasse",
-        "Ja, i andre klasse",
-        "Nei",
-        "Bare hvis de er over 18"
+        "Ja, de arver i første arveklasse",
+        "Ja, de arver i andre arveklasse",
+        "Nei, de arver ikke etter arveloven",
+        "Ja, de arver i tredje arveklasse"
       ],
       "correct": 2,
       "explain": "Tredje klasse stopper ved tanter og onkler."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva kreves for et gyldig testament?",
       "options": [
-        "At det er muntlig",
-        "At det er publisert",
-        "At det har ett vitne",
+        "At det er skriftlig, underskrevet og har ett vitne over 18 år",
+        "At det er skriftlig, publisert og har to vitner over 18 år",
+        "At det er skriftlig, underskrevet og har to vitner under 18 år",
         "At det er skriftlig, underskrevet og har to vitner over 18 år"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er uskifte?",
       "options": [
         "At gjenlevende ektefelle overtar hele boet uten skifte",
-        "At arven deles med en gang",
-        "At staten overtar boet",
-        "At barna overtar alt"
+        "At arven deles mellom barna med en gang",
+        "At staten overtar hele boet uten skifte",
+        "At barna overtar hele boet med en gang"
       ],
       "correct": 0,
       "explain": "Barna må vente."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvem må samtykke til uskifte?",
       "options": [
-        "Felles barn",
-        "Særkullsbarn",
-        "Naboene",
-        "Staten"
+        "Avdødes fellesbarn",
+        "Avdødes særkullsbarn",
+        "Avdødes foreldre",
+        "Avdødes søsken"
       ],
       "correct": 1,
       "explain": "Felles barn kan ikke nekte."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva arver en samboer uten felles barn etter loven?",
       "options": [
-        "4 G",
-        "Halvparten",
-        "Ingenting",
-        "Alt"
+        "Fire G i arv etter arveloven",
+        "En firedel i arv etter arveloven",
+        "Ingen arv etter arveloven",
+        "Halvparten i arv etter arveloven"
       ],
       "correct": 2,
       "explain": "Må sikres med testament."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva skjer hvis den som sitter i uskifte, gifter seg igjen?",
       "options": [
-        "Ingenting",
-        "Den nye ektefellen overtar",
-        "Barna mister arven",
-        "Boet må skiftes først"
+        "At uskiftet fortsetter etter nytt ekteskap",
+        "At den nye ektefellen overtar uskifteboet",
+        "At barna mister arven ved nytt ekteskap",
+        "At boet må skiftes før nytt ekteskap"
       ],
       "correct": 3,
       "explain": "Arven fordeles før nytt ekteskap."
@@ -173,9 +173,9 @@
       "text": "Kari etterlater 3 millioner kr, ektefelle og to felles barn. Hvor mye arver ektefellen?",
       "options": [
         "750 000 kr",
+        "500 000 kr",
         "1 500 000 kr",
-        "3 000 000 kr",
-        "0 kr"
+        "2 250 000 kr"
       ],
       "correct": 0,
       "explain": "En firedel, som er mer enn 4 G."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Kan man ta fra barna pliktdelsarven i et testament?",
       "options": [
-        "Ja, alltid",
-        "Nei",
-        "Ja, hvis barna er voksne",
-        "Ja, hvis man har ektefelle"
+        "Ja, hvis barna har fylt 18 år",
+        "Nei, pliktdelen er vernet i testament",
+        "Ja, dersom avdøde har ektefelle",
+        "Ja, hvis testamentet har to vitner"
       ],
       "correct": 1,
       "explain": "Pliktdelen er vernet."
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva er et særkullsbarn?",
         "options": [
-          "Et adoptivbarn",
+          "Et barn ektefellen har fra et tidligere forhold",
           "Et barn avdøde har med en annen enn ektefellen",
-          "Et barnebarn",
-          "Et fosterbarn"
+          "Et barn avdøde har sammen med ektefellen",
+          "Et barn avdøde har som fosterbarn"
         ],
         "correct": 1,
         "explain": "Må samtykke til uskifte."
@@ -327,9 +327,9 @@
         "text": "Hvor mye arver en ektefelle uten livsarvinger, når avdødes foreldre lever?",
         "options": [
           "Halvparten, minst 6 G",
-          "En firedel",
-          "Ingenting",
-          "4 G"
+          "En firedel, minst 4 G",
+          "Hele arven, minst 6 G",
+          "Halvparten, minst 4 G"
         ],
         "correct": 0,
         "explain": "Ellers arver ektefellen alt."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva er G?",
         "options": [
-          "En type skatt",
-          "Et gebyr ved skifte",
+          "Maksbeløpet i folketrygden",
+          "Minstepensjonen i folketrygden",
           "Grunnbeløpet i folketrygden",
-          "En arveklasse"
+          "Skattefradraget i folketrygden"
         ],
         "correct": 2,
         "explain": "Justeres hvert år."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

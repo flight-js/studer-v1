@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er eide medier?",
       "options": [
-        "Annonser virksomheten kjøper",
-        "Kanaler virksomheten kontrollerer selv",
-        "Omtale i avisen",
-        "Delinger fra kunder"
+        "Annonser virksomheten betaler for",
+        "Kanaler virksomheten selv kontrollerer",
+        "Omtale redaksjoner publiserer om virksomheten",
+        "Innhold kunder deler om virksomheten"
       ],
       "correct": 1,
       "explain": "For eksempel nettside og nyhetsbrev."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er fortjente medier?",
       "options": [
-        "Omtale virksomheten ikke betaler for",
-        "TV-reklame",
-        "Nettsiden",
-        "Plakater"
+        "Omtale uten betaling fra virksomheten",
+        "Annonser betalt av virksomheten",
+        "Innhold på virksomhetens egne kanaler",
+        "Reklame på kjøpte annonseplasser"
       ],
       "correct": 0,
       "explain": "Gir troverdighet."
@@ -113,22 +113,22 @@
       "id": "q04",
       "text": "Hva er dekning?",
       "options": [
-        "Hvor mye kampanjen koster",
-        "Hvor mange som kjøper",
-        "Hvor mange ganger hver ser budskapet",
-        "Andelen av målgruppen som ser budskapet minst én gang"
+        "Andelen i målgruppen som kjøper produktet etter kampanjen",
+        "Antallet ganger hver person i målgruppen ser budskapet",
+        "Andelen av budsjettet som brukes på kampanjen",
+        "Andelen i målgruppen som ser budskapet minst én gang"
       ],
       "correct": 3,
-      "explain": "Frekvens er antall ganger."
+      "explain": "Dekning teller personer som ser budskapet minst én gang. Frekvens teller hvor mange ganger de ser det."
     },
     {
       "id": "q05",
       "text": "Hvilken kanal når kunder som aktivt leter etter et produkt?",
       "options": [
         "Søkemotorer",
-        "Plakater",
-        "Radio",
-        "Kino"
+        "Sosiale medier",
+        "Utendørsreklame",
+        "Podkastannonser"
       ],
       "correct": 0,
       "explain": "Kunden søker selv."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvorfor bør videoer i sosiale medier ha tekst?",
       "options": [
-        "Fordi det er lovpålagt",
-        "Fordi mange ser uten lyd",
-        "Fordi det er billigere",
-        "Fordi tekst gir flere klikk alltid"
+        "Fordi tekst gjør videoen kortere",
+        "Fordi mange ser videoer uten lyd",
+        "Fordi tekst får videoen til å lastes raskere",
+        "Fordi tekst forbedrer videobildet"
       ],
       "correct": 1,
       "explain": "Budskapet må forstås uten lyd."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er konvertering?",
       "options": [
-        "Andelen som ser annonsen",
-        "Å bytte kanal",
-        "Andelen som handler",
-        "Å oversette en annonse"
+        "Andelen som ser annonsen minst én gang",
+        "Andelen som kjenner igjen annonsen senere",
+        "Andelen som gjennomfører ønsket handling",
+        "Andelen som husker annonsens budskap"
       ],
       "correct": 2,
       "explain": "For eksempel kjøper eller melder seg på."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er innholdsmarkedsføring?",
       "options": [
-        "Bare priser og tilbud",
-        "Å kjøpe TV-reklame",
-        "Å sende mange e-poster",
+        "Produktreklame med priser og tilbud som fremmer salg",
+        "Betalt reklameinnhold som kjøpes på TV-kanaler",
+        "Utsendelse av mange e-poster med salgsbudskap",
         "Nyttig eller underholdende innhold som bygger relasjoner"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva kjennetegner en god plakat?",
       "options": [
         "Den forstås på et øyeblikk",
-        "Den har mye tekst",
-        "Den er uten bilde",
-        "Den har små bokstaver"
+        "Den formidler flere budskap samtidig",
+        "Den bruker liten skrift for mer informasjon",
+        "Den viser produktet uten et tydelig budskap"
       ],
       "correct": 0,
       "explain": "Kort eksponering."
@@ -185,13 +185,13 @@
       "id": "q10",
       "text": "Hva er en svakhet ved TV-reklame?",
       "options": [
-        "Den når få",
-        "Den er dyr",
-        "Den har ikke lyd",
-        "Den kan ikke vise bilder"
+        "Den når store målgrupper",
+        "Den har høye kostnader",
+        "Den kombinerer lyd med levende bilder",
+        "Den vises under populære programmer"
       ],
       "correct": 1,
-      "explain": "Men den når mange med levende bilder."
+      "explain": "TV-reklame kan vise levende bilder og nå store målgrupper, men har høye kostnader."
     }
   ],
   "mindmap": {
@@ -316,13 +316,13 @@
         "type": "flervalg",
         "text": "Hvilken kanal er billig og følger folk gjennom dagen?",
         "options": [
-          "TV",
+          "TV og strømming",
           "Radio og podkast",
-          "Kino",
-          "Magasiner"
+          "Kino og utendørsreklame",
+          "Aviser og magasiner"
         ],
         "correct": 1,
-        "explain": "Men bare lyd."
+        "explain": "Innholdet formidles hovedsakelig med lyd."
       },
       {
         "id": "m06",
@@ -331,21 +331,21 @@
         "options": [
           "Rekkevidde",
           "Troverdighet",
-          "Full gratis synlighet",
-          "Ingen kostnader"
+          "Redaksjonell omtale",
+          "Kundestyrt spredning"
         ],
         "correct": 0,
-        "explain": "Fortjente medier gir troverdighet."
+        "explain": "Betalte medier kan gi mange eksponeringer gjennom kjøpte annonseplasser."
       },
       {
         "id": "m07",
         "type": "flervalg",
         "text": "Hva hører hjemme i en medieplan?",
         "options": [
-          "Bare logoen",
-          "Bare de ansattes navn",
+          "Målgruppe, kanaler, produktfoto og budsjett",
+          "Målgruppe, kanaler, tidsplan og slagord",
           "Målgruppe, kanaler, tidsplan og budsjett",
-          "Bare prisen"
+          "Målgruppe, kanaler, produktpris og budsjett"
         ],
         "correct": 2,
         "explain": "Og hvordan resultatene måles."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

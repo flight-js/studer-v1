@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er en kravspesifikasjon?",
       "options": [
-        "En tegning av produktet",
+        "En arbeidstegning som viser produktets form, mål og materialer",
         "En beskrivelse av hva produktet skal gjøre og hvilke begrensninger det har",
-        "En brukermanual",
-        "En prisliste"
+        "En brukerveiledning som forklarer hvordan produktet skal brukes",
+        "En produksjonsplan som beskriver hvordan produktet skal lages"
       ],
       "correct": 1,
       "explain": "Grunnlaget for utvikling og testing."
@@ -92,9 +92,9 @@
       "text": "Hvilket krav er best formulert?",
       "options": [
         "Lampen skal gi minst 300 lux på en pult 50 cm under lampen",
-        "Lampen skal være lys",
-        "Lampen skal være fin",
-        "Lampen skal være god"
+        "Lampen skal gi minst 300 lumen på en pult 50 cm under lampen",
+        "Lampen skal gi minst 300 lux på en pult 50 cm over lampen",
+        "Lampen skal gi omtrent 300 lux på en pult under lampen"
       ],
       "correct": 0,
       "explain": "Det er konkret og målbart."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva betyr målestokk 2 : 1?",
       "options": [
-        "Tegningen er halvparten så stor",
-        "Tegningen er like stor",
+        "Tegningen er halvparten så stor som virkeligheten",
+        "Tegningen er like stor som virkeligheten",
         "Tegningen er dobbelt så stor som virkeligheten",
-        "Tegningen har to riss"
+        "Virkeligheten er dobbelt så stor som tegningen"
       ],
       "correct": 2,
       "explain": "Brukes for små deler."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hvilke riss viser en arbeidstegning vanligvis?",
       "options": [
-        "Bare forfra",
-        "Et fotografi",
-        "Bare et 3D-bilde",
+        "Forfra, ovenfra og bakfra",
+        "Forfra, fra siden og bakfra",
+        "Ovenfra, nedenfra og fra siden",
         "Forfra, ovenfra og fra siden"
       ],
       "correct": 3,
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvorfor jobber man iterativt i produktutvikling?",
       "options": [
-        "For å bruke mer tid",
+        "For å ferdigstille løsningen før den blir testet på en prototype",
         "For å oppdage feil tidlig mens de er billige å rette",
-        "Fordi det er påbudt",
-        "For å slippe testing"
+        "For å unngå å endre produktet etter den første testen",
+        "For å dokumentere at den første løsningen oppfyller kravene"
       ],
       "correct": 1,
       "explain": "Prototype, test og forbedring gjentas."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er DAK?",
       "options": [
-        "En type mikrokontroller",
-        "En måleenhet",
+        "Dataassistert produksjon",
+        "Datastyrt produksjon",
         "Dataassistert konstruksjon",
-        "En sensor"
+        "Digital modellering"
       ],
       "correct": 2,
       "explain": "Programmer som Fusion 360 og Tinkercad.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva bør en testplan inneholde?",
       "options": [
-        "Bare bilder av produktet",
-        "Bare prisen",
-        "Navnet på produktet",
+        "Tester knyttet til hvert krav, uten registrering av resultater",
+        "Tester av prototypen uten å knytte dem til kravene",
+        "Målinger av produktet uten å beskrive hvordan de utføres",
         "Tester knyttet til hvert krav, med resultat"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hvilken måleenhet brukes vanligvis på arbeidstegninger?",
       "options": [
         "Millimeter",
-        "Meter",
+        "Centimeter",
         "Tommer",
-        "Kilometer"
+        "Desimeter"
       ],
       "correct": 0,
       "explain": "Standard i teknisk tegning."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er formålet med en funksjonsprototype?",
       "options": [
-        "Å vise fargene",
+        "Å teste om produktets form er behagelig",
         "Å teste om teknikken virker",
-        "Å selge produktet",
-        "Å lage tegningshodet"
+        "Å undersøke om produktets farger passer sammen",
+        "Å vise produktets ferdige utseende til kunder"
       ],
       "correct": 1,
       "explain": "Gjerne med koblingsbrett og mikrokontroller.",
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "En del er 40 mm lang i virkeligheten. Hvor lang er den på en tegning i målestokk 1 : 2?",
         "options": [
-          "80 mm",
+          "10 mm",
           "20 mm",
           "40 mm",
-          "2 mm"
+          "80 mm"
         ],
         "correct": 1,
         "explain": "Halvparten av virkeligheten."
@@ -331,9 +331,9 @@
         "text": "Hva hører hjemme i tegningshodet?",
         "options": [
           "Navn, dato, materiale og målestokk",
-          "Testresultatene",
-          "Programkoden",
-          "Kravspesifikasjonen"
+          "Målemetode, testresultat, godkjenning og konklusjon",
+          "Programkode, koblingsskjema, sensorverdi og testresultat",
+          "Pris, målgruppe, reklameplan og salgsmål"
         ],
         "correct": 0,
         "explain": "Formell informasjon om tegningen.",
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hvorfor bør du føre prosjektlogg?",
         "options": [
-          "For å bruke opp tiden",
-          "Fordi læreren krever det",
+          "For å holde oversikt over oppgaver som skal gjøres framover",
+          "For å planlegge arbeidsøktene før prosjektet starter",
           "For at arbeidet blir etterprøvbart og lettere å forbedre",
-          "For å slippe tegninger"
+          "For å presentere produktet for brukere før det er ferdig"
         ],
         "correct": 2,
         "explain": "Valg og resultater dokumenteres.",
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

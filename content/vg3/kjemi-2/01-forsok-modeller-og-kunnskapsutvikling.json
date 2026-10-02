@@ -84,22 +84,22 @@
       "id": "q01",
       "text": "Hva er den avhengige variabelen i et forsøk?",
       "options": [
-        "Det du endrer",
+        "Faktoren du endrer",
         "Det du måler",
-        "Det du holder konstant",
-        "Utstyret"
+        "Faktoren du kontrollerer",
+        "Målemetoden du velger"
       ],
       "correct": 1,
-      "explain": "Den uavhengige variabelen er det du endrer."
+      "explain": "Den avhengige variabelen er det som registreres som resultat."
     },
     {
       "id": "q02",
       "text": "En vekt viser alltid 0,05 g for mye. Hva slags feil er det?",
       "options": [
-        "Systematisk feil",
-        "Tilfeldig feil",
-        "Ingen feil",
-        "Presisjonsfeil"
+        "En systematisk feil i målingen",
+        "En tilfeldig feil i målingen",
+        "En grov feil i målingen",
+        "En feil i beregningen av massen"
       ],
       "correct": 0,
       "explain": "Den trekker resultatet i én retning."
@@ -108,22 +108,22 @@
       "id": "q03",
       "text": "Hva er presisjon?",
       "options": [
-        "Hvor nær det sanne svaret du er",
-        "Hvor stort utvalget er",
+        "Hvor nær resultatet ligger den kjente verdien",
+        "Hvor godt målingene stemmer med teorien",
         "Hvor like resultatene er ved gjentatte målinger",
-        "Hvor raskt forsøket går"
+        "Hvor stor måleusikkerheten er i forsøket"
       ],
       "correct": 2,
-      "explain": "Nøyaktighet er nærhet til sann verdi."
+      "explain": "Presisjon handler om hvor like gjentatte målinger er."
     },
     {
       "id": "q04",
       "text": "Hvor finner du informasjon om farene ved et kjemikalie?",
       "options": [
-        "I læreboka alene",
-        "På nettforum",
-        "Hos en venn",
-        "I sikkerhetsdatabladet"
+        "I kjemikaliets strukturformel",
+        "I kjemikaliets reaksjonslikning",
+        "I kjemikaliets produktkatalog",
+        "I kjemikaliets sikkerhetsdatablad"
       ],
       "correct": 3,
       "explain": "Sammen med faresymbolene."
@@ -133,9 +133,9 @@
       "text": "Hvordan kan tilfeldige feil reduseres?",
       "options": [
         "Ved å gjenta forsøket og regne gjennomsnitt",
-        "Ved å bruke en annen vekt",
-        "Ved å endre hypotesen",
-        "De kan ikke reduseres"
+        "Ved å endre hypotesen før hver ny måling",
+        "Ved å velge målingen som ligger nærmest teorien",
+        "Ved å bruke samme utstyr i én enkelt måling"
       ],
       "correct": 0,
       "explain": "Spredningen jevnes ut."
@@ -144,13 +144,13 @@
       "id": "q06",
       "text": "Hvorfor har atommodellen endret seg over tid?",
       "options": [
-        "Fordi forskerne ble uenige om navn",
-        "Fordi nye forsøk viste noe den gamle modellen ikke kunne forklare",
-        "Fordi atomene endret seg",
-        "Fordi det er mote"
+        "Nye forsøk gjorde at atomene fikk andre egenskaper over tid.",
+        "Nye forsøk viste forhold den gamle modellen ikke kunne forklare.",
+        "Nye måleinstrumenter endret navnene forskerne brukte på atomene.",
+        "Forskere byttet modell fordi nye forklaringer var enklere å huske."
       ],
       "correct": 1,
-      "explain": "Fra Dalton til kvantemekanikk."
+      "explain": "Modeller endres når nye forsøk gir resultater de ikke kan forklare."
     },
     {
       "id": "q07",
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hva kjennetegner en vitenskapelig teori?",
       "options": [
-        "Det er en gjetning",
-        "Det er en mening",
-        "Den kan aldri testes",
+        "Den er en forklaring som bygger på én enkelt observasjon",
+        "Den beskriver et fenomen uten å kunne prøves med forsøk",
+        "Den blir godtatt når flertallet av forskerne er enige",
         "Den er godt underbygd og gjør testbare prediksjoner"
       ],
       "correct": 3,
@@ -182,9 +182,9 @@
       "text": "Hvorfor bør du bruke minst mulig kjemikalier?",
       "options": [
         "For å redusere risiko og avfall",
-        "For å gjøre forsøket vanskeligere",
-        "Fordi det gir større feil",
-        "Fordi det er påbudt å ikke gjøre forsøk"
+        "For å få reaksjonen til å gå raskere",
+        "For å sikre at alt stoffet løses opp",
+        "For å bruke mindre tid på å skylle utstyr"
       ],
       "correct": 0,
       "explain": "Et prinsipp i trygt og grønt laboratoriearbeid."
@@ -193,10 +193,10 @@
       "id": "q10",
       "text": "Hva bør drøftingen i en rapport inneholde?",
       "options": [
-        "Bare resultatene",
-        "Vurdering av om resultatene stemmer med teorien og hvilke feilkilder som kan forklare avvik",
-        "Bare utstyrslisten",
-        "Ingen konklusjon"
+        "Å beskrive forsøksutstyret og føre opp mengdene av kjemikaliene som ble brukt",
+        "Å vurdere om resultatene stemmer med teorien og drøfte feilkilder som kan forklare avvik",
+        "Å gjenta teorien og beskrive framgangsmåten uten å tolke måleresultatene",
+        "Å velge målingene som passer forventningen og utelate andre resultater fra rapporten"
       ],
       "correct": 1,
       "explain": "Kritisk vurdering av egne funn."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hva gjør et avtrekkskap?",
         "options": [
-          "Kjøler ned løsninger",
+          "Filtrerer bort faste partikler fra løsninger",
           "Suger ut giftige eller flyktige gasser",
-          "Veier stoffer",
-          "Lagrer avfall"
+          "Regulerer temperaturen på løsninger under oppvarming",
+          "Samler opp brukte kjemikalier fra forsøket"
         ],
         "correct": 1,
         "explain": "Viktig sikkerhetsutstyr."
@@ -325,13 +325,13 @@
         "type": "flervalg",
         "text": "Hvilken modell innførte skall der elektronene går i bestemte baner?",
         "options": [
-          "Bohrs modell",
-          "Daltons modell",
-          "Thomsons modell",
-          "Den kvantemekaniske modellen"
+          "Bohrs atommodell",
+          "Rutherfords atommodell",
+          "Demokrits atommodell",
+          "Sommerfelds atommodell"
         ],
         "correct": 0,
-        "explain": "Senere erstattet av orbitaler.",
+        "explain": "Bohr beskrev elektroner med bestemte baner rundt atomkjernen.",
         "niva": "eksempel"
       },
       {
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva måler prosentvis avvik?",
         "options": [
-          "Hvor mange forsøk du gjorde",
-          "Hvor lang tid forsøket tok",
-          "Forskjellen fra en kjent verdi i prosent",
-          "Antall gjeldende sifre"
+          "Spredningen mellom gjentatte målinger, uttrykt i prosent",
+          "Usikkerheten i en enkelt måling, uttrykt i prosent",
+          "Forskjellen fra en kjent verdi, uttrykt i prosent",
+          "Avviket mellom to forsøksserier, uttrykt i prosent"
         ],
         "correct": 2,
         "explain": "Brukes til å vurdere resultater."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på integrering og assimilering?",
       "options": [
-        "Det er det samme",
+        "Integrering og assimilering betyr det samme når minoriteter deltar i samfunnet",
         "Ved integrering kan man beholde egen kultur, ved assimilering må man bli lik majoriteten",
-        "Assimilering betyr å bo atskilt",
-        "Integrering betyr å gi opp egen kultur"
+        "Integrering betyr at grupper bor atskilt, mens assimilering handler om samarbeid",
+        "Ved integrering gir man opp egen kultur, mens assimilering bevarer den"
       ],
       "correct": 1,
       "explain": "Segregering betyr atskillelse."
@@ -94,9 +94,9 @@
       "text": "Hva er universell utforming?",
       "options": [
         "Løsninger som kan brukes av alle uten spesialtilpasning",
-        "En uniform",
-        "En type skole",
-        "En skatteordning"
+        "Løsninger som kan brukes av personer med særskilte behov etter tilpasning",
+        "Løsninger som brukes i offentlige bygg for å redusere vedlikehold",
+        "Løsninger som gir enkelte brukergrupper egne innganger og tjenester"
       ],
       "correct": 0,
       "explain": "Bygg, transport og digitale tjenester."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva er lønnstilskudd?",
       "options": [
-        "Høyere lønn til ledere",
-        "En bonus",
+        "At arbeidsgiveren får støtte til å dekke deler av opplæringskostnadene",
+        "At NAV betaler arbeidstakeren et tillegg til vanlig lønn for en periode",
         "At NAV dekker deler av lønnen for en periode",
-        "En skatt"
+        "At arbeidsgiveren får redusert arbeidsgiveravgift ved nyansettelser"
       ],
       "correct": 2,
       "explain": "Gjør det lettere å bli ansatt.",
@@ -118,9 +118,9 @@
       "id": "q04",
       "text": "Hvem er introduksjonsprogrammet for?",
       "options": [
-        "Pensjonister",
-        "Studenter",
-        "Ledere",
+        "Arbeidsinnvandrere",
+        "Internasjonale studenter",
+        "Arbeidsledige norske ungdommer",
         "Flyktninger"
       ],
       "correct": 3,
@@ -131,9 +131,9 @@
       "text": "Hvorfor er arbeid viktig for inkludering?",
       "options": [
         "Det gir inntekt, nettverk, mestring og identitet",
-        "Det gir bare penger",
-        "Det er lovpålagt for alle",
-        "Det har ingen betydning"
+        "Det gir først og fremst inntekt, ikke sosial kontakt eller mestring",
+        "Det gir først og fremst struktur, uten å styrke tilhørighet eller identitet",
+        "Det gir erfaring, men bidrar lite til inntekt og sosial kontakt"
       ],
       "correct": 0,
       "explain": "Utenforskap over tid gir dårligere helse."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva er IPS?",
       "options": [
-        "En skatteordning",
+        "Individuell økonomisk støtte med tett oppfølging",
         "Individuell jobbstøtte med tett oppfølging",
-        "Et parti",
-        "En diagnose"
+        "Arbeidspraksis gjennom NAV med gradvis oppfølging",
+        "Et behandlingstilbud med jobbsøking som tillegg"
       ],
       "correct": 1,
       "explain": "For personer med psykiske helseplager eller rusproblemer.",
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva er en barriere for inkludering?",
       "options": [
-        "Språkkafé",
-        "Fritidskort",
+        "Tilgjengelige arbeidsplasser for ulike behov",
+        "Rettferdig behandling i rekruttering",
         "Diskriminering i ansettelser",
-        "Universell utforming"
+        "Tilpasset opplæring for ansatte"
       ],
       "correct": 2,
       "explain": "Hindrer deltakelse."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hva er IA-avtalen?",
       "options": [
-        "En handelsavtale",
-        "En skoleavtale",
-        "En husleieavtale",
+        "En avtale om inkluderende opplæring i skolen",
+        "En avtale om økonomisk støtte til arbeidsledige",
+        "En avtale om arbeidsvilkår mellom arbeidsgivere og ansatte",
         "En avtale om et inkluderende arbeidsliv"
       ],
       "correct": 3,
@@ -181,9 +181,9 @@
       "text": "Hva kjennetegner inkludering sammenlignet med integrering?",
       "options": [
         "At fellesskapet tilpasser seg så alle kan delta",
-        "At minoriteten må tilpasse seg alene",
-        "At grupper lever atskilt",
-        "At alle blir like"
+        "At den enkelte må endre seg for å passe inn i fellesskapet",
+        "At ulike grupper får egne arenaer uten felles deltakelse",
+        "At deltakerne følger én felles norm for å delta"
       ],
       "correct": 0,
       "explain": "Ansvaret deles."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hvilken uønsket virkning kan lønnstilskudd ha?",
       "options": [
-        "At flere får jobb varig",
+        "At arbeidstakeren får lavere lønn enn avtalt mens tilskuddet varer",
         "At arbeidsgivere bare ansetter mens tilskuddet varer",
-        "At lønningene stiger",
-        "At ingen søker jobb"
+        "At NAV overtar arbeidsgiveransvaret mens tilskuddet varer",
+        "At tilskuddet fører til fast ansettelse uten videre oppfølging"
       ],
       "correct": 1,
       "explain": "Tiltak bør gi varig deltakelse.",
@@ -338,9 +338,9 @@
         "text": "Hva krever likestillings- og diskrimineringsloven av arbeidsgivere?",
         "options": [
           "At de arbeider aktivt for likestilling",
-          "At de ansetter bare menn",
-          "At de betaler mer skatt",
-          "At de har kantine"
+          "At de følger opp sykefravær aktivt",
+          "At de gir ansatte lik lønn uavhengig av stilling",
+          "At de rapporterer ansettelser til NAV"
         ],
         "correct": 0,
         "explain": "Aktivitetsplikt.",
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hva mener de fleste om ansvaret for inkludering?",
         "options": [
-          "At bare individet har ansvar",
-          "At bare staten har ansvar",
+          "At ansvaret er ensidig og ligger hos den enkelte",
+          "At ansvaret er ensidig og ligger hos staten",
           "At ansvaret er gjensidig",
-          "At ingen har ansvar"
+          "At ansvaret er ensidig og ligger hos arbeidsgivere"
         ],
         "correct": 2,
         "explain": "Både individ og samfunn må bidra."
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

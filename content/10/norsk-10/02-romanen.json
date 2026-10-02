@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva skiller en roman fra en novelle?",
       "options": [
-        "Romanen er alltid sann",
+        "Novellen er lengre og har ofte flere personer og handlingstråder",
         "Romanen er lengre og har ofte flere personer og handlingstråder",
-        "Romanen rimer",
-        "Romanen har ingen forteller"
+        "Romanen har færre personer og kortere tidsforløp enn novellen",
+        "Romanen har én handlingstråd og kortere tidsforløp enn novellen"
       ],
       "correct": 1,
       "explain": "Romanen gir plass til flere personer, miljøer og lengre tidsforløp enn novellen."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "En roman følger en jente fra hun er 10 til hun er 20 år. Hvilken romantype er dette mest sannsynlig?",
       "options": [
+        "Historisk roman",
         "Kriminalroman",
-        "Science fiction",
         "Utviklingsroman",
-        "Rammefortelling"
+        "Kjærlighetsroman"
       ],
       "correct": 2,
       "explain": "Utviklingsromanen skildrer hvordan en person vokser opp og forandrer seg."
@@ -104,9 +104,9 @@
       "text": "Hva er indre monolog?",
       "options": [
         "Personens tanker gjengitt direkte",
-        "En samtale mellom to personer",
-        "En beskrivelse av miljøet",
-        "Forfatterens forord"
+        "Personens replikker gjengitt direkte",
+        "Personens utseende beskrevet direkte",
+        "Personens handlinger gjengitt direkte"
       ],
       "correct": 0,
       "explain": "Indre monolog gir leseren tilgang til tankestrømmen til en person."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva betyr at en roman er fortalt kronologisk?",
       "options": [
-        "At den har mange tilbakeblikk",
-        "At den foregår i framtiden",
-        "At den har to fortellere",
+        "At handlingen kommer i motsatt rekkefølge av det den skjer",
+        "At handlingen veksler mellom nåtid og fortid",
+        "At handlingen fortelles gjennom flere personers synsvinkler",
         "At handlingen kommer i den rekkefølgen den skjer"
       ],
       "correct": 3,
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva er det viktigste å unngå i en romananalyse?",
       "options": [
-        "Å bruke sitater",
-        "Å tolke temaet",
+        "Å bruke korte sitater som belegg for tolkningen",
+        "Å forklare hvordan temaet kommer fram i teksten",
         "Å gjenfortelle hele handlingen i detalj",
-        "Å nevne forfatteren"
+        "Å knytte personskildringen til konkrete tekststeder"
       ],
       "correct": 2,
       "explain": "En analyse skal tolke og forklare, ikke gjenfortelle. Handlingen oppsummeres kort."
@@ -140,9 +140,9 @@
       "text": "Hva er en rammefortelling?",
       "options": [
         "En fortelling som rammer inn en annen fortelling",
-        "En fortelling med bilder",
-        "En fortelling uten slutt",
-        "En fortelling om et maleri"
+        "En fortelling som begynner med slutten av hovedhandlingen",
+        "En fortelling der flere personer forteller samme hendelse",
+        "En fortelling som skifter mellom nåtid og fortid"
       ],
       "correct": 0,
       "explain": "For eksempel kan en gammel mann fortelle en historie fra ungdommen, og fortellingen hans er inni rammen."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvorfor bruker man sitater i en analyse?",
       "options": [
-        "For å gjøre teksten lengre",
+        "Som oppsummering av handlingen",
         "Som belegg for tolkningen",
-        "Fordi man ikke har egne ord",
-        "For å gjenfortelle handlingen"
+        "Som pynt i en faglig tekst",
+        "Som erstatning for egne forklaringer"
       ],
       "correct": 1,
       "explain": "Sitater viser at tolkningen din bygger på teksten og ikke bare på synsing."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva må du tenke på når du analyserer et utdrag?",
       "options": [
-        "At utdraget alltid er slutten",
-        "At utdraget ikke har noe med resten å gjøre",
-        "Å bare se på tittelen",
+        "At utdraget bør forstås som en avsluttet helhet",
+        "At utdraget bør tolkes som en selvstendig novelle",
+        "At utdragets plassering i romanen er uten betydning",
         "Hvordan utdraget henger sammen med resten av romanen"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hva kjennetegner en samfunnsroman?",
       "options": [
-        "Den foregår i verdensrommet",
+        "Den skildrer fortidige hendelser og historiske personer",
         "Den viser og kritiserer forhold i samfunnet",
-        "Den handler bare om kjærlighet",
-        "Den er alltid morsom"
+        "Den løser en forbrytelse gjennom spor og etterforskning",
+        "Den skildrer oppdiktede framtider med ny teknologi"
       ],
       "correct": 1,
       "explain": "Samfunnsromanen bruker fiksjonen til å belyse samfunnsproblemer.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva betyr fortellertempo?",
       "options": [
-        "Hvor fort leseren leser",
-        "Hvor mange sider boka har",
-        "Hvor raskt tiden går i fortellingen",
-        "Hvor fort forfatteren skrev"
+        "Hvor raskt leseren kommer seg gjennom sidene i boka",
+        "Hvor lang tid forfatteren bruker på å skrive romanen",
+        "Hvor mye tekst som brukes på et tidsrom i handlingen",
+        "Hvor mange kapitler handlingen er delt inn i"
       ],
       "correct": 2,
       "explain": "Noen hendelser skildres over mange sider, mens år kan passere på én setning."
@@ -329,9 +329,9 @@
         "text": "Hva bør med i presentasjonen av verket i en analyse?",
         "options": [
           "Forfatter, tittel, år og sjanger",
-          "Hele handlingen",
-          "Din favorittperson",
-          "Antall sider"
+          "Hovedperson, handling, miljø og konflikt",
+          "Forteller, synsvinkel, vendepunkt og tema",
+          "Personskildring, miljø, symboler og budskap"
         ],
         "correct": 0,
         "explain": "En kort presentasjon gir leseren de viktigste opplysningene om verket."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva gjør dialog med en fortelling?",
         "options": [
-          "Gjør den kortere",
-          "Gjør scenene levende og viser personene gjennom det de sier",
-          "Fjerner spenningen",
-          "Erstatter fortelleren helt"
+          "Dialog oppsummerer scenene og viser personene gjennom fortellerens beskrivelser",
+          "Dialog gjør scenene levende og viser personene gjennom replikkene",
+          "Dialog gjør scenene lengre og viser miljøet gjennom replikkene",
+          "Dialog beskriver scenene og viser personene gjennom fortellerens tanker"
         ],
         "correct": 1,
         "explain": "Gjennom replikkene kan leseren selv tolke hvordan personene er."
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hva er et godt utgangspunkt for å sammenligne to romaner fra ulike tider?",
         "options": [
-          "Antall kapitler",
-          "Fargen på omslaget",
-          "Hvordan de framstiller et felles tema, som frihet eller familie",
-          "Hvilken som er lengst"
+          "Forskjellen i sidetall og kapittelinndeling mellom romanene",
+          "Fargen på omslagene og størrelsen på bøkene",
+          "Framstillingen av et felles tema, som frihet eller familie",
+          "Forfatternes alder og hvor raskt de skrev romanene"
         ],
         "correct": 2,
         "explain": "Et felles tema gjør det mulig å se likheter og forskjeller i syn og form."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -37,7 +37,7 @@ export function Feil({
       <p className="text-ink-soft max-w-[42ch]">{tekst}</p>
       <Link
         href={href}
-        className="mt-2 inline-flex items-center gap-2 border-[1.5px] border-border-strong px-5 py-3 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+        className="mt-2 inline-flex items-center gap-2 border-[1.5px] border-border-strong px-5 py-3 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
       >
         {lenketekst}
       </Link>
@@ -61,14 +61,14 @@ export function KreverInnlogging({
       <div className="flex flex-wrap justify-center gap-3 mt-1">
         <Link
           href={`/registrer${q}`}
-          className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+          className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
         >
           Lag konto
           <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
         </Link>
         <Link
           href={`/logg-inn${q}`}
-          className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+          className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
         >
           Logg inn
         </Link>

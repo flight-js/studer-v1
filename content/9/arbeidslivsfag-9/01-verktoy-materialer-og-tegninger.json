@@ -94,10 +94,10 @@
       "id": "q02",
       "text": "Hva brukes et vater til?",
       "options": [
-        "Å kappe tre",
+        "Å kontrollere om en planke har riktig lengde",
         "Å sjekke om noe er vannrett eller loddrett",
-        "Å skru inn skruer",
-        "Å male"
+        "Å måle hvor tykk en planke er",
+        "Å kontrollere om en kant har rett vinkel"
       ],
       "correct": 1,
       "explain": "Vateret har en luftboble som viser om noe står rett."
@@ -107,9 +107,9 @@
       "text": "Hva er en stykkliste?",
       "options": [
         "En oversikt over delene med antall, mål og materiale",
-        "En liste over verktøy i verkstedet",
-        "En kundeliste",
-        "En handleliste til kjøkkenet"
+        "En oversikt over verktøyene som trengs til arbeidet",
+        "En oversikt over arbeidsoppgavene med ansvar og frister",
+        "En oversikt over kostnadene og prisene for produktet"
       ],
       "correct": 0,
       "explain": "Stykklisten hører til arbeidstegningen.",
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hva bør du gjøre før du bytter blad på en stikksag?",
       "options": [
-        "Holde den i gang",
-        "Ingenting",
-        "Spørre en venn",
-        "Trekke ut kontakten eller ta ut batteriet"
+        "Å slå av sagen med bryteren og la strømmen være tilkoblet",
+        "Å holde sagen i gang mens bladet løsnes",
+        "Å ta ut bladet før sagen er slått av",
+        "Å trekke ut kontakten eller ta ut batteriet"
       ],
       "correct": 3,
       "explain": "Da kan ikke maskinen starte ved et uhell."
@@ -132,9 +132,9 @@
       "text": "Hvorfor brukes impregnert tre utendørs?",
       "options": [
         "Det tåler bedre fukt og råte",
-        "Det er lettere",
-        "Det er billigere enn alt annet",
-        "Det er pent"
+        "Det gir treverket en jevnere overflate",
+        "Det gjør treverket lettere å bøye",
+        "Det gjør treverket enklere å male"
       ],
       "correct": 0,
       "explain": "Ubehandlet tre kan råtne når det står ute.",
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hva viser en projeksjonstegning?",
       "options": [
-        "Bare fargen på produktet",
+        "Produktet med farger, lys og skygger",
         "Produktet forfra, fra siden og ovenfra",
-        "Prisen på produktet",
-        "Et fotografi"
+        "Produktet som et fotografi fra én vinkel",
+        "Produktet med delene nummerert i en liste"
       ],
       "correct": 1,
       "explain": "Hver visning viser mål i to retninger.",
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hva betyr «mål to ganger, kapp én gang»?",
       "options": [
-        "Man skal kappe alt to ganger",
-        "Man skal bare måle én gang",
+        "Man skal måle én gang og kappe to ganger",
+        "Man skal måle to ganger etter at man har kappet",
         "Man skal kontrollere målene før man kapper",
-        "Man skal kappe før man måler"
+        "Man skal kappe to emner for hver måling"
       ],
       "correct": 2,
       "explain": "Da unngår man å kaste materialer."
@@ -169,10 +169,10 @@
       "id": "q08",
       "text": "Hva er en ulempe med plast som materiale?",
       "options": [
-        "Den er for tung",
+        "Den er ofte laget av olje og brytes raskt ned i naturen",
         "Den er ofte laget av olje og brytes sakte ned i naturen",
-        "Den tåler ikke vann",
-        "Den kan ikke formes"
+        "Den er ofte laget av tre og brytes sakte ned i naturen",
+        "Den er ofte laget av olje og løses raskt opp i vannet"
       ],
       "correct": 1,
       "explain": "Derfor er gjenvinning av plast viktig."
@@ -181,10 +181,10 @@
       "id": "q09",
       "text": "Hvilket verktøy er et håndverktøy?",
       "options": [
-        "Drill",
+        "Boremaskin",
         "Kappsag",
-        "Slipemaskin",
-        "Høvel"
+        "Båndsliper",
+        "Håndhøvel"
       ],
       "correct": 3,
       "explain": "Høvelen drives av muskelkraft. De andre bruker strøm."
@@ -194,9 +194,9 @@
       "text": "Hvorfor er fagbegreper nyttige i arbeidslivet?",
       "options": [
         "De gjør det lettere å kommunisere presist",
-        "De gjør språket vanskeligere",
-        "De er bare for lærere",
-        "De brukes bare på prøver"
+        "De gjør det lettere å gi samme del ulike navn",
+        "De gjør det lettere å unngå å forklare arbeidet",
+        "De gjør det lettere å skrive lange beskrivelser av arbeidet"
       ],
       "correct": 0,
       "explain": "Alle vet hva som menes når man bruker samme begreper."
@@ -331,7 +331,7 @@
         "text": "Hvilken enhet brukes ofte på arbeidstegninger?",
         "options": [
           "Kilometer",
-          "Meter",
+          "Hektometer",
           "Millimeter",
           "Mil"
         ],
@@ -344,9 +344,9 @@
         "text": "Hva er en perspektivtegning?",
         "options": [
           "En tegning som får produktet til å se tredimensjonalt ut",
-          "En tegning uten mål",
-          "En liste over deler",
-          "En tegning av et kart"
+          "En tegning som viser produktet rett forfra uten dybde",
+          "En tegning som viser produktets mål med piler og tall",
+          "En tegning som viser produktets deler hver for seg"
         ],
         "correct": 0,
         "explain": "Perspektivtegningen gir et bilde av hvordan produktet ser ut.",
@@ -357,9 +357,9 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål bør du stille når du velger materiale?",
         "options": [
-          "Hvilken farge har verktøyet?",
-          "Hvem er læreren?",
-          "Hvor mange elever er i klassen?",
+          "Er materialet det samme som læreren brukte hjemme?",
+          "Hvor mange elever synes materialet ser finest ut?",
+          "Hvilken farge har arbeidstegningens papir?",
           "Passer det til hva produktet skal brukes til?"
         ],
         "correct": 3,
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

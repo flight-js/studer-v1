@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er sannhetens øyeblikk?",
       "options": [
-        "Når regnskapet legges fram",
+        "Hvert møte mellom ansatte og ledelsen",
         "Hvert møte mellom kunden og virksomheten",
-        "Når en ansatt får lønn",
-        "Når en reklame lanseres"
+        "Hvert møte mellom virksomheten og leverandørene",
+        "Hvert møte mellom ansatte og kolleger"
       ],
       "correct": 1,
       "explain": "Hvert møte kan styrke eller svekke inntrykket."
@@ -89,9 +89,9 @@
       "text": "Hva er intern markedsføring?",
       "options": [
         "Å selge strategien til de ansatte",
-        "Reklame i egen butikk",
-        "Salg til andre bedrifter",
-        "Å markedsføre i utlandet"
+        "Å informere kundene om virksomhetens strategi",
+        "Å selge virksomhetens produkter til andre bedrifter",
+        "Å markedsføre virksomhetens produkter i utlandet"
       ],
       "correct": 0,
       "explain": "De ansatte må tro på det de selger."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Når blir en kunde fornøyd med servicen?",
       "options": [
-        "Når prisen er høy",
-        "Når det er lang kø",
+        "Når kunden får rask service uavhengig av egne forventninger",
+        "Når kunden får den servicen virksomheten har planlagt",
         "Når opplevd service innfrir eller overgår forventningene",
-        "Når butikken er stor"
+        "Når virksomheten leverer samme service til alle kundene"
       ],
       "correct": 2,
       "explain": "Kunden sammenligner."
@@ -114,7 +114,7 @@
       "options": [
         "Autoritær",
         "La det skure",
-        "Enevelde",
+        "Situasjonsbestemt",
         "Demokratisk"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er situasjonsbestemt ledelse?",
       "options": [
         "Å tilpasse stilen til den ansattes kompetanse og motivasjon",
-        "Å alltid bestemme alene",
-        "Å aldri styre",
-        "Å lede bare i kriser"
+        "Å tilpasse stilen til virksomhetens størrelse og økonomi",
+        "Å bruke samme lederstil uavhengig av ansattes behov",
+        "Å velge lederstil etter lederens personlige preferanser"
       ],
       "correct": 0,
       "explain": "En nyansatt trenger mer instruksjon."
@@ -139,19 +139,19 @@
         "Lønn",
         "Anerkjennelse",
         "Arbeidstid",
-        "Kontorets temperatur"
+        "Jobbsikkerhet"
       ],
       "correct": 1,
-      "explain": "Lønn er en hygienefaktor."
+      "explain": "Anerkjennelse gir motivasjon gjennom innholdet i arbeidet."
     },
     {
       "id": "q07",
       "text": "Hva er organisasjonskultur?",
       "options": [
-        "Kunst på veggene",
-        "Organisasjonskartet",
+        "Virksomhetens formelle struktur, roller og ansvar",
+        "Virksomhetens produkter, priser og markedsplaner",
         "Felles verdier, normer og vaner",
-        "Julebordet"
+        "Virksomhetens lokaler, utstyr og inventar"
       ],
       "correct": 2,
       "explain": "«Måten vi gjør ting på her»."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvorfor er lederen en rollemodell?",
       "options": [
-        "Fordi lederen har høyest lønn",
-        "Fordi lederen er eldst",
-        "Fordi lederen jobber minst",
+        "Fordi lederen fordeler oppgaver og følger opp resultatene",
+        "Fordi lederen fastsetter mål og vurderer arbeidsresultater",
+        "Fordi lederen representerer virksomheten overfor kundene",
         "Fordi de ansatte ofte gjør som lederen gjør"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Når kan autoritær ledelse fungere godt?",
       "options": [
         "I kriser der det må tas raske beslutninger",
-        "Alltid",
-        "Når de ansatte er svært erfarne",
-        "Aldri"
+        "I utviklingsarbeid der de ansatte skal forme løsningene",
+        "I samarbeid der målet er å dele beslutningsmyndigheten",
+        "I opplæring der ansatte skal utforske oppgaven på egen hånd"
       ],
       "correct": 0,
       "explain": "Men kan gi lite engasjement over tid."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva kan god klagebehandling føre til?",
       "options": [
-        "Flere klager",
+        "At kundens klage blir registrert, men ikke besvart",
         "At en misfornøyd kunde blir lojal",
-        "Lavere kvalitet",
-        "At kunden aldri kommer tilbake"
+        "At kunden må kontakte virksomheten flere ganger for å få svar",
+        "At virksomheten avviser klagen uten å undersøke den"
       ],
       "correct": 1,
       "explain": "Kunden ser at virksomheten tar ansvar."
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Hva trenger en nyansatt ifølge situasjonsbestemt ledelse?",
         "options": [
-          "Full delegering",
-          "Tydelige instrukser",
-          "Ingen oppfølging",
-          "Bare høy lønn"
+          "Delegering av ansvar for hele oppgaven",
+          "Klare instrukser om arbeidsoppgavene",
+          "Frihet til å velge arbeidsmåtene selv",
+          "Resultatlønn knyttet til individuelle salgsmål"
         ],
         "correct": 1,
         "explain": "Lav kompetanse på oppgaven krever mer styring."
@@ -322,9 +322,9 @@
         "text": "Hva må en virksomhet investere i for å bli kjent for best service?",
         "options": [
           "Opplæring, motivasjon og ledelse",
-          "Bare mer reklame",
-          "Bare lavere priser",
-          "Bare flere butikker"
+          "Utvidet annonsebudsjett og flere kampanjer",
+          "Lavere priser og flere kundekampanjer",
+          "Flere utsalgssteder og større butikklokaler"
         ],
         "correct": 0,
         "explain": "Ellers blir løftene tomme."
@@ -421,6 +421,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva hevder naturretten?",
       "options": [
-        "At retten er det som er vedtatt",
+        "At retten bygger på regler vedtatt av folkevalgte organer",
         "At det finnes moralske prinsipper over menneskeskapte lover",
-        "At domstolene lager all rett",
-        "At moral er uviktig"
+        "At rettens innhold bestemmes av domstolenes praksis",
+        "At moralske normer får gyldighet gjennom lovvedtak"
       ],
       "correct": 1,
       "explain": "Grove brudd gjør loven ugyldig etter dette synet."
@@ -94,9 +94,9 @@
       "text": "Hva er formell rettferdighet?",
       "options": [
         "At like tilfeller behandles likt og reglene følges upartisk",
-        "At resultatet alltid er rimelig",
-        "At alle får det de ønsker",
-        "At lovene er moralsk gode"
+        "At lovens innhold og resultatet oppleves som rimelig",
+        "At dommeren vurderer hver sak ut fra partenes behov",
+        "At reglene utformes slik at alle får samme utfall"
       ],
       "correct": 0,
       "explain": "Sier ikke noe om innholdet i reglene."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva kjennetegner sivil ulydighet?",
       "options": [
-        "Hemmelig lovbrudd",
-        "Voldelig protest",
+        "Skjult, ikkevoldelig lovbrudd der man forsøker å unngå straffen",
+        "Åpent, voldelig lovbrudd der man aksepterer straffen",
         "Åpent, ikkevoldelig lovbrudd der man aksepterer straffen",
-        "Lovlig demonstrasjon"
+        "Lovlig, offentlig protest der man ber om endring"
       ],
       "correct": 2,
       "explain": "For eksempel Alta-aksjonen."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hva betyr de lege ferenda?",
       "options": [
-        "Hva retten er",
-        "En type dom",
-        "En klage",
+        "Hva retten er etter gjeldende regler",
+        "Hvilke regler domstolene bør følge",
+        "Hvordan en dom bør begrunnes",
         "Hva retten bør være"
       ],
       "correct": 3,
@@ -131,9 +131,9 @@
       "text": "Hva hevder rettspositivismen?",
       "options": [
         "At retten er det som er vedtatt på riktig måte",
-        "At moral står over loven",
-        "At bare Gud kan gi lover",
-        "At domstoler ikke trengs"
+        "At en lov mister gyldighet når den oppfattes som umoralsk",
+        "At domstolene kan sette vedtatte lover til side av moralske grunner",
+        "At religiøse autoriteter avgjør hvilke lover som gjelder"
       ],
       "correct": 0,
       "explain": "Rett og moral holdes atskilt."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hva gjorde jødeparagrafen i Grunnloven av 1814?",
       "options": [
-        "Ga jøder stemmerett",
+        "Ga jøder rett til å bosette seg i riket",
         "Nektet jøder adgang til riket",
-        "Beskyttet religionsfrihet",
-        "Innførte kongedømme"
+        "Ga jøder rett til å delta i politiske valg",
+        "Sikret jøder fri utøvelse av sin religion"
       ],
       "correct": 1,
       "explain": "Opphevet i 1851.",
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvorfor fikk naturrettstanken ny kraft etter andre verdenskrig?",
       "options": [
-        "Fordi alle lover ble opphevet",
-        "Fordi FN forbød rettspositivisme",
-        "Fordi Norge fikk ny grunnlov",
+        "Fordi de fleste overgrepene var utført før lovene ble vedtatt",
+        "Fordi Nürnbergdomstolen fastslo at nasjonale lover ikke lenger gjaldt",
+        "Fordi FN vedtok en felles straffelov for europeiske land",
         "Fordi mange overgrep hadde vært formelt lovlige"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva er materiell rettferdighet?",
       "options": [
         "At innholdet i reglene og resultatet er rettferdig",
-        "At reglene følges likt",
-        "At dommeren er upartisk",
-        "At saken går raskt"
+        "At like saker får lik behandling etter de samme reglene",
+        "At dommeren vurderer saken uten å favorisere noen av partene",
+        "At saken avgjøres raskt etter en tydelig rettsprosess"
       ],
       "correct": 0,
       "explain": "Handler om innholdet."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvordan kan en rettsstat endre urettferdige lover?",
       "options": [
-        "Gjennom vold",
-        "Gjennom demokratiske prosesser",
-        "Ved at dommerne ignorerer dem",
-        "Det er ikke mulig"
+        "Ved at domstolene setter loven til side uten politisk behandling",
+        "Ved at Stortinget endrer loven gjennom demokratiske prosesser",
+        "Ved at regjeringen stanser håndhevingen av loven på egen hånd",
+        "Ved at folkeavstemninger automatisk erstatter loven med nye regler"
       ],
       "correct": 1,
       "explain": "Stortinget kan vedta endringer."
@@ -329,8 +329,8 @@
         "options": [
           "Hva retten er",
           "Hva retten bør være",
-          "En type straff",
-          "En domstol"
+          "Hvilken straff som bør idømmes",
+          "Hva domstolen bør avgjøre"
         ],
         "correct": 0,
         "explain": "Gjeldende rett.",
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål hører med i en drøfting av rett og rettferd?",
         "options": [
-          "Hvor lang loven er",
-          "Hvem som skrev loven",
+          "Hvilke ord og paragrafer står i lovteksten",
+          "Hvilke personer deltok i arbeidet med å skrive regelen",
           "Hvilke hensyn taler for og mot regelen",
-          "Hvilket år loven ble trykt"
+          "Hvilket tidspunkt regelen ble vedtatt av Stortinget"
         ],
         "correct": 2,
         "explain": "Forutsigbarhet, likhet og rimelighet."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

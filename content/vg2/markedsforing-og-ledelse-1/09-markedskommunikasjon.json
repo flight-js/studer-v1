@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er støy i kommunikasjonsprosessen?",
       "options": [
-        "Høy musikk i reklamen",
-        "Alt som forstyrrer budskapet på veien til mottakeren",
-        "Kundens respons",
-        "Kanalen"
+        "En mottakers reaksjon som viser hvordan budskapet ble forstått",
+        "Alt som forstyrrer budskapet på veien fram til mottakeren",
+        "Måten budskapet overføres fra avsender til mottaker på",
+        "Personen eller gruppen som lager og sender budskapet"
       ],
       "correct": 1,
       "explain": "For eksempel mange andre reklamer."
@@ -92,9 +92,9 @@
       "text": "Hva står AIDA for?",
       "options": [
         "Oppmerksomhet, interesse, lyst og handling",
-        "Analyse, idé, design og annonse",
-        "Avsender, informasjon, dialog og avslutning",
-        "Appell, image, distribusjon og avgift"
+        "Analyse, interesse, design og handling",
+        "Oppmerksomhet, informasjon, distribusjon og aktivitet",
+        "Avsender, interesse, lyst og annonse"
       ],
       "correct": 0,
       "explain": "Veien mot kjøp."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvilket virkemiddel passer best for dyre og kompliserte produkter?",
       "options": [
-        "Plakatreklame",
-        "Smaksprøver",
-        "Personlig salg",
-        "Sponsing"
+        "Annonsering gjennom sosiale medier",
+        "Trykt produktbrosjyre i butikk",
+        "Personlig salg med direkte kundekontakt",
+        "Sponsing av et idrettsarrangement"
       ],
       "correct": 2,
       "explain": "Kan tilpasses kunden."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva er et eksempel på salgsfremmende tiltak?",
       "options": [
-        "En TV-reklame",
-        "En pressemelding",
-        "Sponsing av et fotballag",
-        "«3 for 2»"
+        "En reklamefilm for produktet på kommersiell TV",
+        "En pressemelding om lanseringen av et nytt produkt",
+        "Et sponsorat av et lokalt fotballag i byen",
+        "Et tilbud om tre varer for prisen av to"
       ],
       "correct": 3,
       "explain": "Kortsiktige tiltak."
@@ -128,9 +128,9 @@
       "text": "Hvorfor oppleves PR ofte som troverdig?",
       "options": [
         "Fordi omtalen kommer fra redaksjonelle medier, ikke virksomheten selv",
-        "Fordi den er betalt",
-        "Fordi den er kort",
-        "Fordi den alltid er positiv"
+        "Fordi virksomheten betaler redaksjonen for å omtale produktet",
+        "Fordi omtalen publiseres uten at journalister undersøker saken",
+        "Fordi virksomheten bestemmer nøyaktig hva mediene skriver"
       ],
       "correct": 0,
       "explain": "Men virksomheten har lite kontroll."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er en emosjonell appell?",
       "options": [
-        "Fakta om pris",
+        "Et budskap som framhever pris og produktfakta",
         "Et budskap som spiller på følelser",
-        "En tabell med egenskaper",
-        "En garanti"
+        "Et budskap som sammenligner målbare produktegenskaper",
+        "Et budskap som lover økonomisk kompensasjon ved feil"
       ],
       "correct": 1,
       "explain": "For eksempel humor eller nostalgi."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er integrert markedskommunikasjon?",
       "options": [
-        "Bare én kanal",
-        "Ulike budskap i hver kanal",
-        "Samme budskap og uttrykk i alle kanaler",
-        "Kommunikasjon bare til ansatte"
+        "Ulike budskap og uttrykk i hver kanal",
+        "Samme uttrykk, men ulike budskap i hver kanal",
+        "Samme budskap og uttrykk på tvers av alle kanalene",
+        "Kommunikasjon gjennom én kanal til alle målgrupper"
       ],
       "correct": 2,
       "explain": "Gir sterkere gjenkjennelse."
@@ -164,8 +164,8 @@
       "text": "Hvilket kommunikasjonsmål handler om at kunden skal like produktet?",
       "options": [
         "Kjennskap",
+        "Kunnskap",
         "Handling",
-        "Kjøp",
         "Holdning"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva er en fordel med digital markedsføring?",
       "options": [
         "Den kan målrettes og måles godt",
-        "Den er alltid gratis",
-        "Den når bare eldre",
-        "Den krever ikke samtykke"
+        "Den når kundene uten at virksomheten betaler for annonser",
+        "Den gjør det enkelt å nå hele befolkningen samtidig",
+        "Den gir virksomheten full kontroll over kundenes reaksjoner"
       ],
       "correct": 0,
       "explain": "Annonser kan vises til utvalgte målgrupper."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva skjer hvis reklamen lover mer enn produktet holder?",
       "options": [
-        "Salget øker for alltid",
-        "Kundene blir skuffet og omdømmet svekkes",
-        "Ingenting",
-        "Prisen går opp"
+        "Kundene blir mer lojale, og virksomhetens omdømme styrkes",
+        "Kundene blir skuffet, og virksomhetens omdømme svekkes",
+        "Kundene sammenligner mindre, og produktet virker mer verdifullt",
+        "Kundene får større tillit, og virksomheten får flere anbefalinger"
       ],
       "correct": 1,
       "explain": "Kommunikasjonen må stemme med tilbudet."
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hva er en pull-strategi i kommunikasjon?",
         "options": [
-          "Rabatter til forhandlere",
+          "Kommunikasjon rettet mot forhandlere for å øke innkjøpene",
           "Kommunikasjon rettet mot forbrukerne for å skape etterspørsel",
-          "Personlig salg til grossister",
-          "Å kutte reklame"
+          "Salgsarbeid rettet mot grossister for å få større bestillinger",
+          "Rabattordninger rettet mot forhandlere for å øke videresalget"
         ],
         "correct": 1,
         "explain": "Kundene trekker varen gjennom kanalen."
@@ -329,9 +329,9 @@
         "text": "Hva er sponsing?",
         "options": [
           "Støtte til idrett eller kultur i bytte mot synlighet",
-          "En type rabatt",
-          "En pressemelding",
-          "Personlig salg"
+          "Prisavslag på varer for å øke kundenes kjøpslyst",
+          "Informasjon til journalister om virksomhetens aktiviteter",
+          "Direkte kontakt med kunder for å presentere et tilbud"
         ],
         "correct": 0,
         "explain": "Gir et positivt image."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvorfor bruker virksomheter med like produkter mye penger på kommunikasjon?",
         "options": [
-          "Fordi produktene er ulovlige",
-          "Fordi de ikke har konkurrenter",
+          "For å få kundene til å velge ut fra pris framfor merkevare",
+          "For å gjøre kundene kjent med produktenes praktiske funksjoner",
           "For å skape forskjeller i kundenes hode",
-          "For å senke prisen"
+          "For å få forhandlerne til å prioritere én bestemt leverandør"
         ],
         "correct": 2,
         "explain": "For eksempel brus og mobilabonnement."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

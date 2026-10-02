@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva skiller religionskritikk fra hets?",
       "options": [
-        "Kritikk er alltid ulovlig",
+        "Kritikk vurderer religiøse ideer, mens hets vurderer religiøse handlinger",
         "Kritikk retter seg mot ideer og handlinger, ikke mot mennesker som gruppe",
-        "Det er ingen forskjell",
-        "Hets er mer saklig"
+        "Kritikk retter seg mot religiøse handlinger, mens hets mot religiøse læresetninger",
+        "Kritikk diskuterer religiøse regler, mens hets vurderer religiøse tradisjoner"
       ],
       "correct": 1,
       "explain": "God kritikk er saklig og informert."
@@ -90,9 +90,9 @@
       "text": "Hva er teodiceproblemet?",
       "options": [
         "Hvorfor finnes ondskap hvis Gud er allmektig og god?",
-        "Hvor gammel er jorden?",
-        "Hvem skrev Bibelen?",
-        "Hvor mange guder finnes?"
+        "Hvordan kan mennesker vite om Gud er allmektig og god?",
+        "Hvorfor finnes fri vilje hvis Gud kjenner menneskenes framtid?",
+        "Hvordan oppstår religiøse forestillinger om Gud og menneskets ansvar?"
       ],
       "correct": 0,
       "explain": "Et klassisk religionsfilosofisk problem."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva mente Marx med at religion er «opium for folket»?",
       "options": [
-        "At religion gir energi",
-        "At religion er ulovlig",
+        "At religion demper lidelsen og oppmuntrer folk til å endre urettferdige forhold",
+        "At religion forsterker lidelsen, men hindrer folk i å endre urettferdige forhold",
         "At religion demper lidelsen, men hindrer folk i å endre urettferdige forhold",
-        "At religion er medisin"
+        "At religion forklarer lidelsen, men hjelper folk med å endre urettferdige forhold"
       ],
       "correct": 2,
       "explain": "Sosial og politisk kritikk."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvordan så Freud på religion?",
       "options": [
-        "Som sannhet",
-        "Som politikk",
-        "Som vitenskap",
+        "Som en sannhet som springer ut av behovet for en beskyttende farsfigur",
+        "Som en politisk ideologi som springer ut av behovet for sosial orden",
+        "Som en vitenskapelig teori som springer ut av behovet for naturforklaringer",
         "Som en illusjon som springer ut av behovet for en beskyttende farsfigur"
       ],
       "correct": 3,
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er intern religionskritikk?",
       "options": [
-        "Kritikk fra ateister",
+        "Kritikk fra ateister utenfor trossamfunnet",
         "Kritikk fra troende selv",
-        "Kritikk fra staten",
-        "Kritikk fra medier"
+        "Kritikk fra myndigheter utenfor trossamfunnet",
+        "Kritikk fra religionsforskere utenfor trossamfunnet"
       ],
       "correct": 1,
       "explain": "For eksempel Luther."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Når ble blasfemiparagrafen opphevet i Norge?",
       "options": [
-        "1814",
-        "1972",
+        "2009",
+        "2013",
         "2015",
-        "2021"
+        "2018"
       ],
       "correct": 2,
       "explain": "Hatefulle ytringer mot personer er fortsatt forbudt.",
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er en kritikk mot humanismen?",
       "options": [
-        "At den har for mange guder",
-        "At den forbyr vitenskap",
-        "At den er statsreligion",
+        "At den kan begrunne menneskeverdet med religiøs åpenbaring",
+        "At den kan avvise menneskets evne til å bruke fornuft",
+        "At den kan sette lydighet mot religiøse autoriteter over mennesket",
         "At den kan ha en naiv tro på fornuft og fremskritt"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva mente Feuerbach om Gud?",
       "options": [
         "At Gud er en projeksjon av menneskets idealer",
-        "At Gud finnes utenfor tiden",
-        "At Gud er natur",
-        "At Gud er død"
+        "At Gud er en skaper utenfor menneskets tanker",
+        "At Gud er en del av naturen som mennesket kan erfare",
+        "At Gud er et historisk menneske som ble opphøyd til guddom"
       ],
       "correct": 0,
       "explain": "Påvirket Marx.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva peker feministisk religionskritikk på?",
       "options": [
-        "For få høytider",
+        "Religiøse ritualer og høytider og begrensninger på lederes makt",
         "Mannlige gudsbilder og ledere og begrensninger på kvinners frihet",
-        "For mye vitenskap",
-        "For lite musikk"
+        "Religiøse tekster og mirakelfortellinger og konflikter mellom vitenskap og tro",
+        "Religiøse regler og ulike syn på skapelsen og naturvitenskapens plass"
       ],
       "correct": 1,
       "explain": "Noen vil reformere religionen innenfra."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hva er et svar troende har gitt på teodiceproblemet?",
         "options": [
-          "At ondskap ikke finnes",
+          "At frihet forutsetter at mennesker velger det gode",
           "At frihet forutsetter muligheten til å gjøre ondt",
-          "At Gud er ond",
-          "At lidelse er tilfeldig"
+          "At ondskap skyldes at Gud mangler makt til å hindre den",
+          "At lidelse viser at verden mangler en god skaper"
         ],
         "correct": 1,
         "explain": "Frihetsargumentet."
@@ -326,9 +326,9 @@
         "text": "Hva hevder et gudsbevis om første årsak?",
         "options": [
           "At alt må ha en første årsak, som er Gud",
-          "At verden ikke har årsak",
-          "At evolusjon er feil",
-          "At Gud er død"
+          "At alt har en første årsak, som selv er skapt av noe annet",
+          "At verden har flere første årsaker, som ulike naturkrefter",
+          "At universet oppstod uten en første årsak eller skaper"
         ],
         "correct": 0,
         "explain": "Kritikere mener det ikke beviser en bestemt gud."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva kjennetegner god kritikk?",
         "options": [
-          "Den er sint og personlig",
-          "Den generaliserer om alle troende",
+          "Den er følelsesladet, generell og retter seg mot troende som gruppe",
+          "Den er personlig, bygger på enkelteksempler og mangler kunnskap",
           "Den er saklig, informert og treffer det den kritiserer",
-          "Den bygger på rykter"
+          "Den er høflig, men unngår å undersøke det den kritiserer"
         ],
         "correct": 2,
         "explain": "Skiller mellom idé og mennesker."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

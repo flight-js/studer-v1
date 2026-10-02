@@ -80,7 +80,7 @@
       "id": "q01",
       "text": "Hvilken energikilde er fornybar?",
       "options": [
-        "Kull",
+        "Kullkraft",
         "Naturgass",
         "Vindkraft",
         "Olje"
@@ -104,9 +104,9 @@
       "id": "q03",
       "text": "Hvilken gass slippes ut når fossile brensler brennes, og forsterker drivhuseffekten?",
       "options": [
-        "Oksygen",
-        "Nitrogen",
-        "Helium",
+        "Karbonmonoksid",
+        "Svoveldioksid",
+        "Nitrogendioksid",
         "Karbondioksid"
       ],
       "correct": 3,
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Hvilken er en lokal ulempe ved vannkraft?",
       "options": [
-        "Store CO₂-utslipp",
+        "Støy fra vindturbiner som kan plage naboer",
         "Regulerte elver som kan skade fisk",
-        "Radioaktivt avfall",
-        "Sur nedbør"
+        "Gruvedrift etter uran som kan skade naturen",
+        "Utslipp fra kullkraftverk som kan forurense lufta"
       ],
       "correct": 1,
       "explain": "Dammer og regulering endrer vannføringen og kan påvirke fisk som laks."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hva er den største ulempen med kjernekraft?",
       "options": [
-        "Store CO₂-utslipp",
-        "Den virker bare når det blåser",
+        "Naturområder som kan forstyrres av vindkraftverk på land",
+        "Endrede elver som kan påvirke fiskebestander ved vannkraft",
         "Radioaktivt avfall som må lagres i svært lang tid",
-        "Den gir sur nedbør"
+        "Sur nedbør som kan oppstå ved utslipp fra kullkraft"
       ],
       "correct": 2,
       "explain": "Kjernekraft gir lite CO₂, men avfallet er farlig i tusenvis av år.",
@@ -142,9 +142,9 @@
       "text": "Hva betyr energieffektivisering?",
       "options": [
         "Å få samme nytte med mindre energi",
-        "Å bruke mer energi",
-        "Å bygge flere kraftverk",
-        "Å skru av alt strøm"
+        "Å få mer nytte ved å bruke mer energi",
+        "Å produsere mer strøm ved å bygge flere kraftverk",
+        "Å bruke mindre strøm ved å slutte med en aktivitet"
       ],
       "correct": 0,
       "explain": "Eksempler er etterisolering, LED-lys og varmepumper."
@@ -153,9 +153,9 @@
       "id": "q07",
       "text": "Hvilket er et argument mot vindkraft på land?",
       "options": [
-        "Den gir CO₂",
-        "Den bruker kull",
-        "Den er ikke fornybar",
+        "Den slipper ut store mengder karbondioksid når den produserer strøm",
+        "Den bruker kull som brensel for å produsere elektrisitet",
+        "Den er ikke fornybar fordi vinden ikke kan erstattes",
         "Den kan beslaglegge store naturområder og forstyrre dyreliv"
       ],
       "correct": 3,
@@ -166,9 +166,9 @@
       "text": "Hvorfor sparer en varmepumpe energi?",
       "options": [
         "Den henter varme fra omgivelsene og gir mer varme enn strømmen den bruker",
-        "Den bruker ikke strøm",
-        "Den lager energi av ingenting",
-        "Den kjøler huset"
+        "Den lager all varmen fra strøm og trenger ikke hente varme utenfra",
+        "Den sparer strøm fordi den lagrer energi i et batteri før oppvarming",
+        "Den varmer huset ved å brenne gass som gir mer varme enn strøm"
       ],
       "correct": 0,
       "explain": "Varmepumpen flytter varme fra luft, jord eller vann inn i huset."
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Hva er sur nedbør forårsaket av?",
       "options": [
-        "CO₂ fra planter",
+        "Karbondioksid og metan fra jordbruk",
         "Svovel- og nitrogenforbindelser fra forbrenning",
-        "Vanndamp",
-        "Solcellepaneler"
+        "Oksygen og vanndamp fra vannkraftverk",
+        "Sot og støv fra solcelleanlegg"
       ],
       "correct": 1,
       "explain": "Utslipp fra forbrenning av kull og olje kan gjøre nedbøren sur.",
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Finnes det en energikilde helt uten miljøkostnader?",
       "options": [
-        "Ja, vindkraft",
-        "Ja, vannkraft",
-        "Nei, alle har ulemper lokalt eller globalt",
-        "Ja, solenergi"
+        "Ja, vindkraft bruker en fornybar energikilde fra naturen",
+        "Ja, vannkraft utnytter vannets naturlige kretsløp",
+        "Nei, alle energikilder har ulemper lokalt eller globalt",
+        "Ja, solenergi kommer fra sollys uten forbrenning"
       ],
       "correct": 2,
       "explain": "Alle energikilder har noen ulemper, så valgene handler om å veie fordeler og ulemper."
@@ -320,9 +320,9 @@
         "text": "Hva er bioenergi?",
         "options": [
           "Energi fra biologisk materiale, som ved og biogass",
-          "Energi fra kull",
-          "Energi fra atomkjerner",
-          "Energi fra vind"
+          "Energi fra fossile brensler, som kull og naturgass",
+          "Energi fra atomkjerner, som uran og plutonium",
+          "Energi fra luftbevegelser, som vind og stormer"
         ],
         "correct": 0,
         "explain": "Bioenergi kommer fra planter og annet organisk materiale."
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak er energieffektivisering?",
         "options": [
-          "Å bygge et nytt kullkraftverk",
+          "Å bytte til glødepærer",
           "Å etterisolere et hus",
-          "Å kjøre mer bil",
-          "Å bruke glødepærer"
+          "Å kjøre oftere med bil",
+          "Å bygge et kullkraftverk"
         ],
         "correct": 1,
         "explain": "Bedre isolasjon gir samme varme med mindre energi."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

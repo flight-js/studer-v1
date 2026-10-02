@@ -113,10 +113,10 @@
       "id": "q01",
       "text": "Hvordan sier du «Ikke bruk plastposer!» til en venn?",
       "options": [
-        "¡No usa bolsas de plástico!",
+        "¡No usas bolsas de plástico!",
         "¡No usar bolsas de plástico!",
         "¡No uses bolsas de plástico!",
-        "¡Usa no bolsas de plástico!"
+        "¡Usa bolsas de plástico!"
       ],
       "correct": 2,
       "explain": "Nektende imperativ bruker subjuntivo."
@@ -127,8 +127,8 @@
       "options": [
         "reducimos",
         "reduzcamos",
-        "reduciremos",
-        "reducir"
+        "reduzcan",
+        "reduzcáis"
       ],
       "correct": 1,
       "explain": "Etter es necesario que brukes subjuntivo."
@@ -137,10 +137,10 @@
       "id": "q03",
       "text": "Hva uttrykker «estar + gerundio»?",
       "options": [
-        "Noe i framtiden",
-        "Noe som har skjedd",
-        "En vane",
-        "Noe som pågår akkurat nå"
+        "En handling som er planlagt senere",
+        "En handling som allerede er avsluttet",
+        "En handling som skjer regelmessig",
+        "En handling som pågår akkurat nå"
       ],
       "correct": 3,
       "explain": "Estoy chateando."
@@ -149,10 +149,10 @@
       "id": "q04",
       "text": "Hva betyr «Acabo de subir una foto»?",
       "options": [
-        "Jeg skal laste opp et bilde.",
+        "Jeg skal snart laste opp et bilde.",
         "Jeg har nettopp lastet opp et bilde.",
-        "Jeg har slettet et bilde.",
-        "Jeg avslutter med et bilde."
+        "Jeg har nettopp slettet et bilde.",
+        "Jeg har nettopp redigert et bilde."
       ],
       "correct": 1,
       "explain": "acabar de + infinitiv = har nettopp."
@@ -162,9 +162,9 @@
       "text": "Gjør om til indirekte tale: «Estoy cansado», dijo → Dijo que …",
       "options": [
         "estaba cansado",
-        "está cansado",
-        "estará cansado",
-        "esté cansado"
+        "estuvo cansado",
+        "estaría cansado",
+        "había estado cansado"
       ],
       "correct": 0,
       "explain": "Presens blir imperfecto."
@@ -173,10 +173,10 @@
       "id": "q06",
       "text": "Hva betyr «ni de aquí, ni de allá»?",
       "options": [
-        "både herfra og derfra",
-        "langt herfra",
+        "enten herfra eller derfra",
+        "herfra og videre dit",
         "verken herfra eller derfra",
-        "her og der"
+        "på vei mellom to steder"
       ],
       "correct": 2,
       "explain": "En følelse mange migranter beskriver.",
@@ -189,7 +189,7 @@
         "tuviera",
         "tengo",
         "tendría",
-        "tenía"
+        "tuve"
       ],
       "correct": 0,
       "explain": "si + imperfecto de subjuntivo."
@@ -198,10 +198,10 @@
       "id": "q08",
       "text": "Hvordan lages imperfecto de subjuntivo?",
       "options": [
-        "Infinitiv + -ía",
-        "yo-form i presens + -a",
-        "ellos-form i indefinido minus -ron + -ra",
-        "Gerundium + -ra"
+        "ellos-form i indefinido uten -ron + -ría",
+        "ellos-form i presens uten -n + -ría",
+        "ellos-form i indefinido uten -ron + -ra",
+        "yo-form i presens uten -o + -ría"
       ],
       "correct": 2,
       "explain": "tuvieron → tuviera."
@@ -210,9 +210,9 @@
       "id": "q09",
       "text": "Hva er magisk realisme?",
       "options": [
-        "Fantasy med drager",
-        "Realistiske krimromaner",
-        "Dikt om magikere",
+        "Overnaturlige hendelser forklart som drømmer eller hallusinasjoner",
+        "Historiske hendelser fortalt med overdrivelser og fantastiske innslag",
+        "Vanlige hendelser forklart gjennom gamle myter og folketro",
         "Overnaturlige hendelser beskrevet som en naturlig del av hverdagen"
       ],
       "correct": 3,
@@ -225,8 +225,8 @@
       "options": [
         "Indefinido",
         "Imperfecto",
-        "Futuro",
-        "Imperativ"
+        "Presente",
+        "Pretérito perfecto"
       ],
       "correct": 1,
       "explain": "Indefinido brukes for handlinger."
@@ -235,10 +235,10 @@
       "id": "q11",
       "text": "Velg riktig: «Este regalo es ___ ti.»",
       "options": [
-        "por",
-        "a",
+        "con",
+        "en",
         "para",
-        "de"
+        "sobre"
       ],
       "correct": 2,
       "explain": "Mottaker: para."
@@ -247,9 +247,9 @@
       "id": "q12",
       "text": "Velg riktig: «___ la lluvia, no salimos.»",
       "options": [
-        "Para",
-        "Con",
-        "A",
+        "de",
+        "sobre",
+        "hacia",
         "Por"
       ],
       "correct": 3,
@@ -376,7 +376,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -397,10 +397,10 @@
         "type": "flervalg",
         "text": "Velg riktig: «Quiero que los gobiernos ___ más.» (hacer)",
         "options": [
-          "hacen",
+          "hago",
           "harán",
           "hagan",
-          "hacer"
+          "hagas"
         ],
         "correct": 2,
         "explain": "Etter quiero que brukes subjuntivo."
@@ -413,7 +413,7 @@
           "deciendo",
           "diciendo",
           "dicho",
-          "decindo"
+          "decir"
         ],
         "correct": 1,
         "explain": "Vokalen endres: e → i."
@@ -438,9 +438,9 @@
         "text": "Hva betyr «Me identifico con la protagonista»?",
         "options": [
           "Jeg kjenner meg igjen i hovedpersonen.",
-          "Jeg liker ikke hovedpersonen.",
-          "Jeg er hovedpersonen.",
-          "Jeg har møtt hovedpersonen."
+          "Jeg er enig med hovedpersonen i teksten.",
+          "Jeg blir kjent med hovedpersonen i teksten.",
+          "Jeg forteller om hovedpersonen i teksten."
         ],
         "correct": 0,
         "explain": "identificarse con = kjenne seg igjen i."
@@ -450,10 +450,10 @@
         "type": "flervalg",
         "text": "Velg riktig: «Paseamos ___ el parque.»",
         "options": [
-          "para",
+          "con",
           "por",
-          "a",
-          "de"
+          "entre",
+          "sobre"
         ],
         "correct": 1,
         "explain": "Gjennom et sted: por."
@@ -538,12 +538,84 @@
           "Få fram at virkelighet og fantasi glir over i hverandre."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "Forklar på spansk hvordan tørke og hetebølger rammer Spania, og nevn én miljøutfordring i Andesfjellene og konsekvensen av den.",
+        "fasit": "En España hay cada vez más olas de calor y sequías. En los Andes se derriten los glaciares, y esto amenaza el suministro de agua de millones de personas.",
+        "kriterier": [
+          "Nevner hetebølger og tørke i Spania.",
+          "Knytter smeltende isbreer i Andesfjellene til trusselen mot vannforsyningen."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Skriv på spansk om én fordel og to ulemper ved sosiale medier eller internett. Ta med falske nyheter og personvern.",
+        "fasit": "Las redes sociales nos permiten estar en contacto con amigos de todo el mundo. Sin embargo, hay muchos bulos en internet y las empresas recogen nuestros datos, por eso es importante proteger la privacidad.",
+        "kriterier": [
+          "Nevner en relevant fordel ved sosiale medier eller internett.",
+          "Nevner falske nyheter og risiko for personvernet."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Sammenlign på spansk spansk utvandring på 1960-tallet med migrasjon fra Latin-Amerika til Spania. Ta med hvor folk dro eller kom fra, og én grunn til migrasjonen.",
+        "fasit": "En los años sesenta, muchos españoles emigraron a Alemania, Francia y Suiza para trabajar. En cambio, muchas personas de Colombia, Ecuador, Venezuela y Argentina se han mudado a España, donde se habla el mismo idioma.",
+        "kriterier": [
+          "Nevner spanjoler som dro til Tyskland, Frankrike eller Sveits på 1960-tallet for å jobbe.",
+          "Nevner migrasjon fra latinamerikanske land til Spania og at felles språk er relevant."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Skriv på spansk en kort, formell søknad om sommerjobb i turisme. Bruk en høflig hilsen med kolon, forklar hvorfor du søker, og nevn en styrke.",
+        "fasit": "Estimada señora García: Me gustaría solicitar un puesto de verano en turismo porque quiero mejorar mi español. Mis puntos fuertes son que soy responsable y estoy muy motivado/a. Atentamente, Ana.",
+        "kriterier": [
+          "Bruker en formell hilsen med kolon.",
+          "Oppgir en grunn til å søke og minst én relevant styrke."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Sammenlign på spansk Federico García Lorca og Gabriela Mistral. Ta med hvilket land eller område de kom fra, og én opplysning om verkene eller livene deres.",
+        "fasit": "Federico García Lorca era de Andalucía y fue un poeta y dramaturgo español. Gabriela Mistral era de Chile, escribió poemas sobre el amor y la naturaleza y ganó el Premio Nobel de Literatura en 1945.",
+        "kriterier": [
+          "Plasserer Lorca i Andalucía og Mistral i Chile.",
+          "Nevner en riktig opplysning om verkene eller livet til hver forfatter."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Skriv på spansk at du drar til Valencia for å se Las Fallas, går gjennom byen og gir en billett til en venn. Bruk både «por» og «para» riktig.",
+        "fasit": "Voy a Valencia para ver Las Fallas. Paseo por la ciudad y compro una entrada para un amigo.",
+        "kriterier": [
+          "Bruker «para» om formål eller mottaker.",
+          "Bruker «por» om å bevege seg gjennom et område."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Gi på spansk to konkrete råd til en norsk elev som vil bli bedre til å forstå muntlig spansk. Rådene skal bygge på gode strategier for å lytte og øve.",
+        "fasit": "Escucha pódcast o noticias para estudiantes de español y fíjate en las palabras clave y los números. También puedes ver series con subtítulos en español y escuchar distintos acentos.",
+        "kriterier": [
+          "Anbefaler minst én lytteaktivitet, som podkaster, nyheter eller serier med spansk teksting.",
+          "Nevner en strategi som å lytte etter nøkkelord eller legge merke til ulike aksenter."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Forklar på spansk hva «spanglish» er, og hvordan det henger sammen med språk og identitet blant latinos i USA.",
+        "fasit": "Muchos latinos en Estados Unidos son bilingües y algunos mezclan el inglés y el español. Esta mezcla se llama spanglish y forma parte de la diversidad cultural de Estados Unidos.",
+        "kriterier": [
+          "Forklarer at spanglish blander engelsk og spansk.",
+          "Knytter dette til tospråklige latinos eller mangfoldet i USA."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

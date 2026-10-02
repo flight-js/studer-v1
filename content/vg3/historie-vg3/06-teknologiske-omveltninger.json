@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvor startet den industrielle revolusjonen?",
       "options": [
-        "I Norge",
+        "I Frankrike",
         "I Storbritannia",
-        "I USA",
-        "I Kina"
+        "I Belgia",
+        "I Tyskland"
       ],
       "correct": 1,
       "explain": "På 1700-tallet."
@@ -91,9 +91,9 @@
       "text": "Hvilken bransje var først ute med fabrikker?",
       "options": [
         "Tekstilindustrien",
-        "Bilindustrien",
-        "Dataindustrien",
-        "Oljeindustrien"
+        "Kullindustrien",
+        "Stålindustrien",
+        "Jernbaneindustrien"
       ],
       "correct": 0,
       "explain": "Dampdrevne vevstoler."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva ga grunnlag for kraftkrevende industri i Norge?",
       "options": [
-        "Kull",
-        "Olje",
+        "Kullkraft",
+        "Oljekraft",
         "Vannkraft",
-        "Atomkraft"
+        "Gasskraft"
       ],
       "correct": 2,
       "explain": "For eksempel Norsk Hydro."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva gjorde samlebåndet mulig?",
       "options": [
-        "Håndverk",
+        "Håndverksproduksjon",
+        "Småskalaproduksjon",
         "Hjemmeproduksjon",
-        "Barnearbeid",
         "Masseproduksjon"
       ],
       "correct": 3,
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hvem var maskinstormerne?",
       "options": [
-        "Arbeidere som ødela maskiner som tok jobbene deres",
-        "Oppfinnere",
-        "Fabrikkeiere",
-        "Politikere"
+        "Arbeidere som ødela maskiner fordi de truet arbeidsplassene deres",
+        "Arbeidere som reparerte maskiner for å holde fabrikkene i drift",
+        "Arbeidere som betjente maskiner for å øke produksjonen i fabrikkene",
+        "Arbeidere som konstruerte maskiner for å gjøre arbeidet lettere"
       ],
       "correct": 0,
       "explain": "Uttrykk for frykt for arbeidsløshet.",
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvordan bidro husholdningsmaskiner til endring?",
       "options": [
-        "De økte husarbeidet",
+        "De gjorde at færre kvinner kunne ta lønnsarbeid",
         "De gjorde at flere kvinner kunne ta lønnsarbeid",
-        "De skapte arbeidsløshet i fabrikkene",
-        "De forbød kvinner å jobbe"
+        "De gjorde at husarbeidet tok flere timer hver dag",
+        "De gjorde at menn overtok det meste av husarbeidet"
       ],
       "correct": 1,
       "explain": "Lettere husarbeid.",
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva viste atombomben i 1945?",
       "options": [
-        "At krig var over for alltid",
-        "At teknologi alltid er positiv",
-        "At teknologi også kunne utslette menneskeheten",
-        "At fremskritt er umulig"
+        "At teknologi kunne sikre varig fred mellom land",
+        "At teknologi kunne hindre nye våpenkappløp",
+        "At teknologi kunne utslette menneskeheten",
+        "At teknologi kunne gjøre kriger mindre ødeleggende"
       ],
       "correct": 2,
       "explain": "Endret forventningene til framtiden.",
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva er en utfordring ved den digitale revolusjonen?",
       "options": [
-        "For lite informasjon",
-        "For langsom kommunikasjon",
-        "Færre nyheter",
+        "Informasjonsmangel og treg kommunikasjon",
+        "Færre nyheter og lengre ventetid",
+        "Mindre informasjon og tregere meldinger",
         "Personvern og desinformasjon"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hvilken langsiktig følge har industrialiseringen for miljøet?",
       "options": [
         "Klimaendringer",
-        "Mindre forurensning",
-        "Flere skoger",
-        "Kaldere klima"
+        "Global nedkjøling",
+        "Lavere klimagassutslipp",
+        "Større skogareal"
       ],
       "correct": 0,
       "explain": "Økt bruk av kull, olje og gass."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hvilken oppfinnelse fikk James Watt æren for å forbedre?",
       "options": [
-        "Telefonen",
+        "Spinning Jenny",
         "Dampmaskinen",
-        "Datamaskinen",
-        "Bilen"
+        "Telegrafen",
+        "Symaskinen"
       ],
       "correct": 1,
       "explain": "Viktig for den industrielle revolusjonen."
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Når ble Norsk Hydro grunnlagt?",
         "options": [
-          "1814",
+          "1907",
           "1905",
-          "1945",
-          "1969"
+          "1913",
+          "1945"
         ],
         "correct": 1,
         "explain": "Samme år som unionsoppløsningen.",
@@ -331,9 +331,9 @@
         "text": "Hva kjennetegnet arbeidsforholdene i tidlig industri?",
         "options": [
           "Lange arbeidsdager og barnearbeid",
-          "Korte dager og høy lønn",
-          "Hjemmekontor",
-          "Fire dagers arbeidsuke"
+          "Korte arbeidsdager og høy lønn",
+          "Trygge arbeidsplasser og korte skift",
+          "Faste arbeidstider og høy lønn"
         ],
         "correct": 0,
         "explain": "Arbeiderbevegelsen kjempet for bedre kår."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål bør du stille når du vurderer en teknologisk omveltning?",
         "options": [
-          "Hvor stor maskinen var",
-          "Hvem som oppfant den alene",
+          "Hvor stor plass maskinene tok i fabrikkene",
+          "Hvor raskt maskinene kunne utføre arbeidet",
           "Hvem som tjente og tapte på endringene",
-          "Hvilken farge den hadde"
+          "Hvilke materialer maskinene var laget av"
         ],
         "correct": 2,
         "explain": "Teknologi former samfunnet."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

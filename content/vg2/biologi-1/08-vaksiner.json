@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hvordan beskytter en vaksine mot sykdom?",
       "options": [
-        "Den dreper alle bakterier i kroppen",
-        "Den gjør at kroppen danner hukommelsesceller",
-        "Den erstatter immunforsvaret",
-        "Den gir antibiotika"
+        "Den får kroppen til å skille ut antibiotika før smittestoffet kommer",
+        "Den får kroppen til å danne hukommelsesceller mot smittestoffet",
+        "Den fjerner smittestoffet fra kroppen før immunforsvaret reagerer",
+        "Den får kroppen til å danne feber som stopper smittestoffet"
       ],
       "correct": 1,
       "explain": "Da kommer en rask sekundærrespons ved smitte."
@@ -93,9 +93,9 @@
       "text": "Hva er flokkimmunitet?",
       "options": [
         "At nok personer er immune til at smitten får vanskelig for å spre seg",
-        "At alle er syke samtidig",
-        "At dyr er vaksinert",
-        "At én person er immun"
+        "At de fleste har fått vaksine, uansett om smitten fortsatt sprer seg",
+        "At smitte sprer seg raskere når mange i befolkningen er immune",
+        "At én vaksinert person hindrer smitte i hele befolkningen"
       ],
       "correct": 0,
       "explain": "Den beskytter også dem som ikke kan vaksineres."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hvorfor trengs det så høy vaksinasjonsdekning mot meslinger?",
       "options": [
-        "Fordi vaksinen er svak",
-        "Fordi meslinger er ufarlig",
-        "Fordi meslinger er svært smittsomt",
-        "Fordi det bare finnes i Norge"
+        "Fordi vaksinen gir lav beskyttelse etter én dose",
+        "Fordi sykdommen sprer seg mest etter utslettet oppstår",
+        "Fordi meslinger er svært smittsomt mellom mennesker",
+        "Fordi viruset smitter først etter at utslettet viser seg"
       ],
       "correct": 2,
       "explain": "R₀ rundt 12–18 gir terskel rundt 95 %."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva inneholder en mRNA-vaksine?",
       "options": [
-        "Levende virus",
-        "Antibiotika",
-        "Drepte bakterier",
+        "Et ferdig virusprotein som får cellene til å danne antistoffer",
+        "Et svekket virus som gir cellene oppskrift på et virusprotein",
+        "Et stykke DNA som får cellene til å lage et virusprotein",
         "En oppskrift som får cellene til å lage et virusprotein"
       ],
       "correct": 3,
@@ -130,7 +130,7 @@
       "options": [
         "Kopper",
         "Meslinger",
-        "Influensa",
+        "Polio",
         "Stivkrampe"
       ],
       "correct": 0,
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hvilken type vaksine er MMR?",
       "options": [
-        "mRNA-vaksine",
-        "Levende, svekket vaksine",
-        "Toksoidvaksine",
-        "Inaktivert vaksine"
+        "En vaksine med inaktiverte viruspartikler",
+        "En vaksine med levende, svekkede virus",
+        "En vaksine med ufarliggjort bakterietoksin",
+        "En vaksine med mRNA-oppskrift på virusprotein"
       ],
       "correct": 1,
       "explain": "Patogenene er svekket."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hva skjedde med studien fra 1998 som koblet MMR-vaksinen til autisme?",
       "options": [
-        "Den ble bekreftet",
-        "Den førte til nobelpris",
-        "Den ble aldri lest",
+        "Den ble stående, og sammenhengen ble bekreftet i flere store studier",
+        "Den ble trukket tilbake, men sammenhengen ble senere bekreftet i store studier",
+        "Den ble trukket tilbake etter at store studier fant en tydelig sammenheng",
         "Den ble trukket tilbake, og sammenhengen er ikke funnet i store studier"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hvem beskyttes særlig av flokkimmunitet?",
       "options": [
         "De som ikke kan vaksineres",
-        "Bare de vaksinerte",
-        "Bare helsepersonell",
-        "Ingen"
+        "De som har fått flere vaksinedoser",
+        "De som har hatt sykdommen før",
+        "De som har et sterkt immunforsvar"
       ],
       "correct": 0,
       "explain": "For eksempel nyfødte og personer med svekket immunforsvar."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvilke bivirkninger er vanligst etter vaksinasjon?",
       "options": [
-        "Alvorlige og varige",
-        "Milde og kortvarige, som ømhet og lett feber",
-        "Ingen i det hele tatt",
-        "Autisme"
+        "Alvorlige og langvarige reaksjoner, som organskade og høy feber",
+        "Milde og kortvarige reaksjoner, som ømhet og lett feber",
+        "Alvorlige og kortvarige reaksjoner, som pustevansker og kraftig hevelse",
+        "Langvarige reaksjoner, som vedvarende feber og sterke smerter"
       ],
       "correct": 1,
       "explain": "Alvorlige bivirkninger er sjeldne."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva slags vaksine brukes mot stivkrampe?",
         "options": [
-          "mRNA-vaksine",
-          "Toksoidvaksine",
-          "Levende, svekket vaksine",
-          "Ingen vaksine finnes"
+          "En vaksine med mRNA-oppskrift på toksinet",
+          "En vaksine med ufarliggjort toksin",
+          "En vaksine med levende, svekkede bakterier",
+          "En vaksine med inaktiverte bakterier"
         ],
         "correct": 1,
         "explain": "Toksinet er gjort ufarlig.",
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hva måler R₀?",
         "options": [
-          "Hvor mange én smittet i snitt smitter i en befolkning uten immunitet",
-          "Hvor mange som dør",
-          "Hvor mange som er vaksinert",
-          "Hvor lenge man er syk"
+          "Hvor mange personer én smittet i snitt smitter i en befolkning uten immunitet",
+          "Hvor mange smittede i snitt blir alvorlig syke i en befolkning uten immunitet",
+          "Hvor mange personer i snitt er vaksinert i en befolkning før smitte",
+          "Hvor lenge én smittet i snitt er syk i en befolkning uten immunitet"
         ],
         "correct": 0,
         "explain": "Høy R₀ betyr svært smittsom.",
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hvilket etisk spørsmål er sentralt i vaksinedebatten?",
         "options": [
-          "Om vaksiner smaker godt",
-          "Om vaksiner er dyre å produsere",
+          "Hvordan vaksineinnholdet får kroppen til å danne immunitet mot sykdom",
+          "Hvordan vaksiner oppbevares ved riktig temperatur under transport",
           "Hvordan individets rett veies mot fellesskapets behov",
-          "Om vaksiner bør gis til planter"
+          "Hvordan vaksineproduksjonen kan gjøres raskere og mer effektiv"
         ],
         "correct": 2,
         "explain": "Også rettferdig global fordeling."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

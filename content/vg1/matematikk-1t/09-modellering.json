@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "h(t) = −4,9t² + 20t + 1,5. Hva betyr tallet 1,5?",
       "options": [
-        "Farten",
-        "Starthøyden",
+        "Farten ved start",
+        "Høyden ved start",
         "Tyngdeakselerasjonen",
-        "Tiden"
+        "Høyden etter ett sekund"
       ],
       "correct": 1,
       "explain": "h(0) = 1,5."
@@ -92,9 +92,9 @@
       "text": "Når er ballen i h(t) = −4,9t² + 20t + 1,5 på sitt høyeste?",
       "options": [
         "t ≈ 2,04 s",
-        "t = 20 s",
+        "t ≈ 1,02 s",
         "t ≈ 4,1 s",
-        "t = 1,5 s"
+        "t ≈ 2,45 s"
       ],
       "correct": 0,
       "explain": "h′(t) = −9,8t + 20 = 0 gir t ≈ 2,04."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva er gyldighetsområdet for modellen av ballkastet?",
       "options": [
-        "Alle t",
+        "Fra ballen kastes til den når høyeste punkt",
         "Fra ballen kastes til den treffer bakken",
-        "Bare t = 0",
-        "t < 0"
+        "Fra ballen treffer bakken og framover i tid",
+        "For alle tidspunkter der ballens høyde er positiv"
       ],
       "correct": 1,
       "explain": "Utenfor dette gir modellen ingen mening."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "En graf i en avis har y-akse som starter på 95 i stedet for 0. Hva er problemet?",
       "options": [
-        "Grafen blir lettere å lese",
-        "Ingenting",
+        "Tallverdiene endres når aksen starter på 95",
+        "Målingene blir mindre nøyaktige når aksen starter på 95",
         "Forskjellene ser større ut enn de er",
-        "Tallene blir feil"
+        "Alle verdiene øker med 95 når aksen starter der"
       ],
       "correct": 2,
       "explain": "Små forskjeller kan se dramatiske ut."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hvordan bør du velge modelltype?",
       "options": [
-        "Alltid lineær",
-        "Den med flest ledd",
-        "Tilfeldig",
+        "Ut fra hvilken modell som gir størst R²-verdi i datasettet",
+        "Ut fra hvilken modell som passer best til de to første datapunktene",
+        "Ut fra hvilken modell som gir enklest beregninger for eleven",
         "Ut fra formen på dataene og kunnskap om situasjonen"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hva betyr det å drøfte en modell?",
       "options": [
         "Å vurdere premisser, gyldighet, styrker og svakheter",
-        "Å tegne grafen",
-        "Å regne ut ett svar",
-        "Å skrive formelen på nytt"
+        "Å sette inn tall i modellen og finne et svar",
+        "Å beskrive grafens form uten å vurdere bruken",
+        "Å sammenligne modellens svar med ett målepunkt"
       ],
       "correct": 0,
       "explain": "Drøftingen viser hvor mye vi kan stole på modellen."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvorfor kan en andregradsmodell for salg gi urimelige svar langt fram i tid?",
       "options": [
-        "Fordi andregradsfunksjoner alltid er feil",
+        "Fordi modellen forutsetter at salget øker med samme beløp hver periode",
         "Fordi modellen kan gi negative eller urealistiske verdier utenfor dataområdet",
-        "Fordi GeoGebra regner feil",
-        "Fordi salg alltid er konstant"
+        "Fordi modellen bruker data fra framtidige perioder i beregningen",
+        "Fordi modellen gir samme salgsverdi for alle framtidige perioder"
       ],
       "correct": 1,
       "explain": "Modellen gjelder bare innenfor gyldighetsområdet."
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hvilken regresjon passer når dataene dobles med jevne mellomrom?",
         "options": [
-          "Lineær",
-          "Eksponentiell",
-          "Andregrads",
-          "Ingen"
+          "Lineær regresjon",
+          "Eksponentiell regresjon",
+          "Andregradsregresjon",
+          "Logaritmisk regresjon"
         ],
         "correct": 1,
         "explain": "Fast prosentvis vekst er eksponentiell."
@@ -330,8 +330,8 @@
         "options": [
           "Farten oppover etter 1 s",
           "Høyden etter 1 s",
-          "Tiden ballen er i lufta",
-          "Starthøyden"
+          "Tida ballen er i lufta",
+          "Starthøyden til ballen"
         ],
         "correct": 0,
         "explain": "Den deriverte av høyden er farten."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

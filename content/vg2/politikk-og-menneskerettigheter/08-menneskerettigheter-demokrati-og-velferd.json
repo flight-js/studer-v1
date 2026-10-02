@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Når ble FNs verdenserklæring om menneskerettighetene vedtatt?",
       "options": [
-        "1814",
+        "1950",
         "1948",
         "1966",
-        "1999"
+        "1989"
       ],
       "correct": 1,
       "explain": "10. desember 1948."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hvilken rettighet er en sivil og politisk rettighet?",
       "options": [
-        "Ytringsfrihet",
-        "Rett til bolig",
-        "Rett til helse",
-        "Rett til arbeid"
+        "Frihet til å ytre meninger",
+        "Rett til å få helsehjelp",
+        "Rett til å ha arbeid",
+        "Rett til en bolig"
       ],
       "correct": 0,
       "explain": "En frihetsrettighet."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva gjør menneskerettsloven av 1999?",
       "options": [
-        "Avskaffer Grunnloven",
-        "Oppretter Sametinget",
+        "Gjør alle internasjonale avtaler til norsk lov med forrang",
+        "Gjør menneskerettsdomstolen til øverste norske domstol",
         "Gjør sentrale konvensjoner til norsk lov med forrang",
-        "Gir kongen mer makt"
+        "Gjør regjeringen ansvarlig for å vedta domstolenes avgjørelser"
       ],
       "correct": 2,
       "explain": "EMK, SP, ØSK, Barnekonvensjonen og CEDAW."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvorfor er menneskerettighetene viktige for demokratiet?",
       "options": [
-        "De gir kongen makt",
-        "De avskaffer valg",
-        "De gjør flertallet allmektig",
+        "De sikrer at regjeringen kan begrense kritikk fra opposisjonen",
+        "De gir domstolene ansvar for å velge landets politiske ledere",
+        "De beskytter flertallets rett til å bestemme uten begrensninger",
         "De sikrer ytringsfrihet, frie valg og vern om mindretall"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hvordan kan velferdsstaten ses i lys av menneskerettighetene?",
       "options": [
         "Som en måte å oppfylle de sosiale rettighetene",
-        "Som et brudd på menneskerettighetene",
-        "Som uten sammenheng",
-        "Som bare en økonomisk ordning"
+        "Som en måte å oppfylle de politiske rettighetene",
+        "Som en ordning for å fordele inntekter uten offentlige tjenester",
+        "Som et system for å sikre økonomisk trygghet uten rettigheter"
       ],
       "correct": 0,
       "explain": "Skole, helse og trygd."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er rettsliggjøring?",
       "options": [
-        "At flere lover blir vedtatt",
+        "At makt flyttes fra domstolene til folkevalgte",
         "At makt flyttes fra folkevalgte til domstoler",
-        "At domstolene blir nedlagt",
-        "At alle blir jurister"
+        "At makt flyttes fra regjeringen til kommunene",
+        "At politiske saker avgjøres gjennom folkeavstemninger"
       ],
       "correct": 1,
       "explain": "En spenning mellom menneskerettigheter og demokrati."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva betyr at menneskerettighetene er udelelige?",
       "options": [
-        "At de bare gjelder én gruppe",
-        "At de kan deles ut",
+        "At de gjelder ulike grupper i ulike land",
+        "At noen rettigheter kan velges bort når andre trengs",
         "At de henger sammen og er like viktige",
-        "At de kan selges"
+        "At rettighetene kan deles inn i grupper uten sammenheng"
       ],
       "correct": 2,
       "explain": "Universelle, umistelige og udelelige."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva må staten gjøre for å oppfylle sosiale rettigheter?",
       "options": [
-        "Ingenting",
-        "Bare la være å krenke dem",
-        "Forby dem",
-        "Gjøre noe aktivt, for eksempel sørge for skole og helsehjelp"
+        "Unngå tiltak som griper inn i privatliv og ytringsfrihet",
+        "La markedet sørge for skole og helsehjelp uten offentlig støtte",
+        "Vente til økonomien er sterk nok før rettighetene blir lovfestet",
+        "Iverksette tiltak som gir tilgang til skole og helsehjelp"
       ],
       "correct": 3,
       "explain": "Oppfylles gradvis etter ressursene."
@@ -175,7 +175,7 @@
         "2014",
         "1814",
         "1948",
-        "1999"
+        "2005"
       ],
       "correct": 0,
       "explain": "Ved 200-årsjubileet."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva er et eksempel på en rettighetskollisjon?",
       "options": [
-        "Stemmerett mot valgdeltakelse",
+        "Stemmerett mot plikt til å stemme ved valg",
         "Ytringsfrihet mot vern mot hat og diskriminering",
-        "Utdanning mot skole",
-        "Helse mot sykehus"
+        "Rett til utdanning mot skolens regler for fravær",
+        "Rett til helsehjelp mot sykehusenes kapasitet"
       ],
       "correct": 1,
       "explain": "Rettigheter må noen ganger veies mot hverandre."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvilken hendelse var en viktig bakgrunn for verdenserklæringen?",
         "options": [
-          "Den franske revolusjonen",
+          "Den russiske revolusjonen og Sovjetunionens opprettelse",
           "Andre verdenskrig og Holocaust",
-          "Den kalde krigen",
-          "Kalmarunionen"
+          "Den amerikanske uavhengighetskrigen og grunnloven",
+          "Den kalde krigen og opprettelsen av NATO"
         ],
         "correct": 1,
         "explain": "Verden trengte felles regler."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva må staten først og fremst gjøre for å respektere sivile og politiske rettigheter?",
         "options": [
-          "Bygge sykehus",
-          "Gi alle bolig",
-          "La være å krenke dem",
-          "Innføre skatt"
+          "Sørge for skole og helsehjelp gjennom offentlige tjenester",
+          "Sikre bolig og arbeid gjennom offentlige støtteordninger",
+          "Avstå fra å gripe inn i eller krenke rettighetene",
+          "Finansiere utdanning og helsetjenester for alle innbyggere"
         ],
         "correct": 2,
         "explain": "For eksempel ikke sensurere eller torturere."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er støy i kommunikasjonsmodellen?",
       "options": [
-        "Bare høye lyder",
-        "Alt som forstyrrer kommunikasjonen",
-        "Tilbakemeldingen",
-        "Budskapet"
+        "Den som sender budskapet",
+        "Det som forstyrrer kommunikasjonen",
+        "Kanalen budskapet formidles gjennom",
+        "Mottakerens svar på budskapet"
       ],
       "correct": 1,
       "explain": "Også stress og ulike forventninger."
@@ -91,9 +91,9 @@
       "text": "Hva er de fire trinnene i ikkevoldelig kommunikasjon?",
       "options": [
         "Observasjon, følelse, behov, anmodning",
-        "Kritikk, forsvar, angrep, pause",
-        "Sender, kanal, mottaker, støy",
-        "Lytte, snakke, gå, komme"
+        "Sender, budskap, kanal, mottaker",
+        "Tanke, følelse, reaksjon, konsekvens",
+        "Situasjon, tolkning, handling, resultat"
       ],
       "correct": 0,
       "explain": "Marshall Rosenberg.",
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvilken form for kommunikasjon gir flest signaler?",
       "options": [
-        "Tekstmelding",
-        "E-post",
+        "Samtale på video",
+        "Telefonsamtale med lyd",
         "Ansikt til ansikt",
-        "Brev"
+        "Skriftlig chat på nett"
       ],
       "correct": 2,
       "explain": "Kroppsspråk, tonefall og blikk."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er sosial sammenligning?",
       "options": [
-        "Å samarbeide",
-        "Å dele bilder",
-        "Å hjelpe andre",
+        "Å vurdere egne valg ut fra egne mål",
+        "Å sammenligne egne prestasjoner med tidligere prestasjoner",
+        "Å vurdere andres egenskaper opp mot hverandre",
         "Å vurdere seg selv opp mot andre"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hvilken type sosiale medier-bruk ser ut til å være mest positiv?",
       "options": [
         "Aktiv kommunikasjon med venner",
-        "Passiv scrolling",
-        "Bruk om natten",
-        "Bruk uten pauser"
+        "Passiv scrolling gjennom innlegg",
+        "Sammenligning av eget liv med andres innlegg",
+        "Sjekking av varsler uten å svare"
       ],
       "correct": 0,
       "explain": "Hvordan betyr mer enn hvor mye.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva er emosjonell støtte?",
       "options": [
-        "Konkret hjelp",
+        "Praktisk hjelp med daglige oppgaver",
         "Omsorg og trøst",
-        "Råd og kunnskap",
-        "Penger"
+        "Råd og informasjon om mulige løsninger",
+        "Hjelp med å låne nødvendig utstyr"
       ],
       "correct": 1,
       "explain": "En av tre typer sosial støtte."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvorfor er relasjoner viktige for livskvalitet?",
       "options": [
-        "Fordi de gir penger",
-        "Fordi de erstatter søvn",
-        "Fordi gode relasjoner er blant de viktigste faktorene for helse og trivsel",
-        "Fordi de hindrer all sorg"
+        "Fordi gode relasjoner gjør søvn og hvile mindre nødvendig",
+        "Fordi gode relasjoner fjerner behovet for egne mestringsstrategier",
+        "Fordi gode relasjoner er viktige for helse og trivsel",
+        "Fordi gode relasjoner erstatter fysisk aktivitet som helsefaktor"
       ],
       "correct": 2,
       "explain": "Kommunikasjon er verktøyet."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva betyr at sosial støtte virker som en buffer?",
       "options": [
-        "At den gir mer stress",
-        "At den erstatter behandling",
-        "At den bare gjelder barn",
+        "At den øker virkningen av stress",
+        "At den fjerner selve kilden til stress",
+        "At den erstatter personens egne mestringsstrategier",
         "At den demper virkningen av stress"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hva er FOMO?",
       "options": [
         "Frykt for å gå glipp av noe",
-        "En app",
-        "En type mobbing",
-        "En kommunikasjonsmodell"
+        "Frykt for å bli kritisert av andre",
+        "Frykt for å miste venner på nettet",
+        "Frykt for å dele personlige opplysninger"
       ],
       "correct": 0,
       "explain": "Fear of missing out."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvorfor kan emojier skape misforståelser?",
       "options": [
-        "Fordi de er forbudt",
-        "Fordi de tolkes ulikt",
-        "Fordi de er for store",
-        "Fordi de alltid er negative"
+        "Fordi de gjentar den skrevne teksten ordrett",
+        "Fordi de tolkes ulikt av mottakere",
+        "Fordi de fungerer som en nøytral erstatning for tegnsetting",
+        "Fordi de gir teksten en fast betydning uavhengig av sammenheng"
       ],
       "correct": 1,
       "explain": "Erstatter bare delvis kroppsspråk."
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Hvilket utsagn er en observasjon uten vurdering?",
         "options": [
-          "Du er alltid sen",
+          "Du kom altfor sent til møtet",
           "Du kom en time for sent",
-          "Du bryr deg ikke",
-          "Du er upålitelig"
+          "Du kom sent, slik du pleier",
+          "Du var respektløs da du kom"
         ],
         "correct": 1,
         "explain": "Beskriver bare hva som skjedde.",
@@ -324,9 +324,9 @@
         "text": "Hva er informativ støtte?",
         "options": [
           "Råd og kunnskap",
-          "Trøst",
-          "Konkret hjelp",
-          "En gave"
+          "Trøst og forståelse",
+          "Praktisk hjelp med oppgaver",
+          "Samvær og selskap i hverdagen"
         ],
         "correct": 0,
         "explain": "En av tre typer."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hvordan kan mye skjermbruk påvirke helsen indirekte?",
         "options": [
-          "Bedre søvn",
-          "Mer fysisk aktivitet",
+          "Mer søvn og mer fysisk aktivitet",
+          "Bedre søvn og mer fysisk aktivitet",
           "Mindre søvn og fysisk aktivitet",
-          "Ingen virkning"
+          "Bedre søvn og mindre fysisk aktivitet"
         ],
         "correct": 2,
         "explain": "Fortrenger andre aktiviteter."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

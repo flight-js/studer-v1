@@ -82,7 +82,7 @@
         "4 år",
         "5 år",
         "6 år",
-        "7 år"
+        "8 år"
       ],
       "correct": 1,
       "explain": "Presidenten velges direkte av folket."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hva betyr laïcité?",
       "options": [
-        "Atskillelse av religion og stat",
-        "Et politisk parti",
-        "Den franske grunnloven",
-        "En type skole"
+        "Atskillelse mellom religion og stat",
+        "Et prinsipp om gratis skolegang",
+        "Et prinsipp om lik stemmerett",
+        "Et prinsipp om fransk språkbruk"
       ],
       "correct": 0,
       "explain": "Prinsippet ble slått fast i en lov fra 1905."
@@ -106,7 +106,7 @@
         "Dieu et mon droit",
         "Unité, Travail, Progrès",
         "Liberté, Égalité, Fraternité",
-        "Vive la France"
+        "Travail, Famille, Patrie"
       ],
       "correct": 2,
       "explain": "Frihet, likhet, brorskap."
@@ -128,9 +128,9 @@
       "text": "Hvor bor de fleste fransktalende i dag?",
       "options": [
         "I Afrika",
-        "I Frankrike",
-        "I Canada",
-        "I Belgia"
+        "I Europa",
+        "I Asia",
+        "I Oseania"
       ],
       "correct": 0,
       "explain": "Mye av utbredelsen skyldes kolonihistorien.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva startet de gule vestene å protestere mot i 2018?",
       "options": [
-        "Skolereformer",
-        "Høyere drivstoffavgifter",
-        "EU-medlemskap",
-        "Pensjonsalderen"
+        "Høyere avgifter på strøm",
+        "Høyere avgifter på drivstoff",
+        "Endringer i pensjonsalderen",
+        "Kutt i offentlige helsetjenester"
       ],
       "correct": 1,
       "explain": "Protesten ble senere en bred protest mot ulikhet.",
@@ -166,8 +166,8 @@
       "text": "Hva betyr «la grève»?",
       "options": [
         "demonstrasjonen",
-        "valget",
-        "regjeringen",
+        "avstemningen",
+        "fagforeningen",
         "streiken"
       ],
       "correct": 3,
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva betyr «D'un côté …, de l'autre …»?",
       "options": [
-        "Først … så …",
-        "På den ene siden …, på den andre …",
-        "Enten … eller …",
-        "Ikke bare … men også …"
+        "Først skjer det ene …, deretter skjer det andre …",
+        "På den ene siden …, på den andre siden …",
+        "Enten skjer det ene …, eller så skjer det andre …",
+        "Ikke bare skjer én ting …, men også en annen …"
       ],
       "correct": 1,
       "explain": "Nyttig for å drøfte fordeler og ulemper."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Je suis pour»?",
         "options": [
-          "Jeg er mot.",
+          "Jeg er imot.",
           "Jeg er for.",
           "Jeg er usikker.",
-          "Jeg er fattig."
+          "Jeg er nøytral."
         ],
         "correct": 1,
         "explain": "pour = for, contre = mot."
@@ -333,7 +333,7 @@
           "Peru"
         ],
         "correct": 0,
-        "explain": "Også Québec i Canada er fransktalende.",
+        "explain": "Fransk er et offisielt språk i Haiti.",
         "niva": "eksempel"
       },
       {
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva heter den franske statsministeren?",
         "options": [
+          "le ministre",
           "le Président",
-          "le Chancelier",
           "le Premier ministre",
-          "le Roi"
+          "le député"
         ],
         "correct": 2,
         "explain": "Statsministeren utnevnes av presidenten."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

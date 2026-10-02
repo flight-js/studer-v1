@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er kolonialisme?",
       "options": [
-        "Handel mellom likeverdige land",
+        "At en stat handler med et annet område uten å styre det",
         "At en stat erobrer og styrer et annet område",
-        "At land samarbeider i FN",
-        "At folk utvandrer"
+        "At en stat inngår en forsvarsavtale med et annet land",
+        "At mennesker flytter fra ett land til et annet for å bosette seg"
       ],
       "correct": 1,
       "explain": "Ofte med bosettere."
@@ -92,9 +92,9 @@
       "text": "Hva var en økonomisk årsak til kolonialismen?",
       "options": [
         "Behov for råvarer og nye markeder",
-        "Ønske om fred",
-        "Menneskerettigheter",
-        "Klimavern"
+        "Ønske om å spre europeisk språk og utdanning",
+        "Behov for å sikre fred mellom europeiske stater",
+        "Ønske om å beskytte naturen og begrense industriproduksjon"
       ],
       "correct": 0,
       "explain": "Industrien trengte råvarer."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva skjedde på Berlinkonferansen i 1884–85?",
       "options": [
-        "Afrikanske land ble selvstendige",
-        "FN ble grunnlagt",
+        "Europeiske stormakter vedtok å avskaffe slavehandelen i Afrika",
+        "Afrikanske ledere møttes for å fastsette grensene mellom koloniene",
         "Europeiske stormakter ble enige om regler for å dele Afrika",
-        "Slaveriet ble avskaffet"
+        "Europeiske land opprettet en organisasjon for å styre Afrika i fellesskap"
       ],
       "correct": 2,
       "explain": "Ingen afrikanere var med."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva var sosialdarwinisme?",
       "options": [
-        "En teori om planter",
-        "En religiøs retning",
-        "En handelsavtale",
+        "Troen på at alle folkegrupper skal ha samme politiske makt",
+        "En teori om at samfunn utvikler seg gjennom økonomisk samarbeid",
+        "En religiøs lære om at mennesker skal spre kristendommen",
         "Troen på at de sterkeste folkene skal herske over andre"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hvem styrte Kongofristaten som sin private eiendom?",
       "options": [
         "Leopold II",
-        "Dronning Victoria",
-        "Napoleon",
-        "Gandhi"
+        "Wilhelm II",
+        "Otto von Bismarck",
+        "Cecil Rhodes"
       ],
       "correct": 0,
       "explain": "Fra 1885 til 1908.",
@@ -142,8 +142,8 @@
       "options": [
         "1858",
         "1947",
-        "1914",
-        "1975"
+        "1919",
+        "1950"
       ],
       "correct": 1,
       "explain": "Etter en lang frigjøringskamp.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvorfor har kunstige grenser skapt problemer?",
       "options": [
-        "De var for lange",
-        "De ble aldri tegnet",
+        "De fulgte gamle statsgrenser og gjorde koloniene politisk stabile",
+        "De ble trukket etter naturgrenser og gjorde handel mellom grupper vanskelig",
         "De tok ikke hensyn til folkegrupper og har bidratt til konflikter",
-        "De ble trukket av afrikanere"
+        "De ble laget for å gi hver folkegruppe sitt eget selvstendige land"
       ],
       "correct": 2,
       "explain": "Grensene ble ofte trukket med linjal."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva gjorde erobringene teknisk mulig?",
       "options": [
-        "Hestevogner",
-        "Seilskip alene",
-        "Bueskyting",
+        "Seilskip, trykkpresser, kompass og kruttvåpen",
+        "Hestevogner, brevduer, sverd og urtemedisin",
+        "Radio, fly, tanks og antibiotika",
         "Dampskip, telegraf, moderne våpen og malariamedisin"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva bidro til avkoloniseringen etter 1945?",
       "options": [
         "Svekkede kolonimakter og sterke frigjøringsbevegelser",
-        "At koloniene ble rikere enn Europa",
-        "At Berlinkonferansen ble gjentatt",
-        "At misjonen stoppet"
+        "En styrket økonomi hos kolonimaktene og mindre motstand i koloniene",
+        "At Berlinkonferansen ble fulgt opp med nye avtaler om Afrika",
+        "Større militær støtte fra kolonimaktene til styrene i koloniene"
       ],
       "correct": 0,
       "explain": "Også FN og menneskerettighetene."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hvilken debatt viser at kolonihistorien fortsatt er aktuell?",
       "options": [
-        "Om fotball",
-        "Om tilbakeføring av kunstgjenstander fra europeiske museer",
-        "Om skatt på biler",
-        "Om sommertid"
+        "Debatten om regulering av sosiale medier i Europa",
+        "Debatten om tilbakeføring av kunstgjenstander fra europeiske museer",
+        "Debatten om skatt på utslippsfrie biler i Europa",
+        "Debatten om lengden på skoledagen i europeiske land"
       ],
       "correct": 1,
       "explain": "Også unnskyldninger og erstatning.",
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva ble befolkningen i Kongo tvunget til å samle?",
         "options": [
-          "Kaffe",
-          "Gummi",
           "Te",
-          "Sukker"
+          "Gummi",
+          "Sukker",
+          "Kakao"
         ],
         "correct": 1,
         "explain": "Under brutalt tvangsarbeid.",
@@ -326,9 +326,9 @@
         "text": "Hva er imperialisme?",
         "options": [
           "At en stat utvider sin makt over andre land",
-          "At et land blir selvstendig",
-          "At folk utvandrer",
-          "At land handler fritt"
+          "At et land får selvstyre etter kolonistyre fra en stormakt",
+          "At folk flytter fra hjemlandet for å bosette seg i kolonier",
+          "At stater handler med hverandre uten politisk innblanding"
         ],
         "correct": 0,
         "explain": "Direkte eller indirekte."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvilken økonomisk følge fikk kolonialismen for mange kolonier?",
         "options": [
-          "Sterk egen industri",
-          "Mye egen teknologi",
+          "Økonomier innrettet mot produksjon for lokalt forbruk",
+          "Økonomier bygget på en sterk lokal industri og eksport av ferdigvarer",
           "Økonomier innrettet mot eksport av råvarer",
-          "Rikdom for lokalbefolkningen"
+          "Økonomier preget av stor teknologisk selvstendighet og lokal foredling"
         ],
         "correct": 2,
         "explain": "Hemmet egen utvikling."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

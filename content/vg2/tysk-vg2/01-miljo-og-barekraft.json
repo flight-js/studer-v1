@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva betyr «die Nachhaltigkeit»?",
       "options": [
-        "forurensningen",
+        "naturvernet",
         "bærekraften",
-        "naturen",
-        "energien"
+        "gjenbruket",
+        "forurensningen"
       ],
       "correct": 1,
       "explain": "nachhaltig = bærekraftig."
@@ -91,9 +91,9 @@
       "text": "Hvordan sier du «Avfallet må sorteres»?",
       "options": [
         "Der Müll muss getrennt werden.",
-        "Der Müll wird trennen müssen.",
-        "Der Müll muss trennen.",
-        "Der Müll ist getrennt müssen."
+        "Der Müll kann getrennt werden.",
+        "Der Müll soll getrennt werden.",
+        "Der Müll muss recycelt werden."
       ],
       "correct": 0,
       "explain": "Modalverb + partisipp + werden."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er «das Tempolimit»-debatten i Tyskland?",
       "options": [
-        "En debatt om fotball",
-        "En debatt om skoletid",
+        "En debatt om utslippskrav for biler",
+        "En debatt om bilavgifter på Autobahn",
         "En debatt om fartsgrense på Autobahn",
-        "En debatt om arbeidstid"
+        "En debatt om veibygging langs Autobahn"
       ],
       "correct": 2,
       "explain": "Store deler av Autobahn har ingen generell fartsgrense.",
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hvordan dannes passiv på tysk?",
       "options": [
-        "haben + partisipp",
-        "sein + infinitiv",
-        "würde + infinitiv",
-        "werden + partisipp"
+        "werden + Infinitiv",
+        "haben + Partizip II",
+        "sein + Infinitiv",
+        "werden + Partizip II"
       ],
       "correct": 3,
       "explain": "Der Müll wird getrennt."
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hva betyr «erneuerbare Energien»?",
       "options": [
-        "fornybare energikilder",
-        "fossile brensler",
-        "kjernekraft",
-        "strømpriser"
+        "fornybare kilder til energi",
+        "fossile kilder til energi",
+        "kjernekraft som energikilde",
+        "kostnader for elektrisk strøm"
       ],
       "correct": 0,
       "explain": "For eksempel vind og sol."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva betyr «Viele Flaschen werden recycelt»?",
       "options": [
-        "Mange flasker kastes.",
+        "Mange flasker blir sortert.",
         "Mange flasker blir gjenvunnet.",
-        "Mange flasker er tomme.",
-        "Mange flasker skal kjøpes."
+        "Mange flasker blir gjenbrukt.",
+        "Mange flasker blir pantet."
       ],
       "correct": 1,
       "explain": "Passiv i presens."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvilken bevegelse startet skolestreiker for klima?",
       "options": [
-        "Die Grünen",
-        "Energiewende",
+        "Extinction Rebellion",
+        "Letzte Generation",
         "Fridays for Future",
-        "Mülltrennung"
+        "Greenpeace"
       ],
       "correct": 2,
       "explain": "Den fikk stor oppslutning i Tyskland fra 2019.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva er et alternativ til passiv på tysk?",
       "options": [
-        "es gibt",
-        "werden + infinitiv",
-        "haben + zu",
+        "werden + Infinitiv",
+        "haben + Partizip II",
+        "sein + Infinitiv",
         "man + aktiv"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hva betyr «Es wäre besser, wenn …»?",
       "options": [
         "Det ville vært bedre om …",
-        "Det var bedre da …",
-        "Det er bedre når …",
-        "Det blir bedre hvis …"
+        "Det ble bedre fordi …",
+        "Det blir bedre når …",
+        "Det er bedre dersom …"
       ],
       "correct": 0,
       "explain": "Konjunktiv II for forslag."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva betyr «der Klimawandel»?",
       "options": [
-        "været",
+        "værforholdene",
         "klimaendringene",
         "klimatoppmøtet",
-        "drivhuset"
+        "drivhuseffekten"
       ],
       "correct": 1,
       "explain": "Wandel = endring."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hvordan sier du «CO₂ skal reduseres»?",
         "options": [
-          "CO₂ wird reduzieren.",
+          "CO₂ muss reduziert werden.",
           "CO₂ soll reduziert werden.",
-          "CO₂ soll reduzieren.",
-          "CO₂ ist reduziert."
+          "CO₂ kann reduziert werden.",
+          "CO₂ wird reduziert."
         ],
         "correct": 1,
         "explain": "Modalverb + partisipp + werden."
@@ -331,9 +331,9 @@
         "text": "Hva betyr «der Müll»?",
         "options": [
           "avfallet",
-          "musikken",
-          "melken",
-          "møllen"
+          "utslippet",
+          "avløpsvannet",
+          "kildesorteringen"
         ],
         "correct": 0,
         "explain": "Mülltrennung = kildesortering."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Man sollte weniger fliegen»?",
         "options": [
-          "Man flyr mindre.",
-          "Man må fly mer.",
+          "Man kan fly mindre.",
+          "Man må fly mindre.",
           "Man burde fly mindre.",
-          "Man kan ikke fly."
+          "Man vil fly mindre."
         ],
         "correct": 2,
         "explain": "sollte uttrykker et råd."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

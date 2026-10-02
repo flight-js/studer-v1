@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er de tre dimensjonene av bærekraft?",
       "options": [
-        "Tre, metall og plast",
+        "Miljø, økonomi og teknologi",
         "Miljø, økonomi og det sosiale",
-        "Fortid, nåtid og framtid",
-        "Land, by og hav"
+        "Miljø, politikk og sosiale forhold",
+        "Økonomi, natur og kultur"
       ],
       "correct": 1,
       "explain": "Alle tre må henge sammen for at utviklingen skal være bærekraftig."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hva kjennetegner en sirkulær økonomi?",
       "options": [
-        "Ta – lag – kast",
-        "Alt produseres i utlandet",
-        "Ressursene holdes i bruk ved reparasjon, gjenbruk og gjenvinning",
-        "Ingen ting blir produsert"
+        "Ressursene brukes én gang før produktene blir kastet",
+        "Produktene byttes ut når de får små skader",
+        "Ressursene holdes i bruk gjennom reparasjon, gjenbruk og gjenvinning",
+        "Produksjonen bygger på nye råvarer framfor brukte materialer"
       ],
       "correct": 2,
       "explain": "Den lineære økonomien er ta – lag – kast."
@@ -105,9 +105,9 @@
       "text": "Hva er det første steget i «reduser, gjenbruk, gjenvinn»?",
       "options": [
         "Å bruke mindre materialer og energi",
-        "Å kaste mest mulig",
-        "Å kjøpe nytt",
-        "Å brenne avfallet"
+        "Å sortere avfallet etter materialtype før det kastes",
+        "Å bruke materialer om igjen etter første bruk",
+        "Å gjenvinne materialer når produktet er utslitt"
       ],
       "correct": 0,
       "explain": "Det beste avfallet er det som aldri oppstår."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva gjør du med rester av maling fra et arbeidsoppdrag?",
       "options": [
-        "Heller dem i vasken",
-        "Kaster dem i restavfallet",
-        "Graver dem ned",
+        "Blander dem med vann og heller dem i vasken",
+        "Lar malingen tørke og kaster den i restavfallet",
+        "Leverer dem som vanlig plastemballasje til gjenvinning",
         "Leverer dem til mottak for farlig avfall"
       ],
       "correct": 3,
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hva hører med i livsløpet til et produkt?",
       "options": [
-        "Bare produksjonen",
+        "Råvarer, produksjon, transport, salg og reklame",
         "Råvarer, produksjon, transport, bruk og avfall",
-        "Bare avfallet",
-        "Bare prisen"
+        "Produksjon, transport, bruk, pris og fortjeneste",
+        "Råvarer, produksjon, bruk, emballasje og markedsføring"
       ],
       "correct": 1,
       "explain": "Miljøbelastningen må vurderes gjennom hele livsløpet."
@@ -141,9 +141,9 @@
       "text": "Hva viser Fairtrade-merket?",
       "options": [
         "At produsentene har fått en rettferdig betaling",
-        "At produktet er billig",
-        "At produktet er norsk",
-        "At produktet er økologisk"
+        "At produktet er laget av økologiske råvarer",
+        "At varen er produsert og pakket i Norge",
+        "At produktet selges til en lavere pris"
       ],
       "correct": 0,
       "explain": "Fairtrade handler om den sosiale dimensjonen av bærekraft.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvorfor kan et holdbart produkt være mer bærekraftig enn et billig produkt?",
       "options": [
-        "Det er alltid laget av plast",
-        "Det krever mer transport",
-        "Det må byttes sjeldnere",
-        "Det er tyngre"
+        "Det er laget av resirkulerte materialer fra før",
+        "Det bruker mindre energi når det er i bruk",
+        "Det må byttes ut sjeldnere enn et billig produkt",
+        "Det er produsert nærmere arbeidsplassen enn det billige"
       ],
       "correct": 2,
       "explain": "Færre nye produkter betyr mindre ressursbruk og avfall."
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "Hva er et eksempel på en grønn jobb?",
       "options": [
-        "Å selge engangsartikler",
+        "Å produsere engangsplastemballasje",
         "Å installere solcellepaneler",
-        "Å kaste brukte klær",
-        "Å kjøre tom lastebil"
+        "Å installere oljefyringsanlegg i boliger",
+        "Å selge engangsartikler til arbeidsplasser"
       ],
       "correct": 1,
       "explain": "Fornybar energi, reparasjon og ombruk gir grønne jobber.",
@@ -178,9 +178,9 @@
       "id": "q09",
       "text": "Hvilket FN-bærekraftsmål handler om anstendig arbeid?",
       "options": [
-        "Mål 1",
-        "Mål 14",
-        "Mål 3",
+        "Mål 7",
+        "Mål 12",
+        "Mål 13",
         "Mål 8"
       ],
       "correct": 3,
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvordan kan du redusere svinn i et arbeidsoppdrag?",
       "options": [
-        "Kjøpe mye ekstra materiale",
+        "Bestille materialer før du har målt",
         "Planlegge godt og måle nøye",
-        "Kaste rester med en gang",
-        "Ikke lage arbeidstegning"
+        "Begynne arbeidet før du har laget en plan",
+        "Skjære materialene uten å bruke mål"
       ],
       "correct": 1,
       "explain": "God planlegging gir lite kapp og svinn."
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hva er redesign?",
         "options": [
-          "Å kaste gamle ting",
+          "Å reparere gamle ting så de virker som før",
           "Å lage noe nytt av noe gammelt",
-          "Å male en tegning",
-          "Å kjøpe nye materialer"
+          "Å dekorere et nytt produkt med mønstre og farger",
+          "Å lage noe nytt av helt nye materialer"
         ],
         "correct": 1,
         "explain": "For eksempel en veske laget av gamle jeans.",
@@ -339,9 +339,9 @@
         "text": "Hva er Svanemerket?",
         "options": [
           "Et nordisk miljømerke",
-          "Et merke for norsk mat",
-          "Et merke for dyrevelferd",
-          "Et merke for billige varer"
+          "Et merke for kortreist mat",
+          "Et merke for økologisk mat",
+          "Et merke for trygg arbeidsplass"
         ],
         "correct": 0,
         "explain": "Svanemerkede produkter har lavere miljøbelastning.",
@@ -352,10 +352,10 @@
         "type": "flervalg",
         "text": "Hva hører til den sosiale dimensjonen av bærekraft?",
         "options": [
-          "Klimautslipp",
-          "Fortjeneste",
+          "Klimagassutslipp og bruk av energi",
+          "Bedriftens inntekter og driftskostnader",
           "Trygge arbeidsforhold og rettferdig lønn",
-          "Energibruk"
+          "Bruk av råvarer og mengde avfall"
         ],
         "correct": 2,
         "explain": "Den sosiale dimensjonen handler om menneskene."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

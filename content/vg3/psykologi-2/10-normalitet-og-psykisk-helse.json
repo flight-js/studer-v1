@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er en svakhet ved det statistiske normalitetskriteriet?",
       "options": [
-        "Det er for vanskelig å regne ut",
+        "Det vurderer avvik ut fra hvor mye de plager personen",
         "Også uvanlige positive egenskaper blir avvikende",
-        "Det tar hensyn til kultur",
-        "Det gjelder bare barn"
+        "Det avgjør normalitet ut fra kulturelle normer",
+        "Det krever at avvik skader andre mennesker"
       ],
       "correct": 1,
       "explain": "For eksempel svært høy intelligens."
@@ -89,9 +89,9 @@
       "text": "Hva skiller en psykisk lidelse fra psykiske vansker?",
       "options": [
         "Alvorlighet, varighet og funksjonsnedsettelse",
-        "Alder",
-        "Kjønn",
-        "Bosted"
+        "Symptomtype, personlighet og oppvekstmiljø",
+        "Kjønn, alder og bosted",
+        "Skoleprestasjoner, familieforhold og interesser"
       ],
       "correct": 0,
       "explain": "Grensen er ikke skarp."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva sier to-kontinua-modellen?",
       "options": [
-        "At alle med diagnose har det dårlig",
-        "At psykisk helse bare er fravær av sykdom",
+        "At psykisk helse og lidelse er motsatte ender av én dimensjon",
+        "At psykisk helse avgjøres av om man har en diagnose",
         "At psykisk helse og psykisk lidelse er to separate dimensjoner",
-        "At diagnoser er unødvendige"
+        "At en psykisk lidelse utelukker god psykisk helse"
       ],
       "correct": 2,
       "explain": "Corey Keyes."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er medikalisering?",
       "options": [
-        "At alle får medisiner",
-        "At leger blir flere",
-        "At sykehus bygges",
+        "At psykiske lidelser forklares som moralske svakheter",
+        "At psykiske plager møtes med sosial støtte framfor diagnose",
+        "At psykisk helse vurderes ut fra kulturens normer",
         "At normale reaksjoner behandles som sykdom"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hvilken fordel kan en diagnose gi?",
       "options": [
         "Tilgang til riktig behandling og tilrettelegging",
-        "Stigma",
-        "Stempling",
-        "At sosiale årsaker skjules"
+        "En forklaring på hvorfor plagene oppsto",
+        "En vurdering av personens intelligensnivå",
+        "En forutsigelse av personens framtidige psykiske helse"
       ],
       "correct": 0,
       "explain": "Og et felles språk."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvordan beskriver WHO psykisk helse?",
       "options": [
-        "Bare fravær av sykdom",
+        "Fravær av psykiske symptomer og diagnoser",
         "Velvære der man kan bruke evner, håndtere belastninger og bidra",
-        "At man aldri er trist",
-        "At man har mange venner"
+        "Evnen til å være glad og sosial i hverdagen",
+        "God fungering målt gjennom skoleprestasjoner"
       ],
       "correct": 1,
       "explain": "Mer enn fravær av sykdom."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva viser eksempelet med homofili?",
       "options": [
-        "At diagnoser er evige",
-        "At normalitet bare er biologi",
+        "At normalitet vurderes ut fra symptomers hyppighet i befolkningen",
+        "At medisinske diagnoser bygger på faste biologiske kjennetegn",
         "At normalitet delvis er sosialt konstruert",
-        "At WHO tar feil"
+        "At endringer i diagnoser skyldes nye medisinske funn, ikke samfunnsendringer"
       ],
       "correct": 2,
       "explain": "Endret over tid.",
@@ -161,8 +161,8 @@
       "id": "q08",
       "text": "Hvilket av disse er vanligvis en normal reaksjon, ikke en lidelse?",
       "options": [
-        "Schizofreni",
-        "Spiseforstyrrelse",
+        "Schizofreni med vedvarende hallusinasjoner",
+        "Anoreksi med alvorlig undervekt",
         "Alvorlig depresjon over lang tid",
         "Sorg etter et dødsfall"
       ],
@@ -174,9 +174,9 @@
       "text": "Hva er en svakhet ved det subjektive kriteriet?",
       "options": [
         "Noen med alvorlige lidelser har liten sykdomsinnsikt",
-        "Det tar ikke hensyn til følelser",
-        "Det er for objektivt",
-        "Det gjelder bare voksne"
+        "Det avgjør sykdom ut fra hvor sjeldne symptomene er",
+        "Det vurderer om atferden bryter med kulturens normer",
+        "Det bygger på målbare tegn fra medisinske undersøkelser"
       ],
       "correct": 0,
       "explain": "De opplever kanskje ikke seg selv som syke.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Har alle mennesker en psykisk helse?",
       "options": [
-        "Nei, bare de med diagnose",
-        "Ja",
-        "Bare voksne",
-        "Bare de som er friske"
+        "Nei, psykisk helse viser til en diagnose",
+        "Ja, alle mennesker har psykisk helse",
+        "Ja, dersom personen har fått en diagnose",
+        "Ja, når personen opplever god trivsel"
       ],
       "correct": 1,
       "explain": "Den kan være bedre eller dårligere."
@@ -304,10 +304,10 @@
         "type": "flervalg",
         "text": "Hvilket diagnosesystem brukes blant annet i Norge?",
         "options": [
-          "IQ",
+          "ICF",
           "ICD",
-          "PISA",
-          "BMI"
+          "DSM-5",
+          "DC:0–5"
         ],
         "correct": 1,
         "explain": "Utgitt av WHO."
@@ -318,9 +318,9 @@
         "text": "Hvilken ulempe har diagnoser?",
         "options": [
           "De kan skjule sosiale årsaker som mobbing",
-          "De gir felles språk",
-          "De gir rettigheter",
-          "De hjelper forskning"
+          "De kan fastslå at plagene skyldes biologiske forhold",
+          "De kan vise nøyaktig hvor lenge plagene vil vare",
+          "De kan avgjøre hvilken behandling som passer best"
         ],
         "correct": 0,
         "explain": "Problemet plasseres hos individet."
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva er et psykisk symptom som kan være en vanlig plage?",
         "options": [
-          "Hallusinasjoner hele tiden",
-          "Vrangforestillinger",
+          "Vedvarende vrangforestillinger uten rusbruk",
+          "Gjentatte hallusinasjoner uten ytre påvirkning",
           "Søvnvansker i en stressende periode",
-          "Total funksjonssvikt"
+          "Betydelig vekttap ved forstyrret matinntak"
         ],
         "correct": 2,
         "explain": "Vanlige plager kan gå over."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvilket ledernivå utformer visjon og overordnet strategi?",
       "options": [
-        "Operativt",
+        "Taktisk – mellomledelsen",
         "Strategisk – toppledelsen",
-        "Taktisk",
-        "Ingen"
+        "Operativt – førstelinjeledelsen",
+        "Operativt – toppledelsen"
       ],
       "correct": 1,
       "explain": "Toppledelsen."
@@ -91,9 +91,9 @@
       "text": "Hva er internmarkedsføring?",
       "options": [
         "Å se de ansatte som virksomhetens første marked",
-        "Reklame i egen butikk",
-        "Salg til ansatte",
-        "Markedsføring i utlandet"
+        "Å selge virksomhetens produkter direkte til egne ansatte",
+        "Å bruke ansatte som kanal for reklame til kundene",
+        "Å informere ansatte om kampanjer rettet mot eksterne kunder"
       ],
       "correct": 0,
       "explain": "Ansatte må forstå og tro på løftet."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er situasjonsbestemt ledelse?",
       "options": [
-        "Samme stil for alle",
-        "Bare autoritær ledelse",
+        "Å bruke samme lederstil uavhengig av kompetanse og motivasjon",
+        "Å tilpasse lederstilen til oppgavens betydning for virksomheten",
         "Å tilpasse stilen til medarbeiderens kompetanse og motivasjon",
-        "Å la alle bestemme selv"
+        "Å la medarbeideren velge arbeidsmåte ut fra egen motivasjon"
       ],
       "correct": 2,
       "explain": "Instruksjon til nye, delegering til erfarne."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er interaktiv markedsføring i tjenestetrekanten?",
       "options": [
-        "Løfter til kundene",
-        "Opplæring av ansatte",
-        "Reklame på nett",
+        "At virksomheten gir kundene løfter gjennom reklame og kommunikasjon",
+        "At virksomheten lærer opp ansatte til å holde kundeløftene",
+        "At kundene vurderer tjenestens kvalitet etter at de har kjøpt den",
         "At de ansatte holder løftene i møte med kundene"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva kjennetegner transformasjonsledelse?",
       "options": [
         "Inspirasjon gjennom visjon og å være et forbilde",
-        "Streng kontroll",
-        "Ingen ledelse",
-        "Bare belønning i penger"
+        "Styring gjennom regler og kontroll av arbeidsoppgavene",
+        "Motivasjon gjennom lønn og individuelle resultatbelønninger",
+        "Fravær av innblanding i medarbeidernes arbeid og beslutninger"
       ],
       "correct": 0,
       "explain": "Gir motivasjon og endringsvilje."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvorfor er forankring viktig?",
       "options": [
-        "For å spare penger",
+        "For at kundene skal forstå og støtte virksomhetens strategi",
         "For at de ansatte skal forstå og støtte strategien",
-        "For å unngå kunder",
-        "For å bytte leder"
+        "For at ledelsen skal kunne gjennomføre strategien uten opplæring",
+        "For at strategien skal kunne endres uten innspill fra ansatte"
       ],
       "correct": 1,
       "explain": "Ellers blir strategien ikke gjennomført."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Når kan autoritær lederstil være effektiv?",
       "options": [
-        "Alltid",
-        "Aldri",
+        "Når langsiktige beslutninger krever bred medvirkning",
+        "Når erfarne medarbeidere forventer stor selvstendighet",
         "I kriser der raske beslutninger trengs",
-        "Når alle er eksperter"
+        "Når arbeidet krever kreativitet og mange perspektiver"
       ],
       "correct": 2,
       "explain": "Men kan gi lite motivasjon over tid."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva er et virkemiddel i internmarkedsføring?",
       "options": [
-        "TV-reklame",
-        "Prisrabatt til kunder",
-        "Utendørsplakater",
+        "Kampanjer med produktreklame i massemedier",
+        "Prisavslag på produkter rettet mot eksterne kunder",
+        "Reklameplakater ved virksomhetens utsalgssteder",
         "Opplæring i produkter, service og verdier"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva kan skje hvis lederen glemmer de ansatte i en kampanje?",
       "options": [
         "Kundene møter noe annet enn reklamen lover",
-        "Salget dobles",
-        "Omdømmet styrkes",
-        "Ingenting"
+        "Kundene får den tjenesten kampanjen har lovet",
+        "Kampanjens budskap når flere kunder enn virksomheten planla",
+        "Kundene får raskere service enn kampanjen beskriver"
       ],
       "correct": 0,
       "explain": "Troverdigheten svekkes."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er employer branding?",
       "options": [
-        "En type logo",
+        "Å utforme virksomhetens logo",
         "Å bygge et attraktivt arbeidsgivermerke",
-        "En prisstrategi",
-        "En distribusjonskanal"
+        "Å sette priser på virksomhetens produkter",
+        "Å velge distribusjonskanaler for produktene"
       ],
       "correct": 1,
       "explain": "Tiltrekker gode søkere.",
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvilket ledernivå følger opp det daglige arbeidet?",
         "options": [
-          "Strategisk",
-          "Operativt",
-          "Taktisk",
-          "Styret"
+          "Strategisk nivå",
+          "Operativt nivå",
+          "Taktisk nivå",
+          "Toppledelsesnivå"
         ],
         "correct": 1,
         "explain": "Førstelinjeledere."
@@ -326,9 +326,9 @@
         "text": "Hva er ekstern markedsføring i tjenestetrekanten?",
         "options": [
           "Løfter til kundene",
-          "Opplæring",
-          "Kundemøter",
-          "Rekruttering"
+          "Opplæring av ansatte",
+          "Kundemøter med ansatte",
+          "Rekruttering av medarbeidere"
         ],
         "correct": 0,
         "explain": "For eksempel reklame.",
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva gir demokratisk lederstil ofte?",
         "options": [
-          "Raske beslutninger",
-          "Ingen involvering",
+          "Raskere beslutninger hos lederen",
+          "Større kontroll over arbeidsmetodene",
           "Eierskap hos medarbeiderne",
-          "Mindre motivasjon"
+          "Mindre medvirkning blant medarbeiderne"
         ],
         "correct": 2,
         "explain": "Men tar tid."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

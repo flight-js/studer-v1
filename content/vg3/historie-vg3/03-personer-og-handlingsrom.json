@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hva er handlingsrom?",
       "options": [
-        "Et rom i et museum",
+        "De valgene en person ønsket å ta",
         "De mulighetene en person faktisk hadde",
-        "En type kilde",
-        "En politisk ideologi"
+        "De rettighetene en person hadde etter loven",
+        "De beslutningene en person tok i praksis"
       ],
       "correct": 1,
       "explain": "Begrenset av strukturer."
@@ -95,9 +95,9 @@
       "text": "Hva er en struktur i historie?",
       "options": [
         "Forhold som begrenser eller muliggjør handling",
-        "En bygning",
-        "En enkeltperson",
-        "En type krig"
+        "En persons egenskaper som påvirker egne valg",
+        "En enkelt hendelse som endrer samfunnets utvikling",
+        "En fast plan for hvordan samfunnet skal styres"
       ],
       "correct": 0,
       "explain": "For eksempel økonomi og lover."
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva tok Elsa Laula Renberg initiativ til?",
       "options": [
-        "Sametinget i 1989",
-        "Alta-aksjonen",
+        "Opprettelsen av Sametinget i 1989",
+        "Alta-aksjonen mot kraftutbygging i 1978",
         "Det første samiske landsmøtet i 1917",
-        "Grunnloven"
+        "Vedtaket av Norges Grunnlov i 1814"
       ],
       "correct": 2,
       "explain": "Holdt i Trondheim.",
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hva valgte Nelson Mandela etter at han ble løslatt?",
       "options": [
-        "Hevn",
-        "Eksil",
-        "Krig",
-        "Forsoning"
+        "Å kreve hevn over tidligere apartheidledere",
+        "Å gå i politisk eksil etter løslatelsen",
+        "Å fortsette væpnet kamp mot den nye regjeringen",
+        "Å arbeide for forsoning mellom gruppene"
       ],
       "correct": 3,
       "explain": "Han ble president i 1994.",
@@ -133,9 +133,9 @@
       "text": "Hva var lærerstriden i 1942?",
       "options": [
         "At mange lærere nektet å melde seg inn i nazistenes lærersamband",
-        "At lærerne streiket for høyere lønn",
-        "At skolene ble stengt av regjeringen",
-        "At lærerne meldte seg inn i NS"
+        "At mange lærere nektet å melde seg inn i Nasjonal Samling",
+        "At lærerne streiket for kortere skoledager under okkupasjonen",
+        "At lærerne krevde at undervisningen skulle foregå på tysk"
       ],
       "correct": 0,
       "explain": "Et eksempel på sivil ulydighet.",
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Hva er kollaborasjon?",
       "options": [
-        "Motstand",
+        "Væpnet kamp mot okkupanten",
         "Samarbeid med okkupanten",
-        "Flukt",
-        "Nøytralitet"
+        "Flukt fra okkupert område",
+        "Støtte til motstandsbevegelsen"
       ],
       "correct": 1,
       "explain": "For eksempel medlemskap i NS."
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hvorfor bør vi unngå å være etterpåkloke når vi vurderer valg?",
       "options": [
-        "Fordi valg ikke har konsekvenser",
-        "Fordi alle valgte riktig",
+        "Fordi personene hadde full oversikt over alle mulige følger",
+        "Fordi valgene deres kan vurderes ut fra dagens regler",
         "Fordi personene ikke visste hvordan det ville gå",
-        "Fordi historien er ferdig"
+        "Fordi resultatene av valgene var kjent for dem på forhånd"
       ],
       "correct": 2,
       "explain": "Handlingene må forstås i samtiden."
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Hva er kontrafaktisk tenkning?",
       "options": [
-        "Å sjekke fakta",
-        "Å lese kilder",
-        "Å skrive biografier",
+        "Å undersøke hva som faktisk skjedde",
+        "Å sammenligne ulike historiske kilder",
+        "Å forklare hendelser gjennom biografier",
         "Å spørre «hva om?»"
       ],
       "correct": 3,
@@ -183,9 +183,9 @@
       "text": "Hvilke grupper hadde ofte minst handlingsrom?",
       "options": [
         "Kvinner, fattige og minoriteter",
-        "Rike menn med makt",
-        "Konger",
-        "Statsråder"
+        "Rike menn, embetsmenn og godseiere",
+        "Konger, offiserer og statsråder",
+        "Kjøpmenn, fabrikkeiere og jordeiere"
       ],
       "correct": 0,
       "explain": "Strukturer begrenset valgene."
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Hva er en gråsone under okkupasjonen?",
       "options": [
-        "Et område med tåke",
+        "En situasjon der det er uklart hvem som kontrollerer et område",
         "En situasjon der det er uklart hva som er rett og galt",
-        "En militær sone",
-        "Et fengsel"
+        "En situasjon der soldater ikke vet hvor frontlinjen går",
+        "En situasjon der det er uklart hvilken side som har vunnet"
       ],
       "correct": 1,
       "explain": "For eksempel å jobbe for tyskerne for å forsørge familien."
@@ -322,10 +322,10 @@
         "type": "flervalg",
         "text": "Hva var Nasjonal Samling?",
         "options": [
-          "En motstandsgruppe",
+          "Et norsk motstandsparti",
           "Et norsk nazistparti",
-          "En fagforening",
-          "Et samisk parti"
+          "En norsk fagorganisasjon",
+          "Et norsk bondeparti"
         ],
         "correct": 1,
         "explain": "Ledet av Vidkun Quisling."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på motstand under okkupasjonen?",
         "options": [
-          "Illegale aviser",
-          "Medlemskap i NS",
-          "Å jobbe for okkupantene",
-          "Å angi naboer"
+          "Å spre illegale aviser",
+          "Å spre propaganda for NS",
+          "Å hjelpe tyske soldater",
+          "Å angi motstandsfolk til politiet"
         ],
         "correct": 0,
         "explain": "Også sabotasje og flyktninghjelp."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hvor lenge satt Mandela i fengsel?",
         "options": [
-          "2 år",
-          "10 år",
+          "18 år",
+          "21 år",
           "27 år",
-          "50 år"
+          "30 år"
         ],
         "correct": 2,
         "explain": "Han ble løslatt i 1990.",
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

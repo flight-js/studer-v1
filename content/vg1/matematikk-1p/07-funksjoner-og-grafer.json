@@ -80,7 +80,7 @@
         "5",
         "3",
         "8",
-        "x"
+        "1"
       ],
       "correct": 1,
       "explain": "Tallet foran x er stigningstallet."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva forteller konstantleddet b i f(x) = ax + b?",
       "options": [
-        "Hvor bratt grafen er",
         "Hvor grafen skjærer x-aksen",
+        "Hvor grafen har toppunktet",
         "Hvor grafen skjærer y-aksen",
-        "Hvor toppunktet er"
+        "Hvor grafen har bunnpunktet"
       ],
       "correct": 2,
       "explain": "b er verdien når x = 0."
@@ -104,7 +104,7 @@
         "3",
         "6",
         "2",
-        "16"
+        "8"
       ],
       "correct": 0,
       "explain": "(11 − 5)/(3 − 1) = 6/2 = 3."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "f(x) = 150x + 200. Hva er f(4)?",
       "options": [
-        "354",
-        "950",
         "600",
+        "350",
+        "950",
         "800"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvilken funksjon er en eksponentialfunksjon?",
       "options": [
-        "f(x) = 5x + 500",
+        "f(x) = 500 + 1,05x",
         "f(x) = 500 · 1,05ˣ",
-        "f(x) = 500/x",
-        "f(x) = x² + 5"
+        "f(x) = 500/(1,05x)",
+        "f(x) = 500 · x¹˒⁰⁵"
       ],
       "correct": 1,
       "explain": "x står i eksponenten."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er et nullpunkt?",
       "options": [
-        "Der grafen skjærer x-aksen",
-        "Der grafen skjærer y-aksen",
-        "Det høyeste punktet",
-        "Der grafen starter"
+        "Der grafen møter x-aksen",
+        "Der grafen møter y-aksen",
+        "Der grafen har toppunktet",
+        "Der grafen har bunnpunktet"
       ],
       "correct": 0,
       "explain": "I nullpunktet er f(x) = 0."
@@ -150,9 +150,9 @@
       "text": "Abonnement A koster 100 + 2x, og B koster 200 + x. For hvilken x koster de like mye?",
       "options": [
         "x = 50",
-        "x = 300",
+        "x = 200",
         "x = 100",
-        "x = 200"
+        "x = 300"
       ],
       "correct": 2,
       "explain": "100 + 2x = 200 + x gir x = 100."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hva er et toppunkt?",
       "options": [
-        "Der grafen starter",
+        "Det laveste punktet på grafen i et område",
         "Det høyeste punktet på grafen i et område",
-        "Der grafen skjærer y-aksen",
-        "Stigningstallet"
+        "Punktet der grafen skjærer y-aksen",
+        "Punktet der grafen skjærer x-aksen"
       ],
       "correct": 1,
       "explain": "Toppunkter og bunnpunkter kalles ekstremalpunkter."
@@ -186,9 +186,9 @@
       "text": "Hva er forskjellen på lineær og eksponentiell vekst?",
       "options": [
         "Lineær vekst øker med et fast tall, eksponentiell med en fast prosent",
-        "Det er ingen forskjell",
-        "Lineær vekst går alltid raskest",
-        "Eksponentiell vekst øker med et fast tall"
+        "Lineær vekst øker med en fast prosent, eksponentiell med et fast tall",
+        "Begge veksttypene øker med et fast tall per enhet",
+        "Begge veksttypene øker med en fast prosent per enhet"
       ],
       "correct": 0,
       "explain": "Eksponentiell vekst blir etter hvert mye raskere."
@@ -327,8 +327,8 @@
         "options": [
           "De y-verdiene funksjonen kan få",
           "De x-verdiene funksjonen gjelder for",
-          "Stigningstallet",
-          "Antall nullpunkter"
+          "De x-verdiene der grafen skjærer aksene",
+          "De x-verdiene der funksjonen har toppunkt"
         ],
         "correct": 1,
         "explain": "Den kan begrenses av den praktiske situasjonen."
@@ -339,9 +339,9 @@
         "text": "Hva forteller f(x) = 1000 · 0,9ˣ?",
         "options": [
           "Verdien synker med 10 % for hver enhet",
-          "Verdien øker med 90 %",
-          "Verdien synker med 900",
-          "Verdien er konstant"
+          "Verdien øker med 10 % for hver enhet",
+          "Verdien synker med 90 % for hver enhet",
+          "Verdien synker med 10 for hver enhet"
         ],
         "correct": 0,
         "explain": "Vekstfaktoren 0,9 betyr 10 % nedgang."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

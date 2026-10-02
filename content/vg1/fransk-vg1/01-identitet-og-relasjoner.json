@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er hunkjønnsformen av «sérieux»?",
       "options": [
-        "sérieuxe",
+        "sérieux",
         "sérieuse",
-        "sérieuxse",
-        "sérieus"
+        "sérieuses",
+        "sérieuxe"
       ],
       "correct": 1,
       "explain": "Adjektiver på -eux får -euse i hunkjønn."
@@ -90,9 +90,9 @@
       "text": "Hva betyr «Je m'entends bien avec ma sœur»?",
       "options": [
         "Jeg kommer godt overens med søsteren min.",
-        "Jeg hører søsteren min godt.",
-        "Jeg venter på søsteren min.",
-        "Jeg krangler med søsteren min."
+        "Jeg hører godt etter når søsteren min snakker.",
+        "Jeg forstår søsteren min godt på fransk.",
+        "Jeg krangler ofte med søsteren min hjemme."
       ],
       "correct": 0,
       "explain": "s'entendre avec = komme overens med."
@@ -104,7 +104,7 @@
         "Je les parle.",
         "Je lui parle.",
         "Je leur parle.",
-        "Je parle leur."
+        "Je leur parles."
       ],
       "correct": 2,
       "explain": "parler à + flertall → leur, foran verbet."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Velg riktig: «Tu vois Marie ? Oui, je ___ vois.»",
       "options": [
-        "lui",
-        "le",
-        "leur",
+        "les",
+        "en",
+        "y",
         "la"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva betyr «se disputer»?",
       "options": [
-        "krangle",
-        "diskutere rolig",
-        "bestemme seg",
-        "ha det gøy"
+        "å krangle",
+        "å forsone seg",
+        "å bli kjent",
+        "å bli venner"
       ],
       "correct": 0,
       "explain": "On se dispute parfois."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er riktig form? «Nous ___ amusons bien.»",
       "options": [
-        "se",
+        "me",
         "nous",
-        "vous",
-        "s'"
+        "te",
+        "se"
       ],
       "correct": 1,
       "explain": "nous → nous amusons."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva betyr «J'en ai marre !»?",
       "options": [
-        "Jeg er sulten!",
-        "Jeg er glad!",
+        "Jeg er redd!",
+        "Jeg er sint!",
         "Jeg er lei!",
-        "Jeg er trøtt!"
+        "Jeg kjeder meg!"
       ],
       "correct": 2,
       "explain": "Et vanlig uformelt uttrykk."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvor står objektspronomenet i en fransk setning?",
       "options": [
-        "Sist i setningen",
-        "Etter verbet",
-        "Først i setningen",
+        "Før subjektet",
+        "Etter det direkte objektet",
+        "Mellom to substantiv",
         "Foran verbet"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva er hunkjønnsformen av «sportif»?",
       "options": [
         "sportive",
-        "sportife",
-        "sportifs",
-        "sportiffe"
+        "sportif",
+        "sportives",
+        "sportivee"
       ],
       "correct": 0,
       "explain": "-if blir -ive."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva brukes «on» ofte som i muntlig fransk?",
       "options": [
-        "man eller de",
+        "han",
         "vi",
-        "dere",
-        "jeg"
+        "hun",
+        "du"
       ],
       "correct": 1,
       "explain": "On se voit demain ? = Ses vi i morgen?"
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Je me sens seule»?",
         "options": [
-          "Jeg er alene hjemme.",
+          "Jeg føler meg trist i dag.",
           "Jeg føler meg ensom.",
-          "Jeg liker å være alene.",
-          "Jeg ser meg selv."
+          "Jeg føler meg glad nå.",
+          "Jeg føler meg rolig hjemme."
         ],
         "correct": 1,
         "explain": "se sentir = føle seg."
@@ -329,9 +329,9 @@
         "text": "Erstatt objektet: «Je donne le livre à Paul.» → «Je ___ donne le livre.»",
         "options": [
           "lui",
-          "le",
-          "leur",
-          "la"
+          "me",
+          "te",
+          "vous"
         ],
         "correct": 0,
         "explain": "à Paul → lui."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva er hunkjønnsformen av «travailleur»?",
         "options": [
-          "travailleure",
-          "travailleuresse",
+          "travailleur",
+          "travailleurs",
           "travailleuse",
-          "travailleurse"
+          "travailleuses"
         ],
         "correct": 2,
         "explain": "-eur blir ofte -euse."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

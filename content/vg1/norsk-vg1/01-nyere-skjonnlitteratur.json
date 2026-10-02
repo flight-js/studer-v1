@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er autofiksjon?",
       "options": [
-        "Litteratur om biler",
+        "Litteratur som forteller forfatterens liv uten oppdiktede hendelser",
         "Litteratur som blander forfatterens eget liv med fiksjon",
-        "Litteratur skrevet av en datamaskin",
-        "Fantasy"
+        "Litteratur som gjenforteller historiske hendelser med oppdiktede personer",
+        "Litteratur som skildrer en oppdiktet verden med magiske vesener"
       ],
       "correct": 1,
       "explain": "Knausgårds Min kamp er et kjent eksempel.",
@@ -91,9 +91,9 @@
       "text": "Hvilken norsk forfatter fikk Nobelprisen i litteratur i 2023?",
       "options": [
         "Jon Fosse",
-        "Karl Ove Knausgård",
-        "Maja Lunde",
-        "Lars Saabye Christensen"
+        "Vigdis Hjorth",
+        "Roy Jacobsen",
+        "Herbjørg Wassmo"
       ],
       "correct": 0,
       "explain": "Fosse skriver på nynorsk.",
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva betyr in medias res?",
       "options": [
-        "At teksten har åpen slutt",
-        "At teksten er kronologisk",
+        "At fortellingen slutter uten å avklare konflikten",
+        "At fortellingen hopper tilbake til tidligere hendelser",
         "At fortellingen starter midt i handlingen",
-        "At teksten er oversatt"
+        "At hendelsene blir fortalt i tidsrekkefølge"
       ],
       "correct": 2,
       "explain": "Leseren kastes rett inn i en situasjon."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er forskjellen på motiv og tema?",
       "options": [
-        "Det er det samme",
-        "Tema er den konkrete situasjonen",
-        "Motiv er budskapet",
+        "Motiv er tekstens budskap, tema er den konkrete situasjonen teksten skildrer",
+        "Motiv er tekstens hovedperson, tema er stedet der handlingen foregår",
+        "Motiv er forfatterens mening, tema er tekstens konkrete handling",
         "Motiv er den konkrete situasjonen, tema er det allmenne teksten handler om"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva kjennetegner en personal tredjepersonsforteller?",
       "options": [
         "Fortelleren følger én persons tanker og opplevelser tett",
-        "Fortelleren sier «jeg»",
-        "Fortelleren vet alt om alle",
-        "Fortelleren snakker direkte til leseren"
+        "Fortelleren forteller historien som en av personene i teksten",
+        "Fortelleren kjenner tankene og opplevelsene til alle personene",
+        "Fortelleren beskriver ytre handling uten innblikk i personenes tanker"
       ],
       "correct": 0,
       "explain": "Leseren ser verden gjennom én person, men i tredjeperson."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er indirekte karakteristikk?",
       "options": [
-        "At fortelleren sier rett ut hvordan en person er",
-        "At personen ikke har navn",
+        "At fortelleren sier direkte hvilke egenskaper personen har",
+        "At personen forandrer seg gjennom handlingen",
         "At personen skildres gjennom handlinger, replikker og tanker",
-        "At personen er ond"
+        "At personen har en tydelig hovedrolle i fortellingen"
       ],
       "correct": 2,
       "explain": "Leseren må selv slutte seg til hvordan personen er."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva må en god tolkning inneholde?",
       "options": [
-        "Bare egne meninger",
+        "Personlige meninger uten støtte fra tekstens innhold",
         "Begrunnelser med eksempler og sitater fra teksten",
-        "Et sammendrag av handlingen",
-        "Forfatterens biografi"
+        "Et sammendrag av handlingen med de viktigste hendelsene",
+        "Opplysninger om forfatterens liv og tiden teksten ble skrevet"
       ],
       "correct": 1,
       "explain": "En tolkning må forankres i teksten."
@@ -164,9 +164,9 @@
       "text": "Hva er en upålitelig forteller?",
       "options": [
         "En forteller som gir et skjevt eller uriktig bilde av hendelsene",
-        "En forteller som lyver om forfatteren",
-        "En allvitende forteller",
-        "En forteller som ikke finnes"
+        "En forteller som kjenner tankene til alle personene i teksten",
+        "En forteller som bruker jeg-form og deltar i handlingen",
+        "En forteller som henvender seg direkte til leseren"
       ],
       "correct": 0,
       "explain": "Leseren må lese mellom linjene."
@@ -175,9 +175,9 @@
       "id": "q09",
       "text": "Hva er fritt vers?",
       "options": [
-        "Dikt som er gratis",
-        "Dikt med fast rim",
-        "Dikt skrevet på dialekt",
+        "Lyrikk med fast rim og regelmessig rytme",
+        "Lyrikk med enderim i hver verselinje",
+        "Lyrikk med like mange verselinjer i hver strofe",
         "Lyrikk uten fast rim og rytme"
       ],
       "correct": 3,
@@ -188,9 +188,9 @@
       "text": "Hvorfor kan en oversettelse kalles en tolkning?",
       "options": [
         "Fordi oversetteren må velge ord som gjengir innhold, stemning og rytme",
-        "Fordi oversetteren endrer handlingen",
-        "Fordi oversettelser alltid er feil",
-        "Fordi den er skrevet på nynorsk"
+        "Fordi oversetteren må endre personer og hendelser for å tilpasse handlingen",
+        "Fordi oversetteren må gjengi hvert ord med ett tilsvarende ord",
+        "Fordi oversetteren må beholde setningsbygningen fra originalspråket"
       ],
       "correct": 0,
       "explain": "Ord har sjelden helt like betydninger på to språk."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva er et symbol i litteraturen?",
         "options": [
-          "Et bilde på forsiden",
+          "En gjentakelse av like lyder på slutten av verselinjer",
           "Noe konkret som står for noe mer",
-          "En type rim",
-          "Et kapittel"
+          "Et språklig bilde som sammenligner to ting med «som»",
+          "En kort setning som uttrykker tekstens viktigste budskap"
         ],
         "correct": 1,
         "explain": "For eksempel kan et tomt hus symbolisere ensomhet."
@@ -341,9 +341,9 @@
         "text": "Hva er kortprosa?",
         "options": [
           "Svært korte prosatekster",
-          "Lange romaner",
-          "Dikt med rim",
-          "Skuespill"
+          "Lange fortellinger skrevet i vers",
+          "Korte dikt med fast rim",
+          "Scenetekster med replikker og rollefigurer"
         ],
         "correct": 0,
         "explain": "Kortprosa fanger ofte én situasjon eller ett bilde.",
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hvem er stemmen som taler i et dikt?",
         "options": [
-          "Forfatteren alltid",
-          "Leseren",
+          "Diktets faktiske forfatter",
+          "Diktets hovedperson",
           "Det lyriske jeget",
-          "Oversetteren"
+          "Diktets mottaker eller leser"
         ],
         "correct": 2,
         "explain": "Det lyriske jeget er ikke nødvendigvis det samme som forfatteren."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

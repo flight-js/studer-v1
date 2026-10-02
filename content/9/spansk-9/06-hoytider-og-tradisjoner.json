@@ -100,9 +100,9 @@
       "id": "q02",
       "text": "Når får mange spanske barn gavene sine?",
       "options": [
-        "23. desember",
-        "31. desember",
-        "1. januar",
+        "24. desember, fra de tre vise menn",
+        "25. desember, fra de tre vise menn",
+        "1. januar, fra de tre vise menn",
         "6. januar, fra de tre vise menn"
       ],
       "correct": 3,
@@ -113,9 +113,9 @@
       "text": "Hva er «el roscón de Reyes»?",
       "options": [
         "En kranseformet kake som spises 6. januar",
-        "En julesang",
-        "En parade",
-        "Et juletre"
+        "En rund, søt kake som spises 24. desember",
+        "En kranseformet kake som spises 31. desember",
+        "En fylt, rund kake som spises 25. desember"
       ],
       "correct": 0,
       "explain": "I kaka er det gjemt en liten figur.",
@@ -128,7 +128,7 @@
         "Madrid",
         "Sevilla",
         "Valencia",
-        "Barcelona"
+        "Zaragoza"
       ],
       "correct": 2,
       "explain": "Festen holdes i mars.",
@@ -139,9 +139,9 @@
       "text": "Hva er en «quinceañera»?",
       "options": [
         "En stor fest når en jente fyller 15 år",
-        "En julesang",
-        "En type kake",
-        "En dans"
+        "En stor fest når en jente fyller 16 år",
+        "En stor fest når en gutt fyller 15 år",
+        "En stor fest når en jente fyller 18 år"
       ],
       "correct": 0,
       "explain": "Tradisjonen er vanlig i Latin-Amerika.",
@@ -154,7 +154,7 @@
         "Godt nytt år!",
         "God påske!",
         "God jul!",
-        "Gratulerer med dagen!"
+        "God bursdag!"
       ],
       "correct": 2,
       "explain": "«feliz» betyr glad eller lykkelig."
@@ -163,9 +163,9 @@
       "id": "q07",
       "text": "Hva lager meksikanske familier til Día de Muertos?",
       "options": [
-        "Påskeegg",
-        "Juletrær",
-        "Snømenn",
+        "Påskepynt med egg, kaniner og sjokolade",
+        "Julepynt med trær, lys og gaver",
+        "Bursdagsbord med kaker, lys og ballonger",
         "Fargerike altere med bilder, blomster og mat"
       ],
       "correct": 3,
@@ -189,9 +189,9 @@
       "id": "q09",
       "text": "Hva er en piñata?",
       "options": [
-        "En ananas",
-        "En sang",
-        "En julekrybbe",
+        "En papirfigur pyntet med blomster som settes på et alter",
+        "En marsipanfigur med lys som settes på en bursdagskake",
+        "En trefigur som viser en person i en julekrybbe",
         "En figur fylt med godteri som barn slår i stykker"
       ],
       "correct": 3,
@@ -202,10 +202,10 @@
       "id": "q10",
       "text": "Hva er «el turrón»?",
       "options": [
-        "Et søtt nougatlignende julegodteri",
-        "En julesang",
-        "En kirke",
-        "En type pølse"
+        "Et søtt nougatlignende godteri som spises til jul",
+        "Et søtt mandelkjeks som spises til jul",
+        "Et søtt marsipangodteri som spises til jul",
+        "En søt julekake med tørket frukt"
       ],
       "correct": 0,
       "explain": "Turrón lages ofte av mandler og honning.",
@@ -360,7 +360,7 @@
           "Gratulerer med dagen!",
           "God jul!",
           "Godt nytt år!",
-          "God helg!"
+          "God påske!"
         ],
         "correct": 0,
         "explain": "«el cumpleaños» betyr bursdagen."
@@ -370,10 +370,10 @@
         "type": "flervalg",
         "text": "Hva er «el belén»?",
         "options": [
-          "En by i Spania",
-          "En julekake",
+          "Et juletre pyntet med kuler",
+          "En julekake laget med mandler",
           "En julekrybbe med figurer",
-          "En julesang"
+          "En julesang sunget ved midnatt"
         ],
         "correct": 2,
         "explain": "Navnet kommer fra Betlehem.",
@@ -463,6 +463,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

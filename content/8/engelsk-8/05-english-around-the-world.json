@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "What is a lingua franca?",
       "options": [
-        "A French dialect",
+        "A language spoken by most people in one country",
         "A shared language between people with different first languages",
-        "An old form of English",
-        "A type of accent"
+        "A language used mainly in formal settings",
+        "A language used by people who share one first language"
       ],
       "correct": 1,
       "explain": "English often works as a lingua franca, for example when a Norwegian and a Japanese person talk together."
@@ -94,10 +94,10 @@
       "id": "q02",
       "text": "Which historical development spread English to many continents?",
       "options": [
-        "The Viking Age",
-        "The Roman Empire",
+        "The Spanish Empire",
+        "The French Empire",
         "The British Empire",
-        "The Olympic Games"
+        "The Roman Empire"
       ],
       "correct": 2,
       "explain": "The British Empire brought English to North America, Australia, Africa and Asia."
@@ -120,8 +120,8 @@
       "options": [
         "lift",
         "stairs",
-        "flat",
-        "tube"
+        "escalator",
+        "staircase"
       ],
       "correct": 0,
       "explain": "British English says “lift”, American English says “elevator”.",
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "What does “eventually” mean?",
       "options": [
-        "eventuelt",
-        "kanskje",
+        "på forhånd",
+        "med en gang",
         "til slutt",
-        "straks"
+        "for øyeblikket"
       ],
       "correct": 2,
       "explain": "“Eventually” is a false friend. It means “til slutt” or “etter hvert”.",
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "What is domain loss?",
       "options": [
-        "When a language is pushed aside by another language in an area like research or business",
-        "When you lose a website",
-        "When a dialect disappears",
-        "When you forget words"
+        "When one language replaces another in areas like research or business",
+        "When a language disappears as its speakers stop using it",
+        "When people use a new language after moving to another country",
+        "When a language changes into a separate dialect over time"
       ],
       "correct": 0,
       "explain": "Some fear that Norwegian may lose ground to English in areas like higher education and business.",
@@ -170,10 +170,10 @@
       "id": "q08",
       "text": "Which of these is a loanword from English in Norwegian?",
       "options": [
-        "hus",
-        "skog",
+        "sushi",
+        "pizza",
         "weekend",
-        "fjell"
+        "ballet"
       ],
       "correct": 2,
       "explain": "“Weekend” has been borrowed from English and is widely used in Norwegian."
@@ -182,9 +182,9 @@
       "id": "q09",
       "text": "Is British English more correct than American English?",
       "options": [
-        "Yes, always",
-        "Only in writing",
-        "Only in the UK",
+        "Yes, British English is more correct in formal writing",
+        "Yes, American English is more correct in everyday speech",
+        "Yes, one variety is more correct in international communication",
         "No, they are equally correct varieties"
       ],
       "correct": 3,
@@ -332,7 +332,7 @@
           "shorts",
           "trousers",
           "jeans",
-          "socks"
+          "joggers"
         ],
         "correct": 1,
         "explain": "British “trousers” are American “pants”. In British English, “pants” means underwear.",
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Which country became the leading economic and cultural power in the 1900s?",
         "options": [
-          "Canada",
-          "Australia",
+          "The United Kingdom",
+          "The Soviet Union",
           "The United States",
-          "Ireland"
+          "Japan"
         ],
         "correct": 2,
         "explain": "American films, music, business and technology spread English further in the 1900s."
@@ -357,9 +357,9 @@
         "text": "What is an accent?",
         "options": [
           "The way people pronounce a language",
-          "A spelling mistake",
-          "A type of grammar",
-          "A dictionary"
+          "The way people spell words in a language",
+          "The rules people use to build sentences",
+          "The words people use in a local area"
         ],
         "correct": 0,
         "explain": "An accent is about pronunciation. People from different places have different accents."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

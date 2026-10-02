@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Hvilket ansvar har eieren i et enkeltpersonforetak?",
       "options": [
-        "Begrenset ansvar",
+        "Begrenset ansvar for innskutt kapital",
         "Personlig og ubegrenset ansvar",
-        "Ingen ansvar",
-        "Delt ansvar med staten"
+        "Ansvar fordelt mellom flere eiere",
+        "Ansvar begrenset til foretakets eiendeler"
       ],
       "correct": 1,
       "explain": "Private eiendeler kan kreves."
@@ -95,9 +95,9 @@
       "text": "Hvor stor må aksjekapitalen minst være i et AS?",
       "options": [
         "30 000 kr",
-        "1 000 kr",
-        "100 000 kr",
-        "1 million kr"
+        "10 000 kr",
+        "50 000 kr",
+        "100 000 kr"
       ],
       "correct": 0,
       "explain": "Minstekravet i aksjeloven."
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva betyr begrenset ansvar i et AS?",
       "options": [
-        "At styret har alt ansvar",
-        "At selskapet ikke betaler skatt",
-        "At eierne som hovedregel bare kan tape det de har skutt inn",
-        "At ingen har ansvar"
+        "At styret som hovedregel dekker selskapets gjeld privat",
+        "At eierne hefter sammen for selskapets samlede gjeld",
+        "At eierne som hovedregel risikerer det de har skutt inn",
+        "At selskapet er fritatt for skatt og offentlige avgifter"
       ],
       "correct": 2,
       "explain": "Selskapet er et eget rettssubjekt."
@@ -118,9 +118,9 @@
       "id": "q04",
       "text": "Hva betyr solidarisk ansvar i et ANS?",
       "options": [
-        "At ingen har ansvar",
-        "At hver bare har ansvar for sin del",
-        "At staten betaler",
+        "At kreditorene kan kreve hver deltakers avtalte andel",
+        "At deltakerne fordeler gjelden likt seg imellom",
+        "At kreditorene først må kreve betaling fra selskapet",
         "At kreditorene kan kreve hele gjelden fra én deltaker"
       ],
       "correct": 3,
@@ -130,10 +130,10 @@
       "id": "q05",
       "text": "Hvorfor blir ansvaret i et nytt AS ofte mindre begrenset i praksis?",
       "options": [
-        "Banker krever ofte personlig garanti for lån",
-        "Aksjekapitalen er for høy",
-        "Styret betaler gjelden",
-        "Loven forbyr begrenset ansvar"
+        "Banker krever ofte personlig garanti for selskapets lån",
+        "Banker krever ofte at eierne øker aksjekapitalen for lånet",
+        "Aksjeloven gjør ofte eierne personlig ansvarlige for lån",
+        "Selskapet må ofte stille styrets private eiendeler som sikkerhet"
       ],
       "correct": 0,
       "explain": "Eieren hefter da for lånet.",
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hvem eier et samvirkeforetak?",
       "options": [
-        "Staten",
+        "Aksjeeierne",
         "Medlemmene",
-        "En investor",
-        "Ingen"
+        "Stifterne",
+        "Kommunen"
       ],
       "correct": 1,
       "explain": "Fremmer medlemmenes interesser."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hvor registreres norske virksomheter?",
       "options": [
-        "Hos politiet",
-        "Hos NAV",
+        "Hos Skatteetaten",
+        "Hos Arbeidstilsynet",
         "I Brønnøysundregistrene",
-        "Hos Forbrukertilsynet"
+        "Hos Patentstyret"
       ],
       "correct": 2,
       "explain": "Via Altinn."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvilken selskapsform passer best for en frilanser med lav risiko?",
       "options": [
+        "Ansvarlig selskap (ANS)",
+        "Samvirkeforetak",
         "Stiftelse",
-        "Samvirke",
-        "Aksjeselskap med mange eiere",
         "Enkeltpersonforetak"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Når må en virksomhet som hovedregel registreres i Merverdiavgiftsregisteret?",
       "options": [
         "Når omsetningen passerer 50 000 kr på tolv måneder",
-        "Med en gang",
-        "Aldri",
-        "Når den har ti ansatte"
+        "Når omsetningen passerer 25 000 kr på tolv måneder",
+        "Når omsetningen passerer 75 000 kr på tolv måneder",
+        "Når omsetningen passerer 100 000 kr på tolv måneder"
       ],
       "correct": 0,
       "explain": "Da må den legge merverdiavgift på prisene.",
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva har en stiftelse?",
       "options": [
-        "Mange aksjeeiere",
+        "Flere aksjeeiere, med avkastning som formål",
         "Ingen eiere, men et bestemt formål",
-        "Én eier med ubegrenset ansvar",
-        "Medlemmer som eiere"
+        "Medlemmer som eiere, med felles økonomisk formål",
+        "Én personlig eier, med ansvar for gjelden"
       ],
       "correct": 1,
       "explain": "Formålet styrer driften.",
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva er øverste organ i et aksjeselskap?",
         "options": [
-          "Daglig leder",
+          "Styret",
           "Generalforsamlingen",
-          "Revisoren",
-          "Kundene"
+          "Daglig leder",
+          "Revisoren"
         ],
         "correct": 1,
         "explain": "Aksjeeiernes møte."
@@ -333,8 +333,8 @@
         "options": [
           "Aksjeselskap",
           "Enkeltpersonforetak",
-          "Ingen selskapsform",
-          "ANS med solidarisk ansvar"
+          "Ansvarlig selskap (ANS)",
+          "Selskap med delt ansvar (DA)"
         ],
         "correct": 0,
         "explain": "Begrenset ansvar og mulighet for investorer."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hvordan skattlegges overskuddet i et enkeltpersonforetak?",
         "options": [
-          "Som selskapsskatt i et AS",
-          "Det skattlegges ikke",
+          "Som aksjeselskapets selskapsinntekt",
+          "Som foretakets separate skattepliktige overskudd",
           "Som eierens personinntekt",
-          "Som arveavgift"
+          "Som eierens arve- og gaveinntekt"
         ],
         "correct": 2,
         "explain": "Eieren og foretaket er ikke adskilt.",
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på vær og klima?",
       "options": [
-        "Det er det samme",
-        "Vær er forholdene nå, klima er gjennomsnittet over lang tid",
-        "Klima gjelder bare sommeren",
-        "Vær gjelder hele verden"
+        "Vær beskriver gjennomsnittet over lang tid, klima beskriver forholdene nå.",
+        "Vær beskriver forholdene nå, klima er gjennomsnittet over lang tid.",
+        "Vær gjelder et lite område, klima gjelder et stort område.",
+        "Vær beskriver én dags gjennomsnitt, klima beskriver én årstid."
       ],
       "correct": 1,
       "explain": "Klima regnes vanligvis som gjennomsnittet over 30 år."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvorfor stiger havnivået?",
       "options": [
-        "Fordi det regner mer over havet",
-        "Fordi elvene blir større",
-        "Fordi isbreer smelter og varmere hav utvider seg",
-        "Fordi det bygges flere skip"
+        "Fordi mer nedbør faller over havet og øker vannmengden.",
+        "Fordi smeltende havis tilfører havet vann fra land.",
+        "Fordi isbreer smelter og varmere hav utvider seg.",
+        "Fordi varmere elver fører større vannmengder ut i havet."
       ],
       "correct": 2,
       "explain": "Begge deler bidrar til havnivåstigning."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva er klimatilpasning?",
       "options": [
-        "Å kutte utslipp",
-        "Å flytte til et varmere land",
-        "Å benekte klimaendringene",
+        "Tiltak som forbereder samfunnet på å redusere klimagassutslipp",
+        "Tiltak som måler hvor mye klimagasser samfunnet slipper ut",
+        "Tiltak som beskriver hvordan klimaet har endret seg over tid",
         "Tiltak som gjør samfunnet bedre rustet til klimaendringene"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva ble landene enige om i Parisavtalen fra 2015?",
       "options": [
         "Å begrense oppvarmingen til godt under 2 grader",
-        "Å stoppe all oljeproduksjon",
-        "Å forby biler",
-        "Å øke utslippene"
+        "Å begrense oppvarmingen til under 1 grad globalt",
+        "Å redusere utslippene med en fast prosent hvert år",
+        "Å gjøre alle land utslippsfrie innen år 2030"
       ],
       "correct": 0,
       "explain": "Målet er helst å begrense oppvarmingen til 1,5 grader.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvilken konsekvens av klimaendringene er ventet i Norge?",
       "options": [
-        "Mindre nedbør over hele landet",
+        "Mindre nedbør og færre flommer og skred",
         "Mer nedbør og flere flommer og skred",
-        "Lengre snøsesong i lavlandet",
-        "Kaldere somre"
+        "Lengre snøsesong og flere kalde vintre i lavlandet",
+        "Lavere temperaturer og kortere vekstsesong i hele landet"
       ],
       "correct": 1,
       "explain": "Styrtregn og skred er store utfordringer."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvorfor snakker mange om klimarettferdighet?",
       "options": [
-        "Fordi alle land har sluppet ut like mye",
-        "Fordi rike land rammes hardest",
+        "Fordi alle land har sluppet ut omtrent like mye klimagasser",
+        "Fordi fattige land har bidratt mest til utslippene, men rammes minst",
         "Fordi fattige land som har sluppet ut minst, ofte rammes hardest",
-        "Fordi klimaendringer bare rammer Europa"
+        "Fordi klimaendringer påvirker land likt uavhengig av økonomi"
       ],
       "correct": 2,
       "explain": "Ansvar og konsekvenser er ujevnt fordelt.",
@@ -165,8 +165,8 @@
       "id": "q08",
       "text": "Hvordan skiller Arktis seg ut når det gjelder oppvarming?",
       "options": [
-        "Arktis blir kaldere",
-        "Arktis endrer seg ikke",
+        "Arktis blir kaldere enn resten av verden",
+        "Arktis endrer seg saktere enn resten av verden",
         "Arktis varmes like raskt som resten av verden",
         "Arktis varmes mye raskere enn resten av verden"
       ],
@@ -178,9 +178,9 @@
       "text": "Hva har FNs klimapanel slått fast?",
       "options": [
         "At menneskelig aktivitet utvetydig har varmet opp kloden",
-        "At klimaendringene er naturlige",
-        "At temperaturen synker",
-        "At CO₂ ikke påvirker klimaet"
+        "At naturlige variasjoner alene har varmet opp kloden",
+        "At temperaturen på kloden har sunket de siste tiårene",
+        "At CO₂ ikke påvirker temperaturen på kloden"
       ],
       "correct": 0,
       "explain": "IPCC sammenstiller forskning fra hele verden.",
@@ -190,13 +190,13 @@
       "id": "q10",
       "text": "Hvilket tiltak er et utslippskutt?",
       "options": [
-        "Å bygge flomvoll",
+        "Å bygge flomvern langs elver og kystområder",
         "Å bytte fra fossil energi til fornybar energi",
-        "Å sikre hus mot skred",
-        "Å lage større avløpsrør"
+        "Å sikre bygninger mot flom og skredfare",
+        "Å dimensjonere avløp for mer styrtregn"
       ],
       "correct": 1,
-      "explain": "De andre er klimatilpasning."
+      "explain": "Flomvern, sikring mot skred og større avløpskapasitet er klimatilpasning, ikke utslippskutt."
     }
   ],
   "mindmap": {
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Hvilke land er særlig truet av havnivåstigning?",
         "options": [
-          "Fjelland som Nepal",
+          "Høytliggende fjelland som Nepal og Bhutan",
           "Lavtliggende øystater som Maldivene og Tuvalu",
-          "Store innlandsstater",
-          "Land nær Nordpolen"
+          "Store innlandsstater som Mongolia og Tsjad",
+          "Land med høye kyster som Chile og Norge"
         ],
         "correct": 1,
         "explain": "Store deler av landene ligger bare litt over havet.",
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hvilken menneskelig aktivitet slipper ut mest CO₂?",
         "options": [
-          "Å puste",
-          "Å drikke vann",
-          "Å brenne kull, olje og gass",
-          "Å plante trær"
+          "Å produsere sement ved å varme opp kalkstein",
+          "Å rydde tropisk skog for jordbruk og beite",
+          "Å brenne kull, olje og naturgass",
+          "Å bruke drivstoff i internasjonal flytrafikk"
         ],
         "correct": 2,
         "explain": "Fossile brensler er den største kilden."
@@ -351,12 +351,12 @@
         "text": "Hvilket tiltak er klimatilpasning?",
         "options": [
           "Å unngå å bygge i flom- og skredutsatte områder",
-          "Å kjøre elbil",
-          "Å spise mindre kjøtt",
-          "Å fly mindre"
+          "Å velge elbil framfor bensinbil til daglig transport",
+          "Å redusere kjøttforbruket for å kutte utslipp fra mat",
+          "Å velge tog framfor fly på lengre reiser"
         ],
         "correct": 0,
-        "explain": "De andre er utslippskutt."
+        "explain": "Elbil, mindre kjøttforbruk og færre flyreiser kutter utslipp, mens arealplanlegging er klimatilpasning."
       }
     ],
     "skriv": [
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

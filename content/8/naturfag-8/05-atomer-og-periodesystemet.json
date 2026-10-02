@@ -79,8 +79,8 @@
       "options": [
         "Negativ",
         "Positiv",
-        "Ingen",
-        "Det varierer"
+        "Nøytral",
+        "Vekslende"
       ],
       "correct": 1,
       "explain": "Protoner er positive, elektroner negative og nøytroner nøytrale."
@@ -90,9 +90,9 @@
       "text": "Hva bestemmer hvilket grunnstoff et atom er?",
       "options": [
         "Antall nøytroner",
-        "Antall elektronskall",
+        "Antall elektroner",
         "Antall protoner",
-        "Størrelsen"
+        "Antall elektronskall"
       ],
       "correct": 2,
       "explain": "Atomnummeret, altså antall protoner, bestemmer grunnstoffet."
@@ -102,9 +102,9 @@
       "text": "Hva er vann, H₂O?",
       "options": [
         "En kjemisk forbindelse",
-        "Et grunnstoff",
-        "Et atom",
-        "En edelgass"
+        "En kjemisk blanding",
+        "Et enkelt grunnstoff",
+        "Et rent metall"
       ],
       "correct": 0,
       "explain": "Vann består av to grunnstoffer, hydrogen og oksygen, og er derfor en forbindelse."
@@ -114,8 +114,8 @@
       "text": "Hva kalles de loddrette kolonnene i periodesystemet?",
       "options": [
         "Perioder",
-        "Skall",
-        "Rader",
+        "Elektronskall",
+        "Grunnstoffer",
         "Grupper"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvorfor reagerer edelgassene nesten ikke med andre stoffer?",
       "options": [
-        "Fordi de er metaller",
+        "Fordi de har ett elektron i ytterste skall",
         "Fordi de har fullt ytterste elektronskall",
-        "Fordi de er tunge",
-        "Fordi de er faste stoffer"
+        "Fordi de mangler elektroner i ytterste skall",
+        "Fordi de har mange protoner i kjernen"
       ],
       "correct": 1,
       "explain": "Et fullt ytterskall gjør atomene stabile, så de har lite behov for å reagere."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvor står metallene i periodesystemet?",
       "options": [
-        "Bare helt til høyre",
-        "Bare øverst",
+        "Langs høyre kant og øverst",
+        "Langs høyre kant og nederst",
         "Til venstre og i midten",
-        "Bare i gruppe 18"
+        "Øverst og langs høyre kant"
       ],
       "correct": 2,
       "explain": "De fleste grunnstoffene er metaller og står til venstre og i midten."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hvorfor er et atom elektrisk nøytralt?",
       "options": [
-        "Fordi det ikke har partikler med ladning",
+        "Fordi det har like mange nøytroner som protoner",
         "Fordi det har like mange elektroner som protoner",
-        "Fordi nøytronene nøytraliserer alt",
-        "Fordi det er lite"
+        "Fordi nøytronene balanserer protonenes positive ladning",
+        "Fordi elektronene ikke har elektrisk ladning"
       ],
       "correct": 1,
       "explain": "Like mange positive protoner og negative elektroner opphever hverandres ladning."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva gjorde Mendelejev spesielt?",
       "options": [
-        "Han oppdaget elektronet",
-        "Han lagde et periodesystem og lot plass til ukjente grunnstoffer",
-        "Han fant opp mikroskopet",
-        "Han delte atomet"
+        "Han oppdaget elektronet og beskrev atomets elektronskall",
+        "Han laget periodesystemet og lot plass til ukjente grunnstoffer",
+        "Han oppdaget nøytronet og beskrev atomkjernen",
+        "Han utviklet atommodellen med elektroner i bestemte skall"
       ],
       "correct": 1,
       "explain": "Mendelejev forutså grunnstoffer som senere ble oppdaget, noe som styrket systemet hans.",
@@ -351,8 +351,8 @@
         "options": [
           "Antall protoner",
           "Antall elektronskall",
-          "Om stoffet er fast",
-          "Atomets masse"
+          "Atomets massetall",
+          "Antall nøytroner"
         ],
         "correct": 1,
         "explain": "Atomer i periode 3 har for eksempel tre elektronskall."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

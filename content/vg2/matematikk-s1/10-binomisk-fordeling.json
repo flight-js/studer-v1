@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hvilket krav gjelder for et binomisk forsøk?",
       "options": [
-        "Sannsynligheten endres i hvert delforsøk",
-        "Delforsøkene er uavhengige med samme p",
-        "Det er tre utfall i hvert delforsøk",
-        "Antall delforsøk er ukjent"
+        "Delforsøkene er uavhengige og har ulik sannsynlighet for suksess.",
+        "Delforsøkene er uavhengige og har samme sannsynlighet for suksess.",
+        "Hvert delforsøk har tre mulige utfall.",
+        "Antallet delforsøk bestemmes av hvor mange suksesser som oppstår."
       ],
       "correct": 1,
       "explain": "Og to utfall i hvert delforsøk."
@@ -90,9 +90,9 @@
       "text": "Hva er sannsynligheten for nøyaktig 5 kron på 10 myntkast?",
       "options": [
         "Omtrent 0,246",
-        "0,5",
-        "Omtrent 0,05",
-        "1/10"
+        "Omtrent 0,500",
+        "Omtrent 0,623",
+        "Omtrent 0,058"
       ],
       "correct": 0,
       "explain": "C(10, 5) · 0,5¹⁰ = 252/1024."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "20 % av varene er defekte. Hva er sannsynligheten for ingen defekte blant 5?",
       "options": [
-        "0,2",
-        "0,8",
-        "0,672",
+        "Omtrent 0,200",
+        "Omtrent 0,800",
+        "Omtrent 0,672",
         "Omtrent 0,328"
       ],
       "correct": 3,
@@ -127,7 +127,7 @@
       "options": [
         "1 − P(X = 0)",
         "P(X = 1)",
-        "P(X = 0) + P(X = 1)",
+        "P(X = 0)",
         "1 − P(X = 1)"
       ],
       "correct": 0,
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva står C(n, k) for i binomialformelen?",
       "options": [
-        "Sannsynligheten for suksess",
-        "Forventningsverdien",
-        "Antall måter k suksesser kan fordele seg på blant n delforsøk",
-        "Antall fiaskoer"
+        "Sannsynligheten for suksess i ett delforsøk",
+        "Forventet antall suksesser blant n forsøk",
+        "Antall plasseringer av k suksesser blant n forsøk",
+        "Antall plasseringer av n suksesser blant k forsøk"
       ],
       "correct": 2,
       "explain": "Binomialkoeffisienten."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Når bør du bruke hypergeometrisk i stedet for binomisk fordeling?",
       "options": [
-        "Når p = 0,5",
-        "Når n er stor",
-        "Når det er to utfall",
+        "Når du trekker med tilbakelegging fra en liten gruppe",
+        "Når sannsynligheten for suksess er den samme ved hvert trekk",
+        "Når trekkene er uavhengige av hverandre",
         "Når du trekker uten tilbakelegging fra en liten gruppe"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Omtrent hvor stor er sjansen for minst 5 rette av 10 ved å gjette med 4 alternativer?",
       "options": [
         "Omtrent 8 %",
-        "Omtrent 25 %",
-        "Omtrent 50 %",
-        "Omtrent 1 %"
+        "Omtrent 6 %",
+        "Omtrent 22 %",
+        "Omtrent 50 %"
       ],
       "correct": 0,
       "explain": "P(X ≥ 5) ≈ 0,078."
@@ -186,9 +186,9 @@
       "text": "Hvordan ser en binomisk fordeling med p = 0,5 ut?",
       "options": [
         "Skjev mot høyre",
-        "Symmetrisk",
+        "Symmetrisk rundt midten",
         "Skjev mot venstre",
-        "Flat"
+        "Jevn over mulige utfall"
       ],
       "correct": 1,
       "explain": "Toppen ligger midt på."
@@ -326,9 +326,9 @@
         "text": "Hva er P(X = 0) når n = 3 og p = 0,5?",
         "options": [
           "0,125",
-          "0,5",
-          "0,375",
-          "0"
+          "0,500",
+          "0,250",
+          "0,375"
         ],
         "correct": 0,
         "explain": "0,5³."
@@ -339,9 +339,9 @@
         "text": "Hva er P(X = 2) når n = 3 og p = 0,5?",
         "options": [
           "0,125",
-          "0,25",
+          "0,250",
           "0,375",
-          "0,5"
+          "0,500"
         ],
         "correct": 2,
         "explain": "C(3, 2) · 0,5³ = 3/8."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

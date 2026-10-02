@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva sier Einsteins andre postulat?",
       "options": [
-        "Tid er absolutt",
+        "Lysfarten i vakuum avhenger av observatørens fart",
         "Lysfarten i vakuum er lik for alle observatører",
-        "Masse er konstant",
-        "Gravitasjon er en kraft"
+        "Lysfarten i vakuum avhenger av lyskildens fart",
+        "Lysfarten i vakuum er lik i alle medier"
       ],
       "correct": 1,
       "explain": "Uansett bevegelse."
@@ -90,9 +90,9 @@
       "text": "Hva er γ ved v = 0,80c?",
       "options": [
         "Omtrent 1,67",
-        "0,60",
-        "0,80",
-        "2,5"
+        "Omtrent 1,25",
+        "Omtrent 1,43",
+        "Omtrent 2,29"
       ],
       "correct": 0,
       "explain": "1 / √(1 − 0,64)."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva betyr tidsforlengelse?",
       "options": [
-        "At tiden stopper",
-        "At klokker i bevegelse går raskere",
+        "At klokker i bevegelse går raskere sett fra oss",
+        "At klokker i bevegelse viser samme tid for alle observatører",
         "At klokker i bevegelse går langsommere sett fra oss",
-        "At tiden går baklengs"
+        "At klokker i bevegelse går langsommere på grunn av gravitasjon"
       ],
       "correct": 2,
       "explain": "t = γ · t₀."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hvorfor når mange myoner jordoverflaten?",
       "options": [
-        "De er svært tunge",
-        "De dannes ved bakken",
-        "De går raskere enn lyset",
-        "På grunn av tidsforlengelse"
+        "Den store massen gjør at de rekker fram",
+        "Den lave luftmotstanden gjør at de rekker fram",
+        "Dannelsen i den øvre atmosfæren gjør at de rekker fram",
+        "Tidsforlengelse gjør at de rekker fram"
       ],
       "correct": 3,
       "explain": "Deres tid går langsommere sett fra oss.",
@@ -127,9 +127,9 @@
       "text": "Hva sier E = mc²?",
       "options": [
         "Masse og energi er ekvivalente",
-        "Energi kan skapes fra ingenting",
-        "Masse er alltid bevart alene",
-        "Lysfarten varierer"
+        "Masse og energi bevares hver for seg",
+        "Energi er lik masse ganger lyshastigheten",
+        "Masse øker når lysfarten i vakuum øker"
       ],
       "correct": 0,
       "explain": "Forklarer energien i sola og kjernekraft."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er ekvivalensprinsippet?",
       "options": [
-        "Masse og energi er like",
+        "Gravitasjon og magnetisme kan ikke skilles i et lukket rom",
         "Gravitasjon og akselerasjon kan ikke skilles i et lukket rom",
-        "Alle klokker går likt",
-        "Lys har masse"
+        "Gravitasjon og elektrisk kraft kan ikke skilles i et lukket rom",
+        "Gravitasjon og konstant fart kan ikke skilles i et lukket rom"
       ],
       "correct": 1,
       "explain": "Grunnlaget for den generelle relativitetsteorien."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvordan beskriver den generelle relativitetsteorien gravitasjon?",
       "options": [
-        "Som en elektrisk kraft",
-        "Som en magnetisk kraft",
+        "Som en kraft mellom alle masser",
+        "Som en krumning av bare rommet",
         "Som krumning av romtiden",
-        "Som luftmotstand"
+        "Som en endring i lysets fart nær masser"
       ],
       "correct": 2,
       "explain": "Masse og energi krummer romtiden."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva ble målt under solformørkelsen i 1919?",
       "options": [
-        "Gravitasjonsbølger",
-        "Myoner",
-        "Lysfarten",
+        "Rødforskyvning i sollys",
+        "Forsinkelse av radiosignaler nær sola",
+        "Forskyvning av Merkurs perihel",
         "Lysavbøyning rundt sola"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hvorfor må GPS-satellittene korrigeres for relativitet?",
       "options": [
-        "Ellers blir posisjonen feil med flere kilometer per døgn",
-        "For at de skal gå raskere",
-        "For å spare strøm",
-        "Det trengs ikke"
+        "Uten korreksjon blir posisjonen feil med flere kilometer per døgn",
+        "Korreksjonene gjør at satellittene bruker mindre drivstoff",
+        "Korreksjonene hindrer radiosignalene i å bli svekket",
+        "Korreksjonene holder satellittene i faste baner rundt jorda"
       ],
       "correct": 0,
       "explain": "Både spesiell og generell relativitet.",
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Når er relativistiske effekter merkbare?",
       "options": [
-        "Ved alle farter",
+        "Når farten er større enn lydfarten",
         "Når farten er en betydelig del av lysfarten",
-        "Bare når legemet står stille",
-        "Aldri"
+        "Når legemet har svært stor masse",
+        "Når farten endres raskt over tid"
       ],
       "correct": 1,
       "explain": "Ved lave farter er Newtons fysikk god."
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Hva er egentid?",
         "options": [
-          "Tiden på en klokke på jorda",
+          "Tiden målt av en klokke som ikke følger med objektet",
           "Tiden målt av en klokke som følger med",
-          "Den lengste tiden",
-          "Universets alder"
+          "Tiden målt av en klokke langt fra objektet",
+          "Tiden beregnet av en fjern observatør"
         ],
         "correct": 1,
         "explain": "Klokken er i ro i forhold til hendelsen."
@@ -323,9 +323,9 @@
         "text": "Hva forklarte generell relativitet som Newton ikke kunne?",
         "options": [
           "En liten avvikelse i Merkurs bane",
-          "Hvorfor epler faller",
-          "Tidevannet",
-          "Månens faser"
+          "En liten avvikelse i Månens bane",
+          "En liten avvikelse i Mars' bane",
+          "En liten avvikelse i Jordas bane"
         ],
         "correct": 0,
         "explain": "Perihelforskyvningen.",
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva er et sort hull?",
         "options": [
-          "En mørk stjerne uten masse",
-          "Et hull i jorda",
-          "Så mye masse samlet at ikke engang lys slipper ut",
-          "En planet"
+          "Et område der lys blir blokkert av støv mellom stjernen og oss",
+          "En massiv stjerne som sender ut lys med svært lav energi",
+          "Et område der så mye masse er samlet at lys ikke slipper ut",
+          "Et tomt område i rommet der det ikke finnes materie"
         ],
         "correct": 2,
         "explain": "Romtiden er ekstremt krummet."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

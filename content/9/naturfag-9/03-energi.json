@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva sier loven om energibevaring?",
       "options": [
-        "Energi kan skapes av ingenting",
+        "Energi kan bli skapt når en generator lager strøm",
         "Energi kan ikke skapes eller forsvinne, bare omdannes",
-        "Energi forsvinner når vi bruker den",
-        "Energi finnes bare i strøm"
+        "Energi blir borte når den sprer seg som varme",
+        "Energi kan oppstå når et batteri lades opp"
       ],
       "correct": 1,
       "explain": "Den totale mengden energi er konstant. Den bare skifter form."
@@ -90,9 +90,9 @@
       "text": "Hvilken energiform har vannet i et høyt fjellmagasin?",
       "options": [
         "Bevegelsesenergi",
-        "Kjemisk energi",
+        "Varmeenergi",
         "Stillingsenergi",
-        "Strålingsenergi"
+        "Kjemisk energi"
       ],
       "correct": 2,
       "explain": "Vannet har stillingsenergi, eller potensiell energi, fordi det ligger høyt."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvilken energiform har høyest kvalitet?",
       "options": [
-        "Elektrisk energi",
-        "Lunkent vann",
-        "Varme i lufta i et rom",
-        "Varme fra en motor som er avkjølt"
+        "Elektrisk energi i en ledning",
+        "Varmeenergi i lunkent vann",
+        "Varmeenergi i lufta i rommet",
+        "Varmeenergi fra en avkjølt motor"
       ],
       "correct": 0,
       "explain": "Elektrisk energi kan lett gjøres om til mange andre former og har derfor høy kvalitet."
@@ -115,7 +115,7 @@
       "options": [
         "80 %",
         "5 %",
-        "100 %",
+        "50 %",
         "20 %"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva blir resten av energien i en glødepære til?",
       "options": [
-        "Den forsvinner",
-        "Varme",
         "Kjemisk energi",
-        "Stillingsenergi"
+        "Varme",
+        "Lydenergi",
+        "Bevegelsesenergi"
       ],
       "correct": 1,
       "explain": "Energien forsvinner ikke. Det meste blir til varme med lav kvalitet.",
@@ -139,8 +139,8 @@
       "text": "En ovn på 2000 W står på i 3 timer. Hvor mye energi bruker den?",
       "options": [
         "6 kWh",
-        "2 kWh",
-        "600 kWh",
+        "3 kWh",
+        "60 kWh",
         "0,6 kWh"
       ],
       "correct": 0,
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvilken energiomdanning skjer i et vannkraftverk?",
       "options": [
-        "Kjemisk → elektrisk",
-        "Strålingsenergi → varme",
+        "Kjemisk energi → varmeenergi → elektrisk energi",
+        "Strålingsenergi → varmeenergi → elektrisk energi",
         "Stillingsenergi → bevegelsesenergi → elektrisk energi",
-        "Elektrisk → stillingsenergi"
+        "Elektrisk energi → bevegelsesenergi → stillingsenergi"
       ],
       "correct": 2,
       "explain": "Fallende vann driver turbinen, og generatoren lager strøm."
@@ -163,8 +163,8 @@
       "text": "Hva måles effekt i?",
       "options": [
         "Joule",
-        "Kilowattimer",
-        "Newton",
+        "Volt",
+        "Ampere",
         "Watt"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvorfor blir energilagring viktigere med mer sol- og vindkraft?",
       "options": [
         "Fordi sol og vind varierer med vær og tid",
-        "Fordi sol og vind gir for mye kjemisk energi",
-        "Fordi batterier er gratis",
-        "Fordi sol og vind ikke gir strøm"
+        "Fordi sol- og vindkraft gir jevn produksjon gjennom året",
+        "Fordi sol- og vindkraftverk trenger lagring for å lage strøm",
+        "Fordi strøm fra sol og vind ikke kan sendes gjennom kraftledninger"
       ],
       "correct": 0,
       "explain": "Energien må kunne lagres fra perioder med mye produksjon til perioder med lite."
@@ -188,8 +188,8 @@
       "options": [
         "Stillingsenergi",
         "Kjemisk energi",
-        "Strålingsenergi",
-        "Kjerneenergi"
+        "Varmeenergi",
+        "Bevegelsesenergi"
       ],
       "correct": 1,
       "explain": "Maten inneholder kjemisk energi som kroppen frigjør ved celleånding."
@@ -335,8 +335,8 @@
         "options": [
           "Som kjemisk energi",
           "Som stillingsenergi",
-          "Som lys",
-          "Som lyd"
+          "Som lysenergi",
+          "Som lydenergi"
         ],
         "correct": 0,
         "explain": "Batterier lagrer kjemisk energi som omdannes til elektrisk energi."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

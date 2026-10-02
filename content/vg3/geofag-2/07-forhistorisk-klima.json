@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er proksydata?",
       "options": [
-        "Direkte temperaturmålinger",
-        "Indirekte data om fortidens klima",
-        "Værvarsler",
-        "Satellittbilder"
+        "Direkte målinger av fortidens klima",
+        "Indirekte målinger av fortidens klima",
+        "Indirekte målinger av framtidens klima",
+        "Direkte målinger av framtidens klima"
       ],
       "correct": 1,
       "explain": "For eksempel iskjerner og pollen."
@@ -89,9 +89,9 @@
       "text": "Hva inneholder luftbobler i iskjerner?",
       "options": [
         "Atmosfære fra fortiden",
-        "Vann fra havet",
-        "Pollen",
-        "Sand"
+        "Havvann fra fortiden",
+        "Plantepollen fra fortiden",
+        "Mineralpartikler fra fortiden"
       ],
       "correct": 0,
       "explain": "Vi kan måle CO₂ og metan direkte."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvor langt tilbake går iskjernene fra Antarktis?",
       "options": [
-        "Omtrent 1000 år",
-        "Omtrent 10 000 år",
+        "Omtrent 100 000 år",
+        "Omtrent 400 000 år",
         "Omtrent 800 000 år",
-        "Omtrent 100 millioner år"
+        "Omtrent 2 millioner år"
       ],
       "correct": 2,
       "explain": "Lange klimaserier."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva styrer vekslingen mellom istider og mellomistider?",
       "options": [
-        "Vulkaner alene",
+        "Vulkanaktiviteten",
         "Menneskelige utslipp",
-        "El Niño",
+        "El Niño-fenomenet",
         "Milanković-syklusene"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Når begynte holocen?",
       "options": [
         "For omtrent 11 700 år siden",
-        "For 800 000 år siden",
-        "For 56 millioner år siden",
-        "I 1850"
+        "For omtrent 10 000 år siden",
+        "For omtrent 14 700 år siden",
+        "For omtrent 20 000 år siden"
       ],
       "correct": 0,
       "explain": "Dagens mellomistid."
@@ -139,7 +139,7 @@
         "Eksentrisitet",
         "Aksehelning",
         "Presesjon",
-        "Solsyklusen"
+        "Solaktivitet"
       ],
       "correct": 1,
       "explain": "Helningen av jordaksen."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva viser iskjernene om CO₂ og temperatur?",
       "options": [
-        "At de ikke henger sammen",
-        "At CO₂ alltid har vært konstant",
+        "At de har utviklet seg uavhengig av hverandre",
+        "At CO₂ har vært stabil mens temperaturen har variert",
         "At de har fulgt hverandre tett",
-        "At temperaturen alltid har vært lik"
+        "At temperaturen har vært stabil mens CO₂ har variert"
       ],
       "correct": 2,
       "explain": "CO₂ har forsterket endringene."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvordan brukes paleoklima til å forbedre klimamodeller?",
       "options": [
-        "Ved å varsle været",
-        "Ved å måle vind",
-        "Ved å telle trær",
+        "Ved å teste om modellene gjenskaper daglige værvarsler",
+        "Ved å teste om modellene måler tidligere vindstyrke",
+        "Ved å teste om modellene teller årringer i trær",
         "Ved å teste om modellene gjenskaper tidligere klima"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva er klimafølsomhet?",
       "options": [
         "Hvor mye temperaturen stiger ved en dobling av CO₂",
-        "Hvor raskt været endres",
-        "Hvor følsomme mennesker er for kulde",
-        "Hvor mye is som smelter per år"
+        "Hvor mye nedbøren endres ved en dobling av CO₂",
+        "Hvor raskt temperaturen stiger etter en dobling av CO₂",
+        "Hvor mye havnivået stiger ved en dobling av CO₂"
       ],
       "correct": 0,
       "explain": "Et nøkkeltall i klimaforskningen."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvordan er dagens CO₂-nivå sammenlignet med de siste 800 000 årene?",
       "options": [
-        "Lavere enn noen gang",
-        "Høyere enn noen gang",
-        "Helt vanlig",
-        "Ukjent"
+        "Lavere enn på noe tidspunkt i perioden",
+        "Høyere enn på noe tidspunkt i perioden",
+        "Innenfor variasjonen gjennom perioden",
+        "På nivå med de tidligere toppene"
       ],
       "correct": 1,
       "explain": "Og endringen skjer mye raskere."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hva viser pollen i sedimenter?",
         "options": [
-          "Havtemperatur direkte",
+          "Hvilke dyr som levde",
           "Hvilke planter som vokste",
-          "CO₂-innhold",
-          "Vindstyrke"
+          "Hvor mye CO₂ atmosfæren inneholdt",
+          "Hvor høy havtemperaturen var"
         ],
         "correct": 1,
         "explain": "Gir informasjon om temperatur og nedbør."
@@ -326,9 +326,9 @@
         "text": "Hva gir innsikt i hva som skjer ved raske karbonutslipp?",
         "options": [
           "Den varme perioden for omtrent 56 millioner år siden",
-          "Den lille istid",
-          "Holocen",
-          "Middelalderen"
+          "Den kalde perioden for omtrent 20 000 år siden",
+          "Den varme perioden for omtrent 125 000 år siden",
+          "Den varme perioden for omtrent 3 millioner år siden"
         ],
         "correct": 0,
         "explain": "Kraftig oppvarming på kort geologisk tid.",
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvordan dateres klimaarkiver?",
         "options": [
-          "Bare ved å gjette",
-          "Med værmeldinger",
+          "Ved å analysere pollen eller sedimenttype",
+          "Ved å måle CO₂- eller metaninnhold",
           "Ved å telle årlag eller med radioaktive metoder",
-          "Med kompass"
+          "Ved å sammenligne med samtidige værmålinger"
         ],
         "correct": 2,
         "explain": "Nødvendig for tidsserier."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

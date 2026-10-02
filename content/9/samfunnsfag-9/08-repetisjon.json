@@ -104,10 +104,10 @@
       "id": "q01",
       "text": "Hvorfor flyttet mange fra landsbygda til byene under industrialiseringen?",
       "options": [
-        "Fordi byene var renere",
+        "For å få arbeid på gårdene",
         "For å få arbeid i fabrikkene",
-        "Fordi jordbruk ble forbudt",
-        "Fordi boligene var gratis"
+        "For å dyrke mer jord rundt byene",
+        "For å finne større områder til husdyr"
       ],
       "correct": 1,
       "explain": "Fabrikkene trengte mange arbeidere."
@@ -116,9 +116,9 @@
       "id": "q02",
       "text": "Hva er en negativ konsekvens for naturen av industrialiseringen?",
       "options": [
-        "Mer skog",
-        "Renere luft",
-        "Færre utslipp",
+        "Renere luft og færre klimagassutslipp",
+        "Mindre forurensning og lavere klimagassutslipp",
+        "Renere vann og færre klimagassutslipp",
         "Forurensning og økte klimagassutslipp"
       ],
       "correct": 3,
@@ -128,10 +128,10 @@
       "id": "q03",
       "text": "Hva er sivil ulydighet?",
       "options": [
-        "Å stemme blankt",
-        "Å skrive leserbrev",
+        "Å bryte loven i protest ved å bruke vold",
+        "Å protestere åpent og ikkevoldelig uten å bryte loven",
         "Å bryte loven åpent og ikkevoldelig i protest",
-        "Å flytte til et annet land"
+        "Å nekte å følge en lov i hemmelighet for egen vinning"
       ],
       "correct": 2,
       "explain": "Deltakerne tar bevisst straffen for å vise hvor viktig saken er."
@@ -141,8 +141,8 @@
       "text": "Hvilket virkemiddel bruker arbeidere når de legger ned arbeidet for å presse fram krav?",
       "options": [
         "Boikott",
+        "Demonstrasjon",
         "Underskriftskampanje",
-        "Lobbyvirksomhet",
         "Streik"
       ],
       "correct": 3,
@@ -153,9 +153,9 @@
       "text": "Hva var den utløsende årsaken til krigen?",
       "options": [
         "Skuddene i Sarajevo i 1914",
-        "Den russiske revolusjonen",
-        "Versaillestraktaten",
-        "Angrepet på Pearl Harbor"
+        "Den russiske revolusjonen i 1917",
+        "Invasjonen av Belgia i 1914",
+        "Versaillestraktaten i 1919"
       ],
       "correct": 0,
       "explain": "Drapet på Franz Ferdinand satte i gang en kjedereaksjon."
@@ -164,10 +164,10 @@
       "id": "q06",
       "text": "Hvorfor ble krigen raskt en storkrig mellom mange land?",
       "options": [
-        "Fordi alle ønsket krig",
+        "Fordi Serbia startet krigen ved å angripe Østerrike-Ungarn",
         "Fordi alliansene dro stormaktene inn i konflikten",
-        "Fordi Norge angrep Tyskland",
-        "Fordi USA startet krigen"
+        "Fordi Russland angrep Tyskland etter attentatet i Sarajevo",
+        "Fordi USA gikk inn i krigen på britisk side i 1914"
       ],
       "correct": 1,
       "explain": "Landene hadde lovet å hjelpe hverandre, og konflikten spredte seg på få dager."
@@ -176,10 +176,10 @@
       "id": "q07",
       "text": "Hvilken hendelse regnes som starten på andre verdenskrig?",
       "options": [
-        "Angrepet på Pearl Harbor",
-        "D-dagen",
+        "Japans angrep på Pearl Harbor 7. desember 1941",
+        "Tysklands angrep på Sovjetunionen 22. juni 1941",
         "Tysklands angrep på Polen 1. september 1939",
-        "Børskrakket"
+        "Italias angrep på Hellas 28. oktober 1940"
       ],
       "correct": 2,
       "explain": "To dager senere erklærte Storbritannia og Frankrike krig mot Tyskland."
@@ -188,10 +188,10 @@
       "id": "q08",
       "text": "Hvorfor fikk ekstreme ideologier oppslutning i mellomkrigstiden?",
       "options": [
-        "Fordi alle var fornøyde",
+        "Fordi økonomisk vekst og politisk ro fikk mange til å søke sterke ledere",
         "Fordi økonomisk krise og misnøye fikk mange til å søke sterke ledere",
-        "Fordi demokratiet var forbudt i hele Europa",
-        "Fordi Folkeforbundet støttet dem"
+        "Fordi økonomisk krise og misnøye fikk mange til å støtte moderate partier",
+        "Fordi demokratiet fungerte godt og ga mange tillit til ekstreme partier"
       ],
       "correct": 1,
       "explain": "Arbeidsløshet og nasjonal bitterhet ga grobunn for ekstreme løsninger."
@@ -201,9 +201,9 @@
       "text": "Hva er folkemord?",
       "options": [
         "Handlinger med hensikt å ødelegge en nasjonal, etnisk, religiøs eller «rasemessig» gruppe",
-        "Alle drap i krig",
-        "En borgerkrig",
-        "Et terrorangrep"
+        "Handlinger med hensikt å fordrive en nasjonal, etnisk, religiøs eller «rasemessig» gruppe",
+        "Handlinger med hensikt å ødelegge en politisk eller sosial gruppe",
+        "Handlinger med hensikt å beseire en nasjonal, etnisk, religiøs eller «rasemessig» gruppe"
       ],
       "correct": 0,
       "explain": "Det avgjørende er hensikten om å ødelegge gruppen."
@@ -213,9 +213,9 @@
       "text": "Hva betyr avhumanisering?",
       "options": [
         "Å fremstille en gruppe som mindre menneskelig",
-        "Å hjelpe flyktninger",
-        "Å lære om historie",
-        "Å dele ut mat"
+        "Å fremstille en gruppe som farlig og mektig",
+        "Å fremstille en gruppe som fremmed og annerledes",
+        "Å fremstille en gruppe som ansvarlig for samfunnsproblemer"
       ],
       "correct": 0,
       "explain": "Avhumanisering gjør det lettere å rettferdiggjøre vold mot en gruppe."
@@ -225,9 +225,9 @@
       "text": "Hva er fornorsking?",
       "options": [
         "Politikk for at minoriteter skulle bli norske i språk og kultur",
-        "At nordmenn lærte samisk",
-        "At Norge ble selvstendig",
-        "En type skoleeksamen"
+        "Politikk for at nordmenn skulle lære minoritetenes språk og kultur",
+        "Politikk for at minoriteter skulle få beholde språk og kultur",
+        "Politikk for at minoriteter skulle lære samisk språk og kultur"
       ],
       "correct": 0,
       "explain": "Fornorskingspolitikken varte i over hundre år."
@@ -236,9 +236,9 @@
       "id": "q12",
       "text": "Hvordan ble mange samiske barn rammet av internatskolene?",
       "options": [
-        "De lærte flere språk",
-        "De fikk bo hjemme",
-        "De fikk undervisning på samisk",
+        "De ble sendt til skoler nær hjemmet og kunne bli straffet for å snakke samisk",
+        "De ble sendt langt hjemmefra og kunne bli straffet for å snakke norsk",
+        "De ble sendt langt hjemmefra og fikk undervisning på morsmålet",
         "De ble sendt langt hjemmefra og kunne bli straffet for å snakke morsmålet"
       ],
       "correct": 3,
@@ -248,10 +248,10 @@
       "id": "q13",
       "text": "Hva er forskjellen på en erklæring og en konvensjon?",
       "options": [
-        "Det er ingen forskjell",
-        "En erklæring er strengere",
+        "En erklæring er bindende for statene som slutter seg til den",
+        "En konvensjon er et politisk signal uten juridisk virkning",
         "En konvensjon er bindende for statene som slutter seg til den",
-        "En konvensjon gjelder bare barn"
+        "En konvensjon gjelder bare barn og unge"
       ],
       "correct": 2,
       "explain": "Erklæringer er viktige politiske signaler, men konvensjoner er juridisk bindende."
@@ -260,10 +260,10 @@
       "id": "q14",
       "text": "Hvem har hovedansvaret for å sikre menneskerettighetene?",
       "options": [
-        "Den enkelte",
-        "Bedrifter",
-        "Amnesty International",
-        "Staten"
+        "FN har hovedansvaret for å sikre rettighetene",
+        "Bedriftene har hovedansvaret for å sikre rettighetene",
+        "Den enkelte har hovedansvaret for å sikre rettighetene",
+        "Staten har hovedansvaret for å sikre rettighetene"
       ],
       "correct": 3,
       "explain": "Staten skal respektere, beskytte og oppfylle rettighetene."
@@ -394,7 +394,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -424,10 +424,10 @@
         "type": "flervalg",
         "text": "Hvordan har sosiale medier endret kampen for endring?",
         "options": [
-          "Det er blitt forbudt å demonstrere",
+          "Budskap spres langsommere, og folk mobiliseres tregere",
           "Budskap kan spres og folk mobiliseres raskere",
-          "Ingen engasjerer seg lenger",
-          "Bare politikere kan delta"
+          "Budskap når færre mennesker, og mobilisering skjer saktere",
+          "Budskap blir mindre synlige, og mobilisering tar lengre tid"
         ],
         "correct": 1,
         "explain": "#MeToo og klimastreikene spredte seg raskt over hele verden via sosiale medier."
@@ -437,10 +437,10 @@
         "type": "flervalg",
         "text": "Hva betyr nasjonalisme?",
         "options": [
-          "Sterk stolthet over og lojalitet til egen nasjon",
-          "Kappløp om kolonier",
-          "Å ha store hærer",
-          "Samarbeid mellom land"
+          "Sterk stolthet og lojalitet overfor egen nasjon",
+          "Konkurranse mellom stormakter om kolonier og innflytelse",
+          "Oppbygging av store hærer og lagring av flere våpen",
+          "Samarbeid mellom land for å løse konflikter fredelig"
         ],
         "correct": 0,
         "explain": "Nasjonalisme skapte spenninger, særlig på Balkan."
@@ -484,8 +484,7 @@
         "kriterier": [
           "Forklarer at organisering og streik brukes for å presse fram krav.",
           "Nevner åttetimersdagen i 1919 eller et annet relevant resultat fra arbeiderkampen."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s03",
@@ -541,12 +540,87 @@
           "Nevner og forklarer et relevant protestvirkemiddel.",
           "Forklarer hvordan menneskerettigheter eller bindende konvensjoner kan beskytte mennesker."
         ]
+      },
+      {
+        "text": "Sammenlign energikildene som drev industrien under den industrielle revolusjonen med energien som fikk større betydning i Norge rundt 1900. Forklar også hvordan energibruk kan påvirke naturen og klimaet.",
+        "fasit": "Industrialiseringen brukte mye kull, mens vannkraft og elektrisitet fikk stor betydning i Norge rundt 1900. Kull og andre fossile brensler fører til forurensning og utslipp av klimagasser, mens fornybar energi kan være en del av løsningen på klimaendringene.",
+        "kriterier": [
+          "Nevner kull som viktig energikilde under industrialiseringen og vannkraft eller elektrisitet i Norge rundt 1900.",
+          "Knytter fossile brensler til forurensning eller klimagassutslipp, og gjerne fornybar energi til løsninger."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Norge var nøytralt under første verdenskrig, men ble okkupert under andre verdenskrig. Sammenlign hvordan krigene påvirket hverdagen til folk i Norge.",
+        "fasit": "Under første verdenskrig ble norske sjøfolk rammet av ubåter og miner, og folk opplevde høye priser og mangel på varer. Under andre verdenskrig var Norge okkupert, og hverdagen var preget av rasjonering, sensur og frykt.",
+        "kriterier": [
+          "Nevner følger av første verdenskrig, for eksempel sjøfolk som omkom, høye priser eller vareknapphet.",
+          "Nevner følger av okkupasjonen under andre verdenskrig, for eksempel rasjonering, sensur eller frykt."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Sammenlign hvorfor Folkeforbundet og FN ble opprettet etter hver sin verdenskrig. Forklar også hvordan opprettelsen av FN hang sammen med arbeidet for menneskerettigheter.",
+        "fasit": "Folkeforbundet ble opprettet etter første verdenskrig for å bidra til å sikre fred. FN ble opprettet etter andre verdenskrig for å hindre nye overgrep og kriger, og i 1948 vedtok FN verdenserklæringen om menneskerettighetene.",
+        "kriterier": [
+          "Knytter Folkeforbundet til ønsket om å sikre fred etter første verdenskrig.",
+          "Knytter FN til ønsket om å hindre nye overgrep etter andre verdenskrig og nevner menneskerettighetserklæringen eller menneskerettighetsarbeidet."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Folk har brukt foreninger, demonstrasjoner og streik for å kjempe for endring. Forklar hvordan sosiale medier har gitt nye muligheter til å spre budskap og mobilisere folk.",
+        "fasit": "Sosiale medier gjør det mulig å spre budskap raskt til mange mennesker. De kan hjelpe folk med å samle støtte og mobilisere til kampanjer eller protester.",
+        "kriterier": [
+          "Forklarer at sosiale medier kan spre budskap raskt eller til mange.",
+          "Forklarer at de kan brukes til å samle støtte eller mobilisere folk."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Fornorskingspolitikken førte til at samisk og kvensk språk og kultur ble presset. Forklar hvordan politiske tiltak og revitalisering i dag kan være deler av arbeidet med forsoning.",
+        "fasit": "Sametinget, samiske rettigheter og statens arbeid med å erkjenne uretten, blant annet gjennom Sannhets- og forsoningskommisjonen, er deler av oppfølgingen. Når flere lærer samisk og kvensk og bruker språkene i kultur, bidrar det til revitalisering, selv om forsoningsarbeidet fortsatt pågår.",
+        "kriterier": [
+          "Nevner minst ett politisk tiltak eller en måte staten har erkjent uretten på.",
+          "Knytter revitalisering, for eksempel at flere lærer eller bruker samisk eller kvensk, til å styrke språk og kultur."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Hva er forskjellen på verdenserklæringen om menneskerettighetene og en menneskerettighetskonvensjon? Forklar også hvordan slike regler påvirker Norge.",
+        "fasit": "Verdenserklæringen fra 1948 er ikke juridisk bindende, mens en konvensjon er en avtale som er bindende for statene som slutter seg til den. Norge har tatt de viktigste konvensjonene inn i norsk lov, så norske lover må være i tråd med dem.",
+        "kriterier": [
+          "Forklarer at erklæringen ikke er juridisk bindende, mens konvensjoner binder statene som slutter seg til dem.",
+          "Nevner at konvensjoner påvirker norsk lov eller politikk."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En myndighet forsøker med vilje å ødelegge helt eller delvis en etnisk gruppe. Forklar hvorfor dette kan regnes som folkemord, og hvilken internasjonal avtale som gjør folkemord til en forbrytelse.",
+        "fasit": "Folkemord er handlinger som gjøres med hensikt å ødelegge helt eller delvis en nasjonal, etnisk, religiøs eller «rasemessig» gruppe. FNs folkemordkonvensjon fra 1948 gjør folkemord til en forbrytelse etter internasjonal rett.",
+        "kriterier": [
+          "Nevner at handlingene må ha til hensikt å ødelegge helt eller delvis en beskyttet gruppe.",
+          "Nevner FNs folkemordkonvensjon fra 1948 eller at folkemord er en forbrytelse etter internasjonal rett."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "I USA protesterte Rosa Parks mot raseskille på en buss, og Martin Luther King ledet ikkevoldelige demonstrasjoner. Nelson Mandela kjempet mot apartheid i Sør-Afrika. Forklar hvordan handlingene deres utfordret rasediskriminering.",
+        "fasit": "Rosa Parks nektet å gi fra seg bussetet sitt, og Martin Luther King ledet ikkevoldelige demonstrasjoner mot raseskille i USA. Mandela kjempet mot apartheid i Sør-Afrika og ble senere landets første svarte president.",
+        "kriterier": [
+          "Knytter Parks eller King til motstand mot raseskille i USA, gjerne med en konkret handling.",
+          "Knytter Mandela til kampen mot apartheid i Sør-Afrika."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

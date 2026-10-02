@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva er første steg når du skal utforske et aktuelt rettsspørsmål?",
       "options": [
-        "Skrive konklusjonen",
+        "Finne fram til relevant lov før du avklarer hva som har skjedd",
         "Finne ut hva saken handler om og hvem som er involvert",
-        "Velge side",
-        "Lese kommentarfelt"
+        "Bestemme hvilket rettslig standpunkt saken bør ende med",
+        "Avklare hvilke regler som gjelder før du undersøker hvem saken gjelder"
       ],
       "correct": 1,
       "explain": "Deretter kildene."
@@ -96,9 +96,9 @@
       "text": "Hvilken artikkel i EMK verner retten til familieliv?",
       "options": [
         "Artikkel 8",
-        "Artikkel 2",
+        "Artikkel 6",
         "Artikkel 10",
-        "Artikkel 3"
+        "Artikkel 12"
       ],
       "correct": 0,
       "explain": "Viktig i barnevernssaker.",
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hvilket spørsmål reiser KI i opphavsretten?",
       "options": [
-        "Om KI kan stemme",
-        "Om KI kan straffes",
+        "Om KI må registreres hos Patentstyret før den brukes til tekstproduksjon",
+        "Om KI-leverandører må søke Datatilsynet om tillatelse til opplæring",
         "Om det er lovlig å trene KI på beskyttet materiale",
-        "Om KI trenger pass"
+        "Om KI-genererte tekster automatisk må registreres som varemerker"
       ],
       "correct": 2,
       "explain": "Mange spørsmål er uavklarte.",
@@ -121,8 +121,8 @@
       "id": "q04",
       "text": "Hva verner Grunnloven § 100?",
       "options": [
-        "Eiendomsretten",
         "Religionsfriheten",
+        "Eiendomsretten",
         "Stemmeretten",
         "Ytringsfriheten"
       ],
@@ -135,9 +135,9 @@
       "text": "Hva betyr at en regel er samtykkebasert?",
       "options": [
         "At det avgjørende er om det forelå samtykke",
-        "At begge parter må signere",
-        "At politiet må samtykke",
-        "At dommeren må godkjenne"
+        "At samtykket må dokumenteres skriftlig av begge parter",
+        "At samtykket må godkjennes av politiet før handlingen",
+        "At samtykke først gjelder etter at partene har signert en avtale"
       ],
       "correct": 0,
       "explain": "Voldtektsbestemmelsen ble samtykkebasert i 2025.",
@@ -147,10 +147,10 @@
       "id": "q06",
       "text": "Hvorfor er ikke en avisartikkel en rettskilde?",
       "options": [
-        "Fordi aviser er forbudt",
+        "Fordi aviser ikke kan gjengi gjeldende lovtekst ordrett",
         "Fordi den bare omtaler saken og kan være vinklet",
-        "Fordi den er for kort",
-        "Fordi den er gratis"
+        "Fordi aviser må få tillatelse fra Stortinget før publisering",
+        "Fordi journalister ikke har lov til å sitere fra dommer"
       ],
       "correct": 1,
       "explain": "Gå til loven og dommen selv."
@@ -159,10 +159,10 @@
       "id": "q07",
       "text": "Hva er rettssikkerhet som argument?",
       "options": [
-        "At straffene er strenge",
-        "At saker går raskt",
+        "At straffene er strenge og konsekvente",
+        "At rettssakene blir behandlet raskt og effektivt",
         "At reglene er klare og forutsigbare",
-        "At alle får erstatning"
+        "At alle som taper en sak får erstatning"
       ],
       "correct": 2,
       "explain": "Et sentralt hensyn i rettsstaten."
@@ -171,9 +171,9 @@
       "id": "q08",
       "text": "Hvorfor bør du oppgi dato når du skriver om aktuelle saker?",
       "options": [
-        "Fordi det er pent",
-        "Fordi lærerne krever det",
-        "Fordi lover aldri endres",
+        "Fordi datoen avgjør hvilken domstol som behandler saken",
+        "Fordi datoen viser at loven er vedtatt av Stortinget",
+        "Fordi datoen gir saken større juridisk betydning",
         "Fordi aktuelle saker endrer seg raskt"
       ],
       "correct": 3,
@@ -184,9 +184,9 @@
       "text": "Hva er forholdsmessighet?",
       "options": [
         "At inngrepet står i rimelig forhold til målet",
-        "At straffen er lik for alle",
-        "At loven er lang",
-        "At saken er stor"
+        "At straffen står i likt forhold til lovbruddet",
+        "At lovens lengde står i forhold til sakens omfang",
+        "At inngrepet står i samme forhold til alle berørte"
       ],
       "correct": 0,
       "explain": "Viktig ved menneskerettighetsinngrep."
@@ -195,10 +195,10 @@
       "id": "q10",
       "text": "Hva bør et arbeid med et aktuelt rettsspørsmål ende med?",
       "options": [
-        "Et sitat",
+        "Et kort saksreferat",
         "Et begrunnet standpunkt",
-        "En avisoverskrift",
-        "Et spørsmål"
+        "Et sammendrag av faktum",
+        "En opplisting av kilder"
       ],
       "correct": 1,
       "explain": "Støttet av argumenter og kilder."
@@ -338,9 +338,9 @@
         "text": "Hvor kan du finne informasjon om lovforslag?",
         "options": [
           "stortinget.no og regjeringen.no",
-          "Bare i aviser",
-          "På sosiale medier",
-          "Hos naboen"
+          "nav.no og politiet.no",
+          "domstol.no og skatteetaten.no",
+          "brreg.no og forbrukerradet.no"
         ],
         "correct": 0,
         "explain": "Offisielle kilder.",
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hvilket demokratisk spørsmål reiser mange rettsdebatter?",
         "options": [
-          "Hvem som skal betale skatt",
-          "Om loven er trykt",
+          "Om spørsmålet bør avgjøres av politiet eller kommunen",
+          "Om lovforslag bør avgjøres av regjeringen eller politiet",
           "Om spørsmålet bør avgjøres av Stortinget eller domstolene",
-          "Om dommerne liker saken"
+          "Om straffesaker bør avgjøres av fylkene eller kommunene"
         ],
         "correct": 2,
         "explain": "Maktfordeling."
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

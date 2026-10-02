@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er en hypotese?",
       "options": [
-        "Et bevist faktum",
+        "En forklaring som allerede er bevist",
         "En mulig forklaring som kan testes",
-        "Resultatet av et forsøk",
-        "En tabell med data"
+        "Et resultat som måles i et forsøk",
+        "En plan for hvordan forsøket skal utføres"
       ],
       "correct": 1,
       "explain": "En hypotese er en foreløpig forklaring. Den testes med forsøk og kan vise seg å være feil."
@@ -92,7 +92,7 @@
         "Hvor mye planten vokser",
         "Mengden vann",
         "Mengden lys",
-        "Typen jord"
+        "Temperaturen i rommet"
       ],
       "correct": 2,
       "explain": "Den uavhengige variabelen er det du selv endrer, her lysmengden."
@@ -103,8 +103,8 @@
       "options": [
         "Hvor mye planten vokser",
         "Mengden lys",
-        "Temperaturen",
-        "Potten"
+        "Temperaturen i rommet",
+        "Mengden vann"
       ],
       "correct": 0,
       "explain": "Den avhengige variabelen er det du måler, altså veksten."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvorfor skal du bare endre én ting om gangen i et forsøk?",
       "options": [
-        "For at forsøket skal gå raskere",
-        "Fordi det er billigere",
-        "Fordi det er en regel uten grunn",
+        "For å få et resultat som passer hypotesen",
+        "For å gjøre målingene mer nøyaktige",
+        "For å få flere resultater på kortere tid",
         "For å vite hva som forårsaket resultatet"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er en kontrollgruppe?",
       "options": [
-        "Gruppen som får mest behandling",
-        "En gruppe som ikke utsettes for endringen, og som brukes til sammenligning",
-        "Lærerens gruppe",
-        "Gruppen som skriver rapporten"
+        "En gruppe som får den sterkeste behandlingen til sammenligning",
+        "En gruppe uten endringen som brukes til sammenligning",
+        "En gruppe som får endringen først for å sammenligne",
+        "En gruppe som måler resultatet etter endringen"
       ],
       "correct": 1,
       "explain": "Kontrollgruppen viser hva som skjer uten endringen, slik at du kan se effekten."
@@ -138,9 +138,9 @@
       "text": "Hva gjør resultatene mer pålitelige?",
       "options": [
         "Å gjenta forsøket flere ganger",
-        "Å bare gjøre forsøket én gang",
-        "Å endre mange variabler",
-        "Å gjette resultatet først"
+        "Å endre mange ting samtidig",
+        "Å velge ut målingene som passer",
+        "Å bestemme svaret før forsøket starter"
       ],
       "correct": 0,
       "explain": "Når gjentatte forsøk gir samme resultat, kan vi stole mer på det."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Resultatet stemmer ikke med hypotesen. Hva bør du gjøre?",
       "options": [
-        "Endre dataene",
+        "Endre måledataene slik at de støtter den opprinnelige hypotesen",
         "Endre eller forkaste hypotesen og eventuelt teste på nytt",
-        "Skjule resultatet",
-        "Si at forsøket var feil uten å sjekke"
+        "Forkaste forsøket uten først å undersøke mulige feilkilder",
+        "Beholde hypotesen og se bort fra resultatene fra forsøket"
       ],
       "correct": 1,
       "explain": "Data som ikke passer, er verdifulle. De viser at forklaringen må forbedres."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hva er en feilkilde?",
       "options": [
-        "En kjemikalieflaske",
-        "Hypotesen",
-        "Konklusjonen",
-        "Noe som kan ha påvirket resultatet, som unøyaktig måleutstyr"
+        "En egenskap som beskriver kjemikaliet, som farge eller lukt",
+        "En forklaring på resultatet, som en hypotese om vekst",
+        "En oppsummering av funnene, som en konklusjon i rapporten",
+        "En faktor som kan påvirke resultatet, som unøyaktig måling"
       ],
       "correct": 3,
       "explain": "Feilkilder bør drøftes i rapporten, fordi de påvirker hvor sikker konklusjonen er."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hva bør du gjøre før du starter et forsøk med kjemikalier?",
       "options": [
-        "Blande alt raskt",
+        "Skrive ned hypotesen og finne fram måleutstyret",
         "Gjøre en risikovurdering og ta på vernebriller",
-        "Smake på kjemikaliene",
-        "Ta av vernebrillene"
+        "Lese forsøksmålet og velge mengde kjemikalier selv",
+        "Ta på labfrakk og starte blandingen uten å sjekke farer"
       ],
       "correct": 1,
       "explain": "Risikovurdering og riktig verneutstyr forebygger skader."
@@ -186,9 +186,9 @@
       "text": "Hvorfor skal forsøket beskrives nøyaktig i en rapport?",
       "options": [
         "For at andre skal kunne kontrollere og gjenta det",
-        "For at det skal bli langt",
-        "For å skjule feil",
-        "Fordi ingen skal lese den"
+        "For at rapporten skal inneholde flest mulig fagord",
+        "For at resultatene skal passe med den opprinnelige hypotesen",
+        "For at forsøket skal bli lettere å utføre raskere"
       ],
       "correct": 0,
       "explain": "At andre kan gjenta forsøket og få samme resultat, er en grunnstein i naturvitenskapen."
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hvilken påstand er en testbar hypotese?",
         "options": [
-          "Planter er fine",
+          "Planter ser vakrere ut når de får nok varme",
           "Planter vokser raskere i varme enn i kulde",
-          "Jeg liker planter",
-          "Planter er grønne fordi de er grønne"
+          "Planter trives bedre når forholdene er gode",
+          "Planter vokser fint når de får gode forhold"
         ],
         "correct": 1,
         "explain": "Denne påstanden kan testes ved å måle vekst ved ulike temperaturer."
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Hvor bør du notere målingene underveis?",
         "options": [
-          "I hodet",
-          "Ingen steder",
+          "I en hypotese",
+          "I en konklusjon",
           "I en tabell",
-          "Bare i konklusjonen"
+          "I en forsøksplan"
         ],
         "correct": 2,
         "explain": "En tabell gir oversikt og gjør det lett å analysere dataene etterpå."
@@ -343,9 +343,9 @@
         "text": "Hva viser et faresymbol på en flaske?",
         "options": [
           "Hvilken fare kjemikaliet utgjør",
-          "Prisen",
-          "Hvem som har laget flasken",
-          "Hvor mye som er igjen"
+          "Hvilken mengde kjemikaliet inneholder",
+          "Hvilken temperatur kjemikaliet tåler",
+          "Hvilken produsent som laget kjemikaliet"
         ],
         "correct": 0,
         "explain": "Faresymboler varsler om farer som brann, etsing eller giftighet."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

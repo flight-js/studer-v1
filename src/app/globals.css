@@ -70,6 +70,8 @@
   --shadow-card: var(--shadow-card);
   --shadow-lift: var(--shadow-lift);
   --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  /* easeOutBack: en liten sprett, bare for sjeldne øyeblikk som «alt riktig». */
+  --ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 html {
@@ -77,15 +79,12 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+/* Redusert bevegelse: ingenting flytter seg, men toning og fargeskifter
+   beholdes, så endringene fortsatt er lette å følge. Hver animasjon under
+   har sin egen roligere variant. */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
-  }
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
   }
 }
 
@@ -151,6 +150,11 @@ body::before {
 .flip-back {
   transform: rotateY(180deg);
 }
+@media (prefers-reduced-motion: reduce) {
+  .flip-card {
+    transition: none;
+  }
+}
 
 /* Forsiden: skjul markedssiden mens en lagret innlogging sjekkes (se Startside) */
 .har-okt .kun-utlogget {
@@ -169,7 +173,75 @@ body::before {
   }
 }
 .rise {
-  animation: rise 560ms var(--ease-out-soft) both;
+  animation: rise 400ms var(--ease-out-soft) both;
+}
+
+/* Kortere og svakere variant for det som skjer mange ganger på rad: neste
+   spørsmål, nytt kort, tilbakemeldingen etter et svar. Eleven skal kunne gå
+   videre i eget tempo uten å vente på animasjonen. */
+@keyframes rise-rask {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+.rise-rask {
+  animation: rise-rask 200ms var(--ease-out-soft) both;
+}
+
+@keyframes ton-inn {
+  from {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .rise-rask {
+    animation: ton-inn 200ms ease both;
+  }
+}
+
+/* AI-panelet vokser ut fra knappen nede til høyre og lukkes samme vei.
+   display må være med i overgangen, ellers forsvinner panelet før det har
+   tonet ut (hidden gir display: none). */
+.ai-panel {
+  transform-origin: bottom right;
+  transition:
+    opacity 200ms var(--ease-out-soft),
+    scale 200ms var(--ease-out-soft),
+    display 200ms allow-discrete;
+}
+.ai-panel[hidden] {
+  opacity: 0;
+  scale: 0.96;
+  transition-duration: 150ms;
+}
+@starting-style {
+  .ai-panel:not([hidden]) {
+    opacity: 0;
+    scale: 0.96;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ai-panel {
+    transition-property: opacity, display;
+  }
+}
+
+/* Alt riktig: merket spretter så vidt inn etter resultatet (se components/AltRiktig.tsx). */
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
+.pop {
+  animation: pop 450ms var(--ease-pop) 150ms both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .pop {
+    animation: ton-inn 200ms ease 150ms both;
+  }
 }
 
 /* Tankekart – linjer mellom nodene (se components/Tankekart.tsx).

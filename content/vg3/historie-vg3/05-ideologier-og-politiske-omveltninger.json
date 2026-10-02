@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva mente John Locke?",
       "options": [
-        "At kongen har guddommelig rett",
+        "At mennesker måtte adlyde kongen og kirken for å sikre orden",
         "At mennesker har naturlige rettigheter til liv, frihet og eiendom",
-        "At staten skal eie alt",
-        "At nasjonen står over individet"
+        "At staten skulle styre eiendom og fordele rikdom mellom innbyggerne",
+        "At nasjonens interesser skulle veie tyngre enn individets rettigheter"
       ],
       "correct": 1,
       "explain": "Viktig for liberalismen."
@@ -90,8 +90,8 @@
       "options": [
         "Konservatismen",
         "Liberalismen",
-        "Kommunismen",
-        "Fascismen"
+        "Sosialismen",
+        "Kommunismen"
       ],
       "correct": 0,
       "explain": "Edmund Burke er en sentral tenker."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva skilte sosialdemokrater fra kommunister?",
       "options": [
-        "Sosialdemokratene ville ha diktatur",
-        "Kommunistene ville ha valg",
+        "Sosialdemokratene ville endre samfunnet gjennom revolusjon og væpnet opprør",
+        "Kommunistene ville bevare kapitalismen gjennom gradvise reformer",
         "Sosialdemokratene ville endre samfunnet gjennom valg og reformer",
-        "De var helt like"
+        "Sosialdemokratene ønsket å avskaffe demokratiet og innføre ettpartistyre"
       ],
       "correct": 2,
       "explain": "Kommunistene ville ha revolusjon."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvem ble holdt utenfor rettighetene i den amerikanske uavhengighetserklæringen?",
       "options": [
-        "Rike menn",
-        "Handelsmenn",
-        "Soldater",
+        "Godseiere, kjøpmenn og protestantiske menn",
+        "Soldater, håndverkere og jordeiende menn",
+        "Prester, bønder og hvite kolonister",
         "Slaver, urfolk og kvinner"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva skjedde i 1917?",
       "options": [
         "Den russiske revolusjonen",
-        "Den franske revolusjonen",
-        "Berlinmuren falt",
-        "Den amerikanske revolusjonen"
+        "Den ungarske revolusjonen",
+        "Den kinesiske revolusjonen",
+        "Den cubanske revolusjonen"
       ],
       "correct": 0,
       "explain": "Kommunistene tok makten."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva kjennetegner fascismen?",
       "options": [
-        "Sterk støtte til frie valg",
+        "Støtte til flerpartidemokrati og vekt på individets rettigheter",
         "Avvisning av demokratiet og vekt på nasjonen og føreren",
-        "Fri handel og begrenset stat",
-        "Gradvis endring"
+        "Vekt på frihandel og en liten stat med begrenset makt",
+        "Gradvis reform av samfunnet og vern av gamle tradisjoner"
       ],
       "correct": 1,
       "explain": "Individet underordnes nasjonen."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Når fikk kvinner stemmerett i Norge?",
       "options": [
-        "1814",
-        "1898",
+        "1905",
+        "1918",
         "1913",
-        "1945"
+        "1921"
       ],
       "correct": 2,
       "explain": "Menn fikk allmenn stemmerett i 1898.",
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva skjedde i Øst-Europa i 1989?",
       "options": [
-        "Fascismen vant fram",
-        "Russiske revolusjonen startet",
-        "Nye kolonier ble opprettet",
+        "Sovjetunionen ble opprettet",
+        "Warszawapakten ble oppløst",
+        "Berlinmuren ble bygd",
         "Kommuniststyrene brøt sammen"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva mente Karl Marx drev historien framover?",
       "options": [
         "Klassekamp",
-        "Religion",
-        "Kongelig makt",
-        "Været"
+        "Religiøse forestillinger",
+        "Kongenes vilje",
+        "Naturkatastrofer"
       ],
       "correct": 0,
       "explain": "Grunnlaget for marxismen."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvilken norsk bevegelse vokste fram i 1848?",
       "options": [
-        "Kvinnebevegelsen",
+        "Haugianerbevegelsen",
         "Thrane-bevegelsen",
-        "Målrørsla",
-        "Motstandsbevegelsen"
+        "Bondevennbevegelsen",
+        "Norsk Kvinnesaksforening"
       ],
       "correct": 1,
       "explain": "En tidlig arbeiderbevegelse.",
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hvem foreslo maktfordeling?",
         "options": [
-          "Karl Marx",
+          "John Locke",
           "Montesquieu",
-          "Edmund Burke",
-          "Napoleon"
+          "Jean-Jacques Rousseau",
+          "Thomas Hobbes"
         ],
         "correct": 1,
         "explain": "Lovgivende, utøvende og dømmende makt."
@@ -331,8 +331,8 @@
         "options": [
           "Liberalismen",
           "Fascismen",
-          "Kommunismen",
-          "Konservatismen"
+          "Sosialismen",
+          "Sosialdemokratiet"
         ],
         "correct": 0,
         "explain": "Individets frihet står sentralt."
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva skiller underslag fra tyveri?",
       "options": [
-        "Underslag gjelder bare penger",
-        "Ved underslag har gjerningspersonen allerede gjenstanden i besittelse",
-        "Underslag er alltid grovt",
-        "Det er ingen forskjell"
+        "Ved tyveri har personen allerede gjenstanden hos seg.",
+        "Ved underslag har personen allerede gjenstanden hos seg.",
+        "Ved underslag får personen gjenstanden ved å bruke vold eller trusler.",
+        "Ved underslag får personen gjenstanden ved å villede eieren."
       ],
       "correct": 1,
       "explain": "Gjenstanden er betrodd."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er ran?",
       "options": [
-        "Vinning ved vold eller trusler",
-        "Tyveri av liten verdi",
-        "Salg av stjålne ting",
-        "Villedning på nett"
+        "Vinning ved vold eller trusler.",
+        "Vinning ved å villede noen til å gi fra seg penger.",
+        "Vinning ved å ta en gjenstand som er betrodd en.",
+        "Vinning ved å motta utbytte fra en straffbar handling."
       ],
       "correct": 0,
       "explain": "Krenker også personen."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er naskeri?",
       "options": [
-        "Innbrudd i bolig",
-        "Svindel på nett",
-        "Tyveri av liten verdi som straffes med bot",
-        "Utpressing"
+        "Tyveri av en betrodd gjenstand som straffes med bot.",
+        "Tyveri ved bruk av vold eller trusler som straffes med bot.",
+        "Tyveri av liten verdi som straffes med bot.",
+        "Tyveri ved villedning av eieren som straffes med bot."
       ],
       "correct": 2,
       "explain": "Straffeloven § 323 kaller det mindre tyveri."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvilket lovbrudd begår den som selger en mobil på nett, får betalt og aldri sender den?",
       "options": [
+        "Underslag",
         "Tyveri",
         "Heleri",
-        "Ran",
         "Bedrageri"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er heleri?",
       "options": [
-        "Å motta utbytte av en straffbar handling",
-        "Å stjele fra butikk",
-        "Å true noen",
-        "Å låne ut penger"
+        "Å motta utbytte av en straffbar handling.",
+        "Å ta en gjenstand som tilhører en annen.",
+        "Å bruke vold for å få penger fra noen.",
+        "Å lure noen til å betale for en vare."
       ],
       "correct": 0,
       "explain": "For eksempel å kjøpe en stjålet sykkel."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er et pengemuldyr?",
       "options": [
-        "En som stjeler dyr",
-        "En som låner ut bankkontoen sin til å flytte kriminelle penger",
-        "En bankansatt",
-        "En som betaler skatt"
+        "En som låner ut bankkortet sitt for å betale egne kjøp.",
+        "En som låner ut bankkontoen sin for å flytte kriminelle penger.",
+        "En som åpner en konto for å spare penger for en annen.",
+        "En som flytter egne lønnsinntekter mellom bankkontoer."
       ],
       "correct": 1,
       "explain": "Kan straffes for hvitvasking."
@@ -150,7 +150,7 @@
       "text": "Hvilket skyldkrav er felles for de fleste vinningslovbrudd?",
       "options": [
         "Uaktsomhet",
-        "Ingen skyld",
+        "Skadeforsett",
         "Vinningsforsett",
         "Grov uaktsomhet"
       ],
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hva er sextortion?",
       "options": [
-        "Salg av bilder",
-        "Deling av memer",
-        "Et dataprogram",
-        "Utpressing med trussel om å spre intime bilder"
+        "Utpressing med trussel om å spre private meldinger.",
+        "Deling av intime bilder uten å kreve noe tilbake.",
+        "Salg av intime bilder uten å true noen.",
+        "Utpressing med trussel om å spre intime bilder."
       ],
       "correct": 3,
       "explain": "En form for utpressing.",
@@ -175,7 +175,7 @@
       "text": "Hvilket lovbrudd er innbrudd i en bolig typisk?",
       "options": [
         "Grovt tyveri",
-        "Naskeri",
+        "Mindre tyveri",
         "Underslag",
         "Heleri"
       ],
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva kan retten gjøre med utbyttet av et lovbrudd?",
       "options": [
-        "Gi det til gjerningspersonen",
-        "Inndra det",
-        "Dele det med vitner",
-        "Ingenting"
+        "Beregne det som en bot.",
+        "Inndra det.",
+        "Trekke det fra en fengselsstraff.",
+        "Bruke det som grunnlag for samfunnsstraff."
       ],
       "correct": 1,
       "explain": "Inndragning."
@@ -305,10 +305,10 @@
         "type": "flervalg",
         "text": "En kasserer tar penger fra kassen. Hvilket lovbrudd er det?",
         "options": [
-          "Ran",
+          "Bedrageri",
           "Underslag",
-          "Heleri",
-          "Naskeri"
+          "Tyveri",
+          "Heleri"
         ],
         "correct": 1,
         "explain": "Pengene var betrodd kassereren."
@@ -319,8 +319,8 @@
         "text": "Hvilken reaksjon er vanlig for unge førstegangslovbrytere?",
         "options": [
           "Overføring til konfliktråd",
+          "Ubetinget fengsel",
           "Forvaring",
-          "Livstidsstraff",
           "Utvisning"
         ],
         "correct": 0,
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hva er phishing?",
         "options": [
-          "Ulovlig fiske",
-          "Hvitvasking",
-          "Å lure til seg kortinformasjon eller innloggingsdata",
-          "Tyveri fra butikk"
+          "Å flytte kriminelle penger via en bankkonto.",
+          "Å ta varer fra en butikk uten å betale.",
+          "Å lure til seg kortinformasjon eller innloggingsdata.",
+          "Å kreve penger ved å true noen med vold."
         ],
         "correct": 2,
         "explain": "En form for bedrageri.",
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

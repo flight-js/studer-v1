@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er en negativ ekstern virkning?",
       "options": [
-        "En fordel for kjøperen",
+        "En fordel for andre som ikke gjenspeiles i prisen",
         "En kostnad for andre som ikke gjenspeiles i prisen",
-        "En skatt",
-        "En subsidie"
+        "En kostnad for kjøperen som gjenspeiles i markedsprisen",
+        "En kostnad for produsenten som vises i markedsprisen"
       ],
       "correct": 1,
       "explain": "For eksempel forurensning."
@@ -92,9 +92,9 @@
       "text": "Hvorfor blir det produsert for mye av varer som forurenser?",
       "options": [
         "Fordi prisen ikke tar med samfunnets kostnader",
-        "Fordi de er dyre",
-        "Fordi staten krever det",
-        "Fordi ingen vil kjøpe dem"
+        "Fordi prisen tar med samfunnets kostnader",
+        "Fordi produsentene betaler alle miljøkostnadene selv",
+        "Fordi etterspørselen etter varene er for lav"
       ],
       "correct": 0,
       "explain": "En form for markedssvikt."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er et fellesgode?",
       "options": [
-        "En bil",
-        "En aksje",
+        "En privat bil og en egen bolig",
+        "En aksje og en privat sparekonto",
         "Ren luft og et stabilt klima",
-        "En bolig"
+        "En låst hytte og en privat hage"
       ],
       "correct": 2,
       "explain": "Ingen kan utestenges."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva betyr prinsippet «forurenser betaler»?",
       "options": [
-        "At staten betaler for utslippene",
-        "At forbrukerne betaler alt",
-        "At ingen betaler",
+        "At staten betaler for skaden fra utslippene",
+        "At forbrukerne betaler for skaden fra utslippene",
+        "At bedriftene får støtte for skaden fra utslippene",
         "At den som forurenser, skal betale for skaden"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hvordan fungerer et kvotesystem?",
       "options": [
         "Et tak på samlede utslipp med kvoter som kan omsettes",
-        "Et forbud mot all produksjon",
-        "En subsidie til forurensere",
-        "En skatt på inntekt"
+        "Et forbud mot produksjon av varer med høye utslipp",
+        "En støtteordning for bedrifter som kutter utslipp",
+        "En avgift på bedrifters samlede inntekter"
       ],
       "correct": 0,
       "explain": "Norge er med i EUs kvotesystem."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er en ulempe med miljøavgifter?",
       "options": [
-        "De er ikke kostnadseffektive",
+        "De kan ramme dem med høy inntekt hardest",
         "De kan ramme dem med lav inntekt hardest",
-        "De gir ingen insentiver",
-        "De øker utslippene"
+        "De kan gjøre utslippskutt mindre lønnsomme for bedrifter",
+        "De kan gjøre det billigere å slippe ut forurensning"
       ],
       "correct": 1,
       "explain": "En fordelingsvirkning."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er avkobling?",
       "options": [
-        "At økonomien stopper",
-        "At utslippene øker raskere enn BNP",
+        "At verdiskapingen faller mens utslippene holder seg stabile",
+        "At verdiskapingen øker samtidig med økte utslipp",
         "At verdiskapingen øker uten at utslippene øker",
-        "At handel stanser"
+        "At utslippene øker uten at verdiskapingen øker"
       ],
       "correct": 2,
       "explain": "Nøkkelen til grønn vekst.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva er tilbakeslagseffekten?",
       "options": [
-        "At utslippene alltid faller",
-        "At avgifter fjernes",
-        "At klimaet blir kaldere",
+        "At effektivisering gjør noe dyrere, så vi bruker mindre av det",
+        "At økt forbruk gjør noe dyrere, så vi kjøper mindre av det",
+        "At miljøavgifter gjør noe billigere, så vi bruker mer av det",
         "At effektivisering gjør noe billigere, så vi bruker mer av det"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva er målet i Parisavtalen?",
       "options": [
         "Begrense oppvarmingen til godt under 2 grader",
-        "Stoppe all oljeproduksjon i 2020",
-        "Øke utslippene",
-        "Forby elbiler"
+        "Begrense oppvarmingen til godt under 1 grad",
+        "Begrense oppvarmingen til godt under 3 grader",
+        "Begrense oppvarmingen til rundt 2,5 grader"
       ],
       "correct": 0,
       "explain": "Avtalen er fra 2015.",
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvorfor er klimaendringene vanskelige å løse for ett land alene?",
       "options": [
-        "Fordi de bare rammer ett land",
+        "Fordi klimaendringene bare skjer innenfor landegrensene",
         "Fordi de er globale og det er fristende å være gratispassasjer",
-        "Fordi de ikke finnes",
-        "Fordi de er billige å løse"
+        "Fordi utslipp fra ett land ikke påvirker andre land",
+        "Fordi hvert land kan styre klimaet innenfor egne grenser"
       ],
       "correct": 1,
       "explain": "Krever internasjonalt samarbeid."
@@ -316,9 +316,9 @@
         "text": "Hva er et eksempel på allmenningens tragedie?",
         "options": [
           "Overfiske av en fiskebestand",
-          "En privat hage",
-          "En aksje",
-          "En bolig"
+          "Overbeiting på en privat gård",
+          "Overvanning av en privat åker",
+          "Overfiske i en privat oppdrettsmerd"
         ],
         "correct": 0,
         "explain": "Alle tar litt for mye."
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hvilket virkemiddel setter et tak på samlede utslipp?",
         "options": [
-          "Subsidier",
+          "Miljøavgift",
           "Kvotesystem",
-          "Informasjon",
-          "Merking"
+          "Utslippsstandard",
+          "Miljømerking"
         ],
         "correct": 1,
         "explain": "Kvotene kan kjøpes og selges."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva hører til en sirkulær økonomi?",
         "options": [
-          "Bruk og kast",
-          "Mer fossil energi",
+          "Nyproduksjon, engangsbruk og kassering",
+          "Uttak, produksjon og deponering",
           "Gjenbruk, reparasjon og resirkulering",
-          "Flere engangsprodukter"
+          "Kjøp, bruk og forbrenning"
         ],
         "correct": 2,
         "explain": "Ressursene holdes i bruk."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

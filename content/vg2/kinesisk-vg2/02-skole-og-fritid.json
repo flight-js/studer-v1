@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva betyr 作业 zuòyè?",
       "options": [
-        "prøve",
+        "lærebok",
         "lekser",
-        "time",
-        "lærer"
+        "notater",
+        "friminutt"
       ],
       "correct": 1,
       "explain": "考试 er prøve."
@@ -90,9 +90,9 @@
       "text": "Hva er 高考?",
       "options": [
         "Nasjonal opptaksprøve til universitetet",
-        "En type skoleuniform",
-        "Et skolefag",
-        "En ferie"
+        "Avsluttende eksamen etter universitetet",
+        "Opptaksprøve til videregående skole",
+        "Nasjonal prøve i kinesisk språk"
       ],
       "correct": 0,
       "explain": "Den er svært viktig for elevenes framtid."
@@ -114,8 +114,8 @@
       "text": "Hvordan spør du «Kan jeg komme inn?» (har jeg lov)?",
       "options": [
         "我会进来吗？",
-        "我是进来吗？",
-        "我要进来吗？",
+        "我想进来吗？",
+        "我应该进来吗？",
         "我可以进来吗？"
       ],
       "correct": 3,
@@ -128,7 +128,7 @@
         "踢 tī",
         "打 dǎ",
         "弹 tán",
-        "玩 wán"
+        "跑 pǎo"
       ],
       "correct": 0,
       "explain": "踢 betyr sparke."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva betyr 我最喜欢数学?",
       "options": [
-        "Jeg liker ikke matematikk.",
+        "Jeg liker kinesisk best.",
         "Jeg liker matematikk best.",
-        "Jeg har matematikk i dag.",
-        "Matematikk er vanskelig."
+        "Jeg liker matematikk minst.",
+        "Jeg synes matematikk er best."
       ],
       "correct": 1,
       "explain": "最 = mest."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva betyr 你的爱好是什么？",
       "options": [
-        "Hvor bor du?",
-        "Hvem er vennen din?",
-        "Hva heter du?",
+        "Hva er favorittfaget ditt?",
+        "Hva gjør du etter skolen?",
+        "Hvem er klassekameraten din?",
         "Hva er hobbyen din?"
       ],
       "correct": 3,
@@ -185,7 +185,7 @@
       "id": "q10",
       "text": "Hva betyr 常常?",
       "options": [
-        "aldri",
+        "sjelden",
         "ofte",
         "i dag",
         "noen ganger"
@@ -316,10 +316,10 @@
         "type": "flervalg",
         "text": "Hvordan sier du «Jeg kan snakke litt kinesisk»?",
         "options": [
-          "我可以说一点儿中文。",
+          "我想说一点儿中文。",
           "我会说一点儿中文。",
-          "我要说一点儿中文。",
-          "我是说一点儿中文。"
+          "我在说一点儿中文。",
+          "我会写一点儿中文。"
         ],
         "correct": 1,
         "explain": "Språk er en lært ferdighet: 会."
@@ -332,7 +332,7 @@
           "klassekamerat",
           "lærer",
           "rektor",
-          "foreldre"
+          "forelder"
         ],
         "correct": 0,
         "explain": "同 = samme, 学 = lære."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

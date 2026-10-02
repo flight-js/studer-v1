@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva betyr universell utforming?",
       "options": [
-        "At siden ser lik ut i alle land",
+        "At løsningen er utformet for brukere med samme type behov",
         "At løsningen kan brukes av flest mulig uten spesielle tilpasninger",
-        "At siden bare har tekst",
-        "At siden er gratis"
+        "At løsningen er tilpasset personer med funksjonsnedsettelser",
+        "At løsningen er laget for brukere med god syns- og hørselsevne"
       ],
       "correct": 1,
       "explain": "Også personer med funksjonsnedsettelser."
@@ -90,9 +90,9 @@
       "text": "Hvilke fire prinsipper bygger WCAG på?",
       "options": [
         "Mulig å oppfatte, mulig å betjene, forståelig, robust",
-        "Rask, billig, pen, trygg",
-        "Farge, form, font, funksjon",
-        "HTML, CSS, JavaScript, SQL"
+        "Planlegge, designe, kode, publisere",
+        "Tekst, lyd, video, animasjon",
+        "Farger, bilder, lenker, navigasjon"
       ],
       "correct": 0,
       "explain": "Ofte forkortet POUR på engelsk."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvilken kontrast bør vanlig tekst minst ha mot bakgrunnen?",
       "options": [
-        "1 : 1",
+        "3 : 1",
         "2 : 1",
         "4,5 : 1",
-        "10 : 1"
+        "1 : 1"
       ],
       "correct": 2,
       "explain": "Kravet i WCAG for vanlig tekst."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvorfor bør du ikke bruke bare farge til å formidle informasjon?",
       "options": [
-        "Fordi farger er dyre",
-        "Fordi CSS ikke støtter farger",
-        "Fordi det ser rotete ut",
+        "Fordi farger tar mer plass enn tekst på siden",
+        "Fordi farger gjør knapper vanskelige å klikke på",
+        "Fordi farger gjør nettsiden tregere å laste",
         "Fordi mange er fargeblinde"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva er en wireframe?",
       "options": [
         "En enkel skisse av en side før koding",
-        "En type kabel",
-        "En ferdig nettside",
-        "Et testverktøy"
+        "En ferdig utforming av siden med farger og bilder",
+        "En rapport med resultatene fra brukertesting av siden",
+        "En publiseringsklar versjon av siden med ferdig innhold"
       ],
       "correct": 0,
       "explain": "Brukes tidlig i designprosessen."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvilken lenketekst er best?",
       "options": [
-        "Klikk her",
+        "Klikk her for mer informasjon",
         "Les mer om søknadsfrister",
-        "Her",
-        "Lenke"
+        "Se siden med mer informasjon",
+        "Les mer om dette"
       ],
       "correct": 1,
       "explain": "Den gir mening alene, også for skjermleserbrukere."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er brukertesting?",
       "options": [
-        "At utvikleren tester koden",
-        "At en automat sjekker kontrasten",
+        "At utvikleren undersøker koden for å finne feil",
+        "At et verktøy måler kontrasten på siden automatisk",
         "At ekte brukere prøver løsningen mens du observerer",
-        "At siden lanseres uten testing"
+        "At løsningen publiseres etter at utvikleren sjekker den"
       ],
       "correct": 2,
       "explain": "Gjerne mens de tenker høyt."
@@ -162,8 +162,8 @@
       "text": "Hvem fører tilsyn med universell utforming av IKT i Norge?",
       "options": [
         "Datatilsynet",
-        "Politiet",
-        "Forbrukerrådet",
+        "Nasjonal kommunikasjonsmyndighet",
+        "Medietilsynet",
         "Digitaliseringsdirektoratet"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvorfor er riktig overskriftshierarki viktig for tilgjengelighet?",
       "options": [
         "Skjermleserbrukere navigerer ved hjelp av overskriftene",
-        "Det gjør teksten større",
-        "Det gir penere farger",
-        "Det er ikke viktig"
+        "Det gjør at teksten vises med større skrift",
+        "Det gjør at sidens farger blir mer konsekvente",
+        "Det gjør at bilder lastes raskere på siden"
       ],
       "correct": 0,
       "explain": "Overskriftene gir struktur."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvilken test er en god manuell tilgjengelighetstest?",
       "options": [
-        "Å endre bakgrunnsfargen",
+        "Å kontrollere sidens kildekode med en validator",
         "Å navigere siden med bare tastatur",
-        "Å slette CSS-filen",
-        "Å bruke større bilder"
+        "Å undersøke sidens farger med et fargeverktøy",
+        "Å kontrollere at siden fungerer i flere nettlesere"
       ],
       "correct": 1,
       "explain": "Alt skal kunne betjenes uten mus."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva hjelper brukere som ikke hører lyden i en video?",
         "options": [
-          "Høyere volum",
+          "Lydbeskrivelse",
           "Teksting",
-          "Større video",
-          "Automatisk avspilling"
+          "Fargekoding",
+          "Skjermleser"
         ],
         "correct": 1,
         "explain": "Mulig å oppfatte."
@@ -333,9 +333,9 @@
         "text": "Hva er en persona?",
         "options": [
           "En oppdiktet, typisk bruker",
-          "En ekte kunde",
-          "En programmerer",
-          "En type diagram"
+          "En ekte, typisk bruker",
+          "En oppdiktet, vanlig kundegruppe",
+          "En enkel, visuell brukerreise"
         ],
         "correct": 0,
         "explain": "Hjelper deg å tenke på brukernes behov.",
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva er en god feilmelding i et skjema?",
         "options": [
-          "«Feil!»",
-          "En rød ramme uten tekst",
+          "En tekst som bekrefter at skjemaet er sendt inn uten å nevne feil",
+          "En tekst som oppgir feilkoden uten å forklare problemet for brukeren",
           "En tekst som forklarer hva som er feil og hvordan det rettes",
-          "Ingen melding"
+          "En tekst som viser at noe mangler uten å si hvilket felt"
         ],
         "correct": 2,
         "explain": "Brukeren må forstå hva som skal gjøres."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

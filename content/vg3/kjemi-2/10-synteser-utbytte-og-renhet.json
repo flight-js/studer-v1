@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er begrensende reaktant?",
       "options": [
-        "Reaktanten det er mest av",
-        "Reaktanten som tar slutt først",
-        "Katalysatoren",
-        "Produktet"
+        "Reaktanten som står igjen etter reaksjonen",
+        "Reaktanten som brukes opp først",
+        "Reaktanten med størst startmengde",
+        "Reaktanten som bestemmer reaksjonshastigheten"
       ],
       "correct": 1,
       "explain": "Den bestemmer teoretisk utbytte."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hvordan regnes prosentvis utbytte ut?",
       "options": [
-        "Faktisk / teoretisk utbytte · 100",
-        "Teoretisk / faktisk · 100",
-        "Faktisk − teoretisk",
-        "Masse / molar masse"
+        "Faktisk utbytte / teoretisk utbytte · 100",
+        "Teoretisk utbytte / faktisk utbytte · 100",
+        "(Teoretisk utbytte − faktisk utbytte) / teoretisk utbytte · 100",
+        "Faktisk utbytte / teoretisk utbytte"
       ],
       "correct": 0,
       "explain": "Gir utbyttet i prosent."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "2,00 g salisylsyre (M = 138,1 g/mol) gir teoretisk hvor mye acetylsalisylsyre (M = 180,2 g/mol)?",
       "options": [
-        "2,00 g",
-        "1,53 g",
+        "Omtrent 2,00 g",
+        "Omtrent 1,53 g",
         "Omtrent 2,61 g",
-        "3,60 g"
+        "Omtrent 3,60 g"
       ],
       "correct": 2,
       "explain": "0,0145 mol · 180,2 g/mol."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva viser et lavt og bredt smeltepunkt?",
       "options": [
-        "At stoffet er rent",
-        "At stoffet er en gass",
-        "At stoffet er en katalysator",
+        "At stoffet er et rent, krystallinsk stoff",
+        "At stoffet har et lavt kokepunkt",
+        "At stoffet har høy molar masse",
         "At stoffet inneholder urenheter"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hvordan virker omkrystallisering?",
       "options": [
         "Produktet løses i varmt løsemiddel og krystalliserer ved avkjøling, mens urenheter blir igjen",
-        "Stoffene skilles etter kokepunkt",
-        "Produktet fordamper",
-        "Produktet filtreres bare"
+        "Produktet løses i kaldt løsemiddel og krystalliserer ved oppvarming, mens urenheter blir igjen",
+        "Produktet fordamper fra varmt løsemiddel, mens urenhetene blir igjen",
+        "Produktet filtreres fra blandingen uten å løses opp i løsemiddel"
       ],
       "correct": 0,
       "explain": "En vanlig rensemetode."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvorfor gir esterdannelse ofte under 100 % utbytte?",
       "options": [
-        "Fordi den er eksplosiv",
-        "Fordi det er en likevektsreaksjon",
-        "Fordi den ikke trenger katalysator",
-        "Fordi estere er gasser"
+        "Fordi katalysatoren blir brukt opp i reaksjonen",
+        "Fordi reaksjonen er reversibel og når likevekt",
+        "Fordi reaktantene fordamper før de reagerer",
+        "Fordi estere ikke kan dannes i vann"
       ],
       "correct": 1,
       "explain": "Reaksjonen går ikke fullstendig."
@@ -153,7 +153,7 @@
         "Filtrering",
         "Omkrystallisering",
         "Destillasjon",
-        "Titrering"
+        "Ekstraksjon"
       ],
       "correct": 2,
       "explain": "Stoffet med lavest kokepunkt fordamper først."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hvorfor gir grundig rensing ofte lavere utbytte?",
       "options": [
-        "Fordi produktet blir mer rent og tungt",
-        "Fordi rensing lager nytt produkt",
-        "Fordi utbyttet alltid er 100 %",
-        "Fordi noe av produktet går tapt"
+        "Fordi rensing senker produktets molare masse",
+        "Fordi rensing reduserer den teoretiske produktmengden",
+        "Fordi rensing gjør reaksjonen mindre fullstendig",
+        "Fordi noe av produktet går tapt under rensingen"
       ],
       "correct": 3,
       "explain": "En avveining mellom utbytte og renhet."
@@ -175,9 +175,9 @@
       "text": "Hva viser tynnsjiktkromatografi for et rent stoff?",
       "options": [
         "Én flekk",
-        "Mange flekker",
-        "Ingen flekker",
-        "En farget væske"
+        "To flekker med ulik vandring",
+        "Flere flekker med ulik vandring",
+        "En flekk og et ekstra bånd"
       ],
       "correct": 0,
       "explain": "Flere flekker tyder på urenheter.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er høy atomøkonomi?",
       "options": [
-        "At mye avfall dannes",
-        "At mest mulig av utgangsstoffenes atomer havner i produktet",
-        "At syntesen er rask",
-        "At produktet er billig"
+        "At flest mulig atomer fra utgangsstoffene inngår i biproduktene",
+        "At flest mulig atomer fra utgangsstoffene inngår i ønsket produkt",
+        "At minst mulig energi brukes i reaksjonen",
+        "At størst mulig mengde produkt dannes per tidsenhet"
       ],
       "correct": 1,
       "explain": "Et prinsipp i grønn kjemi.",
@@ -321,8 +321,8 @@
         "options": [
           "Destillasjon",
           "Ekstraksjon",
-          "Titrering",
-          "Veiing"
+          "Filtrering",
+          "Kromatografi"
         ],
         "correct": 1,
         "explain": "Skiller to væsker som ikke blandes."
@@ -334,8 +334,8 @@
         "options": [
           "Omtrent 80 %",
           "Omtrent 124 %",
-          "Omtrent 50 %",
-          "Omtrent 95 %"
+          "Omtrent 20 %",
+          "Omtrent 8 %"
         ],
         "correct": 0,
         "explain": "2,10 / 2,61 · 100."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva er opparbeiding?",
         "options": [
-          "Å veie reaktantene",
-          "Å varme opp",
+          "Å måle hvor mye reaktant som ble brukt",
+          "Å beregne hvor mye produkt som kan dannes",
           "Å skille produktet fra resten av blandingen",
-          "Å skrive rapport"
+          "Å rense løsemiddelet før reaksjonen starter"
         ],
         "correct": 2,
         "explain": "Før rensingen."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

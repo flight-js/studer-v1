@@ -83,7 +83,7 @@
         "Buksa",
         "Skjørtet",
         "Jakka",
-        "Sokkene"
+        "Genseren"
       ],
       "correct": 0,
       "explain": "Skjørtet heter «der Rock»."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hvordan spør du hva noe koster?",
       "options": [
-        "Wo ist das?",
-        "Wie heißt das?",
+        "Wo kann ich das bezahlen?",
+        "Wann kann ich das bezahlen?",
         "Wie viel kostet das?",
-        "Was ist das?"
+        "Wie kann ich das bezahlen?"
       ],
       "correct": 2,
       "explain": "Du kan også si «Was kostet das?»."
@@ -106,8 +106,8 @@
       "options": [
         "Kan jeg kjøpe dette?",
         "Kan jeg prøve dette på?",
-        "Kan jeg levere dette tilbake?",
-        "Kan jeg få rabatt?"
+        "Kan jeg bytte dette?",
+        "Kan jeg betale for dette?"
       ],
       "correct": 1,
       "explain": "«anprobieren» betyr å prøve på."
@@ -142,8 +142,8 @@
       "options": [
         "Hvilken størrelse bruker De?",
         "Hvilken farge liker De?",
-        "Hvor mye penger har De?",
-        "Hvor gammel er De?"
+        "Hvor gammel er De?",
+        "Hvor mye betaler De?"
       ],
       "correct": 0,
       "explain": "«die Größe» betyr størrelsen."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er «die Umkleidekabine»?",
       "options": [
-        "Kassen",
+        "Kassa",
         "Prøverommet",
         "Skoavdelingen",
-        "Utgangen"
+        "Lagerrommet"
       ],
       "correct": 1,
       "explain": "«umkleiden» betyr å skifte klær."
@@ -190,7 +190,7 @@
       "options": [
         "Dyr",
         "Pen",
-        "Billig",
+        "Rimelig",
         "Stor"
       ],
       "correct": 2,
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva betyr «im Angebot»?",
         "options": [
-          "Utsolgt",
+          "På lager",
           "På tilbud",
-          "I butikken",
-          "Ny"
+          "Til full pris",
+          "Nylig levert"
         ],
         "correct": 1,
         "explain": "Varer på tilbud er billigere enn vanlig."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Die Jacke steht dir gut»?",
         "options": [
-          "Jakka kler deg",
-          "Jakka står i skapet",
+          "Jakka kler deg godt",
+          "Jakka henger i skapet",
           "Jakka er for stor",
-          "Jakka er dyr"
+          "Jakka koster ganske mye"
         ],
         "correct": 0,
         "explain": "«stehen» brukes her i betydningen å kle noen."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hvordan leser du prisen 29,99 €?",
         "options": [
-          "zwei neun neun neun Euro",
-          "neunundzwanzig Komma neunundneunzig",
-          "neunundzwanzig Euro neunundneunzig",
-          "dreißig Euro"
+          "neunundzwanzig Euro neun Cent",
+          "neunundzwanzig Euro neunzig Cent",
+          "neunundzwanzig Euro neunundneunzig Cent",
+          "neunundneunzig Euro neunundzwanzig Cent"
         ],
         "correct": 2,
         "explain": "Først eurobeløpet, så centene."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

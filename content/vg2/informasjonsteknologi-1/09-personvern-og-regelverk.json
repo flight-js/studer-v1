@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er en personopplysning?",
       "options": [
-        "Bare navn og adresse",
+        "Opplysninger som direkte viser personens fulle identitet",
         "Enhver opplysning som kan knyttes til en person",
-        "Bare sensitive opplysninger",
-        "Bare opplysninger på papir"
+        "Opplysninger som beskriver personens økonomiske forhold",
+        "Opplysninger som er lagret digitalt om en person"
       ],
       "correct": 1,
       "explain": "Også IP-adresse og posisjon."
@@ -92,9 +92,9 @@
       "text": "Hvem fører tilsyn med personvern i Norge?",
       "options": [
         "Datatilsynet",
+        "Nasjonal kommunikasjonsmyndighet",
         "Digitaliseringsdirektoratet",
-        "Politiet",
-        "Forbrukerrådet"
+        "Helsedirektoratet"
       ],
       "correct": 0,
       "explain": "Det kan ilegge overtredelsesgebyr."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva betyr dataminimering?",
       "options": [
-        "Å komprimere data",
-        "Å slette alle data",
+        "Å beholde data så lenge de er nyttige",
+        "Å samle inn data som kan være nyttige senere",
         "Å samle inn bare det som er nødvendig",
-        "Å lagre data i minst mulig filer"
+        "Å begrense hvem som får tilgang til data"
       ],
       "correct": 2,
       "explain": "Et av grunnprinsippene."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hvilket samtykke er gyldig?",
       "options": [
-        "En forhåndsavkrysset boks",
-        "Taushet",
-        "At brukeren fortsetter å bruke siden",
+        "Et forhåndsvalgt ja uten aktiv handling",
+        "Et ja gitt uten informasjon om formålet",
+        "Et ja etter press fra tjenesteleverandøren",
         "Et frivillig, informert og aktivt ja"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva er innebygd personvern?",
       "options": [
         "At personvern tenkes inn fra starten av utviklingen",
-        "At personvern legges til til slutt",
-        "At data lagres i skyen",
-        "At alle data krypteres uansett"
+        "At personvern vurderes først når løsningen er ferdig",
+        "At personopplysninger lagres i en ekstern skytjeneste",
+        "At personopplysninger krypteres før de lagres"
       ],
       "correct": 0,
       "explain": "Privacy by design."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvor raskt må en datalekkasje som hovedregel meldes til Datatilsynet?",
       "options": [
-        "Innen ett år",
+        "Innen 24 timer",
         "Innen 72 timer",
-        "Innen 30 dager",
-        "Det trengs ikke"
+        "Innen 48 timer",
+        "Innen 7 dager"
       ],
       "correct": 1,
       "explain": "Avvik skal meldes raskt.",
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Fra hvilken alder kan barn i Norge selv samtykke til sosiale medier og lignende tjenester?",
       "options": [
-        "10 år",
-        "16 år",
+        "12 år",
+        "14 år",
         "13 år",
-        "18 år"
+        "15 år"
       ],
       "correct": 2,
       "explain": "Norge har valgt 13 år.",
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvilken opplysning hører til de særlige kategoriene?",
       "options": [
-        "Favorittfarge",
-        "Skostørrelse",
-        "Hvilken skole du går på",
+        "Kontaktopplysninger",
+        "Betalingsopplysninger",
+        "Skoleopplysninger",
         "Helseopplysninger"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva er dataportabilitet?",
       "options": [
         "Retten til å ta med dataene sine til en annen tjeneste",
-        "Retten til å slette data",
-        "At data kan flyttes mellom datamaskiner",
-        "At data er krypterte"
+        "Retten til å få personopplysninger slettet fra tjenesten",
+        "Retten til å flytte data mellom egne enheter",
+        "Retten til å kreve at opplysninger blir rettet"
       ],
       "correct": 0,
       "explain": "En av den registrertes rettigheter.",
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Når gjelder GDPR for et selskap utenfor Europa?",
       "options": [
-        "Aldri",
+        "Når det lagrer personopplysninger på servere i EØS",
         "Når det behandler personopplysninger om personer i EØS",
-        "Bare hvis det har kontor i Norge",
-        "Bare for amerikanske selskaper"
+        "Når det har et fysisk kontor i et EØS-land",
+        "Når det selger varer til selskaper i EØS"
       ],
       "correct": 1,
       "explain": "Regelverket følger personene.",
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hva er det høyeste overtredelsesgebyret etter GDPR?",
         "options": [
-          "10 000 kr",
+          "10 millioner euro eller 2 % av global omsetning",
           "20 millioner euro eller 4 % av global omsetning",
-          "1 million kroner",
-          "Det finnes ingen gebyrer"
+          "15 millioner euro eller 3 % av global omsetning",
+          "30 millioner euro eller 5 % av global omsetning"
         ],
         "correct": 1,
         "explain": "Det største av de to beløpene.",
@@ -334,9 +334,9 @@
         "text": "Hvilket behandlingsgrunnlag bruker en nettbutikk for å lagre adressen din når du bestiller?",
         "options": [
           "Avtale",
-          "Samtykke til markedsføring",
-          "Berettiget interesse alene",
-          "Ingen grunnlag trengs"
+          "Samtykke",
+          "Rettslig plikt",
+          "Berettiget interesse"
         ],
         "correct": 0,
         "explain": "Adressen trengs for å oppfylle kjøpet."
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva bør du spørre deg selv før du legger inn et nytt felt i et registreringsskjema?",
         "options": [
-          "Er feltet pent?",
-          "Hvor mange felt har konkurrentene?",
+          "Er det vanlig at andre tjenester spør om dette?",
+          "Kan opplysningen brukes til framtidige tilbud?",
           "Trenger vi virkelig denne opplysningen?",
-          "Kan vi selge opplysningen?"
+          "Vil feltet gjøre statistikken mer nyttig?"
         ],
         "correct": 2,
         "explain": "Dataminimering."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

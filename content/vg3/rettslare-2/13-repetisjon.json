@@ -102,9 +102,9 @@
       "text": "Hva er formell rettferdighet?",
       "options": [
         "At like tilfeller behandles likt og reglene følges upartisk",
-        "At resultatet alltid er rimelig",
-        "At alle får det de ønsker",
-        "At lovene er moralsk gode"
+        "At lovens innhold og resultatet oppleves som rimelig",
+        "At dommeren vurderer hver sak ut fra partenes behov",
+        "At reglene utformes slik at alle får samme utfall"
       ],
       "correct": 0,
       "explain": "Sier ikke noe om innholdet i reglene."
@@ -113,9 +113,9 @@
       "id": "q02",
       "text": "Hva er subsumsjon?",
       "options": [
-        "Å finne partene",
-        "Å skrive konklusjonen",
-        "Å lete etter lover",
+        "Å sammenholde partene med kravene i saken",
+        "Å sammenholde konklusjonen med rettskildene i saken",
+        "Å sammenholde lovene med argumentene i saken",
         "Å sammenholde faktum med vilkårene i regelen"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q03",
       "text": "Hva bør et arbeid med et aktuelt rettsspørsmål ende med?",
       "options": [
-        "Et sitat",
+        "Et kort saksreferat",
         "Et begrunnet standpunkt",
-        "En avisoverskrift",
-        "Et spørsmål"
+        "Et sammendrag av faktum",
+        "En opplisting av kilder"
       ],
       "correct": 1,
       "explain": "Støttet av argumenter og kilder."
@@ -137,10 +137,10 @@
       "id": "q04",
       "text": "Hvilke vilkår må vanligvis være oppfylt for et lovlig inngrep i en rettighet?",
       "options": [
-        "At flertallet ønsker det",
-        "At politiet ber om det",
-        "Lovhjemmel, legitimt formål, nødvendig og forholdsmessig",
-        "At inngrepet er gratis"
+        "Lovhjemmel, flertallsstøtte, kort varighet og økonomisk gevinst",
+        "Folkeavstemning, legitimt formål, nødvendighet og forholdsmessighet",
+        "Lovhjemmel, legitimt formål, nødvendighet og forholdsmessighet",
+        "Lovhjemmel, legitimt formål, offentlig støtte og kostnadsfri gjennomføring"
       ],
       "correct": 2,
       "explain": "Tre-trinns-test."
@@ -149,10 +149,10 @@
       "id": "q05",
       "text": "Hva kom Høyesterett fram til i Fosen-saken?",
       "options": [
-        "At vindkraftkonsesjonene var ugyldige fordi de krenket SP artikkel 27",
-        "At reindrift ikke er kultur",
-        "At staten skulle betale bøter til EU",
-        "At turbinene var lovlige"
+        "At vindkraftvedtakene var ugyldige fordi de krenket SP artikkel 27",
+        "At reindrift ikke regnes som en del av samisk kultur",
+        "At vindkraftvedtakene var gyldige fordi konsesjonene var gitt",
+        "At Høyesterett godkjente vindkraften etter at reindriften fikk erstatning"
       ],
       "correct": 0,
       "explain": "Storkammer i 2021.",
@@ -162,10 +162,10 @@
       "id": "q06",
       "text": "Hva er et enkeltvedtak?",
       "options": [
-        "En lov fra Stortinget",
+        "En avgjørelse om generelle regler for en ubestemt gruppe personer",
         "En avgjørelse om rettigheter eller plikter for bestemte personer",
-        "En generell forskrift",
-        "En dom"
+        "En avgjørelse om straffansvar for en bestemt person",
+        "Et forslag om rettigheter eller plikter for bestemte personer"
       ],
       "correct": 1,
       "explain": "For eksempel avslag på studielån."
@@ -174,9 +174,9 @@
       "id": "q07",
       "text": "Hvilket krav stilles til et gyldig samtykke?",
       "options": [
-        "At det er muntlig",
-        "At det gjelder for alltid",
-        "At det gis av foreldre",
+        "At det er frivillig, generelt, informert og utvetydig",
+        "At det er frivillig, spesifikt, anonymt og utvetydig",
+        "At det er frivillig, spesifikt, informert og skriftlig",
         "At det er frivillig, spesifikt, informert og utvetydig"
       ],
       "correct": 3,
@@ -186,10 +186,10 @@
       "id": "q08",
       "text": "Hvilke tre grunnvilkår må være oppfylt for erstatning?",
       "options": [
-        "Skyld, straff og dom",
+        "Skyld, økonomisk tap og årsakssammenheng",
         "Ansvarsgrunnlag, økonomisk tap og årsakssammenheng",
-        "Forsikring, avtale og kvittering",
-        "Politianmeldelse, vitner og bevis"
+        "Ansvarsgrunnlag, forsikringsdekning og årsakssammenheng",
+        "Ansvarsgrunnlag, økonomisk tap og straffedom"
       ],
       "correct": 1,
       "explain": "Alle tre må være oppfylt."
@@ -198,10 +198,10 @@
       "id": "q09",
       "text": "Hvilket beviskrav gjelder for skyld i straffesaker?",
       "options": [
-        "Mer enn 50 % sannsynlighet",
-        "Utover enhver rimelig tvil",
-        "At vitner har sett det",
-        "At tiltalte tilstår"
+        "Skylden må være mer sannsynlig enn usannsynlig",
+        "Skylden må være bevist utover enhver rimelig tvil",
+        "Skylden må støttes av minst to uavhengige vitner",
+        "Skylden må være bevist ved at tiltalte tilstår"
       ],
       "correct": 1,
       "explain": "Tvil kommer tiltalte til gode."
@@ -210,10 +210,10 @@
       "id": "q10",
       "text": "Hva er avgjørende i en samtykkebasert voldtektsbestemmelse?",
       "options": [
-        "Om det er brukt vold",
-        "Om det finnes vitner",
+        "Om den andre har gjort motstand",
+        "Om det finnes fysiske bevis",
         "Om den andre har samtykket",
-        "Om partene kjenner hverandre"
+        "Om partene er i et forhold"
       ],
       "correct": 2,
       "explain": "Samtykket må være frivillig."
@@ -222,10 +222,10 @@
       "id": "q11",
       "text": "Hva skiller underslag fra tyveri?",
       "options": [
-        "Underslag gjelder bare penger",
-        "Ved underslag har gjerningspersonen allerede gjenstanden i besittelse",
-        "Underslag er alltid grovt",
-        "Det er ingen forskjell"
+        "Ved tyveri har personen allerede gjenstanden hos seg.",
+        "Ved underslag har personen allerede gjenstanden hos seg.",
+        "Ved underslag får personen gjenstanden ved å bruke vold eller trusler.",
+        "Ved underslag får personen gjenstanden ved å villede eieren."
       ],
       "correct": 1,
       "explain": "Gjenstanden er betrodd."
@@ -235,9 +235,9 @@
       "text": "Hva er føre-var-prinsippet?",
       "options": [
         "At mangel på kunnskap ikke skal utsette tiltak mot alvorlig skade",
-        "At man skal vente til alt er bevist",
-        "At forurenser alltid går fri",
-        "At bare staten kan handle"
+        "At tiltak bør vente til skadeomfanget er dokumentert",
+        "At usikker kunnskap taler mot forebyggende miljøtiltak",
+        "At tiltak først settes inn etter at skaden har oppstått"
       ],
       "correct": 0,
       "explain": "Naturmangfoldloven § 9."
@@ -385,7 +385,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -423,7 +423,7 @@
           "Regjeringen",
           "Høyesterett",
           "Stortinget",
-          "Kongen alene"
+          "Kongen"
         ],
         "correct": 2,
         "explain": "Maktfordelingen."
@@ -433,10 +433,10 @@
         "type": "flervalg",
         "text": "Hva betyr partsinnsyn?",
         "options": [
-          "At alle kan lese alle dokumenter",
+          "At parten kan endre opplysningene i dokumentene i sin egen sak",
           "At parten kan se dokumentene i sin egen sak",
-          "At pressen får innsyn",
-          "At kommunen kan se partens e-post"
+          "At parten kan få kopi av dokumentene i en annen parts sak",
+          "At parten kan avgjøre hvilke dokumenter som legges til i saken"
         ],
         "correct": 1,
         "explain": "Forvaltningsloven § 18."
@@ -461,8 +461,8 @@
         "text": "Hvilket rettsgode verner seksuallovbruddene?",
         "options": [
           "Den seksuelle selvbestemmelsesretten",
-          "Eiendomsretten",
-          "Ytringsfriheten",
+          "Retten til eiendom",
+          "Retten til ytringsfrihet",
           "Retten til utdanning"
         ],
         "correct": 0,
@@ -551,12 +551,84 @@
           "Viser at miljøhensyn inngår i en avveining med andre hensyn."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "En straffebestemmelse nevner ikke uttrykkelig handlingen en person er tiltalt for, men handlingen ligner på det bestemmelsen forbyr. Kan retten bruke analogi for å straffe personen? Forklar hvilken regel om tolking som gjelder i strafferetten.",
+        "fasit": "Nei, retten kan ikke bruke analogi til skade for den tiltalte i strafferetten. Handlingen må ha klar hjemmel i lov, slik legalitetsprinsippet krever.",
+        "kriterier": [
+          "Analogisk tolking til skade for tiltalte er ikke tillatt i strafferetten.",
+          "Straff krever klar lovhjemmel."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Myndighetene vil begrense en fredelig demonstrasjon fordi den kan forstyrre trafikken. Hvilke vilkår må være oppfylt for at begrensningen skal være et lovlig inngrep i forsamlingsfriheten?",
+        "fasit": "Inngrepet må ha hjemmel i lov og et legitimt formål, for eksempel å verne andres rettigheter. Det må også være nødvendig og forholdsmessig.",
+        "kriterier": [
+          "Inngrepet må ha hjemmel i lov og et legitimt formål.",
+          "Inngrepet må være nødvendig og forholdsmessig."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En skole krever at elever oppgir helseopplysninger og religion i en læringsapp, og planlegger å lagre opplysningene uten tidsbegrensning. Skolen viser til at elevene har samtykket ved å bruke appen. Hvilke personvernkrav bør skolen vurdere?",
+        "fasit": "Samtykket kan være ugyldig dersom det ikke er frivillig, spesifikt, informert og utvetydig, særlig når bruk av appen er pålagt. Helseopplysninger og religion har sterkere vern, og skolen må ha et rettslig grunnlag, begrense opplysningene til det nødvendige og ikke lagre dem lenger enn nødvendig.",
+        "kriterier": [
+          "Samtykke må være frivillig, spesifikt, informert og utvetydig; pålagt bruk kan gjøre det ufrivillig.",
+          "Helse og religion er særlige kategorier; behandlingen trenger rettslig grunnlag og må følge prinsippene om dataminimering og begrenset lagring."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En 14-åring knuser med vilje et vindu hos naboen. Forklar hva alderen betyr for straffansvaret, og om barnet likevel kan bli erstatningsansvarlig.",
+        "fasit": "Barn under 15 år kan ikke straffes. Barn kan likevel bli erstatningsansvarlige for skade de volder forsettlig eller uaktsomt, dersom det er rimelig ut fra blant annet alder, modenhet og økonomi.",
+        "kriterier": [
+          "En person under 15 år kan ikke straffes.",
+          "Barn kan bli erstatningsansvarlige dersom det er rimelig vurdert blant annet ut fra alder, modenhet og økonomi."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En norsk forskrift er i strid med en norsk lov, og loven er i strid med en konvensjon som er gjort til norsk lov gjennom menneskerettsloven. Hvilke regler går foran, og hvorfor?",
+        "fasit": "Loven går foran forskriften etter lex superior. Konvensjonen går foran loven etter menneskerettsloven § 3, fordi konvensjonene den inkorporerer, har forrang ved motstrid med annen norsk lov.",
+        "kriterier": [
+          "Loven går foran forskriften etter lex superior.",
+          "En konvensjon som er inkorporert gjennom menneskerettsloven, går foran norsk lov ved motstrid."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En kommune planlegger en endring som kan påvirke samiske interesser direkte. Hvilke plikter har kommunen overfor Sametinget og andre berørte samiske interesser?",
+        "fasit": "Kommunen har plikt til å konsultere Sametinget og andre berørte samiske interesser. Konsultasjonene skal skje i god tro og ha som mål å komme fram til enighet.",
+        "kriterier": [
+          "Kommunen har konsultasjonsplikt når en sak kan påvirke samiske interesser direkte.",
+          "Konsultasjonene skal skje i god tro med mål om enighet."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En 16-åring blir dømt for et lovbrudd. Forklar hvorfor fengsel normalt skal brukes med særlig tilbakeholdenhet overfor unge, og nevn én reaksjon som er særlig aktuell for aldersgruppen.",
+        "fasit": "For personer under 18 år skal fengsel bare brukes når det er særlig påkrevd, blant annet for å unngå at unge blir stemplet og havner i en kriminell løpebane. Ungdomsstraff er en mulig reaksjon for 15–17-åringer og gjennomføres i konfliktrådet.",
+        "kriterier": [
+          "Fengsel for personer under 18 år skal bare brukes når det er særlig påkrevd.",
+          "Ungdomsstraff er aktuell for 15–17-åringer og gjennomføres i konfliktrådet."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Under en seksuell situasjon trekker den ene personen tilbake samtykket, men den andre fortsetter. Forklar hvilken betydning samtykket har etter voldtektsbestemmelsen, og hva som må bevises for at den andre skal kunne straffes.",
+        "fasit": "Samtykke må være frivillig og kan trekkes tilbake, og voldtektsbestemmelsen bygger på om den andre har samtykket med ord eller handlinger. For å straffe personen må vilkårene for straff være oppfylt, og skyld må bevises utover enhver rimelig tvil.",
+        "kriterier": [
+          "Samtykke må være frivillig og kan trekkes tilbake; voldtektsbestemmelsen er samtykkebasert.",
+          "Skyld må bevises utover enhver rimelig tvil for at personen skal kunne straffes."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

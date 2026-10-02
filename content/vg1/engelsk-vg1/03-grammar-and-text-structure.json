@@ -79,8 +79,8 @@
       "options": [
         "I have lived here since five years.",
         "I have lived here for five years.",
-        "I live here since five years.",
-        "I lived here since five years."
+        "I live here for five years.",
+        "I am living here for five years."
       ],
       "correct": 1,
       "explain": "Use for with a period of time and the present perfect for something that continues now."
@@ -90,9 +90,9 @@
       "text": "Which sentence is correct?",
       "options": [
         "She gave me some good advice.",
-        "She gave me some good advices.",
-        "She gave me a good advices.",
-        "She gave me many good advice."
+        "She gave me several good advice.",
+        "She gave me a few good advice.",
+        "She gave me much good advices."
       ],
       "correct": 0,
       "explain": "Advice is uncountable."
@@ -104,7 +104,7 @@
         "are",
         "were",
         "is",
-        "have been"
+        "have"
       ],
       "correct": 2,
       "explain": "News is uncountable and takes a singular verb."
@@ -139,8 +139,8 @@
       "options": [
         "careful",
         "carefully",
-        "carefuller",
-        "care"
+        "careless",
+        "carefulness"
       ],
       "correct": 1,
       "explain": "An adverb describes the verb drives."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "What is a topic sentence?",
       "options": [
-        "The last sentence in a text",
-        "A quotation",
-        "The sentence that presents the main idea of a paragraph",
-        "The title"
+        "The sentence that gives an example from the paragraph",
+        "The sentence that explains a word in the paragraph",
+        "The sentence that presents the paragraph’s main idea",
+        "The sentence that sums up a detail in the paragraph"
       ],
       "correct": 2,
       "explain": "It usually comes first in the paragraph."
@@ -162,8 +162,8 @@
       "text": "Choose the correct word: The dog wagged ___ tail.",
       "options": [
         "it's",
-        "its'",
         "it",
+        "itself",
         "its"
       ],
       "correct": 3,
@@ -175,8 +175,8 @@
       "options": [
         "are",
         "is",
-        "was",
-        "has been"
+        "has",
+        "does"
       ],
       "correct": 0,
       "explain": "A number of means several, so the verb is plural."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Which word is best for showing a contrast?",
       "options": [
-        "Furthermore",
+        "Moreover",
         "However",
-        "For instance",
-        "Therefore"
+        "Therefore",
+        "Similarly"
       ],
       "correct": 1,
       "explain": "However signals a contrast. Therefore shows a result."
@@ -329,9 +329,9 @@
         "text": "Which sentence is in the third conditional?",
         "options": [
           "If I had studied, I would have passed.",
-          "If I study, I will pass.",
-          "If I studied, I would pass.",
-          "If you heat ice, it melts."
+          "If I would have studied, I would have passed.",
+          "If I had studied, I would passed.",
+          "If I studied, I will have passed."
         ],
         "correct": 0,
         "explain": "The third conditional is about an unreal past.",
@@ -342,8 +342,8 @@
         "type": "flervalg",
         "text": "Choose the correct word: Too much screen time can ___ your sleep.",
         "options": [
-          "effect",
           "effects",
+          "affects",
           "affect",
           "affection"
         ],
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

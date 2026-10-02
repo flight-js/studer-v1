@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvor skjer lysreaksjonene i fotosyntesen?",
       "options": [
-        "I stroma",
+        "I kloroplaststroma",
         "I tylakoidmembranene",
-        "I mitokondriene",
-        "I cytoplasma"
+        "I mitokondriematriksen",
+        "I cellekjernen"
       ],
       "correct": 1,
       "explain": "Klorofyll fanger lys der."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva skjer i Calvin-syklusen?",
       "options": [
-        "Vann spaltes",
-        "Glukose brytes ned",
-        "CO₂ bindes og sukker bygges opp",
-        "ATP brytes ned til varme"
+        "Vann spaltes og oksygen frigjøres i syklusen",
+        "Glukose brytes ned og CO₂ frigjøres i syklusen",
+        "CO₂ bindes og brukes til å bygge sukker",
+        "ATP spaltes og varme frigjøres i syklusen"
       ],
       "correct": 2,
       "explain": "Med rubisco og energi fra ATP og NADPH."
@@ -113,7 +113,7 @@
       "options": [
         "I glykolysen",
         "I sitronsyresyklusen",
-        "I kloroplasten",
+        "I mitokondriematriksen",
         "I elektrontransportkjeden"
       ],
       "correct": 3,
@@ -125,20 +125,20 @@
       "options": [
         "30–32",
         "2",
-        "100",
+        "4",
         "6"
       ],
       "correct": 0,
-      "explain": "Gjæring gir bare 2."
+      "explain": "Celleånding gir ATP gjennom både glykolysen og oksidativ fosforylering."
     },
     {
       "id": "q06",
       "text": "Hva skjer uten oksygen i en muskelcelle?",
       "options": [
-        "Celleåndingen går som vanlig",
+        "Cellen lager ATP gjennom celleåndingen og frigjør CO₂",
         "Cellen får ATP fra glykolysen og lager melkesyre",
-        "Cellen lager glukose",
-        "Cellen stopper helt"
+        "Cellen får ATP fra glykolysen og lager etanol",
+        "Cellen får ATP fra glykolysen og lager oksygen"
       ],
       "correct": 1,
       "explain": "Melkesyregjæring."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er en begrensende faktor?",
       "options": [
-        "Faktoren i størst tilgang",
-        "Et enzym",
+        "Faktoren i størst tilgang som bestemmer farten",
+        "Faktoren som måler hvor raskt fotosyntesen går",
         "Faktoren i minst tilgang som begrenser farten",
-        "Et hormon"
+        "Faktoren som gir planten sukker under fotosyntesen"
       ],
       "correct": 2,
       "explain": "For eksempel lys eller CO₂."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvilken rolle har oksygen i celleåndingen?",
       "options": [
-        "Spaltes for å gi energi",
-        "Bindes i glukose",
-        "Brukes i glykolysen",
+        "Spaltes for å frigjøre energi til celleåndingen",
+        "Bindes til glukose og lagres som kjemisk energi",
+        "Brukes i glykolysen for å bryte ned glukose",
         "Tar imot elektronene til slutt og danner vann"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hva har fotosyntesen og celleåndingen til felles?",
       "options": [
         "Begge bruker en elektrontransportkjede og ATP-syntase",
-        "Begge skjer i kloroplasten",
-        "Begge tar opp CO₂",
-        "Begge lager oksygen"
+        "Begge bruker klorofyll og ATP-syntase",
+        "Begge tar opp oksygen og frigjør CO₂",
+        "Begge spalter vann og danner ATP"
       ],
       "correct": 0,
       "explain": "I en membran."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvorfor tilsettes CO₂ i noen drivhus?",
       "options": [
-        "For å drepe insekter",
+        "For å øke celleåndingen når CO₂ er begrensende",
         "For å øke fotosyntesen når CO₂ er begrensende",
-        "For å varme opp",
-        "For å gi farge"
+        "For å øke vannopptaket ved å tilføre mer CO₂",
+        "For å øke klorofyllmengden ved å tilføre mer CO₂"
       ],
       "correct": 1,
       "explain": "Gir økt vekst."
@@ -304,9 +304,9 @@
         "type": "flervalg",
         "text": "Hvor skjer sitronsyresyklusen?",
         "options": [
-          "I cytoplasma",
+          "I cytoplasmaet",
           "I mitokondriematriksen",
-          "I tylakoidmembranen",
+          "I tylakoidmembranene",
           "I cellekjernen"
         ],
         "correct": 1,
@@ -319,8 +319,8 @@
         "options": [
           "Magnesium",
           "Kalsium",
-          "Natrium",
-          "Klor"
+          "Kalium",
+          "Fosfor"
         ],
         "correct": 0,
         "explain": "Også nitrogen.",
@@ -418,6 +418,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

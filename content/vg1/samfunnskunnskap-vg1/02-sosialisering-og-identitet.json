@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er primær sosialisering?",
       "options": [
-        "Sosialisering på arbeidsplassen",
+        "Sosialisering gjennom skole og venner i ungdomsårene",
         "Sosialisering i de første leveårene, særlig i familien",
-        "Sosialisering gjennom sosiale medier",
-        "Sosialisering i videregående skole"
+        "Sosialisering gjennom medier og arbeidsliv i voksen alder",
+        "Sosialisering i vennegrupper og fritidsaktiviteter i ungdomstiden"
       ],
       "correct": 1,
       "explain": "Familien er den viktigste sosialiseringsagenten i de første årene."
@@ -89,9 +89,9 @@
       "text": "Hva er et eksempel på en uformell norm?",
       "options": [
         "Å hilse når man møter noen",
-        "Fartsgrensen",
-        "Skoleloven",
-        "Skatteregler"
+        "Å følge fartsgrensen på veien",
+        "Å levere skattemelding innen fristen hvert år",
+        "Å følge skolens regler om fravær og oppmøte"
       ],
       "correct": 0,
       "explain": "Uformelle normer er uskrevne forventninger."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er en positiv sanksjon?",
       "options": [
-        "Straff",
-        "Utestenging",
+        "Kritikk eller negative kommentarer",
+        "Bot eller annen straff",
         "Ros eller likes",
-        "Kritikk"
+        "Utestenging fra en gruppe"
       ],
       "correct": 2,
       "explain": "Positive sanksjoner belønner atferd."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er forskjellen på selvtillit og selvfølelse?",
       "options": [
-        "Det er det samme",
-        "Selvfølelse handler om prestasjoner",
-        "Selvtillit handler om utseende",
-        "Selvtillit handler om hva du får til, selvfølelse om hvordan du verdsetter deg selv"
+        "Selvtillit gjelder egen verdi; selvfølelse gjelder hva du får til",
+        "Selvtillit gjelder hvordan andre ser deg; selvfølelse gjelder hvor flink du er",
+        "Selvtillit gjelder hvor populær du er; selvfølelse gjelder hvordan du ser ut",
+        "Selvtillit gjelder hva du får til; selvfølelse gjelder egen verdi"
       ],
       "correct": 3,
       "explain": "God selvfølelse er ikke avhengig av prestasjoner."
@@ -125,9 +125,9 @@
       "text": "Hva er en rollekonflikt?",
       "options": [
         "Når ulike roller krever ulike ting",
-        "En krangel mellom venner",
-        "En konflikt i et teaterstykke",
-        "Når man ikke har noen roller"
+        "Når to personer i samme rolle er uenige",
+        "Når man bytter rolle mellom ulike situasjoner",
+        "Når en rolle ikke passer til personligheten"
       ],
       "correct": 0,
       "explain": "For eksempel når trening og skole krever tid samtidig."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva beskrev Erving Goffman?",
       "options": [
-        "Hvordan økonomien fungerer",
-        "Hvordan vi presenterer oss selv for andre, som på en scene",
-        "Hvordan stater styres",
-        "Hvordan barn lærer språk"
+        "Hvordan vi lærer regler gjennom familie, skole og venner",
+        "Hvordan vi framstiller oss selv for andre, som på en scene",
+        "Hvordan samfunnets økonomi påvirker arbeid og forbruk",
+        "Hvordan barn lærer språk gjennom samspill med voksne"
       ],
       "correct": 1,
       "explain": "Teorien brukes mye om sosiale medier.",
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvilken av disse er en sekundær sosialiseringsagent?",
       "options": [
-        "Mor og far i de første leveårene",
-        "Genene",
-        "Skolen",
-        "Fødselen"
+        "Familien som arena for den tidlige oppveksten",
+        "Genene som grunnlag for medfødte egenskaper",
+        "Skolen som arena for læring og samvær",
+        "Fødselen som start på et menneskes liv"
       ],
       "correct": 2,
       "explain": "Skole, venner og medier er sekundære sosialiseringsagenter."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hvordan kan algoritmer i sosiale medier påvirke ungdom?",
       "options": [
-        "De viser alltid et balansert bilde",
-        "De har ingen påvirkning",
-        "De viser bare nyheter",
-        "De viser mer av det man allerede liker og kan forsterke idealer"
+        "De viser innhold fra mange synspunkter og bidrar til å balansere idealer",
+        "De prioriterer innhold etter publiseringstid framfor tidligere likerklikk",
+        "De prioriterer nyhetssaker framfor innlegg som passer brukerens interesser",
+        "De viser mer av innholdet man liker, noe som bidrar til å forsterke idealer"
       ],
       "correct": 3,
       "explain": "Det kan for eksempel forsterke kroppspress.",
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hva betyr det at en norm er internalisert?",
       "options": [
-        "At den er blitt en del av en selv",
-        "At den er skrevet ned i en lov",
-        "At den gjelder i utlandet",
-        "At den er glemt"
+        "At normen er blitt en del av en selv",
+        "At normen er skrevet ned som en regel i lovverket",
+        "At normen gjelder i andre land, men ikke i Norge",
+        "At normen er blitt glemt og ikke påvirker handlinger"
       ],
       "correct": 0,
       "explain": "Da følger vi normen uten at noen passer på."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvilket tiltak skal redusere kroppspress fra reklame?",
       "options": [
-        "Forbud mot all reklame",
+        "Krav om at reklame skal vise modellens alder tydelig",
         "Krav om at retusjert reklame skal merkes",
-        "Krav om at alle bilder skal være svart-hvitt",
-        "Forbud mot sosiale medier"
+        "Krav om at reklame skal oppgi hvor bildet ble tatt",
+        "Krav om at reklame skal vise pris og produktinformasjon"
       ],
       "correct": 1,
       "explain": "Merkingen viser at bildet er endret.",
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hva er en formell norm?",
         "options": [
-          "En uskreven forventning",
+          "En uskreven forventning eller skikk",
           "En skreven regel eller lov",
-          "En følelse",
-          "En rolle"
+          "En personlig følelse eller mening",
+          "En sosial rolle eller oppgave"
         ],
         "correct": 1,
         "explain": "Lover og skolereglement er formelle normer."
@@ -331,9 +331,9 @@
         "text": "Hva hører til den sosiale siden av identiteten?",
         "options": [
           "Gruppene vi tilhører",
-          "Blodtypen vår",
-          "Høyden vår",
-          "Hvor mye vi sover"
+          "Egenskapene vi arver biologisk fra familien",
+          "Kroppstrekkene vi er født med",
+          "Følelsene vi opplever på egen hånd"
         ],
         "correct": 0,
         "explain": "Kjønn, religion, nasjonalitet og venneflokk er eksempler."
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hva kan hjelpe unge som opplever press?",
         "options": [
-          "Å sammenligne seg mer med andre",
-          "Å slutte å snakke med folk",
+          "Å følge med på andres prestasjoner og sammenligne seg mer",
+          "Å trekke seg fra venner og holde vanskelige tanker for seg selv",
           "Å ha trygge relasjoner og snakke med noen de stoler på",
-          "Å bruke mer tid på sosiale medier"
+          "Å bruke mer tid på sosiale medier for å følge idealer"
         ],
         "correct": 2,
         "explain": "Mestring og trygge relasjoner styrker selvfølelsen."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

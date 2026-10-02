@@ -109,7 +109,7 @@
         "Soy trece años.",
         "Tengo trece años.",
         "Estoy trece años.",
-        "Me llamo trece."
+        "Tengo trece meses."
       ],
       "correct": 1,
       "explain": "På spansk bruker man «tener» (å ha) om alder."
@@ -118,10 +118,10 @@
       "id": "q02",
       "text": "Når bruker du «usted»?",
       "options": [
-        "Til venner",
-        "Til søsken",
-        "Til kjæledyr",
-        "Til voksne du ikke kjenner, for å være høflig"
+        "Til venner du kjenner godt, når dere snakker uformelt.",
+        "Til søsken du kjenner godt, når dere snakker uformelt.",
+        "Til klassekamerater du kjenner godt, når dere snakker uformelt.",
+        "Til voksne du ikke kjenner, når du vil være høflig."
       ],
       "correct": 3,
       "explain": "«usted» er høflighetsformen."
@@ -130,10 +130,10 @@
       "id": "q03",
       "text": "Hvordan sier du 31 på spansk?",
       "options": [
-        "treintauno",
-        "treinta uno",
+        "treinta y dos",
+        "treinta y tres",
         "treinta y uno",
-        "uno y treinta"
+        "treinta y cuatro"
       ],
       "correct": 2,
       "explain": "Fra 31 skrives tallene med «y» (og)."
@@ -142,9 +142,9 @@
       "id": "q04",
       "text": "Hvorfor heter det «Es la una», men «Son las dos»?",
       "options": [
-        "Fordi det er morgen",
-        "Fordi det er natt",
-        "Fordi to er et partall",
+        "Fordi «la» brukes om morgenen og «las» om kvelden",
+        "Fordi «es» brukes om hele timer og «son» om halve timer",
+        "Fordi «la» brukes før to og «las» etter to",
         "Fordi ett er entall og de andre er flertall"
       ],
       "correct": 3,
@@ -155,9 +155,9 @@
       "text": "Hva betyr «No tengo hermanos»?",
       "options": [
         "Jeg har ingen søsken",
-        "Jeg har mange søsken",
-        "Brødrene mine er høye",
-        "Jeg har en bror"
+        "Jeg har to søsken",
+        "Jeg har en bror",
+        "Jeg har ingen kusiner"
       ],
       "correct": 0,
       "explain": "«no» foran verbet gjør setningen nektende."
@@ -166,10 +166,10 @@
       "id": "q06",
       "text": "Hvordan sier du «Hun har blå øyne»?",
       "options": [
-        "Es los ojos azules.",
+        "Tiene los ojos verdes.",
         "Tiene los ojos azules.",
-        "Tengo los ojos azules.",
-        "Tiene azules ojos."
+        "Tiene el pelo azul.",
+        "Tengo los ojos azules."
       ],
       "correct": 1,
       "explain": "«tiene» betyr «hun/han har»."
@@ -178,22 +178,22 @@
       "id": "q07",
       "text": "Hvilken setning er riktig?",
       "options": [
-        "Me gusta las matemáticas.",
-        "Me gusto las matemáticas.",
-        "Yo gustan las matemáticas.",
-        "Me gustan las matemáticas."
+        "Estoy cansado.",
+        "Soy cansado.",
+        "Tengo cansado.",
+        "Estoy cansados."
       ],
-      "correct": 3,
-      "explain": "«las matemáticas» er flertall, derfor «gustan»."
+      "correct": 0,
+      "explain": "Å være trøtt er en tilstand, derfor «estar»."
     },
     {
       "id": "q08",
       "text": "Hvordan sier du «spille fotball»?",
       "options": [
         "jugar al fútbol",
-        "tocar el fútbol",
-        "hacer fútbol",
-        "jugar el fútbol a"
+        "tocar al fútbol",
+        "practicar el fútbol",
+        "jugar con el fútbol"
       ],
       "correct": 0,
       "explain": "Med sport bruker man «jugar a», og «a + el» blir «al»."
@@ -214,9 +214,9 @@
       "id": "q10",
       "text": "Hvorfor kan man ofte sløyfe pronomenet på spansk?",
       "options": [
-        "Fordi det er uhøflig",
-        "Fordi pronomen ikke finnes",
-        "Fordi det alltid står til slutt",
+        "Fordi verbet har samme form for alle personer",
+        "Fordi pronomenet viser når handlingen skjer",
+        "Fordi spanske verb ikke bøyes etter personen",
         "Fordi verbendelsen viser hvem som gjør noe"
       ],
       "correct": 3,
@@ -228,8 +228,8 @@
       "options": [
         "No vivo en Madrid.",
         "Vivo no en Madrid.",
-        "Vivo en Madrid no.",
-        "Yo no vive en Madrid."
+        "No vivo a Madrid.",
+        "No vive en Madrid."
       ],
       "correct": 0,
       "explain": "«no» står rett foran verbet."
@@ -238,10 +238,10 @@
       "id": "q12",
       "text": "Hva er hovedstaden i Spania?",
       "options": [
-        "Barcelona",
+        "Málaga",
         "Madrid",
-        "Sevilla",
-        "Valencia"
+        "Zaragoza",
+        "Bilbao"
       ],
       "correct": 1,
       "explain": "Barcelona er Spanias nest største by."
@@ -367,7 +367,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -396,9 +396,9 @@
         "text": "Hva betyr «Son las ocho y cuarto»?",
         "options": [
           "Kvart på åtte",
-          "Halv åtte",
+          "Kvart over ni",
           "Kvart over åtte",
-          "Åtte minutter over"
+          "Halv ni"
         ],
         "correct": 2,
         "explain": "«y cuarto» betyr og et kvarter."
@@ -442,8 +442,7 @@
         "type": "sant-usant",
         "text": "Brasil er et spansktalende land.",
         "correct": false,
-        "explain": "I Brasil snakker man portugisisk.",
-        "niva": "eksempel"
+        "explain": "I Brasil snakker man portugisisk."
       }
     ],
     "skriv": [
@@ -518,12 +517,91 @@
           "Bruker **estar** om sted: **está**.",
           "Bruker **ser** om opprinnelse: **soy de**."
         ]
+      },
+      {
+        "text": "Du møter en voksen du ikke kjenner om morgenen. Skriv på spansk en høflig hilsen og spør hvordan det går. Bruk usted-form.",
+        "fasit": "¡Buenos días! ¿Cómo está usted?",
+        "kriterier": [
+          "Bruker en passende morgenhilsen, for eksempel «¡Buenos días!»",
+          "Bruker høflig usted-form, for eksempel «¿Cómo está usted?»"
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Forklar på spansk hvilke aldersgrupper som går på la escuela primaria og la ESO i Spania, og hva elevene kan gå videre til etterpå.",
+        "fasit": "La escuela primaria es para alumnos de seis a doce años. Después estudian la ESO de los doce a los dieciséis años. Luego pueden estudiar el Bachillerato, que prepara para la universidad.",
+        "kriterier": [
+          "La escuela primaria er for elever fra 6 til 12 år, og la ESO for elever fra 12 til 16 år.",
+          "Etter la ESO kan elevene ta el Bachillerato, som forbereder til universitetet."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på spansk at du alltid hører på musikk, og at du noen ganger sykler i helgene.",
+        "fasit": "Siempre escucho música y a veces monto en bici los fines de semana.",
+        "kriterier": [
+          "Bruker «siempre» om å høre på musikk og «a veces» om å sykle.",
+          "Bruker uttrykket «los fines de semana» for «i helgene»."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Sammenlign Chile og Argentina: Hvilken årstid er det der i desember og januar? Svar på spansk.",
+        "fasit": "En Chile y Argentina es verano en diciembre y enero.",
+        "kriterier": [
+          "Sier at det er sommer i både Chile og Argentina i desember og januar.",
+          "Skriver årstiden som «verano»."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på spansk hvilket land som har flest spansktalende, og hvilket språk man snakker i Brasil.",
+        "fasit": "México es el país con más hablantes de español. En Brasil se habla portugués.",
+        "kriterier": [
+          "Nevner Mexico som landet med flest spansktalende.",
+          "Sier at man snakker portugisisk i Brasil."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Fortell på spansk når mange spiser lunsj og middag i Spania.",
+        "fasit": "En España, muchas personas almuerzan a las dos o tres. Cenan a las nueve o diez de la noche.",
+        "kriterier": [
+          "Oppgir at mange spiser lunsj rundt klokka to eller tre.",
+          "Oppgir at mange spiser middag rundt klokka ni eller ti om kvelden."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Sammenlign La Tomatina i Spania med El Día de Muertos i Mexico. Skriv når de skjer, og hva folk gjør.",
+        "fasit": "La Tomatina es en agosto, en Buñol, y la gente se tira tomates. El Día de Muertos es el uno y dos de noviembre en México, donde se recuerda a los muertos con altares coloridos.",
+        "kriterier": [
+          "Knytter La Tomatina til august og tomatkasting i Buñol.",
+          "Knytter El Día de Muertos til 1.–2. november i Mexico og til minnet om de døde, for eksempel med fargerike altere."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på spansk hvem som tegnet Sagrada Família, og hvilken by kirken ligger i.",
+        "fasit": "Antoni Gaudí diseñó la Sagrada Família. La iglesia está en Barcelona.",
+        "kriterier": [
+          "Nevner Antoni Gaudí som arkitekten som tegnet Sagrada Família.",
+          "Sier at kirken ligger i Barcelona."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

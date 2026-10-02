@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva gir arbeid den enkelte i tillegg til lønn?",
       "options": [
-        "Ingenting",
-        "Bare stress",
+        "Utdanning, karakterer og vitnemål",
+        "Arbeidstid, arbeidsoppgaver og arbeidssted",
         "Fellesskap, identitet og mestring",
-        "Bare fritid"
+        "Skatt, trygd og offentlige tjenester"
       ],
       "correct": 2,
       "explain": "Arbeid gir også struktur og rettigheter."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hva betyr utenforskap?",
       "options": [
-        "Å bo i utlandet",
+        "Å være arbeidsledig mens man fortsatt deltar i utdanning",
         "Å stå utenfor viktige fellesskap som utdanning og arbeid",
-        "Å jobbe ute",
-        "Å være på ferie"
+        "Å bo langt fra familie mens man har jobb og skole",
+        "Å slutte i utdanning for å begynne i en jobb"
       ],
       "correct": 1,
       "explain": "Utenforskap har konsekvenser både for den enkelte og samfunnet."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvorfor er velferdsstaten avhengig av at mange er i arbeid?",
       "options": [
-        "Fordi skatteinntektene finansierer velferden",
-        "Fordi staten eier alle bedrifter",
-        "Fordi det er påbudt",
-        "Det er den ikke"
+        "Fordi skatten fra arbeid betaler for velferden",
+        "Fordi bedriftene eier tjenestene staten tilbyr",
+        "Fordi flere ansatte gir staten lavere utgifter",
+        "Fordi arbeid gjør at familier ikke trenger offentlige tjenester"
       ],
       "correct": 0,
       "explain": "Skatt fra arbeid betaler for skoler, sykehus og trygder."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva står NEET for?",
       "options": [
-        "Nye elever etter eksamen",
-        "Norsk etat for eksport og transport",
-        "Nettverk for elever og trenere",
-        "Unge som verken er i utdanning, arbeid eller opplæring"
+        "Unge som er i utdanning, arbeid eller opplæring",
+        "Unge som søker arbeid etter fullført utdanning",
+        "Unge som er i jobb uten formell opplæring",
+        "Unge som ikke er i utdanning, arbeid eller opplæring"
       ],
       "correct": 3,
       "explain": "Forkortelsen kommer fra engelsk.",
@@ -129,9 +129,9 @@
       "text": "Hva er en vanlig årsak til utenforskap?",
       "options": [
         "Helseplager eller svake skoleresultater",
-        "Å ha mange venner",
-        "Å ha fullført videregående",
-        "Å ha sommerjobb"
+        "Gode karakterer eller fullført videregående skole",
+        "Stabile familieforhold eller gode skolevaner",
+        "Sommerjobb eller deltakelse i fritidsaktiviteter"
       ],
       "correct": 0,
       "explain": "Årsakene er ofte sammensatte."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva gjør oppfølgingstjenesten?",
       "options": [
-        "Følger opp skatten",
+        "Hjelper bedrifter med å betale skatt og følge arbeidsregler",
         "Hjelper unge utenfor skole og arbeid tilbake til opplæring eller jobb",
-        "Kontrollerer restauranter",
-        "Deler ut karakterer"
+        "Kontrollerer at elever møter til undervisning og gjør skolearbeid",
+        "Veileder voksne i søknader om trygd og økonomisk støtte"
       ],
       "correct": 1,
       "explain": "Oppfølgingstjenesten drives av fylkeskommunen.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er en konsekvens av utenforskap for samfunnet?",
       "options": [
-        "Flere skatteinntekter",
-        "Mindre behov for trygd",
+        "Økte skatteinntekter og større tilgang på arbeidskraft",
+        "Lavere utgifter til velferd og større skatteinntekter",
         "Tapte skatteinntekter og mangel på arbeidskraft",
-        "Ingen konsekvenser"
+        "Flere ledige jobber og mindre behov for opplæring"
       ],
       "correct": 2,
       "explain": "Utenforskap koster både den enkelte og samfunnet."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvordan kan arbeidsgivere bidra mot utenforskap?",
       "options": [
-        "Ved å bare ansette folk med lang erfaring",
-        "Ved å legge ned bedriften",
-        "Ved å kreve perfekt CV",
+        "Ved å prioritere søkere med lang erfaring og høy utdanning",
+        "Ved å redusere opplæring og fjerne støtte på arbeidsplassen",
+        "Ved å kreve at søkere har jobbet i samme bransje før",
         "Ved å tilby lærlingplasser, sommerjobber og tilrettelegging"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hva kan du som elev gjøre mot utenforskap?",
       "options": [
         "Inkludere andre og si fra om mobbing",
-        "Holde deg for deg selv",
-        "Ignorere de som sliter",
-        "Ingenting"
+        "Unngå å blande deg inn når noen blir holdt utenfor",
+        "Prioritere egne venner når grupper dannes i klassen",
+        "Velge grupper ut fra hvem som allerede er populær"
       ],
       "correct": 0,
       "explain": "Fellesskap forebygger utenforskap."
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva er NAV?",
       "options": [
-        "En bank",
+        "En offentlig etat for skole, karakterer og utdanning",
         "En offentlig etat for arbeid, trygd og sosiale tjenester",
-        "En fagforening",
-        "En videregående skole"
+        "En privat bank for lån, sparing og forsikring",
+        "En organisasjon for lønn, tariffavtaler og arbeidsvilkår"
       ],
       "correct": 1,
       "explain": "NAV gir blant annet veiledning og arbeidstrening.",
@@ -326,10 +326,10 @@
         "type": "flervalg",
         "text": "Hva er arbeidstrening?",
         "options": [
-          "Styrketrening på jobben",
+          "Et kurs der man lærer om jobbsøking uten praksis",
           "Et tiltak der man prøver seg i arbeid med støtte",
-          "En type eksamen",
-          "En fagforening"
+          "En prøve der man blir vurdert med karakterer på arbeidsplassen",
+          "Et kurs der man øver på styrke og kondisjon på arbeidsplassen"
         ],
         "correct": 1,
         "explain": "Arbeidstrening kan være et steg inn i arbeidslivet.",
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva finansieres av skatteinntekter?",
         "options": [
-          "Private bedrifter",
-          "Aksjer",
+          "Private bedrifter, butikker og fabrikker",
+          "Aksjer, fond og bankinnskudd",
           "Skoler, sykehus og trygder",
-          "Mobiltelefoner"
+          "Lønn, feriepenger og bonuser i private bedrifter"
         ],
         "correct": 2,
         "explain": "Dette er kjernen i velferdsstaten."
@@ -353,10 +353,10 @@
         "type": "flervalg",
         "text": "Hva er et nettverk i arbeidslivet?",
         "options": [
-          "Et datanettverk",
-          "Et fiskegarn",
-          "En nettside",
-          "Personer man kjenner, som kan hjelpe med jobb og kontakter"
+          "Et digitalt system som kobler ansatte på ulike kontorer",
+          "En gruppe kolleger som fordeler arbeidsoppgaver på jobben",
+          "En liste over bedrifter som søker nye ansatte",
+          "Personer man kjenner som kan gi jobbtips og kontakter"
         ],
         "correct": 3,
         "explain": "Mange jobber besettes gjennom nettverk."
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

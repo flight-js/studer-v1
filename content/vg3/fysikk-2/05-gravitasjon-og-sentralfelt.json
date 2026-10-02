@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva skjer med gravitasjonskraften når avstanden dobles?",
       "options": [
-        "Den halveres",
+        "Den blir halvparten så stor",
         "Den blir en firedel",
-        "Den dobles",
-        "Den er uendret"
+        "Den blir dobbelt så stor",
+        "Den blir uendret i størrelse"
       ],
       "correct": 1,
       "explain": "Kraften avtar med r²."
@@ -89,9 +89,9 @@
       "text": "Hva er potensiell energi i et sentralfelt?",
       "options": [
         "E_p = −γMm / r",
-        "E_p = mgh alltid",
-        "E_p = ½mv²",
-        "E_p = γMm · r"
+        "E_p = γMm / r",
+        "E_p = −γMm / r²",
+        "E_p = −γMm · r"
       ],
       "correct": 0,
       "explain": "Med nullpunkt uendelig langt unna."
@@ -101,9 +101,9 @@
       "text": "Hva er unnslipningsfarten fra jordoverflaten?",
       "options": [
         "Omtrent 7,9 km/s",
-        "Omtrent 3,0 km/s",
+        "Omtrent 5,6 km/s",
         "Omtrent 11,2 km/s",
-        "Omtrent 300 km/s"
+        "Omtrent 15,8 km/s"
       ],
       "correct": 2,
       "explain": "v = √(2γM / r)."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva avhenger banefarten til en satellitt i sirkelbane av?",
       "options": [
-        "Satellittens masse",
-        "Satellittens form",
-        "Satellittens farge",
+        "Satellittens masse og avstanden",
+        "Planetens masse og satellittens radius",
+        "Planetens radius og avstanden",
         "Planetens masse og avstanden"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva er omløpstiden til en geostasjonær satellitt?",
       "options": [
-        "Ett døgn",
-        "92 minutter",
-        "Én time",
-        "Ett år"
+        "Omtrent 24 timer",
+        "Omtrent 90 minutter",
+        "Omtrent 12 timer",
+        "Omtrent 365 døgn"
       ],
       "correct": 0,
       "explain": "Den står stille over samme punkt."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvor går en satellitt raskest i en ellipsebane?",
       "options": [
-        "Lengst unna planeten",
-        "Nærmest planeten",
-        "Like fort overalt",
-        "Midt mellom"
+        "Når satellitten er lengst fra planeten",
+        "Når satellitten er nærmest planeten",
+        "Når satellitten er midt mellom nærmeste og fjerneste punkt",
+        "Når satellitten passerer banens gjennomsnittlige avstand"
       ],
       "correct": 1,
       "explain": "Keplers andre lov og energibevaring."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvorfor føler astronauter seg vektløse i romstasjonen?",
       "options": [
-        "Fordi det ikke finnes gravitasjon der",
-        "Fordi de er for langt unna",
+        "Fordi gravitasjonen er svært svak ved romstasjonen",
+        "Fordi romstasjonen befinner seg utenfor jordas gravitasjonsfelt",
         "Fordi de er i fritt fall rundt jorda",
-        "Fordi de har mindre masse"
+        "Fordi astronautene har mindre masse enn på bakken"
       ],
       "correct": 2,
       "explain": "Gravitasjonen er omtrent 90 % av den ved bakken."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva sier Keplers tredje lov?",
       "options": [
-        "Planetene går i sirkler",
-        "Like arealer på lik tid",
-        "Alle planeter har samme fart",
+        "T / r³ er lik for alle planetene rundt sola",
+        "T³ / r² er lik for alle planetene rundt sola",
+        "T² · r³ er lik for alle planetene rundt sola",
         "T² / r³ er lik for alle planetene rundt sola"
       ],
       "correct": 3,
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva er banefarten til romstasjonen omtrent?",
       "options": [
-        "7,7 km/s",
-        "11,2 km/s",
-        "0,5 km/s",
-        "30 km/s"
+        "Omtrent 7,7 km/s",
+        "Omtrent 5,6 km/s",
+        "Omtrent 11,2 km/s",
+        "Omtrent 30 km/s"
       ],
       "correct": 0,
       "explain": "v = √(γM / r) med r ≈ 6,77 · 10⁶ m.",
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvordan endres den potensielle energien når en satellitt fjerner seg fra jorda?",
       "options": [
-        "Den minker",
-        "Den øker – blir mindre negativ",
-        "Den er uendret",
-        "Den blir positiv og stor"
+        "Den minker og blir mer negativ",
+        "Den øker og blir mindre negativ",
+        "Den holder seg konstant og negativ",
+        "Den øker og blir positiv"
       ],
       "correct": 1,
       "explain": "E_p = −γMm / r."
@@ -307,10 +307,10 @@
         "type": "flervalg",
         "text": "Hva er omløpstiden til romstasjonen omtrent?",
         "options": [
-          "24 timer",
-          "92 minutter",
-          "10 minutter",
-          "1 uke"
+          "Omtrent 24 timer",
+          "Omtrent 92 minutter",
+          "Omtrent 10 minutter",
+          "Omtrent 1 uke"
         ],
         "correct": 1,
         "explain": "T = 2πr / v.",
@@ -323,8 +323,8 @@
         "options": [
           "v = √(2γM / r)",
           "v = √(γM / r)",
-          "v = γM / r",
-          "v = 2πr / T"
+          "v = √(γM / (2r))",
+          "v = 2√(γM / r)"
         ],
         "correct": 0,
         "explain": "Total energi lik null."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hvor høyt over bakken ligger en geostasjonær bane omtrent?",
         "options": [
-          "400 km",
-          "3600 km",
-          "36 000 km",
-          "384 000 km"
+          "Omtrent 400 km",
+          "Omtrent 3 600 km",
+          "Omtrent 36 000 km",
+          "Omtrent 384 000 km"
         ],
         "correct": 2,
         "explain": "Omløpstid ett døgn."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

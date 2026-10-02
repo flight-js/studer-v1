@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hva kjennetegner en høykonjunktur?",
       "options": [
-        "Høy arbeidsledighet",
-        "Mange konkurser",
+        "Lavt salg og høy arbeidsledighet",
+        "Lav produksjon og mange permitteringer",
         "Høyt salg og lav arbeidsledighet",
-        "At alle blir permittert"
+        "Fallende salg og flere konkurser"
       ],
       "correct": 2,
       "explain": "I høykonjunktur trenger bedriftene flere ansatte."
@@ -100,9 +100,9 @@
       "text": "Hvor jobber de fleste i Norge i dag?",
       "options": [
         "I tjenesteytende næringer",
-        "I jordbruket",
-        "I fisket",
-        "I gruvedrift"
+        "I industri og bygging",
+        "I jordbruk og skogbruk",
+        "I fiske og gruvedrift"
       ],
       "correct": 0,
       "explain": "Helse, handel, skole og IT er eksempler."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er automatisering?",
       "options": [
-        "At folk jobber mer",
-        "At bilene blir større",
-        "At bedrifter flytter til utlandet",
+        "At ansatte overtar oppgaver maskiner gjorde før",
+        "At maskiner lager nye oppgaver for ansatte",
+        "At bedrifter flytter produksjon til andre land",
         "At maskiner overtar oppgaver mennesker gjorde før"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva er det grønne skiftet?",
       "options": [
-        "At alle maler husene grønne",
+        "Overgangen til et samfunn med høyere klimagassutslipp",
         "Overgangen til et samfunn med lavere klimagassutslipp",
-        "En ny type skift på jobb",
-        "At man bare spiser grønnsaker"
+        "Overgangen til et samfunn med mer bruk av fossil energi",
+        "Overgangen til et samfunn med mer avfall fra engangsprodukter"
       ],
       "correct": 1,
       "explain": "Det grønne skiftet gir nye jobber innen blant annet fornybar energi."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er et eksempel på offentlig sektor?",
       "options": [
-        "En frisørsalong",
-        "En dagligvarebutikk",
-        "Et sykehus",
-        "En restaurant"
+        "En privat klinikk",
+        "En privat skole",
+        "Et offentlig sykehus",
+        "En privat barnehage"
       ],
       "correct": 2,
       "explain": "Offentlig sektor drives av stat, fylker og kommuner."
@@ -148,9 +148,9 @@
       "text": "Hvorfor bør du tenke langsiktig når du velger utdanning?",
       "options": [
         "Fordi en utdanning tar flere år og konjunkturene endrer seg",
-        "Fordi arbeidslivet aldri endrer seg",
-        "Fordi alle jobber forsvinner",
-        "Det er ikke nødvendig"
+        "Fordi utdanningen bestemmer nøyaktig hvilken jobb du får etterpå",
+        "Fordi konjunkturene påvirker lønn, men ikke hvilke jobber som finnes",
+        "Fordi arbeidsmarkedet endrer seg mindre enn utdanningene gjør"
       ],
       "correct": 0,
       "explain": "Det som gjelder i dag, kan være annerledes når du er ferdig."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva er permittering?",
       "options": [
-        "At man får fast jobb",
-        "At man får lønnsøkning",
-        "At man blir forfremmet",
+        "Midlertidig fritak fra arbeid når den ansatte selv ønsker fri",
+        "Midlertidig bytte til en annen jobb når bedriften har lite å gjøre",
+        "Fast fritak fra arbeid når bedriften har for lite å gjøre",
         "Midlertidig fritak fra arbeid når bedriften har for lite å gjøre"
       ],
       "correct": 3,
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hva betyr globalisering for arbeidslivet?",
       "options": [
-        "At alle må flytte til utlandet",
+        "At norske bedrifter møter mindre konkurranse fra utenlandske bedrifter",
         "At norske bedrifter konkurrerer med bedrifter i hele verden",
-        "At handel stopper opp",
-        "At ingen jobber i Norge"
+        "At norske bedrifter unngår konkurranse fra bedrifter i andre land",
+        "At norske bedrifter selger mindre til bedrifter i andre land"
       ],
       "correct": 1,
       "explain": "Noen jobber flyttes ut, mens andre oppstår."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvilke egenskaper blir viktigere i framtidens arbeidsliv?",
       "options": [
-        "Å gjøre det samme hele livet",
-        "Å jobbe alene uten å samarbeide",
+        "Fysisk styrke, rutinearbeid og bruk av papirskjemaer",
+        "Rask jobbing, faste oppgaver og papirbaserte ferdigheter",
         "Samarbeid, problemløsning og digitale ferdigheter",
-        "Å unngå ny teknologi"
+        "Å følge instrukser, gjøre rutinearbeid og bruke papirskjemaer"
       ],
       "correct": 2,
       "explain": "Endringer krever evne til å lære og tilpasse seg."
@@ -317,9 +317,9 @@
         "text": "Hvilket yrke har endret seg på grunn av elbiler?",
         "options": [
           "Bilmekaniker",
-          "Frisør",
-          "Baker",
-          "Barnehagelærer"
+          "Industrimekaniker",
+          "Landbruksmekaniker",
+          "Flymekaniker"
         ],
         "correct": 0,
         "explain": "Bilmekanikere jobber nå mye med elektronikk og programvare.",
@@ -332,7 +332,7 @@
         "options": [
           "Privat sektor",
           "Primærnæringen",
-          "Industrien",
+          "Sekundærnæringen",
           "Offentlig sektor"
         ],
         "correct": 3,
@@ -343,10 +343,10 @@
         "type": "flervalg",
         "text": "Hvilket område gir nye jobber i det grønne skiftet?",
         "options": [
-          "Kullgruver",
+          "Kullkraft",
           "Fornybar energi",
-          "Engangsplast",
-          "Oljefyring"
+          "Oljefyring",
+          "Engangsplast"
         ],
         "correct": 1,
         "explain": "Også gjenvinning og energieffektive bygg gir nye jobber."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

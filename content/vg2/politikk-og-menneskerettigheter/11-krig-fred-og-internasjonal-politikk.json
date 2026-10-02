@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvilke land har vetorett i FNs sikkerhetsråd?",
       "options": [
-        "Alle FNs medlemsland",
+        "USA, Russland, Kina, Tyskland og Japan",
         "USA, Russland, Kina, Storbritannia og Frankrike",
-        "Norge og Sverige",
-        "EU-landene"
+        "USA, Storbritannia, Frankrike, India og Brasil",
+        "Russland, Kina, Storbritannia, Tyskland og India"
       ],
       "correct": 1,
       "explain": "De fem faste medlemmene."
@@ -91,9 +91,9 @@
       "text": "Hva sier NATOs artikkel 5?",
       "options": [
         "At et angrep på ett medlem regnes som et angrep på alle",
-        "At NATO skal avskaffes",
-        "At alle medlemmer må ha atomvåpen",
-        "At NATO styrer FN"
+        "At et angrep på ett NATO-medlem regnes som et angrep på alle FN-land",
+        "At et angrep på et NATO-partnerland regnes som et angrep på alle medlemmene",
+        "At et angrep på ett medlem forplikter alle andre til å sende militære styrker"
       ],
       "correct": 0,
       "explain": "Kollektivt forsvar."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hvorfor har Sikkerhetsrådet ofte vært handlingslammet?",
       "options": [
-        "Fordi det har for få medlemmer",
-        "Fordi det ikke kan møtes",
+        "Fordi alle beslutninger krever støtte fra samtlige medlemmer av rådet",
+        "Fordi hvert FN-medlem har vetorett i Sikkerhetsrådet",
         "Fordi stormaktene kan bruke vetoretten",
-        "Fordi det ikke har penger"
+        "Fordi rådet bare kan behandle konflikter som Generalforsamlingen viser til"
       ],
       "correct": 2,
       "explain": "Også i konflikter de selv er part i."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er mekling?",
       "options": [
-        "Militær intervensjon",
-        "Handelsforbud",
-        "Nedrustning",
+        "At en tredjepart avgjør hvem som har rett og pålegger partene en avtale",
+        "At en tredjepart innfører økonomiske straffer for å få partene enige",
+        "At en tredjepart sender styrker for å stanse kamphandlingene",
         "At en tredjepart hjelper partene å komme fram til en avtale"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva er sikkerhetsdilemmaet?",
       "options": [
         "At én stats opprustning gjør andre utrygge, så de også ruster opp",
-        "At FN har for lite penger",
-        "At demokratier ikke kriger",
-        "At sanksjoner alltid virker"
+        "At én stats nedrustning gjør andre utrygge, så de også ruster opp",
+        "At én stats opprustning gjør andre tryggere, så de trapper ned forsvaret",
+        "At én stats økonomiske vekst gjør andre utrygge, så de innfører sanksjoner"
       ],
       "correct": 0,
       "explain": "Et realistisk begrep."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Når ble Finland og Sverige med i NATO?",
       "options": [
-        "1949",
+        "2022 og 2023",
         "2023 og 2024",
-        "1990",
-        "2014"
+        "2023 og 2023",
+        "2024 og 2024"
       ],
       "correct": 1,
       "explain": "Etter Russlands fullskala invasjon av Ukraina.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva sier tesen om demokratisk fred?",
       "options": [
-        "At alle land er fredelige",
-        "At diktaturer aldri kriger",
+        "At demokratier sjelden kriger mot diktaturer",
+        "At demokratier sjelden deltar i kriger utenfor egne grenser",
         "At demokratier sjelden kriger mot hverandre",
-        "At krig er umulig"
+        "At demokratier skaper fred ved å spre demokrati til andre land"
       ],
       "correct": 2,
       "explain": "En liberal forklaring.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva er forskjellen på kollektiv sikkerhet og kollektivt forsvar?",
       "options": [
-        "Det er det samme",
-        "Kollektivt forsvar gjelder alle stater",
-        "Kollektiv sikkerhet gjelder bare NATO",
+        "Kollektiv sikkerhet gjelder en gruppe allierte, kollektivt forsvar gjelder alle stater",
+        "Kollektiv sikkerhet gjelder NATO-land, kollektivt forsvar gjelder alle FN-medlemmer",
+        "Det er det samme: begge ordningene forplikter allierte til å forsvare hverandre",
         "Kollektiv sikkerhet gjelder alle stater, kollektivt forsvar en gruppe allierte"
       ],
       "correct": 3,
@@ -178,8 +178,8 @@
       "options": [
         "Borgerkriger innenfor stater",
         "Kriger mellom stormakter",
-        "Kolonikriger",
-        "Religionskriger i Europa"
+        "Kriger mellom naboland",
+        "Kriger mellom kolonimakter"
       ],
       "correct": 0,
       "explain": "Om etnisitet, ressurser eller makt."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva gjør FNs fredsbevarende styrker?",
       "options": [
-        "Angriper land",
+        "Overvåker valg og godkjenner resultatene",
         "Overvåker våpenhviler og beskytter sivile",
-        "Fører valgkamp",
-        "Driver handel"
+        "Kontrollerer grensehandel og innkrever tollavgifter",
+        "Trener nasjonale styrker og leder landets regjering"
       ],
       "correct": 1,
       "explain": "Blåhjelmer."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak er en sanksjon?",
         "options": [
-          "Mekling",
+          "Tilrettelegging for fredsforhandlinger",
           "Frysing av formuer",
-          "Fredsbevaring",
-          "Valgobservasjon"
+          "Utsending av fredsbevarende styrker",
+          "Overvåking av nasjonale valg"
         ],
         "correct": 1,
         "explain": "Et økonomisk virkemiddel."
@@ -334,8 +334,8 @@
         "options": [
           "2021–2022",
           "1949–1950",
-          "2001–2002 bare",
-          "Aldri"
+          "1979–1980",
+          "2001–2002"
         ],
         "correct": 0,
         "explain": "Som valgt medlem.",
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

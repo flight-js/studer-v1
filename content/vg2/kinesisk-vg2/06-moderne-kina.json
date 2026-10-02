@@ -83,8 +83,8 @@
       "options": [
         "Mao Zedong",
         "Deng Xiaoping",
-        "Konfucius",
-        "Xi Jinping"
+        "Jiang Zemin",
+        "Hu Jintao"
       ],
       "correct": 1,
       "explain": "Reformene åpnet for markedsøkonomi."
@@ -93,10 +93,10 @@
       "id": "q02",
       "text": "Hva er WeChat (微信)?",
       "options": [
-        "En «superapp» for meldinger, betaling og mye mer",
-        "En TV-kanal",
-        "En bank",
-        "Et tog"
+        "En app for meldinger, betaling og andre tjenester",
+        "En plattform for korte videoer og direktesendinger",
+        "En nettbutikk for klær, elektronikk og varer",
+        "En søkemotor for nettsider, nyheter og kart"
       ],
       "correct": 0,
       "explain": "Nesten alle i Kina bruker den.",
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva betyr 污染?",
       "options": [
-        "teknologi",
-        "by",
+        "utvikling",
+        "befolkning",
         "forurensning",
-        "økonomi"
+        "ressurs"
       ],
       "correct": 2,
       "explain": "wūrǎn."
@@ -118,9 +118,9 @@
       "id": "q04",
       "text": "Når ble Hongkong overført fra Storbritannia til Kina?",
       "options": [
-        "1949",
-        "1978",
-        "2008",
+        "1984",
+        "1990",
+        "1999",
         "1997"
       ],
       "correct": 3,
@@ -130,23 +130,23 @@
       "id": "q05",
       "text": "Hvilke tegn brukes i Taiwan?",
       "options": [
-        "Tradisjonelle tegn",
-        "Forenklede tegn",
-        "Latinske bokstaver",
-        "Japanske tegn"
+        "Tradisjonelle kinesiske tegn",
+        "Forenklede kinesiske tegn",
+        "Japanske kana-tegn",
+        "Koreanske hangul-tegn"
       ],
       "correct": 0,
-      "explain": "Kina bruker forenklede tegn.",
+      "explain": "I Taiwan brukes tradisjonelle kinesiske tegn, mens Fastlands-Kina bruker forenklede tegn.",
       "niva": "eksempel"
     },
     {
       "id": "q06",
       "text": "Hva er Kinas politiske system?",
       "options": [
-        "Et flerpartidemokrati",
+        "Et flerpartidemokrati med konkurrerende partier",
         "En ettpartistat styrt av kommunistpartiet",
-        "Et monarki",
-        "Et føderalt demokrati"
+        "Et monarki med en arvelig keiser",
+        "En føderal republikk med selvstyrte delstater"
       ],
       "correct": 1,
       "explain": "Det finnes ikke frie valg."
@@ -158,7 +158,7 @@
         "gå på jobb",
         "gå på skolen",
         "gå på nett",
-        "gå opp"
+        "gå til timen"
       ],
       "correct": 2,
       "explain": "shàngwǎng."
@@ -167,23 +167,23 @@
       "id": "q08",
       "text": "Hva eksporterer Norge blant annet til Kina?",
       "options": [
-        "Elektronikk",
-        "Klær",
         "Ris",
+        "Bomull",
+        "Tropiske frukter",
         "Sjømat"
       ],
       "correct": 3,
-      "explain": "Kina eksporterer mye elektronikk og klær til Norge.",
+      "explain": "Norsk sjømat er en viktig eksportvare til Kina.",
       "niva": "eksempel"
     },
     {
       "id": "q09",
       "text": "Hva er en utfordring i det moderne Kina?",
       "options": [
-        "Ulikhet mellom by og land",
-        "For få byer",
-        "For lite teknologi",
-        "Ingen handel"
+        "Store forskjeller mellom by og land",
+        "Svært få innbyggere i kinesiske storbyer",
+        "Svært lite handel mellom Kina og andre land",
+        "Svært lav teknologibruk i storbyene"
       ],
       "correct": 0,
       "explain": "Også forurensning og eldrebølge."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva betyr 手机?",
       "options": [
-        "datamaskin",
-        "mobil",
-        "hånd",
-        "maskin"
+        "nettbrett",
+        "mobiltelefon",
+        "digitalkamera",
+        "fjernkontroll"
       ],
       "correct": 1,
       "explain": "shǒujī – «håndmaskin»."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva betyr 科技?",
         "options": [
-          "kunst",
+          "økonomi",
           "teknologi",
-          "kjemi",
-          "klima"
+          "miljø",
+          "handel"
         ],
         "correct": 1,
         "explain": "kējì."
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hva kalles Kinas internettsensur ofte?",
         "options": [
-          "Den kinesiske mur",
-          "Den røde linjen",
+          "Den digitale silkeveien",
+          "Kinas sosiale kredittsystem",
           "Den store brannmuren",
-          "Silkeveien"
+          "Made in China 2025"
         ],
         "correct": 2,
         "explain": "Mange vestlige nettsteder er blokkert.",
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

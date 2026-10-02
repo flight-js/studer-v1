@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvorfor er oppløsning av ammoniumnitrat i vann spontan selv om den er endoterm?",
       "options": [
-        "Fordi ΔH er negativ",
+        "Fordi entalpien blir mer negativ",
         "Fordi entropien øker mye",
-        "Fordi det er en katalysator",
-        "Den er ikke spontan"
+        "Fordi entropien minker kraftig",
+        "Fordi en katalysator senker ΔG"
       ],
       "correct": 1,
       "explain": "TΔS er større enn ΔH."
@@ -89,8 +89,8 @@
       "options": [
         "ΔG = ΔH − TΔS",
         "ΔG = ΔH + TΔS",
-        "ΔG = −zF",
-        "ΔG = m · c · ΔT"
+        "ΔG = ΔH − ΔS/T",
+        "ΔG = TΔS − ΔH"
       ],
       "correct": 0,
       "explain": "T i kelvin."
@@ -102,7 +102,7 @@
         "Fast stoff",
         "Væske",
         "Gass",
-        "Alle er like"
+        "Vandig løsning"
       ],
       "correct": 2,
       "explain": "S(g) > S(l) > S(s)."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "ΔH > 0 og ΔS < 0. Når er reaksjonen spontan?",
       "options": [
-        "Alltid",
         "Ved lav temperatur",
         "Ved høy temperatur",
-        "Aldri"
+        "Ved temperaturer der TΔS er større enn ΔH",
+        "Ved ingen temperatur"
       ],
       "correct": 3,
       "explain": "ΔG er alltid positiv."
@@ -124,9 +124,9 @@
       "text": "Hva betyr ΔG = 0?",
       "options": [
         "Systemet er i likevekt",
-        "Reaksjonen er spontan",
-        "Reaksjonen går bare bakover",
-        "Det er ingen reaksjon"
+        "Reaksjonen går netto framover",
+        "Reaksjonen går netto bakover",
+        "Reaksjonens ΔG er negativ"
       ],
       "correct": 0,
       "explain": "Ingen netto drivkraft."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "ΔH° = −92 kJ og ΔS° = −0,199 kJ/K. Hva er ΔG° ved 298 K?",
       "options": [
-        "−151 kJ",
+        "Omtrent −151 kJ",
         "Omtrent −33 kJ",
-        "+33 kJ",
-        "−92 kJ"
+        "Omtrent +33 kJ",
+        "Omtrent −92 kJ"
       ],
       "correct": 1,
       "explain": "−92 − 298 · (−0,199) ≈ −33 kJ."
@@ -159,8 +159,8 @@
       "id": "q08",
       "text": "Hva forteller termodynamikken ikke?",
       "options": [
-        "Om en reaksjon kan skje",
-        "Hvor mye varme som avgis",
+        "Hvorvidt reaksjonen er spontan",
+        "Om reaksjonen tar opp eller avgir varme",
         "Hvordan entropien endres",
         "Hvor fort reaksjonen går"
       ],
@@ -172,9 +172,9 @@
       "text": "Hva sier termodynamikkens andre lov?",
       "options": [
         "Universets totale entropi øker i spontane prosesser",
-        "Energi kan skapes",
-        "Entropien synker alltid",
-        "Alle reaksjoner er eksoterme"
+        "Universets totale entropi minker i spontane prosesser",
+        "Systemets entropi øker i spontane prosesser",
+        "Universets totale energi øker i spontane prosesser"
       ],
       "correct": 0,
       "explain": "Grunnlaget for spontanitet."
@@ -185,8 +185,8 @@
       "options": [
         "Ved høy temperatur",
         "Ved lav temperatur",
-        "Alltid",
-        "Aldri"
+        "Ved temperaturen der ΔG = 0",
+        "Ved temperaturer der T|ΔS| > |ΔH|"
       ],
       "correct": 1,
       "explain": "Da er ΔH større enn TΔS."
@@ -304,7 +304,7 @@
           "Over ca. 100 K",
           "Over ca. 460 K",
           "Under ca. 460 K",
-          "Aldri"
+          "Ved ca. 460 K"
         ],
         "correct": 1,
         "explain": "T = ΔH/ΔS ≈ 460 K."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva er R i ΔG° = −RT ln K?",
         "options": [
-          "Faradays konstant",
-          "Reaksjonsfarten",
+          "Faradays konstant, 96 485 C/mol",
+          "Boltzmanns konstant, 1,38 × 10⁻²³ J/K",
           "Gasskonstanten, 8,314 J/(mol·K)",
-          "Radien"
+          "Avogadros konstant, 6,022 × 10²³ mol⁻¹"
         ],
         "correct": 2,
         "explain": "Den universelle gasskonstanten."
@@ -414,6 +414,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

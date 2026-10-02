@@ -95,9 +95,9 @@
       "text": "Hva er hovedmålet med grønn kjemi?",
       "options": [
         "Å redusere bruk og dannelse av farlige stoffer i kjemiske prosesser og produkter",
-        "Å bruke flere grønne fargestoffer",
-        "Å øke produksjonen uansett miljøkostnad",
-        "Å erstatte all kjemi med biologi"
+        "Å bruke grønne fargestoffer for å gjøre kjemiske produkter mindre farlige",
+        "Å øke produksjonen av kjemikalier uten å endre prosessene",
+        "Å erstatte kjemiske metoder med biologiske metoder i industrien"
       ],
       "correct": 0,
       "explain": "Grønn kjemi handler om å designe prosesser og produkter slik at forurensning og farlige stoffer unngås fra starten av."
@@ -106,22 +106,22 @@
       "id": "q02",
       "text": "Hvem formulerte de tolv prinsippene for grønn kjemi?",
       "options": [
-        "Dmitrij Mendelejev",
-        "Gro Harlem Brundtland",
+        "Dmitrij Mendelejev og Marie Curie",
+        "Barry Trost og Robert Grubbs",
         "Paul Anastas og John Warner",
-        "Henri Le Châtelier"
+        "Fritz Haber og Svante Arrhenius"
       ],
       "correct": 2,
-      "explain": "Anastas og Warner publiserte de tolv prinsippene i 1998. Brundtland er kjent for definisjonen av bærekraftig utvikling.",
+      "explain": "Paul Anastas og John Warner publiserte de tolv prinsippene i 1998.",
       "niva": "eksempel"
     },
     {
       "id": "q03",
       "text": "Hva måler atomøkonomi?",
       "options": [
-        "Hvor raskt en reaksjon går",
-        "Hvor mye energi en reaksjon krever",
-        "Hvor mye produkt du faktisk fikk",
+        "Hvor raskt reaktantene omdannes til produkter i løpet av reaksjonen",
+        "Hvor mye energi som tilføres for å starte og drive reaksjonen",
+        "Hvor stor mengde produkt som faktisk dannes i forsøket",
         "Hvor stor andel av reaktantenes masse som ender i det ønskede produktet"
       ],
       "correct": 3,
@@ -143,10 +143,10 @@
       "id": "q05",
       "text": "Hvilken type reaksjon har 100 % atomøkonomi?",
       "options": [
-        "En reaksjon som gir et biprodukt",
-        "En addisjonsreaksjon der alle atomene havner i ett produkt",
-        "En forbrenning",
-        "En fellingsreaksjon med tilskuerioner"
+        "En substitusjonsreaksjon der et atom erstattes og et biprodukt dannes",
+        "En addisjonsreaksjon der alle reaktantatomer inngår i ett produkt",
+        "En fellingsreaksjon der tilskuerioner blir igjen i løsningen",
+        "En eliminasjonsreaksjon der små molekyler dannes ved siden av hovedproduktet"
       ],
       "correct": 1,
       "explain": "Når alle reaktantatomene blir en del av det ønskede produktet, går ingenting til biprodukter, og atomøkonomien er 100 %."
@@ -155,9 +155,9 @@
       "id": "q06",
       "text": "Hva er E-faktoren?",
       "options": [
-        "Energiforbruket i en prosess",
-        "Utbyttet i prosent",
-        "Antall reaksjonstrinn",
+        "Energi brukt per masse produkt",
+        "Produktmengde som prosent av teoretisk utbytte",
+        "Antall syntesetrinn per masse produkt",
         "Masse avfall per masse produkt"
       ],
       "correct": 3,
@@ -167,25 +167,25 @@
       "id": "q07",
       "text": "Hvorfor er katalysatorer viktige i grønn kjemi?",
       "options": [
-        "De gir raskere reaksjoner ved lavere temperatur og kan brukes om igjen",
-        "De gjør ΔH større",
-        "De forbrukes og blir til avfall",
-        "De gjør reaktantene unødvendige"
+        "De gir raskere reaksjoner ved lavere temperatur og kan gjenbrukes",
+        "De øker reaksjonsfarten ved å tilføre energi til reaktantene",
+        "De øker produktmengden ved å endre reaksjonens energifrigjøring",
+        "De gir raskere reaksjoner, men forbrukes og blir til avfall"
       ],
       "correct": 0,
-      "explain": "Katalysatorer sparer energi fordi reaksjonen kan gå ved lavere temperatur, og de blir ikke brukt opp. Det gir mindre avfall enn reagenser som forbrukes."
+      "explain": "Katalysatorer kan øke reaksjonsfarten uten å bli brukt opp. Dermed kan reaksjonen gå ved lavere temperatur og gi mindre avfall."
     },
     {
       "id": "q08",
       "text": "Hva er et fornybart råstoff?",
       "options": [
-        "Råolje",
-        "Kull",
+        "Råstoff som dannes over millioner av år, for eksempel råolje",
+        "Råstoff som dannes av gamle planter over millioner av år, for eksempel kull",
         "Råstoff som fornyes i naturen, for eksempel fra planter",
-        "Metallmalm fra gruver"
+        "Råstoff som hentes fra bergarter i gruver, for eksempel jernmalm"
       ],
       "correct": 2,
-      "explain": "Fornybare råstoffer, som stivelse og cellulose fra planter, dannes på nytt i løpet av kort tid. Olje, kull og malm tar millioner av år å danne."
+      "explain": "Fornybare råstoffer, som stivelse og cellulose fra planter, dannes på nytt i løpet av kort tid."
     },
     {
       "id": "q09",
@@ -204,9 +204,9 @@
       "text": "Hvorfor sier prinsippene at det er bedre å forebygge avfall enn å behandle det?",
       "options": [
         "Det er tryggere og billigere å unngå avfall enn å rydde opp etterpå",
-        "Avfall er aldri farlig",
-        "Det er forbudt å behandle avfall",
-        "Avfall kan ikke behandles"
+        "Det er tryggere å lagre avfallet enn å unngå at det dannes",
+        "Rensing etter produksjonen hindrer at farlige stoffer dannes",
+        "Avfall som samles inn, gir mindre behov for å endre produksjonen"
       ],
       "correct": 0,
       "explain": "Avfall som aldri dannes, trenger verken lagring, transport eller rensing, og det kan heller ikke lekke ut i naturen."
@@ -215,22 +215,22 @@
       "id": "q11",
       "text": "Hvilket løsemiddel er et grønnere valg i mange prosesser?",
       "options": [
-        "Benzen",
-        "Klorerte løsemidler",
+        "Benzen eller toluen",
+        "Diklormetan eller kloroform",
         "Vann eller superkritisk CO₂",
-        "Kvikksølv"
+        "Karbontetraklorid eller benzen"
       ],
       "correct": 2,
-      "explain": "Vann og superkritisk CO₂ er lite giftige og ikke brannfarlige. Benzen og mange klorerte løsemidler er helse- og miljøskadelige."
+      "explain": "Vann og superkritisk CO₂ har ofte lavere helse- og miljørisiko enn mange organiske løsemidler."
     },
     {
       "id": "q12",
       "text": "En reaksjon har 95 % utbytte, men lav atomøkonomi. Hva betyr det?",
       "options": [
-        "Prosessen er helt grønn",
+        "Det høye utbyttet viser at prosessen har liten miljøpåvirkning",
         "Mye av reaktantene blir likevel til biprodukter og avfall",
-        "Reaksjonen går for sakte",
-        "Produktet er urent"
+        "Reaksjonen går sakte fordi utbyttet ligger nær den teoretiske mengden",
+        "Produktet er urent fordi atomøkonomien er lav, selv med høyt utbytte"
       ],
       "correct": 1,
       "explain": "Høyt utbytte betyr at du fikk nesten alt produktet som var mulig. Lav atomøkonomi betyr at mye av massen uansett blir biprodukter. Begge må vurderes."
@@ -385,10 +385,10 @@
         "type": "flervalg",
         "text": "Hvilket av disse er IKKE et prinsipp i grønn kjemi?",
         "options": [
-          "Bruke fornybare råstoffer",
-          "Bruke katalysatorer",
-          "Maksimere atomøkonomien",
-          "Bruke så høy temperatur som mulig"
+          "Erstatte fossile råstoffer med fornybare råstoffer",
+          "Bruke katalysatorer i stedet for mer reagenser",
+          "Sikre at flest mulig reaktantatomer inngår i produktet",
+          "Gjennomføre reaksjoner ved så høy temperatur som mulig"
         ],
         "correct": 3,
         "explain": "Høy temperatur krever mye energi. Grønn kjemi anbefaler tvert imot å gjennomføre reaksjoner ved romtemperatur og vanlig trykk når det er mulig."
@@ -406,9 +406,9 @@
         "text": "Hva er bærekraftig utvikling?",
         "options": [
           "Utvikling som dekker dagens behov uten å ødelegge mulighetene for kommende generasjoner",
-          "Økonomisk vekst uten grenser",
-          "Å slutte helt å bruke kjemikalier",
-          "Utvikling som bare tar hensyn til miljøet"
+          "Utvikling som dekker dagens behov ved å prioritere økonomisk vekst framfor framtidige behov",
+          "Utvikling som forbedrer økonomien i dag uten å vurdere behovene i samfunnet",
+          "Utvikling som beskytter miljøet, men ikke tar hensyn til økonomi og samfunn"
         ],
         "correct": 0,
         "explain": "Bærekraftig utvikling tar hensyn til både miljø, økonomi og samfunn, slik at også de som kommer etter oss, kan dekke sine behov."
@@ -418,13 +418,13 @@
         "type": "flervalg",
         "text": "Hvorfor er en syntese med færre reaksjonstrinn ofte grønnere?",
         "options": [
-          "Den gir mer avfall",
-          "Den gir mindre tap, avfall og energibruk",
-          "Den gir høyere E-faktor",
-          "Den krever flere løsemidler"
+          "Den øker stofftapet fordi flere reaksjonstrinn må gjennomføres",
+          "Den gir mindre tap, avfall og energibruk i prosessen",
+          "Den øker E-faktoren når syntesen har færre reaksjonstrinn",
+          "Den øker løsemiddelbruken ved å korte ned syntesen"
         ],
         "correct": 1,
-        "explain": "Hvert trinn gir tap av stoff, bruk av løsemiddel og energi. Færre trinn betyr derfor som regel mindre avfall og lavere E-faktor."
+        "explain": "Når syntesen har færre trinn, trengs det mindre stoff, løsemiddel og energi, og mindre avfall kan oppstå."
       },
       {
         "id": "m08",
@@ -514,6 +514,7 @@
     "merknader": [
       "Prinsippene er gjengitt fritt og gruppert i hovedtanker, ikke som Anastas og Warners nummererte liste. Sjekk om læreboka forventer at elevene kan alle tolv med nummer."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

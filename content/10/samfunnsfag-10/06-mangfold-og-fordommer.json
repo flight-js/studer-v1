@@ -77,22 +77,22 @@
       "id": "q01",
       "text": "Hva er etnosentrisme?",
       "options": [
-        "Å bedømme andre kulturer ut fra ens egen og se på sin egen som best",
-        "Å lære mange språk",
-        "Å reise mye",
-        "Å forstå andre kulturer ut fra deres egne forutsetninger"
+        "Å vurdere andre kulturer med sin egen kultur som målestokk og se sin egen som best",
+        "Å forstå andre kulturer ut fra deres egne verdier og forutsetninger",
+        "Å sammenligne kulturer uten å mene at én er bedre enn de andre",
+        "Å blande skikker fra ulike kulturer inn i sin egen hverdag"
       ],
       "correct": 0,
-      "explain": "Det siste alternativet beskriver kulturrelativisme."
+      "explain": "Kulturrelativisme handler om å forstå andre kulturer ut fra deres egne forutsetninger."
     },
     {
       "id": "q02",
       "text": "Hva er forskjellen på en fordom og diskriminering?",
       "options": [
-        "Det er ingen forskjell",
+        "En fordom er en handling, diskriminering er en holdning",
         "En fordom er en holdning, diskriminering er en handling",
-        "Diskriminering er en holdning, en fordom er en handling",
-        "Fordommer er alltid positive"
+        "En fordom er en følelse, diskriminering er en mening",
+        "En fordom er en regel, diskriminering er en uenighet"
       ],
       "correct": 1,
       "explain": "Når fordommer påvirker hvordan vi behandler andre, blir det diskriminering."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva betyr integrering?",
       "options": [
-        "At minoriteten må gi opp sin kultur",
-        "At grupper lever atskilt",
+        "At minoriteter tar opp majoritetens kultur og gir slipp på sin egen",
+        "At minoriteter lever atskilt fra andre grupper i samfunnet",
         "At minoriteter deltar i samfunnet og samtidig kan beholde sin kultur",
-        "At alle må flytte"
+        "At minoriteter følger majoritetens skikker uten å delta i samfunnet"
       ],
       "correct": 2,
       "explain": "Integrering skiller seg fra assimilering, der man må gi opp sin kultur."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er et eksempel på kulturuttrykk?",
       "options": [
-        "En lov",
-        "Et politisk parti",
-        "En type skatt",
+        "Lover, regler, rettigheter eller politiske vedtak",
+        "Partier, valg, regjeringer eller politiske saker",
+        "Skatter, avgifter, budsjetter eller offentlige utgifter",
         "Musikk, mat, klær eller høytider"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva er en stereotypi?",
       "options": [
         "Et forenklet bilde av en gruppe",
-        "En type musikk",
-        "En vitenskapelig undersøkelse",
-        "Et lydanlegg"
+        "En statistisk oversikt over en gruppe",
+        "En fast regel som gjelder for en gruppe",
+        "En personlig mening om ett enkelt menneske"
       ],
       "correct": 0,
       "explain": "Stereotypier overser at mennesker i en gruppe er forskjellige."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvordan kan framstillinger i nyhetene påvirke holdninger?",
       "options": [
-        "De påvirker ikke holdninger",
+        "Ensidig dekning av en gruppe kan gjøre framstillingen mer balansert",
         "Ensidig dekning av en gruppe kan forsterke fordommer",
-        "De gjør alltid folk mer tolerante",
-        "De bestemmer lovene direkte"
+        "Ensidig dekning av en gruppe kan gjøre fordommer mindre utbredt",
+        "Ensidig dekning av en gruppe kan vise flere sider av gruppen"
       ],
       "correct": 1,
       "explain": "Hvis vi mest hører negative historier om en gruppe, kan bildet bli skjevt."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er en mulighet ved mangfold?",
       "options": [
-        "Flere misforståelser",
-        "Mindre kontakt med verden",
-        "Mer diskriminering",
+        "Færre ulike erfaringer i samfunnet",
+        "Mer like synspunkter og tradisjoner",
+        "Større likhet i språk og skikker",
         "Nye perspektiver og ideer"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva mener Adichie med «faren ved én enkelt historie»?",
       "options": [
         "At bare én fortelling om en gruppe gir et forenklet bilde",
-        "At historie er et farlig fag",
-        "At man bare skal lese én bok",
-        "At alle historier er løgn"
+        "At mange fortellinger om en gruppe gir et forenklet bilde",
+        "At én fortelling om en gruppe viser gruppens ulike sider",
+        "At flere fortellinger om en gruppe gir et ensidig bilde"
       ],
       "correct": 0,
       "explain": "Flere fortellinger gir et mer sammensatt og riktig bilde.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvilken utfordring kan en ekstrem kulturrelativisme føre med seg?",
       "options": [
-        "At man ikke lærer om andre",
+        "At man vurderer andre kulturer med sin egen som målestokk",
         "At man godtar brudd på menneskerettighetene",
-        "At man blir etnosentrisk",
-        "At man ikke reiser"
+        "At man krever at minoriteter gir opp sin egen kultur",
+        "At man holder ulike grupper atskilt i samfunnet"
       ],
       "correct": 1,
       "explain": "Menneskerettighetene gjelder alle, uansett kultur.",
@@ -330,9 +330,9 @@
         "text": "Hva er segregering?",
         "options": [
           "At grupper lever atskilt fra hverandre",
-          "At alle blir like",
-          "At man lærer et nytt språk",
-          "At man flytter til byen"
+          "At grupper deltar i samfunnet og beholder sin egen kultur",
+          "At grupper gir opp sin egen kultur og tar opp majoritetens",
+          "At grupper møtes og blander tradisjoner i samfunnet"
         ],
         "correct": 0,
         "explain": "Segregering kan skje gjennom lover eller gjennom bosettingsmønstre."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hva er rasisme?",
         "options": [
-          "Kritikk av politikere",
-          "Ideen om at noen er mindre verdt på grunn av hudfarge eller etnisk bakgrunn",
-          "Interesse for andre kulturer",
-          "Et sportsbegrep"
+          "En idé om at noen er mindre verdt på grunn av alder eller funksjonsevne",
+          "En idé om at noen er mindre verdt på grunn av hudfarge eller etnisk bakgrunn",
+          "En idé om at noen er mindre verdt på grunn av religion eller politisk syn",
+          "En idé om at noen er mindre verdt på grunn av økonomi eller utdanning"
         ],
         "correct": 1,
         "explain": "Rasisme bryter med prinsippet om at alle mennesker er likeverdige."
@@ -355,10 +355,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål er nyttig når du vurderer en framstilling av en gruppe?",
         "options": [
-          "Hvor lang er teksten?",
-          "Hvilken skrifttype er brukt?",
-          "Hvem forteller, og hvem mangler?",
-          "Hvor mange bilder har den?"
+          "Hvor lang er teksten, og hvor mange avsnitt har den?",
+          "Hvilke farger brukes, og hvor stor er skrifttypen?",
+          "Hvem forteller om gruppen, og hvilke stemmer mangler?",
+          "Hvor mange ord står det, og hvor mange setninger har teksten?"
         ],
         "correct": 2,
         "explain": "Avsender og manglende stemmer sier mye om hvilket bilde som skapes."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -80,7 +80,7 @@
         "Senegal, Mali og Niger",
         "Algerie, Marokko og Tunisia",
         "Belgia, Sveits og Luxembourg",
-        "Egypt, Libya og Sudan"
+        "Egypt, Sudan og Tsjad"
       ],
       "correct": 1,
       "explain": "Mange innvandrere i Frankrike har bakgrunn derfra."
@@ -90,9 +90,9 @@
       "text": "Hva er «les banlieues»?",
       "options": [
         "Forstedene rundt storbyene",
-        "Bankene",
-        "Landsbygda",
-        "Sentrum av Paris"
+        "Landsbyene utenfor storbyene",
+        "Bydelene i sentrum av storbyene",
+        "Boligområdene rundt landsbyene"
       ],
       "correct": 0,
       "explain": "Mange med innvandrerbakgrunn bor der."
@@ -127,8 +127,8 @@
       "options": [
         "Zinedine Zidane",
         "Lionel Messi",
-        "Erling Haaland",
-        "Cristiano Ronaldo"
+        "Cristiano Ronaldo",
+        "Antoine Griezmann"
       ],
       "correct": 0,
       "explain": "Han var en av stjernene på VM-laget i 1998.",
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva betyr «se sentir chez soi»?",
       "options": [
-        "reise hjem",
+        "føle seg fremmed",
         "føle seg hjemme",
-        "bo alene",
-        "savne hjemmet"
+        "savne sitt hjem",
+        "reise hjem igjen"
       ],
       "correct": 1,
       "explain": "chez soi = hjemme."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva skjer med tiden etter «il dit que» (presens)?",
       "options": [
-        "Presens blir imparfait",
-        "Presens blir futur",
+        "Tiden blir imparfait",
+        "Tiden blir futur",
         "Tiden endres ikke",
-        "Presens blir subjonctif"
+        "Tiden blir subjonctif"
       ],
       "correct": 2,
       "explain": "Bare når innledningen står i fortid, endres tiden."
@@ -163,7 +163,7 @@
       "text": "Hvorfor kommer mange innvandrere i Frankrike fra land der fransk er et viktig språk?",
       "options": [
         "På grunn av turisme",
-        "På grunn av EU",
+        "På grunn av EU-medlemskap",
         "På grunn av fotball",
         "På grunn av kolonihistorien"
       ],
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva betyr «la diversité»?",
       "options": [
-        "forskjellen",
+        "integrasjonen",
         "mangfoldet",
-        "avgjørelsen",
-        "diskusjonen"
+        "identiteten",
+        "migrasjonen"
       ],
       "correct": 1,
       "explain": "la diversité culturelle = kulturelt mangfold."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hva betyr «enrichir la société»?",
         "options": [
-          "gjøre samfunnet rikere i penger",
-          "berike samfunnet",
-          "forandre samfunnet",
-          "splitte samfunnet"
+          "gjøre samfunnet rikere økonomisk",
+          "gjøre samfunnet rikere",
+          "gjøre samfunnet mer delt",
+          "gjøre samfunnet mer ensartet"
         ],
         "correct": 1,
         "explain": "enrichir = berike."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

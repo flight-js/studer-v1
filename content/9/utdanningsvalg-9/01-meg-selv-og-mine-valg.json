@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva betyr karriere i utdanningsvalg?",
       "options": [
-        "Bare å bli sjef",
-        "Hele veien gjennom livet, med utdanning, arbeid, fritid og familie",
-        "Bare den første jobben",
-        "Å tjene mest mulig"
+        "Arbeidserfaringen du får i ett bestemt yrke",
+        "Utdanning, arbeid, fritid og familie gjennom livet",
+        "Valgene du tar på arbeidsplassen etter at du er ansatt",
+        "Utdanning og arbeid fram til du får din første jobb"
       ],
       "correct": 1,
       "explain": "Karriere handler om hele livsløpet."
@@ -91,9 +91,9 @@
       "id": "q02",
       "text": "Hva er et eksempel på en verdi?",
       "options": [
-        "Å være flink i matte",
-        "Å være høy",
-        "Å ha lyst hår",
+        "At du er flink til å hjelpe andre",
+        "At du liker å jobbe sammen med andre",
+        "At du har lett for å forstå andre",
         "At det er viktig for deg å hjelpe andre"
       ],
       "correct": 3,
@@ -104,9 +104,9 @@
       "text": "Hva er forskjellen på en interesse og en ferdighet?",
       "options": [
         "En interesse er noe du liker, en ferdighet er noe du er flink til",
-        "Det er det samme",
-        "En ferdighet er noe du liker",
-        "En interesse kan ikke endre seg"
+        "En interesse er noe du er flink til, en ferdighet er noe du liker",
+        "En interesse er noe du gjør ofte, en ferdighet er noe du gjør av og til",
+        "En interesse er noe du lærer, en ferdighet er noe du er født med"
       ],
       "correct": 0,
       "explain": "Du kan være interessert i noe du ennå ikke er flink til."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva er en kjønnsstereotypi?",
       "options": [
-        "En lov om likestilling",
-        "En type utdanning",
+        "En regel om hvilke fag jenter og gutter bør velge",
+        "En plan for at jenter og gutter skal få like muligheter",
         "En forenklet forestilling om hva som passer for jenter og gutter",
-        "En yrkestittel"
+        "En vurdering av hvilke yrker jenter og gutter bør velge"
       ],
       "correct": 2,
       "explain": "Stereotypier kan påvirke valg uten at vi merker det."
@@ -127,9 +127,9 @@
       "id": "q05",
       "text": "Hvilken interessetype liker å lede og overbevise?",
       "options": [
-        "Konvensjonell",
+        "Sosial",
         "Foretaksom",
-        "Kunstnerisk",
+        "Praktisk",
         "Undersøkende"
       ],
       "correct": 1,
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva er det første steget i en god beslutningsprosess?",
       "options": [
-        "Å velge det vennene velger",
-        "Å evaluere",
-        "Å ta en tilfeldig avgjørelse",
-        "Å kartlegge seg selv"
+        "Å finne informasjon om mulige utdanninger og yrker",
+        "Å sammenligne utdanninger ut fra egne ønsker og mål",
+        "Å velge utdanning og undersøke hvordan man søker",
+        "Å kartlegge egne interesser, verdier og ferdigheter"
       ],
       "correct": 3,
       "explain": "Deretter finner man informasjon og vurderer alternativene.",
@@ -154,9 +154,9 @@
       "text": "Hva kan påvirke utdanningsvalget ditt?",
       "options": [
         "Familie, venner, medier og bosted",
-        "Bare karakterene",
-        "Bare været",
-        "Ingenting"
+        "Skolens logo, pultplass, kantinemeny og klasseromsnummer",
+        "Skoleklokke, skolebøker, klasserom og skolesekk",
+        "Skolens farger, skoleuniform, kantinetilbud og friminutt"
       ],
       "correct": 0,
       "explain": "Det er lurt å være bevisst på påvirkningene."
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "Hva er karrierekompetanse?",
       "options": [
-        "Å ha en høy stilling",
-        "Å ha mange sertifikater",
+        "Evnen til å få gode karakterer, følge skoleregler og fullføre oppgaver",
+        "Evnen til å utføre arbeidsoppgaver, følge beskjeder og samarbeide med kolleger",
         "Evnen til å kjenne seg selv, finne informasjon og ta gode valg",
-        "Å ha jobbet lenge"
+        "Evnen til å velge et yrke, få en jobb og beholde samme stilling"
       ],
       "correct": 2,
       "explain": "Karrierekompetanse kan trenes gjennom hele livet."
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Hvorfor kan det være lurt å ha en plan B?",
       "options": [
-        "Fordi plan A alltid er feil",
-        "Fordi førstevalget ikke alltid går",
-        "Fordi det er påbudt",
-        "Fordi rådgiveren bestemmer"
+        "Fordi plan B gir bedre muligheter enn førstevalget",
+        "Fordi det kan hende at førstevalget ikke blir mulig",
+        "Fordi skolene krever at elever har to utdanningsplaner",
+        "Fordi en rådgiver trenger to planer før en samtale"
       ],
       "correct": 1,
       "explain": "Da står du bedre rustet hvis noe uventet skjer."
@@ -189,9 +189,9 @@
       "id": "q10",
       "text": "Hvilken interessetype liker å jobbe med hendene og maskiner?",
       "options": [
+        "Foretaksom",
+        "Undersøkende",
         "Sosial",
-        "Kunstnerisk",
-        "Konvensjonell",
         "Praktisk"
       ],
       "correct": 3,
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hvilken interessetype liker orden og systemer?",
         "options": [
-          "Kunstnerisk",
-          "Praktisk",
+          "Foretaksom",
+          "Undersøkende",
           "Konvensjonell",
-          "Sosial"
+          "Praktisk"
         ],
         "correct": 2,
         "explain": "Konvensjonelle typer trives ofte med økonomi og administrasjon.",
@@ -339,9 +339,9 @@
         "text": "Hva er livsmestring?",
         "options": [
           "Å håndtere utfordringer og ta ansvar for eget liv",
-          "Å vinne konkurranser",
-          "Å få gode karakterer",
-          "Å ha mange venner"
+          "Å klare seg godt på skolen og få gode karakterer",
+          "Å finne løsninger på oppgaver og nå målene sine",
+          "Å holde seg frisk ved å trene og spise sunt"
         ],
         "correct": 0,
         "explain": "Livsmestring er et tverrfaglig tema i skolen."
@@ -351,9 +351,9 @@
         "type": "flervalg",
         "text": "Hva er det siste steget i beslutningsprosessen?",
         "options": [
-          "Å kartlegge seg selv",
-          "Å finne informasjon",
-          "Å vurdere alternativer",
+          "Å kartlegge egne interesser, verdier og ferdigheter",
+          "Å finne informasjon om utdanninger og yrker",
+          "Å sammenligne aktuelle alternativer før man bestemmer seg",
           "Å evaluere om valget ble som man trodde"
         ],
         "correct": 3,
@@ -440,6 +440,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

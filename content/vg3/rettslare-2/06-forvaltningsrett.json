@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er et enkeltvedtak?",
       "options": [
-        "En lov fra Stortinget",
+        "En avgjørelse om generelle regler for en ubestemt gruppe personer",
         "En avgjørelse om rettigheter eller plikter for bestemte personer",
-        "En generell forskrift",
-        "En dom"
+        "En avgjørelse om straffansvar for en bestemt person",
+        "Et forslag om rettigheter eller plikter for bestemte personer"
       ],
       "correct": 1,
       "explain": "For eksempel avslag på studielån."
@@ -88,9 +88,9 @@
       "text": "Hva er klagefristen for enkeltvedtak?",
       "options": [
         "Tre uker",
-        "En uke",
-        "Tre måneder",
-        "Ett år"
+        "To uker",
+        "Fire uker",
+        "Seks uker"
       ],
       "correct": 0,
       "explain": "Fra parten mottok vedtaket."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Når er en saksbehandler inhabil?",
       "options": [
-        "Når hen er ny i jobben",
-        "Når saken er vanskelig",
+        "Når hen har lite erfaring med sakstypen eller regelverket",
+        "Når hen er uenig i partens syn på saken",
         "Når hen har nær tilknytning til saken eller partene",
-        "Når hen er syk"
+        "Når hen tidligere har behandlet en lignende sak om samme tema"
       ],
       "correct": 2,
       "explain": "For eksempel slektskap."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva kreves etter legalitetsprinsippet?",
       "options": [
-        "At alle vedtak er positive",
-        "At saken går raskt",
-        "At alle får innsyn",
+        "At inngrep overfor den enkelte bygger på interne retningslinjer",
+        "At inngrep overfor den enkelte godkjennes av domstolene på forhånd",
+        "At inngrep overfor den enkelte støttes av flertallets ønske",
         "At inngrep overfor den enkelte har grunnlag i lov"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva gir offentleglova?",
       "options": [
-        "Alle rett til innsyn i forvaltningens dokumenter",
-        "Politiet rett til ransaking",
-        "Kommunen rett til skatt",
-        "Rett til gratis advokat"
+        "Alle har rett til innsyn i forvaltningens dokumenter",
+        "Alle har rett til innsyn i taushetsbelagte opplysninger",
+        "Alle har rett til innsyn i forvaltningens interne notater",
+        "Alle har rett til innsyn i private virksomheters dokumenter"
       ],
       "correct": 0,
       "explain": "Med unntak for taushetsbelagte opplysninger."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva kan domstolene prøve når forvaltningen har skjønn?",
       "options": [
-        "Om skjønnet er klokt",
+        "Om forvaltningens vurdering er faglig best",
         "Om det foreligger myndighetsmisbruk",
-        "Ingenting",
-        "Om saksbehandleren er hyggelig"
+        "Om vedtaket gir parten ønsket resultat",
+        "Om forvaltningen valgte det mest effektive tiltaket"
       ],
       "correct": 1,
       "explain": "Usaklige hensyn, vilkårlighet og sterk urimelighet."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er Sivilombudet?",
       "options": [
-        "En domstol",
-        "En del av regjeringen",
+        "En domstol som omgjør forvaltningens vedtak etter klage",
+        "Et organ i regjeringen som avgjør klager på forvaltningen",
         "Stortingets ombud som behandler klager på forvaltningen",
-        "Et politisk parti"
+        "Et kontrollutvalg i Stortinget som behandler klager på forvaltningen"
       ],
       "correct": 2,
       "explain": "Uttalelsene blir nesten alltid fulgt."
@@ -173,9 +173,9 @@
       "text": "Hva sier regelen om forhåndsvarsel?",
       "options": [
         "At parten skal få uttale seg før vedtak treffes",
-        "At vedtaket skal sendes etter ett år",
-        "At pressen skal varsles",
-        "At klage må sendes før vedtak"
+        "At parten skal få vedtaket begrunnet etter at klagefristen går ut",
+        "At forvaltningen skal varsle parten etter at vedtaket er truffet",
+        "At parten skal sende klage før forvaltningen varsler om saken"
       ],
       "correct": 0,
       "explain": "Hovedregel for enkeltvedtak."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Når er et vedtak med saksbehandlingsfeil likevel gyldig?",
       "options": [
-        "Aldri",
+        "Når feilen ikke kan ha virket inn på behandlingen av klagen",
         "Når feilen ikke kan ha virket inn på innholdet",
-        "Når parten ikke klager",
-        "Når feilen er alvorlig"
+        "Når parten har fått uttale seg før feilen ble oppdaget",
+        "Når vedtaket er begrunnet og sendt innen fristen"
       ],
       "correct": 1,
       "explain": "Forvaltningsloven § 41."
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Hva betyr partsinnsyn?",
         "options": [
-          "At alle kan lese alle dokumenter",
+          "At parten kan endre opplysningene i dokumentene i sin egen sak",
           "At parten kan se dokumentene i sin egen sak",
-          "At pressen får innsyn",
-          "At kommunen kan se partens e-post"
+          "At parten kan få kopi av dokumentene i en annen parts sak",
+          "At parten kan avgjøre hvilke dokumenter som legges til i saken"
         ],
         "correct": 1,
         "explain": "Forvaltningsloven § 18."
@@ -322,9 +322,9 @@
         "text": "Hvilket av disse er et eksempel på myndighetsmisbruk?",
         "options": [
           "Et vedtak bygd på usaklige hensyn",
-          "Et vedtak med god begrunnelse",
-          "Et vedtak etter klage",
-          "Et vedtak innen fristen"
+          "Et vedtak bygd på hensyn loven åpner for",
+          "Et vedtak uten skriftlig begrunnelse",
+          "Et vedtak truffet av feil klageinstans"
         ],
         "correct": 0,
         "explain": "Domstolene kan prøve dette."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hvem behandler vanligvis en klage på et enkeltvedtak?",
         "options": [
-          "Sivilombudet først",
-          "Høyesterett",
+          "Et underordnet forvaltningsorgan",
+          "Sivilombudet i første omgang",
           "Et overordnet forvaltningsorgan",
-          "Stortinget"
+          "En ordinær domstol"
         ],
         "correct": 2,
         "explain": "Klageinstansen."
@@ -425,6 +425,7 @@
     "merknader": [
       "Ny forvaltningslov (LOV-2025-06-20-81) er vedtatt, men var ikke trådt i kraft per september 2026. Oppdater paragrafnumrene når den nye loven trer i kraft."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

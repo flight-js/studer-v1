@@ -82,7 +82,7 @@
       "options": [
         "Foreldrene",
         "Søsknene",
-        "Kusinene",
+        "Barnebarna",
         "Besteforeldrene"
       ],
       "correct": 3,
@@ -106,8 +106,8 @@
       "options": [
         "J'ai une sœur.",
         "Je suis une sœur.",
-        "J'ai un sœur.",
-        "J'ai sœur."
+        "J'ai un frère.",
+        "J'ai deux sœurs."
       ],
       "correct": 0,
       "explain": "«sœur» er hunkjønn og får «une»."
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Hva betyr «Je n'ai pas de frères et sœurs»?",
       "options": [
-        "Jeg har mange søsken",
-        "Brødrene mine er snille",
+        "Jeg har noen søsken",
+        "Jeg har ingen foreldre",
         "Jeg har ingen søsken",
-        "Jeg har en bror"
+        "Jeg har ingen brødre"
       ],
       "correct": 2,
       "explain": "«ne … pas de» betyr «ikke noen»."
@@ -140,9 +140,9 @@
       "id": "q06",
       "text": "Hva betyr «la fille»?",
       "options": [
-        "Sønnen",
-        "Moren",
-        "Tanten",
+        "Sønnen eller gutten",
+        "Broren eller gutten",
+        "Faren eller mannen",
         "Datteren eller jenta"
       ],
       "correct": 3,
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvordan sier du «Han har blå øyne»?",
       "options": [
-        "Il est les yeux bleus.",
         "Elle a les yeux bleus.",
+        "Il a les cheveux bleus.",
         "Il a les yeux bleus.",
-        "Il a bleu yeux."
+        "Il a les yeux verts."
       ],
       "correct": 2,
       "explain": "På fransk bruker man bestemt artikkel: «les yeux»."
@@ -188,9 +188,9 @@
       "id": "q10",
       "text": "Hvor står de fleste adjektiver på fransk?",
       "options": [
-        "Foran substantivet",
-        "Alltid først i setningen",
-        "Til slutt i setningen",
+        "Før substantivet",
+        "Etter artikkelen",
+        "Før artikkelen",
         "Etter substantivet"
       ],
       "correct": 3,
@@ -337,7 +337,7 @@
           "Ma",
           "Mon",
           "Mes",
-          "Ta ma"
+          "Ta"
         ],
         "correct": 0,
         "explain": "«meilleure» er hunkjønn og begynner med konsonant."
@@ -348,9 +348,9 @@
         "text": "Hva er hunkjønnsformen av «gentil»?",
         "options": [
           "gentil",
-          "gentile",
+          "gentils",
           "gentille",
-          "gentils"
+          "gentilles"
         ],
         "correct": 2,
         "explain": "«gentil» dobler l-en i hunkjønn."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva handlet hanseatene i Bergen først og fremst med?",
       "options": [
-        "Olje og gass",
+        "Tømmer og vin",
         "Tørrfisk og korn",
-        "Sølv og gull",
-        "Tekstiler og våpen"
+        "Salt og ull",
+        "Jern og krydder"
       ],
       "correct": 1,
       "explain": "De kjøpte tørrfisk og solgte korn."
@@ -91,9 +91,9 @@
       "text": "Hvordan fikk hanseatene makt over mange nordlendinger?",
       "options": [
         "Gjennom gjeld og handelsprivilegier",
-        "Gjennom krig",
-        "Gjennom religion",
-        "Gjennom valg"
+        "Gjennom kongelig støtte og militær kontroll",
+        "Gjennom kirkens innflytelse og lokale skatter",
+        "Gjennom politiske verv og allianser med bønder"
       ],
       "correct": 0,
       "explain": "Mange ble avhengige av hanseatene."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva ble fraktet fra Afrika til Amerika i trekanthandelen?",
       "options": [
-        "Sukker",
-        "Våpen",
+        "Våpen og tekstiler",
+        "Gull og elfenbein",
         "Slavegjorte mennesker",
-        "Bomull"
+        "Kaffe og kakao"
       ],
       "correct": 2,
       "explain": "Rundt 12 millioner mennesker."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva var merkantilisme?",
       "options": [
-        "Frihandel uten statlig styring",
-        "Planøkonomi",
-        "Et handelsforbund",
-        "Politikk om å eksportere mer enn man importerer og samle gull og sølv"
+        "Statlig politikk for frihandel uten toll og innblanding",
+        "Statlig politikk for importoverskudd og bruk av gull og sølv",
+        "Statlig politikk for selvforsyning gjennom produksjonsstyring",
+        "Statlig politikk for eksportoverskudd og oppsamling av gull og sølv"
       ],
       "correct": 3,
       "explain": "Kolonier skulle levere råvarer."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva kjennetegner planøkonomi?",
       "options": [
-        "Privat eierskap og konkurranse",
+        "Private bedrifter eier produksjonen og bestemmer hva som produseres",
         "Staten eier produksjonen og bestemmer hva som produseres",
-        "Ingen stat",
-        "Frihandel"
+        "Staten eier bedriftene, men markedet bestemmer produksjonen",
+        "Forbrukerne eier produksjonen og bestemmer hva som produseres"
       ],
       "correct": 1,
       "explain": "Sovjetunionen er det mest kjente eksempelet."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Deltok Danmark-Norge i slavehandelen?",
       "options": [
-        "Nei, aldri",
-        "Bare Norge",
+        "Ja, med kolonier i Øst-Afrika og handelsstasjoner i Vestindia",
+        "Ja, med kolonier i Sør-Amerika og handelsstasjoner i Vest-Afrika",
         "Ja, med kolonier i Vestindia og handelsstasjoner i Vest-Afrika",
-        "Bare etter 1900"
+        "Ja, med kolonier i Vestindia og handelsstasjoner i Sør-Amerika"
       ],
       "correct": 2,
       "explain": "St. Croix var en av koloniene.",
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva er en bakside ved globaliseringen?",
       "options": [
-        "At mange er løftet ut av fattigdom",
-        "Billigere varer",
-        "Mer handel",
-        "Ulikhet, utflagging og miljøkostnader"
+        "Lavere priser, større vareutvalg og raskere varetransport",
+        "Større markeder, flere handelsavtaler og økt produktivitet",
+        "Nye arbeidsplasser, mer eksport og teknologispredning",
+        "Ulikhet, utflagging av arbeidsplasser og miljøkostnader"
       ],
       "correct": 3,
       "explain": "Globaliseringen har både vinnere og tapere."
@@ -179,7 +179,7 @@
         "1848",
         "1776",
         "1917",
-        "1928"
+        "1936"
       ],
       "correct": 0,
       "explain": "Det kritiserte kapitalismen.",
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva er blandingsøkonomi?",
       "options": [
-        "Bare statlig eierskap",
+        "Kombinasjon av statlig eierskap og sentral planlegging",
         "Kombinasjon av marked og sterk stat",
-        "Bare frihandel",
-        "Byttehandel"
+        "Kombinasjon av frihandel og privat selvregulering",
+        "Kombinasjon av naturalhusholdning og lokal byttehandel"
       ],
       "correct": 1,
       "explain": "Norge fikk blandingsøkonomi etter 1945."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hvilke varer ble fraktet fra Amerika til Europa i trekanthandelen?",
         "options": [
-          "Våpen og tekstiler",
+          "Våpen, tekstiler og metallvarer",
           "Sukker, bomull og tobakk",
-          "Tørrfisk og korn",
-          "Olje og gass"
+          "Te, silke og porselen",
+          "Tørrfisk, tømmer og jern"
         ],
         "correct": 1,
         "explain": "Varene ble produsert på plantasjer med slavearbeid."
@@ -332,9 +332,9 @@
         "text": "Hva er «den usynlige hånd»?",
         "options": [
           "Smiths bilde på hvordan markedet gir velstand",
-          "En hemmelig organisasjon",
-          "Statens kontroll",
-          "En type skatt"
+          "Smiths bilde på hvordan staten styrer markedet",
+          "Smiths bilde på hvordan kongen fastsetter prisene",
+          "Smiths bilde på hvordan handelen fordeles mellom land"
         ],
         "correct": 0,
         "explain": "Egeninteresse kan gi velstand for alle, mente Smith."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Fra når ble femårsplaner brukt i Sovjetunionen?",
         "options": [
-          "1848",
-          "1776",
+          "1917",
+          "1936",
           "1928",
-          "1991"
+          "1953"
         ],
         "correct": 2,
         "explain": "Planene skulle gi rask industrialisering.",
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

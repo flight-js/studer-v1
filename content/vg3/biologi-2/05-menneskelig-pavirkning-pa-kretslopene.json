@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva frigjør karbon som har vært lagret i millioner av år?",
       "options": [
-        "Fotosyntese",
-        "Forbrenning av fossile brensler",
-        "Nitrogenfiksering",
-        "Transpirasjon"
+        "Respirasjon hos planter og dyr",
+        "Forbrenning av fossilt brensel",
+        "Nedbrytning av døde planter",
+        "Fotosyntese hos grønne planter"
       ],
       "correct": 1,
       "explain": "Kull, olje og gass."
@@ -90,9 +90,9 @@
       "text": "Hva er eutrofiering?",
       "options": [
         "Overgjødsling av vann som gir algeoppblomstring",
-        "Forsuring av jord",
-        "Avskoging",
-        "Tørke"
+        "Forsuring av vann som gir skade på organismer",
+        "Oppvarming av vann som gir lavere oksygeninnhold",
+        "Forurensing av vann som gir opphopning av miljøgifter"
       ],
       "correct": 0,
       "explain": "Kan gi døde soner."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor oppstår døde soner i havet?",
       "options": [
-        "Fordi vannet blir for kaldt",
-        "Fordi det blir for mye salt",
-        "Fordi nedbrytning av døde alger bruker opp oksygenet",
-        "Fordi fisken spiser alt"
+        "Økt saltholdighet gjør at oksygenet forsvinner fra vannet.",
+        "Lav vanntemperatur hindrer oksygen i å løses opp i vannet.",
+        "Nedbrytning av døde alger bruker opp oksygenet i vannet.",
+        "Fiskebestander bruker opp oksygenet når de spiser algene."
       ],
       "correct": 2,
       "explain": "En følge av overgjødsling."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvilken drivhusgass kommer fra gjødslet jord?",
       "options": [
-        "Oksygen",
-        "Nitrogen",
-        "Vanndamp alene",
+        "Metan",
+        "Ammoniakk",
+        "Nitrogendioksid",
         "Lystgass"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva gjør havforsuring med skjell og koraller?",
       "options": [
         "Gjør det vanskeligere å bygge kalkskall",
-        "Gjør skallene tykkere",
-        "Ingenting",
-        "Gjør dem større"
+        "Gjør det lettere å bygge tykkere kalkskall",
+        "Gjør det mulig å danne større kalkskall",
+        "Gjør skallene hardere ved å øke kalkdannelsen"
       ],
       "correct": 0,
       "explain": "Kalk løses lettere i surere vann."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er en kantsone?",
       "options": [
-        "En vei langs en elv",
+        "En grøft langs bekker som leder bort avrenning",
         "Vegetasjon langs bekker som fanger opp avrenning",
-        "En type gjødsel",
-        "En demning"
+        "Et gjerde langs bekker som hindrer beitedyr",
+        "En voll langs elver som bremser flomvann"
       ],
       "correct": 1,
       "explain": "Reduserer tap av næring til vann."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvorfor er dagens fosforbruk ikke bærekraftig?",
       "options": [
-        "Fosfor er en gass",
-        "Fosfor er uendelig",
-        "Fosforreservene er begrensede",
-        "Fosfor er giftig"
+        "Fosforreservene i berggrunnen fornyes raskt",
+        "Fosforreservene i berggrunnen øker når vi gjødsler",
+        "Fosforreservene i berggrunnen er begrensede",
+        "Fosforreservene i berggrunnen dannes på få år"
       ],
       "correct": 2,
       "explain": "Gjenvinning er viktig."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvilket tiltak kan redusere utslipp av karbon fra jord?",
       "options": [
-        "Drenere mer myr",
-        "Hugge mer skog",
-        "Brenne mer torv",
+        "Drenere og dyrke myr",
+        "Brenne torv fra myr",
+        "Fjerne vegetasjon fra myr",
         "Bevare og restaurere myr"
       ],
       "correct": 3,
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hva viser reduksjonen i sur nedbør i Europa?",
       "options": [
-        "At internasjonalt samarbeid kan virke",
-        "At sur nedbør er ufarlig",
-        "At naturen ikke påvirkes",
-        "At tiltak aldri virker"
+        "At samarbeid mellom land har redusert sur nedbør",
+        "At utslipp fra biler har økt sur nedbør i Europa",
+        "At sur nedbør har blitt mindre farlig for økosystemer",
+        "At europeisk natur tåler luftforurensning bedre enn før"
       ],
       "correct": 0,
       "explain": "Avtaler om luftforurensning.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva har Haber–Bosch-prosessen gjort med nitrogenkretsløpet?",
       "options": [
-        "Redusert nitrogentilførselen",
-        "Mer enn fordoblet mengden nitrogen som tilføres naturen",
-        "Ingen endring",
-        "Fjernet nitrogen fra lufta helt"
+        "Nitrogentilførselen til naturen er blitt halvert",
+        "Nitrogentilførselen til naturen er mer enn doblet",
+        "Fosfortilførselen til naturen er mer enn doblet",
+        "Nitrogenmengden i atmosfæren er mer enn doblet"
       ],
       "correct": 1,
       "explain": "Gjennom kunstgjødsel.",
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva er fangvekster?",
         "options": [
-          "Planter som fanger insekter",
+          "Planter som fanger insekter etter innhøsting",
           "Planter som tar opp næring etter innhøsting",
-          "Ugress",
-          "Trær"
+          "Planter som konkurrerer med hovedveksten om næring",
+          "Planter som dyrkes for å høstes som hovedavling"
         ],
         "correct": 1,
         "explain": "Reduserer avrenning."
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hva gir nitrogenoksider fra forbrenning?",
         "options": [
-          "Sur nedbør og luftforurensning",
-          "Renere luft",
-          "Mer ozon i stratosfæren",
-          "Mer oksygen"
+          "Sur nedbør og helseskadelig luftforurensning",
+          "Større ozonlag og renere luft",
+          "Mer oksygen og bedre luftkvalitet",
+          "Mindre sur nedbør og renere luft"
         ],
         "correct": 0,
         "explain": "Påvirker også helse."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hvilket kostholdstiltak kan redusere påvirkningen på kretsløpene?",
         "options": [
-          "Mer matsvinn",
-          "Mer kjøtt",
+          "Mer matsvinn og mer plantebasert kost",
+          "Mindre matsvinn og mer kjøttbasert kost",
           "Mindre matsvinn og mer plantebasert kost",
-          "Mer importert mat alltid"
+          "Mer matsvinn og mer kjøtt i kosten"
         ],
         "correct": 2,
         "explain": "Mindre ressursbruk.",
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

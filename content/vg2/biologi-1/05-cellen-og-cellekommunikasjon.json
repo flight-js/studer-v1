@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hvilken organelle lager ATP gjennom celleånding?",
       "options": [
-        "Ribosomet",
+        "Kloroplasten",
         "Mitokondrien",
-        "Golgiapparatet",
-        "Lysosomet"
+        "Cellekjernen",
+        "Ribosomet"
       ],
       "correct": 1,
       "explain": "Muskelceller har mange mitokondrier."
@@ -94,9 +94,9 @@
       "text": "Hva er cellemembranen bygd opp av?",
       "options": [
         "Et dobbeltlag av fosfolipider med proteiner",
-        "Cellulose",
-        "Bare proteiner",
-        "DNA"
+        "Et enkeltlag av fosfolipider med proteiner",
+        "Et dobbeltlag av fosfolipider med cellulose",
+        "Et dobbeltlag av proteiner med kolesterol"
       ],
       "correct": 0,
       "explain": "Væske-mosaikk-modellen."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva kjennetegner aktiv transport?",
       "options": [
-        "Den skjer fra høy til lav konsentrasjon uten energi",
-        "Den gjelder bare vann",
+        "Den skjer med konsentrasjonsforskjellen og krever ATP",
+        "Den skjer mot konsentrasjonsforskjellen uten å kreve ATP",
         "Den skjer mot konsentrasjonsforskjellen og krever ATP",
-        "Den skjer bare i planter"
+        "Den flytter vann mot konsentrasjonsforskjellen og krever ATP"
       ],
       "correct": 2,
       "explain": "For eksempel natrium-kalium-pumpen."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hva er osmose?",
       "options": [
-        "Transport av store partikler i vesikler",
-        "Aktiv transport av ioner",
-        "Nedbryting av avfall",
+        "Diffusjon av ioner gjennom en membran",
+        "Aktiv transport av vann gjennom en membran",
+        "Transport av vann i vesikler gjennom membranen",
         "Diffusjon av vann gjennom en membran"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hvor binder insulin seg på målcellen?",
       "options": [
         "Til en reseptor i cellemembranen",
-        "Til DNA i cellekjernen",
-        "Til mitokondriene",
-        "Til celleveggen"
+        "Til en reseptor i cellekjernen",
+        "Til en reseptor i cytoplasmaet",
+        "Til en reseptor i mitokondriene"
       ],
       "correct": 0,
       "explain": "Insulin er vannløselig.",
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvilke strukturer har planteceller, men ikke dyreceller?",
       "options": [
-        "Mitokondrier og ribosomer",
+        "Cellemembran og mitokondrier",
         "Cellevegg og kloroplaster",
-        "Cellekjerne og lysosomer",
-        "Cellemembran og ER"
+        "Cellekjerne og ribosomer",
+        "Kloroplaster og mitokondrier"
       ],
       "correct": 1,
       "explain": "Og en stor vakuole."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hva gjør golgiapparatet?",
       "options": [
-        "Lager ATP",
-        "Lagrer DNA",
+        "Lager, kopierer og reparerer DNA",
+        "Produserer, lagrer og frigjør ATP",
         "Bearbeider, sorterer og pakker proteiner",
-        "Lager fotosyntese"
+        "Bryter ned og resirkulerer avfall"
       ],
       "correct": 2,
       "explain": "Proteinene sendes videre i vesikler."
@@ -166,10 +166,10 @@
       "id": "q08",
       "text": "Hvorfor kan fettløselige hormoner binde seg til reseptorer inne i cellen?",
       "options": [
-        "Fordi de er veldig store",
-        "Fordi de har egne kanaler",
-        "Fordi de bruker aktiv transport",
-        "Fordi de kan gå gjennom fosfolipid-dobbeltlaget"
+        "Fordi de kan gå gjennom proteinkanalene i membranen",
+        "Fordi de bindes til reseptorer på membranens utside",
+        "Fordi de fraktes gjennom membranen ved hjelp av ATP",
+        "Fordi de kan gå gjennom fosfolipid-d dobbeltlaget"
       ],
       "correct": 3,
       "explain": "Membranen har en fettaktig kjerne."
@@ -179,9 +179,9 @@
       "text": "Hvilke stoffer slipper lettest gjennom cellemembranen?",
       "options": [
         "Små, upolare molekyler som O₂ og CO₂",
-        "Store proteiner",
-        "Ioner",
-        "Glukose uten hjelp"
+        "Små, ladde ioner som natrium og kalium",
+        "Store, polare molekyler som glukose og proteiner",
+        "Store, ladde molekyler som DNA og proteiner"
       ],
       "correct": 0,
       "explain": "De løser seg i lipidlaget."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvor skjer kommunikasjonen mellom to nerveceller?",
       "options": [
-        "I mitokondriene",
+        "I aksonet",
         "I synapsen",
         "I cellekjernen",
-        "I blodet"
+        "I dendritten"
       ],
       "correct": 1,
       "explain": "Signalstoffer krysser en smal spalte.",
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva skjer når insulin binder seg til reseptoren sin?",
         "options": [
-          "Cellen deler seg",
+          "Flere insulinreseptorer flyttes til membranen",
           "Flere glukosetransportører flyttes til membranen",
-          "Cellen dør",
-          "Membranen løses opp"
+          "Flere glukosetransportører flyttes til cellekjernen",
+          "Flere glukosemolekyler flyttes ut av cellen"
         ],
         "correct": 1,
         "explain": "Cellen tar opp mer glukose.",
@@ -344,7 +344,7 @@
           "Ved endocytose",
           "Ved osmose",
           "Ved diffusjon",
-          "Gjennom en ionekanal"
+          "Ved eksocytose"
         ],
         "correct": 0,
         "explain": "Store partikler tas inn i vesikler."
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hva gjør lysosomene?",
         "options": [
-          "Lager proteiner",
-          "Lager ATP",
+          "Lager proteiner til cellen",
+          "Produserer energi til cellen",
           "Bryter ned avfall i cellen",
-          "Lagrer DNA"
+          "Lagrer arvestoff i cellen"
         ],
         "correct": 2,
         "explain": "De inneholder nedbrytende enzymer."
@@ -441,6 +441,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

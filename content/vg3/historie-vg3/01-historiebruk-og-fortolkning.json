@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvorfor sier man at hver generasjon skriver historien på nytt?",
       "options": [
-        "Fordi kildene forsvinner",
+        "Fordi fortidens hendelser endrer seg over tid",
         "Fordi nåtidens spørsmål og verdier preger tolkningen",
-        "Fordi fortiden endrer seg",
-        "Fordi historikere ikke leser gamle bøker"
+        "Fordi historiske kilder blir mer pålitelige over tid",
+        "Fordi historikere bruker nye metoder for å datere kilder"
       ],
       "correct": 1,
       "explain": "Nye spørsmål gir nye fortellinger."
@@ -91,9 +91,9 @@
       "text": "Hva er historiebevissthet?",
       "options": [
         "Forståelse av sammenhengen mellom fortid, nåtid og framtid",
-        "Å kunne mange årstall",
-        "Å like historie",
-        "Å lese historiske romaner"
+        "Kunnskap om viktige hendelser fra fortiden",
+        "Evne til å plassere historiske hendelser kronologisk",
+        "Kjennskap til hvordan historikere bruker skriftlige kilder"
       ],
       "correct": 0,
       "explain": "Fortiden tolkes for å forstå nåtiden."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er kommersiell historiebruk?",
       "options": [
-        "Kritisk forskning",
-        "Å minnes ofre",
+        "Å bruke fortiden til å skape nasjonal identitet",
+        "Å bruke fortiden til å støtte politiske ideer",
         "Å bruke fortiden til å selge",
-        "Å legitimere makt"
+        "Å bruke fortiden til å undersøke historiske kilder"
       ],
       "correct": 2,
       "explain": "For eksempel spill og reiseliv."
@@ -127,9 +127,9 @@
       "text": "Hva er ikke-bruk av historien?",
       "options": [
         "At noe forsøkes glemt eller fortiet",
-        "At ingen bryr seg om historie",
-        "At historie er forbudt i skolen",
-        "At museer stenger"
+        "At fortiden brukes til å skape nasjonal identitet",
+        "At historien brukes til å legitimere politiske valg",
+        "At historiske hendelser framstilles som underholdning"
       ],
       "correct": 0,
       "explain": "Også en form for historiebruk."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvorfor ble kvinners historie et viktig forskningsfelt?",
       "options": [
-        "Fordi det kom nye kilder fra middelalderen",
-        "Fordi kvinnebevegelsen endret hva som ble sett som viktig",
-        "Fordi kvinner ikke hadde historie før",
-        "Fordi staten påla det"
+        "Fordi nye middelalderkilder gjorde kvinnehistorie mulig å studere",
+        "Fordi kvinnebevegelsen endret hva historikere så som viktig",
+        "Fordi staten gjorde kvinnehistorie obligatorisk ved universitetene",
+        "Fordi kvinners erfaringer først ble historiske etter 1970"
       ],
       "correct": 1,
       "explain": "Nåtiden preger spørsmålene.",
@@ -154,7 +154,7 @@
         "Ideologisk",
         "Kommersiell",
         "Eksistensiell",
-        "Politisk"
+        "Vitenskapelig"
       ],
       "correct": 2,
       "explain": "Gir identitet og tilhørighet."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hva kan være en negativ følge av historiebruk?",
       "options": [
-        "Fellesskap",
-        "Forsoning",
-        "Mer kunnskap",
-        "Forenkling og fiendebilder"
+        "Fellesskap og forsoning",
+        "Økt kunnskap og større kildekritikk",
+        "Historisk interesse og sterkere identitet",
+        "Forenkling av fortiden og fiendebilder"
       ],
       "correct": 3,
       "explain": "Historie kan brukes til å rettferdiggjøre konflikt."
@@ -176,9 +176,9 @@
       "text": "Hvilket spørsmål bør du stille når du møter historiebruk?",
       "options": [
         "Hvem bruker historien, og hvorfor?",
-        "Hvor gammel er boka?",
-        "Hvor mange sider er det?",
-        "Hvilken farge har minnesmerket?"
+        "Hvilke hendelser omtales, og når fant de sted?",
+        "Hvilke personer nevnes, og hva gjorde de?",
+        "Hvilken periode beskrives, og hvilke steder inngår?"
       ],
       "correct": 0,
       "explain": "Også hva som utelates."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er et eksempel på historiebruk i hverdagen?",
       "options": [
-        "Et regnestykke",
+        "Værmeldinger og kollektivruter",
         "Gatenavn og merkedager",
-        "En værmelding",
-        "En handleliste"
+        "Handlelister og ukentlige timeplaner",
+        "Matoppskrifter og sportsresultater"
       ],
       "correct": 1,
       "explain": "Fortiden er til stede i offentligheten."
@@ -325,9 +325,9 @@
         "text": "Hvorfor ble miljøhistorie viktigere?",
         "options": [
           "Fordi klimaendringene ble et stort tema i samtiden",
-          "Fordi det ble funnet nye skip",
-          "Fordi kongene ble mindre viktige",
-          "Fordi det ble forbudt å skrive om krig"
+          "Fordi arkeologer fant nye skipsvrak fra middelalderen",
+          "Fordi kongenes politikk fikk mindre betydning for samfunnet",
+          "Fordi miljøhistorie ble innført som obligatorisk skolefag"
         ],
         "correct": 0,
         "explain": "Nåtiden påvirker forskningen.",
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva betyr det å tenke historisk?",
         "options": [
-          "Å dømme fortiden etter dagens verdier",
-          "Å pugge årstall",
+          "Å vurdere fortidens handlinger ut fra dagens moralske normer",
+          "Å forklare historiske hendelser gjennom årstall og kronologi",
           "Å forstå fortidens forutsetninger og egen tids påvirkning",
-          "Å bare lese om krig"
+          "Å undersøke krigshistorie ved å sammenligne slag og ledere"
         ],
         "correct": 2,
         "explain": "Begge perspektiver trengs."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

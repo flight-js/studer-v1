@@ -88,9 +88,9 @@
       "id": "q01",
       "text": "Hvilket kildekritisk spørsmål handler om interesser?",
       "options": [
-        "Når ble den laget?",
-        "Hvor lang er den?",
-        "Hvilken font brukes?",
+        "Når ble kilden laget, og hvor lenge er den?",
+        "Hvordan ble opplysningene samlet inn, og hvem deltok?",
+        "Hvilke kilder viser kilden til, og hvor finner vi dem?",
         "Hvem står bak, og hva vil de oppnå?"
       ],
       "correct": 3,
@@ -100,10 +100,10 @@
       "id": "q02",
       "text": "Hvorfor kombinerer mange forskere metoder?",
       "options": [
-        "For å spare tid",
+        "For å samle inn færre opplysninger på kortere tid",
         "For å få både omfang og dybde",
-        "Fordi det er lovpålagt",
-        "For å unngå etikk"
+        "For å oppfylle et lovkrav om flere datakilder",
+        "For å unngå å vurdere kvaliteten på datainnsamlingen"
       ],
       "correct": 1,
       "explain": "Metodene utfyller hverandre."
@@ -112,10 +112,10 @@
       "id": "q03",
       "text": "Hva betyr universalitet i velferdsstaten?",
       "options": [
-        "At bare de fattigste får hjelp",
+        "At ytelser gis etter individuell behovsprøving",
         "At ytelser gjelder alle som fyller vilkårene",
-        "At alt er gratis",
-        "At staten eier alt"
+        "At ytelser avhenger av tidligere innbetalinger",
+        "At ytelser gis uavhengig av vilkårene"
       ],
       "correct": 1,
       "explain": "For eksempel barnetrygd."
@@ -124,10 +124,10 @@
       "id": "q04",
       "text": "Hva mener de fleste samfunnsforskere om årsakene til ulikhet?",
       "options": [
-        "At det bare skyldes valg",
+        "At individuelle valg veier tyngre enn samfunnsstrukturer",
         "At både individuelle valg og strukturer spiller inn",
-        "At det bare skyldes flaks",
-        "At det bare skyldes gener"
+        "At årsakene til ulikhet hovedsakelig ligger i biologiske forskjeller",
+        "At årsakene til ulikhet hovedsakelig ligger i tilfeldigheter"
       ],
       "correct": 1,
       "explain": "Aktør og struktur."
@@ -136,10 +136,10 @@
       "id": "q05",
       "text": "Hva betyr aktiv sosialisering?",
       "options": [
-        "At barn er passive mottakere",
+        "At barn og unge hovedsakelig tar imot normer fra voksne",
         "At barn og unge velger, tolker og påvirker selv",
-        "At bare voksne sosialiseres",
-        "At sosialisering skjer ved trening"
+        "At sosialisering først og fremst skjer blant voksne",
+        "At barn og unge lærer normer gjennom gjentatt trening"
       ],
       "correct": 1,
       "explain": "Også foreldre påvirkes."
@@ -148,9 +148,9 @@
       "id": "q06",
       "text": "Hva er interseksjonalitet?",
       "options": [
-        "Et trafikkryss",
-        "En lov",
-        "En diagnose",
+        "At kjønn og seksualitet er to ord for samme identitet",
+        "At kjønn påvirker mennesker uavhengig av klasse og etnisitet",
+        "At kjønn og etnisitet er to navn på samme samfunnskategori",
         "At kjønn krysser andre kategorier som klasse og etnisitet"
       ],
       "correct": 3,
@@ -160,10 +160,10 @@
       "id": "q07",
       "text": "Hva betyr at sammenhengen mellom fattigdom og helse går begge veier?",
       "options": [
-        "At fattigdom kan gi dårlig helse, og dårlig helse kan gi fattigdom",
-        "At det ikke er noen sammenheng",
-        "At helse bare påvirker inntekt",
-        "At inntekt bare påvirker helse"
+        "At fattigdom kan gi dårlig helse, og dårlig helse kan føre til fattigdom",
+        "At fattigdom kan gi dårlig helse, men dårlig helse påvirker ikke økonomien",
+        "At dårlig helse kan føre til fattigdom, men fattigdom påvirker ikke helsen",
+        "At fattigdom og helse henger sammen fordi begge påvirkes av hverandre på samme måte"
       ],
       "correct": 0,
       "explain": "Toveis sammenheng."
@@ -173,9 +173,9 @@
       "text": "Hva er primærforebygging?",
       "options": [
         "Å hindre at problemer oppstår",
-        "Rusbehandling",
-        "Soning",
-        "Å fange opp tidlig"
+        "Å behandle problemer etter at de har oppstått",
+        "Å oppdage problemer tidlig og sette inn hjelp",
+        "Å hindre at problemer forverres eller gjentar seg"
       ],
       "correct": 0,
       "explain": "Universelle tiltak."
@@ -185,9 +185,9 @@
       "text": "Hva kjennetegner inkludering sammenlignet med integrering?",
       "options": [
         "At fellesskapet tilpasser seg så alle kan delta",
-        "At minoriteten må tilpasse seg alene",
-        "At grupper lever atskilt",
-        "At alle blir like"
+        "At den enkelte må endre seg for å passe inn i fellesskapet",
+        "At ulike grupper får egne arenaer uten felles deltakelse",
+        "At deltakerne følger én felles norm for å delta"
       ],
       "correct": 0,
       "explain": "Ansvaret deles."
@@ -196,9 +196,9 @@
       "id": "q10",
       "text": "Hvorfor er velferdspolitikk fortsatt politikk selv med menneskerettigheter?",
       "options": [
-        "Fordi rettighetene ikke gjelder",
-        "Fordi politikere kan se bort fra dem",
-        "Fordi alt er bestemt av FN",
+        "Fordi menneskerettighetene først blir bindende etter vedtak i Stortinget",
+        "Fordi FN fastsetter konkrete velferdsbudsjetter for hvert enkelt land",
+        "Fordi rettighetene gjelder individet, mens velferdspolitikk gjelder samfunnet",
         "Fordi rettighetene gir minimumskrav og skal oppfylles gradvis"
       ],
       "correct": 3,
@@ -209,10 +209,10 @@
       "id": "q11",
       "text": "Hva er de tre behovene i selvbestemmelsesteorien?",
       "options": [
-        "Mat, søvn og bolig",
+        "Trygghet, anerkjennelse og selvrealisering",
         "Autonomi, kompetanse og tilhørighet",
-        "Trygghet, penger og status",
-        "Arbeid, skole og fritid"
+        "Mat, trygghet og sosial status",
+        "Tilhørighet, trygghet og anerkjennelse"
       ],
       "correct": 1,
       "explain": "Deci og Ryan.",
@@ -223,9 +223,9 @@
       "text": "Hvorfor er barn som opplever vold mellom foreldrene, også utsatt for vold?",
       "options": [
         "Fordi det skader dem selv om de ikke blir slått",
-        "Fordi de alltid blir slått",
-        "Fordi de ikke merker noe",
-        "Det er de ikke"
+        "Fordi barna selv blir slått når foreldrene utøver vold",
+        "Fordi de ikke blir direkte involvert i foreldrenes konflikt",
+        "Fordi vold mellom voksne ikke påvirker barn som hører den"
       ],
       "correct": 0,
       "explain": "Å være vitne til vold er skadelig."
@@ -235,9 +235,9 @@
       "text": "Hva sier nærhetsprinsippet?",
       "options": [
         "At kriser skal håndteres på lavest mulig nivå",
-        "At alle må bo nær hverandre",
-        "At staten skal ta alle kriser",
-        "At naboer har ansvar"
+        "At kriser skal håndteres på høyest mulig nivå",
+        "At kriser skal håndteres av nasjonale myndigheter",
+        "At kriser skal håndteres av det største fagmiljøet"
       ],
       "correct": 0,
       "explain": "Ett av fire beredskapsprinsipper."
@@ -374,7 +374,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -397,12 +397,12 @@
         "text": "Hva bør en god analyse av et samfunnsspørsmål inneholde?",
         "options": [
           "Fakta, teori, drøfting og begrunnet konklusjon",
-          "Bare egne meninger",
-          "Bare én kilde",
-          "Bare statistikk"
+          "Fakta, egne meninger, sammendrag og personlig konklusjon",
+          "Teori, eksempler, beskrivelse og en kort oppsummering",
+          "Statistikk, eksempler, beskrivelse og ubearbeidede sitater"
         ],
         "correct": 0,
-        "explain": "Med tydelige kildehenvisninger."
+        "explain": "Bruk tydelige kildehenvisninger."
       },
       {
         "id": "m02",
@@ -417,9 +417,9 @@
         "text": "Hvilket argument brukes for universelle ordninger?",
         "options": [
           "De gir bred oppslutning og tillit",
-          "De er billigst",
-          "De gir mindre skatt",
-          "De krever ingen administrasjon"
+          "De retter hjelpen mot dem med lavest inntekt",
+          "De gir lavere skatt gjennom færre ytelser",
+          "De reduserer utgiftene ved å avgrense målgruppen"
         ],
         "correct": 0,
         "explain": "Alle har nytte av dem."
@@ -450,10 +450,10 @@
         "type": "flervalg",
         "text": "Hvilket dilemma oppstår ofte i samfunnskriser?",
         "options": [
-          "Skatt mot toll",
-          "By mot land",
+          "Skattelette mot økte avgifter",
+          "Byutvikling mot distriktshensyn",
           "Frihet mot sikkerhet",
-          "Sport mot kultur"
+          "Idrettstilbud mot kulturtilbud"
         ],
         "correct": 2,
         "explain": "For eksempel nedstengning."
@@ -532,12 +532,84 @@
           "Forklarer at evaluering undersøker virkninger eller om tiltaket når målgruppen."
         ],
         "niva": "eksempel"
+      },
+      {
+        "text": "En ungdomsorganisasjon legger ut en åpen nettavstemning om hvor trygge unge føler seg på skolen. 80 prosent av dem som svarer, sier at de føler seg trygge. Hva kan organisasjonen konkludere med, og hvorfor kan den ikke uten videre si at 80 prosent av alle unge føler seg trygge?",
+        "fasit": "Organisasjonen kan si at 80 prosent av dem som svarte, oppga at de følte seg trygge. En åpen nettavstemning har et selvvalgt utvalg som ikke nødvendigvis er representativt, så resultatet kan ikke uten videre generaliseres til alle unge.",
+        "kriterier": [
+          "Begrenser konklusjonen til dem som svarte.",
+          "Forklarer at et selvvalgt nettutvalg ikke nødvendigvis er representativt og ikke gir grunnlag for generalisering."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En ungdom legger ut bilder på sosiale medier og endrer stil etter hvilke bilder som får flest positive reaksjoner. Forklar hvordan digital sosialisering og Cooleys speilingsselv kan bidra til å forme ungdommens identitet.",
+        "fasit": "Sosiale medier er en sosialiseringsagent der ungdommen møter normer og reaksjoner fra andre. Med Cooleys speilingsselv kan ungdommen forstå seg selv gjennom hvordan hen tror andre oppfatter hen, og tilpasse identiteten etter responsen.",
+        "kriterier": [
+          "Viser at sosiale medier og andres reaksjoner påvirker sosialiseringen.",
+          "Forklarer speilingsselvet som at selvbildet formes gjennom hvordan man tror andre ser en."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En person hevder at dårlig helse blant mennesker med lav inntekt beviser at lav inntekt alltid fører til sykdom. Forklar hvordan den sosiale gradienten i helse utfordrer en slik påstand, og hvorfor sammenhengen også kan gå motsatt vei.",
+        "fasit": "Den sosiale gradienten viser at helsen i gjennomsnitt blir bedre for hvert trinn oppover på inntekts- og utdanningsstigen, ikke bare at de fattigste har dårligere helse. Sammenhengen beviser ikke én bestemt årsak: Lav inntekt kan gi dårligere helse, mens sykdom også kan føre til lavere inntekt.",
+        "kriterier": [
+          "Forklarer at helseforskjellene følger en gradient gjennom befolkningen.",
+          "Skiller mellom sammenheng og årsak, og nevner at påvirkningen kan gå begge veier."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Et kommunalt bibliotek har en digital bestillingsløsning som en person med nedsatt motorisk funksjon ikke kan bruke. Forklar hvordan universell utforming og CRPD kan knyttes til inkludering i denne situasjonen.",
+        "fasit": "Universell utforming innebærer at digitale tjenester skal kunne brukes av alle uten at enkelte må be om en særskilt tilpasning. CRPD krever at personer med funksjonsnedsettelser skal kunne delta på like vilkår, så biblioteket bør fjerne denne barrieren for å gjøre tjenesten inkluderende.",
+        "kriterier": [
+          "Knytter universell utforming til digitale tjenester som kan brukes av alle.",
+          "Forklarer at CRPD handler om like muligheter for deltakelse, og at fellesskapet må bidra til å fjerne barrierer."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En elev får gjentatte uønskede seksuelle kommentarer og bilder sendt til seg i en klassechat. Forklar hvorfor dette kan regnes som seksuell trakassering, og nevn en mulig konsekvens for eleven.",
+        "fasit": "Uønskede seksuelle kommentarer og bilder er seksuell trakassering, som er forbudt etter likestillings- og diskrimineringsloven. Trakasseringen kan føre til psykiske plager, skam eller at eleven trekker seg fra sosiale fellesskap.",
+        "kriterier": [
+          "Identifiserer uønskede seksuelle kommentarer eller bilder som seksuell trakassering.",
+          "Nevner at det er forbudt etter likestillings- og diskrimineringsloven eller beskriver en mulig konsekvens for eleven."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "En ungdom som tidligere har begått kriminalitet, får oppfølging gjennom konfliktrådet for å hindre nye lovbrudd. Forklar hvilken type forebygging dette er, og hva tiltaket skal forhindre.",
+        "fasit": "Dette er tertiærforebygging, fordi ungdommen allerede har begått kriminalitet. Tiltaket skal hindre at problemet forverres eller gjentar seg.",
+        "kriterier": [
+          "Klassifiserer oppfølgingen som tertiærforebygging.",
+          "Forklarer at målet er å hindre forverring eller gjentakelse."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "En kommune tilbyr gratis skolemåltider, skolehelsetjeneste og et fritidskort for barn og unge. Forklar hvordan slike ordninger kan støtte både grunnleggende behov og livsmestring, og hvorfor de ikke kan erstatte omsorgsfulle relasjoner.",
+        "fasit": "Skolemåltider kan bidra til å dekke fysiske behov, mens skolehelsetjenesten og fritidskortet kan støtte helse, tilhørighet og mestring. Slike ordninger kan gi barn bedre forutsetninger for livsmestring, men de kan ikke erstatte omsorg og trygge relasjoner til andre mennesker.",
+        "kriterier": [
+          "Knytter ordningene til behov som mat, helse, tilhørighet eller mestring.",
+          "Forklarer at ordningene kan støtte livsmestring, men ikke erstatte omsorg og relasjoner."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "Et kraftig flomskred rammer en kommune, og flere innbyggere trenger hjelp til å evakuere. Forklar hvordan nærhetsprinsippet og samvirkeprinsippet kan brukes i håndteringen, og hvorfor det er viktig å ta hensyn til sårbare grupper.",
+        "fasit": "Nærhetsprinsippet betyr at krisen skal håndteres på lavest mulig nivå, slik at kommunen har en sentral rolle. Samvirkeprinsippet innebærer at aktører som kommunen, nødetatene og helsevesenet samarbeider, og evakueringen må ta hensyn til at noen innbyggere kan være særlig sårbare.",
+        "kriterier": [
+          "Forklarer nærhetsprinsippet som håndtering på lavest mulig nivå.",
+          "Forklarer samvirke som samarbeid mellom aktører, og viser at sårbare grupper trenger særskilt hensyn."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "alternativer": "2026-10-01"
   }
 }

@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er en visjon?",
       "options": [
-        "Et budsjett",
-        "Et langsiktig, inspirerende bilde av hva virksomheten vil bli",
-        "En reklamekampanje",
-        "Et delmål"
+        "En konkret plan for hvordan virksomheten skal nå målene",
+        "Et langsiktig, inspirerende bilde av virksomhetens framtid",
+        "En beskrivelse av behovet virksomheten dekker i dag",
+        "Et målbart resultat virksomheten skal nå innen året"
       ],
       "correct": 1,
       "explain": "Gir retning og motivasjon."
@@ -89,8 +89,8 @@
       "options": [
         "Hva, hvem og hvordan",
         "Når, hvor og hvorfor",
-        "Pris, plass og produkt",
-        "Styrker, svakheter og trusler"
+        "Pris, produkt og påvirkning",
+        "Styrker, svakheter og muligheter"
       ],
       "correct": 0,
       "explain": "Tilbud, målgruppe og ressurser."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva står M-en i SMART for?",
       "options": [
-        "Moderne",
-        "Motiverende",
+        "Målrettet",
+        "Maksimal",
         "Målbar",
-        "Maksimal"
+        "Månedlig"
       ],
       "correct": 2,
       "explain": "Man må kunne måle om målet er nådd."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hva er et delmål?",
       "options": [
-        "En visjon",
-        "En verdi",
-        "En forretningsidé",
-        "Et mål for en avdeling eller periode som bidrar til hovedmålet"
+        "En langsiktig beskrivelse av hva virksomheten ønsker å bli",
+        "Et felles prinsipp som styrer hvordan ansatte opptrer",
+        "En beskrivelse av hvilket behov virksomheten dekker og for hvem",
+        "Et mål for en avdeling eller periode som støtter hovedmålet"
       ],
       "correct": 3,
       "explain": "Målhierarkiet."
@@ -126,7 +126,7 @@
         "Økonomi, kunder, interne prosesser og læring",
         "Pris, produkt, plass og påvirkning",
         "Styrker, svakheter, muligheter og trusler",
-        "Politikk, økonomi, sosialt og teknologi"
+        "Politikk, økonomi, sosiale forhold og teknologi"
       ],
       "correct": 0,
       "explain": "Ikke bare tall på kort sikt."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva kan skje hvis verdiene ikke etterleves?",
       "options": [
-        "Omdømmet styrkes",
-        "Omdømmet kan skades",
-        "Ingenting",
-        "Salget dobles"
+        "Manglende etterlevelse kan styrke virksomhetens omdømme",
+        "Manglende etterlevelse kan skade virksomhetens omdømme",
+        "Manglende etterlevelse kan øke kundetilliten",
+        "Manglende etterlevelse kan tydeliggjøre virksomhetens verdier"
       ],
       "correct": 1,
       "explain": "Verdier må være troverdige."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er et konkurransefortrinn?",
       "options": [
-        "Et lavt budsjett",
-        "Mange ansatte",
+        "Noe virksomheten ønsker å oppnå på lang sikt",
+        "Noe virksomheten lover å levere til kundene",
         "Noe virksomheten gjør bedre enn konkurrentene",
-        "En visjon"
+        "Noe virksomheten bruker for å styre ansattes atferd"
       ],
       "correct": 2,
       "explain": "Bør være vanskelig å kopiere."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva er et eksempel på målkonflikt?",
       "options": [
-        "Høy trivsel og god kundeservice",
-        "Mange kunder og høy kjennskap",
-        "Lave kostnader og effektivitet",
-        "Kortsiktig lønnsomhet mot bærekraft"
+        "Økt kundetilfredshet sammen med sterkere kundelojalitet",
+        "Bedre medarbeidertrivsel sammen med lavere sykefravær",
+        "Større markedsandel sammen med høyere merkekjennskap",
+        "Økt kortsiktig lønnsomhet på bekostning av bærekraft"
       ],
       "correct": 3,
       "explain": "Mål kan trekke i ulike retninger."
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hva beskriver virksomhetsideen?",
       "options": [
-        "Hvorfor virksomheten finnes og hvilket behov den dekker",
-        "Hvor mye den tjener",
-        "Hvem som er leder",
-        "Hvilke farger logoen har"
+        "Hvorfor virksomheten finnes, og hvilket behov den dekker",
+        "Hvilke mål virksomheten skal nå, og innen hvilken frist",
+        "Hvordan virksomheten vil vokse, og hvilke markeder den skal inn i",
+        "Hvem som leder virksomheten, og hvordan arbeidet fordeles"
       ],
       "correct": 0,
       "explain": "Også kalt misjon."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvilket mål er SMART?",
       "options": [
-        "Bli best i verden",
+        "Øke markedsandelen tydelig fra dagens nivå innen utgangen av neste år",
         "Øke markedsandelen fra 8 til 10 % innen utgangen av neste år",
-        "Få flere kunder",
-        "Bli mer kjent"
+        "Øke markedsandelen fra 8 til 10 % på sikt gjennom bedre markedsføring",
+        "Prøve å øke markedsandelen fra 8 til 10 % innen utgangen av neste år"
       ],
       "correct": 1,
       "explain": "Spesifikt, målbart og tidsbestemt."
@@ -301,10 +301,10 @@
         "type": "flervalg",
         "text": "Hvilket mål er et markedsmål?",
         "options": [
-          "Redusere utslipp",
+          "Redusere virksomhetens utslipp",
           "Øke kjennskapen til merket",
-          "Øke trivselen",
-          "Redusere sykefraværet"
+          "Øke medarbeidernes trivsel",
+          "Redusere sykefraværet blant ansatte"
         ],
         "correct": 1,
         "explain": "Markedsandel, kunder eller kjennskap."
@@ -315,9 +315,9 @@
         "text": "Hva kjennetegner en god forretningsidé?",
         "options": [
           "Realistisk, tydelig målgruppe og konkurransefortrinn",
-          "Vag og generell",
-          "Uten målgruppe",
-          "Lett å kopiere"
+          "Realistisk, uklar målgruppe og konkurransefortrinn",
+          "Realistisk, tydelig målgruppe og lett å kopiere",
+          "Urealistisk, tydelig målgruppe og konkurransefortrinn"
         ],
         "correct": 0,
         "explain": "Vanskelig å kopiere."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva viser handlingsplanen?",
         "options": [
-          "Visjonen",
-          "Verdiene",
+          "Virksomhetens overordnede mål",
+          "Virksomhetens langsiktige visjon",
           "De konkrete tiltakene",
-          "Konkurrentene"
+          "Konkurrentenes viktigste fortrinn"
         ],
         "correct": 2,
         "explain": "Nederst i målhierarkiet."
@@ -416,6 +416,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er et eksistensielt spørsmål?",
       "options": [
-        "Hva koster en buss?",
+        "Hvordan dannes regn i skyene?",
         "Hva er meningen med livet?",
-        "Hvor mange innbyggere har Norge?",
-        "Hva er 2 + 2?"
+        "Hvor mange planeter finnes i solsystemet?",
+        "Når går neste buss fra sentrum?"
       ],
       "correct": 1,
       "explain": "Om selve tilværelsen."
@@ -90,9 +90,9 @@
       "text": "Hvilke fire temaer pekte Irvin Yalom på?",
       "options": [
         "Død, frihet, ensomhet og meningsløshet",
-        "Penger, makt, status og sex",
-        "Gud, kirke, bibel og bønn",
-        "Arbeid, skole, familie og venner"
+        "Tro, tvil, bønn og frelse",
+        "Identitet, moral, lykke og kjærlighet",
+        "Arbeid, familie, status og økonomi"
       ],
       "correct": 0,
       "explain": "Alle mennesker må forholde seg til dem.",
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva mente Sartre med at eksistensen går forut for essensen?",
       "options": [
-        "At Gud skapte vår natur",
-        "At vi er født med en fast natur",
+        "At vi har en fast natur som bestemmer valgene våre",
+        "At vi blir det vi velger, men valgene styres av Gud",
         "At vi ikke har en fast natur, men blir det vi velger",
-        "At livet er meningsløst"
+        "At vi først må finne vår medfødte natur før vi velger"
       ],
       "correct": 2,
       "explain": "Vi er dømt til å være frie."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva mente Camus om Sisyfos?",
       "options": [
-        "At han var ulykkelig",
-        "At han burde gi opp",
-        "At han var en gud",
+        "At vi må forestille oss ham som ulykkelig",
+        "At Sisyfos kunne unnslippe straffen ved å nekte arbeidet",
+        "At vi bør forestille oss ham som beseiret",
         "At vi må forestille oss ham som lykkelig"
       ],
       "correct": 3,
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hvordan skiller Kierkegaard seg fra Sartre?",
       "options": [
-        "Kierkegaard var kristen",
-        "Kierkegaard var ateist",
-        "Sartre var prest",
-        "De mente det samme om Gud"
+        "Kierkegaard var kristen, i motsetning til den ateistiske Sartre.",
+        "Kierkegaard var ateist, i motsetning til den kristne Sartre.",
+        "Kierkegaard og Sartre var begge kristne eksistensialistiske tenkere.",
+        "Kierkegaard og Sartre var begge ateistiske eksistensialistiske tenkere."
       ],
       "correct": 0,
       "explain": "Han skrev om troens sprang."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er det humanistiske svaret på livets mening?",
       "options": [
-        "Meningen er gitt av Gud",
+        "Meningen får vi fra Gud",
         "Meningen skaper vi selv",
-        "Livet har ingen verdi",
-        "Meningen finnes etter døden"
+        "Meningen finnes etter dette livet",
+        "Meningen følger en guddommelig plan"
       ],
       "correct": 1,
       "explain": "Gjennom relasjoner, arbeid og kunnskap."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er det absurde hos Camus?",
       "options": [
-        "At livet er morsomt",
-        "At alt har mening",
+        "At mennesket søker mening i en verden som gir tydelige svar",
+        "At mennesket finner mening ved å følge en guddommelig plan",
         "At mennesket søker mening i en taus verden",
-        "At Gud svarer på alt"
+        "At det absurde oppstår når verden gir mennesket en mening"
       ],
       "correct": 2,
       "explain": "En sentral idé i hans filosofi."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvordan forklarer buddhismen lidelse?",
       "options": [
-        "Som straff fra Gud",
-        "Som tilfeldigheter",
-        "Som noe som ikke finnes",
+        "Som en straff fra en guddommelig makt",
+        "Som en prøve sendt av en skapergud",
+        "Som følge av at sjelen straffes etter døden",
         "Som en følge av begjær"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hvorfor har kulturer ritualer rundt døden?",
       "options": [
         "For å hjelpe oss å sørge, huske og leve videre",
-        "For å glemme de døde",
-        "Fordi loven krever det",
-        "For å tjene penger"
+        "For å hjelpe familien med å velge hvem som arver",
+        "For å hindre at de etterlatte snakker om den døde",
+        "For å avgjøre hvilken religion den døde skal tilhøre"
       ],
       "correct": 0,
       "explain": "Gravferd og minnesteder."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva handler refleksjon over eksistensielle spørsmål om?",
       "options": [
-        "Å finne én fasit",
+        "Å finne én fasit som gjelder for alle mennesker",
         "Å lytte til ulike svar og formulere egne tanker",
-        "Å følge én autoritet",
-        "Å unngå spørsmålene"
+        "Å følge rådene fra én religiøs autoritet",
+        "Å unngå temaer som ikke kan bevises"
       ],
       "correct": 1,
       "explain": "Og respektere at andre kommer fram til noe annet."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva la jødedommen særlig vekt på i møte med eksistensielle spørsmål?",
         "options": [
-          "Gjenfødelse",
+          "Livet etter døden, frelsen og fellesskapet med kirken",
           "Livet her og nå, budene og fellesskapet",
-          "Nirvana",
-          "Tilfeldigheter"
+          "Gjenfødelse, karma og veien mot nirvana",
+          "Skjebnen, naturkreftene, forfedrene og individuelle valg"
         ],
         "correct": 1,
         "explain": "Og slekten.",
@@ -328,7 +328,7 @@
           "Sartre",
           "Kierkegaard",
           "Camus",
-          "Buddha"
+          "Nietzsche"
         ],
         "correct": 0,
         "explain": "Vi har fullt ansvar for våre valg."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvilke former for gravferd finnes i Norge?",
         "options": [
-          "Bare kirkelig",
-          "Bare humanistisk",
+          "Kirkelig, humanistisk og knyttet til offentlige myndigheter",
+          "Kirkelig, humanistisk og knyttet til helsevesenet",
           "Kirkelig, humanistisk og knyttet til andre trossamfunn",
-          "Ingen"
+          "Kirkelig, humanistisk og knyttet til kommunale ritualer"
         ],
         "correct": 2,
         "explain": "Mangfold i ritualer.",
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

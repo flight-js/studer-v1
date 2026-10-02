@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på kroppskrenkelse og kroppsskade?",
       "options": [
-        "Det er det samme",
+        "Kroppskrenkelse krever at handlingen gir varig skade",
         "Kroppsskade krever at volden fører til skade",
-        "Kroppskrenkelse er alltid grovere",
-        "Kroppsskade gjelder bare våpen"
+        "Kroppsskade krever at skaden er synlig",
+        "Kroppskrenkelse krever at offeret oppsøker lege"
       ],
       "correct": 1,
       "explain": "Følgen avgjør."
@@ -90,7 +90,7 @@
         "16 år",
         "15 år",
         "14 år",
-        "18 år"
+        "17 år"
       ],
       "correct": 0,
       "explain": "Straffeloven § 302."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er avgjørende i en samtykkebasert voldtektsbestemmelse?",
       "options": [
-        "Om det er brukt vold",
-        "Om det finnes vitner",
+        "Om den andre har gjort motstand",
+        "Om det finnes fysiske bevis",
         "Om den andre har samtykket",
-        "Om partene kjenner hverandre"
+        "Om partene er i et forhold"
       ],
       "correct": 2,
       "explain": "Samtykket må være frivillig."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hvilket straffebud rammer alvorlig eller gjentatt mishandling av en partner?",
       "options": [
-        "§ 263 trusler",
-        "§ 271 kroppskrenkelse",
-        "§ 275 drap",
-        "§ 282 mishandling i nære relasjoner"
+        "§ 263 – trusler",
+        "§ 271 – kroppskrenkelse",
+        "§ 291 – voldtekt",
+        "§ 282 – mishandling i nære relasjoner"
       ],
       "correct": 3,
       "explain": "Tar hensyn til vold over tid."
@@ -124,9 +124,9 @@
       "text": "Hva er strafferammen for drap?",
       "options": [
         "Fengsel fra 8 inntil 21 år",
-        "Bot",
-        "Fengsel inntil 1 år",
-        "Fengsel inntil 3 år"
+        "Fengsel inntil 15 år",
+        "Fengsel fra 6 inntil 15 år",
+        "Fengsel fra 10 inntil 30 år"
       ],
       "correct": 0,
       "explain": "Straffeloven § 275."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Kan den som sover, samtykke til seksuell omgang?",
       "options": [
-        "Ja, hvis hen samtykket tidligere",
-        "Nei",
-        "Ja, hvis de er kjærester",
-        "Ja, hvis hen er over 18"
+        "En sovende person kan samtykke etter et tidligere ja.",
+        "En sovende person kan ikke gi samtykke.",
+        "En sovende person kan samtykke fordi de er kjærester.",
+        "En sovende person kan samtykke fordi hen er myndig."
       ],
       "correct": 1,
       "explain": "Et samtykke krever at man er i stand til å gi det."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Når er trusler straffbare?",
       "options": [
-        "Alltid når noen blir sint",
-        "Bare når de skrives på papir",
+        "Når trusselen fører til alvorlig fysisk skade",
+        "Når trusselen blir skrevet og sendt på papir",
         "Når trusselen er egnet til å fremkalle alvorlig frykt",
-        "Bare når de gjennomføres"
+        "Når trusselen faktisk blir gjennomført i praksis"
       ],
       "correct": 2,
       "explain": "Gjelder også på nett."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva er straffbart ved deling av bilder?",
       "options": [
-        "Å dele feriebilder",
-        "Å dele bilder av natur",
-        "Å dele egne selfier",
+        "Å dele vanlige skolebilder av personer under 18 år",
+        "Å dele seksualiserte bilder av myndige personer med samtykke",
+        "Å dele vanlige bilder av personer under 18 år i chattegrupper",
         "Å dele seksualiserte bilder av personer under 18 år"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hva gir en bistandsadvokat?",
       "options": [
         "Juridisk hjelp til fornærmede betalt av staten",
-        "Forsvar for tiltalte",
-        "Råd til politiet",
-        "Hjelp til dommeren"
+        "Juridisk hjelp til tiltalte betalt av staten",
+        "Juridisk hjelp til vitner betalt av staten",
+        "Juridisk hjelp til fornærmede betalt av kommunen"
       ],
       "correct": 0,
       "explain": "I blant annet voldtektssaker."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hva må vurderes hvis gjerningspersonen hevder at hen forsvarte seg?",
       "options": [
-        "Om offeret har forsikring",
-        "Om det var nødverge",
-        "Om det var nødrett",
-        "Om det var forsøk"
+        "Om handlingen oppfylte vilkårene for nødrett",
+        "Om handlingen oppfylte vilkårene for nødverge",
+        "Om handlingen oppfylte vilkårene for selvtekt",
+        "Om handlingen oppfylte vilkårene for forsøk"
       ],
       "correct": 1,
       "explain": "En straffrihetsgrunn."
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Hva kan gjøre en kroppskrenkelse grov?",
         "options": [
-          "At den skjer om dagen",
+          "Handling på offentlig sted",
           "Bruk av våpen",
-          "At offeret er voksen",
-          "At gjerningspersonen er alene"
+          "At offeret er myndig",
+          "Gjerningspersonens anger etterpå"
         ],
         "correct": 1,
         "explain": "Også særlig sårbart offer.",
@@ -323,8 +323,8 @@
         "text": "Hvilket rettsgode verner seksuallovbruddene?",
         "options": [
           "Den seksuelle selvbestemmelsesretten",
-          "Eiendomsretten",
-          "Ytringsfriheten",
+          "Retten til eiendom",
+          "Retten til ytringsfrihet",
           "Retten til utdanning"
         ],
         "correct": 0,
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hvem kan gi erstatning når skadevolderen ikke kan betale?",
         "options": [
-          "Kommunen",
-          "Skolen",
+          "Kommunen gjennom sosialhjelp",
+          "NAV gjennom arbeidsavklaringspenger",
           "Staten gjennom voldsoffererstatning",
-          "Ingen"
+          "Forsikringsselskapet gjennom innboforsikring"
         ],
         "correct": 2,
         "explain": "En viktig ordning for ofre."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

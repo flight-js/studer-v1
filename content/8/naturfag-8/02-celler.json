@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hvilken del av cellen inneholder DNA?",
       "options": [
-        "Cellemembranen",
+        "Ribosomet",
         "Cellekjernen",
-        "Vakuolen",
-        "Celleveggen"
+        "Golgiapparatet",
+        "Lysosomet"
       ],
       "correct": 1,
       "explain": "I eukaryote celler ligger DNA-et i cellekjernen."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva finnes i planteceller, men ikke i dyreceller?",
       "options": [
-        "Cellemembran og cytoplasma",
-        "Mitokondrier",
+        "Cellekjerne og ribosomer",
+        "Mitokondrier og cellemembran",
         "Cellevegg og kloroplaster",
-        "Cellekjerne"
+        "Cytoplasma og ribosomer"
       ],
       "correct": 2,
       "explain": "Planteceller har cellevegg, kloroplaster og en stor vakuole i tillegg."
@@ -104,7 +104,7 @@
         "I mitokondriene",
         "I kloroplastene",
         "I cellekjernen",
-        "I cellemembranen"
+        "I vakuolen"
       ],
       "correct": 1,
       "explain": "Kloroplastene inneholder klorofyll, som fanger lysenergien til fotosyntesen."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva kjennetegner bakterieceller?",
       "options": [
-        "De har ikke cellekjerne",
-        "De har kloroplaster",
-        "De er større enn dyreceller",
-        "De har ikke cellemembran"
+        "De mangler en cellekjerne",
+        "De har en cellekjerne",
+        "De har flere cellekjerner",
+        "De mangler cellemembran"
       ],
       "correct": 0,
       "explain": "Bakterier er prokaryote. Arvestoffet ligger fritt i cytoplasmaet."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva gjør mitokondriene?",
       "options": [
-        "Lagrer vann",
-        "Lager proteiner fra lys",
-        "Beskytter cellen",
-        "Frigjør energi fra næring ved celleånding"
+        "Lager proteiner ved proteinsyntese",
+        "Lagrer vann ved osmose",
+        "Bryter ned avfall ved fordøyelse",
+        "Frigjør energi ved celleånding"
       ],
       "correct": 3,
       "explain": "Mitokondriene kalles ofte cellens kraftverk."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvorfor er nerveceller lange og greinete?",
       "options": [
-        "For å lagre fett",
+        "For å frakte oksygen gjennom hele kroppen",
         "For å sende signaler over lange avstander",
-        "For å fange lys",
-        "For å frakte oksygen"
+        "For å samle lys fra omgivelsene",
+        "For å lagre fett mellom cellene"
       ],
       "correct": 1,
       "explain": "Formen gjør det mulig å nå langt og koble seg til mange andre celler.",
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva kalles en gruppe like celler som samarbeider?",
       "options": [
-        "Organ",
+        "Celle",
         "Organisme",
         "Vev",
-        "Organsystem"
+        "Populasjon"
       ],
       "correct": 2,
       "explain": "Like celler danner vev, for eksempel muskelvev."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hva gjør cellemembranen?",
       "options": [
-        "Gir planten grønn farge",
-        "Inneholder arvestoffet",
-        "Frigjør energi",
-        "Holder cellen samlet og bestemmer hva som slipper inn og ut"
+        "Lager proteiner og styrer celledelingen i cellen",
+        "Fanger lysenergi og lager sukker fra vann og karbondioksid",
+        "Frigjør energi fra næring og lager proteiner til cellen",
+        "Holder cellen samlet og styrer hva som slipper inn og ut"
       ],
       "correct": 3,
       "explain": "Membranen er en selektiv grense mellom cellen og omgivelsene."
@@ -175,9 +175,9 @@
       "text": "Hva er en eukaryot celle?",
       "options": [
         "En celle med cellekjerne",
-        "En celle uten kjerne",
-        "En bakteriecelle",
-        "En død celle"
+        "En celle uten cellekjerne",
+        "En celle uten arvestoff",
+        "En bakteriecelle med cellekjerne"
       ],
       "correct": 0,
       "explain": "Dyre-, plante- og soppceller har kjerne og er eukaryote.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor har røde blodceller ingen kjerne?",
       "options": [
-        "Fordi de er døde",
-        "For å få plass til mer oksygen",
-        "Fordi de er bakterier",
-        "For å lage fotosyntese"
+        "For å få plass til flere mitokondrier",
+        "For å få plass til mer hemoglobin",
+        "For å kunne lage nye proteiner raskere",
+        "For å kunne dele seg oftere i blodet"
       ],
       "correct": 1,
       "explain": "Uten kjerne har de mer plass til hemoglobin, som frakter oksygen.",
@@ -324,9 +324,9 @@
         "text": "Hva gjør vakuolen i en plantecelle?",
         "options": [
           "Lagrer vann og holder cellen spent",
-          "Lager energi",
-          "Inneholder DNA",
-          "Fanger lys"
+          "Lagrer arvestoff og styrer celledelingen",
+          "Fanger lys og lager sukker ved fotosyntese",
+          "Frigjør energi fra næring ved celleånding"
         ],
         "correct": 0,
         "explain": "Den store vakuolen fylles med vann og hjelper planten å stå oppreist."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva kalles et hjerte, som består av flere typer vev?",
         "options": [
-          "En celle",
-          "Et organ",
-          "Et vev",
-          "En organisme"
+          "Organell",
+          "Organ",
+          "Organsystem",
+          "Organisme"
         ],
         "correct": 1,
         "explain": "Et organ består av ulike vev som samarbeider."
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "Hvilket instrument trenger du for å se de fleste celler?",
         "options": [
-          "Kikkert",
-          "Termometer",
+          "Lupe",
+          "Teleskop",
           "Mikroskop",
-          "Vekt"
+          "Stetoskop"
         ],
         "correct": 2,
         "explain": "De fleste celler er for små til å ses uten mikroskop."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

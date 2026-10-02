@@ -81,9 +81,9 @@
       "text": "Hva betyr «die Geschwister»?",
       "options": [
         "Søsken",
-        "Søstre",
-        "Besteforeldre",
-        "Foreldre"
+        "Fettere",
+        "Foreldre",
+        "Besteforeldre"
       ],
       "correct": 0,
       "explain": "«Geschwister» er brødre og søstre til sammen."
@@ -107,7 +107,7 @@
         "mein Mutter",
         "meine Mutter",
         "meinen Mutter",
-        "meines Mutter"
+        "meinem Mutter"
       ],
       "correct": 1,
       "explain": "«Mutter» er hunkjønn, derfor «meine»."
@@ -119,7 +119,7 @@
         "Ich habe ein Bruder.",
         "Ich bin einen Bruder.",
         "Ich habe einen Bruder.",
-        "Ich habe eine Bruder."
+        "Ich habe einen Schwester."
       ],
       "correct": 2,
       "explain": "Etter «haben» får hankjønnsord formen «einen»."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hva betyr «Ich habe keine Geschwister»?",
       "options": [
-        "Jeg har mange søsken",
-        "Jeg har ingen søsken",
         "Jeg har to søsken",
-        "Søsknene mine er snille"
+        "Jeg har ingen søsken",
+        "Jeg har en bror",
+        "Jeg har en søster"
       ],
       "correct": 1,
       "explain": "«kein/keine» betyr «ingen»."
@@ -140,9 +140,9 @@
       "id": "q06",
       "text": "Hva betyr «lustig»?",
       "options": [
-        "Lat",
         "Trist",
-        "Høy",
+        "Sint",
+        "Trøtt",
         "Morsom"
       ],
       "correct": 3,
@@ -153,8 +153,8 @@
       "text": "Hvordan sier du «Hun har brune øyne»?",
       "options": [
         "Sie hat braune Augen.",
-        "Sie ist braune Augen.",
-        "Sie hat braun Auge.",
+        "Sie hat braune Haare.",
+        "Sie hat braunen Augen.",
         "Er hat braune Augen."
       ],
       "correct": 0,
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva betyr «Mein bester Freund heißt Jonas»?",
       "options": [
-        "Min bror heter Jonas",
+        "Min beste bror heter Jonas",
         "Min beste venn heter Jonas",
-        "Jonas er snill",
-        "Jonas bor her"
+        "Min gode venn heter Jonas",
+        "Min beste venn heter Erik"
       ],
       "correct": 1,
       "explain": "«bester Freund» betyr beste venn."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

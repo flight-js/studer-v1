@@ -93,8 +93,8 @@
       "options": [
         "−2 < x < 3",
         "x < −2 eller x > 3",
-        "x > 3",
-        "−3 < x < 2"
+        "−2 ≤ x ≤ 3",
+        "−2 < x ≤ 3"
       ],
       "correct": 0,
       "explain": "(x − 3)(x + 2) er negativt mellom nullpunktene."
@@ -103,9 +103,9 @@
       "id": "q02",
       "text": "Når finnes lim ₓ→ₐ f(x)?",
       "options": [
-        "Alltid",
-        "Bare når f(a) = 0",
-        "Bare for polynomer",
+        "Når f(a) er lik null",
+        "Når f er definert i a",
+        "Når f er voksende på begge sider av a",
         "Når venstre og høyre grense er like"
       ],
       "correct": 3,
@@ -139,9 +139,9 @@
       "id": "q05",
       "text": "Når er overskuddet størst?",
       "options": [
-        "Når K(x) = 0",
-        "Når I(x) er størst",
-        "Når x er størst mulig",
+        "Når grenseinntekten er lik totalkostnaden",
+        "Når grensekostnaden er lik totalinntekten",
+        "Når kostnaden er lik inntekten",
         "Når grensekostnaden er lik grenseinntekten"
       ],
       "correct": 3,
@@ -151,9 +151,9 @@
       "id": "q06",
       "text": "Hvilken regel brukes til å flytte eksponenten ned?",
       "options": [
-        "lg(a · b) = lg a + lg b",
-        "lg(a / b) = lg a − lg b",
-        "lg 1 = 0",
+        "lg(aˣ) = lg a + lg x",
+        "lg(aˣ) = x + lg a",
+        "lg(aˣ) = a · lg x",
         "lg(aˣ) = x · lg a"
       ],
       "correct": 3,
@@ -166,7 +166,7 @@
         "Lineær",
         "Eksponentiell",
         "Andregrads",
-        "Konstant"
+        "Logistisk"
       ],
       "correct": 1,
       "explain": "Fast vekstfaktor."
@@ -176,8 +176,8 @@
       "text": "På hvor mange måter kan en komité på 3 velges blant 10 elever?",
       "options": [
         "720",
+        "45",
         "30",
-        "1000",
         "120"
       ],
       "correct": 3,
@@ -187,10 +187,10 @@
       "id": "q09",
       "text": "Hva er sannsynligheten for minst én sekser på fire terningkast?",
       "options": [
-        "4/6",
+        "Omtrent 0,667",
         "Omtrent 0,518",
         "Omtrent 0,482",
-        "1/6"
+        "Omtrent 0,999"
       ],
       "correct": 1,
       "explain": "1 − (5/6)⁴."
@@ -199,10 +199,10 @@
       "id": "q10",
       "text": "Hvilket krav gjelder for et binomisk forsøk?",
       "options": [
-        "Sannsynligheten endres i hvert delforsøk",
-        "Delforsøkene er uavhengige med samme p",
-        "Det er tre utfall i hvert delforsøk",
-        "Antall delforsøk er ukjent"
+        "Delforsøkene er uavhengige og har ulik sannsynlighet for suksess.",
+        "Delforsøkene er uavhengige og har samme sannsynlighet for suksess.",
+        "Hvert delforsøk har tre mulige utfall.",
+        "Antallet delforsøk bestemmes av hvor mange suksesser som oppstår."
       ],
       "correct": 1,
       "explain": "Og to utfall i hvert delforsøk."
@@ -211,10 +211,10 @@
       "id": "q11",
       "text": "Når er X hypergeometrisk fordelt?",
       "options": [
-        "Ved uavhengige forsøk med konstant p",
-        "Ved trekk uten tilbakelegging fra en gruppe med to typer",
-        "Når alle utfall er like",
-        "Når vi trekker med tilbakelegging"
+        "Ved uavhengige forsøk med samme sannsynlighet i hvert forsøk",
+        "Ved trekking uten tilbakelegging fra en gruppe med to typer",
+        "Ved trekking med tilbakelegging fra en gruppe med to typer",
+        "Ved uavhengige forsøk der sannsynligheten endres mellom forsøkene"
       ],
       "correct": 1,
       "explain": "Sannsynligheten endres underveis."
@@ -345,7 +345,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -372,10 +372,10 @@
         "type": "flervalg",
         "text": "Hva er lim ₓ→₁ (x² − 1)/(x − 1)?",
         "options": [
-          "0",
-          "1",
+          "3",
+          "−2",
           "2",
-          "Den finnes ikke"
+          "1/2"
         ],
         "correct": 2,
         "explain": "Forkort til x + 1."
@@ -419,10 +419,10 @@
         "type": "flervalg",
         "text": "En boks har 3 røde og 2 blå kuler. Du trekker 2 uten tilbakelegging. Hva er P(2 røde)?",
         "options": [
-          "0,5",
-          "0,3",
+          "0,50",
+          "0,30",
           "0,36",
-          "0,6"
+          "0,60"
         ],
         "correct": 1,
         "explain": "C(3, 2)/C(5, 2) = 3/10."
@@ -500,12 +500,86 @@
           "Bruker lg(10ˣ)=x og lg(1000)=3.",
           "Oppgir løsningen x=3."
         ]
+      },
+      {
+        "text": "Løs ulikheten \\(\\frac{x-2}{x+1}<0\\). Oppgi også hvilken verdi av \\(x\\) uttrykket ikke er definert for.",
+        "fasit": "Uttrykket er ikke definert når \\(x=-1\\). Fortegnslinjen viser at brøken er negativ for \\(-1<x<2\\), så løsningen er \\(x\\in(-1,2)\\).",
+        "kriterier": [
+          "Oppgir at \\(x=-1\\) ikke er tillatt.",
+          "Finner løsningen \\(-1<x<2\\)."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En funksjon er definert ved \\(f(x)=3x-1\\) når \\(x<2\\), og \\(f(x)=ax+1\\) når \\(x\\geq 2\\). Finn verdien av \\(a\\) som gjør funksjonen kontinuerlig i \\(x=2\\), og forklar kort hva som må stemme ved skjøten.",
+        "fasit": "Fra venstre nærmer funksjonsverdien seg \\(3\\cdot2-1=5\\). Siden \\(f(2)=2a+1\\), må \\(2a+1=5\\), altså er \\(a=2\\).",
+        "kriterier": [
+          "Setter venstre grenseverdi lik funksjonsverdien ved \\(x=2\\).",
+          "Finner \\(a=2\\)."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "For \\(f(x)=x^2+1\\), finn den gjennomsnittlige vekstfarten fra \\(x=1\\) til \\(x=3\\) og den momentane vekstfarten ved \\(x=1\\). Forklar hva de to svarene beskriver.",
+        "fasit": "Den gjennomsnittlige vekstfarten er \\((f(3)-f(1))/(3-1)=(10-2)/2=4\\). Siden \\(f'(x)=2x\\), er den momentane vekstfarten ved \\(x=1\\) lik 2. Den første er stigningstallet til sekanten, mens den andre er stigningstallet til tangenten i punktet.",
+        "kriterier": [
+          "Finner gjennomsnittlig vekstfart 4 og momentan vekstfart 2.",
+          "Skiller mellom sekantens og tangentens stigningstall."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Funksjonen \\(f(x)=x^3-3x\\) er definert på intervallet \\([-2,2]\\). Finn den største og den minste funksjonsverdien på intervallet, og forklar hvorfor det ikke er nok å undersøke punktene der \\(f'(x)=0\\).",
+        "fasit": "Vi får \\(f'(x)=3(x-1)(x+1)\\), så de indre kritiske punktene er \\(x=-1\\) og \\(x=1\\). Verdiene i disse punktene og i endepunktene er henholdsvis 2, −2, −2 og 2. Største verdi er 2, og minste verdi er −2; endepunktene må også undersøkes fordi et globalt ekstremum kan ligge der.",
+        "kriterier": [
+          "Finner største verdi 2 og minste verdi −2.",
+          "Begrunner at både kritiske punkter og endepunkter må undersøkes."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En by har 1000 innbyggere i startåret, og folketallet øker med omtrent 5 % hvert år. Skriv en modell for folketallet etter \\(t\\) år, finn modellens verdi etter 2 år, og forklar hvorfor en eksponentiell modell passer bedre enn en lineær modell her.",
+        "fasit": "Modellen er \\(P(t)=1000\\cdot1,05^t\\), så etter 2 år gir den \\(P(2)=1102,5\\). En eksponentiell modell passer fordi folketallet øker med omtrent samme prosent hvert år, ikke med samme antall personer.",
+        "kriterier": [
+          "Skriver modellen \\(P(t)=1000\\cdot1,05^t\\) og finner 1102,5 etter 2 år.",
+          "Knytter eksponentiell modell til omtrent konstant prosentvis vekst."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "pH er definert ved \\(\\text{pH}=-\\lg[\\mathrm{H_3O^+}]\\). Sammenlign konsentrasjonen av \\(\\mathrm{H_3O^+}\\) i en løsning med pH 2 og en løsning med pH 4. Forklar hvordan logaritmen gjør at pH-forskjellen uttrykkes som et forhold mellom konsentrasjonene.",
+        "fasit": "En løsning med pH 2 har 100 ganger så stor konsentrasjon av \\(\\mathrm{H_3O^+}\\) som en løsning med pH 4. Forskjellen på to pH-enheter svarer til en faktor \\(10^2=100\\) i konsentrasjon.",
+        "kriterier": [
+          "Oppgir at pH 2-løsningen har 100 ganger større konsentrasjon.",
+          "Knytter forskjellen til tierlogaritmen og faktoren \\(10^2\\)."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Fem personer skal velge en komité med to medlemmer. Tell på hvor mange måter komiteen kan velges, og på hvor mange måter en leder og en nestleder kan velges blant de fem. Forklar hvorfor antallet blir forskjellig.",
+        "fasit": "Komiteen kan velges på \\(\\binom{5}{2}=10\\) måter. Leder og nestleder kan velges på \\(5\\cdot4=20\\) måter fordi rollene er forskjellige, så rekkefølgen har betydning.",
+        "kriterier": [
+          "Finner 10 mulige komiteer og 20 mulige leder–nestleder-par.",
+          "Forklarer at rekkefølgen ikke betyr noe for komiteen, men betyr noe for rollene."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En rettferdig sekssidet terning kastes én gang. La \\(A\\) være hendelsen at kastet gir et partall, og \\(B\\) hendelsen at kastet gir et tall større enn 3. Finn \\(P(A\\text{ eller }B)\\), og forklar hvorfor man må ta hensyn til utfall som tilhører begge hendelsene.",
+        "fasit": "Hendelsene har utfallene \\(A=\\{2,4,6\\}\\) og \\(B=\\{4,5,6\\}\\), med felles utfall 4 og 6. Derfor er \\(P(A\\text{ eller }B)=3/6+3/6-2/6=2/3\\); de felles utfallene må trekkes fra så de ikke telles to ganger.",
+        "kriterier": [
+          "Finner sannsynligheten \\(2/3\\).",
+          "Tar hensyn til de to felles utfallene når hendelsene kombineres."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

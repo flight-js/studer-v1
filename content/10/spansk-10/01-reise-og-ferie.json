@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva betyr «las vacaciones»?",
       "options": [
-        "Flyplassen",
+        "Reisen",
         "Ferien",
-        "Kofferten",
-        "Været"
+        "Overnattingen",
+        "Bagasjen"
       ],
       "correct": 1,
       "explain": "Ordet står vanligvis i flertall."
@@ -93,9 +93,9 @@
       "id": "q02",
       "text": "Hva er «el albergue juvenil»?",
       "options": [
-        "Et luksushotell",
-        "En campingplass",
-        "En togstasjon",
+        "Et pensjonat",
+        "Et feriehus",
+        "Et fjellhotell",
         "Et vandrerhjem"
       ],
       "correct": 3,
@@ -142,9 +142,9 @@
       "text": "Hva betyr «hacer senderismo»?",
       "options": [
         "Å gå på fottur",
-        "Å bade",
-        "Å fly",
-        "Å handle"
+        "Å gå på ski",
+        "Å sykle i fjellet",
+        "Å campe i naturen"
       ],
       "correct": 0,
       "explain": "«el sendero» betyr stien."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvordan ber du om et dobbeltrom for to netter?",
       "options": [
-        "Tengo dos habitaciones.",
-        "¿Dónde está la habitación?",
+        "Quisiera reservar una habitación individual para dos noches.",
+        "Quisiera reservar una habitación doble para tres noches.",
         "Quisiera reservar una habitación doble para dos noches.",
-        "La habitación es doble."
+        "Quisiera reservar dos habitaciones dobles para dos noches."
       ],
       "correct": 2,
       "explain": "«Quisiera» er en høflig måte å si «jeg vil gjerne» på."
@@ -178,20 +178,20 @@
       "text": "Hvordan kan du avslutte et kort til en venn?",
       "options": [
         "Un abrazo",
-        "Estimado señor",
         "Buenos días",
-        "Por favor"
+        "¿Qué tal?",
+        "¿Dónde está?"
       ],
       "correct": 0,
-      "explain": "«Estimado señor» brukes i formelle brev."
+      "explain": "«Un abrazo» er en uformell avslutning som passer til en venn."
     },
     {
       "id": "q10",
       "text": "Hva er AVE?",
       "options": [
-        "En fugl",
-        "En spansk TV-kanal",
-        "En båt",
+        "Spanske lokaltog",
+        "Spanske godstog",
+        "Spanske nattog",
         "Spanske høyhastighetstog"
       ],
       "correct": 3,
@@ -322,9 +322,9 @@
         "text": "Hva betyr «¿El desayuno está incluido?»?",
         "options": [
           "Er frokosten inkludert?",
-          "Når er frokosten?",
-          "Hvor er frokosten?",
-          "Liker du frokost?"
+          "Er middagen inkludert?",
+          "Er frokosten bestilt?",
+          "Er frokosten servert?"
         ],
         "correct": 0,
         "explain": "«incluido» betyr inkludert."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva heter billetten i Spania?",
         "options": [
-          "la maleta",
+          "el asiento",
           "el billete",
-          "el pasaporte",
-          "el coche"
+          "el horario",
+          "el equipaje"
         ],
         "correct": 1,
         "explain": "I Latin-Amerika sier man ofte «el boleto»."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva betyr «El verano que viene voy a ir a Perú»?",
         "options": [
-          "I fjor sommer dro jeg til Peru",
-          "Jeg bor i Peru om sommeren",
+          "Neste vinter skal jeg reise til Peru",
+          "Neste sommer skal jeg reise til Chile",
           "Neste sommer skal jeg reise til Peru",
-          "Peru er fint om sommeren"
+          "Forrige sommer reiste jeg til Peru"
         ],
         "correct": 2,
         "explain": "«que viene» betyr som kommer, altså neste."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

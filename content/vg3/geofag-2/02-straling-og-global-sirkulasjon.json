@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Omtrent hvor stor er jordas albedo?",
       "options": [
-        "5 %",
+        "20 %",
         "30 %",
-        "70 %",
-        "90 %"
+        "40 %",
+        "50 %"
       ],
       "correct": 1,
       "explain": "Skyer, is og lyse flater reflekterer."
@@ -88,9 +88,9 @@
       "text": "Hva ville gjennomsnittstemperaturen vært uten den naturlige drivhuseffekten?",
       "options": [
         "Omtrent −18 °C",
-        "Omtrent 15 °C",
-        "Omtrent 30 °C",
-        "Omtrent 0 °C"
+        "Omtrent −5 °C",
+        "Omtrent 5 °C",
+        "Omtrent 18 °C"
       ],
       "correct": 0,
       "explain": "Med drivhuseffekten er den omtrent 15 °C."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvorfor er det strålingsunderskudd ved polene?",
       "options": [
-        "Fordi sola aldri skinner",
-        "Fordi det er lite luft",
-        "Fordi strålingen kommer skrått inn og albedoen er høy",
-        "Fordi det er mye skog"
+        "Fordi strålingen treffer rett på, og albedoen ved polene er høy",
+        "Fordi strålingen treffer skrått, og albedoen ved polene er lav",
+        "Fordi strålingen treffer skrått, og albedoen ved polene er høy",
+        "Fordi strålingen treffer skrått, og polene ligger lenger fra sola enn ekvator"
       ],
       "correct": 2,
       "explain": "Energien fordeles over større areal."
@@ -112,8 +112,8 @@
       "text": "Hva betyr et positivt strålingspådriv?",
       "options": [
         "Avkjøling",
-        "Ingen endring",
-        "Mer is",
+        "Temperaturstabilitet",
+        "Økt skydekke",
         "Oppvarming"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hvor synker luften i Hadleycellen og gir ørkener?",
       "options": [
         "Rundt 30° nord og sør",
-        "Ved ekvator",
-        "Ved polene",
-        "Ved 60°"
+        "Rundt 0° nord og sør",
+        "Rundt 60° nord og sør",
+        "Rundt 90° nord og sør"
       ],
       "correct": 0,
       "explain": "Høytrykk gir lite nedbør."
@@ -137,8 +137,8 @@
       "options": [
         "Passatvindbeltet",
         "Vestavindsbeltet",
-        "De polare østavindene",
-        "Den intertropiske konvergenssonen"
+        "Det polare østavindsbeltet",
+        "Monsunvindbeltet"
       ],
       "correct": 1,
       "explain": "Mange lavtrykk og mye nedbør på Vestlandet."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva gjør jetstrømmene?",
       "options": [
-        "Lager havstrømmer",
-        "Smelter is",
+        "Styrer havstrømmenes bane",
+        "Styrer passatvindsbeltets plassering",
         "Styrer lavtrykkenes bane",
-        "Lager ørkener"
+        "Styrer nedbørsmengden ved ekvator"
       ],
       "correct": 2,
       "explain": "Kraftige vinder i 8–12 km høyde."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva gir aerosoler fra vulkaner ofte?",
       "options": [
-        "Positivt pådriv",
-        "Mer drivhuseffekt",
-        "Ingen virkning",
+        "Positivt pådriv og oppvarming",
+        "Negativt pådriv og oppvarming",
+        "Nøytralt pådriv og uendret temperatur",
         "Negativt pådriv og avkjøling"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva er den intertropiske konvergenssonen?",
       "options": [
         "Området der passatvindene møtes, med mye regn",
-        "En ørken",
-        "En havstrøm",
-        "Et høytrykk ved polene"
+        "Området der vestavindene møtes, med mye regn",
+        "Området der passatvindene møtes, med lite regn",
+        "Området der polare østavinder møtes, med mye regn"
       ],
       "correct": 0,
       "explain": "Nær ekvator."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva driver vind og havstrømmer på global skala?",
       "options": [
-        "Månen",
+        "Lik oppvarming og varmetransport fra ekvator mot polene",
         "Ulik oppvarming og varmetransport fra ekvator mot polene",
-        "Jordskjelv",
-        "Vulkaner"
+        "Ulik oppvarming og varmetransport fra polene mot ekvator",
+        "Ulik oppvarming og varmetransport fra land mot havet"
       ],
       "correct": 1,
       "explain": "Strålingsfordelingen."
@@ -312,7 +312,7 @@
           "Fra øst mot vest",
           "Fra vest mot øst",
           "Fra nord mot sør",
-          "Tilfeldig"
+          "Fra sør mot nord"
         ],
         "correct": 1,
         "explain": "Vestlige vinder i høyden."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva skjer med innstråling og utstråling over tid når klimaet er stabilt?",
         "options": [
-          "Innstrålingen er alltid større",
-          "Utstrålingen er alltid større",
+          "Innstrålingen er klart større enn utstrålingen",
+          "Utstrålingen er klart større enn innstrålingen",
           "De er omtrent like store",
-          "Begge er null"
+          "Begge strålingsverdiene er nær null"
         ],
         "correct": 2,
         "explain": "Strålingsbalanse."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

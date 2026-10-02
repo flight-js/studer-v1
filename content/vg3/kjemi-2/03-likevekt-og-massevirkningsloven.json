@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva kjennetegner dynamisk likevekt?",
       "options": [
-        "Reaksjonene har stoppet",
-        "Reaksjonen framover og bakover går like fort",
-        "Bare produkter finnes",
-        "Konsentrasjonene endrer seg hele tiden"
+        "Framover- og tilbakesreaksjonen har begge stanset.",
+        "Framover- og tilbakesreaksjonen går like fort.",
+        "Reaksjonen går fra reaktanter til produkter.",
+        "Konsentrasjonene endrer seg fortsatt ved likevekt."
       ],
       "correct": 1,
       "explain": "Konsentrasjonene er konstante."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva betyr en svært stor K?",
       "options": [
-        "Likevekten ligger mot produktene",
-        "Likevekten ligger mot reaktantene",
-        "Reaksjonen går ikke",
-        "Reaksjonen er langsom"
+        "Ved likevekt er produktene sterkt favorisert.",
+        "Ved likevekt er reaktantene sterkt favorisert.",
+        "Stor K betyr at reaksjonen når likevekt raskere.",
+        "Ved likevekt går framoverreaksjonen raskere enn bakoverreaksjonen."
       ],
       "correct": 0,
       "explain": "Mye produkt ved likevekt."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Q er mindre enn K. Hvilken vei går reaksjonen?",
       "options": [
-        "Mot venstre",
-        "Den står stille",
-        "Mot høyre",
-        "Den eksploderer"
+        "Reaksjonen går netto mot venstre.",
+        "Reaksjonen går netto ingen vei.",
+        "Reaksjonen går netto mot høyre.",
+        "Likevektskonstanten K endres når Q blir mindre."
       ],
       "correct": 2,
       "explain": "Mot produktene til Q = K."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvordan påvirker en katalysator likevekten?",
       "options": [
-        "Den gir raskere likevekt, men endrer ikke likevekten",
-        "Den forskyver likevekten mot produktene",
-        "Den øker K",
-        "Den stopper reaksjonen"
+        "Den gjør at likevekt nås raskere, uten å flytte den.",
+        "Den forskyver likevekten mot produktene og øker produktmengden.",
+        "Den øker K, slik at det dannes mer produkt ved likevekt.",
+        "Den senker aktiveringsenergien bare for reaksjonen framover."
       ],
       "correct": 0,
       "explain": "Senker aktiveringsenergien begge veier."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "N₂ + 3H₂ ⇌ 2NH₃. Hva skjer ved økt trykk?",
       "options": [
-        "Likevekten forskyves mot venstre",
-        "Likevekten forskyves mot NH₃",
-        "Ingen endring",
-        "K øker"
+        "Trykkøkning forskyver likevekten mot dannelse av N₂ og H₂.",
+        "Trykkøkning forskyver likevekten mot dannelse av NH₃.",
+        "Trykkøkning forskyver likevekten mot siden med flest gassmolekyler.",
+        "Trykkøkning fører til at likevektskonstanten K øker."
       ],
       "correct": 1,
       "explain": "Færre gassmolekyler på produktsiden."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvilke stoffer tas ikke med i massevirkningsloven?",
       "options": [
-        "Gasser",
-        "Ioner i løsning",
-        "Rene faste stoffer og væsker",
-        "Produkter"
+        "Gassformige stoffer og oppløste ioner",
+        "Oppløste molekyler og gassformige stoffer",
+        "Rene faste stoffer og rene væsker",
+        "Ioner i løsning og gassformige stoffer"
       ],
       "correct": 2,
       "explain": "Konsentrasjonen deres er konstant."
@@ -173,10 +173,10 @@
       "id": "q09",
       "text": "Hvilken retning forskyves likevekten ved økt temperatur?",
       "options": [
-        "I den endoterme retningen",
-        "I den eksoterme retningen",
-        "Ingen retning",
-        "Alltid mot produktene"
+        "Likevekten forskyves i den endoterme retningen.",
+        "Likevekten forskyves i den eksoterme retningen.",
+        "Temperaturøkning endrer farten, men ikke likevektsstillingen.",
+        "Likevektskonstanten forblir uendret når temperaturen øker."
       ],
       "correct": 0,
       "explain": "Systemet tar opp den tilførte varmen."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hvorfor brukes en kompromisstemperatur i Haber–Bosch-prosessen?",
       "options": [
-        "Fordi høy temperatur gir mest ammoniakk",
-        "Fordi lav temperatur gir godt utbytte, men går for langsomt",
-        "Fordi temperaturen ikke betyr noe",
-        "Fordi katalysatoren smelter"
+        "Høy temperatur gir størst ammoniakkutbytte og raskest reaksjon.",
+        "Lav temperatur gir godt utbytte, men reaksjonen går for langsomt.",
+        "Temperaturen påvirker reaksjonsfarten, men ikke ammoniakkutbyttet.",
+        "Lav temperatur gir både høyt utbytte og rask reaksjon."
       ],
       "correct": 1,
       "explain": "Balanse mellom utbytte og fart.",
@@ -307,10 +307,10 @@
         "type": "flervalg",
         "text": "Hva brukes ammoniakk mest til?",
         "options": [
-          "Drivstoff",
+          "Kjølemiddel",
           "Kunstgjødsel",
-          "Plast",
-          "Medisin"
+          "Rengjøringsmiddel",
+          "Salpetersyre"
         ],
         "correct": 1,
         "explain": "Avgjørende for matproduksjonen.",
@@ -322,9 +322,9 @@
         "text": "Hva er de tre radene i en likevektstabell?",
         "options": [
           "Start, endring og likevekt",
-          "Før, under og etter",
-          "Masse, volum og tetthet",
-          "Reaktant, produkt og katalysator"
+          "Konsentrasjon, stoffmengde og volum",
+          "Reaktanter, produkter og katalysator",
+          "Start, reaksjonstid og slutt"
         ],
         "correct": 0,
         "explain": "Brukes til å finne likevektskonsentrasjoner."
@@ -335,9 +335,9 @@
         "text": "En reaksjon er eksoterm. Hva skjer med K når temperaturen øker?",
         "options": [
           "K øker",
-          "K er uendret",
+          "K forblir uendret",
           "K minker",
-          "K blir null"
+          "K blir lik 1"
         ],
         "correct": 2,
         "explain": "Likevekten forskyves mot reaktantene."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

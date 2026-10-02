@@ -99,9 +99,9 @@
       "text": "Hvordan sier du «Jeg har hodepine»?",
       "options": [
         "J'ai mal à la tête.",
-        "Je suis tête.",
-        "Ma tête est malade.",
-        "J'ai la tête mal."
+        "J'ai mal au ventre.",
+        "J'ai mal au dos.",
+        "J'ai mal à l'oreille."
       ],
       "correct": 0,
       "explain": "«avoir mal à» + kroppsdel."
@@ -110,9 +110,9 @@
       "id": "q03",
       "text": "Hva sier du til noen som er syke?",
       "options": [
-        "Bon appétit !",
-        "Santé !",
-        "Bonne nuit !",
+        "Bon anniversaire !",
+        "Bonne journée !",
+        "Bon voyage !",
         "Bon rétablissement !"
       ],
       "correct": 3,
@@ -122,10 +122,10 @@
       "id": "q04",
       "text": "Hvordan sier du «Jeg har vondt i magen»?",
       "options": [
-        "J'ai mal à le ventre.",
+        "J'ai mal au dos.",
         "J'ai mal au ventre.",
-        "J'ai mal aux ventre.",
-        "Je suis mal ventre."
+        "J'ai mal à la tête.",
+        "J'ai mal à la jambe."
       ],
       "correct": 1,
       "explain": "à + le blir au."
@@ -134,8 +134,8 @@
       "id": "q05",
       "text": "Hva betyr «Je suis enrhumé»?",
       "options": [
-        "Jeg fryser",
-        "Jeg er sulten",
+        "Jeg er svimmel",
+        "Jeg er kvalm",
         "Jeg er trøtt",
         "Jeg er forkjølet"
       ],
@@ -146,10 +146,10 @@
       "id": "q06",
       "text": "Hva er riktig form av «devoir» med «je»?",
       "options": [
-        "je devoir",
+        "je doit",
         "je devons",
         "je dois",
-        "je doit"
+        "je devez"
       ],
       "correct": 2,
       "explain": "«je dois», «tu dois», «il doit»."
@@ -159,9 +159,9 @@
       "text": "Hva er «l'ordonnance» hos legen?",
       "options": [
         "Resepten på medisin",
-        "En kakeoppskrift",
-        "Regningen",
-        "Timen"
+        "Henvisningen til legen",
+        "Timebestillingen hos legen",
+        "Regningen fra apoteket"
       ],
       "correct": 0,
       "explain": "Du tar med resepten til apoteket.",
@@ -171,10 +171,10 @@
       "id": "q08",
       "text": "Hvilket nødnummer kan du ringe i hele EU, også i Frankrike?",
       "options": [
-        "113",
+        "15",
         "112",
-        "911",
-        "110"
+        "17",
+        "18"
       ],
       "correct": 1,
       "explain": "I Frankrike kan du også ringe 15 for ambulanse.",
@@ -184,9 +184,9 @@
       "id": "q09",
       "text": "Hva betyr «Il faut boire beaucoup d'eau»?",
       "options": [
-        "Man må ikke drikke vann",
-        "Vannet er kaldt",
-        "Jeg drikker mye vann",
+        "Man må drikke lite vann",
+        "Man må spise mye mat",
+        "Man må kjøpe mye vann",
         "Man må drikke mye vann"
       ],
       "correct": 3,
@@ -197,9 +197,9 @@
       "text": "Hvilket råd hører til et sunt liv?",
       "options": [
         "Manger équilibré et dormir assez",
-        "Fumer beaucoup",
-        "Ne jamais manger de fruits",
-        "Toujours manger des bonbons"
+        "Manger déséquilibré et dormir assez",
+        "Manger équilibré et dormir peu",
+        "Manger trop sucré et dormir assez"
       ],
       "correct": 0,
       "explain": "Variert mat og nok søvn er viktig for helsa."
@@ -332,9 +332,9 @@
         "text": "Hva betyr «Depuis quand avez-vous de la fièvre ?»?",
         "options": [
           "Hvor lenge har De hatt feber?",
-          "Har De feber?",
-          "Hvorfor har De feber?",
-          "Hvor høy feber har De?"
+          "Hvor lenge har De hatt hoste?",
+          "Hvorfor har De hatt feber?",
+          "Hvor høy er feberen Deres?"
         ],
         "correct": 0,
         "explain": "«depuis» betyr siden.",
@@ -358,10 +358,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Je suis stressé»?",
         "options": [
-          "Jeg er glad",
-          "Jeg er sint",
+          "Jeg er rolig",
+          "Jeg er forvirret",
           "Jeg er stresset",
-          "Jeg er syk"
+          "Jeg er sint"
         ],
         "correct": 2,
         "explain": "Sint heter «en colère»."
@@ -445,6 +445,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

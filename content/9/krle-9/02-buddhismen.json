@@ -80,8 +80,8 @@
       "options": [
         "Den oppvåknede",
         "Den hellige",
-        "Kongen",
-        "Læreren fra India"
+        "Den kongelige",
+        "Den asketiske"
       ],
       "correct": 0,
       "explain": "Siddhartha ble kalt Buddha etter oppvåkningen under treet i Bodh Gaya."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hva fikk Siddhartha til å forlate palasset?",
       "options": [
-        "Møter med kongen og dronningen",
-        "Møter med fire munker i et tempel",
+        "Møter med fire munker i et tempel under reisen",
+        "Møter med fire guder som fortalte ham om lidelse",
         "Møter med en gammel mann, en syk mann, et lik og en asket",
-        "Møter med fire guder"
+        "Møter med en konge, en dronning, en prest og en soldat"
       ],
       "correct": 2,
       "explain": "Møtene viste ham at alle mennesker rammes av lidelse."
@@ -102,9 +102,9 @@
       "id": "q03",
       "text": "Hva sier den første edle sannheten?",
       "options": [
-        "At alle skal bli munker",
-        "At lidelsen kan opphøre",
-        "At veien er den åttedelte vei",
+        "At livet er preget av begjær",
+        "At livet er preget av gjenfødelse",
+        "At livet er preget av karma",
         "At livet er preget av lidelse"
       ],
       "correct": 3,
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva skyldes lidelsen ifølge buddhismen?",
       "options": [
-        "Gudene",
+        "Gudene og deres straff",
         "Begjær og tørst etter ting",
-        "Dårlig vær",
-        "Fattigdom"
+        "Dårlig vær og naturkatastrofer",
+        "Fattigdom og mangel på mat"
       ],
       "correct": 1,
       "explain": "Vi lider fordi vi holder fast på ting som forandrer seg."
@@ -127,9 +127,9 @@
       "text": "Hva er nirvana?",
       "options": [
         "Tilstanden der lidelsen og gjenfødelsen opphører",
-        "En hellig by",
-        "Et kloster",
-        "En gud"
+        "Et hellig sted der buddhister samles for bønn",
+        "Et kloster der munker mediterer og studerer læren",
+        "En gud som beskytter buddhister mot lidelse"
       ],
       "correct": 0,
       "explain": "Nirvana er målet for buddhister."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er middelveien?",
       "options": [
-        "En vei gjennom India",
-        "Å leve som prins",
+        "Å velge et liv med rikdom og komfort",
+        "Å leve med streng faste og selvpining",
         "Å unngå både luksus og streng askese",
-        "En type meditasjon"
+        "Å følge læren gjennom daglig meditasjon"
       ],
       "correct": 2,
       "explain": "Buddha hadde prøvd både overflod og selvpining."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er de tre juvelene?",
       "options": [
-        "Tre hellige steiner",
-        "Buddha, læren (dharma) og fellesskapet (sangha)",
-        "Tre store templer",
-        "Tre høytider"
+        "Buddha, karma og gjenfødelse",
+        "Buddha, læren og fellesskapet",
+        "Dharma, karma og nirvana",
+        "Buddha, meditasjon og nirvana"
       ],
       "correct": 1,
       "explain": "Å søke tilflukt i de tre juvelene er å bekjenne seg som buddhist."
@@ -163,8 +163,8 @@
       "text": "Hvilken retning er vanligst i Sri Lanka, Thailand og Myanmar?",
       "options": [
         "Mahayana",
+        "Vajrayana",
         "Zen",
-        "Tibetansk buddhisme",
         "Theravada"
       ],
       "correct": 3,
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hvem er leder i tibetansk buddhisme?",
       "options": [
-        "Paven",
-        "Keiseren av Japan",
+        "Buddha Gautama",
+        "Keiser Ashoka",
         "Dalai Lama",
-        "Buddha selv"
+        "Munk Ananda"
       ],
       "correct": 2,
       "explain": "Dalai Lama fikk Nobels fredspris i 1989.",
@@ -189,9 +189,9 @@
       "text": "Hva feires under vesak?",
       "options": [
         "Buddhas fødsel, oppvåkning og død",
-        "Nyttår",
-        "Innhøstingen",
-        "Dalai Lamas fødsel"
+        "Buddhas fødsel, første preken og død",
+        "Buddhas oppvåkning, første preken og død",
+        "Buddhas fødsel, oppvåkning og første preken"
       ],
       "correct": 0,
       "explain": "Vesak er den viktigste buddhistiske høytiden.",
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hvor ble Siddhartha Gautama født ifølge tradisjonen?",
         "options": [
-          "Beijing",
+          "Kapilavastu i dagens Nepal",
           "Lumbini i dagens Nepal",
-          "Tokyo",
-          "Colombo"
+          "Bodh Gaya i dagens India",
+          "Kushinagar i dagens India"
         ],
         "correct": 1,
         "explain": "Lumbini er i dag et viktig pilegrimsmål.",
@@ -344,9 +344,9 @@
         "type": "flervalg",
         "text": "Hva er sangha?",
         "options": [
-          "Et hellig tre",
-          "En meditasjonsform",
-          "En gud",
+          "Et fellesskap av buddhistiske guder og ånder",
+          "En samling av hellige tekster og regler",
+          "En øvelse der man følger pusten i stillhet",
           "Fellesskapet av munker, nonner og troende"
         ],
         "correct": 3,
@@ -358,9 +358,9 @@
         "text": "Hvilken av disse hører til den åttedelte vei?",
         "options": [
           "Rett tale",
-          "Rett rikdom",
-          "Rett makt",
-          "Rett hevn"
+          "Rett bønn",
+          "Rett faste",
+          "Rett offer"
         ],
         "correct": 0,
         "explain": "Rett tale betyr å unngå løgn, baksnakking og sårende ord."
@@ -444,6 +444,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

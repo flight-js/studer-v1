@@ -119,10 +119,10 @@
       "id": "q01",
       "text": "Hvilket ord for «eller» brukes i spørsmål?",
       "options": [
-        "或者 huòzhě",
-        "和 hé",
+        "但是 dànshì",
+        "因为 yīnwèi",
         "还是 háishi",
-        "也 yě"
+        "所以 suǒyǐ"
       ],
       "correct": 2,
       "explain": "你要茶还是咖啡？"
@@ -131,10 +131,10 @@
       "id": "q02",
       "text": "Hva er forskjellen på 想 og 要?",
       "options": [
-        "Det er ingen forskjell",
-        "想 betyr spise, 要 betyr drikke",
-        "要 betyr ønske, 想 betyr ta",
-        "想 er å ønske, 要 er mer bestemt «vil ha»"
+        "想 uttrykker et bestemt ønske; 要 uttrykker et mer forsiktig ønske.",
+        "想 brukes om mat; 要 brukes om drikke.",
+        "想 viser hva man tenker; 要 viser hva man velger å bestille.",
+        "想 uttrykker et ønske; 要 betyr et mer bestemt «vil ha»."
       ],
       "correct": 3,
       "explain": "要 brukes også når man bestiller."
@@ -168,9 +168,9 @@
       "text": "Hva betyr 我坐地铁去学校?",
       "options": [
         "Jeg tar t-banen til skolen.",
-        "Jeg går til skolen.",
-        "Jeg sykler til skolen.",
-        "Skolen ligger ved t-banen."
+        "Jeg tar bussen til skolen.",
+        "Jeg tar t-banen fra skolen.",
+        "Jeg går fra skolen til t-banen."
       ],
       "correct": 0,
       "explain": "Transportmiddel før stedet."
@@ -191,10 +191,10 @@
       "id": "q07",
       "text": "Hvordan sier du «Denne er dyrere enn den»?",
       "options": [
-        "这件很贵比那件。",
-        "这件贵那件。",
+        "这件比那件便宜。",
+        "这件跟那件一样贵。",
         "这件比那件贵。",
-        "那件比这件贵。"
+        "这件没有那件贵。"
       ],
       "correct": 2,
       "explain": "A 比 B + adjektiv."
@@ -215,25 +215,25 @@
       "id": "q09",
       "text": "Hvordan viser kinesisk at noe skjedde i fortiden?",
       "options": [
-        "Ved å bøye verbet",
-        "Med tidsuttrykk og partikler som 了",
-        "Med en egen fortidsendelse",
-        "Ved å endre tonen"
+        "Med bøying av verbet i en fortidsform",
+        "Med tidsord og partikkelen 了",
+        "Med en egen fortidsendelse på verbet",
+        "Med endret tone på verbet"
       ],
       "correct": 1,
-      "explain": "Verbene bøyes ikke."
+      "explain": "Kinesisk markerer fortid med tidsuttrykk eller partikler, ikke ved å bøye verbet."
     },
     {
       "id": "q10",
       "text": "Hva betyr 明年我要去中国?",
       "options": [
         "Neste år skal jeg til Kina.",
-        "I fjor var jeg i Kina.",
-        "Jeg bor i Kina.",
-        "Jeg har aldri vært i Kina."
+        "I år skal jeg til Kina.",
+        "Neste år bor jeg i Kina.",
+        "I fjor dro jeg til Kina."
       ],
       "correct": 0,
-      "explain": "要 om planer."
+      "explain": "要 brukes her om en plan eller hensikt."
     },
     {
       "id": "q11",
@@ -241,8 +241,8 @@
       "options": [
         "Mao Zedong",
         "Deng Xiaoping",
-        "Konfucius",
-        "Xi Jinping"
+        "Jiang Zemin",
+        "Hu Jintao"
       ],
       "correct": 1,
       "explain": "Reformene åpnet for markedsøkonomi.",
@@ -252,10 +252,10 @@
       "id": "q12",
       "text": "Hva er Kinas politiske system?",
       "options": [
-        "Et flerpartidemokrati",
+        "Et flerpartidemokrati med konkurrerende partier",
         "En ettpartistat styrt av kommunistpartiet",
-        "Et monarki",
-        "Et føderalt demokrati"
+        "Et monarki med en arvelig keiser",
+        "En føderal republikk med selvstyrte delstater"
       ],
       "correct": 1,
       "explain": "Det finnes ikke frie valg.",
@@ -390,7 +390,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -411,10 +411,10 @@
         "type": "flervalg",
         "text": "Hvordan spør du «Vil du ha te eller kaffe?»",
         "options": [
-          "你要茶或者咖啡？",
+          "你要茶还是水？",
           "你要茶还是咖啡？",
-          "你茶咖啡吗？",
-          "你要茶和咖啡吗？"
+          "你要茶还是牛奶？",
+          "你要咖啡还是果汁？"
         ],
         "correct": 1,
         "explain": "还是 i spørsmål."
@@ -438,10 +438,10 @@
         "type": "flervalg",
         "text": "Hvordan sier du «Jeg er høyere enn broren min»?",
         "options": [
-          "我很高比我哥哥。",
+          "我比我哥哥矮。",
           "我比我哥哥高。",
-          "我哥哥比我高。",
-          "我高我哥哥。"
+          "我跟我哥哥一样高。",
+          "我没有我哥哥高。"
         ],
         "correct": 1,
         "explain": "A 比 B + adjektiv."
@@ -536,12 +536,90 @@
           "Bruker 去年 om reisen i fortiden og 坐飞机 for å si at reisen var med fly.",
           "Bruker 明年 og 打算 om den planlagte reisen."
         ]
+      },
+      {
+        "text": "Skriv på kinesisk et spørsmål der du spør en venn om hen vil ha nudler eller dumplings. Skriv også en setning om at du drikker te eller vann.",
+        "fasit": "你要面条还是饺子？我喝茶或者水。",
+        "kriterier": [
+          "Bruk 还是 i spørsmålet og 或者 i utsagnet.",
+          "Bruk passende ord for nudler, dumplings, te og vann."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Forklar hvordan mat fra Sichuan og kantonesisk mat skiller seg fra hverandre, og nevn to trekk ved hvordan man gjerne spiser sammen på restaurant i Kina.",
+        "fasit": "Mat fra Sichuan er ofte sterkt krydret med chili og sichuanpepper, mens kantonesisk mat er kjent for dim sum, små retter som spises til te. Rettene settes gjerne midt på bordet og deles, og det er vanlig at én person betaler for alle.",
+        "kriterier": [
+          "Sichuan-mat er sterkt krydret, mens kantonesisk mat er kjent for dim sum.",
+          "Rettene deles gjerne, og én person betaler ofte for alle."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på kinesisk at du allerede har gjort leksene, men ennå ikke har spilt piano. Fortell også at du planlegger å spille piano i morgen.",
+        "fasit": "我已经做了作业，但是我还没弹钢琴。明天我打算弹钢琴。",
+        "kriterier": [
+          "Bruk 已经 og 了 om leksene som er gjort, og 还没 om det som ennå ikke er gjort.",
+          "Bruk 打算 for planen om å spille piano i morgen."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Du skal reise fra Beijing til Shanghai. Skriv på kinesisk at du tar høyhastighetstoget, og hvor lang tid reisen tar.",
+        "fasit": "我从北京到上海坐高铁。坐高铁要五个小时。",
+        "kriterier": [
+          "Bruk 从……到…… for reisen fra Beijing til Shanghai.",
+          "Skriv at du tar høyhastighetstoget og at turen tar fem timer."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på kinesisk at du vil kjøpe en grønn skjorte og et par svarte sko. Spør også om du kan prøve skjorten.",
+        "fasit": "我要买一件绿色衬衫和一双黑色鞋。我可以试试这件衬衫吗？",
+        "kriterier": [
+          "Bruk måleordene 件 for skjorte og 双 for et par sko, med riktige farger.",
+          "Spør om lov til å prøve skjorten med 可以试试."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Forklar hvordan de økonomiske reformene fra 1978 hang sammen med Kinas vekst, og nevn én endring i hvor folk bor og én utfordring som fortsatt finnes.",
+        "fasit": "Fra 1978 innførte Deng Xiaoping økonomiske reformer med mer markedsøkonomi og åpning mot omverdenen. Kina fikk stor økonomisk vekst, og mange flyttet fra landsbygda til byene. Ulikhet mellom by og land er fortsatt en utfordring.",
+        "kriterier": [
+          "Reformene innebar mer markedsøkonomi og åpning mot omverdenen, og ble fulgt av stor økonomisk vekst.",
+          "Mange flyttet fra landsbygda til byene; ulikhet mellom by og land er fortsatt en utfordring."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Forklar hvordan Kina både har miljøproblemer og satser på teknologi som kan bidra til en grønnere utvikling.",
+        "fasit": "Kina har forurensning av luft og vann. Samtidig er landet verdens største produsent av sol- og vindkraft og elbiler.",
+        "kriterier": [
+          "Nevn forurensning av luft og/eller vann.",
+          "Nevn at Kina er verdens største produsent av sol- og vindkraft og/eller elbiler."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Sammenlign Taiwan og Hongkong ved å beskrive hvordan de styres, og ta med én opplysning om språk, skrift eller historie for hver av dem.",
+        "fasit": "Taiwan har eget styre og er et demokrati, og der brukes tradisjonelle tegn. Hongkong var britisk koloni fram til 1997, og mange der snakker kantonesisk.",
+        "kriterier": [
+          "Taiwan har eget styre og er et demokrati; tradisjonelle tegn brukes der.",
+          "Hongkong var britisk koloni fram til 1997, eller mange der snakker kantonesisk."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

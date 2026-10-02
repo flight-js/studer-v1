@@ -77,8 +77,8 @@
       "options": [
         "USA og Sovjetunionen",
         "Storbritannia og Frankrike",
-        "Kina og Japan",
-        "Tyskland og Italia"
+        "USA og Kina",
+        "Sovjetunionen og Øst-Tyskland"
       ],
       "correct": 0,
       "explain": "De to supermaktene hadde svært ulike ideologier."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hvorfor kalles krigen «kald»?",
       "options": [
-        "Fordi den foregikk om vinteren",
-        "Fordi supermaktene aldri kriget direkte mot hverandre",
-        "Fordi den foregikk i Arktis",
-        "Fordi ingen døde"
+        "Fordi supermaktene konkurrerte om å utforske Arktis",
+        "Fordi supermaktene ikke kriget direkte mot hverandre",
+        "Fordi kampene foregikk i kalde områder i Europa",
+        "Fordi supermaktene konkurrerte uten å bruke atomvåpen"
       ],
       "correct": 1,
       "explain": "Konflikten foregikk gjennom våpenkappløp, propaganda og stedfortrederkriger."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva var Marshallplanen?",
       "options": [
-        "En sovjetisk militærplan",
-        "En plan for månelanding",
+        "Sovjetisk økonomisk hjelp til gjenoppbyggingen av Europa",
+        "Amerikansk militær hjelp til gjenoppbyggingen av Europa",
         "Amerikansk økonomisk hjelp til gjenoppbyggingen av Europa",
-        "En fredsavtale med Japan"
+        "Europeisk økonomisk hjelp til gjenoppbyggingen av USA"
       ],
       "correct": 2,
       "explain": "Hjelpen skulle også hindre at kommunismen fikk fotfeste i Vest-Europa."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Når ble Berlinmuren bygd?",
       "options": [
-        "1945",
-        "1949",
-        "1989",
+        "1948",
+        "1955",
+        "1971",
         "1961"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva var Cubakrisen i 1962?",
       "options": [
-        "En krise der verden var nær atomkrig på grunn av sovjetiske raketter på Cuba",
-        "En økonomisk krise på Cuba",
-        "En borgerkrig i Latin-Amerika",
-        "En orkan"
+        "En krise da sovjetiske raketter på Cuba brakte verden nær atomkrig",
+        "En krise da amerikanske raketter på Cuba brakte verden nær atomkrig",
+        "En krise da sovjetiske soldater invaderte Cuba og startet en krig",
+        "En krise da Cuba erklærte krig mot Sovjetunionen og truet verdensfreden"
       ],
       "correct": 0,
       "explain": "Krisen ble løst gjennom forhandlinger, og Sovjetunionen trakk rakettene tilbake."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er en stedfortrederkrig?",
       "options": [
-        "En krig mellom to supermakter direkte",
-        "En krig der supermaktene støtter hver sin side i en konflikt i et annet land",
-        "En handelskrig",
-        "En krig uten våpen"
+        "En krig der supermaktene kjemper direkte mot hverandre i egne land",
+        "En krig der supermaktene støtter hver sin side i et annet lands konflikt",
+        "En krig der to land bruker toll og handelsregler mot hverandre",
+        "En krig der én stat sender soldater for å erobre et annet land"
       ],
       "correct": 1,
       "explain": "Koreakrigen og Vietnamkrigen er eksempler."
@@ -148,9 +148,9 @@
       "text": "Hvilken militærallianse ble Norge med i i 1949?",
       "options": [
         "Warszawapakten",
-        "EU",
+        "SEATO",
         "NATO",
-        "FN"
+        "CENTO"
       ],
       "correct": 2,
       "explain": "Norge var et av de tolv landene som grunnla NATO."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva var terrorbalansen?",
       "options": [
-        "At begge supermaktene hadde så mange atomvåpen at en krig ville ødelegge begge",
-        "At ingen hadde atomvåpen",
-        "At terrorister styrte verden",
-        "At Europa var nøytralt"
+        "Begge supermaktene hadde atomvåpen nok til å ødelegge hverandre i en krig",
+        "Begge supermaktene hadde atomvåpen nok til å beskytte hverandre mot angrep",
+        "Supermaktene hadde så få atomvåpen at en krig ville bli begrenset",
+        "Begge supermaktene hadde atomvåpen nok til å vinne en krig uten store tap"
       ],
       "correct": 0,
       "explain": "Frykten for gjensidig ødeleggelse kan ha hindret en direkte krig."
@@ -172,8 +172,8 @@
       "text": "Hva skjedde 9. november 1989?",
       "options": [
         "Sovjetunionen ble oppløst",
-        "Cubakrisen startet",
-        "NATO ble dannet",
+        "Warszawapakten ble dannet",
+        "NATO ble oppløst",
         "Berlinmuren falt"
       ],
       "correct": 3,
@@ -187,7 +187,7 @@
         "Stalin",
         "Khrusjtsjov",
         "Gorbatsjov",
-        "Putin"
+        "Jeltsin"
       ],
       "correct": 2,
       "explain": "Reformene ga mer åpenhet, men bidro også til at Sovjetunionen gikk i oppløsning."
@@ -325,8 +325,8 @@
         "options": [
           "Berlinmuren",
           "Jernteppet",
-          "Den kalde fronten",
-          "Østgrensen"
+          "Bambusteppet",
+          "Østblokken"
         ],
         "correct": 1,
         "explain": "Uttrykket ble kjent etter en tale i 1946."
@@ -338,8 +338,8 @@
         "options": [
           "Warszawapakten",
           "NATO",
-          "EU",
-          "Folkeforbundet"
+          "SEATO",
+          "CENTO"
         ],
         "correct": 0,
         "explain": "Warszawapakten ble oppløst i 1991."
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "Hva var en konsekvens av at den kalde krigen tok slutt?",
         "options": [
-          "Berlinmuren ble bygd",
-          "Europa ble delt",
+          "Flere land i Vest-Europa gikk over til kommunistisk styre",
+          "Tyskland ble delt i to nye stater",
           "Mange land i Øst-Europa ble demokratier",
-          "Koreakrigen startet"
+          "Warszawapakten ble utvidet med nye østeuropeiske medlemmer"
         ],
         "correct": 2,
         "explain": "Flere av landene ble senere med i både NATO og EU."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

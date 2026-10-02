@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Når ble den første samtalen fra en håndholdt mobiltelefon gjort?",
       "options": [
-        "1956",
+        "1979",
         "1973",
-        "1991",
-        "2007"
+        "1983",
+        "1991"
       ],
       "correct": 1,
       "explain": "Martin Cooper hos Motorola.",
@@ -97,9 +97,9 @@
       "text": "Hva var NMT?",
       "options": [
         "Et nordisk analogt mobilnett fra 1981",
-        "En type smarttelefon",
-        "Et batteri",
-        "En app"
+        "Et europeisk digitalt mobilnett fra 1991",
+        "Et nordisk analogt fasttelefonnett fra 1981",
+        "Et nordisk digitalt mobilnett fra 1981"
       ],
       "correct": 0,
       "explain": "Nordisk mobiltelefoni.",
@@ -109,10 +109,10 @@
       "id": "q03",
       "text": "Hva gjør en basestasjon?",
       "options": [
-        "Lader telefonen",
-        "Lagrer apper",
+        "Kobler telefonene i cellen til internett via satellitt",
+        "Sender samtaler mellom mobilnettets sentrale datamaskiner",
         "Kommuniserer med telefonene i cellen via radiobølger",
-        "Produserer SIM-kort"
+        "Lagrer telefonenes meldinger og kontakter i mobilnettet"
       ],
       "correct": 2,
       "explain": "Landet er delt i celler."
@@ -121,9 +121,9 @@
       "id": "q04",
       "text": "Hvorfor var overgangen fra analoge til digitale mobilnett viktig?",
       "options": [
-        "Telefonene ble større",
-        "Den fjernet behovet for master",
-        "Den gjorde samtaler gratis",
+        "Den ga mobiltelefonene bedre batteritid og større lagringsplass",
+        "Den gjorde at mobilnettet brukte satellitter i stedet for master",
+        "Den ga samtaler høyere lydstyrke og lengre rekkevidde",
         "Den ga bedre lyd og plass til flere brukere"
       ],
       "correct": 3,
@@ -134,9 +134,9 @@
       "text": "Hvordan virker en kapasitiv berøringsskjerm?",
       "options": [
         "Den registrerer fingerens påvirkning på et strømførende lag",
-        "Den bruker trykkluft",
-        "Den ser fingeren med kamera",
-        "Den registrerer lyd"
+        "Den registrerer fingerens trykk med et mekanisk lag",
+        "Den registrerer fingerens bilde med et lite kamera",
+        "Den registrerer fingerens varme med en temperatursensor"
       ],
       "correct": 0,
       "explain": "Derfor virker den ikke med vanlige hansker.",
@@ -146,10 +146,10 @@
       "id": "q06",
       "text": "Hva skjer når du beveger deg mellom to celler under en samtale?",
       "options": [
-        "Samtalen brytes alltid",
+        "Samtalen settes på vent mens telefonen bytter celle",
         "Samtalen overleveres til neste basestasjon",
-        "Telefonen slår seg av",
-        "SIM-kortet byttes"
+        "Telefonen starter en ny samtale fra den neste cellen",
+        "Telefonen kobles til en annen operatør i neste celle"
       ],
       "correct": 1,
       "explain": "Handover."
@@ -158,10 +158,10 @@
       "id": "q07",
       "text": "Hvilken miljøutfordring er knyttet til mobiltelefoner?",
       "options": [
-        "De bruker ingen metaller",
-        "De lages av tre",
-        "Utvinning av metaller som kobolt og litium, og elektronisk avfall",
-        "De forurenser ikke"
+        "Lavt ressursforbruk ved utvinning av mobilmetaller",
+        "Rask nedbrytning av telefoner etter kassering",
+        "Utvinning av metaller og elektronisk avfall",
+        "Lite elektronisk avfall fordi telefoner gjenvinnes"
       ],
       "correct": 2,
       "explain": "Reparasjon og gjenvinning hjelper."
@@ -170,9 +170,9 @@
       "id": "q08",
       "text": "Hva kjennetegnet smarttelefonen som slo gjennom i 2007?",
       "options": [
-        "Tastatur med knapper",
-        "Antenne",
-        "Bare SMS",
+        "Fysisk tastatur og innebygd antenne",
+        "Svart-hvitt-skjerm og utskiftbare deksler",
+        "Liten skjerm og forhåndsinstallerte spill",
         "Stor berøringsskjerm og apper"
       ],
       "correct": 3,
@@ -183,10 +183,10 @@
       "id": "q09",
       "text": "Hvilke tre spørsmål kan du bruke for å beskrive et teknologisk produkt?",
       "options": [
-        "Hvordan har det utviklet seg, hvordan virker det, hva betyr det for samfunnet?",
-        "Hva koster det, hvem eier det, hvor er det laget?",
-        "Hvilken farge, hvilken størrelse, hvilket merke?",
-        "Når, hvor, hvorfor?"
+        "Hvordan har produktet utviklet seg, hvordan virker det, og hva betyr det for samfunnet?",
+        "Hva koster produktet, hvem lager det, og hvor selges det?",
+        "Hvilke materialer brukes, hvordan markedsføres det, og hvor lenge varer det?",
+        "Hvem kjøper produktet, hvor brukes det, og hvilket merke er det?"
       ],
       "correct": 0,
       "explain": "Historie, virkemåte og samfunnsnytte."
@@ -195,10 +195,10 @@
       "id": "q10",
       "text": "Hvordan har mobilbetaling hjulpet mange i land uten utbygd bank?",
       "options": [
-        "Den har gjort telefonene billigere",
+        "Den har gjort mobiltelefonene billigere for mange familier",
         "Den har gitt millioner tilgang til finansielle tjenester",
-        "Den har erstattet strøm",
-        "Den har ikke hatt betydning"
+        "Den har gitt mange landsbyer tilgang til strømnettet",
+        "Den har erstattet kontanter med kredittkort i mange land"
       ],
       "correct": 1,
       "explain": "Et eksempel på samfunnsnytte.",
@@ -333,8 +333,8 @@
         "options": [
           "1G",
           "2G (GSM)",
-          "4G",
-          "5G"
+          "3G",
+          "4G"
         ],
         "correct": 1,
         "explain": "Det digitale GSM-nettet.",
@@ -347,8 +347,8 @@
         "options": [
           "SIM-kortet",
           "Batteriet",
-          "Skjermen",
-          "Kameraet"
+          "IMEI-nummeret",
+          "Minnekortet"
         ],
         "correct": 0,
         "explain": "Det kobler telefonen til operatøren."
@@ -358,10 +358,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak kan redusere miljøbelastningen fra mobiltelefoner?",
         "options": [
-          "Kjøpe ny telefon hvert år",
-          "Kaste gamle telefoner i restavfallet",
+          "Bytte fungerende telefon hvert år",
+          "Kaste telefoner i restavfallet",
           "Reparere og gjenvinne telefoner",
-          "Lade oftere"
+          "Bruke mer strøm under ladingen"
         ],
         "correct": 2,
         "explain": "Lengre levetid sparer ressurser."
@@ -449,6 +449,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

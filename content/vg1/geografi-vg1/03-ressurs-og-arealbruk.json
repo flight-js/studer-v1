@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hvem vedtar arealplaner i Norge?",
       "options": [
-        "Sametinget",
+        "Fylkeskommunene",
         "Kommunene",
-        "EU",
-        "Private selskaper"
+        "Statsforvalterne",
+        "Stortinget"
       ],
       "correct": 1,
       "explain": "Kommunene har planmyndighet etter plan- og bygningsloven."
@@ -96,9 +96,9 @@
       "text": "Hva slo Høyesterett fast i Fosen-saken i 2021?",
       "options": [
         "At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse",
-        "At vindkraft er forbudt i Norge",
-        "At reindrift må flyttes",
-        "At Fosen tilhører Sverige"
+        "At vindkraftverkene krenket reindriftssamenes eiendomsrett til beiteområdene",
+        "At vindkraftverkene var lovlige fordi klimaomstilling veide tyngst",
+        "At reindriftssamene måtte flytte fordi konsesjonene var gyldige"
       ],
       "correct": 0,
       "explain": "Retten til kulturutøvelse er vernet av internasjonale menneskerettigheter.",
@@ -108,10 +108,10 @@
       "id": "q03",
       "text": "Hvorfor kan vindkraftverk skape konflikt med reindrift?",
       "options": [
-        "Fordi reinen spiser vindmøllene",
-        "Fordi reindrift gir mye støy",
+        "Fordi de gjør at reinen endrer kosthold fra lav til gress",
+        "Fordi de gjør at reinen ikke lenger trenger store beiteområder",
         "Fordi de kan forstyrre reinen og stykke opp beiteområdene",
-        "Fordi reindrift bruker mye strøm"
+        "Fordi de fører til at reinen flytter fra fjellet til skogen"
       ],
       "correct": 2,
       "explain": "Reinen trenger store, sammenhengende områder."
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hva gir Svalbardtraktaten fra 1920?",
       "options": [
-        "Russland suverenitet over Svalbard",
-        "Svalbard status som eget land",
-        "Alle land rett til å bygge militærbaser",
-        "Norge suverenitet, men like næringsrettigheter for borgere fra landene som har signert"
+        "Russisk suverenitet og like næringsrettigheter for traktatlandenes borgere",
+        "Norsk suverenitet og enerett til næringsvirksomhet for norske borgere",
+        "Delt suverenitet mellom Norge og traktatlandene, med like næringsrettigheter",
+        "Norsk suverenitet og like næringsrettigheter for traktatlandenes borgere"
       ],
       "correct": 3,
       "explain": "Traktaten kalles også Spitsbergentraktaten.",
@@ -134,9 +134,9 @@
       "text": "Hvilken ressurs er Barentshavet særlig kjent for?",
       "options": [
         "Torsk",
-        "Diamanter",
-        "Kaffe",
-        "Gull"
+        "Hyse",
+        "Lodde",
+        "Sei"
       ],
       "correct": 0,
       "explain": "Barentshavet har en av verdens største torskebestander.",
@@ -146,10 +146,10 @@
       "id": "q06",
       "text": "Hvorfor protesterte mange mot gruveplanene ved Repparfjorden?",
       "options": [
-        "Fordi gruven skulle ligge i Oslo",
+        "Fordi gruveavfallet skulle lagres i et landdeponi ved fjorden",
         "Fordi gruveavfallet skulle deponeres i fjorden",
-        "Fordi det ikke fantes mineraler der",
-        "Fordi gruven skulle drives av staten"
+        "Fordi malmen skulle fraktes med jernbane gjennom Finnmark",
+        "Fordi gruven skulle åpnes uten at det var funnet kobber"
       ],
       "correct": 1,
       "explain": "Fiskere, miljøvernere og reindriftssamer var bekymret.",
@@ -159,10 +159,10 @@
       "id": "q07",
       "text": "Hvilket dyr har Norge et særlig ansvar for, og som er sårbart for hytter og veier i fjellet?",
       "options": [
-        "Elg",
-        "Rødrev",
+        "Fjellrev",
+        "Jerv",
         "Villrein",
-        "Hjort"
+        "Moskus"
       ],
       "correct": 2,
       "explain": "Villreinen trenger store uforstyrrede fjellområder.",
@@ -172,10 +172,10 @@
       "id": "q08",
       "text": "Hva er et argument mot olje- og gassvirksomhet i nordområdene?",
       "options": [
-        "Den gir arbeidsplasser",
-        "Den gir inntekter til staten",
-        "Den gir nye skipsruter",
-        "Den kan gi oljesøl i sårbare områder og bidrar til klimautslipp"
+        "At virksomheten kan gi oljesøl i sårbare områder og redusere klimagassutslipp",
+        "At virksomheten kan gi klimagassutslipp, men minske faren for oljesøl",
+        "At virksomheten kan skade naturen på land og redusere klimagassutslipp",
+        "At virksomheten kan gi oljesøl i sårbare områder og bidra til klimagassutslipp"
       ],
       "correct": 3,
       "explain": "Fiskerinæringen og miljøbevegelsen er ofte kritiske."
@@ -185,9 +185,9 @@
       "text": "Hva betyr at natur bygges ned «bit for bit»?",
       "options": [
         "At mange små inngrep til sammen bygger ned mye natur",
-        "At naturen vokser tilbake",
-        "At man bygger med små steiner",
-        "At byer blir mindre"
+        "At natur bygges ned gjennom små inngrep som ikke påvirker hverandre",
+        "At naturen bygges ned i små felt, mens samlet naturareal forblir uendret",
+        "At ett stort inngrep erstatter mange mindre inngrep i samme område"
       ],
       "correct": 0,
       "explain": "Hvert inngrep kan virke lite, men summen blir stor."
@@ -196,10 +196,10 @@
       "id": "q10",
       "text": "Hva er et godt første steg når du drøfter en arealkonflikt?",
       "options": [
-        "Å velge side med en gang",
+        "Å bestemme hvilken arealbruk som bør prioriteres før man samler informasjon",
         "Å finne ut hvem aktørene er og hvilke interesser de har",
-        "Å lese bare én kilde",
-        "Å se bort fra lovene"
+        "Å vurdere bare de økonomiske fordelene ved hvert forslag",
+        "Å legge fram en konklusjon før man har undersøkt ulike interesser"
       ],
       "correct": 1,
       "explain": "Deretter vurderer du argumenter, lover og konsekvenser."
@@ -333,9 +333,9 @@
         "text": "Hvilken lov skal sikre at naturen tas vare på?",
         "options": [
           "Naturmangfoldloven",
-          "Ferieloven",
-          "Opplæringsloven",
-          "Straffeloven"
+          "Friluftsloven",
+          "Forurensningsloven",
+          "Kulturminneloven"
         ],
         "correct": 0,
         "explain": "Loven stiller krav til kunnskap og forsiktighet ved inngrep.",
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvilket mineral trengs i det grønne skiftet og finnes ved Repparfjorden?",
         "options": [
-          "Gull",
-          "Salt",
+          "Jernmalm",
+          "Nikkel",
           "Kobber",
-          "Kull"
+          "Sink"
         ],
         "correct": 2,
         "explain": "Kobber brukes blant annet i elektriske ledninger.",
@@ -360,10 +360,10 @@
         "type": "flervalg",
         "text": "Hvorfor er nordområdene viktige for sikkerhetspolitikken?",
         "options": [
-          "Fordi det er varmt der",
+          "Fordi Norge har sin lengste landegrense mot Russland der",
           "Fordi Norge grenser mot Russland der",
-          "Fordi det bor flest folk der",
-          "Fordi hovedstaden ligger der"
+          "Fordi hoveddelen av Norges befolkning bor i nordområdene",
+          "Fordi Norges hovedstad ligger nær grensen mot Russland"
         ],
         "correct": 1,
         "explain": "Nordområdene har stor strategisk betydning.",
@@ -451,6 +451,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

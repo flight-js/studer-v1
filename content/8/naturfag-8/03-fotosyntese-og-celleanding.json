@@ -77,8 +77,8 @@
       "options": [
         "Oksygen og glukose",
         "Karbondioksid og vann",
-        "Nitrogen og oksygen",
-        "Glukose og vann"
+        "Nitrogen og mineraler",
+        "Glukose og oksygen"
       ],
       "correct": 1,
       "explain": "Planten bruker CO₂ fra lufta og vann fra jorda, og energi fra sollys."
@@ -88,9 +88,9 @@
       "text": "Hva dannes i fotosyntesen?",
       "options": [
         "Karbondioksid og vann",
-        "Oksygen og nitrogen",
+        "Glukose og karbondioksid",
         "Glukose og oksygen",
-        "Bare energi"
+        "Vann og nitrogen"
       ],
       "correct": 2,
       "explain": "Produktene er glukose, som lagrer energi, og oksygen, som slippes ut."
@@ -102,7 +102,7 @@
         "I mitokondriene",
         "I kloroplastene",
         "I cellekjernen",
-        "I vakuolen"
+        "I cellemembranen"
       ],
       "correct": 0,
       "explain": "Mitokondriene frigjør energi fra glukose ved celleånding."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hvilke organismer driver med celleånding?",
       "options": [
-        "Bare dyr",
-        "Bare planter",
-        "Bare bakterier",
+        "De fleste dyr og planter, men ikke sopper",
+        "Mange sopper og bakterier, men ikke planter",
+        "Planter og alger, men ikke dyr og sopper",
         "Nesten alle organismer, både planter og dyr"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hvorfor kalles celleånding fotosyntesen «baklengs»?",
       "options": [
-        "Fordi den skjer om natta",
+        "Fordi celleånding skjer når fotosyntesen stanser om natta",
         "Fordi utgangsstoffene i den ene er produktene i den andre",
-        "Fordi den går saktere",
-        "Fordi den skjer i røttene"
+        "Fordi de foregår i ulike deler av cellen og bruker ulik energi",
+        "Fordi celleånding lager lys som fotosyntesen bruker"
       ],
       "correct": 1,
       "explain": "Fotosyntesen lager glukose og oksygen, som celleåndingen bruker til å lage CO₂ og vann."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva skjer i en plante om natta?",
       "options": [
-        "Bare fotosyntese",
-        "Ingenting",
-        "Bare celleånding",
-        "Planten dør"
+        "Fotosyntese, mens celleåndingen stanser",
+        "Både fotosyntese og celleånding stanser",
+        "Celleånding, mens fotosyntesen stanser",
+        "Begge prosessene fortsetter mens planten hviler"
       ],
       "correct": 2,
       "explain": "Fotosyntesen trenger lys. Celleåndingen fortsetter hele døgnet."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva er fossile brensler dannet av?",
       "options": [
-        "Vulkansk stein",
-        "Sand og vann",
-        "Luft",
+        "Mineraler fra vulkanutbrudd som størknet dypt under bakken",
+        "Rester etter planter og dyr som levde for tusenvis av år siden",
+        "Sand og leire som ble presset sammen gjennom millioner av år",
         "Rester etter planter og dyr som levde for millioner av år siden"
       ],
       "correct": 3,
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Hvilken rolle har nedbrytere i karbonkretsløpet?",
       "options": [
-        "De lager oksygen",
+        "De bryter ned levende planter og frigjør oksygen",
         "De bryter ned døde organismer og frigjør CO₂",
-        "De binder karbon i stein",
-        "De driver med fotosyntese"
+        "De omdanner CO₂ fra lufta til glukose ved fotosyntese",
+        "De presser døde organismer sammen og danner kull"
       ],
       "correct": 1,
       "explain": "Sopp og bakterier bryter ned dødt materiale og slipper karbonet ut igjen."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvorfor forstyrrer bruk av fossile brensler karbonkretsløpet?",
       "options": [
-        "Fordi de frigjør karbon som har vært lagret i millioner av år, svært raskt",
-        "Fordi de lager oksygen",
-        "Fordi de fjerner CO₂",
-        "De påvirker ikke kretsløpet"
+        "De frigjør karbon som har vært lagret i millioner av år, svært raskt",
+        "De fjerner karbon fra lufta og lagrer det i bakken svært raskt",
+        "De omdanner CO₂ i lufta til oksygen under forbrenning",
+        "De flytter karbon mellom organismer uten å øke CO₂-mengden i lufta"
       ],
       "correct": 0,
       "explain": "Utslippene øker CO₂-mengden i lufta raskere enn naturen klarer å binde den."
@@ -326,9 +326,9 @@
         "text": "Hvilken form lagrer poteter energi i?",
         "options": [
           "Stivelse",
-          "Oksygen",
-          "Protein",
-          "Vann"
+          "Cellulose",
+          "Glykogen",
+          "Glukose"
         ],
         "correct": 0,
         "explain": "Planter lagrer overskudd av glukose som stivelse."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva slipper celleåndingen ut?",
         "options": [
-          "Oksygen",
-          "Glukose",
+          "Oksygen og glukose",
+          "Karbondioksid og oksygen",
           "Karbondioksid og vann",
-          "Klorofyll"
+          "Vann og klorofyll"
         ],
         "correct": 2,
         "explain": "Når glukose brytes ned med oksygen, dannes CO₂ og vann."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

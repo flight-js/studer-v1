@@ -104,10 +104,10 @@
       "id": "q01",
       "text": "Hvorfor trekker du hånda raskt bort fra en varm kokeplate?",
       "options": [
-        "Fordi hjernen tenker seg om",
-        "Fordi hormoner virker raskt",
-        "På grunn av en refleks via ryggmargen",
-        "Fordi huden er kald"
+        "På grunn av en beslutning i hjernen",
+        "På grunn av adrenalin fra binyrene",
+        "På grunn av en ryggmargsrefleks",
+        "På grunn av et hormonsignal fra huden"
       ],
       "correct": 2,
       "explain": "Refleksen går via ryggmargen, som sender signal direkte til musklene."
@@ -116,10 +116,10 @@
       "id": "q02",
       "text": "Hvilken påstand stemmer om hormonsystemet sammenlignet med nervesystemet?",
       "options": [
-        "Hormoner virker raskere",
-        "Hormoner går bare til ett bestemt sted",
+        "Hormoner virker raskere, men ofte kortere",
+        "Hormoner virker langsommere, men fraktes gjennom nervene",
         "Hormoner virker langsommere, men ofte lenger",
-        "Hormoner er elektriske signaler"
+        "Hormoner virker raskere og er elektriske signaler"
       ],
       "correct": 2,
       "explain": "Hormoner sprer seg med blodet og kan ha virkning i timer, måneder eller år."
@@ -128,10 +128,10 @@
       "id": "q03",
       "text": "Hva betyr toleranse?",
       "options": [
-        "At man tåler alt",
-        "At man ikke blir påvirket",
+        "At man trenger mindre av stoffet for å få samme effekt",
+        "At samme mengde av stoffet gir sterkere effekt over tid",
         "At man trenger mer av stoffet for å få samme effekt",
-        "At man slutter lett"
+        "At man kan bruke stoffet uten å få bivirkninger"
       ],
       "correct": 2,
       "explain": "Kroppen venner seg til stoffet, og effekten blir svakere."
@@ -140,10 +140,10 @@
       "id": "q04",
       "text": "Hva er biomagnifisering?",
       "options": [
-        "At miljøgifter forsvinner i naturen",
-        "At dyr blir større",
+        "At miljøgifter hoper seg opp nedover i næringskjeden",
+        "At miljøgifter hoper seg opp i ett dyr over tid",
         "At miljøgifter hoper seg opp oppover i næringskjeden",
-        "At planter vokser raskere"
+        "At miljøgifter brytes raskere ned oppover i næringskjeden"
       ],
       "correct": 2,
       "explain": "Rovdyr på toppen av næringskjeden får derfor de høyeste konsentrasjonene."
@@ -152,10 +152,10 @@
       "id": "q05",
       "text": "Hvordan virker en vaksine?",
       "options": [
-        "Den lærer immunforsvaret å kjenne igjen et smittestoff uten at du blir syk",
-        "Den dreper alle bakterier i kroppen",
-        "Den erstatter immunforsvaret",
-        "Den virker som antibiotika"
+        "Den lærer immunforsvaret å kjenne igjen et smittestoff uten at du blir syk.",
+        "Den dreper bakteriene som finnes i kroppen før immunforsvaret reagerer.",
+        "Den gir kroppen ferdige antistoffer som beskytter mot flere ulike sykdommer.",
+        "Den bruker antibiotika til å stoppe virus før de kommer inn i cellene."
       ],
       "correct": 0,
       "explain": "Vaksinen gir kroppen antistoffer og hukommelsesceller mot smittestoffet."
@@ -164,10 +164,10 @@
       "id": "q06",
       "text": "Hva er flokkimmunitet?",
       "options": [
-        "At dyr er immune",
-        "At bare voksne er beskyttet",
+        "At smitte sprer seg raskere når mange er immune, slik at uvaksinerte også beskyttes.",
+        "At flokkimmunitet oppstår når mange får vaksine samtidig, uavhengig av smittespredning.",
         "At smitte sprer seg dårlig når mange er immune, slik at også uvaksinerte beskyttes",
-        "At man blir immun av å være i en gruppe"
+        "At en gruppe blir immun fordi medlemmene oppholder seg sammen uten å bli syke."
       ],
       "correct": 2,
       "explain": "Når få kan bli smittet, finner smittestoffet få nye verter."
@@ -176,10 +176,10 @@
       "id": "q07",
       "text": "Hvilken prevensjonsmetode beskytter også mot seksuelt overførbare infeksjoner?",
       "options": [
-        "P-piller",
-        "P-stav",
+        "Kobberspiral",
+        "P-ring",
         "Kondom",
-        "Hormonspiral"
+        "P-plaster"
       ],
       "correct": 2,
       "explain": "Kondomet hindrer kontakt med kroppsvæsker og beskytter derfor også mot SOI."
@@ -189,9 +189,9 @@
       "text": "Hva betyr samtykke?",
       "options": [
         "At alle involverte frivillig sier ja og kan ombestemme seg",
-        "At man har sagt ja én gang for alltid",
-        "At foreldrene har sagt ja",
-        "At man ikke har sagt nei"
+        "At et ja til én handling gjelder for andre også",
+        "At et ja fra én person gjelder for partneren",
+        "At man kan regne med ja fra en man kjenner"
       ],
       "correct": 0,
       "explain": "Samtykke må være frivillig og kan trekkes tilbake når som helst."
@@ -200,10 +200,10 @@
       "id": "q09",
       "text": "Hva er en modell i naturfag?",
       "options": [
-        "En eksakt kopi av virkeligheten",
+        "En nøyaktig kopi av naturen med alle detaljer med",
         "En forenklet framstilling som hjelper oss å forklare og forutsi",
-        "En person som viser klær",
-        "Et forsøk på lab"
+        "Et forsøk der naturfenomener undersøkes under kontrollerte forhold",
+        "En observasjon som registrerer et fenomen uten å forklare det"
       ],
       "correct": 1,
       "explain": "Modeller forenkler for å gjøre noe forståelig og for å kunne forutsi."
@@ -212,10 +212,10 @@
       "id": "q10",
       "text": "Hvorfor endres modeller over tid?",
       "options": [
-        "Fordi forskere liker å forandre ting",
+        "Fordi forskere ønsker å bruke nyere navn på modellene",
         "Fordi nye observasjoner ikke passer med den gamle modellen",
-        "Fordi gamle modeller blir slitt",
-        "De endres aldri"
+        "Fordi modeller mister nøyaktighet når de blir gamle",
+        "Fordi nyere modeller ser mer realistiske ut på bilder"
       ],
       "correct": 1,
       "explain": "Når en modell ikke kan forklare nye observasjoner, må den forbedres eller erstattes."
@@ -224,10 +224,10 @@
       "id": "q11",
       "text": "Hvorfor er replikasjon viktig?",
       "options": [
-        "Fordi det gjør forskningen dyrere",
+        "Fordi det viser om samme forsker får samme resultat med samme utstyr",
         "Fordi det viser om resultatet holder når andre gjentar forsøket",
-        "Fordi det er påbudt ved lov",
-        "Fordi resultater ellers forsvinner"
+        "Fordi det viser om resultatet stemmer med forskernes forventninger når forsøket gjentas",
+        "Fordi det viser om forsøket gir samme resultat når måleutstyret byttes"
       ],
       "correct": 1,
       "explain": "Resultater som kan gjentas av uavhengige forskere, er mer pålitelige."
@@ -236,10 +236,10 @@
       "id": "q12",
       "text": "Salg av is og antall drukninger øker om sommeren. Hva kan vi konkludere?",
       "options": [
-        "At is forårsaker drukning",
-        "At drukning gjør folk sultne på is",
+        "At isspising trolig øker faren for å drukne om sommeren",
+        "At drukninger trolig får flere butikker til å selge is",
         "At begge trolig skyldes en tredje faktor, som varmt vær",
-        "At tallene er feil"
+        "At begge tallene trolig skyldes kaldere vær om sommeren"
       ],
       "correct": 2,
       "explain": "Korrelasjon er ikke årsak. Varmt vær får flere til både å kjøpe is og å bade."
@@ -248,9 +248,9 @@
       "id": "q13",
       "text": "Hva er konsensus i forskning?",
       "options": [
-        "At én forsker har bestemt noe",
-        "At alle forsøk gir samme tall",
-        "En avstemning blant politikere",
+        "Bred enighet basert på én enkelt forskningsgruppe",
+        "Enighet blant forskere etter en flertallsavstemning",
+        "At mange forskere får nøyaktig samme resultat i én undersøkelse",
         "Bred enighet basert på mange uavhengige undersøkelser"
       ],
       "correct": 3,
@@ -377,7 +377,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -499,8 +499,7 @@
         "kriterier": [
           "Bruker formelen s = v · t.",
           "Regner ut 12 meter."
-        ],
-        "niva": "over-niva"
+        ]
       },
       {
         "id": "s08",
@@ -509,14 +508,93 @@
         "kriterier": [
           "Bruker sammenhengen v = s / t.",
           "Finner farten 4 meter per sekund."
+        ]
+      },
+      {
+        "text": "Når en person tar på en varm kokeplate, trekker hånden seg raskt unna før personen kjenner smerten. Forklar hvordan signalet går gjennom nervesystemet i denne refleksen.",
+        "fasit": "Sanseceller registrerer varmen og sender et signal via nervene til ryggmargen. Ryggmargen sender raskt en beskjed tilbake til musklene om å trekke hånden bort. Smerten kjennes når signalet når hjernen.",
+        "kriterier": [
+          "Sanseceller og nerver sender signal til ryggmargen.",
+          "Ryggmargen sender beskjed til musklene før hjernen rekker å bestemme.",
+          "Smerten kjennes når signalet når hjernen."
         ],
+        "id": "s09"
+      },
+      {
+        "text": "Noen miljøgifter ligner kroppens egne hormoner. Forklar hvordan slike stoffer kan påvirke kroppen, og hvorfor det kan være relevant for vekst og reproduksjon.",
+        "fasit": "Hormonforstyrrende miljøgifter kan påvirke celler ved å etterligne kroppens hormoner. Det kan forstyrre prosesser som har betydning for vekst, utvikling og reproduksjon.",
+        "kriterier": [
+          "Miljøgiftene kan ligne hormoner og påvirke kroppens hormonelle signaler.",
+          "Dette kan påvirke vekst, utvikling eller reproduksjon."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En person ønsker å redusere risikoen for HPV og andre seksuelt overførbare infeksjoner. Forklar hvordan HPV-vaksine og kondom kan bidra, og hvorfor vaksinen ikke erstatter kondom.",
+        "fasit": "HPV-vaksinen lærer immunforsvaret å kjenne igjen HPV og beskytter mot denne infeksjonen. Kondom hindrer smitte ved seksuell kontakt og beskytter også mot andre seksuelt overførbare infeksjoner, så vaksinen erstatter ikke kondom.",
+        "kriterier": [
+          "HPV-vaksinen lærer immunforsvaret å kjenne igjen HPV.",
+          "Kondom bidrar til å forebygge seksuelt overførbare infeksjoner.",
+          "Vaksinen mot HPV beskytter ikke mot alle andre seksuelt overførbare infeksjoner."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Nikotin og andre rusmidler kan påvirke hjernens belønningssystem. Forklar hvordan dette kan bidra til avhengighet, og hvorfor unge er ekstra sårbare.",
+        "fasit": "Rusmidler kan føre til at hjernen skiller ut mye dopamin, som gir en følelse av velvære og kan gjøre at man får lyst på stoffet igjen. Unge er ekstra sårbare fordi hjernen utvikler seg til rundt 25-årsalderen, og de har derfor økt risiko for skader og avhengighet.",
+        "kriterier": [
+          "Rusmidler kan øke utskillelsen av dopamin i belønningssystemet og gi lyst på mer.",
+          "Hjernen utvikler seg til rundt 25-årsalderen, og unge er ekstra sårbare for skader og avhengighet."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En enkel modell regner en menstruasjonssyklus som 28 dager. Hvor mange dager varer tre slike sykluser til sammen ifølge modellen, og hvorfor trenger ikke dette å være det nøyaktige antallet dager for en person?",
+        "fasit": "Tre sykluser på 28 dager blir 3 · 28 = 84 dager. Menstruasjonssykluser varierer fra person til person, så modellen gir ikke nødvendigvis det nøyaktige antallet dager.",
+        "kriterier": [
+          "Regner ut 84 dager.",
+          "Nevner at menstruasjonssykluser varierer."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "I en enkel modell starter man med 4 mikrober, og antallet dobles for hver runde. Hvor mange mikrober viser modellen etter tre runder, og nevn én ting modellen forenkler.",
+        "fasit": "Etter tre runder viser modellen 32 mikrober: 4, 8, 16 og 32. Den forenkler virkeligheten ved å anta at antallet alltid dobles på nøyaktig samme måte.",
+        "kriterier": [
+          "Regner ut 32 mikrober etter tre runder.",
+          "Nevner en forenkling, for eksempel at antallet dobles likt hver runde."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Et legemiddelfirma betaler for en undersøkelse som konkluderer med at firmaets legemiddel virker. Forklar hvordan fagfellevurdering, gjentakelse av forsøket og åpenhet om finansieringen kan hjelpe andre med å vurdere resultatet.",
+        "fasit": "Fagfellevurdering kan avdekke svakheter i metoden eller analysen før resultatet publiseres. Hvis uavhengige forskere gjentar forsøket og får lignende resultater, blir funnet mer pålitelig. Åpenhet om finansieringen gjør det mulig å ta hensyn til en mulig interessekonflikt.",
+        "kriterier": [
+          "Fagfellevurdering kan finne svakheter i metode eller analyse.",
+          "Gjentakelse med lignende resultater øker påliteligheten.",
+          "Finansiering bør oppgis fordi den kan innebære en interessekonflikt."
+        ],
+        "id": "s15",
         "niva": "over-niva"
+      },
+      {
+        "text": "Dalton beskrev atomer som udelelige kuler, mens senere forskere oppdaget elektroner og en liten, tett atomkjerne. Forklar hvorfor atommodellen ble endret, og hva dette viser om naturvitenskapelige modeller.",
+        "fasit": "Nye observasjoner, som oppdagelsen av elektronet og atomkjernen, passet ikke med Daltons modell. Modellen ble derfor endret for å forklare flere observasjoner. Dette viser at modeller er forenklede framstillinger som kan forbedres når ny kunnskap kommer.",
+        "kriterier": [
+          "Nye observasjoner viste begrensninger ved den eldre atommodellen.",
+          "Modellen ble endret for å forklare flere observasjoner.",
+          "Naturvitenskapelige modeller kan forbedres når ny kunnskap kommer."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

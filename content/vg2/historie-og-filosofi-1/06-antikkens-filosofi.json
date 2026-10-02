@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva var naturfilosofene opptatt av?",
       "options": [
-        "Politikk",
+        "Hvordan mennesker bør styre byen",
         "Hva verden egentlig er laget av",
-        "Kunst",
-        "Religion"
+        "Hva gjør et kunstverk vakkert",
+        "Hvordan gudene påvirker menneskers liv"
       ],
       "correct": 1,
       "explain": "De søkte urstoffet."
@@ -92,9 +92,9 @@
       "text": "Hvem sa at «alt flyter»?",
       "options": [
         "Herakleitos",
-        "Parmenides",
-        "Thales",
-        "Platon"
+        "Anaximander",
+        "Empedokles",
+        "Demokrit"
       ],
       "correct": 0,
       "explain": "Verden er i stadig endring.",
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva handler Platons hulelignelse om?",
       "options": [
-        "Om å bygge hus",
-        "Om krig",
+        "Om sjelens udødelighet etter kroppens død",
+        "Om hvordan rettferdighet bør styre staten",
         "Om mennesker som tror skyggene er virkeligheten",
-        "Om dyrelivet"
+        "Om at sjelen husker kunnskap fra før fødselen"
       ],
       "correct": 2,
       "explain": "Filosofen ser sola – sannheten."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva er den gylne middelvei hos Aristoteles?",
       "options": [
-        "En handelsvei",
-        "Et politisk parti",
-        "En type logikk",
+        "At dyden består i å velge det mest behagelige",
+        "At dyden krever å følge samfunnets regler",
+        "At dyden oppnås ved å velge ett ytterpunkt",
         "At dyden ligger mellom to ytterpunkter"
       ],
       "correct": 3,
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "Hvordan skilte Aristoteles seg fra Platon?",
       "options": [
-        "Han mente formen finnes i tingene, og la vekt på observasjon",
-        "Han trodde mer på idéverdenen",
-        "Han var ikke interessert i kunnskap",
-        "Han skrev ingenting"
+        "Han mente at formen finnes i tingene og la vekt på observasjon",
+        "Han mente at formene finnes i en egen idéverden og la vekt på tenkning",
+        "Han mente at kunnskap kommer fra medfødte ideer og avviste observasjon som kilde",
+        "Han mente at formene finnes i tingene, men avviste observasjon som vei til kunnskap"
       ],
       "correct": 0,
       "explain": "Mer empirisk."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva la stoikerne vekt på?",
       "options": [
-        "Maksimal nytelse",
+        "Nytelse og å søke mest mulig glede i hverdagen",
         "Sinnsro og å skille mellom det vi kan og ikke kan kontrollere",
-        "Å samle rikdom",
-        "Å unngå all fornuft"
+        "Rikdom og å bygge trygghet gjennom materielle eiendeler og status",
+        "Følelser og å la dem styre viktige valg i hverdagen"
       ],
       "correct": 1,
       "explain": "Populært som livsfilosofi i dag."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva mente Epikur med lykke?",
       "options": [
-        "Fest og overflod",
-        "Makt over andre",
+        "Mest mulig nytelse gjennom fest og overflod",
+        "Lykke gjennom rikdom og makt over andre",
         "Fravær av smerte og indre ro",
-        "Å bli berømt"
+        "Et godt liv gjennom berømmelse og offentlig ære"
       ],
       "correct": 2,
       "explain": "Et enkelt liv med vennskap."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hvorfor kjenner vi Sokrates' tanker hovedsakelig gjennom andre?",
       "options": [
-        "Fordi han skrev på et hemmelig språk",
-        "Fordi bøkene hans brant",
-        "Fordi han var analfabet",
-        "Fordi han ikke skrev noe selv – vi kjenner ham gjennom Platons dialoger"
+        "Fordi han skrev taler, som Xenofon senere samlet i skrifter",
+        "Fordi han skrev flere bøker, men Platon samlet tankene i dialoger",
+        "Fordi han skrev filosofiske brev, som Platon senere gjorde om til dialoger",
+        "Fordi han ikke skrev selv, og vi kjenner ham gjennom Platons dialoger"
       ],
       "correct": 3,
       "explain": "Et kildeproblem."
@@ -177,9 +177,9 @@
       "text": "Hva mente Demokrit at alt består av?",
       "options": [
         "Atomer",
-        "Vann",
-        "Ild",
-        "Tall"
+        "Luft",
+        "Jord",
+        "Apeiron"
       ],
       "correct": 0,
       "explain": "Små, udelelige partikler i tomrom.",
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hva betyr det at mennesket er et politisk dyr ifølge Aristoteles?",
       "options": [
-        "At alle bør være politikere",
-        "At mennesket trenger fellesskapet",
-        "At mennesker er dyr uten fornuft",
-        "At politikk er farlig"
+        "At mennesket bør styre byen som hersker",
+        "At mennesket trenger et fellesskap",
+        "At mennesket søker rikdom framfor samvær",
+        "At mennesket handler ut fra instinkt, ikke fornuft"
       ],
       "correct": 1,
       "explain": "Zoon politikon."
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hvem grunnla Akademiet i Athen?",
         "options": [
-          "Aristoteles",
+          "Isokrates",
           "Platon",
-          "Sokrates",
-          "Epikur"
+          "Zenon",
+          "Pythagoras"
         ],
         "correct": 1,
         "explain": "Rundt 387 f.Kr.",
@@ -333,9 +333,9 @@
         "text": "Hvilken del av sjelen skal styre ifølge Platon?",
         "options": [
           "Fornuften",
+          "Motet",
           "Begjæret",
-          "Viljen",
-          "Kroppen"
+          "Sansene"
         ],
         "correct": 0,
         "explain": "Da er mennesket rettferdig."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål er metafysisk?",
         "options": [
-          "Hva er et godt liv?",
-          "Hvordan bør staten styres?",
+          "Hva gjør en handling moralsk riktig?",
+          "Hvordan kan vi vite om sansene viser sannheten?",
           "Hva er virkeligheten egentlig laget av?",
-          "Hvordan skriver man et dikt?"
+          "Hvem bør få bestemme i en stat?"
         ],
         "correct": 2,
         "explain": "Metafysikk handler om virkelighetens natur."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

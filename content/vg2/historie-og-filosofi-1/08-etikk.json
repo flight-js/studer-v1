@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva skiller etikk fra moral?",
       "options": [
-        "Det er det samme",
-        "Etikk er systematisk refleksjon over moralen",
-        "Moral er bare lover",
-        "Etikk handler bare om religion"
+        "Moral er systematisk refleksjon over etiske normer.",
+        "Etikk er systematisk refleksjon over moralen.",
+        "Etikk er normene som styrer handlingene våre.",
+        "Etikk er regler for hva lovverket tillater."
       ],
       "correct": 1,
       "explain": "Moral er normene vi har."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hva sier menneskeverdsformuleringen av det kategoriske imperativ?",
       "options": [
-        "Behandle aldri mennesker bare som et middel, men også som et mål",
-        "Gjør det som gir mest lykke",
-        "Følg flertallet",
-        "Lyv når det lønner seg"
+        "Behandle aldri mennesker bare som et middel, men også som et mål.",
+        "Velg handlingen som gir størst mulig lykke for flest mulig.",
+        "Følg reglene som flertallet i samfunnet har godtatt.",
+        "Behandle mennesker som midler når det fører til et godt resultat."
       ],
       "correct": 0,
       "explain": "Kants pliktetikk."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er utilitarismens grunnprinsipp?",
       "options": [
-        "Følg pliktene uansett",
-        "Vær en god person",
-        "Størst mulig lykke for flest mulig",
-        "Gjør som tradisjonen sier"
+        "Størst mulig respekt for plikter i flest situasjoner.",
+        "Best mulig karakter gjennom gode vaner og handlinger.",
+        "Størst mulig lykke for flest mulig.",
+        "Følge tradisjonelle normer i flest mulige situasjoner."
       ],
       "correct": 2,
       "explain": "Bentham og Mill."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hvordan blir vi dydige ifølge Aristoteles?",
       "options": [
-        "Ved å lese regler",
-        "Ved å regne ut konsekvenser",
-        "Ved å følge ordrer",
-        "Gjennom øvelse og vane"
+        "Gjennom kunnskap om moralske regler.",
+        "Gjennom beregning av mulige følger.",
+        "Gjennom lydighet mot samfunnets lover.",
+        "Gjennom øvelse og vane."
       ],
       "correct": 3,
       "explain": "Vi blir modige ved å handle modig."
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva er en vanlig kritikk av utilitarismen?",
       "options": [
-        "Den kan rettferdiggjøre å ofre enkeltmennesker for flertallet",
-        "Den tar ikke hensyn til konsekvenser",
-        "Den handler bare om karakter",
-        "Den er for opptatt av plikter"
+        "Den kan rettferdiggjøre at enkeltmennesker ofres for flertallet.",
+        "Den kan vurdere handlinger uten å se på konsekvensene deres.",
+        "Den kan legge mest vekt på personens karakter framfor nytte.",
+        "Den kan sette faste plikter foran den samlede lykken."
       ],
       "correct": 0,
       "explain": "Individets rettigheter kan bli overkjørt."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvorfor kan man ikke ville at løgn skal bli en allmenn regel ifølge Kant?",
       "options": [
-        "Fordi løgn er ulovlig",
-        "Fordi da ville ingen stole på noe som ble sagt",
-        "Fordi løgn gir dårlige konsekvenser",
-        "Fordi Gud forbyr det"
+        "Fordi løgn bryter med lovene som gjelder i samfunnet.",
+        "Fordi da ville ingen stole på noe som ble sagt.",
+        "Fordi løgner vanligvis fører til mindre lykke for alle.",
+        "Fordi religiøse bud forbyr å si noe som ikke er sant."
       ],
       "correct": 1,
       "explain": "Universaliserbarhet."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva mente Mill med høyere og lavere gleder?",
       "options": [
-        "At alle gleder er like",
-        "At fysiske gleder er best",
-        "At noen gleder, som kunnskap og kunst, er mer verdifulle enn andre",
-        "At glede er uviktig"
+        "At alle gleder har samme verdi som menneskelige erfaringer.",
+        "At kroppslige gleder er mer verdifulle enn kunnskap og kunst.",
+        "At noen gleder, som kunnskap og kunst, er mer verdifulle enn andre.",
+        "At glede har liten betydning sammenlignet med plikt og karakter."
       ],
       "correct": 2,
       "explain": "Bedre utilfreds menneske enn tilfreds gris."
@@ -159,22 +159,22 @@
       "id": "q08",
       "text": "Hva er en svakhet ved dydsetikken?",
       "options": [
-        "Den tar ikke hensyn til mennesket",
-        "Den er for opptatt av regler",
-        "Den er for opptatt av konsekvenser",
-        "Den gir lite konkret svar i vanskelige dilemmaer"
+        "Den vurderer handlinger ut fra følger framfor menneskets karakter.",
+        "Den legger faste plikter til grunn når man velger handlinger.",
+        "Den gir detaljerte regler, men overser personens karakter.",
+        "Den gir lite konkret veiledning i vanskelige moralske dilemmaer."
       ],
       "correct": 3,
-      "explain": "Den handler mer om karakter enn handlingsregler."
+      "explain": "Dydsetikken legger vekt på karakter framfor faste regler for hver situasjon."
     },
     {
       "id": "q09",
       "text": "Hvordan vil en pliktetiker vurdere å drepe én frisk person for å redde fem?",
       "options": [
-        "Som galt, fordi personen blir brukt bare som middel",
-        "Som riktig, fordi fem er flere enn én",
-        "Som likegyldig",
-        "Som et spørsmål om lov"
+        "Som galt, fordi personen blir brukt bare som middel.",
+        "Som riktig, fordi fem liv gir større samlet nytte enn ett.",
+        "Som tillatt, fordi gode følger gjør handlingen moralsk riktig.",
+        "Som riktig, fordi handlingens hensikt er å redde flere mennesker."
       ],
       "correct": 0,
       "explain": "Menneskeverd står sentralt."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hva er kontraktsetikk?",
       "options": [
-        "Etikk for forretningsavtaler",
-        "Moral som regler rasjonelle mennesker ville blitt enige om",
-        "Etikk basert på religion",
-        "Etikk basert på følelser"
+        "Moral som følger religiøse bud og tradisjoner.",
+        "Moral som regler rasjonelle mennesker ville blitt enige om.",
+        "Moral som uttrykker menneskers følelser og ønsker.",
+        "Moral som styrer avtaler mellom bedrifter og kunder."
       ],
       "correct": 1,
       "explain": "Rawls' uvitenhetens slør er et eksempel."
@@ -311,9 +311,9 @@
         "type": "flervalg",
         "text": "Hvilken dyd ligger mellom gjerrighet og ødselhet?",
         "options": [
-          "Mot",
+          "Rettferdighet",
           "Gavmildhet",
-          "Måtehold",
+          "Tålmodighet",
           "Klokskap"
         ],
         "correct": 1,
@@ -326,9 +326,9 @@
         "text": "Hvem formulerte det kategoriske imperativ?",
         "options": [
           "Immanuel Kant",
-          "John Stuart Mill",
-          "Aristoteles",
-          "Jeremy Bentham"
+          "Sokrates",
+          "Platon",
+          "David Hume"
         ],
         "correct": 0,
         "explain": "Pliktetikkens grunnprinsipp."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvilken teori spør først og fremst hva slags menneske vi bør være?",
         "options": [
-          "Konsekvensetikk",
-          "Pliktetikk",
+          "Omsorgsetikk",
+          "Sinnelagsetikk",
           "Dydsetikk",
-          "Kontraktsetikk"
+          "Situasjonsetikk"
         ],
         "correct": 2,
         "explain": "Fokus på karakter."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

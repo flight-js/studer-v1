@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva sier Newtons 2. lov?",
       "options": [
-        "Kraft og motkraft er like store",
+        "ΣF = m · v",
         "ΣF = m · a",
-        "Alt faller like fort",
-        "Energi er bevart"
+        "ΣF = m / a",
+        "ΣF = m · a²"
       ],
       "correct": 1,
       "explain": "Akselerasjonen har samme retning som kraftsummen."
@@ -88,9 +88,9 @@
       "text": "Hva er tyngdekraften på en person på 70 kg?",
       "options": [
         "Omtrent 687 N",
-        "70 N",
-        "Omtrent 7 N",
-        "Omtrent 6870 N"
+        "Omtrent 70 N",
+        "Omtrent 68,7 N",
+        "Omtrent 6867 N"
       ],
       "correct": 0,
       "explain": "G = 70 · 9,81."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvorfor opphever ikke kraft og motkraft (Newtons 3. lov) hverandre?",
       "options": [
-        "Fordi de er ulike store",
-        "Fordi de har samme retning",
+        "Fordi de virker på samme legeme",
+        "Fordi de virker i samme retning",
         "Fordi de virker på hvert sitt legeme",
-        "Fordi de er fiktive"
+        "Fordi de har ulik størrelse"
       ],
       "correct": 2,
       "explain": "Bare krefter på samme legeme kan summeres."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "En kloss på 5,0 kg dras på et bord med μ = 0,30. Hvor stor er friksjonen?",
       "options": [
-        "1,5 N",
-        "5,0 N",
-        "49 N",
+        "Omtrent 1,5 N",
+        "Omtrent 49 N",
+        "Omtrent 5,0 N",
         "Omtrent 15 N"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hva sier Newtons 1. lov?",
       "options": [
         "Når ΣF = 0, er legemet i ro eller har konstant fart",
-        "Alle legemer akselererer",
-        "Kraft er masse ganger fart",
-        "Friksjon er alltid null"
+        "Når ΣF = 0, må legemet være i ro",
+        "Når ΣF = 0, øker farten til legemet jevnt",
+        "Når ΣF = 0, endrer legemet retning uten å endre fart"
       ],
       "correct": 0,
       "explain": "Kalles også treghetsloven."
@@ -138,7 +138,7 @@
         "G · cos α",
         "G · sin α",
         "G · tan α",
-        "G"
+        "G / sin α"
       ],
       "correct": 1,
       "explain": "G · cos α står vinkelrett på planet."
@@ -148,9 +148,9 @@
       "text": "En heis akselererer oppover. Hvordan er normalkraften fra gulvet?",
       "options": [
         "Mindre enn tyngden",
-        "Lik null",
+        "Lik tyngden",
         "Større enn tyngden",
-        "Lik tyngden"
+        "Lik null"
       ],
       "correct": 2,
       "explain": "N = m(g + a)."
@@ -172,9 +172,9 @@
       "text": "Hvilken retning har normalkraften?",
       "options": [
         "Vinkelrett på underlaget",
-        "Langs underlaget",
-        "Alltid rett ned",
-        "I bevegelsesretningen"
+        "Parallelt med underlaget",
+        "I bevegelsesretningen",
+        "I tyngdekraftens retning"
       ],
       "correct": 0,
       "explain": "Den virker ut fra underlaget."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hva skjer med normalkraften i fritt fall?",
       "options": [
-        "Den dobles",
-        "Den blir null",
-        "Den blir lik tyngden",
-        "Den blir negativ"
+        "Normalkraften blir lik tyngden",
+        "Normalkraften blir null",
+        "Normalkraften blir dobbelt så stor som tyngden",
+        "Normalkraften peker nedover med tyngdens størrelse"
       ],
       "correct": 1,
       "explain": "Det oppleves som vektløshet."
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "En bil på 1200 kg akselererer med 3,0 m/s². Hva er kraftsummen?",
         "options": [
-          "400 N",
+          "360 N",
           "3600 N",
-          "1203 N",
-          "36 000 N"
+          "1200 N",
+          "400 N"
         ],
         "correct": 1,
         "explain": "ΣF = 1200 · 3,0."
@@ -324,9 +324,9 @@
         "text": "Hva er μ i R = μ · N?",
         "options": [
           "Friksjonstallet",
-          "Massen",
+          "Friksjonskraften",
           "Normalkraften",
-          "Farten"
+          "Tyngdekraften"
         ],
         "correct": 0,
         "explain": "Det avhenger av flatene."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva skal et kraftdiagram vise?",
         "options": [
-          "Kreftene legemet virker med på andre",
-          "Bare tyngdekraften",
+          "Kreftene legemet virker med på andre legemer",
+          "Bevegelsesretningen og farten til legemet",
           "Alle kreftene som virker på legemet",
-          "Farten til legemet"
+          "Massen og akselerasjonen til legemet"
         ],
         "correct": 2,
         "explain": "Kreftene på legemet bestemmer akselerasjonen."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

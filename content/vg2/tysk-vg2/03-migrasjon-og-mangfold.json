@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva var gjestearbeidere (Gastarbeiter)?",
       "options": [
-        "Turister",
+        "Arbeidsinnvandrere som kom til Øst-Tyskland etter krigen",
         "Arbeidsinnvandrere som kom til Vest-Tyskland etter krigen",
-        "Studenter",
-        "Soldater"
+        "Arbeidsinnvandrere som kom til Vest-Tyskland før krigen",
+        "Flyktninger som kom til Vest-Tyskland etter krigen"
       ],
       "correct": 1,
       "explain": "Mange kom fra Tyrkia, Italia og Hellas."
@@ -90,9 +90,9 @@
       "text": "Hvem sa «Wir schaffen das» i 2015?",
       "options": [
         "Angela Merkel",
-        "Fatih Akin",
         "Helmut Kohl",
-        "Greta Thunberg"
+        "Olaf Scholz",
+        "Joachim Gauck"
       ],
       "correct": 0,
       "explain": "Det handlet om mottakelsen av flyktninger.",
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hvor brukes konjunktiv I mest?",
       "options": [
-        "I sms-er til venner",
-        "I barnebøker",
-        "I sanger",
+        "I meldinger til venner og familie",
+        "I vanlige samtaler med venner",
+        "I private dagbøker og notater",
         "I nyheter og formelle tekster"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva betyr «zweisprachig»?",
       "options": [
         "tospråklig",
-        "tosidig",
-        "to ganger",
-        "annenhver"
+        "flerspråklig",
+        "enspråklig",
+        "tosidig"
       ],
       "correct": 0,
       "explain": "zwei = to, Sprache = språk."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva betyr «Die Ministerin sagte, die Lage sei schwierig»?",
       "options": [
-        "Ministeren er i en vanskelig situasjon.",
+        "Ministerens situasjon var vanskelig.",
         "Ministeren sa at situasjonen var vanskelig.",
-        "Situasjonen gjorde ministeren sint.",
-        "Ministeren løste situasjonen."
+        "Ministeren spurte om situasjonen var vanskelig.",
+        "Ministeren sa at situasjonen var enkel."
       ],
       "correct": 1,
       "explain": "Indirekte tale med konjunktiv I."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva betyr «die Heimat»?",
       "options": [
-        "huset",
-        "hjemmelekser",
-        "himmelen",
+        "boligen",
+        "oppholdsstedet",
+        "arbeidsstedet",
         "hjemstedet"
       ],
       "correct": 3,
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvilket land kom mange flyktninger til Tyskland fra i 2022?",
       "options": [
-        "Tyrkia",
+        "Portugal",
         "Ukraina",
-        "Italia",
-        "Vietnam"
+        "Japan",
+        "Brasil"
       ],
       "correct": 1,
       "explain": "Etter Russlands angrep på Ukraina.",
@@ -327,7 +327,7 @@
         "text": "Hva betyr «sich zu Hause fühlen»?",
         "options": [
           "føle seg hjemme",
-          "være hjemme",
+          "bo hjemme",
           "reise hjem",
           "savne hjemmet"
         ],
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvordan gjengir du muntlig «Hun sier at hun har tid»?",
         "options": [
-          "Sie sagt, sie hätte Zeit hat.",
-          "Sie sagt, dass sie hat Zeit.",
+          "Sie sagt, dass sie keine Zeit hat.",
+          "Sie sagt, dass sie Zeit hatte.",
           "Sie sagt, dass sie Zeit hat.",
-          "Sie sagt Zeit hat sie."
+          "Sie sagt, dass sie Zeit hätte."
         ],
         "correct": 2,
         "explain": "dass-setning med verbet sist."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

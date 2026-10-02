@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er autonomi?",
       "options": [
-        "Å være styrt av andre",
+        "Heteronomi – å følge andres vurderinger når man tar valg",
         "Selvstyre – å styre eget liv ut fra egne vurderinger",
-        "Å ha mye penger",
-        "Å bo alene"
+        "Økonomisk selvstendighet – å forsørge seg med egne inntekter",
+        "Personlig ansvar – å stå til rette for egne handlinger"
       ],
       "correct": 1,
       "explain": "Sentralt hos Kant."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er negativ frihet?",
       "options": [
-        "Frihet fra tvang",
-        "Frihet til å gjøre gode ting",
-        "Mangel på frihet",
-        "Frihet som er ulovlig"
+        "Frihet fra ytre tvang og inngrep",
+        "Frihet til å realisere egne mål",
+        "Frihet til å delta i politiske beslutninger",
+        "Frihet fra egne moralske forpliktelser"
       ],
       "correct": 0,
       "explain": "Isaiah Berlins skille."
@@ -102,9 +102,9 @@
       "text": "En person har lov til å studere, men har ikke råd. Hva mangler hen?",
       "options": [
         "Negativ frihet",
-        "Autonomi alltid",
+        "Personlig autonomi",
         "Positiv frihet",
-        "Ansvar"
+        "Juridisk rettighet"
       ],
       "correct": 2,
       "explain": "Reelle muligheter."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva mente Sartre med ond tro?",
       "options": [
-        "Å tro på Gud",
-        "Å være ond",
-        "Å stole på andre",
+        "Å velge uten å vurdere følgene",
+        "Å skjule egne hensikter for andre",
+        "Å følge andres valg for å unngå konflikt",
         "Å late som man ikke har valg"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva mente Epikur var det gode liv?",
       "options": [
         "Fravær av smerte og indre ro",
-        "Luksus og fester",
-        "Makt",
-        "Berømmelse"
+        "Intense gleder og stadig nye opplevelser",
+        "Materiell rikdom og høy sosial status",
+        "Ære gjennom politisk innflytelse"
       ],
       "correct": 0,
       "explain": "Enkle gleder og vennskap."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva viser Nozicks erfaringsmaskin ifølge Nozick?",
       "options": [
-        "At nytelse er det eneste som teller",
-        "At maskiner er gode",
+        "At vi søker behagelige opplevelser framfor virkelige handlinger",
+        "At maskinen kan gi oss et bedre liv enn virkeligheten",
         "At vi vil gjøre og være noe, ikke bare føle oss bra",
-        "At lykke er umulig"
+        "At lykke avhenger av hvor godt opplevelsene føles"
       ],
       "correct": 2,
       "explain": "Et argument mot hedonisme."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva finner lykkeforskningen betyr mest for tilfredshet?",
       "options": [
-        "Bare penger",
-        "Berømmelse",
-        "Makt",
+        "Luksus, status, spenning og forbruk",
+        "Berømmelse, makt, prestisje og popularitet",
+        "Karakterer, konkurranse, prestisje og status",
         "Relasjoner, helse, mening og mestring"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hva er eudaimonia?",
       "options": [
         "Aristoteles' begrep om det gode liv",
-        "En gresk gud",
-        "En type nytelse",
-        "En stoisk øvelse"
+        "Epikurs begrep om fravær av smerte",
+        "Stoikernes ideal om å godta skjebnen",
+        "Platons begrep om sjelens udødelighet"
       ],
       "correct": 0,
       "explain": "Å realisere sine evner og leve dydig."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva mente Mill med at det er bedre å være et misfornøyd menneske enn en fornøyd gris?",
       "options": [
-        "At griser er lykkeligere",
+        "At griser opplever større glede enn mennesker i hverdagen",
         "At høyere nytelser er mer verdifulle enn lavere",
-        "At misnøye er målet",
-        "At dyr ikke har verdi"
+        "At mengden nytelse teller mer enn kvaliteten",
+        "At enkle kroppslige gleder er mer verdifulle enn tenkning"
       ],
       "correct": 1,
       "explain": "Kvalitet, ikke bare mengde, teller."
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hvem skilte mellom negativ og positiv frihet?",
         "options": [
-          "Kant",
+          "Immanuel Kant",
           "Isaiah Berlin",
-          "Mill",
-          "Epikur"
+          "John Stuart Mill",
+          "Thomas Hobbes"
         ],
         "correct": 1,
         "explain": "I 1958."
@@ -327,9 +327,9 @@
         "text": "Hvilken politisk retning legger ofte vekt på positiv frihet?",
         "options": [
           "Sosialdemokrati",
-          "Anarkisme",
-          "Enevelde",
-          "Fascisme"
+          "Konservatisme",
+          "Klassisk liberalisme",
+          "Libertarianisme"
         ],
         "correct": 0,
         "explain": "Gjennom skole og velferd.",
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hva betyr heteronom?",
         "options": [
-          "Selvstyrt",
-          "Fri",
-          "Styrt utenfra av lyster eller autoriteter",
-          "Lykkelig"
+          "Selvstyring gjennom egne fornuftige vurderinger",
+          "Fravær av ytre hindringer og tvang",
+          "Ytre styring gjennom lyster eller autoriteter",
+          "Ansvar for følgene av egne valg"
         ],
         "correct": 2,
         "explain": "Motsatsen til autonom."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

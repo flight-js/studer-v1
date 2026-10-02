@@ -77,9 +77,9 @@
       "text": "Hva er en kvantitativ metode?",
       "options": [
         "En metode som gir tall som kan telles",
-        "Et dybdeintervju",
-        "En observasjon uten notater",
-        "Å lese en roman"
+        "En metode som samler inn personlige fortellinger",
+        "En metode som tolker innholdet i skriftlige kilder",
+        "En metode som undersøker folks handlinger direkte"
       ],
       "correct": 0,
       "explain": "Spørreundersøkelser med faste alternativer gir tall som kan sammenlignes."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hvilken metode passer best for å forstå hvorfor ungdom velger som de gjør?",
       "options": [
-        "Å telle antall elever",
+        "Spørreundersøkelse med faste svaralternativer",
         "Intervju med åpne spørsmål",
-        "Å lese statistikk alene",
-        "Å måle høyden deres"
+        "Opptelling av ungdommenes valg",
+        "Måling av ungdommenes høyde"
       ],
       "correct": 1,
       "explain": "Kvalitative metoder som intervju gir innsikt i tanker og begrunnelser."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er en primærkilde?",
       "options": [
-        "En lærebok om 1800-tallet",
-        "En nettside som oppsummerer historie",
+        "En lærebok som forklarer hendelser fra 1905",
+        "En nettside som oppsummerer historien fra 1905",
         "Et brev skrevet av en person i 1905",
-        "Et leksikon"
+        "Et leksikonoppslag om Norge i 1905"
       ],
       "correct": 2,
       "explain": "Primærkilder stammer fra tiden eller hendelsen selv."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva betyr gyldighet i en undersøkelse?",
       "options": [
-        "At den er gratis",
-        "At mange svarer",
-        "At den er rask",
+        "At undersøkelsen gir svar på et annet spørsmål",
+        "At mange personer deltar i undersøkelsen",
+        "At samme undersøkelse gir like resultater ved gjentakelse",
         "At den måler det den skal måle"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvilket spørsmål er ledende?",
       "options": [
-        "Hvor mange timer bruker du på mobilen?",
+        "Hvor mange timer bruker du på mobilen hver dag?",
         "Er du enig i at mobilbruk er skadelig?",
-        "Hvilke apper bruker du?",
-        "Når legger du deg?"
+        "Hvilke apper bruker du mest på mobilen?",
+        "Når legger du deg på vanlige skoledager?"
       ],
       "correct": 1,
       "explain": "Formuleringen legger opp til at man skal svare ja."
@@ -137,9 +137,9 @@
       "text": "Hva er en filterboble?",
       "options": [
         "Når du mest møter informasjon som bekrefter det du tror",
-        "En type spørreundersøkelse",
-        "En kilde fra middelalderen",
-        "Et digitalt verktøy for diagrammer"
+        "Når du møter informasjon som utfordrer det du tror",
+        "Når du får nyheter fra mange ulike kilder",
+        "Når du ser søkeresultater i tilfeldig rekkefølge"
       ],
       "correct": 0,
       "explain": "Algoritmer viser deg innhold som ligner det du har likt før."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvorfor vet vi mindre om hvordan fattige levde i gamle dager?",
       "options": [
-        "Fordi de ikke fantes",
-        "Fordi det var forbudt å skrive om dem",
+        "Fordi det var forbudt å skrive om fattige",
+        "Fordi de fleste fattige bodde utenfor Norge",
         "Fordi de har etterlatt få skriftlige kilder",
-        "Fordi historikere ikke er interessert"
+        "Fordi historikere ikke har undersøkt fattiges liv"
       ],
       "correct": 2,
       "explain": "Mangel på kilder gjør at noen gruppers historie er mindre kjent."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva er en fordel med å kombinere kvantitative og kvalitative metoder?",
       "options": [
-        "Det tar kortere tid",
-        "Man får både oversikt og forklaring",
-        "Man trenger ingen problemstilling",
-        "Man slipper å vurdere kildene"
+        "Man får raskere svar fra deltakerne",
+        "Man får både en oversikt og en forklaring",
+        "Man trenger færre spørsmål i undersøkelsen",
+        "Man får samme type svar fra begge metodene"
       ],
       "correct": 1,
       "explain": "Tall viser hvor vanlig noe er, mens intervjuer forklarer hvorfor."
@@ -173,9 +173,9 @@
       "text": "Hvilket spørsmål hører til kildevurdering?",
       "options": [
         "Hvem har laget kilden, og hvorfor?",
-        "Hvor mange sider er den?",
-        "Hvilken farge har den?",
-        "Hvor mye veier den?"
+        "Hvor mange avsnitt har teksten på hver side?",
+        "Hvilken skriftstørrelse brukes på sidene i boka?",
+        "Hvor mange bilder er det på nettsiden?"
       ],
       "correct": 0,
       "explain": "Avsender og formål sier mye om hvor pålitelig og nøytral kilden er."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvordan kan du ta vare på personvernet i en spørreundersøkelse?",
       "options": [
-        "Be om fødselsnummer",
-        "Publisere navnene",
-        "Dele svarene på nett",
-        "Gjøre svarene anonyme"
+        "Samle inn navn og fødselsdatoer fra deltakerne",
+        "Be deltakerne skrive fullt navn på skjemaet",
+        "Dele enkeltsvar med navn på en nettside",
+        "Gjøre svarene anonyme for dem som leser dem"
       ],
       "correct": 3,
       "explain": "Anonyme svar beskytter deltakerne og gir ofte ærligere svar."
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva kalles det å se på og notere hva folk faktisk gjør?",
         "options": [
-          "Spørreundersøkelse",
+          "Intervju",
           "Observasjon",
-          "Kildekritikk",
-          "Statistikk"
+          "Spørreundersøkelse",
+          "Kildeanalyse"
         ],
         "correct": 1,
         "explain": "Observasjon er en kvalitativ metode."
@@ -327,9 +327,9 @@
         "text": "Hva er en problemstilling?",
         "options": [
           "Et spørsmål undersøkelsen skal svare på",
-          "En konklusjon",
-          "En kildeliste",
-          "Et diagram"
+          "Et svar undersøkelsen gir etter datainnsamling",
+          "En oversikt over kilder brukt i arbeidet",
+          "En framstilling av tall fra undersøkelsen"
         ],
         "correct": 0,
         "explain": "Problemstillingen gir undersøkelsen retning."
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hva er en ensrettet kilde?",
         "options": [
-          "En kilde med mange perspektiver",
-          "En kilde fra staten",
+          "En kilde som viser flere sider av en sak",
+          "En kilde som kommer fra en offentlig myndighet",
           "En kilde som bare viser én side av en sak",
-          "En gammel kilde"
+          "En kilde som ble laget for lenge siden"
         ],
         "correct": 2,
         "explain": "Ensrettede kilder kan gi et skjevt bilde av virkeligheten."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -82,8 +82,8 @@
       "options": [
         "Besteforeldrene",
         "Foreldrene",
-        "Søsknene",
-        "Kusinene"
+        "Barnebarna",
+        "Tantene og onklene"
       ],
       "correct": 0,
       "explain": "«abuelo» betyr bestefar."
@@ -94,7 +94,7 @@
       "options": [
         "los hermanos",
         "los abuelos",
-        "los primos",
+        "los tíos",
         "los padres"
       ],
       "correct": 3,
@@ -117,9 +117,9 @@
       "text": "Hvordan sier du «Jeg har en søster»?",
       "options": [
         "Soy una hermana.",
-        "Estoy una hermana.",
+        "Tengo un hermana.",
         "Tengo una hermana.",
-        "Tengo un hermana."
+        "Hay una hermana."
       ],
       "correct": 2,
       "explain": "«hermana» er hunkjønn og får «una»."
@@ -141,9 +141,9 @@
       "text": "Hva betyr «No tengo hermanos»?",
       "options": [
         "Jeg har ingen søsken",
-        "Jeg har mange søsken",
-        "Brødrene mine er høye",
-        "Jeg har en bror"
+        "Jeg har to søsken",
+        "Jeg har en bror",
+        "Jeg har ingen kusiner"
       ],
       "correct": 0,
       "explain": "«no» foran verbet gjør setningen nektende."
@@ -153,7 +153,7 @@
       "text": "Hva betyr «divertido»?",
       "options": [
         "Sjenert",
-        "Høy",
+        "Vennlig",
         "Trist",
         "Morsom"
       ],
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hvordan sier du «Hun har blå øyne»?",
       "options": [
-        "Es los ojos azules.",
+        "Tiene los ojos verdes.",
         "Tiene los ojos azules.",
-        "Tengo los ojos azules.",
-        "Tiene azules ojos."
+        "Tiene el pelo azul.",
+        "Tengo los ojos azules."
       ],
       "correct": 1,
       "explain": "«tiene» betyr «hun/han har»."
@@ -177,9 +177,9 @@
       "text": "Hvor mange etternavn har de fleste i Spania og Latin-Amerika?",
       "options": [
         "To – ett fra faren og ett fra moren",
-        "Ett",
-        "Tre",
-        "Ingen"
+        "Ett – ett fra faren og ett fra moren",
+        "Tre – to fra faren og ett fra moren",
+        "To – begge fra faren og ingen fra moren"
       ],
       "correct": 0,
       "explain": "For eksempel María García López."
@@ -335,9 +335,9 @@
         "text": "Hvilket ord passer: «… padres son simpáticos»?",
         "options": [
           "Mi",
-          "Mía",
+          "Tu",
           "Mis",
-          "Tu mi"
+          "Mío"
         ],
         "correct": 2,
         "explain": "«padres» står i flertall, derfor «mis»."
@@ -348,9 +348,9 @@
         "text": "Hva betyr «Mi mejor amiga se llama Lucía»?",
         "options": [
           "Min beste venninne heter Lucía",
-          "Søsteren min heter Lucía",
-          "Lucía er snill",
-          "Lucía bor her"
+          "Min beste venn heter Lucía",
+          "Min beste kusine heter Lucía",
+          "Min yngste venninne heter Lucía"
         ],
         "correct": 0,
         "explain": "«mejor» betyr beste."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

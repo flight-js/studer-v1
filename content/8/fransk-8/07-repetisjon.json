@@ -77,7 +77,8 @@
     },
     {
       "term": "la francophonie",
-      "def": "Fellesskapet av fransktalende land og mennesker"
+      "def": "Fellesskapet av fransktalende land og mennesker",
+      "niva": "eksempel"
     },
     {
       "term": "le 14 juillet",
@@ -96,8 +97,8 @@
       "options": [
         "J'ai treize ans.",
         "Je suis treize ans.",
-        "J'ai treize.",
-        "Je m'appelle treize."
+        "J'ai treize mois.",
+        "J'ai quatorze ans."
       ],
       "correct": 0,
       "explain": "På fransk bruker man «avoir» (å ha) om alder."
@@ -106,10 +107,10 @@
       "id": "q02",
       "text": "Når bruker du «vous» i stedet for «tu»?",
       "options": [
-        "Til bestevennen din",
-        "Til kjæledyret ditt",
-        "Til søsknene dine",
-        "Til voksne du ikke kjenner, eller til flere personer"
+        "Til en nær venn eller et familiemedlem du kjenner godt",
+        "Til et barn du kjenner godt eller en klassekamerat",
+        "Til én venn på din egen alder, ikke til flere",
+        "Til voksne du ikke kjenner eller til flere personer"
       ],
       "correct": 3,
       "explain": "«vous» er både høflighetsform og flertall."
@@ -118,10 +119,10 @@
       "id": "q03",
       "text": "Hva er 70 på fransk?",
       "options": [
-        "septante-dix",
+        "soixante-neuf",
         "soixante-dix",
-        "sept-dix",
-        "soixante-sept"
+        "soixante-sept",
+        "soixante-douze"
       ],
       "correct": 1,
       "explain": "70 er «60 + 10». I Belgia og Sveits sier mange «septante»."
@@ -132,8 +133,8 @@
       "options": [
         "Halv ni (8.30)",
         "Halv åtte (7.30)",
-        "Kvart over åtte",
-        "Åtte minutter"
+        "Kvart over åtte (8.15)",
+        "Kvart på ni (8.45)"
       ],
       "correct": 0,
       "explain": "Franskmenn sier «åtte og en halv»."
@@ -154,10 +155,10 @@
       "id": "q06",
       "text": "Hva betyr «Je n'ai pas de frères et sœurs»?",
       "options": [
-        "Jeg har mange søsken",
-        "Brødrene mine er snille",
+        "Jeg har noen søsken",
+        "Jeg har ingen foreldre",
         "Jeg har ingen søsken",
-        "Jeg har en bror"
+        "Jeg har ingen brødre"
       ],
       "correct": 2,
       "explain": "«ne … pas de» betyr «ikke noen»."
@@ -166,9 +167,9 @@
       "id": "q07",
       "text": "Hvordan sier du «spille fotball»?",
       "options": [
-        "jouer de la foot",
-        "faire le foot",
-        "jouer du foot",
+        "jouer au tennis",
+        "jouer au basket",
+        "jouer aux cartes",
         "jouer au foot"
       ],
       "correct": 3,
@@ -178,10 +179,10 @@
       "id": "q08",
       "text": "Hvordan sier du «spille gitar»?",
       "options": [
-        "jouer à la guitare",
+        "jouer du piano",
         "jouer de la guitare",
-        "faire la guitare",
-        "jouer guitare"
+        "jouer de la batterie",
+        "jouer du violon"
       ],
       "correct": 1,
       "explain": "Med instrumenter bruker du «jouer de»."
@@ -202,10 +203,10 @@
       "id": "q10",
       "text": "Hvordan sier du «Jeg snakker ikke tysk»?",
       "options": [
-        "Je pas parle allemand.",
+        "Je ne pas parle allemand.",
         "Je parle ne pas allemand.",
         "Je ne parle pas allemand.",
-        "Ne je parle pas allemand."
+        "Je ne parle allemand pas."
       ],
       "correct": 2,
       "explain": "«ne» står foran verbet og «pas» etter."
@@ -214,10 +215,10 @@
       "id": "q11",
       "text": "Hva feirer franskmennene 14. juli?",
       "options": [
-        "Nasjonaldagen, til minne om stormingen av Bastillen i 1789",
-        "Jul",
-        "Nyttår",
-        "Påske"
+        "Nasjonaldagen til minne om stormingen av Bastillen i 1789",
+        "Våpenhviledagen til minne om slutten på første verdenskrig i 1918",
+        "Seiersdagen til minne om slutten på andre verdenskrig i 1945",
+        "Arbeidernes dag til minne om arbeiderbevegelsen 1. mai"
       ],
       "correct": 0,
       "explain": "Dagen feires med parade og fyrverkeri.",
@@ -227,13 +228,14 @@
       "id": "q12",
       "text": "Hva betyr «la francophonie»?",
       "options": [
-        "Fransk musikk",
+        "Fellesskapet av spansktalende land og mennesker",
         "Fellesskapet av fransktalende land og mennesker",
-        "En fransk telefon",
-        "Den franske revolusjonen"
+        "Fellesskapet av fransktalende land i Europa",
+        "Samarbeidet mellom fransktalende land om handel"
       ],
       "correct": 1,
-      "explain": "Fransk snakkes på fem kontinenter."
+      "explain": "Fransk snakkes på fem kontinenter.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -344,7 +346,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -477,12 +479,90 @@
           "Sier at bestevenninnen heter Emma.",
           "Beskriver henne som snill og sier at hun liker å tegne."
         ]
+      },
+      {
+        "text": "Du er i et bakeri i Frankrike og skal kjøpe en baguette av en voksen du ikke kjenner. Skriv på fransk en høflig hilsen, be om baguetten og takk.",
+        "fasit": "Bonjour, monsieur. Une baguette, s'il vous plaît. Merci, au revoir !",
+        "kriterier": [
+          "Bruker en passende hilsen og ber høflig om en baguette.",
+          "Takker høflig."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Forklar på fransk hvordan collège i Frankrike er organisert. Ta med omtrent hvilken alder elevene er der, hvordan klassetrinnene telles, og hva en karakter på 10 av 20 betyr.",
+        "fasit": "Les élèves vont au collège de onze à quinze ans environ. Les classes vont de la sixième à la troisième, et dix sur vingt est une note suffisante.",
+        "kriterier": [
+          "Forteller at elever går på collège omtrent fra 11 til 15 år, og at klassetrinnene telles fra sixième til troisième.",
+          "Forklarer at 10 av 20 regnes som bestått."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Bursdagen din er 1. mai. Skriv datoen på fransk og fortell hvilken årstid det er da.",
+        "fasit": "Mon anniversaire, c'est le premier mai. C'est au printemps.",
+        "kriterier": [
+          "Skriver datoen som le premier mai.",
+          "Sier at mai er om våren: au printemps."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Forklar på fransk hvordan man sier 70 og 90 i Frankrike, og hvordan mange sier de samme tallene i Belgia og Sveits. Ta med hvordan tallene settes sammen i Frankrike.",
+        "fasit": "En France, soixante-dix signifie soixante plus dix et quatre-vingt-dix signifie quatre fois vingt plus dix. En Belgique et en Suisse, beaucoup de personnes disent septante et nonante.",
+        "kriterier": [
+          "Oppgir at 70 og 90 heter soixante-dix og quatre-vingt-dix i Frankrike, og forklarer talloppbyggingen.",
+          "Oppgir at mange i Belgia og Sveits sier septante og nonante."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En turist spør om Paris og noen geografiske trekk ved Frankrike. Skriv på fransk hva som er hovedstaden, hvilken elv som renner gjennom den, og hvor Pyreneene ligger.",
+        "fasit": "La capitale de la France est Paris. La Seine traverse Paris et les Pyrénées se trouvent au sud de la France.",
+        "kriterier": [
+          "Oppgir at Paris er hovedstaden og at Seinen renner gjennom Paris.",
+          "Plasserer Pyreneene sør i Frankrike."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på fransk om en forbindelse mellom Frankrike og Norge. Fortell hvem Jean-Baptiste Bernadotte ble, og nevn to norske ord som kommer fra fransk.",
+        "fasit": "Jean-Baptiste Bernadotte est devenu roi de Suède et de Norvège en 1818 sous le nom de Karl Johan. Les mots « restaurant » et « chauffeur » viennent du français.",
+        "kriterier": [
+          "Forteller at Bernadotte ble konge av Sverige og Norge i 1818 under navnet Karl Johan.",
+          "Nevner to norske lånord fra fransk, for eksempel restaurant og sjåfør."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Forklar på fransk hva franskmenn feirer 14. juli. Ta med hvilken historisk hendelse dagen minnes, og nevn noe man kan oppleve på feiringen.",
+        "fasit": "Le 14 juillet est la fête nationale française. On commémore la prise de la Bastille en 1789, avec des défilés et des feux d'artifice.",
+        "kriterier": [
+          "Forteller at 14. juli er Frankrikes nasjonaldag og minnes stormingen av Bastillen i 1789.",
+          "Nevner parade eller fyrverkeri som del av feiringen."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Beskriv kusinen din på fransk. Si at hun er sporty, og fortell at hun har brunt hår.",
+        "fasit": "Ma cousine est sportive. Elle a les cheveux bruns.",
+        "kriterier": [
+          "Beskriver kusinen som sporty med riktig hunkjønnsform: sportive.",
+          "Forteller at hun har brunt hår: elle a les cheveux bruns."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

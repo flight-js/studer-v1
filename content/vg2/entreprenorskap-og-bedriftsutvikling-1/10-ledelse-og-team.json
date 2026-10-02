@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er en vanlig utfordring for gründere som ledere?",
       "options": [
-        "At de delegerer for mye",
+        "At de overlater beslutningene til teamet",
         "At de vil kontrollere alt",
-        "At de har for mye tid",
-        "At de har for mange ansatte"
+        "At de strever med å sette mål",
+        "At de mangler oversikt over økonomien"
       ],
       "correct": 1,
       "explain": "De må lære å stole på teamet."
@@ -92,8 +92,8 @@
       "options": [
         "Demokratisk",
         "Autoritær",
-        "La det skure",
-        "Enevelde"
+        "Laissez-faire-ledelse",
+        "Transaksjonsorientert"
       ],
       "correct": 0,
       "explain": "Gir eierskap."
@@ -103,9 +103,9 @@
       "text": "Hvilken fase i Tuckmans modell kjennetegnes av uenigheter?",
       "options": [
         "Etablering",
-        "Utførelse",
+        "Normering",
         "Konflikt",
-        "Avslutning"
+        "Utførelse"
       ],
       "correct": 2,
       "explain": "Normalt og kan gjøre teamet sterkere."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva skjer i normeringsfasen?",
       "options": [
-        "Teamet oppløses",
-        "Teamet blir kjent",
-        "Teamet presterer best",
+        "Teamet avslutter samarbeidet etter prosjektet",
+        "Teamet blir kjent og finner sin plass",
+        "Teamet løser oppgaver med høy effektivitet",
         "Teamet blir enige om regler og roller"
       ],
       "correct": 3,
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvorfor fungerer et team med bare idéskapere dårlig?",
       "options": [
-        "De er for rolige",
+        "De følger gjerne etablerte løsninger",
         "De får sjelden noe gjort",
-        "De er for kritiske",
-        "De er for få"
+        "De bruker mest tid på å analysere",
+        "De prioriterer detaljer framfor nye ideer"
       ],
       "correct": 1,
       "explain": "Teamet trenger ulike roller."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er utfyllende kompetanse i et team?",
       "options": [
-        "At alle kan det samme",
-        "At alle er like gamle",
+        "At teammedlemmene har samme fagbakgrunn",
+        "At teammedlemmene deler samme arbeidsoppgaver",
         "At teammedlemmene kan ulike ting",
-        "At lederen kan alt"
+        "At teammedlemmene har lik arbeidserfaring"
       ],
       "correct": 2,
       "explain": "For eksempel økonomi, salg og teknologi."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hva gir motivasjon i arbeidet?",
       "options": [
-        "Bare høy lønn",
-        "Streng kontroll",
-        "Lite informasjon",
-        "Selvstendighet, mestring og mening"
+        "Kontroll, rutinepreg og uklare forventninger",
+        "Uklare mål, lite ansvar og få tilbakemeldinger",
+        "Lav innflytelse, lite mestring og manglende mening",
+        "Selvstendighet, mestring og opplevelse av mening"
       ],
       "correct": 3,
       "explain": "Indre motivasjon.",
@@ -176,9 +176,9 @@
       "text": "Hva betyr situasjonsbestemt ledelse?",
       "options": [
         "At lederen tilpasser stilen etter oppgaven og medarbeideren",
-        "At lederen alltid bestemmer",
-        "At lederen aldri styrer",
-        "At lederen bytter jobb ofte"
+        "At lederen bruker samme stil uavhengig av medarbeiderens erfaring",
+        "At lederen velger stil etter egne personlige preferanser",
+        "At lederen endrer stil etter teamets størrelse og budsjett"
       ],
       "correct": 0,
       "explain": "En nyansatt trenger mer styring."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor bør teamet lage tydelige avtaler om eierskap?",
       "options": [
-        "Fordi det er gøy",
-        "For å unngå konflikter senere",
-        "Fordi banken krever det alltid",
-        "For å slippe å jobbe"
+        "For å fordele arbeidsoppgaver mellom teammedlemmene",
+        "For å forebygge uenighet om eierskap senere",
+        "For å få banken til å godkjenne lånet raskere",
+        "For å avklare hvem som leder teamet i hverdagen"
       ],
       "correct": 1,
       "explain": "Helst skriftlig.",
@@ -330,9 +330,9 @@
         "text": "Hva kjennetegner inspirerende ledelse?",
         "options": [
           "Motivasjon gjennom visjon, mening og personlig oppfølging",
-          "Streng kontroll",
-          "Ingen styring",
-          "Bare belønning i penger"
+          "Styring gjennom regler, kontroll og tett rapportering",
+          "Motivasjon gjennom mål, belønning og resultatmåling",
+          "Oppfølging gjennom oppgaver, frister og detaljkontroll"
         ],
         "correct": 0,
         "explain": "Kalles også transformasjonsledelse.",
@@ -432,6 +432,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

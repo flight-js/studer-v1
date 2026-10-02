@@ -81,8 +81,8 @@
       "options": [
         "Stoffet tar opp elektroner",
         "Stoffet avgir elektroner",
-        "Stoffet tar opp protoner",
-        "Ingenting"
+        "Stoffet avgir protoner",
+        "Stoffet tar opp protoner"
       ],
       "correct": 1,
       "explain": "Oksidasjonstallet øker."
@@ -94,7 +94,7 @@
         "På katoden",
         "På anoden",
         "I saltbroen",
-        "I ledningen"
+        "I den ytre ledningen"
       ],
       "correct": 0,
       "explain": "Oksidasjon skjer på anoden."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva forteller en positiv cellespenning?",
       "options": [
-        "At ΔG er positiv",
-        "At reaksjonen ikke skjer",
-        "At det trengs elektrolyse",
-        "At reaksjonen er spontan og ΔG er negativ"
+        "Reaksjonen er spontan, og ΔG er positiv.",
+        "Reaksjonen er ikke spontan, og ΔG er negativ.",
+        "Reaksjonen krever elektrisk energi, og ΔG er positiv.",
+        "Reaksjonen er spontan, og ΔG er negativ."
       ],
       "correct": 3,
       "explain": "ΔG° = −zFE°."
@@ -128,9 +128,9 @@
       "text": "Hva er Faradays konstant?",
       "options": [
         "96 485 C/mol",
-        "6,02 · 10²³ /mol",
         "8,314 J/(mol·K)",
-        "1,0 · 10⁻¹⁴"
+        "6,02 · 10²³ /mol",
+        "1,60 · 10⁻¹⁹ C"
       ],
       "correct": 0,
       "explain": "Ladningen til ett mol elektroner."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva er elektrolyse?",
       "options": [
-        "En spontan reaksjon som gir strøm",
+        "Elektrisk energi driver en spontan redoksreaksjon",
         "Elektrisk energi driver en ikke-spontan redoksreaksjon",
-        "En syre-base-reaksjon",
-        "En felling"
+        "Kjemisk energi driver en ikke-spontan redoksreaksjon",
+        "Elektrisk energi driver en ikke-spontan syre-base-reaksjon"
       ],
       "correct": 1,
       "explain": "Brukes for eksempel til aluminiumsproduksjon."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvordan beskytter en offeranode et skip?",
       "options": [
-        "Den øker spenningen",
-        "Den maler skroget",
-        "Den tar opp oksygen",
+        "Den er av et mer edelt metall som korroderer i stedet",
+        "Den er av et mer uedelt metall som gir skroget et beskyttende belegg",
+        "Den er av et mer uedelt metall som hindrer oksygen i å nå skroget",
         "Den er av et mer uedelt metall som korroderer i stedet"
       ],
       "correct": 3,
@@ -177,8 +177,8 @@
       "options": [
         "Stoffet som blir redusert",
         "Stoffet som blir oksidert",
-        "En katalysator",
-        "En saltbro"
+        "Stoffet som avgir elektroner",
+        "Stoffet som avgir protoner"
       ],
       "correct": 0,
       "explain": "Det oksiderer et annet stoff."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva dannes i en hydrogen-brenselcelle?",
       "options": [
-        "CO₂",
+        "Strøm og karbondioksid",
         "Strøm og vann",
-        "Metan",
-        "Salt"
+        "Strøm og karbonmonoksid",
+        "Strøm og metan"
       ],
       "correct": 1,
       "explain": "Hydrogen og oksygen reagerer."
@@ -317,8 +317,8 @@
         "options": [
           "+1",
           "0",
-          "−2",
-          "Det varierer"
+          "−1",
+          "+2"
         ],
         "correct": 1,
         "explain": "For eksempel O₂ og Cu."
@@ -329,9 +329,9 @@
         "text": "Hvilken formel gir ladningen i elektrolyse?",
         "options": [
           "Q = I · t",
-          "Q = m / M",
-          "Q = c · V",
-          "Q = F / z"
+          "Q = I / t",
+          "Q = U · t",
+          "Q = n(e⁻) / F"
         ],
         "correct": 0,
         "explain": "Strøm ganger tid."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva er galvanisering?",
         "options": [
-          "Å male jern",
-          "Å lade et batteri",
+          "Å dekke jern med et kobberbelegg",
+          "Å dekke jern med et tinnbelegg",
           "Å dekke jern med et sinkbelegg",
-          "Å smelte metall"
+          "Å dekke jern med et krombelegg"
         ],
         "correct": 2,
         "explain": "Beskytter mot korrosjon.",
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -88,10 +88,10 @@
       "id": "q01",
       "text": "Hva er «la bûche de Noël»?",
       "options": [
-        "En julesang",
+        "En pai fylt med epler og kanel",
         "En kake formet som en vedkubbe",
-        "Et juletre",
-        "En julegave"
+        "En bolle pyntet med mandler og sukker",
+        "En pudding laget av ris og melk"
       ],
       "correct": 1,
       "explain": "«la bûche» betyr vedkubben.",
@@ -101,9 +101,9 @@
       "id": "q02",
       "text": "Hva spiser mange i Frankrike rundt helligtrekongersdag 6. januar?",
       "options": [
-        "Crêpes",
-        "Pepperkaker",
-        "Risgrøt",
+        "La bûche de Noël",
+        "Les crêpes de la Chandeleur",
+        "Les chocolats de Pâques",
         "La galette des rois"
       ],
       "correct": 3,
@@ -115,9 +115,9 @@
       "text": "Hva skjer med den som finner «la fève» i kaka?",
       "options": [
         "Den blir konge eller dronning for en dag og får en krone",
-        "Den må vaske opp",
-        "Den får ikke dessert",
-        "Den må synge"
+        "Den blir vert for måltidet og deler ut kakestykkene",
+        "Den velger hvem som blir konge eller dronning for dagen",
+        "Den serverer galetten og deler ut kronene til gjestene"
       ],
       "correct": 0,
       "explain": "Kaka selges ofte med en papirkrone.",
@@ -127,10 +127,10 @@
       "id": "q04",
       "text": "Hva kommer med sjokoladeegg i påsken ifølge fransk tradisjon?",
       "options": [
-        "Påskeharen",
-        "Julenissen",
-        "Kirkeklokkene, les cloches de Pâques",
-        "Heksene"
+        "Påskeharen (le lapin de Pâques)",
+        "Påskekyllingene (les poussins de Pâques)",
+        "Kirkeklokkene (les cloches de Pâques)",
+        "Påskelammene (les agneaux de Pâques)"
       ],
       "correct": 2,
       "explain": "Klokkene «flyr til Roma» og kommer tilbake påskemorgen.",
@@ -141,9 +141,9 @@
       "text": "Hva gir franskmenn hverandre 1. mai?",
       "options": [
         "Liljekonvall (le muguet)",
-        "Roser",
-        "Sjokolade",
-        "Påskeegg"
+        "Roser (les roses)",
+        "Tulipaner (les tulipes)",
+        "Nelliker (les œillets)"
       ],
       "correct": 0,
       "explain": "Liljekonvallen skal bringe lykke.",
@@ -165,9 +165,9 @@
       "id": "q07",
       "text": "Hva gjør mange franskmenn på la Toussaint 1. november?",
       "options": [
-        "Spiser crêpes",
-        "Går i karneval",
-        "Ser fyrverkeri",
+        "Spiser crêpes til feiringen",
+        "Går i karneval gjennom gatene",
+        "Ser på fyrverkeri om kvelden",
         "Legger blomster på gravene"
       ],
       "correct": 3,
@@ -178,10 +178,10 @@
       "id": "q08",
       "text": "Hva er «le réveillon»?",
       "options": [
-        "En julesang",
-        "Et stort festmåltid på julaften og nyttårsaften",
-        "En vekkerklokke",
-        "En kirke"
+        "En frokost på første juledag og nyttårsdag",
+        "Et festmåltid på julaften og nyttårsaften",
+        "Et kirkebesøk på julaften og nyttårsaften",
+        "En gaveutdeling på julaften og nyttårsaften"
       ],
       "correct": 1,
       "explain": "Måltidet kan vare langt ut på natta."
@@ -190,9 +190,9 @@
       "id": "q09",
       "text": "Hvilken dag er Frankrikes nasjonaldag?",
       "options": [
-        "17. mai",
         "1. mai",
-        "25. desember",
+        "11. november",
+        "8. mai",
         "14. juli"
       ],
       "correct": 3,
@@ -203,9 +203,9 @@
       "text": "Hva er «le temps des sucres» i Québec?",
       "options": [
         "Tiden om våren da man lager lønnesirup",
-        "En julefeiring",
-        "En skoleferie",
-        "En sukkerfri uke"
+        "Tiden om høsten da man lager eplemost",
+        "Tiden om sommeren da man tapper bjørkesaft",
+        "Tiden om vinteren da man høster sukkerroer"
       ],
       "correct": 0,
       "explain": "Lønnesirup er et symbol på Québec og Canada.",
@@ -359,9 +359,9 @@
         "text": "Hva markeres 11. november i Frankrike?",
         "options": [
           "Slutten på første verdenskrig",
-          "Nyttår",
-          "Jul",
-          "Revolusjonen"
+          "Begynnelsen på første verdenskrig",
+          "Slutten på andre verdenskrig",
+          "Stormingen av Bastillen i Paris"
         ],
         "correct": 0,
         "explain": "Våpenhvilen ble inngått 11. november 1918.",
@@ -375,7 +375,7 @@
           "la Toussaint",
           "la Chandeleur",
           "la Saint-Sylvestre",
-          "le 14 juillet"
+          "le réveillon de Noël"
         ],
         "correct": 2,
         "explain": "Dagen er oppkalt etter pave Silvester."
@@ -464,6 +464,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -90,8 +90,8 @@
       "text": "Hva er doblingstiden ved 5 % årlig vekst?",
       "options": [
         "Omtrent 14,2 år",
-        "20 år",
-        "5 år",
+        "Omtrent 20 år",
+        "Omtrent 13,9 år",
         "Omtrent 7,2 år"
       ],
       "correct": 0,
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva betyr f′(t) = k · f(t)?",
       "options": [
-        "Vekstfarten er konstant",
-        "Funksjonen er lineær",
+        "Vekstfarten er konstant over tid",
+        "Funksjonsverdien øker lineært med tiden",
         "Vekstfarten er proporsjonal med størrelsen",
-        "Funksjonen er avtakende"
+        "Funksjonsverdien minker proporsjonalt med tiden"
       ],
       "correct": 2,
       "explain": "Kjennetegn på eksponentiell vekst."
@@ -113,8 +113,8 @@
       "id": "q04",
       "text": "Hva er K i den logistiske modellen N(t) = K/(1 + a · e⁻ᵏᵗ)?",
       "options": [
-        "Startverdien",
-        "Vekstfaktoren",
+        "Startverdien N(0)",
+        "Vekstkonstanten k",
         "Tiden til vendepunktet",
         "Bæreevnen"
       ],
@@ -126,9 +126,9 @@
       "text": "Hvor er vekstfarten størst i logistisk vekst?",
       "options": [
         "Når N = K/2",
-        "Når N = 0",
-        "Når N = K",
-        "I starten"
+        "Når N = K/3",
+        "Når N = 2K/3",
+        "Når N = K"
       ],
       "correct": 0,
       "explain": "Vendepunktet."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvilken form har grafen ved logistisk vekst?",
       "options": [
-        "Rett linje",
+        "U-kurve",
         "Parabel",
         "S-kurve",
-        "Sirkel"
+        "Eksponentialkurve"
       ],
       "correct": 2,
       "explain": "Først rask vekst, så utflating."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hvorfor kan ikke eksponentiell vekst fortsette for alltid i naturen?",
       "options": [
-        "Fordi e er et irrasjonalt tall",
-        "Fordi vekstfaktoren alltid er under 1",
-        "Fordi den deriverte er null",
-        "Fordi ressurser som mat og plass er begrenset"
+        "Fordi vekstfaktoren avtar når bestanden øker",
+        "Fordi e har en øvre grense for verdien sin",
+        "Fordi den deriverte blir null når bestanden vokser",
+        "Fordi mat og plass er begrensede ressurser"
       ],
       "correct": 3,
       "explain": "Derfor passer ofte en logistisk modell bedre."
@@ -175,8 +175,8 @@
       "options": [
         "200 · e^(t · ln 1,05)",
         "200 · e^(1,05t)",
-        "200 · e^(0,05)",
-        "e^(200t)"
+        "200 · e^(t · ln 0,05)",
+        "200 · e^(t + ln 1,05)"
       ],
       "correct": 0,
       "explain": "k = ln 1,05 ≈ 0,0488."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er en fare ved å bruke en modell til ekstrapolering?",
       "options": [
-        "Det er ingen fare",
+        "Modellen skifter til lineær form utenfor dataområdet",
         "Modellen kan gi urimelige svar utenfor dataområdet",
-        "Modellen blir alltid lineær",
-        "Dataene forsvinner"
+        "Modellen blir automatisk logistisk utenfor dataområdet",
+        "Modellen endrer måleverdiene innenfor dataområdet"
       ],
       "correct": 1,
       "explain": "Vurder alltid gyldighetsområdet."
@@ -326,9 +326,9 @@
         "text": "Hva er k når b = 1,05?",
         "options": [
           "Omtrent 0,049",
-          "0,05",
-          "1,05",
-          "Omtrent 2,86"
+          "Omtrent 0,005",
+          "Omtrent 1,05",
+          "Omtrent 0,105"
         ],
         "correct": 0,
         "explain": "k = ln 1,05."
@@ -427,6 +427,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

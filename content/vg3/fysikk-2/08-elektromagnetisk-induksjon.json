@@ -77,9 +77,9 @@
       "id": "q01",
       "text": "Hva gir indusert spenning?",
       "options": [
-        "Et konstant magnetfelt",
+        "Et konstant magnetisk felt",
         "En endring i magnetisk fluks",
-        "En sterk magnet som står stille",
+        "En sterk magnet i ro",
         "Et elektrisk felt alene"
       ],
       "correct": 1,
@@ -91,8 +91,8 @@
       "options": [
         "Φ = B · A",
         "Φ = B / A",
-        "Φ = B + A",
-        "Φ = 0"
+        "Φ = B · A / 2",
+        "Φ = B · A²"
       ],
       "correct": 0,
       "explain": "cos 0° = 1."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva sier Lenz' regel?",
       "options": [
-        "Strømmen forsterker endringen",
-        "Strømmen er alltid null",
-        "Spenningen er konstant",
+        "Den induserte strømmen forsterker endringen som skapte den",
+        "Den induserte spenningen motvirker strømmen i kretsen",
+        "Den induserte strømmen følger magnetfeltet uten å påvirke det",
         "Den induserte strømmen motvirker endringen som skapte den"
       ],
       "correct": 3,
@@ -137,7 +137,7 @@
       "id": "q06",
       "text": "Hva skjer med spenningen når magneten står stille inne i spolen?",
       "options": [
-        "Den er maksimal",
+        "Den er størst",
         "Den er null",
         "Den øker",
         "Den skifter fortegn"
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvorfor faller en magnet langsomt gjennom et kobberrør?",
       "options": [
-        "Fordi kobber er magnetisk",
-        "Fordi luftmotstanden er stor",
+        "Fordi kobberet er magnetisk og tiltrekker magneten",
+        "Fordi luftmotstanden i røret bremser magneten",
         "Fordi induserte virvelstrømmer motvirker bevegelsen",
-        "Fordi røret er smalt"
+        "Fordi røret skjermer magneten mot tyngdekraften"
       ],
       "correct": 2,
       "explain": "Lenz' regel.",
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva gjør spenningen større når en magnet stikkes inn i en spole?",
       "options": [
-        "Færre vindinger",
-        "Svakere magnet",
-        "Langsommere bevegelse",
+        "Langsommere bevegelse og færre vindinger",
+        "Svakere magnet og færre vindinger",
+        "Langsommere bevegelse og svakere magnet",
         "Raskere bevegelse og flere vindinger"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvem oppdaget elektromagnetisk induksjon?",
       "options": [
         "Michael Faraday",
-        "Isaac Newton",
-        "Albert Einstein",
-        "James Watt"
+        "Hans Christian Ørsted",
+        "André-Marie Ampère",
+        "Joseph Henry"
       ],
       "correct": 0,
       "explain": "I 1831.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvordan kan fluksen endres uten å endre B eller A?",
       "options": [
-        "Det er umulig",
+        "Ved å endre spolens motstand mens den står stille",
         "Ved å endre vinkelen, for eksempel ved rotasjon",
-        "Ved å varme opp spolen",
-        "Ved å male spolen"
+        "Ved å endre spolens temperatur uten å flytte den",
+        "Ved å endre isolasjonen rundt spolen mens den står stille"
       ],
       "correct": 1,
       "explain": "Slik fungerer en generator."
@@ -305,10 +305,10 @@
         "type": "flervalg",
         "text": "Hvorfor oppstår spenning i en leder som beveger seg i et magnetfelt?",
         "options": [
-          "Lederen blir varm",
+          "Elektronene får kraften qB/v og flyttes mot én ende",
           "Elektronene får kraften qvB og flyttes mot én ende",
-          "Lederen blir magnetisk",
-          "Luften blir ladet"
+          "Protonene får kraften qvB og flyttes mot én ende",
+          "Elektronene får kraften qvB og flyttes langs magnetfeltet"
         ],
         "correct": 1,
         "explain": "Ladningene separeres."
@@ -319,9 +319,9 @@
         "text": "Hva er enheten for magnetisk fluks?",
         "options": [
           "Weber",
-          "Tesla",
-          "Volt",
-          "Ampere"
+          "Henry",
+          "Coulomb",
+          "Farad"
         ],
         "correct": 0,
         "explain": "1 Wb = 1 T · m²."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Du skyver en nordpol mot en spole. Hva slags pol blir spolens nærmeste ende?",
         "options": [
-          "Sørpol",
-          "Ingen pol",
-          "Nordpol",
-          "Det varierer tilfeldig"
+          "Sørpol i spolens nærmeste ende",
+          "Nordpol i spolens motsatte ende",
+          "Nordpol i spolens nærmeste ende",
+          "Ingen pol i noen av spolens ender"
         ],
         "correct": 2,
         "explain": "Den frastøter magneten etter Lenz' regel."
@@ -418,6 +418,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

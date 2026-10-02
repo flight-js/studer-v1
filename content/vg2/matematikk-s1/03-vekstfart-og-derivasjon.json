@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hva er grensekostnaden?",
       "options": [
-        "Den totale kostnaden",
-        "De faste kostnadene",
-        "Kostnaden per enhet i snitt",
-        "K′(x) – omtrent kostnaden for én enhet til"
+        "K(x), den totale kostnaden ved x enheter",
+        "K(x)/x, gjennomsnittskostnaden per enhet",
+        "K(1), kostnaden for å produsere én enhet",
+        "K′(x), omtrent kostnaden for én ekstra enhet"
       ],
       "correct": 3,
       "explain": "Den momentane vekstfarten til kostnaden."
@@ -138,7 +138,7 @@
         "Stigningstallet til sekanten",
         "Stigningstallet til tangenten",
         "Arealet under grafen",
-        "Funksjonsverdien"
+        "Funksjonsverdien i punktet"
       ],
       "correct": 1,
       "explain": "Tangenten i punktet."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "S(t) er salget i tusen enheter, og S′(5) = −2. Hva betyr det?",
       "options": [
-        "Salget er −2 tusen",
-        "Salget stiger med 2000 per år",
+        "Salget øker med omtrent 2000 enheter per år ved t = 5",
+        "Salget synker med omtrent 2 enheter per år ved t = 5",
         "Salget synker med omtrent 2000 enheter per år ved t = 5",
-        "Salget er 5 tusen"
+        "Salget er omtrent 2000 enheter ved t = 5"
       ],
       "correct": 2,
       "explain": "Negativ derivert betyr nedgang."
@@ -172,9 +172,9 @@
       "text": "Hva betyr f′(x) = 0?",
       "options": [
         "Tangenten er vannrett",
-        "f(x) = 0",
-        "f er avtakende",
-        "f er ikke definert"
+        "Grafen krysser x-aksen",
+        "Funksjonen avtar i punktet",
+        "Funksjonen er ikke definert i punktet"
       ],
       "correct": 0,
       "explain": "Mulig topp- eller bunnpunkt."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hva er enheten til P′(t) når P er folketall og t er år?",
       "options": [
-        "Personer",
+        "Personer i alt",
         "Personer per år",
-        "År",
-        "Prosent"
+        "År per person",
+        "Prosent per år"
       ],
       "correct": 1,
       "explain": "y-enhet per x-enhet."
@@ -418,6 +418,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

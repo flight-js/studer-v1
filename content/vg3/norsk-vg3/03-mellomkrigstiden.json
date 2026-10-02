@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvem skrev Kristin Lavransdatter?",
       "options": [
-        "Cora Sandel",
+        "Nini Roll Anker",
         "Sigrid Undset",
-        "Amalie Skram",
-        "Camilla Collett"
+        "Ragnhild Jølsen",
+        "Barbra Ring"
       ],
       "correct": 1,
       "explain": "Undset fikk Nobelprisen i 1928."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hva er Janteloven?",
       "options": [
-        "Et trangt samfunns regler om at du ikke skal tro at du er noe",
-        "En lov fra Stortinget",
-        "En regel for rim",
-        "En middelalderlov"
+        "Uskrevne regler som sier at du ikke skal tro du er noe",
+        "Uskrevne regler som sier hvordan folk skal kle seg offentlig",
+        "Politiske regler som bestemmer hvem som får eie jord",
+        "Formelle lover som regulerer arbeid og lønn i bygda"
       ],
       "correct": 0,
       "explain": "Formulert av Aksel Sandemose."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hvilken forfatter skrev Juvikfolke på nynorsk?",
       "options": [
-        "Rolf Jacobsen",
-        "Knut Hamsun",
+        "Johan Falkberget",
+        "Kristofer Uppdal",
         "Olav Duun",
-        "Nordahl Grieg"
+        "Olav Aukrust"
       ],
       "correct": 2,
       "explain": "En slektsroman fra Trøndelag."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva var nytt i Rolf Jacobsens lyrikk?",
       "options": [
-        "Faste rim og sonetter",
-        "Sagamotiver",
-        "Religiøse salmer",
+        "Faste rim og motiver fra sagaer og bygdeliv",
+        "Tradisjonelle strofer og temaer fra kirke og middelalder",
+        "Regelmessig rytme og motiver fra bondegårder og folkeliv",
         "Frie vers og motiver fra teknologi og byer"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva advarte Arnulf Øverland mot i «Du må ikke sove»?",
       "options": [
         "Nazismen",
-        "Industrialiseringen",
-        "Unionen med Sverige",
-        "Kvinnesaken"
+        "Kommunismen",
+        "Imperialismen",
+        "Militarismen"
       ],
       "correct": 0,
       "explain": "Diktet er fra 1937."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva handler Markens grøde om?",
       "options": [
-        "En arbeider i byen",
+        "Fiskeren som slår seg ned ved kysten",
         "Nybyggeren Isak som rydder jord",
-        "En middelalderkvinne",
-        "En forfatter i Kristiania"
+        "Bonden som flytter fra bygda til byen",
+        "Embetsmannen som vender tilbake til Kristiania"
       ],
       "correct": 1,
       "explain": "En hyllest til bondelivet.",
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva kjennetegner arbeiderlitteraturen?",
       "options": [
-        "Idyllisk bondeliv",
-        "Middelaldermotiver",
-        "Klasseforskjeller og solidaritet",
-        "Drømmer og mystikk"
+        "Naturidyll, gårdsliv og tradisjonelle familieverdier",
+        "Byliv, maskiner og teknologisk utvikling",
+        "Klasseforskjeller og solidaritet blant arbeidere",
+        "Fortid, kongesagaer og middelalderske heltedåder"
       ],
       "correct": 2,
       "explain": "Om og for arbeiderne."
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva handler Alberte-trilogien om?",
       "options": [
-        "En slekt i Trøndelag",
-        "Krigen",
-        "En nybygger",
+        "En ung mann som prøver å finne arbeid i byen",
+        "En bonde som forsøker å skape seg et liv på gården",
+        "En familie som prøver å overleve under krigen",
         "En ung kvinne som kjemper for å bli forfatter"
       ],
       "correct": 3,
@@ -177,9 +177,9 @@
       "text": "Hvem skrev «Til ungdommen»?",
       "options": [
         "Nordahl Grieg",
-        "Rudolf Nilsen",
-        "Arnulf Øverland",
-        "Rolf Jacobsen"
+        "Inger Hagerup",
+        "Johan Borgen",
+        "Sigurd Hoel"
       ],
       "correct": 0,
       "explain": "Fra 1936."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvilket spørsmål reiser Hamsuns støtte til nazismen?",
       "options": [
-        "Om han skrev på nynorsk",
+        "Om han skrev romanene sine på nynorsk eller bokmål",
         "Om vi kan skille forfatterskapet fra forfatterens holdninger",
-        "Om han fikk Nobelprisen",
-        "Om han skrev lyrikk"
+        "Om romanene hans ble skrevet før eller etter Nobelprisen",
+        "Om han først ble kjent som poet eller romanforfatter"
       ],
       "correct": 1,
       "explain": "Diskuteres fortsatt.",
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hva heter Rolf Jacobsens debutsamling?",
         "options": [
-          "Haugtussa",
+          "Den store hunger",
           "Jord og jern",
-          "Sult",
-          "Juvikfolke"
+          "På gjengrodde stier",
+          "Den siste glæde"
         ],
         "correct": 1,
         "explain": "Fra 1933."
@@ -325,9 +325,9 @@
         "text": "Hvilket tema står sentralt hos Undset og Duun?",
         "options": [
           "Moral, ansvar og tro",
-          "Teknologi",
-          "Reklame",
-          "Romfart"
+          "Klassekamp, lønn og fagforeninger",
+          "Nasjon, språk og selvstendighet",
+          "Byliv, maskiner og framtidstro"
         ],
         "correct": 0,
         "explain": "Store romanverk om menneskelig utvikling."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Når ble Norge selvstendig?",
         "options": [
-          "1814",
-          "1884",
+          "1900",
+          "1907",
           "1905",
-          "1945"
+          "1914"
         ],
         "correct": 2,
         "explain": "Unionen med Sverige ble oppløst.",
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

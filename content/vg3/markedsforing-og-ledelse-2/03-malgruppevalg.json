@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er psykografisk segmentering?",
       "options": [
-        "Etter alder",
+        "Etter alder, kjønn og utdanning",
         "Etter livsstil, verdier og interesser",
-        "Etter bosted",
-        "Etter bruksfrekvens"
+        "Etter bosted, region og klima",
+        "Etter kjøpshyppighet og lojalitet"
       ],
       "correct": 1,
       "explain": "Handler om hvordan folk lever og tenker."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hvilken strategi passer ofte for små virksomheter?",
       "options": [
-        "Konsentrert markedsføring",
-        "Udifferensiert markedsføring",
-        "Differensiert markedsføring med mange segmenter",
-        "Ingen strategi"
+        "Konsentrert markedsføring mot ett segment",
+        "Udifferensiert markedsføring mot hele markedet",
+        "Differensiert markedsføring mot flere segmenter",
+        "Individuell markedsføring mot hver kunde"
       ],
       "correct": 0,
       "explain": "Begrensede ressurser."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvilket krav stilles til et godt segment?",
       "options": [
-        "At det er ukjent",
-        "At det er umulig å nå",
-        "At det er stort nok til å være lønnsomt",
-        "At det er likt alle andre segmenter"
+        "At segmentet er kjent for konkurrentene i markedet",
+        "At segmentet ligner mest mulig på resten av markedet",
+        "At segmentet er stort nok til å være lønnsomt",
+        "At segmentet har mange kunder uten tydelige felles behov"
       ],
       "correct": 2,
       "explain": "Også målbart og tilgjengelig."
@@ -111,10 +111,10 @@
       "id": "q04",
       "text": "Hva er udifferensiert markedsføring?",
       "options": [
-        "Tilbud til hver kunde",
-        "Tilbud til én nisje",
-        "Ulike tilbud til flere segmenter",
-        "Samme tilbud til hele markedet"
+        "Ett tilpasset tilbud til hver enkelt kunde",
+        "Ett spesialisert tilbud til ett segment",
+        "Flere ulike tilbud til flere segmenter",
+        "Ett tilbud til hele markedet"
       ],
       "correct": 3,
       "explain": "Passer for standardvarer."
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva er en risiko ved konsentrert markedsføring?",
       "options": [
-        "At virksomheten rammes hardt hvis segmentet svikter",
-        "At kostnadene blir svært høye",
-        "At man når for mange",
-        "At produktet blir for billig"
+        "At virksomheten blir hardt rammet hvis segmentet svikter",
+        "At kostnadene øker fordi virksomheten betjener mange segmenter",
+        "At virksomheten når mange kunder utenfor det valgte segmentet",
+        "At salget faller fordi produktprisen ligger under markedsnivået"
       ],
       "correct": 0,
       "explain": "Alle egg i én kurv."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hvilket etisk problem kan presis datadrevet segmentering gi?",
       "options": [
-        "For lite reklame",
-        "Lavere priser",
-        "At sårbare grupper utnyttes",
-        "At kunder får irrelevante tilbud"
+        "At kundene får mer relevante tilbud basert på interessene sine",
+        "At virksomheten bruker reklamebudsjettet mer effektivt mot kundene",
+        "At sårbare grupper blir utnyttet gjennom presis målretting",
+        "At kundene oppdager produkter som passer bedre til behovene"
       ],
       "correct": 2,
       "explain": "For eksempel forbrukslån."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva er atferdsbasert segmentering?",
       "options": [
-        "Etter kjønn",
-        "Etter region",
-        "Etter personlighet",
+        "Etter kjønn, alder og utdanning",
+        "Etter region, bosted og klima",
+        "Etter personlighet, verdier og livsstil",
         "Etter bruksfrekvens, lojalitet og søkt nytte"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hva er individuell markedsføring?",
       "options": [
         "Tilbud tilpasset hver enkelt kunde",
-        "Samme tilbud til alle",
-        "Ett segment",
-        "Markedsføring bare på TV"
+        "Samme tilbud rettet mot hele markedet",
+        "Tilbud tilpasset ett avgrenset kundesegment",
+        "Ulike tilbud til flere utvalgte kundesegmenter"
       ],
       "correct": 0,
       "explain": "For eksempel personlige anbefalinger."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvordan påvirker produktets livsfase målgruppevalget?",
       "options": [
-        "Ikke i det hele tatt",
+        "I introduksjonsfasen satser man ofte på flere målgrupper, senere én",
         "I introduksjonsfasen satser man ofte på én målgruppe, senere flere",
-        "Man satser alltid på alle",
-        "Man slutter å segmentere"
+        "I vekstfasen satser man ofte på én målgruppe, i introduksjonen flere",
+        "I introduksjonsfasen satser man ofte på hele markedet, senere ett segment"
       ],
       "correct": 1,
       "explain": "Utvidelse i modningsfasen."
@@ -323,8 +323,8 @@
         "options": [
           "Differensiert markedsføring",
           "Udifferensiert markedsføring",
-          "Ingen segmentering",
-          "Bare nisje"
+          "Konsentrert markedsføring",
+          "Individuell markedsføring"
         ],
         "correct": 0,
         "explain": "Ulike tilbud til ulike segmenter."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva må et målgruppevalg henge sammen med?",
         "options": [
-          "Konkurrentenes logo",
-          "Tilfeldigheter",
+          "Virksomhetens logo, farger og skrifttype",
+          "Reklamebyråets arbeidsform og designvalg",
           "Virksomhetens situasjon og strategi",
-          "Været"
+          "Konkurrentenes slagord, logo og fargevalg"
         ],
         "correct": 2,
         "explain": "Ressurser, mål og konkurranse."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva var romantikken en reaksjon mot?",
       "options": [
-        "Norrøn litteratur",
+        "Barokkens vekt på følelser",
         "Opplysningstidens vekt på fornuft",
-        "Realismen",
-        "Kristendommen"
+        "Realismens krav om samfunnskritikk",
+        "Middelalderens vekt på religiøs tro"
       ],
       "correct": 1,
       "explain": "Romantikerne satte følelser og fantasi høyt."
@@ -93,9 +93,9 @@
       "text": "Hvordan ble naturen ofte framstilt i romantikken?",
       "options": [
         "Som besjelet og et uttrykk for noe guddommelig",
-        "Som farlig og fiendtlig",
-        "Som en ressurs for industri",
-        "Som uinteressant"
+        "Som en mekanisk bakgrunn uten åndelig betydning",
+        "Som en kilde til råvarer for industrialisering",
+        "Som et landskap uten forbindelse til mennesket"
       ],
       "correct": 0,
       "explain": "I naturen kunne mennesket oppleve helheten."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvor mente nasjonalromantikerne at den ekte norske kulturen fantes?",
       "options": [
-        "I byene",
-        "I Danmark",
+        "Hos byborgerne",
         "Hos embetsmennene",
+        "Hos danske forfattere",
         "Hos bøndene"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hvem skrev «Til min Gyldenlak»?",
       "options": [
         "Henrik Wergeland",
-        "Welhaven",
-        "Ivar Aasen",
-        "Jørgen Moe"
+        "Johan Sebastian Welhaven",
+        "Andreas Munch",
+        "Maurits Hansen"
       ],
       "correct": 0,
       "explain": "Han skrev diktet på dødsleiet i 1845.",
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva la Ivar Aasen grunnlaget for?",
       "options": [
-        "Bokmål",
+        "Det norske bokmålet",
         "Landsmålet (nynorsk)",
-        "Riksmål",
-        "Samisk skriftspråk"
+        "Dansk-norsk riksmål",
+        "Det samiske skriftspråket"
       ],
       "correct": 1,
       "explain": "Han samlet dialekter og laget grammatikk og ordbok."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva handlet Wergeland–Welhaven-striden blant annet om?",
       "options": [
-        "Hvem som skulle bli konge",
-        "Grensen mot Sverige",
+        "Litteratur og Norges forhold til Sverige og Russland",
+        "Norsk språk og Norges forhold til Sverige og Russland",
         "Litteratur og Norges forhold til Danmark og Europa",
-        "Religion"
+        "Kunst og Norges forhold til kirken og kongemakten"
       ],
       "correct": 2,
       "explain": "Welhaven ville ha harmonisk diktning og kritiserte Wergeland."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvilket maleri er et kjent nasjonalromantisk verk?",
       "options": [
-        "Skrik",
-        "Mona Lisa",
-        "Guernica",
+        "Friheten fører folket",
+        "Impresjon, soloppgang",
+        "Nattverden i Emmaus",
         "Brudeferden i Hardanger"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hvorfor ble nasjonal kultur så viktig etter 1814?",
       "options": [
         "Fordi Norge ville vise at det hadde en egen nasjonal kultur",
-        "Fordi Danmark krevde det",
-        "Fordi kongen var norsk",
-        "Fordi man ville bli svensk"
+        "Fordi Danmark ønsket å videreføre dansk språk og kultur i Norge",
+        "Fordi unionen gjorde svensk kultur til Norges offisielle nasjonalkultur",
+        "Fordi Norge ønsket å bli svensk ved å framheve svensk kultur"
       ],
       "correct": 0,
       "explain": "Nasjonsbygging var et viktig prosjekt."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvor lever romantiske ideer videre i dag?",
       "options": [
-        "Bare i gamle bøker",
+        "I realisme, naturalisme, modernisme og sosialrealisme",
         "I naturlyrikk, fantasy, popmusikk og reklame",
-        "Ingen steder",
-        "Bare i kirkene"
+        "I regnskapsrapporter, bruksanvisninger, trafikkmeldinger og værvarsler",
+        "I antikke epos, middelalderkrøniker, greske dramaer og sagaer"
       ],
       "correct": 1,
       "explain": "Fjell og fjorder brukes fortsatt som nasjonale symboler.",
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hva ville Welhaven at diktningen skulle være?",
         "options": [
-          "Uregjerlig og vill",
+          "Personlig, følelsesladet og formeksperimenterende",
           "Harmonisk, klar og formfullendt",
-          "Skrevet på dialekt",
-          "Politisk"
+          "Folkelig, dialektpreget og politisk engasjert",
+          "Nøktern, realistisk og samfunnskritisk"
         ],
         "correct": 1,
         "explain": "Han kritiserte Wergelands stil."
@@ -342,9 +342,9 @@
         "text": "Hvordan framstilles bonden ofte i nasjonalromantikken?",
         "options": [
           "Idealisert",
-          "Latterlig",
-          "Fattig og ulykkelig",
-          "Som fremmed"
+          "Latterliggjort",
+          "Modernisert",
+          "Fremmedgjort"
         ],
         "correct": 0,
         "explain": "Bonden ble et symbol på det ekte norske."
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hvordan skiller mange nyere tekster om natur seg fra romantikkens?",
         "options": [
-          "De skildrer aldri natur",
-          "De framstiller naturen som besjelet",
-          "De framstiller ofte naturen som truet, for eksempel av klimaendringer",
-          "De handler bare om byer"
+          "Som et idyllisk landskap preget av harmoni og trygghet",
+          "Som en ressurs for økonomisk vekst og utbygging",
+          "Som truet, blant annet av klimaendringer",
+          "Som et guddommelig uttrykk for menneskets indre følelser"
         ],
         "correct": 2,
         "explain": "Naturen er ofte sårbar i nyere tekster."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

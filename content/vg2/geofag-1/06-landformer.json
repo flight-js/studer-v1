@@ -78,8 +78,8 @@
       "options": [
         "Endogene bryter ned, eksogene bygger opp",
         "Endogene bygger opp, eksogene bryter ned",
-        "Begge bygger opp",
-        "Det er ingen forskjell"
+        "Endogene virker på jordoverflaten, eksogene virker i jordas indre",
+        "Endogene og eksogene krefter oppstår begge i jordas indre"
       ],
       "correct": 1,
       "explain": "Indre krefter mot ytre krefter."
@@ -89,9 +89,9 @@
       "text": "Hvordan dannes en fjord?",
       "options": [
         "En U-dal gravd ut av is blir fylt av havet",
-        "En elv graver en V-dal",
-        "Vinden blåser bort sand",
-        "Et jordskjelv åpner en sprekk"
+        "En elv graver ut en V-dal som fylles av havet",
+        "En isbre graver ut en V-dal som fylles av havet",
+        "Et jordskjelv lager en sprekk i fjellet som fylles av havet"
       ],
       "correct": 0,
       "explain": "Sognefjorden er et eksempel."
@@ -101,9 +101,9 @@
       "text": "Hvor eroderer en meandrerende elv mest?",
       "options": [
         "I innersvingen",
-        "Midt i elva",
+        "I elvas midtløp",
         "I yttersvingen",
-        "Ved kilden"
+        "Ved elvas utløp"
       ],
       "correct": 2,
       "explain": "Vannet går raskest i yttersvingen."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er en esker?",
       "options": [
-        "En spiss fjelltopp",
-        "En skålformet forsenkning",
-        "Et delta",
+        "En rund haug avsatt av isbreen på land",
+        "En flat sandflate avsatt der en breelv møter en innsjø",
+        "En spiss fjelltopp formet av frostforvitring",
         "En lang grusrygg avsatt av smeltevann under isen"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvilken type forvitring er frostsprengning?",
       "options": [
-        "Mekanisk",
-        "Kjemisk",
-        "Biologisk",
-        "Vulkansk"
+        "Mekanisk forvitring",
+        "Kjemisk forvitring",
+        "Biologisk forvitring",
+        "Oksidasjonsforvitring"
       ],
       "correct": 0,
       "explain": "Isen sprenger fjellet i biter."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er karst?",
       "options": [
-        "En type morene",
-        "Et vulkansk landskap",
+        "Et landskap med vulkankratere og lavafelt på overflaten",
+        "Et landskap med sanddyner og flygesand langs kysten",
         "Et landskap med grotter og slukhull i kalkstein",
-        "En type sanddyne"
+        "Et landskap med morener og eskere etter breenes framrykking"
       ],
       "correct": 2,
       "explain": "Dannes ved kjemisk forvitring."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hvordan kan kanalisering av en elv øke flomfaren nedstrøms?",
       "options": [
-        "Vannet blir kaldere",
-        "Elva tørker ut",
-        "Elva får flere svinger",
+        "Vannet får mindre fart og kommer saktere nedover",
+        "Vannet trenger mer tid og kommer senere nedover",
+        "Elva får flere svinger og bruker lengre tid nedover",
         "Vannet får større fart og kommer raskere nedover"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva kjennetegner et alpint landskap som i Lofoten?",
       "options": [
         "Spisse tinder formet av mange små breer",
-        "Flate vidder",
-        "Store sanddyner",
-        "Brede elvesletter"
+        "Flate vidder formet av gamle elveavsetninger",
+        "Runde åser formet av innlandsisens avsetninger",
+        "Brede elvesletter formet av meandrerende elver"
       ],
       "correct": 0,
       "explain": "Botner, egger og horn."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva forteller elveterrasser ofte?",
       "options": [
-        "At havet har steget",
+        "At havet har gravd seg ned i egne avsetninger, ofte på grunn av landheving",
         "At elva har gravd seg ned i egne avsetninger, ofte på grunn av landheving",
-        "At det har vært vulkanutbrudd",
-        "At elva er ny"
+        "At breen har gravd seg ned i egne avsetninger, ofte på grunn av landheving",
+        "At elva har bygd opp nye avsetninger, ofte på grunn av havstigning"
       ],
       "correct": 1,
       "explain": "Terrassene er gamle elvesletter.",
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hvor finner du sanddyner i Norge?",
         "options": [
-          "På Hardangervidda",
+          "På Hardangervidda og i Rondane",
           "På Jæren og Lista",
-          "I Sognefjorden",
-          "I Lofoten"
+          "I Sognefjorden og ved Geirangerfjorden",
+          "I Jotunheimen og på Folgefonna"
         ],
         "correct": 1,
         "explain": "Der vind har god tilgang på sand.",
@@ -332,9 +332,9 @@
         "text": "Hva er Ra-trinnet?",
         "options": [
           "En stor endemorene i Sør-Norge",
-          "En fjord",
-          "En vulkan",
-          "Et delta"
+          "En esker avsatt av smeltevann i Sør-Norge",
+          "Et delta dannet av smeltevann i Sør-Norge",
+          "En drumlin formet av isbevegelse i Sør-Norge"
         ],
         "correct": 0,
         "explain": "Den viser hvor brefronten sto.",
@@ -348,7 +348,7 @@
           "Planting av skog",
           "Vern av myr",
           "Avskoging",
-          "Restaurering av elver"
+          "Terrassering av jordbruksareal"
         ],
         "correct": 2,
         "explain": "Røttene holder på jorda."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

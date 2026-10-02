@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Which phrase is best for summarising someone else's argument?",
       "options": [
-        "You're wrong.",
+        "Let me explain why I have a different view.",
         "If I understand you correctly, you're saying that …",
-        "Let's change the subject.",
-        "Whatever."
+        "Could you explain what you mean by that point?",
+        "Let's consider another example before we continue."
       ],
       "correct": 1,
       "explain": "Summarising shows that you have listened."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "What is a good strategy if you do not know a word in a discussion?",
       "options": [
-        "Paraphrase – say it in other words",
-        "Stop talking",
-        "Switch to Norwegian",
-        "Change the subject"
+        "Paraphrase the idea using different words",
+        "Repeat the same word more slowly and continue",
+        "Guess its meaning from the spelling and continue",
+        "Switch to a similar-sounding Norwegian word"
       ],
       "correct": 0,
       "explain": "For example: the thing you use to open bottles."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Which phrase is a polite way to disagree?",
       "options": [
-        "That's stupid.",
-        "No way.",
+        "I agree with your point.",
+        "Let's discuss a different issue.",
         "I see your point, but …",
-        "You don't know anything."
+        "Could you explain your point again?"
       ],
       "correct": 2,
       "explain": "It acknowledges the other person before disagreeing."
@@ -116,7 +116,7 @@
       "options": [
         "/t/",
         "/d/",
-        "It is silent",
+        "/ɪt/",
         "/ɪd/"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Which word has a silent letter?",
       "options": [
         "knife",
-        "cat",
-        "stop",
-        "bring"
+        "flag",
+        "desk",
+        "crisp"
       ],
       "correct": 0,
       "explain": "The k in knife is not pronounced."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "What is the schwa?",
       "options": [
-        "A type of consonant",
-        "A stressed vowel",
+        "A vowel sound that is stressed in a word",
+        "A vowel sound that combines two different vowel sounds",
         "The most common vowel sound in English, found in unstressed syllables",
-        "A British accent"
+        "A consonant sound made by touching the tongue to the teeth"
       ],
       "correct": 2,
       "explain": "It is the first sound in about."
@@ -176,8 +176,8 @@
       "options": [
         "It rises at the end",
         "It falls at the end",
-        "It stays flat",
-        "It gets louder"
+        "It stays level at the end",
+        "It gets louder near the end"
       ],
       "correct": 0,
       "explain": "Are you coming? – rising intonation."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "What should visual aids in a presentation do?",
       "options": [
-        "Repeat everything you say",
-        "Support what you say",
-        "Replace your talk",
-        "Contain as much text as possible"
+        "Repeat all the points you are making",
+        "Support the points you are making",
+        "Replace the speaker's spoken explanation",
+        "Display every detail on each presentation slide"
       ],
       "correct": 1,
       "explain": "The audience should listen to you, not read slides."
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Which phrase is used to build on someone else's point?",
         "options": [
-          "That's wrong.",
-          "Let's move on.",
+          "I'd like to question the point Jonas made.",
+          "I'd like to ask what Jonas meant by that.",
           "I'd like to add to what Jonas said.",
-          "What do you mean?"
+          "I'd like to move to a different topic now."
         ],
         "correct": 2,
         "explain": "Building on others moves the discussion forward."
@@ -339,9 +339,9 @@
         "text": "How do you make the th sound in think?",
         "options": [
           "Put your tongue between your teeth",
-          "Close your lips",
-          "Touch your teeth with your lower lip",
-          "Keep your mouth closed"
+          "Close your lips to make the sound",
+          "Touch your lower lip to your teeth",
+          "Keep your tongue behind your teeth"
         ],
         "correct": 0,
         "explain": "Norwegian speakers often replace it with t or f."
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Which word has the stress on the second syllable?",
         "options": [
-          "TAble",
+          "CINema",
           "baNAna",
-          "YELlow",
-          "HAPpy"
+          "ANimal",
+          "engiNEER"
         ],
         "correct": 1,
         "explain": "ba-NA-na. The first and last syllables have a schwa."
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

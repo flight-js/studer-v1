@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva bygger numeriske modeller på?",
       "options": [
-        "Gjetninger",
-        "Fysikkens lover",
-        "Historiske værtabeller alene",
-        "Tilfeldige tall"
+        "Statistiske sammenhenger alene",
+        "Fysikkens lover og ligninger",
+        "Målinger fra værstasjoner alene",
+        "Empiriske værregler alene"
       ],
       "correct": 1,
       "explain": "Bevegelse, bevaring og termodynamikk."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er parametrisering?",
       "options": [
-        "Forenklede formler for prosesser som er mindre enn rutene",
-        "Innsamling av data",
-        "Valg av tidssteg",
-        "Visning av værkart"
+        "Forenklede formler for prosesser som er mindre enn modellrutene",
+        "Innsamling av målinger fra værstasjoner i ruten",
+        "Valg av lengden på modellens tidssteg",
+        "Tilpasning av modellens kart til observasjonene"
       ],
       "correct": 0,
       "explain": "En viktig kilde til usikkerhet."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvorfor er værvarsler mest pålitelige for de nærmeste dagene?",
       "options": [
-        "Fordi modellene er gamle",
-        "Fordi det er færre målinger",
-        "Fordi atmosfæren er kaotisk og små feil vokser",
-        "Fordi været aldri endres"
+        "Fordi modellene bruker færre målinger jo lenger fram varselet går",
+        "Fordi atmosfæren endrer seg mindre jo lenger fram i tid",
+        "Fordi atmosfæren er kaotisk, og små startfeil vokser over tid",
+        "Fordi beregningene blir mer detaljerte for de nærmeste dagene"
       ],
       "correct": 2,
       "explain": "Sommerfugleffekten."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva er et ensemblevarsel?",
       "options": [
-        "Et varsel for én by",
-        "Et varsel fra én kjøring",
-        "Et varsel uten data",
-        "Mange kjøringer med litt ulike startverdier"
+        "Mange værkart for ulike byer fra samme modellkjøring",
+        "Ett varsel beregnet ut fra flere observasjoner",
+        "Mange modellkjøringer med ulike utslippsscenarioer",
+        "Mange modellkjøringer med litt ulike startverdier"
       ],
       "correct": 3,
       "explain": "Gir sannsynligheter."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva avhenger klimamodeller mest av?",
       "options": [
-        "Pådriv, som mengden drivhusgasser",
-        "Startverdiene i dag",
-        "Været i morgen",
-        "Antall værstasjoner"
+        "Pådriv, som mengden drivhusgasser i atmosfæren",
+        "Startverdiene for temperatur og vind akkurat i dag",
+        "Værsituasjonen som er varslet for de nærmeste dagene",
+        "Antallet værstasjoner som rapporterer målinger"
       ],
       "correct": 0,
       "explain": "Kjøres med ulike utslippsscenarioer."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er dataassimilering?",
       "options": [
-        "Å tegne værkart",
+        "Å bearbeide målinger og modell til værkart",
         "Å kombinere målinger og modell til startverdier",
-        "Å slette gamle data",
-        "Å velge oppløsning"
+        "Å fjerne gamle målinger før en modellkjøring",
+        "Å velge størrelsen på rutene i modellen"
       ],
       "correct": 1,
       "explain": "Gir best mulige startverdier."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva krever finere oppløsning?",
       "options": [
-        "Færre data",
-        "Større ruter",
+        "Mye mer observasjonsdata",
+        "Mye lengre tidssteg",
         "Mye mer regnekraft",
-        "Ingen endring"
+        "Mye større ruter"
       ],
       "correct": 2,
       "explain": "Derfor brukes superdatamaskiner."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva kan havmodeller brukes til?",
       "options": [
-        "Bare å måle temperatur i lufta",
-        "Varsle jordskjelv",
-        "Beregne solstråling",
+        "Beregne risiko for jordskjelv langs kystområdene",
+        "Beregne mengden solstråling over havområdene",
+        "Måle lufttemperaturen over havområdene",
         "Varsle stormflo og spore oljeutslipp"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvordan testes klimamodeller?",
       "options": [
         "Ved å se om de kan gjenskape fortidens klima",
-        "Ved å varsle været i morgen",
-        "Ved å spørre folk",
-        "De testes ikke"
+        "Ved å sammenligne dem med værmeldinger for kommende dager",
+        "Ved å samle inn folks vurderinger av klimaet",
+        "Ved å teste om de beregner dagens vær time for time"
       ],
       "correct": 0,
       "explain": "Paleoklima og historiske data."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva betyr stor spredning mellom ensemblekjøringene?",
       "options": [
-        "Sikkert vær",
-        "Usikkert vær",
-        "Mye sol",
-        "Feil modell"
+        "Stor sannsynlighet for regn i området",
+        "Stor usikkerhet om den videre værutviklingen",
+        "Stor presisjon i temperaturvarselet for området",
+        "Stor endring i modellens beregningsoppløsning"
       ],
       "correct": 1,
       "explain": "Varslet gis som sannsynligheter."
@@ -304,10 +304,10 @@
         "type": "flervalg",
         "text": "Hvem beskrev sommerfugleffekten?",
         "options": [
-          "Vilhelm Bjerknes",
+          "Lewis Fry Richardson",
           "Edward Lorenz",
-          "Isaac Newton",
-          "Albert Einstein"
+          "John von Neumann",
+          "Jule Charney"
         ],
         "correct": 1,
         "explain": "Kaos i atmosfæren.",
@@ -319,9 +319,9 @@
         "text": "Hvordan kan et ensemblevarsel oppgis?",
         "options": [
           "Som sannsynlighet, for eksempel 70 % sjanse for regn",
-          "Bare som ja eller nei",
-          "Som en temperatur alltid",
-          "Uten tall"
+          "Som faktiske målinger av regn fra værstasjoner i området",
+          "Som startverdiene som ble lagt inn før modellkjøringen",
+          "Som en oversikt over rutenettet i værmodellen"
         ],
         "correct": 0,
         "explain": "Viser usikkerheten."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hva forbedrer modellene over tid?",
         "options": [
-          "Færre observasjoner",
-          "Grovere oppløsning",
+          "Lengre tidssteg og grovere beregningsruter",
+          "Flere utslippsscenarioer og raskere tidssteg",
           "Finere oppløsning og bedre parametrisering",
-          "Mindre regnekraft"
+          "Hyppigere kartoppdateringer og lengre modellkjøringer"
         ],
         "correct": 2,
         "explain": "Også maskinlæring."
@@ -418,6 +418,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

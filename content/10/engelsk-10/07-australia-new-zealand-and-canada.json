@@ -80,33 +80,33 @@
       "id": "q01",
       "text": "What is the capital of Australia?",
       "options": [
-        "Sydney",
-        "Melbourne",
+        "Brisbane",
+        "Adelaide",
         "Canberra",
-        "Perth"
+        "Darwin"
       ],
       "correct": 2,
-      "explain": "Canberra is the capital. Sydney and Melbourne are the largest cities."
+      "explain": "Canberra is the seat of Australia's national government."
     },
     {
       "id": "q02",
       "text": "What is the capital of New Zealand?",
       "options": [
         "Wellington",
-        "Auckland",
-        "Christchurch",
-        "Sydney"
+        "Hamilton",
+        "Dunedin",
+        "Nelson"
       ],
       "correct": 0,
-      "explain": "Wellington is the capital. Auckland is the largest city."
+      "explain": "Wellington is the capital and the seat of New Zealand's national government."
     },
     {
       "id": "q03",
       "text": "Which two languages are official in Canada?",
       "options": [
-        "English and Spanish",
-        "English and Inuktitut only",
-        "French and German",
+        "English and Cree",
+        "French and Inuktitut",
+        "English and German",
         "English and French"
       ],
       "correct": 3,
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "What is the Commonwealth?",
       "options": [
-        "A British bank",
+        "An association of countries mostly with historical ties to France",
         "An association of countries mostly with historical ties to Britain",
-        "The Australian parliament",
-        "A sports competition only"
+        "A group of countries governed together by the British Parliament",
+        "An association of countries that share the same national government"
       ],
       "correct": 1,
       "explain": "The Commonwealth includes many former British colonies."
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "What was special about New Zealand in 1893?",
       "options": [
-        "It became independent",
+        "It became the first country to give women the vote in national elections in 1903",
         "It became the first country to give women the vote in national elections",
-        "It joined the EU",
-        "It changed its capital"
+        "It became the first country to let women run for parliament in 1893",
+        "It became independent before allowing women to vote in national elections"
       ],
       "correct": 1,
       "explain": "New Zealand was the first self-governing country where women could vote in national elections.",
@@ -141,9 +141,9 @@
       "id": "q06",
       "text": "In which Canadian province is French the majority language?",
       "options": [
-        "Ontario",
-        "British Columbia",
-        "Alberta",
+        "Manitoba",
+        "Saskatchewan",
+        "Nova Scotia",
         "Quebec"
       ],
       "correct": 3,
@@ -154,9 +154,9 @@
       "text": "What is the Treaty of Waitangi?",
       "options": [
         "An 1840 agreement between the British Crown and Māori chiefs",
-        "Australia's constitution",
-        "A Canadian peace treaty",
-        "A sports trophy"
+        "An 1840 agreement between the British Crown and Canadian First Nations",
+        "An 1840 agreement between the British Crown and Australian Aboriginal leaders",
+        "An 1840 agreement between Māori chiefs and the Australian government"
       ],
       "correct": 0,
       "explain": "It is regarded as New Zealand's founding document."
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "What is the outback?",
       "options": [
-        "Canada's northern islands",
-        "A New Zealand dance",
+        "The dry, sparsely populated interior of Canada",
+        "The dry, sparsely populated interior of New Zealand",
         "The dry, sparsely populated interior of Australia",
-        "A British tradition"
+        "The dry, densely populated interior of Australia"
       ],
       "correct": 2,
       "explain": "Most Australians live along the coast, while the outback has few people."
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Who are the indigenous peoples of Canada?",
       "options": [
-        "The Māori",
+        "First Nations, Inuit and Māori",
         "First Nations, Inuit and Métis",
-        "The Sámi",
-        "Aboriginal Australians"
+        "First Nations, Métis and Sámi",
+        "Inuit, Māori and Métis"
       ],
       "correct": 1,
       "explain": "Canada recognises three groups of indigenous peoples."
@@ -189,9 +189,9 @@
       "id": "q10",
       "text": "What do Australia, New Zealand and Canada have in common?",
       "options": [
-        "They all have French as an official language",
-        "They were never colonised",
-        "They are all republics with presidents",
+        "They were French colonies and are now democracies in the Commonwealth",
+        "They were British colonies and are now republics outside the Commonwealth",
+        "They were British colonies and are now democracies in the European Union",
         "They were British colonies and are now democracies in the Commonwealth"
       ],
       "correct": 3,
@@ -318,13 +318,13 @@
         "type": "flervalg",
         "text": "What is the largest city in Canada?",
         "options": [
-          "Ottawa",
-          "Montreal",
+          "Calgary",
+          "Edmonton",
           "Toronto",
-          "Vancouver"
+          "Quebec City"
         ],
         "correct": 2,
-        "explain": "Toronto is the largest city. Ottawa is the capital.",
+        "explain": "Toronto is Canada's largest city by population.",
         "niva": "eksempel"
       },
       {
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "What is the haka?",
         "options": [
-          "A Canadian food",
+          "A traditional Māori musical instrument",
           "A traditional Māori dance",
-          "An Australian animal",
-          "A type of boat"
+          "A traditional Māori carving style",
+          "A traditional Māori food dish"
         ],
         "correct": 1,
         "explain": "The haka is a Māori ceremonial dance, known for example from rugby matches.",
@@ -347,9 +347,9 @@
         "text": "When did Canada become self-governing?",
         "options": [
           "1867",
-          "1776",
-          "1901",
-          "1945"
+          "1840",
+          "1914",
+          "1982"
         ],
         "correct": 0,
         "explain": "Canadian Confederation took place in 1867.",
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

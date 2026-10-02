@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva mente Arendt med ondskapens banalitet?",
       "options": [
-        "At ondskap er sjelden",
+        "At ondskap først og fremst skyldes onde personlighetstrekk hos gjerningspersonene",
         "At store forbrytelser kan begås av vanlige mennesker som ikke tenker selv",
-        "At bare monstre gjør ondt",
-        "At ondskap er morsom"
+        "At store forbrytelser først og fremst utføres av mennesker med sterke ideologiske mål",
+        "At vanlige mennesker begår forbrytelser fordi de mangler kunnskap om lovene"
       ],
       "correct": 1,
       "explain": "Etter Eichmann-rettssaken."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva viste Milgrams forsøk?",
       "options": [
-        "Hvor sterk lydighet mot autoriteter kan være",
-        "At ingen følger ordre",
-        "At elektrisitet er farlig",
-        "At alle er onde"
+        "At lydighet mot autoriteter kan være svært sterk",
+        "At gruppepress kan være sterkere enn menneskers egne moralske vurderinger",
+        "At mennesker ofte følger ordre fordi de frykter straff fra autoriteter",
+        "At deltakerne vanligvis nekter å følge ordre som skader andre"
       ],
       "correct": 0,
       "explain": "Reiser også spørsmål om forskningsetikk."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvilket spørsmål reiste atombomben?",
       "options": [
-        "Hvor mye strøm vi bruker",
-        "Hvem som vinner valg",
-        "Vitenskapens ansvar og om menneskeheten kan utslette seg selv",
-        "Hvordan byer planlegges"
+        "Statens ansvar for å gjenoppbygge byer etter krigshandlinger",
+        "Forskernes rolle i å gjøre atomkraft tilgjengelig for sivile formål",
+        "Vitenskapens ansvar og menneskehetens mulighet til å utslette seg selv",
+        "Menneskehetens mulighet til å unngå framtidige konflikter gjennom diplomati"
       ],
       "correct": 2,
       "explain": "Forskerne fikk samvittighetskvaler."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvilket etisk spørsmål reiste pandemien?",
       "options": [
-        "Om skoler trenger bøker",
-        "Om biler er raske",
-        "Om mat er dyrt",
+        "Hvor lenge smitteverntiltak bør vare etter at smitten har avtatt",
+        "Hvor store økonomiske tap bedrifter bør få dekket av staten",
+        "Hvor mye undervisning bør foregå digitalt etter at skolene åpner",
         "Hvor mye individets frihet kan begrenses for fellesskapet"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva er status for aktiv dødshjelp i Norge?",
       "options": [
-        "Den er forbudt",
-        "Den er tillatt for alle",
-        "Den er tillatt for barn",
-        "Den er påbudt"
+        "Aktiv dødshjelp er forbudt ved norsk lov",
+        "Aktiv dødshjelp er tillatt ved norsk lov under medisinsk kontroll",
+        "Aktiv dødshjelp er tillatt ved norsk lov etter pasientens skriftlige ønske",
+        "Aktiv dødshjelp er avkriminalisert ved norsk lov for voksne pasienter"
       ],
       "correct": 0,
       "explain": "Tillatt under vilkår i blant annet Nederland og Belgia."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er et argument for aktiv dødshjelp?",
       "options": [
-        "Press mot sårbare grupper",
-        "Autonomi og retten til å slippe lidelse",
-        "At menneskeverdet svekkes",
-        "At leger alltid vet best"
+        "Legens plikt til å forlenge livet uavhengig av pasientens ønsker",
+        "Autonomi og retten til lindring av uutholdelig lidelse",
+        "Samfunnets interesse av å redusere kostnadene ved langvarig behandling",
+        "Pårørendes rett til å bestemme over pasientens medisinske behandling"
       ],
       "correct": 1,
       "explain": "Motstandere frykter press mot sårbare."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvorfor reiser klimakrisen spørsmål om rettferdighet?",
       "options": [
-        "Fordi alle bidrar like mye",
-        "Fordi klimaet er stabilt",
-        "Fordi fattige land og framtidige generasjoner rammes hardt, men har bidratt minst",
-        "Fordi det ikke finnes utslipp"
+        "Alle land rammes like hardt, selv om utslippene er ulikt fordelt",
+        "Rike land og dagens generasjoner rammes hardest, selv om de har bidratt minst",
+        "Fattige land og framtidige generasjoner rammes hardt, men har bidratt minst",
+        "Framtidige generasjoner bidrar mest til utslippene, men rammes minst"
       ],
       "correct": 2,
       "explain": "Generasjonsrettferdighet og global rettferdighet."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvor mange ble drept i terrorangrepet 22. juli 2011?",
       "options": [
-        "7",
-        "770",
-        "17",
+        "69",
+        "78",
+        "87",
         "77"
       ],
       "correct": 3,
@@ -174,10 +174,10 @@
       "id": "q09",
       "text": "Hva er skjevheter i data knyttet til KI?",
       "options": [
-        "At KI kan gjenta diskriminering som finnes i dataene",
-        "At KI er for rask",
-        "At KI er gratis",
-        "At KI ikke bruker data"
+        "At KI kan gjenta diskriminering som finnes i treningsdataene",
+        "At KI kan gi skjeve svar fordi dataene er lagret i skyen",
+        "At KI kan gi tilfeldige svar fordi treningsdataene er anonymisert",
+        "At KI kan behandle data raskere når datasett inneholder mange skjevheter"
       ],
       "correct": 0,
       "explain": "Et etisk problem."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva organiserte Eichmann?",
       "options": [
-        "Motstandsbevegelsen",
+        "Transporten av tyske soldater til frontlinjene under krigen",
         "Transporten av jøder til dødsleirene",
-        "Atombomben",
-        "FN"
+        "Planleggingen av jøders flukt fra Tyskland til andre land",
+        "Fordelingen av matforsyninger til jødiske samfunn i Europa"
       ],
       "correct": 1,
       "explain": "Han ble dømt i Jerusalem."
@@ -302,10 +302,10 @@
         "type": "flervalg",
         "text": "Hvilke byer ble rammet av atombomber i 1945?",
         "options": [
-          "Tokyo og Osaka",
+          "Tokyo og Kyoto",
           "Hiroshima og Nagasaki",
-          "Berlin og Dresden",
-          "Seoul og Beijing"
+          "Osaka og Kobe",
+          "Yokohama og Nagoya"
         ],
         "correct": 1,
         "explain": "Hundretusenvis døde."
@@ -316,9 +316,9 @@
         "text": "Hva frykter motstandere av aktiv dødshjelp?",
         "options": [
           "Press mot sårbare grupper",
-          "For lite autonomi",
-          "For mye lidelse",
-          "For få leger"
+          "Manglende selvbestemmelse for pasienten",
+          "Forbud mot lindring av pasienters smerter",
+          "Begrenset tilgang til medisinske behandlingsvalg"
         ],
         "correct": 0,
         "explain": "Og at menneskeverdet svekkes."
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hvilken gruppe ble særlig påvirket av isolasjon under pandemien?",
         "options": [
-          "Bare politikere",
-          "Ingen",
+          "Yrkesaktive og pendlere",
+          "Foreldre og småbarn",
           "Unge og eldre",
-          "Bare forskere"
+          "Politikere og journalister"
         ],
         "correct": 2,
         "explain": "Et etisk spørsmål om tiltakenes kostnader.",
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

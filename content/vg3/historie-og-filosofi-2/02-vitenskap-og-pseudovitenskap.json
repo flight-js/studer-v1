@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er demarkasjonsproblemet?",
       "options": [
-        "Spørsmålet om hvor grensene mellom land går",
+        "Spørsmålet om hvordan forskere vurderer kvaliteten på målinger",
         "Spørsmålet om hva som skiller vitenskap fra pseudovitenskap",
-        "Et matematisk problem",
-        "Et problem i kildekritikk alene"
+        "Spørsmålet om hvordan teorier bekreftes gjennom observasjoner",
+        "Spørsmålet om hvordan forskningsresultater formidles til samfunnet"
       ],
       "correct": 1,
       "explain": "Et sentralt spørsmål i vitenskapsfilosofien."
@@ -87,10 +87,10 @@
       "id": "q02",
       "text": "Hva mente Popper kjennetegner en vitenskapelig teori?",
       "options": [
-        "At den er falsifiserbar",
-        "At den kan forklare alt",
-        "At den er bevist for alltid",
-        "At mange tror på den"
+        "At den kan testes og i prinsippet vise seg å være feil",
+        "At den kan bekreftes gjennom gjentatte observasjoner og målinger",
+        "At den gir forklaringer som passer med kjente observasjoner",
+        "At den bygger på resultater andre forskere kan gjenta"
       ],
       "correct": 0,
       "explain": "Den må kunne vise seg å være feil."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvorfor er en teori som forklarer alt, ikke vitenskapelig ifølge Popper?",
       "options": [
-        "Fordi den er for enkel",
-        "Fordi den er for gammel",
+        "Fordi den ikke bygger på tilstrekkelig mange observasjoner",
+        "Fordi den mangler presise målinger som kan gjentas",
         "Fordi ingen observasjon kan motbevise den",
-        "Fordi den er matematisk"
+        "Fordi den ikke gir forklaringer på konkrete hendelser"
       ],
       "correct": 2,
       "explain": "Den kan ikke testes."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er fagfellevurdering?",
       "options": [
-        "At journalister vurderer forskning",
-        "At publikum stemmer",
-        "At staten godkjenner forskning",
+        "At redaktører vurderer arbeidet før publisering",
+        "At andre forskere vurderer arbeidet etter publisering",
+        "At forskere gjentar arbeidet før det blir publisert",
         "At andre forskere vurderer arbeidet før publisering"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Hva skiller desinformasjon fra feilinformasjon?",
       "options": [
-        "Desinformasjon er bevisst falsk",
-        "Desinformasjon er alltid sann",
-        "Det er ingen forskjell",
-        "Feilinformasjon er bevisst"
+        "Desinformasjon spres bevisst med falskt eller villedende innhold",
+        "Feilinformasjon spres bevisst med falskt eller villedende innhold",
+        "Desinformasjon spres ved en misforståelse uten hensikt om å villede",
+        "Desinformasjon vurderes ut fra kildens troverdighet, ikke hensikten"
       ],
       "correct": 0,
       "explain": "Hensikten er avgjørende."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er et kjennetegn ved konspirasjonsteorier?",
       "options": [
-        "De bygger på fagfellevurdert forskning",
+        "Uenighet mellom eksperter tolkes som bevis på at teorien stemmer",
         "Mangel på bevis tolkes som bevis på at noen skjuler noe",
-        "De endres etter nye funn",
-        "De sier at mye skjer tilfeldig"
+        "Motstridende bevis tolkes som tegn på at flere forklaringer gjelder",
+        "Tilfeldige hendelser tolkes som bevis på at ingen planlegger noe"
       ],
       "correct": 1,
       "explain": "Derfor er de vanskelige å motbevise."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er et kjennetegn ved pseudovitenskap?",
       "options": [
-        "Etterprøvbarhet",
-        "Selvkorrigering",
+        "Åpenhet for kritikk og bruk av kontrollerte forsøk",
+        "Uavhengig kontroll og korrigering etter nye funn",
         "Avhengighet av anekdoter og motstand mot kritikk",
-        "Fagfellevurdering"
+        "Fagfellevurdering og bruk av etterprøvbare metoder"
       ],
       "correct": 2,
       "explain": "Bruker ofte vitenskapelige ord uten innhold."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvilken konsekvens kan konspirasjonsteorier om valgfusk få?",
       "options": [
-        "Høyere valgdeltakelse",
-        "Mer tillit",
-        "Bedre valg",
+        "Økt tillit til valgresultater og sterkere støtte til resultatet",
+        "Mer politisk deltakelse og større oppslutning om valget",
+        "Bedre kontroll med stemmer og færre feil i opptellingen",
         "Svekket tillit til valg og i verste fall vold"
       ],
       "correct": 3,
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Kan vitenskapen bevise at en teori er endelig sann?",
       "options": [
-        "Nei, men teorier som har overlevd mange tester, er vel begrunnet",
-        "Ja, alltid",
-        "Ja, med én studie",
-        "Nei, vitenskap er meninger"
+        "Nei, men teorier som har overlevd mange tester, er godt begrunnet",
+        "Ja, når mange undersøkelser gir samme resultat over tid",
+        "Ja, når én studie gir resultater som kan gjentas",
+        "Nei, fordi vitenskapelige teorier bygger på personlige meninger"
       ],
       "correct": 0,
       "explain": "Ifølge Popper."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvorfor kan konspirasjonsteorier virke tiltrekkende?",
       "options": [
-        "De er alltid sanne",
+        "De gir kompliserte forklaringer, usikkerhet og sosial avstand",
         "De gir enkle forklaringer, kontroll og fellesskap",
-        "De er vitenskapelige",
-        "De er kjedelige"
+        "De gir sikre fakta, vitenskapelig enighet og politisk ro",
+        "De gir autoriteter mer kontroll og reduserer behovet for fellesskap"
       ],
       "correct": 1,
       "explain": "Og spiller på mistillit."
@@ -311,8 +311,8 @@
         "options": [
           "Evolusjonsteorien",
           "Astrologi",
-          "Gravitasjonsteorien",
-          "Celleteorien"
+          "Kimteorien",
+          "Platetektonikken"
         ],
         "correct": 1,
         "explain": "Påstandene kan ikke testes på en vitenskapelig måte.",
@@ -324,9 +324,9 @@
         "text": "Hvilken helsekonsekvens kan myter om vaksiner få?",
         "options": [
           "At færre vaksinerer seg og sykdommer kommer tilbake",
-          "At flere blir friske",
-          "At vaksiner blir billigere",
-          "Ingen konsekvenser"
+          "At flere vaksinerer seg og sykdommer blir sjeldnere",
+          "At færre vaksinerer seg og vaksinene mister virkningen",
+          "At vaksiner blir billigere og sykdommer sprer seg mindre"
         ],
         "correct": 0,
         "explain": "Et konkret eksempel.",
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva kan hjelpe mot desinformasjon?",
         "options": [
-          "Å dele alt raskt",
-          "Å stole på anonyme kilder",
-          "Kildekritikk og faktasjekk",
-          "Å unngå all informasjon"
+          "Deling av informasjon fra kjente kontoer",
+          "Vurdering av troverdighet ut fra antall likerklikk",
+          "Kildekritikk og faktasjekk av påstander på nett",
+          "Unngåelse av nyhetskilder med ulike synspunkter"
         ],
         "correct": 2,
         "explain": "Og kunnskap om vitenskapelig metode."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

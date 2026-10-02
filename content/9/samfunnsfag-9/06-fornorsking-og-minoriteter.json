@@ -80,9 +80,9 @@
       "text": "Hva er fornorsking?",
       "options": [
         "Politikk for at minoriteter skulle bli norske i språk og kultur",
-        "At nordmenn lærte samisk",
-        "At Norge ble selvstendig",
-        "En type skoleeksamen"
+        "Politikk for at nordmenn skulle lære minoritetenes språk og kultur",
+        "Politikk for at minoriteter skulle få beholde språk og kultur",
+        "Politikk for at minoriteter skulle lære samisk språk og kultur"
       ],
       "correct": 0,
       "explain": "Fornorskingspolitikken varte i over hundre år."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hvor mange nasjonale minoriteter har Norge?",
       "options": [
-        "To",
-        "Tre",
+        "Fire",
+        "Seks",
         "Fem",
-        "Åtte"
+        "Sju"
       ],
       "correct": 2,
       "explain": "Jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva bestemte jordsalgsloven av 1902?",
       "options": [
-        "At alle fikk gratis jord",
+        "At bare de som kunne samisk, fikk kjøpe jord i Finnmark",
         "At bare de som kunne norsk, fikk kjøpe jord i Finnmark",
-        "At samer eide all jord",
-        "At jord ikke kunne selges"
+        "At bare personer født i Finnmark fikk kjøpe jord i Finnmark",
+        "At bare de som eide jord, fikk kjøpe mer jord i Finnmark"
       ],
       "correct": 1,
       "explain": "Loven presset samer og kvener til å bli norske.",
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hvordan ble mange samiske barn rammet av internatskolene?",
       "options": [
-        "De lærte flere språk",
-        "De fikk bo hjemme",
-        "De fikk undervisning på samisk",
+        "De ble sendt til skoler nær hjemmet og kunne bli straffet for å snakke samisk",
+        "De ble sendt langt hjemmefra og kunne bli straffet for å snakke norsk",
+        "De ble sendt langt hjemmefra og fikk undervisning på morsmålet",
         "De ble sendt langt hjemmefra og kunne bli straffet for å snakke morsmålet"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hva er en konsekvens av fornorskingen for den enkelte?",
       "options": [
         "Skam over egen bakgrunn og tap av språk",
-        "At alle ble tospråklige",
-        "Høyere lønn",
-        "Flere samiske aviser"
+        "Stolthet over egen bakgrunn og bedre bruk av morsmålet",
+        "Bedre kontakt med egen kultur og økt bruk av morsmålet",
+        "Flere muligheter til å lære samisk og bevare familietradisjoner"
       ],
       "correct": 0,
       "explain": "Mange foreldre sluttet å snakke morsmålet med barna sine."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva var en av begrunnelsene for fornorskingspolitikken?",
       "options": [
-        "Ønsket om mer mangfold",
-        "Ønsket om flere språk i skolen",
-        "Krav fra FN",
+        "Frykt for at minoritetene var lojale mot Sverige eller Danmark",
+        "Frykt for at minoritetene var lojale mot USA eller Storbritannia",
+        "Frykt for at minoritetene ville flytte fra Norge til Sverige",
         "Frykt for at minoritetene var lojale mot Finland eller Russland"
       ],
       "correct": 3,
@@ -178,10 +178,10 @@
       "id": "q09",
       "text": "Hva er ILO-konvensjon 169?",
       "options": [
-        "En avtale om arbeidstid",
+        "En avtale om regler for arbeidstid og lønn",
         "En avtale om urfolks rettigheter",
-        "En fredsavtale",
-        "En handelsavtale"
+        "En avtale om fred mellom Norge og Sverige",
+        "En avtale om handel mellom Norge og andre land"
       ],
       "correct": 1,
       "explain": "Norge var det første landet som ratifiserte den.",
@@ -192,9 +192,9 @@
       "text": "Hva la Sannhets- og forsoningskommisjonen fram i 2023?",
       "options": [
         "En rapport om fornorskingen og uretten mot samer, kvener og skogfinner",
-        "Et forslag til nytt flagg",
-        "En ny skolereform",
-        "Et nytt statsbudsjett"
+        "En rapport om oljeutvinning og arbeidsplasser i Nord-Norge",
+        "En rapport om skoleeksamener og undervisning i hele landet",
+        "En rapport om handel og økonomisk samarbeid med nabolandene"
       ],
       "correct": 0,
       "explain": "Rapporten beskriver uretten og foreslår tiltak for forsoning.",
@@ -352,7 +352,7 @@
           "6. februar",
           "17. mai",
           "9. april",
-          "24. juni"
+          "1. mai"
         ],
         "correct": 0,
         "explain": "Datoen minner om det første samiske landsmøtet i Trondheim i 1917."
@@ -362,10 +362,10 @@
         "type": "flervalg",
         "text": "Hvem ba samene om unnskyldning i 1997?",
         "options": [
-          "Statsministeren",
+          "Kong Olav V",
           "Kong Harald",
-          "Sametingspresidenten",
-          "FNs generalsekretær"
+          "Kong Haakon VII",
+          "Kong Carl XVI Gustaf"
         ],
         "correct": 1,
         "explain": "Kongen ba om unnskyldning i talen ved åpningen av Sametinget.",
@@ -452,6 +452,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

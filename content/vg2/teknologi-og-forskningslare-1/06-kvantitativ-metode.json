@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva kjennetegner kvantitativ metode?",
       "options": [
-        "Intervjuer og beskrivelser",
-        "Tall og målinger som kan behandles med statistikk",
-        "Bare observasjoner uten tall",
-        "Meninger"
+        "Ord og beskrivelser som tolkes tematisk",
+        "Tall og målinger som analyseres statistisk",
+        "Observasjoner og feltnotater uten tall",
+        "Deltakernes erfaringer og synspunkter"
       ],
       "correct": 1,
       "explain": "Kvalitativ metode bygger på beskrivelser."
@@ -89,9 +89,9 @@
       "text": "Hva er den avhengige variabelen i et forsøk med isolasjonsmaterialer?",
       "options": [
         "Temperaturfallet",
-        "Materialet",
-        "Starttemperaturen",
-        "Romtemperaturen"
+        "Isolasjonsmaterialet",
+        "Vannets starttemperatur",
+        "Temperaturen i rommet"
       ],
       "correct": 0,
       "explain": "Det du måler."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva betyr validitet?",
       "options": [
-        "At målingene er like hver gang",
-        "At forsøket er billig",
+        "At målingene gir samme resultat ved gjentakelse",
+        "At forsøket kan gjentas av andre forskere",
         "At vi måler det vi tror vi måler",
-        "At andre kan gjenta forsøket"
+        "At målingene har liten usikkerhet"
       ],
       "correct": 2,
       "explain": "Reliabilitet handler om stabilitet."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er reproduserbarhet?",
       "options": [
-        "At samme person får samme resultat",
-        "At forsøket er raskt",
-        "At resultatet er stort",
+        "At samme forsker får samme resultat ved gjentakelse",
+        "At andre kan forstå metoden ut fra beskrivelsen",
+        "At forsøket måler det det er ment å måle",
         "At andre kan gjenta forsøket og få samme resultat"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvorfor endres bare én variabel om gangen i et kontrollert forsøk?",
       "options": [
-        "For å kunne knytte endringen i resultatet til den variabelen",
-        "For å spare tid",
-        "Fordi det er påbudt",
-        "For å få flere variabler"
+        "For å knytte endringen i resultatet til én bestemt variabel",
+        "For å redusere usikkerheten i hver enkelt måling",
+        "For å gjøre forsøket enklere å gjenta for andre",
+        "For å sikre at variablene påvirker resultatet like mye"
       ],
       "correct": 0,
       "explain": "Ellers vet vi ikke hva som påvirket resultatet."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "En vekt viser alltid 2 kg for mye. Hvordan er målingene?",
       "options": [
-        "Valide, men ikke reliable",
-        "Reliable, men ikke valide",
-        "Både reliable og valide",
-        "Verken reliable eller valide"
+        "Målingene er valide, men ikke pålitelige",
+        "Målingene er pålitelige, men ikke valide",
+        "Målingene er både valide og pålitelige",
+        "Målingene er verken valide eller pålitelige"
       ],
       "correct": 1,
       "explain": "Stabile, men feil."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "To materialer gir 12,1 og 12,4 °C temperaturfall, med spredning 0,5 °C. Hva kan du konkludere?",
       "options": [
-        "Det første er klart best",
-        "Det andre er klart best",
-        "Forskjellen er mindre enn usikkerheten, så vi kan ikke si hvilket som er best",
-        "Forsøket er ugyldig"
+        "Forskjellen viser at det første materialet er best",
+        "Forskjellen viser at det andre materialet er best",
+        "Forskjellen er mindre enn spredningen, så vi kan ikke avgjøre hvilket materiale som er best",
+        "Resultatene viser at materialene isolerer like godt"
       ],
       "correct": 2,
       "explain": "Forskjellen må være større enn usikkerheten."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hvorfor brukes et glass uten isolasjon i forsøket?",
       "options": [
-        "For å ha flere glass",
-        "For å spare materialer",
-        "For pynt",
-        "Som referanse å sammenligne med"
+        "Som ekstra måling av romtemperaturen under forsøket",
+        "For å undersøke glassets egen varmekapasitet",
+        "For å kontrollere at termometeret viser riktig temperatur",
+        "Som sammenligningsgrunnlag for glassene med isolasjon"
       ],
       "correct": 3,
       "explain": "En kontrollgruppe."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva er et representativt utvalg?",
       "options": [
-        "Et utvalg som ligner helheten",
-        "Det største utvalget",
-        "Et tilfeldig tall",
-        "Et utvalg av de beste resultatene"
+        "Et utvalg som gjenspeiler egenskapene i hele gruppen",
+        "Et utvalg med mange deltakere, uansett hvem som velges",
+        "Et utvalg valgt tilfeldig, uansett hvordan gruppen er sammensatt",
+        "Et utvalg med deltakere som har de høyeste resultatene"
       ],
       "correct": 0,
       "explain": "Ellers blir konklusjonene skjeve."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva er forskningsjuks?",
       "options": [
-        "Å oppgi usikkerhet",
-        "Å fabrikkere eller forfalske data",
-        "Å publisere negative funn",
-        "Å gjenta forsøk"
+        "Å oppgi måleusikkerhet når resultatene presenteres",
+        "Å finne på eller endre forskningsdata med vilje",
+        "Å publisere resultater som ikke støtter hypotesen",
+        "Å gjenta forsøket for å kontrollere målingene"
       ],
       "correct": 1,
       "explain": "Et alvorlig brudd på forskningsetikken.",
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hvilken er en kontrollert variabel i isolasjonsforsøket?",
         "options": [
-          "Materialet",
-          "Starttemperaturen",
-          "Temperaturfallet",
-          "Hvilket materiale som vinner"
+          "Isolasjonsmaterialet rundt glasset",
+          "Starttemperaturen på vannet",
+          "Temperaturfallet i hvert glass",
+          "Materialet med minst temperaturfall"
         ],
         "correct": 1,
         "explain": "Den holdes lik i alle forsøkene."
@@ -324,9 +324,9 @@
         "text": "Hvilken påstand er en testbar hypotese?",
         "options": [
           "Ull isolerer bedre enn bomull",
-          "Ull er fint",
-          "Isolasjon er viktig",
-          "Bomull er kjedelig"
+          "Ull er et fint materiale for isolasjon",
+          "Ull er den beste typen isolasjon",
+          "Det er viktig å velge ull som isolasjon"
         ],
         "correct": 0,
         "explain": "Den kan testes med målinger."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva kjennetegner god forskning?",
         "options": [
-          "Hemmelige metoder",
-          "Bare positive funn",
+          "Rask publisering, sikre konklusjoner og få gjentakelser",
+          "Store utvalg, tydelige konklusjoner og raske resultater",
           "Åpenhet, ærlighet om usikkerhet og etterprøvbarhet",
-          "Så få gjentak som mulig"
+          "Positive funn, korte rapporter og tydelige konklusjoner"
         ],
         "correct": 2,
         "explain": "Vitenskapelige normer."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

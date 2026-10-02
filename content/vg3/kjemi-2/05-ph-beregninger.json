@@ -96,8 +96,8 @@
       "options": [
         "1,0 · 10⁻¹⁴",
         "1,0 · 10⁻⁷",
-        "14",
-        "7"
+        "1,0 · 10⁻¹³",
+        "1,0 · 10⁻²⁸"
       ],
       "correct": 0,
       "explain": "Vannets ionprodukt."
@@ -107,9 +107,9 @@
       "text": "Hva er pH i 0,010 mol/L NaOH?",
       "options": [
         "2,0",
-        "7,0",
+        "11,0",
         "12,0",
-        "14,0"
+        "13,0"
       ],
       "correct": 2,
       "explain": "pOH = 2,0, pH = 14 − 2 = 12."
@@ -118,10 +118,10 @@
       "id": "q04",
       "text": "Hva betyr en liten pKa?",
       "options": [
-        "Svak syre",
-        "Sterk base",
-        "Nøytral løsning",
-        "Sterk syre"
+        "En svak syre",
+        "En sterk base",
+        "En nøytral løsning",
+        "En sterk syre"
       ],
       "correct": 3,
       "explain": "Stor Ka gir liten pKa."
@@ -133,7 +133,7 @@
         "2,87",
         "1,00",
         "4,74",
-        "5,74"
+        "3,74"
       ],
       "correct": 0,
       "explain": "[H₃O⁺] ≈ √(1,8 · 10⁻⁶) ≈ 1,3 · 10⁻³."
@@ -142,10 +142,10 @@
       "id": "q06",
       "text": "Hvor mye endres [H₃O⁺] når pH synker med én enhet?",
       "options": [
-        "Halveres",
-        "Tidobles",
-        "Dobles",
-        "Uendret"
+        "Blir to ganger større",
+        "Blir ti ganger større",
+        "Blir ti ganger mindre",
+        "Blir halvparten så stor"
       ],
       "correct": 1,
       "explain": "pH-skalaen er logaritmisk."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvilken sammenheng gjelder for et korresponderende syre-base-par?",
       "options": [
-        "Ka + Kb = 14",
+        "Ka + Kb = Kw",
         "Ka = Kb",
         "Ka · Kb = Kw",
-        "Ka / Kb = 1"
+        "Ka / Kb = Kw"
       ],
       "correct": 2,
       "explain": "Sterk syre gir svak korresponderende base."
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hva er pH ved halvtitrerpunktet for en svak syre?",
       "options": [
-        "7",
-        "14",
-        "0",
+        "Lik 7",
+        "Lik pKb",
+        "Lik 14",
         "Lik pKa"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hvorfor gir natriumacetat en svakt basisk løsning?",
       "options": [
-        "Fordi acetationet er en svak base",
-        "Fordi natrium er en syre",
-        "Fordi det er et sterkt salt",
-        "Det gir en sur løsning"
+        "Fordi acetationet tar opp protoner fra vann",
+        "Fordi acetationet avgir protoner til vann",
+        "Fordi natriumionet tar opp protoner fra vann",
+        "Fordi saltet danner hydroksidioner direkte i vann"
       ],
       "correct": 0,
       "explain": "Acetationet tar opp protoner fra vann."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva er en sterk syre?",
       "options": [
-        "En syre som protolyseres delvis",
+        "En syre som protolyseres delvis i vann",
         "En syre som protolyseres fullstendig i vann",
-        "En syre med stor pKa",
-        "En konsentrert svak syre"
+        "En syre som har stor pKa i vann",
+        "En konsentrert syre som protolyseres delvis i vann"
       ],
       "correct": 1,
       "explain": "For eksempel HCl."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hva er [H₃O⁺] når pH = 3?",
         "options": [
-          "3 mol/L",
-          "1,0 · 10⁻³ mol/L",
           "1,0 · 10³ mol/L",
-          "0,3 mol/L"
+          "1,0 · 10⁻³ mol/L",
+          "3,0 · 10⁻¹ mol/L",
+          "1,0 · 10⁻¹¹ mol/L"
         ],
         "correct": 1,
         "explain": "[H₃O⁺] = 10⁻ᵖᴴ."
@@ -326,9 +326,9 @@
         "text": "Hvordan velges en indikator til en titrering?",
         "options": [
           "Ut fra hvor ekvivalenspunktet ligger",
-          "Ut fra fargen man liker",
-          "Ut fra prisen",
-          "Den spiller ingen rolle"
+          "Ut fra hvor titreringen starter",
+          "Ut fra hvor halvtitrerpunktet ligger",
+          "Ut fra hvilken løsning som titreres"
         ],
         "correct": 0,
         "explain": "Omslagsområdet må passe.",
@@ -339,10 +339,10 @@
         "type": "flervalg",
         "text": "Hvilken base er svak?",
         "options": [
-          "NaOH",
-          "KOH",
+          "LiOH",
+          "Ba(OH)₂",
           "Ammoniakk",
-          "Ca(OH)₂"
+          "Sr(OH)₂"
         ],
         "correct": 2,
         "explain": "Tar bare delvis opp protoner."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

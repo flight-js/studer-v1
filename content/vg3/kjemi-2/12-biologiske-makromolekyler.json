@@ -81,8 +81,8 @@
       "options": [
         "Ved hydrolyse",
         "Ved kondensasjon",
-        "Ved elektrolyse",
-        "Ved destillasjon"
+        "Ved oksidasjon",
+        "Ved nøytralisering"
       ],
       "correct": 1,
       "explain": "Vann spaltes av."
@@ -92,9 +92,9 @@
       "text": "Hvorfor kan ikke mennesker fordøye cellulose?",
       "options": [
         "Fordi vi mangler riktig enzym",
-        "Fordi cellulose ikke inneholder glukose",
-        "Fordi cellulose er et protein",
-        "Fordi cellulose er et fett"
+        "Fordi cellulose har alfa-glykosidbindinger",
+        "Fordi cellulose består av fruktosemolekyler",
+        "Fordi cellulose inneholder peptidbindinger"
       ],
       "correct": 0,
       "explain": "Den blir kostfiber."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva er et proteins primærstruktur?",
       "options": [
-        "Den tredimensjonale formen",
-        "Heliks og flak",
+        "Proteinets tredimensjonale form",
+        "Helikser og flak",
         "Rekkefølgen av aminosyrer",
-        "Flere proteinkjeder sammen"
+        "Antall kjeder sammen"
       ],
       "correct": 2,
       "explain": "Bestemt av genene."
@@ -115,7 +115,7 @@
       "id": "q04",
       "text": "Hva holder sekundærstrukturen sammen?",
       "options": [
-        "Peptidbindinger alene",
+        "Peptidbindinger",
         "Glykosidbindinger",
         "Esterbindinger",
         "Hydrogenbindinger"
@@ -128,9 +128,9 @@
       "text": "Hva skjer når et egg kokes?",
       "options": [
         "Proteinene denatureres",
-        "Proteinene hydrolyseres til aminosyrer",
-        "Fettet blir til karbohydrat",
-        "Ingenting kjemisk"
+        "Proteinene hydrolyseres",
+        "Proteinene brytes ned",
+        "Proteinene fordamper"
       ],
       "correct": 0,
       "explain": "Varme ødelegger strukturen."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva består et triglyserid av?",
       "options": [
-        "Glukose og fruktose",
+        "Glyserol og tre aminosyrer",
         "Glyserol og tre fettsyrer",
-        "Aminosyrer",
-        "Nukleotider"
+        "Glukose og tre fettsyrer",
+        "Glyserol og tre nukleotider"
       ],
       "correct": 1,
       "explain": "Bundet med esterbindinger."
@@ -154,7 +154,7 @@
         "A med C og T med G",
         "A med G og C med T",
         "A med T og C med G",
-        "Alle med alle"
+        "A med A og C med G"
       ],
       "correct": 2,
       "explain": "Holdt sammen av hydrogenbindinger."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvorfor er tungmetaller giftige?",
       "options": [
-        "De er radioaktive",
-        "De gir for mye energi",
-        "De løser seg ikke",
+        "De kan sende ut stråling som skader kroppens celler",
+        "De kan tilføre kroppen energi og øke cellenes aktivitet",
+        "De kan lagres i fett og brukes som energikilde",
         "De kan binde seg til proteiner og ødelegge strukturen"
       ],
       "correct": 3,
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva skiller umettede fra mettede fettsyrer?",
       "options": [
-        "Umettede har bare enkeltbindinger",
+        "Mettede har en eller flere dobbeltbindinger",
         "Umettede har en eller flere dobbeltbindinger",
-        "Umettede har mer oksygen",
-        "Det er ingen forskjell"
+        "Umettede har en eller flere peptidbindinger",
+        "Umettede har en eller flere glykosidbindinger"
       ],
       "correct": 1,
       "explain": "Påvirker smeltepunktet."
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hvorfor virker sprit desinfiserende?",
         "options": [
-          "Det er surt",
+          "Det senker pH-verdien i mikroorganismer",
           "Det denaturerer proteiner i mikroorganismer",
-          "Det er radioaktivt",
-          "Det gir mer oksygen"
+          "Det bryter ned DNA i mikroorganismer",
+          "Det tilfører oksygen til mikroorganismer"
         ],
         "correct": 1,
         "explain": "Organiske løsemidler kan denaturere proteiner."
@@ -325,9 +325,9 @@
         "text": "Hvilket protein har kvartærstruktur?",
         "options": [
           "Hemoglobin",
-          "Glukose",
-          "Cellulose",
-          "Triglyserid"
+          "Myoglobin",
+          "Albumin",
+          "Glukagon"
         ],
         "correct": 0,
         "explain": "Flere proteinkjeder sammen.",
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva kan UV-stråling gjøre med DNA?",
         "options": [
-          "Styrke det",
-          "Gjøre det til protein",
+          "Lage proteiner direkte fra det",
+          "Omdanne det til RNA",
           "Skade det og gi mutasjoner",
-          "Ingenting"
+          "Styrke DNA-et mot mutasjoner"
         ],
         "correct": 2,
         "explain": "En ytre faktor som påvirker makromolekyler.",
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

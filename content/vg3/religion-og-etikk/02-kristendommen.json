@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva tror kristne om Jesus?",
       "options": [
-        "At han bare var en profet",
-        "At han er Messias og Guds sønn",
-        "At han aldri levde",
-        "At han var en romersk keiser"
+        "En profet, ikke Messias",
+        "Messias og Guds sønn",
+        "En engel og Guds sendebud",
+        "En romersk leder og keiser"
       ],
       "correct": 1,
       "explain": "Det som skiller kristendommen mest fra jødedom og islam."
@@ -89,9 +89,9 @@
       "text": "Hva er treenigheten?",
       "options": [
         "Én Gud i tre personer",
-        "Tre ulike guder",
-        "Tre hellige bøker",
-        "Tre høytider"
+        "Tre guder i én guddom",
+        "Én Gud med tre hellige bøker",
+        "Én Gud med tre høytider"
       ],
       "correct": 0,
       "explain": "Far, Sønn og Hellig Ånd."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hvilket kirkesamfunn ledes av paven?",
       "options": [
-        "Den ortodokse kirke",
-        "Den norske kirke",
+        "Den anglikanske kirke",
+        "Den lutherske kirke",
         "Den katolske kirke",
-        "Pinsebevegelsen"
+        "Den baptistiske kirke"
       ],
       "correct": 2,
       "explain": "Den største kirken i verden."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva la Martin Luther vekt på?",
       "options": [
-        "Pavens makt",
-        "Ikoner",
-        "Mange sakramenter",
+        "Paven alene, tradisjonen alene og gjerningene alene",
+        "Kirken alene, sakramentene alene og gjerningene alene",
+        "Ikonene alene, liturgien alene og sakramentene alene",
         "Bibelen alene, troen alene og nåden alene"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva feires i påsken?",
       "options": [
         "Jesu død og oppstandelse",
-        "Jesu fødsel",
-        "Den hellige ånds komme",
-        "Moses og utferden"
+        "Jesu dåp og fristelse",
+        "Jesu fødsel og oppvekst",
+        "Moses' kall og utferd"
       ],
       "correct": 0,
       "explain": "Jul feirer fødselen."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er kjernen i kristen etikk?",
       "options": [
-        "Hevn",
+        "Egeninteresse",
         "Nestekjærlighet",
-        "Rikdom",
-        "Makt"
+        "Statusjag",
+        "Selvhevdelse"
       ],
       "correct": 1,
       "explain": "«Du skal elske din neste som deg selv.»"
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvor har kristendommens tyngdepunkt flyttet seg?",
       "options": [
-        "Til Europa",
-        "Til Nord-Amerika alene",
+        "Til Europa, Nord-Amerika og Oseania",
+        "Til Europa, Midtøsten og Nord-Afrika",
         "Til Afrika, Latin-Amerika og Asia",
-        "Til Antarktis"
+        "Til Nord-Amerika, Europa og Russland"
       ],
       "correct": 2,
       "explain": "Det globale sør."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er Den norske kirke?",
       "options": [
-        "Katolsk",
-        "Ortodoks",
-        "Pinsekirke",
+        "Baptistisk",
+        "Metodistisk",
+        "Anglikansk",
         "Luthersk"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva er nattverden?",
       "options": [
         "Et minnemåltid med brød og vin",
-        "En type dåp",
-        "En høytid",
-        "En bønn om natten"
+        "Et dåpsritual med vann og bønn",
+        "En gudstjeneste med salmer og preken",
+        "Et vielsesritual med løfter og ringer"
       ],
       "correct": 0,
       "explain": "Minner om Jesu siste måltid."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvem spredte kristendommen til ikke-jøder i Romerriket?",
       "options": [
-        "Martin Luther",
+        "Pontius Pilatus",
         "Paulus",
-        "Moses",
-        "Abraham"
+        "Herodes den store",
+        "Johannes døperen"
       ],
       "correct": 1,
       "explain": "Hans brev står i Det nye testamentet."
@@ -305,10 +305,10 @@
         "type": "flervalg",
         "text": "Hva er økumenikk?",
         "options": [
-          "Misjon",
+          "Samarbeid mellom religioner",
           "Samarbeid mellom kirkesamfunn",
-          "En type bønn",
-          "En høytid"
+          "Misjonsarbeid blant ikke-kristne",
+          "Bønn innenfor én menighet"
         ],
         "correct": 1,
         "explain": "Kirkene samarbeider på tvers."
@@ -319,9 +319,9 @@
         "text": "Hva er sentralt i de ortodokse kirkene?",
         "options": [
           "Ikoner og liturgi",
-          "Pavens makt",
-          "Bibelen alene",
-          "Tungetale"
+          "Pavens ledelse og messe",
+          "Bibelen alene og troen",
+          "Tungetale og fri bønn"
         ],
         "correct": 0,
         "explain": "Står sterkt i Øst-Europa."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hva feires i pinsen?",
         "options": [
-          "Jesu fødsel",
-          "Jesu død",
+          "Jesu fødsel i Betlehem",
+          "Jesu død på korset",
           "Den hellige ånds komme",
-          "Moses' lov"
+          "Moses' mottakelse av loven"
         ],
         "correct": 2,
         "explain": "Femti dager etter påske."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

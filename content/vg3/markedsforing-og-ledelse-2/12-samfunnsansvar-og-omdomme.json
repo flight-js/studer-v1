@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er de fire nivåene i Carrolls pyramide?",
       "options": [
-        "Pris, produkt, plass og påvirkning",
+        "Behov, målgruppe, budskap og kanal",
         "Økonomisk, juridisk, etisk og filantropisk",
-        "Styrker, svakheter, muligheter og trusler",
-        "Planlegge, organisere, lede og kontrollere"
+        "Miljø, samfunn, økonomi og styring",
+        "Eier, leder, ansatt og kunde"
       ],
       "correct": 1,
       "explain": "Fra lønnsomhet til frivillige bidrag."
@@ -88,9 +88,9 @@
       "text": "Hva krever åpenhetsloven?",
       "options": [
         "Aktsomhetsvurderinger av menneskerettigheter og arbeidsforhold i leverandørkjeden",
-        "At alle priser er offentlige",
-        "At bedrifter betaler mer skatt",
-        "At alle ansatte får bonus"
+        "Offentliggjøring av innkjøpspriser hos virksomhetens leverandører",
+        "Årlig rapportering av bedriftens samlede klimagassutslipp",
+        "Lovpålagt bonusordning for ansatte i leverandørbedrifter"
       ],
       "correct": 0,
       "explain": "For større virksomheter."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er delt verdiskaping?",
       "options": [
-        "Å dele overskuddet likt",
-        "Å gi bort produkter",
+        "Å dele bedriftens overskudd likt mellom ansatte og kunder",
+        "Å gi økonomisk støtte til veldedighet uten kobling til virksomheten",
         "Å skape økonomisk verdi ved å løse samfunnsproblemer",
-        "Å samarbeide med konkurrenter"
+        "Å samarbeide med konkurrenter om å fastsette felles priser"
       ],
       "correct": 2,
       "explain": "Porter og Kramer."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva er omdømme?",
       "options": [
-        "Virksomhetens logo",
-        "Hvordan virksomheten ser på seg selv",
-        "Hvordan virksomheten ønsker å bli sett",
+        "Summen av virksomhetens mål og verdier over tid",
+        "Virksomhetens planlagte kommunikasjon til interessenter over tid",
+        "Kundenes vurdering av ett enkelt produkt etter kjøpet",
         "Summen av interessentenes oppfatninger over tid"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hva er et forretningsmessig argument for samfunnsansvar?",
       "options": [
         "Bedre omdømme og lettere rekruttering",
-        "Høyere kostnader",
-        "Mindre kontroll",
-        "Færre kunder"
+        "Større driftskostnader og svakere konkurranseevne på kort sikt",
+        "Mer tid brukt på rapportering og mindre tid til salg",
+        "Flere krav fra interessenter og mindre frihet i beslutninger"
       ],
       "correct": 0,
       "explain": "Også lavere risiko."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er første steg i god krisehåndtering?",
       "options": [
-        "Å tie",
+        "Å fjerne kritiske kommentarer fra virksomhetens kanaler",
         "Å reagere raskt",
-        "Å skylde på andre",
-        "Å slette kontoer"
+        "Å samordne en offentlig forklaring med andre virksomheter",
+        "Å lansere en ny kampanje før saken blir omtalt"
       ],
       "correct": 1,
       "explain": "Deretter ærlighet og ansvar."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hvem er interessenter?",
       "options": [
-        "Bare eierne",
-        "Bare kundene",
+        "Grupper som har en formell eierandel i virksomheten",
+        "Grupper som kjøper produkter fra virksomheten",
         "Grupper som påvirkes av eller kan påvirke virksomheten",
-        "Bare konkurrentene"
+        "Grupper som leverer varer og tjenester til virksomheten"
       ],
       "correct": 2,
       "explain": "Ansatte, kunder, lokalsamfunn og flere."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva kan et gap mellom profil og faktisk atferd føre til?",
       "options": [
-        "Bedre omdømme",
-        "Høyere lønn",
-        "Flere ansatte",
+        "Styrket tillit til virksomhetens løfter",
+        "Bedre samsvar mellom ønsket profil og praksis",
+        "Økt lojalitet blant virksomhetens kunder",
         "Omdømmetap"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hva er filantropisk ansvar?",
       "options": [
         "Frivillige bidrag til samfunnet",
-        "Å følge loven",
-        "Å være lønnsom",
-        "Å betale skatt"
+        "Etisk behandling av ansatte og kunder",
+        "Økonomisk lønnsom drift over tid",
+        "Etterlevelse av lover og forskrifter"
       ],
       "correct": 0,
       "explain": "Toppen av pyramiden."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hva er en kritikk av samfunnsansvar?",
       "options": [
-        "At det er ulovlig",
-        "At det noen ganger bare er markedsføring",
-        "At det alltid er for dyrt",
-        "At kunder ikke bryr seg"
+        "At samfunnsansvar gir virksomheten et automatisk skattefradrag",
+        "At samfunnsansvar noen ganger bare er markedsføring",
+        "At samfunnsansvar erstatter behovet for å følge loven",
+        "At samfunnsansvar krever at virksomheten gir bort overskuddet"
       ],
       "correct": 1,
       "explain": "Tiltakene må være ekte."
@@ -301,10 +301,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på en omdømmekrise?",
         "options": [
-          "En ny logo",
+          "En leverandør oppdaterer produktets emballasje",
           "Barnearbeid hos en leverandør",
-          "En sommerkampanje",
-          "En ny butikk"
+          "En butikk utvider åpningstidene sine",
+          "En bedrift lanserer en ny produktserie"
         ],
         "correct": 1,
         "explain": "Spres raskt i sosiale medier."
@@ -315,9 +315,9 @@
         "text": "Hva skiller ekte samfunnsansvar fra pynt?",
         "options": [
           "At tiltakene er knyttet til kjernevirksomheten og følges opp",
-          "At det er mye reklame for det",
-          "At det er billig",
-          "At ingen vet om det"
+          "At tiltakene annonseres bredt, men ikke vurderes eller følges opp",
+          "At tiltakene velges etter hva som gir mest omtale, uten mål for virkningen",
+          "At tiltakene holdes adskilt fra virksomhetens drift og rapporteres"
         ],
         "correct": 0,
         "explain": "Og rapporteres."
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Hva er profil?",
         "options": [
-          "Summen av oppfatninger",
-          "Hvordan virksomheten ser seg selv",
+          "Hvordan virksomheten faktisk behandler ansatte og kunder",
+          "Hvordan eksterne grupper vurderer virksomhetens troverdighet over tid",
           "Hvordan virksomheten ønsker å bli sett",
-          "Regnskapet"
+          "Hvilke produkter virksomheten selger og hvilke markeder den betjener"
         ],
         "correct": 2,
         "explain": "Identitet er selvbildet."
@@ -414,6 +414,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

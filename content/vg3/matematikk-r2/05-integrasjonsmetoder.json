@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er ∫ 2x · e^(x²) dx?",
       "options": [
-        "2e^(x²) + C",
+        "e^(x²)/2 + C",
         "e^(x²) + C",
-        "x² e^(x²) + C",
-        "e^(2x) + C"
+        "2e^(x²) + C",
+        "e^(2x²) + C"
       ],
       "correct": 1,
       "explain": "u = x², du = 2x dx."
@@ -89,9 +89,9 @@
       "text": "Hva er formelen for delvis integrasjon?",
       "options": [
         "∫ u′v dx = uv − ∫ uv′ dx",
-        "∫ uv dx = ∫ u dx · ∫ v dx",
-        "∫ u′v dx = u′v′ + C",
-        "∫ uv dx = uv + C"
+        "∫ u′v dx = uv + ∫ uv′ dx",
+        "∫ u′v dx = u′v − ∫ uv′ dx",
+        "∫ u′v dx = uv′ − ∫ u′v′ dx"
       ],
       "correct": 0,
       "explain": "Produktregelen baklengs."
@@ -101,9 +101,9 @@
       "text": "Hva er ∫ x eˣ dx?",
       "options": [
         "x eˣ + C",
-        "x² eˣ/2 + C",
+        "(x + 1)eˣ + C",
         "(x − 1)eˣ + C",
-        "(x + 1)eˣ + C"
+        "(x²/2)eˣ + C"
       ],
       "correct": 2,
       "explain": "x eˣ − ∫ eˣ dx."
@@ -114,7 +114,7 @@
       "options": [
         "3e^(3x) + C",
         "e^(3x) + C",
-        "e^(3x + 1)/(3x + 1) + C",
+        "e^(3x)/2 + C",
         "e^(3x)/3 + C"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er ∫ 2x/(x² + 1) dx?",
       "options": [
         "ln(x² + 1) + C",
-        "2 ln x + C",
-        "x²/(x² + 1) + C",
-        "arctan x + C"
+        "2 ln(x² + 1) + C",
+        "ln(x² + 1)/2 + C",
+        "x²/(x² + 1) + C"
       ],
       "correct": 0,
       "explain": "Telleren er den deriverte av nevneren."
@@ -138,8 +138,8 @@
       "options": [
         "1/(x − 1) + 1/(x + 1)",
         "1/(x − 1) − 1/(x + 1)",
-        "2/(x − 1) − 2/(x + 1)",
-        "Den kan ikke spaltes"
+        "2/(x − 1) − 1/(x + 1)",
+        "1/(x − 1) − 2/(x + 1)"
       ],
       "correct": 1,
       "explain": "A = 1 og B = −1."
@@ -148,8 +148,8 @@
       "id": "q07",
       "text": "Hva er ∫ ln x dx?",
       "options": [
-        "1/x + C",
         "x ln x + C",
+        "x ln x − 1 + C",
         "x ln x − x + C",
         "(ln x)²/2 + C"
       ],
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Når passer substitusjon?",
       "options": [
-        "Alltid ved brøker",
-        "Bare ved polynomer",
-        "Ved produkter av to polynomer",
+        "Når integranden inneholder en funksjon og dens andrederiverte",
+        "Når integranden er et produkt av to polynomer",
+        "Når integranden inneholder en funksjon og dens inverse",
         "Når integranden inneholder en kjerne og kjernens deriverte"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva er ∫₀¹ 2x(x² + 1)³ dx?",
       "options": [
         "15/4",
-        "4",
-        "1/4",
-        "2"
+        "16/4",
+        "15/3",
+        "15/2"
       ],
       "correct": 0,
       "explain": "∫₁² u³ du = 4 − 1/4."
@@ -318,7 +318,7 @@
           "Delvis integrasjon",
           "Delbrøkoppspalting",
           "Polynomdivisjon",
-          "Ingen – det er et standardintegral"
+          "Trigonometrisk substitusjon"
         ],
         "correct": 0,
         "explain": "Produkt der x forenkles ved derivasjon."
@@ -416,6 +416,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

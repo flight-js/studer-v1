@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er risiko?",
       "options": [
-        "Bare sannsynligheten for en hendelse",
+        "Sannsynlighet + konsekvens",
         "Sannsynlighet × konsekvens",
-        "Antall skred i året",
-        "Hvor stor en naturfare er"
+        "Sannsynlighet − konsekvens",
+        "Sannsynlighet ÷ konsekvens"
       ],
       "correct": 1,
       "explain": "Både hvor ofte og hvor alvorlig."
@@ -93,9 +93,9 @@
       "text": "Hva er kvikkleire?",
       "options": [
         "Marin leire med utvasket salt som kan bli flytende",
-        "Leire fra vulkaner",
-        "Morene",
-        "Sand som flyter"
+        "Marin leire med mye salt som blir fast ved omrøring",
+        "Leire fra morene som kan bli flytende ved tørke",
+        "Sand fra havbunnen med utvasket salt som kan bli flytende"
       ],
       "correct": 0,
       "explain": "Den finnes under marin grense."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva skjedde i Tafjord i 1934?",
       "options": [
-        "Et jordskjelv",
-        "Et kvikkleireskred",
+        "Et jordskjelv som utløste en flodbølge",
+        "Et snøskred som stengte en fjord",
         "Et fjellskred som ga en flodbølge",
-        "En vulkan"
+        "Et kvikkleireskred som begravde en bygd"
       ],
       "correct": 2,
       "explain": "40 mennesker omkom.",
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hva viser et faresonekart?",
       "options": [
-        "Hvor det bor flest folk",
-        "Veiene i et område",
-        "Berggrunnen",
-        "Hvor ofte en hendelse kan ventes i et område"
+        "Hvor mange mennesker som bor i hvert område",
+        "Hvor viktige veier som går gjennom et område",
+        "Hvilke bergarter som finnes under bakken i et område",
+        "Hvor ofte en naturfare ventes å skje i et område"
       ],
       "correct": 3,
       "explain": "For eksempel skred med årlig sannsynlighet 1/1000."
@@ -130,9 +130,9 @@
       "text": "Hvordan oppstår en tsunami?",
       "options": [
         "Når havbunnen plutselig forskyves eller store mengder vann fortrenges",
-        "Når det blåser mye",
-        "Når tidevannet er høyt",
-        "Når isen smelter"
+        "Når vinden blåser lenge over havet og lager høye bølger",
+        "Når tidevannet stiger ekstra høyt på grunn av fullmåne",
+        "Når isbreer smelter raskt og tilfører havet mye vann"
       ],
       "correct": 0,
       "explain": "Ofte ved jordskjelv i subduksjonssoner."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hvorfor overvåkes Åknes?",
       "options": [
-        "Det er en vulkan",
-        "Et fjellskred der kan gi en farlig flodbølge i fjorden",
-        "Det er et flomområde",
-        "Det har kvikkleire"
+        "Fjellet overvåkes fordi en vulkan kan sende lava ned i fjorden",
+        "Fjellet overvåkes fordi et skred kan gi flodbølge i fjorden",
+        "Fjellet overvåkes fordi en isbre kan vokse ned mot fjorden",
+        "Fjellet overvåkes fordi kvikkleire kan renne ned i fjorden"
       ],
       "correct": 1,
       "explain": "Bevegelsene måles døgnet rundt.",
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvor finner du daglige varsler om snøskred og flom i Norge?",
       "options": [
-        "NGU",
-        "SSB",
+        "yr.no",
+        "kartverket.no",
         "varsom.no",
-        "Artsdatabanken"
+        "miljodirektoratet.no"
       ],
       "correct": 2,
       "explain": "Drevet av NVE.",
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvorfor kan samme jordskjelv få ulike følger i ulike land?",
       "options": [
-        "Jordskjelv er alltid like sterke",
-        "Tyngdekraften er ulik",
-        "Havet er ulikt",
+        "Jordskjelvets styrke øker med landets befolkningstetthet",
+        "Tyngdekraften varierer mellom land og påvirker skadeomfanget",
+        "Havets saltinnhold varierer mellom land og styrer skadene",
         "Sårbarheten varierer med byggeskikk, beredskap og økonomi"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hva er et viktig forebyggende tiltak i arealplanleggingen?",
       "options": [
-        "Ikke bygge i fareområder",
-        "Bygge nærmere elva",
-        "Fjerne all skog",
-        "Bygge på kvikkleire"
+        "Unngå bygging i områder med kjent naturfare",
+        "Plassere boliger nær elver med stor flomfare",
+        "Fjerne vegetasjon fra bratte skråninger før utbygging",
+        "Legge nye bygg på ustabil kvikkleire"
       ],
       "correct": 0,
       "explain": "Det billigste tiltaket er ofte å bygge et annet sted."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva beregner en skredmodell ofte?",
       "options": [
-        "Bergartens alder",
-        "Utløpslengden – hvor langt skredet kan gå",
-        "Mengden olje",
-        "Havtemperaturen"
+        "Jordskjelvstyrken, altså hvor kraftig bakken kan riste",
+        "Utløpslengden, altså hvor langt skredet kan gå",
+        "Vannføringen, altså hvor mye vann elva kan føre",
+        "Bergartens alder, altså hvor lenge fjellet har eksistert"
       ],
       "correct": 1,
       "explain": "Bygger på terrengdata og scenarioer."
@@ -321,10 +321,10 @@
         "type": "flervalg",
         "text": "Hva kan utløse et kvikkleireskred?",
         "options": [
-          "Sterk sol",
+          "Langvarig tørke i området eller kraftig soloppvarming",
           "Erosjon fra en elv eller gravearbeid",
-          "Snøfall på fjellet",
-          "Nordlys"
+          "Sterkt snøfall i fjellet eller plutselig temperaturfall",
+          "Sterk vind langs kysten eller høy vannstand i fjorden"
         ],
         "correct": 1,
         "explain": "Leira forstyrres og blir flytende."
@@ -335,9 +335,9 @@
         "text": "Hva er stormflo?",
         "options": [
           "Høy vannstand på grunn av vind og lavtrykk",
-          "En tsunami",
-          "En elveflom",
-          "Et snøskred"
+          "Høy vannstand forårsaket av jordskjelv og undersjøiske ras",
+          "Høy vannstand forårsaket av snøsmelting og stor elveføring",
+          "Høy vannstand forårsaket av kraftig regn og flom i elva"
         ],
         "correct": 0,
         "explain": "Særlig farlig ved springflo."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak er et sikringstiltak mot steinsprang?",
         "options": [
-          "Flere hytter under fjellsiden",
-          "Fjerne varsling",
+          "Varslingssirener og evakueringsplaner",
+          "Flomvoller og dreneringsgrøfter",
           "Fangnett og skredvoller",
-          "Mer gravearbeid"
+          "Snøskjermer og værstasjoner"
         ],
         "correct": 2,
         "explain": "De stopper steinen før den treffer."
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

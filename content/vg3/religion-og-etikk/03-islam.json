@@ -81,22 +81,22 @@
       "id": "q01",
       "text": "Hva betyr ordet islam?",
       "options": [
-        "Fred alene",
+        "Fred og trygghet",
         "Underkastelse under Gud",
-        "Bønn",
-        "Profet"
+        "Bønn til Gud",
+        "Tro på profeten"
       ],
       "correct": 1,
-      "explain": "Ordet er beslektet med salam – fred."
+      "explain": "Islam er språklig beslektet med salam («fred»), men betyr underkastelse under Gud."
     },
     {
       "id": "q02",
       "text": "Hva er Koranen for muslimer?",
       "options": [
         "Guds eget ord",
-        "Muhammads dagbok",
-        "En historiebok",
-        "En samling dikt"
+        "En biografi om profeten",
+        "En samling hadither",
+        "Et diktverk på arabisk"
       ],
       "correct": 0,
       "explain": "Åpenbart på arabisk."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva er tawhid?",
       "options": [
-        "Fasten",
-        "Pilegrimsreisen",
+        "Læren om islams fem søyler",
+        "Læren om profetenes rolle i islam",
         "Læren om Guds enhet",
-        "En høytid"
+        "Læren om regler for bønn og faste"
       ],
       "correct": 2,
       "explain": "Gud har ingen partner og ingen sønn."
@@ -130,9 +130,9 @@
       "text": "Hva startet splittelsen mellom sunni og sjia?",
       "options": [
         "Uenighet om hvem som skulle lede etter Muhammads død",
-        "Uenighet om fasten",
-        "Uenighet om Koranens språk",
-        "En krig mot Romerriket"
+        "Uenighet om hvem som skulle samle Koranen etter Muhammads død",
+        "Uenighet om hvorvidt Koranen skulle oversettes fra arabisk til persisk",
+        "Uenighet om hvorvidt muslimer skulle faste hele ramadan"
       ],
       "correct": 0,
       "explain": "Sjiamuslimene støttet Ali."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hvordan ser islam på Jesus?",
       "options": [
-        "Som Guds sønn",
+        "Som Guds sønn og en del av treenigheten",
         "Som en stor profet, men ikke Guds sønn",
-        "Som en falsk profet",
-        "Han nevnes ikke"
+        "Som en engel sendt av Gud, men ikke et menneske",
+        "Som en vanlig lærer, men ikke en profet"
       ],
       "correct": 1,
       "explain": "Kalt Isa."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er sharia?",
       "options": [
-        "En bestemt lovbok alle er enige om",
-        "En moske",
-        "Guds vilje for menneskenes liv, som tolkes av lærde",
-        "En høytid"
+        "En lovbok med regler skrevet av Muhammad",
+        "En samling hadither om profetens liv",
+        "Guds vilje for menneskenes liv, tolket av lærde",
+        "En religiøs retning med egne ritualer"
       ],
       "correct": 2,
       "explain": "Muslimer har ulike syn på sharia."
@@ -179,9 +179,9 @@
       "text": "Hva markerer id al-adha?",
       "options": [
         "Slutten på hajj og Abrahams vilje til å ofre sønnen",
-        "Slutten på ramadan",
-        "Muhammads fødsel",
-        "Nyttår"
+        "Slutten på ramadan og fasten før id al-fitr",
+        "Muhammads fødsel og starten på islams kalender",
+        "Begynnelsen på hajj og Muhammads første åpenbaring"
       ],
       "correct": 0,
       "explain": "Kalles også offerfesten."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva er forskjellen på islam og islamisme?",
       "options": [
-        "Det er det samme",
-        "Islamisme er politiske bevegelser som vil bygge samfunnet på en tolkning av islam",
-        "Islamisme er en høytid",
-        "Islam er en politisk ideologi"
+        "Islamisme er et annet navn på islam som religion og tro",
+        "Islamisme er politiske bevegelser som vil forme samfunnet etter en tolkning av islam",
+        "Islam er en politisk ideologi som vil forme samfunnet etter religiøse prinsipper",
+        "Islamisme er en troslære om Guds enhet og islams grunnleggende trosartikler"
       ],
       "correct": 1,
       "explain": "Viktig å skille mellom.",
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Hva er sunna?",
         "options": [
-          "Fastemåneden",
+          "Koranens åpenbaring",
           "Muhammads eksempel",
-          "Pilegrimsreisen",
-          "En retning"
+          "Islams trosbekjennelse",
+          "Mekkas pilegrimsreise"
         ],
         "correct": 1,
         "explain": "Fortalt i hadith."
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hva er almisse i islam?",
         "options": [
-          "Å gi en del av formuen til de trengende",
-          "Å be fem ganger",
-          "Å faste",
-          "Å reise til Mekka"
+          "Å gi deler av formuen til trengende",
+          "Å be fem ganger om dagen mot Mekka",
+          "Å avstå fra mat og drikke under ramadan",
+          "Å dra på pilegrimsreise til Mekka en gang"
         ],
         "correct": 0,
         "explain": "En av de fem søylene."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva kjennetegner sufisme?",
         "options": [
-          "Politisk kamp",
-          "Lovtolkning",
+          "Organisering av politisk arbeid med utgangspunkt i islamsk lære",
+          "Studiet av islams lovregler og religiøse plikter",
           "Søken etter en nær, personlig opplevelse av Gud",
-          "Motstand mot bønn"
+          "Vekt på felles ritualer framfor personlig gudsopplevelse"
         ],
         "correct": 2,
         "explain": "En mystisk retning.",
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

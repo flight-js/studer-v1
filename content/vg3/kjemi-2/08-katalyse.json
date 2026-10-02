@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvordan øker en katalysator reaksjonsfarten?",
       "options": [
-        "Ved å øke temperaturen",
+        "Ved å gi en vei med høyere aktiveringsenergi",
         "Ved å gi en vei med lavere aktiveringsenergi",
-        "Ved å endre ΔH",
-        "Ved å bli forbrukt"
+        "Ved å øke reaksjonens entalpiendring",
+        "Ved å gjøre kollisjonene mellom molekylene færre"
       ],
       "correct": 1,
       "explain": "Flere kollisjoner har nok energi."
@@ -91,9 +91,9 @@
       "text": "Endrer en katalysator likevekten?",
       "options": [
         "Nei, men likevekt nås raskere",
-        "Ja, mot produktene",
-        "Ja, mot reaktantene",
-        "Ja, den øker K"
+        "Ja, fordi produktene dannes raskere",
+        "Ja, fordi reaktantene forbrukes raskere",
+        "Ja, fordi likevektskonstanten blir større"
       ],
       "correct": 0,
       "explain": "Den virker begge veier."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er heterogen katalyse?",
       "options": [
-        "Katalysator og reaktanter i samme fase",
-        "Katalyse uten katalysator",
+        "Katalysatoren er i samme fase som reaktantene",
+        "Katalysatoren løses opp sammen med reaktantene",
         "Katalysatoren er i en annen fase enn reaktantene",
-        "Katalyse i kroppen"
+        "Katalysatoren og reaktantene blandes i én fase"
       ],
       "correct": 2,
       "explain": "Ofte et fast stoff med gass rundt."
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hva er det aktive setet?",
       "options": [
-        "Produktet",
-        "Katalysatorens overflate i bilen",
-        "Et hormon",
+        "Området på enzymet som lager substratet",
+        "Delen av enzymet som frigjør aktiveringsenergi",
+        "Området på enzymet som bestemmer cellens temperatur",
         "Stedet på enzymet der substratet bindes"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hva skjer med et enzym ved for høy temperatur?",
       "options": [
         "Det denatureres og slutter å virke",
-        "Det blir raskere for alltid",
-        "Ingenting",
-        "Det blir til et substrat"
+        "Det får en fastere struktur og øker aktiviteten",
+        "Det binder substratet sterkere og danner mer produkt",
+        "Det omdannes til et annet enzym med ny funksjon"
       ],
       "correct": 0,
       "explain": "Proteinets form ødelegges."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvor virker pepsin best?",
       "options": [
-        "I basisk løsning",
+        "I basisk løsning i tynntarmen",
         "I sur løsning i magesekken",
-        "Ved 100 °C",
-        "I lungene"
+        "I nøytral løsning i munnhulen",
+        "I sur løsning i lungene"
       ],
       "correct": 1,
       "explain": "Tilpasset magesyren.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvilken katalysator brukes i Haber–Bosch-prosessen?",
       "options": [
+        "Nikkel",
         "Platina",
-        "Et enzym",
         "Jern",
-        "Nikkel"
+        "Kobber"
       ],
       "correct": 2,
       "explain": "For ammoniakkproduksjon.",
@@ -164,9 +164,9 @@
       "id": "q08",
       "text": "Hva gjør bilkatalysatoren med CO?",
       "options": [
-        "Gjør det til metan",
         "Gjør det til N₂",
-        "Lar det være",
+        "Gjør det til H₂O",
+        "Gjør det til CH₄",
         "Gjør det til CO₂"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hvordan virker mange medisiner?",
       "options": [
         "Ved å hemme bestemte enzymer",
-        "Ved å denaturere alle proteiner",
-        "Ved å øke temperaturen",
-        "Ved å endre DNA"
+        "Ved å denaturere bestemte enzymer",
+        "Ved å endre DNA-sekvensen i cellene",
+        "Ved å øke mengden substrat for enzymene"
       ],
       "correct": 0,
       "explain": "Enzymhemmere.",
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvorfor er katalysatorer viktige i grønn kjemi?",
       "options": [
-        "De øker avfallet",
+        "De gir høyere energiforbruk og flere biprodukter",
         "De gir lavere energiforbruk og færre biprodukter",
-        "De er alltid giftige",
-        "De krever høy temperatur"
+        "De forskyver likevekten mot produktene og øker utbyttet",
+        "De krever mer energi og gir flere reaksjonstrinn"
       ],
       "correct": 1,
       "explain": "Et av prinsippene i grønn kjemi."
@@ -316,8 +316,8 @@
         "options": [
           "Ammoniakkproduksjon",
           "Salpetersyreproduksjon",
-          "Oljeraffinering",
-          "Esterdannelse"
+          "Svovelsyreproduksjon",
+          "Metanolproduksjon"
         ],
         "correct": 1,
         "explain": "Brukes til kunstgjødsel.",
@@ -329,9 +329,9 @@
         "text": "Hva sier modellen om indusert tilpasning?",
         "options": [
           "Det aktive setet endrer form litt når substratet bindes",
-          "Substratet endrer ikke enzymet",
-          "Enzymet brytes ned",
-          "Enzymet er alltid stivt"
+          "Det aktive setet beholder formen mens substratet bindes",
+          "Substratet endrer form litt mens enzymet forblir uendret",
+          "Det aktive setet endrer form litt når produktet bindes"
         ],
         "correct": 0,
         "explain": "En videreutvikling av nøkkel–lås-modellen.",
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Hvor brukes enzymer industrielt?",
         "options": [
-          "Bare i bilkatalysatorer",
-          "Bare i ammoniakkproduksjon",
+          "I bilkatalysatorer, ammoniakkproduksjon og oljeraffinering",
+          "I sementproduksjon, glassproduksjon og stålframstilling",
           "I vaskemidler, næringsmidler og biodrivstoff",
-          "Ingen steder"
+          "I gjødselproduksjon, bilmotorer og plaststøping"
         ],
         "correct": 2,
         "explain": "Kan erstatte energikrevende prosesser.",
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er en dialekt?",
       "options": [
-        "En sosial språkvariant",
+        "En sosial variant av et språk",
         "En geografisk variant av et språk",
-        "Et fremmedspråk",
-        "En personlig måte å skrive på"
+        "Et språk som kommer fra et annet land",
+        "En personlig variant av en persons språk"
       ],
       "correct": 1,
       "explain": "Dialekter er knyttet til hvor man kommer fra."
@@ -89,9 +89,9 @@
       "text": "Hva er en sosiolekt?",
       "options": [
         "En språkvariant knyttet til en sosial gruppe",
-        "En dialekt fra Vestlandet",
-        "Et samisk språk",
-        "Et ord fra engelsk"
+        "En språkvariant knyttet til et geografisk område",
+        "En språkvariant knyttet til etnisk bakgrunn",
+        "En språkvariant knyttet til én enkelt person"
       ],
       "correct": 0,
       "explain": "Sosiolekter henger sammen med sosial bakgrunn, som yrke eller utdanning."
@@ -103,7 +103,7 @@
         "I Nord-Norge",
         "I Trøndelag",
         "På Sør- og Vestlandet",
-        "Østafjells"
+        "På Østlandet"
       ],
       "correct": 2,
       "explain": "Den bakre r-en er vanlig langs kysten fra Sørlandet til Vestlandet."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er en multietnolekt?",
       "options": [
-        "En dialekt fra én bygd",
-        "Et offisielt språk",
-        "En type skriftspråk",
-        "En språkvariant som oppstår der unge med ulike språkbakgrunner vokser opp sammen"
+        "En språkvariant som oppstår når folk i én bygd bruker samme dialekt",
+        "En språkvariant som brukes i offentlige dokumenter og av myndigheter",
+        "En språkvariant som brukes i bøker og andre skrevne tekster",
+        "En språkvariant som oppstår når unge med ulik språkbakgrunn vokser opp sammen"
       ],
       "correct": 3,
       "explain": "Multietnolekter blander trekk fra flere språk og er vanlige i flerspråklige bymiljøer."
@@ -125,9 +125,9 @@
       "text": "Hva er kodeveksling?",
       "options": [
         "Å bytte språkvariant etter situasjonen",
-        "Å skrive kode på datamaskin",
-        "Å lære et nytt språk",
-        "Å bytte dialekt for alltid"
+        "Å oversette ord mellom språk",
+        "Å lære uttalen til en dialekt",
+        "Å bytte til en ny dialekt"
       ],
       "correct": 0,
       "explain": "Vi kodeveksler når vi snakker annerledes med venner enn i formelle situasjoner."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er spesielt med Norge når det gjelder talemål?",
       "options": [
-        "Alle må snakke bokmål",
+        "Norsk har et offisielt standardtalemål",
         "Vi har ikke noe offisielt standardtalemål",
-        "Dialekter er forbudt på TV",
-        "Alle snakker likt"
+        "Skolen bestemmer hvilket talemål elevene bruker",
+        "Dialekter brukes mest i private samtaler"
       ],
       "correct": 1,
       "explain": "I Norge er det vanlig og akseptert å bruke dialekt i nesten alle sammenhenger."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva betyr idiolekt?",
       "options": [
-        "En dialekt fra Oslo",
-        "Et lånord",
+        "En språkvariant knyttet til et geografisk område",
+        "Et ord som er lånt fra et annet språk",
         "Den personlige måten hver enkelt snakker på",
-        "Et gammelt språk"
+        "Et språk som ikke lenger brukes i dag"
       ],
       "correct": 2,
       "explain": "Ingen snakker helt likt. Idiolekten er ditt eget, personlige språk."
@@ -161,7 +161,7 @@
       "text": "Hvilket språk henter norsk flest lånord fra i dag?",
       "options": [
         "Tysk",
-        "Latin",
+        "Fransk",
         "Svensk",
         "Engelsk"
       ],
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hva sier språkforskere om at noen dialekter er «finere» enn andre?",
       "options": [
-        "At det stemmer",
+        "At enkelte dialekter har mer korrekt grammatikk enn andre",
         "At slike vurderinger handler om holdninger og status, ikke om språket selv",
-        "At bydialekter alltid er finest",
-        "At bare skriftspråk er fint"
+        "At dialekter fra større byer regnes som mer korrekte",
+        "At skriftspråk er mer språklig utviklet enn talemål"
       ],
       "correct": 1,
       "explain": "Forskere beskriver språket slik det brukes. Rangering av dialekter bygger på fordommer."
@@ -184,9 +184,9 @@
       "id": "q10",
       "text": "Hvilke fire hovedgrupper deles norske dialekter ofte i?",
       "options": [
-        "Bokmål, nynorsk, riksmål, høgnorsk",
-        "Nord, sør, øst, vest",
-        "By, bygd, fjell, kyst",
+        "Østlandsk, sørlandsk, vestlandsk og nordnorsk",
+        "Østnorsk, sørnorsk, midtnorsk og nordnorsk",
+        "Bokmål, nynorsk, riksmål og høgnorsk",
         "Østnorsk, vestnorsk, trøndersk og nordnorsk"
       ],
       "correct": 3,
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva er et typisk trekk ved multietnolekt?",
         "options": [
-          "Bare gamle norske ord",
+          "Ord fra eldre norske dialekter og tradisjonell bøying",
           "Ord fra flere språk og av og til en annen ordstilling",
-          "Skarre-r",
-          "Nynorsk skriftform"
+          "Uttale fra én norsk dialekt og vanlig norsk ordstilling",
+          "Skriftformer fra nynorsk og en egen bøying"
         ],
         "correct": 1,
         "explain": "Multietnolekter blander trekk fra ulike språk, som «wolla», og kan ha annen ordstilling."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

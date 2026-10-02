@@ -79,7 +79,7 @@
         "Biologisk",
         "Kognitivt",
         "Psykodynamisk",
-        "Humanistisk"
+        "Sosiokulturelt"
       ],
       "correct": 1,
       "explain": "Overvurdering av fare."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er reduksjonisme?",
       "options": [
-        "Å se helheten",
-        "Å redusere antall deltakere",
+        "Å forklare ved å samle flere deler til en helhet",
+        "Å forklare ved å undersøke samspillet mellom ulike nivåer",
         "Å forklare ved å bryte ned til enkle deler",
-        "Å avvise all forskning"
+        "Å forklare ved å beskrive personens opplevelser i sammenheng"
       ],
       "correct": 2,
       "explain": "Presist, men kan overse helheten."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva viser epigenetikk?",
       "options": [
-        "At gener ikke betyr noe",
-        "At miljø ikke betyr noe",
-        "At alle er like",
+        "At miljøet kan påvirke hvilke gener en person arver",
+        "At genuttrykket påvirkes uavhengig av miljøforhold",
+        "At miljøet påvirker egenskaper uten å påvirke genuttrykket",
         "At miljøet kan påvirke hvordan gener uttrykkes"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvilken metode brukes ofte i det psykodynamiske perspektivet?",
       "options": [
         "Kasusstudier",
-        "fMRI",
-        "Reaksjonstidsforsøk",
-        "Dyreforsøk"
+        "Laboratorieforsøk",
+        "Spørreundersøkelser",
+        "Hjerneskanninger"
       ],
       "correct": 0,
       "explain": "Grundige studier av enkeltpersoner."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvilket spørsmål er viktig når du vurderer en forklaring?",
       "options": [
-        "Om den er gammel",
-        "Om den er støttet av empirisk forskning",
-        "Om den er lang",
-        "Om den er populær"
+        "Om den bygger på forskerens personlige erfaringer",
+        "Om den støttes av relevante empiriske undersøkelser",
+        "Om den har vært brukt i lang tid",
+        "Om den er lett å forstå for alle"
       ],
       "correct": 1,
       "explain": "Også testbarhet og nytte."
@@ -152,7 +152,7 @@
         "Biologisk",
         "Kognitivt",
         "Sosiokulturelt",
-        "Læringspsykologisk"
+        "Psykodynamisk"
       ],
       "correct": 2,
       "explain": "For eksempel prestasjonspress."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva brukes tvillingstudier til?",
       "options": [
-        "Å teste hukommelse",
-        "Å måle reaksjonstid",
-        "Å studere drømmer",
+        "Å måle hukommelse etter søvnmangel",
+        "Å kartlegge reaksjonstid under stress",
+        "Å tolke innholdet i personers drømmer",
         "Å undersøke betydningen av arv"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hvilken behandling for angst bygger på kognitive og læringspsykologiske forklaringer?",
       "options": [
         "Kognitiv atferdsterapi",
-        "Lobotomi",
-        "Drømmetydning",
-        "Hypnose"
+        "Psykodynamisk samtaleterapi",
+        "Klientsentrert samtaleterapi",
+        "Biologisk medikamentell behandling"
       ],
       "correct": 0,
       "explain": "Har sterk forskningsstøtte.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvorfor er en helhetlig forklaring ofte best?",
       "options": [
-        "Fordi den er kortest",
+        "Fordi den gjør komplekse fenomener enklere å måle",
         "Fordi fenomener som angst har årsaker på flere nivåer",
-        "Fordi den bare bruker ett perspektiv",
-        "Fordi den ikke kan testes"
+        "Fordi den bygger på ett perspektiv om gangen",
+        "Fordi den erstatter forskning med personlige erfaringer"
       ],
       "correct": 1,
       "explain": "Biologisk, psykologisk og sosialt."
@@ -310,7 +310,7 @@
           "Lillehjernen",
           "Amygdala",
           "Synsbarken",
-          "Ryggmargen"
+          "Hjernebjelken"
         ],
         "correct": 1,
         "explain": "Viktig for frykt.",
@@ -322,9 +322,9 @@
         "text": "Hva legger det humanistiske perspektivet vekt på?",
         "options": [
           "Egne verdier, aksept og selvaktualisering",
-          "Gener og hormoner",
-          "Betinging",
-          "Ubevisste drifter"
+          "Gener, hormoner og hjernens aktivitet",
+          "Betinging, belønning og observerte handlinger",
+          "Ubevisste drifter, barndom og indre konflikter"
         ],
         "correct": 0,
         "explain": "Maslow og Rogers."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hvilken metode passer det sosiokulturelle perspektivet?",
         "options": [
-          "Hjerneskanning",
-          "Hormonmålinger",
+          "Laboratorieforsøk med kontrollgrupper",
+          "Hjerneskanninger under stressoppgaver",
           "Tverrkulturelle sammenligninger",
-          "Dyreforsøk"
+          "Hormonmålinger under angstreaksjoner"
         ],
         "correct": 2,
         "explain": "Også feltstudier.",
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

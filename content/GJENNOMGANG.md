@@ -14,7 +14,7 @@ Læreplan: [ARB01-03](https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurder
 - 🟡 **Rettigheter og plikter i arbeidslivet** – utkast (410 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
 - 🟡 **Elevbedrift og entreprenørskap** – utkast (361 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Yrkesfag og veien videre** – utkast (397 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1067 ord · 24 kort (16 kjerne) · 14 quiz · 20 i miniprøve · 25 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1067 ord · 24 kort (15 kjerne) · 14 quiz · 20 i miniprøve · 25 noder i tankekart)
 
 ## Engelsk (10) – 8 av 8 temaer ferdig
 
@@ -27,7 +27,7 @@ Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurder
 - 🟡 **Young adult literature** – utkast (413 ord · 15 kort (9 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Film, music and media** – utkast (423 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Australia, New Zealand and Canada** – utkast (421 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1491 ord · 20 kort (12 kjerne) · 15 quiz · 20 i miniprøve · 28 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1491 ord · 20 kort (13 kjerne) · 15 quiz · 20 i miniprøve · 28 noder i tankekart)
 
 ## Engelsk fordypning (10) – 6 av 6 temaer ferdig
 
@@ -38,7 +38,7 @@ Læreplan: [ENG03-02](https://www.udir.no/lk20/eng03-02/kompetansemaal-og-vurder
 - 🟡 **Language in different media** – utkast (369 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
 - 🟡 **Persuasion and rhetoric** – utkast (384 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
 - 🟡 **Self-presentation online** – utkast (407 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1082 ord · 22 kort (15 kjerne) · 15 quiz · 20 i miniprøve · 28 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1082 ord · 22 kort (16 kjerne) · 15 quiz · 20 i miniprøve · 28 noder i tankekart)
 
 ## Fransk (10) – 7 av 7 temaer ferdig
 
@@ -105,7 +105,7 @@ Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurder
 - 🟡 **Digitale medier, språk og kommunikasjon** – utkast (373 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Artikkel, drøfting og debattinnlegg** – utkast (347 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🟡 **Nynorsk: skriv betre** – utkast (370 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1226 ord · 21 kort (18 kjerne) · 14 quiz · 20 i miniprøve · 29 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1226 ord · 21 kort (19 kjerne) · 14 quiz · 20 i miniprøve · 29 noder i tankekart)
 
 ## Samfunnsfag (10) – 8 av 8 temaer ferdig
 
@@ -130,7 +130,7 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Ungdom, medier og læringsstrategier** – utkast (410 ord · 16 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Kunst og kultur** – utkast (386 ord · 16 kort (2 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Miljø og samfunn** – utkast (360 ord · 16 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1370 ord · 17 kort (17 kjerne) · 13 quiz · 19 i miniprøve · 24 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1370 ord · 17 kort (16 kjerne) · 13 quiz · 19 i miniprøve · 24 noder i tankekart)
 
 ## Tysk (10) – 7 av 7 temaer ferdig
 
@@ -142,7 +142,7 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Ungdom, medier og læringsstrategier** – utkast (388 ord · 16 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Kunst og kultur** – utkast (420 ord · 15 kort (3 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Miljø og samfunn** – utkast (375 ord · 16 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1344 ord · 18 kort (17 kjerne) · 12 quiz · 18 i miniprøve · 25 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1344 ord · 18 kort (18 kjerne) · 12 quiz · 18 i miniprøve · 25 noder i tankekart)
 
 ## Utdanningsvalg (10) – 5 av 5 temaer ferdig
 
@@ -152,7 +152,7 @@ Læreplan: [UTV01-03](https://www.udir.no/lk20/utv01-03/kompetansemaal-og-vurder
 - 🟡 **CV, jobbsøknad og intervju** – utkast (390 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Arbeid og utenforskap** – utkast (344 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Overganger og mestring** – utkast (396 ord · 15 kort (9 kjerne) · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1076 ord · 24 kort (21 kjerne) · 15 quiz · 20 i miniprøve · 25 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1076 ord · 24 kort (22 kjerne) · 15 quiz · 20 i miniprøve · 25 noder i tankekart)
 
 ## Arbeidslivsfag (8) – 5 av 5 temaer ferdig
 
@@ -162,7 +162,7 @@ Læreplan: [ARB01-03](https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurder
 - 🟡 **HMS og sikkerhet** – utkast (387 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Samarbeid og vurdering** – utkast (346 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
 - 🟡 **Kvalitet, levering og kundeservice** – utkast (356 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1087 ord · 22 kort (18 kjerne) · 12 quiz · 19 i miniprøve · 25 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1087 ord · 22 kort (21 kjerne) · 12 quiz · 19 i miniprøve · 25 noder i tankekart)
 
 ## Engelsk (8) – 7 av 7 temaer ferdig
 
@@ -174,7 +174,7 @@ Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurder
 - 🟡 **Writing narratives** – utkast (372 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **English around the world** – utkast (409 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **The United Kingdom** – utkast (421 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1256 ord · 25 kort (25 kjerne) · 13 quiz · 19 i miniprøve · 30 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1256 ord · 25 kort (24 kjerne) · 13 quiz · 19 i miniprøve · 30 noder i tankekart)
 
 ## Engelsk fordypning (8) – 6 av 6 temaer ferdig
 
@@ -197,7 +197,7 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Skole og fritid** – utkast (360 ord · 16 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Grammatikk – grunnlaget** – utkast (408 ord · 16 kort (16 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Frankrike og den fransktalende verden** – utkast (382 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1391 ord · 18 kort (17 kjerne) · 12 quiz · 18 i miniprøve · 25 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1391 ord · 18 kort (16 kjerne) · 12 quiz · 18 i miniprøve · 25 noder i tankekart)
 
 ## KRLE (8) – 7 av 7 temaer ferdig
 
@@ -209,7 +209,7 @@ Læreplan: [RLE01-04](https://www.udir.no/lk20/rle01-04/kompetansemaal-og-vurder
 - 🟡 **Livssynshumanisme og ikke-religiøse livssyn** – utkast (423 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Samisk religion og urfolks livssyn** – utkast (383 ord · 15 kort (9 kjerne) · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
 - 🟡 **Etiske teorier og dilemmaer** – utkast (417 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1154 ord · 25 kort (23 kjerne) · 15 quiz · 20 i miniprøve · 32 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1154 ord · 25 kort (24 kjerne) · 15 quiz · 20 i miniprøve · 32 noder i tankekart)
 
 ## Matematikk (8) – 9 av 9 temaer ferdig
 
@@ -223,7 +223,7 @@ Læreplan: [MAT01-06](https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurder
 - 🟡 **Ulikheter** – utkast (369 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
 - 🟡 **Funksjoner** – utkast (385 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Algoritmer og programmering** – utkast (365 ord · 15 kort (9 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1079 ord · 16 kort (16 kjerne) · 12 quiz · 20 i miniprøve · 25 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1079 ord · 16 kort (15 kjerne) · 12 quiz · 20 i miniprøve · 25 noder i tankekart)
 
 ## Naturfag (8) – 8 av 8 temaer ferdig
 
@@ -264,7 +264,7 @@ Læreplan: [SAF01-05](https://www.udir.no/lk20/saf01-05/kompetansemaal-og-vurder
 - 🟡 **Befolkning, bosetting og levekår** – utkast (365 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
 - 🔴 **Digitale spor, personvern og samfunnsdebatt** – sjekkes (441 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
   - Sjekk: Lov om aldersgrense for sosiale medier (fra 1. januar det året man fyller 16) var foreslått, men ikke vedtatt per september 2026. Oppdater temaet når Stortinget har behandlet loven.
-- 🟡 **Repetisjon av hele faget** – utkast (1376 ord · 18 kort (16 kjerne) · 15 quiz · 20 i miniprøve · 26 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1376 ord · 18 kort (18 kjerne) · 15 quiz · 20 i miniprøve · 26 noder i tankekart)
 
 ## Spansk (8) – 7 av 7 temaer ferdig
 
@@ -288,7 +288,7 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Skole og fritid** – utkast (316 ord · 16 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Grammatikk – grunnlaget** – utkast (365 ord · 16 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Tyskspråklige land og kultur** – utkast (336 ord · 15 kort (5 kjerne) · 10 quiz · 15 i miniprøve · 25 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1111 ord · 21 kort (21 kjerne) · 14 quiz · 20 i miniprøve · 26 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1111 ord · 21 kort (20 kjerne) · 14 quiz · 20 i miniprøve · 26 noder i tankekart)
 
 ## Arbeidslivsfag (9) – 5 av 5 temaer ferdig
 
@@ -298,7 +298,7 @@ Læreplan: [ARB01-03](https://www.udir.no/lk20/arb01-03/kompetansemaal-og-vurder
 - 🟡 **Mat og hygiene i storkjøkken** – utkast (391 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Service og omsorg** – utkast (364 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Bærekraft i arbeidslivet** – utkast (382 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1032 ord · 22 kort (10 kjerne) · 15 quiz · 20 i miniprøve · 25 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1032 ord · 22 kort (22 kjerne) · 15 quiz · 20 i miniprøve · 25 noder i tankekart)
 
 ## Engelsk (9) – 7 av 7 temaer ferdig
 
@@ -359,7 +359,7 @@ Læreplan: [MAT01-06](https://www.udir.no/lk20/mat01-06/kompetansemaal-og-vurder
 - 🟡 **Statistikk i media** – utkast (349 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🟡 **Sannsynlighet** – utkast (379 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🟡 **Simulering med programmering** – utkast (390 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1312 ord · 20 kort (19 kjerne) · 12 quiz · 20 i miniprøve · 29 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1312 ord · 20 kort (20 kjerne) · 12 quiz · 20 i miniprøve · 29 noder i tankekart)
 
 ## Naturfag (9) – 8 av 8 temaer ferdig
 
@@ -410,7 +410,7 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Klær og handel** – utkast (424 ord · 17 kort (17 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Å fortelle om fortiden** – utkast (365 ord · 16 kort (16 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Høytider og tradisjoner** – utkast (384 ord · 16 kort (8 kjerne) · 10 quiz · 15 i miniprøve · 24 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1264 ord · 20 kort (16 kjerne) · 12 quiz · 18 i miniprøve · 27 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1264 ord · 20 kort (17 kjerne) · 12 quiz · 18 i miniprøve · 27 noder i tankekart)
 
 ## Tysk (9) – 7 av 7 temaer ferdig
 
@@ -447,7 +447,7 @@ Læreplan: [ENG01-06](https://www.udir.no/lk20/eng01-06/kompetansemaal-og-vurder
 - 🟡 **Comparing sources and using them well** – utkast (444 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Diversity and society in the English-speaking world** – utkast (493 ord · 15 kort (7 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Film, music and games** – utkast (446 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1493 ord · 22 kort (19 kjerne) · 12 quiz · 20 i miniprøve · 32 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1493 ord · 22 kort (20 kjerne) · 12 quiz · 20 i miniprøve · 32 noder i tankekart)
 
 ## Fransk (vg1) – 7 av 7 temaer ferdig
 
@@ -459,7 +459,7 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Samfunn i Frankrike og den fransktalende verden** – utkast (388 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Fransk historie: revolusjon, imperium og Europa** – utkast (376 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Litteratur, kunst, musikk og film** – utkast (387 ord · 15 kort (4 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1336 ord · 23 kort (16 kjerne) · 12 quiz · 18 i miniprøve · 30 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1336 ord · 23 kort (18 kjerne) · 12 quiz · 18 i miniprøve · 30 noder i tankekart)
 
 ## Geografi (vg1) – 8 av 8 temaer ferdig
 
@@ -484,7 +484,7 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Familie, hobbyer og hverdag** – utkast (367 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Kinesiske tegn** – utkast (450 ord · 15 kort (3 kjerne) · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
 - 🟡 **Kina: geografi, høytider og kultur** – utkast (388 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1161 ord · 19 kort (18 kjerne) · 11 quiz · 17 i miniprøve · 26 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1161 ord · 19 kort (19 kjerne) · 11 quiz · 17 i miniprøve · 26 noder i tankekart)
 
 ## Matematikk 1P (vg1) – 9 av 9 temaer ferdig
 
@@ -564,7 +564,7 @@ Læreplan: [SAK01-01](https://www.udir.no/lk20/sak01-01/kompetansemaal-og-vurder
 - 🟡 **Medborgerskap, politiske systemer og makt** – utkast (385 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
 - 🟡 **Menneskerettigheter, rasisme og ytringsfrihet** – utkast (442 ord · 15 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Å analysere en konflikt eller utfordring** – utkast (374 ord · 15 kort (13 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1411 ord · 24 kort (22 kjerne) · 12 quiz · 18 i miniprøve · 37 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1411 ord · 24 kort (21 kjerne) · 12 quiz · 18 i miniprøve · 37 noder i tankekart)
 
 ## Spansk (vg1) – 7 av 7 temaer ferdig
 
@@ -576,7 +576,7 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Samfunn i Spania og Latin-Amerika** – utkast (399 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Spansktalende historie: fra 1492 til demokrati** – utkast (360 ord · 15 kort (11 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Litteratur, kunst, musikk og film** – utkast (373 ord · 15 kort (4 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1358 ord · 19 kort (12 kjerne) · 12 quiz · 18 i miniprøve · 26 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1358 ord · 19 kort (10 kjerne) · 12 quiz · 18 i miniprøve · 26 noder i tankekart)
 
 ## Tysk (vg1) – 7 av 7 temaer ferdig
 
@@ -588,7 +588,7 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Samfunn i Tyskland, Østerrike og Sveits** – utkast (375 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🟡 **Tysk historie: fra keiserrike til gjenforening** – utkast (362 ord · 15 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🟡 **Litteratur, musikk og film** – utkast (384 ord · 15 kort (5 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1286 ord · 25 kort (19 kjerne) · 15 quiz · 20 i miniprøve · 30 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1286 ord · 25 kort (21 kjerne) · 15 quiz · 20 i miniprøve · 30 noder i tankekart)
 
 ## Biologi 1 (vg2) – 12 av 12 temaer ferdig
 
@@ -635,7 +635,7 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Studier og arbeid i fransktalende land** – utkast (335 ord · 15 kort (15 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Å lese fransk litteratur** – utkast (379 ord · 15 kort (8 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Ungdomskultur, slang og språklæring** – utkast (380 ord · 15 kort (7 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1262 ord · 23 kort (12 kjerne) · 14 quiz · 20 i miniprøve · 30 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1262 ord · 23 kort (17 kjerne) · 14 quiz · 20 i miniprøve · 30 noder i tankekart)
 
 ## Fysikk 1 (vg2) – 11 av 11 temaer ferdig
 
@@ -778,7 +778,7 @@ Læreplan: [MFL01-04](https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurder
 - 🟡 **Personalet og ledelsen i markedsføringen** – utkast (418 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Regelverk og etikk i markedsføring** – utkast (424 ord · 16 kort (12 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Markedsføring og bærekraftig utvikling** – utkast (453 ord · 16 kort (10 kjerne) · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1412 ord · 20 kort (18 kjerne) · 14 quiz · 20 i miniprøve · 35 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1412 ord · 20 kort (19 kjerne) · 14 quiz · 20 i miniprøve · 35 noder i tankekart)
 
 ## Matematikk 2P (vg2) – 8 av 8 temaer ferdig
 
@@ -894,7 +894,7 @@ Læreplan: [RTL01-05](https://www.udir.no/lk20/rtl01-05/kompetansemaal-og-vurder
 - 🟡 **Likestilling og diskriminering** – utkast (434 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Avtalerett, forbrukerkjøp og angrerett** – utkast (493 ord · 15 kort (14 kjerne) · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Aktuelle og rettshistoriske juridiske spørsmål** – utkast (442 ord · 15 kort (8 kjerne) · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
-- 🟡 **Repetisjon av hele faget** – utkast (1163 ord · 20 kort (20 kjerne) · 12 quiz · 19 i miniprøve · 31 noder i tankekart)
+- 🟡 **Repetisjon av hele faget** – utkast (1163 ord · 20 kort (19 kjerne) · 12 quiz · 19 i miniprøve · 31 noder i tankekart)
 
 ## Samfunnsøkonomi 1 (vg2) – 15 av 15 temaer ferdig
 

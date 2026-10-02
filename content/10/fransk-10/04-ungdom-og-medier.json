@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva er «le portable» på fransk?",
       "options": [
-        "En bærbar koffert",
-        "En port",
+        "Nettbrettet",
+        "Fasttelefonen",
         "Mobiltelefonen",
-        "En bærepose"
+        "Digitalkameraet"
       ],
       "correct": 2,
       "explain": "Ordet betyr egentlig «den bærbare»."
@@ -94,9 +94,9 @@
       "text": "Hva betyr «partager» på sosiale medier?",
       "options": [
         "Å dele",
-        "Å slette",
-        "Å like",
-        "Å kommentere"
+        "Å lagre",
+        "Å følge",
+        "Å blokkere"
       ],
       "correct": 0,
       "explain": "«partager» betyr også å dele noe med noen."
@@ -105,9 +105,9 @@
       "id": "q03",
       "text": "Hvordan innleder du en mening på fransk?",
       "options": [
-        "Bonjour, …",
-        "Grosses bises, …",
-        "Il était une fois …",
+        "Tout d'abord, …",
+        "Par exemple, …",
+        "En conclusion, …",
         "À mon avis, …"
       ],
       "correct": 3,
@@ -117,10 +117,10 @@
       "id": "q04",
       "text": "Hva betyr «D'un côté … de l'autre côté …»?",
       "options": [
-        "Først … til slutt …",
+        "Først kommer én ting … til slutt kommer en annen …",
         "På den ene siden … på den andre siden …",
-        "Både … og …",
-        "Enten … eller …"
+        "Både den ene tingen … og den andre tingen …",
+        "Enten velger man én ting … eller man velger den andre …"
       ],
       "correct": 1,
       "explain": "Nyttig når du drøfter fordeler og ulemper."
@@ -130,9 +130,9 @@
       "text": "Hva er «le verlan»?",
       "options": [
         "Ungdomsslang der man snur stavelser, som «ouf» for «fou»",
-        "En fransk avis",
-        "En dans",
-        "En type mobil"
+        "Fransk ungdomsslang der man forkorter ord, som «prof» for «professeur»",
+        "Fransk ungdomsslang der man blander franske og engelske ord",
+        "Fransk ungdomsslang der man gir ord nye betydninger"
       ],
       "correct": 0,
       "explain": "«verlan» er selv «l'envers» snudd baklengs."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er «le cyberharcèlement»?",
       "options": [
-        "Et dataspill",
-        "En nettbutikk",
-        "Et virus",
-        "Mobbing på nett"
+        "Spredning av virus via internett",
+        "Kjøp og salg av varer via internett",
+        "Spilling av dataspill via internett",
+        "Mobbing og trakassering via internett"
       ],
       "correct": 3,
       "explain": "«le harcèlement» betyr trakassering."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er «faux amis»?",
       "options": [
-        "Uvenner",
-        "Falske profiler",
-        "Ord som ligner et ord på et annet språk, men betyr noe annet",
-        "Venner på nett"
+        "Ord som ligner på et ord på et annet språk og betyr det samme",
+        "Ord som uttales likt på to språk, men skrives på ulike måter",
+        "Ord som ligner på et ord på et annet språk, men betyr noe annet",
+        "Ord som skrives likt på to språk, men uttales på ulike måter"
       ],
       "correct": 2,
       "explain": "For eksempel betyr «une librairie» en bokhandel."
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "Hva betyr «télécharger»?",
       "options": [
-        "Å lade mobilen",
+        "Å laste opp",
         "Å laste ned",
-        "Å ringe",
-        "Å skrive"
+        "Å åpne en fil",
+        "Å lagre en fil"
       ],
       "correct": 1,
       "explain": "Å lade mobilen heter «recharger»."
@@ -178,9 +178,9 @@
       "text": "Hvilken ressurs tilbyr gratis materiell for å lære fransk?",
       "options": [
         "TV5Monde",
-        "Spotify",
-        "Google Maps",
-        "Instagram"
+        "France 24",
+        "Euronews",
+        "Canal+"
       ],
       "correct": 0,
       "explain": "TV5Monde har øvelser på flere nivåer.",
@@ -191,9 +191,9 @@
       "text": "Hva betyr «librairie» – et eksempel på en falsk venn?",
       "options": [
         "Bibliotek",
-        "Frihet",
+        "Bokforlag",
         "Bokhandel",
-        "Bibel"
+        "Bokavdeling"
       ],
       "correct": 2,
       "explain": "Biblioteket heter «la bibliothèque».",
@@ -330,8 +330,8 @@
         "options": [
           "Fordelen",
           "Ulempen",
-          "Meldingen",
-          "Mobilen"
+          "Muligheten",
+          "Resultatet"
         ],
         "correct": 1,
         "explain": "Fordelen heter «l'avantage»."
@@ -342,9 +342,9 @@
         "text": "Hva betyr «Je passe deux heures par jour sur mon portable»?",
         "options": [
           "Jeg bruker to timer om dagen på mobilen",
-          "Jeg har to mobiler",
-          "Mobilen koster to euro",
-          "Jeg ringer to ganger om dagen"
+          "Jeg bruker to timer om dagen på nettbrettet",
+          "Jeg bruker to timer i uka på mobilen",
+          "Jeg bruker én time om dagen på mobilen"
         ],
         "correct": 0,
         "explain": "«passer du temps» betyr å bruke tid."
@@ -354,10 +354,10 @@
         "type": "flervalg",
         "text": "Hva betyr «la vie privée»?",
         "options": [
-          "Livet i byen",
-          "Et privat selskap",
+          "Familielivet",
+          "Hverdagslivet",
           "Privatlivet",
-          "En privat skole"
+          "Det offentlige livet"
         ],
         "correct": 2,
         "explain": "Personvern handler om å beskytte privatlivet."
@@ -443,6 +443,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -108,21 +108,21 @@
       "id": "q01",
       "text": "Hva er ekvivalenspunktet i en titrering?",
       "options": [
-        "Punktet der indikatoren skifter farge",
-        "Punktet der stoffene har reagert i det forholdet reaksjonslikningen viser",
-        "Punktet der pH er 0",
-        "Punktet der titreringen starter"
+        "Punktet der pH-verdien i løsningen er lik 7",
+        "Punktet der stoffene har reagert i forholdet reaksjonslikningen viser",
+        "Punktet der like store volumer av løsningene er blandet",
+        "Punktet der konsentrasjonene av syre og base er like"
       ],
       "correct": 1,
-      "explain": "Ekvivalenspunktet bestemmes av støkiometrien. Endepunktet, der indikatoren skifter farge, er det vi observerer, og det bør ligge nær ekvivalenspunktet."
+      "explain": "Ekvivalenspunktet bestemmes av stoffmengdeforholdet i reaksjonslikningen. Fargeendringen er et observert endepunkt som bør ligge nær ekvivalenspunktet."
     },
     {
       "id": "q02",
       "text": "Hvilket utstyr brukes til å tilsette titrerløsningen nøyaktig?",
       "options": [
-        "Begerglass",
-        "Målesylinder",
-        "Reagensrør",
+        "Målekolbe",
+        "Erlenmeyerkolbe",
+        "Målepipette",
         "Byrette"
       ],
       "correct": 3,
@@ -133,9 +133,9 @@
       "text": "25,0 mL saltsyre titreres med 0,100 mol/L NaOH, og det går med 20,0 mL. Hva er konsentrasjonen av saltsyren?",
       "options": [
         "0,0800 mol/L",
-        "0,125 mol/L",
-        "0,100 mol/L",
-        "0,0500 mol/L"
+        "0,0400 mol/L",
+        "0,160 mol/L",
+        "0,200 mol/L"
       ],
       "correct": 0,
       "explain": "n(NaOH) = 0,100 mol/L · 0,0200 L = 0,00200 mol. Forholdet er 1 : 1, så c(HCl) = 0,00200 mol / 0,0250 L = 0,0800 mol/L."
@@ -144,22 +144,22 @@
       "id": "q04",
       "text": "Hvorfor passer fenolftalein godt når eddiksyre titreres med natronlut?",
       "options": [
-        "Den er den billigste indikatoren",
-        "Den virker bare i sure løsninger",
+        "Ekvivalenspunktet ligger i surt område",
+        "Ekvivalenspunktet ligger nær pH 7",
         "Ekvivalenspunktet ligger i basisk område",
-        "Den reagerer med eddiksyre"
+        "Ekvivalenspunktet ligger i nøytralt område"
       ],
       "correct": 2,
-      "explain": "Når en svak syre titreres med en sterk base, har løsningen pH over 7 i ekvivalenspunktet. Fenolftalein skifter farge i basisk område og treffer derfor godt."
+      "explain": "Når en svak syre titreres med en sterk base, er pH over 7 ved ekvivalenspunktet. Fenolftalein skifter farge i basisk område."
     },
     {
       "id": "q05",
       "text": "Hva kjennetegner gravimetrisk titrering?",
       "options": [
-        "Man veier et bunnfall som dannes",
-        "Man måler pH med pH-meter",
+        "Volumet titrerløsning bestemmes ved avlesning",
+        "Massen av analytten bestemmes ved veiing",
         "Mengden titrerløsning bestemmes ved veiing",
-        "Man bruker ingen indikator"
+        "pH-verdien bestemmes ved hjelp av pH-meter"
       ],
       "correct": 2,
       "explain": "I gravimetrisk titrering veier man hvor mye titrerløsning som er tilsatt, i stedet for å lese av et volum på en byrette."
@@ -168,10 +168,10 @@
       "id": "q06",
       "text": "Hva skjer når et elektron faller fra et høyere til et lavere energinivå?",
       "options": [
-        "Atomet tar opp lys",
+        "Atomet tar opp energi og går til et høyere energinivå",
         "Atomet sender ut lys med en bestemt energi",
-        "Atomet blir til et ion",
-        "Atomkjernen endres"
+        "Atomet sender ut lys med alle mulige energier",
+        "Atomet sender ut et elektron når det går ned i energinivå"
       ],
       "correct": 1,
       "explain": "Energiforskjellen mellom nivåene sendes ut som lys. Fordi nivåene har bestemte energier, får lyset bestemte bølgelengder."
@@ -180,47 +180,47 @@
       "id": "q07",
       "text": "Hvorfor har hvert grunnstoff sitt eget linjespekter?",
       "options": [
-        "Alle grunnstoffer har det samme spekteret",
-        "Grunnstoffene har ulik farge i fast form",
-        "Grunnstoffene har ulikt antall nøytroner",
+        "Energinivåene er like for alle grunnstoffer",
+        "Linjespekteret bestemmes av antall nøytroner i atomet",
+        "Linjespekteret bestemmes av fargen på grunnstoffet i fast form",
         "Energinivåene er forskjellige for hvert grunnstoff"
       ],
       "correct": 3,
-      "explain": "Energinivåene avhenger av kjerneladningen og elektronene, som er unike for hvert grunnstoff. Da blir også energiforskjellene, og dermed linjene i spekteret, unike."
+      "explain": "Energinivåene avhenger av kjerneladningen og elektronene i atomet. Derfor får hvert grunnstoff sine egne energiforskjeller og spektrallinjer."
     },
     {
       "id": "q08",
       "text": "Hvilken flammefarge gir natrium?",
       "options": [
         "Gul",
-        "Lilla",
-        "Grønn",
-        "Blå"
+        "Rød",
+        "Oransje",
+        "Hvit"
       ],
       "correct": 0,
-      "explain": "Natrium gir en sterk gul flamme. Kalium gir lilla og kobber grønn flamme.",
+      "explain": "Natrium gir en sterk gul flamme. Andre grunnstoffer gir andre karakteristiske flammefarger.",
       "niva": "eksempel"
     },
     {
       "id": "q09",
       "text": "Hva sier Beer–Lamberts lov?",
       "options": [
-        "Absorbansen er omvendt proporsjonal med konsentrasjonen",
+        "Transmisjonen er proporsjonal med konsentrasjonen",
         "Absorbansen er proporsjonal med konsentrasjonen",
-        "Lys med kort bølgelengde har lav energi",
-        "Fargen på en løsning avhenger av temperaturen"
+        "Absorbansen er proporsjonal med bølgelengden",
+        "Absorbansen er proporsjonal med temperaturen"
       ],
       "correct": 1,
-      "explain": "Dobbelt så høy konsentrasjon gir dobbelt så høy absorbans. Det gjør at vi kan bruke en rett standardkurve for å finne ukjente konsentrasjoner."
+      "explain": "Ifølge Beer–Lamberts lov øker absorbansen proporsjonalt med konsentrasjonen når de andre forholdene er like. En standardkurve kan brukes til å finne en ukjent konsentrasjon."
     },
     {
       "id": "q10",
       "text": "Hva kan IR-spektroskopi brukes til?",
       "options": [
-        "Å finne hvilke bindinger og funksjonelle grupper et molekyl har",
-        "Å måle pH i en løsning",
-        "Å bestemme massen til et molekyl",
-        "Å måle temperaturen i en reaksjon"
+        "Å identifisere bindinger og funksjonelle grupper i molekylet",
+        "Å bestemme molekylmassen ved å analysere ioner",
+        "Å måle konsentrasjonen fra synlig lysabsorpsjon",
+        "Å identifisere grunnstoffer fra flammens farge"
       ],
       "correct": 0,
       "explain": "Ulike bindinger, som O–H og C=O, absorberer infrarødt lys ved ulike bølgelengder. Toppene i spekteret avslører derfor hvilke grupper som finnes.",
@@ -230,22 +230,22 @@
       "id": "q11",
       "text": "Hvilken av disse er en systematisk feil?",
       "options": [
-        "Du leser av byretten litt ulikt fra gang til gang",
-        "Temperaturen i rommet varierer litt",
-        "Du tilsetter noen dråper for mye i én av titreringene",
+        "Menisken avleses litt ulikt i hver titrering",
+        "Noen dråper titrerløsning går forbi kolben i én titrering",
+        "Prøvevolumet varierer litt mellom parallelle titreringer",
         "Titrerløsningen har feil konsentrasjon i alle titreringene"
       ],
       "correct": 3,
-      "explain": "En feil konsentrasjon i titrerløsningen påvirker alle resultatene likt og forsvinner ikke med flere parallelle titreringer. De andre feilene er tilfeldige."
+      "explain": "En feil konsentrasjon i titrerløsningen påvirker resultatene i samme retning og forsvinner ikke ved gjentakelser. De andre alternativene beskriver feil som kan variere fra måling til måling."
     },
     {
       "id": "q12",
       "text": "Hva brukes massespektrometri til?",
       "options": [
-        "Å måle fargen på en løsning",
-        "Å finne ut hvilke bindinger et molekyl har",
+        "Å identifisere funksjonelle grupper ved hjelp av infrarødt lys",
+        "Å bestemme konsentrasjonen ut fra løsningens lysabsorpsjon",
         "Å bestemme massen til molekyler og bitene de består av",
-        "Å måle pH"
+        "Å identifisere grunnstoffer ved å undersøke flammefargen"
       ],
       "correct": 2,
       "explain": "I et massespektrometer blir molekylene til ioner som sorteres etter masse. Det gir molekylmassen og et mønster av bruddstykker.",
@@ -394,10 +394,10 @@
         "type": "flervalg",
         "text": "10,0 mL 0,200 mol/L NaOH nøytraliserer 20,0 mL eddiksyre. Hva er konsentrasjonen av eddiksyren?",
         "options": [
-          "0,400 mol/L",
+          "0,0800 mol/L",
           "0,100 mol/L",
-          "0,200 mol/L",
-          "0,0100 mol/L"
+          "0,0500 mol/L",
+          "0,0200 mol/L"
         ],
         "correct": 1,
         "explain": "n(NaOH) = 0,200 mol/L · 0,0100 L = 0,00200 mol. Med forhold 1 : 1 blir c = 0,00200 mol / 0,0200 L = 0,100 mol/L."
@@ -415,9 +415,9 @@
         "text": "Omtrent hvilken pH har løsningen i ekvivalenspunktet når saltsyre titreres med natronlut?",
         "options": [
           "Omtrent 7",
-          "Omtrent 3",
-          "Omtrent 10",
-          "Omtrent 1"
+          "Omtrent 5",
+          "Omtrent 8",
+          "Omtrent 12"
         ],
         "correct": 0,
         "explain": "Sterk syre og sterk base gir et nøytralt salt (NaCl) og vann, så pH er omtrent 7 i ekvivalenspunktet."
@@ -434,23 +434,23 @@
         "type": "flervalg",
         "text": "Hvorfor tar man flere parallelle titreringer?",
         "options": [
-          "For å bruke opp løsningen",
-          "Fordi indikatoren ellers ikke virker",
+          "For å gjøre indikatorskiftet tydeligere i hver titrering",
+          "For å få ekvivalenspunktet til å ligge ved pH 7",
           "For å redusere betydningen av tilfeldige feil",
-          "For å fjerne systematiske feil"
+          "For å øke mengden titrerløsning som brukes"
         ],
         "correct": 2,
-        "explain": "Gjennomsnittet av flere målinger påvirkes mindre av tilfeldige feil. Systematiske feil blir derimot ikke borte av at man gjentar forsøket."
+        "explain": "Gjennomsnittet av flere målinger påvirkes mindre av tilfeldige feil. Gjentakelser fjerner ikke systematiske feil."
       },
       {
         "id": "m07",
         "type": "flervalg",
         "text": "Hvordan kan du bestemme konsentrasjonen av et farget stoff med et spektrofotometer?",
         "options": [
-          "Ved å måle pH",
+          "Ved å måle prøvens temperatur og bruke en tabell",
           "Ved å lage en standardkurve av absorbans mot kjente konsentrasjoner",
-          "Ved å veie løsningen",
-          "Ved å måle kokepunktet"
+          "Ved å veie prøven før og etter oppvarming",
+          "Ved å måle lysets bølgelengde uten standardløsninger"
         ],
         "correct": 1,
         "explain": "Du måler absorbansen for løsninger med kjent konsentrasjon og lager en standardkurve. Så leser du av den ukjente konsentrasjonen ut fra absorbansen til prøven."
@@ -544,6 +544,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

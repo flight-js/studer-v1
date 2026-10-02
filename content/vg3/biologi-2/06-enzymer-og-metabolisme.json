@@ -78,8 +78,8 @@
       "options": [
         "Oppbygging som krever energi",
         "Nedbrytning som frigjør energi",
-        "Fotosyntese",
-        "Proteinsyntese"
+        "Nedbrytning som lagrer energi",
+        "Oppbygging som frigjør energi"
       ],
       "correct": 1,
       "explain": "For eksempel celleånding."
@@ -89,9 +89,9 @@
       "text": "Hvordan øker enzymer reaksjonsfarten?",
       "options": [
         "Ved å senke aktiveringsenergien",
-        "Ved å øke temperaturen",
-        "Ved å bli forbrukt",
-        "Ved å endre ΔH"
+        "Ved å øke reaksjonens temperatur",
+        "Ved å senke reaksjonens energibehov",
+        "Ved å øke substratets konsentrasjon"
       ],
       "correct": 0,
       "explain": "Reaksjonen går raskt ved kroppstemperatur."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva skjer ved for høy temperatur?",
       "options": [
-        "Enzymet blir raskere hele tiden",
-        "Enzymet endrer substrat",
-        "Enzymet denatureres",
-        "Ingenting"
+        "Enzymet får et mer aktivt sete",
+        "Enzymet endrer substratets opprinnelige form",
+        "Enzymet mister sin opprinnelige form",
+        "Enzymet binder et nytt substrat"
       ],
       "correct": 2,
       "explain": "Proteinets form ødelegges."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvorfor øker ikke reaksjonsfarten når substratkonsentrasjonen er svært høy?",
       "options": [
-        "Fordi enzymet er brukt opp",
-        "Fordi substratet er feil",
-        "Fordi pH er feil",
+        "Fordi enzymet blir brukt opp i reaksjonen",
+        "Fordi substratet ikke passer til enzymet",
+        "Fordi produktet gjør enzymet inaktivt",
         "Fordi alle aktive seter er opptatt"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva er kompetitiv hemming?",
       "options": [
         "En hemmer konkurrerer med substratet om det aktive setet",
-        "En hemmer binder et annet sted",
-        "Enzymet denatureres",
-        "Substratet endres"
+        "En hemmer binder seg til et annet sted på enzymet",
+        "En hemmer endrer substratets form før binding",
+        "En hemmer ødelegger enzymets form ved å binde seg fast"
       ],
       "correct": 0,
       "explain": "Mer substrat kan utkonkurrere hemmeren."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er tilbakekoblingshemming?",
       "options": [
-        "At enzymet stopper for alltid",
-        "At sluttproduktet hemmer et tidlig enzym i veien",
-        "At substratet hemmer enzymet",
-        "At temperaturen senkes"
+        "At startproduktet hemmer et tidlig enzym i reaksjonsveien",
+        "At sluttproduktet hemmer et tidlig enzym i reaksjonsveien",
+        "At sluttproduktet aktiverer et tidlig enzym i reaksjonsveien",
+        "At sluttproduktet hemmer et enzym i en annen reaksjonsvei"
       ],
       "correct": 1,
       "explain": "Sparer energi og ressurser."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvor virker pepsin best?",
       "options": [
-        "I nøytral løsning",
-        "I basisk løsning",
+        "I nøytral løsning i tynntarmen",
+        "I basisk løsning i bukspyttkjertelen",
         "I sur løsning i magesekken",
-        "Ved 100 °C"
+        "I nøytral løsning i munnhulen"
       ],
       "correct": 2,
       "explain": "Tilpasset magesyren.",
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er NAD⁺?",
       "options": [
-        "Et substrat",
-        "Et hormon",
-        "Et mineral",
+        "Et koenzym som frakter fosfatgrupper",
+        "Et hormon som regulerer blodsukkeret",
+        "Et mineralion som aktiverer fordøyelsesenzymer",
         "Et koenzym som frakter elektroner"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva skyldes laktoseintoleranse?",
       "options": [
         "For lite av enzymet laktase",
-        "For mye laktase",
-        "For mye melk",
-        "For lite pepsin"
+        "For mye av enzymet laktase",
+        "For lite av enzymet pepsin",
+        "For lite av hormonet insulin"
       ],
       "correct": 0,
       "explain": "Melkesukker brytes ikke ned.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er en metabolsk vei?",
       "options": [
-        "En enkelt reaksjon",
+        "En enkelt reaksjon der ett enzym omdanner et substrat til et produkt",
         "En rekke reaksjoner der produktet fra ett enzym er substrat for det neste",
-        "Et organ",
-        "En type hormon"
+        "En rekke reaksjoner der produktet fra ett enzym aktiverer det neste enzymet",
+        "En rekke reaksjoner der produktet fra ett enzym hemmer det neste enzymet"
       ],
       "correct": 1,
       "explain": "Reguleres blant annet av tilbakekobling."
@@ -332,9 +332,9 @@
         "text": "Hva er en kofaktor ofte?",
         "options": [
           "Et metallion",
-          "Et vitamin alltid",
-          "Et hormon",
-          "Et substrat"
+          "Et substratmolekyl",
+          "Et hormonmolekyl",
+          "Et enzymprotein"
         ],
         "correct": 0,
         "explain": "For eksempel sink eller magnesium.",
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hvor brukes enzymer i hverdagen?",
         "options": [
-          "Bare på sykehus",
-          "Bare i bilmotorer",
+          "I drivstoff, maling og glassproduksjon",
+          "I bilbremser, batterier og lyspærer",
           "I vaskemidler, ostelaging og baking",
-          "Ingen steder"
+          "I betong, stålproduksjon og elektriske ledninger"
         ],
         "correct": 2,
         "explain": "Mange industrielle anvendelser.",
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

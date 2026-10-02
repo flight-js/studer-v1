@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva var dårekister?",
       "options": [
-        "Medisinskap",
+        "Rom der personer med kroppslige sykdommer ble isolert fra andre",
         "Rom eller bur der mennesker med psykiske lidelser ble holdt",
-        "Sykehus med moderne behandling",
-        "Terapirom"
+        "Små institusjoner der fattige fikk mat, husly og tilsyn",
+        "Rom der leger undersøkte pasienter før innleggelse på asyl"
       ],
       "correct": 1,
       "explain": "Brukt i Norge før asylene."
@@ -93,8 +93,8 @@
       "options": [
         "Philippe Pinel",
         "Sigmund Freud",
-        "Hippokrates",
-        "Egas Moniz"
+        "Egas Moniz",
+        "Emil Kraepelin"
       ],
       "correct": 0,
       "explain": "Moralsk behandling."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Når åpnet Gaustad sykehus?",
       "options": [
-        "1814",
-        "1905",
+        "1848",
+        "1867",
         "1855",
-        "1950"
+        "1905"
       ],
       "correct": 2,
       "explain": "Etter sinnssykeloven av 1848.",
@@ -117,8 +117,8 @@
       "text": "Hva gjorde det mulig for mange å bo utenfor institusjonene fra 1950-tallet?",
       "options": [
         "Lobotomi",
-        "Dårekister",
-        "Asyler",
+        "Elektrosjokk",
+        "Psykoanalyse",
         "Psykofarmaka"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hva er avinstitusjonalisering?",
       "options": [
         "Overgang fra store institusjoner til hjelp nær hjemmet",
-        "Bygging av flere asyler",
-        "Innføring av tvang",
-        "Nedleggelse av all behandling"
+        "Overgang fra små behandlingstilbud til store asyler",
+        "Utbygging av sykehusbehandling og færre kommunale tjenester",
+        "Omlegging fra kommunal hjelp til behandling på institusjon"
       ],
       "correct": 0,
       "explain": "Følge av kritikk på 1960- og 70-tallet."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva viser det at homofili ble fjernet som diagnose?",
       "options": [
-        "At diagnoser aldri endres",
+        "At psykiske lidelser først og fremst skyldes endringer i hjernen",
         "At synet på sykdom påvirkes av kultur og verdier",
-        "At alle diagnoser er feil",
-        "At psykiatrien er ubetydelig"
+        "At nye forskningsmetoder forklarer endringer i diagnoser",
+        "At medisinske funn avgjør hvilke tilstander som regnes som sykdom"
       ],
       "correct": 1,
       "explain": "Diagnosesystemer revideres.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er brukermedvirkning?",
       "options": [
-        "At legen bestemmer alt",
-        "At pårørende betaler",
+        "At legen velger behandlingen uten å be om pasientens innspill",
+        "At pårørende bestemmer hvilken behandling pasienten skal få",
         "At pasienten er med på å bestemme egen behandling",
-        "At brukere driver sykehus"
+        "At pasienten får informasjon, men ikke påvirker behandlingsvalget"
       ],
       "correct": 2,
       "explain": "Et sentralt prinsipp i dag."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva var opptrappingsplanen for psykisk helse?",
       "options": [
-        "En plan for flere asyler",
-        "En plan for mer lobotomi",
-        "En plan for nedleggelse av BUP",
+        "En satsing med mer ressurser til institusjoner og færre kommunale tilbud",
+        "En satsing med mer ressurser til eldreomsorg, skoler og barnevern",
+        "En satsing med mer ressurser til somatiske sykehus og fastleger",
         "En satsing med mer ressurser til DPS, BUP og kommunene"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hva la psykoanalysen vekt på?",
       "options": [
         "Ubevisste konflikter og samtalebehandling",
-        "Medisiner",
-        "Hjernekirurgi",
-        "Arbeid på gården"
+        "Bevisste tanker og legemiddelbehandling",
+        "Hjernens funksjon og kirurgisk behandling",
+        "Sosiale forhold og miljøbehandling"
       ],
       "correct": 0,
       "explain": "Freud rundt år 1900."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva handler recovery om?",
       "options": [
-        "Kun å fjerne alle symptomer",
+        "Å oppnå symptomfrihet som hovedmål for behandlingen",
         "Å leve et meningsfullt liv, også med symptomer",
-        "Å unngå all behandling",
-        "Å bli innlagt"
+        "Å mestre symptomer ved å unngå profesjonell behandling",
+        "Å få bedre helse gjennom langvarig innleggelse på institusjon"
       ],
       "correct": 1,
       "explain": "Bedringsprosesser."
@@ -313,10 +313,10 @@
         "type": "flervalg",
         "text": "Hva er et lavterskeltilbud?",
         "options": [
-          "Innleggelse på sykehus",
+          "Akutt innleggelse i psykisk helsevern",
           "Rask psykisk helsehjelp i kommunen",
-          "Tvangsbehandling",
-          "Lobotomi"
+          "Planlagt behandling ved distriktspsykiatrisk senter",
+          "Spesialistbehandling etter henvisning fra fastlege"
         ],
         "correct": 1,
         "explain": "Lett tilgjengelig hjelp.",
@@ -328,9 +328,9 @@
         "text": "Hva er en pågående debatt i psykisk helsevern?",
         "options": [
           "Om tvang og medisinfrie tilbud",
-          "Om å gjeninnføre dårekister",
-          "Om å forby samtaleterapi",
-          "Om å stenge alle DPS"
+          "Om overgangen fra dårekister til asyler",
+          "Om avskaffelsen av lobotomi som behandlingsmetode",
+          "Om fjerningen av lenker fra pasienter i asylene"
         ],
         "correct": 0,
         "explain": "Pasientens rettigheter og valg.",
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva kan åpenhet om psykiske plager bidra til?",
         "options": [
-          "Mer stigma",
-          "Flere asyler",
+          "Økt stigmatisering",
+          "Flere fordommer",
           "Redusert stigma",
-          "Færre behandlinger"
+          "Lavere hjelpesøking"
         ],
         "correct": 2,
         "explain": "Gjør det lettere å søke hjelp."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

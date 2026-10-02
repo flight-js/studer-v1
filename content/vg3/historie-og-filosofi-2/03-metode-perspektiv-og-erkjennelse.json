@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er hermeneutikk?",
       "options": [
-        "Læren om målinger",
+        "Læren om kunnskapens grunnlag",
         "Læren om tolkning",
-        "Læren om tall",
-        "Læren om naturlover"
+        "Læren om språkets oppbygning",
+        "Læren om naturens regelmessigheter"
       ],
       "correct": 1,
       "explain": "Viktig i historie, litteratur og filosofi."
@@ -88,9 +88,9 @@
       "text": "Hva er forforståelse?",
       "options": [
         "Det vi vet og tror fra før, som preger tolkningen",
-        "En konklusjon",
-        "En måling",
-        "En kilde"
+        "Det vi observerer og registrerer under en undersøkelse",
+        "Et materiale som brukes til å undersøke et historisk spørsmål",
+        "En forklaring vi utleder etter å ha undersøkt materialet"
       ],
       "correct": 0,
       "explain": "Endres i den hermeneutiske sirkelen."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er et paradigme ifølge Kuhn?",
       "options": [
-        "Et enkelt eksperiment",
-        "En type kilde",
+        "En enkelt teori som forklarer et bestemt fenomen innen et fag",
+        "Et enkelt eksperiment som undersøker en avgrenset hypotese i et fag",
         "Felles teorier, metoder og syn på viktige spørsmål i et fag",
-        "En konspirasjonsteori"
+        "En kilde som gir forskere informasjon om et bestemt tema"
       ],
       "correct": 2,
       "explain": "Skifter ved vitenskapelige revolusjoner."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva betyr det at observasjoner er teoriladede?",
       "options": [
-        "At de alltid er feil",
-        "At de er nøytrale",
-        "At de er matematiske",
+        "At måleinstrumenter avgjør hvilke resultater forskeren kommer fram til",
+        "At observatører registrerer fakta uavhengig av egne begreper",
+        "At teorier først utvikles etter at alle observasjoner er samlet",
         "At forventninger og begreper styrer hva vi ser"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hva er et eksempel på et paradigmeskifte?",
       "options": [
         "Overgangen fra geosentrisk til heliosentrisk verdensbilde",
-        "En ny avis",
-        "En ny lov",
-        "Et valg"
+        "Overgangen fra håndskrift til trykte bøker",
+        "Innføringen av nye regler for astronomiske observasjoner",
+        "Oppdagelsen av en ny måne rundt Jupiter"
       ],
       "correct": 0,
       "explain": "En vitenskapelig revolusjon.",
@@ -136,23 +136,23 @@
       "id": "q06",
       "text": "Hva har feministiske perspektiver vist i medisinen?",
       "options": [
-        "At kvinner er mest undersøkt",
+        "At medisinsk forskning lenge brukte kvinner som norm",
         "At forskning lenge tok menn som norm",
-        "At kjønn ikke har betydning",
-        "At medisin er ferdig"
+        "At forskningen lenge undersøkte sykdommer hos begge kjønn like mye",
+        "At medisinsk kunnskap lenge bygde mest på kvinners erfaringer"
       ],
       "correct": 1,
-      "explain": "Sykdommer hos kvinner ble mindre undersøkt.",
+      "explain": "Perspektivet undersøker hvordan kjønn påvirker valg av forskningsspørsmål og normer.",
       "niva": "eksempel"
     },
     {
       "id": "q07",
       "text": "Hvorfor inneholder arkivene ofte mest om de mektige?",
       "options": [
-        "Fordi de var flest",
-        "Fordi arkivene er nye",
+        "Fordi de mektige utgjorde størstedelen av befolkningen",
+        "Fordi arkivene samlet inn flest muntlige fortellinger",
         "Fordi de hadde makt og kunne skrive",
-        "Fordi vanlige folk ikke fantes"
+        "Fordi vanlige folk hadde bedre tilgang til skriftlige dokumenter"
       ],
       "correct": 2,
       "explain": "Valg av kilder påvirker hvilke stemmer som høres."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Betyr påvirkningen fra perspektiv at all kunnskap er like sann?",
       "options": [
-        "Ja",
-        "Ja, alt er meninger",
-        "Nei, fordi vi aldri kan vite noe",
+        "Ja, perspektiver gjør alle tolkninger like godt begrunnet",
+        "Nei, kunnskap blir sikker når kildene er nøytrale",
+        "Ja, ulike perspektiver gjør sannhet umulig å undersøke",
         "Nei, vi kan fortsatt skille godt og dårlig begrunnede påstander"
       ],
       "correct": 3,
@@ -174,24 +174,24 @@
       "text": "Hva er en styrke ved kvantitative metoder?",
       "options": [
         "De gir oversikt og kan avdekke mønstre",
-        "De gir dyp forståelse av opplevelser",
-        "De krever ingen tall",
-        "De er alltid bedre"
+        "De gir detaljerte beskrivelser av enkeltpersoners opplevelser",
+        "De undersøker mening uten å bruke tall og statistikk",
+        "De forklarer årsaker ved å følge få personer grundig"
       ],
       "correct": 0,
-      "explain": "Kvalitative metoder gir dybde."
+      "explain": "Kvantitative metoder gjør det mulig å sammenligne mange svar og se mønstre."
     },
     {
       "id": "q10",
       "text": "Hva gjør et postkolonialt perspektiv synlig?",
       "options": [
-        "At kolonimaktene var passive",
+        "At kolonimaktene ofte ble framstilt som passive i historien",
         "At historien ofte ble fortalt fra kolonimaktenes ståsted",
-        "At kolonier ikke fantes",
-        "At alle kilder er like"
+        "At koloniene selv styrte hvordan imperiehistorien ble skrevet",
+        "At historien ofte ble fortalt fra de koloniserte folkenes ståsted"
       ],
       "correct": 1,
-      "explain": "De koloniserte ble framstilt som passive."
+      "explain": "Perspektivet undersøker hvem som får fortelle historien og hvordan makt preger framstillingen."
     }
   ],
   "mindmap": {
@@ -309,10 +309,10 @@
         "type": "flervalg",
         "text": "Når skrev Kuhn om paradigmer?",
         "options": [
-          "1859",
+          "1934",
           "1962",
-          "1789",
-          "2001"
+          "1951",
+          "1945"
         ],
         "correct": 1,
         "explain": "Om vitenskapelige revolusjoner.",
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Hva skjer i den hermeneutiske sirkelen?",
         "options": [
-          "Vi veksler mellom deler og helhet",
-          "Vi måler og veier",
-          "Vi falsifiserer teorier",
-          "Vi teller kilder"
+          "Vi veksler mellom å forstå delene og helheten",
+          "Vi tester en teori mot flere observasjoner",
+          "Vi sammenligner ulike kilder og teller fellestrekk",
+          "Vi går fra hypotesen til en endelig bekreftelse"
         ],
         "correct": 0,
         "explain": "Forforståelsen endres underveis."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål hjelper deg å bli bevisst egne valg?",
         "options": [
-          "Hvor mange sider har kilden?",
-          "Hvem har skrevet minst?",
+          "Hvem har skrevet denne kilden?",
+          "Hvilket år er kilden fra?",
           "Hvem sin stemme mangler?",
-          "Hvilken farge har boka?"
+          "Hvilket tema nevnes flest ganger?"
         ],
         "correct": 2,
         "explain": "Refleksjon over perspektiv."
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

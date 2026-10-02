@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Who brought Old English to Britain?",
       "options": [
-        "The Vikings",
+        "The Celts",
         "The Anglo-Saxons",
-        "The Normans",
-        "The Romans"
+        "The Danes",
+        "The Normans"
       ],
       "correct": 1,
       "explain": "Germanic tribes settled in Britain from around the fifth century."
@@ -95,9 +95,9 @@
       "text": "Which of these words came into English from Old Norse?",
       "options": [
         "window",
-        "government",
-        "justice",
-        "beef"
+        "beauty",
+        "castle",
+        "mountain"
       ],
       "correct": 0,
       "explain": "Window comes from Old Norse vindauga. The others are French."
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "What happened in 1066?",
       "options": [
-        "Shakespeare was born",
-        "The printing press came to England",
+        "The Romans left Britain",
+        "The Vikings raided England",
         "The Normans conquered England",
-        "The Vikings left Britain"
+        "The Black Death reached England"
       ],
       "correct": 2,
       "explain": "The Norman Conquest brought thousands of French words into English."
@@ -118,9 +118,9 @@
       "id": "q04",
       "text": "What is a lingua franca?",
       "options": [
-        "A French dialect",
-        "A dead language",
-        "A variety of American English",
+        "A national language shared by people with one first language",
+        "A regional language used by people from one area",
+        "A language used mainly to study ancient texts",
         "A common language between people with different first languages"
       ],
       "correct": 3,
@@ -133,7 +133,7 @@
         "The expanding circle",
         "The inner circle",
         "The outer circle",
-        "None of them"
+        "The second-language circle"
       ],
       "correct": 0,
       "explain": "In Norway, English is learned as a foreign language.",
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Why do Americans write color and Britons colour?",
       "options": [
-        "Because of the Vikings",
+        "Because American pronunciation changed the spelling",
         "Because of Noah Webster's American dictionary",
-        "Because of the Normans",
-        "Because of the internet"
+        "Because British schools adopted a spelling reform in the 1800s",
+        "Because American printers changed spellings to save paper"
       ],
       "correct": 1,
       "explain": "Webster simplified many spellings in his dictionary from 1828.",
@@ -156,10 +156,10 @@
       "id": "q07",
       "text": "What does the English word eventually mean?",
       "options": [
-        "eventuelt",
-        "kanskje",
+        "muligens",
+        "samtidig",
         "til slutt",
-        "heldigvis"
+        "tilfeldigvis"
       ],
       "correct": 2,
       "explain": "Eventually is a false friend for Norwegian learners.",
@@ -169,9 +169,9 @@
       "id": "q08",
       "text": "Which is NOT a reason why English became a world language?",
       "options": [
-        "The British Empire",
-        "The power of the USA after the Second World War",
-        "The internet",
+        "The spread of British colonial rule",
+        "The economic influence of the United States",
+        "The global reach of American films and music",
         "English grammar being the easiest in the world"
       ],
       "correct": 3,
@@ -182,9 +182,9 @@
       "text": "Which country is in the outer circle?",
       "options": [
         "India",
-        "Australia",
-        "Norway",
-        "Brazil"
+        "Canada",
+        "Sweden",
+        "Japan"
       ],
       "correct": 0,
       "explain": "English is an official language in India because of colonial history.",
@@ -194,10 +194,10 @@
       "id": "q10",
       "text": "Who wrote The Canterbury Tales?",
       "options": [
-        "Shakespeare",
+        "John Gower",
         "Geoffrey Chaucer",
-        "Samuel Johnson",
-        "William Caxton"
+        "William Langland",
+        "Thomas Malory"
       ],
       "correct": 1,
       "explain": "Chaucer wrote it in Middle English in the late fourteenth century.",
@@ -327,10 +327,10 @@
         "type": "flervalg",
         "text": "Which word came into English from French after 1066?",
         "options": [
-          "egg",
-          "sky",
+          "king",
+          "house",
           "court",
-          "they"
+          "bread"
         ],
         "correct": 2,
         "explain": "Many legal and political words are French.",
@@ -342,9 +342,9 @@
         "text": "When did Caxton bring the printing press to England?",
         "options": [
           "1476",
-          "1066",
-          "1611",
-          "1755"
+          "1450",
+          "1485",
+          "1492"
         ],
         "correct": 0,
         "explain": "Printing helped standardise English spelling.",
@@ -355,10 +355,10 @@
         "type": "flervalg",
         "text": "What does the English word sensible mean?",
         "options": [
-          "sensitiv",
-          "fornuftig",
           "følsom",
-          "sensasjonell"
+          "fornuftig",
+          "sensasjonell",
+          "sanselig"
         ],
         "correct": 1,
         "explain": "Sensible is a false friend.",
@@ -448,6 +448,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

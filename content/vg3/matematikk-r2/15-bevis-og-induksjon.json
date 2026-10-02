@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hvordan viser du at en generell påstand er usann?",
       "options": [
-        "Med et induksjonsbevis",
-        "Med ett moteksempel",
-        "Med mange eksempler der den stemmer",
-        "Det kan ikke vises"
+        "Ved å finne ett bekreftende eksempel",
+        "Ved å finne ett moteksempel",
+        "Ved å sjekke flere enkelttilfeller",
+        "Ved å bevise påstanden ved induksjon"
       ],
       "correct": 1,
       "explain": "Ett tilfelle holder."
@@ -91,9 +91,9 @@
       "text": "Hva er første steg i et induksjonsbevis?",
       "options": [
         "Basis – vis at P(1) er sann",
-        "Anta at P(k) er sann",
-        "Finn et moteksempel",
-        "Anta det motsatte"
+        "Induksjonstrinn – anta at P(k) er sann",
+        "Induksjonstrinn – vis P(k + 1) uten antakelse",
+        "Konklusjon – vis at P(n) gjelder for alle n"
       ],
       "correct": 0,
       "explain": "Deretter kommer induksjonstrinnet."
@@ -104,8 +104,8 @@
       "options": [
         "Q ⇒ P",
         "P ⇔ Q",
-        "Ikke Q ⇒ ikke P",
-        "Ikke P ⇒ ikke Q"
+        "¬Q ⇒ ¬P",
+        "¬P ⇒ ¬Q"
       ],
       "correct": 2,
       "explain": "Det er ekvivalent med P ⇒ Q."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva gjør du i et motsigelsesbevis?",
       "options": [
-        "Sjekker eksempler",
-        "Viser basis og trinn",
-        "Viser Q ⇒ P",
-        "Antar det motsatte og viser at det gir en motsigelse"
+        "Jeg antar påstanden og sjekker den for flere verdier.",
+        "Jeg viser basis og induksjonstrinn for påstanden.",
+        "Jeg snur implikasjonen og viser at den gjelder.",
+        "Jeg antar det motsatte og utleder en motsigelse."
       ],
       "correct": 3,
       "explain": "Som i beviset for at √2 er irrasjonal."
@@ -127,9 +127,9 @@
       "text": "Hva viser 2m + 1 + 2n + 1 = 2(m + n + 1)?",
       "options": [
         "At summen av to oddetall er et partall",
-        "At alle tall er partall",
-        "At √2 er irrasjonal",
-        "At det finnes uendelig mange primtall"
+        "At summen av to oddetall er et oddetall",
+        "At produktet av to oddetall er et partall",
+        "At summen av to oddetall er delelig med fire"
       ],
       "correct": 0,
       "explain": "Et direkte bevis."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva gjør du i induksjonstrinnet?",
       "options": [
-        "Viser P(1)",
-        "Sjekker mange tall",
+        "Viser P(1) og antar P(k + 1)",
+        "Antar P(k + 1) og viser P(k)",
         "Antar P(k) og viser P(k + 1)",
-        "Antar P(k + 1) og viser P(k)"
+        "Sjekker P(k) for flere verdier"
       ],
       "correct": 2,
       "explain": "Som dominobrikker."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvorfor er ikke mange eksempler et bevis?",
       "options": [
-        "Fordi eksempler alltid er feil",
-        "Fordi det tar for lang tid",
-        "Fordi eksempler er ulovlige",
+        "Fordi eksemplene må undersøkes i en bestemt rekkefølge",
+        "Fordi hvert eksempel må følge etter det forrige",
+        "Fordi utregningene ikke kan gjentas med nye tall",
         "Fordi de ikke dekker alle tilfeller"
       ],
       "correct": 3,
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hvilken bevistype brukes vanligvis for at √2 er irrasjonal?",
         "options": [
-          "Induksjon",
-          "Motsigelse",
-          "Moteksempel",
-          "Direkte bevis med eksempler"
+          "Induksjonsbevis",
+          "Motsigelsesbevis",
+          "Kontrapositivt bevis",
+          "Direkte bevis"
         ],
         "correct": 1,
         "explain": "Anta at √2 = p/q.",
@@ -340,7 +340,7 @@
           "2k",
           "k + 1",
           "2k + 1",
-          "k²"
+          "2k + 2"
         ],
         "correct": 2,
         "explain": "k er et helt tall."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

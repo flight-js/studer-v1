@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva betyr det å lese en tekst i kontekst?",
       "options": [
-        "Å lese den høyt",
-        "Å se den i lys av tiden, samfunnet og ideene den ble skrevet i",
-        "Å bare lese sammendraget",
-        "Å lese den flere ganger"
+        "Å undersøke hvordan teksten er bygd opp og formulert",
+        "Å se teksten i lys av tiden, samfunnet og ideene den ble skrevet i",
+        "Å lese teksten ut fra handlingen og personene den skildrer",
+        "Å sammenligne teksten med andre tekster fra samme forfatter"
       ],
       "correct": 1,
       "explain": "Konteksten kan forklare mye av teksten."
@@ -89,9 +89,9 @@
       "text": "Hvorfor må du være forsiktig med biografisk kontekst?",
       "options": [
         "Fordi teksten og forfatteren ikke er det samme",
-        "Fordi forfatteres liv er hemmelige",
-        "Fordi det er ulovlig",
-        "Fordi det alltid er feil"
+        "Fordi forfatterens liv forklarer tekstens mening bedre enn fortelleren gjør",
+        "Fordi teksten må tolkes ut fra forfatterens egne erfaringer",
+        "Fordi biografiske opplysninger står utenfor tekstens litterære virkemidler"
       ],
       "correct": 0,
       "explain": "Et lyrisk jeg eller en forteller er ikke nødvendigvis forfatteren."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva kjennetegner en god problemstilling?",
       "options": [
-        "Den kan besvares med ja eller nei",
-        "Den er så bred som mulig",
+        "Den dekker flest mulige temaer og gir plass til mange eksempler",
+        "Den spør etter ett bestemt faktum som finnes i teksten",
         "Den gir retning og kan besvares i dybden",
-        "Den har ingen spørsmål"
+        "Den formuleres slik at den kan besvares med ja eller nei"
       ],
       "correct": 2,
       "explain": "Den styrer hele artikkelen."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva bør du gjøre etter et sitat?",
       "options": [
-        "Gå videre til neste sitat",
-        "Avslutte avsnittet",
-        "Oversette det",
+        "Gå videre til neste avsnitt",
+        "Gjengi sitatet med egne ord",
+        "Sette inn et nytt sitat",
         "Kommentere hva sitatet viser"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hvilken sammenligningsstruktur gir ofte best drøfting?",
       "options": [
-        "Punkt-for-punkt",
-        "Tekst-for-tekst",
-        "Tilfeldig rekkefølge",
-        "Bare én tekst"
+        "Sammenligne tekstene trekk for trekk gjennom hele artikkelen",
+        "Sammenligne tekstene bare i innledningen og avslutningen",
+        "Beskrive hver tekst uten å knytte dem sammen",
+        "Oppsummere én tekst og deretter bare den andre"
       ],
       "correct": 0,
       "explain": "Da sammenlignes tekstene direkte i hvert avsnitt."
@@ -139,7 +139,7 @@
         "I avslutningen",
         "I innledningen",
         "I litteraturlisten",
-        "I tittelen alene"
+        "I hoveddelen"
       ],
       "correct": 1,
       "explain": "Avslutningen svarer på den."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva er forskjellen på å gjøre rede for og å drøfte?",
       "options": [
-        "Det er det samme",
-        "Å drøfte er å gjenfortelle",
-        "Å gjøre rede for er å forklare, å drøfte er å tolke og vurdere fra flere sider",
-        "Å gjøre rede for er å gi sin mening"
+        "Å gjøre rede for og å drøfte betyr å presentere tekstens innhold",
+        "Å drøfte betyr å gjenfortelle, mens redegjørelse uttrykker egen mening",
+        "Å gjøre rede for forklarer, mens å drøfte tolker og vurderer flere sider",
+        "Å gjøre rede for vurderer flere syn, mens å drøfte forklarer fakta"
       ],
       "correct": 2,
       "explain": "En god fagartikkel gjør begge deler."
@@ -161,8 +161,8 @@
       "text": "Hvilket tekstbindeord viser motsetning i en sammenligning?",
       "options": [
         "dessuten",
+        "derfor",
         "først",
-        "på samme måte",
         "derimot"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva er et godt spørsmål når du reviderer fagartikkelen?",
       "options": [
         "Er det god balanse mellom redegjørelse og drøfting?",
-        "Er teksten lang nok?",
-        "Er skrifttypen fin?",
-        "Har jeg mange nok sitater?"
+        "Har jeg brukt like mange avsnitt på hver av tekstene?",
+        "Er artikkelen like lang som tekstene jeg analyserer?",
+        "Har jeg forklart alle handlingsdetaljene før drøftingen starter?"
       ],
       "correct": 0,
       "explain": "Drøftingen er ofte det som løfter teksten."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva hører med i litteraturhistorisk kontekst?",
       "options": [
-        "Forfatterens hobbyer",
+        "Forfatterens biografi og hendelser fra livet hans",
         "Perioden teksten hører til og trekk fra den",
-        "Hvor mange som har lest teksten",
-        "Prisen på boka"
+        "Samtidens leseres vurdering og tekstens senere popularitet",
+        "Sjangeren teksten tilhører og fortellerens synsvinkel"
       ],
       "correct": 1,
       "explain": "For eksempel trekk fra romantikken."
@@ -312,9 +312,9 @@
         "text": "Hva er et belegg i en litterær tolkning?",
         "options": [
           "Et sitat eller eksempel som støtter tolkningen",
-          "En kilde på nett",
-          "En overskrift",
-          "En konklusjon"
+          "En forklaring på hva teksten handler om",
+          "En påstand om tekstens tema uten teksthenvisning",
+          "En kildeopplysning som viser hvem som skrev teksten"
         ],
         "correct": 0,
         "explain": "Belegg gjør tolkningen troverdig."
@@ -324,10 +324,10 @@
         "type": "flervalg",
         "text": "Hvilken problemstilling er best?",
         "options": [
-          "Er Njåls saga bra?",
+          "Hvordan skildres æresbegrepet i Njåls saga, og når ble sagaen skrevet?",
           "Hvordan skildres æresbegrepet i Njåls saga sammenlignet med en nyere krimroman?",
-          "Hva er litteratur?",
-          "Hvem var Njål?"
+          "Hvordan skildres æresbegrepet i Njåls saga sammenlignet med hele norrøn litteratur?",
+          "Hvilke personer handler Njåls saga om, og hva betyr æresbegrepet?"
         ],
         "correct": 1,
         "explain": "Den er avgrenset og legger opp til drøfting.",
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvorfor lønner det seg å ha oversikt over egne typiske feil?",
         "options": [
-          "For å kunne skjule dem",
-          "For å skrive lengre",
+          "For å rette dem én gang og slippe å kontrollere teksten på nytt",
+          "For å velge bort tilbakemeldinger som handler om andre feil",
           "For å sjekke dem systematisk hver gang",
-          "For å få flere tilbakemeldinger"
+          "For å prioritere tekstens lengde framfor språklige feil"
         ],
         "correct": 2,
         "explain": "Da blir du bedre over tid."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

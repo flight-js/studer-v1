@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Når er X hypergeometrisk fordelt?",
       "options": [
-        "Ved uavhengige forsøk med konstant p",
-        "Ved trekk uten tilbakelegging fra en gruppe med to typer",
-        "Når alle utfall er like",
-        "Når vi trekker med tilbakelegging"
+        "Ved uavhengige forsøk med samme sannsynlighet i hvert forsøk",
+        "Ved trekking uten tilbakelegging fra en gruppe med to typer",
+        "Ved trekking med tilbakelegging fra en gruppe med to typer",
+        "Ved uavhengige forsøk der sannsynligheten endres mellom forsøkene"
       ],
       "correct": 1,
       "explain": "Sannsynligheten endres underveis."
@@ -94,9 +94,9 @@
       "text": "En klasse har 12 jenter og 8 gutter. Hva er sannsynligheten for nøyaktig 2 jenter i en tilfeldig komité på 4?",
       "options": [
         "Omtrent 0,381",
-        "0,5",
-        "Omtrent 0,6",
-        "Omtrent 0,24"
+        "Omtrent 0,500",
+        "Omtrent 0,600",
+        "Omtrent 0,240"
       ],
       "correct": 0,
       "explain": "66 · 28 / 4845."
@@ -105,8 +105,8 @@
       "id": "q03",
       "text": "Hvor mange jenter forventer vi i komiteen på 4?",
       "options": [
-        "2",
-        "3",
+        "2,0",
+        "3,0",
         "2,4",
         "1,6"
       ],
@@ -130,8 +130,8 @@
       "text": "Et parti på 50 varer har 5 defekte. Hva er sannsynligheten for ingen defekte blant 4 trukne?",
       "options": [
         "Omtrent 0,647",
-        "Omtrent 0,1",
-        "0,9",
+        "Omtrent 0,100",
+        "Omtrent 0,900",
         "Omtrent 0,353"
       ],
       "correct": 0,
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Når gir binomisk fordeling nesten samme svar som hypergeometrisk?",
       "options": [
-        "Når utvalget er stort sammenlignet med gruppen",
+        "Når utvalget er mye større enn gruppen",
         "Når gruppen er mye større enn utvalget",
-        "Når M = 0",
-        "Aldri"
+        "Når utvalget er omtrent like stort som gruppen",
+        "Når utvalget utgjør omtrent halvparten av gruppen"
       ],
       "correct": 1,
       "explain": "Da endres p nesten ikke."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva står C(N − M, n − k) for i formelen?",
       "options": [
-        "Alle mulige utvalg",
-        "Måter å velge de spesielle",
+        "Måter å velge alle objektene i utvalget",
+        "Måter å velge de spesielle i utvalget",
         "Måter å velge resten blant de ikke-spesielle",
-        "Forventningsverdien"
+        "Gjennomsnittlig antall spesielle i utvalget"
       ],
       "correct": 2,
       "explain": "De n − k som ikke er spesielle."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Omtrent hva er sannsynligheten for nøyaktig 3 rette i Lotto (7 av 34)?",
       "options": [
-        "0,5",
+        "0,500",
         "0,001",
-        "0,3",
+        "0,300",
         "0,114"
       ],
       "correct": 3,
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hvordan brukes hypergeometrisk tenkning i biologi?",
       "options": [
-        "Til å datere fossiler",
+        "Til å datere fossiler ved å undersøke berglag",
         "I fangst–gjenfangst for å anslå bestandsstørrelse",
-        "Til å måle temperatur",
-        "Til å telle kromosomer"
+        "Til å måle temperaturendringer i et økosystem",
+        "Til å telle kromosomer i en celleprøve"
       ],
       "correct": 1,
       "explain": "Andelen merkede dyr i andre fangst.",
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "En boks har 3 røde og 2 blå kuler. Du trekker 2 uten tilbakelegging. Hva er P(2 røde)?",
         "options": [
-          "0,5",
-          "0,3",
+          "0,50",
+          "0,30",
           "0,36",
-          "0,6"
+          "0,60"
         ],
         "correct": 1,
         "explain": "C(3, 2)/C(5, 2) = 3/10."
@@ -322,8 +322,8 @@
         "text": "Hvilken situasjon er hypergeometrisk?",
         "options": [
           "Trekke 5 kort fra en kortstokk og telle hjerter",
-          "Kaste en terning 10 ganger",
-          "Kaste en mynt 20 ganger",
+          "Kaste en terning 10 ganger og telle seksere",
+          "Kaste en mynt 20 ganger og telle kron",
           "Svare på 10 flervalgsspørsmål ved gjetting"
         ],
         "correct": 0,
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hvorfor kan vi ofte bruke binomisk fordeling i meningsmålinger, selv om ingen spørres to ganger?",
         "options": [
-          "Fordi folk svarer tilfeldig",
-          "Fordi utvalget alltid er over halve befolkningen",
+          "Fordi utvalget utgjør en stor del av befolkningen",
+          "Fordi andelen positive svar er nær 50 %",
           "Fordi befolkningen er mye større enn utvalget",
-          "Fordi p alltid er 0,5"
+          "Fordi svarene i utvalget har like stor sannsynlighet"
         ],
         "correct": 2,
         "explain": "Da endres p nesten ikke."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

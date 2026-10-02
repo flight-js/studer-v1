@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva er sedvanerett?",
       "options": [
-        "Skriftlige avtaler",
+        "Regler fra fast praksis som vedtas av nasjonale parlamenter",
         "Regler fra fast praksis som oppfattes som bindende",
-        "Nasjonale lover",
-        "Religiøse regler"
+        "Regler fra fast praksis som inngår i en skriftlig avtale",
+        "Regler fra fast praksis som bygger på religiøse tekster"
       ],
       "correct": 1,
       "explain": "Gjelder for alle stater."
@@ -88,9 +88,9 @@
       "text": "Hva sier voldsforbudet i FN-pakten?",
       "options": [
         "At stater ikke skal bruke makt mot andre stater",
-        "At alle kriger er lovlige",
-        "At bare stormakter kan bruke makt",
-        "At FN har egen hær"
+        "At stater ikke skal bruke makt mot egne borgere",
+        "At stater kan bruke militær makt for å sikre økonomiske interesser",
+        "At Sikkerhetsrådet må godkjenne maktbruk i selvforsvar"
       ],
       "correct": 0,
       "explain": "Artikkel 2 nr. 4."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er unntakene fra voldsforbudet?",
       "options": [
-        "Økonomiske interesser",
-        "Religiøse grunner",
+        "Selvforsvar og vedtak fra Generalforsamlingen",
+        "Humanitær hjelp og mandat fra Sikkerhetsrådet",
         "Selvforsvar og mandat fra Sikkerhetsrådet",
-        "Grensetvister"
+        "Økonomiske sanksjoner og mandat fra Generalforsamlingen"
       ],
       "correct": 2,
       "explain": "Artikkel 51 og kapittel VII."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hvem kan ICC straffe?",
       "options": [
-        "Stater",
-        "Selskaper",
-        "FN",
+        "Stater for folkemord, krigsforbrytelser og lignende",
+        "Enkeltpersoner for brudd på handelsavtaler og lignende",
+        "Enkeltpersoner for vanlige lovbrudd i nasjonale saker",
         "Enkeltpersoner for folkemord, krigsforbrytelser og lignende"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hva beskytter Genèvekonvensjonene?",
       "options": [
         "Sivile, sårede og krigsfanger",
-        "Handelsavtaler",
-        "Fiskekvoter",
-        "Valg"
+        "Handelsavtaler, fiskekvoter og skipsfart",
+        "Statsgrenser, luftrom og territorialfarvann",
+        "Diplomater, ambassader og konsulære tjenester"
       ],
       "correct": 0,
       "explain": "Humanitær folkerett."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva er en svakhet ved folkeretten?",
       "options": [
-        "Den har for mange domstoler",
+        "Det finnes et fast verdenspoliti, og vetoretten kan blokkere tiltak",
         "Det finnes ingen verdenspoliti, og vetoretten kan blokkere tiltak",
-        "Den gjelder bare små stater",
-        "Den har ingen regler"
+        "Det finnes ingen verdenspoliti, og domstolenes avgjørelser håndheves automatisk",
+        "Det finnes ingen verdenspoliti, og Generalforsamlingen kan bruke veto mot tiltak"
       ],
       "correct": 1,
       "explain": "Håndhevelse avhenger av statene."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva betyr det at Norge har et dualistisk system?",
       "options": [
-        "At Norge har to regjeringer",
-        "At Norge ikke følger folkeretten",
-        "At folkerettslige avtaler må gjøres til norsk lov før de brukes direkte i domstolene",
-        "At Norge har to språk"
+        "At folkerettslige avtaler automatisk blir norsk lov når Norge ratifiserer dem",
+        "At Norge må vedta norsk lov før landet kan slutte seg til folkerettslige avtaler",
+        "At folkerettslige avtaler må innføres i norsk lov for å brukes direkte i domstolene",
+        "At norske domstoler bruker folkerettslige avtaler direkte uten å innføre dem i norsk lov"
       ],
       "correct": 2,
       "explain": "For eksempel gjennom menneskerettsloven."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvor stor økonomisk sone gir havrettskonvensjonen kyststater?",
       "options": [
-        "12 nautiske mil",
-        "50 nautiske mil",
-        "1000 nautiske mil",
+        "Inntil 12 nautiske mil",
+        "Inntil 150 nautiske mil",
+        "Inntil 350 nautiske mil",
         "Inntil 200 nautiske mil"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hvorfor har Norge stor interesse av en sterk folkerett?",
       "options": [
         "Fordi små land tjener på at rett, ikke makt, styrer",
-        "Fordi Norge er en stormakt",
-        "Fordi Norge ikke har grenser",
-        "Fordi Norge ikke er med i FN"
+        "Fordi Norge har stor politisk makt i Sikkerhetsrådet",
+        "Fordi Norge har flere innbyggere enn de fleste andre stater",
+        "Fordi Norge kan håndheve folkeretten med egne internasjonale domstoler"
       ],
       "correct": 0,
       "explain": "Folkeretten beskytter små stater."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hva sier prinsippet om ansvaret for å beskytte (R2P)?",
       "options": [
-        "At stater kan angripe hvem de vil",
+        "At verdenssamfunnet har ansvar for egen befolkning, og statene handler hvis FN svikter",
         "At stater har ansvar for å beskytte egen befolkning, og verdenssamfunnet har ansvar hvis de svikter",
-        "At FN skal styre alle land",
-        "At krig er forbudt uten unntak"
+        "At stater har ansvar for å beskytte egne grenser, og verdenssamfunnet handler ved angrep",
+        "At verdenssamfunnet har ansvar for å beskytte befolkningen mot naturkatastrofer"
       ],
       "correct": 1,
       "explain": "Vedtatt i 2005.",
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvilken domstol avgjør tvister mellom stater?",
         "options": [
-          "ICC",
-          "ICJ",
-          "EMD",
-          "Høyesterett"
+          "Den internasjonale straffedomstolen (ICC)",
+          "Den internasjonale domstolen (ICJ)",
+          "Norges Høyesterett",
+          "Nürnbergdomstolen"
         ],
         "correct": 1,
         "explain": "Den internasjonale domstolen i Haag."
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hva betyr prinsippet om atskillelse i krig?",
         "options": [
-          "At angrep bare skal rettes mot militære mål",
-          "At stater skal skille lag",
-          "At soldater skal skilles fra familien",
-          "At krig skal skje langt unna"
+          "At partene skal skille mellom militære mål og sivile personer ved angrep",
+          "At partene skal skille mellom egne soldater og fiendens soldater ved angrep",
+          "At partene skal skille mellom sivile og soldater etter at kampene er over",
+          "At partene skal skille mellom militære mål og sivile områder når kampene avsluttes"
         ],
         "correct": 0,
         "explain": "Sivile skal skånes."
@@ -425,6 +425,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

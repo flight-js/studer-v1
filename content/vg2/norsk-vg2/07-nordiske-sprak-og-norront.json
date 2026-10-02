@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvilke språk regnes som vestnordiske?",
       "options": [
-        "Svensk og dansk",
+        "Norsk, svensk og dansk",
         "Norsk, islandsk og færøysk",
-        "Finsk og samisk",
-        "Norsk og svensk"
+        "Islandsk, færøysk og svensk",
+        "Norsk, finsk og samisk"
       ],
       "correct": 1,
       "explain": "Svensk og dansk er østnordiske."
@@ -94,7 +94,7 @@
         "Islandsk",
         "Dansk",
         "Svensk",
-        "Nynorsk"
+        "Norsk"
       ],
       "correct": 0,
       "explain": "Islandsk har blant annet beholdt kasus."
@@ -129,9 +129,9 @@
       "text": "Hva betyr det danske tallet «halvtreds»?",
       "options": [
         "50",
-        "35",
-        "150",
-        "53"
+        "40",
+        "60",
+        "70"
       ],
       "correct": 0,
       "explain": "Tres er 60 og halvfems 90.",
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hvorfor er dansk ofte vanskeligere å forstå muntlig enn skriftlig for nordmenn?",
       "options": [
-        "Fordi danskene snakker fort alltid",
-        "Fordi dansk har svak konsonantuttale, stød og «svelgede» stavelser",
-        "Fordi dansk har et annet alfabet",
-        "Fordi dansk har toner som kinesisk"
+        "Fordi dansk har norsk tonelag, tydelige konsonanter og klare stavelser.",
+        "Fordi dansk har svake konsonanter, stød og bortfall av stavelser.",
+        "Fordi dansk har rulle-r, tydelige konsonanter og klare stavelser.",
+        "Fordi dansk har flere kasus, tydelige bøyningsformer og lange endelser."
       ],
       "correct": 1,
       "explain": "Skriftlig ligner dansk mye på bokmål."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvilket uttrykk er en rest av norrøne kasus?",
       "options": [
-        "på skolen",
-        "i dag",
+        "på jobb",
+        "i huset",
         "til fots",
-        "om kvelden"
+        "under bordet"
       ],
       "correct": 2,
       "explain": "Også til bords og i live."
@@ -166,12 +166,12 @@
       "text": "Hvordan sier en danske «det store huset»?",
       "options": [
         "det store huset",
-        "store huset",
-        "det huset store",
+        "det stor hus",
+        "det hus store",
         "det store hus"
       ],
       "correct": 3,
-      "explain": "Dansk har ikke dobbel bestemthet."
+      "explain": "I dansk står den bestemte artikkelen «det» foran adjektivet og substantivet."
     },
     {
       "id": "q09",
@@ -179,11 +179,11 @@
       "options": [
         "le",
         "gråte",
-        "grue seg",
-        "grave"
+        "klage",
+        "smile"
       ],
       "correct": 0,
-      "explain": "På norsk betyr grine å gråte.",
+      "explain": "På norsk betyr «grine» å gråte, mens dansk «grine» betyr å le.",
       "niva": "eksempel"
     },
     {
@@ -193,10 +193,10 @@
         "å og ø",
         "ä og ö",
         "ae og oe",
-        "é og ó"
+        "æ og å"
       ],
       "correct": 1,
-      "explain": "Norsk og dansk bruker æ og ø."
+      "explain": "Svensk bruker ä og ö der norsk og dansk bruker æ og ø."
     }
   ],
   "mindmap": {
@@ -318,13 +318,13 @@
         "type": "flervalg",
         "text": "Hva heter «bok» på dansk?",
         "options": [
-          "bok",
+          "blad",
           "bog",
-          "buk",
-          "boog"
+          "brev",
+          "avis"
         ],
         "correct": 1,
-        "explain": "Dansk har ofte g der norsk har k.",
+        "explain": "Det danske ordet «bog» skrives med g, mens norsk «bok» har k.",
         "niva": "eksempel"
       },
       {
@@ -333,9 +333,9 @@
         "text": "Hva betyr svensk «semester»?",
         "options": [
           "ferie",
-          "skoleår",
-          "halvår",
-          "fest"
+          "skoletermin",
+          "studieår",
+          "eksamenstid"
         ],
         "correct": 0,
         "explain": "Et klassisk eksempel på en falsk venn.",
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hva betyr norrønt «maðr»?",
         "options": [
-          "mat",
-          "mor",
+          "gutt",
+          "kvinne",
           "mann",
-          "makt"
+          "jarl"
         ],
         "correct": 2,
         "explain": "Mange norrøne ord er gjenkjennelige.",
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

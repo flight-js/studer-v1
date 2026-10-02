@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hvordan går feltlinjene rundt en rett, strømførende leder?",
       "options": [
-        "Rett ut fra lederen",
+        "Radielt ut fra lederen",
         "I sirkler rundt lederen",
-        "Parallelt med lederen",
-        "Det finnes ikke felt"
+        "I rette linjer langs lederen",
+        "I rette linjer på tvers"
       ],
       "correct": 1,
       "explain": "Høyrehåndsregelen gir retningen."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hvorfor gjør magnetfeltet ikke arbeid på en ladd partikkel?",
       "options": [
-        "Fordi kraften er null",
-        "Fordi partikkelen står stille",
+        "Fordi kraften virker parallelt med farten",
+        "Fordi magnetfeltet har konstant styrke",
         "Fordi kraften står vinkelrett på farten",
-        "Fordi feltet er svakt"
+        "Fordi kraften peker samme vei som feltet"
       ],
       "correct": 2,
       "explain": "Bare retningen endres."
@@ -112,8 +112,8 @@
       "text": "Hva er radiusen for en ladd partikkel i sirkelbane i et magnetfelt?",
       "options": [
         "r = qB/(mv)",
-        "r = mvqB",
-        "r = v/B",
+        "r = mvB/q",
+        "r = qv/(mB)",
         "r = mv/(qB)"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hvilken enhet har magnetisk flukstetthet?",
       "options": [
         "Tesla",
-        "Volt",
-        "Newton",
-        "Coulomb"
+        "Weber",
+        "Henry",
+        "Volt"
       ],
       "correct": 0,
       "explain": "Jordas felt er omtrent 5 · 10⁻⁵ T."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva skjer med sirkelradiusen for tyngre ioner i et massespektrometer?",
       "options": [
-        "Den blir mindre",
-        "Den blir større",
-        "Den er uendret",
-        "De stopper"
+        "Radiusen minker for tyngre ioner",
+        "Radiusen øker for tyngre ioner",
+        "Radiusen forblir lik for tyngre ioner",
+        "Radiusen blir større for lettere ioner"
       ],
       "correct": 1,
       "explain": "r er proporsjonal med m."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva bruker en elektromotor?",
       "options": [
-        "Kraft mellom ladninger",
-        "Gravitasjon",
+        "Kraften mellom ladninger i en elektrisk krets",
+        "Induksjonsspenningen i spoler når magnetfeltet endres",
         "Kraften på strømførende sløyfer i et magnetfelt",
-        "Kjemisk energi direkte"
+        "Varmen i ledninger når strøm går gjennom dem"
       ],
       "correct": 2,
       "explain": "Sløyfene roterer."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva lager nordlyset?",
       "options": [
-        "Refleksjon av sollys fra isen",
-        "Lyn",
-        "Månelys",
+        "Sollys som reflekteres fra snø og is i polarområdene",
+        "Elektriske utladninger mellom skyer og bakken nær polene",
+        "Gasser i atmosfæren som varmes opp av jordas magnetfelt",
         "Ladde partikler fra solvinden som kolliderer med gasser i atmosfæren"
       ],
       "correct": 3,
@@ -172,7 +172,7 @@
       "text": "Hvilken bane får en partikkel som har en fartskomponent langs magnetfeltet?",
       "options": [
         "Spiral",
-        "Rett linje alltid",
+        "Rett linje",
         "Parabel",
         "Sirkel"
       ],
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hva er et eksempel på bruk av sterke magnetfelt i medisin?",
       "options": [
-        "Røntgen",
+        "Røntgenapparater",
         "MR-maskiner",
-        "Termometer",
-        "Stetoskop"
+        "Ultralydapparater",
+        "CT-skannere"
       ],
       "correct": 1,
       "explain": "Lager bilder av kroppen.",
@@ -306,10 +306,10 @@
         "type": "flervalg",
         "text": "Hvor stor er radiusen for elektronet med v = 5,9 · 10⁶ m/s i B = 1,0 · 10⁻³ T?",
         "options": [
-          "0,34 mm",
+          "Omtrent 0,34 cm",
           "Omtrent 3,4 cm",
-          "3,4 m",
-          "34 m"
+          "Omtrent 34 cm",
+          "Omtrent 340 cm"
         ],
         "correct": 1,
         "explain": "r = mv/(qB)."
@@ -320,9 +320,9 @@
         "text": "Hvorfor peker en kompassnål nordover?",
         "options": [
           "På grunn av jordas magnetfelt",
-          "På grunn av gravitasjon",
-          "På grunn av vind",
-          "På grunn av sola"
+          "På grunn av jordas gravitasjonsfelt",
+          "På grunn av elektriske felt i atmosfæren",
+          "På grunn av solas magnetfelt"
         ],
         "correct": 0,
         "explain": "Nålen retter seg etter feltet.",
@@ -333,10 +333,10 @@
         "type": "flervalg",
         "text": "Hva gjør magnetene i LHC?",
         "options": [
-          "Stopper partiklene",
-          "Lager lys",
+          "Akselererer partiklene gjennom ringbanen",
+          "Bremser partiklene i ringbanen",
           "Holder partiklene i ringbanen",
-          "Kjøler ned partiklene"
+          "Fører partiklene ut av ringbanen"
         ],
         "correct": 2,
         "explain": "Magnetkraften er sentripetalkraft.",
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

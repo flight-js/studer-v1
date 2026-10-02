@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "What is disinformation?",
       "options": [
-        "Information that is out of date",
-        "Information in another language",
-        "False information spread on purpose",
-        "Information from a university"
+        "False information shared by people who believe it",
+        "Accurate information shared to persuade others",
+        "False information deliberately shared to deceive others",
+        "Unverified claims repeated without checking sources"
       ],
       "correct": 2,
       "explain": "Disinformation is meant to deceive."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "What is lateral reading?",
       "options": [
-        "Opening new tabs to see what other sources say about a topic and sender",
-        "Reading a text from right to left",
-        "Reading only headlines",
-        "Reading very fast"
+        "Checking other sources about a topic and its sender",
+        "Reading the same article again to understand its message",
+        "Checking only the website’s own page and author",
+        "Comparing headlines without opening the articles"
       ],
       "correct": 0,
       "explain": "Professional fact-checkers use this method.",
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "What can a reverse image search reveal?",
       "options": [
-        "The photographer's password",
-        "The price of the picture",
-        "How many people liked it",
-        "Whether a picture is old, edited or taken out of context"
+        "Whether a picture was taken indoors or outside",
+        "Whether a picture was made with a phone or camera",
+        "Whether a picture includes people or objects in the background",
+        "Whether a picture is old, edited, or taken out of context"
       ],
       "correct": 3,
       "explain": "Old pictures are often reused in fake news.",
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "What is a paraphrase?",
       "options": [
-        "An exact quote",
+        "Repeating an idea using the author's exact words",
         "Explaining an idea in your own words",
-        "A list of sources",
-        "A picture"
+        "Listing the books and websites used in your work",
+        "Describing an idea by changing its original meaning"
       ],
       "correct": 1,
       "explain": "You must still name the source when you paraphrase."
@@ -128,9 +128,9 @@
       "id": "q05",
       "text": "What should you remember about AI chatbots?",
       "options": [
-        "They are always correct",
-        "They never make mistakes about sources",
-        "They should replace all other sources",
+        "They check their answers against trusted sources",
+        "They copy their answers directly from reliable websites",
+        "They can identify the exact source behind each answer",
         "They can make things up and invent sources"
       ],
       "correct": 3,
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Why should you check when a source was published?",
       "options": [
-        "Old sources are always wrong",
-        "To know the author's age",
+        "To learn how qualified the author is",
+        "To check whether the source has a current website design",
         "To make sure the information is still up to date",
-        "Because dates are required by law"
+        "To find out whether the source follows citation rules"
       ],
       "correct": 2,
       "explain": "Facts like statistics can change over time."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "How should you use Wikipedia?",
       "options": [
-        "As the only source",
+        "As a final source, without checking the references",
         "As a starting point, and check the references",
-        "Never",
-        "Only for pictures"
+        "As a source for facts, but ignore its references",
+        "As a place to find images, not information"
       ],
       "correct": 1,
       "explain": "Anyone can edit Wikipedia, so check where the information comes from.",
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "What should a source list include?",
       "options": [
-        "Author, title, website or publisher and dates",
-        "Only the website name",
-        "Only your opinion",
-        "Nothing"
+        "Author, title, website or publisher, and dates",
+        "Website name, topic, page number, and your own comments",
+        "Author, title, article summary, and your reason for choosing it",
+        "Website name, author, page colour, and number of readers"
       ],
       "correct": 0,
       "explain": "The reader should be able to find the source."
@@ -177,10 +177,10 @@
       "id": "q09",
       "text": "Why should you be careful with content that makes you very angry?",
       "options": [
-        "Because anger is bad for you",
-        "Because it is always true",
+        "Because angry reactions make its facts more reliable",
+        "Because strong feelings show that the content is well researched",
         "Because it may be designed to go viral",
-        "Because it is always old"
+        "Because emotional language means the information is up to date"
       ],
       "correct": 2,
       "explain": "Strong emotions make people share without checking.",
@@ -190,9 +190,9 @@
       "id": "q10",
       "text": "What must you do when you quote someone's exact words?",
       "options": [
-        "Change some words",
-        "Hide the source",
-        "Translate them into Norwegian",
+        "Use italics and name the source",
+        "Use quotation marks and change a few words",
+        "Use quotation marks but leave out the source",
         "Use quotation marks and name the source"
       ],
       "correct": 3,
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "What is misinformation?",
         "options": [
-          "A reliable news article",
+          "Accurate information shared by people who checked it",
           "False information, often shared by people who believe it",
-          "An exact quote",
-          "A source list"
+          "False information created to trick other people",
+          "Outdated information shared by people who trust it"
         ],
         "correct": 1,
         "explain": "Misinformation is not necessarily spread on purpose."
@@ -346,9 +346,9 @@
         "text": "Which question helps you evaluate a source?",
         "options": [
           "Who made it, and why?",
-          "What colour is the website?",
-          "How many pictures does it have?",
-          "Is it long?"
+          "What colour is the website background?",
+          "How many sections does the article have?",
+          "What font size does the website use?"
         ],
         "correct": 0,
         "explain": "The sender and purpose tell you a lot about reliability."
@@ -358,10 +358,10 @@
         "type": "flervalg",
         "text": "Which of these can you usually use in your project?",
         "options": [
-          "Any song from a streaming service",
-          "A photo from a stranger's profile",
+          "A picture with a copyright notice, without asking permission",
+          "A picture from a public profile, with the username included",
           "A picture with a Creative Commons licence, following the terms",
-          "A clip from a new cinema film"
+          "A picture from a search result, with the website named"
         ],
         "correct": 2,
         "explain": "Creative Commons licences give permission on certain conditions.",
@@ -447,6 +447,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

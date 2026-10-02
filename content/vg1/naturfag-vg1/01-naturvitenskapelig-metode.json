@@ -81,10 +81,10 @@
       "id": "q01",
       "text": "Hva kjennetegner en god hypotese?",
       "options": [
-        "Den er sann",
-        "Den kan testes",
-        "Den er lang",
-        "Den er basert på en mening"
+        "Den må være bevist før forsøket",
+        "Den kan testes i et forsøk",
+        "Den beskriver metoden i forsøket",
+        "Den må være godkjent av læreren"
       ],
       "correct": 1,
       "explain": "En hypotese må kunne styrkes eller svekkes av forsøk."
@@ -94,9 +94,9 @@
       "text": "Du undersøker hvordan temperaturen påvirker hvor raskt sukker løses opp. Hva er den uavhengige variabelen?",
       "options": [
         "Temperaturen",
-        "Tiden det tar",
-        "Mengden sukker",
-        "Størrelsen på begeret"
+        "Oppløsningstiden",
+        "Sukkermengden",
+        "Begerdiameteren"
       ],
       "correct": 0,
       "explain": "Temperaturen er det du endrer."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva er en teori i naturvitenskapen?",
       "options": [
-        "En gjetning",
-        "En mening",
-        "En godt underbygd forklaring støttet av mange observasjoner",
-        "En hypotese som ikke er testet"
+        "En hypotese uten støtte fra observasjoner",
+        "En mening basert på egne erfaringer",
+        "En forklaring støttet av mange observasjoner",
+        "En forklaring støttet av få observasjoner"
       ],
       "correct": 2,
       "explain": "Evolusjonsteorien og big bang-teorien er eksempler."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hvorfor gjentar vi et forsøk flere ganger?",
       "options": [
-        "For å bruke mer utstyr",
-        "For å få flere feil",
-        "For å endre hypotesen",
+        "For å få flere ulike resultater",
+        "For å bruke flere måleinstrumenter",
+        "For å undersøke en ny hypotese",
         "For å få mer pålitelige resultater"
       ],
       "correct": 3,
@@ -135,17 +135,17 @@
         "Thomson"
       ],
       "correct": 0,
-      "explain": "Thomson oppdaget elektronet, og Bohr plasserte elektronene i skall.",
+      "explain": "Rutherford viste at atomet har en liten, positivt ladd kjerne.",
       "niva": "eksempel"
     },
     {
       "id": "q06",
       "text": "Hva betyr etterprøvbarhet?",
       "options": [
-        "At forsøket er billig",
+        "At andre kan lese forsøksrapporten og forstå den",
         "At andre kan gjenta forsøket og få samme resultat",
-        "At læreren godkjenner forsøket",
-        "At forsøket er farlig"
+        "At læreren kan kontrollere utstyret før forsøket",
+        "At forsøket kan utføres uten måleutstyr"
       ],
       "correct": 1,
       "explain": "Etterprøvbarhet er et grunnleggende krav i naturvitenskapen."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvor skal du kaste avfall som inneholder tungmetaller?",
       "options": [
-        "I vasken",
-        "I restavfallet",
+        "I en beholder for vanlig restavfall",
+        "I en beholder for glassavfall",
         "I en egen merket avfallsbeholder",
-        "I papirkurven"
+        "I en beholder for organisk avfall"
       ],
       "correct": 2,
       "explain": "Tungmetaller er skadelige for miljøet.",
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hva er en modell i naturvitenskapen?",
       "options": [
-        "En person som poserer",
-        "En sann kopi av virkeligheten",
-        "En type forsøk",
+        "En fullstendig beskrivelse av virkeligheten",
+        "En rapport om resultatene fra et forsøk",
+        "En samling målinger fra et forsøk",
         "En forenklet framstilling av virkeligheten"
       ],
       "correct": 3,
@@ -180,9 +180,9 @@
       "text": "Hva er fagfellevurdering?",
       "options": [
         "At forskere vurderer hverandres arbeid før publisering",
-        "At elever retter hverandres prøver",
-        "At journalister omtaler forskning",
-        "At forskning blir patentert"
+        "At forskere presenterer arbeidet sitt før publisering",
+        "At redaktører vurderer forskernes arbeid etter publisering",
+        "At forskere godkjenner hverandres arbeid etter publisering"
       ],
       "correct": 0,
       "explain": "Det skal fange opp feil og svakheter."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvor finner du informasjon om farene ved et kjemikalie?",
       "options": [
-        "På etiketten til flasken med farger",
+        "I forsøksrapporten",
         "I sikkerhetsdatabladet",
-        "I læreboka i historie",
-        "På nettsiden til skolen"
+        "I laboratoriejournalen",
+        "I produktkatalogen"
       ],
       "correct": 1,
       "explain": "Sikkerhetsdatabladet beskriver farer, verneutstyr og avfallshåndtering.",
@@ -329,10 +329,10 @@
         "type": "flervalg",
         "text": "Du måler hvor høyt planter vokser med ulike mengder gjødsel. Hva er den avhengige variabelen?",
         "options": [
-          "Mengden gjødsel",
-          "Plantenes høyde",
-          "Mengden vann",
-          "Plantetypen"
+          "Mengden av gjødsel",
+          "Høyden på plantene",
+          "Mengden av vann",
+          "Typen av plante"
         ],
         "correct": 1,
         "explain": "Det du måler er den avhengige variabelen."
@@ -342,10 +342,10 @@
         "type": "flervalg",
         "text": "Når bør du bruke avtrekksskap?",
         "options": [
-          "Når du veier salt",
-          "Når du tegner grafer",
+          "Når forsøket gir vanndamp fra oppvarmet vann",
+          "Når forsøket gir varme fra en brenner",
           "Når forsøket gir giftige eller illeluktende gasser",
-          "Alltid når du bruker vann"
+          "Når forsøket krever veiing av faste stoffer"
         ],
         "correct": 2,
         "explain": "Avtrekket fjerner gassene.",
@@ -356,10 +356,10 @@
         "type": "flervalg",
         "text": "Hva må du gjøre når du presenterer et eget forsøk?",
         "options": [
-          "Begrunne metodevalgene og drøfte usikkerhet",
-          "Bare vise det beste resultatet",
-          "Skjule feilkildene",
-          "Bare fortelle konklusjonen"
+          "Forklare metodevalgene og drøfte usikkerheten",
+          "Oppgi resultatene og utelate usikkerheten",
+          "Beskrive utstyret uten å forklare metodevalgene",
+          "Presentere konklusjonen uten å vise målingene"
         ],
         "correct": 0,
         "explain": "Åpenhet om metode og usikkerhet gjør resultatene troverdige."
@@ -444,6 +444,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

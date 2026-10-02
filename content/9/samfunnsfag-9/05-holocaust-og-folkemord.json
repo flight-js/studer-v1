@@ -83,9 +83,9 @@
       "text": "Hva er folkemord?",
       "options": [
         "Handlinger med hensikt å ødelegge en nasjonal, etnisk, religiøs eller «rasemessig» gruppe",
-        "Alle drap i krig",
-        "En borgerkrig",
-        "Et terrorangrep"
+        "Handlinger med hensikt å fordrive en nasjonal, etnisk, religiøs eller «rasemessig» gruppe",
+        "Handlinger med hensikt å ødelegge en politisk eller sosial gruppe",
+        "Handlinger med hensikt å beseire en nasjonal, etnisk, religiøs eller «rasemessig» gruppe"
       ],
       "correct": 0,
       "explain": "Det avgjørende er hensikten om å ødelegge gruppen."
@@ -94,10 +94,10 @@
       "id": "q02",
       "text": "Omtrent hvor mange jøder ble drept i Holocaust?",
       "options": [
-        "Rundt 600 000",
-        "Rundt 1 million",
+        "Rundt 3 millioner",
+        "Rundt 8 millioner",
         "Rundt 6 millioner",
-        "Rundt 60 millioner"
+        "Rundt 11 millioner"
       ],
       "correct": 2,
       "explain": "Omtrent to av tre jøder i Europa ble drept."
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva var Nürnberglovene fra 1935?",
       "options": [
-        "Fredsavtaler etter krigen",
+        "Lover som ga jøder politisk stemmerett",
         "Lover som fratok jøder rettigheter",
-        "Lover om arbeidstid",
-        "Regler for de olympiske lekene"
+        "Lover som forbød jøder å bruke tysk språk",
+        "Lover som ga jøder fullt statsborgerskap"
       ],
       "correct": 1,
       "explain": "Lovene gjorde jøder til annenrangs borgere og forbød blant annet ekteskap med ikke-jøder.",
@@ -119,9 +119,9 @@
       "id": "q04",
       "text": "Hva skjedde 26. november 1942?",
       "options": [
-        "Tyskland kapitulerte",
-        "Krystallnatten",
-        "Nürnbergprosessen startet",
+        "Over 500 jøder ble sendt fra Oslo til Sverige med skipet Donau",
+        "Over 500 jøder ble sendt fra Bergen med skipet Donau",
+        "Over 500 jøder ble sendt fra Oslo med skipet Monte Rosa",
         "Over 500 jøder ble sendt fra Oslo med skipet Donau"
       ],
       "correct": 3,
@@ -133,9 +133,9 @@
       "text": "Hva betyr avhumanisering?",
       "options": [
         "Å fremstille en gruppe som mindre menneskelig",
-        "Å hjelpe flyktninger",
-        "Å lære om historie",
-        "Å dele ut mat"
+        "Å fremstille en gruppe som farlig og mektig",
+        "Å fremstille en gruppe som fremmed og annerledes",
+        "Å fremstille en gruppe som ansvarlig for samfunnsproblemer"
       ],
       "correct": 0,
       "explain": "Avhumanisering gjør det lettere å rettferdiggjøre vold mot en gruppe."
@@ -145,8 +145,8 @@
       "text": "Hvor skjedde folkemordet i 1994, der rundt 800 000 ble drept på omtrent 100 dager?",
       "options": [
         "Kambodsja",
-        "Bosnia",
-        "Armenia",
+        "Bosnia-Hercegovina",
+        "Sudan",
         "Rwanda"
       ],
       "correct": 3,
@@ -157,10 +157,10 @@
       "id": "q07",
       "text": "Hvorfor er tilskuere viktige når vi snakker om folkemord?",
       "options": [
-        "Fordi de alltid stopper drapene",
+        "Fordi tilskuere avgjør hvilke grupper som skal forfølges",
         "Fordi folkemord blir lettere å gjennomføre når mange ser bort",
-        "Fordi de er gjerningspersoner",
-        "De er ikke viktige"
+        "Fordi tilskuere har ansvar for å dømme gjerningspersonene",
+        "Fordi tilskuere organiserer flukten til ofrene"
       ],
       "correct": 1,
       "explain": "Når få sier ifra, møter gjerningspersonene lite motstand."
@@ -169,10 +169,10 @@
       "id": "q08",
       "text": "Hva var Nürnbergprosessen?",
       "options": [
-        "Et opprør i en ghetto",
-        "Et folkemord i Tyskland",
+        "Rettssaker mot allierte soldater etter krigen",
+        "Rettssaker mot tyske sivile etter krigen",
         "Rettssaker mot nazistiske ledere etter krigen",
-        "En tysk propagandakampanje"
+        "Rettssaker mot jødiske motstandsfolk etter krigen"
       ],
       "correct": 2,
       "explain": "Rettssakene slo fast at ledere kan straffes for forbrytelser mot menneskeheten.",
@@ -182,9 +182,9 @@
       "id": "q09",
       "text": "Hvilket tiltak kan bidra til å forebygge ekstreme holdninger?",
       "options": [
-        "Å spre konspirasjonsteorier",
-        "Å overse hatprat",
-        "Å svekke rettsstaten",
+        "Rykter og ukritisk deling",
+        "Fordommer og fiendebilder",
+        "Propaganda og konspirasjonsteorier",
         "Kunnskap og kildekritikk"
       ],
       "correct": 3,
@@ -195,9 +195,9 @@
       "text": "Hvilke andre grupper enn jøder forfulgte og drepte nazistene?",
       "options": [
         "Rom, mennesker med funksjonsnedsettelser og politiske motstandere",
-        "Bare soldater",
-        "Ingen andre",
-        "Bare britiske fanger"
+        "Svenske soldater, sveitsiske bønder og kanadiske lærere",
+        "Britiske sivile, sveitsiske soldater og danske politikere",
+        "Amerikanske journalister, spanske bønder og norske lærere"
       ],
       "correct": 0,
       "explain": "Nazistene forfulgte alle de mente ikke passet inn i «folkefellesskapet»."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva var Auschwitz-Birkenau?",
         "options": [
-          "En ghetto i Warszawa",
+          "En ghetto for jøder i Kraków",
           "Nazistenes største utryddelsesleir",
-          "En fredsavtale",
-          "Et norsk fengsel"
+          "En fangeleir for allierte soldater",
+          "En arbeidsleir for sovjetiske soldater"
         ],
         "correct": 1,
         "explain": "Over én million mennesker ble drept der, de fleste jøder."
@@ -349,9 +349,9 @@
         "text": "Hva skjedde under Krystallnatten i 1938?",
         "options": [
           "Synagoger og jødiske butikker ble angrepet",
-          "Tyskland angrep Polen",
-          "Hitler ble rikskansler",
-          "Norge ble okkupert"
+          "Tyske tropper og politi invaderte Polen",
+          "Hitler og nazistene tok makten i Tyskland",
+          "Norge og Danmark ble okkupert av Tyskland"
         ],
         "correct": 0,
         "explain": "Navnet kommer av alle knuste vinduer."
@@ -361,10 +361,10 @@
         "type": "flervalg",
         "text": "Hvilken domstol ble opprettet i 2002 for å straffe folkemord og andre alvorlige forbrytelser?",
         "options": [
-          "Høyesterett",
-          "EU-domstolen",
+          "Den internasjonale domstolen (ICJ)",
+          "Den faste voldgiftsdomstolen (PCA)",
           "Den internasjonale straffedomstolen (ICC)",
-          "Den europeiske menneskerettsdomstolen"
+          "Den europeiske menneskerettsdomstolen (EMD)"
         ],
         "correct": 2,
         "explain": "ICC ligger i Haag i Nederland.",
@@ -450,6 +450,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

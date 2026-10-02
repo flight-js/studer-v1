@@ -229,7 +229,7 @@ function Quiz() {
               type="button"
               aria-disabled={svart || undefined}
               onClick={() => !svart && setValgt(i)}
-              className={`flex items-center justify-between gap-3 rounded-xl border px-4 py-3.5 text-left text-[15px] transition-[background-color,border-color,color,transform] duration-200 ${
+              className={`flex items-center justify-between gap-3 rounded-xl border px-4 py-3.5 text-left text-[15px] transition-[background-color,border-color,color,translate,scale] duration-200 ${
                 tilstand === "riktig"
                   ? "border-success bg-success-tint text-success-ink font-semibold"
                   : tilstand === "feil"

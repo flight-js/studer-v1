@@ -84,10 +84,10 @@
       "id": "q01",
       "text": "Hvor oppsto kileskriften?",
       "options": [
-        "I Egypt",
-        "I Mesopotamia",
-        "I Kina",
-        "I Norden"
+        "Egypt",
+        "Mesopotamia",
+        "Indusdalen",
+        "Kina"
       ],
       "correct": 1,
       "explain": "For over 5000 år siden.",
@@ -99,8 +99,8 @@
       "options": [
         "Johannes Gutenberg",
         "Martin Luther",
-        "Leonardo da Vinci",
-        "Galileo Galilei"
+        "William Caxton",
+        "Aldus Manutius"
       ],
       "correct": 0,
       "explain": "Bøker ble billigere og ideer spredte seg raskt."
@@ -110,9 +110,9 @@
       "text": "Hvilken bevegelse spredte seg raskt på grunn av boktrykkerkunsten?",
       "options": [
         "Opplysningstiden",
-        "Nasjonalromantikken",
+        "Renessansen",
         "Reformasjonen",
-        "Industrialiseringen"
+        "Nasjonalromantikken"
       ],
       "correct": 2,
       "explain": "Luthers skrifter ble trykt i store opplag."
@@ -121,9 +121,9 @@
       "id": "q04",
       "text": "Når startet NRK ordinære TV-sendinger?",
       "options": [
-        "1933",
-        "1905",
-        "1991",
+        "1954",
+        "1965",
+        "1970",
         "1960"
       ],
       "correct": 3,
@@ -135,9 +135,9 @@
       "text": "Hva er et kulturmøte?",
       "options": [
         "Når mennesker med ulik kultur møtes",
-        "Et møte på et museum",
-        "En konsert",
-        "En type handel"
+        "Når mennesker med samme kultur møtes",
+        "Når land inngår en handelsavtale",
+        "Når kunst fra ett land vises"
       ],
       "correct": 0,
       "explain": "Det kan gi både utveksling og konflikt."
@@ -149,7 +149,7 @@
         "Hvete og bygg",
         "Poteter og mais",
         "Ris og te",
-        "Epler og pærer"
+        "Oliven og druer"
       ],
       "correct": 1,
       "explain": "Dette er en del av den colombianske utvekslingen.",
@@ -159,10 +159,10 @@
       "id": "q07",
       "text": "Hva gjorde vikingene i blant annet Irland og Normandie?",
       "options": [
-        "Bare handlet fredelig",
-        "Bare plyndret",
-        "Handlet, plyndret og bosatte seg",
-        "Ingenting"
+        "De bygde romerske veier, opprettet provinser og innførte latin i Irland og Normandie",
+        "De dro på korstog, erobret Jerusalem og opprettet klostre i Irland og Normandie",
+        "De handlet, plyndret og bosatte seg i Irland og Normandie",
+        "De deltok i reformasjonen, trykte bøker og spredte protestantismen i Irland og Normandie"
       ],
       "correct": 2,
       "explain": "Vikingtiden var preget av mange typer kontakt."
@@ -171,9 +171,9 @@
       "id": "q08",
       "text": "Hva er en utfordring med internett og sosiale medier?",
       "options": [
-        "For lite informasjon",
-        "At ingen bruker dem",
-        "At de er for dyre",
+        "Bedre kildekontroll og sterkere personvern",
+        "Sikrere informasjon og færre falske nyheter",
+        "Enklere faktasjekk og tydeligere kildekritikk",
         "Falske nyheter og overvåking"
       ],
       "correct": 3,
@@ -184,9 +184,9 @@
       "text": "Hvilket spørsmål er nyttig når du vurderer et kulturmøte?",
       "options": [
         "Hvem hadde makt, og hvem tjente og tapte?",
-        "Hvilket år var kaldest?",
-        "Hvor mange skip var med?",
-        "Hva het kongen?"
+        "Hvor lang tid tok reisen, og hvilken rute fulgte de?",
+        "Hvilke varer ble fraktet, og hvor mye kostet de?",
+        "Hvilke redskaper brukte de, og hvordan laget de dem?"
       ],
       "correct": 0,
       "explain": "Kulturmøter har ofte ujevn maktfordeling."
@@ -195,10 +195,10 @@
       "id": "q10",
       "text": "Når ble runer tatt i bruk i Norden?",
       "options": [
-        "Rundt 1000 f.Kr.",
+        "Rundt 500 f.Kr.",
         "Rundt 200 e.Kr.",
-        "Rundt 1500",
-        "Rundt 1800"
+        "Rundt 800 e.Kr.",
+        "Rundt 1200 e.Kr."
       ],
       "correct": 1,
       "explain": "Med kristendommen kom det latinske alfabetet.",
@@ -331,9 +331,9 @@
         "text": "Hva tok vikingene blant annet med seg hjem fra kulturmøtene?",
         "options": [
           "Kristendommen",
-          "Poteten",
-          "Internett",
-          "Kileskrift"
+          "Islam",
+          "Jødedommen",
+          "Buddhismen"
         ],
         "correct": 0,
         "explain": "Kristendommen kom gradvis til Norden.",
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hvilken negativ følge fikk kulturmøtet i Amerika etter 1492?",
         "options": [
-          "Flere urfolk",
+          "Selvstyre, likestilling og bedre helse",
           "Erobring, sykdommer og slaveri",
-          "Mindre handel",
-          "Ingen endringer"
+          "Befolkningsvekst, trygghet og politisk frihet",
+          "Likeverd, fred og økonomisk selvstendighet"
         ],
         "correct": 1,
         "explain": "Millioner av urfolk døde."
@@ -357,10 +357,10 @@
         "type": "flervalg",
         "text": "Hva betyr polarisering?",
         "options": [
-          "Reiser til polene",
-          "Kaldere klima",
+          "At meninger og grupper blir mer enige med hverandre",
+          "At grupper vokser og får flere medlemmer",
           "At meninger og grupper trekkes lenger fra hverandre",
-          "En type kommunikasjon"
+          "At informasjon spres raskere mellom ulike grupper"
         ],
         "correct": 2,
         "explain": "Sosiale medier kan bidra til polarisering.",
@@ -446,6 +446,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

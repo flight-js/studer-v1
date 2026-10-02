@@ -89,10 +89,10 @@
       "id": "q01",
       "text": "Hva betyr 山 shān?",
       "options": [
-        "vann",
+        "skog",
         "fjell",
-        "tre",
-        "sol"
+        "elv",
+        "måne"
       ],
       "correct": 1,
       "explain": "Tegnet ligner tre fjelltopper.",
@@ -103,9 +103,9 @@
       "text": "Hva betyr 林 lín, satt sammen av to 木?",
       "options": [
         "skog",
-        "bord",
-        "hus",
-        "hage"
+        "hage",
+        "park",
+        "åker"
       ],
       "correct": 0,
       "explain": "To trær = skog."
@@ -126,9 +126,9 @@
       "id": "q04",
       "text": "Hvor brukes tradisjonelle tegn?",
       "options": [
-        "I Kina og Singapore",
-        "Bare i Beijing",
-        "Ingen steder",
+        "I Kina, Singapore og Malaysia",
+        "I Japan, Sør-Korea og Thailand",
+        "I Vietnam, Indonesia og Filippinene",
         "I Taiwan, Hongkong og Macao"
       ],
       "correct": 3,
@@ -139,9 +139,9 @@
       "text": "Hva er en regel for strekrekkefølge?",
       "options": [
         "Ovenfra og ned, venstre mot høyre",
-        "Nedenfra og opp",
-        "Høyre mot venstre",
-        "Den er valgfri"
+        "Nedenfra og opp, høyre mot venstre",
+        "Vannrett før loddrett, høyre mot venstre",
+        "Utenfra og inn, nedenfra og opp"
       ],
       "correct": 0,
       "explain": "Vannrett strek kommer også før loddrett."
@@ -150,10 +150,10 @@
       "id": "q06",
       "text": "Hva betyr 休 xiū?",
       "options": [
-        "skog",
-        "hvile",
-        "menneske",
-        "sove"
+        "å sove",
+        "å hvile",
+        "å arbeide",
+        "å gå"
       ],
       "correct": 1,
       "explain": "En person som lener seg mot et tre.",
@@ -163,10 +163,10 @@
       "id": "q07",
       "text": "Hvorfor har 妈 (mor) delen 女?",
       "options": [
-        "Fordi det er et verb",
-        "Fordi det uttales nǚ",
+        "Fordi 女 gir uttalen og 马 gir betydningen",
+        "Fordi 女 viser at tegnet betyr jente",
         "Fordi 女 betyr kvinne og gir betydningen",
-        "Det er tilfeldig"
+        "Fordi 女 viser at tegnet handler om hester"
       ],
       "correct": 2,
       "explain": "马 mǎ gir hint om uttalen."
@@ -175,9 +175,9 @@
       "id": "q08",
       "text": "Hva står et kinesisk tegn vanligvis for?",
       "options": [
-        "En bokstav",
-        "En hel setning",
-        "Et avsnitt",
+        "Én bokstav med en egen lyd",
+        "Én stavelse uten en egen betydning",
+        "Flere stavelser samlet i ett tegn",
         "Én stavelse med en betydning"
       ],
       "correct": 3,
@@ -188,9 +188,9 @@
       "text": "Hva betyr 明 míng, satt sammen av sol og måne?",
       "options": [
         "lys, klar",
-        "natt",
-        "tid",
-        "himmel"
+        "mørk, uklar",
+        "rask, travel",
+        "høy, stor"
       ],
       "correct": 0,
       "explain": "Sol + måne = lys."
@@ -199,10 +199,10 @@
       "id": "q10",
       "text": "Hva betyr 中国 Zhōngguó bokstavelig?",
       "options": [
-        "Det store landet",
+        "Landet i øst",
         "Midtens rike",
-        "Det gamle landet",
-        "Fjellenes land"
+        "Det store landet",
+        "Det gamle landet"
       ],
       "correct": 1,
       "explain": "中 = midt, 国 = land.",
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hvilken strategi hjelper deg å huske tegn?",
         "options": [
-          "Å lage huskehistorier om delene",
-          "Å bare se på tegnene én gang",
-          "Å lære dem uten betydning",
-          "Å hoppe over radikalene"
+          "Å lage huskehistorier om delene i tegnet",
+          "Å pugge uttalene uten å se på delene i tegnet",
+          "Å skrive tegnene mange ganger uten å knytte dem til betydning",
+          "Å lære radikalene hver for seg uten å lage koblinger"
         ],
         "correct": 0,
         "explain": "For eksempel: 休 = person som hviler mot et tre."
@@ -436,6 +436,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er målet i Parisavtalen?",
       "options": [
-        "Å øke oljeproduksjonen",
-        "Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C",
-        "Å stanse all handel",
-        "Å avskaffe FN"
+        "Å begrense den globale oppvarmingen til under 3 °C fram mot år 2100",
+        "Å begrense den globale oppvarmingen til godt under 2 °C, helst 1,5 °C",
+        "Å kutte verdens klimagassutslipp med 1,5 prosent innen år 2030",
+        "Å holde den globale oppvarmingen på førindustrielt nivå innen år 2050"
       ],
       "correct": 1,
       "explain": "Vedtatt i 2015."
@@ -91,9 +91,9 @@
       "text": "Hva sier handlingsregelen?",
       "options": [
         "At staten over tid kan bruke omtrent 3 % av oljefondet per år",
-        "At alt av oljefondet skal brukes",
-        "At oljefondet skal deles ut til alle",
-        "At oljeutvinningen skal stanse"
+        "At staten over tid kan bruke omtrent 4 % av oljefondet per år",
+        "At staten over tid kan bruke omtrent 3 % av årets oljeinntekter per år",
+        "At staten over tid skal spare omtrent 3 % av oljefondet per år"
       ],
       "correct": 0,
       "explain": "For å spare til framtiden."
@@ -102,10 +102,10 @@
       "id": "q03",
       "text": "Hva er progressiv skatt?",
       "options": [
-        "At alle betaler samme beløp",
-        "At de med lav inntekt betaler mest",
-        "At de med høy inntekt betaler en større andel",
-        "At bedrifter slipper skatt"
+        "At personer med lav inntekt betaler en større andel av inntekten i skatt",
+        "At personer med ulik inntekt betaler samme andel av inntekten i skatt",
+        "At personer med høy inntekt betaler en større andel av inntekten i skatt",
+        "At personer med høy formue betaler en større andel av formuen i skatt"
       ],
       "correct": 2,
       "explain": "Et virkemiddel for omfordeling."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hvorfor kan klimaavgifter reise fordelingsspørsmål?",
       "options": [
-        "Fordi de gjelder bare rike",
-        "Fordi de er gratis",
-        "Fordi de ikke påvirker noen",
-        "Fordi de kan ramme folk med lav inntekt og lang reisevei hardest"
+        "Fordi avgiftene kan ramme folk med høy inntekt og kort reisevei hardest",
+        "Fordi avgiftene kan gjøre kollektivtransport dyrere enn bilbruk for folk med lav inntekt",
+        "Fordi avgiftene kan gi størst økonomisk gevinst til folk med lav inntekt og lang reisevei",
+        "Fordi avgiftene kan ramme folk med lav inntekt og lang reisevei hardest"
       ],
       "correct": 3,
       "explain": "Rettferdig omstilling."
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hvilket klimamål har Norge for 2030?",
       "options": [
-        "Minst 55 % kutt fra 1990-nivå",
-        "10 % kutt",
-        "Ingen mål",
-        "Å doble utslippene"
+        "Minst 55 % utslippskutt fra 1990-nivå innen 2030",
+        "Minst 40 % utslippskutt fra 1990-nivå innen 2030",
+        "Minst 55 % utslippskutt fra 2005-nivå innen 2030",
+        "Minst 55 % utslippskutt fra 1990-nivå innen 2040"
       ],
       "correct": 0,
       "explain": "Fastsatt i klimaloven.",
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hvilket dilemma knytter seg til vindkraft?",
       "options": [
-        "At den gir mer utslipp",
+        "At den gir fornybar energi, men gir større klimagassutslipp enn kullkraft",
         "At den gir fornybar energi, men beslaglegger natur",
-        "At den er forbudt",
-        "At den ikke gir strøm"
+        "At den gir fossil energi, men beslaglegger lite natur",
+        "At den gir fornybar energi, men krever brensel fra oljeutvinning"
       ],
       "correct": 1,
       "explain": "Og kan krenke urfolks rettigheter."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hvem rammes ofte hardest av klimaendringene globalt?",
       "options": [
-        "De rikeste landene",
-        "Oljeselskapene",
-        "Fattige land som har bidratt minst til utslippene",
-        "Ingen"
+        "Rike land som har bidratt mest til de globale utslippene",
+        "Land med store økonomiske ressurser til klimatilpasning",
+        "Fattige land som har bidratt minst til de globale utslippene",
+        "Land med høy inntekt og god beredskap mot ekstremvær"
       ],
       "correct": 2,
       "explain": "Et globalt fordelingsproblem."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hvordan kan oljefondet ses som fordeling mellom generasjoner?",
       "options": [
-        "Fordi pengene brukes opp i dag",
-        "Fordi fondet gir penger bare til eldre",
-        "Fordi fondet er hemmelig",
+        "Fordi rikdommen brukes i dag framfor å spares til framtidige generasjoner",
+        "Fordi fondet fordeler oljeinntektene likt mellom alle aldersgrupper i dag",
+        "Fordi fondets avkastning går til dagens pensjonister framfor framtidige generasjoner",
         "Fordi rikdommen spares og deles med framtidige generasjoner"
       ],
       "correct": 3,
@@ -177,8 +177,8 @@
       "options": [
         "Formuesulikheten",
         "Inntektsulikheten",
-        "De er like",
-        "Det finnes ingen ulikhet"
+        "Lønnsulikheten",
+        "Forbruksulikheten"
       ],
       "correct": 0,
       "explain": "Formue er skjevere fordelt."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvilket virkemiddel er kvotehandel?",
       "options": [
-        "Et forbud",
+        "Et direkte klimavirkemiddel der myndighetene forbyr utslipp over en fast grense",
         "Et markedsbasert klimavirkemiddel der utslippstillatelser kjøpes og selges",
-        "En type bistand",
-        "En valgordning"
+        "Et økonomisk virkemiddel der bedrifter betaler en fast avgift per tonn utslipp",
+        "Et internasjonalt bistandstiltak der land finansierer utslippskutt i fattige land"
       ],
       "correct": 1,
       "explain": "Gir en pris på utslipp."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvilket virkemiddel er et forbud eller påbud?",
         "options": [
-          "Kvotehandel",
-          "Krav om nullutslipp for nye ferger",
-          "Skattefradrag",
-          "Bistand"
+          "En avgift på utslipp fra nye ferger",
+          "Et krav om nullutslipp for nye ferger",
+          "Et tilskudd til kjøp av utslippsfrie ferger",
+          "En kvoteordning for utslipp fra fergetrafikken"
         ],
         "correct": 1,
         "explain": "Direkte regulering."
@@ -325,10 +325,10 @@
         "type": "flervalg",
         "text": "Hva er Statens pensjonsfond utland?",
         "options": [
-          "Oljefondet",
-          "En pensjonskasse for statsansatte",
-          "Et fond for bistand",
-          "Norges Banks valutareserve alene"
+          "Norges statlige fond for sparing av oljeinntekter i utlandet",
+          "Et pensjonsfond for ansatte i offentlig sektor",
+          "Et bistandsfond som finansierer utviklingsprosjekter i utlandet",
+          "Norges Banks fond for å dekke landets valutareserver"
         ],
         "correct": 0,
         "explain": "Der oljeinntektene spares."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hva gjorde energisikkerhet i Europa mer aktuelt etter 2022?",
         "options": [
-          "Brexit",
-          "Finanskrisen",
+          "Storbritannias uttreden av EU",
+          "Finanskrisen som startet i 2008",
           "Russlands angrep på Ukraina",
-          "Covid-19"
+          "Covid-19-pandemien i Europa"
         ],
         "correct": 2,
         "explain": "Europa ble mindre avhengig av russisk gass.",
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

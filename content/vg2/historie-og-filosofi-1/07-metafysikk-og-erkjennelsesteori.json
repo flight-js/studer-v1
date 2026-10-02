@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva studerer erkjennelsesteorien?",
       "options": [
-        "Hva som er moralsk riktig",
-        "Hva vi kan vite og hvordan kunnskap begrunnes",
-        "Hvordan staten bør styres",
-        "Hvordan kunst skapes"
+        "Hva vi bør gjøre, og hvordan moralske valg begrunnes",
+        "Hva vi kan vite, og hvordan kunnskap begrunnes",
+        "Hvordan samfunnet bør styres, og hvordan lover begrunnes",
+        "Hva som finnes, og hvordan virkeligheten kan beskrives"
       ],
       "correct": 1,
       "explain": "Også kalt epistemologi."
@@ -90,9 +90,9 @@
       "text": "Hva mener dualister?",
       "options": [
         "At mennesket består av kropp og en ikke-fysisk sjel",
-        "At alt er materie",
-        "At ingenting finnes",
-        "At bare fornuften finnes"
+        "At mennesket består av en fysisk kropp, uten en ikke-fysisk sjel",
+        "At mennesket består av kropp og bevissthet, som begge er materielle",
+        "At mennesket består av en ikke-fysisk sjel, mens kroppen er en illusjon"
       ],
       "correct": 0,
       "explain": "Descartes er et eksempel."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva sa Descartes han ikke kunne tvile på?",
       "options": [
-        "At sansene er pålitelige",
-        "At verden finnes",
+        "At sansene ga sikker kunnskap om verden rundt ham",
+        "At den ytre verden eksisterte uavhengig av tankene hans",
         "At han tenkte – «jeg tenker, altså er jeg»",
-        "At Gud ikke finnes"
+        "At Gud eksisterte og ikke kunne være en bedrager"
       ],
       "correct": 2,
       "explain": "Selve tvilen er tenkning."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva er induksjonsproblemet?",
       "options": [
-        "At vi ikke kan regne",
-        "At sansene alltid lyver",
-        "At fornuften er upålitelig",
+        "At sanseerfaringene våre ikke viser verden slik den faktisk er",
+        "At gyldige slutninger må bygge på flere observerte enkelttilfeller",
+        "At logikk ikke kan brukes til å avgjøre om en påstand er sann",
         "At tidligere erfaring ikke beviser hva som skjer i framtiden"
       ],
       "correct": 3,
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hva mente empiristene om kunnskap?",
       "options": [
-        "At den kommer fra erfaring og sansene",
-        "At den er medfødt",
-        "At den kommer fra Gud",
-        "At den ikke finnes"
+        "At kunnskap kommer fra erfaring og sansene",
+        "At kunnskap er medfødt og finnes i fornuften",
+        "At kunnskap kommer fra åpenbaringer fra Gud",
+        "At kunnskap bygger på logikk uavhengig av sanseerfaring"
       ],
       "correct": 0,
       "explain": "Locke og Hume."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva er kompatibilisme?",
       "options": [
-        "At vi ikke har fri vilje",
+        "At determinisme utelukker muligheten for fri vilje",
         "At fri vilje og determinisme kan forenes",
-        "At alt er tilfeldig",
-        "At kropp og sjel er ett"
+        "At fri vilje betyr at handlinger skjer tilfeldig",
+        "At fri vilje finnes fordi handlinger ikke har årsaker"
       ],
       "correct": 1,
       "explain": "Vi er frie når vi handler uten ytre tvang.",
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva mente Kant vi ikke kan kjenne?",
       "options": [
-        "Fenomenene",
-        "Matematikk",
+        "Fenomenet slik det viser seg for oss",
+        "Matematiske sammenhenger vi kan forstå med fornuften",
         "Tingen i seg selv",
-        "Tid og rom"
+        "Rommet og tiden slik vi erfarer dem"
       ],
       "correct": 2,
       "explain": "Vi kjenner bare verden slik den viser seg for oss."
@@ -162,10 +162,10 @@
       "id": "q08",
       "text": "Hva er den klassiske definisjonen av kunnskap?",
       "options": [
-        "Alt vi tror",
-        "Det flertallet mener",
-        "Det som står i bøker",
-        "Sann, begrunnet oppfatning"
+        "En oppfatning som er sann, selv om den mangler gode grunner",
+        "En oppfatning med gode grunner, selv om den er usann",
+        "En oppfatning mange tror på, uten at den er begrunnet",
+        "En oppfatning som er sann og har gode grunner"
       ],
       "correct": 3,
       "explain": "Vi trenger gode grunner."
@@ -175,9 +175,9 @@
       "text": "Hvorfor har spørsmålet om fri vilje betydning for ansvar?",
       "options": [
         "Fordi det er vanskelig å holde noen ansvarlig hvis de ikke kunne handlet annerledes",
-        "Fordi det ikke har noen betydning",
-        "Fordi alle er ansvarlige for alt",
-        "Fordi ansvar bare gjelder dyr"
+        "Fordi fri vilje først og fremst handler om å forstå hvilke regler som gjelder",
+        "Fordi ansvar betyr at personen har kontroll over alle årsakene til handlingen",
+        "Fordi ansvar avgjøres av om personen kjente alle følgene av handlingen"
       ],
       "correct": 0,
       "explain": "Knyttet til straff og skyld."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva betyr tabula rasa?",
       "options": [
-        "At sinnet har medfødte ideer",
+        "At sinnet inneholder medfødte ideer før erfaringene begynner",
         "At sinnet er et ubeskrevet blad ved fødselen",
-        "At fornuften er sikrest",
-        "At alt er bestemt"
+        "At sinnet utvikler kunnskap gjennom fornuft uavhengig av sansene",
+        "At sinnet følger en fast plan som avgjør alle tanker"
       ],
       "correct": 1,
       "explain": "Lockes empirisme.",
@@ -311,7 +311,7 @@
           "John Locke",
           "René Descartes",
           "David Hume",
-          "Aristoteles alene"
+          "Aristoteles"
         ],
         "correct": 1,
         "explain": "Han stolte mest på fornuften."
@@ -322,9 +322,9 @@
         "text": "Hva mener determinister?",
         "options": [
           "At alt som skjer, er bestemt av tidligere årsaker",
-          "At alt er tilfeldig",
-          "At vi har ubegrenset fri vilje",
-          "At sjelen er udødelig"
+          "At alt som skjer, skyldes tilfeldigheter uten tidligere årsaker",
+          "At mennesker kan velge uavhengig av tidligere årsaker",
+          "At sjelen bestemmer handlinger uavhengig av kroppen"
         ],
         "correct": 0,
         "explain": "Utfordrer idéen om fri vilje."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hva er metafysikk?",
         "options": [
-          "Læren om moral",
-          "Læren om samfunnet",
-          "Læren om hva som finnes og hva virkeligheten er",
-          "Læren om språk"
+          "Læren om hvordan vi bør handle, og hva som er rett",
+          "Læren om hvordan samfunnet organiseres, og hvem som bør styre",
+          "Læren om hva som finnes, og hva virkeligheten er",
+          "Læren om hvordan språk uttrykker tanker og mening"
         ],
         "correct": 2,
         "explain": "En av filosofiens hoveddisipliner."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -83,7 +83,7 @@
         "Nasjonal minoritet",
         "Urfolk",
         "Innvandrergruppe",
-        "Majoritet"
+        "Majoritetsgruppe"
       ],
       "correct": 1,
       "explain": "Samene har egne rettigheter som urfolk."
@@ -105,10 +105,10 @@
       "id": "q03",
       "text": "Hva er forskjellen på integrering og assimilering?",
       "options": [
-        "Det er det samme",
-        "Assimilering betyr å beholde sin kultur",
-        "Ved integrering deltar minoriteten i samfunnet og kan beholde sin kultur, ved assimilering må den gi den opp",
-        "Integrering betyr å leve atskilt"
+        "Integrering krever at minoriteten gir opp kulturen, mens assimilering gir rom for å bevare den.",
+        "Integrering og assimilering betyr begge at minoriteten deltar uten å endre egen kultur.",
+        "Integrering gir deltakelse og rom for egen kultur; assimilering innebærer å gi den opp.",
+        "Integrering betyr å leve atskilt, mens assimilering betyr å delta i fellesskapet."
       ],
       "correct": 2,
       "explain": "Fornorskingspolitikken var en assimileringspolitikk."
@@ -117,9 +117,9 @@
       "id": "q04",
       "text": "Hva er duodji?",
       "options": [
-        "En samisk høytid",
-        "Et samisk språk",
-        "En samisk rett",
+        "Samisk høytid",
+        "Samisk språk",
+        "Samisk matrett",
         "Samisk håndverk"
       ],
       "correct": 3,
@@ -131,9 +131,9 @@
       "text": "Hva ble romanifolk/tatere blant annet utsatt for?",
       "options": [
         "Tvangssterilisering og at barn ble tatt fra familiene",
-        "Egne skoler med morsmålsopplæring",
-        "Særlig gode rettigheter",
-        "Egen stat"
+        "Rett til egne skoler med morsmålsopplæring",
+        "Offentlig støtte til å bevare språk og tradisjoner",
+        "Selvstyre over egne områder og institusjoner"
       ],
       "correct": 0,
       "explain": "Staten har senere beklaget overgrepene.",
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hva betyr flerkulturell identitet?",
       "options": [
-        "Å ikke ha noen identitet",
+        "Å føle tilhørighet til én bestemt nasjonalitet",
         "Å føle tilhørighet til flere kulturer",
-        "Å bare tilhøre majoriteten",
-        "Å ha mange pass"
+        "Å kunne bruke flere språk i hverdagen",
+        "Å ha statsborgerskap i flere ulike land"
       ],
       "correct": 1,
       "explain": "Mange kan veksle mellom språk og normer."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva er segregering?",
       "options": [
-        "At alle blir like",
-        "At minoriteter deltar i samfunnet",
+        "At grupper deltar likt i samfunnet",
+        "At grupper påvirker hverandres kultur",
         "At grupper lever atskilt fra hverandre",
-        "At minoriteter får egne rettigheter"
+        "At grupper får like rettigheter i samfunnet"
       ],
       "correct": 2,
       "explain": "Segregering kan gi lite kontakt og mer fordommer."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvorfor sier vi at kultur ikke er noe fast?",
       "options": [
-        "Fordi kulturer er like",
-        "Fordi kultur bare handler om mat",
-        "Fordi kultur er bestemt av staten",
+        "Fordi kultur består av tradisjoner som ikke endres",
+        "Fordi kultur formes av lover vedtatt av staten",
+        "Fordi kultur er lik for alle i samme gruppe",
         "Fordi kultur endrer seg når mennesker møtes"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hvilken utfordring kan minoriteter møte i Norge?",
       "options": [
-        "Diskriminering i arbeids- og boligmarkedet",
-        "For mange rettigheter",
-        "Ingen utfordringer",
-        "For høy lønn"
+        "Diskriminering ved jobbsøking og boligjakt",
+        "Fortrinn ved ansettelser og boligleie gjennom særordninger",
+        "Høyere lønn og bedre boliger gjennom offentlige støtteordninger",
+        "Krav om å oppgi egen kultur for å få offentlige tjenester"
       ],
       "correct": 0,
       "explain": "Diskriminering er forbudt, men forekommer."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hvilke likheter og ulikheter i levesett går ofte på tvers av majoritet og minoritet?",
       "options": [
-        "Ingen",
+        "Forskjeller i levesett følger gruppetilhørighet mer enn alder og bosted",
         "Forskjeller mellom generasjoner og mellom by og bygd",
-        "Bare forskjeller i religion",
-        "Bare forskjeller i språk"
+        "Majoritet og minoritet har hvert sitt levesett på tvers av alder og bosted",
+        "Levesett formes hovedsakelig av språk og religion, ikke alder og bosted"
       ],
       "correct": 1,
       "explain": "Grupper er ikke ensartede."
@@ -340,9 +340,9 @@
         "text": "Hva er en norskfødt med innvandrerforeldre?",
         "options": [
           "En person født i Norge med to foreldre som har innvandret",
-          "En person som har flyttet til Norge",
-          "En person med én norsk forelder",
-          "En turist"
+          "En person som har flyttet til Norge fra et annet land",
+          "En person født i Norge med én forelder som har innvandret",
+          "En person født i et annet land av innvandrerforeldre"
         ],
         "correct": 0,
         "explain": "SSB bruker dette begrepet i statistikken."
@@ -439,6 +439,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

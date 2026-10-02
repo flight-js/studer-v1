@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva gjør en fortelling om fortiden?",
       "options": [
-        "Gjengir alt som skjedde",
-        "Velger ut hendelser, setter dem i rekkefølge og gir dem mening",
-        "Er alltid nøytral",
-        "Erstatter kildene"
+        "Den gjengir alle hendelser fra fortiden med like stor detalj.",
+        "Den velger ut hendelser, setter dem i rekkefølge og gir dem mening.",
+        "Den presenterer hendelsene uten å velge mellom ulike perspektiver.",
+        "Den viser til kilder, men lar dem stå uten tolkning."
       ],
       "correct": 1,
       "explain": "Den er alltid et utvalg."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hva kjennetegner et syklisk historiesyn?",
       "options": [
-        "Historien går i sirkler",
-        "Historien går mot et mål",
-        "Økonomi driver historien",
-        "Alt blir stadig bedre"
+        "Historien går i sirkler.",
+        "Historien går mot et fastlagt mål.",
+        "Økonomi og klassekamp driver historien fram.",
+        "Historien går stadig framover mot framskritt."
       ],
       "correct": 0,
       "explain": "Riker vokser, blomstrer og faller."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva mener historisk materialisme driver historien?",
       "options": [
-        "Store menn",
-        "Guds plan",
+        "Enkeltpersoners valg og lederskap",
+        "Religion og Guds plan",
         "Økonomi og klassekamp",
-        "Klimaet alene"
+        "Geografi og klima"
       ],
       "correct": 2,
       "explain": "Marx' historiesyn."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva la Annales-skolen vekt på?",
       "options": [
-        "Konger og kriger",
-        "Enkeltpersoners valg",
-        "Guddommelige inngrep",
+        "Kortsiktige hendelser som slag, valg og kriser",
+        "Enkeltpersoners valg, lederskap og politiske beslutninger",
+        "Religiøse forestillinger, profetier og guddommelige inngrep",
         "Langsomme strukturer som geografi, klima og mentalitet"
       ],
       "correct": 3,
@@ -130,9 +130,9 @@
       "text": "Hva er en fare ved nasjonale fortellinger?",
       "options": [
         "At de kan utelate grupper og forenkle fortiden",
-        "At de alltid er for kompliserte",
-        "At de ikke skaper identitet",
-        "At de bare handler om andre land"
+        "At de kan bli så kompliserte at fortiden blir vanskelig å forstå",
+        "At de kan gjøre det vanskeligere å føle en felles nasjonal identitet",
+        "At de kan legge mest vekt på utviklingen i andre land"
       ],
       "correct": 0,
       "explain": "For eksempel samer og minoriteter."
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er minnekultur?",
       "options": [
-        "Hukommelsestrening",
+        "Måten en person trener hukommelsen på, ved å lære historiske fakta",
         "Måten et samfunn husker på, gjennom monumenter, museer og merkedager",
-        "En type kilde",
-        "Et historiesyn"
+        "En type historisk kilde som dokumenterer hendelser fra fortiden",
+        "Et historiesyn som forklarer samfunnsutvikling gjennom økonomi og klassekamp"
       ],
       "correct": 1,
       "explain": "Hva som huskes og glemmes, sier noe om makt."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva kritiserer det postkoloniale perspektivet?",
       "options": [
-        "At historien er for kort",
-        "At det finnes for mange kilder",
+        "At historien lenge ble fortalt fra kongenes ståsted",
+        "At historien lenge ble fortalt ut fra økonomiens betydning",
         "At historien lenge ble fortalt fra europeernes ståsted",
-        "At det finnes kvinner i historien"
+        "At historien lenge ble fortalt fra enkeltpersoners ståsted"
       ],
       "correct": 2,
       "explain": "Det løfter fram de kolonisertes perspektiver."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvorfor ble framskrittstroen kritisert på 1900-tallet?",
       "options": [
-        "Fordi det ble for mange oppfinnelser",
-        "Fordi folk sluttet å lese",
-        "Fordi vitenskapen stoppet opp",
+        "Fordi teknologiske nyvinninger viste at samfunnsendringer hadde stanset opp",
+        "Fordi økonomisk vekst viste at politiske konflikter hadde forsvunnet",
+        "Fordi vitenskapelige gjennombrudd gjorde historisk kunnskap mindre viktig",
         "Fordi verdenskriger og folkemord viste at framskritt ikke er garantert"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hvordan har synet på Norge under andre verdenskrig endret seg?",
       "options": [
         "Det har blitt mer sammensatt, blant annet om samarbeid og jødedeportasjonen",
-        "Det har ikke endret seg",
-        "Alle var motstandsfolk",
-        "Krigen blir ikke lenger studert"
+        "Det har blitt mer entydig, med større vekt på motstandsarbeid og heltemot",
+        "Det har blitt mer positivt, med mindre oppmerksomhet om samarbeid og deportasjon",
+        "Det har blitt mindre undersøkt, særlig når det gjelder okkupasjonens hverdag"
       ],
       "correct": 0,
       "explain": "Ny forskning ga nye perspektiver.",
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva kjennetegner god historiefortelling?",
       "options": [
-        "At den er helt nøytral",
+        "At den framstiller ett perspektiv som nøytralt og ikke viser hvordan kildene støtter det",
         "At den er åpen om perspektivet, bygger på kilder og tar hensyn til flere stemmer",
-        "At den bare har én stemme",
-        "At den unngår kilder"
+        "At den bygger på én stemme og bruker kilder som bekrefter framstillingen",
+        "At den unngår kilder og beskriver hendelser uten å begrunne framstillingen"
       ],
       "correct": 1,
       "explain": "Noen fortellinger er bedre begrunnet enn andre."
@@ -319,9 +319,9 @@
         "type": "flervalg",
         "text": "Hvilket historiesyn legger vekt på enkeltpersoners valg?",
         "options": [
-          "Strukturelt",
-          "Aktørorientert",
-          "Syklisk",
+          "Strukturorientert historiesyn",
+          "Aktørorientert historiesyn",
+          "Syklisk historiesyn",
           "Historisk materialisme"
         ],
         "correct": 1,
@@ -333,9 +333,9 @@
         "text": "Hva var typisk for opplysningstidens historiesyn?",
         "options": [
           "Framskrittstro",
-          "Syklisk syn",
+          "Syklisk historiesyn",
           "Historisk materialisme",
-          "Postkolonialisme"
+          "Postkolonialt perspektiv"
         ],
         "correct": 0,
         "explain": "Fornuft og vitenskap skulle gi framskritt.",
@@ -346,10 +346,10 @@
         "type": "flervalg",
         "text": "Hvilket perspektiv spør hvor kvinnene er i historien?",
         "options": [
-          "Det marxistiske",
-          "Det sykliske",
+          "Klasseperspektivet",
+          "Det sykliske perspektivet",
           "Kjønnsperspektivet",
-          "Det nasjonalromantiske"
+          "Det nasjonalromantiske perspektivet"
         ],
         "correct": 2,
         "explain": "Kjønn som analysekategori."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

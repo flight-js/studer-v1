@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hvor skjer primærsosialiseringen først og fremst?",
       "options": [
-        "På skolen",
+        "I vennegjengen",
         "I familien",
-        "På jobben",
-        "I sosiale medier"
+        "I skolen",
+        "På arbeidsplassen"
       ],
       "correct": 1,
       "explain": "I de første leveårene."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Hva er en rolle?",
       "options": [
-        "Forventninger knyttet til en posisjon",
-        "En type straff",
-        "En skriftlig lov",
-        "En personlighet"
+        "Forventninger knyttet til en sosial posisjon",
+        "Regler knyttet til en skriftlig lov",
+        "Reaksjoner knyttet til et normbrudd",
+        "Personlige egenskaper knyttet til individet"
       ],
       "correct": 0,
       "explain": "For eksempel elev eller trener."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er en uformell sanksjon?",
       "options": [
-        "En bot",
-        "En karakter",
+        "En formell reaksjon fra en offentlig myndighet",
+        "En vurdering av elevens faglige prestasjoner",
         "Et blikk eller utestenging fra folk rundt oss",
-        "En dom i retten"
+        "En regel som bestemmer lovlig atferd"
       ],
       "correct": 2,
       "explain": "Formelle sanksjoner kommer fra institusjoner."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva mente Mead med den generaliserte andre?",
       "options": [
-        "En bestemt person",
-        "En lærer",
-        "En venn",
+        "En bestemt persons forventninger til hvordan vi bør handle",
+        "En lærers regler for hvordan elever bør oppføre seg",
+        "En venns mening om hvordan vi bør møte andre",
         "Samfunnets forventninger slik vi har tatt dem opp i oss"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hva er inntrykksstyring ifølge Goffman?",
       "options": [
         "Å prøve å gi andre et bestemt inntrykk",
-        "Å styre et land",
-        "Å lage reklame",
-        "Å skrive dagbok"
+        "Å bestemme hvilke roller andre personer skal spille",
+        "Å kontrollere hvordan andre oppfører seg i en gruppe",
+        "Å øve på en rolle uten publikum til stede"
       ],
       "correct": 0,
       "explain": "Vi spiller roller på scenen."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvorfor sies sosialisering å være livslang?",
       "options": [
-        "Fordi den bare skjer i barndommen",
+        "Fordi mennesker lærer nye normer ved hvert skolebytte",
         "Fordi nye livsfaser krever nye roller og normer",
-        "Fordi den skjer i søvne",
-        "Fordi den er arvelig"
+        "Fordi mennesker møter nye steder, men beholder de samme rollene",
+        "Fordi sosialisering handler om å gjenta kjente rutiner gjennom livet"
       ],
       "correct": 1,
       "explain": "For eksempel ny jobb eller foreldreskap."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva er en rollekonflikt?",
       "options": [
-        "En krangel på scenen",
-        "At man ikke har noen roller",
+        "At personen bytter mellom ulike roller i løpet av dagen",
+        "At personen ikke kjenner forventningene som gjelder for en rolle",
         "At forventningene i ulike roller kolliderer",
-        "At man bytter navn"
+        "At andre er uenige om hvilken rolle personen har"
       ],
       "correct": 2,
       "explain": "For eksempel mellom jobb og familie."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er resosialisering?",
       "options": [
-        "Sosialisering av barn",
-        "Å gjenta et skoleår",
-        "Å bytte venner",
+        "Å lære normer i familien som lite barn",
+        "Å øve på normer man allerede kjenner",
+        "Å bli kjent med nye venner i en gruppe",
         "Å lære helt nye normer, for eksempel etter soning"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvilken sosialiseringsagent har fått økt betydning for unge de siste årene?",
       "options": [
         "Sosiale medier",
-        "Kirken",
-        "Brevvenner",
-        "Radio"
+        "Tradisjonelle medier",
+        "Familien",
+        "Skolen"
       ],
       "correct": 0,
       "explain": "De påvirker normer og selvbilde.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva er signifikante andre?",
       "options": [
-        "Alle mennesker i samfunnet",
+        "Samfunnets normer barnet lærer å følge",
         "Nære personer barnet speiler seg i",
-        "Kjendiser",
-        "Lærere på videregående"
+        "Ukjente personer barnet møter tilfeldig",
+        "Personer barnet ser på avstand i mediene"
       ],
       "correct": 1,
       "explain": "For eksempel foreldre."
@@ -316,8 +316,8 @@
         "options": [
           "«Meg»",
           "«Jeg»",
-          "Den generaliserte andre",
-          "Rollen"
+          "«Den generaliserte andre»",
+          "«Rollen»"
         ],
         "correct": 1,
         "explain": "«Meg» rommer de innlærte forventningene."
@@ -329,8 +329,8 @@
         "options": [
           "Tertiær sosialisering",
           "Primærsosialisering",
-          "Avvik",
-          "Stempling"
+          "Sosial kontroll",
+          "Rollekonflikt"
         ],
         "correct": 0,
         "explain": "Sosialisering i voksen alder.",
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvilket eksempel passer med Goffmans «bak scenen»?",
         "options": [
-          "En presentasjon i klassen",
-          "Et jobbintervju",
+          "Å presentere et prosjekt for klassen",
+          "Å møte en arbeidsgiver på intervju",
           "Å slappe av hjemme med nære venner",
-          "Å legge ut et nøye valgt bilde"
+          "Å legge ut et gjennomtenkt bilde på nett"
         ],
         "correct": 2,
         "explain": "Der trenger vi ikke spille rollen."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

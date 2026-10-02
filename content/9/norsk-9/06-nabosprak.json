@@ -81,7 +81,7 @@
       "id": "q01",
       "text": "Hva betyr det svenske ordet «rolig»?",
       "options": [
-        "Rolig",
+        "Stille",
         "Morsom",
         "Sint",
         "Trøtt"
@@ -94,10 +94,10 @@
       "id": "q02",
       "text": "Hva betyr det svenske ordet «glass»?",
       "options": [
-        "Et drikkeglass",
-        "Et vindu",
+        "Drikkeglass",
+        "Vindusrute",
         "Iskrem",
-        "Is på vannet"
+        "Isskorpe"
       ],
       "correct": 2,
       "explain": "«Glass» er svensk for iskrem. Et drikkeglass heter «glas».",
@@ -108,7 +108,7 @@
       "text": "Hva betyr dansk «frokost»?",
       "options": [
         "Lunsj",
-        "Frokost",
+        "Morgenmat",
         "Middag",
         "Kveldsmat"
       ],
@@ -120,9 +120,9 @@
       "id": "q04",
       "text": "Hvilke svenske bokstaver tilsvarer norsk æ og ø?",
       "options": [
-        "å og ø",
-        "ü og ö",
-        "æ og ø",
+        "å og ö",
+        "ä og å",
+        "æ og ö",
         "ä og ö"
       ],
       "correct": 3,
@@ -132,10 +132,10 @@
       "id": "q05",
       "text": "Hvorfor ligner dansk skrift på bokmål?",
       "options": [
-        "Fordi dansk har lånt fra bokmål",
+        "Fordi dansk har utviklet seg fra norsk skriftspråk",
         "Fordi bokmål har utviklet seg fra dansk skriftspråk",
-        "Fordi det er tilfeldig",
-        "Fordi dansk og bokmål er samme språk"
+        "Fordi bokmål har utviklet seg fra svensk skriftspråk",
+        "Fordi bokmål har utviklet seg fra islandsk skriftspråk"
       ],
       "correct": 1,
       "explain": "Norge brukte dansk skriftspråk i flere hundre år, og bokmål er en videreutvikling av det."
@@ -144,10 +144,10 @@
       "id": "q06",
       "text": "Hva betyr svensk «inte»?",
       "options": [
-        "inne",
-        "inntil",
-        "ikke",
-        "inni"
+        "Inne",
+        "Inni",
+        "Ikke",
+        "Inntil"
       ],
       "correct": 2,
       "explain": "«Inte» er svensk for «ikke»."
@@ -158,8 +158,8 @@
       "options": [
         "50",
         "30",
-        "25",
-        "53"
+        "40",
+        "60"
       ],
       "correct": 0,
       "explain": "Det danske tallsystemet er annerledes. «Halvtreds» betyr 50.",
@@ -170,9 +170,9 @@
       "text": "Hva er falske venner?",
       "options": [
         "Ord som ser like ut i to språk, men betyr noe annet",
-        "Ord som er helt like i alle språk",
-        "Venner som lyver",
-        "Lånord fra engelsk"
+        "Ord som ser like ut i to språk, men betyr det samme",
+        "Ord som høres like ut i to språk, men betyr det samme",
+        "Ord som ser ulike ut i to språk, men betyr noe annet"
       ],
       "correct": 0,
       "explain": "Falske venner kan skape misforståelser fordi vi tror vi forstår dem."
@@ -181,10 +181,10 @@
       "id": "q09",
       "text": "Hva kjennetegner dansk uttale for mange nordmenn?",
       "options": [
-        "Den er lett fordi den er lik skriften",
-        "Den har bløte konsonanter og stød som gjør den vanskeligere",
-        "Den har ingen vokaler",
-        "Den er lik islandsk"
+        "Den har harde konsonanter og tonefall som gjør den lettere å forstå",
+        "Den har bløte konsonanter og stød som gjør den vanskeligere å forstå",
+        "Den har bløte konsonanter og tonefall som gjør den lettere å forstå",
+        "Den har rulle-r og tydelige vokaler som gjør den vanskeligere å forstå"
       ],
       "correct": 1,
       "explain": "Bløte konsonanter og stød gjør at dansk kan være vanskeligere å forstå muntlig enn skriftlig."
@@ -193,9 +193,9 @@
       "id": "q10",
       "text": "Hva betyr svensk «semester»?",
       "options": [
-        "Et skolehalvår",
-        "En eksamen",
-        "Et kurs",
+        "Skoletermin",
+        "Eksamen",
+        "Undervisning",
         "Ferie"
       ],
       "correct": 3,
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva betyr svensk «och»?",
         "options": [
-          "også",
-          "eller",
-          "og",
-          "ok"
+          "Eller",
+          "Men",
+          "Og",
+          "Så"
         ],
         "correct": 2,
         "explain": "«Och» er svensk for «og»."
@@ -349,13 +349,13 @@
         "type": "flervalg",
         "text": "Hvilket svensk ord betyr «jente»?",
         "options": [
-          "flicka",
-          "jente",
-          "pige",
-          "kvinde"
+          "Flicka",
+          "Pojke",
+          "Kvinna",
+          "Barn"
         ],
         "correct": 0,
-        "explain": "«Flicka» er svensk for jente. «Pige» og «kvinde» er dansk, og «jente» er norsk.",
+        "explain": "«Flicka» er svensk for jente. «Pojke» betyr gutt, «kvinna» betyr kvinne, og «barn» betyr barn.",
         "niva": "eksempel"
       },
       {
@@ -455,6 +455,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

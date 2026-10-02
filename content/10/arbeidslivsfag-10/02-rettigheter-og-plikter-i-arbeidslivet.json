@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva skal en arbeidsavtale inneholde?",
       "options": [
-        "Bare navnet ditt",
+        "Arbeidsklær, lunsjpause, transport og personalrabatt",
         "Arbeidsoppgaver, arbeidstid, lønn og oppsigelsestid",
-        "Karakterene dine",
-        "Hobbyene dine"
+        "Skolefag, karakterer, fritidsinteresser og favorittfag",
+        "Treningsvaner, kosthold, reiseplaner og hobbyer"
       ],
       "correct": 1,
       "explain": "Alle arbeidstakere har rett til skriftlig arbeidsavtale."
@@ -88,10 +88,10 @@
       "id": "q02",
       "text": "Hvor mye ferie har arbeidstakere rett til etter ferieloven?",
       "options": [
-        "To uker",
-        "Tre uker",
+        "Tre uker og én dag",
+        "Fire uker",
         "Fire uker og én dag",
-        "Åtte uker"
+        "Fem uker"
       ],
       "correct": 2,
       "explain": "Mange har avtale om fem uker."
@@ -101,9 +101,9 @@
       "text": "Hva er svart arbeid?",
       "options": [
         "Arbeid der lønnen ikke oppgis til skattemyndighetene",
-        "Arbeid om natta",
-        "Arbeid med farlige stoffer",
-        "Arbeid i helgene"
+        "Arbeid der arbeidstiden ikke registreres hos arbeidsgiveren",
+        "Arbeid der lønnen utbetales uten skriftlig arbeidsavtale",
+        "Arbeid der skatten betales direkte til arbeidsgiveren"
       ],
       "correct": 0,
       "explain": "Svart arbeid er ulovlig og gir ingen rettigheter."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er en fagforening?",
       "options": [
-        "En idrettsklubb",
-        "En del av staten",
-        "En skole for fagarbeidere",
+        "En organisasjon for arbeidsgivere som forhandler om lønn og vilkår",
+        "En offentlig instans som behandler konflikter om lønn og vilkår",
+        "En organisasjon for arbeidstakere som tilbyr utdanning og sertifisering",
         "En organisasjon for arbeidstakere som forhandler om lønn og vilkår"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva viser en lønnsslipp?",
       "options": [
-        "Hvor mange timer du har sovet",
+        "Arbeidsplan, stillingsprosent og ferieønsker",
         "Lønn, skattetrekk og andre trekk",
-        "Arbeidsoppgavene dine",
-        "Hvem som er sjefen"
+        "Arbeidsoppgaver, arbeidssted og ansettelsesdato",
+        "Stillingsannonse, søknadsdato og intervjuavtale"
       ],
       "correct": 1,
       "explain": "Det er lurt å sjekke lønnsslippen hver gang."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva kan en 13-åring jobbe med?",
       "options": [
-        "Farlig arbeid med maskiner",
-        "Nattarbeid",
+        "Farlig arbeid, som bruk av elektrisk sag",
+        "Nattarbeid, som rydding etter stengetid",
         "Lett arbeid, som avislevering",
-        "Hva som helst"
+        "Tungt arbeid, som løfting av store kasser"
       ],
       "correct": 2,
       "explain": "Arbeidet må være ufarlig og ikke gå ut over skolen."
@@ -149,9 +149,9 @@
       "text": "Hva er en plikt du har som arbeidstaker?",
       "options": [
         "Å møte presis og følge instrukser",
-        "Å bestemme lønna selv",
-        "Å ta fri når du vil",
-        "Å jobbe gratis"
+        "Å bestemme lønna selv uten avtale",
+        "Å velge arbeidstid uten å avtale med sjefen",
+        "Å utføre oppgaver uten å følge sikkerhetsregler"
       ],
       "correct": 0,
       "explain": "Du skal også gi beskjed ved sykdom."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hvem samarbeider i trepartssamarbeidet?",
       "options": [
-        "Elever, lærere og foreldre",
-        "Kommunen, fylket og staten",
+        "Arbeidstilsynet, NAV og skatteetaten",
+        "Arbeidstakere, kommuner og domstoler",
         "Arbeidstakere, arbeidsgivere og staten",
-        "Tre bedrifter"
+        "Bedriftseiere, kunder og leverandører"
       ],
       "correct": 2,
       "explain": "Trepartssamarbeidet er kjernen i den norske modellen."
@@ -172,9 +172,9 @@
       "id": "q09",
       "text": "Hvor mye er feriepengene minst?",
       "options": [
-        "5 prosent av lønnen",
-        "25 prosent av lønnen",
-        "1 prosent av lønnen",
+        "8 prosent av lønnen",
+        "12 prosent av lønnen",
+        "15 prosent av lønnen",
         "10,2 prosent av lønnen"
       ],
       "correct": 3,
@@ -185,9 +185,9 @@
       "text": "Hva er normal arbeidstid per uke etter arbeidsmiljøloven?",
       "options": [
         "Høyst 40 timer",
-        "Høyst 20 timer",
-        "Høyst 60 timer",
-        "Det finnes ingen grense"
+        "Høyst 30 timer",
+        "Høyst 50 timer",
+        "Høyst 60 timer"
       ],
       "correct": 0,
       "explain": "Arbeid ut over dette er overtid."
@@ -324,9 +324,9 @@
         "text": "Hva er prøvetid?",
         "options": [
           "En periode i starten av en jobb, vanligvis inntil seks måneder",
-          "En eksamen",
-          "Tiden før man får lønn",
-          "En type ferie"
+          "En periode før en jobb, der søkeren vurderes av arbeidsgiveren",
+          "En periode etter en jobb, der oppsigelsen behandles",
+          "En periode i starten av en utdanning, vanligvis inntil seks måneder"
         ],
         "correct": 0,
         "explain": "I prøvetiden er oppsigelsestiden ofte kortere."
@@ -336,10 +336,10 @@
         "type": "flervalg",
         "text": "Hva er en tariffavtale?",
         "options": [
-          "En avtale om husleie",
+          "En avtale mellom arbeidstaker og arbeidsgiver om individuell lønn og vilkår",
           "En avtale mellom fagforening og arbeidsgiverorganisasjon om lønn og vilkår",
-          "En kjøpekontrakt",
-          "En skatteregel"
+          "En avtale mellom staten og arbeidsgivere om skatter og avgifter",
+          "En avtale mellom arbeidsgiver og bank om lån og renter"
         ],
         "correct": 1,
         "explain": "Tariffavtaler forhandles ved lønnsoppgjørene."
@@ -349,10 +349,10 @@
         "type": "flervalg",
         "text": "Hva kan skje hvis partene i et lønnsoppgjør ikke blir enige?",
         "options": [
-          "Bedriften stenger for alltid",
-          "Staten bestemmer lønna til alle",
-          "Ingenting",
-          "Det kan bli streik"
+          "Arbeidsgiverne kan fastsette lønna uten forhandling",
+          "Staten kan bestemme lønna i alle bedrifter",
+          "Partene kan få tariffavtale uten å bli enige",
+          "Arbeidstakerne kan sette i gang en streik"
         ],
         "correct": 3,
         "explain": "Streik er et lovlig virkemiddel i arbeidslivet."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

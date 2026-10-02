@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva er en simulering?",
       "options": [
-        "Et bevis for en formel",
+        "En beregning av det nøyaktige utfallet i et forsøk",
         "En etterligning av et forsøk, ofte gjentatt mange ganger med datamaskin",
-        "En tabell over alle utfall",
-        "Et diagram"
+        "En oversikt over alle mulige utfall av et forsøk",
+        "En tegning som viser resultatene fra et forsøk"
       ],
       "correct": 1,
       "explain": "I en simulering etterligner vi et virkelig forsøk, for eksempel et terningkast, og gjentar det mange ganger."
@@ -89,9 +89,9 @@
       "text": "Hvilke tall kan randint(1, 6) gi?",
       "options": [
         "0, 1, 2, 3, 4, 5",
-        "Alle tall mellom 1 og 6, også desimaltall",
+        "1, 2, 3, 4, 5",
         "1, 2, 3, 4, 5, 6",
-        "Bare 1 og 6"
+        "1, 2, 3, 4, 5, 6, 7"
       ],
       "correct": 2,
       "explain": "randint gir heltall fra og med den første til og med den siste grensen."
@@ -101,9 +101,9 @@
       "text": "Hvorfor gjør vi mange forsøk i en simulering?",
       "options": [
         "For at relativ frekvens skal komme nær sannsynligheten",
-        "For at programmet skal gå saktere",
-        "Fordi Python krever det",
-        "For å få et eksakt svar"
+        "For at programmet skal gi et raskere resultat",
+        "Fordi Python trenger et bestemt antall forsøk",
+        "For å få et helt nøyaktig svar fra forsøket"
       ],
       "correct": 0,
       "explain": "Etter de store talls lov blir den relative frekvensen mer stabil og nærmere sannsynligheten jo flere forsøk vi gjør."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "En simulering gir 1712 seksere på 10 000 kast. Hva er den relative frekvensen?",
       "options": [
-        "1712",
         "0,01712",
-        "17,12",
+        "1,712",
+        "0,8288",
         "0,1712"
       ],
       "correct": 3,
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva gjør vi med telleren hver gang hendelsen skjer?",
       "options": [
-        "Setter den til 0",
+        "Nullstiller den etter hvert forsøk",
         "Øker den med 1",
-        "Deler den på 2",
-        "Skriver den ut"
+        "Deler den på antall forsøk",
+        "Setter den lik antall forsøk"
       ],
       "correct": 1,
       "explain": "Telleren teller hvor mange ganger hendelsen har skjedd, så den økes med 1 hver gang."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Du kjører samme simulering to ganger og får 0,164 og 0,169. Hva er mest sannsynlig?",
       "options": [
-        "Programmet er feil",
-        "Datamaskinen er ødelagt",
+        "Den teoretiske sannsynligheten er blitt 0,169",
+        "Resultatene viser at hver kjøring gir samme frekvens",
         "Det er vanlig variasjon mellom kjøringer",
-        "Sannsynligheten har endret seg"
+        "Forskjellen skyldes at programmet ikke bruker tilfeldige tall"
       ],
       "correct": 2,
       "explain": "Simuleringer gir tilfeldige resultater, så små forskjeller mellom kjøringer er helt normale."
@@ -150,7 +150,7 @@
       "options": [
         "random() < 0,2",
         "random() > 0,2",
-        "randint(1, 20) == 1",
+        "random() < 0,8",
         "random() == 0,2"
       ],
       "correct": 0,
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "En simulering av summen 7 med to terninger gir 0,25. Den teoretiske sannsynligheten er 1/6. Hva bør du gjøre?",
       "options": [
-        "Stole på simuleringen",
-        "Sjekke programmet for feil",
-        "Senke antall forsøk",
-        "Endre den teoretiske verdien"
+        "Stol på simuleringens resultat",
+        "Sjekk programmet for feil",
+        "Reduser antall forsøk i simuleringen",
+        "Endre den teoretiske sannsynligheten"
       ],
       "correct": 1,
       "explain": "0,25 er langt unna 1/6 ≈ 0,167. Med mange forsøk tyder et så stort avvik på en feil i programmet."
@@ -172,10 +172,10 @@
       "id": "q09",
       "text": "Hvilken feil gjør at en simulert terning kan vise 0?",
       "options": [
-        "Løkka er for kort",
-        "Telleren starter på 0",
-        "Antall forsøk er for lite",
-        "randint(0, 6) i stedet for randint(1, 6)"
+        "randint(1, 7)",
+        "randint(1, 5)",
+        "randint(1, 6) + 1",
+        "randint(0, 6)"
       ],
       "correct": 3,
       "explain": "randint(0, 6) gir sju mulige tall, 0 til 6. En terning skal bare gi 1 til 6."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hvilket spørsmål egner seg best for simulering?",
       "options": [
-        "Hva er 7 · 8?",
+        "Hva er produktet av 7 og 8?",
         "Hvor mange kast trengs i gjennomsnitt før du får en sekser?",
-        "Hva er arealet av et kvadrat?",
-        "Hva er medianen av tre tall?"
+        "Hva er arealet av et kvadrat med side 4 cm?",
+        "Hva er medianen av tallene 2, 5 og 9?"
       ],
       "correct": 1,
       "explain": "Antall kast før sekser er tilfeldig og varierer. En simulering med mange runder gir et godt anslag på gjennomsnittet."
@@ -310,8 +310,8 @@
         "options": [
           "0,495",
           "4,95",
-          "49,5",
-          "0,0495"
+          "0,0495",
+          "0,0505"
         ],
         "correct": 0,
         "explain": "4950 / 10 000 = 0,495, nær den teoretiske verdien 0,5."
@@ -324,7 +324,7 @@
           "1",
           "10 000",
           "0",
-          "Et tilfeldig tall"
+          "5000"
         ],
         "correct": 2,
         "explain": "Telleren skal telle fra null, så den settes til 0 før forsøkene begynner."
@@ -334,10 +334,10 @@
         "type": "flervalg",
         "text": "Hvordan simulerer du to terningkast i én runde?",
         "options": [
-          "randint(2, 12)",
+          "Lag ett tilfeldig tall med randint(2, 12)",
           "Lag to tilfeldige tall med randint(1, 6)",
-          "randint(1, 6) · 2",
-          "random() · 12"
+          "Lag to tilfeldige tall med randint(1, 12)",
+          "Lag to tilfeldige tall med randint(0, 6)"
         ],
         "correct": 1,
         "explain": "To uavhengige tall gir riktig fordeling. randint(2, 12) gir alle summer like sannsynlige, og det stemmer ikke for to terninger."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

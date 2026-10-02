@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er 36 på kinesisk?",
       "options": [
-        "六十三 liùshísān",
+        "四十六 sìshíliù",
         "三十六 sānshíliù",
-        "三六 sān liù",
-        "十三六 shísān liù"
+        "三十七 sānshíqī",
+        "六十六 liùshíliù"
       ],
       "correct": 1,
       "explain": "Tre-ti-seks."
@@ -90,21 +90,21 @@
       "text": "Hvordan sier du «to personer»?",
       "options": [
         "两个人 liǎng ge rén",
-        "二个人 èr ge rén",
-        "二人个 èr rén ge",
-        "两人个 liǎng rén ge"
+        "三个人 sān ge rén",
+        "四个人 sì ge rén",
+        "两个人们 liǎng ge rénmen"
       ],
       "correct": 0,
-      "explain": "Foran måleord brukes 两, ikke 二."
+      "explain": "两 liǎng står foran måleordet 个 når du teller personer."
     },
     {
       "id": "q03",
       "text": "Hva betyr 多少钱？",
       "options": [
-        "Hva er klokka?",
-        "Hvor mange er dere?",
+        "Hvor mye har du?",
+        "Hvor mange personer er det?",
         "Hvor mye koster det?",
-        "Hvor bor du?"
+        "Hva er klokka nå?"
       ],
       "correct": 2,
       "explain": "Duōshao qián?"
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hvilken dag er 星期三 xīngqīsān?",
       "options": [
-        "Mandag",
-        "Tirsdag",
-        "Torsdag",
+        "Fredag",
+        "Lørdag",
+        "Søndag",
         "Onsdag"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "I hvilken rekkefølge skrives en dato på kinesisk?",
       "options": [
         "År – måned – dag",
-        "Dag – måned – år",
+        "Dag – år – måned",
         "Måned – dag – år",
-        "Tilfeldig"
+        "Måned – år – dag"
       ],
       "correct": 0,
       "explain": "Fra størst til minst."
@@ -137,9 +137,9 @@
       "id": "q06",
       "text": "Hva betyr 三点半?",
       "options": [
-        "klokka tre",
-        "halv fire",
         "halv tre",
+        "halv fire",
+        "halv fem",
         "kvart over tre"
       ],
       "correct": 1,
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hvor står «i morgen» i setningen «Jeg drar til Beijing i morgen»?",
       "options": [
-        "Til slutt",
         "Etter verbet",
+        "Etter stedsnavnet Beijing",
         "Foran verbet",
-        "Det brukes ikke"
+        "Mellom 我 og 明天"
       ],
       "correct": 2,
       "explain": "我明天去北京。"
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hvilket tall regnes som et lykketall i Kina?",
       "options": [
-        "4",
-        "7",
-        "13",
+        "1",
+        "3",
+        "5",
         "8"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hva er det vanligste måleordet?",
       "options": [
         "个 gè",
-        "块 kuài",
-        "点 diǎn",
-        "号 hào"
+        "本 běn",
+        "张 zhāng",
+        "只 zhī"
       ],
       "correct": 0,
       "explain": "三个人 – tre personer."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva betyr 星期天?",
       "options": [
-        "lørdag",
+        "onsdag",
         "søndag",
-        "mandag",
-        "fredag"
+        "lørdag",
+        "tirsdag"
       ],
       "correct": 1,
       "explain": "Også 星期日 xīngqīrì."
@@ -311,13 +311,13 @@
         "type": "flervalg",
         "text": "Hvordan skriver du 20 med kinesiske tegn?",
         "options": [
-          "十二",
+          "十三",
           "二十",
-          "两十",
-          "二零"
+          "二一",
+          "三十"
         ],
         "correct": 1,
-        "explain": "12 er 十二, 20 er 二十."
+        "explain": "Kinesiske tall fra 11 til 99 skrives vanligvis med tier først og ener etterpå."
       },
       {
         "id": "m06",
@@ -325,9 +325,9 @@
         "text": "Hva betyr 太贵了！",
         "options": [
           "Det er for dyrt!",
-          "Det er billig!",
-          "Det er gratis!",
-          "Det er pent!"
+          "Det er veldig billig!",
+          "Det koster for lite!",
+          "Det ser veldig fint ut!"
         ],
         "correct": 0,
         "explain": "Tài guì le!",
@@ -341,7 +341,7 @@
           "i dag",
           "i morgen",
           "i går",
-          "i kveld"
+          "i forgårs"
         ],
         "correct": 2,
         "explain": "zuótiān = i går."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

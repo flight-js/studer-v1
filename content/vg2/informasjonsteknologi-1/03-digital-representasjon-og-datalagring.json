@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hvor mange ulike verdier kan én byte ha?",
       "options": [
-        "8",
+        "128",
         "256",
-        "1024",
-        "16"
+        "255",
+        "512"
       ],
       "correct": 1,
       "explain": "2⁸ = 256."
@@ -93,9 +93,9 @@
       "text": "Hva er 1011₂ i titallsystemet?",
       "options": [
         "11",
-        "13",
-        "1011",
-        "9"
+        "10",
+        "12",
+        "14"
       ],
       "correct": 0,
       "explain": "8 + 2 + 1."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hvorfor kan ikke ASCII lagre æ, ø og å?",
       "options": [
-        "Fordi de er store bokstaver",
-        "Fordi de er tall",
-        "Fordi ASCII bare har 128 tegn",
-        "Fordi de er emojier"
+        "Fordi ASCII har plass til 64 tegn",
+        "Fordi ASCII har plass til 256 tegn",
+        "Fordi ASCII har 128 tegn",
+        "Fordi ASCII bruker 16 bit per tegn"
       ],
       "correct": 2,
       "explain": "Unicode har plass til dem."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Omtrent hvor stort er et ukomprimert RGB-bilde på 1920 × 1080 piksler?",
       "options": [
-        "2 kB",
-        "600 MB",
-        "2 GB",
+        "4,1 MB",
+        "8,3 MB",
+        "12,4 MB",
         "6,2 MB"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hvilket format bruker tapsbasert komprimering?",
       "options": [
         "JPEG",
-        "PNG",
-        "ZIP",
-        "CSV"
+        "BMP",
+        "GIF",
+        "SVG"
       ],
       "correct": 0,
       "explain": "Også MP3.",
@@ -141,10 +141,10 @@
       "id": "q06",
       "text": "Hva er JSON?",
       "options": [
-        "Et programmeringsspråk for databaser",
-        "Et format for strukturerte data med nøkler og verdier",
-        "En type bilde",
-        "En nettleser"
+        "Et tekstformat for å beskrive utseendet på nettsider",
+        "Et tekstformat for strukturerte data med nøkler og verdier",
+        "Et databaseformat for å lagre data i rader og kolonner",
+        "Et programmeringsspråk for å lage interaktive nettsider"
       ],
       "correct": 1,
       "explain": "Mye brukt på nettet."
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er en primærnøkkel?",
       "options": [
-        "Et passord",
-        "Den første kolonnen alltid",
+        "Et felt som kobler rader mellom to tabeller",
+        "Et felt som bestemmer rekkefølgen på radene i tabellen",
         "Et felt som identifiserer hver rad entydig",
-        "En krypteringsnøkkel"
+        "Et felt som lagrer en beskrivelse av hver rad"
       ],
       "correct": 2,
       "explain": "For eksempel et elevnummer."
@@ -165,10 +165,10 @@
       "id": "q08",
       "text": "Hvorfor blir vektorgrafikk ikke uskarp når den forstørres?",
       "options": [
-        "Den har flere piksler",
-        "Den er komprimert",
-        "Den bruker JPEG",
-        "Den lagrer former, ikke piksler"
+        "Den lagrer piksler som får større dimensjoner ved forstørring",
+        "Den lagrer fargedata som blir skarpere ved forstørring",
+        "Den lagrer en komprimert bildefil som beholder detaljene",
+        "Den lagrer former som tegnes på nytt i ny størrelse"
       ],
       "correct": 3,
       "explain": "Formene tegnes på nytt i ny størrelse."
@@ -178,9 +178,9 @@
       "text": "Hvilken fargekode gir rødt på en nettside?",
       "options": [
         "#FF0000",
-        "#00FF00",
-        "#0000FF",
-        "#FFFFFF"
+        "#FFFF00",
+        "#00FFFF",
+        "#FF00FF"
       ],
       "correct": 0,
       "explain": "Maks rødt, null grønt og blått.",
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Når er en database et bedre valg enn en CSV-fil?",
       "options": [
-        "Når dataene er svært få",
+        "Ved små datamengder som én bruker skal åpne som ren tekst",
         "Ved store datamengder, mange brukere og behov for raske søk",
-        "Når du skal lagre et bilde",
-        "Aldri"
+        "Ved bilder som skal lagres og vises med høy oppløsning",
+        "Ved enkle tabeller som skal deles som tekst uten søk"
       ],
       "correct": 1,
       "explain": "Men den krever mer oppsett."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hva er 13 i totallsystemet?",
         "options": [
-          "1011",
+          "1111",
           "1101",
-          "1110",
-          "1001"
+          "1010",
+          "1100"
         ],
         "correct": 1,
         "explain": "8 + 4 + 1."
@@ -328,9 +328,9 @@
         "text": "Hva gjør SQL-setningen SELECT navn FROM elever WHERE klasse = '2STA'?",
         "options": [
           "Henter navnene til elevene i 2STA",
-          "Sletter elevene i 2STA",
-          "Lager en ny tabell",
-          "Endrer klassen til alle"
+          "Sletter navnene til elevene i 2STA",
+          "Oppretter en tabell med navnene til elevene",
+          "Endrer klassen til elevene til 2STA"
         ],
         "correct": 0,
         "explain": "SELECT henter data.",
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvilken samplingsfrekvens har CD-kvalitet?",
         "options": [
-          "8 000 per sekund",
+          "48 000 per sekund",
           "22 050 per sekund",
           "44 100 per sekund",
-          "1 million per sekund"
+          "96 000 per sekund"
         ],
         "correct": 2,
         "explain": "44,1 kHz.",
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

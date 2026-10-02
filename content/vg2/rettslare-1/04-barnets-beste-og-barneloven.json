@@ -75,22 +75,22 @@
       "id": "q01",
       "text": "Hvor står det at barnets beste skal være et grunnleggende hensyn?",
       "options": [
-        "Bare i barneloven",
+        "I Grunnloven § 102 og barnekonvensjonen artikkel 12",
         "I Grunnloven § 104 og barnekonvensjonen artikkel 3",
-        "I straffeloven",
-        "I arveloven"
+        "I barneloven § 31 og barnekonvensjonen artikkel 12",
+        "I barneloven § 30 og barnekonvensjonen artikkel 12"
       ],
       "correct": 1,
-      "explain": "Også i barneloven § 48."
+      "explain": "Barneloven § 48 krever at avgjørelser om foreldreansvar, flytting og samvær først og fremst retter seg etter barnets beste."
     },
     {
       "id": "q02",
       "text": "Hvem regnes som far når mor er gift?",
       "options": [
         "Ektemannen",
-        "Den som betaler bidrag",
-        "Den som bor med barnet",
-        "Ingen før DNA-test"
+        "Mors samboer",
+        "Barnets morfar",
+        "Mors tidligere ektefelle"
       ],
       "correct": 0,
       "explain": "Pater est-regelen."
@@ -99,22 +99,22 @@
       "id": "q03",
       "text": "Når skal barnets mening tillegges stor vekt etter barneloven?",
       "options": [
-        "Fra 3 år",
-        "Fra 7 år",
+        "Fra 10 år",
+        "Fra 14 år",
         "Fra 12 år",
-        "Fra 18 år"
+        "Fra 16 år"
       ],
       "correct": 2,
-      "explain": "Barn fra sju år skal alltid få si meningen sin."
+      "explain": "Barn skal få si meningen sin fra sju år, mens meningen skal tillegges stor vekt fra 12 år."
     },
     {
       "id": "q04",
       "text": "Hva er foreldreansvar?",
       "options": [
-        "Plikt til å betale barnebidrag",
-        "Retten til samvær",
-        "Retten til barnetrygd",
-        "Rett og plikt til å ta avgjørelser for barnet i personlige forhold"
+        "Rett og plikt til å dekke barnets løpende utgifter og forsørgelse",
+        "Rett og plikt til å bo med barnet og gi daglig omsorg",
+        "Rett og plikt til å fastsette barnets samvær med den andre forelderen",
+        "Rett og plikt til å ta avgjørelser om barnets personlige forhold"
       ],
       "correct": 3,
       "explain": "Og å gi barnet omsorg."
@@ -124,9 +124,9 @@
       "text": "Hvem har rett til samvær først og fremst?",
       "options": [
         "Barnet",
-        "Mor",
-        "Far",
-        "Besteforeldrene"
+        "Forelderen barnet bor fast hos",
+        "Forelderen barnet har samvær med",
+        "Forelderen som betaler barnebidrag"
       ],
       "correct": 0,
       "explain": "Samvær er barnets rett."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvem må gå til mekling ved samlivsbrudd?",
       "options": [
-        "Alle par",
-        "Gifte og samboende foreldre med felles barn under 16 år",
-        "Bare gifte uten barn",
-        "Ingen"
+        "Alle par som går fra hverandre, også uten felles barn, må gå til mekling.",
+        "Gifte og samboende foreldre med felles barn under 16 år må gå til mekling.",
+        "Foreldre med felles barn under 18 år må gå til mekling når de går fra hverandre.",
+        "Foreldre med felles barn under 16 år må mekle også når de fortsatt lever sammen."
       ],
       "correct": 1,
       "explain": "For å avtale det som er best for barnet."
@@ -147,21 +147,21 @@
       "id": "q07",
       "text": "Hva kan den som har fast bosted, bestemme?",
       "options": [
-        "At barnet skal flytte til utlandet uten samtykke",
-        "At barnet ikke skal ha samvær",
+        "Når begge har foreldreansvar, at barnet kan flytte til utlandet uten den andres samtykke",
+        "At barnet ikke skal ha samvær med den andre forelderen uten avtale eller avgjørelse",
         "Blant annet om barnet skal gå i barnehage og hvor i Norge barnet skal bo",
-        "Hvem som er barnets far"
+        "Hvem som skal ha foreldreansvar for barnet etter et samlivsbrudd"
       ],
       "correct": 2,
-      "explain": "Flytting til utlandet krever samtykke fra begge med foreldreansvar."
+      "explain": "Når begge foreldrene har foreldreansvar, krever flytting til utlandet samtykke fra begge."
     },
     {
       "id": "q08",
       "text": "Hvor lenge har foreldrene fostringsplikt?",
       "options": [
-        "Til barnet fyller 15",
-        "Til barnet fyller 16",
-        "For alltid",
+        "Til barnet fyller 15 år, også hvis det går i videregående",
+        "Til barnet fyller 16 år, også hvis det går i videregående",
+        "Til barnet fyller 20 år, også hvis det har avsluttet videregående",
         "Til 18 år, eller lenger hvis barnet går i videregående"
       ],
       "correct": 3,
@@ -171,10 +171,10 @@
       "id": "q09",
       "text": "Er fysisk avstraffelse av barn lov i Norge?",
       "options": [
-        "Nei, det er forbudt",
-        "Ja, i små doser",
-        "Ja, hvis foreldrene er enige",
-        "Bare for barn over 12"
+        "Nei, fysisk avstraffelse av barn er forbudt",
+        "Ja, dersom det skjer som ledd i oppdragelsen",
+        "Ja, dersom foreldrene er enige om framgangsmåten",
+        "Ja, dersom barnet har fylt 12 år"
       ],
       "correct": 0,
       "explain": "Barneloven forbyr det."
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hvem kan bli medmor?",
         "options": [
-          "Mors søster",
+          "Mors kvinnelige søster ved assistert befruktning",
           "Mors kvinnelige ektefelle eller samboer ved assistert befruktning",
-          "Farmor",
-          "Barnets tante"
+          "Barnets kvinnelige tante ved assistert befruktning",
+          "Den kvinnelige sæddonoren ved assistert befruktning"
         ],
         "correct": 1,
         "explain": "Etter barneloven."
@@ -325,8 +325,8 @@
         "options": [
           "Barnebidrag",
           "Barnetrygd",
-          "Arveavgift",
-          "Skolepenger"
+          "Foreldrepenger",
+          "Kontantstøtte"
         ],
         "correct": 0,
         "explain": "Et bidrag til forsørgelsen."
@@ -336,13 +336,13 @@
         "type": "flervalg",
         "text": "Hvilken paragraf i barneloven gir barnet rett til å bli hørt?",
         "options": [
-          "§ 1",
+          "§ 30",
           "§ 48",
           "§ 31",
-          "§ 104"
+          "§ 5"
         ],
         "correct": 2,
-        "explain": "§ 48 handler om barnets beste."
+        "explain": "Barneloven § 31 handler om barnets rett til å bli hørt i saker som gjelder barnet."
       }
     ],
     "skriv": [
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

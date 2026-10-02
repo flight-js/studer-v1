@@ -121,10 +121,10 @@
       "id": "q01",
       "text": "Hva kjennetegner en god hypotese?",
       "options": [
-        "Den er sann",
-        "Den kan testes",
-        "Den er lang",
-        "Den er basert på en mening"
+        "Den må være bevist før forsøket",
+        "Den kan testes i et forsøk",
+        "Den beskriver metoden i forsøket",
+        "Den må være godkjent av læreren"
       ],
       "correct": 1,
       "explain": "En hypotese må kunne styrkes eller svekkes av forsøk."
@@ -134,9 +134,9 @@
       "text": "Hvordan oppdateres farten i Eulers metode?",
       "options": [
         "v = v + a · dt",
-        "v = a · t²",
-        "v = v · dt",
-        "v = s / a"
+        "v = v + a · t",
+        "v = v + a / dt",
+        "v = v + v · dt"
       ],
       "correct": 0,
       "explain": "Farten endres med akselerasjonen ganger tidssteget.",
@@ -146,10 +146,10 @@
       "id": "q03",
       "text": "Hva er formelen for bølgefart?",
       "options": [
-        "v = λ / f",
+        "v = λ / f²",
         "v = λ · f",
-        "v = f / λ",
-        "v = λ + f"
+        "v = λ² · f",
+        "v = λ − f"
       ],
       "correct": 1,
       "explain": "Bølgefart = bølgelengde · frekvens."
@@ -159,9 +159,9 @@
       "text": "Hva er halveringstid?",
       "options": [
         "Tiden før halvparten av de radioaktive kjernene er omdannet",
-        "Tiden før alt er borte",
-        "Halve levetiden til et menneske",
-        "Tiden det tar å måle stråling"
+        "Tiden før alle de radioaktive kjernene er omdannet",
+        "Tiden før strålingen fra stoffet er helt borte",
+        "Tiden det tar for én radioaktiv kjerne å bli omdannet"
       ],
       "correct": 0,
       "explain": "Halveringstiden er fast for hvert stoff."
@@ -171,9 +171,9 @@
       "text": "Hva viser rødforskyvningen i lyset fra fjerne galakser?",
       "options": [
         "At galaksene fjerner seg fra oss",
-        "At galaksene er varme",
-        "At galaksene er røde",
-        "At galaksene nærmer seg oss"
+        "At de fjerne galaksene nærmer seg oss",
+        "At galaksene sender ut rødt lys",
+        "At galaksene blir varmere over tid"
       ],
       "correct": 0,
       "explain": "Bølgelengden strekkes når rommet utvider seg."
@@ -182,10 +182,10 @@
       "id": "q06",
       "text": "Når leder salt strøm?",
       "options": [
-        "Alltid",
-        "Aldri",
-        "Når det er smeltet eller løst i vann",
-        "Bare i fast form"
+        "Salt leder strøm når det er fast og tørt i romtemperatur",
+        "Salt leder strøm når det er løst i olje ved romtemperatur",
+        "Salt leder strøm når det er smeltet eller løst i vann",
+        "Salt leder strøm når det er fast og ionene kan bevege seg"
       ],
       "correct": 2,
       "explain": "Da kan ionene bevege seg."
@@ -207,9 +207,9 @@
       "text": "Hva er biomagnifisering?",
       "options": [
         "At konsentrasjonen av miljøgifter øker oppover i næringskjeden",
-        "At en organisme vokser raskt",
-        "At miljøgifter brytes ned",
-        "At en art blir større"
+        "At konsentrasjonen av miljøgifter avtar oppover i næringskjeden",
+        "At miljøgifter hoper seg opp i én organisme over tid",
+        "At miljøgifter blir sterkere når de brytes ned i naturen"
       ],
       "correct": 0,
       "explain": "Toppredatorer får derfor mest."
@@ -218,10 +218,10 @@
       "id": "q09",
       "text": "En influencer sier at et kosttilskudd kurerte trettheten hennes. Hva er det største problemet med påstanden?",
       "options": [
-        "Den bygger på en enkelthistorie, og hun kan tjene på salget",
-        "Den er for kort",
-        "Den er skrevet på norsk",
-        "Det finnes ingen problemer"
+        "Den bygger på én erfaring, og hun kan tjene på salget",
+        "Den bygger på egne symptomer, som viser at produktet virker",
+        "Den har mange visninger, så effekten er godt dokumentert",
+        "Den beskriver rask bedring, så produktet passer for de fleste"
       ],
       "correct": 0,
       "explain": "En enkelthistorie er ikke forskning."
@@ -230,10 +230,10 @@
       "id": "q10",
       "text": "Hvorfor er arv en forutsetning for evolusjon?",
       "options": [
-        "Fordi alle individer er like",
-        "Fordi miljøet aldri endrer seg",
-        "Fordi naturlig utvalg bare kan virke på egenskaper som går videre til avkommet",
-        "Fordi evolusjon skjer i løpet av ett liv"
+        "Fordi naturlig utvalg virker på egenskaper som læres gjennom livet",
+        "Fordi naturlig utvalg endrer egenskaper hos hvert individ gjennom livet",
+        "Fordi naturlig utvalg virker på egenskaper som arves av avkommet",
+        "Fordi arvelige egenskaper hindrer miljøet i å påvirke individer"
       ],
       "correct": 2,
       "explain": "Uten arvelig variasjon skjer ingen evolusjon."
@@ -242,10 +242,10 @@
       "id": "q11",
       "text": "Hvorfor er genendringer i kjønnsceller og fostre ekstra omstridt?",
       "options": [
-        "Fordi de er for dyre",
-        "Fordi de er ulovlige i alle land",
+        "Fordi endringene ikke påvirker barnets arvestoff",
+        "Fordi genendringer i fostre først virker etter fødselen",
         "Fordi endringene arves videre til nye generasjoner",
-        "Fordi de ikke virker"
+        "Fordi kjønnsceller ikke overfører gener til avkom"
       ],
       "correct": 2,
       "explain": "Konsekvensene kan vare i mange generasjoner."
@@ -400,7 +400,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -420,10 +420,10 @@
         "type": "flervalg",
         "text": "Hva må du gjøre når du presenterer et eget forsøk?",
         "options": [
-          "Begrunne metodevalgene og drøfte usikkerhet",
-          "Bare vise det beste resultatet",
-          "Skjule feilkildene",
-          "Bare fortelle konklusjonen"
+          "Forklare metodevalgene og drøfte usikkerheten",
+          "Oppgi resultatene og utelate usikkerheten",
+          "Beskrive utstyret uten å forklare metodevalgene",
+          "Presentere konklusjonen uten å vise målingene"
         ],
         "correct": 0,
         "explain": "Åpenhet om metode og usikkerhet gjør resultatene troverdige."
@@ -433,10 +433,10 @@
         "type": "flervalg",
         "text": "Hvor stor andel av et radioaktivt stoff er igjen etter to halveringstider?",
         "options": [
-          "1/2",
           "1/8",
+          "1/3",
           "1/4",
-          "0"
+          "3/4"
         ],
         "correct": 2,
         "explain": "(1/2)² = 1/4."
@@ -466,10 +466,10 @@
         "type": "flervalg",
         "text": "Hvilken næringskjede viser biomagnifisering riktig fra lav til høy konsentrasjon?",
         "options": [
-          "Isbjørn → sel → fisk → plankton",
+          "Krill → plankton → fisk → sel → isbjørn",
           "Plankton → krill → fisk → sel → isbjørn",
-          "Fisk → plankton → isbjørn → sel",
-          "Sel → krill → plankton → fisk"
+          "Plankton → fisk → krill → sel → isbjørn",
+          "Plankton → krill → sel → fisk → isbjørn"
         ],
         "correct": 1,
         "explain": "Konsentrasjonen øker for hvert ledd oppover."
@@ -479,10 +479,10 @@
         "type": "flervalg",
         "text": "Hva betyr det at et individ er heterozygot?",
         "options": [
-          "Det har to like alleler",
-          "Det har to ulike alleler",
-          "Det har ingen alleler",
-          "Det har tre alleler"
+          "Det har to like alleler for samme gen",
+          "Det har to ulike alleler for samme gen",
+          "Det har ett allel for hvert gen i cellene",
+          "Det har tre ulike alleler for samme gen"
         ],
         "correct": 1,
         "explain": "For eksempel Aa."
@@ -566,14 +566,90 @@
         "kriterier": [
           "Forklarer at slike endringer kan arves videre.",
           "Knytter føre-var-prinsippet til forsiktighet ved usikker risiko."
+        ]
+      },
+      {
+        "text": "En datamodell oppdaterer farten med formelen ny fart = fart + akselerasjon · tidssteg. Farten er 3 m/s, akselerasjonen er 2 m/s², og tidssteget er 0,5 s. Hva blir den nye farten, og hva er en fordel og en ulempe ved å bruke et mindre tidssteg?",
+        "fasit": "Den nye farten blir 3 + 2 · 0,5 = 4 m/s. Et mindre tidssteg kan gjøre simuleringen mer nøyaktig, men den tar lengre tid å kjøre.",
+        "kriterier": [
+          "Regner ut ny fart til 4 m/s.",
+          "Forklarer at mindre tidssteg kan gi større nøyaktighet, men lengre kjøretid."
         ],
+        "id": "s09",
+        "niva": "over-niva"
+      },
+      {
+        "text": "Et mellommåltid inneholder 2 g fett og 3 g karbohydrater. Fett gir omtrent 37 kJ per gram, og karbohydrater gir omtrent 17 kJ per gram. Hvor mye energi gir disse næringsstoffene til sammen?",
+        "fasit": "Fettet gir 2 · 37 = 74 kJ, og karbohydratene gir 3 · 17 = 51 kJ. Til sammen gir de 125 kJ.",
+        "kriterier": [
+          "Regner ut energien fra fett til 74 kJ og fra karbohydrater til 51 kJ.",
+          "Oppgir riktig samlet energi: 125 kJ."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Karbondioksid fra atmosfæren tas opp av havet. Forklar hvordan dette påvirker havet, og nevn en mulig konsekvens for organismer som lever der.",
+        "fasit": "Når havet tar opp karbondioksid, blir det surere. Dette kan skade organismer som koraller og skjell.",
+        "kriterier": [
+          "Forklarer at opptak av CO₂ gjør havet surere.",
+          "Nevner at dette kan skade for eksempel koraller eller skjell."
+        ],
+        "id": "s11",
         "niva": "eksempel"
+      },
+      {
+        "text": "Karbon finnes i kroppen vår. Forklar hvordan karbonatomer kan ha blitt dannet i universet og senere blitt en del av levende organismer på jorda.",
+        "fasit": "Karbon dannes i store stjerner ved fusjon. Når stjerner eksploderer som supernovaer, spres karbon ut i rommet og kan bli en del av nye stjerner, planeter og levende organismer.",
+        "kriterier": [
+          "Nevner at karbon dannes ved fusjon i store stjerner.",
+          "Forklarer at stoffene spres ut i rommet og kan inngå i nye planeter og organismer."
+        ],
+        "id": "s12",
+        "niva": "over-niva"
+      },
+      {
+        "text": "En saltkrystall leder ikke elektrisk strøm, men en saltløsning gjør det. Forklar forskjellen ved å bruke kunnskap om ioner og hvordan de kan bevege seg.",
+        "fasit": "I fast salt sitter ionene fast i et gitter og kan ikke bevege seg fritt. Når saltet er løst i vann, kan ionene bevege seg og føre elektrisk strøm.",
+        "kriterier": [
+          "Forklarer at ionene er bundet på plass i fast salt.",
+          "Forklarer at ionene kan bevege seg i løsningen og dermed lede strøm."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Fett i maten hjelper kroppen med å ta opp vitaminene A, D, E og K. Samtidig kan enkelte miljøgifter lagres i fettvev. Forklar hvordan fett kan ha både en nyttig funksjon og bidra til at miljøgifter blir værende i kroppen.",
+        "fasit": "Fett er nødvendig for opptak av de fettløselige vitaminene A, D, E og K. Fettløselige miljøgifter kan også lagres i fettvev og hope seg opp i kroppen.",
+        "kriterier": [
+          "Nevner at fett hjelper kroppen med opptak av vitaminene A, D, E og K.",
+          "Forklarer at fettløselige miljøgifter kan lagres i fettvev og hope seg opp."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Bakterier kan genmodifiseres slik at de produserer insulin til personer med diabetes. Forklar hvilken rolle insulin-genet har i dette, og hvorfor bakteriene kan lage insulin.",
+        "fasit": "Et gen inneholder oppskriften på et protein. Når bakteriene får menneskets insulin-gen, kan de bruke oppskriften til å lage insulinproteinet.",
+        "kriterier": [
+          "Forklarer at et gen inneholder en oppskrift på et protein.",
+          "Knytter insulin-genet til at de genmodifiserte bakteriene kan produsere insulin."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En måling av radon i inneluft oppgis i becquerel, mens stråledosen til en person oppgis i sievert. Forklar hva de to enhetene måler, og hvorfor radon i boliger er viktig å følge med på.",
+        "fasit": "Becquerel måler antall radioaktive omdannelser per sekund, mens sievert måler strålingens biologiske virkning. Radon kan samle seg i hus og er en viktig årsak til lungekreft etter røyking.",
+        "kriterier": [
+          "Skiller mellom Bq som mål på aktivitet og Sv som mål på biologisk virkning.",
+          "Nevner at radon kan samle seg i hus og utgjør en helserisiko, blant annet for lungekreft."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

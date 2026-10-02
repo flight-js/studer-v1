@@ -83,7 +83,7 @@
         "Patos",
         "Logos",
         "Etos",
-        "Ironi"
+        "Kairos"
       ],
       "correct": 2,
       "explain": "Legen bygger troverdighet gjennom fagkunnskap og erfaring. Det er etos."
@@ -95,7 +95,7 @@
         "Patos",
         "Logos",
         "Etos",
-        "Stråmann"
+        "Kairos"
       ],
       "correct": 0,
       "explain": "Bildet vekker medfølelse, altså følelser. Det er patos."
@@ -106,7 +106,7 @@
       "options": [
         "Etos",
         "Patos",
-        "Personangrep",
+        "Kairos",
         "Logos"
       ],
       "correct": 3,
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Hva er et retorisk spørsmål?",
       "options": [
-        "Et spørsmål i en quiz",
+        "Et spørsmål læreren stiller for å sjekke om elevene kan temaet",
         "Et spørsmål som ikke krever svar, men skal få deg til å tenke",
-        "Et spørsmål læreren stiller",
-        "Et spørsmål uten spørsmålstegn"
+        "Et spørsmål der svaret står i teksten, og leseren skal finne det",
+        "Et spørsmål som blir stilt for å få fram et bestemt faktasvar"
       ],
       "correct": 1,
       "explain": "Eksempel: «Vil vi virkelig at barna våre skal vokse opp i et forurenset land?»"
@@ -128,10 +128,10 @@
       "id": "q05",
       "text": "«Du er jo bare 14 år, hva vet du om politikk?» Hva slags argument er dette?",
       "options": [
-        "Et saklig argument",
+        "En stråmann",
         "Et personangrep",
-        "Logos",
-        "Et tretall"
+        "En generalisering",
+        "Et sirkelargument"
       ],
       "correct": 1,
       "explain": "Utsagnet angriper personens alder i stedet for å svare på det personen faktisk mener."
@@ -141,9 +141,9 @@
       "text": "Hva betyr det å bruke en stråmann?",
       "options": [
         "Å gjengi motpartens syn feil og angripe den feilaktige versjonen",
-        "Å bruke et sterkt bilde",
-        "Å vise til en ekspert",
-        "Å gjenta et ord tre ganger"
+        "Å vise til en ekspert og bruke ekspertens uttalelse som støtte",
+        "Å overdrive følgene av et forslag for å skape frykt",
+        "Å svare på en påstand ved å kritisere personen som sa den"
       ],
       "correct": 0,
       "explain": "Stråmannen er lettere å slå enn det motparten egentlig mente.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hvor bør påstanden stå i et debattinnlegg?",
       "options": [
-        "Bare i avslutningen",
-        "Den skal ikke stå der",
+        "Bare i avslutningen, uten å nevnes tidligere i teksten",
+        "I hoveddelen, etter at alle argumentene er presentert",
         "Tydelig i innledningen, og gjerne gjentatt til slutt",
-        "I en fotnote"
+        "I en kildehenvisning nederst, sammen med tekstens kilder"
       ],
       "correct": 2,
       "explain": "Leseren skal vite tidlig hva du mener. Å gjenta påstanden til slutt gir teksten en tydelig ramme."
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hvorfor kan det lønne seg å ta med motargumenter i en argumenterende tekst?",
       "options": [
-        "For å bytte side",
-        "For å gjøre teksten lengre",
-        "For å forvirre leseren",
+        "Fordi det lar deg trekke påstanden og støtte motpartens syn",
+        "Fordi flere motargumenter gjør teksten lengre og mer detaljert",
+        "Fordi leseren da blir usikker på hva du selv mener",
         "Fordi det viser at du kjenner saken, og styrker troverdigheten"
       ],
       "correct": 3,
@@ -178,9 +178,9 @@
       "text": "Hvilket av disse er en generalisering?",
       "options": [
         "«Min kusine ble mobbet på nett, så alle ungdommer blir mobbet på nett.»",
-        "«Undersøkelsen viser at 12 % har opplevd nettmobbing.»",
-        "«Nettmobbing er et problem for noen.»",
-        "«Jeg mener skolen bør gjøre mer mot mobbing.»"
+        "«Undersøkelsen viser at 12 % av ungdommene i landet har opplevd nettmobbing.»",
+        "«Nettmobbing er et alvorlig problem for enkelte ungdommer på mange skoler.»",
+        "«Jeg mener at skolen bør gjøre mer for å forebygge nettmobbing blant elever.»"
       ],
       "correct": 0,
       "explain": "Konklusjonen om «alle» bygger på ett enkelt eksempel."
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hva kalles det når konsekvensene av et forslag beskrives mye verre enn de er?",
         "options": [
-          "Tretall",
+          "Stråmann",
           "Svartmaling",
-          "Logos",
-          "Etos"
+          "Generalisering",
+          "Personangrep"
         ],
         "correct": 1,
         "explain": "Svartmaling skaper frykt for motpartens forslag på et overdrevet grunnlag.",
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hvilket retorisk virkemiddel er dette: «Vi skal kjempe for fremtiden, for naturen og for hverandre»?",
         "options": [
-          "Stråmann",
-          "Personangrep",
+          "Kontrast",
+          "Metafor",
           "Tretall",
-          "Retorisk spørsmål"
+          "Sammenligning"
         ],
         "correct": 2,
         "explain": "Tre ledd ramses opp etter hverandre og gir rytme og tyngde."
@@ -345,9 +345,9 @@
         "text": "Hva hører typisk hjemme i avslutningen av et debattinnlegg?",
         "options": [
           "En oppfordring og en gjentakelse av påstanden",
-          "Et nytt tema",
-          "Alle kildene i fulltekst",
-          "En novelle"
+          "En ny påstand og et nytt tema som ikke er forklart",
+          "En detaljert gjennomgang av alle kildene og sitatene",
+          "En fortelling med personer, miljø og en tydelig handling"
         ],
         "correct": 0,
         "explain": "Avslutningen samler trådene og ber gjerne leseren om å handle eller tenke nytt."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

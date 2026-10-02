@@ -89,18 +89,18 @@
       "text": "Når er den mekaniske energien bevart?",
       "options": [
         "Når bare tyngdekraften gjør arbeid",
-        "Alltid",
-        "Når friksjonen er stor",
-        "Når farten er konstant"
+        "Når friksjonskraften gjør negativt arbeid",
+        "Når normalkraften gjør arbeid på gjenstanden",
+        "Når en ytre kraft gjør positivt arbeid"
       ],
       "correct": 0,
-      "explain": "Friksjon omformer mekanisk energi til varme."
+      "explain": "Mekanisk energi bevares når bare tyngdekraften gjør arbeid. Friksjon overfører mekanisk energi til varme."
     },
     {
       "id": "q03",
       "text": "Omtrent hvor stor fart har en ball som har falt 5,0 m fra ro, uten luftmotstand?",
       "options": [
-        "5,0 m/s",
+        "7,0 m/s",
         "49 m/s",
         "9,9 m/s",
         "98 m/s"
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hvilken energiform har lavest kvalitet?",
       "options": [
-        "Elektrisk energi",
+        "Varme ved høy temperatur",
         "Varme ved lav temperatur",
-        "Mekanisk energi",
-        "Kjemisk energi"
+        "Elektrisk energi",
+        "Mekanisk energi"
       ],
       "correct": 1,
       "explain": "Den er vanskeligst å utnytte."
@@ -149,9 +149,9 @@
       "text": "Hvor mye arbeid gjør en kraft som står vinkelrett på bevegelsen?",
       "options": [
         "F · s",
-        "Negativt arbeid",
-        "Null",
-        "Dobbelt så mye"
+        "−F · s",
+        "0",
+        "2F · s"
       ],
       "correct": 2,
       "explain": "cos 90° = 0."
@@ -160,10 +160,10 @@
       "id": "q08",
       "text": "Hva sier arbeid–energi-setningen?",
       "options": [
-        "Arbeid er alltid null",
-        "Eₚ = mgh",
-        "Energi kan skapes",
-        "Arbeidet til kraftsummen er lik endringen i kinetisk energi"
+        "Arbeidet til kraftsummen er lik endringen i potensiell energi.",
+        "Arbeidet til kraftsummen er lik summen av kinetisk og potensiell energi.",
+        "Arbeidet til kraftsummen er lik endringen i farten.",
+        "Arbeidet til kraftsummen er lik endringen i kinetisk energi."
       ],
       "correct": 3,
       "explain": "W_ΣF = ΔEₖ."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva skjer med mekanisk energi når friksjon virker?",
       "options": [
-        "Den forsvinner helt",
-        "Den omformes til indre energi (varme)",
-        "Den øker",
-        "Den blir til masse"
+        "Den omformes til potensiell energi i gjenstanden.",
+        "Den omformes til indre energi (varme).",
+        "Den omformes til elektrisk energi i gjenstanden.",
+        "Den blir til masse i gjenstanden."
       ],
       "correct": 1,
       "explain": "Energiprinsippet gjelder fortsatt."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hva skjer med den kinetiske energien hvis farten dobles?",
         "options": [
-          "Den dobles",
-          "Den halveres",
+          "Den blir dobbelt så stor",
+          "Den blir halvparten så stor",
           "Den blir fire ganger så stor",
-          "Den er uendret"
+          "Den blir åtte ganger så stor"
         ],
         "correct": 2,
         "explain": "Eₖ er proporsjonal med v²."
@@ -422,6 +422,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

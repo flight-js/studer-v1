@@ -81,7 +81,7 @@
       "options": [
         "At listen er kort",
         "At listen er sortert",
-        "At listen bare har tall under 100",
+        "At listen bare har tall",
         "At listen er usortert"
       ],
       "correct": 1,
@@ -92,9 +92,9 @@
       "text": "Omtrent hvor mange steg trenger binært søk i en sortert liste med 1 000 000 elementer?",
       "options": [
         "20",
-        "1000",
-        "500 000",
-        "1 000 000"
+        "10",
+        "100",
+        "1000"
       ],
       "correct": 0,
       "explain": "2²⁰ ≈ 1 million."
@@ -103,7 +103,7 @@
       "id": "q03",
       "text": "Hvilken tidskompleksitet har boblesortering?",
       "options": [
-        "O(1)",
+        "O(n log n)",
         "O(log n)",
         "O(n²)",
         "O(n)"
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva beskriver tidskompleksitet?",
       "options": [
-        "Hvor mange linjer koden har",
-        "Hvilket språk koden er skrevet i",
-        "Hvor gammel algoritmen er",
+        "Hvordan minnebruken vokser når datamengden øker",
+        "Hvordan antall kodelinjer vokser når datamengden øker",
+        "Hvordan antall variabler vokser når datamengden øker",
         "Hvordan kjøretiden vokser når datamengden øker"
       ],
       "correct": 3,
@@ -130,7 +130,7 @@
         "Flettesortering",
         "Boblesortering",
         "Utvalgssortering",
-        "De er like raske"
+        "Innsettingssortering"
       ],
       "correct": 0,
       "explain": "O(n log n) mot O(n²)."
@@ -139,10 +139,10 @@
       "id": "q06",
       "text": "Hva gir ofte O(n²)?",
       "options": [
-        "Ett enkelt oppslag",
+        "Én løkke over hele listen",
         "To nøstede løkker over samme liste",
-        "Binært søk",
-        "En if-setning"
+        "To løkker etter hverandre over listen",
+        "Binært søk i en sortert liste"
       ],
       "correct": 1,
       "explain": "For hvert element går vi gjennom alle."
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva er en algoritme?",
       "options": [
-        "Et programmeringsspråk",
-        "En datamaskin",
-        "En presis, endelig oppskrift for å løse et problem",
-        "En type database"
+        "Et sett med regler for å skrive programmer",
+        "En maskinvarekomponent som utfører instruksjoner",
+        "En presis og endelig oppskrift for å løse et problem",
+        "En samling data som et program lagrer"
       ],
       "correct": 2,
       "explain": "Kan skrives som pseudokode eller kode."
@@ -163,10 +163,10 @@
       "id": "q08",
       "text": "Hvorfor er det raskere å sjekke om et element finnes i et set enn i en liste?",
       "options": [
-        "Set er alltid kortere",
-        "Set kan bare inneholde tall",
-        "Lister er ødelagte",
-        "Set har svært raske oppslag uten å gå gjennom alle elementene"
+        "Set holder elementene sortert og bruker binært søk for å finne dem.",
+        "Set undersøker elementene ett for ett i en fast rekkefølge.",
+        "Lister bruker binært søk også når de ikke er sortert.",
+        "Set kan finne et element uten å undersøke alle elementene ett for ett."
       ],
       "correct": 3,
       "explain": "Nær konstant tid.",
@@ -178,8 +178,8 @@
       "options": [
         "−1",
         "0",
-        "Hele listen",
-        "Målet"
+        "1",
+        "n"
       ],
       "correct": 0,
       "explain": "Etter at alle elementene er sjekket.",
@@ -189,10 +189,10 @@
       "id": "q10",
       "text": "Hvordan kan du måle hvor effektiv koden din er i praksis?",
       "options": [
-        "Telle bokstavene",
+        "Telle kodelinjene for ulike datamengder",
         "Måle kjøretiden for ulike datamengder",
-        "Endre fargene i editoren",
-        "Skrive flere kommentarer"
+        "Telle variablene for ulike datamengder",
+        "Sammenligne filstørrelsen for ulike datamengder"
       ],
       "correct": 1,
       "explain": "Se hvordan tiden vokser."
@@ -327,9 +327,9 @@
         "text": "Hva gjør en grådig algoritme?",
         "options": [
           "Velger det som ser best ut i hvert steg",
-          "Prøver alle muligheter",
-          "Kaller seg selv",
-          "Sorterer alltid først"
+          "Velger det som gir best resultat etter siste steg",
+          "Undersøker alle mulige valg før den bestemmer seg",
+          "Deler problemet i mindre deler og løser hver for seg"
         ],
         "correct": 0,
         "explain": "For eksempel vekslepenger med færrest mynter.",
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvordan kan du gjøre et lineært søk raskere i praksis?",
         "options": [
-          "Legge inn flere print",
-          "Gå gjennom listen to ganger",
-          "Avslutte løkken når elementet er funnet",
-          "Bruke globale variabler"
+          "Skrive ut hvert element mens løkken går",
+          "Gå gjennom listen en gang til etter et mulig treff",
+          "Avslutte løkken idet elementet blir funnet",
+          "Kopiere alle elementene før søket starter"
         ],
         "correct": 2,
         "explain": "Unngå unødvendig arbeid."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

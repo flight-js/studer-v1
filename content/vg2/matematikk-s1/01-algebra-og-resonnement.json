@@ -78,7 +78,7 @@
         "(x + 2)(x + 3)",
         "(x − 2)(x − 3)",
         "(x − 1)(x − 6)",
-        "(x − 6)(x + 1)"
+        "(x + 2)(x − 3)"
       ],
       "correct": 1,
       "explain": "Nullpunktene er 2 og 3."
@@ -89,8 +89,8 @@
       "options": [
         "−2 < x < 3",
         "x < −2 eller x > 3",
-        "x > 3",
-        "−3 < x < 2"
+        "−2 ≤ x ≤ 3",
+        "−2 < x ≤ 3"
       ],
       "correct": 0,
       "explain": "(x − 3)(x + 2) er negativt mellom nullpunktene."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Forenkle (x² − 9)/(x² + 3x).",
       "options": [
-        "(x + 3)/x",
-        "−3",
+        "(x − 3)/(x + 3)",
+        "(x² − 9)/x",
         "(x − 3)/x",
-        "x − 3"
+        "(x − 3)/x²"
       ],
       "correct": 2,
       "explain": "Faktoriser og forkort x + 3."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Løs likningssettet 2x + y = 7 og x − y = 2.",
       "options": [
-        "x = 2, y = 3",
-        "x = 1, y = 5",
-        "x = 4, y = −1",
+        "x = 2, y = 1",
+        "x = 1, y = 3",
+        "x = 4, y = 1",
         "x = 3, y = 1"
       ],
       "correct": 3,
@@ -124,33 +124,33 @@
       "text": "Hvilket utsagn er riktig?",
       "options": [
         "x = 2 ⇒ x² = 4",
-        "x² = 4 ⇒ x = 2",
-        "x² = 4 ⇔ x = 2",
+        "x² = 4 ⇒ x = −2",
+        "x = −2 ⇒ x² = −4",
         "x = 2 ⇔ x² = 4"
       ],
       "correct": 0,
-      "explain": "x² = 4 kan også gi x = −2."
+      "explain": "Implikasjonen går fra x = 2 til x² = 4, men den motsatte retningen følger ikke."
     },
     {
       "id": "q06",
       "text": "Løs (x − 1)/(x + 2) ≥ 0.",
       "options": [
-        "x ≥ 1",
+        "x ≤ −2 eller x ≥ 1",
         "x < −2 eller x ≥ 1",
-        "−2 < x ≤ 1",
-        "x ≤ −2 eller x ≥ 1"
+        "x < −2 eller x > 1",
+        "−2 < x ≤ 1"
       ],
       "correct": 1,
-      "explain": "x = −2 gir null i nevneren og er ikke med."
+      "explain": "Uttrykket er ikke definert for x = −2, og det er ikke-negativt for x < −2 og x ≥ 1."
     },
     {
       "id": "q07",
       "text": "Hvordan viser du at en påstand er usann?",
       "options": [
-        "Med mange eksempler der den stemmer",
+        "Med flere eksempler",
         "Med en graf",
         "Med ett moteksempel",
-        "Det kan ikke vises"
+        "Med ett bekreftende eksempel"
       ],
       "correct": 2,
       "explain": "Ett moteksempel er nok."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hvorfor er summen av tre påfølgende hele tall delelig med 3?",
       "options": [
-        "Fordi tallene er odde",
-        "Fordi det gjelder for 1, 2 og 3",
-        "Fordi summen er et primtall",
+        "Fordi n + (n + 1) + (n + 2) = 3n + 2",
+        "Fordi n + (n + 1) + (n + 2) = 3(n + 2)",
+        "Fordi n + (n + 1) + (n + 2) = n(n + 1)(n + 2)",
         "Fordi n + (n + 1) + (n + 2) = 3(n + 1)"
       ],
       "correct": 3,
@@ -172,9 +172,9 @@
       "text": "Hva betyr intervallet [2, 5⟩?",
       "options": [
         "Fra og med 2 til, men ikke med, 5",
-        "Mellom 2 og 5, uten endepunktene",
         "Fra og med 2 til og med 5",
-        "Bare tallene 2 og 5"
+        "Etter 2 og fram til og med 5",
+        "Mellom 2 og 5, med begge endepunktene inkludert"
       ],
       "correct": 0,
       "explain": "Hakeparentes inkluderer, spiss parentes ekskluderer."
@@ -183,10 +183,10 @@
       "id": "q10",
       "text": "Hvilken faktorisering er riktig?",
       "options": [
-        "6x² + 9x = 3(2x² + 9x)",
+        "6x² + 9x = 3x(2x + 2)",
         "6x² + 9x = 3x(2x + 3)",
-        "6x² + 9x = 6x(x + 9)",
-        "6x² + 9x = x(6 + 9x)"
+        "6x² + 9x = 3x(2x + 9)",
+        "6x² + 9x = x(6x + 3)"
       ],
       "correct": 1,
       "explain": "Felles faktor 3x."
@@ -306,8 +306,8 @@
         "options": [
           "(x − 4)²",
           "(x − 4)(x + 4)",
-          "(x − 8)(x + 2)",
-          "x(x − 16)"
+          "(x − 2)(x + 8)",
+          "(x − 16)(x + 1)"
         ],
         "correct": 1,
         "explain": "Konjugatsetningen."
@@ -318,9 +318,9 @@
         "text": "Hvilket tall er et moteksempel til «alle primtall er oddetall»?",
         "options": [
           "2",
-          "3",
-          "9",
-          "1"
+          "5",
+          "7",
+          "11"
         ],
         "correct": 0,
         "explain": "2 er et partall og et primtall."
@@ -331,9 +331,9 @@
         "text": "Løs x² − 4x ≥ 0.",
         "options": [
           "0 ≤ x ≤ 4",
-          "x ≥ 4",
+          "x < 0 eller x > 4",
           "x ≤ 0 eller x ≥ 4",
-          "x ≤ −4 eller x ≥ 0"
+          "x ≤ 0 eller x ≥ −4"
         ],
         "correct": 2,
         "explain": "x(x − 4) ≥ 0 utenfor nullpunktene."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

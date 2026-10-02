@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er temperatur et mål på?",
       "options": [
-        "Hvor mye varme et legeme har",
+        "Partiklenes samlede kinetiske energi",
         "Partiklenes gjennomsnittlige kinetiske energi",
-        "Massen til et stoff",
-        "Trykket i en gass"
+        "Partiklenes gjennomsnittlige potensielle energi",
+        "Partiklenes gjennomsnittlige bevegelsesfart"
       ],
       "correct": 1,
       "explain": "Varme er energi i overføring."
@@ -93,9 +93,9 @@
       "text": "Hvor mye energi trengs for å varme 1,0 kg vann fra 20 °C til 100 °C?",
       "options": [
         "Omtrent 334 kJ",
-        "Omtrent 84 J",
+        "Omtrent 33,4 kJ",
         "Omtrent 4,2 kJ",
-        "Omtrent 2,26 MJ"
+        "Omtrent 2260 kJ"
       ],
       "correct": 0,
       "explain": "Q = 4180 · 1,0 · 80."
@@ -105,7 +105,7 @@
       "text": "Hva er 27 °C i kelvin?",
       "options": [
         "27 K",
-        "−246 K",
+        "273 K",
         "300 K",
         "373 K"
       ],
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Hva skjer med temperaturen mens is smelter?",
       "options": [
-        "Den stiger jevnt",
-        "Den synker",
-        "Den svinger",
-        "Den er konstant"
+        "Temperaturen stiger gradvis mens isen smelter.",
+        "Temperaturen synker gradvis mens isen smelter.",
+        "Temperaturen stiger til 100 °C før isen smelter.",
+        "Temperaturen holder seg konstant mens isen smelter."
       ],
       "correct": 3,
       "explain": "Energien går til å bryte bindinger."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvilken form for varmetransport skjer gjennom tomt rom?",
       "options": [
-        "Varmeledning",
-        "Stråling",
-        "Konveksjon",
-        "Kondensasjon"
+        "Varmeledning gjennom et fast stoff",
+        "Elektromagnetisk stråling",
+        "Konveksjon i en væske eller gass",
+        "Partikkelkollisjoner i et stoff"
       ],
       "correct": 1,
       "explain": "Slik får vi energi fra sola."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvor mye energi trengs for å smelte 0,50 kg is ved 0 °C?",
       "options": [
-        "334 kJ",
-        "2,1 kJ",
+        "Omtrent 334 kJ",
+        "Omtrent 2,1 kJ",
         "Omtrent 167 kJ",
-        "1,13 MJ"
+        "Omtrent 1130 kJ"
       ],
       "correct": 2,
       "explain": "0,50 · 334 kJ."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva sier termodynamikkens andre lov?",
       "options": [
-        "Energi kan skapes",
-        "All varme kan omformes til arbeid",
-        "Temperaturen er alltid 0 K",
-        "Varme går av seg selv bare fra varmt til kaldt"
+        "Varme overføres spontant fra kaldt til varmt.",
+        "All tilført varme kan omdannes til arbeid.",
+        "En isolert gass får spontant lavere entropi.",
+        "Varme overføres spontant fra varmt til kaldt."
       ],
       "correct": 3,
       "explain": "Kjøleskap og varmepumper må tilføres arbeid."
@@ -177,9 +177,9 @@
       "text": "Hvorfor jevner havet ut temperaturen langs kysten?",
       "options": [
         "Vann har høy spesifikk varmekapasitet",
-        "Vann leder ikke varme",
-        "Vann er alltid 4 °C",
-        "Havet reflekterer alt sollys"
+        "Vann har høy varmeledningsevne",
+        "Vann har lav spesifikk varmekapasitet",
+        "Vann har høy smeltevarme"
       ],
       "correct": 0,
       "explain": "Det trengs mye energi for å endre temperaturen."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hva er konveksjon?",
       "options": [
-        "Stråling fra varme legemer",
-        "Varm væske eller gass som strømmer og fører energi med seg",
-        "At partikler støter mot hverandre i et fast stoff",
-        "At et stoff smelter"
+        "Elektromagnetiske bølger fører energi fra varme legemer.",
+        "Varm væske eller gass strømmer og fører energi med seg.",
+        "Partikler støter sammen og overfører energi i et fast stoff.",
+        "Et stoff går fra væske til gass og fører energi med seg."
       ],
       "correct": 1,
       "explain": "For eksempel i en panelovn."
@@ -315,10 +315,10 @@
         "type": "flervalg",
         "text": "Du gnir hendene mot hverandre og de blir varme. Hva skjer?",
         "options": [
-          "Varme tilføres fra lufta",
-          "Arbeid øker den indre energien",
-          "Temperaturen synker",
-          "Energi forsvinner"
+          "Varme fra lufta øker den indre energien.",
+          "Arbeid på hendene øker den indre energien.",
+          "Arbeid på hendene senker den indre energien.",
+          "Friksjon mellom hendene reduserer den indre energien."
         ],
         "correct": 1,
         "explain": "ΔU = Q + W med W > 0."
@@ -331,7 +331,7 @@
           "−273,15 °C",
           "0 °C",
           "−100 °C",
-          "−459 °C"
+          "−200 °C"
         ],
         "correct": 0,
         "explain": "0 K."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hvordan kan en varmepumpe hente varme fra kald uteluft?",
         "options": [
-          "Den skaper energi",
-          "Varmen går av seg selv fra kaldt til varmt",
-          "Den bruker arbeid (elektrisk energi) til å flytte varmen",
-          "Den bruker ingen energi"
+          "Den lager varme fra elektrisk energi uten å hente varme fra utelufta.",
+          "Den lar varme gå av seg selv fra kald uteluft til det varmere huset.",
+          "Den bruker elektrisk arbeid til å flytte varme fra utelufta inn i huset.",
+          "Den henter varme fra utelufta uten å bruke elektrisk energi."
         ],
         "correct": 2,
         "explain": "Termodynamikkens andre lov krever tilført arbeid.",
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

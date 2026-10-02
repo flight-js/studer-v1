@@ -34,8 +34,7 @@
     },
     {
       "term": "le bac",
-      "def": "avsluttende eksamen som gir adgang til høyere utdanning",
-      "niva": "eksempel"
+      "def": "avsluttende eksamen som gir adgang til høyere utdanning"
     },
     {
       "term": "je travaillerai",
@@ -67,8 +66,7 @@
     },
     {
       "term": "la laïcité",
-      "def": "atskillelse av religion og stat (lov fra 1905)",
-      "niva": "eksempel"
+      "def": "atskillelse av religion og stat (lov fra 1905)"
     },
     {
       "term": "la francophonie",
@@ -80,7 +78,8 @@
     },
     {
       "term": "dont",
-      "def": "relativpronomen som erstatter de + ord"
+      "def": "relativpronomen som erstatter de + ord",
+      "niva": "over-niva"
     },
     {
       "term": "la prise de la Bastille",
@@ -104,8 +103,7 @@
     },
     {
       "term": "la bande dessinée (BD)",
-      "def": "tegneserien – den niende kunstart",
-      "niva": "eksempel"
+      "def": "tegneserien – den niende kunstart"
     },
     {
       "term": "je voudrais",
@@ -124,7 +122,7 @@
         "Je les parle.",
         "Je lui parle.",
         "Je leur parle.",
-        "Je parle leur."
+        "Je leur parles."
       ],
       "correct": 2,
       "explain": "parler à + flertall → leur, foran verbet."
@@ -133,9 +131,9 @@
       "id": "q02",
       "text": "Hvor står objektspronomenet i en fransk setning?",
       "options": [
-        "Sist i setningen",
-        "Etter verbet",
-        "Først i setningen",
+        "Før subjektet",
+        "Etter det direkte objektet",
+        "Mellom to substantiv",
         "Foran verbet"
       ],
       "correct": 3,
@@ -145,8 +143,8 @@
       "id": "q03",
       "text": "Hvordan lages futur proche?",
       "options": [
-        "avoir + partisipp",
-        "être + infinitiv",
+        "avoir + participe passé",
+        "être + participe passé",
         "aller + infinitiv",
         "venir de + infinitiv"
       ],
@@ -157,13 +155,13 @@
       "id": "q04",
       "text": "Velg riktig: «Si j'ai le temps, je ___ au cinéma.»",
       "options": [
-        "vais",
-        "irais",
-        "allais",
+        "iras",
+        "ira",
+        "irons",
         "irai"
       ],
       "correct": 3,
-      "explain": "si + presens → futur simple."
+      "explain": "Si + presens → futur simple."
     },
     {
       "id": "q05",
@@ -172,7 +170,7 @@
         "Passé composé",
         "Imparfait",
         "Futur simple",
-        "Presens"
+        "Plus-que-parfait"
       ],
       "correct": 1,
       "explain": "Imparfait beskriver hvordan det var."
@@ -183,8 +181,8 @@
       "options": [
         "pleuvait – suis sorti",
         "a plu – sortais",
-        "pleut – sors",
-        "pleuvra – sortirai"
+        "pleut – suis sorti",
+        "pleuvait – sortirai"
       ],
       "correct": 0,
       "explain": "Bakgrunn i imparfait, hendelse i passé composé."
@@ -193,14 +191,13 @@
       "id": "q07",
       "text": "Hva betyr laïcité?",
       "options": [
-        "Atskillelse av religion og stat",
-        "Et politisk parti",
-        "Den franske grunnloven",
-        "En type skole"
+        "Atskillelse mellom religion og stat",
+        "Et prinsipp om gratis skolegang",
+        "Et prinsipp om lik stemmerett",
+        "Et prinsipp om fransk språkbruk"
       ],
       "correct": 0,
-      "explain": "Prinsippet ble slått fast i en lov fra 1905.",
-      "niva": "eksempel"
+      "explain": "Prinsippet ble slått fast i en lov fra 1905."
     },
     {
       "id": "q08",
@@ -219,9 +216,9 @@
       "text": "Hva slo menneskerettighetserklæringen fra 1789 fast?",
       "options": [
         "At alle mennesker fødes frie og like i rettigheter",
-        "At kongen har all makt",
-        "At kirken skal styre staten",
-        "At Frankrike skal ha kolonier"
+        "At kongen skulle velges direkte av det franske folket",
+        "At adelen skulle beholde sine gamle særrettigheter i Frankrike",
+        "At kirken skulle styre staten sammen med kongen"
       ],
       "correct": 0,
       "explain": "Erklæringen fikk stor betydning i hele verden.",
@@ -231,13 +228,13 @@
       "id": "q10",
       "text": "Hva skjedde i Normandie 6. juni 1944?",
       "options": [
-        "Tyskland okkuperte Frankrike",
-        "Paris ble bombet",
-        "Napoleon tapte",
+        "De allierte frigjorde Paris",
+        "Tyske styrker invaderte Sør-Frankrike",
+        "Frankrike overga seg til Tyskland",
         "De allierte gikk i land"
       ],
       "correct": 3,
-      "explain": "Paris ble frigjort i august 1944.",
+      "explain": "Landgangen åpnet en vestfront mot den tyske okkupasjonen.",
       "niva": "eksempel"
     },
     {
@@ -247,7 +244,7 @@
         "je voulais",
         "je voudrai",
         "je voudrais",
-        "je veux bien"
+        "je veux"
       ],
       "correct": 2,
       "explain": "Futur-stamme voudr- + -ais."
@@ -393,7 +390,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -415,9 +412,9 @@
         "text": "Erstatt objektet: «Je donne le livre à Paul.» → «Je ___ donne le livre.»",
         "options": [
           "lui",
-          "le",
-          "leur",
-          "la"
+          "me",
+          "te",
+          "vous"
         ],
         "correct": 0,
         "explain": "à Paul → lui."
@@ -441,7 +438,8 @@
         "type": "sant-usant",
         "text": "«dont» kan erstatte «de» + et ord.",
         "correct": true,
-        "explain": "le livre dont je parle (parler de)."
+        "explain": "le livre dont je parle (parler de).",
+        "niva": "over-niva"
       },
       {
         "id": "m05",
@@ -476,8 +474,7 @@
         "kriterier": [
           "Bruker *futur proche* til planen om å ta bac.",
           "Bruker presens etter *si* og futur simple i hovedsetningen."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s03",
@@ -495,8 +492,7 @@
         "kriterier": [
           "Knytter kolonihistorien til utbredelsen av fransk.",
           "Nevner at de fleste fransktalende i dag bor i Afrika."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s05",
@@ -536,12 +532,94 @@
           "Bruker *je voudrais* som høflig ønske.",
           "Bruker imparfait etter *si* og conditionnel i hovedsetningen."
         ]
+      },
+      {
+        "text": "Skriv på fransk: I går var du alene hjemme og følte deg ensom. Du ringte foreldrene dine og fortalte dem at du var lei deg. Bruk fortidsformer og erstatt «til foreldrene mine» med et objektspronomen.",
+        "fasit": "Hier, j'étais seul(e) chez moi et je me sentais seul(e). J'ai téléphoné à mes parents et je leur ai dit que j'étais triste.",
+        "kriterier": [
+          "Bruker imparfait om bakgrunn eller følelser og passé composé om det som skjedde.",
+          "Bruker «leur» foran verbet for å vise til foreldrene."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Forklar på fransk skoleløpet i Frankrike etter barneskolen. Ta med hvor lenge collège og lycée varer, navnene på de tre årene på lycée, og hva bac gir adgang til. Oppgi også hvilken karakter som er bestått på skalaen fra 0 til 20.",
+        "fasit": "Après l'école primaire, les élèves vont au collège pendant quatre ans, puis au lycée pendant trois ans. Le lycée comprend la seconde, la première et la terminale. À la fin, ils passent le bac, qui donne accès aux études supérieures. La note de passage est 10 sur 20.",
+        "kriterier": [
+          "Oppgir riktig varighet og de tre årene på lycée.",
+          "Forklarer at bac gir adgang til høyere utdanning, og at 10 av 20 er bestått."
+        ],
+        "id": "s10",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Du ønsker sommerjobb i en bedrift innen turisme. Skriv en formell e-post på fransk der du ber om jobben og forklarer hvorfor den interesserer deg. Bruk en formell hilsen og avslutning.",
+        "fasit": "Madame, Monsieur, je souhaiterais faire un job d'été dans votre entreprise, car je m'intéresse au tourisme. Cordialement,",
+        "kriterier": [
+          "Bruker en passende høflig forespørsel, for eksempel «je souhaiterais».",
+          "Har formell hilsen og avslutning, og oppgir interesse for turisme."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Skriv på fransk om hvordan Frankrike gikk fra okkupasjon under andre verdenskrig til frigjøring og europeisk samarbeid. Ta med okkupasjonen i 1940, landgangen i Normandie og frigjøringen av Paris, og knytt etterkrigstidens forsoning mellom Frankrike og Tyskland til Roma-traktaten.",
+        "fasit": "En 1940, la France a été occupée par l'Allemagne et la Résistance a combattu les occupants. Le 6 juin 1944, les Alliés ont débarqué en Normandie et Paris a été libéré en août. Après la guerre, la réconciliation entre la France et l'Allemagne a contribué à la coopération européenne. La France a participé à la fondation de l'Union européenne avec le traité de Rome en 1957.",
+        "kriterier": [
+          "Får med okkupasjonen i 1940, landgangen i Normandie 6. juni 1944 og frigjøringen av Paris i august.",
+          "Knytter fransk-tysk forsoning etter krigen til europeisk samarbeid og Roma-traktaten i 1957."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv en kort presentasjon på fransk av det franske presidentskapet og Gule vester-bevegelsen. Ta med hvordan presidenten velges og hvor lenge hen sitter, og forklar hva protestene startet mot og hva de etter hvert også handlet om.",
+        "fasit": "En France, le président est élu directement par le peuple pour cinq ans. Le mouvement des gilets jaunes a commencé en 2018 pour protester contre la hausse des taxes sur les carburants. Il est ensuite devenu une protestation plus large contre les inégalités sociales.",
+        "kriterier": [
+          "Oppgir at presidenten velges direkte av folket for fem år.",
+          "Nevner at Gule vester startet i 2018 mot høyere drivstoffavgifter og ble en bredere protest mot sosial ulikhet."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En fransktalende venn spør deg hvor i verden man snakker fransk. Svar på fransk med eksempler fra Europa, Amerika og Afrika. Ta også med Réunion og forklar hvilken status øya har; bruk «où» om et sted.",
+        "fasit": "On parle français en Belgique, au Québec et au Sénégal. Le Québec est une province du Canada où on parle français. La Réunion est un territoire français d'outre-mer et fait partie de la France et de l'Union européenne.",
+        "kriterier": [
+          "Gir eksempler på fransktalende steder i Europa, Amerika og Afrika.",
+          "Forklarer at Réunion er et fransk oversjøisk område og en del av Frankrike og EU.",
+          "Bruker «où» om et sted."
+        ],
+        "id": "s14",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Sammenlign på fransk hva Molière er kjent for, med hva impresjonistiske malere ønsket å fange i bildene sine. Ta med Claude Monet og maleriet som ga impresjonismen navnet.",
+        "fasit": "Molière a écrit des comédies qui se moquent des défauts humains, comme l'avarice et l'hypocrisie. Les peintres impressionnistes voulaient saisir la lumière, les couleurs et l'instant. Le nom vient du tableau de Claude Monet, «Impression, soleil levant», peint en 1872.",
+        "kriterier": [
+          "Forklarer at Molières komedier gjør narr av menneskelige svakheter.",
+          "Nevner lys, farger eller øyeblikket som sentralt for impresjonismen.",
+          "Knytter navnet til Monets «Impression, soleil levant» fra 1872."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på fransk om forskjellen mellom chanson og musikken til Stromae. Ta med hva som står sentralt i chanson, hvor Stromae kommer fra, hvilke musikksjangre han blander, og eksempler på temaer i tekstene hans.",
+        "fasit": "Dans la chanson, les paroles sont très importantes. Stromae vient de Belgique et mélange la musique électronique et le hip-hop. Ses textes parlent de sujets sérieux comme l'identité, la santé mentale et les réseaux sociaux.",
+        "kriterier": [
+          "Nevner at teksten står sentralt i chanson.",
+          "Oppgir at Stromae kommer fra Belgia og blander elektronisk musikk og hiphop.",
+          "Nevner minst ett tema tekstene hans handler om."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

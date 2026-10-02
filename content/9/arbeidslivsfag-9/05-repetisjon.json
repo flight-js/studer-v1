@@ -14,8 +14,7 @@
   "flashcards": [
     {
       "term": "Elektroverktøy",
-      "def": "Verktøy som drives av strøm eller batteri, som drill og stikksag.",
-      "niva": "eksempel"
+      "def": "Verktøy som drives av strøm eller batteri, som drill og stikksag."
     },
     {
       "term": "Materialegenskaper",
@@ -27,43 +26,35 @@
     },
     {
       "term": "Målestokk",
-      "def": "Forholdet mellom tegningen og virkeligheten, for eksempel 1:10.",
-      "niva": "eksempel"
+      "def": "Forholdet mellom tegningen og virkeligheten, for eksempel 1:10."
     },
     {
       "term": "Arbeidstegning",
-      "def": "Tegning med mål som viser hvordan et produkt skal lages.",
-      "niva": "eksempel"
+      "def": "Tegning med mål som viser hvordan et produkt skal lages."
     },
     {
       "term": "Mattrygghet",
-      "def": "At maten er trygg å spise og ikke gjør folk syke.",
-      "niva": "eksempel"
+      "def": "At maten er trygg å spise og ikke gjør folk syke."
     },
     {
       "term": "Krysskontaminering",
-      "def": "At bakterier overføres fra en matvare til en annen, for eksempel via en skjærefjøl.",
-      "niva": "eksempel"
+      "def": "At bakterier overføres fra en matvare til en annen, for eksempel via en skjærefjøl."
     },
     {
       "term": "Farlig temperatursone",
-      "def": "Omtrent 10–60 °C, der bakterier formerer seg raskest.",
-      "niva": "eksempel"
+      "def": "Omtrent 10–60 °C, der bakterier formerer seg raskest."
     },
     {
       "term": "Best før",
-      "def": "Maten er ofte god også etter datoen; se, lukt og smak.",
-      "niva": "eksempel"
+      "def": "Maten er ofte god også etter datoen; se, lukt og smak."
     },
     {
       "term": "Allergener",
-      "def": "Stoffer i mat som kan gi allergiske reaksjoner, som nøtter og melk.",
-      "niva": "eksempel"
+      "def": "Stoffer i mat som kan gi allergiske reaksjoner, som nøtter og melk."
     },
     {
       "term": "Skalere en oppskrift",
-      "def": "Å gange opp eller dele ned mengdene i en oppskrift.",
-      "niva": "eksempel"
+      "def": "Å gange opp eller dele ned mengdene i en oppskrift."
     },
     {
       "term": "Nonverbal kommunikasjon",
@@ -75,18 +66,15 @@
     },
     {
       "term": "Medbestemmelse",
-      "def": "Å få bestemme over sitt eget liv så mye som mulig.",
-      "niva": "eksempel"
+      "def": "Å få bestemme over sitt eget liv så mye som mulig."
     },
     {
       "term": "Taushetsplikt",
-      "def": "Plikt til ikke å fortelle videre personlige opplysninger man får gjennom jobben.",
-      "niva": "eksempel"
+      "def": "Plikt til ikke å fortelle videre personlige opplysninger man får gjennom jobben."
     },
     {
       "term": "Smittevern",
-      "def": "Tiltak for å hindre at sykdom spres, som håndvask.",
-      "niva": "eksempel"
+      "def": "Tiltak for å hindre at sykdom spres, som håndvask."
     },
     {
       "term": "Bærekraftig utvikling",
@@ -124,30 +112,28 @@
         "Tegningen har 10 deler"
       ],
       "correct": 2,
-      "explain": "Tegningen er forminsket ti ganger.",
-      "niva": "eksempel"
+      "explain": "Tegningen er forminsket ti ganger."
     },
     {
       "id": "q02",
       "text": "Hva bør du gjøre før du bytter blad på en stikksag?",
       "options": [
-        "Holde den i gang",
-        "Ingenting",
-        "Spørre en venn",
-        "Trekke ut kontakten eller ta ut batteriet"
+        "Å slå av sagen med bryteren og la strømmen være tilkoblet",
+        "Å holde sagen i gang mens bladet løsnes",
+        "Å ta ut bladet før sagen er slått av",
+        "Å trekke ut kontakten eller ta ut batteriet"
       ],
       "correct": 3,
-      "explain": "Da kan ikke maskinen starte ved et uhell.",
-      "niva": "eksempel"
+      "explain": "Da kan ikke maskinen starte ved et uhell."
     },
     {
       "id": "q03",
       "text": "Hva betyr «mål to ganger, kapp én gang»?",
       "options": [
-        "Man skal kappe alt to ganger",
-        "Man skal bare måle én gang",
+        "Man skal måle én gang og kappe to ganger",
+        "Man skal måle to ganger etter at man har kappet",
         "Man skal kontrollere målene før man kapper",
-        "Man skal kappe før man måler"
+        "Man skal kappe to emner for hver måling"
       ],
       "correct": 2,
       "explain": "Da unngår man å kaste materialer."
@@ -157,74 +143,69 @@
       "text": "Hvorfor bør man bruke egne skjærefjøler til rått kjøtt og grønnsaker?",
       "options": [
         "For å unngå at bakterier overføres",
-        "Fordi det ser pent ut",
-        "For å spare tid",
-        "Fordi kjøtt er tyngre"
+        "For å hindre at maten mister smak under kutting",
+        "For å gjøre fjøla trygg å bruke uten vask",
+        "For å holde kniven skarpere når du kutter grønnsaker"
       ],
       "correct": 0,
-      "explain": "Dette forebygger krysskontaminering.",
-      "niva": "eksempel"
+      "explain": "Dette forebygger krysskontaminering."
     },
     {
       "id": "q05",
       "text": "Hvilken temperatur skal et kjøleskap holde?",
       "options": [
-        "10 °C eller lavere",
-        "0 °C",
+        "8 °C eller lavere",
+        "–18 °C eller lavere",
         "4 °C eller lavere",
-        "–18 °C"
+        "10 °C eller lavere"
       ],
       "correct": 2,
-      "explain": "Lav temperatur bremser veksten av bakterier.",
-      "niva": "eksempel"
+      "explain": "Lav temperatur bremser veksten av bakterier."
     },
     {
       "id": "q06",
       "text": "Ved hvilke temperaturer formerer bakterier seg raskest?",
       "options": [
-        "Under –18 °C",
+        "Omtrent –18 til 0 °C",
         "Omtrent 10–60 °C",
-        "Over 100 °C",
-        "Bare ved 0 °C"
+        "Omtrent 60–100 °C",
+        "Omtrent 0–5 °C"
       ],
       "correct": 1,
-      "explain": "Derfor skal kald mat holdes kald og varm mat varm.",
-      "niva": "eksempel"
+      "explain": "Derfor skal kald mat holdes kald og varm mat varm."
     },
     {
       "id": "q07",
       "text": "En oppskrift er for 4 personer. Hvordan lager du mat til 20?",
       "options": [
-        "Deler mengdene på 5",
-        "Legger til 16 gram av alt",
+        "Deler mengdene med 5",
+        "Ganger mengdene med 4",
         "Ganger mengdene med 5",
-        "Bruker samme mengder"
+        "Ganger mengdene med 20"
       ],
       "correct": 2,
-      "explain": "20 delt på 4 er 5.",
-      "niva": "eksempel"
+      "explain": "20 delt på 4 er 5."
     },
     {
       "id": "q08",
       "text": "Hva er taushetsplikt?",
       "options": [
-        "Plikt til å være stille på jobb",
+        "Plikt til å følge reglene for oppførsel på arbeidsplassen",
         "Plikt til ikke å fortelle videre personlige opplysninger man får gjennom jobben",
-        "Plikt til å svare på alle spørsmål",
-        "Plikt til å skrive logg"
+        "Plikt til å svare ærlig på spørsmål fra brukere",
+        "Plikt til å skrive ned viktige hendelser fra arbeidsdagen"
       ],
       "correct": 1,
-      "explain": "Taushetsplikten gjelder også etter at man har sluttet.",
-      "niva": "eksempel"
+      "explain": "Taushetsplikten gjelder også etter at man har sluttet."
     },
     {
       "id": "q09",
       "text": "Hva er nonverbal kommunikasjon?",
       "options": [
         "Kroppsspråk, blikk, tonefall og mimikk",
-        "Å skrive brev",
-        "Å snakke et fremmedspråk",
-        "Å sende SMS"
+        "Ord, setninger, spørsmål og forklaringer",
+        "Brev, e-post, skjema og tekstmeldinger",
+        "Språkvalg, uttale, ord og setningsbygning"
       ],
       "correct": 0,
       "explain": "Kroppsspråket sier ofte like mye som ordene."
@@ -233,9 +214,9 @@
       "id": "q10",
       "text": "Hva er empati?",
       "options": [
-        "Å være sint",
-        "Å bestemme over andre",
-        "Å være flink til å snakke",
+        "Evnen til å overtale andre til å gjøre det du ønsker",
+        "Evnen til å forstå regler og følge beskjeder fra andre",
+        "Evnen til å snakke tydelig og forklare egne meninger",
         "Evnen til å sette seg inn i hvordan andre har det"
       ],
       "correct": 3,
@@ -246,22 +227,21 @@
       "text": "Hva er viktig når du leker med barn i en barnehage?",
       "options": [
         "At alle får være med og at det er trygt",
-        "At du vinner",
-        "At det går fort",
-        "At barna sitter stille"
+        "At de eldste barna bestemmer hvem som får delta",
+        "At barna konkurrerer om å vinne mens de andre venter",
+        "At leken går etter planen selv om noen blir holdt utenfor"
       ],
       "correct": 0,
-      "explain": "Tilpass aktiviteten til alder og ferdigheter.",
-      "niva": "eksempel"
+      "explain": "Tilpass aktiviteten til alder og ferdigheter."
     },
     {
       "id": "q12",
       "text": "Hva er de tre dimensjonene av bærekraft?",
       "options": [
-        "Tre, metall og plast",
+        "Miljø, økonomi og teknologi",
         "Miljø, økonomi og det sosiale",
-        "Fortid, nåtid og framtid",
-        "Land, by og hav"
+        "Miljø, politikk og sosiale forhold",
+        "Økonomi, natur og kultur"
       ],
       "correct": 1,
       "explain": "Alle tre må henge sammen for at utviklingen skal være bærekraftig."
@@ -270,10 +250,10 @@
       "id": "q13",
       "text": "Hva kjennetegner en sirkulær økonomi?",
       "options": [
-        "Ta – lag – kast",
-        "Alt produseres i utlandet",
-        "Ressursene holdes i bruk ved reparasjon, gjenbruk og gjenvinning",
-        "Ingen ting blir produsert"
+        "Ressursene brukes én gang før produktene blir kastet",
+        "Produktene byttes ut når de får små skader",
+        "Ressursene holdes i bruk gjennom reparasjon, gjenbruk og gjenvinning",
+        "Produksjonen bygger på nye råvarer framfor brukte materialer"
       ],
       "correct": 2,
       "explain": "Den lineære økonomien er ta – lag – kast."
@@ -282,9 +262,9 @@
       "id": "q14",
       "text": "Hva gjør du med rester av maling fra et arbeidsoppdrag?",
       "options": [
-        "Heller dem i vasken",
-        "Kaster dem i restavfallet",
-        "Graver dem ned",
+        "Blander dem med vann og heller dem i vasken",
+        "Lar malingen tørke og kaster den i restavfallet",
+        "Leverer dem som vanlig plastemballasje til gjenvinning",
         "Leverer dem til mottak for farlig avfall"
       ],
       "correct": 3,
@@ -295,10 +275,10 @@
       "id": "q15",
       "text": "Hva hører med i livsløpet til et produkt?",
       "options": [
-        "Bare produksjonen",
+        "Råvarer, produksjon, transport, salg og reklame",
         "Råvarer, produksjon, transport, bruk og avfall",
-        "Bare avfallet",
-        "Bare prisen"
+        "Produksjon, transport, bruk, pris og fortjeneste",
+        "Råvarer, produksjon, bruk, emballasje og markedsføring"
       ],
       "correct": 1,
       "explain": "Miljøbelastningen må vurderes gjennom hele livsløpet."
@@ -410,7 +390,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -434,8 +414,7 @@
         "type": "sant-usant",
         "text": "Elektroverktøy krever opplæring før bruk.",
         "correct": true,
-        "explain": "Feil bruk kan gi alvorlige skader.",
-        "niva": "eksempel"
+        "explain": "Feil bruk kan gi alvorlige skader."
       },
       {
         "id": "m02",
@@ -443,37 +422,33 @@
         "text": "Hvilken enhet brukes ofte på arbeidstegninger?",
         "options": [
           "Kilometer",
-          "Meter",
+          "Hektometer",
           "Millimeter",
           "Mil"
         ],
         "correct": 2,
-        "explain": "Millimeter gir presise mål.",
-        "niva": "eksempel"
+        "explain": "Millimeter gir presise mål."
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "En fryser skal holde –18 °C eller lavere.",
         "correct": true,
-        "explain": "Da stopper veksten av bakterier nesten helt.",
-        "niva": "eksempel"
+        "explain": "Da stopper veksten av bakterier nesten helt."
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Allergener trenger ikke merkes når maten serveres på skolen.",
         "correct": false,
-        "explain": "Allergener må alltid gjøres kjent for dem som skal spise.",
-        "niva": "eksempel"
+        "explain": "Allergener må alltid gjøres kjent for dem som skal spise."
       },
       {
         "id": "m05",
         "type": "sant-usant",
         "text": "Taushetsplikten gjelder også etter at man har sluttet i jobben.",
         "correct": true,
-        "explain": "Opplysningene er fortsatt private.",
-        "niva": "eksempel"
+        "explain": "Opplysningene er fortsatt private."
       }
     ],
     "skriv": [
@@ -493,8 +468,7 @@
         "kriterier": [
           "Nevner egne skjærefjøler eller at rå og ferdige matvarer holdes hver for seg.",
           "Sier at kyllingen må varmebehandles gjennomgående."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s03",
@@ -503,8 +477,7 @@
         "kriterier": [
           "Nevner tilpasning, trygghet eller at alle skal få være med.",
           "Forklarer at en rollemodell viser en god måte å opptre på."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s04",
@@ -522,8 +495,7 @@
         "kriterier": [
           "Regner riktig: 20 delt på 4 er 5, så mengdene ganges med 5.",
           "Knytter planlegging av mengder til mindre matsvinn."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s06",
@@ -532,8 +504,7 @@
         "kriterier": [
           "Nevner en passende måte å kommunisere tydelig på.",
           "Forklarer medbestemmelse som at personen får bestemme så mye som mulig selv."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s07",
@@ -542,8 +513,7 @@
         "kriterier": [
           "Knytter måling før kapping til å unngå feil.",
           "Forklarer at gjenbruksmaterialer kan gi nytt liv til noe som ellers ville blitt kastet."
-        ],
-        "niva": "eksempel"
+        ]
       },
       {
         "id": "s08",
@@ -552,7 +522,85 @@
         "kriterier": [
           "Nevner merking av allergener og at spor ikke skal havne i annen mat.",
           "Nevner en handling som viser godt vertskap eller service."
+        ]
+      },
+      {
+        "text": "En arbeidstegning er i målestokk 1:10. En strek på tegningen er 3,5 cm lang. Hvor lang skal delen være i virkeligheten, og hva viser målestokken?",
+        "fasit": "Delen skal være 35 cm lang i virkeligheten. Målestokk 1:10 betyr at 1 cm på tegningen tilsvarer 10 cm i virkeligheten.",
+        "kriterier": [
+          "Regner ut at delen er 35 cm i virkeligheten.",
+          "Forklarer at 1 cm på tegningen tilsvarer 10 cm i virkeligheten."
         ],
+        "id": "s09"
+      },
+      {
+        "text": "Du skal skifte bor på en batteridrevet drill før du fortsetter arbeidet. Hva må du gjøre før du skifter bor, og hva bør du ha kontroll på når du bruker drillen?",
+        "fasit": "Jeg tar batteriet ut før jeg skifter bor. Jeg må ha opplæring, bruke riktig verneutstyr og følge bruksanvisningen når jeg bruker drillen.",
+        "kriterier": [
+          "Tar ut batteriet før skifte av bor.",
+          "Nevner opplæring, verneutstyr eller at bruksanvisningen skal følges."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En kantine skal servere varm suppe, men suppen holder bare 55 grader. Det blir også rester etter serveringen. Forklar hvordan kantinen kan servere suppen trygt og redusere matsvinnet.",
+        "fasit": "Varm mat som serveres, bør holdes over 60 grader, så suppen må varmes opp eller holdes varm nok. Restene bør kjøles raskt ned og oppbevares riktig, og kantinen kan planlegge mengdene bedre neste gang for å få mindre matsvinn.",
+        "kriterier": [
+          "Nevner at varm mat bør holdes over 60 grader.",
+          "Nevner rask nedkjøling og riktig oppbevaring av rester.",
+          "Knytter planlegging av mengder til mindre matsvinn."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Du skriver en arbeidslogg etter å ha hjulpet til på et sykehjem. Du vil fortelle om en beboers personlige forhold og vurderer å legge ut et bilde av beboeren. Hva bør du gjøre, og hvorfor?",
+        "fasit": "Jeg skal ikke dele personlige opplysninger om beboeren i loggen eller andre steder uten at det er avtalt at dette er greit. Jeg skal heller ikke ta eller dele bilde uten tillatelse. Taushetsplikten gjelder også etter at jeg har sluttet i jobben.",
+        "kriterier": [
+          "Viser at personlige opplysninger ikke skal deles på grunn av taushetsplikten.",
+          "Nevner at bilde ikke skal tas eller deles uten tillatelse.",
+          "Nevner gjerne at taushetsplikten gjelder etter at jobben er avsluttet."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En kafé skal velge leverandør av råvarer. Én leverandør har lokale varer, og en annen tilbyr Fairtrade-merkede varer. Forklar hvordan kaféen kan vurdere valgene ut fra miljø, sosiale forhold og økonomi.",
+        "fasit": "Lokale varer kan gi kortere transport og dermed være et miljøhensyn. Fairtrade-merket kan gi informasjon om arbeidsforholdene. Kaféen bør også vurdere kostnadene og om valget er økonomisk mulig over tid.",
+        "kriterier": [
+          "Knytter lokale varer eller kortere transport til miljøhensyn.",
+          "Knytter Fairtrade-merket til informasjon om arbeidsforhold.",
+          "Nevner kostnader eller økonomisk bærekraft over tid."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En kunde på en kafé har ventet lenge på bestillingen og virker irritert. Forklar hvordan du kan bruke kommunikasjon og service for å møte kunden på en god måte.",
+        "fasit": "Jeg kan lytte til kunden, svare rolig og beklage ventetiden. Jeg bør bruke et vennlig tonefall og kroppsspråk, og prøve å finne en løsning eller gi tydelig informasjon om bestillingen.",
+        "kriterier": [
+          "Nevner lytting og en rolig, vennlig verbal kommunikasjon.",
+          "Nevner passende kroppsspråk eller tonefall.",
+          "Viser at man bør hjelpe kunden med informasjon eller en løsning."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Du skal hjelpe til med en aktivitet på et sykehjem, men våkner med omgangssyke. Hva bør du gjøre, og hvilke tiltak er viktige for å hindre smitte når du er frisk og tilbake på jobb?",
+        "fasit": "Jeg bør holde meg hjemme når jeg er syk, og ikke lage mat eller møte beboerne. Når jeg er tilbake, er håndvask og håndsprit viktige tiltak for å hindre smitte.",
+        "kriterier": [
+          "Sier at man skal holde seg hjemme når man er syk.",
+          "Nevner håndvask eller håndsprit som viktig smittevern."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "På et verksted har dere brukbare treavkapp, papp, et brukt batteri og rester av maling. Forklar hvordan dere kan følge prinsippene redusere, gjenbruke og gjenvinne, og hva dere må gjøre med batteriet og malingen.",
+        "fasit": "Vi kan først planlegge arbeidet slik at det blir mindre avkapp, og gjenbruke de brukbare trebitene. Papp kan sorteres til gjenvinning. Batteriet og malingen er farlig avfall og må leveres til et mottak, ikke kastes i vanlig avfall.",
+        "kriterier": [
+          "Viser at reduksjon og gjenbruk kommer før gjenvinning.",
+          "Nevner sortering av papp eller treavkapp for gjenbruk.",
+          "Sier at batteri og maling leveres som farlig avfall til et mottak."
+        ],
+        "id": "s16",
         "niva": "eksempel"
       }
     ]
@@ -560,6 +608,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

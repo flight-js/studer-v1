@@ -79,22 +79,22 @@
       "id": "q01",
       "text": "Hva er målet med en filosofisk samtale?",
       "options": [
-        "Å vinne",
+        "Å overbevise andre om eget standpunkt",
         "Å forstå bedre og utvikle egne oppfatninger",
-        "Å bli enige raskt",
-        "Å bevise at læreren har rett"
+        "Å forsvare egne oppfatninger mot kritikk",
+        "Å finne ett svar alle kan godta"
       ],
       "correct": 1,
-      "explain": "Utforsking, ikke konkurranse."
+      "explain": "Målet er å undersøke spørsmål og utvikle forståelsen, ikke å konkurrere."
     },
     {
       "id": "q02",
       "text": "Når er et argument gyldig?",
       "options": [
         "Når konklusjonen følger logisk av premissene",
-        "Når premissene er sanne",
-        "Når mange er enige",
-        "Når det er kort"
+        "Når premissene stemmer med virkeligheten",
+        "Når konklusjonen stemmer med virkeligheten",
+        "Når argumentet overbeviser de fleste leserne"
       ],
       "correct": 0,
       "explain": "Gyldighet handler om form."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "«Alle fugler kan fly. Pingviner er fugler. Altså kan pingviner fly.» Hva er galt?",
       "options": [
-        "Argumentet er ugyldig",
-        "Konklusjonen følger ikke",
+        "Argumentet er ugyldig fordi konklusjonen ikke følger logisk av premissene",
+        "Argumentet er holdbart fordi konklusjonen følger logisk av premissene",
         "Argumentet er gyldig, men ikke holdbart fordi et premiss er usant",
-        "Ingenting"
+        "Argumentet er ugyldig fordi påstanden om fugler er for generell"
       ],
       "correct": 2,
       "explain": "Ikke alle fugler kan fly."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva kjennetegner induksjon?",
       "options": [
-        "Sikre konklusjoner",
-        "Fra det generelle til det spesielle",
-        "Ingen premisser",
+        "Fra en generell regel til et bestemt tilfelle",
+        "Fra enkelttilfeller til en sikker konklusjon",
+        "Fra flere premisser til en motstridende konklusjon",
         "Fra enkelttilfeller til en generell regel"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva er naturalistisk feilslutning?",
       "options": [
         "Å slutte fra hvordan noe er, til hvordan det bør være",
-        "Å angripe personen",
-        "Å gjenta konklusjonen",
-        "Å bruke to alternativer"
+        "Å avvise et argument ved å kritisere personen som fremmer det",
+        "Å støtte en konklusjon ved å gjenta den som premiss",
+        "Å framstille saken som et valg mellom to muligheter"
       ],
       "correct": 0,
       "explain": "Naturlig betyr ikke riktig.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvem er den sokratiske metoden oppkalt etter?",
       "options": [
-        "Platon",
+        "Xenofon",
         "Sokrates",
-        "Aristoteles",
-        "Kant"
+        "Heraklit",
+        "Diogenes"
       ],
       "correct": 1,
       "explain": "Han stilte spørsmål i Athen.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er et sirkelargument?",
       "options": [
-        "Et argument med mange premisser",
-        "Et induktivt argument",
+        "Et argument der konklusjonen følger av sanne premisser",
+        "Et argument der flere eksempler støtter en generell konklusjon",
         "Et argument der konklusjonen allerede står i premissene",
-        "Et argument med moteksempel"
+        "Et argument der et moteksempel svekker en generell påstand"
       ],
       "correct": 2,
       "explain": "Det beviser ingenting nytt.",
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hva er et godt første grep når du leser en originaltekst?",
       "options": [
-        "Å lese så fort som mulig",
-        "Å hoppe over vanskelige ord",
-        "Å bare lese konklusjonen",
+        "Å tolke hovedpåstanden uten å undersøke tekstens kontekst",
+        "Å vurdere tekstens sannhet ut fra dagens kunnskap",
+        "Å lete etter forfatterens standpunkt uten å lese hele teksten",
         "Å finne ut når, hvor og hvorfor teksten ble skrevet"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hva er et moteksempel?",
       "options": [
         "Et tilfelle som viser at en generell påstand ikke stemmer",
-        "Et eksempel som støtter påstanden",
-        "En konklusjon",
-        "En kilde"
+        "Et eksempel som støtter en generell påstand med konkrete observasjoner",
+        "En påstand som oppsummerer konklusjonen i et argument",
+        "En kilde som gir bakgrunn for en generell påstand"
       ],
       "correct": 0,
       "explain": "Viktig verktøy i filosofisk samtale."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "«Alle mener det, så det må være riktig.» Hvilken feilslutning er dette?",
       "options": [
-        "Stråmann",
+        "Falskt dilemma",
         "Appell til flertallet",
-        "Personangrep",
-        "Sirkelargument"
+        "Appell til autoritet",
+        "Forhastet generalisering"
       ],
       "correct": 1,
       "explain": "Flertallet kan ta feil.",
@@ -318,10 +318,10 @@
         "type": "flervalg",
         "text": "Hva er en deduktiv slutning?",
         "options": [
-          "Fra enkelttilfeller til en regel",
+          "Fra enkelttilfeller til en generell regel",
           "Fra det generelle til det spesielle",
-          "En gjetning",
-          "Et moteksempel"
+          "Fra et eksempel til en motstridende påstand",
+          "Fra en konklusjon til et sannsynlig premiss"
         ],
         "correct": 1,
         "explain": "Kan gi sikre konklusjoner."
@@ -332,9 +332,9 @@
         "text": "Hvilket spørsmål avklarer begreper?",
         "options": [
           "«Hva mener du med frihet?»",
-          "«Hvem vant?»",
-          "«Hvor mye koster det?»",
-          "«Når slutter timen?»"
+          "«Hva fikk deg til å mene det?»",
+          "«Hvilke grunner støtter standpunktet ditt?»",
+          "«Hvilke følger får dette standpunktet?»"
         ],
         "correct": 0,
         "explain": "Viktig i filosofisk samtale."
@@ -344,10 +344,10 @@
         "type": "flervalg",
         "text": "Hva bør du skille mellom når du leser en originaltekst?",
         "options": [
-          "Store og små bokstaver",
-          "Nye og gamle sider",
+          "Hva teksten handler om og hvor mange avsnitt den har",
+          "Hvem som skrev teksten og hvilket år den ble publisert",
           "Hva teksten sier og hva du selv mener",
-          "Forfatter og forlag"
+          "Hvilke fagbegreper teksten bruker og hvor de står"
         ],
         "correct": 2,
         "explain": "Først forstå, så vurdere."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

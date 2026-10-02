@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er Erasmus+?",
       "options": [
-        "En tysk bilmerke",
+        "EUs støtteprogram for landbruk",
         "EUs utvekslingsprogram i utdanning",
-        "En tysk skole",
-        "En type visum"
+        "EUs støtteprogram for helsevesen",
+        "EUs støtteprogram for transport"
       ],
       "correct": 1,
       "explain": "Norge deltar i programmet."
@@ -91,9 +91,9 @@
       "text": "Hvordan sier du «Jeg søker på en stilling som au pair»?",
       "options": [
         "Ich bewerbe mich um eine Stelle als Au-pair.",
-        "Ich suche mich eine Au-pair.",
-        "Ich bin eine Au-pair Stelle.",
-        "Ich will Au-pair bewerben mich."
+        "Ich suche mich um eine Stelle als Au-pair.",
+        "Ich bewerbe mich an eine Stelle als Au-pair.",
+        "Ich bewerbe mich um eine Stelle wie Au-pair."
       ],
       "correct": 0,
       "explain": "sich bewerben um = søke på."
@@ -115,8 +115,8 @@
       "text": "Hvordan sier du «Jeg skulle gjerne ha reist til Berlin»?",
       "options": [
         "Ich hätte gern nach Berlin gefahren.",
+        "Ich würde gern nach Berlin fahren.",
         "Ich bin gern nach Berlin gefahren.",
-        "Ich würde nach Berlin fahren.",
         "Ich wäre gern nach Berlin gefahren."
       ],
       "correct": 3,
@@ -128,8 +128,8 @@
       "options": [
         "vertsfamilien",
         "gjestehuset",
-        "slekten",
-        "naboene"
+        "vertskapet",
+        "nabolaget"
       ],
       "correct": 0,
       "explain": "Au pairer og utvekslingselever bor ofte i en Gastfamilie."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er FSJ?",
       "options": [
-        "En universitetsgrad",
+        "Et obligatorisk sosialt tjenesteår",
         "Et frivillig sosialt år",
-        "En eksamen",
-        "En type jobbkontrakt"
+        "Et akademisk studieår ved universitetet",
+        "Et lønnet arbeidsår i næringslivet"
       ],
       "correct": 1,
       "explain": "Freiwilliges Soziales Jahr.",
@@ -151,10 +151,10 @@
       "id": "q07",
       "text": "Hva betyr «Das hätte ich nicht gedacht!»?",
       "options": [
-        "Det tenker jeg ikke!",
-        "Det har jeg tenkt!",
+        "Det hadde jeg ikke forstått!",
+        "Det hadde jeg ikke planlagt!",
         "Det hadde jeg ikke trodd!",
-        "Det skal jeg tenke på!"
+        "Det hadde jeg ikke hørt!"
       ],
       "correct": 2,
       "explain": "Uttrykk for overraskelse."
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Når bruker man «wäre» i stedet for «hätte» i konjunktiv II i fortid?",
       "options": [
-        "Med alle modalverb",
-        "Med verb i passiv",
-        "Med alle sterke verb",
+        "Med verb som tar «haben» i perfektum",
+        "Med sterke verb i perfektum",
+        "Med svake verb i perfektum",
         "Med verb som tar «sein» i perfektum"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva betyr «Meine Stärken sind …»?",
       "options": [
         "Mine sterke sider er …",
-        "Mine svakheter er …",
-        "Mine venner er …",
-        "Mine drømmer er …"
+        "Mine svake sider er …",
+        "Mine yrkeserfaringer er …",
+        "Mine framtidsplaner er …"
       ],
       "correct": 0,
       "explain": "Nyttig i søknader og intervjuer."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvordan avslutter du en formell søknad på tysk?",
       "options": [
-        "Tschüss!",
-        "Mit freundlichen Grüßen",
         "Liebe Grüße",
-        "Bis bald!"
+        "Mit freundlichen Grüßen",
+        "Bis bald",
+        "Tschüss"
       ],
       "correct": 1,
       "explain": "De andre er uformelle."
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Erzählen Sie etwas über sich»?",
         "options": [
-          "Hva heter du?",
+          "Fortell litt om familien din.",
           "Fortell litt om deg selv.",
-          "Hvor kommer du fra?",
-          "Hvorfor søker du?"
+          "Fortell litt om utdanningen din.",
+          "Fortell litt om erfaringene dine."
         ],
         "correct": 1,
         "explain": "Et vanlig intervjuspørsmål."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva er en fordel med et utenlandsår, formulert på tysk?",
         "options": [
-          "Man vergisst die Sprache.",
-          "Man bleibt zu Hause.",
+          "Man vermisst die Familie.",
+          "Man hat zusätzliche Kosten.",
           "Man wird selbstständiger.",
-          "Man hat keine Freunde."
+          "Man verliert Schulzeit."
         ],
         "correct": 2,
         "explain": "Man blir mer selvstendig."
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

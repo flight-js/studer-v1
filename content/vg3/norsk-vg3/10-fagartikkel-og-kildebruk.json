@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er formålet med en fagartikkel?",
       "options": [
-        "Å underholde",
+        "Å presentere egne synspunkter om et faglig emne",
         "Å greie ut og drøfte et faglig emne",
-        "Å selge et produkt",
-        "Å fortelle en fiktiv historie"
+        "Å oppsummere kjent kunnskap om et faglig emne",
+        "Å fortelle personlige erfaringer knyttet til et faglig emne"
       ],
       "correct": 1,
       "explain": "Saklig og kildebasert."
@@ -90,9 +90,9 @@
       "text": "Hva er en parafrase?",
       "options": [
         "Andres tanker gjengitt med egne ord",
-        "Et ordrett sitat",
-        "En litteraturliste",
-        "En overskrift"
+        "Andres ord gjengitt helt nøyaktig",
+        "En kildes hovedinnhold gjengitt i kortform",
+        "Andres argumenter vurdert med egne meninger"
       ],
       "correct": 0,
       "explain": "Krever også kildehenvisning."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er plagiat?",
       "options": [
-        "Å bruke mange kilder",
-        "Å sitere riktig",
-        "Å bruke andres tekst eller tanker uten å oppgi kilden",
-        "Å skrive på sidemål"
+        "Å bruke andres tekst eller tanker med korrekt kildehenvisning",
+        "Å gjengi egne tanker og vise til relevante kilder",
+        "Å bruke andres tekst eller tanker uten kildehenvisning",
+        "Å sitere andres tekst med tydelig markering og kildehenvisning"
       ],
       "correct": 2,
       "explain": "Regnes som fusk."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Hva betyr det å drøfte?",
       "options": [
-        "Å referere",
-        "Å gi én mening uten begrunnelse",
-        "Å liste opp fakta",
+        "Å forklare én side av saken før man konkluderer",
+        "Å gjengi hovedinnholdet i en kilde uten vurdering",
+        "Å presentere fakta om saken uten å veie argumenter",
         "Å se en sak fra flere sider før man konkluderer"
       ],
       "correct": 3,
@@ -126,9 +126,9 @@
       "text": "Hvorfor må du sjekke opplysninger fra kunstig intelligens?",
       "options": [
         "Fordi de kan inneholde feil eller oppdiktede kilder",
-        "Fordi de alltid er riktige",
-        "Fordi det er forbudt å lese dem",
-        "Fordi de er for korte"
+        "Fordi svarene bygger på én bestemt lærebok",
+        "Fordi opplysningene blir godkjent av en redaktør før de vises",
+        "Fordi KI ikke kan formulere faglige forklaringer"
       ],
       "correct": 0,
       "explain": "Sjekk mot pålitelige kilder.",
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er særskriving?",
       "options": [
-        "Å skrive med stor forbokstav",
-        "Å bruke komma",
-        "At sammensatte ord deles feil",
-        "Å bytte mellom bokmål og nynorsk"
+        "At ord får stor forbokstav uten grunn",
+        "At setninger skilles med komma i stedet for punktum",
+        "At ord som skal skrives sammen, deles feil",
+        "At ord fra ulike målformer blandes i teksten"
       ],
       "correct": 2,
       "explain": "Sjokoladekake, ikke sjokolade kake."
@@ -162,22 +162,22 @@
       "id": "q08",
       "text": "Hvor står problemstillingen i en fagartikkel?",
       "options": [
-        "I litteraturlisten",
+        "I hoveddelen",
         "I avslutningen",
-        "Etter kildene",
+        "I litteraturlisten",
         "I innledningen"
       ],
       "correct": 3,
-      "explain": "Avslutningen svarer på den."
+      "explain": "Problemstillingen presenteres i innledningen, mens avslutningen samler svaret."
     },
     {
       "id": "q09",
       "text": "Hvilket uttrykk gjør en påstand mer nyansert?",
       "options": [
         "«Kan tyde på»",
-        "«Alle vet at»",
-        "«Det er helt sikkert»",
-        "«Aldri noensinne»"
+        "«Det viser tydelig at»",
+        "«Dette betyr altså at»",
+        "«Forskningen slår fast»"
       ],
       "correct": 0,
       "explain": "Viser grad av sikkerhet."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvordan ser en henvisning etter APA-stilen ut i teksten?",
       "options": [
-        "[1]",
+        "(År, etternavn, s. 12)",
         "(Etternavn, år, s. 12)",
-        "Fotnote uten navn",
-        "Bare tittelen"
+        "(Etternavn: år, s. 12)",
+        "(Etternavn, år: s. 12)"
       ],
       "correct": 1,
       "explain": "Full referanse står i litteraturlisten.",
@@ -317,10 +317,10 @@
         "type": "flervalg",
         "text": "Hvilket spørsmål hører til kildekritikk?",
         "options": [
-          "Hvor lang er kilden?",
+          "Hvor lang er teksten, og hvor mange avsnitt har den?",
           "Hvem står bak, og hvorfor er kilden laget?",
-          "Hvilken farge har nettsiden?",
-          "Hvor mange bilder har den?"
+          "Hvilket språk er brukt, og hvor mange ord har teksten?",
+          "Hvilke skrifttyper er brukt, og hvor store er overskriftene?"
         ],
         "correct": 1,
         "explain": "Også når og hvordan."
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva gir tydelige avsnitt i en fagartikkel?",
         "options": [
-          "Temasetninger og mellomtitler",
-          "Lange setninger uten punktum",
-          "Mange utropstegn",
-          "Ingen overskrifter"
+          "Temasetninger i avsnittene og beskrivende mellomtitler",
+          "Lange avsnitt med mange detaljer og forklaringer",
+          "Korte setninger med mange komma og parenteser",
+          "Punktlister med sitater og kildehenvisninger"
         ],
         "correct": 0,
         "explain": "Gjør teksten lett å følge."
@@ -431,6 +431,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

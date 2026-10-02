@@ -85,10 +85,10 @@
       "id": "q01",
       "text": "Hva krevde Thrane-bevegelsen?",
       "options": [
-        "Kongens makt",
+        "Begrenset stemmerett og bedre kår for arbeidere og husmenn",
         "Allmenn stemmerett og bedre kår for arbeidere og husmenn",
-        "Samisk selvstyre",
-        "Union med Sverige"
+        "Allmenn stemmerett og bedre kår for embetsmenn og bønder",
+        "Allmenn stemmerett og bedre kår for samer og fiskere"
       ],
       "correct": 1,
       "explain": "Marcus Thrane ble fengslet."
@@ -98,9 +98,9 @@
       "text": "Når ble parlamentarismen innført i Norge?",
       "options": [
         "1884",
-        "1814",
-        "1905",
-        "1913"
+        "1887",
+        "1898",
+        "1905"
       ],
       "correct": 0,
       "explain": "Regjeringen må ha Stortingets tillit."
@@ -110,9 +110,9 @@
       "text": "Når fikk kvinner allmenn stemmerett ved stortingsvalg?",
       "options": [
         "1898",
-        "1884",
+        "1901",
         "1913",
-        "1978"
+        "1907"
       ],
       "correct": 2,
       "explain": "Menn fikk det i 1898."
@@ -122,7 +122,7 @@
       "text": "Hva satte Alta-saken på dagsordenen?",
       "options": [
         "Kvinners stemmerett",
-        "Arbeidstiden",
+        "Arbeidernes rettigheter",
         "Homofiles rettigheter",
         "Samiske rettigheter"
       ],
@@ -135,8 +135,8 @@
       "options": [
         "1989",
         "1917",
-        "1968",
-        "2005"
+        "1979",
+        "1987"
       ],
       "correct": 0,
       "explain": "Samenes folkevalgte organ."
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Hva skjedde i 1972?",
       "options": [
-        "Kvinner fikk stemmerett",
+        "Likestillingsloven ble vedtatt og ga kvinner vern",
         "Sex mellom menn ble avkriminalisert",
-        "Sametinget ble opprettet",
-        "LO ble stiftet"
+        "Registrert partnerskap ble innført for likekjønnede par",
+        "Sametinget ble opprettet som samenes folkevalgte organ"
       ],
       "correct": 1,
       "explain": "Senere kom vern mot diskriminering og ekteskapslov.",
@@ -159,9 +159,9 @@
       "text": "Hvem tok initiativ til det første samiske landsmøtet i 1917?",
       "options": [
         "Gina Krog",
-        "Marcus Thrane",
+        "Isak Saba",
         "Elsa Laula Renberg",
-        "Gro Harlem Brundtland"
+        "Daniel Mortenson"
       ],
       "correct": 2,
       "explain": "6. februar er samefolkets dag.",
@@ -171,9 +171,9 @@
       "id": "q08",
       "text": "Hva gjorde ansvarsreformen tidlig på 1990-tallet?",
       "options": [
-        "Innførte stemmerett for kvinner",
-        "Opprettet Sametinget",
-        "Innførte 8-timersdagen",
+        "La ned institusjoner og ga fylkene ansvaret for utviklingshemmede",
+        "Opprettet institusjoner og ga kommunene ansvaret for utviklingshemmede",
+        "La ned institusjoner og ga kommunene ansvaret for eldre med funksjonsnedsettelser",
         "La ned institusjoner og ga kommunene ansvaret for utviklingshemmede"
       ],
       "correct": 3,
@@ -185,9 +185,9 @@
       "text": "Hvordan har frigjøringskampene bidratt til demokratiet?",
       "options": [
         "Ved å gi flere stemmerett, innflytelse og vern mot diskriminering",
-        "Ved å fjerne valg",
-        "Ved å gi kongen mer makt",
-        "De har ikke bidratt"
+        "Ved å gi flere stemmerett, men begrense politisk innflytelse og vern mot diskriminering",
+        "Ved å styrke politisk innflytelse, men redusere stemmerett og vern mot diskriminering",
+        "Ved å utvide diskrimineringsvernet, men begrense stemmerett og politisk innflytelse"
       ],
       "correct": 0,
       "explain": "Demokratiet er blitt bredere."
@@ -196,10 +196,10 @@
       "id": "q10",
       "text": "Når kom den felles ekteskapsloven?",
       "options": [
-        "1993",
+        "1972",
         "2009",
         "1981",
-        "1972"
+        "1993"
       ],
       "correct": 1,
       "explain": "Gir likekjønnede par rett til å gifte seg.",
@@ -323,10 +323,10 @@
         "type": "flervalg",
         "text": "Når ble Det norske Arbeiderparti stiftet?",
         "options": [
-          "1848",
+          "1884",
           "1887",
           "1899",
-          "1919"
+          "1905"
         ],
         "correct": 1,
         "explain": "LO kom i 1899.",
@@ -351,10 +351,10 @@
         "type": "flervalg",
         "text": "Hva kjennetegnet regjeringen Brundtland dannet i 1986?",
         "options": [
-          "Bare menn",
-          "Bare samer",
+          "Omtrent en tredel var kvinner",
+          "En liten minoritet var kvinner",
           "Nesten halvparten var kvinner",
-          "Den hadde ingen statsråder"
+          "Et knapt flertall var kvinner"
         ],
         "correct": 2,
         "explain": "Kalt «kvinneregjeringen».",
@@ -442,6 +442,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

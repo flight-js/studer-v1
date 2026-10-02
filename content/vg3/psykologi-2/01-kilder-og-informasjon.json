@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvilken kildetype gir ofte det mest pålitelige bildet av forskningen?",
       "options": [
-        "Et blogginnlegg",
+        "En enkeltstudie",
         "En metaanalyse",
-        "En enkelthistorie",
-        "En reklame"
+        "En fagblogg",
+        "En meningsartikkel"
       ],
       "correct": 1,
       "explain": "Sammenstiller mange studier."
@@ -92,9 +92,9 @@
       "text": "Hva er fagfellevurdering?",
       "options": [
         "At andre forskere vurderer en artikkel før publisering",
-        "At leserne gir stjerner",
-        "At journalister skriver om forskningen",
-        "At studien gjentas"
+        "At redaktøren vurderer en artikkel før den sendes til fagfolk",
+        "At forskere gjentar en studie før artikkelen blir publisert",
+        "At lesere vurderer artikkelen etter at den er publisert"
       ],
       "correct": 0,
       "explain": "En kvalitetskontroll, men ingen garanti."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Hva var replikasjonskrisen?",
       "options": [
-        "At psykologer sluttet å forske",
-        "At tidsskrifter ble nedlagt",
+        "At mange kjente funn ble bekreftet i nye studier",
+        "At mange kjente funn viste seg å være falske",
         "At mange kjente funn ikke lot seg gjenskape",
-        "At alle funn ble bekreftet"
+        "At tidsskrifter sluttet å publisere gjentatte studier"
       ],
       "correct": 2,
       "explain": "Særlig på 2010-tallet."
@@ -115,9 +115,9 @@
       "id": "q04",
       "text": "Hva betyr korrelasjon er ikke kausalitet?",
       "options": [
-        "At statistikk alltid er feil",
-        "At to ting aldri henger sammen",
-        "At årsaken alltid er kjent",
+        "At en sammenheng viser at den ene tingen påvirker den andre",
+        "At en sammenheng viser at begge tingene har samme årsak",
+        "At en sammenheng oppstår fordi to ting påvirker hverandre gjensidig",
         "At en sammenheng ikke viser at den ene tingen forårsaker den andre"
       ],
       "correct": 3,
@@ -128,9 +128,9 @@
       "text": "Hva er publiseringsskjevhet?",
       "options": [
         "At positive funn publiseres oftere enn negative",
-        "At forskere skriver på engelsk",
-        "At studier er for lange",
-        "At bare kvinner publiserer"
+        "At positive funn blir vurdert grundigere enn negative funn",
+        "At studier med store utvalg publiseres oftere enn små",
+        "At positive funn får flere sitater enn negative funn"
       ],
       "correct": 0,
       "explain": "Gir et for positivt bilde.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvorfor kan «dobbelt så stor risiko» være misvisende?",
       "options": [
-        "Fordi risiko aldri dobles",
+        "Fordi en dobling betyr at halvparten av gruppen rammes",
         "Fordi den absolutte økningen kan være svært liten",
-        "Fordi det alltid betyr 50 %",
-        "Fordi det er et sitat"
+        "Fordi relativ risiko ikke sier noe om forskjellen mellom gruppene",
+        "Fordi risiko alltid beregnes ut fra hele befolkningen"
       ],
       "correct": 1,
       "explain": "Skill mellom relativ og absolutt risiko.",
@@ -153,10 +153,10 @@
       "id": "q07",
       "text": "Hva er et tiltak mot replikasjonskrisen?",
       "options": [
-        "Mindre utvalg",
-        "Hemmelige data",
+        "Etterregistrering av hypoteser",
+        "Små utvalg av deltakere",
         "Forhåndsregistrering av studier",
-        "Å slutte å publisere"
+        "Selektiv rapportering av funn"
       ],
       "correct": 2,
       "explain": "Også åpne data og flere replikasjoner.",
@@ -166,9 +166,9 @@
       "id": "q08",
       "text": "Hvilket spørsmål bør du stille om en kilde?",
       "options": [
-        "Hvor mange likes den har",
-        "Hvor fin designen er",
-        "Hvor lang den er",
+        "Hvor mange likerklikk kilden har og hvor fin nettsiden ser ut",
+        "Hvor populær nettsiden er og hvor mange som anbefaler den",
+        "Hvor kort teksten er og hvor lett den er å lese",
         "Hvem som er avsender og hva formålet er"
       ],
       "correct": 3,
@@ -179,9 +179,9 @@
       "text": "Hvorfor kan enkelthistorier være problematiske som bevis?",
       "options": [
         "De kan ikke vise hva som gjelder for de fleste",
-        "De er alltid løgn",
-        "De er for korte",
-        "De er ulovlige"
+        "De kan vise hva som gjelder for de fleste i en gruppe",
+        "De kan gi et presist mål på hvor vanlig erfaringen er",
+        "De kan dokumentere at erfaringen gjelder på tvers av grupper"
       ],
       "correct": 0,
       "explain": "Men de kan gi innsikt."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hva bør du lese først i en forskningsartikkel?",
       "options": [
+        "Metodedelen",
+        "Sammendraget",
         "Referanselisten",
-        "Sammendraget – abstract",
-        "Tabellene",
-        "Takkeordene"
+        "Resultatdelen"
       ],
       "correct": 1,
       "explain": "Gir oversikt raskt."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hvilken søketjeneste er laget for norske bibliotek?",
         "options": [
-          "Google Maps",
+          "Google Scholar",
           "Oria",
-          "Spotify",
-          "Finn.no"
+          "WorldCat",
+          "PubMed"
         ],
         "correct": 1,
         "explain": "Finner fagbøker og artikler.",
@@ -329,9 +329,9 @@
         "text": "Hva gjør du når du analyserer en problemstilling ut fra flere kilder?",
         "options": [
           "Sammenstiller, vurderer kvalitet og trekker forsiktige konklusjoner",
-          "Velger kilden du er mest enig i",
-          "Bruker bare én kilde",
-          "Kopierer den første kilden"
+          "Sammenligner bare funn som støtter egen forklaring",
+          "Prioriterer den nyeste kilden framfor eldre kilder",
+          "Slår sammen alle funn til én sikker konklusjon"
         ],
         "correct": 0,
         "explain": "Peker også på enighet og uenighet."
@@ -341,10 +341,10 @@
         "type": "flervalg",
         "text": "Hva var en årsak til replikasjonskrisen?",
         "options": [
-          "For store utvalg",
-          "Åpne data",
+          "Store utvalg og tilfeldig utvelging av studier",
+          "Åpne data og forhåndsregistrering av hypoteser",
           "Små utvalg og selektiv rapportering",
-          "For mange replikasjoner"
+          "Mange replikasjoner og grundig rapportering av metoder"
         ],
         "correct": 2,
         "explain": "Ga tilfeldige funn.",
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

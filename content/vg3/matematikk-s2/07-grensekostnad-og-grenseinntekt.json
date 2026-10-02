@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er grensekostnaden?",
       "options": [
-        "Den totale kostnaden",
-        "K′(x) – omtrent kostnaden for én enhet til",
-        "K(x)/x",
-        "Den faste kostnaden"
+        "Grensekostnaden er K(x), den samlede kostnaden ved x enheter.",
+        "Grensekostnaden er K′(x), omtrent kostnaden ved å produsere én enhet til.",
+        "Grensekostnaden er K(x)/x, kostnaden per produsert enhet.",
+        "Grensekostnaden er den faste kostnaden, som ikke avhenger av produksjonen."
       ],
       "correct": 1,
       "explain": "Kostnaden ved neste enhet."
@@ -89,10 +89,10 @@
       "id": "q02",
       "text": "Når er overskuddet størst?",
       "options": [
-        "Når I′(x) = K′(x)",
-        "Når K(x) = 0",
-        "Når I(x) = 0",
-        "Når x er størst mulig"
+        "Når grenseinntekten I′(x) er lik grensekostnaden K′(x).",
+        "Når totalkostnaden K(x) er lik null.",
+        "Når totalinntekten I(x) er lik null.",
+        "Når produksjonen x er størst mulig."
       ],
       "correct": 0,
       "explain": "O′(x) = 0."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva er grenseinntekten ved fast pris 150 kr?",
       "options": [
-        "0",
-        "150x",
+        "0 kr",
+        "150x kr",
         "150 kr",
-        "Umulig å si"
+        "150/x kr"
       ],
       "correct": 2,
       "explain": "I(x) = 150x gir I′(x) = 150."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Med K′(x) = 0,04x + 50 og pris 150 kr, hvilken x gir størst overskudd?",
       "options": [
-        "1000",
-        "5000",
-        "150",
-        "2500"
+        "1000 enheter",
+        "5000 enheter",
+        "150 enheter",
+        "2500 enheter"
       ],
       "correct": 3,
       "explain": "150 = 0,04x + 50."
@@ -139,7 +139,7 @@
       "options": [
         "Når K(x) = 0",
         "Når A(x) = K′(x)",
-        "Når I′ = K′",
+        "Når I′(x) = K′(x)",
         "Når x = 0"
       ],
       "correct": 1,
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva betyr I′(x) > K′(x)?",
       "options": [
-        "Det lønner seg å redusere produksjonen",
-        "Bedriften går med tap",
-        "Det lønner seg å øke produksjonen",
-        "Prisen er for lav"
+        "Det lønner seg å redusere produksjonen.",
+        "Grenseinntekten er lik grensekostnaden.",
+        "Det lønner seg å øke produksjonen.",
+        "Bedriften taper penger på neste enhet."
       ],
       "correct": 2,
       "explain": "Neste enhet gir mer enn den koster."
@@ -161,10 +161,10 @@
       "id": "q08",
       "text": "Hva betyr K′(2000) = 130?",
       "options": [
-        "Totalkostnaden er 130 kr",
-        "Enhetskostnaden er 130 kr",
-        "Overskuddet er 130 kr",
-        "Enhet nummer 2001 koster omtrent 130 kr"
+        "Totalkostnaden ved 2000 enheter er omtrent 130 kr.",
+        "Enhetskostnaden ved 2000 enheter er omtrent 130 kr.",
+        "Overskuddet ved 2000 enheter er omtrent 130 kr.",
+        "Kostnaden ved å produsere enhet nummer 2001 er omtrent 130 kr."
       ],
       "correct": 3,
       "explain": "Grensekostnaden."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva gir ∫ₐᵇ K′(x) dx?",
       "options": [
-        "Overskuddet",
-        "Økningen i kostnad fra a til b enheter",
-        "Grenseinntekten",
-        "Enhetskostnaden"
+        "Inntektsendringen fra a til b enheter",
+        "Kostnadsendringen fra a til b enheter",
+        "Overskuddsendringen fra a til b enheter",
+        "Enhetskostnaden fra a til b enheter"
       ],
       "correct": 1,
       "explain": "Total endring.",
@@ -315,9 +315,9 @@
         "text": "Hvorfor stiger ofte grensekostnaden ved høy produksjon?",
         "options": [
           "Presset kapasitet, overtid og slitasje",
-          "Lavere lønninger",
-          "Færre kunder",
-          "Lavere husleie"
+          "Høyere husleie, dyrere lokaler og større faste kostnader",
+          "Flere kunder, høyere salgspris og økte inntekter",
+          "Lavere lønn, færre arbeidstimer og mindre slitasje"
         ],
         "correct": 0,
         "explain": "Flaskehalser.",
@@ -328,10 +328,10 @@
         "type": "flervalg",
         "text": "Hva er I(x) når prisen er p(x) = 200 − 0,01x?",
         "options": [
-          "200 − 0,01x",
-          "200x",
-          "200x − 0,01x²",
-          "0,01x²"
+          "I(x) = 200 − 0,01x",
+          "I(x) = 200x",
+          "I(x) = 200x − 0,01x²",
+          "I(x) = 0,01x²"
         ],
         "correct": 2,
         "explain": "I(x) = p(x) · x."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva betyr det at markedsføringsmiksen er konsistent?",
       "options": [
-        "At den er billig",
+        "At konkurransemidlene sender motstridige signaler til kundene",
         "At konkurransemidlene henger sammen og passer posisjoneringen",
-        "At den aldri endres",
-        "At den bare bruker reklame"
+        "At pris og produkt ikke passer virksomhetens målgruppe",
+        "At reklamen ikke samsvarer med butikkens utforming"
       ],
       "correct": 1,
       "explain": "Kundene opplever summen."
@@ -89,9 +89,9 @@
       "text": "Hvilken kombinasjon passer en lavpriskjede?",
       "options": [
         "Smalt sortiment, lav pris og enkel innredning",
-        "Høy pris og eksklusive butikker",
-        "Kjente ambassadører og høy pris",
-        "Få butikker og luksusvarer"
+        "Bredt sortiment, høy pris og omfattende butikkservice",
+        "Smalt sortiment, høy pris og eksklusiv butikkinnredning",
+        "Begrenset vareutvalg, høy pris og personlig rådgivning"
       ],
       "correct": 0,
       "explain": "Alt signaliserer lav pris."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er differensiering?",
       "options": [
-        "Å ha lavest pris",
-        "Å satse på alle kunder",
+        "Å tilby lavere pris enn konkurrentene i markedet",
+        "Å dekke behovene til flest mulig kundetyper",
         "Å være annerledes og bedre på noe kundene verdsetter",
-        "Å kutte kostnader"
+        "Å redusere kostnader uten å endre produktet"
       ],
       "correct": 2,
       "explain": "Kundene betaler mer for det unike."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hvilke P-er kommer i tillegg for tjenester?",
       "options": [
-        "Profitt, plan og presse",
-        "Pris og plass",
-        "Produkt og påvirkning",
+        "Produkt, pris og påvirkning",
+        "Produkt, pris og plassering",
+        "Pris, plassering og påvirkning",
         "Personale, prosess og fysiske omgivelser"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva kan skje hvis et luksusmerke selges på tilbud i alle butikker?",
       "options": [
         "Merkevaren kan svekkes",
-        "Merkevaren blir sterkere",
-        "Ingenting",
-        "Prisen stiger"
+        "Merkevaren kan styrkes betydelig",
+        "Merkevaren kan oppnå høyere kvalitet",
+        "Merkevaren kan få høyere status"
       ],
       "correct": 0,
       "explain": "Miksen blir inkonsistent."
@@ -139,7 +139,7 @@
         "Kostnadsledelse",
         "Fokus",
         "Differensiering",
-        "Masseproduksjon"
+        "Bred markedsføring"
       ],
       "correct": 1,
       "explain": "Porters tredje strategi."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvilken miks passer i introduksjonsfasen?",
       "options": [
-        "Kutte all reklame",
-        "Legge ned produktet",
+        "Lav pris for å øke dekningsbidraget",
+        "Lojalitetsprogrammer for å belønne faste kunder",
         "Mye kommunikasjon for å skape kjennskap",
-        "Bare lojalitetsprogrammer"
+        "Begrenset distribusjon for å redusere etterspørselen"
       ],
       "correct": 2,
       "explain": "Kundene må få vite om produktet."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er varepresentasjon?",
       "options": [
-        "Prisen på varene",
-        "Reklame i avisen",
-        "Leveringstiden",
+        "Hvordan varene prises og rabatteres i butikken",
+        "Hvordan varene bestilles og leveres til butikken",
+        "Hvordan varene annonseres og omtales i mediene",
         "Hvordan varene plasseres og presenteres i butikken"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hvorfor er fysiske omgivelser viktige for tjenester?",
       "options": [
         "De gir kunden signaler om kvalitet",
-        "De er billige",
-        "De er lovpålagt",
-        "De erstatter personalet"
+        "De gjør tjenesten enklere å lagre før bruk",
+        "De sikrer at kundene møter samme ansatte hver gang",
+        "De fastsetter hvor mye kunden betaler for tjenesten"
       ],
       "correct": 0,
       "explain": "Tjenesten kan ikke prøves på forhånd."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva kan en liten virksomhet med lite penger satse på?",
       "options": [
-        "Dyr TV-reklame",
+        "Betalt TV-reklame, priskrig og egne butikker overalt",
         "Produkt, service og fortjente medier",
-        "Priskrig med de største",
-        "Eksklusive butikker overalt"
+        "Store rabatter, bred distribusjon og kostbare kampanjer",
+        "Flere utsalgssteder, høyere bemanning og nasjonal reklame"
       ],
       "correct": 1,
       "explain": "Konkurransemidlene må tilpasses ressursene.",
@@ -306,10 +306,10 @@
         "type": "flervalg",
         "text": "Hvor plasseres ofte impulsvarer?",
         "options": [
-          "Bakerst i butikken",
+          "På lageret sammen med reservevarene",
           "Ved kassen",
-          "På lageret",
-          "I nettbutikken"
+          "I butikkens varemottak før utpakking",
+          "I bakrommet sammen med emballasjen"
         ],
         "correct": 1,
         "explain": "Kundene står og venter."
@@ -320,9 +320,9 @@
         "text": "Hvilket tiltak passer i modningsfasen?",
         "options": [
           "Lojalitetsprogram",
-          "Første lansering",
-          "Skape kjennskap fra null",
-          "Stoppe all distribusjon"
+          "Produktlansering",
+          "Kjennskapskampanje",
+          "Avvikling av produktet"
         ],
         "correct": 0,
         "explain": "Konkurransen er hard, og kundene må holdes på."
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hva er et spørsmål du bør stille når du vurderer en virksomhets miks?",
         "options": [
-          "Hvor gammel er daglig leder?",
-          "Hvilken farge har bilene?",
-          "Er konkurransemidlene konsistente med posisjoneringen?",
-          "Hvor mange vinduer har butikken?"
+          "Bør hvert konkurransemiddel planlegges uavhengig av de andre?",
+          "Bør alle konkurransemidlene få like stort budsjett?",
+          "Støtter pris, produkt, plass og påvirkning samme markedsprofil?",
+          "Bør virksomheten bruke høyest mulig pris i alle markeder?"
         ],
         "correct": 2,
         "explain": "Og om miksen passer målgruppen."
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

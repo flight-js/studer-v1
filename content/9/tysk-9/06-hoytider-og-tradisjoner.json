@@ -84,9 +84,9 @@
       "id": "q01",
       "text": "Når får tyske barn julegaver?",
       "options": [
-        "1. juledag",
-        "Julaften, 24. desember",
-        "Nyttårsaften",
+        "25. desember",
+        "24. desember",
+        "31. desember",
         "6. januar"
       ],
       "correct": 1,
@@ -96,9 +96,9 @@
       "id": "q02",
       "text": "Hva skjer på Nikolaustag 6. desember?",
       "options": [
-        "Man tenner julelysene",
-        "Man pynter treet",
-        "Man spiser påskeegg",
+        "Barn får små gaver i sokkene de har hengt opp",
+        "Familier tenner fire lys på adventskransen",
+        "Barn leter etter påskeegg i hagen",
         "Barn får godteri i skoene de har satt fram"
       ],
       "correct": 3,
@@ -109,9 +109,9 @@
       "text": "Hva betyr «Guten Rutsch!»?",
       "options": [
         "Godt nytt år! (sagt før nyttår)",
-        "God tur!",
-        "God jul!",
-        "Lykke til på skiene!"
+        "God tur! (sagt før en reise)",
+        "God jul! (sagt før jul)",
+        "God ferie! (sagt før ferien)"
       ],
       "correct": 0,
       "explain": "Man ønsker hverandre en god «skli» inn i det nye året."
@@ -120,10 +120,10 @@
       "id": "q04",
       "text": "Hva er Tysklands nasjonaldag?",
       "options": [
-        "17. mai",
-        "14. juli",
+        "1. mai",
+        "9. november",
         "3. oktober",
-        "1. august"
+        "14. juli"
       ],
       "correct": 2,
       "explain": "Dagen minner om gjenforeningen i 1990.",
@@ -145,10 +145,10 @@
       "id": "q06",
       "text": "Hva gjør barn på Sankt Martin 11. november?",
       "options": [
-        "Kler seg ut som hekser",
-        "Kaster tomater",
-        "Går i tog med lykter",
-        "Hopper over bål"
+        "Barn går fra dør til dør etter godteri",
+        "Barn leter etter påskeegg i hagen",
+        "Barn går i tog med lykter",
+        "Barn tenner lys på adventskransen"
       ],
       "correct": 2,
       "explain": "Barna lager ofte lyktene selv.",
@@ -158,10 +158,10 @@
       "id": "q07",
       "text": "Hva er en «Schultüte»?",
       "options": [
-        "En skolesekk",
-        "En pose med skolemat",
-        "En skoleuniform",
-        "En stor kjegle med godteri og gaver på første skoledag"
+        "En sekk med bøker og skoleutstyr til første skoledag",
+        "En mappe med timeplan og skolepapirer til første skoledag",
+        "En matboks med mat og drikke til første skoledag",
+        "En kjegle med godteri og gaver til første skoledag"
       ],
       "correct": 3,
       "explain": "Den skal gjøre første skoledag litt søtere.",
@@ -171,10 +171,10 @@
       "id": "q08",
       "text": "Hvor ble julesangen «Stille Nacht» (Glade jul) skrevet?",
       "options": [
-        "Norge",
+        "Tyskland",
         "Østerrike",
-        "Sverige",
-        "England"
+        "Sveits",
+        "Tsjekkia"
       ],
       "correct": 1,
       "explain": "Sangen ble skrevet i 1818.",
@@ -197,7 +197,7 @@
       "id": "q10",
       "text": "Hvordan gratulerer du med dagen på tysk?",
       "options": [
-        "Alles Gute zum Geburtstag!",
+        "Herzlichen Glückwunsch!",
         "Guten Appetit!",
         "Frohe Ostern!",
         "Gute Nacht!"
@@ -349,9 +349,9 @@
         "text": "Hva er «der Adventskranz»?",
         "options": [
           "En krans med fire lys",
-          "En julekake",
-          "En julesang",
-          "En kalender"
+          "En kalender med fire luker",
+          "En kake som spises før jul",
+          "En sang som synges før jul"
         ],
         "correct": 0,
         "explain": "Man tenner ett nytt lys hver adventssøndag."
@@ -361,10 +361,10 @@
         "type": "flervalg",
         "text": "Hvorfor feires Tag der Deutschen Einheit 3. oktober?",
         "options": [
-          "Til minne om slutten på andre verdenskrig",
-          "Fordi det er høstferie",
-          "Til minne om gjenforeningen i 1990",
-          "Fordi Oktoberfest slutter"
+          "Til minne om Berlinmurens bygging i 1961",
+          "Til minne om Vest-Tysklands grunnleggelse i 1949",
+          "Til minne om Tysklands gjenforening i 1990",
+          "Til minne om andre verdenskrigs slutt i 1945"
         ],
         "correct": 2,
         "explain": "Øst- og Vest-Tyskland ble ett land 3. oktober 1990.",
@@ -453,6 +453,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

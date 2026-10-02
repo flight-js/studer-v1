@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva kjennetegner et sekulært livssyn?",
       "options": [
-        "Det bygger på guder",
+        "Det bygger på guddommelige bud og åpenbaringer",
         "Det bygger ikke på guder eller det overnaturlige",
-        "Det har ingen verdier",
-        "Det er alltid religiøst"
+        "Det bygger på hellige tekster og religiøs tradisjon",
+        "Det bygger på en åndelig kraft bak naturen"
       ],
       "correct": 1,
       "explain": "Humanismen er det viktigste i Norge."
@@ -89,9 +89,9 @@
       "text": "Hvem sa at «mennesket er alle tings mål»?",
       "options": [
         "Protagoras",
-        "Luther",
-        "Buddha",
-        "Kant"
+        "Platon",
+        "Sokrates",
+        "Aristoteles"
       ],
       "correct": 0,
       "explain": "Gresk filosof i antikken.",
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva ser sekulære humanister som den beste veien til kunnskap?",
       "options": [
-        "Hellige tekster",
-        "Åpenbaringer",
+        "Hellige tekster, åpenbaringer og religiøs autoritet",
+        "Tradisjon, religiøse ledere og overleverte svar",
         "Fornuft, vitenskap og kritisk tenkning",
-        "Tradisjon alene"
+        "Personlige erfaringer, intuisjon og åndelige tegn"
       ],
       "correct": 2,
       "explain": "Et hovedprinsipp."
@@ -113,9 +113,9 @@
       "id": "q04",
       "text": "Når ble Human-Etisk Forbund stiftet?",
       "options": [
-        "1814",
-        "1905",
-        "1989",
+        "1950",
+        "1969",
+        "1974",
         "1956"
       ],
       "correct": 3,
@@ -127,9 +127,9 @@
       "text": "Hvilken seremoni tilbyr Human-Etisk Forbund?",
       "options": [
         "Humanistisk konfirmasjon",
-        "Dåp",
-        "Nattverd",
-        "Bar mitsva"
+        "Kristen dåp",
+        "Katolsk nattverd",
+        "Jødisk bar mitsva"
       ],
       "correct": 0,
       "explain": "Også navnefest, vigsel og gravferd."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hvordan begrunner humanister moralen?",
       "options": [
-        "I guddommelige bud",
+        "I religiøse bud som formidles gjennom hellige tekster og tradisjoner",
         "I hva som gir gode liv for mennesker og andre levende vesener",
-        "I kongens vilje",
-        "I tilfeldigheter"
+        "I samfunnets tradisjoner og nedarvede skikker fra tidligere generasjoner",
+        "I lover og regler som myndighetene vedtar for samfunnet som helhet"
       ],
       "correct": 1,
       "explain": "Også i menneskerettigheter og empati."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva er religiøs individualisering?",
       "options": [
-        "At alle følger samme kirke",
-        "At staten bestemmer tro",
+        "At folk følger én fast religion og arver dens tro fra familien",
+        "At staten fastsetter en felles religion som innbyggerne følger",
         "At folk setter sammen sin egen tro fra ulike kilder",
-        "At religion forsvinner"
+        "At religiøse institusjoner velger tro og praksis på vegne av folk"
       ],
       "correct": 2,
       "explain": "Typisk for nyreligiøsitet."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er en kritikk mot humanismen?",
       "options": [
-        "At den har for mange guder",
-        "At den forbyr vitenskap",
-        "At den er for religiøs",
+        "At humanismen bygger på troen på flere guder",
+        "At den avviser vitenskapelig kunnskap som grunnlag for etikk",
+        "At den setter religiøse bud foran menneskers erfaring og behov",
         "At det er uklart hvordan den begrunner menneskeverdet uten noe høyere"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva la renessansehumanistene vekt på?",
       "options": [
         "Menneskets muligheter, utdanning og antikke tekster",
-        "Kirkens makt",
-        "Gjenfødelse",
-        "Kongens guddommelige rett"
+        "Kirkens lære, religiøs fromhet og middelalderens teologi",
+        "Ridderskap, militær trening og føydale plikter",
+        "Kongemakt, arverett og guddommelig legitimering"
       ],
       "correct": 0,
       "explain": "1400- og 1500-tallet."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hva deler humanister og religiøse ofte?",
       "options": [
-        "Troen på Gud",
+        "Troen på Gud og hellige åpenbaringer",
         "Verdier som menneskeverd og nestekjærlighet",
-        "Synet på liv etter døden",
-        "Hellige tekster"
+        "Synet på livet etter døden og frelse",
+        "Felles bruk av hellige tekster og bønner"
       ],
       "correct": 1,
       "explain": "Forskjellen ligger i begrunnelsen."
@@ -308,10 +308,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på alternativ spiritualitet?",
         "options": [
-          "Humanistisk konfirmasjon",
+          "Kirkebønn og kristen dåp",
           "Healing og engletro",
-          "Vitenskapelig metode",
-          "Ateisme"
+          "Vitenskapelig forskning og kildekritikk",
+          "Ateisme og humanistisk konfirmasjon"
         ],
         "correct": 1,
         "explain": "Nyreligiøsitet.",
@@ -323,9 +323,9 @@
         "text": "Hvilken periode satte fornuft, vitenskap og menneskerettigheter i sentrum?",
         "options": [
           "Opplysningstiden",
-          "Middelalderen",
-          "Vikingtiden",
-          "Steinalderen"
+          "Renessansen",
+          "Reformasjonen",
+          "Romantikken"
         ],
         "correct": 0,
         "explain": "1700-tallet."
@@ -335,10 +335,10 @@
         "type": "flervalg",
         "text": "Hvilken type etikk er humanistisk etikk ofte orientert mot?",
         "options": [
-          "Guddommelige bud",
-          "Tradisjon alene",
+          "Plikter fastsatt i religiøse bud",
+          "Regler nedarvet gjennom samfunnets tradisjoner",
           "Konsekvenser for de berørte",
-          "Kongens lover"
+          "Lover vedtatt av myndigheter og konger"
         ],
         "correct": 2,
         "explain": "Hva gir best resultat?"
@@ -423,6 +423,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

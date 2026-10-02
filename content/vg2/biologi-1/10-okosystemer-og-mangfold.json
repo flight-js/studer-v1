@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hvilken av disse er en abiotisk faktor?",
       "options": [
-        "Konkurranse",
+        "Beiting",
         "Temperatur",
-        "Predasjon",
-        "Parasittisme"
+        "Konkurranse",
+        "Sykdom"
       ],
       "correct": 1,
       "explain": "Abiotiske faktorer er ikke-levende."
@@ -91,10 +91,10 @@
       "id": "q02",
       "text": "Hva er mutualisme?",
       "options": [
-        "Samliv til gjensidig nytte",
-        "At ett dyr spiser et annet",
-        "At arter konkurrerer",
-        "At en parasitt skader verten"
+        "Et samliv der begge artene har nytte av forholdet",
+        "Et samliv der én art har nytte og den andre ikke påvirkes",
+        "Et samliv der én art har nytte og den andre blir skadet",
+        "Et samliv der artene konkurrerer om de samme ressursene"
       ],
       "correct": 0,
       "explain": "For eksempel sopprot mellom sopp og trær."
@@ -103,10 +103,10 @@
       "id": "q03",
       "text": "Omtrent hvor mye energi går videre fra ett trofisk nivå til det neste?",
       "options": [
-        "100 %",
-        "50 %",
+        "5 %",
+        "20 %",
         "10 %",
-        "1 ‰"
+        "50 %"
       ],
       "correct": 2,
       "explain": "Resten brukes til livsprosesser og blir varme."
@@ -115,10 +115,10 @@
       "id": "q04",
       "text": "Hva er en begrensende faktor?",
       "options": [
-        "Den faktoren det er mest av",
-        "Et rovdyr",
-        "En art som begrenser andre",
-        "Den faktoren som er mest i underskudd"
+        "Den faktoren som organismen trenger i størst samlet mengde",
+        "Den faktoren som varierer mest gjennom året i leveområdet",
+        "Den faktoren som påvirker flest individer i bestanden",
+        "Den faktoren som er mest knapp i forhold til organismens behov"
       ],
       "correct": 3,
       "explain": "Den bestemmer veksten."
@@ -127,10 +127,10 @@
       "id": "q05",
       "text": "Hvorfor er beveren en nøkkelart?",
       "options": [
-        "Den lager dammer som skaper nye leveområder",
-        "Den er det største dyret",
-        "Den spiser alle fisker",
-        "Den er utryddet"
+        "Den bygger dammer som gir flere arter nye leveområder",
+        "Den jakter på fisk og regulerer bestandene i innsjøer",
+        "Den lager hi i bakken som gir små pattedyr skjulesteder",
+        "Den pollinerer blomster langs elvebredden og øker frøsettingen"
       ],
       "correct": 0,
       "explain": "Mange arter drar nytte av dammene.",
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hva gjør nedbryterne?",
       "options": [
-        "Fanger lysenergi",
-        "Bryter ned dødt materiale og frigjør næringsstoffer",
-        "Spiser rovdyr",
-        "Lager oksygen"
+        "De tar opp næringsstoffer fra jorda og lager organisk materiale",
+        "De bryter ned dødt materiale og frigjør næringsstoffer",
+        "De omformer sollys til kjemisk energi og bygger opp biomasse",
+        "De spiser levende planter og overfører energi til rovdyr"
       ],
       "correct": 1,
       "explain": "Bakterier og sopp."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hvor er det biologiske mangfoldet størst?",
       "options": [
-        "I polarområdene",
-        "I ørkener",
+        "I tempererte skoger og på enger",
+        "I ørkener og på høyfjell",
         "I tropiske regnskoger og på korallrev",
-        "På høyfjellet"
+        "I polarområder og på taiga"
       ],
       "correct": 2,
       "explain": "Mye energi, stabilt klima og mange nisjer."
@@ -164,10 +164,10 @@
       "id": "q08",
       "text": "Hva betyr det at naturen har egenverdi?",
       "options": [
-        "At naturen kan selges",
-        "At naturen bare er verdt det vi kan bruke",
-        "At naturen er gratis",
-        "At naturen har verdi i seg selv, uavhengig av nytten for oss"
+        "At naturen har verdi fordi den gir ressurser og tjenester til mennesker",
+        "At naturens verdi bestemmes av hvor mange arter den rommer",
+        "At naturen har verdi når den kan brukes til økonomisk gevinst",
+        "At naturen har verdi i seg selv, uavhengig av nytten for mennesker"
       ],
       "correct": 3,
       "explain": "Knyttet blant annet til dypøkologien."
@@ -176,10 +176,10 @@
       "id": "q09",
       "text": "Hva er forskjellen på energi og stoffer i et økosystem?",
       "options": [
-        "Energien strømmer gjennom, mens stoffene går i kretsløp",
-        "Begge går i kretsløp",
-        "Energien går i kretsløp, stoffene forsvinner",
-        "Det er ingen forskjell"
+        "Energi strømmer gjennom økosystemet, mens stoffer går i kretsløp",
+        "Energi går i kretsløp i økosystemet, mens stoffer strømmer videre",
+        "Energi og stoffer sirkulerer begge mellom organismene og omgivelsene",
+        "Energi og stoffer strømmer gjennom økosystemet uten å bli resirkulert"
       ],
       "correct": 0,
       "explain": "Energien tapes som varme."
@@ -188,10 +188,10 @@
       "id": "q10",
       "text": "Hvem utviklet dypøkologien?",
       "options": [
-        "Carl von Linné",
+        "Ernst Haeckel",
         "Arne Næss",
-        "Charles Darwin",
-        "Rachel Carson"
+        "Aldo Leopold",
+        "Peter Singer"
       ],
       "correct": 1,
       "explain": "En norsk filosof.",
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hvorfor er det få topprovdyr i et økosystem?",
         "options": [
-          "De formerer seg ikke",
+          "Det er lite oksygen tilgjengelig på de øverste trofiske nivåene",
           "Det er lite energi igjen på de øverste trofiske nivåene",
-          "De spiser hverandre",
-          "De trenger ikke mat"
+          "Det finnes få egnede leveområder for arter på øverste nivå",
+          "Det er lite lys tilgjengelig for artene på øverste nivå"
         ],
         "correct": 1,
         "explain": "Bare omtrent 10 % går videre per nivå."
@@ -333,9 +333,9 @@
         "text": "Hvilke tre nivåer omfatter biologisk mangfold?",
         "options": [
           "Gener, arter og økosystemer",
-          "Planter, dyr og sopp",
-          "Land, hav og luft",
-          "Celler, organer og kropper"
+          "Bestander, næringskjeder og leveområder",
+          "Individer, populasjoner og samfunn",
+          "Produsenter, forbrukere og nedbrytere"
         ],
         "correct": 0,
         "explain": "Alle tre er viktige for naturen."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva er en nisje?",
         "options": [
-          "Et hull i et tre",
-          "En gruppe arter",
+          "En arts geografiske utbredelse i økosystemet",
+          "Et område med like miljøforhold i naturen",
           "En arts rolle i økosystemet",
-          "Et naturreservat"
+          "En gruppe individer av samme art i et område"
         ],
         "correct": 2,
         "explain": "Levested, næring og samspill."
@@ -433,6 +433,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

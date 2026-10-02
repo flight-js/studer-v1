@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva gjorde Magna Carta i 1215?",
       "options": [
-        "Innførte demokrati",
+        "Styrket den engelske kongens makt",
         "Begrenset den engelske kongens makt",
-        "Ga kvinner stemmerett",
-        "Avskaffet adelen"
+        "Begrenset den franske kongens makt",
+        "Overførte kongens makt til parlamentet"
       ],
       "correct": 1,
       "explain": "Ga adelen visse rettigheter."
@@ -91,8 +91,8 @@
       "options": [
         "Folkets samtykke",
         "Guds vilje",
-        "Kongens arv",
-        "Militær styrke"
+        "Kongens arverett",
+        "Adelens politiske autoritet"
       ],
       "correct": 0,
       "explain": "Folket kan gjøre opprør mot en tyrann."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva advarte Tocqueville mot?",
       "options": [
-        "Kongemakt",
-        "Maktfordeling",
+        "Kongens enevelde",
+        "Maktens tredeling",
         "Flertallets tyranni",
-        "Kvinners stemmerett"
+        "Politisk korrupsjon"
       ],
       "correct": 2,
       "explain": "At flertallet kan undertrykke minoriteter."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva er skadeprinsippet hos Mill?",
       "options": [
-        "At staten kan begrense alt",
-        "At friheten er uten grenser",
-        "At bare kongen kan bestemme",
-        "At friheten bare kan begrenses for å hindre skade på andre"
+        "Friheten kan begrenses for å beskytte folk mot egne valg",
+        "Friheten kan begrenses for å sikre statens moralske normer",
+        "Friheten kan begrenses når flertallet misliker andres handlinger",
+        "Friheten kan begrenses for å hindre skade på andre"
       ],
       "correct": 3,
       "explain": "Fra Om friheten, 1859."
@@ -126,9 +126,9 @@
       "text": "Hva krevde Mary Wollstonecraft?",
       "options": [
         "Like rettigheter og utdanning for kvinner",
-        "Kongelig enevelde",
-        "Slaveri",
-        "Mindre utdanning"
+        "Kongelig enevelde og tradisjonell oppdragelse for kvinner",
+        "Utdanning for kvinner, men uten like politiske rettigheter",
+        "Separate utdanningsløp og ulike rettigheter for kvinner"
       ],
       "correct": 0,
       "explain": "I 1792.",
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er et eksempel på vanetenkning som hindret demokratiet?",
       "options": [
-        "At alle har like rettigheter",
+        "At kvinner «av natur» hadde samme evner som menn",
         "At kvinner «av natur» var uegnet til politikk",
-        "At makten skal fordeles",
-        "At folket bestemmer"
+        "At politiske rettigheter «av natur» burde gjelde alle voksne",
+        "At makten «av natur» burde deles mellom valgte institusjoner"
       ],
       "correct": 1,
       "explain": "Forestillinger som ble tatt for gitt."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvordan hindret kolonialismen menneskerettighetene?",
       "options": [
-        "Den ga alle rettigheter",
-        "Den hadde ingen betydning",
+        "Kolonistyret ga koloniserte folk de samme rettighetene som europeere",
+        "Kolonimaktene innførte politisk selvstyre i alle sine kolonier",
         "Idealer om frihet og likhet gjaldt ikke for de koloniserte",
-        "Den innførte demokrati overalt"
+        "Europeiske kolonier bygde på idealer om frihet og likhet for alle"
       ],
       "correct": 2,
       "explain": "Rasisme ble brukt som begrunnelse.",
@@ -163,9 +163,9 @@
       "id": "q08",
       "text": "Hva er demokratisk tilbakegang?",
       "options": [
-        "At flere land blir demokratier",
-        "At stemmeretten utvides",
-        "At valgdeltakelsen øker",
+        "At frie medier, domstoler og opposisjon styrkes",
+        "At flere innbyggere får stemmerett og politisk innflytelse",
+        "At flere partier deltar i frie og åpne valg",
         "At frie medier, domstoler og opposisjon svekkes"
       ],
       "correct": 3,
@@ -176,9 +176,9 @@
       "text": "Hva er folkesuverenitet?",
       "options": [
         "At makten tilhører folket",
-        "At kongen har all makt",
-        "At kirken styrer",
-        "At adelen bestemmer"
+        "At makten tilhører den arvelige kongen",
+        "At makten tilhører kirkens religiøse ledere",
+        "At makten tilhører landets jordeiende adel"
       ],
       "correct": 0,
       "explain": "Sentralt hos Rousseau."
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Når kom FNs verdenserklæring om menneskerettighetene?",
       "options": [
-        "1814",
+        "1789",
         "1948",
-        "1989",
-        "1215"
+        "1776",
+        "1966"
       ],
       "correct": 1,
       "explain": "Etter andre verdenskrig."
@@ -319,10 +319,10 @@
         "type": "flervalg",
         "text": "Hvem foreslo maktfordeling?",
         "options": [
-          "Locke",
+          "Rousseau",
           "Montesquieu",
-          "Mill",
-          "Tocqueville"
+          "Hobbes",
+          "Voltaire"
         ],
         "correct": 1,
         "explain": "Lovgivende, utøvende og dømmende makt."
@@ -333,9 +333,9 @@
         "text": "Hvilken maktstruktur ga menn makt over kvinner?",
         "options": [
           "Patriarkatet",
+          "Matriarkatet",
           "Parlamentarismen",
-          "Folkesuvereniteten",
-          "Maktfordelingen"
+          "Stenderordningen"
         ],
         "correct": 0,
         "explain": "I familie, arbeidsliv og politikk."
@@ -345,10 +345,10 @@
         "type": "flervalg",
         "text": "Hva kan store økonomiske forskjeller gjøre med demokratiet?",
         "options": [
-          "Styrke likheten",
-          "Fjerne all innflytelse",
+          "Gi alle samfunnsgrupper samme politiske innflytelse",
+          "Koble økonomiske ressurser fra politisk påvirkning",
           "Gi noen mer innflytelse enn andre",
-          "Ingen ting"
+          "Fordele politisk innflytelse jevnt mellom innbyggerne"
         ],
         "correct": 2,
         "explain": "Et hinder i dag."
@@ -434,6 +434,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

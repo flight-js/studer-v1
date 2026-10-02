@@ -73,7 +73,8 @@
     },
     {
       "term": "Collocation",
-      "def": "Words that naturally go together: heavy rain, make a mistake."
+      "def": "Words that naturally go together: heavy rain, make a mistake.",
+      "niva": "over-niva"
     },
     {
       "term": "Idiom",
@@ -126,9 +127,9 @@
       "text": "Which sentence has correct English word order?",
       "options": [
         "Yesterday I went to the cinema.",
-        "Yesterday went I to the cinema.",
-        "Yesterday to the cinema I went.",
-        "I yesterday went to the cinema to."
+        "Yesterday I to the cinema went.",
+        "Yesterday I went the cinema to.",
+        "Yesterday went to the cinema I."
       ],
       "correct": 0,
       "explain": "English keeps subject + verb even when the sentence starts with a time expression."
@@ -138,9 +139,9 @@
       "text": "How do you make “She likes fish” negative?",
       "options": [
         "She not likes fish.",
-        "She don't like fish.",
+        "She doesn't liking fish.",
         "She doesn't like fish.",
-        "She likes not fish."
+        "She don't likes fish."
       ],
       "correct": 2,
       "explain": "Most verbs need do-support in negatives. With he/she/it we use “does not” (doesn't) + the base form."
@@ -151,7 +152,7 @@
       "options": [
         "walk",
         "walks",
-        "walking",
+        "walked",
         "is walk"
       ],
       "correct": 1,
@@ -161,22 +162,22 @@
       "id": "q04",
       "text": "Which sentence is correct?",
       "options": [
-        "I saw him yesterday.",
-        "I have seen him yesterday.",
-        "I have see him yesterday.",
-        "I seen him yesterday."
+        "I am knowing the answer.",
+        "I know the answer.",
+        "I knowing the answer.",
+        "I knows the answer."
       ],
-      "correct": 0,
-      "explain": "“Yesterday” is a finished time, so we need the past simple: I saw him yesterday."
+      "correct": 1,
+      "explain": "“Know” is a stative verb and is not normally used in the continuous form."
     },
     {
       "id": "q05",
       "text": "Choose the correct form: “We … here since 2020.”",
       "options": [
-        "live",
-        "lived",
+        "have live",
+        "has lived",
         "have lived",
-        "are live"
+        "are living"
       ],
       "correct": 2,
       "explain": "An action that started in the past and continues now, with “since”, uses the present perfect."
@@ -185,10 +186,10 @@
       "id": "q06",
       "text": "Why is it smart to learn words in context?",
       "options": [
-        "Because it is faster to write",
+        "Because word lists show spelling but not how words work in sentences",
         "Because words are easier to remember and use correctly in a sentence",
-        "Because lists are forbidden",
-        "Because context words are shorter"
+        "Because translating each word first makes its use clear in sentences",
+        "Because copying a word several times makes its meaning clear in sentences"
       ],
       "correct": 1,
       "explain": "In a sentence you see how the word is used, which helps you remember it and use it correctly."
@@ -197,10 +198,10 @@
       "id": "q07",
       "text": "What is a risk with translation tools?",
       "options": [
-        "They are always correct",
-        "They can translate word by word and choose the wrong meaning",
-        "They only work in Norwegian",
-        "They make texts shorter"
+        "They translate full sentences by keeping the same word order in English",
+        "They can miss context and choose a meaning that does not fit",
+        "They can explain which grammar rule caused each translation choice",
+        "They translate sentences by checking each word's dictionary meaning separately"
       ],
       "correct": 1,
       "explain": "Translation tools can miss the context. Always check if the result sounds natural."
@@ -209,10 +210,10 @@
       "id": "q08",
       "text": "What is the climax of a story?",
       "options": [
-        "The first sentence",
-        "The list of characters",
-        "The most exciting moment and turning point",
-        "The author's name"
+        "The opening scene that introduces the main characters",
+        "The final scene where the main problem is solved",
+        "The story’s most exciting moment and turning point",
+        "A quiet scene that describes the setting and mood"
       ],
       "correct": 2,
       "explain": "The climax is where the tension is highest and something important changes."
@@ -221,9 +222,9 @@
       "id": "q09",
       "text": "Which sentence “shows” rather than “tells”?",
       "options": [
-        "She was very nervous.",
-        "He was sad.",
-        "They were happy.",
+        "She felt nervous as she carefully opened the letter.",
+        "He felt sad when he read the message.",
+        "They were happy when their team won the game.",
         "Her hands were shaking as she opened the letter."
       ],
       "correct": 3,
@@ -233,10 +234,10 @@
       "id": "q10",
       "text": "What is a lingua franca?",
       "options": [
-        "A French dialect",
+        "A language spoken by most people in one country",
         "A shared language between people with different first languages",
-        "An old form of English",
-        "A type of accent"
+        "A language used mainly in formal settings",
+        "A language used by people who share one first language"
       ],
       "correct": 1,
       "explain": "English often works as a lingua franca, for example when a Norwegian and a Japanese person talk together."
@@ -245,9 +246,9 @@
       "id": "q11",
       "text": "Is British English more correct than American English?",
       "options": [
-        "Yes, always",
-        "Only in writing",
-        "Only in the UK",
+        "Yes, British English is more correct in formal writing",
+        "Yes, American English is more correct in everyday speech",
+        "Yes, one variety is more correct in international communication",
         "No, they are equally correct varieties"
       ],
       "correct": 3,
@@ -257,9 +258,9 @@
       "id": "q12",
       "text": "What is the difference between Great Britain and the UK?",
       "options": [
-        "They are exactly the same",
-        "Great Britain is bigger than the UK",
-        "The UK is only England",
+        "Great Britain also includes Northern Ireland",
+        "The UK also includes the Isle of Man",
+        "Great Britain also includes the Republic of Ireland",
         "The UK also includes Northern Ireland"
       ],
       "correct": 3,
@@ -270,9 +271,9 @@
       "text": "What type of government does the UK have?",
       "options": [
         "A constitutional monarchy",
-        "A dictatorship",
-        "A republic with a president",
-        "An absolute monarchy"
+        "A parliamentary republic",
+        "An absolute monarchy",
+        "A presidential republic"
       ],
       "correct": 0,
       "explain": "The King is head of state, but Parliament and the government hold the political power.",
@@ -407,7 +408,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -429,10 +430,10 @@
         "type": "flervalg",
         "text": "Which question is correct?",
         "options": [
-          "Like you pizza?",
+          "Do you likes pizza?",
           "Do you like pizza?",
-          "You like pizza do?",
-          "Does you like pizza?"
+          "Do likes you pizza?",
+          "Do you pizza like?"
         ],
         "correct": 1,
         "explain": "Questions with most verbs need “do” before the subject: Do you like pizza?"
@@ -548,12 +549,86 @@
           "Says to use one spelling variety consistently.",
           "Gives “colour” as the British spelling."
         ]
+      },
+      {
+        "text": "A student writes: “Yesterday went I to an university.” Rewrite the sentence correctly and explain the word-order and article corrections.",
+        "fasit": "Yesterday I went to a university. In an English statement, the subject comes before the verb even after a time expression. We use “a” before “university” because it begins with a “you” sound.",
+        "kriterier": [
+          "Uses subject–verb order: “Yesterday I went”.",
+          "Uses “a university” because the first sound is a consonant sound."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Jade plays tennis every Saturday. At this moment, she is on the court playing. Rewrite these ideas as two correct sentences, using a tense that fits each situation.",
+        "fasit": "Jade plays tennis every Saturday. She is playing tennis right now.",
+        "kriterier": [
+          "Uses the present simple for a routine and adds -s with “she”.",
+          "Uses am/is/are + verb-ing for something happening now."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "A student writes the sentence “Because the team missed the bus.” Explain why it is not a complete sentence on its own, then add a main clause to make it complete.",
+        "fasit": "It is a subordinate clause, so it cannot stand alone as a complete sentence. Because the team missed the bus, they arrived late.",
+        "kriterier": [
+          "Explains that a subordinate clause cannot stand alone.",
+          "Adds a main clause that can stand alone and completes the meaning."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "Ben has arranged to meet his friend at six. He looks at dark clouds and thinks rain is coming soon. Write a sentence for each situation using a suitable future form, and explain why each form fits.",
+        "fasit": "Ben is meeting his friend at six. It is going to rain soon. The present continuous can describe a fixed arrangement, while “going to” can describe something that seems likely from what we can see.",
+        "kriterier": [
+          "Uses the present continuous for the fixed arrangement.",
+          "Uses “be going to” for the prediction based on visible signs."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "In a draft, a spellchecker finds one misspelled word but does not flag “their” where the writer means “there”. Explain how a spellchecker and a dictionary could help the writer check the draft.",
+        "fasit": "A spellchecker can find many misspellings, but it may not notice a correctly spelled word used with the wrong meaning. A dictionary can give meanings and example sentences, which can help the writer check whether “there” fits.",
+        "kriterier": [
+          "Explains that a spellchecker can find many spelling mistakes but may miss a correctly spelled wrong word.",
+          "Explains that a dictionary’s meanings or examples can help check word choice."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Rewrite this exchange using English dialogue formatting: Tom said, Where are you going? I said Nowhere.",
+        "fasit": "Tom asked, “Where are you going?”\nI replied, “Nowhere.”",
+        "kriterier": [
+          "Puts the spoken words in quotation marks.",
+          "Starts a new line when the speaker changes."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "A school poster says that Edinburgh is the capital of the UK and that Wales has no capital. Correct both statements and name the capital of Northern Ireland.",
+        "fasit": "London is the capital of the UK, and Cardiff is the capital of Wales. Belfast is the capital of Northern Ireland.",
+        "kriterier": [
+          "Identifies London as the capital of the UK and Cardiff as the capital of Wales.",
+          "Identifies Belfast as the capital of Northern Ireland."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "A Norwegian company uses English for research and business. Explain one opportunity this can give people in Norway and one concern people may have about English in these areas.",
+        "fasit": "Using English can help people in Norway study, work and communicate internationally. One concern is domain loss, where English may push Norwegian aside in areas such as research and business.",
+        "kriterier": [
+          "Gives an opportunity such as studying, working or communicating internationally.",
+          "Explains domain loss as English pushing Norwegian aside in areas such as research or business."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

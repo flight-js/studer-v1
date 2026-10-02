@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er riktig refleksivt pronomen? «Wir freuen ___ auf das Wochenende.»",
       "options": [
-        "sich",
+        "mich",
         "uns",
         "euch",
-        "mich"
+        "sich"
       ],
       "correct": 1,
       "explain": "Wir → uns."
@@ -89,22 +89,22 @@
       "id": "q02",
       "text": "Hva betyr «sich freuen auf»?",
       "options": [
-        "glede seg til noe som kommer",
-        "glede seg over noe som har skjedd",
-        "bli sint",
-        "føle seg trøtt"
+        "å glede seg til noe som kommer",
+        "å være glad for noe som har skjedd",
+        "å bekymre seg for noe som kommer",
+        "å være fornøyd med det man allerede har"
       ],
       "correct": 0,
-      "explain": "sich freuen über brukes om noe som har skjedd."
+      "explain": "sich freuen auf brukes om noe man ser fram til."
     },
     {
       "id": "q03",
       "text": "Hvilken preposisjon hører til «sich interessieren»?",
       "options": [
-        "auf",
+        "an",
         "mit",
         "für",
-        "vor"
+        "um"
       ],
       "correct": 2,
       "explain": "Er interessiert sich für Musik."
@@ -126,20 +126,20 @@
       "text": "Hva betyr «schüchtern»?",
       "options": [
         "sjenert",
-        "sint",
-        "sulten",
-        "selvsikker"
+        "selvsikker",
+        "utålmodig",
+        "utadvendt"
       ],
       "correct": 0,
-      "explain": "Det motsatte er selbstbewusst."
+      "explain": "Schüchtern beskriver en person som er sjenert."
     },
     {
       "id": "q06",
       "text": "Hvordan sier du «Jeg kommer godt overens med broren min»?",
       "options": [
-        "Ich verstehe gut meinen Bruder.",
+        "Ich verstehe meinen Bruder wirklich gut.",
         "Ich verstehe mich gut mit meinem Bruder.",
-        "Ich bin gut mit mein Bruder.",
+        "Ich komme gut mit meinen Bruder aus.",
         "Ich verstehe mir gut mit meinem Bruder."
       ],
       "correct": 1,
@@ -162,9 +162,9 @@
       "text": "Hva betyr «Wir haben uns gestritten»?",
       "options": [
         "Vi har møtt hverandre.",
-        "Vi har forelsket oss.",
+        "Vi har forstått hverandre.",
         "Vi har hjulpet hverandre.",
-        "Vi har kranglet."
+        "Vi har hatt en krangel."
       ],
       "correct": 3,
       "explain": "sich streiten = krangle."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Velg riktig: «Die Jacke gefällt ___.» (henne)",
       "options": [
-        "sie",
+        "ihm",
         "ihr",
-        "ihn",
-        "sich"
+        "ihnen",
+        "sie"
       ],
       "correct": 1,
       "explain": "gefallen tar dativ: ihr."
@@ -307,9 +307,9 @@
         "text": "Hva betyr «zuverlässig»?",
         "options": [
           "pålitelig",
+          "forsiktig",
           "utålmodig",
-          "lat",
-          "stille"
+          "selvsikker"
         ],
         "correct": 0,
         "explain": "En zuverlässige Freundin holder det hun lover."
@@ -320,9 +320,9 @@
         "text": "Velg riktig: «Ich fühle ___ heute gut.»",
         "options": [
           "mir",
-          "mein",
+          "dich",
           "mich",
-          "ich"
+          "sich"
         ],
         "correct": 2,
         "explain": "sich fühlen: ich fühle mich."
@@ -332,10 +332,10 @@
         "type": "flervalg",
         "text": "Hva betyr «sich verlieben in»?",
         "options": [
-          "glede seg over",
-          "forelske seg i",
-          "krangle med",
-          "møte"
+          "å glede seg over",
+          "å forelske seg i",
+          "å bli kjent med",
+          "å krangle med"
         ],
         "correct": 1,
         "explain": "Er hat sich in sie verliebt."
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hva viste Aschs eksperimenter?",
       "options": [
-        "At folk alltid svarer riktig",
+        "At deltakerne blir flinkere til å bedømme linjer ved å diskutere dem sammen",
         "At mange følger flertallet selv når svaret er åpenbart feil",
-        "At autoriteter alltid adlydes",
-        "At grupper tar bedre beslutninger"
+        "At deltakerne endrer svar etter å ha fått ny kunnskap fra flertallet",
+        "At forsøkslederen bestemmer deltakernes svar gjennom direkte ordre"
       ],
       "correct": 1,
       "explain": "Konformitet."
@@ -89,9 +89,9 @@
       "text": "Hva handlet Milgrams eksperimenter om?",
       "options": [
         "Lydighet mot autoritet",
-        "Hukommelse",
-        "Søvn",
-        "Persepsjon"
+        "Konformitet under gruppepress",
+        "Tilpasning til fengselsroller",
+        "Reduksjon av kognitiv dissonans"
       ],
       "correct": 0,
       "explain": "Deltakerne trodde de ga elektriske støt."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva er gruppetenkning?",
       "options": [
-        "At grupper tenker raskere",
-        "At alle i gruppen er smarte",
+        "At gruppen velger mer ekstreme standpunkter etter diskusjon",
+        "At medlemmene lærer gruppens normer gjennom observasjon",
         "At jakten på enighet hindrer kritisk tenkning",
-        "At grupper aldri er enige"
+        "At gruppen vurderer flere alternativer grundigere enn enkeltpersoner"
       ],
       "correct": 2,
       "explain": "Beskrevet av Janis."
@@ -112,10 +112,10 @@
       "id": "q04",
       "text": "Hva er kognitiv dissonans?",
       "options": [
-        "God hukommelse",
-        "Glede ved å lære",
-        "Frykt for grupper",
-        "Ubehag når handlinger og holdninger krasjer"
+        "Glede når egne handlinger samsvarer med holdningene",
+        "Frykt for å bli avvist av gruppen",
+        "Uro når andre uttrykker holdninger som avviker fra ens egne",
+        "Ubehag når egne handlinger strider mot holdningene"
       ],
       "correct": 3,
       "explain": "Festinger."
@@ -124,10 +124,10 @@
       "id": "q05",
       "text": "Hva gjør at konformiteten synker i Asch-forsøkene?",
       "options": [
-        "At minst én annen er uenig",
-        "At gruppen er større",
-        "At oppgaven er vanskeligere",
-        "At forsøkslederen er streng"
+        "At én annen deltaker gir et avvikende svar",
+        "At flertallet i gruppen blir større",
+        "At flertallet svarer enstemmig",
+        "At deltakerne svarer høyt foran gruppen"
       ],
       "correct": 0,
       "explain": "Én alliert er nok."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva sier teorien om sosial identitet?",
       "options": [
-        "At vi ikke påvirkes av grupper",
+        "At identiteten vår utvikles uavhengig av gruppene vi tilhører",
         "At vi henter en del av selvfølelsen fra gruppene vi tilhører",
-        "At alle grupper er like",
-        "At identitet bare er biologisk"
+        "At vi henter selvfølelsen fra personlige prestasjoner framfor gruppetilhørighet",
+        "At gruppetilhørighet påvirker atferden vår, men ikke selvoppfatningen"
       ],
       "correct": 1,
       "explain": "Tajfel."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hva sier kontakthypotesen?",
       "options": [
-        "At kontakt alltid øker fordommer",
-        "At man bør unngå andre grupper",
-        "At positiv kontakt under like vilkår kan redusere fordommer",
-        "At kontakt ikke har betydning"
+        "At positiv kontakt mellom grupper på ulike vilkår kan redusere fordommer",
+        "At konkurranse mellom grupper på like vilkår kan redusere fordommer",
+        "At positiv kontakt mellom grupper på like vilkår kan redusere fordommer",
+        "At kontakt innenfor samme gruppe kan redusere fordommer mot andre grupper"
       ],
       "correct": 2,
       "explain": "Viktig for integrering.",
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er normativ påvirkning?",
       "options": [
-        "Å følge gruppen fordi de vet bedre",
-        "Å følge loven",
-        "Å følge egne verdier",
+        "Å følge gruppen fordi medlemmene har mer kunnskap",
+        "Å følge regler for å unngå reaksjoner fra autoriteter",
+        "Å handle i tråd med egne verdier framfor gruppens forventninger",
         "Å følge gruppen for å bli likt"
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hvorfor er Stanford-fengselseksperimentet kritisert?",
       "options": [
         "For metodiske svakheter og påvirkning fra forsøkslederne",
-        "Fordi det var for kort",
-        "Fordi det ble gjort i Norge",
-        "Fordi ingen deltok"
+        "For at forsøket ble gjennomført i et faktisk fengsel med innsatte",
+        "For at forskerne målte lydighet mot lærere i et laboratorium",
+        "For at deltakerne svarte på spørreskjema i stedet for å spille roller"
       ],
       "correct": 0,
       "explain": "Konklusjonene er omstridt.",
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hva er de tre komponentene i en holdning?",
       "options": [
-        "Arv, miljø og tid",
+        "Arv, miljø og personlighet",
         "Kognitiv, affektiv og atferdsmessig",
-        "Normer, roller og regler",
-        "Syn, hørsel og lukt"
+        "Normer, roller og grupperegler",
+        "Motivasjon, hukommelse og persepsjon"
       ],
       "correct": 1,
       "explain": "Tanker, følelser og handling."
@@ -305,10 +305,10 @@
         "type": "flervalg",
         "text": "Hva kan algoritmer i sosiale medier forsterke?",
         "options": [
-          "Hukommelse",
+          "Hukommelse gjennom sosial sammenligning",
           "Polarisering gjennom ekkokamre",
-          "Søvnkvalitet",
-          "Konsentrasjon"
+          "Søvnkvalitet gjennom gruppetilhørighet",
+          "Konsentrasjon gjennom konformitet"
         ],
         "correct": 1,
         "explain": "Man ser mest av det man er enig i."
@@ -331,10 +331,10 @@
         "type": "flervalg",
         "text": "Hvordan kan man redusere kognitiv dissonans?",
         "options": [
-          "Ved å glemme alt",
-          "Ved å sove",
+          "Ved å vente på at ubehaget forsvinner uten å endre noe",
+          "Ved å endre gruppens regler uten å endre egne handlinger",
           "Ved å endre atferd, endre holdning eller bortforklare",
-          "Det er umulig"
+          "Ved å analysere andres holdninger i stedet for egne valg"
         ],
         "correct": 2,
         "explain": "Tre strategier."
@@ -419,6 +419,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

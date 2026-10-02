@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "12 av 30 elever sykler til skolen. Hva er den relative frekvensen?",
       "options": [
-        "12 %",
+        "20 %",
         "40 %",
         "30 %",
-        "0,12"
+        "60 %"
       ],
       "correct": 1,
       "explain": "12/30 = 0,40."
@@ -88,9 +88,9 @@
       "text": "Hvilket diagram passer best for å vise utvikling over tid?",
       "options": [
         "Linjediagram",
-        "Sektordiagram",
-        "Stolpediagram",
-        "Histogram"
+        "Punktdiagram",
+        "Histogram",
+        "Sektordiagram"
       ],
       "correct": 0,
       "explain": "Linjen viser endringen."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er et representativt utvalg?",
       "options": [
-        "Et stort utvalg",
-        "Et utvalg av venner",
+        "Et utvalg som er like stort som populasjonen",
+        "Et utvalg som bare består av frivillige",
         "Et utvalg som ligner populasjonen",
-        "Et tilfeldig tall"
+        "Et utvalg som er valgt helt tilfeldig"
       ],
       "correct": 2,
       "explain": "Da kan resultatene overføres til hele gruppen."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hvorfor kan en y-akse som ikke starter på null, være misvisende?",
       "options": [
-        "Den gjør grafen større",
-        "Den gjør tallene feil",
-        "Den fjerner data",
+        "Den får store forskjeller til å se små ut",
+        "Den får verdiene til å virke høyere enn de er",
+        "Den flytter verdiene til andre steder på aksen",
         "Den får små forskjeller til å se store ut"
       ],
       "correct": 3,
@@ -123,10 +123,10 @@
       "id": "q05",
       "text": "Is-salg og drukningsulykker øker begge om sommeren. Hva er forklaringen?",
       "options": [
-        "En tredje faktor – varmt vær",
-        "Is forårsaker drukning",
-        "Drukning forårsaker is-salg",
-        "Tilfeldighet"
+        "Varmt vær påvirker begge tallene.",
+        "Is-salg fører til flere drukningsulykker.",
+        "Drukningsulykker fører til mer is-salg.",
+        "Begge tallene øker fordi de måler samme hendelse."
       ],
       "correct": 0,
       "explain": "Sammenheng er ikke det samme som årsak."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hvilket diagram viser andeler av en helhet?",
       "options": [
-        "Linjediagram",
+        "Stolpediagram",
         "Sektordiagram",
-        "Histogram",
-        "Punktdiagram"
+        "Punktdiagram",
+        "Linjediagram"
       ],
       "correct": 1,
       "explain": "Summen av sektorene er 100 %."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva er feilmargin?",
       "options": [
-        "En regnefeil",
-        "En feil i spørsmålet",
+        "Forskjellen mellom svarene i to undersøkelser",
+        "Andelen som ikke svarte på spørsmålene i undersøkelsen",
         "Usikkerheten i en undersøkelse basert på et utvalg",
-        "Forskjellen mellom to diagrammer"
+        "Avstanden mellom største og minste verdi i utvalget"
       ],
       "correct": 2,
       "explain": "Små endringer innenfor feilmarginen er ikke nødvendigvis reelle."
@@ -172,9 +172,9 @@
       "text": "Hva er kumulativ frekvens?",
       "options": [
         "Frekvensene lagt sammen fortløpende",
-        "Den største frekvensen",
-        "Frekvens delt på totalen",
-        "Gjennomsnittet"
+        "Frekvensene delt på summen fortløpende",
+        "Frekvensene sortert etter størrelsen",
+        "Frekvensene ganget sammen fortløpende"
       ],
       "correct": 0,
       "explain": "Den viser hvor mange som har en verdi opp til et visst nivå."
@@ -317,9 +317,9 @@
         "text": "Hvor kan du finne statistikk om din egen kommune?",
         "options": [
           "SSB",
-          "Et underholdningsblad",
-          "En reklameplakat",
-          "En tilfeldig blogg"
+          "NAV",
+          "Udir",
+          "NRK"
         ],
         "correct": 0,
         "explain": "SSB har kommunestatistikk.",
@@ -330,10 +330,10 @@
         "type": "flervalg",
         "text": "Hva er populasjonen i en undersøkelse av alle elever på skolen?",
         "options": [
-          "De som svarte",
+          "Alle som deltok i undersøkelsen",
           "Alle elevene på skolen",
-          "Lærerne",
-          "Klassen din"
+          "Alle lærerne og ansatte på skolen",
+          "Alle elevene i én bestemt klasse"
         ],
         "correct": 1,
         "explain": "Utvalget er de som faktisk ble spurt."
@@ -346,7 +346,7 @@
           "Linjediagram",
           "Histogram",
           "Stolpediagram",
-          "Ingen diagram"
+          "Punktdiagram"
         ],
         "correct": 2,
         "explain": "Transportmiddel er kategorier."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvor jobber de fleste i Norge i dag?",
       "options": [
-        "I jordbruket",
+        "I industrinæringene",
         "I tjenesteytende næringer",
-        "I fiskeriet",
-        "I gruvedrift"
+        "I primærnæringene",
+        "I bygg- og anleggsbransjen"
       ],
       "correct": 1,
       "explain": "Helse, utdanning, handel og IT er eksempler."
@@ -89,9 +89,9 @@
       "text": "Hva er trepartssamarbeidet?",
       "options": [
         "Samarbeid mellom arbeidstakere, arbeidsgivere og staten",
-        "Samarbeid mellom tre partier",
-        "Samarbeid mellom tre land",
-        "Samarbeid mellom kommune, fylke og stat"
+        "Samarbeid mellom kommune, fylke og stat",
+        "Samarbeid mellom politiske partier, velgere og staten",
+        "Samarbeid mellom arbeidsgivere, kunder og kommunen"
       ],
       "correct": 0,
       "explain": "Det er en av søylene i den nordiske modellen."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva kjennetegner universelle velferdsordninger?",
       "options": [
-        "De gjelder bare fattige",
-        "De er private",
-        "De gjelder alle",
-        "De må betales av brukerne"
+        "De gjelder lavinntektsgrupper",
+        "De gjelder betalende brukere",
+        "De gjelder hele befolkningen",
+        "De gjelder fagforeningsmedlemmer"
       ],
       "correct": 2,
       "explain": "Gratis skole er et eksempel."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er eldrebølgen?",
       "options": [
-        "En type bølge i havet",
-        "At det fødes flere barn",
-        "At eldre flytter til utlandet",
+        "At andelen barn i befolkningen øker",
+        "At gjennomsnittsalderen i befolkningen synker",
+        "At eldre flytter fra byene til distriktene",
         "At andelen eldre i befolkningen øker"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva måler BNP?",
       "options": [
         "Verdien av alt som produseres i et land",
-        "Hvor lykkelige folk er",
-        "Hvor mye natur et land har",
-        "Hvor mange som bor i et land"
+        "Verdien av alt som forbrukes i et land",
+        "Verdien av alt som importeres til et land",
+        "Verdien av alt som eies av innbyggerne i landet"
       ],
       "correct": 0,
       "explain": "BNP måler ikke fordeling eller livskvalitet."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva er forskjellen på levestandard og livskvalitet?",
       "options": [
-        "Det er det samme",
+        "Levestandard er hvordan folk har det, livskvalitet handler om materielle forhold",
         "Levestandard er materielle forhold, livskvalitet handler om hvordan folk har det",
-        "Livskvalitet måles bare i penger",
-        "Levestandard handler bare om helse"
+        "Levestandard handler om helse, livskvalitet handler om inntekt og forbruk",
+        "Levestandard handler om økonomisk vekst, livskvalitet handler om hvor mye folk eier"
       ],
       "correct": 1,
       "explain": "Høy levestandard gir ikke automatisk høy livskvalitet."
@@ -148,10 +148,10 @@
       "id": "q07",
       "text": "Hvorfor er høy sysselsetting viktig for den nordiske modellen?",
       "options": [
-        "Fordi den gir færre skatteinntekter",
-        "Fordi den gjør velferden unødvendig",
+        "Fordi velferden finansieres av at færre jobber og betaler skatt",
+        "Fordi høy sysselsetting gjør at staten trenger mindre skatteinntekter",
         "Fordi velferden finansieres av at mange jobber og betaler skatt",
-        "Den er ikke viktig"
+        "Fordi høy sysselsetting erstatter behovet for offentlige velferdstjenester"
       ],
       "correct": 2,
       "explain": "Velferdsstaten er avhengig av skatteinntekter."
@@ -160,9 +160,9 @@
       "id": "q08",
       "text": "Hva er en svakhet ved BNP som mål på et godt samfunn?",
       "options": [
-        "Det er vanskelig å regne ut",
-        "Det måler for mye",
-        "Det er bare norsk",
+        "Det måler ikke samlet produksjon, verdiskaping eller økonomisk vekst",
+        "Det måler ikke eksport, import eller innenlandsk produksjon",
+        "Det måler ikke lønninger, forbruk eller investeringer",
         "Det måler ikke fordeling, fritid eller miljøødeleggelser"
       ],
       "correct": 3,
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er grønn vekst?",
       "options": [
-        "Vekst i jordbruket",
+        "Økonomisk vekst med høyere utslipp og ressursbruk",
         "Økonomisk vekst med lavere utslipp og ressursbruk",
-        "At skogene vokser",
-        "At BNP synker"
+        "Økonomisk vekst gjennom økt bruk av naturressurser",
+        "Økonomisk nedgang med lavere utslipp og ressursbruk"
       ],
       "correct": 1,
       "explain": "Det er omdiskutert om grønn vekst er mulig i stor skala."
@@ -325,9 +325,9 @@
         "text": "Hvilken utfordring henger sammen med at flere blir eldre?",
         "options": [
           "Økte utgifter til pensjon, helse og omsorg",
-          "For mange barnehager",
-          "For mange arbeidere",
-          "Lavere skatt"
+          "Økte utgifter til skole, barnehager og samferdsel",
+          "Reduserte utgifter til pensjon, helse og omsorg",
+          "Økte utgifter til arbeidsledighet, bolig og utdanning"
         ],
         "correct": 0,
         "explain": "Det blir færre i arbeid per pensjonist."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva er organisasjonsgrad?",
         "options": [
-          "Hvor ryddig en arbeidsplass er",
+          "Andelen arbeidstakere som er med i en arbeidsgiverorganisasjon",
           "Andelen arbeidstakere som er med i en fagforening",
-          "Antall bedrifter i et land",
-          "Andelen som stemmer ved valg"
+          "Andelen bedrifter som er med i en fagforening",
+          "Andelen arbeidstakere som er med i et politisk parti"
         ],
         "correct": 1,
         "explain": "Norge har høy organisasjonsgrad sammenlignet med mange land."
@@ -350,10 +350,10 @@
         "type": "flervalg",
         "text": "Hva finansierer velferdsstaten i Norge?",
         "options": [
-          "Bare oljefondet",
-          "Bare gebyrer",
+          "Først og fremst oljeinntekter og avkastning",
+          "Først og fremst gebyrer og brukerbetaling",
           "Først og fremst skatter og avgifter",
-          "Private donasjoner"
+          "Først og fremst private gaver og donasjoner"
         ],
         "correct": 2,
         "explain": "Oljeinntekter bidrar også, men skatten er grunnlaget."
@@ -437,6 +437,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

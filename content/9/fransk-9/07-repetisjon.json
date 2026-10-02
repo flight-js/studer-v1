@@ -126,9 +126,9 @@
       "text": "Hva betyr «Je ne mange pas de viande»?",
       "options": [
         "Jeg spiser ikke kjøtt",
-        "Jeg spiser mye kjøtt",
-        "Jeg liker kjøtt",
-        "Jeg har kjøtt"
+        "Jeg spiser litt kjøtt",
+        "Jeg spiser mer kjøtt",
+        "Jeg spiser ikke fisk"
       ],
       "correct": 0,
       "explain": "Etter nektelse blir delingsartikkelen til «de»."
@@ -137,9 +137,9 @@
       "id": "q03",
       "text": "Hvordan sier du «Jeg står opp klokka sju»?",
       "options": [
-        "Je lève à sept heures.",
-        "Je suis lève à sept heures.",
-        "Me je lève à sept heures.",
+        "Je me lever à sept heures.",
+        "Je me lèves à sept heures.",
+        "Je nous lève à sept heures.",
         "Je me lève à sept heures."
       ],
       "correct": 3,
@@ -150,9 +150,9 @@
       "text": "Hvor står refleksivpronomenet i «je me couche»?",
       "options": [
         "Etter verbet",
-        "Til slutt i setningen",
+        "Etter objektet",
         "Foran verbet",
-        "Det finnes ikke"
+        "Før subjektet"
       ],
       "correct": 2,
       "explain": "På fransk står det foran verbet."
@@ -161,10 +161,10 @@
       "id": "q05",
       "text": "Hvorfor heter det «au musée», men «à la gare»?",
       "options": [
-        "Fordi museet er større",
-        "Fordi «musée» er hankjønn og «gare» hunkjønn",
-        "Fordi gare er et sted",
-        "Det er tilfeldig"
+        "Fordi «musée» er hunkjønn, mens «gare» er hankjønn",
+        "Fordi «musée» er hankjønn, mens «gare» er hunkjønn",
+        "Fordi «musée» og «gare» er hankjønn",
+        "Fordi «musée» og «gare» er hunkjønn"
       ],
       "correct": 1,
       "explain": "à + le blir au, mens à + la ikke endres."
@@ -176,7 +176,7 @@
         "Til fots",
         "Med bil",
         "Med sykkel",
-        "Med tog"
+        "Med buss"
       ],
       "correct": 0,
       "explain": "«le pied» betyr foten."
@@ -233,10 +233,10 @@
       "id": "q11",
       "text": "Hva er «le réveillon»?",
       "options": [
-        "En julesang",
-        "Et stort festmåltid på julaften og nyttårsaften",
-        "En vekkerklokke",
-        "En kirke"
+        "En frokost på første juledag og nyttårsdag",
+        "Et festmåltid på julaften og nyttårsaften",
+        "Et kirkebesøk på julaften og nyttårsaften",
+        "En gaveutdeling på julaften og nyttårsaften"
       ],
       "correct": 1,
       "explain": "Måltidet kan vare langt ut på natta.",
@@ -246,9 +246,9 @@
       "id": "q12",
       "text": "Hvilken dag er Frankrikes nasjonaldag?",
       "options": [
-        "17. mai",
         "1. mai",
-        "25. desember",
+        "11. november",
+        "8. mai",
         "14. juli"
       ],
       "correct": 3,
@@ -380,7 +380,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -401,10 +401,10 @@
         "type": "flervalg",
         "text": "Hva betyr «de l'eau»?",
         "options": [
-          "Vannet",
+          "Vannet i glasset",
           "Noe vann",
-          "Ikke vann",
-          "Mye vann"
+          "Mye av vannet",
+          "Alt vannet"
         ],
         "correct": 1,
         "explain": "Delingsartikkelen viser en ubestemt mengde."
@@ -421,10 +421,10 @@
         "type": "flervalg",
         "text": "Hva betyr «Prenez la deuxième rue à gauche»?",
         "options": [
-          "Ta den første gata til høyre",
-          "Gå to kvartaler rett fram",
+          "Ta den andre gata til høyre",
+          "Ta den første gata til venstre",
           "Ta den andre gata til venstre",
-          "Kryss gata to ganger"
+          "Ta den tredje gata til venstre"
         ],
         "correct": 2,
         "explain": "«deuxième» betyr andre."
@@ -451,7 +451,7 @@
           "la Toussaint",
           "la Chandeleur",
           "la Saint-Sylvestre",
-          "le 14 juillet"
+          "le réveillon de Noël"
         ],
         "correct": 2,
         "explain": "Dagen er oppkalt etter pave Silvester.",
@@ -503,7 +503,8 @@
           "Bruker passé composé til å fortelle om hendelsene.",
           "Har med Paris, familien, Eiffeltårnet, crêpes og kino.",
           "Bruker C'était super eller tilsvarende fra teksten."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -532,12 +533,92 @@
           "Bruker uttrykkene for å lete etter en jakke og spørre om å prøve den.",
           "Bruker Je la prends med riktig pronomen for la veste."
         ]
+      },
+      {
+        "text": "Forklar på fransk når franskmenn ofte spiser lunsj, og nevn minst to deler av et typisk lunsjmåltid.",
+        "fasit": "En France, on déjeune vers midi ou une heure. Le déjeuner peut comprendre une entrée, un plat principal, du fromage et un dessert.",
+        "kriterier": [
+          "Oppgir at lunsjen ofte spises rundt klokka tolv–ett.",
+          "Nevner minst to deler av lunsjmåltidet."
+        ],
+        "id": "s09",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Fortell på fransk hva du gjør etter skolen og om kvelden. Ta med en oppgave du gjør hjemme, og bruk ord som viser rekkefølge.",
+        "fasit": "Après l'école, je fais mes devoirs. Ensuite, je fais la vaisselle. Le soir, je regarde la télé et je me couche à dix heures.",
+        "kriterier": [
+          "Nevner en aktivitet etter skolen og en oppgave hjemme.",
+          "Bruker et uttrykk for rekkefølge, for eksempel «ensuite» eller «après»."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Du er i Paris 14. juli. Skriv på fransk hvordan du kommer deg rundt i byen, og fortell om én ting du kan oppleve på nasjonaldagen.",
+        "fasit": "Je prends le métro à Paris. Le 14 juillet, il y a un défilé militaire sur les Champs-Élysées et des feux d'artifice.",
+        "kriterier": [
+          "Nevner en transportmåte på fransk.",
+          "Forteller om en nasjonaldagsopplevelse, for eksempel militærparaden eller fyrverkeriet."
+        ],
+        "id": "s11",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Fortell på fransk om en feiring rundt 6. januar. Skriv hva dere spiste, og hva som skjer med den som finner den lille figuren i kaka.",
+        "fasit": "Le 6 janvier, nous avons mangé une galette des rois. Mon frère a trouvé la fève et il est devenu roi pour un jour.",
+        "kriterier": [
+          "Nevner galette des rois og den lille figuren, «la fève».",
+          "Forklarer at den som finner figuren, blir konge eller dronning for en dag."
+        ],
+        "id": "s12",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på fransk at du kjøper brukte sko for å spare penger og miljøet. Beskriv skoene med en farge.",
+        "fasit": "J'achète des chaussures noires d'occasion. J'achète des vêtements d'occasion pour économiser de l'argent et protéger l'environnement.",
+        "kriterier": [
+          "Skriver at skoene er brukte, for eksempel «d'occasion».",
+          "Nevner både penger og miljø som grunner til å kjøpe brukt.",
+          "Bøyer fargen riktig til «chaussures»."
+        ],
+        "id": "s13",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Skriv på fransk at du ikke spiser kjøtt, men at du liker fisk. Bruk riktig artikkel etter nektelsen og etter verbet «aimer».",
+        "fasit": "Je ne mange pas de viande, mais j'aime le poisson.",
+        "kriterier": [
+          "Bruker «de» etter «ne … pas».",
+          "Bruker bestemt artikkel etter «aimer», for eksempel «le poisson»."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Fortell på fransk om en fransk påsketradisjon. Skriv hva kirkeklokkene gjør ifølge tradisjonen, og hva barna leter etter.",
+        "fasit": "À Pâques, les cloches partent à Rome et reviennent avec des œufs en chocolat. Les enfants cherchent les œufs dans le jardin.",
+        "kriterier": [
+          "Forteller at kirkeklokkene flyr til Roma og kommer tilbake.",
+          "Nevner sjokoladeegg som barna leter etter i hagen."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "Fortell på fransk om julefeiringen i Frankrike. Nevn en tradisjonell dessert og når barna ofte får gavene sine.",
+        "fasit": "À Noël, on mange souvent la bûche de Noël. Les enfants reçoivent souvent leurs cadeaux dans la nuit du 24 décembre ou le matin du 25 décembre.",
+        "kriterier": [
+          "Nevner «la bûche de Noël» som dessert.",
+          "Forteller at barna ofte får gavene natt til eller om morgenen 25. desember."
+        ],
+        "id": "s16",
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

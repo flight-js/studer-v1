@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva er input i Eastons systemmodell?",
       "options": [
-        "Lover og budsjetter",
+        "Beslutninger og tiltak fra myndighetene",
         "Krav og støtte fra samfunnet",
-        "Domstolenes avgjørelser",
-        "Skatteinntekter"
+        "Politiske resultater og virkninger i samfunnet",
+        "Gjennomføring av vedtak i offentlig forvaltning"
       ],
       "correct": 1,
       "explain": "Output er beslutningene."
@@ -95,10 +95,10 @@
       "id": "q02",
       "text": "Hva kjennetegner parlamentarisme?",
       "options": [
-        "Presidenten kan ikke felles",
+        "Regjeringen velges direkte av velgerne",
         "Regjeringen må ha nasjonalforsamlingens tillit",
-        "Kongen har all makt",
-        "Det finnes ingen valg"
+        "Presidenten må ha nasjonalforsamlingens tillit",
+        "Regjeringen må ha domstolenes tillit"
       ],
       "correct": 1,
       "explain": "Som i Norge."
@@ -107,9 +107,9 @@
       "id": "q03",
       "text": "Hva er Stortingets viktigste oppgaver?",
       "options": [
-        "Å dømme i straffesaker",
-        "Å lede departementene",
-        "Å velge kongen",
+        "Å behandle klager på dommer og avgjøre straffesaker",
+        "Å lede departementene og gjennomføre vedtak fra Stortinget",
+        "Å utnevne statsråder og lede departementenes arbeid",
         "Å vedta lover og budsjett og kontrollere regjeringen"
       ],
       "correct": 3,
@@ -119,10 +119,10 @@
       "id": "q04",
       "text": "Hva er den rettslige kanalen?",
       "options": [
-        "Å gå til domstolene for å prøve om staten følger loven",
-        "Å skrive debattinnlegg",
-        "Å melde seg inn i et parti",
-        "Å boikotte en bedrift"
+        "Å bruke domstolene til å prøve om staten følger loven",
+        "Å bruke Stortinget til å få vedtatt nye lover",
+        "Å bruke organisasjoner til å forhandle fram politiske løsninger",
+        "Å bruke demonstrasjoner til å få endret politiske vedtak"
       ],
       "correct": 0,
       "explain": "For eksempel Fosen-saken."
@@ -131,10 +131,10 @@
       "id": "q05",
       "text": "Hva er formålet med utjevningsmandater?",
       "options": [
-        "Å gjøre resultatet mer rettferdig nasjonalt",
-        "Å gi flere mandater til store partier",
-        "Å gi kongen mandater",
-        "Å redusere antall partier"
+        "Å gjøre mandatfordelingen mer rettferdig på nasjonalt nivå",
+        "Å sikre at store partier får flere mandater nasjonalt",
+        "Å sikre likt antall mandater til hvert valgdistrikt",
+        "Å redusere antallet partier som får plass på Stortinget"
       ],
       "correct": 0,
       "explain": "Ett per valgdistrikt."
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hvorfor kan klimaavgifter reise fordelingsspørsmål?",
       "options": [
-        "Fordi de gjelder bare rike",
-        "Fordi de er gratis",
-        "Fordi de ikke påvirker noen",
-        "Fordi de kan ramme folk med lav inntekt og lang reisevei hardest"
+        "Fordi avgiftene kan ramme folk med høy inntekt og kort reisevei hardest",
+        "Fordi avgiftene kan gjøre kollektivtransport dyrere enn bilbruk for folk med lav inntekt",
+        "Fordi avgiftene kan gi størst økonomisk gevinst til folk med lav inntekt og lang reisevei",
+        "Fordi avgiftene kan ramme folk med lav inntekt og lang reisevei hardest"
       ],
       "correct": 3,
       "explain": "Rettferdig omstilling."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hva er konsultasjonsordningen?",
       "options": [
-        "En valgordning",
-        "En skatteordning",
+        "En ordning for å velge representanter til Sametinget gjennom samiske valg",
+        "En plikt til å informere samiske interesser etter at beslutninger er tatt",
         "En plikt til å konsultere samiske interesser før beslutninger som berører dem",
-        "Et samisk parti"
+        "En plikt til å gi samiske interesser vetorett i beslutninger som berører dem"
       ],
       "correct": 2,
       "explain": "Lovfestet i sameloven."
@@ -167,9 +167,9 @@
       "id": "q08",
       "text": "Hvorfor er menneskerettighetene viktige for demokratiet?",
       "options": [
-        "De gir kongen makt",
-        "De avskaffer valg",
-        "De gjør flertallet allmektig",
+        "De sikrer at regjeringen kan begrense kritikk fra opposisjonen",
+        "De gir domstolene ansvar for å velge landets politiske ledere",
+        "De beskytter flertallets rett til å bestemme uten begrensninger",
         "De sikrer ytringsfrihet, frie valg og vern om mindretall"
       ],
       "correct": 3,
@@ -179,10 +179,10 @@
       "id": "q09",
       "text": "Hva er unntakene fra voldsforbudet?",
       "options": [
-        "Økonomiske interesser",
-        "Religiøse grunner",
+        "Selvforsvar og vedtak fra Generalforsamlingen",
+        "Humanitær hjelp og mandat fra Sikkerhetsrådet",
         "Selvforsvar og mandat fra Sikkerhetsrådet",
-        "Grensetvister"
+        "Økonomiske sanksjoner og mandat fra Generalforsamlingen"
       ],
       "correct": 2,
       "explain": "Artikkel 51 og kapittel VII."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Er EMDs dommer bindende for statene?",
       "options": [
-        "Nei, bare anbefalinger",
-        "Ja",
-        "Bare for EU-land",
-        "Bare for stormakter"
+        "Nei, dommen er en anbefaling staten kan vurdere.",
+        "Ja, dommen er bindende for staten som tapte saken.",
+        "Ja, dommen er bindende for alle EU-land i saken.",
+        "Ja, dommen gjelder hvis staten godtar den etterpå."
       ],
       "correct": 1,
       "explain": "Overstatlig myndighet."
@@ -204,9 +204,9 @@
       "text": "Hva er sikkerhetsdilemmaet?",
       "options": [
         "At én stats opprustning gjør andre utrygge, så de også ruster opp",
-        "At FN har for lite penger",
-        "At demokratier ikke kriger",
-        "At sanksjoner alltid virker"
+        "At én stats nedrustning gjør andre utrygge, så de også ruster opp",
+        "At én stats opprustning gjør andre tryggere, så de trapper ned forsvaret",
+        "At én stats økonomiske vekst gjør andre utrygge, så de innfører sanksjoner"
       ],
       "correct": 0,
       "explain": "Et realistisk begrep."
@@ -215,10 +215,10 @@
       "id": "q12",
       "text": "Hva er forskjellen på feilinformasjon og desinformasjon?",
       "options": [
-        "Det er det samme",
+        "Feilinformasjon er bevisst villedende, desinformasjon er ubevisst feil",
         "Desinformasjon er bevisst villedende, feilinformasjon er ubevisst feil",
-        "Feilinformasjon er alltid bevisst",
-        "Desinformasjon er alltid sann"
+        "Begge begrepene beskriver bevisst villedende informasjon",
+        "Begge begrepene beskriver feil som skyldes manglende kunnskap"
       ],
       "correct": 1,
       "explain": "Hensikten skiller dem."
@@ -346,7 +346,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -367,10 +367,10 @@
         "type": "flervalg",
         "text": "Hvilken del av det politiske systemet står for omformingen i Eastons modell?",
         "options": [
-          "Velgerne",
-          "Mediene",
+          "Velgere, partimedlemmer og lokale aktivister",
+          "Medier, redaksjoner og nyhetsbyråer",
           "Storting, regjering og forvaltning",
-          "Interesseorganisasjonene"
+          "Interesseorganisasjoner, fagforeninger og lobbyister"
         ],
         "correct": 2,
         "explain": "Der krav blir til beslutninger."
@@ -401,10 +401,10 @@
         "type": "flervalg",
         "text": "Hva må staten først og fremst gjøre for å respektere sivile og politiske rettigheter?",
         "options": [
-          "Bygge sykehus",
-          "Gi alle bolig",
-          "La være å krenke dem",
-          "Innføre skatt"
+          "Sørge for skole og helsehjelp gjennom offentlige tjenester",
+          "Sikre bolig og arbeid gjennom offentlige støtteordninger",
+          "Avstå fra å gripe inn i eller krenke rettighetene",
+          "Finansiere utdanning og helsetjenester for alle innbyggere"
         ],
         "correct": 2,
         "explain": "For eksempel ikke sensurere eller torturere."
@@ -414,10 +414,10 @@
         "type": "flervalg",
         "text": "Hva betyr prinsippet om atskillelse i krig?",
         "options": [
-          "At angrep bare skal rettes mot militære mål",
-          "At stater skal skille lag",
-          "At soldater skal skilles fra familien",
-          "At krig skal skje langt unna"
+          "At partene skal skille mellom militære mål og sivile personer ved angrep",
+          "At partene skal skille mellom egne soldater og fiendens soldater ved angrep",
+          "At partene skal skille mellom sivile og soldater etter at kampene er over",
+          "At partene skal skille mellom militære mål og sivile områder når kampene avsluttes"
         ],
         "correct": 0,
         "explain": "Sivile skal skånes."
@@ -428,9 +428,9 @@
         "text": "Hva er et tiltak som kan styrke lokaldemokratiet?",
         "options": [
           "Mer lokal handlefrihet og færre øremerkede midler",
-          "Å avskaffe kommunevalg",
-          "Å flytte alle beslutninger til staten",
-          "Å stenge lokalaviser"
+          "Mindre lokal handlefrihet og flere øremerkede midler",
+          "Mer statlig detaljstyring og færre kommunale oppgaver",
+          "Færre lokale folkeavstemninger og mindre kommunalt ansvar"
         ],
         "correct": 0,
         "explain": "Styrker det lokale selvstyret."
@@ -508,12 +508,86 @@
           "1 poeng: Nevner en relevant regel som begrenser makt eller beskytter mennesker, og forklarer en håndhevingsutfordring.",
           "½ poeng: Beskriver riktig enten en regel eller en håndhevingsutfordring."
         ]
+      },
+      {
+        "text": "Innbyggere starter en underskriftskampanje for å få Stortinget til å vedta en ny regel. Etter at regelen er innført, fører den til nye reaksjoner og krav fra folk. Forklar hvordan saken kan beskrives med Eastons systemmodell, og hvor underskriftskampanjen passer inn.",
+        "fasit": "Underskriftskampanjen er et krav fra samfunnet, altså input til det politiske systemet. Stortinget og regjeringen behandler kravet, og en regel blir output. Reaksjonene på regelen gir tilbakekobling og kan føre til nye krav eller støtte.",
+        "kriterier": [
+          "Krav fra innbyggerne er input, og politiske organer behandler kravet.",
+          "Regelen er output, og reaksjoner fra samfunnet er tilbakekobling."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "Forklar en viktig forskjell mellom parlamentarisme og presidentstyre når det gjelder forholdet mellom den utøvende makten og nasjonalforsamlingen.",
+        "fasit": "I et parlamentarisk system må regjeringen ha nasjonalforsamlingens tillit og kan felles ved mistillit. I et presidentstyre velges presidenten separat og kan ikke felles på denne måten; presidenten og kongressen balanserer hverandre gjennom checks and balances.",
+        "kriterier": [
+          "Regjeringen i et parlamentarisk system er avhengig av nasjonalforsamlingens tillit.",
+          "Presidenten i et presidentstyre velges separat og kan ikke felles med mistillit."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "En meningsmåling med omtrent 1000 deltakere viser at ett parti har 51 prosent oppslutning og et annet har 48 prosent. Feilmarginen er rundt ±3 prosentpoeng. Hva kan man si om forskjellen mellom partiene ut fra målingen?",
+        "fasit": "Målingen gir ikke et sikkert grunnlag for å si at det første partiet faktisk leder. Forskjellen er liten sammenlignet med feilmarginen, så den kan skyldes tilfeldig variasjon.",
+        "kriterier": [
+          "Feilmarginen gjør at målingen ikke sikkert viser hvilket parti som leder.",
+          "Den lille forskjellen kan skyldes tilfeldig variasjon."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En organisasjon for næringslivet hevder i et innlegg at økt skatt alltid fører til færre arbeidsplasser. Hva bør du undersøke før du bruker påstanden som fakta?",
+        "fasit": "Jeg bør undersøke hvem som står bak påstanden, og om organisasjonen har interesser i saken. Jeg bør se etter dokumentasjon og vurdere om innlegget skiller mellom fakta og meninger. Det er også lurt å sammenligne med uavhengige kilder.",
+        "kriterier": [
+          "Vurder avsenderens interesser og formålet med innlegget.",
+          "Undersøk dokumentasjon, skille mellom fakta og meninger, og sammenlign med uavhengige kilder."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Et kommunestyre vedtar å forby en minoritet å bruke sitt språk under offentlige kulturarrangementer. Forklar hvorfor et flertallsvedtak ikke alene avgjør om dette er akseptabelt, og hvilken menneskerettighet som er relevant.",
+        "fasit": "Demokrati er mer enn flertallsstyre, fordi menneskerettighetene også skal beskytte minoriteter. SP artikkel 27 gir minoriteter rett til å bruke språket sitt, så flertallets vedtak må vurderes opp mot denne retten.",
+        "kriterier": [
+          "Flertallets makt begrenses av menneskerettighetene, som skal beskytte minoriteter.",
+          "SP artikkel 27 beskytter minoriteters rett til å bruke språket sitt."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Rike land har stått for størstedelen av de historiske utslippene, mens fattige land ofte rammes hardest av klimaendringene. Forklar hvorfor dette er et spørsmål om global fordeling, og hvordan liberalisme kan belyse internasjonalt samarbeid om klimafinansiering.",
+        "fasit": "Situasjonen reiser et fordelingsspørsmål fordi landene har bidratt ulikt til utslippene, samtidig som fattige land ofte rammes hardt. Klimafinansiering kan være et virkemiddel i samarbeidet. Liberalismen legger vekt på at internasjonale avtaler og institusjoner kan gjøre samarbeid nyttig for statene.",
+        "kriterier": [
+          "Knytt ulikt historisk utslippsansvar og ulik sårbarhet til global fordeling.",
+          "Klimafinansiering og avtaler kan fremme samarbeid; liberalismen vektlegger internasjonale institusjoner og samarbeid."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "Hva er forskjellen på hvilke saker Den internasjonale domstolen (ICJ) og Den internasjonale straffedomstolen (ICC) behandler?",
+        "fasit": "ICJ avgjør tvister mellom stater. ICC kan straffe enkeltpersoner for alvorlige forbrytelser som folkemord, krigsforbrytelser og forbrytelser mot menneskeheten.",
+        "kriterier": [
+          "ICJ behandler tvister mellom stater.",
+          "ICC kan straffe enkeltpersoner for alvorlige internasjonale forbrytelser."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "En falsk video av en politiker sprer seg i sosiale medier kort tid før et valg. Forklar hvordan dette kan utfordre demokratiet, og nevn tiltak som kan motvirke problemet uten å fjerne betydningen av ytringsfrihet.",
+        "fasit": "En falsk video kan villede velgere og påvirke den offentlige debatten og valget. Kildekritikk, mediekunnskap, faktasjekk og sterke redaktørstyrte medier kan bidra til å avsløre falsk informasjon. Slike tiltak kan styrke kunnskapsgrunnlaget uten å fjerne ytringsfriheten.",
+        "kriterier": [
+          "Falsk informasjon kan villede velgere og påvirke debatt og valg.",
+          "Nevn tiltak som kildekritikk, mediekunnskap, faktasjekk eller redaktørstyrte medier."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

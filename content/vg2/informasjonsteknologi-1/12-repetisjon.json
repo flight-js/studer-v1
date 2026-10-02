@@ -26,8 +26,7 @@
     },
     {
       "term": "Phishing",
-      "def": "Forsøk på å lure til seg passord eller opplysninger.",
-      "niva": "eksempel"
+      "def": "Forsøk på å lure til seg passord eller opplysninger."
     },
     {
       "term": "CPU",
@@ -84,7 +83,8 @@
     },
     {
       "term": "Tidskompleksitet",
-      "def": "Hvordan kjøretiden vokser med datamengden."
+      "def": "Hvordan kjøretiden vokser med datamengden.",
+      "niva": "over-niva"
     },
     {
       "term": "Personopplysning",
@@ -116,10 +116,10 @@
       "id": "q01",
       "text": "Hvorfor kan KI gi urettferdige resultater?",
       "options": [
-        "Fordi KI alltid er ond",
-        "Fordi KI ikke bruker data",
+        "Fordi den henter informasjon direkte fra internett",
+        "Fordi den ikke har tilgang til treningsdata når den svarer",
         "Fordi den kan gjenta skjevheter i treningsdataene",
-        "Fordi KI er for treg"
+        "Fordi den behandler alle treningsdata som feilfrie og oppdaterte"
       ],
       "correct": 2,
       "explain": "Data fra fortiden kan inneholde skjevheter."
@@ -129,9 +129,9 @@
       "text": "Hva gjør DNS?",
       "options": [
         "Oversetter domenenavn til IP-adresser",
-        "Krypterer data",
-        "Lagrer nettsider",
-        "Sender e-post"
+        "Finner nettsider ved å søke gjennom innholdet",
+        "Krypterer forbindelsen mellom nettleser og tjener",
+        "Sender e-post mellom avsender og mottaker"
       ],
       "correct": 0,
       "explain": "Internettets telefonkatalog."
@@ -140,10 +140,10 @@
       "id": "q03",
       "text": "Hva gjør TCP?",
       "options": [
-        "Gir enheter en fast adresse",
-        "Sørger for at pakkene kommer fram i riktig rekkefølge og uten feil",
-        "Krypterer passord",
-        "Tegner grafikk"
+        "Tildeler hver enhet en fast adresse og sender datapakker videre",
+        "Sikrer at datapakker kommer fram i riktig rekkefølge og uten feil",
+        "Krypterer dataene før de sendes mellom to enheter",
+        "Velger beste rute for datapakker mellom nettverk"
       ],
       "correct": 1,
       "explain": "IP sørger for at pakkene finner fram."
@@ -152,10 +152,10 @@
       "id": "q04",
       "text": "Hva er en primærnøkkel?",
       "options": [
-        "Et passord",
-        "Den første kolonnen alltid",
+        "Et felt som kobler rader mellom to tabeller",
+        "Et felt som bestemmer rekkefølgen på radene i tabellen",
         "Et felt som identifiserer hver rad entydig",
-        "En krypteringsnøkkel"
+        "Et felt som lagrer en beskrivelse av hver rad"
       ],
       "correct": 2,
       "explain": "For eksempel et elevnummer."
@@ -164,10 +164,10 @@
       "id": "q05",
       "text": "Hvorfor bør du bruke semantiske elementer som nav og main?",
       "options": [
-        "De gir penere farger",
-        "De gjør siden raskere",
+        "De bestemmer hvilke farger delene får, og angir skrifttypene",
+        "De styrer hvor raskt delene lastes, og viser bilder for nettleseren",
         "De forteller hva delene er, og hjelper skjermlesere og søkemotorer",
-        "De er påbudt i CSS"
+        "De bestemmer plasseringen av delene, og erstatter CSS-reglene"
       ],
       "correct": 2,
       "explain": "Struktur med mening."
@@ -176,9 +176,9 @@
       "id": "q06",
       "text": "Hvordan kan en avkortet y-akse påvirke tolkningen?",
       "options": [
-        "Den gjør diagrammet mer nøyaktig",
-        "Den har ingen betydning",
-        "Den skjuler alle data",
+        "Den kan få store forskjeller til å se små ut",
+        "Den gjør målingene mer presise ved å fjerne tomrom",
+        "Den flytter datapunktene slik at verdiene blir høyere",
         "Den kan få små forskjeller til å se store ut"
       ],
       "correct": 3,
@@ -188,10 +188,10 @@
       "id": "q07",
       "text": "Hvor bør data som skal deles mellom alle brukere, lagres?",
       "options": [
-        "I localStorage",
+        "I localStorage i hver brukers nettleser",
         "I en database på en tjener",
-        "I brukerens utklippstavle",
-        "I CSS"
+        "I en fil på hver brukers datamaskin",
+        "I CSS-filen som lastes ned av brukerne"
       ],
       "correct": 1,
       "explain": "Da kan alle hente og oppdatere dem."
@@ -201,9 +201,9 @@
       "text": "Hvilke fire prinsipper bygger WCAG på?",
       "options": [
         "Mulig å oppfatte, mulig å betjene, forståelig, robust",
-        "Rask, billig, pen, trygg",
-        "Farge, form, font, funksjon",
-        "HTML, CSS, JavaScript, SQL"
+        "Planlegge, designe, kode, publisere",
+        "Tekst, lyd, video, animasjon",
+        "Farger, bilder, lenker, navigasjon"
       ],
       "correct": 0,
       "explain": "Ofte forkortet POUR på engelsk."
@@ -212,10 +212,10 @@
       "id": "q09",
       "text": "Hva er forskjellen på print og return i en funksjon?",
       "options": [
-        "Det er det samme",
-        "print viser noe på skjermen, return gir verdien tilbake til programmet",
-        "return viser noe på skjermen",
-        "print avslutter programmet"
+        "print gir verdien tilbake til programmet, mens return viser den på skjermen.",
+        "print viser en verdi på skjermen, mens return gir verdien tilbake til programmet.",
+        "print lagrer verdien i en variabel, mens return viser den på skjermen.",
+        "print viser verdien på skjermen, mens return lagrer den i en variabel."
       ],
       "correct": 1,
       "explain": "En returverdi kan brukes videre."
@@ -226,7 +226,7 @@
       "options": [
         "At listen er kort",
         "At listen er sortert",
-        "At listen bare har tall under 100",
+        "At listen bare har tall",
         "At listen er usortert"
       ],
       "correct": 1,
@@ -236,10 +236,10 @@
       "id": "q11",
       "text": "Hva betyr dataminimering?",
       "options": [
-        "Å komprimere data",
-        "Å slette alle data",
+        "Å beholde data så lenge de er nyttige",
+        "Å samle inn data som kan være nyttige senere",
         "Å samle inn bare det som er nødvendig",
-        "Å lagre data i minst mulig filer"
+        "Å begrense hvem som får tilgang til data"
       ],
       "correct": 2,
       "explain": "Et av grunnprinsippene."
@@ -248,9 +248,9 @@
       "id": "q12",
       "text": "Hvordan kan algoritmer føre til diskriminering?",
       "options": [
-        "De er alltid rettferdige",
-        "De bruker ikke data",
-        "De velger tilfeldig",
+        "De kan forsterke skjevheter fordi algoritmene velger svar helt tilfeldig",
+        "De kan forsterke skjevheter fordi algoritmene ikke bruker data om mennesker",
+        "De kan forsterke skjevheter fordi dataene slettes før algoritmen behandler dem",
         "De kan forsterke skjevheter i dataene de er trent på"
       ],
       "correct": 3,
@@ -260,9 +260,9 @@
       "id": "q13",
       "text": "Hvorfor tester vi programmet med tilfeller der vi vet svaret?",
       "options": [
-        "For å gjøre det raskere",
-        "For å få flere linjer kode",
-        "For å slippe å skrive kommentarer",
+        "For å måle hvor raskt programmet behandler inndata",
+        "For å kontrollere at programmet viser riktige kommentarer",
+        "For å finne ut om programmet bruker lite minne",
         "For å sjekke at programmet regner riktig"
       ],
       "correct": 3,
@@ -418,7 +418,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -440,10 +440,10 @@
         "type": "flervalg",
         "text": "Hvilket tiltak motvirker digitalt utenforskap?",
         "options": [
-          "Fjerne alle skranker",
+          "Krav om digitale løsninger og selvbetjening i alle tjenester",
           "Universell utforming og tilbud om hjelp",
-          "Kreve at alle bruker samme app",
-          "Høyere priser på internett"
+          "Flere funksjoner og avanserte valg i tjenestene",
+          "Redusert tilgang til hjelp og færre alternative løsninger"
         ],
         "correct": 1,
         "explain": "Tjenestene må kunne brukes av flest mulig."
@@ -460,10 +460,10 @@
         "type": "flervalg",
         "text": "Hva er 13 i totallsystemet?",
         "options": [
-          "1011",
+          "1111",
           "1101",
-          "1110",
-          "1001"
+          "1010",
+          "1100"
         ],
         "correct": 1,
         "explain": "8 + 4 + 1."
@@ -487,10 +487,10 @@
         "type": "flervalg",
         "text": "Hva bør du spørre deg selv før du legger inn et nytt felt i et registreringsskjema?",
         "options": [
-          "Er feltet pent?",
-          "Hvor mange felt har konkurrentene?",
+          "Er det vanlig at andre tjenester spør om dette?",
+          "Kan opplysningen brukes til framtidige tilbud?",
           "Trenger vi virkelig denne opplysningen?",
-          "Kan vi selge opplysningen?"
+          "Vil feltet gjøre statistikken mer nyttig?"
         ],
         "correct": 2,
         "explain": "Dataminimering."
@@ -577,12 +577,86 @@
           "Nevner en risiko, for eksempel feilvurdering, stempling eller overvåking.",
           "Nevner begrenset tilgang, dataminimering eller et mindre inngripende alternativ."
         ]
+      },
+      {
+        "text": "En rapport viser at skolens strømforbruk økte fra 98 til 100 enheter. Grafen bruker en y-akse som starter på 97, slik at økningen ser svært stor ut. Forklar hvordan grafen kan villede leseren, og nevn én endring som kan gjøre framstillingen mer ærlig.",
+        "fasit": "Når y-aksen ikke starter på null, kan en liten forskjell se mye større ut enn den er. Grafen bør ha en tydelig skala som viser forskjellen i riktig sammenheng, for eksempel ved å starte y-aksen på null.",
+        "kriterier": [
+          "Forklarer at en avkuttet y-akse kan overdrive små forskjeller.",
+          "Foreslår en tydeligere eller mer balansert framstilling."
+        ],
+        "id": "s09"
+      },
+      {
+        "text": "En designer lager både en logo og et fotografi til en nettside. Forklar hvilken type grafikk som passer best for hver av dem, og hvorfor.",
+        "fasit": "Vektorgrafikk passer godt til logoen fordi den kan skaleres uten å bli uskarp. Punktgrafikk passer til fotografiet fordi det består av piksler med farger.",
+        "kriterier": [
+          "Velger vektorgrafikk til logoen og knytter det til skalering uten uskarphet.",
+          "Velger punktgrafikk til fotografiet og knytter det til piksler."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "Du redigerer et dokument på en bærbar datamaskin mens det lagres i en skytjeneste. Forklar forskjellen på RAM og SSD for dokumentet, og nevn én utfordring dersom nettforbindelsen forsvinner.",
+        "fasit": "RAM holder data og programmer som er i bruk, men innholdet forsvinner når strømmen går. SSD lagrer filer permanent på datamaskinen, mens tilgang til dokumentet i skytjenesten avhenger av nettforbindelse og leverandøren.",
+        "kriterier": [
+          "Skiller mellom flyktig RAM og permanent lagring på SSD.",
+          "Nevner at manglende nett kan hindre tilgang til skytjenesten."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "En nettside lar brukere bestille time. Foreslå ett tiltak som gjør skjemaet enklere å bruke for personer som navigerer med tastatur, og forklar hvordan utvikleren kan teste tiltaket.",
+        "fasit": "Skjemafeltene kan få tydelige etiketter og synlig fokus når brukeren navigerer med tastaturet. Utvikleren kan teste siden ved å bruke den med bare tastatur og kontrollere at det er tydelig hvilket felt eller hvilken knapp som er valgt.",
+        "kriterier": [
+          "Foreslår et konkret tiltak for tastaturbruk, som synlig fokus eller tydelige etiketter.",
+          "Beskriver manuell testing med bare tastatur."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "En Python-funksjon skal regne ut prisen med merverdiavgift, slik at resultatet senere kan legges sammen med andre priser. Forklar hvorfor funksjonen bør bruke `return` i stedet for bare `print`.",
+        "fasit": "`return` sender den beregnede prisen tilbake til resten av programmet, slik at den kan lagres eller legges sammen med andre priser. `print` viser bare verdien på skjermen.",
+        "kriterier": [
+          "Forklarer at `return` gjør resultatet tilgjengelig for videre bruk i programmet.",
+          "Skiller dette fra `print`, som viser verdien på skjermen."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "Et bibliotek skal sortere en svært stor liste med tall. Forklar hvorfor flettesortering vanligvis passer bedre enn boblesortering når lista er stor.",
+        "fasit": "Flettesortering deler lista i mindre deler, sorterer dem og fletter dem sammen, og vokser mye raskere i kjøretid enn boblesortering for store datamengder. Boblesortering bytter nabotall gjennom mange gjennomganger og blir derfor treg.",
+        "kriterier": [
+          "Forklarer at flettesortering er raskere eller mer effektiv for store lister.",
+          "Beskriver enten deling og fletting eller at boblesortering gjentar mange gjennomganger."
+        ],
+        "id": "s14",
+        "niva": "over-niva"
+      },
+      {
+        "text": "Et ukomprimert RGB-bilde er 5 piksler bredt og 2 piksler høyt. Hver piksel bruker 24 bit, altså 3 byte. Hvor mange byte bruker bildet? Vis kort hvordan du regner det ut.",
+        "fasit": "Bildet har 5 · 2 = 10 piksler. Hver bruker 3 byte, så bildet bruker 10 · 3 = 30 byte.",
+        "kriterier": [
+          "Regner ut at bildet har 10 piksler.",
+          "Regner ut riktig størrelse: 30 byte."
+        ],
+        "id": "s15"
+      },
+      {
+        "text": "En digital kode består av 2 byte. Én byte har 256 mulige verdier. Hvor mange ulike bitmønstre kan koden representere? Vis kort hvordan du finner svaret.",
+        "fasit": "Hver av de to bytene kan ha 256 verdier, så antallet mulige kombinasjoner er 256 · 256 = 65 536.",
+        "kriterier": [
+          "Multipliserer antallet muligheter for de to bytene.",
+          "Oppgir riktig svar: 65 536 ulike bitmønstre."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
+    "alternativer": "2026-10-01",
     "nivasjekk": "2026-10-01"
   }
 }

@@ -75,10 +75,10 @@
       "id": "q01",
       "text": "Hva mente Adam Smith med den usynlige hånd?",
       "options": [
-        "At staten styrer alt",
+        "At staten fordeler varer i markedet for å sikre fellesskapet",
         "At egeninteresse i et fritt marked kan gi fellesgode",
-        "At kongen bestemmer",
-        "At handel er skadelig"
+        "At bedrifter avtaler priser for å gagne hele samfunnet",
+        "At handel mellom land fordeler rikdom likt mellom innbyggerne"
       ],
       "correct": 1,
       "explain": "Fra Nasjonenes velstand, 1776."
@@ -88,9 +88,9 @@
       "text": "Hva er merverdi hos Marx?",
       "options": [
         "Verdien arbeiderne skaper utover lønnen de får",
-        "En skatt",
-        "En type penger",
-        "Profitt for arbeiderne"
+        "Verdien arbeiderne får utbetalt som lønn for arbeidet",
+        "Verdien maskinene skaper etter at produksjonskostnadene er betalt",
+        "Overskuddet staten krever inn fra bedrifter gjennom skatt"
       ],
       "correct": 0,
       "explain": "Grunnlaget for utbytting."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva mente Keynes staten skulle gjøre i krisetider?",
       "options": [
-        "Kutte alle utgifter",
-        "Ikke gripe inn",
+        "Dempe forbruket gjennom høyere skatter",
+        "Redusere etterspørselen gjennom lavere offentlige utgifter",
         "Øke etterspørselen gjennom offentlige utgifter",
-        "Innføre planøkonomi"
+        "Styre produksjonen gjennom statlige femårsplaner"
       ],
       "correct": 2,
       "explain": "Markedet retter seg ikke alltid selv."
@@ -111,9 +111,9 @@
       "id": "q04",
       "text": "Hva advarte Hayek mot i Veien til trelldom?",
       "options": [
-        "Frihandel",
-        "Lave skatter",
-        "Individuell frihet",
+        "At frihandel mellom land kunne føre til politisk ufrihet",
+        "At privat eierskap av bedrifter kunne føre til ufrihet",
+        "At statlig styring av økonomien kunne føre til velstand",
         "At statlig styring av økonomien kunne føre til ufrihet"
       ],
       "correct": 3,
@@ -124,9 +124,9 @@
       "text": "Hva kjennetegner nyliberalismen?",
       "options": [
         "Privatisering, deregulering og lavere skatter",
-        "Statlig eierskap av alt",
-        "Planøkonomi",
-        "Høye tollmurer"
+        "Offentlig eierskap, regulering og høyere skatter",
+        "Planøkonomi, priskontroll og offentlig produksjon",
+        "Tollvern, subsidier og statlig handelsstyring"
       ],
       "correct": 0,
       "explain": "Thatcher og Reagan."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva ble konsekvensene av kommunistiske regimer for deltakelse?",
       "options": [
-        "Mer demokratisk deltakelse",
+        "Folk fikk større frihet og demokratisk deltakelse",
         "Folk ble fratatt frihet og demokratisk deltakelse",
-        "Flere partier",
-        "Frie valg"
+        "Folk fikk flere politiske partier og større innflytelse",
+        "Folk fikk stemmerett og frie valg ved nasjonale valg"
       ],
       "correct": 1,
       "explain": "Ettpartistater."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hvilken modell kombinerte marked, stat og samarbeid i arbeidslivet?",
       "options": [
-        "Fascismen",
-        "Planøkonomien",
+        "Den sovjetiske planøkonomien",
+        "Den fascistiske korporatismen",
         "Den nordiske velferdsstaten",
-        "Merkantilismen"
+        "Den merkantilistiske økonomien"
       ],
       "correct": 2,
       "explain": "Påvirket av Keynes."
@@ -159,9 +159,9 @@
       "id": "q08",
       "text": "Hva stiller grønn politisk tenkning spørsmål ved?",
       "options": [
-        "Demokrati",
-        "Utdanning",
-        "Menneskerettigheter",
+        "Fri markedsøkonomi",
+        "Politisk demokrati",
+        "Sosial utjevning",
         "Evig vekst"
       ],
       "correct": 3,
@@ -174,8 +174,8 @@
       "options": [
         "Friedrich Engels",
         "Adam Smith",
-        "Keynes",
-        "Hayek"
+        "John Maynard Keynes",
+        "Friedrich Hayek"
       ],
       "correct": 0,
       "explain": "I 1848.",
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva er en kritikk av markedsliberalismen?",
       "options": [
-        "At den gir for lite valgfrihet",
+        "At den fører til omfattende statlig eierskap og planlegging",
         "At den kan gi ulikhet og usikkerhet",
-        "At den gir for høye skatter",
-        "At den forbyr handel"
+        "At den gir høye tollmurer og mindre internasjonal handel",
+        "At den begrenser privat eierskap og konkurranse"
       ],
       "correct": 1,
       "explain": "Men den har også gitt velstand."
@@ -310,10 +310,10 @@
         "type": "flervalg",
         "text": "Hva er deregulering?",
         "options": [
-          "Flere regler",
+          "Å innføre eller skjerpe økonomiske reguleringer",
           "Å fjerne eller lette reguleringer",
-          "Å øke skattene",
-          "Å nasjonalisere bedrifter"
+          "Å øke eller utvide skattene på bedrifter",
+          "Å overta private bedrifter til offentlig eie"
         ],
         "correct": 1,
         "explain": "Typisk for nyliberalismen."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hva er medborgerskap?",
         "options": [
-          "Å eie aksjer",
-          "Å bo i en by",
+          "Å eie verdipapirer og påvirke beslutninger i private bedrifter",
+          "Å bo fast i en by og bruke lokale offentlige tjenester",
           "Å være en aktiv deltaker i samfunnet med rettigheter og plikter",
-          "Å ha pass"
+          "Å ha statsborgerskap og pass uten å delta i samfunnet"
         ],
         "correct": 2,
         "explain": "Påvirkes av økonomiske og politiske systemer."
@@ -426,6 +426,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

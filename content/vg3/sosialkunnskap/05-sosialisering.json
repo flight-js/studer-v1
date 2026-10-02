@@ -76,10 +76,10 @@
       "id": "q01",
       "text": "Hvor skjer primær sosialisering først og fremst?",
       "options": [
-        "I skolen",
+        "I barnehagen",
         "I familien",
-        "På jobb",
-        "I sosiale medier"
+        "I vennegruppen",
+        "I nærmiljøet"
       ],
       "correct": 1,
       "explain": "I de første leveårene."
@@ -89,9 +89,9 @@
       "text": "Hva er speilingsselvet?",
       "options": [
         "At vi ser oss selv gjennom hvordan andre ser oss",
-        "At vi ser oss i speilet",
-        "At vi etterligner foreldre",
-        "At vi er like alle andre"
+        "At vi bygger selvbildet på egne vurderinger",
+        "At vi utvikler identiteten ved å etterligne andre",
+        "At vi vurderer oss selv ut fra gruppens normer"
       ],
       "correct": 0,
       "explain": "Cooley."
@@ -100,10 +100,10 @@
       "id": "q03",
       "text": "Hva mener konfliktperspektivet om sosialisering?",
       "options": [
-        "At den alltid gir likhet",
-        "At den bare skjer i familien",
+        "At den kan fordele makt likt",
+        "At den først og fremst skaper fellesskap",
         "At den kan reprodusere ulikhet",
-        "At den ikke finnes"
+        "At den overfører felles verdier"
       ],
       "correct": 2,
       "explain": "For eksempel gjennom kulturell kapital."
@@ -112,9 +112,9 @@
       "id": "q04",
       "text": "Hva er den generaliserte andre?",
       "options": [
-        "En nær venn",
-        "En lærer",
-        "Foreldre",
+        "En bestemt persons forventninger",
+        "En nær gruppes forventninger",
+        "Familiens egne forventninger",
         "Samfunnets allmenne forventninger"
       ],
       "correct": 3,
@@ -125,9 +125,9 @@
       "text": "Hva kjennetegner det senmoderne samfunnet ifølge Giddens?",
       "options": [
         "At tradisjoner mister makt og identitet må skapes",
-        "At kirken bestemmer alt",
-        "At alle har samme yrke som foreldrene",
-        "At familien er uten betydning"
+        "At tradisjoner får større makt og identitet arves",
+        "At samfunnets regler blir faste og identitet formes av gruppen",
+        "At familiebakgrunn avgjør yrkesvalg og identitet følger foreldrene"
       ],
       "correct": 0,
       "explain": "Refleksivitet."
@@ -136,10 +136,10 @@
       "id": "q06",
       "text": "Hva betyr aktiv sosialisering?",
       "options": [
-        "At barn er passive mottakere",
+        "At barn og unge hovedsakelig tar imot normer fra voksne",
         "At barn og unge velger, tolker og påvirker selv",
-        "At bare voksne sosialiseres",
-        "At sosialisering skjer ved trening"
+        "At sosialisering først og fremst skjer blant voksne",
+        "At barn og unge lærer normer gjennom gjentatt trening"
       ],
       "correct": 1,
       "explain": "Også foreldre påvirkes."
@@ -148,21 +148,21 @@
       "id": "q07",
       "text": "Hvilken endring har skjedd i sosialiseringen?",
       "options": [
-        "Færre sosialiseringsagenter",
-        "Mer makt til kirken",
-        "Flere agenter, blant annet digitale medier",
-        "Mindre tid i institusjoner"
+        "Færre sosialiseringsagenter, særlig i digitale medier",
+        "Større innflytelse fra religiøse institusjoner og kirken",
+        "Flere sosialiseringsagenter, blant annet digitale medier",
+        "Mindre sosialisering gjennom barnehage og skole"
       ],
       "correct": 2,
-      "explain": "Barn tilbringer mer tid i barnehage og skole."
+      "explain": "Digitale medier har fått en større plass som sosialiseringsagenter."
     },
     {
       "id": "q08",
       "text": "Hva er en sosialiseringsagent?",
       "options": [
-        "En hemmelig agent",
-        "En lov",
-        "En type skole",
+        "En norm eller regel som påvirker menneskers handlinger",
+        "Et sosialt miljø der mennesker møter hverandre",
+        "En aktivitet der barn lærer skolefag",
         "En person eller institusjon som påvirker sosialiseringen"
       ],
       "correct": 3,
@@ -173,9 +173,9 @@
       "text": "Hva mener mange om familiens betydning i dag?",
       "options": [
         "At den fortsatt er viktigst, men deler innflytelsen med flere",
-        "At den ikke betyr noe",
-        "At den har all makt",
-        "At skolen har overtatt helt"
+        "At skolen har blitt viktigst og familien deler påvirkningen",
+        "At jevnaldrende har blitt viktigst og familien har mindre innflytelse",
+        "At mediene har overtatt familiens rolle i oppdragelsen"
       ],
       "correct": 0,
       "explain": "Særlig for verdier og tilknytning."
@@ -184,10 +184,10 @@
       "id": "q10",
       "text": "Hva er forhandlingsfamilien?",
       "options": [
-        "En familie som selger varer",
+        "En familie med lik beslutningsmakt mellom barn og voksne",
         "En familie med mer dialog og mindre autoritær oppdragelse",
-        "En familie uten regler",
-        "En storfamilie"
+        "En familie med få regler og stor frihet for barna",
+        "En familie med voksenstyrte regler og liten medvirkning fra barna"
       ],
       "correct": 1,
       "explain": "Barn får mer innflytelse."
@@ -312,10 +312,10 @@
         "type": "flervalg",
         "text": "Hvem beskrev signifikante og generaliserte andre?",
         "options": [
-          "Giddens",
+          "Goffman",
           "Mead",
-          "Durkheim",
-          "Marx"
+          "Bourdieu",
+          "Parsons"
         ],
         "correct": 1,
         "explain": "Gjennom lek og spill."
@@ -326,9 +326,9 @@
         "text": "Hva kan være en utfordring i det senmoderne samfunnet?",
         "options": [
           "Usikkerhet og press ved mange valg",
-          "For få valgmuligheter",
-          "Ingen utdanning",
-          "At alle har samme yrke"
+          "Stabilitet og mindre ansvar ved mange valgmuligheter",
+          "Trygghet og tydelige rammer fra sterke tradisjoner",
+          "Frihet fra press gjennom faste livsløp"
         ],
         "correct": 0,
         "explain": "Frihet gir også ansvar."
@@ -338,10 +338,10 @@
         "type": "flervalg",
         "text": "Hvilken endring har skjedd i familieformer?",
         "options": [
-          "Bare kjernefamilier",
-          "Færre skilsmisser",
+          "Større utbredelse av tradisjonelle kjernefamilier",
+          "Færre sammensatte familier etter samlivsbrudd",
           "Flere familieformer som bonus- og regnbuefamilier",
-          "Ingen endring"
+          "Mindre variasjon i hvem som regnes som familie"
         ],
         "correct": 2,
         "explain": "Mangfoldet har økt.",
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

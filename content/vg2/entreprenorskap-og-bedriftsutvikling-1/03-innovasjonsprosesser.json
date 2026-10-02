@@ -82,10 +82,10 @@
       "id": "q01",
       "text": "Når blir en oppfinnelse en innovasjon?",
       "options": [
-        "Når den blir patentert",
-        "Når den blir tatt i bruk og skaper verdi",
-        "Når den blir tegnet",
-        "Aldri"
+        "Når den får juridisk beskyttelse og enerett",
+        "Når den tas i bruk og skaper verdi",
+        "Når den blir presentert for mulige kunder",
+        "Når den blir produsert, men ikke tatt i bruk"
       ],
       "correct": 1,
       "explain": "Innovasjon krever bruk."
@@ -95,9 +95,9 @@
       "text": "Selvbetjente kasser er et eksempel på",
       "options": [
         "prosessinnovasjon",
-        "varemerke",
-        "organisasjonsinnovasjon",
-        "patent"
+        "produktinnovasjon",
+        "markedsinnovasjon",
+        "organisasjonsinnovasjon"
       ],
       "correct": 0,
       "explain": "En ny måte å levere på."
@@ -106,10 +106,10 @@
       "id": "q03",
       "text": "Hva er disruptiv innovasjon?",
       "options": [
-        "En liten forbedring",
-        "Et patent",
+        "En gradvis forbedring av et produkt for etablerte kundegrupper",
+        "En avansert løsning som styrker etablerte aktørers markedsposisjon",
         "En enkel og billig løsning som etter hvert utkonkurrerer de etablerte",
-        "En ny logo"
+        "En ny løsning som gir eksisterende kunder flere produktfunksjoner"
       ],
       "correct": 2,
       "explain": "Som strømming mot DVD-utleie.",
@@ -119,9 +119,9 @@
       "id": "q04",
       "text": "Hva er første steg i designtenkning?",
       "options": [
-        "Prototyp",
-        "Teste",
-        "Idéutvikling",
+        "Definere – avgrense brukerens problem",
+        "Idéutvikling – foreslå mulige løsninger",
+        "Prototype – lage en enkel modell",
         "Empati – forstå brukerne"
       ],
       "correct": 3,
@@ -132,9 +132,9 @@
       "text": "Hva er et minimumsprodukt?",
       "options": [
         "Den enkleste versjonen som kan gi læring",
-        "Det billigste produktet i butikken",
-        "Et ferdig produkt",
-        "Et patent"
+        "Den ferdige versjonen som kan selges til flest mulig",
+        "Den første versjonen med alle planlagte funksjoner",
+        "En testmodell som viser produktet uten å gi læring"
       ],
       "correct": 0,
       "explain": "Brukes i smidig oppstart."
@@ -143,10 +143,10 @@
       "id": "q06",
       "text": "Hva er en snuoperasjon i smidig oppstart?",
       "options": [
-        "Å legge ned virksomheten",
+        "Å fortsette planen selv om antakelsene ikke stemmer",
         "Å endre retning når antakelsene var feil",
-        "Å øke prisen",
-        "Å ansette flere"
+        "Å justere prisen uten å endre forretningsretningen",
+        "Å utvide virksomheten uten å endre forretningsideen"
       ],
       "correct": 1,
       "explain": "Basert på det man har lært."
@@ -155,10 +155,10 @@
       "id": "q07",
       "text": "Hvor lenge kan et patent gi enerett?",
       "options": [
-        "5 år",
-        "Evig",
+        "Inntil 10 år",
+        "Inntil 15 år",
         "Inntil 20 år",
-        "1 år"
+        "Inntil 25 år"
       ],
       "correct": 2,
       "explain": "For tekniske oppfinnelser.",
@@ -168,9 +168,9 @@
       "id": "q08",
       "text": "Hva beskytter et varemerke?",
       "options": [
-        "En teknisk oppfinnelse",
-        "Utseendet til et produkt",
-        "En sang",
+        "Tekniske løsninger",
+        "Produktets utseende",
+        "Musikk og sangtekster",
         "Navn og logo"
       ],
       "correct": 3,
@@ -181,9 +181,9 @@
       "text": "Hva er målet med smidig oppstart?",
       "options": [
         "Å unngå å bruke år og mye penger på noe ingen vil ha",
-        "Å lage en perfekt plan før man starter",
-        "Å unngå kunder",
-        "Å få patent først"
+        "Å bruke lang tid på en fullstendig plan før kundetesting",
+        "Å utvikle produktet ferdig før kundenes behov undersøkes",
+        "Å sikre enerett ved å søke patent før produktutvikling"
       ],
       "correct": 0,
       "explain": "Test raskt og billig."
@@ -192,10 +192,10 @@
       "id": "q10",
       "text": "Hva må til for at en oppfinnelse kan patenteres?",
       "options": [
-        "At den er vist offentlig",
+        "At den er kjent og har praktisk nytte",
         "At den er ny og har oppfinnelseshøyde",
-        "At den er dyr",
-        "At den er populær"
+        "At den er kostbar og har teknisk funksjon",
+        "At den er populær og har kommersiell verdi"
       ],
       "correct": 1,
       "explain": "Den må ikke være kjent fra før.",
@@ -324,7 +324,7 @@
         "options": [
           "prosessinnovasjon",
           "markedsinnovasjon",
-          "patent",
+          "produktinnovasjon",
           "organisasjonsinnovasjon"
         ],
         "correct": 1,
@@ -336,9 +336,9 @@
         "text": "Hva beskytter designregistrering?",
         "options": [
           "Utseendet til et produkt",
-          "Navnet",
-          "En teknisk løsning",
-          "En forretningsidé"
+          "Navnet og logoen til et produkt",
+          "Den tekniske funksjonen til et produkt",
+          "Forretningsmodellen til en virksomhet"
         ],
         "correct": 0,
         "explain": "Form, farger og mønstre."
@@ -348,10 +348,10 @@
         "type": "flervalg",
         "text": "Hva er et eksempel på et minimumsprodukt?",
         "options": [
-          "En ferdig fabrikk",
-          "Et stort lager av varer",
+          "En ferdig app med alle planlagte funksjoner",
+          "Et stort lager med ferdigproduserte varer",
           "En enkel nettside der folk kan forhåndsbestille",
-          "En TV-reklame"
+          "En detaljert reklamefilm som beskriver produktet"
         ],
         "correct": 2,
         "explain": "Tester etterspørselen billig."
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

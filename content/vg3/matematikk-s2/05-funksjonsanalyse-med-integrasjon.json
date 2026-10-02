@@ -77,8 +77,8 @@
       "options": [
         "f er voksende",
         "f er avtagende",
-        "f krummer opp",
-        "f har et vendepunkt"
+        "f er konstant",
+        "f er negativ"
       ],
       "correct": 1,
       "explain": "Negativ stigning."
@@ -99,10 +99,10 @@
       "id": "q03",
       "text": "Hva er et vendepunkt?",
       "options": [
-        "Der f = 0",
-        "Der f′ = 0",
+        "Der f′ skifter fortegn",
+        "Der f(x) krysser x-aksen",
         "Der f″ skifter fortegn",
-        "Der grafen slutter"
+        "Der f har toppunkt"
       ],
       "correct": 2,
       "explain": "Krumningen endrer seg."
@@ -135,10 +135,10 @@
       "id": "q06",
       "text": "Hva betyr f″(x) > 0?",
       "options": [
-        "f er avtagende",
+        "Grafen krummer ned",
         "Grafen krummer opp",
-        "f har toppunkt",
-        "f er negativ"
+        "f er avtagende",
+        "f(x) er negativ"
       ],
       "correct": 1,
       "explain": "Den deriverte vokser."
@@ -147,10 +147,10 @@
       "id": "q07",
       "text": "Hva gir ∫₁₀¹⁸ B(t) dt når B(t) er besøkende per time?",
       "options": [
-        "Besøkende klokka 18",
-        "Høyeste antall per time",
+        "Antall besøkende per time klokka 18",
+        "Gjennomsnittlig antall besøkende per time fra 10 til 18",
         "Totalt antall besøkende fra 10 til 18",
-        "Gjennomsnitt per minutt"
+        "Endring i antall besøkende per time fra 10 til 18"
       ],
       "correct": 2,
       "explain": "Integralet av en rate."
@@ -159,10 +159,10 @@
       "id": "q08",
       "text": "Hva må du huske når du finner største verdi på et lukket intervall?",
       "options": [
-        "Bare toppunktene",
-        "Bare vendepunktene",
-        "Bare nullpunktene",
-        "Å sjekke endepunktene også"
+        "Største verdi finnes ved å løse f′(x) = 0",
+        "Største verdi finnes ved å finne vendepunktene",
+        "Største verdi finnes ved å finne nullpunktene",
+        "Største verdi finnes ved å sammenligne endepunktene også"
       ],
       "correct": 3,
       "explain": "Største verdi kan ligge i et endepunkt."
@@ -318,9 +318,9 @@
         "text": "Hva gir (1/24) · ∫₀²⁴ T(t) dt for temperaturen T i et døgn?",
         "options": [
           "Døgnmiddeltemperaturen",
-          "Høyeste temperatur",
-          "Temperaturendringen",
-          "Laveste temperatur"
+          "Døgnets høyeste temperatur",
+          "Temperaturendringen gjennom døgnet",
+          "Døgnets laveste temperatur"
         ],
         "correct": 0,
         "explain": "Gjennomsnittsverdien."
@@ -417,6 +417,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

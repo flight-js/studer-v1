@@ -83,10 +83,10 @@
       "id": "q01",
       "text": "Hva er en stereotypi?",
       "options": [
-        "En type musikkanlegg",
-        "En nyansert personskildring",
+        "Et detaljert og nyansert bilde av forskjeller i en gruppe",
+        "En negativ holdning til en person uten å kjenne dem",
         "Et forenklet og fastlåst bilde av en gruppe",
-        "En litterær periode"
+        "En urettferdig handling mot personer fra en gruppe"
       ],
       "correct": 2,
       "explain": "Stereotypier gjør mennesker like og overser forskjellene mellom dem."
@@ -96,9 +96,9 @@
       "text": "Hvorfor skrev Henrik Wergeland diktsamlingene Jøden og Jødinden?",
       "options": [
         "For å få opphevet forbudet mot jøder i Grunnloven",
-        "For å feire grunnlovsdagen",
-        "For å skildre samisk kultur",
-        "For å kritisere kristendommen"
+        "For å feire jødenes adgang til Norge etter opphevelsen av forbudet",
+        "For å skildre jødenes liv i Norge etter unionsoppløsningen i 1905",
+        "For å protestere mot at Norge fikk en egen grunnlov"
       ],
       "correct": 0,
       "explain": "Forbudet ble opphevet i 1851, etter Wergelands død.",
@@ -108,9 +108,9 @@
       "id": "q03",
       "text": "Hva er en multietnolekt?",
       "options": [
-        "Et offisielt skriftspråk",
-        "En dialekt fra Vestlandet",
-        "Et samisk språk",
+        "Et offisielt skriftspråk brukt av ungdom med ulik språkbakgrunn",
+        "En dialektvariant utviklet av ungdom med samme språkbakgrunn",
+        "Et minoritetsspråk brukt av ungdom med ulik språkbakgrunn",
         "En språkvariant preget av ungdom med ulik språkbakgrunn"
       ],
       "correct": 3,
@@ -121,10 +121,10 @@
       "id": "q04",
       "text": "Hva betyr hybrid identitet?",
       "options": [
-        "At man ikke har noen identitet",
+        "En identitet som er knyttet til én kulturell bakgrunn",
         "En identitet som henter noe fra flere kulturer",
-        "At man bytter navn",
-        "At man bare tilhører én kultur"
+        "En identitet som bestemmes av landet man er født i",
+        "En identitet som utvikles uten påvirkning fra kulturell bakgrunn"
       ],
       "correct": 1,
       "explain": "Mange med røtter i flere land beskriver en slik identitet.",
@@ -135,9 +135,9 @@
       "text": "Hvilket spørsmål er nyttig når du analyserer kulturmøter i en tekst?",
       "options": [
         "Hvem forteller, og hvem får stemme?",
-        "Hvor mange sider har boka?",
-        "Hva kostet boka?",
-        "Hvor bor forfatteren nå?"
+        "Hvilke personer møtes, og hvor skjer handlingen?",
+        "Hvilken sjanger har teksten, og hvem skrev den?",
+        "Hvordan er kapitlene ordnet, og hvor lang er teksten?"
       ],
       "correct": 0,
       "explain": "Perspektivet påvirker hvordan kulturene framstilles."
@@ -146,10 +146,10 @@
       "id": "q06",
       "text": "Hva kritiserte Edward Said i Orientalism?",
       "options": [
-        "Norsk litteratur",
-        "Samiske fortellinger",
+        "Østlige, forenklede framstillinger av Vesten",
+        "Vestlige, forenklede framstillinger av Afrika",
         "Vestlige, forenklede framstillinger av «Østen»",
-        "Moderne lyrikk"
+        "Vestlige, nyanserte framstillinger av «Østen»"
       ],
       "correct": 2,
       "explain": "Begrepet orientalisme brukes fortsatt i analyse av kulturmøter.",
@@ -159,10 +159,10 @@
       "id": "q07",
       "text": "Hva er kodeveksling?",
       "options": [
-        "Å bytte passord",
+        "Å oversette en samtale fra ett språk til et annet",
         "Å skifte mellom språk eller språkvarianter i samme samtale",
-        "Å oversette en bok",
-        "Å skrive på nynorsk"
+        "Å tilpasse uttalen til én bestemt dialekt i samtalen",
+        "Å bruke samme språkvariant gjennom hele samtalen"
       ],
       "correct": 1,
       "explain": "Kodeveksling kan vise tilhørighet til flere grupper.",
@@ -172,9 +172,9 @@
       "id": "q08",
       "text": "Hva skildrer Zeshan Shakars Tante Ulrikkes vei?",
       "options": [
-        "Livet på et fiskevær",
-        "Samisk reindrift",
-        "Forbudet mot jøder",
+        "En familie på et fiskevær i Nord-Norge",
+        "En ungdomsgjeng i en samisk bygd",
+        "En jødisk familie i Oslo på 1800-tallet",
         "To unge gutter i Groruddalen"
       ],
       "correct": 3,
@@ -186,9 +186,9 @@
       "text": "Hva er eksotisme?",
       "options": [
         "Å framstille det fremmede som spennende på en overfladisk måte",
-        "Å reise mye",
-        "En type rim",
-        "Å skrive om sin egen kultur"
+        "Å framstille sin egen kultur som spennende på en overfladisk måte",
+        "Å skildre fremmede kulturer på en grundig og nyansert måte",
+        "Å beskrive en kultur gjennom realistiske detaljer fra hverdagen"
       ],
       "correct": 0,
       "explain": "Eksotisme kan gjøre andre kulturer til kulisser.",
@@ -198,10 +198,10 @@
       "id": "q10",
       "text": "Hvordan kan litteratur om kulturmøter påvirke leseren?",
       "options": [
-        "Den kan ikke påvirke noen",
-        "Den gir bare underholdning",
+        "Den kan få leseren til å tro at fordommer bygger på sikre fakta",
+        "Den kan bekrefte at mennesker fra ulike kulturer har faste egenskaper",
         "Den kan skape empati og utfordre fordommer",
-        "Den gjør leseren mer fordomsfull"
+        "Den kan vise at kulturmøter ikke påvirker personers identitet"
       ],
       "correct": 2,
       "explain": "Litteratur lar oss se verden fra andres ståsted."
@@ -335,9 +335,9 @@
         "text": "Hva er en fordom?",
         "options": [
           "En negativ holdning til noen uten å kjenne dem",
-          "En gammel dom i retten",
-          "Et litterært virkemiddel",
-          "En type fortelling"
+          "En fastlåst forestilling om trekk ved en hel gruppe",
+          "En urettferdig handling mot noen på grunn av bakgrunn",
+          "En saklig vurdering av noen etter å ha møtt dem"
         ],
         "correct": 0,
         "explain": "Fordommer kan utfordres gjennom møter og litteratur."
@@ -347,10 +347,10 @@
         "type": "flervalg",
         "text": "Hva betyr det å «gi stemme» til noen i en tekst?",
         "options": [
-          "Å gi dem sangtimer",
-          "Å la dem stemme ved valg",
-          "At de får fortelle selv",
-          "At de ikke nevnes"
+          "At en annen forteller for dem",
+          "At de nevnes uten egne replikker",
+          "At de forteller selv",
+          "At de beskrives uten egne synspunkter"
         ],
         "correct": 2,
         "explain": "Det gir et innenfra-perspektiv."
@@ -360,10 +360,10 @@
         "type": "flervalg",
         "text": "Hvilken roman er skrevet på multietnolekt?",
         "options": [
-          "Min kamp",
+          "Doppler",
           "Alle utlendinger har lukka gardiner",
-          "Peer Gynt",
-          "Et dukkehjem"
+          "Naiv. Super.",
+          "Kompani Orheim"
         ],
         "correct": 1,
         "explain": "Romanen er av Maria Navarro Skaranger.",
@@ -452,6 +452,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

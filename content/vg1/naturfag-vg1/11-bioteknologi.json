@@ -80,10 +80,10 @@
       "id": "q01",
       "text": "Hva er et eksempel på tradisjonell bioteknologi?",
       "options": [
-        "CRISPR",
+        "Bruk av bakterier til å produsere insulin",
         "Bruk av gjær til å bake brød",
-        "Genterapi",
-        "DNA-profiler"
+        "Bruk av CRISPR til å endre DNA",
+        "Bruk av DNA-profiler i kriminalsaker"
       ],
       "correct": 1,
       "explain": "Tradisjonell bioteknologi er tusenvis av år gammel."
@@ -92,10 +92,10 @@
       "id": "q02",
       "text": "Hvordan produseres mye av insulinet diabetikere bruker i dag?",
       "options": [
-        "Av genmodifiserte bakterier",
-        "Fra planter",
-        "Av menneskelige frivillige",
-        "Kjemisk av olje"
+        "Fra genmodifiserte bakterier",
+        "Fra genmodifiserte planter",
+        "Fra menneskeceller dyrket i laboratoriet",
+        "Fra bukspyttkjertler fra griser"
       ],
       "correct": 0,
       "explain": "Bakteriene har fått det menneskelige insulingenet."
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er CRISPR-Cas9?",
       "options": [
-        "En type vaksine",
-        "Et kloningsapparat",
-        "En «gensaks» som kan endre DNA presist",
-        "Et sprøytemiddel"
+        "Et enzym som kopierer DNA i cellen",
+        "En metode som lager kopier av hele organismer",
+        "En gensaks som kan endre DNA presist",
+        "En vaksine som beskytter mot arvelige sykdommer"
       ],
       "correct": 2,
       "explain": "Metoden ga Nobelprisen i kjemi i 2020."
@@ -116,10 +116,10 @@
       "id": "q04",
       "text": "Hva var spesielt med sauen Dolly?",
       "options": [
-        "Den var genmodifisert til å gi mer ull",
-        "Den levde i 100 år",
-        "Den var født på Mars",
-        "Den var det første pattedyret klonet fra en voksen celle"
+        "Det første pattedyret klonet fra en embryocelle",
+        "Det første pattedyret født etter kunstig befruktning",
+        "Det første pattedyret genmodifisert til å lage medisin",
+        "Det første pattedyret klonet fra en voksen celle"
       ],
       "correct": 3,
       "explain": "Dolly ble født i 1996.",
@@ -131,21 +131,21 @@
       "options": [
         "Genteknologiloven",
         "Bioteknologiloven",
-        "Arbeidsmiljøloven",
-        "Opplæringsloven"
+        "Naturmangfoldloven",
+        "Helseforskningsloven"
       ],
       "correct": 0,
-      "explain": "Bioteknologiloven gjelder medisinsk bruk på mennesker.",
+      "explain": "Genteknologiloven regulerer genmodifiserte organismer, mens Bioteknologiloven regulerer medisinsk bruk av bioteknologi på mennesker.",
       "niva": "eksempel"
     },
     {
       "id": "q06",
       "text": "Hva sier føre-var-prinsippet?",
       "options": [
-        "At vi alltid skal ta i bruk ny teknologi",
+        "At vi bør godkjenne teknologi når nytten er dokumentert",
         "At vi bør være forsiktige når risikoen er usikker",
-        "At forskning bør forbys",
-        "At bare eksperter kan bestemme"
+        "At vi bør følge flertallets syn når risikoen er usikker",
+        "At vi bør vurdere ny teknologi ut fra økonomisk gevinst"
       ],
       "correct": 1,
       "explain": "Prinsippet er viktig i debatten om GMO."
@@ -154,10 +154,10 @@
       "id": "q07",
       "text": "Hvorfor er genendringer i kjønnsceller og fostre ekstra omstridt?",
       "options": [
-        "Fordi de er for dyre",
-        "Fordi de er ulovlige i alle land",
+        "Fordi endringene ikke påvirker barnets arvestoff",
+        "Fordi genendringer i fostre først virker etter fødselen",
         "Fordi endringene arves videre til nye generasjoner",
-        "Fordi de ikke virker"
+        "Fordi kjønnsceller ikke overfører gener til avkom"
       ],
       "correct": 2,
       "explain": "Konsekvensene kan vare i mange generasjoner."
@@ -168,11 +168,11 @@
       "options": [
         "Pliktetikk",
         "Dydsetikk",
-        "Føre-var-prinsippet",
+        "Sinnelagsetikk",
         "Konsekvensetikk"
       ],
       "correct": 3,
-      "explain": "Pliktetikk spør om handlingen er riktig i seg selv.",
+      "explain": "Konsekvensetikk vurderer handlinger ut fra følgene de får.",
       "niva": "eksempel"
     },
     {
@@ -180,9 +180,9 @@
       "text": "Hva brukes DNA-profiler til i rettsvesenet?",
       "options": [
         "Å identifisere personer fra spor som hår, blod eller spytt",
-        "Å behandle sykdom",
-        "Å lage nye arter",
-        "Å dyrke planter"
+        "Å undersøke om en person har en arvelig sykdom",
+        "Å finne ut hvilken behandling som passer for en pasient",
+        "Å kartlegge hvilke egenskaper en plante kan arve"
       ],
       "correct": 0,
       "explain": "DNA-profiler har løst mange kriminalsaker."
@@ -191,10 +191,10 @@
       "id": "q10",
       "text": "Hva kjennetegner en god drøfting av et bioteknologisk spørsmål?",
       "options": [
-        "Bare én side presenteres",
+        "Én side presenteres med fagkunnskap og en tydelig konklusjon",
         "Flere sider presenteres med fagkunnskap og en begrunnet konklusjon",
-        "Den er så kort som mulig",
-        "Den bygger bare på følelser"
+        "Flere sider presenteres med personlige meninger og en konklusjon",
+        "Argumenter listes opp uten en begrunnet konklusjon"
       ],
       "correct": 1,
       "explain": "Fagkunnskap og argumenter fra flere sider gir en god drøfting."
@@ -318,7 +318,7 @@
         "text": "Hvilken lov regulerer gentester og fosterdiagnostikk i Norge?",
         "options": [
           "Genteknologiloven",
-          "Arbeidsmiljøloven",
+          "Helseforskningsloven",
           "Bioteknologiloven",
           "Naturmangfoldloven"
         ],
@@ -332,9 +332,9 @@
         "text": "Hva er et argument mot å tillate «designerbabyer»?",
         "options": [
           "Det kan føre til urettferdighet og press om å velge bestemte egenskaper",
-          "Det er for billig",
-          "Det gir mindre forskning",
-          "Det gjør ingen forskjell"
+          "Det kan føre til at valgte genendringer ikke overføres til barnet",
+          "Det kan hindre foreldre i å påvirke barnets arvelige egenskaper",
+          "Det kan føre til at egenskaper velges etter at barnet er født"
         ],
         "correct": 0,
         "explain": "Mange mener det kan endre synet på menneskeverd.",
@@ -345,13 +345,13 @@
         "type": "flervalg",
         "text": "Hva spør pliktetikken om?",
         "options": [
-          "Hvor mye teknologien koster",
+          "Om handlingen gir best resultat for flest berørte personer",
           "Om en handling er riktig eller gal i seg selv",
-          "Hvor mange som får nytte av den",
-          "Hva som er mest effektivt"
+          "Om personen viser gode egenskaper gjennom valget sitt",
+          "Om handlingen bruker minst mulig tid og ressurser"
         ],
         "correct": 1,
-        "explain": "Konsekvensetikken ser på fordeler og ulemper.",
+        "explain": "Pliktetikken vurderer om handlingen er riktig eller gal i seg selv, mens konsekvensetikken ser på følgene.",
         "niva": "eksempel"
       }
     ],
@@ -438,6 +438,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

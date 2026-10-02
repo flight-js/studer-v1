@@ -87,8 +87,7 @@
     },
     {
       "term": "Framing",
-      "def": "The way a story is presented, which influences how readers understand it.",
-      "niva": "eksempel"
+      "def": "The way a story is presented, which influences how readers understand it."
     },
     {
       "term": "Plagiarism",
@@ -109,12 +108,12 @@
     {
       "term": "Diegetic sound",
       "def": "Sound that exists in the story world.",
-      "niva": "over-niva"
+      "niva": "eksempel"
     },
     {
       "term": "Player agency",
       "def": "The player's ability to make choices in a game.",
-      "niva": "over-niva"
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -122,9 +121,9 @@
       "id": "q01",
       "text": "What is a lingua franca?",
       "options": [
-        "A French dialect",
-        "A dead language",
-        "A variety of American English",
+        "A national language shared by people with one first language",
+        "A regional language used by people from one area",
+        "A language used mainly to study ancient texts",
         "A common language between people with different first languages"
       ],
       "correct": 3,
@@ -135,9 +134,9 @@
       "text": "What is hedging?",
       "options": [
         "Careful language that avoids claiming too much",
-        "Using many idioms",
-        "Writing in the passive voice",
-        "Repeating the same word"
+        "Language that makes a claim sound more certain",
+        "Language that replaces verbs with noun forms",
+        "Language that adds examples to support a claim"
       ],
       "correct": 0,
       "explain": "Words like may, might and suggests are typical hedging."
@@ -146,10 +145,10 @@
       "id": "q03",
       "text": "Which sentence is a complex sentence?",
       "options": [
-        "Emissions are rising.",
-        "Emissions are rising, and temperatures are increasing.",
-        "Although many countries have signed agreements, emissions continue to rise.",
-        "Rising emissions."
+        "Emissions continue to rise despite the agreements signed by countries.",
+        "Countries signed agreements, and emissions continued to rise.",
+        "Although countries signed agreements, emissions continue to rise.",
+        "International agreements were signed by countries around the world."
       ],
       "correct": 2,
       "explain": "It has a subordinate clause starting with although."
@@ -170,10 +169,10 @@
       "id": "q05",
       "text": "What is a good strategy if you do not know a word in a discussion?",
       "options": [
-        "Paraphrase – say it in other words",
-        "Stop talking",
-        "Switch to Norwegian",
-        "Change the subject"
+        "Paraphrase the idea using different words",
+        "Repeat the same word more slowly and continue",
+        "Guess its meaning from the spelling and continue",
+        "Switch to a similar-sounding Norwegian word"
       ],
       "correct": 0,
       "explain": "For example: the thing you use to open bottles."
@@ -183,21 +182,21 @@
       "text": "Which text type presents both sides fairly before reaching a balanced conclusion?",
       "options": [
         "A discussion essay",
-        "An argumentative essay",
-        "A blog post",
-        "A speech"
+        "A persuasive essay",
+        "A narrative essay",
+        "A review"
       ],
       "correct": 0,
-      "explain": "An argumentative essay takes one clear position."
+      "explain": "It presents different viewpoints fairly before reaching a balanced conclusion."
     },
     {
       "id": "q07",
       "text": "What is the main point of a literary analysis?",
       "options": [
-        "To retell the whole story",
+        "To retell the plot and describe the characters in order",
         "To analyse and interpret how the text creates meaning",
-        "To say whether you liked it",
-        "To write about the author's life"
+        "To explain your personal reaction and rate the story",
+        "To give the author's background and describe their other books"
       ],
       "correct": 1,
       "explain": "Use evidence from the text to support your interpretation."
@@ -206,10 +205,10 @@
       "id": "q08",
       "text": "Does a paraphrase need a reference?",
       "options": [
-        "No, because you use your own words",
-        "Only if it is long",
+        "No, because paraphrasing changes the original wording",
+        "Only when the paraphrase includes exact words from the source",
         "Yes, because the idea comes from someone else",
-        "Only in MLA style"
+        "Yes, but only when the source is a book"
       ],
       "correct": 2,
       "explain": "Ideas must be credited, not only exact words."
@@ -218,10 +217,10 @@
       "id": "q09",
       "text": "What does good, purposeful use of sources involve?",
       "options": [
-        "Using as many quotations as possible",
-        "Choosing relevant, reliable sources and commenting on them to support your argument",
-        "Copying whole paragraphs",
-        "Only using one source"
+        "Choosing sources mainly because they agree with your argument",
+        "Choosing relevant, reliable sources and explaining how they support your argument",
+        "Using quotations from several sources without explaining their relevance",
+        "Summarising each source without linking it to your argument"
       ],
       "correct": 1,
       "explain": "Sources should support your own thinking."
@@ -230,10 +229,10 @@
       "id": "q10",
       "text": "Why is it important to include different perspectives when discussing diversity?",
       "options": [
-        "To make the text longer",
+        "To compare cultures and decide which is more successful",
         "To avoid stereotypes and give a more complete picture",
-        "Because teachers require it",
-        "It is not important"
+        "To focus on one viewpoint and make the argument clearer",
+        "To present opposing views without checking their accuracy"
       ],
       "correct": 1,
       "explain": "The voices of the people concerned are especially important."
@@ -243,22 +242,22 @@
       "text": "What is diegetic sound?",
       "options": [
         "Sound that exists in the story world",
-        "Background music added for the audience",
-        "A narrator's voice-over",
-        "Silence"
+        "Sound added during editing for the audience",
+        "A narrator's voice outside the story world",
+        "Music heard by viewers but not by characters"
       ],
       "correct": 0,
       "explain": "Dialogue and footsteps are diegetic.",
-      "niva": "over-niva"
+      "niva": "eksempel"
     },
     {
       "id": "q12",
       "text": "Which three aspects should you consider when analysing a cultural expression?",
       "options": [
-        "Price, length and age limit",
+        "Genre, setting and audience",
         "Form, content and effect",
-        "Title, actors and director",
-        "Genre, year and country"
+        "Title, cast and release year",
+        "Camera, editing and soundtrack"
       ],
       "correct": 1,
       "explain": "Analysis connects how it is made with what it means."
@@ -403,7 +402,7 @@
     ]
   },
   "miniprove": {
-    "minutter": 20,
+    "minutter": 45,
     "quizRefs": [
       "q01",
       "q02",
@@ -431,10 +430,10 @@
         "type": "flervalg",
         "text": "Which sentence uses hedging?",
         "options": [
-          "Social media causes depression.",
-          "Social media is always harmful.",
+          "Research confirms that heavy social media use harms mental health.",
+          "Studies show that heavy social media use causes mental health problems.",
           "Research suggests that heavy social media use may affect mental health.",
-          "Everyone knows social media is bad."
+          "Experts agree that heavy social media use damages mental health."
         ],
         "correct": 2,
         "explain": "Suggests and may show caution."
@@ -458,10 +457,10 @@
         "type": "flervalg",
         "text": "What is a good way to use feedback on your text?",
         "options": [
-          "Make a plan for what to change and keep a list of typical mistakes",
-          "Ignore it",
-          "Delete the text and start over",
-          "Only fix the spelling"
+          "Plan changes and track recurring mistakes",
+          "Accept every suggestion without reviewing it",
+          "Rewrite the text from scratch after each comment",
+          "Correct spelling and ignore comments on ideas"
         ],
         "correct": 0,
         "explain": "This helps you improve over time."
@@ -471,13 +470,13 @@
         "type": "flervalg",
         "text": "What is an internal conflict?",
         "options": [
-          "A fight between two armies",
+          "A struggle between a character and another person",
           "A struggle within a character",
-          "A conflict with nature",
-          "A disagreement between two friends"
+          "A struggle between a character and society",
+          "A struggle between a character and nature"
         ],
         "correct": 1,
-        "explain": "The others are external conflicts."
+        "explain": "An internal conflict takes place within one character."
       },
       {
         "id": "m07",
@@ -493,7 +492,7 @@
         "text": "Background music added to a film is non-diegetic sound.",
         "correct": true,
         "explain": "The characters cannot hear it.",
-        "niva": "over-niva"
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -569,12 +568,87 @@
           "Connects historical context to understanding present-day society or issues.",
           "Explains how different perspectives help avoid stereotypes or incomplete accounts."
         ]
+      },
+      {
+        "text": "A student in Norway reads a novel set in India and notices that some characters use Indian English. Explain why English is widely used in India, how Indian English fits into Kachru’s circles, and why it should not automatically be considered incorrect.",
+        "fasit": "English is widely used in India partly because of its colonial history and is still used in government, business and higher education. India belongs to the outer circle because English is an official or second language there. Indian English is a variety with its own features, not simply an incorrect version of another variety.",
+        "kriterier": [
+          "Connects the use of English in India to its colonial history or its role in government, business or higher education.",
+          "Identifies India with the outer circle and recognises Indian English as a valid variety."
+        ],
+        "id": "s09",
+        "niva": "over-niva"
+      },
+      {
+        "text": "A short film about a protest against racial inequality uses low-angle shots of officials, close-ups of people in the march and a protest song. Explain how two of these choices could shape the audience’s response, and connect the song’s role to the use of protest songs in social movements.",
+        "fasit": "The low-angle shots could make the officials seem powerful, while the close-ups could help the audience notice the marchers’ emotions. The protest song can strengthen the film’s message and connect it to the role music has played in social movements, such as the civil rights movement.",
+        "kriterier": [
+          "Explains a possible effect of at least two film choices, such as camera angles, close-ups or music.",
+          "Connects protest songs to social movements."
+        ],
+        "id": "s10"
+      },
+      {
+        "text": "You are writing a report about a new policy. You use a 2023 interview with someone directly affected by it and a 2014 report that discusses several interviews. Explain which source is primary and which is secondary, and how you should use information from them responsibly.",
+        "fasit": "The interview is a primary source because it gives a first-hand account. The report is a secondary source because it discusses other sources. I should select relevant information, make clear which source it comes from, and reference quotations or paraphrases in the report and its reference list.",
+        "kriterier": [
+          "Correctly identifies the interview as a primary source and the report as a secondary source.",
+          "Explains that information should be used purposefully and that quotations or paraphrases need references."
+        ],
+        "id": "s11"
+      },
+      {
+        "text": "In a story, the reader learns early on that a room is dangerous, but the main character does not know this and enters it. The story follows only that character’s thoughts. Explain the point of view and the use of dramatic irony, and describe one effect they may have on the reader.",
+        "fasit": "The story uses a third-person limited point of view because it follows one character’s thoughts. It also uses dramatic irony because the reader knows about the danger while the character does not. This can create suspense as the reader waits to see what happens.",
+        "kriterier": [
+          "Identifies the point of view as third-person limited.",
+          "Explains that the difference between what the reader and character know creates dramatic irony and may create suspense."
+        ],
+        "id": "s12"
+      },
+      {
+        "text": "Correct the grammar in this sentence and briefly explain the changes: “I have lived in Bergen since five years. The news are positive, and if I would have more time, I will visit my cousins.”",
+        "fasit": "I have lived in Bergen for five years. The news is positive, and if I had more time, I would visit my cousins. We use “for” with a period of time, “news” takes a singular verb, and the second conditional uses “if I had” and “I would visit.”",
+        "kriterier": [
+          "Uses “for five years” and the singular verb “is” with “news.”",
+          "Correctly forms the second conditional without “would” in the if-clause."
+        ],
+        "id": "s13"
+      },
+      {
+        "text": "You take keyword notes while listening to a lecture and then use them to write one paragraph for a school report. Explain how signposting and key terms can help with the notes, and how you can organise the paragraph so it has a clear main idea.",
+        "fasit": "Signposting can show how the lecture is organised, while key terms help me identify important information to note down. In the paragraph, a topic sentence can present the main idea, followed by supporting details or examples and a concluding or linking sentence.",
+        "kriterier": [
+          "Explains how signposting and key terms help a listener follow or note important information.",
+          "Describes a paragraph structure with a topic sentence and supporting details, with a concluding or linking sentence."
+        ],
+        "id": "s14"
+      },
+      {
+        "text": "In a video game, the player chooses whether to help another character, and the choice has consequences. Explain how this kind of player agency can affect the experience compared with watching a film about the same situation.",
+        "fasit": "The player is actively involved because they make a choice that can have consequences in the game. In a film, the audience watches events rather than making the character’s choices. This can make the player feel more involved in the situation and its consequences.",
+        "kriterier": [
+          "Explains that player agency means making choices that may have consequences.",
+          "Contrasts the player’s active role with the film audience’s role as a viewer, and explains a possible effect."
+        ],
+        "id": "s15",
+        "niva": "eksempel"
+      },
+      {
+        "text": "A Norwegian learner pronounces “worked”, “played” and “wanted” with the same ending sound, and pronounces the k in “knife”. Explain how these words should be pronounced.",
+        "fasit": "The “-ed” ending is pronounced /t/ in “worked”, /d/ in “played” and /ɪd/ in “wanted”. The k in “knife” is silent.",
+        "kriterier": [
+          "Gives the correct different “-ed” sounds for all three words.",
+          "States that the k in “knife” is silent."
+        ],
+        "id": "s16"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-10-01"
+    "nivasjekk": "2026-10-01",
+    "alternativer": "2026-10-01"
   }
 }

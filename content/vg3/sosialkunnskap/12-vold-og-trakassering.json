@@ -79,10 +79,10 @@
       "id": "q01",
       "text": "Hva er psykisk vold?",
       "options": [
-        "Bare slag og spark",
+        "Slag, spark, dytting og fastholding",
         "Trusler, kontroll, ydmykelser og isolering",
-        "Å ødelegge ting",
-        "Å stjele penger"
+        "Skadeverk, knusing og ødeleggelse av eiendeler",
+        "Tyveri, svindel og økonomisk underslag"
       ],
       "correct": 1,
       "explain": "Kan være like skadelig som fysisk vold."
@@ -92,9 +92,9 @@
       "text": "Hvilket nummer har Alarmtelefonen for barn og unge?",
       "options": [
         "116 111",
+        "112",
         "113",
-        "110",
-        "1881"
+        "110"
       ],
       "correct": 0,
       "explain": "Gratis og åpen.",
@@ -104,10 +104,10 @@
       "id": "q03",
       "text": "Hva er negativ sosial kontroll?",
       "options": [
-        "Positiv oppdragelse",
-        "Politiets kontroll",
+        "At skolen setter felles regler for elevenes hverdag",
+        "At politiet følger opp personer som bryter loven",
         "At familie eller miljø begrenser en persons frihet",
-        "Skolens regler"
+        "At foreldre støtter barn i å ta egne valg"
       ],
       "correct": 2,
       "explain": "Kan være knyttet til ære."
@@ -116,9 +116,9 @@
       "id": "q04",
       "text": "Hva er seksuell trakassering?",
       "options": [
-        "Et kjæresteforhold",
-        "En kompliment man ønsker",
-        "Et samtykke",
+        "Ønsket seksuell oppmerksomhet",
+        "Frivillig seksuell kontakt",
+        "Gjensidig romantisk interesse",
         "Uønsket seksuell oppmerksomhet"
       ],
       "correct": 3,
@@ -129,9 +129,9 @@
       "text": "Hvorfor er barn som opplever vold mellom foreldrene, også utsatt for vold?",
       "options": [
         "Fordi det skader dem selv om de ikke blir slått",
-        "Fordi de alltid blir slått",
-        "Fordi de ikke merker noe",
-        "Det er de ikke"
+        "Fordi barna selv blir slått når foreldrene utøver vold",
+        "Fordi de ikke blir direkte involvert i foreldrenes konflikt",
+        "Fordi vold mellom voksne ikke påvirker barn som hører den"
       ],
       "correct": 0,
       "explain": "Å være vitne til vold er skadelig."
@@ -140,10 +140,10 @@
       "id": "q06",
       "text": "Hvilken samfunnskonsekvens har netthets?",
       "options": [
-        "Bedre debatt",
+        "At folk deltar mer aktivt i offentlig debatt",
         "At folk trekker seg fra offentlig debatt",
-        "Flere journalister",
-        "Høyere tillit"
+        "At netthets fører til mer saklig og respektfull debatt",
+        "At folk får større rom til å ytre seg uten frykt"
       ],
       "correct": 1,
       "explain": "En trussel mot demokratiet."
@@ -152,10 +152,10 @@
       "id": "q07",
       "text": "Hva gjør Statens barnehus?",
       "options": [
-        "Driver barnehager",
-        "Utbetaler barnetrygd",
-        "Avhører og følger opp barn som kan ha vært utsatt for vold eller overgrep",
-        "Dømmer i saker"
+        "Passer og underviser barn som går i barnehage hver dag",
+        "Behandler og avgjør saker om vold mot barn i retten",
+        "Avhører og følger opp barn som kan ha opplevd vold eller overgrep",
+        "Veileder og støtter foreldre som søker om barnetrygd"
       ],
       "correct": 2,
       "explain": "Tilpasset barn.",
@@ -165,9 +165,9 @@
       "id": "q08",
       "text": "Hva er latent vold?",
       "options": [
-        "Vold i filmer",
-        "Vold på nett",
-        "Vold mot ting",
+        "Vold som vises i filmer og TV-serier",
+        "Vold mot ting under en konflikt",
+        "Voldelige handlinger gjennomført på internett",
         "Frykten for ny vold som styrer hverdagen"
       ],
       "correct": 3,
@@ -178,10 +178,10 @@
       "id": "q09",
       "text": "Hvorfor kan det være vanskelig å si fra om vold?",
       "options": [
-        "Skam, frykt, lojalitet og avhengighet",
-        "Fordi det er forbudt",
-        "Fordi ingen vil hjelpe",
-        "Fordi vold ikke er alvorlig"
+        "Fordi de kjenner på skam, frykt, lojalitet og avhengighet",
+        "Fordi det er straffbart å fortelle om vold til andre",
+        "Fordi skolen ikke har lov til å hjelpe ungdom",
+        "Fordi politiet ikke tar imot meldinger om vold"
       ],
       "correct": 0,
       "explain": "Terskelen for å be om hjelp må senkes."
@@ -190,10 +190,10 @@
       "id": "q10",
       "text": "Hvilket tilbud er for personer som utøver vold?",
       "options": [
-        "Krisesenter",
+        "Krisesenter for voldsutsatte",
         "Alternativ til Vold",
-        "Barnehus",
-        "Alarmtelefonen"
+        "Statens barnehus",
+        "Alarmtelefonen for barn"
       ],
       "correct": 1,
       "explain": "Behandling kan forebygge ny vold.",
@@ -323,7 +323,7 @@
           "113",
           "112",
           "110",
-          "116 123"
+          "116 117"
         ],
         "correct": 1,
         "explain": "02800 når det ikke haster.",
@@ -335,9 +335,9 @@
         "text": "Hvilket forebyggende tiltak kan skolen bidra med?",
         "options": [
           "Undervisning om grenser, samtykke og vold",
-          "Mer lekser",
-          "Færre voksne",
-          "Ingen tiltak"
+          "Færre samtaler om grenser, samtykke og trygghet",
+          "Redusert tilsyn i friminuttene og skolegården",
+          "Strengere vurdering av skolefag og fravær"
         ],
         "correct": 0,
         "explain": "Holdningsarbeid."
@@ -348,9 +348,9 @@
         "text": "Hva kan beskytte mot den som utøver vold?",
         "options": [
           "Sosialhjelp",
-          "Studielån",
+          "Dagpenger",
           "Kontaktforbud",
-          "Barnetrygd"
+          "Sykepenger"
         ],
         "correct": 2,
         "explain": "Også kalt besøksforbud.",
@@ -435,6 +435,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

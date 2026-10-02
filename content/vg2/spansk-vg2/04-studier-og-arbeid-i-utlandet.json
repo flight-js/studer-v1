@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva betyr «la beca»?",
       "options": [
-        "banken",
+        "studielånet",
         "stipendet",
-        "stranden",
-        "praksisplassen"
+        "studieavgiften",
+        "studieplassen"
       ],
       "correct": 1,
       "explain": "Mange studenter får beca."
@@ -92,7 +92,7 @@
         "tuviera",
         "tengo",
         "tendría",
-        "tenía"
+        "tuve"
       ],
       "correct": 0,
       "explain": "si + imperfecto de subjuntivo."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hvordan lages imperfecto de subjuntivo?",
       "options": [
-        "Infinitiv + -ía",
-        "yo-form i presens + -a",
-        "ellos-form i indefinido minus -ron + -ra",
-        "Gerundium + -ra"
+        "ellos-form i indefinido uten -ron + -ría",
+        "ellos-form i presens uten -n + -ría",
+        "ellos-form i indefinido uten -ron + -ra",
+        "yo-form i presens uten -o + -ría"
       ],
       "correct": 2,
       "explain": "tuvieron → tuviera."
@@ -113,7 +113,7 @@
       "id": "q04",
       "text": "Hva står i hovedsetningen i en hypotetisk si-setning?",
       "options": [
-        "Presens",
+        "Futuro",
         "Imperfecto de subjuntivo",
         "Indefinido",
         "Condicional"
@@ -126,8 +126,8 @@
       "text": "Hvilket tegn står etter hilsenen i et formelt spansk brev?",
       "options": [
         "Kolon",
+        "Punktum",
         "Komma",
-        "Utropstegn",
         "Semikolon"
       ],
       "correct": 0,
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hva betyr «el voluntariado»?",
       "options": [
-        "viljestyrken",
+        "arbeidspraksis",
         "frivillig arbeid",
-        "militærtjenesten",
-        "avstemningen"
+        "studentutveksling",
+        "militærtjeneste"
       ],
       "correct": 1,
       "explain": "Mange gjør voluntariado i Latin-Amerika."
@@ -152,7 +152,7 @@
         "sería",
         "sea",
         "fuera",
-        "era"
+        "fue"
       ],
       "correct": 2,
       "explain": "fueron → fuera (samme for ir)."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva betyr «Háblame de ti»?",
       "options": [
-        "Snakk med meg!",
-        "Hvor kommer du fra?",
-        "Hvem er du?",
+        "Fortell meg om familien din.",
+        "Spør meg om studiene dine.",
+        "Snakk med meg om jobben.",
         "Fortell om deg selv."
       ],
       "correct": 3,
@@ -174,9 +174,9 @@
       "text": "Hvilken avslutning passer i en formell søknad?",
       "options": [
         "Atentamente",
-        "Besos",
-        "Hasta luego",
-        "Un abrazo"
+        "Hasta pronto",
+        "Un abrazo",
+        "Nos vemos"
       ],
       "correct": 0,
       "explain": "De andre er uformelle."
@@ -185,10 +185,10 @@
       "id": "q10",
       "text": "Hva betyr «Si pudiera elegir, estudiaría en Madrid»?",
       "options": [
-        "Jeg studerer i Madrid.",
+        "Hvis jeg kunne velge, ville jeg jobbet i Madrid.",
         "Hvis jeg kunne velge, ville jeg studert i Madrid.",
-        "Jeg valgte å studere i Madrid.",
-        "Jeg skal studere i Madrid."
+        "Hvis jeg kunne velge, ville jeg studert i Barcelona.",
+        "Hvis jeg kunne velge, studerte jeg i Madrid."
       ],
       "correct": 1,
       "explain": "Hypotetisk situasjon."
@@ -319,7 +319,7 @@
           "hablaría",
           "hablara",
           "hable",
-          "hablaba"
+          "hablé"
         ],
         "correct": 1,
         "explain": "hablaron → hablara."
@@ -330,9 +330,9 @@
         "text": "Hva betyr «las habilidades»?",
         "options": [
           "ferdighetene",
-          "vanene",
-          "boligene",
-          "rommene"
+          "holdningene",
+          "erfaringene",
+          "kvalifikasjonene"
         ],
         "correct": 0,
         "explain": "Mis habilidades incluyen …"
@@ -343,9 +343,9 @@
         "text": "Hva betyr «independiente»?",
         "options": [
           "avhengig",
-          "interessert",
+          "utadvendt",
           "selvstendig",
-          "ubesluttsom"
+          "selvsikker"
         ],
         "correct": 2,
         "explain": "Et år i utlandet kan gjøre deg mer selvstendig."
@@ -430,6 +430,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

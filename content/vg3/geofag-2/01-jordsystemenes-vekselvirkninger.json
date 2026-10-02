@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hvilket system omfatter isbreer, havis og permafrost?",
       "options": [
-        "Hydrosfæren",
+        "Atmosfæren",
         "Kryosfæren",
-        "Litosfæren",
-        "Biosfæren"
+        "Geosfæren",
+        "Pedosfæren"
       ],
       "correct": 1,
       "explain": "Is og snø."
@@ -90,9 +90,9 @@
       "text": "Hva er is–albedo-effekten?",
       "options": [
         "Smeltende is gir mørkere overflate som tar opp mer varme",
-        "Is reflekterer mindre enn hav",
-        "Is smelter aldri",
-        "Is lager vind"
+        "Smeltende is gir lysere overflate som reflekterer mer sollys",
+        "Smeltende is gir mørkere overflate som sender mer varme ut",
+        "Smeltende is gir mørkere overflate som tar opp mindre varme"
       ],
       "correct": 0,
       "explain": "En positiv tilbakekobling."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Hva skjedde etter vulkanutbruddet på Pinatubo i 1991?",
       "options": [
-        "Global oppvarming",
-        "Havnivået sank",
+        "Global oppvarming på omtrent en halv grad",
+        "Global avkjøling på omtrent to grader",
         "Global avkjøling på omtrent en halv grad",
-        "Ingenting"
+        "Global avkjøling på omtrent en hundredels grad"
       ],
       "correct": 2,
       "explain": "Svovelpartikler reflekterte sollys.",
@@ -114,9 +114,9 @@
       "id": "q04",
       "text": "Hvorfor er tining av permafrost en positiv tilbakekobling?",
       "options": [
-        "Den gir mer is",
-        "Den gir mer oksygen",
-        "Den gir mer skog",
+        "Den tar opp metan og CO₂ som gir mer oppvarming",
+        "Den slipper ut metan og CO₂ som gir mindre oppvarming",
+        "Den slipper ut metan og oksygen som gir mer oppvarming",
         "Den slipper ut metan og CO₂ som gir mer oppvarming"
       ],
       "correct": 3,
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hva gjør havet med CO₂ og varme fra atmosfæren?",
       "options": [
-        "Tar opp mye av det og demper klimaendringene",
-        "Slipper ut alt",
-        "Påvirkes ikke",
-        "Lager mer CO₂"
+        "Havet tar opp mye CO₂ og varme og demper klimaendringene",
+        "Havet tar opp lite CO₂ og varme og demper klimaendringene",
+        "Havet tar opp mye CO₂ og varme og forsterker klimaendringene",
+        "Havet tar opp mye CO₂ og kulde og demper klimaendringene"
       ],
       "correct": 0,
       "explain": "Men gir havforsuring."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er en negativ tilbakekobling?",
       "options": [
-        "En som forsterker endringen",
-        "En som demper endringen",
-        "En som er skadelig",
-        "En som stopper alt liv"
+        "En tilbakekobling som forsterker endringen",
+        "En tilbakekobling som demper endringen",
+        "En tilbakekobling som forsinker endringen",
+        "En tilbakekobling som starter endringen"
       ],
       "correct": 1,
       "explain": "For eksempel økt varmestråling fra en varmere jord."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hvordan kan smeltevann påvirke havstrømmer?",
       "options": [
-        "Det gjør havet saltere",
-        "Det har ingen virkning",
+        "Ferskvann er tyngre enn saltvann og kan endre sirkulasjonen",
+        "Ferskvann er lettere enn saltvann og kan øke saltholdigheten",
         "Ferskvann er lettere enn saltvann og kan endre sirkulasjonen",
-        "Det gjør havet kaldere alltid"
+        "Ferskvann er lettere enn saltvann og kan endre tidevannet"
       ],
       "correct": 2,
       "explain": "Tetthetsforskjeller driver havstrømmer."
@@ -162,9 +162,9 @@
       "id": "q08",
       "text": "Hva er et vippepunkt?",
       "options": [
-        "Et punkt på et kart",
-        "En type vulkan",
-        "En værstasjon",
+        "En terskel der endringen blir selvbegrensende",
+        "En terskel der klimaet går tilbake til utgangspunktet",
+        "En terskel der endringen gradvis blir reversert",
         "En terskel der endringen blir selvforsterkende"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Hvordan påvirker forvitring klimaet over lang tid?",
       "options": [
         "Den tar opp CO₂",
-        "Den slipper ut metan",
-        "Den lager is",
-        "Den øker albedo"
+        "Den slipper ut CO₂",
+        "Den tar opp metan",
+        "Den reflekterer sollys"
       ],
       "correct": 0,
       "explain": "Over millioner av år.",
@@ -187,10 +187,10 @@
       "id": "q10",
       "text": "Hvorfor kan skyer virke begge veier på klimaet?",
       "options": [
-        "De består av is",
+        "De reflekterer sollys, men påvirker ikke varmestrålingen",
         "De reflekterer sollys, men holder også på varme",
-        "De lager vind",
-        "De er alltid kalde"
+        "De holder på varme, men påvirker ikke solinnstrålingen",
+        "De absorberer sollys og lar varmen passere uendret"
       ],
       "correct": 1,
       "explain": "Netto virkning avhenger av skytype og høyde."
@@ -314,10 +314,10 @@
         "type": "flervalg",
         "text": "Hva driver havstrømmer i overflaten?",
         "options": [
-          "Månen alene",
+          "Jordrotasjon",
           "Vind",
-          "Vulkaner",
-          "Permafrost"
+          "Vulkanutbrudd",
+          "Kontinentaldrift"
         ],
         "correct": 1,
         "explain": "Også tetthetsforskjeller."
@@ -328,9 +328,9 @@
         "text": "Hva gir smelting av isbreer og innlandsis?",
         "options": [
           "Havnivåstigning",
-          "Havnivåsenkning",
-          "Mer havis",
-          "Kaldere hav alltid"
+          "Havforsuring",
+          "Økt havsaltholdighet",
+          "Stabilt havnivå"
         ],
         "correct": 0,
         "explain": "Havis som smelter, gir lite havnivåendring."
@@ -340,10 +340,10 @@
         "type": "flervalg",
         "text": "Hvordan påvirker platetektonikk klimaet?",
         "options": [
-          "Raskt fra år til år",
-          "Ikke i det hele tatt",
+          "Ved å endre fordelingen av hav og land over kort tid",
+          "Ved å endre fordelingen av skyer og nedbør over geologisk tid",
           "Ved å endre fordelingen av hav og land over geologisk tid",
-          "Bare gjennom jordskjelv"
+          "Ved å endre styrken på solinnstrålingen over geologisk tid"
         ],
         "correct": 2,
         "explain": "Endrer havstrømmer og klima.",
@@ -429,6 +429,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

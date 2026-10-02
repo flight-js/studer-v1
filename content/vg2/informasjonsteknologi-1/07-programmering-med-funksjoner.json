@@ -78,10 +78,10 @@
       "id": "q01",
       "text": "Hva er forskjellen på print og return i en funksjon?",
       "options": [
-        "Det er det samme",
-        "print viser noe på skjermen, return gir verdien tilbake til programmet",
-        "return viser noe på skjermen",
-        "print avslutter programmet"
+        "print gir verdien tilbake til programmet, mens return viser den på skjermen.",
+        "print viser en verdi på skjermen, mens return gir verdien tilbake til programmet.",
+        "print lagrer verdien i en variabel, mens return viser den på skjermen.",
+        "print viser verdien på skjermen, mens return lagrer den i en variabel."
       ],
       "correct": 1,
       "explain": "En returverdi kan brukes videre."
@@ -90,10 +90,10 @@
       "id": "q02",
       "text": "Hva er en parameter?",
       "options": [
-        "En verdi funksjonen får inn",
-        "En kommentar",
-        "En feil",
-        "En løkke"
+        "En verdi funksjonen får inn når den blir kalt.",
+        "En verdi funksjonen gir tilbake når den er ferdig.",
+        "Et navn som viser hvilken verdi funksjonen skal returnere.",
+        "En verdi som bestemmer hvor mange ganger en løkke kjører."
       ],
       "correct": 0,
       "explain": "For eksempel navn i hils_på(navn)."
@@ -114,10 +114,10 @@
       "id": "q04",
       "text": "Hva kjennetegner en lokal variabel?",
       "options": [
-        "Den kan brukes overalt i programmet",
-        "Den er alltid et tall",
-        "Den lagres på tjeneren",
-        "Den finnes bare inne i funksjonen der den lages"
+        "Den kan brukes i alle funksjoner i samme program.",
+        "Den finnes bare mens løkka der den lages, kjører.",
+        "Den lagres utenfor funksjonen og deles med resten av programmet.",
+        "Den finnes bare inne i funksjonen der den blir laget."
       ],
       "correct": 3,
       "explain": "Det hindrer at funksjoner påvirker hverandre."
@@ -126,10 +126,10 @@
       "id": "q05",
       "text": "Hvilken løkke passer når du ikke vet hvor mange ganger den skal gå?",
       "options": [
-        "while-løkke",
-        "for-løkke over en liste med kjent lengde",
-        "if-setning",
-        "En funksjon uten parametere"
+        "while-løkke med en betingelse som avgjør når den stopper",
+        "for-løkke med et bestemt antall runder",
+        "for-løkke gjennom en liste med kjent lengde",
+        "for-løkke med et start- og sluttall"
       ],
       "correct": 0,
       "explain": "Den går så lenge betingelsen er sann."
@@ -138,10 +138,10 @@
       "id": "q06",
       "text": "Hva er en logisk feil?",
       "options": [
-        "En manglende parentes",
-        "At programmet kjører, men gir feil svar",
-        "At programmet ikke starter",
-        "En feilstavet kommentar"
+        "Programmet stopper fordi det mangler en parentes.",
+        "Programmet kjører, men gir et feil svar.",
+        "Programmet starter, men avsluttes med en feilmelding.",
+        "Programmet gir riktig svar, men bruker lang tid."
       ],
       "correct": 1,
       "explain": "Den er ofte vanskeligst å finne."
@@ -150,10 +150,10 @@
       "id": "q07",
       "text": "Hva bør gode kommentarer forklare?",
       "options": [
-        "Hver eneste linje",
-        "Ingenting",
+        "Hvem som skrev koden",
+        "Hvor mange linjer koden har",
         "Hvorfor koden gjør noe",
-        "Hvem som skrev koden"
+        "Hvilket språk koden bruker"
       ],
       "correct": 2,
       "explain": "Koden viser ofte selv hva den gjør."
@@ -175,10 +175,10 @@
       "id": "q09",
       "text": "Hvorfor bør du dele et program i små funksjoner?",
       "options": [
-        "Det gjør koden lettere å lese, teste og gjenbruke",
-        "Det gjør programmet tregere",
-        "Det er påbudt i Python",
-        "Det fjerner alle feil"
+        "Det gjør koden lettere å lese, teste og bruke om igjen.",
+        "Det gjør programmet raskere ved å redusere antall funksjonskall.",
+        "Det gjør at hver funksjon kan endre alle variablene i programmet.",
+        "Det gjør at kommentarer kan erstatte tester av programmet."
       ],
       "correct": 0,
       "explain": "Hver funksjon bør gjøre én ting."
@@ -189,8 +189,8 @@
       "options": [
         "//",
         "#",
-        "<!--",
-        "/*"
+        "/*",
+        "'''"
       ],
       "correct": 1,
       "explain": "// brukes i JavaScript."
@@ -317,7 +317,7 @@
           "1 2 3",
           "0 1 2",
           "0 1 2 3",
-          "3"
+          "0 1 3"
         ],
         "correct": 1,
         "explain": "range(3) gir 0, 1 og 2."
@@ -428,6 +428,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

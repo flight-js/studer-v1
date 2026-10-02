@@ -98,36 +98,36 @@
       "text": "Hva betyr det at ΔH for en reaksjon er negativ?",
       "options": [
         "Reaksjonen er endoterm og tar opp varme",
-        "Reaksjonen kan ikke skje",
+        "Reaksjonen er eksoterm og tar opp varme",
         "Reaksjonen er eksoterm og avgir varme",
-        "Temperaturen i omgivelsene synker"
+        "Reaksjonen er endoterm og avgir varme"
       ],
       "correct": 2,
-      "explain": "Negativ ΔH betyr at produktene har lavere entalpi enn reaktantene. Forskjellen avgis som varme, og omgivelsene blir varmere."
+      "explain": "Negativ ΔH betyr at produktene har lavere entalpi enn reaktantene. Forskjellen frigjøres som varme."
     },
     {
       "id": "q02",
       "text": "Hva skjer energimessig når kjemiske bindinger brytes?",
       "options": [
-        "Det krever energi",
-        "Det frigjøres energi",
-        "Det skjer ingen energiendring",
-        "Det dannes nye atomer"
+        "Det krever energi å bryte bindingen",
+        "Det frigjøres energi når bindingen brytes",
+        "Det krever energi når nye bindinger dannes",
+        "Det skjer ingen energiendring når bindingen brytes"
       ],
       "correct": 0,
-      "explain": "Atomene i en binding tiltrekker hverandre, så det må tilføres energi for å skille dem. Energi frigjøres først når nye bindinger dannes."
+      "explain": "Det må tilføres energi for å skille atomene i en binding. Energi frigjøres når nye bindinger dannes."
     },
     {
       "id": "q03",
       "text": "Et salt løses i vann, og begerglasset blir kaldt. Hva slags prosess er dette?",
       "options": [
         "Eksoterm, ΔH < 0",
-        "Verken eksoterm eller endoterm",
-        "En redoksreaksjon",
+        "Endoterm, ΔH < 0",
+        "Verken endoterm eller eksoterm, ΔH = 0",
         "Endoterm, ΔH > 0"
       ],
       "correct": 3,
-      "explain": "Prosessen tar opp varme fra omgivelsene, altså fra vannet og glasset, som derfor blir kalde. Det er endotermt, og ΔH er positiv."
+      "explain": "Prosessen tar opp varme fra vannet og begerglasset, som derfor blir kaldere. En endoterm prosess har positiv ΔH."
     },
     {
       "id": "q04",
@@ -139,7 +139,7 @@
         "3560 kJ"
       ],
       "correct": 1,
-      "explain": "ΔH gjelder for 1 mol metan, slik likningen står. Dobbelt så mye metan gir dobbelt så mye varme: 2 · 890 kJ = 1780 kJ."
+      "explain": "ΔH gjelder for 1 mol metan slik reaksjonslikningen står. For 2 mol avgis dobbelt så mye varme: 2 · 890 kJ = 1780 kJ."
     },
     {
       "id": "q05",
@@ -163,43 +163,43 @@
         "−200 kJ"
       ],
       "correct": 2,
-      "explain": "Når en likning snus, skifter ΔH fortegn. Den energien som avgis den ene veien, må tilføres den andre veien."
+      "explain": "Når reaksjonslikningen snus, skifter ΔH fortegn. Derfor får reaksjonen B → A ΔH = +100 kJ."
     },
     {
       "id": "q07",
       "text": "Hva sier Hess' lov?",
       "options": [
-        "Energi kan verken skapes eller forsvinne",
-        "Reaksjonsfarten øker med temperaturen",
-        "Varmen i en reaksjon avhenger av hvilken vei den går",
-        "ΔH er den samme uansett hvilken vei reaksjonen går"
+        "ΔH bestemmes av reaksjonsfarten mellom samme reaktanter og produkter",
+        "ΔH er den samme for alle reaksjonsveier ved samme temperatur",
+        "ΔH avhenger av mellomtrinnene mellom samme reaktanter og produkter",
+        "ΔH er den samme for alle reaksjonsveier mellom samme reaktanter og produkter"
       ],
       "correct": 3,
-      "explain": "Entalpi er en tilstandsfunksjon: ΔH avhenger bare av start og slutt, ikke av mellomtrinnene. Derfor kan termokjemiske likninger legges sammen."
+      "explain": "ΔH avhenger bare av startstoffene og produktene, ikke av mellomtrinnene. Derfor kan termokjemiske likninger legges sammen."
     },
     {
       "id": "q08",
       "text": "Bindingsenergier: H–H 436 kJ/mol, Cl–Cl 242 kJ/mol, H–Cl 431 kJ/mol. Hva er omtrent ΔH for H₂ + Cl₂ → 2HCl?",
       "options": [
-        "+247 kJ",
+        "+184 kJ",
         "−184 kJ",
-        "−247 kJ",
-        "+184 kJ"
+        "−678 kJ",
+        "+678 kJ"
       ],
       "correct": 1,
-      "explain": "Bindinger som brytes: 436 + 242 = 678 kJ. Bindinger som dannes: 2 · 431 = 862 kJ. ΔH ≈ 678 − 862 = −184 kJ."
+      "explain": "Energi til å bryte bindinger: 436 + 242 = 678 kJ. Energi frigjort når bindinger dannes: 2 · 431 = 862 kJ. ΔH ≈ 678 − 862 = −184 kJ."
     },
     {
       "id": "q09",
       "text": "Hvilken av disse prosessene er endoterm?",
       "options": [
-        "Forbrenning av ved",
+        "Forbrenning av metan",
         "Nøytralisering av syre med base",
         "Kondensasjon av vanndamp",
         "Fotosyntese"
       ],
       "correct": 3,
-      "explain": "I fotosyntesen tas energi fra sollyset opp og lagres i glukose. Forbrenning, nøytralisering og kondensasjon avgir varme.",
+      "explain": "I fotosyntesen tas energi fra sollyset opp og lagres i glukose. De andre prosessene avgir varme.",
       "niva": "eksempel"
     },
     {
@@ -209,22 +209,22 @@
         "−286 kJ/mol",
         "0 kJ/mol",
         "+100 kJ/mol",
-        "Den kan ikke bestemmes"
+        "−100 kJ/mol"
       ],
       "correct": 1,
-      "explain": "O₂(g) er et grunnstoff i standardtilstand. Da skal ingenting dannes, og dannelsesentalpien er per definisjon 0."
+      "explain": "O₂(g) er et grunnstoff i standardtilstanden sin. Standard dannelsesentalpi for et grunnstoff i standardtilstand er 0 kJ/mol."
     },
     {
       "id": "q11",
       "text": "Hvorfor er forbrenning eksoterm?",
       "options": [
-        "Det trengs energi for å tenne på",
-        "Det dannes gasser",
+        "Bindingene som brytes, er sterkere enn bindingene som dannes",
+        "Det frigjøres mer energi når bindinger brytes enn når de dannes",
         "Bindingene som dannes, er sterkere enn bindingene som brytes",
-        "Oksygen er et grunnstoff"
+        "Reaksjonen avgir varme fordi reaktantene har høyere temperatur"
       ],
       "correct": 2,
-      "explain": "Når bindingene i CO₂ og H₂O dannes, frigjøres mer energi enn det som trengs for å bryte bindingene i brenselet og oksygenet. Overskuddet avgis som varme."
+      "explain": "Det frigjøres mer energi når bindingene i CO₂ og H₂O dannes enn det som kreves for å bryte bindingene i brenselet og oksygenet. Overskuddet avgis som varme."
     },
     {
       "id": "q12",
@@ -236,7 +236,7 @@
         "−125 kJ/mol"
       ],
       "correct": 0,
-      "explain": "2,5 kJ / 0,050 mol = 50 kJ/mol. Reaksjonen avgir varme, så ΔH er negativ: −50 kJ/mol."
+      "explain": "2,5 kJ / 0,050 mol = 50 kJ/mol. Siden reaksjonen avgir varme, er ΔH negativ: −50 kJ/mol."
     }
   ],
   "mindmap": {
@@ -382,7 +382,7 @@
           "−394 kJ"
         ],
         "correct": 1,
-        "explain": "Snu den andre likningen (CO₂ → CO + ½O₂, ΔH = +283 kJ) og legg den til den første: −394 kJ + 283 kJ = −111 kJ."
+        "explain": "Snu den andre likningen, slik at ΔH blir +283 kJ, og legg den til den første: −394 kJ + 283 kJ = −111 kJ."
       },
       {
         "id": "m03",
@@ -397,12 +397,12 @@
         "text": "Hvilken enhet har spesifikk varmekapasitet?",
         "options": [
           "J/(g · °C)",
-          "kJ/mol",
-          "J · g",
-          "°C/J"
+          "kJ/(mol · °C)",
+          "J · g · °C",
+          "J/(g · °C²)"
         ],
         "correct": 0,
-        "explain": "Spesifikk varmekapasitet er varmen per gram per grad, altså J/(g · °C). For vann er den 4,18 J/(g · °C)."
+        "explain": "Spesifikk varmekapasitet er varme per gram per grad, altså J/(g · °C). For vann er den 4,18 J/(g · °C)."
       },
       {
         "id": "m05",
@@ -420,10 +420,10 @@
           "Lavere enn reaktantene",
           "På samme nivå som reaktantene",
           "Høyere enn reaktantene",
-          "Alltid under null"
+          "Høyere enn nullnivået"
         ],
         "correct": 2,
-        "explain": "I en endoterm reaksjon tas energi opp, så produktene får høyere entalpi enn reaktantene."
+        "explain": "En endoterm reaksjon tar opp energi, så produktene får høyere entalpi enn reaktantene."
       },
       {
         "id": "m07",
@@ -527,6 +527,7 @@
       "Bindingsenergiene er gjennomsnittsverdier. Tabellen i læreboka kan ha verdier som avviker med noen kJ/mol.",
       "Entropi og Gibbs fri energi er utelatt, fordi kompetansemålet bare nevner entalpi. Sjekk mot læreboka."
     ],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }

@@ -77,10 +77,10 @@
       "id": "q01",
       "text": "Hva er en valutakurs?",
       "options": [
-        "En rente",
+        "Renten på et lån målt i prosent",
         "Prisen på én valuta målt i en annen",
-        "En skatt på import",
-        "En type aksje"
+        "Avgiften på en vare kjøpt fra utlandet",
+        "Verdien av en aksje målt i en valuta"
       ],
       "correct": 1,
       "explain": "For eksempel 11,50 kroner for én euro."
@@ -90,9 +90,9 @@
       "text": "En vare koster 100 euro, og kursen er 11,50. Hva koster den i kroner?",
       "options": [
         "1150 kr",
-        "115 kr",
-        "11,50 kr",
-        "1000 kr"
+        "11 500 kr",
+        "1115 kr",
+        "1050 kr"
       ],
       "correct": 0,
       "explain": "100 · 11,50."
@@ -101,10 +101,10 @@
       "id": "q03",
       "text": "Kursen på euro går fra 11,50 til 12,00. Hva har skjedd med kronen?",
       "options": [
-        "Den er styrket",
-        "Den er uendret",
-        "Den er svekket",
-        "Den er fast"
+        "Kronen er styrket mot euroen",
+        "Kronen er uendret mot euroen",
+        "Kronen er svekket mot euroen",
+        "Kronen har fått fast kurs mot euroen"
       ],
       "correct": 2,
       "explain": "Du må betale flere kroner for en euro."
@@ -113,10 +113,10 @@
       "id": "q04",
       "text": "Hva skjer ofte med kronen når Norges Bank setter opp renten?",
       "options": [
-        "Den svekkes",
-        "Den forsvinner",
-        "Den blir fast",
-        "Den styrkes"
+        "Kronen svekkes",
+        "Kronen holder seg uendret",
+        "Kronen får fast kurs",
+        "Kronen styrkes"
       ],
       "correct": 3,
       "explain": "Kroner blir mer attraktive å eie."
@@ -125,10 +125,10 @@
       "id": "q05",
       "text": "Hvem tjener på en svak krone?",
       "options": [
-        "Eksportbedrifter",
-        "Nordmenn på utenlandsreise",
-        "Importører",
-        "Forbrukere som kjøper importvarer"
+        "Bedrifter som selger varer til utlandet",
+        "Bedrifter som importerer varer fra utlandet",
+        "Nordmenn som reiser på ferie i utlandet",
+        "Forbrukere som kjøper varer produsert i Norge"
       ],
       "correct": 0,
       "explain": "De får mer i kroner for varene sine."
@@ -137,10 +137,10 @@
       "id": "q06",
       "text": "Hvordan kan en svak krone påvirke prisstigningen?",
       "options": [
-        "Den senker den alltid",
-        "Den kan øke den fordi importvarer blir dyrere",
-        "Den har ingen effekt",
-        "Den gir deflasjon"
+        "Den kan falle fordi importvarer blir dyrere",
+        "Den kan øke fordi importvarer blir dyrere",
+        "Den kan øke fordi importvarer blir billigere",
+        "Den kan falle fordi importvarer blir billigere"
       ],
       "correct": 1,
       "explain": "Importert inflasjon."
@@ -149,10 +149,10 @@
       "id": "q07",
       "text": "Hva skjer ofte med kronen i urolige tider?",
       "options": [
-        "Den styrkes kraftig",
-        "Den blir fast",
+        "Den kan styrkes fordi investorer søker mot store valutaer",
+        "Den kan svekkes fordi investorer søker mot små valutaer",
         "Den kan svekkes fordi investorer søker mot store valutaer",
-        "Den erstattes av euro"
+        "Den kan styrkes fordi investorer søker mot små valutaer"
       ],
       "correct": 2,
       "explain": "Kronen er en liten valuta."
@@ -161,9 +161,9 @@
       "id": "q08",
       "text": "Hva er en ulempe med fast valutakurs?",
       "options": [
-        "Mindre forutsigbarhet",
-        "Mer svingninger",
-        "Høyere oljepris",
+        "Landet får mindre forutsigbarhet i valutahandelen med andre land",
+        "Landet får større svingninger i valutakursen mot andre valutaer",
+        "Landet mister muligheten til å styre skattene for å påvirke økonomien",
         "Landet mister muligheten til å bruke renten til å styre egen økonomi"
       ],
       "correct": 3,
@@ -175,9 +175,9 @@
       "text": "Du veksler 2300 kr til euro med kurs 11,50. Hvor mange euro får du?",
       "options": [
         "200 euro",
-        "264 euro",
-        "2300 euro",
-        "115 euro"
+        "2000 euro",
+        "20 euro",
+        "230 euro"
       ],
       "correct": 0,
       "explain": "2300 ÷ 11,50."
@@ -186,10 +186,10 @@
       "id": "q10",
       "text": "Hvorfor øker verdien av oljefondet i kroner når kronen svekkes?",
       "options": [
-        "Fordi fondet eier norske aksjer",
+        "Fordi fondets norske investeringer får høyere verdi i kroner",
         "Fordi fondet er investert i utenlandsk valuta",
-        "Fordi renten stiger",
-        "Fordi oljeprisen faller"
+        "Fordi fondet får større inntekter fra norske skatter",
+        "Fordi fondet kjøper utenlandsk valuta billigere"
       ],
       "correct": 1,
       "explain": "Utenlandske verdier blir verdt flere kroner.",
@@ -311,10 +311,10 @@
         "type": "flervalg",
         "text": "Hvem taper på en sterk krone?",
         "options": [
-          "Nordmenn på ferie i utlandet",
-          "Eksportbedrifter og reiselivet",
-          "Importører",
-          "Forbrukere"
+          "Bedrifter som importerer varer fra utlandet og norske importører",
+          "Bedrifter som selger varer til utlandet og bedrifter i reiselivet",
+          "Nordmenn på utenlandsreise og forbrukere av importvarer",
+          "Bedrifter med utenlandske leverandører og norske importører"
         ],
         "correct": 1,
         "explain": "De får svekket konkurranseevne."
@@ -325,9 +325,9 @@
         "text": "Hva øker tilbudet av kroner i valutamarkedet?",
         "options": [
           "At nordmenn kjøper utenlandske varer",
-          "At utlendinger kjøper norsk fisk",
-          "At turister besøker Norge",
-          "At renten i Norge stiger"
+          "At utlendinger kjøper norske varer",
+          "At nordmenn kjøper norske varer",
+          "At norske turister veksler euro til kroner"
         ],
         "correct": 0,
         "explain": "Nordmenn selger kroner for å få valuta."
@@ -337,10 +337,10 @@
         "type": "flervalg",
         "text": "Hvordan demper en sterkere krone prisstigningen?",
         "options": [
-          "Ved å gjøre eksporten dyrere",
-          "Ved å øke lønningene",
+          "Ved å gjøre importvarer dyrere",
+          "Ved å gjøre norske varer billigere for utenlandske kjøpere",
           "Ved å gjøre importvarer billigere",
-          "Ved å senke renten"
+          "Ved å gjøre utenlandske varer dyrere for norske kjøpere"
         ],
         "correct": 2,
         "explain": "En del av pengepolitikkens virkning."
@@ -424,6 +424,7 @@
   "kvalitet": {
     "status": "utkast",
     "merknader": [],
-    "nivasjekk": "2026-09-29"
+    "nivasjekk": "2026-09-29",
+    "alternativer": "2026-10-01"
   }
 }
