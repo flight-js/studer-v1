@@ -531,7 +531,10 @@ export function Fokusfelt() {
         <span className="hidden lg:block text-sm text-background/55">
           Ekte begreper fra Studer · klikk på et ord for forklaringen
         </span>
-        <span className="lg:hidden text-[13px] text-background/55">Trykk på et ord</span>
+        {/* Bakgrunn, fordi lampa kan lyse opp ordene rett bak hintet. */}
+        <span className="lg:hidden rounded-full bg-natt/70 backdrop-blur-sm px-3 py-1.5 text-[13px] text-background/60">
+          Trykk på et ord
+        </span>
         <button
           type="button"
           className="ff-bytt inline-flex items-center gap-2 rounded-full border border-natt-linje bg-natt/70 backdrop-blur-sm px-3.5 py-2 text-sm font-medium text-background/80 transition-colors duration-200 hover:text-background hover:border-background/40 active:scale-[0.98]"
