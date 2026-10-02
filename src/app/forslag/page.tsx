@@ -61,13 +61,13 @@ function Skjema() {
         <div className="flex flex-wrap justify-center gap-3 mt-1">
           <button
             onClick={() => setSendt(false)}
-            className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+            className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
           >
             Send et nytt forslag
           </button>
           <Link
             href="/"
-            className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+            className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
           >
             Fortsett å øve
             <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
@@ -143,7 +143,7 @@ function Skjema() {
         <button
           type="submit"
           disabled={sender}
-          className="self-start inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98] disabled:opacity-60"
+          className="self-start inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98] disabled:opacity-60"
         >
           {sender ? "Sender …" : "Send forslaget"}
         </button>

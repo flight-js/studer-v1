@@ -112,7 +112,7 @@ function Abonnement() {
   const fortsett = (
     <Link
       href={neste ?? "/"}
-      className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+      className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
     >
       {neste ? "Fortsett" : "Til startsiden"}
       <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
@@ -166,7 +166,7 @@ function Abonnement() {
                 setProvetidKjop(false);
                 setSteg("velg");
               }}
-              className="group mt-2 inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+              className="group mt-2 inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
             >
               Velg abonnement
               <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
@@ -227,7 +227,7 @@ function Abonnement() {
               <button
                 onClick={() => endre("fortsett")}
                 disabled={jobber}
-                className="mt-4 inline-flex items-center bg-primary text-white px-5 py-3 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98] disabled:opacity-60"
+                className="mt-4 inline-flex items-center bg-primary text-white px-5 py-3 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98] disabled:opacity-60"
               >
                 {venter ? "Oppdaterer …" : "Fortsett abonnementet"}
               </button>
@@ -333,7 +333,7 @@ function Abonnement() {
             <button
               onClick={tilBetaling}
               disabled={jobber}
-              className="group self-start inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98] disabled:opacity-60"
+              className="group self-start inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98] disabled:opacity-60"
             >
               {jobber ? "Åpner betaling …" : visProve ? "Start gratis prøveperiode" : "Til betaling"}
               {!jobber && <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />}
@@ -342,14 +342,14 @@ function Abonnement() {
             <div className="flex flex-wrap items-center gap-3">
               <Link
                 href={`/registrer?neste=${encodeURIComponent(tilbakeHit)}`}
-                className="group inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+                className="group inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
               >
                 Lag konto og prøv gratis
                 <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />
               </Link>
               <Link
                 href={`/logg-inn?neste=${encodeURIComponent(tilbakeHit)}`}
-                className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+                className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
               >
                 Jeg har konto
               </Link>
@@ -549,7 +549,7 @@ function Betalingsskjema({
           <button
             onClick={betal}
             disabled={!kanBetale || betaler}
-            className="inline-flex items-center justify-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
+            className="inline-flex items-center justify-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <Lock size={16} />
             {betaler ? "Behandler …" : knapp}
@@ -584,7 +584,7 @@ function Planvalg({
       role="radio"
       aria-checked={valgt}
       onClick={onVelg}
-      className={`flex flex-col gap-4 text-left rounded-2xl p-5 sm:p-6 border-[1.5px] transition-[border-color,background-color,transform] duration-200 active:scale-[0.99] ${
+      className={`flex flex-col gap-4 text-left rounded-2xl p-5 sm:p-6 border-[1.5px] transition-[border-color,background-color,translate,scale] duration-200 active:scale-[0.99] ${
         valgt ? "bg-primary-tint border-primary" : "bg-surface border-border hover:border-border-strong"
       }`}
     >

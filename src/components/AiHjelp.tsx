@@ -198,7 +198,7 @@ function AiHjelp({
       role="dialog"
       aria-label="AI-hjelp"
       hidden={!apen}
-      className="w-[min(24rem,calc(100vw-2.5rem))] bg-surface border border-border rounded-3xl shadow-lift flex flex-col rise"
+      className="w-[min(24rem,calc(100vw-2.5rem))] bg-surface border border-border rounded-3xl shadow-lift flex flex-col ai-panel"
     >
       <div className="flex items-center justify-between px-5 pt-5 pb-3">
         <span className="text-sm font-semibold">AI-hjelp</span>
@@ -316,7 +316,7 @@ function AiHjelp({
                 type="submit"
                 disabled={skriver || !utkast.trim()}
                 aria-label="Send"
-                className="shrink-0 w-10.5 h-10.5 rounded-xl bg-foreground text-background flex items-center justify-center disabled:opacity-40 active:scale-[0.95] transition-[opacity,transform]"
+                className="shrink-0 w-10.5 h-10.5 rounded-xl bg-foreground text-background flex items-center justify-center disabled:opacity-40 active:scale-[0.95] transition-[opacity,translate,scale]"
               >
                 <ArrowUp size={18} />
               </button>

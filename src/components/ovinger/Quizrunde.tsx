@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { sporAi } from "@/components/AiHjelp";
+import { AltRiktig } from "@/components/AltRiktig";
 import { ArrowRight, Chat, Check, Close, Repeat } from "@/components/icons";
 import { Ekstramerke } from "@/components/Ekstramerke";
 import { Ovingstopp } from "@/components/Ovingsramme";
@@ -93,7 +94,7 @@ export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: strin
         {done ? (
           <Result score={score} total={total} onRestart={restart} temaId={temaId} />
         ) : (
-          <div key={index} className="w-full max-w-2xl mx-auto flex flex-col gap-7 rise">
+          <div key={index} className="w-full max-w-2xl mx-auto flex flex-col gap-7 rise-rask">
             <div className="flex items-start justify-between gap-4">
               <p className="shrink-0 flex items-center gap-2.5 whitespace-nowrap text-sm font-medium text-muted">
                 Spørsmål {index + 1}
@@ -115,7 +116,7 @@ export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: strin
                     key={i}
                     onClick={() => choose(i)}
                     disabled={answered}
-                    className={`group flex items-center gap-4 text-left rounded-2xl px-4 py-3.5 sm:py-4 border-[1.5px] transition-[border-color,background-color,opacity,transform] duration-200 ${
+                    className={`group flex items-center gap-4 text-left rounded-2xl px-4 py-3.5 sm:py-4 border-[1.5px] transition-[border-color,background-color,opacity,translate,scale] duration-200 ${
                       right
                         ? "bg-success-tint border-success text-success-ink"
                         : wrong
@@ -145,7 +146,7 @@ export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: strin
             {answered && (
               <div
                 role="status"
-                className={`rise rounded-2xl px-5 py-4 flex gap-3.5 ${
+                className={`rise-rask rounded-2xl px-5 py-4 flex gap-3.5 ${
                   isCorrect ? "bg-success-tint" : "bg-danger-tint"
                 }`}
               >
@@ -164,7 +165,7 @@ export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: strin
                   {!isCorrect && (
                     <button
                       onClick={() => sporAi(forklarTekst(q, selected!))}
-                      className="mt-2 self-start inline-flex items-center gap-2 bg-surface border border-border px-3.5 py-2 rounded-lg text-sm font-semibold text-foreground hover:border-border-strong transition-colors active:scale-[0.98]"
+                      className="mt-2 self-start inline-flex items-center gap-2 bg-surface border border-border px-3.5 py-2 rounded-lg text-sm font-semibold text-foreground hover:border-border-strong transition-[color,background-color,border-color,scale] active:scale-[0.98]"
                     >
                       <Chat size={16} />
                       Forklar med AI
@@ -182,7 +183,7 @@ export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: strin
                 <button
                   onClick={next}
                   autoFocus
-                  className="group ml-auto inline-flex items-center gap-2 bg-foreground text-background px-6 py-3.5 rounded-xl text-sm font-semibold transition-transform duration-200 active:scale-[0.98] rise"
+                  className="group ml-auto inline-flex items-center gap-2 bg-foreground text-background px-6 py-3.5 rounded-xl text-sm font-semibold transition-transform duration-200 active:scale-[0.98] rise-rask"
                 >
                   {index + 1 >= total ? "Se resultat" : "Neste spørsmål"}
                   <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
@@ -215,6 +216,7 @@ function Result({
       : "Et godt sted å starte. Prøv flashcardsene, og ta quizen igjen etterpå.";
   return (
     <div className="w-full max-w-xl mx-auto my-auto flex flex-col items-center text-center gap-6 rise">
+      {all && <AltRiktig />}
       <p className="text-sm font-medium text-muted">Quiz fullført</p>
       <div className="font-display text-7xl sm:text-8xl font-semibold tracking-[-0.03em] tabular-nums">
         {score}
@@ -224,14 +226,14 @@ function Result({
       <div className="flex flex-wrap justify-center gap-3 mt-2">
         <button
           onClick={onRestart}
-          className="inline-flex items-center gap-2 border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+          className="inline-flex items-center gap-2 border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
         >
           <Repeat size={16} />
           Ta quizen igjen
         </button>
         <Link
           href={temaHref(all ? "/miniprove" : "/flashcards", temaId)}
-          className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+          className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
         >
           {all ? "Ta miniprøven" : "Øv med flashcards"}
           <ArrowRight size={16} />

@@ -31,7 +31,7 @@ export default function KontoPage() {
         <main id="innhold" className="flex-1 flex flex-col items-center justify-center gap-5 px-5 py-24 text-center rise">
           <h1 className="font-display text-3xl sm:text-4xl font-semibold tracking-[-0.02em]">Kontoen er slettet</h1>
           <p className="text-lg text-ink-soft max-w-[40ch]">Takk for at du brukte Studer. Du er velkommen tilbake når som helst.</p>
-          <Link href="/" className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]">
+          <Link href="/" className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]">
             Til forsiden
           </Link>
         </main>
@@ -67,14 +67,14 @@ export default function KontoPage() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/"
-              className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+              className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
             >
               Fortsett å øve
               <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
             </Link>
             <Link
               href="/abonnement"
-              className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+              className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
             >
               {harAbonnement(profil)
                 ? "Administrer abonnement"
@@ -84,7 +84,7 @@ export default function KontoPage() {
             </Link>
             <Link
               href="/nytt-passord"
-              className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+              className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
             >
               Bytt passord
             </Link>

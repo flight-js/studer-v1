@@ -233,7 +233,7 @@ function ModeCard({
   return (
     <Link
       href={lenke}
-      className="group flex items-center gap-4 rounded-2xl p-5 sm:p-6 border bg-surface border-border hover:border-primary/50 hover:shadow-card transition-[border-color,box-shadow,transform] duration-200 active:scale-[0.99]"
+      className="group flex items-center gap-4 rounded-2xl p-5 sm:p-6 border bg-surface border-border hover:border-primary/50 hover:shadow-card transition-[border-color,box-shadow,translate,scale] duration-200 active:scale-[0.99]"
     >
       <span
         className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${
@@ -256,7 +256,7 @@ function ModeCard({
       ) : (
         <ChevronRight
           size={20}
-          className="shrink-0 text-faint transition-[transform,color] duration-200 group-hover:translate-x-0.5 group-hover:text-primary"
+          className="shrink-0 text-faint transition-[translate,scale,color] duration-200 group-hover:translate-x-0.5 group-hover:text-primary"
         />
       )}
     </Link>

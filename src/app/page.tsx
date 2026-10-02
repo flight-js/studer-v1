@@ -11,7 +11,7 @@ import { oktNokkel } from "@/lib/supabase";
 
 
 const btnPrimary =
-  "inline-flex items-center justify-center gap-2 bg-primary text-white rounded-xl font-semibold transition-[background-color,transform,box-shadow] duration-200 hover:bg-primary-dark hover:shadow-[0_10px_24px_-12px_rgba(44,75,212,0.7)] active:scale-[0.98]";
+  "inline-flex items-center justify-center gap-2 bg-primary text-white rounded-xl font-semibold transition-[background-color,translate,scale,box-shadow] duration-200 hover:bg-primary-dark hover:shadow-[0_10px_24px_-12px_rgba(44,75,212,0.7)] active:scale-[0.98]";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -476,7 +476,7 @@ function Plan({
       </ul>
       <Link
         href={`/abonnement?plan=${plan}`}
-        className={`mt-auto text-center px-4 py-3.5 rounded-xl text-sm font-semibold transition-[background-color,transform,border-color] duration-200 active:scale-[0.98] ${
+        className={`mt-auto text-center px-4 py-3.5 rounded-xl text-sm font-semibold transition-[background-color,translate,scale,border-color] duration-200 active:scale-[0.98] ${
           featured
             ? "bg-background text-foreground hover:bg-white"
             : "border-[1.5px] border-border-strong text-foreground hover:border-foreground"

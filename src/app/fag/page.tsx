@@ -166,7 +166,7 @@ function Fagvalg() {
                     role="radio"
                     aria-checked={active}
                     onClick={() => velgFag(trinn.id, f.id)}
-                    className={`group flex flex-col gap-3 text-left rounded-2xl p-4.5 sm:p-5 border transition-[border-color,background-color,transform] duration-200 active:scale-[0.99] ${
+                    className={`group flex flex-col gap-3 text-left rounded-2xl p-4.5 sm:p-5 border transition-[border-color,background-color,translate,scale] duration-200 active:scale-[0.99] ${
                       active
                         ? "bg-primary-tint border-primary"
                         : "bg-surface border-border hover:border-border-strong"

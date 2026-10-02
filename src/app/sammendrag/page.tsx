@@ -74,11 +74,11 @@ function Sammendrag() {
             </div>
 
             {visning === "tekst" ? (
-              <article id="panel-tekst" role="tabpanel" className="max-w-[68ch] rise">
+              <article id="panel-tekst" role="tabpanel" className="max-w-[68ch] rise-rask">
                 <Sammendragtekst kilde={data.sammendrag} />
               </article>
             ) : (
-              <section id="panel-kart" role="tabpanel" aria-label="Tankekart" className="rise">
+              <section id="panel-kart" role="tabpanel" aria-label="Tankekart" className="rise-rask">
                 <Tankekart rot={data.tankekart} />
               </section>
             )}
@@ -86,14 +86,14 @@ function Sammendrag() {
             <div className="flex flex-wrap gap-3 pt-6 border-t border-border">
               <Link
                 href={temaHref("/flashcards", id)}
-                className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+                className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
               >
                 Øv med flashcards
                 <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
               </Link>
               <Link
                 href={temaHref("/quiz", id)}
-                className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+                className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
               >
                 Ta quizen
               </Link>

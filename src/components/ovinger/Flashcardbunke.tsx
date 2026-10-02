@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Dot } from "@/components/Dot";
+import { AltRiktig } from "@/components/AltRiktig";
 import { Ekstramerke } from "@/components/Ekstramerke";
 import { ArrowRight, Check, Close, Repeat } from "@/components/icons";
 import { Ovingstopp } from "@/components/Ovingsramme";
@@ -88,6 +89,7 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
       <main id="innhold" className="flex-1 flex flex-col items-center justify-center gap-8 px-5 pt-10 pb-28">
         {done || !card ? (
           <div className="w-full max-w-md flex flex-col items-center text-center gap-6 rise">
+            {retries === 0 && <AltRiktig />}
             <p className="text-sm font-medium text-muted">Bunken er ferdig</p>
             <h1 className="font-display text-5xl sm:text-6xl font-semibold tracking-[-0.025em]">
               Alle {total} kort sitter
@@ -100,14 +102,14 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
             <div className="flex flex-wrap justify-center gap-3 mt-2">
               <button
                 onClick={restart}
-                className="inline-flex items-center gap-2 border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+                className="inline-flex items-center gap-2 border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-[color,background-color,border-color,scale] active:scale-[0.98]"
               >
                 <Repeat size={16} />
                 Start på nytt
               </button>
               <Link
                 href={temaHref("/quiz", temaId)}
-                className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+                className="inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-[color,background-color,border-color,scale] active:scale-[0.98]"
               >
                 Test deg med quiz
                 <ArrowRight size={16} />
@@ -116,7 +118,7 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
           </div>
         ) : (
           <>
-            <div key={current + "-" + retries + "-" + known.size} className="flip-scene w-full max-w-lg rise">
+            <div key={current + "-" + retries + "-" + known.size} className="flip-scene w-full max-w-lg rise-rask">
               <button
                 onClick={() => setFlipped((v) => !v)}
                 data-flipped={flipped}
@@ -156,14 +158,14 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
             <div className="flex gap-3 w-full max-w-lg">
               <button
                 onClick={() => answer(false)}
-                className="flex-1 flex items-center justify-center gap-2 bg-surface border-[1.5px] border-border-strong px-5 py-4 rounded-2xl text-sm font-semibold hover:border-danger hover:text-danger-ink transition-colors duration-200 active:scale-[0.98]"
+                className="flex-1 flex items-center justify-center gap-2 bg-surface border-[1.5px] border-border-strong px-5 py-4 rounded-2xl text-sm font-semibold hover:border-danger hover:text-danger-ink transition-[color,background-color,border-color,scale] duration-200 active:scale-[0.98]"
               >
                 <Close size={18} />
                 Kan ikke ennå
               </button>
               <button
                 onClick={() => answer(true)}
-                className="flex-1 flex items-center justify-center gap-2 bg-success text-white px-5 py-4 rounded-2xl text-sm font-semibold hover:brightness-110 transition-[filter,transform] duration-200 active:scale-[0.98]"
+                className="flex-1 flex items-center justify-center gap-2 bg-success text-white px-5 py-4 rounded-2xl text-sm font-semibold hover:brightness-110 transition-[filter,translate,scale] duration-200 active:scale-[0.98]"
               >
                 <Check size={18} />
                 Kan dette

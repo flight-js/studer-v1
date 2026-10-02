@@ -72,7 +72,7 @@ export function Knapp({
     <button
       type="submit"
       disabled={laster || deaktivert}
-      className={`mt-1 inline-flex items-center justify-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[background-color,transform,opacity] duration-200 active:scale-[0.98] disabled:opacity-60 disabled:hover:bg-primary ${laster ? "cursor-wait" : "disabled:cursor-not-allowed"}`}
+      className={`mt-1 inline-flex items-center justify-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-base font-semibold hover:bg-primary-dark transition-[background-color,translate,scale,opacity] duration-200 active:scale-[0.98] disabled:opacity-60 disabled:hover:bg-primary ${laster ? "cursor-wait" : "disabled:cursor-not-allowed"}`}
     >
       {children}
     </button>

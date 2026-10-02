@@ -72,14 +72,14 @@ export function Rapporter({
         Rapporter
       </button>
       {apen && (
-        <div role="group" aria-label="Hva er galt?" className={`flex flex-wrap gap-2 rise ${JUSTER[plassering]}`}>
+        <div role="group" aria-label="Hva er galt?" className={`flex flex-wrap gap-2 rise-rask ${JUSTER[plassering]}`}>
           {GRUNNER.map((g) => (
             <button
               key={g.id}
               type="button"
               disabled={status === "sender"}
               onClick={() => send(g.id)}
-              className="px-3 py-2 rounded-lg border border-border bg-surface text-xs font-semibold hover:border-border-strong transition-colors active:scale-[0.98] disabled:opacity-50"
+              className="px-3 py-2 rounded-lg border border-border bg-surface text-xs font-semibold hover:border-border-strong transition-[color,background-color,border-color,scale] active:scale-[0.98] disabled:opacity-50"
             >
               {g.tekst}
             </button>
