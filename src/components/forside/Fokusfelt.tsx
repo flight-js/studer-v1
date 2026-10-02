@@ -293,13 +293,15 @@ export function Fokusfelt() {
       auto?.kill();
       auto = null;
     };
-    const startAuto = (forsinkelse = 3.2) => {
+    // Lampa bruker vel et sekund på å flytte seg, så med 2,6 sekunder mellom
+    // hvert sted hviler den omtrent et sekund før den går videre.
+    const startAuto = (forsinkelse = 2) => {
       stoppAuto();
       if (rolig() || !synlig) return;
       styring = "auto";
       auto = gsap.delayedCall(forsinkelse, function neste() {
         tilfeldig();
-        auto = gsap.delayedCall(4.4, neste);
+        auto = gsap.delayedCall(2.6, neste);
       });
     };
     const autoOm = (sekunder: number) => {
@@ -353,7 +355,7 @@ export function Fokusfelt() {
     }
     // Introen har satt startverdiene selv; nå kan CSS-skjulingen fjernes.
     document.documentElement.classList.remove("fs-intro");
-    startAuto(4.2);
+    startAuto(2.6);
 
     // Mus og penn: lampa følger pekeren.
     const tilFelt = (e: PointerEvent) => {
