@@ -64,6 +64,21 @@ export function Bevegelse() {
             tilY(e.clientY - b.top - b.height / 2);
           };
           cta.addEventListener("pointermove", flyttGlod);
+
+          // Berøringsskjermer har ingen mus å følge: der driver gløden sakte
+          // fram og tilbake mens avslutningen er synlig.
+          if (window.matchMedia("(hover: none)").matches) {
+            const drift = gsap
+              .timeline({ repeat: -1, yoyo: true, paused: true, defaults: { duration: 4.5, ease: "sine.inOut" } })
+              .to(glod, { x: () => cta.offsetWidth * 0.2, y: () => -cta.offsetHeight * 0.12 })
+              .to(glod, { x: () => -cta.offsetWidth * 0.18, y: () => cta.offsetHeight * 0.1 });
+            ScrollTrigger.create({
+              trigger: cta,
+              start: "top bottom",
+              end: "bottom top",
+              onToggle: (st) => (st.isActive ? drift.play() : drift.pause()),
+            });
+          }
         }
 
         return () => {
