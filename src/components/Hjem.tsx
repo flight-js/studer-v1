@@ -80,7 +80,7 @@ export function Hjem() {
     <div data-forside className="flex flex-col flex-1 bg-natt text-background">
       <Bevegelse />
 
-      <header className="fs-meny fs-natt fixed inset-x-0 top-0 z-40 backdrop-blur-md">
+      <header className="fs-meny fs-natt fixed inset-x-0 top-0 z-40">
         <div className="max-w-6xl mx-auto flex items-center justify-between gap-4 px-5 sm:px-8 h-16">
           <Link href="/" aria-label="Studer – hjem" className="rounded-md">
             <Logo className="text-[26px]" />
@@ -100,7 +100,7 @@ export function Hjem() {
       <main id="innhold" className="flex flex-col flex-1">
         {/* Natt: pulten */}
         <section aria-labelledby="hei" className="fs-natt relative overflow-hidden">
-          <div className="max-w-6xl mx-auto px-5 sm:px-8 pt-[calc(7rem+env(safe-area-inset-top))] sm:pt-[calc(9rem+env(safe-area-inset-top))] pb-16 lg:pb-24">
+          <div className="max-w-6xl mx-auto px-5 sm:px-8 pt-28 sm:pt-36 pb-16 lg:pb-24">
             <div className="flex flex-col gap-4">
               <p className="rise text-sm font-medium text-background/65 first-letter:uppercase">{dato}</p>
               <h1

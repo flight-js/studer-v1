@@ -18,7 +18,7 @@ export function AuthRamme({
   bunn?: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col flex-1 pt-[env(safe-area-inset-top)]">
+    <div className="flex flex-col flex-1">
       <header className="max-w-5xl w-full mx-auto px-5 sm:px-8 h-16 flex items-center">
         <Link href="/" aria-label="Studer – forsiden" className="rounded-md">
           <Logo className="text-2xl" />

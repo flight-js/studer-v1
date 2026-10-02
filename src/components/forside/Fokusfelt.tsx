@@ -34,9 +34,8 @@ type Punkt = { x: number; y: number; venstre: number; topp: number; bunn: number
 type Boks = { l: number; t: number; r: number; b: number };
 
 // Øverste kant lampa og notatet kan bruke: under toppmenyen, og på smale
-// skjermer også under «Bytt begrep»-knappen. Menyen er høyere på iPhone
-// (luft for klokka), så høyden måles.
-const ovreKant = (bredde: number, meny: number) => meny + (bredde < 1024 ? 64 : 8);
+// skjermer også under «Bytt begrep»-knappen.
+const ovreKant = (bredde: number) => (bredde < 1024 ? 128 : 72);
 const NOTAT_H = 150; // anslått høyde på notatet før det er målt
 // Hvor lenge lyset må hvile på et ord før definisjonen vises (sekunder):
 // med mus regnes det fra siste musebevegelse, ellers fra lyset stoppet.
@@ -76,7 +75,6 @@ export function Fokusfelt() {
 
     let punkter: Punkt[] = [];
     let radius = 150;
-    let menyHoyde = 64;
     let bredde = 0;
     let hoyde = 0;
     const lys = { x: 0, y: 0 };
@@ -122,7 +120,7 @@ export function Fokusfelt() {
       const l = Math.min(Math.max(p.venstre, 16), bredde - w - 16);
       for (const t of [p.bunn + 12, p.topp - h - 12]) {
         const boks = { l, t, r: l + w, b: t + h };
-        if (t < ovreKant(bredde, menyHoyde) || boks.b > hoyde - 16) continue;
+        if (t < ovreKant(bredde) || boks.b > hoyde - 16) continue;
         if (unnta.some((u) => overlapper(u, boks))) continue;
         return boks;
       }
@@ -136,7 +134,6 @@ export function Fokusfelt() {
       bredde = r.width;
       hoyde = r.height;
       radius = lampe.offsetWidth / 2;
-      menyHoyde = document.querySelector<HTMLElement>(".fs-meny")?.offsetHeight ?? 64;
       unnta = malUnnta(r);
       // På smale skjermer står ordene over teksten. Masken i globals.css
       // toner dem ut fra der teksten begynner, som avhenger av skjermhøyden.
@@ -161,7 +158,7 @@ export function Fokusfelt() {
             : (p.x / bredde / 0.62) ** 2 + ((hoyde - p.y) / hoyde / 0.64) ** 2 > 0.75;
         const lysbar =
           synlig &&
-          p.topp > ovreKant(bredde, menyHoyde) &&
+          p.topp > ovreKant(bredde) &&
           p.x > radius * 0.45 &&
           p.x < bredde - radius * 0.45 &&
           !unnta.some((u) => overlapper(u, ord));
@@ -530,7 +527,7 @@ export function Fokusfelt() {
         </div>
       </div>
 
-      <div className="absolute z-20 right-4 top-[calc(76px+env(safe-area-inset-top))] lg:top-auto lg:right-8 lg:bottom-8 flex items-center gap-4">
+      <div className="absolute z-20 right-4 top-[76px] lg:top-auto lg:right-8 lg:bottom-8 flex items-center gap-4">
         <span className="hidden lg:block text-sm text-background/55">
           Ekte begreper fra Studer · klikk på et ord for forklaringen
         </span>

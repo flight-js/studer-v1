@@ -388,7 +388,7 @@ export function Pensumkart() {
 
   return (
     <div ref={rot} data-klar={klar || undefined} className="grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] gap-x-16">
-      <div className="sticky top-[calc(4rem+env(safe-area-inset-top))] lg:top-[12vh] z-10 h-[44svh] lg:h-[76vh] -mx-5 px-5 sm:-mx-8 sm:px-8 lg:mx-0 lg:px-0 bg-natt flex flex-col justify-center py-4 lg:py-0">
+      <div className="sticky top-16 lg:top-[12vh] z-10 h-[44svh] lg:h-[76vh] -mx-5 px-5 sm:-mx-8 sm:px-8 lg:mx-0 lg:px-0 bg-natt flex flex-col justify-center py-4 lg:py-0">
         {/* Lerretet står absolutt, så det er flaten som bestemmer størrelsen og ikke omvendt. */}
         <div ref={flate} className="relative flex-1 min-h-0">
           <canvas

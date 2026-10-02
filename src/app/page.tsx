@@ -81,7 +81,7 @@ function Markedsside() {
     <div data-forside className="kun-utlogget flex flex-col flex-1 bg-natt text-background">
       <Bevegelse />
 
-      <header className="fs-meny fs-natt fixed inset-x-0 top-0 z-40 backdrop-blur-md">
+      <header className="fs-meny fs-natt fixed inset-x-0 top-0 z-40">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-5 sm:px-8 h-16">
           <Link href="/" aria-label="Studer – forsiden" className="rounded-md">
             <Logo className="text-[26px]" />

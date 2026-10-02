@@ -15,7 +15,7 @@ export function AppBar({
   children?: React.ReactNode;
 }) {
   return (
-    <header className="dekk-topp sticky top-0 z-40 bg-background/85 backdrop-blur-md border-b border-border">
+    <header className="dekk-topp sticky top-0 z-40 bg-background lg:bg-background/85 border-b border-border">
       <div className="max-w-5xl mx-auto flex items-center justify-between gap-4 px-5 sm:px-8 h-16">
         <Link
           href={back}
