@@ -7,12 +7,16 @@ const IKONER: Record<string, typeof Instagram> = { Instagram, TikTok };
 
 // Lenkene som skal finnes nederst overalt: forslag, vilkår, personvern og
 // kontakt til venstre, profilene våre i sosiale medier til høyre.
-export function Bunnlenker({ className = "" }: { className?: string }) {
-  const lenke = "hover:text-foreground transition-colors";
+// mork: på mørk bakgrunn (bunnen av forsiden).
+export function Bunnlenker({ className = "", mork = false }: { className?: string; mork?: boolean }) {
+  const lenke = `${mork ? "hover:text-background" : "hover:text-foreground"} transition-colors`;
   const profiler = SOSIALE_MEDIER.filter((p) => p.url);
   return (
     <div className={`flex flex-wrap items-center justify-between gap-x-6 gap-y-4 ${className}`}>
-      <nav aria-label="Om Studer" className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted">
+      <nav
+        aria-label="Om Studer"
+        className={`flex flex-wrap gap-x-6 gap-y-2 text-sm ${mork ? "text-background/60" : "text-muted"}`}
+      >
         <Link href="/forslag" className={lenke}>
           Send forslag
         </Link>
@@ -38,7 +42,11 @@ export function Bunnlenker({ className = "" }: { className?: string }) {
                   rel="noopener noreferrer"
                   aria-label={`Studer på ${p.navn}`}
                   title={p.navn}
-                  className="flex p-2 rounded-lg text-muted hover:text-foreground hover:bg-sunken transition-colors"
+                  className={`flex p-2 rounded-lg transition-colors ${
+                    mork
+                      ? "text-background/60 hover:text-background hover:bg-natt-hevet"
+                      : "text-muted hover:text-foreground hover:bg-sunken"
+                  }`}
                 >
                   {Ikon && <Ikon size={20} />}
                 </a>

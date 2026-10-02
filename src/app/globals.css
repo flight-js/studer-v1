@@ -23,6 +23,13 @@
   --danger: #c43d3d;
   --danger-ink: #8c2626;
   --danger-tint: #f9e8e6;
+  /* Forsiden: natt (leselampa) og dag. Lampegult og merkepennen brukes bare der. */
+  --natt: #0f1014;
+  --natt-hevet: #181a21;
+  --natt-linje: rgba(247, 244, 238, 0.12);
+  --lampe: #ffd98c;
+  --merke: #f6e05e;
+  --merke-dark: #e9cf35;
   /* --font-fraunces og --font-instrument-sans kommer fra next/font (app/layout.tsx). */
   --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
   --font-body: var(--font-instrument-sans), ui-sans-serif, system-ui, sans-serif;
@@ -52,6 +59,12 @@
   --color-danger: var(--danger);
   --color-danger-ink: var(--danger-ink);
   --color-danger-tint: var(--danger-tint);
+  --color-natt: var(--natt);
+  --color-natt-hevet: var(--natt-hevet);
+  --color-natt-linje: var(--natt-linje);
+  --color-lampe: var(--lampe);
+  --color-merke: var(--merke);
+  --color-merke-dark: var(--merke-dark);
   --font-display: var(--font-display);
   --font-body: var(--font-body);
   --shadow-card: var(--shadow-card);
@@ -204,3 +217,210 @@ body::before {
   display: none;
 }
 
+
+/* ───────────────────────── Forsiden ─────────────────────────
+   Se app/page.tsx og components/forside/. Lenis styrer rullingen der, så
+   nettleserens egen myke rulling må av mens Lenis er på. */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+html.lenis {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Toppmenyen bytter farge etter flaten under: natt (standard) eller dag. */
+.fs-meny {
+  --meny-bg: rgba(15, 16, 20, 0.78);
+  --meny-tekst: var(--background);
+  --meny-dempet: rgba(247, 244, 238, 0.68);
+  --meny-hover: rgba(247, 244, 238, 0.08);
+  --meny-linje: var(--natt-linje);
+  background: var(--meny-bg);
+  color: var(--meny-tekst);
+  border-bottom: 1px solid var(--meny-linje);
+  transition: background-color 360ms var(--ease-out-soft), color 360ms var(--ease-out-soft),
+    border-color 360ms var(--ease-out-soft);
+}
+.fs-meny[data-flate="dag"] {
+  --meny-bg: rgba(247, 244, 238, 0.86);
+  --meny-tekst: var(--foreground);
+  --meny-dempet: var(--ink-soft);
+  --meny-hover: var(--sunken);
+  --meny-linje: var(--border);
+}
+.fs-meny[data-topp="true"] {
+  --meny-bg: transparent;
+  --meny-linje: transparent;
+}
+.fs-menylenke {
+  color: var(--meny-dempet);
+}
+.fs-menylenke:hover {
+  color: var(--meny-tekst);
+  background: var(--meny-hover);
+}
+.fs-menyknapp {
+  background: var(--merke);
+  color: var(--foreground);
+}
+.fs-menyknapp:hover {
+  background: var(--merke-dark);
+}
+.fs-meny[data-flate="dag"] .fs-menyknapp {
+  background: var(--foreground);
+  color: var(--background);
+}
+.fs-meny[data-flate="dag"] .fs-menyknapp:hover {
+  background: #000;
+}
+
+/* Ikonet som popper fram når man svarer i flashcard-demoen. Med redusert
+   bevegelse kortes dette ned til ingenting (se over). */
+@keyframes fs-ikon {
+  from {
+    opacity: 0;
+    transform: scale(0.4) rotate(-25deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fs-ikon {
+  animation: fs-ikon 380ms var(--ease-out-soft) both;
+}
+
+/* Mørke flater: fokusringen i merkegult, så den synes mot natten. */
+.fs-natt :focus-visible,
+.fs-meny:not([data-flate="dag"]) :focus-visible {
+  outline-color: var(--merke);
+}
+.fs-meny[data-flate="dag"] :focus-visible {
+  outline-color: var(--primary);
+}
+
+/* Stegene i «Slik funker det»: de som ikke er i fokus, dempes – bare når
+   JavaScript styrer dem, ellers står alle like tydelig. */
+[data-klar] .fs-steg:not([data-aktiv]) {
+  opacity: 0.38;
+}
+
+/* Overskrifter som kommer inn ord for ord. Hele teksten ligger i en sr-only-
+   kopi; ordene er aria-hidden og synlige også uten JavaScript. */
+/* Masken har god luft rundt ordet, så aksenter (É) og descendere (p, g)
+   i Fraunces ikke kuttes – den skal bare skjule ordet før det kommer inn. */
+.ord-maske {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  padding: 0.1em 0.06em 0.28em;
+  margin: -0.1em -0.06em -0.28em;
+}
+.ord {
+  display: inline-block;
+}
+
+/* Før JavaScript har tatt over, er heroens lampe og felt skjult (bare når
+   bevegelse er tillatt; se skriptet i app/page.tsx). Faller tilbake til synlig
+   etter 2,5 s hvis animasjonen aldri starter. */
+html.fs-intro .ff-intro {
+  opacity: 0;
+  animation: ff-reserve 0s linear 2.5s forwards;
+}
+@keyframes ff-reserve {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Leselampa (components/forside/Fokusfelt.tsx) */
+.ff-felt {
+  position: absolute;
+  inset: 0;
+  container-type: size;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 96px, #000 30%, rgba(0, 0, 0, 0.06) 50%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 96px, #000 30%, rgba(0, 0, 0, 0.06) 50%);
+}
+@media (min-width: 1024px) {
+  .ff-felt {
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 110px),
+      radial-gradient(ellipse 62% 64% at 0% 100%, rgba(0, 0, 0, 0.08) 45%, #000 100%);
+    -webkit-mask-composite: source-in;
+    mask-image: linear-gradient(to bottom, transparent 0, #000 110px),
+      radial-gradient(ellipse 62% 64% at 0% 100%, rgba(0, 0, 0, 0.08) 45%, #000 100%);
+    mask-composite: intersect;
+  }
+}
+.ff-tekst {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100cqw;
+  height: 100cqh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 0.18em 0.62em;
+  padding: 88px max(20px, 3.5cqw) 0;
+  font-family: var(--font-display);
+  font-size: clamp(25px, 3.25cqw, 52px);
+  line-height: 1.22;
+  letter-spacing: -0.012em;
+  white-space: nowrap;
+  user-select: none;
+}
+.ff-tekst .fremmed {
+  font-style: italic;
+}
+.ff-dim {
+  color: rgba(247, 244, 238, 0.2);
+  filter: blur(2.4px);
+}
+.ff-lampe {
+  --r: clamp(108px, 12.5cqw, 188px);
+  --lx: 70cqw;
+  --ly: 34cqh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc(var(--r) * 2);
+  height: calc(var(--r) * 2);
+  transform: translate3d(calc(var(--lx) - var(--r)), calc(var(--ly) - var(--r)), 0);
+  -webkit-mask-image: radial-gradient(circle closest-side, #000 52%, transparent 100%);
+  mask-image: radial-gradient(circle closest-side, #000 52%, transparent 100%);
+  will-change: transform;
+}
+.ff-glod {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle closest-side, rgba(255, 217, 140, 0.2), rgba(255, 217, 140, 0.06) 60%, transparent);
+}
+.ff-innhold {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate3d(calc(var(--r) - var(--lx)), calc(var(--r) - var(--ly)), 0);
+  will-change: transform;
+}
+.ff-skarp {
+  color: #fff6e4;
+}
+.ff-skarp [data-aktiv] {
+  color: var(--merke);
+}
+.ff-notat {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: min(300px, calc(100cqw - 64px));
+  pointer-events: none;
+}
+.ff-notat-kort {
+  visibility: hidden;
+  opacity: 0;
+}

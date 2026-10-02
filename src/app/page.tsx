@@ -1,21 +1,29 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { Bunnlenker } from "@/components/Bunnlenker";
-import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
-import { FagOversikt, ForsideMeny, Startside } from "@/components/Forside";
+import { ForsideMeny, Startside } from "@/components/Forside";
+import { Bevegelse } from "@/components/forside/Bevegelse";
+import { Fokusfelt } from "@/components/forside/Fokusfelt";
+import { Ordtittel } from "@/components/forside/Ordtittel";
+import { Ovingsformer } from "@/components/forside/Ovingsformer";
+import { Pensumkart } from "@/components/forside/Pensumkart";
 import { ArrowRight, Check } from "@/components/icons";
+import { EKSEMPEL, KATALOG, TELLING } from "@/lib/forsidedata";
+import { DRIVER, SKOLE } from "@/lib/juridisk";
 import { ARLIG_SPARING, FORDELER, PRIS, PROVEDAGER, type Plan as Abonnement } from "@/lib/priser";
 import { BESKRIVELSE, DELING, NAVN, NETTSTED, SOSIALE_MEDIER, TITTEL } from "@/lib/seo";
-import { oktNokkel } from "@/lib/supabase";
 
-
-const btnPrimary =
-  "inline-flex items-center justify-center gap-2 bg-primary text-white rounded-xl font-semibold transition-[background-color,transform,box-shadow] duration-200 hover:bg-primary-dark hover:shadow-[0_10px_24px_-12px_rgba(44,75,212,0.7)] active:scale-[0.98]";
+// Forsiden for utloggede. Den går fra natt (leselampa og hele pensum som
+// prikker) til dag (øvingsformene, fagene og prisen) og tilbake til natt.
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
   openGraph: { ...DELING, title: TITTEL, description: BESKRIVELSE, url: "/" },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0f1014",
 };
 
 // Strukturerte data, så Google vet hva Studer er og viser riktig navn og logo.
@@ -52,11 +60,6 @@ export default function Home() {
         // Faste data fra koden, ingen brukerinnhold – trygt å sette inn som de er.
         dangerouslySetInnerHTML={{ __html: JSON.stringify(strukturerteData) }}
       />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `try{if(localStorage.getItem(${JSON.stringify(oktNokkel)}))document.documentElement.classList.add("har-okt")}catch(e){}`,
-        }}
-      />
       <Startside>
         <Markedsside />
       </Startside>
@@ -64,360 +67,232 @@ export default function Home() {
   );
 }
 
+const ctaGul =
+  "group inline-flex items-center justify-center gap-2 rounded-xl bg-merke text-foreground font-semibold transition-[background-color,transform,box-shadow] duration-200 hover:bg-merke-dark hover:shadow-[0_14px_36px_-14px_rgba(246,224,94,0.6)] active:scale-[0.98]";
+const menyLenke =
+  "fs-menylenke px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-colors duration-200";
+const menyKnapp =
+  "fs-menyknapp inline-flex items-center justify-center gap-2 rounded-xl font-semibold whitespace-nowrap transition-[background-color,transform] duration-200 active:scale-[0.98]";
+const tittel = "font-semibold tracking-[-0.03em] leading-[0.98] text-5xl sm:text-6xl lg:text-7xl";
+
 function Markedsside() {
   return (
-    <div className="kun-utlogget flex flex-col flex-1">
-      <header className="sticky top-0 z-40 bg-background/85 backdrop-blur-md border-b border-border">
-        <div className="max-w-6xl mx-auto flex items-center justify-between px-5 sm:px-8 h-18">
+    <div data-forside className="kun-utlogget flex flex-col flex-1 bg-natt text-background">
+      <Bevegelse />
+
+      <header className="fs-meny fs-natt fixed inset-x-0 top-0 z-40 backdrop-blur-md">
+        <div className="max-w-7xl mx-auto flex items-center justify-between px-5 sm:px-8 h-16">
           <Link href="/" aria-label="Studer – forsiden" className="rounded-md">
-            <Logo className="text-[28px]" />
+            <Logo className="text-[26px]" />
           </Link>
           <nav aria-label="Hovedmeny" className="flex items-center gap-1 sm:gap-2">
-            <NavLink href="#slik">Slik funker det</NavLink>
-            <NavLink href="#priser">Priser</NavLink>
-            <ForsideMeny lenke={navLinkCls} knapp={btnPrimary} />
+            <a href="#slik" className={`${menyLenke} hidden md:inline-flex`}>
+              Slik funker det
+            </a>
+            <a href="#priser" className={`${menyLenke} hidden md:inline-flex`}>
+              Priser
+            </a>
+            <ForsideMeny lenke={`${menyLenke} inline-flex`} knapp={menyKnapp} />
           </nav>
         </div>
       </header>
 
       <main id="innhold">
-        {/* Hero */}
-        <section className="max-w-6xl mx-auto px-5 sm:px-8 pt-14 pb-20 lg:pt-24 lg:pb-32 grid lg:grid-cols-[1.1fr_1fr] gap-14 lg:gap-10 items-center">
-          <div className="flex flex-col gap-7 rise">
-            <p className="text-sm font-medium text-muted flex items-center gap-2.5">
-              <span className="w-6 h-px bg-border-strong" aria-hidden="true" />
-              <span>
-                8. trinn til Vg3<Dot />studiespesialiserende
-              </span>
-            </p>
-            <h1 className="font-display text-[44px] leading-[1.02] sm:text-6xl lg:text-[76px] font-semibold tracking-[-0.025em]">
-              Alt pensum.
-              <br />
-              <span className="italic font-normal text-primary">Ett sted</span> å øve.
-            </h1>
-            <p className="text-lg leading-relaxed text-ink-soft max-w-[34ch]">
-              Flashcards, quiz og miniprøver for hvert tema i hvert fag. Ferdig
-              laget, klart til å øve på.
-            </p>
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-4 mt-1">
-              <Link href="/registrer" className={`${btnPrimary} group px-6.5 py-4 text-base`}>
-                Prøv gratis i {PROVEDAGER} dager
-                <ArrowRight
-                  size={18}
-                  className="transition-transform duration-200 group-hover:translate-x-0.5"
-                />
-              </Link>
-              <a
-                href="#slik"
-                className="text-base font-semibold text-foreground underline decoration-border-strong decoration-2 underline-offset-[6px] hover:decoration-primary transition-colors duration-200"
+        {/* Hero: leselampa */}
+        <section aria-labelledby="hero-tittel" className="fs-natt relative isolate overflow-hidden bg-natt">
+          <Fokusfelt />
+          <div className="relative z-10 max-w-7xl mx-auto min-h-[max(100svh,640px)] px-5 sm:px-8 flex flex-col justify-end pb-12 sm:pb-16 lg:pb-20">
+            <div data-fokus-unnta className="max-w-[48rem] flex flex-col gap-6">
+              <p className="text-sm font-medium text-background/65">For 8.&nbsp;trinn til Vg3 · etter LK20</p>
+              <h1
+                id="hero-tittel"
+                className="font-semibold text-[46px] leading-[0.96] sm:text-7xl lg:text-[96px] tracking-[-0.035em]"
               >
-                Se hvordan det funker
-              </a>
+                Alt pensum.
+                <br />
+                Ett tema om gangen.
+              </h1>
+              <p className="text-lg sm:text-xl leading-relaxed text-background/75 max-w-[40ch]">
+                Flashcards, quiz og miniprøver til hvert tema i hvert fag. Ferdig laget etter
+                læreplanen, så du kan bruke tiden på å øve.
+              </p>
+              <div className="flex flex-wrap items-center gap-x-7 gap-y-4 mt-2">
+                <Link href="/registrer" className={`${ctaGul} px-6.5 py-4 text-base`}>
+                  Prøv gratis i {PROVEDAGER} dager
+                  <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />
+                </Link>
+                <a
+                  href="#slik"
+                  className="text-base font-semibold underline decoration-background/30 decoration-2 underline-offset-[6px] hover:decoration-merke transition-colors duration-200"
+                >
+                  Se hvordan det funker
+                </a>
+              </div>
             </div>
           </div>
-
-          <HeroStack />
         </section>
 
-        {/* Slik funker det */}
-        <section
-          id="slik"
-          className="scroll-mt-20 border-t border-border bg-surface/60"
-        >
-          <div className="max-w-6xl mx-auto px-5 sm:px-8 py-20 lg:py-28 grid lg:grid-cols-[0.8fr_1.2fr] gap-12 lg:gap-20">
-            <div className="flex flex-col gap-5 lg:sticky lg:top-32 self-start">
-              <h2 className="font-display text-4xl sm:text-5xl font-semibold tracking-[-0.02em] leading-[1.05]">
-                Slik funker det
-              </h2>
-              <p className="text-lg leading-relaxed text-ink-soft max-w-[38ch]">
-                Tre valg, så er du i gang. Alt innhold er allerede laget ut fra
-                læreplanen, så du slipper å lage kortene selv.
+        {/* Slik funker det: hele pensum som prikker */}
+        <section id="slik" aria-labelledby="slik-tittel" className="fs-natt relative bg-natt border-t border-natt-linje">
+          <div className="max-w-7xl mx-auto px-5 sm:px-8 pt-24 lg:pt-36 pb-16 lg:pb-24">
+            <div className="grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] gap-x-16 gap-y-6 items-end pb-8 lg:pb-0">
+              <Ordtittel id="slik-tittel" className={tittel}>
+                Hele pensum, prikk for prikk.
+              </Ordtittel>
+              <p className="text-lg leading-relaxed text-background/70 max-w-[38ch]">
+                Hver prikk er ett tema i Studer – {TELLING.temaer} til sammen. Slik finner du fram til
+                det du skal øve på.
               </p>
             </div>
-
-            <ol className="relative flex flex-col">
-              <span
-                className="absolute left-[19px] top-6 bottom-6 w-px bg-border-strong"
-                aria-hidden="true"
-              />
-              <Step n={1} label="Velg trinn" value="Vg2" hint="8. trinn til Vg3" />
-              <Step n={2} label="Velg fag" value="Kjemi 1" hint="Fellesfag og programfag" />
-              <Step
-                n={3}
-                label="Velg tema"
-                value="Syrer, baser og pH"
-                hint="Begreper, formler og definisjoner"
-              />
-              <Step
-                n={4}
-                label="Øv"
-                value="Flashcards, quiz eller miniprøve"
-                hint="Du ser hvor mye av temaet du har gått gjennom"
-                last
-              />
-            </ol>
+            <Pensumkart />
           </div>
         </section>
 
-        {/* Øvingsformer */}
-        <section className="max-w-6xl mx-auto px-5 sm:px-8 py-20 lg:py-28 flex flex-col gap-12">
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
-            <h2 className="font-display text-4xl sm:text-5xl font-semibold tracking-[-0.02em] leading-[1.05] max-w-[14ch]">
-              Fire måter å øve på
-            </h2>
-            <p className="text-ink-soft max-w-[36ch] leading-relaxed">
-              Samme tema, ulike vinkler. Bytt når det begynner å gå på autopilot.
+        {/* Dag: øvingsformene, fagene og prisen */}
+        <div data-flate="dag" className="bg-background text-foreground">
+          <section aria-labelledby="ov-tittel" className="max-w-7xl mx-auto px-5 sm:px-8 pt-24 lg:pt-36 pb-16">
+            <div className="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-x-16 gap-y-6 items-end mb-12 lg:mb-16">
+              <Ordtittel id="ov-tittel" className={tittel}>
+                Fire måter å øve på.
+              </Ordtittel>
+              <p className="text-lg leading-relaxed text-ink-soft max-w-[42ch]">
+                Samme tema, fire vinkler. Bytt når det begynner å gå på autopilot. Eksemplene er fra{" "}
+                {EKSEMPEL.tema} i {EKSEMPEL.fag}.
+              </p>
+            </div>
+            <Ovingsformer />
+            <p className="border-t border-border pt-8 text-lg text-ink-soft">
+              Hvert tema har også et sammendrag og et tankekart, så du kan lese deg opp før du øver.
             </p>
-          </div>
+          </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-6 gap-4">
-            <Tile className="md:col-span-4 md:row-span-2" title="Flashcards" text="Begreper, formler og definisjoner. Snu kortet, svar ærlig, og de du ikke kan kommer tilbake.">
-              <div className="relative h-44 sm:h-56 mt-2">
-                <div className="absolute inset-x-8 sm:inset-x-16 top-4 bottom-0 rounded-2xl bg-sunken border border-border rotate-[-3deg]" />
-                <div className="absolute inset-x-4 sm:inset-x-10 top-0 bottom-4 rounded-2xl bg-surface border border-border shadow-card flex flex-col items-center justify-center gap-2 text-center px-6">
-                  <span className="text-xs font-medium text-faint">Begrep</span>
-                  <span className="font-display text-2xl sm:text-3xl font-semibold">
-                    Aktiveringsenergi
-                  </span>
-                </div>
+          <section id="fag" aria-labelledby="fag-tittel" className="bg-sunken/70 border-y border-border">
+            <div className="max-w-7xl mx-auto px-5 sm:px-8 py-24 lg:py-32">
+              <div className="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-x-16 gap-y-6 items-end">
+                <Ordtittel id="fag-tittel" className={tittel}>
+                  {`${TELLING.fag} fag, fra 8. trinn til Vg3.`}
+                </Ordtittel>
+                <p className="text-lg leading-relaxed text-ink-soft max-w-[42ch]">
+                  Fellesfag og studieforberedende programfag. Mangler faget ditt?{" "}
+                  <Link
+                    href="/forslag"
+                    className="font-semibold text-foreground underline decoration-border-strong decoration-2 underline-offset-4 hover:decoration-foreground"
+                  >
+                    Send oss et forslag
+                  </Link>
+                  .
+                </p>
               </div>
-            </Tile>
-            <Tile className="md:col-span-2" title="Quiz" text="Flervalg med forklaring på hvert svar.">
-              <div className="flex flex-col gap-1.5 mt-1">
-                <MiniOption state="right">Øker den</MiniOption>
-                <MiniOption state="wrong">Senker den</MiniOption>
+              <div data-vis-gruppe className="mt-14 lg:mt-20 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-12">
+                {KATALOG.map((t) => (
+                  <div key={t.id} data-vis>
+                    <h3 className="text-xl font-semibold pb-3 mb-4 border-b border-border-strong">{t.navn}</h3>
+                    <ul className="flex flex-col gap-2 text-[15px] leading-snug text-ink-soft">
+                      {t.fag.map((f) => (
+                        <li key={f.id}>
+                          <Link
+                            href={`/fag?trinn=${t.id}&fag=${f.id}`}
+                            className="hover:text-primary transition-colors duration-200"
+                          >
+                            {f.navn}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
-            </Tile>
-            <Tile className="md:col-span-2" title="Miniprøver" text="Skriv svarene selv, på tid. KI retter, og delvis riktig gir halvt poeng.">
-              <div className="font-display text-4xl font-semibold tabular-nums tracking-tight text-foreground/90 mt-1">
-                14:32
-              </div>
-            </Tile>
-            <Tile className="md:col-span-6" title="AI-hjelp" text="Spør når noe er uklart. Svarene holder seg til pensumet i faget du øver på." horizontal>
-              <div className="flex flex-col gap-2 w-full max-w-md">
-                <div className="self-end bg-foreground text-background rounded-2xl rounded-br-md px-4 py-2.5 text-sm">
-                  Hva er forskjellen på eksoterm og endoterm?
-                </div>
-                <div className="self-start bg-sunken rounded-2xl rounded-bl-md px-4 py-2.5 text-sm text-ink-soft">
-                  Eksoterm avgir energi til omgivelsene, endoterm tar opp energi …
-                </div>
-              </div>
-            </Tile>
-          </div>
-        </section>
-
-        {/* Fag */}
-        <section className="border-t border-border bg-surface/60">
-          <div className="max-w-6xl mx-auto px-5 sm:px-8 py-20 lg:py-28 flex flex-col gap-12">
-            <div className="flex flex-col gap-4 max-w-2xl">
-              <h2 className="font-display text-4xl sm:text-5xl font-semibold tracking-[-0.02em] leading-[1.05]">
-                Fra 8. trinn til Vg3
-              </h2>
-              <p className="text-lg text-ink-soft leading-relaxed">
-                Fellesfag og studieforberedende programfag, samlet på ett sted.
-              </p>
             </div>
-            <FagOversikt />
-          </div>
-        </section>
+          </section>
 
-        {/* Priser */}
-        <section id="priser" className="scroll-mt-20 max-w-6xl mx-auto px-5 sm:px-8 py-20 lg:py-28 w-full">
-          <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-12 lg:gap-20 items-start">
-            <div className="flex flex-col gap-5">
-              <h2 className="font-display text-4xl sm:text-5xl font-semibold tracking-[-0.02em] leading-[1.05]">
-                Enkel pris
-              </h2>
-              <p className="text-lg text-ink-soft leading-relaxed max-w-[34ch]">
-                Ett abonnement, alle fag og alle trinn. De første {PROVEDAGER} dagene
-                er gratis, og du kan avslutte når som helst.
-              </p>
+          <section id="priser" aria-labelledby="pris-tittel" className="max-w-7xl mx-auto px-5 sm:px-8 py-24 lg:py-36 w-full">
+            <div className="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-x-16 gap-y-12 items-start">
+              <div className="flex flex-col gap-5">
+                <Ordtittel id="pris-tittel" className={tittel}>
+                  Én pris for alt.
+                </Ordtittel>
+                <p className="text-lg leading-relaxed text-ink-soft max-w-[36ch]">
+                  Alle fag og alle trinn i ett abonnement. De første {PROVEDAGER} dagene er gratis, og du
+                  kan avslutte når som helst.
+                </p>
+              </div>
+              <div data-vis-gruppe className="grid sm:grid-cols-2 gap-4">
+                <Plan plan="maned" name="Månedlig" price={PRIS.maned} unit="/ mnd" cta="Prøv månedlig" />
+                <Plan
+                  plan="ar"
+                  name="Årlig"
+                  price={PRIS.ar}
+                  unit="/ år"
+                  cta="Prøv årlig"
+                  note={`Spar ${ARLIG_SPARING} kr`}
+                  perManed={Math.round(PRIS.ar / 12)}
+                  featured
+                />
+              </div>
             </div>
+          </section>
+        </div>
 
-            <div className="grid sm:grid-cols-2 gap-4">
-              <Plan
-                plan="maned"
-                name="Månedlig"
-                price={PRIS.maned}
-                unit="/ mnd"
-                cta="Prøv månedlig"
-              />
-              <Plan
-                plan="ar"
-                name="Årlig"
-                price={PRIS.ar}
-                unit="/ år"
-                cta="Prøv årlig"
-                note={`Spar ${ARLIG_SPARING} kr`}
-                featured
-              />
+        {/* Natt igjen: avslutning */}
+        <section data-lampelys aria-labelledby="slutt-tittel" className="fs-natt relative isolate overflow-hidden bg-natt">
+          <div
+            data-glod
+            aria-hidden="true"
+            className="pointer-events-none absolute left-1/2 top-1/2 -z-10 size-[min(960px,130vw)] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle_closest-side,rgba(255,217,140,0.15),rgba(255,217,140,0.045)_55%,transparent)]"
+          />
+          <div className="max-w-7xl mx-auto px-5 sm:px-8 py-28 lg:py-44 flex flex-col items-start gap-8">
+            <Ordtittel
+              id="slutt-tittel"
+              className="font-semibold text-[52px] leading-[0.94] sm:text-7xl lg:text-[112px] tracking-[-0.04em] max-w-[11ch]"
+            >
+              Neste prøve kommer. Vær klar.
+            </Ordtittel>
+            <p className="text-lg sm:text-xl leading-relaxed text-background/70 max-w-[40ch]">
+              Prøv alt gratis i {PROVEDAGER} dager. Du kan avslutte når som helst.
+            </p>
+            <div className="flex flex-wrap items-center gap-x-7 gap-y-4 mt-2">
+              <Link href="/registrer" className={`${ctaGul} px-6.5 py-4 text-base`}>
+                Prøv gratis i {PROVEDAGER} dager
+                <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />
+              </Link>
+              <Link
+                href="/logg-inn"
+                className="text-base font-semibold underline decoration-background/30 decoration-2 underline-offset-[6px] hover:decoration-merke transition-colors duration-200"
+              >
+                Har du konto? Logg inn
+              </Link>
             </div>
           </div>
         </section>
       </main>
 
-      <footer className="mt-auto border-t border-border">
-        <div className="max-w-6xl mx-auto px-5 sm:px-8 py-10 flex flex-col sm:flex-row gap-6 justify-between sm:items-center">
-          <Logo className="text-2xl" />
-          <nav aria-label="Bunnmeny" className="flex gap-6 text-sm text-muted">
-            <a href="#slik" className="hover:text-foreground transition-colors">Slik funker det</a>
-            <a href="#priser" className="hover:text-foreground transition-colors">Priser</a>
-            <Link href="/fag" className="hover:text-foreground transition-colors">Fag</Link>
-          </nav>
-          <div className="text-sm text-faint">© 2026 studer</div>
-        </div>
-        <div className="max-w-6xl mx-auto px-5 sm:px-8 pb-10">
-          <Bunnlenker />
+      <footer className="fs-natt bg-natt border-t border-natt-linje">
+        <div className="max-w-7xl mx-auto px-5 sm:px-8 py-12 flex flex-col gap-10">
+          <div className="flex flex-col sm:flex-row gap-6 justify-between sm:items-end">
+            <div className="flex flex-col gap-2">
+              <Logo className="text-3xl" />
+              <p className="text-sm text-background/60 max-w-[46ch]">
+                {DRIVER} er en ungdomsbedrift{SKOLE ? ` ved ${SKOLE}` : ""}.
+              </p>
+            </div>
+            <nav aria-label="Bunnmeny" className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-background/60">
+              <a href="#slik" className="hover:text-background transition-colors">
+                Slik funker det
+              </a>
+              <a href="#fag" className="hover:text-background transition-colors">
+                Fag
+              </a>
+              <a href="#priser" className="hover:text-background transition-colors">
+                Priser
+              </a>
+            </nav>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-4 sm:items-center justify-between border-t border-natt-linje pt-6">
+            <Bunnlenker mork className="flex-1" />
+            <span className="text-sm text-background/45">© 2026 studer</span>
+          </div>
         </div>
       </footer>
-    </div>
-  );
-}
-
-const navLinkCls =
-  "hidden sm:inline-flex px-3 py-2 rounded-lg text-sm font-medium text-ink-soft hover:text-foreground hover:bg-sunken transition-colors duration-200";
-
-function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
-  const cls = navLinkCls;
-  return href.startsWith("#") ? (
-    <a href={href} className={cls}>{children}</a>
-  ) : (
-    <Link href={href} className={cls}>{children}</Link>
-  );
-}
-
-function HeroStack() {
-  return (
-    <div className="relative mx-auto w-full max-w-[420px] pt-6 pb-10 rise [animation-delay:120ms]">
-      {/* Flashcard bak */}
-      <div
-        className="absolute right-[-6%] top-0 w-[78%] h-[62%] rounded-3xl bg-surface border border-border shadow-card rotate-[5deg] flex flex-col p-6"
-        aria-hidden="true"
-      >
-        <span className="text-xs font-medium text-faint">Begrep</span>
-        <span className="font-display text-xl font-semibold">Katalysator</span>
-      </div>
-
-      {/* Quizkort foran */}
-      <div className="relative mt-16 bg-surface border border-border rounded-3xl p-7 sm:p-8 shadow-lift">
-        <div className="flex items-center gap-1.5 text-xs font-medium text-muted mb-4">
-          Vg2 <span className="text-faint">/</span> Kjemi 1{" "}
-          <span className="text-faint">/</span> Energi og entalpi
-        </div>
-        <div className="font-display text-[22px] sm:text-2xl font-semibold leading-snug mb-5 tracking-[-0.01em]">
-          Hva kalles en reaksjon som avgir varme til omgivelsene?
-        </div>
-        <div className="flex flex-col gap-2">
-          <div className="flex items-center justify-between border-[1.5px] border-success bg-success-tint rounded-xl px-4 py-3 text-sm font-semibold text-success-ink">
-            Eksoterm reaksjon
-            <Check size={16} />
-          </div>
-          <div className="border border-border rounded-xl px-4 py-3 text-sm text-ink-soft">
-            Endoterm reaksjon
-          </div>
-          <div className="border border-border rounded-xl px-4 py-3 text-sm text-ink-soft">
-            Katalytisk reaksjon
-          </div>
-        </div>
-      </div>
-
-      {/* Fremdrift */}
-      <div className="absolute -left-3 sm:-left-8 bottom-0 bg-foreground text-background rounded-2xl pl-3.5 pr-4 py-3 flex items-center gap-3 shadow-lift">
-        <svg width="30" height="30" viewBox="0 0 36 36" aria-hidden="true">
-          <circle cx="18" cy="18" r="14" fill="none" stroke="rgba(255,255,255,.18)" strokeWidth="4" />
-          <circle cx="18" cy="18" r="14" fill="none" stroke="#8fa3ff" strokeWidth="4" strokeLinecap="round" strokeDasharray="52.8 88" transform="rotate(-90 18 18)" />
-        </svg>
-        <div className="flex flex-col leading-tight">
-          <span className="text-sm font-semibold tabular-nums">60 % gjennomgått</span>
-          <span className="text-xs text-background/60">Energi og entalpi</span>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Step({
-  n,
-  label,
-  value,
-  hint,
-  last,
-}: {
-  n: number;
-  label: string;
-  value: string;
-  hint: string;
-  last?: boolean;
-}) {
-  return (
-    <li className={`relative flex gap-6 ${last ? "" : "pb-10"}`}>
-      <span
-        className={`relative z-10 shrink-0 w-10 h-10 rounded-xl flex items-center justify-center text-sm font-semibold tabular-nums ${
-          last
-            ? "bg-primary text-white"
-            : "bg-surface border border-border-strong text-foreground"
-        }`}
-      >
-        {n}
-      </span>
-      <div className="flex flex-col gap-1 pt-1.5">
-        <span className="text-sm font-medium text-muted">{label}</span>
-        <span className="font-display text-2xl sm:text-3xl font-semibold tracking-[-0.015em]">
-          {value}
-        </span>
-        <span className="text-sm text-faint">{hint}</span>
-      </div>
-    </li>
-  );
-}
-
-function Tile({
-  title,
-  text,
-  className = "",
-  horizontal,
-  children,
-}: {
-  title: string;
-  text: string;
-  className?: string;
-  horizontal?: boolean;
-  children: React.ReactNode;
-}) {
-  return (
-    <div
-      className={`bg-surface border border-border rounded-3xl p-7 flex gap-6 ${
-        horizontal
-          ? "flex-col md:flex-row md:items-center md:justify-between"
-          : "flex-col justify-between"
-      } ${className}`}
-    >
-      <div className="flex flex-col gap-2 max-w-[40ch]">
-        <h3 className="text-2xl font-semibold tracking-[-0.01em]">{title}</h3>
-        <p className="text-ink-soft leading-relaxed">{text}</p>
-      </div>
-      {children}
-    </div>
-  );
-}
-
-function MiniOption({
-  state,
-  children,
-}: {
-  state: "right" | "wrong";
-  children: React.ReactNode;
-}) {
-  return (
-    <div
-      className={`flex items-center justify-between rounded-lg px-3 py-2 text-sm border ${
-        state === "right"
-          ? "border-success bg-success-tint text-success-ink font-semibold"
-          : "border-border text-faint line-through decoration-danger/60"
-      }`}
-    >
-      {children}
-      {state === "right" && <Check size={14} />}
     </div>
   );
 }
@@ -429,6 +304,7 @@ function Plan({
   unit,
   cta,
   note,
+  perManed,
   featured,
 }: {
   plan: Abonnement;
@@ -437,39 +313,39 @@ function Plan({
   unit: string;
   cta: string;
   note?: string;
+  perManed?: number;
   featured?: boolean;
 }) {
   return (
     <div
+      data-vis
       className={`rounded-3xl p-7 sm:p-8 flex flex-col gap-6 ${
-        featured
-          ? "bg-foreground text-background shadow-lift"
-          : "bg-surface border border-border"
+        featured ? "fs-natt bg-natt text-background shadow-lift" : "bg-surface border border-border"
       }`}
     >
       <div className="flex items-center justify-between h-7">
-        <span className={`text-sm font-semibold ${featured ? "text-background/70" : "text-muted"}`}>
-          {name}
-        </span>
+        <span className={`text-sm font-semibold ${featured ? "text-background/70" : "text-muted"}`}>{name}</span>
         {note && (
-          <span className="text-xs font-semibold bg-primary text-white px-2.5 py-1 rounded-md">
-            {note}
-          </span>
+          <span className="text-xs font-semibold bg-merke text-foreground px-2.5 py-1 rounded-md">{note}</span>
         )}
       </div>
-      <div className="flex items-baseline gap-1.5">
-        <span className="font-display text-5xl font-semibold tabular-nums tracking-[-0.02em]">
-          {price} kr
+      <div className="flex flex-col gap-1">
+        <div className="flex items-baseline gap-1.5">
+          <span className="font-display text-5xl font-semibold tabular-nums tracking-[-0.02em]">{price} kr</span>
+          <span className={`text-sm ${featured ? "text-background/60" : "text-muted"}`}>{unit}</span>
+        </div>
+        <span className={`text-sm ${featured ? "text-background/60" : "text-muted"}`}>
+          {perManed ? `Rundt ${perManed} kr i måneden` : "Betal måned for måned"}
         </span>
-        <span className={`text-sm ${featured ? "text-background/60" : "text-muted"}`}>{unit}</span>
       </div>
-      <span className={`-mt-3 text-sm font-semibold ${featured ? "text-[#8fa3ff]" : "text-primary"}`}>
-        Første {PROVEDAGER} dager gratis
-      </span>
       <ul className={`flex flex-col gap-3 text-sm ${featured ? "text-background/80" : "text-ink-soft"}`}>
+        <li className={`flex items-center gap-2.5 font-semibold ${featured ? "text-merke" : "text-foreground"}`}>
+          <Check size={16} />
+          Første {PROVEDAGER} dager gratis
+        </li>
         {FORDELER.map((f) => (
           <li key={f} className="flex items-center gap-2.5">
-            <Check size={16} className={featured ? "text-[#8fa3ff]" : "text-primary"} />
+            <Check size={16} className={featured ? "text-background/50" : "text-faint"} />
             {f}
           </li>
         ))}
@@ -478,8 +354,8 @@ function Plan({
         href={`/abonnement?plan=${plan}`}
         className={`mt-auto text-center px-4 py-3.5 rounded-xl text-sm font-semibold transition-[background-color,transform,border-color] duration-200 active:scale-[0.98] ${
           featured
-            ? "bg-background text-foreground hover:bg-white"
-            : "border-[1.5px] border-border-strong text-foreground hover:border-foreground"
+            ? "bg-merke text-foreground hover:bg-merke-dark"
+            : "bg-foreground text-background hover:bg-black"
         }`}
       >
         {cta}
