@@ -4,7 +4,11 @@
   Én aksentfarge (blå). Grønn og rød brukes kun semantisk: riktig / feil.
   Alle gråtoner er varme og henter fargen fra den kremfargede bakgrunnen.
 */
-:root {
+/* Lys modus er standard. Natt-flatene på forsiden og startsiden (.fs-natt)
+   er tegnet med de lyse fargene (krem tekst, lyse notatkort) og beholder
+   dem også i mørk modus. */
+:root,
+.fs-natt {
   --background: #f7f4ee;
   --surface: #fffdf9;
   --sunken: #efeae0;
@@ -38,6 +42,33 @@
     0 12px 32px -18px rgba(60, 48, 30, 0.22);
   --shadow-lift: 0 2px 4px rgba(60, 48, 30, 0.05),
     0 28px 56px -28px rgba(40, 36, 70, 0.32);
+}
+
+/* Mørk modus (data-tema settes av skriptet i lib/tema.ts). Varme mørke
+   flater i familie med natt-flatene, kremhvit tekst. Primærblå er lysere,
+   så den kan leses på mørkt og fortsatt bære hvit tekst på knapper. */
+:root[data-tema="mork"] {
+  color-scheme: dark;
+  --background: #131418;
+  --surface: #1b1d23;
+  --sunken: #0e0f12;
+  --foreground: #f3efe7;
+  --ink-soft: #d2ccc1;
+  --muted: #a39d92;
+  --faint: #7c776e;
+  --border: #2a2c33;
+  --border-strong: #3b3e47;
+  --primary: #5571f3;
+  --primary-dark: #6a84f5;
+  --primary-tint: #1c2442;
+  --success: #2e9e67;
+  --success-ink: #8bd9b1;
+  --success-tint: #14271d;
+  --danger: #d65252;
+  --danger-ink: #f2a7a3;
+  --danger-tint: #2d1818;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px -18px rgba(0, 0, 0, 0.6);
+  --shadow-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 28px 56px -28px rgba(0, 0, 0, 0.7);
 }
 
 @theme inline {
@@ -109,6 +140,13 @@ body::before {
 }
 
 @layer base {
+  /* Natt-flatene har krem tekst i begge moduser. Settes her og ikke bare
+     arves, fordi forelderen (text-background) regnes ut med mørk modus sine
+     farger før .fs-natt får låst dem. */
+  .fs-natt {
+    color: var(--background);
+  }
+
   h1,
   h2,
   h3 {
@@ -382,6 +420,41 @@ html:not(.har-okt):has([data-forside]) body {
 .fs-meny[data-flate="dag"] .fs-menyknapp:hover {
   background: #000;
 }
+/* Mørk modus: dag-flatene blir mørke, så menyen beholder natt-utseendet
+   hele veien nedover. */
+:root[data-tema="mork"] .fs-meny[data-flate="dag"] {
+  --meny-bg: rgba(15, 16, 20, 0.78);
+  --meny-tekst: var(--background);
+  --meny-dempet: rgba(247, 244, 238, 0.68);
+  --meny-hover: rgba(247, 244, 238, 0.08);
+  --meny-linje: var(--natt-linje);
+}
+@media (max-width: 1023px) {
+  :root[data-tema="mork"] .fs-meny[data-flate="dag"] {
+    --meny-bg: var(--natt);
+  }
+}
+:root[data-tema="mork"] .fs-meny[data-flate="dag"] .fs-menyknapp {
+  background: var(--merke);
+  color: var(--foreground);
+}
+:root[data-tema="mork"] .fs-meny[data-flate="dag"] .fs-menyknapp:hover {
+  background: var(--merke-dark);
+}
+:root[data-tema="mork"] .fs-meny[data-flate="dag"] [data-profil] {
+  background: var(--background);
+  color: var(--foreground);
+}
+:root[data-tema="mork"] .fs-meny[data-flate="dag"] [data-profil]:hover {
+  background: var(--merke);
+}
+:root[data-tema="mork"] .fs-meny[data-flate="dag"] :focus-visible {
+  outline-color: var(--merke);
+}
+/* Papirteksturen ganges inn i bakgrunnen; på mørkt holder det med litt. */
+:root[data-tema="mork"] body::before {
+  opacity: 0.18;
+}
 
 /* Ikonet som popper fram når man svarer i flashcard-demoen. Med redusert
    bevegelse toner det bare inn. */
@@ -427,6 +500,11 @@ html:not(.har-okt):has([data-forside]) body {
 .group:hover .fs-merk,
 .group:focus-visible .fs-merk {
   background-size: 100% 0.42em;
+}
+/* I mørk modus er teksten lys, så streken må være svakere for at den skal
+   kunne leses over den. */
+:root[data-tema="mork"] .fs-merk {
+  background-image: linear-gradient(rgba(246, 224, 94, 0.32), rgba(246, 224, 94, 0.32));
 }
 @media (prefers-reduced-motion: reduce) {
   .fs-merk {

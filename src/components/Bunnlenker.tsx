@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { Instagram, TikTok } from "@/components/icons";
+import { Temavelger } from "@/components/Temavelger";
 import { KONTAKT_EPOST } from "@/lib/juridisk";
 import { SOSIALE_MEDIER } from "@/lib/seo";
 
 const IKONER: Record<string, typeof Instagram> = { Instagram, TikTok };
 
 // Lenkene som skal finnes nederst overalt: forslag, vilkår, personvern og
-// kontakt til venstre, profilene våre i sosiale medier til høyre.
+// kontakt til venstre, lys/mørk modus og profilene våre i sosiale medier
+// til høyre.
 // mork: på mørk bakgrunn (bunnen av forsiden).
 export function Bunnlenker({ className = "", mork = false }: { className?: string; mork?: boolean }) {
   const lenke = `${mork ? "hover:text-background" : "hover:text-foreground"} transition-colors`;
@@ -30,8 +32,10 @@ export function Bunnlenker({ className = "", mork = false }: { className?: strin
           Kontakt oss
         </a>
       </nav>
+      <div className="flex items-center gap-4">
+      <Temavelger mork={mork} />
       {profiler.length > 0 && (
-        <ul aria-label="Studer i sosiale medier" className="flex items-center gap-1 -mx-2">
+        <ul aria-label="Studer i sosiale medier" className="flex items-center gap-1 -mr-2">
           {profiler.map((p) => {
             const Ikon = IKONER[p.navn];
             return (
@@ -55,6 +59,7 @@ export function Bunnlenker({ className = "", mork = false }: { className?: strin
           })}
         </ul>
       )}
+      </div>
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { Fraunces, Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/lib/auth";
 import { oktNokkel } from "@/lib/supabase";
+import { temaskript } from "@/lib/temaskript";
 import { BESKRIVELSE, DELING, NAVN, NETTSTED, TITTEL, TITTELMAL } from "@/lib/seo";
 
 // Skriftene lastes ned ved bygging og serveres fra studer.no, så siden ikke
@@ -33,7 +34,10 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#f7f4ee",
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#131418" },
+    { color: "#f7f4ee" },
+  ],
 };
 
 // Kjøres før forsiden tegnes: skjul markedssiden hvis det finnes en lagret
@@ -53,10 +57,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <script dangerouslySetInnerHTML={{ __html: forhandsskript }} />
+        <script dangerouslySetInnerHTML={{ __html: temaskript + forhandsskript }} />
         <a
           href="#innhold"
-          className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-70 focus:bg-foreground focus:text-white focus:px-4 focus:py-2.5 focus:rounded-lg focus:text-sm focus:font-semibold"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-70 focus:bg-foreground focus:text-background focus:px-4 focus:py-2.5 focus:rounded-lg focus:text-sm focus:font-semibold"
         >
           Hopp til innhold
         </a>

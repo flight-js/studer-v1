@@ -22,6 +22,7 @@ import {
 } from "@/lib/betaling";
 import { ARLIG_SPARING, ENHET, FORDELER, PLANNAVN, PRIS, PROVEDAGER, type Plan } from "@/lib/priser";
 import { datoTekst, harAbonnement, kanProve, type Profil } from "@/lib/profil";
+import { erMork } from "@/lib/tema";
 
 // Kjøp og administrasjon av abonnement. Betalingsskjemaet bygges av Stripes
 // Checkout Elements inne på siden: Apple Pay / Google Pay-knapper og kortfelt.
@@ -398,26 +399,35 @@ function useVentPaProfil() {
   );
 }
 
-// Stripe-feltene skal se ut som resten av Studer.
-const UTSEENDE: Appearance = {
-  theme: "stripe",
-  variables: {
-    colorPrimary: "#2c4bd4",
-    colorBackground: "#fffdf9",
-    colorText: "#1b1a2e",
-    colorTextSecondary: "#6b6760",
-    colorDanger: "#c43d3d",
-    fontFamily: '"Instrument Sans", ui-sans-serif, system-ui, sans-serif',
-    fontSizeBase: "15px",
-    borderRadius: "12px",
-    spacingUnit: "4px",
-  },
-  rules: {
-    ".Input": { borderColor: "#d3ccbd", boxShadow: "none" },
-    ".Input:focus": { borderColor: "#2c4bd4", boxShadow: "0 0 0 3px rgba(44, 75, 212, 0.15)" },
-    ".Tab": { borderColor: "#d3ccbd", boxShadow: "none" },
-  },
-};
+// Stripe-feltene skal se ut som resten av Studer, i lys og mørk modus.
+// Fargene hentes fra CSS-variablene i globals.css når skjemaet lages.
+function utseende(): Appearance {
+  const css = getComputedStyle(document.documentElement);
+  const farge = (navn: string) => css.getPropertyValue(navn).trim();
+  const mork = erMork();
+  return {
+    theme: mork ? "night" : "stripe",
+    variables: {
+      colorPrimary: farge("--primary"),
+      colorBackground: farge("--surface"),
+      colorText: farge("--foreground"),
+      colorTextSecondary: farge("--muted"),
+      colorDanger: farge("--danger"),
+      fontFamily: '"Instrument Sans", ui-sans-serif, system-ui, sans-serif',
+      fontSizeBase: "15px",
+      borderRadius: "12px",
+      spacingUnit: "4px",
+    },
+    rules: {
+      ".Input": { borderColor: farge("--border-strong"), boxShadow: "none" },
+      ".Input:focus": {
+        borderColor: farge("--primary"),
+        boxShadow: `0 0 0 3px ${mork ? "rgba(85, 113, 243, 0.3)" : "rgba(44, 75, 212, 0.15)"}`,
+      },
+      ".Tab": { borderColor: farge("--border-strong"), boxShadow: "none" },
+    },
+  };
+}
 
 // «ready» melder { applePay: true, … }, «availablepaymentmethodschange» { applePay: { available: true }, … }.
 type Lommeboker = Record<string, boolean | { available: boolean } | undefined>;
@@ -458,7 +468,7 @@ function Betalingsskjema({
       const checkout = stripe.initCheckoutElementsSdk({
         clientSecret,
         elementsOptions: {
-          appearance: UTSEENDE,
+          appearance: utseende(),
           fonts: [{ cssSrc: "https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap" }],
         },
       });

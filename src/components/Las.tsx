@@ -70,7 +70,7 @@ export function Abonnementskort({ neste }: { neste?: string }) {
       </span>
       <Link
         href={abonnementHref(neste)}
-        className="group shrink-0 w-fit inline-flex items-center gap-2 bg-background text-foreground px-5 py-3 rounded-xl text-sm font-semibold hover:bg-white transition-[color,background-color,border-color,scale] active:scale-[0.98]"
+        className="group shrink-0 w-fit inline-flex items-center gap-2 bg-background text-foreground px-5 py-3 rounded-xl text-sm font-semibold hover:bg-surface transition-[color,background-color,border-color,scale] active:scale-[0.98]"
       >
         {kanProve ? "Start prøveperioden" : "Se abonnement"}
         <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />

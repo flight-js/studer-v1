@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { AppBar } from "@/components/AppBar";
 import { ArrowRight, LogOut } from "@/components/icons";
+import { Temavelger } from "@/components/Temavelger";
 import { KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
 import { PLANNAVN, PROVEDAGER } from "@/lib/priser";
@@ -97,6 +98,18 @@ export default function KontoPage() {
               {loggerUt ? "Logger ut …" : "Logg ut"}
             </button>
           </div>
+
+          <section aria-labelledby="utseende" className="border-t border-border pt-8 flex flex-col gap-3">
+            <h2 id="utseende" className="font-display text-xl font-semibold">
+              Utseende
+            </h2>
+            <p className="text-sm text-ink-soft leading-relaxed max-w-[56ch]">
+              System følger innstillingen på telefonen eller PC-en. Valget lagres i denne nettleseren.
+            </p>
+            <div>
+              <Temavelger medTekst />
+            </div>
+          </section>
 
           <SlettKonto medAbonnement={harAbonnement(profil)} onSlettet={() => setSlettet(true)} />
         </main>
