@@ -328,6 +328,22 @@ html.lenis {
   --meny-bg: transparent;
   --meny-linje: transparent;
 }
+/* iOS Safari farger feltet bak klokka etter en fast meny med tett bakgrunn,
+   ellers etter sidens bakgrunn. Halvgjennomsiktig meny og lys bakgrunn ga
+   lys tekst bak klokka på forsiden. Derfor tett meny på små skjermer, og
+   mørk sidebakgrunn mens markedssiden vises (ikke for innloggede). */
+@media (max-width: 1023px) {
+  .fs-meny {
+    --meny-bg: var(--natt);
+  }
+  .fs-meny[data-flate="dag"] {
+    --meny-bg: var(--background);
+  }
+}
+html:not(.har-okt):has([data-forside]),
+html:not(.har-okt):has([data-forside]) body {
+  background: var(--natt);
+}
 .fs-menylenke {
   color: var(--meny-dempet);
 }
@@ -450,8 +466,22 @@ html.fs-intro .ff-intro {
   inset: 0;
   container-type: size;
   overflow: hidden;
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 96px, #000 30%, rgba(0, 0, 0, 0.06) 50%);
-  mask-image: linear-gradient(to bottom, transparent 0, #000 96px, #000 30%, rgba(0, 0, 0, 0.06) 50%);
+  /* Smale skjermer: ordene står over teksten og tones ut der den begynner.
+     --ff-grense settes av Fokusfelt; uten JavaScript gjelder prosentene. */
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    #000 96px,
+    #000 calc(var(--ff-grense, 42%) - 12px),
+    rgba(0, 0, 0, 0.06) calc(var(--ff-grense, 42%) + 64px)
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    #000 96px,
+    #000 calc(var(--ff-grense, 42%) - 12px),
+    rgba(0, 0, 0, 0.06) calc(var(--ff-grense, 42%) + 64px)
+  );
 }
 @media (min-width: 1024px) {
   .ff-felt {
@@ -475,7 +505,9 @@ html.fs-intro .ff-intro {
   gap: 0.18em 0.62em;
   padding: 88px max(20px, 3.5cqw) 0;
   font-family: var(--font-display);
-  font-size: clamp(25px, 3.25cqw, 52px);
+  /* På mobil litt mindre enn før, så det står flere ord på hver linje og
+     tekstveggen ligner den på store skjermer. */
+  font-size: clamp(21px, 3.25cqw, 52px);
   line-height: 1.22;
   letter-spacing: -0.012em;
   white-space: nowrap;
@@ -489,7 +521,7 @@ html.fs-intro .ff-intro {
   filter: blur(2.4px);
 }
 .ff-lampe {
-  --r: clamp(108px, 12.5cqw, 188px);
+  --r: clamp(92px, 12.5cqw, 188px);
   --lx: 70cqw;
   --ly: 34cqh;
   position: absolute;

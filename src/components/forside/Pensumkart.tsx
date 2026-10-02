@@ -79,9 +79,10 @@ function tilstand(steg: number): Tilstand {
     }
   });
   const etiketter = KATALOG.map((_, b) => (steg === 0 ? 0.7 : b === VALGT_TRINN ? 1 : 0.3));
-  return { a, g, k, etiketter, glod: steg >= 3 ? 1 : 0 };
+  return { a, g, k, etiketter, glod: steg >= 3 ? 1 : 0, zoom: steg >= 2 ? 1 : 0 };
 }
-type Tilstand = { a: Float32Array; g: Float32Array; k: Float32Array; etiketter: number[]; glod: number };
+// zoom: 1 betyr innzoomet på det valgte faget (bare på smale skjermer, se oppsett).
+type Tilstand = { a: Float32Array; g: Float32Array; k: Float32Array; etiketter: number[]; glod: number; zoom: number };
 
 const PAPIR = [247, 244, 238];
 const GUL = [246, 224, 94];
@@ -130,6 +131,20 @@ export function Pensumkart() {
     let til: Tilstand = fra;
     const fremdrift = { p: 1 };
     let skrift = "500 12px system-ui";
+    // På mobil blir prikkene små. Fra «Velg fag» zoomes det inn på faget og
+    // radene rundt, så det valgte temaet synes. fokus er midten av utsnittet,
+    // z hvor mye det forstørres; vis er transformen som er tegnet nå.
+    let kanZoome = false;
+    const kamera = { z: 1, fx: 0, fy: 0 };
+    const vis = { z: 1, x: 0, y: 0 };
+    const transform = (zoom: number) => {
+      if (!kanZoome || zoom <= 0) return { z: 1, x: 0, y: 0 };
+      const z = Math.exp(Math.log(kamera.z) * zoom);
+      // Fokuspunktet glir mot midten mens det forstørres.
+      const sx = kamera.fx + (w / 2 - kamera.fx) * zoom;
+      const sy = kamera.fy + (h / 2 - kamera.fy) * zoom;
+      return { z, x: sx - kamera.fx * z, y: sy - kamera.fy * z };
+    };
 
     const oppsett = () => {
       const tilgjengelig = flateEl.getBoundingClientRect();
@@ -162,6 +177,20 @@ export function Pensumkart() {
         xs[i] = blokkPos[p.blokk].x + p.kol * pitch + pitch / 2;
         ys[i] = blokkPos[p.blokk].y + ETIKETT + p.rad * pitch + pitch / 2;
       });
+
+      // Utsnittet det zoomes inn på: faget og tre rader over og under.
+      kanZoome = pitch < 10;
+      const fag = KATALOG[VALGT_TRINN].fag;
+      const radFra = Math.max(0, VALGT_FAG - 3);
+      const radTil = Math.min(fag.length - 1, VALGT_FAG + 3);
+      const x0 = blokkPos[VALGT_TRINN].x;
+      const x1 = x0 + Math.max(...fag.map((f) => f.temaer.length)) * pitch;
+      const y0 = blokkPos[VALGT_TRINN].y + ETIKETT + radFra * pitch;
+      const y1 = blokkPos[VALGT_TRINN].y + ETIKETT + (radTil + 1) * pitch;
+      kamera.z = Math.min(4, (w / (x1 - x0)) * 0.9, (h / (y1 - y0)) * 0.9);
+      kamera.fx = (x0 + x1) / 2;
+      kamera.fy = (y0 + y1) / 2;
+
       plasserKort();
       tegn();
     };
@@ -176,26 +205,40 @@ export function Pensumkart() {
       const oy = canvasBoks.top - flateBoks.top;
       const kw = k.offsetWidth;
       const kh = k.offsetHeight;
-      let x = ox + xs[i] + pitch * 1.6;
-      if (x + kw > flateBoks.width) x = ox + xs[i] - pitch * 1.6 - kw;
+      // Kortet vises når kartet er ferdig zoomet, så det plasseres ut fra det.
+      const t = transform(til.zoom);
+      const px = xs[i] * t.z + t.x;
+      const py = ys[i] * t.z + t.y;
+      const avstand = pitch * t.z * 1.6;
+      let x = ox + px + avstand;
+      if (x + kw > flateBoks.width) x = ox + px - avstand - kw;
       x = Math.max(0, Math.min(x, flateBoks.width - kw));
-      const y = Math.max(0, Math.min(oy + ys[i] - kh / 2, flateBoks.height - kh));
+      const y = Math.max(0, Math.min(oy + py - kh / 2, flateBoks.height - kh));
       k.style.transform = `translate3d(${Math.round(x)}px, ${Math.round(y)}px, 0)`;
     };
 
     const tegn = () => {
+      if (!w) return;
       const p = fremdrift.p;
       const lerp = (a: number, b: number) => a + (b - a) * p;
+      const dpr = canvas.width / w;
+      const zoom = lerp(fra.zoom, til.zoom);
+      Object.assign(vis, transform(zoom));
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.clearRect(0, 0, w, h);
 
-      // Etiketter
+      // Etiketter – de tones ut når kartet zoomes inn; bildeteksten under
+      // sier da hvilket trinn og fag det er.
       ctx.font = skrift;
       ctx.textBaseline = "alphabetic";
       KATALOG.forEach((t, b) => {
-        ctx.globalAlpha = lerp(fra.etiketter[b], til.etiketter[b]);
+        ctx.globalAlpha = lerp(fra.etiketter[b], til.etiketter[b]) * (kanZoome ? 1 - zoom : 1);
         ctx.fillStyle = `rgb(${PAPIR.join(",")})`;
         ctx.fillText(t.navn, blokkPos[b].x, blokkPos[b].y + 13);
       });
+
+      // Prikkene og gløden tegnes gjennom zoomen.
+      ctx.setTransform(dpr * vis.z, 0, 0, dpr * vis.z, dpr * vis.x, dpr * vis.y);
 
       // Glød rundt det valgte temaet
       const glod = lerp(fra.glod, til.glod);
@@ -234,6 +277,24 @@ export function Pensumkart() {
         ctx.stroke();
       }
       ctx.globalAlpha = 1;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+      // Innzoomet går radene ut over kanten: ton dem ut mot bakgrunnen i
+      // stedet for å kutte prikkene.
+      if (kanZoome && zoom > 0.01) {
+        const kant = Math.min(32, h * 0.12);
+        const natt = (a: number) => `rgba(15,16,20,${a})`;
+        for (const [y0, y1] of [
+          [0, kant],
+          [h, h - kant],
+        ]) {
+          const grad = ctx.createLinearGradient(0, y0, 0, y1);
+          grad.addColorStop(0, natt(zoom));
+          grad.addColorStop(1, natt(0));
+          ctx.fillStyle = grad;
+          ctx.fillRect(0, Math.min(y0, y1), w, kant);
+        }
+      }
     };
 
     // Gå til et nytt steg fra der animasjonen er nå, også midt i en overgang.
@@ -249,8 +310,10 @@ export function Pensumkart() {
         k: blandet(fra.k, til.k),
         etiketter: Array.from(blandet(fra.etiketter, til.etiketter)),
         glod: fra.glod + (til.glod - fra.glod) * p,
+        zoom: fra.zoom + (til.zoom - fra.zoom) * p,
       };
       til = tilstand(nytt);
+      plasserKort();
       fremdrift.p = 0;
       gsap.to(fremdrift, {
         p: 1,
@@ -263,9 +326,11 @@ export function Pensumkart() {
 
     // Hold musa over en prikk for å se hvilket tema det er.
     const onMove = (e: PointerEvent) => {
+      if (e.pointerType === "touch") return;
       const b = canvas.getBoundingClientRect();
-      const mx = e.clientX - b.left;
-      const my = e.clientY - b.top;
+      // Tilbake fra skjermen til kartet, også når det er zoomet inn.
+      const mx = (e.clientX - b.left - vis.x) / vis.z;
+      const my = (e.clientY - b.top - vis.y) / vis.z;
       let funnet = -1;
       const halv = pitch / 2;
       for (let i = 0; i < PRIKKER.length; i++) {
@@ -356,6 +421,12 @@ export function Pensumkart() {
           Grafikk med {TELLING.temaer} prikker, én for hvert tema i Studer, gruppert etter fag og
           trinn.
         </p>
+        {/* Stegene ruller inn under kartet på mobil: tone dem ut i stedet for å
+            kutte overskriften midt i. */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-x-0 top-full h-16 bg-linear-to-b from-natt to-transparent lg:hidden"
+        />
       </div>
 
       <ol className="relative flex flex-col pb-[16svh] lg:pb-[24vh]">

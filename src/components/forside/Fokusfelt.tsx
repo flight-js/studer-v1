@@ -26,7 +26,11 @@ const START = Math.max(
   BEGREPENE.findIndex((b) => b.term === "Folkesuverenitet"),
 );
 
-type Punkt = { x: number; y: number; venstre: number; topp: number; bunn: number; ok: boolean };
+// lysbar: lampa kan stå her (synlig, og ikke over teksten). ok: i tillegg er
+// det plass til definisjonen. Når lampa går av seg selv, viser den ingen
+// definisjon, så da holder det at ordet er lysbart – ellers fikk den nesten
+// ingen steder å gå på mobil, der det er lite plass over overskriften.
+type Punkt = { x: number; y: number; venstre: number; topp: number; bunn: number; lysbar: boolean; ok: boolean };
 type Boks = { l: number; t: number; r: number; b: number };
 
 // Øverste kant lampa og notatet kan bruke: under toppmenyen, og på smale
@@ -112,7 +116,7 @@ export function Fokusfelt() {
 
     // Hvor notatet havner for et begrep: under det hvis det er plass, ellers
     // over. null hvis det ikke får plass uten å dekke menyen eller teksten.
-    const notatBoks = (p: Omit<Punkt, "ok">, w: number, h: number): Boks | null => {
+    const notatBoks = (p: Omit<Punkt, "ok" | "lysbar">, w: number, h: number): Boks | null => {
       const l = Math.min(Math.max(p.venstre, 16), bredde - w - 16);
       for (const t of [p.bunn + 12, p.topp - h - 12]) {
         const boks = { l, t, r: l + w, b: t + h };
@@ -131,6 +135,10 @@ export function Fokusfelt() {
       hoyde = r.height;
       radius = lampe.offsetWidth / 2;
       unnta = malUnnta(r);
+      // På smale skjermer står ordene over teksten. Masken i globals.css
+      // toner dem ut fra der teksten begynner, som avhenger av skjermhøyden.
+      const grense = unnta.length ? Math.min(...unnta.map((u) => u.t)) : hoyde * 0.4;
+      felt.style.setProperty("--ff-grense", `${Math.round(grense)}px`);
       const notatW = notat.offsetWidth || 300;
       punkter = dimOrd.map((o) => {
         const b = o.getBoundingClientRect();
@@ -146,16 +154,16 @@ export function Fokusfelt() {
         // som nesten er borte.
         const synlig =
           bredde < 1024
-            ? p.bunn < hoyde * 0.34
+            ? p.bunn < grense
             : (p.x / bredde / 0.62) ** 2 + ((hoyde - p.y) / hoyde / 0.64) ** 2 > 0.75;
-        const ok =
+        const lysbar =
           synlig &&
           p.topp > ovreKant(bredde) &&
           p.x > radius * 0.45 &&
           p.x < bredde - radius * 0.45 &&
-          !unnta.some((u) => overlapper(u, ord)) &&
-          notatBoks(p, notatW, NOTAT_H) !== null;
-        return { ...p, ok };
+          !unnta.some((u) => overlapper(u, ord));
+        const ok = lysbar && notatBoks(p, notatW, NOTAT_H) !== null;
+        return { ...p, lysbar, ok };
       });
     };
 
@@ -278,15 +286,24 @@ export function Fokusfelt() {
       gsap.ticker.remove(tikk);
     };
 
-    const ledige = () => punkter.flatMap((p, i) => (p.ok && i !== aktivIndeks ? [i] : []));
+    // Steder lampa kan gå til. Med definisjon må det være plass til notatet;
+    // finnes ingen slike (svært lave skjermer), holder det at ordet er lysbart.
+    const ledige = (medNotat: boolean) => {
+      const alle = (krav: "ok" | "lysbar") => punkter.flatMap((p, i) => (p[krav] && i !== aktivIndeks ? [i] : []));
+      const valg = medNotat ? alle("ok") : [];
+      return valg.length ? valg : alle("lysbar");
+    };
     const flyttTil = (i: number) => {
       maal.x = punkter[i].x;
       maal.y = punkter[i].y;
       startTikk();
     };
-    const tilfeldig = () => {
-      const valg = ledige();
-      if (valg.length) flyttTil(valg[Math.floor(Math.random() * valg.length)]);
+    // Helst et sted et stykke unna, så det synes at lampa flytter seg.
+    const tilfeldig = (medNotat = true) => {
+      const valg = ledige(medNotat);
+      const langt = valg.filter((i) => Math.hypot(punkter[i].x - maal.x, punkter[i].y - maal.y) > radius);
+      const fra = langt.length ? langt : valg;
+      if (fra.length) flyttTil(fra[Math.floor(Math.random() * fra.length)]);
     };
 
     const stoppAuto = () => {
@@ -300,7 +317,7 @@ export function Fokusfelt() {
       if (rolig() || !synlig) return;
       styring = "auto";
       auto = gsap.delayedCall(forsinkelse, function neste() {
-        tilfeldig();
+        tilfeldig(false);
         auto = gsap.delayedCall(2.6, neste);
       });
     };
@@ -313,12 +330,12 @@ export function Fokusfelt() {
     const plasserStart = () => {
       // Startbegrepet hvis det ligger fritt, ellers det som ligger nærmest
       // øvre høyre del av pulten.
-      let start = punkter[START]?.ok ? START : -1;
+      let start = punkter[START]?.lysbar ? START : -1;
       if (start < 0) {
         let best = Infinity;
         punkter.forEach((p, i) => {
           const d = (p.x - bredde * 0.68) ** 2 + (p.y - hoyde * 0.3) ** 2;
-          if (p.ok && d < best) {
+          if (p.lysbar && d < best) {
             best = d;
             start = i;
           }
@@ -514,6 +531,7 @@ export function Fokusfelt() {
         <span className="hidden lg:block text-sm text-background/55">
           Ekte begreper fra Studer · klikk på et ord for forklaringen
         </span>
+        <span className="lg:hidden text-[13px] text-background/55">Trykk på et ord</span>
         <button
           type="button"
           className="ff-bytt inline-flex items-center gap-2 rounded-full border border-natt-linje bg-natt/70 backdrop-blur-sm px-3.5 py-2 text-sm font-medium text-background/80 transition-colors duration-200 hover:text-background hover:border-background/40 active:scale-[0.98]"

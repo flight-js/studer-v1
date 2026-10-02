@@ -4,12 +4,13 @@ import { Bunnlenker } from "@/components/Bunnlenker";
 import { Logo } from "@/components/Logo";
 import { ForsideMeny, Startside } from "@/components/Forside";
 import { Bevegelse } from "@/components/forside/Bevegelse";
+import { Fagkatalog } from "@/components/forside/Fagkatalog";
 import { Fokusfelt } from "@/components/forside/Fokusfelt";
 import { Ordtittel } from "@/components/forside/Ordtittel";
 import { Ovingsformer } from "@/components/forside/Ovingsformer";
 import { Pensumkart } from "@/components/forside/Pensumkart";
 import { ArrowRight, Check } from "@/components/icons";
-import { EKSEMPEL, KATALOG, TELLING } from "@/lib/forsidedata";
+import { EKSEMPEL, TELLING } from "@/lib/forsidedata";
 import { DRIVER, SKOLE } from "@/lib/juridisk";
 import { ARLIG_SPARING, FORDELER, PRIS, PROVEDAGER, type Plan as Abonnement } from "@/lib/priser";
 import { BESKRIVELSE, DELING, NAVN, NETTSTED, SOSIALE_MEDIER, TITTEL } from "@/lib/seo";
@@ -101,8 +102,10 @@ function Markedsside() {
         {/* Hero: leselampa */}
         <section aria-labelledby="hero-tittel" className="fs-natt relative isolate overflow-hidden bg-natt">
           <Fokusfelt />
-          <div className="relative z-10 max-w-7xl mx-auto min-h-[max(100svh,640px)] px-5 sm:px-8 flex flex-col justify-end pb-12 sm:pb-16 lg:pb-20">
-            <div data-fokus-unnta className="max-w-[48rem] flex flex-col gap-6">
+          {/* På mobil og nettbrett står ordene over teksten: pt holder av plass
+              til lampa, så teksten aldri går lenger opp enn 46 % av skjermen. */}
+          <div className="relative z-10 max-w-7xl mx-auto min-h-[max(100svh,640px)] px-5 sm:px-8 pt-[max(46svh,300px)] lg:pt-0 flex flex-col justify-end pb-12 sm:pb-16 lg:pb-20">
+            <div data-fokus-unnta className="max-w-[48rem] flex flex-col gap-5 sm:gap-6">
               <p className="text-sm font-medium text-background/65">For 8.&nbsp;trinn til Vg3 · etter LK20</p>
               <h1
                 id="hero-tittel"
@@ -112,7 +115,7 @@ function Markedsside() {
                 <br />
                 Ett tema om gangen.
               </h1>
-              <p className="text-lg sm:text-xl leading-relaxed text-background/75 max-w-[40ch]">
+              <p className="text-[17px] sm:text-xl leading-relaxed text-background/75 max-w-[40ch]">
                 Flashcards, quiz og miniprøver til hvert tema i hvert fag. Ferdig laget etter
                 læreplanen, så du kan bruke tiden på å øve.
               </p>
@@ -183,25 +186,7 @@ function Markedsside() {
                   .
                 </p>
               </div>
-              <div data-vis-gruppe className="mt-14 lg:mt-20 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-12">
-                {KATALOG.map((t) => (
-                  <div key={t.id} data-vis>
-                    <h3 className="text-xl font-semibold pb-3 mb-4 border-b border-border-strong">{t.navn}</h3>
-                    <ul className="flex flex-col gap-2 text-[15px] leading-snug text-ink-soft">
-                      {t.fag.map((f) => (
-                        <li key={f.id}>
-                          <Link
-                            href={`/fag?trinn=${t.id}&fag=${f.id}`}
-                            className="hover:text-primary transition-colors duration-200"
-                          >
-                            {f.navn}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
+              <Fagkatalog />
             </div>
           </section>
 
