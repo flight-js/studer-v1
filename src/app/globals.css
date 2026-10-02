@@ -371,6 +371,36 @@ html.lenis {
   }
 }
 
+/* Kontoknappen (AppBar.tsx) på mørk meny: lys i stedet for mørk. */
+.fs-meny:not([data-flate="dag"]) [data-profil] {
+  background: var(--background);
+  color: var(--foreground);
+}
+.fs-meny:not([data-flate="dag"]) [data-profil]:hover {
+  background: var(--merke);
+}
+
+/* Merkepenn: en gul strek legger seg under fagnavnet ved hover og fokus
+   (startsiden for innloggede). Teksten står i blekk over gult. */
+.fs-merk {
+  background-image: linear-gradient(var(--merke), var(--merke));
+  background-repeat: no-repeat;
+  background-position: 0 88%;
+  background-size: 0% 0.42em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition: background-size 420ms var(--ease-out-soft);
+}
+.group:hover .fs-merk,
+.group:focus-visible .fs-merk {
+  background-size: 100% 0.42em;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fs-merk {
+    transition: none;
+  }
+}
+
 /* Mørke flater: fokusringen i merkegult, så den synes mot natten. */
 .fs-natt :focus-visible,
 .fs-meny:not([data-flate="dag"]) :focus-visible {

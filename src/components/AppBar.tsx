@@ -52,6 +52,7 @@ export function ProfilKnapp() {
   return (
     <Link
       href="/konto"
+      data-profil
       className="w-9 h-9 rounded-[10px] bg-foreground text-background flex items-center justify-center text-[13px] font-semibold hover:bg-primary transition-colors duration-200"
       aria-label="Din konto"
       title={bruker.email ?? "Din konto"}
