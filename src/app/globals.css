@@ -344,6 +344,24 @@ html:not(.har-okt):has([data-forside]),
 html:not(.har-okt):has([data-forside]) body {
   background: var(--natt);
 }
+/* iOS 26 Safari viser innholdet som er rullet forbi, svakt bak klokka og
+   batteriet. Menyene strekker derfor bakgrunnen sin et stykke opp over
+   skjermkanten, så det feltet blir dekket. Utenfor skjermen ellers. */
+.fs-meny::before,
+.dekk-topp::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 100%;
+  height: 160px;
+  pointer-events: none;
+}
+.fs-meny::before {
+  background: inherit;
+}
+.dekk-topp::before {
+  background: var(--background);
+}
 .fs-menylenke {
   color: var(--meny-dempet);
 }

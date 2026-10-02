@@ -43,7 +43,7 @@ export function Ovingstopp({
   bred?: boolean;
 }) {
   return (
-    <header className="sticky top-0 z-40 bg-background/85 backdrop-blur-md border-b border-border">
+    <header className="dekk-topp sticky top-0 z-40 bg-background/85 backdrop-blur-md border-b border-border">
       <div className={`${bred ? "max-w-5xl" : "max-w-3xl"} mx-auto flex items-center gap-5 px-5 sm:px-8 h-16`}>
         <Link
           href={tilbake}
