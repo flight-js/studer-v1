@@ -344,23 +344,14 @@ html:not(.har-okt):has([data-forside]),
 html:not(.har-okt):has([data-forside]) body {
   background: var(--natt);
 }
-/* iOS 26 Safari viser innholdet som er rullet forbi, svakt bak klokka og
-   batteriet. Menyene strekker derfor bakgrunnen sin et stykke opp over
-   skjermkanten, så det feltet blir dekket. Utenfor skjermen ellers. */
-.fs-meny::before,
-.dekk-topp::before {
-  content: "";
-  position: absolute;
-  inset-inline: 0;
-  bottom: 100%;
-  height: 160px;
-  pointer-events: none;
-}
-.fs-meny::before {
-  background: inherit;
-}
-.dekk-topp::before {
-  background: var(--background);
+/* Siden går helt opp under klokka på iPhone (viewportFit cover i
+   app/layout.tsx). Menyene dekker det feltet med sin egen bakgrunn og har
+   luft for klokka og hakket; dekk-topp brukes på AppBar og øvingsmenyen. */
+.fs-meny,
+.dekk-topp {
+  padding-top: env(safe-area-inset-top);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
 .fs-menylenke {
   color: var(--meny-dempet);
@@ -489,24 +480,24 @@ html.fs-intro .ff-intro {
   -webkit-mask-image: linear-gradient(
     to bottom,
     transparent 0,
-    #000 96px,
+    #000 calc(96px + env(safe-area-inset-top)),
     #000 calc(var(--ff-grense, 42%) - 12px),
     rgba(0, 0, 0, 0.06) calc(var(--ff-grense, 42%) + 64px)
   );
   mask-image: linear-gradient(
     to bottom,
     transparent 0,
-    #000 96px,
+    #000 calc(96px + env(safe-area-inset-top)),
     #000 calc(var(--ff-grense, 42%) - 12px),
     rgba(0, 0, 0, 0.06) calc(var(--ff-grense, 42%) + 64px)
   );
 }
 @media (min-width: 1024px) {
   .ff-felt {
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 110px),
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 calc(110px + env(safe-area-inset-top))),
       radial-gradient(ellipse 62% 64% at 0% 100%, rgba(0, 0, 0, 0.08) 45%, #000 100%);
     -webkit-mask-composite: source-in;
-    mask-image: linear-gradient(to bottom, transparent 0, #000 110px),
+    mask-image: linear-gradient(to bottom, transparent 0, #000 calc(110px + env(safe-area-inset-top))),
       radial-gradient(ellipse 62% 64% at 0% 100%, rgba(0, 0, 0, 0.08) 45%, #000 100%);
     mask-composite: intersect;
   }
@@ -521,7 +512,7 @@ html.fs-intro .ff-intro {
   flex-wrap: wrap;
   align-content: flex-start;
   gap: 0.18em 0.62em;
-  padding: 88px max(20px, 3.5cqw) 0;
+  padding: calc(88px + env(safe-area-inset-top)) max(20px, 3.5cqw) 0;
   font-family: var(--font-display);
   /* På mobil litt mindre enn før, så det står flere ord på hver linje og
      tekstveggen ligner den på store skjermer. */
